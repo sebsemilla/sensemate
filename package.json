@@ -1,0 +1,32 @@
+{
+  "name": "ai-langapp",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.96.0",
+    "@capacitor-community/speech-recognition": "^7.0.1",
+    "@capacitor/android": "^8.3.3",
+    "@capacitor/cli": "^7.6.4",
+    "@capacitor/core": "^8.3.3",
+    "@mistralai/mistralai": "^2.2.1",
+    "axios": "^1.14.0",
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^12.10.0",
+    "cohere-ai": "^8.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "jsonwebtoken": "^9.0.3",
+    "mercadopago": "^2.12.1",
+    "node-cron": "^4.2.1"
+  }
+}

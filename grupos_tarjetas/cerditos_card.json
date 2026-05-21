@@ -1,0 +1,435 @@
+
+{
+	"story": {
+		"id": "los_tres_cerditos",
+		"title": "Los tres cerditos",
+		"language": "es",
+		"genre": "cuento",
+		"recommended_levels": [
+		"A0",
+		"A1"
+		],
+		"summary_levels": {
+			"A0": "Tres cerditos construyen casas. Un lobo viene. Soplaba las casas. Una casa se cae. Los cerditos corren a la casa de ladrillo.",
+			"A1_inicial": "Tres cerditos construyen casas de paja, madera y ladrillo. Un lobo quiere entrar. Sopla las casas más débiles. Solo la casa de ladrillo resiste.",
+			"A1_completo": "Un lobo intenta atrapar a tres cerditos. Destruye dos casas, pero no puede con la casa de ladrillo. Los cerditos se salvan."
+		},
+		"tags": [
+		"cuento",
+		"animales",
+		"casas",
+		"seguridad",
+		"repeticion"
+		]
+	},
+	
+	"groups": [
+	{
+		"group_id": "A0",
+		"level": "A0",
+		"description": "Vocabulario básico y repetitivo",
+		"parts": [
+		{
+			"part_id": "A0_1",
+			"focus": "Sustantivos y objetos",
+			"flashcards": [
+			{
+				"id": "fc_3p_001",
+				"word": "cerdito",
+				"lemma": "cerdito",
+				"type": "sustantivo",
+				"difficulty": "A0",
+				"difficulty_score": 0.1,
+				"unknown": false,
+				"grammar": {
+					"gender": "masculino",
+					"number": "singular"
+				},
+				"examples": [
+				"El cerdito construye una casa.",
+				"Un cerdito corre."
+				],
+				"example_translations": {
+					"en": [
+					"The pig builds a house.",
+					"A pig runs."
+					],
+					"fr": [
+					"Le cochon construit une maison.",
+					"Un cochon court."
+					],
+					"it": [
+					"Il maialino costruisce una casa.",
+					"Un maialino corre."
+					],
+					"pt": [
+					"O porquinho constrói uma casa.",
+					"Um porquinho corre."
+					],
+					"de": [
+					"Das Schweinchen baut ein Haus.",
+					"Ein Schweinchen rennt."
+					]
+				},
+				"translations": {
+					"en": "piglet",
+					"fr": "cochon",
+					"it": "maialino",
+					"pt": "porquinho",
+					"de": "Schweinchen"
+				},
+				"tags": [
+				"animal",
+				"cuento"
+				],
+				"frequency_rank": 410,
+				"learning_state": {
+					"known": false,
+					"confidence": 0.0,
+					"last_seen": null,
+					"next_review": null,
+					"streak": 0
+				},
+				"metadata": {
+					"created_at": "2026-05-14T00:00:00Z",
+					"updated_at": "2026-05-14T00:00:00Z",
+					"source_story": "los_tres_cerditos",
+					"curriculum": "CEFR"
+				}
+			},
+			
+			{
+				"id": "fc_3p_002",
+				"word": "lobo",
+				"lemma": "lobo",
+				"type": "sustantivo",
+				"difficulty": "A0",
+				"difficulty_score": 0.12,
+				"unknown": false,
+				"grammar": {
+					"gender": "masculino",
+					"number": "singular"
+				},
+				"examples": [
+				"El lobo sopla la casa.",
+				"Un lobo corre en el bosque."
+				],
+				"example_translations": {
+					"en": [
+					"The wolf blows the house.",
+					"A wolf runs in the forest."
+					],
+					"fr": [
+					"Le loup souffle la maison.",
+					"Un loup court dans la forêt."
+					],
+					"it": [
+					"Il lupo soffia la casa.",
+					"Un lupo corre nella foresta."
+					],
+					"pt": [
+					"O lobo sopra a casa.",
+					"Um lobo corre na floresta."
+					],
+					"de": [
+					"Der Wolf pustet das Haus um.",
+					"Ein Wolf rennt im Wald."
+					]
+				},
+				"translations": {
+					"en": "wolf",
+					"fr": "loup",
+					"it": "lupo",
+					"pt": "lobo",
+					"de": "Wolf"
+				},
+				"tags": [
+				"animal",
+				"cuento"
+				],
+				"frequency_rank": 290,
+				"learning_state": {
+					"known": false,
+					"confidence": 0.0,
+					"last_seen": null,
+					"next_review": null,
+					"streak": 0
+				},
+				"metadata": {
+					"created_at": "2026-05-14T00:00:00Z",
+					"updated_at": "2026-05-14T00:00:00Z",
+					"source_story": "los_tres_cerditos",
+					"curriculum": "CEFR"
+				}
+			},
+			
+			{
+				"id": "fc_3p_003",
+				"word": "casa",
+				"lemma": "casa",
+				"type": "sustantivo",
+				"difficulty": "A0",
+				"difficulty_score": 0.08,
+				"unknown": false,
+				"grammar": {
+					"gender": "femenino",
+					"number": "singular"
+				},
+				"examples": [
+				"La casa es grande.",
+				"El cerdito construye una casa."
+				],
+				"example_translations": {
+					"en": [
+					"The house is big.",
+					"The piglet builds a house."
+					],
+					"fr": [
+					"La maison est grande.",
+					"Le cochon construit une maison."
+					],
+					"it": [
+					"La casa è grande.",
+					"Il maialino costruisce una casa."
+					],
+					"pt": [
+					"A casa é grande.",
+					"O porquinho constrói uma casa."
+					],
+					"de": [
+					"Das Haus ist groß.",
+					"Das Schweinchen baut ein Haus."
+					]
+				},
+				"translations": {
+					"en": "house",
+					"fr": "maison",
+					"it": "casa",
+					"pt": "casa",
+					"de": "Haus"
+				},
+				"tags": [
+				"objeto",
+				"cuento"
+				],
+				"frequency_rank": 85,
+				"learning_state": {
+					"known": false,
+					"confidence": 0.0,
+					"last_seen": null,
+					"next_review": null,
+					"streak": 0
+				},
+				"metadata": {
+					"created_at": "2026-05-14T00:00:00Z",
+					"updated_at": "2026-05-14T00:00:00Z",
+					"source_story": "los_tres_cerditos",
+					"curriculum": "CEFR"
+				}
+			}
+			]
+		},
+		
+		{
+			"part_id": "A0_2",
+			"focus": "Verbos básicos",
+			"flashcards": [
+			{
+				"id": "fc_3p_010",
+				"word": "construye",
+				"lemma": "construir",
+				"type": "verbo conjugado",
+				"difficulty": "A0",
+				"difficulty_score": 0.15,
+				"unknown": false,
+				"base_verb": "construir",
+				"tense": "presente indicativo",
+				"grammar": {
+					"person": "tercera",
+					"number": "singular"
+				},
+				"examples": [
+				"El cerdito construye una casa.",
+				"Ella construye una casa de madera."
+				],
+				"example_translations": {
+					"en": [
+					"The piglet builds a house.",
+					"She builds a wooden house."
+					],
+					"fr": [
+					"Le cochon construit une maison.",
+					"Elle construit une maison en bois."
+					],
+					"it": [
+					"Il maialino costruisce una casa.",
+					"Lei costruisce una casa di legno."
+					],
+					"pt": [
+					"O porquinho constrói uma casa.",
+					"Ela constrói uma casa de madeira."
+					],
+					"de": [
+					"Das Schweinchen baut ein Haus.",
+					"Sie baut ein Holzhaus."
+					]
+				},
+				"translations": {
+					"en": "builds",
+					"fr": "construit",
+					"it": "costruisce",
+					"pt": "constrói",
+					"de": "baut"
+				},
+				"tags": [
+				"accion",
+				"verbo"
+				],
+				"frequency_rank": 520,
+				"learning_state": {
+					"known": false,
+					"confidence": 0.0,
+					"last_seen": null,
+					"next_review": null,
+					"streak": 0
+				},
+				"metadata": {
+					"created_at": "2026-05-14T00:00:00Z",
+					"updated_at": "2026-05-14T00:00:00Z",
+					"source_story": "los_tres_cerditos",
+					"curriculum": "CEFR"
+				}
+			}
+			]
+		},
+		
+		{
+			"part_id": "A0_3",
+			"focus": "Conectores y preposiciones",
+			"flashcards": [
+			{
+				"id": "fc_3p_020",
+				"word": "y",
+				"lemma": "y",
+				"type": "conector",
+				"difficulty": "A0",
+				"difficulty_score": 0.02,
+				"unknown": false,
+				"examples": [
+				"El cerdito y el lobo.",
+				"Casa de paja y madera."
+				],
+				"example_translations": {
+					"en": [
+					"The piglet and the wolf.",
+					"House of straw and wood."
+					],
+					"fr": [
+					"Le cochon et le loup.",
+					"Maison de paille et de bois."
+					],
+					"it": [
+					"Il maialino e il lupo.",
+					"Casa di paglia e legno."
+					],
+					"pt": [
+					"O porquinho e o lobo.",
+					"Casa de palha e madeira."
+					],
+					"de": [
+					"Das Schweinchen und der Wolf.",
+					"Haus aus Stroh und Holz."
+					]
+				},
+				"translations": {
+					"en": "and",
+					"fr": "et",
+					"it": "e",
+					"pt": "e",
+					"de": "und"
+				},
+				"tags": [
+				"conector"
+				],
+				"frequency_rank": 1,
+				"learning_state": {
+					"known": false,
+					"confidence": 0.0,
+					"last_seen": null,
+					"next_review": null,
+					"streak": 0
+				},
+				"metadata": {
+					"created_at": "2026-05-14T00:00:00Z",
+					"updated_at": "2026-05-14T00:00:00Z",
+					"source_story": "los_tres_cerditos",
+					"curriculum": "CEFR"
+				}
+			},
+			
+			{
+				"id": "fc_3p_021",
+				"word": "en",
+				"lemma": "en",
+				"type": "preposición",
+				"difficulty": "A0",
+				"difficulty_score": 0.03,
+				"unknown": false,
+				"examples": [
+				"El lobo está en el bosque.",
+				"La casa está en el bosque."
+				],
+				"example_translations": {
+					"en": [
+					"The wolf is in the forest.",
+					"The house is in the forest."
+					],
+					"fr": [
+					"Le loup est dans la forêt.",
+					"La maison est dans la forêt."
+					],
+					"it": [
+					"Il lupo è nella foresta.",
+					"La casa è nella foresta."
+					],
+					"pt": [
+					"O lobo está na floresta.",
+					"A casa está na floresta."
+					],
+					"de": [
+					"Der Wolf ist im Wald.",
+					"Das Haus ist im Wald."
+					]
+				},
+				"translations": {
+					"en": "in",
+					"fr": "dans",
+					"it": "in",
+					"pt": "em",
+					"de": "in"
+				},
+				"tags": [
+				"preposicion"
+				],
+				"frequency_rank": 2,
+				"learning_state": {
+					"known": false,
+					"confidence": 0.0,
+					"last_seen": null,
+					"next_review": null,
+					"streak": 0
+				},
+				"metadata": {
+					"created_at": "2026-05-14T00:00:00Z",
+					"updated_at": "2026-05-14T00:00:00Z",
+					"source_story": "los_tres_cerditos",
+					"curriculum": "CEFR"
+				}
+			}
+			]
+		}
+		]
+	}
+	]
+}
+

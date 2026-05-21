@@ -1,0 +1,45 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno y secretos
+.env
+.env.*
+
+# Estado del bot de LinkedIn (no commitear tokens ni textos)
+.linkedin_state.json
+
+# Base de datos local
+lingua_users.db
+*.db
+
+# Archivos pesados / binarios
+*.tar.gz
+*.zip
+android-studio-*
+commandlinetools-*
+android/
+
+# Python virtualenv
+venv/
+kyutai-env/
+
+# Certificados SSL locales
+localhost+*.pem
+*.pem
+*.key
+
+# Audio de prueba
+test-audio.mp3
+samples/
+
+# Archivos de build / capacitor
+www/
+android/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

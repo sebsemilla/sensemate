@@ -1,0 +1,249 @@
+
+{
+	"story": {
+		"id": "caperucita_roja",
+		"title": "Caperucita Roja",
+		"language": "es",
+		"genre": "cuento",
+		"recommended_levels": [
+		"A0",
+		"A1"
+		],
+		"summary_levels": {
+			"A0": "Una niña tiene una capa roja. Su mamá le da una cesta. La niña va al bosque. Ella ve un lobo.",
+			"A1_inicial": "Caperucita Roja lleva comida a la casa de su abuela. En el bosque habla con un lobo.",
+			"A1_completo": "Un lobo engaña a Caperucita Roja y llega primero a la casa de la abuela."
+		},
+		"tags": [
+		"cuento",
+		"bosque",
+		"familia",
+		"animales",
+		"aventura"
+		]
+	},
+	
+	"groups": [
+	{
+		"group_id": "A0",
+		"level": "A0",
+		"description": "Reconocimiento de vocabulario básico",
+		"parts": [
+		{
+			"part_id": "A0_1",
+			"focus": "Sustantivos y artículos",
+			"flashcards": [
+			{
+				"id": "fc_a0_001",
+				
+				"word": "niña",
+				"lemma": "niña",
+				
+				"type": "sustantivo",
+				"difficulty": "A0",
+				"difficulty_score": 0.1,
+				
+				"unknown": false,
+				
+				"grammar": {
+					"gender": "femenino",
+					"number": "singular"
+				},
+				
+				"examples": [
+				"La niña camina.",
+				"Una niña tiene una cesta."
+				],
+				
+				"example_translations": {
+					"en": [
+					"The girl walks.",
+					"A girl has a basket."
+					],
+					"fr": [
+					"La fille marche.",
+					"Une fille a un panier."
+					],
+					"it": [
+					"La ragazza cammina.",
+					"Una ragazza ha un cesto."
+					],
+					"pt": [
+					"A menina caminha.",
+					"Uma menina tem uma cesta."
+					],
+					"de": [
+					"Das Mädchen läuft.",
+					"Ein Mädchen hat einen Korb."
+					]
+				},
+				
+				"translations": {
+					"en": "girl",
+					"fr": "fille",
+					"it": "ragazza",
+					"pt": "menina",
+					"de": "Mädchen"
+				},
+				
+				"audio": {
+					"word": "audio/es/nina.mp3",
+					"example_1": "audio/es/nina_ex1.mp3",
+					"example_2": "audio/es/nina_ex2.mp3"
+				},
+				
+				"image_prompt": "A little girl walking in a forest with a basket",
+				
+				"tags": [
+				"persona",
+				"cuento",
+				"basico"
+				],
+				
+				"frequency_rank": 320,
+				
+				"story_context": "Caperucita Roja es una niña.",
+				
+				"learning_state": {
+					"known": false,
+					"confidence": 0.0,
+					"last_seen": null,
+					"next_review": null,
+					"streak": 0
+				},
+				
+				"metadata": {
+					"created_at": "2026-05-14T00:00:00Z",
+					"updated_at": "2026-05-14T00:00:00Z",
+					"source_story": "caperucita_roja",
+					"curriculum": "CEFR"
+				}
+			},
+			
+			{
+				"id": "fc_a0_002",
+				
+				"word": "va",
+				"lemma": "ir",
+				
+				"type": "verbo conjugado",
+				"difficulty": "A0",
+				"difficulty_score": 0.12,
+				
+				"unknown": false,
+				
+				"base_verb": "ir",
+				
+				"tense": {
+					"name": "presente",
+					"mood": "indicativo",
+					"person": "tercera",
+					"number": "singular"
+				},
+				
+				"examples": [
+				"La niña va al bosque.",
+				"Ella va a la casa."
+				],
+				
+				"example_translations": {
+					"en": [
+					"The girl goes to the forest.",
+					"She goes to the house."
+					],
+					"fr": [
+					"La fille va dans la forêt.",
+					"Elle va à la maison."
+					],
+					"it": [
+					"La ragazza va nella foresta.",
+					"Lei va alla casa."
+					],
+					"pt": [
+					"A menina vai para a floresta.",
+					"Ela vai para a casa."
+					],
+					"de": [
+					"Das Mädchen geht in den Wald.",
+					"Sie geht zum Haus."
+					]
+				},
+				
+				"translations": {
+					"en": "goes",
+					"fr": "va",
+					"it": "va",
+					"pt": "vai",
+					"de": "geht"
+				},
+				
+				"audio": {
+					"word": "audio/es/va.mp3",
+					"example_1": "audio/es/va_ex1.mp3",
+					"example_2": "audio/es/va_ex2.mp3"
+				},
+				
+				"image_prompt": "A little girl walking toward a forest path",
+				
+				"tags": [
+				"movimiento",
+				"verbo",
+				"accion"
+				],
+				
+				"frequency_rank": 25,
+				
+				"story_context": "La niña va al bosque.",
+				
+				"learning_state": {
+					"known": false,
+					"confidence": 0.0,
+					"last_seen": null,
+					"next_review": null,
+					"streak": 0
+				},
+				
+				"metadata": {
+					"created_at": "2026-05-14T00:00:00Z",
+					"updated_at": "2026-05-14T00:00:00Z",
+					"source_story": "caperucita_roja",
+					"curriculum": "CEFR"
+				}
+			}
+			]
+		}
+		]
+	}
+	],
+	
+	"global_settings": {
+		"supported_translation_languages": [
+		"en",
+		"fr",
+		"it",
+		"pt",
+		"de"
+		],
+		
+		"spaced_repetition": {
+			"enabled": true,
+			"algorithm": "SM2"
+		},
+		
+		"media": {
+			"audio_enabled": true,
+			"image_generation_enabled": true
+		},
+		
+		"difficulty_system": {
+			"framework": "CEFR",
+			"levels": [
+			"A0",
+			"A1",
+			"A2",
+			"B1",
+			"B2"
+			]
+		}
+	}
+}

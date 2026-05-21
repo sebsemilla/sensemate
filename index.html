@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
+
+    <!-- ── Primarios ─────────────────────────────────── -->
+    <title>SenseMate — Traducción contextual e idiomas con IA</title>
+    <meta name="description" content="Traducí con contexto (formal, informal, neutro), aprendé con flashcards, chateá con personajes históricos y practicá idiomas con IA. Gratis.">
+    <meta name="keywords" content="traductor, aprendizaje de idiomas, IA, flashcards, traducción contextual, inglés, español, francés">
+    <meta name="author" content="SenseMate">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sensemate.app/">
+
+    <!-- ── Open Graph (Facebook, WhatsApp, LinkedIn) ── -->
+    <meta property="og:type"        content="website">
+    <meta property="og:url"         content="https://sensemate.app/">
+    <meta property="og:title"       content="SenseMate — Traducción contextual e idiomas con IA">
+    <meta property="og:description" content="Traducí con contexto, aprendé vocabulario con flashcards y chateá con Einstein, Frida Kahlo o Shakespeare. Gratis.">
+    <meta property="og:image"       content="https://sensemate.app/images/og-preview.jpg">
+    <meta property="og:image:width"  content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale"      content="es_AR">
+    <meta property="og:site_name"   content="SenseMate">
+
+    <!-- ── Twitter / X ───────────────────────────────── -->
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:url"         content="https://sensemate.app/">
+    <meta name="twitter:title"       content="SenseMate — Traducción contextual e idiomas con IA">
+    <meta name="twitter:description" content="Traducí con contexto, aprendé vocabulario con flashcards y chateá con Einstein, Frida Kahlo o Shakespeare. Gratis.">
+    <meta name="twitter:image"       content="https://sensemate.app/images/og-preview.jpg">
+
+    <!-- ── PWA / móvil ───────────────────────────────── -->
+    <meta name="theme-color" content="#2d6a4f">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="SenseMate">
+
+    <!-- ── Favicon ───────────────────────────────────── -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+
+    <!-- ── Schema.org (Google rich results) ─────────── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "SenseMate",
+      "url": "https://sensemate.app",
+      "description": "Aplicación web de traducción contextual y aprendizaje de idiomas con inteligencia artificial.",
+      "applicationCategory": "EducationApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Plan gratuito disponible"
+      },
+      "inLanguage": ["es", "en", "fr", "de", "pt"],
+      "featureList": [
+        "Traducción contextual formal, informal y neutral",
+        "Flashcards agrupados por temática",
+        "Chat con personajes históricos",
+        "Práctica de idiomas con IA",
+        "Modo inmersión con audio y subtítulos"
+      ]
+    }
+    </script>
+
+    <!-- ── Google Analytics 4 ───────────────────────────── -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4T2HFDQ432"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-4T2HFDQ432');
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <!-- HEADER con logo, título y botón menú -->
+    <header class="app-header">
+        <div class="logo-title">
+            <span class="logo">📖</span>
+            <h1>SenseMate</h1>
+        </div>
+        <div class="avatar-trigger" id="avatarTrigger">
+            <div class="avatar-circle" id="avatarCircle">🐱</div>
+            <span>Avatar IA</span>
+        </div>
+        <div class="bg-selector-trigger" id="bgSelectorTrigger">
+            <div class="bg-circle" id="bgCircle">🎨</div>
+            <span>Fondo</span>
+        </div>
+        <button id="adminBtn" class="admin-header-btn hidden" title="Panel Admin" aria-label="Admin">🛡️</button>
+        <button id="mmToggleBtn" class="mm-toggle-btn" title="MisiónMate" aria-label="MisiónMate" onclick="toggleMisionMate()">🗡️</button>
+        <div class="dark-mode-switch">
+            <div class="switch">
+                <div class="toggle-button">
+                    <div class="toggle"></div>
+                    <div class="moon-mask"></div>
+                    <div class="circles-wrapper">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="menuButton" class="menu-icon" aria-label="Menú">☰</button>
+        <!-- Menú desplegable (oculto por defecto) -->
+        <div id="dropdownMenu" class="dropdown-menu hidden">
+            <div id="menuLanguageDisplay" style="padding: 8px 16px; border-bottom: 1px solid #eee; font-size: 0.8rem;">
+                🌐 Cargando...
+            </div>
+            <a href="#" id="profileLink">👤 Perfil</a>
+            <a href="#" id="settingsLink">⚙️ Configuración</a>
+            <a href="#" id="complaintsLink">📢 Quejas</a>
+            <a href="#" id="suggestionsLink">💡 Sugerencias</a>
+            <a href="#" id="themesLink">🔔 Themes</a>
+            <a href="#" id="contribMenuLink">💼 Ser Contribuidor</a>
+            <a href="#" id="planesMenuLink">⭐ Planes</a>
+            <a href="#" id="logoutLink">🚪 Cerrar sesión</a>
+            <div style="border-top:1px solid #eef2f6; padding: 8px 16px; display:flex; gap:12px; font-size:0.78rem;">
+                <a href="/privacy.html" target="_blank" style="color:#64748b; text-decoration:none;">Privacidad</a>
+                <a href="/terms.html"   target="_blank" style="color:#64748b; text-decoration:none;">Términos</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL (cambia según el modo) -->
+    <main id="mainContainer">
+        <!-- Inicialmente vacío; se llenará con JS después de elegir idiomas -->
+    </main>
+
+    <!-- Modal de selección de avatar (poner al final del body) -->
+    <div id="avatarModal" class="modal hidden">
+        <div class="modal-content avatar-modal">
+            <span class="close-modal">&times;</span>
+            <h3>🤖 Elige a tu acompañante IA</h3>
+            <div class="avatar-group-tabs">
+                <button id="groupCatsBtn" class="group-tab active">🐱 Gatos</button>
+                <button id="groupDogsBtn" class="group-tab">🐶 Perros</button>
+            </div>
+            <div id="avatarStylesGallery" class="avatar-styles-gallery"></div>
+            <div class="modal-buttons">
+                <button id="cancelAvatarBtn" class="secondary-btn">Cancelar</button>
+                <button id="saveAvatarBtn" class="primary-btn">Guardar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="themes.js"></script>   
+    <script src="content_library.js"></script>
+    <script src="immersion.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="data/songs_es.js"></script>
+    <script src="auth.js"></script>
+    <script src="onboarding.js"></script>
+    <script src="practice.js"></script>
+    <script src="school.js"></script>
+    <script src="famous.js"></script>
+    <script src="musicians.js"></script>
+    <script src="settings.js"></script>
+    <script src="admin.js"></script>
+    <script src="flashcard_data.js"></script>
+    <link rel="stylesheet" href="practice_styles.css">
+    <link rel="stylesheet" href="simple_mode_styles.css">
+    <script src="flashcard_data_a1.js"></script>
+
+    <script src="misionmate.js"></script>
+    <script src="app.js"></script>
+    <script src="contributors.js"></script>
+    <script src="membership.js"></script>
+
+</body>
+</html>

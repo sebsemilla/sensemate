@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"/home/sebasemilla/Documents/AI LangApp/\"*.json)",
+      "Bash(npm install:*)",
+      "Bash(node -e \"require\\('./auth_db.cjs'\\); console.log\\('✅ auth_db.cjs OK'\\)\")",
+      "Bash(node -e ':*)",
+      "Bash(node --check server.cjs)",
+      "Bash(curl -s -X GET https://api.mercadopago.com/v1/payment_methods -H 'Authorization: Bearer TEST-54217112')",
+      "Bash(curl -s -X GET https://api.mercadopago.com/v1/payment_methods -H 'Authorization: Bearer TEST-5421711227763251-052016')",
+      "Bash(curl -s -X GET https://api.mercadopago.com/users/me -H 'Authorization: Bearer TEST-5421711227763251-052016')",
+      "Bash(curl -s -X POST https://api.mercadopago.com/checkout/preferences -H 'Authorization: Bearer TEST-5421711227763251-052016' -H 'Content-Type: application/json' -d '{\"items\":[{\"title\":\"Test\",\"quantity\":1,\"unit_price\":9.99}],\"back_urls\":{\"success\":\"http://localhost:3000\"},\"auto_return\":\"approved\"}')",
+      "Bash(curl -s -X GET https://api.mercadopago.com/users/me -H 'Authorization: Bearer APP_USR-5567190915947957-052017-d0f447c4288d16e547b8bd638e10acec-3414946907')",
+      "WebSearch",
+      "WebFetch(domain:polysense.com)",
+      "WebFetch(domain:polysense.app)",
+      "WebFetch(domain:polysense.io)",
+      "WebFetch(domain:www.polysense.ai)",
+      "Bash(sed -i 's/LinguaSense/SenseMate/g; s/linguasense\\\\.app/sensemate.app/g; s/linguasense\\\\.dev/sensemate.dev/g; s/flashcards_linguasense/flashcards_sensemate/g' index.html app.js server.cjs auth_db.cjs onboarding.js membership.js contributors.js themes.js settings.js flashcard_data.js flashcard_data_a1.js CLAUDE.md)",
+      "Bash(find locales/ -name \"*.json\" -exec sed -i 's/LinguaSense/SenseMate/g' {} \\\\;)",
+      "Bash(npm list:*)"
+    ]
+  }
+}

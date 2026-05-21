@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad — SenseMate</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+            background: #f5f7fb;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+        header {
+            background: linear-gradient(135deg, #2d6a4f, #52b788);
+            color: white;
+            padding: 1.5rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        header a {
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        header a:hover { color: white; }
+        .logo { font-size: 1.8rem; }
+        header h1 { font-size: 1.2rem; font-weight: 700; flex: 1; }
+        .content {
+            max-width: 780px;
+            margin: 2.5rem auto;
+            background: white;
+            border-radius: 20px;
+            padding: 2.5rem 3rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+        }
+        h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .subtitle {
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin: 1.75rem 0 0.5rem;
+            color: #2d6a4f;
+        }
+        p { margin-bottom: 0.75rem; color: #334155; }
+        ul { padding-left: 1.5rem; margin-bottom: 0.75rem; color: #334155; }
+        ul li { margin-bottom: 0.35rem; }
+        a { color: #2d6a4f; }
+        .highlight {
+            background: #f0fdf4;
+            border-left: 3px solid #2d6a4f;
+            padding: 0.75rem 1rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1rem 0;
+            font-size: 0.95rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #94a3b8;
+            font-size: 0.85rem;
+        }
+        @media (max-width: 600px) {
+            .content { margin: 1rem; padding: 1.5rem 1.25rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <span class="logo">📖</span>
+    <h1>SenseMate</h1>
+    <a href="/">← Volver a la app</a>
+</header>
+
+<div class="content">
+    <h2>Política de Privacidad</h2>
+    <p class="subtitle">Última actualización: mayo de 2026 · Versión provisoria (MVP beta)</p>
+
+    <div class="highlight">
+        En SenseMate nos tomamos tu privacidad en serio. No vendemos tus datos. No usamos cookies de rastreo de terceros para publicidad.
+    </div>
+
+    <h3>1. Responsable del tratamiento</h3>
+    <p>
+        El responsable del tratamiento de tus datos personales es <strong>Juan Sebastián Carrera</strong>,
+        contactable en <a href="mailto:sebasemilla@proton.me">sebasemilla@proton.me</a>.
+    </p>
+
+    <h3>2. Qué datos recopilamos</h3>
+    <ul>
+        <li><strong>Cuenta:</strong> nombre, nombre de usuario, dirección de email y contraseña (almacenada hasheada con bcrypt).</li>
+        <li><strong>Preferencias:</strong> idioma preferido, tema visual, configuraciones de la app — almacenadas localmente en tu dispositivo (localStorage).</li>
+        <li><strong>Uso:</strong> eventos anónimos de navegación a través de Google Analytics 4 (sección visitada, traducciones realizadas). No se asocian a tu identidad personal.</li>
+        <li><strong>Pagos:</strong> los datos de pago son procesados directamente por MercadoPago. SenseMate solo recibe confirmación del resultado (aprobado/rechazado) y el plan activado. No almacenamos datos de tarjeta.</li>
+    </ul>
+
+    <h3>3. Para qué usamos tus datos</h3>
+    <ul>
+        <li>Crear y gestionar tu cuenta de usuario.</li>
+        <li>Personalizar tu experiencia de aprendizaje.</li>
+        <li>Procesar suscripciones y verificar el plan activo.</li>
+        <li>Mejorar la app en base a métricas de uso anónimas.</li>
+        <li>Responderte si nos contactás por email.</li>
+    </ul>
+
+    <h3>4. Base legal del tratamiento</h3>
+    <p>El tratamiento se basa en la ejecución del contrato de uso (tu cuenta) y el consentimiento otorgado al registrarte. Podés revocar tu consentimiento en cualquier momento solicitando la eliminación de tu cuenta.</p>
+
+    <h3>5. Con quién compartimos datos</h3>
+    <p>No vendemos ni cedemos tus datos personales a terceros. Sí los compartimos con proveedores de servicio estrictamente necesarios:</p>
+    <ul>
+        <li><strong>Cohere AI</strong> — procesa el texto que ingresás para traducción y chat. No almacena conversaciones de forma asociada a tu identidad.</li>
+        <li><strong>Mistral AI</strong> — genera voz (TTS) para los personajes históricos.</li>
+        <li><strong>MercadoPago</strong> — procesa los pagos de suscripción.</li>
+        <li><strong>Google Analytics</strong> — recibe eventos anónimos de uso.</li>
+    </ul>
+
+    <h3>6. Almacenamiento y seguridad</h3>
+    <p>Los datos de cuenta se almacenan en una base de datos SQLite en el servidor. Las contraseñas se hashean con bcrypt (12 rondas). La sesión se gestiona mediante tokens JWT con expiración de 30 días.</p>
+    <p>Aplicamos medidas técnicas razonables para proteger tus datos, aunque ningún sistema es 100% seguro.</p>
+
+    <h3>7. Retención de datos</h3>
+    <p>Conservamos tus datos mientras tu cuenta esté activa. Al solicitar la eliminación, borraremos tu registro en un plazo máximo de 30 días.</p>
+
+    <h3>8. Tus derechos</h3>
+    <p>Tenés derecho a acceder, rectificar, eliminar y portar tus datos personales. Para ejercer cualquier derecho, escribinos a <a href="mailto:sebasemilla@proton.me">sebasemilla@proton.me</a>.</p>
+    <p>Si estás en la Unión Europea, tenés derecho a presentar una reclamación ante la autoridad de control de tu país (en España: la AEPD).</p>
+
+    <h3>9. Cookies</h3>
+    <p>SenseMate no usa cookies propias. Google Analytics puede establecer cookies de medición anónima. Podés bloquearlas con extensiones como uBlock Origin o desactivando JavaScript de terceros.</p>
+
+    <h3>10. Menores de edad</h3>
+    <p>SenseMate no está dirigida a menores de 13 años. Si sos padre/madre y creés que tu hijo/a registró una cuenta, contactanos para eliminarla.</p>
+
+    <h3>11. Cambios a esta política</h3>
+    <p>Podemos actualizar esta política. En caso de cambios relevantes, te avisaremos por email o mediante un aviso en la app.</p>
+
+    <h3>12. Contacto</h3>
+    <p>Para cualquier consulta sobre privacidad: <a href="mailto:sebasemilla@proton.me">sebasemilla@proton.me</a></p>
+</div>
+
+<footer>
+    © 2026 SenseMate · <a href="/privacy.html">Privacidad</a> · <a href="/terms.html">Términos</a>
+</footer>
+
+</body>
+</html>
