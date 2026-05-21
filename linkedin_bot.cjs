@@ -1,12 +1,18 @@
 /**
  * linkedin_bot.cjs
  * ─────────────────────────────────────────────────────────────
- * Genera un post sobre SenseMate con IA (Cohere) y lo publica
- * automáticamente en LinkedIn cada 4 días.
+ * Genera un post sobre SenseMate con IA (Cohere) y lo envía al
+ * webhook de Make, que lo publica en LinkedIn con imagen.
  *
- * Llamado internamente por el cron en server.cjs.
- * También podés ejecutarlo manualmente:
- *   node linkedin_bot.cjs
+ * Ejecutar manualmente:   node linkedin_bot.cjs
+ * Ejecutar en producción: llamado por el cron de server.cjs
+ *
+ * Variables necesarias en .env:
+ *   COHERE_API_KEY
+ *   MAKE_WEBHOOK_URL        (desde tu escenario de Make)
+ *   GITHUB_USER             (tu usuario de GitHub, ej: sebasemilla)
+ *   GITHUB_REPO             (nombre del repo, ej: sensemate)
+ *   GITHUB_BRANCH           (rama, default: main)
  */
 
 'use strict';
@@ -16,87 +22,114 @@ const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
 
-// ── Configuración ──────────────────────────────────────────────
+// ── Config ────────────────────────────────────────────────────
 
-const COHERE_API_KEY      = process.env.COHERE_API_KEY;
-const LINKEDIN_TOKEN      = process.env.LINKEDIN_ACCESS_TOKEN;
-const LINKEDIN_PERSON_URN = process.env.LINKEDIN_PERSON_URN;
-const STATE_FILE          = path.join(__dirname, '.linkedin_state.json');
+const COHERE_API_KEY  = process.env.COHERE_API_KEY;
+const MAKE_WEBHOOK    = process.env.MAKE_WEBHOOK_URL;
+const GITHUB_USER     = process.env.GITHUB_USER     || 'sebasemilla';
+const GITHUB_REPO     = process.env.GITHUB_REPO     || 'sensemate';
+const GITHUB_BRANCH   = process.env.GITHUB_BRANCH   || 'main';
+const STATE_FILE      = path.join(__dirname, '.linkedin_state.json');
 
-// ── Features del proyecto para variar el foco de cada post ────
+// Base URL para imágenes públicas desde el repo de GitHub
+const IMG_BASE =
+  `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/images/social`;
+
+// ── Features del proyecto — cada uno tiene su imagen ──────────
 
 const FEATURES = [
   {
-    focus: 'traducción contextual',
-    detail: 'Traducción formal, informal y neutral con análisis léxico completo usando modelos de Cohere.',
+    focus:    'traducción contextual con IA',
+    detail:   'Traducción formal, informal y neutral con análisis léxico completo. ' +
+              'Usa Cohere command-a-translate para entender el contexto real del texto, no solo las palabras.',
+    image:    `${IMG_BASE}/translator.png`,
   },
   {
-    focus: 'personajes históricos con IA',
-    detail: 'Podés conversar con Einstein, Frida Kahlo, Shakespeare, Maradona y más. Cada personaje tiene su propia voz clonada con Mistral Voxtral.',
+    focus:    'personajes históricos con voz propia',
+    detail:   'Conversás con Einstein, Frida Kahlo, Shakespeare, Maradona y más. ' +
+              'Cada personaje tiene su voz clonada con Mistral Voxtral y responde en el idioma que estás aprendiendo.',
+    image:    `${IMG_BASE}/famous.png`,
   },
   {
-    focus: 'sistema de flashcards',
-    detail: 'Flashcards con swipe, spaced repetition, niveles A0 a C2, y modo práctica con audio y pronunciación nativa.',
+    focus:    'flashcards con spaced repetition',
+    detail:   'Cartas con swipe, niveles A0 a C2, audio nativo y repetición espaciada dentro de la sesión. ' +
+              'Cada grupo completado desbloquea trofeos en el sistema MisiónMate.',
+    image:    `${IMG_BASE}/flashcards.png`,
   },
   {
-    focus: 'Modo Inmersión',
-    detail: 'Aprendé con películas y series: reproducción de audio/video con subtítulos sincronizados, resaltado de palabra activa y popup de traducción al tocar.',
+    focus:    'Modo Inmersión',
+    detail:   'Aprendé con películas y series en el idioma original: subtítulos sincronizados con el audio, ' +
+              'resaltado de la palabra activa y popup de traducción al tocar cualquier palabra. ' +
+              'Importación de archivos .SRT con traducción automática por IA.',
+    image:    `${IMG_BASE}/immersion.png`,
   },
   {
-    focus: 'gamificación con MisiónMate',
-    detail: 'Sistema de trofeos y logros: Trofeo Buenas Raices (50 traducciones), Estudiante Estrella (25 flashcards), Trofeo Fluentist (conversaciones con IA) y una serie de trofeos Constructor, Alquimista y Maestro por avanzar entre niveles.',
+    focus:    'Modo Músicos',
+    detail:   'Letras de canciones con traducción simultánea y resaltado en tiempo real. ' +
+              'Cada verso se ilumina a medida que suena, con pronunciación al tocarlo.',
+    image:    `${IMG_BASE}/musicians.png`,
   },
   {
-    focus: 'modo músicos con letras sincronizadas',
-    detail: 'Letras de canciones con traducción simultánea, resaltado en tiempo real y pronunciación de cada verso.',
+    focus:    'gamificación con MisiónMate',
+    detail:   'Sistema de trofeos: Trofeo Buenas Raices (50 traducciones), Estudiante Estrella (25 flashcards), ' +
+              'Trofeo Fluentist (conversaciones con IA) y los trofeos Constructor / Alquimista / Maestro ' +
+              'por avanzar entre niveles A0→C2. Con Hoja de Ruta interactiva.',
+    image:    `${IMG_BASE}/misionmate.png`,
   },
   {
-    focus: 'arquitectura técnica',
-    detail: 'SPA vanilla JS sin frameworks, backend Node.js + Express, Cohere para traducción y chat, Mistral para TTS, y Kyutai para traducción de voz en tiempo real.',
+    focus:    'Modo Escuela — tutor de IA',
+    detail:   'Chat con un tutor de idiomas que corrige, explica gramática y da ejercicios ' +
+              'adaptados al nivel (A1 a C2). Tiene control de velocidad de voz y lectura en voz alta.',
+    image:    `${IMG_BASE}/school.png`,
   },
   {
-    focus: 'planes y modelo de negocio',
-    detail: 'Plan freemium con MercadoPago integrado, límites de traducciones por plan y funciones premium desbloqueables.',
+    focus:    'modelo de negocio freemium',
+    detail:   'Plan gratuito con límites generosos y planes premium desbloqueables. ' +
+              'Integración con MercadoPago para pagos en Latinoamérica. ' +
+              'En construcción para el lanzamiento oficial.',
+    image:    `${IMG_BASE}/plans.png`,
   },
 ];
 
-// ── Estado para rotar el foco y evitar repetir posts ──────────
+// ── Estado — rota el foco y evita repetir ────────────────────
 
 function loadState() {
   try { return JSON.parse(fs.readFileSync(STATE_FILE, 'utf8')); }
-  catch { return { lastPostAt: null, nextFeatureIdx: 0, postCount: 0 }; }
+  catch { return { nextFeatureIdx: 0, postCount: 0, lastPostAt: null }; }
 }
 
 function saveState(state) {
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2));
 }
 
-// ── Generar texto del post con Cohere ──────────────────────────
+// ── Generar texto con Cohere ──────────────────────────────────
 
 function generatePost(feature) {
   return new Promise((resolve, reject) => {
-    const systemPrompt = `Sos un desarrollador indie apasionado que escribe posts auténticos en LinkedIn sobre su proyecto.
+    const systemPrompt =
+      `Sos un desarrollador indie apasionado que escribe posts auténticos en LinkedIn sobre su proyecto.
 Tu tono es directo, entusiasta y humano — sin jerga corporativa ni frases genéricas como "en el dinámico mundo de...".
-Escribís en español (Argentina). Usás emojis con moderación (1-3 por post). No usás hashtags en exceso (máximo 4, relevantes).
-Tus posts mezclan el progreso técnico con la motivación personal de construir algo útil.`;
+Escribís en español rioplatense (Argentina). Usás emojis con moderación (1-3 por post).
+Tus posts mezclan el progreso técnico concreto con la motivación personal de construir algo útil.`;
 
-    const userPrompt = `Escribí un post de LinkedIn sobre SenseMate, mi app web de aprendizaje de idiomas con IA.
+    const userPrompt =
+      `Escribí un post de LinkedIn sobre SenseMate, mi app web de aprendizaje de idiomas con IA.
 
 El foco de este post es: **${feature.focus}**
-Detalle técnico a mencionar: ${feature.detail}
+Detalle técnico concreto: ${feature.detail}
 
-Contexto del proyecto:
-- App para traducir con contexto y aprender idiomas con IA
-- Funciona en el navegador, sin instalación, con backend en Node.js
-- Está en desarrollo activo, soy el único desarrollador
+Contexto:
+- App para traducir con contexto y aprender idiomas usando IA
+- Funciona en el navegador, sin instalación, con backend Node.js + Express
+- Estoy en desarrollo activo como único desarrollador
 - URL: sensemate.app (próximo lanzamiento)
 
-El post debe:
-- Tener entre 150 y 280 palabras
-- Empezar con algo que genere curiosidad o cuente un micro-anécdota de desarrollo
-- Mencionar el feature específico de forma concreta
-- Terminar con una pregunta o reflexión que invite a interactuar
-- Incluir 3-4 hashtags al final
+Requisitos del post:
+- Entre 150 y 280 palabras
+- Empezar con algo que genere curiosidad o una micro-anécdota de desarrollo
+- Mencionar el feature de forma concreta, sin ser un manual técnico
+- Terminar con una pregunta o reflexión que invite a comentar
+- 3-4 hashtags al final (en una línea separada)
 
 Devolvé SOLO el texto del post, sin comillas ni explicaciones.`;
 
@@ -113,8 +146,8 @@ Devolvé SOLO el texto del post, sin comillas ni explicaciones.`;
       path:     '/v1/chat',
       method:   'POST',
       headers:  {
-        'Authorization': `Bearer ${COHERE_API_KEY}`,
-        'Content-Type':  'application/json',
+        'Authorization':  `Bearer ${COHERE_API_KEY}`,
+        'Content-Type':   'application/json',
         'Content-Length': Buffer.byteLength(body),
       },
     };
@@ -137,104 +170,65 @@ Devolvé SOLO el texto del post, sin comillas ni explicaciones.`;
   });
 }
 
-// ── Publicar en LinkedIn ───────────────────────────────────────
+// ── Enviar a Make via webhook ─────────────────────────────────
 
-function publishToLinkedIn(text) {
+function sendToMake(text, imageUrl) {
   return new Promise((resolve, reject) => {
-    const body = JSON.stringify({
-      author:           LINKEDIN_PERSON_URN,
-      lifecycleState:   'PUBLISHED',
-      specificContent:  {
-        'com.linkedin.ugc.ShareContent': {
-          shareCommentary:    { text },
-          shareMediaCategory: 'NONE',
-        },
-      },
-      visibility: {
-        'com.linkedin.ugc.MemberNetworkVisibility': 'PUBLIC',
-      },
-    });
+    if (!MAKE_WEBHOOK) {
+      reject(new Error('Falta MAKE_WEBHOOK_URL en .env'));
+      return;
+    }
 
-    const options = {
-      hostname: 'api.linkedin.com',
-      path:     '/v2/ugcPosts',
-      method:   'POST',
-      headers:  {
-        'Authorization':  `Bearer ${LINKEDIN_TOKEN}`,
-        'Content-Type':   'application/json',
-        'Content-Length': Buffer.byteLength(body),
-        'X-Restli-Protocol-Version': '2.0.0',
-      },
-    };
-
-    const req = https.request(options, res => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => {
-        if (res.statusCode === 201) {
-          try { resolve(JSON.parse(data)); }
-          catch { resolve({ id: 'ok' }); }
-        } else {
-          reject(new Error(`LinkedIn ${res.statusCode}: ${data}`));
-        }
-      });
+    const axios = require('axios');
+    axios.post(MAKE_WEBHOOK, { text, imageUrl }, {
+      headers: { 'Content-Type': 'application/json' },
+      timeout: 15000,
+    })
+    .then(res => resolve(res.data))
+    .catch(err => {
+      const status = err.response?.status;
+      const data   = err.response?.data;
+      reject(new Error(`Make respondió ${status}: ${JSON.stringify(data)}`));
     });
-    req.on('error', reject);
-    req.write(body);
-    req.end();
   });
 }
 
-// ── Verificar si el token está próximo a vencer ───────────────
-
-function checkTokenExpiry() {
-  // LinkedIn tokens duran ~60 días. Avisamos a los 50 días.
-  const state = loadState();
-  if (!state.tokenSavedAt) return;
-  const days = (Date.now() - new Date(state.tokenSavedAt).getTime()) / (1000 * 60 * 60 * 24);
-  if (days >= 50) {
-    console.warn(`⚠️  LinkedIn token tiene ${Math.round(days)} días. Renovalo pronto con: node linkedin_auth.cjs`);
-  }
-}
-
-// ── Entry point ────────────────────────────────────────────────
+// ── Entry point ───────────────────────────────────────────────
 
 async function run() {
-  if (!COHERE_API_KEY)      throw new Error('Falta COHERE_API_KEY en .env');
-  if (!LINKEDIN_TOKEN)      throw new Error('Falta LINKEDIN_ACCESS_TOKEN en .env — corré node linkedin_auth.cjs');
-  if (!LINKEDIN_PERSON_URN) throw new Error('Falta LINKEDIN_PERSON_URN en .env — corré node linkedin_auth.cjs');
-
-  checkTokenExpiry();
+  if (!COHERE_API_KEY) throw new Error('Falta COHERE_API_KEY en .env');
+  if (!MAKE_WEBHOOK)   throw new Error('Falta MAKE_WEBHOOK_URL en .env');
 
   const state      = loadState();
   const featureIdx = state.nextFeatureIdx % FEATURES.length;
   const feature    = FEATURES[featureIdx];
 
-  console.log(`\n📝 Generando post sobre: ${feature.focus} ...`);
+  console.log(`\n📝 Generando post #${(state.postCount || 0) + 1} — foco: "${feature.focus}"`);
   const text = await generatePost(feature);
+
   console.log('\n── Post generado ───────────────────────────────────────');
   console.log(text);
+  console.log(`\n🖼  Imagen: ${feature.image}`);
   console.log('────────────────────────────────────────────────────────\n');
 
-  console.log('🚀 Publicando en LinkedIn...');
-  const result = await publishToLinkedIn(text);
-  console.log(`✅ Publicado. ID: ${result.id || 'ok'}`);
+  console.log('🚀 Enviando a Make...');
+  await sendToMake(text, feature.image);
+  console.log('✅ Enviado a Make correctamente. Make publicará en LinkedIn.');
 
   saveState({
-    lastPostAt:     new Date().toISOString(),
     nextFeatureIdx: featureIdx + 1,
     postCount:      (state.postCount || 0) + 1,
-    tokenSavedAt:   state.tokenSavedAt || new Date().toISOString(),
-    lastText:       text.substring(0, 120) + '...',
+    lastPostAt:     new Date().toISOString(),
+    lastFeature:    feature.focus,
+    lastText:       text.substring(0, 100) + '...',
   });
 }
 
-// Exportar para uso desde server.cjs, y también ejecutar si se llama directo
 module.exports = { run };
 
 if (require.main === module) {
   run().catch(err => {
-    console.error('❌ Error al publicar:', err.message);
+    console.error('❌ Error:', err.message);
     process.exit(1);
   });
 }
