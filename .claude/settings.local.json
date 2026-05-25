@@ -18,7 +18,12 @@
       "WebFetch(domain:www.polysense.ai)",
       "Bash(sed -i 's/LinguaSense/SenseMate/g; s/linguasense\\\\.app/sensemate.app/g; s/linguasense\\\\.dev/sensemate.dev/g; s/flashcards_linguasense/flashcards_sensemate/g' index.html app.js server.cjs auth_db.cjs onboarding.js membership.js contributors.js themes.js settings.js flashcard_data.js flashcard_data_a1.js CLAUDE.md)",
       "Bash(find locales/ -name \"*.json\" -exec sed -i 's/LinguaSense/SenseMate/g' {} \\\\;)",
-      "Bash(npm list:*)"
+      "Bash(npm list:*)",
+      "Bash(node linkedin_bot.cjs)",
+      "Bash(curl -s -w '\\\\nHTTP_STATUS:%{http_code}' -X POST https://hook.eu1.make.com/d42n5bsnjcujulkoy3e7f14mpbpkhm2k -H 'Content-Type: application/json' -d '{\"text\":\"test\",\"imageUrl\":\"https://example.com/img.png\"}')",
+      "Bash(curl -s -w '\\\\nHTTP_STATUS:%{http_code}' -X POST https://hook.eu1.make.com/d42n5bsnjcujulkoy3e7f14mpbpkhm2k -H 'Content-Type: application/json' -H 'User-Agent: curl/7.88.1' -d '{\"text\":\"test desde curl\",\"imageUrl\":\"https://example.com/img.png\"}')",
+      "Bash(curl -s -w '\\\\nHTTP_STATUS:%{http_code}' -X POST https://hook.eu1.make.com/41tl8croy8l3pneub9geycjzjf3rlvej -H 'Content-Type: application/json' -d '{\"text\":\"test\",\"imageUrl\":\"https://example.com/img.png\"}')",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://raw.githubusercontent.com/sebsemilla/sensemate/main/images/social/immersion.png\")"
     ]
   }
 }

@@ -110,7 +110,9 @@ function generatePost(feature) {
       `Sos un desarrollador indie apasionado que escribe posts auténticos en LinkedIn sobre su proyecto.
 Tu tono es directo, entusiasta y humano — sin jerga corporativa ni frases genéricas como "en el dinámico mundo de...".
 Escribís en español rioplatense (Argentina). Usás emojis con moderación (1-3 por post).
-Tus posts mezclan el progreso técnico concreto con la motivación personal de construir algo útil.`;
+Tus posts mezclan el progreso técnico concreto con la motivación personal detrás del proyecto.
+Sos amante de los idiomas y creés que la creatividad y el disfrute son los mejores medios para aprenderlos.
+Ese es el corazón de SenseMate.`;
 
     const userPrompt =
       `Escribí un post de LinkedIn sobre SenseMate, mi app web de aprendizaje de idiomas con IA.
@@ -118,17 +120,19 @@ Tus posts mezclan el progreso técnico concreto con la motivación personal de c
 El foco de este post es: **${feature.focus}**
 Detalle técnico concreto: ${feature.detail}
 
-Contexto:
-- App para traducir con contexto y aprender idiomas usando IA
-- Funciona en el navegador, sin instalación, con backend Node.js + Express
+Contexto personal y del proyecto:
+- Es mi segundo gran proyecto como desarrollador indie
+- Me motiva ser amante de los idiomas y creer que la creatividad y el disfrute son los mejores caminos para aprenderlos
 - Estoy en desarrollo activo como único desarrollador
-- URL: sensemate.app (próximo lanzamiento)
+- En poco tiempo se realizará el lanzamiento de la versión beta
+- Estoy abierto a recibir consultas y sugerencias de quienes quieran probarlo o aportar ideas
 
 Requisitos del post:
 - Entre 150 y 280 palabras
 - Empezar con algo que genere curiosidad o una micro-anécdota de desarrollo
 - Mencionar el feature de forma concreta, sin ser un manual técnico
-- Terminar con una pregunta o reflexión que invite a comentar
+- Incluir alguna referencia a la motivación personal (amor por los idiomas, aprender disfrutando)
+- Cerrar mencionando el próximo lanzamiento de la beta e invitando a contactar con consultas o sugerencias
 - 3-4 hashtags al final (en una línea separada)
 
 Devolvé SOLO el texto del post, sin comillas ni explicaciones.`;
