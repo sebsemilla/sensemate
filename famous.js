@@ -5,14 +5,118 @@
 // Si no existe la imagen, el card usa degradé + emoji de fallback.
 
 const FAMOUS_PEOPLE = {
-    mlk:         { nombre: 'Martin Luther King Jr.', gender: 'male',   emoji: '🕊️', color: '#1e3a5f' },
-    marilyn:     { nombre: 'Marilyn Monroe',          gender: 'female', emoji: '💋', color: '#6b2d5e' },
-    maradona:    { nombre: 'Diego Maradona',          gender: 'male',   emoji: '⚽', color: '#1a4731' },
-    einstein:    { nombre: 'Albert Einstein',         gender: 'male',   emoji: '🧠', color: '#3d2b1f' },
-    cleopatra:   { nombre: 'Cleopatra',               gender: 'female', emoji: '👑', color: '#4a3000' },
-    frida:       { nombre: 'Frida Kahlo',             gender: 'female', emoji: '🎨', color: '#5c1a1a' },
-    mandela:     { nombre: 'Nelson Mandela',          gender: 'male',   emoji: '✊', color: '#1a3300' },
-    shakespeare: { nombre: 'William Shakespeare',     gender: 'male',   emoji: '📜', color: '#2c1a3e' },
+    mlk:          { nombre: 'Martin Luther King Jr.', gender: 'male',   emoji: '🕊️', color: '#1e3a5f', nativeLang: 'en', country: 'us', region: 'norteamerica' },
+    marilyn:      { nombre: 'Marilyn Monroe',          gender: 'female', emoji: '💋', color: '#6b2d5e', nativeLang: 'en', country: 'us', region: 'norteamerica' },
+    maradona:     { nombre: 'Diego Maradona',          gender: 'male',   emoji: '⚽', color: '#1a4731', nativeLang: 'es', country: 'ar', region: 'sudamerica'   },
+    einstein:     { nombre: 'Albert Einstein',         gender: 'male',   emoji: '🧠', color: '#3d2b1f', nativeLang: 'de', country: 'de', region: 'europa'       },
+    cleopatra:    { nombre: 'Cleopatra',               gender: 'female', emoji: '👑', color: '#4a3000', nativeLang: 'en', country: 'eg', region: 'africa'       },
+    frida:        { nombre: 'Frida Kahlo',             gender: 'female', emoji: '🎨', color: '#5c1a1a', nativeLang: 'es', country: 'mx', region: 'norteamerica' },
+    mandela:      { nombre: 'Nelson Mandela',          gender: 'male',   emoji: '✊', color: '#1a3300', nativeLang: 'en', country: 'za', region: 'africa'       },
+    shakespeare:  { nombre: 'William Shakespeare',     gender: 'male',   emoji: '📜', color: '#2c1a3e', nativeLang: 'en', country: 'gb', region: 'europa'       },
+    // ── Argentina ────────────────────────────────────────────
+    guevara:       { nombre: 'Ernesto "Che" Guevara',   gender: 'male',   emoji: '⭐', color: '#1a2e1a', nativeLang: 'es', country: 'ar', region: 'sudamerica' },
+    mercedes_sosa: { nombre: 'Mercedes Sosa',            gender: 'female', emoji: '🎤', color: '#3d1a2e', nativeLang: 'es', country: 'ar', region: 'sudamerica' },
+    piazzolla:     { nombre: 'Astor Piazzolla',          gender: 'male',   emoji: '🎻', color: '#1a1a3d', nativeLang: 'es', country: 'ar', region: 'sudamerica' },
+    borges:        { nombre: 'Jorge Luis Borges',        gender: 'male',   emoji: '📚', color: '#2e1a0a', nativeLang: 'es', country: 'ar', region: 'sudamerica' },
+    // ── Chile ────────────────────────────────────────────────
+    neruda:  { nombre: 'Pablo Neruda',     gender: 'male',   emoji: '🌹', color: '#1a0a2e', nativeLang: 'es', country: 'cl', region: 'sudamerica' },
+    mistral: { nombre: 'Gabriela Mistral', gender: 'female', emoji: '✨', color: '#2e1a0a', nativeLang: 'es', country: 'cl', region: 'sudamerica' },
+    jara:    { nombre: 'Víctor Jara',      gender: 'male',   emoji: '🎸', color: '#0a1a0a', nativeLang: 'es', country: 'cl', region: 'sudamerica' },
+    barrios: { nombre: 'Eduardo Barrios',  gender: 'male',   emoji: '📖', color: '#1a1a2e', nativeLang: 'es', country: 'cl', region: 'sudamerica' },
+    parra:   { nombre: 'Violeta Parra',    gender: 'female', emoji: '🌸', color: '#2e0a0a', nativeLang: 'es', country: 'cl', region: 'sudamerica' },
+    geel:    { nombre: 'María Carolina Geel', gender: 'female', emoji: '🖊️', color: '#1a0a1a', nativeLang: 'es', country: 'cl', region: 'sudamerica' },
+    franulic: { nombre: 'Lenka Franulic',  gender: 'female', emoji: '📰', color: '#0a1a2e', nativeLang: 'es', country: 'cl', region: 'sudamerica' },
+    // ── Uruguay ──────────────────────────────────────────────
+    quiroga:  { nombre: 'Horacio Quiroga',  gender: 'male',   emoji: '🐍', color: '#1a2e0a', nativeLang: 'es', country: 'uy', region: 'sudamerica' },
+    luisi:    { nombre: 'Paulina Luisi',    gender: 'female', emoji: '⚕️', color: '#0a1a2e', nativeLang: 'es', country: 'uy', region: 'sudamerica' },
+    amalia:   { nombre: 'Amalia de la Vega', gender: 'female', emoji: '🎵', color: '#2e1a0a', nativeLang: 'es', country: 'uy', region: 'sudamerica' },
+    galeano:  { nombre: 'Eduardo Galeano', gender: 'male',   emoji: '✊', color: '#1a0a0a', nativeLang: 'es', country: 'uy', region: 'sudamerica' },
+    rodo:     { nombre: 'José Enrique Rodó', gender: 'male', emoji: '📜', color: '#2e2e0a', nativeLang: 'es', country: 'uy', region: 'sudamerica' },
+    benedetti: { nombre: 'Mario Benedetti', gender: 'male',  emoji: '💙', color: '#0a0a2e', nativeLang: 'es', country: 'uy', region: 'sudamerica' },
+    // ── Brasil ───────────────────────────────────────────────
+    cohelo:            { nombre: 'Paulo Coelho',          gender: 'male',   emoji: '✍️', color: '#1a1a2e', nativeLang: 'pt', country: 'br', region: 'sudamerica', contemporary: true  },
+    senna:             { nombre: 'Ayrton Senna',          gender: 'male',   emoji: '🏎️', color: '#0a0a1a', nativeLang: 'pt', country: 'br', region: 'sudamerica' },
+    freire:            { nombre: 'Paulo Freire',          gender: 'male',   emoji: '🎓', color: '#1a2e1a', nativeLang: 'pt', country: 'br', region: 'sudamerica' },
+    pele:              { nombre: 'Pelé',                  gender: 'male',   emoji: '⚽', color: '#1a2e00', nativeLang: 'pt', country: 'br', region: 'sudamerica' },
+    ronaldo:           { nombre: 'Ronaldo Nazário',       gender: 'male',   emoji: '🌟', color: '#00001a', nativeLang: 'pt', country: 'br', region: 'sudamerica', contemporary: true  },
+    fernanda_montenegro: { nombre: 'Fernanda Montenegro', gender: 'female', emoji: '🎭', color: '#2e1a1a', nativeLang: 'pt', country: 'br', region: 'sudamerica', contemporary: true  },
+    rita:              { nombre: 'Rita Lee',              gender: 'female', emoji: '🎸', color: '#2e0a2e', nativeLang: 'pt', country: 'br', region: 'sudamerica' },
+    gilberto:          { nombre: 'Gilberto Gil',          gender: 'male',   emoji: '🎵', color: '#1a1a00', nativeLang: 'pt', country: 'br', region: 'sudamerica', contemporary: true  },
+    chiquinha:         { nombre: 'Chiquinha Gonzaga',     gender: 'female', emoji: '🎹', color: '#2e1a0a', nativeLang: 'pt', country: 'br', region: 'sudamerica' },
+};
+
+// ─── Regiones y países para el filtro ────────────────────────
+
+const FAMOUS_REGIONS = [
+    {
+        key: 'sudamerica', label: 'América del Sur', emoji: '🌎', enabled: true,
+        countries: [
+            { key: 'ar', label: 'Argentina',  emoji: '🇦🇷' },
+            { key: 'br', label: 'Brasil',     emoji: '🇧🇷' },
+            { key: 'co', label: 'Colombia',   emoji: '🇨🇴' },
+            { key: 'cl', label: 'Chile',      emoji: '🇨🇱' },
+            { key: 'uy', label: 'Uruguay',    emoji: '🇺🇾' },
+            { key: 've', label: 'Venezuela',  emoji: '🇻🇪' },
+            { key: 'pe', label: 'Perú',       emoji: '🇵🇪' },
+        ]
+    },
+    {
+        key: 'norteamerica', label: 'América del Norte', emoji: '🌎', enabled: true,
+        countries: [
+            { key: 'us', label: 'Estados Unidos', emoji: '🇺🇸' },
+            { key: 'mx', label: 'México',         emoji: '🇲🇽' },
+            { key: 'ca', label: 'Canadá',         emoji: '🇨🇦' },
+            { key: 'cu', label: 'Cuba',           emoji: '🇨🇺' },
+        ]
+    },
+    { key: 'europa',   label: 'Europa',   emoji: '🌍', enabled: false, countries: [] },
+    { key: 'africa',   label: 'África',   emoji: '🌍', enabled: false, countries: [] },
+    { key: 'asia',     label: 'Asia',     emoji: '🌏', enabled: false, countries: [] },
+    { key: 'oceania',  label: 'Oceanía',  emoji: '🌏', enabled: false, countries: [] },
+];
+
+// Filtro activo: { region: null | key, country: null | key }
+let _famousFilter = { region: null, country: null };
+
+// Saludo inicial en el idioma nativo de cada personaje
+const FAMOUS_NATIVE_INTROS = {
+    mlk:          "I've been waiting for a conversation like this. Tell me, friend — what's on your heart today?",
+    marilyn:      "Oh darling, what a lovely surprise! Come on, tell me — what's on your mind?",
+    maradona:     "¡Hola! ¿Cómo andás, compañero? Siempre listo para charlar. ¿De qué querés hablar?",
+    einstein:     "Guten Tag! Die Phantasie ist wichtiger als das Wissen. Was möchten Sie von mir wissen?",
+    cleopatra:    "Welcome to my presence. I am Cleopatra, Queen of the Nile. What wisdom do you seek?",
+    frida:        "¡Hola! Pies, ¿para qué los quiero si tengo alas pa' volar? Cuéntame, ¿qué te trae aquí?",
+    mandela:      "It always seems impossible until it's done. Welcome, my friend. What shall we discuss?",
+    shakespeare:  "Hark! What manner of soul art thou, that dost seek audience with the Bard of Avon?",
+    guevara:       "¡Hasta la victoria siempre, compañero! Siéntate, que tenemos mucho de qué hablar. ¿Qué te trajo hasta aquí?",
+    mercedes_sosa: "¡Bienvenido, mi amor! La vida hay que cantarla para entenderla. ¿Qué querés que compartamos hoy?",
+    piazzolla:     "El tango no se explica... se siente. Bienvenido a mi mundo. ¿Qué querés preguntarme?",
+    borges:        "Los espejos y la paternidad son abominables porque multiplican a los hombres. Pero esta conversación me parece inevitable. ¿De qué hablamos?",
+    // ── Chile ────────────────────────────────────────────────
+    neruda:  "Puedo escribir los versos más tristes esta noche... pero mejor hablemos. ¿Qué te trae hasta aquí, amigo?",
+    mistral: "Bienvenido, alma inquieta. La ternura es el principio de todo. Cuéntame qué llevas en el corazón.",
+    jara:    "Compañero, la canción más bella es la que todavía no se ha cantado. ¿De qué querés hablar hoy?",
+    barrios: "Qué bueno que llegaste. La vida interior es el territorio más vasto. ¿Qué querés explorar conmigo?",
+    parra:   "Gracias a la vida, que me ha dado tanto... y también esta conversación. ¿De qué hablamos?",
+    geel:    "Aquí estoy, con todas mis sombras y mis palabras. La escritura fue mi condena y mi salvación. ¿De qué queremos hablar?",
+    franulic: "Bienvenido. El periodismo es la voz de los que no tienen voz. ¿Qué historia querés contar hoy?",
+    // ── Uruguay ──────────────────────────────────────────────
+    quiroga:  "Bienvenido a la selva de las palabras. Los cuentos más oscuros encierran las verdades más profundas. ¿Qué querés saber?",
+    luisi:    "La salud y la dignidad son derechos, no privilegios. Me alegra que hayas venido. ¿De qué hablamos?",
+    amalia:   "¡Bienvenido! El candombe y el folklore son el alma del Uruguay. ¿Qué querés compartir conmigo?",
+    galeano:  "El mundo es injusto pero también es bello. Sentate, que tenemos mucho de qué hablar. ¿Por dónde empezamos?",
+    rodo:     "La juventud de América es su mayor tesoro. Bienvenido, amigo. ¿Qué ideas queremos explorar juntos?",
+    benedetti: "La vida es eso que pasa entre un poema y otro. Hola. ¿Qué te trajo por aquí?",
+    // ── Brasil ───────────────────────────────────────────────
+    cohelo:            "Bem-vindo! Quando você quer algo, todo o universo conspira para que você realize o seu desejo. O que te trouxe até aqui?",
+    senna:             "Olá! Cada curva da vida é uma oportunidade de superar seus próprios limites. O que você quer saber?",
+    freire:            "Seja bem-vindo! Ninguém educa ninguém, ninguém se educa sozinho — os homens se educam em comunhão. Do que vamos falar?",
+    pele:              "Oi! O futebol é uma arte, e eu tive a sorte de ser seu pincel. Mas vamos lá — o que você quer conversar?",
+    ronaldo:           "E aí! Fenômeno na área! Pode perguntar o que quiser, tô aqui pra isso.",
+    fernanda_montenegro: "Que bom ter sua companhia. O teatro, o cinema — tudo começa com uma história verdadeira. Qual é a sua?",
+    rita:              "Oi, gente! Rock é vida, e vida é música. Me conta — o que passa na sua cabeça?",
+    gilberto:          "Olá! A música é um caminho para a liberdade. Venha, vamos conversar sobre o que você quiser.",
+    chiquinha:         "Que alegria, meu bem! A música nasceu pra nos libertar. O que você quer saber desta velha compositora?",
 };
 
 // Modos de conversación (a desarrollar)
@@ -142,30 +246,144 @@ function loadFamousList() {
     renderLanguageBar();
     const t = currentTranslations;
 
-    const lista = ['einstein', 'cleopatra', 'frida', 'mandela', 'shakespeare', 'mlk', 'marilyn', 'maradona'];
-
     mainContainer.insertAdjacentHTML('beforeend', `
         <div class="famous-list-wrap">
             <div class="famous-list-header">
                 <button class="school-back-btn" id="backToMainFromFamousList">← ${t.volver || 'Volver'}</button>
                 <h2>🌟 ${t.elige_famosos || 'Elegí con quién hablar'}</h2>
+                <button class="famous-filter-btn" id="famousFilterBtn">
+                    🌎 País
+                    <span class="famous-filter-label">Filtra por...</span>
+                </button>
             </div>
-            <div class="famous-grid-full">
-                ${lista.map(key => {
-                    const desc = t[`${key}_descripcion`] || '';
-                    return _famousCardHTML(key, desc);
-                }).join('')}
-            </div>
+            <div id="famousActiveFilter"></div>
+            <div class="famous-grid-full" id="famousGrid"></div>
         </div>
     `);
 
     document.getElementById('backToMainFromFamousList').addEventListener('click', showMainMenu);
+    document.getElementById('famousFilterBtn').addEventListener('click', _showFamousFilterPanel);
+
+    _renderFamousGrid(t);
+}
+
+function _renderFamousGrid(t) {
+    const allKeys = Object.keys(FAMOUS_PEOPLE);
+    const filtered = allKeys.filter(key => {
+        const p = FAMOUS_PEOPLE[key];
+        if (_famousFilter.country) return p.country === _famousFilter.country;
+        if (_famousFilter.region)  return p.region  === _famousFilter.region;
+        return true;
+    });
+
+    const grid = document.getElementById('famousGrid');
+    const activeEl = document.getElementById('famousActiveFilter');
+    if (!grid) return;
+
+    // Badge del filtro activo
+    if (_famousFilter.country || _famousFilter.region) {
+        const regionData = FAMOUS_REGIONS.find(r => r.key === _famousFilter.region);
+        const countryData = regionData?.countries.find(c => c.key === _famousFilter.country);
+        const label = countryData
+            ? `${countryData.emoji} ${countryData.label}`
+            : regionData ? `${regionData.emoji} ${regionData.label}` : '';
+        activeEl.innerHTML = `
+            <div class="famous-filter-active">
+                Mostrando: <strong>${label}</strong>
+                <button class="famous-filter-clear" id="famousFilterClear">✕ Limpiar</button>
+            </div>`;
+        document.getElementById('famousFilterClear').addEventListener('click', () => {
+            _famousFilter = { region: null, country: null };
+            _renderFamousGrid(currentTranslations);
+        });
+    } else {
+        activeEl.innerHTML = '';
+    }
+
+    if (filtered.length === 0) {
+        grid.innerHTML = `<div class="famous-filter-empty">😔 No hay personajes de esta región aún.<br><small>Próximamente agregaremos más.</small></div>`;
+        return;
+    }
+
+    grid.innerHTML = filtered.map(key => {
+        const desc = t[`${key}_descripcion`] || '';
+        return _famousCardHTML(key, desc);
+    }).join('');
+
     document.querySelectorAll('.famous-card[data-person]').forEach(card => {
         card.addEventListener('click', () => loadFamousChat(card.dataset.person));
     });
-
-    // Ocultar emoji si la imagen carga bien
     _bindFamousCardImgFallback();
+}
+
+function _showFamousFilterPanel() {
+    document.getElementById('famousFilterOverlay')?.remove();
+
+    const overlay = document.createElement('div');
+    overlay.id = 'famousFilterOverlay';
+    overlay.className = 'ffilter-overlay';
+
+    overlay.innerHTML = `
+        <div class="ffilter-panel">
+            <div class="ffilter-header">
+                <span class="ffilter-title">🌎 Filtrar por región / país</span>
+                <button class="ffilter-close" id="ffilterClose">✕</button>
+            </div>
+            <div class="ffilter-regions">
+                ${FAMOUS_REGIONS.map(region => `
+                    <div class="ffilter-region ${!region.enabled ? 'ffilter-region--wip' : ''}" data-region="${region.key}">
+                        <div class="ffilter-region-header">
+                            <span class="ffilter-region-emoji">${region.emoji}</span>
+                            <span class="ffilter-region-label">${region.label}</span>
+                            ${!region.enabled ? '<span class="ffilter-wip-badge">Próximamente</span>' : ''}
+                            ${region.enabled ? '<span class="ffilter-chevron">▾</span>' : ''}
+                        </div>
+                        ${region.enabled && region.countries.length ? `
+                        <div class="ffilter-countries" id="fcountries-${region.key}">
+                            <button class="ffilter-country ${_famousFilter.region === region.key && !_famousFilter.country ? 'active' : ''}"
+                                    data-region="${region.key}" data-country="">
+                                ${region.emoji} Toda la región
+                            </button>
+                            ${region.countries.map(c => `
+                                <button class="ffilter-country ${_famousFilter.country === c.key ? 'active' : ''}"
+                                        data-region="${region.key}" data-country="${c.key}">
+                                    ${c.emoji} ${c.label}
+                                </button>
+                            `).join('')}
+                        </div>` : ''}
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+    `;
+    document.body.appendChild(overlay);
+
+    // Toggle países al tocar región habilitada
+    overlay.querySelectorAll('.ffilter-region:not(.ffilter-region--wip)').forEach(el => {
+        el.querySelector('.ffilter-region-header').addEventListener('click', () => {
+            const countries = el.querySelector('.ffilter-countries');
+            if (countries) countries.classList.toggle('open');
+        });
+    });
+
+    // Abrir el panel de la región que ya está activa
+    if (_famousFilter.region) {
+        const el = overlay.querySelector(`[data-region="${_famousFilter.region}"] .ffilter-countries`);
+        if (el) el.classList.add('open');
+    }
+
+    // Selección de país / región
+    overlay.querySelectorAll('.ffilter-country').forEach(btn => {
+        btn.addEventListener('click', () => {
+            _famousFilter.region  = btn.dataset.region || null;
+            _famousFilter.country = btn.dataset.country || null;
+            overlay.remove();
+            _renderFamousGrid(currentTranslations);
+        });
+    });
+
+    overlay.querySelector('#ffilterClose').addEventListener('click', () => overlay.remove());
+    overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
 }
 
 // Manejo de fallback de imagen para todas las cards renderizadas
@@ -193,8 +411,8 @@ function renderFamousMenuCards(keys, t) {
 
 function loadFamousChat(person) {
     const t    = currentTranslations;
-    const data = FAMOUS_PEOPLE[person] || { nombre: 'Personaje famoso', gender: 'male', emoji: '🌟', color: '#333' };
-    const { nombre, emoji } = data;
+    const data = FAMOUS_PEOPLE[person] || { nombre: 'Personaje famoso', gender: 'male', emoji: '🌟', color: '#333', nativeLang: 'en' };
+    const { nombre, emoji, nativeLang: charNativeLang = 'en' } = data;
     const imgSrc = `/images/famous/${person}.jpg`;
 
     mainContainer.innerHTML = '';
@@ -312,6 +530,7 @@ function loadFamousChat(person) {
     let currentSpeed = 1.0;
     let currentMode  = 'free';
     let conversationHistory = [];
+    let msgsSent = 0; // contador para modal premium cada 6 mensajes
 
     // ── VOZ toggle ────────────────────────────────────────────
     voiceBtn.addEventListener('click', () => {
@@ -369,16 +588,15 @@ function loadFamousChat(person) {
     });
 
     // ── Mensajes ──────────────────────────────────────────────
-    // translation: texto traducido al idioma del usuario (opcional)
-    function addMessage(role, html, translation = null) {
+    // translation: texto ya disponible (respuestas del servidor)
+    // fetchTranslation: true → botón fetcha traducción on-demand (para el saludo)
+    function addMessage(role, html, translation = null, fetchTranslation = false) {
         const wrap = document.createElement('div');
         wrap.classList.add('school-msg-wrap', `school-msg-wrap--${role}`);
 
         if (role === 'assistant') {
-            const hasImg    = avatarEl.classList.contains('famous-chat-avatar--img');
-            const transHTML = translation
-                ? `<div class="famous-bubble-translation">🌐 ${translation}</div>`
-                : '';
+            const hasImg = avatarEl.classList.contains('famous-chat-avatar--img');
+            const uid = `ftrans-${Date.now()}-${Math.random().toString(36).slice(2,7)}`;
             wrap.innerHTML = `
                 <div class="school-msg-avatar famous-msg-avatar"
                      style="${hasImg ? `background-image:url('${imgSrc}'); background-size:cover; background-position:center top; font-size:0` : ''}">
@@ -386,8 +604,54 @@ function loadFamousChat(person) {
                 </div>
                 <div class="school-msg-bubble school-msg-bubble--assistant">
                     <div class="famous-bubble-original">${html}</div>
-                    ${transHTML}
+                    <button class="famous-translate-btn" data-uid="${uid}">🌐 Traducir</button>
+                    <div class="famous-bubble-translation hidden" id="${uid}"></div>
                 </div>`;
+
+            const btn    = wrap.querySelector('.famous-translate-btn');
+            const transEl = wrap.querySelector(`#${uid}`);
+            let cachedTrans = translation;
+            let visible = false;
+
+            btn.addEventListener('click', async () => {
+                if (!cachedTrans) {
+                    // Fetch on-demand via /translate
+                    btn.textContent = '⏳ Traduciendo...';
+                    btn.disabled = true;
+                    try {
+                        const r = await fetch('http://localhost:3000/translate', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                text: html,
+                                plan: 'neutral',
+                                sourceLang: charNativeLang,
+                                targetLang: sourceLang || 'es'
+                            })
+                        });
+                        const d = await r.json();
+                        try {
+                            const parsed = JSON.parse(d.translation);
+                            cachedTrans = parsed.neutral || parsed.informal || d.translation;
+                        } catch { cachedTrans = d.translation; }
+                    } catch {
+                        btn.textContent = '🌐 Traducir';
+                        btn.disabled = false;
+                        return;
+                    }
+                    btn.disabled = false;
+                }
+                visible = !visible;
+                if (visible) {
+                    transEl.textContent = cachedTrans;
+                    transEl.classList.remove('hidden');
+                    btn.textContent = '✕ Ocultar traducción';
+                } else {
+                    transEl.classList.add('hidden');
+                    btn.textContent = '🌐 Traducir';
+                }
+            });
+
         } else if (role === 'user') {
             wrap.innerHTML = `<div class="school-msg-bubble school-msg-bubble--user">${html}</div>`;
         } else {
@@ -396,6 +660,7 @@ function loadFamousChat(person) {
 
         chatDiv.appendChild(wrap);
         chatDiv.scrollTop = chatDiv.scrollHeight;
+        return wrap;
     }
 
     function addThinking() {
@@ -438,43 +703,15 @@ function loadFamousChat(person) {
         }
     }
 
-    // ── Bienvenida ────────────────────────────────────────────
-    const welcomeMap = {
-        mlk:         t.mlk_intro,
-        marilyn:     t.marilyn_intro,
-        maradona:    t.maradona_intro,
-        einstein:    t.einstein_intro,
-        cleopatra:   t.cleopatra_intro,
-        frida:       t.frida_intro,
-        mandela:     t.mandela_intro,
-        shakespeare: t.shakespeare_intro
-    };
-    const welcome = welcomeMap[person] || `¡Hola! Soy ${nombre}. ¿De qué quieres hablar?`;
-    // El intro ya está en el idioma nativo del personaje.
-    // Pedir traducción al servidor si el idioma del usuario difiere.
-    addMessage('assistant', welcome);
-    conversationHistory.push({ role: 'assistant', content: welcome });
-    // Traducir el intro si hay targetLang definido
-    if (targetLang) {
-        fetch('http://localhost:3000/famous-chat', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                person,
-                messages: [{ role: 'user', content: '__translate_intro__' }],
-                targetLang
-            })
-        }).then(r => r.json()).then(data => {
-            // Agregar la traducción del intro al primer mensaje
-            const firstBubble = chatDiv.querySelector('.famous-bubble-original');
-            if (firstBubble && data.translation) {
-                const transEl = document.createElement('div');
-                transEl.className = 'famous-bubble-translation';
-                transEl.textContent = '🌐 ' + data.translation;
-                firstBubble.insertAdjacentElement('afterend', transEl);
-            }
-        }).catch(() => {}); // Si falla, sin traducción en el intro
+    // ── Disclaimer para personajes contemporáneos ─────────────
+    if (data.contemporary) {
+        addMessage('system', `⚠️ <strong>Personaje recreado con IA.</strong> ${nombre} es una figura pública real. Sus respuestas son generadas por inteligencia artificial y no representan sus opiniones reales.`);
     }
+
+    // ── Bienvenida en el idioma nativo del personaje ──────────
+    const welcome = FAMOUS_NATIVE_INTROS[person] || `Hello! I am ${nombre}. What would you like to talk about?`;
+    addMessage('assistant', welcome); // botón "Traducir" fetcha on-demand
+    conversationHistory.push({ role: 'assistant', content: welcome });
 
     // ── Enviar mensaje ────────────────────────────────────────
     async function sendMessage() {
@@ -501,6 +738,12 @@ function loadFamousChat(person) {
             addMessage('assistant', resp.reply, resp.translation || null);
             speakText(resp.reply);
             conversationHistory.push({ role: 'assistant', content: resp.reply });
+
+            // Mostrar modal premium cada 6 mensajes enviados
+            msgsSent++;
+            if (msgsSent % 6 === 0 && typeof _showUpgradeModal === 'function') {
+                setTimeout(() => _showUpgradeModal('famous'), 600);
+            }
         } catch (err) {
             thinking.remove();
             addMessage('system', `❌ Error: ${err.message}`);
