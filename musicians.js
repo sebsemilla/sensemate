@@ -7,6 +7,7 @@
 // ─── Estado de la sección ─────────────────────────────────────
 
 let currentLangData    = null;
+let currentSongLang    = 'es'; // idioma real de las canciones cargadas
 let currentArtistId    = null;
 let currentArtistName  = null;
 let currentSongsObject = null;
@@ -69,6 +70,7 @@ async function loadMusiciansMenu() {
     }
 
     currentLangData = langData;
+    currentSongLang = usedLang;
     renderArtistsList(langData, usedLang);
 }
 
@@ -140,7 +142,10 @@ function showLyrics(song, artistName) {
     if (!currentUser) currentSavedWords = [];
 
     const availableTranslations  = Object.keys(song.translations).sort();
-    let   currentTranslationLang = sourceLang;
+    // Preferir targetLang, si no está disponible tomar el primero de la lista
+    let   currentTranslationLang = availableTranslations.includes(targetLang)
+        ? targetLang
+        : (availableTranslations[0] || sourceLang);
     const t = currentTranslations;
     let   translationText = song.translations[currentTranslationLang] || t.translate_error;
 
@@ -173,14 +178,25 @@ function showLyrics(song, artistName) {
                     <span class="info-text">${t.info_traduccion_canciones}</span>
                 </div>
             </div>
-            <div class="lyrics-columns">
-                <div class="lyrics-original" id="originalLyricsContainer">
-                    <h3>${t.letra_original} (${targetLang.toUpperCase()})</h3>
-                    <pre id="originalLyricsText">${escapeHtml(song.originalLyrics)}</pre>
-                </div>
-                <div class="lyrics-translation">
-                    <h3>${t.traduccion} (<span id="translationLangLabel">${getLanguageName(currentTranslationLang)}</span>)</h3>
-                    <pre id="translationText">${escapeHtml(translationText)}</pre>
+            <div class="lyrics-pane-dots">
+                <div class="lyrics-pane-dot lyrics-pane-dot--active" data-pane="0"></div>
+                <div class="lyrics-pane-dot" data-pane="1"></div>
+            </div>
+            <div class="lyrics-columns" id="lyricsColumns">
+                <div class="lyrics-pane-track" id="lyricsPaneTrack">
+                    <div class="lyrics-original" id="originalLyricsContainer">
+                        <h3>${t.letra_original} (${currentSongLang.toUpperCase()})</h3>
+                        <pre id="originalLyricsText">${escapeHtml(song.originalLyrics)}</pre>
+                    </div>
+                    <div class="lyrics-divider" id="lyricsDivider">
+                        <div class="lyrics-divider-handle">
+                            <span></span><span></span>
+                        </div>
+                    </div>
+                    <div class="lyrics-translation">
+                        <h3>${t.traduccion} (<span id="translationLangLabel">${getLanguageName(currentTranslationLang)}</span>)</h3>
+                        <pre id="translationText">${escapeHtml(translationText)}</pre>
+                    </div>
                 </div>
             </div>
             <div class="saved-words-panel">
@@ -212,11 +228,20 @@ function showLyrics(song, artistName) {
     });
 
     // ── Popup de selección ────────────────────────────────────
+    // Original: traduce desde el idioma de la canción hacia el del usuario
     document.getElementById('originalLyricsText').addEventListener('contextmenu', e => {
         e.preventDefault();
         const selectedText = window.getSelection().toString().trim();
         if (selectedText && selectedText.length > 0 && selectedText.length < 150) {
-            showSelectionPopup(selectedText, e.pageX, e.pageY, song);
+            showSelectionPopup(selectedText, e.pageX, e.pageY, song, currentSongLang, targetLang);
+        }
+    });
+    // Traducción: dirección inversa — desde el idioma de traducción hacia el de la canción
+    document.getElementById('translationText').addEventListener('contextmenu', e => {
+        e.preventDefault();
+        const selectedText = window.getSelection().toString().trim();
+        if (selectedText && selectedText.length > 0 && selectedText.length < 150) {
+            showSelectionPopup(selectedText, e.pageX, e.pageY, song, currentTranslationLang, currentSongLang);
         }
     });
 
@@ -229,20 +254,11 @@ function showLyrics(song, artistName) {
     document.getElementById('saveToFlashcardsBtn')?.addEventListener('click', () => {
         if (!requireAuthForAction('guardar flashcards')) return;
         if (!currentSavedWords.length) return;
-        const allFlashcards = JSON.parse(localStorage.getItem('userFlashcards') || '[]');
-        allFlashcards.push(...currentSavedWords.map(item => ({
-            word:        item.word,
-            translation: item.translation,
-            source:      song.title,
-            date:        new Date().toISOString()
-        })));
-        localStorage.setItem('userFlashcards', JSON.stringify(allFlashcards));
-        alert(`✅ Se guardaron ${currentSavedWords.length} flashcards.`);
-        if (confirm('¿Limpiar la lista de palabras guardadas?')) {
+        _showSaveGroupModal(currentSavedWords, song.title, () => {
             currentSavedWords = [];
             localStorage.setItem(savedKey, JSON.stringify(currentSavedWords));
             renderSavedWordsListUI();
-        }
+        });
     });
 
     // ── Helpers de lista de palabras ──────────────────────────
@@ -282,13 +298,144 @@ function showLyrics(song, artistName) {
 
     window.currentSaveWord = (word, translation) => addWordToList(word, translation);
     renderSavedWordsListUI();
+
+    // ── Panning de columnas (mobile) ──────────────────────────
+    _initLyricsPanning();
+}
+
+function _initLyricsPanning() {
+    const viewport = document.getElementById('lyricsColumns');
+    const track    = document.getElementById('lyricsPaneTrack');
+    const dots     = document.querySelectorAll('.lyrics-pane-dot');
+    if (!viewport || !track) return;
+
+    // Solo activo en mobile (< 700px); en desktop no hace nada
+    let paneIndex = 0;
+
+    function setPane(idx) {
+        // En desktop no hay desplazamiento
+        if (window.innerWidth >= 700) return;
+        paneIndex = idx;
+        const paneWidth = viewport.clientWidth;
+        track.style.transform = idx === 0 ? '' : `translateX(calc(-${paneWidth}px - 1rem))`;
+        dots.forEach((d, i) => d.classList.toggle('lyrics-pane-dot--active', i === idx));
+    }
+
+    // Click en los dots
+    dots.forEach(d => d.addEventListener('click', () => setPane(+d.dataset.pane)));
+
+    const divider = document.getElementById('lyricsDivider');
+
+    // Drag / swipe — mouse solo desde el divisor, touch desde toda la vista
+    let startX = 0, startY = 0, dragging = false;
+
+    function onStart(x, y) {
+        if (window.innerWidth >= 700) return;
+        startX = x; startY = y; dragging = true;
+    }
+    function onEnd(x, y) {
+        if (!dragging) return;
+        dragging = false;
+        const dx = startX - x;
+        const dy = Math.abs(startY - y);
+        if (Math.abs(dx) < 40 || dy > Math.abs(dx)) return;
+        if (dx > 0 && paneIndex === 0) setPane(1);
+        else if (dx < 0 && paneIndex === 1) setPane(0);
+    }
+
+    // Touch — desde toda la vista para comodidad en mobile
+    viewport.addEventListener('touchstart', e => onStart(e.touches[0].clientX, e.touches[0].clientY), { passive: true });
+    viewport.addEventListener('touchend',   e => onEnd(e.changedTouches[0].clientX, e.changedTouches[0].clientY), { passive: true });
+
+    // Mouse — solo desde el divisor
+    if (divider) {
+        divider.addEventListener('mousedown', e => onStart(e.clientX, e.clientY));
+        document.addEventListener('mouseup',  e => { if (dragging) onEnd(e.clientX, e.clientY); });
+    }
+}
+
+// ─── Modal: guardar palabras como grupo de flashcards ─────────
+
+function _showSaveGroupModal(words, songTitle, onSaved) {
+    document.getElementById('saveGroupModal')?.remove();
+
+    const modal = document.createElement('div');
+    modal.id = 'saveGroupModal';
+    modal.className = 'sgm-overlay';
+    modal.innerHTML = `
+        <div class="sgm-card">
+            <button class="sgm-close" id="sgmCloseBtn">✕</button>
+            <h3 class="sgm-title">💾 Guardar grupo de flashcards</h3>
+            <p class="sgm-subtitle">${words.length} tarjeta${words.length !== 1 ? 's' : ''} seleccionada${words.length !== 1 ? 's' : ''}</p>
+            <label class="sgm-label" for="sgmGroupName">Nombre del grupo</label>
+            <input id="sgmGroupName" class="sgm-input" type="text"
+                   placeholder="Ej: Canciones de ${escapeHtml(songTitle)}"
+                   value="Canciones — ${escapeHtml(songTitle)}" maxlength="60">
+            <div class="sgm-btns">
+                <button class="primary-btn" id="sgmSaveBtn">Guardar</button>
+                <button class="secondary-btn" id="sgmGoBtn">Ir a Flashcards</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+
+    const nameInput = modal.querySelector('#sgmGroupName');
+    nameInput.focus();
+    nameInput.select();
+
+    function doSave() {
+        const name = nameInput.value.trim() || `Canciones — ${songTitle}`;
+        loadFlashcardData();
+        const groupId = `cg_${Date.now()}`;
+        flashcardGroups.push({ id: groupId, name, lastUsed: new Date().toISOString() });
+        words.forEach(w => {
+            flashcards.push({
+                id:          `cf_${Date.now()}_${Math.random().toString(36).slice(2,7)}`,
+                groupId,
+                word:        w.word,
+                translation: w.translation,
+                source:      songTitle,
+                date:        new Date().toISOString()
+            });
+        });
+        saveFlashcardData();
+        onSaved();
+        return groupId;
+    }
+
+    let saved = false;
+
+    modal.querySelector('#sgmSaveBtn').addEventListener('click', () => {
+        if (saved) return;
+        doSave();
+        saved = true;
+        // Feedback dentro del modal, no cierra
+        nameInput.disabled = true;
+        modal.querySelector('#sgmSaveBtn').disabled = true;
+        modal.querySelector('#sgmSaveBtn').textContent = '✅ Guardado';
+        modal.querySelector('#sgmGoBtn').textContent = '→ Ir a Mis Tarjetas';
+        const hint = document.createElement('p');
+        hint.className = 'sgm-saved-hint';
+        hint.textContent = 'Grupo guardado. Podés ir a verlo o cerrar esta ventana.';
+        modal.querySelector('.sgm-btns').insertAdjacentElement('beforebegin', hint);
+    });
+
+    modal.querySelector('#sgmGoBtn').addEventListener('click', () => {
+        if (!saved) doSave();
+        modal.remove();
+        if (typeof showCustomGroupsPanel === 'function') showCustomGroupsPanel();
+        else if (typeof loadPracticeMenu === 'function') loadPracticeMenu();
+    });
+
+    modal.querySelector('#sgmCloseBtn').addEventListener('click', () => modal.remove());
+    modal.addEventListener('click', e => { if (e.target === modal) modal.remove(); });
 }
 
 // ─── Popup de selección ───────────────────────────────────────
 
 let activeSelectionPopup = null;
 
-function showSelectionPopup(selectedText, x, y, song) {
+function showSelectionPopup(selectedText, x, y, song, fromLang, toLang) {
     if (activeSelectionPopup) activeSelectionPopup.remove();
     const popup = document.createElement('div');
     popup.className  = 'selection-popup';
@@ -307,7 +454,7 @@ function showSelectionPopup(selectedText, x, y, song) {
             const res  = await fetch('http://localhost:3000/translate', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ text: selectedText, plan: 'free', sourceLang: targetLang, targetLang: sourceLang })
+                body: JSON.stringify({ text: selectedText, plan: 'free', sourceLang: fromLang, targetLang: toLang })
             });
             if (!res.ok) throw new Error();
             const data = await res.json();
@@ -321,7 +468,7 @@ function showSelectionPopup(selectedText, x, y, song) {
             const res  = await fetch('http://localhost:3000/translate', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ text: selectedText.trim(), plan: 'free', sourceLang: targetLang, targetLang: sourceLang })
+                body: JSON.stringify({ text: selectedText.trim(), plan: 'free', sourceLang: fromLang, targetLang: toLang })
             });
             if (!res.ok) throw new Error();
             const data = await res.json();

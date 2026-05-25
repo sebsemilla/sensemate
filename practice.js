@@ -103,6 +103,8 @@ function showPracticeOverview(selectedLevel = 'A0') {
                     <button class="prac-level-tab ${l.key === selectedLevel ? 'active' : ''}"
                             data-level="${l.key}">${l.label}</button>
                 `).join('')}
+                <button class="prac-level-tab ${selectedLevel === 'custom' ? 'active' : ''}"
+                        data-level="custom">📝 Mis Tarjetas</button>
             </div>
 
             <div class="prac-groups">
@@ -155,7 +157,10 @@ function showPracticeOverview(selectedLevel = 'A0') {
 
     // Level tabs
     document.querySelectorAll('.prac-level-tab').forEach(tab => {
-        tab.addEventListener('click', () => showPracticeOverview(tab.dataset.level));
+        tab.addEventListener('click', () => {
+            if (tab.dataset.level === 'custom') showCustomGroupsPanel();
+            else showPracticeOverview(tab.dataset.level);
+        });
     });
 
     document.querySelectorAll('.prac-group-card').forEach(card => {
@@ -610,6 +615,276 @@ function showSessionComplete(curriculum, groupIdx, deck, session, selectedLevel 
             }).catch(() => {});
         });
     }
+}
+
+// ── Panel de grupos propios (Mis Tarjetas) ────────────────────
+
+function showCustomGroupsPanel() {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+
+    loadFlashcardData();
+    const groups = flashcardGroups || [];
+
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="prac-wrap">
+            <div class="prac-header">
+                <button class="school-back-btn" id="customBackBtn">← Menú</button>
+            </div>
+            <div class="prac-custom-header-row">
+                <h2 class="prac-title-centered">📝 Mis Tarjetas</h2>
+                <button class="prac-custom-config-btn" id="customConfigBtn" title="Configurar visualización">⚙️ Configurar</button>
+            </div>
+            <div class="prac-level-tabs-centered">
+                <button class="prac-level-tab" data-level="A0">A0</button>
+                <button class="prac-level-tab" data-level="A1">A1</button>
+                <button class="prac-level-tab active" data-level="custom">📝 Mis Tarjetas</button>
+            </div>
+
+            <div class="prac-groups" id="customGroupsList">
+                ${groups.length === 0 ? `
+                    <div class="prac-custom-empty">
+                        <div class="prac-custom-empty-icon">📭</div>
+                        <p>Todavía no tenés grupos propios.</p>
+                        <p class="prac-custom-empty-hint">Guardá palabras desde la sección de Canciones para crear grupos aquí.</p>
+                    </div>
+                ` : groups.map(g => {
+                    const cards = (flashcards || []).filter(c => c.groupId === g.id);
+                    return `
+                    <div class="prac-group-card prac-custom-card" data-group-id="${g.id}" style="--gc:#6366f1">
+                        <div class="prac-group-left">
+                            <div class="prac-group-icon">📝</div>
+                            <div class="prac-group-info">
+                                <div class="prac-group-name">${escapeHtml(g.name)}</div>
+                                <div class="prac-group-count">${cards.length} tarjeta${cards.length !== 1 ? 's' : ''}</div>
+                            </div>
+                        </div>
+                        <div class="prac-group-right">
+                            <button class="prac-custom-delete-btn" data-group-id="${g.id}" title="Eliminar grupo">🗑️</button>
+                        </div>
+                    </div>`;
+                }).join('')}
+            </div>
+        </div>
+    `);
+
+    document.getElementById('customBackBtn').addEventListener('click', showMainMenu);
+    document.getElementById('customConfigBtn').addEventListener('click', _showCustomConfigPanel);
+
+    document.querySelectorAll('.prac-level-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            if (tab.dataset.level === 'custom') return;
+            showPracticeOverview(tab.dataset.level);
+        });
+    });
+
+    document.querySelectorAll('.prac-custom-card').forEach(card => {
+        card.addEventListener('click', e => {
+            if (e.target.closest('.prac-custom-delete-btn')) return;
+            showCustomGroupDetail(card.dataset.groupId);
+        });
+    });
+
+    document.querySelectorAll('.prac-custom-delete-btn').forEach(btn => {
+        btn.addEventListener('click', e => {
+            e.stopPropagation();
+            if (!confirm('¿Eliminar este grupo y todas sus tarjetas?')) return;
+            const gid = btn.dataset.groupId;
+            flashcardGroups = flashcardGroups.filter(g => g.id !== gid);
+            flashcards      = flashcards.filter(c => c.groupId !== gid);
+            saveFlashcardData();
+            showCustomGroupsPanel();
+        });
+    });
+}
+
+function showCustomGroupDetail(groupId) {
+    loadFlashcardData();
+    const group = flashcardGroups.find(g => g.id === groupId);
+    if (!group) return showCustomGroupsPanel();
+    const cards = flashcards.filter(c => c.groupId === groupId);
+
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="prac-wrap">
+            <div class="prac-header">
+                <button class="school-back-btn" id="customDetailBackBtn">← Mis Tarjetas</button>
+            </div>
+            <h2 class="prac-title-centered">${escapeHtml(group.name)}</h2>
+            ${cards.length > 0 ? `
+            <div class="prac-custom-start-row">
+                <button class="primary-btn prac-custom-start-btn" id="customStartPracticeBtn">▶ Iniciar práctica</button>
+            </div>` : ''}
+            <div class="prac-groups">
+                ${cards.length === 0 ? `<p style="text-align:center;color:var(--text-muted);padding:2rem;">Este grupo no tiene tarjetas.</p>` :
+                cards.map((c, i) => `
+                    <div class="prac-group-card" style="--gc:#6366f1">
+                        <div class="prac-group-left">
+                            <div class="prac-group-icon">${i + 1}</div>
+                            <div class="prac-group-info">
+                                <div class="prac-group-name">${escapeHtml(c.word)}</div>
+                                <div class="prac-group-desc">${escapeHtml(c.translation)}</div>
+                            </div>
+                        </div>
+                    </div>`).join('')}
+            </div>
+        </div>
+    `);
+
+    document.getElementById('customDetailBackBtn').addEventListener('click', showCustomGroupsPanel);
+    document.getElementById('customStartPracticeBtn')?.addEventListener('click', () => {
+        _startCustomStudySession(group, cards, groupId);
+    });
+}
+
+function _startCustomStudySession(group, cards, groupId) {
+    const settings = _loadCustomSettings();
+    // Construir deck: orden según configuración
+    let deck = [...cards];
+    if (settings.shuffle) deck = deck.sort(() => Math.random() - 0.5);
+
+    _showCustomStudyCard(deck, 0, group, groupId, settings);
+}
+
+function _showCustomStudyCard(deck, idx, group, groupId, settings) {
+    if (idx >= deck.length) {
+        return _showCustomSessionEnd(group, groupId, deck.length);
+    }
+    const card = deck[idx];
+    const flipped = settings.startSide === 'translation';
+
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="prac-wrap">
+            <div class="prac-header">
+                <button class="school-back-btn" id="customStudyBackBtn">← ${escapeHtml(group.name)}</button>
+                <span class="prac-custom-progress">${idx + 1} / ${deck.length}</span>
+            </div>
+            <div class="prac-custom-study">
+                <div class="prac-custom-card-wrap" id="customCardWrap">
+                    <div class="prac-custom-flashcard ${flipped ? 'flipped' : ''}" id="customFlashcard">
+                        <div class="prac-custom-face prac-custom-front">
+                            <div class="prac-custom-label">Palabra</div>
+                            <div class="prac-custom-word">${escapeHtml(card.word)}</div>
+                            ${card.source ? `<div class="prac-custom-source">📎 ${escapeHtml(card.source)}</div>` : ''}
+                        </div>
+                        <div class="prac-custom-face prac-custom-back">
+                            <div class="prac-custom-label">Traducción</div>
+                            <div class="prac-custom-word">${escapeHtml(card.translation)}</div>
+                        </div>
+                    </div>
+                </div>
+                <p class="prac-custom-hint">Tocá la tarjeta para girarla</p>
+                <div class="prac-custom-nav">
+                    <button class="secondary-btn" id="customPrevBtn" ${idx === 0 ? 'disabled' : ''}>← Anterior</button>
+                    <button class="primary-btn" id="customNextBtn">${idx === deck.length - 1 ? 'Finalizar ✓' : 'Siguiente →'}</button>
+                </div>
+            </div>
+        </div>
+    `);
+
+    // Flip al tocar
+    const flashcard = document.getElementById('customFlashcard');
+    flashcard.addEventListener('click', () => flashcard.classList.toggle('flipped'));
+
+    document.getElementById('customStudyBackBtn').addEventListener('click', () => showCustomGroupDetail(groupId));
+    document.getElementById('customNextBtn').addEventListener('click', () => _showCustomStudyCard(deck, idx + 1, group, groupId, settings));
+    document.getElementById('customPrevBtn')?.addEventListener('click', () => _showCustomStudyCard(deck, idx - 1, group, groupId, settings));
+}
+
+function _showCustomSessionEnd(group, groupId, total) {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="prac-wrap">
+            <div class="prac-custom-study" style="text-align:center;padding:3rem 1rem;">
+                <div style="font-size:3rem;margin-bottom:1rem;">🎉</div>
+                <h2>¡Completaste el grupo!</h2>
+                <p style="color:var(--text-muted);margin:0.5rem 0 2rem;">${total} tarjeta${total !== 1 ? 's' : ''} repasada${total !== 1 ? 's' : ''}</p>
+                <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+                    <button class="secondary-btn" id="customEndBackBtn">← Volver al grupo</button>
+                    <button class="primary-btn" id="customEndRetryBtn">↺ Repetir</button>
+                </div>
+            </div>
+        </div>
+    `);
+    document.getElementById('customEndBackBtn').addEventListener('click', () => showCustomGroupDetail(groupId));
+    document.getElementById('customEndRetryBtn').addEventListener('click', () => {
+        loadFlashcardData();
+        const g = flashcardGroups.find(g => g.id === groupId);
+        const cards = flashcards.filter(c => c.groupId === groupId);
+        _startCustomStudySession(g, cards, groupId);
+    });
+}
+
+// ── Configuración de tarjetas personales ─────────────────────
+
+const _CUSTOM_SETTINGS_KEY = 'ls_custom_card_settings';
+
+function _loadCustomSettings() {
+    try { return JSON.parse(localStorage.getItem(_CUSTOM_SETTINGS_KEY) || '{}'); }
+    catch { return {}; }
+}
+function _saveCustomSettings(s) {
+    localStorage.setItem(_CUSTOM_SETTINGS_KEY, JSON.stringify(s));
+}
+
+function _showCustomConfigPanel() {
+    document.getElementById('customConfigOverlay')?.remove();
+    const s = _loadCustomSettings();
+
+    const overlay = document.createElement('div');
+    overlay.id = 'customConfigOverlay';
+    overlay.className = 'ccp-overlay';
+    overlay.innerHTML = `
+        <div class="ccp-panel">
+            <div class="ccp-header">
+                <span class="ccp-title">⚙️ Configurar Mis Tarjetas</span>
+                <button class="ccp-close" id="ccpCloseBtn">✕</button>
+            </div>
+
+            <div class="ccp-row">
+                <span class="ccp-label">Orden de las tarjetas</span>
+                <div class="ccp-options">
+                    <button class="ccp-opt ${!s.shuffle ? 'active' : ''}" data-key="shuffle" data-val="false">En orden</button>
+                    <button class="ccp-opt ${s.shuffle ? 'active' : ''}" data-key="shuffle" data-val="true">Aleatorio</button>
+                </div>
+            </div>
+
+            <div class="ccp-row">
+                <span class="ccp-label">Cara inicial</span>
+                <div class="ccp-options">
+                    <button class="ccp-opt ${s.startSide !== 'translation' ? 'active' : ''}" data-key="startSide" data-val="word">Palabra</button>
+                    <button class="ccp-opt ${s.startSide === 'translation' ? 'active' : ''}" data-key="startSide" data-val="translation">Traducción</button>
+                </div>
+            </div>
+
+            <button class="primary-btn ccp-save-btn" id="ccpSaveBtn">Guardar</button>
+        </div>
+    `;
+    document.body.appendChild(overlay);
+
+    const current = { shuffle: !!s.shuffle, startSide: s.startSide || 'word' };
+
+    overlay.querySelectorAll('.ccp-opt').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const key = btn.dataset.key;
+            const val = btn.dataset.val;
+            current[key] = val === 'true' ? true : val === 'false' ? false : val;
+            overlay.querySelectorAll(`.ccp-opt[data-key="${key}"]`).forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        });
+    });
+
+    overlay.querySelector('#ccpSaveBtn').addEventListener('click', () => {
+        _saveCustomSettings(current);
+        overlay.remove();
+        showToast('✅ Configuración guardada');
+    });
+    overlay.querySelector('#ccpCloseBtn').addEventListener('click', () => overlay.remove());
+    overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
 }
 
 // ── Helpers de compatibilidad (para app.js) ───────────────────

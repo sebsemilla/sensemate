@@ -237,7 +237,6 @@ function renderLanguageBar() {
                 <option value="it">Italiano</option>
                 <option value="pt">Português</option>
             </select>
-            <button id="editLangBtn" class="edit-lang-btn" title="${t.cambiar_idiomas}">✏️</button>
         </div>
     `);
     const src  = document.getElementById('langBarSource');
@@ -385,28 +384,134 @@ function loadComplaintsSection() {
     });
 }
 
+// ─── Modo del selector (Traducción / Misión / Exploración) ───
+
+let appMode = localStorage.getItem('appMode') || 'traduccion';
+
+function _initModeSelector() {
+    const selector = document.getElementById('appModeSelector');
+    if (!selector) return;
+    selector.setAttribute('data-mode', appMode);
+    selector.querySelectorAll('.app-mode-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const tab = btn.dataset.tab;
+            if (tab === appMode) return;
+            appMode = tab;
+            localStorage.setItem('appMode', appMode);
+            selector.setAttribute('data-mode', appMode);
+            showMainMenu();
+            if (tab === 'mision') {
+                setTimeout(() => toggleMisionMate(), 100);
+            }
+        });
+    });
+}
+
+// ─── Hub gamificado (modo Misión) ─────────────────────────────
+
+const _MISION_STEPS_DEF = [
+    { n: 1, icon: '🔤', label: 'El Alfabeto' },
+    { n: 2, icon: '🗣️', label: 'Primeras palabras' },
+    { n: 3, icon: '📝', label: 'Frases esenciales' },
+    { n: 4, icon: '💬', label: 'Conversación básica' },
+];
+
+function _initMisionHub() {
+    const grid = document.getElementById('misionPathGrid');
+    if (!grid) return;
+
+    const completed = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
+
+    function stepHTML(s) {
+        const done = completed.includes(s.n);
+        return `<div class="mstep ${done ? 'done' : 'pending'}" data-step="${s.n}">
+            <div class="mstep-badge">${done ? '✓' : s.n}</div>
+            <div class="mstep-icon">${s.icon}</div>
+            <div class="mstep-label">${s.label}</div>
+        </div>`;
+    }
+
+    grid.innerHTML = `
+        ${stepHTML(_MISION_STEPS_DEF[0])}
+        <div class="mcon mcon-h"></div>
+        ${stepHTML(_MISION_STEPS_DEF[1])}
+        <div class="mcon-empty"></div>
+        <div class="mcon-empty"></div>
+        <div class="mcon mcon-v"></div>
+        ${stepHTML(_MISION_STEPS_DEF[3])}
+        <div class="mcon mcon-h mcon-h-rev"></div>
+        ${stepHTML(_MISION_STEPS_DEF[2])}
+    `;
+
+    grid.querySelectorAll('.mstep').forEach(el => {
+        el.addEventListener('click', () => {
+            const n = parseInt(el.dataset.step);
+            const arr = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
+            if (!arr.includes(n)) {
+                arr.push(n);
+                localStorage.setItem('ls_mision_steps', JSON.stringify(arr));
+                el.classList.replace('pending', 'done');
+                el.querySelector('.mstep-badge').textContent = '✓';
+            }
+        });
+    });
+
+    document.getElementById('misionTutorialBtn')?.addEventListener('click', () => {
+        // Tutorial: placeholder
+    });
+}
+
 // ─── Menú principal ───────────────────────────────────────────
 
 function showMainMenu() {
+    // Sincronizar el selector visual con el modo actual
+    const selector = document.getElementById('appModeSelector');
+    if (selector) selector.setAttribute('data-mode', appMode);
+
     mainContainer.innerHTML = '';
     renderLanguageBar();
     const t = currentTranslations;
+
+    // ── Secciones disponibles por modo ────────────────────────
+    const inTraduccion  = appMode === 'traduccion';
+    const inMision      = appMode === 'mision';
+    const inExploracion = appMode === 'exploracion';
+
+    const showTranslator  = inTraduccion;
+    const showSchool      = inMision;
+    const showFamous      = inExploracion;
+    const showPractice    = inTraduccion;
+    const showMusicians   = inTraduccion || inExploracion;
+    const showImmersion   = inTraduccion || inExploracion;
+    const showPlans       = inTraduccion;
+
     mainContainer.insertAdjacentHTML('beforeend', `
         <div class="main-menu">
-            ${sectionEnabled('translator') ? `
+            ${showTranslator ? (sectionEnabled('translator') ? `
             <div class="mode-card" data-mode="simple">
                 <h2>${t.simple_mode}</h2>
                 <p>${t.simple_mode_description}</p>
                 <p>${t.simple_mode_sub}</p>
                 <h4>${t.modos_traduccion}</h4>
-            </div>` : sectionMinimized('translator', '🔄', 'Traductor')}
+            </div>` : sectionMinimized('translator', '🔄', 'Traductor')) : ''}
+
+            ${showSchool ? `
+            <div class="mision-hub" id="misionHub">
+                <div class="mision-intro-row">
+                    <p class="mision-intro-text">Avanzá módulo a módulo con tu tutor IA. Completá cada paso para desbloquear el siguiente.</p>
+                    <button class="mision-tutorial-btn" id="misionTutorialBtn">📖 Tutorial</button>
+                </div>
+                <h3 class="mision-path-title">Da tus primeros pasos en <em>${({"es":"Español","fr":"Français","it":"Italiano","pt":"Português","en":"English","de":"Deutsch"})[targetLang] || targetLang || 'Español'}</em></h3>
+                <div class="mision-path-grid" id="misionPathGrid"></div>
+            </div>
+            <div class="mision-hub-divider"><span>Modo Escuela</span></div>
             ${sectionEnabled('school') ? `
             <div class="mode-card" data-mode="school">
                 <h2>${t.modo_escuela}</h2>
                 <p>${t.description_modo_escuela}</p>
-            </div>` : sectionMinimized('school', '📚', 'Modo Escuela')}
-            ${sectionEnabled('famous') ? `
-<!-- Carrusel de famosos -->
+            </div>` : sectionMinimized('school', '📚', 'Modo Escuela')}` : ''}
+
+            ${showFamous ? (sectionEnabled('famous') ? `
             <div class="famous-carousel-section" id="famousCarouselSection">
                 <button class="fc-arrow fc-arrow--left" id="fcPrev" aria-label="Anterior">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
@@ -427,9 +532,10 @@ function showMainMenu() {
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
                 </button>
             </div>
-            ` : sectionMinimized('famous', '⭐', 'Famosos')}
-            ${sectionEnabled('practice') ? `
-<div class="practice-section">
+            ` : sectionMinimized('famous', '⭐', 'Famosos')) : ''}
+
+            ${showPractice ? (sectionEnabled('practice') ? `
+            <div class="practice-section">
                 <h2 class="practice-title">${t.modo_practica || 'Modo Práctica'}</h2>
                 <div class="practice-buttons">
                     <div class="practice-btn" id="allFlashcardsMainBtn">
@@ -449,23 +555,27 @@ function showMainMenu() {
                     </div>
                 </div>
             </div>
-            ` : sectionMinimized('practice', '📇', 'Práctica / Flashcards')}
-            ${sectionEnabled('musicians') ? `
+            ` : sectionMinimized('practice', '📇', 'Práctica / Flashcards')) : ''}
+
+            ${showMusicians ? (sectionEnabled('musicians') ? `
             <div class="mode-card" data-mode="musicians">
                 <h2>${t.modo_musicos_mundo}</h2>
                 <p>${t.descripcion_musicos_mundo}</p>
-            </div>` : sectionMinimized('musicians', '🎵', 'Músicos y Letras')}
-            ${sectionEnabled('immersion') ? `
+            </div>` : sectionMinimized('musicians', '🎵', 'Músicos y Letras')) : ''}
+
+            ${showImmersion ? (sectionEnabled('immersion') ? `
             <div class="mode-card" data-mode="immersion">
                 <h2>🌍</h2>
                 <h4>Aprende con...</h4>
                 <p>Películas, series y más en el idioma original</p>
-            </div>` : sectionMinimized('immersion', '🌍', 'Aprende con...')}
+            </div>` : sectionMinimized('immersion', '🌍', 'Aprende con...')) : ''}
+
+            ${showPlans ? `
             <div class="mode-card mode-card--plans" data-mode="plans">
                 <h2>⭐</h2>
                 <h4>Premium 500X</h4>
                 <p>Desbloqueá todas las funciones sin límites</p>
-            </div>
+            </div>` : ''}
         </div>
     `);
 
@@ -511,11 +621,14 @@ function showMainMenu() {
         initFamousCarousel(document.getElementById('famousCarouselSection'));
     }
 
-    // Práctica desde menú
-    document.getElementById('allFlashcardsMainBtn').addEventListener('click', () =>
+    // Inicializar hub gamificado (modo Misión)
+    _initMisionHub();
+
+    // Práctica desde menú (solo existe en modo Traducción)
+    document.getElementById('allFlashcardsMainBtn')?.addEventListener('click', () =>
         requireAuth('Modo Práctica', () => { loadFlashcardData(); showAllGroups(); })
     );
-    document.getElementById('lastGroupMainBtn').addEventListener('click', () =>
+    document.getElementById('lastGroupMainBtn')?.addEventListener('click', () =>
         requireAuth('Flashcards', () => {
             loadFlashcardData();
             if (lastGroupId && flashcardGroups.find(g => g.id === lastGroupId)) {
@@ -525,7 +638,7 @@ function showMainMenu() {
             }
         })
     );
-    document.getElementById('newGroupMainBtn').addEventListener('click', () =>
+    document.getElementById('newGroupMainBtn')?.addEventListener('click', () =>
         requireAuth('Modo Práctica', createNewGroup)
     );
 }
@@ -925,6 +1038,7 @@ function escapeHtml(text) {
 window.addEventListener('DOMContentLoaded', async () => {
     authSeedAdminUser();
     if (typeof initMisionMate === 'function') initMisionMate();
+    _initModeSelector();
 
     // Usuario — primero carga local para mostrar la UI rápido,
     // luego verifica el JWT contra el servidor en background

@@ -15,6 +15,10 @@ const MembershipPlan = {
     },
 
     isActive() {
+        // Admin bypass — currentUser (app.js global) o authGetCurrentUser
+        const u = (typeof currentUser !== 'undefined' && currentUser)
+            || (typeof authGetCurrentUser === 'function' && authGetCurrentUser());
+        if (u?.isAdmin || u?.isDev) return true;
         const s = this.getStatus();
         return s === 'trial' || s === 'premium';
     },

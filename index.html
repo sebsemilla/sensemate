@@ -97,7 +97,6 @@
             <span>Fondo</span>
         </div>
         <button id="adminBtn" class="admin-header-btn hidden" title="Panel Admin" aria-label="Admin">🛡️</button>
-        <button id="mmToggleBtn" class="mm-toggle-btn" title="MisiónMate" aria-label="MisiónMate" onclick="toggleMisionMate()">🗡️</button>
         <div class="dark-mode-switch">
             <div class="switch">
                 <div class="toggle-button">
@@ -136,6 +135,13 @@
             </div>
         </div>
     </header>
+
+    <!-- Selector de modo — 3 botones 3D -->
+    <div class="app-mode-selector" id="appModeSelector" data-mode="traduccion">
+        <button class="app-mode-btn" data-tab="traduccion">🔄</button>
+        <button class="app-mode-btn" data-tab="mision">🗡️</button>
+        <button class="app-mode-btn" data-tab="exploracion">🌍</button>
+    </div>
 
     <!-- CONTENEDOR PRINCIPAL (cambia según el modo) -->
     <main id="mainContainer">
