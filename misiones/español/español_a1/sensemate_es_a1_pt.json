@@ -1,627 +1,598 @@
 [
   {
-    "id": "es_a1_ser_estar_01",
+    "id": "es_A1_concept_01",
     "type": "concept",
-    "title": "¿Ser o Estar? — Você já conhece os dois verbos (quase)",
-    "bridge": "Ótima notícia: na sua língua também existem 'ser' e 'estar' com regras muito parecidas. A lógica central é a mesma: 'ser' para identidade e características permanentes, 'estar' para estados temporários e localização. O perigo é justamente essa proximidade — as diferenças são pequenas mas existem, e onde você erra é exatamente onde você acha que já sabe.",
-    "rule": "Use 'ser' para identidade, origem, profissão e características permanentes. Use 'estar' para localização, estados temporários e emoções. A lógica é quase idêntica à da sua língua — os detalhes que divergem estão nas próximas tarjetas.",
+    "category": "Gramática",
+    "title": "El alfabeto y la pronunciación / O alfabeto e a pronúncia",
+    "bridge": "Em português, você tem 26 letras. Em espanhol, são 27 (inclui o 'ñ'). Muitas letras têm sons semelhantes, mas há diferenças importantes: as vogais são puras e curtas; o 'h' é sempre mudo; o 'j' soa como o 'r' francês ou o 'h' inglês (aspirado), não como o 'j' português de 'já'; o 'll' soa como 'lh'? Não! Soa como 'y' (i) ou 'sh' em algumas regiões; o 'ñ' soa como 'nh'; o 'c' antes de 'e' ou 'i' soa como 's' (ou 'th' na Espanha); o 'g' antes de 'e' ou 'i' soa como o 'j' espanhol (aspirado); o 'v' e o 'b' são pronunciados de forma idêntica (como um 'b' suave), diferente do português. O erro mais comum dos falantes de português é pronunciar 'll' como 'lh' ('llave' como 'lhava' em vez de 'yave'), e pronunciar 'j' como o 'j' português ('jamón' como 'jamon' em vez de 'hamon').",
+    "rule": "O alfabeto espanhol tem 27 letras: a, b, c, d, e, f, g, h, i, j, k, l, m, n, ñ, o, p, q, r, s, t, u, v, w, x, y, z. Regras principais: As vogais (a, e, i, o, u) são sempre curtas e puras (não ditongam). 'C' é forte (k) antes de a, o, u ou consoante; é suave (s ou th) antes de e, i. 'G' é forte (g) antes de a, o, u; é suave (como o 'j' espanhol) antes de e, i. 'H' é sempre mudo. 'J' é sempre aspirado (como o 'h' inglês em 'hot'). 'Ñ' é como 'nh' em português (banha). 'LL' é como 'y' (i) em 'yes' ou 'sh' em algumas regiões (Argentina, Uruguai). 'R' no início da palavra ou depois de 'l', 'n', 's' é vibrado múltiplo; no meio é um toque simples. 'RR' é sempre vibrado múltiplo. 'V' e 'B' têm o mesmo som: um 'b' oclusivo bilabial suave.",
     "common_error": {
-      "wrong": "Estoy con hambre.",
-      "example_1": "Soy estudiante. (profissão = identidade = ser) ✓",
-      "example_2": "Tengo hambre. (fome = 'tener', não 'estar'!)",
-      "explanation": "Na sua língua: 'estou com fome'. Em espanhol: 'tengo hambre' (literalmente 'tenho fome', usando 'tener' não 'estar'). Sensações físicas como fome, frio e calor usam 'tener' em espanhol, não 'estar'. Esse é o maior erro de transferência direta para quem fala português."
+      "wrong": "llave (pronunciado 'lhávê')",
+      "explanation": "Você pronunciou o dígrafo 'll' como o 'lh' do português (ex.: 'lhama' para 'llama'). Em espanhol, 'll' tem som de 'y' (como em 'yes') ou de 'sh' (em partes da América do Sul). Nunca deve soar como 'lh'. Outro erro comum: pronunciar 'j' como o 'j' português: 'jamón' como 'jamon' (deveria ser 'hamon').",
+      "ejemplo_1": "llave (pronunciado 'yáve' ou 'sháve')",
+      "ejemplo_2": ""
     },
     "levels": [
       {
         "level": 1,
-        "label": "Soy / Estoy — lo básico",
-        "translation": "Soy / Estoy — o básico",
+        "label": "Las vocales",
+        "translation": "As vogais",
         "examples": [
           {
-            "original": "Soy Ana.",
-            "translation": "Sou Ana.",
-            "note": "Nome próprio = identidade fixa → 'ser'. Igual à sua língua."
+            "original": "a",
+            "translation": "como 'a' de 'pai' (mas mais fechado)",
+            "note": "Sempre curto, nunca como o 'a' de 'cat' (inglês)."
           },
           {
-            "original": "Estoy aquí.",
-            "translation": "Estou aqui.",
-            "note": "Posição no espaço → 'estar'. Igual à sua língua."
+            "original": "e",
+            "translation": "como 'é' de 'pé'",
+            "note": "Nunca se transforma em 'ei'."
           },
           {
-            "original": "Soy brasileño.",
-            "translation": "Sou brasileiro.",
-            "note": "Nacionalidade = identidade permanente → 'ser'. Igual à sua língua."
+            "original": "i",
+            "translation": "como 'i' de 'vida'",
+            "note": "Sempre 'i', nunca 'ai'."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Profissão e estado",
-        "translation": "Profesión y estado",
+        "label": "Letras con sonido diferente",
+        "translation": "Letras com som diferente",
         "examples": [
           {
-            "original": "Soy médico.",
-            "translation": "Sou médico.",
-            "note": "Profissão = identidade → 'ser'. Como na sua língua, sem artigo depois de 'ser' para profissões."
+            "original": "j",
+            "translation": "como 'r' francês ou 'h' inglês",
+            "note": "Exemplo: 'jamón' (hamón), não 'jamón'."
           },
           {
-            "original": "Estoy cansado.",
-            "translation": "Estou cansado.",
-            "note": "Cansaço é temporário → 'estar'. Igual à sua língua: 'estou cansado'."
+            "original": "ñ",
+            "translation": "como 'nh' em 'banha'",
+            "note": "Exemplo: 'mañana' (manhãna)."
           },
           {
-            "original": "Estoy bien, gracias.",
-            "translation": "Estou bem, obrigado.",
-            "note": "Estado de saúde → 'estar'. Como 'estou bem' na sua língua. Correspondência perfeita."
+            "original": "ll",
+            "translation": "como 'y' em 'yes' ou 'sh'",
+            "note": "Exemplo: 'llave' (yave / shave)."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Casos que van a sorprender",
-        "translation": "Casos que vão te surpreender",
+        "label": "Contraste de sonidos",
+        "translation": "Contraste de sons",
         "examples": [
           {
-            "original": "Tengo hambre. / Tengo frío. / Tengo calor.",
-            "translation": "Estou com fome. / Estou com frio. / Estou com calor.",
-            "note": "A maior armadilha! Na sua língua: 'estar + com'. Em espanhol: 'tener'. Sensações físicas usam 'tener', nunca 'estar'. Memorize como um bloco separado."
+            "original": "b / v",
+            "translation": "ambos soam como um 'b' suave",
+            "note": "Em português 'b' e 'v' são diferentes; em espanhol são iguais."
           },
           {
-            "original": "Es aburrido. / Está aburrido.",
-            "translation": "É entediante (de caráter). / Está entediado (agora).",
-            "note": "Mesma distinção que existe na sua língua: 'ele é chato' vs 'ele está entediado'. A lógica é idêntica."
+            "original": "c + e,i (suave) vs. c + a,o,u (forte)",
+            "translation": "s/th vs. k",
+            "note": "Cero (sero / thero) vs. Casa (kasa)."
           },
           {
-            "original": "La sopa está buena.",
-            "translation": "A sopa está boa (agora, essa aqui).",
-            "note": "Como na sua língua: 'a sopa está boa' = estado atual. 'A sopa é boa' = característica geral. A distinção funciona igual."
+            "original": "g + e,i (suave) vs. g + a,o,u (forte)",
+            "translation": "som aspirado vs. g",
+            "note": "Gente (hente) vs. Gato (gato)."
           }
         ]
       }
     ],
-    "emoji": "🔀",
+    "emoji": "🔊",
     "phonetic": "",
     "translations": {
-      "pt": "Ser vs Estar — você já conhece a lógica (quase)"
+      "pt": "alfabeto e pronúncia"
     }
   },
   {
-    "id": "es_a1_ser_estar_02",
+    "id": "es_A1_concept_27",
     "type": "concept",
-    "title": "Ser — para describir lo que eres",
-    "bridge": "O 'ser' em espanhol funciona praticamente igual ao 'ser' na sua língua: nome, nacionalidade, profissão, características físicas estáveis, personalidade, relações familiares, hora e datas. A diferença mais perigosa está na localização: em espanhol 'ser' nunca indica localização física de pessoas ou objetos — isso é território exclusivo de 'estar'.",
-    "rule": "Use 'ser' para: nome, nacionalidade, profissão, descrição física estável, caráter, relações familiares, hora e datas. Tudo que responde a 'Quem é você?' usa 'ser'.",
+    "category": "Funciones comunicativas",
+    "title": "Pedir y dar direcciones / Pedir e dar direções",
+    "bridge": "Em português, você pergunta 'Onde fica o banheiro?' e responde 'Vire à esquerda', 'Siga em frente'. Em espanhol, é muito parecido: '¿Dónde está el baño?' (Onde fica o banheiro?), '¿Cómo se va a la estación?' (Como se vai para a estação?). Para dar direções, use o imperativo (tú) dos verbos: 'sigue' (siga), 'gira' (vire), 'cruza' (atravesse), 'toma' (pegue). O erro mais comum dos falantes de português é usar o infinitivo em vez do imperativo: 'seguir recto' em vez de 'sigue recto'. Outro erro: traduzir literalmente 'go straight' como 've recto' (o correto é 'sigue recto').",
+    "rule": "Para perguntar: ¿Dónde está el banco? (Onde fica o banco?), ¿Cómo se va a la estación? (Como se vai para a estação?). Para dar direções: Sigue todo recto (Siga em frente). Gira a la izquierda/derecha (Vire à esquerda/direita). Cruza la calle (Atravesse a rua). Toma la primera calle a la derecha (Pegue a primeira rua à direita). Localização: Está a la izquierda (Fica à esquerda), a la derecha (à direita), en la esquina (na esquina), cerca (perto), lejos (longe), al lado de (ao lado de), enfrente de (em frente de). Use o imperativo informal (tú) para dar instruções. Verbos comuns no imperativo: sigue (seguir), gira (girar), cruza (cruzar), toma (tomar), camina (caminhar).",
     "common_error": {
-      "wrong": "Soy en São Paulo.",
-      "example_1": "Soy de São Paulo. (origem = ser)",
-      "example_2": "Estoy en São Paulo. (localização física = estar)",
-      "explanation": "Na sua língua, 'ser de' (origem) e 'estar em' (localização) funcionam igual. A armadilha é dizer 'soy en' por analogia com expressões da sua língua. 'Ser' + preposição de lugar não existe em espanhol. 'Ser de' (origem) sim — 'ser en' não."
+      "wrong": "Seguir recto hasta el parque.",
+      "explanation": "Você usou o infinitivo 'seguir' em vez do imperativo 'sigue'. Ao dar instruções diretamente a alguém, use o imperativo (tú). O infinitivo é usado em instruções impessoais (como em placas) ou após 'para', mas não ao falar diretamente com alguém. 'Sigue recto' é a forma correta.",
+      "ejemplo_1": "Sigue recto hasta el parque.",
+      "ejemplo_2": ""
     },
     "levels": [
       {
         "level": 1,
-        "label": "Origen y profesión",
-        "translation": "Origem e profissão",
+        "label": "Preguntar direcciones",
+        "translation": "Perguntar direções",
         "examples": [
           {
-            "original": "Soy de Lisboa.",
-            "translation": "Sou de Lisboa.",
-            "note": "Origem geográfica → 'ser'. Igual à sua língua."
+            "original": "¿Dónde está el baño?",
+            "translation": "Onde fica o banheiro?",
+            "note": "Pergunta simples com 'estar'."
           },
           {
-            "original": "Soy ingeniero.",
-            "translation": "Sou engenheiro.",
-            "note": "Profissão = identidade → 'ser'. Sem artigo, igual à sua língua."
+            "original": "¿Cómo se va a la plaza mayor?",
+            "translation": "Como se vai para a praça principal?",
+            "note": "Forma impessoal."
+          },
+          {
+            "original": "¿Hay un supermercado cerca?",
+            "translation": "Há um supermercado perto?",
+            "note": "Use 'hay' para existência."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Descripción y personalidad",
-        "translation": "Descrição e personalidade",
+        "label": "Dar direcciones básicas",
+        "translation": "Dar direções básicas",
         "examples": [
           {
-            "original": "Soy alto y delgado.",
-            "translation": "Sou alto e magro.",
-            "note": "Características físicas estáveis → 'ser'. Igual à sua língua."
+            "original": "Sigue todo recto.",
+            "translation": "Siga em frente.",
+            "note": "Imperativo 'sigue'."
           },
           {
-            "original": "Ella es muy simpática.",
-            "translation": "Ela é muito simpática.",
-            "note": "Traço de caráter permanente → 'ser'. Igual à sua língua."
+            "original": "Gira a la izquierda.",
+            "translation": "Vire à esquerda.",
+            "note": "'Gira' para virar."
           },
           {
-            "original": "Somos amigos.",
-            "translation": "Somos amigos.",
-            "note": "Relações duradouras → 'ser'. Palavra a palavra idêntico!"
+            "original": "Está a la derecha, en la esquina.",
+            "translation": "Fica à direita, na esquina.",
+            "note": "Localização com 'estar'."
           }
         ]
       },
       {
         "level": 3,
-        "label": "La hora y las fechas",
-        "translation": "A hora e as datas",
+        "label": "Instrucciones más complejas",
+        "translation": "Instruções mais complexas",
         "examples": [
           {
-            "original": "Son las tres.",
-            "translation": "São três horas.",
-            "note": "A hora usa 'ser', nunca 'estar'. Como na sua língua: 'é uma hora' / 'são duas horas'. Mesmo sistema."
+            "original": "Cruza la calle y sigue dos cuadras.",
+            "translation": "Atravesse a rua e siga dois quarteirões.",
+            "note": "'Cruza' para atravessar."
           },
           {
-            "original": "Hoy es lunes.",
-            "translation": "Hoje é segunda-feira.",
-            "note": "Dia da semana → 'ser'. Igual à sua língua: 'hoje é segunda'."
+            "original": "Toma la segunda calle a la derecha.",
+            "translation": "Pegue a segunda rua à direita.",
+            "note": "'Toma' para pegar."
           },
           {
-            "original": "La fiesta es el viernes.",
-            "translation": "A festa é na sexta.",
-            "note": "Data e local de um evento → 'ser'. Como na sua língua: 'a festa é sexta' / 'a festa é na minha casa'."
+            "original": "El banco está al lado del supermercado.",
+            "translation": "O banco fica ao lado do supermercado.",
+            "note": "'Al lado de' = ao lado de."
           }
         ]
       }
     ],
-    "emoji": "🆔",
+    "emoji": "🗺️",
     "phonetic": "",
     "translations": {
-      "pt": "Ser — para descrever quem você é"
+      "pt": "pedir e dar direções"
     }
   },
   {
-    "id": "es_a1_ser_estar_03",
+    "id": "es_A1_concept_02",
     "type": "concept",
-    "title": "Estar — para decir cómo estás y dónde estás",
-    "bridge": "O 'estar' em espanhol cobre o mesmo território que na sua língua: localização de pessoas e objetos, estado de saúde, emoções, estados temporários e o progressivo (estoy hablando = estou falando). A principal diferença está naquilo que em espanhol usa 'tener' mas na sua língua usa 'estar com' — fome, frio, calor, sono.",
-    "rule": "Use 'estar' para: localização física, estado de saúde, emoções e estados temporários, e para o progressivo (estar + gerúndio). Atenção: sensações físicas (fome, frio, calor, sono) usam 'tener' em espanhol, não 'estar'.",
+    "category": "Gramática",
+    "title": "Artículos determinados e indeterminados / Artigos definidos e indefinidos",
+    "bridge": "Em português, você tem artigos definidos (o, a, os, as) e indefinidos (um, uma, uns, umas). Em espanhol é muito parecido, mas com algumas diferenças: os artigos definidos são 'el' (masculino singular), 'la' (feminino singular), 'los' (masculino plural), 'las' (feminino plural). Os indefinidos: 'un', 'una', 'unos', 'unas'. O erro mais comum dos falantes de português brasileiro é usar o artigo com profissões (em português se diz 'sou professor', em espanhol também não se usa: 'soy profesor', e não 'soy un profesor'). Outro erro: usar o artigo definido com generalizações ('a vida é bela' em português leva artigo, em espanhol também: 'la vida es bella' – nesse caso o erro é o oposto, os portugueses às vezes omitem o artigo por influência do inglês. O falso amigo mais problemático é 'oficina' (em português é 'oficina mecânica'; em espanhol 'oficina' é escritório).",
+    "rule": "Artigos definidos: el (masc. sing.), la (fem. sing.), los (masc. pl.), las (fem. pl.). Artigos indefinidos: un (masc. sing.), una (fem. sing.), unos (masc. pl. = 'alguns'), unas (fem. pl. = 'algumas'). Use o artigo definido com conceitos gerais e substantivos abstratos (La vida es bella). Não use o artigo indefinido com profissões, nacionalidades ou religião após o verbo 'ser' (Soy profesor, não 'Soy un profesor'). Não use o artigo definido com palavras como 'casa' quando se refere à própria casa após o verbo 'ir' (Voy a casa, não 'a la casa'). Atenção aos falsos amigos: 'oficina' (taller) vs. 'oficina' (escritório); 'pretender' (intentar) vs. 'pretender' (aspirar a).",
     "common_error": {
-      "wrong": "Estoy con sueño. / Estoy con frío.",
-      "example_1": "",
-      "example_2": "Tengo sueño. / Tengo frío. (sensações físicas = tener em espanhol)",
-      "explanation": "Na sua língua: 'estou com sono', 'estou com frio'. Em espanhol essas sensações físicas usam 'tener': 'tengo sueño', 'tengo frío', 'tengo hambre', 'tengo calor'. É o ponto onde a sua língua e o espanhol mais divergem no uso de 'estar'. Memorize a lista de 'tener' separada."
+      "wrong": "Soy un profesor.",
+      "explanation": "Em português, você diz 'sou professor' sem artigo. Em espanhol é igual: após o verbo 'ser' com profissões, nacionalidades e religiões, não se usa o artigo indefinido. 'Soy un profesor' é um erro comum por influência do inglês ou do português europeu (que às vezes usa o artigo).",
+      "ejemplo_1": "Soy profesor.",
+      "ejemplo_2": ""
     },
     "levels": [
       {
         "level": 1,
-        "label": "¿Dónde estás?",
-        "translation": "Onde você está?",
-        "examples": [
-          {
-            "original": "Estoy en casa.",
-            "translation": "Estou em casa.",
-            "note": "Localização de pessoa → 'estar'. Igual à sua língua."
-          },
-          {
-            "original": "El libro está en la mesa.",
-            "translation": "O livro está na mesa.",
-            "note": "Localização de objeto → 'estar'. Igual à sua língua."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Emociones y estados",
-        "translation": "Emoções e estados",
-        "examples": [
-          {
-            "original": "Estoy nervioso.",
-            "translation": "Estou nervoso.",
-            "note": "Emoção momentânea → 'estar'. Igual à sua língua."
-          },
-          {
-            "original": "La puerta está abierta.",
-            "translation": "A porta está aberta.",
-            "note": "Estado de um objeto → 'estar'. Igual à sua língua."
-          },
-          {
-            "original": "Estamos de vacaciones.",
-            "translation": "Estamos de férias.",
-            "note": "Situação temporária → 'estar'. Igual à sua língua."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Cuidado: 'tener' en vez de 'estar'",
-        "translation": "Atenção: 'tener' em vez de 'estar'",
-        "examples": [
-          {
-            "original": "Tengo hambre. (no: estoy con hambre)",
-            "translation": "Estou com fome.",
-            "note": "ARMADILHA. Na sua língua: 'estar com fome'. Em espanhol: 'tener hambre'. O verbo muda completamente."
-          },
-          {
-            "original": "Tengo frío. / Tengo calor. / Tengo sueño.",
-            "translation": "Estou com frio. / Estou com calor. / Estou com sono.",
-            "note": "A lista completa das sensações físicas que usam 'tener' em espanhol. Aprenda como um bloco."
-          },
-          {
-            "original": "Tengo miedo.",
-            "translation": "Estou com medo.",
-            "note": "Medo também usa 'tener', não 'estar'. Na sua língua: 'estou com medo'. Em espanhol: 'tengo miedo'."
-          }
-        ]
-      }
-    ],
-    "emoji": "📍",
-    "phonetic": "",
-    "translations": {
-      "pt": "Estar — para dizer como você está e onde você está"
-    }
-  },
-  {
-    "id": "es_a1_articulos_01",
-    "type": "concept",
-    "title": "El / La — el artículo cambia de forma",
-    "bridge": "Na sua língua você tem 'o/a' para masculino e feminino. Em espanhol é 'el/la'. A lógica é idêntica — só a forma das palavras muda. O risco para você é o portunhol: escrever ou dizer 'o livro' ou 'a mesa' no meio de uma frase em espanhol. A outra armadilha: espanhol não usa artigo antes de nomes de pessoas, ao contrário da sua língua.",
-    "rule": "Use 'el' antes de nomes masculinos e 'la' antes de nomes femininos. Plural: 'los' (masc.) e 'las' (fem.). Diferença importante: em espanhol não se usa artigo antes de nomes próprios de pessoas ('María fala espanhol', não 'a María').",
-    "common_error": {
-      "wrong": "La María es simpática. / O libro es nuevo.",
-      "example_1": "María es simpática. (sem artigo antes de nomes próprios em espanhol)",
-      "example_2": "El libro es nuevo. (artigo espanhol 'el', não 'o' do português)",
-      "explanation": "Dois erros clássicos de quem fala português: 1) Colocar artigo antes de nomes próprios como na sua língua ('a Maria', 'o João') — em espanhol não se faz isso. 2) Misturar o artigo da sua língua ('o', 'a') com as palavras em espanhol. O artigo masculino em espanhol é 'el', não 'o'."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "El / La — masculino y femenino",
-        "translation": "El / La — masculino e feminino",
+        "label": "el / la / un / una",
+        "translation": "o / a / um / uma",
         "examples": [
           {
             "original": "el libro",
             "translation": "o livro",
-            "note": "'o' em português → 'el' em espanhol. A lógica é a mesma, só a forma muda."
+            "note": "Masculino singular definido."
           },
           {
-            "original": "la mesa",
-            "translation": "a mesa",
-            "note": "'a' em português → 'la' em espanhol. Fácil de lembrar: l + a = la."
+            "original": "la casa",
+            "translation": "a casa",
+            "note": "Feminino singular definido."
           },
           {
-            "original": "el hombre / la mujer",
-            "translation": "o homem / a mulher",
-            "note": "Gênero biológico corresponde ao gênero gramatical. Igual à sua língua."
+            "original": "un perro",
+            "translation": "um cão",
+            "note": "Masculino singular indefinido."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Plural: los / las",
-        "translation": "Plural: los / las",
+        "label": "los / las / unos / unas",
+        "translation": "os / as / uns / umas",
         "examples": [
           {
             "original": "los libros",
             "translation": "os livros",
-            "note": "'os' em português → 'los' em espanhol. Plural masculino."
+            "note": "Masculino plural definido."
           },
           {
-            "original": "las mesas",
-            "translation": "as mesas",
-            "note": "'as' em português → 'las' em espanhol. Plural feminino."
+            "original": "las casas",
+            "translation": "as casas",
+            "note": "Feminino plural definido."
           },
           {
-            "original": "los amigos y las amigas",
-            "translation": "os amigos e as amigas",
-            "note": "Grupo misto → plural masculino, igual à sua língua."
+            "original": "unos perros",
+            "translation": "uns cães",
+            "note": "Masculino plural indefinido ('alguns')."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Sin artículo: nombres propios y profesiones",
-        "translation": "Sem artigo: nomes próprios e profissões",
+        "label": "Profesiones sin artículo",
+        "translation": "Profissões sem artigo",
         "examples": [
           {
-            "original": "María es de Madrid. (no: la María)",
-            "translation": "María é de Madrid.",
-            "note": "Nomes próprios em espanhol não levam artigo. Na sua língua você diria 'a Maria'. Em espanhol, artigo zero."
+            "original": "Soy profesor.",
+            "translation": "Sou professor.",
+            "note": "Sem artigo após 'ser'."
           },
           {
-            "original": "Soy médico. (no: soy un médico)",
-            "translation": "Sou médico.",
-            "note": "Profissão depois de 'ser' → sem artigo. Igual à sua língua: 'sou médico' (não 'sou um médico' na forma neutra)."
+            "original": "Ella es médica.",
+            "translation": "Ela é médica.",
+            "note": "Nunca 'una médica'."
+          },
+          {
+            "original": "La vida es hermosa.",
+            "translation": "A vida é bela.",
+            "note": "Com artigo definido para generalizações (diferente do inglês, igual ao português)."
           }
         ]
       }
     ],
-    "emoji": "🏷️",
+    "emoji": "📝",
     "phonetic": "",
     "translations": {
-      "pt": "El / La — o artigo muda de forma"
+      "pt": "artigos definidos e indefinidos"
     }
   },
   {
-    "id": "es_a1_articulos_02",
+    "id": "es_A1_concept_28",
     "type": "concept",
-    "title": "Un / Una — artículos indefinidos",
-    "bridge": "Na sua língua você tem 'um/uma'. Em espanhol é 'un/una' — quase idêntico! A forma é tão parecida que raramente causa erro. O ponto de atenção é o plural: em espanhol 'unos/unas' existe (alguns/algumas), mas é menos usado que na sua língua.",
-    "rule": "Use 'un' antes de nome masculino e 'una' antes de feminino. Plural: 'unos/unas' (equivalente a 'alguns/algumas'). Idêntico à sua língua na forma e na função.",
+    "category": "Funciones comunicativas",
+    "title": "Realizar compras básicas / Fazer compras básicas",
+    "bridge": "Em português, você pergunta 'Quanto custa?', 'Gostaria de comprar...', 'Você tem...?'. Em espanhol, é muito parecido: '¿Cuánto cuesta?' (Quanto custa?), '¿Cuánto cuestan?' (Quanto custam?), 'Quisiera comprar...' (Gostaria de comprar...), '¿Tiene...?' (Você tem...?). O erro mais comum dos falantes de português é usar 'cuesta' para objetos no plural ('¿Cuánto cuesta los zapatos?' em vez de '¿Cuánto cuestan?'). Outro erro: usar 'quiero' (eu quero) em vez do mais educado 'quisiera' (eu gostaria).",
+    "rule": "Frases-chave: ¿Cuánto cuesta esto? (Quanto custa isto?) – Cuesta [número] euros. ¿Cuánto cuestan estos? (Quanto custam estes?) – Cuestan [número] euros. Quisiera comprar... (Gostaria de comprar...). ¿Tiene/tienes...? (Você tem...?). ¿Me puede dar...? (Pode me dar...?). Tamanho e cor: ¿De qué talla? (De que tamanho?), ¿De qué color? (De que cor?). Pagamento: ¿Aceptan tarjeta? (Aceitam cartão?), En efectivo (Em dinheiro). Números de 1 a 1000 são essenciais. Lembre-se: 'cuesta' para singular, 'cuestan' para plural. Use 'quisiera' (condicional de 'querer') para pedidos educados, não 'quiero'.",
     "common_error": {
-      "wrong": "Tengo una problema.",
-      "example_1": "Tengo un problema. (problema = masculino em espanhol, mesmo terminando em -a)",
-      "example_2": "",
-      "explanation": "Na sua língua: 'tenho um problema' — masculino. Em espanhol também é masculino: 'un problema'. O erro ocorre porque a palavra termina em '-a' e parece feminina. Palavras de origem grega em '-ma', '-pa', '-ta' são masculinas nos dois idiomas."
+      "wrong": "¿Cuánto cuesta los zapatos? – Cuesta cincuenta euros.",
+      "explanation": "Você usou 'cuesta' (singular) com 'zapatos' (plural). O verbo 'costar' deve concordar com o sujeito: 'cuesta' para singular, 'cuestan' para plural. O correto é '¿Cuánto cuestan los zapatos?' e 'Cuestan cincuenta euros'.",
+      "ejemplo_1": "¿Cuánto cuestan los zapatos? – Cuestan cincuenta euros.",
+      "ejemplo_2": ""
     },
     "levels": [
       {
         "level": 1,
-        "label": "Un / Una — presentar algo nuevo",
-        "translation": "Un / Una — apresentar algo novo",
+        "label": "Preguntar el precio",
+        "translation": "Perguntar o preço",
         "examples": [
           {
-            "original": "un perro",
-            "translation": "um cachorro",
-            "note": "'um' em português → 'un' em espanhol. Masculino. Quase idêntico."
+            "original": "¿Cuánto cuesta este libro?",
+            "translation": "Quanto custa este livro?",
+            "note": "Objeto singular."
           },
           {
-            "original": "una casa",
-            "translation": "uma casa",
-            "note": "'uma' em português → 'una' em espanhol. Feminino. Quase idêntico."
+            "original": "Cuesta diez euros.",
+            "translation": "Custa dez euros.",
+            "note": "Resposta singular."
           },
           {
-            "original": "Tengo un gato y una tortuga.",
-            "translation": "Tenho um gato e uma tartaruga.",
-            "note": "Acordo com o gênero de cada nome. Igual à sua língua."
+            "original": "¿Cuánto cuestan estas manzanas?",
+            "translation": "Quanto custam estas maçãs?",
+            "note": "Objeto plural."
+          },
+          {
+            "original": "Cuestan dos euros el kilo.",
+            "translation": "Custam dois euros o quilo.",
+            "note": "Resposta plural."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Definido vs. indefinido",
-        "translation": "Definido vs. indefinido",
+        "label": "Pedir y pagar",
+        "translation": "Pedir e pagar",
         "examples": [
           {
-            "original": "Hay un café en la plaza.",
-            "translation": "Há um café na praça.",
-            "note": "'un' = menciono pela primeira vez, você não sabe qual. Igual à sua língua."
+            "original": "Quisiera comprar una camisa.",
+            "translation": "Gostaria de comprar uma camisa.",
+            "note": "Pedido educado com 'quisiera'."
           },
           {
-            "original": "El café está cerrado.",
-            "translation": "O café está fechado.",
-            "note": "Depois que mencionei, vira 'el'. A progressão indefinido → definido funciona igual à sua língua."
+            "original": "¿Tiene esta camisa en azul?",
+            "translation": "Você tem esta camisa em azul?",
+            "note": "Perguntar por cor."
+          },
+          {
+            "original": "¿Aceptan tarjeta de crédito?",
+            "translation": "Aceitam cartão de crédito?",
+            "note": "Pergunta sobre pagamento."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Gêneros diferentes do português",
-        "translation": "Géneros diferentes do português",
+        "label": "Tallas y devoluciones",
+        "translation": "Tamanhos e devoluções",
         "examples": [
           {
-            "original": "la leche (femenino)",
-            "translation": "o leite (masculino) → la leche (feminino!)",
-            "note": "Armadilha clássica: 'o leite' é masculino na sua língua, 'la leche' é feminino em espanhol. O gênero diverge."
+            "original": "¿De qué talla es?",
+            "translation": "De que tamanho é?",
+            "note": "Tamanhos S, M, L."
           },
           {
-            "original": "la sal (femenino)",
-            "translation": "o sal (masculino) → la sal (feminino!)",
-            "note": "'o sal' é masculino na sua língua, 'la sal' é feminino em espanhol. Outro exemplo frequente de divergência."
+            "original": "Necesito una talla más grande.",
+            "translation": "Preciso de um tamanho maior.",
+            "note": "Comparativo 'más grande'."
+          },
+          {
+            "original": "¿Puedo devolver esto?",
+            "translation": "Posso devolver isto?",
+            "note": "Use 'poder' para permissão."
           }
         ]
       }
     ],
-    "emoji": "1️⃣",
+    "emoji": "🛒",
     "phonetic": "",
     "translations": {
-      "pt": "Un / Una — artigos indefinidos"
+      "pt": "fazer compras básicas"
     }
   },
   {
-    "id": "es_a1_articulos_03",
+    "id": "es_A1_concept_03",
     "type": "concept",
-    "title": "El género de las palabras — casi igual, pero no exacto",
-    "bridge": "O gênero gramatical funciona de forma muito parecida nas duas línguas. A maioria dos gêneros coincide. O problema é assumir que são sempre idênticos — há palavras importantes onde divergem, e esses são os erros que mais confundem porque ocorrem nos momentos em que você acha que já sabe.",
-    "rule": "Regra geral: palavras em '-o' → masculino; em '-a' → feminino. As terminações '-dad', '-ción', '-sión' são sempre femininas. Aprenda cada palavra nova com seu artigo, especialmente as que divergem da sua língua.",
+    "category": "Gramática",
+    "title": "Género y número de sustantivos y adjetivos / Gênero e número de substantivos e adjetivos",
+    "bridge": "Em português, você já está familiarizado com gênero (masculino/feminino) e número (singular/plural). Em espanhol é muito parecido, mas há algumas diferenças: a maioria das palavras terminadas em -o são masculinas (el libro) e em -a são femininas (la casa). No entanto, há exceções importantes: 'el día' (dia) é masculino, 'la mano' (mão) é feminino, e palavras terminadas em -ma, -pa, -ta (de origem grega) são geralmente masculinas: 'el problema', 'el mapa', 'el planeta'. Os adjetivos concordam em gênero e número: 'bonito' (masc. sing.), 'bonita' (fem. sing.), 'bonitos', 'bonitas'. O erro mais comum dos falantes de português é usar a terminação -o do português ('lindo' para masculino, 'linda' para feminino – em espanhol é igual, mas cuidado com palavras como 'azul' (invariável em gênero) e com o plural de palavras terminadas em -ão (português) que em espanhol geralmente são -ón: 'canción' (canção), 'corazón' (coração). Outro erro: usar o artigo 'el' com palavras femininas que em português são masculinas: 'a ponte' (português) é 'el puente' (espanhol).",
+    "rule": "Gênero: palavras terminadas em -o geralmente masculinas (el perro); terminadas em -a geralmente femininas (la casa). Exceções: el día (masc.), la mano (fem.), palavras em -ma, -pa, -ta (problema, mapa, planeta) são masculinas. Adjetivos: concordam com o substantivo: alto (masc. sing.), alta (fem. sing.), altos (masc. pl.), altas (fem. pl.). Adjetivos terminados em -e ou consoante não variam em gênero (grande, azul), mas variam em número (grandes, azules). Número: para formar o plural, adiciona-se -s se termina em vogal (libro → libros), -es se termina em consoante (papel → papeles). Cuidado com falsos amigos: 'a ponte' → 'el puente'; 'a árvore' → 'el árbol'; 'o leite' → 'la leche'.",
     "common_error": {
-      "wrong": "el árbol (masculino) → ✓ correto! / la árvore → errado (é el árbol)",
-      "example_1": "el árbol ✓ (masculino em espanhol, como 'a árvore' é feminino em português — diverge!)",
-      "example_2": "",
-      "explanation": "Na sua língua: 'a árvore' (feminino). Em espanhol: 'el árbol' (masculino). O gênero é oposto. Este é um dos exemplos mais frequentes de divergência. Outros: 'a árvore' (fem.) → 'el árbol' (masc.); 'o leite' (masc.) → 'la leche' (fem.); 'o sangue' (masc.) → 'la sangre' (fem.)."
+      "wrong": "La problema es difícil.",
+      "explanation": "Em português, 'problema' é masculino? Não, em português 'problema' também é masculino (o problema). No entanto, muitos brasileiros confundem porque palavras terminadas em -a geralmente são femininas. Em espanhol, 'problema' termina em -a, mas é masculino (como em português). O erro é usar o artigo 'la' (feminino) em vez de 'el' (masculino). Memorize as exceções: 'el problema', 'el mapa', 'el planeta', 'el día', 'la mano'.",
+      "ejemplo_1": "El problema es difícil.",
+      "ejemplo_2": ""
     },
     "levels": [
       {
         "level": 1,
-        "label": "Géneros que coinciden",
-        "translation": "Gêneros que coincidem",
+        "label": "Masculino / Femenino",
+        "translation": "Masculino / Feminino",
         "examples": [
           {
-            "original": "el sol, el mar, la luna",
-            "translation": "o sol, o mar, a lua",
-            "note": "Esses três coincidem! 'O sol' → 'el sol' (masc.), 'a lua' → 'la luna' (fem.), 'o mar' → 'el mar' (masc.)."
+            "original": "el perro negro",
+            "translation": "o cão preto",
+            "note": "Masculino: el, negro."
           },
           {
-            "original": "el amigo / la amiga",
-            "translation": "o amigo / a amiga",
-            "note": "Mudança regular -o/-a. Igual à sua língua."
+            "original": "la casa blanca",
+            "translation": "a casa branca",
+            "note": "Feminino: la, blanca."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Terminaciones siempre femeninas",
-        "translation": "Terminações sempre femininas",
+        "label": "Singular / Plural",
+        "translation": "Singular / Plural",
         "examples": [
           {
-            "original": "la ciudad",
-            "translation": "a cidade",
-            "note": "Terminação '-dad' → sempre feminino. Como '-dade' em português (a cidade, a liberdade). O gênero coincide!"
+            "original": "el libro rojo",
+            "translation": "o livro vermelho",
+            "note": "Singular."
           },
           {
-            "original": "la canción",
-            "translation": "a canção",
-            "note": "Terminação '-ción' → sempre feminino. Como '-ção' em português (a nação, a situação). Coincide!"
+            "original": "los libros rojos",
+            "translation": "os livros vermelhos",
+            "note": "Plural: adiciona -s ao substantivo e ao adjetivo."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Géneros opuestos al portugués",
-        "translation": "Gêneros opostos ao português",
+        "label": "Excepciones y adjetivos invariables",
+        "translation": "Exceções e adjetivos invariáveis",
         "examples": [
           {
-            "original": "el árbol (masculino)",
-            "translation": "a árvore (feminino) → el árbol (masculino!)",
-            "note": "Gênero oposto. Na sua língua é feminino, em espanhol é masculino. Um dos casos mais comuns de divergência."
+            "original": "el problema difícil",
+            "translation": "o problema difícil",
+            "note": "'Problema' termina em -a, mas é masculino."
           },
           {
-            "original": "la sangre (femenino)",
-            "translation": "o sangue (masculino) → la sangre (feminino!)",
-            "note": "Outro gênero oposto. Memorize com o artigo: 'la sangre', não 'el sangre'."
+            "original": "la mano pequeña",
+            "translation": "a mão pequena",
+            "note": "'Mano' termina em -o, mas é feminino."
           },
           {
-            "original": "el puente (masculino)",
-            "translation": "a ponte (feminino) → el puente (masculino!)",
-            "note": "Mais um. 'A ponte' é feminino na sua língua, 'el puente' é masculino em espanhol."
+            "original": "el coche azul / la casa azul",
+            "translation": "o carro azul / a casa azul",
+            "note": "Adjetivo 'azul' não muda de gênero, apenas de número (azules)."
           }
         ]
       }
     ],
-    "emoji": "⚥",
+    "emoji": "🚹🚺",
     "phonetic": "",
     "translations": {
-      "pt": "O gênero das palavras — quase igual, mas não exato"
+      "pt": "gênero e número de substantivos e adjetivos"
     }
   },
   {
-    "id": "es_a1_reflexivos_01",
+    "id": "es_A1_concept_29",
     "type": "concept",
-    "title": "Me llamo… — verbos reflexivos, você já conhece",
-    "bridge": "Na sua língua você tem 'me chamo', 'me levanto', 'me lavo'. Em espanhol é 'me llamo', 'me levanto', 'me lavo'. A estrutura e os pronomes são praticamente idênticos. O risco aqui não é a gramática — é o portunhol: usar a palavra portuguesa com pronúncia espanhola ('me chamo' em vez de 'me llamo').",
-    "rule": "Verbo reflexivo = ação que o sujeito faz em si mesmo. O pronome reflexivo fica antes do verbo conjugado: me, te, se, nos, os, se. Correspondência com a sua língua: me→me, te→te, se→se, nos→nos, vos→os.",
+    "category": "Funciones comunicativas",
+    "title": "Ordenar en un bar o restaurante / Pedir em um bar ou restaurante",
+    "bridge": "Em português, você diz 'Eu gostaria de um café', 'Pode me trazer o cardápio?', 'A conta, por favor'. Em espanhol, é muito parecido: 'Quisiera un café, por favor' (Eu gostaria de um café, por favor), '¿Me trae la carta?' (Pode me trazer o cardápio?), 'La cuenta, por favor' (A conta, por favor). O erro mais comum dos falantes de português é usar 'quiero' (eu quero) em vez de 'quisiera' (eu gostaria), que pode soar rude. Outro erro: pedir 'para mí' (para mim) é comum e correto, mas alguns usam 'yo quiero' (eu quero) diretamente.",
+    "rule": "Pedidos educados: Quisiera un café, por favor (Gostaria de um café, por favor). Me gustaría pedir una ensalada (Gostaria de pedir uma salada). ¿Me puede traer la carta? (Pode me trazer o cardápio?). Para pedir para outra pessoa: Para mí, una paella (Para mim, uma paella). Para ella, una ensalada (Para ela, uma salada). Perguntas: ¿Qué me recomienda? (O que me recomenda?), ¿Tienen menú del día? (Vocês têm menu do dia?). Pagamento: La cuenta, por favor. ¿Puedo pagar con tarjeta? (Posso pagar com cartão?). Vocabulário: camarero/a (garçom/garçonete), la carta (o cardápio), el plato (o prato), la bebida (a bebida), el postre (a sobremesa), la propina (a gorjeta).",
     "common_error": {
-      "wrong": "Me chamo Pedro.",
-      "example_1": "Me llamo Pedro. (o verbo é 'llamarse', não 'chamar-se')",
-      "example_2": "",
-      "explanation": "A estrutura é idêntica à sua língua (me + verbo reflexivo), mas o verbo precisa ser o espanhol, não o português. 'Chamar-se' em português = 'llamarse' em espanhol. O pronome 'me' é o mesmo — só o verbo muda. Este é o portunhol clássico: gramática certa, vocabulário errado."
+      "wrong": "Yo quiero un café.",
+      "explanation": "Você usou 'quiero' (eu quero), que é muito direto e pode soar rude em um restaurante. Em espanhol, é mais educado usar 'quisiera' (eu gostaria) ou 'me gustaría' (eu gostaria). Sempre adicione 'por favor' para ser cortês.",
+      "ejemplo_1": "Quisiera un café, por favor.",
+      "ejemplo_2": "Me gustaría un café."
     },
     "levels": [
       {
         "level": 1,
-        "label": "Me llamo / Te llamas",
-        "translation": "Me chamo / Você se chama",
+        "label": "Pedir bebidas y platos simples",
+        "translation": "Pedir bebidas e pratos simples",
         "examples": [
           {
-            "original": "Me llamo Juan.",
-            "translation": "Me chamo Juan.",
-            "note": "Estrutura idêntica à sua língua. Só o verbo muda: 'chamar' → 'llamar'."
+            "original": "Quisiera una cerveza, por favor.",
+            "translation": "Gostaria de uma cerveja, por favor.",
+            "note": "Educado com 'quisiera'."
           },
           {
-            "original": "¿Cómo te llamas?",
-            "translation": "Como você se chama?",
-            "note": "'Te' = pronome reflexivo de 2ª pessoa. Igual à sua língua."
+            "original": "Para mí, una pizza.",
+            "translation": "Para mim, uma pizza.",
+            "note": "Forma comum de pedir."
           },
           {
-            "original": "Ella se llama Sofía.",
-            "translation": "Ela se chama Sofía.",
-            "note": "'Se' = pronome reflexivo de 3ª pessoa. Idêntico à sua língua."
+            "original": "¿Me trae la carta, por favor?",
+            "translation": "Pode me trazer o cardápio, por favor?",
+            "note": "Pedido educado com 'traer'."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Pronombres reflexivos completos",
-        "translation": "Pronomes reflexivos completos",
+        "label": "Preguntar sobre el menú",
+        "translation": "Perguntar sobre o menu",
         "examples": [
           {
-            "original": "Me lavo. / Te lavas. / Se lava.",
-            "translation": "Me lavo. / Você se lava. / Ele/ela se lava.",
-            "note": "Pronomes idênticos à sua língua. A conjugação do verbo muda (lavar → lavas, lava), mas os pronomes são os mesmos."
+            "original": "¿Qué me recomienda?",
+            "translation": "O que me recomenda?",
+            "note": "Ao garçom."
           },
           {
-            "original": "Nos levantamos a las ocho.",
-            "translation": "Nos levantamos às oito.",
-            "note": "'Nos' = nós reflexivo. Idêntico à sua língua. Até a palavra 'levantamos' é quase igual!"
+            "original": "¿Tienen opciones vegetarianas?",
+            "translation": "Vocês têm opções vegetarianas?",
+            "note": "Use 'tener' para disponibilidade."
+          },
+          {
+            "original": "¿De qué es la sopa?",
+            "translation": "De que é a sopa?",
+            "note": "Pergunta sobre ingredientes."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Posición del pronombre",
-        "translation": "Posição do pronome",
+        "label": "La cuenta y problemas",
+        "translation": "A conta e problemas",
         "examples": [
           {
-            "original": "Quiero levantarme tarde. / Me quiero levantar tarde.",
-            "translation": "Quero me levantar tarde.",
-            "note": "Com infinitivo, o pronome pode se prender ao final ('levantarme') ou ir antes do verbo modal ('me quiero'). Igual à sua língua: 'quero me levantar' ou 'me quero levantar'. As duas formas são corretas."
+            "original": "La cuenta, por favor.",
+            "translation": "A conta, por favor.",
+            "note": "Pedido padrão."
           },
           {
-            "original": "¡Levántate!",
-            "translation": "Levanta-te! / Levante-se!",
-            "note": "No imperativo afirmativo, o pronome se prende depois do verbo. Como na sua língua: 'levanta-te'. Estrutura idêntica."
+            "original": "Creo que hay un error en la cuenta.",
+            "translation": "Acho que há um erro na conta.",
+            "note": "Reclamação educada."
+          },
+          {
+            "original": "¿Está incluida la propina?",
+            "translation": "A gorjeta está incluída?",
+            "note": "Pergunta sobre o serviço."
           }
         ]
       }
     ],
-    "emoji": "🪞",
+    "emoji": "🍽️",
     "phonetic": "",
     "translations": {
-      "pt": "Verbos reflexivos — você já conhece a estrutura"
+      "pt": "pedir em um bar ou restaurante"
     }
   },
   {
-    "id": "es_a1_reflexivos_02",
+    "id": "es_A1_concept_04",
     "type": "concept",
-    "title": "La rutina diaria — verbos reflexivos en acción",
-    "bridge": "Os verbos da rotina diária são quase todos reflexivos em espanhol — igualzinho à sua língua. 'Me levanto', 'me ducho', 'me visto', 'me acuesto' correspondem a 'me levanto', 'me ducho', 'me visto', 'me deito'. O risco é substituir o vocabulário espanhol pelo português com sotaque espanhol (portunhol).",
-    "rule": "Os verbos de rotina (levantar-se, lavar-se, vestir-se, deitar-se…) são reflexivos. O pronome reflexivo fica sempre antes do verbo conjugado. Correspondência quase perfeita com a sua língua — só o vocabulário muda.",
+    "category": "Gramática",
+    "title": "Presente de indicativo (verbos regulares) / Presente do indicativo (verbos regulares)",
+    "bridge": "Em português, você conjuga os verbos regulares no presente: -ar (falo, falas, fala...), -er (como, comes, come...), -ir (parto, partes, parte...). Em espanhol é muito parecido, mas com pequenas diferenças nas terminações. Por exemplo, para verbos -ar: hablo, hablas, habla, hablamos, habláis, hablan (note o 'á' em habláis). Verbos -er: como, comes, come, comemos, coméis, comen. Verbos -ir: vivo, vives, vive, vivimos, vivís, viven. O erro mais comum dos falantes de português é usar as terminações do português, como 'hablo' (certo), mas 'tu habla' (errado, deveria ser 'tú hablas') – ou seja, confundir a segunda pessoa. Outro erro: usar 'vós' (que em espanhol é 'vosotros', mas é pouco usado na América Latina). Foco no 'tú' e 'usted'.",
+    "rule": "Conjugação dos verbos regulares no presente: -AR: hablo (eu), hablas (tu), habla (ele/ela/você), hablamos (nós), habláis (vós – Espanha), hablan (eles/elas/vocês). -ER: como, comes, come, comemos, coméis, comen. -IR: vivo, vives, vive, vivimos, vivís, viven. Use o presente para ações habituais, verdades universais e ações futuras com valor de presente (Mañana voy al cine). O sujeito pode ser omitido porque a terminação já indica a pessoa (exceto na terceira pessoa, que pode ser ambígua). Lembre-se: 'tú' exige a terminação -as (para -ar) ou -es (para -er/-ir), nunca -a/-e (essas são para él/ella/usted).",
     "common_error": {
-      "wrong": "Me ducho rápido. ✓ / Me despierto a las siete. ✓ / Me deito tarde. ✗",
-      "example_1": "Me acuesto tarde. (deitar-se = acostarse, não um verbo da sua língua com sotaque espanhol)",
-      "example_2": "",
-      "explanation": "A estrutura é idêntica, mas o verbo precisa ser o espanhol. 'Deitar-se' em português = 'acostarse' em espanhol. 'Me deito' não existe em espanhol — é portunhol. Sempre verifique se o verbo que está usando é de fato espanhol, não português disfarçado."
+      "wrong": "Tú habla español.",
+      "explanation": "Você usou a forma 'habla' (que é para él/ella/usted) com o pronome 'tú'. Em português, 'tu fala' é usado coloquialmente em algumas regiões, mas em espanhol padrão, 'tú' exige a terminação -as para verbos -ar, e -es para -er/-ir. O correto é 'tú hablas'. Se quiser usar 'habla', deve usar 'usted': 'usted habla'.",
+      "ejemplo_1": "Tú hablas español.",
+      "ejemplo_2": "Usted habla español."
     },
     "levels": [
       {
         "level": 1,
-        "label": "Verbos de la mañana",
-        "translation": "Verbos da manhã",
+        "label": "Verbos -ar",
+        "translation": "Verbos -ar",
         "examples": [
           {
-            "original": "Me despierto a las siete.",
-            "translation": "Me acordo às sete.",
-            "note": "'Despertarse' = acordar/despertar-se. O '-se' no infinitivo indica verbo reflexivo, como '-se' na sua língua."
+            "original": "Yo hablo español.",
+            "translation": "Eu falo espanhol.",
+            "note": "Yo: -o"
           },
           {
-            "original": "Me ducho rápido.",
-            "translation": "Tomo banho rápido.",
-            "note": "'Ducharse' = tomar banho. Em espanhol existe o verbo 'ducharse' (tomar ducha); na sua língua é mais comum 'tomar banho'."
+            "original": "Tú hablas inglés.",
+            "translation": "Tu falas inglês.",
+            "note": "Tú: -as"
           },
           {
-            "original": "Me visto y salgo.",
-            "translation": "Me visto e saio.",
-            "note": "'Vestirse' = vestir-se. Quase idêntico à sua língua!"
+            "original": "Él habla francés.",
+            "translation": "Ele fala francês.",
+            "note": "Él/ella/usted: -a"
           }
         ]
       },
       {
         "level": 2,
-        "label": "A lo largo del día",
-        "translation": "Ao longo do dia",
+        "label": "Verbos -er",
+        "translation": "Verbos -er",
         "examples": [
           {
-            "original": "Me siento bien hoy.",
-            "translation": "Me sinto bem hoje.",
-            "note": "'Sentirse' = sentir-se. Igual à sua língua."
+            "original": "Yo como una manzana.",
+            "translation": "Eu como uma maçã.",
+            "note": "Yo: -o"
           },
           {
-            "original": "Me acuesto tarde.",
-            "translation": "Me deito tarde.",
-            "note": "'Acostarse' = deitar-se. O verbo é diferente! Não diga 'me deito' em espanhol."
+            "original": "Tú comes pizza.",
+            "translation": "Tu comes pizza.",
+            "note": "Tú: -es"
+          },
+          {
+            "original": "Él come pasta.",
+            "translation": "Ele come massa.",
+            "note": "Él/ella/usted: -e"
           }
         ]
       },
       {
         "level": 3,
-        "label": "Verbos que cambian de sentido",
-        "translation": "Verbos que mudam de sentido",
+        "label": "Verbos -ir",
+        "translation": "Verbos -ir",
         "examples": [
           {
-            "original": "Llamo a María. / Me llamo María.",
-            "translation": "Ligo para María. / Me chamo María.",
-            "note": "Sem pronome reflexivo: 'ligar para alguém'. Com 'me': 'chamar-se'. Igual à sua língua: 'chamar alguém' vs 'chamar-se'."
+            "original": "Yo vivo en Madrid.",
+            "translation": "Eu vivo em Madrid.",
+            "note": "Yo: -o"
           },
           {
-            "original": "Pongo el libro aquí. / Me pongo nervioso.",
-            "translation": "Coloco o livro aqui. / Fico nervoso.",
-            "note": "'Ponerse' + adjetivo = ficar (mudança de estado). Na sua língua: 'ficar nervoso'. Em espanhol: 'ponerse nervioso'."
+            "original": "Tú vives en Londres.",
+            "translation": "Tu vives em Londres.",
+            "note": "Tú: -es"
+          },
+          {
+            "original": "Nosotros vivimos juntos.",
+            "translation": "Nós vivemos juntos.",
+            "note": "Nosotros: -imos (atenção ao 'i')"
           }
         ]
       }
@@ -629,141 +600,86 @@
     "emoji": "⏰",
     "phonetic": "",
     "translations": {
-      "pt": "A rotina diária — verbos reflexivos em ação"
+      "pt": "presente do indicativo (verbos regulares)"
     }
   },
   {
-    "id": "es_a1_reflexivos_03",
+    "id": "es_A1_concept_30",
     "type": "concept",
-    "title": "Cuidado con el portuñol — estructura correcta, verbo equivocado",
-    "bridge": "Esse é o alerta mais importante para quem fala português: como a estrutura dos verbos reflexivos é idêntica, você pode produzir frases que soam quase corretas mas usam a palavra portuguesa com sotaque espanhol. 'Me deito' (português) vira 'me deito' (portunhol) em vez de 'me acuesto' (espanhol). A gramática está certa — o vocabulário está errado.",
-    "rule": "Sempre verifique se o verbo que está usando é de fato espanhol. A estrutura reflexiva (me/te/se + verbo) é igual, mas cada verbo tem sua forma própria em espanhol. Alguns são quase idênticos; outros são completamente diferentes.",
+    "category": "Funciones comunicativas",
+    "title": "Expresar acuerdo y desacuerdo simple / Expressar concordância e discordância simples",
+    "bridge": "Em português, você diz 'Eu concordo', 'Você tem razão', 'Eu não concordo', 'Eu acho que sim', 'Eu acho que não'. Em espanhol, é muito parecido: 'Estoy de acuerdo' (Eu concordo), 'No estoy de acuerdo' (Eu não concordo), 'Tienes razón' (Você tem razão), 'No tienes razón' (Você não tem razão), 'Creo que sí' (Acho que sim), 'Creo que no' (Acho que não). O erro mais comum dos falantes de português é usar 'Acuerdo' sozinho (que é o substantivo 'acordo') em vez de 'Estoy de acuerdo'. Outro erro: dizer 'Pienso así' em vez de 'Creo que sí' (calco do inglês 'I think so').",
+    "rule": "Para concordar: Estoy de acuerdo (Eu concordo). Tienes razón (Você tem razão). Claro (Claro). Exacto (Exato). Para discordar: No estoy de acuerdo (Não concordo). No tienes razón (Você não tem razão). Eso no es cierto (Isso não é verdade). Para mí, no (Para mim, não). Para expressar opinião: Creo que sí (Acho que sim). Creo que no (Acho que não). Pienso que... (Penso que...). En mi opinión... (Na minha opinião...). Use sempre 'estoy de acuerdo' (nunca 'soy de acuerdo' ou apenas 'acuerdo'). 'De acuerdo' sozinho pode ser usado como interjeição: '¡De acuerdo!' (De acordo!).",
     "common_error": {
-      "wrong": "Me deito tarde. / Me acorde temprano. / Me vistei para a festa.",
-      "example_1": "Me acuesto tarde. / Me desperté temprano. / Me vestí para la fiesta.",
-      "example_2": "",
-      "explanation": "Três exemplos de portunhol reflexivo: 'deitar' (port.) → 'acostarse' (esp.); 'acordar' (port.) → 'despertarse' (esp.); e o passado 'vistei' não existe em espanhol — o passado de 'vestirse' é 'me vestí'. A estrutura do reflexivo está correta nos três casos — só o verbo ou a conjugação está errada."
+      "wrong": "Acuerdo contigo.",
+      "explanation": "Você usou 'acuerdo' (substantivo) como se fosse um verbo. O correto é 'estoy de acuerdo' (eu concordo). 'Acuerdo' sozinho não é um verbo. Em português, você diz 'eu concordo' (concordar é verbo). Em espanhol, a expressão é 'estar de acuerdo' (literalmente 'estar de acordo').",
+      "ejemplo_1": "Estoy de acuerdo contigo.",
+      "ejemplo_2": "De acuerdo."
     },
     "levels": [
       {
         "level": 1,
-        "label": "Verbos casi idénticos",
-        "translation": "Verbos quase idênticos",
+        "label": "Acuerdo básico",
+        "translation": "Concordância básica",
         "examples": [
           {
-            "original": "me levanto / me levanto",
-            "translation": "me levanto / me levanto",
-            "note": "Idêntico! 'Levantarse' é igual em espanhol e português. Nenhum risco aqui."
+            "original": "Estoy de acuerdo.",
+            "translation": "Eu concordo.",
+            "note": "Expressão completa."
           },
           {
-            "original": "me visto / me visto",
-            "translation": "me visto / me visto",
-            "note": "Também idêntico! 'Vestirse' = 'vestir-se'. Palavra e estrutura iguais."
+            "original": "Tienes razón.",
+            "translation": "Você tem razão.",
+            "note": "Concordando com alguém."
+          },
+          {
+            "original": "Claro que sí.",
+            "translation": "Claro que sim.",
+            "note": "Concordância enfática."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Verbos diferentes",
-        "translation": "Verbos diferentes",
+        "label": "Desacuerdo básico",
+        "translation": "Discordância básica",
         "examples": [
           {
-            "original": "me acuesto (deitar)",
-            "translation": "me deito → me acuesto",
-            "note": "'Deitar-se' em português = 'acostarse' em espanhol. Vocabulário completamente diferente."
+            "original": "No estoy de acuerdo.",
+            "translation": "Eu não concordo.",
+            "note": "Discordar educadamente."
           },
           {
-            "original": "me despierto (acordar)",
-            "translation": "me acordo → me despierto",
-            "note": "'Acordar-se' em português = 'despertarse' em espanhol. Palavra diferente."
+            "original": "No tienes razón.",
+            "translation": "Você não tem razão.",
+            "note": "Discordância direta."
+          },
+          {
+            "original": "Eso no es cierto.",
+            "translation": "Isso não é verdade.",
+            "note": "Discordância mais forte."
           }
         ]
       },
       {
         "level": 3,
-        "label": "El peligro del portuñol reflexivo",
-        "translation": "O perigo do portunhol reflexivo",
+        "label": "Expresar opiniones simples",
+        "translation": "Expressar opiniões simples",
         "examples": [
           {
-            "original": "Me quejo. (queixar-se)",
-            "translation": "Me queixo → me quejo",
-            "note": "'Quejarse' e 'queixar-se' são cognatos! Mas a pronúncia e a ortografia diferem. 'Me quejo' (espanhol) ≠ 'me queixo' (português)."
+            "original": "Creo que sí, deberías venir.",
+            "translation": "Acho que sim, você deveria vir.",
+            "note": "'Creo que sí' para concordar com uma sugestão."
           },
           {
-            "original": "Me alegro. (alegrar-se)",
-            "translation": "Me alegro.",
-            "note": "Esse coincide perfeitamente! 'Me alegro de verte' = 'Fico feliz de te ver'. Um dos casos em que portunhol e espanhol são a mesma coisa."
-          }
-        ]
-      }
-    ],
-    "emoji": "⚠️",
-    "phonetic": "",
-    "translations": {
-      "pt": "Cuidado com o portunhol — estrutura certa, verbo errado"
-    }
-  },
-  {
-    "id": "es_a1_tuteo_usted_01",
-    "type": "concept",
-    "title": "Tú vs. Usted — não é igual ao 'você'",
-    "bridge": "Aqui está uma das diferenças mais perigosas para quem fala português, especialmente brasileiro. Em espanhol: 'tú' é informal, 'usted' é formal. Na sua língua (Brasil): 'você' é informal e 'o senhor/a senhora' é formal. O problema: 'você' e 'usted' parecem equivalentes, mas não são — 'você' é informal, 'usted' é formal. Usar 'usted' onde deveria usar 'tú' soa distante e excessivamente formal.",
-    "rule": "Use 'tú' com amigos, família e pessoas da mesma idade. Use 'usted' com desconhecidos adultos, idosos, professores, e em contextos profissionais. 'Usted' se conjuga na 3ª pessoa do singular (como 'ele/ela').",
-    "common_error": {
-      "wrong": "¿Usted quieres ir al cine? (misturando tuteo e usted)",
-      "example_1": "¿Tú quieres ir al cine? (informal = tú)",
-      "example_2": "¿Usted quiere ir al cine? (formal = usted + 3ª pessoa)",
-      "explanation": "Dois erros em um: usar 'usted' em contexto informal E usar a conjugação errada ('quieres' é de 'tú', não de 'usted'). 'Usted' sempre usa a 3ª pessoa: 'quiere', não 'quieres'. Escolha um: ou 'tú quieres' (informal) ou 'usted quiere' (formal)."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "¿Tú o usted?",
-        "translation": "Tú ou usted?",
-        "examples": [
-          {
-            "original": "¿Tú eres estudiante?",
-            "translation": "Você é estudante?",
-            "note": "Entre estudantes, 'tú' é a norma — informal. Em português brasileiro, 'você' faz esse papel."
+            "original": "Pienso que el español es fácil.",
+            "translation": "Penso que o espanhol é fácil.",
+            "note": "Opinião com 'pienso que'."
           },
           {
-            "original": "¿Usted habla portugués?",
-            "translation": "O senhor/a senhora fala português?",
-            "note": "'Usted' em contexto formal. Equivale a 'o senhor/a senhora', não a 'você'."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Conjugación: tú vs. usted",
-        "translation": "Conjugação: tú vs. usted",
-        "examples": [
-          {
-            "original": "¿Tienes tiempo? / ¿Tiene usted tiempo?",
-            "translation": "Você tem tempo? / O senhor tem tempo?",
-            "note": "'Tienes' = 2ª pessoa (tú). 'Tiene' = 3ª pessoa (usted). Como na sua língua: 'tem' para o formal."
-          },
-          {
-            "original": "¿Cómo te llamas? / ¿Cómo se llama usted?",
-            "translation": "Como você se chama? / Como o senhor se chama?",
-            "note": "Com reflexivo: 'te llamas' (tú) / 'se llama' (usted). O pronome reflexivo muda junto."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "El problema del 'você' brasileño",
-        "translation": "O problema do 'você' brasileiro",
-        "examples": [
-          {
-            "original": "¿Tú quieres café? (informal, entre amigos)",
-            "translation": "Você quer café? (informal em português brasileiro)",
-            "note": "Em espanhol, para o informal use 'tú', não 'usted'. O 'você' informal do Brasil não tem equivalente direto — em espanhol, o informal é 'tú'."
-          },
-          {
-            "original": "Usted tiene razón, señor. (formal)",
-            "translation": "O senhor tem razão.",
-            "note": "'Usted' é o 'o senhor/a senhora' do espanhol — formal, distante. Não é o 'você' informal do Brasil."
+            "original": "En mi opinión, la película es buena.",
+            "translation": "Na minha opinião, o filme é bom.",
+            "note": "Opinião mais formal."
           }
         ]
       }
@@ -771,283 +687,81 @@
     "emoji": "🤝",
     "phonetic": "",
     "translations": {
-      "pt": "Tú vs. Usted — não é igual ao 'você'"
+      "pt": "expressar concordância e discordância simples"
     }
   },
   {
-    "id": "es_a1_tuteo_usted_02",
+    "id": "es_A1_concept_05",
     "type": "concept",
-    "title": "Usted — la 3.ª persona del respeto",
-    "bridge": "Em espanhol, 'usted' se conjuga na 3ª pessoa do singular, igual a 'ele/ela'. Na sua língua, 'você' também se conjuga na 3ª pessoa ('você tem', não 'você hás'). Portanto essa lógica você já conhece — a diferença é que em espanhol a distinção formal/informal é mais marcada.",
-    "rule": "'Usted' se conjuga como 'él/ella' (3ª pessoa singular). 'Ustedes' se conjuga como 'ellos/ellas' (3ª pessoa plural). Na escrita, pode abreviar como 'Ud.' ou 'Vd.'.",
+    "category": "Gramática",
+    "title": "Verbos irregulares frecuentes en presente / Verbos irregulares frequentes no presente",
+    "bridge": "Em português, você tem verbos irregulares como 'ser' (sou, és, é, somos, sois, são) e 'ter' (tenho, tens, tem, temos, tendes, têm). Em espanhol, os irregulares mais comuns no presente são: 'ser' (soy, eres, es, somos, sois, son), 'estar' (estoy, estás, está, estamos, estáis, están), 'tener' (tengo, tienes, tiene, tenemos, tenéis, tienen), 'ir' (voy, vas, va, vamos, vais, van), 'hacer' (hago, haces, hace, hacemos, hacéis, hacen), 'poder' (puedo, puedes, puede, podemos, podéis, pueden), 'querer' (quiero, quieres, quiere, queremos, queréis, quieren), 'saber' (sé, sabes, sabe, sabemos, sabéis, saben), 'dar' (doy, das, da, damos, dais, dan), 'decir' (digo, dices, dice, decimos, decís, dicen), 'venir' (vengo, vienes, viene, venimos, venís, vienen). O erro mais comum dos falantes de português é aplicar as terminações regulares a esses verbos, como 'sabo' (em vez de 'sé') ou 'ponho' (mas 'poner' é irregular também: 'pongo'). Outro erro: confundir 'ser' e 'estar' (ambos 'to be'), especialmente em contextos de estado temporário (estoy cansado) vs. característica permanente (soy alto).",
+    "rule": "Verbos irregulares mais comuns no presente: ser: soy, eres, es, somos, sois, son. estar: estoy, estás, está, estamos, estáis, están. tener: tengo, tienes, tiene, tenemos, tenéis, tienen. ir: voy, vas, va, vamos, vais, van. hacer: hago, haces, hace, hacemos, hacéis, hacen. poder: puedo, puedes, puede, podemos, podéis, pueden. querer: quiero, quieres, quiere, queremos, queréis, quieren. saber: sé, sabes, sabe, sabemos, sabéis, saben. dar: doy, das, da, damos, dais, dan. decir: digo, dices, dice, decimos, decís, dicen. venir: vengo, vienes, viene, venimos, venís, vienen. Memorize essas formas. Atenção especial à diferença entre 'ser' (identidade, origem, profissão, características permanentes) e 'estar' (localização, estado temporário, humor, saúde).",
     "common_error": {
-      "wrong": "Usted tienes razón.",
-      "example_1": "Usted tiene razón. (usted = 3ª pessoa, igual a 'ele tem')",
-      "example_2": "",
-      "explanation": "'Tienes' é a conjugação de 'tú'. Com 'usted' usa-se a 3ª pessoa: 'tiene'. Na sua língua 'você tem' — a mesma lógica de 3ª pessoa. Em espanhol é 'usted tiene'. O erro ocorre quando se mistura o sujeito 'usted' com a conjugação de 'tú'."
+      "wrong": "Yo sabo la respuesta.",
+      "explanation": "Você usou a terminação regular -o para o verbo 'saber', como se fosse 'sabo'. Em português, 'saber' no presente é 'sei' (irregular). Em espanhol, a primeira pessoa é 'sé' (com acento). Esse erro ocorre porque muitos verbos -er regulares teriam 'sabo' se fossem regulares, mas 'saber' é irregular. Memorize: 'sé' (eu sei).",
+      "ejemplo_1": "Yo sé la respuesta.",
+      "ejemplo_2": ""
     },
     "levels": [
       {
         "level": 1,
-        "label": "Usted = 3.ª persona",
-        "translation": "Usted = 3ª pessoa",
+        "label": "Ser y estar",
+        "translation": "Ser e estar",
         "examples": [
           {
-            "original": "Usted habla muy bien.",
-            "translation": "O senhor fala muito bem.",
-            "note": "'Habla' = 3ª pessoa de 'hablar'. Como na sua língua: 'você fala' usa a 3ª pessoa."
+            "original": "Yo soy Ana.",
+            "translation": "Eu sou Ana.",
+            "note": "Ser para identidade."
           },
           {
-            "original": "¿Usted es el señor García?",
-            "translation": "O senhor é o Sr. García?",
-            "note": "'Es' = 3ª pessoa de 'ser'. Como 'você é' na sua língua."
+            "original": "Yo estoy cansado.",
+            "translation": "Eu estou cansado.",
+            "note": "Estar para estado temporário."
+          },
+          {
+            "original": "Ella es española.",
+            "translation": "Ela é espanhola.",
+            "note": "Ser para origem."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Formas útiles con usted",
-        "translation": "Formas úteis com usted",
+        "label": "Tener e ir",
+        "translation": "Ter e ir",
         "examples": [
           {
-            "original": "Por favor, ¿puede ayudarme?",
-            "translation": "Por favor, pode me ajudar?",
-            "note": "'Puede' = 3ª pessoa de 'poder'. Frase de cortesia muito útil."
+            "original": "Yo tengo un perro.",
+            "translation": "Eu tenho um cão.",
+            "note": "Tener: tengo, tienes, tiene..."
           },
           {
-            "original": "¿Cuánto cuesta, por favor?",
-            "translation": "Quanto custa, por favor?",
-            "note": "Quando 'usted' é implícito (falando com um vendedor), omite-se o pronome mas mantém-se a conjugação na 3ª pessoa."
+            "original": "Nosotros vamos al cine.",
+            "translation": "Nós vamos ao cinema.",
+            "note": "Ir: voy, vas, va, vamos, vais, van."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Vosotros vs. ustedes",
-        "translation": "Vosotros vs. ustedes",
+        "label": "Stem-changing verbs",
+        "translation": "Verbos com alteração na raiz (e→ie, o→ue)",
         "examples": [
           {
-            "original": "Vosotros sois de España. / Ustedes son de Brasil.",
-            "translation": "Vocês são da Espanha. / Vocês são do Brasil.",
-            "note": "Na Espanha existe 'vosotros' para o plural informal. Na América Latina não existe — 'ustedes' faz tudo. Como o 'vocês' do Brasil que faz tudo."
+            "original": "Yo puedo nadar.",
+            "translation": "Eu posso nadar.",
+            "note": "Poder: o→ue (puedo, puedes, puede...)."
           },
           {
-            "original": "¿Os gusta? (España) / ¿Les gusta? (Latinoamérica)",
-            "translation": "Vocês gostam?",
-            "note": "Pronomes diferentes segundo a região. Se não vai à Espanha, pode ignorar 'vosotros/os' por enquanto."
-          }
-        ]
-      }
-    ],
-    "emoji": "👔",
-    "phonetic": "",
-    "translations": {
-      "pt": "Usted — a 3ª pessoa do respeito"
-    }
-  },
-  {
-    "id": "es_a1_tuteo_usted_03",
-    "type": "concept",
-    "title": "Tú, usted, vos — tres formas de 'você'",
-    "bridge": "Em espanhol há mais de uma forma de dizer 'você', dependendo da região e do nível de formalidade. Para quem fala português, o mais confuso é o 'vos' argentino — que não é o mesmo 'vós' arcaico do português, mas um 'tú' informal com conjugação diferente. Conhecer essas variações evita confusão quando você viajar.",
-    "rule": "Tú = informal (Espanha e maioria dos países). Usted = formal (universal). Vos = informal em Argentina, Uruguai e partes da América Central (substitui 'tú' com conjugação própria). Você não existe em espanhol.",
-    "common_error": {
-      "wrong": "Você quieres ir? (misturando português com espanhol)",
-      "example_1": "¿Tú quieres ir? (informal espanhol = tú, nunca 'você')",
-      "example_2": "",
-      "explanation": "'Você' não existe em espanhol. É a palavra que mais caracteriza o portunhol. Em espanhol, o informal é sempre 'tú' (ou 'vos' na Argentina). Nunca use 'você' em espanhol — é o sinal mais claro de portunhol."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Tú — el informal universal",
-        "translation": "Tú — o informal universal",
-        "examples": [
-          {
-            "original": "¿Tú tienes hambre?",
-            "translation": "Você está com fome?",
-            "note": "'Tú' = informal, para amigos e família. O equivalente mais próximo ao 'você' informal do Brasil."
+            "original": "Ella quiere comer.",
+            "translation": "Ela quer comer.",
+            "note": "Querer: e→ie (quiero, quieres, quiere...)."
           },
           {
-            "original": "¿Qué haces tú?",
-            "translation": "O que você faz?",
-            "note": "'Haces' = 2ª pessoa de 'hacer'. Conjugação exclusiva de 'tú'."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Vos — el informal rioplatense",
-        "translation": "Vos — o informal rioplatense",
-        "examples": [
-          {
-            "original": "¿Vos querés ir al cine?",
-            "translation": "Você quer ir ao cinema?",
-            "note": "'Vos' é usado na Argentina e Uruguai. A conjugação é diferente: 'querés' (não 'quieres'). Se você estuda para a Argentina, aprenda 'vos'."
-          },
-          {
-            "original": "¿Cómo estás vos? (Argentina) / ¿Cómo estás tú? (resto)",
-            "translation": "Como você está?",
-            "note": "Mesmo sentido, pronome diferente por região. 'Vos' e 'tú' são informais — 'usted' é sempre formal."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Lo que no existe en español",
-        "translation": "O que não existe em espanhol",
-        "examples": [
-          {
-            "original": "Tú eres mi amigo. (no: você eres mi amigo)",
-            "translation": "Você é meu amigo.",
-            "note": "'Você' não existe em espanhol. É a palavra do portunhol que mais chama atenção para quem fala espanhol nativo."
-          },
-          {
-            "original": "¿Qué quieres tomar? (informal) / ¿Qué quiere usted tomar? (formal)",
-            "translation": "O que você quer tomar? / O que o senhor quer tomar?",
-            "note": "Em espanhol há dois níveis claros. Em português brasileiro, 'você' faz os dois — em espanhol, 'tú' e 'usted' são distintos."
-          }
-        ]
-      }
-    ],
-    "emoji": "👥",
-    "phonetic": "",
-    "translations": {
-      "pt": "Tú, usted, vos — três formas de 'você'"
-    }
-  },
-  {
-    "id": "es_a1_genero_01",
-    "type": "concept",
-    "title": "El género — casi igual, con trampas específicas",
-    "bridge": "O gênero gramatical funciona quase igual nas duas línguas. A maioria dos gêneros coincide. As regras de terminação são as mesmas: '-o' → masculino, '-a' → feminino, '-dade/-ção' → feminino. O perigo é assumir que o gênero é sempre o mesmo — há palavras frequentes onde diverge, e esses são os erros que mais confundem.",
-    "rule": "Regra geral: palavras em '-o' → masculino; em '-a' → feminino. As terminações '-dad', '-ción', '-sión' são sempre femininas. Aprenda cada palavra nova com seu artigo para evitar erros de gênero.",
-    "common_error": {
-      "wrong": "el árbol → masculino ✓ (correto!) / la ponte → errado",
-      "example_1": "el puente (masculino em espanhol, feminino em português)",
-      "example_2": "",
-      "explanation": "Na sua língua: 'a ponte' (feminino). Em espanhol: 'el puente' (masculino). Gênero oposto. Lista dos mais frequentes com gênero diferente: a ponte → el puente (masc.); a árvore → el árbol (masc.); o leite → la leche (fem.); o sal → la sal (fem.); o sangue → la sangre (fem.)."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Adjetivos -o/-a",
-        "translation": "Adjetivos -o/-a",
-        "examples": [
-          {
-            "original": "un chico alto / una chica alta",
-            "translation": "um menino alto / uma menina alta",
-            "note": "'Alto' → masculino; 'alta' → feminino. Igual à sua língua."
-          },
-          {
-            "original": "un libro nuevo / una canción nueva",
-            "translation": "um livro novo / uma canção nova",
-            "note": "O acordo segue o gênero do nome. Igual à sua língua."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Géneros que coinciden",
-        "translation": "Gêneros que coincidem",
-        "examples": [
-          {
-            "original": "el sol, el mar, la luna",
-            "translation": "o sol, o mar, a lua",
-            "note": "Esses três coincidem perfeitamente! 'O sol' → 'el sol' (masc.), 'a lua' → 'la luna' (fem.)."
-          },
-          {
-            "original": "la ciudad, la nación, la libertad",
-            "translation": "a cidade, a nação, a liberdade",
-            "note": "Terminações '-dad'/'-dade', '-ción'/'-ção' → sempre feminino nos dois idiomas. Coincide!"
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Géneros opuestos — lista de sobrevivencia",
-        "translation": "Gêneros opostos — lista de sobrevivência",
-        "examples": [
-          {
-            "original": "el árbol, el puente",
-            "translation": "a árvore, a ponte → masculinos em espanhol!",
-            "note": "Femininos na sua língua, masculinos em espanhol. Memorize com o artigo: 'el árbol', 'el puente'."
-          },
-          {
-            "original": "la leche, la sal, la sangre",
-            "translation": "o leite, o sal, o sangue → femininos em espanhol!",
-            "note": "Masculinos na sua língua, femininos em espanhol. Memorize: 'la leche', 'la sal', 'la sangre'."
-          }
-        ]
-      }
-    ],
-    "emoji": "⚥",
-    "phonetic": "",
-    "translations": {
-      "pt": "O gênero — quase igual, com armadilhas específicas"
-    }
-  },
-  {
-    "id": "es_a1_genero_02",
-    "type": "concept",
-    "title": "Sustantivos variables — el mismo sistema, diferente vocabulario",
-    "bridge": "O sistema de nomes variáveis por gênero é idêntico na sua língua: 'amigo/amiga', 'professor/professora'. Em espanhol é o mesmo. A diferença está nas palavras: algumas que mudam de uma forma na sua língua mudam de outra em espanhol, e algumas exceções são diferentes.",
-    "rule": "Para pessoas e animais, o gênero do nome muda com a terminação: -o (masc.) / -a (fem.). Alguns nomes têm forma completamente diferente. Outros são iguais para os dois gêneros (nomes em '-ista', '-nte').",
-    "common_error": {
-      "wrong": "Mi médica es muy bueno.",
-      "example_1": "Mi médica es muy buena. (médica feminino → buena, também feminino)",
-      "example_2": "",
-      "explanation": "Quando o nome é feminino ('médica'), todos os adjetivos que se referem a ele devem ser femininos ('buena'). O acordo deve ser coerente na frase toda. Igual à sua língua — o erro é de distração."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Pares regulares -o/-a",
-        "translation": "Pares regulares -o/-a",
-        "examples": [
-          {
-            "original": "el amigo / la amiga",
-            "translation": "o amigo / a amiga",
-            "note": "Mudança regular -o/-a. Idêntico à sua língua!"
-          },
-          {
-            "original": "el profesor / la profesora",
-            "translation": "o professor / a professora",
-            "note": "Para nomes que terminam em consoante, adiciona-se '-a' ao feminino. Igual à sua língua."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Formas completamente distintas",
-        "translation": "Formas completamente diferentes",
-        "examples": [
-          {
-            "original": "el hombre / la mujer",
-            "translation": "o homem / a mulher",
-            "note": "Duas palavras diferentes — memorizar separadamente. Igual à sua língua."
-          },
-          {
-            "original": "el padre / la madre",
-            "translation": "o pai / a mãe",
-            "note": "Formas diferentes por gênero biológico. Igual à sua língua."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Nomes de gênero comum",
-        "translation": "Sustantivos de género común",
-        "examples": [
-          {
-            "original": "el / la estudiante",
-            "translation": "o estudante / a estudante",
-            "note": "O nome não muda — só o artigo indica o gênero. Igual à sua língua: 'o/a estudante'."
-          },
-          {
-            "original": "el / la periodista",
-            "translation": "o jornalista / a jornalista",
-            "note": "Nomes em '-ista' são de gênero comum. Idêntico à sua língua."
+            "original": "Yo digo la verdad.",
+            "translation": "Eu digo a verdade.",
+            "note": "Decir: e→i (digo, dices, dice...)."
           }
         ]
       }
@@ -1055,301 +769,1128 @@
     "emoji": "🔄",
     "phonetic": "",
     "translations": {
-      "pt": "Nomes variáveis — o mesmo sistema, vocabulário diferente"
+      "pt": "verbos irregulares comuns no presente"
     }
   },
   {
-    "id": "es_a1_genero_03",
+    "id": "es_A1_concept_06",
     "type": "concept",
-    "title": "Concordancia — toda la frase debe 'coincidir'",
-    "bridge": "O acordo de gênero e número funciona igual na sua língua: artigo + nome + adjetivo devem todos concordar. 'O livro novo', 'a casa nova', 'os livros novos'. Em espanhol é o mesmo sistema. O risco de portunhol aqui é usar adjetivos da sua língua — a concordância estará certa mas o vocabulário errado.",
-    "rule": "Artigo + nome + adjetivo devem concordar em gênero (masculino/feminino) E número (singular/plural). A cadeia de concordância é obrigatória. Igual à sua língua.",
+    "category": "Gramática",
+    "title": "Verbos reflexivos básicos / Verbos reflexivos básicos",
+    "bridge": "Em português, você já usa verbos reflexivos: 'chamo-me' (ou 'me chamo'), 'levanto-me', 'deito-me'. Em espanhol, é muito semelhante, mas o pronome reflexivo sempre vem antes do verbo conjugado (me levanto, te levantas, se levanta, nos levantamos, os levantáis, se levantan). No infinitivo, o pronome vai junto: 'levantarse'. O erro mais comum dos falantes de português brasileiro é colocar o pronome depois do verbo, como em 'levanto-me' (em português europeu é comum, mas no Brasil se usa próclise: 'me levanto'). Em espanhol, a ênclise (pronome após o verbo) só ocorre no imperativo afirmativo (levántate), no gerúndio (levantándose) e no infinitivo (levantarse). Para o presente do indicativo, sempre próclise. Outro erro: esquecer o pronome reflexivo (dizer 'yo lavo' em vez de 'yo me lavo') porque em português às vezes se omite em contextos informais ('eu lavo' em vez de 'eu me lavo' para 'eu me lavo').",
+    "rule": "Os verbos reflexivos indicam que a ação recai sobre o próprio sujeito. Eles são conjugados com um pronome reflexivo que concorda com o sujeito: me (eu), te (tu), se (ele/ela/você), nos (nós), os (vós – Espanha), se (eles/elas/vocês). O pronome é colocado ANTES do verbo conjugado: 'Me levanto a las siete' (Eu me levanto às sete). 'Ella se ducha por la mañana' (Ela se banha pela manhã). No infinitivo, o pronome vai junto: 'levantarse', 'ducharse'. Verbos reflexivos comuns: llamarse (chamar-se), levantarse (levantar-se), acostarse (deitar-se), despertarse (despertar-se), ducharse (banhar-se), vestirse (vestir-se).",
     "common_error": {
-      "wrong": "un vestido roja",
-      "example_1": "un vestido rojo (vestido = masculino → rojo, não roja)",
-      "example_2": "",
-      "explanation": "'Vestido' termina em '-o' → masculino → 'rojo'. O erro ocorre quando o estudante pensa no referente ('roupa' que é feminina em outro contexto) em vez de olhar para a terminação da palavra. A regra é: siga o gênero do nome específico, não do conceito."
+      "wrong": "Yo lavo las manos.",
+      "explanation": "Você omitiu o pronome reflexivo 'me'. Em português, 'lavar as mãos' geralmente não é reflexivo; você diz 'eu lavo as mãos' (sem 'me'), embora também se possa dizer 'eu me lavo as mãos' (menos comum). Em espanhol, para indicar que você lava as suas próprias mãos, é obrigatório usar o pronome reflexivo. 'Yo lavo las manos' significa que você lava as mãos de outra pessoa ou algo. O correto é 'Yo me lavo las manos'.",
+      "ejemplo_1": "Yo me lavo las manos.",
+      "ejemplo_2": ""
     },
     "levels": [
       {
         "level": 1,
-        "label": "Cadena de concordancia",
-        "translation": "Cadeia de concordância",
+        "label": "Verbo llamarse",
+        "translation": "Verbo chamar-se",
         "examples": [
           {
-            "original": "el coche rojo",
-            "translation": "o carro vermelho",
-            "note": "Artigo + nome + adjetivo todos masculinos singulares. Igual à sua língua: 'o carro vermelho'."
+            "original": "Me llamo Ana.",
+            "translation": "Eu me chamo Ana.",
+            "note": "Pronome 'me' antes do verbo."
           },
           {
-            "original": "la flor amarilla",
-            "translation": "a flor amarela",
-            "note": "Artigo + nome + adjetivo todos femininos singulares. Igual à sua língua."
+            "original": "¿Cómo te llamas?",
+            "translation": "Como você se chama?",
+            "note": "'Te' para 'tú'."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Concordancia en plural",
-        "translation": "Concordância no plural",
+        "label": "Rutina diaria",
+        "translation": "Rotina diária",
         "examples": [
           {
-            "original": "los coches rojos",
-            "translation": "os carros vermelhos",
-            "note": "Plural: artigo 'los' + nome 'coches' + adjetivo 'rojos'. Todo leva '-s'. Igual à sua língua."
+            "original": "Me levanto a las ocho.",
+            "translation": "Eu me levanto às oito.",
+            "note": "Pronome 'me' com 'levantarse'."
           },
           {
-            "original": "unas flores amarillas",
-            "translation": "umas flores amarelas",
-            "note": "Plural feminino: tudo em '-as'. Igual à sua língua: 'umas flores amarelas'."
+            "original": "Ella se ducha por la mañana.",
+            "translation": "Ela se banha pela manhã.",
+            "note": "'Se' para terceira pessoa."
+          },
+          {
+            "original": "Nosotros nos acostamos tarde.",
+            "translation": "Nós nos deitamos tarde.",
+            "note": "'Nos' para 'nosotros'."
           }
         ]
       },
       {
         "level": 3,
-        "label": "El agua fría — la excepción del artículo",
-        "translation": "El agua fría — a exceção do artigo",
+        "label": "Pronombres con infinitivo",
+        "translation": "Pronomes com infinitivo",
         "examples": [
           {
-            "original": "el agua fría (no: la agua fría)",
-            "translation": "a água fria",
-            "note": "'Água' é feminino mas usa 'el' no singular (duas vogais 'a' seguidas — evitar). O adjetivo permanece feminino: 'fría'. Ao plural: 'las aguas frías'. Na sua língua: 'a água' normalmente, sem essa exceção."
+            "original": "Quiero levantarme temprano.",
+            "translation": "Quero me levantar cedo.",
+            "note": "Pronome anexado ao infinitivo."
           },
           {
-            "original": "la foto bonita (no: el foto bonito)",
-            "translation": "a foto bonita",
-            "note": "'Foto' é a abreviação de 'fotografía' → feminino, mesmo terminando em '-o'. Artigo e adjetivo são femininos. Como na sua língua: 'a foto'."
+            "original": "Me quiero levantar temprano.",
+            "translation": "Quero me levantar cedo (outra ordem).",
+            "note": "Pronome antes do verbo conjugado."
           }
         ]
       }
     ],
-    "emoji": "🧩",
+    "emoji": "🪞",
     "phonetic": "",
     "translations": {
-      "pt": "Concordância — a frase inteira deve 'coincidir'"
+      "pt": "verbos reflexivos básicos"
     }
   },
   {
-    "id": "es_a1_presente_gerundio_01",
+    "id": "es_A1_concept_07",
     "type": "concept",
-    "title": "Hablo vs. Estoy hablando — mesma lógica, uma diferença importante",
-    "bridge": "Em português brasileiro você diz 'estou falando' para ação em curso — em espanhol é 'estoy hablando'. Idêntico! Mas há uma diferença crucial: em espanhol o progressivo é mais restrito. Para estados contínuos como 'moro em Madrid', o espanhol prefere o presente simples. O progressivo é para ações que acontecem exatamente agora.",
-    "rule": "Presente simples (hablo) = hábito, verdade geral, futuro próximo. Presente progressivo (estoy hablando) = ação em curso neste exato momento. Em espanhol, o progressivo é menos usado que em português brasileiro para situações contínuas.",
+    "category": "Gramática",
+    "title": "Pronombres personales sujeto / Pronomes pessoais sujeito",
+    "bridge": "Em português, você tem os pronomes: eu, tu, você, ele, ela, nós, vós, eles, elas. Em espanhol, são muito parecidos, mas com algumas diferenças: 'yo' (eu), 'tú' (tu), 'vos' (tu em algumas regiões – mas por enquanto foque em 'tú'), 'usted' (você – formal), 'él' (ele), 'ella' (ela), 'nosotros/nosotras' (nós), 'vosotros/vosotras' (vós – usado apenas na Espanha), 'ustedes' (vocês – formal/plural, usado também como informal em toda a América Latina), 'ellos/ellas' (eles/elas). O erro mais comum dos falantes de português é usar 'usted' com a conjugação de 'vosotros' (o que não existe) ou usar 'tú' com a conjugação de 'usted' (ex.: 'tú habla' em vez de 'tú hablas'). Outro erro: usar o pronome 'ello' para 'it' – em espanhol, 'ello' é raro e usado apenas em contextos muito formais ou literários; geralmente, omite-se o sujeito ou usa-se 'él/ella' se o substantivo for conhecido. Lembre-se: os pronomes sujeito em espanhol são opcionais, pois a conjugação verbal já indica a pessoa (exceto na terceira pessoa, que pode ser ambígua).",
+    "rule": "Pronomes pessoais sujeito: yo (eu), tú (tu – informal), vos (tu – regional), usted (você – formal), él (ele), ella (ela), nosotros/nosotras (nós), vosotros/vosotras (vós – Espanha), ustedes (vocês), ellos/ellas (eles/elas). Uso: geralmente omitidos, exceto para ênfase ou clareza. Exemplo: 'Hablo español' (eu falo espanhol) é suficiente; 'Yo hablo español' dá ênfase. Para 'it' (neutro), não há pronome específico; omite-se ou usa-se 'él/ella' se referindo a um substantivo (ex.: '¿Dónde está el libro? – Él está en la mesa' é possível, mas mais comum: 'Está en la mesa').",
     "common_error": {
-      "wrong": "Estoy viviendo en Madrid hace tres años.",
-      "example_1": "Vivo en Madrid desde hace tres años. (estado contínuo = presente simples)",
-      "example_2": "",
-      "explanation": "Em português brasileiro 'estou morando em Madrid há três anos' é natural. Em espanhol, residência e estados duradouros usam o presente simples: 'vivo en Madrid desde hace tres años'. O progressivo fica para ações que estão acontecendo agora — não para situações estáveis."
+      "wrong": "Usted tienes razón.",
+      "explanation": "Você conjugou 'usted' como se fosse 'tú' (tienes). 'Usted' usa a conjugação da terceira pessoa do singular (como 'él/ella'). O correto é 'usted tiene'. Em português, 'você' também conjuga na terceira pessoa (você tem), então a lógica é a mesma. Lembre-se: 'usted' pede verbo na terceira pessoa singular.",
+      "ejemplo_1": "Usted tiene razón.",
+      "ejemplo_2": ""
     },
     "levels": [
       {
         "level": 1,
-        "label": "La diferencia básica",
-        "translation": "A diferença básica",
+        "label": "Singular pronouns",
+        "translation": "Pronomes singulares",
         "examples": [
           {
-            "original": "Hablo español.",
-            "translation": "Falo espanhol. (competência geral)",
-            "note": "Presente simples = competência, hábito, fato geral. Igual à sua língua."
+            "original": "Yo soy Ana.",
+            "translation": "Eu sou Ana.",
+            "note": "Yo = eu (pode ser omitido: 'Soy Ana' é suficiente)."
           },
           {
-            "original": "Estoy hablando con mi jefe.",
-            "translation": "Estou falando com o meu chefe. (agora)",
-            "note": "Progressivo = ação que ocorre agora. Igual à sua língua. Estrutura idêntica!"
+            "original": "Tú eres mi amigo.",
+            "translation": "Tu és meu amigo.",
+            "note": "Tú = tu (informal)."
+          },
+          {
+            "original": "Usted es profesor.",
+            "translation": "Você é professor (formal).",
+            "note": "Usted = você formal, conjugação igual a él/ella."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Cuándo usar cada uno",
-        "translation": "Quando usar cada um",
+        "label": "Plural pronouns",
+        "translation": "Pronomes plurais",
         "examples": [
           {
-            "original": "Trabajo en una escuela.",
-            "translation": "Trabalho em uma escola. (situação habitual)",
-            "note": "Presente simples para situação estável. Em português brasileiro seria possível 'estou trabalhando em uma escola' — em espanhol, preferir o simples."
+            "original": "Nosotros vivimos aquí.",
+            "translation": "Nós vivemos aqui.",
+            "note": "Nosotros (masculino ou misto); nosotras (apenas feminino)."
           },
           {
-            "original": "¡Silencio! Estoy trabajando.",
-            "translation": "Silêncio! Estou trabalhando.",
-            "note": "Progressivo para enfatizar ação em curso e interrompida. Igual à sua língua."
+            "original": "Vosotros sois de España.",
+            "translation": "Vós sois da Espanha (informal plural, apenas na Espanha).",
+            "note": "Vosotros/vosotras – usado apenas na Espanha."
+          },
+          {
+            "original": "Ellos trabajan mucho.",
+            "translation": "Eles trabalham muito.",
+            "note": "Ellos (masculino ou misto); ellas (apenas feminino)."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Diferencia con el portugués brasileño",
-        "translation": "Diferença com o português brasileiro",
+        "label": "Omisión del pronombre",
+        "translation": "Omissão do pronome",
         "examples": [
           {
-            "original": "Vivo en Barcelona. (no: Estoy viviendo en Barcelona)",
-            "translation": "Moro em Barcelona.",
-            "note": "Residência = estado contínuo → presente simples em espanhol. Em português brasileiro 'estou morando em Barcelona' é aceito — em espanhol evita-se para situações duradouras."
+            "original": "¿Cómo te llamas? – Me llamo Ana.",
+            "translation": "Como você se chama? – Eu me chamo Ana.",
+            "note": "Sem 'yo', o verbo 'llamo' já indica a primeira pessoa."
           },
           {
-            "original": "¿Qué haces mañana? (no: ¿Qué estás haciendo mañana?)",
-            "translation": "O que você faz amanhã?",
-            "note": "Para futuro próximo, espanhol prefere o presente simples. O progressivo fica ancorado ao presente imediato."
+            "original": "Ella habla inglés, pero yo hablo español.",
+            "translation": "Ela fala inglês, mas eu falo espanhol.",
+            "note": "Pronomes usados para contraste/ênfase."
           }
         ]
       }
     ],
-    "emoji": "⏱️",
+    "emoji": "👤",
     "phonetic": "",
     "translations": {
-      "pt": "Falo vs. Estou falando"
+      "pt": "pronomes pessoais sujeito"
     }
   },
   {
-    "id": "es_a1_presente_gerundio_02",
+    "id": "es_A1_concept_08",
     "type": "concept",
-    "title": "El gerundio — igual al portugués brasileño (casi)",
-    "bridge": "Em português brasileiro: 'estou falando', 'estou comendo', 'estou indo'. Em espanhol: 'estoy hablando', 'estoy comiendo', 'estoy yendo'. A estrutura é idêntica — até as terminações '-ando'/'-endo' são as mesmas! O único risco é o portunhol: usar o gerúndio português com o verbo 'estar' espanhol.",
-    "rule": "Gerúndio: verbos em '-ar' → '-ando' (hablar → hablando). Verbos em '-er' e '-ir' → '-iendo' (comer → comiendo, vivir → viviendo). Sempre invariável. Estrutura idêntica ao português brasileiro.",
+    "category": "Gramática",
+    "title": "Demostrativos / Demonstrativos",
+    "bridge": "Em português, você tem três níveis de distância: 'este' (aqui), 'esse' (aí), 'aquele' (lá). Em espanhol, também são três: 'este' (aqui, perto de quem fala), 'ese' (aí, perto de quem ouve), 'aquel' (lá, longe de ambos). As formas femininas e plurais: esta, estas, esa, esas, aquella, aquellas. Há também os neutros: esto, eso, aquilo (para ideias ou objetos não identificados). O erro mais comum dos falantes de português é usar 'este' para tudo (influência do inglês 'this'), ou confundir 'ese' com 'aquel'. Outro erro: usar o neutro 'esto' com substantivos ('esto libro' – errado; o correto é 'este libro').",
+    "rule": "Demonstrativos concordam em gênero e número com o substantivo. Masculino singular: este (este), ese (esse), aquel (aquele). Feminino singular: esta (esta), esa (essa), aquella (aquela). Masculino plural: estos, esos, aquellos. Feminino plural: estas, esas, aquellas. Neutro (sem substantivo, para ideias ou coisas indefinidas): esto (isto), eso (isso), aquello (aquilo). Uso: 'este' para o que está perto do falante, 'ese' para o que está perto do ouvinte, 'aquel' para o que está longe de ambos. Em contextos de tempo, 'este año' (ano corrente), 'ese año' (ano próximo passado ou futuro), 'aquel año' (ano distante).",
     "common_error": {
-      "wrong": "Estoy comendo. / Estoy falando.",
-      "example_1": "Estoy comiendo. / Estoy hablando. (gerúndio do verbo espanhol, não português)",
-      "example_2": "",
-      "explanation": "'Comendo' e 'falando' são gerúndios portugueses. Em espanhol precisa ser o gerúndio do verbo espanhol: 'comer → comiendo', 'hablar → hablando'. A estrutura 'estar + gerúndio' é idêntica, mas o gerúndio precisa ser formado sobre a raiz espanhola."
+      "wrong": "Este casa es grande.",
+      "explanation": "Você usou a forma masculina 'este' com o substantivo feminino 'casa'. Em português, você diria 'esta casa' (com 'esta'), em espanhol é igual: 'esta casa'. O erro vem da influência do inglês ou de associar 'este' a 'this', sem considerar o gênero. Lembre-se: os demonstrativos devem concordar em gênero: este/esta, ese/esa, aquel/aquella.",
+      "ejemplo_1": "Esta casa es grande.",
+      "ejemplo_2": ""
     },
     "levels": [
       {
         "level": 1,
-        "label": "Formación regular",
-        "translation": "Formação regular",
+        "label": "Este / Esta / Esto",
+        "translation": "Este / Esta / Isto",
         "examples": [
           {
-            "original": "hablar → hablando",
-            "translation": "falar → falando",
-            "note": "Verbo em '-ar': tirar '-ar', adicionar '-ando'. Igual à sua língua: fal-ar → fal-ando."
+            "original": "Este libro es interesante.",
+            "translation": "Este livro é interessante.",
+            "note": "Masculino singular."
           },
           {
-            "original": "comer → comiendo",
-            "translation": "comer → comendo",
-            "note": "Verbo em '-er': tirar '-er', adicionar '-iendo'. Em português '-endo', em espanhol '-iendo'."
+            "original": "Esta mesa es nueva.",
+            "translation": "Esta mesa é nova.",
+            "note": "Feminino singular."
           },
           {
-            "original": "vivir → viviendo",
-            "translation": "viver → vivendo",
-            "note": "Verbo em '-ir': tirar '-ir', adicionar '-iendo'. Similar ao '-endo' do português."
+            "original": "Esto es importante.",
+            "translation": "Isto é importante.",
+            "note": "Neutro (sem substantivo)."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Gerundios irregulares comunes",
-        "translation": "Gerúndios irregulares comuns",
+        "label": "Ese / Esa / Eso",
+        "translation": "Esse / Essa / Isso",
         "examples": [
           {
-            "original": "decir → diciendo",
-            "translation": "dizer → dizendo",
-            "note": "Irregular: 'e→i' na raiz. Em português 'dizendo' — formas similares."
+            "original": "Ese perro es grande.",
+            "translation": "Esse cão é grande (aí).",
+            "note": "'Ese' para masculino."
           },
           {
-            "original": "ir → yendo",
-            "translation": "ir → indo",
-            "note": "Muito irregular! Em português 'indo', em espanhol 'yendo'. Bem diferente — memorizar."
+            "original": "Esa silla está ocupada.",
+            "translation": "Essa cadeira está ocupada.",
+            "note": "'Esa' para feminino."
           },
           {
-            "original": "leer → leyendo",
-            "translation": "ler → lendo",
-            "note": "'iendo' → 'yendo' quando duas vogais se encontram. Mudança ortográfica regular."
+            "original": "Eso no me gusta.",
+            "translation": "Isso não me agrada.",
+            "note": "Neutro."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Gerundio com pronomes",
-        "translation": "Gerúndio com pronomes",
+        "label": "Aquel / Aquella / Aquello",
+        "translation": "Aquele / Aquela / Aquilo",
         "examples": [
           {
-            "original": "Estoy escuchándote. / Te estoy escuchando.",
-            "translation": "Estou te ouvindo.",
-            "note": "O pronome pode se prender ao gerúndio (com acento) ou ir antes de 'estoy'. As duas formas são corretas. Igual à sua língua: 'estou te ouvindo' ou 'estou ouvindo-te'."
+            "original": "Aquel monte es muy alto.",
+            "translation": "Aquele monte é muito alto (lá longe).",
+            "note": "'Aquel' para masculino, distante."
           },
           {
-            "original": "Está haciéndolo.",
-            "translation": "Está fazendo isso.",
-            "note": "Quando o pronome se prende, aparece o acento escrito. Como na sua língua: 'fazendo-o'."
+            "original": "Aquella noche fue especial.",
+            "translation": "Aquela noite foi especial (no passado distante).",
+            "note": "'Aquella' para feminino, tempo distante."
+          },
+          {
+            "original": "Aquello fue increíble.",
+            "translation": "Aquilo foi incrível.",
+            "note": "Neutro, para algo distante."
           }
         ]
       }
     ],
-    "emoji": "🔧",
+    "emoji": "👉",
     "phonetic": "",
     "translations": {
-      "pt": "O gerúndio — igual ao português brasileiro (quase)"
+      "pt": "demonstrativos"
     }
   },
   {
-    "id": "es_a1_presente_gerundio_03",
+    "id": "es_A1_concept_09",
     "type": "concept",
-    "title": "Estoy hablando — cuándo usarlo de verdad",
-    "bridge": "Em português brasileiro, o progressivo é muito frequente — até para situações contínuas e hábitos ('estou morando aqui', 'estou trabalhando muito'). Em espanhol, o progressivo é mais restrito: serve para ações que ocorrem exatamente agora. Para o resto (hábitos, estados, situações duradouras), use o presente simples.",
-    "rule": "Use 'estar + gerúndio' para: ação em curso neste momento preciso, descrição de uma cena ao vivo, ou para enfatizar a imediatidade. Não use para hábitos, estados duradouros ou futuro.",
+    "category": "Gramática",
+    "title": "Posesivos (forma átona) / Possessivos (forma átona)",
+    "bridge": "Em português, você tem possessivos: meu, teu, seu, nosso, vosso. Em espanhol, são: mi, tu, su, nuestro, vuestro. As formas plurais: mis, tus, sus, nuestros, vuestros. O 'su' pode significar 'dele', 'dela', 'deles', 'delas', 'seu' (de você) – é ambíguo. Para desambiguar, pode-se usar 'de él', 'de ella', 'de usted', 'de ellos'. O erro mais comum dos falantes de português é usar 'su' para tudo e esquecer de concordar com o número do substantivo: 'mi libros' (errado, deve ser 'mis libros'). Outro erro: usar 'seu' como em português ('seu livro' pode ser ambíguo, mas em espanhol 'su libro' também é), mas não há problema. Atenção especial: 'tu' (seu) vs. 'tú' (você) – o acento diferencia. Também é comum dizer 'el mi libro' (com artigo), mas em espanhol os possessivos átonos não levam artigo.",
+    "rule": "Os possessivos átonos vêm ANTES do substantivo e concordam em número com ele (não em gênero, exceto 'nuestro/vuestro' que variam em gênero e número). Formas: mi (meu, minha), mis (meus, minhas); tu (teu, tua), tus (teus, tuas); su (seu, sua, dele, dela), sus (seus, suas, deles, delas); nuestro/nuestra (nosso/nossa), nuestros/nuestras (nossos/nossas); vuestro/vuestra (vosso/vossa), vuestros/vuestras (vossos/vossas). Exemplos: 'mi casa' (minha casa), 'mis casas' (minhas casas). 'nuestro perro' (nosso cão), 'nuestra perra' (nossa cadela). Não se usa artigo antes: 'el mi libro' está errado. Para enfatizar ou desambiguar 'su', pode-se usar 'de él' após o substantivo: 'su libro de él' (o livro dele).",
     "common_error": {
-      "wrong": "Siempre estoy llegando tarde.",
-      "example_1": "Siempre llego tarde. (hábito = presente simples)",
-      "example_2": "Estoy llegando ahora mismo. (ação no instante = progressivo)",
-      "explanation": "'Siempre' (sempre) indica hábito → presente simples obrigatório. Em português 'sempre estou chegando tarde' pode parecer natural no Brasil — em espanhol não funciona assim. 'Siempre' + progressivo é gramaticalmente estranho em espanhol."
+      "wrong": "El mi libro es rojo.",
+      "explanation": "Você adicionou o artigo definido 'el' antes do possessivo 'mi'. Em português, não se diz 'o meu livro'? Sim, em português se diz 'o meu livro' com artigo. Em espanhol, os possessivos átonos (mi, tu, su, nuestro, vuestro) NÃO são precedidos de artigo. A forma correta é apenas 'mi libro'. Exceção: os possessivos tônicos (mío, tuyo, suyo) podem levar artigo: 'el mío'.",
+      "ejemplo_1": "Mi libro es rojo.",
+      "ejemplo_2": ""
     },
     "levels": [
       {
         "level": 1,
-        "label": "Describir lo que pasa ahora",
-        "translation": "Descrever o que está acontecendo agora",
+        "label": "Mi / Tu / Su (singular)",
+        "translation": "Meu / Teu / Seu (singular)",
         "examples": [
           {
-            "original": "Está lloviendo.",
-            "translation": "Está chovendo.",
-            "note": "Clima ao vivo → progressivo natural. Igual à sua língua: 'está chovendo'. Estrutura idêntica!"
+            "original": "Mi casa es grande.",
+            "translation": "Minha casa é grande.",
+            "note": "Mi = meu/minha."
           },
           {
-            "original": "Los niños están durmiendo.",
-            "translation": "As crianças estão dormindo.",
-            "note": "Cena descrita no momento em que se fala → progressivo. Igual à sua língua."
+            "original": "Tu perro es bonito.",
+            "translation": "Teu cão é bonito.",
+            "note": "Tu = teu/tua (informal)."
+          },
+          {
+            "original": "Su coche es nuevo.",
+            "translation": "Seu carro é novo (dele/dela/você).",
+            "note": "Su pode ser ambíguo; contexto ajuda."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Interrupciones y justificaciones",
-        "translation": "Interrupções e justificativas",
+        "label": "Mis / Tus / Sus (plural)",
+        "translation": "Meus / Teus / Seus (plural)",
         "examples": [
           {
-            "original": "No puedo hablar, estoy conduciendo.",
-            "translation": "Não posso falar, estou dirigindo.",
-            "note": "Justificativa com ação imediata → progressivo perfeito. Igual à sua língua."
+            "original": "Mis amigos son simpáticos.",
+            "translation": "Meus amigos são simpáticos.",
+            "note": "Mis = meu + substantivo plural."
           },
           {
-            "original": "¿Qué estás haciendo?",
-            "translation": "O que você está fazendo?",
-            "note": "Pergunta sobre ação imediata → progressivo. Igual à sua língua."
+            "original": "Tus hermanos viven aquí.",
+            "translation": "Teus irmãos vivem aqui.",
+            "note": "Tus = teu + plural."
+          },
+          {
+            "original": "Sus padres están de vacaciones.",
+            "translation": "Seus pais estão de férias (dele/dela/deles).",
+            "note": "Sus = plural de su."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Cuándo el español prefiere el presente simple",
-        "translation": "Quando o espanhol prefere o presente simples",
+        "label": "Nuestro / Nuestra / Nuestros / Nuestras",
+        "translation": "Nosso / Nossa / Nossos / Nossas",
         "examples": [
           {
-            "original": "Vivo en Madrid. (no: Estoy viviendo en Madrid)",
-            "translation": "Moro em Madrid.",
-            "note": "Residência = estado duradouro → presente simples em espanhol. Em português brasileiro 'estou morando' é possível — em espanhol soa estranho para situações estáveis."
+            "original": "Nuestro profesor es bueno.",
+            "translation": "Nosso professor é bom.",
+            "note": "Nuestro (masculino singular)."
           },
           {
-            "original": "Estudio medicina. (no: Estoy estudiando medicina)",
-            "translation": "Estudo medicina.",
-            "note": "Atividade contínua mas duradoura → presente simples. Em português 'estou estudando medicina' é natural — em espanhol, prefira o simples para situações que se estendem por tempo."
+            "original": "Nuestra casa es pequeña.",
+            "translation": "Nossa casa é pequena.",
+            "note": "Nuestra (feminino singular)."
+          },
+          {
+            "original": "Nuestros libros son nuevos.",
+            "translation": "Nossos livros são novos.",
+            "note": "Nuestros (masculino plural)."
           }
         ]
       }
     ],
-    "emoji": "🎬",
+    "emoji": "🔑",
     "phonetic": "",
     "translations": {
-      "pt": "Estoy hablando — quando usar de verdade"
+      "pt": "possessivos (forma átona)"
+    }
+  },
+  {
+    "id": "es_A1_concept_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Preposiciones básicas / Preposições básicas",
+    "bridge": "Em português, você tem preposições como 'a', 'com', 'de', 'em', 'para', 'por', 'sem', 'sobre'. Em espanhol, são muito parecidas: 'a' (a, para), 'con' (com), 'de' (de), 'en' (em), 'para' (para), 'por' (por), 'sin' (sem), 'sobre' (sobre). A maior dificuldade para os falantes de português é a distinção entre 'por' e 'para', porque em português também há essa distinção, mas os usos não são idênticos. Por exemplo, em português se diz 'obrigado por' (como em espanhol 'gracias por'), mas 'este presente é para você' (em espanhol 'para ti'). Outro erro comum: usar 'en' para superfície ('sobre') – em espanhol, 'en la mesa' pode significar tanto 'em cima da mesa' quanto 'dentro da mesa'; para especificar 'sobre', use 'sobre'. A preposição 'a' também é usada antes de objeto direto de pessoa (a João, a María) – o chamado 'a pessoal'. Isso não existe em português. Exemplo: 'Veo a Juan' (Vejo João), não 'Veo Juan'.",
+    "rule": "Preposições básicas: a (a, para, indica movimento, tempo, também 'a pessoal' antes de objeto direto de pessoa); con (com); de (de, desde); en (em, sobre); para (para – destino, finalidade, prazo); por (por – causa, meio, período, troca); sin (sem); sobre (sobre, acerca de). Exemplos: 'Voy a Madrid' (Vou para Madrid). 'Café con leche' (Café com leite). 'El libro de Ana' (O livro de Ana). 'Vivo en España' (Moro na Espanha). 'Este regalo es para ti' (Este presente é para você). 'Gracias por tu ayuda' (Obrigado pela sua ajuda). 'Café sin azúcar' (Café sem açúcar). 'El libro está sobre la mesa' (O livro está sobre a mesa). Importante: o 'a pessoal' é obrigatório quando o objeto direto é uma pessoa específica: 'Veo a Juan' (Vejo o João), não 'Veo Juan'.",
+    "common_error": {
+      "wrong": "Gracias para tu ayuda.",
+      "explanation": "Você usou 'para' no lugar de 'por'. Em português, 'obrigado por' usa 'por', e em espanhol é igual: 'gracias por'. 'Para' é usado para destino, finalidade ou prazo. Confundir 'por' e 'para' é um dos erros mais comuns entre falantes de português. Lembre-se: 'por' causa, motivo, meio; 'para' destino, objetivo, beneficiário.",
+      "ejemplo_1": "Gracias por tu ayuda.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "a / de / en",
+        "translation": "a / de / em",
+        "examples": [
+          {
+            "original": "Voy a la escuela.",
+            "translation": "Vou para a escola.",
+            "note": "'a' para movimento."
+          },
+          {
+            "original": "El perro de Juan.",
+            "translation": "O cão de João.",
+            "note": "'de' para posse."
+          },
+          {
+            "original": "Estoy en casa.",
+            "translation": "Estou em casa.",
+            "note": "'en' para localização."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "con / sin / sobre",
+        "translation": "com / sem / sobre",
+        "examples": [
+          {
+            "original": "Café con leche.",
+            "translation": "Café com leite.",
+            "note": "'con' para companhia."
+          },
+          {
+            "original": "Prefiero té sin azúcar.",
+            "translation": "Prefiro chá sem açúcar.",
+            "note": "'sin' para ausência."
+          },
+          {
+            "original": "El libro sobre la mesa.",
+            "translation": "O livro sobre a mesa.",
+            "note": "'sobre' para superfície."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "por / para",
+        "translation": "por / para",
+        "examples": [
+          {
+            "original": "Gracias por la comida.",
+            "translation": "Obrigado pela comida.",
+            "note": "'por' para causa ou motivo."
+          },
+          {
+            "original": "Este regalo es para ti.",
+            "translation": "Este presente é para você.",
+            "note": "'para' para beneficiário ou destino."
+          },
+          {
+            "original": "Estudio para aprender.",
+            "translation": "Estudo para aprender.",
+            "note": "'para' + infinitivo para finalidade."
+          }
+        ]
+      }
+    ],
+    "emoji": "📍",
+    "phonetic": "",
+    "translations": {
+      "pt": "preposições básicas"
+    }
+  },
+  {
+    "id": "es_A1_concept_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Adverbios de lugar y tiempo / Advérbios de lugar e tempo",
+    "bridge": "Em português, você tem advérbios como 'aqui', 'aí', 'ali', 'lá', 'hoje', 'amanhã', 'ontem', 'agora', 'antes', 'depois'. Em espanhol, são muito parecidos: 'aquí' (aqui), 'ahí' (aí – perto do ouvinte), 'allí' (ali – mais distante), 'allá' (lá). Também 'cerca' (perto), 'lejos' (longe). Advérbios de tempo: 'hoy' (hoje), 'mañana' (amanhã), 'ayer' (ontem), 'ahora' (agora), 'entonces' (então), 'antes' (antes), 'después' (depois), 'siempre' (sempre), 'nunca' (nunca), 'a veces' (às vezes). O erro mais comum dos falantes de português é confundir 'ahí' e 'allí' (em português 'aí' e 'ali' têm distinção similar, então não deveria ser problema, mas muitos usam 'allí' para tudo). Outro erro: usar 'hoy' com artigo ('el hoy') ou colocar o advérbio entre o verbo e o objeto em frases longas (em espanhol, o advérbio pode ir antes ou depois do verbo, mas não é obrigatório).",
+    "rule": "Advérbios de lugar: aquí (aqui – perto do falante), ahí (aí – perto do ouvinte), allí (ali – mais distante), allá (lá, bem longe). También: cerca (perto), lejos (longe). Advérbios de tempo: hoy (hoje), mañana (amanhã), ayer (ontem), ahora (agora), entonces (então), antes (antes), después (depois), siempre (sempre), nunca (nunca), a veces (às vezes). Posição: geralmente antes ou depois do verbo, mas não entre o verbo e o objeto direto. Exemplos: 'Ahora como' ou 'Como ahora' (Como agora). 'Hoy voy al cine' (Hoje vou ao cinema). 'Vivo aquí' (Moro aqui). 'Nunca como carne' (Nunca como carne).",
+    "common_error": {
+      "wrong": "Voy a la playa ahora.",
+      "explanation": "A frase não está necessariamente errada, mas o erro comum dos falantes de português é colocar o advérbio sempre no final, como em português ('vou à praia agora'). Em espanhol, é mais natural colocar 'ahora' no início ou antes do verbo, mas não é obrigatório. O erro mais sério é confundir 'ahí' e 'allí': 'El libro está allí' (se está perto do ouvinte, deveria ser 'ahí').",
+      "ejemplo_1": "Ahora voy a la playa / Voy a la playa ahora.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Aquí / Ahí / Allí",
+        "translation": "Aqui / Aí / Ali",
+        "examples": [
+          {
+            "original": "Aquí está mi casa.",
+            "translation": "Aqui está minha casa.",
+            "note": "Aquí = perto do falante."
+          },
+          {
+            "original": "Ahí tienes tu libro.",
+            "translation": "Aí está seu livro (perto de você).",
+            "note": "Ahí = perto do ouvinte."
+          },
+          {
+            "original": "Allí vive mi abuela.",
+            "translation": "Ali mora minha avó.",
+            "note": "Allí = mais distante."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Hoy / Mañana / Ayer",
+        "translation": "Hoje / Amanhã / Ontem",
+        "examples": [
+          {
+            "original": "Hoy es lunes.",
+            "translation": "Hoje é segunda-feira.",
+            "note": "Hoy = hoje."
+          },
+          {
+            "original": "Mañana voy al médico.",
+            "translation": "Amanhã vou ao médico.",
+            "note": "Mañana = amanhã."
+          },
+          {
+            "original": "Ayer llovió mucho.",
+            "translation": "Ontem choveu muito.",
+            "note": "Ayer = ontem."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ahora / Antes / Después",
+        "translation": "Agora / Antes / Depois",
+        "examples": [
+          {
+            "original": "Ahora mismo salgo.",
+            "translation": "Agora mesmo saio.",
+            "note": "Ahora = agora."
+          },
+          {
+            "original": "Antes de comer, lavo las manos.",
+            "translation": "Antes de comer, lavo as mãos.",
+            "note": "Antes = antes (preposição 'de' com infinitivo)."
+          },
+          {
+            "original": "Después de clase, voy a casa.",
+            "translation": "Depois da aula, vou para casa.",
+            "note": "Después = depois."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏰",
+    "phonetic": "",
+    "translations": {
+      "pt": "advérbios de lugar e tempo"
+    }
+  },
+  {
+    "id": "es_A1_concept_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Oraciones interrogativas / Orações interrogativas",
+    "bridge": "Em português, você forma perguntas com entonação crescente ou invertendo a ordem sujeito-verbo: 'Você fala espanhol?' / 'Fala você espanhol?'. Em espanhol, é muito parecido: basta entonação crescente ou inversão do sujeito. Não se usa o auxiliar 'do/does' como em inglês. As palavras interrogativas (qué, quién, cómo, cuándo, dónde, por qué, cuál, cuánto) sempre levam acento gráfico. O erro mais comum dos falantes de português é colocar o sujeito entre a palavra interrogativa e o verbo, como em inglês: '¿Qué tú quieres?' (errado), o correto é '¿Qué quieres tú?' ou '¿Qué quieres?'. Outro erro: esquecer o acento nas interrogativas (escrever 'que' em vez de 'qué') – isso muda o significado.",
+    "rule": "Formação de perguntas: 1) Entonação crescente no final da frase, sem alterar a ordem: 'Tú hablas español?' (Você fala espanhol?). 2) Inversão do sujeito: '¿Hablas tú español?' (Fala você espanhol?). 3) Uso de palavras interrogativas (sempre acentuadas): ¿Qué? (O que?), ¿Quién? (Quem?), ¿Cómo? (Como?), ¿Cuándo? (Quando?), ¿Dónde? (Onde?), ¿Por qué? (Por que?), ¿Cuál? (Qual?), ¿Cuánto? (Quanto?). Exemplos: '¿Qué es esto?' (O que é isto?). '¿Dónde está el baño?' (Onde fica o banheiro?). '¿Cómo te llamas?' (Como você se chama?). Lembre-se: nunca use auxiliar 'do/does'. A ordem típica: palavra interrogativa + verbo + sujeito (ou apenas verbo).",
+    "common_error": {
+      "wrong": "¿Qué tu quieres?",
+      "explanation": "Você colocou o pronome 'tú' entre a palavra interrogativa e o verbo, como em inglês ('What do you want?'). Em espanhol, o sujeito normalmente vem depois do verbo ou é omitido. A forma correta é '¿Qué quieres?' (sem sujeito) ou '¿Qué quieres tú?' (sujeito após o verbo). Nunca se diz '¿Qué tú quieres?'.",
+      "ejemplo_1": "¿Qué quieres? / ¿Qué quieres tú?",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Entonación",
+        "translation": "Entonação",
+        "examples": [
+          {
+            "original": "Tú hablas español.",
+            "translation": "Você fala espanhol.",
+            "note": "Declaração."
+          },
+          {
+            "original": "¿Tú hablas español?",
+            "translation": "Você fala espanhol?",
+            "note": "Pergunta com entonação crescente (ordem igual)."
+          },
+          {
+            "original": "Vives en Madrid.",
+            "translation": "Você mora em Madrid.",
+            "note": "Declaração."
+          },
+          {
+            "original": "¿Vives en Madrid?",
+            "translation": "Você mora em Madrid?",
+            "note": "Pergunta com entonação."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Palabras interrogativas básicas",
+        "translation": "Palavras interrogativas básicas",
+        "examples": [
+          {
+            "original": "¿Qué es esto?",
+            "translation": "O que é isto?",
+            "note": "¿Qué? (O que?)"
+          },
+          {
+            "original": "¿Dónde está el baño?",
+            "translation": "Onde fica o banheiro?",
+            "note": "¿Dónde? (Onde?)"
+          },
+          {
+            "original": "¿Cómo te llamas?",
+            "translation": "Como você se chama?",
+            "note": "¿Cómo? (Como?)"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Cuándo, por qué, cuánto",
+        "translation": "Quando, por que, quanto",
+        "examples": [
+          {
+            "original": "¿Cuándo llegas?",
+            "translation": "Quando você chega?",
+            "note": "¿Cuándo? (Quando?)"
+          },
+          {
+            "original": "¿Por qué estudias español?",
+            "translation": "Por que você estuda espanhol?",
+            "note": "¿Por qué? (Por que?)"
+          },
+          {
+            "original": "¿Cuánto cuesta?",
+            "translation": "Quanto custa?",
+            "note": "¿Cuánto? (Quanto?)"
+          }
+        ]
+      }
+    ],
+    "emoji": "❓",
+    "phonetic": "",
+    "translations": {
+      "pt": "orações interrogativas"
+    }
+  },
+  {
+    "id": "es_A1_concept_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Negación / Negação",
+    "bridge": "Em português, você forma a negação colocando 'não' antes do verbo: 'não falo', 'não como'. Em espanhol, é exatamente igual: 'no hablo', 'no como'. Também existem palavras negativas como 'nada' (nada), 'nadie' (ninguém), 'nunca' (nunca), 'tampoco' (também não). A diferença é que em espanhol, quando essas palavras vêm depois do verbo, é necessário usar também o 'no' antes do verbo (dupla negação). Por exemplo, 'não vejo nada' em português é 'não vejo nada' (apenas um 'não'), mas em espanhol é 'no veo nada' (idem, também só um 'no'). Na verdade, é igual. A diferença é que em português se pode dizer 'vejo nada' (sem o 'não') em algumas variedades coloquiais, mas isso não é padrão. Em espanhol, 'veo nada' é incorreto; obrigatoriamente 'no veo nada'. Quando a palavra negativa vem antes do verbo, não se usa 'no': 'Nadie viene' (Ninguém vem). O erro mais comum dos falantes de português é esquecer o 'no' antes do verbo quando usam 'nada', 'nadie', 'nunca' depois do verbo: dizer 'veo nada' em vez de 'no veo nada'.",
+    "rule": "Negação básica: coloque 'no' antes do verbo conjugado. Exemplos: 'Yo no fumo' (Eu não fumo), 'Ella no come carne' (Ela não come carne). Palavras negativas: nada (nada), nadie (ninguém), nunca (jamais), tampoco (também não). Quando essas palavras vêm DEPOIS do verbo, é obrigatório usar 'no' antes do verbo (dupla negação, mas é o padrão). Exemplo: 'No veo nada' (Não vejo nada), 'No conozco a nadie' (Não conheço ninguém), 'No voy nunca al cine' (Nunca vou ao cinema). Quando a palavra negativa vem ANTES do verbo, o 'no' é omitido. Exemplo: 'Nadie viene' (Ninguém vem), 'Nunca como carne' (Nunca como carne), 'Nada me gusta' (Nada me agrada). 'Tampoco' é usado para concordar com uma afirmação negativa: 'Yo no hablo inglés. – Yo tampoco' (Eu não falo inglês. – Eu também não).",
+    "common_error": {
+      "wrong": "Veo nada.",
+      "explanation": "Você usou 'nada' após o verbo sem colocar 'no' antes. Em português coloquial, 'vejo nada' é aceitável em algumas regiões, mas não é o padrão. Em espanhol, 'veo nada' é completamente incorreto. Sempre que 'nada', 'nadie', 'nunca', 'tampoco' vierem depois do verbo, você deve colocar 'no' antes do verbo: 'No veo nada'.",
+      "ejemplo_1": "No veo nada.",
+      "ejemplo_2": "Nada veo (menos comum)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "No + verbo",
+        "translation": "Não + verbo",
+        "examples": [
+          {
+            "original": "Yo no fumo.",
+            "translation": "Eu não fumo.",
+            "note": "'no' antes do verbo."
+          },
+          {
+            "original": "Ella no come carne.",
+            "translation": "Ela não come carne.",
+            "note": "Negação simples."
+          },
+          {
+            "original": "Nosotros no vivimos aquí.",
+            "translation": "Nós não moramos aqui.",
+            "note": "'no' sempre antes do verbo conjugado."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Doble negación",
+        "translation": "Dupla negação",
+        "examples": [
+          {
+            "original": "No tengo nada.",
+            "translation": "Não tenho nada.",
+            "note": "'no' + verbo + 'nada'."
+          },
+          {
+            "original": "No veo a nadie.",
+            "translation": "Não vejo ninguém.",
+            "note": "'no' + verbo + 'nadie'."
+          },
+          {
+            "original": "No voy nunca al cine.",
+            "translation": "Nunca vou ao cinema.",
+            "note": "'no' + verbo + 'nunca'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negativos delante del verbo",
+        "translation": "Negativos antes do verbo",
+        "examples": [
+          {
+            "original": "Nadie viene a la fiesta.",
+            "translation": "Ninguém vem à festa.",
+            "note": "Negativo antes do verbo → sem 'no'."
+          },
+          {
+            "original": "Nunca como pescado.",
+            "translation": "Nunca como peixe.",
+            "note": "'Nunca' antes do verbo, sem 'no'."
+          },
+          {
+            "original": "Tampoco me gusta el café.",
+            "translation": "Também não gosto de café.",
+            "note": "'Tampoco' para concordar com negativa anterior."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚫",
+    "phonetic": "",
+    "translations": {
+      "pt": "negação"
+    }
+  },
+  {
+    "id": "es_A1_concept_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbo gustar / Verbo gustar (gostar)",
+    "bridge": "Em português, você diz 'eu gosto de pizza' – o sujeito é 'eu', o verbo 'gosto' e o objeto 'de pizza'. Em espanhol, o verbo 'gustar' funciona de maneira diferente: a coisa que se gosta é o sujeito, e a pessoa que gosta é o objeto indireto. Então 'eu gosto de pizza' se diz 'me gusta la pizza' (literalmente: 'a pizza agrada a mim'). Isso é semelhante ao verbo 'agradar' em português, mas não a 'gostar'. O erro mais comum dos falantes de português é usar 'gustar' como um verbo normal: 'yo gusto la pizza' (errado). Outro erro é não concordar o verbo com o sujeito (singular/plural): 'me gustan las pizzas' (para plural), 'me gusta la pizza' (singular). Lembre-se: 'gusta' para singular ou infinitivo, 'gustan' para plural.",
+    "rule": "Estrutura: pronome de objeto indireto + gusta/gustan + sujeito (a coisa que se gosta). Pronomes de objeto indireto: me (a mim), te (a ti), le (a ele/ela/você), nos (a nós), os (a vós – Espanha), les (a eles/elas/vocês). Use 'gusta' quando o sujeito for singular ou infinitivo: 'Me gusta el chocolate' (Eu gosto de chocolate), 'Me gusta bailar' (Eu gosto de dançar). Use 'gustan' quando o sujeito for plural: 'Me gustan los libros' (Eu gosto de livros). Para dar ênfase, pode-se usar 'a + pronome' antes: 'A mí me gusta el café' (Eu gosto de café – enfático).",
+    "common_error": {
+      "wrong": "Yo gusto la pizza.",
+      "explanation": "Você usou 'gustar' como um verbo normal, à moda do português 'gostar'. Em espanhol, 'gustar' não funciona assim. O sujeito é a coisa que agrada (la pizza), e a pessoa é o objeto indireto (me). Portanto, 'me gusta la pizza' é a forma correta. Este é um dos erros mais comuns entre falantes de português.",
+      "ejemplo_1": "Me gusta la pizza.",
+      "ejemplo_2": "A mí me gusta la pizza."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Me gusta / Te gusta",
+        "translation": "Eu gosto / Você gosta (singular)",
+        "examples": [
+          {
+            "original": "Me gusta el café.",
+            "translation": "Eu gosto de café.",
+            "note": "'Me gusta' + substantivo singular."
+          },
+          {
+            "original": "Te gusta la música.",
+            "translation": "Você gosta de música.",
+            "note": "'Te gusta' para 'tú'."
+          },
+          {
+            "original": "A él le gusta el fútbol.",
+            "translation": "Ele gosta de futebol.",
+            "note": "'Le gusta' para terceira pessoa."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Me gustan / Te gustan",
+        "translation": "Eu gosto / Você gosta (plural)",
+        "examples": [
+          {
+            "original": "Me gustan las manzanas.",
+            "translation": "Eu gosto de maçãs.",
+            "note": "'Me gustan' + substantivo plural."
+          },
+          {
+            "original": "Te gustan los libros.",
+            "translation": "Você gosta de livros.",
+            "note": "'Te gustan' para plural."
+          },
+          {
+            "original": "Nos gustan las películas.",
+            "translation": "Nós gostamos de filmes.",
+            "note": "'Nos gustan' para plural."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Gustar + infinitivo",
+        "translation": "Gustar + infinitivo",
+        "examples": [
+          {
+            "original": "Me gusta nadar.",
+            "translation": "Eu gosto de nadar.",
+            "note": "'gusta' + infinitivo (sempre singular)."
+          },
+          {
+            "original": "A ella le gusta cantar.",
+            "translation": "Ela gosta de cantar.",
+            "note": "Infinitivo como sujeito."
+          },
+          {
+            "original": "Nos gusta viajar.",
+            "translation": "Nós gostamos de viajar.",
+            "note": "Nunca 'gustan' com infinitivo."
+          }
+        ]
+      }
+    ],
+    "emoji": "❤️",
+    "phonetic": "",
+    "translations": {
+      "pt": "verbo gustar (gostar)"
+    }
+  },
+  {
+    "id": "es_A1_concept_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Hay / Estar / Tener (existencia, ubicación, posesión)",
+    "bridge": "Em português, você usa 'há' ou 'tem' para existência ('há um gato', 'tem um gato'), 'estar' para localização ('o livro está na mesa'), e 'ter' para posse ('eu tenho um carro'). Em espanhol, é parecido, mas com algumas diferenças: para existência, use 'hay' (há, existe) – não use 'tener' para isso. 'Hay' é impessoal, não varia. Para localização, use 'estar' ('el libro está en la mesa'). Para posse, use 'tener' ('yo tengo un perro'). Para idade, use 'tener' ('tengo 25 años'). O erro mais comum dos falantes de português brasileiro é usar 'tener' para existência, por influência do português coloquial 'tem' (ex.: 'tem um gato' → 'tiene un gato' – errado; o correto é 'hay un gato'). Outro erro: confundir 'estar' com 'ser' para localização (dizer 'el libro es en la mesa' em vez de 'está').",
+    "rule": "Hay: usado para indicar existência. Não varia em número (hay para singular e plural). Exemplo: 'Hay un gato en el jardín' (Há um gato no jardim), 'Hay dos gatos' (Há dois gatos). Estar: usado para localização (temporária ou permanente) e para estados. Exemplo: 'El libro está en la mesa' (O livro está na mesa), 'Madrid está en España' (Madrid está na Espanha). Tener: usado para posse, relações familiares, características físicas e idade. Exemplo: 'Yo tengo un perro' (Eu tenho um cão), 'Ella tiene dos hermanos' (Ela tem dois irmãos), 'Tengo 25 años' (Tenho 25 anos). Não use 'tener' para existência. Não use 'ser' para localização.",
+    "common_error": {
+      "wrong": "En mi casa tiene un jardín.",
+      "explanation": "Você usou 'tiene' (de 'tener') para expressar existência. Em português coloquial, 'tem um jardim' é aceito, mas em espanhol padrão, 'hay' é a forma correta para 'há/existe'. 'Mi casa tiene un jardín' (Minha casa tem um jardim) é aceitável, mas indica posse, não existência pura. Para 'há um jardim', use 'hay un jardín'.",
+      "ejemplo_1": "En mi casa hay un jardín.",
+      "ejemplo_2": "Mi casa tiene un jardín."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Hay (existencia)",
+        "translation": "Hay (existência)",
+        "examples": [
+          {
+            "original": "Hay un perro en el parque.",
+            "translation": "Há um cão no parque.",
+            "note": "'Hay' para existência, singular ou plural."
+          },
+          {
+            "original": "Hay muchos libros.",
+            "translation": "Há muitos livros.",
+            "note": "'Hay' não muda."
+          },
+          {
+            "original": "No hay leche.",
+            "translation": "Não há leite.",
+            "note": "Negação: 'no hay'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Estar (ubicación)",
+        "translation": "Estar (localização)",
+        "examples": [
+          {
+            "original": "La biblioteca está cerca.",
+            "translation": "A biblioteca está perto.",
+            "note": "'Estar' para localização."
+          },
+          {
+            "original": "¿Dónde está el baño?",
+            "translation": "Onde fica o banheiro?",
+            "note": "Pergunta com 'estar'."
+          },
+          {
+            "original": "Estamos en casa.",
+            "translation": "Estamos em casa.",
+            "note": "'Estar' conjugado."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Tener (posesión y edad)",
+        "translation": "Tener (posse e idade)",
+        "examples": [
+          {
+            "original": "Tengo un coche nuevo.",
+            "translation": "Tenho um carro novo.",
+            "note": "'Tener' para posse."
+          },
+          {
+            "original": "Ella tiene dos hermanos.",
+            "translation": "Ela tem dois irmãos.",
+            "note": "'Tener' para relações familiares."
+          },
+          {
+            "original": "Tengo 30 años.",
+            "translation": "Tenho 30 anos.",
+            "note": "Use 'tener' para idade, não 'ser'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "pt": "hay, estar, tener (existência, localização, posse)"
+    }
+  },
+  {
+    "id": "es_A1_concept_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Perífrasis de obligación: tener que y hay que / Perífrase de obrigação: tener que e hay que",
+    "bridge": "Em português, você expressa obrigação com 'ter que' (tenho que estudar) e com 'é preciso' ou 'deve-se'. Em espanhol, também há duas formas: 'tener que + infinitivo' (obrigação pessoal) e 'hay que + infinitivo' (obrigação impessoal, geral). O erro mais comum dos falantes de português é conjugar 'tener' incorretamente (dizer 'yo tener que' em vez de 'yo tengo que') ou usar 'hay que' com sujeito específico ('hay que yo estudio' – errado). Outro erro: confundir 'tener que' com 'tener' (posse).",
+    "rule": "Tener que + infinitivo: conjuga-se 'tener' (tengo, tienes, tiene, tenemos, tenéis, tienen) + 'que' + infinitivo. Exemplo: 'Tengo que estudiar' (Tenho que estudar). Hay que + infinitivo: forma impessoal, não varia. Exemplo: 'Hay que estudiar para aprender' (É preciso estudar para aprender / Deve-se estudar para aprender). Use 'tener que' para obrigações específicas de uma pessoa; use 'hay que' para conselhos gerais, regras ou obrigações impessoais. Negação: 'No tengo que salir' (Não tenho que sair), 'No hay que fumar aquí' (Não se deve fumar aqui / É proibido fumar aqui).",
+    "common_error": {
+      "wrong": "Yo tener que estudiar.",
+      "explanation": "Você esqueceu de conjugar o verbo 'tener'. Em português, 'ter que' é conjugado (eu tenho que). Em espanhol é igual: 'tener' deve ser conjugado. 'Yo tener que' está no infinitivo, o que é incorreto. O correto é 'yo tengo que' ou simplesmente 'tengo que'.",
+      "ejemplo_1": "Yo tengo que estudiar.",
+      "ejemplo_2": "Tengo que estudiar."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Tener que (personal)",
+        "translation": "Tener que (pessoal)",
+        "examples": [
+          {
+            "original": "Yo tengo que trabajar.",
+            "translation": "Eu tenho que trabalhar.",
+            "note": "'Tengo' + que + infinitivo."
+          },
+          {
+            "original": "Ella tiene que estudiar.",
+            "translation": "Ela tem que estudar.",
+            "note": "'Tiene' para terceira pessoa."
+          },
+          {
+            "original": "Nosotros tenemos que salir.",
+            "translation": "Nós temos que sair.",
+            "note": "'Tenemos' para 'nosotros'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Hay que (impersonal)",
+        "translation": "Hay que (impessoal)",
+        "examples": [
+          {
+            "original": "Hay que estudiar todos los días.",
+            "translation": "É preciso estudar todos os dias / Deve-se estudar todos os dias.",
+            "note": "Não tem sujeito – sempre 'hay que'."
+          },
+          {
+            "original": "Hay que llegar a tiempo.",
+            "translation": "É preciso chegar a tempo.",
+            "note": "Conselho geral."
+          },
+          {
+            "original": "No hay que fumar aquí.",
+            "translation": "Não se deve fumar aqui.",
+            "note": "Negação: 'no hay que'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Contraste y negación",
+        "translation": "Contraste e negação",
+        "examples": [
+          {
+            "original": "Tengo que llamar a mi madre, pero hoy no hay que trabajar.",
+            "translation": "Tenho que ligar para minha mãe, mas hoje não é preciso trabalhar.",
+            "note": "Contraste entre obrigação pessoal e impessoal."
+          },
+          {
+            "original": "No tengo que madrugar mañana.",
+            "translation": "Não tenho que madrugar amanhã.",
+            "note": "Negação de 'tener que' = ausência de obrigação."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚠️",
+    "phonetic": "",
+    "translations": {
+      "pt": "perífrase de obrigação (tener que / hay que)"
+    }
+  },
+  {
+    "id": "es_A1_concept_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Contraste ser y estar / Contraste ser e estar",
+    "bridge": "Em português, você também tem a distinção entre 'ser' e 'estar' (sou médico / estou cansado). Em espanhol é exatamente a mesma lógica. No entanto, há alguns usos diferentes: em português se diz 'estou casado' (estado civil), em espanhol se diz 'soy casado' (característica permanente)? Na verdade, em espanhol também se usa 'estar casado' para indicar o estado civil (embora 'ser casado' também seja aceito em algumas regiões, o mais comum é 'estar casado'). Há diferenças sutis: 'ser moreno' (ter cabelo escuro ou pele morena) vs. 'estar moreno' (estar bronzeado). O erro mais comum dos falantes de português é usar 'ser' para tudo (influência do inglês) ou, ao contrário, usar 'estar' onde se usa 'ser'. Porém, como o português já tem essa distinção, o erro é menor. Atenção especial à localização de eventos: '¿Dónde es la fiesta?' (Onde é a festa? – ocorre) vs. '¿Dónde está la fiesta?' (Onde está a festa? – localização física).",
+    "rule": "Ser: usado para identidade (Yo soy Ana), origem (Soy de Brasil), profissão (Soy profesor), características permanentes (Soy alto), personalidade (Soy simpático), material (La mesa es de madera), hora (Son las dos), posse (El libro es mío). Estar: usado para localização (El libro está en la mesa), estados temporários (Estoy cansado, Estoy feliz), saúde (Estoy enfermo), humor (Estoy contento), e com o gerúndio para formar o progressivo (Estoy comiendo). Lembre-se do mnemônico: 'ser' para DOCTOR (Description, Occupation, Characteristic, Time, Origin, Relation); 'estar' para PLACE (Position, Location, Action, Condition, Emotion).",
+    "common_error": {
+      "wrong": "Soy cansado.",
+      "explanation": "Você usou 'ser' para um estado temporário (cansaço). Em português, você diria 'estou cansado' (com 'estar'). A regra é a mesma: estados temporários, sentimentos, condições de saúde usam 'estar'. 'Ser cansado' significaria 'ser uma pessoa cansada' (característica permanente). Este é o erro mais comum, mesmo entre falantes de português que às vezes se confundem.",
+      "ejemplo_1": "Estoy cansado.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ser para identidad y origen",
+        "translation": "Ser para identidade e origem",
+        "examples": [
+          {
+            "original": "Yo soy Ana.",
+            "translation": "Eu sou Ana.",
+            "note": "Identidade → ser."
+          },
+          {
+            "original": "Ella es española.",
+            "translation": "Ela é espanhola.",
+            "note": "Origem/nacionalidade → ser."
+          },
+          {
+            "original": "Somos estudiantes.",
+            "translation": "Somos estudantes.",
+            "note": "Profissão → ser."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Estar para ubicación y estado",
+        "translation": "Estar para localização e estado",
+        "examples": [
+          {
+            "original": "El libro está en la mesa.",
+            "translation": "O livro está na mesa.",
+            "note": "Localização → estar."
+          },
+          {
+            "original": "Estoy cansada.",
+            "translation": "Estou cansada.",
+            "note": "Estado temporário → estar."
+          },
+          {
+            "original": "¿Cómo estás?",
+            "translation": "Como você está?",
+            "note": "Saúde/humor → estar."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Contraste: característica vs. estado",
+        "translation": "Contraste: característica vs. estado",
+        "examples": [
+          {
+            "original": "Juan es alto y delgado.",
+            "translation": "João é alto e magro (característica permanente).",
+            "note": "Ser para descrição física."
+          },
+          {
+            "original": "Juan está cansado hoy.",
+            "translation": "João está cansado hoje (estado temporário).",
+            "note": "Estar para condição."
+          },
+          {
+            "original": "La sopa es fría (p. ej., gazpacho).",
+            "translation": "A sopa é fria (ex.: gaspacho – característica).",
+            "note": "Ser para qualidade inerente."
+          },
+          {
+            "original": "La sopa está fría (se enfrió).",
+            "translation": "A sopa está fria (esfriou – estado temporário).",
+            "note": "Estar para estado."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "pt": "contraste entre ser e estar"
+    }
+  },
+  {
+    "id": "es_A1_concept_18",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Presente continuo (estar + gerundio) / Presente contínuo (estar + gerúndio)",
+    "bridge": "Em português, você forma o presente contínuo com 'estar + gerúndio': 'estou comendo', 'ela está estudando'. Em espanhol, é exatamente igual: 'estar + gerundio'. O gerúndio espanhol é formado com -ando para verbos -ar (hablando) e -iendo para -er/-ir (comiendo, viviendo). O erro mais comum dos falantes de português é usar o gerúndio de forma errada (como 'comiendo' é igual, não há erro) ou confundir 'estar' com 'ser' para formar o contínuo ('soy comiendo' – errado). Outro erro: usar o presente simples onde se espera o contínuo (influência do inglês, mas em português também se usa o contínuo). Lembre-se: o presente contínuo é usado para ações em progresso no momento da fala, não para hábitos (para hábitos, use o presente simples).",
+    "rule": "Formação: verbo 'estar' conjugado (estoy, estás, está, estamos, estáis, están) + gerundio. Gerundio: verbos -ar: -ando (hablando, estudiando); verbos -er/-ir: -iendo (comiendo, viviendo). Exemplos: 'Estoy comiendo una manzana' (Estou comendo uma maçã). 'Ella está estudiando' (Ela está estudando). 'Estamos viviendo en Madrid' (Estamos vivendo em Madrid). Use o presente contínuo para ações que estão acontecendo agora, neste momento. Não use para ações habituais (use o presente simples). Exemplo: 'Como fruta todos los días' (Como fruta todos os dias), não 'Estoy comiendo fruta todos los días' (soa estranho).",
+    "common_error": {
+      "wrong": "Soy comiendo una manzana.",
+      "explanation": "Você usou o verbo 'ser' em vez de 'estar' para formar o presente contínuo. Em português, você diria 'estou comendo', não 'sou comendo'. Em espanhol é igual: o auxiliar é 'estar', nunca 'ser'. 'Soy comiendo' é incorreto. Sempre use 'estar' + gerundio.",
+      "ejemplo_1": "Estoy comiendo una manzana.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Estar + gerundio (-ando)",
+        "translation": "Estar + gerúndio (-ando)",
+        "examples": [
+          {
+            "original": "Estoy hablando con María.",
+            "translation": "Estou falando com Maria.",
+            "note": "Estoy + hablando."
+          },
+          {
+            "original": "Ella está estudiando español.",
+            "translation": "Ela está estudando espanhol.",
+            "note": "Está + estudiando."
+          },
+          {
+            "original": "Nosotros estamos trabajando.",
+            "translation": "Nós estamos trabalhando.",
+            "note": "Estamos + trabajando."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Estar + gerundio (-iendo)",
+        "translation": "Estar + gerúndio (-iendo)",
+        "examples": [
+          {
+            "original": "Estoy comiendo una pizza.",
+            "translation": "Estou comendo uma pizza.",
+            "note": "Estoy + comiendo."
+          },
+          {
+            "original": "Estás escribiendo un correo.",
+            "translation": "Você está escrevendo um e-mail.",
+            "note": "Estás + escribiendo."
+          },
+          {
+            "original": "Ellos están viviendo en Chile.",
+            "translation": "Eles estão vivendo no Chile.",
+            "note": "Están + viviendo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Contraste presente simple y continuo",
+        "translation": "Contraste entre presente simples e contínuo",
+        "examples": [
+          {
+            "original": "Todos los días como fruta.",
+            "translation": "Todos os dias como fruta.",
+            "note": "Presente simples para hábito."
+          },
+          {
+            "original": "Ahora estoy comiendo una manzana.",
+            "translation": "Agora estou comendo uma maçã.",
+            "note": "Presente contínuo para agora."
+          },
+          {
+            "original": "Normalmente trabajo en casa, pero hoy estoy trabajando en la oficina.",
+            "translation": "Normalmente trabalho em casa, mas hoje estou trabalhando no escritório.",
+            "note": "Contraste: hábito vs. mudança temporária."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "presente contínuo (estar + gerúndio)"
     }
   }
 ]
