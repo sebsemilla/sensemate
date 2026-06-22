@@ -1,0 +1,452 @@
+[
+	{
+		"id": "es_C1_concept_01",
+		"type": "concept",
+		"title": "Subjuntivo Pluscuamperfecto / Mais-que-perfeito do subjuntivo",
+		"bridge": "Em português, o mais-que-perfeito do subjuntivo existe ('se eu tivesse sabido') e é usado exatamente nas mesmas estruturas hipotéticas do passado. A dificuldade é que, no português falado, às vezes se usa o condicional composto ('teria sabido') no lugar do subjuntivo. Você transfere essa relaxação para o espanhol, dizendo 'si habría sabido' em vez de 'si hubiera sabido'. Em espanhol, o subjuntivo pluscuamperfecto é obrigatório após 'si' – nunca se usa o condicional. Boa notícia: a lógica é idêntica ao português, só precisa automatizar a forma correta ('hubiera/hubiese').",
+		"rule": "Formação: hubiera/hubiese + particípio passado (-ado, -ido). Usos: 1) Após 'si' para condições irreais no passado: 'Si lo hubiera sabido, habría venido' (Se eu tivesse sabido, teria vindo). 2) Após 'ojalá' para expressar arrependimento: 'Ojalá hubiera llegado antes' (Quem me dera ter chegado antes / Tomara que tivesse chegado antes). 3) Em orações com 'como si': 'Actúa como si no hubiera pasado nada' (Age como se não tivesse acontecido nada). Importante: nunca use 'habría' depois de 'si' – esse é o erro mais frequente para falantes de português.",
+		"common_error": {
+			"wrong": "Si habría sabido, habría venido.",
+			"correct": "Si hubiera sabido, habría venido.",
+			"correct_alt": "Si hubiese sabido, habría venido.",
+			"explanation": "Em português coloquial, às vezes se diz 'se eu teria sabido' (incorreto) em vez de 'se eu tivesse sabido'. Você transfere essa estrutura para o espanhol usando 'habría' depois de 'si'. O espanhol exige rigorosamente o subjuntivo mais-que-perfeito ('hubiera/hubiese') na oração com 'si', nunca o condicional. Lembre-se: em português correto também é 'se eu tivesse', não 'se eu teria'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Ojalá hubiera venido.",
+				"translation": "Quem me dera que tivesse vindo / Tomara que tivesse vindo.",
+				"examples": [{ "original": "Ojalá hubiera venido.", "translation": "Tomara que tivesse vindo.", "note": "Arrependimento simples com 'hubiera'." }]
+			},
+			{
+				"level": 2,
+				"label": "Si hubiera estudiado, habría aprobado.",
+				"translation": "Se eu tivesse estudado, teria passado.",
+				"examples": [{ "original": "Si hubiera estudiado, habría aprobado.", "translation": "Se eu tivesse estudado, teria passado.", "note": "'hubiera' na prótase (se), condicional composto na apódose." }]
+			},
+			{
+				"level": 3,
+				"label": "Hubiera sido mejor que vinieras ayer, pero no insististe.",
+				"translation": "Teria sido melhor que você viesse ontem, mas você não insistiu.",
+				"examples": [{ "original": "Hubiera sido mejor que vinieras ayer, pero no insististe.", "translation": "Teria sido melhor que você viesse ontem, mas você não insistiu.", "note": "Uso de 'hubiera' na oração principal com valor de condicional atenuado (formal, comum em espanhol)." }]
+			}
+		],
+		"emoji": "⏪",
+		"phonetic": "",
+		"translations": { "pt": "mais-que-perfeito do subjuntivo" }
+	},
+	{
+		"id": "es_C1_concept_02",
+		"type": "concept",
+		"title": "Usos modales y epistémicos: deber de, venir a, andar + gerundio",
+		"bridge": "Em português você tem estruturas muito semelhantes: 'dever de + infinitivo' para dedução (embora menos usado que 'dever' simples), 'vir a + infinitivo' para aproximação (ex.: 'vem a custar') e 'andar + gerúndio' para processo difuso ('anda dizendo bobagens'). A boa notícia é que a lógica é quase idêntica. O problema é que, no português, 'dever' sem preposição já cobre dedução e obrigação, então você tende a omitir o 'de' em espanhol ('debe ser' em vez de 'debe de ser'). Além disso, 'vir a' em português tem o mesmo valor aproximativo, então você acerta, mas pode hesitar. 'Andar + gerúndio' existe mas é menos frequente; você pode usar 'estar + gerúndio' no lugar, perdendo a nuance.",
+		"rule": "1) Deber de + inf: dedução, probabilidade. 'Debe de ser tarde' (Deve ser tarde / Deve estar tarde). Contraste com 'deber' (obrigação): 'Debes estudiar' (Você deve estudar). Em português, 'dever' sozinho já expressa dedução, mas em espanhol a preposição 'de' é obrigatória para dedução. 2) Venir a + inf: aproximação ou equivalência. 'Viene a costar 20 euros' (Vem a custar 20 euros / Custa cerca de 20 euros). 3) Andar + gerundio: ação difusa e contínua, muitas vezes sem propósito claro. 'Anda diciendo mentiras' ( Anda dizendo mentiras / Vive dizendo mentiras). Não use 'estar' no lugar se quiser a nuance de processo difuso.",
+		"common_error": {
+			"wrong": "Debe ser él quien llama.",
+			"correct": "Debe de ser él quien llama.",
+			"correct_alt": "",
+			"explanation": "Você omite a preposição 'de' porque em português 'deve ser' já expressa tanto obrigação quanto dedução. Em espanhol, 'debe ser' significa obrigação ('ele deve estar lá porque prometeu'), enquanto 'debe de ser' expressa dedução ('deve ser ele, ouço a voz'). Para dedução, sempre coloque a preposição 'de'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Debe de ser muy caro.",
+				"translation": "Deve ser muito caro.",
+				"examples": [{ "original": "Debe de ser muy caro.", "translation": "Deve ser muito caro.", "note": "Dedução, não obrigação." }]
+			},
+			{
+				"level": 2,
+				"label": "Viene a costar 50 dólares.",
+				"translation": "Vem a custar 50 dólares / Custa cerca de 50 dólares.",
+				"examples": [{ "original": "Viene a costar 50 dólares.", "translation": "Vem a custar 50 dólares.", "note": "'Viene a' para aproximação (igual ao português 'vem a')." }]
+			},
+			{
+				"level": 3,
+				"label": "Anda diciendo que se va a mudar, pero nadie le cree.",
+				"translation": " Anda dizendo que vai se mudar, mas ninguém acredita nele.",
+				"examples": [{ "original": "Anda diciendo que se va a mudar, pero nadie le cree.", "translation": " Anda dizendo que vai se mudar, mas ninguém acredita nele.", "note": "'Andar + gerundio' com nuance de persistência e difusão (igual ao português 'andar + gerúndio')." }]
+			}
+		],
+		"emoji": "🔍",
+		"phonetic": "",
+		"translations": { "pt": "usos modais e epistêmicos" }
+	},
+	{
+		"id": "es_C1_concept_03",
+		"type": "concept",
+		"title": "Nominalización y construcciones con infinitivo / Nominalização e construções com infinitivo",
+		"bridge": "Em português, você usa o infinitivo como substantivo ('Fumar faz mal') e a construção 'o fato de que' + subjuntivo. O espanhol funciona de forma idêntica. Portanto, não há grande dificuldade. O erro típico do falante de português é esquecer a preposição 'de' após 'el hecho' (em português dizemos 'o fato de que' – com 'de' – então não deveria ser erro, mas às vezes ocorre por analogia com outras línguas). Outro erro: usar o gerúndio como sujeito ('Llegando tarde fue un error') – isso é um anglicismo que também aparece no português coloquial, mas é incorreto em ambas as línguas. O espanhol exige infinitivo. Atenção também a 'lo que' (português 'o que').",
+		"rule": "Em espanhol, o infinitivo funciona como nome masculino: 'Fumar es perjudicial' (Fumar é prejudicial). Para sujeitos complexos: 'el hecho de que + subjuntivo' (o fato de que): 'El hecho de que no viniera me molestó' (O fato de que ele não tivesse vindo me incomodou). 'El + infinitivo' (el llegar tarde = o ato de chegar tarde). 'Lo que' + indicativo/subjuntivo: 'Lo que me sorprende es su reacción' (O que me surpreende é a reação dele). 'Haber + particípio' como sujeito: 'Haber llegado tarde fue un error' (Ter chegado tarde foi um erro). Nunca use o gerúndio como sujeito – isso é erro em espanhol e também em português normativo.",
+		"common_error": {
+			"wrong": "El hecho que llegó tarde fue un problema.",
+			"correct": "El hecho de que llegara tarde fue un problema.",
+			"correct_alt": "El llegar tarde fue un problema.",
+			"explanation": "Você omite a preposição 'de' depois de 'el hecho' (seria 'el hecho de que'). Em português se diz 'o fato de que' – com 'de' – então a omissão é menos comum, mas acontece por influência de outras línguas ou relaxamento. Além disso, você às vezes usa o gerúndio como sujeito ('Llegando tarde fue un error') – isso é incorreto em espanhol. Use o infinitivo 'llegar' ou 'haber llegado'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Fumar es malo.",
+				"translation": "Fumar faz mal.",
+				"examples": [{ "original": "Fumar es malo.", "translation": "Fumar faz mal.", "note": "Infinitivo como sujeito." }]
+			},
+			{
+				"level": 2,
+				"label": "El hecho de que no viniera me molestó.",
+				"translation": "O fato de que ele não tivesse vindo me incomodou.",
+				"examples": [{ "original": "El hecho de que no viniera me molestó.", "translation": "O fato de que ele não tivesse vindo me incomodou.", "note": "'El hecho de que' + subjuntivo (viniera) – igual ao português." }]
+			},
+			{
+				"level": 3,
+				"label": "Lo que más me sorprende es que lo haya hecho solo.",
+				"translation": "O que mais me surpreende é que ele o tenha feito sozinho.",
+				"examples": [{ "original": "Lo que más me sorprende es que lo haya hecho solo.", "translation": "O que mais me surpreende é que ele o tenha feito sozinho.", "note": "Nominalização com 'lo que' + subjuntivo na oração atributiva." }]
+			}
+		],
+		"emoji": "📦",
+		"phonetic": "",
+		"translations": { "pt": "nominalização" }
+	},
+	{
+		"id": "es_C1_concept_04",
+		"type": "concept",
+		"title": "Gerundio en construcciones absolutas / Gerúndio em construções absolutas",
+		"bridge": "Em português, o gerúndio absoluto existe e é usado da mesma forma: 'sabendo disso, não teria ido', 'chegando ele, tudo mudou'. Não há diferença estrutural. O espanhol usa o gerúndio absoluto sem preposição, separado por vírgulas, exatamente como em português. Portanto, você não deveria ter dificuldade. O único cuidado é não confundir com o gerúndio de modo ('llegó corriendo') e nunca usar o gerúndio como sujeito ('Llegando tarde es un error' – isso é erro tanto em espanhol quanto em português normativo; use o infinitivo 'llegar').",
+		"rule": "O gerúndio absoluto espanhol nunca usa preposição. É separado por vírgulas. Expressa: 1) Causa: 'Sabiendo eso, no habría ido' (Sabendo disso, não teria ido). 2) Tempo: 'Llegando él, todo cambió' (Quando ele chegou, tudo mudou). 3) Condição: 'Estudiando más, habrías aprobado' (Estudando mais, você teria passado). O sujeito implícito do gerúndio é diferente do sujeito da oração principal. Não confunda com o gerúndio de modo ('llegó corriendo'), que não é absoluto. Atenção: o gerúndio não pode ser sujeito da frase.",
+		"common_error": {
+			"wrong": "Llegando tarde es un error.",
+			"correct": "Llegar tarde es un error.",
+			"correct_alt": "El llegar tarde es un error.",
+			"explanation": "Você usa o gerúndio como sujeito da frase, o que é incorreto tanto em espanhol quanto em português normativo (embora no português coloquial às vezes apareça). Em espanhol, o sujeito deve ser o infinitivo ('llegar') ou uma nominalização ('el llegar'). O gerúndio absoluto é apenas para orações adverbiais, não para sujeitos."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Sabiendo eso, no fui.",
+				"translation": "Sabendo disso, não fui.",
+				"examples": [{ "original": "Sabiendo eso, no fui.", "translation": "Sabendo disso, não fui.", "note": "Gerúndio absoluto causal." }]
+			},
+			{
+				"level": 2,
+				"label": "Llegando ella, todos se callaron.",
+				"translation": "Quando ela chegou, todos se calaram.",
+				"examples": [{ "original": "Llegando ella, todos se callaron.", "translation": "Quando ela chegou, todos se calaram.", "note": "Gerúndio absoluto temporal com sujeito explícito 'ella'." }]
+			},
+			{
+				"level": 3,
+				"label": "Habiendo sido advertido, no deberías haberlo hecho.",
+				"translation": "Tendo sido avisado, você não deveria ter feito isso.",
+				"examples": [{ "original": "Habiendo sido advertido, no deberías haberlo hecho.", "translation": "Tendo sido avisado, você não deveria ter feito isso.", "note": "Gerúndio composto ('habiendo sido') para passivo anterior." }]
+			}
+		],
+		"emoji": "✂️",
+		"phonetic": "",
+		"translations": { "pt": "gerúndio absoluto" }
+	},
+	{
+		"id": "es_C1_concept_05",
+		"type": "concept",
+		"title": "Subjuntivo con valor estilístico / Subjuntivo com valor estilístico",
+		"bridge": "Ótima notícia: em português existem expressões idênticas! 'Que eu saiba' (que yo sepa), 'digam o que disserem' (digan lo que digan), 'que você saiba que...' (que sepas que...), 'que você melhore!' (¡que te mejores!). A estrutura é a mesma: 'que' + subjuntivo. Portanto, você não terá dificuldade. O único erro possível é usar o indicativo em vez do subjuntivo por influência de outras línguas (inglês, por exemplo), ou dizer 'segundo o que sei' em vez de 'que eu saiba'. Mas com seu português, você fará naturalmente. Memorize apenas as formas mais comuns.",
+		"rule": "O subjuntivo estilístico aparece sem conjunção 'que' introdutória em fórmulas fixas: 1) Concessivo: 'Digan lo que digan, no me importa' (Digam o que disserem, não me importa). 2) Expressão de conhecimento não absoluto: 'Que yo sepa, no ha llegado' (Que eu saiba, não chegou). 3) Parentético informativo: 'Que sepas que te quiero' (Que você saiba que te amo). 4) Optativo (desejo): '¡Que te mejores!' (Que você melhore!). Essas formas são fixas; o 'que' inicial é obrigatório e o subjuntivo não pode ser substituído pelo indicativo sem mudar o sentido.",
+		"common_error": {
+			"wrong": "Según lo que sé, no ha llegado.",
+			"correct": "Que yo sepa, no ha llegado.",
+			"correct_alt": "",
+			"explanation": "Você usa o indicativo 'según lo que sé' (segundo o que sei) porque em português também se diz 'segundo o que sei' em contextos formais. No entanto, a fórmula natural em espanhol para expressar conhecimento não absoluto é o subjuntivo 'que yo sepa', equivalente ao português 'que eu saiba'. O indicativo soa muito assertivo e menos idiomático. Use 'que yo sepa' para soar mais natural."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Que yo sepa, es falso.",
+				"translation": "Que eu saiba, é falso.",
+				"examples": [{ "original": "Que yo sepa, es falso.", "translation": "Que eu saiba, é falso.", "note": "Fórmula fixa 'que yo sepa'." }]
+			},
+			{
+				"level": 2,
+				"label": "Digan lo que digan, haré lo correcto.",
+				"translation": "Digam o que disserem, farei o certo.",
+				"examples": [{ "original": "Digan lo que digan, haré lo correcto.", "translation": "Digam o que disserem, farei o certo.", "note": "Subjuntivo concessivo sem 'aunque'." }]
+			},
+			{
+				"level": 3,
+				"label": "Que te vaya bien en tu viaje, ¡y que tengas mucha suerte!",
+				"translation": "Que você vá bem na sua viagem, e que tenha muita sorte!",
+				"examples": [{ "original": "Que te vaya bien en tu viaje, ¡y que tengas mucha suerte!", "translation": "Que você vá bem na sua viagem, e que tenha muita sorte!", "note": "Subjuntivo optativo para expressar desejos (equivalente a 'te desejo que')." }]
+			}
+		],
+		"emoji": "🎭",
+		"phonetic": "",
+		"translations": { "pt": "subjuntivo estilístico" }
+	},
+	{
+		"id": "es_C1_concept_06",
+		"type": "concept",
+		"title": "Conectores de alto registro / Conectores de alto registro",
+		"bridge": "Em português, você tem conectores formais como 'vista a conta de', 'na medida em que', 'a teor de', 'independentemente de'. O espanhol tem equivalentes muito semelhantes, mas com algumas diferenças de preposição e modo verbal. 'Habida cuenta de' corresponde a 'vista a conta de' (ou 'tendo em conta'). 'En la medida en que' é igual. 'A tenor de' existe em português como 'a teor de' (raro, mas existe). 'Con independencia de' é 'independentemente de'. A dificuldade é que você pode usar 'de acordo com' em vez de 'a tenor de', ou esquecer o subjuntivo após 'en la medida en que' para hipótese. O erro mais comum é o calque 'em luz de' para 'habida cuenta de' (influência do inglês).",
+		"rule": "1) Habida cuenta de que + indicativo (fato real): 'Habida cuenta de que llovía, cancelaron' (Vista a conta de que chovia, cancelaram / Tendo em conta que chovia). 2) En la medida en que + indicativo (real) ou subjuntivo (hipotético): 'Te ayudaré en la medida en que pueda' (Vou te ajudar na medida em que puder) – subjuntivo. 3) A tenor de + nome ou infinitivo (sem 'que'): 'A tenor de los resultados' (A teor dos resultados / De acordo com os resultados). 4) Con independencia de que + subjuntivo (sempre): 'Lo haré con independencia de que quieras o no' (Farei independentemente de você querer ou não). Memorize a preposição 'de' após 'habida cuenta' e 'con independencia'.",
+		"common_error": {
+			"wrong": "En luz de que llegó tarde, lo despidieron.",
+			"correct": "Habida cuenta de que llegó tarde, lo despidieron.",
+			"correct_alt": "Teniendo en cuenta que llegó tarde, lo despidieron.",
+			"explanation": "Você faz um calque do inglês 'in light of' (ou do português 'em luz de', que não é padrão), produzindo 'en luz de', que não existe em espanhol. O conector formal correto é 'habida cuenta de que' (ou o mais comum 'teniendo en cuenta que'). Além disso, às vezes você esquece o 'de' após 'habida cuenta' (diz 'habida cuenta que' – incorreto)."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Habida cuenta de su actitud, no vendrá.",
+				"translation": "Vista a sua atitude, ele não virá.",
+				"examples": [{ "original": "Habida cuenta de su actitud, no vendrá.", "translation": "Vista a sua atitude, ele não virá.", "note": "'Habida cuenta de' + sintagma nominal (sem 'que')." }]
+			},
+			{
+				"level": 2,
+				"label": "En la medida en que lo permita el presupuesto, viajaremos.",
+				"translation": "Na medida em que o orçamento permitir, viajaremos.",
+				"examples": [{ "original": "En la medida en que lo permita el presupuesto, viajaremos.", "translation": "Na medida em que o orçamento permitir, viajaremos.", "note": "'En la medida en que' + subjuntivo (permita) para condição hipotética." }]
+			},
+			{
+				"level": 3,
+				"label": "Con independencia de que me invites o no, iré a la fiesta.",
+				"translation": "Independentemente de você me convidar ou não, irei à festa.",
+				"examples": [{ "original": "Con independencia de que me invites o no, iré a la fiesta.", "translation": "Independentemente de você me convidar ou não, irei à festa.", "note": "'Con independencia de que' + subjuntivo (invites) – notar a dupla preposição 'de que'." }]
+			}
+		],
+		"emoji": "🎓",
+		"phonetic": "",
+		"translations": { "pt": "conectores de alto registro" }
+	},
+	{
+		"id": "es_C1_concept_07",
+		"type": "concept",
+		"title": "Diferencias de registro / Diferenças de registro",
+		"bridge": "Em português, você também tem quatro registros (coloquial, padrão, formal, literário). O desafio é que o espanhol marca o registro de forma mais nítida com pronomes específicos (tú/usted/vosotros/ustedes), modos verbais (subjuntivo mais frequente no formal) e vocabulário muito diferenciado. Como aprendiz C1, você às vezes mistura registros: usar 'tío' (cara) em um e-mail formal, ou 'así que' (portanto) em um texto literário. O registro literário espanhol usa formas em '-se' do subjuntivo (viniese em vez de viniera) e inversões sintáticas raras no português moderno. O erro típico do falante de português é usar 'você' como equivalente de 'usted' (mas em espanhol 'usted' é mais formal e requer verbos na terceira pessoa) ou usar o gerúndio em contextos formais onde o espanhol prefere o infinitivo.",
+		"rule": "Quatro registros em espanhol: 1) Coloquial: familiar, entre amigos. Características: pronomes 'tú/vosotros', interjeições ('¡qué guay!'), diminutivos ('momentito'), queda de consoantes ('pa' para 'para'), vocabulário gíria. 2) Estándar: neutro, imprensa, e-mails profissionais, situações cotidianas. Gramática correta, sem gírias, 'usted' em alguns contextos. 3) Formal: acadêmico, administrativo, discursos. Frases complexas, subjuntivo frequente, voz passiva pronominal ('se dice'), conectores como 'habida cuenta de', 'usted' sistemático. 4) Literario: prosa/poesia literária. Sintaxe invertida ('De la casa salió'), vocabulário arcaico ('asaz' para 'muy'), subjuntivo em '-se' ('viniese'), figuras de estilo. Em C1, você deve identificar e reproduzir o registro apropriado sem misturar.",
+		"common_error": {
+			"wrong": "Estimado amigo, ¿qué tal? Necesito tu ayuda, tío.",
+			"correct": "Estimado señor, ¿cómo está? Necesito su ayuda.",
+			"correct_alt": "Oye, amigo, ¿qué tal? Necesito tu ayuda.",
+			"explanation": "Você mistura 'estimado' (formal) com 'tío' (coloquial) e 'tú' (informal). O registro formal exige 'usted', sem gírias. A versão corrigida é consistente. Para um registro amigável mas não formal, use a versão alternativa inteiramente coloquial. Em português, você não misturaria 'Prezado' com 'cara' no mesmo parágrafo – mesma lógica."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Dame pan. (coloquial) / Deme pan. (estándar formal)",
+				"translation": "Me dá pão.",
+				"examples": [
+					{ "original": "Dame pan.", "translation": "Me dá pão.", "note": "Coloquial: 'dame' com tú." },
+					{ "original": "Deme pan.", "translation": "Me dê pão.", "note": "Formal padrão: 'deme' com usted." }
+				]
+			},
+			{
+				"level": 2,
+				"label": "Vino y se fue. (estándar) / Llegó, y acto seguido partió. (literario)",
+				"translation": "Ele veio e se foi.",
+				"examples": [
+					{ "original": "Vino y se fue.", "translation": "Ele veio e se foi.", "note": "Padrão, simples." },
+					{ "original": "Llegó, y acto seguido partió.", "translation": "Ele chegou, e imediatamente partiu.", "note": "Literário: 'acto seguido', 'partió' em vez de 'se fue'." }
+				]
+			},
+			{
+				"level": 3,
+				"label": "Si vinieras, sería genial. (coloquial) / Si vinieses, sería magnífico. (literario)",
+				"translation": "Se você viesse, seria legal / magnífico.",
+				"examples": [
+					{ "original": "Si vinieras, sería genial.", "translation": "Se você viesse, seria legal.", "note": "Padrão/coloquial: 'vinieras', 'genial'." },
+					{ "original": "Si vinieses, sería magnífico.", "translation": "Se você viesse, seria magnífico.", "note": "Literário: subjuntivo em '-se' ('vinieses'), adjetivo formal 'magnífico'." }
+				]
+			}
+		],
+		"emoji": "🎭",
+		"phonetic": "",
+		"translations": { "pt": "diferenças de registro" }
+	},
+	{
+		"id": "es_C1_concept_08",
+		"type": "concept",
+		"title": "El artículo neutro 'lo' / O artigo neutro 'lo'",
+		"bridge": "Atenção: em português não existe artigo neutro. Você usa 'o bom' (masculino) para 'a coisa boa', ou 'o que é bom'. O espanhol usa 'lo' para transformar um adjetivo, advérbio ou oração inteira em nome abstrato: 'lo bueno' (a coisa boa), 'lo de ayer' (a coisa / o assunto de ontem), 'lo que más me gusta' (o que mais gosto). O erro típico do falante de português é usar o artigo masculino 'el' no lugar de 'lo' ('el bueno es que...' significaria 'o homem bom'), ou dizer 'o de ontem' em vez de 'lo de ayer' (calque do português 'o de ontem', que em português é aceitável mas em espanhol seria 'el de ayer' – masculino – ou melhor 'lo de ayer'). A interferência é constante porque em português usamos 'o' para masculino e também para abstrações em certos contextos (ex.: 'o bom é que...'). Em espanhol, abstrações exigem 'lo'.",
+		"rule": "'Lo' é invariável (sem plural, sem feminino). Usos: 1) Lo + adjetivo: 'lo mejor' (o melhor). 2) Lo + de + nome/infinitivo: 'lo de Pedro' (a coisa do Pedro / o assunto do Pedro), 'lo de salir temprano' (a questão de sair cedo). 3) Lo + que + oração: 'lo que dices' (o que você diz). 4) Lo + possessivo: 'lo mío' (o que é meu / as minhas coisas). 5) Em exclamações: '¡Lo mucho que has crecido!' (O quanto você cresceu!). Nunca use 'el' com adjetivo abstrato; 'el bueno' designa uma pessoa (o bom / o bonzinho). Diferencie 'lo' artigo neutro de 'lo' pronome complemento ('lo veo' é diferente).",
+		"common_error": {
+			"wrong": "El bueno de la película es el final.",
+			"correct": "Lo bueno de la película es el final.",
+			"correct_alt": "",
+			"explanation": "Você usa o artigo masculino 'el' porque em português se diz 'o bom do filme é o final' (com 'o' masculino). Mas em espanhol 'el bueno' significa 'o homem bom' (pessoa), não 'a coisa boa'. O abstrato exige 'lo'. Esta é uma interferência direta do português. Lembre-se: 'lo + adjetivo' para qualidades abstratas. Em português você também poderia dizer 'o bom' (abstrato), mas em espanhol a distinção é rigorosa: 'el bueno' (pessoa), 'lo bueno' (abstrato)."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Lo bueno es que llovió.",
+				"translation": "O bom é que choveu.",
+				"examples": [{ "original": "Lo bueno es que llovió.", "translation": "O bom é que choveu.", "note": "Lo + adjetivo 'bueno' = noção abstrata." }]
+			},
+			{
+				"level": 2,
+				"label": "Lo de ayer fue un desastre.",
+				"translation": "O assunto de ontem foi um desastre.",
+				"examples": [{ "original": "Lo de ayer fue un desastre.", "translation": "O assunto de ontem foi um desastre.", "note": "Lo de + expressão temporal = a coisa / o assunto sobre ontem." }]
+			},
+			{
+				"level": 3,
+				"label": "No me gusta lo de que llegues tarde siempre.",
+				"translation": "Não gosto do fato de você chegar sempre atrasado.",
+				"examples": [{ "original": "No me gusta lo de que llegues tarde siempre.", "translation": "Não gosto do fato de você chegar sempre atrasado.", "note": "Lo de que + subjuntivo: nominaliza uma oração inteira." }]
+			}
+		],
+		"emoji": "⚪",
+		"phonetic": "",
+		"translations": { "pt": "artigo neutro 'lo'" }
+	},
+	{
+		"id": "es_C1_concept_09",
+		"type": "concept",
+		"title": "Construcciones enfáticas / Construções enfáticas",
+		"bridge": "Em português, você tem estruturas semelhantes: 'foi ele quem disse' (clivada) e 'o que quero é descansar' (pseudoclivada). O espanhol funciona da mesma forma: 'fue él quien lo dijo', 'lo que quiero es descansar'. A diferença está no pronome relativo: para pessoas, o espanhol prefere 'quien' (ou 'el/la que') em vez de 'que'. Em português usamos 'que' ('foi ele que disse') – isso é aceitável em espanhol mas menos elegante. A forma mais correta é 'quien'. Além disso, você pode esquecer o acento em 'quién' na escrita. Atenção também à concordância: 'fueron ellos quienes' (foram eles que). O erro típico do falante de português é usar 'que' para pessoas por analogia com o português.",
+		"rule": "Duas principais construções enfáticas: 1) Clivada com 'ser' + elemento focalizado + oração relativa: 'Fue Juan quien llamó' (Foi João quem chamou). O relativo pode ser 'que' (coisas, geral), 'quien/es' (pessoas), ou 'el/la que'. 2) Pseudoclivada com 'lo que' + ser + elemento focalizado: 'Lo que necesito es paciencia' (O que preciso é de paciência). 3) Anteposição: 'Mucho trabaja él' (Muito trabalha ele). 4) Negação enfática: 'No es que no quiera, es que no puedo' (Não é que não queira, é que não posso). Evite usar 'eso que' em vez de 'lo que'.",
+		"common_error": {
+			"wrong": "Fue él que lo dijo.",
+			"correct": "Fue él quien lo dijo.",
+			"correct_alt": "Fue él el que lo dijo.",
+			"explanation": "Você usa 'que' como em português ('foi ele que disse'), mas para pessoas o espanhol prefere 'quien' (ou 'el que') na clivada. 'Fue él que lo dijo' é compreensível, mas soa como um calque do português. A forma mais correta e formal é 'quien'. Em português você diria 'foi ele quem disse' (com 'quem') – o espanhol 'quien' é equivalente. Use 'quien' para soar mais natural."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Fue ella quien llamó.",
+				"translation": "Foi ela quem chamou.",
+				"examples": [{ "original": "Fue ella quien llamó.", "translation": "Foi ela quem chamou.", "note": "Clivada com 'ser' + pronome + 'quien'." }]
+			},
+			{
+				"level": 2,
+				"label": "Lo que quiero es dormir.",
+				"translation": "O que quero é dormir.",
+				"examples": [{ "original": "Lo que quiero es dormir.", "translation": "O que quero é dormir.", "note": "Pseudoclivada com 'lo que' como sujeito." }]
+			},
+			{
+				"level": 3,
+				"label": "Fue en París donde nos conocimos, no en Madrid.",
+				"translation": "Foi em Paris que nos conhecemos, não em Madrid.",
+				"examples": [{ "original": "Fue en París donde nos conocimos, no en Madrid.", "translation": "Foi em Paris que nos conhecemos, não em Madrid.", "note": "Clivada para lugar: 'donde' em vez de 'que'." }]
+			}
+		],
+		"emoji": "💥",
+		"phonetic": "",
+		"translations": { "pt": "construções enfáticas" }
+	},
+	{
+		"id": "es_C1_concept_10",
+		"type": "concept",
+		"title": "Perífrasis de fase y aspecto: ir + gerundio, tener + participio, llevar sin + infinitivo / Perífrases de fase e aspecto",
+		"bridge": "Em português, você tem 'ir + gerúndio' (vai melhorando) – igual ao espanhol. 'Tener + particípio' (tengo hecha la cama) é muito raro em português; você usa o pretérito perfeito composto (ter + particípio) ou simples (já fiz a cama). 'Llevar sin + infinitivo' (llevo sin verte meses) existe em português ('levo sem ver você') mas é pouco comum; você prefere 'estou sem ver' (calque do inglês/francês) ou 'faz tempo que não te vejo'. O erro típico é usar 'estar sin + infinitivo' no lugar de 'llevar sin + infinitivo', perdendo a nuance de duração. Além disso, você evita 'tener + particípio' e usa tempos simples, o que não é erro mas perde a ênfase no estado resultante.",
+		"rule": "1) Ir + gerundio: progressão gradual. 'El proyecto va mejorando lentamente' (O projeto vai melhorando lentamente). Nunca com verbos pontuais. 2) Tener + participio: perfecto resultativo, enfatiza o estado após a ação. 'Tengo preparada la cena' (Tenho o jantar pronto / Já preparei o jantar). O particípio concorda com o objeto direto. 3) Llevar sin + infinitivo: duração sem ação. 'Llevo sin fumar dos años' (Estou há dois anos sem fumar / Já não fumo há dois anos). Sempre com expressão de tempo. Contraste: 'llevar + gerundio' = ação contínua; 'llevar sin + inf' = ausência contínua de ação. Evite calcar 'estar sin + infinitivo' (estou sem fumar) que não expressa duração.",
+		"common_error": {
+			"wrong": "Estoy sin verte tres meses.",
+			"correct": "Llevo tres meses sin verte.",
+			"correct_alt": "Hace tres meses que no te veo.",
+			"explanation": "Você calca o português 'estou sem te ver há três meses' (que não é a forma mais idiomática em português europeu, mas é usada no Brasil) produzindo 'estoy sin verte', que é gramaticalmente aceitável em espanhol mas não expressa a duração corretamente. O espanhol usa a perífrase 'llevar + tempo + sin + infinitivo' para enfatizar a duração da ausência de ação. 'Estoy sin verte' significaria 'estou sem te ver' (estado presente, sem duração). Use 'llevo sin verte' para soar mais natural."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "La situación va mejorando.",
+				"translation": "A situação vai melhorando.",
+				"examples": [{ "original": "La situación va mejorando.", "translation": "A situação vai melhorando.", "note": "'Ir + gerundio' para mudança progressiva." }]
+			},
+			{
+				"level": 2,
+				"label": "Tengo escritas todas las cartas.",
+				"translation": "Tenho todas as cartas escritas.",
+				"examples": [{ "original": "Tengo escritas todas las cartas.", "translation": "Tenho todas as cartas escritas.", "note": "'Tener + participio' com concordância (escritas) enfatizando o estado resultante." }]
+			},
+			{
+				"level": 3,
+				"label": "Llevo sin dormir bien desde que empezó la pandemia.",
+				"translation": "Estou há meses sem dormir bem desde que a pandemia começou.",
+				"examples": [{ "original": "Llevo sin dormir bien desde que empezó la pandemia.", "translation": "Estou há meses sem dormir bem desde que a pandemia começou.", "note": "'Llevar sin + infinitivo' com 'desde' para privação contínua." }]
+			}
+		],
+		"emoji": "⏳",
+		"phonetic": "",
+		"translations": { "pt": "perífrases de fase e aspecto" }
+	},
+	{
+		"id": "es_C1_concept_11",
+		"type": "concept",
+		"title": "Matices entre subjuntivo e indicativo en contextos límite / Matizes entre subjuntivo e indicativo em contextos limites",
+		"bridge": "Em português, a escolha entre indicativo e subjuntivo é muito semelhante ao espanhol. 'Acho que ele vem' (indicativo) / 'Não acho que ele venha' (subjuntivo). 'Quando ele chegar' (subjuntivo futuro) / 'Quando ele chega' (presente habitual). O problema é que, no português coloquial do Brasil, às vezes se usa o subjuntivo após 'acho que' ('acho que ele venha') – essa interferência pode levar você a usar subjuntivo em espanhol onde se exige indicativo ('creo que venga' em vez de 'creo que viene'). Além disso, para 'cuando', o português usa o futuro do subjuntivo ('quando chegares'), enquanto o espanhol usa o presente do subjuntivo ('cuando llegues'). Você já está acostumado com o subjuntivo, então não terá dificuldade – apenas troque a forma (chegares → llegues). O erro principal é o subjuntivo após 'creo que' afirmativo.",
+		"rule": "Contrastes chave em espanhol C1: 1) Creer/pensar: afirmativo → indicativo ('creo que viene'); negativo → subjuntivo ('no creo que venga'). Em português padrão é igual, mas cuidado com a influência coloquial do subjuntivo após afirmativo. 2) Temporal 'cuando': futuro → presente do subjuntivo ('cuando llegues'); hábito → indicativo ('cuando llegas'). Em português, futuro do subjuntivo ('quando chegares') – a lógica é a mesma, só muda a forma verbal. 3) 'Quizás/tal vez': indicativo (mais certo) ou subjuntivo (menos certo). 4) 'Aunque': fato real (indicativo) vs concessão hipotética (subjuntivo). 5) 'Después de que': futuro/subjuntivo; passado/indicativo. Sua prioridade: evitar o subjuntivo após 'creer que' afirmativo e usar o presente do subjuntivo em vez do futuro do subjuntivo português após 'cuando'.",
+		"common_error": {
+			"wrong": "Creo que venga mañana.",
+			"correct": "Creo que viene mañana.",
+			"correct_alt": "",
+			"explanation": "Em português coloquial do Brasil, é comum ouvir 'Acho que ele venha amanhã' (com subjuntivo). Você transfere essa construção para o espanhol, dizendo 'creo que venga' (subjuntivo) em vez do indicativo 'viene'. No espanhol padrão, após 'creer que' afirmativo (certeza) usa-se sempre o indicativo, mesmo em contextos informais. O subjuntivo só aparece após 'no creer que'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Creo que viene. / No creo que venga.",
+				"translation": "Acho que ele vem. / Não acho que ele venha.",
+				"examples": [
+					{ "original": "Creo que viene.", "translation": "Acho que ele vem.", "note": "Afirmativo → indicativo." },
+					{ "original": "No creo que venga.", "translation": "Não acho que ele venha.", "note": "Negativo → subjuntivo." }
+				]
+			},
+			{
+				"level": 2,
+				"label": "Cuando llueve, me quedo en casa. / Cuando llueva, me quedaré en casa.",
+				"translation": "Quando chove (habitualmente), fico em casa. / Quando chover (futuro), ficarei em casa.",
+				"examples": [
+					{ "original": "Cuando llueve, me quedo en casa.", "translation": "Quando chove, fico em casa.", "note": "Hábito → indicativo." },
+					{ "original": "Cuando llueva, me quedaré en casa.", "translation": "Quando chover, ficarei em casa.", "note": "Futuro → presente do subjuntivo ('llueva')." }
+				]
+			},
+			{
+				"level": 3,
+				"label": "Quizás es cierto, pero quizás no sea tan simple.",
+				"translation": "Talvez seja verdade, mas talvez não seja tão simples.",
+				"examples": [{ "original": "Quizás es cierto, pero quizás no sea tan simple.", "translation": "Talvez seja verdade, mas talvez não seja tão simples.", "note": "Primeiro 'quizás' com indicativo (maior certeza), segundo com subjuntivo (maior dúvida)." }]
+			}
+		],
+		"emoji": "🎯",
+		"phonetic": "",
+		"translations": { "pt": "matizes subjuntivo/indicativo" }
+	},
+	{
+		"id": "es_C1_concept_12",
+		"type": "concept",
+		"title": "El gerundio incorrecto / O gerúndio incorreto",
+		"bridge": "Cuidado, falso amigo importante! Em português, você pode usar o gerúndio (ou particípio presente) como adjetivo: 'a caixa contendo os documentos', 'uma lei regulando o setor'. Isso é correto e comum. Em espanhol, essa construção é totalmente proibida. O gerúndio espanhol não pode ser adjetivo. Você deve usar uma oração relativa: 'la caja que contiene los documentos', 'una ley que regula el sector'. Esse erro é muito frequente em falantes de português, mesmo em nível C1, porque a estrutura portuguesa parece natural. É o erro que entrega imediatamente um falante de português. Outros erros: gerúndio como sujeito ('leyendo es importante' em vez de 'leer es importante'), gerúndio após preposição ('para comprando' em vez de 'para comprar').",
+		"rule": "O gerúndio espanhol serve apenas para: 1) Ações progressivas (está lloviendo). 2) Orações adverbiais (llegó corriendo, sabiendo eso...). 3) Perífrases verbais (ir + gerundio, andar + gerundio). NÃO PODE ser usado como: 1) Adjetivo (incorreto: *la caja conteniendo; correto: la caja que contiene). 2) Sujeito (incorreto: *leyendo es importante; correto: leer es importante). 3) Após preposição (incorreto: *para comprando; correto: para comprar). 4) Como futuro perifrástico (incorreto: *voy a viniendo; correto: voy a venir). Memorize: nunca gerúndio adjetivo em espanhol, mesmo que em português seja permitido.",
+		"common_error": {
+			"wrong": "Recibí un correo electrónico conteniendo instrucciones.",
+			"correct": "Recibí un correo electrónico que contenía instrucciones.",
+			"correct_alt": "Recibí un correo electrónico con instrucciones.",
+			"explanation": "Você usa o gerúndio 'conteniendo' como adjetivo modificando 'correo electrónico', calcando o português 'contendo'. Em espanhol, o gerúndio não pode ter essa função adjetival. Use uma oração relativa ('que contenía') ou a preposição 'con'. Este é o erro mais típico de falantes de português em espanhol C1, porque a construção é gramatical em português."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "La carta anunciando la fecha es incorrecta.",
+				"translation": "A carta anunciando a data está incorreta (construção errada).",
+				"examples": [{ "original": "La carta anunciando la fecha es incorrecta.", "translation": "A carta anunciando a data está incorreta.", "note": "INCORRETO: gerúndio como adjetivo. Diga: 'la carta que anuncia la fecha'." }]
+			},
+			{
+				"level": 2,
+				"label": "Vi a un hombre cruzando la calle. (correcto: adverbial)",
+				"translation": "Vi um homem atravessando a rua.",
+				"examples": [{ "original": "Vi a un hombre cruzando la calle.", "translation": "Vi um homem atravessando a rua.", "note": "Correto: verbo de percepção + gerúndio (adverbial, modifica 'vi', não 'hombre')." }]
+			},
+			{
+				"level": 3,
+				"label": "Aprobé gracias a una ley regulando el sector. (incorrecto) / Aprobé gracias a una ley que regula el sector. (correcto)",
+				"translation": "Passei graças a uma lei regulando o setor.",
+				"examples": [
+					{ "original": "Aprobé gracias a una ley regulando el sector.", "translation": "Passei graças a uma lei regulando o setor.", "note": "INCORRETO: gerúndio adjetivo." },
+					{ "original": "Aprobé gracias a una ley que regula el sector.", "translation": "Passei graças a uma lei que regula o setor.", "note": "CORRETO: oração relativa." }
+				]
+			}
+		],
+		"emoji": "🚫",
+		"phonetic": "",
+		"translations": { "pt": "o gerúndio incorreto" }
+	}
+]

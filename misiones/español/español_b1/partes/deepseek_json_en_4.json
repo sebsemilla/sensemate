@@ -1,0 +1,184 @@
+{
+	"id": "es_b1_concept_10",
+	"type": "concept",
+	"title": "Discurso indirecto: reporting what someone said",
+	"bridge": "In English, reported speech uses backshift (present -> past, will -> would, etc.): 'I am tired' -> 'He said he was tired'. Spanish also has backshift, but with important differences. First, Spanish allows more flexibility: after a past tense verb like 'dijo', you can often keep the present tense if the action is still true or ongoing: 'Dijo que está cansado' (He said he is tired) is acceptable in Spanish, while English requires 'was tired'. Second, English uses 'would' for future in the past ('He said he would come'), and Spanish uses the conditional 'vendría' similarly. However, English speakers tend to apply mechanical backshift rules too rigidly, using the imperfect where Spanish might prefer the present. Also, English uses the past perfect more frequently; Spanish may use imperfect or past perfect depending on context. The key: in Spanish, if the reported statement remains true at the moment of reporting, you can keep the original tense.",
+	"rule": "In Spanish reported speech with a past tense main verb (dijo, preguntó, afirmó): Present indicative can remain present (if still true) or change to imperfect. Future changes to conditional (simple). Present perfect changes to past perfect. Past simple changes to past perfect or imperfect. Imperatives change to subjunctive (imperfect subjunctive: 'Dijo: Ven' -> 'Dijo que viniera'). Unlike English, Spanish does not require backshift when the information is still valid.",
+	"common_error": {
+		"wrong": "Dijo que vendrá mañana.",
+		"correct": "Dijo que vendría mañana.",
+		"correct_alt": "Dijo que viene mañana.",
+		"explanation": "In English, 'He said he will come tomorrow' is often accepted but considered less formal; more commonly 'would come'. In Spanish, after 'dijo' (past), the future 'vendrá' is incorrect. You must use conditional 'vendría' or present 'viene' (if still future). English speakers often incorrectly use the future because 'will' sounds like 'would' but isn't. Use conditional or present."
+	},
+	"levels": [
+		{
+			"level": 1,
+			"label": "Presente → Presente / Imperfecto",
+			"translation": "Present → Present / Imperfect",
+			"examples": [
+				{
+					"original": "Dice: 'Estudio español.' → Dice que estudia español.",
+					"translation": "He says: 'I study Spanish.' → He says he studies Spanish.",
+					"note": "Main verb in present: no change. Same as English."
+				}
+			]
+		},
+		{
+			"level": 2,
+			"label": "Futuro → Condicional",
+			"translation": "Future → Conditional",
+			"examples": [
+				{
+					"original": "Dijo: 'Iré mañana.' → Dijo que iría mañana.",
+					"translation": "He said: 'I will go tomorrow.' → He said he would go tomorrow.",
+					"note": "Future 'iré' becomes conditional 'iría' = 'would go'. Same as English backshift."
+				}
+			]
+		},
+		{
+			"level": 3,
+			"label": "Flexibilidad española",
+			"translation": "Spanish flexibility",
+			"examples": [
+				{
+					"original": "Dijo: 'El café es caro.' → Dijo que el café es caro / era caro.",
+					"translation": "He said: 'Coffee is expensive.' → He said coffee is/was expensive.",
+					"note": "If coffee is still expensive, Spanish allows present 'es' (English would say 'was' in formal writing but 'is' is common in speech). Spanish is more flexible. Don't force backshift mechanically."
+				}
+			]
+		}
+	],
+	"emoji": "🗣️",
+	"phonetic": "",
+	"translations": { "pt": "" }
+}
+
+{
+	"id": "es_b1_concept_11",
+	"type": "concept",
+	"title": "Por vs Para avanzado: 'for' is not enough",
+	"bridge": "In English, 'for' covers many meanings: purpose (I study for learning), recipient (This is for you), duration (I waited for an hour), cause (I did it for love), exchange (I paid $10 for it). Spanish splits 'for' into two prepositions: 'para' and 'por'. This is one of the biggest challenges for English speakers. The general rule: 'para' looks forward (purpose, destination, deadline, opinion), while 'por' looks backward (cause, means, duration, exchange, substitution). At B1, you need to master the abstract uses: 'por eso' (that's why), 'por más que' (no matter how much), 'para entonces' (by then), and contrasts like 'estar por hacer' (yet to be done) vs 'estar para hacer' (about to be done). The most common error is using 'por' for everything because it sounds like 'for' (faux ami).",
+	"rule": "Essential B1 distinctions: Use 'para' for: purpose (Estudio para aprender), recipient (Para ti), deadline (Para mañana), opinion (Para mí es difícil), comparison (Para su edad). Use 'por' for: cause (Por miedo), means (Por tren), duration (Por dos horas), price (Por 10 euros), exchange/substitution (Cambio A por B), agent in passive (Escrito por mí), and fixed expressions (por favor, por ejemplo, por eso, por cierto, por supuesto).",
+	"common_error": {
+		"wrong": "Este regalo es por ti.",
+		"correct": "Este regalo es para ti.",
+		"correct_alt": "",
+		"explanation": "In English, 'This gift is for you' uses 'for'. But Spanish 'para' is used for recipient. 'Por' would mean 'because of you' or 'on your behalf'. This is the most common error. Memorize: recipient = 'para'."
+	},
+	"levels": [
+		{
+			"level": 1,
+			"label": "Para: propósito y destinatario",
+			"translation": "Para: purpose and recipient",
+			"examples": [
+				{
+					"original": "Estudio para ser médico. / Las flores son para mi madre.",
+					"translation": "I study to be a doctor. / The flowers are for my mother.",
+					"note": "English 'for' (purpose, recipient) = Spanish 'para'."
+				}
+			]
+		},
+		{
+			"level": 2,
+			"label": "Por: causa, medio, duración",
+			"translation": "Por: cause, means, duration",
+			"examples": [
+				{
+					"original": "Lo hice por amor. / Viajamos por avión. / Estudié por dos horas.",
+					"translation": "I did it for love. / We travel by plane. / I studied for two hours.",
+					"note": "Here English 'for/by' = Spanish 'por'. Cause, means, duration."
+				}
+			]
+		},
+		{
+			"level": 3,
+			"label": "Expresiones abstractas y contrastes",
+			"translation": "Abstract expressions and contrasts",
+			"examples": [
+				{
+					"original": "Por eso no vine. / Por más que estudie, no apruebo.",
+					"translation": "That's why I didn't come. / No matter how much I study, I don't pass.",
+					"note": "Fixed expressions with 'por': 'por eso' (therefore), 'por más que' (even if)."
+				},
+				{
+					"original": "El libro está por leer. / El libro está para leer.",
+					"translation": "The book is yet to be read (unread). / The book is about to be read (ready).",
+					"note": "Subtle contrast: 'estar por + infinitive' = action not yet done; 'estar para + infinitive' = action is imminent/ready. English 'to be read' is ambiguous – Spanish distinguishes."
+				},
+				{
+					"original": "Para mí, es importante. / Lo haré por ti.",
+					"translation": "In my opinion, it's important. / I'll do it for you (instead of you).",
+					"note": "Opinion = 'para mí'; substitution = 'por ti'. Both translate as 'for me/you' in English. Practice distinguishing."
+				}
+			]
+		}
+	],
+	"emoji": "🔀",
+	"phonetic": "",
+	"translations": { "pt": "" }
+}
+
+{
+	"id": "es_b1_concept_12",
+	"type": "concept",
+	"title": "Ser vs Estar avanzado: meaning-changing pairs",
+	"bridge": "You already know that 'ser' is for permanent traits (origin, identity, profession, time) and 'estar' is for temporary states (location, health, mood, condition). At B1, the challenge is adjectives that change meaning depending on which verb you use. In English, 'to be' doesn't make this distinction: 'he is boring' vs 'he is bored' use different adjectives (boring vs bored). But in Spanish, the same adjective 'aburrido' means both 'boring' (with 'ser') and 'bored' (with 'estar'). Similarly: 'ser listo' (to be smart) vs 'estar listo' (to be ready); 'ser bueno' (to be good, kind) vs 'estar bueno' (to be tasty/healthy/sexy); 'ser malo' (to be bad, evil) vs 'estar malo' (to be sick); 'ser rico' (to be rich) vs 'estar rico' (to be delicious). These pairs are not intuitive for English speakers because English uses different words. You must memorize them.",
+	"rule": "At B1 level, memorize these common meaning-changing pairs: ser aburrido (boring person) vs estar aburrido (bored); ser listo (intelligent) vs estar listo (ready); ser bueno (kind/good) vs estar bueno (delicious/in good health); ser malo (evil/bad quality) vs estar malo (sick); ser rico (wealthy) vs estar rico (tasty); ser moreno (dark-haired) vs estar moreno (tanned); ser vivo (sharp/clever) vs estar vivo (alive); ser seguro (safe, reliable) vs estar seguro (certain, sure). Also remember: physical conditions (tired, sick, happy) always use 'estar'. Events and locations of events use 'ser' (La fiesta es en mi casa).",
+	"common_error": {
+		"wrong": "¿Estás listo? Sí, soy listo.",
+		"correct": "¿Estás listo? Sí, estoy listo.",
+		"correct_alt": "If question is about intelligence: '¿Eres listo?' Sí, soy listo.",
+		"explanation": "In English, 'Are you ready?' expects 'I am ready.' But an English speaker might hear 'listo' and think 'smart' (ser listo). The confusion comes because English uses different adjectives. If someone asks '¿Estás listo?' (ready), answer with 'estoy listo'. If they ask '¿Eres listo?' (smart), answer with 'soy listo'. Pay attention to the verb used in the question."
+	},
+	"levels": [
+		{
+			"level": 1,
+			"label": "Ser = esencia, Estar = estado",
+			"translation": "Ser = essence, Estar = state",
+			"examples": [
+				{
+					"original": "Ella es bonita. / Ella está bonita hoy.",
+					"translation": "She is pretty (inherently). / She looks pretty today (dressed up).",
+					"note": "Basic distinction: permanent vs temporary."
+				}
+			]
+		},
+		{
+			"level": 2,
+			"label": "Pares mínimos: cambio de significado",
+			"translation": "Minimal pairs: meaning change",
+			"examples": [
+				{
+					"original": "Juan es aburrido. / Juan está aburrido.",
+					"translation": "Juan is boring. / Juan is bored.",
+					"note": "Same adjective 'aburrido' but different English translations. Memorize these pairs."
+				},
+				{
+					"original": "Esta sopa está buena. / Él es muy bueno.",
+					"translation": "This soup is tasty. / He is very kind.",
+					"note": "'Estar bueno' for taste/health; 'ser bueno' for moral goodness."
+				}
+			]
+		},
+		{
+			"level": 3,
+			"label": "Casos sorprendentes para el inglés",
+			"translation": "Surprising cases for English",
+			"examples": [
+				{
+					"original": "La fiesta es en mi casa. / Mi casa está en el centro.",
+					"translation": "The party is at my house (event). / My house is downtown (location).",
+					"note": "Events use 'ser' for location; objects use 'estar'. In English, both use 'to be'. Learn this rule."
+				},
+				{
+					"original": "Soy feliz (I'm a happy person) / Estoy feliz (I'm happy right now).",
+					"translation": "I am a happy person (trait) / I am happy (current mood).",
+					"note": "Even emotions can use 'ser' if they describe a personality trait. English uses 'am' for both, but Spanish distinguishes."
+				}
+			]
+		}
+	],
+	"emoji": "🔄",
+	"phonetic": "",
+	"translations": { "pt": "" }
+}

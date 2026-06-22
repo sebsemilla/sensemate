@@ -13,6 +13,65 @@ const path = require('path');
 
 const authDb = require('./auth_db.cjs');
 const { rateLimit, ipKeyGenerator } = require('express-rate-limit');
+const { Resend } = require('resend');
+const { OAuth2Client } = require('google-auth-library');
+
+// ─── Email service (Resend) ───────────────────────────────────
+
+const APP_URL    = process.env.APP_URL    || 'http://localhost:3000';
+const EMAIL_FROM = process.env.EMAIL_FROM || 'SenseMate <noreply@sensemate.app>';
+
+let _resendClient = null;
+function _mailer() {
+    if (!_resendClient && process.env.RESEND_API_KEY) {
+        _resendClient = new Resend(process.env.RESEND_API_KEY);
+    }
+    return _resendClient;
+}
+
+async function sendEmail({ to, subject, html }) {
+    const mailer = _mailer();
+    if (!mailer) {
+        console.log(`📧 [SIN RESEND] Para: ${to} | ${subject}`);
+        return { ok: true };
+    }
+    const { data, error } = await mailer.emails.send({ from: EMAIL_FROM, to, subject, html });
+    if (error) throw new Error(error.message);
+    return { ok: true, id: data?.id };
+}
+
+function _emailReset(name, resetUrl) {
+    return `<!DOCTYPE html><html><body style="font-family:sans-serif;background:#f5f7fb;margin:0;padding:2rem">
+<div style="max-width:480px;margin:0 auto;background:#fff;border-radius:1rem;padding:2rem;box-shadow:0 2px 8px rgba(0,0,0,.08)">
+  <div style="text-align:center;margin-bottom:1.5rem">
+    <div style="font-size:2rem">📖</div>
+    <h1 style="margin:.4rem 0;color:#1e293b;font-size:1.3rem">SenseMate</h1>
+  </div>
+  <h2 style="color:#1e293b;font-size:1.05rem;margin-bottom:.75rem">Restablecer contraseña</h2>
+  <p style="color:#475569;line-height:1.6;margin:.5rem 0">Hola <strong>${name}</strong>, recibiste este email porque solicitaste restablecer tu contraseña en SenseMate.</p>
+  <p style="color:#475569;line-height:1.6;margin:.5rem 0">Hacé clic en el botón — el enlace expira en <strong>1 hora</strong>.</p>
+  <div style="text-align:center;margin:1.75rem 0">
+    <a href="${resetUrl}" style="display:inline-block;padding:.75rem 1.75rem;background:#2d6a4f;color:#fff;border-radius:.5rem;text-decoration:none;font-weight:600;font-size:1rem">Restablecer contraseña</a>
+  </div>
+  <p style="color:#94a3b8;font-size:.78rem;border-top:1px solid #e2e8f0;padding-top:1rem;margin-top:1.5rem">Si no solicitaste esto, ignorá este email. Tu contraseña no cambiará.</p>
+</div></body></html>`;
+}
+
+function _emailVerify(name, verifyUrl) {
+    return `<!DOCTYPE html><html><body style="font-family:sans-serif;background:#f5f7fb;margin:0;padding:2rem">
+<div style="max-width:480px;margin:0 auto;background:#fff;border-radius:1rem;padding:2rem;box-shadow:0 2px 8px rgba(0,0,0,.08)">
+  <div style="text-align:center;margin-bottom:1.5rem">
+    <div style="font-size:2rem">📖</div>
+    <h1 style="margin:.4rem 0;color:#1e293b;font-size:1.3rem">SenseMate</h1>
+  </div>
+  <h2 style="color:#1e293b;font-size:1.05rem;margin-bottom:.75rem">¡Bienvenido/a, ${name}! 🎉</h2>
+  <p style="color:#475569;line-height:1.6;margin:.5rem 0">Gracias por registrarte. Verificá tu email para confirmar tu cuenta.</p>
+  <div style="text-align:center;margin:1.75rem 0">
+    <a href="${verifyUrl}" style="display:inline-block;padding:.75rem 1.75rem;background:#2d6a4f;color:#fff;border-radius:.5rem;text-decoration:none;font-weight:600;font-size:1rem">Verificar email</a>
+  </div>
+  <p style="color:#94a3b8;font-size:.78rem;border-top:1px solid #e2e8f0;padding-top:1rem;margin-top:1.5rem">Si no creaste una cuenta en SenseMate, ignorá este email.</p>
+</div></body></html>`;
+}
 
 const app = express();
 
@@ -95,6 +154,10 @@ app.use(express.urlencoded({ extended: true }));
 // (Los bots de WhatsApp/Telegram/Twitter no ejecutan JS, así que necesitan SSR de los metas)
 const BOT_UA = /facebookexternalhit|twitterbot|linkedinbot|whatsapp|telegram|slack|discord|googlebot|bingbot|applebot/i;
 
+app.get('/lite', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index-lite.html'));
+});
+
 app.get('/', (req, res, next) => {
     if (!BOT_UA.test(req.headers['user-agent'] || '')) return next();
     // Servir página mínima con meta tags para crawlers
@@ -150,7 +213,14 @@ El objeto debe tener exactamente esta estructura:
       { "source": "tercer ejemplo en ${sourceLang}", "target": "su traducción al ${targetLang}" },
       { "source": "cuarto ejemplo en ${sourceLang}", "target": "su traducción al ${targetLang}" }
     ]
-  }
+  },
+  "contexts": [
+    {
+      "label": "nombre corto del dominio o situación (ej: 'Técnico', 'Financiero', 'Coloquial', 'Jurídico', 'Médico')",
+      "note": "una frase breve que explica cuándo aplica esta variación",
+      "translation": "cómo se traduce la palabra o frase en este contexto específico"
+    }
+  ]
 }
 
 Reglas estrictas:
@@ -158,6 +228,8 @@ Reglas estrictas:
 - El campo "type" debe ser solo la abreviatura (ej: "vbo." no "verbo").
 - Los ejemplos deben ser frases naturales y variadas que muestren distintos usos.
 - Si el texto es una frase larga, usa "frase" como type y describe su función en "details". En este caso no muestres ejemplos.
+- Para "contexts": incluye entre 2 y 4 entradas SOLO si la palabra tiene traducciones notablemente distintas según el dominio o situación (polisemia real, false friends, ambigüedad de registro). Si la traducción es unívoca o el texto es una frase sin ambigüedad contextual significativa, devuelve "contexts": [].
+- Cada "label" debe ser conciso (1-2 palabras máximo).
 - No incluyas nada fuera del objeto JSON.
 `;
 
@@ -197,36 +269,42 @@ Reglas estrictas:
     }
 }
 
+// Decodifica JWT sin rechazar — devuelve payload o null
+function _optionalAuth(req) {
+    const auth = req.headers['authorization'];
+    if (!auth?.startsWith('Bearer ')) return null;
+    try {
+        const jwt = require('jsonwebtoken');
+        return jwt.verify(auth.slice(7), process.env.JWT_SECRET || 'lingua_dev_secret_change_in_prod');
+    } catch { return null; }
+}
+
 app.post('/translate', translateLimiter, async (req, res) => {
     console.log("🔔 Llegó petición a /translate");
 
-    const { text, plan, sourceLang, targetLang } = req.body;
-    console.log("Datos recibidos:", { text, plan, sourceLang, targetLang });
+    const { text, sourceLang, targetLang } = req.body;
+    console.log("Datos recibidos:", { text, sourceLang, targetLang });
+
+    // Plan viene del JWT, no del cliente
+    const jwtPayload = _optionalAuth(req);
+    const isPremium  = !!(jwtPayload?.isDev || jwtPayload?.plan === 'premium' || jwtPayload?.plan === 'trial');
 
     if (!text) {
         return res.status(400).json({ error: "Falta el texto a traducir" });
     }
 
     try {
-        if (plan === 'free') {
-            const src = sourceLang || 'auto';
-            const tgt = targetLang || 'spanish';
-            const translationObj = await translateWithCohere(text, tgt, src);
-            return res.json({
-                translation: JSON.stringify(translationObj)
-            });
+        const src = sourceLang || 'auto';
+        const tgt = targetLang || 'spanish';
+        const translationObj = await translateWithCohere(text, tgt, src);
+
+        // Strip premium-only fields for free/guest users
+        if (!isPremium) {
+            delete translationObj.lexical;
+            delete translationObj.contexts;
         }
 
-        // --- PLAN PREMIUM: (Reservado para funciones futuras de chat) ---
-        if (plan === 'premium') {
-            // Por ahora, devolvemos un placeholder
-            return res.status(501).json({
-                error: "Función de chat en desarrollo. ¡Próximamente!"
-            });
-        }
-
-        // Por si acaso el plan no es válido
-        return res.status(400).json({ error: "Plan no válido" });
+        return res.json({ translation: JSON.stringify(translationObj) });
 
     } catch (error) {
         console.error("Error en /translate:", error.message);
@@ -372,6 +450,64 @@ async function translateSimple(text, fromLang, toLang) {
         return null; // Si falla, el cliente mostrará solo el original
     }
 }
+
+// ── Sinónimos ──────────────────────────────────────────────────
+const LANG_NAMES_MAP = { en:'English', es:'Spanish', fr:'French', de:'German', it:'Italian', pt:'Portuguese' };
+function _langName(code) { return LANG_NAMES_MAP[code] || code; }
+
+app.post('/synonyms', chatLimiter, async (req, res) => {
+    const { text, sourceLang, targetLang } = req.body;
+    if (!text) return res.status(400).json({ error: 'Falta el texto' });
+
+    const cohere = new CohereClientV2({ token: process.env.COHERE_API_KEY });
+    const sName  = _langName(sourceLang || 'en');
+    const tName  = _langName(targetLang || 'es');
+
+    try {
+        const response = await cohere.chat({
+            model: 'command-a-03-2025',
+            messages: [{ role: 'user', content:
+                `Give synonyms for the word or phrase: "${text}"\n` +
+                `Return ONLY valid JSON with this exact format:\n` +
+                `{"source":["syn1","syn2","syn3","syn4"],"target":["syn1","syn2","syn3","syn4"]}\n` +
+                `"source" = synonyms in ${sName}. "target" = synonyms in ${tName}.\n` +
+                `4-6 synonyms each. No explanation, no markdown, only the JSON.`
+            }],
+            temperature: 0.3,
+        });
+        const raw   = response.message.content[0].text.trim();
+        const match = raw.match(/\{[\s\S]*\}/);
+        if (!match) throw new Error('No JSON');
+        res.json(JSON.parse(match[0]));
+    } catch (e) {
+        console.error('/synonyms error:', e);
+        res.status(500).json({ error: 'Error al obtener sinónimos' });
+    }
+});
+
+// ── IA in Context ──────────────────────────────────────────────
+app.post('/context-chat', chatLimiter, async (req, res) => {
+    const { word, messages, sourceLang, targetLang } = req.body;
+    if (!word || !messages?.length) return res.status(400).json({ error: 'Faltan parámetros' });
+
+    const cohere  = new CohereClientV2({ token: process.env.COHERE_API_KEY });
+    const sName   = _langName(sourceLang || 'en');
+    const tName   = _langName(targetLang || 'es');
+    const system  = `You are a language assistant. The user just translated "${word}" from ${sName} to ${tName}. ` +
+                    `Answer their questions about this word or phrase. Always respond in ${sName}. ` +
+                    `Be concise (2-3 sentences), practical, and focus on real usage, grammar, and context.`;
+    try {
+        const response = await cohere.chat({
+            model: 'command-a-03-2025',
+            messages: [{ role: 'system', content: system }, ...messages],
+            temperature: 0.6,
+        });
+        res.json({ reply: response.message.content[0].text });
+    } catch (e) {
+        console.error('/context-chat error:', e);
+        res.status(500).json({ error: 'Error al generar respuesta' });
+    }
+});
 
 // Endpoint para chatear con personajes famosos
 app.post('/famous-chat', chatLimiter, async (req, res) => {
@@ -578,38 +714,79 @@ Podés mencionar el exilio, Montevideo, el amor y la vida cotidiana. Jamás salg
     }
 });
 
-// server.js
 
-// IA de MISTRAL
+// Voces Mistral Voxtral disponibles (voxtral-mini-tts-2603)
+// Masculinas: en_paul_* (US) | gb_oliver_* (British)
+// Femeninas:  gb_jane_* (British)
+const PERSONA_VOICE = {
+    // ── Masculinos apasionados/expresivos ──
+    maradona:        'en_paul_excited',
+    guevara:         'en_paul_confident',
+    senna:           'en_paul_excited',
+    pele:            'en_paul_cheerful',
+    ronaldo:         'en_paul_happy',
+    jara:            'en_paul_sad',
+    galeano:         'en_paul_confident',
+    gilberto:        'en_paul_cheerful',
+    piazzolla:       'en_paul_neutral',
+    benedetti:       'en_paul_neutral',
+    neruda:          'en_paul_sad',
+    cohelo:          'en_paul_neutral',
+    freire:          'en_paul_confident',
+    // ── Masculinos serenos/intelectuales ──
+    mlk:             'en_paul_confident',
+    mandela:         'en_paul_confident',
+    einstein:        'gb_oliver_curious',
+    shakespeare:     'gb_oliver_neutral',
+    borges:          'gb_oliver_neutral',
+    barrios:         'gb_oliver_curious',
+    quiroga:         'gb_oliver_sad',
+    rodo:            'gb_oliver_neutral',
+    // ── Femeninas ──
+    marilyn:         'gb_jane_neutral',
+    frida:           'gb_jane_confident',
+    cleopatra:       'gb_jane_confident',
+    mercedes_sosa:   'gb_jane_sad',
+    fernanda_montenegro: 'gb_jane_neutral',
+    rita:            'gb_jane_confident',
+    chiquinha:       'gb_jane_curious',
+    mistral:         'gb_jane_neutral',
+    parra:           'gb_jane_neutral',
+    geel:            'gb_jane_sad',
+    franulic:        'gb_jane_confident',
+    luisi:           'gb_jane_confident',
+    amalia:          'gb_jane_neutral',
+};
+
+// IA de MISTRAL — TTS
 app.post('/speak', ttsLimiter, async (req, res) => {
     const { text, persona } = req.body;
 
-    // Validar que recibimos un texto para hablar
     if (!text) {
         return res.status(400).json({ error: "No text provided" });
     }
 
-    // Instanciamos el cliente de Mistral
-    const mistralClient = new Mistral({ apiKey: process.env.MISTRAL_API_KEY });
+    const voice = PERSONA_VOICE[persona] || 'en_paul_neutral';
+    console.log(`🔊 /speak → persona="${persona}" voice="${voice}" text="${text.slice(0,40)}..."`);
 
     try {
-        // Realizamos la llamada a la API de Voxtral TTS
-        const speechResponse = await mistralClient.audio.speech.generate({
-            model: "voxtral-mini-transcribe-realtime-2602", // El modelo específico para TTS
-            voice: persona, // La "voz" que queremos usar, asociada con el personaje
-            input: text,
-            response_format: "mp3",
-        });
+        const response = await axios.post(
+            'https://api.mistral.ai/v1/audio/speech',
+            { model: 'voxtral-mini-tts-2603', voice, input: text, response_format: 'mp3' },
+            {
+                headers: {
+                    'Authorization': `Bearer ${process.env.MISTRAL_API_KEY}`,
+                    'Content-Type': 'application/json',
+                },
+                responseType: 'arraybuffer',
+            }
+        );
 
-        // La respuesta viene en base64, la convertimos y la enviamos como un archivo de audio
-        const audioBase64 = speechResponse.data[0].audio;
-        const audioBuffer = Buffer.from(audioBase64, 'base64');
-
-        // Indicamos al navegador que estamos enviando un archivo de audio
         res.set('Content-Type', 'audio/mpeg');
-        res.send(audioBuffer);
+        res.send(Buffer.from(response.data));
     } catch (error) {
-        console.error('Error generando audio con Voxtral:', error);
+        const detail = error.response?.data ? Buffer.from(error.response.data).toString() : error.message;
+        console.error('Error generando audio con Voxtral:', detail);
         res.status(500).json({ error: "Failed to generate speech" });
     }
 });
@@ -653,6 +830,15 @@ app.post('/auth/register', authLimiter, async (req, res) => {
     try {
         const result = await authDb.register(req.body);
         if (!result.ok) return res.status(400).json({ error: result.error });
+
+        // Enviar email de verificación (no bloquea la respuesta)
+        const verifyUrl = `${APP_URL}/auth/verify/${result.verifyToken}`;
+        sendEmail({
+            to:      result.user.email,
+            subject: `¡Bienvenido/a a SenseMate, ${result.user.name}!`,
+            html:    _emailVerify(result.user.name, verifyUrl)
+        }).catch(e => console.error('❌ Email bienvenida:', e.message));
+
         res.json({ token: result.token, user: result.user });
     } catch (e) {
         console.error('❌ /auth/register:', e.message);
@@ -677,6 +863,86 @@ app.get('/auth/me', authDb.verifyToken, (req, res) => {
     const user = authDb.getUserById(req.jwtUser.id);
     if (!user) return res.status(404).json({ error: 'Usuario no encontrado.' });
     res.json({ user });
+});
+
+// GET /auth/verify/:token — verifica el email del usuario
+app.get('/auth/verify/:token', (req, res) => {
+    const result = authDb.verifyEmail(req.params.token);
+    if (!result.ok) {
+        return res.status(400).send(`
+            <html><body style="font-family:sans-serif;text-align:center;padding:3rem">
+            <h2>❌ ${result.error}</h2>
+            <p><a href="/">Volver a SenseMate</a></p>
+            </body></html>`);
+    }
+    res.send(`
+        <html><body style="font-family:sans-serif;text-align:center;padding:3rem">
+        <h2>✅ ¡Email verificado!</h2>
+        <p>Tu cuenta está confirmada. Ya podés usar todas las funciones.</p>
+        <a href="/" style="display:inline-block;margin-top:1rem;padding:.6rem 1.4rem;background:#2d6a4f;color:#fff;border-radius:.5rem;text-decoration:none">Ir a SenseMate</a>
+        </body></html>`);
+});
+
+// POST /auth/refresh-token — renueva el JWT con el plan actual del usuario
+app.post('/auth/refresh-token', authDb.verifyToken, (req, res) => {
+    const user = authDb.getUserById(req.jwtUser.id);
+    if (!user) return res.status(404).json({ error: 'Usuario no encontrado.' });
+    const token = authDb.signToken(user);
+    res.json({ token, user });
+});
+
+// POST /auth/forgot-password — genera token y envía email de reset
+app.post('/auth/forgot-password', authLimiter, async (req, res) => {
+    const { email } = req.body;
+    if (!email) return res.status(400).json({ error: 'Email requerido.' });
+
+    const result = await authDb.createResetToken(email.trim().toLowerCase());
+
+    // Siempre responder OK por seguridad (no revelar si el email existe)
+    if (result.ok) {
+        const resetUrl = `${APP_URL}/?reset_token=${result.token}`;
+        sendEmail({
+            to:      result.email,
+            subject: 'Restablecer contraseña — SenseMate',
+            html:    _emailReset(result.name, resetUrl)
+        }).catch(e => console.error('❌ Email reset:', e.message));
+        console.log(`🔑 Reset link: ${resetUrl}`);
+    }
+
+    res.json({ ok: true });
+});
+
+// POST /auth/reset-password — valida token y actualiza contraseña
+app.post('/auth/reset-password', authLimiter, async (req, res) => {
+    const { token, password } = req.body;
+    const result = await authDb.resetPassword(token, password);
+    if (!result.ok) return res.status(400).json({ error: result.error });
+    res.json({ ok: true });
+});
+
+// POST /auth/google — login/registro con Google
+app.post('/auth/google', authLimiter, async (req, res) => {
+    const { credential } = req.body;
+    if (!credential) return res.status(400).json({ error: 'Token de Google requerido.' });
+    if (!process.env.GOOGLE_CLIENT_ID) return res.status(503).json({ error: 'Google login no configurado.' });
+    try {
+        const client  = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+        const ticket  = await client.verifyIdToken({ idToken: credential, audience: process.env.GOOGLE_CLIENT_ID });
+        const payload = ticket.getPayload();
+        const result  = await authDb.loginWithGoogle({ googleId: payload.sub, email: payload.email, name: payload.name });
+        res.json({ token: result.token, user: result.user });
+    } catch (e) {
+        console.error('❌ /auth/google:', e.message, e.stack?.split('\n')[1]);
+        const isDev = !process.env.NODE_ENV || process.env.NODE_ENV === 'development';
+        res.status(401).json({ error: isDev ? e.message : 'Token de Google inválido.' });
+    }
+});
+
+// DELETE /auth/account — elimina la cuenta del usuario autenticado
+app.delete('/auth/account', authDb.verifyToken, (req, res) => {
+    const result = authDb.deleteUser(req.jwtUser.id);
+    if (!result.ok) return res.status(400).json({ error: result.error });
+    res.json({ ok: true });
 });
 
 // GET /admin/users — admin: lista todos los usuarios
@@ -724,7 +990,7 @@ app.post('/feedback', (req, res) => {
 
 // ─── Admin endpoints ──────────────────────────────────────────
 
-const ADMIN_TOKEN = 'admin_lingua_2025';
+const ADMIN_TOKEN = process.env.ADMIN_TOKEN || 'admin_lingua_2025';
 
 function checkAdminToken(req, res) {
     const token = req.headers['x-admin-token'];
@@ -766,6 +1032,191 @@ app.delete('/admin/feedback', (req, res) => {
     if (!checkAdminToken(req, res)) return;
     fs.writeFileSync(FEEDBACK_FILE, '[]', 'utf8');
     res.json({ ok: true });
+});
+
+// ─── Song Submissions ─────────────────────────────────────────
+
+const SONG_SUBMISSIONS_FILE = path.join(__dirname, 'song_submissions.json');
+
+function loadSongSubmissions() {
+    try { return JSON.parse(fs.readFileSync(SONG_SUBMISSIONS_FILE, 'utf8')); }
+    catch { return []; }
+}
+function saveSongSubmissions(data) {
+    fs.writeFileSync(SONG_SUBMISSIONS_FILE, JSON.stringify(data, null, 2), 'utf8');
+}
+
+// POST /songs/submit — enviar canción para revisión (admin → aprobación directa)
+app.post('/songs/submit', (req, res) => {
+    const { artistName, songTitle, language, country, lyrics, translations, artistImage, submittedBy } = req.body;
+    if (!artistName || !songTitle || !language || !lyrics) {
+        return res.status(400).json({ error: 'Faltan campos requeridos.' });
+    }
+    const isAdminSubmit = req.headers['x-admin-token'] === ADMIN_TOKEN;
+
+    // Guardar imagen del artista si viene en base64
+    let artistImagePath = null;
+    if (artistImage && artistImage.startsWith('data:image/')) {
+        try {
+            const matches = artistImage.match(/^data:image\/(\w+);base64,(.+)$/);
+            if (matches) {
+                const ext      = matches[1];
+                const b64data  = matches[2];
+                const artistId = artistName.trim().toLowerCase()
+                    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                    .replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+                const imgDir   = path.join(__dirname, 'images', 'musicians');
+                if (!fs.existsSync(imgDir)) fs.mkdirSync(imgDir, { recursive: true });
+                const filename = `${artistId}.${ext}`;
+                fs.writeFileSync(path.join(imgDir, filename), Buffer.from(b64data, 'base64'));
+                artistImagePath = `/images/musicians/${filename}`;
+            }
+        } catch (imgErr) {
+            console.warn('⚠️ No se pudo guardar imagen del artista:', imgErr.message);
+        }
+    }
+
+    // Filtrar traducciones válidas y deduplicar por idioma (si la canción ya existe, se omiten dups)
+    const validTranslations = Array.isArray(translations)
+        ? translations.filter(t => t.lang && t.text && t.text.trim())
+            .map(t => ({ lang: t.lang.trim(), text: t.text.trim() }))
+            .filter((t, i, arr) => arr.findIndex(x => x.lang === t.lang) === i) // un idioma por entrada
+        : [];
+
+    const all = loadSongSubmissions();
+
+    const norm = s => s.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const existing = all.find(s =>
+        norm(s.artistName) === norm(artistName) &&
+        norm(s.songTitle)  === norm(songTitle)
+    );
+
+    if (existing) {
+        // Canción ya existe — intentar agregar traducciones nuevas
+        if (!validTranslations.length) {
+            return res.status(409).json({ error: `"${songTitle}" de ${artistName} ya existe en la base de datos.` });
+        }
+        const existingLangs = (existing.translations || []).map(t => t.lang);
+        const newTrans = validTranslations.filter(t => !existingLangs.includes(t.lang));
+        const dupTrans = validTranslations.filter(t =>  existingLangs.includes(t.lang));
+
+        if (!newTrans.length) {
+            const langs = dupTrans.map(t => t.lang).join(', ');
+            return res.status(409).json({ error: `Ya existe una traducción en "${langs}" para esta canción.` });
+        }
+        // Mergear traducciones nuevas al entry existente
+        existing.translations = [...(existing.translations || []), ...newTrans];
+        saveSongSubmissions(all);
+        console.log(`🎵 Traducciones agregadas a "${existing.songTitle}": ${newTrans.map(t => t.lang).join(', ')}`);
+        return res.json({ ok: true, id: existing.id, merged: true, addedLangs: newTrans.map(t => t.lang) });
+    }
+
+    // Canción nueva
+    const entry = {
+        id:           Date.now().toString(),
+        artistName:   artistName.trim(),
+        songTitle:    songTitle.trim(),
+        language:     language.trim(),
+        country:      (country || '').trim(),
+        lyrics:       lyrics.trim(),
+        translations: validTranslations,
+        youtubeUrl:   (req.body.youtubeUrl || '').trim() || null,
+        artistImagePath: artistImagePath,
+        submittedBy:  submittedBy || 'invitado',
+        status:       isAdminSubmit ? 'approved' : 'pending',
+        submittedAt:  new Date().toISOString(),
+    };
+    all.push(entry);
+    saveSongSubmissions(all);
+    console.log(`🎵 Canción ${isAdminSubmit ? 'aprobada directamente' : 'enviada para revisión'}: "${entry.songTitle}" de ${entry.artistName}`);
+    res.json({ ok: true, id: entry.id, autoApproved: isAdminSubmit });
+});
+
+// GET /songs/data/:lang — approved submissions formatted for musicians.js
+app.get('/songs/data/:lang', (req, res) => {
+    const lang = req.params.lang;
+    const approved = loadSongSubmissions().filter(s => s.status === 'approved' && s.language === lang);
+
+    const artistsMap = {};
+    const songsMap   = {};
+
+    approved.forEach(s => {
+        // Derive a stable artist id from the name
+        const artistId = s.artistName.toLowerCase()
+            .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+            .replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+
+        if (!artistsMap[artistId]) {
+            artistsMap[artistId] = {
+                id:    artistId,
+                name:  s.artistName,
+                image: s.artistImagePath || '🎵',
+            };
+        }
+        if (!songsMap[artistId]) songsMap[artistId] = [];
+
+        const translationsObj = {};
+        (s.translations || []).forEach(t => { translationsObj[t.lang] = t.text; });
+
+        songsMap[artistId].push({
+            id:             s.id,
+            title:          s.songTitle,
+            originalLyrics: s.lyrics,
+            originalLang:   lang,
+            translations:   translationsObj,
+            youtubeUrl:     s.youtubeUrl || null,
+        });
+    });
+
+    res.json({
+        artists: Object.values(artistsMap),
+        songs:   songsMap,
+    });
+});
+
+// GET /admin/songs — listar todas las submissions
+app.get('/admin/songs', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    res.json(loadSongSubmissions());
+});
+
+// PATCH /admin/songs/:id — aprobar, rechazar o editar campos
+app.patch('/admin/songs/:id', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    const all = loadSongSubmissions();
+    const entry = all.find(s => s.id === req.params.id);
+    if (!entry) return res.status(404).json({ error: 'No encontrado' });
+    if (req.body.status    !== undefined) entry.status    = req.body.status;
+    if (req.body.adminNote !== undefined) entry.adminNote = req.body.adminNote;
+    if (req.body.title     !== undefined) entry.songTitle  = req.body.title.trim();
+    if (req.body.lyrics    !== undefined) entry.lyrics     = req.body.lyrics.trim();
+    if (req.body.youtubeUrl !== undefined) entry.youtubeUrl = req.body.youtubeUrl || null;
+    if (Array.isArray(req.body.translations)) {
+        entry.translations = req.body.translations
+            .filter(t => t.lang && t.text && t.text.trim())
+            .map(t => ({ lang: t.lang.trim(), text: t.text.trim() }))
+            .filter((t, i, arr) => arr.findIndex(x => x.lang === t.lang) === i);
+    }
+    saveSongSubmissions(all);
+    res.json({ ok: true });
+});
+
+// DELETE /admin/songs/:id — eliminar submission
+app.delete('/admin/songs/:id', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    saveSongSubmissions(loadSongSubmissions().filter(s => s.id !== req.params.id));
+    res.json({ ok: true });
+});
+
+// GET /admin/songs/points — puntos por usuario basado en canciones aprobadas
+app.get('/admin/songs/points', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    const approved = loadSongSubmissions().filter(s => s.status === 'approved');
+    const points = {};
+    approved.forEach(s => {
+        points[s.submittedBy] = (points[s.submittedBy] || 0) + 10;
+    });
+    res.json(points);
 });
 
 // ─── Contributors & Publications ─────────────────────────────
@@ -1213,7 +1664,7 @@ app.get('/mp/public-key', (req, res) => {
 
 // ─────────────────────────────────────────────────────────────
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 // const httpsOptions = {
 //    key: fs.readFileSync('./localhost+2-key.pem'),
 //    cert: fs.readFileSync('./localhost+2.pem')

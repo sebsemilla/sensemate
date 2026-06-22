@@ -797,3 +797,111 @@
 }
 
 /* ============ PRACTICE — fin ============ */
+/* ============ RULE / TF / FILL / ODD CARDS ============ */
+
+/* Carta tipo regla — más alta para el texto */
+.prac-card--rule {
+  min-height: 340px;
+}
+
+/* Front de regla */
+.prac-card-front--rule {
+  gap: 0.55rem;
+  padding: 1.25rem 1rem 1rem;
+}
+.prac-rule-front {
+  font-size: 0.82rem;
+  color: var(--text-muted, #666);
+  line-height: 1.55;
+  text-align: center;
+  max-width: 280px;
+}
+
+/* Botones T/F decorativos */
+.prac-tf-btns {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.25rem;
+}
+.prac-tf-btn {
+  padding: 0.3rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1.5px solid var(--border, #e0e0e0);
+  color: var(--text-muted, #888);
+  cursor: default;
+}
+
+/* Opciones del intruso */
+.prac-odd-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem 0.7rem;
+  margin-top: 0.3rem;
+}
+.prac-odd-opt {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text, #222);
+  padding: 0.25rem 0.5rem;
+  background: var(--surface, #f5f5f5);
+  border-radius: 8px;
+  border: 1px solid var(--border, #e0e0e0);
+  text-align: center;
+}
+
+/* Back de regla */
+.prac-card-back--rule {
+  gap: 0.6rem;
+  padding: 1.1rem 1rem;
+}
+.prac-rule-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 100%;
+}
+.prac-rule-item {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text, #222);
+  padding: 0.3rem 0.6rem;
+  border-radius: 8px;
+  background: var(--surface, #f5f5f5);
+  border: 1px solid var(--border, #e0e0e0);
+  text-align: left;
+}
+.prac-rule-item--hl {
+  background: rgba(251,191,36,0.18);
+  border-color: #f59e0b;
+  color: #92400e;
+}
+
+/* Respuesta grande (T/F, fill, odd) */
+.prac-rule-answer {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.45rem 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.prac-rule-answer--true  { background: rgba(39,174,96,0.12);  color: #27ae60; }
+.prac-rule-answer--false { background: rgba(239,68,68,0.10);  color: #ef4444; }
+.prac-rule-answer--fill  { background: rgba(99,102,241,0.10); color: var(--primary, #6366f1); }
+
+/* Explicación */
+.prac-rule-explanation {
+  font-size: 0.78rem;
+  color: var(--text-muted, #666);
+  line-height: 1.5;
+  text-align: center;
+  max-width: 280px;
+}
+
+/* Dark mode */
+.dark-mode .prac-rule-item--hl { color: #fde68a; }
+.dark-mode .prac-rule-item     { background: rgba(255,255,255,0.05); }
+.dark-mode .prac-odd-opt       { background: rgba(255,255,255,0.05); }
+
+/* ============ RULE CARDS — fin ============ */

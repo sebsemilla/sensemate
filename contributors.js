@@ -157,7 +157,7 @@ function _bindContribProfile() {
 
         try {
             const user = (typeof currentUser !== 'undefined') ? currentUser : null;
-            const res = await fetch('http://localhost:3000/contributor/register', {
+            const res = await fetch(_API_HOST + '/contributor/register', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -203,7 +203,7 @@ const _ADS_TTL   = 5 * 60 * 1000; // 5 min
 async function _fetchAds() {
     if (_adsCache && (Date.now() - _adsCacheTs) < _ADS_TTL) return _adsCache;
     try {
-        const res = await fetch('http://localhost:3000/publications/active');
+        const res = await fetch(_API_HOST + '/publications/active');
         if (!res.ok) return [];
         _adsCache   = await res.json();
         _adsCacheTs = Date.now();

@@ -186,6 +186,25 @@ function _renderAuth(overlay) {
 
     if (_obTab === 'login') _bindLogin();
     else                    _bindRegister();
+
+    // Inicializar Google One Tap (con retry si el script async aún no cargó)
+    if (window.google?.accounts?.id) {
+        _initGoogleOneTap();
+    } else {
+        let _gAttempts = 0;
+        const _waitGoogle = () => {
+            if (window.google?.accounts?.id) { _initGoogleOneTap(); return; }
+            if (++_gAttempts < 50) {
+                setTimeout(_waitGoogle, 300);
+            } else {
+                // Google no cargó (conexión lenta o bloqueado) — ocultar el divider
+                const wrap = document.getElementById('obGoogleBtnWrap');
+                if (wrap) wrap.closest('.ob-form')?.querySelector('.ob-divider')?.remove();
+                if (wrap) wrap.remove();
+            }
+        };
+        setTimeout(_waitGoogle, 300);
+    }
 }
 
 // --- Formulario: Login ---
@@ -206,6 +225,9 @@ function _loginFormHTML() {
             </div>
             <div class="ob-error hidden" id="obLErr"></div>
             <button class="ob-submit-btn" id="obLoginBtn">Entrar</button>
+            <button class="ob-forgot-link" id="obForgotLink" type="button">¿Olvidaste tu contraseña?</button>
+            <div class="ob-divider"><span>o</span></div>
+            <div id="obGoogleBtnWrap" class="ob-google-wrap"></div>
         </div>
     `;
 }
@@ -236,6 +258,59 @@ function _bindLogin() {
     document.getElementById('obLPwd').addEventListener('keydown', e => {
         if (e.key === 'Enter') doLogin();
     });
+    document.getElementById('obForgotLink').addEventListener('click', () => {
+        document.getElementById('obFormArea').innerHTML = _forgotFormHTML();
+        _bindForgot();
+    });
+}
+
+async function _handleGoogleCredential({ credential }) {
+    const API_BASE = `http://${window.location.hostname}:3000`;
+    try {
+        const res  = await fetch(`${API_BASE}/auth/google`, {
+            method:  'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body:    JSON.stringify({ credential })
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error);
+        authSetSession(data.token, data.user);
+        const overlay = document.getElementById('obOverlay') || document.getElementById('resetOverlay');
+        if (overlay) {
+            overlay.classList.add('ob-fade-out');
+            setTimeout(() => {
+                overlay.remove();
+                if (typeof window.onOnboardingComplete === 'function') window.onOnboardingComplete(data.user);
+            }, 300);
+        } else if (typeof window.onOnboardingComplete === 'function') {
+            window.onOnboardingComplete(data.user);
+        }
+    } catch (e) {
+        alert('Error con Google Sign-In: ' + e.message);
+    }
+}
+
+function _initGoogleOneTap() {
+    const clientId = window._GOOGLE_CLIENT_ID;
+    if (!clientId || !window.google?.accounts?.id) return;
+
+    window.google.accounts.id.initialize({
+        client_id:   clientId,
+        callback:    _handleGoogleCredential,
+        auto_select: false,
+    });
+
+    // Renderizar botón oficial de Google en el placeholder
+    const wrap = document.getElementById('obGoogleBtnWrap');
+    if (wrap) {
+        window.google.accounts.id.renderButton(wrap, {
+            theme:  'outline',
+            size:   'large',
+            text:   'continue_with',
+            width:  wrap.offsetWidth || 300,
+            locale: 'es',
+        });
+    }
 }
 
 // --- Formulario: Registro (2 pasos) ---
@@ -376,4 +451,153 @@ function _obClose(user) {
             window.onOnboardingComplete(user);
         }
     }, 300);
+}
+
+// --- Olvidé mi contraseña ---
+
+function _forgotFormHTML() {
+    return `
+        <div class="ob-form">
+            <div class="ob-forgot-back">
+                <button class="ob-forgot-link" id="obForgotBackBtn" type="button">← Volver al login</button>
+            </div>
+            <p class="ob-forgot-desc">Ingresá tu email y te enviamos un enlace para crear una nueva contraseña.</p>
+            <div class="ob-field">
+                <label>Email</label>
+                <input type="email" id="obForgotEmail" placeholder="tu@email.com" autocomplete="email">
+            </div>
+            <div class="ob-error hidden" id="obForgotErr"></div>
+            <div class="ob-success hidden" id="obForgotOk">
+                ✅ Si el email existe, te enviamos el enlace. Revisá tu bandeja (y spam).
+            </div>
+            <button class="ob-submit-btn" id="obForgotBtn">Enviar enlace</button>
+        </div>
+    `;
+}
+
+function _bindForgot() {
+    const API_BASE = `http://${window.location.hostname}:3000`;
+
+    document.getElementById('obForgotBackBtn').addEventListener('click', () => {
+        document.getElementById('obFormArea').innerHTML = _loginFormHTML();
+        _bindLogin();
+    });
+
+    document.getElementById('obForgotBtn').addEventListener('click', async () => {
+        const email = document.getElementById('obForgotEmail').value.trim();
+        const err   = document.getElementById('obForgotErr');
+        const ok    = document.getElementById('obForgotOk');
+        const btn   = document.getElementById('obForgotBtn');
+        if (!email) return _obErr(err, 'Ingresá tu email.');
+        btn.disabled    = true;
+        btn.textContent = 'Enviando…';
+        try {
+            await fetch(`${API_BASE}/auth/forgot-password`, {
+                method:  'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body:    JSON.stringify({ email })
+            });
+            err.classList.add('hidden');
+            ok.classList.remove('hidden');
+            btn.classList.add('hidden');
+        } catch {
+            btn.disabled    = false;
+            btn.textContent = 'Enviar enlace';
+            _obErr(err, 'No se pudo conectar. Intentá de nuevo.');
+        }
+    });
+}
+
+// --- Restablecer contraseña (abierto desde URL con ?reset_token=) ---
+
+function showResetPasswordForm(token) {
+    const API_BASE = `http://${window.location.hostname}:3000`;
+
+    const overlay = document.createElement('div');
+    overlay.id        = 'resetOverlay';
+    overlay.className = 'ob-overlay';
+    overlay.innerHTML = `
+        <div class="ob-auth-wrap">
+            <div class="ob-auth-card">
+                <div class="ob-logo" style="justify-content:center;margin-bottom:1.5rem">
+                    <span>📖</span>
+                    <span class="ob-logo-text">SenseMate</span>
+                </div>
+                <h2 style="text-align:center;margin-bottom:1.25rem;font-size:1.1rem">Nueva contraseña</h2>
+                <div class="ob-form">
+                    <div class="ob-field">
+                        <label>Nueva contraseña</label>
+                        <div class="ob-pwd-wrap">
+                            <input type="password" id="resetPwd1" placeholder="Mínimo 6 caracteres" autocomplete="new-password">
+                            <button class="ob-eye" id="resetEye1" type="button">👁</button>
+                        </div>
+                    </div>
+                    <div class="ob-field">
+                        <label>Repetir contraseña</label>
+                        <div class="ob-pwd-wrap">
+                            <input type="password" id="resetPwd2" placeholder="Repetí la contraseña" autocomplete="new-password">
+                            <button class="ob-eye" id="resetEye2" type="button">👁</button>
+                        </div>
+                    </div>
+                    <div class="ob-error hidden" id="resetErr"></div>
+                    <div class="ob-success hidden" id="resetOk">
+                        ✅ ¡Contraseña actualizada! Ya podés iniciar sesión.
+                    </div>
+                    <button class="ob-submit-btn" id="resetSubmitBtn">Guardar contraseña</button>
+                </div>
+            </div>
+        </div>`;
+    document.body.appendChild(overlay);
+
+    const toggle = (id, eyeId) => {
+        document.getElementById(eyeId).addEventListener('click', () => {
+            const i = document.getElementById(id);
+            i.type = i.type === 'password' ? 'text' : 'password';
+        });
+    };
+    toggle('resetPwd1', 'resetEye1');
+    toggle('resetPwd2', 'resetEye2');
+
+    document.getElementById('resetSubmitBtn').addEventListener('click', async () => {
+        const pwd1 = document.getElementById('resetPwd1').value;
+        const pwd2 = document.getElementById('resetPwd2').value;
+        const err  = document.getElementById('resetErr');
+        const ok   = document.getElementById('resetOk');
+        const btn  = document.getElementById('resetSubmitBtn');
+
+        if (!pwd1 || !pwd2)    return _obErr(err, 'Completá ambos campos.');
+        if (pwd1 !== pwd2)     return _obErr(err, 'Las contraseñas no coinciden.');
+        if (pwd1.length < 6)   return _obErr(err, 'Mínimo 6 caracteres.');
+
+        btn.disabled    = true;
+        btn.textContent = 'Guardando…';
+
+        try {
+            const res  = await fetch(`${API_BASE}/auth/reset-password`, {
+                method:  'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body:    JSON.stringify({ token, password: pwd1 })
+            });
+            const data = await res.json();
+            if (!res.ok) {
+                btn.disabled    = false;
+                btn.textContent = 'Guardar contraseña';
+                return _obErr(err, data.error || 'Error al restablecer.');
+            }
+            err.classList.add('hidden');
+            ok.classList.remove('hidden');
+            btn.classList.add('hidden');
+            // Limpiar token de la URL sin recargar
+            window.history.replaceState({}, '', '/');
+            // Redirigir al login después de 2s
+            setTimeout(() => {
+                overlay.remove();
+                showOnboarding(true);
+            }, 2000);
+        } catch {
+            btn.disabled    = false;
+            btn.textContent = 'Guardar contraseña';
+            _obErr(err, 'No se pudo conectar. Intentá de nuevo.');
+        }
+    });
 }

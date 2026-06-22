@@ -1,0 +1,446 @@
+[
+	{
+		"id": "en_A1_concept_01",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Verb 'to be' / Verbo 'to be' (essere/stare)",
+		"bridge": "In italiano, tu usi due verbi: 'essere' e 'stare'. In inglese, esiste un solo verbo: 'to be'. La buona notizia: viene usato per tutto ciò che in italiano sarebbe 'essere' o 'stare'. La cattiva notizia: devi ricordare che in inglese NON si omette MAI il soggetto (I, you, he, ecc.). Non puoi dire 'Is teacher' come in italiano 'È professore'. Hai sempre bisogno del pronome: 'He is a teacher'. Inoltre, ricorda: l'età si dice con 'to be' (I am 25), non con 'have' (I have 25 years).",
+		"rule": "Forme: I am, you are, he/she/it is, we are, you are, they are. Negativo: aggiungi 'not' (I am not, you are not / aren't, he is not / isn't). Domanda: inverti soggetto e verbo (Am I? Are you? Is he?). Usi: identità (I am Ana), professione (She is a doctor), nazionalità (We are Italian), posizione (The book is on the table), stato (I am tired), età (He is 30). Non omettere mai il soggetto.",
+		"common_error": {
+			"wrong": "Is teacher.",
+			"correct": "He is a teacher.",
+			"correct_alt": "She is a teacher.",
+			"explanation": "In italiano, puoi dire 'È professore' senza soggetto perché il verbo indica già la persona (terza persona). In inglese, il verbo 'to be' non cambia abbastanza (is può essere lui, lei, esso). Perciò hai sempre bisogno del pronome: 'He is a teacher'. Questo è l'errore più comune degli italofoni con 'to be'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "I am Ana.",
+				"translation": "Io sono Ana.",
+				"examples": [{ "original": "I am Ana.", "translation": "Io sono Ana.", "note": "Identità: essere. Il pronome 'I' sempre in maiuscolo." }]
+			},
+			{
+				"level": 2,
+				"label": "She is tired.",
+				"translation": "Lei è stanca.",
+				"examples": [{ "original": "She is tired.", "translation": "Lei è stanca.", "note": "Stato temporaneo: stare. Sempre con pronome + is." }]
+			},
+			{
+				"level": 3,
+				"label": "I am 25 years old.",
+				"translation": "Io ho 25 anni.",
+				"examples": [{ "original": "I am 25 years old.", "translation": "Io ho 25 anni.", "note": "In inglese, l'età si dice con 'to be', non con 'have' come in italiano." }]
+			}
+		],
+		"emoji": "⚖️",
+		"phonetic": "",
+		"translations": { "it": "verbo essere/stare" }
+	},
+	{
+		"id": "en_A1_concept_02",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Personal Pronouns / Pronomi personali",
+		"bridge": "In italiano hai: io, tu, lui, lei, Lei, noi, voi, loro, essi/esse. In inglese, i pronomi soggetto sono: I (io), you (tu/Lei/voi), he (lui – maschile), she (lei – femminile), it (esso/essa – per oggetti, animali, concetti), we (noi), they (loro). Due grandi differenze: 1) 'you' è uguale per singolare e plurale (non c'è differenza come tu/voi). 2) 'it' si usa per tutto ciò che non è una persona (oggetti, animali, idee). In italiano, usi 'lui' o 'lei' a seconda del genere dell'oggetto (il libro → lui, la casa → lei); in inglese è sempre 'it'. Il pronome soggetto non si omette mai.",
+		"rule": "Pronomi soggetto: I (1ª pers. sing.), you (2ª pers. sing./plur.), he (maschile umano), she (femminile umano), it (non umano: oggetti, animali, tempo, clima), we (1ª pers. plur.), they (3ª pers. plur.). Sempre prima del verbo. Esempi: 'I am a student' (Io sono studente), 'You are my friend' (Tu sei mio amico), 'He is a doctor' (Lui è medico), 'She is happy' (Lei è felice), 'It is a dog' (È un cane), 'We are Italian' (Noi siamo italiani), 'They are tired' (Loro sono stanchi).",
+		"common_error": {
+			"wrong": "My table is beautiful. She is beautiful.",
+			"correct": "My table is beautiful. It is beautiful.",
+			"correct_alt": "",
+			"explanation": "In italiano, 'tavolo' è maschile, quindi diresti 'lui è bello'. In inglese, gli oggetti non hanno genere: si usa 'it' per tutto ciò che non è una persona o un animale domestico conosciuto. Non dire mai 'she' per un tavolo o 'he' per una penna. 'It' è sempre il pronome per le cose."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "I am / You are / He is",
+				"translation": "Io sono / Tu sei / Lui è",
+				"examples": [{ "original": "I am a student.", "translation": "Io sono uno studente.", "note": "I = io" }, { "original": "You are my friend.", "translation": "Tu sei mio amico.", "note": "You = tu/Lei/voi" }, { "original": "He is a doctor.", "translation": "Lui è un dottore.", "note": "He = uomo" }]
+			},
+			{
+				"level": 2,
+				"label": "It is a dog.",
+				"translation": "È un cane.",
+				"examples": [{ "original": "It is a dog.", "translation": "È un cane.", "note": "It = per animali e oggetti." }]
+			},
+			{
+				"level": 3,
+				"label": "They are happy.",
+				"translation": "Loro sono felici.",
+				"examples": [{ "original": "They are happy.", "translation": "Loro sono felici.", "note": "They = maschile, femminile o misto. Non differenzia il genere." }]
+			}
+		],
+		"emoji": "👥",
+		"phonetic": "",
+		"translations": { "it": "pronomi personali" }
+	},
+	{
+		"id": "en_A1_concept_03",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Articles: a, an, the / Articoli",
+		"bridge": "In italiano hai articoli indeterminativi (un, uno, una, un') e determinativi (il, lo, la, i, gli, le). In inglese è più semplice: 'the' (determinativo, per tutto: il, lo, la, i, gli, le) e 'a' o 'an' (indeterminativo, per un, uno, una). La grande differenza: in inglese NON usi l'articolo con le professioni quando dici cosa fai: 'I am teacher' è sbagliato, devi dire 'I am A teacher'. In italiano dici 'Sono professore' senza articolo. Inoltre non si usa 'the' per parlare in generale: 'The life is beautiful' è sbagliato (il corretto è 'Life is beautiful').",
+		"rule": "'A' si usa prima di parole che iniziano con suono consonantico (a car, a house). 'An' si usa prima di suono vocalico (an apple, an hour – la 'h' non si pronuncia). 'The' si usa per qualcosa di specifico che l'ascoltatore già conosce (the sun, the book on the table). Nessun articolo per generalizzazioni (Life is hard), pasti in generale (I like bread). Importante: con professioni e religioni SIEMPRE 'a' o 'an': 'She is a teacher', 'He is an engineer', 'I am a Catholic'.",
+		"common_error": {
+			"wrong": "I am teacher.",
+			"correct": "I am a teacher.",
+			"correct_alt": "",
+			"explanation": "In italiano dici 'Sono professore' senza articolo. In inglese, quando parli della tua professione o di ciò che sei, hai bisogno dell'articolo indeterminativo 'a' o 'an'. 'I am teacher' è incorretto. Si omette solo per titoli unici come presidente di un paese: 'He is president' (molto specifico). Per il 99% dei casi, usa 'a'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "a dog / an apple",
+				"translation": "un cane / una mela",
+				"examples": [{ "original": "a dog", "translation": "un cane", "note": "a + consonante" }, { "original": "an apple", "translation": "una mela", "note": "an + vocale" }]
+			},
+			{
+				"level": 2,
+				"label": "the sun",
+				"translation": "il sole",
+				"examples": [{ "original": "The sun is hot.", "translation": "Il sole è caldo.", "note": "the = specifico (unico)" }]
+			},
+			{
+				"level": 3,
+				"label": "Life is beautiful.",
+				"translation": "La vita è bella.",
+				"examples": [{ "original": "Life is beautiful.", "translation": "La vita è bella.", "note": "Senza 'the' per generalizzazioni. Non dire 'The life is beautiful'." }]
+			}
+		],
+		"emoji": "📌",
+		"phonetic": "",
+		"translations": { "it": "articoli (a, an, the)" }
+	},
+	{
+		"id": "en_A1_concept_04",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Plurals: regular and irregular / Plurali: regolari e irregolari",
+		"bridge": "In italiano formi il plurale cambiando la desinenza: casa → case, gatto → gatti. In inglese è diverso: la maggior parte delle parole aggiunge -s (cat → cats, dog → dogs). Ma ci sono regole aggiuntive: parole che finiscono in -s, -ss, -sh, -ch, -x aggiungono -es (bus → buses, box → boxes). Parole che finiscono in consonante + -y cambiano la -y in -ies (baby → babies). E soprattutto: molte parole comuni hanno plurali irregolari che devi memorizzare! (man → men, woman → women, child → children, foot → feet, tooth → teeth, person → people). L'errore tipico degli italofoni è aggiungere -s a tutto o cambiare la vocale finale come in italiano ('student' → 'studenti' in italiano, ma in inglese dicono 'studentis' o lasciano invariato).",
+		"rule": "Regole regolari: 1) Aggiungi -s: cat → cats. 2) Terminazione in -s, -ss, -sh, -ch, -x aggiunge -es: bus → buses, watch → watches, box → boxes. 3) Consonante + -y → -ies: baby → babies (ma vocale + -y solo -s: boy → boys). 4) Terminazione in -f o -fe → -ves: knife → knives, wolf → wolves (eccezioni: roof → roofs). Plurali irregolari più comuni: man → men, woman → women, child → children, foot → feet, tooth → teeth, mouse → mice, person → people, ox → oxen. Parole che non cambiano: sheep → sheep, fish → fish, deer → deer.",
+		"common_error": {
+			"wrong": "I have two childs.",
+			"correct": "I have two children.",
+			"correct_alt": "",
+			"explanation": "In italiano, 'child' si traduce con 'bambino' e il plurale regolare sarebbe 'bambini' (cambia desinenza). In inglese, 'child' è irregolare: il suo plurale è 'children'. Aggiungere -s ('childs') è l'errore più comune. Altri errori frequenti: 'foots' (feet), 'mans' (men), 'womans' (women). Impara gli irregolari a memoria."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "one cat / two cats",
+				"translation": "un gatto / due gatti",
+				"examples": [{ "original": "one cat", "translation": "un gatto", "note": "singolare" }, { "original": "two cats", "translation": "due gatti", "note": "plurale regolare (+s)" }]
+			},
+			{
+				"level": 2,
+				"label": "a baby / many babies",
+				"translation": "un bebè / molti bebè",
+				"examples": [{ "original": "a baby", "translation": "un bebè", "note": "singolare" }, { "original": "many babies", "translation": "molti bebè", "note": "consonante + y → -ies" }]
+			},
+			{
+				"level": 3,
+				"label": "one man / two men",
+				"translation": "un uomo / due uomini",
+				"examples": [{ "original": "one man", "translation": "un uomo", "note": "irregolare" }, { "original": "two men", "translation": "due uomini", "note": "man → men" }, { "original": "one child / two children", "translation": "un bambino / due bambini", "note": "child → children" }, { "original": "one foot / two feet", "translation": "un piede / due piedi", "note": "foot → feet" }]
+			}
+		],
+		"emoji": "🔢",
+		"phonetic": "",
+		"translations": { "it": "plurali regolari e irregolari" }
+	},
+	{
+		"id": "en_A1_concept_05",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Present Simple / Presente semplice",
+		"bridge": "In italiano, usi il presente per tutto: 'mangio' (ora o sempre). In inglese, ci sono due presenti: present simple (I eat) per abitudini, routine e verità generali, e present continuous (I am eating) per ciò che sta accadendo ora. Il problema: alla terza persona (he, she, it), devi aggiungere -s al verbo: 'he eats'. In italiano questo non succede ('lui mangia' non aggiunge -s). Inoltre, per domande e negazioni, hai bisogno dell'ausiliare 'do' (I do not eat, Do you eat?). Questo è nuovo per te, perché in italiano usi solo l'intonazione o aggiungi 'non'.",
+		"rule": "Forma affermativa: I eat, you eat, he/she/it eats (aggiungi -s o -es), we eat, you eat, they eat. Regole della -s: uguali ai plurali (eat → eats, watch → watches, study → studies). Forma negativa: I do not eat (I don't eat), he does not eat (he doesn't eat). ATTENZIONE: il verbo principale torna alla forma base (senza -s). Forma interrogativa: Do you eat? Does he eat? (il verbo torna alla forma base). Usi: routine quotidiane (I wake up at 7), abitudini (She plays tennis), verità generali (Water boils at 100°C).",
+		"common_error": {
+			"wrong": "He eat breakfast every day.",
+			"correct": "He eats breakfast every day.",
+			"correct_alt": "",
+			"explanation": "In italiano, la terza persona non cambia: 'lui mangia' – il verbo 'mangiare' ha già la desinenza -a che indica la persona. In inglese, devi aggiungere -s al verbo per he, she, it. 'He eat' è scorretto; sempre 'he eats'. Inoltre, è comune dimenticare l'ausiliare nelle negazioni: 'He no eat' → corretto 'He doesn't eat'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "I eat / You eat / He eats",
+				"translation": "Io mangio / Tu mangi / Lui mangia",
+				"examples": [{ "original": "I eat an apple.", "translation": "Io mangio una mela.", "note": "I + verbo base" }, { "original": "You eat pizza.", "translation": "Tu mangi la pizza.", "note": "You + verbo base" }, { "original": "He eats pasta.", "translation": "Lui mangia la pasta.", "note": "He + verbo con -s" }]
+			},
+			{
+				"level": 2,
+				"label": "I don't eat / She doesn't eat",
+				"translation": "Io non mangio / Lei non mangia",
+				"examples": [{ "original": "I don't eat meat.", "translation": "Io non mangio carne.", "note": "don't = do not" }, { "original": "She doesn't eat fish.", "translation": "Lei non mangia pesce.", "note": "doesn't = does not; il verbo perde la -s" }]
+			},
+			{
+				"level": 3,
+				"label": "Do you like coffee? / Does she work here?",
+				"translation": "Ti piace il caffè? / Lei lavora qui?",
+				"examples": [{ "original": "Do you like coffee?", "translation": "Ti piace il caffè?", "note": "Do + soggetto + verbo base" }, { "original": "Does she work here?", "translation": "Lei lavora qui?", "note": "Does + soggetto + verbo base (senza -s)" }]
+			}
+		],
+		"emoji": "⏰",
+		"phonetic": "",
+		"translations": { "it": "presente semplice" }
+	},
+	{
+		"id": "en_A1_concept_06",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Adverbs of frequency / Avverbi di frequenza",
+		"bridge": "In italiano, metti gli avverbi di frequenza (sempre, a volte, mai) generalmente dopo il verbo o alla fine: 'Mangio sempre la pizza', 'Gioco a tennis qualche volta'. In inglese, la posizione è diversa: gli avverbi di frequenza vanno PRIMA del verbo principale (I always eat pizza), ma DOPO il verbo 'to be' (I am always happy). Questo è molto importante. Gli avverbi più comuni sono: always (sempre), usually (di solito), often (spesso), sometimes (qualche volta), rarely (raramente), never (mai). L'errore tipico è metterli alla fine della frase, come in italiano.",
+		"rule": "Regola di posizione: 1) Con verbi normali: avverbio PRIMA del verbo (I always eat breakfast, She never drinks coffee). 2) Con il verbo 'to be' (am/is/are): avverbio DOPO il verbo (I am always tired, He is never late). 3) Nelle domande: l'avverbio va dopo il soggetto (Do you always eat here?). Ordine di frequenza: always (100%) > usually (90%) > often (70%) > sometimes (50%) > rarely (10%) > never (0%). 'Sometimes' può anche andare all'inizio o alla fine: 'Sometimes I walk' o 'I walk sometimes'.",
+		"common_error": {
+			"wrong": "I eat always pizza.",
+			"correct": "I always eat pizza.",
+			"correct_alt": "",
+			"explanation": "In italiano dici 'Io mangio sempre la pizza' (avverbio dopo il verbo). In inglese, l'avverbio di frequenza deve andare PRIMA del verbo principale. 'I always eat pizza' è la forma corretta. Questo errore è molto comune perché trasferisci la posizione italiana. Ricorda: soggetto + avverbio + verbo."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "I always run.",
+				"translation": "Io corro sempre.",
+				"examples": [{ "original": "I always run.", "translation": "Io corro sempre.", "note": "avverbio (always) prima del verbo (run)" }]
+			},
+			{
+				"level": 2,
+				"label": "She is never late.",
+				"translation": "Lei non è mai in ritardo.",
+				"examples": [{ "original": "She is never late.", "translation": "Lei non è mai in ritardo.", "note": "con 'to be', avverbio dopo il verbo" }]
+			},
+			{
+				"level": 3,
+				"label": "Sometimes I walk / I sometimes walk",
+				"translation": "Qualche volta cammino / Io qualche volta cammino",
+				"examples": [{ "original": "Sometimes I walk to work.", "translation": "Qualche volta vado al lavoro a piedi.", "note": "'sometimes' può andare all'inizio." }, { "original": "I sometimes walk to work.", "translation": "Io qualche volta vado al lavoro a piedi.", "note": "o prima del verbo." }]
+			}
+		],
+		"emoji": "📅",
+		"phonetic": "",
+		"translations": { "it": "avverbi di frequenza" }
+	},
+	{
+		"id": "en_A1_concept_07",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Have got / Has got (avere)",
+		"bridge": "In italiano, usi il verbo 'avere' per tutto: ho un cane, ho fame, ho 25 anni. In inglese, ci sono due modi per dire 'avere': 'have' e 'have got'. Sono quasi uguali, ma 'have got' è più comune nell'inglese britannico e nel parlato. La struttura è diversa: 'I have a dog' è come in italiano (soggetto + verbo + oggetto). 'I have got a dog' significa la stessa cosa, e si usa soprattutto per il possesso. Il problema è che gli italofoni spesso dimenticano il 'got' e dicono 'I have a dog' (che è giusto) ma poi confondono la negazione e la domanda. Ricorda anche: in inglese l'età NON si dice con 'have' o 'have got', ma con 'to be' (I am 25). Lo stesso vale per fame, sete, caldo: 'to be hungry/thirsty/hot'.",
+		"rule": "'Have got' si usa solo al presente. Affermativo: I have got (I've got), you have got, he has got (he's got), she has got, it has got, we have got, they have got. Negativo: I have not got (haven't got), he has not got (hasn't got). Domanda: Have you got? Has she got? Importante: nella negazione e nella domanda NON si usa 'do/does' (non dire 'Do you have got?'). 'Have got' si usa per: possesso (I've got a car), relazioni (She's got two brothers), caratteristiche (He's got blue eyes), malattie (I've got a headache). Non si usa per esperienze (I've got breakfast? No, 'I have breakfast'), né per obblighi (devo = I have to).",
+		"common_error": {
+			"wrong": "I have 25 years.",
+			"correct": "I am 25 years old.",
+			"correct_alt": "I'm 25.",
+			"explanation": "In italiano, dici 'Ho 25 anni' con 'avere'. In inglese, l'età si dice con il verbo 'to be' (essere): 'I am 25 years old'. Usare 'have' o 'have got' per l'età è un errore classico. Anche 'avere fame' si dice 'to be hungry' (I am hungry), 'avere sete' → 'to be thirsty', 'avere caldo' → 'to be hot'. Non usare mai 'have' per età o sensazioni."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "I've got a dog.",
+				"translation": "Io ho un cane.",
+				"examples": [{ "original": "I've got a dog.", "translation": "Io ho un cane.", "note": "I've got = I have got (possesso)" }]
+			},
+			{
+				"level": 2,
+				"label": "She hasn't got a car.",
+				"translation": "Lei non ha una macchina.",
+				"examples": [{ "original": "She hasn't got a car.", "translation": "Lei non ha una macchina.", "note": "hasn't got = has not got (negazione senza do/does)" }]
+			},
+			{
+				"level": 3,
+				"label": "Have you got any brothers?",
+				"translation": "Hai fratelli?",
+				"examples": [{ "original": "Have you got any brothers?", "translation": "Hai fratelli?", "note": "Domanda: Have + soggetto + got? (senza do/does)" }, { "original": "Yes, I've got two brothers.", "translation": "Sì, ho due fratelli.", "note": "Risposta affermativa" }]
+			}
+		],
+		"emoji": "🐕",
+		"phonetic": "",
+		"translations": { "it": "avere (have got / has got)" }
+	},
+	{
+		"id": "en_A1_concept_08",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Prepositions of place / Preposizioni di luogo (in, on, under, next to)",
+		"bridge": "In italiano, usi preposizioni come 'in', 'su', 'sotto', 'accanto a'. In inglese è molto simile: 'in' (in/dentro), 'on' (su), 'under' (sotto), 'next to' (accanto a). La difficoltà principale è che in italiano 'in' e 'su' a volte si confondono (il libro è sul tavolo vs nella scatola). In inglese devi distinguere chiaramente: 'in' per spazi chiusi, 'on' per superfici. L'errore tipico degli italofoni è usare 'in' per tutto, dicendo 'the book is in the table' invece di 'on the table'. Anche per i trasporti: in italiano dici 'in macchina' e 'sull'autobus' (simile a 'in the car' e 'on the bus'), quindi è un facilitatore, ma a volte confondono 'in' per mezzi pubblici grandi.",
+		"rule": "In: dentro uno spazio chiuso o luogo geografico (in the room, in the box, in Rome, in the car). On: su una superficie (on the table, on the floor, on the wall, on the bus/train/plane – per i trasporti pubblici grandi). Under: sotto (under the bed, under the chair). Next to: accanto a (next to the bank, next to the school). Between: tra due cose (between the two chairs). Behind: dietro (behind the door). In front of: davanti a (in front of the house). Ricorda: 'in the car' (auto piccola), ma 'on the bus' (trasporto pubblico).",
+		"common_error": {
+			"wrong": "The book is in the table.",
+			"correct": "The book is on the table.",
+			"correct_alt": "",
+			"explanation": "In italiano diresti 'Il libro è sul tavolo' con 'su', non 'in'. Ma alcuni italofoni usano 'in' per tutto, calando l'italiano 'nel tavolo' che è sbagliato anche in italiano. In inglese, una superficie richiede 'on'. 'In the table' significherebbe 'dentro il tavolo' (se avesse un cassetto). Questo è un errore comune. Ricorda: superfici = on; spazi chiusi = in."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "in the box / on the table",
+				"translation": "nella scatola / sul tavolo",
+				"examples": [{ "original": "The cat is in the box.", "translation": "Il gatto è nella scatola.", "note": "in = dentro" }, { "original": "The book is on the table.", "translation": "Il libro è sul tavolo.", "note": "on = superficie" }]
+			},
+			{
+				"level": 2,
+				"label": "under the chair / next to the bed",
+				"translation": "sotto la sedia / accanto al letto",
+				"examples": [{ "original": "The ball is under the chair.", "translation": "La palla è sotto la sedia.", "note": "under = sotto" }, { "original": "The lamp is next to the bed.", "translation": "La lampada è accanto al letto.", "note": "next to = accanto" }]
+			},
+			{
+				"level": 3,
+				"label": "I'm in the car. / I'm on the bus.",
+				"translation": "Sono in macchina. / Sono sull'autobus.",
+				"examples": [{ "original": "I'm in the car.", "translation": "Sono in macchina.", "note": "in per auto piccola" }, { "original": "I'm on the bus.", "translation": "Sono sull'autobus.", "note": "on per trasporto pubblico grande" }]
+			}
+		],
+		"emoji": "📍",
+		"phonetic": "",
+		"translations": { "it": "preposizioni di luogo" }
+	},
+	{
+		"id": "en_A1_concept_09",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Demonstratives: this, that, these, those / Dimostrativi",
+		"bridge": "In italiano, hai tre livelli di distanza: 'questo' (vicino), 'codesto' (raro), 'quello' (lontano). In inglese, solo due: 'this' (vicino) e 'that' (lontano). Hanno anche i plurali: 'these' (questi/queste – vicino) e 'those' (quelli/quelle – lontano). La buona notizia: è più semplice dell'italiano! La cattiva notizia: devi ricordare che 'this' e 'these' sono per ciò che è vicino (spazio o tempo), 'that' e 'those' per ciò che è lontano. L'errore tipico degli italofoni è usare 'this' per tutto, oppure confondere 'this' (singolare) con 'these' (plurale). Inoltre, a volte usano 'that' per riferirsi a persone, mentre in inglese si usa 'he/she'.",
+		"rule": "This (singolare, vicino): this book (questo libro), this car (questa macchina). These (plurale, vicino): these books (questi libri), these cars (queste macchine). That (singolare, lontano): that house (quella casa), that man (quell'uomo). Those (plurale, lontano): those houses (quelle case), those men (quegli uomini). Si usano anche per presentare qualcuno: 'This is my friend, Anna'. In inglese si usa 'this' per presentare persone (singolare) e 'these' per plurale.",
+		"common_error": {
+			"wrong": "This books are new.",
+			"correct": "These books are new.",
+			"correct_alt": "",
+			"explanation": "In italiano dici 'questi libri sono nuovi' – 'questi' è plurale. In inglese, 'this' è singolare, 'these' è plurale. Dire 'this books' mescola un singolare (this) con un plurale (books). Deve esserci concordanza: this + singolare, these + plurale. È un errore molto comune. Un altro errore: 'I like this' (indicando qualcosa di lontano) – devi usare 'that'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "this / that",
+				"translation": "questo / quello",
+				"examples": [{ "original": "This is my pen.", "translation": "Questa è la mia penna (vicino).", "note": "this = vicino" }, { "original": "That is your book.", "translation": "Quello è il tuo libro (lontano).", "note": "that = lontano" }]
+			},
+			{
+				"level": 2,
+				"label": "these / those",
+				"translation": "questi, queste / quelli, quelle",
+				"examples": [{ "original": "These are my keys.", "translation": "Queste sono le mie chiavi (vicino).", "note": "these = plurale vicino" }, { "original": "Those are your shoes.", "translation": "Quelle sono le tue scarpe (lontano).", "note": "those = plurale lontano" }]
+			},
+			{
+				"level": 3,
+				"label": "This is my friend, Maria.",
+				"translation": "Questa è la mia amica, Maria.",
+				"examples": [{ "original": "This is my friend, Maria.", "translation": "Questa è la mia amica, Maria.", "note": "per presentare persone (singolare)" }, { "original": "These are my parents.", "translation": "Questi sono i miei genitori.", "note": "per presentare persone (plurale)" }]
+			}
+		],
+		"emoji": "👇",
+		"phonetic": "",
+		"translations": { "it": "dimostrativi (this, that, these, those)" }
+	},
+	{
+		"id": "en_A1_concept_10",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Can / Potere (abilità e permesso)",
+		"bridge": "In italiano, usi il verbo 'potere' per dire che sai fare qualcosa (posso nuotare) o che hai il permesso (posso entrare). In inglese, si usa 'can' per entrambi. La grande differenza: 'can' è un verbo modale: non ha bisogno di 'to' dopo, e nelle negazioni e domande non usa 'do/does'. In italiano dici 'Io posso nuotare', in inglese 'I can swim' (senza 'to'). L'errore tipico degli italofoni è aggiungere 'to' dopo 'can' perché in italiano l'infinito (nuotare) è una parola sola, ma in inglese l'infinito ha 'to' (to swim). Tuttavia, dopo 'can' NON si usa MAI 'to'. Inoltre, dimenticano che 'can' non aggiunge 's' alla terza persona: 'he can' (non 'he cans').",
+		"rule": "'Can' è invariabile: I can, you can, he can, she can, it can, we can, they can (senza -s alla terza persona). Negativo: cannot (una parola) o la contrazione can't. Domanda: Can I? Can you? Can he? (inversione, senza 'do'). Usi: 1) Abilità (saper fare): 'I can swim' (So nuotare). 2) Permesso (potere): 'Can I go to the bathroom?' (Posso andare in bagno?). 3) Possibilità: 'It can be cold here' (Può fare freddo qui). Dopo 'can', usa sempre il verbo all'infinito SENZA 'to': 'can play', non 'can to play'.",
+		"common_error": {
+			"wrong": "I can to swim.",
+			"correct": "I can swim.",
+			"correct_alt": "",
+			"explanation": "In italiano dici 'posso nuotare' – 'nuotare' è all'infinito. In inglese, l'infinito si forma con 'to' (to swim). Tuttavia, dopo 'can' NON si usa MAI 'to'. Questo è un errore molto comune perché traduci letteralmente 'potere + infinito' come 'can + to + verbo'. Ricorda: 'can' + verbo senza 'to'. Inoltre, è comune dire 'he cans' – no, 'can' non aggiunge 's'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "I can run.",
+				"translation": "So correre / Posso correre.",
+				"examples": [{ "original": "I can run.", "translation": "So correre.", "note": "can + verbo senza 'to'" }]
+			},
+			{
+				"level": 2,
+				"label": "Can you help me?",
+				"translation": "Puoi aiutarmi?",
+				"examples": [{ "original": "Can you help me?", "translation": "Puoi aiutarmi?", "note": "Domanda: Can + soggetto + verbo?" }]
+			},
+			{
+				"level": 3,
+				"label": "She can't speak French.",
+				"translation": "Lei non sa parlare francese / non può parlare francese.",
+				"examples": [{ "original": "She can't speak French.", "translation": "Lei non sa parlare francese.", "note": "Negativo: can't = cannot" }]
+			}
+		],
+		"emoji": "💪",
+		"phonetic": "",
+		"translations": { "it": "potere (can)" }
+	},
+	{
+		"id": "en_A1_concept_11",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "Wh- questions / Domande con wh- (what, where, who, when)",
+		"bridge": "In italiano, fai domande con parole come cosa, dove, chi, quando, perché, come. In inglese sono molto simili: what (che/cosa), where (dove), who (chi), when (quando), why (perché), how (come). La struttura della domanda è quasi uguale all'italiano: parola wh- + verbo ausiliare + soggetto + verbo principale. Per esempio: 'Dov'è la stazione?' → 'Where is the station?' (wh- + verbo to be + soggetto). Ma con i verbi normali al present simple, l'inglese ha bisogno dell'ausiliare 'do/does': 'Cosa mangi?' → 'What do you eat?' (wh- + do + soggetto + verbo). L'errore tipico degli italofoni è dimenticare l'ausiliare 'do/does' e dire 'What you eat?', oppure usare l'inversione come in italiano ('Eat you?').",
+		"rule": "Struttura: Parola wh- + ausiliare + soggetto + verbo principale? Ausiliari in base al tempo verbale: Present simple (verbi normali) → do/does. Verbo 'to be' → am/is/are. 'Can' → can. Esempi: 'What do you eat?' (Cosa mangi?), 'Where does she live?' (Dove vive lei?), 'Who is that man?' (Chi è quell'uomo?), 'When can you come?' (Quando puoi venire?), 'Why are you tired?' (Perché sei stanco?), 'How do I get to the station?' (Come arrivo alla stazione?). Ricorda: con 'does', il verbo principale torna alla forma base (senza -s).",
+		"common_error": {
+			"wrong": "What you like?",
+			"correct": "What do you like?",
+			"correct_alt": "",
+			"explanation": "In italiano dici 'Cosa ti piace?' senza ausiliare (solo intonazione o inversione 'cosa piace a te?'). In inglese, al present simple con verbi normali (like, eat, live, ecc.), le domande con 'what, where, when, how' hanno bisogno dell'ausiliare 'do' (o 'does' per he/she/it). 'What you like?' è un calco dall'italiano ed è sbagliato. Il corretto è 'What do you like?'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "What / Where / Who",
+				"translation": "Cosa / Dove / Chi",
+				"examples": [{ "original": "What is your name?", "translation": "Qual è il tuo nome?", "note": "What + verbo to be" }, { "original": "Where is the station?", "translation": "Dove è la stazione?", "note": "Where + is" }, { "original": "Who is she?", "translation": "Chi è lei?", "note": "Who + is" }]
+			},
+			{
+				"level": 2,
+				"label": "What do you do? / Where does she live?",
+				"translation": "Cosa fai? / Dove vive lei?",
+				"examples": [{ "original": "What do you do?", "translation": "Cosa fai? / Che lavoro fai?", "note": "What + do + soggetto" }, { "original": "Where does she live?", "translation": "Dove vive lei?", "note": "Where + does + soggetto + verbo (senza -s)" }]
+			},
+			{
+				"level": 3,
+				"label": "Why are you sad? / When can we eat?",
+				"translation": "Perché sei triste? / Quando possiamo mangiare?",
+				"examples": [{ "original": "Why are you sad?", "translation": "Perché sei triste?", "note": "Why + verbo to be" }, { "original": "When can we eat?", "translation": "Quando possiamo mangiare?", "note": "When + can + soggetto" }]
+			}
+		],
+		"emoji": "❓",
+		"phonetic": "",
+		"translations": { "it": "domande con wh-" }
+	},
+	{
+		"id": "en_A1_concept_12",
+		"type": "concept",
+		"category": "Gramática",
+		"title": "There is / There are (esserci / esistere)",
+		"bridge": "In italiano, usi il verbo 'esserci' per dire che qualcosa esiste: 'C'è un cane in giardino', 'Ci sono molte case'. In inglese, si usa 'there is' (singolare) e 'there are' (plurale). Non si usa 'have' per questo. L'errore tipico degli italofoni è tradurre letteralmente 'c'è' come 'have' o 'it has', dicendo 'In my house have a garden' invece di 'There is a garden in my house'. In italiano non si dice 'ha un giardino' per 'c'è un giardino', ma a volte si usa 'c'è' con 'avere' in modo informale? No, 'c'è' è già 'esserci'. La confusione arriva dal fatto che in inglese 'have' significa 'possedere', non 'esistere'.",
+		"rule": "Affermativo singolare: There is + sostantivo singolare (There is a cat). Contrazione: There's. Affermativo plurale: There are + sostantivo plurale (There are two cats). Negativo singolare: There is not (There isn't) + singolare. Negativo plurale: There are not (There aren't) + plurale. Domanda singolare: Is there...? (Is there a problem?). Domanda plurale: Are there...? (Are there any problems?). Uso: per parlare dell'esistenza o posizione di qualcosa per la prima volta. Non si usa per il possesso (per quello si usa 'have'). 'There is/there are' concorda con il primo sostantivo dopo il verbo: 'There is a book and two pens' (singolare perché 'a book' è singolare).",
+		"common_error": {
+			"wrong": "In my house have a garden.",
+			"correct": "There is a garden in my house.",
+			"correct_alt": "My house has a garden.",
+			"explanation": "In italiano, per esprimere esistenza dici 'C'è un giardino nella mia casa' con il verbo 'esserci'. In inglese, 'c'è' si traduce con 'there is/are' – non con 'have'. 'Have' indica possesso. Dire 'In my house have a garden' è un calcolo sbagliato (letteralmente 'nella mia casa avere un giardino'). La forma corretta è 'There is a garden in my house'. La variante 'My house has a garden' è grammaticalmente corretta ma significa 'La mia casa ha un giardino' (possesso), che è accettabile ma meno naturale per l'esistenza. Per 'c'è', usa sempre 'there is/are'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "There is a cat.",
+				"translation": "C'è un gatto.",
+				"examples": [{ "original": "There is a cat.", "translation": "C'è un gatto.", "note": "singolare → there is" }]
+			},
+			{
+				"level": 2,
+				"label": "There are three dogs.",
+				"translation": "Ci sono tre cani.",
+				"examples": [{ "original": "There are three dogs.", "translation": "Ci sono tre cani.", "note": "plurale → there are" }]
+			},
+			{
+				"level": 3,
+				"label": "Is there a supermarket? / There aren't any eggs.",
+				"translation": "C'è un supermercato? / Non ci sono uova.",
+				"examples": [{ "original": "Is there a supermarket?", "translation": "C'è un supermercato?", "note": "domanda singolare: is there?" }, { "original": "There aren't any eggs.", "translation": "Non ci sono uova.", "note": "negativo plurale: there aren't any" }]
+			}
+		],
+		"emoji": "🏠",
+		"phonetic": "",
+		"translations": { "it": "there is / there are (esserci)" }
+	}
+]

@@ -1,0 +1,218 @@
+[
+	{
+		"id": "es_A1_concept_01",
+		"type": "concept",
+		"title": "Ser vs Estar",
+		"bridge": "Im Deutschen gibt es nur ein Verb für beide Bedeutungen: 'sein'. Du sagst 'Ich bin müde' und 'Ich bin Berliner' – beides mit 'bin'. Im Spanischen musst du zwei verschiedene Verben verwenden: 'ser' für Eigenschaften, die dauerhaft sind (Herkunft, Beruf, Identität) und 'estar' für Zustände, die sich ändern können (Befindlichkeit, Ort, momentane Eigenschaften). Denke an 'ser' als 'so bin ich im Wesentlichen' und 'estar' als 'so bin ich gerade jetzt'.",
+		"rule": "Ser: für Identität (Soy Ana), Herkunft (Soy de Berlín), Beruf (Soy profesor), unveränderliche Eigenschaften (El cielo es azul). Estar: für Ort (El banco está aquí), Befindlichkeit (Estoy cansado), momentane Zustände (La sopa está fría). Eine Eselsbrücke: Wie geht's dir? Estoy bien (Zustand). Wer bist du? Soy Ana (Wesen).",
+		"common_error": {
+			"wrong": "Soy cansado.",
+			"correct": "Estoy cansado.",
+			"correct_alt": "",
+			"explanation": "Du übersetzt wörtlich 'ich bin müde' mit 'soy cansado', weil im Deutschen 'bin' für beides steht. 'Müde sein' ist ein veränderlicher Zustand – im Spanischen verwendet man dafür 'estar'. 'Soy cansado' würde bedeuten 'ich bin ein müder Mensch' (dauerhafte Eigenschaft), was seltsam klingt."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Soy Ana.",
+				"translation": "Ich bin Ana.",
+				"examples": [{ "original": "Soy Ana.", "translation": "Ich bin Ana.", "note": "Identität (dauerhaft) → ser" }]
+			},
+			{
+				"level": 2,
+				"label": "Estoy en casa.",
+				"translation": "Ich bin zu Hause.",
+				"examples": [{ "original": "Estoy en casa.", "translation": "Ich bin zu Hause.", "note": "Ort (vorübergehend) → estar" }]
+			},
+			{
+				"level": 3,
+				"label": "Soy alto, pero hoy estoy cansado.",
+				"translation": "Ich bin groß, aber heute bin ich müde.",
+				"examples": [{ "original": "Soy alto, pero hoy estoy cansado.", "translation": "Ich bin groß, aber heute bin ich müde.", "note": "Kontrast: dauerhafte Eigenschaft (ser) vs. momentaner Zustand (estar)." }]
+			}
+		],
+		"emoji": "⚖️",
+		"phonetic": "",
+		"translations": { "de": "sein – zwei Verben" }
+	},
+	{
+		"id": "es_A1_concept_02",
+		"type": "concept",
+		"title": "Artículos definidos e indefinidos: el, la, un, una",
+		"bridge": "Im Deutschen hast du drei Artikel: der, die, das. Im Spanischen gibt es nur zwei Geschlechter: männlich (el, un) und weiblich (la, una). Der größte Unterschied: Im Deutschen ist der Artikel oft anders als im Spanischen – 'das Mädchen' (neutrum) wird im Spanischen zu 'la niña' (weiblich). Du musst jedes Wort mit seinem spanischen Artikel lernen. Außerdem: Bei Berufen und Nationalitäten lässt man im Spanischen den unbestimmten Artikel weg: 'Soy profesor' (nicht 'un profesor').",
+		"rule": "El (männlich, bestimmt): el libro, el hombre. La (weiblich, bestimmt): la casa, la mujer. Un (männlich, unbestimmt): un perro. Una (weiblich, unbestimmt): una mesa. Merke: Die meisten Wörter, die auf -o enden, sind männlich (el libro), auf -a weiblich (la casa). Ausnahmen: el día (männlich), la mano (weiblich). Kein 'un' vor Beruf: Soy médico (nicht 'un médico').",
+		"common_error": {
+			"wrong": "Soy un profesor.",
+			"correct": "Soy profesor.",
+			"correct_alt": "",
+			"explanation": "Im Deutschen sagst du 'ich bin ein Lehrer' mit unbestimmtem Artikel. Im Spanischen wird der Artikel bei Berufen, Nationalitäten und Religionen weggelassen, wenn keine nähere Beschreibung folgt. Du sagst 'Soy profesor', 'Soy alemán', 'Soy católico'. Nur mit Adjektiv davor: 'Soy un buen profesor' (dann mit Artikel)."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "el perro / la casa",
+				"translation": "der Hund / das Haus",
+				"examples": [{ "original": "el perro", "translation": "der Hund", "note": "männlicher Artikel" }, { "original": "la casa", "translation": "das Haus", "note": "weiblicher Artikel" }]
+			},
+			{
+				"level": 2,
+				"label": "un amigo / una amiga",
+				"translation": "ein Freund / eine Freundin",
+				"examples": [{ "original": "un amigo", "translation": "ein Freund", "note": "unbestimmt männlich" }, { "original": "una amiga", "translation": "eine Freundin", "note": "unbestimmt weiblich" }]
+			},
+			{
+				"level": 3,
+				"label": "Soy estudiante, no un estudiante cualquiera.",
+				"translation": "Ich bin Student, nicht irgendein Student.",
+				"examples": [{ "original": "Soy estudiante, no un estudiante cualquiera.", "translation": "Ich bin Student, nicht irgendein Student.", "note": "Beruf ohne Artikel, aber mit Beschreibung ('un estudiante cualquiera') dann mit Artikel." }]
+			}
+		],
+		"emoji": "📚",
+		"phonetic": "",
+		"translations": { "de": "bestimmte/unbestimmte Artikel" }
+	},
+	{
+		"id": "es_A1_concept_03",
+		"type": "concept",
+		"title": "Verbos reflexivos (me llamo, me levanto)",
+		"bridge": "Reflexive Verben gibt es auch im Deutschen: 'sich waschen', 'sich freuen'. Der Unterschied: Im Spanischen steht das Reflexivpronomen immer VOR dem konjugierten Verb (me llamo, te llamas). Im Deutschen kann es hinter dem Verb stehen ('ich wasche mich') oder davor ('ich mich wasche' ist falsch). Außerdem: 'Ich heiße' ist im Deutschen nicht reflexiv (kein 'sich'), aber im Spanischen ist 'llamarse' reflexiv: 'me llamo' = 'ich nenne mich'. Das ist ein häufiger Fehler. Die Pronomen: me (mich/mir), te (dich/dir), se (sich).",
+		"rule": "Reflexivpronomen: me (ich), te (du), se (er/sie/es, auch Sie/höflich), nos (wir), os (ihr), se (sie/Plural). Sie stehen vor dem konjugierten Verb: 'Me levanto a las siete' (Ich stehe um sieben auf). 'Llamarse' (heißen): 'Me llamo Juan' (Ich heiße Juan). 'Acostarse' (ins Bett gehen): 'Me acuesto' (Ich gehe ins Bett). Das Reflexivpronomen gehört zum Verb – du lernst 'llamarse', nicht 'llamar'.",
+		"common_error": {
+			"wrong": "Yo llamo Ana.",
+			"correct": "Me llamo Ana.",
+			"correct_alt": "",
+			"explanation": "Im Deutschen sagst du 'ich heiße Ana' ohne Reflexivpronomen. Du übersetzt wörtlich mit 'yo llamo' (ich rufe / ich nenne), was falsch ist. Im Spanischen heißt 'heißen' reflexiv: 'llamarse'. Also 'me llamo'. Denk daran: 'ich nenne mich' – das 'mich' (me) ist obligatorisch."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Me llamo Pablo.",
+				"translation": "Ich heiße Pablo.",
+				"examples": [{ "original": "Me llamo Pablo.", "translation": "Ich heiße Pablo.", "note": "reflexives Verb 'llamarse'" }]
+			},
+			{
+				"level": 2,
+				"label": "Me levanto a las ocho.",
+				"translation": "Ich stehe um acht auf.",
+				"examples": [{ "original": "Me levanto a las ocho.", "translation": "Ich stehe um acht auf.", "note": "Reflexivpronomen vor dem Verb" }]
+			},
+			{
+				"level": 3,
+				"label": "Ella se ducha por la mañana.",
+				"translation": "Sie duscht sich morgens.",
+				"examples": [{ "original": "Ella se ducha por la mañana.", "translation": "Sie duscht sich morgens.", "note": "Reflexivpronomen 'se' für 3. Person" }]
+			}
+		],
+		"emoji": "🔄",
+		"phonetic": "",
+		"translations": { "de": "reflexive Verben" }
+	},
+	{
+		"id": "es_A1_concept_04",
+		"type": "concept",
+		"title": "Tuteo vs Usted",
+		"bridge": "Im Deutschen unterscheidest du zwischen 'du' (informell) und 'Sie' (formell). Im Spanischen gibt es genau die gleiche Unterscheidung: 'tú' (informell, Singular) und 'usted' (formell, Singular). Der einzige technische Unterschied: 'Sie' im Deutschen verwendet die 3. Person Plural des Verbs (sie kommen), aber 'usted' im Spanischen verwendet die 3. Person Singular (usted viene). Das ist wichtig für die Konjugation. Außerdem gibt es im Spanischen noch 'vosotros' (informell Plural, nur in Spanien) – das hat keine direkte Entsprechung im deutschen Standard, aber du lernst es später.",
+		"rule": "Tú: für Freunde, Familie, Kinder, Gleichaltrige. Verb in 2. Person Singular: '¿Tú comes?' (Isst du?) Usted: für Vorgesetzte, ältere Leute, formelle Situationen. Verb in 3. Person Singular: '¿Usted come?' (Essen Sie?) Kurzformen: 'tú' kann zu 'tú' bleiben, 'usted' wird oft zu 'Ud.' oder 'Vd.' abgekürzt. Wichtig: Die Höflichkeitsform 'usted' wird immer groß geschrieben? Nein, im Spanischen wird 'usted' klein geschrieben, außer am Satzanfang. Im Deutschen schreibt man 'Sie' groß – das ist anders.",
+		"common_error": {
+			"wrong": "Usted tienes razón.",
+			"correct": "Usted tiene razón.",
+			"correct_alt": "",
+			"explanation": "Du konjugierst 'usted' fälschlich wie 'tú' (tienes). 'Usted' ist zwar die Höflichkeitsform, aber es verwendet die 3. Person Singular des Verbs – genau wie 'él' oder 'ella'. Also 'usted tiene' (nicht 'tienes'). Denk daran: 'Usted kommt' wäre im Deutschen 'Sie kommen' (3. Person Plural) – hier liegt ein wichtiger Unterschied. Im Spanischen ist es 3. Person Singular."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Tú hablas.",
+				"translation": "Du sprichst.",
+				"examples": [{ "original": "Tú hablas.", "translation": "Du sprichst.", "note": "informell, 2. Person Singular" }]
+			},
+			{
+				"level": 2,
+				"label": "Usted habla.",
+				"translation": "Sie sprechen.",
+				"examples": [{ "original": "Usted habla.", "translation": "Sie sprechen.", "note": "formell, 3. Person Singular (anders als im Deutschen)" }]
+			},
+			{
+				"level": 3,
+				"label": "Tú, ¿cómo te llamas? Usted, ¿cómo se llama?",
+				"translation": "Du, wie heißt du? Sie, wie heißen Sie?",
+				"examples": [{ "original": "Tú, ¿cómo te llamas? Usted, ¿cómo se llama?", "translation": "Du, wie heißt du? Sie, wie heißen Sie?", "note": "Kontrast: 'tú' mit 'te' (reflexiv 2. Pers.), 'usted' mit 'se' (reflexiv 3. Pers.)." }]
+			}
+		],
+		"emoji": "👔",
+		"phonetic": "",
+		"translations": { "de": "duzen vs. siezen" }
+	},
+	{
+		"id": "es_A1_concept_05",
+		"type": "concept",
+		"title": "El género en sustantivos y adjetivos",
+		"bridge": "Im Deutschen kennst du drei Geschlechter: männlich (der), weiblich (die), neutrum (das). Im Spanischen gibt es nur zwei: männlich (el) und weiblich (la). Das ist einfacher! Aber Achtung: Die Geschlechter stimmen oft nicht mit dem Deutschen überein. Zum Beispiel: 'das Mädchen' (neutrum) ist 'la niña' (weiblich), 'der Tisch' (männlich) ist 'la mesa' (weiblich). Du musst jedes Substantiv mit seinem Artikel lernen. Bei Adjektiven musst du das Geschlecht anpassen: 'el perro blanco' (der weiße Hund), 'la casa blanca' (das weiße Haus). Die meisten Wörter auf -o sind männlich, auf -a weiblich – aber es gibt Ausnahmen.",
+		"rule": "Regel: Wörter auf -o sind meist männlich (el libro, el perro), auf -a meist weiblich (la casa, la mesa). Ausnahmen: el día (Tag, männlich), la mano (Hand, weiblich). Adjektive passen sich an: männlich endet auf -o (blanco), weiblich auf -a (blanca). Endet ein Adjektiv auf -e (verde, grande) oder Konsonant (azul, fácil), ändert es sich nicht für das Geschlecht, aber für die Zahl (plural -s oder -es).",
+		"common_error": {
+			"wrong": "La problema es difícil.",
+			"correct": "El problema es difícil.",
+			"correct_alt": "",
+			"explanation": "Wörter, die auf -ma enden (Problema, tema, sistema, idioma) sind meist männlich, obwohl sie auf -a enden. Das ist eine griechische Herkunft. Du nimmst fälschlich 'la' wegen der Endung -a. Merke: el problema, el tema, el sistema, el idioma. Diese Ausnahmen musst du auswendig lernen."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "el perro negro / la casa negra",
+				"translation": "der schwarze Hund / das schwarze Haus",
+				"examples": [{ "original": "el perro negro", "translation": "der schwarze Hund", "note": "perro männlich → negro" }, { "original": "la casa negra", "translation": "das schwarze Haus", "note": "casa weiblich → negra" }]
+			},
+			{
+				"level": 2,
+				"label": "el libro interesante / la película interesante",
+				"translation": "das interessante Buch / der interessante Film",
+				"examples": [{ "original": "el libro interesante", "translation": "das interessante Buch", "note": "Adjektiv auf -e ändert sich nicht" }, { "original": "la película interesante", "translation": "der interessante Film", "note": "Gleiches Adjektiv für beide Geschlechter" }]
+			},
+			{
+				"level": 3,
+				"label": "El agua fría",
+				"translation": "das kalte Wasser",
+				"examples": [{ "original": "El agua fría", "translation": "das kalte Wasser", "note": "Besonderheit: 'agua' ist weiblich, verwendet aber im Singular den männlichen Artikel 'el' wegen des betonten 'a'-Lauts. Das Adjektiv bleibt weiblich: 'fría'." }]
+			}
+		],
+		"emoji": "🚹🚺",
+		"phonetic": "",
+		"translations": { "de": "Genus bei Substantiven und Adjektiven" }
+	},
+	{
+		"id": "es_A1_concept_06",
+		"type": "concept",
+		"title": "Presente vs Estar + gerundio",
+		"bridge": "Im Deutschen hast du nur eine Zeitform für die Gegenwart: 'Ich esse' kann sowohl 'ich esse gerade' als auch 'ich esse (immer/gewohnheitsmäßig)' bedeuten. Im Spanischen unterscheidest du: das einfache Präsens ('como') für Gewohnheiten und allgemeine Aussagen, und 'estar + Gerundium' ('estoy comiendo') für das, was gerade jetzt passiert. Das Gerundium gibt es im Deutschen nicht als eigene Form – du musst dieses Konzept neu lernen. Denk an 'estoy comiendo' = 'ich bin am Essen' (wie im Rheinischen: 'ich bin am Essen' – das kommt dem Spanischen sehr nahe!).",
+		"rule": "Präsens (Presente): für Gewohnheiten, allgemeine Wahrheiten, wiederholte Handlungen. 'Yo como fruta todos los días' (Ich esse jeden Tag Obst). Estar + Gerundium: für Handlungen, die genau jetzt stattfinden. Bildung: estar konjugiert + Gerundium (-ando für -ar, -iendo für -er/-ir). 'Ahora estoy comiendo' (Jetzt esse ich gerade). Hinweis: Im Spanischen verwendet man 'estar + gerundio' auch für Handlungen, die gerade im Ablauf sind ('Was machst du?' – 'Estoy leyendo'). Im Deutschen sagst du oft einfaches Präsens – hier musst du umdenken.",
+		"common_error": {
+			"wrong": "Ahora como una manzana.",
+			"correct": "Ahora estoy comiendo una manzana.",
+			"correct_alt": "",
+			"explanation": "Du verwendest das einfache Präsens 'como' für eine Handlung, die gerade jetzt stattfindet. Das ist im Deutschen normal ('Jetzt esse ich einen Apfel'), aber im Spanischen betont man den Verlaufsaspekt mit 'estar + gerundio'. 'Ahora como una manzana' klingt, als ob du jeden Tag genau jetzt einen Apfel isst (Gewohnheit). Für das 'gerade jetzt' musst du 'estoy comiendo' sagen."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Yo como pan.",
+				"translation": "Ich esse Brot.",
+				"examples": [{ "original": "Yo como pan.", "translation": "Ich esse Brot.", "note": "Präsens für Gewohnheit oder allgemeine Aussage" }]
+			},
+			{
+				"level": 2,
+				"label": "Estoy comiendo pan.",
+				"translation": "Ich bin gerade am Brotessen.",
+				"examples": [{ "original": "Estoy comiendo pan.", "translation": "Ich bin gerade am Brotessen.", "note": "Estar + Gerundium für Aktion jetzt" }]
+			},
+			{
+				"level": 3,
+				"label": "Normalmente como a las dos, pero hoy estoy comiendo más tarde.",
+				"translation": "Normalerweise esse ich um zwei, aber heute esse ich später.",
+				"examples": [{ "original": "Normalmente como a las dos, pero hoy estoy comiendo más tarde.", "translation": "Normalerweise esse ich um zwei, aber heute esse ich später.", "note": "Kontrast: Gewohnheit (como) vs. aktuelle Abweichung (estoy comiendo)." }]
+			}
+		],
+		"emoji": "⏰",
+		"phonetic": "",
+		"translations": { "de": "einfaches Präsens vs. Verlaufsform" }
+	}
+]

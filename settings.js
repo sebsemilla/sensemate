@@ -242,6 +242,14 @@ function loadSettingsSection() {
                 <button class="cfg-danger-btn cfg-danger-btn--hard" id="cfgClearAll">
                     ⚠️ Borrar todo mi progreso
                 </button>
+
+                ${currentUser ? `
+                <div class="cfg-divider-light" style="margin-top:1.25rem"></div>
+                <div class="cfg-group-label" style="margin-top:1rem">Cuenta</div>
+                <button class="cfg-delete-account-btn" id="cfgDeleteAccount">
+                    🗑️ Eliminar mi cuenta permanentemente
+                </button>
+                ` : ''}
             </div>
 
         </div>
@@ -390,6 +398,66 @@ function _bindSettingsEvents() {
         allKeys.forEach(k => { if (!keysToKeep.includes(k)) localStorage.removeItem(k); });
         showToast('✅ Progreso borrado');
         setTimeout(showMainMenu, 1200);
+    });
+
+    document.getElementById('cfgDeleteAccount')?.addEventListener('click', () => {
+        _showDeleteAccountModal();
+    });
+}
+
+function _showDeleteAccountModal() {
+    const modal = document.createElement('div');
+    modal.className = 'cfg-delete-modal-overlay';
+    modal.innerHTML = `
+        <div class="cfg-delete-modal">
+            <div class="cfg-delete-modal-icon">⚠️</div>
+            <h3 class="cfg-delete-modal-title">Eliminar cuenta</h3>
+            <p class="cfg-delete-modal-desc">
+                Esta acción es <strong>permanente e irreversible</strong>.<br>
+                Se eliminarán tu cuenta y todos tus datos.
+            </p>
+            <div class="cfg-delete-modal-field">
+                <label>Escribí <strong>ELIMINAR</strong> para confirmar</label>
+                <input type="text" id="cfgDeleteConfirmInput" placeholder="ELIMINAR" autocomplete="off">
+            </div>
+            <div class="cfg-delete-modal-err hidden" id="cfgDeleteErr"></div>
+            <div class="cfg-delete-modal-btns">
+                <button class="cfg-delete-cancel-btn" id="cfgDeleteCancel">Cancelar</button>
+                <button class="cfg-delete-confirm-btn" id="cfgDeleteConfirm">Eliminar cuenta</button>
+            </div>
+        </div>`;
+    document.body.appendChild(modal);
+
+    document.getElementById('cfgDeleteCancel').addEventListener('click', () => modal.remove());
+    modal.addEventListener('click', e => { if (e.target === modal) modal.remove(); });
+
+    document.getElementById('cfgDeleteConfirm').addEventListener('click', async () => {
+        const val = document.getElementById('cfgDeleteConfirmInput').value.trim();
+        const err = document.getElementById('cfgDeleteErr');
+        if (val !== 'ELIMINAR') {
+            err.textContent = 'Escribí ELIMINAR exactamente para confirmar.';
+            err.classList.remove('hidden');
+            return;
+        }
+        const btn = document.getElementById('cfgDeleteConfirm');
+        btn.disabled    = true;
+        btn.textContent = 'Eliminando…';
+        try {
+            const token = typeof authGetToken === 'function' ? authGetToken() : null;
+            const res   = await fetch(`${API_BASE}/auth/account`, {
+                method:  'DELETE',
+                headers: { 'Authorization': `Bearer ${token}` }
+            });
+            if (!res.ok) throw new Error((await res.json()).error);
+            authLogout();
+            modal.remove();
+            location.reload();
+        } catch (e) {
+            err.textContent = e.message || 'Error al eliminar. Intentá de nuevo.';
+            err.classList.remove('hidden');
+            btn.disabled    = false;
+            btn.textContent = 'Eliminar cuenta';
+        }
     });
 }
 

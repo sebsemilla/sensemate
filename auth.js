@@ -3,7 +3,7 @@
 
 const _SESSION_KEY  = 'ls_session';   // guarda { token, user } — NO datos sensibles
 const _OB_SEEN_KEY  = 'ls_onboarding_seen';
-const API_BASE      = 'http://localhost:3000';
+const API_BASE      = `http://${window.location.hostname}:3000`;
 
 // ─── Helpers internos ─────────────────────────────────────────
 
@@ -99,6 +99,11 @@ async function authVerifySession() {
 // Devuelve el token JWT para incluirlo en requests al backend
 function authGetToken() {
     return _getToken();
+}
+
+// Guarda una sesión recibida externamente (ej: Google login)
+function authSetSession(token, user) {
+    return _setSession(token, user);
 }
 
 function authMarkOnboardingSeen() {

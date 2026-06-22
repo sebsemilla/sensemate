@@ -127,8 +127,8 @@ async function loadMembershipSection() {
 
     try {
         const [cfgRes, cntRes] = await Promise.all([
-            fetch('http://localhost:3000/membership/config'),
-            fetch('http://localhost:3000/membership/counter')
+            fetch(_API_HOST + '/membership/config'),
+            fetch(_API_HOST + '/membership/counter')
         ]);
         if (cfgRes.ok) {
             const cfgData = await cfgRes.json();
@@ -532,7 +532,7 @@ function _showPaymentFlow(period) {
             }
 
             try {
-                const res = await fetch('http://localhost:3000/mp/create-preference', {
+                const res = await fetch(_API_HOST + '/mp/create-preference', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
                     body: JSON.stringify({ period: periodKey, userId: user.id, userEmail: user.email }),
@@ -663,7 +663,7 @@ function _showActivationModal(period) {
 
         try {
             const region = localStorage.getItem('ls_region') || 'latam';
-            const res = await fetch('http://localhost:3000/membership/subscribe', {
+            const res = await fetch(_API_HOST + '/membership/subscribe', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, plan: period === 'annual' ? 'annual' : 'monthly', region, period })

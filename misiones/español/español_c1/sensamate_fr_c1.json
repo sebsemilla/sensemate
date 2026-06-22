@@ -1,0 +1,452 @@
+[
+	{
+		"id": "es_C1_concept_01",
+		"type": "concept",
+		"title": "Subjuntivo Pluscuamperfecto / Subjonctif plus-que-parfait",
+		"bridge": "En français, le subjonctif plus-que-parfait existe ('que j'eusse su') mais il est très rare à l'oral, même à l'écrit formel on utilise plutôt le conditionnel passé ou l'indicatif plus-que-parfait. En espagnol, en revanche, ce temps est vivant et obligatoire dans les 'si' hypothétiques du passé ('si hubiera sabido') et après 'ojalá' pour exprimer un regret. Votre erreur typique consiste à utiliser le conditionnel 'habría' après 'si' (comme en français familier 'si j'aurais su'), alors qu'il faut le subjonctif plus-que-parfait.",
+		"rule": "Formation : hubiera/hubiese + participe passé. Emplois : 1) Après 'si' pour une condition irréelle du passé : 'Si lo hubiera sabido, habría venido' (Si je l'avais su, je serais venu). 2) Après 'ojalá' pour un souhait non réalisé : 'Ojalá hubiera llegado antes' (J'aurais aimé arriver plus tôt). 3) Dans les propositions avec 'como si' : 'Actúa como si no hubiera pasado nada' (Il agit comme si rien ne s'était passé). Attention : ne jamais utiliser 'habría' après 'si' ; c'est l'erreur la plus fréquente.",
+		"common_error": {
+			"wrong": "Si habría sabido, habría venido.",
+			"correct": "Si hubiera sabido, habría venido.",
+			"correct_alt": "Si hubiese sabido, habría venido.",
+			"explanation": "En français oral, on entend parfois 'si j'aurais su' (incorrect en français standard mais courant). Vous transférez cette structure à l'espagnol en utilisant 'habría' après 'si'. L'espagnol exige strictement le subjonctif plus-que-parfait ('hubiera' ou 'hubiese') dans la proposition avec 'si', jamais le conditionnel."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Ojalá hubiera venido.",
+				"translation": "J'aurais aimé qu'il vienne / Si seulement il était venu.",
+				"examples": [{ "original": "Ojalá hubiera venido.", "translation": "Si seulement il était venu.", "note": "Regret simple avec 'hubiera'." }]
+			},
+			{
+				"level": 2,
+				"label": "Si hubiera estudiado, habría aprobado.",
+				"translation": "Si j'avais étudié, j'aurais réussi.",
+				"examples": [{ "original": "Si hubiera estudiado, habría aprobado.", "translation": "Si j'avais étudié, j'aurais réussi.", "note": "'hubiera' dans la si-clause, conditionnel passé dans la principale." }]
+			},
+			{
+				"level": 3,
+				"label": "Hubiera sido mejor que vinieras ayer, pero no insististe.",
+				"translation": "Il aurait mieux valu que tu viennes hier, mais tu n'as pas insisté.",
+				"examples": [{ "original": "Hubiera sido mejor que vinieras ayer, pero no insististe.", "translation": "Il aurait mieux valu que tu viennes hier, mais tu n'as pas insisté.", "note": "'Hubiera' dans la proposition principale (valeur de conditionnel atténué, très formel)." }]
+			}
+		],
+		"emoji": "⏪",
+		"phonetic": "",
+		"translations": { "fr": "subjonctif plus-que-parfait" }
+	},
+	{
+		"id": "es_C1_concept_02",
+		"type": "concept",
+		"title": "Usos modales y epistémicos: deber de, venir a, andar + gerundio",
+		"bridge": "En français, vous n'avez pas d'équivalents exacts : 'devoir' couvre à la fois l'obligation et la déduction ('doit être' pour les deux). 'Venir à + infinitif' existe en français mais signifie 'finir par' (ex. 'il vint à mourir'), pas l'approximation. 'Andar + gérondif' n'existe pas du tout (vous dites 'être en train de' ou 'aller + gérondif' qui n'est pas correct). Vous avez donc tendance à tout traduire par 'estar + gerundio' ou par 'deber' sans 'de', perdant ainsi des nuances essentielles au niveau C1.",
+		"rule": "1) Deber de + inf : déduction, probabilité. 'Debe de ser tarde' (Il doit être tard, je suppose). Contrasté avec 'deber' (obligation) : 'Debes estudiar' (Tu dois étudier). 2) Venir a + inf : approximation ou équivalence. 'Viene a costar 20 euros' (Ça coûte environ 20 euros). 3) Andar + gerundio : action diffuse, continuée, souvent sans but précis. 'Anda diciendo mentiras' (Il raconte des mensonges, il passe son temps à dire des mensonges). Ne pas utiliser 'estar' à la place.",
+		"common_error": {
+			"wrong": "Debe ser él quien llama.",
+			"correct": "Debe de ser él quien llama.",
+			"correct_alt": "",
+			"explanation": "Vous omettez la préposition 'de' car en français 'doit être' exprime à la fois l'obligation et la déduction. L'espagnol distingue : 'debe ser' = obligation ('il doit être là parce qu'il a promis'), 'debe de ser' = déduction ('ça doit être lui, j'entends sa voix'). Pour la déduction, toujours mettre 'de'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Debe de ser muy caro.",
+				"translation": "Ça doit être très cher.",
+				"examples": [{ "original": "Debe de ser muy caro.", "translation": "Ça doit être très cher.", "note": "Déduction, non obligation." }]
+			},
+			{
+				"level": 2,
+				"label": "Viene a costar 50 dólares.",
+				"translation": "Ça coûte environ 50 dollars.",
+				"examples": [{ "original": "Viene a costar 50 dólares.", "translation": "Ça coûte environ 50 dollars.", "note": "'Viene a' pour l'approximation." }]
+			},
+			{
+				"level": 3,
+				"label": "Anda diciendo que se va a mudar, pero nadie le cree.",
+				"translation": "Il n'arrête pas de dire qu'il va déménager, mais personne ne le croit.",
+				"examples": [{ "original": "Anda diciendo que se va a mudar, pero nadie le cree.", "translation": "Il n'arrête pas de dire qu'il va déménager, mais personne ne le croit.", "note": "'Andar + gerundio' avec nuance de persistance et d'absence de preuve concrète." }]
+			}
+		],
+		"emoji": "🔍",
+		"phonetic": "",
+		"translations": { "fr": "usages modaux et épistémiques" }
+	},
+	{
+		"id": "es_C1_concept_03",
+		"type": "concept",
+		"title": "Nominalización y construcciones con infinitivo / Nominalisation et constructions infinitives",
+		"bridge": "En français, vous utilisez le gérondif ou la subordonnée en 'que' comme sujet ('Arriver tard fut une erreur' est plus littéraire). L'espagnol préfère l'infinitif comme nom ('Fumar es malo') ou la structure 'el hecho de que' + subjonctif. Votre erreur commune est d'utiliser le gérondif comme sujet ('Llegando tarde fue un error') en calquant le français, ou d'omettre la préposition 'de' après 'el hecho' (car en français on dit 'le fait que' sans préposition).",
+		"rule": "En espagnol, l'infinitif fonctionne comme un nom masculin : 'Fumar es perjudicial' (Fumer est nuisible). Pour les sujets complexes : 'el hecho de que + subjonctif' (le fait que) : 'El hecho de que no viniera me molestó'. 'El + infinitif' (el llegar tarde = l'action d'arriver tard). 'Lo que' + indicatif/subjonctif : 'Lo que me sorprende es su reacción' (Ce qui me surprend). 'Haber + participe passé' : 'Haber llegado tarde fue un error' (Être arrivé tard fut une erreur). Ne jamais utiliser le gérondif comme sujet, c'est un anglicisme/francisme.",
+		"common_error": {
+			"wrong": "El hecho que llegó tarde fue un problema.",
+			"correct": "El hecho de que llegara tarde fue un problema.",
+			"correct_alt": "El llegar tarde fue un problema.",
+			"explanation": "Vous omettez la préposition 'de' après 'el hecho' parce qu'en français on dit 'le fait que' sans préposition. L'espagnol exige 'el hecho de que' suivi du subjonctif (ou de l'indicatif si c'est un fait avéré, mais le subjonctif est très courant). De plus, vous utilisez parfois le gérondif comme sujet ('Llegando tarde') – c'est incorrect."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Fumar es malo.",
+				"translation": "Fumer est mauvais.",
+				"examples": [{ "original": "Fumar es malo.", "translation": "Fumer est mauvais.", "note": "Infinitif comme sujet." }]
+			},
+			{
+				"level": 2,
+				"label": "El hecho de que no viniera me molestó.",
+				"translation": "Le fait qu'il ne soit pas venu m'a dérangé.",
+				"examples": [{ "original": "El hecho de que no viniera me molestó.", "translation": "Le fait qu'il ne soit pas venu m'a dérangé.", "note": "'El hecho de que' + subjonctif (viniera)." }]
+			},
+			{
+				"level": 3,
+				"label": "Lo que más me sorprende es que lo haya hecho solo.",
+				"translation": "Ce qui me surprend le plus, c'est qu'il l'ait fait tout seul.",
+				"examples": [{ "original": "Lo que más me sorprende es que lo haya hecho solo.", "translation": "Ce qui me surprend le plus, c'est qu'il l'ait fait tout seul.", "note": "Nominalisation avec 'lo que' + subjonctif dans la subordonnée attribut." }]
+			}
+		],
+		"emoji": "📦",
+		"phonetic": "",
+		"translations": { "fr": "nominalisation" }
+	},
+	{
+		"id": "es_C1_concept_04",
+		"type": "concept",
+		"title": "Gerundio en construcciones absolutas / Gérondif dans les constructions absolues",
+		"bridge": "En français, le gérondif absolu existe avec la préposition 'en' : 'en sachant cela', 'en arrivant'. En espagnol, le gérondif absolu se construit sans préposition : 'sabiendo eso', 'llegando él'. Votre erreur typique consiste soit à ajouter la préposition 'en' (calque du français), soit à éviter le gérondif parce que vous doutez. Par ailleurs, le gérondif absolu est légèrement plus formel en espagnol. Il exprime la cause, le temps ou la condition.",
+		"rule": "Le gérondif absolu espagnol n'utilise jamais la préposition 'en'. Il est séparé par des virgules. Exprime : 1) Cause : 'Sabiendo eso, no habría ido' (Sachant cela, je ne serais pas allé). 2) Temps : 'Llegando él, todo cambió' (Quand il est arrivé, tout a changé). 3) Condition : 'Estudiando más, habrías aprobado' (En étudiant plus, tu aurais réussi). Le sujet implicite du gérondif est différent de celui de la proposition principale. Ne pas confondre avec le gérondif de manière ('llegó corriendo') qui n'est pas absolu. Attention : le gérondif ne peut pas être sujet (erreur fréquente).",
+		"common_error": {
+			"wrong": "En sabiendo eso, no habría ido.",
+			"correct": "Sabiendo eso, no habría ido.",
+			"correct_alt": "",
+			"explanation": "Vous ajoutez la préposition 'en' parce qu'en français le gérondif absolu est toujours précédé de 'en' ('en sachant cela'). En espagnol, le gérondif absolu se construit sans 'en'. Cette erreur est très fréquente chez les francophones même à niveau C1. Supprimez 'en'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Sabiendo eso, no fui.",
+				"translation": "Sachant cela, je n'y suis pas allé.",
+				"examples": [{ "original": "Sabiendo eso, no fui.", "translation": "Sachant cela, je n'y suis pas allé.", "note": "Gérondif absolu causal sans 'en'." }]
+			},
+			{
+				"level": 2,
+				"label": "Llegando ella, todos se callaron.",
+				"translation": "Quand elle est arrivée, tout le monde s'est tu.",
+				"examples": [{ "original": "Llegando ella, todos se callaron.", "translation": "Quand elle est arrivée, tout le monde s'est tu.", "note": "Gérondif absolu temporel avec sujet explicite 'ella'." }]
+			},
+			{
+				"level": 3,
+				"label": "Habiendo sido advertido, no deberías haberlo hecho.",
+				"translation": "Ayant été averti, tu n'aurais pas dû le faire.",
+				"examples": [{ "original": "Habiendo sido advertido, no deberías haberlo hecho.", "translation": "Ayant été averti, tu n'aurais pas dû le faire.", "note": "Gérondif composé ('habiendo sido') pour un passif antérieur." }]
+			}
+		],
+		"emoji": "✂️",
+		"phonetic": "",
+		"translations": { "fr": "gérondif absolu" }
+	},
+	{
+		"id": "es_C1_concept_05",
+		"type": "concept",
+		"title": "Subjuntivo con valor estilístico / Subjonctif à valeur stylistique",
+		"bridge": "Bonne nouvelle : le français possède des expressions similaires ! 'Que je sache' (as far as I know), 'quoi qu'on dise' (whatever they say), 'que tu saches que...' (just so you know) existent en français avec le subjonctif. Vous n'aurez donc pas de difficulté majeure sur ce point. L'erreur possible est d'utiliser l'indicatif ou de mal placer le 'que' initial. En espagnol, ces formules sont très courantes à l'oral et à l'écrit. Mémorisez-les telles quelles : 'que yo sepa', 'digan lo que digan', 'que sepas que...', '¡que te mejores!'.",
+		"rule": "Le subjonctif stylistique apparaît sans conjonction 'que' introductrice dans des formules figées : 1) Concessif : 'Digan lo que digan, no me importa' (Quoi qu'ils disent). 2) Expression de connaissance non absolue : 'Que yo sepa, no ha llegado' (À ma connaissance). 3) Parenthétique informatif : 'Que sepas que te quiero' (Sache que je t'aime). 4) Optatif (souhait) : '¡Que te mejores!' (Bon rétablissement !). Ces formes sont fixes ; le 'que' initial est obligatoire et le subjonctif ne peut être remplacé par l'indicatif sans changer le sens.",
+		"common_error": {
+			"wrong": "Según lo que sé, no ha llegado.",
+			"correct": "Que yo sepa, no ha llegado.",
+			"correct_alt": "",
+			"explanation": "Vous utilisez l'indicatif 'según lo que sé' (selon ce que je sais) par analogie avec le français informel 'selon ce que je sais'. La formule naturelle en espagnol est le subjonctif 'que yo sepa', qui exprime une prise de distance modeste. L'indicatif sonne trop assertif et moins idiomatique."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Que yo sepa, es falso.",
+				"translation": "À ma connaissance, c'est faux.",
+				"examples": [{ "original": "Que yo sepa, es falso.", "translation": "À ma connaissance, c'est faux.", "note": "Formule figée 'que yo sepa'." }]
+			},
+			{
+				"level": 2,
+				"label": "Digan lo que digan, haré lo correcto.",
+				"translation": "Quoi qu'ils disent, je ferai ce qu'il faut.",
+				"examples": [{ "original": "Digan lo que digan, haré lo correcto.", "translation": "Quoi qu'ils disent, je ferai ce qu'il faut.", "note": "Subjonctif concessif sans 'aunque'." }]
+			},
+			{
+				"level": 3,
+				"label": "Que te vaya bien en tu viaje, ¡y que tengas mucha suerte!",
+				"translation": "Bon voyage, et bonne chance !",
+				"examples": [{ "original": "Que te vaya bien en tu viaje, ¡y que tengas mucha suerte!", "translation": "Bon voyage, et bonne chance !", "note": "Subjonctif optatif pour souhaiter (équivalent de 'je te souhaite que')." }]
+			}
+		],
+		"emoji": "🎭",
+		"phonetic": "",
+		"translations": { "fr": "subjonctif stylistique" }
+	},
+	{
+		"id": "es_C1_concept_06",
+		"type": "concept",
+		"title": "Conectores de alto registro / Connecteurs de haut registre",
+		"bridge": "En français, vous avez des connecteurs formels comme 'eu égard à', 'dans la mesure où', 'au vu de', 'indépendamment de'. L'espagnol possède des équivalents mais avec des prépositions et des modes différents. Vous faites deux types d'erreurs : le calque lexical ('en lumière de' pour 'habida cuenta de') et l'omission du subjonctif après certains connecteurs. Les plus délicats sont 'habida cuenta de que' (indicateur), 'en la medida en que' (subjonctif pour hypothétique), 'a tenor de' (pas de 'que'), et 'con independencia de que' (toujours subjonctif).",
+		"rule": "1) Habida cuenta de que + indicatif (fait réel) : 'Habida cuenta de que llovía, cancelaron' (Eu égard au fait qu'il pleuvait). 2) En la medida en que + indicatif (réel) ou subjonctif (hypothétique) : 'Te ayudaré en la medida en que pueda' (subjonctif). 3) A tenor de + nom ou infinitif (sans 'que') : 'A tenor de los resultados' (Au vu des résultats). 4) Con independencia de que + subjonctif (toujours) : 'Lo haré con independencia de que quieras o no' (Indépendamment de ce que tu veuilles ou non). Mémorisez les prépositions : 'habida cuenta DE', 'con independencia DE'.",
+		"common_error": {
+			"wrong": "En luz de que llegó tarde, lo despidieron.",
+			"correct": "Habida cuenta de que llegó tarde, lo despidieron.",
+			"correct_alt": "Teniendo en cuenta que llegó tarde, lo despidieron.",
+			"explanation": "Vous calquez littéralement 'en lumière de' ou 'au vu de' par 'en luz de', qui n'existe pas en espagnol. Le connecteur formel correct est 'habida cuenta de que' (ou le plus courant 'teniendo en cuenta que'). De plus, vous oubliez parfois le 'de' après 'habida cuenta' (vous dites 'habida cuenta que' – incorrect)."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Habida cuenta de su actitud, no vendrá.",
+				"translation": "Compte tenu de son attitude, il ne viendra pas.",
+				"examples": [{ "original": "Habida cuenta de su actitud, no vendrá.", "translation": "Compte tenu de son attitude, il ne viendra pas.", "note": "'Habida cuenta de' + syntagme nominal (sans 'que')." }]
+			},
+			{
+				"level": 2,
+				"label": "En la medida en que lo permita el presupuesto, viajaremos.",
+				"translation": "Dans la mesure où le budget le permettra, nous voyagerons.",
+				"examples": [{ "original": "En la medida en que lo permita el presupuesto, viajaremos.", "translation": "Dans la mesure où le budget le permettra, nous voyagerons.", "note": "'En la medida en que' + subjonctif (permita) pour une condition hypothétique." }]
+			},
+			{
+				"level": 3,
+				"label": "Con independencia de que me invites o no, iré a la fiesta.",
+				"translation": "Indépendamment du fait que tu m'invites ou non, j'irai à la fête.",
+				"examples": [{ "original": "Con independencia de que me invites o no, iré a la fiesta.", "translation": "Indépendamment du fait que tu m'invites ou non, j'irai à la fête.", "note": "'Con independencia de que' + subjonctif (invites) – noter la double préposition 'de que'." }]
+			}
+		],
+		"emoji": "🎓",
+		"phonetic": "",
+		"translations": { "fr": "connecteurs formels" }
+	},
+	{
+		"id": "es_C1_concept_07",
+		"type": "concept",
+		"title": "Diferencias de registro / Différences de registre",
+		"bridge": "En français, vous avez aussi quatre registres (familier, standard, formel, littéraire). Le défi est que l'espagnol marque plus nettement le registre avec des pronoms spécifiques (tú/usted/vosotros/ustedes), des modes verbaux (subjonctif plus fréquent en formel), et un vocabulaire très différencié. En tant qu'apprenant C1, vous mélangez souvent les registres : utiliser 'tío' (mec) dans un email formel, ou 'así que' (donc) dans un texte littéraire. Le registre littéraire espagnol utilise des formes en '-se' du subjonctif (viniese au lieu de viniera) et des inversions syntaxiques rares en français moderne.",
+		"rule": "Quatre registres en espagnol : 1) Coloquial : familier, entre amis. Traits : pronoms 'tú/vosotros', interjections ('¡qué guay!'), diminutifs ('momentito'), chute de consonnes ('pa' pour 'para'), vocabulaire argotique. 2) Estándar : neutre, presse, courriels professionnels, situations courantes. Grammaire correcte, pas d'argot, 'usted' dans certains contextes. 3) Formal : académique, administratif, discours. Phrases complexes, subjonctif fréquent, voix passive pronominale ('se dice'), connecteurs comme 'habida cuenta de', 'usted' systématique. 4) Literario : prose/poésie littéraire. Syntaxe inversée ('De la casa salió'), vocabulaire archaïque ('asaz' pour 'muy'), subjonctif en '-se' ('viniese'), figures de style. À C1, vous devez identifier et reproduire le registre approprié sans le mélanger.",
+		"common_error": {
+			"wrong": "Estimado amigo, ¿qué tal? Necesito tu ayuda, tío.",
+			"correct": "Estimado señor, ¿cómo está? Necesito su ayuda.",
+			"correct_alt": "Oye, amigo, ¿qué tal? Necesito tu ayuda.",
+			"explanation": "Vous mélangez 'estimado' (formel) avec 'tío' (familier) et 'tú' (informel). Le registre formel exige 'usted', pas d'argot. La version corrigée est cohérente. Pour un registre amical mais non formel, utilisez la version alternative entièrement familière."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Dame pan. (coloquial) / Deme pan. (estándar formal)",
+				"translation": "Donne-moi du pain.",
+				"examples": [
+					{ "original": "Dame pan.", "translation": "Donne-moi du pain.", "note": "Familier : 'dame' avec tú." },
+					{ "original": "Deme pan.", "translation": "Donnez-moi du pain.", "note": "Formel standard : 'deme' avec usted." }
+				]
+			},
+			{
+				"level": 2,
+				"label": "Vino y se fue. (estándar) / Llegó, y acto seguido partió. (literario)",
+				"translation": "Il est venu et il est parti.",
+				"examples": [
+					{ "original": "Vino y se fue.", "translation": "Il est venu et il est parti.", "note": "Standard, simple." },
+					{ "original": "Llegó, y acto seguido partió.", "translation": "Il arriva, et sur-le-champ il partit.", "note": "Littéraire : 'acto seguido', 'partió' au lieu de 'se fue'." }
+				]
+			},
+			{
+				"level": 3,
+				"label": "Si vinieras, sería genial. (coloquial) / Si vinieses, sería magnífico. (literario)",
+				"translation": "Si tu venais, ce serait génial / magnifique.",
+				"examples": [
+					{ "original": "Si vinieras, sería genial.", "translation": "Si tu venais, ce serait génial.", "note": "Standard/familier : 'vinieras', 'genial'." },
+					{ "original": "Si vinieses, sería magnífico.", "translation": "Si tu venais, ce serait magnifique.", "note": "Littéraire : subjonctif en '-se' ('vinieses'), adjectif soutenu 'magnífico'." }
+				]
+			}
+		],
+		"emoji": "🎭",
+		"phonetic": "",
+		"translations": { "fr": "différences de registre" }
+	},
+	{
+		"id": "es_C1_concept_08",
+		"type": "concept",
+		"title": "El artículo neutro 'lo' / L'article neutre 'lo'",
+		"bridge": "En français, vous n'avez pas d'article neutre. Vous dites 'le bon' (masculin) pour 'la bonne chose', ou 'ce qui est bon'. L'espagnol utilise 'lo' pour transformer un adjectif, un adverbe ou une proposition entière en nom abstrait : 'lo bueno' (la bonne chose), 'lo de ayer' (l'affaire d'hier), 'lo que más me gusta' (ce que j'aime le plus). Votre erreur typique est d'utiliser l'article masculin 'el' à la place de 'lo' ('el bueno es que...' signifie 'le bon homme'), ou de construire 'lo de ayer' comme 'la chose d'hier' ('la cosa de ayer') – ce qui n'est pas incorrect mais moins idiomatique. Le français n'ayant pas cette structure, vous avez tendance à l'éviter ou à la mal former.",
+		"rule": "'Lo' est invariable (pas de pluriel, pas de féminin). Emplois : 1) Lo + adjectif : 'lo mejor' (le meilleur, ce qu'il y a de mieux). 2) Lo + de + nom/infinitif : 'lo de Pedro' (l'histoire de Pierre), 'lo de salir temprano' (l'affaire de partir tôt). 3) Lo + que + proposition : 'lo que dices' (ce que tu dis). 4) Lo + possessif : 'lo mío' (ce qui est à moi, mes affaires). 5) Exclamations : '¡Lo mucho que has crecido!' (Comme tu as grandi !). Ne dites jamais 'el' avec un adjectif abstrait ; 'el bueno' désigne une personne (le bon / le gentil). 'Lo' n'est pas un pronom complément (le 'lo' de 'lo veo' est différent).",
+		"common_error": {
+			"wrong": "El bueno de la película es el final.",
+			"correct": "Lo bueno de la película es el final.",
+			"correct_alt": "",
+			"explanation": "Vous utilisez l'article masculin 'el' parce que le français n'a pas de neutre et que vous cherchez un équivalent. 'El bueno' signifie 'le bon homme' ou 'le gentil', pas 'la bonne chose'. L'abstrait requiert 'lo'. Cette erreur persiste souvent au niveau C1. Rappelez-vous : 'lo + adjectif' pour les qualités abstraites."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Lo bueno es que llovió.",
+				"translation": "Le bon côté, c'est qu'il a plu.",
+				"examples": [{ "original": "Lo bueno es que llovió.", "translation": "Le bon côté, c'est qu'il a plu.", "note": "Lo + adjectif 'bueno' = notion abstraite." }]
+			},
+			{
+				"level": 2,
+				"label": "Lo de ayer fue un desastre.",
+				"translation": "L'affaire d'hier a été un désastre.",
+				"examples": [{ "original": "Lo de ayer fue un desastre.", "translation": "L'affaire d'hier a été un désastre.", "note": "Lo de + expression temporelle = l'affaire / ce qui s'est passé." }]
+			},
+			{
+				"level": 3,
+				"label": "No me gusta lo de que llegues tarde siempre.",
+				"translation": "Je n'aime pas le fait que tu arrives toujours en retard.",
+				"examples": [{ "original": "No me gusta lo de que llegues tarde siempre.", "translation": "Je n'aime pas le fait que tu arrives toujours en retard.", "note": "Lo de que + subjonctif : nominalise toute une proposition." }]
+			}
+		],
+		"emoji": "⚪",
+		"phonetic": "",
+		"translations": { "fr": "article neutre 'lo'" }
+	},
+	{
+		"id": "es_C1_concept_09",
+		"type": "concept",
+		"title": "Construcciones enfáticas / Constructions emphatiques",
+		"bridge": "En français, vous avez des structures similaires : 'c'est lui qui l'a dit' (clivée) et 'ce que je veux, c'est me reposer' (pseudo-clivée). L'espagnol fonctionne pareil : 'fue él quien lo dijo', 'lo que quiero es descansar'. La différence réside dans le pronom relatif : pour une personne, l'espagnol préfère 'quien' (ou 'el/la que') plutôt que 'que'. Vous utilisez souvent 'que' comme en français ('c'est lui que') – c'est acceptable mais moins soigné. De plus, vous oubliez l'accent sur 'quién' dans les questions indirectes. Attention aussi à l'accord : 'fueron ellos quienes' (ils furent eux qui).",
+		"rule": "Deux constructions emphatiques principales : 1) Clivée avec 'ser' + élément focalisé + proposition relative : 'Fue Juan quien llamó' (C'est Juan qui a appelé). Le relatif peut être 'que' (choses, général), 'quien/es' (personnes), ou 'el/la que'. 2) Pseudo-clivée avec 'lo que' + ser + élément focalisé : 'Lo que necesito es paciencia' (Ce dont j'ai besoin, c'est de patience). 3) Antéposition : 'Mucho trabaja él' (Il travaille beaucoup, lui). 4) Négation emphatique : 'No es que no quiera, es que no puedo' (Ce n'est pas que je ne veuille pas, c'est que je ne peux pas). Évitez d'utiliser 'eso que' au lieu de 'lo que'.",
+		"common_error": {
+			"wrong": "Fue él que lo dijo.",
+			"correct": "Fue él quien lo dijo.",
+			"correct_alt": "Fue él el que lo dijo.",
+			"explanation": "Vous utilisez 'que' comme en français ('c'est lui qu'il a dit'), mais pour une personne, l'espagnol préfère 'quien' (ou 'el que') dans la clivée. 'Fue él que lo dijo' se comprend mais sonne comme un calque du français. La forme la plus correcte et formelle est 'quien'. En français vous diriez 'c'est lui qui l'a dit' (avec 'qui'), l'équivalent espagnol est 'quien'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Fue ella quien llamó.",
+				"translation": "C'est elle qui a appelé.",
+				"examples": [{ "original": "Fue ella quien llamó.", "translation": "C'est elle qui a appelé.", "note": "Clivée avec 'ser' + pronom + 'quien'." }]
+			},
+			{
+				"level": 2,
+				"label": "Lo que quiero es dormir.",
+				"translation": "Ce que je veux, c'est dormir.",
+				"examples": [{ "original": "Lo que quiero es dormir.", "translation": "Ce que je veux, c'est dormir.", "note": "Pseudo-clivée avec 'lo que' comme sujet." }]
+			},
+			{
+				"level": 3,
+				"label": "Fue en París donde nos conocimos, no en Madrid.",
+				"translation": "C'est à Paris que nous nous sommes rencontrés, pas à Madrid.",
+				"examples": [{ "original": "Fue en París donde nos conocimos, no en Madrid.", "translation": "C'est à Paris que nous nous sommes rencontrés, pas à Madrid.", "note": "Clivée pour un lieu : 'donde' au lieu de 'que'." }]
+			}
+		],
+		"emoji": "💥",
+		"phonetic": "",
+		"translations": { "fr": "constructions emphatiques" }
+	},
+	{
+		"id": "es_C1_concept_10",
+		"type": "concept",
+		"title": "Perífrasis de fase y aspecto: ir + gerundio, tener + participio, llevar sin + infinitivo / Périphrases de phase et d'aspect",
+		"bridge": "En français, vous n'avez pas d'équivalents directs pour ces trois périphrases. Pour exprimer un processus graduel, vous dites 'va en s'améliorant' (rare) ou 's'améliore peu à peu'. L'espagnol utilise 'ir + gerundio' : 'va mejorando'. Pour un résultat accumulé, vous avez 'avoir + participe passé' mais dans un temps composé (j'ai fait le lit), tandis que l'espagnol utilise 'tener + participio' pour insister sur l'état résultant : 'tengo hecha la cama'. Pour la privation durative, vous dites 'je suis sans te voir' (incorrect) ou 'ça fait des mois que je ne t'ai pas vu' ; l'espagnol dit 'llevo sin verte meses'. Vous évitez souvent ces structures et utilisez des équivalents plus simples, perdant la nuance aspectuelle.",
+		"rule": "1) Ir + gerundio : progression graduelle. 'El proyecto va mejorando lentamente' (Le projet s'améliore lentement). Jamais pour des actions ponctuelles. 2) Tener + participio : parfait résultatif. 'Tengo preparada la cena' (J'ai le dîner prêt). Le participe s'accorde avec l'objet direct. 3) Llevar sin + infinitivo : durée sans action. 'Llevo sin fumar dos años' (Je n'ai pas fumé depuis deux ans). Toujours avec une expression de temps. Contraste : 'llevar + gerundio' = action continue ; 'llevar sin + inf' = absence continue d'action. Évitez de calquer 'être sans + infinitif' ou 'faire + temps que + négation' quand la périphrase espagnole est plus idiomatique.",
+		"common_error": {
+			"wrong": "Estoy sin verte tres meses.",
+			"correct": "Llevo tres meses sin verte.",
+			"correct_alt": "Hace tres meses que no te veo.",
+			"explanation": "Vous calquez le français 'je suis sans te voir' (grammaticalement discutable) ou 'ça fait trois mois que je ne t'ai pas vu' pour former 'estoy sin verte', qui est un calque incorrect. L'espagnol utilise la périphrase 'llevar + temps + sin + infinitif' pour exprimer la durée sans action. 'Estoy sin verte' signifierait 'je suis sans te voir' (état présent, pas de durée)."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "La situación va mejorando.",
+				"translation": "La situation s'améliore peu à peu.",
+				"examples": [{ "original": "La situación va mejorando.", "translation": "La situation s'améliore peu à peu.", "note": "'Ir + gerundio' pour un changement progressif." }]
+			},
+			{
+				"level": 2,
+				"label": "Tengo escritas todas las cartas.",
+				"translation": "J'ai toutes les lettres écrites.",
+				"examples": [{ "original": "Tengo escritas todas las cartas.", "translation": "J'ai toutes les lettres écrites.", "note": "'Tener + participio' avec accord du participe (escritas) pour insister sur l'état accompli." }]
+			},
+			{
+				"level": 3,
+				"label": "Llevo sin dormir bien desde que empezó la pandemia.",
+				"translation": "Je n'ai pas bien dormi depuis le début de la pandémie.",
+				"examples": [{ "original": "Llevo sin dormir bien desde que empezó la pandemia.", "translation": "Je n'ai pas bien dormi depuis le début de la pandémie.", "note": "'Llevar sin + infinitif' avec 'desde' pour une privation qui dure." }]
+			}
+		],
+		"emoji": "⏳",
+		"phonetic": "",
+		"translations": { "fr": "périphrases de phase et d'aspect" }
+	},
+	{
+		"id": "es_C1_concept_11",
+		"type": "concept",
+		"title": "Matices entre subjuntivo e indicativo en contextos límite / Nuances entre subjonctif et indicatif en contextes limites",
+		"bridge": "Bonne nouvelle : le français distingue aussi l'indicatif et le subjonctif dans des contextes similaires. 'Je crois qu'il vient' (indicatif) vs 'je ne crois pas qu'il vienne' (subjonctif). 'Quand il arrivera' (futur, indicatif) vs 'quand il arrive' (habitude, indicatif – attention : le français n'utilise pas de subjonctif avec 'quand'). L'espagnol, lui, utilise le subjonctif présent pour le futur avec 'cuando' : 'cuando llegues, llámame' (quand tu arriveras, appelle-moi). Le français utilise le futur de l'indicatif. Votre erreur typique est d'utiliser l'indicatif futur (llegarás) ou le présent indicatif (llegas) au lieu du subjonctif présent. C'est l'interférence majeure. Les autres contrastes (affirmatif/négatif avec 'creer', 'quizás') sont bien maîtrisés.",
+		"rule": "Contrastes clés en espagnol C1 : 1) Creer/pensar : affirmatif → indicatif, négatif → subjonctif. 2) Temporel 'cuando' : référence future → subjonctif présent ('cuando llegues') ; habitude → indicatif ('cuando llegas'). Contrairement au français qui utilise le futur de l'indicatif. 3) 'Quizás/tal vez' : indicatif (plus certain) ou subjonctif (moins certain). 4) 'Aunque' : fait réel (indicatif) vs concession hypothétique (subjonctif). 5) 'Después de que' : futur/subjonctif ; passé accompli/indicatif. Votre priorité : maîtriser 'cuando' + subjonctif pour le futur.",
+		"common_error": {
+			"wrong": "Cuando llegarás, te llamaré.",
+			"correct": "Cuando llegues, te llamaré.",
+			"correct_alt": "Cuando llegas, te llamo (sens habituel).",
+			"explanation": "Vous utilisez le futur de l'indicatif 'llegarás' comme en français ('quand tu arriveras'), ou parfois le présent indicatif 'llegas'. L'espagnol exige le présent du subjonctif 'llegues' pour une action future après 'cuando'. L'indicatif habituel 'cuando llegas' signifie 'chaque fois que tu arrives (habituellement)'. C'est l'erreur la plus fréquente chez les francophones même à C1."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Creo que viene. / No creo que venga.",
+				"translation": "Je crois qu'il vient. / Je ne crois pas qu'il vienne.",
+				"examples": [
+					{ "original": "Creo que viene.", "translation": "Je crois qu'il vient.", "note": "Affirmatif → indicatif." },
+					{ "original": "No creo que venga.", "translation": "Je ne crois pas qu'il vienne.", "note": "Négatif → subjonctif." }
+				]
+			},
+			{
+				"level": 2,
+				"label": "Cuando llueve, me quedo en casa. / Cuando llueva, me quedaré en casa.",
+				"translation": "Quand il pleut (habituellement), je reste chez moi. / Quand il pleuvra, je resterai chez moi.",
+				"examples": [
+					{ "original": "Cuando llueve, me quedo en casa.", "translation": "Quand il pleut, je reste chez moi.", "note": "Habitude → indicatif." },
+					{ "original": "Cuando llueva, me quedaré en casa.", "translation": "Quand il pleuvra, je resterai chez moi.", "note": "Futur → subjonctif présent ('llueva')." }
+				]
+			},
+			{
+				"level": 3,
+				"label": "Quizás es cierto, pero quizás no sea tan simple.",
+				"translation": "C'est peut-être vrai, mais ce n'est peut-être pas si simple.",
+				"examples": [{ "original": "Quizás es cierto, pero quizás no sea tan simple.", "translation": "C'est peut-être vrai, mais ce n'est peut-être pas si simple.", "note": "Premier 'quizás' avec indicatif (certitude plus haute), second avec subjonctif (doute plus grand)." }]
+			}
+		],
+		"emoji": "🎯",
+		"phonetic": "",
+		"translations": { "fr": "nuances subjonctif/indicatif" }
+	},
+	{
+		"id": "es_C1_concept_12",
+		"type": "concept",
+		"title": "El gerundio incorrecto / Le gérondif incorrect",
+		"bridge": "Attention, faux ami majeur ! En français, vous pouvez utiliser le participe présent comme épithète : 'la boîte contenant les documents', 'une loi régulant le secteur'. C'est correct et courant. En espagnol, cette construction est totalement interdite. Le gérondif espagnol ne peut jamais être adjectif. Vous devez utiliser une proposition relative : 'la caja que contiene los documentos', 'una ley que regula el sector'. Cette erreur est très fréquente chez les francophones, même à un niveau avancé, car la structure française semble naturelle. C'est l'erreur qui trahit immédiatement un locuteur francophone. Autres erreurs : gérondif comme sujet ('leyendo es importante' au lieu de 'leer es importante'), gérondif après préposition ('para comprando' au lieu de 'para comprar').",
+		"rule": "Le gérondif espagnol sert uniquement à : 1) Actions progressives (está lloviendo). 2) Propositions adverbiales (llegó corriendo, sabiendo eso...). 3) Périphrases verbales (ir + gerundio, andar + gerundio). Il NE PEUT PAS être utilisé comme : 1) Adjectif épithète (incorrect : *la caja conteniendo ; correct : la caja que contiene). 2) Sujet (incorrect : *fumar es malo → fumar est un infinitif, pas un gérondif. 'Fumando es malo' serait incorrect). 3) Après une préposition (incorrect : *para comprando ; correct : para comprar). 4) Comme futur périphrastique (incorrect : *voy a viniendo ; correct : voy a venir). Mémorisez : jamais de gérondif adjectif en espagnol.",
+		"common_error": {
+			"wrong": "Recibí un correo electrónico conteniendo instrucciones.",
+			"correct": "Recibí un correo electrónico que contenía instrucciones.",
+			"correct_alt": "Recibí un correo electrónico con instrucciones.",
+			"explanation": "Vous utilisez le gérondif 'conteniendo' comme adjectif modifiant 'correo electrónico', calquant le français 'contenant'. En espagnol, le gérondif ne peut pas avoir cette fonction adjectivale. Utilisez une proposition relative ('que contenía') ou la préposition 'con'. C'est l'erreur la plus typique des francophones en espagnol C1."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "La carta anunciando la fecha es incorrecta.",
+				"translation": "La lettre annonçant la date est incorrecte (construction fausse).",
+				"examples": [{ "original": "La carta anunciando la fecha es incorrecta.", "translation": "La lettre annonçant la date est incorrecte.", "note": "INCORRECT : gérondif comme adjectif. Dites : 'la carta que anuncia la fecha'." }]
+			},
+			{
+				"level": 2,
+				"label": "Vi a un hombre cruzando la calle. (correct: adverbial)",
+				"translation": "J'ai vu un homme traverser la rue.",
+				"examples": [{ "original": "Vi a un hombre cruzando la calle.", "translation": "J'ai vu un homme traverser la rue.", "note": "Correct : verbe de perception + gérondif (adverbial, modifie 'vi', pas 'hombre')." }]
+			},
+			{
+				"level": 3,
+				"label": "Aprobé gracias a una ley regulando el sector. (incorrect) / Aprobé gracias a una ley que regula el sector. (correct)",
+				"translation": "J'ai réussi grâce à une loi régulant le secteur.",
+				"examples": [
+					{ "original": "Aprobé gracias a una ley regulando el sector.", "translation": "J'ai réussi grâce à une loi régulant le secteur.", "note": "INCORRECT : gérondif adjectif." },
+					{ "original": "Aprobé gracias a una ley que regula el sector.", "translation": "J'ai réussi grâce à une loi qui régit le secteur.", "note": "CORRECT : proposition relative." }
+				]
+			}
+		],
+		"emoji": "🚫",
+		"phonetic": "",
+		"translations": { "fr": "le gérondif incorrect" }
+	}
+]

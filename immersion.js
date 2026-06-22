@@ -88,7 +88,7 @@ async function _translateSrtBatch(dialogue, overlay, srcLang) {
     const lines = chunk.map(d => d.original);
 
     try {
-      const res = await fetch('http://localhost:3000/translate-batch', {
+      const res = await fetch(_API_HOST + '/translate-batch', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ lines, sourceLang: sourceLangCode, targetLang: 'es' })
@@ -541,7 +541,7 @@ function _loadStudyArea(container, content) {
       const chunk = content.dialogue.slice(i, i + BATCH);
       const lines = chunk.map(d => d.original);
       try {
-        const res = await fetch('http://localhost:3000/translate-batch', {
+        const res = await fetch(_API_HOST + '/translate-batch', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ lines, sourceLang: src, targetLang: 'es' })

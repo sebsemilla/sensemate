@@ -1,0 +1,179 @@
+{
+	"id": "es_b1_concept_10",
+	"type": "concept",
+	"title": "Discurso indirecto: reportar lo que dijo alguien",
+	"bridge": "En français, le discours indirect suit des règles de concordance des temps assez similaires à l'espagnol : 'Il a dit qu'il viendrait' (futur dans le passé), 'Il a dit qu'il était fatigué' (présent -> imparfait). Cependant, il existe des différences importantes. En français, après un verbe au passé, on peut maintenir le présent pour une action encore actuelle ('Il a dit qu'il est malade') - c'est courant. En espagnol, cette liberté est plus limitée : on préfère souvent l'imparfait ('Dijo que estaba enfermo'). De plus, le français utilise parfois le conditionnel passé là où l'espagnol utilise le conditionnel simple. L'erreur typique du francophone est de vouloir appliquer les règles françaises mécaniquement, en particulier d'utiliser le conditionnel passé trop souvent. Mais dans l'ensemble, la logique est proche, et c'est surtout une question d'automatisation.",
+	"rule": "En espagnol, au discours indirect avec un verbe principal au passé (dijo, preguntó, afirmó), les temps changent ainsi : présent -> imparfait ou présent (si l'action est encore en cours) ; futur -> conditionnel simple ; passé composé -> plus-que-parfait ; passé simple -> plus-que-parfait ou imparfait. Le conditionnel passé (habría cantado) existe mais est moins utilisé qu'en français. L'impératif se transforme en subjonctif (Dijo: 'ven' -> Dijo que viniera).",
+	"common_error": {
+		"wrong": "Dijo que vendrá mañana.",
+		"correct": "Dijo que vendría mañana.",
+		"correct_alt": "Dijo que viene mañana.",
+		"explanation": "En français, 'Il a dit qu'il viendra demain' (futur) est possible après un verbe au passé, notamment à l'oral. En espagnol, c'est une erreur. Il faut utiliser le conditionnel 'vendría' (viendrait) ou, plus familièrement, le présent 'viene' (vient) si l'action est proche. Le futur 'vendrá' n'est pas accepté."
+	},
+	"levels": [
+		{
+			"level": 1,
+			"label": "Presente → Presente / Imperfecto",
+			"translation": "Présent → Présent / Imparfait",
+			"examples": [
+				{
+					"original": "Dice: 'Estudio español.' → Dice que estudia español.",
+					"translation": "Il dit : 'J'étudie l'espagnol.' → Il dit qu'il étudie l'espagnol.",
+					"note": "Verbe principal au présent : aucun changement. Comme en français."
+				}
+			]
+		},
+		{
+			"level": 2,
+			"label": "Futuro → Condicional simple",
+			"translation": "Futur → Conditionnel simple",
+			"examples": [
+				{
+					"original": "Dijo: 'Iré mañana.' → Dijo que iría mañana.",
+					"translation": "Il a dit : 'J'irai demain.' → Il a dit qu'il irait demain.",
+					"note": "Le futur 'iré' devient conditionnel 'iría' (irait). En français, on dirait aussi 'irait' (conditionnel). Facile."
+				}
+			]
+		},
+		{
+			"level": 3,
+			"label": "Subjuntivo en el discurso indirecto",
+			"translation": "Subjonctif dans le discours indirect",
+			"examples": [
+				{
+					"original": "Dijo: '¡Ven aquí!' → Dijo que viniera aquí.",
+					"translation": "Il a dit : 'Viens ici !' → Il a dit que je vienne (venisse) ici.",
+					"note": "L'impératif se transforme en subjonctif imparfait ('viniera'). En français, on garde l'infinitif ou une périphrase : 'Il a dit de venir'. C'est différent. Attention à cette structure typiquement espagnole."
+				}
+			]
+		}
+	],
+	"emoji": "🗣️",
+	"phonetic": "",
+	"translations": { "pt": "" }
+}
+
+{
+	"id": "es_b1_concept_11",
+	"type": "concept",
+	"title": "Por vs Para avanzado: el gran obstáculo",
+	"bridge": "En français, on utilise presque toujours 'pour' (pour toi, pour voyager, pour cause, pour durée, pour prix). L'espagnol divise ces usages entre 'por' et 'para'. C'est l'un des obstacles les plus difficiles pour un francophone car 'pour' est un faux ami : parfois il se traduit par 'para' (destination, but, échéance, opinion), parfois par 'por' (cause, moyen, durée, prix, échange, substitution). À B1, tu connais les bases. Maintenant, les usages abstraits et les contrastes subtils : 'por eso' (c'est pourquoi), 'por más que' (même si), 'para entonces' (d'ici là). Les erreurs typiques sont de dire 'por' partout comme 'pour' ou d'inverser les deux. La bonne nouvelle : il y a des régularités. Exerce-toi sur les paires minimales.",
+	"rule": "Règles avancées : 'para' s'utilise pour le but (Estudio para aprender), le destinataire (Para ti), l'échéance (Para mañana), l'opinion (Para mí es difícil), la comparaison (Para su edad). 'Por' s'utilise pour la cause (Por miedo), le moyen (Por tren), la durée (Por dos horas), le prix (Por 10 euros), l'échange (Cambio A por B), la substitution (Voy yo por ti), l'agent du passif (Fue escrito por mí), et des expressions figées (por ejemplo, por supuesto, por favor, por eso, por cierto).",
+	"common_error": {
+		"wrong": "Este regalo es por ti.",
+		"correct": "Este regalo es para ti.",
+		"correct_alt": "",
+		"explanation": "En français, 'Ce cadeau est pour toi' utilise 'pour'. Mais en espagnol, le destinataire exige 'para', pas 'por'. C'est l'erreur numéro 1 des francophones. Memorise : 'para' = destinataire, objectif, échéance. 'Por' = cause, moyen, durée."
+	},
+	"levels": [
+		{
+			"level": 1,
+			"label": "Para: finalidad y destinatario",
+			"translation": "Para : but et destinataire",
+			"examples": [
+				{
+					"original": "Estudio para ser médico. / Las flores son para mi madre.",
+					"translation": "J'étudie pour être médecin. / Les fleurs sont pour ma mère.",
+					"note": "Ici 'pour' = 'para' en espagnol. Parfait."
+				}
+			]
+		},
+		{
+			"level": 2,
+			"label": "Por: causa, medio, duración",
+			"translation": "Por : cause, moyen, durée",
+			"examples": [
+				{
+					"original": "Lo hice por amor. / Viajamos por avión. / Estudié por dos horas.",
+					"translation": "Je l'ai fait par amour. / Nous voyageons par avion. / J'ai étudié pendant deux heures.",
+					"note": "Attention : 'par amour' = 'por amor', 'par avion' = 'por avión', 'pendant deux heures' = 'por dos horas'. Le français utilise 'par' ou 'pendant', l'espagnol utilise 'por'."
+				}
+			]
+		},
+		{
+			"level": 3,
+			"label": "Expresiones abstractas",
+			"translation": "Expressions abstraites",
+			"examples": [
+				{
+					"original": "Por eso no vine. / Por más que estudie, no apruebo.",
+					"translation": "C'est pour ça que je ne suis pas venu. / Même si j'étudie, je ne réussis pas.",
+					"note": "'Por eso' = 'c'est pourquoi' (expression figée avec 'por'). 'Por más que' = 'même si' (concession)."
+				},
+				{
+					"original": "Para entonces ya habré terminado. / Está para salir.",
+					"translation": "D'ici là j'aurai fini. / Il est sur le point de sortir.",
+					"note": "'Para entonces' = 'd'ici là' (échéance future). 'Estar para + infinitif' = 'être sur le point de'. Ne pas confondre avec 'estar por + infinitif' = 'être à faire' (action non encore faite)."
+				}
+			]
+		}
+	],
+	"emoji": "🔀",
+	"phonetic": "",
+	"translations": { "pt": "" }
+}
+
+{
+	"id": "es_b1_concept_12",
+	"type": "concept",
+	"title": "Ser vs Estar avanzado: cambia el significado",
+	"bridge": "En français, un seul verbe 'être' couvre les deux concepts espagnols 'ser' (essence, identité, caractéristique permanente) et 'estar' (état, position, condition temporaire). C'est l'un des obstacles majeurs pour les francophones. À B1, tu connais les bases (je suis heureux = estoy feliz ; je suis espagnol = soy español). La difficulté réside dans les paires d'adjectifs où le choix du verbe change complètement le sens : 'être intelligent' (ser listo) vs 'être prêt' (estar listo) ; 'être ennuyeux' (ser aburrido) vs 'être ennuyé' (estar aburrido) ; 'être bon (gentil)' (ser bueno) vs 'être bon (délicieux / en bonne santé)' (estar bueno). Le français ne fait pas cette distinction avec le même adjectif, donc tu dois mémoriser ces paires. La bonne nouvelle : c'est un système régulier (permanent vs temporaire, mais aussi qualité essentielle vs résultat d'un changement).",
+	"rule": "Rappel : 'ser' pour l'identité, l'origine, la profession, les caractéristiques physiques et de personnalité permanentes, l'heure, les événements. 'estar' pour la localisation, les états temporaires (santé, humeur), le résultat d'une action (participe passé), les conditions changeantes. À B1, mémorise les paires minimales : ser listo (être intelligent) vs estar listo (être prêt) ; ser aburrido (être ennuyeux) vs estar aburrido (être ennuyé) ; ser bueno (être bon, gentil) vs estar bueno (être bon, délicieux / en bonne santé) ; ser malo (être méchant) vs estar malo (être malade) ; ser rico (être riche) vs estar rico (être délicieux) ; ser moreno (avoir les cheveux bruns) vs estar moreno (être bronzé).",
+	"common_error": {
+		"wrong": "¿Estás listo? Sí, soy listo.",
+		"correct": "¿Estás listo? Sí, estoy listo.",
+		"correct_alt": "Si la question porte sur l'intelligence : '¿Eres listo?' Sí, soy listo.",
+		"explanation": "Un francophone pourrait répondre 'Soy listo' (je suis intelligent) à la question 'Estás listo ?' (tu es prêt ?), car en français 'prêt' et 'intelligent' ne se confondent pas, mais 'listo' veut dire les deux. Il faut distinguer : 'estar listo' = être prêt ; 'ser listo' = être intelligent. L'erreur vient de l'interférence du français 'être' qui ne fait pas la différence."
+	},
+	"levels": [
+		{
+			"level": 1,
+			"label": "Ser = esencia, Estar = estado",
+			"translation": "Ser = essence, Estar = état",
+			"examples": [
+				{
+					"original": "Ella es bonita. / Ella está bonita hoy.",
+					"translation": "Elle est jolie (de nature). / Elle est jolie aujourd'hui (bien habillée).",
+					"note": "Distinction classique : permanent vs temporaire."
+				}
+			]
+		},
+		{
+			"level": 2,
+			"label": "Cambio de significado (pares mínimos)",
+			"translation": "Changement de sens (paires minimales)",
+			"examples": [
+				{
+					"original": "Juan es aburrido. / Juan está aburrido.",
+					"translation": "Juan est ennuyeux (caractère). / Juan s'ennuie (état).",
+					"note": "Mémorise : 'aburrido' avec 'ser' = ennuyeux ; avec 'estar' = ennuyé."
+				},
+				{
+					"original": "Este queso está bueno. / Él es muy bueno.",
+					"translation": "Ce fromage est bon (délicieux). / Il est très bon (gentil).",
+					"note": "Avec 'estar', 'bueno' se réfère au goût ou à la santé ; avec 'ser', à la bonté morale."
+				}
+			]
+		},
+		{
+			"level": 3,
+			"label": "Casos engañosos para el francés",
+			"translation": "Cas trompeurs pour le français",
+			"examples": [
+				{
+					"original": "La fiesta es en mi casa. / Mi casa está en el centro.",
+					"translation": "La fête a lieu chez moi (événement). / Ma maison se trouve au centre (localisation).",
+					"note": "Pour les événements, on utilise 'ser' (¿Dónde es la fiesta?). Pour les objets, 'estar'. Le français utilise 'être' ou 'avoir lieu' indistinctement. Attention."
+				},
+				{
+					"original": "Soy feliz (naturellement heureux) / Estoy feliz (maintenant).",
+					"translation": "Je suis heureux (de nature) / Je suis heureux (en ce moment).",
+					"note": "Même avec les émotions, la nuance existe : 'ser feliz' = être une personne heureuse (traits) ; 'estar feliz' = se sentir heureux sur le moment."
+				}
+			]
+		}
+	],
+	"emoji": "🔄",
+	"phonetic": "",
+	"translations": { "pt": "" }
+}

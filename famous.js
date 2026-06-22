@@ -619,7 +619,7 @@ function loadFamousChat(person) {
                     btn.textContent = '⏳ Traduciendo...';
                     btn.disabled = true;
                     try {
-                        const r = await fetch('http://localhost:3000/translate', {
+                        const r = await fetch(_API_HOST + '/translate', {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
                             body: JSON.stringify({
@@ -679,7 +679,7 @@ function loadFamousChat(person) {
     async function speakText(text) {
         if (!voiceEnabled || !text?.trim()) return;
         try {
-            const res = await fetch('http://localhost:3000/speak', {
+            const res = await fetch(_API_HOST + '/speak', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ text, persona: person })
@@ -727,7 +727,7 @@ function loadFamousChat(person) {
         const thinking = addThinking();
 
         try {
-            const res = await fetch('http://localhost:3000/famous-chat', {
+            const res = await fetch(_API_HOST + '/famous-chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ person, messages: conversationHistory, targetLang })

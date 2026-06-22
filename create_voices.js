@@ -31,9 +31,9 @@ async function createCustomVoice(name, sampleAudioPath, languages, gender) {
 // Puedes ir añadiendo más personajes aquí a medida que consigas las muestras.
 
 const voicesToCreate = [
-    { name: "Martin Luther King Jr.", samplePath: "./samples/mlk_sample.mp3", languages: ["en"], gender: "male" },
-    { name: "Marilyn Monroe", samplePath: "./samples/marilyn_sample.mp3", languages: ["en"], gender: "female" },
-    { name: "Diego Maradona", samplePath: "./samples/maradona_sample.mp3", languages: ["es"], gender: "male" },
+    { name: "Diego Maradona",         samplePath: "./samples/maradona_sample.mp3", languages: ["es"], gender: "male"   },
+    { name: "Martin Luther King Jr.", samplePath: "./samples/mlk_sample.mp3",      languages: ["en"], gender: "male"   },
+    { name: "Marilyn Monroe",         samplePath: "./samples/marilyn_sample.mp3",  languages: ["en"], gender: "female" },
 ];
 
 async function main() {

@@ -1,0 +1,452 @@
+[
+	{
+		"id": "es_C1_concept_01",
+		"type": "concept",
+		"title": "Subjuntivo Pluscuamperfecto / Past Perfect Subjunctive",
+		"bridge": "This tense does NOT exist in your native language. In English, you use 'if I had known' (past perfect in indicative) for both real and unreal past conditions. In the target language, there is a specific subjunctive form: 'hubiera/hubiese sabido'. Use it after 'si' for hypothetical past situations and after 'ojalá' for wishes about the past. The equivalent English structure uses 'would have' in the main clause, but the target language requires the subjunctive in the 'if' clause.",
+		"rule": "Form: hubiera/hubiese + past participle (for -ar: -ado, for -er/-ir: -ido). Use it: 1) In 'si' clauses to express unreal past conditions: 'Si lo hubiera sabido, habría venido' (If I had known, I would have come). 2) After 'ojalá' to express regret about the past: 'Ojalá hubiera llegado antes' (I wish I had arrived earlier). 3) In 'como si' (as if) clauses: 'Actúa como si no hubiera pasado nada' (He acts as if nothing had happened). Important: Never use the conditional ('habría') after 'si' – that's the most common error.",
+		"common_error": {
+			"wrong": "Si habría sabido, habría venido.",
+			"correct": "Si hubiera sabido, habría venido.",
+			"correct_alt": "Si hubiese sabido, habría venido.",
+			"explanation": "In your native language, 'if I had known' uses past perfect indicative, and the main clause uses 'would have'. You incorrectly transfer this pattern by using the conditional 'habría' in the 'if' clause. The target language strictly forbids the conditional after 'si'; you must use the past perfect subjunctive ('hubiera/hubiese')."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Ojalá hubiera venido.",
+				"translation": "I wish he had come.",
+				"examples": [{ "original": "Ojalá hubiera venido.", "translation": "I wish he had come.", "note": "Simple wish about the past, using 'hubiera'." }]
+			},
+			{
+				"level": 2,
+				"label": "Si hubiera estudiado, habría aprobado.",
+				"translation": "If I had studied, I would have passed.",
+				"examples": [{ "original": "Si hubiera estudiado, habría aprobado.", "translation": "If I had studied, I would have passed.", "note": "Hypothetical past condition; 'hubiera' in si-clause, conditional perfect in main clause." }]
+			},
+			{
+				"level": 3,
+				"label": "Hubiera sido mejor que vinieras ayer, pero no insististe.",
+				"translation": "It would have been better if you had come yesterday, but you didn't insist.",
+				"examples": [{ "original": "Hubiera sido mejor que vinieras ayer, pero no insististe.", "translation": "It would have been better if you had come yesterday, but you didn't insist.", "note": "Use of 'hubiera' in the main clause as a polite or mitigated form of the conditional (common in formal speech)." }]
+			}
+		],
+		"emoji": "⏪",
+		"phonetic": "",
+		"translations": { "en": "past perfect subjunctive" }
+	},
+	{
+		"id": "es_C1_concept_02",
+		"type": "concept",
+		"title": "Usos modales y epistémicos: deber de, venir a, andar + gerundio",
+		"bridge": "Your native language lacks exact equivalents for these three constructions. 'Deber de + infinitive' expresses strong conjecture (must be), different from 'deber' (obligation). 'Venir a + infinitive' indicates approximation (roughly/about). 'Andar + gerundio' describes a diffuse continuous process (to go around doing). You tend to use 'estar + gerundio' for everything, losing these nuances. Pay attention: 'deber de' is often mistaken for 'deber', and 'venir a' has no direct English translation.",
+		"rule": "1) Deber de + inf: Deduction or probability. 'Debe de ser tarde' (It must be late). Contrast with 'deber' (obligation): 'Debes estudiar' (You must study). 2) Venir a + inf: Approximate quantity or equivalence. 'Viene a costar 20 euros' (It costs about 20 euros). 3) Andar + gerundio: To go around doing something, often with a sense of aimlessness or ongoing process. 'Anda diciendo mentiras' (He goes around telling lies). Not interchangeable with 'estar' (which focuses on the exact moment).",
+		"common_error": {
+			"wrong": "Debe ser él quien llama.",
+			"correct": "Debe de ser él quien llama.",
+			"correct_alt": "",
+			"explanation": "You confuse obligation ('deber') with conjecture ('deber de'). In your native language, 'must' covers both. The target language distinguishes them: 'debe ser' means 'it has to be (by obligation)', while 'debe de ser' means 'it must be (I deduce)'. Always include the preposition 'de' for deduction."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Debe de ser muy caro.",
+				"translation": "It must be very expensive.",
+				"examples": [{ "original": "Debe de ser muy caro.", "translation": "It must be very expensive.", "note": "Deduction, not obligation." }]
+			},
+			{
+				"level": 2,
+				"label": "Viene a costar 50 dólares.",
+				"translation": "It costs about 50 dollars.",
+				"examples": [{ "original": "Viene a costar 50 dólares.", "translation": "It costs about 50 dollars.", "note": "'Viene a' for approximation." }]
+			},
+			{
+				"level": 3,
+				"label": "Anda diciendo que se va a mudar, pero nadie le cree.",
+				"translation": "He goes around saying he's going to move, but no one believes him.",
+				"examples": [{ "original": "Anda diciendo que se va a mudar, pero nadie le cree.", "translation": "He goes around saying he's going to move, but no one believes him.", "note": "'Andar + gerundio' with nuance of persistent, diffuse action." }]
+			}
+		],
+		"emoji": "🔍",
+		"phonetic": "",
+		"translations": { "en": "modal and epistemic uses" }
+	},
+	{
+		"id": "es_C1_concept_03",
+		"type": "concept",
+		"title": "Nominalización y construcciones con infinitivo / Nominalization and infinitive constructions",
+		"bridge": "In your native language, you use gerunds (-ing) or 'that' clauses as subjects ('Arriving late was a mistake'). The target language prefers the infinitive as a noun phrase, especially with 'el hecho de que' or simply the infinitive alone. Also, 'lo que' clauses function as nominalized structures. Your typical error is using the gerund (like 'llegando tarde') where the infinitive is required, or calquing 'the fact that' with 'el hecho que' (missing 'de').",
+		"rule": "In the target language, the infinitive works as a masculine noun: 'Fumar es perjudicial' (Smoking is harmful). For complex subjects, use 'el hecho de que + subjunctive' (the fact that) or 'el + infinitive' (el llegar tarde = the act of arriving late). 'Lo que' + indicative/subjunctive nominalizes a whole clause: 'Lo que me sorprende es su reacción' (What surprises me is his reaction). 'Haber + past participle' as subject: 'Haber llegado tarde fue un error' (Having arrived late was a mistake). Avoid using the gerund as a subject; that is an anglicism.",
+		"common_error": {
+			"wrong": "El hecho que llegó tarde fue un problema.",
+			"correct": "El hecho de que llegara tarde fue un problema.",
+			"correct_alt": "El llegar tarde fue un problema.",
+			"explanation": "You omit the required preposition 'de' after 'el hecho'. The structure is 'el hecho de que' + subjunctive (or indicative if factual, but subjunctive is common). Also, you sometimes use the gerund as subject: 'Llegando tarde fue un error' – that's incorrect in the target language; use the infinitive 'llegar' or 'haber llegado'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Fumar es malo.",
+				"translation": "Smoking is bad.",
+				"examples": [{ "original": "Fumar es malo.", "translation": "Smoking is bad.", "note": "Infinitive as subject." }]
+			},
+			{
+				"level": 2,
+				"label": "El hecho de que no viniera me molestó.",
+				"translation": "The fact that he didn't come bothered me.",
+				"examples": [{ "original": "El hecho de que no viniera me molestó.", "translation": "The fact that he didn't come bothered me.", "note": "'El hecho de que' + subjunctive (viniera)." }]
+			},
+			{
+				"level": 3,
+				"label": "Lo que más me sorprende es que lo haya hecho solo.",
+				"translation": "What surprises me most is that he did it alone.",
+				"examples": [{ "original": "Lo que más me sorprende es que lo haya hecho solo.", "translation": "What surprises me most is that he did it alone.", "note": "'Lo que' nominalization + subjunctive in the second clause (haya hecho)." }]
+			}
+		],
+		"emoji": "📦",
+		"phonetic": "",
+		"translations": { "en": "nominalization" }
+	},
+	{
+		"id": "es_C1_concept_04",
+		"type": "concept",
+		"title": "Gerundio en construcciones absolutas / Absolute gerund constructions",
+		"bridge": "In your native language, you use participial phrases like 'Knowing that, I wouldn't have gone' or 'Him arriving, everything changed'. The target language also uses the gerund in absolute constructions, but with stricter punctuation and a more formal tone. Your typical errors: placing the comma incorrectly (English often omits it) or using the gerund as a subject (which is not allowed in the target language). Also, note that the absolute gerund often implies a causal or temporal relationship similar to 'since' or 'when'.",
+		"rule": "An absolute gerund construction has its own implicit subject, different from the main clause. It is set off by commas. It can express: 1) Cause: 'Sabiendo eso, no habría ido' (Knowing that, I wouldn't have gone). 2) Time: 'Llegando él, todo cambió' (When he arrived, everything changed). 3) Condition: 'Estudiando más, habrías aprobado' (If you had studied more, you would have passed). The gerund agrees with nothing; its subject is inferred from context. Avoid using the gerund as a subject (e.g., 'Llegando tarde es malo' is wrong; use 'Llegar tarde es malo').",
+		"common_error": {
+			"wrong": "Llegando tarde es un error.",
+			"correct": "Llegar tarde es un error.",
+			"correct_alt": "El llegar tarde es un error.",
+			"explanation": "You transfer the English gerund-as-subject pattern ('Arriving late is a mistake') to the target language. In the target language, the gerund cannot be the subject of a sentence. Use the infinitive ('llegar') or a nominalized phrase ('el llegar'). The absolute gerund is only for adverbial clauses, not for subjects."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Sabiendo eso, no fui.",
+				"translation": "Knowing that, I didn't go.",
+				"examples": [{ "original": "Sabiendo eso, no fui.", "translation": "Knowing that, I didn't go.", "note": "Causal absolute gerund." }]
+			},
+			{
+				"level": 2,
+				"label": "Llegando ella, todos se callaron.",
+				"translation": "When she arrived, everyone fell silent.",
+				"examples": [{ "original": "Llegando ella, todos se callaron.", "translation": "When she arrived, everyone fell silent.", "note": "Temporal absolute gerund with explicit subject 'ella'." }]
+			},
+			{
+				"level": 3,
+				"label": "Habiendo sido advertido, no deberías haberlo hecho.",
+				"translation": "Having been warned, you shouldn't have done it.",
+				"examples": [{ "original": "Habiendo sido advertido, no deberías haberlo hecho.", "translation": "Having been warned, you shouldn't have done it.", "note": "Compound gerund ('habiendo sido') for past passive absolute construction." }]
+			}
+		],
+		"emoji": "✂️",
+		"phonetic": "",
+		"translations": { "en": "absolute gerund constructions" }
+	},
+	{
+		"id": "es_C1_concept_05",
+		"type": "concept",
+		"title": "Subjuntivo con valor estilístico / Subjunctive for stylistic emphasis",
+		"bridge": "Your native language does not have a subjunctive mood for these uses. In the target language, the subjunctive appears in fixed expressions to convey concession, doubt, or emphasis without a typical 'que' trigger. Phrases like 'que yo sepa' (as far as I know), 'que sepas que...' (just so you know...), and 'digan lo que digan' (whatever they say) are very common in speech. These are not covered by basic subjunctive rules; they are fossilized stylistic formulas that you must memorize. Your error is using the indicative because you don't recognize the pragmatic function.",
+		"rule": "Stylistic subjunctive appears in: 1) Concessive clauses without 'aunque': 'Digan lo que digan, no me importa' (Whatever they say, I don't care). 2) Expressions of personal knowledge or hedging: 'Que yo sepa, no ha llegado' (As far as I know, he hasn't arrived). 3) Informative parentheticals: 'Que sepas que te quiero' (Just so you know, I love you). 4) Optative expressions without 'ojalá': '¡Que te mejores!' (Get well soon!). These forms are fixed; you cannot change the mood to indicative without changing meaning.",
+		"common_error": {
+			"wrong": "Según lo que sé, no ha llegado.",
+			"correct": "Que yo sepa, no ha llegado.",
+			"correct_alt": "",
+			"explanation": "You use the indicative phrase 'según lo que sé' (based on what I know) because it feels logical. But the native formula uses the subjunctive 'que yo sepa', which implies a humble, non-absolute knowledge. The indicative version sounds too assertive and unnatural in this context."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Que yo sepa, es falso.",
+				"translation": "As far as I know, it's false.",
+				"examples": [{ "original": "Que yo sepa, es falso.", "translation": "As far as I know, it's false.", "note": "Fixed formula 'que yo sepa'." }]
+			},
+			{
+				"level": 2,
+				"label": "Digan lo que digan, haré lo correcto.",
+				"translation": "Whatever they say, I'll do the right thing.",
+				"examples": [{ "original": "Digan lo que digan, haré lo correcto.", "translation": "Whatever they say, I'll do the right thing.", "note": "Concessive subjunctive without 'aunque'." }]
+			},
+			{
+				"level": 3,
+				"label": "Que te vaya bien en tu viaje, ¡y que tengas mucha suerte!",
+				"translation": "I hope your trip goes well, and good luck!",
+				"examples": [{ "original": "Que te vaya bien en tu viaje, ¡y que tengas mucha suerte!", "translation": "I hope your trip goes well, and good luck!", "note": "Optative subjunctive expressing wishes, more emphatic than 'espero que'." }]
+			}
+		],
+		"emoji": "🎭",
+		"phonetic": "",
+		"translations": { "en": "stylistic subjunctive" }
+	},
+	{
+		"id": "es_C1_concept_06",
+		"type": "concept",
+		"title": "Conectores de alto registro / High-register connectors",
+		"bridge": "Your native language has formal connectors like 'in light of', 'to the extent that', 'according to', 'regardless of'. The target language has similar formal phrases, but their prepositional patterns and subjunctive triggers differ. You often calque English prepositions (e.g., 'in light of' → 'en luz de' instead of 'habida cuenta de') or omit the required subjunctive after them. These connectors are essential for C1 writing and formal speech. The most challenging are 'habida cuenta de' (given that), 'en la medida en que' (to the extent that), 'a tenor de' (according to), and 'con independencia de' (regardless of).",
+		"rule": "Each connector has specific requirements: 1) 'Habida cuenta de que' → always followed by indicative (it presents a fact). 'Habida cuenta de que llovía, cancelaron el evento' (Given that it was raining, they canceled). 2) 'En la medida en que' → indicative if factual, subjunctive if hypothetical. 'Te ayudaré en la medida en que pueda' (I'll help you to the extent that I can) – subjunctive. 3) 'A tenor de' → indicative (according to evidence). 'A tenor de los resultados, ganamos' (According to the results, we won). 4) 'Con independencia de que' → always followed by subjunctive. 'Lo haré con independencia de que quieras o no' (I'll do it regardless of whether you want to or not). Memorize the preposition 'de' after 'habida cuenta' and 'con independencia'; omitting it is common.",
+		"common_error": {
+			"wrong": "En luz de que llegó tarde, lo despidieron.",
+			"correct": "Habida cuenta de que llegó tarde, lo despidieron.",
+			"correct_alt": "Teniendo en cuenta que llegó tarde, lo despidieron.",
+			"explanation": "You calque 'in light of' as 'en luz de', which does not exist in the target language. The correct formal connector is 'habida cuenta de que' (or the less formal 'teniendo en cuenta que'). Also, you sometimes forget the 'de' after 'habida cuenta'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Habida cuenta de su actitud, no vendrá.",
+				"translation": "Given his attitude, he won't come.",
+				"examples": [{ "original": "Habida cuenta de su actitud, no vendrá.", "translation": "Given his attitude, he won't come.", "note": "'Habida cuenta de' + noun phrase (no 'que')." }]
+			},
+			{
+				"level": 2,
+				"label": "En la medida en que lo permita el presupuesto, viajaremos.",
+				"translation": "To the extent that the budget allows, we will travel.",
+				"examples": [{ "original": "En la medida en que lo permita el presupuesto, viajaremos.", "translation": "To the extent that the budget allows, we will travel.", "note": "'En la medida en que' + subjunctive (permita) for hypothetical condition." }]
+			},
+			{
+				"level": 3,
+				"label": "Con independencia de que me invites o no, iré a la fiesta.",
+				"translation": "Regardless of whether you invite me or not, I'll go to the party.",
+				"examples": [{ "original": "Con independencia de que me invites o no, iré a la fiesta.", "translation": "Regardless of whether you invite me or not, I'll go to the party.", "note": "'Con independencia de que' + subjunctive (invites) – note the double preposition 'de que'." }]
+			}
+		],
+		"emoji": "🎓",
+		"phonetic": "",
+		"translations": { "en": "high-register connectors" }
+	},
+	{
+		"id": "es_C1_concept_07",
+		"type": "concept",
+		"title": "Diferencias de registro / Register differences",
+		"bridge": "Your native language also has register variation (colloquial, standard, formal, literary). The challenge is that the target language marks register more sharply with verb moods (subjunctive vs indicative), pronouns (tú/usted/vosotros/ustedes), and specific vocabulary. As a C1 learner, you often mix registers unintentionally: using colloquial 'tío' in a formal email, or using 'así que' in a literary text. This card contrasts four registers with concrete examples. You tend to overuse the standard register and avoid the literary because it feels unnatural, or you use literary forms incorrectly.",
+		"rule": "Four registers in the target language: 1) Coloquial: Informal speech with friends. Features: dropped consonants ('pa' instead of 'para'), diminutives ('momentito'), interjections ('¡qué guay!'), and use of 'tú/vosotros'. 2) Estándar: Neutral, used in news, work emails, everyday formal situations. Correct grammar, no slang, use of 'usted' in some contexts. 3) Formal: Academic or professional writing. Complex sentences, subjunctive frequent, passive voice ('se dice'), connectors like 'habida cuenta de'. 4) Literario: Literary prose/poetry. Features: inverted syntax ('De la casa salió'), archaic vocabulary ('asaz' for 'muy'), imperfect subjunctive in -se form ('viniese' instead of 'viniera'), and figurative language. The same idea can be expressed very differently across registers.",
+		"common_error": {
+			"wrong": "Estimado amigo, ¿qué tal? Necesito tu ayuda, tío.",
+			"correct": "Estimado señor, ¿cómo está? Necesito su ayuda.",
+			"correct_alt": "Oye, amigo, ¿qué tal? Necesito tu ayuda.",
+			"explanation": "You mix 'estimado' (formal) with 'tío' (colloquial) and 'tú' (informal) in the same sentence. The formal register requires 'usted' and no slang. The corrected version is consistently formal. Alternatively, if you want friendly but not formal, use the colloquial register consistently."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Dame pan. (coloquial) / Deme pan. (estándar formal)",
+				"translation": "Give me bread.",
+				"examples": [
+					{ "original": "Dame pan.", "translation": "Give me bread.", "note": "Colloquial: 'dame' with tú." },
+					{ "original": "Deme pan.", "translation": "Give me bread.", "note": "Formal standard: 'deme' with usted." }
+				]
+			},
+			{
+				"level": 2,
+				"label": "Vino y se fue. (estándar) / Llegó, y acto seguido partió. (literario)",
+				"translation": "He came and left.",
+				"examples": [
+					{ "original": "Vino y se fue.", "translation": "He came and left.", "note": "Standard, simple." },
+					{ "original": "Llegó, y acto seguido partió.", "translation": "He arrived, and immediately thereafter departed.", "note": "Literary: 'acto seguido', 'partió' instead of 'se fue'." }
+				]
+			},
+			{
+				"level": 3,
+				"label": "Si vinieras, sería genial. (coloquial) / Si vinieses, sería magnífico. (literario)",
+				"translation": "If you came, it would be great.",
+				"examples": [
+					{ "original": "Si vinieras, sería genial.", "translation": "If you came, it would be great.", "note": "Colloquial standard: 'vinieras', 'genial'." },
+					{ "original": "Si vinieses, sería magnífico.", "translation": "If you were to come, it would be magnificent.", "note": "Literary: '-se' subjunctive form 'vinieses', formal adjective 'magnífico'." }
+				]
+			}
+		],
+		"emoji": "🎭",
+		"phonetic": "",
+		"translations": { "en": "register differences" }
+	},
+	{
+		"id": "es_C1_concept_08",
+		"type": "concept",
+		"title": "El artículo neutro 'lo' / The neuter article 'lo'",
+		"bridge": "Your native language does not have a neuter article. You use 'the' for all nouns, and abstract concepts are expressed with 'what' clauses or '-ing' forms. The target language uses 'lo' to turn adjectives, adverbs, or whole clauses into abstract nouns. For example: 'lo bueno' (the good thing/quality), 'lo de ayer' (the thing about yesterday), 'lo que más me gusta' (what I like most). Your common errors are: using the masculine 'el' instead of 'lo' ('el bueno es que...' instead of 'lo bueno es que...'), or omitting 'lo' in 'lo de' phrases. Also, confusing 'lo' as a direct object pronoun (lo veo) with the neuter article (lo vi difícil is different).",
+		"rule": "'Lo' is invariable (no plural, no feminine) and turns non-noun elements into a noun phrase. Uses: 1) Lo + adjective: 'lo mejor' (the best part/thing), 'lo importante es...' (the important thing is...). 2) Lo + de + noun/infinitive: 'lo de Pedro' (the thing about Pedro), 'lo de salir temprano' (the matter of leaving early). 3) Lo + que + clause: 'lo que dices' (what you say). 4) Lo + possessive: 'lo mío' (my stuff/matter). 5) In exclamations: '¡Lo mucho que has crecido!' (How much you've grown!). Never use 'el' with adjectives when abstract; 'el bueno' means 'the good man', not 'the good thing'.",
+		"common_error": {
+			"wrong": "El bueno de la película es el final.",
+			"correct": "Lo bueno de la película es el final.",
+			"correct_alt": "",
+			"explanation": "You use the masculine article 'el' because English 'the good thing' doesn't mark gender. But 'el bueno' means 'the good guy/male'. The abstract neuter requires 'lo'. This is a persistent error even at C1. Remember: 'lo + adjective' for abstract qualities."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Lo bueno es que llovió.",
+				"translation": "The good thing is that it rained.",
+				"examples": [{ "original": "Lo bueno es que llovió.", "translation": "The good thing is that it rained.", "note": "Lo + adjective 'bueno' = abstract quality." }]
+			},
+			{
+				"level": 2,
+				"label": "Lo de ayer fue un desastre.",
+				"translation": "What happened yesterday was a disaster.",
+				"examples": [{ "original": "Lo de ayer fue un desastre.", "translation": "What happened yesterday was a disaster.", "note": "Lo de + time expression = the thing about yesterday." }]
+			},
+			{
+				"level": 3,
+				"label": "No me gusta lo de que llegues tarde siempre.",
+				"translation": "I don't like the fact that you always arrive late.",
+				"examples": [{ "original": "No me gusta lo de que llegues tarde siempre.", "translation": "I don't like the fact that you always arrive late.", "note": "Lo de que + subjunctive: nominalizes an entire clause with 'que'." }]
+			}
+		],
+		"emoji": "⚪",
+		"phonetic": "",
+		"translations": { "en": "neuter article 'lo'" }
+	},
+	{
+		"id": "es_C1_concept_09",
+		"type": "concept",
+		"title": "Construcciones enfáticas / Emphatic constructions",
+		"bridge": "Your native language uses cleft sentences like 'It was him who said it' and pseudo-clefts like 'What I want is to rest'. The target language has very similar structures: 'fue él quien lo dijo' (It was him who said it) and 'lo que quiero es descansar' (What I want is to rest). The difference is that the target language uses the verb 'ser' in the cleft, and the relative pronoun must agree. You often omit the accent on 'quién' in written form, or incorrectly use 'que' instead of 'quien' when referring to a person. Also, you may forget that the focused element after 'ser' must match in number with the verb.",
+		"rule": "Two main emphatic constructions: 1) Cleft sentences with 'ser' + focused element + relative clause: 'Fue Juan quien llamó' (It was Juan who called). The relative pronoun can be 'que' (for things or general), 'quien/quienes' (for persons), or 'el/la que'. 2) Pseudo-clefts with 'lo que' + ser + focalized element: 'Lo que necesito es paciencia' (What I need is patience). Also, fronting: 'Mucho trabaja él' (He works a lot). For emphatic negation: 'No es que no quiera, es que no puedo' (It's not that I don't want to, it's that I can't). Avoid using 'eso que' instead of 'lo que'.",
+		"common_error": {
+			"wrong": "Fue él que lo dijo.",
+			"correct": "Fue él quien lo dijo.",
+			"correct_alt": "Fue él el que lo dijo.",
+			"explanation": "You use 'que' instead of 'quien' for persons in emphatic clefts. While 'que' is sometimes accepted colloquially, the most correct and formal usage is 'quien' for people. In English you say 'It was him that said it' (allowing 'that'), but the target language prefers 'quien' after 'ser' when referring to a specific person."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Fue ella quien llamó.",
+				"translation": "It was she who called.",
+				"examples": [{ "original": "Fue ella quien llamó.", "translation": "It was she who called.", "note": "Cleft sentence with 'ser' + pronoun + 'quien'." }]
+			},
+			{
+				"level": 2,
+				"label": "Lo que quiero es dormir.",
+				"translation": "What I want is to sleep.",
+				"examples": [{ "original": "Lo que quiero es dormir.", "translation": "What I want is to sleep.", "note": "Pseudo-cleft with 'lo que' as subject." }]
+			},
+			{
+				"level": 3,
+				"label": "Fue en París donde nos conocimos, no en Madrid.",
+				"translation": "It was in Paris where we met, not in Madrid.",
+				"examples": [{ "original": "Fue en París donde nos conocimos, no en Madrid.", "translation": "It was in Paris where we met, not in Madrid.", "note": "Cleft for place: 'donde' instead of 'que'." }]
+			}
+		],
+		"emoji": "💥",
+		"phonetic": "",
+		"translations": { "en": "emphatic constructions" }
+	},
+	{
+		"id": "es_C1_concept_10",
+		"type": "concept",
+		"title": "Perífrasis de fase y aspecto: ir + gerundio, tener + participio, llevar sin + infinitivo",
+		"bridge": "Your native language expresses gradual processes with 'keep + gerund' or 'get better', accumulated results with 'have + past participle' (but not as a periphrasis), and durative privation with 'go without + gerund'. The target language has three specific periphrases that you often avoid or misuse: 'ir + gerundio' for a slow, progressive change ('va mejorando' = it's gradually getting better); 'tener + participio' for an accumulated result ('tengo hecha la cama' = I have the bed made, emphasizing the state); and 'llevar sin + infinitivo' for a duration without doing something ('llevo sin verte meses' = I haven't seen you for months, emphasizing the ongoing lack). You tend to replace them with simpler structures ('está mejorando', 'he hecho la cama', 'no te he visto en meses'), losing the aspectual nuance.",
+		"rule": "1) Ir + gerundio: gradual, cumulative process. 'El proyecto va mejorando lentamente' (The project is slowly getting better). Cannot be used with punctual verbs. 2) Tener + participio: resultative perfect, focusing on the existing state after an action. 'Tengo preparada la cena' (I have dinner ready). The participle agrees with the direct object. 3) Llevar sin + infinitivo: duration of not doing something. 'Llevo sin fumar dos años' (I haven't smoked for two years). Always includes a time expression. Contrast: 'llevar + gerundio' (llevo estudiando dos horas) means continuing action, while 'llevar sin + inf' means continuing absence of action.",
+		"common_error": {
+			"wrong": "Estoy sin verte tres meses.",
+			"correct": "Llevo tres meses sin verte.",
+			"correct_alt": "Hace tres meses que no te veo.",
+			"explanation": "You calque the English 'I've been without seeing you' as 'estoy sin verte', which is grammatically incorrect. The target language uses the periphrasis 'llevar + time + sin + infinitive' to express the duration of not performing an action. 'Estoy sin verte' would mean 'I am without seeing you' (present state, no duration)."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "La situación va mejorando.",
+				"translation": "The situation is gradually improving.",
+				"examples": [{ "original": "La situación va mejorando.", "translation": "The situation is gradually improving.", "note": "'Ir + gerundio' for slow, progressive change." }]
+			},
+			{
+				"level": 2,
+				"label": "Tengo escritas todas las cartas.",
+				"translation": "I have all the letters written.",
+				"examples": [{ "original": "Tengo escritas todas las cartas.", "translation": "I have all the letters written.", "note": "'Tener + participio' (concordance: escritas) emphasizing result state." }]
+			},
+			{
+				"level": 3,
+				"label": "Llevo sin dormir bien desde que empezó la pandemia.",
+				"translation": "I haven't slept well since the pandemic started.",
+				"examples": [{ "original": "Llevo sin dormir bien desde que empezó la pandemia.", "translation": "I haven't slept well since the pandemic started.", "note": "'Llevar sin + infinitivo' with 'desde' for ongoing privation." }]
+			}
+		],
+		"emoji": "⏳",
+		"phonetic": "",
+		"translations": { "en": "phase and aspect periphrases" }
+	},
+	{
+		"id": "es_C1_concept_11",
+		"type": "concept",
+		"title": "Matices entre subjuntivo e indicativo en contextos límite / Nuances between subjunctive and indicative in borderline contexts",
+		"bridge": "Your native language uses indicative in almost all subordinate clauses except for a few fixed expressions. In the target language, the choice between subjunctive and indicative can shift meaning in subtle ways, even with the same trigger. At C1, you need to master pairs like 'creo que es' (I think it is - fact) vs 'no creo que sea' (I don't think it is - doubt), and 'cuando llegues' (when you arrive - future) vs 'cuando llegas' (when you arrive - habitual). Your typical error is overusing the indicative in contexts where subjunctive is required for hypothetical or future meaning, especially with temporal conjunctions like 'cuando' and 'después de que'.",
+		"rule": "Key contrast pairs: 1) Creer/pensar: affirmative (indicative: creo que viene) vs negative (subjunctive: no creo que venga). 2) Temporal 'cuando': future reference (subjunctive: cuando llegues, llámame) vs habitual (indicative: cuando llegas, siempre llamas). 3) 'Quizás/tal vez': can take both: 'quizás viene' (maybe it's coming - more certain) vs 'quizás venga' (maybe it'll come - less certain). 4) 'Aunque': concessive fact (indicative: aunque llueve, salgo) vs hypothetical concession (subjunctive: aunque llueva, saldré). 5) 'Después de que': if future, subjunctive; if past perfect, indicative: 'después de que llegue' (after he arrives - future) vs 'después de que llegó' (after he arrived - past).",
+		"common_error": {
+			"wrong": "Cuando llegas, te llamaré.",
+			"correct": "Cuando llegues, te llamaré.",
+			"correct_alt": "",
+			"explanation": "You use the indicative 'llegas' (habitual present) for a future action. In the target language, when 'cuando' refers to a specific future event, you must use the present subjunctive. The error is transferring the English 'when you arrive' (present tense for future) directly. The indicative in this context would mean 'every time you arrive (habitually), I will call you', which is a different meaning."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "Creo que viene. / No creo que venga.",
+				"translation": "I think he's coming. / I don't think he's coming.",
+				"examples": [
+					{ "original": "Creo que viene.", "translation": "I think he's coming.", "note": "Affirmative → indicative." },
+					{ "original": "No creo que venga.", "translation": "I don't think he's coming.", "note": "Negative → subjunctive." }
+				]
+			},
+			{
+				"level": 2,
+				"label": "Cuando llueve, me quedo en casa. / Cuando llueva, me quedaré en casa.",
+				"translation": "When it rains (habitually), I stay home. / When it rains (in the future), I'll stay home.",
+				"examples": [
+					{ "original": "Cuando llueve, me quedo en casa.", "translation": "When it rains, I stay home.", "note": "Habitual action → indicative." },
+					{ "original": "Cuando llueva, me quedaré en casa.", "translation": "When it rains, I'll stay home.", "note": "Future event → subjunctive." }
+				]
+			},
+			{
+				"level": 3,
+				"label": "Quizás es cierto, pero quizás no sea tan simple.",
+				"translation": "Maybe it's true, but maybe it's not so simple.",
+				"examples": [{ "original": "Quizás es cierto, pero quizás no sea tan simple.", "translation": "Maybe it's true, but maybe it's not so simple.", "note": "First 'quizás' with indicative (higher certainty), second with subjunctive (lower certainty, more doubt)." }]
+			}
+		],
+		"emoji": "🎯",
+		"phonetic": "",
+		"translations": { "en": "subjunctive vs indicative nuances" }
+	},
+	{
+		"id": "es_C1_concept_12",
+		"type": "concept",
+		"title": "El gerundio incorrecto / Incorrect gerund uses",
+		"bridge": "Your native language allows the gerund (-ing form) as a modifier in noun phrases: 'the box containing the documents', 'a law regulating the industry'. This is a major false friend. In the target language, the gerund cannot function as an adjective. You must use a relative clause: 'la caja que contiene los documentos', 'una ley que regula la industria'. At C1, you still produce these anglicisms because they sound natural to you. This error marks a non-native speaker immediately, even in advanced writing. Other incorrect gerund uses: using it as a subject ('llegando tarde es malo'), or as a future periphrasis (*'voy a viniendo' instead of 'voy a venir').",
+		"rule": "The gerund in the target language is only for: 1) Progressive actions (está lloviendo), 2) Adverbial clauses (llegó corriendo, sabiendo eso...), 3) Periphrases (ir + gerundio, andar + gerundio). It CANNOT be used as: 1) An adjective modifying a noun (incorrect: *la caja conteniendo documentos; correct: la caja que contiene documentos). 2) A subject (incorrect: *leyendo es importante; correct: leer es importante). 3) After prepositions (incorrect: *para comprando; correct: para comprar). 4) As a future periphrasis (incorrect: *voy a haciendo; correct: voy a hacer).",
+		"common_error": {
+			"wrong": "Recibí un correo electrónico conteniendo instrucciones.",
+			"correct": "Recibí un correo electrónico que contenía instrucciones.",
+			"correct_alt": "Recibí un correo electrónico con instrucciones.",
+			"explanation": "You use the gerund 'conteniendo' as an adjective modifying 'correo electrónico', calquing the English 'containing'. In the target language, the gerund cannot function adjectivally. Use a relative clause ('que contenía') or the preposition 'con'."
+		},
+		"levels": [
+			{
+				"level": 1,
+				"label": "La carta anunciando la fecha es incorrecta.",
+				"translation": "The letter announcing the date is incorrect (wrong).",
+				"examples": [{ "original": "La carta anunciando la fecha es incorrecta.", "translation": "The letter announcing the date is incorrect.", "note": "WRONG: gerund as adjective. Say: 'la carta que anuncia la fecha'." }]
+			},
+			{
+				"level": 2,
+				"label": "Vi a un hombre cruzando la calle. (correct: adverbial)",
+				"translation": "I saw a man crossing the street.",
+				"examples": [{ "original": "Vi a un hombre cruzando la calle.", "translation": "I saw a man crossing the street.", "note": "Correct: verb of perception + gerund (adverbial, not adjective). The gerund modifies 'vi', not 'hombre'." }]
+			},
+			{
+				"level": 3,
+				"label": "Aprobé gracias a una ley regulando el sector. (incorrect) / Aprobé gracias a una ley que regula el sector. (correct)",
+				"translation": "I passed thanks to a law regulating the sector.",
+				"examples": [
+					{ "original": "Aprobé gracias a una ley regulando el sector.", "translation": "I passed thanks to a law regulating the sector.", "note": "WRONG: gerund as adjective." },
+					{ "original": "Aprobé gracias a una ley que regula el sector.", "translation": "I passed thanks to a law that regulates the sector.", "note": "CORRECT: relative clause." }
+				]
+			}
+		],
+		"emoji": "🚫",
+		"phonetic": "",
+		"translations": { "en": "incorrect gerund uses" }
+	}
+]

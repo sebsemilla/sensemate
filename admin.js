@@ -23,6 +23,7 @@ function loadAdminPanel() {
 
             <div class="admin-tabs">
                 <button class="admin-tab active" data-tab="feedback">📢 Feedback</button>
+                <button class="admin-tab" data-tab="songs" id="adminTabSongs">🎵 Canciones</button>
                 <button class="admin-tab" data-tab="stats">📊 Estadísticas</button>
                 <button class="admin-tab" data-tab="contributors">👥 Contributores</button>
                 <button class="admin-tab" data-tab="tools">🔧 Herramientas</button>
@@ -48,10 +49,23 @@ function loadAdminPanel() {
     });
 
     _adminLoadTab('feedback');
+
+    // Badge de canciones pendientes en el tab "Canciones"
+    fetch(_API_HOST + '/admin/songs', { headers: { 'x-admin-token': ADMIN_TOKEN } })
+        .then(r => r.json())
+        .then(songs => {
+            const pending = songs.filter(s => s.status === 'pending').length;
+            if (pending > 0) {
+                const tab = document.getElementById('adminTabSongs');
+                if (tab) tab.insertAdjacentHTML('beforeend',
+                    `<span class="admin-music-badge">Música · ${pending}</span>`);
+            }
+        })
+        .catch(() => {});
 }
 
 async function _adminFetchFeedback() {
-    const res = await fetch('http://localhost:3000/admin/feedback', {
+    const res = await fetch(_API_HOST + '/admin/feedback', {
         headers: { 'x-admin-token': ADMIN_TOKEN }
     });
     if (!res.ok) throw new Error('Error al cargar feedback');
@@ -65,6 +79,8 @@ async function _adminLoadTab(tab) {
     try {
         if (tab === 'feedback') {
             await _adminRenderFeedback(content);
+        } else if (tab === 'songs') {
+            await _adminRenderSongs(content);
         } else if (tab === 'stats') {
             await _adminRenderStats(content);
         } else if (tab === 'contributors') {
@@ -258,7 +274,7 @@ function _adminRenderTools(container) {
     document.getElementById('adminClearAllBtn').addEventListener('click', async () => {
         if (!confirm('¿Eliminar TODO el feedback? Esta acción no se puede deshacer.')) return;
         try {
-            const res = await fetch('http://localhost:3000/admin/feedback', {
+            const res = await fetch(_API_HOST + '/admin/feedback', {
                 method: 'DELETE',
                 headers: { 'x-admin-token': ADMIN_TOKEN }
             });
@@ -278,7 +294,7 @@ function _adminRenderTools(container) {
 }
 
 async function _adminDeleteEntry(id) {
-    const res = await fetch(`http://localhost:3000/admin/feedback/${id}`, {
+    const res = await fetch(`${_API_HOST}/admin/feedback/${id}`, {
         method: 'DELETE',
         headers: { 'x-admin-token': ADMIN_TOKEN }
     });
@@ -286,7 +302,7 @@ async function _adminDeleteEntry(id) {
 }
 
 async function _adminMarkRead(id) {
-    await fetch(`http://localhost:3000/admin/feedback/${id}/read`, {
+    await fetch(`${_API_HOST}/admin/feedback/${id}/read`, {
         method: 'PATCH',
         headers: { 'x-admin-token': ADMIN_TOKEN }
     });
@@ -307,7 +323,7 @@ const _INTERVAL_LABELS = {
 };
 
 async function _adminFetchContributors() {
-    const res = await fetch('http://localhost:3000/admin/contributors', {
+    const res = await fetch(_API_HOST + '/admin/contributors', {
         headers: { 'x-admin-token': ADMIN_TOKEN }
     });
     if (!res.ok) throw new Error('Error al cargar contribuidores');
@@ -315,7 +331,7 @@ async function _adminFetchContributors() {
 }
 
 async function _adminFetchPublications() {
-    const res = await fetch('http://localhost:3000/admin/publications', {
+    const res = await fetch(_API_HOST + '/admin/publications', {
         headers: { 'x-admin-token': ADMIN_TOKEN }
     });
     if (!res.ok) throw new Error('Error al cargar publicaciones');
@@ -385,7 +401,7 @@ function _adminRenderContribList(container, contributors, publications) {
         btn.addEventListener('click', async () => {
             const id     = btn.dataset.id;
             const status = btn.dataset.status;
-            await fetch(`http://localhost:3000/admin/contributors/${id}`, {
+            await fetch(`${_API_HOST}/admin/contributors/${id}`, {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json', 'x-admin-token': ADMIN_TOKEN },
                 body: JSON.stringify({ status })
@@ -397,7 +413,7 @@ function _adminRenderContribList(container, contributors, publications) {
     container.querySelectorAll('.admin-contrib-delete-btn').forEach(btn => {
         btn.addEventListener('click', async () => {
             if (!confirm(`¿Eliminar contribuidor "${btn.dataset.name}" y todas sus publicaciones?`)) return;
-            await fetch(`http://localhost:3000/admin/contributors/${btn.dataset.id}`, {
+            await fetch(`${_API_HOST}/admin/contributors/${btn.dataset.id}`, {
                 method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN }
             });
             _adminLoadTab('contributors');
@@ -516,7 +532,7 @@ function _adminRenderPubsList(container, contributors, publications, filterContr
 
     container.querySelectorAll('.admin-pub-toggle').forEach(toggle => {
         toggle.addEventListener('change', async () => {
-            await fetch(`http://localhost:3000/admin/publications/${toggle.dataset.id}`, {
+            await fetch(`${_API_HOST}/admin/publications/${toggle.dataset.id}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json', 'x-admin-token': ADMIN_TOKEN },
                 body: JSON.stringify({ active: toggle.checked })
@@ -539,7 +555,7 @@ function _adminRenderPubsList(container, contributors, publications, filterContr
     container.querySelectorAll('.admin-pub-delete-btn').forEach(btn => {
         btn.addEventListener('click', async () => {
             if (!confirm('¿Eliminar esta publicación?')) return;
-            await fetch(`http://localhost:3000/admin/publications/${btn.dataset.id}`, {
+            await fetch(`${_API_HOST}/admin/publications/${btn.dataset.id}`, {
                 method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN }
             });
             const pubs = await _adminFetchPublications();
@@ -735,8 +751,8 @@ function _adminPubFormModal(contributors, existingPub, defaultContribId, onSave)
 
         try {
             const url    = isEdit
-                ? `http://localhost:3000/admin/publications/${existingPub.id}`
-                : 'http://localhost:3000/admin/publications';
+                ? `${_API_HOST}/admin/publications/${existingPub.id}`
+                : _API_HOST + '/admin/publications';
             const method = isEdit ? 'PUT' : 'POST';
             const res = await fetch(url, {
                 method,
@@ -759,7 +775,7 @@ function _adminPubFormModal(contributors, existingPub, defaultContribId, onSave)
 // ─── Admin: Membresías ────────────────────────────────────────
 
 async function _adminRenderMembership(container) {
-    const res  = await fetch('http://localhost:3000/admin/membership', {
+    const res  = await fetch(_API_HOST + '/admin/membership', {
         headers: { 'x-admin-token': ADMIN_TOKEN }
     });
     if (!res.ok) throw new Error('Error al cargar membresías');
@@ -885,7 +901,7 @@ async function _adminRenderMembership(container) {
                     annualPrice:  parseFloat(document.getElementById('memRegAnnual').value)
                 }
             };
-            const res = await fetch('http://localhost:3000/admin/membership/config', {
+            const res = await fetch(_API_HOST + '/admin/membership/config', {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json', 'x-admin-token': ADMIN_TOKEN },
                 body: JSON.stringify(body)
@@ -908,7 +924,7 @@ async function _adminRenderMembership(container) {
     container.querySelectorAll('.admin-mem-activate-btn').forEach(btn => {
         btn.addEventListener('click', async () => {
             const id = btn.dataset.id;
-            await fetch(`http://localhost:3000/admin/membership/subscriptions/${id}`, {
+            await fetch(`${_API_HOST}/admin/membership/subscriptions/${id}`, {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json', 'x-admin-token': ADMIN_TOKEN },
                 body: JSON.stringify({ status: 'active' })
@@ -922,11 +938,124 @@ async function _adminRenderMembership(container) {
         btn.addEventListener('click', async () => {
             if (!confirm('¿Eliminar este suscriptor?')) return;
             const id = btn.dataset.id;
-            await fetch(`http://localhost:3000/admin/membership/subscriptions/${id}`, {
+            await fetch(`${_API_HOST}/admin/membership/subscriptions/${id}`, {
                 method: 'DELETE',
                 headers: { 'x-admin-token': ADMIN_TOKEN }
             });
             _adminLoadTab('membership');
         });
     });
+}
+
+// ─── Tab: Canciones pendientes ────────────────────────────────
+
+async function _adminRenderSongs(container) {
+    const res = await fetch(_API_HOST + '/admin/songs', {
+        headers: { 'x-admin-token': ADMIN_TOKEN }
+    });
+    if (!res.ok) throw new Error('Error al cargar canciones');
+    const songs = await res.json();
+
+    const pending  = songs.filter(s => s.status === 'pending');
+    const approved = songs.filter(s => s.status === 'approved');
+    const rejected = songs.filter(s => s.status === 'rejected');
+
+    function songCard(s) {
+        const date = new Date(s.submittedAt).toLocaleString('es-AR', {
+            day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'
+        });
+        const statusLabel = { pending: '⏳ Pendiente', approved: '✅ Aprobada', rejected: '❌ Rechazada' }[s.status] || s.status;
+        const statusCls   = { pending: 'asong-status--pending', approved: 'asong-status--approved', rejected: 'asong-status--rejected' }[s.status] || '';
+        return `
+        <div class="asong-card" data-id="${s.id}">
+            <div class="asong-card-header">
+                <div class="asong-meta">
+                    <span class="asong-artist">${escapeHtml(s.artistName)}</span>
+                    <span class="asong-sep">·</span>
+                    <span class="asong-song">${escapeHtml(s.songTitle)}</span>
+                    <span class="asong-lang">${s.language.toUpperCase()}${s.country ? ' · ' + escapeHtml(s.country) : ''}</span>
+                </div>
+                <span class="asong-status ${statusCls}">${statusLabel}</span>
+            </div>
+            <div class="asong-submitter">👤 ${escapeHtml(s.submittedBy)} · 🕒 ${date}</div>
+            ${s.translations?.length ? `<div class="asong-has-trans">🌐 ${s.translations.length} traducción${s.translations.length > 1 ? 'es' : ''}: ${s.translations.map(t => t.lang.toUpperCase()).join(', ')}</div>` : ''}
+            <div class="asong-lyrics-preview">${escapeHtml(s.lyrics.slice(0, 160))}${s.lyrics.length > 160 ? '…' : ''}</div>
+            <div class="asong-actions">
+                <button class="asong-btn asong-btn--view" data-id="${s.id}">👁 Ver completo</button>
+                ${s.status !== 'approved' ? `<button class="asong-btn asong-btn--approve" data-id="${s.id}">✅ Aprobar</button>` : ''}
+                ${s.status !== 'rejected' ? `<button class="asong-btn asong-btn--reject" data-id="${s.id}">❌ Rechazar</button>` : ''}
+                <button class="asong-btn asong-btn--delete" data-id="${s.id}">🗑 Eliminar</button>
+            </div>
+        </div>`;
+    }
+
+    container.innerHTML = `
+        <div class="asong-summary">
+            <span class="asong-chip asong-chip--pending">⏳ ${pending.length} pendientes</span>
+            <span class="asong-chip asong-chip--approved">✅ ${approved.length} aprobadas</span>
+            <span class="asong-chip asong-chip--rejected">❌ ${rejected.length} rechazadas</span>
+        </div>
+        ${songs.length === 0
+            ? `<div class="admin-empty">🎵 No hay canciones enviadas aún.</div>`
+            : `<div class="asong-list">${[...pending, ...approved, ...rejected].map(songCard).join('')}</div>`
+        }
+    `;
+
+    // Ver completo
+    container.querySelectorAll('.asong-btn--view').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const s = songs.find(x => x.id === btn.dataset.id);
+            if (!s) return;
+            const overlay = document.createElement('div');
+            overlay.className = 'asong-overlay';
+            overlay.innerHTML = `
+                <div class="asong-modal">
+                    <div class="asong-modal-header">
+                        <strong>${escapeHtml(s.artistName)} — ${escapeHtml(s.songTitle)}</strong>
+                        <button class="asong-modal-close">✕</button>
+                    </div>
+                    <div class="asong-modal-cols">
+                        <div class="asong-modal-col">
+                            <div class="asong-modal-col-label">${s.language.toUpperCase()}</div>
+                            <pre class="asong-modal-pre">${escapeHtml(s.lyrics)}</pre>
+                        </div>
+                        ${(s.translations || []).map(t => `
+                        <div class="asong-modal-col">
+                            <div class="asong-modal-col-label">${t.lang.toUpperCase()}</div>
+                            <pre class="asong-modal-pre">${escapeHtml(t.text)}</pre>
+                        </div>`).join('')}
+                    </div>
+                </div>`;
+            document.body.appendChild(overlay);
+            overlay.querySelector('.asong-modal-close').addEventListener('click', () => overlay.remove());
+            overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+        });
+    });
+
+    async function patchSong(id, status) {
+        await fetch(`${_API_HOST}/admin/songs/${id}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json', 'x-admin-token': ADMIN_TOKEN },
+            body: JSON.stringify({ status })
+        });
+        _adminLoadTab('songs');
+    }
+
+    container.querySelectorAll('.asong-btn--approve').forEach(btn =>
+        btn.addEventListener('click', () => patchSong(btn.dataset.id, 'approved'))
+    );
+    container.querySelectorAll('.asong-btn--reject').forEach(btn =>
+        btn.addEventListener('click', () => patchSong(btn.dataset.id, 'rejected'))
+    );
+    container.querySelectorAll('.asong-btn--delete').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            if (!confirm('¿Eliminar esta canción?')) return;
+            await fetch(`${_API_HOST}/admin/songs/${btn.dataset.id}`, {
+                method: 'DELETE',
+                headers: { 'x-admin-token': ADMIN_TOKEN }
+            });
+            _adminLoadTab('songs');
+        });
+    });
+}
 }

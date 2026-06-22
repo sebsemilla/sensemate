@@ -331,7 +331,7 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
 
             <!-- Card con flip -->
             <div class="prac-card-container" id="pracCardContainer">
-                <div class="prac-card ${card.type==='dialogue'?'prac-card--dialogue':''}" id="pracCard">
+                <div class="prac-card ${card.type==='dialogue'?'prac-card--dialogue':card.type==='rule'||card.type==='tf'||card.type==='fill'||card.type==='odd'?'prac-card--rule':''}" id="pracCard">
 
                     ${card.type === 'dialogue' ? `
                     <div class="prac-card-front prac-card-front--dialogue">
@@ -346,6 +346,70 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
                         </div>
                         ${card.note?`<div class="prac-dialogue-note">💡 ${card.note}</div>`:''}
                     </div>
+
+                    ` : card.type === 'rule' ? `
+                    <div class="prac-card-front prac-card-front--rule">
+                        <div class="prac-card-emoji">${card.emoji}</div>
+                        <div class="prac-card-word">${card.word}</div>
+                        <div class="prac-rule-front">${card.front.replace(/\n/g,'<br>')}</div>
+                        <div class="prac-card-hint">Toca para ver los ejemplos</div>
+                    </div>
+                    <div class="prac-card-back prac-card-back--rule">
+                        <div class="prac-card-word prac-card-word--sm">${card.word}</div>
+                        <div class="prac-rule-items">
+                            ${(card.backItems||[]).map(item=>`
+                                <div class="prac-rule-item${item.highlight?' prac-rule-item--hl':''}">
+                                    ${item.label}
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    ` : card.type === 'tf' ? `
+                    <div class="prac-card-front prac-card-front--rule">
+                        <div class="prac-card-emoji">${card.emoji}</div>
+                        <div class="prac-card-word">${card.word}</div>
+                        <div class="prac-rule-front">${card.front}</div>
+                        <div class="prac-tf-btns">
+                            <span class="prac-tf-btn">✓ Verdadero</span>
+                            <span class="prac-tf-btn">✗ Falso</span>
+                        </div>
+                        <div class="prac-card-hint">Toca la carta para ver la respuesta</div>
+                    </div>
+                    <div class="prac-card-back prac-card-back--rule">
+                        <div class="prac-rule-answer ${card.answer ? 'prac-rule-answer--true' : 'prac-rule-answer--false'}">
+                            ${card.answer ? '✓ Verdadero' : '✗ Falso'}
+                        </div>
+                        <div class="prac-rule-explanation">${card.explanation}</div>
+                    </div>
+
+                    ` : card.type === 'fill' ? `
+                    <div class="prac-card-front prac-card-front--rule">
+                        <div class="prac-card-emoji">${card.emoji}</div>
+                        <div class="prac-card-word">${card.word}</div>
+                        <div class="prac-rule-front">${card.front}</div>
+                        <div class="prac-card-hint">Pensá la respuesta y toca para revelar</div>
+                    </div>
+                    <div class="prac-card-back prac-card-back--rule">
+                        <div class="prac-rule-answer prac-rule-answer--fill">${card.answer}</div>
+                        <div class="prac-rule-explanation">${card.explanation}</div>
+                    </div>
+
+                    ` : card.type === 'odd' ? `
+                    <div class="prac-card-front prac-card-front--rule">
+                        <div class="prac-card-emoji">${card.emoji}</div>
+                        <div class="prac-card-word">${card.word}</div>
+                        <div class="prac-rule-front">${card.front}</div>
+                        <div class="prac-odd-options">
+                            ${(card.options||[]).map((opt,i)=>`<span class="prac-odd-opt">${String.fromCharCode(97+i)}) ${opt}</span>`).join('')}
+                        </div>
+                        <div class="prac-card-hint">Encontrá el intruso y toca para ver</div>
+                    </div>
+                    <div class="prac-card-back prac-card-back--rule">
+                        <div class="prac-rule-answer prac-rule-answer--fill">🔍 ${card.answer}</div>
+                        <div class="prac-rule-explanation">${card.explanation}</div>
+                    </div>
+
                     ` : `
                     <div class="prac-card-front">
                         ${card.image
@@ -415,17 +479,19 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
 
     pracCard.addEventListener('click', flipCard);
 
-    // ── Audio ──────────────────────────────────────────────────
-    function speak(word) {
-        const u   = new SpeechSynthesisUtterance(word);
-        const map = { es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT', pt:'pt-BR' };
-        u.lang    = map[targetLang] || 'es-ES';
-        u.rate    = 0.85;
-        window.speechSynthesis.cancel();
-        window.speechSynthesis.speak(u);
+    // ── Audio (deshabilitado para módulo PRON) ────────────────
+    if (selectedLevel !== 'PRON') {
+        function speak(word) {
+            const u   = new SpeechSynthesisUtterance(word);
+            const map = { es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT', pt:'pt-BR' };
+            u.lang    = map[targetLang] || 'es-ES';
+            u.rate    = 0.85;
+            window.speechSynthesis.cancel();
+            window.speechSynthesis.speak(u);
+        }
+        document.getElementById('pracAudioFront')?.addEventListener('click', e => { e.stopPropagation(); speak(card.word); });
+        document.getElementById('pracAudioBack')?.addEventListener('click',  e => { e.stopPropagation(); speak(card.word); });
     }
-    document.getElementById('pracAudioFront').addEventListener('click', e => { e.stopPropagation(); speak(card.word); });
-    document.getElementById('pracAudioBack').addEventListener('click',  e => { e.stopPropagation(); speak(card.word); });
 
     // ── Avanzar con lógica de repetición ─────────────────────
     function advance(state) {

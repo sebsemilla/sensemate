@@ -1,0 +1,174 @@
+{
+	"id": "es_b1_concept_10",
+	"type": "concept",
+	"title": "Discurso indirecto: reportar lo que dijo alguien",
+	"bridge": "In italiano, quando riporti le parole di qualcuno, cambi i tempi verbali (discorso indiretto). Ad esempio: 'Vengo' → 'Ha detto che sarebbe venuto'. Lo spagnolo segue le stesse regole di concordanza temporale, con lievi differenze. La principale è che in spagnolo, dopo un verbo al passato (dijo, preguntó), il presente di indicativo può rimanere presente nella subordinata se l'azione è ancora attuale o futura rispetto al momento in cui si parla, mentre in italiano tendiamo a spostare tutto indietro. Ad esempio: 'Dijo que viene mañana' (spagnolo) vs 'Ha detto che sarebbe venuto domani' (italiano). In spagnolo è accettabile mantenere il presente per maggiore immediatezza. Non è un errore, ma una differenza stilistica che devi conoscere.",
+	"rule": "Nel discorso indiretto in spagnolo, se il verbo della principale è al presente (dice, afirma), i tempi della subordinata rimangono invariati. Se il verbo principale è al passato (dijo, afirmó), si applicano questi cambi: presente → imperfecto o presente (se attuale); futuro → condicional; pretérito perfecto → pluscuamperfecto; pretérito indefinido → pluscuamperfecto o imperfecto. L'uso del presente invece dell'imperfetto è comune in spagnolo per azioni future o ancora vere.",
+	"common_error": {
+		"wrong": "Dijo que vendrá mañana.",
+		"correct": "Dijo que vendría mañana.",
+		"correct_alt": "Dijo que viene mañana.",
+		"explanation": "In italiano 'Ha detto che verrà domani' (futuro) è accettabile, ma in spagnolo standard dopo 'dijo' (passato) si usa il condizionale 'vendría' per il futuro nel passato. Tuttavia, è molto comune anche mantenere il presente 'viene' per azioni future vicine. L'uso del futuro 'vendrá' è considerato un errore perché il futuro si riferisce al momento del discorso diretto, non al passato."
+	},
+	"levels": [
+		{
+			"level": 1,
+			"label": "Presente → Presente / Imperfecto",
+			"translation": "Presente → Presente / Imperfetto",
+			"examples": [
+				{
+					"original": "Dice: 'Estudio español.' → Dice que estudia español.",
+					"translation": "Dice: 'Studio spagnolo.' → Dice che studia spagnolo.",
+					"note": "Verbo principale al presente: nessun cambiamento. Come in italiano."
+				}
+			]
+		},
+		{
+			"level": 2,
+			"label": "Pasado → Condicional",
+			"translation": "Passato → Condizionale",
+			"examples": [
+				{
+					"original": "Dijo: 'Iré mañana.' → Dijo que iría mañana.",
+					"translation": "Disse: 'Andrò domani.' → Disse che sarebbe andato domani.",
+					"note": "Futuro nel passato: l'italiano usa il condizionale passato (sarebbe andato), lo spagnolo usa il condizionale semplice (iría). Differenza, ma entrambi sono condizionali."
+				}
+			]
+		},
+		{
+			"level": 3,
+			"label": "Presente attuale vs pasado",
+			"translation": "Presente attuale vs passato",
+			"examples": [
+				{
+					"original": "Dijo: 'El café es caro.' → Dijo que el café es caro / era caro.",
+					"translation": "Disse: 'Il caffè è caro.' → Disse che il caffè è caro / era caro.",
+					"note": "Se l'affermazione è ancora vera (il caffè è ancora caro), lo spagnolo permette il presente. L'italiano preferisce l'imperfetto ('era caro') ma anche il presente è possibile in contesti informali. Flessibilità simile."
+				}
+			]
+		}
+	],
+	"emoji": "🗣️",
+	"phonetic": "",
+	"translations": { "pt": "" }
+}
+
+{
+	"id": "es_b1_concept_11",
+	"type": "concept",
+	"title": "Por vs Para avanzado: mucho más que 'per'",
+	"bridge": "In italiano usi 'per' per quasi tutto: causa, scopo, destinatario, durata, prezzo, opinione. In spagnolo, 'por' e 'para' dividono questi usi. Questa è una delle maggiori interferenze per chi parla italiano, perché tendi a usare 'por' come se fosse 'per' ovunque. A livello B1, devi imparare le distinzioni chiave: 'para' si usa per scopo, destinatario, scadenze, opinione, confronto; 'por' per causa, mezzo, durata, prezzo, scambio, sostituzione, azione non completata. La buona notizia: alcuni usi sono identici all'italiano (es. 'grazie per' = 'gracias por'). La cattiva: altri sono opposti ('per me' = 'para mí' se è opinione; 'per me' = 'por mí' se è sostituzione).",
+	"rule": "Regole essenziali B1: usa 'para' per: 1) scopo/finalità (Estudio para aprender), 2) destinatario (Este regalo es para ti), 3) scadenza (Para mañana), 4) opinione (Para mí es difícil), 5) confronto (Para su edad, corre bien). Usa 'por' per: 1) causa (Lo hice por miedo), 2) mezzo (Viajo por tren), 3) durata (Estudié por dos horas), 4) prezzo (Lo compré por 10 euros), 5) scambio/sostituzione (Te cambio mi silla por la tuya), 6) azione non completata (Está por llegar).",
+	"common_error": {
+		"wrong": "Este regalo es por ti.",
+		"correct": "Este regalo es para ti.",
+		"correct_alt": "",
+		"explanation": "In italiano 'Questo regalo è per te' usa 'per'. In spagnolo, il destinatario richiede 'para', non 'por'. Questo è l'errore più comune tra gli italiani. Ricorda: 'para' per chi riceve qualcosa."
+	},
+	"levels": [
+		{
+			"level": 1,
+			"label": "Para: scopo e destinatario",
+			"translation": "Para: scopo e destinatario",
+			"examples": [
+				{
+					"original": "Estudio para ser médico. / Las flores son para mi madre.",
+					"translation": "Studio per fare il medico. / I fiori sono per mia madre.",
+					"note": "'Per' italiano = 'para' in questi usi. Attenzione: l'italiano usa 'per' anche per causa, che in spagnolo è 'por'."
+				}
+			]
+		},
+		{
+			"level": 2,
+			"label": "Por: causa e mezzo",
+			"translation": "Por: causa e mezzo",
+			"examples": [
+				{
+					"original": "Lo hice por amor. / Viajamos por avión.",
+					"translation": "L'ho fatto per amore. / Viaggiamo per aereo.",
+					"note": "Qui 'per' italiano = 'por' spagnolo. Causa e mezzo vogliono 'por'."
+				}
+			]
+		},
+		{
+			"level": 3,
+			"label": "Contrasti difficili: opinione vs sostituzione",
+			"translation": "Contrasti difficili: opinione vs sostituzione",
+			"examples": [
+				{
+					"original": "Para mí, es importante. (opinione) / Si no vienes, iré por ti. (sostituzione)",
+					"translation": "Per me, è importante. (opinione) / Se non vieni, vado per te. (sostituzione)",
+					"note": "Entrambi si traducono con 'per' in italiano, ma in spagnolo: opinione = 'para mí', sostituzione = 'por ti'. Esercitati a distinguere."
+				},
+				{
+					"original": "El libro está por leer. (azione non completata) / El libro está para leer. (pronto per essere letto)",
+					"translation": "Il libro è da leggere (non ancora letto). / Il libro è pronto per essere letto.",
+					"note": "Differenza sottile: 'estar por + infinito' = azione imminente o non ancora fatta; 'estar para + infinito' = azione pronta, sul punto di accadere. L'italiano distingue a volte con 'da' vs 'per', ma è un'area di possibile confusione."
+				}
+			]
+		}
+	],
+	"emoji": "🔀",
+	"phonetic": "",
+	"translations": { "pt": "" }
+}
+
+{
+	"id": "es_b1_concept_12",
+	"type": "concept",
+	"title": "Ser vs Estar avanzado: cambia el significado",
+	"bridge": "In italiano usi 'essere' sia per caratteristiche permanenti (essere alto) che per stati temporanei (essere stanco). In spagnolo, 'ser' esprime essenza, identità, caratteristiche intrinseche; 'estar' esprime stato, condizione, posizione, risultato di un'azione. A livello A2 hai già imparato le basi. A B1, la sfida sono i casi in cui la scelta del verbo cambia completamente il significato della frase. Ad esempio, 'es aburrido' significa 'è noioso (di carattere)', mentre 'está aburrido' significa 'è annoiato (in questo momento)'. L'italiano non fa questa distinzione con lo stesso verbo, quindi devi imparare queste coppie minime. La buona notizia: il concetto non è difficile, solo richiede memoria.",
+	"rule": "Regola B1: 'ser' + aggettivo = qualità intrinseca, permanente, oggettiva. 'estar' + aggettivo = stato temporaneo, condizione soggettiva, opinione su un evento. Coppie minime comuni: ser listo (essere intelligente) vs estar listo (essere pronto); ser bueno (essere buono, gentile) vs estar bueno (essere in buona salute, o anche 'essere sexy'); ser malo (essere cattivo, malvagio) vs estar malo (essere malato); ser rico (essere ricco) vs estar rico (essere delizioso, di cibo); ser aburrido (essere noioso) vs estar aburrido (essere annoiato).",
+	"common_error": {
+		"wrong": "¿Estás listo? Sí, soy listo.",
+		"correct": "¿Estás listo? Sí, estoy listo.",
+		"correct_alt": "Si la pregunta es de inteligencia: '¿Eres listo?'",
+		"explanation": "Un italiano potrebbe rispondere 'Soy listo' pensando 'sono intelligente', ma se la domanda era 'Sei pronto?', la risposta corretta è 'Estoy listo'. L'errore nasce dal fatto che 'essere listo' in italiano non esiste; 'listo' è solo 'pronto' o 'intelligente' a seconda del contesto. In spagnolo devi distinguere: 'estar listo' = essere pronto, 'ser listo' = essere intelligente."
+	},
+	"levels": [
+		{
+			"level": 1,
+			"label": "Ser = esencia, Estar = estado",
+			"translation": "Ser = essenza, Estar = stato",
+			"examples": [
+				{
+					"original": "Ella es bonita. / Ella está bonita hoy.",
+					"translation": "Lei è bella (di natura). / Lei è bella oggi (vestita bene, truccata).",
+					"note": "Distinzione classica: caratteristica permanente vs stato transitorio."
+				}
+			]
+		},
+		{
+			"level": 2,
+			"label": "Cambio di significato",
+			"translation": "Cambiamento di significato",
+			"examples": [
+				{
+					"original": "Juan es aburrido. / Juan está aburrido.",
+					"translation": "Juan è noioso (persona). / Juan è annoiato (stato d'animo).",
+					"note": "In italiano useremmo lo stesso aggettivo 'noioso' per entrambi, ma in spagnolo 'aburrido' cambia significato con il verbo. Memorizza queste coppie."
+				}
+			]
+		},
+		{
+			"level": 3,
+			"label": "Casos sorprendentes",
+			"translation": "Casi sorprendenti",
+			"examples": [
+				{
+					"original": "El chico es muy bueno. / Este queso está muy bueno.",
+					"translation": "Il ragazzo è molto buono (gentile). / Questo formaggio è molto buono (delizioso).",
+					"note": "'Bueno' con ser = bontà morale; con estar = sapore gradevole o salute. Attenzione: 'estar bueno' può anche significare 'essere attraente' in alcuni contesti."
+				},
+				{
+					"original": "Soy cansado (incorrecto) / Estoy cansado.",
+					"translation": "Sono stanco (corretto solo con estar).",
+					"note": "Le condizioni fisiche (stanco, malato, felice) vogliono sempre 'estar', mai 'ser'. Questo è facile se lo ricordi."
+				}
+			]
+		}
+	],
+	"emoji": "🔄",
+	"phonetic": "",
+	"translations": { "pt": "" }
+}
