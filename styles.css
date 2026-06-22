@@ -9815,9 +9815,11 @@ select {
         padding: 1.25rem 1.1rem !important;
     }
 
-    /* Slides: tighter spacing on small phones */
+    /* Slides: centrado vertical via margin auto (mismo truco que ob-auth-wrap) */
     .ob-slides-wrap {
         padding: 1.25rem 1rem;
+        margin-top: auto !important;
+        margin-bottom: auto !important;
     }
     .ob-slide-body {
         min-height: 180px;
