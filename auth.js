@@ -3,7 +3,9 @@
 
 const _SESSION_KEY  = 'ls_session';   // guarda { token, user } — NO datos sensibles
 const _OB_SEEN_KEY  = 'ls_onboarding_seen';
-const API_BASE      = `http://${window.location.hostname}:3000`;
+const API_BASE      = window.location.hostname === 'localhost'
+    ? `http://localhost:3000`
+    : window.location.origin;
 
 // ─── Helpers internos ─────────────────────────────────────────
 

@@ -265,7 +265,7 @@ function _bindLogin() {
 }
 
 async function _handleGoogleCredential({ credential }) {
-    const API_BASE = `http://${window.location.hostname}:3000`;
+    const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:3000' : window.location.origin;
     try {
         const res  = await fetch(`${API_BASE}/auth/google`, {
             method:  'POST',
@@ -476,7 +476,7 @@ function _forgotFormHTML() {
 }
 
 function _bindForgot() {
-    const API_BASE = `http://${window.location.hostname}:3000`;
+    const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:3000' : window.location.origin;
 
     document.getElementById('obForgotBackBtn').addEventListener('click', () => {
         document.getElementById('obFormArea').innerHTML = _loginFormHTML();
@@ -511,7 +511,7 @@ function _bindForgot() {
 // --- Restablecer contraseña (abierto desde URL con ?reset_token=) ---
 
 function showResetPasswordForm(token) {
-    const API_BASE = `http://${window.location.hostname}:3000`;
+    const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:3000' : window.location.origin;
 
     const overlay = document.createElement('div');
     overlay.id        = 'resetOverlay';

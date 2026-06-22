@@ -52,8 +52,10 @@ const avatarStyles = {
     }
 };
 
-// API — resuelve automáticamente desde el host actual (funciona en localhost y en red local)
-const _API_HOST = `${window.location.protocol}//${window.location.hostname}:3000`;
+// API — localhost usa puerto 3000, producción usa el mismo origen
+const _API_HOST = window.location.hostname === 'localhost'
+    ? 'http://localhost:3000'
+    : window.location.origin;
 const API_URL   = `${_API_HOST}/translate`;
 // API_BASE is declared globally in auth.js
 
