@@ -1058,4 +1058,3 @@ async function _adminRenderSongs(container) {
         });
     });
 }
-}
