@@ -21,7 +21,7 @@ let currentMode = null;
 let currentUser = null;
 // Detectar idioma del navegador como default para primer uso
 const _browserLang   = (navigator.language || 'es').split('-')[0].toLowerCase();
-const _supportedLangs = ['es','en','fr','de','it','pt','zh','ja','ru','ar','ko','nl','pl','tr'];
+const _supportedLangs = ['es','en','fr','de','it','pt','gn','zh','ja','ru','ar','ko','nl','pl','tr'];
 let appUILanguage = localStorage.getItem('appUILanguage')
     || (_supportedLangs.includes(_browserLang) ? _browserLang : 'es');
 let currentTranslations = {};
@@ -237,6 +237,7 @@ function renderLanguageBar() {
                 <option value="de">Deutsch</option>
                 <option value="it">Italiano</option>
                 <option value="pt">Português</option>
+                <option value="gn">Guaraní</option>
             </select>
             <button id="swapLangBtn" class="swap-btn">⇄</button>
             <select id="langBarTarget" class="lang-select">
@@ -246,6 +247,7 @@ function renderLanguageBar() {
                 <option value="de">Deutsch</option>
                 <option value="it">Italiano</option>
                 <option value="pt">Português</option>
+                <option value="gn">Guaraní</option>
             </select>
         </div>
     `);
@@ -429,6 +431,7 @@ const _MISION_A1_FILES = {
     pt: 'sensemate_es_a1_pt.json',
     fr: 'español para franceses.json',
     de: 'sensemate_es_a1_de.json',
+    gn: 'sensemate_es_a1_gn.json',
 };
 
 // Solo los idiomas con A2 implementado
