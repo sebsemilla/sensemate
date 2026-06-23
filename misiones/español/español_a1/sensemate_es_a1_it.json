@@ -189,6 +189,133 @@
     }
   },
   {
+    "id": "es_A1_voc_01",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Saludos, despedidas y cortesía / Saluti, congedi e cortesia",
+    "bridge": "In italiano diciamo 'Ciao', 'Buongiorno', 'Buonasera', 'Buonanotte', 'Arrivederci', 'Grazie', 'Per favore', 'Scusa', 'Mi dispiace'. Lo spagnolo è molto simile: 'Hola', 'Buenos días', 'Buenas tardes', 'Buenas noches', 'Adiós', 'Gracias', 'Por favor', 'Perdón', 'Lo siento'. La differenza principale è l'uso dell'articolo con le professioni: in italiano diciamo 'sono un professore', ma in spagnolo si dice 'soy profesor' (senza articolo). Attenzione anche a 'ser' vs 'estar': in italiano usiamo 'essere' per tutto, ma in spagnolo 'estar' si usa per stati temporanei (es. 'Estoy cansado' – non 'Soy cansado').",
+    "rule": "Usa 'Hola' per saluti informali, e 'Buenos días' (mattina), 'Buenas tardes' (pomeriggio), 'Buenas noches' (sera/notte) per quelli formali. Per i congedi: 'Adiós' (formale/definitivo), 'Hasta luego' (a presto), 'Hasta mañana' (a domani). Cortesia: 'Gracias' (grazie), 'Por favor' (per favore), 'Perdón' (scusa/chiedo scusa), 'Lo siento' (mi dispiace). Rispondi a 'Gracias' con 'De nada'.",
+    "common_error": {
+      "wrong": "Soy un profesor.",
+      "explanation": "In italiano si usa l'articolo indeterminativo con le professioni ('sono un professore'), ma in spagnolo no. L'articolo si omette dopo il verbo 'ser' quando si indica una professione, nazionalità o religione.",
+      "ejemplo_1": "Soy profesor.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Saludos y despedidas básicos",
+        "translation": "Saluti e congedi di base",
+        "examples": [
+          {
+            "original": "Hola.",
+            "translation": "Ciao.",
+            "note": "Saluto informale."
+          },
+          {
+            "original": "Adiós.",
+            "translation": "Arrivederci.",
+            "note": "Congedo formale."
+          },
+          {
+            "original": "Buenos días.",
+            "translation": "Buongiorno.",
+            "note": "Fino a mezzogiorno."
+          },
+          {
+            "original": "Buenas tardes.",
+            "translation": "Buon pomeriggio.",
+            "note": "Dal mezzogiorno al tramonto."
+          },
+          {
+            "original": "Buenas noches.",
+            "translation": "Buonasera / Buonanotte.",
+            "note": "Sera o notte."
+          },
+          {
+            "original": "Hasta luego.",
+            "translation": "A presto.",
+            "note": "Congedo informale."
+          },
+          {
+            "original": "Hasta mañana.",
+            "translation": "A domani.",
+            "note": "Se ci si vede il giorno dopo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Expresiones de cortesía",
+        "translation": "Espressioni di cortesia",
+        "examples": [
+          {
+            "original": "Gracias.",
+            "translation": "Grazie.",
+            "note": "Ringraziamento."
+          },
+          {
+            "original": "Por favor.",
+            "translation": "Per favore.",
+            "note": "Richiesta cortese."
+          },
+          {
+            "original": "Perdón.",
+            "translation": "Scusa / Chiedo scusa.",
+            "note": "Per scusarsi o attirare l'attenzione."
+          },
+          {
+            "original": "Lo siento.",
+            "translation": "Mi dispiace.",
+            "note": "Per dispiacere più profondo."
+          },
+          {
+            "original": "De nada.",
+            "translation": "Prego / Di niente.",
+            "note": "Risposta a 'Gracias'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Combinaciones y contexto",
+        "translation": "Combinazioni e contesto",
+        "examples": [
+          {
+            "original": "¡Muchas gracias por tu ayuda!",
+            "translation": "Grazie mille per il tuo aiuto!",
+            "note": "Ringraziamento rafforzato con 'muchas' e 'por'."
+          },
+          {
+            "original": "Perdón, no entendí. ¿Puedes repetir?",
+            "translation": "Scusa, non ho capito. Puoi ripetere?",
+            "note": "Uso di 'perdón' per chiedere attenzione."
+          },
+          {
+            "original": "Lo siento mucho, ha sido culpa mía.",
+            "translation": "Mi dispiace molto, è stata colpa mia.",
+            "note": "Uso di 'lo siento' per un dispiacere serio."
+          },
+          {
+            "original": "Hola, buenos días, ¿cómo está usted?",
+            "translation": "Ciao, buongiorno, come sta? (formale)",
+            "note": "Combinazione di saluto con 'usted' formale."
+          },
+          {
+            "original": "Hasta luego, que tengas buen día.",
+            "translation": "A presto, che tu abbia una buona giornata.",
+            "note": "Congedo con desiderio (subjuntivo 'que tengas')."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙋",
+    "phonetic": "",
+    "translations": {
+      "it": "Saluti, congedi e cortesia"
+    }
+  },
+  {
     "id": "es_A1_concept_02",
     "type": "concept",
     "category": "Gramática",
@@ -358,6 +485,103 @@
     }
   },
   {
+    "id": "es_A1_voc_02",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Números cardinales y ordinales / Numeri cardinali e ordinali",
+    "bridge": "In italiano i numeri sono simili: 'uno, due, tre, quattro, cinque...' e in spagnolo 'uno, dos, tres, cuatro, cinco...'. Le differenze principali sono: 1) In spagnolo i numeri da 16 a 19 si scrivono attaccati (dieciséis, diecisiete), mentre in italiano sono separati (sedici, diciassette) ma comunque simili. 2) Gli ordinali in spagnolo concordano in genere e numero con il sostantivo (primero/primera, primeros/primeras), mentre in italiano spesso si usa il numero cardinale (es. 'il cinque piano' invece di 'il quinto piano'). 3) Attenzione all'apocope: 'primero' diventa 'primer' davanti a sostantivo maschile singolare (es. 'el primer día'), come in italiano a volte si usa 'primo' invariato, ma non sempre. 4) In spagnolo 'ciento' si usa prima di altri numeri ('ciento uno'), mentre 'cien' si usa da solo o prima di nomi ('cien euros').",
+    "rule": "Numeri cardinali: 0 cero, 1 uno, 2 dos, 3 tres, 4 cuatro, 5 cinco, 6 seis, 7 siete, 8 ocho, 9 nueve, 10 diez, 11 once, 12 doce, 13 trece, 14 catorce, 15 quince, 16 dieciséis, 17 diecisiete, 18 dieciocho, 19 diecinueve, 20 veinte, 30 treinta, 40 cuarenta, 50 cincuenta, 60 sesenta, 70 setenta, 80 ochenta, 90 noventa, 100 cien (o ciento), 101 ciento uno, 200 doscientos/as, 1000 mil. Ordinali: 1º primero (primer davanti a sostantivo maschile singolare), 2º segundo, 3º tercero (tercer), 4º cuarto, 5º quinto, 6º sexto, 7º séptimo, 8º octavo, 9º noveno, 10º décimo. Concordanza di genere: 'doscientas mujeres' (femminile), 'doscientos hombres' (maschile).",
+    "common_error": {
+      "wrong": "Doscientos mujeres.",
+      "explanation": "In italiano 'duecento' è invariabile, ma in spagnolo deve concordare con il sostantivo. 'Mujeres' è femminile, quindi si usa 'doscientas' (femminile). Questo è un errore comune per gli italiani che non sono abituati a far concordare i numeri.",
+      "ejemplo_1": "Doscientas mujeres.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Números básicos (0-20)",
+        "translation": "Numeri di base (0-20)",
+        "examples": [
+          {
+            "original": "cero, uno, dos, tres, cuatro",
+            "translation": "zero, uno, due, tre, quattro",
+            "note": "0-4."
+          },
+          {
+            "original": "cinco, seis, siete, ocho, nueve",
+            "translation": "cinque, sei, sette, otto, nove",
+            "note": "5-9."
+          },
+          {
+            "original": "diez, once, doce, trece, catorce",
+            "translation": "dieci, undici, dodici, tredici, quattordici",
+            "note": "10-14."
+          },
+          {
+            "original": "quince, dieciséis, diecisiete, dieciocho, diecinueve",
+            "translation": "quindici, sedici, diciassette, diciotto, diciannove",
+            "note": "15-19."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Decenas y centenas",
+        "translation": "Decine e centinaia",
+        "examples": [
+          {
+            "original": "veinte, treinta, cuarenta, cincuenta",
+            "translation": "venti, trenta, quaranta, cinquanta",
+            "note": "20-50."
+          },
+          {
+            "original": "sesenta, setenta, ochenta, noventa, cien",
+            "translation": "sessanta, settanta, ottanta, novanta, cento",
+            "note": "60-100."
+          },
+          {
+            "original": "doscientos, trescientos, cuatrocientos, quinientos",
+            "translation": "duecento, trecento, quattrocento, cinquecento",
+            "note": "Attenzione al genere: doscientas (femm.)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ordinales y combinaciones",
+        "translation": "Ordinali e combinazioni",
+        "examples": [
+          {
+            "original": "primero, segundo, tercero, cuarto, quinto",
+            "translation": "primo, secondo, terzo, quarto, quinto",
+            "note": "Ordinali 1-5."
+          },
+          {
+            "original": "Vivo en el quinto piso.",
+            "translation": "Vivo al quinto piano.",
+            "note": "Ordinale con 'piso'."
+          },
+          {
+            "original": "El año 2025: dos mil veinticinco.",
+            "translation": "L'anno 2025: duemilaventicinque.",
+            "note": "Combinazione di numeri."
+          },
+          {
+            "original": "El primer día de clase.",
+            "translation": "Il primo giorno di lezione.",
+            "note": "Apocope di 'primero' a 'primer' davanti a sostantivo maschile singolare."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "it": "Numeri cardinali e ordinali"
+    }
+  },
+  {
     "id": "es_A1_concept_03",
     "type": "concept",
     "category": "Gramática",
@@ -519,6 +743,83 @@
     "phonetic": "",
     "translations": {
       "it": "descrivere persone, oggetti e luoghi"
+    }
+  },
+  {
+    "id": "es_A1_voc_03",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Colores, formas y tamaños / Colori, forme e dimensioni",
+    "bridge": "In italiano i colori sono invariabili (es. 'camicia rossa', 'cappello rosso' – 'rosso' non cambia). In spagnolo, invece, i colori concordano in genere e numero con il sostantivo (es. 'camisa roja', 'coche rojo'). Eccezioni: colori come 'azul', 'verde', 'gris', 'marrón', 'rosa' sono invariabili. Gli italiani spesso dimenticano di cambiare la desinenza dei colori, dicendo 'camisa rojo' invece di 'roja'. Anche la posizione dell'aggettivo: in italiano va dopo il nome (come in spagnolo), quindi non c'è problema. Per le forme: 'cerchio' → 'círculo', 'quadrato' → 'cuadrado', 'triangolo' → 'triángulo'. Per le dimensioni: 'grande' → 'grande' (ma attenzione all'apocope 'gran' davanti a sostantivo singolare), 'piccolo' → 'pequeño', 'medio' → 'mediano'.",
+    "rule": "Colori: rojo/roja, azul (invariabile), verde (invariabile), amarillo/amarilla, negro/negra, blanco/blanca, gris (invariabile), marrón (invariabile), rosa (invariabile), naranja (o anaranjado/anaranjada). Forme: círculo, cuadrado, triángulo, rectángulo. Dimensioni: grande (apocope 'gran' davanti a sostantivo singolare), pequeño/pequeña, mediano/mediana, largo/larga, corto/corta. L'aggettivo concorda in genere e numero con il sostantivo e di solito viene dopo il nome.",
+    "common_error": {
+      "wrong": "Una camisa rojo.",
+      "explanation": "In italiano 'rosso' è invariabile, ma in spagnolo deve concordare con il sostantivo. 'Camisa' è femminile, quindi si usa 'roja' (femminile). Gli italiani spesso dimenticano questa concordanza.",
+      "ejemplo_1": "Una camisa roja.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Colores básicos",
+        "translation": "Colori di base",
+        "examples": [
+          {
+            "original": "rojo, azul, verde, amarillo",
+            "translation": "rosso, blu, verde, giallo",
+            "note": "Colori primari."
+          },
+          {
+            "original": "negro, blanco, gris",
+            "translation": "nero, bianco, grigio",
+            "note": "Colori neutri."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Formas y tamaños",
+        "translation": "Forme e dimensioni",
+        "examples": [
+          {
+            "original": "El círculo es rojo.",
+            "translation": "Il cerchio è rosso.",
+            "note": "Forma + colore."
+          },
+          {
+            "original": "La casa es grande y blanca.",
+            "translation": "La casa è grande e bianca.",
+            "note": "Dimensione + colore (concordanza)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Comparativos y usos",
+        "translation": "Comparativi e usi",
+        "examples": [
+          {
+            "original": "Mi coche es más pequeño que el tuyo.",
+            "translation": "La mia macchina è più piccola della tua.",
+            "note": "Comparativo con 'más... que'."
+          },
+          {
+            "original": "Prefiero el color rosa al naranja.",
+            "translation": "Preferisco il rosa all'arancione.",
+            "note": "Confronto tra colori."
+          },
+          {
+            "original": "Es un gran día.",
+            "translation": "È un gran giorno.",
+            "note": "Apocope di 'grande' a 'gran' davanti a sostantivo singolare."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "it": "Colori, forme e dimensioni"
     }
   },
   {
@@ -696,6 +997,78 @@
     }
   },
   {
+    "id": "es_A1_voc_04",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Días, meses y estaciones / Giorni, mesi e stagioni",
+    "bridge": "In italiano i giorni della settimana sono: 'lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica'. In spagnolo: 'lunes, martes, miércoles, jueves, viernes, sábado, domingo'. Sono molto simili, ma attenzione: in italiano si usa l'articolo determinativo con i giorni (es. 'il lunedì'), mentre in spagnolo si usa 'el lunes' solo quando si specifica un giorno particolare, non per abitudine (es. 'los lunes' per 'il lunedì' = ogni lunedì). I mesi sono quasi identici: 'gennaio' → 'enero', 'febbraio' → 'febrero', 'marzo' → 'marzo', 'aprile' → 'abril', 'maggio' → 'mayo', 'giugno' → 'junio', 'luglio' → 'julio', 'agosto' → 'agosto', 'settembre' → 'septiembre', 'ottobre' → 'octubre', 'novembre' → 'noviembre', 'dicembre' → 'diciembre'. Attenzione agli accenti: 'miércoles' e 'sábado' hanno l'accento. Le stagioni: 'primavera' (identica), 'verano' (estate), 'otoño' (autunno), 'invierno' (inverno). L'errore comune per gli italiani è omettere l'accento su 'miércoles' e 'sábado', e scrivere 'septiembre' con la 't' come in italiano ('settembre') invece di 'septiembre' (senza la seconda 't').",
+    "rule": "Giorni: lunes, martes, miércoles (con accento), jueves, viernes, sábado (con accento), domingo. Tutti maschili. Mesi: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre. Stagioni: primavera, verano, otoño (con accento), invierno. Per 'il lunedì' (in generale) si usa 'los lunes'. Per 'lunedì prossimo' si usa 'el lunes que viene'. Usa 'en' per i mesi e le stagioni (es. 'en enero').",
+    "common_error": {
+      "wrong": "Hoy es Miercoles.",
+      "explanation": "Due errori: 1) Scrivere il giorno con la maiuscola (in spagnolo i giorni non si scrivono con la maiuscola, a differenza dell'italiano). 2) Dimenticare l'accento su 'miércoles'. Gli italiani tendono a trascurare gli accenti perché in italiano sono meno frequenti.",
+      "ejemplo_1": "Hoy es miércoles.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Días y meses",
+        "translation": "Giorni e mesi",
+        "examples": [
+          {
+            "original": "lunes, martes, miércoles",
+            "translation": "lunedì, martedì, mercoledì",
+            "note": "Giorni della settimana."
+          },
+          {
+            "original": "enero, febrero, marzo",
+            "translation": "gennaio, febbraio, marzo",
+            "note": "Mesi."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Estaciones y fechas",
+        "translation": "Stagioni e date",
+        "examples": [
+          {
+            "original": "La primavera comienza en marzo.",
+            "translation": "La primavera comincia a marzo.",
+            "note": "Stagione + mese (preposizione 'en')."
+          },
+          {
+            "original": "Hoy es 5 de mayo.",
+            "translation": "Oggi è il 5 maggio.",
+            "note": "Data con 'de' + mese."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Expresiones con días",
+        "translation": "Espressioni con i giorni",
+        "examples": [
+          {
+            "original": "El lunes tengo una reunión.",
+            "translation": "Lunedì ho una riunione.",
+            "note": "Articolo 'el' davanti al giorno (senza preposizione)."
+          },
+          {
+            "original": "En verano hace mucho calor.",
+            "translation": "In estate fa molto caldo.",
+            "note": "Preposizione 'en' per le stagioni."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "it": "Giorni, mesi e stagioni"
+    }
+  },
+  {
     "id": "es_A1_concept_05",
     "type": "concept",
     "category": "Gramática",
@@ -865,6 +1238,78 @@
     }
   },
   {
+    "id": "es_A1_voc_05",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "La familia / La famiglia",
+    "bridge": "In italiano i membri della famiglia sono: 'padre, madre, fratello, sorella, nonno, nonna, zio, zia, cugino, cugina'. In spagnolo è quasi identico: 'padre, madre, hermano, hermana, abuelo, abuela, tío, tía, primo, prima'. Le differenze principali: 1) In italiano 'genitori' significa 'padre e madre', in spagnolo si dice 'padres' (plurale maschile). 2) 'Parente' in italiano significa 'parente' (generico), mentre in spagnolo 'pariente' significa 'parente' (esteso), ma 'padres' sono solo i genitori. 3) In italiano si usa l'articolo con i possessivi (es. 'il mio fratello'), ma in spagnolo no (es. 'mi hermano'). 4) Gli italiani spesso mettono l'articolo davanti alle professioni (es. 'Mi padre es un profesor' → errore, deve essere 'Mi padre es profesor').",
+    "rule": "Famiglia: padre (m), madre (f), hijo/hija (figlio/figlia), hermano/hermana (fratello/sorella), abuelo/abuela (nonno/nonna), tío/tía (zio/zia), primo/prima (cugino/cugina), sobrino/sobrina (nipote), cuñado/cuñada (cognato/cognata), suegro/suegra (suocero/suocera). Per 'genitori' si dice 'padres' (plurale). Per 'parenti' (estesi) si dice 'parientes'. I possessivi: mi, tu, su, nuestro, vuestro, su (non vogliono l'articolo).",
+    "common_error": {
+      "wrong": "Mi padre es un profesor.",
+      "explanation": "In italiano si dice 'mio padre è un professore' (con articolo), ma in spagnolo l'articolo si omette dopo il verbo 'ser' quando si indica una professione, nazionalità o religione. Questo è uno degli errori più comuni per gli italiani.",
+      "ejemplo_1": "Mi padre es profesor.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Familiares básicos",
+        "translation": "Parenti di base",
+        "examples": [
+          {
+            "original": "madre, padre, hermano, hermana",
+            "translation": "madre, padre, fratello, sorella",
+            "note": "Famiglia nucleare."
+          },
+          {
+            "original": "abuelo, abuela, tío, tía",
+            "translation": "nonno, nonna, zio, zia",
+            "note": "Nonni e zii."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Frases con la familia",
+        "translation": "Frasi con la famiglia",
+        "examples": [
+          {
+            "original": "Mi hermana es mayor que yo.",
+            "translation": "Mia sorella è più grande di me.",
+            "note": "Comparativo 'mayor que'."
+          },
+          {
+            "original": "Tengo dos primos y una prima.",
+            "translation": "Ho due cugini e una cugina.",
+            "note": "Genere: primo/prima."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Familia política y expresiones",
+        "translation": "Parenti acquisiti ed espressioni",
+        "examples": [
+          {
+            "original": "Mi cuñado es médico.",
+            "translation": "Mio cognato è medico.",
+            "note": "cuñado = cognato (senza articolo)."
+          },
+          {
+            "original": "Mis suegros viven en Madrid.",
+            "translation": "I miei suoceri vivono a Madrid.",
+            "note": "suegros = suoceri (preposizione 'en' per città)."
+          }
+        ]
+      }
+    ],
+    "emoji": "👪",
+    "phonetic": "",
+    "translations": {
+      "it": "La famiglia"
+    }
+  },
+  {
     "id": "es_A1_concept_06",
     "type": "concept",
     "category": "Gramática",
@@ -1026,6 +1471,73 @@
     "phonetic": "",
     "translations": {
       "it": "chiedere e dire l'ora, le date e i prezzi"
+    }
+  },
+  {
+    "id": "es_A1_voc_06",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "La casa / La casa",
+    "bridge": "In italiano diciamo 'casa, appartamento, stanze (soggiorno, camera da letto, cucina, bagno), mobili (tavolo, sedia, letto, armadio, divano), elettrodomestici (frigorifero, lavatrice, forno)'. In spagnolo è molto simile: 'casa, piso, salón (o sala), dormitorio (o habitación), cocina, baño, comedor, garaje, jardín, mesa, silla, cama, armario, sofá, nevera (o frigorífico), lavadora, horno'. Le differenze principali: 1) Il genere di alcuni sostantivi: 'el baño' (maschile) – in italiano 'il bagno' è maschile, quindi ok; 'la cocina' (femminile) – in italiano 'la cucina' è femminile, ok; ma 'el dormitorio' (maschile) – in italiano 'la camera' è femminile, quindi gli italiani potrebbero dire 'la dormitorio' (errore). 2) La preposizione per città: in italiano si dice 'a Madrid', in spagnolo si dice 'en Madrid' (non 'a'). 3) L'uso di 'estar' per la localizzazione: in italiano si usa 'essere' (es. 'il tavolo è in cucina'), ma in spagnolo si usa 'estar' (es. 'la mesa está en la cocina') – gli italiani spesso usano 'ser' (calco).",
+    "rule": "Stanze: salón (o sala), cocina, dormitorio (o habitación), baño, comedor, garaje, jardín, pasillo. Mobili: mesa, silla, cama, armario, sofá, estantería, escritorio. Elettrodomestici: nevera (o frigorífico), lavadora, horno, microondas, lavavajillas. Genere: 'el baño' (m), 'la cocina' (f), 'el dormitorio' (m), 'la habitación' (f). Per la posizione, usa 'estar' + 'en' (es. 'La mesa está en la cocina' – non 'es'). Per città, usa 'en' (es. 'Vivo en Madrid').",
+    "common_error": {
+      "wrong": "Vivo a Madrid.",
+      "explanation": "In italiano si usa la preposizione 'a' per le città (vivo a Roma, vado a Madrid), ma in spagnolo per indicare residenza o posizione si usa 'en'. Questo è un falso amico preposizionale molto comune per gli italiani.",
+      "ejemplo_1": "Vivo en Madrid.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Habitaciones",
+        "translation": "Stanze",
+        "examples": [
+          {
+            "original": "cocina, baño, dormitorio, salón",
+            "translation": "cucina, bagno, camera da letto, soggiorno",
+            "note": "Stanze principali."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Muebles y objetos",
+        "translation": "Mobili e oggetti",
+        "examples": [
+          {
+            "original": "La mesa está en el comedor.",
+            "translation": "Il tavolo è in sala da pranzo.",
+            "note": "Uso di 'estar' + 'en'."
+          },
+          {
+            "original": "La cama es nueva.",
+            "translation": "Il letto è nuovo.",
+            "note": "Uso di 'ser' per descrizione."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Electrodomésticos y acciones",
+        "translation": "Elettrodomestici e azioni",
+        "examples": [
+          {
+            "original": "Pongo la ropa en la lavadora.",
+            "translation": "Metto i panni in lavatrice.",
+            "note": "Verbo 'poner' + preposizione 'en'."
+          },
+          {
+            "original": "La nevera está llena de comida.",
+            "translation": "Il frigo è pieno di cibo.",
+            "note": "'Estar' + 'lleno de'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "it": "La casa"
     }
   },
   {
@@ -1195,6 +1707,73 @@
     "phonetic": "",
     "translations": {
       "it": "parlare di routine quotidiane e azioni abituali"
+    }
+  },
+  {
+    "id": "es_A1_voc_07",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "La ciudad / La città",
+    "bridge": "In italiano diciamo 'strada, piazza, supermercato, farmacia, banca, parco, cinema, ristorante, ospedale, scuola, stazione, aeroporto'. In spagnolo è molto simile: 'calle, plaza, supermercado, farmacia, banco, parque, cine, restaurante, hospital, escuela, estación, aeropuerto'. Le differenze principali: 1) 'Cinema' in italiano si traduce con 'cine' in spagnolo (non 'cinema'). 2) Il genere: 'el parque' (maschile) – in italiano 'il parco' è maschile, ok; 'la escuela' (femminile) – in italiano 'la scuola' è femminile, ok; ma 'el hospital' (maschile) – in italiano 'l'ospedale' è maschile, ok; 'el banco' (maschile) – in italiano 'la banca' è femminile, quindi gli italiani potrebbero dire 'la banco' (errore). 3) La preposizione per città: in italiano si dice 'a Madrid', in spagnolo si dice 'en Madrid' (errore comune). 4) Uso di 'estar' per localizzazione: gli italiani tendono a usare 'ser' (calco di 'essere').",
+    "rule": "Luoghi: calle (f), plaza (f), supermercado (m), farmacia (f), banco (m), parque (m), cine (m), restaurante (m), hospital (m), escuela (f), estación (f), aeropuerto (m). Usa 'estar' per la posizione: '¿Dónde está el banco?'. Usa 'ir a' per movimento: 'Voy al cine' (al = a + el). Per città, usa 'en' (es. 'Vivo en Madrid').",
+    "common_error": {
+      "wrong": "Voy al cinema con mis amigos.",
+      "explanation": "In italiano si dice 'cinema', ma in spagnolo la forma corretta è 'cine' (abbreviazione di 'cinematógrafo'). Questo è un falso amico lessicale molto comune.",
+      "ejemplo_1": "Voy al cine con mis amigos.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Lugares comunes",
+        "translation": "Luoghi comuni",
+        "examples": [
+          {
+            "original": "calle, plaza, parque, banco",
+            "translation": "strada, piazza, parco, banca",
+            "note": "Spazi pubblici."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ir a lugares",
+        "translation": "Andare in luoghi",
+        "examples": [
+          {
+            "original": "Voy al supermercado a comprar pan.",
+            "translation": "Vado al supermercato a comprare il pane.",
+            "note": "Destinazione + scopo con 'a'."
+          },
+          {
+            "original": "El hospital está cerca de la plaza.",
+            "translation": "L'ospedale è vicino alla piazza.",
+            "note": "Posizione con 'estar' e 'cerca de'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Dar direcciones con lugares",
+        "translation": "Dare indicazioni con luoghi",
+        "examples": [
+          {
+            "original": "La farmacia está a la derecha del banco.",
+            "translation": "La farmacia è a destra della banca.",
+            "note": "Direzione con 'a la derecha de'."
+          },
+          {
+            "original": "El cine está en la calle Mayor.",
+            "translation": "Il cinema è in via Maggiore.",
+            "note": "Posizione con 'en' + via."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏙️",
+    "phonetic": "",
+    "translations": {
+      "it": "La città"
     }
   },
   {
@@ -1377,6 +1956,73 @@
     }
   },
   {
+    "id": "es_A1_voc_08",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Profesiones / Professioni",
+    "bridge": "In italiano diciamo 'insegnante, medico, infermiere, ingegnere, studente, cuoco, autista, avvocato, architetto, giornalista, pompiere, poliziotto, pilota, assistente di volo'. In spagnolo è molto simile: 'profesor, médico, enfermero, ingeniero, estudiante, cocinero, conductor, abogado, arquitecto, periodista, bombero, policía, piloto, azafato/azafata'. Le differenze principali: 1) In italiano si usa l'articolo con le professioni (es. 'sono un insegnante'), in spagnolo no (es. 'soy profesor'). 2) Il genere: molte professioni cambiano la -o in -a al femminile (es. 'enfermero/enfermera'), mentre alcune sono invariabili (es. 'periodista', 'policía'). 3) 'Conductor' è usato per 'autista' (non 'motorista', che è meno comune). 4) Falso amico: 'abogado' non è 'avvocato'? Sì, è 'avvocato', ma alcuni italiani potrebbero confonderlo con 'abogado' e 'abogado' non è un falso amico; tuttavia, 'periodista' potrebbe essere confuso con 'periodista' in italiano (che è corretto).",
+    "rule": "Professioni: profesor, profesora (insegnante), médico, médica (medico), enfermero, enfermera (infermiere), ingeniero, ingeniera (ingegnere), estudiante (studente, invariabile), cocinero, cocinera (cuoco), conductor, conductora (autista), abogado, abogada (avvocato), arquitecto, arquitecta (architetto), periodista (invariabile), bombero, bombera (pompiere), policía (invariabile), piloto (invariabile), azafato, azafata (assistente di volo). Nessun articolo dopo 'ser': 'Soy profesor' (non 'Soy un profesor').",
+    "common_error": {
+      "wrong": "Soy un profesor.",
+      "explanation": "In italiano si usa l'articolo indeterminativo con le professioni ('sono un insegnante'), ma in spagnolo l'articolo si omette dopo il verbo 'ser' quando si indica una professione, nazionalità o religione. Questo è uno degli errori più comuni per gli italiani.",
+      "ejemplo_1": "Soy profesor.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Profesiones básicas",
+        "translation": "Professioni di base",
+        "examples": [
+          {
+            "original": "profesor, médico, enfermero, ingeniero",
+            "translation": "insegnante, medico, infermiere, ingegnere",
+            "note": "Professioni comuni."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Preguntar y decir profesión",
+        "translation": "Chiedere e dire la professione",
+        "examples": [
+          {
+            "original": "¿Qué haces? - Soy estudiante.",
+            "translation": "Che fai? - Sono studente.",
+            "note": "Domanda informale."
+          },
+          {
+            "original": "Mi padre es abogado.",
+            "translation": "Mio padre è avvocato.",
+            "note": "Dichiarazione (senza articolo)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Profesiones con género",
+        "translation": "Professioni con genere",
+        "examples": [
+          {
+            "original": "Ella es arquitecta.",
+            "translation": "Lei è architetto.",
+            "note": "Forma femminile di 'arquitecto'."
+          },
+          {
+            "original": "El periodista trabaja en la radio.",
+            "translation": "Il giornalista lavora in radio.",
+            "note": "Invariabile nel genere ('periodista')."
+          }
+        ]
+      }
+    ],
+    "emoji": "👨‍⚕️",
+    "phonetic": "",
+    "translations": {
+      "it": "Professioni"
+    }
+  },
+  {
     "id": "es_A1_concept_09",
     "type": "concept",
     "category": "Gramática",
@@ -1548,6 +2194,73 @@
     "phonetic": "",
     "translations": {
       "it": "chiedere e dare indicazioni"
+    }
+  },
+  {
+    "id": "es_A1_voc_09",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Ropa y accesorios / Abbigliamento e accessori",
+    "bridge": "In italiano diciamo 'camicia, pantaloni, vestito, scarpe, giacca, cappotto, maglione, calzini, cappello, cintura, borsa, cravatta, occhiali, orologio, bracciale'. In spagnolo è molto simile: 'camisa, pantalón, vestido, zapatos, chaqueta, abrigo, jersey, calcetines, sombrero, cinturón, bolso, corbata, gafas, reloj, pulsera'. Le differenze principali: 1) 'Pantaloni' in italiano è plurale, ma in spagnolo 'pantalón' è singolare (anche se può essere usato al plurale 'pantalones'). 2) Genere: 'el pantalón' (maschile) – in italiano 'i pantaloni' sono maschili, ok; 'la chaqueta' (femminile) – in italiano 'la giacca' è femminile, ok; ma 'el sombrero' (maschile) – in italiano 'il cappello' è maschile, ok; 'la corbata' (femminile) – in italiano 'la cravatta' è femminile, ok. 3) Accento: 'pantalón' e 'cinturón' hanno l'accento, che gli italiani spesso dimenticano. 4) 'Gafas' è sempre plurale, come in italiano 'occhiali' è plurale. 5) 'Bolso' (borsa) vs 'bolsa' (sacchetto di plastica): gli italiani potrebbero confondersi.",
+    "rule": "Abbigliamento: camisa (f), pantalón (m), vestido (m), falda (f), chaqueta (f), abrigo (m), jersey (m), camiseta (f), calcetines (m.pl), zapatos (m.pl), botas (f.pl). Accessori: sombrero (m), cinturón (m), bolso (m), corbata (f), gafas (f.pl), reloj (m), pulsera (f). Per 'indossare' si usa 'llevar' (es. 'Llevo una chaqueta negra').",
+    "common_error": {
+      "wrong": "Llevo un pantalon azul.",
+      "explanation": "L'errore è la mancanza dell'accento su 'pantalón'. In spagnolo, le parole che terminano in -n, -s o vocale e sono accentate sull'ultima sillaba devono avere l'accento (come 'pantalón', 'cinturón', 'camión'). Gli italiani spesso dimenticano gli accenti perché in italiano sono meno frequenti e spesso non vengono scritti.",
+      "ejemplo_1": "Llevo un pantalón azul.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Prendas básicas",
+        "translation": "Abbigliamento di base",
+        "examples": [
+          {
+            "original": "camisa, pantalón, vestido, zapatos",
+            "translation": "camicia, pantaloni, vestito, scarpe",
+            "note": "Abbigliamento quotidiano."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Describir ropa",
+        "translation": "Descrivere l'abbigliamento",
+        "examples": [
+          {
+            "original": "Llevo una chaqueta negra.",
+            "translation": "Indosso una giacca nera.",
+            "note": "Colore + capo (concordanza)."
+          },
+          {
+            "original": "Tus zapatos son muy bonitos.",
+            "translation": "Le tue scarpe sono molto belle.",
+            "note": "Opinione."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Comprar ropa",
+        "translation": "Comprare vestiti",
+        "examples": [
+          {
+            "original": "Quiero probarme esta camisa.",
+            "translation": "Voglio provare questa camicia.",
+            "note": "Verbo 'probarse' (riflessivo)."
+          },
+          {
+            "original": "¿Tiene esta falda en talla M?",
+            "translation": "Avete questa gonna in taglia M?",
+            "note": "Richiesta di taglia."
+          }
+        ]
+      }
+    ],
+    "emoji": "👕",
+    "phonetic": "",
+    "translations": {
+      "it": "Abbigliamento e accessori"
     }
   },
   {
@@ -1730,6 +2443,78 @@
     }
   },
   {
+    "id": "es_A1_voc_10",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Comida y bebida / Cibo e bevande",
+    "bridge": "In italiano diciamo 'pane, riso, pasta, carne, pesce, frutta, verdura, uova, formaggio, yogurt' e 'acqua, succo, caffè, tè, latte, birra, vino'. In spagnolo è quasi identico: 'pan, arroz, pasta, carne, pescado, fruta, verdura, huevos, queso, yogur' e 'agua, zumo (o jugo), café, té, leche, cerveza, vino'. Le differenze principali: 1) Genere di 'agua' – in spagnolo è femminile ma si usa l'articolo 'el' al singolare per ragioni fonetiche ('el agua', ma 'las aguas'). Gli italiani spesso dicono 'la agua' (errore) perché in italiano 'l'acqua' è femminile. 2) 'Zumo' si usa in Spagna, 'jugo' in America Latina – l'italiano 'succo' è più vicino a 'zumo'? In realtà 'succo' si traduce con 'zumo' o 'jugo', ma l'italiano tende a usare 'jugo' perché suona come 'succo'? Attenzione. 3) L'articolo partitivo non esiste in spagnolo: in italiano diciamo 'bevo dell'acqua', ma in spagnolo si dice 'bebo agua' (senza articolo). Gli italiani spesso mettono 'del' (es. 'bebo del agua') calco dell'italiano. 4) 'Frutta' in italiano è singolare collettivo, in spagnolo 'fruta' è singolare e 'frutas' plurale – ma si usa 'fruta' per il concetto generale.",
+    "rule": "Cibo: pan (m), arroz (m), pasta (f), carne (f), pescado (m), fruta (f), verdura (f), huevo (m), queso (m), yogur (m). Bevande: agua (f, ma 'el agua' e 'un agua'), zumo (m, Spagna) / jugo (m, America Latina), café (m), té (m), leche (f), cerveza (f), vino (m). Per affermazioni generali: nessun articolo ('Como pan', 'Bebo agua'). Per preferenze: articolo determinativo ('Me gusta el pan'). Attenzione: 'fruta' è singolare; 'frutas' per i pezzi.",
+    "common_error": {
+      "wrong": "Bebo del agua.",
+      "explanation": "In italiano si usa l'articolo partitivo ('dell'acqua') per quantità indeterminate, ma in spagnolo l'articolo partitivo non esiste. Si usa il sostantivo senza articolo per quantità generiche (es. 'Bebo agua'). Questo è un errore molto comune per gli italiani.",
+      "ejemplo_1": "Bebo agua.",
+      "ejemplo_2": "Bebo un vaso de agua."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Alimentos básicos",
+        "translation": "Alimenti di base",
+        "examples": [
+          {
+            "original": "pan, arroz, pasta, carne, pescado",
+            "translation": "pane, riso, pasta, carne, pesce",
+            "note": "Alimenti di base."
+          },
+          {
+            "original": "manzana, naranja, plátano, lechuga",
+            "translation": "mela, arancia, banana, lattuga",
+            "note": "Frutta e verdura."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Comprar comida",
+        "translation": "Comprare cibo",
+        "examples": [
+          {
+            "original": "Compro un kilo de manzanas.",
+            "translation": "Compro un chilo di mele.",
+            "note": "Quantità + 'de' + sostantivo."
+          },
+          {
+            "original": "¿Tiene leche desnatada?",
+            "translation": "Avete latte scremato?",
+            "note": "Domanda con articolo determinativo (la leche)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Bebidas y platos típicos",
+        "translation": "Bevande e piatti tipici",
+        "examples": [
+          {
+            "original": "Quiero un café con leche.",
+            "translation": "Voglio un caffè con latte.",
+            "note": "Bevanda con articolo indeterminativo 'un'."
+          },
+          {
+            "original": "La paella es un plato típico español.",
+            "translation": "La paella è un piatto tipico spagnolo.",
+            "note": "Articolo determinativo 'la' per categoria generale."
+          }
+        ]
+      }
+    ],
+    "emoji": "🍔",
+    "phonetic": "",
+    "translations": {
+      "it": "Cibo e bevande"
+    }
+  },
+  {
     "id": "es_A1_concept_11",
     "type": "concept",
     "category": "Gramática",
@@ -1901,6 +2686,78 @@
     "phonetic": "",
     "translations": {
       "it": "ordinare in un bar o ristorante"
+    }
+  },
+  {
+    "id": "es_A1_voc_11",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Animales domésticos y de granja / Animali domestici e da fattoria",
+    "bridge": "In italiano diciamo 'cane, gatto, mucca, cavallo, gallina, maiale, pecora, anatra, coniglio, capra'. In spagnolo è quasi identico: 'perro, gato, vaca, caballo, gallina, cerdo, oveja, pato, conejo, cabra'. Le differenze principali: 1) 'Cachorro' in spagnolo significa 'cucciolo', non 'cane adulto' – gli italiani potrebbero usare 'cachorro' per 'cane' pensando che sia simile a 'cagnolino' o 'cucciolo', ma in spagnolo è solo il cucciolo. 2) Genere: 'el caballo' (maschile) – in italiano 'il cavallo' è maschile, ok; 'la vaca' (femminile) – in italiano 'la mucca' è femminile, ok; 'el cerdo' (maschile) – in italiano 'il maiale' è maschile, ok; 'la oveja' (femminile) – in italiano 'la pecora' è femminile, ok. 3) Plurale: 'los perros' – gli italiani potrebbero dimenticare la -s. 4) Falso amico: 'cerdo' non è 'cervo' (che in spagnolo è 'ciervo') – gli italiani potrebbero confondersi.",
+    "rule": "Animali domestici: perro (m), gato (m), conejo (m), hámster (m), pez (m). Animali da fattoria: vaca (f), caballo (m), oveja (f), cerdo (m), gallina (f), pato (m), cabra (f), burro (m). Per la specie, si usa il maschile ('el perro' per la specie), ma per la femmina si usa il femminile ('la perra'). Attenzione: 'cachorro' = cucciolo, non cane adulto.",
+    "common_error": {
+      "wrong": "Mi cachorro es muy grande.",
+      "explanation": "In italiano 'cagnolino' o 'cucciolo' è un cane giovane, ma in spagnolo 'cachorro' significa specificamente 'cucciolo' (di qualsiasi animale), non 'cane adulto'. Per un cane adulto si dice 'perro'. Gli italiani potrebbero usare 'cachorro' per un cane adulto perché suona come 'cagnolino'.",
+      "ejemplo_1": "Mi perro es muy grande.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Animales comunes",
+        "translation": "Animali comuni",
+        "examples": [
+          {
+            "original": "perro, gato, vaca, caballo",
+            "translation": "cane, gatto, mucca, cavallo",
+            "note": "Mammiferi comuni."
+          },
+          {
+            "original": "gallina, cerdo, oveja, pato",
+            "translation": "gallina, maiale, pecora, anatra",
+            "note": "Animali da fattoria."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Describir animales",
+        "translation": "Descrivere animali",
+        "examples": [
+          {
+            "original": "El perro es grande y marrón.",
+            "translation": "Il cane è grande e marrone.",
+            "note": "Caratteristiche con 'ser'."
+          },
+          {
+            "original": "Las vacas dan leche.",
+            "translation": "Le mucche danno latte.",
+            "note": "Funzione con 'dar'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Expresiones con animales",
+        "translation": "Espressioni con animali",
+        "examples": [
+          {
+            "original": "Mi gato duerme en la cama.",
+            "translation": "Il mio gatto dorme sul letto.",
+            "note": "Azione con 'dormir'."
+          },
+          {
+            "original": "Los caballos corren rápido.",
+            "translation": "I cavalli corrono velocemente.",
+            "note": "Verbo 'correr'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🐶",
+    "phonetic": "",
+    "translations": {
+      "it": "Animali domestici e da fattoria"
     }
   },
   {
@@ -2083,6 +2940,78 @@
     }
   },
   {
+    "id": "es_A1_voc_12",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "El cuerpo humano / Il corpo umano",
+    "bridge": "In italiano diciamo 'testa, braccia, gambe, occhi, bocca, naso, orecchie, mani, piedi'. In spagnolo è molto simile: 'cabeza, brazos, piernas, ojos, boca, nariz, orejas, manos, pies'. Le differenze principali: 1) Genere di 'mano': in spagnolo 'la mano' (femminile) – in italiano 'la mano' è femminile, quindi ok. Genere di 'nariz': in spagnolo 'la nariz' (femminile) – in italiano 'il naso' è maschile, quindi gli italiani potrebbero dire 'el nariz' (errore). 2) Genere di 'pie': in spagnolo 'el pie' (maschile) – in italiano 'il piede' è maschile, ok. 3) Espressione del dolore: in spagnolo si dice 'Me duele la cabeza' (letteralmente 'mi fa male la testa'), non 'Mi cabeza duele'. In italiano si dice 'mi fa male la testa' o 'ho mal di testa', ma la struttura è simile a 'me duele'. Tuttavia, gli italiani potrebbero dire 'Mi cabeza duele' (calco dell'inglese). 4) Uso del possessivo con le parti del corpo: in spagnolo si usa l'articolo determinativo, non il possessivo (es. 'Me lavo las manos' – non 'Me lavo mis manos'). In italiano si può usare il possessivo ('mi lavo le mani' è senza possessivo? In italiano si dice 'mi lavo le mani' (senza possessivo), quindi è simile.",
+    "rule": "Parti del corpo: cabeza (f), cara (f), ojos (m), nariz (f), boca (f), orejas (f), cuello (m), hombros (m), brazos (m), manos (f), dedos (m), pecho (m), espalda (f), piernas (f), rodillas (f), pies (m). Per il dolore: 'Me duele la cabeza' (non 'Mi cabeza duele'). Per azioni con parti del corpo: si usa l'articolo determinativo (es. 'Me lavo las manos').",
+    "common_error": {
+      "wrong": "El nariz es grande.",
+      "explanation": "In italiano 'il naso' è maschile, ma in spagnolo 'nariz' è femminile. Gli italiani spesso usano l'articolo maschile 'el' perché associano 'nariz' al genere del corrispettivo italiano. Questo è un errore di genere molto comune.",
+      "ejemplo_1": "La nariz es grande.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Partes básicas",
+        "translation": "Parti di base",
+        "examples": [
+          {
+            "original": "cabeza, ojos, nariz, boca",
+            "translation": "testa, occhi, naso, bocca",
+            "note": "Viso."
+          },
+          {
+            "original": "brazos, manos, piernas, pies",
+            "translation": "braccia, mani, gambe, piedi",
+            "note": "Arti."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Describir partes",
+        "translation": "Descrivere parti",
+        "examples": [
+          {
+            "original": "Tengo el pelo largo y los ojos azules.",
+            "translation": "Ho i capelli lunghi e gli occhi azzurri.",
+            "note": "Descrizione con 'tener'."
+          },
+          {
+            "original": "Me duele la cabeza.",
+            "translation": "Mi fa male la testa.",
+            "note": "Dolore con 'doler' (me duele + parte del corpo)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Expresiones con partes del cuerpo",
+        "translation": "Espressioni con parti del corpo",
+        "examples": [
+          {
+            "original": "Lávate las manos antes de comer.",
+            "translation": "Lavati le mani prima di mangiare.",
+            "note": "Imperativo con 'lavarse' + articolo determinativo."
+          },
+          {
+            "original": "Se rompió la pierna jugando al fútbol.",
+            "translation": "Si è rotto la gamba giocando a calcio.",
+            "note": "Incidente con 'romperse'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧍",
+    "phonetic": "",
+    "translations": {
+      "it": "Il corpo umano"
+    }
+  },
+  {
     "id": "es_A1_concept_13",
     "type": "concept",
     "category": "Gramática",
@@ -2167,6 +3096,78 @@
     "phonetic": "",
     "translations": {
       "it": "negazione"
+    }
+  },
+  {
+    "id": "es_A1_voc_13",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Verbos de acción cotidianos / Verbi d'azione quotidiani",
+    "bridge": "In italiano diciamo 'alzarsi, farsi la doccia, lavarsi, vestirsi, fare colazione, andare al lavoro, lavorare, pranzare, studiare, fare sport, cenare, andare a letto, dormire'. In spagnolo è molto simile: 'levantarse, ducharse, lavarse, vestirse, desayunar, ir al trabajo, trabajar, almorzar, estudiar, hacer deporte, cenar, acostarse, dormir'. Le differenze principali: 1) I verbi riflessivi in spagnolo usano i pronomi 'me, te, se, nos, os, se' che vanno prima del verbo, come in italiano ('mi, ti, si, ci, vi, si'). Quindi non c'è grande difficoltà, ma alcuni italiani dimenticano il pronome riflessivo e usano il verbo non riflessivo (es. 'yo levanto' invece di 'yo me levanto'). 2) L'uso di 'a' vs 'en' per città: in italiano 'vado a Roma' si traduce in spagnolo come 'voy a Roma' (con 'a' per movimento), ma 'vivo a Roma' si traduce 'vivo en Roma' (con 'en' per residenza). Gli italiani spesso usano 'a' anche per residenza. 3) Verbi irregolari come 'almorzar' (o→ue) e 'acostarse' (o→ue) possono creare difficoltà. 4) 'Desayunar' (fare colazione) non va confuso con 'almorzar' (pranzare) e 'cenar' (cenare).",
+    "rule": "Verbi quotidiani: levantarsi (alzarsi), ducharse (farsi la doccia), lavarse (lavarsi), vestirse (vestirsi), desayunar (fare colazione), ir al trabajo (andare al lavoro), trabajar (lavorare), almorzar (pranzare, o→ue), estudiar (studiare), hacer deporte (fare sport), cenar (cenare), acostarse (andare a letto, o→ue), dormir (dormire, o→ue). I verbi riflessivi richiedono il pronome corrispondente al soggetto: me (yo), te (tú), se (él/ella/usted), nos (nosotros), os (vosotros), se (ellos/ellas/ustedes). Esempio: 'Yo me levanto' (non 'Yo levanto'). Per la residenza in città, usa 'en' (es. 'Vivo en Madrid').",
+    "common_error": {
+      "wrong": "Vivo a Madrid.",
+      "explanation": "In italiano si usa la preposizione 'a' per indicare la città in cui si vive (vivo a Roma), ma in spagnolo si usa la preposizione 'en' per la residenza (vivo en Madrid). Questa è un'interferenza molto comune per gli italiani.",
+      "ejemplo_1": "Vivo en Madrid.",
+      "ejemplo_2": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Acciones diarias",
+        "translation": "Azioni quotidiane",
+        "examples": [
+          {
+            "original": "Me levanto, me ducho y desayuno.",
+            "translation": "Mi alzo, mi faccio la doccia e faccio colazione.",
+            "note": "Routine mattutina con riflessivi."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Horarios",
+        "translation": "Orari",
+        "examples": [
+          {
+            "original": "Trabajo de 9 a 6.",
+            "translation": "Lavoro dalle 9 alle 18.",
+            "note": "Orario di lavoro (preposizioni 'de... a')."
+          },
+          {
+            "original": "Estudio español por la noche.",
+            "translation": "Studio spagnolo di sera.",
+            "note": "Attività serale (preposizione 'por la')."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbos irregulares",
+        "translation": "Verbi irregolari",
+        "examples": [
+          {
+            "original": "Almuerzo en el trabajo.",
+            "translation": "Pranzo al lavoro.",
+            "note": "Almorzar (o→ue) + preposizione 'en'."
+          },
+          {
+            "original": "Duermo ocho horas.",
+            "translation": "Dormo otto ore.",
+            "note": "Dormir (o→ue)."
+          },
+          {
+            "original": "Me acuesto tarde los fines de semana.",
+            "translation": "Vado a letto tardi il fine settimana.",
+            "note": "Acostarse (o→ue) + riflessivo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏃",
+    "phonetic": "",
+    "translations": {
+      "it": "Verbi d'azione quotidiani"
     }
   },
   {
@@ -2257,6 +3258,88 @@
     }
   },
   {
+    "id": "es_A1_voc_14",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Adjetivos descriptivos / Aggettivi descrittivi",
+    "bridge": "In italiano diciamo 'grande, piccolo, bello, brutto, giovane, vecchio, nuovo, allegro, triste, intelligente, simpatico, divertente, facile, difficile, caro, economico, veloce, lento'. In spagnolo è molto simile: 'grande, pequeño, bonito, feo, joven, viejo, nuevo, alegre, triste, inteligente, simpático, divertido, fácil, difícil, caro, barato, rápido, lento'. Le differenze principali: 1) Concordanza di genere e numero: in italiano gli aggettivi concordano con il sostantivo, quindi non c'è difficoltà; ma in spagnolo bisogna ricordare che alcuni aggettivi hanno forme diverse al femminile (es. 'rojo/roja', 'bonito/bonita'), mentre altri sono invariabili (es. 'azul', 'verde', 'gris', 'marrón', 'rosa'). 2) Apocope: in spagnolo alcuni aggettivi si abbreviano prima di un sostantivo singolare: 'grande' → 'gran', 'bueno' → 'buen', 'malo' → 'mal', 'primero' → 'primer', 'tercero' → 'tercer'. In italiano questo non esiste, quindi gli italiani spesso usano la forma intera (es. 'una grande casa' invece di 'una gran casa'). 3) Posizione: in spagnolo l'aggettivo va di solito dopo il nome, come in italiano, quindi non ci sono problemi. 4) Falso amico: 'simpático' in spagnolo significa 'simpatico' (come in italiano), ma 'divertido' significa 'divertente' (non 'divertito' – che in spagnolo è 'divertido'? Attenzione: 'divertido' è 'divertente', mentre 'divertido' in italiano è 'divertito' – ma in spagnolo 'divertido' è l'aggettivo che descrive una persona o cosa divertente, non lo stato d'animo).",
+    "rule": "Concordanza: l'aggettivo concorda in genere (maschile/femminile) e numero (singolare/plurale) con il sostantivo. Esempi: 'casa bonita' (f.sg), 'casas bonitas' (f.pl), 'hombre alto' (m.sg), 'hombres altos' (m.pl). Aggettivi che terminano in -e o consonante sono invariabili nel genere (es. 'intelligente', 'joven'). Posizione: normalmente dopo il nome ('coche rojo'), ma alcuni brevi possono stare prima ('buen día', 'mal tiempo', 'gran casa' – con apocope). Apocopi: grande → gran (prima di sostantivo singolare), bueno → buen (prima di maschile singolare), malo → mal (prima di maschile singolare), primero → primer, tercero → tercer.",
+    "common_error": {
+      "wrong": "Una grande casa.",
+      "explanation": "In italiano si dice 'una grande casa' (con 'grande' invariato), ma in spagnolo, quando l'aggettivo 'grande' precede un sostantivo singolare, si usa la forma apocopata 'gran'. Se l'aggettivo viene dopo, si usa 'grande' ('una casa grande'). Gli italiani spesso non conoscono l'apocope e usano sempre 'grande'.",
+      "ejemplo_1": "Una gran casa.",
+      "ejemplo_2": "Una casa grande."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adjetivos básicos",
+        "translation": "Aggettivi di base",
+        "examples": [
+          {
+            "original": "grande, pequeño, bonito, feo",
+            "translation": "grande, piccolo, bello, brutto",
+            "note": "Dimensione e aspetto."
+          },
+          {
+            "original": "joven, viejo, nuevo, alegre",
+            "translation": "giovane, vecchio, nuovo, allegro",
+            "note": "Età e umore."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Concordancia",
+        "translation": "Concordanza",
+        "examples": [
+          {
+            "original": "La casa es bonita.",
+            "translation": "La casa è bella.",
+            "note": "Femminile singolare."
+          },
+          {
+            "original": "Los niños son inteligentes.",
+            "translation": "I bambini sono intelligenti.",
+            "note": "Maschile plurale."
+          },
+          {
+            "original": "Las chicas son altas.",
+            "translation": "Le ragazze sono alte.",
+            "note": "Femminile plurale."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Comparativos y superlativos",
+        "translation": "Comparativi e superlativi",
+        "examples": [
+          {
+            "original": "Mi coche es más rápido que el tuyo.",
+            "translation": "La mia macchina è più veloce della tua.",
+            "note": "Comparativo di maggioranza con 'más... que'."
+          },
+          {
+            "original": "Este es el mejor restaurante.",
+            "translation": "Questo è il miglior ristorante.",
+            "note": "Superlativo irregolare (bueno → mejor)."
+          },
+          {
+            "original": "Es un gran día.",
+            "translation": "È un gran giorno.",
+            "note": "Apocope di 'grande' a 'gran' prima di sostantivo singolare."
+          }
+        ]
+      }
+    ],
+    "emoji": "📝",
+    "phonetic": "",
+    "translations": {
+      "it": "Aggettivi descrittivi"
+    }
+  },
+  {
     "id": "es_A1_concept_15",
     "type": "concept",
     "category": "Gramática",
@@ -2344,6 +3427,73 @@
     }
   },
   {
+    "id": "es_A1_voc_15",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Adverbios de frecuencia / Avverbi di frequenza",
+    "bridge": "In italiano diciamo 'sempre, quasi sempre, spesso, qualche volta, di tanto in tanto, raramente, mai'. In spagnolo è molto simile: 'siempre, casi siempre, a menudo, a veces, de vez en cuando, raramente (o rara vez), nunca'. Le differenze principali: 1) Posizione dell'avverbio: in italiano l'avverbio di frequenza si mette di solito dopo il verbo (es. 'Io mangio sempre frutta'), mentre in spagnolo si mette prima del verbo (es. 'Siempre como fruta'). Questa è la differenza più importante e gli italiani spesso sbagliano mettendo l'avverbio dopo il verbo. 2) L'avverbio 'nunca' (mai) in spagnolo può essere usato da solo prima del verbo ('Nunca como carne') o con 'no' dopo il verbo per enfasi ('No como carne nunca'). In italiano 'mai' si usa sempre dopo il verbo e talvolta con 'non'. 3) 'A menudo' (spesso) – in italiano 'spesso' è più simile a 'a menudo'? Sì. 4) 'A veces' (qualche volta) e 'de vez en cuando' (di tanto in tanto) sono simili.",
+    "rule": "Avverbi di frequenza: siempre (sempre), casi siempre (quasi sempre), a menudo (spesso), a veces (qualche volta), de vez en cuando (di tanto in tanto), raramente / rara vez (raramente), nunca (mai). Posizione: di solito prima del verbo coniugato (es. 'Siempre estudio'). Nei tempi composti, tra l'ausiliare e il participio (es. 'He siempre estudiado'). Può essere messo all'inizio o alla fine per enfasi, ma la posizione più naturale è prima del verbo. Con 'nunca' si può usare da solo prima del verbo ('Nunca como carne') o con 'no' dopo il verbo per enfasi ('No como carne nunca').",
+    "common_error": {
+      "wrong": "Yo estudio siempre en la biblioteca.",
+      "explanation": "In italiano l'avverbio di frequenza 'sempre' si mette spesso dopo il verbo ('io studio sempre'), ma in spagnolo la posizione più naturale è prima del verbo ('siempre estudio'). Gli italiani tendono a calcare la posizione dell'italiano, mettendo l'avverbio dopo il verbo.",
+      "ejemplo_1": "Yo siempre estudio en la biblioteca.",
+      "ejemplo_2": "Siempre estudio en la biblioteca."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adverbios básicos",
+        "translation": "Avverbi di base",
+        "examples": [
+          {
+            "original": "siempre, a veces, nunca",
+            "translation": "sempre, qualche volta, mai",
+            "note": "Frequenza semplice."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Frases con adverbios",
+        "translation": "Frasi con avverbi",
+        "examples": [
+          {
+            "original": "Siempre desayuno en casa.",
+            "translation": "Faccio sempre colazione a casa.",
+            "note": "Avverbio prima del verbo."
+          },
+          {
+            "original": "A veces voy al cine los sábados.",
+            "translation": "Qualche volta vado al cinema il sabato.",
+            "note": "Avverbio all'inizio della frase."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Frecuencia en preguntas",
+        "translation": "Frequenza nelle domande",
+        "examples": [
+          {
+            "original": "¿Con qué frecuencia estudias español? - Estudio todos los días.",
+            "translation": "Con che frequenza studi spagnolo? - Studio tutti i giorni.",
+            "note": "Domanda con 'con qué frecuencia'."
+          },
+          {
+            "original": "Casi siempre como fruta.",
+            "translation": "Mangio quasi sempre frutta.",
+            "note": "'Casi siempre' prima del verbo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "it": "Avverbi di frequenza"
+    }
+  },
+  {
     "id": "es_A1_concept_16",
     "type": "concept",
     "category": "Gramática",
@@ -2423,6 +3573,78 @@
     "phonetic": "",
     "translations": {
       "it": "perifrasi di obbligo (tener que e hay que)"
+    }
+  },
+  {
+    "id": "es_A1_voc_16",
+    "type": "concept",
+    "category": "Vocabulario",
+    "title": "Expresiones de tiempo / Espressioni di tempo",
+    "bridge": "In italiano diciamo 'oggi, domani, ieri, ora, dopo, prima, più tardi, presto, tardi, di mattina, di pomeriggio, di sera'. In spagnolo è molto simile: 'hoy, mañana, ayer, ahora, después, antes, luego, pronto, tarde, temprano, por la mañana, por la tarde, por la noche'. Le differenze principali: 1) 'Mañana' in spagnolo significa sia 'domani' che 'mattina' (come sostantivo). In italiano sono due parole diverse ('domani' e 'mattina'), quindi gli italiani potrebbero confondersi. 2) Le preposizioni per le parti del giorno: in italiano si dice 'di mattina', ma in spagnolo si dice 'por la mañana' (non 'de mañana', che è meno standard). 3) Posizione: in italiano le espressioni di tempo spesso vanno all'inizio o alla fine della frase; in spagnolo sono più flessibili ma di solito seguono il verbo. 4) Falso amico: 'después' significa 'dopo' o 'più tardi', non 'da dopo' o 'da allora' (che si dice 'desde entonces').",
+    "rule": "Tempo assoluto: hoy (oggi), mañana (domani), ayer (ieri), ahora (ora), después (dopo), antes (prima), luego (poi), pronto (presto), tarde (tardi), temprano (presto). Parti del giorno: por la mañana (di mattina), por la tarde (di pomeriggio), por la noche (di sera / di notte). Anche: al mediodía (a mezzogiorno), a medianoche (a mezzanotte).",
+    "common_error": {
+      "wrong": "Voy al cine de noche.",
+      "explanation": "In italiano si dice 'di sera' o 'di notte' (con 'di'), ma in spagnolo la forma standard per le parti del giorno è 'por la mañana/tarde/noche'. 'De noche' si usa in espressioni come 'de noche' (notturno) ma è meno comune per indicare quando si fa qualcosa. Gli italiani spesso calcano il 'di' italiano e usano 'de'.",
+      "ejemplo_1": "Voy al cine por la noche.",
+      "ejemplo_2": "Voy al cine de noche (colloquiale, ma meno standard)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Palabras básicas",
+        "translation": "Parole di base",
+        "examples": [
+          {
+            "original": "hoy, mañana, ayer, ahora",
+            "translation": "oggi, domani, ieri, ora",
+            "note": "Tempo assoluto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Partes del día",
+        "translation": "Parti del giorno",
+        "examples": [
+          {
+            "original": "Estudio por la mañana.",
+            "translation": "Studio di mattina.",
+            "note": "Parte del giorno con 'por la'."
+          },
+          {
+            "original": "Salgo a pasear por la tarde.",
+            "translation": "Esco a fare una passeggiata di pomeriggio.",
+            "note": "Attività."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Secuencias temporales",
+        "translation": "Sequenze temporali",
+        "examples": [
+          {
+            "original": "Primero desayuno, luego trabajo y después ceno.",
+            "translation": "Prima faccio colazione, poi lavoro e dopo ceno.",
+            "note": "Sequenza con 'luego' e 'después'."
+          },
+          {
+            "original": "Mañana por la mañana tengo una cita.",
+            "translation": "Domani mattina ho un appuntamento.",
+            "note": "Combinazione 'mañana' + 'por la mañana'."
+          },
+          {
+            "original": "Llegaré pronto, no tardes.",
+            "translation": "Arriverò presto, non tardare.",
+            "note": "Uso di 'pronto' e del verbo 'tardar'."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "it": "Espressioni di tempo"
     }
   },
   {
