@@ -560,7 +560,7 @@ function _renderMisionSnake(grid, modsA1, modsA2) {
                 if (n.mod.video_url) {
                     return `<div class="msnake-node msnake-node--play" data-key="${n.key}" data-ntype="mod"><span class="msnake-label">▶ ${trunc(n.mod.title, 18)}</span></div>`;
                 }
-                return `<div class="msnake-node ${done ? 'msnake-node--done' : 'msnake-node--pending'}" data-key="${n.key}" data-ntype="mod"><span class="msnake-label">${n.mod.emoji || '📚'} ${trunc(n.mod.title, 18)}</span></div>`;
+                return `<div class="msnake-node ${done ? 'msnake-node--done' : 'msnake-node--pending'}" data-key="${n.key}" data-ntype="mod" data-category="${n.mod.category || ''}"><span class="msnake-label">${n.mod.emoji || '📚'} ${trunc(n.mod.title, 18)}</span></div>`;
             case 'quiz_final':
                 return `<div class="msnake-node msnake-node--quiz-final ${done ? 'msnake-node--done' : ''}" data-key="${n.key}" data-ntype="quiz_final"><span class="msnake-label">${n.emoji} ${n.label}</span></div>`;
             case 'examen_final': {
@@ -1066,7 +1066,7 @@ function _renderSimpleSnake(grid, mods, { levelKey, milestoneLabel, onExamPass, 
             case 'milestone':
                 return `<div class="msnake-node msnake-node--milestone"><span class="msnake-label">${n.label}</span></div>`;
             case 'mod':
-                return `<div class="msnake-node ${done ? 'msnake-node--done' : 'msnake-node--pending'}" data-key="${n.key}" data-ntype="mod"><span class="msnake-label">${n.mod.emoji || '📚'} ${trunc(n.mod.title, 18)}</span></div>`;
+                return `<div class="msnake-node ${done ? 'msnake-node--done' : 'msnake-node--pending'}" data-key="${n.key}" data-ntype="mod" data-category="${n.mod.category || ''}"><span class="msnake-label">${n.mod.emoji || '📚'} ${trunc(n.mod.title, 18)}</span></div>`;
             case 'mid_quiz':
                 return `<div class="msnake-node msnake-node--mid-quiz ${done ? 'msnake-node--done' : ''}" data-key="${n.key}" data-ntype="mid_quiz"><span class="msnake-label">${n.emoji} ${n.label}</span></div>`;
             case 'quiz_final':

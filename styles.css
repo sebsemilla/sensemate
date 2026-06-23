@@ -4809,6 +4809,32 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
     background: rgba(59,130,246,0.08);
     border-color: var(--primary);
 }
+
+/* Colores por categoría (solo nodos pendientes) */
+.msnake-node--pending[data-category="Gramática"] {
+    background: rgba(14,165,233,0.10);
+    border-color: #0ea5e9;
+}
+.msnake-node--pending[data-category="Funciones comunicativas"] {
+    background: rgba(20,184,166,0.10);
+    border-color: #14b8a6;
+}
+.msnake-node--pending[data-category="Vocabulario"] {
+    background: rgba(139,92,246,0.10);
+    border-color: #8b5cf6;
+}
+body.dark-mode .msnake-node--pending[data-category="Gramática"] {
+    background: rgba(14,165,233,0.15);
+    border-color: #38bdf8;
+}
+body.dark-mode .msnake-node--pending[data-category="Funciones comunicativas"] {
+    background: rgba(20,184,166,0.15);
+    border-color: #2dd4bf;
+}
+body.dark-mode .msnake-node--pending[data-category="Vocabulario"] {
+    background: rgba(139,92,246,0.15);
+    border-color: #a78bfa;
+}
 .msnake-node--done {
     background: rgba(39,174,96,0.10);
     border-color: #27ae60;
