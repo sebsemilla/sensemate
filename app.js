@@ -858,6 +858,8 @@ function _showMisionToast(msg) {
 
 const _ESPANOL_A1_NUEVOS = {
     it: { gram: 'it_a1_gramatica.json', func: 'it_a1_funciones_comunicativas.json' },
+    gn: { gram: 'gn_a1_gramatica.json', func: 'gn_a1_funciones_comunicativas.json' },
+    pt: { gram: 'pt_a1_gramatica.json', func: null },
 };
 
 function _initEspanolNuevoHub() {
@@ -870,9 +872,12 @@ function _initEspanolNuevoHub() {
     grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1.5rem 0">Cargando módulos…</p>';
 
     const base = `${_API_HOST}/grupos_tarjetas/espa%C3%B1ol_a1/`;
+    const fetchFunc = files.func
+        ? fetch(base + files.func).then(r => r.json())
+        : Promise.resolve([]);
     Promise.all([
         fetch(base + files.gram).then(r => r.json()),
-        fetch(base + files.func).then(r => r.json()),
+        fetchFunc,
     ])
         .then(([gram, func]) => {
             const mods = _interleaveInglesA1(gram, func, []);
