@@ -238,6 +238,9 @@ function renderLanguageBar() {
                 <option value="it">Italiano</option>
                 <option value="pt">Português</option>
                 <option value="gn">Guaraní</option>
+                <option value="da">Dansk</option>
+                <option value="fi">Suomi</option>
+                <option value="nl">Nederlands</option>
             </select>
             <button id="swapLangBtn" class="swap-btn">⇄</button>
             <select id="langBarTarget" class="lang-select">
@@ -248,6 +251,9 @@ function renderLanguageBar() {
                 <option value="it">Italiano</option>
                 <option value="pt">Português</option>
                 <option value="gn">Guaraní</option>
+                <option value="da">Dansk</option>
+                <option value="fi">Suomi</option>
+                <option value="nl">Nederlands</option>
             </select>
         </div>
     `);
@@ -850,8 +856,15 @@ function _showMisionToast(msg) {
 // ── English A1 hub (Inglés) ───────────────────────────────────
 
 const _INGLES_A1_LANGS = {
+    da: { gram: 'da_a1_gramatica.json', func: 'da_a1_funciones_comunicativas.json', conv: 'da_a1_conversacion.json' },
+    de: { gram: 'de_a1_gramatica.json', func: 'de_a1_funciones_comunicativas.json', conv: 'de_a1_conversacion.json' },
     es: { gram: 'es_a1_gramatica.json', func: 'es_a1_funciones_comunicativas.json', conv: 'es_a1_conversacion.json' },
+    fi: { gram: 'fi_a1_gramatica.json', func: 'fi_a1_funciones_comunicativas.json', conv: 'fi_a1_conversacion.json' },
     fr: { gram: 'fr_a1_gramatica.json', func: 'fr_a1_funciones_comunicativas.json', conv: 'fr_a1_conversacion.json' },
+    gn: { gram: 'gn_a1_gramatica.json', func: 'gn_a1_funciones_comunicativas.json', conv: 'gn_a1_conversacion.json' },
+    it: { gram: 'it_a1_gramatica.json', func: 'it_a1_funciones_comunicativas.json', conv: 'it_a1_conversacion.json' },
+    nl: { gram: 'nl_a1_gramatica.json', func: 'nl_a1_funciones_comunicativas.json', conv: 'nl_a1_conversacion.json' },
+    pt: { gram: 'pt_a1_gramatica.json', func: 'pt_a1_funciones_comunicativas.json', conv: 'pt_a1_conversacion.json' },
 };
 
 function _initInglesHub() {

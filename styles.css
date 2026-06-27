@@ -4844,21 +4844,33 @@ body.dark-mode .msnake-node--pending[data-modtype="conversation"] {
     background: rgba(249,115,22,0.15);
     border-color: #fb923c;
 }
-/* Gramática francesa */
-.msnake-node--pending[data-category="Grammaire"] {
+/* Gramática — variantes multiidioma (azul) */
+.msnake-node--pending[data-category="Grammaire"],
+.msnake-node--pending[data-category="Grammatik"],
+.msnake-node--pending[data-category="Grammatica"] {
     background: rgba(14,165,233,0.10);
     border-color: #0ea5e9;
 }
-body.dark-mode .msnake-node--pending[data-category="Grammaire"] {
+body.dark-mode .msnake-node--pending[data-category="Grammaire"],
+body.dark-mode .msnake-node--pending[data-category="Grammatik"],
+body.dark-mode .msnake-node--pending[data-category="Grammatica"] {
     background: rgba(14,165,233,0.15);
     border-color: #38bdf8;
 }
-/* Funciones comunicativas francesas */
-.msnake-node--pending[data-category="Fonctions communicatives"] {
+/* Funciones comunicativas — variantes multiidioma (teal) */
+.msnake-node--pending[data-category="Fonctions communicatives"],
+.msnake-node--pending[data-category="Funktionen"],
+.msnake-node--pending[data-category="Funzioni comunicative"],
+.msnake-node--pending[data-category="Funções comunicativas"],
+.msnake-node--pending[data-category="Funktionskommunikation"] {
     background: rgba(20,184,166,0.10);
     border-color: #14b8a6;
 }
-body.dark-mode .msnake-node--pending[data-category="Fonctions communicatives"] {
+body.dark-mode .msnake-node--pending[data-category="Fonctions communicatives"],
+body.dark-mode .msnake-node--pending[data-category="Funktionen"],
+body.dark-mode .msnake-node--pending[data-category="Funzioni comunicative"],
+body.dark-mode .msnake-node--pending[data-category="Funções comunicativas"],
+body.dark-mode .msnake-node--pending[data-category="Funktionskommunikation"] {
     background: rgba(20,184,166,0.15);
     border-color: #2dd4bf;
 }
