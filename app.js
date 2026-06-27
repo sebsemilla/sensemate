@@ -241,6 +241,7 @@ function renderLanguageBar() {
                 <option value="da">Dansk</option>
                 <option value="fi">Suomi</option>
                 <option value="nl">Nederlands</option>
+                <option value="sv">Svenska</option>
             </select>
             <button id="swapLangBtn" class="swap-btn">⇄</button>
             <select id="langBarTarget" class="lang-select">
@@ -254,6 +255,7 @@ function renderLanguageBar() {
                 <option value="da">Dansk</option>
                 <option value="fi">Suomi</option>
                 <option value="nl">Nederlands</option>
+                <option value="sv">Svenska</option>
             </select>
         </div>
     `);
@@ -907,6 +909,7 @@ const _INGLES_A1_LANGS = {
     it: { gram: 'it_a1_gramatica.json', func: 'it_a1_funciones_comunicativas.json', conv: 'it_a1_conversacion.json' },
     nl: { gram: 'nl_a1_gramatica.json', func: 'nl_a1_funciones_comunicativas.json', conv: 'nl_a1_conversacion.json' },
     pt: { gram: 'pt_a1_gramatica.json', func: 'pt_a1_funciones_comunicativas.json', conv: 'pt_a1_conversacion.json' },
+    sv: { gram: 'sv_a1_gramatica.json', func: 'sv_a1_funciones_comunicativas.json', conv: 'sv_a1_conversacion.json' },
 };
 
 function _initInglesHub() {
