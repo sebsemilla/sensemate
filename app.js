@@ -240,6 +240,7 @@ function renderLanguageBar() {
                 <option value="gn">Guaraní</option>
                 <option value="da">Dansk</option>
                 <option value="fi">Suomi</option>
+                <option value="is">Íslenska</option>
                 <option value="nl">Nederlands</option>
                 <option value="sv">Svenska</option>
             </select>
@@ -254,6 +255,7 @@ function renderLanguageBar() {
                 <option value="gn">Guaraní</option>
                 <option value="da">Dansk</option>
                 <option value="fi">Suomi</option>
+                <option value="is">Íslenska</option>
                 <option value="nl">Nederlands</option>
                 <option value="sv">Svenska</option>
             </select>
@@ -903,6 +905,7 @@ const _INGLES_A1_LANGS = {
     da: { gram: 'da_a1_gramatica.json', func: 'da_a1_funciones_comunicativas.json', conv: 'da_a1_conversacion.json' },
     de: { gram: 'de_a1_gramatica.json', func: 'de_a1_funciones_comunicativas.json', conv: 'de_a1_conversacion.json' },
     es: { gram: 'es_a1_gramatica.json', func: 'es_a1_funciones_comunicativas.json', conv: 'es_a1_conversacion.json' },
+    is: { gram: 'is_a1_gramatica.json', func: 'is_a1_funciones_comunicativas.json', conv: 'is_a1_conversacion.json' },
     fi: { gram: 'fi_a1_gramatica.json', func: 'fi_a1_funciones_comunicativas.json', conv: 'fi_a1_conversacion.json' },
     fr: { gram: 'fr_a1_gramatica.json', func: 'fr_a1_funciones_comunicativas.json', conv: 'fr_a1_conversacion.json' },
     gn: { gram: 'gn_a1_gramatica.json', func: 'gn_a1_funciones_comunicativas.json', conv: 'gn_a1_conversacion.json' },

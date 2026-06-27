@@ -1,0 +1,660 @@
+[
+  {
+    "id": "is_A1_func_01",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Greet and introduce yourself",
+    "bridge": "Á íslensku segjum við 'Halló' eða 'Hæ' og 'Ég heiti...' eða 'Ég er...' til að kynna okkur. Á ensku er svipað: 'Hello' eða 'Hi' og 'My name is...' eða 'I am...'. Vandamálið er að Íslendingar þýða 'Ég heiti...' oft bókstaflega sem 'I name...' (þar sem 'heiti' þýðir 'name' sem sögn) eða 'I am called' sem er formlegt. Best er að nota 'My name is...' eða 'I am...'. Einnig: í íslensku getum við sleppt persónufornafni ('er kominn'), en á ensku verður þú að hafa það með.",
+    "rule": "Til að heilsa: 'Hello' (Halló), 'Hi' (Hæ, óformlegra), 'Good morning' (Góðan daginn), 'Good afternoon' (Góðan daginn), 'Good evening' (Gott kvöld). Til að kynna sig: 'My name is...' (Ég heiti...) eða 'I am...' (Ég er...). Til að spyrja um nafn: 'What is your name?' (Hvað heitir þú?). Til að svara kveðju: 'Nice to meet you' (Gaman að kynnast þér) og svar er 'Nice to meet you too'. Til að kveðja: 'Goodbye', 'Bye', 'See you later'.",
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Maria.",
+        "translation": "Halló, ég heiti María.",
+        "phonetic": "/həˈləʊ maɪ neɪm ɪz məˈriːə/"
+      },
+      {
+        "text": "Good morning, I am Peter.",
+        "translation": "Góðan daginn, ég er Pétur.",
+        "phonetic": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Gaman að kynnast þér.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "What is your name?",
+        "translation": "Hvað heitir þú?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I name Daniel.",
+      "correct": "My name is Daniel.",
+      "correct_alt": "I am Daniel.",
+      "explanation": "Á íslensku segjum við 'Ég heiti Daníel' – 'heiti' þýðir 'name' sem sögn, svo bein þýðing er 'I name Daniel'. En á ensku er það rangt. Notaðu 'My name is...' eða 'I am...'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic greeting",
+        "translation": "Grunnkveðja",
+        "examples": [
+          {
+            "original": "Hello!",
+            "phonetic": "/həˈləʊ/",
+            "translation": "Halló!",
+            "note": "Staðlaðar kveðjur."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Introduce yourself",
+        "translation": "Kynntu þig",
+        "examples": [
+          {
+            "original": "My name is John.",
+            "phonetic": "/maɪ neɪm ɪz dʒɒn/",
+            "translation": "Ég heiti Jón.",
+            "note": "Algengasta leiðin til að segja nafnið sitt."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ask someone's name",
+        "translation": "Spyrja um nafn",
+        "examples": [
+          {
+            "original": "What is your name?",
+            "phonetic": "/wɒt ɪz jɔː neɪm/",
+            "translation": "Hvað heitir þú?",
+            "note": "Bein spurning til að fá nafn."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Farewell",
+        "translation": "Kveðja",
+        "examples": [
+          {
+            "original": "See you tomorrow!",
+            "phonetic": "/siː juː təˈmɒrəʊ/",
+            "translation": "Sjáumst á morgun!",
+            "note": "Óformleg kveðja."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "is_A1_func_02",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Give personal information (age, nationality, profession)",
+    "bridge": "Á íslensku segjum við 'Ég er 20 ára' fyrir aldur (án 'old'), 'Ég er íslenskur' fyrir þjóðerni og 'Ég er kennari' fyrir starf (án greinis). Á ensku: aldur krefst 'old' ('I am 20 years old'), starf krefst 'a' eða 'an' ('I am a teacher'). Þjóðerni er eins og í íslensku – enginn greinir ('I am Icelandic'). Vandamálið er að Íslendingar gleyma 'old' og 'a/an'. Einnig: í íslensku notum við ekki 'have' fyrir aldur, en sumir ruglast og segja 'I have 20 years' (rangt). MUNDU: aldrei 'have' með aldri!",
+    "rule": "Aldur: 'I am [number] years old' (t.d. I am 25 years old). Þjóðerni: 'I am [nationality]' (t.d. I am Icelandic, I am Mexican). Starf: 'I am a/an [profession]' (t.d. I am a doctor, I am an engineer). Spurningar: 'How old are you?' (Hversu gamall ertu?), 'Where are you from?' (Hvaðan ertu?), 'What do you do?' (Hvað gerir þú?) eða 'What is your job?'.",
+    "concept_examples": [
+      {
+        "text": "I am 25 years old.",
+        "translation": "Ég er 25 ára.",
+        "phonetic": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/"
+      },
+      {
+        "text": "I am Icelandic.",
+        "translation": "Ég er íslenskur.",
+        "phonetic": "/aɪ æm aɪsˈlændɪk/"
+      },
+      {
+        "text": "I am a teacher.",
+        "translation": "Ég er kennari.",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "How old are you?",
+        "translation": "Hversu gamall ertu?",
+        "phonetic": "/haʊ əʊld ɑːr juː/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am 20 years.",
+      "correct": "I am 20 years old.",
+      "correct_alt": "",
+      "explanation": "Á íslensku segjum við 'ég er 20 ára' án 'old'. Á ensku verður þú að bæta við 'old'. Þetta er algengasta villan hjá Íslendingum í aldurstjáningu."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Age",
+        "translation": "Aldur",
+        "examples": [
+          {
+            "original": "I am 30 years old.",
+            "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/",
+            "translation": "Ég er 30 ára.",
+            "note": "Notaðu 'to be' fyrir aldur."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nationality",
+        "translation": "Þjóðerni",
+        "examples": [
+          {
+            "original": "I am Mexican.",
+            "phonetic": "/aɪ æm ˈmeksɪkən/",
+            "translation": "Ég er mexíkanskur.",
+            "note": "Enginn greinir fyrir þjóðerni."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Profession",
+        "translation": "Starf",
+        "examples": [
+          {
+            "original": "She is a nurse.",
+            "phonetic": "/ʃiː ɪz ə nɜːs/",
+            "translation": "Hún er hjúkrunarfræðingur.",
+            "note": "Með greini 'a' eða 'an' fyrir störf."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions",
+        "translation": "Spurningar",
+        "examples": [
+          {
+            "original": "Where are you from?",
+            "phonetic": "/weə ɑːr juː frɒm/",
+            "translation": "Hvaðan ertu?",
+            "note": "Spurning um uppruna."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "is_A1_func_03",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Describe objects and people (basic)",
+    "bridge": "Á íslensku setjum við lýsingarorðið Á UNDAN nafnorðinu: 'rauður bíll', 'stór hundur'. Á ensku er það alveg eins: 'a red car', 'a big dog'. Þetta er því auðvelt fyrir Íslendinga. Notaðu 'to be' fyrir almennar lýsingar (She is tall) og 'have got' fyrir líkamlega eiginleika (She has got blue eyes). Vandamálið er að Íslendingar gleyma stundum 'to be' eða 'have got', vegna þess að í íslensku er sögnin oft innifalin í fallbeygingu. MUNDU: alltaf hafa sögnina með!",
+    "rule": "Til að lýsa: 1) Lýsingarorð + nafnorð (a big house). 2) Persónufornafn + sögn 'to be' + lýsingarorð (The house is big). 3) Persónufornafn + 'have/has got' + eiginleiki (She has got long hair). Algeng lýsingarorð: big (stór), small (lítill), tall (hár), short (stuttur/lágur), beautiful (fallegur), old (gamall), young (ungur), fast (hraður), slow (hægur).",
+    "concept_examples": [
+      {
+        "text": "This is a big house.",
+        "translation": "Þetta er stórt hús.",
+        "phonetic": "/ðɪs ɪz ə bɪɡ haʊs/"
+      },
+      {
+        "text": "She is tall and thin.",
+        "translation": "Hún er há og grönn.",
+        "phonetic": "/ʃiː ɪz tɔːl ænd θɪn/"
+      },
+      {
+        "text": "He has got blue eyes.",
+        "translation": "Hann er með blá augu.",
+        "phonetic": "/hiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "Bíllinn er rauður.",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      }
+    ],
+    "common_error": {
+      "wrong": "She tall.",
+      "correct": "She is tall.",
+      "correct_alt": "",
+      "explanation": "Á íslensku segjum við 'hún er há' – sögnin 'er' er með. Á ensku verður þú að hafa 'is' eða 'are'. Ekki sleppa sögninni!"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adjective + noun",
+        "translation": "Lýsingarorð + nafnorð",
+        "examples": [
+          {
+            "original": "a small dog",
+            "phonetic": "/ə smɔːl dɒɡ/",
+            "translation": "lítill hundur",
+            "note": "Lýsingarorðið kemur fyrir nafnorðið – alveg eins og á íslensku."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Subject + to be + adjective",
+        "translation": "Persónufornafn + to be + lýsingarorð",
+        "examples": [
+          {
+            "original": "The book is interesting.",
+            "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/",
+            "translation": "Bókin er áhugaverð.",
+            "note": "Notaðu 'to be' fyrir almennar lýsingar."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "have/has got for features",
+        "translation": "have/has got fyrir eiginleika",
+        "examples": [
+          {
+            "original": "She has got curly hair.",
+            "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/",
+            "translation": "Hún er með krullað hár.",
+            "note": "Notaðu 'have got' fyrir líkamlega eiginleika."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Combined description",
+        "translation": "Samsett lýsing",
+        "examples": [
+          {
+            "original": "My brother is young and he has got green eyes.",
+            "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/",
+            "translation": "Bróðir minn er ungur og hann er með græn augu.",
+            "note": "Samsetning af 'to be' og 'have got'."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "is_A1_func_04",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Talk about daily routines",
+    "bridge": "Á íslensku notum við nútíð fyrir venjur: 'Ég fer á fætur klukkan sjö á hverjum degi'. Á ensku er það sama: 'I get up at 7 o'clock every day'. Munurinn er að í íslensku breytist sögnin ekki eftir persónum, en á ensku bætist -s við í þriðju persónu (he, she, it). Einnig: íslenska hefur ekki sérstaka tíð fyrir athafnir sem standa yfir núna, svo Íslendingar segja 'I eat now' (þegar ætti að vera 'I am eating now'). MUNDU: venjur → present simple; það sem gerist núna → present continuous!",
+    "rule": "Til að tala um venjur: 1) Notaðu present simple (I get up, she works). 2) Notaðu tímatjáningar: 'at' + klukkutími (at 8 am), 'in' + hluti dags (in the morning), 'on' + dagur (on Friday). 3) Notaðu tíðniatorð fyrir sögnina (I always eat breakfast). 4) Spurningar: 'What time do you get up?' eða 'When do you have lunch?'.",
+    "concept_examples": [
+      {
+        "text": "I get up at 7 o'clock.",
+        "translation": "Ég fer á fætur klukkan sjö.",
+        "phonetic": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/"
+      },
+      {
+        "text": "She usually has breakfast at 8 am.",
+        "translation": "Hún borðar venjulega morgunmat klukkan átta.",
+        "phonetic": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/"
+      },
+      {
+        "text": "We go to work at 9 in the morning.",
+        "translation": "Við förum í vinnuna klukkan níu um morguninn.",
+        "phonetic": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "What time do you have dinner?",
+        "translation": "Hvenær borðar þú kvöldmat?",
+        "phonetic": "/wɒt taɪm duː juː hæv ˈdɪnə/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I eat now.",
+      "correct": "I am eating now.",
+      "correct_alt": "",
+      "explanation": "Á íslensku segjum við 'ég borða núna' – þetta er nútíð sem stendur yfir. Á ensku verður þú að nota present continuous (I am eating) fyrir athafnir sem gerast núna. Þetta er mjög algeng villa hjá Íslendingum."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Daily actions",
+        "translation": "Daglegar athafnir",
+        "examples": [
+          {
+            "original": "I get up early.",
+            "phonetic": "/aɪ ɡet ʌp ˈɜːli/",
+            "translation": "Ég fer snemma á fætur.",
+            "note": "Sögn í present simple fyrir venju."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Time expressions",
+        "translation": "Tímatjáningar",
+        "examples": [
+          {
+            "original": "I have lunch at 1 pm.",
+            "phonetic": "/aɪ hæv lʌntʃ æt wʌn piː em/",
+            "translation": "Ég borða hádegismat klukkan eitt.",
+            "note": "Notaðu 'at' fyrir tiltekna tíma."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Frequency adverbs",
+        "translation": "Tíðniatorð",
+        "examples": [
+          {
+            "original": "She never drinks coffee.",
+            "phonetic": "/ʃiː ˈnevə drɪŋks ˈkɒfi/",
+            "translation": "Hún drekkur aldrei kaffi.",
+            "note": "Atviksorð fyrir aðalsögnina."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions about routines",
+        "translation": "Spurningar um venjur",
+        "examples": [
+          {
+            "original": "What time do you go to bed?",
+            "phonetic": "/wɒt taɪm duː juː ɡəʊ tə bed/",
+            "translation": "Hvenær ferðu að sofa?",
+            "note": "Spurning með 'what time' + do/does."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "is_A1_func_05",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Express likes and dislikes (I like / I don't like)",
+    "bridge": "Á íslensku segjum við 'Mér líkar...' (í þágufalli) eða 'Ég elska...' (fyrir sterkari tilfinningar). Vandamálið er að Íslendingar þýða 'mér líkar' oft bókstaflega sem 'Me like pizza' (þar sem 'mér' er þágufall). En á ensku notum við 'I like pizza'. Þetta er ein algengasta villan hjá Íslendingum. Einnig: í íslensku er 'mér líkar' með öfugri orðaröð (mér líkar pizza – mér er andlag, pizza er frumlag). Á ensku er það bein orðaröð: 'I like pizza'. MUNDU: 'I like' (ekki 'Me like'). Í þriðju persónu: 'He likes'.",
+    "rule": "Til að tjá líkar/ólíkar: 1) Jákvætt: I/you/we/they like + hlutur (I like coffee). He/she/it likes + hlutur (She likes coffee). 2) Neitun: I/you/we/they don't like (I don't like tea). He/she/it doesn't like (He doesn't like tea). 3) Spurningar: Do you like...? (Líkar þér...?), Does she like...? (Líkar henni...?). 4) Styrking: 'I like it very much' (Mér líkar það mjög vel) eða 'I really like it'.",
+    "concept_examples": [
+      {
+        "text": "I like pizza.",
+        "translation": "Mér líkar pizza.",
+        "phonetic": "/aɪ laɪk ˈpiːtsə/"
+      },
+      {
+        "text": "She likes reading.",
+        "translation": "Henni líkar að lesa.",
+        "phonetic": "/ʃiː laɪks ˈriːdɪŋ/"
+      },
+      {
+        "text": "We don't like fast food.",
+        "translation": "Okkur líkar ekki skyndibiti.",
+        "phonetic": "/wiː dəʊnt laɪk fɑːst fuːd/"
+      },
+      {
+        "text": "Do you like music?",
+        "translation": "Líkar þér tónlist?",
+        "phonetic": "/duː juː laɪk ˈmjuːzɪk/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Me like pizza.",
+      "correct": "I like pizza.",
+      "correct_alt": "",
+      "explanation": "Á íslensku segjum við 'Mér líkar pizza' – 'mér' er þágufall. En á ensku er það 'I like pizza'. Ekki nota 'me' sem frumlag. MUNDU: 'I' er frumlag, 'me' er andlag."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Affirmative with I/you/we/they",
+        "translation": "Jákvætt með I/you/we/they",
+        "examples": [
+          {
+            "original": "I like chocolate.",
+            "phonetic": "/aɪ laɪk ˈtʃɒkələt/",
+            "translation": "Mér líkar súkkulaði.",
+            "note": "Sögnin 'like' í grunnformi."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Affirmative with he/she/it",
+        "translation": "Jákvætt með he/she/it",
+        "examples": [
+          {
+            "original": "He likes football.",
+            "phonetic": "/hiː laɪks ˈfʊtbɔːl/",
+            "translation": "Honum líkar fótbolti.",
+            "note": "Bættu við -s í þriðju persónu."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negative with don't/doesn't",
+        "translation": "Neitun með don't/doesn't",
+        "examples": [
+          {
+            "original": "She doesn't like coffee.",
+            "phonetic": "/ʃiː ˈdʌznt laɪk ˈkɒfi/",
+            "translation": "Henni líkar ekki kaffi.",
+            "note": "Notaðu 'doesn't' + sögn í grunnformi."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions with Do/Does",
+        "translation": "Spurningar með Do/Does",
+        "examples": [
+          {
+            "original": "Do you like dogs?",
+            "phonetic": "/duː juː laɪk dɒɡz/",
+            "translation": "Líkar þér hundar?",
+            "note": "Spurning með 'do' + persónufornafn + sögn í grunnformi."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "is_A1_func_06",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Ask for and give prices",
+    "bridge": "Á íslensku spyrjum við 'Hvað kostar það?' (What costs it?). Vandamálið er að Íslendingar þýða þetta beint sem 'How much cost it?' (án 'does') eða 'How much it cost?' (án að víxla). Á ensku notum við 'How much is it?' (hversu mikið er það?) eða 'How much does it cost?' (hversu mikið kostar það?). MUNDU: 'How much is it?' (beint) eða 'How much does it cost?' (með sögnina 'cost'). Aldrei 'How much cost it?'.",
+    "rule": "Til að spyrja um verð: 1) 'How much is it?' (fyrir einn hlut) eða 'How much are they?' (fyrir fleiri). 2) 'How much does it cost?' (Hversu mikið kostar það?). 3) 'How much is the T-shirt?' (Hversu mikið kostar bolurinn?). Til að svara: 'It is 25 dollars' eða 'It costs 25 dollars'. Í spurningum notaðu alltaf 'to be' eða hjálparsögnina 'does' + 'cost'.",
+    "concept_examples": [
+      {
+        "text": "How much is it?",
+        "translation": "Hversu mikið kostar það?",
+        "phonetic": "/haʊ mʌtʃ ɪz ɪt/"
+      },
+      {
+        "text": "How much does it cost?",
+        "translation": "Hversu mikið kostar það?",
+        "phonetic": "/haʊ mʌtʃ dʌz ɪt kɒst/"
+      },
+      {
+        "text": "It is 10 dollars.",
+        "translation": "Það kostar 10 dollara.",
+        "phonetic": "/ɪt ɪz ten ˈdɒləz/"
+      },
+      {
+        "text": "How much are these shoes?",
+        "translation": "Hversu mikið kosta þessir skór?",
+        "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
+      }
+    ],
+    "common_error": {
+      "wrong": "How much cost it?",
+      "correct": "How much does it cost?",
+      "correct_alt": "How much is it?",
+      "explanation": "Á íslensku spyrjum við 'Hvað kostar það?' án hjálparsagnar. Á ensku, með sögninni 'cost', þarf hjálparsögnina 'does' í spurningum. Þetta er bein þýðing frá íslensku."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ask price with 'to be'",
+        "translation": "Spyrja um verð með 'to be'",
+        "examples": [
+          {
+            "original": "How much is the book?",
+            "phonetic": "/haʊ mʌtʃ ɪz ðə bʊk/",
+            "translation": "Hversu mikið kostar bókin?",
+            "note": "Notaðu 'to be' til að spyrja um verð."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ask price with 'cost'",
+        "translation": "Spyrja um verð með 'cost'",
+        "examples": [
+          {
+            "original": "How much does the bag cost?",
+            "phonetic": "/haʊ mʌtʃ dʌz ðə bæɡ kɒst/",
+            "translation": "Hversu mikið kostar taskan?",
+            "note": "Notaðu 'does' + 'cost' til að spyrja."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Give price",
+        "translation": "Gefðu verð",
+        "examples": [
+          {
+            "original": "It costs 5 euros.",
+            "phonetic": "/ɪt kɒsts faɪv ˈjʊərəʊz/",
+            "translation": "Það kostar 5 evrur.",
+            "note": "Notaðu 'costs' í þriðju persónu eintölu."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Plural questions",
+        "translation": "Fleirtöluspurningar",
+        "examples": [
+          {
+            "original": "How much are these apples?",
+            "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ˈæpəlz/",
+            "translation": "Hversu mikið kosta þessi epli?",
+            "note": "Notaðu 'are' í fleirtölu."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "is_A1_func_07",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Indicate location of places",
+    "bridge": "Á íslensku notum við sögnina 'er' (er) eða 'liggur' (liggur) fyrir staðsetningu. Vandamálið er að Íslendingar þýða 'liggur' oft sem 'lies' (liggur) sem er of formlegt á ensku. Betra er að nota 'is' (er). Einnig: í íslensku segjum við 'í' fyrir bæði 'in' og 'at', svo Íslendingar rugla saman 'in' og 'at' fyrir staði: 'I am in school' (í byggingunni) vs 'at school' (í skólanum sem starfsemi). Einnig: fyrir farartæki segjum við 'í strætó' (in the bus), en á ensku segir maður 'on the bus'. MUNDU: 'in' = lokað rými, 'on' = flötur/farartæki, 'at' = tiltekin staðsetning.",
+    "rule": "Til að gefa til kynna staðsetningu: 1) Notaðu sögnina 'to be' (The bank is...). 2) Forsetningar: 'on' (á, á flöt eða götu), 'in' (í, innan), 'at' (við, á tilteknum stað), 'next to' (við hliðina á), 'near' (nálægt), 'opposite' (andspænis), 'behind' (bak við), 'in front of' (fyrir framan). 3) Spurningar: 'Where is the...?' (Hvar er...?) eða 'Is there a... near here?' (Er ... hérna nálægt?).",
+    "concept_examples": [
+      {
+        "text": "The supermarket is near the park.",
+        "translation": "Stórmarkaðurinn er nálægt garðinum.",
+        "phonetic": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/"
+      },
+      {
+        "text": "The school is next to the church.",
+        "translation": "Skólinn er við hliðina á kirkjunni.",
+        "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/"
+      },
+      {
+        "text": "The pharmacy is on Main Street.",
+        "translation": "Apótekið er á Main Street.",
+        "phonetic": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/"
+      },
+      {
+        "text": "Where is the bus station?",
+        "translation": "Hvar er strætóstöðin?",
+        "phonetic": "/weə ɪz ðə bʌs ˈsteɪʃən/"
+      }
+    ],
+    "common_error": {
+      "wrong": "The bank lies near the park.",
+      "correct": "The bank is near the park.",
+      "correct_alt": "",
+      "explanation": "Á íslensku segjum við 'bankinn liggur nálægt garðinum' – 'liggur' er þýtt sem 'lies'. Á ensku notar maður næstum alltaf 'is' fyrir staðsetningu, og 'lies' hljómar of formlegt. Notaðu 'is' í daglegu tali."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic location with 'in'",
+        "translation": "Grunnstaðsetning með 'in'",
+        "examples": [
+          {
+            "original": "The cat is in the garden.",
+            "phonetic": "/ðə kæt ɪz ɪn ðə ˈɡɑːdən/",
+            "translation": "Kötturinn er í garðinum.",
+            "note": "Notaðu 'in' fyrir lokuð rými."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Location with 'next to'",
+        "translation": "Staðsetning með 'next to'",
+        "examples": [
+          {
+            "original": "The restaurant is next to the hotel.",
+            "phonetic": "/ðə ˈrestrɒnt ɪz nekst tə ðə həʊˈtel/",
+            "translation": "Veitingastaðurinn er við hliðina á hótelinu.",
+            "note": "Notaðu 'next to' fyrir hliðstæðu."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Location with 'near' and 'opposite'",
+        "translation": "Staðsetning með 'near' og 'opposite'",
+        "examples": [
+          {
+            "original": "The bank is opposite the park.",
+            "phonetic": "/ðə bæŋk ɪz ˈɒpəzɪt ðə pɑːk/",
+            "translation": "Bankinn er andspænis garðinum.",
+            "note": "Notaðu 'opposite' fyrir andspænis."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Question with Where",
+        "translation": "Spurning með Where",
+        "examples": [
+          {
+            "original": "Where is the police station?",
+            "phonetic": "/weə ɪz ðə pəˈliːs ˈsteɪʃən/",
+            "translation": "Hvar er lögreglustöðin?",
+            "note": "Bein spurning með 'Where'."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  }
+]
