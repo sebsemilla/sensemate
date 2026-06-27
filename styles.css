@@ -1214,12 +1214,14 @@ body.dark-mode .song-card:hover {
 }
 .lang-select {
     flex: 1;
+    min-width: 0;
     padding: 0.45rem 0.7rem;
     border-radius: 40px;
     border: 1px solid #cbd5e1;
     background: #f8fafc;
     font-size: 0.9rem;
     text-align: center;
+    max-width: 180px;
 }
 .swap-btn {
     background: #eef2ff;

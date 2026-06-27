@@ -225,40 +225,118 @@ function requireAuthForAction(label) {
 
 // ─── Barra de idiomas ─────────────────────────────────────────
 
+function _langOptionsHtml() {
+    return `
+        <optgroup label="🌎 América">
+            <option value="es">Español</option>
+            <option value="en">Inglés (americano)</option>
+            <option value="pt">Português</option>
+            <option value="fr">Français</option>
+            <option value="gn">Guaraní</option>
+            <option value="qu">Quechua</option>
+            <option value="ht">Kreyòl ayisyen</option>
+        </optgroup>
+        <optgroup label="🌍 Europa Occidental">
+            <option value="en">English (British)</option>
+            <option value="es">Español</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="it">Italiano</option>
+            <option value="pt">Português</option>
+            <option value="nl">Nederlands</option>
+            <option value="da">Dansk</option>
+            <option value="sv">Svenska</option>
+            <option value="no">Norsk</option>
+            <option value="fi">Suomi</option>
+            <option value="is">Íslenska</option>
+            <option value="ga">Gaeilge</option>
+            <option value="ca">Català</option>
+            <option value="gl">Galego</option>
+            <option value="eu">Euskara</option>
+            <option value="cy">Cymraeg</option>
+        </optgroup>
+        <optgroup label="🌍 Europa Oriental">
+            <option value="ru">Русский</option>
+            <option value="pl">Polski</option>
+            <option value="cs">Čeština</option>
+            <option value="sk">Slovenčina</option>
+            <option value="uk">Українська</option>
+            <option value="bg">Български</option>
+            <option value="ro">Română</option>
+            <option value="hr">Hrvatski</option>
+            <option value="sr">Srpski</option>
+            <option value="bs">Bosanski</option>
+            <option value="sl">Slovenščina</option>
+            <option value="mk">Македонски</option>
+            <option value="sq">Shqip</option>
+            <option value="el">Ελληνικά</option>
+            <option value="hu">Magyar</option>
+            <option value="lt">Lietuvių</option>
+            <option value="lv">Latviešu</option>
+            <option value="et">Eesti</option>
+            <option value="be">Беларуская</option>
+        </optgroup>
+        <optgroup label="🕌 Asia Occidental">
+            <option value="ar">العربية</option>
+            <option value="he">עברית</option>
+            <option value="tr">Türkçe</option>
+            <option value="fa">فارسی</option>
+            <option value="ur">اردو</option>
+            <option value="az">Azərbaycan</option>
+            <option value="ka">ქართული</option>
+            <option value="hy">Հայերեն</option>
+            <option value="ku">Kurdî</option>
+        </optgroup>
+        <optgroup label="🌏 Asia Oriental y del Sur">
+            <option value="zh">中文 (Mandarín)</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+            <option value="hi">हिन्दी</option>
+            <option value="bn">বাংলা</option>
+            <option value="ta">தமிழ்</option>
+            <option value="te">తెలుగు</option>
+            <option value="vi">Tiếng Việt</option>
+            <option value="th">ภาษาไทย</option>
+            <option value="id">Bahasa Indonesia</option>
+            <option value="ms">Bahasa Melayu</option>
+            <option value="tl">Filipino</option>
+        </optgroup>
+        <optgroup label="🌍 África Subsahariana">
+            <option value="sw">Kiswahili</option>
+            <option value="yo">Yorùbá</option>
+            <option value="ig">Igbo</option>
+            <option value="ha">Hausa</option>
+            <option value="zu">isiZulu</option>
+            <option value="xh">isiXhosa</option>
+            <option value="am">አማርኛ</option>
+            <option value="so">Soomaali</option>
+            <option value="sn">ChiShona</option>
+        </optgroup>
+        <optgroup label="🏜️ África del Norte">
+            <option value="ar">العربية (Magreb)</option>
+            <option value="fr">Français (Magreb)</option>
+            <option value="ber">Tamazight</option>
+        </optgroup>
+        <optgroup label="🌏 Oceanía">
+            <option value="en">English (Australian)</option>
+            <option value="mi">Te Reo Māori</option>
+            <option value="sm">Gagana Sāmoa</option>
+            <option value="fj">Na Vosa Vakaviti</option>
+            <option value="tpi">Tok Pisin</option>
+            <option value="haw">ʻŌlelo Hawaiʻi</option>
+        </optgroup>
+    `;
+}
+
 function renderLanguageBar() {
     const t = currentTranslations;
     document.querySelector('.language-bar')?.remove();
+    const opts = _langOptionsHtml();
     mainContainer.insertAdjacentHTML('afterbegin', `
         <div class="language-bar">
-            <select id="langBarSource" class="lang-select">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="fr">Français</option>
-                <option value="de">Deutsch</option>
-                <option value="it">Italiano</option>
-                <option value="pt">Português</option>
-                <option value="gn">Guaraní</option>
-                <option value="da">Dansk</option>
-                <option value="fi">Suomi</option>
-                <option value="is">Íslenska</option>
-                <option value="nl">Nederlands</option>
-                <option value="sv">Svenska</option>
-            </select>
+            <select id="langBarSource" class="lang-select">${opts}</select>
             <button id="swapLangBtn" class="swap-btn">⇄</button>
-            <select id="langBarTarget" class="lang-select">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="fr">Français</option>
-                <option value="de">Deutsch</option>
-                <option value="it">Italiano</option>
-                <option value="pt">Português</option>
-                <option value="gn">Guaraní</option>
-                <option value="da">Dansk</option>
-                <option value="fi">Suomi</option>
-                <option value="is">Íslenska</option>
-                <option value="nl">Nederlands</option>
-                <option value="sv">Svenska</option>
-            </select>
+            <select id="langBarTarget" class="lang-select">${opts}</select>
         </div>
     `);
     const src  = document.getElementById('langBarSource');
