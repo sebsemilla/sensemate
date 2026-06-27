@@ -1026,9 +1026,9 @@ function _showInglesConvModule(mod, key) {
     renderLanguageBar();
     window.scrollTo(0, 0);
 
-    const conv = mod.conversation || {};
-    const vocab = conv.vocabulary || [];
-    const dialogue = conv.dialogue || [];
+    const conv    = mod.conversation || {};
+    const vocab   = conv.vocabulary  || [];
+    const dialogue = conv.dialogue   || [];
 
     const vocabHtml = vocab.length ? `
         <div class="ma1-section">
@@ -1042,7 +1042,10 @@ function _showInglesConvModule(mod, key) {
     const dialogueHtml = dialogue.map((line, i) => `
         <div class="ma1-conv-bubble ma1-conv-bubble--${i % 2 === 0 ? 'a' : 'b'}">
             <div class="ma1-conv-speaker">${line.speaker || ''}</div>
-            <div class="ma1-conv-text">${line.text || ''}</div>
+            <div class="ma1-conv-text">
+                ${line.text || ''}
+                <button class="ma1-conv-audio-btn" data-speak="${(line.text || '').replace(/"/g, '&quot;')}">🔊</button>
+            </div>
             <div class="ma1-conv-translation">${line.translation || ''}</div>
             ${line.note ? `<div class="ma1-conv-note">💡 ${line.note}</div>` : ''}
         </div>`).join('');
@@ -1062,6 +1065,15 @@ function _showInglesConvModule(mod, key) {
                 <div class="ma1-section-title">💬 Diálogo</div>
                 <div class="ma1-conv-dialogue">${dialogueHtml}</div>
             </div>
+            <div class="ma1-section ej01-section">
+                <div class="ma1-section-title">🏋️ Ejercicios</div>
+                <div class="ej01-btns">
+                    <button class="ej01-btn" id="ej01Btn1">📝 Ejercicio 1 — Opción múltiple</button>
+                    <button class="ej01-btn" id="ej01Btn2">✍️ Ejercicio 2 — Completar</button>
+                </div>
+                <div class="ej01-panel" id="ej01Panel1"></div>
+                <div class="ej01-panel" id="ej01Panel2"></div>
+            </div>
             <button class="ma1-done-btn" id="ma1DoneBtn">✓ Completado — Volver a Misión</button>
         </div>
     `);
@@ -1071,6 +1083,181 @@ function _showInglesConvModule(mod, key) {
         const arr = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
         if (!arr.includes(key)) { arr.push(key); localStorage.setItem('ls_mision_steps', JSON.stringify(arr)); }
         showMainMenu();
+    });
+
+    mainContainer.querySelectorAll('.ma1-conv-audio-btn').forEach(btn => {
+        btn.addEventListener('click', () => _speakEn(btn.dataset.speak));
+    });
+
+    const items = _ej01BuildItems(conv);
+    const btn1  = document.getElementById('ej01Btn1');
+    const btn2  = document.getElementById('ej01Btn2');
+    const pan1  = document.getElementById('ej01Panel1');
+    const pan2  = document.getElementById('ej01Panel2');
+
+    btn1.addEventListener('click', () => {
+        if (btn1.classList.contains('ej01-btn--done')) return;
+        const open = pan1.classList.toggle('ej01-panel--active');
+        pan2.classList.remove('ej01-panel--active');
+        if (open && !pan1.dataset.rendered) {
+            _ej01ShowEx1(items, pan1, btn1);
+            pan1.dataset.rendered = '1';
+        }
+    });
+    btn2.addEventListener('click', () => {
+        if (btn2.classList.contains('ej01-btn--done')) return;
+        const open = pan2.classList.toggle('ej01-panel--active');
+        pan1.classList.remove('ej01-panel--active');
+        if (open && !pan2.dataset.rendered) {
+            _ej01ShowEx2(items, pan2, btn2);
+            pan2.dataset.rendered = '1';
+        }
+    });
+}
+
+function _speakEn(text) {
+    if (!window.speechSynthesis) return;
+    speechSynthesis.cancel();
+    const utt = new SpeechSynthesisUtterance(text);
+    utt.lang = 'en-US';
+    utt.rate = 0.85;
+    speechSynthesis.speak(utt);
+}
+
+// ── add_ejercicios01 ──────────────────────────────────────────
+
+function _ej01BuildItems(conv) {
+    const vocab    = conv.vocabulary || [];
+    const dialogue = conv.dialogue   || [];
+    const usedLines = new Set();
+    const items = [];
+    const allForms = vocab.flatMap(v => v.form.split('/').map(f => f.trim()));
+
+    for (const v of vocab) {
+        const forms = v.form.split('/').map(f => f.trim());
+        for (const line of dialogue) {
+            if (usedLines.has(line.text)) continue;
+            let matched = null, blanked = null;
+            for (const form of forms) {
+                const regex = new RegExp(`\\b(${form})\\b`, 'i');
+                const m = line.text.match(regex);
+                if (m) { matched = m[1]; blanked = line.text.replace(regex, '___'); break; }
+            }
+            if (!matched) continue;
+            const distractors = _misionShuffle(
+                allForms.filter(f => f.toLowerCase() !== matched.toLowerCase())
+            ).slice(0, 3);
+            while (distractors.length < 3) distractors.push(['do', 'have', 'get'][distractors.length] || 'make');
+            items.push({
+                original:    line.text,
+                blanked,
+                correct:     matched,
+                infinitive:  v.verb,
+                speaker:     line.speaker  || '',
+                translation: line.translation || '',
+                options:     _misionShuffle([matched, ...distractors]),
+            });
+            usedLines.add(line.text);
+            break;
+        }
+    }
+    return items;
+}
+
+function _ej01ShowEx1(items, panel, btn) {
+    if (!items.length) { panel.innerHTML = '<p class="ej01-empty">No hay suficientes ítems para este ejercicio.</p>'; return; }
+    let current = 0, correct = 0;
+
+    function renderItem() {
+        const it = items[current];
+        panel.innerHTML = `
+            <div class="ej01-progress">${current + 1} / ${items.length}</div>
+            <div class="ej01-card">
+                <div class="ej01-speaker">${it.speaker}</div>
+                <div class="ej01-blanked-row">
+                    <span class="ej01-blanked">${it.blanked}</span>
+                    <button class="ej01-audio-btn" id="ej01AudioBtn">🔊</button>
+                </div>
+                <div class="ej01-options" id="ej01Opts">
+                    ${it.options.map(o => `<button class="ej01-opt" data-opt="${o}">${o}</button>`).join('')}
+                </div>
+                <div class="ej01-feedback" id="ej01Feedback"></div>
+            </div>`;
+
+        panel.querySelector('#ej01AudioBtn').addEventListener('click', () => _speakEn(it.original));
+
+        panel.querySelectorAll('.ej01-opt').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const isCorrect = btn.dataset.opt.toLowerCase() === it.correct.toLowerCase();
+                panel.querySelectorAll('.ej01-opt').forEach(b => b.disabled = true);
+                if (isCorrect) {
+                    btn.classList.add('ej01-opt--correct');
+                    panel.querySelector('#ej01Feedback').innerHTML =
+                        `<span class="ej01-ok">✓ Correcto</span> <span class="ej01-trans">${it.translation}</span>`;
+                    correct++;
+                    setTimeout(() => {
+                        current++;
+                        if (current < items.length) renderItem();
+                        else {
+                            panel.innerHTML = `<div class="ej01-done-msg">✓ ¡Ejercicio 1 completado! ${correct}/${items.length} correctas.</div>`;
+                            btn.classList.add('ej01-btn--done');
+                            btn.textContent = '✓ Ejercicio 1';
+                        }
+                    }, 1100);
+                } else {
+                    btn.classList.add('ej01-opt--wrong');
+                    setTimeout(() => {
+                        btn.classList.remove('ej01-opt--wrong');
+                        panel.querySelectorAll('.ej01-opt').forEach(b => b.disabled = false);
+                    }, 700);
+                }
+            });
+        });
+    }
+    renderItem();
+}
+
+function _ej01ShowEx2(items, panel, btn) {
+    if (!items.length) { panel.innerHTML = '<p class="ej01-empty">No hay suficientes ítems para este ejercicio.</p>'; return; }
+
+    const rows = items.map((it, i) => {
+        const parts = it.blanked.split('___');
+        return `
+            <div class="ej01-write-item" data-idx="${i}">
+                <div class="ej01-speaker">${it.speaker}</div>
+                <div class="ej01-write-row">
+                    <span>${parts[0]}</span><input class="ej01-input" data-correct="${it.correct}" placeholder="(${it.infinitive})"><span>${parts[1] || ''}</span>
+                    <button class="ej01-audio-btn ej01-audio-inline" data-speak="${it.original.replace(/"/g, '&quot;')}">🔊</button>
+                </div>
+                <div class="ej01-write-feedback" id="ej01Fb${i}"></div>
+            </div>`;
+    }).join('');
+
+    panel.innerHTML = `${rows}<button class="ej01-check-btn" id="ej01CheckBtn">Verificar →</button>`;
+
+    panel.querySelectorAll('.ej01-audio-inline').forEach(b => {
+        b.addEventListener('click', () => _speakEn(b.dataset.speak));
+    });
+
+    panel.querySelector('#ej01CheckBtn').addEventListener('click', () => {
+        let allCorrect = true;
+        panel.querySelectorAll('.ej01-input').forEach((input, i) => {
+            const fb = panel.querySelector(`#ej01Fb${i}`);
+            const isOk = input.value.trim().toLowerCase() === items[i].correct.toLowerCase();
+            input.classList.toggle('ej01-input--correct', isOk);
+            input.classList.toggle('ej01-input--wrong',   !isOk);
+            fb.innerHTML = isOk
+                ? `<span class="ej01-ok">✓</span>`
+                : `<span class="ej01-err">✗ <em>${items[i].correct}</em></span>`;
+            if (!isOk) allCorrect = false;
+        });
+        if (allCorrect) {
+            setTimeout(() => {
+                panel.innerHTML = `<div class="ej01-done-msg">✓ ¡Ejercicio 2 completado!</div>`;
+                btn.classList.add('ej01-btn--done');
+                btn.textContent = '✓ Ejercicio 2';
+            }, 800);
+        }
     });
 }
 
