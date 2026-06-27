@@ -1813,14 +1813,14 @@ function _showMisionA1Module(mod, key) {
                 <h2 class="ma1-title">${mod.title}</h2>
             </div>
 
-            <div class="ma1-section">
-                <div class="ma1-section-title">🌉 Por qué importa</div>
-                <p class="ma1-bridge">${mod.bridge}</p>
-            </div>
-
             <div class="ma1-section ma1-section--rule">
                 <div class="ma1-section-title">📌 La regla</div>
                 <p class="ma1-rule">${mod.rule}</p>
+            </div>
+
+            <div class="ma1-section">
+                <div class="ma1-section-title">🌉 Por qué importa</div>
+                <p class="ma1-bridge">${mod.bridge}</p>
             </div>
 
             ${errorHtml}
