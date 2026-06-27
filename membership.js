@@ -20,7 +20,11 @@ const MembershipPlan = {
             || (typeof authGetCurrentUser === 'function' && authGetCurrentUser());
         if (u?.isAdmin || u?.isDev) return true;
         const s = this.getStatus();
-        return s === 'trial' || s === 'premium';
+        return s === 'trial' || s === 'premium' || s === 'oro';
+    },
+
+    isOro() {
+        return this.getStatus() === 'oro';
     },
 
     startTrial() {
@@ -32,17 +36,18 @@ const MembershipPlan = {
         document.body.dataset.membershipPlan = 'trial';
     },
 
-    activatePlan(period) {
+    activatePlan(period, tier = 'premium') {
         const expiry = new Date();
         if (period === 'annual') {
             expiry.setDate(expiry.getDate() + 365);
         } else {
             expiry.setDate(expiry.getDate() + 30);
         }
-        localStorage.setItem(this._PLAN_KEY, 'premium');
+        const planValue = (tier === 'oro') ? 'oro' : 'premium';
+        localStorage.setItem(this._PLAN_KEY, planValue);
         localStorage.setItem(this._EXPIRY_KEY, expiry.toISOString());
         localStorage.setItem(this._PERIOD_KEY, period);
-        document.body.dataset.membershipPlan = 'premium';
+        document.body.dataset.membershipPlan = planValue;
     },
 
     checkExpiry() {
@@ -58,7 +63,7 @@ const MembershipPlan = {
 
     canTranslate() {
         if (this.isActive()) return true;
-        return this.getDailyTranslationCount() < 50;
+        return this.getDailyTranslationCount() < 10;
     },
 
     countTranslation() {
@@ -104,7 +109,7 @@ const MembershipPlan = {
 
     isFlashcardGroupLocked(index) {
         if (this.isActive()) return false;
-        return index % 2 === 1; // odd indices: 1, 3, 5...
+        return index > 0; // free: only first group unlocked
     }
 };
 
@@ -115,7 +120,7 @@ function _todayKey() {
 // ─── Pricing page ─────────────────────────────────────────────
 
 let _membershipConfig  = null;
-let _billingToggle     = 'monthly'; // 'monthly' | 'annual'
+let _billingToggle     = 'annual'; // 'monthly' | 'annual'
 
 async function loadMembershipSection() {
     mainContainer.innerHTML = '';
@@ -154,6 +159,8 @@ async function loadMembershipSection() {
     const regAnnual    = config.regular?.annualPrice  || 34.99;
     const badge        = config.promo?.badge || '🔥 Precio de lanzamiento';
     const urgency      = (config.promo?.urgencyText || {})[isES ? 'es' : 'en'] || '';
+    const oroMonthly   = config.oro?.monthlyPrice || 4.99;
+    const oroAnnual    = config.oro?.annualPrice  || 29.99;
 
     const currentStatus = MembershipPlan.getStatus();
     const isAlreadyActive = MembershipPlan.isActive();
@@ -202,7 +209,8 @@ async function loadMembershipSection() {
             </div>
 
             <!-- Plan cards -->
-            <div class="plans-cards-row">
+            <div class="plans-cards-row plans-cards-row--3">
+
                 <!-- Free card -->
                 <div class="plan-card plan-card--free">
                     <div class="plan-card-header">
@@ -210,13 +218,14 @@ async function loadMembershipSection() {
                         <div class="plan-price-promo" style="font-size:1.8rem">$0</div>
                     </div>
                     <ul class="plan-feature-list plan-feature-list--free">
-                        <li>🔄 ${isES ? '50 traducciones / día' : '50 translations / day'}</li>
-                        <li>💬 ${isES ? '10 mensajes Modo Escuela' : '10 School Mode messages'}</li>
-                        <li>🎭 ${isES ? '5 mensajes con Famosos' : '5 Famous chat messages'}</li>
-                        <li>📇 ${isES ? 'Flashcards básicos (grupos pares)' : 'Basic flashcards (even groups)'}</li>
-                        <li class="plan-feature--locked">🔇 ${isES ? 'Sin audio TTS' : 'No TTS audio'}</li>
-                        <li class="plan-feature--locked">🎵 ${isES ? '1 sección Músicos (uso único)' : '1 Musicians section (single use)'}</li>
-                        <li class="plan-feature--locked">🌍 ${isES ? '1 sección Inmersión (uso único)' : '1 Immersion section (single use)'}</li>
+                        <li>🔄 ${isES ? '10 traducciones / día' : '10 translations / day'}</li>
+                        <li>📇 ${isES ? 'Flashcards: 1er módulo' : 'Flashcards: 1st module'}</li>
+                        <li>💬 ${isES ? 'Chat IA: 5 min modo prueba' : 'AI chat: 5 min trial'}</li>
+                        <li>🎭 ${isES ? '1 personaje / 10 min por día' : '1 character / 10 min per day'}</li>
+                        <li>🎵 ${isES ? '2 traducciones de canciones' : '2 song translations'}</li>
+                        <li class="plan-feature--locked">✏️ ${isES ? 'Sin creación de flashcards' : 'No flashcard creation'}</li>
+                        <li class="plan-feature--locked">📺 ${isES ? 'Sin multimedia' : 'No multimedia'}</li>
+                        <li class="plan-feature--locked">🌍 ${isES ? 'Aprender idiomas: parcial' : 'Language learning: partial'}</li>
                     </ul>
                     <button class="plan-cta-btn plan-cta-btn--free" id="planFreeCta">
                         ${isES ? 'Continuar gratis' : 'Continue for free'}
@@ -242,17 +251,19 @@ async function loadMembershipSection() {
                         </div>`}
                         ${_billingToggle === 'annual' ? `
                         <div class="plan-price-monthly-equiv">
-                            ≈ $${(_billingToggle === 'annual' ? (promoActive ? promoAnnual : regAnnual) / 12 : 0).toFixed(2)} / ${isES ? 'mes' : 'month'}
+                            ≈ $${((promoActive ? promoAnnual : regAnnual) / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}
                         </div>` : ''}
                     </div>
                     <ul class="plan-feature-list plan-feature-list--premium">
-                        <li>✅ ${isES ? 'Traducciones ilimitadas' : 'Unlimited translations'}</li>
-                        <li>✅ ${isES ? 'Mensajes ilimitados (Escuela)' : 'Unlimited School messages'}</li>
-                        <li>✅ ${isES ? 'Chat ilimitado con Famosos' : 'Unlimited Famous chat'}</li>
-                        <li>✅ ${isES ? 'Todos los grupos de flashcards' : 'All flashcard groups'}</li>
-                        <li>✅ ${isES ? 'Audio TTS con voces IA' : 'TTS audio with AI voices'}</li>
-                        <li>✅ ${isES ? 'Músicos e Inmersión sin límites' : 'Musicians & Immersion unlimited'}</li>
-                        <li>✅ ${isES ? 'Acceso a todas las funciones futuras' : 'Access to all future features'}</li>
+                        <li>✅ ${isES ? 'Traductor ilimitado' : 'Unlimited translator'}</li>
+                        <li>✅ ${isES ? 'Todos los flashcards' : 'All flashcards'}</li>
+                        <li>✅ ${isES ? 'Chat IA libre — consultas en contexto' : 'Free AI chat — contextual queries'}</li>
+                        <li>✅ ${isES ? 'Chat Famosos: todos / 1h por día' : 'Famous chat: all / 1h per day'}</li>
+                        <li>✅ ${isES ? 'Canciones ilimitadas' : 'Unlimited songs'}</li>
+                        <li>✅ ${isES ? 'Creación de flashcards' : 'Flashcard creation'}</li>
+                        <li>✅ ${isES ? 'Multimedia: base de datos completa' : 'Multimedia: full database'}</li>
+                        <li>✅ ${isES ? 'Insertar videos (BD personal)' : 'Insert videos (personal DB)'}</li>
+                        <li>✅ ${isES ? 'Aprender idiomas: todo — 2 idiomas/año' : 'Language learning: all — 2 lang/year'}</li>
                     </ul>
                     <button class="plan-trial-btn" id="planTrialBtn">
                         🎁 ${isES ? '1 mes gratis — Probar ahora' : '1 month free — Try now'}
@@ -261,49 +272,104 @@ async function loadMembershipSection() {
                         ${isES ? 'Suscribirme →' : 'Subscribe →'}
                     </button>
                 </div>
+
+                <!-- Oro card -->
+                <div class="plan-card plan-card--oro">
+                    <div class="plans-popular-tag plans-popular-tag--oro">🥇 ${isES ? 'Acceso total' : 'Full access'}</div>
+                    <div class="plan-card-header">
+                        <div class="plan-card-name">${isES ? '🥇 Membresía Oro' : '🥇 Gold Membership'}</div>
+                        <div class="plan-price-promo">
+                            $${_billingToggle === 'annual' ? oroAnnual.toFixed(2) : oroMonthly.toFixed(2)}
+                            <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
+                        </div>
+                        ${_billingToggle === 'annual' ? `
+                        <div class="plan-price-monthly-equiv">
+                            ≈ $${(oroAnnual / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}
+                        </div>` : ''}
+                    </div>
+                    <ul class="plan-feature-list plan-feature-list--oro">
+                        <li>✅ ${isES ? 'Traductor ilimitado' : 'Unlimited translator'}</li>
+                        <li>✅ ${isES ? 'Todos los flashcards' : 'All flashcards'}</li>
+                        <li>✅ ${isES ? 'Chat IA con historial contextualizado' : 'AI chat with contextual history'}</li>
+                        <li>✅ ${isES ? 'Chat Famosos: todos / 1h · Audio de personajes · Creación de personajes' : 'Famous: all / 1h · Character audio · Create characters'}</li>
+                        <li>✅ ${isES ? 'Canciones ilimitadas' : 'Unlimited songs'}</li>
+                        <li>✅ ${isES ? 'Creación de flashcards' : 'Flashcard creation'}</li>
+                        <li>✅ ${isES ? 'Multimedia: base de datos completa' : 'Multimedia: full database'}</li>
+                        <li>✅ ${isES ? 'Insertar videos (BD personal)' : 'Insert videos (personal DB)'}</li>
+                        <li>✅ ${isES ? 'Aprender idiomas: todo + IA con seguimiento de contexto' : 'Language learning: all + AI context tracking'}</li>
+                    </ul>
+                    <button class="plan-cta-btn plan-cta-btn--oro" id="planOroBtn">
+                        ${isES ? 'Obtener Oro →' : 'Get Gold →'}
+                    </button>
+                </div>
             </div>
 
             <!-- Feature comparison table -->
             <div class="plans-comparison-wrap">
                 <h3 class="plans-comparison-title">${isES ? 'Comparación detallada' : 'Detailed comparison'}</h3>
-                <table class="plans-comparison-table">
+                <table class="plans-comparison-table plans-comparison-table--3">
                     <thead>
                         <tr>
                             <th>${isES ? 'Función' : 'Feature'}</th>
                             <th>${isES ? 'Gratis' : 'Free'}</th>
                             <th>${planName}</th>
+                            <th>${isES ? 'Oro' : 'Gold'}</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>🔄 ${isES ? 'Traductor' : 'Translator'}</td>
-                            <td>${isES ? '50/día' : '50/day'}</td>
+                            <td>${isES ? '10/día' : '10/day'}</td>
+                            <td>✅ ${isES ? 'Ilimitado' : 'Unlimited'}</td>
                             <td>✅ ${isES ? 'Ilimitado' : 'Unlimited'}</td>
                         </tr>
                         <tr>
                             <td>📇 Flashcards</td>
-                            <td>${isES ? 'Grupos pares' : 'Even groups'}</td>
+                            <td>${isES ? '1er módulo' : '1st module'}</td>
+                            <td>✅ ${isES ? 'Todos' : 'All'}</td>
                             <td>✅ ${isES ? 'Todos' : 'All'}</td>
                         </tr>
                         <tr>
-                            <td>📚 ${isES ? 'Modo Escuela' : 'School Mode'}</td>
-                            <td>10 ${isES ? 'mensajes' : 'messages'}</td>
-                            <td>✅ ${isES ? 'Ilimitado' : 'Unlimited'}</td>
+                            <td>💬 Chat IA</td>
+                            <td>${isES ? '5 min prueba' : '5 min trial'}</td>
+                            <td>✅ ${isES ? 'Chat libre en contexto' : 'Free contextual chat'}</td>
+                            <td>✅ ${isES ? 'Con historial' : 'With history'}</td>
                         </tr>
                         <tr>
                             <td>🎭 ${isES ? 'Chat Famosos' : 'Famous Chat'}</td>
-                            <td>5 ${isES ? 'mensajes' : 'messages'}</td>
+                            <td>${isES ? '1 personaje / 10 min' : '1 character / 10 min'}</td>
+                            <td>✅ ${isES ? 'Todos / 1h día' : 'All / 1h day'}</td>
+                            <td>✅ ${isES ? 'Todos / 1h + audio + creación' : 'All / 1h + audio + creation'}</td>
+                        </tr>
+                        <tr>
+                            <td>🎵 ${isES ? 'Canciones' : 'Songs'}</td>
+                            <td>${isES ? '2 traducciones' : '2 translations'}</td>
+                            <td>✅ ${isES ? 'Ilimitado' : 'Unlimited'}</td>
                             <td>✅ ${isES ? 'Ilimitado' : 'Unlimited'}</td>
                         </tr>
                         <tr>
-                            <td>🔊 Audio TTS</td>
+                            <td>✏️ ${isES ? 'Creación flashcards' : 'Flashcard creation'}</td>
                             <td>❌</td>
-                            <td>✅</td>
+                            <td>✅ ${isES ? 'Todas' : 'All'}</td>
+                            <td>✅ ${isES ? 'Todas' : 'All'}</td>
                         </tr>
                         <tr>
-                            <td>🎵 ${isES ? 'Músicos & Inmersión' : 'Musicians & Immersion'}</td>
-                            <td>${isES ? 'Uso único' : 'Single use'}</td>
-                            <td>✅ ${isES ? 'Ilimitado' : 'Unlimited'}</td>
+                            <td>📺 ${isES ? 'Ver Multimedia' : 'Multimedia'}</td>
+                            <td>❌</td>
+                            <td>✅ ${isES ? 'Base completa' : 'Full database'}</td>
+                            <td>✅ ${isES ? 'Base completa' : 'Full database'}</td>
+                        </tr>
+                        <tr>
+                            <td>📤 ${isES ? 'Insertar videos' : 'Insert videos'}</td>
+                            <td>❌</td>
+                            <td>✅ ${isES ? 'BD personal' : 'Personal DB'}</td>
+                            <td>✅ ${isES ? 'BD personal' : 'Personal DB'}</td>
+                        </tr>
+                        <tr>
+                            <td>🌍 ${isES ? 'Aprender idiomas' : 'Language learning'}</td>
+                            <td>${isES ? 'Parcial' : 'Partial'}</td>
+                            <td>✅ ${isES ? 'Todo · 2 idiomas/año' : 'All · 2 lang/year'}</td>
+                            <td>✅ ${isES ? 'Todo + IA seguimiento' : 'All + AI tracking'}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -330,7 +396,8 @@ async function loadMembershipSection() {
     document.getElementById('plansBackBtn').addEventListener('click', () => showMainMenu());
     document.getElementById('planFreeCta').addEventListener('click', () => showMainMenu());
     document.getElementById('planTrialBtn').addEventListener('click', () => _startTrialFlow());
-    document.getElementById('planSubscribeBtn').addEventListener('click', () => _showPaymentFlow(_billingToggle));
+    document.getElementById('planSubscribeBtn').addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium'));
+    document.getElementById('planOroBtn').addEventListener('click', () => _showPaymentFlow(_billingToggle, 'oro'));
 
     // Region buttons
     document.querySelectorAll('.plans-region-btn').forEach(btn => {
@@ -434,8 +501,8 @@ function _startTrialFlow() {
 
 // ─── Payment flow ─────────────────────────────────────────────
 
-function _showPaymentFlow(period) {
-    if (typeof gtag === 'function') gtag('event', 'begin_checkout', { period });
+function _showPaymentFlow(period, tier = 'premium') {
+    if (typeof gtag === 'function') gtag('event', 'begin_checkout', { period, tier });
     const region = localStorage.getItem('ls_region') || 'latam';
     const lang   = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
     const isES   = lang !== 'en';
@@ -445,10 +512,14 @@ function _showPaymentFlow(period) {
     const promoAnnual  = config.promo?.annualPrice  || 9.99;
     const regMonthly   = config.regular?.monthlyPrice || 4.99;
     const regAnnual    = config.regular?.annualPrice  || 34.99;
-    const price = period === 'annual'
-        ? (promoActive ? promoAnnual : regAnnual)
-        : (promoActive ? promoMonthly : regMonthly);
-    const planName = isES ? (config.planName?.es || 'Premium 500X') : (config.planName?.en || 'STARTUP FOR 500X');
+    const oroMonthly   = config.oro?.monthlyPrice || 4.99;
+    const oroAnnual    = config.oro?.annualPrice  || 29.99;
+    const price = tier === 'oro'
+        ? (period === 'annual' ? oroAnnual : oroMonthly)
+        : (period === 'annual' ? (promoActive ? promoAnnual : regAnnual) : (promoActive ? promoMonthly : regMonthly));
+    const planName = tier === 'oro'
+        ? (isES ? 'Membresía Oro' : 'Gold Membership')
+        : (isES ? (config.planName?.es || 'Premium 500X') : (config.planName?.en || 'STARTUP FOR 500X'));
     const periodLabel = period === 'annual' ? (isES ? 'anual' : 'annual') : (isES ? 'mensual' : 'monthly');
 
     const modal = document.createElement('div');
@@ -670,7 +741,7 @@ function _showActivationModal(period) {
             });
             const data = await res.json();
             if (!data.ok) throw new Error(data.error || 'Error');
-            MembershipPlan.activatePlan(period);
+            MembershipPlan.activatePlan(period, data.tier || 'premium');
             modal.remove();
             if (typeof showToast === 'function') showToast(`✅ ${isES ? '¡Plan activado! Bienvenido/a a ' + planName : 'Plan activated! Welcome to ' + planName}`);
             setTimeout(() => showMainMenu(), 800);

@@ -8914,6 +8914,40 @@ body.dark-mode .asong-lyrics-preview { background: rgba(255,255,255,0.04); }
 }
 .plan-trial-btn:hover { background: rgba(255,255,255,.15); }
 
+/* Plan Oro */
+.plans-cards-row--3 .plan-card { min-width: 220px; }
+.plan-card--oro {
+    background: linear-gradient(135deg, #b45309 0%, #d97706 50%, #f59e0b 100%);
+    color: white;
+    box-shadow: 0 8px 32px rgba(180,83,9,.35);
+}
+.plan-card--oro .plan-card-name { color: white; opacity: 1; }
+.plan-feature-list--oro li { color: rgba(255,255,255,.92); }
+.plans-popular-tag--oro { background: #92400e; }
+.plan-cta-btn--oro {
+    background: white;
+    color: #b45309;
+    box-shadow: 0 2px 12px rgba(0,0,0,.12);
+    width: 100%;
+    padding: .85rem;
+    border-radius: 14px;
+    border: none;
+    font-size: .95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s;
+    display: block;
+}
+.plan-cta-btn--oro:hover { background: #fef3c7; transform: translateY(-1px); }
+
+/* Comparison table 3 cols */
+.plans-comparison-table--3 th:nth-child(4),
+.plans-comparison-table--3 td:nth-child(4) {
+    color: #b45309;
+    font-weight: 600;
+}
+body.dark-mode .plans-comparison-table--3 td:nth-child(4) { color: #fbbf24; }
+
 /* Comparison table */
 .plans-comparison-wrap { margin: 1.5rem 0; }
 .plans-comparison-title {
