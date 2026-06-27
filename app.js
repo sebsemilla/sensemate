@@ -858,6 +858,7 @@ function _showMisionToast(msg) {
 
 const _ESPANOL_A1_NUEVOS = {
     de: { gram: 'de_a1_gramatica.json', func: 'de_a1_funciones_comunicativas.json' },
+    en: { gram: 'en_a1_gramatica.json', func: 'en_a1_funciones_comunicativas.json' },
     fr: { gram: 'fr_a1_gramatica.json', func: 'fr_a1_funciones_comunicativas.json' },
     gn: { gram: 'gn_a1_gramatica.json', func: 'gn_a1_funciones_comunicativas.json' },
     it: { gram: 'it_a1_gramatica.json', func: 'it_a1_funciones_comunicativas.json' },
