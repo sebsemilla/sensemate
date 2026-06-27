@@ -490,6 +490,7 @@ function _initMisionHub() {
     if (!grid) return;
 
     if (targetLang === 'en') { _initInglesHub(); return; }
+    if (targetLang === 'es' && _ESPANOL_A1_NUEVOS[sourceLang]) { _initEspanolNuevoHub(); return; }
 
     if (targetLang !== 'es') {
         grid.innerHTML = `
@@ -851,6 +852,39 @@ function _showMisionToast(msg) {
     t.textContent = msg;
     document.body.appendChild(t);
     setTimeout(() => t.remove(), 2800);
+}
+
+// ── Español A1 nuevo formato (por idioma nativo) ─────────────
+
+const _ESPANOL_A1_NUEVOS = {
+    it: { gram: 'it_a1_gramatica.json', func: 'it_a1_funciones_comunicativas.json' },
+};
+
+function _initEspanolNuevoHub() {
+    const grid = document.getElementById('misionPathGrid');
+    if (!grid) return;
+
+    const files = _ESPANOL_A1_NUEVOS[sourceLang];
+    if (!files) return;
+
+    grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1.5rem 0">Cargando módulos…</p>';
+
+    const base = `${_API_HOST}/grupos_tarjetas/espa%C3%B1ol_a1/`;
+    Promise.all([
+        fetch(base + files.gram).then(r => r.json()),
+        fetch(base + files.func).then(r => r.json()),
+    ])
+        .then(([gram, func]) => {
+            const mods = _interleaveInglesA1(gram, func, []);
+            _renderSimpleSnake(grid, mods, {
+                levelKey:       `es_a1_${sourceLang}`,
+                milestoneLabel: '★ Español A1',
+                onExamPass:     showMainMenu,
+            });
+        })
+        .catch(() => {
+            grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1rem 0">No se pudieron cargar los módulos.</p>';
+        });
 }
 
 // ── English A1 hub (Inglés) ───────────────────────────────────
