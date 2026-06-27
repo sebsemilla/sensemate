@@ -31,7 +31,8 @@ db.exec(`
     plan           TEXT DEFAULT 'free',
     created_at     TEXT NOT NULL,
     email_verified INTEGER DEFAULT 0,
-    verify_token   TEXT
+    verify_token   TEXT,
+    google_id      TEXT
   );
 `);
 
@@ -40,7 +41,8 @@ try { db.exec(`ALTER TABLE users ADD COLUMN email_verified INTEGER DEFAULT 0`); 
 try { db.exec(`ALTER TABLE users ADD COLUMN verify_token TEXT`); } catch {}
 try { db.exec(`ALTER TABLE users ADD COLUMN reset_token TEXT`); } catch {}
 try { db.exec(`ALTER TABLE users ADD COLUMN reset_token_expires TEXT`); } catch {}
-try { db.exec(`ALTER TABLE users ADD COLUMN google_id TEXT UNIQUE`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN google_id TEXT`); } catch {}
+try { db.exec(`CREATE UNIQUE INDEX IF NOT EXISTS idx_users_google_id ON users(google_id) WHERE google_id IS NOT NULL`); } catch {}
 
 // Seed admin user (sebas_dev1245) if not exists
 function seedAdminUser() {
