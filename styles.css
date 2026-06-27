@@ -5167,6 +5167,35 @@ body.dark-mode .mision-intro-row      { background: rgba(255,255,255,0.04); }
 }
 .ma1-rule { font-weight: 600; }
 
+/* Ejemplos clave (concept_examples) */
+.ma1-section--examples { border-color: #0ea5e9; background: rgba(14,165,233,0.04); }
+.ma1-examples-list { display: flex; flex-direction: column; gap: 0.6rem; }
+.ma1-example-item {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.6rem 0.8rem;
+}
+.ma1-example-text {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.ma1-example-phonetic {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 0.1rem;
+}
+.ma1-example-translation {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-top: 0.15rem;
+}
+
 /* Error común */
 .ma1-error-wrong {
     font-size: 0.84rem;

@@ -1873,6 +1873,22 @@ function _showMisionA1Module(mod, key) {
                 <p class="ma1-rule">${mod.rule}</p>
             </div>
 
+            ${(mod.concept_examples && mod.concept_examples.length) ? `
+            <div class="ma1-section ma1-section--examples">
+                <div class="ma1-section-title">💡 Ejemplos clave</div>
+                <div class="ma1-examples-list">
+                    ${mod.concept_examples.map(ex => `
+                    <div class="ma1-example-item">
+                        <div class="ma1-example-text">
+                            ${ex.text}
+                            <button class="ma1-conv-audio-btn" data-speak="${(ex.text || '').replace(/"/g, '&quot;')}">🔊</button>
+                        </div>
+                        ${ex.phonetic ? `<div class="ma1-example-phonetic">${ex.phonetic}</div>` : ''}
+                        <div class="ma1-example-translation">${ex.translation || ''}</div>
+                    </div>`).join('')}
+                </div>
+            </div>` : ''}
+
             <div class="ma1-section">
                 <div class="ma1-section-title">🌉 Por qué importa</div>
                 <p class="ma1-bridge">${mod.bridge}</p>
