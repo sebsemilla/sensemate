@@ -857,9 +857,11 @@ function _showMisionToast(msg) {
 // ── Español A1 nuevo formato (por idioma nativo) ─────────────
 
 const _ESPANOL_A1_NUEVOS = {
-    it: { gram: 'it_a1_gramatica.json', func: 'it_a1_funciones_comunicativas.json' },
+    de: { gram: 'de_a1_gramatica.json', func: 'de_a1_funciones_comunicativas.json' },
+    fr: { gram: 'fr_a1_gramatica.json', func: 'fr_a1_funciones_comunicativas.json' },
     gn: { gram: 'gn_a1_gramatica.json', func: 'gn_a1_funciones_comunicativas.json' },
-    pt: { gram: 'pt_a1_gramatica.json', func: null },
+    it: { gram: 'it_a1_gramatica.json', func: 'it_a1_funciones_comunicativas.json' },
+    pt: { gram: 'pt_a1_gramatica.json', func: 'pt_a1_funciones_comunicativas.json' },
 };
 
 function _initEspanolNuevoHub() {
