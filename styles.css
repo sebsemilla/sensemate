@@ -4835,6 +4835,33 @@ body.dark-mode .msnake-node--pending[data-category="Vocabulario"] {
     background: rgba(139,92,246,0.15);
     border-color: #a78bfa;
 }
+/* Conversaciones (inglés A1) */
+.msnake-node--pending[data-modtype="conversation"] {
+    background: rgba(249,115,22,0.10);
+    border-color: #f97316;
+}
+body.dark-mode .msnake-node--pending[data-modtype="conversation"] {
+    background: rgba(249,115,22,0.15);
+    border-color: #fb923c;
+}
+/* Gramática francesa */
+.msnake-node--pending[data-category="Grammaire"] {
+    background: rgba(14,165,233,0.10);
+    border-color: #0ea5e9;
+}
+body.dark-mode .msnake-node--pending[data-category="Grammaire"] {
+    background: rgba(14,165,233,0.15);
+    border-color: #38bdf8;
+}
+/* Funciones comunicativas francesas */
+.msnake-node--pending[data-category="Fonctions communicatives"] {
+    background: rgba(20,184,166,0.10);
+    border-color: #14b8a6;
+}
+body.dark-mode .msnake-node--pending[data-category="Fonctions communicatives"] {
+    background: rgba(20,184,166,0.15);
+    border-color: #2dd4bf;
+}
 .msnake-node--done {
     background: rgba(39,174,96,0.10);
     border-color: #27ae60;
@@ -5267,6 +5294,52 @@ body.dark-mode .mision-intro-row      { background: rgba(255,255,255,0.04); }
 .ma1-level-btn-label { font-size: 0.85rem; font-weight: 700; color: var(--text); }
 .ma1-level-btn-sub   { font-size: 0.73rem; color: var(--text-muted); font-style: italic; }
 .ma1-level-btn-arrow { font-size: 0.9rem; color: var(--text-muted); }
+
+/* ── Conversation module (inglés A1) ── */
+.ma1-cat { display: block; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
+.ma1-conv-vocab {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+.ma1-conv-vocab th {
+    text-align: left;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+}
+.ma1-conv-vocab td {
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+}
+.ma1-conv-dialogue { display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.5rem; }
+.ma1-conv-bubble {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    max-width: 90%;
+}
+.ma1-conv-bubble--a {
+    align-self: flex-start;
+    background: rgba(99,102,241,0.07);
+    border: 1px solid rgba(99,102,241,0.18);
+}
+.ma1-conv-bubble--b {
+    align-self: flex-end;
+    background: rgba(249,115,22,0.07);
+    border: 1px solid rgba(249,115,22,0.18);
+}
+.ma1-conv-speaker { font-size: 0.72rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.ma1-conv-text { font-size: 0.95rem; font-weight: 600; color: var(--text); }
+.ma1-conv-translation { font-size: 0.82rem; color: var(--text-muted); font-style: italic; }
+.ma1-conv-note { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.15rem; }
 
 /* ============ MÓDULO A1 — fin ============ */
 

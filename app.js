@@ -483,12 +483,14 @@ function _initMisionHub() {
     const grid = document.getElementById('misionPathGrid');
     if (!grid) return;
 
+    if (targetLang === 'en') { _initInglesHub(); return; }
+
     if (targetLang !== 'es') {
         grid.innerHTML = `
             <div style="text-align:center;padding:2rem 1rem;color:var(--text-muted)">
                 <div style="font-size:2rem;margin-bottom:.75rem">🗺️</div>
-                <p style="font-size:.95rem;margin-bottom:.5rem">Esta sección enseña <strong>Español</strong>.</p>
-                <p style="font-size:.85rem">Cambiá el idioma destino a <strong>Español</strong> para ver el contenido.</p>
+                <p style="font-size:.95rem;margin-bottom:.5rem">Esta sección enseña <strong>Español</strong> e <strong>Inglés</strong>.</p>
+                <p style="font-size:.85rem">Cambiá el idioma destino a <strong>Español</strong> o <strong>Inglés</strong> para ver el contenido.</p>
             </div>`;
         return;
     }
@@ -843,6 +845,233 @@ function _showMisionToast(msg) {
     t.textContent = msg;
     document.body.appendChild(t);
     setTimeout(() => t.remove(), 2800);
+}
+
+// ── English A1 hub (Inglés) ───────────────────────────────────
+
+const _INGLES_A1_LANGS = {
+    es: { gram: 'es_a1_gramatica.json', func: 'es_a1_funciones_comunicativas.json', conv: 'es_a1_conversacion.json' },
+    fr: { gram: 'fr_a1_gramatica.json', func: 'fr_a1_funciones_comunicativas.json', conv: 'fr_a1_conversacion.json' },
+};
+
+function _initInglesHub() {
+    const grid = document.getElementById('misionPathGrid');
+    if (!grid) return;
+
+    const files = _INGLES_A1_LANGS[sourceLang];
+    if (!files) {
+        grid.innerHTML = `
+            <div style="text-align:center;padding:2rem 1rem;color:var(--text-muted)">
+                <div style="font-size:2rem;margin-bottom:.75rem">🌐</div>
+                <p style="font-size:.95rem;margin-bottom:.5rem">Contenido disponible para hablantes de:</p>
+                <p style="font-size:.85rem"><strong>Español · Francés</strong></p>
+            </div>`;
+        return;
+    }
+
+    grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1.5rem 0">Cargando módulos…</p>';
+
+    const base = `${_API_HOST}/grupos_tarjetas/ingles_a1/`;
+    Promise.all([
+        fetch(base + files.gram).then(r => r.json()),
+        fetch(base + files.func).then(r => r.json()),
+        fetch(base + files.conv).then(r => r.json()),
+    ])
+        .then(([gram, func, conv]) => _renderInglesA1Snake(grid, _interleaveInglesA1(gram, func, conv)))
+        .catch(() => {
+            grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1rem 0">No se pudieron cargar los módulos.</p>';
+        });
+}
+
+function _interleaveInglesA1(gram, func, conv) {
+    const g = [...gram], f = [...func], c = [...conv];
+    const result = [];
+    while (g.length || f.length || c.length) {
+        if (g.length) result.push(g.shift());
+        if (g.length) result.push(g.shift());
+        if (f.length) result.push(f.shift());
+        if (c.length) result.push(c.shift());
+    }
+    return result;
+}
+
+function _renderInglesA1Snake(grid, mods) {
+    function trunc(str, max) { return str && str.length > max ? str.slice(0, max) + '…' : (str || ''); }
+    function modEmoji(mod) {
+        if (mod.type === 'conversation') return '🗣️';
+        const cat = (mod.category || '').toLowerCase();
+        if (cat.includes('gram') || cat.includes('gramm')) return '📖';
+        return '💬';
+    }
+
+    const levelKey = 'en_a1';
+    const completed = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
+    const quizKey   = `quiz_final_${levelKey}`;
+    const examKey   = `examen_final_${levelKey}`;
+    const midIdx    = Math.floor(mods.length / 2);
+
+    const allNodes = [
+        { type: 'milestone',    key: `milestone_${levelKey}`, label: '★ English A1' },
+        ...mods.slice(0, midIdx).map(m => ({ type: 'mod', key: `mod_${levelKey}_${m.id}`, mod: m })),
+        { type: 'mid_quiz',     key: `mid_quiz_${levelKey}`, emoji: '📝', label: 'Quiz A1 ½' },
+        ...mods.slice(midIdx).map(m  => ({ type: 'mod', key: `mod_${levelKey}_${m.id}`, mod: m })),
+        { type: 'quiz_final',   key: quizKey,  emoji: '🎯', label: 'Quiz Final A1' },
+        { type: 'examen_final', key: examKey,  emoji: '🏆', label: 'Examen Final' },
+    ];
+
+    function nodeHtml(n) {
+        const done = completed.includes(n.key);
+        switch (n.type) {
+            case 'milestone':
+                return `<div class="msnake-node msnake-node--milestone"><span class="msnake-label">${n.label}</span></div>`;
+            case 'mod': {
+                const isConv = n.mod.type === 'conversation';
+                const cls = done ? 'msnake-node--done' : 'msnake-node--pending';
+                return `<div class="msnake-node ${cls}" data-key="${n.key}" data-ntype="mod" data-category="${n.mod.category || ''}" data-modtype="${n.mod.type || 'concept'}"><span class="msnake-label">${modEmoji(n.mod)} ${trunc(n.mod.title, 18)}</span></div>`;
+            }
+            case 'mid_quiz':
+                return `<div class="msnake-node msnake-node--mid-quiz ${done ? 'msnake-node--done' : ''}" data-key="${n.key}" data-ntype="mid_quiz"><span class="msnake-label">${n.emoji} ${n.label}</span></div>`;
+            case 'quiz_final':
+                return `<div class="msnake-node msnake-node--quiz-final ${done ? 'msnake-node--done' : ''}" data-key="${n.key}" data-ntype="quiz_final"><span class="msnake-label">${n.emoji} ${n.label}</span></div>`;
+            case 'examen_final': {
+                const quizDone = completed.includes(quizKey);
+                return `<div class="msnake-node msnake-node--examen-final ${done ? 'msnake-node--done' : ''} ${!quizDone ? 'msnake-node--locked' : ''}" data-key="${n.key}" data-ntype="examen_final"><span class="msnake-label">${quizDone ? n.emoji : '🔒'} ${n.label}</span></div>`;
+            }
+            default: return '';
+        }
+    }
+
+    function hrow(indices) {
+        let h = '<div class="msnake-hrow">';
+        indices.forEach((idx, i) => {
+            h += nodeHtml(allNodes[idx]);
+            if (i < indices.length - 1) h += '<div class="msnake-con-h"></div>';
+        });
+        return h + '</div>';
+    }
+    function turn(side) { return `<div class="msnake-turn msnake-turn--${side}"><div class="msnake-turn-line"></div></div>`; }
+    function vblock(side, indices, areaContent, areaId) {
+        const nodesHtml = indices.map((idx, i) =>
+            nodeHtml(allNodes[idx]) + (i < indices.length - 1 ? '<div class="msnake-vcon"></div>' : '')
+        ).join('');
+        const vcol   = `<div class="msnake-vcol msnake-vcol--${side}">${nodesHtml}</div>`;
+        const idAttr = areaId ? ` id="${areaId}"` : '';
+        const area   = `<div class="msnake-area msnake-area--${side}"${idAttr}><span class="msnake-area-ph">${areaContent}</span></div>`;
+        return `<div class="msnake-vblock">${side === 'right' ? area + vcol : vcol + area}</div>`;
+    }
+
+    const TOTAL = allNodes.length;
+    let html = '<div class="mision-snake">';
+    let pos = 0, goingRight = true, areaCount = 0;
+    while (pos < TOTAL) {
+        const rowLen  = Math.min(4, TOTAL - pos);
+        const rowIdxs = Array.from({ length: rowLen }, (_, i) => pos + i);
+        if (!goingRight) rowIdxs.reverse();
+        html += hrow(rowIdxs);
+        pos += rowLen;
+        if (pos >= TOTAL) break;
+        const vLen  = Math.min(3, TOTAL - pos);
+        const side  = goingRight ? 'right' : 'left';
+        const label = areaCount % 2 === 0 ? 'English A1 — Grammar & Functions' : 'English A1 — Conversation';
+        html += turn(side);
+        html += vblock(side, Array.from({ length: vLen }, (_, i) => pos + i), label, `msnake-area-en-a1-${++areaCount}`);
+        pos += vLen;
+        if (pos >= TOTAL) break;
+        html += turn(side);
+        goingRight = !goingRight;
+    }
+    html += '</div>';
+    grid.innerHTML = html;
+
+    grid.querySelectorAll('[data-ntype="mod"]').forEach(el => {
+        el.addEventListener('click', () => {
+            const node = allNodes.find(n => n.key === el.dataset.key);
+            if (!node?.mod) return;
+            if (node.mod.type === 'conversation') {
+                _showInglesConvModule(node.mod, el.dataset.key);
+            } else {
+                _showMisionA1Module(node.mod, el.dataset.key);
+            }
+        });
+    });
+
+    const halfMods = mods.filter(m => m.type !== 'conversation');
+    grid.querySelector('[data-ntype="mid_quiz"]')?.addEventListener('click', () => {
+        const exercises = _misionShuffle(_genQuizFinalExercises(halfMods.slice(0, Math.floor(halfMods.length / 2)))).slice(0, 15);
+        _runGenericQuiz(exercises, { total: 15, threshold: 10, key: `mid_quiz_${levelKey}`, onPass: showMainMenu, onBack: showMainMenu });
+    });
+
+    grid.querySelector('[data-ntype="quiz_final"]')?.addEventListener('click', () => {
+        const exercises = _misionShuffle(_genQuizFinalExercises(mods.filter(m => m.type !== 'conversation'))).slice(0, 20);
+        _runGenericQuiz(exercises, { total: 20, threshold: 14, key: quizKey, onPass: showMainMenu, onBack: showMainMenu });
+    });
+
+    grid.querySelector('[data-ntype="examen_final"]')?.addEventListener('click', () => {
+        const steps = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
+        if (!steps.includes(quizKey)) { _showMisionToast('Completá el Quiz Final A1 primero 🎯'); return; }
+        const exercises = _genExamenFinalExercises([], mods.filter(m => m.type !== 'conversation'));
+        _runGenericQuiz(exercises, { total: 40, threshold: 28, key: examKey, onPass: showMainMenu, onBack: showMainMenu });
+    });
+
+    if (_misionLastKey) {
+        const target = grid.querySelector(`[data-key="${_misionLastKey}"]`);
+        if (target) requestAnimationFrame(() => target.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+        _misionLastKey = null;
+    }
+}
+
+function _showInglesConvModule(mod, key) {
+    _misionLastKey = key;
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+    window.scrollTo(0, 0);
+
+    const conv = mod.conversation || {};
+    const vocab = conv.vocabulary || [];
+    const dialogue = conv.dialogue || [];
+
+    const vocabHtml = vocab.length ? `
+        <div class="ma1-section">
+            <div class="ma1-section-title">📋 Vocabulario clave</div>
+            <table class="ma1-conv-vocab">
+                <thead><tr><th>Verbo</th><th>Forma</th><th>Significado</th></tr></thead>
+                <tbody>${vocab.map(v => `<tr><td><strong>${v.verb || ''}</strong></td><td>${v.form || ''}</td><td>${v.meaning || ''}</td></tr>`).join('')}</tbody>
+            </table>
+        </div>` : '';
+
+    const dialogueHtml = dialogue.map((line, i) => `
+        <div class="ma1-conv-bubble ma1-conv-bubble--${i % 2 === 0 ? 'a' : 'b'}">
+            <div class="ma1-conv-speaker">${line.speaker || ''}</div>
+            <div class="ma1-conv-text">${line.text || ''}</div>
+            <div class="ma1-conv-translation">${line.translation || ''}</div>
+            ${line.note ? `<div class="ma1-conv-note">💡 ${line.note}</div>` : ''}
+        </div>`).join('');
+
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="ma1-wrap">
+            <div class="ma1-topbar">
+                <button class="school-back-btn" id="ma1BackBtn">← Volver</button>
+            </div>
+            <div class="ma1-hero">
+                <span class="ma1-emoji">🗣️</span>
+                <h2 class="ma1-title">${mod.title}</h2>
+                <span class="ma1-cat">${mod.category || ''}</span>
+            </div>
+            ${vocabHtml}
+            <div class="ma1-section">
+                <div class="ma1-section-title">💬 Diálogo</div>
+                <div class="ma1-conv-dialogue">${dialogueHtml}</div>
+            </div>
+            <button class="ma1-done-btn" id="ma1DoneBtn">✓ Completado — Volver a Misión</button>
+        </div>
+    `);
+
+    document.getElementById('ma1BackBtn').addEventListener('click', showMainMenu);
+    document.getElementById('ma1DoneBtn').addEventListener('click', () => {
+        const arr = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
+        if (!arr.includes(key)) { arr.push(key); localStorage.setItem('ls_mision_steps', JSON.stringify(arr)); }
+        showMainMenu();
+    });
 }
 
 // ── Generador Quiz Final A2 (20 preguntas mezcladas de todo A2) ─

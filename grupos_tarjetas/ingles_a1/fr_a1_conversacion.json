@@ -1,0 +1,473 @@
+[
+  {
+    "id": "fr_A1_conv_01",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Meeting a new neighbor",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "be", "form": "am/is/are", "meaning": "être" },
+        { "verb": "live", "form": "live/lives", "meaning": "habiter / vivre" },
+        { "verb": "move", "form": "move/moves", "meaning": "déménager" },
+        { "verb": "meet", "form": "meet/meets", "meaning": "rencontrer" },
+        { "verb": "work", "form": "work/works", "meaning": "travailler" },
+        { "verb": "study", "form": "study/studies", "meaning": "étudier" },
+        { "verb": "have", "form": "have/has", "meaning": "avoir" },
+        { "verb": "do", "form": "do/does", "meaning": "faire (auxiliaire)" },
+        { "verb": "come", "form": "come/comes", "meaning": "venir" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Anna",
+          "text": "Hello! Are you the new neighbor?",
+          "translation": "Bonjour ! Êtes-vous le nouveau voisin ?",
+          "note": "Salutation et question d'identification."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Yes, I am. My name is Tom.",
+          "translation": "Oui, c'est moi. Je m'appelle Tom.",
+          "note": "Confirmation et présentation."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Nice to meet you, Tom. I'm Anna.",
+          "translation": "Enchantée de vous rencontrer, Tom. Je suis Anna.",
+          "note": "Réponse polie et présentation de soi."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Nice to meet you too. Do you live here with your family?",
+          "translation": "Enchanté moi aussi. Est-ce que vous habitez ici avec votre famille ?",
+          "note": "Question sur la situation familiale."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Yes, I live with my husband and my daughter.",
+          "translation": "Oui, j'habite avec mon mari et ma fille.",
+          "note": "Réponse avec des détails sur la famille."
+        },
+        {
+          "speaker": "Tom",
+          "text": "That's great. I work at the hospital. What about you?",
+          "translation": "C'est super. Je travaille à l'hôpital. Et vous ?",
+          "note": "Commentaire et question sur l'occupation."
+        },
+        {
+          "speaker": "Anna",
+          "text": "I study English at the university.",
+          "translation": "J'étudie l'anglais à l'université.",
+          "note": "Information sur les études."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Wonderful! Well, I have to go now. See you later!",
+          "translation": "Merveilleux ! Bon, je dois y aller maintenant. À plus tard !",
+          "note": "Au revoir poli."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Goodbye, Tom.",
+          "translation": "Au revoir, Tom.",
+          "note": "Salutation finale."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fr_A1_conv_02",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Ordering breakfast at a café",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "like", "form": "like/likes", "meaning": "aimer" },
+        { "verb": "want", "form": "want/wants", "meaning": "vouloir" },
+        { "verb": "have", "form": "have/has", "meaning": "avoir / prendre" },
+        { "verb": "take", "form": "take/takes", "meaning": "prendre" },
+        { "verb": "drink", "form": "drink/drinks", "meaning": "boire" },
+        { "verb": "eat", "form": "eat/eats", "meaning": "manger" },
+        { "verb": "pay", "form": "pay/pays", "meaning": "payer" },
+        { "verb": "come", "form": "come/comes", "meaning": "venir" },
+        { "verb": "bring", "form": "bring/brings", "meaning": "apporter" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Waiter",
+          "text": "Good morning. What do you want to eat?",
+          "translation": "Bonjour. Que voulez-vous manger ?",
+          "note": "Salutation et question initiale du serveur."
+        },
+        {
+          "speaker": "Client",
+          "text": "I'd like a sandwich, please.",
+          "translation": "Je voudrais un sandwich, s'il vous plaît.",
+          "note": "Commande polie avec 'I'd like'."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Do you want cheese or ham?",
+          "translation": "Voulez-vous du fromage ou du jambon ?",
+          "note": "Question pour choisir le type de sandwich."
+        },
+        {
+          "speaker": "Client",
+          "text": "Ham, please. And I want a glass of orange juice.",
+          "translation": "Jambon, s'il vous plaît. Et je veux un verre de jus d'orange.",
+          "note": "Choix et commande de boisson."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Anything else? Coffee or tea?",
+          "translation": "Autre chose ? Café ou thé ?",
+          "note": "Offre supplémentaire."
+        },
+        {
+          "speaker": "Client",
+          "text": "Yes, I'd like a cup of coffee with milk.",
+          "translation": "Oui, je voudrais une tasse de café au lait.",
+          "note": "Commande de café au lait."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "That's a sandwich, orange juice and coffee. Is that correct?",
+          "translation": "Donc un sandwich, un jus d'orange et un café. C'est bien ça ?",
+          "note": "Confirmation de la commande."
+        },
+        {
+          "speaker": "Client",
+          "text": "Yes, perfect. How much is it?",
+          "translation": "Oui, parfait. Combien ça coûte ?",
+          "note": "Question sur le prix."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "It's 9 dollars. You can pay at the counter.",
+          "translation": "C'est 9 dollars. Vous pouvez payer à la caisse.",
+          "note": "Indication du prix et du lieu de paiement."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fr_A1_conv_03",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "A rainy day at home",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "rain", "form": "rain/rains", "meaning": "pleuvoir" },
+        { "verb": "stay", "form": "stay/stays", "meaning": "rester" },
+        { "verb": "watch", "form": "watch/watches", "meaning": "regarder (TV)" },
+        { "verb": "read", "form": "read/reads", "meaning": "lire" },
+        { "verb": "drink", "form": "drink/drinks", "meaning": "boire" },
+        { "verb": "play", "form": "play/plays", "meaning": "jouer" },
+        { "verb": "cook", "form": "cook/cooks", "meaning": "cuisiner" },
+        { "verb": "clean", "form": "clean/cleans", "meaning": "nettoyer" },
+        { "verb": "sleep", "form": "sleep/sleeps", "meaning": "dormir" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mom",
+          "text": "It's raining outside. What do you want to do today?",
+          "translation": "Il pleut dehors. Qu'est-ce que tu veux faire aujourd'hui ?",
+          "note": "Commentaire sur la météo et question sur le plan."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "I want to watch a movie in the living room.",
+          "translation": "Je veux regarder un film dans le salon.",
+          "note": "Proposition d'activité."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Good idea. And I want to read my new book.",
+          "translation": "Bonne idée. Et je veux lire mon nouveau livre.",
+          "note": "Acceptation et plan de la mère."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "Can I have some hot chocolate?",
+          "translation": "Est-ce que je peux avoir du chocolat chaud ?",
+          "note": "Demande de permission avec 'can'."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Yes, I can prepare it for you.",
+          "translation": "Oui, je peux te le préparer.",
+          "note": "Permission et offre de service."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "And later, can I play with my toys?",
+          "translation": "Et plus tard, est-ce que je peux jouer avec mes jouets ?",
+          "note": "Autre demande avec 'can'."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Sure. But first, let's clean the bedroom together.",
+          "translation": "Bien sûr. Mais d'abord, nettoyons la chambre ensemble.",
+          "note": "Acceptation avec condition (utilisation de 'let's')."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "OK, Mom. After that, maybe I take a nap.",
+          "translation": "D'accord, maman. Après ça, peut-être que je fais une sieste.",
+          "note": "Accord et plan ultérieur."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fr_A1_conv_04",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Buying a T-shirt at the store",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "buy", "form": "buy/buys", "meaning": "acheter" },
+        { "verb": "want", "form": "want/wants", "meaning": "vouloir" },
+        { "verb": "need", "form": "need/needs", "meaning": "avoir besoin" },
+        { "verb": "have", "form": "have/has", "meaning": "avoir" },
+        { "verb": "see", "form": "see/sees", "meaning": "voir" },
+        { "verb": "try", "form": "try/tries", "meaning": "essayer (des vêtements)" },
+        { "verb": "fit", "form": "fit/fits", "meaning": "aller bien (taille)" },
+        { "verb": "like", "form": "like/likes", "meaning": "aimer" },
+        { "verb": "cost", "form": "cost/costs", "meaning": "coûter" },
+        { "verb": "take", "form": "take/takes", "meaning": "prendre / acheter" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Salesperson",
+          "text": "Hello. Can I help you?",
+          "translation": "Bonjour. Puis-je vous aider ?",
+          "note": "Salutation et offre d'aide."
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I want to buy a T-shirt.",
+          "translation": "Oui, je veux acheter un T-shirt.",
+          "note": "Expression de l'intention d'achat."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "What color do you like?",
+          "translation": "Quelle couleur aimez-vous ?",
+          "note": "Question sur la préférence de couleur."
+        },
+        {
+          "speaker": "Customer",
+          "text": "I like blue and black. Do you have a blue one?",
+          "translation": "J'aime le bleu et le noir. Avez-vous un bleu ?",
+          "note": "Réponse et question sur la disponibilité."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Yes, we do. What size do you need?",
+          "translation": "Oui, nous en avons. Quelle taille vous faut-il ?",
+          "note": "Confirmation et question sur la taille."
+        },
+        {
+          "speaker": "Customer",
+          "text": "I think I need a large size. Can I try it on?",
+          "translation": "Je pense que j'ai besoin d'une taille large. Puis-je l'essayer ?",
+          "note": "Demande pour essayer le vêtement."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Of course. The fitting room is over there.",
+          "translation": "Bien sûr. La cabine d'essayage est là-bas.",
+          "note": "Autorisation et indication de l'emplacement."
+        },
+        {
+          "speaker": "Customer",
+          "text": "It fits perfectly! I like it very much. How much does it cost?",
+          "translation": "Ça me va parfaitement ! Je l'aime beaucoup. Combien ça coûte ?",
+          "note": "Commentaire positif et question sur le prix."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "It costs 25 dollars. Do you want to take it?",
+          "translation": "Ça coûte 25 dollars. Voulez-vous le prendre ?",
+          "note": "Prix et offre d'achat."
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I'll take it.",
+          "translation": "Oui, je le prends.",
+          "note": "Décision d'achat."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fr_A1_conv_05",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Asking for directions to the bank",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "go", "form": "go/goes", "meaning": "aller" },
+        { "verb": "walk", "form": "walk/walks", "meaning": "marcher" },
+        { "verb": "turn", "form": "turn/turns", "meaning": "tourner" },
+        { "verb": "cross", "form": "cross/crosses", "meaning": "traverser" },
+        { "verb": "find", "form": "find/finds", "meaning": "trouver" },
+        { "verb": "need", "form": "need/needs", "meaning": "avoir besoin" },
+        { "verb": "see", "form": "see/sees", "meaning": "voir" },
+        { "verb": "get", "form": "get/gets", "meaning": "arriver / obtenir" },
+        { "verb": "take", "form": "take/takes", "meaning": "prendre (transport)" },
+        { "verb": "thank", "form": "thank/thanks", "meaning": "remercier" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me. I need to go to the bank. Where is it?",
+          "translation": "Excusez-moi. J'ai besoin d'aller à la banque. Où est-elle ?",
+          "note": "Demande d'indications."
+        },
+        {
+          "speaker": "Local",
+          "text": "The bank is near the park. Go straight down this street.",
+          "translation": "La banque est près du parc. Allez tout droit par cette rue.",
+          "note": "Indication de direction."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "OK, go straight. Then?",
+          "translation": "OK, tout droit. Ensuite ?",
+          "note": "Confirmation et demande de suite."
+        },
+        {
+          "speaker": "Local",
+          "text": "Walk for two blocks and turn right at the cinema.",
+          "translation": "Marchez deux pâtés de maisons et tournez à droite au cinéma.",
+          "note": "Instructions détaillées."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Turn right at the cinema. Is it far?",
+          "translation": "Tourner à droite au cinéma. C'est loin ?",
+          "note": "Répétition et question sur la distance."
+        },
+        {
+          "speaker": "Local",
+          "text": "No, it's not far. Cross the street and you'll see the bank in front of you.",
+          "translation": "Non, ce n'est pas loin. Traversez la rue et vous verrez la banque devant vous.",
+          "note": "Précision sur la distance et instruction finale."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Great. And is there a bus stop near there?",
+          "translation": "Génial. Et y a-t-il un arrêt de bus près de là ?",
+          "note": "Question supplémentaire sur les transports."
+        },
+        {
+          "speaker": "Local",
+          "text": "Yes, there is a bus stop next to the bank. You can take bus number 5.",
+          "translation": "Oui, il y a un arrêt de bus à côté de la banque. Vous pouvez prendre le bus numéro 5.",
+          "note": "Information complémentaire utile."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Thank you very much for your help.",
+          "translation": "Merci beaucoup pour votre aide.",
+          "note": "Remerciement."
+        },
+        {
+          "speaker": "Local",
+          "text": "You're welcome.",
+          "translation": "De rien.",
+          "note": "Réponse polie au remerciement."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fr_A1_conv_06",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Describing a family photo",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "have", "form": "have/has", "meaning": "avoir" },
+        { "verb": "be", "form": "am/is/are", "meaning": "être" },
+        { "verb": "sit", "form": "sit/sits", "meaning": "être assis" },
+        { "verb": "stand", "form": "stand/stands", "meaning": "être debout" },
+        { "verb": "wear", "form": "wear/wears", "meaning": "porter (vêtement)" },
+        { "verb": "look", "form": "look/looks", "meaning": "sembler / regarder" },
+        { "verb": "smile", "form": "smile/smiles", "meaning": "sourire" },
+        { "verb": "love", "form": "love/loves", "meaning": "aimer" },
+        { "verb": "live", "form": "live/lives", "meaning": "habiter / vivre" },
+        { "verb": "see", "form": "see/sees", "meaning": "voir" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Lucy",
+          "text": "Look! This is a photo of my family.",
+          "translation": "Regarde ! Voici une photo de ma famille.",
+          "note": "Présentation de la photo."
+        },
+        {
+          "speaker": "Peter",
+          "text": "Wow! Who is the man next to you?",
+          "translation": "Waouh ! Qui est l'homme à côté de toi ?",
+          "note": "Question sur un membre de la famille."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "That is my father. He is tall and has brown hair.",
+          "translation": "C'est mon père. Il est grand et il a les cheveux bruns.",
+          "note": "Description physique du père."
+        },
+        {
+          "speaker": "Peter",
+          "text": "And the woman with the glasses?",
+          "translation": "Et la femme avec des lunettes ?",
+          "note": "Question sur une autre personne."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "That's my mother. She is a teacher. She is wearing a blue dress.",
+          "translation": "C'est ma mère. Elle est professeure. Elle porte une robe bleue.",
+          "note": "Description de la mère et sa profession."
+        },
+        {
+          "speaker": "Peter",
+          "text": "They look very happy. Is that your brother?",
+          "translation": "Ils ont l'air très heureux. Est-ce que c'est ton frère ?",
+          "note": "Commentaire et question sur une autre personne."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "Yes, he is my brother. He is sitting on the sofa. He is 10 years old.",
+          "translation": "Oui, c'est mon frère. Il est assis sur le canapé. Il a 10 ans.",
+          "note": "Identification et description du frère."
+        },
+        {
+          "speaker": "Peter",
+          "text": "And where are you in the photo?",
+          "translation": "Et où es-tu sur la photo ?",
+          "note": "Question sur l'emplacement de Lucy."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "I am standing behind my parents. I smile a lot!",
+          "translation": "Je suis debout derrière mes parents. Je souris beaucoup !",
+          "note": "Description de sa position et de son attitude."
+        },
+        {
+          "speaker": "Peter",
+          "text": "You have a nice family. Do you all live together?",
+          "translation": "Tu as une belle famille. Est-ce que vous habitez tous ensemble ?",
+          "note": "Commentaire et question sur la situation familiale."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "Yes, we live in a big house near the beach. I love them.",
+          "translation": "Oui, nous habitons dans une grande maison près de la plage. Je les aime.",
+          "note": "Information supplémentaire et expression d'affection."
+        }
+      ]
+    }
+  }
+]
