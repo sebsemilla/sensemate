@@ -1,0 +1,660 @@
+[
+  {
+    "id": "fi_A1_func_01",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Greet and introduce yourself",
+    "bridge": "Suomessa sanomme 'Hei' tai 'Moi' tervehdykseksi ja esittäytyessämme 'Minun nimeni on...' tai 'Olen...'. Englannissa on samanlaiset ilmaisut: 'Hello' tai 'Hi' ja 'My name is...' tai 'I am...'. Suurin ongelma on, että suomalaiset kääntävät 'Minun nimeni on' usein väärin muotoon 'My name my is' (koska suomessa on kaksoisomistus: 'minun nimeni'). Toinen yleinen virhe on sanoa 'I name Daniel' (suora käännös 'nimeni' → 'name'), kun pitäisi sanoa 'My name is Daniel'. Muista: 'My name is...' tai 'I am...'.",
+    "rule": "Tervehdyksiin: 'Hello' (Hei), 'Hi' (Moi, epävirallisempi), 'Good morning' (Hyvää huomenta), 'Good afternoon' (Hyvää iltapäivää), 'Good evening' (Hyvää iltaa). Esittäytymiseen: 'My name is...' (Minun nimeni on...) tai 'I am...' (Olen...). Kysymykseen 'What is your name?' (Mikä sinun nimesi on?). Vastaukseen tervehdykseen: 'Nice to meet you' (Hauska tavata) ja vastaus 'Nice to meet you too'. Hyvästelyyn: 'Goodbye', 'Bye', 'See you later'.",
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Maria.",
+        "translation": "Hei, minun nimeni on Maria.",
+        "phonetic": "/həˈləʊ maɪ neɪm ɪz məˈriːə/"
+      },
+      {
+        "text": "Good morning, I am Peter.",
+        "translation": "Hyvää huomenta, olen Peter.",
+        "phonetic": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Hauska tavata.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "What is your name?",
+        "translation": "Mikä sinun nimesi on?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
+    "common_error": {
+      "wrong": "My name my is Maria.",
+      "correct": "My name is Maria.",
+      "correct_alt": "I am Maria.",
+      "explanation": "Suomessa sanomme 'Minun nimeni on Maria' – siinä on kaksoisomistus (minun + nimeni). Englannissa on vain yksi omistus: 'My name is...' tai 'I am...'. Älä lisää ylimääräistä 'my'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic greeting",
+        "translation": "Perustervehdys",
+        "examples": [
+          {
+            "original": "Hello!",
+            "phonetic": "/həˈləʊ/",
+            "translation": "Hei!",
+            "note": "Perustervehdys."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Introduce yourself",
+        "translation": "Esittäydy",
+        "examples": [
+          {
+            "original": "My name is John.",
+            "phonetic": "/maɪ neɪm ɪz dʒɒn/",
+            "translation": "Nimeni on John.",
+            "note": "Yleisin tapa sanoa nimensä."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ask someone's name",
+        "translation": "Kysy nimeä",
+        "examples": [
+          {
+            "original": "What is your name?",
+            "phonetic": "/wɒt ɪz jɔː neɪm/",
+            "translation": "Mikä sinun nimesi on?",
+            "note": "Suora kysymys nimen saamiseksi."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Farewell",
+        "translation": "Hyvästely",
+        "examples": [
+          {
+            "original": "See you tomorrow!",
+            "phonetic": "/siː juː təˈmɒrəʊ/",
+            "translation": "Nähdään huomenna!",
+            "note": "Epävirallinen hyvästely."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "fi_A1_func_02",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Give personal information (age, nationality, profession)",
+    "bridge": "Suomessa sanomme 'Olen 20-vuotias' iästä (ilman 'vanha'), 'Olen suomalainen' kansallisuudesta ja 'Olen opettaja' ammatista (ilman artikkelia). Englannissa on erilaista: iästä täytyy lisätä 'old' ('I am 20 years old'), ammatista täytyy käyttää 'a' tai 'an' ('I am a teacher'). Kansallisuus on samanlainen kuin suomessa – ei artikkelia ('I am Finnish'). Muista: älä koskaan käytä 'have' iästä tai ammatista! Suomalaiset saattavat sanoa 'I have 20 years' (suora käännös 'minulla on 20 vuotta'), mikä on väärin.",
+    "rule": "Ikä: 'I am [number] years old' (esim. I am 25 years old). Kansallisuus: 'I am [nationality]' (esim. I am Finnish, I am Mexican). Ammatti: 'I am a/an [profession]' (esim. I am a doctor, I am an engineer). Kysymykset: 'How old are you?' (Kuinka vanha olet?), 'Where are you from?' (Mistä olet kotoisin?), 'What do you do?' (Mitä teet työksesi?) tai 'What is your job?'.",
+    "concept_examples": [
+      {
+        "text": "I am 25 years old.",
+        "translation": "Olen 25-vuotias.",
+        "phonetic": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/"
+      },
+      {
+        "text": "I am Finnish.",
+        "translation": "Olen suomalainen.",
+        "phonetic": "/aɪ æm ˈfɪnɪʃ/"
+      },
+      {
+        "text": "I am a teacher.",
+        "translation": "Olen opettaja.",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "How old are you?",
+        "translation": "Kuinka vanha olet?",
+        "phonetic": "/haʊ əʊld ɑːr juː/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I have 20 years.",
+      "correct": "I am 20 years old.",
+      "correct_alt": "",
+      "explanation": "Suomessa sanomme 'minulla on 20 vuotta' (omistusrakenne), mutta englannissa ikä ilmaistaan verbillä 'to be'. Älä käytä 'have' iän kanssa."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Age",
+        "translation": "Ikä",
+        "examples": [
+          {
+            "original": "I am 30 years old.",
+            "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/",
+            "translation": "Olen 30-vuotias.",
+            "note": "Käytä 'to be' iän ilmaisemiseen."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nationality",
+        "translation": "Kansallisuus",
+        "examples": [
+          {
+            "original": "I am Mexican.",
+            "phonetic": "/aɪ æm ˈmeksɪkən/",
+            "translation": "Olen meksikolainen.",
+            "note": "Ei artikkelia kansallisuuden kanssa."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Profession",
+        "translation": "Ammatti",
+        "examples": [
+          {
+            "original": "She is a nurse.",
+            "phonetic": "/ʃiː ɪz ə nɜːs/",
+            "translation": "Hän (nainen) on sairaanhoitaja.",
+            "note": "Artikkelin 'a' tai 'an' kanssa ammateissa."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions",
+        "translation": "Kysymykset",
+        "examples": [
+          {
+            "original": "Where are you from?",
+            "phonetic": "/weə ɑːr juː frɒm/",
+            "translation": "Mistä olet kotoisin?",
+            "note": "Kysymys alkuperästä."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "fi_A1_func_03",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Describe objects and people (basic)",
+    "bridge": "Suomessa adjektiivi tulee ENNEN substantiivia: 'punainen auto', 'iso koira'. Englannissa adjektiivi tulee myös ENNEN substantiivia: 'a red car', 'a big dog'. Tämä on siis samanlaista kuin suomessa – hyvä uutinen! Käytä 'to be' yleisiin kuvauksiin (She is tall) ja 'have got' fyysisiin ominaisuuksiin (She has got blue eyes). Suomalaiset saattavat unohtaa 'to be' tai 'have got' kokonaan, koska suomessa 'hän on pitkä' ja 'hänellä on siniset silmät' sisältävät jo verbin. Muista aina verbi!",
+    "rule": "Kuvaamiseen: 1) Adjektiivi + substantiivi (a big house). 2) Subjekti + verbi 'to be' + adjektiivi (The house is big). 3) Subjekti + 'have/has got' + ominaisuus (She has got long hair). Yleisiä adjektiiveja: big (iso), small (pieni), tall (pitkä), short (lyhyt/matala), beautiful (kaunis), old (vanha), young (nuori), fast (nopea), slow (hidas).",
+    "concept_examples": [
+      {
+        "text": "This is a big house.",
+        "translation": "Tämä on iso talo.",
+        "phonetic": "/ðɪs ɪz ə bɪɡ haʊs/"
+      },
+      {
+        "text": "She is tall and thin.",
+        "translation": "Hän (nainen) on pitkä ja hoikka.",
+        "phonetic": "/ʃiː ɪz tɔːl ænd θɪn/"
+      },
+      {
+        "text": "He has got blue eyes.",
+        "translation": "Hänellä (miehellä) on siniset silmät.",
+        "phonetic": "/hiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "Auto on punainen.",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      }
+    ],
+    "common_error": {
+      "wrong": "She tall.",
+      "correct": "She is tall.",
+      "correct_alt": "",
+      "explanation": "Suomessa sanomme 'hän on pitkä' – verbi 'on' on mukana. Englannissa verbi 'to be' on pakollinen. Älä unohda 'is' tai 'are'!"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adjective + noun",
+        "translation": "Adjektiivi + substantiivi",
+        "examples": [
+          {
+            "original": "a small dog",
+            "phonetic": "/ə smɔːl dɒɡ/",
+            "translation": "pieni koira",
+            "note": "Adjektiivi tulee ennen substantiivia – kuten suomessa."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Subject + to be + adjective",
+        "translation": "Subjekti + to be + adjektiivi",
+        "examples": [
+          {
+            "original": "The book is interesting.",
+            "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/",
+            "translation": "Kirja on mielenkiintoinen.",
+            "note": "Käytä 'to be' yleisiin kuvauksiin."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "have/has got for features",
+        "translation": "have/has got ominaisuuksiin",
+        "examples": [
+          {
+            "original": "She has got curly hair.",
+            "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/",
+            "translation": "Hänellä (naisella) on kiharat hiukset.",
+            "note": "Käytä 'have got' fyysisiin ominaisuuksiin."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Combined description",
+        "translation": "Yhdistetty kuvaus",
+        "examples": [
+          {
+            "original": "My brother is young and he has got green eyes.",
+            "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/",
+            "translation": "Veljeni on nuori ja hänellä on vihreät silmät.",
+            "note": "'To be':n ja 'have got':n yhdistelmä."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "fi_A1_func_04",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Talk about daily routines",
+    "bridge": "Suomessa käytämme preesensiä rutiineihin: 'Nousen ylös kello seitsemän joka päivä'. Englannissa käytämme present simpleä samalla tavalla: 'I get up at 7 o'clock every day'. Erona on, että suomessa verbin muoto ei muutu persoonan mukaan, mutta englannissa lisätään -s kolmannessa persoonassa (he, she, it). Toinen ero on, että suomessa ei ole erillistä aikamuotoa meneillään oleville toiminnoille, joten suomalaiset käyttävät present simpleä myös 'juuri nyt' -tilanteissa: 'I eat now' (kun pitäisi sanoa 'I am eating now'). Muista: rutiinit → present simple, juuri nyt tapahtuvat asiat → present continuous!",
+    "rule": "Rutiineista puhumiseen: 1) Käytä present simpleä (I get up, she works). 2) Käytä aika-ilmaisuja: 'at' + aika (at 8 am), 'in' + päivän osa (in the morning), 'on' + päivä (on Friday). 3) Käytä frekvenssiadverbejä ennen verbiä (I always eat breakfast). 4) Kysymyksiin: 'What time do you get up?' tai 'When do you have lunch?'.",
+    "concept_examples": [
+      {
+        "text": "I get up at 7 o'clock.",
+        "translation": "Nousen ylös kello seitsemän.",
+        "phonetic": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/"
+      },
+      {
+        "text": "She usually has breakfast at 8 am.",
+        "translation": "Hän (nainen) yleensä syö aamiaista kello kahdeksan.",
+        "phonetic": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/"
+      },
+      {
+        "text": "We go to work at 9 in the morning.",
+        "translation": "Menemme töihin kello yhdeksän aamulla.",
+        "phonetic": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "What time do you have dinner?",
+        "translation": "Mihin aikaan syöt päivällistä?",
+        "phonetic": "/wɒt taɪm duː juː hæv ˈdɪnə/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I eat now.",
+      "correct": "I am eating now.",
+      "correct_alt": "",
+      "explanation": "Suomessa käytämme preesensiä myös meneillään oleviin toimintoihin: 'Syön nyt'. Englannissa täytyy käyttää present continuousiä (I am eating) toimintoihin, jotka tapahtuvat juuri nyt. Tämä on hyvin yleinen virhe suomalaisille."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Daily actions",
+        "translation": "Päivittäiset toiminnot",
+        "examples": [
+          {
+            "original": "I get up early.",
+            "phonetic": "/aɪ ɡet ʌp ˈɜːli/",
+            "translation": "Nousen aikaisin ylös.",
+            "note": "Verbi present simplessä rutiiniin."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Time expressions",
+        "translation": "Aika-ilmaisut",
+        "examples": [
+          {
+            "original": "I have lunch at 1 pm.",
+            "phonetic": "/aɪ hæv lʌntʃ æt wʌn piː em/",
+            "translation": "Syön lounaan kello yksi iltapäivällä.",
+            "note": "Käytä 'at' tiettyihin kellonaikoihin."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Frequency adverbs",
+        "translation": "Frekvenssiadverbit",
+        "examples": [
+          {
+            "original": "She never drinks coffee.",
+            "phonetic": "/ʃiː ˈnevə drɪŋks ˈkɒfi/",
+            "translation": "Hän (nainen) ei koskaan juo kahvia.",
+            "note": "Adverbi ennen pääverbiä."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions about routines",
+        "translation": "Kysymykset rutiineista",
+        "examples": [
+          {
+            "original": "What time do you go to bed?",
+            "phonetic": "/wɒt taɪm duː juː ɡəʊ tə bed/",
+            "translation": "Mihin aikaan menet nukkumaan?",
+            "note": "Kysymys 'what time' + do/does."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "fi_A1_func_05",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Express likes and dislikes (I like / I don't like)",
+    "bridge": "Suomessa sanomme 'Pidän pitsasta' tai 'Tykkään pitsasta' (rakenteella 'pidän...sta' = pidän jostakin). Englannissa käytämme verbiä 'like' samalla tavalla: 'I like pizza'. Suurin ongelma on, että suomalaiset kääntävät 'pidän...sta' usein kirjaimellisesti muotoon 'I hold of pizza' (koska 'pitää' tarkoittaa myös 'pitää kiinni') tai 'I like from pizza' (väärä prepositio). Toinen virhe on sanoa 'Me like pizza' (koska suomessa 'minä pidän' → 'me pidämme', mutta englannissa 'I like' vs 'me like' on väärin). Muista: 'I like' (minä pidän), 'I don't like' (en pidä). Kolmannessa persoonassa: 'He likes' (hän pitää).",
+    "rule": "Tykkäämisen ilmaisemiseen: 1) Myönteinen: I/you/we/they like + objekti (I like coffee). He/she/it likes + objekti (She likes coffee). 2) Kielteinen: I/you/we/they don't like (I don't like tea). He/she/it doesn't like (He doesn't like tea). 3) Kysymykset: Do you like...? (Pidätkö...?), Does she like...? (Pitääkö hän...?). 4) Vahvistus: 'I like it very much' (Pidän siitä todella paljon) tai 'I really like it'.",
+    "concept_examples": [
+      {
+        "text": "I like pizza.",
+        "translation": "Pidän pitsasta.",
+        "phonetic": "/aɪ laɪk ˈpiːtsə/"
+      },
+      {
+        "text": "She likes reading.",
+        "translation": "Hän (nainen) pitää lukemisesta.",
+        "phonetic": "/ʃiː laɪks ˈriːdɪŋ/"
+      },
+      {
+        "text": "We don't like fast food.",
+        "translation": "Emme pidä pikaruoasta.",
+        "phonetic": "/wiː dəʊnt laɪk fɑːst fuːd/"
+      },
+      {
+        "text": "Do you like music?",
+        "translation": "Pidätkö musiikista?",
+        "phonetic": "/duː juː laɪk ˈmjuːzɪk/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I hold of pizza.",
+      "correct": "I like pizza.",
+      "correct_alt": "",
+      "explanation": "Suomessa 'pidän...sta' käännetään usein väärin muotoon 'I hold of' (koska 'pitää' tarkoittaa myös 'pitää kiinni'). Oikea verbi on 'like'. Älä käännä kirjaimellisesti!"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Affirmative with I/you/we/they",
+        "translation": "Myönteinen I/you/we/they kanssa",
+        "examples": [
+          {
+            "original": "I like chocolate.",
+            "phonetic": "/aɪ laɪk ˈtʃɒkələt/",
+            "translation": "Pidän suklaasta.",
+            "note": "Verbi 'like' perusmuodossa."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Affirmative with he/she/it",
+        "translation": "Myönteinen he/she/it kanssa",
+        "examples": [
+          {
+            "original": "He likes football.",
+            "phonetic": "/hiː laɪks ˈfʊtbɔːl/",
+            "translation": "Hän (mies) pitää jalkapallosta.",
+            "note": "Lisää -s kolmannessa persoonassa."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negative with don't/doesn't",
+        "translation": "Kielteinen don't/doesn't kanssa",
+        "examples": [
+          {
+            "original": "She doesn't like coffee.",
+            "phonetic": "/ʃiː ˈdʌznt laɪk ˈkɒfi/",
+            "translation": "Hän (nainen) ei pidä kahvista.",
+            "note": "Käytä 'doesn't' + verbi perusmuodossa."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions with Do/Does",
+        "translation": "Kysymykset Do/Does",
+        "examples": [
+          {
+            "original": "Do you like dogs?",
+            "phonetic": "/duː juː laɪk dɒɡz/",
+            "translation": "Pidätkö koirista?",
+            "note": "Kysymys 'do' + subjekti + verbi perusmuodossa."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "fi_A1_func_06",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Ask for and give prices",
+    "bridge": "Suomessa kysymme 'Paljonko se maksaa?' tai 'Mitä se maksaa?'. Englannissa käytämme 'How much is it?' (yksikkö) tai 'How much are they?' (monikko). Voidaan myös sanoa 'How much does it cost?' (Paljonko se maksaa?). Erona on, että suomessa ei ole apuverbiä, mutta englannissa täytyy käyttää 'to be' tai apuverbiä 'does' + 'cost'. Suomalaiset sanovat usein 'How much cost it?' – suora käännös ilman apuverbiä, mikä on väärin. Muista: 'How much is it?' tai 'How much does it cost?'.",
+    "rule": "Hinnan kysymiseen: 1) 'How much is it?' (yhdelle esineelle) tai 'How much are they?' (useille). 2) 'How much does it cost?' (Paljonko se maksaa?). 3) 'How much is the T-shirt?' (Paljonko T-paita maksaa?). Vastaukseen: 'It is 25 dollars' tai 'It costs 25 dollars'. Kysymyksissä käytä aina 'to be' tai apuverbiä 'does' + 'cost'.",
+    "concept_examples": [
+      {
+        "text": "How much is it?",
+        "translation": "Paljonko se maksaa?",
+        "phonetic": "/haʊ mʌtʃ ɪz ɪt/"
+      },
+      {
+        "text": "How much does it cost?",
+        "translation": "Paljonko se maksaa?",
+        "phonetic": "/haʊ mʌtʃ dʌz ɪt kɒst/"
+      },
+      {
+        "text": "It is 10 dollars.",
+        "translation": "Se maksaa 10 dollaria.",
+        "phonetic": "/ɪt ɪz ten ˈdɒləz/"
+      },
+      {
+        "text": "How much are these shoes?",
+        "translation": "Paljonko nämä kengät maksavat?",
+        "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
+      }
+    ],
+    "common_error": {
+      "wrong": "How much cost it?",
+      "correct": "How much does it cost?",
+      "correct_alt": "How much is it?",
+      "explanation": "Suomessa kysymme 'Paljonko se maksaa?' ilman apuverbiä. Englannissa, verbin 'cost' kanssa, tarvitaan apuverbi 'does' kysymyksissä. Tämä on suora käännös suomesta."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ask price with 'to be'",
+        "translation": "Kysy hintaa 'to be':llä",
+        "examples": [
+          {
+            "original": "How much is the book?",
+            "phonetic": "/haʊ mʌtʃ ɪz ðə bʊk/",
+            "translation": "Paljonko kirja maksaa?",
+            "note": "Käytä 'to be' hinnan kysymiseen."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ask price with 'cost'",
+        "translation": "Kysy hintaa 'cost':lla",
+        "examples": [
+          {
+            "original": "How much does the bag cost?",
+            "phonetic": "/haʊ mʌtʃ dʌz ðə bæɡ kɒst/",
+            "translation": "Paljonko laukku maksaa?",
+            "note": "Käytä 'does' + 'cost' kysymykseen."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Give price",
+        "translation": "Kerro hinta",
+        "examples": [
+          {
+            "original": "It costs 5 euros.",
+            "phonetic": "/ɪt kɒsts faɪv ˈjʊərəʊz/",
+            "translation": "Se maksaa 5 euroa.",
+            "note": "Käytä 'costs' kolmannessa persoonassa."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Plural questions",
+        "translation": "Monikon kysymykset",
+        "examples": [
+          {
+            "original": "How much are these apples?",
+            "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ˈæpəlz/",
+            "translation": "Paljonko nämä omenat maksavat?",
+            "note": "Käytä 'are' monikossa."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "fi_A1_func_07",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Indicate location of places",
+    "bridge": "Suomessa käytämme sijapäätteitä (inessiivi -ssa, adessiivi -lla, elatiivi -sta jne.) paikan ilmaisemiseen, emmekä erillisiä prepositioita. Englannissa käytetään prepositioita: 'in', 'on', 'at', 'next to', 'near', 'opposite', 'behind', 'in front of'. Suomalaiset jättävät prepositiot usein kokonaan pois tai käyttävät 'in' kaikkialla, koska suomessa paikka ilmaistaan sijapäätteellä. Esimerkiksi: 'I live Helsinki' (ilman 'in') tai 'I am the table' (ilman 'on'). Muista: 'in' = suljettu tila, 'on' = pinta, 'at' = tietty piste, 'next to' = vieressä, 'near' = lähellä. Kysymyksissä: 'Where is the...?' (Missä ... on?).",
+    "rule": "Paikan ilmaisemiseen: 1) Käytä verbiä 'to be' (The bank is...). 2) Prepositiot: 'on' (päällä, pinnalla tai kadulla), 'in' (sisällä), 'at' (tietyssä pisteessä), 'next to' (vieressä), 'near' (lähellä), 'opposite' (vastapäätä), 'behind' (takana), 'in front of' (edessä). 3) Kysymyksiin: 'Where is the...?' (Missä ... on?) tai 'Is there a... near here?' (Onko täällä lähellä ...?).",
+    "concept_examples": [
+      {
+        "text": "The supermarket is near the park.",
+        "translation": "Supermarket on lähellä puistoa.",
+        "phonetic": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/"
+      },
+      {
+        "text": "The school is next to the church.",
+        "translation": "Koulu on kirkon vieressä.",
+        "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/"
+      },
+      {
+        "text": "The pharmacy is on Main Street.",
+        "translation": "Apteekki on Main Streetillä.",
+        "phonetic": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/"
+      },
+      {
+        "text": "Where is the bus station?",
+        "translation": "Missä linja-autoasema on?",
+        "phonetic": "/weə ɪz ðə bʌs ˈsteɪʃən/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I live Helsinki.",
+      "correct": "I live in Helsinki.",
+      "correct_alt": "",
+      "explanation": "Suomessa sanomme 'Asun Helsingissä' – paikka ilmaistaan sijapäätteellä (-ssa). Englannissa täytyy käyttää prepositiota 'in' kaupunkien ja maiden kanssa. Muista aina prepositio!"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic location with 'in'",
+        "translation": "Peruspaikka 'in':llä",
+        "examples": [
+          {
+            "original": "The cat is in the garden.",
+            "phonetic": "/ðə kæt ɪz ɪn ðə ˈɡɑːdən/",
+            "translation": "Kissa on puutarhassa.",
+            "note": "Käytä 'in' suljetuissa tiloissa."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Location with 'next to'",
+        "translation": "Paikka 'next to':llä",
+        "examples": [
+          {
+            "original": "The restaurant is next to the hotel.",
+            "phonetic": "/ðə ˈrestrɒnt ɪz nekst tə ðə həʊˈtel/",
+            "translation": "Ravintola on hotellin vieressä.",
+            "note": "Käytä 'next to' sivuttaisasennossa."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Location with 'near' and 'opposite'",
+        "translation": "Paikka 'near' ja 'opposite'",
+        "examples": [
+          {
+            "original": "The bank is opposite the park.",
+            "phonetic": "/ðə bæŋk ɪz ˈɒpəzɪt ðə pɑːk/",
+            "translation": "Pankki on puistoa vastapäätä.",
+            "note": "Käytä 'opposite' vastapäätä."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Question with Where",
+        "translation": "Kysymys Where",
+        "examples": [
+          {
+            "original": "Where is the police station?",
+            "phonetic": "/weə ɪz ðə pəˈliːs ˈsteɪʃən/",
+            "translation": "Missä poliisiasema on?",
+            "note": "Suora kysymys 'Where':llä."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  }
+]

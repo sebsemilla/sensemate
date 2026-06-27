@@ -6,20 +6,28 @@
     "title": "Greet and introduce yourself",
     "bridge": "Im Deutschen sagen wir 'Hallo' oder 'Guten Morgen' und 'Ich heiße...' oder 'Ich bin...'. Im Englischen ist das ähnlich: 'Hello', 'Hi', 'Good morning' und 'My name is...' oder 'I am...'. Der Unterschied: Im Deutschen sagen wir oft 'Ich heiße...' (wörtlich 'ich heiße' = 'I am called'), aber im Englischen ist die übliche Form 'My name is...' oder 'I am...'. 'I am called' ist zwar korrekt, klingt aber sehr formell. Deutsche neigen dazu, 'I call myself' zu sagen, weil sie 'ich heiße' wörtlich übersetzen – das ist falsch.",
     "rule": "Zum Begrüßen: 'Hello' (Hallo), 'Hi' (informeller), 'Good morning' (Guten Morgen), 'Good afternoon' (Guten Tag), 'Good evening' (Guten Abend). Zum Vorstellen: 'My name is...' (Ich heiße...) oder 'I am...' (Ich bin...). Zum Fragen: 'What is your name?' (Wie heißt du?). Antwort auf eine Begrüßung: 'Nice to meet you' (Freut mich, dich kennenzulernen) – Antwort: 'Nice to meet you too'. Zum Verabschieden: 'Goodbye', 'Bye', 'See you later'.",
-    "concept_examples": {
-      "most_common_01": "Hello, my name is Maria.",
-      "01_translation": "Hallo, ich heiße Maria.",
-      "phonetic_01": "/həˈləʊ maɪ neɪm ɪz məˈriːə/",
-      "most_common_02": "Good morning, I am Peter.",
-      "02_translation": "Guten Morgen, ich bin Peter.",
-      "phonetic_02": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/",
-      "most_common_03": "Nice to meet you.",
-      "03_translation": "Freut mich, dich kennenzulernen.",
-      "phonetic_03": "/naɪs tə miːt juː/",
-      "most_common_04": "What is your name?",
-      "04_translation": "Wie heißt du?",
-      "phonetic_04": "/wɒt ɪz jɔː neɪm/"
-    },
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Maria.",
+        "translation": "Hallo, ich heiße Maria.",
+        "phonetic": "/həˈləʊ maɪ neɪm ɪz məˈriːə/"
+      },
+      {
+        "text": "Good morning, I am Peter.",
+        "translation": "Guten Morgen, ich bin Peter.",
+        "phonetic": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Freut mich, dich kennenzulernen.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "What is your name?",
+        "translation": "Wie heißt du?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
     "common_error": {
       "wrong": "I call myself Anna.",
       "correct": "My name is Anna.",
@@ -92,20 +100,28 @@
     "title": "Give personal information (age, nationality, profession)",
     "bridge": "Im Deutschen sagen wir 'Ich bin 25 Jahre alt' – das ist genau wie im Englischen 'I am 25 years old'. Gut! Bei der Nationalität sagen wir 'Ich bin Deutscher' – im Englischen 'I am German' (ohne Artikel). Bei Berufen sagen wir 'Ich bin Lehrer' – im Englischen muss der unbestimmte Artikel stehen: 'I am a teacher'. Das ist ein klassischer Fehler deutscher Lernender, weil sie den Artikel weglassen (wie im Deutschen).",
     "rule": "Für das Alter: 'I am [Zahl] years old' (z.B. I am 25 years old). Für die Nationalität: 'I am [Nationalität]' (z.B. I am German, I am Mexican). Für den Beruf: 'I am a/an [Beruf]' (z.B. I am a doctor, I am an engineer). Zum Fragen: 'How old are you?' (Wie alt bist du?), 'Where are you from?' (Woher kommst du?), 'What do you do?' (Was machst du beruflich?) oder 'What is your job?'.",
-    "concept_examples": {
-      "most_common_01": "I am 25 years old.",
-      "01_translation": "Ich bin 25 Jahre alt.",
-      "phonetic_01": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/",
-      "most_common_02": "I am German.",
-      "02_translation": "Ich bin Deutscher.",
-      "phonetic_02": "/aɪ æm ˈdʒɜːmən/",
-      "most_common_03": "I am a teacher.",
-      "03_translation": "Ich bin Lehrer.",
-      "phonetic_03": "/aɪ æm ə ˈtiːtʃə/",
-      "most_common_04": "How old are you?",
-      "04_translation": "Wie alt bist du?",
-      "phonetic_04": "/haʊ əʊld ɑːr juː/"
-    },
+    "concept_examples": [
+      {
+        "text": "I am 25 years old.",
+        "translation": "Ich bin 25 Jahre alt.",
+        "phonetic": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/"
+      },
+      {
+        "text": "I am German.",
+        "translation": "Ich bin Deutscher.",
+        "phonetic": "/aɪ æm ˈdʒɜːmən/"
+      },
+      {
+        "text": "I am a teacher.",
+        "translation": "Ich bin Lehrer.",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "How old are you?",
+        "translation": "Wie alt bist du?",
+        "phonetic": "/haʊ əʊld ɑːr juː/"
+      }
+    ],
     "common_error": {
       "wrong": "I am 20 years.",
       "correct": "I am 20 years old.",
@@ -178,20 +194,28 @@
     "title": "Describe objects and people (basic)",
     "bridge": "Im Deutschen steht das Adjektiv VOR dem Nomen: 'ein rotes Auto', 'ein großer Mann'. Im Englischen ist es genauso: 'a red car', 'a tall man'. Also kein Problem! Deutsche machen hier keine Fehler. Auch die Verwendung von 'to be' für Zustände (She is tall) und 'have got' für Merkmale (She has got blue eyes) ist im Deutschen ähnlich ('Sie ist groß', 'Sie hat blaue Augen'). Der einzige mögliche Fehler: Deutsche könnten 'have' statt 'have got' verwenden – aber das ist im Englischen auch richtig.",
     "rule": "Zum Beschreiben: 1) Adjektiv + Nomen (a big house). 2) Subjekt + 'to be' + Adjektiv (The house is big). 3) Subjekt + 'have/has got' + Merkmal (She has got long hair). Häufige Adjektive: big (groß), small (klein), tall (groß – Person), short (klein – Person / kurz), beautiful (schön), old (alt), young (jung), fast (schnell), slow (langsam).",
-    "concept_examples": {
-      "most_common_01": "This is a big house.",
-      "01_translation": "Das ist ein großes Haus.",
-      "phonetic_01": "/ðɪs ɪz ə bɪɡ haʊs/",
-      "most_common_02": "She is tall and thin.",
-      "02_translation": "Sie ist groß und dünn.",
-      "phonetic_02": "/ʃiː ɪz tɔːl ænd θɪn/",
-      "most_common_03": "He has got blue eyes.",
-      "03_translation": "Er hat blaue Augen.",
-      "phonetic_03": "/hiː hæz ɡɒt bluː aɪz/",
-      "most_common_04": "The car is red.",
-      "04_translation": "Das Auto ist rot.",
-      "phonetic_04": "/ðə kɑːr ɪz red/"
-    },
+    "concept_examples": [
+      {
+        "text": "This is a big house.",
+        "translation": "Das ist ein großes Haus.",
+        "phonetic": "/ðɪs ɪz ə bɪɡ haʊs/"
+      },
+      {
+        "text": "She is tall and thin.",
+        "translation": "Sie ist groß und dünn.",
+        "phonetic": "/ʃiː ɪz tɔːl ænd θɪn/"
+      },
+      {
+        "text": "He has got blue eyes.",
+        "translation": "Er hat blaue Augen.",
+        "phonetic": "/hiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "Das Auto ist rot.",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      }
+    ],
     "common_error": {
       "wrong": "a car red",
       "correct": "a red car",
@@ -264,20 +288,28 @@
     "title": "Talk about daily routines",
     "bridge": "Im Deutschen sagen wir 'Ich stehe um 7 Uhr auf, frühstücke und gehe zur Arbeit'. Im Englischen ist das ähnlich: 'I get up at 7, have breakfast and go to work'. Die Präpositionen sind anders: 'at' für Uhrzeiten, 'in' für Tageszeiten, 'on' für Tage. Deutsche sagen oft 'in the morning', 'in the afternoon' – das ist richtig. Aber sie könnten 'at' mit 'in' verwechseln (z.B. 'in 7 o'clock' statt 'at 7 o'clock'). Auch die Wortstellung der Adverbien der Häufigkeit ist im Deutschen ähnlich ('ich stehe immer früh auf' → 'I always get up early') – also kein Problem.",
     "rule": "Für Routinen: 1) Verwende das Present Simple (I get up, she works). 2) Verwende Zeitausdrücke: 'at' + Uhrzeit (at 8 am), 'in' + Tageszeit (in the morning), 'on' + Tag (on Friday). 3) Verwende Adverbien der Häufigkeit vor dem Hauptverb (I always eat breakfast). 4) Zum Fragen: 'What time do you get up?' oder 'When do you have lunch?'.",
-    "concept_examples": {
-      "most_common_01": "I get up at 7 o'clock.",
-      "01_translation": "Ich stehe um 7 Uhr auf.",
-      "phonetic_01": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/",
-      "most_common_02": "She usually has breakfast at 8 am.",
-      "02_translation": "Sie frühstückt normalerweise um 8 Uhr.",
-      "phonetic_02": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/",
-      "most_common_03": "We go to work at 9 in the morning.",
-      "03_translation": "Wir gehen um 9 Uhr morgens zur Arbeit.",
-      "phonetic_03": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/",
-      "most_common_04": "What time do you have dinner?",
-      "04_translation": "Wann isst du zu Abend?",
-      "phonetic_04": "/wɒt taɪm duː juː hæv ˈdɪnə/"
-    },
+    "concept_examples": [
+      {
+        "text": "I get up at 7 o'clock.",
+        "translation": "Ich stehe um 7 Uhr auf.",
+        "phonetic": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/"
+      },
+      {
+        "text": "She usually has breakfast at 8 am.",
+        "translation": "Sie frühstückt normalerweise um 8 Uhr.",
+        "phonetic": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/"
+      },
+      {
+        "text": "We go to work at 9 in the morning.",
+        "translation": "Wir gehen um 9 Uhr morgens zur Arbeit.",
+        "phonetic": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "What time do you have dinner?",
+        "translation": "Wann isst du zu Abend?",
+        "phonetic": "/wɒt taɪm duː juː hæv ˈdɪnə/"
+      }
+    ],
     "common_error": {
       "wrong": "I am eating breakfast every morning.",
       "correct": "I eat breakfast every morning.",
@@ -350,20 +382,28 @@
     "title": "Express likes and dislikes (I like / I don't like)",
     "bridge": "Im Deutschen sagen wir 'Ich mag Pizza' – das ist genau wie im Englischen 'I like pizza'. Auch die Verneinung ist ähnlich: 'Ich mag keine Pizza' → 'I don't like pizza'. Der einzige Unterschied: Im Deutschen kann man das Objekt betonen ('Pizza mag ich'), aber im Englischen ist die Wortstellung fest. Deutsche könnten versuchen, das Objekt voranzustellen ('Pizza I like') – das ist im Englischen falsch. Auch die Intensivierung: 'Ich mag Pizza sehr' → im Englischen 'I like pizza very much' (das 'very much' steht am Ende).",
     "rule": "Für Vorlieben und Abneigungen: 1) Bejahung: I/you/we/they like + Objekt (I like coffee). He/she/it likes + Objekt (She likes coffee). 2) Verneinung: I/you/we/they don't like (I don't like tea). He/she/it doesn't like (He doesn't like tea). 3) Fragen: Do you like...?, Does she like...?. 4) Intensivierung: 'I like it very much' oder 'I really like it'.",
-    "concept_examples": {
-      "most_common_01": "I like pizza.",
-      "01_translation": "Ich mag Pizza.",
-      "phonetic_01": "/aɪ laɪk ˈpiːtsə/",
-      "most_common_02": "She likes reading.",
-      "02_translation": "Sie liest gern.",
-      "phonetic_02": "/ʃiː laɪks ˈriːdɪŋ/",
-      "most_common_03": "We don't like fast food.",
-      "03_translation": "Wir mögen kein Fast Food.",
-      "phonetic_03": "/wiː dəʊnt laɪk fɑːst fuːd/",
-      "most_common_04": "Do you like music?",
-      "04_translation": "Magst du Musik?",
-      "phonetic_04": "/duː juː laɪk ˈmjuːzɪk/"
-    },
+    "concept_examples": [
+      {
+        "text": "I like pizza.",
+        "translation": "Ich mag Pizza.",
+        "phonetic": "/aɪ laɪk ˈpiːtsə/"
+      },
+      {
+        "text": "She likes reading.",
+        "translation": "Sie liest gern.",
+        "phonetic": "/ʃiː laɪks ˈriːdɪŋ/"
+      },
+      {
+        "text": "We don't like fast food.",
+        "translation": "Wir mögen kein Fast Food.",
+        "phonetic": "/wiː dəʊnt laɪk fɑːst fuːd/"
+      },
+      {
+        "text": "Do you like music?",
+        "translation": "Magst du Musik?",
+        "phonetic": "/duː juː laɪk ˈmjuːzɪk/"
+      }
+    ],
     "common_error": {
       "wrong": "I like very much pizza.",
       "correct": "I like pizza very much.",
@@ -436,20 +476,28 @@
     "title": "Ask for and give prices",
     "bridge": "Im Deutschen fragen wir 'Wie viel kostet das?' – das ist 'How much does it cost?' im Englischen. Der Unterschied: Im Englischen braucht man das Hilfsverb 'does' bei 'cost'. Deutsche sagen oft 'How much cost it?' – das ist falsch, weil sie das 'does' weglassen (wie im Deutschen). Auch 'How much is it?' ist möglich – das entspricht 'Wie viel ist es?' – aber im Deutschen sagt man das seltener. Deutsche neigen dazu, 'cost' ohne 'does' zu verwenden.",
     "rule": "Für Preisfragen: 1) 'How much is it?' (für einen Gegenstand) oder 'How much are they?' (für mehrere). 2) 'How much does it cost?' (Wie viel kostet es?). 3) 'How much is the T-shirt?' (Wie viel kostet das T-Shirt?). Zur Antwort: 'It is 25 euros' oder 'It costs 25 euros'. In Fragen wird immer 'to be' oder 'does' + 'cost' verwendet.",
-    "concept_examples": {
-      "most_common_01": "How much is it?",
-      "01_translation": "Wie viel kostet es?",
-      "phonetic_01": "/haʊ mʌtʃ ɪz ɪt/",
-      "most_common_02": "How much does it cost?",
-      "02_translation": "Wie viel kostet es?",
-      "phonetic_02": "/haʊ mʌtʃ dʌz ɪt kɒst/",
-      "most_common_03": "It is 10 dollars.",
-      "03_translation": "Es kostet 10 Dollar.",
-      "phonetic_03": "/ɪt ɪz ten ˈdɒləz/",
-      "most_common_04": "How much are these shoes?",
-      "04_translation": "Wie viel kosten diese Schuhe?",
-      "phonetic_04": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
-    },
+    "concept_examples": [
+      {
+        "text": "How much is it?",
+        "translation": "Wie viel kostet es?",
+        "phonetic": "/haʊ mʌtʃ ɪz ɪt/"
+      },
+      {
+        "text": "How much does it cost?",
+        "translation": "Wie viel kostet es?",
+        "phonetic": "/haʊ mʌtʃ dʌz ɪt kɒst/"
+      },
+      {
+        "text": "It is 10 dollars.",
+        "translation": "Es kostet 10 Dollar.",
+        "phonetic": "/ɪt ɪz ten ˈdɒləz/"
+      },
+      {
+        "text": "How much are these shoes?",
+        "translation": "Wie viel kosten diese Schuhe?",
+        "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
+      }
+    ],
     "common_error": {
       "wrong": "How much cost it?",
       "correct": "How much does it cost?",
@@ -522,20 +570,28 @@
     "title": "Indicate location of places",
     "bridge": "Im Deutschen sagen wir 'in der Stadt', 'auf der Straße', 'an der Ecke'. Im Englischen gibt es 'in', 'on', 'at'. Der Unterschied: Für Städte und Länder verwendet man 'in' (in Berlin), für Straßen 'on' (on Main Street), für bestimmte Punkte 'at' (at the corner). Deutsche sagen oft 'at Berlin' – das ist falsch, richtig ist 'in Berlin'. Auch 'on the corner' (an der Ecke) – Deutsche könnten 'in the corner' sagen, weil sie 'in der Ecke' (innerhalb eines Raums) und 'an der Ecke' (Kreuzung) verwechseln.",
     "rule": "Für die Angabe des Ortes: 1) Verwende 'to be' (The bank is...). 2) Ortspräpositionen: 'on' (in, auf einer Straße), 'in' (innerhalb eines Raums), 'at' (an einem bestimmten Punkt), 'next to' (neben), 'near' (in der Nähe von), 'opposite' (gegenüber), 'behind' (hinter), 'in front of' (vor). 3) Zum Fragen: 'Where is the...?' oder 'Is there a... near here?'.",
-    "concept_examples": {
-      "most_common_01": "The supermarket is near the park.",
-      "01_translation": "Der Supermarkt ist in der Nähe des Parks.",
-      "phonetic_01": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/",
-      "most_common_02": "The school is next to the church.",
-      "02_translation": "Die Schule ist neben der Kirche.",
-      "phonetic_02": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/",
-      "most_common_03": "The pharmacy is on Main Street.",
-      "03_translation": "Die Apotheke ist in der Hauptstraße.",
-      "phonetic_03": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/",
-      "most_common_04": "Where is the bus station?",
-      "04_translation": "Wo ist der Busbahnhof?",
-      "phonetic_04": "/weə ɪz ðə bʌs ˈsteɪʃən/"
-    },
+    "concept_examples": [
+      {
+        "text": "The supermarket is near the park.",
+        "translation": "Der Supermarkt ist in der Nähe des Parks.",
+        "phonetic": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/"
+      },
+      {
+        "text": "The school is next to the church.",
+        "translation": "Die Schule ist neben der Kirche.",
+        "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/"
+      },
+      {
+        "text": "The pharmacy is on Main Street.",
+        "translation": "Die Apotheke ist in der Hauptstraße.",
+        "phonetic": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/"
+      },
+      {
+        "text": "Where is the bus station?",
+        "translation": "Wo ist der Busbahnhof?",
+        "phonetic": "/weə ɪz ðə bʌs ˈsteɪʃən/"
+      }
+    ],
     "common_error": {
       "wrong": "Is at Berlin.",
       "correct": "It is in Berlin.",

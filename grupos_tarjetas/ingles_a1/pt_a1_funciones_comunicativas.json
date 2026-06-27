@@ -6,20 +6,28 @@
     "title": "Greet and introduce yourself",
     "bridge": "Em português, para cumprimentar dizemos 'Olá' ou 'Oi' e para nos apresentar dizemos 'Meu nome é...' ou 'Eu sou...'. Em inglês é semelhante: usamos 'Hello' ou 'Hi' e dizemos 'My name is...' ou 'I am...'. A diferença principal é que em inglês não se usa 'I am called...' (apesar de ser gramaticalmente correto, soa muito formal e pouco natural em conversas do dia a dia). Lembre-se também de que em inglês usamos sempre o verbo 'to be' para perguntar o nome: 'What is your name?' (não 'How are you called?').",
     "rule": "Para cumprimentar: 'Hello' (Olá), 'Hi' (Oi, mais informal), 'Good morning' (Bom dia), 'Good afternoon' (Boa tarde), 'Good evening' (Boa noite ao chegar). Para se apresentar: 'My name is...' (Meu nome é...) ou 'I am...' (Eu sou...). Para perguntar o nome: 'What is your name?' (Qual é o seu nome?). Para responder a um cumprimento: 'Nice to meet you' (Prazer em conhecê-lo) e a resposta é 'Nice to meet you too'. Para se despedir: 'Goodbye', 'Bye', 'See you later'.",
-    "concept_examples": {
-      "most_common_01": "Hello, my name is Maria.",
-      "01_translation": "Olá, meu nome é Maria.",
-      "phonetic_01": "/həˈləʊ maɪ neɪm ɪz məˈriːə/",
-      "most_common_02": "Good morning, I am Peter.",
-      "02_translation": "Bom dia, eu sou Peter.",
-      "phonetic_02": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/",
-      "most_common_03": "Nice to meet you.",
-      "03_translation": "Prazer em conhecê-lo.",
-      "phonetic_03": "/naɪs tə miːt juː/",
-      "most_common_04": "What is your name?",
-      "04_translation": "Qual é o seu nome?",
-      "phonetic_04": "/wɒt ɪz jɔː neɪm/"
-    },
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Maria.",
+        "translation": "Olá, meu nome é Maria.",
+        "phonetic": "/həˈləʊ maɪ neɪm ɪz məˈriːə/"
+      },
+      {
+        "text": "Good morning, I am Peter.",
+        "translation": "Bom dia, eu sou Peter.",
+        "phonetic": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Prazer em conhecê-lo.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "What is your name?",
+        "translation": "Qual é o seu nome?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
     "common_error": {
       "wrong": "I am called Anna.",
       "correct": "My name is Anna.",
@@ -32,7 +40,12 @@
         "label": "Basic greeting",
         "translation": "Cumprimento básico",
         "examples": [
-          { "original": "Hello!", "phonetic": "/həˈləʊ/", "translation": "Olá!", "note": "Cumprimento padrão." }
+          {
+            "original": "Hello!",
+            "phonetic": "/həˈləʊ/",
+            "translation": "Olá!",
+            "note": "Cumprimento padrão."
+          }
         ]
       },
       {
@@ -40,7 +53,12 @@
         "label": "Introduce yourself",
         "translation": "Apresentar-se",
         "examples": [
-          { "original": "My name is John.", "phonetic": "/maɪ neɪm ɪz dʒɒn/", "translation": "Meu nome é John.", "note": "Forma comum para dizer seu nome." }
+          {
+            "original": "My name is John.",
+            "phonetic": "/maɪ neɪm ɪz dʒɒn/",
+            "translation": "Meu nome é John.",
+            "note": "Forma comum para dizer seu nome."
+          }
         ]
       },
       {
@@ -48,7 +66,12 @@
         "label": "Ask someone's name",
         "translation": "Perguntar o nome de alguém",
         "examples": [
-          { "original": "What is your name?", "phonetic": "/wɒt ɪz jɔː neɪm/", "translation": "Qual é o seu nome?", "note": "Pergunta direta para saber o nome." }
+          {
+            "original": "What is your name?",
+            "phonetic": "/wɒt ɪz jɔː neɪm/",
+            "translation": "Qual é o seu nome?",
+            "note": "Pergunta direta para saber o nome."
+          }
         ]
       },
       {
@@ -56,7 +79,12 @@
         "label": "Farewell",
         "translation": "Despedida",
         "examples": [
-          { "original": "See you tomorrow!", "phonetic": "/siː juː təˈmɒrəʊ/", "translation": "Até amanhã!", "note": "Despedida informal." }
+          {
+            "original": "See you tomorrow!",
+            "phonetic": "/siː juː təˈmɒrəʊ/",
+            "translation": "Até amanhã!",
+            "note": "Despedida informal."
+          }
         ]
       }
     ],
@@ -72,20 +100,28 @@
     "title": "Give personal information (age, nationality, profession)",
     "bridge": "Em português, para dar a idade dizemos 'Tenho 25 anos' (usando o verbo 'ter'), mas em inglês se diz 'I am 25 years old' (usando o verbo 'to be'). Para a nacionalidade, dizemos 'Sou brasileiro' (sem artigo) e em inglês é igual: 'I am Brazilian' (sem artigo). Para a profissão, em português dizemos 'Sou professor' (sem artigo), mas em inglês precisamos do artigo: 'I am a teacher'.",
     "rule": "Para a idade: 'I am [número] years old' (ex: I am 25 years old). Para a nacionalidade: 'I am [nacionalidade]' (ex: I am Brazilian, I am Mexican). Para a profissão: 'I am a/an [profissão]' (ex: I am a doctor, I am an engineer). Para perguntar: 'How old are you?' (Quantos anos você tem?), 'Where are you from?' (De onde você é?), 'What do you do?' (O que você faz?) ou 'What is your job?'.",
-    "concept_examples": {
-      "most_common_01": "I am 25 years old.",
-      "01_translation": "Eu tenho 25 anos.",
-      "phonetic_01": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/",
-      "most_common_02": "I am Brazilian.",
-      "02_translation": "Eu sou brasileiro.",
-      "phonetic_02": "/aɪ æm brəˈzɪljən/",
-      "most_common_03": "I am a teacher.",
-      "03_translation": "Eu sou professor.",
-      "phonetic_03": "/aɪ æm ə ˈtiːtʃə/",
-      "most_common_04": "How old are you?",
-      "04_translation": "Quantos anos você tem?",
-      "phonetic_04": "/haʊ əʊld ɑːr juː/"
-    },
+    "concept_examples": [
+      {
+        "text": "I am 25 years old.",
+        "translation": "Eu tenho 25 anos.",
+        "phonetic": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/"
+      },
+      {
+        "text": "I am Brazilian.",
+        "translation": "Eu sou brasileiro.",
+        "phonetic": "/aɪ æm brəˈzɪljən/"
+      },
+      {
+        "text": "I am a teacher.",
+        "translation": "Eu sou professor.",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "How old are you?",
+        "translation": "Quantos anos você tem?",
+        "phonetic": "/haʊ əʊld ɑːr juː/"
+      }
+    ],
     "common_error": {
       "wrong": "I have 25 years.",
       "correct": "I am 25 years old.",
@@ -98,7 +134,12 @@
         "label": "Age",
         "translation": "Idade",
         "examples": [
-          { "original": "I am 30 years old.", "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/", "translation": "Eu tenho 30 anos.", "note": "Usamos 'to be' para a idade." }
+          {
+            "original": "I am 30 years old.",
+            "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/",
+            "translation": "Eu tenho 30 anos.",
+            "note": "Usamos 'to be' para a idade."
+          }
         ]
       },
       {
@@ -106,7 +147,12 @@
         "label": "Nationality",
         "translation": "Nacionalidade",
         "examples": [
-          { "original": "I am Mexican.", "phonetic": "/aɪ æm ˈmeksɪkən/", "translation": "Eu sou mexicano.", "note": "Sem artigo para a nacionalidade." }
+          {
+            "original": "I am Mexican.",
+            "phonetic": "/aɪ æm ˈmeksɪkən/",
+            "translation": "Eu sou mexicano.",
+            "note": "Sem artigo para a nacionalidade."
+          }
         ]
       },
       {
@@ -114,7 +160,12 @@
         "label": "Profession",
         "translation": "Profissão",
         "examples": [
-          { "original": "She is a nurse.", "phonetic": "/ʃiː ɪz ə nɜːs/", "translation": "Ela é enfermeira.", "note": "Com o artigo 'a' ou 'an' para profissões." }
+          {
+            "original": "She is a nurse.",
+            "phonetic": "/ʃiː ɪz ə nɜːs/",
+            "translation": "Ela é enfermeira.",
+            "note": "Com o artigo 'a' ou 'an' para profissões."
+          }
         ]
       },
       {
@@ -122,7 +173,12 @@
         "label": "Questions",
         "translation": "Perguntas",
         "examples": [
-          { "original": "Where are you from?", "phonetic": "/weə ɑːr juː frɒm/", "translation": "De onde você é?", "note": "Pergunta sobre a origem." }
+          {
+            "original": "Where are you from?",
+            "phonetic": "/weə ɑːr juː frɒm/",
+            "translation": "De onde você é?",
+            "note": "Pergunta sobre a origem."
+          }
         ]
       }
     ],
@@ -138,20 +194,28 @@
     "title": "Describe objects and people (basic)",
     "bridge": "Em português, para descrever objetos e pessoas, colocamos o adjetivo depois do substantivo: 'um carro vermelho', 'uma menina alta'. Em inglês, o adjetivo vem ANTES do substantivo: 'a red car', 'a tall girl'. Também usamos o verbo 'to be' para descrições gerais (She is tall) e 'have got' para características físicas (She has got blue eyes). A boa notícia é que português e inglês usam 'ter' e 'ser/estar' de maneira semelhante para essas descrições.",
     "rule": "Para descrever: 1) Adjetivo + substantivo (a big house). 2) Sujeito + verbo 'to be' + adjetivo (The house is big). 3) Sujeito + 'have/has got' + característica (She has got long hair). Adjetivos comuns: big (grande), small (pequeno), tall (alto), short (baixo), beautiful (bonito), old (velho), young (jovem), fast (rápido), slow (lento).",
-    "concept_examples": {
-      "most_common_01": "This is a big house.",
-      "01_translation": "Esta é uma casa grande.",
-      "phonetic_01": "/ðɪs ɪz ə bɪɡ haʊs/",
-      "most_common_02": "She is tall and thin.",
-      "02_translation": "Ela é alta e magra.",
-      "phonetic_02": "/ʃiː ɪz tɔːl ænd θɪn/",
-      "most_common_03": "He has got blue eyes.",
-      "03_translation": "Ele tem olhos azuis.",
-      "phonetic_03": "/hiː hæz ɡɒt bluː aɪz/",
-      "most_common_04": "The car is red.",
-      "04_translation": "O carro é vermelho.",
-      "phonetic_04": "/ðə kɑːr ɪz red/"
-    },
+    "concept_examples": [
+      {
+        "text": "This is a big house.",
+        "translation": "Esta é uma casa grande.",
+        "phonetic": "/ðɪs ɪz ə bɪɡ haʊs/"
+      },
+      {
+        "text": "She is tall and thin.",
+        "translation": "Ela é alta e magra.",
+        "phonetic": "/ʃiː ɪz tɔːl ænd θɪn/"
+      },
+      {
+        "text": "He has got blue eyes.",
+        "translation": "Ele tem olhos azuis.",
+        "phonetic": "/hiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "O carro é vermelho.",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      }
+    ],
     "common_error": {
       "wrong": "a car red",
       "correct": "a red car",
@@ -164,7 +228,12 @@
         "label": "Adjective + noun",
         "translation": "Adjetivo + substantivo",
         "examples": [
-          { "original": "a small dog", "phonetic": "/ə smɔːl dɒɡ/", "translation": "um cachorro pequeno", "note": "O adjetivo vem antes do substantivo." }
+          {
+            "original": "a small dog",
+            "phonetic": "/ə smɔːl dɒɡ/",
+            "translation": "um cachorro pequeno",
+            "note": "O adjetivo vem antes do substantivo."
+          }
         ]
       },
       {
@@ -172,7 +241,12 @@
         "label": "Subject + to be + adjective",
         "translation": "Sujeito + to be + adjetivo",
         "examples": [
-          { "original": "The book is interesting.", "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/", "translation": "O livro é interessante.", "note": "Usamos 'to be' para descrições gerais." }
+          {
+            "original": "The book is interesting.",
+            "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/",
+            "translation": "O livro é interessante.",
+            "note": "Usamos 'to be' para descrições gerais."
+          }
         ]
       },
       {
@@ -180,7 +254,12 @@
         "label": "have/has got for features",
         "translation": "have/has got para características",
         "examples": [
-          { "original": "She has got curly hair.", "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/", "translation": "Ela tem cabelo cacheado.", "note": "Usamos 'have got' para características físicas." }
+          {
+            "original": "She has got curly hair.",
+            "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/",
+            "translation": "Ela tem cabelo cacheado.",
+            "note": "Usamos 'have got' para características físicas."
+          }
         ]
       },
       {
@@ -188,7 +267,12 @@
         "label": "Combined description",
         "translation": "Descrição combinada",
         "examples": [
-          { "original": "My brother is young and he has got green eyes.", "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/", "translation": "Meu irmão é jovem e tem olhos verdes.", "note": "Combinação de 'to be' e 'have got'." }
+          {
+            "original": "My brother is young and he has got green eyes.",
+            "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/",
+            "translation": "Meu irmão é jovem e tem olhos verdes.",
+            "note": "Combinação de 'to be' e 'have got'."
+          }
         ]
       }
     ],
@@ -204,20 +288,28 @@
     "title": "Talk about daily routines",
     "bridge": "Em português, para falar sobre rotinas diárias usamos o presente simples: 'Eu acordo às 7h, tomo café e vou para o trabalho'. Em inglês, usamos o presente simples da mesma forma: 'I get up at 7, have breakfast and go to work'. A diferença principal é que em inglês usamos as preposições 'at' para horas ('at 7 o'clock'), 'in' para partes do dia ('in the morning') e 'on' para dias ('on Monday'). Também usamos advérbios de frequência como 'always', 'usually', 'sometimes' antes do verbo principal. Cuidado: em português brasileiro, às vezes usamos o presente contínuo para rotinas ('estou tomando café todos os dias'), mas em inglês isso é um erro.",
     "rule": "Para falar sobre rotinas: 1) Use o presente simples (I get up, she works). 2) Use expressões de tempo: 'at' + hora (at 8 am), 'in' + parte do dia (in the morning), 'on' + dia (on Friday). 3) Use advérbios de frequência antes do verbo (I always eat breakfast). 4) Para perguntar: 'What time do you get up?' (Que horas você se levanta?) ou 'When do you have lunch?' (Quando você almoça?).",
-    "concept_examples": {
-      "most_common_01": "I get up at 7 o'clock.",
-      "01_translation": "Eu acordo às 7 horas.",
-      "phonetic_01": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/",
-      "most_common_02": "She usually has breakfast at 8 am.",
-      "02_translation": "Ela normalmente toma café às 8 da manhã.",
-      "phonetic_02": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/",
-      "most_common_03": "We go to work at 9 in the morning.",
-      "03_translation": "Nós vamos ao trabalho às 9 da manhã.",
-      "phonetic_03": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/",
-      "most_common_04": "What time do you have dinner?",
-      "04_translation": "Que horas você janta?",
-      "phonetic_04": "/wɒt taɪm duː juː hæv ˈdɪnə/"
-    },
+    "concept_examples": [
+      {
+        "text": "I get up at 7 o'clock.",
+        "translation": "Eu acordo às 7 horas.",
+        "phonetic": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/"
+      },
+      {
+        "text": "She usually has breakfast at 8 am.",
+        "translation": "Ela normalmente toma café às 8 da manhã.",
+        "phonetic": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/"
+      },
+      {
+        "text": "We go to work at 9 in the morning.",
+        "translation": "Nós vamos ao trabalho às 9 da manhã.",
+        "phonetic": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "What time do you have dinner?",
+        "translation": "Que horas você janta?",
+        "phonetic": "/wɒt taɪm duː juː hæv ˈdɪnə/"
+      }
+    ],
     "common_error": {
       "wrong": "I am eating breakfast every morning.",
       "correct": "I eat breakfast every morning.",
@@ -230,7 +322,12 @@
         "label": "Daily actions",
         "translation": "Ações diárias",
         "examples": [
-          { "original": "I get up early.", "phonetic": "/aɪ ɡet ʌp ˈɜːli/", "translation": "Eu acordo cedo.", "note": "Verbo no presente simples para rotina." }
+          {
+            "original": "I get up early.",
+            "phonetic": "/aɪ ɡet ʌp ˈɜːli/",
+            "translation": "Eu acordo cedo.",
+            "note": "Verbo no presente simples para rotina."
+          }
         ]
       },
       {
@@ -238,7 +335,12 @@
         "label": "Time expressions",
         "translation": "Expressões de tempo",
         "examples": [
-          { "original": "I have lunch at 1 pm.", "phonetic": "/aɪ hæv lʌntʃ æt wʌn piː em/", "translation": "Eu almoço às 13h.", "note": "Usamos 'at' para horas específicas." }
+          {
+            "original": "I have lunch at 1 pm.",
+            "phonetic": "/aɪ hæv lʌntʃ æt wʌn piː em/",
+            "translation": "Eu almoço às 13h.",
+            "note": "Usamos 'at' para horas específicas."
+          }
         ]
       },
       {
@@ -246,7 +348,12 @@
         "label": "Frequency adverbs",
         "translation": "Advérbios de frequência",
         "examples": [
-          { "original": "She never drinks coffee.", "phonetic": "/ʃiː ˈnevə drɪŋks ˈkɒfi/", "translation": "Ela nunca bebe café.", "note": "O advérbio vem antes do verbo principal." }
+          {
+            "original": "She never drinks coffee.",
+            "phonetic": "/ʃiː ˈnevə drɪŋks ˈkɒfi/",
+            "translation": "Ela nunca bebe café.",
+            "note": "O advérbio vem antes do verbo principal."
+          }
         ]
       },
       {
@@ -254,7 +361,12 @@
         "label": "Questions about routines",
         "translation": "Perguntas sobre rotinas",
         "examples": [
-          { "original": "What time do you go to bed?", "phonetic": "/wɒt taɪm duː juː ɡəʊ tə bed/", "translation": "Que horas você vai dormir?", "note": "Pergunta com 'what time' + do/does." }
+          {
+            "original": "What time do you go to bed?",
+            "phonetic": "/wɒt taɪm duː juː ɡəʊ tə bed/",
+            "translation": "Que horas você vai dormir?",
+            "note": "Pergunta com 'what time' + do/does."
+          }
         ]
       }
     ],
@@ -270,20 +382,28 @@
     "title": "Express likes and dislikes (I like / I don't like)",
     "bridge": "Em português, para expressar gostos usamos o verbo 'gostar': 'Eu gosto de pizza'. Em inglês, usamos o verbo 'like' com a estrutura sujeito + like + objeto: 'I like pizza'. A diferença principal é que em português, o verbo 'gostar' exige a preposição 'de' (gosto DE pizza), enquanto em inglês 'like' é transitivo direto (não precisa de preposição). Também, para intensificar, em português dizemos 'Gosto muito de pizza' (advérbio depois do verbo), mas em inglês o advérbio 'very much' vai no final: 'I like pizza very much'.",
     "rule": "Para expressar gostos: 1) Afirmativo: I/you/we/they like + objeto (I like coffee). He/she/it likes + objeto (She likes coffee). 2) Negativo: I/you/we/they don't like (I don't like tea). He/she/it doesn't like (He doesn't like tea). 3) Interrogativo: Do you like...? (Você gosta de...?), Does she like...? (Ela gosta de...?). 4) Para intensificar: 'I like it very much' (Eu gosto muito disso) ou 'I really like it' (Eu gosto muito disso).",
-    "concept_examples": {
-      "most_common_01": "I like pizza.",
-      "01_translation": "Eu gosto de pizza.",
-      "phonetic_01": "/aɪ laɪk ˈpiːtsə/",
-      "most_common_02": "She likes reading.",
-      "02_translation": "Ela gosta de ler.",
-      "phonetic_02": "/ʃiː laɪks ˈriːdɪŋ/",
-      "most_common_03": "We don't like fast food.",
-      "03_translation": "Nós não gostamos de fast food.",
-      "phonetic_03": "/wiː dəʊnt laɪk fɑːst fuːd/",
-      "most_common_04": "Do you like music?",
-      "04_translation": "Você gosta de música?",
-      "phonetic_04": "/duː juː laɪk ˈmjuːzɪk/"
-    },
+    "concept_examples": [
+      {
+        "text": "I like pizza.",
+        "translation": "Eu gosto de pizza.",
+        "phonetic": "/aɪ laɪk ˈpiːtsə/"
+      },
+      {
+        "text": "She likes reading.",
+        "translation": "Ela gosta de ler.",
+        "phonetic": "/ʃiː laɪks ˈriːdɪŋ/"
+      },
+      {
+        "text": "We don't like fast food.",
+        "translation": "Nós não gostamos de fast food.",
+        "phonetic": "/wiː dəʊnt laɪk fɑːst fuːd/"
+      },
+      {
+        "text": "Do you like music?",
+        "translation": "Você gosta de música?",
+        "phonetic": "/duː juː laɪk ˈmjuːzɪk/"
+      }
+    ],
     "common_error": {
       "wrong": "I like very much pizza.",
       "correct": "I like pizza very much.",
@@ -296,7 +416,12 @@
         "label": "Affirmative with I/you/we/they",
         "translation": "Afirmativo com I/you/we/they",
         "examples": [
-          { "original": "I like chocolate.", "phonetic": "/aɪ laɪk ˈtʃɒkələt/", "translation": "Eu gosto de chocolate.", "note": "Verbo 'like' na forma base." }
+          {
+            "original": "I like chocolate.",
+            "phonetic": "/aɪ laɪk ˈtʃɒkələt/",
+            "translation": "Eu gosto de chocolate.",
+            "note": "Verbo 'like' na forma base."
+          }
         ]
       },
       {
@@ -304,7 +429,12 @@
         "label": "Affirmative with he/she/it",
         "translation": "Afirmativo com he/she/it",
         "examples": [
-          { "original": "He likes football.", "phonetic": "/hiː laɪks ˈfʊtbɔːl/", "translation": "Ele gosta de futebol.", "note": "Adicionamos -s na terceira pessoa." }
+          {
+            "original": "He likes football.",
+            "phonetic": "/hiː laɪks ˈfʊtbɔːl/",
+            "translation": "Ele gosta de futebol.",
+            "note": "Adicionamos -s na terceira pessoa."
+          }
         ]
       },
       {
@@ -312,7 +442,12 @@
         "label": "Negative with don't/doesn't",
         "translation": "Negativo com don't/doesn't",
         "examples": [
-          { "original": "She doesn't like coffee.", "phonetic": "/ʃiː ˈdʌznt laɪk ˈkɒfi/", "translation": "Ela não gosta de café.", "note": "Usamos 'doesn't' + verbo base." }
+          {
+            "original": "She doesn't like coffee.",
+            "phonetic": "/ʃiː ˈdʌznt laɪk ˈkɒfi/",
+            "translation": "Ela não gosta de café.",
+            "note": "Usamos 'doesn't' + verbo base."
+          }
         ]
       },
       {
@@ -320,7 +455,12 @@
         "label": "Questions with Do/Does",
         "translation": "Interrogativo com Do/Does",
         "examples": [
-          { "original": "Do you like dogs?", "phonetic": "/duː juː laɪk dɒɡz/", "translation": "Você gosta de cachorros?", "note": "Pergunta com 'do' + sujeito + verbo base." }
+          {
+            "original": "Do you like dogs?",
+            "phonetic": "/duː juː laɪk dɒɡz/",
+            "translation": "Você gosta de cachorros?",
+            "note": "Pergunta com 'do' + sujeito + verbo base."
+          }
         ]
       }
     ],
@@ -336,20 +476,28 @@
     "title": "Ask for and give prices",
     "bridge": "Em português, para perguntar o preço dizemos 'Quanto custa?' ou 'Quanto é?'. Em inglês, dizemos 'How much is it?' (singular) ou 'How much are they?' (plural). Também se usa 'How much does it cost?' (Quanto custa?). A diferença principal é que em inglês usamos o verbo 'to be' ou o verbo 'cost' com o auxiliar 'does' para perguntar. Para dar o preço, dizemos 'It is [número] reais/dólares' ou 'It costs [número]'. Em português, muitas vezes omitimos o sujeito, mas em inglês ele é obrigatório.",
     "rule": "Para perguntar o preço: 1) 'How much is it?' (para um objeto) ou 'How much are they?' (para vários). 2) 'How much does it cost?' (Quanto custa?). 3) 'How much is the T-shirt?' (Quanto custa a camiseta?). Para responder: 'It is 25 reais' ou 'It costs 25 reais'. Em perguntas, usamos sempre o verbo 'to be' ou o auxiliar 'does' + 'cost'.",
-    "concept_examples": {
-      "most_common_01": "How much is it?",
-      "01_translation": "Quanto custa?",
-      "phonetic_01": "/haʊ mʌtʃ ɪz ɪt/",
-      "most_common_02": "How much does it cost?",
-      "02_translation": "Quanto custa?",
-      "phonetic_02": "/haʊ mʌtʃ dʌz ɪt kɒst/",
-      "most_common_03": "It is 10 dollars.",
-      "03_translation": "São 10 dólares.",
-      "phonetic_03": "/ɪt ɪz ten ˈdɒləz/",
-      "most_common_04": "How much are these shoes?",
-      "04_translation": "Quanto custam estes sapatos?",
-      "phonetic_04": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
-    },
+    "concept_examples": [
+      {
+        "text": "How much is it?",
+        "translation": "Quanto custa?",
+        "phonetic": "/haʊ mʌtʃ ɪz ɪt/"
+      },
+      {
+        "text": "How much does it cost?",
+        "translation": "Quanto custa?",
+        "phonetic": "/haʊ mʌtʃ dʌz ɪt kɒst/"
+      },
+      {
+        "text": "It is 10 dollars.",
+        "translation": "São 10 dólares.",
+        "phonetic": "/ɪt ɪz ten ˈdɒləz/"
+      },
+      {
+        "text": "How much are these shoes?",
+        "translation": "Quanto custam estes sapatos?",
+        "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
+      }
+    ],
     "common_error": {
       "wrong": "How much cost it?",
       "correct": "How much does it cost?",
@@ -362,7 +510,12 @@
         "label": "Ask price with 'to be'",
         "translation": "Perguntar preço com 'to be'",
         "examples": [
-          { "original": "How much is the book?", "phonetic": "/haʊ mʌtʃ ɪz ðə bʊk/", "translation": "Quanto custa o livro?", "note": "Usamos 'to be' para perguntar o preço." }
+          {
+            "original": "How much is the book?",
+            "phonetic": "/haʊ mʌtʃ ɪz ðə bʊk/",
+            "translation": "Quanto custa o livro?",
+            "note": "Usamos 'to be' para perguntar o preço."
+          }
         ]
       },
       {
@@ -370,7 +523,12 @@
         "label": "Ask price with 'cost'",
         "translation": "Perguntar preço com 'cost'",
         "examples": [
-          { "original": "How much does the bag cost?", "phonetic": "/haʊ mʌtʃ dʌz ðə bæɡ kɒst/", "translation": "Quanto custa a bolsa?", "note": "Usamos 'does' + 'cost' para perguntar." }
+          {
+            "original": "How much does the bag cost?",
+            "phonetic": "/haʊ mʌtʃ dʌz ðə bæɡ kɒst/",
+            "translation": "Quanto custa a bolsa?",
+            "note": "Usamos 'does' + 'cost' para perguntar."
+          }
         ]
       },
       {
@@ -378,7 +536,12 @@
         "label": "Give price",
         "translation": "Dar o preço",
         "examples": [
-          { "original": "It costs 5 euros.", "phonetic": "/ɪt kɒsts faɪv ˈjʊərəʊz/", "translation": "Custa 5 euros.", "note": "Usamos 'costs' na terceira pessoa do singular." }
+          {
+            "original": "It costs 5 euros.",
+            "phonetic": "/ɪt kɒsts faɪv ˈjʊərəʊz/",
+            "translation": "Custa 5 euros.",
+            "note": "Usamos 'costs' na terceira pessoa do singular."
+          }
         ]
       },
       {
@@ -386,7 +549,12 @@
         "label": "Plural questions",
         "translation": "Perguntas no plural",
         "examples": [
-          { "original": "How much are these apples?", "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ˈæpəlz/", "translation": "Quanto custam estas maçãs?", "note": "Usamos 'are' para o plural." }
+          {
+            "original": "How much are these apples?",
+            "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ˈæpəlz/",
+            "translation": "Quanto custam estas maçãs?",
+            "note": "Usamos 'are' para o plural."
+          }
         ]
       }
     ],
@@ -402,20 +570,28 @@
     "title": "Indicate location of places",
     "bridge": "Em português, para indicar a localização de um lugar, dizemos 'Fica na rua...', 'É ao lado do banco', 'É perto da estação'. Em inglês, usamos preposições de lugar como 'on', 'in', 'at', 'next to', 'near', 'opposite', 'behind', 'in front of'. A dificuldade para os falantes de português é que usamos 'em' ou 'na' para quase tudo, enquanto em inglês a escolha da preposição depende do contexto. Lembre-se também de que para localização usamos o verbo 'to be' (It is...). Em português, muitas vezes omitimos o sujeito ('É na esquina'), mas em inglês ele é obrigatório ('It is on the corner').",
     "rule": "Para indicar localização: 1) Use o verbo 'to be' (The bank is...). 2) Preposições de lugar: 'on' (em, sobre uma rua), 'in' (dentro de um espaço), 'at' (em um ponto específico), 'next to' (ao lado de), 'near' (perto de), 'opposite' (em frente a), 'behind' (atrás de), 'in front of' (na frente de). 3) Para perguntar: 'Where is the...?' (Onde fica...?) ou 'Is there a... near here?' (Tem um... perto daqui?).",
-    "concept_examples": {
-      "most_common_01": "The supermarket is near the park.",
-      "01_translation": "O supermercado fica perto do parque.",
-      "phonetic_01": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/",
-      "most_common_02": "The school is next to the church.",
-      "02_translation": "A escola fica ao lado da igreja.",
-      "phonetic_02": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/",
-      "most_common_03": "The pharmacy is on Main Street.",
-      "03_translation": "A farmácia fica na Rua Principal.",
-      "phonetic_03": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/",
-      "most_common_04": "Where is the bus station?",
-      "04_translation": "Onde fica a rodoviária?",
-      "phonetic_04": "/weə ɪz ðə bʌs ˈsteɪʃən/"
-    },
+    "concept_examples": [
+      {
+        "text": "The supermarket is near the park.",
+        "translation": "O supermercado fica perto do parque.",
+        "phonetic": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/"
+      },
+      {
+        "text": "The school is next to the church.",
+        "translation": "A escola fica ao lado da igreja.",
+        "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/"
+      },
+      {
+        "text": "The pharmacy is on Main Street.",
+        "translation": "A farmácia fica na Rua Principal.",
+        "phonetic": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/"
+      },
+      {
+        "text": "Where is the bus station?",
+        "translation": "Onde fica a rodoviária?",
+        "phonetic": "/weə ɪz ðə bʌs ˈsteɪʃən/"
+      }
+    ],
     "common_error": {
       "wrong": "Is in the corner.",
       "correct": "It is in the corner.",
@@ -428,7 +604,12 @@
         "label": "Basic location with 'in'",
         "translation": "Localização básica com 'in'",
         "examples": [
-          { "original": "The cat is in the garden.", "phonetic": "/ðə kæt ɪz ɪn ðə ˈɡɑːdən/", "translation": "O gato está no jardim.", "note": "Usamos 'in' para espaços fechados." }
+          {
+            "original": "The cat is in the garden.",
+            "phonetic": "/ðə kæt ɪz ɪn ðə ˈɡɑːdən/",
+            "translation": "O gato está no jardim.",
+            "note": "Usamos 'in' para espaços fechados."
+          }
         ]
       },
       {
@@ -436,7 +617,12 @@
         "label": "Location with 'next to'",
         "translation": "Localização com 'next to'",
         "examples": [
-          { "original": "The restaurant is next to the hotel.", "phonetic": "/ðə ˈrestrɒnt ɪz nekst tə ðə həʊˈtel/", "translation": "O restaurante fica ao lado do hotel.", "note": "Usamos 'next to' para proximidade lateral." }
+          {
+            "original": "The restaurant is next to the hotel.",
+            "phonetic": "/ðə ˈrestrɒnt ɪz nekst tə ðə həʊˈtel/",
+            "translation": "O restaurante fica ao lado do hotel.",
+            "note": "Usamos 'next to' para proximidade lateral."
+          }
         ]
       },
       {
@@ -444,7 +630,12 @@
         "label": "Location with 'near' and 'opposite'",
         "translation": "Localização com 'near' e 'opposite'",
         "examples": [
-          { "original": "The bank is opposite the park.", "phonetic": "/ðə bæŋk ɪz ˈɒpəzɪt ðə pɑːk/", "translation": "O banco fica em frente ao parque.", "note": "Usamos 'opposite' para indicar posição em frente." }
+          {
+            "original": "The bank is opposite the park.",
+            "phonetic": "/ðə bæŋk ɪz ˈɒpəzɪt ðə pɑːk/",
+            "translation": "O banco fica em frente ao parque.",
+            "note": "Usamos 'opposite' para indicar posição em frente."
+          }
         ]
       },
       {
@@ -452,7 +643,12 @@
         "label": "Question with Where",
         "translation": "Pergunta com Where",
         "examples": [
-          { "original": "Where is the police station?", "phonetic": "/weə ɪz ðə pəˈliːs ˈsteɪʃən/", "translation": "Onde fica a delegacia de polícia?", "note": "Pergunta direta com 'Where'." }
+          {
+            "original": "Where is the police station?",
+            "phonetic": "/weə ɪz ðə pəˈliːs ˈsteɪʃən/",
+            "translation": "Onde fica a delegacia de polícia?",
+            "note": "Pergunta direta com 'Where'."
+          }
         ]
       }
     ],

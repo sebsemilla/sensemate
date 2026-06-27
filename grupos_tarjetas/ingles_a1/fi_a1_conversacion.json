@@ -1,0 +1,473 @@
+[
+  {
+    "id": "fi_A1_conv_01",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Meeting a new neighbor",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "be", "form": "am/is/are", "meaning": "olla" },
+        { "verb": "live", "form": "live/lives", "meaning": "asua" },
+        { "verb": "move", "form": "move/moves", "meaning": "muuttaa" },
+        { "verb": "meet", "form": "meet/meets", "meaning": "tavata" },
+        { "verb": "work", "form": "work/works", "meaning": "työskennellä" },
+        { "verb": "study", "form": "study/studies", "meaning": "opiskella" },
+        { "verb": "have", "form": "have/has", "meaning": "olla (omistaa)" },
+        { "verb": "do", "form": "do/does", "meaning": "tehdä (apuverbi)" },
+        { "verb": "come", "form": "come/comes", "meaning": "tulla" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Anna",
+          "text": "Hello! Are you the new neighbor?",
+          "translation": "Hei! Oletko sinä uusi naapuri?",
+          "note": "Tervehdys ja kysymys identiteetistä."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Yes, I am. My name is Tom.",
+          "translation": "Kyllä, olen. Nimeni on Tom.",
+          "note": "Vahvistus ja esittäytyminen."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Nice to meet you, Tom. I'm Anna.",
+          "translation": "Hauska tavata, Tom. Olen Anna.",
+          "note": "Kohtelias vastaus ja oma esittäytyminen."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Nice to meet you too. Do you live here with your family?",
+          "translation": "Hauska tavata sinutkin. Asutko täällä perheesi kanssa?",
+          "note": "Kysymys perhetilanteesta."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Yes, I live with my husband and my daughter.",
+          "translation": "Kyllä, asun mieheni ja tyttäreni kanssa.",
+          "note": "Vastaus perheen yksityiskohdilla."
+        },
+        {
+          "speaker": "Tom",
+          "text": "That's great. I work at the hospital. What about you?",
+          "translation": "Sepä hienoa. Työskentelen sairaalassa. Entä sinä?",
+          "note": "Kommentti ja kysymys ammatista."
+        },
+        {
+          "speaker": "Anna",
+          "text": "I study English at the university.",
+          "translation": "Opiskelen englantia yliopistossa.",
+          "note": "Tietoa opinnoista."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Wonderful! Well, I have to go now. See you later!",
+          "translation": "Ihanaa! No, minun täytyy mennä nyt. Nähdään myöhemmin!",
+          "note": "Kohtelias hyvästely."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Goodbye, Tom.",
+          "translation": "Näkemiin, Tom.",
+          "note": "Lopullinen hyvästely."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fi_A1_conv_02",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Ordering breakfast at a café",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "like", "form": "like/likes", "meaning": "pitää (jostakin)" },
+        { "verb": "want", "form": "want/wants", "meaning": "haluta" },
+        { "verb": "have", "form": "have/has", "meaning": "ottaa / saada" },
+        { "verb": "take", "form": "take/takes", "meaning": "ottaa" },
+        { "verb": "drink", "form": "drink/drinks", "meaning": "juoda" },
+        { "verb": "eat", "form": "eat/eats", "meaning": "syödä" },
+        { "verb": "pay", "form": "pay/pays", "meaning": "maksaa" },
+        { "verb": "come", "form": "come/comes", "meaning": "tulla" },
+        { "verb": "bring", "form": "bring/brings", "meaning": "tuoda" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Waiter",
+          "text": "Good morning. What do you want to eat?",
+          "translation": "Hyvää huomenta. Mitä haluat syödä?",
+          "note": "Tervehdys ja tarjoilijan aloittava kysymys."
+        },
+        {
+          "speaker": "Client",
+          "text": "I'd like a sandwich, please.",
+          "translation": "Haluaisin voileivän, kiitos.",
+          "note": "Kohtelias tilaus ilmaisulla 'I'd like'."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Do you want cheese or ham?",
+          "translation": "Haluatko juustoa vai kinkkua?",
+          "note": "Kysymys voileivän tyypin valitsemiseksi."
+        },
+        {
+          "speaker": "Client",
+          "text": "Ham, please. And I want a glass of orange juice.",
+          "translation": "Kinkkua, kiitos. Ja haluan lasillisen appelsiinimehua.",
+          "note": "Valinta ja juomatilaus."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Anything else? Coffee or tea?",
+          "translation": "Muuta? Kahvia vai teetä?",
+          "note": "Lisätarjous."
+        },
+        {
+          "speaker": "Client",
+          "text": "Yes, I'd like a cup of coffee with milk.",
+          "translation": "Kyllä, haluaisin kupillisen kahvia maidolla.",
+          "note": "Kahvitilaus maidolla."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "That's a sandwich, orange juice and coffee. Is that correct?",
+          "translation": "Eli voileipä, appelsiinimehu ja kahvi. Onko se oikein?",
+          "note": "Tilauksen vahvistus."
+        },
+        {
+          "speaker": "Client",
+          "text": "Yes, perfect. How much is it?",
+          "translation": "Kyllä, täydellistä. Paljonko se maksaa?",
+          "note": "Kysymys hinnasta."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "It's 9 dollars. You can pay at the counter.",
+          "translation": "Se on 9 dollaria. Voit maksaa kassalla.",
+          "note": "Hinta ja ohje maksamisesta."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fi_A1_conv_03",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "A rainy day at home",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "rain", "form": "rain/rains", "meaning": "sataa (vettä)" },
+        { "verb": "stay", "form": "stay/stays", "meaning": "jäädä" },
+        { "verb": "watch", "form": "watch/watches", "meaning": "katsoa (TV:tä)" },
+        { "verb": "read", "form": "read/reads", "meaning": "lukea" },
+        { "verb": "drink", "form": "drink/drinks", "meaning": "juoda" },
+        { "verb": "play", "form": "play/plays", "meaning": "leikkiä" },
+        { "verb": "cook", "form": "cook/cooks", "meaning": "laittaa ruokaa" },
+        { "verb": "clean", "form": "clean/cleans", "meaning": "siivota" },
+        { "verb": "sleep", "form": "sleep/sleeps", "meaning": "nukkua" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mom",
+          "text": "It's raining outside. What do you want to do today?",
+          "translation": "Ulkona sataa. Mitä haluat tehdä tänään?",
+          "note": "Kommentti säästä ja kysymys suunnitelmista."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "I want to watch a movie in the living room.",
+          "translation": "Haluan katsoa elokuvan olohuoneessa.",
+          "note": "Ehdotus aktiviteetiksi."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Good idea. And I want to read my new book.",
+          "translation": "Hyvä idea. Ja haluan lukea uuden kirjani.",
+          "note": "Hyväksyntä ja äidin suunnitelma."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "Can I have some hot chocolate?",
+          "translation": "Voinko saada vähän kaakaota?",
+          "note": "Lupakysymys ilmaisulla 'can'."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Yes, I can prepare it for you.",
+          "translation": "Kyllä, voin valmistaa sitä sinulle.",
+          "note": "Lupa ja palvelutarjous."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "And later, can I play with my toys?",
+          "translation": "Ja myöhemmin, voinko leikkiä leluillani?",
+          "note": "Toinen pyyntö ilmaisulla 'can'."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Sure. But first, let's clean the bedroom together.",
+          "translation": "Tietenkin. Mutta ensin, siivotaan makuuhuone yhdessä.",
+          "note": "Hyväksyntä ehdolla (ilmaisun 'let's' käyttö)."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "OK, Mom. After that, maybe I take a nap.",
+          "translation": "Okei, äiti. Sen jälkeen otan ehkä päiväunet.",
+          "note": "Sopimus ja myöhempi suunnitelma."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fi_A1_conv_04",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Buying a T-shirt at the store",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "buy", "form": "buy/buys", "meaning": "ostaa" },
+        { "verb": "want", "form": "want/wants", "meaning": "haluta" },
+        { "verb": "need", "form": "need/needs", "meaning": "tarvita" },
+        { "verb": "have", "form": "have/has", "meaning": "olla (omistaa)" },
+        { "verb": "see", "form": "see/sees", "meaning": "nähdä" },
+        { "verb": "try", "form": "try/tries", "meaning": "kokeilla (vaatteita)" },
+        { "verb": "fit", "form": "fit/fits", "meaning": "sopia (koko)" },
+        { "verb": "like", "form": "like/likes", "meaning": "pitää (jostakin)" },
+        { "verb": "cost", "form": "cost/costs", "meaning": "maksaa" },
+        { "verb": "take", "form": "take/takes", "meaning": "ottaa / ostaa" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Salesperson",
+          "text": "Hello. Can I help you?",
+          "translation": "Hei. Voinko auttaa sinua?",
+          "note": "Tervehdys ja avuntarjous."
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I want to buy a T-shirt.",
+          "translation": "Kyllä, haluan ostaa T-paidan.",
+          "note": "Ostoaikeen ilmaisu."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "What color do you like?",
+          "translation": "Mistä väristä pidät?",
+          "note": "Kysymys värimieltymyksestä."
+        },
+        {
+          "speaker": "Customer",
+          "text": "I like blue and black. Do you have a blue one?",
+          "translation": "Pidän sinisestä ja mustasta. Onko teillä sinistä?",
+          "note": "Vastaus ja kysymys saatavuudesta."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Yes, we do. What size do you need?",
+          "translation": "Kyllä, on. Minkä koon tarvitset?",
+          "note": "Vahvistus ja kysymys koosta."
+        },
+        {
+          "speaker": "Customer",
+          "text": "I think I need a large size. Can I try it on?",
+          "translation": "Luulen tarvitsevani ison koon. Voinko kokeilla sitä?",
+          "note": "Pyyntö vaatteen kokeilemiseksi."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Of course. The fitting room is over there.",
+          "translation": "Tietenkin. Sovituskoppi on tuolla.",
+          "note": "Lupa ja ohje paikasta."
+        },
+        {
+          "speaker": "Customer",
+          "text": "It fits perfectly! I like it very much. How much does it cost?",
+          "translation": "Se sopii täydellisesti! Pidän siitä todella paljon. Paljonko se maksaa?",
+          "note": "Positiivinen kommentti ja kysymys hinnasta."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "It costs 25 dollars. Do you want to take it?",
+          "translation": "Se maksaa 25 dollaria. Haluatko ottaa sen?",
+          "note": "Hinta ja ostotarjous."
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I'll take it.",
+          "translation": "Kyllä, otan sen.",
+          "note": "Ostopäätös."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fi_A1_conv_05",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Asking for directions to the bank",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "go", "form": "go/goes", "meaning": "mennä" },
+        { "verb": "walk", "form": "walk/walks", "meaning": "kävellä" },
+        { "verb": "turn", "form": "turn/turns", "meaning": "kääntyä" },
+        { "verb": "cross", "form": "cross/crosses", "meaning": "ylittää" },
+        { "verb": "find", "form": "find/finds", "meaning": "löytää" },
+        { "verb": "need", "form": "need/needs", "meaning": "tarvita" },
+        { "verb": "see", "form": "see/sees", "meaning": "nähdä" },
+        { "verb": "get", "form": "get/gets", "meaning": "saada / päästä" },
+        { "verb": "take", "form": "take/takes", "meaning": "ottaa (kulkuväline)" },
+        { "verb": "thank", "form": "thank/thanks", "meaning": "kiittää" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me. I need to go to the bank. Where is it?",
+          "translation": "Anteeksi. Minun täytyy mennä pankkiin. Missä se on?",
+          "note": "Kysymys reittiohjeista."
+        },
+        {
+          "speaker": "Local",
+          "text": "The bank is near the park. Go straight down this street.",
+          "translation": "Pankki on lähellä puistoa. Mene suoraan tätä katua.",
+          "note": "Ohje suunnasta."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "OK, go straight. Then?",
+          "translation": "OK, menen suoraan. Sitten?",
+          "note": "Vahvistus ja pyyntö jatkosta."
+        },
+        {
+          "speaker": "Local",
+          "text": "Walk for two blocks and turn right at the cinema.",
+          "translation": "Kävele kaksi korttelia ja käänny oikealle elokuvateatterin kohdalla.",
+          "note": "Yksityiskohtaiset ohjeet."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Turn right at the cinema. Is it far?",
+          "translation": "Kääntyä oikealle elokuvateatterin kohdalla. Onko se kaukana?",
+          "note": "Toisto ja kysymys etäisyydestä."
+        },
+        {
+          "speaker": "Local",
+          "text": "No, it's not far. Cross the street and you'll see the bank in front of you.",
+          "translation": "Ei, se ei ole kaukana. Ylitä katu ja näet pankin edessäsi.",
+          "note": "Tarkennus etäisyydestä ja viimeinen ohje."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Great. And is there a bus stop near there?",
+          "translation": "Mahtavaa. Ja onko siellä lähellä bussipysäkkiä?",
+          "note": "Lisäkysymys julkisesta liikenteestä."
+        },
+        {
+          "speaker": "Local",
+          "text": "Yes, there is a bus stop next to the bank. You can take bus number 5.",
+          "translation": "Kyllä, pankin vieressä on bussipysäkki. Voit ottaa bussin numero 5.",
+          "note": "Lisätieto."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Thank you very much for your help.",
+          "translation": "Kiitos paljon avustasi.",
+          "note": "Kiitos."
+        },
+        {
+          "speaker": "Local",
+          "text": "You're welcome.",
+          "translation": "Ole hyvä.",
+          "note": "Kohtelias vastaus kiitokseen."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fi_A1_conv_06",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Describing a family photo",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "have", "form": "have/has", "meaning": "olla (omistaa)" },
+        { "verb": "be", "form": "am/is/are", "meaning": "olla" },
+        { "verb": "sit", "form": "sit/sits", "meaning": "istua" },
+        { "verb": "stand", "form": "stand/stands", "meaning": "seistä" },
+        { "verb": "wear", "form": "wear/wears", "meaning": "pitää yllään" },
+        { "verb": "look", "form": "look/looks", "meaning": "näyttää / katsoa" },
+        { "verb": "smile", "form": "smile/smiles", "meaning": "hymyillä" },
+        { "verb": "love", "form": "love/loves", "meaning": "rakastaa" },
+        { "verb": "live", "form": "live/lives", "meaning": "asua" },
+        { "verb": "see", "form": "see/sees", "meaning": "nähdä" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Lucy",
+          "text": "Look! This is a photo of my family.",
+          "translation": "Katso! Tämä on valokuva perheestäni.",
+          "note": "Kuvan esittely."
+        },
+        {
+          "speaker": "Peter",
+          "text": "Wow! Who is the man next to you?",
+          "translation": "Vau! Kuka on mies vieressäsi?",
+          "note": "Kysymys perheenjäsenestä."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "That is my father. He is tall and has brown hair.",
+          "translation": "Se on isäni. Hän on pitkä ja hänellä on ruskeat hiukset.",
+          "note": "Isän fyysinen kuvaus."
+        },
+        {
+          "speaker": "Peter",
+          "text": "And the woman with the glasses?",
+          "translation": "Ja nainen, jolla on silmälasit?",
+          "note": "Kysymys toisesta henkilöstä."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "That's my mother. She is a teacher. She is wearing a blue dress.",
+          "translation": "Se on äitini. Hän on opettaja. Hänellä on yllään sininen mekko.",
+          "note": "Äidin kuvaus ja ammatti."
+        },
+        {
+          "speaker": "Peter",
+          "text": "They look very happy. Is that your brother?",
+          "translation": "He näyttävät erittäin onnellisilta. Onko se veljesi?",
+          "note": "Kommentti ja kysymys toisesta henkilöstä."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "Yes, he is my brother. He is sitting on the sofa. He is 10 years old.",
+          "translation": "Kyllä, hän on veljeni. Hän istuu sohvalla. Hän on 10-vuotias.",
+          "note": "Veljen tunnistaminen ja kuvaus."
+        },
+        {
+          "speaker": "Peter",
+          "text": "And where are you in the photo?",
+          "translation": "Ja missä sinä olet kuvassa?",
+          "note": "Kysymys Lucyn sijainnista."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "I am standing behind my parents. I smile a lot!",
+          "translation": "Seison vanhempieni takana. Hymyilen paljon!",
+          "note": "Oman sijainnin ja asenteen kuvaus."
+        },
+        {
+          "speaker": "Peter",
+          "text": "You have a nice family. Do you all live together?",
+          "translation": "Sinulla on mukava perhe. Asutteko kaikki yhdessä?",
+          "note": "Kommentti ja kysymys perhetilanteesta."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "Yes, we live in a big house near the beach. I love them.",
+          "translation": "Kyllä, asumme isossa talossa lähellä rantaa. Rakastan heitä.",
+          "note": "Lisätieto ja rakkauden ilmaus."
+        }
+      ]
+    }
+  }
+]

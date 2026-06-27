@@ -6,20 +6,28 @@
     "title": "Greet and introduce yourself",
     "bridge": "In het Nederlands zeggen we 'Hallo' of 'Goedemorgen' en 'Ik heet...' of 'Ik ben...'. In het Engels is het vergelijkbaar: 'Hello', 'Hi', 'Good morning' en 'My name is...' of 'I am...'. Het verschil: in het Nederlands zeggen we 'Ik heet...' (letterlijk 'I am called'), maar in het Engels is de gebruikelijke vorm 'My name is...' of 'I am...'. 'I am called' is correct maar klinkt heel formeel. Nederlanders zeggen vaak 'I call myself' omdat ze 'ik heet' letterlijk vertalen – dat is fout.",
     "rule": "Om te begroeten: 'Hello' (Hallo), 'Hi' (informeler), 'Good morning' (Goedemorgen), 'Good afternoon' (Goedemiddag), 'Good evening' (Goedenavond). Om je voor te stellen: 'My name is...' (Ik heet...) of 'I am...' (Ik ben...). Om te vragen: 'What is your name?' (Hoe heet je?). Antwoord op een begroeting: 'Nice to meet you' (Aangenaam) – antwoord: 'Nice to meet you too'. Om afscheid te nemen: 'Goodbye', 'Bye', 'See you later'.",
-    "concept_examples": {
-      "most_common_01": "Hello, my name is Maria.",
-      "01_translation": "Hallo, ik heet Maria.",
-      "phonetic_01": "/həˈləʊ maɪ neɪm ɪz məˈriːə/",
-      "most_common_02": "Good morning, I am Peter.",
-      "02_translation": "Goedemorgen, ik ben Peter.",
-      "phonetic_02": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/",
-      "most_common_03": "Nice to meet you.",
-      "03_translation": "Aangenaam.",
-      "phonetic_03": "/naɪs tə miːt juː/",
-      "most_common_04": "What is your name?",
-      "04_translation": "Hoe heet je?",
-      "phonetic_04": "/wɒt ɪz jɔː neɪm/"
-    },
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Maria.",
+        "translation": "Hallo, ik heet Maria.",
+        "phonetic": "/həˈləʊ maɪ neɪm ɪz məˈriːə/"
+      },
+      {
+        "text": "Good morning, I am Peter.",
+        "translation": "Goedemorgen, ik ben Peter.",
+        "phonetic": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Aangenaam.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "What is your name?",
+        "translation": "Hoe heet je?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
     "common_error": {
       "wrong": "I call myself Anna.",
       "correct": "My name is Anna.",
@@ -32,7 +40,12 @@
         "label": "Basic greeting",
         "translation": "Eenvoudige begroeting",
         "examples": [
-          { "original": "Hello!", "phonetic": "/həˈləʊ/", "translation": "Hallo!", "note": "Standaard begroeting." }
+          {
+            "original": "Hello!",
+            "phonetic": "/həˈləʊ/",
+            "translation": "Hallo!",
+            "note": "Standaard begroeting."
+          }
         ]
       },
       {
@@ -40,7 +53,12 @@
         "label": "Introduce yourself",
         "translation": "Jezelf voorstellen",
         "examples": [
-          { "original": "My name is John.", "phonetic": "/maɪ neɪm ɪz dʒɒn/", "translation": "Ik heet John.", "note": "Gebruikelijke vorm om je naam te zeggen." }
+          {
+            "original": "My name is John.",
+            "phonetic": "/maɪ neɪm ɪz dʒɒn/",
+            "translation": "Ik heet John.",
+            "note": "Gebruikelijke vorm om je naam te zeggen."
+          }
         ]
       },
       {
@@ -48,7 +66,12 @@
         "label": "Ask someone's name",
         "translation": "Naar iemands naam vragen",
         "examples": [
-          { "original": "What is your name?", "phonetic": "/wɒt ɪz jɔː neɪm/", "translation": "Hoe heet je?", "note": "Directe vraag naar de naam." }
+          {
+            "original": "What is your name?",
+            "phonetic": "/wɒt ɪz jɔː neɪm/",
+            "translation": "Hoe heet je?",
+            "note": "Directe vraag naar de naam."
+          }
         ]
       },
       {
@@ -56,7 +79,12 @@
         "label": "Farewell",
         "translation": "Afscheid",
         "examples": [
-          { "original": "See you tomorrow!", "phonetic": "/siː juː təˈmɒrəʊ/", "translation": "Tot morgen!", "note": "Informeel afscheid." }
+          {
+            "original": "See you tomorrow!",
+            "phonetic": "/siː juː təˈmɒrəʊ/",
+            "translation": "Tot morgen!",
+            "note": "Informeel afscheid."
+          }
         ]
       }
     ],
@@ -72,20 +100,28 @@
     "title": "Give personal information (age, nationality, profession)",
     "bridge": "In het Nederlands zeggen we 'Ik ben 25 jaar' – dat is precies zoals in het Engels 'I am 25 years old'. Goed nieuws! Bij nationaliteit zeggen we 'Ik ben Nederlands' – in het Engels 'I am Dutch' (zonder lidwoord). Bij beroepen zeggen we 'Ik ben leraar' – in het Engels moet het lidwoord erbij: 'I am a teacher'. Nederlanders vergeten vaak het lidwoord bij beroepen, omdat we dat in het Nederlands niet doen. Let ook op: in het Nederlands zeggen we 'Ik ben 20 jaar', maar in het Engels moet 'old' erbij: 'I am 20 years old'.",
     "rule": "Voor leeftijd: 'I am [getal] years old' (bv. I am 25 years old). Voor nationaliteit: 'I am [nationaliteit]' (bv. I am Dutch, I am Mexican). Voor beroep: 'I am a/an [beroep]' (bv. I am a doctor, I am an engineer). Om te vragen: 'How old are you?' (Hoe oud ben je?), 'Where are you from?' (Waar kom je vandaan?), 'What do you do?' (Wat doe je voor werk?) of 'What is your job?'.",
-    "concept_examples": {
-      "most_common_01": "I am 25 years old.",
-      "01_translation": "Ik ben 25 jaar.",
-      "phonetic_01": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/",
-      "most_common_02": "I am Dutch.",
-      "02_translation": "Ik ben Nederlands.",
-      "phonetic_02": "/aɪ æm dʌtʃ/",
-      "most_common_03": "I am a teacher.",
-      "03_translation": "Ik ben een leraar.",
-      "phonetic_03": "/aɪ æm ə ˈtiːtʃə/",
-      "most_common_04": "How old are you?",
-      "04_translation": "Hoe oud ben je?",
-      "phonetic_04": "/haʊ əʊld ɑːr juː/"
-    },
+    "concept_examples": [
+      {
+        "text": "I am 25 years old.",
+        "translation": "Ik ben 25 jaar.",
+        "phonetic": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/"
+      },
+      {
+        "text": "I am Dutch.",
+        "translation": "Ik ben Nederlands.",
+        "phonetic": "/aɪ æm dʌtʃ/"
+      },
+      {
+        "text": "I am a teacher.",
+        "translation": "Ik ben een leraar.",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "How old are you?",
+        "translation": "Hoe oud ben je?",
+        "phonetic": "/haʊ əʊld ɑːr juː/"
+      }
+    ],
     "common_error": {
       "wrong": "I am 20 years.",
       "correct": "I am 20 years old.",
@@ -98,7 +134,12 @@
         "label": "Age",
         "translation": "Leeftijd",
         "examples": [
-          { "original": "I am 30 years old.", "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/", "translation": "Ik ben 30 jaar.", "note": "Gebruik 'to be' voor leeftijd." }
+          {
+            "original": "I am 30 years old.",
+            "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/",
+            "translation": "Ik ben 30 jaar.",
+            "note": "Gebruik 'to be' voor leeftijd."
+          }
         ]
       },
       {
@@ -106,7 +147,12 @@
         "label": "Nationality",
         "translation": "Nationaliteit",
         "examples": [
-          { "original": "I am Mexican.", "phonetic": "/aɪ æm ˈmeksɪkən/", "translation": "Ik ben Mexicaans.", "note": "Zonder lidwoord voor nationaliteit." }
+          {
+            "original": "I am Mexican.",
+            "phonetic": "/aɪ æm ˈmeksɪkən/",
+            "translation": "Ik ben Mexicaans.",
+            "note": "Zonder lidwoord voor nationaliteit."
+          }
         ]
       },
       {
@@ -114,7 +160,12 @@
         "label": "Profession",
         "translation": "Beroep",
         "examples": [
-          { "original": "She is a nurse.", "phonetic": "/ʃiː ɪz ə nɜːs/", "translation": "Zij is een verpleegkundige.", "note": "Met lidwoord 'a' of 'an' voor beroepen." }
+          {
+            "original": "She is a nurse.",
+            "phonetic": "/ʃiː ɪz ə nɜːs/",
+            "translation": "Zij is een verpleegkundige.",
+            "note": "Met lidwoord 'a' of 'an' voor beroepen."
+          }
         ]
       },
       {
@@ -122,7 +173,12 @@
         "label": "Questions",
         "translation": "Vragen",
         "examples": [
-          { "original": "Where are you from?", "phonetic": "/weə ɑːr juː frɒm/", "translation": "Waar kom je vandaan?", "note": "Vraag naar herkomst." }
+          {
+            "original": "Where are you from?",
+            "phonetic": "/weə ɑːr juː frɒm/",
+            "translation": "Waar kom je vandaan?",
+            "note": "Vraag naar herkomst."
+          }
         ]
       }
     ],
@@ -138,20 +194,28 @@
     "title": "Describe objects and people (basic)",
     "bridge": "In het Nederlands staat het bijvoeglijk naamwoord VOOR het zelfstandig naamwoord: 'een rode auto', 'een lange man'. In het Engels is dat precies hetzelfde: 'a red car', 'a tall man'. Geen probleem dus! Ook het gebruik van 'to be' voor toestanden (She is tall) en 'have got' voor kenmerken (She has got blue eyes) is in het Nederlands vergelijkbaar ('Ze is lang', 'Ze heeft blauwe ogen'). Nederlanders maken hier geen fouten, behalve dat ze soms 'have' in plaats van 'have got' gebruiken – maar dat is in het Engels ook correct.",
     "rule": "Om te beschrijven: 1) Bijvoeglijk naamwoord + zelfstandig naamwoord (a big house). 2) Onderwerp + 'to be' + bijvoeglijk naamwoord (The house is big). 3) Onderwerp + 'have/has got' + kenmerk (She has got long hair). Veelvoorkomende bijvoeglijke naamwoorden: big (groot), small (klein), tall (lang – persoon), short (klein – persoon / kort), beautiful (mooi), old (oud), young (jong), fast (snel), slow (langzaam).",
-    "concept_examples": {
-      "most_common_01": "This is a big house.",
-      "01_translation": "Dit is een groot huis.",
-      "phonetic_01": "/ðɪs ɪz ə bɪɡ haʊs/",
-      "most_common_02": "She is tall and thin.",
-      "02_translation": "Ze is lang en dun.",
-      "phonetic_02": "/ʃiː ɪz tɔːl ænd θɪn/",
-      "most_common_03": "He has got blue eyes.",
-      "03_translation": "Hij heeft blauwe ogen.",
-      "phonetic_03": "/hiː hæz ɡɒt bluː aɪz/",
-      "most_common_04": "The car is red.",
-      "04_translation": "De auto is rood.",
-      "phonetic_04": "/ðə kɑːr ɪz red/"
-    },
+    "concept_examples": [
+      {
+        "text": "This is a big house.",
+        "translation": "Dit is een groot huis.",
+        "phonetic": "/ðɪs ɪz ə bɪɡ haʊs/"
+      },
+      {
+        "text": "She is tall and thin.",
+        "translation": "Ze is lang en dun.",
+        "phonetic": "/ʃiː ɪz tɔːl ænd θɪn/"
+      },
+      {
+        "text": "He has got blue eyes.",
+        "translation": "Hij heeft blauwe ogen.",
+        "phonetic": "/hiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "De auto is rood.",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      }
+    ],
     "common_error": {
       "wrong": "a car red",
       "correct": "a red car",
@@ -164,7 +228,12 @@
         "label": "Adjective + noun",
         "translation": "Bijvoeglijk naamwoord + zelfstandig naamwoord",
         "examples": [
-          { "original": "a small dog", "phonetic": "/ə smɔːl dɒɡ/", "translation": "een kleine hond", "note": "Het bijvoeglijk naamwoord staat voor het zelfstandig naamwoord." }
+          {
+            "original": "a small dog",
+            "phonetic": "/ə smɔːl dɒɡ/",
+            "translation": "een kleine hond",
+            "note": "Het bijvoeglijk naamwoord staat voor het zelfstandig naamwoord."
+          }
         ]
       },
       {
@@ -172,7 +241,12 @@
         "label": "Subject + to be + adjective",
         "translation": "Onderwerp + to be + bijvoeglijk naamwoord",
         "examples": [
-          { "original": "The book is interesting.", "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/", "translation": "Het boek is interessant.", "note": "Gebruik 'to be' voor algemene beschrijvingen." }
+          {
+            "original": "The book is interesting.",
+            "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/",
+            "translation": "Het boek is interessant.",
+            "note": "Gebruik 'to be' voor algemene beschrijvingen."
+          }
         ]
       },
       {
@@ -180,7 +254,12 @@
         "label": "have/has got for features",
         "translation": "have/has got voor kenmerken",
         "examples": [
-          { "original": "She has got curly hair.", "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/", "translation": "Ze heeft krullend haar.", "note": "Gebruik 'have got' voor fysieke kenmerken." }
+          {
+            "original": "She has got curly hair.",
+            "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/",
+            "translation": "Ze heeft krullend haar.",
+            "note": "Gebruik 'have got' voor fysieke kenmerken."
+          }
         ]
       },
       {
@@ -188,7 +267,12 @@
         "label": "Combined description",
         "translation": "Gecombineerde beschrijving",
         "examples": [
-          { "original": "My brother is young and he has got green eyes.", "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/", "translation": "Mijn broer is jong en heeft groene ogen.", "note": "Combinatie van 'to be' en 'have got'." }
+          {
+            "original": "My brother is young and he has got green eyes.",
+            "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/",
+            "translation": "Mijn broer is jong en heeft groene ogen.",
+            "note": "Combinatie van 'to be' en 'have got'."
+          }
         ]
       }
     ],
@@ -204,20 +288,28 @@
     "title": "Talk about daily routines",
     "bridge": "In het Nederlands zeggen we 'Ik sta om 7 uur op, ontbijt en ga naar werk'. In het Engels is dat vergelijkbaar: 'I get up at 7, have breakfast and go to work'. Het verschil zit hem in de voorzetsels: 'at' voor tijden, 'in' voor delen van de dag, 'on' voor dagen. Nederlanders zeggen vaak 'in the morning' – dat is goed. Maar ze kunnen 'at' en 'in' verwarren (bv. 'in 7 o'clock' in plaats van 'at 7 o'clock'). Ook de woordvolgorde van bijwoorden van frequentie is in het Nederlands vergelijkbaar ('ik sta altijd vroeg op' → 'I always get up early') – dus geen probleem!",
     "rule": "Voor routines: 1) Gebruik de Present Simple (I get up, she works). 2) Gebruik tijdsuitdrukkingen: 'at' + tijd (at 8 am), 'in' + deel van de dag (in the morning), 'on' + dag (on Friday). 3) Gebruik bijwoorden van frequentie vóór het hoofdwerkwoord (I always eat breakfast). 4) Om te vragen: 'What time do you get up?' (Hoe laat sta je op?) of 'When do you have lunch?' (Wanneer lunch je?).",
-    "concept_examples": {
-      "most_common_01": "I get up at 7 o'clock.",
-      "01_translation": "Ik sta om 7 uur op.",
-      "phonetic_01": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/",
-      "most_common_02": "She usually has breakfast at 8 am.",
-      "02_translation": "Ze ontbijt normaal om 8 uur.",
-      "phonetic_02": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/",
-      "most_common_03": "We go to work at 9 in the morning.",
-      "03_translation": "We gaan om 9 uur 's ochtends naar werk.",
-      "phonetic_03": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/",
-      "most_common_04": "What time do you have dinner?",
-      "04_translation": "Hoe laat eet je 's avonds?",
-      "phonetic_04": "/wɒt taɪm duː juː hæv ˈdɪnə/"
-    },
+    "concept_examples": [
+      {
+        "text": "I get up at 7 o'clock.",
+        "translation": "Ik sta om 7 uur op.",
+        "phonetic": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/"
+      },
+      {
+        "text": "She usually has breakfast at 8 am.",
+        "translation": "Ze ontbijt normaal om 8 uur.",
+        "phonetic": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/"
+      },
+      {
+        "text": "We go to work at 9 in the morning.",
+        "translation": "We gaan om 9 uur 's ochtends naar werk.",
+        "phonetic": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "What time do you have dinner?",
+        "translation": "Hoe laat eet je 's avonds?",
+        "phonetic": "/wɒt taɪm duː juː hæv ˈdɪnə/"
+      }
+    ],
     "common_error": {
       "wrong": "I am eating breakfast every morning.",
       "correct": "I eat breakfast every morning.",
@@ -230,7 +322,12 @@
         "label": "Daily actions",
         "translation": "Dagelijkse handelingen",
         "examples": [
-          { "original": "I get up early.", "phonetic": "/aɪ ɡet ʌp ˈɜːli/", "translation": "Ik sta vroeg op.", "note": "Werkwoord in de Present Simple voor routine." }
+          {
+            "original": "I get up early.",
+            "phonetic": "/aɪ ɡet ʌp ˈɜːli/",
+            "translation": "Ik sta vroeg op.",
+            "note": "Werkwoord in de Present Simple voor routine."
+          }
         ]
       },
       {
@@ -238,7 +335,12 @@
         "label": "Time expressions",
         "translation": "Tijdsuitdrukkingen",
         "examples": [
-          { "original": "I have lunch at 1 pm.", "phonetic": "/aɪ hæv lʌntʃ æt wʌn piː em/", "translation": "Ik lunch om 13:00.", "note": "Gebruik 'at' voor specifieke tijden." }
+          {
+            "original": "I have lunch at 1 pm.",
+            "phonetic": "/aɪ hæv lʌntʃ æt wʌn piː em/",
+            "translation": "Ik lunch om 13:00.",
+            "note": "Gebruik 'at' voor specifieke tijden."
+          }
         ]
       },
       {
@@ -246,7 +348,12 @@
         "label": "Frequency adverbs",
         "translation": "Bijwoorden van frequentie",
         "examples": [
-          { "original": "She never drinks coffee.", "phonetic": "/ʃiː ˈnevə drɪŋks ˈkɒfi/", "translation": "Ze drinkt nooit koffie.", "note": "Het bijwoord staat vóór het hoofdwerkwoord." }
+          {
+            "original": "She never drinks coffee.",
+            "phonetic": "/ʃiː ˈnevə drɪŋks ˈkɒfi/",
+            "translation": "Ze drinkt nooit koffie.",
+            "note": "Het bijwoord staat vóór het hoofdwerkwoord."
+          }
         ]
       },
       {
@@ -254,7 +361,12 @@
         "label": "Questions about routines",
         "translation": "Vragen over routines",
         "examples": [
-          { "original": "What time do you go to bed?", "phonetic": "/wɒt taɪm duː juː ɡəʊ tə bed/", "translation": "Hoe laat ga je naar bed?", "note": "Vraag met 'what time' + do/does." }
+          {
+            "original": "What time do you go to bed?",
+            "phonetic": "/wɒt taɪm duː juː ɡəʊ tə bed/",
+            "translation": "Hoe laat ga je naar bed?",
+            "note": "Vraag met 'what time' + do/does."
+          }
         ]
       }
     ],
@@ -270,20 +382,28 @@
     "title": "Express likes and dislikes (I like / I don't like)",
     "bridge": "In het Nederlands zeggen we 'Ik hou van pizza' – dat is letterlijk 'I hold of pizza', maar in het Engels is het 'I like pizza'. Ook zeggen we 'Ik vind ... leuk' – 'I find ... nice'. Nederlanders vertalen dit soms letterlijk: 'I hold of pizza' of 'I find it nice' wanneer het niet past. Ook vergeten ze de -ing vorm na 'like' en gebruiken ze de infinitief: 'I like play' in plaats van 'I like playing'. In het Nederlands gebruiken we de infinitief na 'houden van' (ik hou van spelen), maar in het Engels is het 'I like playing' of 'I like to play'.",
     "rule": "Voor voorkeuren en afkeuren: 1) Bevestigend: I/you/we/they like + object (I like coffee). He/she/it likes + object (She likes coffee). 2) Ontkennend: I/you/we/they don't like (I don't like tea). He/she/it doesn't like (He doesn't like tea). 3) Vragen: Do you like...? Does she like...? 4) Versterking: 'I like it very much' of 'I really like it'.",
-    "concept_examples": {
-      "most_common_01": "I like pizza.",
-      "01_translation": "Ik hou van pizza.",
-      "phonetic_01": "/aɪ laɪk ˈpiːtsə/",
-      "most_common_02": "She likes reading.",
-      "02_translation": "Ze leest graag.",
-      "phonetic_02": "/ʃiː laɪks ˈriːdɪŋ/",
-      "most_common_03": "We don't like fast food.",
-      "03_translation": "We houden niet van fastfood.",
-      "phonetic_03": "/wiː dəʊnt laɪk fɑːst fuːd/",
-      "most_common_04": "Do you like music?",
-      "04_translation": "Hou je van muziek?",
-      "phonetic_04": "/duː juː laɪk ˈmjuːzɪk/"
-    },
+    "concept_examples": [
+      {
+        "text": "I like pizza.",
+        "translation": "Ik hou van pizza.",
+        "phonetic": "/aɪ laɪk ˈpiːtsə/"
+      },
+      {
+        "text": "She likes reading.",
+        "translation": "Ze leest graag.",
+        "phonetic": "/ʃiː laɪks ˈriːdɪŋ/"
+      },
+      {
+        "text": "We don't like fast food.",
+        "translation": "We houden niet van fastfood.",
+        "phonetic": "/wiː dəʊnt laɪk fɑːst fuːd/"
+      },
+      {
+        "text": "Do you like music?",
+        "translation": "Hou je van muziek?",
+        "phonetic": "/duː juː laɪk ˈmjuːzɪk/"
+      }
+    ],
     "common_error": {
       "wrong": "I like play soccer.",
       "correct": "I like to play soccer.",
@@ -296,7 +416,12 @@
         "label": "Affirmative with I/you/we/they",
         "translation": "Bevestigend met I/you/we/they",
         "examples": [
-          { "original": "I like chocolate.", "phonetic": "/aɪ laɪk ˈtʃɒkələt/", "translation": "Ik hou van chocolade.", "note": "Werkwoord 'like' in de stam." }
+          {
+            "original": "I like chocolate.",
+            "phonetic": "/aɪ laɪk ˈtʃɒkələt/",
+            "translation": "Ik hou van chocolade.",
+            "note": "Werkwoord 'like' in de stam."
+          }
         ]
       },
       {
@@ -304,7 +429,12 @@
         "label": "Affirmative with he/she/it",
         "translation": "Bevestigend met he/she/it",
         "examples": [
-          { "original": "He likes football.", "phonetic": "/hiː laɪks ˈfʊtbɔːl/", "translation": "Hij houdt van voetbal.", "note": "Voeg -s toe aan de derde persoon." }
+          {
+            "original": "He likes football.",
+            "phonetic": "/hiː laɪks ˈfʊtbɔːl/",
+            "translation": "Hij houdt van voetbal.",
+            "note": "Voeg -s toe aan de derde persoon."
+          }
         ]
       },
       {
@@ -312,7 +442,12 @@
         "label": "Negative with don't/doesn't",
         "translation": "Ontkennend met don't/doesn't",
         "examples": [
-          { "original": "She doesn't like coffee.", "phonetic": "/ʃiː ˈdʌznt laɪk ˈkɒfi/", "translation": "Ze houdt niet van koffie.", "note": "Gebruik 'doesn't' + stam." }
+          {
+            "original": "She doesn't like coffee.",
+            "phonetic": "/ʃiː ˈdʌznt laɪk ˈkɒfi/",
+            "translation": "Ze houdt niet van koffie.",
+            "note": "Gebruik 'doesn't' + stam."
+          }
         ]
       },
       {
@@ -320,7 +455,12 @@
         "label": "Questions with Do/Does",
         "translation": "Vragen met Do/Does",
         "examples": [
-          { "original": "Do you like dogs?", "phonetic": "/duː juː laɪk dɒɡz/", "translation": "Hou je van honden?", "note": "Vraag met 'do' + onderwerp + stam." }
+          {
+            "original": "Do you like dogs?",
+            "phonetic": "/duː juː laɪk dɒɡz/",
+            "translation": "Hou je van honden?",
+            "note": "Vraag met 'do' + onderwerp + stam."
+          }
         ]
       }
     ],
@@ -336,20 +476,28 @@
     "title": "Ask for and give prices",
     "bridge": "In het Nederlands vragen we 'Hoeveel kost het?' – dat is 'How much does it cost?' in het Engels. Het verschil: in het Engels heb je het hulpwerkwoord 'does' nodig bij 'cost'. Nederlanders zeggen vaak 'How much cost it?' – dat is fout, omdat ze de 'does' weglaten (zoals in het Nederlands). 'How much is it?' is ook mogelijk – dat is vergelijkbaar met 'Hoeveel is het?' – maar in het Nederlands zeggen we dat minder vaak. Nederlanders neigen ernaar 'cost' zonder 'does' te gebruiken.",
     "rule": "Voor prijsvragen: 1) 'How much is it?' (voor één ding) of 'How much are they?' (voor meerdere). 2) 'How much does it cost?' (Hoeveel kost het?). 3) 'How much is the T-shirt?' (Hoeveel kost het T-shirt?). Antwoord: 'It is 25 euros' of 'It costs 25 euros'. In vragen gebruiken we altijd 'to be' of 'does' + 'cost'.",
-    "concept_examples": {
-      "most_common_01": "How much is it?",
-      "01_translation": "Hoeveel kost het?",
-      "phonetic_01": "/haʊ mʌtʃ ɪz ɪt/",
-      "most_common_02": "How much does it cost?",
-      "02_translation": "Hoeveel kost het?",
-      "phonetic_02": "/haʊ mʌtʃ dʌz ɪt kɒst/",
-      "most_common_03": "It is 10 dollars.",
-      "03_translation": "Het is 10 dollar.",
-      "phonetic_03": "/ɪt ɪz ten ˈdɒləz/",
-      "most_common_04": "How much are these shoes?",
-      "04_translation": "Hoeveel kosten deze schoenen?",
-      "phonetic_04": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
-    },
+    "concept_examples": [
+      {
+        "text": "How much is it?",
+        "translation": "Hoeveel kost het?",
+        "phonetic": "/haʊ mʌtʃ ɪz ɪt/"
+      },
+      {
+        "text": "How much does it cost?",
+        "translation": "Hoeveel kost het?",
+        "phonetic": "/haʊ mʌtʃ dʌz ɪt kɒst/"
+      },
+      {
+        "text": "It is 10 dollars.",
+        "translation": "Het is 10 dollar.",
+        "phonetic": "/ɪt ɪz ten ˈdɒləz/"
+      },
+      {
+        "text": "How much are these shoes?",
+        "translation": "Hoeveel kosten deze schoenen?",
+        "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
+      }
+    ],
     "common_error": {
       "wrong": "How much cost it?",
       "correct": "How much does it cost?",
@@ -362,7 +510,12 @@
         "label": "Ask price with 'to be'",
         "translation": "Prijs vragen met 'to be'",
         "examples": [
-          { "original": "How much is the book?", "phonetic": "/haʊ mʌtʃ ɪz ðə bʊk/", "translation": "Hoeveel kost het boek?", "note": "Gebruik 'to be' voor de prijsvraag." }
+          {
+            "original": "How much is the book?",
+            "phonetic": "/haʊ mʌtʃ ɪz ðə bʊk/",
+            "translation": "Hoeveel kost het boek?",
+            "note": "Gebruik 'to be' voor de prijsvraag."
+          }
         ]
       },
       {
@@ -370,7 +523,12 @@
         "label": "Ask price with 'cost'",
         "translation": "Prijs vragen met 'cost'",
         "examples": [
-          { "original": "How much does the bag cost?", "phonetic": "/haʊ mʌtʃ dʌz ðə bæɡ kɒst/", "translation": "Hoeveel kost de tas?", "note": "Gebruik 'does' + 'cost' voor de prijsvraag." }
+          {
+            "original": "How much does the bag cost?",
+            "phonetic": "/haʊ mʌtʃ dʌz ðə bæɡ kɒst/",
+            "translation": "Hoeveel kost de tas?",
+            "note": "Gebruik 'does' + 'cost' voor de prijsvraag."
+          }
         ]
       },
       {
@@ -378,7 +536,12 @@
         "label": "Give price",
         "translation": "Prijs geven",
         "examples": [
-          { "original": "It costs 5 euros.", "phonetic": "/ɪt kɒsts faɪv ˈjʊərəʊz/", "translation": "Het kost 5 euro.", "note": "Gebruik 'costs' in de derde persoon enkelvoud." }
+          {
+            "original": "It costs 5 euros.",
+            "phonetic": "/ɪt kɒsts faɪv ˈjʊərəʊz/",
+            "translation": "Het kost 5 euro.",
+            "note": "Gebruik 'costs' in de derde persoon enkelvoud."
+          }
         ]
       },
       {
@@ -386,7 +549,12 @@
         "label": "Plural questions",
         "translation": "Vragen in meervoud",
         "examples": [
-          { "original": "How much are these apples?", "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ˈæpəlz/", "translation": "Hoeveel kosten deze appels?", "note": "Gebruik 'are' voor meervoud." }
+          {
+            "original": "How much are these apples?",
+            "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ˈæpəlz/",
+            "translation": "Hoeveel kosten deze appels?",
+            "note": "Gebruik 'are' voor meervoud."
+          }
         ]
       }
     ],
@@ -402,20 +570,28 @@
     "title": "Indicate location of places",
     "bridge": "In het Nederlands zeggen we 'in de stad', 'op straat', 'aan de hoek'. In het Engels zijn er 'in', 'on', 'at'. Het verschil: voor steden en landen gebruik je 'in' (in Amsterdam), voor straten 'on' (on Main Street), voor specifieke punten 'at' (at the corner). Nederlanders zeggen vaak 'at Amsterdam' – dat is fout, het moet 'in Amsterdam' zijn. Ook 'on the corner' (op de hoek) – Nederlanders kunnen 'in the corner' zeggen, omdat we 'in de hoek' (binnen een ruimte) en 'op de hoek' (kruispunt) verwarren. Vergeet ook niet dat in het Engels het onderwerp 'It' verplicht is – Nederlanders laten het vaak weg.",
     "rule": "Voor locatie: 1) Gebruik 'to be' (The bank is...). 2) Plaatsvoorzetsels: 'on' (op, op een straat), 'in' (in, binnen een ruimte), 'at' (op een specifiek punt), 'next to' (naast), 'near' (in de buurt van), 'opposite' (tegenover), 'behind' (achter), 'in front of' (voor). 3) Om te vragen: 'Where is the...?' (Waar is de...?) of 'Is there a... near here?' (Is er een... in de buurt?).",
-    "concept_examples": {
-      "most_common_01": "The supermarket is near the park.",
-      "01_translation": "De supermarkt is in de buurt van het park.",
-      "phonetic_01": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/",
-      "most_common_02": "The school is next to the church.",
-      "02_translation": "De school staat naast de kerk.",
-      "phonetic_02": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/",
-      "most_common_03": "The pharmacy is on Main Street.",
-      "03_translation": "De apotheek is in de Hoofdstraat.",
-      "phonetic_03": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/",
-      "most_common_04": "Where is the bus station?",
-      "04_translation": "Waar is het busstation?",
-      "phonetic_04": "/weə ɪz ðə bʌs ˈsteɪʃən/"
-    },
+    "concept_examples": [
+      {
+        "text": "The supermarket is near the park.",
+        "translation": "De supermarkt is in de buurt van het park.",
+        "phonetic": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/"
+      },
+      {
+        "text": "The school is next to the church.",
+        "translation": "De school staat naast de kerk.",
+        "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/"
+      },
+      {
+        "text": "The pharmacy is on Main Street.",
+        "translation": "De apotheek is in de Hoofdstraat.",
+        "phonetic": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/"
+      },
+      {
+        "text": "Where is the bus station?",
+        "translation": "Waar is het busstation?",
+        "phonetic": "/weə ɪz ðə bʌs ˈsteɪʃən/"
+      }
+    ],
     "common_error": {
       "wrong": "Is at Amsterdam.",
       "correct": "It is in Amsterdam.",
@@ -428,7 +604,12 @@
         "label": "Basic location with 'in'",
         "translation": "Eenvoudige locatie met 'in'",
         "examples": [
-          { "original": "The cat is in the garden.", "phonetic": "/ðə kæt ɪz ɪn ðə ˈɡɑːdən/", "translation": "De kat is in de tuin.", "note": "Gebruik 'in' voor gesloten ruimtes." }
+          {
+            "original": "The cat is in the garden.",
+            "phonetic": "/ðə kæt ɪz ɪn ðə ˈɡɑːdən/",
+            "translation": "De kat is in de tuin.",
+            "note": "Gebruik 'in' voor gesloten ruimtes."
+          }
         ]
       },
       {
@@ -436,7 +617,12 @@
         "label": "Location with 'next to'",
         "translation": "Locatie met 'next to'",
         "examples": [
-          { "original": "The restaurant is next to the hotel.", "phonetic": "/ðə ˈrestrɒnt ɪz nekst tə ðə həʊˈtel/", "translation": "Het restaurant is naast het hotel.", "note": "Gebruik 'next to' voor zijdelings naast." }
+          {
+            "original": "The restaurant is next to the hotel.",
+            "phonetic": "/ðə ˈrestrɒnt ɪz nekst tə ðə həʊˈtel/",
+            "translation": "Het restaurant is naast het hotel.",
+            "note": "Gebruik 'next to' voor zijdelings naast."
+          }
         ]
       },
       {
@@ -444,7 +630,12 @@
         "label": "Location with 'near' and 'opposite'",
         "translation": "Locatie met 'near' en 'opposite'",
         "examples": [
-          { "original": "The bank is opposite the park.", "phonetic": "/ðə bæŋk ɪz ˈɒpəzɪt ðə pɑːk/", "translation": "De bank is tegenover het park.", "note": "Gebruik 'opposite' voor de positie tegenover." }
+          {
+            "original": "The bank is opposite the park.",
+            "phonetic": "/ðə bæŋk ɪz ˈɒpəzɪt ðə pɑːk/",
+            "translation": "De bank is tegenover het park.",
+            "note": "Gebruik 'opposite' voor de positie tegenover."
+          }
         ]
       },
       {
@@ -452,7 +643,12 @@
         "label": "Question with Where",
         "translation": "Vraag met Where",
         "examples": [
-          { "original": "Where is the police station?", "phonetic": "/weə ɪz ðə pəˈliːs ˈsteɪʃən/", "translation": "Waar is het politiebureau?", "note": "Directe vraag met 'Where'." }
+          {
+            "original": "Where is the police station?",
+            "phonetic": "/weə ɪz ðə pəˈliːs ˈsteɪʃən/",
+            "translation": "Waar is het politiebureau?",
+            "note": "Directe vraag met 'Where'."
+          }
         ]
       }
     ],

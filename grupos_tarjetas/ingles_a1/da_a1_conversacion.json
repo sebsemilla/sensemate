@@ -1,0 +1,473 @@
+[
+  {
+    "id": "da_A1_conv_01",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Meeting a new neighbor",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "be", "form": "am/is/are", "meaning": "være" },
+        { "verb": "live", "form": "live/lives", "meaning": "bo" },
+        { "verb": "move", "form": "move/moves", "meaning": "flytte" },
+        { "verb": "meet", "form": "meet/meets", "meaning": "møde" },
+        { "verb": "work", "form": "work/works", "meaning": "arbejde" },
+        { "verb": "study", "form": "study/studies", "meaning": "studere" },
+        { "verb": "have", "form": "have/has", "meaning": "have" },
+        { "verb": "do", "form": "do/does", "meaning": "gøre (hjælpeverbum)" },
+        { "verb": "come", "form": "come/comes", "meaning": "komme" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Anna",
+          "text": "Hello! Are you the new neighbor?",
+          "translation": "Hej! Er du den nye nabo?",
+          "note": "Hilsen og spørgsmål om identitet."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Yes, I am. My name is Tom.",
+          "translation": "Ja, det er jeg. Jeg hedder Tom.",
+          "note": "Bekræftelse og præsentation."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Nice to meet you, Tom. I'm Anna.",
+          "translation": "Dejligt at møde dig, Tom. Jeg er Anna.",
+          "note": "Høfligt svar og præsentation af sig selv."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Nice to meet you too. Do you live here with your family?",
+          "translation": "I lige måde. Bor du her med din familie?",
+          "note": "Spørgsmål om familiesituation."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Yes, I live with my husband and my daughter.",
+          "translation": "Ja, jeg bor med min mand og min datter.",
+          "note": "Svar med detaljer om familien."
+        },
+        {
+          "speaker": "Tom",
+          "text": "That's great. I work at the hospital. What about you?",
+          "translation": "Det er fantastisk. Jeg arbejder på hospitalet. Hvad med dig?",
+          "note": "Kommentar og spørgsmål om erhverv."
+        },
+        {
+          "speaker": "Anna",
+          "text": "I study English at the university.",
+          "translation": "Jeg studerer engelsk på universitetet.",
+          "note": "Information om studier."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Wonderful! Well, I have to go now. See you later!",
+          "translation": "Vidunderligt! Nå, jeg må gå nu. Vi ses senere!",
+          "note": "Høfligt farvel."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Goodbye, Tom.",
+          "translation": "Farvel, Tom.",
+          "note": "Afsluttende hilsen."
+        }
+      ]
+    }
+  },
+  {
+    "id": "da_A1_conv_02",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Ordering breakfast at a café",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "like", "form": "like/likes", "meaning": "kunne lide" },
+        { "verb": "want", "form": "want/wants", "meaning": "ville" },
+        { "verb": "have", "form": "have/has", "meaning": "have / tage" },
+        { "verb": "take", "form": "take/takes", "meaning": "tage" },
+        { "verb": "drink", "form": "drink/drinks", "meaning": "drikke" },
+        { "verb": "eat", "form": "eat/eats", "meaning": "spise" },
+        { "verb": "pay", "form": "pay/pays", "meaning": "betale" },
+        { "verb": "come", "form": "come/comes", "meaning": "komme" },
+        { "verb": "bring", "form": "bring/brings", "meaning": "bringe" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Waiter",
+          "text": "Good morning. What do you want to eat?",
+          "translation": "God morgen. Hvad vil du spise?",
+          "note": "Hilsen og indledende spørgsmål fra tjeneren."
+        },
+        {
+          "speaker": "Client",
+          "text": "I'd like a sandwich, please.",
+          "translation": "Jeg vil gerne have en sandwich, tak.",
+          "note": "Høflig bestilling med 'I'd like'."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Do you want cheese or ham?",
+          "translation": "Vil du have ost eller skinke?",
+          "note": "Spørgsmål for at vælge type sandwich."
+        },
+        {
+          "speaker": "Client",
+          "text": "Ham, please. And I want a glass of orange juice.",
+          "translation": "Skinke, tak. Og jeg vil have et glas appelsinjuice.",
+          "note": "Valg og bestilling af drikkevare."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Anything else? Coffee or tea?",
+          "translation": "Noget andet? Kaffe eller te?",
+          "note": "Yderligere tilbud."
+        },
+        {
+          "speaker": "Client",
+          "text": "Yes, I'd like a cup of coffee with milk.",
+          "translation": "Ja, jeg vil gerne have en kop kaffe med mælk.",
+          "note": "Bestilling af kaffe med mælk."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "That's a sandwich, orange juice and coffee. Is that correct?",
+          "translation": "Det er en sandwich, appelsinjuice og kaffe. Er det korrekt?",
+          "note": "Bekræftelse af bestillingen."
+        },
+        {
+          "speaker": "Client",
+          "text": "Yes, perfect. How much is it?",
+          "translation": "Ja, perfekt. Hvor meget koster det?",
+          "note": "Spørgsmål om prisen."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "It's 9 dollars. You can pay at the counter.",
+          "translation": "Det koster 9 dollars. Du kan betale i kassen.",
+          "note": "Prisoplysning og anvisning om betaling."
+        }
+      ]
+    }
+  },
+  {
+    "id": "da_A1_conv_03",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "A rainy day at home",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "rain", "form": "rain/rains", "meaning": "regne" },
+        { "verb": "stay", "form": "stay/stays", "meaning": "blive" },
+        { "verb": "watch", "form": "watch/watches", "meaning": "se (TV)" },
+        { "verb": "read", "form": "read/reads", "meaning": "læse" },
+        { "verb": "drink", "form": "drink/drinks", "meaning": "drikke" },
+        { "verb": "play", "form": "play/plays", "meaning": "lege" },
+        { "verb": "cook", "form": "cook/cooks", "meaning": "lave mad" },
+        { "verb": "clean", "form": "clean/cleans", "meaning": "gøre rent" },
+        { "verb": "sleep", "form": "sleep/sleeps", "meaning": "sove" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mom",
+          "text": "It's raining outside. What do you want to do today?",
+          "translation": "Det regner udenfor. Hvad vil du gøre i dag?",
+          "note": "Kommentar om vejret og spørgsmål om planer."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "I want to watch a movie in the living room.",
+          "translation": "Jeg vil se en film i stuen.",
+          "note": "Forslag til aktivitet."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Good idea. And I want to read my new book.",
+          "translation": "God idé. Og jeg vil læse min nye bog.",
+          "note": "Godkendelse og mors plan."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "Can I have some hot chocolate?",
+          "translation": "Kan jeg få noget varm chokolade?",
+          "note": "Spørgsmål om tilladelse med 'can'."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Yes, I can prepare it for you.",
+          "translation": "Ja, jeg kan lave det til dig.",
+          "note": "Tilladelse og tilbud om service."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "And later, can I play with my toys?",
+          "translation": "Og senere, kan jeg lege med mine legetøj?",
+          "note": "Anden anmodning med 'can'."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Sure. But first, let's clean the bedroom together.",
+          "translation": "Selvfølgelig. Men først, lad os gøre soveværelset rent sammen.",
+          "note": "Godkendelse med betingelse (brug af 'let's')."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "OK, Mom. After that, maybe I take a nap.",
+          "translation": "Okay, mor. Bagefter tager jeg måske en lur.",
+          "note": "Overenskomst og senere plan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "da_A1_conv_04",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Buying a T-shirt at the store",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "buy", "form": "buy/buys", "meaning": "købe" },
+        { "verb": "want", "form": "want/wants", "meaning": "ville" },
+        { "verb": "need", "form": "need/needs", "meaning": "have brug for" },
+        { "verb": "have", "form": "have/has", "meaning": "have" },
+        { "verb": "see", "form": "see/sees", "meaning": "se" },
+        { "verb": "try", "form": "try/tries", "meaning": "prøve (tøj)" },
+        { "verb": "fit", "form": "fit/fits", "meaning": "passe (i størrelse)" },
+        { "verb": "like", "form": "like/likes", "meaning": "kunne lide" },
+        { "verb": "cost", "form": "cost/costs", "meaning": "koste" },
+        { "verb": "take", "form": "take/takes", "meaning": "tage / købe" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Salesperson",
+          "text": "Hello. Can I help you?",
+          "translation": "Hej. Kan jeg hjælpe dig?",
+          "note": "Hilsen og tilbud om hjælp."
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I want to buy a T-shirt.",
+          "translation": "Ja, jeg vil købe en T-shirt.",
+          "note": "Udtryk for købshensigt."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "What color do you like?",
+          "translation": "Hvilken farve kan du lide?",
+          "note": "Spørgsmål om farvepræference."
+        },
+        {
+          "speaker": "Customer",
+          "text": "I like blue and black. Do you have a blue one?",
+          "translation": "Jeg kan lide blå og sort. Har I en blå?",
+          "note": "Svar og spørgsmål om tilgængelighed."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Yes, we do. What size do you need?",
+          "translation": "Ja, det har vi. Hvilken størrelse har du brug for?",
+          "note": "Bekræftelse og spørgsmål om størrelse."
+        },
+        {
+          "speaker": "Customer",
+          "text": "I think I need a large size. Can I try it on?",
+          "translation": "Jeg tror, jeg har brug for en large. Kan jeg prøve den?",
+          "note": "Anmodning om at prøve tøjet."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Of course. The fitting room is over there.",
+          "translation": "Selvfølgelig. Prøverummet er derovre.",
+          "note": "Tilladelse og anvisning af sted."
+        },
+        {
+          "speaker": "Customer",
+          "text": "It fits perfectly! I like it very much. How much does it cost?",
+          "translation": "Den passer perfekt! Jeg kan rigtig godt lide den. Hvor meget koster den?",
+          "note": "Positiv kommentar og spørgsmål om pris."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "It costs 25 dollars. Do you want to take it?",
+          "translation": "Den koster 25 dollars. Vil du tage den?",
+          "note": "Pris og tilbud om køb."
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I'll take it.",
+          "translation": "Ja, jeg tager den.",
+          "note": "Beslutning om køb."
+        }
+      ]
+    }
+  },
+  {
+    "id": "da_A1_conv_05",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Asking for directions to the bank",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "go", "form": "go/goes", "meaning": "gå" },
+        { "verb": "walk", "form": "walk/walks", "meaning": "gå / spadsere" },
+        { "verb": "turn", "form": "turn/turns", "meaning": "dreje" },
+        { "verb": "cross", "form": "cross/crosses", "meaning": "krydse" },
+        { "verb": "find", "form": "find/finds", "meaning": "finde" },
+        { "verb": "need", "form": "need/needs", "meaning": "have brug for" },
+        { "verb": "see", "form": "see/sees", "meaning": "se" },
+        { "verb": "get", "form": "get/gets", "meaning": "komme / få" },
+        { "verb": "take", "form": "take/takes", "meaning": "tage (transport)" },
+        { "verb": "thank", "form": "thank/thanks", "meaning": "takke" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me. I need to go to the bank. Where is it?",
+          "translation": "Undskyld mig. Jeg har brug for at gå til banken. Hvor ligger den?",
+          "note": "Spørgsmål om vejbeskrivelse."
+        },
+        {
+          "speaker": "Local",
+          "text": "The bank is near the park. Go straight down this street.",
+          "translation": "Banken ligger nær parken. Gå lige ud ad denne gade.",
+          "note": "Anvisning om retning."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "OK, go straight. Then?",
+          "translation": "OK, gå ligeud. Så?",
+          "note": "Bekræftelse og anmodning om fortsættelse."
+        },
+        {
+          "speaker": "Local",
+          "text": "Walk for two blocks and turn right at the cinema.",
+          "translation": "Gå to blokke og drej til højre ved biografen.",
+          "note": "Detaljerede instruktioner."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Turn right at the cinema. Is it far?",
+          "translation": "Drej til højre ved biografen. Er det langt?",
+          "note": "Gentagelse og spørgsmål om afstand."
+        },
+        {
+          "speaker": "Local",
+          "text": "No, it's not far. Cross the street and you'll see the bank in front of you.",
+          "translation": "Nej, det er ikke langt. Kryds gaden, og du vil se banken foran dig.",
+          "note": "Præcisering om afstand og sidste instruktion."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Great. And is there a bus stop near there?",
+          "translation": "Fantastisk. Og er der et busstoppested i nærheden?",
+          "note": "Yderligere spørgsmål om offentlig transport."
+        },
+        {
+          "speaker": "Local",
+          "text": "Yes, there is a bus stop next to the bank. You can take bus number 5.",
+          "translation": "Ja, der er et busstoppested ved siden af banken. Du kan tage bus nummer 5.",
+          "note": "Supplerende information."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Thank you very much for your help.",
+          "translation": "Mange tak for din hjælp.",
+          "note": "Taksigelse."
+        },
+        {
+          "speaker": "Local",
+          "text": "You're welcome.",
+          "translation": "Selv tak.",
+          "note": "Høfligt svar på tak."
+        }
+      ]
+    }
+  },
+  {
+    "id": "da_A1_conv_06",
+    "type": "conversation",
+    "category": "Conversation",
+    "title": "Describing a family photo",
+    "conversation": {
+      "vocabulary": [
+        { "verb": "have", "form": "have/has", "meaning": "have" },
+        { "verb": "be", "form": "am/is/are", "meaning": "være" },
+        { "verb": "sit", "form": "sit/sits", "meaning": "sidde" },
+        { "verb": "stand", "form": "stand/stands", "meaning": "stå" },
+        { "verb": "wear", "form": "wear/wears", "meaning": "have på" },
+        { "verb": "look", "form": "look/looks", "meaning": "se ud / kigge" },
+        { "verb": "smile", "form": "smile/smiles", "meaning": "smile" },
+        { "verb": "love", "form": "love/loves", "meaning": "elske" },
+        { "verb": "live", "form": "live/lives", "meaning": "bo" },
+        { "verb": "see", "form": "see/sees", "meaning": "se" }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Lucy",
+          "text": "Look! This is a photo of my family.",
+          "translation": "Se! Dette er et billede af min familie.",
+          "note": "Præsentation af billedet."
+        },
+        {
+          "speaker": "Peter",
+          "text": "Wow! Who is the man next to you?",
+          "translation": "Wow! Hvem er manden ved siden af dig?",
+          "note": "Spørgsmål om et familiemedlem."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "That is my father. He is tall and has brown hair.",
+          "translation": "Det er min far. Han er høj og har brunt hår.",
+          "note": "Fysisk beskrivelse af faren."
+        },
+        {
+          "speaker": "Peter",
+          "text": "And the woman with the glasses?",
+          "translation": "Og kvinden med briller?",
+          "note": "Spørgsmål om en anden person."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "That's my mother. She is a teacher. She is wearing a blue dress.",
+          "translation": "Det er min mor. Hun er lærer. Hun har en blå kjole på.",
+          "note": "Beskrivelse af moderen og hendes erhverv."
+        },
+        {
+          "speaker": "Peter",
+          "text": "They look very happy. Is that your brother?",
+          "translation": "De ser meget glade ud. Er det din bror?",
+          "note": "Kommentar og spørgsmål om en anden person."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "Yes, he is my brother. He is sitting on the sofa. He is 10 years old.",
+          "translation": "Ja, det er min bror. Han sidder i sofaen. Han er 10 år gammel.",
+          "note": "Identifikation og beskrivelse af broderen."
+        },
+        {
+          "speaker": "Peter",
+          "text": "And where are you in the photo?",
+          "translation": "Og hvor er du på billedet?",
+          "note": "Spørgsmål om Lucys placering."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "I am standing behind my parents. I smile a lot!",
+          "translation": "Jeg står bag mine forældre. Jeg smiler meget!",
+          "note": "Beskrivelse af sin position og attitude."
+        },
+        {
+          "speaker": "Peter",
+          "text": "You have a nice family. Do you all live together?",
+          "translation": "Du har en dejlig familie. Bor I alle sammen?",
+          "note": "Kommentar og spørgsmål om familiesituation."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "Yes, we live in a big house near the beach. I love them.",
+          "translation": "Ja, vi bor i et stort hus nær stranden. Jeg elsker dem.",
+          "note": "Yderligere information og udtryk for kærlighed."
+        }
+      ]
+    }
+  }
+]

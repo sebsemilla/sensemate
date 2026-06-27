@@ -6,20 +6,28 @@
     "title": "Verb 'to be' (am/is/are)",
     "bridge": "Em português, temos dois verbos: 'ser' e 'estar'. Em inglês, há apenas um: 'to be'. A boa notícia é que o português e o inglês usam 'ser/estar' para descrever características e estados, de forma similar. A diferença principal é que em inglês NUNCA se omite o sujeito: sempre é necessário usar 'I am', 'you are', 'he is', etc. Em português, podemos dizer 'Sou professor' sem sujeito, mas em inglês isso é impossível.",
     "rule": "O verbo 'to be' no presente tem três formas: 'am' (para 'I'), 'is' (para 'he, she, it') e 'are' (para 'you, we, they'). Para formar perguntas, inverte-se a ordem: 'Are you...?', 'Is he...?'. Para negar, adiciona-se 'not': 'I am not', 'he is not' (ou 'he isn't'), 'they are not' (ou 'they aren't').",
-    "concept_examples": {
-      "most_common_01": "I am a teacher.",
-      "01_translation": "Eu sou professor.",
-      "phonetic_01": "/aɪ æm ə ˈtiːtʃə/",
-      "most_common_02": "She is happy.",
-      "02_translation": "Ela está feliz.",
-      "phonetic_02": "/ʃiː ɪz ˈhæpi/",
-      "most_common_03": "We are in the park.",
-      "03_translation": "Nós estamos no parque.",
-      "phonetic_03": "/wiː ɑːr ɪn ðə pɑːk/",
-      "most_common_04": "Are you hungry?",
-      "04_translation": "Você está com fome?",
-      "phonetic_04": "/ɑːr juː ˈhʌŋɡri/"
-    },
+    "concept_examples": [
+      {
+        "text": "I am a teacher.",
+        "translation": "Eu sou professor.",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "She is happy.",
+        "translation": "Ela está feliz.",
+        "phonetic": "/ʃiː ɪz ˈhæpi/"
+      },
+      {
+        "text": "We are in the park.",
+        "translation": "Nós estamos no parque.",
+        "phonetic": "/wiː ɑːr ɪn ðə pɑːk/"
+      },
+      {
+        "text": "Are you hungry?",
+        "translation": "Você está com fome?",
+        "phonetic": "/ɑːr juː ˈhʌŋɡri/"
+      }
+    ],
     "common_error": {
       "wrong": "I tired.",
       "correct": "I am tired.",
@@ -32,7 +40,12 @@
         "label": "Affirmative with I",
         "translation": "Afirmativo com eu",
         "examples": [
-          { "original": "I am Anna.", "phonetic": "/aɪ æm ˈænə/", "translation": "Eu sou Anna.", "note": "Usamos 'am' apenas com 'I'." }
+          {
+            "original": "I am Anna.",
+            "phonetic": "/aɪ æm ˈænə/",
+            "translation": "Eu sou Anna.",
+            "note": "Usamos 'am' apenas com 'I'."
+          }
         ]
       },
       {
@@ -40,7 +53,12 @@
         "label": "Affirmative with he/she/it",
         "translation": "Afirmativo com ele/ela",
         "examples": [
-          { "original": "He is a doctor.", "phonetic": "/hiː ɪz ə ˈdɒktə/", "translation": "Ele é médico.", "note": "Usamos 'is' para a terceira pessoa do singular." }
+          {
+            "original": "He is a doctor.",
+            "phonetic": "/hiː ɪz ə ˈdɒktə/",
+            "translation": "Ele é médico.",
+            "note": "Usamos 'is' para a terceira pessoa do singular."
+          }
         ]
       },
       {
@@ -48,7 +66,12 @@
         "label": "Negative",
         "translation": "Negativo",
         "examples": [
-          { "original": "They are not (aren't) at home.", "phonetic": "/ðeɪ ɑːr nɒt æt həʊm/", "translation": "Eles não estão em casa.", "note": "A forma contraída 'aren't' é muito comum na fala." }
+          {
+            "original": "They are not (aren't) at home.",
+            "phonetic": "/ðeɪ ɑːr nɒt æt həʊm/",
+            "translation": "Eles não estão em casa.",
+            "note": "A forma contraída 'aren't' é muito comum na fala."
+          }
         ]
       },
       {
@@ -56,7 +79,12 @@
         "label": "Questions",
         "translation": "Perguntas",
         "examples": [
-          { "original": "Is she your sister?", "phonetic": "/ɪz ʃiː jɔː ˈsɪstə/", "translation": "Ela é sua irmã?", "note": "Invertemos o sujeito e o verbo para formar perguntas." }
+          {
+            "original": "Is she your sister?",
+            "phonetic": "/ɪz ʃiː jɔː ˈsɪstə/",
+            "translation": "Ela é sua irmã?",
+            "note": "Invertemos o sujeito e o verbo para formar perguntas."
+          }
         ]
       }
     ],
@@ -72,20 +100,28 @@
     "title": "Personal Pronouns (I, you, he, she, it, we, they)",
     "bridge": "Em português, os pronomes pessoais são semelhantes: eu, tu, ele, ela, nós, vós, eles. A diferença principal é que em inglês usamos sempre o pronome como sujeito, mesmo quando em português o omitimos: 'I am tired' (e não apenas 'am tired'). Cuidado também para não confundir 'he' e 'she' – em inglês, referem-se ao gênero biológico, não ao gênero gramatical do substantivo como em português.",
     "rule": "Os pronomes pessoais em inglês são: I (eu), you (tu/você/vocês), he (ele), she (ela), it (ele/ela para objetos e animais), we (nós), they (eles/elas). 'It' é usado para objetos, animais e conceitos. 'You' é tanto singular quanto plural. Nunca se omite o sujeito em inglês.",
-    "concept_examples": {
-      "most_common_01": "I love pizza.",
-      "01_translation": "Eu amo pizza.",
-      "phonetic_01": "/aɪ lʌv ˈpiːtsə/",
-      "most_common_02": "She is my friend.",
-      "02_translation": "Ela é minha amiga.",
-      "phonetic_02": "/ʃiː ɪz maɪ frend/",
-      "most_common_03": "We are students.",
-      "03_translation": "Nós somos estudantes.",
-      "phonetic_03": "/wiː ɑːr ˈstjuːdənts/",
-      "most_common_04": "It is a cat.",
-      "04_translation": "É um gato.",
-      "phonetic_04": "/ɪt ɪz ə kæt/"
-    },
+    "concept_examples": [
+      {
+        "text": "I love pizza.",
+        "translation": "Eu amo pizza.",
+        "phonetic": "/aɪ lʌv ˈpiːtsə/"
+      },
+      {
+        "text": "She is my friend.",
+        "translation": "Ela é minha amiga.",
+        "phonetic": "/ʃiː ɪz maɪ frend/"
+      },
+      {
+        "text": "We are students.",
+        "translation": "Nós somos estudantes.",
+        "phonetic": "/wiː ɑːr ˈstjuːdənts/"
+      },
+      {
+        "text": "It is a cat.",
+        "translation": "É um gato.",
+        "phonetic": "/ɪt ɪz ə kæt/"
+      }
+    ],
     "common_error": {
       "wrong": "Is a teacher.",
       "correct": "He is a teacher. / She is a teacher.",
@@ -98,7 +134,12 @@
         "label": "Singular pronouns",
         "translation": "Pronomes singulares",
         "examples": [
-          { "original": "I am happy.", "phonetic": "/aɪ æm ˈhæpi/", "translation": "Eu estou feliz.", "note": "Primeira pessoa do singular." }
+          {
+            "original": "I am happy.",
+            "phonetic": "/aɪ æm ˈhæpi/",
+            "translation": "Eu estou feliz.",
+            "note": "Primeira pessoa do singular."
+          }
         ]
       },
       {
@@ -106,7 +147,12 @@
         "label": "Third person singular",
         "translation": "Terceira pessoa singular",
         "examples": [
-          { "original": "He is tall.", "phonetic": "/hiː ɪz tɔːl/", "translation": "Ele é alto.", "note": "Para homens e meninos." }
+          {
+            "original": "He is tall.",
+            "phonetic": "/hiː ɪz tɔːl/",
+            "translation": "Ele é alto.",
+            "note": "Para homens e meninos."
+          }
         ]
       },
       {
@@ -114,7 +160,12 @@
         "label": "Plural pronouns",
         "translation": "Pronomes plurais",
         "examples": [
-          { "original": "They are my parents.", "phonetic": "/ðeɪ ɑːr maɪ ˈpeərənts/", "translation": "Eles são meus pais.", "note": "Para grupos de pessoas ou coisas." }
+          {
+            "original": "They are my parents.",
+            "phonetic": "/ðeɪ ɑːr maɪ ˈpeərənts/",
+            "translation": "Eles são meus pais.",
+            "note": "Para grupos de pessoas ou coisas."
+          }
         ]
       },
       {
@@ -122,7 +173,12 @@
         "label": "Using 'it' for objects",
         "translation": "Usando 'it' para objetos",
         "examples": [
-          { "original": "It is a book.", "phonetic": "/ɪt ɪz ə bʊk/", "translation": "É um livro.", "note": "'It' é usado para objetos, animais e conceitos abstratos." }
+          {
+            "original": "It is a book.",
+            "phonetic": "/ɪt ɪz ə bʊk/",
+            "translation": "É um livro.",
+            "note": "'It' é usado para objetos, animais e conceitos abstratos."
+          }
         ]
       }
     ],
@@ -138,20 +194,28 @@
     "title": "Articles (a/an, the)",
     "bridge": "Em português, também temos artigos: 'um/uma' (indefinidos) e 'o/a/os/as' (definidos). A diferença principal é que em inglês não usamos 'the' para conceitos gerais (dizemos 'Life is beautiful', não 'The life is beautiful'). Também, com profissões, usamos 'a' ou 'an' em inglês: 'I am a teacher' (em português, dizemos 'Sou professor' sem artigo).",
     "rule": "Usamos 'a' antes de palavras que começam com som consonantal (a book, a car). Usamos 'an' antes de palavras que começam com som vocálico (an apple, an hour – o 'h' não é pronunciado). Usamos 'the' para nos referirmos a algo específico ou já mencionado. Não usamos 'the' para conceitos gerais (Love is important, não 'The love').",
-    "concept_examples": {
-      "most_common_01": "I have a cat.",
-      "01_translation": "Eu tenho um gato.",
-      "phonetic_01": "/aɪ hæv ə kæt/",
-      "most_common_02": "She is an engineer.",
-      "02_translation": "Ela é engenheira.",
-      "phonetic_02": "/ʃiː ɪz ən ˌendʒɪˈnɪə/",
-      "most_common_03": "The car is red.",
-      "03_translation": "O carro é vermelho.",
-      "phonetic_03": "/ðə kɑːr ɪz red/",
-      "most_common_04": "Life is good.",
-      "04_translation": "A vida é boa.",
-      "phonetic_04": "/laɪf ɪz ɡʊd/"
-    },
+    "concept_examples": [
+      {
+        "text": "I have a cat.",
+        "translation": "Eu tenho um gato.",
+        "phonetic": "/aɪ hæv ə kæt/"
+      },
+      {
+        "text": "She is an engineer.",
+        "translation": "Ela é engenheira.",
+        "phonetic": "/ʃiː ɪz ən ˌendʒɪˈnɪə/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "O carro é vermelho.",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      },
+      {
+        "text": "Life is good.",
+        "translation": "A vida é boa.",
+        "phonetic": "/laɪf ɪz ɡʊd/"
+      }
+    ],
     "common_error": {
       "wrong": "I am teacher.",
       "correct": "I am a teacher.",
@@ -164,7 +228,12 @@
         "label": "Indefinite article 'a'",
         "translation": "Artigo indefinido 'a'",
         "examples": [
-          { "original": "a dog", "phonetic": "/ə dɒɡ/", "translation": "um cachorro", "note": "Usamos 'a' antes de som consonantal." }
+          {
+            "original": "a dog",
+            "phonetic": "/ə dɒɡ/",
+            "translation": "um cachorro",
+            "note": "Usamos 'a' antes de som consonantal."
+          }
         ]
       },
       {
@@ -172,7 +241,12 @@
         "label": "Indefinite article 'an'",
         "translation": "Artigo indefinido 'an'",
         "examples": [
-          { "original": "an orange", "phonetic": "/ən ˈɒrɪndʒ/", "translation": "uma laranja", "note": "Usamos 'an' antes de som vocálico." }
+          {
+            "original": "an orange",
+            "phonetic": "/ən ˈɒrɪndʒ/",
+            "translation": "uma laranja",
+            "note": "Usamos 'an' antes de som vocálico."
+          }
         ]
       },
       {
@@ -180,7 +254,12 @@
         "label": "Definite article 'the'",
         "translation": "Artigo definido 'the'",
         "examples": [
-          { "original": "the house on the corner", "phonetic": "/ðə haʊs ɒn ðə ˈkɔːnə/", "translation": "a casa na esquina", "note": "'The' é usado para algo específico ou conhecido." }
+          {
+            "original": "the house on the corner",
+            "phonetic": "/ðə haʊs ɒn ðə ˈkɔːnə/",
+            "translation": "a casa na esquina",
+            "note": "'The' é usado para algo específico ou conhecido."
+          }
         ]
       },
       {
@@ -188,7 +267,12 @@
         "label": "No article (general concepts)",
         "translation": "Sem artigo (conceitos gerais)",
         "examples": [
-          { "original": "Water is important.", "phonetic": "/ˈwɔːtər ɪz ɪmˈpɔːtənt/", "translation": "A água é importante.", "note": "Para conceitos gerais, NÃO usamos 'the'." }
+          {
+            "original": "Water is important.",
+            "phonetic": "/ˈwɔːtər ɪz ɪmˈpɔːtənt/",
+            "translation": "A água é importante.",
+            "note": "Para conceitos gerais, NÃO usamos 'the'."
+          }
         ]
       }
     ],
@@ -204,20 +288,28 @@
     "title": "Regular and Irregular Plurals",
     "bridge": "Em português, formamos o plural adicionando -s (casa → casas, relógio → relógios). Em inglês é semelhante: a maioria das palavras adiciona -s (book → books). Mas há regras especiais: se a palavra termina em -s, -sh, -ch, -x, -z, adicionamos -es (bus → buses, watch → watches). Também há plurais irregulares (child → children, foot → feet) que não seguem essas regras e precisam ser memorizados, assim como em português temos 'cão → cães' ou 'mão → mãos'.",
     "rule": "Regras para plurais regulares: 1) Adicionar -s (cat → cats). 2) Adicionar -es se a palavra terminar em -s, -sh, -ch, -x, -z (box → boxes, dish → dishes). 3) Se terminar em -y precedida de consoante, trocar -y por -ies (city → cities). 4) Se terminar em -f ou -fe, às vezes trocar para -ves (wolf → wolves, knife → knives). Os plurais irregulares são exceções: child → children, foot → feet, tooth → teeth, man → men, woman → women, mouse → mice, sheep → sheep (igual), fish → fish (igual para o mesmo tipo).",
-    "concept_examples": {
-      "most_common_01": "book → books",
-      "01_translation": "livro → livros",
-      "phonetic_01": "/bʊk/ → /bʊks/",
-      "most_common_02": "watch → watches",
-      "02_translation": "relógio → relógios",
-      "phonetic_02": "/wɒtʃ/ → /ˈwɒtʃɪz/",
-      "most_common_03": "child → children",
-      "03_translation": "criança → crianças",
-      "phonetic_03": "/tʃaɪld/ → /ˈtʃɪldrən/",
-      "most_common_04": "foot → feet",
-      "04_translation": "pé → pés",
-      "phonetic_04": "/fʊt/ → /fiːt/"
-    },
+    "concept_examples": [
+      {
+        "text": "book → books",
+        "translation": "livro → livros",
+        "phonetic": "/bʊk/ → /bʊks/"
+      },
+      {
+        "text": "watch → watches",
+        "translation": "relógio → relógios",
+        "phonetic": "/wɒtʃ/ → /ˈwɒtʃɪz/"
+      },
+      {
+        "text": "child → children",
+        "translation": "criança → crianças",
+        "phonetic": "/tʃaɪld/ → /ˈtʃɪldrən/"
+      },
+      {
+        "text": "foot → feet",
+        "translation": "pé → pés",
+        "phonetic": "/fʊt/ → /fiːt/"
+      }
+    ],
     "common_error": {
       "wrong": "childs",
       "correct": "children",
@@ -230,7 +322,12 @@
         "label": "Add -s",
         "translation": "Adicionar -s",
         "examples": [
-          { "original": "dog → dogs", "phonetic": "/dɒɡ/ → /dɒɡz/", "translation": "cachorro → cachorros", "note": "Plural regular com -s." }
+          {
+            "original": "dog → dogs",
+            "phonetic": "/dɒɡ/ → /dɒɡz/",
+            "translation": "cachorro → cachorros",
+            "note": "Plural regular com -s."
+          }
         ]
       },
       {
@@ -238,7 +335,12 @@
         "label": "Add -es (s, sh, ch, x, z)",
         "translation": "Adicionar -es (terminações especiais)",
         "examples": [
-          { "original": "box → boxes", "phonetic": "/bɒks/ → /ˈbɒksɪz/", "translation": "caixa → caixas", "note": "Palavras que terminam em -x recebem -es." }
+          {
+            "original": "box → boxes",
+            "phonetic": "/bɒks/ → /ˈbɒksɪz/",
+            "translation": "caixa → caixas",
+            "note": "Palavras que terminam em -x recebem -es."
+          }
         ]
       },
       {
@@ -246,7 +348,12 @@
         "label": "Irregular plurals",
         "translation": "Plurais irregulares",
         "examples": [
-          { "original": "man → men", "phonetic": "/mæn/ → /men/", "translation": "homem → homens", "note": "Troca de vogal (a → e)." }
+          {
+            "original": "man → men",
+            "phonetic": "/mæn/ → /men/",
+            "translation": "homem → homens",
+            "note": "Troca de vogal (a → e)."
+          }
         ]
       },
       {
@@ -254,7 +361,12 @@
         "label": "No change (same form)",
         "translation": "Sem mudança (mesma forma)",
         "examples": [
-          { "original": "sheep → sheep", "phonetic": "/ʃiːp/ → /ʃiːp/", "translation": "ovelha → ovelhas", "note": "O plural é idêntico ao singular." }
+          {
+            "original": "sheep → sheep",
+            "phonetic": "/ʃiːp/ → /ʃiːp/",
+            "translation": "ovelha → ovelhas",
+            "note": "O plural é idêntico ao singular."
+          }
         ]
       }
     ],
@@ -270,20 +382,28 @@
     "title": "Present Simple (I eat, you eat, he eats)",
     "bridge": "Em português, usamos o presente simples para ações habituais: 'Eu como pizza todos os dias'. Em inglês é igual, mas com uma diferença importante: na terceira pessoa (he, she, it), adicionamos -s ao verbo (he eats, she works). Também usamos o auxiliar 'do/does' para perguntas e negações, assim como em português usamos a entonação, mas aqui é obrigatório.",
     "rule": "O presente simples é formado com a base do verbo para todas as pessoas, exceto a terceira pessoa do singular (he, she, it), onde se adiciona -s (ou -es se o verbo termina em -s, -sh, -ch, -x, -z). Para perguntas e negações, usamos 'do' (para I, you, we, they) ou 'does' (para he, she, it) + a base do verbo (sem -s). Ex: 'I eat', 'He eats', 'Do you eat?', 'She doesn't eat'.",
-    "concept_examples": {
-      "most_common_01": "I eat breakfast at 8 o'clock.",
-      "01_translation": "Eu tomo café da manhã às 8 horas.",
-      "phonetic_01": "/aɪ iːt ˈbrekfəst æt eɪt əˈklɒk/",
-      "most_common_02": "He works in a hospital.",
-      "02_translation": "Ele trabalha em um hospital.",
-      "phonetic_02": "/hiː wɜːks ɪn ə ˈhɒspɪtəl/",
-      "most_common_03": "Do you like coffee?",
-      "03_translation": "Você gosta de café?",
-      "phonetic_03": "/duː juː laɪk ˈkɒfi/",
-      "most_common_04": "She doesn't speak French.",
-      "04_translation": "Ela não fala francês.",
-      "phonetic_04": "/ʃiː ˈdʌznt spiːk frentʃ/"
-    },
+    "concept_examples": [
+      {
+        "text": "I eat breakfast at 8 o'clock.",
+        "translation": "Eu tomo café da manhã às 8 horas.",
+        "phonetic": "/aɪ iːt ˈbrekfəst æt eɪt əˈklɒk/"
+      },
+      {
+        "text": "He works in a hospital.",
+        "translation": "Ele trabalha em um hospital.",
+        "phonetic": "/hiː wɜːks ɪn ə ˈhɒspɪtəl/"
+      },
+      {
+        "text": "Do you like coffee?",
+        "translation": "Você gosta de café?",
+        "phonetic": "/duː juː laɪk ˈkɒfi/"
+      },
+      {
+        "text": "She doesn't speak French.",
+        "translation": "Ela não fala francês.",
+        "phonetic": "/ʃiː ˈdʌznt spiːk frentʃ/"
+      }
+    ],
     "common_error": {
       "wrong": "He eat breakfast.",
       "correct": "He eats breakfast.",
@@ -296,7 +416,12 @@
         "label": "Affirmative with I/you/we/they",
         "translation": "Afirmativo com I/you/we/they",
         "examples": [
-          { "original": "I live in São Paulo.", "phonetic": "/aɪ lɪv ɪn saʊ ˈpaʊlə/", "translation": "Eu moro em São Paulo.", "note": "Verbo na forma base." }
+          {
+            "original": "I live in São Paulo.",
+            "phonetic": "/aɪ lɪv ɪn saʊ ˈpaʊlə/",
+            "translation": "Eu moro em São Paulo.",
+            "note": "Verbo na forma base."
+          }
         ]
       },
       {
@@ -304,7 +429,12 @@
         "label": "Affirmative with he/she/it",
         "translation": "Afirmativo com he/she/it",
         "examples": [
-          { "original": "She reads a book every day.", "phonetic": "/ʃiː riːdz ə bʊk ˈevri deɪ/", "translation": "Ela lê um livro todos os dias.", "note": "Adicionamos -s ao verbo." }
+          {
+            "original": "She reads a book every day.",
+            "phonetic": "/ʃiː riːdz ə bʊk ˈevri deɪ/",
+            "translation": "Ela lê um livro todos os dias.",
+            "note": "Adicionamos -s ao verbo."
+          }
         ]
       },
       {
@@ -312,7 +442,12 @@
         "label": "Questions with do/does",
         "translation": "Perguntas com do/does",
         "examples": [
-          { "original": "Does he play football?", "phonetic": "/dʌz hiː pleɪ ˈfʊtbɔːl/", "translation": "Ele joga futebol?", "note": "'Does' + sujeito + verbo base (sem -s)." }
+          {
+            "original": "Does he play football?",
+            "phonetic": "/dʌz hiː pleɪ ˈfʊtbɔːl/",
+            "translation": "Ele joga futebol?",
+            "note": "'Does' + sujeito + verbo base (sem -s)."
+          }
         ]
       },
       {
@@ -320,7 +455,12 @@
         "label": "Negatives with do/does + not",
         "translation": "Negativas com do/does + not",
         "examples": [
-          { "original": "We don't eat meat.", "phonetic": "/wiː dəʊnt iːt miːt/", "translation": "Nós não comemos carne.", "note": "Usamos 'don't' + verbo base." }
+          {
+            "original": "We don't eat meat.",
+            "phonetic": "/wiː dəʊnt iːt miːt/",
+            "translation": "Nós não comemos carne.",
+            "note": "Usamos 'don't' + verbo base."
+          }
         ]
       }
     ],
@@ -336,20 +476,28 @@
     "title": "Adverbs of Frequency (always, sometimes, never)",
     "bridge": "Em português, os advérbios de frequência como 'sempre', 'às vezes' e 'nunca' geralmente vêm antes do verbo: 'Eu sempre como pizza' ou depois do verbo em alguns casos. Em inglês, a posição é semelhante: normalmente vão ANTES do verbo principal (I always eat pizza), mas DEPOIS do verbo 'to be' (I am always tired). A diferença principal é que em português podemos colocá-los no final da frase, mas em inglês isso soa menos natural.",
     "rule": "Os advérbios de frequência mais comuns são: always (sempre), usually (normalmente), often (frequentemente), sometimes (às vezes), rarely (raramente), never (nunca). Eles são colocados ANTES do verbo principal (I always go to school), mas DEPOIS do verbo 'to be' (I am always happy). Em perguntas, vêm depois do sujeito (Do you always eat breakfast?).",
-    "concept_examples": {
-      "most_common_01": "I always drink coffee in the morning.",
-      "01_translation": "Eu sempre bebo café pela manhã.",
-      "phonetic_01": "/aɪ ˈɔːlweɪz drɪŋk ˈkɒfi ɪn ðə ˈmɔːnɪŋ/",
-      "most_common_02": "She is never late.",
-      "02_translation": "Ela nunca se atrasa.",
-      "phonetic_02": "/ʃiː ɪz ˈnevə leɪt/",
-      "most_common_03": "They sometimes go to the cinema.",
-      "03_translation": "Eles às vezes vão ao cinema.",
-      "phonetic_03": "/ðeɪ ˈsʌmtaɪmz ɡəʊ tə ðə ˈsɪnəmə/",
-      "most_common_04": "Do you often eat out?",
-      "04_translation": "Você costuma comer fora?",
-      "phonetic_04": "/duː juː ˈɒfən iːt aʊt/"
-    },
+    "concept_examples": [
+      {
+        "text": "I always drink coffee in the morning.",
+        "translation": "Eu sempre bebo café pela manhã.",
+        "phonetic": "/aɪ ˈɔːlweɪz drɪŋk ˈkɒfi ɪn ðə ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "She is never late.",
+        "translation": "Ela nunca se atrasa.",
+        "phonetic": "/ʃiː ɪz ˈnevə leɪt/"
+      },
+      {
+        "text": "They sometimes go to the cinema.",
+        "translation": "Eles às vezes vão ao cinema.",
+        "phonetic": "/ðeɪ ˈsʌmtaɪmz ɡəʊ tə ðə ˈsɪnəmə/"
+      },
+      {
+        "text": "Do you often eat out?",
+        "translation": "Você costuma comer fora?",
+        "phonetic": "/duː juː ˈɒfən iːt aʊt/"
+      }
+    ],
     "common_error": {
       "wrong": "I eat always pizza.",
       "correct": "I always eat pizza.",
@@ -362,7 +510,12 @@
         "label": "Always (100%)",
         "translation": "Sempre (100%)",
         "examples": [
-          { "original": "I always get up at 7 am.", "phonetic": "/aɪ ˈɔːlweɪz ɡet ʌp æt ˈsevən æm/", "translation": "Eu sempre acordo às 7 da manhã.", "note": "Frequência máxima." }
+          {
+            "original": "I always get up at 7 am.",
+            "phonetic": "/aɪ ˈɔːlweɪz ɡet ʌp æt ˈsevən æm/",
+            "translation": "Eu sempre acordo às 7 da manhã.",
+            "note": "Frequência máxima."
+          }
         ]
       },
       {
@@ -370,7 +523,12 @@
         "label": "Sometimes (50%)",
         "translation": "Às vezes (50%)",
         "examples": [
-          { "original": "He sometimes watches TV.", "phonetic": "/hiː ˈsʌmtaɪmz ˈwɒtʃɪz ˌtiːˈviː/", "translation": "Ele às vezes assiste TV.", "note": "Frequência média." }
+          {
+            "original": "He sometimes watches TV.",
+            "phonetic": "/hiː ˈsʌmtaɪmz ˈwɒtʃɪz ˌtiːˈviː/",
+            "translation": "Ele às vezes assiste TV.",
+            "note": "Frequência média."
+          }
         ]
       },
       {
@@ -378,7 +536,12 @@
         "label": "Never (0%)",
         "translation": "Nunca (0%)",
         "examples": [
-          { "original": "We never eat fast food.", "phonetic": "/wiː ˈnevə iːt fɑːst fuːd/", "translation": "Nós nunca comemos fast food.", "note": "Frequência nula (negativo)." }
+          {
+            "original": "We never eat fast food.",
+            "phonetic": "/wiː ˈnevə iːt fɑːst fuːd/",
+            "translation": "Nós nunca comemos fast food.",
+            "note": "Frequência nula (negativo)."
+          }
         ]
       },
       {
@@ -386,7 +549,12 @@
         "label": "With 'to be'",
         "translation": "Com o verbo 'to be'",
         "examples": [
-          { "original": "She is always happy.", "phonetic": "/ʃiː ɪz ˈɔːlweɪz ˈhæpi/", "translation": "Ela está sempre feliz.", "note": "O advérbio vai DEPOIS do verbo 'to be'." }
+          {
+            "original": "She is always happy.",
+            "phonetic": "/ʃiː ɪz ˈɔːlweɪz ˈhæpi/",
+            "translation": "Ela está sempre feliz.",
+            "note": "O advérbio vai DEPOIS do verbo 'to be'."
+          }
         ]
       }
     ],
@@ -402,20 +570,28 @@
     "title": "Have got / Has got",
     "bridge": "Em português, para expressar posse usamos o verbo 'ter': 'Eu tenho um carro'. Em inglês, há duas formas: 'have' (I have a car) e 'have got' (I have got a car). 'Have got' é mais comum no inglês britânico e é usado em contextos informais. A estrutura é semelhante, mas 'have got' é usado principalmente no presente. No negativo e interrogativo, 'have got' usa o auxiliar 'have' diretamente, sem 'do/does'. Por exemplo: 'I haven't got a car' e 'Have you got a car?'. No português brasileiro, muitas vezes usamos 'ter' para posse, então a diferença principal é lembrar que em perguntas e negativas com 'have got' não usamos 'do/does'.",
     "rule": "Have got / Has got é usado para expressar posse, relações, características físicas e necessidades. Afirmativo: I/you/we/they have got, he/she/it has got. Negativo: I/you/we/they have not got (haven't got), he/she/it has not got (hasn't got). Interrogativo: Have I/you/we/they got? Has he/she/it got? Não se usa 'do/does'. Respostas curtas: Yes, I have / No, I haven't. É usado principalmente no presente; para outros tempos, usa-se 'have' sozinho.",
-    "concept_examples": {
-      "most_common_01": "I have got a new phone.",
-      "01_translation": "Eu tenho um telefone novo.",
-      "phonetic_01": "/aɪ hæv ɡɒt ə njuː fəʊn/",
-      "most_common_02": "She has got blue eyes.",
-      "02_translation": "Ela tem olhos azuis.",
-      "phonetic_02": "/ʃiː hæz ɡɒt bluː aɪz/",
-      "most_common_03": "Have you got a car?",
-      "03_translation": "Você tem um carro?",
-      "phonetic_03": "/hæv juː ɡɒt ə kɑːr/",
-      "most_common_04": "We haven't got any milk.",
-      "04_translation": "Nós não temos leite.",
-      "phonetic_04": "/wiː ˈhævənt ɡɒt ˈeni mɪlk/"
-    },
+    "concept_examples": [
+      {
+        "text": "I have got a new phone.",
+        "translation": "Eu tenho um telefone novo.",
+        "phonetic": "/aɪ hæv ɡɒt ə njuː fəʊn/"
+      },
+      {
+        "text": "She has got blue eyes.",
+        "translation": "Ela tem olhos azuis.",
+        "phonetic": "/ʃiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "Have you got a car?",
+        "translation": "Você tem um carro?",
+        "phonetic": "/hæv juː ɡɒt ə kɑːr/"
+      },
+      {
+        "text": "We haven't got any milk.",
+        "translation": "Nós não temos leite.",
+        "phonetic": "/wiː ˈhævənt ɡɒt ˈeni mɪlk/"
+      }
+    ],
     "common_error": {
       "wrong": "I have get a car.",
       "correct": "I have got a car.",
@@ -428,7 +604,12 @@
         "label": "Affirmative with I/you/we/they",
         "translation": "Afirmativo com I/you/we/they",
         "examples": [
-          { "original": "We have got a big house.", "phonetic": "/wiː hæv ɡɒt ə bɪɡ haʊs/", "translation": "Nós temos uma casa grande.", "note": "Usamos 'have got' para posse." }
+          {
+            "original": "We have got a big house.",
+            "phonetic": "/wiː hæv ɡɒt ə bɪɡ haʊs/",
+            "translation": "Nós temos uma casa grande.",
+            "note": "Usamos 'have got' para posse."
+          }
         ]
       },
       {
@@ -436,7 +617,12 @@
         "label": "Affirmative with he/she/it",
         "translation": "Afirmativo com he/she/it",
         "examples": [
-          { "original": "He has got a sister.", "phonetic": "/hiː hæz ɡɒt ə ˈsɪstə/", "translation": "Ele tem uma irmã.", "note": "Usamos 'has got' para terceira pessoa." }
+          {
+            "original": "He has got a sister.",
+            "phonetic": "/hiː hæz ɡɒt ə ˈsɪstə/",
+            "translation": "Ele tem uma irmã.",
+            "note": "Usamos 'has got' para terceira pessoa."
+          }
         ]
       },
       {
@@ -444,7 +630,12 @@
         "label": "Negative with haven't/hasn't",
         "translation": "Negativo com haven't/hasn't",
         "examples": [
-          { "original": "She hasn't got a job.", "phonetic": "/ʃiː ˈhæzənt ɡɒt ə dʒɒb/", "translation": "Ela não tem um emprego.", "note": "A negativa é formada com 'hasn't got'." }
+          {
+            "original": "She hasn't got a job.",
+            "phonetic": "/ʃiː ˈhæzənt ɡɒt ə dʒɒb/",
+            "translation": "Ela não tem um emprego.",
+            "note": "A negativa é formada com 'hasn't got'."
+          }
         ]
       },
       {
@@ -452,7 +643,12 @@
         "label": "Questions with Have/Has + got",
         "translation": "Interrogativo com Have/Has + got",
         "examples": [
-          { "original": "Have they got children?", "phonetic": "/hæv ðeɪ ɡɒt ˈtʃɪldrən/", "translation": "Eles têm filhos?", "note": "Pergunta invertendo 'have/has' e o sujeito." }
+          {
+            "original": "Have they got children?",
+            "phonetic": "/hæv ðeɪ ɡɒt ˈtʃɪldrən/",
+            "translation": "Eles têm filhos?",
+            "note": "Pergunta invertendo 'have/has' e o sujeito."
+          }
         ]
       }
     ],
@@ -468,20 +664,28 @@
     "title": "Prepositions of Place (in, on, under, next to)",
     "bridge": "Em português, usamos a preposição 'em' para quase tudo: 'em casa', 'na mesa', 'na rua'. Em inglês, há várias preposições de lugar e a escolha depende do contexto. 'In' é usado para espaços fechados ou tridimensionais (in the room), 'on' para superfícies (on the table), 'under' para debaixo (under the bed) e 'next to' para ao lado (next to the door). A dificuldade para os falantes de português é que usamos 'em' para tudo, enquanto o inglês faz distinções. Lembre-se também que para 'na esquina' se diz 'on the corner' (não 'in').",
     "rule": "Preposições de lugar básicas: in (dentro de, em um espaço fechado), on (sobre, em uma superfície), under (debaixo de), next to (ao lado de). Também: behind (atrás), in front of (na frente), between (entre dois). Para transporte, dizemos 'on the bus', 'on the train', mas 'in the car'. Em perguntas: 'Where is the cat?' → 'It is under the table.'",
-    "concept_examples": {
-      "most_common_01": "The book is on the table.",
-      "01_translation": "O livro está sobre a mesa.",
-      "phonetic_01": "/ðə bʊk ɪz ɒn ðə ˈteɪbəl/",
-      "most_common_02": "She is in the kitchen.",
-      "02_translation": "Ela está na cozinha.",
-      "phonetic_02": "/ʃiː ɪz ɪn ðə ˈkɪtʃɪn/",
-      "most_common_03": "The cat is under the bed.",
-      "03_translation": "O gato está debaixo da cama.",
-      "phonetic_03": "/ðə kæt ɪz ˈʌndə ðə bed/",
-      "most_common_04": "The supermarket is next to the bank.",
-      "04_translation": "O supermercado fica ao lado do banco.",
-      "phonetic_04": "/ðə ˈsuːpəmɑːkɪt ɪz nekst tə ðə bæŋk/"
-    },
+    "concept_examples": [
+      {
+        "text": "The book is on the table.",
+        "translation": "O livro está sobre a mesa.",
+        "phonetic": "/ðə bʊk ɪz ɒn ðə ˈteɪbəl/"
+      },
+      {
+        "text": "She is in the kitchen.",
+        "translation": "Ela está na cozinha.",
+        "phonetic": "/ʃiː ɪz ɪn ðə ˈkɪtʃɪn/"
+      },
+      {
+        "text": "The cat is under the bed.",
+        "translation": "O gato está debaixo da cama.",
+        "phonetic": "/ðə kæt ɪz ˈʌndə ðə bed/"
+      },
+      {
+        "text": "The supermarket is next to the bank.",
+        "translation": "O supermercado fica ao lado do banco.",
+        "phonetic": "/ðə ˈsuːpəmɑːkɪt ɪz nekst tə ðə bæŋk/"
+      }
+    ],
     "common_error": {
       "wrong": "I am in the bus.",
       "correct": "I am on the bus.",
@@ -494,7 +698,12 @@
         "label": "in (inside)",
         "translation": "in (dentro de)",
         "examples": [
-          { "original": "The milk is in the fridge.", "phonetic": "/ðə mɪlk ɪz ɪn ðə frɪdʒ/", "translation": "O leite está na geladeira.", "note": "Usamos 'in' para espaços fechados." }
+          {
+            "original": "The milk is in the fridge.",
+            "phonetic": "/ðə mɪlk ɪz ɪn ðə frɪdʒ/",
+            "translation": "O leite está na geladeira.",
+            "note": "Usamos 'in' para espaços fechados."
+          }
         ]
       },
       {
@@ -502,7 +711,12 @@
         "label": "on (on a surface)",
         "translation": "on (sobre uma superfície)",
         "examples": [
-          { "original": "The keys are on the table.", "phonetic": "/ðə kiːz ɑːr ɒn ðə ˈteɪbəl/", "translation": "As chaves estão sobre a mesa.", "note": "Usamos 'on' para superfícies." }
+          {
+            "original": "The keys are on the table.",
+            "phonetic": "/ðə kiːz ɑːr ɒn ðə ˈteɪbəl/",
+            "translation": "As chaves estão sobre a mesa.",
+            "note": "Usamos 'on' para superfícies."
+          }
         ]
       },
       {
@@ -510,7 +724,12 @@
         "label": "under (below)",
         "translation": "under (debaixo de)",
         "examples": [
-          { "original": "My shoes are under the chair.", "phonetic": "/maɪ ʃuːz ɑːr ˈʌndə ðə tʃeə/", "translation": "Meus sapatos estão debaixo da cadeira.", "note": "Usamos 'under' para posição inferior." }
+          {
+            "original": "My shoes are under the chair.",
+            "phonetic": "/maɪ ʃuːz ɑːr ˈʌndə ðə tʃeə/",
+            "translation": "Meus sapatos estão debaixo da cadeira.",
+            "note": "Usamos 'under' para posição inferior."
+          }
         ]
       },
       {
@@ -518,7 +737,12 @@
         "label": "next to (beside)",
         "translation": "next to (ao lado de)",
         "examples": [
-          { "original": "The school is next to the church.", "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/", "translation": "A escola fica ao lado da igreja.", "note": "Usamos 'next to' para proximidade lateral." }
+          {
+            "original": "The school is next to the church.",
+            "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/",
+            "translation": "A escola fica ao lado da igreja.",
+            "note": "Usamos 'next to' para proximidade lateral."
+          }
         ]
       }
     ],
@@ -534,20 +758,28 @@
     "title": "Demonstratives (this, that, these, those)",
     "bridge": "Em português, temos 'este', 'esse' e 'aquele' (três níveis de distância). Em inglês, há apenas duas distâncias: 'this' (singular) e 'these' (plural) para perto; 'that' (singular) e 'those' (plural) para longe. A dificuldade para os falantes de português é que não distinguimos entre 'esse' e 'aquele' em inglês, e às vezes usamos 'this' para tudo o que vemos, mesmo que esteja longe. Também confundem 'these' (estes) com 'this' (este) por causa da pronúncia.",
     "rule": "Usamos 'this' para objetos ou pessoas perto de nós (singular). Usamos 'these' para objetos ou pessoas perto de nós (plural). Usamos 'that' para objetos ou pessoas longe (singular). Usamos 'those' para objetos ou pessoas longe (plural). Também são usados em apresentações: 'This is my friend' (quando está presente) e 'That is my house' (quando apontamos para longe).",
-    "concept_examples": {
-      "most_common_01": "This is my car.",
-      "01_translation": "Este é meu carro.",
-      "phonetic_01": "/ðɪs ɪz maɪ kɑːr/",
-      "most_common_02": "These are my keys.",
-      "02_translation": "Estas são minhas chaves.",
-      "phonetic_02": "/ðiːz ɑːr maɪ kiːz/",
-      "most_common_03": "That is a beautiful house.",
-      "03_translation": "Aquela é uma casa bonita.",
-      "phonetic_03": "/ðæt ɪz ə ˈbjuːtəfəl haʊs/",
-      "most_common_04": "Those are my friends.",
-      "04_translation": "Aqueles são meus amigos.",
-      "phonetic_04": "/ðəʊz ɑːr maɪ frendz/"
-    },
+    "concept_examples": [
+      {
+        "text": "This is my car.",
+        "translation": "Este é meu carro.",
+        "phonetic": "/ðɪs ɪz maɪ kɑːr/"
+      },
+      {
+        "text": "These are my keys.",
+        "translation": "Estas são minhas chaves.",
+        "phonetic": "/ðiːz ɑːr maɪ kiːz/"
+      },
+      {
+        "text": "That is a beautiful house.",
+        "translation": "Aquela é uma casa bonita.",
+        "phonetic": "/ðæt ɪz ə ˈbjuːtəfəl haʊs/"
+      },
+      {
+        "text": "Those are my friends.",
+        "translation": "Aqueles são meus amigos.",
+        "phonetic": "/ðəʊz ɑːr maɪ frendz/"
+      }
+    ],
     "common_error": {
       "wrong": "This are my shoes.",
       "correct": "These are my shoes.",
@@ -560,7 +792,12 @@
         "label": "this (near, singular)",
         "translation": "this (perto, singular)",
         "examples": [
-          { "original": "This is a pen.", "phonetic": "/ðɪs ɪz ə pen/", "translation": "Isto é uma caneta.", "note": "Objeto perto no singular." }
+          {
+            "original": "This is a pen.",
+            "phonetic": "/ðɪs ɪz ə pen/",
+            "translation": "Isto é uma caneta.",
+            "note": "Objeto perto no singular."
+          }
         ]
       },
       {
@@ -568,7 +805,12 @@
         "label": "these (near, plural)",
         "translation": "these (perto, plural)",
         "examples": [
-          { "original": "These are apples.", "phonetic": "/ðiːz ɑːr ˈæpəlz/", "translation": "Estas são maçãs.", "note": "Objetos perto no plural." }
+          {
+            "original": "These are apples.",
+            "phonetic": "/ðiːz ɑːr ˈæpəlz/",
+            "translation": "Estas são maçãs.",
+            "note": "Objetos perto no plural."
+          }
         ]
       },
       {
@@ -576,7 +818,12 @@
         "label": "that (far, singular)",
         "translation": "that (longe, singular)",
         "examples": [
-          { "original": "That is a mountain.", "phonetic": "/ðæt ɪz ə ˈmaʊntɪn/", "translation": "Aquilo é uma montanha.", "note": "Objeto longe no singular." }
+          {
+            "original": "That is a mountain.",
+            "phonetic": "/ðæt ɪz ə ˈmaʊntɪn/",
+            "translation": "Aquilo é uma montanha.",
+            "note": "Objeto longe no singular."
+          }
         ]
       },
       {
@@ -584,7 +831,12 @@
         "label": "those (far, plural)",
         "translation": "those (longe, plural)",
         "examples": [
-          { "original": "Those are birds.", "phonetic": "/ðəʊz ɑːr bɜːdz/", "translation": "Aqueles são pássaros.", "note": "Objetos longe no plural." }
+          {
+            "original": "Those are birds.",
+            "phonetic": "/ðəʊz ɑːr bɜːdz/",
+            "translation": "Aqueles são pássaros.",
+            "note": "Objetos longe no plural."
+          }
         ]
       }
     ],
@@ -600,20 +852,28 @@
     "title": "Can (ability and permission)",
     "bridge": "Em português, usamos o verbo 'poder' para expressar habilidade ('posso nadar') e permissão ('posso ir?'). Em inglês, 'can' também cobre ambos os usos. A grande vantagem é que 'can' não muda na terceira pessoa (he can, she can) e não precisa de 'to' depois (I can swim, não 'I can to swim'). Além disso, para perguntas e negações não usamos 'do/does', mas invertemos a ordem (Can you swim?) ou adicionamos 'not' (I cannot / can't). É um verbo modal, então sempre vem seguido do verbo no infinitivo sem 'to'.",
     "rule": "'Can' é usado para: 1) habilidade (I can play the piano), 2) permissão (Can I go to the bathroom?), 3) possibilidade (It can rain tomorrow). É invariável para todas as pessoas. Afirmativo: I/you/he/she/it/we/they can + verbo base. Negativo: cannot (can't) + verbo base. Interrogativo: Can + sujeito + verbo base? Respostas curtas: Yes, I can / No, I can't.",
-    "concept_examples": {
-      "most_common_01": "I can swim very well.",
-      "01_translation": "Eu sei nadar muito bem.",
-      "phonetic_01": "/aɪ kæn swɪm ˈveri wel/",
-      "most_common_02": "She can speak three languages.",
-      "02_translation": "Ela pode falar três línguas.",
-      "phonetic_02": "/ʃiː kæn spiːk θriː ˈlæŋɡwɪdʒɪz/",
-      "most_common_03": "Can you help me?",
-      "03_translation": "Você pode me ajudar?",
-      "phonetic_03": "/kæn juː help miː/",
-      "most_common_04": "He can't drive a car.",
-      "04_translation": "Ele não sabe dirigir um carro.",
-      "phonetic_04": "/hiː kɑːnt draɪv ə kɑːr/"
-    },
+    "concept_examples": [
+      {
+        "text": "I can swim very well.",
+        "translation": "Eu sei nadar muito bem.",
+        "phonetic": "/aɪ kæn swɪm ˈveri wel/"
+      },
+      {
+        "text": "She can speak three languages.",
+        "translation": "Ela pode falar três línguas.",
+        "phonetic": "/ʃiː kæn spiːk θriː ˈlæŋɡwɪdʒɪz/"
+      },
+      {
+        "text": "Can you help me?",
+        "translation": "Você pode me ajudar?",
+        "phonetic": "/kæn juː help miː/"
+      },
+      {
+        "text": "He can't drive a car.",
+        "translation": "Ele não sabe dirigir um carro.",
+        "phonetic": "/hiː kɑːnt draɪv ə kɑːr/"
+      }
+    ],
     "common_error": {
       "wrong": "I can to sing.",
       "correct": "I can sing.",
@@ -626,7 +886,12 @@
         "label": "Ability (capacity)",
         "translation": "Habilidade (saber fazer)",
         "examples": [
-          { "original": "I can cook.", "phonetic": "/aɪ kæn kʊk/", "translation": "Eu sei cozinhar.", "note": "Habilidade geral." }
+          {
+            "original": "I can cook.",
+            "phonetic": "/aɪ kæn kʊk/",
+            "translation": "Eu sei cozinhar.",
+            "note": "Habilidade geral."
+          }
         ]
       },
       {
@@ -634,7 +899,12 @@
         "label": "Permission",
         "translation": "Permissão",
         "examples": [
-          { "original": "Can I use your phone?", "phonetic": "/kæn aɪ juːz jɔː fəʊn/", "translation": "Posso usar seu telefone?", "note": "Pedir permissão." }
+          {
+            "original": "Can I use your phone?",
+            "phonetic": "/kæn aɪ juːz jɔː fəʊn/",
+            "translation": "Posso usar seu telefone?",
+            "note": "Pedir permissão."
+          }
         ]
       },
       {
@@ -642,7 +912,12 @@
         "label": "Negative (cannot / can't)",
         "translation": "Negativo",
         "examples": [
-          { "original": "She can't find her keys.", "phonetic": "/ʃiː kɑːnt faɪnd hɜː kiːz/", "translation": "Ela não consegue encontrar suas chaves.", "note": "Negação com 'can't'." }
+          {
+            "original": "She can't find her keys.",
+            "phonetic": "/ʃiː kɑːnt faɪnd hɜː kiːz/",
+            "translation": "Ela não consegue encontrar suas chaves.",
+            "note": "Negação com 'can't'."
+          }
         ]
       },
       {
@@ -650,7 +925,12 @@
         "label": "Questions and short answers",
         "translation": "Perguntas e respostas curtas",
         "examples": [
-          { "original": "Can they come? Yes, they can.", "phonetic": "/kæn ðeɪ kʌm? jes, ðeɪ kæn/", "translation": "Eles podem vir? Sim, eles podem.", "note": "Pergunta direta e resposta curta." }
+          {
+            "original": "Can they come? Yes, they can.",
+            "phonetic": "/kæn ðeɪ kʌm? jes, ðeɪ kæn/",
+            "translation": "Eles podem vir? Sim, eles podem.",
+            "note": "Pergunta direta e resposta curta."
+          }
         ]
       }
     ],
@@ -666,20 +946,28 @@
     "title": "Questions with 'wh-' (what, where, who, when)",
     "bridge": "Em português, fazemos perguntas com palavras como 'que', 'onde', 'quem', 'quando'. Em inglês são semelhantes: 'what' (que), 'where' (onde), 'who' (quem), 'when' (quando). A estrutura é: Palavra wh- + verbo auxiliar (ou verbo 'to be') + sujeito + verbo principal? Por exemplo: 'Where do you live?' (Onde você mora?). A dificuldade para os falantes de português é lembrar do auxiliar 'do/does' no presente simples, e não inverter a ordem em perguntas indiretas (como em 'Can you tell me where the station is?' – correto, não 'where is the station' na parte indireta).",
     "rule": "As perguntas wh- são formadas assim: 1) Com o verbo 'to be': Palavra wh- + am/is/are + sujeito? (Where is the bank?). 2) Com 'can': Palavra wh- + can + sujeito + verbo? (What can you do?). 3) No presente simples (outros verbos): Palavra wh- + do/does + sujeito + verbo base? (What do you eat?). 4) Em perguntas indiretas (depois de 'Can you tell me...', 'Do you know...'), a ordem é sujeito + verbo (sem inversão): 'Can you tell me where the station is?' (não 'where is the station').",
-    "concept_examples": {
-      "most_common_01": "What is your name?",
-      "01_translation": "Qual é o seu nome?",
-      "phonetic_01": "/wɒt ɪz jɔː neɪm/",
-      "most_common_02": "Where do you live?",
-      "02_translation": "Onde você mora?",
-      "phonetic_02": "/weə duː juː lɪv/",
-      "most_common_03": "Who is that man?",
-      "03_translation": "Quem é aquele homem?",
-      "phonetic_03": "/huː ɪz ðæt mæn/",
-      "most_common_04": "When does the train leave?",
-      "04_translation": "Quando o trem sai?",
-      "phonetic_04": "/wen dʌz ðə treɪn liːv/"
-    },
+    "concept_examples": [
+      {
+        "text": "What is your name?",
+        "translation": "Qual é o seu nome?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      },
+      {
+        "text": "Where do you live?",
+        "translation": "Onde você mora?",
+        "phonetic": "/weə duː juː lɪv/"
+      },
+      {
+        "text": "Who is that man?",
+        "translation": "Quem é aquele homem?",
+        "phonetic": "/huː ɪz ðæt mæn/"
+      },
+      {
+        "text": "When does the train leave?",
+        "translation": "Quando o trem sai?",
+        "phonetic": "/wen dʌz ðə treɪn liːv/"
+      }
+    ],
     "common_error": {
       "wrong": "Can you tell me where is the station?",
       "correct": "Can you tell me where the station is?",
@@ -692,7 +980,12 @@
         "label": "What (what)",
         "translation": "What (que)",
         "examples": [
-          { "original": "What is this?", "phonetic": "/wɒt ɪz ðɪs/", "translation": "O que é isto?", "note": "Pergunta para identificar coisas." }
+          {
+            "original": "What is this?",
+            "phonetic": "/wɒt ɪz ðɪs/",
+            "translation": "O que é isto?",
+            "note": "Pergunta para identificar coisas."
+          }
         ]
       },
       {
@@ -700,7 +993,12 @@
         "label": "Where (where)",
         "translation": "Where (onde)",
         "examples": [
-          { "original": "Where are you from?", "phonetic": "/weə ɑːr juː frɒm/", "translation": "De onde você é?", "note": "Pergunta sobre origem." }
+          {
+            "original": "Where are you from?",
+            "phonetic": "/weə ɑːr juː frɒm/",
+            "translation": "De onde você é?",
+            "note": "Pergunta sobre origem."
+          }
         ]
       },
       {
@@ -708,7 +1006,12 @@
         "label": "Who (who)",
         "translation": "Who (quem)",
         "examples": [
-          { "original": "Who is your teacher?", "phonetic": "/huː ɪz jɔː ˈtiːtʃə/", "translation": "Quem é seu professor?", "note": "Pergunta sobre pessoas." }
+          {
+            "original": "Who is your teacher?",
+            "phonetic": "/huː ɪz jɔː ˈtiːtʃə/",
+            "translation": "Quem é seu professor?",
+            "note": "Pergunta sobre pessoas."
+          }
         ]
       },
       {
@@ -716,7 +1019,12 @@
         "label": "When (when)",
         "translation": "When (quando)",
         "examples": [
-          { "original": "When do you get up?", "phonetic": "/wen duː juː ɡet ʌp/", "translation": "Quando você se levanta?", "note": "Pergunta sobre tempo." }
+          {
+            "original": "When do you get up?",
+            "phonetic": "/wen duː juː ɡet ʌp/",
+            "translation": "Quando você se levanta?",
+            "note": "Pergunta sobre tempo."
+          }
         ]
       }
     ],
@@ -732,20 +1040,28 @@
     "title": "There is / There are",
     "bridge": "Em português, para dizer 'há' ou 'existe', usamos uma única palavra: 'tem' ou 'há'. Em inglês, há duas formas: 'there is' (singular) e 'there are' (plural). A escolha depende do substantivo que segue. Por exemplo: 'There is a book on the table' (Tem um livro sobre a mesa), 'There are two books on the table' (Tem dois livros sobre a mesa). Também é usado em perguntas: 'Is there a bank near here?' e 'Are there any restaurants?'. A dificuldade para os falantes de português é confundir 'there is/are' com 'have' (dizem 'In my house have a garden' em vez de 'There is a garden in my house'), porque em português usamos 'ter' para existência ('tem um jardim').",
     "rule": "Usamos 'There is' para substantivos contáveis no singular e incontáveis (There is some water). Usamos 'There are' para substantivos contáveis no plural (There are three chairs). Em perguntas: Is there...? / Are there...? Em negativas: There isn't / There aren't. Também usamos 'any' em perguntas e negativas: 'Is there any milk?' (Tem leite?) e 'There isn't any milk' (Não tem leite).",
-    "concept_examples": {
-      "most_common_01": "There is a cat in the garden.",
-      "01_translation": "Tem um gato no jardim.",
-      "phonetic_01": "/ðeər ɪz ə kæt ɪn ðə ˈɡɑːdən/",
-      "most_common_02": "There are two chairs in the kitchen.",
-      "02_translation": "Tem duas cadeiras na cozinha.",
-      "phonetic_02": "/ðeər ɑːr tuː tʃeəz ɪn ðə ˈkɪtʃɪn/",
-      "most_common_03": "Is there a bank near here?",
-      "03_translation": "Tem um banco perto daqui?",
-      "phonetic_03": "/ɪz ðeər ə bæŋk nɪə hɪə/",
-      "most_common_04": "There aren't any students in the class.",
-      "04_translation": "Não tem estudantes na classe.",
-      "phonetic_04": "/ðeər ɑːnt ˈeni ˈstjuːdənts ɪn ðə klɑːs/"
-    },
+    "concept_examples": [
+      {
+        "text": "There is a cat in the garden.",
+        "translation": "Tem um gato no jardim.",
+        "phonetic": "/ðeər ɪz ə kæt ɪn ðə ˈɡɑːdən/"
+      },
+      {
+        "text": "There are two chairs in the kitchen.",
+        "translation": "Tem duas cadeiras na cozinha.",
+        "phonetic": "/ðeər ɑːr tuː tʃeəz ɪn ðə ˈkɪtʃɪn/"
+      },
+      {
+        "text": "Is there a bank near here?",
+        "translation": "Tem um banco perto daqui?",
+        "phonetic": "/ɪz ðeər ə bæŋk nɪə hɪə/"
+      },
+      {
+        "text": "There aren't any students in the class.",
+        "translation": "Não tem estudantes na classe.",
+        "phonetic": "/ðeər ɑːnt ˈeni ˈstjuːdənts ɪn ðə klɑːs/"
+      }
+    ],
     "common_error": {
       "wrong": "In my house have a garden.",
       "correct": "There is a garden in my house.",
@@ -758,7 +1074,12 @@
         "label": "There is (singular)",
         "translation": "There is (singular)",
         "examples": [
-          { "original": "There is a phone on the desk.", "phonetic": "/ðeər ɪz ə fəʊn ɒn ðə desk/", "translation": "Tem um telefone sobre a mesa.", "note": "Singular contável." }
+          {
+            "original": "There is a phone on the desk.",
+            "phonetic": "/ðeər ɪz ə fəʊn ɒn ðə desk/",
+            "translation": "Tem um telefone sobre a mesa.",
+            "note": "Singular contável."
+          }
         ]
       },
       {
@@ -766,7 +1087,12 @@
         "label": "There are (plural)",
         "translation": "There are (plural)",
         "examples": [
-          { "original": "There are three cars in the street.", "phonetic": "/ðeər ɑːr θriː kɑːrz ɪn ðə striːt/", "translation": "Tem três carros na rua.", "note": "Plural contável." }
+          {
+            "original": "There are three cars in the street.",
+            "phonetic": "/ðeər ɑːr θriː kɑːrz ɪn ðə striːt/",
+            "translation": "Tem três carros na rua.",
+            "note": "Plural contável."
+          }
         ]
       },
       {
@@ -774,7 +1100,12 @@
         "label": "Questions with Is there / Are there",
         "translation": "Perguntas com Is there / Are there",
         "examples": [
-          { "original": "Are there any eggs in the fridge?", "phonetic": "/ɑːr ðeər ˈeni eɡz ɪn ðə frɪdʒ/", "translation": "Tem ovos na geladeira?", "note": "Pergunta com 'any' para plurais." }
+          {
+            "original": "Are there any eggs in the fridge?",
+            "phonetic": "/ɑːr ðeər ˈeni eɡz ɪn ðə frɪdʒ/",
+            "translation": "Tem ovos na geladeira?",
+            "note": "Pergunta com 'any' para plurais."
+          }
         ]
       },
       {
@@ -782,7 +1113,12 @@
         "label": "Negative with isn't / aren't",
         "translation": "Negativo com isn't / aren't",
         "examples": [
-          { "original": "There isn't any sugar in the cupboard.", "phonetic": "/ðeər ˈɪzənt ˈeni ˈʃʊɡər ɪn ðə ˈkʌbəd/", "translation": "Não tem açúcar no armário.", "note": "Negação com 'any' para incontáveis." }
+          {
+            "original": "There isn't any sugar in the cupboard.",
+            "phonetic": "/ðeər ˈɪzənt ˈeni ˈʃʊɡər ɪn ðə ˈkʌbəd/",
+            "translation": "Não tem açúcar no armário.",
+            "note": "Negação com 'any' para incontáveis."
+          }
         ]
       }
     ],

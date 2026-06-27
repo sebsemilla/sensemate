@@ -1,0 +1,660 @@
+[
+  {
+    "id": "sv_A1_func_01",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Greet and introduce yourself",
+    "bridge": "På svenska säger vi 'Jag heter...' eller 'Jag är...' för att presentera oss. På engelska är det 'My name is...' eller 'I am...'. Den största skillnaden är att svenskar ofta översätter 'Jag heter...' till 'I name...' eller 'I am called...', vilket låter onaturligt på engelska. 'I am called' är korrekt men mycket formellt och används sällan i vardagligt tal. Det bästa är att använda 'My name is...' eller 'I am...'.",
+    "rule": "För att hälsa: 'Hello' (Hej), 'Hi' (mer informellt), 'Good morning' (God morgon), 'Good afternoon' (God eftermiddag), 'Good evening' (God kväll). För att presentera sig själv: 'My name is...' (Jag heter...) eller 'I am...' (Jag är...). För att fråga någons namn: 'What is your name?' (Vad heter du?). För att svara på en hälsning: 'Nice to meet you' (Trevligt att träffas) och svaret är 'Nice to meet you too'. För avsked: 'Goodbye', 'Bye', 'See you later'.",
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Maria.",
+        "translation": "Hej, jag heter Maria.",
+        "phonetic": "/həˈləʊ maɪ neɪm ɪz məˈriːə/"
+      },
+      {
+        "text": "Good morning, I am Peter.",
+        "translation": "God morgon, jag är Peter.",
+        "phonetic": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Trevligt att träffas.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "What is your name?",
+        "translation": "Vad heter du?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I name Daniel.",
+      "correct": "My name is Daniel.",
+      "correct_alt": "I am Daniel.",
+      "explanation": "På svenska säger vi 'Jag heter Daniel' – ordagrant översatt blir det 'I name Daniel' eller 'I am called Daniel'. Det är en direktöversättning som låter onaturlig på engelska. Använd 'My name is...' eller 'I am...' istället."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic greeting",
+        "translation": "Grundläggande hälsning",
+        "examples": [
+          {
+            "original": "Hello!",
+            "phonetic": "/həˈləʊ/",
+            "translation": "Hej!",
+            "note": "Standardhälsning."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Introduce yourself",
+        "translation": "Presentera dig själv",
+        "examples": [
+          {
+            "original": "My name is John.",
+            "phonetic": "/maɪ neɪm ɪz dʒɒn/",
+            "translation": "Jag heter John.",
+            "note": "Vanligaste sättet att säga sitt namn."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ask someone's name",
+        "translation": "Fråga någons namn",
+        "examples": [
+          {
+            "original": "What is your name?",
+            "phonetic": "/wɒt ɪz jɔː neɪm/",
+            "translation": "Vad heter du?",
+            "note": "Direkt fråga för att få veta någons namn."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Farewell",
+        "translation": "Avsked",
+        "examples": [
+          {
+            "original": "See you tomorrow!",
+            "phonetic": "/siː juː təˈmɒrəʊ/",
+            "translation": "Vi ses i morgon!",
+            "note": "Informellt avsked."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "sv_A1_func_02",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Give personal information (age, nationality, profession)",
+    "bridge": "På svenska säger vi 'Jag är 20 år' för ålder (utan 'gammal'), 'Jag är svensk' för nationalitet och 'Jag är lärare' för yrke (utan artikel). På engelska är det annorlunda: för ålder måste man lägga till 'old' ('I am 20 years old'), för yrke måste man använda 'a' eller 'an' ('I am a teacher'). Nationalitet är däremot likadan som på svenska – ingen artikel ('I am Swedish'). Kom ihåg att alltid använda 'to be' för ålder och yrke, inte 'have'.",
+    "rule": "För ålder: 'I am [number] years old' (t.ex. I am 25 years old). För nationalitet: 'I am [nationality]' (t.ex. I am Swedish, I am Mexican). För yrke: 'I am a/an [profession]' (t.ex. I am a doctor, I am an engineer). För att fråga: 'How old are you?' (Hur gammal är du?), 'Where are you from?' (Var kommer du ifrån?), 'What do you do?' (Vad jobbar du med?) eller 'What is your job?'.",
+    "concept_examples": [
+      {
+        "text": "I am 25 years old.",
+        "translation": "Jag är 25 år gammal.",
+        "phonetic": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/"
+      },
+      {
+        "text": "I am Swedish.",
+        "translation": "Jag är svensk.",
+        "phonetic": "/aɪ æm ˈswiːdɪʃ/"
+      },
+      {
+        "text": "I am a teacher.",
+        "translation": "Jag är lärare.",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "How old are you?",
+        "translation": "Hur gammal är du?",
+        "phonetic": "/haʊ əʊld ɑːr juː/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I have 25 years.",
+      "correct": "I am 25 years old.",
+      "correct_alt": "",
+      "explanation": "På svenska säger vi 'Jag är 25 år' – det är en direktöversättning där man glömmer 'old' i slutet. På engelska måste man alltid inkludera 'old' när man anger ålder."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Age",
+        "translation": "Ålder",
+        "examples": [
+          {
+            "original": "I am 30 years old.",
+            "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/",
+            "translation": "Jag är 30 år gammal.",
+            "note": "Använd 'to be' för ålder."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nationality",
+        "translation": "Nationalitet",
+        "examples": [
+          {
+            "original": "I am Mexican.",
+            "phonetic": "/aɪ æm ˈmeksɪkən/",
+            "translation": "Jag är mexikansk.",
+            "note": "Ingen artikel för nationalitet."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Profession",
+        "translation": "Yrke",
+        "examples": [
+          {
+            "original": "She is a nurse.",
+            "phonetic": "/ʃiː ɪz ə nɜːs/",
+            "translation": "Hon är sjuksköterska.",
+            "note": "Med artikel 'a' eller 'an' för yrken."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions",
+        "translation": "Frågor",
+        "examples": [
+          {
+            "original": "Where are you from?",
+            "phonetic": "/weə ɑːr juː frɒm/",
+            "translation": "Var kommer du ifrån?",
+            "note": "Fråga om ursprung."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "sv_A1_func_03",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Describe objects and people (basic)",
+    "bridge": "På svenska placerar vi adjektivet FÖRE substantivet: 'en röd bil', 'en stor hund'. På engelska är det precis likadant: 'a red car', 'a big dog'. Det finns alltså INGEN skillnad i ordföljd mellan svenska och engelska när det gäller adjektiv. Detta är en lättnad för svenskar – ni behöver inte lära er något nytt här! Använd 'to be' för allmänna beskrivningar (She is tall) och 'have got' för fysiska egenskaper (She has got blue eyes).",
+    "rule": "För att beskriva: 1) Adjektiv + substantiv (a big house). 2) Subjekt + verb 'to be' + adjektiv (The house is big). 3) Subjekt + 'have/has got' + egenskap (She has got long hair). Vanliga adjektiv: big (stor), small (liten), tall (lång), short (kort/låg), beautiful (vacker), old (gammal), young (ung), fast (snabb), slow (långsam).",
+    "concept_examples": [
+      {
+        "text": "This is a big house.",
+        "translation": "Det här är ett stort hus.",
+        "phonetic": "/ðɪs ɪz ə bɪɡ haʊs/"
+      },
+      {
+        "text": "She is tall and thin.",
+        "translation": "Hon är lång och smal.",
+        "phonetic": "/ʃiː ɪz tɔːl ænd θɪn/"
+      },
+      {
+        "text": "He has got blue eyes.",
+        "translation": "Han har blå ögon.",
+        "phonetic": "/hiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "Bilen är röd.",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      }
+    ],
+    "common_error": {
+      "wrong": "a car red",
+      "correct": "a red car",
+      "correct_alt": "",
+      "explanation": "Det här felet är vanligare för spansktalande, men svenskar gör det sällan eftersom svenska och engelska har samma ordföljd (adjektiv före substantiv). Men det är bra att påminna om att det är precis som på svenska."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adjective + noun",
+        "translation": "Adjektiv + substantiv",
+        "examples": [
+          {
+            "original": "a small dog",
+            "phonetic": "/ə smɔːl dɒɡ/",
+            "translation": "en liten hund",
+            "note": "Adjektivet placeras före substantivet – precis som på svenska."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Subject + to be + adjective",
+        "translation": "Subjekt + to be + adjektiv",
+        "examples": [
+          {
+            "original": "The book is interesting.",
+            "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/",
+            "translation": "Boken är intressant.",
+            "note": "Använd 'to be' för allmänna beskrivningar."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "have/has got for features",
+        "translation": "have/has got för egenskaper",
+        "examples": [
+          {
+            "original": "She has got curly hair.",
+            "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/",
+            "translation": "Hon har lockigt hår.",
+            "note": "Använd 'have got' för fysiska egenskaper."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Combined description",
+        "translation": "Kombinerad beskrivning",
+        "examples": [
+          {
+            "original": "My brother is young and he has got green eyes.",
+            "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/",
+            "translation": "Min bror är ung och han har gröna ögon.",
+            "note": "Kombination av 'to be' och 'have got'."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "sv_A1_func_04",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Talk about daily routines",
+    "bridge": "På svenska använder vi presens för att prata om rutiner: 'Jag går upp klockan sju varje dag'. På engelska är det precis likadant – vi använder present simple för vanor och rutiner. Skillnaden är att på svenska använder vi samma verbform för alla personer, medan engelskan lägger till -s i tredje person singular (he, she, it). Dessutom använder engelskan prepositionsuttryck som 'at' för tider ('at 7 o'clock'), 'in' för delar av dagen ('in the morning') och 'on' för dagar ('on Monday'). Kom ihåg att svenskar ofta glömmer -s i tredje person och placerar tidsuttryck fel.",
+    "rule": "För att prata om rutiner: 1) Använd present simple (I get up, she works). 2) Använd tidsuttryck: 'at' + tid (at 8 am), 'in' + del av dag (in the morning), 'on' + dag (on Friday). 3) Använd frekvensadverb före verbet (I always eat breakfast). 4) För att fråga: 'What time do you get up?' eller 'When do you have lunch?'.",
+    "concept_examples": [
+      {
+        "text": "I get up at 7 o'clock.",
+        "translation": "Jag går upp klockan sju.",
+        "phonetic": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/"
+      },
+      {
+        "text": "She usually has breakfast at 8 am.",
+        "translation": "Hon brukar äta frukost klockan åtta på morgonen.",
+        "phonetic": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/"
+      },
+      {
+        "text": "We go to work at 9 in the morning.",
+        "translation": "Vi åker till jobbet klockan nio på morgonen.",
+        "phonetic": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "What time do you have dinner?",
+        "translation": "Vad brukar du äta middag?",
+        "phonetic": "/wɒt taɪm duː juː hæv ˈdɪnə/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I eat now.",
+      "correct": "I am eating now.",
+      "correct_alt": "",
+      "explanation": "På svenska använder vi presens även för pågående handlingar: 'jag äter nu'. På engelska måste man använda present continuous (I am eating) för handlingar som pågår just nu. Detta är en mycket vanlig interferens från svenskan, som saknar denna distinktion."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Daily actions",
+        "translation": "Dagliga aktiviteter",
+        "examples": [
+          {
+            "original": "I get up early.",
+            "phonetic": "/aɪ ɡet ʌp ˈɜːli/",
+            "translation": "Jag går upp tidigt.",
+            "note": "Verb i present simple för rutin."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Time expressions",
+        "translation": "Tidsuttryck",
+        "examples": [
+          {
+            "original": "I have lunch at 1 pm.",
+            "phonetic": "/aɪ hæv lʌntʃ æt wʌn piː em/",
+            "translation": "Jag äter lunch klockan ett på eftermiddagen.",
+            "note": "Använd 'at' för specifika tider."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Frequency adverbs",
+        "translation": "Frekvensadverb",
+        "examples": [
+          {
+            "original": "She never drinks coffee.",
+            "phonetic": "/ʃiː ˈnevə drɪŋks ˈkɒfi/",
+            "translation": "Hon dricker aldrig kaffe.",
+            "note": "Adverb före huvudverbet."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions about routines",
+        "translation": "Frågor om rutiner",
+        "examples": [
+          {
+            "original": "What time do you go to bed?",
+            "phonetic": "/wɒt taɪm duː juː ɡəʊ tə bed/",
+            "translation": "Vad brukar du gå och lägga dig?",
+            "note": "Fråga med 'what time' + do/does."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "sv_A1_func_05",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Express likes and dislikes (I like / I don't like)",
+    "bridge": "På svenska säger vi 'Jag gillar pizza' eller 'Jag tycker om pizza'. På engelska använder vi verbet 'like' på samma sätt: 'I like pizza'. Skillnaden är att svenskar ibland översätter 'tycker om' till 'think of' eller 'hold of', vilket blir fel. En annan vanlig interferens är att placera 'very much' mellan verbet och objektet: 'I like very much pizza' istället för 'I like pizza very much'. Kom också ihåg att i tredje person singular (he, she, it) läggs -s till: 'She likes pizza'.",
+    "rule": "För att uttrycka tyckande: 1) Jakande: I/you/we/they like + objekt (I like coffee). He/she/it likes + objekt (She likes coffee). 2) Nekande: I/you/we/they don't like (I don't like tea). He/she/it doesn't like (He doesn't like tea). 3) Frågor: Do you like...? (Gillar du...?), Does she like...? (Gillar hon...?). 4) För att förstärka: 'I like it very much' (Jag gillar det väldigt mycket) eller 'I really like it'.",
+    "concept_examples": [
+      {
+        "text": "I like pizza.",
+        "translation": "Jag gillar pizza.",
+        "phonetic": "/aɪ laɪk ˈpiːtsə/"
+      },
+      {
+        "text": "She likes reading.",
+        "translation": "Hon gillar att läsa.",
+        "phonetic": "/ʃiː laɪks ˈriːdɪŋ/"
+      },
+      {
+        "text": "We don't like fast food.",
+        "translation": "Vi gillar inte snabbmat.",
+        "phonetic": "/wiː dəʊnt laɪk fɑːst fuːd/"
+      },
+      {
+        "text": "Do you like music?",
+        "translation": "Gillar du musik?",
+        "phonetic": "/duː juː laɪk ˈmjuːzɪk/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I like very much pizza.",
+      "correct": "I like pizza very much.",
+      "correct_alt": "",
+      "explanation": "På svenska säger vi 'Jag gillar pizza väldigt mycket' – adverbet kommer efter objektet. På engelska placeras 'very much' i slutet av meningen, inte mellan verbet och objektet. Detta är en direktöversättning från svenskan som ofta förekommer."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Affirmative with I/you/we/they",
+        "translation": "Jakande med I/you/we/they",
+        "examples": [
+          {
+            "original": "I like chocolate.",
+            "phonetic": "/aɪ laɪk ˈtʃɒkələt/",
+            "translation": "Jag gillar choklad.",
+            "note": "Verbet 'like' i grundform."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Affirmative with he/she/it",
+        "translation": "Jakande med he/she/it",
+        "examples": [
+          {
+            "original": "He likes football.",
+            "phonetic": "/hiː laɪks ˈfʊtbɔːl/",
+            "translation": "Han gillar fotboll.",
+            "note": "Lägg till -s i tredje person singular."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negative with don't/doesn't",
+        "translation": "Nekande med don't/doesn't",
+        "examples": [
+          {
+            "original": "She doesn't like coffee.",
+            "phonetic": "/ʃiː ˈdʌznt laɪk ˈkɒfi/",
+            "translation": "Hon gillar inte kaffe.",
+            "note": "Använd 'doesn't' + verb i grundform."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions with Do/Does",
+        "translation": "Frågor med Do/Does",
+        "examples": [
+          {
+            "original": "Do you like dogs?",
+            "phonetic": "/duː juː laɪk dɒɡz/",
+            "translation": "Gillar du hundar?",
+            "note": "Fråga med 'do' + subjekt + verb i grundform."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "sv_A1_func_06",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Ask for and give prices",
+    "bridge": "På svenska frågar vi 'Hur mycket kostar det?' eller 'Vad kostar den?'. På engelska använder vi 'How much is it?' (singular) eller 'How much are they?' (plural). Man kan också säga 'How much does it cost?' (Hur mycket kostar det?). Skillnaden är att på svenska använder vi inget hjälpverb, men på engelska måste man använda 'to be' eller hjälpverbet 'does' med 'cost'. Svenskar tenderar att säga 'How much cost it?' – en direktöversättning utan hjälpverb, vilket är fel.",
+    "rule": "För att fråga om priset: 1) 'How much is it?' (för ett objekt) eller 'How much are they?' (för flera). 2) 'How much does it cost?' (Hur mycket kostar den?). 3) 'How much is the T-shirt?' (Hur mycket kostar t-shirten?). För att svara: 'It is 25 dollars' eller 'It costs 25 dollars'. I frågor använder man alltid 'to be' eller hjälpverbet 'does' + 'cost'.",
+    "concept_examples": [
+      {
+        "text": "How much is it?",
+        "translation": "Hur mycket kostar den?",
+        "phonetic": "/haʊ mʌtʃ ɪz ɪt/"
+      },
+      {
+        "text": "How much does it cost?",
+        "translation": "Hur mycket kostar det?",
+        "phonetic": "/haʊ mʌtʃ dʌz ɪt kɒst/"
+      },
+      {
+        "text": "It is 10 dollars.",
+        "translation": "Det kostar 10 dollar.",
+        "phonetic": "/ɪt ɪz ten ˈdɒləz/"
+      },
+      {
+        "text": "How much are these shoes?",
+        "translation": "Hur mycket kostar de här skorna?",
+        "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
+      }
+    ],
+    "common_error": {
+      "wrong": "How much cost it?",
+      "correct": "How much does it cost?",
+      "correct_alt": "How much is it?",
+      "explanation": "På svenska frågar vi 'Hur mycket kostar det?' utan hjälpverb. På engelska, med verbet 'cost', behöver man använda hjälpverbet 'does' i frågor. Detta är en vanlig direktöversättning från svenskan."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ask price with 'to be'",
+        "translation": "Fråga om pris med 'to be'",
+        "examples": [
+          {
+            "original": "How much is the book?",
+            "phonetic": "/haʊ mʌtʃ ɪz ðə bʊk/",
+            "translation": "Hur mycket kostar boken?",
+            "note": "Använd 'to be' för att fråga om priset."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ask price with 'cost'",
+        "translation": "Fråga om pris med 'cost'",
+        "examples": [
+          {
+            "original": "How much does the bag cost?",
+            "phonetic": "/haʊ mʌtʃ dʌz ðə bæɡ kɒst/",
+            "translation": "Hur mycket kostar väskan?",
+            "note": "Använd 'does' + 'cost' för att fråga."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Give price",
+        "translation": "Ge priset",
+        "examples": [
+          {
+            "original": "It costs 5 euros.",
+            "phonetic": "/ɪt kɒsts faɪv ˈjʊərəʊz/",
+            "translation": "Det kostar 5 euro.",
+            "note": "Använd 'costs' i tredje person singular."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Plural questions",
+        "translation": "Plurala frågor",
+        "examples": [
+          {
+            "original": "How much are these apples?",
+            "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ˈæpəlz/",
+            "translation": "Hur mycket kostar de här äpplena?",
+            "note": "Använd 'are' för plural."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "sv_A1_func_07",
+    "type": "concept",
+    "category": "Funktionskommunikation",
+    "title": "Indicate location of places",
+    "bridge": "På svenska använder vi 'ligger' för fasta platser (t.ex. 'Banken ligger nära parken'). På engelska använder vi 'is' för all placering. Det är en viktig skillnad: svenskar översätter ofta 'ligger' till 'lies', vilket låter mycket formellt och onaturligt på engelska ('The bank lies near the park'). Det bättre är att använda 'is' ('The bank is near the park'). En annan skillnad är prepositioner: på svenska säger vi 'i skolan' för att vi är i byggnaden, men på engelska säger man 'at school' för att man studerar där, och 'in the school' för att man är inne i byggnaden. Kom ihåg: för kollektivtrafik använder vi 'on' (on the bus), inte 'in'.",
+    "rule": "För att ange plats: 1) Använd verbet 'to be' (The bank is...). 2) Prepositioner: 'on' (på, på en yta eller gata), 'in' (i, innanför), 'at' (vid, på en specifik plats), 'next to' (bredvid), 'near' (nära), 'opposite' (mittemot), 'behind' (bakom), 'in front of' (framför). 3) För att fråga: 'Where is the...?' (Var ligger...?) eller 'Is there a... near here?' (Finns det en... i närheten?).",
+    "concept_examples": [
+      {
+        "text": "The supermarket is near the park.",
+        "translation": "Stormarknaden ligger nära parken.",
+        "phonetic": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/"
+      },
+      {
+        "text": "The school is next to the church.",
+        "translation": "Skolan ligger bredvid kyrkan.",
+        "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/"
+      },
+      {
+        "text": "The pharmacy is on Main Street.",
+        "translation": "Apoteket ligger på Main Street.",
+        "phonetic": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/"
+      },
+      {
+        "text": "Where is the bus station?",
+        "translation": "Var ligger busstationen?",
+        "phonetic": "/weə ɪz ðə bʌs ˈsteɪʃən/"
+      }
+    ],
+    "common_error": {
+      "wrong": "The bank lies near the park.",
+      "correct": "The bank is near the park.",
+      "correct_alt": "",
+      "explanation": "På svenska säger vi 'banken ligger nära parken' – 'ligger' översätts ofta till 'lies' av svenskar. På engelska använder man nästan alltid 'is' för placering, och 'lies' låter mycket formellt eller poetiskt. Använd 'is' i vardagliga sammanhang."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic location with 'in'",
+        "translation": "Grundläggande plats med 'in'",
+        "examples": [
+          {
+            "original": "The cat is in the garden.",
+            "phonetic": "/ðə kæt ɪz ɪn ðə ˈɡɑːdən/",
+            "translation": "Katten är i trädgården.",
+            "note": "Använd 'in' för slutna utrymmen."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Location with 'next to'",
+        "translation": "Plats med 'next to'",
+        "examples": [
+          {
+            "original": "The restaurant is next to the hotel.",
+            "phonetic": "/ðə ˈrestrɒnt ɪz nekst tə ðə həʊˈtel/",
+            "translation": "Restaurangen ligger bredvid hotellet.",
+            "note": "Använd 'next to' för sidoposition."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Location with 'near' and 'opposite'",
+        "translation": "Plats med 'near' och 'opposite'",
+        "examples": [
+          {
+            "original": "The bank is opposite the park.",
+            "phonetic": "/ðə bæŋk ɪz ˈɒpəzɪt ðə pɑːk/",
+            "translation": "Banken ligger mittemot parken.",
+            "note": "Använd 'opposite' för mittemot."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Question with Where",
+        "translation": "Fråga med Where",
+        "examples": [
+          {
+            "original": "Where is the police station?",
+            "phonetic": "/weə ɪz ðə pəˈliːs ˈsteɪʃən/",
+            "translation": "Var ligger polisstationen?",
+            "note": "Direkt fråga med 'Where'."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  }
+]
