@@ -2195,28 +2195,66 @@ function _renderBanner(banners, idx, wrap) {
     wrap.querySelectorAll('.app-banner-dot').forEach((dot, i) => {
         dot.addEventListener('click', () => {
             clearInterval(_bannerInterval);
-            _bannerIdx = i;
-            _renderBanner(banners, _bannerIdx, wrap);
-            _bannerInterval = setInterval(() => {
-                _bannerIdx = (_bannerIdx + 1) % banners.length;
+            wrap.style.transition = 'opacity 0.35s';
+            wrap.style.opacity = '0';
+            setTimeout(() => {
+                _bannerIdx = i;
                 _renderBanner(banners, _bannerIdx, wrap);
-            }, 6000);
+                _bannerInsertRandom(wrap);
+                wrap.style.opacity = '1';
+                _bannerInterval = setInterval(() => {
+                    wrap.style.opacity = '0';
+                    setTimeout(() => {
+                        _bannerIdx = (_bannerIdx + 1) % banners.length;
+                        _renderBanner(banners, _bannerIdx, wrap);
+                        _bannerInsertRandom(wrap);
+                        wrap.style.opacity = '1';
+                    }, 380);
+                }, 8000);
+            }, 380);
         });
     });
 }
 
+function _bannerInsertRandom(wrap) {
+    const grid = document.querySelector('.modes-grid');
+    if (!grid) return;
+    const cards = Array.from(grid.children).filter(el => el !== wrap);
+    if (!cards.length) { grid.appendChild(wrap); return; }
+    const pos = Math.floor(Math.random() * (cards.length + 1));
+    if (pos >= cards.length) {
+        grid.appendChild(wrap);
+    } else {
+        grid.insertBefore(wrap, cards[pos]);
+    }
+}
+
 function _initAppBanners() {
-    const wrap = document.getElementById('appBannersWrap');
-    if (!wrap) return;
+    let wrap = document.getElementById('appBannersWrap');
+    if (!wrap) {
+        wrap = document.createElement('div');
+        wrap.id = 'appBannersWrap';
+        wrap.className = 'app-banners-wrap';
+        const grid = document.querySelector('.modes-grid');
+        if (grid) grid.appendChild(wrap);
+    }
     clearInterval(_bannerInterval);
     const banners = _getBanners();
     if (!banners.length) return;
     _bannerIdx = 0;
+    _bannerInsertRandom(wrap);
     _renderBanner(banners, _bannerIdx, wrap);
+
     _bannerInterval = setInterval(() => {
-        _bannerIdx = (_bannerIdx + 1) % banners.length;
-        _renderBanner(banners, _bannerIdx, wrap);
-    }, 6000);
+        wrap.style.transition = 'opacity 0.35s';
+        wrap.style.opacity = '0';
+        setTimeout(() => {
+            _bannerIdx = (_bannerIdx + 1) % banners.length;
+            _renderBanner(banners, _bannerIdx, wrap);
+            _bannerInsertRandom(wrap);
+            wrap.style.opacity = '1';
+        }, 380);
+    }, 8000);
 }
 
 // ─── Contributors modal ───────────────────────────────────────
@@ -2445,7 +2483,6 @@ function showMainMenu() {
                 <p>Desbloqueá todas las funciones sin límites</p>
             </div>` : ''}
 
-            <div id="appBannersWrap" class="app-banners-wrap"></div>
         </div>
     `);
 
