@@ -2217,7 +2217,7 @@ function _renderBanner(banners, idx, wrap) {
 }
 
 function _bannerInsertRandom(wrap) {
-    const grid = document.querySelector('.modes-grid');
+    const grid = document.querySelector('.main-menu');
     if (!grid) return;
     const cards = Array.from(grid.children).filter(el => el !== wrap);
     if (!cards.length) { grid.appendChild(wrap); return; }
@@ -2235,7 +2235,7 @@ function _initAppBanners() {
         wrap = document.createElement('div');
         wrap.id = 'appBannersWrap';
         wrap.className = 'app-banners-wrap';
-        const grid = document.querySelector('.modes-grid');
+        const grid = document.querySelector('.main-menu');
         if (grid) grid.appendChild(wrap);
     }
     clearInterval(_bannerInterval);
