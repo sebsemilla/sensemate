@@ -618,22 +618,33 @@ function _showPaymentFlow(period, tier = 'premium') {
     const price = tier === 'oro'
         ? (period === 'annual' ? oroAnnual : oroMonthly)
         : tier === 'contributor'
-        ? 4.99
+        ? (period === 'quarterly' ? 10.00 : 4.99)
         : (period === 'annual' ? (promoActive ? promoAnnual : regAnnual) : (promoActive ? promoMonthly : regMonthly));
     const planName = tier === 'oro'
         ? (isES ? 'Membresía Oro' : 'Gold Membership')
         : tier === 'contributor'
         ? 'Contributor'
         : (isES ? (config.planName?.es || 'Premium 250X') : (config.planName?.en || 'STARTUP FOR 250X'));
-    const periodLabel = period === 'annual' ? (isES ? 'anual' : 'annual') : (isES ? 'mensual' : 'monthly');
+    const periodLabel = period === 'annual'
+        ? (isES ? 'anual' : 'annual')
+        : period === 'quarterly'
+        ? (isES ? 'trimestral' : 'quarterly')
+        : (isES ? 'mensual' : 'monthly');
 
     const modal = document.createElement('div');
     modal.className = 'payment-modal-overlay';
 
     // Determinar el period key para el backend
-    const periodKey   = period === 'annual'
-        ? (promoActive ? 'promo-anual'   : 'anual')
-        : (promoActive ? 'promo-mensual' : 'mensual');
+    let periodKey;
+    if (tier === 'oro') {
+        periodKey = period === 'annual' ? 'oro-anual' : 'oro-mensual';
+    } else if (tier === 'contributor') {
+        periodKey = period === 'quarterly' ? 'contributor-trimestral' : 'contributor-mensual';
+    } else {
+        periodKey = period === 'annual'
+            ? (promoActive ? 'promo-anual'   : 'anual')
+            : (promoActive ? 'promo-mensual' : 'mensual');
+    }
 
     if (region === 'latam') {
         modal.innerHTML = `

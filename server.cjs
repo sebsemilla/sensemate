@@ -1381,7 +1381,7 @@ const SUBSCRIPTIONS_FILE      = path.join(__dirname, 'subscriptions.json');
 const DEFAULT_MEMBERSHIP_CONFIG = {
     promo: {
         active: true,
-        maxSubscribers: 500,
+        maxSubscribers: 250,
         monthlyPrice: 2.00,
         annualPrice: 9.99,
         badge: '🔥 Precio de lanzamiento',
@@ -1527,18 +1527,55 @@ const mpClient = new MercadoPagoConfig({
 });
 
 const PLAN_PRICES = {
-    'promo-anual':   9.99,
-    'promo-mensual': 2.00,
-    'anual':         34.99,
-    'mensual':       4.99,
+    'promo-anual':            9.99,
+    'promo-mensual':          2.00,
+    'anual':                  34.99,
+    'mensual':                4.99,
+    'oro-anual':              29.99,
+    'oro-mensual':            4.99,
+    'contributor-mensual':    4.99,
+    'contributor-trimestral': 10.00,
 };
 
 const PLAN_LABELS = {
-    'promo-anual':   'SenseMate Premium – Anual Promo (1er año)',
-    'promo-mensual': 'SenseMate Premium – Mensual Promo',
-    'anual':         'SenseMate Premium – Anual',
-    'mensual':       'SenseMate Premium – Mensual',
+    'promo-anual':            'SenseMate Premium – Anual Promo (1er año)',
+    'promo-mensual':          'SenseMate Premium – Mensual Promo',
+    'anual':                  'SenseMate Premium – Anual',
+    'mensual':                'SenseMate Premium – Mensual',
+    'oro-anual':              'SenseMate Oro – Anual',
+    'oro-mensual':            'SenseMate Oro – Mensual',
+    'contributor-mensual':    'SenseMate Contributor – Mensual',
+    'contributor-trimestral': 'SenseMate Contributor – Trimestral',
 };
+
+// Determina el tier a partir del periodKey
+function _tierFromPeriod(period) {
+    if (period?.startsWith('oro'))         return 'oro';
+    if (period?.startsWith('contributor')) return 'contributor';
+    return 'premium';
+}
+
+// Convierte period + tier a la clave de plan que se guarda en la BD
+function _planKey(period, tier) {
+    const t = tier || _tierFromPeriod(period);
+    const isAnnual = period?.includes('anual') || period === 'annual';
+    if (t === 'oro')         return isAnnual ? 'oro_annual'         : 'oro_monthly';
+    if (t === 'contributor') return period?.includes('trimestral') ? 'contributor_quarterly' : 'contributor_monthly';
+    return isAnnual ? 'premium_annual' : 'premium_monthly';
+}
+
+// Upsert en subscriptions.json
+function _upsertSubscription(userId, plan, period, paymentId) {
+    const subs     = loadSubscriptions();
+    const existing = subs.find(s => s.userId === userId);
+    const now      = new Date().toISOString();
+    if (existing) {
+        Object.assign(existing, { status: 'active', plan, paymentId, updatedAt: now });
+    } else {
+        subs.push({ id: Date.now().toString(), userId, plan, period, paymentId, status: 'active', subscribedAt: now });
+    }
+    saveSubscriptions(subs);
+}
 
 // POST /mp/create-preference — crea una preferencia de Checkout Pro
 app.post('/mp/create-preference', authDb.verifyToken, async (req, res) => {
@@ -1553,13 +1590,13 @@ app.post('/mp/create-preference', authDb.verifyToken, async (req, res) => {
         const preference = new Preference(mpClient);
         const body = {
             items: [{
-                title:      PLAN_LABELS[period] || 'SenseMate Premium',
-                quantity:   1,
-                unit_price: price,
-                currency_id: 'ARS',
+                title:       PLAN_LABELS[period] || 'SenseMate Premium',
+                quantity:    1,
+                unit_price:  price,
+                currency_id: 'USD',
             }],
             payer: { email: userEmail || 'guest@sensemate.app' },
-            external_reference: JSON.stringify({ userId: req.jwtUser.id, period }),
+            external_reference: JSON.stringify({ userId: req.jwtUser.id, period, tier: _tierFromPeriod(period) }),
         };
         // back_urls, auto_return y notification_url requieren dominio público HTTPS
         // En localhost se omiten — el pago funciona pero sin redirección automática
@@ -1589,22 +1626,10 @@ app.get('/mp/success', async (req, res) => {
 
     if (payment_id && external_reference) {
         try {
-            const ref   = JSON.parse(external_reference);
-            const plan  = ref.period?.includes('anual') ? 'premium_annual' : 'premium_monthly';
+            const ref  = JSON.parse(external_reference);
+            const plan = _planKey(ref.period, ref.tier);
             authDb.setUserPlan(ref.userId, plan);
-
-            // Registrar en subscriptions.json
-            const subs = loadSubscriptions();
-            const existing = subs.find(s => s.userId === ref.userId);
-            if (existing) {
-                existing.status    = 'active';
-                existing.plan      = plan;
-                existing.paymentId = payment_id;
-                existing.updatedAt = new Date().toISOString();
-            } else {
-                subs.push({ id: Date.now().toString(), userId: ref.userId, plan, period: ref.period, paymentId: payment_id, status: 'active', subscribedAt: new Date().toISOString() });
-            }
-            saveSubscriptions(subs);
+            _upsertSubscription(ref.userId, plan, ref.period, payment_id);
         } catch (e) {
             console.error('❌ MP success parse error:', e.message);
         }
@@ -1625,33 +1650,28 @@ app.get('/mp/pending', (req, res) => {
 
 // POST /mp/webhook — notificaciones IPN de MercadoPago
 app.post('/mp/webhook', express.raw({ type: 'application/json' }), async (req, res) => {
-    const { type, data } = req.body;
     res.status(200).send('OK'); // Responder 200 rápido para que MP no reintente
 
+    let notification;
+    try {
+        notification = JSON.parse(req.body.toString('utf8'));
+    } catch { return; }
+
+    const { type, data } = notification;
     if (type !== 'payment') return;
     try {
-        const payment   = new Payment(mpClient);
+        const payment     = new Payment(mpClient);
         const paymentData = await payment.get({ id: data.id });
         if (paymentData.status !== 'approved') return;
 
-        const ref  = JSON.parse(paymentData.external_reference || '{}');
+        const ref = JSON.parse(paymentData.external_reference || '{}');
         if (!ref.userId) return;
 
-        const plan = ref.period?.includes('anual') ? 'premium_annual' : 'premium_monthly';
+        const plan = _planKey(ref.period, ref.tier);
         authDb.setUserPlan(ref.userId, plan);
         console.log(`✅ MP webhook: usuario ${ref.userId} activado como ${plan}`);
 
-        const subs = loadSubscriptions();
-        const existing = subs.find(s => s.userId === ref.userId);
-        if (existing) {
-            existing.status    = 'active';
-            existing.plan      = plan;
-            existing.paymentId = data.id;
-            existing.updatedAt = new Date().toISOString();
-        } else {
-            subs.push({ id: Date.now().toString(), userId: ref.userId, plan, period: ref.period, paymentId: data.id, status: 'active', subscribedAt: new Date().toISOString() });
-        }
-        saveSubscriptions(subs);
+        _upsertSubscription(ref.userId, plan, ref.period, data.id);
     } catch (e) {
         console.error('❌ MP webhook error:', e.message);
     }
