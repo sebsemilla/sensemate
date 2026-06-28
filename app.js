@@ -2388,6 +2388,7 @@ function showMainMenu() {
     const showFamous      = inExploracion;
     const showPractice    = inTraduccion;
     const showMusicians   = inTraduccion || inExploracion;
+    const showWriters     = inTraduccion || inExploracion;
     const showImmersion   = inTraduccion || inExploracion;
     const showPlans       = inTraduccion;
 
@@ -2473,6 +2474,13 @@ function showMainMenu() {
                 <p>${t.descripcion_musicos_mundo}</p>
             </div>` : sectionMinimized('musicians', '🎵', 'Músicos y Letras')) : ''}
 
+            ${showWriters ? `
+            <div class="mode-card" data-mode="writers">
+                <h2>📖</h2>
+                <h4>Escritores y Escritos</h4>
+                <p>Poemas, fragmentos y frases de grandes escritores con traducción lado a lado</p>
+            </div>` : ''}
+
             ${showImmersion ? (sectionEnabled('immersion') ? `
             <div class="mode-card" data-mode="immersion">
                 <h2>🌍</h2>
@@ -2498,6 +2506,9 @@ function showMainMenu() {
             if      (mode === 'simple')    loadSimpleMode();
             else if (mode === 'school')    requireAuth('Modo Escuela',     loadSchoolMode);
             else if (mode === 'practice')  requireAuth('Modo Práctica',    loadPracticeMenu);
+            else if (mode === 'writers') {
+                if (typeof loadWritersMenu === 'function') loadWritersMenu();
+            }
             else if (mode === 'musicians') {
                 if (typeof MembershipPlan !== 'undefined' && !MembershipPlan.canUseSingleUse('musicians')) {
                     _showUpgradeModal('musicians'); return;
