@@ -53,9 +53,11 @@ const avatarStyles = {
 };
 
 // API — localhost usa puerto 3000, producción usa el mismo origen
-const _API_HOST = window.location.hostname === 'localhost'
-    ? 'http://localhost:3000'
-    : window.location.origin;
+// En app nativa (Capacitor) siempre usar producción
+const _IS_NATIVE = !!(window.Capacitor?.isNativePlatform?.());
+const _API_HOST = _IS_NATIVE
+    ? 'https://sensemate.app'
+    : (window.location.hostname === 'localhost' ? 'http://localhost:3000' : window.location.origin);
 const API_URL   = `${_API_HOST}/translate`;
 // API_BASE is declared globally in auth.js
 

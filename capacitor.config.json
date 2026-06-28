@@ -1,6 +1,15 @@
 {
-  "appId": "com.tuapp.id",
-  "appName": "TuApp",
-  "webDir": "www"
+  "appId": "app.sensemate.android",
+  "appName": "SenseMate",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#2d6a4f",
+      "showSpinner": false
+    }
+  }
 }
-
