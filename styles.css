@@ -11413,6 +11413,50 @@ body.dark-mode .app-mode-btn {
     .wt-reader-footer  { justify-content: center; }
 }
 
+/* Submit form */
+.wt-submit-overlay { align-items: flex-start; padding-top: 2rem; overflow-y: auto; }
+.wt-submit-modal   { max-height: none; }
+.wt-submit-body    { padding: 1rem 1.25rem; display: flex; flex-direction: column; gap: .85rem; overflow-y: auto; }
+.wt-submit-row     { display: flex; gap: .75rem; }
+.wt-submit-field   { display: flex; flex-direction: column; gap: .3rem; flex: 1; }
+.wt-submit-field--sm { flex: 0 0 160px; }
+.wt-submit-field label { font-size: .78rem; font-weight: 700; color: var(--text); }
+.wt-submit-hint    { font-weight: 400; color: var(--text-muted); }
+.wt-submit-charcount { font-size: .72rem; color: var(--text-muted); text-align: right; }
+.wt-submit-points-info {
+    background: linear-gradient(135deg, #fef3c7, #fde68a);
+    border: 1px solid #f59e0b;
+    border-radius: 10px;
+    padding: .6rem .9rem;
+    font-size: .82rem;
+    color: #92400e;
+}
+.dark-mode .wt-submit-points-info { background: #1c1a0a; border-color: #92400e; color: #fde68a; }
+
+/* Writers upload button */
+.writers-upload-btn {
+    padding: .35rem .8rem;
+    border-radius: 20px;
+    border: 1.5px solid #6366f1;
+    background: transparent;
+    color: #6366f1;
+    font-size: .8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .18s;
+}
+.writers-upload-btn:hover { background: #6366f1; color: #fff; }
+
+/* Admin writers stats */
+.asong-stats-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: .75rem; }
+.asong-stat      { font-size: .82rem; color: var(--text-muted); }
+.asong-note      { font-size: .78rem; color: #f59e0b; margin-top: .25rem; }
+
+@media (max-width: 560px) {
+    .wt-submit-row { flex-direction: column; }
+    .wt-submit-field--sm { flex: 1; }
+}
+
 .sgm-overlay {
     position: fixed;
     inset: 0;

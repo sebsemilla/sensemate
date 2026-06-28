@@ -1219,6 +1219,199 @@ app.get('/admin/songs/points', (req, res) => {
     res.json(points);
 });
 
+// ─── Writers & Texts ─────────────────────────────────────────
+
+const WRITERS_SUBMISSIONS_FILE = path.join(__dirname, 'writers_submissions.json');
+
+function loadWriterSubmissions() {
+    try { return JSON.parse(fs.readFileSync(WRITERS_SUBMISSIONS_FILE, 'utf8')); }
+    catch { return []; }
+}
+function saveWriterSubmissions(data) {
+    fs.writeFileSync(WRITERS_SUBMISSIONS_FILE, JSON.stringify(data, null, 2), 'utf8');
+}
+
+// Puntos por tipo de aporte
+const WRITER_POINTS = { text: 5, translation: 8 };
+
+function _calcWriterPoints(submissions) {
+    // Devuelve { [userId]: totalPoints }
+    const map = {};
+    submissions.filter(s => s.status === 'approved').forEach(s => {
+        const uid = s.submittedBy;
+        if (!uid) return;
+        map[uid] = (map[uid] || 0) + (s.pointsAwarded || WRITER_POINTS.text);
+    });
+    return map;
+}
+
+function _checkAndGrantFreeMonth(userId) {
+    const all    = loadWriterSubmissions();
+    const points = _calcWriterPoints(all)[userId] || 0;
+    if (points >= 50) {
+        const user = authDb.getUserById(userId);
+        if (user && user.plan !== 'premium_annual' && user.plan !== 'oro_annual') {
+            authDb.setUserPlan(userId, 'premium_monthly');
+            console.log(`🏆 Mes gratis otorgado a ${userId} por ${points} puntos`);
+        }
+    }
+}
+
+// POST /writers/submit — enviar texto (Premium requerido; admin → aprobación directa)
+app.post('/writers/submit', (req, res) => {
+    const isAdminSubmit = req.headers['x-admin-token'] === ADMIN_TOKEN;
+
+    // Auth check — admins no necesitan token JWT
+    let userId = null;
+    if (!isAdminSubmit) {
+        const auth = req.headers.authorization || '';
+        try {
+            const payload = require('jsonwebtoken').verify(auth.slice(7), process.env.JWT_SECRET || 'lingua_dev_secret_change_in_prod');
+            if (!payload.isDev && payload.plan !== 'premium' && payload.plan !== 'trial' &&
+                !payload.plan?.startsWith('premium') && !payload.plan?.startsWith('oro') &&
+                !payload.plan?.startsWith('contributor')) {
+                return res.status(403).json({ error: 'Se requiere membresía Premium para subir contenido.' });
+            }
+            userId = payload.id;
+        } catch {
+            return res.status(401).json({ error: 'Sesión inválida. Iniciá sesión para continuar.' });
+        }
+    }
+
+    const { writerId, writerName, writerCountry, title, type, original, translation, lang, targetLang, visibility } = req.body;
+    if (!writerName || !title || !type || !original || !lang) {
+        return res.status(400).json({ error: 'Faltan campos requeridos: escritor, título, tipo, texto y idioma.' });
+    }
+
+    const all  = loadWriterSubmissions();
+    const norm = s => (s || '').trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+
+    // Evitar duplicados exactos
+    const dup = all.find(s => norm(s.writerName) === norm(writerName) && norm(s.title) === norm(title) && norm(s.original) === norm(original));
+    if (dup) return res.status(409).json({ error: 'Este texto ya existe en la base de datos.' });
+
+    const hasTranslation = !!(translation && translation.trim());
+    const pointsAwarded  = hasTranslation ? WRITER_POINTS.text + WRITER_POINTS.translation : WRITER_POINTS.text;
+
+    const stableId = (writerName + '_' + title).toLowerCase()
+        .normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+
+    const entry = {
+        id:            `wt_${Date.now()}`,
+        writerId:      writerId || stableId.split('_').slice(0, 2).join('_'),
+        writerName:    writerName.trim(),
+        writerCountry: (writerCountry || '').trim(),
+        title:         title.trim(),
+        type:          type.trim(),
+        original:      original.trim(),
+        translation:   hasTranslation ? translation.trim() : null,
+        lang:          lang.trim(),
+        targetLang:    (targetLang || 'en').trim(),
+        visibility:    isAdminSubmit ? 'public' : (visibility || 'public'),
+        submittedBy:   userId || 'admin',
+        pointsAwarded,
+        status:        isAdminSubmit ? 'approved' : 'pending',
+        submittedAt:   new Date().toISOString(),
+    };
+
+    all.push(entry);
+    saveWriterSubmissions(all);
+
+    if (!isAdminSubmit) _checkAndGrantFreeMonth(userId);
+
+    console.log(`📖 Texto ${isAdminSubmit ? 'aprobado directamente' : 'enviado para revisión'}: "${entry.title}" de ${entry.writerName}`);
+    res.json({ ok: true, id: entry.id, autoApproved: isAdminSubmit, pointsAwarded });
+});
+
+// GET /writers/data/:lang — textos aprobados + públicos para writers.js
+app.get('/writers/data/:lang', (req, res) => {
+    const lang = req.params.lang;
+    const approved = loadWriterSubmissions().filter(s =>
+        s.status === 'approved' &&
+        s.lang === lang &&
+        s.visibility !== 'private'
+    );
+
+    const writersMap = {};
+    const textsMap   = {};
+
+    approved.forEach(s => {
+        const wid = s.writerId || s.writerName.toLowerCase()
+            .normalize('NFD').replace(/[̀-ͯ]/g, '')
+            .replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+
+        if (!writersMap[wid]) {
+            writersMap[wid] = {
+                id:      wid,
+                name:    s.writerName,
+                image:   '✍️',
+                country: s.writerCountry || '',
+                years:   '',
+                genres:  [],
+                fromDb:  true,
+            };
+        }
+        if (s.type && !writersMap[wid].genres.includes(s.type)) writersMap[wid].genres.push(s.type);
+
+        if (!textsMap[wid]) textsMap[wid] = [];
+        textsMap[wid].push({
+            id:          s.id,
+            title:       s.title,
+            type:        s.type,
+            original:    s.original,
+            translation: s.translation || '',
+            lang:        s.lang,
+            targetLang:  s.targetLang || 'en',
+            country:     s.writerCountry || '',
+        });
+    });
+
+    res.json({ writers: Object.values(writersMap), texts: textsMap });
+});
+
+// GET /admin/writers — todas las submissions
+app.get('/admin/writers', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    res.json(loadWriterSubmissions());
+});
+
+// PATCH /admin/writers/:id — aprobar, rechazar o editar
+app.patch('/admin/writers/:id', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    const all   = loadWriterSubmissions();
+    const entry = all.find(s => s.id === req.params.id);
+    if (!entry) return res.status(404).json({ error: 'No encontrado' });
+
+    const prev = entry.status;
+    ['status','title','type','original','translation','visibility','adminNote','writerName','writerCountry','lang','targetLang'].forEach(f => {
+        if (req.body[f] !== undefined) entry[f] = req.body[f];
+    });
+    entry.updatedAt = new Date().toISOString();
+
+    saveWriterSubmissions(all);
+
+    // Si se acaba de aprobar, verificar si el autor alcanzó 50 puntos
+    if (prev !== 'approved' && entry.status === 'approved' && entry.submittedBy !== 'admin') {
+        _checkAndGrantFreeMonth(entry.submittedBy);
+    }
+
+    res.json({ ok: true });
+});
+
+// DELETE /admin/writers/:id — eliminar
+app.delete('/admin/writers/:id', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    saveWriterSubmissions(loadWriterSubmissions().filter(s => s.id !== req.params.id));
+    res.json({ ok: true });
+});
+
+// GET /admin/writers/points — puntos por usuario
+app.get('/admin/writers/points', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    res.json(_calcWriterPoints(loadWriterSubmissions()));
+});
+
 // ─── Contributors & Publications ─────────────────────────────
 
 const CONTRIBUTOR_CODE   = 'SOYPROFE';

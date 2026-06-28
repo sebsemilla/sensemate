@@ -24,6 +24,7 @@ function loadAdminPanel() {
             <div class="admin-tabs">
                 <button class="admin-tab active" data-tab="feedback">📢 Feedback</button>
                 <button class="admin-tab" data-tab="songs" id="adminTabSongs">🎵 Canciones</button>
+                <button class="admin-tab" data-tab="writers" id="adminTabWriters">📖 Escritores</button>
                 <button class="admin-tab" data-tab="stats">📊 Estadísticas</button>
                 <button class="admin-tab" data-tab="contributors">👥 Contributores</button>
                 <button class="admin-tab" data-tab="tools">🔧 Herramientas</button>
@@ -81,6 +82,8 @@ async function _adminLoadTab(tab) {
             await _adminRenderFeedback(content);
         } else if (tab === 'songs') {
             await _adminRenderSongs(content);
+        } else if (tab === 'writers') {
+            await _adminRenderWriters(content);
         } else if (tab === 'stats') {
             await _adminRenderStats(content);
         } else if (tab === 'contributors') {
@@ -1055,6 +1058,104 @@ async function _adminRenderSongs(container) {
                 headers: { 'x-admin-token': ADMIN_TOKEN }
             });
             _adminLoadTab('songs');
+        });
+    });
+}
+
+// ─── Admin: Escritores y Escritos ─────────────────────────────
+
+async function _adminRenderWriters(container) {
+    const res  = await fetch(_API_HOST + '/admin/writers', { headers: { 'x-admin-token': ADMIN_TOKEN } });
+    if (!res.ok) throw new Error('Error al cargar textos');
+    const all  = await res.json();
+
+    const pending  = all.filter(s => s.status === 'pending');
+    const approved = all.filter(s => s.status === 'approved');
+    const rejected = all.filter(s => s.status === 'rejected');
+
+    const TYPE_ICONS = { poema: '🎭', fragmento: '📄', cuento: '📖', ensayo: '✍️', frase: '💬' };
+
+    function textCard(s) {
+        const statusCls   = s.status === 'approved' ? 'asong-status--ok' : s.status === 'rejected' ? 'asong-status--rej' : 'asong-status--pend';
+        const statusLabel = s.status === 'approved' ? '✅ Aprobado' : s.status === 'rejected' ? '❌ Rechazado' : '⏳ Pendiente';
+        const icon        = TYPE_ICONS[s.type] || '📝';
+        return `
+            <div class="asong-card" data-id="${s.id}">
+                <div class="asong-card-header">
+                    <div>
+                        <span class="asong-title">${icon} ${escapeHtml(s.title)}</span>
+                        <span class="asong-artist"> — ${escapeHtml(s.writerName)}</span>
+                    </div>
+                    <span class="asong-status ${statusCls}">${statusLabel}</span>
+                </div>
+                <div class="asong-meta">
+                    <span class="asong-lang">${(s.lang || 'es').toUpperCase()}${s.writerCountry ? ' · ' + escapeHtml(s.writerCountry.toUpperCase()) : ''}</span>
+                    <span class="asong-lang">${s.visibility === 'private' ? '🔒 Privado' : '🌐 Público'}</span>
+                    <span class="asong-submitter">👤 ${escapeHtml(s.submittedBy || '—')}</span>
+                    <span class="asong-submitter">🏆 +${s.pointsAwarded || 5} pts</span>
+                    <span class="asong-submitter">${new Date(s.submittedAt).toLocaleDateString()}</span>
+                </div>
+                <div class="asong-preview">${escapeHtml((s.original || '').slice(0, 120))}${(s.original || '').length > 120 ? '…' : ''}</div>
+                ${s.translation ? `<div class="asong-preview" style="color:var(--text-muted);font-style:italic">${escapeHtml(s.translation.slice(0, 80))}…</div>` : ''}
+                ${s.adminNote   ? `<div class="asong-note">📝 ${escapeHtml(s.adminNote)}</div>` : ''}
+                <div class="asong-actions">
+                    ${s.status !== 'approved' ? `<button class="asong-btn asong-btn--approve" data-id="${s.id}">✅ Aprobar</button>` : ''}
+                    ${s.status !== 'rejected' ? `<button class="asong-btn asong-btn--reject"  data-id="${s.id}">❌ Rechazar</button>` : ''}
+                    <button class="asong-btn asong-btn--edit-wt"   data-id="${s.id}">✏️ Nota</button>
+                    <button class="asong-btn asong-btn--delete-wt" data-id="${s.id}">🗑️</button>
+                </div>
+            </div>`;
+    }
+
+    container.innerHTML = `
+        <div class="admin-songs-wrap">
+            <div class="asong-stats-row">
+                <span class="asong-stat">⏳ <strong>${pending.length}</strong> pendientes</span>
+                <span class="asong-stat">✅ <strong>${approved.length}</strong> aprobados</span>
+                <span class="asong-stat">❌ <strong>${rejected.length}</strong> rechazados</span>
+            </div>
+            <button class="asong-add-btn" id="adminWritersAddBtn">✍️ Subir texto como Admin</button>
+            <div class="asong-list">
+                ${all.length ? all.map(textCard).join('') : '<div class="admin-empty">📭 No hay textos enviados aún.</div>'}
+            </div>
+        </div>
+    `;
+
+    document.getElementById('adminWritersAddBtn').addEventListener('click', () => {
+        if (typeof _showSubmitForm === 'function') _showSubmitForm();
+    });
+
+    async function patchWriter(id, fields) {
+        await fetch(`${_API_HOST}/admin/writers/${id}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json', 'x-admin-token': ADMIN_TOKEN },
+            body: JSON.stringify(fields)
+        });
+        _adminLoadTab('writers');
+    }
+
+    container.querySelectorAll('.asong-btn--approve').forEach(btn =>
+        btn.addEventListener('click', () => patchWriter(btn.dataset.id, { status: 'approved' }))
+    );
+    container.querySelectorAll('.asong-btn--reject').forEach(btn =>
+        btn.addEventListener('click', () => patchWriter(btn.dataset.id, { status: 'rejected' }))
+    );
+    container.querySelectorAll('.asong-btn--edit-wt').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const s = all.find(x => x.id === btn.dataset.id);
+            if (!s) return;
+            const note = prompt('Nota admin:', s.adminNote || '');
+            if (note === null) return;
+            patchWriter(s.id, { adminNote: note });
+        });
+    });
+    container.querySelectorAll('.asong-btn--delete-wt').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            if (!confirm('¿Eliminar este texto?')) return;
+            await fetch(`${_API_HOST}/admin/writers/${btn.dataset.id}`, {
+                method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN }
+            });
+            _adminLoadTab('writers');
         });
     });
 }

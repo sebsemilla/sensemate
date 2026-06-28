@@ -10,6 +10,7 @@ const _WRITERS_KEY  = 'ls_writers_lang';
 async function loadWritersData(lang = 'es') {
     if (_writersData) return _writersData;
 
+    // 1. Cargar archivo estático
     await new Promise((resolve) => {
         if (window[`writers_${lang}`]) { resolve(); return; }
         const s = document.createElement('script');
@@ -21,8 +22,30 @@ async function loadWritersData(lang = 'es') {
 
     const raw = window[`writers_${lang}`]?.[lang];
     if (!raw) throw new Error(`Sin datos de escritores para '${lang}'`);
+
+    // 2. Merge con textos aprobados de la DB
+    try {
+        const r = await fetch(`${_API_HOST}/writers/data/${lang}`);
+        if (r.ok) {
+            const db = await r.json();
+            _mergeWritersDb(raw, db);
+        }
+    } catch { /* sin conexión */ }
+
     _writersData = raw;
     return _writersData;
+}
+
+function _mergeWritersDb(base, db) {
+    const existingIds = new Set(base.writers.map(w => w.id));
+    db.writers.forEach(w => {
+        if (!existingIds.has(w.id)) base.writers.push(w);
+    });
+    Object.entries(db.texts || {}).forEach(([wid, texts]) => {
+        if (!base.texts[wid]) base.texts[wid] = [];
+        const existingTxtIds = new Set(base.texts[wid].map(t => t.id));
+        texts.forEach(t => { if (!existingTxtIds.has(t.id)) base.texts[wid].push(t); });
+    });
 }
 
 // ─── Menú principal ───────────────────────────────────────────
@@ -36,6 +59,7 @@ async function loadWritersMenu() {
             <div class="writers-header">
                 <button class="school-back-btn" id="writersBackBtn">← Volver</button>
                 <h2 class="writers-title">📖 Escritores y Escritos</h2>
+                <button class="writers-upload-btn" id="writersUploadBtn">⬆️ Subir</button>
                 <button class="writers-info-btn" id="writersInfoBtn" title="¿Cómo funciona?">ℹ️</button>
             </div>
             <div id="writersCountryBar" class="writers-country-bar-wrap"></div>
@@ -49,6 +73,7 @@ async function loadWritersMenu() {
 
     document.getElementById('writersBackBtn').addEventListener('click', showMainMenu);
     document.getElementById('writersInfoBtn').addEventListener('click', _showWritersIntro);
+    document.getElementById('writersUploadBtn')?.addEventListener('click', _showSubmitForm);
 
     try {
         const data = await loadWritersData('es');
@@ -257,6 +282,201 @@ function _openTextReader(text, writer) {
             if (typeof showToast === 'function') showToast('✅ Texto guardado');
         } else {
             if (typeof showToast === 'function') showToast('Ya tenés este texto guardado');
+        }
+    });
+}
+
+// ─── Formulario de subida ─────────────────────────────────────
+
+function _showSubmitForm() {
+    const user    = (typeof currentUser !== 'undefined') ? currentUser : null;
+    const isAdmin = user?.isDev === true;
+    const isPrem  = isAdmin || ['premium','premium_monthly','premium_annual','oro_monthly',
+                                'oro_annual','contributor_monthly','contributor_quarterly',
+                                'trial'].includes(user?.plan);
+
+    if (!user) {
+        if (typeof showToast === 'function') showToast('Iniciá sesión para subir contenido');
+        return;
+    }
+    if (!isPrem && !isAdmin) {
+        if (typeof showToast === 'function') showToast('Se requiere membresía Premium para subir textos');
+        return;
+    }
+
+    document.querySelector('.wt-submit-overlay')?.remove();
+    const overlay = document.createElement('div');
+    overlay.className = 'wt-submit-overlay wt-reader-overlay';
+
+    const data     = window.writers_es?.es;
+    const writers  = data?.writers || [];
+    const writerOpts = writers.map(w =>
+        `<option value="${w.name}" data-id="${w.id}" data-country="${w.country || ''}">${w.name}</option>`
+    ).join('');
+
+    const isContrib = isAdmin || (user?.plan || '').startsWith('contributor');
+    const pointsInfo = isContrib
+        ? `<div class="wt-submit-points-info">🏆 Texto: <strong>+5 pts</strong> · Con traducción: <strong>+8 pts adicionales</strong> · A los 50 pts obtenés 1 mes gratis</div>`
+        : '';
+
+    overlay.innerHTML = `
+        <div class="wt-reader-modal wt-submit-modal">
+            <div class="wt-reader-header">
+                <div class="wt-reader-meta">
+                    <span class="wt-reader-type-badge">⬆️ Subir texto</span>
+                    ${isAdmin ? '<span class="wt-reader-author">Admin · aprobación directa</span>' : ''}
+                </div>
+                <button class="wt-reader-close" id="wtSubmitClose">×</button>
+            </div>
+
+            <div class="wt-submit-body">
+                ${pointsInfo}
+
+                <div class="wt-submit-row">
+                    <div class="wt-submit-field">
+                        <label>Escritor/a *</label>
+                        <input list="wtWritersList" id="wtSubmitWriter" class="contrib-input"
+                            placeholder="Nombre del escritor/a">
+                        <datalist id="wtWritersList">${writerOpts}</datalist>
+                    </div>
+                    <div class="wt-submit-field wt-submit-field--sm">
+                        <label>País *</label>
+                        <select id="wtSubmitCountry" class="contrib-input">
+                            <option value="">— País —</option>
+                            ${Object.entries({ar:'🇦🇷 Argentina',cl:'🇨🇱 Chile',uy:'🇺🇾 Uruguay',mx:'🇲🇽 México',co:'🇨🇴 Colombia',pe:'🇵🇪 Perú',es:'🇪🇸 España',br:'🇧🇷 Brasil',cu:'🇨🇺 Cuba',ve:'🇻🇪 Venezuela'})
+                                .map(([k,v]) => `<option value="${k}">${v}</option>`).join('')}
+                        </select>
+                    </div>
+                </div>
+
+                <div class="wt-submit-row">
+                    <div class="wt-submit-field">
+                        <label>Título *</label>
+                        <input type="text" id="wtSubmitTitle" class="contrib-input" placeholder="Título del texto" maxlength="120">
+                    </div>
+                    <div class="wt-submit-field wt-submit-field--sm">
+                        <label>Tipo *</label>
+                        <select id="wtSubmitType" class="contrib-input">
+                            <option value="poema">🎭 Poema</option>
+                            <option value="fragmento">📄 Fragmento</option>
+                            <option value="cuento">📖 Cuento</option>
+                            <option value="ensayo">✍️ Ensayo</option>
+                            <option value="frase">💬 Frase célebre</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="wt-submit-field">
+                    <label>Texto original (español) * <span class="wt-submit-hint">— máx. 1500 caracteres para textos públicos</span></label>
+                    <textarea id="wtSubmitOriginal" class="contrib-input" rows="5" maxlength="3000"
+                        placeholder="Pegá aquí el fragmento, poema o frase..."></textarea>
+                    <div class="wt-submit-charcount"><span id="wtOriginalCount">0</span> / 1500</div>
+                </div>
+
+                <div class="wt-submit-field">
+                    <label>Traducción al inglés <span class="wt-submit-hint">— opcional, suma +8 pts</span></label>
+                    <textarea id="wtSubmitTranslation" class="contrib-input" rows="4" maxlength="3000"
+                        placeholder="Traducción (opcional)"></textarea>
+                </div>
+
+                <div class="wt-submit-row">
+                    <div class="wt-submit-field">
+                        <label>Visibilidad</label>
+                        <select id="wtSubmitVisibility" class="contrib-input">
+                            <option value="public">🌐 Público — visible para todos</option>
+                            <option value="private">🔒 Privado — solo para mí</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="wtSubmitError" class="contrib-error hidden"></div>
+            </div>
+
+            <div class="wt-reader-footer">
+                <button class="wt-reader-action-btn wt-reader-action-btn--ghost" id="wtSubmitCancelBtn">Cancelar</button>
+                <button class="wt-reader-action-btn" id="wtSubmitSendBtn" style="background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border:none">
+                    ${isAdmin ? '✅ Publicar directamente' : '📤 Enviar para revisión'}
+                </button>
+            </div>
+        </div>
+    `;
+
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+    document.getElementById('wtSubmitClose').addEventListener('click',      () => overlay.remove());
+    document.getElementById('wtSubmitCancelBtn').addEventListener('click',  () => overlay.remove());
+
+    // Autocompletar país al elegir escritor existente
+    document.getElementById('wtSubmitWriter').addEventListener('change', e => {
+        const opt = document.querySelector(`#wtWritersList option[value="${e.target.value}"]`);
+        if (opt?.dataset.country) document.getElementById('wtSubmitCountry').value = opt.dataset.country;
+    });
+
+    // Contador de caracteres
+    const origTA = document.getElementById('wtSubmitOriginal');
+    const countEl = document.getElementById('wtOriginalCount');
+    origTA.addEventListener('input', () => {
+        const len = origTA.value.length;
+        countEl.textContent = len;
+        countEl.style.color = len > 1500 ? '#ef4444' : 'var(--text-muted)';
+    });
+
+    document.getElementById('wtSubmitSendBtn').addEventListener('click', async () => {
+        const writerName    = document.getElementById('wtSubmitWriter').value.trim();
+        const writerCountry = document.getElementById('wtSubmitCountry').value;
+        const title         = document.getElementById('wtSubmitTitle').value.trim();
+        const type          = document.getElementById('wtSubmitType').value;
+        const original      = document.getElementById('wtSubmitOriginal').value.trim();
+        const translation   = document.getElementById('wtSubmitTranslation').value.trim();
+        const visibility    = document.getElementById('wtSubmitVisibility').value;
+        const errEl         = document.getElementById('wtSubmitError');
+
+        errEl.classList.add('hidden');
+
+        if (!writerName || !title || !original) {
+            errEl.textContent = 'Completá escritor, título y texto original.';
+            errEl.classList.remove('hidden');
+            return;
+        }
+        if (!isAdmin && original.length > 1500 && visibility === 'public') {
+            errEl.textContent = 'Los textos públicos no pueden superar 1500 caracteres (temas de copyright). Guardalo como Privado o acortá el extracto.';
+            errEl.classList.remove('hidden');
+            return;
+        }
+
+        const btn = document.getElementById('wtSubmitSendBtn');
+        btn.disabled = true;
+        btn.textContent = 'Enviando...';
+
+        try {
+            const token   = localStorage.getItem('ls_token') || '';
+            const headers = { 'Content-Type': 'application/json' };
+            if (isAdmin)  headers['x-admin-token'] = 'admin_lingua_2025';
+            else          headers['Authorization']  = `Bearer ${token}`;
+
+            const r = await fetch(`${_API_HOST}/writers/submit`, {
+                method: 'POST',
+                headers,
+                body: JSON.stringify({ writerName, writerCountry, title, type, original, translation, lang: 'es', targetLang: 'en', visibility }),
+            });
+            const json = await r.json();
+            if (!r.ok) throw new Error(json.error || 'Error al enviar');
+
+            overlay.remove();
+            _writersData = null; // forzar recarga con nuevo contenido
+
+            const pts = json.pointsAwarded ? ` (+${json.pointsAwarded} pts)` : '';
+            const msg = isAdmin
+                ? `✅ Texto publicado directamente`
+                : `📤 Texto enviado para revisión${pts}`;
+            if (typeof showToast === 'function') showToast(msg);
+
+            if (isAdmin) loadWritersMenu();
+        } catch (e) {
+            errEl.textContent = e.message;
+            errEl.classList.remove('hidden');
+            btn.disabled = false;
+            btn.textContent = isAdmin ? '✅ Publicar directamente' : '📤 Enviar para revisión';
         }
     });
 }
