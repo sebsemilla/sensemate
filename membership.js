@@ -209,7 +209,7 @@ async function loadMembershipSection() {
                 <div class="plan-card plan-card--contributor">
                     <div class="plan-card-header">
                         <div class="plan-card-name">🤝 Contributor ${isES ? 'Mensual' : 'Monthly'}</div>
-                        <div class="plan-price-promo">$4.99 <span class="plan-price-period">/ ${isES ? 'mes' : 'month'}</span></div>
+                        <div class="plan-price-promo">u$s 4.99 <span class="plan-price-period">/ ${isES ? 'mes' : 'month'}</span></div>
                         <div class="plan-price-monthly-equiv">✨ ${isES ? '15 días de prueba gratuita' : '15-day free trial'}</div>
                     </div>
                     <ul class="plan-feature-list plan-feature-list--contributor">
@@ -231,8 +231,8 @@ async function loadMembershipSection() {
                     <div class="plans-popular-tag plans-popular-tag--contributor">🌟 ${isES ? 'Más compromiso' : 'Most committed'}</div>
                     <div class="plan-card-header">
                         <div class="plan-card-name">🤝 Contributor ${isES ? 'Trimestral' : 'Quarterly'}</div>
-                        <div class="plan-price-promo">$10 <span class="plan-price-period">/ ${isES ? 'trimestre' : 'quarter'}</span></div>
-                        <div class="plan-price-monthly-equiv">≈ $3.33 / ${isES ? 'mes' : 'month'} · ✨ ${isES ? '1 mes de prueba gratis' : '1 month free trial'}</div>
+                        <div class="plan-price-promo">u$s 10 <span class="plan-price-period">/ ${isES ? 'trimestre' : 'quarter'}</span></div>
+                        <div class="plan-price-monthly-equiv">≈ u$s 3.33 / ${isES ? 'mes' : 'month'} · ✨ ${isES ? '1 mes de prueba gratis' : '1 month free trial'}</div>
                     </div>
                     <ul class="plan-feature-list plan-feature-list--contributor">
                         <li>✅ ${isES ? 'Todo lo de Premium incluido' : 'Everything in Premium included'}</li>
@@ -287,7 +287,7 @@ async function loadMembershipSection() {
                 <div class="plan-card plan-card--free">
                     <div class="plan-card-header">
                         <div class="plan-card-name">${isES ? 'Gratis' : 'Free'}</div>
-                        <div class="plan-price-promo" style="font-size:1.8rem">$0</div>
+                        <div class="plan-price-promo" style="font-size:1.8rem">u$s 0</div>
                     </div>
                     <ul class="plan-feature-list plan-feature-list--free">
                         <li>🔄 ${isES ? '10 traducciones / día' : '10 translations / day'}</li>
@@ -311,19 +311,19 @@ async function loadMembershipSection() {
                         <div class="plan-card-name">${planName}</div>
                         ${promoActive ? `
                         <div class="plan-price-regular">
-                            $${_billingToggle === 'annual' ? regAnnual.toFixed(2) : regMonthly.toFixed(2)} / ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}
+                            u$s ${_billingToggle === 'annual' ? regAnnual.toFixed(2) : regMonthly.toFixed(2)} / ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}
                         </div>
                         <div class="plan-price-promo">
-                            $${_billingToggle === 'annual' ? promoAnnual.toFixed(2) : promoMonthly.toFixed(2)}
+                            u$s ${_billingToggle === 'annual' ? promoAnnual.toFixed(2) : promoMonthly.toFixed(2)}
                             <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
                         </div>` : `
                         <div class="plan-price-promo">
-                            $${_billingToggle === 'annual' ? regAnnual.toFixed(2) : regMonthly.toFixed(2)}
+                            u$s ${_billingToggle === 'annual' ? regAnnual.toFixed(2) : regMonthly.toFixed(2)}
                             <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
                         </div>`}
                         ${_billingToggle === 'annual' ? `
                         <div class="plan-price-monthly-equiv">
-                            ≈ $${((promoActive ? promoAnnual : regAnnual) / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}
+                            ≈ u$s ${((promoActive ? promoAnnual : regAnnual) / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}
                         </div>` : ''}
                     </div>
                     <ul class="plan-feature-list plan-feature-list--premium">
@@ -352,10 +352,10 @@ async function loadMembershipSection() {
                     <div class="plan-card-header">
                         <div class="plan-card-name">${isES ? '🥇 Membresía Oro' : '🥇 Gold Membership'}</div>
                         <div class="plan-price-promo">
-                            $${oroAnnual.toFixed(2)}
+                            u$s ${oroAnnual.toFixed(2)}
                             <span class="plan-price-period">/ ${isES ? 'año' : 'year'}</span>
                         </div>
-                        <div class="plan-price-monthly-equiv">≈ $${(oroAnnual / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}</div>
+                        <div class="plan-price-monthly-equiv">≈ u$s ${(oroAnnual / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}</div>
                     </div>
                     <ul class="plan-feature-list plan-feature-list--oro">
                         <li>✅ ${isES ? 'Traductor ilimitado' : 'Unlimited translator'}</li>
@@ -377,7 +377,7 @@ async function loadMembershipSection() {
                     <div class="plan-card-header">
                         <div class="plan-card-name">${isES ? '🤝 Contributor' : '🤝 Contributor'}</div>
                         <div class="plan-price-promo">
-                            $4.99
+                            u$s 4.99
                             <span class="plan-price-period">/ ${isES ? 'mes' : 'month'}</span>
                         </div>
                         <div class="plan-price-monthly-equiv">${isES ? '15 días de prueba gratuita' : '15-day free trial'}</div>
@@ -656,7 +656,7 @@ function _showPaymentFlow(period, tier = 'premium') {
                 <div class="payment-modal-body">
                     <div class="payment-plan-summary">
                         <span class="payment-plan-name">${planName}</span>
-                        <span class="payment-plan-price">$${price.toFixed(2)} / ${periodLabel}</span>
+                        <span class="payment-plan-price">u$s ${price.toFixed(2)} / ${periodLabel}</span>
                     </div>
                     <button class="payment-mp-btn" id="payMpBtn">
                         💙 ${isES ? 'Pagar con MercadoPago' : 'Pay with MercadoPago'}
@@ -680,7 +680,7 @@ function _showPaymentFlow(period, tier = 'premium') {
                 <div class="payment-modal-body">
                     <div class="payment-plan-summary">
                         <span class="payment-plan-name">${planName}</span>
-                        <span class="payment-plan-price">$${price.toFixed(2)} / ${periodLabel}</span>
+                        <span class="payment-plan-price">u$s ${price.toFixed(2)} / ${periodLabel}</span>
                     </div>
                     <button class="payment-stripe-btn" id="payStripeBtn">
                         💳 ${isES ? 'Pagar con Stripe' : 'Pay with Stripe'}
@@ -768,7 +768,7 @@ function _showWiseModal(price, period, periodLabel, planName, isES) {
                     </div>
                     <div class="wise-row">
                         <span class="wise-label">${isES ? 'Monto' : 'Amount'}:</span>
-                        <strong>$${price.toFixed(2)} USD</strong>
+                        <strong>u$s ${price.toFixed(2)}</strong>
                     </div>
                     <div class="wise-row">
                         <span class="wise-label">${isES ? 'Asunto' : 'Subject'}:</span>
@@ -914,7 +914,7 @@ function _showUpgradeModal(feature) {
             <div class="upgrade-modal-body">
                 <div class="upgrade-usage-pill">${usage}</div>
                 <p class="upgrade-modal-cta-text">
-                    ${isES ? 'Desbloqueá acceso ilimitado con Premium 500X — desde $2/mes' : 'Unlock unlimited access with STARTUP FOR 500X — from $2/month'}
+                    ${isES ? 'Desbloqueá acceso ilimitado con Premium 500X — desde u$s 2/mes' : 'Unlock unlimited access with STARTUP FOR 500X — from u$s 2/month'}
                 </p>
                 <div class="upgrade-modal-btns">
                     <button class="plan-cta-btn plan-cta-btn--premium" id="upgradeSeePlanBtn">
