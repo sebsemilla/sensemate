@@ -124,6 +124,7 @@ let _billingToggle     = 'annual'; // 'monthly' | 'annual'
 let _plansTab          = 'region'; // 'region' | 'contributors'
 
 async function loadMembershipSection() {
+    if (window.IS_LITE) { await _loadMembershipLite(); return; }
     mainContainer.innerHTML = '';
     renderLanguageBar();
 
@@ -522,6 +523,186 @@ async function loadMembershipSection() {
     if (promoActive && counter.current >= 12) {
         _animateCounter('promoRemainingCount', 0, counter.remaining, 1200);
     }
+}
+
+// ─── Lite version: solo Free + Premium ───────────────────────
+
+async function _loadMembershipLite() {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+
+    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 9.99, badge: '🔥 Precio de lanzamiento' }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 500X', en: 'STARTUP FOR 500X' } };
+    try {
+        const r = await fetch(_API_HOST + '/membership/config');
+        if (r.ok) { const d = await r.json(); config = d.config || config; }
+    } catch {}
+    _membershipConfig = config;
+
+    const region      = localStorage.getItem('ls_region') || 'latam';
+    const lang        = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
+    const isES        = lang !== 'en';
+    const planName    = isES ? (config.planName?.es || 'Premium 500X') : (config.planName?.en || 'STARTUP FOR 500X');
+    const promoActive = config.promo?.active;
+    const promoMonthly = config.promo?.monthlyPrice || 2.00;
+    const promoAnnual  = config.promo?.annualPrice  || 9.99;
+    const regMonthly   = config.regular?.monthlyPrice || 4.99;
+    const regAnnual    = config.regular?.annualPrice  || 34.99;
+
+    const currentStatus   = MembershipPlan.getStatus();
+    const isAlreadyActive = MembershipPlan.isActive();
+
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="plans-page plans-page--lite" id="plansPage">
+
+            <div class="plans-back-row">
+                <button class="school-back-btn" id="plansBackBtn">← ${isES ? 'Volver' : 'Back'}</button>
+                ${isAlreadyActive ? `<span class="plans-active-badge">✅ ${isES ? 'Plan activo' : 'Active plan'}: ${currentStatus === 'trial' ? (isES ? 'Trial gratuito' : 'Free trial') : planName}</span>` : ''}
+            </div>
+
+            <div class="plans-title-section">
+                <h2 class="plans-main-title">⭐ ${isES ? 'Elegí tu plan' : 'Choose your plan'}</h2>
+                <p class="plans-subtitle">${isES ? 'Desbloquea todas las funciones sin límites' : 'Unlock all features without limits'}</p>
+            </div>
+
+            <!-- Region selector (sin Contributores) -->
+            <div class="plans-region-selector plans-region-selector--lite">
+                <button class="plans-region-btn ${region === 'latam' ? 'active' : ''}" data-region="latam">
+                    🇦🇷 América Latina
+                </button>
+                <button class="plans-region-btn ${region === 'eu' ? 'active' : ''}" data-region="eu">
+                    🌍 Europa / Global
+                </button>
+            </div>
+
+            <!-- Billing toggle -->
+            <div class="plans-toggle-wrap" style="margin-bottom:1.25rem">
+                <button class="plans-toggle-btn ${_billingToggle === 'monthly' ? 'active' : ''}" id="liteToggleMonthly">
+                    ${isES ? 'Mensual' : 'Monthly'}
+                </button>
+                <button class="plans-toggle-btn ${_billingToggle === 'annual' ? 'active' : ''}" id="liteToggleAnnual">
+                    ${isES ? 'Anual' : 'Annual'} ${isES ? '(ahorrás ~${Math.round(100 - (promoActive ? promoAnnual : regAnnual) / (promoActive ? promoMonthly : regMonthly) / 12 * 100)}%)' : ''}
+                </button>
+            </div>
+
+            <!-- 2 plan cards -->
+            <div class="plans-cards-row plans-cards-row--2">
+
+                <!-- Free card -->
+                <div class="plan-card plan-card--free">
+                    <div class="plan-card-header">
+                        <div class="plan-card-name">${isES ? 'Gratis' : 'Free'}</div>
+                        <div class="plan-price-promo" style="font-size:1.8rem">u$s 0</div>
+                    </div>
+                    <ul class="plan-feature-list plan-feature-list--free">
+                        <li>🔄 ${isES ? '10 traducciones / día' : '10 translations / day'}</li>
+                        <li>📇 ${isES ? 'Flashcards: 1er módulo' : 'Flashcards: 1st module'}</li>
+                        <li>💬 ${isES ? 'Chat IA: 5 min modo prueba' : 'AI chat: 5 min trial'}</li>
+                        <li>🎭 ${isES ? '1 personaje / 10 min por día' : '1 character / 10 min per day'}</li>
+                        <li>🎵 ${isES ? '2 traducciones de canciones' : '2 song translations'}</li>
+                        <li class="plan-feature--locked">✏️ ${isES ? 'Sin creación de flashcards' : 'No flashcard creation'}</li>
+                        <li class="plan-feature--locked">📖 ${isES ? 'Escritores y Escritos: parcial' : 'Writers & Texts: partial'}</li>
+                    </ul>
+                    <button class="plan-cta-btn plan-cta-btn--free" id="liteFreeCta">
+                        ${isES ? 'Continuar gratis' : 'Continue for free'}
+                    </button>
+                </div>
+
+                <!-- Premium card -->
+                <div class="plan-card plan-card--premium plan-card--featured">
+                    <div class="plans-popular-tag">${isES ? '⭐ Recomendado' : '⭐ Recommended'}</div>
+                    <div class="plan-card-header">
+                        <div class="plan-card-name">${planName}</div>
+                        ${promoActive ? `
+                        <div class="plan-price-regular">
+                            u$s ${_billingToggle === 'annual' ? regAnnual.toFixed(2) : regMonthly.toFixed(2)} / ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}
+                        </div>
+                        <div class="plan-price-promo">
+                            u$s ${_billingToggle === 'annual' ? promoAnnual.toFixed(2) : promoMonthly.toFixed(2)}
+                            <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
+                        </div>` : `
+                        <div class="plan-price-promo">
+                            u$s ${_billingToggle === 'annual' ? regAnnual.toFixed(2) : regMonthly.toFixed(2)}
+                            <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
+                        </div>`}
+                        ${_billingToggle === 'annual' ? `
+                        <div class="plan-price-monthly-equiv">
+                            ≈ u$s ${((promoActive ? promoAnnual : regAnnual) / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}
+                        </div>` : ''}
+                    </div>
+                    <ul class="plan-feature-list plan-feature-list--premium">
+                        <li>✅ ${isES ? 'Traductor ilimitado' : 'Unlimited translator'}</li>
+                        <li>✅ ${isES ? 'Todos los flashcards' : 'All flashcards'}</li>
+                        <li>✅ ${isES ? 'Chat IA libre — consultas en contexto' : 'Free AI chat — contextual queries'}</li>
+                        <li>✅ ${isES ? 'Chat Famosos: todos los personajes' : 'Famous chat: all characters'}</li>
+                        <li>✅ ${isES ? 'Canciones ilimitadas' : 'Unlimited songs'}</li>
+                        <li>✅ ${isES ? 'Escritores y Escritos completo + subida de textos' : 'Full Writers & Texts + upload'}</li>
+                        <li>✅ ${isES ? 'Creación de flashcards' : 'Flashcard creation'}</li>
+                    </ul>
+                    <button class="plan-trial-btn" id="liteTrialBtn">
+                        🎁 ${isES ? '1 mes gratis — Probar ahora' : '1 month free — Try now'}
+                    </button>
+                    <button class="plan-cta-btn plan-cta-btn--premium" id="liteSubscribeBtn">
+                        ${isES ? 'Suscribirme →' : 'Subscribe →'}
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Comparison table (2 cols) -->
+            <div class="plans-comparison-wrap">
+                <h3 class="plans-comparison-title">${isES ? 'Comparación detallada' : 'Detailed comparison'}</h3>
+                <table class="plans-comparison-table plans-comparison-table--2">
+                    <thead>
+                        <tr>
+                            <th>${isES ? 'Función' : 'Feature'}</th>
+                            <th>${isES ? 'Gratis' : 'Free'}</th>
+                            <th>${planName}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>🔄 ${isES ? 'Traductor' : 'Translator'}</td><td>${isES ? '10/día' : '10/day'}</td><td>✅ ${isES ? 'Ilimitado' : 'Unlimited'}</td></tr>
+                        <tr><td>📇 Flashcards</td><td>${isES ? '1er módulo' : '1st module'}</td><td>✅ ${isES ? 'Todos' : 'All'}</td></tr>
+                        <tr><td>💬 Chat IA</td><td>${isES ? '5 min prueba' : '5 min trial'}</td><td>✅ ${isES ? 'Libre en contexto' : 'Free contextual'}</td></tr>
+                        <tr><td>🎭 ${isES ? 'Chat Famosos' : 'Famous Chat'}</td><td>${isES ? '1 / 10 min' : '1 / 10 min'}</td><td>✅ ${isES ? 'Todos' : 'All'}</td></tr>
+                        <tr><td>🎵 ${isES ? 'Canciones' : 'Songs'}</td><td>${isES ? '2' : '2'}</td><td>✅ ${isES ? 'Ilimitado' : 'Unlimited'}</td></tr>
+                        <tr><td>📖 ${isES ? 'Escritores' : 'Writers'}</td><td>${isES ? 'Parcial' : 'Partial'}</td><td>✅ ${isES ? 'Completo + subida' : 'Full + upload'}</td></tr>
+                        <tr><td>✏️ ${isES ? 'Crear flashcards' : 'Create flashcards'}</td><td>❌</td><td>✅</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Trust row -->
+            <div class="plans-trust-row">
+                ${region === 'latam' ? `
+                    <span>☕ ${isES ? 'Menos que un café por mes' : 'Less than a coffee per month'}</span>
+                    <span>📱 ${isES ? 'Pagá con MercadoPago, sin tarjeta' : 'Pay with MercadoPago, no card needed'}</span>
+                    <span>🔒 ${isES ? 'Cancelá cuando quieras' : 'Cancel anytime'}</span>
+                ` : `
+                    <span>🔒 GDPR compliant</span>
+                    <span>✓ Cancel anytime</span>
+                    <span>30-day free trial</span>
+                `}
+            </div>
+
+        </div>
+    `);
+
+    // Region buttons
+    document.querySelectorAll('.plans-region-selector--lite .plans-region-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            localStorage.setItem('ls_region', btn.dataset.region);
+            _loadMembershipLite();
+        });
+    });
+
+    // Billing toggle
+    document.getElementById('liteToggleMonthly')?.addEventListener('click', () => { _billingToggle = 'monthly'; _loadMembershipLite(); });
+    document.getElementById('liteToggleAnnual')?.addEventListener('click',  () => { _billingToggle = 'annual';  _loadMembershipLite(); });
+
+    // CTAs
+    document.getElementById('liteFreeCta')?.addEventListener('click', () => showMainMenu());
+    document.getElementById('liteTrialBtn')?.addEventListener('click', () => _startTrialFlow());
+    document.getElementById('liteSubscribeBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium'));
 }
 
 function _animateCounter(elId, from, to, duration) {
