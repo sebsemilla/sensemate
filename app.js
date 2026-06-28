@@ -2121,6 +2121,216 @@ function _runLevelQuiz(mod, levelIdx, key) {
 
 // ─── Menú principal ───────────────────────────────────────────
 
+// ─── App Banners ──────────────────────────────────────────────
+
+let _bannerInterval = null;
+let _bannerIdx      = 0;
+
+function _getBanners() {
+    const isSubscribed = typeof MembershipPlan !== 'undefined' && MembershipPlan.isActive();
+    const all = [
+        {
+            type: 'instructional',
+            bg: 'linear-gradient(135deg,#1a1a2e 0%,#16213e 100%)',
+            emoji: '🎵',
+            title: '¿Conocés canciones en otro idioma?',
+            body: 'Subí letras y traducciones en <strong>Músicos del Mundo</strong> y ayudá a la comunidad',
+            cta: 'Ir a Músicos →',
+            action: () => { if (typeof loadMusiciansMenu === 'function') loadMusiciansMenu(); }
+        },
+        {
+            type: 'instructional',
+            bg: 'linear-gradient(135deg,#0f172a 0%,#1e1b4b 100%)',
+            emoji: '🎭',
+            title: 'Chateá con Einstein, Frida, Maradona y más',
+            body: 'Conversá en el idioma que estás aprendiendo con <strong>personajes históricos reales</strong>',
+            cta: 'Conocerlos →',
+            action: () => {
+                const t = currentTranslations;
+                document.querySelector('[data-mode="famous"]')?.click() ||
+                (typeof loadFamousChatMenu === 'function' && loadFamousChatMenu());
+            }
+        },
+        ...(!isSubscribed ? [{
+            type: 'membership',
+            bg: 'linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%)',
+            emoji: '⭐',
+            title: 'Desbloqueá todo sin límites',
+            body: 'Traducciones ilimitadas, todos los flashcards, Famosos, Músicos y más — <strong>desde $9.99/año</strong>',
+            cta: 'Ver planes →',
+            action: () => { if (typeof loadMembershipSection === 'function') loadMembershipSection(); }
+        }] : []),
+        {
+            type: 'contributors',
+            bg: 'linear-gradient(135deg,#064e3b 0%,#065f46 100%)',
+            emoji: '🤝',
+            title: 'Sé parte del proyecto',
+            body: 'Contribuí con contenido, reportá errores o mejorá <strong>MisiónMate</strong> y ganá beneficios',
+            cta: 'Saber más →',
+            action: () => _showContributorsModal()
+        }
+    ];
+    return all;
+}
+
+function _renderBanner(banners, idx, wrap) {
+    const b = banners[idx];
+    const dots = banners.map((_, i) =>
+        `<span class="app-banner-dot${i === idx ? ' active' : ''}"></span>`
+    ).join('');
+    wrap.innerHTML = `
+        <div class="app-banner" style="background:${b.bg}">
+            <div class="app-banner-body">
+                <span class="app-banner-emoji">${b.emoji}</span>
+                <div class="app-banner-text">
+                    <div class="app-banner-title">${b.title}</div>
+                    <div class="app-banner-desc">${b.body}</div>
+                </div>
+                <button class="app-banner-cta">${b.cta}</button>
+            </div>
+            <div class="app-banner-dots">${dots}</div>
+        </div>
+    `;
+    wrap.querySelector('.app-banner-cta').addEventListener('click', b.action);
+    wrap.querySelectorAll('.app-banner-dot').forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+            clearInterval(_bannerInterval);
+            _bannerIdx = i;
+            _renderBanner(banners, _bannerIdx, wrap);
+            _bannerInterval = setInterval(() => {
+                _bannerIdx = (_bannerIdx + 1) % banners.length;
+                _renderBanner(banners, _bannerIdx, wrap);
+            }, 6000);
+        });
+    });
+}
+
+function _initAppBanners() {
+    const wrap = document.getElementById('appBannersWrap');
+    if (!wrap) return;
+    clearInterval(_bannerInterval);
+    const banners = _getBanners();
+    if (!banners.length) return;
+    _bannerIdx = 0;
+    _renderBanner(banners, _bannerIdx, wrap);
+    _bannerInterval = setInterval(() => {
+        _bannerIdx = (_bannerIdx + 1) % banners.length;
+        _renderBanner(banners, _bannerIdx, wrap);
+    }, 6000);
+}
+
+// ─── Contributors modal ───────────────────────────────────────
+
+function _showContributorsModal() {
+    document.querySelector('.contributors-modal-overlay')?.remove();
+    const overlay = document.createElement('div');
+    overlay.className = 'contributors-modal-overlay';
+    overlay.innerHTML = `
+        <div class="contributors-modal">
+            <div class="contributors-modal-header">
+                <h2>🤝 Contribuidores SenseMate</h2>
+                <button class="contributors-close" id="contribClose">×</button>
+            </div>
+            <div class="contributors-modal-body">
+
+                <p class="contributors-intro">
+                    SenseMate crece con la comunidad. Cada aporte suma puntos que se convierten en <strong>beneficios reales</strong>.
+                </p>
+
+                <div class="contrib-benefits-row">
+                    <div class="contrib-benefit">
+                        <div class="contrib-benefit-icon">🎁</div>
+                        <div class="contrib-benefit-label">3 meses gratis</div>
+                    </div>
+                    <div class="contrib-benefit">
+                        <div class="contrib-benefit-icon">⭐</div>
+                        <div class="contrib-benefit-label">1 año Premium</div>
+                    </div>
+                    <div class="contrib-benefit contrib-benefit--gold">
+                        <div class="contrib-benefit-icon">🥇</div>
+                        <div class="contrib-benefit-label">Membresía Oro</div>
+                    </div>
+                    <div class="contrib-benefit contrib-benefit--staff">
+                        <div class="contrib-benefit-icon">🚀</div>
+                        <div class="contrib-benefit-label">Formar parte del equipo</div>
+                    </div>
+                </div>
+
+                <div class="contrib-ways">
+
+                    <div class="contrib-way">
+                        <div class="contrib-way-header">
+                            <span class="contrib-way-emoji">🌍</span>
+                            <div>
+                                <div class="contrib-way-title">Subir contenido a "Aprende con..."</div>
+                                <div class="contrib-way-pts">+30 pts por episodio aprobado</div>
+                            </div>
+                        </div>
+                        <p class="contrib-way-desc">Agregá videos, series o podcasts con diálogos sincronizados por timestamps.</p>
+                    </div>
+
+                    <div class="contrib-way">
+                        <div class="contrib-way-header">
+                            <span class="contrib-way-emoji">🎵</span>
+                            <div>
+                                <div class="contrib-way-title">Subir canciones y subtítulos en Músicos del Mundo</div>
+                                <div class="contrib-way-pts">+20 pts por canción · +10 pts por traducción</div>
+                            </div>
+                        </div>
+                        <p class="contrib-way-desc">Letras originales, traducciones y artistas de cualquier idioma del mundo.</p>
+                    </div>
+
+                    <div class="contrib-way">
+                        <div class="contrib-way-header">
+                            <span class="contrib-way-emoji">🐛</span>
+                            <div>
+                                <div class="contrib-way-title">Reportar fallas y conductas inapropiadas</div>
+                                <div class="contrib-way-pts">+5 pts por reporte verificado</div>
+                            </div>
+                        </div>
+                        <p class="contrib-way-desc">Errores en traducciones, módulos rotos, respuestas inapropiadas de la IA.</p>
+                    </div>
+
+                    <div class="contrib-way contrib-way--featured">
+                        <div class="contrib-way-header">
+                            <span class="contrib-way-emoji">📚</span>
+                            <div>
+                                <div class="contrib-way-title">Revisar y mejorar módulos de MisiónMate</div>
+                                <div class="contrib-way-pts">+50 pts por módulo aprobado · Nominación a staff</div>
+                            </div>
+                        </div>
+                        <p class="contrib-way-desc">
+                            Revisá la precisión lingüística de los módulos A1–C1 para un idioma específico.
+                            Corregí ejemplos, reglas y errores comunes con el aval de un hablante nativo.
+                        </p>
+                        <div class="contrib-cupo-banner">
+                            <strong>Cupo limitado:</strong> 10 contribuidores por idioma &mdash;
+                            de los cuales <strong>2 pueden ser nominados al equipo de trabajo</strong>.
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="contrib-apply-btn" id="contribApplyBtn">
+                    ✉️ Quiero contribuir — Contactar
+                </button>
+                <p class="contrib-footer">
+                    El sistema de puntos y el panel de contribuidores estarán disponibles próximamente.
+                    Por ahora podés escribirnos directamente.
+                </p>
+
+            </div>
+        </div>
+    `;
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+    document.getElementById('contribClose').addEventListener('click', () => overlay.remove());
+    document.getElementById('contribApplyBtn').addEventListener('click', () => {
+        overlay.remove();
+        window.location.href = 'mailto:sebasemilla@proton.me?subject=Quiero%20contribuir%20a%20SenseMate';
+    });
+}
+
 function showMainMenu() {
     // Sincronizar el selector visual con el modo actual
     const selector = document.getElementById('appModeSelector');
@@ -2234,6 +2444,8 @@ function showMainMenu() {
                 <h4>Premium 500X</h4>
                 <p>Desbloqueá todas las funciones sin límites</p>
             </div>` : ''}
+
+            <div id="appBannersWrap" class="app-banners-wrap"></div>
         </div>
     `);
 
@@ -2278,6 +2490,9 @@ function showMainMenu() {
     if (typeof initFamousCarousel === 'function') {
         initFamousCarousel(document.getElementById('famousCarouselSection'));
     }
+
+    // Inicializar banners
+    _initAppBanners();
 
     // Banner de verificación de email
     if (currentUser && currentUser.emailVerified === false) {
