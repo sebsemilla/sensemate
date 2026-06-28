@@ -85,37 +85,85 @@ async function loadWritersMenu() {
     }
 }
 
-// ─── Barra de filtro por país ─────────────────────────────────
+// ─── Filtro por país (dropdown con continentes) ───────────────
+
+// Países agrupados por continente para el dropdown
+const _WRITER_CONTINENTS = [
+    {
+        label: 'América del Sur', emoji: '🌎',
+        codes: ['ar', 'br', 'cl', 'co', 'ec', 'pe', 'uy', 've', 'bo', 'py'],
+    },
+    {
+        label: 'América Central y Caribe', emoji: '🌎',
+        codes: ['mx', 'cu', 'gt'],
+    },
+    {
+        label: 'Europa', emoji: '🌍',
+        codes: ['es', 'pt', 'fr', 'de', 'it', 'uk'],
+    },
+    {
+        label: 'América del Norte', emoji: '🌎',
+        codes: ['us', 'ca'],
+    },
+];
 
 function _renderWritersCountryBar(writers) {
     const bar = document.getElementById('writersCountryBar');
     if (!bar) return;
 
-    const countries = [];
-    const seen = new Set();
-    writers.forEach(w => {
-        if (!seen.has(w.country)) {
-            seen.add(w.country);
-            const info = _countryInfo(w.country);
-            countries.push({ code: w.country, ...info });
-        }
-    });
+    // Países presentes en los escritores actuales
+    const presentCodes = new Set(writers.map(w => w.country).filter(Boolean));
+
+    // Construir grupos con solo los países presentes
+    const groups = _WRITER_CONTINENTS.map(cont => ({
+        ...cont,
+        countries: cont.codes
+            .filter(cc => presentCodes.has(cc))
+            .map(cc => ({ code: cc, ..._countryInfo(cc) })),
+    })).filter(g => g.countries.length > 0);
+
+    const activeInfo = _writerFilter ? _countryInfo(_writerFilter) : null;
+    const label = activeInfo ? `${activeInfo.emoji} ${activeInfo.label}` : '🌎 Todos los países';
 
     bar.innerHTML = `
-        <div class="explorer-country-bar">
-            <span class="explorer-country-label">🌎 País:</span>
-            <div class="explorer-country-chips">
-                <button class="explorer-chip ${!_writerFilter ? 'active' : ''}" data-cc="">Todos</button>
-                ${countries.map(c =>
-                    `<button class="explorer-chip ${_writerFilter === c.code ? 'active' : ''}" data-cc="${c.code}">${c.emoji} ${c.label}</button>`
-                ).join('')}
+        <div class="country-dropdown-wrap">
+            <button class="country-dropdown-trigger" id="writerCountryTrigger" aria-expanded="false">
+                <span>${label}</span>
+                <svg class="country-dropdown-arrow" width="12" height="12" viewBox="0 0 12 12">
+                    <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div class="country-dropdown-menu" id="writerCountryMenu" hidden>
+                <button class="country-dropdown-item ${!_writerFilter ? 'active' : ''}" data-cc="">🌎 Todos los países</button>
+                ${groups.map(g => `
+                    <div class="country-dropdown-group-label">${g.emoji} ${g.label}</div>
+                    ${g.countries.map(c =>
+                        `<button class="country-dropdown-item ${_writerFilter === c.code ? 'active' : ''}" data-cc="${c.code}">${c.emoji} ${c.label}</button>`
+                    ).join('')}
+                `).join('')}
             </div>
         </div>
     `;
 
-    bar.querySelectorAll('.explorer-chip').forEach(chip => {
-        chip.addEventListener('click', () => {
-            _writerFilter = chip.dataset.cc || null;
+    const trigger = document.getElementById('writerCountryTrigger');
+    const menu    = document.getElementById('writerCountryMenu');
+
+    trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const open = !menu.hidden;
+        menu.hidden = open;
+        trigger.setAttribute('aria-expanded', String(!open));
+    });
+
+    // Cerrar al hacer click fuera
+    const closeMenu = () => { menu.hidden = true; trigger.setAttribute('aria-expanded', 'false'); };
+    document.addEventListener('click', closeMenu, { once: true });
+    menu.addEventListener('click', e => e.stopPropagation()); // evita que close se dispare al clickear items
+
+    menu.querySelectorAll('.country-dropdown-item').forEach(item => {
+        item.addEventListener('click', () => {
+            _writerFilter = item.dataset.cc || null;
+            closeMenu();
             _renderWritersCountryBar(writers);
             const data = window.writers_es?.es;
             if (data) _renderWritersGrid(data.writers);

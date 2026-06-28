@@ -447,44 +447,67 @@ function initExplorerCountryBar() {
     const bar = document.getElementById('explorerCountryBar');
     if (!bar) return;
 
-    // Países con al menos un personaje
-    const availableCountries = [];
-    FAMOUS_REGIONS.forEach(r => {
-        r.countries.forEach(c => {
-            if (Object.values(FAMOUS_PEOPLE).some(p => p.country === c.key)) {
-                availableCountries.push(c);
-            }
-        });
-    });
+    // Países con al menos un personaje, respetando el orden de FAMOUS_REGIONS
+    const groups = FAMOUS_REGIONS.map(r => ({
+        label: r.label,
+        emoji: r.emoji,
+        countries: r.countries.filter(c => Object.values(FAMOUS_PEOPLE).some(p => p.country === c.key)),
+    })).filter(g => g.countries.length > 0);
 
-    const active = getExplorerCountryFilter();
+    const active     = getExplorerCountryFilter();
+    const allCountries = groups.flatMap(g => g.countries);
+    const activeInfo = allCountries.find(c => c.key === active);
+    const label = activeInfo ? `${activeInfo.emoji} ${activeInfo.label}` : '🌎 Todos los países';
 
     bar.innerHTML = `
-        <div class="explorer-country-bar">
-            <span class="explorer-country-label">🌎 País:</span>
-            <div class="explorer-country-chips">
-                <button class="explorer-chip ${!active ? 'active' : ''}" data-cc="">Todos</button>
-                ${availableCountries.map(c =>
-                    `<button class="explorer-chip ${active === c.key ? 'active' : ''}" data-cc="${c.key}">${c.emoji} ${c.label}</button>`
-                ).join('')}
+        <div class="country-dropdown-wrap">
+            <button class="country-dropdown-trigger" id="explorerCountryTrigger" aria-expanded="false">
+                <span>${label}</span>
+                <svg class="country-dropdown-arrow" width="12" height="12" viewBox="0 0 12 12">
+                    <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div class="country-dropdown-menu" id="explorerCountryMenu" hidden>
+                <button class="country-dropdown-item ${!active ? 'active' : ''}" data-cc="">🌎 Todos los países</button>
+                ${groups.map(g => `
+                    <div class="country-dropdown-group-label">${g.emoji} ${g.label}</div>
+                    ${g.countries.map(c =>
+                        `<button class="country-dropdown-item ${active === c.key ? 'active' : ''}" data-cc="${c.key}">${c.emoji} ${c.label}</button>`
+                    ).join('')}
+                `).join('')}
             </div>
         </div>
     `;
 
-    bar.querySelectorAll('.explorer-chip').forEach(chip => {
-        chip.addEventListener('click', () => {
-            const cc = chip.dataset.cc;
-            setExplorerCountryFilter(cc || null);
+    const trigger = document.getElementById('explorerCountryTrigger');
+    const menu    = document.getElementById('explorerCountryMenu');
+
+    trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const open = !menu.hidden;
+        menu.hidden = open;
+        trigger.setAttribute('aria-expanded', String(!open));
+    });
+
+    const closeMenu = () => { menu.hidden = true; trigger.setAttribute('aria-expanded', 'false'); };
+    document.addEventListener('click', closeMenu, { once: true });
+    menu.addEventListener('click', e => e.stopPropagation());
+
+    menu.querySelectorAll('.country-dropdown-item').forEach(item => {
+        item.addEventListener('click', () => {
+            const cc = item.dataset.cc || null;
+            setExplorerCountryFilter(cc);
             _rebuildFamousCarousel();
-            initExplorerCountryBar(); // re-render active state
+            closeMenu();
+            initExplorerCountryBar();
         });
     });
 
-    // Auto-detectar si no hay filtro activo
+    // Auto-detectar país si no hay filtro activo
     if (!active) {
         detectAndCacheUserCountry().then(cc => {
             if (!cc) return;
-            const match = availableCountries.find(c => c.key === cc);
+            const match = allCountries.find(c => c.key === cc);
             if (!match) return;
             setExplorerCountryFilter(cc);
             _rebuildFamousCarousel();
