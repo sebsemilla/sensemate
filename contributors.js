@@ -10,8 +10,8 @@ function showContributorRegistration() {
     overlay.innerHTML = `
         <div class="contrib-modal">
             <button class="contrib-close-btn" id="contribCloseBtn">×</button>
-            <div class="contrib-modal-icon">💼</div>
-            <h2 class="contrib-modal-title">Ser Contribuidor</h2>
+            <div class="contrib-modal-icon">👨‍🏫</div>
+            <h2 class="contrib-modal-title">Soy Profesor</h2>
             <p class="contrib-modal-sub">Promocioná tus servicios educativos en SenseMate</p>
             <div id="contribStepArea"></div>
         </div>
@@ -27,6 +27,9 @@ function showContributorRegistration() {
 function _contribCodeFormHTML() {
     return `
         <div class="contrib-form">
+            <div class="contrib-profe-info">
+                <p>Si eres profesor de idioma puedes publicar tus servicios gratuitamente sumándote como contributor de nuestra aplicación. Podrás controlar que tu aviso aparezca de forma localizada donde prefieras y luego como usuario Gold utilizar la aplicación también como tu espacio de trabajo junto con tus alumnos.</p>
+            </div>
             <p class="contrib-step-hint">Paso 1 de 2 — Verificá tu código de acceso</p>
             <div class="contrib-field">
                 <label>Código de contribuidor</label>
