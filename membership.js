@@ -486,9 +486,9 @@ async function loadMembershipSection() {
     `);
 
     // Bind events
-    document.getElementById('plansBackBtn').addEventListener('click', () => showMainMenu());
-    document.getElementById('planFreeCta').addEventListener('click', () => showMainMenu());
-    document.getElementById('planTrialBtn').addEventListener('click', () => _startTrialFlow());
+    document.getElementById('plansBackBtn')?.addEventListener('click', () => showMainMenu());
+    document.getElementById('planFreeCta')?.addEventListener('click', () => showMainMenu());
+    document.getElementById('planTrialBtn')?.addEventListener('click', () => _startTrialFlow());
     document.getElementById('planSubscribeBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium'));
     document.getElementById('planOroBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'oro'));
     document.getElementById('planContribBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'contributor'));
@@ -509,11 +509,11 @@ async function loadMembershipSection() {
     });
 
     // Billing toggle
-    document.getElementById('toggleMonthly').addEventListener('click', () => {
+    document.getElementById('toggleMonthly')?.addEventListener('click', () => {
         _billingToggle = 'monthly';
         loadMembershipSection();
     });
-    document.getElementById('toggleAnnual').addEventListener('click', () => {
+    document.getElementById('toggleAnnual')?.addEventListener('click', () => {
         _billingToggle = 'annual';
         loadMembershipSection();
     });
