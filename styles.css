@@ -8942,6 +8942,31 @@ body.dark-mode .asong-lyrics-preview { background: rgba(255,255,255,0.04); }
 }
 .plan-cta-btn--oro:hover { background: #fef3c7; transform: translateY(-1px); }
 
+/* Plan Contributor */
+.plan-card--contributor {
+    background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
+    color: white;
+    box-shadow: 0 8px 32px rgba(6,78,59,.35);
+}
+.plan-card--contributor .plan-card-name { color: white; opacity: 1; }
+.plan-feature-list--contributor li { color: rgba(255,255,255,.92); }
+.plans-popular-tag--contributor { background: #047857; }
+.plan-cta-btn--contributor {
+    background: white;
+    color: #064e3b;
+    box-shadow: 0 2px 12px rgba(0,0,0,.12);
+    width: 100%;
+    padding: .85rem;
+    border-radius: 14px;
+    border: none;
+    font-size: .95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s;
+    display: block;
+}
+.plan-cta-btn--contributor:hover { background: #d1fae5; transform: translateY(-1px); }
+
 /* Comparison table 3 cols */
 .plans-comparison-table--3 th:nth-child(4),
 .plans-comparison-table--3 td:nth-child(4) {

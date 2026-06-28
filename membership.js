@@ -127,8 +127,8 @@ async function loadMembershipSection() {
     renderLanguageBar();
 
     // Load config from server
-    let config = { promo: { active: true, maxSubscribers: 500, monthlyPrice: 2.00, annualPrice: 9.99, badge: '🔥 Precio de lanzamiento', urgencyText: { es: 'Solo para los primeros 500 usuarios', en: 'Only for the first 500 users' } }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 500X', en: 'STARTUP FOR 500X' }, limits: { translationsPerDay: 50, schoolMessages: 10, famousMessages: 5 } };
-    let counter = { current: 0, max: 500, remaining: 500 };
+    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 9.99, badge: '🔥 Precio de lanzamiento', urgencyText: { es: 'Solo para los primeros 250 usuarios', en: 'Only for the first 250 users' } }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' }, limits: { translationsPerDay: 50, schoolMessages: 10, famousMessages: 5 } };
+    let counter = { current: 0, max: 250, remaining: 250 };
 
     try {
         const [cfgRes, cntRes] = await Promise.all([
@@ -138,7 +138,7 @@ async function loadMembershipSection() {
         if (cfgRes.ok) {
             const cfgData = await cfgRes.json();
             config  = cfgData.config || config;
-            counter = { current: cfgData.subscriberCount || 0, max: config.promo?.maxSubscribers || 500, remaining: (config.promo?.maxSubscribers || 500) - (cfgData.subscriberCount || 0) };
+            counter = { current: cfgData.subscriberCount || 0, max: config.promo?.maxSubscribers || 250, remaining: (config.promo?.maxSubscribers || 250) - (cfgData.subscriberCount || 0) };
         }
         if (cntRes.ok) {
             counter = await cntRes.json();
@@ -194,7 +194,7 @@ async function loadMembershipSection() {
             ${promoActive ? `
             <div class="plans-promo-banner">
                 <span class="plans-promo-badge">${badge}</span>
-                <span class="plans-promo-urgency">${urgency} — <strong class="plans-counter-num" id="promoRemainingCount">${counter.remaining}</strong> ${isES ? 'lugares restantes' : 'spots left'}</span>
+                <span class="plans-promo-urgency">${urgency}${counter.current >= 12 ? ` — <strong class="plans-counter-num">${counter.remaining}</strong> ${isES ? 'lugares restantes' : 'spots left'}` : ''}</span>
             </div>` : ''}
 
             <!-- Billing toggle -->
@@ -273,19 +273,17 @@ async function loadMembershipSection() {
                     </button>
                 </div>
 
-                <!-- Oro card -->
+                <!-- Oro card (anual) / Contributor card (mensual) -->
+                ${_billingToggle === 'annual' ? `
                 <div class="plan-card plan-card--oro">
                     <div class="plans-popular-tag plans-popular-tag--oro">🥇 ${isES ? 'Acceso total' : 'Full access'}</div>
                     <div class="plan-card-header">
                         <div class="plan-card-name">${isES ? '🥇 Membresía Oro' : '🥇 Gold Membership'}</div>
                         <div class="plan-price-promo">
-                            $${_billingToggle === 'annual' ? oroAnnual.toFixed(2) : oroMonthly.toFixed(2)}
-                            <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
+                            $${oroAnnual.toFixed(2)}
+                            <span class="plan-price-period">/ ${isES ? 'año' : 'year'}</span>
                         </div>
-                        ${_billingToggle === 'annual' ? `
-                        <div class="plan-price-monthly-equiv">
-                            ≈ $${(oroAnnual / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}
-                        </div>` : ''}
+                        <div class="plan-price-monthly-equiv">≈ $${(oroAnnual / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}</div>
                     </div>
                     <ul class="plan-feature-list plan-feature-list--oro">
                         <li>✅ ${isES ? 'Traductor ilimitado' : 'Unlimited translator'}</li>
@@ -301,7 +299,30 @@ async function loadMembershipSection() {
                     <button class="plan-cta-btn plan-cta-btn--oro" id="planOroBtn">
                         ${isES ? 'Obtener Oro →' : 'Get Gold →'}
                     </button>
-                </div>
+                </div>` : `
+                <div class="plan-card plan-card--contributor">
+                    <div class="plans-popular-tag plans-popular-tag--contributor">🤝 ${isES ? 'Para la comunidad' : 'For the community'}</div>
+                    <div class="plan-card-header">
+                        <div class="plan-card-name">${isES ? '🤝 Contributor' : '🤝 Contributor'}</div>
+                        <div class="plan-price-promo">
+                            $4.99
+                            <span class="plan-price-period">/ ${isES ? 'mes' : 'month'}</span>
+                        </div>
+                        <div class="plan-price-monthly-equiv">${isES ? '15 días de prueba gratuita' : '15-day free trial'}</div>
+                    </div>
+                    <ul class="plan-feature-list plan-feature-list--contributor">
+                        <li>✅ ${isES ? 'Todo lo de Premium' : 'Everything in Premium'}</li>
+                        <li>🤝 ${isES ? 'Panel de contribuidor con puntos' : 'Contributor panel with points'}</li>
+                        <li>🌍 ${isES ? 'Subir contenido a "Aprende con..."' : 'Upload to "Learn with..."'}</li>
+                        <li>🎵 ${isES ? 'Subir canciones y subtítulos' : 'Upload songs & subtitles'}</li>
+                        <li>📚 ${isES ? 'Revisar módulos MisiónMate' : 'Review MisiónMate modules'}</li>
+                        <li>🏆 ${isES ? 'Puntos → beneficios y reconocimiento' : 'Points → benefits & recognition'}</li>
+                        <li>🚀 ${isES ? 'Elegible para formar parte del equipo' : 'Eligible to join the team'}</li>
+                    </ul>
+                    <button class="plan-cta-btn plan-cta-btn--contributor" id="planContribBtn">
+                        ${isES ? 'Empezar prueba gratis →' : 'Start free trial →'}
+                    </button>
+                </div>`}
             </div>
 
             <!-- Feature comparison table -->
@@ -397,7 +418,8 @@ async function loadMembershipSection() {
     document.getElementById('planFreeCta').addEventListener('click', () => showMainMenu());
     document.getElementById('planTrialBtn').addEventListener('click', () => _startTrialFlow());
     document.getElementById('planSubscribeBtn').addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium'));
-    document.getElementById('planOroBtn').addEventListener('click', () => _showPaymentFlow(_billingToggle, 'oro'));
+    document.getElementById('planOroBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'oro'));
+    document.getElementById('planContribBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'contributor'));
 
     // Region buttons
     document.querySelectorAll('.plans-region-btn').forEach(btn => {
@@ -417,8 +439,8 @@ async function loadMembershipSection() {
         loadMembershipSection();
     });
 
-    // Animate counter
-    if (promoActive) {
+    // Animate counter (only rendered when current >= 12)
+    if (promoActive && counter.current >= 12) {
         _animateCounter('promoRemainingCount', 0, counter.remaining, 1200);
     }
 }
@@ -516,10 +538,14 @@ function _showPaymentFlow(period, tier = 'premium') {
     const oroAnnual    = config.oro?.annualPrice  || 29.99;
     const price = tier === 'oro'
         ? (period === 'annual' ? oroAnnual : oroMonthly)
+        : tier === 'contributor'
+        ? 4.99
         : (period === 'annual' ? (promoActive ? promoAnnual : regAnnual) : (promoActive ? promoMonthly : regMonthly));
     const planName = tier === 'oro'
         ? (isES ? 'Membresía Oro' : 'Gold Membership')
-        : (isES ? (config.planName?.es || 'Premium 500X') : (config.planName?.en || 'STARTUP FOR 500X'));
+        : tier === 'contributor'
+        ? 'Contributor'
+        : (isES ? (config.planName?.es || 'Premium 250X') : (config.planName?.en || 'STARTUP FOR 250X'));
     const periodLabel = period === 'annual' ? (isES ? 'anual' : 'annual') : (isES ? 'mensual' : 'monthly');
 
     const modal = document.createElement('div');
