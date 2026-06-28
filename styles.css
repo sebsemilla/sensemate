@@ -6334,6 +6334,50 @@ body.dark-mode .asong-lyrics-preview { background: rgba(255,255,255,0.04); }
 
 /* ── Carrusel de famosos (menú principal) ── */
 
+/* Explorer country filter bar */
+#explorerCountryBar { width: 100%; }
+.explorer-country-bar {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .5rem .25rem .75rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.explorer-country-bar::-webkit-scrollbar { display: none; }
+.explorer-country-label {
+    font-size: .78rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.explorer-country-chips {
+    display: flex;
+    gap: .4rem;
+    flex-wrap: nowrap;
+}
+.explorer-chip {
+    padding: .3rem .75rem;
+    border-radius: 20px;
+    border: 1.5px solid var(--border);
+    background: var(--surface);
+    color: var(--text-muted);
+    font-size: .78rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all .18s;
+}
+.explorer-chip.active,
+.explorer-chip:hover {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border-color: transparent;
+    color: #fff;
+}
+.dark-mode .explorer-chip { background: #1e293b; border-color: #334155; color: #94a3b8; }
+.dark-mode .explorer-chip.active { background: linear-gradient(135deg, #6366f1, #8b5cf6); color: #fff; }
+
 .famous-carousel-section {
   position: relative;
   display: flex;

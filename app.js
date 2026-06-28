@@ -2418,12 +2418,16 @@ function showMainMenu() {
             </div>` : sectionMinimized('school', '📚', 'Modo Escuela')}` : ''}
 
             ${showFamous ? (sectionEnabled('famous') ? `
+            <div id="explorerCountryBar"></div>
             <div class="famous-carousel-section" id="famousCarouselSection">
                 <button class="fc-arrow fc-arrow--left" id="fcPrev" aria-label="Anterior">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
                 </button>
                 <div class="fc-track-wrap" id="fcTrackWrap">
-                    ${renderFamousMenuCards(['mlk','marilyn','maradona'], t)}
+                    ${(typeof famousCarouselKeys === 'function' ? famousCarouselKeys() : ['mlk','marilyn','maradona']).map(k => {
+                        const desc = t[`${k}_descripcion`] || '';
+                        return typeof _famousCardHTML === 'function' ? _famousCardHTML(k, desc, 'fc-card') : '';
+                    }).join('')}
                     <div class="famous-card fc-card" data-person="more"
                          style="--fcard-color:#1c1c2e">
                         <div class="famous-card-overlay"></div>
@@ -2523,9 +2527,12 @@ function showMainMenu() {
         el.addEventListener('click', () => loadSettingsSection());
     });
 
-    // Inicializar carrusel de famosos
+    // Inicializar carrusel de famosos + barra de país en Explorador
     if (typeof initFamousCarousel === 'function') {
         initFamousCarousel(document.getElementById('famousCarouselSection'));
+    }
+    if (typeof initExplorerCountryBar === 'function') {
+        initExplorerCountryBar();
     }
 
     // Inicializar banners

@@ -407,6 +407,113 @@ function renderFamousMenuCards(keys, t) {
     }).join('');
 }
 
+// ─── Explorer: detección de país y filtro de carrusel ─────────
+
+const _EXPLORER_COUNTRY_KEY = 'ls_explorer_country';
+
+async function detectAndCacheUserCountry() {
+    const cached = localStorage.getItem(_EXPLORER_COUNTRY_KEY);
+    if (cached) return cached;
+    try {
+        const r = await fetch('https://ipapi.co/json/', { signal: AbortSignal.timeout(4000) });
+        const d = await r.json();
+        const cc = d.country_code?.toLowerCase();
+        if (cc) localStorage.setItem(_EXPLORER_COUNTRY_KEY, cc);
+        return cc || null;
+    } catch { return null; }
+}
+
+function famousCarouselKeys() {
+    const cc = _famousFilter.country;
+    const allKeys = Object.keys(FAMOUS_PEOPLE);
+    const pool = cc
+        ? allKeys.filter(k => FAMOUS_PEOPLE[k].country === cc)
+        : allKeys;
+    return pool.length >= 3 ? pool.slice(0, 3)
+        : [...pool, ...allKeys.filter(k => !pool.includes(k))].slice(0, 3);
+}
+
+function setExplorerCountryFilter(cc) {
+    _famousFilter = { region: null, country: cc || null };
+    if (cc) localStorage.setItem(_EXPLORER_COUNTRY_KEY, cc);
+    else    localStorage.removeItem(_EXPLORER_COUNTRY_KEY);
+}
+
+function getExplorerCountryFilter() {
+    return _famousFilter.country || localStorage.getItem(_EXPLORER_COUNTRY_KEY) || null;
+}
+
+function initExplorerCountryBar() {
+    const bar = document.getElementById('explorerCountryBar');
+    if (!bar) return;
+
+    // Países con al menos un personaje
+    const availableCountries = [];
+    FAMOUS_REGIONS.forEach(r => {
+        r.countries.forEach(c => {
+            if (Object.values(FAMOUS_PEOPLE).some(p => p.country === c.key)) {
+                availableCountries.push(c);
+            }
+        });
+    });
+
+    const active = getExplorerCountryFilter();
+
+    bar.innerHTML = `
+        <div class="explorer-country-bar">
+            <span class="explorer-country-label">🌎 País:</span>
+            <div class="explorer-country-chips">
+                <button class="explorer-chip ${!active ? 'active' : ''}" data-cc="">Todos</button>
+                ${availableCountries.map(c =>
+                    `<button class="explorer-chip ${active === c.key ? 'active' : ''}" data-cc="${c.key}">${c.emoji} ${c.label}</button>`
+                ).join('')}
+            </div>
+        </div>
+    `;
+
+    bar.querySelectorAll('.explorer-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+            const cc = chip.dataset.cc;
+            setExplorerCountryFilter(cc || null);
+            _rebuildFamousCarousel();
+            initExplorerCountryBar(); // re-render active state
+        });
+    });
+
+    // Auto-detectar si no hay filtro activo
+    if (!active) {
+        detectAndCacheUserCountry().then(cc => {
+            if (!cc) return;
+            const match = availableCountries.find(c => c.key === cc);
+            if (!match) return;
+            setExplorerCountryFilter(cc);
+            _rebuildFamousCarousel();
+            initExplorerCountryBar();
+        });
+    }
+}
+
+function _rebuildFamousCarousel() {
+    const trackWrap = document.getElementById('fcTrackWrap');
+    const section   = document.getElementById('famousCarouselSection');
+    if (!trackWrap || !section) return;
+
+    const t = (typeof currentTranslations !== 'undefined') ? currentTranslations : {};
+    const keys = famousCarouselKeys();
+
+    trackWrap.innerHTML = renderFamousMenuCards(keys, t) + `
+        <div class="famous-card fc-card" data-person="more" style="--fcard-color:#1c1c2e">
+            <div class="famous-card-overlay"></div>
+            <div class="famous-card-body">
+                <div class="famous-card-emoji">🌟</div>
+                <div class="famous-card-name">${t.titulo_famosos || 'Más famosos'}</div>
+                <div class="famous-card-desc">${t.descripcion_famosos || 'Ver todos'}</div>
+            </div>
+        </div>`;
+
+    initFamousCarousel(section);
+}
+
 // ─── Chat con famoso ──────────────────────────────────────────
 
 function loadFamousChat(person) {
