@@ -8729,6 +8729,41 @@ body.dark-mode .asong-lyrics-preview { background: rgba(255,255,255,0.04); }
     border-color: transparent;
     color: white;
 }
+.plans-region-btn--contrib.active,
+.plans-region-btn--contrib:hover {
+    background: linear-gradient(135deg, #064e3b, #10b981);
+    border-color: transparent;
+    color: white;
+}
+
+/* Contributor plans view */
+.contrib-plans-header { margin: 1rem 0 .25rem; }
+.contrib-plans-intro {
+    font-size: .88rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+}
+.plan-card--contributor-featured {
+    box-shadow: 0 8px 32px rgba(6,78,59,.45);
+    transform: scale(1.02);
+}
+.plan-card--contributor-featured:hover { transform: scale(1.02) translateY(-3px); }
+.contrib-plans-note {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1rem 1.25rem;
+    margin-top: .5rem;
+}
+.contrib-plans-note p {
+    font-size: .82rem;
+    color: var(--text-muted);
+    margin: 0 0 .5rem;
+    line-height: 1.5;
+}
+.contrib-plans-note p:last-child { margin: 0; }
 
 /* Promo banner */
 .plans-promo-banner {

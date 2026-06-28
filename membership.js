@@ -121,6 +121,7 @@ function _todayKey() {
 
 let _membershipConfig  = null;
 let _billingToggle     = 'annual'; // 'monthly' | 'annual'
+let _plansTab          = 'region'; // 'region' | 'contributors'
 
 async function loadMembershipSection() {
     mainContainer.innerHTML = '';
@@ -180,15 +181,86 @@ async function loadMembershipSection() {
                 <p class="plans-subtitle">${isES ? 'Desbloquea todas las funciones sin límites' : 'Unlock all features without limits'}</p>
             </div>
 
-            <!-- Region selector -->
+            <!-- Tab selector -->
             <div class="plans-region-selector">
-                <button class="plans-region-btn ${region === 'latam' ? 'active' : ''}" data-region="latam">
+                <button class="plans-region-btn ${_plansTab === 'region' && region === 'latam' ? 'active' : ''}" data-tab="region" data-region="latam">
                     🇦🇷 América Latina
                 </button>
-                <button class="plans-region-btn ${region === 'eu' ? 'active' : ''}" data-region="eu">
+                <button class="plans-region-btn ${_plansTab === 'region' && region === 'eu' ? 'active' : ''}" data-tab="region" data-region="eu">
                     🌍 Europa / Global
                 </button>
+                <button class="plans-region-btn plans-region-btn--contrib ${_plansTab === 'contributors' ? 'active' : ''}" data-tab="contributors">
+                    🤝 Contributores
+                </button>
             </div>
+
+            ${_plansTab === 'contributors' ? `
+
+            <!-- ── Contributor plans view ── -->
+            <div class="contrib-plans-header">
+                <p class="contrib-plans-intro">${isES
+                    ? 'Apoyá el proyecto y accedé a todo Premium mientras contribuís con contenido, mejoras y comunidad.'
+                    : 'Support the project and get full Premium access while contributing content, improvements and community.'}</p>
+            </div>
+
+            <div class="plans-cards-row">
+
+                <!-- Contributor Monthly -->
+                <div class="plan-card plan-card--contributor">
+                    <div class="plan-card-header">
+                        <div class="plan-card-name">🤝 Contributor ${isES ? 'Mensual' : 'Monthly'}</div>
+                        <div class="plan-price-promo">$4.99 <span class="plan-price-period">/ ${isES ? 'mes' : 'month'}</span></div>
+                        <div class="plan-price-monthly-equiv">✨ ${isES ? '15 días de prueba gratuita' : '15-day free trial'}</div>
+                    </div>
+                    <ul class="plan-feature-list plan-feature-list--contributor">
+                        <li>✅ ${isES ? 'Todo lo de Premium incluido' : 'Everything in Premium included'}</li>
+                        <li>🤝 ${isES ? 'Panel de contribuidor con puntos' : 'Contributor panel with points'}</li>
+                        <li>🌍 ${isES ? 'Subir contenido a "Aprende con..."' : 'Upload to "Learn with..."'}</li>
+                        <li>🎵 ${isES ? 'Subir canciones y subtítulos' : 'Upload songs & subtitles'}</li>
+                        <li>📚 ${isES ? 'Revisar módulos MisiónMate' : 'Review MisiónMate modules'}</li>
+                        <li>🏆 ${isES ? 'Puntos → beneficios y reconocimiento' : 'Points → benefits & recognition'}</li>
+                        <li>🚀 ${isES ? 'Elegible para unirse al equipo' : 'Eligible to join the team'}</li>
+                    </ul>
+                    <button class="plan-cta-btn plan-cta-btn--contributor" id="planContribMonthlyBtn">
+                        ${isES ? 'Empezar prueba de 15 días →' : 'Start 15-day trial →'}
+                    </button>
+                </div>
+
+                <!-- Contributor Quarterly -->
+                <div class="plan-card plan-card--contributor plan-card--contributor-featured">
+                    <div class="plans-popular-tag plans-popular-tag--contributor">🌟 ${isES ? 'Más compromiso' : 'Most committed'}</div>
+                    <div class="plan-card-header">
+                        <div class="plan-card-name">🤝 Contributor ${isES ? 'Trimestral' : 'Quarterly'}</div>
+                        <div class="plan-price-promo">$10 <span class="plan-price-period">/ ${isES ? 'trimestre' : 'quarter'}</span></div>
+                        <div class="plan-price-monthly-equiv">≈ $3.33 / ${isES ? 'mes' : 'month'} · ✨ ${isES ? '1 mes de prueba gratis' : '1 month free trial'}</div>
+                    </div>
+                    <ul class="plan-feature-list plan-feature-list--contributor">
+                        <li>✅ ${isES ? 'Todo lo de Premium incluido' : 'Everything in Premium included'}</li>
+                        <li>🤝 ${isES ? 'Panel de contribuidor con puntos' : 'Contributor panel with points'}</li>
+                        <li>🌍 ${isES ? 'Subir contenido a "Aprende con..."' : 'Upload to "Learn with..."'}</li>
+                        <li>🎵 ${isES ? 'Subir canciones y subtítulos' : 'Upload songs & subtitles'}</li>
+                        <li>📚 ${isES ? 'Revisar módulos MisiónMate' : 'Review MisiónMate modules'}</li>
+                        <li>🏆 ${isES ? 'Puntos dobles durante el trimestre' : 'Double points during the quarter'}</li>
+                        <li>🚀 ${isES ? 'Prioridad en nominaciones al equipo' : 'Priority in team nominations'}</li>
+                        <li>🎖️ ${isES ? 'Insignia Contributor verificado' : 'Verified Contributor badge'}</li>
+                    </ul>
+                    <button class="plan-cta-btn plan-cta-btn--contributor" id="planContribQuarterlyBtn">
+                        ${isES ? 'Empezar 1 mes gratis →' : 'Start 1 month free →'}
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="contrib-plans-note">
+                <p>🏆 ${isES
+                    ? 'Los contribuidores acumulan puntos que se canjean por meses gratis, membresía Oro o formar parte del equipo de trabajo.'
+                    : 'Contributors accumulate points redeemable for free months, Gold membership, or joining the work team.'}</p>
+                <p>📚 ${isES
+                    ? 'MisiónMate: 10 cupos por idioma — los 2 más activos pueden ser nominados como parte del equipo.'
+                    : 'MisiónMate: 10 spots per language — the 2 most active can be nominated as team members.'}</p>
+            </div>
+
+            ` : `
 
             <!-- Promo banner -->
             ${promoActive ? `
@@ -206,10 +278,10 @@ async function loadMembershipSection() {
                     ${isES ? 'Anual' : 'Annual'}
                     <span class="plans-save-badge">${isES ? 'Ahorrás 75%' : 'Save 75%'}</span>
                 </button>
-            </div>
+            </div>`}
 
-            <!-- Plan cards -->
-            <div class="plans-cards-row plans-cards-row--3">
+            <!-- Plan cards + table + trust (only in region tab) -->
+            ${_plansTab !== 'contributors' ? `<div class="plans-cards-row plans-cards-row--3">
 
                 <!-- Free card -->
                 <div class="plan-card plan-card--free">
@@ -408,7 +480,7 @@ async function loadMembershipSection() {
                     <span>✓ Cancel anytime</span>
                     <span>30-day free trial</span>
                 `}
-            </div>
+            </div>` : ''}
 
         </div>
     `);
@@ -417,14 +489,21 @@ async function loadMembershipSection() {
     document.getElementById('plansBackBtn').addEventListener('click', () => showMainMenu());
     document.getElementById('planFreeCta').addEventListener('click', () => showMainMenu());
     document.getElementById('planTrialBtn').addEventListener('click', () => _startTrialFlow());
-    document.getElementById('planSubscribeBtn').addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium'));
+    document.getElementById('planSubscribeBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium'));
     document.getElementById('planOroBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'oro'));
     document.getElementById('planContribBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'contributor'));
+    document.getElementById('planContribMonthlyBtn')?.addEventListener('click', () => _showPaymentFlow('monthly', 'contributor'));
+    document.getElementById('planContribQuarterlyBtn')?.addEventListener('click', () => _showPaymentFlow('quarterly', 'contributor'));
 
-    // Region buttons
+    // Tab / Region buttons
     document.querySelectorAll('.plans-region-btn').forEach(btn => {
         btn.addEventListener('click', () => {
-            localStorage.setItem('ls_region', btn.dataset.region);
+            if (btn.dataset.tab === 'contributors') {
+                _plansTab = 'contributors';
+            } else {
+                _plansTab = 'region';
+                if (btn.dataset.region) localStorage.setItem('ls_region', btn.dataset.region);
+            }
             loadMembershipSection();
         });
     });
