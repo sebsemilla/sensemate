@@ -2402,6 +2402,11 @@ function showMainMenu() {
                 <p>${t.simple_mode_description}</p>
                 <p>${t.simple_mode_sub}</p>
                 <h4>${t.modos_traduccion}</h4>
+            </div>
+            <div class="mode-card mode-card--longtext" data-mode="longtext">
+                <h2>📄</h2>
+                <h4>Texto Largo</h4>
+                <p>Pegá una página o más — la IA traduce párrafo a párrafo mientras leés. Pedile que resuma, cambie personajes o reversione la historia.</p>
             </div>` : sectionMinimized('translator', '🔄', 'Traductor')) : ''}
 
             ${showSchool ? `
@@ -2506,6 +2511,7 @@ function showMainMenu() {
             const mode = card.dataset.mode;
             _track('section_open', { section: mode });
             if      (mode === 'simple')    loadSimpleMode();
+            else if (mode === 'longtext')  loadLongTextMode();
             else if (mode === 'school')    requireAuth('Modo Escuela',     loadSchoolMode);
             else if (mode === 'practice')  requireAuth('Modo Práctica',    loadPracticeMenu);
             else if (mode === 'writers') {
@@ -2587,6 +2593,252 @@ function showMainMenu() {
 
 // ─── Modo Simple (traducción) ─────────────────────────────────
 
+// ─── Modo Texto Largo ─────────────────────────────────────────
+
+function loadLongTextMode() {
+    const t = currentTranslations;
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="lt-wrap">
+
+            <div class="lt-header">
+                <button class="school-back-btn" id="ltBackBtn">← ${t.volver || 'Volver'}</button>
+                <h2 class="lt-title">📄 Texto Largo</h2>
+            </div>
+
+            <!-- Instrucción para la IA -->
+            <div class="lt-card lt-instruction-card">
+                <label class="lt-label">
+                    🧠 ¿Qué querés que haga la IA con cada párrafo?
+                    <span class="lt-optional">opcional — si está vacío solo traduce</span>
+                </label>
+                <div class="lt-instruction-examples">
+                    <button class="lt-example-chip" data-val="Hacé un resumen breve de cada párrafo">📝 Resumir</button>
+                    <button class="lt-example-chip" data-val="Cambiá los nombres de los personajes por nombres latinoamericanos">🎭 Cambiar personajes</button>
+                    <button class="lt-example-chip" data-val="Reescribí la historia desde el punto de vista del antagonista">🔄 Cambiar perspectiva</button>
+                    <button class="lt-example-chip" data-val="Modernizá el lenguaje a un estilo informal y contemporáneo">✨ Modernizar estilo</button>
+                </div>
+                <textarea class="lt-instruction-input" id="ltInstruction" rows="2"
+                    placeholder="Ej: traducí pero cambiá los nombres de los personajes, o hacé un resumen de cada párrafo..."></textarea>
+            </div>
+
+            <!-- Texto de entrada -->
+            <div class="lt-card">
+                <label class="lt-label">📖 Pegá el texto a traducir</label>
+                <textarea class="lt-text-input" id="ltSourceText" rows="12"
+                    placeholder="Pegá aquí tu texto (una o dos páginas de libro, artículo, historia...)"></textarea>
+                <div class="lt-input-foot">
+                    <span class="lt-char-count" id="ltCharCount">0 caracteres · 0 párrafos</span>
+                    <button class="lt-paste-btn" id="ltPasteBtn">📋 Pegar</button>
+                </div>
+            </div>
+
+            <!-- Botón procesar -->
+            <button class="lt-process-btn" id="ltProcessBtn" disabled>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Procesar texto
+            </button>
+
+            <!-- Progreso -->
+            <div class="lt-progress hidden" id="ltProgress">
+                <div class="lt-progress-bar"><div class="lt-progress-fill" id="ltProgressFill"></div></div>
+                <span class="lt-progress-label" id="ltProgressLabel">Procesando párrafo 1...</span>
+                <button class="lt-stop-btn" id="ltStopBtn">⏹ Detener</button>
+            </div>
+
+            <!-- Resultados -->
+            <div class="lt-results" id="ltResults"></div>
+
+        </div>
+    `);
+
+    document.getElementById('ltBackBtn').addEventListener('click', showMainMenu);
+
+    // Paste
+    document.getElementById('ltPasteBtn').addEventListener('click', async () => {
+        try {
+            const text = await navigator.clipboard.readText();
+            document.getElementById('ltSourceText').value = text;
+            _ltUpdateCount();
+        } catch { /* no clipboard permission */ }
+    });
+
+    // Chips de ejemplo
+    document.querySelectorAll('.lt-example-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+            const input = document.getElementById('ltInstruction');
+            input.value = chip.dataset.val;
+            input.focus();
+        });
+    });
+
+    // Char/paragraph counter
+    const sourceTA = document.getElementById('ltSourceText');
+    sourceTA.addEventListener('input', _ltUpdateCount);
+
+    function _ltUpdateCount() {
+        const text  = sourceTA.value;
+        const paras = _ltSplitParagraphs(text).length;
+        const count = text.length;
+        const el    = document.getElementById('ltCharCount');
+        if (el) el.textContent = `${count.toLocaleString()} caracteres · ${paras} párrafo${paras !== 1 ? 's' : ''}`;
+        const btn = document.getElementById('ltProcessBtn');
+        if (btn) btn.disabled = text.trim().length < 20;
+    }
+
+    // Procesar
+    let _ltStopped = false;
+    document.getElementById('ltProcessBtn').addEventListener('click', () => _ltRun());
+    document.getElementById('ltStopBtn').addEventListener('click', () => { _ltStopped = true; });
+
+    async function _ltRun() {
+        const text        = document.getElementById('ltSourceText').value.trim();
+        const instruction = document.getElementById('ltInstruction').value.trim();
+        const paragraphs  = _ltSplitParagraphs(text);
+        if (!paragraphs.length) return;
+
+        _ltStopped = false;
+        document.getElementById('ltProcessBtn').classList.add('hidden');
+        const progress  = document.getElementById('ltProgress');
+        const fill      = document.getElementById('ltProgressFill');
+        const label     = document.getElementById('ltProgressLabel');
+        const results   = document.getElementById('ltResults');
+        results.innerHTML = '';
+        progress.classList.remove('hidden');
+
+        let prevContext = '';
+
+        for (let i = 0; i < paragraphs.length; i++) {
+            if (_ltStopped) break;
+
+            const pct = Math.round((i / paragraphs.length) * 100);
+            fill.style.width  = pct + '%';
+            label.textContent = `Traduciendo párrafo ${i + 1} de ${paragraphs.length}…`;
+
+            // Placeholder card con spinner
+            const cardId = `ltCard_${i}`;
+            results.insertAdjacentHTML('beforeend', `
+                <div class="lt-para-card" id="${cardId}">
+                    <div class="lt-para-original">${escapeHtml(paragraphs[i])}</div>
+                    <div class="lt-para-divider"></div>
+                    <div class="lt-para-result lt-para-result--loading">
+                        <div class="school-dots"><span></span><span></span><span></span></div>
+                    </div>
+                </div>
+            `);
+            document.getElementById(cardId).scrollIntoView({ behavior: 'smooth', block: 'end' });
+
+            try {
+                const r = await _authFetch(`${_API_HOST}/translate-paragraph`, {
+                    method: 'POST',
+                    body: JSON.stringify({
+                        text: paragraphs[i],
+                        sourceLang, targetLang,
+                        instruction: instruction || '',
+                        prevContext,
+                    })
+                });
+                const data = await r.json();
+                const result = r.ok ? (data.result || '—') : ('⚠️ ' + (data.error || 'Error'));
+
+                // Actualizar card
+                const card = document.getElementById(cardId);
+                card.querySelector('.lt-para-result').outerHTML = `
+                    <div class="lt-para-result">${escapeHtml(result)}</div>
+                    <div class="lt-para-actions">
+                        <button class="lt-chat-btn" data-card="${cardId}">💬 Preguntarle a la IA sobre este párrafo</button>
+                    </div>
+                    <div class="lt-para-chat hidden" id="${cardId}_chat"></div>
+                `;
+
+                // Wiring del botón de chat
+                card.querySelector('.lt-chat-btn').addEventListener('click', function() {
+                    _ltOpenParaChat(cardId, paragraphs[i], result, instruction);
+                    this.classList.add('hidden');
+                });
+
+                // Acumular contexto (últimos 2 párrafos procesados)
+                prevContext = [prevContext, result].filter(Boolean).join('\n\n').split('\n\n').slice(-2).join('\n\n');
+
+            } catch (e) {
+                document.getElementById(cardId).querySelector('.lt-para-result').innerHTML =
+                    `<span style="color:#ef4444">⚠️ Error de red — reintentá más tarde</span>`;
+            }
+        }
+
+        fill.style.width  = '100%';
+        label.textContent = _ltStopped
+            ? `⏹ Detenido en párrafo ${Math.min(document.querySelectorAll('.lt-para-card').length, paragraphs.length)} de ${paragraphs.length}`
+            : `✅ ${paragraphs.length} párrafo${paragraphs.length !== 1 ? 's' : ''} procesado${paragraphs.length !== 1 ? 's' : ''}`;
+        document.getElementById('ltStopBtn').classList.add('hidden');
+        document.getElementById('ltProcessBtn').classList.remove('hidden');
+    }
+
+    function _ltOpenParaChat(cardId, original, translated, instruction) {
+        const chatEl = document.getElementById(`${cardId}_chat`);
+        chatEl.classList.remove('hidden');
+        chatEl.innerHTML = `
+            <div class="lt-chat-messages" id="${cardId}_msgs"></div>
+            <div class="lt-chat-input-row">
+                <textarea class="lt-chat-input" id="${cardId}_input" rows="2"
+                    placeholder="Preguntá sobre este párrafo: vocabulario, gramática, decisiones de traducción..."></textarea>
+                <button class="lt-chat-send" id="${cardId}_send">→</button>
+            </div>
+        `;
+
+        const msgs   = [];
+        const msgsEl = document.getElementById(`${cardId}_msgs`);
+        const input  = document.getElementById(`${cardId}_input`);
+        const send   = document.getElementById(`${cardId}_send`);
+
+        async function sendMsg() {
+            const q = input.value.trim();
+            if (!q) return;
+            msgs.push({ role: 'user', content: q });
+            msgsEl.insertAdjacentHTML('beforeend',
+                `<div class="lt-chat-msg lt-chat-msg--user">${escapeHtml(q)}</div>`);
+            input.value = '';
+            send.disabled = true;
+
+            const loadId = `${cardId}_load_${Date.now()}`;
+            msgsEl.insertAdjacentHTML('beforeend',
+                `<div class="lt-chat-msg lt-chat-msg--ai" id="${loadId}">
+                    <div class="school-dots"><span></span><span></span><span></span></div>
+                </div>`);
+            msgsEl.scrollTop = msgsEl.scrollHeight;
+
+            try {
+                const r    = await _authFetch(`${_API_HOST}/paragraph-chat`, {
+                    method: 'POST',
+                    body: JSON.stringify({ original, translated, messages: msgs, sourceLang, targetLang })
+                });
+                const data = await r.json();
+                const reply = r.ok ? data.reply : ('⚠️ ' + (data.error || 'Error'));
+                msgs.push({ role: 'assistant', content: reply });
+                document.getElementById(loadId).textContent = reply;
+            } catch {
+                document.getElementById(loadId).textContent = '⚠️ Error de red';
+            }
+            send.disabled = false;
+            msgsEl.scrollTop = msgsEl.scrollHeight;
+        }
+
+        send.addEventListener('click', sendMsg);
+        input.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMsg(); } });
+        input.focus();
+    }
+}
+
+function _ltSplitParagraphs(text) {
+    return text
+        .split(/\n{2,}/)
+        .map(p => p.replace(/\n/g, ' ').trim())
+        .filter(p => p.length > 0);
+}
+
+// ─── Modo Traductor Simple ────────────────────────────────────
 function loadSimpleMode() {
     const t = currentTranslations;
     mainContainer.innerHTML = '';

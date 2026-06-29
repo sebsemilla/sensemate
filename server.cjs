@@ -487,6 +487,78 @@ app.post('/synonyms', chatLimiter, async (req, res) => {
     }
 });
 
+// ── Traductor de texto largo (párrafo a párrafo) ───────────────
+app.post('/translate-paragraph', _optionalAuth, async (req, res) => {
+    const { text, sourceLang, targetLang, instruction, prevContext } = req.body;
+    if (!text?.trim()) return res.status(400).json({ error: 'Falta el texto' });
+
+    const cohere = new CohereClientV2({ token: process.env.COHERE_API_KEY });
+    const src    = _langName(sourceLang || 'es');
+    const tgt    = _langName(targetLang || 'en');
+
+    const instrLine = instruction?.trim()
+        ? `Además de traducir, aplicá esta instrucción al párrafo: "${instruction.trim()}".`
+        : '';
+
+    const ctxLine = prevContext?.trim()
+        ? `Para mantener coherencia, los párrafos anteriores procesados fueron:\n"""\n${prevContext.trim()}\n"""\n`
+        : '';
+
+    const systemPrompt =
+        `Eres un experto traductor literario. Tu tarea es traducir párrafos del idioma ${src} al idioma ${tgt}.\n` +
+        `${instrLine}\n` +
+        `Reglas:\n` +
+        `- Devolvé ÚNICAMENTE el párrafo traducido/procesado, sin encabezados ni explicaciones.\n` +
+        `- Mantené el estilo, tono y voz narrativa del original.\n` +
+        `- Si hay nombres propios o términos especiales, sé consistente con los párrafos anteriores.`;
+
+    const userMsg = `${ctxLine}Párrafo a traducir:\n"""\n${text.trim()}\n"""`;
+
+    try {
+        const response = await cohere.chat({
+            model: 'command-a-translate-08-2025',
+            messages: [
+                { role: 'system', content: systemPrompt },
+                { role: 'user',   content: userMsg }
+            ],
+            temperature: 0.3,
+        });
+        res.json({ result: response.message.content[0].text.trim() });
+    } catch (e) {
+        console.error('/translate-paragraph error:', e);
+        res.status(500).json({ error: 'Error al traducir el párrafo' });
+    }
+});
+
+// ── Chat sobre un párrafo específico ───────────────────────────
+app.post('/paragraph-chat', chatLimiter, async (req, res) => {
+    const { original, translated, messages, sourceLang, targetLang } = req.body;
+    if (!messages?.length) return res.status(400).json({ error: 'Faltan parámetros' });
+
+    const cohere = new CohereClientV2({ token: process.env.COHERE_API_KEY });
+    const src    = _langName(sourceLang || 'es');
+    const tgt    = _langName(targetLang || 'en');
+
+    const system =
+        `Eres un asistente literario y de idiomas. El usuario está leyendo un texto traducido del ${src} al ${tgt}.\n` +
+        `Párrafo original:\n"""\n${(original || '').slice(0, 800)}\n"""\n` +
+        `Traducción/versión procesada:\n"""\n${(translated || '').slice(0, 800)}\n"""\n` +
+        `Respondé las preguntas del usuario sobre este párrafo: vocabulario, gramática, decisiones de traducción, contexto literario, etc.\n` +
+        `Respondé siempre en ${src}. Sé conciso y práctico (2-4 oraciones salvo que se pida más).`;
+
+    try {
+        const response = await cohere.chat({
+            model: 'command-a-03-2025',
+            messages: [{ role: 'system', content: system }, ...messages],
+            temperature: 0.6,
+        });
+        res.json({ reply: response.message.content[0].text });
+    } catch (e) {
+        console.error('/paragraph-chat error:', e);
+        res.status(500).json({ error: 'Error al generar respuesta' });
+    }
+});
+
 // ── IA in Context ──────────────────────────────────────────────
 app.post('/context-chat', chatLimiter, async (req, res) => {
     const { word, messages, sourceLang, targetLang } = req.body;
