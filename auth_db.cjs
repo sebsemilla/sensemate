@@ -290,4 +290,259 @@ function getAllUsers() {
         .map(r => ({ ...r, isDev: !!r.is_dev, emailVerified: !!r.email_verified }));
 }
 
-module.exports = { register, login, loginWithGoogle, verifyToken, signToken, getUserById, setUserPlan, verifyEmail, createResetToken, resetPassword, deleteUser, getAllUsers, db };
+// ─── Classroom tables ─────────────────────────────────────────
+
+db.exec(`
+  CREATE TABLE IF NOT EXISTS teacher_profiles (
+    teacher_id   TEXT PRIMARY KEY,
+    bio          TEXT DEFAULT '',
+    target_langs TEXT DEFAULT '[]',
+    status       TEXT DEFAULT 'available',
+    rating       REAL DEFAULT 0,
+    rating_count INTEGER DEFAULT 0,
+    created_at   TEXT NOT NULL
+  );
+  CREATE TABLE IF NOT EXISTS classes (
+    id          TEXT PRIMARY KEY,
+    teacher_id  TEXT NOT NULL,
+    name        TEXT NOT NULL,
+    target_lang TEXT NOT NULL,
+    source_lang TEXT DEFAULT 'es',
+    created_at  TEXT NOT NULL
+  );
+  CREATE TABLE IF NOT EXISTS class_students (
+    class_id   TEXT NOT NULL,
+    student_id TEXT NOT NULL,
+    status     TEXT DEFAULT 'pending',
+    joined_at  TEXT NOT NULL,
+    PRIMARY KEY (class_id, student_id)
+  );
+  CREATE TABLE IF NOT EXISTS classroom_messages (
+    id           TEXT PRIMARY KEY,
+    class_id     TEXT NOT NULL,
+    sender_id    TEXT NOT NULL,
+    content      TEXT NOT NULL,
+    is_private   INTEGER DEFAULT 0,
+    recipient_id TEXT,
+    created_at   TEXT NOT NULL
+  );
+  CREATE TABLE IF NOT EXISTS classroom_notifications (
+    id         TEXT PRIMARY KEY,
+    user_id    TEXT NOT NULL,
+    type       TEXT NOT NULL,
+    payload    TEXT DEFAULT '{}',
+    is_read    INTEGER DEFAULT 0,
+    created_at TEXT NOT NULL
+  );
+  CREATE TABLE IF NOT EXISTS teacher_ratings (
+    teacher_id TEXT NOT NULL,
+    student_id TEXT NOT NULL,
+    score      INTEGER NOT NULL,
+    comment    TEXT DEFAULT '',
+    created_at TEXT NOT NULL,
+    PRIMARY KEY (teacher_id, student_id)
+  );
+`);
+
+// ─── Classroom helpers ────────────────────────────────────────
+
+function getTeacherProfile(teacherId) {
+    const row = db.prepare('SELECT * FROM teacher_profiles WHERE teacher_id = ?').get(teacherId);
+    if (!row) return null;
+    const user = db.prepare('SELECT id, name, username FROM users WHERE id = ?').get(teacherId);
+    return { ...row, target_langs: JSON.parse(row.target_langs || '[]'), name: user?.name, username: user?.username };
+}
+
+function upsertTeacherProfile(teacherId, { bio, targetLangs, status }) {
+    const now = new Date().toISOString();
+    const existing = db.prepare('SELECT teacher_id FROM teacher_profiles WHERE teacher_id = ?').get(teacherId);
+    if (existing) {
+        db.prepare('UPDATE teacher_profiles SET bio = ?, target_langs = ?, status = ? WHERE teacher_id = ?')
+          .run(bio || '', JSON.stringify(targetLangs || []), status || 'available', teacherId);
+    } else {
+        db.prepare('INSERT INTO teacher_profiles (teacher_id, bio, target_langs, status, created_at) VALUES (?, ?, ?, ?, ?)')
+          .run(teacherId, bio || '', JSON.stringify(targetLangs || []), status || 'available', now);
+    }
+    return getTeacherProfile(teacherId);
+}
+
+function listTeachers(targetLang) {
+    const rows = db.prepare('SELECT tp.*, u.name, u.username FROM teacher_profiles tp JOIN users u ON u.id = tp.teacher_id').all();
+    return rows
+        .map(r => ({ ...r, target_langs: JSON.parse(r.target_langs || '[]') }))
+        .filter(r => !targetLang || r.target_langs.includes(targetLang));
+}
+
+function createClass(teacherId, { name, targetLang, sourceLang }) {
+    const id  = `cls_${Date.now()}`;
+    const now = new Date().toISOString();
+    db.prepare('INSERT INTO classes (id, teacher_id, name, target_lang, source_lang, created_at) VALUES (?, ?, ?, ?, ?, ?)')
+      .run(id, teacherId, name, targetLang, sourceLang || 'es', now);
+    return db.prepare('SELECT * FROM classes WHERE id = ?').get(id);
+}
+
+function getTeacherClasses(teacherId) {
+    const classes = db.prepare('SELECT * FROM classes WHERE teacher_id = ? ORDER BY created_at DESC').all(teacherId);
+    return classes.map(c => {
+        const students = db.prepare('SELECT cs.student_id, cs.status, u.name, u.username FROM class_students cs JOIN users u ON u.id = cs.student_id WHERE cs.class_id = ?').all(c.id);
+        return { ...c, students };
+    });
+}
+
+function deleteClass(classId, teacherId) {
+    const cls = db.prepare('SELECT * FROM classes WHERE id = ? AND teacher_id = ?').get(classId, teacherId);
+    if (!cls) return { ok: false, error: 'Clase no encontrada' };
+    db.prepare('DELETE FROM class_students WHERE class_id = ?').run(classId);
+    db.prepare('DELETE FROM classroom_messages WHERE class_id = ?').run(classId);
+    db.prepare('DELETE FROM classes WHERE id = ?').run(classId);
+    return { ok: true };
+}
+
+function addStudentByUsername(classId, teacherId, username) {
+    const cls = db.prepare('SELECT * FROM classes WHERE id = ? AND teacher_id = ?').get(classId, teacherId);
+    if (!cls) return { ok: false, error: 'Clase no encontrada' };
+    const student = db.prepare('SELECT * FROM users WHERE LOWER(username) = ?').get(username.toLowerCase());
+    if (!student) return { ok: false, error: 'Usuario no encontrado' };
+    if (student.plan !== 'premium' && student.plan !== 'gold' && !student.is_dev)
+        return { ok: false, error: 'El alumno debe tener plan Premium o Gold' };
+    const existing = db.prepare('SELECT * FROM class_students WHERE class_id = ? AND student_id = ?').get(classId, student.id);
+    if (existing) {
+        if (existing.status === 'active') return { ok: false, error: 'El alumno ya está en la clase' };
+        db.prepare('UPDATE class_students SET status = ? WHERE class_id = ? AND student_id = ?').run('active', classId, student.id);
+    } else {
+        db.prepare('INSERT INTO class_students (class_id, student_id, status, joined_at) VALUES (?, ?, ?, ?)')
+          .run(classId, student.id, 'active', new Date().toISOString());
+    }
+    createNotification(student.id, 'student_added', { classId, className: cls.name, teacherId });
+    return { ok: true, student: { id: student.id, name: student.name, username: student.username } };
+}
+
+function removeStudentFromClass(classId, teacherId, studentId) {
+    const cls = db.prepare('SELECT * FROM classes WHERE id = ? AND teacher_id = ?').get(classId, teacherId);
+    if (!cls) return { ok: false, error: 'Clase no encontrada' };
+    db.prepare('DELETE FROM class_students WHERE class_id = ? AND student_id = ?').run(classId, studentId);
+    return { ok: true };
+}
+
+function requestJoinClass(teacherId, studentId) {
+    const profile = db.prepare('SELECT * FROM teacher_profiles WHERE teacher_id = ?').get(teacherId);
+    if (!profile) return { ok: false, error: 'Profesor no encontrado' };
+    const cls = db.prepare('SELECT * FROM classes WHERE teacher_id = ? ORDER BY created_at ASC LIMIT 1').get(teacherId);
+    if (!cls) return { ok: false, error: 'El profesor no tiene clases activas' };
+    const existing = db.prepare('SELECT * FROM class_students WHERE class_id = ? AND student_id = ?').get(cls.id, studentId);
+    if (existing) return { ok: false, error: 'Ya enviaste una solicitud o ya estás inscripto' };
+    db.prepare('INSERT INTO class_students (class_id, student_id, status, joined_at) VALUES (?, ?, ?, ?)')
+      .run(cls.id, studentId, 'pending', new Date().toISOString());
+    createNotification(teacherId, 'student_request', { classId: cls.id, studentId });
+    return { ok: true };
+}
+
+function respondToRequest(classId, teacherId, studentId, accept) {
+    const cls = db.prepare('SELECT * FROM classes WHERE id = ? AND teacher_id = ?').get(classId, teacherId);
+    if (!cls) return { ok: false, error: 'Clase no encontrada' };
+    if (accept) {
+        db.prepare('UPDATE class_students SET status = ? WHERE class_id = ? AND student_id = ?').run('active', classId, studentId);
+        createNotification(studentId, 'request_approved', { classId, className: cls.name, teacherId });
+    } else {
+        db.prepare('DELETE FROM class_students WHERE class_id = ? AND student_id = ?').run(classId, studentId);
+        createNotification(studentId, 'request_rejected', { classId, className: cls.name, teacherId });
+    }
+    return { ok: true };
+}
+
+function getStudentEnrollment(studentId) {
+    const rows = db.prepare(`
+        SELECT cs.class_id, cs.status, c.name, c.target_lang, c.source_lang, c.teacher_id,
+               tp.bio, tp.status AS teacher_status, tp.rating, u.name AS teacher_name, u.username AS teacher_username
+        FROM class_students cs
+        JOIN classes c ON c.id = cs.class_id
+        LEFT JOIN teacher_profiles tp ON tp.teacher_id = c.teacher_id
+        LEFT JOIN users u ON u.id = c.teacher_id
+        WHERE cs.student_id = ? AND cs.status = 'active'
+    `).all(studentId);
+    return rows;
+}
+
+function getClassMessages(classId, limit) {
+    return db.prepare(`
+        SELECT m.*, u.name AS sender_name, u.username AS sender_username
+        FROM classroom_messages m JOIN users u ON u.id = m.sender_id
+        WHERE m.class_id = ? AND m.is_private = 0
+        ORDER BY m.created_at DESC LIMIT ?
+    `).all(classId, limit || 50).reverse();
+}
+
+function getDMMessages(classId, userId1, userId2) {
+    return db.prepare(`
+        SELECT m.*, u.name AS sender_name, u.username AS sender_username
+        FROM classroom_messages m JOIN users u ON u.id = m.sender_id
+        WHERE m.class_id = ? AND m.is_private = 1
+          AND ((m.sender_id = ? AND m.recipient_id = ?) OR (m.sender_id = ? AND m.recipient_id = ?))
+        ORDER BY m.created_at DESC LIMIT 100
+    `).all(classId, userId1, userId2, userId2, userId1).reverse();
+}
+
+function sendMessage(classId, senderId, content, isPrivate, recipientId) {
+    const id  = `msg_${Date.now()}_${Math.random().toString(36).slice(2,6)}`;
+    const now = new Date().toISOString();
+    db.prepare('INSERT INTO classroom_messages (id, class_id, sender_id, content, is_private, recipient_id, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)')
+      .run(id, classId, senderId, content, isPrivate ? 1 : 0, recipientId || null, now);
+    // Notify recipient for DM
+    if (isPrivate && recipientId) {
+        createNotification(recipientId, 'new_message', { classId, senderId, isPrivate: true });
+    }
+    return db.prepare('SELECT m.*, u.name AS sender_name, u.username AS sender_username FROM classroom_messages m JOIN users u ON u.id = m.sender_id WHERE m.id = ?').get(id);
+}
+
+function createNotification(userId, type, payload) {
+    const id = `notif_${Date.now()}_${Math.random().toString(36).slice(2,6)}`;
+    db.prepare('INSERT INTO classroom_notifications (id, user_id, type, payload, created_at) VALUES (?, ?, ?, ?, ?)')
+      .run(id, userId, type, JSON.stringify(payload || {}), new Date().toISOString());
+}
+
+function getUserNotifications(userId) {
+    return db.prepare('SELECT * FROM classroom_notifications WHERE user_id = ? ORDER BY created_at DESC LIMIT 30')
+      .all(userId).map(n => ({ ...n, payload: JSON.parse(n.payload || '{}'), is_read: !!n.is_read }));
+}
+
+function markNotifRead(notifId, userId) {
+    db.prepare('UPDATE classroom_notifications SET is_read = 1 WHERE id = ? AND user_id = ?').run(notifId, userId);
+}
+
+function getUnreadCount(userId) {
+    return db.prepare('SELECT COUNT(*) AS cnt FROM classroom_notifications WHERE user_id = ? AND is_read = 0').get(userId)?.cnt || 0;
+}
+
+function rateTeacher(teacherId, studentId, score, comment) {
+    const existing = db.prepare('SELECT * FROM teacher_ratings WHERE teacher_id = ? AND student_id = ?').get(teacherId, studentId);
+    const now = new Date().toISOString();
+    if (existing) {
+        db.prepare('UPDATE teacher_ratings SET score = ?, comment = ?, created_at = ? WHERE teacher_id = ? AND student_id = ?')
+          .run(score, comment || '', now, teacherId, studentId);
+    } else {
+        db.prepare('INSERT INTO teacher_ratings (teacher_id, student_id, score, comment, created_at) VALUES (?, ?, ?, ?, ?)')
+          .run(teacherId, studentId, score, comment || '', now);
+    }
+    const agg = db.prepare('SELECT AVG(score) AS avg, COUNT(*) AS cnt FROM teacher_ratings WHERE teacher_id = ?').get(teacherId);
+    db.prepare('UPDATE teacher_profiles SET rating = ?, rating_count = ? WHERE teacher_id = ?')
+      .run(Math.round((agg.avg || 0) * 10) / 10, agg.cnt, teacherId);
+    return { ok: true };
+}
+
+function getUserByUsername(username) {
+    const row = db.prepare('SELECT id, name, username, plan FROM users WHERE LOWER(username) = ?').get(username.toLowerCase());
+    return row || null;
+}
+
+module.exports = {
+    register, login, loginWithGoogle, verifyToken, signToken, getUserById, setUserPlan,
+    verifyEmail, createResetToken, resetPassword, deleteUser, getAllUsers, db,
+    // Classroom
+    getTeacherProfile, upsertTeacherProfile, listTeachers,
+    createClass, getTeacherClasses, deleteClass,
+    addStudentByUsername, removeStudentFromClass,
+    requestJoinClass, respondToRequest, getStudentEnrollment,
+    getClassMessages, getDMMessages, sendMessage,
+    getUserNotifications, markNotifRead, getUnreadCount, createNotification,
+    rateTeacher, getUserByUsername,
+};

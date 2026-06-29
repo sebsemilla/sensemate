@@ -13,7 +13,7 @@ echo "📋 Copiando archivos JS/CSS/HTML..."
 for f in index.html app.js styles.css practice_styles.css simple_mode_styles.css \
           auth.js onboarding.js famous.js musicians.js writers.js practice.js \
           immersion.js content_library.js settings.js admin.js contributors.js \
-          membership.js themes.js misionmate.js school.js \
+          membership.js themes.js misionmate.js school.js classroom.js \
           flashcard_data.js flashcard_data_a1.js flashcard_data_pron.js \
           manifest.json sw.js privacy.html terms.html; do
     [ -f "$ROOT/$f" ] && cp "$ROOT/$f" "$DEST/" || echo "  ⚠️  SKIP $f"

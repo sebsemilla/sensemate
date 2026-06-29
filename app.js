@@ -362,7 +362,7 @@ document.addEventListener('click', e => {
 });
 menuButton.addEventListener('click', () => dropdownMenu.classList.toggle('hidden'));
 
-document.getElementById('profileLink').addEventListener('click',     e => { e.preventDefault(); alert('Perfil - Próximamente');       dropdownMenu.classList.add('hidden'); });
+document.getElementById('profileLink').addEventListener('click',     e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); loadClassroomPanel(); });
 document.getElementById('settingsLink').addEventListener('click',    e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); loadSettingsSection(); });
 document.getElementById('complaintsLink').addEventListener('click',  e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); loadComplaintsSection(); });
 document.getElementById('suggestionsLink').addEventListener('click', e => { e.preventDefault(); alert('Sugerencias - Próximamente');   dropdownMenu.classList.add('hidden'); });
