@@ -2606,6 +2606,20 @@ function loadSimpleMode() {
                     </button>
                 </div>
 
+                <!-- Campo de contexto opcional -->
+                <div class="smp-context-hint-wrap" id="smpContextHintWrap">
+                    <button class="smp-context-hint-toggle" id="smpContextHintToggle">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                        ${t.insertar_contexto || 'Insertar contexto'}
+                        <span class="smp-context-hint-optional">${t.opcional || 'opcional'}</span>
+                        <svg class="smp-context-hint-arrow" width="11" height="11" viewBox="0 0 12 12"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="smp-context-hint-box hidden" id="smpContextHintBox">
+                        <textarea class="smp-context-hint-input" id="smpContextHint" rows="2"
+                            placeholder="${t.contexto_placeholder || 'Ej: carta formal de negocios, conversación entre amigos, correo a un profesor...'}"></textarea>
+                    </div>
+                </div>
+
                 <!-- Textarea + mic + clear -->
                 <div class="smp-textarea-wrap">
                     <textarea class="smp-textarea" id="sourceText" rows="3"
@@ -2784,6 +2798,16 @@ function loadSimpleMode() {
     const loadingEl     = document.getElementById('smpLoading');
     const cardsEl       = document.getElementById('smpCards');
 
+    // ── Contexto opcional ─────────────────────────────────────
+    const ctxToggle = document.getElementById('smpContextHintToggle');
+    const ctxBox    = document.getElementById('smpContextHintBox');
+    ctxToggle.addEventListener('click', () => {
+        const open = !ctxBox.classList.contains('hidden');
+        ctxBox.classList.toggle('hidden', open);
+        ctxToggle.querySelector('.smp-context-hint-arrow').style.transform = open ? '' : 'rotate(180deg)';
+        if (!open) document.getElementById('smpContextHint').focus();
+    });
+
     let autoTranslate   = false;
     let autoTimer       = null;
     let isRecording     = false;
@@ -2889,15 +2913,16 @@ function loadSimpleMode() {
 
     // ── Traducir ──────────────────────────────────────────────
     async function doTranslate() {
-        const text = sourceArea.value.trim();
+        const text    = sourceArea.value.trim();
         if (!text) return;
+        const context = document.getElementById('smpContextHint')?.value.trim() || '';
         showLoading();
         translateBtn.disabled = true;
 
         try {
             const res = await _authFetch(API_URL, {
                 method: 'POST',
-                body: JSON.stringify({ text, sourceLang, targetLang })
+                body: JSON.stringify({ text, sourceLang, targetLang, ...(context ? { context } : {}) })
             });
             if (res.status === 429) {
                 const data = await res.json().catch(() => ({}));

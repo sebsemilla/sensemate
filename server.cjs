@@ -188,8 +188,8 @@ const planToModel = {
 
 
 // --- Función para traducir con Cohere ---
-async function translateWithCohere(text, targetLang, sourceLang) {
-    console.log(`🟢 translateWithCohere: texto="${text}", source=${sourceLang}, target=${targetLang}`);
+async function translateWithCohere(text, targetLang, sourceLang, context = '') {
+    console.log(`🟢 translateWithCohere: texto="${text}", source=${sourceLang}, target=${targetLang}${context ? `, contexto="${context}"` : ''}`);
 
     const cohere = new CohereClientV2({ token: process.env.COHERE_API_KEY });
 
@@ -233,7 +233,9 @@ Reglas estrictas:
 - No incluyas nada fuera del objeto JSON.
 `;
 
-    const userMessage = `Texto a traducir: "${text}"`;
+    const userMessage = context
+        ? `Contexto de uso: ${context}\n\nTexto a traducir: "${text}"`
+        : `Texto a traducir: "${text}"`;
 
     try {
         const response = await cohere.chat({
@@ -282,8 +284,8 @@ function _optionalAuth(req) {
 app.post('/translate', translateLimiter, async (req, res) => {
     console.log("🔔 Llegó petición a /translate");
 
-    const { text, sourceLang, targetLang } = req.body;
-    console.log("Datos recibidos:", { text, sourceLang, targetLang });
+    const { text, sourceLang, targetLang, context } = req.body;
+    console.log("Datos recibidos:", { text, sourceLang, targetLang, context: context || '' });
 
     // Plan viene del JWT, no del cliente
     const jwtPayload = _optionalAuth(req);
@@ -296,7 +298,7 @@ app.post('/translate', translateLimiter, async (req, res) => {
     try {
         const src = sourceLang || 'auto';
         const tgt = targetLang || 'spanish';
-        const translationObj = await translateWithCohere(text, tgt, src);
+        const translationObj = await translateWithCohere(text, tgt, src, context || '');
 
         // Strip premium-only fields for free/guest users
         if (!isPremium) {
