@@ -21,15 +21,41 @@ function loadAdminPanel() {
                 <div class="admin-badge">Dev Mode</div>
             </div>
 
-            <div class="admin-tabs">
-                <button class="admin-tab active" data-tab="feedback">📢 Feedback</button>
-                <button class="admin-tab" data-tab="songs" id="adminTabSongs">🎵 Canciones</button>
-                <button class="admin-tab" data-tab="writers" id="adminTabWriters">📖 Escritores</button>
-                <button class="admin-tab" data-tab="stats">📊 Estadísticas</button>
-                <button class="admin-tab" data-tab="contributors">👥 Contributores</button>
-                <button class="admin-tab" data-tab="tools">🔧 Herramientas</button>
-                <button class="admin-tab" data-tab="membership">💳 Membresías</button>
-                <button class="admin-tab" data-tab="users">👤 Usuarios</button>
+            <!-- Barra de navegación reorganizada -->
+            <div class="admin-nav">
+
+                <!-- Dropdown "Secciones" (izquierda) -->
+                <div class="admin-sections-wrap" id="adminSectionsWrap">
+                    <button class="admin-sections-btn" id="adminSectionsBtn">
+                        Secciones
+                        <svg class="admin-sections-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="admin-sections-menu hidden" id="adminSectionsMenu">
+
+                        <!-- Grupo: Contenidos -->
+                        <div class="admin-sec-group">
+                            <span class="admin-sec-group-label">Contenidos</span>
+                            <button class="admin-sec-item" data-tab="songs" id="adminTabSongs">🎵 Canciones</button>
+                            <button class="admin-sec-item" data-tab="writers" id="adminTabWriters">📖 Escritores</button>
+                        </div>
+
+                        <div class="admin-sec-divider"></div>
+                        <button class="admin-sec-item" data-tab="contributors">👥 Contributores</button>
+                        <button class="admin-sec-item" data-tab="teachers">🏫 Profesores</button>
+                        <button class="admin-sec-item" data-tab="tools">🔧 Herramientas</button>
+                        <button class="admin-sec-item" data-tab="membership">💳 Membresías</button>
+                    </div>
+                </div>
+
+                <!-- Tabs inline (derecha del dropdown) -->
+                <div class="admin-inline-tabs">
+                    <button class="admin-tab active" data-tab="feedback">📢 Feedback</button>
+                    <button class="admin-tab" data-tab="stats">📊 Estadísticas</button>
+                    <button class="admin-tab" data-tab="users">👤 Usuarios</button>
+                </div>
+
             </div>
 
             <div id="adminTabContent" class="admin-tab-content">
@@ -42,17 +68,55 @@ function loadAdminPanel() {
 
     document.getElementById('adminBackBtn').addEventListener('click', () => showMainMenu());
 
+    // Dropdown Secciones — toggle
+    const sectBtn  = document.getElementById('adminSectionsBtn');
+    const sectMenu = document.getElementById('adminSectionsMenu');
+    sectBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        sectMenu.classList.toggle('hidden');
+        sectBtn.classList.toggle('open');
+    });
+    document.addEventListener('click', () => {
+        sectMenu.classList.add('hidden');
+        sectBtn.classList.remove('open');
+    }, { capture: false });
+
+    // Helper: activa visualmente la tab/item correcta
+    function _setActive(tab) {
+        document.querySelectorAll('.admin-tab, .admin-sec-item').forEach(b => b.classList.remove('active'));
+        // Marcar inline tab si corresponde
+        document.querySelectorAll(`.admin-tab[data-tab="${tab}"]`).forEach(b => b.classList.add('active'));
+        // Marcar sec-item si corresponde
+        document.querySelectorAll(`.admin-sec-item[data-tab="${tab}"]`).forEach(b => b.classList.add('active'));
+        // Si es del dropdown, mostrar label en el botón
+        const secItem = document.querySelector(`.admin-sec-item[data-tab="${tab}"]`);
+        if (secItem) {
+            sectBtn.querySelector('span') && (sectBtn.querySelector('span').textContent = secItem.textContent.trim());
+        }
+    }
+
+    // Tabs inline
     document.querySelectorAll('.admin-tab').forEach(btn => {
         btn.addEventListener('click', () => {
-            document.querySelectorAll('.admin-tab').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
+            _setActive(btn.dataset.tab);
+            _adminLoadTab(btn.dataset.tab);
+        });
+    });
+
+    // Items del dropdown
+    document.querySelectorAll('.admin-sec-item').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            sectMenu.classList.add('hidden');
+            sectBtn.classList.remove('open');
+            _setActive(btn.dataset.tab);
             _adminLoadTab(btn.dataset.tab);
         });
     });
 
     _adminLoadTab('feedback');
 
-    // Badge de canciones pendientes en el tab "Canciones"
+    // Badge de canciones pendientes
     fetch(_API_HOST + '/admin/songs', { headers: { 'x-admin-token': ADMIN_TOKEN } })
         .then(r => r.json())
         .then(songs => {
@@ -60,7 +124,7 @@ function loadAdminPanel() {
             if (pending > 0) {
                 const tab = document.getElementById('adminTabSongs');
                 if (tab) tab.insertAdjacentHTML('beforeend',
-                    `<span class="admin-music-badge">Música · ${pending}</span>`);
+                    `<span class="admin-music-badge">${pending}</span>`);
             }
         })
         .catch(() => {});
@@ -95,6 +159,8 @@ async function _adminLoadTab(tab) {
             await _adminRenderMembership(content);
         } else if (tab === 'users') {
             await _adminRenderUsers(content);
+        } else if (tab === 'teachers') {
+            await _adminRenderTeachers(content);
         }
     } catch (err) {
         content.innerHTML = `<div class="admin-error">❌ Error: ${escapeHtml(err.message)}</div>`;
@@ -1428,4 +1494,48 @@ function _bindAuCards(container, allUsers) {
             }
         });
     });
+}
+
+// ── Tab: Profesores ───────────────────────────────────────────
+
+async function _adminRenderTeachers(container) {
+    let profiles = [];
+    try {
+        const session = localStorage.getItem('ls_session');
+        const token   = session ? JSON.parse(session).token : '';
+        const r = await fetch(`${_API_HOST}/classroom/teachers`, {
+            headers: { 'Authorization': `Bearer ${token}` }
+        });
+        const d = await r.json();
+        profiles = d.teachers || [];
+    } catch {}
+
+    const _CL_LANGS = { en:'Inglés', es:'Español', fr:'Francés', de:'Alemán', pt:'Portugués', it:'Italiano', zh:'Chino', ja:'Japonés', ko:'Coreano', ru:'Ruso', ar:'Árabe' };
+
+    container.innerHTML = `
+        <div class="au-wrap">
+            <div class="au-search-row">
+                <span class="au-count">${profiles.length} profesor${profiles.length !== 1 ? 'es' : ''} registrado${profiles.length !== 1 ? 's' : ''}</span>
+            </div>
+            ${profiles.length === 0
+                ? '<p style="padding:1rem;color:var(--text-muted)">No hay perfiles de profesor registrados todavía.</p>'
+                : profiles.map(p => `
+                <div class="au-card">
+                    <div class="au-card-head">
+                        <div class="au-avatar" style="background:linear-gradient(135deg,#f59e0b,#d97706)">👨‍🏫</div>
+                        <div class="au-info">
+                            <span class="au-name">${escapeHtml(p.name || '—')}</span>
+                            <span class="au-sub">@${escapeHtml(p.username || '—')}</span>
+                            <span class="au-sub">${(p.target_langs || []).map(l => _CL_LANGS[l] || l).join(' · ') || 'Sin idiomas'}</span>
+                        </div>
+                        <div class="au-meta">
+                            <span class="au-badge ${p.status === 'available' ? 'au-badge--active' : 'au-badge--inactive'}">
+                                ${p.status === 'available' ? '🟢 Disponible' : '🔴 No disponible'}
+                            </span>
+                            ${p.rating_count > 0 ? `<span class="au-badge au-badge--dev">⭐ ${p.rating}</span>` : ''}
+                        </div>
+                    </div>
+                    ${p.bio ? `<div style="padding:.35rem .85rem .65rem;font-size:.82rem;color:var(--text-muted);font-style:italic;border-top:1px solid var(--border)">${escapeHtml(p.bio.slice(0, 160))}${p.bio.length > 160 ? '…' : ''}</div>` : ''}
+                </div>`).join('')}
+        </div>`;
 }

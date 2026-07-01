@@ -3297,8 +3297,12 @@ body.dark-mode .smp-ampliar-translation { color: #fcd34d; }
 .au-location { color:#6366f1 !important; font-size:.7rem !important; }
 
 /* Label badge */
-.au-badge--label { background:rgba(245,158,11,.12); color:#b45309; }
+.au-badge--label    { background:rgba(245,158,11,.12); color:#b45309; }
 .dark-mode .au-badge--label { background:rgba(245,158,11,.18); color:#f59e0b; }
+.au-badge--active   { background:rgba(16,185,129,.12); color:#065f46; }
+.au-badge--inactive { background:rgba(239,68,68,.1);   color:#991b1b; }
+.dark-mode .au-badge--active   { color:#34d399; }
+.dark-mode .au-badge--inactive { color:#fca5a5; }
 
 /* Managed regions block */
 .au-managed-regions { border-top:1px dashed var(--border); padding-top:.65rem; }
@@ -8721,30 +8725,123 @@ body.dark-mode .asong-lyrics-preview { background: rgba(255,255,255,0.04); }
     text-transform: uppercase;
 }
 
-.admin-tabs {
+/* Admin nav: Secciones dropdown + tabs inline */
+.admin-nav {
     display: flex;
-    gap: 0.5rem;
+    align-items: center;
+    gap: .5rem;
     border-bottom: 2px solid var(--border);
     margin-bottom: 1.25rem;
     flex-wrap: wrap;
+    padding-bottom: 0;
 }
+
+/* Dropdown "Secciones" */
+.admin-sections-wrap {
+    position: relative;
+    flex-shrink: 0;
+}
+.admin-sections-btn {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .45rem .85rem;
+    border-radius: 10px 10px 0 0;
+    border: 1.5px solid var(--border);
+    border-bottom: none;
+    background: var(--surface);
+    color: var(--text);
+    font-size: .86rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background .15s, color .15s;
+    margin-bottom: -2px;
+    position: relative;
+    z-index: 2;
+}
+.admin-sections-btn:hover,
+.admin-sections-btn.open {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+.admin-sections-arrow {
+    transition: transform .2s;
+    flex-shrink: 0;
+}
+.admin-sections-btn.open .admin-sections-arrow { transform: rotate(180deg); }
+.dark-mode .admin-sections-btn { background: #1e293b; border-color: #334155; }
+.dark-mode .admin-sections-btn:hover,
+.dark-mode .admin-sections-btn.open { background: var(--primary); border-color: var(--primary); color: #fff; }
+
+/* Dropdown menu */
+.admin-sections-menu {
+    position: absolute;
+    top: calc(100% + 2px);
+    left: 0;
+    min-width: 200px;
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    border-radius: 0 12px 12px 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+    z-index: 200;
+    padding: .4rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.admin-sections-menu.hidden { display: none; }
+.dark-mode .admin-sections-menu { background: #1e293b; border-color: #334155; }
+
+.admin-sec-group { padding: .25rem 0 .1rem; }
+.admin-sec-group-label {
+    display: block;
+    padding: .2rem .85rem .15rem;
+    font-size: .68rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--text-muted);
+}
+.admin-sec-item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: .45rem .85rem;
+    border: none;
+    background: none;
+    font-size: .85rem;
+    font-weight: 600;
+    color: var(--text);
+    cursor: pointer;
+    transition: background .12s, color .12s;
+}
+.admin-sec-item:hover  { background: rgba(79,70,229,.07); color: var(--primary); }
+.admin-sec-item.active { color: var(--primary); background: rgba(79,70,229,.08); }
+.admin-sec-divider { height: 1px; background: var(--border); margin: .3rem 0; }
+
+/* Inline tabs (Feedback / Estadísticas / Usuarios) */
+.admin-inline-tabs {
+    display: flex;
+    gap: 0;
+    align-items: flex-end;
+    flex: 1;
+}
+.admin-tabs { display: none; } /* legacy — no longer used in markup */
 .admin-tab {
     background: none;
     border: none;
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    padding: .5rem 1rem;
+    font-size: .88rem;
     font-weight: 600;
     color: var(--text-muted);
     cursor: pointer;
-    border-bottom: 2px solid transparent;
+    border-bottom: 2.5px solid transparent;
     margin-bottom: -2px;
-    transition: color 0.2s, border-color 0.2s;
+    white-space: nowrap;
+    transition: color .18s, border-color .18s;
 }
-.admin-tab:hover { color: var(--text); }
-.admin-tab.active {
-    color: var(--primary);
-    border-bottom-color: var(--primary);
-}
+.admin-tab:hover  { color: var(--text); }
+.admin-tab.active { color: var(--primary); border-bottom-color: var(--primary); }
 
 .admin-tab-content { min-height: 200px; }
 
