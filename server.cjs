@@ -181,6 +181,63 @@ app.use(express.static(path.join(__dirname, '.')));
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 
+// ─── Detección de región por IP ────────────────────────────────
+
+const _REGION_MAP = {
+    // América Latina (incl. América Central y Caribe)
+    america_latina: ['AR','BO','CL','CO','CR','CU','DO','EC','GT','HN','MX','NI','PA','PE','PY','SV','UY','VE',
+                     'BB','BZ','DM','GD','GY','HT','JM','KN','LC','SR','TT','VC','AG','AW','GP','MQ','MF','PR','VI','BQ','CW','SX','TC'],
+    // Brasil separado
+    brasil:         ['BR'],
+    // América del Norte
+    america_norte:  ['US','CA','GL'],
+    // Europa Occidental
+    europa:         ['DE','FR','IT','ES','PT','NL','BE','AT','CH','SE','NO','DK','FI','IE','PL','CZ','SK',
+                     'HU','RO','BG','HR','SI','EE','LV','LT','GR','CY','MT','LU','IS','AL','BA','ME','MK','RS','XK','LI','MC','SM','AD','VA'],
+    // Europa Oriental / ex-URSS
+    europa_oriental:['RU','UA','BY','MD','GE','AM','AZ','KZ','UZ','TM','KG','TJ'],
+    // Medio Oriente
+    medio_oriente:  ['SA','AE','IL','TR','IR','IQ','SY','LB','JO','KW','QA','BH','OM','YE','PS','EG'],
+    // África (excl. Egipto que va a Medio Oriente)
+    africa:         ['DZ','AO','BJ','BW','BF','BI','CM','CV','CF','TD','KM','CG','CD','DJ','GQ','ER','SZ','ET',
+                     'GA','GM','GH','GN','GW','CI','KE','LS','LR','LY','MG','MW','ML','MR','MU','YT','MA','MZ',
+                     'NA','NE','NG','RE','RW','ST','SN','SC','SL','SO','ZA','SS','SD','TZ','TG','TN','UG','EH','ZM','ZW'],
+    // Asia (excl. China, India, Medio Oriente y ex-URSS)
+    asia:           ['JP','KR','TH','VN','PH','ID','MY','SG','TW','HK','MO','MN','KP','MM','KH','LA','BN',
+                     'TL','MV','BT','NP','LK','BD','PK','AF'],
+    // India separado
+    india:          ['IN'],
+    // China separado
+    china:          ['CN'],
+    // Oceanía
+    oceania:        ['AU','NZ','FJ','PG','SB','VU','WS','TO','KI','TV','NR','PW','FM','MH','CK','NU','TK','AS','GU','MP','NC','PF','WF'],
+};
+
+// Tabla inversa country_code → region_key
+const _COUNTRY_TO_REGION = {};
+for (const [region, codes] of Object.entries(_REGION_MAP)) {
+    for (const code of codes) _COUNTRY_TO_REGION[code] = region;
+}
+
+function _countryToRegion(countryCode) {
+    return _COUNTRY_TO_REGION[countryCode] || 'otros';
+}
+
+// Detecta país por IP real (X-Forwarded-For en Railway/proxies)
+async function _detectCountryFromReq(req) {
+    try {
+        const forwarded = req.headers['x-forwarded-for'];
+        const ip = forwarded ? forwarded.split(',')[0].trim() : req.ip;
+        // No detectar IPs locales
+        if (!ip || ip === '127.0.0.1' || ip === '::1' || ip.startsWith('192.168') || ip.startsWith('10.')) return null;
+        const r = await axios.get(`https://ipapi.co/${ip}/country/`, { timeout: 3000 });
+        const code = (r.data || '').toString().trim().toUpperCase();
+        return code.length === 2 ? code : null;
+    } catch {
+        return null;
+    }
+}
+
 const planToModel = {
     'free': 'openrouter/free',
     'gold': 'deepseek/deepseek-chat'
@@ -905,6 +962,11 @@ app.post('/auth/register', authLimiter, async (req, res) => {
         const result = await authDb.register(req.body);
         if (!result.ok) return res.status(400).json({ error: result.error });
 
+        // Detectar país/región por IP (fire-and-forget)
+        _detectCountryFromReq(req).then(code => {
+            if (code) authDb.saveUserLocation(result.user.id, code, _countryToRegion(code));
+        }).catch(() => {});
+
         // Enviar email de verificación (no bloquea la respuesta)
         const verifyUrl = `${APP_URL}/auth/verify/${result.verifyToken}`;
         sendEmail({
@@ -1004,6 +1066,12 @@ app.post('/auth/google', authLimiter, async (req, res) => {
         const ticket  = await client.verifyIdToken({ idToken: credential, audience: process.env.GOOGLE_CLIENT_ID });
         const payload = ticket.getPayload();
         const result  = await authDb.loginWithGoogle({ googleId: payload.sub, email: payload.email, name: payload.name });
+        // Detectar región en registro nuevo (isNew = primer login con Google)
+        if (result.user?.isNew) {
+            _detectCountryFromReq(req).then(code => {
+                if (code) authDb.saveUserLocation(result.user.id, code, _countryToRegion(code));
+            }).catch(() => {});
+        }
         res.json({ token: result.token, user: result.user });
     } catch (e) {
         console.error('❌ /auth/google:', e.message, e.stack?.split('\n')[1]);
@@ -1025,12 +1093,27 @@ app.get('/admin/users', (req, res) => {
     res.json(authDb.getAllUsers());
 });
 
-// PATCH /admin/users/:id — admin: actualiza plan, rol, etiqueta, permisos
+// PATCH /admin/users/:id — admin: actualiza plan, rol, etiqueta, permisos, regiones gestionadas
 app.patch('/admin/users/:id', (req, res) => {
     if (!checkAdminToken(req, res)) return;
-    const { plan, role, label, permissions } = req.body;
-    const result = authDb.updateUserAdmin(req.params.id, { plan, role, label, permissions });
+    const { plan, role, label, permissions, managedRegions } = req.body;
+    const result = authDb.updateUserAdmin(req.params.id, { plan, role, label, permissions, managedRegions });
     res.json(result);
+});
+
+// GET /admin/users/region — gestor regional: solo usuarios de sus regiones
+app.get('/admin/users/region', authDb.verifyToken, (req, res) => {
+    const user = authDb.getUserById(req.jwtUser.id);
+    if (!user) return res.status(401).json({ error: 'No autorizado' });
+    const perms = Array.isArray(user.permissions) ? user.permissions : JSON.parse(user.permissions || '[]');
+    if (!perms.includes('manage_users_region') && !user.isDev) {
+        return res.status(403).json({ error: 'Sin permiso para gestionar usuarios por región' });
+    }
+    const regions = Array.isArray(user.managed_regions)
+        ? user.managed_regions
+        : JSON.parse(user.managed_regions || '[]');
+    const users = authDb.getUsersByRegions(regions);
+    res.json({ users, regions });
 });
 
 // ─── Feedback (quejas & fortalezas) ──────────────────────────

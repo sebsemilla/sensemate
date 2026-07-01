@@ -1180,6 +1180,20 @@ const _AU_PERMS = [
     { value: 'moderate_submissions',  label: '📋 Moderar envíos (canciones, textos)' },
     { value: 'manage_classroom',      label: '🏫 Administrar aulas' },
 ];
+const _AU_REGIONS = [
+    { value: 'america_latina',  label: '🌎 América Latina (incl. Central y Caribe)' },
+    { value: 'brasil',          label: '🇧🇷 Brasil' },
+    { value: 'america_norte',   label: '🇺🇸 América del Norte' },
+    { value: 'europa',          label: '🇪🇺 Europa Occidental' },
+    { value: 'europa_oriental', label: '🗺️ Europa Oriental / ex-URSS' },
+    { value: 'medio_oriente',   label: '🕌 Medio Oriente' },
+    { value: 'africa',          label: '🌍 África' },
+    { value: 'asia',            label: '🌏 Asia' },
+    { value: 'india',           label: '🇮🇳 India' },
+    { value: 'china',           label: '🇨🇳 China' },
+    { value: 'oceania',         label: '🦘 Oceanía' },
+];
+const _AU_REGION_LABELS = Object.fromEntries(_AU_REGIONS.map(r => [r.value, r.label]));
 
 // Permisos predeterminados por rol
 const _AU_ROLE_DEFAULTS = {
@@ -1191,8 +1205,22 @@ async function _adminRenderUsers(container) {
     const res   = await fetch(`${_API_HOST}/admin/users`, { headers: { 'x-admin-token': ADMIN_TOKEN } });
     const users = await res.json();
 
+    // Distribución por región
+    const regionCounts = {};
+    users.forEach(u => { if (u.region) regionCounts[u.region] = (regionCounts[u.region] || 0) + 1; });
+    const regionSummary = Object.entries(regionCounts).sort((a,b) => b[1]-a[1]);
+
     container.innerHTML = `
         <div class="au-wrap">
+            ${regionSummary.length ? `
+            <div class="au-region-summary">
+                <span class="au-region-summary-title">Usuarios por región:</span>
+                ${regionSummary.map(([r,c]) => `
+                    <span class="au-region-pill au-region-filter" data-region="${r}" title="${r}">
+                        ${(_AU_REGION_LABELS[r] || r).split(' ').slice(0,2).join(' ')} <strong>${c}</strong>
+                    </span>`).join('')}
+                <span class="au-region-pill au-region-filter au-region-filter--active" data-region="" style="border-color:#6366f1;color:#6366f1">Todos</span>
+            </div>` : ''}
             <div class="au-search-row">
                 <input class="au-search" id="auSearch" placeholder="🔍 Buscar por nombre, email o username…" autocomplete="off">
                 <span class="au-count" id="auCount">${users.length} usuarios</span>
@@ -1200,14 +1228,17 @@ async function _adminRenderUsers(container) {
             <div class="au-list" id="auList"></div>
         </div>`;
 
+    let _regionFilter = '';
+
     function renderList(query) {
-        const q    = (query || '').toLowerCase().trim();
-        const filtered = q
-            ? users.filter(u =>
-                (u.name     || '').toLowerCase().includes(q) ||
-                (u.email    || '').toLowerCase().includes(q) ||
-                (u.username || '').toLowerCase().includes(q))
+        const q = (query || '').toLowerCase().trim();
+        let filtered = _regionFilter
+            ? users.filter(u => u.region === _regionFilter)
             : users;
+        if (q) filtered = filtered.filter(u =>
+            (u.name     || '').toLowerCase().includes(q) ||
+            (u.email    || '').toLowerCase().includes(q) ||
+            (u.username || '').toLowerCase().includes(q));
         document.getElementById('auCount').textContent = `${filtered.length} usuario${filtered.length !== 1 ? 's' : ''}`;
         const list = document.getElementById('auList');
         list.innerHTML = filtered.map(u => _auCardHTML(u)).join('');
@@ -1215,11 +1246,25 @@ async function _adminRenderUsers(container) {
     }
 
     document.getElementById('auSearch').addEventListener('input', e => renderList(e.target.value));
+
+    container.querySelectorAll('.au-region-filter').forEach(pill => {
+        pill.addEventListener('click', () => {
+            container.querySelectorAll('.au-region-filter').forEach(p => p.classList.remove('au-region-filter--active'));
+            pill.classList.add('au-region-filter--active');
+            _regionFilter = pill.dataset.region;
+            renderList(document.getElementById('auSearch').value);
+        });
+    });
+
     renderList('');
 }
 
 function _auCardHTML(u) {
-    const perms = Array.isArray(u.permissions) ? u.permissions : [];
+    const perms   = Array.isArray(u.permissions)     ? u.permissions     : [];
+    const managed = Array.isArray(u.managed_regions)  ? u.managed_regions  : [];
+    const hasRegionPerm = perms.includes('manage_users_region');
+    const regionLabel = u.region ? (_AU_REGION_LABELS[u.region] || u.region).split(' ').slice(0,2).join(' ') : null;
+
     return `
         <div class="au-card" data-user-id="${u.id}">
             <div class="au-card-head">
@@ -1228,11 +1273,13 @@ function _auCardHTML(u) {
                     <span class="au-name">${escapeHtml(u.name || '—')}</span>
                     <span class="au-sub">${escapeHtml(u.email)}</span>
                     ${u.username ? `<span class="au-sub">@${escapeHtml(u.username)}</span>` : ''}
+                    ${regionLabel ? `<span class="au-sub au-location">📍 ${u.country ? u.country + ' · ' : ''}${regionLabel}</span>` : ''}
                 </div>
                 <div class="au-meta">
                     ${u.isDev ? '<span class="au-badge au-badge--dev">Dev</span>' : ''}
                     <span class="au-badge au-badge--plan au-badge--${u.plan}">${u.plan}</span>
                     ${u.role ? `<span class="au-badge au-badge--role">${u.role}</span>` : ''}
+                    ${u.label ? `<span class="au-badge au-badge--label">${escapeHtml(u.label)}</span>` : ''}
                 </div>
                 <button class="au-expand-btn" data-id="${u.id}" title="Editar">✏️</button>
             </div>
@@ -1269,7 +1316,7 @@ function _auCardHTML(u) {
 
                     <!-- Permisos -->
                     <div class="au-field-group au-field-group--full">
-                        <label class="au-label">Permisos <span class="au-perm-hint">(se pueden personalizar independientemente del rol)</span></label>
+                        <label class="au-label">Permisos <span class="au-perm-hint">(independientes del rol)</span></label>
                         <div class="au-perms" id="auPerms_${u.id}">
                             ${_AU_PERMS.map(p => `
                                 <label class="au-perm-check">
@@ -1279,6 +1326,19 @@ function _auCardHTML(u) {
                             `).join('')}
                         </div>
                         <button class="au-preset-btn" data-user="${u.id}">Aplicar permisos del rol</button>
+                    </div>
+
+                    <!-- Regiones gestionadas (solo si tiene el permiso) -->
+                    <div class="au-field-group au-field-group--full au-managed-regions ${hasRegionPerm ? '' : 'hidden'}" id="auRegionsWrap_${u.id}">
+                        <label class="au-label">🌎 Regiones que puede gestionar</label>
+                        <div class="au-perms au-region-checks" id="auRegions_${u.id}">
+                            ${_AU_REGIONS.map(r => `
+                                <label class="au-perm-check">
+                                    <input type="checkbox" value="${r.value}" class="au-region-cb" ${managed.includes(r.value) ? 'checked' : ''}>
+                                    ${r.label}
+                                </label>
+                            `).join('')}
+                        </div>
                     </div>
 
                 </div>
@@ -1320,31 +1380,46 @@ function _bindAuCards(container, allUsers) {
             container.querySelectorAll(`#auPerms_${uid} input[type=checkbox]`).forEach(cb => {
                 cb.checked = preset.includes(cb.value);
             });
+            // Mostrar/ocultar bloque de regiones según preset
+            const regWrap = document.getElementById(`auRegionsWrap_${uid}`);
+            if (regWrap) regWrap.classList.toggle('hidden', !preset.includes('manage_users_region'));
+        });
+    });
+
+    // Mostrar/ocultar selector de regiones al marcar/desmarcar el permiso
+    container.querySelectorAll('#auPerms_' + [...container.querySelectorAll('.au-perms')].map(el => el.id.replace('auPerms_','')).join(', #auPerms_') + ' input[value="manage_users_region"]').forEach(() => {});
+    container.querySelectorAll('.au-perms').forEach(permsEl => {
+        const uid = permsEl.id.replace('auPerms_', '');
+        const regionCb = permsEl.querySelector('input[value="manage_users_region"]');
+        if (!regionCb) return;
+        regionCb.addEventListener('change', () => {
+            const regWrap = document.getElementById(`auRegionsWrap_${uid}`);
+            if (regWrap) regWrap.classList.toggle('hidden', !regionCb.checked);
         });
     });
 
     // Guardar
     container.querySelectorAll('.au-save-btn').forEach(btn => {
         btn.addEventListener('click', async () => {
-            const uid  = btn.dataset.id;
-            const plan = container.querySelector(`#auPlanGroup_${uid} .au-opt-btn.active`)?.dataset.val;
-            const role = container.querySelector(`#auRoleGroup_${uid} .au-opt-btn.active`)?.dataset.val || null;
-            const label = document.getElementById(`auLabel_${uid}`)?.value.trim() || null;
-            const permissions = [...container.querySelectorAll(`#auPerms_${uid} input:checked`)].map(cb => cb.value);
+            const uid           = btn.dataset.id;
+            const plan          = container.querySelector(`#auPlanGroup_${uid} .au-opt-btn.active`)?.dataset.val;
+            const role          = container.querySelector(`#auRoleGroup_${uid} .au-opt-btn.active`)?.dataset.val || null;
+            const label         = document.getElementById(`auLabel_${uid}`)?.value.trim() || null;
+            const permissions   = [...container.querySelectorAll(`#auPerms_${uid} input:checked`)].map(cb => cb.value);
+            const managedRegions = [...container.querySelectorAll(`#auRegions_${uid} input:checked`)].map(cb => cb.value);
 
             const r   = await fetch(`${_API_HOST}/admin/users/${uid}`, {
                 method:  'PATCH',
                 headers: { 'x-admin-token': ADMIN_TOKEN, 'Content-Type': 'application/json' },
-                body:    JSON.stringify({ plan, role: role || null, label, permissions }),
+                body:    JSON.stringify({ plan, role: role || null, label, permissions, managedRegions }),
             });
             const res = await r.json();
             const msg = document.getElementById(`auMsg_${uid}`);
             if (res.ok) {
                 msg.textContent = '✅ Guardado';
                 msg.classList.remove('hidden', 'au-save-msg--err');
-                // Actualizar objeto local para reflejar cambios en el badge
                 const u = allUsers.find(u => u.id === uid);
-                if (u) { u.plan = plan; u.role = role; u.label = label; u.permissions = permissions; }
+                if (u) { u.plan = plan; u.role = role; u.label = label; u.permissions = permissions; u.managed_regions = managedRegions; }
                 setTimeout(() => msg.classList.add('hidden'), 2500);
             } else {
                 msg.textContent = '⚠️ Error al guardar';

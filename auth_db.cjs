@@ -286,19 +286,33 @@ function verifyEmail(token) {
 // ─── Get all users (admin) ────────────────────────────────────
 
 function getAllUsers() {
-    return db.prepare('SELECT id, name, username, email, preferred_lang, is_dev, plan, email_verified, created_at, role, label, permissions FROM users').all()
+    return db.prepare('SELECT id, name, username, email, preferred_lang, is_dev, plan, email_verified, created_at, role, label, permissions, country, region, managed_regions FROM users').all()
         .map(r => ({
             ...r,
-            isDev:       !!r.is_dev,
-            emailVerified: !!r.email_verified,
-            permissions: JSON.parse(r.permissions || '[]'),
+            isDev:          !!r.is_dev,
+            emailVerified:  !!r.email_verified,
+            permissions:    JSON.parse(r.permissions    || '[]'),
+            managed_regions: JSON.parse(r.managed_regions || '[]'),
         }));
 }
 
-// ─── User roles / labels / permissions ───────────────────────
-try { db.exec(`ALTER TABLE users ADD COLUMN role        TEXT DEFAULT NULL`); } catch {}
-try { db.exec(`ALTER TABLE users ADD COLUMN label       TEXT DEFAULT NULL`); } catch {}
-try { db.exec(`ALTER TABLE users ADD COLUMN permissions TEXT DEFAULT '[]'`); } catch {}
+function getUsersByRegions(regions) {
+    if (!regions?.length) return [];
+    return db.prepare(
+        `SELECT id, name, username, email, plan, role, label, country, region, created_at
+         FROM users WHERE region IN (${regions.map(() => '?').join(',')})
+         ORDER BY created_at DESC`
+    ).all(...regions)
+     .map(r => ({ ...r }));
+}
+
+// ─── User roles / labels / permissions / location ────────────
+try { db.exec(`ALTER TABLE users ADD COLUMN role            TEXT DEFAULT NULL`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN label           TEXT DEFAULT NULL`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN permissions     TEXT DEFAULT '[]'`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN country         TEXT DEFAULT NULL`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN region          TEXT DEFAULT NULL`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN managed_regions TEXT DEFAULT '[]'`); } catch {}
 
 // ─── Classroom tables ─────────────────────────────────────────
 
@@ -539,18 +553,24 @@ function rateTeacher(teacherId, studentId, score, comment) {
     return { ok: true };
 }
 
-function updateUserAdmin(userId, { plan, role, label, permissions }) {
+function updateUserAdmin(userId, { plan, role, label, permissions, managedRegions }) {
     if (!userId || userId === 'dev') return { ok: false, error: 'No permitido.' };
     const fields = [];
     const vals   = [];
-    if (plan        !== undefined) { fields.push('plan = ?');        vals.push(plan); }
-    if (role        !== undefined) { fields.push('role = ?');        vals.push(role || null); }
-    if (label       !== undefined) { fields.push('label = ?');       vals.push(label || null); }
-    if (permissions !== undefined) { fields.push('permissions = ?'); vals.push(JSON.stringify(permissions || [])); }
+    if (plan           !== undefined) { fields.push('plan = ?');            vals.push(plan); }
+    if (role           !== undefined) { fields.push('role = ?');            vals.push(role || null); }
+    if (label          !== undefined) { fields.push('label = ?');           vals.push(label || null); }
+    if (permissions    !== undefined) { fields.push('permissions = ?');     vals.push(JSON.stringify(permissions || [])); }
+    if (managedRegions !== undefined) { fields.push('managed_regions = ?'); vals.push(JSON.stringify(managedRegions || [])); }
     if (!fields.length) return { ok: false, error: 'Nada que actualizar.' };
     vals.push(userId);
     db.prepare(`UPDATE users SET ${fields.join(', ')} WHERE id = ?`).run(...vals);
     return { ok: true };
+}
+
+function saveUserLocation(userId, country, region) {
+    if (!userId || userId === 'dev') return;
+    db.prepare('UPDATE users SET country = ?, region = ? WHERE id = ?').run(country || null, region || null, userId);
 }
 
 function getUserByUsername(username) {
@@ -562,7 +582,7 @@ module.exports = {
     register, login, loginWithGoogle, verifyToken, signToken, getUserById, setUserPlan,
     verifyEmail, createResetToken, resetPassword, deleteUser, getAllUsers, db,
     // Admin user management
-    updateUserAdmin,
+    updateUserAdmin, saveUserLocation, getUsersByRegions,
     // Classroom
     getTeacherProfile, upsertTeacherProfile, listTeachers,
     createClass, getTeacherClasses, deleteClass,
