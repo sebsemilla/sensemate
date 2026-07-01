@@ -2554,8 +2554,12 @@ function showMainMenu() {
         initExplorerCountryBar();
     }
 
-    // Inicializar banners
-    _initAppBanners();
+    // Inicializar banners — solo en modo Traducción y Exploración (no en Misión)
+    if (appMode !== 'mision') {
+        _initAppBanners();
+    } else {
+        clearInterval(_bannerInterval);
+    }
 
     // Banner de verificación de email
     if (currentUser && currentUser.emailVerified === false) {
