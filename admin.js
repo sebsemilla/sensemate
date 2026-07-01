@@ -29,6 +29,7 @@ function loadAdminPanel() {
                 <button class="admin-tab" data-tab="contributors">👥 Contributores</button>
                 <button class="admin-tab" data-tab="tools">🔧 Herramientas</button>
                 <button class="admin-tab" data-tab="membership">💳 Membresías</button>
+                <button class="admin-tab" data-tab="users">👤 Usuarios</button>
             </div>
 
             <div id="adminTabContent" class="admin-tab-content">
@@ -92,6 +93,8 @@ async function _adminLoadTab(tab) {
             _adminRenderTools(content);
         } else if (tab === 'membership') {
             await _adminRenderMembership(content);
+        } else if (tab === 'users') {
+            await _adminRenderUsers(content);
         }
     } catch (err) {
         content.innerHTML = `<div class="admin-error">❌ Error: ${escapeHtml(err.message)}</div>`;
@@ -1156,6 +1159,198 @@ async function _adminRenderWriters(container) {
                 method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN }
             });
             _adminLoadTab('writers');
+        });
+    });
+}
+
+// ── Tab: Usuarios ─────────────────────────────────────────────
+
+const _AU_PLANS = ['free', 'premium', 'gold'];
+const _AU_ROLES = [
+    { value: '',          label: 'Sin rol'   },
+    { value: 'direccion', label: 'Dirección' },
+    { value: 'ayudante',  label: 'Ayudante'  },
+];
+const _AU_PERMS = [
+    { value: 'manage_notifications',  label: '🔔 Administrar notificaciones' },
+    { value: 'manage_users_region',   label: '🌎 Gestionar usuarios por región' },
+    { value: 'modify_content',        label: '✏️ Modificar contenidos' },
+    { value: 'view_stats',            label: '📊 Ver estadísticas' },
+    { value: 'manage_memberships',    label: '💳 Gestionar membresías' },
+    { value: 'moderate_submissions',  label: '📋 Moderar envíos (canciones, textos)' },
+    { value: 'manage_classroom',      label: '🏫 Administrar aulas' },
+];
+
+// Permisos predeterminados por rol
+const _AU_ROLE_DEFAULTS = {
+    direccion: ['manage_notifications','manage_users_region','modify_content','view_stats','manage_memberships','moderate_submissions','manage_classroom'],
+    ayudante:  ['view_stats','moderate_submissions'],
+};
+
+async function _adminRenderUsers(container) {
+    const res   = await fetch(`${_API_HOST}/admin/users`, { headers: { 'x-admin-token': ADMIN_TOKEN } });
+    const users = await res.json();
+
+    container.innerHTML = `
+        <div class="au-wrap">
+            <div class="au-search-row">
+                <input class="au-search" id="auSearch" placeholder="🔍 Buscar por nombre, email o username…" autocomplete="off">
+                <span class="au-count" id="auCount">${users.length} usuarios</span>
+            </div>
+            <div class="au-list" id="auList"></div>
+        </div>`;
+
+    function renderList(query) {
+        const q    = (query || '').toLowerCase().trim();
+        const filtered = q
+            ? users.filter(u =>
+                (u.name     || '').toLowerCase().includes(q) ||
+                (u.email    || '').toLowerCase().includes(q) ||
+                (u.username || '').toLowerCase().includes(q))
+            : users;
+        document.getElementById('auCount').textContent = `${filtered.length} usuario${filtered.length !== 1 ? 's' : ''}`;
+        const list = document.getElementById('auList');
+        list.innerHTML = filtered.map(u => _auCardHTML(u)).join('');
+        _bindAuCards(list, users);
+    }
+
+    document.getElementById('auSearch').addEventListener('input', e => renderList(e.target.value));
+    renderList('');
+}
+
+function _auCardHTML(u) {
+    const perms = Array.isArray(u.permissions) ? u.permissions : [];
+    return `
+        <div class="au-card" data-user-id="${u.id}">
+            <div class="au-card-head">
+                <div class="au-avatar">${(u.name || '?')[0].toUpperCase()}</div>
+                <div class="au-info">
+                    <span class="au-name">${escapeHtml(u.name || '—')}</span>
+                    <span class="au-sub">${escapeHtml(u.email)}</span>
+                    ${u.username ? `<span class="au-sub">@${escapeHtml(u.username)}</span>` : ''}
+                </div>
+                <div class="au-meta">
+                    ${u.isDev ? '<span class="au-badge au-badge--dev">Dev</span>' : ''}
+                    <span class="au-badge au-badge--plan au-badge--${u.plan}">${u.plan}</span>
+                    ${u.role ? `<span class="au-badge au-badge--role">${u.role}</span>` : ''}
+                </div>
+                <button class="au-expand-btn" data-id="${u.id}" title="Editar">✏️</button>
+            </div>
+
+            <div class="au-editor hidden" id="auEditor_${u.id}">
+                <div class="au-editor-grid">
+
+                    <!-- Plan -->
+                    <div class="au-field-group">
+                        <label class="au-label">Plan</label>
+                        <div class="au-btn-group" id="auPlanGroup_${u.id}">
+                            ${_AU_PLANS.map(p => `
+                                <button class="au-opt-btn ${u.plan === p ? 'active' : ''}" data-field="plan" data-val="${p}">${p}</button>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Rol -->
+                    <div class="au-field-group">
+                        <label class="au-label">Rol</label>
+                        <div class="au-btn-group" id="auRoleGroup_${u.id}">
+                            ${_AU_ROLES.map(r => `
+                                <button class="au-opt-btn ${(u.role || '') === r.value ? 'active' : ''}"
+                                    data-field="role" data-val="${r.value}">${r.label}</button>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Etiqueta -->
+                    <div class="au-field-group au-field-group--full">
+                        <label class="au-label">Etiqueta</label>
+                        <input class="au-input" id="auLabel_${u.id}" value="${escapeHtml(u.label || '')}" placeholder="Ej: Beta tester, Embajador, Región Sur…">
+                    </div>
+
+                    <!-- Permisos -->
+                    <div class="au-field-group au-field-group--full">
+                        <label class="au-label">Permisos <span class="au-perm-hint">(se pueden personalizar independientemente del rol)</span></label>
+                        <div class="au-perms" id="auPerms_${u.id}">
+                            ${_AU_PERMS.map(p => `
+                                <label class="au-perm-check">
+                                    <input type="checkbox" value="${p.value}" ${perms.includes(p.value) ? 'checked' : ''}>
+                                    ${p.label}
+                                </label>
+                            `).join('')}
+                        </div>
+                        <button class="au-preset-btn" data-user="${u.id}">Aplicar permisos del rol</button>
+                    </div>
+
+                </div>
+
+                <div class="au-editor-foot">
+                    <span class="au-save-msg hidden" id="auMsg_${u.id}">✅ Guardado</span>
+                    <button class="au-save-btn" data-id="${u.id}">Guardar cambios</button>
+                </div>
+            </div>
+        </div>`;
+}
+
+function _bindAuCards(container, allUsers) {
+    // Expand/collapse
+    container.querySelectorAll('.au-expand-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const editor = document.getElementById(`auEditor_${btn.dataset.id}`);
+            editor.classList.toggle('hidden');
+            btn.textContent = editor.classList.contains('hidden') ? '✏️' : '✕';
+        });
+    });
+
+    // Toggle buttons (plan / role)
+    container.querySelectorAll('.au-opt-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const group = btn.closest('.au-btn-group');
+            group.querySelectorAll('.au-opt-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        });
+    });
+
+    // Aplicar permisos predeterminados del rol seleccionado
+    container.querySelectorAll('.au-preset-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const uid    = btn.dataset.user;
+            const rolBtn = container.querySelector(`#auRoleGroup_${uid} .au-opt-btn.active`);
+            const role   = rolBtn?.dataset.val || '';
+            const preset = _AU_ROLE_DEFAULTS[role] || [];
+            container.querySelectorAll(`#auPerms_${uid} input[type=checkbox]`).forEach(cb => {
+                cb.checked = preset.includes(cb.value);
+            });
+        });
+    });
+
+    // Guardar
+    container.querySelectorAll('.au-save-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            const uid  = btn.dataset.id;
+            const plan = container.querySelector(`#auPlanGroup_${uid} .au-opt-btn.active`)?.dataset.val;
+            const role = container.querySelector(`#auRoleGroup_${uid} .au-opt-btn.active`)?.dataset.val || null;
+            const label = document.getElementById(`auLabel_${uid}`)?.value.trim() || null;
+            const permissions = [...container.querySelectorAll(`#auPerms_${uid} input:checked`)].map(cb => cb.value);
+
+            const r   = await fetch(`${_API_HOST}/admin/users/${uid}`, {
+                method:  'PATCH',
+                headers: { 'x-admin-token': ADMIN_TOKEN, 'Content-Type': 'application/json' },
+                body:    JSON.stringify({ plan, role: role || null, label, permissions }),
+            });
+            const res = await r.json();
+            const msg = document.getElementById(`auMsg_${uid}`);
+            if (res.ok) {
+                msg.textContent = '✅ Guardado';
+                msg.classList.remove('hidden', 'au-save-msg--err');
+                // Actualizar objeto local para reflejar cambios en el badge
+                const u = allUsers.find(u => u.id === uid);
+                if (u) { u.plan = plan; u.role = role; u.label = label; u.permissions = permissions; }
+                setTimeout(() => msg.classList.add('hidden'), 2500);
+            } else {
+                msg.textContent = '⚠️ Error al guardar';
+                msg.classList.remove('hidden');
+                msg.classList.add('au-save-msg--err');
+            }
         });
     });
 }

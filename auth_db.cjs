@@ -286,9 +286,19 @@ function verifyEmail(token) {
 // ─── Get all users (admin) ────────────────────────────────────
 
 function getAllUsers() {
-    return db.prepare('SELECT id, name, username, email, preferred_lang, is_dev, plan, email_verified, created_at FROM users').all()
-        .map(r => ({ ...r, isDev: !!r.is_dev, emailVerified: !!r.email_verified }));
+    return db.prepare('SELECT id, name, username, email, preferred_lang, is_dev, plan, email_verified, created_at, role, label, permissions FROM users').all()
+        .map(r => ({
+            ...r,
+            isDev:       !!r.is_dev,
+            emailVerified: !!r.email_verified,
+            permissions: JSON.parse(r.permissions || '[]'),
+        }));
 }
+
+// ─── User roles / labels / permissions ───────────────────────
+try { db.exec(`ALTER TABLE users ADD COLUMN role        TEXT DEFAULT NULL`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN label       TEXT DEFAULT NULL`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN permissions TEXT DEFAULT '[]'`); } catch {}
 
 // ─── Classroom tables ─────────────────────────────────────────
 
@@ -529,6 +539,20 @@ function rateTeacher(teacherId, studentId, score, comment) {
     return { ok: true };
 }
 
+function updateUserAdmin(userId, { plan, role, label, permissions }) {
+    if (!userId || userId === 'dev') return { ok: false, error: 'No permitido.' };
+    const fields = [];
+    const vals   = [];
+    if (plan        !== undefined) { fields.push('plan = ?');        vals.push(plan); }
+    if (role        !== undefined) { fields.push('role = ?');        vals.push(role || null); }
+    if (label       !== undefined) { fields.push('label = ?');       vals.push(label || null); }
+    if (permissions !== undefined) { fields.push('permissions = ?'); vals.push(JSON.stringify(permissions || [])); }
+    if (!fields.length) return { ok: false, error: 'Nada que actualizar.' };
+    vals.push(userId);
+    db.prepare(`UPDATE users SET ${fields.join(', ')} WHERE id = ?`).run(...vals);
+    return { ok: true };
+}
+
 function getUserByUsername(username) {
     const row = db.prepare('SELECT id, name, username, plan FROM users WHERE LOWER(username) = ?').get(username.toLowerCase());
     return row || null;
@@ -537,6 +561,8 @@ function getUserByUsername(username) {
 module.exports = {
     register, login, loginWithGoogle, verifyToken, signToken, getUserById, setUserPlan,
     verifyEmail, createResetToken, resetPassword, deleteUser, getAllUsers, db,
+    // Admin user management
+    updateUserAdmin,
     // Classroom
     getTeacherProfile, upsertTeacherProfile, listTeachers,
     createClass, getTeacherClasses, deleteClass,

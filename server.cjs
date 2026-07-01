@@ -1025,6 +1025,14 @@ app.get('/admin/users', (req, res) => {
     res.json(authDb.getAllUsers());
 });
 
+// PATCH /admin/users/:id — admin: actualiza plan, rol, etiqueta, permisos
+app.patch('/admin/users/:id', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    const { plan, role, label, permissions } = req.body;
+    const result = authDb.updateUserAdmin(req.params.id, { plan, role, label, permissions });
+    res.json(result);
+});
+
 // ─── Feedback (quejas & fortalezas) ──────────────────────────
 
 const FEEDBACK_FILE = path.join(__dirname, 'feedback.json');
