@@ -198,7 +198,16 @@
     <script src="membership.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
+            const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+            window.addEventListener('load', () => {
+                if (isLocal) {
+                    // Dev: nunca cachear — y limpiar cualquier SW/caché de sesiones anteriores
+                    navigator.serviceWorker.getRegistrations().then(regs => regs.forEach(r => r.unregister()));
+                    if (window.caches) caches.keys().then(keys => keys.forEach(k => caches.delete(k)));
+                } else {
+                    navigator.serviceWorker.register('/sw.js').catch(() => {});
+                }
+            });
         }
     </script>
 

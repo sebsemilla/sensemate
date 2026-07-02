@@ -511,7 +511,29 @@ async function translateSimple(text, fromLang, toLang) {
 }
 
 // ── Sinónimos ──────────────────────────────────────────────────
-const LANG_NAMES_MAP = { en:'English', es:'Spanish', fr:'French', de:'German', it:'Italian', pt:'Portuguese' };
+const LANG_NAMES_MAP = {
+    // América
+    es:'Spanish', en:'English', pt:'Portuguese', fr:'French', gn:'Guarani', qu:'Quechua', ht:'Haitian Creole',
+    // Europa Occidental
+    de:'German', it:'Italian', nl:'Dutch', da:'Danish', sv:'Swedish', no:'Norwegian', fi:'Finnish',
+    is:'Icelandic', ga:'Irish', ca:'Catalan', gl:'Galician', eu:'Basque', cy:'Welsh',
+    // Europa Oriental
+    ru:'Russian', pl:'Polish', cs:'Czech', sk:'Slovak', uk:'Ukrainian', bg:'Bulgarian', ro:'Romanian',
+    hr:'Croatian', sr:'Serbian', bs:'Bosnian', sl:'Slovenian', mk:'Macedonian', sq:'Albanian', el:'Greek',
+    hu:'Hungarian', lt:'Lithuanian', lv:'Latvian', et:'Estonian', be:'Belarusian',
+    // Asia Occidental
+    ar:'Arabic', he:'Hebrew', tr:'Turkish', fa:'Persian', ur:'Urdu', az:'Azerbaijani', ka:'Georgian',
+    hy:'Armenian', ku:'Kurdish',
+    // Asia Oriental y del Sur
+    zh:'Chinese (Mandarin)', ja:'Japanese', ko:'Korean', hi:'Hindi', bn:'Bengali', ta:'Tamil', te:'Telugu',
+    vi:'Vietnamese', th:'Thai', id:'Indonesian', ms:'Malay', tl:'Filipino',
+    // África Subsahariana
+    sw:'Swahili', yo:'Yoruba', ig:'Igbo', ha:'Hausa', zu:'Zulu', xh:'Xhosa', am:'Amharic', so:'Somali', sn:'Shona',
+    // África del Norte
+    ber:'Tamazight',
+    // Oceanía
+    mi:'Maori', sm:'Samoan', fj:'Fijian', tpi:'Tok Pisin', haw:'Hawaiian',
+};
 function _langName(code) { return LANG_NAMES_MAP[code] || code; }
 
 app.post('/synonyms', chatLimiter, async (req, res) => {
@@ -613,6 +635,73 @@ app.post('/paragraph-chat', chatLimiter, async (req, res) => {
     } catch (e) {
         console.error('/paragraph-chat error:', e);
         res.status(500).json({ error: 'Error al generar respuesta' });
+    }
+});
+
+// ── Analizador de nivel MCER ───────────────────────────────────
+app.post('/analyze-level', chatLimiter, async (req, res) => {
+    const { text, lang } = req.body;
+    if (!text?.trim()) return res.status(400).json({ error: 'Falta el texto' });
+
+    const cohere   = new CohereClientV2({ token: process.env.COHERE_API_KEY });
+    const langName = _langName(lang || 'en');
+    const snippet  = text.trim().slice(0, 3000); // cap to avoid token overuse
+
+    const systemPrompt = `Eres un experto en lingüística aplicada y enseñanza de idiomas con certificación en el Marco Común Europeo de Referencia (MCER/CEFR).
+Tu tarea es analizar textos y devolver un diagnóstico estructurado de nivel de complejidad lingüística.
+SIEMPRE responde con un JSON válido y nada más (sin markdown, sin bloques de código, solo el objeto JSON).`;
+
+    const userMsg = `Analiza el siguiente texto en idioma ${langName} y devuelve un objeto JSON con esta estructura exacta:
+
+{
+  "level_overall": "B2",
+  "level_label": "Intermedio Alto",
+  "confidence": "alta",
+  "dimensions": {
+    "vocabulary": { "level": "C1", "label": "Avanzado", "note": "breve justificación" },
+    "grammar":    { "level": "B2", "label": "Intermedio Alto", "note": "breve justificación" },
+    "syntax":     { "level": "B1", "label": "Intermedio", "note": "breve justificación" },
+    "register":   { "level": "B2", "label": "Intermedio Alto", "note": "Formal / Académico" }
+  },
+  "register_tags": ["formal", "académico"],
+  "grammar_structures": ["voz pasiva", "oraciones subordinadas", "condicional"],
+  "hard_words": ["palabra1", "palabra2", "palabra3"],
+  "word_count": 245,
+  "avg_sentence_length": 18,
+  "pedagogical": {
+    "suitable_for": "Clases de nivel B1+ / Lectura extensiva B2",
+    "challenges": "El vocabulario académico puede resultar difícil para niveles B1.",
+    "suggestions": "Glosario previo de 5-8 términos clave. Ideal para práctica de comprensión lectora en B2."
+  },
+  "summary": "Una o dos frases describiendo el texto y su nivel general."
+}
+
+Niveles válidos: A1, A2, B1, B2, C1, C2.
+Etiquetas: A1=Principiante, A2=Básico, B1=Intermedio, B2=Intermedio Alto, C1=Avanzado, C2=Maestría.
+Confianza: "alta" si el texto tiene 100+ palabras, "media" si tiene 50-99, "baja" si tiene menos de 50.
+
+TEXTO A ANALIZAR:
+"""
+${snippet}
+"""`;
+
+    try {
+        const response = await cohere.chat({
+            model: 'command-a-03-2025',
+            messages: [
+                { role: 'system', content: systemPrompt },
+                { role: 'user',   content: userMsg }
+            ],
+            temperature: 0.2,
+        });
+        const raw = response.message.content[0].text.trim();
+        // Strip accidental markdown fences
+        const clean = raw.replace(/^```(?:json)?\s*/i, '').replace(/```\s*$/, '').trim();
+        const parsed = JSON.parse(clean);
+        res.json({ analysis: parsed });
+    } catch (e) {
+        console.error('/analyze-level error:', e);
+        res.status(500).json({ error: 'Error al analizar el texto. Intentá de nuevo.' });
     }
 });
 

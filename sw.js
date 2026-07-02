@@ -1,4 +1,4 @@
-const CACHE = 'sensemate-v1';
+const CACHE = 'sensemate-v2';
 const STATIC = [
     '/',
     '/styles.css',
@@ -26,6 +26,8 @@ self.addEventListener('fetch', e => {
     // Solo cachear GET de assets estáticos — las llamadas a la API siempre van a la red
     if (e.request.method !== 'GET') return;
     const url = new URL(e.request.url);
+    // Dev: nunca interceptar — evita servir versiones viejas cacheadas mientras se itera localmente
+    if (url.hostname === 'localhost' || url.hostname === '127.0.0.1') return;
     if (url.pathname.startsWith('/api') || url.pathname.startsWith('/translate') ||
         url.pathname.startsWith('/chat') || url.pathname.startsWith('/auth') ||
         url.pathname.startsWith('/mp') || url.pathname.startsWith('/writers') ||

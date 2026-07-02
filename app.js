@@ -2655,6 +2655,38 @@ function loadLongTextMode() {
             <!-- Resultados -->
             <div class="lt-results" id="ltResults"></div>
 
+            <!-- ── Analizador de Nivel MCER ─────────────────── -->
+            <div class="lt-divider"><span>🔍 Analizador de Nivel MCER</span></div>
+
+            <div class="anl-card anl-intro-card">
+                <p class="anl-intro-body">
+                    Pegá un texto (puede ser otro distinto al de arriba) y la IA le hace un diagnóstico de nivel
+                    <strong>A1–C2 según el Marco Común Europeo de Referencia (MCER/CEFR)</strong>: vocabulario, gramática,
+                    registro y recomendaciones pedagógicas. Usa como idioma el que tengas seleccionado como <strong>origen</strong> arriba.
+                </p>
+                <div class="anl-intro-tips">
+                    <span class="anl-tip anl-tip--ok">✅ Ideal: 150–500 palabras</span>
+                    <span class="anl-tip anl-tip--warn">⚠️ Mínimo: 50 palabras — menos da resultados poco confiables</span>
+                </div>
+            </div>
+
+            <div class="lt-card">
+                <label class="lt-label">Texto a analizar</label>
+                <textarea class="lt-text-input" id="anlText" rows="8"
+                    placeholder="Pegá aquí el texto que querés analizar… (artículo, párrafo de libro, subtítulos, material de clase, etc.)"></textarea>
+                <div class="lt-input-foot">
+                    <span class="lt-char-count" id="anlWordCount">0 palabras</span>
+                    <button class="lt-paste-btn" id="anlPasteBtn">📋 Pegar</button>
+                </div>
+            </div>
+
+            <button class="anl-analyze-btn" id="anlAnalyzeBtn" disabled>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                Analizar texto
+            </button>
+
+            <div id="anlResults"></div>
+
         </div>
     `);
 
@@ -2833,6 +2865,181 @@ function loadLongTextMode() {
         input.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMsg(); } });
         input.focus();
     }
+
+    // ── Analizador de Nivel MCER ────────────────────────────
+    const _LEVEL_COLORS = { A1:'#10b981', A2:'#34d399', B1:'#3b82f6', B2:'#6366f1', C1:'#8b5cf6', C2:'#ec4899' };
+    const _LEVEL_BARS   = { A1:1, A2:2, B1:3, B2:4, C1:5, C2:6 };
+
+    const anlTextarea = document.getElementById('anlText');
+
+    document.getElementById('anlPasteBtn').addEventListener('click', async () => {
+        try {
+            const txt = await navigator.clipboard.readText();
+            anlTextarea.value = txt;
+            _anlUpdateCount();
+        } catch {}
+    });
+
+    anlTextarea.addEventListener('input', _anlUpdateCount);
+
+    function _anlUpdateCount() {
+        const words = anlTextarea.value.trim().split(/\s+/).filter(Boolean).length;
+        const el    = document.getElementById('anlWordCount');
+        if (el) {
+            el.textContent = `${words} palabra${words !== 1 ? 's' : ''}`;
+            el.className   = 'lt-char-count' + (words < 50 ? ' anl-count--warn' : words >= 150 ? ' anl-count--ok' : '');
+        }
+        const btn = document.getElementById('anlAnalyzeBtn');
+        if (btn) btn.disabled = words < 10;
+    }
+
+    document.getElementById('anlAnalyzeBtn').addEventListener('click', async () => {
+        const text = anlTextarea.value.trim();
+        const lang = sourceLang || 'en';
+        const btn  = document.getElementById('anlAnalyzeBtn');
+        const results = document.getElementById('anlResults');
+
+        btn.disabled = true;
+        btn.innerHTML = `<div class="school-dots"><span></span><span></span><span></span></div> Analizando…`;
+        results.innerHTML = '';
+
+        try {
+            const r    = await _authFetch(`${_API_HOST}/analyze-level`, {
+                method: 'POST',
+                body:   JSON.stringify({ text, lang })
+            });
+            const data = await r.json();
+
+            if (!r.ok || !data.analysis) {
+                results.innerHTML = `<div class="anl-error">⚠️ ${escapeHtml(data.error || 'Error al analizar')}</div>`;
+                return;
+            }
+
+            const a = data.analysis;
+            const levelColor = _LEVEL_COLORS[a.level_overall] || '#6366f1';
+            const levelBars  = _LEVEL_BARS[a.level_overall]   || 3;
+
+            results.innerHTML = `
+                <!-- Resultado principal -->
+                <div class="anl-result-hero" style="border-color:${levelColor}">
+                    <div class="anl-hero-left">
+                        <div class="anl-level-badge" style="background:${levelColor}">${escapeHtml(a.level_overall || '?')}</div>
+                        <div>
+                            <div class="anl-level-name">${escapeHtml(a.level_label || '')}</div>
+                            <div class="anl-confidence">Confianza del diagnóstico: <strong>${escapeHtml(a.confidence || '—')}</strong></div>
+                        </div>
+                    </div>
+                    <div class="anl-level-bar-wrap">
+                        ${['A1','A2','B1','B2','C1','C2'].map((l,i) => `
+                            <div class="anl-level-seg ${i < levelBars ? 'filled' : ''}" style="${i < levelBars ? `background:${_LEVEL_COLORS[l]}` : ''}">
+                                <span>${l}</span>
+                            </div>`).join('')}
+                    </div>
+                    <p class="anl-summary">${escapeHtml(a.summary || '')}</p>
+                </div>
+
+                <!-- Dimensiones -->
+                <div class="anl-dimensions">
+                    ${[
+                        { key:'vocabulary', icon:'📖', label:'Vocabulario' },
+                        { key:'grammar',    icon:'🔤', label:'Gramática'   },
+                        { key:'syntax',     icon:'📐', label:'Sintaxis'    },
+                        { key:'register',   icon:'🎭', label:'Registro'    },
+                    ].map(d => {
+                        const dim = a.dimensions?.[d.key] || {};
+                        const col = _LEVEL_COLORS[dim.level] || '#94a3b8';
+                        const bars = _LEVEL_BARS[dim.level] || 0;
+                        return `
+                        <div class="anl-card anl-dim-card">
+                            <div class="anl-dim-head">
+                                <span class="anl-dim-icon">${d.icon}</span>
+                                <span class="anl-dim-name">${d.label}</span>
+                                <span class="anl-dim-level" style="background:${col}">${dim.level || '?'}</span>
+                            </div>
+                            <div class="anl-dim-mini-bar">
+                                ${[1,2,3,4,5,6].map(i => `<div class="anl-dim-seg ${i <= bars ? 'filled' : ''}" style="${i <= bars ? `background:${col}` : ''}"></div>`).join('')}
+                            </div>
+                            <p class="anl-dim-note">${escapeHtml(dim.note || dim.label || '')}</p>
+                        </div>`;
+                    }).join('')}
+                </div>
+
+                <!-- Tags + palabras difíciles + estadísticas -->
+                <div class="anl-cards-row">
+
+                    ${a.register_tags?.length ? `
+                    <div class="anl-card anl-info-card">
+                        <div class="anl-info-title">🎭 Registro</div>
+                        <div class="anl-tags">
+                            ${a.register_tags.map(tag => `<span class="anl-tag">${escapeHtml(tag)}</span>`).join('')}
+                        </div>
+                    </div>` : ''}
+
+                    ${a.grammar_structures?.length ? `
+                    <div class="anl-card anl-info-card">
+                        <div class="anl-info-title">🔤 Estructuras gramaticales presentes</div>
+                        <div class="anl-tags">
+                            ${a.grammar_structures.map(s => `<span class="anl-tag anl-tag--grammar">${escapeHtml(s)}</span>`).join('')}
+                        </div>
+                    </div>` : ''}
+
+                    ${a.hard_words?.length ? `
+                    <div class="anl-card anl-info-card">
+                        <div class="anl-info-title">💬 Palabras de mayor dificultad</div>
+                        <div class="anl-tags">
+                            ${a.hard_words.map(w => `<span class="anl-tag anl-tag--word">${escapeHtml(w)}</span>`).join('')}
+                        </div>
+                    </div>` : ''}
+
+                    <div class="anl-card anl-info-card">
+                        <div class="anl-info-title">📊 Estadísticas del texto</div>
+                        <div class="anl-stats-grid">
+                            <div class="anl-stat"><span class="anl-stat-num">${a.word_count ?? '—'}</span><span class="anl-stat-lbl">palabras</span></div>
+                            <div class="anl-stat"><span class="anl-stat-num">${a.avg_sentence_length ?? '—'}</span><span class="anl-stat-lbl">pal./oración</span></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Recomendaciones pedagógicas -->
+                ${a.pedagogical ? `
+                <div class="anl-pedagogy-card">
+                    <div class="anl-info-title">🎓 Recomendación pedagógica</div>
+                    <div class="anl-pedagogy-row">
+                        <div class="anl-pedagogy-item">
+                            <span class="anl-ped-label">Apto para</span>
+                            <span class="anl-ped-value">${escapeHtml(a.pedagogical.suitable_for || '—')}</span>
+                        </div>
+                        <div class="anl-pedagogy-item">
+                            <span class="anl-ped-label">Posibles dificultades</span>
+                            <span class="anl-ped-value">${escapeHtml(a.pedagogical.challenges || '—')}</span>
+                        </div>
+                        <div class="anl-pedagogy-item anl-pedagogy-item--full">
+                            <span class="anl-ped-label">Sugerencias para el aula</span>
+                            <span class="anl-ped-value">${escapeHtml(a.pedagogical.suggestions || '—')}</span>
+                        </div>
+                    </div>
+                </div>` : ''}
+
+                <button class="anl-reset-btn" id="anlResetBtn">← Analizar otro texto</button>
+            `;
+
+            results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+            document.getElementById('anlResetBtn').addEventListener('click', () => {
+                results.innerHTML = '';
+                anlTextarea.value = '';
+                _anlUpdateCount();
+                anlTextarea.scrollIntoView({ behavior: 'smooth' });
+            });
+
+        } catch (e) {
+            results.innerHTML = `<div class="anl-error">⚠️ Error de red. Intentá de nuevo.</div>`;
+        } finally {
+            btn.disabled = false;
+            btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg> Analizar texto`;
+        }
+    });
 }
 
 function _ltSplitParagraphs(text) {

@@ -123,17 +123,22 @@ function renderArtistsList(langData, usedLang = targetLang) {
                 <button id="addArtistBtn" class="add-artist-btn">＋ Agregar Artista</button>
             </div>
             <h2 class="musicians-title">🎵 Música del mundo</h2>
-            <p class="musicians-subtitle">De acuerdo al idioma que tengas seleccionado como <strong>objetivo</strong> se mostrarán los músicos de ese idioma. También podés filtrar y buscar por país.</p>
-            <div class="artists-grid">
+            <p class="musicians-subtitle">De acuerdo al idioma que tengas seleccionado como <strong>objetivo</strong> se mostrarán los músicos de ese idioma.</p>
+            <div class="artists-netflix-grid">
                 ${artists.map(artist => {
                     const isUrl = artist.image && (artist.image.startsWith('/') || artist.image.startsWith('http'));
-                    const avatarHTML = isUrl
-                        ? `<div class="artist-avatar artist-avatar--img"><img src="${artist.image}" alt="${artist.name}" onerror="this.parentElement.innerHTML='🎵'"></div>`
-                        : `<div class="artist-avatar">${artist.image}</div>`;
+                    const bgStyle = isUrl
+                        ? `style="background-image:url('${artist.image}')"`
+                        : '';
+                    const emoji = !isUrl ? (artist.image || '🎵') : '';
                     return `
-                    <div class="artist-card" data-artist-id="${artist.id}" data-artist-name="${artist.name}">
-                        ${avatarHTML}
-                        <h3>${artist.name}</h3>
+                    <div class="artist-nfx-card" data-artist-id="${artist.id}" data-artist-name="${artist.name}">
+                        <div class="artist-nfx-poster" ${bgStyle}>
+                            ${emoji ? `<span class="artist-nfx-emoji">${emoji}</span>` : ''}
+                            <div class="artist-nfx-overlay">
+                                <span class="artist-nfx-name">${artist.name}</span>
+                            </div>
+                        </div>
                     </div>`;
                 }).join('')}
             </div>
@@ -141,7 +146,7 @@ function renderArtistsList(langData, usedLang = targetLang) {
     `);
     document.getElementById('backToMainFromMusicians').addEventListener('click', showMainMenu);
     document.getElementById('addArtistBtn').addEventListener('click', loadAddSongForm);
-    document.querySelectorAll('.artist-card').forEach(card => {
+    document.querySelectorAll('.artist-nfx-card').forEach(card => {
         card.addEventListener('click', () => {
             currentArtistId   = card.dataset.artistId;
             currentArtistName = card.dataset.artistName;
