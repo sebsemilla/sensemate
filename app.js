@@ -3081,29 +3081,39 @@ function loadSimpleMode() {
     mainContainer.insertAdjacentHTML('beforeend', `
         <div class="smp-wrap">
 
+            <!-- Introducción -->
+            <div class="smp-intro-card">
+                <p class="smp-intro-title">🔄 Traductor con IA</p>
+                <p class="smp-intro-body">
+                    Escribí o pegá una frase y obtené 3 traducciones a la vez —
+                    <strong>formal</strong>, <strong>informal</strong> y <strong>neutral</strong> — según el contexto,
+                    junto con análisis léxico, sinónimos y una IA para resolver dudas sobre la traducción.
+                    Activá <strong>AUTO</strong> para traducir mientras escribís, o agregá contexto (ej: "carta formal",
+                    "chat con amigos") para resultados más precisos.
+                </p>
+            </div>
+
             <!-- Área de entrada -->
             <div class="smp-input-card">
 
-                <!-- Fila superior: toggle AUTO -->
+                <!-- Fila superior: contexto opcional + toggle AUTO -->
                 <div class="smp-top-row">
-                    <button class="smp-auto-btn" id="smpAutoBtn" data-on="false">
-                        <span class="smp-auto-dot"></span>
-                        AUTO
-                    </button>
-                </div>
-
-                <!-- Campo de contexto opcional -->
-                <div class="smp-context-hint-wrap" id="smpContextHintWrap">
                     <button class="smp-context-hint-toggle" id="smpContextHintToggle">
                         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
                         ${t.insertar_contexto || 'Insertar contexto'}
                         <span class="smp-context-hint-optional">${t.opcional || 'opcional'}</span>
                         <svg class="smp-context-hint-arrow" width="11" height="11" viewBox="0 0 12 12"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </button>
-                    <div class="smp-context-hint-box hidden" id="smpContextHintBox">
-                        <textarea class="smp-context-hint-input" id="smpContextHint" rows="2"
-                            placeholder="${t.contexto_placeholder || 'Ej: carta formal de negocios, conversación entre amigos, correo a un profesor...'}"></textarea>
-                    </div>
+                    <button class="smp-auto-btn" id="smpAutoBtn" data-on="false">
+                        <span class="smp-auto-dot"></span>
+                        AUTO
+                    </button>
+                </div>
+
+                <!-- Campo de contexto opcional (se expande debajo de la fila superior) -->
+                <div class="smp-context-hint-box hidden" id="smpContextHintBox">
+                    <textarea class="smp-context-hint-input" id="smpContextHint" rows="2"
+                        placeholder="${t.contexto_placeholder || 'Ej: carta formal de negocios, conversación entre amigos, correo a un profesor...'}"></textarea>
                 </div>
 
                 <!-- Textarea + mic + clear -->

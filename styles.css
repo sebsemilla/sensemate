@@ -2352,9 +2352,6 @@ body.dark-mode .lex-ex-source { color: #e2e8f0; }
 body.dark-mode .lex-ex-target { color: #94a3b8; }
 
 /* Contexto opcional del traductor */
-.smp-context-hint-wrap {
-    padding: .35rem .5rem .1rem;
-}
 .smp-context-hint-toggle {
     display: inline-flex;
     align-items: center;
@@ -2377,7 +2374,7 @@ body.dark-mode .lex-ex-target { color: #94a3b8; }
     margin-left: .1rem;
 }
 .smp-context-hint-arrow { transition: transform .2s; flex-shrink: 0; }
-.smp-context-hint-box { margin-top: .35rem; padding: 0 .25rem .35rem; }
+.smp-context-hint-box { margin-top: .35rem; padding: 0 .4rem .35rem; }
 .smp-context-hint-box.hidden { display: none; }
 .smp-context-hint-input {
     width: 100%;

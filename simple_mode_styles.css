@@ -15,6 +15,29 @@
 }
 
 
+/* ── Card de introducción ── */
+
+.smp-intro-card {
+  background: var(--card-bg, #fff);
+  border: 1.5px solid var(--border, #e2e8f0);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+}
+.smp-intro-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text, #1e293b);
+  margin: 0 0 0.35rem;
+}
+.smp-intro-body {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--text-muted, #64748b);
+  margin: 0;
+}
+.dark-mode .smp-intro-card { background: #1e293b; border-color: #334155; }
+
+
 /* ── Card de entrada ── */
 
 .smp-input-card {
@@ -31,10 +54,13 @@
   border-color: var(--accent, #6366f1);
 }
 
-/* Fila top: toggle AUTO */
+/* Fila top: contexto opcional + toggle AUTO */
 .smp-top-row {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .smp-auto-btn {
