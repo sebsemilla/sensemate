@@ -575,6 +575,8 @@ function _initMisionHub() {
 
     if (targetLang === 'en') { _initInglesHub(); return; }
     if (targetLang === 'es' && _ESPANOL_A1_NUEVOS[sourceLang]) { _initEspanolNuevoHub(); return; }
+    // PILOTO — Alemán (es→de), solo gramática + conversación de muestra, pendiente de aprobación de contenido
+    if (targetLang === 'de' && sourceLang === 'es') { _initAlemanPilotHub(); return; }
 
     if (targetLang !== 'es') {
         grid.innerHTML = `
@@ -1024,6 +1026,24 @@ function _initInglesHub() {
         });
 }
 
+// PILOTO — Alemán A1 para hablantes de español (solo gramática + conversación de muestra)
+function _initAlemanPilotHub() {
+    const grid = document.getElementById('misionPathGrid');
+    if (!grid) return;
+
+    grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1.5rem 0">Cargando módulos…</p>';
+
+    const base = `${_API_HOST}/grupos_tarjetas/aleman_a1/`;
+    Promise.all([
+        fetch(base + 'es_a1_gramatica.json').then(r => r.json()),
+        fetch(base + 'es_a1_conversacion.json').then(r => r.json()),
+    ])
+        .then(([gram, conv]) => _renderInglesA1Snake(grid, _interleaveInglesA1(gram, [], conv), { levelKey: 'de_a1_pilot', langLabel: 'Alemán (piloto)' }))
+        .catch(() => {
+            grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1rem 0">No se pudieron cargar los módulos.</p>';
+        });
+}
+
 function _interleaveInglesA1(gram, func, conv) {
     const g = [...gram], f = [...func], c = [...conv];
     const result = [];
@@ -1036,7 +1056,7 @@ function _interleaveInglesA1(gram, func, conv) {
     return result;
 }
 
-function _renderInglesA1Snake(grid, mods) {
+function _renderInglesA1Snake(grid, mods, opts = {}) {
     function trunc(str, max) { return str && str.length > max ? str.slice(0, max) + '…' : (str || ''); }
     function modEmoji(mod) {
         if (mod.type === 'conversation') return '🗣️';
@@ -1045,14 +1065,15 @@ function _renderInglesA1Snake(grid, mods) {
         return '💬';
     }
 
-    const levelKey = 'en_a1';
+    const levelKey = opts.levelKey || 'en_a1';
+    const langLabel = opts.langLabel || 'English';
     const completed = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
     const quizKey   = `quiz_final_${levelKey}`;
     const examKey   = `examen_final_${levelKey}`;
     const midIdx    = Math.floor(mods.length / 2);
 
     const allNodes = [
-        { type: 'milestone',    key: `milestone_${levelKey}`, label: '★ English A1' },
+        { type: 'milestone',    key: `milestone_${levelKey}`, label: `★ ${langLabel} A1` },
         ...mods.slice(0, midIdx).map(m => ({ type: 'mod', key: `mod_${levelKey}_${m.id}`, mod: m })),
         { type: 'mid_quiz',     key: `mid_quiz_${levelKey}`, emoji: '📝', label: 'Quiz A1 ½' },
         ...mods.slice(midIdx).map(m  => ({ type: 'mod', key: `mod_${levelKey}_${m.id}`, mod: m })),
@@ -1113,9 +1134,9 @@ function _renderInglesA1Snake(grid, mods) {
         if (pos >= TOTAL) break;
         const vLen  = Math.min(3, TOTAL - pos);
         const side  = goingRight ? 'right' : 'left';
-        const label = areaCount % 2 === 0 ? 'English A1 — Grammar & Functions' : 'English A1 — Conversation';
+        const label = areaCount % 2 === 0 ? `${langLabel} A1 — Grammar & Functions` : `${langLabel} A1 — Conversation`;
         html += turn(side);
-        html += vblock(side, Array.from({ length: vLen }, (_, i) => pos + i), label, `msnake-area-en-a1-${++areaCount}`);
+        html += vblock(side, Array.from({ length: vLen }, (_, i) => pos + i), label, `msnake-area-${levelKey}-${++areaCount}`);
         pos += vLen;
         if (pos >= TOTAL) break;
         html += turn(side);
