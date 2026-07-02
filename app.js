@@ -2407,6 +2407,11 @@ function showMainMenu() {
                 <h2>📄</h2>
                 <h4>Texto Largo</h4>
                 <p>Pegá una página o más — la IA traduce párrafo a párrafo mientras leés. Pedile que resuma, cambie personajes o reversione la historia.</p>
+            </div>
+            <div class="mode-card mode-card--analyzer" data-mode="analyzer">
+                <h2>🔍</h2>
+                <h4>Evaluador de nivel MCER de texto</h4>
+                <p>Analizá cualquier texto y obtené un diagnóstico MCER (A1&#8211;C2): vocabulario, gramática, registro y recomendaciones pedagógicas.</p>
             </div>` : sectionMinimized('translator', '🔄', 'Traductor')) : ''}
 
             ${showSchool ? `
@@ -2512,6 +2517,7 @@ function showMainMenu() {
             _track('section_open', { section: mode });
             if      (mode === 'simple')    loadSimpleMode();
             else if (mode === 'longtext')  loadLongTextMode();
+            else if (mode === 'analyzer')  loadTextAnalyzer();
             else if (mode === 'school')    requireAuth('Modo Escuela',     loadSchoolMode);
             else if (mode === 'practice')  requireAuth('Modo Práctica',    loadPracticeMenu);
             else if (mode === 'writers') {
@@ -2654,38 +2660,6 @@ function loadLongTextMode() {
 
             <!-- Resultados -->
             <div class="lt-results" id="ltResults"></div>
-
-            <!-- ── Analizador de Nivel MCER ─────────────────── -->
-            <div class="lt-divider"><span>🔍 Analizador de Nivel MCER</span></div>
-
-            <div class="anl-card anl-intro-card">
-                <p class="anl-intro-body">
-                    Pegá un texto (puede ser otro distinto al de arriba) y la IA le hace un diagnóstico de nivel
-                    <strong>A1–C2 según el Marco Común Europeo de Referencia (MCER/CEFR)</strong>: vocabulario, gramática,
-                    registro y recomendaciones pedagógicas. Usa como idioma el que tengas seleccionado como <strong>origen</strong> arriba.
-                </p>
-                <div class="anl-intro-tips">
-                    <span class="anl-tip anl-tip--ok">✅ Ideal: 150–500 palabras</span>
-                    <span class="anl-tip anl-tip--warn">⚠️ Mínimo: 50 palabras — menos da resultados poco confiables</span>
-                </div>
-            </div>
-
-            <div class="lt-card">
-                <label class="lt-label">Texto a analizar</label>
-                <textarea class="lt-text-input" id="anlText" rows="8"
-                    placeholder="Pegá aquí el texto que querés analizar… (artículo, párrafo de libro, subtítulos, material de clase, etc.)"></textarea>
-                <div class="lt-input-foot">
-                    <span class="lt-char-count" id="anlWordCount">0 palabras</span>
-                    <button class="lt-paste-btn" id="anlPasteBtn">📋 Pegar</button>
-                </div>
-            </div>
-
-            <button class="anl-analyze-btn" id="anlAnalyzeBtn" disabled>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-                Analizar texto
-            </button>
-
-            <div id="anlResults"></div>
 
         </div>
     `);
@@ -2865,10 +2839,59 @@ function loadLongTextMode() {
         input.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMsg(); } });
         input.focus();
     }
+}
 
-    // ── Analizador de Nivel MCER ────────────────────────────
+// ─── Evaluador de Nivel MCER de Texto ──────────────────────────
+
+function loadTextAnalyzer() {
+    const t = currentTranslations;
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+
     const _LEVEL_COLORS = { A1:'#10b981', A2:'#34d399', B1:'#3b82f6', B2:'#6366f1', C1:'#8b5cf6', C2:'#ec4899' };
     const _LEVEL_BARS   = { A1:1, A2:2, B1:3, B2:4, C1:5, C2:6 };
+
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="anl-wrap">
+
+            <div class="lt-header">
+                <button class="school-back-btn" id="anlBackBtn">← ${t.volver || 'Volver'}</button>
+                <h2 class="lt-title">🔍 Evaluador de nivel MCER de texto</h2>
+            </div>
+
+            <div class="anl-card anl-intro-card">
+                <p class="anl-intro-body">
+                    Pegá cualquier texto en el idioma que estés estudiando o enseñando y la IA le hace un diagnóstico de nivel
+                    <strong>A1–C2 según el Marco Común Europeo de Referencia (MCER/CEFR)</strong>: vocabulario, gramática,
+                    registro y recomendaciones pedagógicas. Usa como idioma el que tengas seleccionado como <strong>origen</strong> arriba.
+                </p>
+                <div class="anl-intro-tips">
+                    <span class="anl-tip anl-tip--ok">✅ Ideal: 150–500 palabras</span>
+                    <span class="anl-tip anl-tip--warn">⚠️ Mínimo: 50 palabras — menos da resultados poco confiables</span>
+                </div>
+            </div>
+
+            <div class="lt-card">
+                <label class="lt-label">Texto a analizar</label>
+                <textarea class="lt-text-input" id="anlText" rows="10"
+                    placeholder="Pegá aquí el texto que querés analizar… (artículo, párrafo de libro, subtítulos, material de clase, etc.)"></textarea>
+                <div class="lt-input-foot">
+                    <span class="lt-char-count" id="anlWordCount">0 palabras</span>
+                    <button class="lt-paste-btn" id="anlPasteBtn">📋 Pegar</button>
+                </div>
+            </div>
+
+            <button class="anl-analyze-btn" id="anlAnalyzeBtn" disabled>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                Analizar texto
+            </button>
+
+            <div id="anlResults"></div>
+
+        </div>
+    `);
+
+    document.getElementById('anlBackBtn').addEventListener('click', showMainMenu);
 
     const anlTextarea = document.getElementById('anlText');
 

@@ -12765,8 +12765,14 @@ body.dark-mode .app-mode-btn {
 
 
 /* ══════════════════════════════════════════════
-   Analizador de Nivel MCER  (.anl-*)
+   Evaluador de Nivel MCER de Texto  (.anl-*)
    ══════════════════════════════════════════════ */
+
+.anl-wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 1rem 1rem 3rem;
+}
 
 /* Base compartida por todas las tarjetas del analizador — evita duplicar
    background/border/radius/padding en cada variante */
@@ -13053,19 +13059,8 @@ body.dark-mode .app-mode-btn {
     font-size: 0.88rem;
     margin-bottom: 1rem;
 }
-.lt-divider {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin: 2rem 0 0.5rem;
-    color: var(--text-muted, #64748b);
-    font-weight: 600;
-    font-size: 0.95rem;
+.mode-card--analyzer {
+    --card-accent: #0d9488;
+    border-top: 3px solid var(--card-accent);
 }
-.lt-divider::before,
-.lt-divider::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: var(--border, #e2e8f0);
-}
+.mode-card--analyzer:hover { box-shadow: 0 8px 30px rgba(13,148,136,0.18); }
