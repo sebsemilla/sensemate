@@ -484,19 +484,74 @@ function _radioBtn(name, value, label, current) {
         </label>`;
 }
 
+// Los 62 idiomas disponibles en /locales/ (mismas 191 claves en todos, en paridad)
+const _UI_LANGS = [
+    { code: 'ar',    name: 'Árabe',                flag: '🇸🇦' },
+    { code: 'bg',    name: 'Búlgaro',               flag: '🇧🇬' },
+    { code: 'bn',    name: 'Bengalí',                flag: '🇧🇩' },
+    { code: 'ca',    name: 'Catalán',                flag: '🌐' },
+    { code: 'ckb',   name: 'Kurdo (sorani)',         flag: '🌐' },
+    { code: 'cs',    name: 'Checo',                  flag: '🇨🇿' },
+    { code: 'da',    name: 'Danés',                  flag: '🇩🇰' },
+    { code: 'de',    name: 'Alemán',                 flag: '🇩🇪' },
+    { code: 'el',    name: 'Griego',                 flag: '🇬🇷' },
+    { code: 'en',    name: 'Inglés',                 flag: '🇬🇧' },
+    { code: 'es',    name: 'Español',                flag: '🇪🇸' },
+    { code: 'eu',    name: 'Euskera',                flag: '🌐' },
+    { code: 'fa',    name: 'Persa',                  flag: '🇮🇷' },
+    { code: 'fr',    name: 'Francés',                flag: '🇫🇷' },
+    { code: 'gn',    name: 'Guaraní',                flag: '🇵🇾' },
+    { code: 'haw',   name: 'Hawaiano',               flag: '🌐' },
+    { code: 'he',    name: 'Hebreo',                 flag: '🇮🇱' },
+    { code: 'hi',    name: 'Hindi',                  flag: '🇮🇳' },
+    { code: 'hr',    name: 'Croata',                 flag: '🇭🇷' },
+    { code: 'ht',    name: 'Criollo haitiano',        flag: '🇭🇹' },
+    { code: 'hu',    name: 'Húngaro',                flag: '🇭🇺' },
+    { code: 'hy',    name: 'Armenio',                flag: '🇦🇲' },
+    { code: 'id',    name: 'Indonesio',               flag: '🇮🇩' },
+    { code: 'is',    name: 'Islandés',                flag: '🇮🇸' },
+    { code: 'it',    name: 'Italiano',                flag: '🇮🇹' },
+    { code: 'ja',    name: 'Japonés',                 flag: '🇯🇵' },
+    { code: 'ko',    name: 'Coreano',                 flag: '🇰🇷' },
+    { code: 'la',    name: 'Latín',                   flag: '🌐' },
+    { code: 'lb',    name: 'Luxemburgués',            flag: '🇱🇺' },
+    { code: 'mg',    name: 'Malgache',                flag: '🇲🇬' },
+    { code: 'mi',    name: 'Maorí',                   flag: '🌐' },
+    { code: 'ml',    name: 'Malayalam',                flag: '🇮🇳' },
+    { code: 'mn',    name: 'Mongol',                  flag: '🇲🇳' },
+    { code: 'ms',    name: 'Malayo',                  flag: '🇲🇾' },
+    { code: 'ne',    name: 'Nepalí',                  flag: '🇳🇵' },
+    { code: 'nl',    name: 'Neerlandés',              flag: '🇳🇱' },
+    { code: 'no',    name: 'Noruego',                 flag: '🇳🇴' },
+    { code: 'pa',    name: 'Panyabí',                 flag: '🇮🇳' },
+    { code: 'pl',    name: 'Polaco',                  flag: '🇵🇱' },
+    { code: 'ps',    name: 'Pastún',                  flag: '🇦🇫' },
+    { code: 'pt',    name: 'Portugués',                flag: '🇧🇷' },
+    { code: 'ro',    name: 'Rumano',                  flag: '🇷🇴' },
+    { code: 'ru',    name: 'Ruso',                    flag: '🇷🇺' },
+    { code: 'sa',    name: 'Sánscrito',                flag: '🌐' },
+    { code: 'sk',    name: 'Eslovaco',                flag: '🇸🇰' },
+    { code: 'sl',    name: 'Esloveno',                flag: '🇸🇮' },
+    { code: 'so',    name: 'Somalí',                  flag: '🇸🇴' },
+    { code: 'sr',    name: 'Serbio',                  flag: '🇷🇸' },
+    { code: 'sv',    name: 'Sueco',                   flag: '🇸🇪' },
+    { code: 'sw',    name: 'Suajili',                 flag: '🇰🇪' },
+    { code: 'ta',    name: 'Tamil',                   flag: '🇮🇳' },
+    { code: 'th',    name: 'Tailandés',                flag: '🇹🇭' },
+    { code: 'tk',    name: 'Turcomano',               flag: '🇹🇲' },
+    { code: 'tl',    name: 'Filipino',                flag: '🇵🇭' },
+    { code: 'tr',    name: 'Turco',                   flag: '🇹🇷' },
+    { code: 'uk',    name: 'Ucraniano',               flag: '🇺🇦' },
+    { code: 'ur',    name: 'Urdu',                    flag: '🇵🇰' },
+    { code: 'vi',    name: 'Vietnamita',               flag: '🇻🇳' },
+    { code: 'zh',    name: 'Chino',                   flag: '🇨🇳' },
+    { code: 'zh-TW', name: 'Chino (Taiwán)',           flag: '🇹🇼' },
+];
+
 function _langOptions(current) {
-    const langs = [
-        { code: 'es', name: '🇪🇸 Español' },
-        { code: 'en', name: '🇬🇧 Inglés' },
-        { code: 'fr', name: '🇫🇷 Francés' },
-        { code: 'de', name: '🇩🇪 Alemán' },
-        { code: 'it', name: '🇮🇹 Italiano' },
-        { code: 'pt', name: '🇧🇷 Portugués' },
-        { code: 'zh', name: '🇨🇳 Chino' },
-        { code: 'ja', name: '🇯🇵 Japonés' },
-    ];
-    return langs.map(l =>
-        `<option value="${l.code}" ${l.code === current ? 'selected' : ''}>${l.name}</option>`
+    const sorted = [..._UI_LANGS].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+    return sorted.map(l =>
+        `<option value="${l.code}" ${l.code === current ? 'selected' : ''}>${l.flag} ${l.name}</option>`
     ).join('');
 }
 

@@ -2426,14 +2426,14 @@ function showMainMenu() {
             </div>
             <div class="mode-card mode-card--longtext" data-mode="longtext">
                 <h2>📄</h2>
-                <h4>Texto Largo</h4>
-                <p>Pegá una página o más — la IA traduce párrafo a párrafo mientras leés. Pedile que resuma, cambie personajes o reversione la historia.</p>
+                <h4>${t.longtext_title}</h4>
+                <p>${t.longtext_card_desc}</p>
             </div>
             <div class="mode-card mode-card--analyzer" data-mode="analyzer">
                 <h2>🔍</h2>
-                <h4>Evaluador de nivel MCER de texto</h4>
-                <p>Analizá cualquier texto y obtené un diagnóstico MCER (A1&#8211;C2): vocabulario, gramática, registro y recomendaciones pedagógicas.</p>
-            </div>` : sectionMinimized('translator', '🔄', 'Traductor')) : ''}
+                <h4>${t.analyzer_title}</h4>
+                <p>${t.analyzer_card_desc}</p>
+            </div>` : sectionMinimized('translator', '🔄', t.traductor_label)) : ''}
 
             ${showSchool ? `
             <div class="mision-hub" id="misionHub">
@@ -2636,47 +2636,47 @@ function loadLongTextMode() {
 
             <div class="lt-header">
                 <button class="school-back-btn" id="ltBackBtn">← ${t.volver || 'Volver'}</button>
-                <h2 class="lt-title">📄 Texto Largo</h2>
+                <h2 class="lt-title">📄 ${t.longtext_title}</h2>
             </div>
 
             <!-- Instrucción para la IA -->
             <div class="lt-card lt-instruction-card">
                 <label class="lt-label">
-                    🧠 ¿Qué querés que haga la IA con cada párrafo?
-                    <span class="lt-optional">opcional — si está vacío solo traduce</span>
+                    🧠 ${t.longtext_instruction_label}
+                    <span class="lt-optional">${t.longtext_instruction_optional}</span>
                 </label>
                 <div class="lt-instruction-examples">
-                    <button class="lt-example-chip" data-val="Hacé un resumen breve de cada párrafo">📝 Resumir</button>
-                    <button class="lt-example-chip" data-val="Cambiá los nombres de los personajes por nombres latinoamericanos">🎭 Cambiar personajes</button>
-                    <button class="lt-example-chip" data-val="Reescribí la historia desde el punto de vista del antagonista">🔄 Cambiar perspectiva</button>
-                    <button class="lt-example-chip" data-val="Modernizá el lenguaje a un estilo informal y contemporáneo">✨ Modernizar estilo</button>
+                    <button class="lt-example-chip" data-val="${t.longtext_chip_summarize_prompt}">📝 ${t.longtext_chip_summarize}</button>
+                    <button class="lt-example-chip" data-val="${t.longtext_chip_characters_prompt}">🎭 ${t.longtext_chip_characters}</button>
+                    <button class="lt-example-chip" data-val="${t.longtext_chip_perspective_prompt}">🔄 ${t.longtext_chip_perspective}</button>
+                    <button class="lt-example-chip" data-val="${t.longtext_chip_modernize_prompt}">✨ ${t.longtext_chip_modernize}</button>
                 </div>
                 <textarea class="lt-instruction-input" id="ltInstruction" rows="2"
-                    placeholder="Ej: traducí pero cambiá los nombres de los personajes, o hacé un resumen de cada párrafo..."></textarea>
+                    placeholder="${t.longtext_instruction_placeholder}"></textarea>
             </div>
 
             <!-- Texto de entrada -->
             <div class="lt-card">
-                <label class="lt-label">📖 Pegá el texto a traducir</label>
+                <label class="lt-label">📖 ${t.longtext_source_label}</label>
                 <textarea class="lt-text-input" id="ltSourceText" rows="12"
-                    placeholder="Pegá aquí tu texto (una o dos páginas de libro, artículo, historia...)"></textarea>
+                    placeholder="${t.longtext_source_placeholder}"></textarea>
                 <div class="lt-input-foot">
-                    <span class="lt-char-count" id="ltCharCount">0 caracteres · 0 párrafos</span>
-                    <button class="lt-paste-btn" id="ltPasteBtn">📋 Pegar</button>
+                    <span class="lt-char-count" id="ltCharCount">0 ${t.chars_label} · 0 ${t.paragraph_plural}</span>
+                    <button class="lt-paste-btn" id="ltPasteBtn">📋 ${t.pegar}</button>
                 </div>
             </div>
 
             <!-- Botón procesar -->
             <button class="lt-process-btn" id="ltProcessBtn" disabled>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                Procesar texto
+                ${t.longtext_process_btn}
             </button>
 
             <!-- Progreso -->
             <div class="lt-progress hidden" id="ltProgress">
                 <div class="lt-progress-bar"><div class="lt-progress-fill" id="ltProgressFill"></div></div>
-                <span class="lt-progress-label" id="ltProgressLabel">Procesando párrafo 1...</span>
-                <button class="lt-stop-btn" id="ltStopBtn">⏹ Detener</button>
+                <span class="lt-progress-label" id="ltProgressLabel">${t.longtext_progress_initial}</span>
+                <button class="lt-stop-btn" id="ltStopBtn">⏹ ${t.longtext_stop_btn}</button>
             </div>
 
             <!-- Resultados -->
@@ -2714,7 +2714,7 @@ function loadLongTextMode() {
         const paras = _ltSplitParagraphs(text).length;
         const count = text.length;
         const el    = document.getElementById('ltCharCount');
-        if (el) el.textContent = `${count.toLocaleString()} caracteres · ${paras} párrafo${paras !== 1 ? 's' : ''}`;
+        if (el) el.textContent = `${count.toLocaleString()} ${t.chars_label} · ${paras} ${paras === 1 ? t.paragraph_singular : t.paragraph_plural}`;
         const btn = document.getElementById('ltProcessBtn');
         if (btn) btn.disabled = text.trim().length < 20;
     }
@@ -2746,7 +2746,7 @@ function loadLongTextMode() {
 
             const pct = Math.round((i / paragraphs.length) * 100);
             fill.style.width  = pct + '%';
-            label.textContent = `Traduciendo párrafo ${i + 1} de ${paragraphs.length}…`;
+            label.textContent = t.longtext_progress_translating.replace('{current}', i + 1).replace('{total}', paragraphs.length);
 
             // Placeholder card con spinner
             const cardId = `ltCard_${i}`;
@@ -2779,7 +2779,7 @@ function loadLongTextMode() {
                 card.querySelector('.lt-para-result').outerHTML = `
                     <div class="lt-para-result">${escapeHtml(result)}</div>
                     <div class="lt-para-actions">
-                        <button class="lt-chat-btn" data-card="${cardId}">💬 Preguntarle a la IA sobre este párrafo</button>
+                        <button class="lt-chat-btn" data-card="${cardId}">💬 ${t.longtext_ask_ai_btn}</button>
                     </div>
                     <div class="lt-para-chat hidden" id="${cardId}_chat"></div>
                 `;
@@ -2795,14 +2795,14 @@ function loadLongTextMode() {
 
             } catch (e) {
                 document.getElementById(cardId).querySelector('.lt-para-result').innerHTML =
-                    `<span style="color:#ef4444">⚠️ Error de red — reintentá más tarde</span>`;
+                    `<span style="color:#ef4444">⚠️ ${t.longtext_error_paragraph}</span>`;
             }
         }
 
         fill.style.width  = '100%';
         label.textContent = _ltStopped
-            ? `⏹ Detenido en párrafo ${Math.min(document.querySelectorAll('.lt-para-card').length, paragraphs.length)} de ${paragraphs.length}`
-            : `✅ ${paragraphs.length} párrafo${paragraphs.length !== 1 ? 's' : ''} procesado${paragraphs.length !== 1 ? 's' : ''}`;
+            ? `⏹ ` + t.longtext_progress_stopped.replace('{current}', Math.min(document.querySelectorAll('.lt-para-card').length, paragraphs.length)).replace('{total}', paragraphs.length)
+            : `✅ ${paragraphs.length} ${paragraphs.length === 1 ? t.paragraph_singular : t.paragraph_plural} ${paragraphs.length === 1 ? t.processed_singular : t.processed_plural}`;
         document.getElementById('ltStopBtn').classList.add('hidden');
         document.getElementById('ltProcessBtn').classList.remove('hidden');
     }
@@ -2814,7 +2814,7 @@ function loadLongTextMode() {
             <div class="lt-chat-messages" id="${cardId}_msgs"></div>
             <div class="lt-chat-input-row">
                 <textarea class="lt-chat-input" id="${cardId}_input" rows="2"
-                    placeholder="Preguntá sobre este párrafo: vocabulario, gramática, decisiones de traducción..."></textarea>
+                    placeholder="${t.longtext_chat_placeholder}"></textarea>
                 <button class="lt-chat-send" id="${cardId}_send">→</button>
             </div>
         `;
@@ -2850,7 +2850,7 @@ function loadLongTextMode() {
                 msgs.push({ role: 'assistant', content: reply });
                 document.getElementById(loadId).textContent = reply;
             } catch {
-                document.getElementById(loadId).textContent = '⚠️ Error de red';
+                document.getElementById(loadId).textContent = '⚠️ ' + t.error_red;
             }
             send.disabled = false;
             msgsEl.scrollTop = msgsEl.scrollHeight;
@@ -2877,34 +2877,30 @@ function loadTextAnalyzer() {
 
             <div class="lt-header">
                 <button class="school-back-btn" id="anlBackBtn">← ${t.volver || 'Volver'}</button>
-                <h2 class="lt-title">🔍 Evaluador de nivel MCER de texto</h2>
+                <h2 class="lt-title">🔍 ${t.analyzer_title}</h2>
             </div>
 
             <div class="anl-card anl-intro-card">
-                <p class="anl-intro-body">
-                    Pegá cualquier texto en el idioma que estés estudiando o enseñando y la IA le hace un diagnóstico de nivel
-                    <strong>A1–C2 según el Marco Común Europeo de Referencia (MCER/CEFR)</strong>: vocabulario, gramática,
-                    registro y recomendaciones pedagógicas. Usa como idioma el que tengas seleccionado como <strong>origen</strong> arriba.
-                </p>
+                <p class="anl-intro-body">${t.analyzer_intro_body}</p>
                 <div class="anl-intro-tips">
-                    <span class="anl-tip anl-tip--ok">✅ Ideal: 150–500 palabras</span>
-                    <span class="anl-tip anl-tip--warn">⚠️ Mínimo: 50 palabras — menos da resultados poco confiables</span>
+                    <span class="anl-tip anl-tip--ok">✅ ${t.analyzer_tip_ideal}</span>
+                    <span class="anl-tip anl-tip--warn">⚠️ ${t.analyzer_tip_min}</span>
                 </div>
             </div>
 
             <div class="lt-card">
-                <label class="lt-label">Texto a analizar</label>
+                <label class="lt-label">${t.analyzer_text_label}</label>
                 <textarea class="lt-text-input" id="anlText" rows="10"
-                    placeholder="Pegá aquí el texto que querés analizar… (artículo, párrafo de libro, subtítulos, material de clase, etc.)"></textarea>
+                    placeholder="${t.analyzer_text_placeholder}"></textarea>
                 <div class="lt-input-foot">
-                    <span class="lt-char-count" id="anlWordCount">0 palabras</span>
-                    <button class="lt-paste-btn" id="anlPasteBtn">📋 Pegar</button>
+                    <span class="lt-char-count" id="anlWordCount">0 ${t.words}</span>
+                    <button class="lt-paste-btn" id="anlPasteBtn">📋 ${t.pegar}</button>
                 </div>
             </div>
 
             <button class="anl-analyze-btn" id="anlAnalyzeBtn" disabled>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-                Analizar texto
+                ${t.analyzer_analyze_btn}
             </button>
 
             <div id="anlResults"></div>
@@ -2930,7 +2926,7 @@ function loadTextAnalyzer() {
         const words = anlTextarea.value.trim().split(/\s+/).filter(Boolean).length;
         const el    = document.getElementById('anlWordCount');
         if (el) {
-            el.textContent = `${words} palabra${words !== 1 ? 's' : ''}`;
+            el.textContent = `${words} ${words === 1 ? t.word_singular : t.words}`;
             el.className   = 'lt-char-count' + (words < 50 ? ' anl-count--warn' : words >= 150 ? ' anl-count--ok' : '');
         }
         const btn = document.getElementById('anlAnalyzeBtn');
@@ -2944,7 +2940,7 @@ function loadTextAnalyzer() {
         const results = document.getElementById('anlResults');
 
         btn.disabled = true;
-        btn.innerHTML = `<div class="school-dots"><span></span><span></span><span></span></div> Analizando…`;
+        btn.innerHTML = `<div class="school-dots"><span></span><span></span><span></span></div> ${t.analyzer_analyzing}`;
         results.innerHTML = '';
 
         try {
@@ -2955,7 +2951,7 @@ function loadTextAnalyzer() {
             const data = await r.json();
 
             if (!r.ok || !data.analysis) {
-                results.innerHTML = `<div class="anl-error">⚠️ ${escapeHtml(data.error || 'Error al analizar')}</div>`;
+                results.innerHTML = `<div class="anl-error">⚠️ ${escapeHtml(data.error || t.analyzer_error_generic)}</div>`;
                 return;
             }
 
@@ -2970,7 +2966,7 @@ function loadTextAnalyzer() {
                         <div class="anl-level-badge" style="background:${levelColor}">${escapeHtml(a.level_overall || '?')}</div>
                         <div>
                             <div class="anl-level-name">${escapeHtml(a.level_label || '')}</div>
-                            <div class="anl-confidence">Confianza del diagnóstico: <strong>${escapeHtml(a.confidence || '—')}</strong></div>
+                            <div class="anl-confidence">${t.analyzer_confidence_label} <strong>${escapeHtml(a.confidence || '—')}</strong></div>
                         </div>
                     </div>
                     <div class="anl-level-bar-wrap">
@@ -2985,10 +2981,10 @@ function loadTextAnalyzer() {
                 <!-- Dimensiones -->
                 <div class="anl-dimensions">
                     ${[
-                        { key:'vocabulary', icon:'📖', label:'Vocabulario' },
-                        { key:'grammar',    icon:'🔤', label:'Gramática'   },
-                        { key:'syntax',     icon:'📐', label:'Sintaxis'    },
-                        { key:'register',   icon:'🎭', label:'Registro'    },
+                        { key:'vocabulary', icon:'📖', label:t.analyzer_dim_vocabulary },
+                        { key:'grammar',    icon:'🔤', label:t.analyzer_dim_grammar   },
+                        { key:'syntax',     icon:'📐', label:t.analyzer_dim_syntax    },
+                        { key:'register',   icon:'🎭', label:t.analyzer_dim_register  },
                     ].map(d => {
                         const dim = a.dimensions?.[d.key] || {};
                         const col = _LEVEL_COLORS[dim.level] || '#94a3b8';
@@ -3013,7 +3009,7 @@ function loadTextAnalyzer() {
 
                     ${a.register_tags?.length ? `
                     <div class="anl-card anl-info-card">
-                        <div class="anl-info-title">🎭 Registro</div>
+                        <div class="anl-info-title">🎭 ${t.analyzer_dim_register}</div>
                         <div class="anl-tags">
                             ${a.register_tags.map(tag => `<span class="anl-tag">${escapeHtml(tag)}</span>`).join('')}
                         </div>
@@ -3021,7 +3017,7 @@ function loadTextAnalyzer() {
 
                     ${a.grammar_structures?.length ? `
                     <div class="anl-card anl-info-card">
-                        <div class="anl-info-title">🔤 Estructuras gramaticales presentes</div>
+                        <div class="anl-info-title">🔤 ${t.analyzer_grammar_structures_title}</div>
                         <div class="anl-tags">
                             ${a.grammar_structures.map(s => `<span class="anl-tag anl-tag--grammar">${escapeHtml(s)}</span>`).join('')}
                         </div>
@@ -3029,17 +3025,17 @@ function loadTextAnalyzer() {
 
                     ${a.hard_words?.length ? `
                     <div class="anl-card anl-info-card">
-                        <div class="anl-info-title">💬 Palabras de mayor dificultad</div>
+                        <div class="anl-info-title">💬 ${t.analyzer_hard_words_title}</div>
                         <div class="anl-tags">
                             ${a.hard_words.map(w => `<span class="anl-tag anl-tag--word">${escapeHtml(w)}</span>`).join('')}
                         </div>
                     </div>` : ''}
 
                     <div class="anl-card anl-info-card">
-                        <div class="anl-info-title">📊 Estadísticas del texto</div>
+                        <div class="anl-info-title">📊 ${t.analyzer_stats_title}</div>
                         <div class="anl-stats-grid">
-                            <div class="anl-stat"><span class="anl-stat-num">${a.word_count ?? '—'}</span><span class="anl-stat-lbl">palabras</span></div>
-                            <div class="anl-stat"><span class="anl-stat-num">${a.avg_sentence_length ?? '—'}</span><span class="anl-stat-lbl">pal./oración</span></div>
+                            <div class="anl-stat"><span class="anl-stat-num">${a.word_count ?? '—'}</span><span class="anl-stat-lbl">${t.words}</span></div>
+                            <div class="anl-stat"><span class="anl-stat-num">${a.avg_sentence_length ?? '—'}</span><span class="anl-stat-lbl">${t.analyzer_stat_words_per_sentence}</span></div>
                         </div>
                     </div>
 
@@ -3048,24 +3044,24 @@ function loadTextAnalyzer() {
                 <!-- Recomendaciones pedagógicas -->
                 ${a.pedagogical ? `
                 <div class="anl-pedagogy-card">
-                    <div class="anl-info-title">🎓 Recomendación pedagógica</div>
+                    <div class="anl-info-title">🎓 ${t.analyzer_pedagogy_title}</div>
                     <div class="anl-pedagogy-row">
                         <div class="anl-pedagogy-item">
-                            <span class="anl-ped-label">Apto para</span>
+                            <span class="anl-ped-label">${t.analyzer_suitable_for_label}</span>
                             <span class="anl-ped-value">${escapeHtml(a.pedagogical.suitable_for || '—')}</span>
                         </div>
                         <div class="anl-pedagogy-item">
-                            <span class="anl-ped-label">Posibles dificultades</span>
+                            <span class="anl-ped-label">${t.analyzer_challenges_label}</span>
                             <span class="anl-ped-value">${escapeHtml(a.pedagogical.challenges || '—')}</span>
                         </div>
                         <div class="anl-pedagogy-item anl-pedagogy-item--full">
-                            <span class="anl-ped-label">Sugerencias para el aula</span>
+                            <span class="anl-ped-label">${t.analyzer_suggestions_label}</span>
                             <span class="anl-ped-value">${escapeHtml(a.pedagogical.suggestions || '—')}</span>
                         </div>
                     </div>
                 </div>` : ''}
 
-                <button class="anl-reset-btn" id="anlResetBtn">← Analizar otro texto</button>
+                <button class="anl-reset-btn" id="anlResetBtn">← ${t.analyzer_reset_btn}</button>
             `;
 
             results.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -3078,10 +3074,10 @@ function loadTextAnalyzer() {
             });
 
         } catch (e) {
-            results.innerHTML = `<div class="anl-error">⚠️ Error de red. Intentá de nuevo.</div>`;
+            results.innerHTML = `<div class="anl-error">⚠️ ${t.analyzer_error_network}</div>`;
         } finally {
             btn.disabled = false;
-            btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg> Analizar texto`;
+            btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg> ${t.analyzer_analyze_btn}`;
         }
     });
 }
@@ -3104,14 +3100,8 @@ function loadSimpleMode() {
 
             <!-- Introducción -->
             <div class="smp-intro-card">
-                <p class="smp-intro-title">🔄 Traductor con IA</p>
-                <p class="smp-intro-body">
-                    Escribí o pegá una frase y obtené 3 traducciones a la vez —
-                    <strong>formal</strong>, <strong>informal</strong> y <strong>neutral</strong> — según el contexto,
-                    junto con análisis léxico, sinónimos y una IA para resolver dudas sobre la traducción.
-                    Activá <strong>AUTO</strong> para traducir mientras escribís, o agregá contexto (ej: "carta formal",
-                    "chat con amigos") para resultados más precisos.
-                </p>
+                <p class="smp-intro-title">🔄 ${t.smp_intro_title}</p>
+                <p class="smp-intro-body">${t.smp_intro_body}</p>
             </div>
 
             <!-- Área de entrada -->
@@ -3121,20 +3111,20 @@ function loadSimpleMode() {
                 <div class="smp-top-row">
                     <button class="smp-context-hint-toggle" id="smpContextHintToggle">
                         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-                        ${t.insertar_contexto || 'Insertar contexto'}
-                        <span class="smp-context-hint-optional">${t.opcional || 'opcional'}</span>
+                        ${t.insertar_contexto}
+                        <span class="smp-context-hint-optional">${t.opcional}</span>
                         <svg class="smp-context-hint-arrow" width="11" height="11" viewBox="0 0 12 12"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </button>
                     <button class="smp-auto-btn" id="smpAutoBtn" data-on="false">
                         <span class="smp-auto-dot"></span>
-                        AUTO
+                        ${t.auto_label}
                     </button>
                 </div>
 
                 <!-- Campo de contexto opcional (se expande debajo de la fila superior) -->
                 <div class="smp-context-hint-box hidden" id="smpContextHintBox">
                     <textarea class="smp-context-hint-input" id="smpContextHint" rows="2"
-                        placeholder="${t.contexto_placeholder || 'Ej: carta formal de negocios, conversación entre amigos, correo a un profesor...'}"></textarea>
+                        placeholder="${t.contexto_placeholder}"></textarea>
                 </div>
 
                 <!-- Textarea + mic + clear -->
@@ -3142,15 +3132,15 @@ function loadSimpleMode() {
                     <textarea class="smp-textarea" id="sourceText" rows="3"
                         placeholder="${t.escribe_o_pega || 'Escribe o pega tu frase aquí...'}"></textarea>
                     <div class="smp-textarea-foot">
-                        <button class="smp-paste-btn" id="smpPasteBtn" title="Pegar">
+                        <button class="smp-paste-btn" id="smpPasteBtn" title="${t.pegar}">
                             <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
                                 <rect x="8" y="2" width="8" height="4" rx="1"/>
                             </svg>
-                            Pegar
+                            ${t.pegar}
                         </button>
-                        <button class="smp-mic-btn" id="smpMicBtn" title="Dictar texto">
+                        <button class="smp-mic-btn" id="smpMicBtn" title="${t.dictar_texto_tooltip}">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <rect x="9" y="2" width="6" height="12" rx="3"/>
@@ -3160,7 +3150,7 @@ function loadSimpleMode() {
                             </svg>
                         </button>
                         <span class="smp-char-count" id="smpCharCount">0</span>
-                        <button class="smp-clear-btn hidden" id="smpClearBtn" title="Limpiar">
+                        <button class="smp-clear-btn hidden" id="smpClearBtn" title="${t.limpiar_tooltip}">
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
                                 <line x1="18" y1="6" x2="6" y2="18"/>
@@ -3175,7 +3165,7 @@ function loadSimpleMode() {
             <div class="smp-controls-bar">
                 <div class="smp-controls-left">
                     <button class="school-back-btn" id="backMenuBtn">← ${t.volver || 'Volver'}</button>
-                    <button class="smp-extra-btn smp-syn-inline-btn hidden" id="smpSynonymsBtn">📚 Ver Sinónimos</button>
+                    <button class="smp-extra-btn smp-syn-inline-btn hidden" id="smpSynonymsBtn">📚 ${t.ver_sinonimos_btn}</button>
                 </div>
                 <div class="smp-controls-right">
                     <select class="school-level-select" id="speedSelect" title="${t.speed_label || 'Velocidad'}">
@@ -3228,14 +3218,14 @@ function loadSimpleMode() {
                                 <div class="smp-result-actions">
                                     <!-- Audio -->
                                     <button class="smp-action-btn smp-audio-btn"
-                                            data-target="${v.id}" title="Escuchar">
+                                            data-target="${v.id}" title="${t.escuchar_tooltip}">
                                         <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
                                             <polygon points="5 3 19 12 5 21 5 3"/>
                                         </svg>
                                     </button>
                                     <!-- Copiar -->
                                     <button class="smp-action-btn smp-copy-btn"
-                                            data-target="${v.id}" title="Copiar">
+                                            data-target="${v.id}" title="${t.copiar_tooltip}">
                                         <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
                                              stroke="currentColor" stroke-width="2" stroke-linecap="round">
                                             <rect x="9" y="9" width="13" height="13" rx="2"/>
@@ -3244,7 +3234,7 @@ function loadSimpleMode() {
                                     </button>
                                     <!-- Guardar flashcard -->
                                     <button class="smp-action-btn smp-flash-btn"
-                                            data-target="${v.id}" title="Guardar flashcard">
+                                            data-target="${v.id}" title="${t.guardar_flashcard_tooltip}">
                                         <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
                                              stroke="currentColor" stroke-width="2" stroke-linecap="round">
                                             <rect x="2" y="3" width="20" height="14" rx="2"/>
@@ -3265,10 +3255,10 @@ function loadSimpleMode() {
                     <div class="smp-premium-gate hidden" id="smpPremiumGate">
                         <span class="smp-gate-lock">🔒</span>
                         <div class="smp-gate-text">
-                            <strong>Análisis léxico · Ampliar traducciones</strong>
-                            <span>Disponibles en plan Premium</span>
+                            <strong>${t.premium_gate_title}</strong>
+                            <span>${t.premium_gate_subtitle}</span>
                         </div>
-                        <button class="smp-gate-btn" id="smpGateBtn">Ver planes</button>
+                        <button class="smp-gate-btn" id="smpGateBtn">${t.ver_planes_btn}</button>
                     </div>
 
                     <!-- Ampliar traducciones -->
@@ -3276,7 +3266,7 @@ function loadSimpleMode() {
                         <div class="smp-ampliar-trigger">
                             <button class="smp-ampliar-btn" id="smpAmpiarBtn">
                                 <span class="smp-ampliar-icon">⊕</span>
-                                Ampliar traducciones
+                                ${t.ampliar_traducciones_btn}
                             </button>
                         </div>
                         <div class="smp-ampliar-panel hidden" id="smpAmpiarPanel"></div>
@@ -3285,12 +3275,12 @@ function loadSimpleMode() {
                     <!-- IA in Context -->
                     <div class="smp-extra-actions hidden" id="smpExtraActions">
                         <div class="smp-extra-btns">
-                            <button class="smp-extra-btn smp-extra-btn--ia" id="smpContextBtn">💬 IA in Context</button>
+                            <button class="smp-extra-btn smp-extra-btn--ia" id="smpContextBtn">💬 ${t.ia_in_context_btn}</button>
                         </div>
                         <div class="smp-context-area hidden" id="smpContextArea">
                             <div class="smp-context-input-row">
                                 <textarea class="smp-context-input" id="smpContextInput"
-                                    placeholder="Escribe aquí tu pregunta" rows="2"></textarea>
+                                    placeholder="${t.escribe_tu_pregunta_placeholder}" rows="2"></textarea>
                                 <button class="smp-context-send-btn" id="smpContextSendBtn">→</button>
                             </div>
                             <div class="smp-context-response hidden" id="smpContextResponse"></div>
@@ -3443,9 +3433,9 @@ function loadSimpleMode() {
             });
             if (res.status === 429) {
                 const data = await res.json().catch(() => ({}));
-                throw new Error(data.error || '⏱ Demasiadas traducciones. Esperá unos minutos.');
+                throw new Error(data.error || '⏱ ' + t.rate_limit_error);
             }
-            if (!res.ok) throw new Error(`Error ${res.status} — intentá de nuevo.`);
+            if (!res.ok) throw new Error(`Error ${res.status} — ${t.translate_error_retry}`);
             const data = await res.json();
             const obj  = JSON.parse(data.translation);
 
@@ -3499,7 +3489,7 @@ function loadSimpleMode() {
                         <div class="smp-ampliar-translation">${escapeHtml(c.translation)}</div>
                     </div>`).join('');
                 ampiarPanel.classList.add('hidden');
-                ampiarBtn.innerHTML = '<span class="smp-ampliar-icon">⊕</span> Ampliar traducciones';
+                ampiarBtn.innerHTML = `<span class="smp-ampliar-icon">⊕</span> ${t.ampliar_traducciones_btn}`;
                 ampiarWrap.classList.remove('hidden');
             } else {
                 ampiarWrap.classList.add('hidden');
@@ -3535,8 +3525,8 @@ function loadSimpleMode() {
         const btn   = document.getElementById('smpAmpiarBtn');
         const open  = panel.classList.toggle('hidden');
         btn.innerHTML = open
-            ? '<span class="smp-ampliar-icon">⊕</span> Ampliar traducciones'
-            : '<span class="smp-ampliar-icon">⊖</span> Ocultar contextos';
+            ? `<span class="smp-ampliar-icon">⊕</span> ${t.ampliar_traducciones_btn}`
+            : `<span class="smp-ampliar-icon">⊖</span> ${t.ocultar_contextos_btn}`;
     });
 
     // ── Botón Pegar ───────────────────────────────────────────
@@ -3548,7 +3538,7 @@ function loadSimpleMode() {
             clearBtn.classList.toggle('hidden', text.length === 0);
             sourceArea.focus();
         } catch {
-            showToast('No se pudo acceder al portapapeles');
+            showToast(t.no_clipboard_toast);
         }
     });
 
@@ -3558,7 +3548,7 @@ function loadSimpleMode() {
         const resultEl = document.getElementById('smpSynonymsResult');
         if (!_lastTranslated) return;
         btn.disabled   = true;
-        btn.textContent = 'Cargando…';
+        btn.textContent = t.cargando;
         try {
             const res  = await fetch(`${_API_HOST}/synonyms`, {
                 method: 'POST',
@@ -3580,10 +3570,10 @@ function loadSimpleMode() {
                 </div>`;
             resultEl.classList.remove('hidden');
         } catch {
-            showToast('❌ No se pudieron obtener sinónimos');
+            showToast('❌ ' + t.sinonimos_error_toast);
         } finally {
             btn.disabled    = false;
-            btn.textContent = '📚 Ver Sinónimos';
+            btn.textContent = `📚 ${t.ver_sinonimos_btn}`;
         }
     });
 
@@ -3620,7 +3610,7 @@ function loadSimpleMode() {
             respEl.innerHTML = `<p class="smp-ctx-reply">${escapeHtml(data.reply)}</p>`;
         } catch {
             _ctxMessages.pop();
-            respEl.innerHTML = `<p class="smp-ctx-reply smp-ctx-reply--err">❌ Error al obtener respuesta</p>`;
+            respEl.innerHTML = `<p class="smp-ctx-reply smp-ctx-reply--err">❌ ${t.context_error_toast}</p>`;
         } finally {
             sendBtn.disabled = false;
         }
@@ -3679,7 +3669,7 @@ function loadSimpleMode() {
                 const orig = btn.innerHTML;
                 btn.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>`;
                 setTimeout(() => { btn.innerHTML = orig; }, 1500);
-                showToast('📇 Flashcard guardada');
+                showToast('📇 ' + t.flashcard_guardada_toast);
             };
         });
     }
