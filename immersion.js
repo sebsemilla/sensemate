@@ -66,11 +66,11 @@ function _parseSRT(text) {
 // TRADUCCIÓN BATCH DE SUBTÍTULOS SRT
 // ─────────────────────────────────────────────
 
-async function _translateSrtBatch(dialogue, overlay, srcLang) {
-  const btn      = overlay.querySelector('#immTranslateSrtBtn');
-  const progress = overlay.querySelector('#immSrtProgress');
-  const fill     = overlay.querySelector('#immSrtFill');
-  const label    = overlay.querySelector('#immSrtProgressLabel');
+async function _translateSrtBatch(dialogue, overlay, srcLang, destLang, ids = {}) {
+  const btn      = overlay.querySelector(ids.btn      || '#immTranslateSrtBtn');
+  const progress = overlay.querySelector(ids.progress || '#immSrtProgress');
+  const fill     = overlay.querySelector(ids.fill     || '#immSrtFill');
+  const label    = overlay.querySelector(ids.label    || '#immSrtProgressLabel');
   if (!btn || !progress) return;
 
   btn.disabled    = true;
@@ -81,7 +81,8 @@ async function _translateSrtBatch(dialogue, overlay, srcLang) {
   const BATCH          = 15;  // líneas por llamada (el endpoint acepta hasta 20)
   let   done           = 0;
   let   hadError       = false;
-  const sourceLangCode = srcLang || 'en';
+  const sourceLangCode = srcLang  || 'en';
+  const destLangCode   = destLang || 'es';
 
   for (let i = 0; i < total; i += BATCH) {
     const chunk = dialogue.slice(i, i + BATCH);
@@ -91,7 +92,7 @@ async function _translateSrtBatch(dialogue, overlay, srcLang) {
       const res = await fetch(_API_HOST + '/translate-batch', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ lines, sourceLang: sourceLangCode, targetLang: 'es' })
+        body: JSON.stringify({ lines, sourceLang: sourceLangCode, targetLang: destLangCode })
       });
 
       if (res.ok) {
@@ -172,22 +173,86 @@ const _IMM_LANG_KEY = 'ls_imm_targetLang';
 const _IMM_LEVELS   = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const _IMM_LEVEL_KEY = 'ls_imm_level';
 
+// Idioma objetivo (idioma que ese contenido enseña, opcional) y filtro de subtítulos disponibles
+const _IMM_TARGET_LANG_KEY = 'ls_imm_targetLanguage';
+const _IMM_SUBLANG_KEY     = 'ls_imm_subtitleLang';
+
+// Lista completa de idiomas (con variantes regionales) para los selects del formulario de subida.
+// value = "código|nombre|bandera"
+const _IMM_FORM_LANGS = [
+  { value: 'en|Inglés|🇺🇸',    label: '🇺🇸 Inglés' },
+  { value: 'en|Inglés|🇬🇧',    label: '🇬🇧 Inglés (UK)' },
+  { value: 'es|Español|🇪🇸',   label: '🇪🇸 Español' },
+  { value: 'es|Español|🇲🇽',   label: '🇲🇽 Español (MX)' },
+  { value: 'es|Español|🇦🇷',   label: '🇦🇷 Español (AR)' },
+  { value: 'pt|Portugués|🇧🇷', label: '🇧🇷 Portugués' },
+  { value: 'fr|Francés|🇫🇷',   label: '🇫🇷 Francés' },
+  { value: 'de|Alemán|🇩🇪',    label: '🇩🇪 Alemán' },
+  { value: 'it|Italiano|🇮🇹',  label: '🇮🇹 Italiano' },
+  { value: 'ja|Japonés|🇯🇵',   label: '🇯🇵 Japonés' },
+  { value: 'ko|Coreano|🇰🇷',   label: '🇰🇷 Coreano' },
+  { value: 'zh|Chino|🇨🇳',     label: '🇨🇳 Chino' },
+  { value: 'ru|Ruso|🇷🇺',      label: '🇷🇺 Ruso' },
+  { value: 'ar|Árabe|🇸🇦',     label: '🇸🇦 Árabe' },
+  { value: 'hi|Hindi|🇮🇳',     label: '🇮🇳 Hindi' },
+  { value: 'tr|Turco|🇹🇷',     label: '🇹🇷 Turco' },
+  { value: 'nl|Neerlandés|🇳🇱', label: '🇳🇱 Neerlandés' },
+  { value: 'pl|Polaco|🇵🇱',    label: '🇵🇱 Polaco' },
+  { value: 'other|Otro|🌍',    label: '🌍 Otro' },
+];
+
+// Genera <option>s en formato "código|nombre|bandera" (reusado por los selects de idioma del modal)
+function _immLangOptionsHtml(placeholder) {
+  return `<option value="">${placeholder}</option>` +
+    _IMM_FORM_LANGS.map(l => `<option value="${l.value}">${l.label}</option>`).join('');
+}
+
+// Genera <option>s simples código→nombre (para selects de solo idioma, sin bandera/variantes)
+function _immLangCodeOptionsHtml() {
+  const seen = new Set();
+  return _IMM_FORM_LANGS
+    .filter(l => {
+      const code = l.value.split('|')[0];
+      if (code === 'other' || seen.has(code)) return false;
+      seen.add(code);
+      return true;
+    })
+    .map(l => {
+      const [code, name] = l.value.split('|');
+      return `<option value="${code}">${name}</option>`;
+    }).join('');
+}
+
 function _renderBrowser(container) {
-  // Idioma activo: primero el guardado en imm, luego el global de la app, luego 'en'
+  // Idioma nativo activo: primero el guardado en imm, luego el global de la app, luego 'en'
   const activeLang = localStorage.getItem(_IMM_LANG_KEY)
     || (typeof targetLang !== 'undefined' ? targetLang : '')
     || 'en';
+  // Idioma a aprender (objetivo): 'all', 'sn' (sin objetivo), o código de idioma.
+  // Default: el sourceLang global de la app.
+  const activeTargetLang = localStorage.getItem(_IMM_TARGET_LANG_KEY)
+    || (typeof sourceLang !== 'undefined' ? sourceLang : '')
+    || 'all';
+  // Idioma de subtítulos disponibles: 'all' (no filtra) o código de idioma
+  const activeSubLang = localStorage.getItem(_IMM_SUBLANG_KEY) || 'all';
   // Nivel activo: 'all' (todos), 'sn' (sin nivel asignado), o un código A1..C2
   const activeLevel = localStorage.getItem(_IMM_LEVEL_KEY) || 'all';
+
+  // Compara un valor de filtro ('all' | 'sn' | código) contra el campo real del contenido
+  function _matchesLangFilter(fieldValue, filterValue) {
+    if (filterValue === 'all') return true;
+    if (filterValue === 'sn')  return !fieldValue;
+    return fieldValue === filterValue;
+  }
 
   const all    = _getAllImmContent();
   // Filtrar por idioma activo; si no hay contenido para ese idioma mostrar todos
   const byLang = all.filter(c => c.language === activeLang);
-  const filtered = (byLang.length > 0 ? byLang : all).filter(c => {
-    if (activeLevel === 'all') return true;
-    if (activeLevel === 'sn')  return !c.level;
-    return c.level === activeLevel;
-  });
+  const filtered = (byLang.length > 0 ? byLang : all).filter(c =>
+    _matchesLangFilter(c.level, activeLevel) &&
+    _matchesLangFilter(c.targetLanguage, activeTargetLang) &&
+    (activeSubLang === 'all' || c.subtitleLang === activeSubLang)
+  );
   const list   = filtered;
   const groups = {};
   list.forEach(c => {
@@ -197,18 +262,44 @@ function _renderBrowser(container) {
   });
 
   const activeLangInfo = _IMM_LANGS.find(l => l.code === activeLang) || { name: activeLang, flag: '🌐' };
+  const activeTargetInfo = _IMM_LANGS.find(l => l.code === activeTargetLang);
+  const activeSubInfo    = _IMM_LANGS.find(l => l.code === activeSubLang);
+
+  const filterDescParts = [];
+  if (activeLevel !== 'all')      filterDescParts.push(`nivel <strong>${activeLevel === 'sn' ? 'S/N' : activeLevel}</strong>`);
+  if (activeTargetLang !== 'all') filterDescParts.push(`idioma a aprender <strong>${activeTargetLang === 'sn' ? 'S/N' : (activeTargetInfo?.name || activeTargetLang)}</strong>`);
+  if (activeSubLang !== 'all')    filterDescParts.push(`subtítulos en <strong>${activeSubInfo?.name || activeSubLang}</strong>`);
+  const filterDescSuffix = filterDescParts.length ? ` — ${filterDescParts.join(', ')}` : '';
 
   container.innerHTML = `
     <div class="imm-wrap">
       <div class="imm-topbar">
         <button class="imm-back-btn" id="immBackMenu">← Menú</button>
         <h2 class="imm-page-title">🌍 Aprende con...</h2>
+        <button class="imm-add-btn" id="immAddBtn">＋ Agregar</button>
+      </div>
+
+      <!-- Filtros -->
+      <div class="imm-filters-row">
         <div class="imm-lang-picker-wrap">
-          <select class="imm-lang-picker" id="immLangPicker" title="Idioma del contenido">
+          <select class="imm-lang-picker" id="immLangPicker" title="Idioma nativo del contenido">
             ${_IMM_LANGS.map(l => `
               <option value="${l.code}" ${l.code === activeLang ? 'selected' : ''}>
                 ${l.flag} ${l.name}
               </option>`).join('')}
+          </select>
+        </div>
+        <div class="imm-lang-picker-wrap">
+          <select class="imm-lang-picker" id="immTargetLangPicker" title="Idioma a aprender">
+            <option value="all" ${activeTargetLang === 'all' ? 'selected' : ''}>🎯 Cualquier idioma a aprender</option>
+            ${_IMM_LANGS.map(l => `<option value="${l.code}" ${l.code === activeTargetLang ? 'selected' : ''}>${l.flag} ${l.name}</option>`).join('')}
+            <option value="sn" ${activeTargetLang === 'sn' ? 'selected' : ''}>S/N — sin idioma objetivo</option>
+          </select>
+        </div>
+        <div class="imm-lang-picker-wrap">
+          <select class="imm-lang-picker" id="immSubLangPicker" title="Idioma de subtítulos disponibles">
+            <option value="all" ${activeSubLang === 'all' ? 'selected' : ''}>Cualquier subtítulo</option>
+            ${_IMM_LANGS.map(l => `<option value="${l.code}" ${l.code === activeSubLang ? 'selected' : ''}>${l.flag} Subtítulos en ${l.name}</option>`).join('')}
           </select>
         </div>
         <div class="imm-lang-picker-wrap">
@@ -218,19 +309,18 @@ function _renderBrowser(container) {
             <option value="sn" ${activeLevel === 'sn' ? 'selected' : ''}>S/N — sin nivel</option>
           </select>
         </div>
-        <button class="imm-add-btn" id="immAddBtn">＋ Agregar</button>
       </div>
 
       <!-- Cartel introductorio -->
       <div class="imm-intro-banner">
         <span class="imm-intro-icon">${activeLangInfo.flag}</span>
-        <p>Mostrando contenido en <strong>${activeLangInfo.name}</strong>${activeLevel !== 'all' ? ` — nivel <strong>${activeLevel === 'sn' ? 'S/N' : activeLevel}</strong>` : ''}. Cambiá los selectores para explorar otros catálogos.</p>
+        <p>Mostrando contenido en <strong>${activeLangInfo.name}</strong>${filterDescSuffix}. Cambiá los selectores para explorar otros catálogos.</p>
       </div>
 
       ${Object.keys(groups).length === 0 ? `
         <div class="imm-empty">
           <div class="imm-empty-icon">🎬</div>
-          <p>No hay contenido en <strong>${activeLangInfo.name}</strong>${activeLevel !== 'all' ? ` con nivel <strong>${activeLevel === 'sn' ? 'S/N' : activeLevel}</strong>` : ''} todavía.<br>¡Agregá tu primer video o audio con subtítulos!</p>
+          <p>No hay contenido en <strong>${activeLangInfo.name}</strong>${filterDescSuffix} todavía.<br>¡Agregá tu primer video o audio con subtítulos!</p>
           <button class="primary-btn" id="immAddFirst">＋ Agregar</button>
         </div>
       ` : Object.entries(groups).map(([lang, g]) => `
@@ -257,6 +347,8 @@ function _renderBrowser(container) {
                     <div class="imm-card-foot">
                       <span class="imm-tag">${item.category}</span>
                       <span class="imm-tag imm-tag--level" data-level="${item.level || 'sn'}">${item.level || 'S/N'}</span>
+                      ${item.targetLanguage ? `<span class="imm-tag imm-tag--target">🎯 ${(_IMM_LANGS.find(l => l.code === item.targetLanguage)?.name) || item.targetLanguage}</span>` : ''}
+                      ${item.subtitleLang ? `<span class="imm-tag imm-tag--sub">💬 ${(_IMM_LANGS.find(l => l.code === item.subtitleLang)?.name) || item.subtitleLang}</span>` : ''}
                       <span class="imm-tag-lines">${item.dialogue.length} frases</span>
                     </div>
                     <div class="imm-card-progbar">
@@ -289,6 +381,16 @@ function _renderBrowser(container) {
 
   document.getElementById('immLevelPicker').addEventListener('change', function() {
     localStorage.setItem(_IMM_LEVEL_KEY, this.value);
+    _renderBrowser(container);
+  });
+
+  document.getElementById('immTargetLangPicker').addEventListener('change', function() {
+    localStorage.setItem(_IMM_TARGET_LANG_KEY, this.value);
+    _renderBrowser(container);
+  });
+
+  document.getElementById('immSubLangPicker').addEventListener('change', function() {
+    localStorage.setItem(_IMM_SUBLANG_KEY, this.value);
     _renderBrowser(container);
   });
 
@@ -1156,28 +1258,9 @@ function _showAddModal(container, editItem = null) {
         </div>
         <div class="imm-add-row2">
           <div class="imm-add-field">
-            <label>Idioma del contenido *</label>
+            <label>Idioma nativo del contenido *</label>
             <select id="aLangSelect" class="imm-modal-input">
-              <option value="">— Seleccioná —</option>
-              <option value="en|Inglés|🇺🇸">🇺🇸 Inglés</option>
-              <option value="en|Inglés|🇬🇧">🇬🇧 Inglés (UK)</option>
-              <option value="es|Español|🇪🇸">🇪🇸 Español</option>
-              <option value="es|Español|🇲🇽">🇲🇽 Español (MX)</option>
-              <option value="es|Español|🇦🇷">🇦🇷 Español (AR)</option>
-              <option value="pt|Portugués|🇧🇷">🇧🇷 Portugués</option>
-              <option value="fr|Francés|🇫🇷">🇫🇷 Francés</option>
-              <option value="de|Alemán|🇩🇪">🇩🇪 Alemán</option>
-              <option value="it|Italiano|🇮🇹">🇮🇹 Italiano</option>
-              <option value="ja|Japonés|🇯🇵">🇯🇵 Japonés</option>
-              <option value="ko|Coreano|🇰🇷">🇰🇷 Coreano</option>
-              <option value="zh|Chino|🇨🇳">🇨🇳 Chino</option>
-              <option value="ru|Ruso|🇷🇺">🇷🇺 Ruso</option>
-              <option value="ar|Árabe|🇸🇦">🇸🇦 Árabe</option>
-              <option value="hi|Hindi|🇮🇳">🇮🇳 Hindi</option>
-              <option value="tr|Turco|🇹🇷">🇹🇷 Turco</option>
-              <option value="nl|Neerlandés|🇳🇱">🇳🇱 Neerlandés</option>
-              <option value="pl|Polaco|🇵🇱">🇵🇱 Polaco</option>
-              <option value="other|Otro|🌍">🌍 Otro</option>
+              ${_immLangOptionsHtml('— Seleccioná —')}
             </select>
             <!-- Hidden inputs que se llenan automáticamente -->
             <input type="hidden" id="aLangCode">
@@ -1188,7 +1271,8 @@ function _showAddModal(container, editItem = null) {
             <label>Categoría</label>
             <select id="aCat" class="imm-modal-input">
               <option>serie</option><option>película</option><option>anime</option>
-              <option>documental</option><option>podcast</option><option>entrevista</option><option>otro</option>
+              <option>documental</option><option>podcast</option><option>entrevista</option>
+              <option>música</option><option>clase de idioma</option><option>otro</option>
             </select>
           </div>
           <div class="imm-add-field">
@@ -1203,6 +1287,21 @@ function _showAddModal(container, editItem = null) {
               <option value="C2">C2</option>
             </select>
           </div>
+        </div>
+
+        <!-- Idioma objetivo (opcional): solo para contenido que enseña un idioma específico -->
+        <div class="imm-add-field imm-add-field--full">
+          <label class="imm-radio-opt">
+            <input type="checkbox" id="aIsTeaching">
+            ¿Este contenido enseña un idioma específico? <span class="imm-optional-hint">(ej: clase de idioma)</span>
+          </label>
+        </div>
+        <div class="imm-add-field imm-add-field--full hidden" id="aTargetLangWrap">
+          <label>Idioma objetivo (el que este contenido enseña)</label>
+          <select id="aTargetLangSelect" class="imm-modal-input">
+            <option value="">— Seleccioná —</option>
+            ${_immLangCodeOptionsHtml()}
+          </select>
         </div>
       </div>
 
@@ -1278,6 +1377,41 @@ function _showAddModal(container, editItem = null) {
         </div>
       </div>
 
+      <!-- Subtítulos de traducción (opcional) -->
+      <div class="imm-add-section">
+        <div class="imm-add-section-title">🌐 Subtítulos de traducción <span class="imm-optional-hint">(opcional)</span></div>
+        <div class="imm-radio-group">
+          <label class="imm-radio-opt"><input type="radio" name="tSrc" value="none" checked> Sin traducción</label>
+          <label class="imm-radio-opt"><input type="radio" name="tSrc" value="ai"> Traducir con IA</label>
+          <label class="imm-radio-opt"><input type="radio" name="tSrc" value="upload"> Subir .SRT ya traducido</label>
+        </div>
+
+        <div id="tAIWrap" class="imm-radio-content hidden">
+          <select id="aTranslateDestLang" class="imm-modal-input">
+            <option value="">— Elegí idioma destino —</option>
+            ${_immLangCodeOptionsHtml()}
+          </select>
+          <button class="imm-translate-srt-btn" id="aTranslateAIBtn" type="button">
+            ✨ Traducir subtítulos con IA
+          </button>
+          <div class="imm-srt-progress hidden" id="aTranslateProgress">
+            <div class="imm-srt-progress-bar"><div class="imm-srt-progress-fill" id="aTranslateFill"></div></div>
+            <span id="aTranslateProgressLabel">0 / 0</span>
+          </div>
+        </div>
+
+        <div id="tUploadWrap" class="imm-radio-content hidden">
+          <select id="aTranslatedLangSelect" class="imm-modal-input">
+            <option value="">— Idioma de esta traducción —</option>
+            ${_immLangCodeOptionsHtml()}
+          </select>
+          <label class="imm-file-btn" for="aTranslatedSRTFile">Elegir .srt / .txt traducido</label>
+          <input type="file" id="aTranslatedSRTFile" accept=".srt,.txt,text/*" class="imm-file-hidden">
+          <span class="imm-file-name" id="aTranslatedSRTName">Sin archivo</span>
+          <div class="imm-srt-preview hidden" id="aTranslatedSRTPreview"></div>
+        </div>
+      </div>
+
       <div class="ob-error hidden" id="aErr"></div>
 
       <div class="imm-modal-btns">
@@ -1303,6 +1437,13 @@ function _showAddModal(container, editItem = null) {
   };
   langSel.addEventListener('change', _syncLangHiddens);
 
+  // ── Idioma objetivo (checkbox "¿enseña un idioma?") ──
+  const teachingChk     = overlay.querySelector('#aIsTeaching');
+  const targetLangWrap  = overlay.querySelector('#aTargetLangWrap');
+  teachingChk.addEventListener('change', () => {
+    targetLangWrap.classList.toggle('hidden', !teachingChk.checked);
+  });
+
   // Pre-llenar todos los campos en modo edición
   if (editItem) {
     overlay.querySelector('#aTitle').value = editItem.title || '';
@@ -1318,6 +1459,13 @@ function _showAddModal(container, editItem = null) {
     // Nivel estimado
     const levelSel = overlay.querySelector('#aLevel');
     if (levelSel) levelSel.value = editItem.level || '';
+    // Idioma objetivo (si el contenido enseña un idioma específico)
+    if (editItem.targetLanguage) {
+      teachingChk.checked = true;
+      targetLangWrap.classList.remove('hidden');
+      const targetSel = overlay.querySelector('#aTargetLangSelect');
+      if (targetSel) targetSel.value = editItem.targetLanguage;
+    }
     // YouTube
     if (editItem.youtubeId) {
       const ytR = overlay.querySelector('input[name="vSrc"][value="yt"]');
@@ -1341,6 +1489,14 @@ function _showAddModal(container, editItem = null) {
       if (srtPreview) {
         srtPreview.classList.remove('hidden');
         srtPreview.innerHTML = `<div class="imm-srt-ok">✅ ${editItem.dialogue.length} subtítulos existentes (se mantendrán si no subís otro archivo)</div>`;
+      }
+      // Aviso de traducción existente (si ya tiene alguna línea traducida)
+      if (editItem.dialogue.some(d => d.translation)) {
+        const langInfo = _IMM_LANGS.find(l => l.code === editItem.subtitleLang);
+        overlay.querySelector('#aErr').insertAdjacentHTML('beforebegin', `
+          <div class="imm-srt-ok" style="margin-bottom:0.75rem">
+            ✅ Ya tiene traducción cargada${langInfo ? ` en ${langInfo.name}` : ''} (se mantiene si no elegís otra opción de traducción arriba).
+          </div>`);
       }
     }
   }
@@ -1465,20 +1621,66 @@ function _showAddModal(container, editItem = null) {
           ${samples}
           ${parsedDialogue.length > 3
             ? `<div class="imm-srt-more">...y ${parsedDialogue.length - 3} más</div>` : ''}
-          <button class="imm-translate-srt-btn" id="immTranslateSrtBtn">
-            ✨ Traducir subtítulos al español con IA
-          </button>
-          <div class="imm-srt-progress hidden" id="immSrtProgress">
-            <div class="imm-srt-progress-bar"><div class="imm-srt-progress-fill" id="immSrtFill"></div></div>
-            <span id="immSrtProgressLabel">0 / ${parsedDialogue.length}</span>
-          </div>
         `;
-        overlay.querySelector('#immTranslateSrtBtn').addEventListener('click', () => {
-          const src = (overlay.querySelector('#aLangCode')?.value || 'en').trim();
-          _translateSrtBatch(parsedDialogue, overlay, src);
-        });
       } else {
         preview.innerHTML = `<div class="imm-srt-err">⚠️ No se detectaron subtítulos. Verificá el formato .srt</div>`;
+      }
+    };
+    reader.readAsText(f, 'UTF-8');
+  });
+
+  // ── Subtítulos de traducción (opcional) ──
+  let translatedDialogue = [];
+  let translationMethod  = 'none'; // 'none' | 'ai' | 'upload'
+
+  overlay.querySelectorAll('input[name="tSrc"]').forEach(r => {
+    r.addEventListener('change', () => {
+      translationMethod = r.value;
+      overlay.querySelector('#tAIWrap').classList.toggle('hidden',     r.value !== 'ai');
+      overlay.querySelector('#tUploadWrap').classList.toggle('hidden', r.value !== 'upload');
+    });
+  });
+
+  // Preseleccionar el idioma destino de la IA con el sourceLang global de la app
+  const destLangSel = overlay.querySelector('#aTranslateDestLang');
+  if (destLangSel && typeof sourceLang !== 'undefined' && sourceLang) {
+    const opt = Array.from(destLangSel.options).find(o => o.value === sourceLang);
+    if (opt) destLangSel.value = sourceLang;
+  }
+
+  overlay.querySelector('#aTranslateAIBtn').addEventListener('click', () => {
+    const err = overlay.querySelector('#aErr');
+    if (!parsedDialogue.length) {
+      err.textContent = 'Primero cargá los subtítulos originales (.srt o manual).';
+      err.classList.remove('hidden'); return;
+    }
+    const destLang = overlay.querySelector('#aTranslateDestLang')?.value;
+    if (!destLang) {
+      err.textContent = 'Elegí a qué idioma traducir.';
+      err.classList.remove('hidden'); return;
+    }
+    err.classList.add('hidden');
+    const srcCode = (overlay.querySelector('#aLangCode')?.value || 'en').trim();
+    _translateSrtBatch(parsedDialogue, overlay, srcCode, destLang, {
+      btn: '#aTranslateAIBtn', progress: '#aTranslateProgress',
+      fill: '#aTranslateFill', label: '#aTranslateProgressLabel'
+    });
+  });
+
+  overlay.querySelector('#aTranslatedSRTFile').addEventListener('change', e => {
+    const f = e.target.files[0]; if (!f) return;
+    overlay.querySelector('#aTranslatedSRTName').textContent = f.name;
+    const reader = new FileReader();
+    reader.onload = ev => {
+      translatedDialogue = _parseSRT(ev.target.result);
+      const preview = overlay.querySelector('#aTranslatedSRTPreview');
+      preview.classList.remove('hidden');
+      if (!translatedDialogue.length) {
+        preview.innerHTML = `<div class="imm-srt-err">⚠️ No se detectaron subtítulos. Verificá el formato .srt</div>`;
+      } else if (parsedDialogue.length && translatedDialogue.length !== parsedDialogue.length) {
+        preview.innerHTML = `<div class="imm-srt-err">⚠️ Este archivo tiene ${translatedDialogue.length} líneas, pero el original tiene ${parsedDialogue.length}. Deben coincidir en cantidad y orden.</div>`;
+      } else {
+        preview.innerHTML = `<div class="imm-srt-ok">✅ ${translatedDialogue.length} líneas de traducción importadas</div>`;
       }
     };
     reader.readAsText(f, 'UTF-8');
@@ -1582,6 +1784,39 @@ function _showAddModal(container, editItem = null) {
       err.classList.remove('hidden'); return;
     }
 
+    // Idioma objetivo (opcional — solo si el contenido enseña un idioma específico)
+    const targetLanguage = teachingChk.checked
+      ? (overlay.querySelector('#aTargetLangSelect')?.value || '')
+      : '';
+    if (teachingChk.checked && !targetLanguage) {
+      err.textContent = 'Elegí qué idioma objetivo enseña este contenido, o destildá la opción.';
+      err.classList.remove('hidden'); return;
+    }
+
+    // Subtítulos de traducción (opcional)
+    let subtitleLang = '';
+    if (translationMethod === 'ai') {
+      subtitleLang = overlay.querySelector('#aTranslateDestLang')?.value || '';
+      if (!dialogue.some(d => d.translation)) {
+        err.textContent = 'Elegiste "Traducir con IA" pero todavía no tradujiste — apretá el botón "Traducir subtítulos con IA" o cambiá la opción.';
+        err.classList.remove('hidden'); return;
+      }
+    } else if (translationMethod === 'upload') {
+      subtitleLang = overlay.querySelector('#aTranslatedLangSelect')?.value || '';
+      if (!subtitleLang) {
+        err.textContent = 'Elegí el idioma de la traducción que subiste.';
+        err.classList.remove('hidden'); return;
+      }
+      if (!translatedDialogue.length || translatedDialogue.length !== dialogue.length) {
+        err.textContent = `El SRT de traducción debe tener la misma cantidad de líneas que el original (original: ${dialogue.length}, traducción: ${translatedDialogue.length}).`;
+        err.classList.remove('hidden'); return;
+      }
+      dialogue.forEach((d, i) => { d.translation = translatedDialogue[i].original; });
+    } else if (editItem?.dialogue?.some(d => d.translation) && dialogue === editItem.dialogue) {
+      // Se mantiene la traducción existente (no se tocó la sección de traducción al editar)
+      subtitleLang = editItem.subtitleLang || '';
+    }
+
     const langName = (overlay.querySelector('#aLangName')?.value || '').trim();
     const savedItem = {
       id:           editItem?.id || `user_${Date.now()}`,
@@ -1589,6 +1824,8 @@ function _showAddModal(container, editItem = null) {
       countryName:  langName,
       language:     langCode,
       languageName: langName,
+      targetLanguage,
+      subtitleLang,
       title,
       subtitle:     overlay.querySelector('#aCat')?.value || '',
       category:     overlay.querySelector('#aCat')?.value || 'otro',

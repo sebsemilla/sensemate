@@ -4062,6 +4062,23 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
 .imm-tag--level[data-level="C2"] { background: #ec4899; }
 .imm-card--cinematic .imm-tag--level { color: #fff; }
 
+/* ── Etiquetas de idioma objetivo / subtítulos ── */
+.imm-tag--target, .imm-tag--sub {
+  text-transform: none;
+  font-weight: 600;
+  background: rgba(99,102,241,0.12);
+  color: var(--accent, #6366f1);
+}
+.imm-card--cinematic .imm-tag--target,
+.imm-card--cinematic .imm-tag--sub { background: rgba(255,255,255,0.15); color: #fff; }
+
+/* ── Fila de filtros del catálogo ── */
+.imm-filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 
 /* ─────────────────────────────────────────────
    BASE: Study area — header info
@@ -4853,6 +4870,7 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
 .imm-radio-content        { margin-top: 0.4rem; }
 .imm-radio-content.hidden { display: none; }
 .imm-file-note { font-size: 0.75rem; color: #f59e0b; margin: 0.2rem 0 0; }
+.imm-optional-hint { font-weight: 400; font-size: 0.78rem; color: var(--text-muted); text-transform: none; }
 
 /* Preview imagen con drag-to-reposition */
 .imm-img-preview {
