@@ -168,16 +168,27 @@ const _IMM_LANGS = [
 ];
 const _IMM_LANG_KEY = 'ls_imm_targetLang';
 
+// Niveles MCER para filtrar/clasificar contenido ("S/N" = sin nivel asignado)
+const _IMM_LEVELS   = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const _IMM_LEVEL_KEY = 'ls_imm_level';
+
 function _renderBrowser(container) {
   // Idioma activo: primero el guardado en imm, luego el global de la app, luego 'en'
   const activeLang = localStorage.getItem(_IMM_LANG_KEY)
     || (typeof targetLang !== 'undefined' ? targetLang : '')
     || 'en';
+  // Nivel activo: 'all' (todos), 'sn' (sin nivel asignado), o un código A1..C2
+  const activeLevel = localStorage.getItem(_IMM_LEVEL_KEY) || 'all';
 
   const all    = _getAllImmContent();
   // Filtrar por idioma activo; si no hay contenido para ese idioma mostrar todos
-  const filtered = all.filter(c => c.language === activeLang);
-  const list   = filtered.length > 0 ? filtered : all;
+  const byLang = all.filter(c => c.language === activeLang);
+  const filtered = (byLang.length > 0 ? byLang : all).filter(c => {
+    if (activeLevel === 'all') return true;
+    if (activeLevel === 'sn')  return !c.level;
+    return c.level === activeLevel;
+  });
+  const list   = filtered;
   const groups = {};
   list.forEach(c => {
     if (!groups[c.language])
@@ -200,19 +211,26 @@ function _renderBrowser(container) {
               </option>`).join('')}
           </select>
         </div>
+        <div class="imm-lang-picker-wrap">
+          <select class="imm-lang-picker" id="immLevelPicker" title="Nivel de dificultad">
+            <option value="all" ${activeLevel === 'all' ? 'selected' : ''}>Todos los niveles</option>
+            ${_IMM_LEVELS.map(l => `<option value="${l}" ${l === activeLevel ? 'selected' : ''}>${l}</option>`).join('')}
+            <option value="sn" ${activeLevel === 'sn' ? 'selected' : ''}>S/N — sin nivel</option>
+          </select>
+        </div>
         <button class="imm-add-btn" id="immAddBtn">＋ Agregar</button>
       </div>
 
       <!-- Cartel introductorio -->
       <div class="imm-intro-banner">
         <span class="imm-intro-icon">${activeLangInfo.flag}</span>
-        <p>Mostrando contenido en <strong>${activeLangInfo.name}</strong>. Cambiá el idioma desde el selector para explorar otros catálogos.</p>
+        <p>Mostrando contenido en <strong>${activeLangInfo.name}</strong>${activeLevel !== 'all' ? ` — nivel <strong>${activeLevel === 'sn' ? 'S/N' : activeLevel}</strong>` : ''}. Cambiá los selectores para explorar otros catálogos.</p>
       </div>
 
       ${Object.keys(groups).length === 0 ? `
         <div class="imm-empty">
           <div class="imm-empty-icon">🎬</div>
-          <p>No hay contenido en <strong>${activeLangInfo.name}</strong> todavía.<br>¡Agregá tu primer video o audio con subtítulos!</p>
+          <p>No hay contenido en <strong>${activeLangInfo.name}</strong>${activeLevel !== 'all' ? ` con nivel <strong>${activeLevel === 'sn' ? 'S/N' : activeLevel}</strong>` : ''} todavía.<br>¡Agregá tu primer video o audio con subtítulos!</p>
           <button class="primary-btn" id="immAddFirst">＋ Agregar</button>
         </div>
       ` : Object.entries(groups).map(([lang, g]) => `
@@ -238,6 +256,7 @@ function _renderBrowser(container) {
                     <div class="imm-card-sub">${_esc(item.subtitle || '')}</div>
                     <div class="imm-card-foot">
                       <span class="imm-tag">${item.category}</span>
+                      <span class="imm-tag imm-tag--level" data-level="${item.level || 'sn'}">${item.level || 'S/N'}</span>
                       <span class="imm-tag-lines">${item.dialogue.length} frases</span>
                     </div>
                     <div class="imm-card-progbar">
@@ -265,6 +284,11 @@ function _renderBrowser(container) {
 
   document.getElementById('immLangPicker').addEventListener('change', function() {
     localStorage.setItem(_IMM_LANG_KEY, this.value);
+    _renderBrowser(container);
+  });
+
+  document.getElementById('immLevelPicker').addEventListener('change', function() {
+    localStorage.setItem(_IMM_LEVEL_KEY, this.value);
     _renderBrowser(container);
   });
 
@@ -1167,6 +1191,18 @@ function _showAddModal(container, editItem = null) {
               <option>documental</option><option>podcast</option><option>entrevista</option><option>otro</option>
             </select>
           </div>
+          <div class="imm-add-field">
+            <label>Nivel estimado</label>
+            <select id="aLevel" class="imm-modal-input">
+              <option value="">S/N — sin especificar</option>
+              <option value="A1">A1</option>
+              <option value="A2">A2</option>
+              <option value="B1">B1</option>
+              <option value="B2">B2</option>
+              <option value="C1">C1</option>
+              <option value="C2">C2</option>
+            </select>
+          </div>
         </div>
       </div>
 
@@ -1279,6 +1315,9 @@ function _showAddModal(container, editItem = null) {
     // Categoría
     const catSel = overlay.querySelector('#aCat');
     if (catSel) catSel.value = editItem.category || 'otro';
+    // Nivel estimado
+    const levelSel = overlay.querySelector('#aLevel');
+    if (levelSel) levelSel.value = editItem.level || '';
     // YouTube
     if (editItem.youtubeId) {
       const ytR = overlay.querySelector('input[name="vSrc"][value="yt"]');
@@ -1467,8 +1506,12 @@ function _showAddModal(container, editItem = null) {
     wrap.querySelectorAll('input').forEach(inp => {
       inp.addEventListener('input', () => {
         const i = +inp.dataset.i, f = inp.dataset.f;
-        manualRows[i][f] = (f === 'start' || f === 'end')
-          ? parseFloat(inp.value) || '' : inp.value;
+        if (f === 'start' || f === 'end') {
+          const n = parseFloat(inp.value);
+          manualRows[i][f] = isNaN(n) ? '' : n;
+        } else {
+          manualRows[i][f] = inp.value;
+        }
       });
     });
     wrap.querySelectorAll('.imm-row-del-btn').forEach(btn => {
@@ -1549,6 +1592,7 @@ function _showAddModal(container, editItem = null) {
       title,
       subtitle:     overlay.querySelector('#aCat')?.value || '',
       category:     overlay.querySelector('#aCat')?.value || 'otro',
+      level:        overlay.querySelector('#aLevel')?.value || '',
       thumbnail:    '🎬',
       imageSrc,
       imagePosX:    imagePosition.x,

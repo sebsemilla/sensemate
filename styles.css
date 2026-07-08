@@ -4047,6 +4047,21 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
   padding: 2px 0;
 }
 
+/* ── Etiqueta de nivel MCER (mismos colores que el Evaluador de Nivel) ── */
+.imm-tag--level {
+  text-transform: none;
+  font-weight: 700;
+  color: #fff;
+  background: #94a3b8; /* S/N por defecto */
+}
+.imm-tag--level[data-level="A1"] { background: #10b981; }
+.imm-tag--level[data-level="A2"] { background: #34d399; }
+.imm-tag--level[data-level="B1"] { background: #3b82f6; }
+.imm-tag--level[data-level="B2"] { background: #6366f1; }
+.imm-tag--level[data-level="C1"] { background: #8b5cf6; }
+.imm-tag--level[data-level="C2"] { background: #ec4899; }
+.imm-card--cinematic .imm-tag--level { color: #fff; }
+
 
 /* ─────────────────────────────────────────────
    BASE: Study area — header info
@@ -4810,7 +4825,7 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
   text-transform: uppercase; letter-spacing: 0.04em;
 }
 .imm-add-row3 { display: grid; grid-template-columns: 1fr 80px 80px; gap: 0.5rem; }
-.imm-add-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+.imm-add-row2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.5rem; }
 
 .imm-file-hidden { display: none; }
 .imm-file-btn {
