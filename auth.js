@@ -62,6 +62,13 @@ async function authLogin({ email, password }) {
 
 function authLogout() {
     _clearSession();
+    // Evita que el próximo invitado en este navegador herede el plan
+    // (Premium/Oro/Contributor) del usuario que acaba de salir.
+    if (typeof MembershipPlan !== 'undefined') {
+        localStorage.removeItem(MembershipPlan._PLAN_KEY);
+        localStorage.removeItem(MembershipPlan._EXPIRY_KEY);
+        localStorage.removeItem(MembershipPlan._PERIOD_KEY);
+    }
 }
 
 function authGetCurrentUser() {

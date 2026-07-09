@@ -1678,7 +1678,7 @@ function saveFlashcardSubmissions(data) {
     fs.writeFileSync(FLASHCARD_SUBMISSIONS_FILE, JSON.stringify(data, null, 2), 'utf8');
 }
 
-// POST /flashcard-groups/submit — publicar grupo (Premium requerido; admin → aprobación directa)
+// POST /flashcard-groups/submit — publicar o actualizar grupo (Contributor requerido; admin → aprobación directa)
 app.post('/flashcard-groups/submit', (req, res) => {
     const isAdminSubmit = req.headers['x-admin-token'] === ADMIN_TOKEN;
 
@@ -1687,9 +1687,8 @@ app.post('/flashcard-groups/submit', (req, res) => {
         const auth = req.headers.authorization || '';
         try {
             const payload = require('jsonwebtoken').verify(auth.slice(7), process.env.JWT_SECRET || 'lingua_dev_secret_change_in_prod');
-            if (!payload.isDev && payload.plan !== 'premium' && payload.plan !== 'trial' &&
-                !payload.plan?.startsWith('premium') && !payload.plan?.startsWith('oro')) {
-                return res.status(403).json({ error: 'Se requiere membresía Premium para publicar un grupo.' });
+            if (!payload.isDev && !payload.plan?.startsWith('contributor')) {
+                return res.status(403).json({ error: 'Se requiere ser Contributor para publicar un grupo como público.' });
             }
             userId = payload.id;
         } catch {
@@ -1697,7 +1696,7 @@ app.post('/flashcard-groups/submit', (req, res) => {
         }
     }
 
-    const { title, color, notes, cards } = req.body;
+    const { title, color, notes, cards, serverSubmissionId } = req.body;
     if (!title || !Array.isArray(cards) || !cards.length) {
         return res.status(400).json({ error: 'Faltan campos requeridos: título y al menos una tarjeta.' });
     }
@@ -1705,24 +1704,40 @@ app.post('/flashcard-groups/submit', (req, res) => {
         return res.status(400).json({ error: 'Cada tarjeta necesita frente y reverso.' });
     }
 
-    const entry = {
-        id:          `fg_${Date.now()}`,
-        title:       title.trim(),
-        color:       color || '#6366f1',
-        notes:       (notes || '').trim(),
-        cards:       cards.map(c => ({
-            word:        String(c.word).trim(),
-            translation: String(c.translation).trim(),
-            phonetic:    c.phonetic ? String(c.phonetic).trim() : '',
-            image:       c.image || null,
-        })),
-        submittedBy: userId || 'admin',
-        status:      isAdminSubmit ? 'approved' : 'pending',
-        submittedAt: new Date().toISOString(),
-    };
-
     const all = loadFlashcardSubmissions();
-    all.push(entry);
+    let entry = serverSubmissionId ? all.find(s => s.id === serverSubmissionId) : null;
+    if (entry && !isAdminSubmit && entry.submittedBy !== userId) {
+        return res.status(403).json({ error: 'No podés actualizar la publicación de otro usuario.' });
+    }
+
+    const cardsPayload = cards.map(c => ({
+        word:        String(c.word).trim(),
+        translation: String(c.translation).trim(),
+        phonetic:    c.phonetic ? String(c.phonetic).trim() : '',
+        image:       c.image || null,
+    }));
+
+    if (entry) {
+        entry.title      = title.trim();
+        entry.color      = color || entry.color;
+        entry.notes      = (notes || '').trim();
+        entry.cards      = cardsPayload;
+        entry.status     = isAdminSubmit ? 'approved' : 'pending';
+        entry.updatedAt  = new Date().toISOString();
+    } else {
+        entry = {
+            id:          `fg_${Date.now()}`,
+            title:       title.trim(),
+            color:       color || '#6366f1',
+            notes:       (notes || '').trim(),
+            cards:       cardsPayload,
+            submittedBy: userId || 'admin',
+            status:      isAdminSubmit ? 'approved' : 'pending',
+            submittedAt: new Date().toISOString(),
+        };
+        all.push(entry);
+    }
+
     saveFlashcardSubmissions(all);
 
     console.log(`📇 Grupo de flashcards ${isAdminSubmit ? 'aprobado directamente' : 'enviado para revisión'}: "${entry.title}"`);

@@ -218,11 +218,11 @@ function _showAddCardsFlow(groupId, isNewGroup = false) {
     render();
 }
 
-// ─── Publicar grupo como público (Premium/Oro) ──────────────────
+// ─── Publicar/actualizar grupo como público (Contributor) ───────
 
 async function _publishGroupAsPublic(groupId) {
-    if (!MembershipPlan.isActive()) {
-        _showUpgradeModal('flashcard_publish');
+    if (!MembershipPlan.isContributor()) {
+        _showUpgradeModal('flashcard_publish_contributor');
         return;
     }
 
@@ -235,6 +235,8 @@ async function _publishGroupAsPublic(groupId) {
         return;
     }
 
+    const isUpdate = !!group.serverSubmissionId;
+
     try {
         const isAdminUser = typeof isAdmin === 'function' && isAdmin();
         const res = await _authFetch(`${_API_HOST}/flashcard-groups/submit`, {
@@ -245,6 +247,7 @@ async function _publishGroupAsPublic(groupId) {
                 color: group.color,
                 notes: group.notes,
                 cards: cards.map(c => ({ word: c.word, translation: c.translation, phonetic: c.phonetic, image: c.image })),
+                serverSubmissionId: group.serverSubmissionId,
             })
         });
         const data = await res.json();
@@ -255,7 +258,9 @@ async function _publishGroupAsPublic(groupId) {
         group.visibility = data.autoApproved ? 'public' : 'pending';
         group.serverSubmissionId = data.id;
         saveFlashcardData();
-        showToast(data.autoApproved ? '✅ Grupo publicado' : '⏳ Grupo enviado — pendiente de revisión');
+        showToast(data.autoApproved
+            ? (isUpdate ? '✅ Publicación actualizada' : '✅ Grupo publicado')
+            : (isUpdate ? '⏳ Actualización enviada — pendiente de revisión' : '⏳ Grupo enviado — pendiente de revisión'));
         showCustomGroupDetail(groupId);
     } catch {
         showToast('❌ Error de red al publicar el grupo');

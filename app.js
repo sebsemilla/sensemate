@@ -3716,13 +3716,17 @@ window.addEventListener('DOMContentLoaded', async () => {
     // Usuario — primero carga local para mostrar la UI rápido,
     // luego verifica el JWT contra el servidor en background
     const storedUser = authGetCurrentUser();
-    if (storedUser) currentUser = storedUser;
+    if (storedUser) {
+        currentUser = storedUser;
+        if (typeof MembershipPlan !== 'undefined') MembershipPlan.syncFromUser(storedUser);
+    }
 
     // Verificar sesión en background (no bloquea el render)
     if (storedUser && typeof authVerifySession === 'function') {
         authVerifySession().then(verified => {
             if (verified) {
                 currentUser = verified;
+                if (typeof MembershipPlan !== 'undefined') MembershipPlan.syncFromUser(verified);
                 updateAdminButton();
             }
             // Si verified === null, el token expiró — authVerifySession ya limpió la sesión
@@ -4224,6 +4228,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     window.onOnboardingComplete = async user => {
         currentUser = user;
+        if (typeof MembershipPlan !== 'undefined') MembershipPlan.syncFromUser(user);
         if (user?.preferredLang && !targetLang) saveLanguages('es', user.preferredLang);
         if (!sourceLang || !targetLang) saveLanguages('en', 'es');
 

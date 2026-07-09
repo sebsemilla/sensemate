@@ -20,11 +20,36 @@ const MembershipPlan = {
             || (typeof authGetCurrentUser === 'function' && authGetCurrentUser());
         if (u?.isAdmin || u?.isDev) return true;
         const s = this.getStatus();
-        return s === 'trial' || s === 'premium' || s === 'oro';
+        return s === 'trial' || s === 'premium' || s === 'oro' || s === 'contributor';
     },
 
     isOro() {
         return this.getStatus() === 'oro';
+    },
+
+    isContributor() {
+        const u = (typeof currentUser !== 'undefined' && currentUser)
+            || (typeof authGetCurrentUser === 'function' && authGetCurrentUser());
+        if (u?.isAdmin || u?.isDev) return true;
+        return !!u?.plan?.startsWith('contributor');
+    },
+
+    // Sincroniza el estado local (usado por getStatus/isActive/isOro) con el
+    // plan real del usuario logueado (currentUser.plan, viene del JWT/DB).
+    // Sin esto, isActive()/isOro() solo reflejaban compras hechas en la misma
+    // sesión de navegador (vía activatePlan) y trataban a cualquier usuario
+    // pago que entrara desde otro dispositivo/navegador limpio como free.
+    syncFromUser(user) {
+        if (!user || !user.plan) return;
+        const plan = user.plan;
+        let status = 'free';
+        if (plan === 'trial')                   status = 'trial';
+        else if (plan.startsWith('oro'))         status = 'oro';
+        else if (plan.startsWith('premium'))     status = 'premium';
+        else if (plan.startsWith('contributor')) status = 'contributor';
+        localStorage.setItem(this._PLAN_KEY, status);
+        localStorage.removeItem(this._EXPIRY_KEY); // el vencimiento real lo controla el servidor
+        document.body.dataset.membershipPlan = status;
     },
 
     startTrial() {
@@ -1087,7 +1112,7 @@ function _showUpgradeModal(feature) {
         immersion:  isES ? 'Ya usaste tu sesión gratuita de Aprende con...' : 'You\'ve used your free Immersion session',
         flashcard_group_month: isES ? 'Ya creaste tu grupo de flashcards de este mes' : 'You\'ve already created your flashcard group this month',
         flashcard_group_cap:   isES ? 'Los grupos del plan gratuito tienen un máximo de 10 tarjetas' : 'Free plan groups have a maximum of 10 cards',
-        flashcard_publish:     isES ? 'Publicar un grupo como público es una función Premium' : 'Publishing a group as public is a Premium feature'
+        flashcard_publish_contributor: isES ? 'Publicar un grupo como público es exclusivo para Contributores' : 'Publishing a group as public is exclusive to Contributors'
     };
 
     const featureUsage = {
@@ -1100,29 +1125,32 @@ function _showUpgradeModal(feature) {
         immersion:  isES ? 'Sesión única utilizada' : 'Single session used',
         flashcard_group_month: isES ? '1 grupo por mes en el plan gratuito' : '1 group per month on the free plan',
         flashcard_group_cap:   isES ? '10/10 tarjetas' : '10/10 cards',
-        flashcard_publish:     isES ? 'Función Premium' : 'Premium feature'
+        flashcard_publish_contributor: isES ? 'Función exclusiva Contributor' : 'Contributor-only feature'
     };
 
     const message = featureMessages[feature] || featureMessages.translate;
     const usage   = featureUsage[feature]   || '';
+    const isContribFeature = feature === 'flashcard_publish_contributor';
 
     const overlay = document.createElement('div');
     overlay.className = 'upgrade-modal-overlay';
     overlay.innerHTML = `
         <div class="upgrade-modal">
             <div class="upgrade-modal-header">
-                <div class="upgrade-modal-icon">⭐</div>
-                <h3>${isES ? 'Límite del plan gratuito' : 'Free plan limit'}</h3>
+                <div class="upgrade-modal-icon">${isContribFeature ? '🤝' : '⭐'}</div>
+                <h3>${isContribFeature ? (isES ? 'Función exclusiva Contributor' : 'Contributor-only feature') : (isES ? 'Límite del plan gratuito' : 'Free plan limit')}</h3>
                 <p>${message}</p>
             </div>
             <div class="upgrade-modal-body">
                 <div class="upgrade-usage-pill">${usage}</div>
                 <p class="upgrade-modal-cta-text">
-                    ${isES ? 'Desbloqueá acceso ilimitado con Premium 500X — desde u$s 2/mes' : 'Unlock unlimited access with STARTUP FOR 500X — from u$s 2/month'}
+                    ${isContribFeature
+                        ? (isES ? 'Sumate como Contributor y publicá tus grupos de flashcards para toda la comunidad — desde u$s 4.99/mes' : 'Join as a Contributor and publish your flashcard groups for the whole community — from u$s 4.99/month')
+                        : (isES ? 'Desbloqueá acceso ilimitado con Premium 500X — desde u$s 2/mes' : 'Unlock unlimited access with STARTUP FOR 500X — from u$s 2/month')}
                 </p>
                 <div class="upgrade-modal-btns">
                     <button class="plan-cta-btn plan-cta-btn--premium" id="upgradeSeePlanBtn">
-                        ${isES ? 'Ver planes →' : 'See plans →'}
+                        ${isContribFeature ? (isES ? 'Sumarme como Contributor →' : 'Become a Contributor →') : (isES ? 'Ver planes →' : 'See plans →')}
                     </button>
                     <button class="upgrade-close-btn" id="upgradeCloseBtn">
                         ${isES ? 'Cerrar' : 'Close'}
@@ -1136,6 +1164,7 @@ function _showUpgradeModal(feature) {
     document.getElementById('upgradeCloseBtn').addEventListener('click', () => overlay.remove());
     document.getElementById('upgradeSeePlanBtn').addEventListener('click', () => {
         overlay.remove();
+        if (isContribFeature) _plansTab = 'contributors';
         loadMembershipSection();
     });
 }
@@ -1261,11 +1290,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (typeof authVerifySession === 'function') {
             authVerifySession().then(user => {
                 if (user) {
-                    if (typeof currentUser !== 'undefined') window.currentUser = user;
-                    // Activar premium en el estado local
-                    const plan = user.plan || 'premium';
-                    MembershipPlan.activate(plan, plan.includes('annual') ? 365 : 30);
-                    document.body.dataset.membershipPlan = MembershipPlan.getStatus();
+                    window.currentUser = user;
+                    MembershipPlan.syncFromUser(user);
                 }
                 setTimeout(() => {
                     if (typeof showToast === 'function') showToast('🎉 ¡Pago confirmado! Tu plan Premium está activo.');

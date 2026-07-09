@@ -770,6 +770,9 @@ function showCustomGroupDetail(groupId) {
     if (!group) return showCustomGroupsPanel();
     const cards = flashcards.filter(c => c.groupId === groupId);
     const canEdit = typeof MembershipPlan !== 'undefined' && MembershipPlan.isActive();
+    const publishLabel = group.visibility === 'rejected' ? '🔁 Reenviar para revisión'
+        : (group.visibility === 'public' || group.visibility === 'pending') ? '🔄 Actualizar publicación'
+        : '🌐 Publicar como público';
 
     mainContainer.innerHTML = '';
     renderLanguageBar();
@@ -786,7 +789,7 @@ function showCustomGroupDetail(groupId) {
             <div class="prac-custom-start-row">
                 ${cards.length > 0 ? `<button class="primary-btn prac-custom-start-btn" id="customStartPracticeBtn">▶ Iniciar práctica</button>` : ''}
                 ${canEdit ? `<button class="secondary-btn" id="customAddCardBtn">➕ Agregar tarjeta</button>` : ''}
-                ${canEdit && (!group.visibility || group.visibility === 'private' || group.visibility === 'rejected') ? `<button class="secondary-btn" id="customPublishBtn">🌐 Publicar como público</button>` : ''}
+                ${canEdit ? `<button class="secondary-btn" id="customPublishBtn">${publishLabel}</button>` : ''}
             </div>
             <div class="prac-groups">
                 ${cards.length === 0 ? `<p style="text-align:center;color:var(--text-muted);padding:2rem;">Este grupo no tiene tarjetas.</p>` :
