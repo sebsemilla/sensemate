@@ -62,6 +62,25 @@ function _parseSRT(text) {
   return result;
 }
 
+// Empareja cada línea original con la línea traducida cuyo rango de tiempo más se
+// solape (no requiere que ambos SRT tengan la misma cantidad de líneas ni el mismo orden).
+// Si ninguna traducción se solapa, se usa la más cercana por tiempo de inicio.
+function _matchDialogueByTime(original, translated) {
+  if (!translated.length) return original;
+  return original.map(orig => {
+    let best = null, bestOverlap = 0;
+    for (const t of translated) {
+      const overlap = Math.min(orig.end, t.end) - Math.max(orig.start, t.start);
+      if (overlap > bestOverlap) { bestOverlap = overlap; best = t; }
+    }
+    if (!best) {
+      best = translated.reduce((closest, t) =>
+        Math.abs(t.start - orig.start) < Math.abs((closest?.start ?? Infinity) - orig.start) ? t : closest, null);
+    }
+    return { ...orig, translation: best ? best.original : '' };
+  });
+}
+
 // ─────────────────────────────────────────────
 // TRADUCCIÓN BATCH DE SUBTÍTULOS SRT
 // ─────────────────────────────────────────────
@@ -1426,6 +1445,8 @@ function _showAddModal(container, editItem = null) {
   const imgInput  = overlay.querySelector('#aImageFile');
   const imgPreviewEl = overlay.querySelector('#aImgPreview');
   const crosshair = overlay.querySelector('#aImgCrosshair');
+  // Si ya hay una imagen (edición) se respeta y no se pisa con la miniatura de YouTube
+  let manualImageChosen = !!editItem?.imageSrc;
 
   // ── Idioma select → auto-fill hidden inputs ──
   const langSel = overlay.querySelector('#aLangSelect');
@@ -1516,6 +1537,7 @@ function _showAddModal(container, editItem = null) {
 
   imgInput.addEventListener('change', () => {
     const f = imgInput.files[0]; if (!f) return;
+    manualImageChosen = true;
     overlay.querySelector('#aImageName').textContent = f.name;
     const reader = new FileReader();
     reader.onload = ev => {
@@ -1526,6 +1548,19 @@ function _showAddModal(container, editItem = null) {
       imgPreviewEl.classList.remove('hidden');
     };
     reader.readAsDataURL(f);
+  });
+
+  // ── Miniatura automática de YouTube (si no se eligió una imagen propia) ──
+  overlay.querySelector('#aYT').addEventListener('input', function() {
+    if (manualImageChosen) return;
+    const m = this.value.match(/(?:v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+    if (!m) return;
+    overlay.querySelector('#aImageName').textContent = '(miniatura de YouTube)';
+    imagePosition = { x: 50, y: 50 };
+    imgPreviewEl.style.backgroundImage    = `url('https://img.youtube.com/vi/${m[1]}/hqdefault.jpg')`;
+    imgPreviewEl.style.backgroundPosition = '50% 50%';
+    if (crosshair) { crosshair.style.left = '50%'; crosshair.style.top = '50%'; }
+    imgPreviewEl.classList.remove('hidden');
   });
 
   // Drag para encuadrar
@@ -1678,7 +1713,7 @@ function _showAddModal(container, editItem = null) {
       if (!translatedDialogue.length) {
         preview.innerHTML = `<div class="imm-srt-err">⚠️ No se detectaron subtítulos. Verificá el formato .srt</div>`;
       } else if (parsedDialogue.length && translatedDialogue.length !== parsedDialogue.length) {
-        preview.innerHTML = `<div class="imm-srt-err">⚠️ Este archivo tiene ${translatedDialogue.length} líneas, pero el original tiene ${parsedDialogue.length}. Deben coincidir en cantidad y orden.</div>`;
+        preview.innerHTML = `<div class="imm-srt-ok">✅ ${translatedDialogue.length} líneas de traducción importadas — se van a emparejar por tiempo con las ${parsedDialogue.length} líneas originales (no hace falta que coincida la cantidad).</div>`;
       } else {
         preview.innerHTML = `<div class="imm-srt-ok">✅ ${translatedDialogue.length} líneas de traducción importadas</div>`;
       }
@@ -1773,7 +1808,7 @@ function _showAddModal(container, editItem = null) {
 
     // Subtítulos
     const sRadio   = overlay.querySelector('input[name="sSrc"]:checked')?.value || 'srt';
-    const dialogue = sRadio === 'srt'
+    let dialogue = sRadio === 'srt'
       ? parsedDialogue
       : manualRows
           .filter(r => r.original && r.start !== '' && r.end !== '')
@@ -1807,11 +1842,12 @@ function _showAddModal(container, editItem = null) {
         err.textContent = 'Elegí el idioma de la traducción que subiste.';
         err.classList.remove('hidden'); return;
       }
-      if (!translatedDialogue.length || translatedDialogue.length !== dialogue.length) {
-        err.textContent = `El SRT de traducción debe tener la misma cantidad de líneas que el original (original: ${dialogue.length}, traducción: ${translatedDialogue.length}).`;
+      if (!translatedDialogue.length) {
+        err.textContent = 'Subí un archivo .srt con la traducción.';
         err.classList.remove('hidden'); return;
       }
-      dialogue.forEach((d, i) => { d.translation = translatedDialogue[i].original; });
+      // No hace falta que coincida la cantidad de líneas: se empareja por solapamiento de tiempo
+      dialogue = _matchDialogueByTime(dialogue, translatedDialogue);
     } else if (editItem?.dialogue?.some(d => d.translation) && dialogue === editItem.dialogue) {
       // Se mantiene la traducción existente (no se tocó la sección de traducción al editar)
       subtitleLang = editItem.subtitleLang || '';
