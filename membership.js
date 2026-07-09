@@ -110,6 +110,23 @@ const MembershipPlan = {
     isFlashcardGroupLocked(index) {
         if (this.isActive()) return false;
         return index > 0; // free: only first group unlocked
+    },
+
+    // ─── Grupos de flashcards propios (creados por el usuario) ───
+    _FC_GROUP_MONTH_KEY: 'ls_fc_group_month',
+
+    canCreateFlashcardGroup() {
+        if (this.isActive()) return true;
+        return localStorage.getItem(this._FC_GROUP_MONTH_KEY) !== _todayKey().slice(0, 7);
+    },
+
+    markFlashcardGroupCreated() {
+        localStorage.setItem(this._FC_GROUP_MONTH_KEY, _todayKey().slice(0, 7));
+    },
+
+    // Tope de tarjetas por grupo para plan free; Premium/Oro sin límite
+    maxCardsPerGroup() {
+        return this.isActive() ? Infinity : 10;
     }
 };
 
@@ -1067,7 +1084,10 @@ function _showUpgradeModal(feature) {
         audio:      isES ? 'El audio TTS está disponible solo en el plan Premium' : 'TTS audio is only available in the Premium plan',
         flashcards: isES ? 'Este grupo de flashcards es exclusivo del plan Premium' : 'This flashcard group is exclusive to the Premium plan',
         musicians:  isES ? 'Ya usaste tu sesión gratuita de Músicos con Letras' : 'You\'ve used your free Musicians session',
-        immersion:  isES ? 'Ya usaste tu sesión gratuita de Aprende con...' : 'You\'ve used your free Immersion session'
+        immersion:  isES ? 'Ya usaste tu sesión gratuita de Aprende con...' : 'You\'ve used your free Immersion session',
+        flashcard_group_month: isES ? 'Ya creaste tu grupo de flashcards de este mes' : 'You\'ve already created your flashcard group this month',
+        flashcard_group_cap:   isES ? 'Los grupos del plan gratuito tienen un máximo de 10 tarjetas' : 'Free plan groups have a maximum of 10 cards',
+        flashcard_publish:     isES ? 'Publicar un grupo como público es una función Premium' : 'Publishing a group as public is a Premium feature'
     };
 
     const featureUsage = {
@@ -1077,7 +1097,10 @@ function _showUpgradeModal(feature) {
         audio:      isES ? 'Función Premium' : 'Premium feature',
         flashcards: isES ? 'Grupo bloqueado' : 'Locked group',
         musicians:  isES ? 'Sesión única utilizada' : 'Single session used',
-        immersion:  isES ? 'Sesión única utilizada' : 'Single session used'
+        immersion:  isES ? 'Sesión única utilizada' : 'Single session used',
+        flashcard_group_month: isES ? '1 grupo por mes en el plan gratuito' : '1 group per month on the free plan',
+        flashcard_group_cap:   isES ? '10/10 tarjetas' : '10/10 cards',
+        flashcard_publish:     isES ? 'Función Premium' : 'Premium feature'
     };
 
     const message = featureMessages[feature] || featureMessages.translate;

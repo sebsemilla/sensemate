@@ -39,6 +39,7 @@ function loadAdminPanel() {
                             <span class="admin-sec-group-label">Contenidos</span>
                             <button class="admin-sec-item" data-tab="songs" id="adminTabSongs">🎵 Canciones</button>
                             <button class="admin-sec-item" data-tab="writers" id="adminTabWriters">📖 Escritores</button>
+                            <button class="admin-sec-item" data-tab="flashcards" id="adminTabFlashcards">📇 Flashcards</button>
                         </div>
 
                         <div class="admin-sec-divider"></div>
@@ -149,6 +150,8 @@ async function _adminLoadTab(tab) {
             await _adminRenderSongs(content);
         } else if (tab === 'writers') {
             await _adminRenderWriters(content);
+        } else if (tab === 'flashcards') {
+            await _adminRenderFlashcardGroups(content);
         } else if (tab === 'stats') {
             await _adminRenderStats(content);
         } else if (tab === 'contributors') {
@@ -1225,6 +1228,94 @@ async function _adminRenderWriters(container) {
                 method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN }
             });
             _adminLoadTab('writers');
+        });
+    });
+}
+
+// ─── Admin: Grupos de Flashcards públicos ─────────────────────
+
+async function _adminRenderFlashcardGroups(container) {
+    const res = await fetch(_API_HOST + '/admin/flashcard-groups', { headers: { 'x-admin-token': ADMIN_TOKEN } });
+    if (!res.ok) throw new Error('Error al cargar grupos de flashcards');
+    const all = await res.json();
+
+    const pending  = all.filter(s => s.status === 'pending');
+    const approved = all.filter(s => s.status === 'approved');
+    const rejected = all.filter(s => s.status === 'rejected');
+
+    function groupCard(s) {
+        const statusCls   = s.status === 'approved' ? 'asong-status--approved' : s.status === 'rejected' ? 'asong-status--rejected' : 'asong-status--pending';
+        const statusLabel = s.status === 'approved' ? '✅ Aprobado' : s.status === 'rejected' ? '❌ Rechazado' : '⏳ Pendiente';
+        return `
+            <div class="asong-card" data-id="${s.id}">
+                <div class="asong-card-header">
+                    <div>
+                        <span class="fc-group-dot" style="background:${s.color || '#6366f1'}"></span>
+                        <span class="asong-title">${escapeHtml(s.title)}</span>
+                    </div>
+                    <span class="asong-status ${statusCls}">${statusLabel}</span>
+                </div>
+                <div class="asong-meta">
+                    <span class="asong-lang">📇 ${s.cards.length} tarjeta${s.cards.length !== 1 ? 's' : ''}</span>
+                    <span class="asong-submitter">👤 ${escapeHtml(s.submittedBy || '—')}</span>
+                    <span class="asong-submitter">${new Date(s.submittedAt).toLocaleDateString()}</span>
+                </div>
+                ${s.notes ? `<div class="asong-preview" style="color:var(--text-muted);font-style:italic">${escapeHtml(s.notes)}</div>` : ''}
+                <div class="asong-preview">${s.cards.slice(0, 3).map(c => `${escapeHtml(c.word)} → ${escapeHtml(c.translation)}`).join(' · ')}${s.cards.length > 3 ? '…' : ''}</div>
+                ${s.adminNote ? `<div class="asong-note">📝 ${escapeHtml(s.adminNote)}</div>` : ''}
+                <div class="asong-actions">
+                    ${s.status !== 'approved' ? `<button class="asong-btn asong-btn--approve" data-id="${s.id}">✅ Aprobar</button>` : ''}
+                    ${s.status !== 'rejected' ? `<button class="asong-btn asong-btn--reject"  data-id="${s.id}">❌ Rechazar</button>` : ''}
+                    <button class="asong-btn asong-btn--edit-wt"   data-id="${s.id}">✏️ Nota</button>
+                    <button class="asong-btn asong-btn--delete-wt" data-id="${s.id}">🗑️</button>
+                </div>
+            </div>`;
+    }
+
+    container.innerHTML = `
+        <div class="admin-songs-wrap">
+            <div class="asong-stats-row">
+                <span class="asong-stat">⏳ <strong>${pending.length}</strong> pendientes</span>
+                <span class="asong-stat">✅ <strong>${approved.length}</strong> aprobados</span>
+                <span class="asong-stat">❌ <strong>${rejected.length}</strong> rechazados</span>
+            </div>
+            <div class="asong-list">
+                ${all.length ? all.map(groupCard).join('') : '<div class="admin-empty">📭 No hay grupos de flashcards enviados aún.</div>'}
+            </div>
+        </div>
+    `;
+
+    async function patchGroup(id, fields) {
+        await fetch(`${_API_HOST}/admin/flashcard-groups/${id}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json', 'x-admin-token': ADMIN_TOKEN },
+            body: JSON.stringify(fields)
+        });
+        _adminLoadTab('flashcards');
+    }
+
+    container.querySelectorAll('.asong-btn--approve').forEach(btn =>
+        btn.addEventListener('click', () => patchGroup(btn.dataset.id, { status: 'approved' }))
+    );
+    container.querySelectorAll('.asong-btn--reject').forEach(btn =>
+        btn.addEventListener('click', () => patchGroup(btn.dataset.id, { status: 'rejected' }))
+    );
+    container.querySelectorAll('.asong-btn--edit-wt').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const s = all.find(x => x.id === btn.dataset.id);
+            if (!s) return;
+            const note = prompt('Nota admin:', s.adminNote || '');
+            if (note === null) return;
+            patchGroup(s.id, { adminNote: note });
+        });
+    });
+    container.querySelectorAll('.asong-btn--delete-wt').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            if (!confirm('¿Eliminar este grupo de flashcards?')) return;
+            await fetch(`${_API_HOST}/admin/flashcard-groups/${btn.dataset.id}`, {
+                method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN }
+            });
+            _adminLoadTab('flashcards');
         });
     });
 }

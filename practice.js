@@ -717,11 +717,11 @@ function showCustomGroupsPanel() {
                 ` : groups.map(g => {
                     const cards = (flashcards || []).filter(c => c.groupId === g.id);
                     return `
-                    <div class="prac-group-card prac-custom-card" data-group-id="${g.id}" style="--gc:#6366f1">
+                    <div class="prac-group-card prac-custom-card" data-group-id="${g.id}" style="--gc:${g.color || '#6366f1'}">
                         <div class="prac-group-left">
                             <div class="prac-group-icon">📝</div>
                             <div class="prac-group-info">
-                                <div class="prac-group-name">${escapeHtml(g.name)}</div>
+                                <div class="prac-group-name">${escapeHtml(g.name)} ${_fcVisibilityBadge(g.visibility)}</div>
                                 <div class="prac-group-count">${cards.length} tarjeta${cards.length !== 1 ? 's' : ''}</div>
                             </div>
                         </div>
@@ -769,6 +769,7 @@ function showCustomGroupDetail(groupId) {
     const group = flashcardGroups.find(g => g.id === groupId);
     if (!group) return showCustomGroupsPanel();
     const cards = flashcards.filter(c => c.groupId === groupId);
+    const canEdit = typeof MembershipPlan !== 'undefined' && MembershipPlan.isActive();
 
     mainContainer.innerHTML = '';
     renderLanguageBar();
@@ -777,22 +778,29 @@ function showCustomGroupDetail(groupId) {
             <div class="prac-header">
                 <button class="school-back-btn" id="customDetailBackBtn">← Mis Tarjetas</button>
             </div>
-            <h2 class="prac-title-centered">${escapeHtml(group.name)}</h2>
-            ${cards.length > 0 ? `
+            <h2 class="prac-title-centered">
+                <span class="fc-group-dot" style="background:${group.color || '#6366f1'}"></span>
+                ${escapeHtml(group.name)} ${typeof _fcVisibilityBadge === 'function' ? _fcVisibilityBadge(group.visibility) : ''}
+            </h2>
+            ${group.notes ? `<p class="fc-group-notes">${escapeHtml(group.notes)}</p>` : ''}
             <div class="prac-custom-start-row">
-                <button class="primary-btn prac-custom-start-btn" id="customStartPracticeBtn">▶ Iniciar práctica</button>
-            </div>` : ''}
+                ${cards.length > 0 ? `<button class="primary-btn prac-custom-start-btn" id="customStartPracticeBtn">▶ Iniciar práctica</button>` : ''}
+                ${canEdit ? `<button class="secondary-btn" id="customAddCardBtn">➕ Agregar tarjeta</button>` : ''}
+                ${canEdit && (!group.visibility || group.visibility === 'private' || group.visibility === 'rejected') ? `<button class="secondary-btn" id="customPublishBtn">🌐 Publicar como público</button>` : ''}
+            </div>
             <div class="prac-groups">
                 ${cards.length === 0 ? `<p style="text-align:center;color:var(--text-muted);padding:2rem;">Este grupo no tiene tarjetas.</p>` :
                 cards.map((c, i) => `
-                    <div class="prac-group-card" style="--gc:#6366f1">
+                    <div class="prac-group-card" style="--gc:${group.color || '#6366f1'}">
+                        ${c.image ? `<img class="fc-added-thumb" src="${c.image}" alt="">` : ''}
                         <div class="prac-group-left">
                             <div class="prac-group-icon">${i + 1}</div>
                             <div class="prac-group-info">
                                 <div class="prac-group-name">${escapeHtml(c.word)}</div>
-                                <div class="prac-group-desc">${escapeHtml(c.translation)}</div>
+                                <div class="prac-group-desc">${escapeHtml(c.translation)}${c.phonetic ? ` <span class="fc-added-phonetic">${escapeHtml(c.phonetic)}</span>` : ''}</div>
                             </div>
                         </div>
+                        ${canEdit ? `<div class="prac-group-right"><button class="prac-custom-delete-btn" data-card-id="${c.id}" title="Quitar tarjeta">🗑️</button></div>` : ''}
                     </div>`).join('')}
             </div>
         </div>
@@ -801,6 +809,21 @@ function showCustomGroupDetail(groupId) {
     document.getElementById('customDetailBackBtn').addEventListener('click', showCustomGroupsPanel);
     document.getElementById('customStartPracticeBtn')?.addEventListener('click', () => {
         _startCustomStudySession(group, cards, groupId);
+    });
+    document.getElementById('customAddCardBtn')?.addEventListener('click', () => {
+        if (typeof _showAddCardsFlow === 'function') _showAddCardsFlow(groupId, false);
+    });
+    document.getElementById('customPublishBtn')?.addEventListener('click', () => {
+        if (typeof _publishGroupAsPublic === 'function') _publishGroupAsPublic(groupId);
+    });
+    document.querySelectorAll('.prac-custom-delete-btn[data-card-id]').forEach(btn => {
+        btn.addEventListener('click', () => {
+            if (!confirm('¿Quitar esta tarjeta del grupo?')) return;
+            loadFlashcardData();
+            flashcards = flashcards.filter(c => c.id !== btn.dataset.cardId);
+            saveFlashcardData();
+            showCustomGroupDetail(groupId);
+        });
     });
 }
 
@@ -833,7 +856,9 @@ function _showCustomStudyCard(deck, idx, group, groupId, settings) {
                     <div class="prac-custom-flashcard ${flipped ? 'flipped' : ''}" id="customFlashcard">
                         <div class="prac-custom-face prac-custom-front">
                             <div class="prac-custom-label">Palabra</div>
+                            ${card.image ? `<img class="prac-custom-img" src="${card.image}" alt="">` : ''}
                             <div class="prac-custom-word">${escapeHtml(card.word)}</div>
+                            ${card.phonetic ? `<div class="fc-added-phonetic">${escapeHtml(card.phonetic)}</div>` : ''}
                             ${card.source ? `<div class="prac-custom-source">📎 ${escapeHtml(card.source)}</div>` : ''}
                         </div>
                         <div class="prac-custom-face prac-custom-back">
@@ -958,5 +983,8 @@ function _showCustomConfigPanel() {
 
 function loadAllStories() { return Promise.resolve(); }
 function showAllGroups()   { showPracticeOverview(); }
-function showGroupDetail() { showPracticeOverview(); }
-function createNewGroup()  { showPracticeOverview(); }
+function showGroupDetail(groupId) {
+    if (groupId) showCustomGroupDetail(groupId);
+    else showPracticeOverview();
+}
+function createNewGroup()  { _showNewGroupForm(); }

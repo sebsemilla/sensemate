@@ -1666,6 +1666,98 @@ app.get('/admin/writers/points', (req, res) => {
     res.json(_calcWriterPoints(loadWriterSubmissions()));
 });
 
+// ─── Flashcard Groups — grupos públicos con aprobación de admin ──
+
+const FLASHCARD_SUBMISSIONS_FILE = path.join(__dirname, 'flashcard_group_submissions.json');
+
+function loadFlashcardSubmissions() {
+    try { return JSON.parse(fs.readFileSync(FLASHCARD_SUBMISSIONS_FILE, 'utf8')); }
+    catch { return []; }
+}
+function saveFlashcardSubmissions(data) {
+    fs.writeFileSync(FLASHCARD_SUBMISSIONS_FILE, JSON.stringify(data, null, 2), 'utf8');
+}
+
+// POST /flashcard-groups/submit — publicar grupo (Premium requerido; admin → aprobación directa)
+app.post('/flashcard-groups/submit', (req, res) => {
+    const isAdminSubmit = req.headers['x-admin-token'] === ADMIN_TOKEN;
+
+    let userId = null;
+    if (!isAdminSubmit) {
+        const auth = req.headers.authorization || '';
+        try {
+            const payload = require('jsonwebtoken').verify(auth.slice(7), process.env.JWT_SECRET || 'lingua_dev_secret_change_in_prod');
+            if (!payload.isDev && payload.plan !== 'premium' && payload.plan !== 'trial' &&
+                !payload.plan?.startsWith('premium') && !payload.plan?.startsWith('oro')) {
+                return res.status(403).json({ error: 'Se requiere membresía Premium para publicar un grupo.' });
+            }
+            userId = payload.id;
+        } catch {
+            return res.status(401).json({ error: 'Sesión inválida. Iniciá sesión para continuar.' });
+        }
+    }
+
+    const { title, color, notes, cards } = req.body;
+    if (!title || !Array.isArray(cards) || !cards.length) {
+        return res.status(400).json({ error: 'Faltan campos requeridos: título y al menos una tarjeta.' });
+    }
+    if (cards.some(c => !c.word || !c.translation)) {
+        return res.status(400).json({ error: 'Cada tarjeta necesita frente y reverso.' });
+    }
+
+    const entry = {
+        id:          `fg_${Date.now()}`,
+        title:       title.trim(),
+        color:       color || '#6366f1',
+        notes:       (notes || '').trim(),
+        cards:       cards.map(c => ({
+            word:        String(c.word).trim(),
+            translation: String(c.translation).trim(),
+            phonetic:    c.phonetic ? String(c.phonetic).trim() : '',
+            image:       c.image || null,
+        })),
+        submittedBy: userId || 'admin',
+        status:      isAdminSubmit ? 'approved' : 'pending',
+        submittedAt: new Date().toISOString(),
+    };
+
+    const all = loadFlashcardSubmissions();
+    all.push(entry);
+    saveFlashcardSubmissions(all);
+
+    console.log(`📇 Grupo de flashcards ${isAdminSubmit ? 'aprobado directamente' : 'enviado para revisión'}: "${entry.title}"`);
+    res.json({ ok: true, id: entry.id, autoApproved: isAdminSubmit });
+});
+
+// GET /admin/flashcard-groups — todas las submissions
+app.get('/admin/flashcard-groups', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    res.json(loadFlashcardSubmissions());
+});
+
+// PATCH /admin/flashcard-groups/:id — aprobar, rechazar o editar
+app.patch('/admin/flashcard-groups/:id', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    const all   = loadFlashcardSubmissions();
+    const entry = all.find(s => s.id === req.params.id);
+    if (!entry) return res.status(404).json({ error: 'No encontrado' });
+
+    ['status', 'title', 'color', 'notes', 'adminNote'].forEach(f => {
+        if (req.body[f] !== undefined) entry[f] = req.body[f];
+    });
+    entry.updatedAt = new Date().toISOString();
+
+    saveFlashcardSubmissions(all);
+    res.json({ ok: true });
+});
+
+// DELETE /admin/flashcard-groups/:id — eliminar (grupos públicos)
+app.delete('/admin/flashcard-groups/:id', (req, res) => {
+    if (!checkAdminToken(req, res)) return;
+    saveFlashcardSubmissions(loadFlashcardSubmissions().filter(s => s.id !== req.params.id));
+    res.json({ ok: true });
+});
+
 // ─── Contributors & Publications ─────────────────────────────
 
 const CONTRIBUTOR_CODE   = 'SOYPROFE';

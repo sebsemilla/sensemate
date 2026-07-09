@@ -12479,6 +12479,8 @@ body.dark-mode .app-mode-btn {
 .prac-custom-start-row {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
     margin: 0.5rem 0 1rem;
 }
 .prac-custom-start-btn { padding: 0.55rem 2rem; }
