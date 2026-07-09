@@ -196,6 +196,10 @@ const _IMM_LEVEL_KEY = 'ls_imm_level';
 const _IMM_TARGET_LANG_KEY = 'ls_imm_targetLanguage';
 const _IMM_SUBLANG_KEY     = 'ls_imm_subtitleLang';
 
+// Modo de subtítulos en el reproductor: 'both' | 'orig' | 'trans' | 'off'
+const _IMM_SUB_MODE_KEY = 'ls_imm_sub_mode';
+let _immSubMode = 'both';
+
 // Lista completa de idiomas (con variantes regionales) para los selects del formulario de subida.
 // value = "código|nombre|bandera"
 const _IMM_FORM_LANGS = [
@@ -248,10 +252,9 @@ function _renderBrowser(container) {
     || (typeof targetLang !== 'undefined' ? targetLang : '')
     || 'en';
   // Idioma a aprender (objetivo): 'all', 'sn' (sin objetivo), o código de idioma.
-  // Default: el sourceLang global de la app.
-  const activeTargetLang = localStorage.getItem(_IMM_TARGET_LANG_KEY)
-    || (typeof sourceLang !== 'undefined' ? sourceLang : '')
-    || 'all';
+  // Default 'all': la mayoría del contenido (inmersión pura) no tiene target asignado,
+  // así que filtrar por defecto según sourceLang lo ocultaría casi todo.
+  const activeTargetLang = localStorage.getItem(_IMM_TARGET_LANG_KEY) || 'all';
   // Idioma de subtítulos disponibles: 'all' (no filtra) o código de idioma
   const activeSubLang = localStorage.getItem(_IMM_SUBLANG_KEY) || 'all';
   // Nivel activo: 'all' (todos), 'sn' (sin nivel asignado), o un código A1..C2
@@ -453,6 +456,14 @@ function _loadStudyArea(container, content) {
   const progress  = _getProgress(content.id);
   const isVideoHTML = !!content.videoSrc;
 
+  // ── Modo de subtítulos (Original / Traducción / Ambos / Ninguno) ──
+  const hasTranslation = !!content.dialogue?.some(d => d.translation);
+  const savedSubMode = localStorage.getItem(_IMM_SUB_MODE_KEY) || 'both';
+  _immSubMode = (savedSubMode === 'trans' || savedSubMode === 'both') && !hasTranslation
+    ? 'orig' : savedSubMode;
+  const origLangName  = content.languageName || content.language || 'Original';
+  const transLangName = (_IMM_LANGS.find(l => l.code === content.subtitleLang)?.name) || content.subtitleLang || 'Traducción';
+
   container.innerHTML = `
     <div class="imm-wrap imm-study-wrap">
 
@@ -579,6 +590,18 @@ function _loadStudyArea(container, content) {
         </div>
       `}
 
+      <!-- ── Selector de subtítulos ── -->
+      <div class="imm-sub-mode-wrap">
+        <select class="imm-lang-picker" id="immSubModeSelect" title="Subtítulos">
+          <option value="both" ${_immSubMode === 'both' ? 'selected' : ''} ${!hasTranslation ? 'disabled' : ''}>
+            💬 ${origLangName} + ${transLangName}
+          </option>
+          <option value="orig" ${_immSubMode === 'orig' ? 'selected' : ''}>💬 Solo ${origLangName}</option>
+          ${hasTranslation ? `<option value="trans" ${_immSubMode === 'trans' ? 'selected' : ''}>💬 Solo ${transLangName}</option>` : ''}
+          <option value="off" ${_immSubMode === 'off' ? 'selected' : ''}>🚫 Sin subtítulos</option>
+        </select>
+      </div>
+
       <!-- ── Stage de subtítulos con efecto degradé ── -->
       <div class="imm-subtitle-stage">
         <div class="imm-sub-line imm-sub-prev" id="immSubPrev"></div>
@@ -647,6 +670,18 @@ function _loadStudyArea(container, content) {
   // Marcador (aplica a video HTML5 también)
   document.getElementById('immAddBm')?.addEventListener('click', () => {
     if (_immMedia) _showBmModal(_immMedia.currentTime, content.id, bookmarks);
+  });
+
+  // Selector de subtítulos
+  document.getElementById('immSubModeSelect')?.addEventListener('change', function() {
+    _immSubMode = this.value;
+    localStorage.setItem(_IMM_SUB_MODE_KEY, _immSubMode);
+    // Si ya hay una línea mostrándose, re-renderizarla con el nuevo modo
+    // (bypass del guard "sin cambios" en _syncSubtitles; antes de dar play no hace falta)
+    if (_immLineIdx !== -1) {
+      _immLineIdx = -2;
+      _syncSubtitles(_immMedia ? _immMedia.currentTime : 0, content);
+    }
   });
 
   // Video toggle
@@ -947,16 +982,19 @@ function _syncSubtitles(t, content) {
 
 function _renderSubLine(el, line, isCurrent) {
   if (!el) return;
-  if (!line) { el.innerHTML = ''; return; }
+  if (!line || _immSubMode === 'off') { el.innerHTML = ''; return; }
 
   const isAdmin = typeof currentUser !== 'undefined' && currentUser?.isDev;
 
-  // En la línea central, cada palabra es clickeable
-  const origHtml = isCurrent
-    ? _makeWords(line.original)
-    : _esc(line.original);
+  // "Solo traducción": la traducción pasa a ser el texto principal (si esta línea la tiene;
+  // si no, se muestra el original como respaldo). El resto de los modos muestran el original
+  // como texto principal, con la traducción debajo salvo en modo "Solo original".
+  const showTransAsMain = _immSubMode === 'trans' && !!line.translation;
+  const mainText  = showTransAsMain ? line.translation : line.original;
+  const origHtml  = isCurrent ? _makeWords(mainText) : _esc(mainText);
 
-  const transHtml = line.translation
+  const showSecondaryTrans = !showTransAsMain && _immSubMode !== 'orig' && !!line.translation;
+  const transHtml = showSecondaryTrans
     ? `<div class="imm-sub-trans">${_esc(line.translation)}</div>`
     : '';
 

@@ -4714,6 +4714,14 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
    V2: Subtitle stage
    ───────────────────────────────────────────── */
 
+.imm-sub-mode-wrap {
+  display: flex;
+  justify-content: center;
+}
+.imm-sub-mode-wrap .imm-lang-picker {
+  max-width: 100%;
+}
+
 .imm-subtitle-stage {
   position: relative;
   background: var(--card-bg, #fff);
