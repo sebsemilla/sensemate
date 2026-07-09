@@ -236,8 +236,10 @@ async function _publishGroupAsPublic(groupId) {
     }
 
     try {
+        const isAdminUser = typeof isAdmin === 'function' && isAdmin();
         const res = await _authFetch(`${_API_HOST}/flashcard-groups/submit`, {
             method: 'POST',
+            headers: isAdminUser ? { 'x-admin-token': ADMIN_TOKEN } : {},
             body: JSON.stringify({
                 title: group.name,
                 color: group.color,
