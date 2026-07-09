@@ -1957,13 +1957,13 @@ const DEFAULT_MEMBERSHIP_CONFIG = {
         annualPrice: 9.99,
         badge: '🔥 Precio de lanzamiento',
         urgencyText: {
-            es: 'Solo para los primeros 500 usuarios',
-            en: 'Only for the first 500 users'
+            es: 'Solo para los primeros 250 usuarios',
+            en: 'Only for the first 250 users'
         }
     },
     regular: { monthlyPrice: 4.99, annualPrice: 34.99 },
     trialDays: 30,
-    planName: { es: 'Premium 500X', en: 'STARTUP FOR 500X' },
+    planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' },
     limits: { translationsPerDay: 50, schoolMessages: 10, famousMessages: 5 }
 };
 
@@ -2024,7 +2024,7 @@ app.get('/membership/counter', (req, res) => {
     const config        = loadMembershipConfig();
     const subscriptions = loadSubscriptions();
     const current       = subscriptions.length;
-    const max           = config.promo?.maxSubscribers || 500;
+    const max           = config.promo?.maxSubscribers || 250;
     res.json({ current, max, remaining: Math.max(0, max - current) });
 });
 

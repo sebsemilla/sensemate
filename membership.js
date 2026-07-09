@@ -195,7 +195,7 @@ async function loadMembershipSection() {
     const region  = localStorage.getItem('ls_region') || 'latam';
     const lang    = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
     const isES    = lang !== 'en';
-    const planName = isES ? (config.planName?.es || 'Premium 500X') : (config.planName?.en || 'STARTUP FOR 500X');
+    const planName = isES ? (config.planName?.es || 'Premium 250X') : (config.planName?.en || 'STARTUP FOR 250X');
     const promoActive = config.promo?.active;
     const promoMonthly = config.promo?.monthlyPrice || 2.00;
     const promoAnnual  = config.promo?.annualPrice  || 9.99;
@@ -573,7 +573,7 @@ async function _loadMembershipLite() {
     mainContainer.innerHTML = '';
     renderLanguageBar();
 
-    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 9.99, badge: '🔥 Precio de lanzamiento' }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 500X', en: 'STARTUP FOR 500X' } };
+    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 9.99, badge: '🔥 Precio de lanzamiento' }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' } };
     try {
         const r = await fetch(_API_HOST + '/membership/config');
         if (r.ok) { const d = await r.json(); config = d.config || config; }
@@ -583,7 +583,7 @@ async function _loadMembershipLite() {
     const region      = localStorage.getItem('ls_region') || 'latam';
     const lang        = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
     const isES        = lang !== 'en';
-    const planName    = isES ? (config.planName?.es || 'Premium 500X') : (config.planName?.en || 'STARTUP FOR 500X');
+    const planName    = isES ? (config.planName?.es || 'Premium 250X') : (config.planName?.en || 'STARTUP FOR 250X');
     const promoActive = config.promo?.active;
     const promoMonthly = config.promo?.monthlyPrice || 2.00;
     const promoAnnual  = config.promo?.annualPrice  || 9.99;
@@ -770,7 +770,7 @@ function _startTrialFlow() {
 
     if (region === 'latam') {
         MembershipPlan.startTrial();
-        if (typeof showToast === 'function') showToast('✅ ' + (isES ? '¡1 mes gratis activado! Bienvenido/a a Premium 500X' : '1 free month activated! Welcome to STARTUP FOR 500X'));
+        if (typeof showToast === 'function') showToast('✅ ' + (isES ? '¡1 mes gratis activado! Bienvenido/a a Premium 250X' : '1 free month activated! Welcome to STARTUP FOR 250X'));
         setTimeout(() => showMainMenu(), 800);
     } else {
         // EU: show a modal placeholder
@@ -1027,7 +1027,7 @@ function _showActivationModal(period) {
     const lang  = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
     const isES  = lang !== 'en';
     const config   = _membershipConfig || {};
-    const planName = isES ? (config.planName?.es || 'Premium 500X') : (config.planName?.en || 'STARTUP FOR 500X');
+    const planName = isES ? (config.planName?.es || 'Premium 250X') : (config.planName?.en || 'STARTUP FOR 250X');
 
     const modal = document.createElement('div');
     modal.className = 'payment-modal-overlay';
@@ -1146,7 +1146,7 @@ function _showUpgradeModal(feature) {
                 <p class="upgrade-modal-cta-text">
                     ${isContribFeature
                         ? (isES ? 'Sumate como Contributor y publicá tus grupos de flashcards para toda la comunidad — desde u$s 4.99/mes' : 'Join as a Contributor and publish your flashcard groups for the whole community — from u$s 4.99/month')
-                        : (isES ? 'Desbloqueá acceso ilimitado con Premium 500X — desde u$s 2/mes' : 'Unlock unlimited access with STARTUP FOR 500X — from u$s 2/month')}
+                        : (isES ? 'Desbloqueá acceso ilimitado con Premium 250X — desde u$s 2/mes' : 'Unlock unlimited access with STARTUP FOR 250X — from u$s 2/month')}
                 </p>
                 <div class="upgrade-modal-btns">
                     <button class="plan-cta-btn plan-cta-btn--premium" id="upgradeSeePlanBtn">
