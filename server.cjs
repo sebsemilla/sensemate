@@ -1773,6 +1773,23 @@ app.delete('/admin/flashcard-groups/:id', (req, res) => {
     res.json({ ok: true });
 });
 
+// GET /flashcard-groups/my-submissions — estado actual de mis propios envíos
+// (el frontend lo usa para detectar aprobaciones/rechazos/eliminaciones y
+// sincronizar la copia local del grupo, ver flashcards.js:_fcSyncSubmissionStatus)
+app.get('/flashcard-groups/my-submissions', (req, res) => {
+    const auth = req.headers.authorization || '';
+    let payload;
+    try {
+        payload = require('jsonwebtoken').verify(auth.slice(7), process.env.JWT_SECRET || 'lingua_dev_secret_change_in_prod');
+    } catch {
+        return res.status(401).json({ error: 'Sesión inválida.' });
+    }
+    const mine = loadFlashcardSubmissions()
+        .filter(s => s.submittedBy === payload.id)
+        .map(s => ({ id: s.id, status: s.status, title: s.title, adminNote: s.adminNote || null, updatedAt: s.updatedAt || s.submittedAt }));
+    res.json(mine);
+});
+
 // ─── Contributors & Publications ─────────────────────────────
 
 const CONTRIBUTOR_CODE   = 'SOYPROFE';

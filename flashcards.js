@@ -266,3 +266,46 @@ async function _publishGroupAsPublic(groupId) {
         showToast('❌ Error de red al publicar el grupo');
     }
 }
+
+// ─── Sincronizar estado de mis publicaciones (aprobado/rechazado/eliminado) ──
+// Se llama al entrar a "Mis Tarjetas". Compara los grupos que el usuario tiene
+// marcados como 'pending'/'public' contra el estado real en el servidor y
+// avisa por toast si algo cambió desde la última vez que los vio.
+
+async function _fcSyncSubmissionStatus() {
+    loadFlashcardData();
+    const tracked = flashcardGroups.filter(g => g.serverSubmissionId && (g.visibility === 'pending' || g.visibility === 'public'));
+    if (!tracked.length) return false;
+
+    let res;
+    try {
+        res = await _authFetch(`${_API_HOST}/flashcard-groups/my-submissions`, { method: 'GET' });
+    } catch {
+        return false;
+    }
+    if (!res.ok) return false;
+    const submissions = await res.json();
+    const byId = Object.fromEntries(submissions.map(s => [s.id, s]));
+
+    let changed = false;
+    for (const group of tracked) {
+        const s = byId[group.serverSubmissionId];
+        if (!s) {
+            group.visibility = 'private';
+            group.serverSubmissionId = null;
+            showToast(`🗑️ Tu grupo "${group.name}" fue eliminado del catálogo público por un administrador`);
+            changed = true;
+        } else if (s.status === 'rejected' && group.visibility !== 'private') {
+            group.visibility = 'private';
+            showToast(`❌ Tu grupo "${group.name}" fue rechazado${s.adminNote ? ': ' + s.adminNote : ''} — revisalo y volvé a publicarlo cuando quieras`);
+            changed = true;
+        } else if (s.status === 'approved' && group.visibility !== 'public') {
+            group.visibility = 'public';
+            showToast(`✅ ¡Tu grupo "${group.name}" fue aprobado y ya es público!`);
+            changed = true;
+        }
+    }
+
+    if (changed) saveFlashcardData();
+    return changed;
+}

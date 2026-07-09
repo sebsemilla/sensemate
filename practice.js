@@ -762,6 +762,12 @@ function showCustomGroupsPanel() {
             showCustomGroupsPanel();
         });
     });
+
+    if (typeof _fcSyncSubmissionStatus === 'function') {
+        _fcSyncSubmissionStatus().then(changed => {
+            if (changed) showCustomGroupsPanel();
+        });
+    }
 }
 
 function showCustomGroupDetail(groupId) {
@@ -828,6 +834,12 @@ function showCustomGroupDetail(groupId) {
             showCustomGroupDetail(groupId);
         });
     });
+
+    if (typeof _fcSyncSubmissionStatus === 'function') {
+        _fcSyncSubmissionStatus().then(changed => {
+            if (changed) showCustomGroupDetail(groupId);
+        });
+    }
 }
 
 function _startCustomStudySession(group, cards, groupId) {
