@@ -2480,7 +2480,7 @@ function showMainMenu() {
 
             ${showPractice ? (sectionEnabled('practice') ? `
             <div class="practice-section">
-                <h2 class="practice-title">${t.modo_practica || 'Modo Práctica'}</h2>
+                <h2 class="practice-title">${t.modo_practica || 'Tarjetas / Flashcards'}</h2>
                 <div class="practice-buttons">
                     <div class="practice-btn" id="allFlashcardsMainBtn">
                         <div class="practice-icon">📚</div>
@@ -2499,7 +2499,7 @@ function showMainMenu() {
                     </div>
                 </div>
             </div>
-            ` : sectionMinimized('practice', '📇', 'Práctica / Flashcards')) : ''}
+            ` : sectionMinimized('practice', '📇', 'Tarjetas / Flashcards')) : ''}
 
             ${showMusicians ? (sectionEnabled('musicians') ? `
             <div class="mode-card" data-mode="musicians">
@@ -2540,7 +2540,7 @@ function showMainMenu() {
             else if (mode === 'longtext')  loadLongTextMode();
             else if (mode === 'analyzer')  loadTextAnalyzer();
             else if (mode === 'school')    requireAuth('Modo Escuela',     loadSchoolMode);
-            else if (mode === 'practice')  requireAuth('Modo Práctica',    loadPracticeMenu);
+            else if (mode === 'practice')  requireAuth('Tarjetas / Flashcards',    loadPracticeMenu);
             else if (mode === 'writers') {
                 if (typeof loadWritersMenu === 'function') loadWritersMenu();
             }
@@ -2605,7 +2605,7 @@ function showMainMenu() {
 
     // Práctica desde menú (solo existe en modo Traducción)
     document.getElementById('allFlashcardsMainBtn')?.addEventListener('click', () =>
-        requireAuth('Modo Práctica', () => { loadFlashcardData(); showAllGroups(); })
+        requireAuth('Tarjetas / Flashcards', () => { loadFlashcardData(); showAllGroups(); })
     );
     document.getElementById('lastGroupMainBtn')?.addEventListener('click', () =>
         requireAuth('Flashcards', () => {
@@ -2618,7 +2618,7 @@ function showMainMenu() {
         })
     );
     document.getElementById('newGroupMainBtn')?.addEventListener('click', () =>
-        requireAuth('Modo Práctica', createNewGroup)
+        requireAuth('Tarjetas / Flashcards', createNewGroup)
     );
 }
 
@@ -3236,10 +3236,18 @@ function loadSimpleMode() {
                                     <button class="smp-action-btn smp-flash-btn"
                                             data-target="${v.id}" title="${t.guardar_flashcard_tooltip}">
                                         <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
-                                             stroke="currentColor" stroke-width="2" stroke-linecap="round">
-                                            <rect x="2" y="3" width="20" height="14" rx="2"/>
-                                            <line x1="8" y1="21" x2="16" y2="21"/>
-                                            <line x1="12" y1="17" x2="12" y2="21"/>
+                                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <rect x="3" y="8" width="14" height="10" rx="2"/>
+                                            <rect x="7" y="4" width="14" height="10" rx="2"/>
+                                        </svg>
+                                    </button>
+                                    <!-- Info: qué hace "guardar flashcard" -->
+                                    <button class="smp-action-btn smp-flash-info-btn" title="¿Qué hace esto?">
+                                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
+                                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <line x1="12" y1="16" x2="12" y2="11"/>
+                                            <circle cx="12" cy="7.5" r="0.5" fill="currentColor" stroke="none"/>
                                         </svg>
                                     </button>
                                 </div>
@@ -3672,7 +3680,46 @@ function loadSimpleMode() {
                 showToast('📇 ' + t.flashcard_guardada_toast);
             };
         });
+
+        // Info: qué hace "guardar flashcard"
+        document.querySelectorAll('.smp-flash-info-btn').forEach(btn => {
+            btn.onclick = e => {
+                e.stopPropagation();
+                _toggleFlashInfoPopover(btn);
+            };
+        });
     }
+}
+
+// ─── Popover explicativo del botón "guardar flashcard" ─────────
+
+function _toggleFlashInfoPopover(anchorBtn) {
+    const existing = document.getElementById('smpFlashInfoPopover');
+    if (existing) {
+        const wasSameAnchor = existing._anchor === anchorBtn;
+        existing.remove();
+        if (wasSameAnchor) return;
+    }
+
+    const pop = document.createElement('div');
+    pop.id = 'smpFlashInfoPopover';
+    pop.className = 'smp-flash-info-popover';
+    pop.textContent = 'Al guardar el texto lo envías dentro del grupo que tengas creado en el área "Tarjetas / Flashcards". Si aún no has creado ninguno no se enviará.';
+    pop._anchor = anchorBtn;
+    document.body.appendChild(pop);
+
+    const rect    = anchorBtn.getBoundingClientRect();
+    const maxLeft = window.innerWidth - pop.offsetWidth - 10;
+    const left    = Math.max(10, Math.min(rect.left - 110, maxLeft));
+    pop.style.top  = `${rect.bottom + 6}px`;
+    pop.style.left = `${left}px`;
+
+    const closeOnOutsideClick = e => {
+        if (pop.contains(e.target) || e.target === anchorBtn) return;
+        pop.remove();
+        document.removeEventListener('click', closeOnOutsideClick, true);
+    };
+    setTimeout(() => document.addEventListener('click', closeOnOutsideClick, true), 0);
 }
 
 
