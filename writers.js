@@ -87,25 +87,118 @@ async function loadWritersMenu() {
 
 // ─── Filtro por país (dropdown con continentes) ───────────────
 
-// Países agrupados por continente para el dropdown
+// Genera la bandera a partir del código ISO-2 (regional indicator symbols)
+function _flagEmoji(cc) {
+    const iso = { uk: 'gb' }[cc] || cc; // alias: 'uk' no es un código ISO real
+    if (!iso || iso.length !== 2) return '🌐';
+    const points = [...iso.toUpperCase()].map(c => 0x1F1E6 + (c.charCodeAt(0) - 65));
+    return String.fromCodePoint(...points);
+}
+
+// Continentes con su lista completa de países (código + nombre en español).
+// `codes` se deriva automáticamente abajo para no duplicar datos.
 const _WRITER_CONTINENTS = [
     {
-        label: 'América del Sur', emoji: '🌎',
-        codes: ['ar', 'br', 'cl', 'co', 'ec', 'pe', 'uy', 've', 'bo', 'py'],
+        key: 'sam', label: 'América del Sur', emoji: '🌎',
+        countries: [
+            { code: 'ar', label: 'Argentina' }, { code: 'bo', label: 'Bolivia' },
+            { code: 'br', label: 'Brasil' },    { code: 'cl', label: 'Chile' },
+            { code: 'co', label: 'Colombia' },  { code: 'ec', label: 'Ecuador' },
+            { code: 'gy', label: 'Guyana' },    { code: 'py', label: 'Paraguay' },
+            { code: 'pe', label: 'Perú' },      { code: 'sr', label: 'Surinam' },
+            { code: 'uy', label: 'Uruguay' },   { code: 've', label: 'Venezuela' },
+        ],
     },
     {
-        label: 'América Central y Caribe', emoji: '🌎',
-        codes: ['mx', 'cu', 'gt'],
+        key: 'cam', label: 'América Central y Caribe', emoji: '🌎',
+        countries: [
+            { code: 'bz', label: 'Belice' },       { code: 'cr', label: 'Costa Rica' },
+            { code: 'sv', label: 'El Salvador' },  { code: 'gt', label: 'Guatemala' },
+            { code: 'hn', label: 'Honduras' },     { code: 'mx', label: 'México' },
+            { code: 'ni', label: 'Nicaragua' },    { code: 'pa', label: 'Panamá' },
+            { code: 'cu', label: 'Cuba' },         { code: 'do', label: 'República Dominicana' },
+            { code: 'ht', label: 'Haití' },        { code: 'jm', label: 'Jamaica' },
+            { code: 'pr', label: 'Puerto Rico' },  { code: 'tt', label: 'Trinidad y Tobago' },
+            { code: 'bs', label: 'Bahamas' },
+        ],
     },
     {
-        label: 'Europa', emoji: '🌍',
-        codes: ['es', 'pt', 'fr', 'de', 'it', 'uk'],
+        key: 'nam', label: 'América del Norte', emoji: '🌎',
+        countries: [
+            { code: 'us', label: 'Estados Unidos' }, { code: 'ca', label: 'Canadá' },
+        ],
     },
     {
-        label: 'América del Norte', emoji: '🌎',
-        codes: ['us', 'ca'],
+        key: 'eur', label: 'Europa', emoji: '🌍',
+        countries: [
+            { code: 'es', label: 'España' },     { code: 'pt', label: 'Portugal' },
+            { code: 'fr', label: 'Francia' },    { code: 'de', label: 'Alemania' },
+            { code: 'it', label: 'Italia' },     { code: 'uk', label: 'Reino Unido' },
+            { code: 'nl', label: 'Países Bajos' },{ code: 'be', label: 'Bélgica' },
+            { code: 'ch', label: 'Suiza' },      { code: 'at', label: 'Austria' },
+            { code: 'se', label: 'Suecia' },     { code: 'no', label: 'Noruega' },
+            { code: 'dk', label: 'Dinamarca' },  { code: 'fi', label: 'Finlandia' },
+            { code: 'is', label: 'Islandia' },   { code: 'ie', label: 'Irlanda' },
+            { code: 'gr', label: 'Grecia' },     { code: 'pl', label: 'Polonia' },
+            { code: 'cz', label: 'República Checa' }, { code: 'sk', label: 'Eslovaquia' },
+            { code: 'hu', label: 'Hungría' },    { code: 'ro', label: 'Rumania' },
+            { code: 'bg', label: 'Bulgaria' },   { code: 'hr', label: 'Croacia' },
+            { code: 'rs', label: 'Serbia' },     { code: 'si', label: 'Eslovenia' },
+            { code: 'ua', label: 'Ucrania' },    { code: 'ru', label: 'Rusia' },
+            { code: 'lt', label: 'Lituania' },   { code: 'lv', label: 'Letonia' },
+            { code: 'ee', label: 'Estonia' },
+        ],
+    },
+    {
+        key: 'asi', label: 'Asia', emoji: '🌏',
+        countries: [
+            { code: 'cn', label: 'China' },      { code: 'jp', label: 'Japón' },
+            { code: 'kr', label: 'Corea del Sur' }, { code: 'in', label: 'India' },
+            { code: 'id', label: 'Indonesia' },  { code: 'ph', label: 'Filipinas' },
+            { code: 'vn', label: 'Vietnam' },    { code: 'th', label: 'Tailandia' },
+            { code: 'my', label: 'Malasia' },    { code: 'sg', label: 'Singapur' },
+            { code: 'tw', label: 'Taiwán' },     { code: 'tr', label: 'Turquía' },
+            { code: 'ir', label: 'Irán' },       { code: 'sa', label: 'Arabia Saudita' },
+            { code: 'ae', label: 'Emiratos Árabes Unidos' }, { code: 'il', label: 'Israel' },
+            { code: 'pk', label: 'Pakistán' },   { code: 'bd', label: 'Bangladés' },
+        ],
+    },
+    {
+        key: 'afr', label: 'África', emoji: '🌍',
+        countries: [
+            { code: 'eg', label: 'Egipto' },     { code: 'za', label: 'Sudáfrica' },
+            { code: 'ng', label: 'Nigeria' },    { code: 'ke', label: 'Kenia' },
+            { code: 'ma', label: 'Marruecos' },  { code: 'dz', label: 'Argelia' },
+            { code: 'tn', label: 'Túnez' },      { code: 'gh', label: 'Ghana' },
+            { code: 'et', label: 'Etiopía' },    { code: 'sn', label: 'Senegal' },
+        ],
+    },
+    {
+        key: 'oce', label: 'Oceanía', emoji: '🌏',
+        countries: [
+            { code: 'au', label: 'Australia' }, { code: 'nz', label: 'Nueva Zelanda' },
+            { code: 'fj', label: 'Fiyi' },
+        ],
     },
 ];
+_WRITER_CONTINENTS.forEach(cont => { cont.codes = cont.countries.map(c => c.code); });
+
+function _continentForCode(code) {
+    return _WRITER_CONTINENTS.find(c => c.countries.some(x => x.code === code)) || null;
+}
+
+function _normalizeStr(s) {
+    return (s || '').trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+}
+
+// Intenta resolver el texto libre de país a un código conocido dentro del continente elegido
+function _matchCountryInContinent(continentKey, typedText) {
+    const cont = _WRITER_CONTINENTS.find(c => c.key === continentKey);
+    if (!cont) return null;
+    const norm = _normalizeStr(typedText);
+    if (!norm) return null;
+    return cont.countries.find(c => _normalizeStr(c.label) === norm) || null;
+}
 
 function _renderWritersCountryBar(writers) {
     const bar = document.getElementById('writersCountryBar');
@@ -273,6 +366,8 @@ function _openTextReader(text, writer) {
 
     const info    = _countryInfo(writer.country);
     const typeTag = _genreLabel(text.type);
+    const translations = _normalizeTextTranslations(text);
+    const hasMultiple   = translations.length > 1;
 
     overlay.innerHTML = `
         <div class="wt-reader-modal">
@@ -292,8 +387,14 @@ function _openTextReader(text, writer) {
                 </div>
                 <div class="wt-reader-divider"></div>
                 <div class="wt-reader-col wt-reader-col--translation">
-                    <div class="wt-reader-col-label">🔤 Traducción · ${_langLabel(text.targetLang)}</div>
-                    <div class="wt-reader-text" id="wtTranslation">${_formatText(text.translation)}</div>
+                    <div class="wt-reader-col-label">
+                        🔤 Traducción${hasMultiple ? '' : ' · ' + _langLabel(translations[0]?.lang)}
+                        ${hasMultiple ? `
+                        <select class="wt-reader-lang-select" id="wtTranslationLangSelect">
+                            ${translations.map((t, i) => `<option value="${i}">${_langLabel(t.lang)}</option>`).join('')}
+                        </select>` : ''}
+                    </div>
+                    <div class="wt-reader-text" id="wtTranslation">${_formatText(translations[0]?.text)}</div>
                 </div>
             </div>
 
@@ -311,6 +412,11 @@ function _openTextReader(text, writer) {
     overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
     document.getElementById('wtReaderClose').addEventListener('click', close);
     document.getElementById('wtCloseFooterBtn').addEventListener('click', close);
+
+    document.getElementById('wtTranslationLangSelect')?.addEventListener('change', e => {
+        const t = translations[parseInt(e.target.value, 10)];
+        document.getElementById('wtTranslation').innerHTML = _formatText(t?.text);
+    });
 
     document.getElementById('wtSpeakBtn').addEventListener('click', () => {
         const utterance = new SpeechSynthesisUtterance(text.original);
@@ -336,20 +442,26 @@ function _openTextReader(text, writer) {
 
 // ─── Formulario de subida ─────────────────────────────────────
 
-function _showSubmitForm() {
+// `existingEntry`: si viene (solo desde el botón ⚙️ Config. del admin), el
+// formulario abre en modo edición precargado, y al guardar hace PATCH sobre
+// esa submission en vez de crear una nueva.
+function _showSubmitForm(existingEntry = null) {
     const user    = (typeof currentUser !== 'undefined') ? currentUser : null;
     const isAdmin = user?.isDev === true;
+    const isEdit  = !!existingEntry;
     const isPrem  = isAdmin || ['premium','premium_monthly','premium_annual','oro_monthly',
                                 'oro_annual','contributor_monthly','contributor_quarterly',
                                 'trial'].includes(user?.plan);
 
-    if (!user) {
-        if (typeof showToast === 'function') showToast('Iniciá sesión para subir contenido');
-        return;
-    }
-    if (!isPrem && !isAdmin) {
-        if (typeof showToast === 'function') showToast('Se requiere membresía Premium para subir textos');
-        return;
+    if (!isEdit) {
+        if (!user) {
+            if (typeof showToast === 'function') showToast('Iniciá sesión para subir contenido');
+            return;
+        }
+        if (!isPrem && !isAdmin) {
+            if (typeof showToast === 'function') showToast('Se requiere membresía Premium para subir textos');
+            return;
+        }
     }
 
     document.querySelector('.wt-submit-overlay')?.remove();
@@ -363,16 +475,48 @@ function _showSubmitForm() {
     ).join('');
 
     const isContrib = isAdmin || (user?.plan || '').startsWith('contributor');
-    const pointsInfo = isContrib
+    const pointsInfo = (isContrib && !isEdit)
         ? `<div class="wt-submit-points-info">🏆 Texto: <strong>+5 pts</strong> · Con traducción: <strong>+8 pts adicionales</strong> · A los 50 pts obtenés 1 mes gratis</div>`
         : '';
+
+    // ─ Precarga para modo edición ─
+    let initialContinentKey = '', initialCountryLabel = '';
+    let initialTranslations = [{ lang: 'Inglés', text: '' }];
+    if (isEdit) {
+        const code = (existingEntry.writerCountry || '').toLowerCase();
+        const known = _WRITER_COUNTRIES[code];
+        const cont  = (existingEntry.writerContinent && _WRITER_CONTINENTS.find(c => c.key === existingEntry.writerContinent))
+            ? { key: existingEntry.writerContinent }
+            : _continentForCode(code);
+        initialContinentKey = cont?.key || '';
+        initialCountryLabel = known ? known.label : (existingEntry.writerCountry || '');
+        const existingTrans = _normalizeTextTranslations({ translations: existingEntry.translations, translation: existingEntry.translation, targetLang: existingEntry.targetLang });
+        initialTranslations = existingTrans.length ? existingTrans.map(t => ({ lang: _langLabel(t.lang), text: t.text })) : [{ lang: 'Inglés', text: '' }];
+    }
+
+    const continentOpts = _WRITER_CONTINENTS.map(c =>
+        `<option value="${c.key}" ${c.key === initialContinentKey ? 'selected' : ''}>${c.emoji} ${c.label}</option>`
+    ).join('');
+
+    const translationBlockHTML = (t, idx) => `
+        <div class="wt-translation-block" data-idx="${idx}">
+            ${idx > 0 ? `<button type="button" class="wt-remove-translation-btn" title="Quitar">✕</button>` : ''}
+            <div class="wt-submit-field">
+                <label>Idioma de la traducción ${idx === 0 ? '<span class="wt-submit-hint">— opcional, suma +8 pts</span>' : ''}</label>
+                <input type="text" class="contrib-input wt-trans-lang" placeholder="Ej: Inglés" value="${t.lang || ''}">
+            </div>
+            <div class="wt-submit-field">
+                <label>Traducción</label>
+                <textarea class="contrib-input wt-trans-text" rows="4" maxlength="3000" placeholder="Traducción (opcional)">${t.text || ''}</textarea>
+            </div>
+        </div>`;
 
     overlay.innerHTML = `
         <div class="wt-reader-modal wt-submit-modal">
             <div class="wt-reader-header">
                 <div class="wt-reader-meta">
-                    <span class="wt-reader-type-badge">⬆️ Subir texto</span>
-                    ${isAdmin ? '<span class="wt-reader-author">Admin · aprobación directa</span>' : ''}
+                    <span class="wt-reader-type-badge">${isEdit ? '⚙️ Configurar texto' : '⬆️ Subir texto'}</span>
+                    ${isEdit ? '<span class="wt-reader-author">Editando como Admin</span>' : (isAdmin ? '<span class="wt-reader-author">Admin · aprobación directa</span>' : '')}
                 </div>
                 <button class="wt-reader-close" id="wtSubmitClose">×</button>
             </div>
@@ -384,55 +528,68 @@ function _showSubmitForm() {
                     <div class="wt-submit-field">
                         <label>Escritor/a *</label>
                         <input list="wtWritersList" id="wtSubmitWriter" class="contrib-input"
-                            placeholder="Nombre del escritor/a">
+                            placeholder="Nombre del escritor/a" value="${existingEntry?.writerName || ''}">
                         <datalist id="wtWritersList">${writerOpts}</datalist>
                     </div>
+                </div>
+
+                <div class="wt-submit-row">
                     <div class="wt-submit-field wt-submit-field--sm">
-                        <label>País *</label>
-                        <select id="wtSubmitCountry" class="contrib-input">
-                            <option value="">— País —</option>
-                            ${Object.entries({ar:'🇦🇷 Argentina',cl:'🇨🇱 Chile',uy:'🇺🇾 Uruguay',mx:'🇲🇽 México',co:'🇨🇴 Colombia',pe:'🇵🇪 Perú',es:'🇪🇸 España',br:'🇧🇷 Brasil',cu:'🇨🇺 Cuba',ve:'🇻🇪 Venezuela'})
-                                .map(([k,v]) => `<option value="${k}">${v}</option>`).join('')}
+                        <label>Continente *</label>
+                        <select id="wtSubmitContinent" class="contrib-input">
+                            <option value="">— Continente —</option>
+                            ${continentOpts}
                         </select>
+                    </div>
+                    <div class="wt-submit-field">
+                        <label>País *</label>
+                        <input list="wtCountryList" id="wtSubmitCountry" class="contrib-input"
+                            placeholder="${initialContinentKey ? 'Escribí el país...' : 'Elegí el continente primero'}"
+                            value="${initialCountryLabel}" ${initialContinentKey ? '' : 'disabled'}>
+                        <datalist id="wtCountryList"></datalist>
                     </div>
                 </div>
 
                 <div class="wt-submit-row">
                     <div class="wt-submit-field">
                         <label>Título *</label>
-                        <input type="text" id="wtSubmitTitle" class="contrib-input" placeholder="Título del texto" maxlength="120">
+                        <input type="text" id="wtSubmitTitle" class="contrib-input" placeholder="Título del texto" maxlength="120" value="${existingEntry?.title || ''}">
                     </div>
                     <div class="wt-submit-field wt-submit-field--sm">
                         <label>Tipo *</label>
                         <select id="wtSubmitType" class="contrib-input">
-                            <option value="poema">🎭 Poema</option>
-                            <option value="fragmento">📄 Fragmento</option>
-                            <option value="cuento">📖 Cuento</option>
-                            <option value="ensayo">✍️ Ensayo</option>
-                            <option value="frase">💬 Frase célebre</option>
+                            <option value="poema"     ${existingEntry?.type === 'poema'     ? 'selected' : ''}>🎭 Poema</option>
+                            <option value="fragmento" ${existingEntry?.type === 'fragmento' ? 'selected' : ''}>📄 Fragmento</option>
+                            <option value="cuento"    ${existingEntry?.type === 'cuento'    ? 'selected' : ''}>📖 Cuento</option>
+                            <option value="ensayo"    ${existingEntry?.type === 'ensayo'    ? 'selected' : ''}>✍️ Ensayo</option>
+                            <option value="frase"     ${existingEntry?.type === 'frase'     ? 'selected' : ''}>💬 Frase célebre</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="wt-submit-field">
-                    <label>Texto original (español) * <span class="wt-submit-hint">— máx. 1500 caracteres para textos públicos</span></label>
+                    <label>Idioma del texto original *</label>
+                    <input type="text" id="wtSubmitLang" class="contrib-input" placeholder="Ej: Español"
+                        value="${isEdit ? _langLabel(existingEntry.lang) : 'Español'}">
+                </div>
+                <div class="wt-submit-field">
+                    <label>Texto original * <span class="wt-submit-hint">— máx. 1500 caracteres para textos públicos</span></label>
                     <textarea id="wtSubmitOriginal" class="contrib-input" rows="5" maxlength="3000"
-                        placeholder="Pegá aquí el fragmento, poema o frase..."></textarea>
-                    <div class="wt-submit-charcount"><span id="wtOriginalCount">0</span> / 1500</div>
+                        placeholder="Pegá aquí el fragmento, poema o frase...">${existingEntry?.original || ''}</textarea>
+                    <div class="wt-submit-charcount"><span id="wtOriginalCount">${(existingEntry?.original || '').length}</span> / 1500</div>
                 </div>
 
-                <div class="wt-submit-field">
-                    <label>Traducción al inglés <span class="wt-submit-hint">— opcional, suma +8 pts</span></label>
-                    <textarea id="wtSubmitTranslation" class="contrib-input" rows="4" maxlength="3000"
-                        placeholder="Traducción (opcional)"></textarea>
+                <div class="wt-submit-translations" id="wtTranslationsWrap">
+                    ${initialTranslations.map(translationBlockHTML).join('')}
                 </div>
+                <button type="button" class="wt-add-translation-btn" id="wtAddTranslationBtn">➕ Agregar traducción</button>
 
                 <div class="wt-submit-row">
                     <div class="wt-submit-field">
                         <label>Visibilidad</label>
                         <select id="wtSubmitVisibility" class="contrib-input">
-                            <option value="public">🌐 Público — visible para todos</option>
-                            <option value="private">🔒 Privado — solo para mí</option>
+                            <option value="public"  ${existingEntry?.visibility !== 'private' ? 'selected' : ''}>🌐 Público — visible para todos</option>
+                            <option value="private" ${existingEntry?.visibility === 'private' ? 'selected' : ''}>🔒 Privado — solo para mí</option>
                         </select>
                     </div>
                 </div>
@@ -443,7 +600,7 @@ function _showSubmitForm() {
             <div class="wt-reader-footer">
                 <button class="wt-reader-action-btn wt-reader-action-btn--ghost" id="wtSubmitCancelBtn">Cancelar</button>
                 <button class="wt-reader-action-btn" id="wtSubmitSendBtn" style="background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border:none">
-                    ${isAdmin ? '✅ Publicar directamente' : '📤 Enviar para revisión'}
+                    ${isEdit ? '💾 Guardar cambios' : (isAdmin ? '✅ Publicar directamente' : '📤 Enviar para revisión')}
                 </button>
             </div>
         </div>
@@ -454,10 +611,37 @@ function _showSubmitForm() {
     document.getElementById('wtSubmitClose').addEventListener('click',      () => overlay.remove());
     document.getElementById('wtSubmitCancelBtn').addEventListener('click',  () => overlay.remove());
 
-    // Autocompletar país al elegir escritor existente
+    // Continente → habilita/actualiza el datalist de países de ese continente
+    const continentSelect = document.getElementById('wtSubmitContinent');
+    const countryInput    = document.getElementById('wtSubmitCountry');
+    const countryList     = document.getElementById('wtCountryList');
+    const _fillCountryList = (contKey, keepValue) => {
+        const cont = _WRITER_CONTINENTS.find(c => c.key === contKey);
+        if (!keepValue) countryInput.value = '';
+        if (!cont) {
+            countryInput.disabled = true;
+            countryInput.placeholder = 'Elegí el continente primero';
+            countryList.innerHTML = '';
+            return;
+        }
+        countryInput.disabled = false;
+        countryInput.placeholder = 'Escribí el país...';
+        countryList.innerHTML = cont.countries.map(c => `<option value="${c.label}"></option>`).join('');
+    };
+    if (initialContinentKey) _fillCountryList(initialContinentKey, true);
+    continentSelect.addEventListener('change', () => _fillCountryList(continentSelect.value, false));
+
+    // Autocompletar continente/país al elegir escritor existente
     document.getElementById('wtSubmitWriter').addEventListener('change', e => {
         const opt = document.querySelector(`#wtWritersList option[value="${e.target.value}"]`);
-        if (opt?.dataset.country) document.getElementById('wtSubmitCountry').value = opt.dataset.country;
+        const code = opt?.dataset.country;
+        if (!code) return;
+        const cont = _continentForCode(code);
+        if (cont) {
+            continentSelect.value = cont.key;
+            _fillCountryList(cont.key, false);
+        }
+        countryInput.value = _WRITER_COUNTRIES[code]?.label || code;
     });
 
     // Contador de caracteres
@@ -469,20 +653,41 @@ function _showSubmitForm() {
         countEl.style.color = len > 1500 ? '#ef4444' : 'var(--text-muted)';
     });
 
+    // Agregar / quitar bloques de traducción
+    let transIdx = initialTranslations.length;
+    const bindRemove = block => block.querySelector('.wt-remove-translation-btn')?.addEventListener('click', () => block.remove());
+    document.querySelectorAll('.wt-translation-block').forEach(bindRemove);
+    document.getElementById('wtAddTranslationBtn').addEventListener('click', () => {
+        const wrap = document.getElementById('wtTranslationsWrap');
+        const div  = document.createElement('div');
+        div.innerHTML = translationBlockHTML({ lang: '', text: '' }, transIdx++);
+        const block = div.firstElementChild;
+        wrap.appendChild(block);
+        bindRemove(block);
+    });
+
     document.getElementById('wtSubmitSendBtn').addEventListener('click', async () => {
         const writerName    = document.getElementById('wtSubmitWriter').value.trim();
-        const writerCountry = document.getElementById('wtSubmitCountry').value;
-        const title         = document.getElementById('wtSubmitTitle').value.trim();
-        const type          = document.getElementById('wtSubmitType').value;
-        const original      = document.getElementById('wtSubmitOriginal').value.trim();
-        const translation   = document.getElementById('wtSubmitTranslation').value.trim();
-        const visibility    = document.getElementById('wtSubmitVisibility').value;
-        const errEl         = document.getElementById('wtSubmitError');
+        const writerContinent = continentSelect.value;
+        const writerCountryTyped = countryInput.value.trim();
+        const matchedCountry = writerContinent ? _matchCountryInContinent(writerContinent, writerCountryTyped) : null;
+        const writerCountry  = matchedCountry ? matchedCountry.code : writerCountryTyped;
+        const title          = document.getElementById('wtSubmitTitle').value.trim();
+        const type           = document.getElementById('wtSubmitType').value;
+        const lang           = document.getElementById('wtSubmitLang').value.trim();
+        const original       = document.getElementById('wtSubmitOriginal').value.trim();
+        const visibility     = document.getElementById('wtSubmitVisibility').value;
+        const errEl          = document.getElementById('wtSubmitError');
+
+        const translations = Array.from(document.querySelectorAll('.wt-translation-block')).map(block => ({
+            lang: block.querySelector('.wt-trans-lang').value.trim(),
+            text: block.querySelector('.wt-trans-text').value.trim(),
+        })).filter(t => t.text);
 
         errEl.classList.add('hidden');
 
-        if (!writerName || !title || !original) {
-            errEl.textContent = 'Completá escritor, título y texto original.';
+        if (!writerName || !writerContinent || !writerCountryTyped || !title || !lang || !original) {
+            errEl.textContent = 'Completá escritor, continente, país, título, idioma original y texto original.';
             errEl.classList.remove('hidden');
             return;
         }
@@ -494,37 +699,38 @@ function _showSubmitForm() {
 
         const btn = document.getElementById('wtSubmitSendBtn');
         btn.disabled = true;
-        btn.textContent = 'Enviando...';
+        btn.textContent = isEdit ? 'Guardando...' : 'Enviando...';
 
         try {
-            const token   = localStorage.getItem('ls_token') || '';
             const headers = { 'Content-Type': 'application/json' };
-            if (isAdmin)  headers['x-admin-token'] = 'admin_lingua_2025';
-            else          headers['Authorization']  = `Bearer ${token}`;
+            if (isEdit || isAdmin) headers['x-admin-token'] = 'admin_lingua_2025';
+            else                   headers['Authorization']  = `Bearer ${typeof authGetToken === 'function' ? authGetToken() : ''}`;
 
-            const r = await fetch(`${_API_HOST}/writers/submit`, {
-                method: 'POST',
-                headers,
-                body: JSON.stringify({ writerName, writerCountry, title, type, original, translation, lang: 'es', targetLang: 'en', visibility }),
-            });
+            const url    = isEdit ? `${_API_HOST}/admin/writers/${existingEntry.id}` : `${_API_HOST}/writers/submit`;
+            const method = isEdit ? 'PATCH' : 'POST';
+            const body   = { writerName, writerCountry, writerContinent, title, type, original, lang, translations, visibility };
+
+            const r = await fetch(url, { method, headers, body: JSON.stringify(body) });
             const json = await r.json();
-            if (!r.ok) throw new Error(json.error || 'Error al enviar');
+            if (!r.ok) throw new Error(json.error || 'Error al guardar');
 
             overlay.remove();
             _writersData = null; // forzar recarga con nuevo contenido
 
-            const pts = json.pointsAwarded ? ` (+${json.pointsAwarded} pts)` : '';
-            const msg = isAdmin
-                ? `✅ Texto publicado directamente`
-                : `📤 Texto enviado para revisión${pts}`;
-            if (typeof showToast === 'function') showToast(msg);
-
-            if (isAdmin) loadWritersMenu();
+            if (isEdit) {
+                if (typeof showToast === 'function') showToast('✅ Cambios guardados');
+                if (typeof _adminLoadTab === 'function') _adminLoadTab('writers');
+            } else {
+                const pts = json.pointsAwarded ? ` (+${json.pointsAwarded} pts)` : '';
+                const msg = isAdmin ? `✅ Texto publicado directamente` : `📤 Texto enviado para revisión${pts}`;
+                if (typeof showToast === 'function') showToast(msg);
+                if (isAdmin) loadWritersMenu();
+            }
         } catch (e) {
             errEl.textContent = e.message;
             errEl.classList.remove('hidden');
             btn.disabled = false;
-            btn.textContent = isAdmin ? '✅ Publicar directamente' : '📤 Enviar para revisión';
+            btn.textContent = isEdit ? '💾 Guardar cambios' : (isAdmin ? '✅ Publicar directamente' : '📤 Enviar para revisión');
         }
     });
 }
@@ -589,34 +795,37 @@ function _showWritersIntro() {
 
 // ─── Helpers ──────────────────────────────────────────────────
 
-const _WRITER_COUNTRIES = {
-    ar: { label: 'Argentina',       emoji: '🇦🇷' },
-    cl: { label: 'Chile',           emoji: '🇨🇱' },
-    uy: { label: 'Uruguay',         emoji: '🇺🇾' },
-    mx: { label: 'México',          emoji: '🇲🇽' },
-    co: { label: 'Colombia',        emoji: '🇨🇴' },
-    pe: { label: 'Perú',            emoji: '🇵🇪' },
-    es: { label: 'España',          emoji: '🇪🇸' },
-    br: { label: 'Brasil',          emoji: '🇧🇷' },
-    us: { label: 'EE.UU.',          emoji: '🇺🇸' },
-    cu: { label: 'Cuba',            emoji: '🇨🇺' },
-    ve: { label: 'Venezuela',       emoji: '🇻🇪' },
-    bo: { label: 'Bolivia',         emoji: '🇧🇴' },
-    py: { label: 'Paraguay',        emoji: '🇵🇾' },
-    gt: { label: 'Guatemala',       emoji: '🇬🇹' },
-    ec: { label: 'Ecuador',         emoji: '🇪🇨' },
-};
+const _WRITER_COUNTRIES = {};
+_WRITER_CONTINENTS.forEach(cont => cont.countries.forEach(c => {
+    _WRITER_COUNTRIES[c.code] = { label: c.label, emoji: _flagEmoji(c.code) };
+}));
 
+// `cc` puede ser un código conocido (viejo formato) o texto libre (país no
+// matcheado al guardar) — en ese caso se muestra tal cual con ícono genérico.
 function _countryInfo(cc) {
-    return _WRITER_COUNTRIES[cc] || { label: cc?.toUpperCase() || '?', emoji: '🌐' };
+    if (!cc) return { label: '?', emoji: '🌐' };
+    return _WRITER_COUNTRIES[cc.toLowerCase()] || { label: cc, emoji: '🌐' };
 }
 
 function _genreLabel(type) {
     return { poema: '🎭 Poema', fragmento: '📄 Fragmento', cuento: '📖 Cuento', ensayo: '✍️ Ensayo', frase: '💬 Frase célebre' }[type] || type;
 }
 
+// `code` puede ser un código conocido (viejo formato) o un idioma escrito
+// libremente por el usuario (nuevo formato) — se muestra tal cual en ese caso.
 function _langLabel(code) {
-    return { es: 'Español', en: 'English', pt: 'Português', fr: 'Français', de: 'Deutsch', it: 'Italiano' }[code] || code?.toUpperCase() || '?';
+    if (!code) return '?';
+    const known = { es: 'Español', en: 'English', pt: 'Português', fr: 'Français', de: 'Deutsch', it: 'Italiano' }[code.toLowerCase()];
+    if (known) return known;
+    return code.length <= 3 ? code.toUpperCase() : code;
+}
+
+// Normaliza el modelo viejo (translation/targetLang sueltos) y el nuevo
+// (translations[]) a un array uniforme para el lector y el editor.
+function _normalizeTextTranslations(text) {
+    if (Array.isArray(text.translations)) return text.translations;
+    if (text.translation) return [{ lang: text.targetLang || 'en', text: text.translation }];
+    return [];
 }
 
 function _previewText(text, maxLen = 80) {

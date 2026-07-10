@@ -1532,7 +1532,7 @@ app.post('/writers/submit', (req, res) => {
         }
     }
 
-    const { writerId, writerName, writerCountry, title, type, original, translation, lang, targetLang, visibility } = req.body;
+    const { writerId, writerName, writerCountry, writerContinent, title, type, original, lang, translations, translation, targetLang, visibility } = req.body;
     if (!writerName || !title || !type || !original || !lang) {
         return res.status(400).json({ error: 'Faltan campos requeridos: escritor, título, tipo, texto y idioma.' });
     }
@@ -1544,7 +1544,11 @@ app.post('/writers/submit', (req, res) => {
     const dup = all.find(s => norm(s.writerName) === norm(writerName) && norm(s.title) === norm(title) && norm(s.original) === norm(original));
     if (dup) return res.status(409).json({ error: 'Este texto ya existe en la base de datos.' });
 
-    const hasTranslation = !!(translation && translation.trim());
+    // translations[]: nuevo formato ({lang, text}[]); translation/targetLang: compat viejo (fallback)
+    const cleanTranslations = Array.isArray(translations)
+        ? translations.filter(t => t?.text?.trim()).map(t => ({ lang: (t.lang || '').trim(), text: t.text.trim() }))
+        : (translation && translation.trim() ? [{ lang: (targetLang || 'en').trim(), text: translation.trim() }] : []);
+    const hasTranslation = cleanTranslations.length > 0;
     const pointsAwarded  = hasTranslation ? WRITER_POINTS.text + WRITER_POINTS.translation : WRITER_POINTS.text;
 
     const stableId = (writerName + '_' + title).toLowerCase()
@@ -1552,21 +1556,23 @@ app.post('/writers/submit', (req, res) => {
         .replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
 
     const entry = {
-        id:            `wt_${Date.now()}`,
-        writerId:      writerId || stableId.split('_').slice(0, 2).join('_'),
-        writerName:    writerName.trim(),
-        writerCountry: (writerCountry || '').trim(),
-        title:         title.trim(),
-        type:          type.trim(),
-        original:      original.trim(),
-        translation:   hasTranslation ? translation.trim() : null,
-        lang:          lang.trim(),
-        targetLang:    (targetLang || 'en').trim(),
-        visibility:    isAdminSubmit ? 'public' : (visibility || 'public'),
-        submittedBy:   userId || 'admin',
+        id:              `wt_${Date.now()}`,
+        writerId:        writerId || stableId.split('_').slice(0, 2).join('_'),
+        writerName:      writerName.trim(),
+        writerCountry:   (writerCountry || '').trim(),
+        writerContinent: (writerContinent || '').trim(),
+        title:           title.trim(),
+        type:            type.trim(),
+        original:        original.trim(),
+        translations:    cleanTranslations,
+        translation:     cleanTranslations[0]?.text || null,   // compat: primer idioma
+        lang:            lang.trim(),
+        targetLang:      cleanTranslations[0]?.lang || null,   // compat: primer idioma
+        visibility:      isAdminSubmit ? 'public' : (visibility || 'public'),
+        submittedBy:     userId || 'admin',
         pointsAwarded,
-        status:        isAdminSubmit ? 'approved' : 'pending',
-        submittedAt:   new Date().toISOString(),
+        status:          isAdminSubmit ? 'approved' : 'pending',
+        submittedAt:     new Date().toISOString(),
     };
 
     all.push(entry);
@@ -1580,10 +1586,13 @@ app.post('/writers/submit', (req, res) => {
 
 // GET /writers/data/:lang — textos aprobados + públicos para writers.js
 app.get('/writers/data/:lang', (req, res) => {
-    const lang = req.params.lang;
+    // Nota: ya no filtramos por s.lang === :lang — desde que el idioma
+    // original es texto libre elegido por quien sube el texto (antes venía
+    // hardcodeado a 'es'), comparar contra el código de la ruta dejó de ser
+    // confiable. Por ahora solo existe una sección de Escritores, así que
+    // devolvemos todo lo aprobado y público sin importar el idioma original.
     const approved = loadWriterSubmissions().filter(s =>
         s.status === 'approved' &&
-        s.lang === lang &&
         s.visibility !== 'private'
     );
 
@@ -1597,27 +1606,32 @@ app.get('/writers/data/:lang', (req, res) => {
 
         if (!writersMap[wid]) {
             writersMap[wid] = {
-                id:      wid,
-                name:    s.writerName,
-                image:   '✍️',
-                country: s.writerCountry || '',
-                years:   '',
-                genres:  [],
-                fromDb:  true,
+                id:        wid,
+                name:      s.writerName,
+                image:     '✍️',
+                country:   s.writerCountry || '',
+                continent: s.writerContinent || '',
+                years:     '',
+                genres:    [],
+                fromDb:    true,
             };
         }
         if (s.type && !writersMap[wid].genres.includes(s.type)) writersMap[wid].genres.push(s.type);
 
+        const translations = Array.isArray(s.translations) && s.translations.length
+            ? s.translations
+            : (s.translation ? [{ lang: s.targetLang || 'en', text: s.translation }] : []);
+
         if (!textsMap[wid]) textsMap[wid] = [];
         textsMap[wid].push({
-            id:          s.id,
-            title:       s.title,
-            type:        s.type,
-            original:    s.original,
-            translation: s.translation || '',
-            lang:        s.lang,
-            targetLang:  s.targetLang || 'en',
-            country:     s.writerCountry || '',
+            id:           s.id,
+            title:        s.title,
+            type:         s.type,
+            original:     s.original,
+            translations,
+            lang:         s.lang,
+            country:      s.writerCountry || '',
+            continent:    s.writerContinent || '',
         });
     });
 
@@ -1638,9 +1652,14 @@ app.patch('/admin/writers/:id', (req, res) => {
     if (!entry) return res.status(404).json({ error: 'No encontrado' });
 
     const prev = entry.status;
-    ['status','title','type','original','translation','visibility','adminNote','writerName','writerCountry','lang','targetLang'].forEach(f => {
+    ['status','title','type','original','translation','translations','visibility','adminNote',
+     'writerName','writerCountry','writerContinent','lang','targetLang'].forEach(f => {
         if (req.body[f] !== undefined) entry[f] = req.body[f];
     });
+    if (req.body.translations !== undefined) {
+        entry.translation = entry.translations[0]?.text || null; // compat: primer idioma
+        entry.targetLang  = entry.translations[0]?.lang || null; // compat: primer idioma
+    }
     entry.updatedAt = new Date().toISOString();
 
     saveWriterSubmissions(all);

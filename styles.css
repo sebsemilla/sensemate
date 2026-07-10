@@ -12204,6 +12204,21 @@ body.dark-mode .app-mode-btn {
     letter-spacing: .06em;
     color: var(--text-muted);
     margin-bottom: .75rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+.wt-reader-lang-select {
+    font-size: .72rem;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: normal;
+    padding: .15rem .4rem;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--card-bg, #fff);
+    color: var(--text);
 }
 .wt-reader-divider { width: 1px; background: var(--border); flex-shrink: 0; }
 .wt-reader-text p {
@@ -12321,6 +12336,48 @@ body.dark-mode .app-mode-btn {
     color: #92400e;
 }
 .dark-mode .wt-submit-points-info { background: #1c1a0a; border-color: #92400e; color: #fde68a; }
+
+.wt-submit-translations { display: flex; flex-direction: column; gap: .85rem; }
+.wt-translation-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: .75rem .75rem .25rem;
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+}
+.wt-remove-translation-btn {
+    position: absolute;
+    top: .4rem;
+    right: .4rem;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(239,68,68,0.1);
+    color: #ef4444;
+    font-size: .75rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wt-remove-translation-btn:hover { background: rgba(239,68,68,0.2); }
+.wt-add-translation-btn {
+    align-self: flex-start;
+    padding: .4rem .8rem;
+    border-radius: 20px;
+    border: 1.5px dashed #6366f1;
+    background: transparent;
+    color: #6366f1;
+    font-size: .8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .18s;
+}
+.wt-add-translation-btn:hover { background: rgba(99,102,241,0.08); }
+.dark-mode .wt-translation-block { border-color: rgba(255,255,255,.12); }
 
 /* Writers upload button */
 .writers-upload-btn {

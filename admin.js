@@ -1174,6 +1174,7 @@ async function _adminRenderWriters(container) {
                     ${s.status !== 'approved' ? `<button class="asong-btn asong-btn--approve" data-id="${s.id}">✅ Aprobar</button>` : ''}
                     ${s.status !== 'rejected' ? `<button class="asong-btn asong-btn--reject"  data-id="${s.id}">❌ Rechazar</button>` : ''}
                     <button class="asong-btn asong-btn--edit-wt"   data-id="${s.id}">✏️ Nota</button>
+                    <button class="asong-btn asong-btn--config-wt" data-id="${s.id}">⚙️ Config.</button>
                     <button class="asong-btn asong-btn--delete-wt" data-id="${s.id}">🗑️</button>
                 </div>
             </div>`;
@@ -1228,6 +1229,12 @@ async function _adminRenderWriters(container) {
                 method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN }
             });
             _adminLoadTab('writers');
+        });
+    });
+    container.querySelectorAll('.asong-btn--config-wt').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const s = all.find(x => x.id === btn.dataset.id);
+            if (s && typeof _showSubmitForm === 'function') _showSubmitForm(s);
         });
     });
 }
