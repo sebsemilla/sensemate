@@ -5,6 +5,27 @@ let _writersData    = null;
 let _writerFilter   = null; // country code ISO-2 | null
 const _WRITERS_KEY  = 'ls_writers_lang';
 
+// Sugerencias para los campos de idioma (autocompletar + indicador de reconocido)
+const _WRITER_LANGUAGES = [
+    'Español', 'Inglés', 'Francés', 'Portugués', 'Italiano', 'Alemán',
+    'Guaraní', 'Quechua', 'Catalán', 'Gallego', 'Euskera', 'Neerlandés',
+    'Danés', 'Sueco', 'Noruego', 'Finlandés', 'Islandés', 'Irlandés',
+    'Griego', 'Polaco', 'Checo', 'Eslovaco', 'Húngaro', 'Rumano', 'Búlgaro',
+    'Croata', 'Serbio', 'Bosnio', 'Esloveno', 'Macedonio', 'Albanés',
+    'Ucraniano', 'Ruso', 'Bielorruso', 'Lituano', 'Letón', 'Estonio',
+    'Árabe', 'Hebreo', 'Turco', 'Persa', 'Urdu', 'Azerí', 'Georgiano',
+    'Armenio', 'Kurdo', 'Chino (mandarín)', 'Japonés', 'Coreano', 'Hindi',
+    'Bengalí', 'Tamil', 'Telugu', 'Vietnamita', 'Tailandés', 'Indonesio',
+    'Malayo', 'Filipino', 'Suajili', 'Yoruba', 'Igbo', 'Hausa', 'Zulú',
+    'Xhosa', 'Amárico', 'Somalí', 'Latín', 'Náhuatl', 'Maya', 'Mapudungún',
+];
+
+function _matchLanguage(typed) {
+    const norm = _normalizeStr(typed);
+    if (!norm) return null;
+    return _WRITER_LANGUAGES.find(l => _normalizeStr(l) === norm) || null;
+}
+
 // ─── Carga de datos ───────────────────────────────────────────
 
 async function loadWritersData(lang = 'es') {
@@ -73,7 +94,7 @@ async function loadWritersMenu() {
 
     document.getElementById('writersBackBtn').addEventListener('click', showMainMenu);
     document.getElementById('writersInfoBtn').addEventListener('click', _showWritersIntro);
-    document.getElementById('writersUploadBtn')?.addEventListener('click', _showSubmitForm);
+    document.getElementById('writersUploadBtn')?.addEventListener('click', () => _showSubmitForm());
 
     try {
         const data = await loadWritersData('es');
@@ -401,6 +422,7 @@ function _openTextReader(text, writer) {
             <div class="wt-reader-footer">
                 <button class="wt-reader-action-btn" id="wtSpeakBtn">🔊 Escuchar</button>
                 <button class="wt-reader-action-btn" id="wtSaveBtn">💾 Guardar</button>
+                ${(typeof isAdmin === 'function' && isAdmin() && text.id?.startsWith('wt_')) ? `<button class="wt-reader-action-btn" id="wtConfigBtn">⚙️ Config.</button>` : ''}
                 <button class="wt-reader-action-btn wt-reader-action-btn--ghost" id="wtCloseFooterBtn">Cerrar</button>
             </div>
         </div>
@@ -412,6 +434,24 @@ function _openTextReader(text, writer) {
     overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
     document.getElementById('wtReaderClose').addEventListener('click', close);
     document.getElementById('wtCloseFooterBtn').addEventListener('click', close);
+
+    document.getElementById('wtConfigBtn')?.addEventListener('click', () => {
+        close();
+        if (typeof _showSubmitForm === 'function') {
+            _showSubmitForm({
+                id: text.id,
+                writerName: writer.name,
+                writerCountry: text.country,
+                writerContinent: text.continent,
+                title: text.title,
+                type: text.type,
+                original: text.original,
+                lang: text.lang,
+                translations,
+                visibility: 'public',
+            });
+        }
+    });
 
     document.getElementById('wtTranslationLangSelect')?.addEventListener('change', e => {
         const t = translations[parseInt(e.target.value, 10)];
@@ -503,7 +543,10 @@ function _showSubmitForm(existingEntry = null) {
             ${idx > 0 ? `<button type="button" class="wt-remove-translation-btn" title="Quitar">✕</button>` : ''}
             <div class="wt-submit-field">
                 <label>Idioma de la traducción ${idx === 0 ? '<span class="wt-submit-hint">— opcional, suma +8 pts</span>' : ''}</label>
-                <input type="text" class="contrib-input wt-trans-lang" placeholder="Ej: Inglés" value="${t.lang || ''}">
+                <div class="wt-lang-input-wrap">
+                    <input type="text" class="contrib-input wt-trans-lang" list="wtLangList" placeholder="Ej: Inglés" value="${t.lang || ''}">
+                    <span class="wt-lang-check" title="Idioma reconocido">✓</span>
+                </div>
             </div>
             <div class="wt-submit-field">
                 <label>Traducción</label>
@@ -569,8 +612,12 @@ function _showSubmitForm(existingEntry = null) {
 
                 <div class="wt-submit-field">
                     <label>Idioma del texto original *</label>
-                    <input type="text" id="wtSubmitLang" class="contrib-input" placeholder="Ej: Español"
-                        value="${isEdit ? _langLabel(existingEntry.lang) : 'Español'}">
+                    <div class="wt-lang-input-wrap">
+                        <input type="text" id="wtSubmitLang" class="contrib-input" list="wtLangList" placeholder="Ej: Español"
+                            value="${isEdit ? _langLabel(existingEntry.lang) : 'Español'}">
+                        <span class="wt-lang-check" title="Idioma reconocido">✓</span>
+                    </div>
+                    <datalist id="wtLangList">${_WRITER_LANGUAGES.map(l => `<option value="${l}"></option>`).join('')}</datalist>
                 </div>
                 <div class="wt-submit-field">
                     <label>Texto original * <span class="wt-submit-hint">— máx. 1500 caracteres para textos públicos</span></label>
@@ -653,6 +700,17 @@ function _showSubmitForm(existingEntry = null) {
         countEl.style.color = len > 1500 ? '#ef4444' : 'var(--text-muted)';
     });
 
+    // Indicador visual de idioma reconocido (✓) en los campos de idioma
+    const bindLangCheck = input => {
+        const check = input.parentElement.querySelector('.wt-lang-check');
+        if (!check) return;
+        const update = () => check.classList.toggle('wt-lang-check--visible', !!_matchLanguage(input.value));
+        input.addEventListener('input', update);
+        update();
+    };
+    bindLangCheck(document.getElementById('wtSubmitLang'));
+    document.querySelectorAll('.wt-trans-lang').forEach(bindLangCheck);
+
     // Agregar / quitar bloques de traducción
     let transIdx = initialTranslations.length;
     const bindRemove = block => block.querySelector('.wt-remove-translation-btn')?.addEventListener('click', () => block.remove());
@@ -664,6 +722,7 @@ function _showSubmitForm(existingEntry = null) {
         const block = div.firstElementChild;
         wrap.appendChild(block);
         bindRemove(block);
+        bindLangCheck(block.querySelector('.wt-trans-lang'));
     });
 
     document.getElementById('wtSubmitSendBtn').addEventListener('click', async () => {
@@ -719,7 +778,11 @@ function _showSubmitForm(existingEntry = null) {
 
             if (isEdit) {
                 if (typeof showToast === 'function') showToast('✅ Cambios guardados');
-                if (typeof _adminLoadTab === 'function') _adminLoadTab('writers');
+                if (document.getElementById('adminTabContent') && typeof _adminLoadTab === 'function') {
+                    _adminLoadTab('writers');
+                } else if (typeof loadWritersMenu === 'function') {
+                    loadWritersMenu();
+                }
             } else {
                 const pts = json.pointsAwarded ? ` (+${json.pointsAwarded} pts)` : '';
                 const msg = isAdmin ? `✅ Texto publicado directamente` : `📤 Texto enviado para revisión${pts}`;

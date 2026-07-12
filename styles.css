@@ -12485,6 +12485,22 @@ body.dark-mode .app-mode-btn {
 .wt-add-translation-btn:hover { background: rgba(99,102,241,0.08); }
 .dark-mode .wt-translation-block { border-color: rgba(255,255,255,.12); }
 
+.wt-lang-input-wrap { position: relative; }
+.wt-lang-input-wrap .contrib-input { padding-right: 1.9rem; }
+.wt-lang-check {
+    position: absolute;
+    right: 0.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #27ae60;
+    font-weight: 700;
+    font-size: 0.85rem;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.wt-lang-check--visible { opacity: 1; }
+
 /* Writers upload button */
 .writers-upload-btn {
     padding: .35rem .8rem;
