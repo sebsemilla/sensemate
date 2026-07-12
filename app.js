@@ -3331,6 +3331,10 @@ function loadSimpleMode() {
                         </button>
                     </div>
                 </div>
+                <div class="smp-correction-banner hidden" id="smpCorrectionBanner">
+                    <span class="smp-correction-text" id="smpCorrectionText"></span>
+                    <button class="smp-correction-ignore-btn" id="smpCorrectionIgnoreBtn">Ignorar</button>
+                </div>
             </div>
 
             <!-- Barra de controles -->
@@ -3512,10 +3516,15 @@ function loadSimpleMode() {
         const len = sourceArea.value.length;
         charCount.textContent = len;
         clearBtn.classList.toggle('hidden', len === 0);
+        document.getElementById('smpCorrectionBanner')?.classList.add('hidden');
         if (autoTranslate) {
             clearTimeout(autoTimer);
             autoTimer = setTimeout(() => doTranslate(), 900);
         }
+    });
+
+    document.getElementById('smpCorrectionIgnoreBtn')?.addEventListener('click', () => {
+        document.getElementById('smpCorrectionBanner').classList.add('hidden');
     });
 
     sourceArea.addEventListener('paste', () => {
@@ -3618,6 +3627,15 @@ function loadSimpleMode() {
             if (!res.ok) throw new Error(`Error ${res.status} — ${t.translate_error_retry}`);
             const data = await res.json();
             const obj  = JSON.parse(data.translation);
+
+            const corrBanner = document.getElementById('smpCorrectionBanner');
+            const corrText   = document.getElementById('smpCorrectionText');
+            if (obj.correction?.hadErrors && obj.correction.correctedText && obj.correction.correctedText !== text) {
+                corrText.textContent = `¿Quisiste decir: "${obj.correction.correctedText}"?`;
+                corrBanner.classList.remove('hidden');
+            } else {
+                corrBanner.classList.add('hidden');
+            }
 
             document.getElementById('formalResult').textContent   = obj.formal   || '—';
             document.getElementById('informalResult').textContent = obj.informal || '—';

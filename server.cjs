@@ -258,6 +258,10 @@ Responde ÚNICAMENTE con un objeto JSON válido, sin ningún texto adicional, si
 El objeto debe tener exactamente esta estructura:
 
 {
+  "correction": {
+    "hadErrors": true o false — si el texto original tenía errores de ortografía o tipeo evidentes,
+    "correctedText": "el texto original con esos errores corregidos, en el idioma '${sourceLang || 'desconocido'}'. Si hadErrors es false, repetí el texto original tal cual."
+  },
   "formal": "traducción en tono formal (negocios, autoridades)",
   "informal": "traducción en tono informal (amigos, familia)",
   "neutral": "traducción neutra (ni formal ni coloquial)",
@@ -281,6 +285,8 @@ El objeto debe tener exactamente esta estructura:
 }
 
 Reglas estrictas:
+- Si el texto original tiene errores de ortografía o tipeo obvios, corregilos mentalmente primero y traducí esa versión corregida (no el error literal). Reportá la corrección en el campo "correction".
+- No marques como error variantes dialectales, jerga, abreviaciones informales intencionales (ej: "q" por "que", "xq" por "porque") ni nombres propios — solo errores de tipeo/ortografía genuinos.
 - Usa SIEMPRE comillas dobles, nunca simples.
 - El campo "type" debe ser solo la abreviatura (ej: "vbo." no "verbo").
 - Los ejemplos deben ser frases naturales y variadas que muestren distintos usos.
@@ -320,6 +326,7 @@ Reglas estrictas:
     } catch (error) {
         console.error("❌ Error en Cohere:", error);
         return {
+            correction: { hadErrors: false, correctedText: text },
             formal:   `[Error] ${text}`,
             informal: `[Error] ${text}`,
             neutral:  `[Error] ${text}`,
