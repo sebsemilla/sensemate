@@ -122,7 +122,7 @@ const _MM_GROUPS = [
 ];
 
 // ─── Tracking público ─────────────────────────────────────────
-// Llamado desde app.js / famous.js / school.js / practice.js
+// Llamado desde app.js / famous.js / practice.js
 
 function misionTrack(event) {
   const mm = _mmGet();

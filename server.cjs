@@ -420,13 +420,23 @@ Devuelve ÚNICAMENTE las traducciones numeradas en el mismo formato, sin texto e
 
 // Endpoint para el chat del Modo Escuela
 app.post('/chat', chatLimiter, async (req, res) => {
-    const { messages, level, targetLang } = req.body;
+    const { messages, level, targetLang, mode, sourceLangName, targetLangName } = req.body;
     if (!messages || !Array.isArray(messages)) {
         return res.status(400).json({ error: "Falta el historial de mensajes" });
     }
 
     const cohere = new CohereClientV2({ token: process.env.COHERE_API_KEY });
-    const systemPrompt = `Eres un tutor de idiomas experto y motivador. El alumno tiene nivel "${level || 'B1'}" y está aprendiendo ${targetLang || 'español'}.
+    // mode:'welcome' — usado por el saludo inicial embebido en MisiónMate: el
+    // alumno todavía no habla nada del idioma destino, así que responde en su
+    // idioma nativo en vez del idioma que está por aprender.
+    const systemPrompt = mode === 'welcome'
+        ? `Eres un tutor de idiomas cálido y motivador dentro de la app SenseMate. El alumno habla ${sourceLangName || 'español'} y está por empezar el módulo A1 para aprender ${targetLangName || targetLang || 'un nuevo idioma'}.
+Reglas:
+- Respondé en ${sourceLangName || 'español'} (el idioma nativo del alumno), NO en el idioma que va a aprender.
+- Dale una bienvenida breve y cálida.
+- Presentale en 2 o 3 oraciones qué se va a encontrar en el módulo A1.
+- Sé breve (máximo 3-4 oraciones) y motivador.`
+        : `Eres un tutor de idiomas experto y motivador. El alumno tiene nivel "${level || 'B1'}" y está aprendiendo ${targetLang || 'español'}.
 Reglas:
 - Corrige los errores de forma amable y constructiva.
 - Usa frases adaptadas al nivel del alumno.

@@ -23,7 +23,6 @@ const SETTINGS_DEFAULTS = {
     // Secciones visibles en el menú principal
     sections: {
         translator: true,
-        school:     true,
         famous:     true,
         musicians:  true,
         immersion:  true,
@@ -193,7 +192,6 @@ function loadSettingsSection() {
                 <p class="cfg-section-desc">Las secciones desactivadas aparecen minimizadas en el menú.</p>
 
                 ${_toggleRow('sec_translator', '🔄 Traductor (Modo Simple)',   appSettings.sections.translator)}
-                ${_toggleRow('sec_school',     '📚 Modo Escuela',              appSettings.sections.school)}
                 ${_toggleRow('sec_famous',     '⭐ Famosos',                   appSettings.sections.famous)}
                 ${_toggleRow('sec_musicians',  '🎵 Músicos y Letras',          appSettings.sections.musicians)}
                 ${_toggleRow('sec_immersion',  '🌍 Aprende con...',            appSettings.sections.immersion)}
@@ -334,7 +332,7 @@ function _bindSettingsEvents() {
     });
 
     // Toggles de secciones
-    ['translator','school','famous','musicians','immersion','practice'].forEach(key => {
+    ['translator','famous','musicians','immersion','practice'].forEach(key => {
         _bindToggle(`sec_${key}`, val => {
             appSettings.sections[key] = val;
             saveSettings();

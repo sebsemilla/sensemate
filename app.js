@@ -693,7 +693,8 @@ function _renderMisionSnake(grid, modsA1, modsA2) {
         }).join('');
         const vcol = `<div class="msnake-vcol msnake-vcol--${side}">${nodesHtml}</div>`;
         const idAttr = areaId ? ` id="${areaId}"` : '';
-        const area = `<div class="msnake-area msnake-area--${side}${sm}"${idAttr}><span class="msnake-area-ph">${areaContent}</span></div>`;
+        const chatNode = `<div class="msnake-node msnake-node--chat" data-chat-trigger="1"><span class="msnake-label">💬 Hablar con la IA</span></div>`;
+        const area = `<div class="msnake-area msnake-area--${side}${sm}"${idAttr}>${chatNode}<span class="msnake-area-ph">${areaContent}</span></div>`;
         const inner = side === 'right' ? area + vcol : vcol + area;
         return `<div class="msnake-vblock">${inner}</div>`;
     }
@@ -876,6 +877,8 @@ function _renderMisionSnake(grid, modsA1, modsA2) {
         _showB1Hub();
     });
 
+    _misionWireChatTriggers(grid);
+
     // Scroll al último módulo visto al volver al hub
     if (_misionLastKey) {
         const target = grid.querySelector(`[data-key="${_misionLastKey}"]`);
@@ -905,6 +908,137 @@ function _misionPlayVideo(nodeEl, videoUrl) {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>`;
     nodeEl.classList.add('msnake-node--playing');
+}
+
+// ─── Chat embebido en el snake de MisiónMate (reemplaza Modo Escuela) ──
+// Se renderiza dentro de un .msnake-area existente (mismo mecanismo que
+// usan los embeds de video/pronunciación). `opts.welcome` dispara un primer
+// mensaje automático de la IA en el idioma nativo del usuario.
+
+const _MISION_LANG_NAMES = {
+    es: 'Español', en: 'English', fr: 'Français', de: 'Deutsch',
+    it: 'Italiano', pt: 'Português', gn: 'Guaraní', qu: 'Quechua',
+};
+
+async function _misionChatRequest(history, mode) {
+    const res = await fetch(`${_API_HOST}/chat`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            messages: history,
+            level: 'A1',
+            targetLang,
+            mode,
+            sourceLangName: _MISION_LANG_NAMES[sourceLang] || sourceLang,
+            targetLangName: _MISION_LANG_NAMES[targetLang] || targetLang,
+        }),
+    });
+    if (!res.ok) throw new Error('chat request failed');
+    return res.json();
+}
+
+function _misionRenderChat(areaEl, opts = {}) {
+    const history = [];
+    areaEl.classList.add('msnake-area--chat');
+    areaEl.innerHTML = `
+        <div class="mchat-wrap">
+            <div class="mchat-messages"></div>
+            <div class="mchat-input-row">
+                <textarea class="mchat-input" rows="1" placeholder="Escribí tu mensaje..."></textarea>
+                <button class="mchat-send-btn" aria-label="Enviar">➤</button>
+            </div>
+        </div>`;
+
+    const msgsEl  = areaEl.querySelector('.mchat-messages');
+    const inputEl = areaEl.querySelector('.mchat-input');
+    const sendBtn = areaEl.querySelector('.mchat-send-btn');
+
+    function addMsg(role, text) {
+        const div = document.createElement('div');
+        div.className = `mchat-msg mchat-msg--${role}`;
+        div.textContent = text;
+        msgsEl.appendChild(div);
+        msgsEl.scrollTop = msgsEl.scrollHeight;
+    }
+
+    function addThinking() {
+        const div = document.createElement('div');
+        div.className = 'mchat-msg mchat-msg--assistant mchat-thinking';
+        div.innerHTML = '<span class="school-dots"><span></span><span></span><span></span></span>';
+        msgsEl.appendChild(div);
+        msgsEl.scrollTop = msgsEl.scrollHeight;
+        return div;
+    }
+
+    async function send(userText, mode, hidden = false) {
+        if (userText) {
+            if (!hidden) addMsg('user', userText);
+            history.push({ role: 'user', content: userText });
+        }
+        const thinkingEl = addThinking();
+        try {
+            const data = await _misionChatRequest(history, mode);
+            thinkingEl.remove();
+            addMsg('assistant', data.reply);
+            history.push({ role: 'assistant', content: data.reply });
+        } catch {
+            thinkingEl.remove();
+            addMsg('assistant', 'Uy, hubo un error de conexión. Probá de nuevo en un momento.');
+        }
+    }
+
+    sendBtn.addEventListener('click', () => {
+        const val = inputEl.value.trim();
+        if (!val) return;
+        inputEl.value = '';
+        send(val);
+    });
+    inputEl.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            sendBtn.click();
+        }
+    });
+
+    if (opts.welcome) send('(Iniciando la sesión)', 'welcome', true);
+}
+
+// Alterna entre el placeholder original del área y el chat embebido
+function _misionToggleChat(nodeEl, areaEl) {
+    if (nodeEl.classList.contains('msnake-node--playing')) {
+        nodeEl.classList.remove('msnake-node--playing');
+        areaEl.classList.remove('msnake-area--chat');
+        areaEl.innerHTML = `<span class="msnake-area-ph">${areaEl.dataset.origPh || ''}</span>`;
+        return;
+    }
+    areaEl.dataset.origPh = areaEl.querySelector('.msnake-area-ph')?.textContent || areaEl.dataset.origPh || '';
+    nodeEl.classList.add('msnake-node--playing');
+    _misionRenderChat(areaEl);
+}
+
+// Cablea todos los nodos "💬 Hablar con la IA" dentro de un grid de MisiónMate
+// (compartido entre los distintos hubs: Español, Inglés, Español-nuevo, Alemán
+// piloto). Dispara la bienvenida automática una sola vez por usuario, en el
+// primer nodo de chat que encuentre, sin importar el idioma destino activo.
+function _misionWireChatTriggers(grid) {
+    const triggers = grid.querySelectorAll('[data-chat-trigger="1"]');
+    triggers.forEach(nodeEl => {
+        nodeEl.addEventListener('click', () => {
+            const areaEl = nodeEl.closest('.msnake-area');
+            if (areaEl) _misionToggleChat(nodeEl, areaEl);
+        });
+    });
+
+    if (!localStorage.getItem('ls_mision_welcomed') && triggers.length) {
+        localStorage.setItem('ls_mision_welcomed', '1');
+        const firstNode = triggers[0];
+        const firstArea = firstNode.closest('.msnake-area');
+        if (firstArea) {
+            firstArea.dataset.origPh = firstArea.querySelector('.msnake-area-ph')?.textContent || '';
+            firstNode.classList.add('msnake-node--playing');
+            _misionRenderChat(firstArea, { welcome: true });
+        }
+    }
 }
 
 function _misionShowIntroCard() {
@@ -997,7 +1131,13 @@ const _INGLES_A1_LANGS = {
     sv: { gram: 'sv_a1_gramatica.json', func: 'sv_a1_funciones_comunicativas.json', conv: 'sv_a1_conversacion.json' },
 };
 
-function _initInglesHub() {
+// Archivos de Modismos/Phrasal Verbs por idioma nativo — track aparte,
+// separado de la alternancia normal Gramática/Funciones/Conversación.
+const _INGLES_MODISMOS_LANGS = {
+    es: 'es_a1_modismos.json',
+};
+
+function _initInglesHub(tab = 'curriculum') {
     const grid = document.getElementById('misionPathGrid');
     if (!grid) return;
 
@@ -1009,6 +1149,40 @@ function _initInglesHub() {
                 <p style="font-size:.95rem;margin-bottom:.5rem">Contenido disponible para hablantes de:</p>
                 <p style="font-size:.85rem"><strong>Español · Francés</strong></p>
             </div>`;
+        return;
+    }
+
+    // Tabs: Curriculum A1 | Modismos y Phrasal Verbs
+    const hasModismos = !!_INGLES_MODISMOS_LANGS[sourceLang];
+    let tabsEl = document.getElementById('inglesHubTabs');
+    if (!tabsEl) {
+        grid.insertAdjacentHTML('beforebegin', `
+            <div class="ingles-hub-tabs" id="inglesHubTabs">
+                <button class="ingles-hub-tab ${tab === 'curriculum' ? 'active' : ''}" data-tab="curriculum">📚 Curriculum A1</button>
+                ${hasModismos ? `<button class="ingles-hub-tab ${tab === 'modismos' ? 'active' : ''}" data-tab="modismos">💬 Modismos y Phrasal Verbs</button>` : ''}
+            </div>`);
+        tabsEl = document.getElementById('inglesHubTabs');
+        tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
+            btn.addEventListener('click', () => _initInglesHub(btn.dataset.tab));
+        });
+    } else {
+        tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.tab === tab);
+        });
+    }
+
+    if (tab === 'modismos') {
+        grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1.5rem 0">Cargando módulos…</p>';
+        const file = _INGLES_MODISMOS_LANGS[sourceLang];
+        fetch(`${_API_HOST}/grupos_tarjetas/ingles_a1/${file}`)
+            .then(r => r.json())
+            .then(mods => _renderSimpleSnake(grid, mods, {
+                levelKey: 'en_modismos', milestoneLabel: '★ Modismos y Phrasal Verbs',
+                onExamPass: showMainMenu,
+            }))
+            .catch(() => {
+                grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1rem 0">No se pudieron cargar los módulos.</p>';
+            });
         return;
     }
 
@@ -1118,7 +1292,8 @@ function _renderInglesA1Snake(grid, mods, opts = {}) {
         ).join('');
         const vcol   = `<div class="msnake-vcol msnake-vcol--${side}">${nodesHtml}</div>`;
         const idAttr = areaId ? ` id="${areaId}"` : '';
-        const area   = `<div class="msnake-area msnake-area--${side}"${idAttr}><span class="msnake-area-ph">${areaContent}</span></div>`;
+        const chatNode = `<div class="msnake-node msnake-node--chat" data-chat-trigger="1"><span class="msnake-label">💬 Hablar con la IA</span></div>`;
+        const area   = `<div class="msnake-area msnake-area--${side}"${idAttr}>${chatNode}<span class="msnake-area-ph">${areaContent}</span></div>`;
         return `<div class="msnake-vblock">${side === 'right' ? area + vcol : vcol + area}</div>`;
     }
 
@@ -1174,6 +1349,8 @@ function _renderInglesA1Snake(grid, mods, opts = {}) {
         const exercises = _genExamenFinalExercises([], mods.filter(m => m.type !== 'conversation'));
         _runGenericQuiz(exercises, { total: 40, threshold: 28, key: examKey, onPass: showMainMenu, onBack: showMainMenu });
     });
+
+    _misionWireChatTriggers(grid);
 
     if (_misionLastKey) {
         const target = grid.querySelector(`[data-key="${_misionLastKey}"]`);
@@ -1677,7 +1854,8 @@ function _renderSimpleSnake(grid, mods, { levelKey, milestoneLabel, onExamPass, 
         ).join('');
         const vcol  = `<div class="msnake-vcol msnake-vcol--${side}">${nodesHtml}</div>`;
         const idAttr = areaId ? ` id="${areaId}"` : '';
-        const area  = `<div class="msnake-area msnake-area--${side}"${idAttr}><span class="msnake-area-ph">${areaContent}</span></div>`;
+        const chatNode = `<div class="msnake-node msnake-node--chat" data-chat-trigger="1"><span class="msnake-label">💬 Hablar con la IA</span></div>`;
+        const area  = `<div class="msnake-area msnake-area--${side}"${idAttr}>${chatNode}<span class="msnake-area-ph">${areaContent}</span></div>`;
         return `<div class="msnake-vblock">${side === 'right' ? area + vcol : vcol + area}</div>`;
     }
 
@@ -1707,6 +1885,7 @@ function _renderSimpleSnake(grid, mods, { levelKey, milestoneLabel, onExamPass, 
 
     html += '</div>';
     grid.innerHTML = html;
+    _misionWireChatTriggers(grid);
 
     grid.querySelectorAll('[data-ntype="mod"]').forEach(el => {
         el.addEventListener('click', () => {
@@ -2443,13 +2622,7 @@ function showMainMenu() {
                 </div>
                 <h3 class="mision-path-title">Da tus primeros pasos en <em>${({"es":"Español","fr":"Français","it":"Italiano","pt":"Português","en":"English","de":"Deutsch"})[targetLang] || targetLang || 'Español'}</em></h3>
                 <div class="mision-path-grid" id="misionPathGrid"></div>
-            </div>
-            <div class="mision-hub-divider"><span>Modo Escuela</span></div>
-            ${sectionEnabled('school') ? `
-            <div class="mode-card" data-mode="school">
-                <h2>${t.modo_escuela}</h2>
-                <p>${t.description_modo_escuela}</p>
-            </div>` : sectionMinimized('school', '📚', 'Modo Escuela')}` : ''}
+            </div>` : ''}
 
             ${showFamous ? (sectionEnabled('famous') ? `
             <div id="explorerCountryBar"></div>
@@ -2539,7 +2712,6 @@ function showMainMenu() {
             if      (mode === 'simple')    loadSimpleMode();
             else if (mode === 'longtext')  loadLongTextMode();
             else if (mode === 'analyzer')  loadTextAnalyzer();
-            else if (mode === 'school')    requireAuth('Modo Escuela',     loadSchoolMode);
             else if (mode === 'practice')  requireAuth('Tarjetas / Flashcards',    loadPracticeMenu);
             else if (mode === 'writers') {
                 if (typeof loadWritersMenu === 'function') loadWritersMenu();

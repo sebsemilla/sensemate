@@ -5433,6 +5433,33 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
     color: var(--primary);
 }
 
+/* Tabs del hub de Inglés: Curriculum A1 | Modismos y Phrasal Verbs */
+.ingles-hub-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.85rem;
+    flex-wrap: wrap;
+}
+.ingles-hub-tab {
+    padding: 0.4rem 0.85rem;
+    border-radius: 20px;
+    border: 1.5px solid var(--border);
+    background: var(--card-bg, #fff);
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.18s;
+}
+.ingles-hub-tab.active {
+    border-color: var(--accent, #6366f1);
+    background: var(--accent, #6366f1);
+    color: #fff;
+}
+.ingles-hub-tab:hover:not(.active) { border-color: var(--accent, #6366f1); }
+.dark-mode .ingles-hub-tab { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,.12); }
+
 /* Scroll container */
 .mision-path-grid {
     padding: 0.25rem 0 1rem;
@@ -5748,6 +5775,85 @@ body.dark-mode .msnake-node--pending[data-category="Funktionskommunikation"] {
     border-radius: 10px;
     display: block;
 }
+
+/* ── Nodo disparador de chat (amarillo, tamaño de módulo) ── */
+.msnake-node--chat {
+    background: rgba(245,158,11,0.14);
+    border-color: #f59e0b;
+    margin-bottom: 6px;
+}
+.msnake-node--chat .msnake-label { color: #b45309; font-weight: 700; }
+.msnake-node--chat:hover { box-shadow: 0 0 0 3px rgba(245,158,11,0.25); }
+.msnake-node--chat.msnake-node--playing { background: rgba(245,158,11,0.24); }
+.dark-mode .msnake-node--chat { background: rgba(245,158,11,0.1); }
+.dark-mode .msnake-node--chat .msnake-label { color: #fbbf24; }
+
+/* ── Chat embebido dentro del área ── */
+.msnake-area--chat {
+    padding: 0.5rem;
+    align-items: stretch;
+    overflow: hidden;
+}
+.mchat-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    height: 100%;
+    min-height: 190px;
+}
+.mchat-messages {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-right: 2px;
+}
+.mchat-msg {
+    max-width: 88%;
+    padding: 0.45rem 0.65rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    word-break: break-word;
+}
+.mchat-msg--user {
+    align-self: flex-end;
+    background: var(--accent, #6366f1);
+    color: #fff;
+}
+.mchat-msg--assistant {
+    align-self: flex-start;
+    background: var(--surface, #f1f5f9);
+    color: var(--text);
+}
+.mchat-thinking .school-dots { display: inline-flex; gap: 3px; }
+.mchat-input-row { display: flex; gap: 0.4rem; }
+.mchat-input {
+    flex: 1;
+    resize: none;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+    font-family: inherit;
+    background: var(--card-bg, #fff);
+    color: var(--text);
+}
+.mchat-send-btn {
+    width: 34px;
+    border: none;
+    border-radius: 10px;
+    background: var(--accent, #6366f1);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.mchat-send-btn:hover { opacity: 0.9; }
+.dark-mode .mchat-msg--assistant { background: rgba(255,255,255,0.06); }
+.dark-mode .mchat-input { background: #0f172a; border-color: #334155; }
 
 /* ── Intro card modal ── */
 .mision-intro-overlay {
