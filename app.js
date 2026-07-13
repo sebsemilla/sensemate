@@ -3462,12 +3462,12 @@ function loadSimpleMode() {
                             <button class="smp-extra-btn smp-extra-btn--ia" id="smpContextBtn">💬 ${t.ia_in_context_btn}</button>
                         </div>
                         <div class="smp-context-area hidden" id="smpContextArea">
+                            <div class="smp-context-messages hidden" id="smpContextMessages"></div>
                             <div class="smp-context-input-row">
                                 <textarea class="smp-context-input" id="smpContextInput"
                                     placeholder="${t.escribe_tu_pregunta_placeholder}" rows="2"></textarea>
                                 <button class="smp-context-send-btn" id="smpContextSendBtn">→</button>
                             </div>
-                            <div class="smp-context-response hidden" id="smpContextResponse"></div>
                         </div>
                     </div>
                 </div>
@@ -3700,7 +3700,9 @@ function loadSimpleMode() {
             document.getElementById('smpSynonymsResult').classList.add('hidden');
             document.getElementById('smpExtraActions').classList.remove('hidden');
             document.getElementById('smpContextArea').classList.add('hidden');
-            document.getElementById('smpContextResponse').classList.add('hidden');
+            const ctxMsgsEl = document.getElementById('smpContextMessages');
+            ctxMsgsEl.innerHTML = '';
+            ctxMsgsEl.classList.add('hidden');
             bindResultActions(text);
         } catch (err) {
             showPlaceholder();
@@ -3784,33 +3786,46 @@ function loadSimpleMode() {
         }
     });
 
+    function _addContextBubble(role, html) {
+        const msgsEl = document.getElementById('smpContextMessages');
+        msgsEl.classList.remove('hidden');
+        const div = document.createElement('div');
+        div.className = `smp-ctx-msg smp-ctx-msg--${role}`;
+        div.innerHTML = html;
+        msgsEl.appendChild(div);
+        msgsEl.scrollTop = msgsEl.scrollHeight;
+        return div;
+    }
+
     async function sendContextMessage() {
         const input   = document.getElementById('smpContextInput');
         const msg     = input.value.trim();
-        const respEl  = document.getElementById('smpContextResponse');
         const sendBtn = document.getElementById('smpContextSendBtn');
         if (!msg || !_lastTranslated) return;
 
+        input.value = '';
         _ctxMessages.push({ role: 'user', content: msg });
-        respEl.innerHTML = '<div class="smp-ctx-loading">…</div>';
-        respEl.classList.remove('hidden');
+        _addContextBubble('user', escapeHtml(msg));
+        const thinkingEl = _addContextBubble('assistant', '<span class="smp-ctx-loading">…</span>');
         sendBtn.disabled = true;
 
         try {
             const res  = await fetch(`${_API_HOST}/context-chat`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ word: _lastTranslated, messages: _ctxMessages, sourceLang, targetLang })
+                body: JSON.stringify({ word: _lastTranslated, messages: _ctxMessages, sourceLang, targetLang, uiLang: appUILanguage })
             });
             const data = await res.json();
             if (data.error) throw new Error(data.error);
             _ctxMessages.push({ role: 'assistant', content: data.reply });
-            respEl.innerHTML = `<p class="smp-ctx-reply">${escapeHtml(data.reply)}</p>`;
+            thinkingEl.innerHTML = escapeHtml(data.reply);
         } catch {
             _ctxMessages.pop();
-            respEl.innerHTML = `<p class="smp-ctx-reply smp-ctx-reply--err">❌ ${t.context_error_toast}</p>`;
+            thinkingEl.classList.add('smp-ctx-msg--err');
+            thinkingEl.textContent = `❌ ${t.context_error_toast}`;
         } finally {
             sendBtn.disabled = false;
+            input.focus();
         }
     }
 

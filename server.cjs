@@ -724,14 +724,15 @@ ${snippet}
 
 // ── IA in Context ──────────────────────────────────────────────
 app.post('/context-chat', chatLimiter, async (req, res) => {
-    const { word, messages, sourceLang, targetLang } = req.body;
+    const { word, messages, sourceLang, targetLang, uiLang } = req.body;
     if (!word || !messages?.length) return res.status(400).json({ error: 'Faltan parámetros' });
 
     const cohere  = new CohereClientV2({ token: process.env.COHERE_API_KEY });
     const sName   = _langName(sourceLang || 'en');
     const tName   = _langName(targetLang || 'es');
+    const replyName = _langName(uiLang || sourceLang || 'en');
     const system  = `You are a language assistant. The user just translated "${word}" from ${sName} to ${tName}. ` +
-                    `Answer their questions about this word or phrase. Always respond in ${sName}. ` +
+                    `Answer their questions about this word or phrase. Always respond in ${replyName} (the user's own interface language), regardless of what language the question is asked in. ` +
                     `Be concise (2-3 sentences), practical, and focus on real usage, grammar, and context.`;
     try {
         const response = await cohere.chat({
