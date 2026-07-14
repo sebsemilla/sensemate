@@ -2789,9 +2789,9 @@ function showMainMenu() {
             }
         })
     );
-    document.getElementById('newGroupMainBtn')?.addEventListener('click', () =>
-        requireAuth('Tarjetas / Flashcards', createNewGroup)
-    );
+    // Crear grupo requiere cuenta (guarda datos + cupo mensual) — createNewGroup
+    // ya valida el login con su propio aviso, así que no se ofrece "modo invitado" aquí.
+    document.getElementById('newGroupMainBtn')?.addEventListener('click', createNewGroup);
 }
 
 // ─── Modo Simple (traducción) ─────────────────────────────────
@@ -2810,6 +2810,9 @@ function loadLongTextMode() {
                 <button class="school-back-btn" id="ltBackBtn">← ${t.volver || 'Volver'}</button>
                 <h2 class="lt-title">📄 ${t.longtext_title}</h2>
             </div>
+
+            <!-- Introducción de la sección -->
+            <p class="lt-intro">${t.longtext_intro || 'Traducí textos extensos —capítulos, artículos, cartas— manteniendo el contexto entre párrafos. Recomendamos pegar hasta unos 2.500 caracteres (15-20 párrafos) por vez: cada párrafo se procesa con una solicitud individual, así que textos más largos tardan más y pueden alcanzar el límite de uso.'}</p>
 
             <!-- Instrucción para la IA -->
             <div class="lt-card lt-instruction-card">
@@ -3321,6 +3324,11 @@ function loadSimpleMode() {
                                 <line x1="8" y1="22" x2="16" y2="22"/>
                             </svg>
                         </button>
+                        <button class="smp-mic-btn" id="smpSourceAudioBtn" title="${t.escuchar_tooltip}">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="5 3 19 12 5 21 5 3"/>
+                            </svg>
+                        </button>
                         <span class="smp-char-count" id="smpCharCount">0</span>
                         <button class="smp-clear-btn hidden" id="smpClearBtn" title="${t.limpiar_tooltip}">
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
@@ -3484,6 +3492,7 @@ function loadSimpleMode() {
     const clearBtn      = document.getElementById('smpClearBtn');
     const autoBtn       = document.getElementById('smpAutoBtn');
     const micBtn        = document.getElementById('smpMicBtn');
+    const sourceAudioBtn = document.getElementById('smpSourceAudioBtn');
     const pasteBtn      = document.getElementById('smpPasteBtn');
     const placeholder   = document.getElementById('smpPlaceholder');
     const loadingEl     = document.getElementById('smpLoading');
@@ -3580,15 +3589,20 @@ function loadSimpleMode() {
     document.getElementById('backMenuBtn').addEventListener('click', showMainMenu);
 
     // ── TTS ───────────────────────────────────────────────────
-    function speakText(text) {
+    function speakText(text, lang = targetLang) {
         if (!text || text === '—') return;
         const u   = new SpeechSynthesisUtterance(text);
         u.rate    = parseFloat(speedSelect.value);
         const lm  = { es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT', pt:'pt-BR' };
-        u.lang    = lm[targetLang] || 'es-ES';
+        u.lang    = lm[lang] || 'es-ES';
         window.speechSynthesis.cancel();
         window.speechSynthesis.speak(u);
     }
+
+    // ── Escuchar texto introducido ────────────────────────────
+    sourceAudioBtn?.addEventListener('click', () => {
+        speakText(sourceArea.value.trim(), sourceLang);
+    });
 
     // ── Estado del área de resultados ─────────────────────────
     function showPlaceholder() {
@@ -3659,6 +3673,11 @@ function loadSimpleMode() {
                             <span class="lex-ex-arrow">→</span>
                             <span class="lex-ex-target">${escapeHtml(ex.target)}</span>
                         </div>
+                        <button class="smp-action-btn lex-ex-audio-btn" data-idx="${i}" title="${t.escuchar_tooltip}">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="5 3 19 12 5 21 5 3"/>
+                            </svg>
+                        </button>
                     </div>`).join('');
                 lexEl.innerHTML = `
                     <div class="lex-header">
@@ -3668,6 +3687,12 @@ function loadSimpleMode() {
                     <div class="lex-examples-title">📝 Ejemplos de uso</div>
                     <div class="lex-examples">${exHTML}</div>`;
                 lexEl.classList.remove('hidden');
+                lexEl.querySelectorAll('.lex-ex-audio-btn').forEach(btn => {
+                    btn.onclick = () => {
+                        const ex = (obj.lexical.examples || [])[+btn.dataset.idx];
+                        if (ex) speakText(ex.target, targetLang);
+                    };
+                });
             } else {
                 lexEl.classList.add('hidden');
             }

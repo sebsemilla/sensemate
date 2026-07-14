@@ -747,7 +747,7 @@ function showCustomGroupsPanel() {
     document.querySelectorAll('.prac-custom-card').forEach(card => {
         card.addEventListener('click', e => {
             if (e.target.closest('.prac-custom-delete-btn')) return;
-            showCustomGroupDetail(card.dataset.groupId);
+            showCustomGroupDetail(card.dataset.groupId, showCustomGroupsPanel, '← Mis Tarjetas');
         });
     });
 
@@ -770,10 +770,16 @@ function showCustomGroupsPanel() {
     }
 }
 
-function showCustomGroupDetail(groupId) {
+// backFn: a dónde volver con el botón "←". Se recuerda entre re-renders
+// (eliminar tarjeta, sync de publicación, etc.) para no perder el origen.
+let _fcGroupDetailBackFn    = showCustomGroupsPanel;
+let _fcGroupDetailBackLabel = '← Mis Tarjetas';
+
+function showCustomGroupDetail(groupId, backFn, backLabel) {
+    if (backFn) { _fcGroupDetailBackFn = backFn; _fcGroupDetailBackLabel = backLabel || '← Volver'; }
     loadFlashcardData();
     const group = flashcardGroups.find(g => g.id === groupId);
-    if (!group) return showCustomGroupsPanel();
+    if (!group) return _fcGroupDetailBackFn();
     const cards = flashcards.filter(c => c.groupId === groupId);
     const canEdit = typeof MembershipPlan !== 'undefined' && MembershipPlan.isActive();
     const publishLabel = group.visibility === 'rejected' ? '🔁 Reenviar para revisión'
@@ -785,7 +791,7 @@ function showCustomGroupDetail(groupId) {
     mainContainer.insertAdjacentHTML('beforeend', `
         <div class="prac-wrap">
             <div class="prac-header">
-                <button class="school-back-btn" id="customDetailBackBtn">← Mis Tarjetas</button>
+                <button class="school-back-btn" id="customDetailBackBtn">${_fcGroupDetailBackLabel}</button>
             </div>
             <h2 class="prac-title-centered">
                 <span class="fc-group-dot" style="background:${group.color || '#6366f1'}"></span>
@@ -815,7 +821,7 @@ function showCustomGroupDetail(groupId) {
         </div>
     `);
 
-    document.getElementById('customDetailBackBtn').addEventListener('click', showCustomGroupsPanel);
+    document.getElementById('customDetailBackBtn').addEventListener('click', _fcGroupDetailBackFn);
     document.getElementById('customStartPracticeBtn')?.addEventListener('click', () => {
         _startCustomStudySession(group, cards, groupId);
     });
@@ -999,7 +1005,7 @@ function _showCustomConfigPanel() {
 function loadAllStories() { return Promise.resolve(); }
 function showAllGroups()   { showPracticeOverview(); }
 function showGroupDetail(groupId) {
-    if (groupId) showCustomGroupDetail(groupId);
+    if (groupId) showCustomGroupDetail(groupId, showMainMenu, '← Menú');
     else showPracticeOverview();
 }
 function createNewGroup()  { _showNewGroupForm(); }
