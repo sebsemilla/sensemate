@@ -4173,6 +4173,24 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
 }
 .imm-toggle-vid:hover { background: var(--border, #e2e8f0); }
 
+/* Controles avanzados colapsables (video HTML5: velocidad + marcadores,
+   redundante con el <video controls> nativo, así que arranca cerrado) */
+.imm-player-collapse { display: flex; flex-direction: column; gap: 0.5rem; }
+.imm-player-toggle {
+  background: none;
+  border: 1px dashed var(--border, #e2e8f0);
+  border-radius: 10px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.4rem 0.7rem;
+  text-align: left;
+  transition: background 0.15s;
+}
+.imm-player-toggle:hover { background: var(--border, #e2e8f0); }
+.imm-player-toggle-arrow { float: right; }
+.imm-player-collapse-body.hidden { display: none; }
+
 .imm-yt-note {
   font-size: 0.75rem;
   color: var(--text-muted);
@@ -4773,9 +4791,16 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
 .imm-sub-curr { opacity: 1;    font-size: 1.05rem; }
 .imm-sub-next { opacity: 0.45; font-size: 0.85rem; }
 
-.imm-sub-orig { font-weight: 600; line-height: 1.5; color: var(--text, #111827); }
-.imm-sub-orig.imm-sub-idle { color: var(--text-muted); font-weight: 400; font-style: italic; }
-.imm-sub-trans { font-size: 0.85rem; color: var(--text-muted); margin-top: 3px; font-style: italic; }
+/* pre-line: los subtítulos agrupados de a 2 líneas se unen con \n y deben
+   verse como 2 renglones reales, no como un solo texto corrido */
+.imm-sub-orig { font-weight: 600; line-height: 1.5; color: var(--text, #111827); white-space: pre-line; }
+.imm-sub-orig.imm-sub-idle { color: var(--text-muted); font-weight: 400; font-style: italic; white-space: normal; }
+.imm-sub-orig.imm-sub-idle--error { color: #ef4444; font-style: normal; }
+.imm-sub-trans { font-size: 0.85rem; color: var(--text-muted); margin-top: 3px; font-style: italic; white-space: pre-line; }
+
+/* Fundido al aparecer un nuevo par de subtítulos */
+@keyframes immSubFadeIn { from { opacity: 0; } to { opacity: 1; } }
+.imm-sub-curr.imm-sub-fade-in .imm-sub-line-inner { animation: immSubFadeIn 0.35s ease; }
 
 .imm-word {
   cursor: pointer; border-radius: 4px;

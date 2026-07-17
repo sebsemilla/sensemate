@@ -9,6 +9,24 @@ const _PROG_PREFIX    = 'ls_prog_';
 let _immMedia   = null;   // <audio> o <video>
 let _immContent = null;
 let _immLineIdx = -1;
+let _immGroups  = [];     // dialogue agrupado de a 2 líneas para el stage de subtítulos
+
+// Agrupa líneas de diálogo consecutivas de a `size` (default 2) en un solo
+// "cartel" de subtítulo: mismo rango de tiempo combinado, textos unidos con \n.
+function _groupDialogue(dialogue, size = 2) {
+  const groups = [];
+  for (let i = 0; i < dialogue.length; i += size) {
+    const chunk = dialogue.slice(i, i + size);
+    groups.push({
+      start:       chunk[0].start,
+      end:         chunk[chunk.length - 1].end,
+      original:    chunk.map(d => d.original).join('\n'),
+      translation: chunk.map(d => d.translation).filter(Boolean).join('\n'),
+      lines:       chunk
+    });
+  }
+  return groups;
+}
 
 // ─────────────────────────────────────────────
 // SRT PARSER
@@ -196,9 +214,11 @@ const _IMM_LEVEL_KEY = 'ls_imm_level';
 const _IMM_TARGET_LANG_KEY = 'ls_imm_targetLanguage';
 const _IMM_SUBLANG_KEY     = 'ls_imm_subtitleLang';
 
-// Modo de subtítulos en el reproductor: 'both' | 'orig' | 'trans' | 'off'
-const _IMM_SUB_MODE_KEY = 'ls_imm_sub_mode';
-let _immSubMode = 'both';
+// Visibilidad independiente de subtítulo original / traducción en el reproductor
+const _IMM_SHOW_ORIG_KEY  = 'ls_imm_show_orig';
+const _IMM_SHOW_TRANS_KEY = 'ls_imm_show_trans';
+let _immShowOrig  = true;
+let _immShowTrans = true;
 
 // Lista completa de idiomas (con variantes regionales) para los selects del formulario de subida.
 // value = "código|nombre|bandera"
@@ -451,16 +471,16 @@ function _loadStudyArea(container, content) {
   _immCleanup();
   _immContent = content;
   _immLineIdx = -1;
+  _immGroups  = _groupDialogue(content.dialogue || [], 2);
 
   const bookmarks = _getBookmarks(content.id);
   const progress  = _getProgress(content.id);
   const isVideoHTML = !!content.videoSrc;
 
-  // ── Modo de subtítulos (Original / Traducción / Ambos / Ninguno) ──
+  // ── Visibilidad de subtítulos: original y traducción, cada uno con su select ──
   const hasTranslation = !!content.dialogue?.some(d => d.translation);
-  const savedSubMode = localStorage.getItem(_IMM_SUB_MODE_KEY) || 'both';
-  _immSubMode = (savedSubMode === 'trans' || savedSubMode === 'both') && !hasTranslation
-    ? 'orig' : savedSubMode;
+  _immShowOrig  = localStorage.getItem(_IMM_SHOW_ORIG_KEY) !== 'false';
+  _immShowTrans = hasTranslation && localStorage.getItem(_IMM_SHOW_TRANS_KEY) !== 'false';
   const origLangName  = content.languageName || content.language || 'Original';
   const transLangName = (_IMM_LANGS.find(l => l.code === content.subtitleLang)?.name) || content.subtitleLang || 'Traducción';
 
@@ -563,43 +583,52 @@ function _loadStudyArea(container, content) {
           ` : ''}
         </div>
 
-      <!-- ── Timeline + controles para video HTML5 ── -->
+      <!-- ── Timeline + controles para video HTML5 (colapsado por defecto:
+           el <video controls> nativo ya cubre play/pausa/seek) ── -->
       ` : `
-        <div class="imm-player">
-          <div class="imm-progress-wrap">
-            <div class="imm-progress-bar imm-progress-bar--video" id="immProgressBar">
-              <div class="imm-progress-fill"  id="immFill"></div>
-              <div class="imm-bm-track"       id="immBmTrack"></div>
-              <div class="imm-progress-thumb" id="immThumb"></div>
+        <div class="imm-player-collapse imm-player-collapse--closed">
+          <button class="imm-player-toggle" id="immPlayerToggle">
+            🎚️ Controles avanzados (velocidad, marcadores) <span class="imm-player-toggle-arrow">▸</span>
+          </button>
+          <div class="imm-player-collapse-body hidden" id="immPlayerCollapseBody">
+            <div class="imm-player">
+              <div class="imm-progress-wrap">
+                <div class="imm-progress-bar imm-progress-bar--video" id="immProgressBar">
+                  <div class="imm-progress-fill"  id="immFill"></div>
+                  <div class="imm-bm-track"       id="immBmTrack"></div>
+                  <div class="imm-progress-thumb" id="immThumb"></div>
+                </div>
+                <div class="imm-time-row">
+                  <span id="immTimeCur">0:00</span>
+                  <span id="immTimeDur">0:00</span>
+                </div>
+              </div>
+              <div class="imm-controls imm-controls--video">
+                <select class="imm-speed-sel" id="immSpeedSel" title="Velocidad">
+                  <option value="0.5">0.5×</option>
+                  <option value="0.75">0.75×</option>
+                  <option value="1" selected>1×</option>
+                  <option value="1.25">1.25×</option>
+                  <option value="1.5">1.5×</option>
+                </select>
+                <button class="imm-bm-ctrl" id="immAddBm" title="Marcador">🔖</button>
+              </div>
             </div>
-            <div class="imm-time-row">
-              <span id="immTimeCur">0:00</span>
-              <span id="immTimeDur">0:00</span>
-            </div>
-          </div>
-          <div class="imm-controls imm-controls--video">
-            <select class="imm-speed-sel" id="immSpeedSel" title="Velocidad">
-              <option value="0.5">0.5×</option>
-              <option value="0.75">0.75×</option>
-              <option value="1" selected>1×</option>
-              <option value="1.25">1.25×</option>
-              <option value="1.5">1.5×</option>
-            </select>
-            <button class="imm-bm-ctrl" id="immAddBm" title="Marcador">🔖</button>
           </div>
         </div>
       `}
 
-      <!-- ── Selector de subtítulos ── -->
+      <!-- ── Selectores de subtítulos: original + traducción, independientes ── -->
       <div class="imm-sub-mode-wrap">
-        <select class="imm-lang-picker" id="immSubModeSelect" title="Subtítulos">
-          <option value="both" ${_immSubMode === 'both' ? 'selected' : ''} ${!hasTranslation ? 'disabled' : ''}>
-            💬 ${origLangName} + ${transLangName}
-          </option>
-          <option value="orig" ${_immSubMode === 'orig' ? 'selected' : ''}>💬 Solo ${origLangName}</option>
-          ${hasTranslation ? `<option value="trans" ${_immSubMode === 'trans' ? 'selected' : ''}>💬 Solo ${transLangName}</option>` : ''}
-          <option value="off" ${_immSubMode === 'off' ? 'selected' : ''}>🚫 Sin subtítulos</option>
+        <select class="imm-lang-picker" id="immSubOrigSelect" title="Subtítulo original">
+          <option value="show" ${_immShowOrig ? 'selected' : ''}>💬 Mostrar ${origLangName}</option>
+          <option value="hide" ${!_immShowOrig ? 'selected' : ''}>🚫 Ocultar ${origLangName}</option>
         </select>
+        ${hasTranslation ? `
+        <select class="imm-lang-picker" id="immSubTransSelect" title="Subtítulo de traducción">
+          <option value="hide" ${!_immShowTrans ? 'selected' : ''}>🚫 Sin traducción</option>
+          <option value="show" ${_immShowTrans ? 'selected' : ''}>🌐 + ${transLangName}</option>
+        </select>` : ''}
       </div>
 
       <!-- ── Stage de subtítulos con efecto degradé ── -->
@@ -672,16 +701,24 @@ function _loadStudyArea(container, content) {
     if (_immMedia) _showBmModal(_immMedia.currentTime, content.id, bookmarks);
   });
 
-  // Selector de subtítulos
-  document.getElementById('immSubModeSelect')?.addEventListener('change', function() {
-    _immSubMode = this.value;
-    localStorage.setItem(_IMM_SUB_MODE_KEY, _immSubMode);
-    // Si ya hay una línea mostrándose, re-renderizarla con el nuevo modo
+  // Selectores de subtítulos (original / traducción, independientes)
+  const _resyncSubs = () => {
+    // Si ya hay una línea mostrándose, re-renderizarla con el nuevo estado
     // (bypass del guard "sin cambios" en _syncSubtitles; antes de dar play no hace falta)
     if (_immLineIdx !== -1) {
       _immLineIdx = -2;
       _syncSubtitles(_immMedia ? _immMedia.currentTime : 0, content);
     }
+  };
+  document.getElementById('immSubOrigSelect')?.addEventListener('change', function() {
+    _immShowOrig = this.value === 'show';
+    localStorage.setItem(_IMM_SHOW_ORIG_KEY, String(_immShowOrig));
+    _resyncSubs();
+  });
+  document.getElementById('immSubTransSelect')?.addEventListener('change', function() {
+    _immShowTrans = this.value === 'show';
+    localStorage.setItem(_IMM_SHOW_TRANS_KEY, String(_immShowTrans));
+    _resyncSubs();
   });
 
   // Video toggle
@@ -691,6 +728,15 @@ function _loadStudyArea(container, content) {
     const hidden = body.style.display === 'none';
     body.style.display = hidden ? 'block' : 'none';
     btn.textContent    = hidden ? '▲ Minimizar' : '▼ Expandir';
+  });
+
+  // Toggle de controles avanzados (solo video HTML5, colapsado por defecto)
+  document.getElementById('immPlayerToggle')?.addEventListener('click', () => {
+    const body  = document.getElementById('immPlayerCollapseBody');
+    const btn   = document.getElementById('immPlayerToggle');
+    const arrow = btn.querySelector('.imm-player-toggle-arrow');
+    const open  = body.classList.toggle('hidden') === false;
+    if (arrow) arrow.textContent = open ? '▾' : '▸';
   });
 
   // Configurar reproductor
@@ -798,8 +844,34 @@ function _loadStudyArea(container, content) {
 // PLAYER
 // ─────────────────────────────────────────────
 
+// Mensaje en el slot idle del stage de subtítulos (solo si todavía no arrancó
+// la reproducción real — no pisa una línea ya sincronizada).
+function _setSubIdleMessage(text, isError) {
+  if (_immLineIdx !== -1) return;
+  const el = document.getElementById('immSubCurr');
+  if (!el) return;
+  el.innerHTML = `<div class="imm-sub-orig imm-sub-idle${isError ? ' imm-sub-idle--error' : ''}">${text}</div>`;
+}
+
 function _setupImmPlayer(content, bookmarks) {
   const media = _immMedia;
+
+  // Feedback de carga/error — común a video y audio. Sin esto, un archivo local
+  // (blob: URL) que ya no es válido (solo dura la sesión en que se subió) falla
+  // en silencio y el stage de subtítulos queda congelado para siempre.
+  media.addEventListener('loadstart', () => _setSubIdleMessage('⏳ Cargando…', false));
+  media.addEventListener('waiting',   () => _setSubIdleMessage('⏳ Cargando…', false));
+  media.addEventListener('canplay',   () => _setSubIdleMessage('▶ Presioná play para comenzar', false));
+  media.addEventListener('error',     () => _setSubIdleMessage(
+    '⚠️ No se pudo cargar el archivo. Si es un video/audio local, recordá que solo dura la sesión en la que lo subiste — subilo de nuevo o usá una URL externa/YouTube.',
+    true
+  ));
+  if (media.error) {
+    _setSubIdleMessage(
+      '⚠️ No se pudo cargar el archivo. Si es un video/audio local, recordá que solo dura la sesión en la que lo subiste — subilo de nuevo o usá una URL externa/YouTube.',
+      true
+    );
+  }
 
   // Video HTML5: controles nativos para play/pause, pero nuestra timeline para marcadores y seek
   if (content.videoSrc) {
@@ -945,13 +1017,13 @@ function _onTick(media, content) {
 // ─────────────────────────────────────────────
 
 function _syncSubtitles(t, content) {
-  const dl = content.dialogue;
+  const dl = _immGroups;
   if (!dl?.length) return;
 
-  // Buscar línea activa
+  // Buscar grupo (par de líneas) activo
   let idx = dl.findIndex(d => t >= d.start && t < d.end);
   if (idx === -1) {
-    // Entre frases: mostrar la última que pasó
+    // Entre frases: mostrar el último grupo que pasó
     for (let i = dl.length - 1; i >= 0; i--) {
       if (t >= dl[i].start) { idx = i; break; }
     }
@@ -968,9 +1040,14 @@ function _syncSubtitles(t, content) {
   _renderSubLine(document.getElementById('immSubCurr'), curr, true);
   _renderSubLine(document.getElementById('immSubNext'), next, false);
 
-  // Bind en palabras de la línea actual
+  // Bind en palabras del grupo actual
   const currEl = document.getElementById('immSubCurr');
   if (currEl && curr) {
+    // Fundido al cambiar de par (se reinicia la animación quitando y re-agregando la clase)
+    currEl.classList.remove('imm-sub-fade-in');
+    void currEl.offsetWidth; // forzar reflow para reiniciar la animación
+    currEl.classList.add('imm-sub-fade-in');
+
     currEl.querySelectorAll('.imm-word').forEach(w => {
       w.addEventListener('click', e => {
         e.stopPropagation();
@@ -982,23 +1059,26 @@ function _syncSubtitles(t, content) {
 
 function _renderSubLine(el, line, isCurrent) {
   if (!el) return;
-  if (!line || _immSubMode === 'off') { el.innerHTML = ''; return; }
+  if (!line || (!_immShowOrig && !_immShowTrans)) { el.innerHTML = ''; return; }
 
   const isAdmin = typeof currentUser !== 'undefined' && currentUser?.isDev;
 
-  // "Solo traducción": la traducción pasa a ser el texto principal (si esta línea la tiene;
-  // si no, se muestra el original como respaldo). El resto de los modos muestran el original
-  // como texto principal, con la traducción debajo salvo en modo "Solo original".
-  const showTransAsMain = _immSubMode === 'trans' && !!line.translation;
+  // Si el original está oculto pero la traducción visible, la traducción pasa a ser el
+  // texto principal (con el original como respaldo si esta línea no tiene traducción).
+  // Con ambos visibles, el original es el principal y la traducción va debajo.
+  const showTransAsMain = !_immShowOrig && _immShowTrans && !!line.translation;
   const mainText  = showTransAsMain ? line.translation : line.original;
   const origHtml  = isCurrent ? _makeWords(mainText) : _esc(mainText);
 
-  const showSecondaryTrans = !showTransAsMain && _immSubMode !== 'orig' && !!line.translation;
+  const showSecondaryTrans = !showTransAsMain && _immShowOrig && _immShowTrans && !!line.translation;
   const transHtml = showSecondaryTrans
     ? `<div class="imm-sub-trans">${_esc(line.translation)}</div>`
     : '';
 
-  const editBtn = isCurrent && isAdmin
+  // Edición inline solo cuando el "cartel" actual es una única línea de diálogo
+  // (con 2 líneas agrupadas no hay un único registro de dialogue[] al cual mapear el guardado)
+  const canEditLine = !line.lines || line.lines.length === 1;
+  const editBtn = isCurrent && isAdmin && canEditLine
     ? `<button class="imm-sub-edit-btn" id="immSubEditBtn" title="Editar esta línea">✏️</button>`
     : '';
 
@@ -1010,7 +1090,7 @@ function _renderSubLine(el, line, isCurrent) {
     ${editBtn}
   `;
 
-  if (isCurrent && isAdmin) {
+  if (isCurrent && isAdmin && canEditLine) {
     document.getElementById('immSubEditBtn')?.addEventListener('click', e => {
       e.stopPropagation();
       _openSubLineEditor(el, line);
@@ -1993,5 +2073,6 @@ function _immCleanup() {
   if (_immMedia) { _immMedia.pause(); _immMedia.src = ''; _immMedia = null; }
   _immContent = null;
   _immLineIdx = -1;
+  _immGroups  = [];
   document.querySelector('.imm-word-popup')?.remove();
 }
