@@ -1,4 +1,4 @@
-const CACHE = 'sensemate-v2';
+const CACHE = 'sensemate-v3';
 const STATIC = [
     '/',
     '/styles.css',
@@ -34,7 +34,15 @@ self.addEventListener('fetch', e => {
         url.pathname.startsWith('/membership') || url.pathname.startsWith('/admin')) {
         return; // dejar pasar a la red
     }
+    // Network-first: siempre trae la versión más nueva cuando hay conexión
+    // (evita servir JS/CSS viejos tras un deploy) y cae al caché solo offline.
     e.respondWith(
-        caches.match(e.request).then(cached => cached || fetch(e.request))
+        fetch(e.request)
+            .then(res => {
+                const resClone = res.clone();
+                caches.open(CACHE).then(c => c.put(e.request, resClone));
+                return res;
+            })
+            .catch(() => caches.match(e.request))
     );
 });
