@@ -6,10 +6,60 @@ const _PINNED_IMM_KEY = 'ls_imm_pinned';  // contenido fijado por admin (actúa 
 const _BM_PREFIX      = 'ls_bk_';
 const _PROG_PREFIX    = 'ls_prog_';
 
-let _immMedia   = null;   // <audio> o <video>
+let _immMedia   = null;   // <audio>, <video>, o el adaptador de YouTube (_makeYtMediaAdapter)
 let _immContent = null;
 let _immLineIdx = -1;
 let _immGroups  = [];     // dialogue agrupado de a 2 líneas para el stage de subtítulos
+let _immYtPlayer    = null;  // instancia YT.Player activa (si hay contenido de YouTube)
+let _immYtPollTimer = null;  // setInterval que dispara 'timeupdate' mientras el video reproduce
+let _ytApiPromise    = null; // cachea la carga de la YouTube IFrame API (una sola vez por sesión)
+
+// Carga la YouTube IFrame API una sola vez (si ya está cargada, resuelve al toque).
+function _loadYouTubeAPI() {
+  if (window.YT && window.YT.Player) return Promise.resolve(window.YT);
+  if (_ytApiPromise) return _ytApiPromise;
+  _ytApiPromise = new Promise((resolve, reject) => {
+    try {
+      const prevCb = window.onYouTubeIframeAPIReady;
+      window.onYouTubeIframeAPIReady = () => {
+        if (typeof prevCb === 'function') prevCb();
+        resolve(window.YT);
+      };
+      const tag = document.createElement('script');
+      tag.src = 'https://www.youtube.com/iframe_api';
+      tag.onerror = () => reject(new Error('No se pudo cargar la API de YouTube'));
+      document.head.appendChild(tag);
+    } catch (e) { reject(e); }
+  });
+  return _ytApiPromise;
+}
+
+// Envuelve un YT.Player en un objeto con la misma superficie que <audio>/<video>
+// (currentTime/duration/paused/playbackRate + play()/pause()), usando el propio
+// <div> contenedor del player como EventTarget real para poder despachar
+// 'timeupdate'/'loadedmetadata'/'ended'/'error' igual que un media element nativo.
+// Así el resto del archivo (_onTick, _syncSubtitles, bookmarks, resume-progress,
+// _setupImmPlayer) funciona sin ningún cambio, sea cual sea el origen de _immMedia.
+function _makeYtMediaAdapter(container, player) {
+  let _rate = 1;
+  Object.defineProperty(container, 'currentTime', {
+    get: () => { try { return player.getCurrentTime() || 0; } catch { return 0; } },
+    set: v  => { try { player.seekTo(v, true); } catch {} }
+  });
+  Object.defineProperty(container, 'duration', {
+    get: () => { try { return player.getDuration() || 0; } catch { return 0; } }
+  });
+  Object.defineProperty(container, 'paused', {
+    get: () => { try { return player.getPlayerState() !== 1; } catch { return true; } }
+  });
+  Object.defineProperty(container, 'playbackRate', {
+    get: () => _rate,
+    set: v  => { _rate = v; try { player.setPlaybackRate(v); } catch {} }
+  });
+  container.play  = () => { try { player.playVideo();  } catch {} };
+  container.pause = () => { try { player.pauseVideo(); } catch {} };
+  return container;
+}
 
 // Agrupa líneas de diálogo consecutivas de a `size` (default 2) en un solo
 // "cartel" de subtítulo: mismo rango de tiempo combinado, textos unidos con \n.
@@ -476,6 +526,9 @@ function _loadStudyArea(container, content) {
   const bookmarks = _getBookmarks(content.id);
   const progress  = _getProgress(content.id);
   const isVideoHTML = !!content.videoSrc;
+  // Video local o YouTube: ambos tienen controles nativos de play/pausa/seek
+  // propios, así que nuestra barra de transporte queda colapsada por defecto.
+  const hasNativeControls = isVideoHTML || !!content.youtubeId;
 
   // ── Visibilidad de subtítulos: original y traducción, cada uno con su select ──
   const hasTranslation = !!content.dialogue?.some(d => d.translation);
@@ -524,7 +577,9 @@ function _loadStudyArea(container, content) {
           </div>
         </div>
 
-      <!-- ── YouTube embed + audio oculto para sync ── -->
+      <!-- ── YouTube: placeholder para el YT.Player real (se arma en JS,
+           ver _initYouTubePlayer) — su propio botón de play dispara la
+           sincronización de subtítulos, sin necesitar audio separado ── -->
       ` : content.youtubeId ? `
         <div class="imm-video-section">
           <div class="imm-video-hd">
@@ -532,25 +587,17 @@ function _loadStudyArea(container, content) {
             <button class="imm-toggle-vid" id="immToggleVid">▲ Minimizar</button>
           </div>
           <div class="imm-video-body" id="immVideoBody">
-            <iframe src="https://www.youtube.com/embed/${content.youtubeId}?rel=0"
-                    frameborder="0" allowfullscreen
-                    style="width:100%;height:210px;border-radius:14px;"></iframe>
-            <div class="imm-yt-note">
-              💡 Los subtítulos se sincronizan con el reproductor de audio de abajo
-            </div>
+            <div id="immYtPlayer"></div>
           </div>
         </div>
-        ${content.audioSrc
-          ? `<audio id="immMediaEl" src="${content.audioSrc}" preload="metadata"></audio>`
-          : ''}
 
       <!-- ── Solo audio ── -->
       ` : content.audioSrc ? `
         <audio id="immMediaEl" src="${content.audioSrc}" preload="metadata"></audio>
       ` : ''}
 
-      <!-- ── Reproductor custom (no para video HTML5 que tiene los propios) ── -->
-      ${!isVideoHTML ? `
+      <!-- ── Reproductor custom (no para video HTML5/YouTube, que tienen controles nativos propios) ── -->
+      ${!hasNativeControls ? `
         <div class="imm-player">
           <div class="imm-progress-wrap">
             <div class="imm-progress-bar" id="immProgressBar">
@@ -583,8 +630,8 @@ function _loadStudyArea(container, content) {
           ` : ''}
         </div>
 
-      <!-- ── Timeline + controles para video HTML5 (colapsado por defecto:
-           el <video controls> nativo ya cubre play/pausa/seek) ── -->
+      <!-- ── Timeline + controles para video HTML5/YouTube (colapsado por defecto:
+           el reproductor nativo ya cubre play/pausa/seek) ── -->
       ` : `
         <div class="imm-player-collapse imm-player-collapse--closed">
           <button class="imm-player-toggle" id="immPlayerToggle">
@@ -680,20 +727,13 @@ function _loadStudyArea(container, content) {
     </div>
   `;
 
-  // Obtener elemento media
-  _immMedia = document.getElementById('immMediaEl');
-
-  // Reanudar desde donde quedó
-  if (_immMedia && progress?.time) {
-    _immMedia.currentTime = progress.time;
-  }
-
-  // Configurar controles velocidad (aplica para video HTML5 también)
-  const speedSel = document.getElementById('immSpeedSel');
-  if (speedSel && _immMedia) {
-    speedSel.addEventListener('change', () => {
-      _immMedia.playbackRate = parseFloat(speedSel.value);
-    });
+  // Obtener elemento media — YouTube se arma async (carga la IFrame API +
+  // crea el YT.Player); el resto es sincrónico como siempre.
+  if (content.youtubeId) {
+    _initYouTubePlayer(content, bookmarks, progress);
+  } else {
+    _immMedia = document.getElementById('immMediaEl');
+    _wireMediaControls(content, bookmarks, progress);
   }
 
   // Marcador (aplica a video HTML5 también)
@@ -738,9 +778,6 @@ function _loadStudyArea(container, content) {
     const open  = body.classList.toggle('hidden') === false;
     if (arrow) arrow.textContent = open ? '▾' : '▸';
   });
-
-  // Configurar reproductor
-  if (_immMedia) _setupImmPlayer(content, bookmarks);
 
   // Renderizar marcadores
   _renderBmList(bookmarks, content.id);
@@ -853,6 +890,106 @@ function _setSubIdleMessage(text, isError) {
   el.innerHTML = `<div class="imm-sub-orig imm-sub-idle${isError ? ' imm-sub-idle--error' : ''}">${text}</div>`;
 }
 
+// Cablea lo que depende de que `_immMedia` ya exista: reanudar progreso,
+// control de velocidad, y el resto de los listeners (_setupImmPlayer).
+// Se llama sincrónico para audio/video local, o async (dentro de onReady)
+// para YouTube, una vez que el adaptador está listo.
+function _wireMediaControls(content, bookmarks, progress) {
+  if (!_immMedia) return;
+
+  if (progress?.time) {
+    _immMedia.currentTime = progress.time;
+  }
+
+  const speedSel = document.getElementById('immSpeedSel');
+  if (speedSel) {
+    speedSel.addEventListener('change', () => {
+      _immMedia.playbackRate = parseFloat(speedSel.value);
+    });
+  }
+
+  _setupImmPlayer(content, bookmarks);
+}
+
+// Arma el reproductor real de YouTube (IFrame Player API) para que su propio
+// botón de play dispare la sincronización de subtítulos. Si la API no carga
+// (red, bloqueo, timeout), cae a un iframe plano sin sync automático —
+// mismo comportamiento que había antes de este fix, para no romper nada.
+function _initYouTubePlayer(content, bookmarks, progress) {
+  _setSubIdleMessage('⏳ Cargando…', false);
+
+  const fallbackToPlainIframe = () => {
+    const body = document.getElementById('immVideoBody');
+    if (!body) return;
+    body.innerHTML = `
+      <iframe src="https://www.youtube.com/embed/${content.youtubeId}?rel=0"
+              frameborder="0" allowfullscreen
+              style="width:100%;height:210px;border-radius:14px;"></iframe>
+      <div class="imm-yt-note">
+        ⚠️ No se pudo activar la sincronización automática con YouTube.
+        ${content.audioSrc ? 'Usá los controles de abajo para sincronizar los subtítulos.' : 'Los subtítulos no se sincronizarán automáticamente.'}
+      </div>
+      ${content.audioSrc ? `<audio id="immMediaEl" src="${content.audioSrc}" preload="metadata"></audio>` : ''}
+    `;
+    _immMedia = document.getElementById('immMediaEl');
+    if (_immMedia) {
+      _wireMediaControls(content, bookmarks, progress);
+    } else {
+      _setSubIdleMessage('▶ Presioná play para comenzar', false);
+    }
+  };
+
+  let settled = false;
+  const timeout = setTimeout(() => {
+    if (!settled) { settled = true; fallbackToPlainIframe(); }
+  }, 8000);
+
+  _loadYouTubeAPI().then(YT => {
+    if (settled) return; // ya cayó al fallback por timeout
+    clearTimeout(timeout);
+    settled = true;
+
+    const container = document.getElementById('immYtPlayer');
+    if (!container) return;
+
+    _immYtPlayer = new YT.Player(container, {
+      videoId: content.youtubeId,
+      playerVars: { rel: 0 },
+      events: {
+        onReady: () => {
+          const adapter = _makeYtMediaAdapter(container, _immYtPlayer);
+          _immMedia = adapter;
+          // Esperar a que la duración esté disponible (a veces tarda un instante)
+          // antes de dar por lista la carga.
+          let tries = 0;
+          const waitDuration = setInterval(() => {
+            tries++;
+            if (adapter.duration > 0 || tries > 10) {
+              clearInterval(waitDuration);
+              _wireMediaControls(content, bookmarks, progress);
+              adapter.dispatchEvent(new Event('loadedmetadata'));
+              adapter.dispatchEvent(new Event('canplay'));
+            }
+          }, 200);
+        },
+        onStateChange: e => {
+          if (e.data === YT.PlayerState.PLAYING) {
+            if (_immYtPollTimer) clearInterval(_immYtPollTimer);
+            _immYtPollTimer = setInterval(() => container.dispatchEvent(new Event('timeupdate')), 250);
+          } else if (_immYtPollTimer) {
+            clearInterval(_immYtPollTimer);
+            _immYtPollTimer = null;
+          }
+          if (e.data === YT.PlayerState.ENDED) container.dispatchEvent(new Event('ended'));
+        },
+        onError: () => container.dispatchEvent(new Event('error'))
+      }
+    });
+  }).catch(() => {
+    if (!settled) { settled = true; clearTimeout(timeout); fallbackToPlainIframe(); }
+  });
+}
+
 function _setupImmPlayer(content, bookmarks) {
   const media = _immMedia;
 
@@ -917,7 +1054,9 @@ function _setupImmPlayer(content, bookmarks) {
     return;
   }
 
-  // ── Controles custom para audio ──
+  // ── Controles custom para audio / YouTube ──
+  // playBtn/±5s no existen para YouTube (usa su propio play nativo) — el resto
+  // (timeline, seek, bookmarks, timeupdate→sync de subtítulos) aplica siempre.
   const playBtn = document.getElementById('immPlayBtn');
   const bar     = document.getElementById('immProgressBar');
   const fill    = document.getElementById('immFill');
@@ -925,21 +1064,21 @@ function _setupImmPlayer(content, bookmarks) {
   const timeCur = document.getElementById('immTimeCur');
   const timeDur = document.getElementById('immTimeDur');
 
-  if (!playBtn) return;
+  if (playBtn) {
+    // Play / Pause
+    playBtn.addEventListener('click', () => {
+      if (media.paused) { media.play(); playBtn.textContent = '⏸'; }
+      else              { media.pause(); playBtn.textContent = '▶'; }
+    });
 
-  // Play / Pause
-  playBtn.addEventListener('click', () => {
-    if (media.paused) { media.play(); playBtn.textContent = '⏸'; }
-    else              { media.pause(); playBtn.textContent = '▶'; }
-  });
-
-  // ±5s
-  document.getElementById('immBack5')?.addEventListener('click', () => {
-    media.currentTime = Math.max(0, media.currentTime - 5);
-  });
-  document.getElementById('immFwd5')?.addEventListener('click', () => {
-    media.currentTime = Math.min(media.duration || Infinity, media.currentTime + 5);
-  });
+    // ±5s
+    document.getElementById('immBack5')?.addEventListener('click', () => {
+      media.currentTime = Math.max(0, media.currentTime - 5);
+    });
+    document.getElementById('immFwd5')?.addEventListener('click', () => {
+      media.currentTime = Math.min(media.duration || Infinity, media.currentTime + 5);
+    });
+  }
 
   // Metadata → duración + marcadores en barra
   media.addEventListener('loadedmetadata', () => {
@@ -958,7 +1097,7 @@ function _setupImmPlayer(content, bookmarks) {
   });
 
   media.addEventListener('ended', () => {
-    playBtn.textContent = '▶';
+    if (playBtn) playBtn.textContent = '▶';
     _saveProgress(content.id, 100, media.duration || 0);
   });
 
@@ -2071,6 +2210,8 @@ function _esc(str) {
 
 function _immCleanup() {
   if (_immMedia) { _immMedia.pause(); _immMedia.src = ''; _immMedia = null; }
+  if (_immYtPollTimer) { clearInterval(_immYtPollTimer); _immYtPollTimer = null; }
+  if (_immYtPlayer) { try { _immYtPlayer.destroy(); } catch {} _immYtPlayer = null; }
   _immContent = null;
   _immLineIdx = -1;
   _immGroups  = [];
