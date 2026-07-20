@@ -3254,9 +3254,21 @@ body.dark-mode .smp-ampliar-translation { color: #fcd34d; }
 .cl-notif-list { display:flex; flex-direction:column; gap:.5rem; max-height:55vh; overflow-y:auto; }
 .cl-notif-item { display:flex; gap:.6rem; align-items:flex-start; padding:.6rem .75rem; border-radius:12px; border:1px solid var(--border); background:var(--bg); }
 .cl-notif-item.unread { border-color:#4f46e5; background:rgba(79,70,229,.04); }
+.cl-notif-item--clickable { cursor:pointer; transition:border-color .12s, background .12s; }
+.cl-notif-item--clickable:hover { border-color:#f59e0b; background:rgba(245,158,11,.06); }
 .cl-notif-icon { font-size:1.2rem; flex-shrink:0; }
 .cl-notif-body p { margin:0 0 .2rem; font-size:.83rem; color:var(--text); }
 .cl-notif-time   { font-size:.72rem; color:var(--text-muted); }
+
+/* ── ClassRooms: intro + inscripción al rol de Profesor ── */
+.clr-intro-card { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:1.1rem 1.25rem; margin-bottom:1rem; }
+.clr-intro-text { color:var(--text); font-size:.92rem; line-height:1.55; margin:0 0 .75rem; }
+.clr-feature-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:.5rem; }
+.clr-feature-list li { font-size:.88rem; color:var(--text); }
+.clr-pricing-toggle { display:flex; justify-content:center; gap:.5rem; margin-bottom:1rem; }
+.clr-price-card { display:flex; flex-direction:column; align-items:center; gap:.4rem; background:var(--surface); border:1.5px solid #f59e0b; border-radius:18px; padding:1.5rem; text-align:center; }
+.clr-price-num { font-size:2rem; font-weight:800; color:var(--text); }
+.clr-price-period { font-size:.85rem; color:var(--text-muted); margin-bottom:.5rem; }
 
 .cl-star-picker { display:flex; gap:.3rem; margin-bottom:.75rem; justify-content:center; }
 .cl-star-pick   { font-size:1.8rem; background:none; border:none; color:#d1d5db; cursor:pointer; transition:color .12s; padding:.1rem; }
@@ -9819,6 +9831,11 @@ body.dark-mode .asong-lyrics-preview { background: rgba(255,255,255,0.04); }
 .plans-region-btn--contrib.active,
 .plans-region-btn--contrib:hover {
     background: linear-gradient(135deg, #064e3b, #10b981);
+    border-color: transparent;
+    color: white;
+}
+.plans-region-btn--classroom:hover {
+    background: linear-gradient(135deg, #92400e, #f59e0b);
     border-color: transparent;
     color: white;
 }

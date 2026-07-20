@@ -369,6 +369,12 @@ document.getElementById('suggestionsLink').addEventListener('click', e => { e.pr
 document.getElementById('themesLink').addEventListener('click',      e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); showThemesPanel(); });
 document.getElementById('logoutLink').addEventListener('click', e => { e.preventDefault(); authLogout(); location.reload(); });
 document.getElementById('planesMenuLink')?.addEventListener('click', e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); if (typeof loadMembershipSection === 'function') loadMembershipSection(); });
+document.getElementById('classroomsMenuLink')?.addEventListener('click', e => {
+    e.preventDefault();
+    dropdownMenu.classList.add('hidden');
+    if (!requireAuthForAction('ver ClassRooms')) return;
+    if (typeof _showClassRoomsIntro === 'function') _showClassRoomsIntro();
+});
 
 // ─── Sección Quejas & Fortalezas ─────────────────────────────
 

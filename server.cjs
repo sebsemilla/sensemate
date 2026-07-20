@@ -1848,8 +1848,9 @@ function savePublications(data) {
     fs.writeFileSync(PUBLICATIONS_FILE, JSON.stringify(data, null, 2), 'utf8');
 }
 
-// Public: registrar contribuidor
-app.post('/contributor/register', (req, res) => {
+// Registrar contribuidor — requiere login: necesitamos el userId real para
+// poder mandarle notificaciones in-app (confirmación + invitación a ClassRooms).
+app.post('/contributor/register', authDb.verifyToken, (req, res) => {
     const { code, name, email, link, photo, bio, username } = req.body;
     if (code !== CONTRIBUTOR_CODE)  return res.status(403).json({ error: 'Código inválido.' });
     if (!name || !email || !link)   return res.status(400).json({ error: 'Nombre, email y link son requeridos.' });
@@ -1859,6 +1860,7 @@ app.post('/contributor/register', (req, res) => {
     }
     const c = {
         id: Date.now().toString(),
+        userId: req.jwtUser.id,
         name: name.trim(),
         email: email.trim().toLowerCase(),
         username: username || null,
@@ -1871,6 +1873,14 @@ app.post('/contributor/register', (req, res) => {
     contributors.push(c);
     saveContributors(contributors);
     console.log(`👥 Nuevo contribuidor: ${c.name} (${c.email})`);
+
+    // Notificar al usuario: confirmación + invitación a inscribirse en ClassRooms
+    // (mismo tipo 'classroom_invite' que reusa el recordatorio semanal, ver cron abajo).
+    if (req.jwtUser.id !== 'dev') {
+        authDb.createNotification(req.jwtUser.id, 'contributor_pending', {});
+        authDb.createNotification(req.jwtUser.id, 'classroom_invite', {});
+    }
+
     res.json({ ok: true, id: c.id });
 });
 
@@ -2143,6 +2153,8 @@ const PLAN_PRICES = {
     'oro-mensual':            4.99,
     'contributor-mensual':    4.99,
     'contributor-trimestral': 10.00,
+    'classroom-mensual':      15.00,
+    'classroom-anual':        80.00,
 };
 
 const PLAN_LABELS = {
@@ -2154,12 +2166,15 @@ const PLAN_LABELS = {
     'oro-mensual':            'SenseMate Oro – Mensual',
     'contributor-mensual':    'SenseMate Contributor – Mensual',
     'contributor-trimestral': 'SenseMate Contributor – Trimestral',
+    'classroom-mensual':      'SenseMate ClassRooms – Mensual',
+    'classroom-anual':        'SenseMate ClassRooms – Anual',
 };
 
 // Determina el tier a partir del periodKey
 function _tierFromPeriod(period) {
     if (period?.startsWith('oro'))         return 'oro';
     if (period?.startsWith('contributor')) return 'contributor';
+    if (period?.startsWith('classroom'))   return 'classroom';
     return 'premium';
 }
 
@@ -2172,15 +2187,16 @@ function _planKey(period, tier) {
     return isAnnual ? 'premium_annual' : 'premium_monthly';
 }
 
-// Upsert en subscriptions.json
-function _upsertSubscription(userId, plan, period, paymentId) {
+// Upsert en subscriptions.json — `type` distingue el plan principal del addon
+// ClassRooms, así uno no pisa el registro del otro para el mismo usuario.
+function _upsertSubscription(userId, plan, period, paymentId, type = 'main') {
     const subs     = loadSubscriptions();
-    const existing = subs.find(s => s.userId === userId);
+    const existing = subs.find(s => s.userId === userId && (s.type || 'main') === type);
     const now      = new Date().toISOString();
     if (existing) {
         Object.assign(existing, { status: 'active', plan, paymentId, updatedAt: now });
     } else {
-        subs.push({ id: Date.now().toString(), userId, plan, period, paymentId, status: 'active', subscribedAt: now });
+        subs.push({ id: Date.now().toString(), userId, plan, period, paymentId, status: 'active', subscribedAt: now, type });
     }
     saveSubscriptions(subs);
 }
@@ -2228,16 +2244,29 @@ app.post('/mp/create-preference', authDb.verifyToken, async (req, res) => {
 });
 
 // GET /mp/success — redirect de vuelta a la app tras pago aprobado
+// Aplica un pago aprobado: el addon ClassRooms se guarda aparte y nunca pisa
+// el plan principal (ver setClassroomAddon / _upsertSubscription con `type`).
+function _applyApprovedPayment(ref, paymentId) {
+    if (ref.tier === 'classroom') {
+        authDb.setClassroomAddon(ref.userId, true, ref.period);
+        const classroomPlan = ref.period?.includes('anual') ? 'classroom_annual' : 'classroom_monthly';
+        _upsertSubscription(ref.userId, classroomPlan, ref.period, paymentId, 'classroom');
+        return classroomPlan;
+    }
+    const plan = _planKey(ref.period, ref.tier);
+    authDb.setUserPlan(ref.userId, plan);
+    _upsertSubscription(ref.userId, plan, ref.period, paymentId);
+    return plan;
+}
+
 app.get('/mp/success', async (req, res) => {
     const { payment_id, external_reference } = req.query;
     console.log(`✅ MP pago aprobado: payment_id=${payment_id}`);
 
     if (payment_id && external_reference) {
         try {
-            const ref  = JSON.parse(external_reference);
-            const plan = _planKey(ref.period, ref.tier);
-            authDb.setUserPlan(ref.userId, plan);
-            _upsertSubscription(ref.userId, plan, ref.period, payment_id);
+            const ref = JSON.parse(external_reference);
+            _applyApprovedPayment(ref, payment_id);
         } catch (e) {
             console.error('❌ MP success parse error:', e.message);
         }
@@ -2275,11 +2304,8 @@ app.post('/mp/webhook', express.raw({ type: 'application/json' }), async (req, r
         const ref = JSON.parse(paymentData.external_reference || '{}');
         if (!ref.userId) return;
 
-        const plan = _planKey(ref.period, ref.tier);
-        authDb.setUserPlan(ref.userId, plan);
+        const plan = _applyApprovedPayment(ref, data.id);
         console.log(`✅ MP webhook: usuario ${ref.userId} activado como ${plan}`);
-
-        _upsertSubscription(ref.userId, plan, ref.period, data.id);
     } catch (e) {
         console.error('❌ MP webhook error:', e.message);
     }
@@ -2305,8 +2331,10 @@ const PORT = process.env.PORT || 3000;
 // Helper: require Gold plan for teacher endpoints
 function _requireGold(req, res, next) {
     const plan = req.jwtUser?.plan;
-    if (plan !== 'gold' && !req.jwtUser?.isDev) {
-        return res.status(403).json({ error: 'Se requiere el plan Gold para acceder a esta función.' });
+    // Acceso al rol de Profesor: plan Gold asignado por admin, o el addon ClassRooms
+    // contratado sobre un plan pago existente (Premium/Oro/Contributor) — ver setClassroomAddon.
+    if (plan !== 'gold' && !req.jwtUser?.classroomAddon && !req.jwtUser?.isDev) {
+        return res.status(403).json({ error: 'Se requiere el plan Gold o el addon ClassRooms para acceder a esta función.' });
     }
     next();
 }
@@ -2497,4 +2525,34 @@ try {
     }
 } catch (err) {
     console.warn('[LinkedIn Bot] node-cron no disponible:', err.message);
+}
+
+// ─── ClassRooms — invitación semanal a contribuidores sin inscribir ────
+// Recordatorio a quienes se registraron como Contributor (código SOYPROFE) pero
+// todavía no contrataron el addon ClassRooms. Deja de enviarse solo en cuanto
+// se inscriben (chequeo en vivo contra `classroom_addon`, sin bookkeeping extra
+// de "última vez enviado" — el propio intervalo semanal del cron ya lo garantiza).
+function _sendClassroomInviteReminders() {
+    const contributors = loadContributors();
+    let sent = 0;
+    contributors.forEach(c => {
+        if (!c.userId) return;
+        const user = authDb.getUserById(c.userId);
+        if (!user || user.classroomAddon || user.plan === 'gold') return;
+        authDb.createNotification(c.userId, 'classroom_invite', {});
+        sent++;
+    });
+    return sent;
+}
+
+try {
+    const cron = require('node-cron');
+    // Todos los lunes 11:00 AM (ART)
+    cron.schedule('0 11 * * 1', () => {
+        const sent = _sendClassroomInviteReminders();
+        console.log(`[ClassRooms] Recordatorio semanal enviado a ${sent} contribuidor(es) sin inscribir.`);
+    }, { timezone: 'America/Argentina/Buenos_Aires' });
+    console.log('[ClassRooms] Cron activo — invitación semanal los lunes 11:00 AM (ART)');
+} catch (err) {
+    console.warn('[ClassRooms] node-cron no disponible:', err.message);
 }

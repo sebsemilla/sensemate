@@ -43,6 +43,9 @@ try { db.exec(`ALTER TABLE users ADD COLUMN reset_token TEXT`); } catch {}
 try { db.exec(`ALTER TABLE users ADD COLUMN reset_token_expires TEXT`); } catch {}
 try { db.exec(`ALTER TABLE users ADD COLUMN google_id TEXT`); } catch {}
 try { db.exec(`CREATE UNIQUE INDEX IF NOT EXISTS idx_users_google_id ON users(google_id) WHERE google_id IS NOT NULL`); } catch {}
+// Addon ClassRooms: independiente de `plan` — no se pisa al comprar/renovar el plan principal
+try { db.exec(`ALTER TABLE users ADD COLUMN classroom_addon INTEGER DEFAULT 0`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN classroom_addon_period TEXT DEFAULT NULL`); } catch {}
 
 // Seed admin user (sebas_dev1245) if not exists
 function seedAdminUser() {
@@ -74,12 +77,13 @@ function _makePublicUser(row) {
         isDev:         !!row.is_dev,
         plan:          row.plan || 'free',
         emailVerified: !!row.email_verified,
+        classroomAddon: !!row.classroom_addon,
     };
 }
 
 function _signToken(user) {
     return jwt.sign(
-        { id: user.id, isDev: !!user.is_dev, plan: user.plan || 'free' },
+        { id: user.id, isDev: !!user.is_dev, plan: user.plan || 'free', classroomAddon: !!user.classroom_addon },
         JWT_SECRET,
         { expiresIn: JWT_EXPIRES }
     );
@@ -200,6 +204,13 @@ function getUserById(id) {
 function setUserPlan(userId, plan) {
     if (userId === 'dev') return;
     db.prepare('UPDATE users SET plan = ? WHERE id = ?').run(plan, userId);
+}
+
+// Addon ClassRooms — independiente de `plan`, nunca lo pisa (ver setUserPlan arriba)
+function setClassroomAddon(userId, active, period) {
+    if (userId === 'dev') return;
+    db.prepare('UPDATE users SET classroom_addon = ?, classroom_addon_period = ? WHERE id = ?')
+      .run(active ? 1 : 0, period || null, userId);
 }
 
 // ─── Forgot / Reset password ──────────────────────────────────
@@ -579,7 +590,7 @@ function getUserByUsername(username) {
 }
 
 module.exports = {
-    register, login, loginWithGoogle, verifyToken, signToken, getUserById, setUserPlan,
+    register, login, loginWithGoogle, verifyToken, signToken, getUserById, setUserPlan, setClassroomAddon,
     verifyEmail, createResetToken, resetPassword, deleteUser, getAllUsers, db,
     // Admin user management
     updateUserAdmin, saveUserLocation, getUsersByRegions,

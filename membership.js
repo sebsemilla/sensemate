@@ -235,6 +235,9 @@ async function loadMembershipSection() {
                 <button class="plans-region-btn plans-region-btn--contrib ${_plansTab === 'contributors' ? 'active' : ''}" data-tab="contributors">
                     🤝 Contributores
                 </button>
+                <button class="plans-region-btn plans-region-btn--classroom" data-tab="classrooms">
+                    🏫 ClassRooms
+                </button>
             </div>
 
             ${_plansTab === 'contributors' ? `
@@ -541,6 +544,12 @@ async function loadMembershipSection() {
     // Tab / Region buttons
     document.querySelectorAll('.plans-region-btn').forEach(btn => {
         btn.addEventListener('click', () => {
+            if (btn.dataset.tab === 'classrooms') {
+                // ClassRooms tiene su propia página con el gating de elegibilidad
+                // (Free / ya inscripto / elegible) — se reusa en vez de duplicarlo acá.
+                if (typeof _showClassRoomsIntro === 'function') _showClassRoomsIntro();
+                return;
+            }
             if (btn.dataset.tab === 'contributors') {
                 _plansTab = 'contributors';
             } else {
@@ -842,11 +851,15 @@ function _showPaymentFlow(period, tier = 'premium') {
         ? (period === 'annual' ? oroAnnual : oroMonthly)
         : tier === 'contributor'
         ? (period === 'quarterly' ? 10.00 : 4.99)
+        : tier === 'classroom'
+        ? (period === 'annual' ? 80.00 : 15.00)
         : (period === 'annual' ? (promoActive ? promoAnnual : regAnnual) : (promoActive ? promoMonthly : regMonthly));
     const planName = tier === 'oro'
         ? (isES ? 'Membresía Oro' : 'Gold Membership')
         : tier === 'contributor'
         ? 'Contributor'
+        : tier === 'classroom'
+        ? 'ClassRooms'
         : (isES ? (config.planName?.es || 'Premium 250X') : (config.planName?.en || 'STARTUP FOR 250X'));
     const periodLabel = period === 'annual'
         ? (isES ? 'anual' : 'annual')
@@ -863,6 +876,8 @@ function _showPaymentFlow(period, tier = 'premium') {
         periodKey = period === 'annual' ? 'oro-anual' : 'oro-mensual';
     } else if (tier === 'contributor') {
         periodKey = period === 'quarterly' ? 'contributor-trimestral' : 'contributor-mensual';
+    } else if (tier === 'classroom') {
+        periodKey = period === 'annual' ? 'classroom-anual' : 'classroom-mensual';
     } else {
         periodKey = period === 'annual'
             ? (promoActive ? 'promo-anual'   : 'anual')

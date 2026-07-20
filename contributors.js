@@ -4,6 +4,10 @@
 // ─── Registro de contribuidor ────────────────────────────────
 
 function showContributorRegistration() {
+    // Necesitamos saber quién es el usuario real para poder notificarle la
+    // confirmación y la invitación a ClassRooms — no tiene sentido sin cuenta.
+    if (typeof requireAuthForAction === 'function' && !requireAuthForAction('registrarte como profesor')) return;
+
     const overlay = document.createElement('div');
     overlay.className = 'contrib-overlay';
     overlay.id = 'contribOverlay';
@@ -160,9 +164,8 @@ function _bindContribProfile() {
 
         try {
             const user = (typeof currentUser !== 'undefined') ? currentUser : null;
-            const res = await fetch(_API_HOST + '/contributor/register', {
+            const res = await _authFetch(_API_HOST + '/contributor/register', {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     code: 'SOYPROFE', name, email, link, photo, bio,
                     username: user?.username || null
@@ -171,18 +174,10 @@ function _bindContribProfile() {
             const data = await res.json();
             if (!res.ok) throw new Error(data.error || 'Error al enviar');
 
-            document.getElementById('contribStepArea').innerHTML = `
-                <div class="contrib-success">
-                    <div class="contrib-success-icon">🎉</div>
-                    <h3>¡Solicitud enviada!</h3>
-                    <p>Tu solicitud fue recibida y será revisada por el administrador.<br>
-                    Te avisaremos cuando esté activa.</p>
-                    <button class="contrib-submit-btn" id="contribDoneBtn" style="margin-top:1.25rem">Cerrar</button>
-                </div>
-            `;
-            document.getElementById('contribDoneBtn').addEventListener('click', () => {
-                document.getElementById('contribOverlay')?.remove();
-            });
+            // La confirmación + invitación a ClassRooms ya quedaron como notificaciones
+            // in-app (creadas por el backend) — llevamos al usuario directo a verlas.
+            document.getElementById('contribOverlay')?.remove();
+            if (typeof _clShowNotifPanel === 'function' && user) _clShowNotifPanel(user);
         } catch (err2) {
             _contribErr(err, err2.message);
             btn.disabled = false;

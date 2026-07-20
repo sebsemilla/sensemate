@@ -14,8 +14,10 @@ function loadClassroomPanel() {
     const user = (typeof currentUser !== 'undefined') ? currentUser : null;
     if (!user) { alert('Debés iniciar sesión para acceder al aula.'); return; }
 
-    const isGold    = user.plan === 'gold' || user.isDev;
-    const isPremium = user.plan === 'premium' || user.plan === 'gold' || user.isDev;
+    // Rol de Profesor: plan Gold asignado por admin, o el addon ClassRooms
+    // contratado sobre un plan pago existente (ver _showClassRoomsIntro).
+    const isGold    = user.plan === 'gold' || !!user.classroomAddon || user.isDev;
+    const isPremium = user.plan === 'premium' || isGold;
 
     if (!isPremium) {
         _clShowUpgradeGate();
@@ -43,6 +45,94 @@ function _clShowUpgradeGate() {
             <button class="cl-gate-btn" onclick="loadMembershipSection()">Ver planes →</button>
         </div>`;
     renderLanguageBar();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// CLASSROOMS — intro + inscripción al rol de Profesor (addon pago)
+// ═══════════════════════════════════════════════════════════════
+
+function _showClassRoomsIntro() {
+    const user = (typeof currentUser !== 'undefined') ? currentUser : null;
+    if (!user) { alert('Debés iniciar sesión para ver ClassRooms.'); return; }
+
+    const hasAccess  = user.plan === 'gold' || !!user.classroomAddon || user.isDev;
+    const isEligible = hasAccess || (typeof MembershipPlan !== 'undefined' && MembershipPlan.isActive());
+
+    // Ya tiene el rol de Profesor (Gold admin o addon activo)
+    if (hasAccess) {
+        mainContainer.innerHTML = `
+            <div class="cl-gate">
+                <div class="cl-gate-icon">🏫</div>
+                <h2>ClassRooms</h2>
+                <p>Ya tenés acceso al Aula Virtual como profesor. ✅</p>
+                <button class="cl-gate-btn" id="clrGoToAula">Ir a Mi Aula →</button>
+            </div>`;
+        renderLanguageBar();
+        document.getElementById('clrGoToAula').addEventListener('click', loadClassroomPanel);
+        return;
+    }
+
+    // Plan Free: no puede contratar el addon todavía
+    if (!isEligible) {
+        mainContainer.innerHTML = `
+            <div class="cl-gate">
+                <div class="cl-gate-icon">🏫</div>
+                <h2>ClassRooms</h2>
+                <p>Para inscribirte en ClassRooms necesitás primero un plan pago: <strong>Premium</strong>, <strong>Oro</strong> o <strong>Contributor</strong>.</p>
+                <button class="cl-gate-btn" onclick="loadMembershipSection()">Ver planes →</button>
+            </div>`;
+        renderLanguageBar();
+        return;
+    }
+
+    // Elegible, todavía no contratado: intro al espacio de trabajo + precio
+    let _period = 'monthly';
+
+    const render = () => {
+        const price = _period === 'annual' ? 80 : 15;
+        const per   = _period === 'annual' ? 'año' : 'mes';
+
+        mainContainer.innerHTML = `
+            <div class="cl-wrap">
+                <div class="cl-header">
+                    <button class="school-back-btn" id="clrBackBtn">← Volver</button>
+                    <h2 class="cl-title">🏫 ClassRooms</h2>
+                </div>
+
+                <div class="clr-intro-card">
+                    <p class="clr-intro-text">Convertí tu cuenta en un espacio de trabajo docente dentro de SenseMate. Con ClassRooms podés:</p>
+                    <ul class="clr-feature-list">
+                        <li>📋 Crear y administrar tus propias clases</li>
+                        <li>👥 Agregar alumnos y aprobar solicitudes de ingreso</li>
+                        <li>💬 Mensajería grupal y privada con tus alumnos</li>
+                        <li>⭐ Perfil público con calificaciones de tus alumnos</li>
+                    </ul>
+                </div>
+
+                <div class="clr-pricing-toggle">
+                    <button class="plans-toggle-btn ${_period === 'monthly' ? 'active' : ''}" id="clrToggleMonthly">Mensual</button>
+                    <button class="plans-toggle-btn ${_period === 'annual' ? 'active' : ''}" id="clrToggleAnnual">
+                        Anual <span class="plans-save-badge">Ahorrás ~55%</span>
+                    </button>
+                </div>
+
+                <div class="clr-price-card">
+                    <span class="clr-price-num">u$s ${price.toFixed(2)}</span>
+                    <span class="clr-price-period">/ ${per}</span>
+                    <button class="plan-cta-btn plan-cta-btn--oro" id="clrSubscribeBtn">Inscribirme →</button>
+                </div>
+            </div>`;
+        renderLanguageBar();
+
+        document.getElementById('clrBackBtn').addEventListener('click', showMainMenu);
+        document.getElementById('clrToggleMonthly').addEventListener('click', () => { _period = 'monthly'; render(); });
+        document.getElementById('clrToggleAnnual').addEventListener('click',  () => { _period = 'annual';  render(); });
+        document.getElementById('clrSubscribeBtn').addEventListener('click', () => {
+            if (typeof _showPaymentFlow === 'function') _showPaymentFlow(_period, 'classroom');
+        });
+    };
+
+    render();
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -811,7 +901,8 @@ async function _clShowNotifPanel(user) {
             <h3>🔔 Notificaciones</h3>
             <div class="cl-notif-list">
                 ${notifs.length ? notifs.map(n => `
-                    <div class="cl-notif-item ${n.is_read ? '' : 'unread'}" data-id="${n.id}">
+                    <div class="cl-notif-item ${n.is_read ? '' : 'unread'} ${n.type === 'classroom_invite' ? 'cl-notif-item--clickable' : ''}"
+                         data-id="${n.id}" data-type="${n.type}">
                         <span class="cl-notif-icon">${_clNotifIcon(n.type)}</span>
                         <div class="cl-notif-body">
                             <p>${_clNotifText(n)}</p>
@@ -825,6 +916,14 @@ async function _clShowNotifPanel(user) {
     overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
     document.getElementById('clNotifClose').addEventListener('click', () => overlay.remove());
 
+    // La invitación a ClassRooms lleva directo a la intro/suscripción
+    overlay.querySelectorAll('.cl-notif-item--clickable').forEach(el => {
+        el.addEventListener('click', () => {
+            overlay.remove();
+            if (typeof _showClassRoomsIntro === 'function') _showClassRoomsIntro();
+        });
+    });
+
     // Mark all unread as read
     notifs.filter(n => !n.is_read).forEach(async n => {
         await _authFetch(`${_API_HOST}/classroom/notifications/${n.id}/read`, { method: 'POST', body: '{}' });
@@ -833,7 +932,10 @@ async function _clShowNotifPanel(user) {
 }
 
 function _clNotifIcon(type) {
-    const icons = { student_request: '👋', student_added: '🏫', request_approved: '✅', request_rejected: '❌', new_message: '💬' };
+    const icons = {
+        student_request: '👋', student_added: '🏫', request_approved: '✅', request_rejected: '❌', new_message: '💬',
+        contributor_pending: '📨', classroom_invite: '🏫',
+    };
     return icons[type] || '🔔';
 }
 
@@ -845,6 +947,8 @@ function _clNotifText(n) {
         case 'request_approved':  return `Tu solicitud para la clase <strong>${escapeHtml(p.className || '—')}</strong> fue aprobada.`;
         case 'request_rejected':  return `Tu solicitud para la clase <strong>${escapeHtml(p.className || '—')}</strong> fue rechazada.`;
         case 'new_message':       return `Recibiste un mensaje privado.`;
+        case 'contributor_pending': return `Tu solicitud para ser Contribuidor fue enviada al equipo de SenseMate. Nos pondremos en contacto para confirmar tus datos.`;
+        case 'classroom_invite':  return `¿Querés dar clases en SenseMate? Inscribite en <strong>ClassRooms</strong> y accedé al Aula Virtual como profesor. Tocá para ver los detalles →`;
         default:                  return 'Nueva notificación.';
     }
 }
