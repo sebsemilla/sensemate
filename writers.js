@@ -762,7 +762,7 @@ function _showSubmitForm(existingEntry = null) {
 
         try {
             const headers = { 'Content-Type': 'application/json' };
-            if (isEdit || isAdmin) headers['x-admin-token'] = 'admin_lingua_2025';
+            if (isEdit || isAdmin) headers['x-admin-token'] = await _loadAdminToken();
             else                   headers['Authorization']  = `Bearer ${typeof authGetToken === 'function' ? authGetToken() : ''}`;
 
             const url    = isEdit ? `${_API_HOST}/admin/writers/${existingEntry.id}` : `${_API_HOST}/writers/submit`;

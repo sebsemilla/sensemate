@@ -357,7 +357,7 @@ function loadAddSongForm() {
             const user = (typeof authGetCurrentUser === 'function' && authGetCurrentUser()) || currentUser;
             const isAdminUser = user?.isDev === true;
             const headers = { 'Content-Type': 'application/json' };
-            if (isAdminUser) headers['x-admin-token'] = 'admin_lingua_2025';
+            if (isAdminUser) headers['x-admin-token'] = await _loadAdminToken();
 
             const res = await fetch(_API_HOST + '/songs/submit', {
                 method: 'POST',
@@ -562,7 +562,7 @@ function _showSongEditPanel(song, artistId, artistName) {
         try {
             const res = await fetch(`${_API_HOST}/admin/songs/${song.id}`, {
                 method: 'PATCH',
-                headers: { 'Content-Type': 'application/json', 'x-admin-token': 'admin_lingua_2025' },
+                headers: { 'Content-Type': 'application/json', 'x-admin-token': await _loadAdminToken() },
                 body: JSON.stringify({ title, youtubeUrl, lyrics, translations })
             });
             const data = await res.json();

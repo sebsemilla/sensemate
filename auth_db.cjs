@@ -3,17 +3,21 @@
 
 'use strict';
 
-const Database = require('better-sqlite3');
-const bcrypt   = require('bcrypt');
-const jwt      = require('jsonwebtoken');
-const path     = require('path');
-const crypto   = require('crypto');
+const Database    = require('better-sqlite3');
+const bcrypt      = require('bcrypt');
+const jwt         = require('jsonwebtoken');
+const path        = require('path');
+const crypto      = require('crypto');
+const { _validEmail } = require('./lib/validators.cjs');
+const logger      = require('./lib/logger.cjs');
 
 const DB_PATH      = process.env.DB_PATH || path.join(__dirname, 'lingua_users.db');
 const SALT_ROUNDS  = 12;
-const JWT_SECRET   = process.env.JWT_SECRET || 'lingua_dev_secret_change_in_prod';
+const JWT_SECRET   = process.env.JWT_SECRET;
+if (!JWT_SECRET) throw new Error('❌ JWT_SECRET no está definida en .env — el servidor no puede arrancar de forma segura.');
 const JWT_EXPIRES  = '30d';
-const DEV_PASSWORD = 'dev2025';
+// Solo activo si DEV_PASSWORD está definida en .env Y no es producción
+const DEV_PASSWORD = process.env.NODE_ENV !== 'production' ? (process.env.DEV_PASSWORD || null) : null;
 
 // ─── DB init ──────────────────────────────────────────────────
 
@@ -47,20 +51,31 @@ try { db.exec(`CREATE UNIQUE INDEX IF NOT EXISTS idx_users_google_id ON users(go
 try { db.exec(`ALTER TABLE users ADD COLUMN classroom_addon INTEGER DEFAULT 0`); } catch {}
 try { db.exec(`ALTER TABLE users ADD COLUMN classroom_addon_period TEXT DEFAULT NULL`); } catch {}
 
-// Seed admin user (sebas_dev1245) if not exists
+// Seed admin user from env vars — no valores hardcodeados
 function seedAdminUser() {
-    const existing = db.prepare('SELECT id FROM users WHERE username = ?').get('sebas_dev1245');
-    if (existing) {
-        // Asegurar que el admin siempre esté verificado
-        db.prepare('UPDATE users SET email_verified = 1 WHERE username = ?').run('sebas_dev1245');
+    const adminUsername = process.env.ADMIN_USERNAME;
+    const adminEmail    = process.env.ADMIN_EMAIL;
+    const adminPassword = process.env.ADMIN_PASSWORD;
+
+    if (!adminUsername || !adminEmail || !adminPassword) {
+        if (process.env.NODE_ENV === 'production') {
+            logger.warn('ADMIN_USERNAME / ADMIN_EMAIL / ADMIN_PASSWORD no definidas — admin user no fue creado.');
+        }
         return;
     }
-    const hashed = bcrypt.hashSync(DEV_PASSWORD, SALT_ROUNDS);
+
+    const existing = db.prepare('SELECT id FROM users WHERE username = ?').get(adminUsername);
+    if (existing) {
+        db.prepare('UPDATE users SET email_verified = 1 WHERE username = ?').run(adminUsername);
+        return;
+    }
+
+    const hashed = bcrypt.hashSync(adminPassword, SALT_ROUNDS);
     db.prepare(`
         INSERT OR IGNORE INTO users (id, name, username, email, password, preferred_lang, is_dev, plan, created_at, email_verified)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1)
-    `).run('sebas_admin', 'Sebas', 'sebas_dev1245', 'sebas@sensemate.dev', hashed, 'es', 1, 'premium', new Date().toISOString());
-    console.log('✅ Admin user sebas_dev1245 seeded in DB');
+    `).run(`admin_${Date.now()}`, adminUsername, adminUsername, adminEmail, hashed, 'es', 1, 'premium', new Date().toISOString());
+    logger.info(`Admin user '${adminUsername}' seeded in DB`);
 }
 
 seedAdminUser();
@@ -102,6 +117,10 @@ async function register({ name, username, email, password, preferredLang }) {
     const trimEmail    = email.trim().toLowerCase();
     const trimUsername = username?.trim().toLowerCase() || null;
 
+    if (!_validEmail(trimEmail)) {
+        return { ok: false, error: 'El formato del email no es válido.' };
+    }
+
     if (trimUsername && !/^[a-z0-9_]{3,30}$/.test(trimUsername)) {
         return { ok: false, error: 'Usuario solo puede tener letras, números y guion bajo (3–30 caracteres).' };
     }
@@ -124,7 +143,7 @@ async function register({ name, username, email, password, preferredLang }) {
         VALUES (?, ?, ?, ?, ?, ?, 0, 'free', ?, 0, ?)
     `).run(id, name.trim(), trimUsername, trimEmail, hashed, preferredLang || 'es', now, verifyToken);
 
-    console.log(`📧 Verify token for ${trimEmail}: /auth/verify/${verifyToken}`);
+    logger.debug('Verify token generado', { email: trimEmail });
 
     const row   = db.prepare('SELECT * FROM users WHERE id = ?').get(id);
     const pub   = _makePublicUser(row);
@@ -138,8 +157,8 @@ async function register({ name, username, email, password, preferredLang }) {
 async function login({ email, password }) {
     const identifier = (email || '').trim().toLowerCase();
 
-    // 🔧 Dev bypass: any email/username + 'dev2025'
-    if (password === DEV_PASSWORD) {
+    // 🔧 Dev bypass: solo activo si DEV_PASSWORD está definida en .env
+    if (DEV_PASSWORD && password === DEV_PASSWORD) {
         // Try to find a real isDev user matching the identifier
         const devRow = db.prepare(
             'SELECT * FROM users WHERE (LOWER(email) = ? OR LOWER(username) = ?) AND is_dev = 1'
@@ -177,11 +196,38 @@ async function login({ email, password }) {
     return { ok: true, token, user: _makePublicUser(row) };
 }
 
+// ─── Cookie helpers ───────────────────────────────────────────
+
+const _COOKIE_NAME = 'sm_token';
+const _COOKIE_OPTS = {
+    httpOnly: true,
+    secure:   process.env.NODE_ENV === 'production',
+    sameSite: 'lax',
+    maxAge:   30 * 24 * 60 * 60 * 1000,
+    path:     '/',
+};
+
+function setAuthCookie(res, token) {
+    res.cookie(_COOKIE_NAME, token, _COOKIE_OPTS);
+}
+
+function clearAuthCookie(res) {
+    res.clearCookie(_COOKIE_NAME, { path: '/' });
+}
+
+function _parseCookieToken(req) {
+    const raw = req.headers.cookie || '';
+    const match = raw.match(/(?:^|;\s*)sm_token=([^;]+)/);
+    return match ? decodeURIComponent(match[1]) : null;
+}
+
 // ─── Verify JWT middleware ────────────────────────────────────
 
 function verifyToken(req, res, next) {
     const authHeader = req.headers['authorization'];
-    const token      = authHeader?.startsWith('Bearer ') ? authHeader.slice(7) : null;
+    const token = authHeader?.startsWith('Bearer ')
+        ? authHeader.slice(7)
+        : _parseCookieToken(req);
     if (!token) return res.status(401).json({ error: 'No autenticado.' });
     try {
         req.jwtUser = jwt.verify(token, JWT_SECRET);
@@ -290,21 +336,33 @@ function verifyEmail(token) {
     if (!row) return { ok: false, error: 'El enlace de verificación no es válido o ya fue usado.' };
     if (row.email_verified) return { ok: true };
     db.prepare('UPDATE users SET email_verified = 1, verify_token = NULL WHERE id = ?').run(row.id);
-    console.log(`✅ Email verificado: ${row.email}`);
+    logger.info('Email verificado', { email: row.email });
     return { ok: true };
 }
 
 // ─── Get all users (admin) ────────────────────────────────────
 
-function getAllUsers() {
-    return db.prepare('SELECT id, name, username, email, preferred_lang, is_dev, plan, email_verified, created_at, role, label, permissions, country, region, managed_regions FROM users').all()
-        .map(r => ({
+function getAllUsers({ page = 1, limit = 50 } = {}) {
+    const safeLimit  = Math.min(Math.max(1, parseInt(limit)  || 50), 200);
+    const safePage   = Math.max(1, parseInt(page) || 1);
+    const offset     = (safePage - 1) * safeLimit;
+    const total      = db.prepare('SELECT COUNT(*) AS cnt FROM users').get().cnt;
+    const rows       = db.prepare(
+        'SELECT id, name, username, email, preferred_lang, is_dev, plan, email_verified, created_at, role, label, permissions, country, region, managed_regions FROM users ORDER BY created_at DESC LIMIT ? OFFSET ?'
+    ).all(safeLimit, offset);
+    return {
+        users: rows.map(r => ({
             ...r,
-            isDev:          !!r.is_dev,
-            emailVerified:  !!r.email_verified,
-            permissions:    JSON.parse(r.permissions    || '[]'),
+            isDev:           !!r.is_dev,
+            emailVerified:   !!r.email_verified,
+            permissions:     JSON.parse(r.permissions     || '[]'),
             managed_regions: JSON.parse(r.managed_regions || '[]'),
-        }));
+        })),
+        total,
+        page:  safePage,
+        limit: safeLimit,
+        pages: Math.ceil(total / safeLimit),
+    };
 }
 
 function getUsersByRegions(regions) {
@@ -591,6 +649,7 @@ function getUserByUsername(username) {
 
 module.exports = {
     register, login, loginWithGoogle, verifyToken, signToken, getUserById, setUserPlan, setClassroomAddon,
+    setAuthCookie, clearAuthCookie,
     verifyEmail, createResetToken, resetPassword, deleteUser, getAllUsers, db,
     // Admin user management
     updateUserAdmin, saveUserLocation, getUsersByRegions,

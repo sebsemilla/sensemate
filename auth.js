@@ -7,6 +7,20 @@ const API_BASE      = window.location.hostname === 'localhost'
     ? `http://localhost:3000`
     : window.location.origin;
 
+// ─── Fetch interceptor — agrega credentials para enviar cookie httpOnly ──────
+
+(function _patchFetch() {
+    const _orig = window.fetch.bind(window);
+    window.fetch = function(url, opts = {}) {
+        const urlStr = typeof url === 'string' ? url : (url?.url || '');
+        const isSameOrigin = urlStr.startsWith('/') || urlStr.startsWith(API_BASE);
+        if (isSameOrigin && opts.credentials === undefined) {
+            opts = { ...opts, credentials: 'include' };
+        }
+        return _orig(url, opts);
+    };
+})();
+
 // ─── Helpers internos ─────────────────────────────────────────
 
 function _getToken() {
@@ -62,6 +76,8 @@ async function authLogin({ email, password }) {
 
 function authLogout() {
     _clearSession();
+    // Limpiar cookie httpOnly en el servidor (fire-and-forget)
+    fetch(`${API_BASE}/auth/logout`, { method: 'POST' }).catch(() => {});
     // Evita que el próximo invitado en este navegador herede el plan
     // (Premium/Oro/Contributor) del usuario que acaba de salir.
     if (typeof MembershipPlan !== 'undefined') {

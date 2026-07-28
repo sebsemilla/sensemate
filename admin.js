@@ -1,14 +1,27 @@
 // admin.js — Panel de administración (solo isDev)
 // ================================================
 
-const ADMIN_TOKEN = 'admin_lingua_2025';
+let ADMIN_TOKEN = null;
+
+async function _loadAdminToken() {
+    if (ADMIN_TOKEN) return ADMIN_TOKEN;
+    try {
+        const session = JSON.parse(localStorage.getItem('ls_session') || '{}');
+        const res = await fetch(`${API_URL}/auth/admin-token`, {
+            headers: { 'Authorization': `Bearer ${session.token}` }
+        });
+        if (res.ok) ADMIN_TOKEN = (await res.json()).token;
+    } catch {}
+    return ADMIN_TOKEN;
+}
 
 function isAdmin() {
     return currentUser?.isDev === true;
 }
 
-function loadAdminPanel() {
+async function loadAdminPanel() {
     if (!isAdmin()) return;
+    await _loadAdminToken();
 
     mainContainer.innerHTML = '';
     renderLanguageBar();
@@ -1365,9 +1378,10 @@ const _AU_ROLE_DEFAULTS = {
     ayudante:  ['view_stats','moderate_submissions'],
 };
 
-async function _adminRenderUsers(container) {
-    const res   = await fetch(`${_API_HOST}/admin/users`, { headers: { 'x-admin-token': ADMIN_TOKEN } });
-    const users = await res.json();
+async function _adminRenderUsers(container, page = 1) {
+    const res  = await fetch(`${_API_HOST}/admin/users?page=${page}&limit=50`, { headers: { 'x-admin-token': ADMIN_TOKEN } });
+    const data = await res.json();
+    const users = data.users || data; // compatibilidad con respuesta antigua
 
     // Distribución por región
     const regionCounts = {};

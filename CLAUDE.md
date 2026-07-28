@@ -29,10 +29,15 @@ Aplicación web de traducción y aprendizaje de idiomas con IA.
 - OpenRouter integrado pero aún sin uso activo
 
 ### Variables de entorno necesarias (.env)
+Ver `.env.example` para la lista completa. Las mínimas para correr:
 ```
 COHERE_API_KEY=
 MISTRAL_API_KEY=
-OPENROUTER_API_KEY=
+JWT_SECRET=          # requerido — falla al arrancar si no está
+ADMIN_TOKEN=         # requerido para endpoints /admin
+ADMIN_USERNAME=      # seed del usuario admin inicial
+ADMIN_EMAIL=
+ADMIN_PASSWORD=
 ```
 
 ---
@@ -112,10 +117,13 @@ Nota: `translation` es un JSON stringify-eado, hay que parsearlo en el frontend.
 
 ---
 
-## Sección en desarrollo: Importación de .SRT
+## Sección de inmersión: Importación de .SRT
 
-**Estado actual:** La sección de inmersión (`immersion.js`) acepta timestamps manuales para el diálogo.
-**Próximo paso:** Parsear archivos `.srt` e importarlos al formato `dialogue[]` de la app.
+**Estado:** ✅ Completado. `immersion.js` incluye:
+- `_parseSRT()` — parser completo de archivos .srt (incluyendo tags HTML/ASS)
+- `_matchDialogueByTime()` — empareja subtítulos originales con traducidos por solapamiento temporal
+- `_translateSrtBatch()` — traducción IA por lotes vía `/translate-batch`
+- UI de carga: radio buttons para elegir entre archivo .srt o entrada manual
 
 Formato destino que espera la app:
 ```js
