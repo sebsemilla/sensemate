@@ -607,9 +607,10 @@ Podés mencionar el exilio, Montevideo, el amor y la vida cotidiana. Jamás salg
             return res.status(400).json({ error: "Idioma inválido." });
         }
 
-        // Decodificar base64 y guardar como archivo temporal
+        // Decodificar base64 y guardar como archivo temporal único por request
         const audioBuffer = Buffer.from(audioBase64, 'base64');
-        const inputPath = path.join(__dirname, '..', 'temp_input.wav');
+        const { randomUUID } = require('crypto');
+        const inputPath = path.join(__dirname, '..', `temp_input_${randomUUID()}.wav`);
         require('fs').writeFileSync(inputPath, audioBuffer);
 
         const scriptPath = path.join(__dirname, '..', 'kyutai_service.py');

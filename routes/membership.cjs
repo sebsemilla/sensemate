@@ -272,19 +272,8 @@ module.exports = function registerMembershipRoutes(app, { authDb }) {
         }
     });
 
-    // GET /mp/success
-    app.get('/mp/success', async (req, res) => {
-        const { payment_id, external_reference } = req.query;
-        console.log(`✅ MP pago aprobado: payment_id=${payment_id}`);
-
-        if (payment_id && external_reference) {
-            try {
-                const ref = JSON.parse(external_reference);
-                _applyApprovedPayment(ref, payment_id);
-            } catch (e) {
-                console.error('❌ MP success parse error:', e.message);
-            }
-        }
+    // GET /mp/success — solo redirige; la activación del plan la hace únicamente el webhook IPN
+    app.get('/mp/success', (req, res) => {
         res.redirect('/?payment=success');
     });
 

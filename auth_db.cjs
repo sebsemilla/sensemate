@@ -50,6 +50,10 @@ try { db.exec(`CREATE UNIQUE INDEX IF NOT EXISTS idx_users_google_id ON users(go
 // Addon ClassRooms: independiente de `plan` — no se pisa al comprar/renovar el plan principal
 try { db.exec(`ALTER TABLE users ADD COLUMN classroom_addon INTEGER DEFAULT 0`); } catch {}
 try { db.exec(`ALTER TABLE users ADD COLUMN classroom_addon_period TEXT DEFAULT NULL`); } catch {}
+// Rol Estudiante: profesor asignado por admin
+try { db.exec(`ALTER TABLE users ADD COLUMN assigned_teacher_id TEXT DEFAULT NULL`); } catch {}
+// Idioma de UI elegido por el usuario (persiste cross-device)
+try { db.exec(`ALTER TABLE users ADD COLUMN ui_language TEXT DEFAULT NULL`); } catch {}
 
 // Seed admin user from env vars — no valores hardcodeados
 function seedAdminUser() {
@@ -93,7 +97,14 @@ function _makePublicUser(row) {
         plan:          row.plan || 'free',
         emailVerified: !!row.email_verified,
         classroomAddon: !!row.classroom_addon,
+        uiLanguage:    row.ui_language   || null,
+        country:       row.country       || null,
     };
+}
+
+function saveUILanguage(userId, lang) {
+    if (!userId || userId === 'dev' || !lang) return;
+    db.prepare('UPDATE users SET ui_language = ? WHERE id = ?').run(lang, userId);
 }
 
 function _signToken(user) {
@@ -230,11 +241,32 @@ function verifyToken(req, res, next) {
         : _parseCookieToken(req);
     if (!token) return res.status(401).json({ error: 'No autenticado.' });
     try {
-        req.jwtUser = jwt.verify(token, JWT_SECRET);
+        const decoded = jwt.verify(token, JWT_SECRET);
+        // Sincronizar plan y addon con el estado real en DB para que
+        // downgrades y baneos tengan efecto inmediato sin esperar que venza el JWT.
+        if (decoded.id !== 'dev') {
+            const live = db.prepare('SELECT plan, classroom_addon FROM users WHERE id = ?').get(decoded.id);
+            if (!live) return res.status(401).json({ error: 'Sesión expirada o inválida. Volvé a iniciar sesión.' });
+            decoded.plan           = live.plan || 'free';
+            decoded.classroomAddon = !!live.classroom_addon;
+        }
+        req.jwtUser = decoded;
         next();
     } catch {
         res.status(401).json({ error: 'Sesión expirada o inválida. Volvé a iniciar sesión.' });
     }
+}
+
+// Auth opcional: adjunta req.jwtUser si hay token válido, pero no bloquea la request
+function optionalAuth(req, res, next) {
+    const authHeader = req.headers['authorization'];
+    const token = authHeader?.startsWith('Bearer ')
+        ? authHeader.slice(7)
+        : _parseCookieToken(req);
+    if (token) {
+        try { req.jwtUser = jwt.verify(token, JWT_SECRET); } catch {}
+    }
+    next();
 }
 
 // ─── Get user by id (for /auth/me) ───────────────────────────
@@ -348,15 +380,16 @@ function getAllUsers({ page = 1, limit = 50 } = {}) {
     const offset     = (safePage - 1) * safeLimit;
     const total      = db.prepare('SELECT COUNT(*) AS cnt FROM users').get().cnt;
     const rows       = db.prepare(
-        'SELECT id, name, username, email, preferred_lang, is_dev, plan, email_verified, created_at, role, label, permissions, country, region, managed_regions FROM users ORDER BY created_at DESC LIMIT ? OFFSET ?'
+        'SELECT id, name, username, email, preferred_lang, is_dev, plan, email_verified, created_at, role, label, permissions, country, region, managed_regions, assigned_teacher_id FROM users ORDER BY created_at DESC LIMIT ? OFFSET ?'
     ).all(safeLimit, offset);
     return {
         users: rows.map(r => ({
             ...r,
-            isDev:           !!r.is_dev,
-            emailVerified:   !!r.email_verified,
-            permissions:     JSON.parse(r.permissions     || '[]'),
-            managed_regions: JSON.parse(r.managed_regions || '[]'),
+            isDev:               !!r.is_dev,
+            emailVerified:       !!r.email_verified,
+            permissions:         JSON.parse(r.permissions     || '[]'),
+            managed_regions:     JSON.parse(r.managed_regions || '[]'),
+            assigned_teacher_id: r.assigned_teacher_id || null,
         })),
         total,
         page:  safePage,
@@ -622,15 +655,16 @@ function rateTeacher(teacherId, studentId, score, comment) {
     return { ok: true };
 }
 
-function updateUserAdmin(userId, { plan, role, label, permissions, managedRegions }) {
+function updateUserAdmin(userId, { plan, role, label, permissions, managedRegions, assignedTeacherId }) {
     if (!userId || userId === 'dev') return { ok: false, error: 'No permitido.' };
     const fields = [];
     const vals   = [];
-    if (plan           !== undefined) { fields.push('plan = ?');            vals.push(plan); }
-    if (role           !== undefined) { fields.push('role = ?');            vals.push(role || null); }
-    if (label          !== undefined) { fields.push('label = ?');           vals.push(label || null); }
-    if (permissions    !== undefined) { fields.push('permissions = ?');     vals.push(JSON.stringify(permissions || [])); }
-    if (managedRegions !== undefined) { fields.push('managed_regions = ?'); vals.push(JSON.stringify(managedRegions || [])); }
+    if (plan               !== undefined) { fields.push('plan = ?');                vals.push(plan); }
+    if (role               !== undefined) { fields.push('role = ?');                vals.push(role || null); }
+    if (label              !== undefined) { fields.push('label = ?');               vals.push(label || null); }
+    if (permissions        !== undefined) { fields.push('permissions = ?');         vals.push(JSON.stringify(permissions || [])); }
+    if (managedRegions     !== undefined) { fields.push('managed_regions = ?');     vals.push(JSON.stringify(managedRegions || [])); }
+    if (assignedTeacherId  !== undefined) { fields.push('assigned_teacher_id = ?'); vals.push(assignedTeacherId || null); }
     if (!fields.length) return { ok: false, error: 'Nada que actualizar.' };
     vals.push(userId);
     db.prepare(`UPDATE users SET ${fields.join(', ')} WHERE id = ?`).run(...vals);
@@ -648,11 +682,11 @@ function getUserByUsername(username) {
 }
 
 module.exports = {
-    register, login, loginWithGoogle, verifyToken, signToken, getUserById, setUserPlan, setClassroomAddon,
+    register, login, loginWithGoogle, verifyToken, optionalAuth, signToken, getUserById, setUserPlan, setClassroomAddon,
     setAuthCookie, clearAuthCookie,
     verifyEmail, createResetToken, resetPassword, deleteUser, getAllUsers, db,
     // Admin user management
-    updateUserAdmin, saveUserLocation, getUsersByRegions,
+    updateUserAdmin, saveUserLocation, getUsersByRegions, saveUILanguage,
     // Classroom
     getTeacherProfile, upsertTeacherProfile, listTeachers,
     createClass, getTeacherClasses, deleteClass,

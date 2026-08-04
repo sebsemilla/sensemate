@@ -176,20 +176,22 @@ module.exports = function registerContentRoutes(app, { authDb }) {
 
     // ── Song Submissions ──────────────────────────────────────────
 
-    app.post('/songs/submit', (req, res) => {
-        const { artistName, songTitle, language, country, lyrics, translations, artistImage, submittedBy } = req.body;
+    app.post('/songs/submit', authDb.optionalAuth, (req, res) => {
+        const { artistName, songTitle, language, country, lyrics, translations, artistImage } = req.body;
         if (!artistName || !songTitle || !language || !lyrics) {
             return res.status(400).json({ error: 'Faltan campos requeridos.' });
         }
         const isAdminSubmit = req.headers['x-admin-token'] === ADMIN_TOKEN;
 
         // Guardar imagen del artista si viene en base64
+        const ALLOWED_IMG_EXT = new Set(['jpg', 'jpeg', 'png', 'gif', 'webp']);
         let artistImagePath = null;
         if (artistImage && artistImage.startsWith('data:image/')) {
             try {
                 const matches = artistImage.match(/^data:image\/(\w+);base64,(.+)$/);
                 if (matches) {
-                    const ext      = matches[1];
+                    const ext      = matches[1].toLowerCase();
+                    if (!ALLOWED_IMG_EXT.has(ext)) throw new Error('Extensión de imagen no permitida');
                     const b64data  = matches[2];
                     const artistId = artistName.trim().toLowerCase()
                         .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
@@ -248,7 +250,7 @@ module.exports = function registerContentRoutes(app, { authDb }) {
             translations: validTranslations,
             youtubeUrl:   (req.body.youtubeUrl || '').trim() || null,
             artistImagePath: artistImagePath,
-            submittedBy:  submittedBy || 'invitado',
+            submittedBy:  req.jwtUser?.id || 'invitado',
             status:       isAdminSubmit ? 'approved' : 'pending',
             submittedAt:  new Date().toISOString(),
         };
