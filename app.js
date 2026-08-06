@@ -19,9 +19,46 @@ let sourceLang = localStorage.getItem('sourceLang') || '';
 let targetLang = localStorage.getItem('targetLang') || '';
 let currentMode = null;
 let currentUser = null;
-// Detectar idioma del navegador como default para primer uso
-const _browserLang   = (navigator.language || 'es').split('-')[0].toLowerCase();
-const _supportedLangs = ['es','en','fr','de','it','pt','gn','zh','ja','ru','ar','ko','nl','pl','tr'];
+// Idiomas soportados en la UI
+const _supportedLangs = ['es','en','fr','de','it','pt','gn','qu','zh','ja','ru','ar','ko','nl','pl','tr','wo','ha','yo'];
+
+// Mapeo país (ISO 3166-1 alpha-2) → idioma de UI sugerido
+const _COUNTRY_UI_LANG = {
+    // Español — América Latina
+    AR:'es',BO:'es',CL:'es',CO:'es',CR:'es',CU:'es',DO:'es',EC:'es',
+    GT:'es',HN:'es',MX:'es',NI:'es',PA:'es',PE:'es',PY:'es',SV:'es',
+    UY:'es',VE:'es',PR:'es',
+    // Español — España
+    ES:'es',
+    // Portugués
+    BR:'pt',PT:'pt',
+    // Francés
+    FR:'fr',BE:'fr',
+    // Alemán
+    DE:'de',AT:'de',CH:'de',
+    // Italiano
+    IT:'it',
+    // Chino
+    CN:'zh',TW:'zh',
+    // Japonés
+    JP:'ja',
+    // Coreano
+    KR:'ko',
+    // Ruso
+    RU:'ru',
+    // Árabe
+    SA:'ar',AE:'ar',EG:'ar',IQ:'ar',SY:'ar',LB:'ar',JO:'ar',
+    KW:'ar',QA:'ar',BH:'ar',OM:'ar',YE:'ar',MA:'ar',DZ:'ar',TN:'ar',LY:'ar',
+    // Neerlandés
+    NL:'nl',
+    // Polaco
+    PL:'pl',
+    // Turco
+    TR:'tr',
+};
+
+// Determinar idioma de UI: localStorage > navegador > 'es'
+const _browserLang = (navigator.language || 'es').split('-')[0].toLowerCase();
 let appUILanguage = localStorage.getItem('appUILanguage')
     || (_supportedLangs.includes(_browserLang) ? _browserLang : 'es');
 let currentTranslations = {};
@@ -308,6 +345,7 @@ function _langOptionsHtml() {
             <option value="yo">Yorùbá</option>
             <option value="ig">Igbo</option>
             <option value="ha">Hausa</option>
+            <option value="wo">Wolof</option>
             <option value="zu">isiZulu</option>
             <option value="xh">isiXhosa</option>
             <option value="am">አማርኛ</option>
@@ -511,6 +549,12 @@ function _initModeSelector() {
             if (tab === 'mision') {
                 setTimeout(() => toggleMisionMate(), 100);
             }
+            if (tab === 'livefeed') {
+                setTimeout(() => _initLiveFeed(), 50);
+            }
+            if (tab === 'classroom') {
+                setTimeout(() => _initClassRoom(), 50);
+            }
         });
     });
 }
@@ -581,15 +625,14 @@ function _initMisionHub() {
 
     if (targetLang === 'en') { _initInglesHub(); return; }
     if (targetLang === 'es' && _ESPANOL_A1_NUEVOS[sourceLang]) { _initEspanolNuevoHub(); return; }
-    // PILOTO — Alemán (es→de), solo gramática + conversación de muestra, pendiente de aprobación de contenido
-    if (targetLang === 'de' && sourceLang === 'es') { _initAlemanPilotHub(); return; }
+    if (targetLang !== 'es' && _MISION_LANG_DIRS[targetLang]) { _initGenericLangHub(targetLang); return; }
 
     if (targetLang !== 'es') {
         grid.innerHTML = `
             <div style="text-align:center;padding:2rem 1rem;color:var(--text-muted)">
                 <div style="font-size:2rem;margin-bottom:.75rem">🗺️</div>
-                <p style="font-size:.95rem;margin-bottom:.5rem">Esta sección enseña <strong>Español</strong> e <strong>Inglés</strong>.</p>
-                <p style="font-size:.85rem">Cambiá el idioma destino a <strong>Español</strong> o <strong>Inglés</strong> para ver el contenido.</p>
+                <p style="font-size:.95rem;margin-bottom:.5rem">Idioma destino no disponible aún en MisionMate.</p>
+                <p style="font-size:.85rem">Disponible: <strong>Español · Inglés · Francés · Portugués · Alemán · Italiano · Chino · Japonés · Coreano · Ruso · Árabe</strong></p>
             </div>`;
         return;
     }
@@ -922,8 +965,9 @@ function _misionPlayVideo(nodeEl, videoUrl) {
 // mensaje automático de la IA en el idioma nativo del usuario.
 
 const _MISION_LANG_NAMES = {
-    es: 'Español', en: 'English', fr: 'Français', de: 'Deutsch',
-    it: 'Italiano', pt: 'Português', gn: 'Guaraní', qu: 'Quechua',
+    es: 'Español',  en: 'English',   fr: 'Français',  de: 'Deutsch',
+    it: 'Italiano', pt: 'Português', gn: 'Guaraní',   qu: 'Quechua',
+    wo: 'Wolof',    ha: 'Hausa',     yo: 'Yorùbá',
 };
 
 async function _misionChatRequest(history, mode) {
@@ -1206,22 +1250,60 @@ function _initInglesHub(tab = 'curriculum') {
         });
 }
 
-// PILOTO — Alemán A1 para hablantes de español (solo gramática + conversación de muestra)
-function _initAlemanPilotHub() {
+// ── Hub genérico para todos los idiomas generados por generate_missions.js ────────────────
+
+// Directorio de archivos por idioma target (coincide con LANGS[x].dir en generate_missions.js)
+const _MISION_LANG_DIRS = {
+    es: 'español',   en: 'ingles',   fr: 'frances',
+    pt: 'portugues', de: 'aleman',   it: 'italiano',
+    zh: 'chino',     ja: 'japones',  ko: 'coreano',
+    ru: 'ruso',      ar: 'arabe',
+    gn: 'guarani',   qu: 'quechua',
+    wo: 'wolof',     ha: 'hausa',    yo: 'yoruba',
+};
+
+const _MISION_LANG_LABELS = {
+    es: 'Español',   en: 'Inglés',   fr: 'Francés',
+    pt: 'Portugués', de: 'Alemán',   it: 'Italiano',
+    zh: 'Chino',     ja: 'Japonés',  ko: 'Coreano',
+    ru: 'Ruso',      ar: 'Árabe',
+    gn: 'Guaraní',   qu: 'Quechua',
+    wo: 'Wolof',     ha: 'Hausa',    yo: 'Yoruba',
+};
+
+function _initGenericLangHub(targetCode) {
     const grid = document.getElementById('misionPathGrid');
     if (!grid) return;
 
+    const dir   = _MISION_LANG_DIRS[targetCode];
+    const label = _MISION_LANG_LABELS[targetCode] || targetCode;
+    const src   = sourceLang;
+    const base  = `${_API_HOST}/grupos_tarjetas/${encodeURIComponent(dir)}_a1/`;
+
+    const safeJson = url => fetch(url).then(r => r.ok ? r.json() : []).catch(() => []);
+
     grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1.5rem 0">Cargando módulos…</p>';
 
-    const base = `${_API_HOST}/grupos_tarjetas/aleman_a1/`;
     Promise.all([
-        fetch(base + 'es_a1_gramatica.json').then(r => r.json()),
-        fetch(base + 'es_a1_conversacion.json').then(r => r.json()),
-    ])
-        .then(([gram, conv]) => _renderInglesA1Snake(grid, _interleaveInglesA1(gram, [], conv), { levelKey: 'de_a1_pilot', langLabel: 'Alemán (piloto)' }))
-        .catch(() => {
-            grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1rem 0">No se pudieron cargar los módulos.</p>';
+        safeJson(base + `${src}_a1_gramatica.json`),
+        safeJson(base + `${src}_a1_funciones_comunicativas.json`),
+        safeJson(base + `${src}_a1_conversacion.json`),
+    ]).then(([gram, func, conv]) => {
+        const mods = _interleaveInglesA1(gram, func, conv);
+        if (!mods.length) {
+            grid.innerHTML = `
+                <div style="text-align:center;padding:2rem 1rem;color:var(--text-muted)">
+                    <div style="font-size:2rem;margin-bottom:.75rem">🚧</div>
+                    <p style="font-size:.95rem;margin-bottom:.5rem">Contenido de <strong>${label}</strong> próximamente.</p>
+                    <p style="font-size:.85rem">Generá los módulos con:<br><code>node generate_missions.js --target=${targetCode} --source=${src} --level=A1</code></p>
+                </div>`;
+            return;
+        }
+        _renderInglesA1Snake(grid, mods, {
+            levelKey:  `${targetCode}_a1_${src}`,
+            langLabel: label,
         });
+    });
 }
 
 function _interleaveInglesA1(gram, func, conv) {
@@ -2364,7 +2446,7 @@ function _getBanners() {
             bg: 'linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%)',
             emoji: '⭐',
             title: 'Desbloqueá todo sin límites',
-            body: 'Traducciones ilimitadas, todos los flashcards, Famosos, Músicos y más — <strong>desde $9.99/año</strong>',
+            body: 'Traducciones ilimitadas, todos los flashcards, Famosos, Músicos y más — <strong>desde $19.99/año</strong>',
             cta: 'Ver planes →',
             action: () => { if (typeof loadMembershipSection === 'function') loadMembershipSection(); }
         }] : []),
@@ -2590,6 +2672,11 @@ function showMainMenu() {
     const inTraduccion  = appMode === 'traduccion';
     const inMision      = appMode === 'mision';
     const inExploracion = appMode === 'exploracion';
+    const inLiveFeed    = appMode === 'livefeed';
+    const inClassroom   = appMode === 'classroom';
+
+    if (inLiveFeed)  { _renderLiveFeed();   return; }
+    if (inClassroom) { _renderClassRoom();  return; }
 
     const showTranslator  = inTraduccion;
     const showSchool      = inMision;
@@ -2799,6 +2886,199 @@ function showMainMenu() {
     // ya valida el login con su propio aviso, así que no se ofrece "modo invitado" aquí.
     document.getElementById('newGroupMainBtn')?.addEventListener('click', createNewGroup);
 }
+
+// ─── Live Feed ────────────────────────────────────────────────────────────────
+
+async function _getLiveFeedPosts(filter = 'recientes') {
+    try {
+        const limit = filter === 'recientes' ? 30 : 100;
+        const res   = await fetch(`${API_URL}/api/feed?limit=${limit}`);
+        if (!res.ok) throw new Error('API error');
+        const data  = await res.json();
+        return data.posts || [];
+    } catch {
+        // fallback localStorage
+        let posts = JSON.parse(localStorage.getItem('lf_posts') || '[]');
+        posts.sort((a, b) => b.ts - a.ts);
+        return filter === 'recientes' ? posts.slice(0, 30) : posts;
+    }
+}
+
+async function _renderLiveFeed() {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+    // Mostrar spinner mientras carga
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="livefeed-section">
+            <div class="livefeed-header">
+                <h2>📡 Live Feed</h2>
+                <div class="livefeed-filters">
+                    <button class="livefeed-filter-btn active" data-filter="recientes">Recientes</button>
+                    <button class="livefeed-filter-btn" data-filter="todos">Todos</button>
+                </div>
+            </div>
+            <div class="livefeed-feed" id="livefeedFeed"><div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div></div>
+        </div>
+    `);
+    const posts = await _getLiveFeedPosts('recientes');
+
+    const feed = document.getElementById('livefeedFeed');
+    if (feed) feed.innerHTML = _buildPostsHtml(posts);
+    _initLiveFeed();
+}
+
+function _buildPostsHtml(posts) {
+    if (!posts.length) return '<div class="livefeed-empty">📭 No hay publicaciones recientes aún.</div>';
+    return posts.map(p => `
+        <div class="livefeed-post">
+            <div class="livefeed-post-header">
+                <div class="livefeed-avatar">${p.avatar || '👤'}</div>
+                <div class="livefeed-post-meta">
+                    <div class="livefeed-post-author">${_escHtml(p.author)}</div>
+                    <div class="livefeed-post-time">${_timeAgo(p.ts)}</div>
+                </div>
+                ${p.live ? '<span class="livefeed-post-badge live">🔴 EN VIVO</span>' : '<span class="livefeed-post-badge">Nuevo</span>'}
+            </div>
+            <div class="livefeed-post-body">${_escHtml(p.body)}</div>
+            <div class="livefeed-post-actions">
+                <button class="livefeed-action-btn">👍 ${p.likes || 0}</button>
+                <button class="livefeed-action-btn">💬 ${p.comments || 0}</button>
+                <button class="livefeed-action-btn">↗️ Compartir</button>
+            </div>
+        </div>
+    `).join('');
+}
+
+function _initLiveFeed() {
+    document.querySelectorAll('.livefeed-filter-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            document.querySelectorAll('.livefeed-filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const feed = document.getElementById('livefeedFeed');
+            if (!feed) return;
+            feed.innerHTML = '<div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>';
+            const posts = await _getLiveFeedPosts(btn.dataset.filter);
+            feed.innerHTML = _buildPostsHtml(posts);
+        });
+    });
+}
+
+// ─── Class Room ───────────────────────────────────────────────────────────────
+
+async function _getClasses(tab = 'disponibles') {
+    try {
+        const res = await fetch(`${API_URL}/api/classroom?tab=${tab}&limit=50`);
+        if (!res.ok) throw new Error('API error');
+        const data = await res.json();
+        return data.classes || [];
+    } catch {
+        let classes = JSON.parse(localStorage.getItem('cr_classes') || '[]');
+        classes.sort((a, b) => b.ts - a.ts);
+        return tab === 'live' ? classes.filter(c => c.live) : classes.filter(c => !c.live);
+    }
+}
+
+function _classCardHtml(c) {
+    const isLive = c.live;
+    return `
+        <div class="classroom-card${isLive ? ' is-live' : ''}">
+            <div class="classroom-card-thumb">${c.emoji || '🎓'}</div>
+            <div class="classroom-card-info">
+                <div class="classroom-card-title">${_escHtml(c.title)}</div>
+                <div class="classroom-card-teacher">👤 ${_escHtml(c.teacher)}</div>
+                <div class="classroom-card-tags">
+                    ${(c.tags || []).map(t => `<span class="classroom-tag">${_escHtml(t)}</span>`).join('')}
+                </div>
+            </div>
+            <div class="classroom-card-action">
+                ${isLive
+                    ? `<button class="classroom-join-btn live-btn">🔴 Unirse</button>
+                       <span class="classroom-card-time"><span class="classroom-live-dot"></span> En vivo</span>`
+                    : `<button class="classroom-join-btn">Ver clase</button>
+                       <span class="classroom-card-time">${_timeAgo(c.ts)}</span>`}
+            </div>
+        </div>
+    `;
+}
+
+async function _renderClassRoom() {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="classroom-section">
+            <div class="classroom-header">
+                <h2>🎓 Class Room</h2>
+                <span id="crLiveLabel"></span>
+            </div>
+            <div class="classroom-tabs">
+                <button class="classroom-tab-btn active" data-cr-tab="disponibles">Disponibles</button>
+                <button class="classroom-tab-btn" data-cr-tab="live">🔴 En Vivo</button>
+            </div>
+            <div class="classroom-grid" id="classroomGrid">
+                <div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>
+            </div>
+        </div>
+    `);
+
+    const [disponibles, lives] = await Promise.all([_getClasses('disponibles'), _getClasses('live')]);
+
+    const liveLabel = document.getElementById('crLiveLabel');
+    if (liveLabel && lives.length > 0) {
+        liveLabel.innerHTML = `<span class="classroom-live-indicator"><span class="classroom-live-dot"></span>${lives.length} en vivo</span>`;
+    }
+
+    const grid = document.getElementById('classroomGrid');
+    if (grid) grid.innerHTML = disponibles.length
+        ? disponibles.map(_classCardHtml).join('')
+        : '<div class="livefeed-empty">📚 No hay clases disponibles aún.</div>';
+
+    _initClassRoom();
+}
+
+function _initClassRoom() {
+    const grid = document.getElementById('classroomGrid');
+    document.querySelectorAll('.classroom-tab-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            document.querySelectorAll('.classroom-tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            if (!grid) return;
+            grid.innerHTML = '<div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>';
+            if (btn.dataset.crTab === 'live') {
+                const lives = await _getClasses('live');
+                grid.innerHTML = lives.length
+                    ? lives.map(_classCardHtml).join('')
+                    : '<div class="livefeed-empty">📡 No hay clases en vivo ahora.</div>';
+            } else {
+                const disp = await _getClasses('disponibles');
+                grid.innerHTML = disp.length
+                    ? disp.map(_classCardHtml).join('')
+                    : '<div class="livefeed-empty">📚 No hay clases disponibles aún.</div>';
+            }
+        });
+    });
+}
+
+// ─── Utilidades compartidas ───────────────────────────────────────────────────
+
+function _escHtml(str) {
+    return String(str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+}
+
+function _timeAgo(ts) {
+    const diff = Date.now() - ts;
+    const min  = Math.floor(diff / 60000);
+    if (min < 1)   return 'ahora mismo';
+    if (min < 60)  return `hace ${min} min`;
+    const hrs = Math.floor(min / 60);
+    if (hrs < 24)  return `hace ${hrs} h`;
+    const days = Math.floor(hrs / 24);
+    return `hace ${days} d`;
+}
+
 
 // ─── Modo Simple (traducción) ─────────────────────────────────
 
@@ -4004,16 +4284,45 @@ window.addEventListener('DOMContentLoaded', async () => {
         if (typeof MembershipPlan !== 'undefined') MembershipPlan.syncFromUser(storedUser);
     }
 
-    // Verificar sesión en background (no bloquea el render)
+    // ── Resolver idioma de UI antes de cargar traducciones ──────
+    // Prioridad: localStorage > uiLanguage guardado en cuenta > país del usuario > navegador
+    if (!localStorage.getItem('appUILanguage')) {
+        if (storedUser?.uiLanguage && _supportedLangs.includes(storedUser.uiLanguage)) {
+            // Tiene idioma guardado en su cuenta (cross-device)
+            appUILanguage = storedUser.uiLanguage;
+        } else if (storedUser?.country && _COUNTRY_UI_LANG[storedUser.country]) {
+            // Primera vez: usar idioma del país detectado por IP
+            const suggested = _COUNTRY_UI_LANG[storedUser.country];
+            if (_supportedLangs.includes(suggested)) appUILanguage = suggested;
+        }
+        // Persistir para evitar recalcular en cada carga
+        localStorage.setItem('appUILanguage', appUILanguage);
+    }
+
+    // Cargar configuración (antes de traducciones para que appSettings.uiLanguage tenga prioridad)
+    loadSettings();
+    if (appSettings?.uiLanguage && appSettings.uiLanguage !== appUILanguage) {
+        appUILanguage = appSettings.uiLanguage;
+        localStorage.setItem('appUILanguage', appUILanguage);
+    }
+
+    // Verificar sesión en background — si el servidor devuelve un uiLanguage distinto, aplicarlo
     if (storedUser && typeof authVerifySession === 'function') {
-        authVerifySession().then(verified => {
+        authVerifySession().then(async verified => {
             if (verified) {
                 currentUser = verified;
                 if (typeof MembershipPlan !== 'undefined') MembershipPlan.syncFromUser(verified);
                 updateAdminButton();
+                // Aplicar idioma del servidor si difiere del actual (cambio desde otro dispositivo)
+                if (verified.uiLanguage && verified.uiLanguage !== appUILanguage && _supportedLangs.includes(verified.uiLanguage)) {
+                    appUILanguage = verified.uiLanguage;
+                    localStorage.setItem('appUILanguage', appUILanguage);
+                    await loadTranslations(appUILanguage);
+                    applyUILanguage();
+                    updateMenuLanguageDisplay();
+                }
             }
             // Si verified === null, el token expiró — authVerifySession ya limpió la sesión
-            // El usuario verá la app como invitado hasta hacer login de nuevo
         });
     }
 
@@ -4025,9 +4334,6 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     // Historias (practice.js las usa)
     await loadAllStories();
-
-    // Cargar configuración
-    loadSettings();
 
     // ── Selector de fondo ─────────────────────────────────────
 
@@ -4515,14 +4821,27 @@ window.addEventListener('DOMContentLoaded', async () => {
         if (user?.preferredLang && !targetLang) saveLanguages('es', user.preferredLang);
         if (!sourceLang || !targetLang) saveLanguages('en', 'es');
 
-        // Si el usuario tiene idioma de UI guardado en su cuenta, aplicarlo
-        loadSettings();
-        if (appSettings.uiLanguage && appSettings.uiLanguage !== appUILanguage) {
-            appUILanguage = appSettings.uiLanguage;
+        // Aplicar idioma de UI desde la cuenta del usuario recién logueado
+        // (cubre el caso de login desde un nuevo dispositivo sin localStorage propio)
+        const accountLang = user?.uiLanguage;
+        if (accountLang && _supportedLangs.includes(accountLang) && accountLang !== appUILanguage) {
+            appUILanguage = accountLang;
             localStorage.setItem('appUILanguage', appUILanguage);
+            appSettings.uiLanguage = appUILanguage;
             await loadTranslations(appUILanguage);
             updateMenuLanguageDisplay();
+        } else if (!accountLang && user?.country && _COUNTRY_UI_LANG[user.country]) {
+            // Usuario nuevo: sugerir idioma por país si no tiene uno guardado
+            const suggested = _COUNTRY_UI_LANG[user.country];
+            if (_supportedLangs.includes(suggested) && suggested !== appUILanguage && !localStorage.getItem('_uiLangSetByUser')) {
+                appUILanguage = suggested;
+                localStorage.setItem('appUILanguage', appUILanguage);
+                appSettings.uiLanguage = appUILanguage;
+                await loadTranslations(appUILanguage);
+                updateMenuLanguageDisplay();
+            }
         }
+
         updateAdminButton();
         if (user?.isNew === true && typeof loadMembershipSection === 'function') {
             setTimeout(() => loadMembershipSection(), 300);

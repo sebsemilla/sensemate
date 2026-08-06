@@ -60,6 +60,7 @@ async function loadAdminPanel() {
                         <button class="admin-sec-item" data-tab="teachers">🏫 Profesores</button>
                         <button class="admin-sec-item" data-tab="tools">🔧 Herramientas</button>
                         <button class="admin-sec-item" data-tab="membership">💳 Membresías</button>
+                        <button class="admin-sec-item" data-tab="bots">🤖 Bots</button>
                     </div>
                 </div>
 
@@ -177,6 +178,8 @@ async function _adminLoadTab(tab) {
             await _adminRenderUsers(content);
         } else if (tab === 'teachers') {
             await _adminRenderTeachers(content);
+        } else if (tab === 'bots') {
+            await _adminRenderBots(content);
         }
     } catch (err) {
         content.innerHTML = `<div class="admin-error">❌ Error: ${escapeHtml(err.message)}</div>`;
@@ -1344,10 +1347,14 @@ async function _adminRenderFlashcardGroups(container) {
 
 const _AU_PLANS = ['free', 'premium', 'gold'];
 const _AU_ROLES = [
-    { value: '',          label: 'Sin rol'   },
-    { value: 'direccion', label: 'Dirección' },
-    { value: 'ayudante',  label: 'Ayudante'  },
+    { value: '',           label: 'Sin rol'    },
+    { value: 'direccion',  label: 'Dirección'  },
+    { value: 'ayudante',   label: 'Ayudante'   },
+    { value: 'estudiante', label: 'Estudiante' },
 ];
+
+// Mapa: userId → { id, name, username } del profesor asignado (estado temporal por sesión de edición)
+const _auPendingTeacher = new Map();
 const _AU_PERMS = [
     { value: 'manage_notifications',  label: '🔔 Administrar notificaciones' },
     { value: 'manage_users_region',   label: '🌎 Gestionar usuarios por región' },
@@ -1442,6 +1449,7 @@ function _auCardHTML(u) {
     const managed = Array.isArray(u.managed_regions)  ? u.managed_regions  : [];
     const hasRegionPerm = perms.includes('manage_users_region');
     const regionLabel = u.region ? (_AU_REGION_LABELS[u.region] || u.region).split(' ').slice(0,2).join(' ') : null;
+    const assignedTeacher = u.assigned_teacher_id ? (u._assigned_teacher_name || u.assigned_teacher_id) : null;
 
     return `
         <div class="au-card" data-user-id="${u.id}">
@@ -1452,6 +1460,9 @@ function _auCardHTML(u) {
                     <span class="au-sub">${escapeHtml(u.email)}</span>
                     ${u.username ? `<span class="au-sub">@${escapeHtml(u.username)}</span>` : ''}
                     ${regionLabel ? `<span class="au-sub au-location">📍 ${u.country ? u.country + ' · ' : ''}${regionLabel}</span>` : ''}
+                    ${u.role === 'estudiante' && u.assigned_teacher_id
+                        ? `<span class="au-sub au-teacher-tag">👨‍🏫 Prof: ${escapeHtml(assignedTeacher || u.assigned_teacher_id)}</span>`
+                        : ''}
                 </div>
                 <div class="au-meta">
                     ${u.isDev ? '<span class="au-badge au-badge--dev">Dev</span>' : ''}
@@ -1481,8 +1492,21 @@ function _auCardHTML(u) {
                         <div class="au-btn-group" id="auRoleGroup_${u.id}">
                             ${_AU_ROLES.map(r => `
                                 <button class="au-opt-btn ${(u.role || '') === r.value ? 'active' : ''}"
-                                    data-field="role" data-val="${r.value}">${r.label}</button>
+                                    data-field="role" data-val="${r.value}"
+                                    ${r.value === 'estudiante' ? 'data-needs-teacher="true"' : ''}>${r.label}</button>
                             `).join('')}
+                        </div>
+                        <!-- Profesor asignado (visible solo cuando rol = estudiante) -->
+                        <div class="au-teacher-assign ${(u.role || '') === 'estudiante' ? '' : 'hidden'}" id="auTeacherAssign_${u.id}">
+                            <span class="au-teacher-assign-label">👨‍🏫 Profesor asignado:</span>
+                            <span class="au-teacher-name" id="auTeacherName_${u.id}">
+                                ${u.assigned_teacher_id
+                                    ? escapeHtml(assignedTeacher || u.assigned_teacher_id)
+                                    : '<span class="au-muted">Sin asignar</span>'}
+                            </span>
+                            <button class="au-teacher-pick-btn" data-uid="${u.id}" data-current-teacher="${escapeHtml(u.assigned_teacher_id || '')}">
+                                ${u.assigned_teacher_id ? 'Cambiar' : 'Asignar profesor'}
+                            </button>
                         </div>
                     </div>
 
@@ -1545,7 +1569,23 @@ function _bindAuCards(container, allUsers) {
             const group = btn.closest('.au-btn-group');
             group.querySelectorAll('.au-opt-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
+
+            // Si es el botón de rol, mostrar/ocultar bloque de profesor
+            if (btn.dataset.field === 'role') {
+                const card  = btn.closest('.au-card');
+                const uid   = card?.dataset.userId;
+                const block = document.getElementById(`auTeacherAssign_${uid}`);
+                if (block) block.classList.toggle('hidden', btn.dataset.val !== 'estudiante');
+
+                // Si cambió DESDE estudiante, limpiar el profesor pendiente
+                if (btn.dataset.val !== 'estudiante') _auPendingTeacher.delete(uid);
+            }
         });
+    });
+
+    // Botón "Asignar / Cambiar profesor"
+    container.querySelectorAll('.au-teacher-pick-btn').forEach(btn => {
+        btn.addEventListener('click', () => _auShowTeacherPickerModal(btn.dataset.uid, container));
     });
 
     // Aplicar permisos predeterminados del rol seleccionado
@@ -1579,25 +1619,42 @@ function _bindAuCards(container, allUsers) {
     // Guardar
     container.querySelectorAll('.au-save-btn').forEach(btn => {
         btn.addEventListener('click', async () => {
-            const uid           = btn.dataset.id;
-            const plan          = container.querySelector(`#auPlanGroup_${uid} .au-opt-btn.active`)?.dataset.val;
-            const role          = container.querySelector(`#auRoleGroup_${uid} .au-opt-btn.active`)?.dataset.val || null;
-            const label         = document.getElementById(`auLabel_${uid}`)?.value.trim() || null;
-            const permissions   = [...container.querySelectorAll(`#auPerms_${uid} input:checked`)].map(cb => cb.value);
+            const uid            = btn.dataset.id;
+            const plan           = container.querySelector(`#auPlanGroup_${uid} .au-opt-btn.active`)?.dataset.val;
+            const role           = container.querySelector(`#auRoleGroup_${uid} .au-opt-btn.active`)?.dataset.val || null;
+            const label          = document.getElementById(`auLabel_${uid}`)?.value.trim() || null;
+            const permissions    = [...container.querySelectorAll(`#auPerms_${uid} input:checked`)].map(cb => cb.value);
             const managedRegions = [...container.querySelectorAll(`#auRegions_${uid} input:checked`)].map(cb => cb.value);
+
+            // Profesor asignado: usar el pendiente si lo hay, o limpiar si el rol ya no es estudiante
+            const pendingTeacher    = _auPendingTeacher.get(uid);
+            const assignedTeacherId = role === 'estudiante'
+                ? (pendingTeacher?.id ?? (allUsers.find(u => u.id === uid)?.assigned_teacher_id ?? null))
+                : null;
+
+            // Validar que el rol Estudiante tenga profesor asignado
+            if (role === 'estudiante' && !assignedTeacherId) {
+                const msg = document.getElementById(`auMsg_${uid}`);
+                msg.textContent = '⚠️ Debés asignar un profesor antes de guardar.';
+                msg.classList.remove('hidden', 'au-save-msg--ok');
+                msg.classList.add('au-save-msg--err');
+                return;
+            }
 
             const r   = await fetch(`${_API_HOST}/admin/users/${uid}`, {
                 method:  'PATCH',
                 headers: { 'x-admin-token': ADMIN_TOKEN, 'Content-Type': 'application/json' },
-                body:    JSON.stringify({ plan, role: role || null, label, permissions, managedRegions }),
+                body:    JSON.stringify({ plan, role: role || null, label, permissions, managedRegions, assignedTeacherId }),
             });
             const res = await r.json();
             const msg = document.getElementById(`auMsg_${uid}`);
             if (res.ok) {
                 msg.textContent = '✅ Guardado';
                 msg.classList.remove('hidden', 'au-save-msg--err');
+                msg.classList.add('au-save-msg--ok');
                 const u = allUsers.find(u => u.id === uid);
-                if (u) { u.plan = plan; u.role = role; u.label = label; u.permissions = permissions; u.managed_regions = managedRegions; }
+                if (u) { u.plan = plan; u.role = role; u.label = label; u.permissions = permissions; u.managed_regions = managedRegions; u.assigned_teacher_id = assignedTeacherId; }
+                _auPendingTeacher.delete(uid);
                 setTimeout(() => msg.classList.add('hidden'), 2500);
             } else {
                 msg.textContent = '⚠️ Error al guardar';
@@ -1650,4 +1707,397 @@ async function _adminRenderTeachers(container) {
                     ${p.bio ? `<div style="padding:.35rem .85rem .65rem;font-size:.82rem;color:var(--text-muted);font-style:italic;border-top:1px solid var(--border)">${escapeHtml(p.bio.slice(0, 160))}${p.bio.length > 160 ? '…' : ''}</div>` : ''}
                 </div>`).join('')}
         </div>`;
+}
+
+// ── Modal: selector de profesor para rol Estudiante ───────────
+
+async function _auShowTeacherPickerModal(uid, auContainer) {
+    const overlay = document.createElement('div');
+    overlay.className = 'admin-pub-modal-overlay';
+    overlay.innerHTML = `
+        <div class="admin-pub-modal" style="max-width:420px">
+            <div class="admin-pub-modal-header">
+                <h3>👨‍🏫 Asignar profesor</h3>
+                <button class="admin-pub-modal-close" id="auTpClose">×</button>
+            </div>
+            <div class="admin-pub-modal-body">
+                <div class="au-tp-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>
+            </div>
+        </div>`;
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+    document.getElementById('auTpClose').addEventListener('click', () => overlay.remove());
+
+    let teachers = [];
+    try {
+        const session = localStorage.getItem('ls_session');
+        const token   = session ? JSON.parse(session).token : '';
+        const r = await fetch(`${_API_HOST}/classroom/teachers`, {
+            headers: { 'Authorization': `Bearer ${token}` }
+        });
+        const d = await r.json();
+        teachers = d.teachers || [];
+    } catch {}
+
+    // Incluir al admin mismo si no está en la lista de profesores
+    const adminId   = currentUser?.id;
+    const adminName = currentUser?.name || 'Yo (admin)';
+    const adminUsername = currentUser?.username || '';
+    const adminInList = teachers.some(t => t.teacher_id === adminId);
+    if (!adminInList && adminId) {
+        teachers = [{ teacher_id: adminId, name: adminName, username: adminUsername, status: 'available', _isSelf: true }, ...teachers];
+    }
+
+    const body = overlay.querySelector('.admin-pub-modal-body');
+
+    if (!teachers.length) {
+        body.innerHTML = '<p style="padding:.5rem;color:var(--text-muted)">No hay profesores registrados todavía. El profesor debe tener plan Gold o el addon ClassRooms activo y haber configurado su perfil.</p>';
+        return;
+    }
+
+    body.innerHTML = `
+        <p style="font-size:.85rem;color:var(--text-muted);margin-bottom:.75rem">
+            Seleccioná el profesor que se asignará a este estudiante. Solo aparecen usuarios registrados como profesores.
+        </p>
+        <div class="au-tp-list">
+            ${teachers.map(t => `
+                <label class="au-tp-row">
+                    <input type="radio" name="auTpRadio" value="${t.teacher_id}" data-name="${escapeHtml(t.name || '—')}" data-username="${escapeHtml(t.username || '')}">
+                    <div class="au-tp-info">
+                        <span class="au-tp-name">${escapeHtml(t.name || '—')} ${t._isSelf ? '<span class="au-badge au-badge--dev">Yo</span>' : ''}</span>
+                        ${t.username ? `<span class="au-tp-user">@${escapeHtml(t.username)}</span>` : ''}
+                    </div>
+                    <span class="au-tp-status ${t.status === 'available' ? 'au-badge--active' : 'au-badge--inactive'}">
+                        ${t.status === 'available' ? '🟢' : '🔴'}
+                    </span>
+                </label>`).join('')}
+        </div>
+        <div class="admin-pub-form-error hidden" id="auTpErr">Seleccioná un profesor.</div>
+    `;
+
+    // Footer con botón confirmar
+    overlay.querySelector('.admin-pub-modal').insertAdjacentHTML('beforeend', `
+        <div class="admin-pub-modal-footer">
+            <button class="admin-tool-btn" id="auTpConfirm">Confirmar</button>
+            <button class="admin-pub-cancel-btn" id="auTpCancel">Cancelar</button>
+        </div>`);
+
+    document.getElementById('auTpCancel').addEventListener('click', () => overlay.remove());
+    document.getElementById('auTpConfirm').addEventListener('click', () => {
+        const selected = overlay.querySelector('input[name="auTpRadio"]:checked');
+        const errEl    = document.getElementById('auTpErr');
+        if (!selected) { errEl.classList.remove('hidden'); return; }
+
+        const teacherId   = selected.value;
+        const teacherName = selected.dataset.name;
+        const teacherUser = selected.dataset.username;
+
+        _auPendingTeacher.set(uid, { id: teacherId, name: teacherName, username: teacherUser });
+
+        // Actualizar la UI del bloque de profesor en la tarjeta
+        const nameEl = document.getElementById(`auTeacherName_${uid}`);
+        if (nameEl) nameEl.textContent = teacherName + (teacherUser ? ` (@${teacherUser})` : '');
+        const pickBtn = auContainer.querySelector(`.au-teacher-pick-btn[data-uid="${uid}"]`);
+        if (pickBtn) pickBtn.textContent = 'Cambiar';
+
+        overlay.remove();
+    });
+}
+
+// ─── Admin: Bots ─────────────────────────────────────────────────────────────
+
+const _CRON_PRESETS = [
+    { label: 'Cada hora',        value: '0 * * * *'    },
+    { label: 'Cada 6 horas',     value: '0 */6 * * *'  },
+    { label: 'Diario 9am',       value: '0 9 * * *'    },
+    { label: 'Diario 6pm',       value: '0 18 * * *'   },
+    { label: 'Lun y Vie 9am',    value: '0 9 * * 1,5'  },
+    { label: 'Cada semana',      value: '0 9 * * 1'    },
+    { label: 'Personalizado',    value: 'custom'        },
+];
+
+const _SCHEMA_TYPES = [
+    { value: 'Article',          label: 'Article — post general'          },
+    { value: 'LearningResource', label: 'LearningResource — recurso educativo' },
+    { value: 'Course',           label: 'Course — clase / curso'          },
+    { value: 'EducationEvent',   label: 'EducationEvent — evento en vivo' },
+    { value: 'FAQPage',          label: 'FAQPage — preguntas y respuestas'},
+];
+
+function _botStatusBadge(bot) {
+    if (!bot.enabled) return `<span class="bot-badge bot-badge--off">⏸ Pausado</span>`;
+    return `<span class="bot-badge bot-badge--on">▶ Activo</span>`;
+}
+
+function _timeAgoAdmin(ts) {
+    if (!ts) return 'nunca';
+    const diff = Date.now() - ts;
+    const min  = Math.floor(diff / 60000);
+    if (min < 1)   return 'ahora';
+    if (min < 60)  return `${min}m atrás`;
+    const hrs = Math.floor(min / 60);
+    if (hrs < 24)  return `${hrs}h atrás`;
+    return `${Math.floor(hrs / 24)}d atrás`;
+}
+
+function _botCard(bot) {
+    const preset = _CRON_PRESETS.find(p => p.value === bot.schedule);
+    const schedLabel = preset ? preset.label : bot.schedule;
+    return `
+    <div class="bot-card" data-bot-id="${bot.id}">
+        <div class="bot-card-header">
+            <div class="bot-card-info">
+                <span class="bot-card-name">${escapeHtml(bot.name)}</span>
+                ${_botStatusBadge(bot)}
+            </div>
+            <div class="bot-card-actions">
+                <button class="bot-run-btn" data-id="${bot.id}" title="Ejecutar ahora">▶ Ejecutar</button>
+                <button class="bot-edit-btn" data-id="${bot.id}" title="Editar">✏️</button>
+                <button class="bot-del-btn"  data-id="${bot.id}" title="Eliminar">🗑️</button>
+            </div>
+        </div>
+        <div class="bot-card-meta">
+            <span>🎯 ${bot.target === 'classroom' ? 'Class Room' : 'Live Feed'}</span>
+            <span>📐 ${_SCHEMA_TYPES.find(s => s.value === bot.schemaType)?.label.split('—')[0].trim() || bot.schemaType}</span>
+            <span>⏰ ${schedLabel}</span>
+            <span>📦 ${bot.quantity} por ejecución</span>
+            <span>🤖 ${bot.model || 'deepseek-chat'}</span>
+        </div>
+        <div class="bot-card-prompt">${escapeHtml((bot.prompt || '').slice(0, 120))}${bot.prompt?.length > 120 ? '…' : ''}</div>
+        <div class="bot-card-stats">
+            <span>Último: ${_timeAgoAdmin(bot.lastRun)}</span>
+            <span>Total generados: ${bot.runCount || 0}</span>
+            ${(bot.logs || []).slice(0, 1).map(l =>
+                `<span class="${l.ok ? 'bot-log-ok' : 'bot-log-err'}">${l.ok ? `✓ ${l.count} items (${l.ms}ms)` : `✗ ${escapeHtml(l.error || '')}`}</span>`
+            ).join('')}
+        </div>
+        <label class="bot-toggle-wrap">
+            <input type="checkbox" class="bot-toggle" data-id="${bot.id}" ${bot.enabled ? 'checked' : ''}>
+            <span>${bot.enabled ? 'Activo' : 'Pausado'}</span>
+        </label>
+    </div>`;
+}
+
+function _botForm(bot = {}) {
+    const isEdit     = !!bot.id;
+    const selPreset  = _CRON_PRESETS.find(p => p.value === bot.schedule)?.value || 'custom';
+    const isCustom   = selPreset === 'custom';
+
+    return `
+    <div class="bot-form" id="botForm">
+        <h3 class="bot-form-title">${isEdit ? '✏️ Editar bot' : '➕ Nuevo bot'}</h3>
+
+        <label class="bot-form-label">Nombre del bot
+            <input class="bot-form-input" id="bfName" maxlength="80" value="${escapeHtml(bot.name || '')}" placeholder="Ej: Tips de vocabulario diarios">
+        </label>
+
+        <label class="bot-form-label">Destino
+            <select class="bot-form-select" id="bfTarget">
+                <option value="livefeed"   ${(bot.target||'livefeed') === 'livefeed'   ? 'selected' : ''}>📡 Live Feed</option>
+                <option value="classroom"  ${bot.target === 'classroom'  ? 'selected' : ''}>🎓 Class Room</option>
+            </select>
+        </label>
+
+        <label class="bot-form-label">Tipo de schema.org
+            <select class="bot-form-select" id="bfSchema">
+                ${_SCHEMA_TYPES.map(s => `<option value="${s.value}" ${(bot.schemaType||'Article') === s.value ? 'selected' : ''}>${s.label}</option>`).join('')}
+            </select>
+        </label>
+
+        <label class="bot-form-label">Prompt del bot
+            <textarea class="bot-form-textarea" id="bfPrompt" maxlength="2000" rows="5" placeholder="Describe qué contenido debe generar. Ej: Crea posts educativos sobre expresiones coloquiales en español rioplatense, con ejemplos y traducción al inglés.">${escapeHtml(bot.prompt || '')}</textarea>
+        </label>
+
+        <label class="bot-form-label">Periodicidad
+            <select class="bot-form-select" id="bfPreset">
+                ${_CRON_PRESETS.map(p => `<option value="${p.value}" ${selPreset === p.value ? 'selected' : ''}>${p.label}</option>`).join('')}
+            </select>
+        </label>
+
+        <div id="bfCustomCronWrap" style="display:${isCustom ? 'block' : 'none'}">
+            <label class="bot-form-label">Expresión cron (min hr día mes dow)
+                <input class="bot-form-input" id="bfCron" value="${isCustom ? escapeHtml(bot.schedule || '') : ''}" placeholder="0 9 * * *">
+                <small style="color:#6b7280">Ej: <code>0 9 * * *</code> = diario 9am · <code>*/30 * * * *</code> = cada 30 min</small>
+            </label>
+        </div>
+
+        <label class="bot-form-label">Cantidad por ejecución (1–10)
+            <input class="bot-form-input" id="bfQty" type="number" min="1" max="10" value="${bot.quantity || 2}">
+        </label>
+
+        <label class="bot-form-label">Modelo DeepSeek
+            <select class="bot-form-select" id="bfModel">
+                <option value="deepseek-chat"     ${(bot.model||'deepseek-chat') === 'deepseek-chat'     ? 'selected' : ''}>deepseek-chat (rápido)</option>
+                <option value="deepseek-reasoner" ${bot.model === 'deepseek-reasoner' ? 'selected' : ''}>deepseek-reasoner (preciso)</option>
+            </select>
+        </label>
+
+        <div class="bot-form-actions">
+            <button class="admin-btn" id="bfSaveBtn">${isEdit ? 'Guardar cambios' : 'Crear bot'}</button>
+            <button class="admin-btn admin-btn--secondary" id="bfCancelBtn">Cancelar</button>
+        </div>
+    </div>`;
+}
+
+async function _adminRenderBots(container) {
+    const res  = await fetch(_API_HOST + '/admin/bots', { headers: { 'x-admin-token': ADMIN_TOKEN } });
+    if (!res.ok) throw new Error('Error al cargar bots');
+    const bots = await res.json();
+
+    const deepseekWarning = !bots.length ? '' :
+        `<div class="bot-info-banner">
+            ℹ️ Requiere <code>DEEPSEEK_API_KEY</code> en <code>.env</code>.
+            Los bots generan contenido via <a href="https://api.deepseek.com" target="_blank">DeepSeek API</a>
+            e insertan schema.org JSON-LD en cada publicación.
+         </div>`;
+
+    container.innerHTML = `
+        <div class="admin-bots-section">
+            <div class="admin-bots-header">
+                <span class="admin-count">${bots.length} bot(s) · ${bots.filter(b=>b.enabled).length} activo(s)</span>
+                <button class="admin-btn" id="botNewBtn">➕ Nuevo bot</button>
+            </div>
+            ${deepseekWarning}
+            <div id="botFormSlot"></div>
+            <div class="bot-list" id="botList">
+                ${bots.length ? bots.map(_botCard).join('') : '<div class="admin-empty">🤖 No hay bots aún. Crea el primero.</div>'}
+            </div>
+        </div>
+    `;
+
+    // ── Abrir formulario de nuevo bot ──────────────────────────────────────────
+    document.getElementById('botNewBtn').addEventListener('click', () => {
+        const slot = document.getElementById('botFormSlot');
+        slot.innerHTML = _botForm();
+        _initBotForm(null, slot, bots, container);
+        slot.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    // ── Eventos en las tarjetas ────────────────────────────────────────────────
+    _bindBotCardEvents(container, bots);
+}
+
+function _bindBotCardEvents(container, botsArr) {
+    // Toggle enable/disable
+    container.querySelectorAll('.bot-toggle').forEach(chk => {
+        chk.addEventListener('change', async () => {
+            const id = chk.dataset.id;
+            await fetch(_API_HOST + `/admin/bots/${id}`, {
+                method:  'PATCH',
+                headers: { 'x-admin-token': ADMIN_TOKEN, 'Content-Type': 'application/json' },
+                body:    JSON.stringify({ enabled: chk.checked })
+            });
+            const label = chk.nextElementSibling;
+            if (label) label.textContent = chk.checked ? 'Activo' : 'Pausado';
+            const card = chk.closest('.bot-card');
+            const badge = card?.querySelector('.bot-badge');
+            if (badge) {
+                badge.className = `bot-badge ${chk.checked ? 'bot-badge--on' : 'bot-badge--off'}`;
+                badge.textContent = chk.checked ? '▶ Activo' : '⏸ Pausado';
+            }
+        });
+    });
+
+    // Ejecutar ahora
+    container.querySelectorAll('.bot-run-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            const id   = btn.dataset.id;
+            const orig = btn.textContent;
+            btn.textContent = '⏳ Ejecutando…';
+            btn.disabled = true;
+            try {
+                const r    = await fetch(_API_HOST + `/admin/bots/${id}/run`, {
+                    method: 'POST', headers: { 'x-admin-token': ADMIN_TOKEN }
+                });
+                const data = await r.json();
+                if (data.ok) {
+                    btn.textContent = `✓ ${data.generated} generados`;
+                    setTimeout(async () => {
+                        // Recargar la sección para actualizar stats
+                        const content = document.getElementById('adminTabContent');
+                        await _adminRenderBots(content);
+                    }, 1500);
+                } else {
+                    btn.textContent = `✗ ${data.error || 'Error'}`;
+                    setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 3000);
+                }
+            } catch (e) {
+                btn.textContent = '✗ Error de red';
+                setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 3000);
+            }
+        });
+    });
+
+    // Editar
+    container.querySelectorAll('.bot-edit-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            const id  = btn.dataset.id;
+            const bot = botsArr.find(b => b.id === id);
+            if (!bot) return;
+            const slot = document.getElementById('botFormSlot');
+            slot.innerHTML = _botForm(bot);
+            _initBotForm(bot, slot, botsArr, container);
+            slot.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+
+    // Eliminar
+    container.querySelectorAll('.bot-del-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            const id = btn.dataset.id;
+            if (!confirm('¿Eliminar este bot? No se puede deshacer.')) return;
+            await fetch(_API_HOST + `/admin/bots/${id}`, {
+                method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN }
+            });
+            btn.closest('.bot-card')?.remove();
+        });
+    });
+}
+
+function _initBotForm(existingBot, slot, botsArr, container) {
+    const preset = document.getElementById('bfPreset');
+    const customWrap = document.getElementById('bfCustomCronWrap');
+
+    preset.addEventListener('change', () => {
+        customWrap.style.display = preset.value === 'custom' ? 'block' : 'none';
+    });
+
+    document.getElementById('bfCancelBtn').addEventListener('click', () => {
+        slot.innerHTML = '';
+    });
+
+    document.getElementById('bfSaveBtn').addEventListener('click', async () => {
+        const name      = document.getElementById('bfName').value.trim();
+        const prompt    = document.getElementById('bfPrompt').value.trim();
+        const target    = document.getElementById('bfTarget').value;
+        const schemaType = document.getElementById('bfSchema').value;
+        const presetVal = document.getElementById('bfPreset').value;
+        const schedule  = presetVal === 'custom'
+            ? document.getElementById('bfCron').value.trim()
+            : presetVal;
+        const quantity  = parseInt(document.getElementById('bfQty').value) || 2;
+        const model     = document.getElementById('bfModel').value;
+
+        if (!name || !prompt || !schedule) {
+            alert('Nombre, prompt y periodicidad son obligatorios.'); return;
+        }
+
+        const body = { name, prompt, target, schemaType, schedule, quantity, model };
+        const url  = existingBot
+            ? `${_API_HOST}/admin/bots/${existingBot.id}`
+            : `${_API_HOST}/admin/bots`;
+        const method = existingBot ? 'PATCH' : 'POST';
+
+        const res  = await fetch(url, {
+            method,
+            headers: { 'x-admin-token': ADMIN_TOKEN, 'Content-Type': 'application/json' },
+            body: JSON.stringify(body)
+        });
+        const data = await res.json();
+        if (!res.ok) { alert('Error: ' + (data.error || res.status)); return; }
+
+        slot.innerHTML = '';
+        // Recargar la lista
+        await _adminRenderBots(container);
+    });
 }

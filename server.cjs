@@ -16,7 +16,10 @@ const registerAuthRoutes      = require('./routes/auth.cjs');
 const registerContentRoutes   = require('./routes/content.cjs');
 const registerMembershipRoutes = require('./routes/membership.cjs');
 const registerClassroomRoutes = require('./routes/classroom.cjs');
+const registerBotRoutes       = require('./routes/bots.cjs');
+const { registerMcpRoutes }   = require('./mcp_server.cjs');
 const { loadContributors }    = require('./routes/content.cjs');
+const { loadBots, runBot }    = require('./bot_runner.cjs');
 
 // ─── Detección de región por IP ────────────────────────────────
 
@@ -82,6 +85,16 @@ app.get('/lite', (req, res) => {
     res.sendFile(path.join(__dirname, 'index-lite.html'));
 });
 
+// Página pública de discovery del servidor MCP
+app.get('/mcp', (req, res, next) => {
+    // Si es una solicitud MCP (JSON), dejar que la maneje registerMcpRoutes
+    if (req.headers['content-type']?.includes('application/json') ||
+        req.headers['accept']?.includes('text/event-stream')) {
+        return next();
+    }
+    res.sendFile(path.join(__dirname, 'mcp.html'));
+});
+
 app.get('/', (req, res, next) => {
     if (!BOT_UA.test(req.headers['user-agent'] || '')) return next();
     res.send(`<!DOCTYPE html>
@@ -117,6 +130,10 @@ registerMembershipRoutes(app, { authDb });
 
 registerClassroomRoutes(app, { authDb });
 
+registerBotRoutes(app);
+
+registerMcpRoutes(app);
+
 // ─── Start server ─────────────────────────────────────────────
 
 const PORT = process.env.PORT || 3000;
@@ -124,6 +141,55 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Servidor escuchando en http://0.0.0.0:${PORT}`);
 });
+
+// ─── Bot Scheduler dinámico ────────────────────────────────────
+
+try {
+    const cron = require('node-cron');
+
+    // Map de tasks activos: botId → task
+    const _activeTasks = new Map();
+
+    function _scheduleBot(bot) {
+        if (!bot.enabled || !cron.validate(bot.schedule)) return;
+        if (_activeTasks.has(bot.id)) _activeTasks.get(bot.id).destroy();
+
+        const task = cron.schedule(bot.schedule, async () => {
+            console.log(`[Bot] "${bot.name}" ejecutando (${bot.schedule})...`);
+            try {
+                const items = await runBot(bot.id);
+                console.log(`[Bot] "${bot.name}" generó ${items.length} item(s).`);
+                // Recargar el bot actualizado para la próxima ejecución
+                const updated = loadBots().find(b => b.id === bot.id);
+                if (updated) Object.assign(bot, updated);
+            } catch (err) {
+                console.error(`[Bot] "${bot.name}" error: ${err.message}`);
+            }
+        }, { timezone: 'America/Argentina/Buenos_Aires' });
+
+        _activeTasks.set(bot.id, task);
+    }
+
+    // Registrar todos los bots activos al arrancar
+    const initialBots = loadBots();
+    initialBots.filter(b => b.enabled).forEach(_scheduleBot);
+    console.log(`[Bots] ${initialBots.filter(b => b.enabled).length} bot(s) activo(s) registrados.`);
+
+    // Exponer el scheduler en app para que routes/bots.cjs pueda crear/actualizar/borrar crons
+    app._botScheduler = {
+        register: (bot) => _scheduleBot(bot),
+        update:   (bot) => {
+            if (_activeTasks.has(bot.id)) { _activeTasks.get(bot.id).destroy(); _activeTasks.delete(bot.id); }
+            if (bot.enabled) _scheduleBot(bot);
+        },
+        unregister: (botId) => {
+            if (_activeTasks.has(botId)) { _activeTasks.get(botId).destroy(); _activeTasks.delete(botId); }
+        }
+    };
+} catch (err) {
+    console.warn('[Bots] node-cron no disponible — bots solo ejecutables manualmente:', err.message);
+    app._botScheduler = { register: () => {}, update: () => {}, unregister: () => {} };
+}
 
 // ─── LinkedIn Bot — publicación automática cada 4 días ────────
 

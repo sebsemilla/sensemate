@@ -43,3 +43,23 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Datos de runtime de bots (generados en producción, no commitear)
+bots.json
+feed_posts.json
+classroom_classes.json
+
+# Archivos de progreso de generación de misiones
+grupos_tarjetas/**/.progress_*.json
+gen_progress_status.json
+gen_en_pt_pids.json
+
+# Scripts de generación locales (no son parte del servidor)
+generate_missions.js
+generate_vocab_contextual.js
+gen_*.sh
+run_level.sh
+complete_parciales.sh
+resume_generation.sh
+monitor_and_launch.sh
+enrich_*.js

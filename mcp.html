@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SenseMate MCP Server — API de contenido educativo para agentes IA</title>
+<meta name="description" content="Servidor MCP (Model Context Protocol) de SenseMate. Conecta tu agente IA (Claude, Cursor, Copilot) al contenido educativo de idiomas: posts del Live Feed, clases disponibles y bots generadores.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sensemate.app/mcp">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="website">
+<meta property="og:url"         content="https://sensemate.app/mcp">
+<meta property="og:title"       content="SenseMate MCP Server — Contenido educativo para agentes IA">
+<meta property="og:description" content="Conecta Claude Desktop, Cursor o cualquier cliente MCP al contenido de idiomas de SenseMate.">
+<meta property="og:locale"      content="es_AR">
+
+<!-- Schema.org: SoftwareApplication + WebAPI -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "SenseMate MCP Server",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "url": "https://sensemate.app/mcp",
+    "description": "Servidor MCP (Model Context Protocol) que expone el contenido educativo de SenseMate a agentes IA. Permite leer el Live Feed, consultar clases y gestionar bots generadores de contenido.",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "author": { "@type": "Organization", "name": "SenseMate", "url": "https://sensemate.app" },
+    "softwareVersion": "1.0.0",
+    "programmingLanguage": "JavaScript",
+    "keywords": "MCP, Model Context Protocol, API, idiomas, language learning, AI agent, Claude"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebAPI",
+    "name": "SenseMate Content API",
+    "url": "https://sensemate.app/mcp",
+    "description": "API MCP para acceder al contenido educativo de SenseMate desde agentes IA.",
+    "documentation": "https://sensemate.app/mcp#docs",
+    "provider": { "@type": "Organization", "name": "SenseMate" },
+    "termsOfService": "https://sensemate.app/terms.html",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://sensemate.app/api/feed?limit=20",
+      "query-input": "required name=limit"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué es el servidor MCP de SenseMate?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Es un servidor que implementa el Model Context Protocol (MCP), un estándar abierto de Anthropic que permite a agentes IA como Claude conectarse a fuentes de datos externas. Con el MCP de SenseMate podés consultar publicaciones educativas, clases disponibles y gestionar bots de contenido." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Con qué clientes MCP es compatible?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Es compatible con Claude Desktop (Anthropic), Cursor, Continue.dev, y cualquier cliente que implemente el estándar MCP 2025-03-26. Soporta transporte HTTP Streamable y stdio." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Es gratuito?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Los endpoints de lectura pública (get_feed, get_classes) son completamente gratuitos. Las herramientas de administración (create_bot, run_bot) requieren un token de administrador." }
+      }
+    ]
+  }
+]
+</script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f0fdf4;
+    color: #1a2e1a;
+    line-height: 1.6;
+  }
+  a { color: #2d6a4f; }
+
+  .hero {
+    background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 60%, #52b788 100%);
+    color: #fff;
+    padding: 56px 24px 48px;
+    text-align: center;
+  }
+  .hero-logo { font-size: 3rem; margin-bottom: 12px; }
+  .hero h1   { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; margin-bottom: 14px; }
+  .hero p    { font-size: 1.05rem; opacity: .88; max-width: 600px; margin: 0 auto 24px; }
+  .badge-row { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 5px 14px; border-radius: 20px;
+    background: rgba(255,255,255,0.15); font-size: .8rem; font-weight: 600;
+    border: 1px solid rgba(255,255,255,0.25);
+  }
+
+  .container { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+
+  section { padding: 40px 0; border-bottom: 1px solid #d1fae5; }
+  section:last-child { border-bottom: none; }
+  h2 { font-size: 1.35rem; font-weight: 800; margin-bottom: 16px; color: #1b4332; }
+  h3 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; color: #2d6a4f; }
+
+  /* Tools grid */
+  .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .tool-card {
+    background: #fff; border-radius: 12px; padding: 16px;
+    border: 1px solid #bbf7d0; box-shadow: 0 2px 8px rgba(0,0,0,.05);
+  }
+  .tool-name  { font-family: monospace; font-size: .9rem; font-weight: 700; color: #065f46; margin-bottom: 6px; }
+  .tool-desc  { font-size: .82rem; color: #374151; }
+  .tool-badge {
+    display: inline-block; margin-top: 8px;
+    padding: 2px 8px; border-radius: 8px; font-size: .68rem; font-weight: 700;
+  }
+  .tool-badge.public { background: #d1fae5; color: #065f46; }
+  .tool-badge.admin  { background: #fef9c3; color: #854d0e; }
+
+  /* Code blocks */
+  pre {
+    background: #0f1f16; color: #a7f3d0;
+    border-radius: 10px; padding: 18px 20px;
+    font-size: .82rem; line-height: 1.6;
+    overflow-x: auto; margin: 10px 0;
+  }
+  code { font-family: 'Fira Code', 'Courier New', monospace; }
+
+  /* Tabs */
+  .tab-bar   { display: flex; gap: 0; margin-bottom: 0; border-bottom: 2px solid #bbf7d0; }
+  .tab-btn   { padding: 8px 18px; border: none; background: transparent; cursor: pointer; font-size: .88rem; font-weight: 600; color: #6b7280; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: color .15s, border-color .15s; }
+  .tab-btn.active { color: #2d6a4f; border-color: #2d6a4f; }
+  .tab-pane  { display: none; padding-top: 18px; }
+  .tab-pane.active { display: block; }
+
+  /* REST table */
+  table { width: 100%; border-collapse: collapse; font-size: .84rem; margin-top: 10px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #d1fae5; }
+  th { background: #f0fdf4; font-weight: 700; color: #1b4332; }
+  td code { background: #f0fdf4; padding: 2px 6px; border-radius: 4px; font-size: .8em; }
+
+  /* FAQ */
+  details { margin-bottom: 10px; background: #fff; border-radius: 10px; border: 1px solid #bbf7d0; padding: 14px 16px; }
+  summary  { font-weight: 700; cursor: pointer; font-size: .92rem; color: #1b4332; }
+  details p { margin-top: 10px; font-size: .88rem; color: #374151; }
+
+  /* Back link */
+  .back-link { display: inline-flex; align-items: center; gap: 6px; margin: 24px 0 0; text-decoration: none; font-weight: 600; font-size: .9rem; }
+  .back-link:hover { text-decoration: underline; }
+
+  @media (max-width: 500px) {
+    .hero { padding: 40px 16px 36px; }
+    pre   { font-size: .76rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-logo">🌿🤖</div>
+  <h1>SenseMate MCP Server</h1>
+  <p>Conecta tu agente IA al contenido educativo de SenseMate: posts de idiomas, clases disponibles y bots generadores via Model Context Protocol.</p>
+  <div class="badge-row">
+    <span class="badge">📡 MCP 2025-03-26</span>
+    <span class="badge">⚡ HTTP Streamable</span>
+    <span class="badge">🖥️ stdio</span>
+    <span class="badge">🆓 Lectura gratuita</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- Herramientas disponibles -->
+  <section id="tools">
+    <h2>🛠️ Herramientas disponibles</h2>
+    <div class="tools-grid">
+      <div class="tool-card">
+        <div class="tool-name">get_feed</div>
+        <div class="tool-desc">Obtiene publicaciones recientes del Live Feed. Contenido educativo sobre idiomas con datos schema.org incluidos.</div>
+        <span class="tool-badge public">Acceso público</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-name">get_classes</div>
+        <div class="tool-desc">Lista clases disponibles o en vivo del Class Room. Filtrá por <code>disponibles</code> o <code>live</code>.</div>
+        <span class="tool-badge public">Acceso público</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-name">list_bots</div>
+        <div class="tool-desc">Lista todos los bots de contenido con sus configuraciones, schedules y estadísticas.</div>
+        <span class="tool-badge admin">Requiere admin_token</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-name">run_bot</div>
+        <div class="tool-desc">Ejecuta un bot manualmente para generar contenido nuevo de inmediato con DeepSeek AI.</div>
+        <span class="tool-badge admin">Requiere admin_token</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-name">create_bot</div>
+        <div class="tool-desc">Crea un nuevo bot con prompt personalizado, periodicidad cron y tipo de schema.org.</div>
+        <span class="tool-badge admin">Requiere admin_token</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-name">get_bot_logs</div>
+        <div class="tool-desc">Historial de las últimas 20 ejecuciones de un bot: éxitos, errores y tiempo de respuesta.</div>
+        <span class="tool-badge admin">Requiere admin_token</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conexión -->
+  <section id="docs">
+    <h2>🔌 Cómo conectarse</h2>
+    <div class="tab-bar">
+      <button class="tab-btn active" onclick="showTab('claude')">Claude Desktop</button>
+      <button class="tab-btn" onclick="showTab('cursor')">Cursor / Continue</button>
+      <button class="tab-btn" onclick="showTab('http')">HTTP directo</button>
+      <button class="tab-btn" onclick="showTab('stdio')">stdio (local)</button>
+    </div>
+
+    <div id="tab-claude" class="tab-pane active">
+      <h3>Claude Desktop</h3>
+      <p>Agrega esto a tu <code>claude_desktop_config.json</code>:</p>
+      <pre><code>{
+  "mcpServers": {
+    "sensemate": {
+      "type": "http",
+      "url": "https://sensemate.app/mcp"
+    }
+  }
+}</code></pre>
+      <p>Reinicia Claude Desktop. Verás las herramientas de SenseMate disponibles en la barra de herramientas.</p>
+    </div>
+
+    <div id="tab-cursor" class="tab-pane">
+      <h3>Cursor / Continue.dev</h3>
+      <p>En tu archivo de configuración de MCP servers:</p>
+      <pre><code>{
+  "mcpServers": {
+    "sensemate-content": {
+      "url": "https://sensemate.app/mcp",
+      "transport": "http"
+    }
+  }
+}</code></pre>
+    </div>
+
+    <div id="tab-http" class="tab-pane">
+      <h3>HTTP Streamable (cualquier cliente MCP)</h3>
+      <p><strong>Endpoint:</strong> <code>POST https://sensemate.app/mcp</code></p>
+      <p>Inicia una sesión e invoca herramientas con el protocolo JSON-RPC 2.0:</p>
+      <pre><code># 1. Initialize
+curl -X POST https://sensemate.app/mcp \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{
+    "protocolVersion":"2025-03-26",
+    "capabilities":{},
+    "clientInfo":{"name":"my-app","version":"1.0"}
+  }}'
+
+# 2. Llamar una herramienta
+curl -X POST https://sensemate.app/mcp \
+  -H "Content-Type: application/json" \
+  -H "mcp-session-id: &lt;session-id-del-paso-1&gt;" \
+  -d '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{
+    "name":"get_feed",
+    "arguments":{"limit":10}
+  }}'</code></pre>
+    </div>
+
+    <div id="tab-stdio" class="tab-pane">
+      <h3>Modo stdio (servidor local)</h3>
+      <p>Si tenés acceso al servidor:</p>
+      <pre><code># Cloná el repo y corré directamente
+node mcp_server.cjs</code></pre>
+      <p>O configurá como proceso en Claude Desktop:</p>
+      <pre><code>{
+  "mcpServers": {
+    "sensemate-local": {
+      "command": "node",
+      "args": ["/ruta/a/sensemate/mcp_server.cjs"],
+      "env": {
+        "ADMIN_TOKEN": "tu-token-de-admin"
+      }
+    }
+  }
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- REST API pública -->
+  <section id="rest">
+    <h2>🌐 REST API de solo lectura</h2>
+    <p>Para consumo directo sin cliente MCP:</p>
+    <table>
+      <thead><tr><th>Endpoint</th><th>Descripción</th><th>Params</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><code>GET /api/feed</code></td>
+          <td>Publicaciones del Live Feed</td>
+          <td><code>limit</code>, <code>offset</code></td>
+        </tr>
+        <tr>
+          <td><code>GET /api/classroom</code></td>
+          <td>Clases disponibles o en vivo</td>
+          <td><code>tab</code> (disponibles|live), <code>limit</code></td>
+        </tr>
+        <tr>
+          <td><code>GET /api/docs</code></td>
+          <td>Documentación en texto plano</td>
+          <td>—</td>
+        </tr>
+      </tbody>
+    </table>
+    <pre><code>curl https://sensemate.app/api/feed?limit=5</code></pre>
+    <p style="font-size:.82rem;color:#6b7280;margin-top:8px;">Cada item incluye un campo <code>schema</code> con JSON-LD schema.org listo para inyectar en tu página.</p>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <h2>❓ Preguntas frecuentes</h2>
+    <details open>
+      <summary>¿Qué es el Model Context Protocol?</summary>
+      <p>MCP es un estándar abierto creado por Anthropic que permite a los agentes IA (como Claude) conectarse de forma segura a fuentes de datos y herramientas externas. Funciona como un "USB para IA": un protocolo universal que cualquier cliente puede implementar.</p>
+    </details>
+    <details>
+      <summary>¿Los endpoints de lectura son completamente públicos?</summary>
+      <p>Sí. <code>get_feed</code> y <code>get_classes</code> (y sus equivalentes REST) no requieren autenticación. Las herramientas de escritura y administración (<code>create_bot</code>, <code>run_bot</code>, etc.) requieren un <code>admin_token</code>.</p>
+    </details>
+    <details>
+      <summary>¿Puedo usar los datos para mi propia app?</summary>
+      <p>Sí, con atribución. Los datos de la API REST y MCP son de uso libre para proyectos educativos. Para uso comercial, consultá los <a href="/terms.html">Términos de servicio</a>.</p>
+    </details>
+    <details>
+      <summary>¿Qué schema.org incluye cada post?</summary>
+      <p>Cada publicación generada por un bot incluye un JSON-LD con uno de estos tipos: <code>Article</code>, <code>LearningResource</code>, <code>Course</code>, <code>EducationEvent</code> o <code>FAQPage</code>. Podés inyectarlo directamente en el <code>&lt;head&gt;</code> de tu página.</p>
+    </details>
+    <details>
+      <summary>¿Dónde está el código fuente?</summary>
+      <p>El servidor MCP está implementado en <code>mcp_server.cjs</code> dentro del proyecto SenseMate. El protocolo es compatible con la especificación MCP 2025-03-26.</p>
+    </details>
+  </section>
+
+  <a href="/" class="back-link">← Volver a SenseMate</a>
+  <p style="font-size:.75rem;color:#6b7280;padding:20px 0;">© 2025 SenseMate · <a href="/privacy.html">Privacidad</a> · <a href="/terms.html">Términos</a></p>
+
+</div><!-- /container -->
+
+<script>
+function showTab(id) {
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>

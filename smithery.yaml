@@ -1,0 +1,29 @@
+# Smithery configuration — https://smithery.ai/docs/config#smitheryyaml
+# SenseMate Content MCP Server
+
+startCommand:
+  type: stdio
+
+configSchema:
+  type: object
+  properties:
+    adminToken:
+      type: string
+      description: >
+        Token de administrador (ADMIN_TOKEN del .env).
+        Solo necesario para las herramientas de escritura: create_bot, run_bot, list_bots, get_bot_logs.
+        Las herramientas de lectura (get_feed, get_classes) no requieren token.
+  required: []
+
+commandFunction: |-
+  (config) => ({
+    command: 'node',
+    args: ['mcp_server.cjs'],
+    env: {
+      ...(config.adminToken ? { ADMIN_TOKEN: config.adminToken } : {}),
+      DEEPSEEK_API_KEY: config.deepseekApiKey || ''
+    }
+  })
+
+exampleConfig:
+  adminToken: ""
