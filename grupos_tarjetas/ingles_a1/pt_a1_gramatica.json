@@ -1126,5 +1126,763 @@
       "vocabulary": [],
       "dialogue": []
     }
+  },
+  {
+    "id": "pt_A1_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Basic Prepositions of Place | Preposições básicas de lugar",
+    "bridge": "Em inglês, as preposições de lugar mais comuns são 'in', 'on', e 'at'. Diferente do português, onde frequentemente usamos 'em' para muitas situações, o inglês faz distinções claras: 'in' para espaços fechados, 'on' para superfícies, e 'at' para pontos específicos. Cuidado para não traduzir 'em' diretamente, pois isso causa erros comuns.",
+    "rule": "Use 'in' para espaços tridimensionais ou áreas (ex.: in the room, in Brazil). Use 'on' para superfícies (ex.: on the table, on the wall). Use 'at' para pontos ou locais específicos (ex.: at the bus stop, at work). Em A1, aprenda os usos mais básicos: 'in' para cômodos e cidades, 'on' para objetos em superfícies, e 'at' para endereços e eventos. Lembre-se: 'in' é usado com meios de transporte quando você está dentro (in a car), mas 'on' para ônibus, trem, avião (on the bus).",
+    "concept_examples": [
+      {
+        "text": "The book is on the table.",
+        "translation": "O livro está sobre a mesa.",
+        "phonetic": "/ðə bʊk ɪz ˈɒn ðə ˈteɪbəl/"
+      },
+      {
+        "text": "She lives in Lisbon.",
+        "translation": "Ela mora em Lisboa.",
+        "phonetic": "/ʃiː lɪvz ɪn ˈlɪzbən/"
+      },
+      {
+        "text": "We met at the station.",
+        "translation": "Nós nos encontramos na estação.",
+        "phonetic": "/wiː mɛt æt ðə ˈsteɪʃən/"
+      },
+      {
+        "text": "The cat is in the box.",
+        "translation": "O gato está dentro da caixa.",
+        "phonetic": "/ðə kæt ɪz ɪn ðə bɒks/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am in the bus.",
+      "correct": "I am on the bus.",
+      "correct_alt": "I am in a car.",
+      "explanation": "Em português, dizemos 'estou no ônibus' usando 'em' + 'o', então é comum transferir isso para 'in'. No entanto, em inglês, usamos 'on' para meios de transporte em que podemos andar e ficar de pé (ônibus, trem, avião), enquanto 'in' é para carros e táxis, onde você está sentado dentro. Dica: se você pode andar dentro, use 'on'; se você fica sentado e não pode andar, use 'in'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "In for Enclosed Spaces",
+        "translation": "In para espaços fechados",
+        "examples": [
+          {
+            "original": "The milk is in the fridge.",
+            "phonetic": "/ðə mɪlk ɪz ɪn ðə frɪdʒ/",
+            "translation": "O leite está na geladeira.",
+            "note": "Use 'in' para lugares com limites, como caixas, cômodos, ou recipientes."
+          },
+          {
+            "original": "He is in the kitchen.",
+            "phonetic": "/hiː ɪz ɪn ðə ˈkɪtʃən/",
+            "translation": "Ele está na cozinha.",
+            "note": "Para cômodos da casa, sempre use 'in'."
+          },
+          {
+            "original": "They are in Brazil.",
+            "phonetic": "/ðeɪ ɑːr ɪn brəˈzɪl/",
+            "translation": "Eles estão no Brasil.",
+            "note": "Com países e cidades, use 'in'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "On for Surfaces",
+        "translation": "On para superfícies",
+        "examples": [
+          {
+            "original": "The picture is on the wall.",
+            "phonetic": "/ðə ˈpɪktʃər ɪz ɒn ðə wɔːl/",
+            "translation": "A imagem está na parede.",
+            "note": "Use 'on' quando algo está em contato com uma superfície vertical ou horizontal."
+          },
+          {
+            "original": "There is a cup on the desk.",
+            "phonetic": "/ðeər ɪz ə kʌp ɒn ðə dɛsk/",
+            "translation": "Há uma xícara sobre a mesa.",
+            "note": "Para superfícies planas, como mesas, use 'on'."
+          },
+          {
+            "original": "She is on the train.",
+            "phonetic": "/ʃiː ɪz ɒn ðə treɪn/",
+            "translation": "Ela está no trem.",
+            "note": "Para transporte público, use 'on'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "At for Specific Points",
+        "translation": "At para pontos específicos",
+        "examples": [
+          {
+            "original": "I am at the door.",
+            "phonetic": "/aɪ æm æt ðə dɔːr/",
+            "translation": "Eu estou na porta.",
+            "note": "Use 'at' para pontos exatos, como uma porta, uma parada, ou uma esquina."
+          },
+          {
+            "original": "He is at the bus stop.",
+            "phonetic": "/hiː ɪz æt ðə bʌs stɒp/",
+            "translation": "Ele está no ponto de ônibus.",
+            "note": "Para lugares de encontro ou paradas, use 'at'."
+          },
+          {
+            "original": "They are at the cinema.",
+            "phonetic": "/ðeɪ ɑːr æt ðə ˈsɪnəmə/",
+            "translation": "Eles estão no cinema.",
+            "note": "Use 'at' com eventos ou instituições quando se refere ao local como ponto."
+          }
+        ]
+      }
+    ],
+    "emoji": "📍",
+    "phonetic": "",
+    "translations": {
+      "pt": "Preposições básicas de lugar"
+    }
+  },
+  {
+    "id": "pt_A1_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Days, Months and Seasons / Dias, Meses e Estações",
+    "bridge": "Em inglês, os dias da semana, meses e estações do ano são sempre escritos com letra maiúscula, ao contrário do português, onde são escritos em minúscula. Além disso, em inglês usamos a preposição 'on' para dias específicos (ex: on Monday) e 'in' para meses e estações (ex: in July, in winter). Cuidado para não traduzir literalmente 'no verão' como 'in the summer' – em inglês geralmente dizemos apenas 'in summer' sem artigo.",
+    "rule": "Em inglês, os nomes dos dias da semana, meses e estações são substantivos próprios e, por isso, iniciam com letra maiúscula. Os dias da semana são: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Os meses são: January, February, March, April, May, June, July, August, September, October, November, December. As estações são: spring, summer, autumn (fall nos EUA), winter. Para indicar 'em' + dia da semana, use 'on' (ex: on Monday). Para 'em' + mês ou estação, use 'in' (ex: in May, in summer). Não use artigo definido antes de meses e estações, ao contrário do português ('no verão' = in summer, não 'in the summer'). Perguntas comuns: 'What day is it today?' (Que dia é hoje?) e 'What month is it?' (Que mês é?).",
+    "concept_examples": [
+      {
+        "text": "Today is Monday.",
+        "translation": "Hoje é segunda-feira.",
+        "phonetic": "/təˈdeɪ ɪz ˈmʌndeɪ/"
+      },
+      {
+        "text": "My birthday is in July.",
+        "translation": "Meu aniversário é em julho.",
+        "phonetic": "/maɪ ˈbɜːrθdeɪ ɪz ɪn dʒuˈlaɪ/"
+      },
+      {
+        "text": "We go to the beach in summer.",
+        "translation": "Nós vamos à praia no verão.",
+        "phonetic": "/wiː ɡoʊ tə ðə biːtʃ ɪn ˈsʌmər/"
+      },
+      {
+        "text": "I have English class on Wednesday.",
+        "translation": "Eu tenho aula de inglês na quarta-feira.",
+        "phonetic": "/aɪ hæv ˈɪŋɡlɪʃ klæs ɒn ˈwenzdeɪ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I go to the beach in the summer. (usando artigo 'the')",
+      "correct": "I go to the beach in summer.",
+      "correct_alt": "I go to the beach in the summertime.",
+      "explanation": "Em português, dizemos 'no verão', com artigo definido. Em inglês, quando falamos de estações do ano de forma geral, não usamos 'the'. Então, evite 'in the summer' e use apenas 'in summer'. Se quiser usar artigo, é possível com 'in the summertime', mas é mais informal e menos comum."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Days of the Week",
+        "translation": "Dias da Semana",
+        "examples": [
+          {
+            "original": "Monday",
+            "phonetic": "/ˈmʌndeɪ/",
+            "translation": "segunda-feira",
+            "note": "Repare que em inglês os dias começam com letra maiúscula. 'Monday' é usado com 'on' para indicar dia específico: 'on Monday'."
+          },
+          {
+            "original": "Friday",
+            "phonetic": "/ˈfraɪdeɪ/",
+            "translation": "sexta-feira",
+            "note": "Lembre-se: 'Friday' é o dia antes do fim de semana. Em português, 'sexta-feira'."
+          },
+          {
+            "original": "Today is Sunday.",
+            "phonetic": "/təˈdeɪ ɪz ˈsʌndeɪ/",
+            "translation": "Hoje é domingo.",
+            "note": "Use 'today' para falar do dia atual. Em português, usamos 'hoje é', em inglês 'today is'."
+          },
+          {
+            "original": "I work on Tuesday.",
+            "phonetic": "/aɪ wɜːrk ɒn ˈtjuːzdeɪ/",
+            "translation": "Eu trabalho na terça-feira.",
+            "note": "Com dias da semana, use a preposição 'on'. Não diga 'in Tuesday'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Months of the Year",
+        "translation": "Meses do Ano",
+        "examples": [
+          {
+            "original": "January",
+            "phonetic": "/ˈdʒænjuəri/",
+            "translation": "janeiro",
+            "note": "Atenção à pronúncia: o 'J' em inglês tem som de /dʒ/ (como 'j' em 'job')."
+          },
+          {
+            "original": "May",
+            "phonetic": "/meɪ/",
+            "translation": "maio",
+            "note": "Meses em inglês também são escritos com maiúscula. 'May' é curto, mas não esqueça da capitalização."
+          },
+          {
+            "original": "My birthday is in December.",
+            "phonetic": "/maɪ ˈbɜːrθdeɪ ɪz ɪn dɪˈsembər/",
+            "translation": "Meu aniversário é em dezembro.",
+            "note": "Com meses, a preposição correta é 'in'. Em português, dizemos 'em dezembro', em inglês 'in December'."
+          },
+          {
+            "original": "What month is it?",
+            "phonetic": "/wɒt mʌnθ ɪz ɪt/",
+            "translation": "Que mês é?",
+            "note": "Pergunta comum para saber o mês atual. 'Month' é cognato do português 'mês'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Seasons",
+        "translation": "Estações do Ano",
+        "examples": [
+          {
+            "original": "Spring",
+            "phonetic": "/sprɪŋ/",
+            "translation": "primavera",
+            "note": "A estação 'spring' vem depois do inverno. Cuidado com a pronúncia do /sp/ inicial."
+          },
+          {
+            "original": "Summer",
+            "phonetic": "/ˈsʌmər/",
+            "translation": "verão",
+            "note": "Em inglês, dizemos 'in summer' (no verão) e não 'in the summer'. Exceção: quando se refere a um verão específico, pode-se usar 'the'."
+          },
+          {
+            "original": "Autumn",
+            "phonetic": "/ˈɔːtəm/",
+            "translation": "outono",
+            "note": "No inglês britânico, 'autumn'; no americano, 'fall'. Em ambos, use 'in'."
+          },
+          {
+            "original": "Winter",
+            "phonetic": "/ˈwɪntər/",
+            "translation": "inverno",
+            "note": "Lembre-se: em inglês, estações do ano podem ser escritas com minúscula ou maiúscula, mas a forma mais comum é com minúscula (ex: winter)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "pt": "Dias, meses e estações"
+    }
+  },
+  {
+    "id": "pt_A1_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verb to have / Verbo ter (equivalente)",
+    "bridge": "Em português, usamos o verbo 'ter' para posse, idade, e também em expressões como 'ter fome' ou 'ter medo'. Em inglês, o verbo 'to have' cobre posse e idade, mas para expressões de sensações (fome, sede, medo) usamos 'to be' + adjetivo (ex: 'I am hungry', não 'I have hunger'). Além disso, a forma negativa e interrogativa no presente simples usa o auxiliar 'do/does', o que não existe em português.",
+    "rule": "O verbo 'to have' significa 'ter' em português. No presente simples (simple present), a forma é: I have, you have, he/she/it has, we have, they have. Para negativas, usamos 'do not' (don't) ou 'does not' (doesn't) antes da forma base: I don't have, he doesn't have. Para perguntas, usamos 'Do' ou 'Does' no início: Do you have...? Does she have...? Nas respostas curtas: Yes, I do / No, I don't. Para idade, em inglês dizemos 'I am 20 years old' (não 'I have 20 years'). Em expressões como 'ter fome', 'ter sede', 'ter sono', usamos 'to be': I am hungry, I am thirsty, I am sleepy. Já para relações de família e posse, usamos 'to have': I have a brother, I have a car.",
+    "concept_examples": [
+      {
+        "text": "I have a book.",
+        "translation": "Eu tenho um livro.",
+        "phonetic": "/aɪ hæv ə bʊk/"
+      },
+      {
+        "text": "She has two sisters.",
+        "translation": "Ela tem duas irmãs.",
+        "phonetic": "/ʃiː hæz tuː ˈsɪstərz/"
+      },
+      {
+        "text": "Do you have a car?",
+        "translation": "Você tem um carro?",
+        "phonetic": "/duː juː hæv ə kɑːr/"
+      },
+      {
+        "text": "I am hungry.",
+        "translation": "Eu tenho fome.",
+        "phonetic": "/aɪ æm ˈhʌŋɡri/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I have 25 years old.",
+      "correct": "I am 25 years old.",
+      "correct_alt": "I am 25.",
+      "explanation": "Em português, dizemos 'eu tenho 25 anos', mas em inglês a idade é expressa com o verbo 'to be' (ser/estar). O erro acontece porque os alunos transferem a estrutura do português diretamente para o inglês. Para evitar, lembre-se: idade em inglês sempre com 'am/is/are'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Affirmative and Negative Forms",
+        "translation": "Formas afirmativa e negativa",
+        "examples": [
+          {
+            "original": "I have a cat.",
+            "phonetic": "/aɪ hæv ə kæt/",
+            "translation": "Eu tenho um gato.",
+            "note": "Afirmativa com 'have' para I, you, we, they."
+          },
+          {
+            "original": "He has a dog.",
+            "phonetic": "/hiː hæz ə dɔːɡ/",
+            "translation": "Ele tem um cachorro.",
+            "note": "Para he, she, it, usamos 'has'."
+          },
+          {
+            "original": "I don't have a car.",
+            "phonetic": "/aɪ doʊnt hæv ə kɑːr/",
+            "translation": "Eu não tenho um carro.",
+            "note": "Negativa com 'don't' + forma base 'have'."
+          },
+          {
+            "original": "She doesn't have a job.",
+            "phonetic": "/ʃiː ˈdʌzənt hæv ə dʒɑːb/",
+            "translation": "Ela não tem um emprego.",
+            "note": "Negativa com 'doesn't' + 'have' (sem 's')."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Interrogative Forms",
+        "translation": "Formas interrogativas",
+        "examples": [
+          {
+            "original": "Do you have a brother?",
+            "phonetic": "/duː juː hæv ə ˈbrʌðər/",
+            "translation": "Você tem um irmão?",
+            "note": "Pergunta com 'Do' + sujeito + 'have'."
+          },
+          {
+            "original": "Does she have a car?",
+            "phonetic": "/dʌz ʃiː hæv ə kɑːr/",
+            "translation": "Ela tem um carro?",
+            "note": "Com he/she/it, usamos 'Does' e depois 'have' (sem 's')."
+          },
+          {
+            "original": "Yes, I do.",
+            "phonetic": "/jes aɪ duː/",
+            "translation": "Sim, eu tenho.",
+            "note": "Resposta curta afirmativa com 'do'."
+          },
+          {
+            "original": "No, I don't.",
+            "phonetic": "/noʊ aɪ doʊnt/",
+            "translation": "Não, eu não tenho.",
+            "note": "Resposta curta negativa com 'don't'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Using 'to be' for Age and Feelings",
+        "translation": "Usando 'to be' para idade e sensações",
+        "examples": [
+          {
+            "original": "I am thirsty.",
+            "phonetic": "/aɪ æm ˈθɜːrstɪ/",
+            "translation": "Eu tenho sede.",
+            "note": "Em inglês, sede é expressa com 'to be' + adjetivo."
+          },
+          {
+            "original": "They are afraid.",
+            "phonetic": "/ðeɪ ɑːr əˈfreɪd/",
+            "translation": "Eles têm medo.",
+            "note": "Medo também usa 'to be'."
+          },
+          {
+            "original": "She is 20 years old.",
+            "phonetic": "/ʃiː ɪz ˈtwɛnti jɪrz oʊld/",
+            "translation": "Ela tem 20 anos.",
+            "note": "Idade com 'to be' + número + 'years old'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📦",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbo ter (equivalente)"
+    }
+  },
+  {
+    "id": "pt_A1_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verb: Can / Verbo: Poder (modal básico)",
+    "bridge": "Em inglês, o verbo 'can' é usado para expressar habilidade, permissão e possibilidade. Diferente do português, 'can' não varia com a pessoa (I can, you can, he can) e é sempre seguido de verbo no infinitivo sem 'to'. Cuidado para não conjugar 'can' como um verbo regular (ex: 'cans') e lembre-se de que a negativa e a pergunta não usam 'do/does'.",
+    "rule": "Usamos 'can' para: 1) habilidade (I can swim); 2) permissão (Can I go?); 3) possibilidade (It can rain). Estrutura: Sujeito + can + verbo base. Negativa: can + not = cannot / can't. Interrogativa: Can + sujeito + verbo? 'Can' é invariável (não muda para he/she/it) e não usa 'do' para perguntas ou negativas. Exceção: não existe 'to can' nem 'canned'.",
+    "concept_examples": [
+      {
+        "text": "I can speak English.",
+        "translation": "Eu posso falar inglês.",
+        "phonetic": "/aɪ kæn spiːk ˈɪŋɡlɪʃ/"
+      },
+      {
+        "text": "She can't drive a car.",
+        "translation": "Ela não sabe dirigir um carro.",
+        "phonetic": "/ʃiː kænt draɪv ə kɑːr/"
+      },
+      {
+        "text": "Can you help me?",
+        "translation": "Você pode me ajudar?",
+        "phonetic": "/kæn juː help miː/"
+      }
+    ],
+    "common_error": {
+      "wrong": "He can to swim.",
+      "correct": "He can swim.",
+      "correct_alt": "He can swim well.",
+      "explanation": "Em português, dizemos 'ele pode nadar', com a preposição 'a' ou não. Em inglês, após 'can' usamos o verbo no infinitivo SEM 'to'. É um erro comum de transferência do português 'poder + infinitivo'. Lembre-se: can + verbo base."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ability / Habilidade",
+        "translation": "Habilidade",
+        "examples": [
+          {
+            "original": "I can swim.",
+            "phonetic": "/aɪ kæn swɪm/",
+            "translation": "Eu sei nadar.",
+            "note": "Usamos 'can' para dizer que sabemos fazer algo. Aqui, 'sei' no português equivale a 'poder' + verbo."
+          },
+          {
+            "original": "She can play the guitar.",
+            "phonetic": "/ʃiː kæn pleɪ ðə ɡɪˈtɑːr/",
+            "translation": "Ela sabe tocar violão.",
+            "note": "Note que 'can' não muda para 'she' – diferente do português 'ela pode/sabe'."
+          },
+          {
+            "original": "They can't cook.",
+            "phonetic": "/ðeɪ kænt kʊk/",
+            "translation": "Eles não sabem cozinhar.",
+            "note": "A negativa pode ser 'can't' (contração de 'cannot')."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Permission / Per missão",
+        "translation": "Permissão",
+        "examples": [
+          {
+            "original": "Can I come in?",
+            "phonetic": "/kæn aɪ kʌm ɪn/",
+            "translation": "Posso entrar?",
+            "note": "Para pedir permissão, invertemos a ordem: Can + sujeito + verbo."
+          },
+          {
+            "original": "You can sit here.",
+            "phonetic": "/juː kæn sɪt hɪər/",
+            "translation": "Você pode sentar aqui.",
+            "note": "Usado para dar permissão de forma simples e educada."
+          },
+          {
+            "original": "You can't park here.",
+            "phonetic": "/juː kænt pɑːrk hɪər/",
+            "translation": "Você não pode estacionar aqui.",
+            "note": "Negativa para proibição – equivalente a 'não pode'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Possibility / Possibilidade",
+        "translation": "Possibilidade",
+        "examples": [
+          {
+            "original": "It can rain tomorrow.",
+            "phonetic": "/ɪt kæn reɪn təˈmɒroʊ/",
+            "translation": "Pode chover amanhã.",
+            "note": "Aqui, 'can' expressa possibilidade, similar ao 'pode' no português."
+          },
+          {
+            "original": "He can be at home.",
+            "phonetic": "/hiː kæn biː æt hoʊm/",
+            "translation": "Ele pode estar em casa.",
+            "note": "Possibilidade sobre localização atual. Cuidado com o verbo 'be' após 'can'."
+          },
+          {
+            "original": "The weather can change quickly.",
+            "phonetic": "/ðə ˈweðər kæn tʃeɪndʒ ˈkwɪkli/",
+            "translation": "O tempo pode mudar rapidamente.",
+            "note": "Possibilidade geral – não usamos 'to' após 'can'."
+          }
+        ]
+      }
+    ],
+    "emoji": "💪",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verb can / Poder (verbo modal básico)"
+    }
+  },
+  {
+    "id": "pt_A1_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Basic Irregular Verbs: go, come, do, make / Verbos Irregulares Básicos: go, come, do, make",
+    "bridge": "Em inglês, alguns verbos muito comuns não seguem a regra de adicionar -ed para formar o passado. Enquanto em português muitos verbos são irregulares também, como 'ir' (fui) e 'fazer' (fiz), a diferença é que em inglês esses verbos mudam completamente e não têm marca de pessoa (ex: I went, she went). Você já sabe que 'go' vira 'went' e 'come' vira 'came' — mas cuidado: 'do' vira 'did' e 'make' vira 'made'. Um erro típico é usar 'goed' ou 'commed', influenciado pela regra regular do -ed. Preste atenção também à diferença entre 'do' (fazer, em sentido geral) e 'make' (fazer, produzir algo), que não existe em português.",
+    "rule": "**Passado Simples (Past Simple) dos verbos irregulares:**\n- **go → went** (ir): I go to school. / I went to school.\n- **come → came** (vir): She comes here. / She came here.\n- **do → did** (fazer, em geral): They do their homework. / They did their homework.\n- **make → made** (fazer, produzir): He makes a cake. / He made a cake.\n\n**Forma negativa e interrogativa:** No passado, usamos 'did' como auxiliar e o verbo volta à forma base (sem -ed).\n- Negativa: did + not (didn't) + verbo base: I didn't go.\n- Interrogativa: Did + sujeito + verbo base? Did you come?\n\n**Forma do particípio passado:** Para tempos compostos (present perfect), esses verbos também têm formas próprias: gone, come, done, made. (Ex: I have gone.)\n\n**Uso de 'do' vs. 'make':**\n- **Do** para atividades gerais, tarefas, trabalhos (do homework, do the dishes, do business).\n- **Make** para criar, produzir, cozinhar, causar (make a cake, make a decision, make noise).\n\n**Atenção:** Em português, 'fazer' cobre ambos os casos, então é necessário memorizar as combinações comuns. Para A1, foque nos usos mais básicos.",
+    "concept_examples": [
+      {
+        "text": "I go to school every day.",
+        "translation": "Eu vou para a escola todos os dias.",
+        "phonetic": "/aɪ ɡoʊ tə skuːl ˈɛvri deɪ/"
+      },
+      {
+        "text": "She came to my party yesterday.",
+        "translation": "Ela veio à minha festa ontem.",
+        "phonetic": "/ʃiː keɪm tə maɪ ˈpɑːrti ˈjɛstərdeɪ/"
+      },
+      {
+        "text": "He did his homework last night.",
+        "translation": "Ele fez o dever de casa ontem à noite.",
+        "phonetic": "/hiː dɪd hɪz ˈhoʊmwɜːrk læst naɪt/"
+      },
+      {
+        "text": "We made a cake for her birthday.",
+        "translation": "Nós fizemos um bolo para o aniversário dela.",
+        "phonetic": "/wiː meɪd ə keɪk fər hɜːr ˈbɜːrθdeɪ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I goed to the store yesterday.",
+      "correct": "I went to the store yesterday.",
+      "correct_alt": "I did go to the store yesterday. (para ênfase)",
+      "explanation": "O erro acontece porque o aluno aplica a regra regular do passado (-ed) a um verbo irregular. Em português, também dizemos 'eu fui' e não 'eu ir + ed'. Para evitar, memorize as formas irregulares e pratique com frases. Lembre-se: 'go' tem passado 'went' e não 'goed'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Go and Come in Present and Past",
+        "translation": "Go e Come no Presente e no Passado",
+        "examples": [
+          {
+            "original": "I go to work by bus.",
+            "phonetic": "/aɪ ɡoʊ tə wɜːrk baɪ bʌs/",
+            "translation": "Eu vou para o trabalho de ônibus.",
+            "note": "Presente: 'go' é usado com sujeitos I, you, we, they. Para he/she/it, usamos 'goes'."
+          },
+          {
+            "original": "She goes to the gym every morning.",
+            "phonetic": "/ʃiː ɡoʊz tə ðə dʒɪm ˈɛvri ˈmɔːrnɪŋ/",
+            "translation": "Ela vai para a academia toda manhã.",
+            "note": "Lembre-se da terceira pessoa: 'he/she/it' + goes. Não é 'she go'."
+          },
+          {
+            "original": "We came home late yesterday.",
+            "phonetic": "/wiː keɪm hoʊm leɪt ˈjɛstərdeɪ/",
+            "translation": "Nós chegamos em casa tarde ontem.",
+            "note": "Passado de 'come' é 'came'. A pronúncia é /keɪm/, não 'com'."
+          },
+          {
+            "original": "Did you come to the meeting?",
+            "phonetic": "/dɪd juː kʌm tə ðə ˈmiːtɪŋ/",
+            "translation": "Você veio para a reunião?",
+            "note": "Na pergunta, usamos 'did' + forma base 'come', não 'came'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Do and Make: Basic Uses",
+        "translation": "Do e Make: Usos Básicos",
+        "examples": [
+          {
+            "original": "I do my homework every evening.",
+            "phonetic": "/aɪ duː maɪ ˈhoʊmwɜːrk ˈɛvri ˈiːvnɪŋ/",
+            "translation": "Eu faço meu dever de casa toda noite.",
+            "note": "'do' é usado para tarefas e atividades gerais."
+          },
+          {
+            "original": "She makes breakfast for her children.",
+            "phonetic": "/ʃiː meɪks ˈbrɛkfəst fər hɜːr ˈtʃɪldrən/",
+            "translation": "Ela faz café da manhã para seus filhos.",
+            "note": "'make' é usado para criar ou preparar algo, como comida."
+          },
+          {
+            "original": "He did the dishes after dinner.",
+            "phonetic": "/hiː dɪd ðə ˈdɪʃɪz ˈæftər ˈdɪnər/",
+            "translation": "Ele lavou a louça depois do jantar.",
+            "note": "Passado de 'do' é 'did'. Aqui, 'did the dishes' = lavar pratos."
+          },
+          {
+            "original": "They made a lot of noise last night.",
+            "phonetic": "/ðeɪ meɪd ə lɑːt əv nɔɪz læst naɪt/",
+            "translation": "Eles fizeram muito barulho ontem à noite.",
+            "note": "'make noise' é uma expressão fixa. Não diga 'do noise'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Past Negative and Questions",
+        "translation": "Negativas e Perguntas no Passado",
+        "examples": [
+          {
+            "original": "I didn't go to the party.",
+            "phonetic": "/aɪ ˈdɪdnt ɡoʊ tə ðə ˈpɑːrti/",
+            "translation": "Eu não fui à festa.",
+            "note": "Negativa: 'didn't' + forma base 'go', não 'didn't went'."
+          },
+          {
+            "original": "She didn't come to class today.",
+            "phonetic": "/ʃiː ˈdɪdnt kʌm tə klæs təˈdeɪ/",
+            "translation": "Ela não veio para a aula hoje.",
+            "note": "Após 'didn't', o verbo volta ao infinitivo sem 'to'."
+          },
+          {
+            "original": "Did you do your homework?",
+            "phonetic": "/dɪd juː duː jɔːr ˈhoʊmwɜːrk/",
+            "translation": "Você fez seu dever de casa?",
+            "note": "Pergunta: 'Did' + sujeito + verbo base. Aqui, 'do' não muda."
+          },
+          {
+            "original": "What did she make for lunch?",
+            "phonetic": "/wʌt dɪd ʃiː meɪk fər lʌntʃ/",
+            "translation": "O que ela fez para o almoço?",
+            "note": "Em perguntas com 'what', use 'did' + verbo base 'make'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbos Irregulares Básicos: go, come, do, make"
+    }
+  },
+  {
+    "id": "pt_A1_gram_18",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Telling the time / Dizendo as horas",
+    "bridge": "Em inglês, para dizer as horas, usamos 'It's' + hora + minutos, e a estrutura é bem diferente do português. Você não precisa de 'são' ou 'é' como no português; apenas 'It's' cobre tudo. Além disso, para os minutos até 30, usamos 'past' (passado) e para depois de 30, usamos 'to' (para), algo que não existe no português. Também, o relógio de 12 horas é padrão, e para indicar manhã/tarde usamos 'a.m.' e 'p.m.' ou frases como 'in the morning'.",
+    "rule": "Para dizer a hora em inglês:\n- Use 'It's' + hora + minutos (ex: 'It's three twenty').\n- Para os minutos de 1 a 30, use 'past': 'It's ten past three' (3:10).\n- Para os minutos de 31 a 59, use 'to' (faltam minutos para a próxima hora): 'It's twenty to four' (3:40).\n- Para os minutos 15 e 30, use 'quarter' e 'half': 'quarter past' (15 minutos depois), 'half past' (30 minutos depois), 'quarter to' (15 minutos para a próxima hora).\n- Para horas exatas, diga 'o'clock': 'It's five o'clock'.\n- Use 'a.m.' para antes do meio-dia e 'p.m.' para depois do meio-dia, ou acrescente 'in the morning', 'in the afternoon', 'in the evening'.",
+    "concept_examples": [
+      {
+        "text": "It's three o'clock.",
+        "translation": "São três horas.",
+        "phonetic": "/ɪts θriː əˈklɒk/"
+      },
+      {
+        "text": "It's ten past three.",
+        "translation": "São três e dez (3:10).",
+        "phonetic": "/ɪts ten pɑːst θriː/"
+      },
+      {
+        "text": "It's quarter to five.",
+        "translation": "São quinze para as cinco (4:45).",
+        "phonetic": "/ɪts ˈkwɔːrtər tə faɪv/"
+      },
+      {
+        "text": "It's half past seven.",
+        "translation": "São sete e meia (7:30).",
+        "phonetic": "/ɪts hæf pɑːst ˈsevən/"
+      }
+    ],
+    "common_error": {
+      "wrong": "It's three and ten.",
+      "correct": "It's ten past three.",
+      "correct_alt": "It's three ten.",
+      "explanation": "Em português, dizemos 'três e dez', mas em inglês, para minutos até 30, usamos 'past' (ou simplesmente dizemos os números, 'three ten'). Evite traduzir diretamente 'e' como 'and'.",
+      "phonetic": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Hours and o'clock",
+        "translation": "Horas e o'clock",
+        "examples": [
+          {
+            "original": "What time is it?",
+            "phonetic": "/wɒt taɪm ɪz ɪt/",
+            "translation": "Que horas são?",
+            "note": "Pergunta básica para perguntar as horas."
+          },
+          {
+            "original": "It's one o'clock.",
+            "phonetic": "/ɪts wʌn əˈklɒk/",
+            "translation": "É uma hora.",
+            "note": "Lembre-se: 'It's' é usado para todas as horas, diferente do português 'É' vs 'São'."
+          },
+          {
+            "original": "It's two o'clock.",
+            "phonetic": "/ɪts tuː əˈklɒk/",
+            "translation": "São duas horas.",
+            "note": "Note que em inglês não há plural para horas."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Minutes past the hour",
+        "translation": "Minutos depois da hora",
+        "examples": [
+          {
+            "original": "It's five past two.",
+            "phonetic": "/ɪts faɪv pɑːst tuː/",
+            "translation": "São duas e cinco.",
+            "note": "Use 'past' para minutos até 30."
+          },
+          {
+            "original": "It's ten past three.",
+            "phonetic": "/ɪts ten pɑːst θriː/",
+            "translation": "São três e dez.",
+            "note": "A ordem é minutos + 'past' + hora."
+          },
+          {
+            "original": "It's a quarter past four.",
+            "phonetic": "/ɪts ə ˈkwɔːrtər pɑːst fɔːr/",
+            "translation": "São quatro e quinze.",
+            "note": "'A quarter' significa 15 minutos."
+          },
+          {
+            "original": "It's half past five.",
+            "phonetic": "/ɪts hæf pɑːst faɪv/",
+            "translation": "São cinco e trinta.",
+            "note": "'Half past' significa 30 minutos."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Minutes to the hour",
+        "translation": "Minutos para a próxima hora",
+        "examples": [
+          {
+            "original": "It's twenty to four.",
+            "phonetic": "/ɪts ˈtwenti tə fɔːr/",
+            "translation": "São vinte para as quatro (3:40).",
+            "note": "Use 'to' quando faltam minutos para a próxima hora."
+          },
+          {
+            "original": "It's a quarter to six.",
+            "phonetic": "/ɪts ə ˈkwɔːrtər tə sɪks/",
+            "translation": "São quinze para as seis (5:45).",
+            "note": "'A quarter to' = 15 minutos antes da próxima hora."
+          },
+          {
+            "original": "It's five to nine.",
+            "phonetic": "/ɪts faɪv tə naɪn/",
+            "translation": "São cinco para as nove (8:55).",
+            "note": "Com 'to', a hora seguinte é considerada."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕐",
+    "phonetic": "",
+    "translations": {
+      "pt": "Dizendo as horas"
+    }
   }
 ]

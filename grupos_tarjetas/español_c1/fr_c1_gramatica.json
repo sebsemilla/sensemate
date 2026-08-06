@@ -1,0 +1,1206 @@
+[
+  {
+    "id": "fr_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Oraciones de relativo con doble antecedente / Propositions relatives à double antécédent",
+    "bridge": "En français, le pronom relatif est souvent unique et le verbe s'accorde avec l'antécédent. En espagnol, lorsque le relatif (que, quien, el cual) fait référence à deux antécédents de genres différents, le verbe s'accorde au masculin pluriel. De plus, l'espagnol utilise fréquemment le subjonctif dans les relatives à antécédent indéfini ou négatif, ce qui est moins courant en français. Attention à ne pas transférer le 'dont' français : en espagnol, on utilise 'cuyo' pour la possession, mais 'de que' ou 'del que' pour d'autres compléments.",
+    "rule": "En espagnol, quand une proposition relative a un double antécédent (deux noms ou pronoms), le verbe s'accorde au masculin pluriel si les genres diffèrent. Exemples : 'el libro y la película que me gustaron' (le livre et le film qui m'ont plu). Pour les antécédents indéfinis (nadie, algo, alguien) ou négatifs, on emploie l'indicatif ou le subjonctif selon que l'existence est confirmée ou non : 'No hay nadie que sepa la respuesta' (subjonctif) vs 'Hay alguien que sabe la respuesta' (indicatif). 'Cuyo' s'accorde en genre et en nombre avec le nom possédé, pas avec le possesseur. Les relatives complexes avec préposition + relatif (el cual, la cual, los cuales, las cuales) sont courantes à l'écrit : 'el motivo por el cual renunció'.",
+    "concept_examples": [
+      {
+        "text": "El profesor y la estudiante que ganaron el premio son excelentes.",
+        "translation": "Le professeur et l'étudiante qui ont gagné le prix sont excellents.",
+        "phonetic": "/el pɾoˈfesoɾ i la estuˈdjante ke ɡaˈnaɾon el ˈpɾemjo son ekselenˈtes/"
+      },
+      {
+        "text": "No conozco a nadie que tenga tanta paciencia.",
+        "translation": "Je ne connais personne qui ait autant de patience.",
+        "phonetic": "/no koˈnosko a ˈnaðje ke ˈteŋɡa ˈtanta paˈθjenθja/"
+      },
+      {
+        "text": "La casa cuyo tejado es rojo pertenece a mi abuela.",
+        "translation": "La maison dont le toit est rouge appartient à ma grand-mère.",
+        "phonetic": "/la ˈkasa ˈkujo teˈxaðo es ˈroxo peɾteˈneθe a mi aˈβwela/"
+      },
+      {
+        "text": "El motivo por el cual dimitió sigue siendo desconocido.",
+        "translation": "Le motif pour lequel il a démissionné reste inconnu.",
+        "phonetic": "/el moˈtiβo poɾ el ˈkwal dimiˈtjo ˈsiɣe ˈsjendo deskoˈnoθiðo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "El libro y la película que me gustó son muy buenos.",
+      "correct": "El libro y la película que me gustaron son muy buenos.",
+      "correct_alt": "",
+      "explanation": "En français, on dirait 'le livre et le film qui m'a plu' avec un accord au singulier (car le verbe s'accorde avec le premier élément ou reste au singulier dans certains cas). En espagnol, le verbe s'accorde toujours au pluriel avec un antécédent double, et si les genres sont mixtes, on utilise le masculin pluriel. Il faut donc utiliser 'gustaron' et non 'gustó'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Relativas con antecedente doble",
+        "translation": "Relatives à double antécédent",
+        "examples": [
+          {
+            "original": "Mi hermano y su amiga que viajaron a Japón nos trajeron recuerdos.",
+            "phonetic": "/mi eɾˈmano i su aˈmiɣa ke βjaˈxaɾon a xaˈpon nos tɾaˈxeɾon reˈkweɾðos/",
+            "translation": "Mon frère et son amie qui ont voyagé au Japon nous ont apporté des souvenirs.",
+            "note": "L'accord du verbe 'viajaron' est au masculin pluriel car l'antécédent est mixte."
+          },
+          {
+            "original": "Las flores y el jarrón que compré en el mercado son preciosos.",
+            "phonetic": "/las ˈfloɾes i el xaˈron ke komˈpɾe en el meɾˈkaðo son pɾeˈθjosos/",
+            "translation": "Les fleurs et le vase que j'ai achetés au marché sont magnifiques.",
+            "note": "L'adjectif 'preciosos' est au masculin pluriel pour un ensemble mixtes."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Relativas con antecedente indefinido y subjuntivo",
+        "translation": "Relatives à antécédent indéfini et subjonctif",
+        "examples": [
+          {
+            "original": "Busco algo que me inspire a escribir mejor.",
+            "phonetic": "/ˈbusko ˈalɣo ke me insˈpiɾe a eskɾiˈβiɾ meˈxoɾ/",
+            "translation": "Je cherche quelque chose qui m'inspire à mieux écrire.",
+            "note": "Le subjonctif 'inspire' est utilisé car l'antécédent est indéfini et l'existence n'est pas certaine."
+          },
+          {
+            "original": "¿Conoces a alguien que hable japonés?",
+            "phonetic": "/koˈnoθes a alˈɣjen ke ˈaβle xapoˈnes/",
+            "translation": "Connais-tu quelqu'un qui parle japonais ?",
+            "note": "Question sur l'existence : subjonctif 'hable'."
+          },
+          {
+            "original": "No hay nada que pueda hacerlo.",
+            "phonetic": "/no ai ˈnaða ke ˈpweða aθeɾlo/",
+            "translation": "Il n'y a rien que je puisse faire.",
+            "note": "Avec la négation, on emploie le subjonctif 'pueda'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Uso de 'cuyo' y relativas con preposición",
+        "translation": "Usage de 'cuyo' et relatives avec préposition",
+        "examples": [
+          {
+            "original": "El escritor cuyas novelas leí anoche es muy famoso.",
+            "phonetic": "/el eskɾiˈtoɾ ˈkuʝas noˈβelas leˈi aˈnotʃe es muj faˈmoso/",
+            "translation": "L'écrivain dont j'ai lu les romans hier soir est très célèbre.",
+            "note": "'cuyas' s'accorde avec 'novelas' (féminin pluriel), pas avec 'escritor'."
+          },
+          {
+            "original": "La razón por la cual no asistí fue una emergencia.",
+            "phonetic": "/la raˈθon poɾ la ˈkwal no asisˈti fwe ˈuna emeɾˈxenθja/",
+            "translation": "La raison pour laquelle je n'ai pas assisté fut une urgence.",
+            "note": "Avec préposition + relatif, on utilise 'la cual' après 'por'."
+          },
+          {
+            "original": "El tema del que hablamos ayer es complicado.",
+            "phonetic": "/el ˈtema del ke aˈβlamos aˈʝeɾ es kompliˈkaðo/",
+            "translation": "Le sujet dont nous avons parlé hier est compliqué.",
+            "note": "On utilise 'del que' et non 'cuyo' pour exprimer 'dont' quand il s'agit d'un complément de verbe, pas de possession."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕸️",
+    "phonetic": "",
+    "translations": {
+      "fr": "Syntaxe avancée et structures complexes"
+    }
+  },
+  {
+    "id": "fr_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Registro, estilo formal, informal y neutro",
+    "bridge": "En français, le registre formel et informel se distingue souvent par le choix du pronom (vous/tu) et par la conjugaison. En espagnol, la distinction est plus nuancée : le tú/usted affecte non seulement la forme verbale mais aussi les pronoms compléments et les possessifs. De plus, l'espagnol a un registre neutre (utilisé dans les médias) qui évite les formes dialectales et choisit un vocabulaire standard. Attention aux faux amis : 'eventualmente' en espagnol signifie 'le cas échéant', pas 'éventuellement' !",
+    "rule": "En espagnol, le registre dépend du locuteur et de la situation. Le tutoiement (tú) est informel, le vouvoiement (usted) est formel avec ses conjugaisons spécifiques (3e personne). Le registre neutre utilise le vocabulaire standard, évite les tournures trop familières ou argotiques, et préfère des constructions impersonnelles (se + 3e personne). Pour C1, il faut maîtriser les nuances : le subjonctif est plus fréquent en espagnol dans les expressions de politesse (¿Quisiera que me ayudara?). Les formules de politesse varient : 'Le agradezco' (formel) vs 'Te agradezco' (informel). Évitez les anglicismes et les calques du français : 'réaliser' = 'darse cuenta', pas 'realizar'. Aussi, l'emploi de conditionnel pour la politesse ('¿Podría usted...?') est équivalent au français, mais l'impératif de politesse est souvent remplacé par des formules avec 'tener la bondad de', 'hacer el favor de'.",
+    "concept_examples": [
+      {
+        "text": "Me gustaría solicitar la renovación de mi pasaporte.",
+        "translation": "Je voudrais demander le renouvellement de mon passeport.",
+        "phonetic": "me ɡustaˈɾia solisiˈtaɾ la renobaˈθjon de mi pasaˈpoɾte"
+      },
+      {
+        "text": "Oye, ¿me echas un cable con esto?",
+        "translation": "Dis, tu me donnes un coup de main avec ça ?",
+        "phonetic": "ˈoʝe me ˈeʧas un ˈkable kon ˈesto"
+      },
+      {
+        "text": "Se ruega a los señores pasajeros que permanezcan sentados.",
+        "translation": "Il est prié aux messieurs passagers de rester assis.",
+        "phonetic": "se ˈrweɣa a los ˈseɲores pasaˈxeɾos ke peɾmaˈneskan senˈtaðos"
+      },
+      {
+        "text": "Es un placer dirigirme a usted para informarle de nuestra decisión.",
+        "translation": "C'est un plaisir de m'adresser à vous pour vous informer de notre décision.",
+        "phonetic": "es un plaˈθeɾ diɾiˈxiɾme a usˈteð paɾa infoɾˈmaɾle de ˈnwestɾa deθiˈsjon"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quiero preguntar si usted me puede ayudar con este problema.",
+      "correct": "Quisiera preguntar si usted podría ayudarme con este problema.",
+      "correct_alt": "Me gustaría preguntar si usted pudiera ayudarme con este problema.",
+      "explanation": "L'erreur vient de l'utilisation de l'indicatif présent 'quiero' et 'puede' qui donne un ton sec et autoritaire en espagnol. Pour adoucir la demande, le conditionnel ou l'imparfait du subjonctif sont plus polis. En français, on utiliserait aussi le conditionnel 'je voudrais' ; l'équivalent espagnol est 'quisiera' ou 'me gustaría'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formas de tratamiento (tú/usted)",
+        "translation": "Formes de tutoiement/vouvoiement",
+        "examples": [
+          {
+            "original": "¿Tú tienes la documentación?",
+            "phonetic": "ˈtu ˈtjenes la dokumentaˈθjon",
+            "translation": "Tu as la documentation ?",
+            "note": "Le tutoiement est courant en Espagne, même dans les situations semi-formelles."
+          },
+          {
+            "original": "¿Usted tiene la documentación?",
+            "phonetic": "ˈusteð ˈtjene la dokumentaˈθjon",
+            "translation": "Vous avez la documentation ?",
+            "note": "Le vouvoiement utilise la 3e personne du singulier. Attention à la concordance des pronoms compléments : '¿Le puedo ayudar?' (à vous)."
+          },
+          {
+            "original": "¿Vosotros sois de España?",
+            "phonetic": "ˈβosoˈtɾos ˈsojs de esˈpaɲa",
+            "translation": "Vous (pluriel informel) êtes d'Espagne ?",
+            "note": "En Amérique latine, on utilise 'ustedes' pour le pluriel informel."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Fórmulas de cortesía y peticiones",
+        "translation": "Formules de politesse et demandes",
+        "examples": [
+          {
+            "original": "Le agradecería que me enviara los informes.",
+            "phonetic": "le aɣaðeθeˈɾia ke me embiˈaɾa los infoɾˈmes",
+            "translation": "Je vous serais reconnaissant de m'envoyer les rapports.",
+            "note": "L'imparfait du subjonctif ('enviara') est plus poli que le présent du subjonctif."
+          },
+          {
+            "original": "¿Podría usted hacerme el favor de cerrar la puerta?",
+            "phonetic": "ˈpoðɾia usˈteð aˈθeɾme el faˈβoɾ de θeˈraɾ la ˈpweɾta",
+            "translation": "Pourriez-vous avoir l'obligeance de fermer la porte ?",
+            "note": "On utilise le conditionnel 'podría' pour une demande très polie."
+          },
+          {
+            "original": "¿Le importa si fumo?",
+            "phonetic": "ˈle imˈpoɾta si ˈfumo",
+            "translation": "Ça vous dérange si je fume ?",
+            "note": "Une construction impersonnelle avec 'importar' qui est plus directe en français."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Registro neutro y formal escrito",
+        "translation": "Registre neutre et formel écrit",
+        "examples": [
+          {
+            "original": "Se ha procedido a la evacuación del edificio.",
+            "phonetic": "se a pɾoθeˈðiðo a la eβakwaˈθjon del eðiˈfiθjo",
+            "translation": "On a procédé à l'évacuation du bâtiment.",
+            "note": "La construction avec 'se' impersonnel est typique du registre neutre, évitant d'attribuer l'action."
+          },
+          {
+            "original": "Esperamos que la presente encuentre su bienestar.",
+            "phonetic": "espeˈɾamos ke la pɾeˈsente enˈkwentɾe swjenesˈtaɾ",
+            "translation": "Nous espérons que la présente vous trouve en bonne santé.",
+            "note": "Formule de courrier formel. 'la presente' = 'la presente carta'."
+          },
+          {
+            "original": "De conformidad con lo establecido en el artículo 32...",
+            "phonetic": "de konfoɾmiˈðað kon lo estableˈθiðo en el aɾˈtikulo tɾiˈinta i ˈdos",
+            "translation": "Conformément à ce qui est établi dans l'article 32...",
+            "note": "Locution figée administrative. On utilise souvent 'de acuerdo con' plus courant."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎩",
+    "phonetic": "",
+    "translations": {
+      "fr": "Registre et style"
+    }
+  },
+  {
+    "id": "fr_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Inversión y frontalización avanzadas / Inversion et antéposition avancées",
+    "bridge": "En français, l'inversion sujet-verbe est surtout réservée aux questions formelles et à certains adverbes (à peine, encore). En espagnol, l'inversion et la frontalisation sont beaucoup plus productives à l'écrit comme à l'oral, et servent souvent à mettre l'emphase sur un complément circonstanciel ou un objet tout en modifiant l'ordre canonique. Attention : le français exige souvent l'inversion complexe avec un pronom sujet, alors que l'espagnol place simplement le verbe avant le sujet sans auxiliaire. Par ailleurs, en espagnol, la frontalisation d'un objet direct impose souvent un pronom de reprise (lo, la, etc.), ce qui n'a pas d'équivalent direct en français.",
+    "rule": "En espagnol, l'inversion peut être totale (verbe + sujet) ou partielle (un complément antéposé suivi du verbe puis du sujet). On l'utilise notamment : 1) avec certains adverbes ou locutions à valeur emphatique comme 'jamás', 'nunca', 'solo', 'también', 'así', 'bien', 'pronto', etc. (ex. 'Jamás he visto algo igual') ; 2) dans les constructions de type refrain avec 'que' (ex. 'Poco sabes tú lo que cuesta') ; 3) après un complément circonstanciel antéposé pour créer un contraste (ex. 'En la esquina esperaba un hombre'). Contrairement au français, l'espagnol n'utilise pas l'auxiliaire 'do' et l'inversion se fait souvent avec le sujet explicite placé après le verbe. Attention à la concordance des temps au C1 : avec 'ojalá' et certains adverbes, l'inversion peut déclencher le subjonctif. De plus, lorsque l'on antépose un complément d'objet direct, il convient de le reprendre par un pronom (lo/la/los/las), sauf si l'objet est indéfini ou si la phrase est de type littéraire.",
+    "concept_examples": [
+      {
+        "text": "Jamás había visto un atardecer tan hermoso.",
+        "translation": "Je n'avais jamais vu un coucher de soleil aussi beau.",
+        "phonetic": "xaˈmas aˈβia ˈβisto un ataɾdeˈθeɾ tan eɾˈmoso"
+      },
+      {
+        "text": "En la puerta aguardaba un viejo amigo.",
+        "translation": "À la porte attendait un vieil ami.",
+        "phonetic": "en la ˈpweɾta aɣwaɾˈðaβa um ˈbjexo aˈmiɣo"
+      },
+      {
+        "text": "Poco sabes tú de lo que hablo.",
+        "translation": "Tu sais peu de choses de ce dont je parle.",
+        "phonetic": "ˈpoko ˈsaβes tu de lo ke ˈaβlo"
+      },
+      {
+        "text": "Solo entonces comprendí la verdad.",
+        "translation": "Ce n'est qu'alors que je compris la vérité.",
+        "phonetic": "ˈsolo enˈtonses kompɾenˈdi la βeɾˈðað"
+      }
+    ],
+    "common_error": {
+      "wrong": "Nunca he visto una película tan buena.",
+      "correct": "Nunca he visto una película tan buena.",
+      "correct_alt": "Jamás he visto una película tan buena.",
+      "explanation": "Cette phrase est en fait correcte. L'erreur typique des francophones serait plutôt : 'Jamais ai vu un film si bon' ou 'Jamais je n'ai vu un film si bon' traduit littéralement. Le problème vient de la tendance à calquer l'inversion française avec un auxiliaire ou à ne pas inverser du tout. En espagnol, avec 'nunca' ou 'jamás' en tête de phrase, l'ordre est souvent sujet-verbe (si le sujet est un pronom) ou verbe-sujet, mais jamais avec un auxiliaire. Une erreur fréquente : 'Jamás he visto yo una película tan buena' est correct mais l'ordre normal est 'Jamás he visto una película tan buena'. L'inversion n'est pas obligatoire avec 'nunca' contrairement à ce que certains croient. Il faut retenir que l'inversion en espagnol est plus flexible et souvent optionnelle, alors qu'en français elle est parfois obligatoire avec certains adverbes."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Frontalización de complementos circunstanciales",
+        "translation": "Antéposition des compléments circonstanciels",
+        "examples": [
+          {
+            "original": "En aquella época vivía mi abuela.",
+            "phonetic": "en aˈkeʝa ˈepoka biˈβia mi aˈβwela",
+            "translation": "À cette époque-là vivait ma grand-mère.",
+            "note": "Ici, le complément antéposé est suivi du verbe puis du sujet. C'est une inversion totale. En français, on dirait plutôt 'C'est à cette époque que vivait...' ou on garderait l'ordre normal."
+          },
+          {
+            "original": "Detrás de la casa había un jardín enorme.",
+            "phonetic": "deˈtɾas de la ˈkasa aˈβia un xaɾˈðin eˈnoɾme",
+            "translation": "Derrière la maison, il y avait un jardin énorme.",
+            "note": "Avec 'haber' existentiel, l'inversion est naturelle : le sujet réel apparaît après le verbe."
+          },
+          {
+            "original": "Así terminó la historia.",
+            "phonetic": "aˈsi teɾmiˈno la isˈtoɾja",
+            "translation": "Ainsi se termina l'histoire.",
+            "note": "L'adverbe 'así' en tête de phrase provoque souvent une inversion, surtout à l'écrit soutenu, comme en français 'ainsi'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Inversión con adverbios de frecuencia y negación",
+        "translation": "Inversion avec les adverbes de fréquence et de négation",
+        "examples": [
+          {
+            "original": "Jamás aceptaré esa propuesta.",
+            "phonetic": "xaˈmas aθept̪aˈɾe ˈesa pɾoˈpwesta",
+            "translation": "Jamais je n'accepterai cette proposition.",
+            "note": "L'ordre ici est adverbe + verbe + sujet (sujet sous-entendu 'yo'). En français, on utilise une construction différente."
+          },
+          {
+            "original": "Solo con esfuerzo lograrás tus metas.",
+            "phonetic": "ˈsolo kon esˈfweɾso loɣaˈɾas tus ˈmetas",
+            "translation": "Ce n'est qu'avec des efforts que tu atteindras tes objectifs.",
+            "note": "'Solo' + préposition + infinitif/nom entraîne souvent une subordonnée de condition, mais ici c'est un complément de manière. L'inversion n'est pas obligatoire mais ajoute une emphase."
+          },
+          {
+            "original": "Poco importa lo que digan.",
+            "phonetic": "ˈpoko imˈpoɾta lo ke ˈðiɣan",
+            "translation": "Peu importe ce qu'ils disent.",
+            "note": "Avec 'poco', l'inversion est fréquente au sens de 'peu importe'. Attention au subjonctif dans la subordonnée."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Anteposición del objeto directo con pronombre de reanudación",
+        "translation": "Antéposition de l'objet direct avec pronom de reprise",
+        "examples": [
+          {
+            "original": "El libro que me regalaste, lo he leído dos veces.",
+            "phonetic": "el ˈliβɾo ke me reɣaˈlaste lo e leˈiðo dos ˈβeθes",
+            "translation": "Le livre que tu m'as offert, je l'ai lu deux fois.",
+            "note": "Le pronom 'lo' reprend l'objet antéposé. C'est obligatoire lorsque l'objet est spécifique et placé avant le verbe."
+          },
+          {
+            "original": "A tus amigos, no los vi en la fiesta.",
+            "phonetic": "a tus aˈmiɣos no los bi en la ˈfiesta",
+            "translation": "Tes amis, je ne les ai pas vus à la fête.",
+            "note": "Avec 'a' = objet animé spécifique, le pronom 'los' est nécessaire. En français, on dirait simplement 'Je n'ai pas vu tes amis à la fête'."
+          },
+          {
+            "original": "Eso ya lo sabía yo.",
+            "phonetic": "ˈeso ʝa lo saˈβia ʝo",
+            "translation": "Cela, je le savais déjà.",
+            "note": "La répétition avec 'lo' est souvent utilisée à l'oral pour mettre en relief, même si le sujet est explicite."
+          },
+          {
+            "original": "Nada más me dijo.",
+            "phonetic": "ˈnaða mas me ˈðixo",
+            "translation": "Rien de plus il m'a dit.",
+            "note": "Avec un objet indéfini comme 'nada', le pronom de reprise n'est pas utilisé. L'inversion peut se faire sans reprise."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "fr": "Inversion et antéposition avancées"
+    }
+  },
+  {
+    "id": "fr_C1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nominalización compleja: de procesos a entidades / Nominalisation complexe : du processus à l'entité",
+    "bridge": "En français, la nominalisation des processus se fait souvent avec des suffixes comme -tion, -ment ou -age (transformation, développement, nettoyage). En espagnol, ces suffixes sont similaires (-ción, -miento, -aje), mais il existe des différences subtiles : l'espagnol utilise parfois des infinitifs substantivés (el caminar) ou des nominalisations avec des préfixes (el deshielo) qui n'ont pas d'équivalent direct en français. De plus, l'espagnol préfère souvent la nominalisation dans des contextes où le français utiliserait une subordonnée complétive. Attention aux faux amis et aux changements de genre qui peuvent piéger les francophones.",
+    "rule": "La nominalisation complexe en espagnol permet de transformer un verbe ou un processus en un nom abstrait ou concret. Les principaux mécanismes sont : 1) Les suffixes -ción/-ción (transformación, creación) et -miento (pensamiento, conocimiento), qui correspondent souvent à -tion/-ment en français, mais avec des irrégularités de genre (la muerte, el miedo). 2) La substantivation de l'infinitif : el correr, el saber, utilisée pour exprimer le processus en cours, souvent avec un article défini. 3) Les nominalisations à partir de participes passés (el resultado) ou de gérondifs (el andar). 4) Les préfixes et suffixes dérivés : des- (el deshielo), re- (el renacimiento), -dor (el matador). À C1, il faut maîtriser les conversions lexicales non prévisibles (el quehacer, el vaivén) et les nuances sémantiques : la nominalisation peut exprimer l'action en cours, le résultat, ou l'agent. Il faut aussi savoir utiliser ces formes dans des registres formels et académiques, notamment dans des expressions comme 'el desarrollo sostenible', 'el envejecimiento activo'.",
+    "concept_examples": [
+      {
+        "text": "El desarrollo sostenible requiere la participación ciudadana.",
+        "translation": "Le développement durable exige la participation citoyenne.",
+        "phonetic": "/el de.sa.ˈro.ʎo sos.teniˈβle reˈkje.re la paɾ.ti.θi.pa.ˈθjon θju.ðaˈða.na/"
+      },
+      {
+        "text": "El envejecimiento activo es un objetivo clave de la política europea.",
+        "translation": "Le vieillissement actif est un objectif clé de la politique européenne.",
+        "phonetic": "/el em.be.xe.θi.ˈmjento akˈtiβo es un ob.xeˈtiβo ˈklaβe de la poˈli.ti.ka eu.roˈpe.a/"
+      },
+      {
+        "text": "La transformación digital ha cambiado nuestros hábitos.",
+        "translation": "La transformation numérique a changé nos habitudes.",
+        "phonetic": "/la tɾans.foɾ.maˈθjon di.xiˈtal a kamˈbjado ˈnwes.tɾos ˈa.βi.tos/"
+      },
+      {
+        "text": "El saber popular se transmite de generación en generación.",
+        "translation": "Le savoir populaire se transmet de génération en génération.",
+        "phonetic": "/el saˈβeɾ po.puˈlaɾ se tɾansˈmi.te de xe.ne.ɾaˈθjon en xe.ne.ɾaˈθjon/"
+      }
+    ],
+    "common_error": {
+      "wrong": "La développation de cette région est prioritaire.",
+      "correct": "El desarrollo de esta región es prioritario.",
+      "correct_alt": "El desenvolvimiento de esta región es prioritario.",
+      "explanation": "Les francophones calquent souvent le suffixe français -ment en -miento, mais 'developpement' se traduit en espagnol par 'desarrollo' (de 'desarrollar'), et non 'desarrollamiento' qui n'existe pas. De plus, le genre change : en français on dit 'le développement' (masculin), mais en espagnol 'el desarrollo' (masculin). Il faut apprendre les nominalisations irrégulières, surtout celles qui viennent de verbes en -ar avec des suffixes différents de ceux du français."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Sufijos derivativos: -ción, -miento",
+        "translation": "Suffixes dérivationnels : -ción, -miento",
+        "examples": [
+          {
+            "original": "La creación de riqueza",
+            "phonetic": "/la kɾe.aˈθjon de riˈkeθa/",
+            "translation": "La création de richesse",
+            "note": "Attention : 'creación' vient de 'crear', et le suffixe -ción est utilisé comme en français -tion. Pas de piège ici, mais le genre est féminin comme en français."
+          },
+          {
+            "original": "El conocimiento científico",
+            "phonetic": "/el ko.no.θiˈmjento θjenˈti.fi.ko/",
+            "translation": "La connaissance scientifique",
+            "note": "En français, on dit 'la connaissance' (féminin), mais en espagnol c'est 'el conocimiento' (masculin). Faites attention aux différences de genre."
+          },
+          {
+            "original": "El nacimiento de un proyecto",
+            "phonetic": "/el na.θiˈmjento de un pɾoˈxek.to/",
+            "translation": "La naissance d'un projet",
+            "note": "Le suffixe -miento est productif, mais il y a des exceptions comme 'nacimiento' qui correspond à 'naissance'. Vérifiez toujours le mot réel."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Infinitivos sustantivados",
+        "translation": "Infinitifs substantivés",
+        "examples": [
+          {
+            "original": "El caminar por la montaña me relaja.",
+            "phonetic": "/el ka.miˈnaɾ poɾ la monˈtaɲa me reˈla.xa/",
+            "translation": "Le fait de marcher en montagne me détend.",
+            "note": "L'infinitif substantivé 'el caminar' se traduit en français par 'le fait de marcher' ou 'la marche'. Il exprime l'action en général."
+          },
+          {
+            "original": "Su saber es enorme.",
+            "phonetic": "/su saˈβeɾ es eˈnoɾ.me/",
+            "translation": "Son savoir est énorme.",
+            "note": "Ici, 'saber' est un infinitif substantivé qui signifie 'savoir' (nom). C'est une nominalisation lexicalisée."
+          },
+          {
+            "original": "El llegar tarde es una mala costumbre.",
+            "phonetic": "/el ʝeˈɣaɾ ˈtaɾ.de es u.na ˈma.la kosˈtum.bɾe/",
+            "translation": "Arriver en retard est une mauvaise habitude.",
+            "note": "L'infinitif peut être suivi d'un complément et fonctionner comme un nom complet. En français, on utilise souvent l'infinitif introduit par 'le fait de'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nominalizaciones irregulares y conversiones",
+        "translation": "Nominalisations irrégulières et conversions",
+        "examples": [
+          {
+            "original": "El deshielo de los glaciares",
+            "phonetic": "/el deˈsje.lo de los ɡlaˈθja.res/",
+            "translation": "La fonte des glaciers",
+            "note": "'Deshielo' vient de 'deshelar' (fondre). Il s'agit d'une dérivation préfixale irrégulière, différente du français 'fonte'."
+          },
+          {
+            "original": "El quehacer diario",
+            "phonetic": "/el ke.aˈθeɾ ˈdja.ɾjo/",
+            "translation": "Le travail quotidien / les tâches quotidiennes",
+            "note": "C'est une nominalisation à partir de l'expression 'qué hacer' (que faire). Cela n'a pas d'équivalent direct en français."
+          },
+          {
+            "original": "El vaivén de las olas",
+            "phonetic": "/el baiˈβen de las ˈo.las/",
+            "translation": "Le va-et-vient des vagues",
+            "note": "Un composé verbal-nominal avec réduplication. C'est une forme idiomatique très spécifique."
+          },
+          {
+            "original": "El resultado del experimento",
+            "phonetic": "/el re.sulˈta.do del eks.pe.ɾiˈmen.to/",
+            "translation": "Le résultat de l'expérience",
+            "note": "Participe passé substantivé. En français, on a aussi 'résultat', mais vérifiez le genre (masculin ici) et l'usage."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏛️",
+    "phonetic": "",
+    "translations": {
+      "fr": "Nominalisation complexe"
+    }
+  },
+  {
+    "id": "fr_C1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Elipsis y sustitución / Ellipse et substitution",
+    "bridge": "En français, on utilise souvent “aussi” et “non plus” pour reprendre une idée, mais l'espagnol préfère des constructions avec “también”, “tampoco”, et surtout des formes verbales comme “yo también” ou “yo tampoco”. Attention à l'ordre des mots et à l'accord avec le sujet. Contrairement au français, l'espagnol omet souvent le verbe répété, ce qui peut surprendre.",
+    "rule": "L'ellipse consiste à omettre des éléments répétés pour éviter la redondance, tandis que la substitution remplace un groupe par un proforme (ex: “lo”, “eso”, “hacer”). En espagnol, pour exprimer l'accord avec une affirmation, on dit “yo también” (moi aussi) ou “a mí también” selon la fonction syntaxique. Pour la négation, “yo tampoco” ou “a mí tampoco”. On peut aussi utiliser “a él también”, “a nosotros tampoco”, etc. Pour les verbes, on répète souvent l'auxiliaire “haber” dans les temps composés (ex: “- ¿Has comido? - Sí, he comido” → ellipse possible: “Sí, he comido” mais on peut dire “Sí, ya he” dans un registre plus familier, mais ce n'est pas standard; mieux vaut répéter le participe ou utiliser “lo”). La substitution avec “lo” est fréquente: “- ¿Estás cansado? - Sí, lo estoy.” (Oui, je le suis). On utilise aussi “eso” pour reprendre une phrase entière: “- No me gusta. - Eso decía yo.” (C'est ce que je disais). Il faut éviter de traduire littéralement le “le” français par “le” espagnol; on utilise “lo” pour un attribut ou un objet direct. Les formes avec “sí” et “no” en réponse: “- ¿Vienes? - Sí.” (pas besoin de répéter le verbe).",
+    "concept_examples": [
+      {
+        "text": "Yo también quiero ir al cine.",
+        "translation": "Moi aussi, je veux aller au cinéma.",
+        "phonetic": "ˈʝo tamˈbjen ˈkjeɾo iɾ al ˈsine"
+      },
+      {
+        "text": "Ellos no han venido, y nosotros tampoco.",
+        "translation": "Ils ne sont pas venus, et nous non plus.",
+        "phonetic": "ˈeʎos no an beˈnido i noˈsotɾos tamˈpoko"
+      },
+      {
+        "text": "—¿Estás contento? —Sí, lo estoy.",
+        "translation": "—Es-tu content ? —Oui, je le suis.",
+        "phonetic": "ˈestas konˈtento si lo esˈtoi"
+      },
+      {
+        "text": "María estudia mucho; tú deberías hacer lo mismo.",
+        "translation": "María étudie beaucoup ; tu devrais faire de même.",
+        "phonetic": "maˈɾia esˈtuðja ˈmutʃo tu ðeβeˈɾias aˈseɾ lo ˈmizmo"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo también no estoy de acuerdo.",
+      "correct": "Yo tampoco estoy de acuerdo.",
+      "correct_alt": "A mí tampoco me parece bien.",
+      "explanation": "En français, on dit “moi aussi, je ne suis pas d'accord” avec une double négation, mais en espagnol, pour exprimer l'accord avec une négation, on utilise “tampoco” (non plus) et non “también” (aussi). Il ne faut pas dire “también no”, qui est incorrect. Utilisez “tampoco” après le sujet ou en début de phrase pour signifier “moi non plus”."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Acuerdo y desacuerdo",
+        "translation": "Accord et désaccord",
+        "examples": [
+          {
+            "original": "—Me gusta el café. —A mí también.",
+            "phonetic": "me ˈɡusta el kaˈfe a mi tamˈbjen",
+            "translation": "—J'aime le café. —Moi aussi.",
+            "note": "On utilise “a mí también” pour reprendre un complément indirect. En français on dit “moi aussi” mais l'espagnol précise la structure prépositionnelle."
+          },
+          {
+            "original": "—No me gusta el té. —A mí tampoco.",
+            "phonetic": "no me ˈɡusta el te a mi tamˈpoko",
+            "translation": "—Je n'aime pas le thé. —Moi non plus.",
+            "note": "Pour la négation, on utilise “tampoco” avec la préposition “a”. Ne pas dire “a mí también no”."
+          },
+          {
+            "original": "—Estoy cansado. —Yo también.",
+            "phonetic": "esˈtoi kanˈsado ʝo tamˈbjen",
+            "translation": "—Je suis fatigué. —Moi aussi.",
+            "note": "Quand le sujet est le même type (sujet grammatical), on peut utiliser “yo también” ou “a mí también” selon le contexte. Ici, “yo” renforce le sujet."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Sustitución con pronombres",
+        "translation": "Substitution avec pronoms",
+        "examples": [
+          {
+            "original": "—¿Estás listo? —Sí, lo estoy.",
+            "phonetic": "ˈestas ˈlisto si lo esˈtoi",
+            "translation": "—Es-tu prêt ? —Oui, je le suis.",
+            "note": "Le pronom “lo” remplace l'attribut (listo). En français, on utilise “le” mais souvent on le répète. Attention à l'accord, “lo” est invariable."
+          },
+          {
+            "original": "—¿Es tuya esta falda? —Sí, lo es.",
+            "phonetic": "ˈes ˈtuʝa ˈesta ˈfalda si lo es",
+            "translation": "—Cette jupe est-elle à toi ? —Oui, elle l'est.",
+            "note": "Ici, “lo” reprend “tuya”. Ne pas dire “la es” même si le sujet est féminin, car “lo” est neutre pour l'attribut."
+          },
+          {
+            "original": "—No sé si vendrá, pero creo que sí.",
+            "phonetic": "no se si benˈdɾa ˈpeɾo ˈkɾeo ke si",
+            "translation": "—Je ne sais pas s'il viendra, mais je crois que oui.",
+            "note": "On utilise “sí” et “no” pour éviter de répéter la proposition. En français, on dirait “je crois que oui” mais l'espagnol est plus elliptique."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Elipsis verbal en contextos complejos",
+        "translation": "Ellipse verbale en contextes complexes",
+        "examples": [
+          {
+            "original": "—¿Has leído este libro? —Sí, ya lo he leído.",
+            "phonetic": "as leˈiðo ˈeste ˈliβɾo si ʝa lo e leˈiðo",
+            "translation": "—As-tu lu ce livre ? —Oui, je l'ai déjà lu.",
+            "note": "On répète le participe pour la clarté, mais on aurait pu dire “Sí, ya lo he leído” sans ellipse. L'ellipse complète serait “Sí, ya lo he” mais ce n'est pas standard à l'écrit."
+          },
+          {
+            "original": "—¿Quieres ir al teatro? —Podría, si me acompañas.",
+            "phonetic": "ˈkjeɾes iɾ al teˈatɾo poˈðɾia si me akomˈpaɲas",
+            "translation": "—Veux-tu aller au théâtre ? —Je pourrais, si tu m'accompagnes.",
+            "note": "On omet le verbe “ir” après “podría” car il est sous-entendu. En français, on dirait “je pourrais” aussi, mais l'espagnol est plus elliptique."
+          },
+          {
+            "original": "—No me gusta el vino, pero a mi hermana sí.",
+            "phonetic": "no me ˈɡusta el ˈbino ˈpeɾo a mi eɾˈmana si",
+            "translation": "—Je n'aime pas le vin, mais ma sœur, si.",
+            "note": "Ici, “sí” remplace toute la proposition “le gusta el vino”. C'est une substitution très courante pour opposer deux sujets."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "fr": "Ellipse et substitution"
+    }
+  },
+  {
+    "id": "fr_C1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Marcadores discursivos avanzados para la cohesión / Marqueurs discursifs avancés pour la cohésion",
+    "bridge": "En français, vous utilisez souvent des connecteurs comme 'en outre', 'par conséquent' ou 'néanmoins'. En espagnol, les équivalents existent mais avec des nuances importantes : 'además' ne se place pas comme 'en outre', et 'por consiguiente' est plus formel que 'donc'. Attention aux faux amis : 'aunque' signifie 'bien que' et non 'encore que'. Le piège principal réside dans l'ordre des mots et l'usage de certains marqueurs qui nécessitent le subjonctif ou l'indicatif selon le degré de certitude.",
+    "rule": "Les marqueurs discursifs en espagnol C1 se classent en plusieurs catégories : les organisateurs (en primer lugar, a continuación, para finalizar), les connecteurs d'addition (además, encima, incluso, es más), les connecteurs d'opposition (en cambio, por el contrario, no obstante, ahora bien), les connecteurs de conséquence (por consiguiente, en consecuencia, de ahí que + subjonctif, así pues), les connecteurs de cause (porque, ya que, puesto que, dado que), les connecteurs de concession (aunque + indicatif/subjonctif, si bien, aun cuando) et les reformulateurs (es decir, o sea, en otras palabras, dicho de otro modo). Leur position est plus flexible qu'en français, mais certains exigent une virgule et peuvent être placés en tête de phrase, entre virgules, ou en fin de phrase. À C1, il faut maîtriser les nuances sémantiques : 'encima' ajoute une valeur emphatique souvent péjorative, 'es más' renforce l'argumentation, 'ahora bien' introduit une restriction. Les marqueurs comme 'de ahí que', 'para que', 'sin que' requièrent le subjonctif. Il est also important de noter que 'por consiguiente' et 'en consecuencia' sont plus formels que 'así que' ou 'entonces'.",
+    "concept_examples": [
+      {
+        "text": "No obstante, hay que considerar otros factores antes de tomar una decisión.",
+        "translation": "Néanmoins, il faut considérer d'autres facteurs avant de prendre une décision.",
+        "phonetic": "no ɔβsˈtante | ai ˈke kɔnsideˈɾaɾ ˈotɾos fakˈtoɾes ˈantes de toˈmaɾ una desiˈsjon"
+      },
+      {
+        "text": "La economía ha mejorado; en consecuencia, el empleo ha aumentado considerablemente.",
+        "translation": "L'économie s'est améliorée ; par conséquent, l'emploi a augmenté considérablement.",
+        "phonetic": "la ekoˈnomia a mexoˈɾaðo | en konseˈkwenθja | el emˈpleo a aumenˈtaðo kɔnsideˈɾaβlemente"
+      },
+      {
+        "text": "El proyecto es ambicioso; si bien presenta ciertos riesgos, merece la pena intentarlo.",
+        "translation": "Le projet est ambitieux ; bien qu'il présente certains risques, il vaut la peine d'essayer.",
+        "phonetic": "el pɾoˈxekto es ambiˈθjoso | si ˈbjen pɾeˈsenta ˈθjeɾtos ˈrjesɡos | meˈɾeθe la ˈpena intenˈtaɾlo"
+      },
+      {
+        "text": "No solo es inteligente, sino que además es muy trabajador.",
+        "translation": "Non seulement il est intelligent, mais en plus il est très travailleur.",
+        "phonetic": "no ˈsolo es inteliˈxente | ˈsino ke aˈðemas es ˈmui tɾaβaxaˈðoɾ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Aunque está lloviendo, saldremos. (utilisé comme 'bien que' + subjonctif systématiquement)",
+      "correct": "Aunque llueva, saldremos. (hypothèse) / Aunque está lloviendo, saldremos. (fait réel)",
+      "correct_alt": "Por mucho que llueva, saldremos.",
+      "explanation": "En français, 'bien que' est toujours suivi du subjonctif. En espagnol, 'aunque' peut être suivi de l'indicatif si le fait est réel ou certain, et du subjonctif s'il est hypothétique ou incertain. Les francophones ont tendance à mettre systématiquement le subjonctif après 'aunque', ce qui est incorrect lorsque le fait est avéré. Pour éviter cette erreur, demandez-vous si le fait est réel : si oui, utilisez l'indicatif ; si c'est une hypothèse, utilisez le subjonctif."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Conectores de adición y refuerzo",
+        "translation": "Connecteurs d'addition et de renforcement",
+        "examples": [
+          {
+            "original": "Además de ser caro, es de mala calidad.",
+            "phonetic": "aˈðemas de ˈseɾ ˈkaɾo | es de ˈmala kaliˈðað",
+            "translation": "En plus d'être cher, il est de mauvaise qualité.",
+            "note": "Notez la structure 'además de + infinitif' qui correspond à 'en plus de'."
+          },
+          {
+            "original": "No me gusta nada; encima, llega tarde siempre.",
+            "phonetic": "no me ˈɡusta ˈnaða | enˈθima | ˈʝeɡa ˈtaɾðe ˈsjempɾe",
+            "translation": "Je n'aime pas du tout ; en plus, il arrive toujours en retard.",
+            "note": "Encima ajoute une nuance péjorative et d'exaspération, ce qui n'est pas le cas de 'además'."
+          },
+          {
+            "original": "El nuevo empleado es muy eficiente, es más, ha superado todas las expectativas.",
+            "phonetic": "el ˈnweβo empleˈaðo es ˈmui efiˈθjente | es ˈmas | a supeˈɾaðo ˈtoðas las ekspektaˈtiβas",
+            "translation": "Le nouvel employé est très efficace, de plus, il a dépassé toutes les attentes.",
+            "note": "'Es más' renforce l'argumentation et introduit un argument décisif."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Conectores de contraste y concesión",
+        "translation": "Connecteurs de contraste et de concession",
+        "examples": [
+          {
+            "original": "No obstante, los resultados son positivos.",
+            "phonetic": "no ɔβsˈtante | los resulˈtaðos son posiˈtiβos",
+            "translation": "Néanmoins, les résultats sont positifs.",
+            "note": "Synonyme de 'sin embargo', mais plus formel. Se place généralement en tête de phrase."
+          },
+          {
+            "original": "Ahora bien, esta solución no es viable a largo plazo.",
+            "phonetic": "aˈoɾa ˈbjen | ˈesta soluˈθjon no es ˈbjaβle a ˈlaɾɡo ˈplaθo",
+            "translation": "Cependant, cette solution n'est pas viable à long terme.",
+            "note": "'Ahora bien' introduit une restriction ou un changement de perspective. Ne pas confondre avec 'ahora' (maintenant)."
+          },
+          {
+            "original": "Por muy difícil que parezca, lo conseguiremos.",
+            "phonetic": "poɾ ˈmui diˈfiθil ke paˈɾeθka | lo konseɣiˈɾemos",
+            "translation": "Aussi difficile que cela paraisse, nous y arriverons.",
+            "note": "L'expression 'por muy + adjectif + que' exige le subjonctif. C'est une tournure concessive fréquente à C1."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Conectores de consecuencia, causa y reformulación",
+        "translation": "Connecteurs de conséquence, de cause et de reformulation",
+        "examples": [
+          {
+            "original": "Llueve mucho, de ahí que las calles estén inundadas.",
+            "phonetic": "ˈʎweβe ˈmutʃo | de ˈai ke las ˈkaʝes esˈten inunˈdaðas",
+            "translation": "Il pleut beaucoup, d'où le fait que les rues soient inondées.",
+            "note": "'De ahí que' doit être suivi du subjonctif. C'est un faux ami : ne pas dire 'de là que'."
+          },
+          {
+            "original": "Dado que el tiempo es limitado, tendremos que priorizar.",
+            "phonetic": "ˈdaðo ke el ˈtjempo es limiˈtaðo | tenˈdɾemos ke pɾjoɾiˈθaɾ",
+            "translation": "Étant donné que le temps est limité, nous devrons prioriser.",
+            "note": "'Dado que' est plus formel que 'porque' et se place souvent en tête de phrase."
+          },
+          {
+            "original": "O sea, no podemos seguir así.",
+            "phonetic": "o ˈsea | no poˈðemos seˈɣiɾ aˈsi",
+            "translation": "Autrement dit, nous ne pouvons pas continuer ainsi.",
+            "note": "'O sea' est un reformulateur très courant à l'oral, équivalent à 'c'est-à-dire'. Attention : à l'écrit formel, préférer 'es decir'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "fr": "Marqueurs discursifs avancés pour la cohésion"
+    }
+  },
+  {
+    "id": "fr_C1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Matices de distanciamiento y probabilidad (Matización fina)",
+    "bridge": "En français, vous utilisez le conditionnel ou des adverbes comme 'peut-être' pour exprimer l'hypothèse. En espagnol, on recourt souvent au subjonctif après des expressions de doute, mais aussi à des structures spécifiques comme 'puede que', 'es posible que', 'quizá(s)', 'tal vez', 'a lo mejor', 'igual', etc. Attention : 'a lo mejor' et 'igual' se construisent avec l'indicatif, alors que 'quizá(s)' et 'tal vez' peuvent prendre l'indicatif ou le subjonctif selon le degré d'incertitude. Ne transférez pas mécaniquement le conditionnel français : en espagnol, on utilise souvent le futur ou le conditionnel pour la probabilité, mais le choix du mode (indicatif/subjonctif) est crucial.",
+    "rule": "Pour nuancer une affirmation en espagnol (C1), on dispose de plusieurs ressources : 1) Adverbes et locutions de doute : 'quizá(s)', 'tal vez', 'a lo mejor', 'igual', 'puede que', 'es posible que', 'es probable que'. 'Quizá(s)' et 'tal vez' acceptent l'indicatif (plus de certitude) ou le subjonctif (plus de doute) : 'Quizá viene' vs. 'Quizá venga'. En revanche, 'a lo mejor' et 'igual' (familier) exigent l'indicatif. 'Puede que' + subjonctif (toujours) : 'Puede que llueva'. 2) Le conditionnel de probabilité (futur dans le passé) : 'Serían las diez' (il était probablement dix heures). Le futur de probabilité : 'Estará en casa' (il est sûrement à la maison). 3) Le conditionnel de politesse ou d'atténuation : 'Querría pedirle un favor'. 4) Le subjonctif après des verbes d'opinion niés : 'No creo que tenga razón'. 5) L'emploi du subjonctif dans les relatives avec antécédent indéfini ou nié : 'Busco un piso que tenga terraza'. En C1, on maîtrise aussi les nuances entre ces formes : 'a lo mejor' est plus familier, 'quizá(s)' est plus neutre, 'puede que' est plutôt formel.",
+    "concept_examples": [
+      {
+        "text": "Quizá venga mañana a la reunión.",
+        "translation": "Peut-être viendra-t-il demain à la réunion.",
+        "phonetic": "kiˈsa ˈβeŋɡa maˈɲana a la reuˈnjon"
+      },
+      {
+        "text": "A lo mejor ha perdido el vuelo.",
+        "translation": "Il a peut-être raté son vol.",
+        "phonetic": "a lo meˈxor a perˈðiðo el ˈβwelo"
+      },
+      {
+        "text": "Serían las ocho cuando llegó.",
+        "translation": "Il devait être huit heures quand il est arrivé.",
+        "phonetic": "seˈɾian las ˈotʃo ˈkwando ʝeˈɣo"
+      },
+      {
+        "text": "No creo que esté de acuerdo con esa propuesta.",
+        "translation": "Je ne crois pas qu'il soit d'accord avec cette proposition.",
+        "phonetic": "no ˈkɾeo ke esˈte ðe aˈkweɾðo kon ˈesa pɾoˈpwesta"
+      }
+    ],
+    "common_error": {
+      "wrong": "Puede que él viene mañana.",
+      "correct": "Puede que él venga mañana.",
+      "correct_alt": "Quizá venga mañana.",
+      "explanation": "En français, on dit 'Il se peut qu'il vienne' (subjonctif en français aussi), mais les francophones ont tendance à utiliser l'indicatif après 'puede que' parce qu'ils pensent à la forme 'peut-être que' + indicatif. En espagnol, 'puede que' exige toujours le subjonctif. Attention aussi à ne pas dire 'à lo mejor' avec le subjonctif : c'est toujours l'indicatif. Exemple d'erreur : 'A lo mejor venga' est incorrect ; on doit dire 'A lo mejor viene'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adverbios de duda: quizá(s), tal vez, a lo mejor, igual",
+        "translation": "Adverbes de doute: quizá(s), tal vez, a lo mejor, igual",
+        "examples": [
+          {
+            "original": "Quizá tengas razón, pero no estoy convencido.",
+            "phonetic": "kiˈsa ˈteŋɡas raˈson ˈpeɾo no esˈtoi kombenˈsiðo",
+            "translation": "Peut-être as-tu raison, mais je ne suis pas convaincu.",
+            "note": "Subjonctif 'tengas' pour un doute marqué."
+          },
+          {
+            "original": "Tal vez llueva esta tarde.",
+            "phonetic": "tal ˈbeθ ˈʎweβa ˈesta ˈtaɾðe",
+            "translation": "Peut-être qu'il pleuvra cet après-midi.",
+            "note": "Aussi 'quizá' avec subjonctif. En français, on pourrait utiliser le conditionnel, mais ici le subjonctif est la norme."
+          },
+          {
+            "original": "A lo mejor no viene a la fiesta.",
+            "phonetic": "a lo meˈxor no ˈbjene a la ˈfiesta",
+            "translation": "Il ne viendra peut-être pas à la fête.",
+            "note": "Indicatif 'viene' obligatoire. 'A lo mejor' est plus familier que 'quizá'."
+          },
+          {
+            "original": "Igual se ha olvidado de la cita.",
+            "phonetic": "iˈɣwal se a olβiˈðaðo de la ˈsiθa",
+            "translation": "Il a peut-être oublié le rendez-vous.",
+            "note": "Familier d'Espagne : 'igual' + indicatif (parfois indicatif présent ou passé composé)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Futuro y condicional de probabilidad",
+        "translation": "Futur et conditionnel de probabilité",
+        "examples": [
+          {
+            "original": "Estará en Madrid ahora mismo.",
+            "phonetic": "estaˈɾa en maˈðɾið aˈoɾa ˈmizmo",
+            "translation": "Il est sûrement à Madrid en ce moment.",
+            "note": "Futur de probabilité : exprime une supposition sur le présent."
+          },
+          {
+            "original": "Serían las tres de la madrugada.",
+            "phonetic": "seˈɾian las ˈtɾes ðe la maðɾuˈɣaða",
+            "translation": "Il devait être trois heures du matin.",
+            "note": "Conditionnel de probabilité dans le passé."
+          },
+          {
+            "original": "¿Qué hora será? No tengo reloj.",
+            "phonetic": "ˈke ˈoɾa seˈɾa? no ˈteŋɡo reˈlox",
+            "translation": "Quelle heure peut-il bien être ? Je n'ai pas de montre.",
+            "note": "Le futur dans une question pour une supposition."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Subjuntivo con verbos de opinión negada y relativas con antecedente indefinido",
+        "translation": "Subjonctif avec verbes d'opinion niée et relatives avec antécédent indéfini",
+        "examples": [
+          {
+            "original": "No me parece que sea buena idea cambiar ahora.",
+            "phonetic": "no me paˈɾeθe ke ˈsea ˈβwena iˈðea kamˈbjaɾ aˈoɾa",
+            "translation": "Je ne pense pas que ce soit une bonne idée de changer maintenant.",
+            "note": "Avec 'no parece que' + subjonctif, comme en français 'ne pas sembler que' + subjonctif."
+          },
+          {
+            "original": "Busco un libro que explique bien este tema.",
+            "phonetic": "ˈbusko un ˈliβɾo ke eksˈplike ˈβjen ˈeste ˈtema",
+            "translation": "Je cherche un livre qui explique bien ce sujet.",
+            "note": "Antécédent indéfini (un libro) → subjonctif. Si l'antécédent était défini, on utiliserait l'indicatif."
+          },
+          {
+            "original": "No hay nadie que pueda resolver este problema.",
+            "phonetic": "no ai ˈnaðje ke ˈpweða resolˈβeɾ ˈeste pɾoˈβlema",
+            "translation": "Il n'y a personne qui puisse résoudre ce problème.",
+            "note": "Après 'no hay nadie que' + subjonctif (négation + antécédent inexistant)."
+          }
+        ]
+      }
+    ],
+    "emoji": "💬",
+    "phonetic": "",
+    "translations": {
+      "fr": "Distanciation et nuances de probabilité"
+    }
+  },
+  {
+    "id": "fr_C1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Patrones verbales complejos: doble objeto y estructuras con preposición",
+    "bridge": "En français, le double objet (COD/COI) suit un ordre relativement fixe (COD puis COI) et l'emploi des prépositions est souvent parallèle à l'espagnol. Cependant, l'espagnol exige systématiquement le pronom datif 'le/les' même quand le complément indirect est explicite ('le doy un libro a Juan'), ce qui est redondant en français. De plus, certains verbes espagnols changent de construction par rapport au français : 'llamar a alguien' (appeler quelqu'un), 'pensar en alguien' (penser à quelqu'un), 'influir en' (influencer). Attention aussi au 'loísmo/leísmo' et à l'emploi du subjonctif après certaines structures.",
+    "rule": "En espagnol, le double objet (complément direct et indirect) suit des règles strictes. Le complément indirect (datif) est introduit par la préposition 'a' (sauf si c'est une personne, où 'a' est le marqueur d'objet direct). Le pronom datif 'le/les' est obligatoire même si le CI est explicite : 'Le di un regalo a María'. Quand les deux pronoms sont combinés, l'ordre est COD puis COI : 'me lo dio', 'te lo explico'. Si le COI est 'le/les' et le COD est 'lo/la/los/las', on remplace 'le' par 'se' : 'se lo di' (pas 'le lo'). Pour les verbes avec préposition, l'espagnol peut utiliser des prépositions différentes du français : 'contar con' (compter sur), 'soñar con' (rêver de), 'influir en' (influer sur), 'pensar en' (penser à). Au C1, il faut maîtriser les emplois du subjonctif après certaines constructions comme 'el hecho de que + subj', 'para que + subj', et les structures avec l'infinitif après préposition : 'al + infinitif', 'después de + infinitif'.",
+    "concept_examples": [
+      {
+        "text": "Le expliqué el problema a mi jefe.",
+        "translation": "J'ai expliqué le problème à mon chef.",
+        "phonetic": "[le ekspliˈke el pɾoˈβlema a mi ˈxefe]"
+      },
+      {
+        "text": "Se lo compré ayer para su cumpleaños.",
+        "translation": "Je le lui ai acheté hier pour son anniversaire.",
+        "phonetic": "[se lo komˈpɾe aˈʝeɾ ˈpaɾa su kumpleˈaɲos]"
+      },
+      {
+        "text": "No me acuerdo de haberle dicho eso.",
+        "translation": "Je ne me souviens pas de lui avoir dit cela.",
+        "phonetic": "[no me aˈkweɾðo de aβeɾˈle ˈditʃo ˈeso]"
+      },
+      {
+        "text": "El hecho de que no venga no me sorprende.",
+        "translation": "Le fait qu'il ne vienne pas ne me surprend pas.",
+        "phonetic": "[el ˈetʃo ðe ke no ˈbeŋɡa no me soɾˈpɾende]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Le dije que no lo hiciera y lo hizo.",
+      "correct": "Le dije que no lo hiciera y lo hizo.",
+      "correct_alt": "Le dije que no lo hiciera, y lo hizo.",
+      "explanation": "Cet exemple est en fait correct. Une erreur fréquente chez les francophones est de dire '*Le lo di' au lieu de 'Se lo di' (répétition du datif). Ou encore '*Dije a él que viniera' au lieu de 'Le dije que viniera' (place du pronom). Un autre piège : traduire 'penser à quelqu'un' par '*pensar a alguien' alors qu'il faut 'pensar en alguien'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Doble objeto con pronombres",
+        "translation": "Double objet avec pronoms",
+        "examples": [
+          {
+            "original": "Me lo explicó muy bien.",
+            "phonetic": "[me lo ekspliˈko muj ˈbjen]",
+            "translation": "Il me l'a très bien expliqué.",
+            "note": "Ordre COI puis COD, comme en français (me puis l')."
+          },
+          {
+            "original": "Te la presentaré mañana.",
+            "phonetic": "[te la pɾesentaˈɾe maˈɲana]",
+            "translation": "Je te la présenterai demain.",
+            "note": "Attention : ici 'la' est COD (elle), pas 'le'."
+          },
+          {
+            "original": "Nos los contaron anoche.",
+            "phonetic": "[nos los konˈtaɾon aˈnotʃe]",
+            "translation": "Ils nous les ont racontés hier soir.",
+            "note": "Le pronom 'nos' reste invariable."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Cambio de preposición",
+        "translation": "Changement de préposition",
+        "examples": [
+          {
+            "original": "Confío en ti plenamente.",
+            "phonetic": "[konˈfio en ti plenaˈmente]",
+            "translation": "J'ai entièrement confiance en toi.",
+            "note": "Ne pas traduire 'confiar a' mais 'confiar en' (compter sur)."
+          },
+          {
+            "original": "El resultado influye en la decisión.",
+            "phonetic": "[el rezulˈtaðo iɱˈfluje en la ðeθiˈsjon]",
+            "translation": "Le résultat influence la décision.",
+            "note": "En espagnol, 'influir en' et non 'influencer sur' comme en français."
+          },
+          {
+            "original": "Sueño con viajar a Japón.",
+            "phonetic": "[ˈsweɲo kom bjaˈxaɾ a xaˈpon]",
+            "translation": "Je rêve de voyager au Japon.",
+            "note": "'Soñar con' vs 'rêver de' : préposition différente."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Subjuntivo y estructuras complejas",
+        "translation": "Subjonctif et structures complexes",
+        "examples": [
+          {
+            "original": "A pesar de que llegara tarde, lo esperamos.",
+            "phonetic": "[a peˈsaɾ ðe ke ʝeˈɣaɾa ˈtaɾðe lo espeˈɾamos]",
+            "translation": "Bien qu'il soit arrivé en retard, nous l'avons attendu.",
+            "note": "Subjonctif après 'a pesar de que' (bien que)."
+          },
+          {
+            "original": "En cuanto vea a María, se lo diré.",
+            "phonetic": "[en ˈkwanto ˈbea a maˈɾia se lo diˈɾe]",
+            "translation": "Dès que je verrai María, je le lui dirai.",
+            "note": "Subjonctif après 'en cuanto' + futur probable."
+          },
+          {
+            "original": "No soporto que me mientan.",
+            "phonetic": "[no soˈpoɾto ke me ˈmjentan]",
+            "translation": "Je ne supporte pas qu'on me mente.",
+            "note": "Subjonctif après 'no soportar que'."
+          },
+          {
+            "original": "Al llegar a casa, me di cuenta de que había olvidado las llaves.",
+            "phonetic": "[al ʝeˈɣaɾ a ˈkasa me ði ˈkwenta ðe ke aˈβia olβiˈðaðo las ˈʎaβes]",
+            "translation": "En arrivant à la maison, je me suis rendu compte que j'avais oublié les clés.",
+            "note": "'Al + infinitif' = 'en + participe présent'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "fr": "Constructions verbales complexes : double objet et prépositions"
+    }
+  },
+  {
+    "id": "fr_C1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Matices entre tiempos y aspectos verbales",
+    "bridge": "En français, le choix entre passé composé et imparfait est souvent guidé par la narration, mais en espagnol, l'aspect perfectif/imperfectif est plus strictement différencié, surtout avec des verbes comme 'saber', 'conocer' ou 'poder'. Par exemple, 'sabía' (je savais) implique un état permanent, tandis que 'supe' (j'ai su) marque l'irruption d'une information. De plus, le contraste entre l'imparfait et le passé simple en espagnol est plus net qu'en français où le passé simple est littéraire. Attention aussi à l'emploi du subjonctif après des expressions de temps comme 'cuando' ou 'hasta que' si l'action est future.",
+    "rule": "En espagnol, l'aspect est fondamental : l'imparfait (-aba, -ía) exprime l'action en cours, l'habitude ou la description dans le passé, sans limite temporelle. Le passé simple (pretérito indefinido : -é, -ó, etc.) exprime une action ponctuelle, achevée, souvent avec une limite claire. Pour les verbes d'état comme 'saber', 'poder', 'querer', le choix change le sens : 'no podía' = je ne pouvais pas (état), 'no pude' = je n'y suis pas arrivé (résultat). De plus, le futur simple vs le futur proche (ir a + infinitif) : le futur simple est plus formel ou exprime une supposition, tandis que le futur proche est plus courant pour un futur immédiat. Au C1, il faut aussi maîtriser l'emploi du subjonctif dans les subordonnées temporelles ('cuando llegue', 'hasta que no vuelva') pour des actions futures non réalisées, et le contraste entre l'indicatif et le subjonctif pour exprimer la nuance de réalité ou d'hypothèse.",
+    "concept_examples": [
+      {
+        "text": "Cuando llegué a casa, sonó el teléfono.",
+        "translation": "Quand je suis arrivé à la maison, le téléphone a sonné.",
+        "phonetic": "[ˈkwando ʝeˈɣe a ˈkasa | soˈno el teˈlefono]"
+      },
+      {
+        "text": "Mientras leía, ella miraba la televisión.",
+        "translation": "Pendant que je lisais, elle regardait la télévision.",
+        "phonetic": "[ˈmjentɾas leˈia | ˈeʎa miˈɾaba la teleβiˈsjon]"
+      },
+      {
+        "text": "Ya sabía que vendrías, pero no sabía cuándo.",
+        "translation": "Je savais déjà que tu viendrais, mais je ne savais pas quand.",
+        "phonetic": "[ʝa saˈβia ke benˈdɾias | ˈpeɾo no saˈβia ˈkwando]"
+      },
+      {
+        "text": "Si hubiera sabido, no habría venido.",
+        "translation": "Si j'avais su, je ne serais pas venu.",
+        "phonetic": "[si uˈβjeɾa saˈβiðo | no aˈβɾia beˈniðo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Cuando él llegaré, hablaremos.",
+      "correct": "Cuando él llegue, hablaremos.",
+      "correct_alt": "Cuando él llegará, hablaremos. (moins courant, sens de supposition)",
+      "explanation": "En français, on utilise souvent le futur dans la subordonnée de temps (quand il arrivera), mais en espagnol, après 'cuando' pour une action future, on emploie le subjonctif présent. C'est une erreur typique des francophones qui calquent le futur. Rappelez-vous : 'cuando' + subjonctif si l'action est future et hypothétique."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Imparfait vs passé simple",
+        "translation": "Imparfait vs passé simple",
+        "examples": [
+          {
+            "original": "De niño, jugaba en el parque todos los días.",
+            "phonetic": "[de ˈniɲo | xuˈɣaβa en el ˈpaɾke ˈtoðos los ˈðias]",
+            "translation": "Enfant, je jouais dans le parc tous les jours.",
+            "note": "L'imparfait exprime une habitude dans le passé."
+          },
+          {
+            "original": "Ayer jugué un partido de tenis en el parque.",
+            "phonetic": "[aˈʝeɾ xuˈɣe um paɾˈtiðo ðe ˈtenis en el ˈpaɾke]",
+            "translation": "Hier, j'ai joué un match de tennis dans le parc.",
+            "note": "Le passé simple marque une action ponctuelle, achevée."
+          },
+          {
+            "original": "Mientras cocinaba, llamaron a la puerta.",
+            "phonetic": "[ˈmjentɾas koθiˈnaβa | ʎaˈmaɾon a la ˈpweɾta]",
+            "translation": "Pendant que je cuisinais, on a frappé à la porte.",
+            "note": "L'imparfait pour l'arrière-plan, le passé simple pour l'événement."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Changement de sens avec verbes modaux",
+        "translation": "Changement de sens avec verbes modaux",
+        "examples": [
+          {
+            "original": "No podía dormir por el ruido.",
+            "phonetic": "[no poˈðia dɾoɾˈmiɾ poɾ el ˈrwiðo]",
+            "translation": "Je ne pouvais pas dormir à cause du bruit.",
+            "note": "Imparfait : incapacité continue."
+          },
+          {
+            "original": "No pude dormir anoche.",
+            "phonetic": "[no ˈpuðe dɾoɾˈmiɾ aˈnoʧe]",
+            "translation": "Je n'ai pas pu dormir cette nuit.",
+            "note": "Passé simple : l'incapacité a duré et a eu une fin."
+          },
+          {
+            "original": "Conocía a María desde hace años.",
+            "phonetic": "[koˈnoθia a maˈɾia ˈdezðe ˈaθe ˈaɲos]",
+            "translation": "Je connaissais María depuis des années.",
+            "note": "Imparfait : connaissance continue."
+          },
+          {
+            "original": "Conocí a María en una fiesta.",
+            "phonetic": "[koˈnoθi a maˈɾia en ˈuna ˈfjesta]",
+            "translation": "J'ai rencontré María à une fête.",
+            "note": "Passé simple : le début de la connaissance."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Futur simple vs futur proche",
+        "translation": "Futur simple vs futur proche",
+        "examples": [
+          {
+            "original": "Mañana viajaré a Madrid.",
+            "phonetic": "[maˈɲana bjaˈxaɾe a maˈðɾið]",
+            "translation": "Demain, je voyagerai à Madrid.",
+            "note": "Futur simple : action plus éloignée ou formelle."
+          },
+          {
+            "original": "Voy a viajar a Madrid la semana que viene.",
+            "phonetic": "[ˈboi a bjaˈxaɾ a maˈðɾið la seˈmana ke ˈβjene]",
+            "translation": "Je vais voyager à Madrid la semaine prochaine.",
+            "note": "Futur proche : action imminente ou décidée."
+          },
+          {
+            "original": "Serán las cinco ahora mismo.",
+            "phonetic": "[seˈɾan las ˈθinko aˈoɾa ˈmizmo]",
+            "translation": "Il doit être cinq heures maintenant.",
+            "note": "Futur simple pour exprimer une supposition sur le présent."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "fr": "Nuances de temps et d'aspect"
+    }
+  },
+  {
+    "id": "fr_C1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Pasivas avanzadas / Passives avancées",
+    "bridge": "En français, vous utilisez des constructions impersonnelles comme 'il est dit que' ou 'on croit que' pour exprimer des opinions ou des rumeurs. En espagnol, la structure équivalente utilise souvent le pronom 'se' (se dice que) ou des formes comme 'se cree que', mais il existe aussi des constructions avec le verbe 'estar' + participe passé et le 'pasivo reflejo'. Attention : contrairement au français, l'espagnol utilise fréquemment le 'se' non seulement pour le passif réfléchi, mais aussi pour l'impersonnel, ce qui peut prêter à confusion. De plus, les constructions avec 'ser' + participe passé sont souvent remplacées par le 'pasivo reflejo' dans la langue courante.",
+    "rule": "En espagnol, le passif avancé se construit de plusieurs manières :\n1. Le 'pasivo reflejo' : se + verbe à la troisième personne (singulier ou pluriel) + sujet. Exemple : Se dice que... (On dit que...), Se cree que (On croit que). Le verbe s'accorde avec le sujet : Se venden casas (On vend des maisons), mais Se habla español (On parle espagnol).\n2. Le passif avec 'ser' + participe passé : utilisé pour des actions spécifiques et souvent suivi de 'por' (par). Exemple : El informe fue redactado por el director. Ce type de passif est plus fréquent dans la langue écrite et formelle.\n3. Le passif d'état : 'estar' + participe passé, indique le résultat d'une action. Exemple : La puerta está cerrada.\n4. Les constructions impersonnelles avec 'se' : se + verbe transitif à la troisième personne du singulier, sans sujet explicite. Exemple : Se trabaja mucho aquí.\nPour le niveau C1, il est important de maîtriser les nuances : le 'pasivo reflejo' est courant dans la langue quotidienne, alors que le passif avec 'ser' est plus formel. Attention aux verbes qui changent de sens au passif (ex. 'parecer' vs 'ser parecido').",
+    "concept_examples": [
+      {
+        "text": "Se dice que el nuevo presidente es muy carismático.",
+        "translation": "On dit que le nouveau président est très charismatique.",
+        "phonetic": "se ˈdiθe ke el ˈnweβo pɾesiˈðente es ˈmuj kaɾisˈmatiko"
+      },
+      {
+        "text": "Se cree que el tesoro está escondido en las montañas.",
+        "translation": "On croit que le trésor est caché dans les montagnes.",
+        "phonetic": "se ˈkɾe ke el teˈsoɾo esˈta eskonˈdiðo en las monˈtaɲas"
+      },
+      {
+        "text": "El proyecto fue realizado por un equipo internacional.",
+        "translation": "Le projet a été réalisé par une équipe internationale.",
+        "phonetic": "el pɾoˈʝekto ˈfwe reaˈliðado poɾ un eˈkipo inteɾnasjoˈnal"
+      },
+      {
+        "text": "En esta empresa se habla inglés y español.",
+        "translation": "Dans cette entreprise, on parle anglais et espagnol.",
+        "phonetic": "en ˈesta empɾeˈsa se ˈabla iŋˈɡles i espaˈɲol"
+      }
+    ],
+    "common_error": {
+      "wrong": "Se dice que el presidente es muy carismático.",
+      "correct": "Se dice que el presidente es muy carismático.",
+      "correct_alt": "Dicen que el presidente es muy carismático.",
+      "explanation": "Cette phrase est en fait correcte ! L'erreur fréquente des francophones est de traduire littéralement 'il est dit que' par 'es dicho que'. En espagnol, on utilise 'se dice que' ou 'dicen que'. Évitez donc 'es dicho que' qui n'existe pas. Une autre erreur est de confondre 'se vende' (singulier) et 'se venden' (pluriel) : on dit 'se venden casas' et non 'se vende casas'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Pasivo reflejo",
+        "translation": "Passif réfléchi",
+        "examples": [
+          {
+            "original": "Se venden coches usados.",
+            "phonetic": "se ˈbenden ˈkoches uˈsaðos",
+            "translation": "On vend des voitures d'occasion.",
+            "note": "'Se venden' s'accorde avec 'coches' (pluriel)."
+          },
+          {
+            "original": "Se habla español en esta tienda.",
+            "phonetic": "se ˈabla espaˈɲol en ˈesta ˈtjenda",
+            "translation": "On parle espagnol dans ce magasin.",
+            "note": "Avec un sujet non comptable (comme une langue), on utilise le singulier."
+          },
+          {
+            "original": "Se busca a los responsables del accidente.",
+            "phonetic": "se ˈbuska a los resˈponsaβles del aksjˈdente",
+            "translation": "On recherche les responsables de l'accident.",
+            "note": "Devant une personne, on ajoute 'a' (accusatif prépositionnel)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pasivo con ser + participio",
+        "translation": "Passif avec ser + participe passé",
+        "examples": [
+          {
+            "original": "La conferencia fue suspendida por el mal tiempo.",
+            "phonetic": "la konfeˈɾenθja ˈfwe suspendaˈða poɾ el mal ˈtjempo",
+            "translation": "La conférence a été suspendue à cause du mauvais temps.",
+            "note": "Le participe passé s'accorde en genre et nombre avec le sujet."
+          },
+          {
+            "original": "Los resultados serán publicados el lunes.",
+            "phonetic": "los resulˈtaðos seˈɾan pɾuβliˈkaðos el ˈlunes",
+            "translation": "Les résultats seront publiés lundi.",
+            "note": "Le passif avec 'ser' est courant dans les registres formels."
+          },
+          {
+            "original": "El error fue corregido por el técnico.",
+            "phonetic": "el eˈro ˈfwe koreˈxiðo poɾ el ˈtekniko",
+            "translation": "L'erreur a été corrigée par le technicien.",
+            "note": "L'agent est introduit par 'por'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Construcciones impersonales y pasivas de estado",
+        "translation": "Constructions impersonnelles et passifs d'état",
+        "examples": [
+          {
+            "original": "Se está trabajando en el proyecto ahora mismo.",
+            "phonetic": "se esˈta tɾaβaˈxando en el pɾoˈʝekto aˈoɾa ˈmizmo",
+            "translation": "On est en train de travailler sur le projet en ce moment.",
+            "note": "La construction impersonnelle avec 'se' peut se combiner avec des temps progressifs."
+          },
+          {
+            "original": "La puerta está cerrada desde anoche.",
+            "phonetic": "la ˈpweɾta esˈta θeˈraða ˈdezðe aˈnotʃe",
+            "translation": "La porte est fermée depuis hier soir.",
+            "note": "'Estar' + participe passé exprime un état résultant."
+          },
+          {
+            "original": "Se dice que habrá elecciones anticipadas.",
+            "phonetic": "se ˈdiθe ke aˈβɾa elekˈθjones antisiˈpaðas",
+            "translation": "On dit qu'il y aura des élections anticipées.",
+            "note": "La structure impersonnelle 'se dice que' est très fréquente dans les médias."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "fr": "Passives avancées"
+    }
+  }
+]

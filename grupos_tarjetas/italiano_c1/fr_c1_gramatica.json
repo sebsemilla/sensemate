@@ -1,0 +1,1224 @@
+[
+  {
+    "id": "fr_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "La frase complessa: subordinate implicite ed esplicite / La phrase complexe : subordonnées implicites et explicites",
+    "bridge": "En français, vous avez l'habitude d'utiliser l'infinitif après certaines prépositions, mais en italien, le choix entre subordonnée explicite (avec indicatif ou subjonctif) et implicite (avec infinitif) est beaucoup plus rigoureux et dépend de la corrélation des sujets. Attention aux faux amis : le gérundif français (en -ant) correspond souvent à un gérondif italien en -ando/-endo, mais pas toujours. De plus, l'italien utilise fréquemment le subjonctif dans des subordonnées où le français utilise l'indicatif, notamment après des conjonctions comme 'sebbene' ou 'affinché'.",
+    "rule": "En italien, les subordonnées circonstancielles peuvent être explicites (avec un verbe conjugué) ou implicites (avec infinitif). L'emploi de l'infinitif est obligatoire quand le sujet de la subordonnée est le même que celui de la principale, et on utilise la préposition 'per' pour le but, 'senza' pour la manière négative, 'prima di' pour l'antériorité. Quand les sujets sont différents, on doit utiliser une subordonnée explicite avec 'perché', 'affinché' (subjonctif), 'poiché', 'siccome' (indicatif), etc. Après 'sebbene', 'benché', 'nonostante', le subjonctif est de règle (même si en français on utilise souvent l'indicatif). Le gérondif italien se construit avec le radical du verbe + -ando (verbes en -are) ou -endo (verbes en -ere/-ire), et il est invariable ; il exprime la manière, la cause, la condition, etc. Il correspond parfois au participe présent français, parfois au gérondif français, mais il ne s'emploie jamais comme adjectif. Attention : après 'senza', on utilise toujours l'infinitif (implicite) si le sujet est le même, mais on peut avoir 'senza che' + subjonctif si le sujet est différent.",
+    "concept_examples": [
+      {
+        "text": "Prima di uscire, chiudi la porta.",
+        "translation": "Avant de sortir, ferme la porte.",
+        "phonetic": "[ˈpriːma di uʃˈʃiːre ˈkjuːdi la ˈpɔrta]"
+      },
+      {
+        "text": "Sebbene sia stanco, continua a lavorare.",
+        "translation": "Bien qu'il soit fatigué, il continue à travailler.",
+        "phonetic": "[sebˈbɛːne ˈsiːa ˈstaŋko konˈtiːnwa a lavoˈraːre]"
+      },
+      {
+        "text": "Riscaldando l'acqua, si trasforma in vapore.",
+        "translation": "En chauffant l'eau, elle se transforme en vapeur.",
+        "phonetic": "[riskalˈdando ˈlaːkwa si traˈsfɔrma im vaˈpoːre]"
+      },
+      {
+        "text": "È partito senza salutare nessuno.",
+        "translation": "Il est parti sans saluer personne.",
+        "phonetic": "[ɛ parˈtiːto ˈsɛnːsa saluˈtaːre nesˈsuːno]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Sebbene è stanco, continua a lavorare.",
+      "correct": "Sebbene sia stanco, continua a lavorare.",
+      "correct_alt": "Nonostante sia stanco, continua a lavorare.",
+      "explanation": "En français, après 'bien que' on utilise le subjonctif, mais de nombreux francophones ont tendance à utiliser l'indicatif en italien sous l'influence de constructions comme 'bien qu'il est' (incorrect en français aussi). En italien, 'sebbene' et 'nonostante' exigent le subjonctif. Pour éviter cette erreur, mémorisez que ces conjonctions sont toujours suivies du subjonctif (même si le verbe est régulier). Pensez à la forme du subjonctif présent, par exemple 'sia' pour 'essere'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Subordinate implicite con infinito",
+        "translation": "Subordonnées implicites avec infinitif",
+        "examples": [
+          {
+            "original": "Per imparare l'italiano, ascolto ogni giorno i podcast.",
+            "phonetic": "[per impaˈraːre litaˈljaːno aˈskɔlto ˈɔɲːi ˈdʒɔrno i ˈpɔdːkast]",
+            "translation": "Pour apprendre l'italien, j'écoute des podcasts tous les jours.",
+            "note": "Le but s'exprime avec 'per' + infinitif, équivalent du français 'pour' + infinitif. Le sujet implicite est le même que celui de la principale."
+          },
+          {
+            "original": "Senza volerlo, ho rotto il vaso.",
+            "phonetic": "[ˈsɛnːsa volˈerlo ɔ ˈrɔtto il ˈvaːzo]",
+            "translation": "Sans le vouloir, j'ai cassé le vase.",
+            "note": "'Senza' + infinitif. En français, on utilise aussi l'infinitif, donc pas de piège ici."
+          },
+          {
+            "original": "Prima di rispondere, pensa bene.",
+            "phonetic": "[ˈpriːma di risˈpondere ˈpɛnza ˈbɛːne]",
+            "translation": "Avant de répondre, réfléchis bien.",
+            "note": "La préposition 'prima di' + infinitif est la norme. En français, on emploie 'avant de' + infinitif. Attention à ne pas utiliser 'prima che' avec le même sujet."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Subordinate esplicite con subjuntivo",
+        "translation": "Subordonnées explicites avec subjonctif",
+        "examples": [
+          {
+            "original": "Affinché tu possa capire, ti faccio un esempio.",
+            "phonetic": "[affinˈke tu ˈpɔsːa kaˈpiːre ti ˈfatːʃo un eˈzɛːmpjo]",
+            "translation": "Pour que tu puisses comprendre, je te donne un exemple.",
+            "note": "'Affinché' est toujours suivi du subjonctif. En français, 'pour que' exige aussi le subjonctif, mais attention à la différence de mode avec le but exprimé par 'per' (infinitif) quand les sujets sont différents."
+          },
+          {
+            "original": "Benché piova, andiamo al mare.",
+            "phonetic": "[benˈke ˈpjɔːva anˈdjaːmo al ˈmaːre]",
+            "translation": "Bien qu'il pleuve, nous allons à la mer.",
+            "note": "'Benché' (bien que) + subjonctif. En français, on utilise aussi le subjonctif, mais la forme italienne peut être surprenante pour les verbes en -are (piova)."
+          },
+          {
+            "original": "Nonostante fosse tardi, è rimasto a chiacchierare.",
+            "phonetic": "[ˌnonosˈtante ˈfɔsːe ˈtardi ɛ riˈmasto a kjakːjeˈraːre]",
+            "translation": "Bien qu'il soit tard, il est resté à bavarder.",
+            "note": "Ici, 'nonostante' est suivi de l'imparfait du subjonctif. En français, on utilise l'imparfait du subjonctif (fût) ou le plus-que-parfait, mais souvent à l'oral on le remplace par l'indicatif. En italien, le subjonctif est obligatoire."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Gérondif et constructions implicites",
+        "translation": "Gérondif et constructions implicites",
+        "examples": [
+          {
+            "original": "Camminando per strada, ho incontrato un vecchio amico.",
+            "phonetic": "[kamːiˈnando per ˈstraːda ɔ inkonˈtrato un ˈvɛkkjo aˈmiːko]",
+            "translation": "En marchant dans la rue, j'ai rencontré un vieil ami.",
+            "note": "Le gérondif italien 'camminando' correspond au gérondif français 'en marchant'. Le sujet implicite est le même que celui de la principale."
+          },
+          {
+            "original": "Essendo stanco, sono rimasto a casa.",
+            "phonetic": "[esˈsɛndo ˈstaŋko ˈsɔːno riˈmasto a ˈkaːza]",
+            "translation": "Étant fatigué, je suis resté à la maison.",
+            "note": "Le gérondif peut exprimer la cause. En français, on utilise parfois le participe présent ('étant'), parfois le gérondif ('en étant'), mais en italien seul le gérondif est correct ici."
+          },
+          {
+            "original": "Non avendo studiato, ho preso un brutto voto.",
+            "phonetic": "[non aˈvɛndo stuˈdjaːto ɔ ˈpreːzo um ˈbrutto ˈvɔːto]",
+            "translation": "N'ayant pas étudié, j'ai eu une mauvaise note.",
+            "note": "Le gérondif passé (avendo + participe passé) exprime l'antériorité. En français, on utilise aussi le participe passé composé ('ayant étudié'), mais l'italien préfère souvent cette construction."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "fr": "Syntaxe avancée : subordonnées implicites et explicites"
+    }
+  },
+  {
+    "id": "fr_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Registro e stile: formale, informale e neutro / Registre et style : formel, informel et neutre",
+    "bridge": "En italien, le choix du registre repose sur des indices lexicaux et syntaxiques souvent différents du français. Par exemple, l'italien utilise davantage le « tu » dans les contextes professionnels informels, tandis que le « Lei » de politesse (avec majuscule) est employé dans la correspondance formelle. À l'écrit, l'italien préfère souvent la construction « si passivante » (ex. « si ritiene ») là où le français utiliserait « on estime » ou la voix passive. Faites attention aux « connettivi » (connecteurs) : « pertanto » est plus soutenu que « quindi », et l'emploi du passé simple (passato remoto) au sud est normal à l'oral, ce qui surprend un francophone. Apprenez à alterner « tu », « Lei », « voi » (vouvoiement pluriel) et les formules de salutation comme « Salve » (neutre) vs « Ciao » (fam.).",
+    "rule": "En italien, le registre se manifeste à travers : 1) le choix de la forme de politesse : « tu » (informel), « Lei » (formel singulier, toujours avec la 3e personne du singulier, même féminin pour un homme : « Lei è gentile »), « voi » (vouvoiement pluriel, historiquement utilisé aussi comme politesse au singulier dans certaines régions). 2) Le lexique : formel (« effettuare », « pervenire », « in merito a ») vs informel (« fare », « arrivare », « riguardo a »). 3) La syntaxe : le formel utilise des subordonnées complexes, le congiontivo (subjonctif) est plus fréquent, ainsi que le futur antérieur pour l'hypothèse dans les textes juridiques. 4) Temps verbaux : l'indicatif présent pour l'accord, le passé composé pour le récit, le passato remoto pour l'historique, l'imparfait du subjonctif dans les hypothèses formelles. Évitez les « dislocazioni » (dislocations à gauche) en registre formel écrit, mais elles sont courantes à l'oral informel. Pour les formules d'ouverture : « Egregio » (très formel), « Gentile » (formel), « Salve » (neutre), « Ciao » (informel). Pour les formules de clôture : « Distinti saluti », « Cordiali saluti », « Un caro saluto ».",
+    "concept_examples": [
+      {
+        "text": "Nel documento si sottolinea l'importanza della trasparenza.",
+        "translation": "Dans le document, on souligne l'importance de la transparence.",
+        "phonetic": "/ nel doˈkumento si sottolinˈe.a limportˈantsa della trasparenˈtsa /"
+      },
+      {
+        "text": "Lei potrebbe inviarci i dettagli entro domani?",
+        "translation": "Pourriez-vous nous envoyer les détails d'ici demain ?",
+        "phonetic": "/ ˈlei potˈrebbe inviˈartʃi i dettaʎˈʎi ˈentro doˈmani? /"
+      },
+      {
+        "text": "Ti ho chiamato ma non hai risposto.",
+        "translation": "Je t'ai appelé mais tu n'as pas répondu.",
+        "phonetic": "/ ti o kjaˈmato ma non ˈai riˈsposto /"
+      },
+      {
+        "text": "Non credo che sia il caso di preoccuparsi.",
+        "translation": "Je ne pense pas qu'il soit nécessaire de s'inquiéter.",
+        "phonetic": "/ non ˈkredo ke ˈsia il ˈkazo di preokkupˈarsi /"
+      }
+    ],
+    "common_error": {
+      "wrong": "Lui va bene? (vouvoiement incorrect)",
+      "correct": "Lei va bene?",
+      "correct_alt": "Lei sta bene?",
+      "explanation": "Les francophones ont tendance à utiliser « lui » pour le vouvoiement par analogie avec « il » français, mais en italien, la forme de politesse est « Lei » (il/elle : on s'adresse à l'interlocuteur en utilisant la 3e personne du singulier). De plus, le verbe « andare bene » peut être correct pour un état, mais en contexte formel, « stare bene » est plus adapté pour une personne. Évitez également d'écrire « lui » avec une majuscule, car cela a un sens différent (il, lui)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Registro informale",
+        "translation": "Registre informel",
+        "examples": [
+          {
+            "original": "Ci vediamo stasera, dai!",
+            "phonetic": "/ tʃi veˈdjamo staˈsera ˈdai/",
+            "translation": "On se voit ce soir, allez !",
+            "note": "L'emploi de « dai » comme interjection encourageante est typique de la conversation informelle."
+          },
+          {
+            "original": "Sto bene, grazie. E tu?",
+            "phonetic": "/ sto ˈbɛne ˈɡrattsje e ˈtu/",
+            "translation": "Je vais bien, merci. Et toi ?",
+            "note": "Le « tu » et la forme contractée de « come stai » sont courants entre amis."
+          },
+          {
+            "original": "Che bello che sei venuto!",
+            "phonetic": "/ ke ˈbɛllo ke sei veˈnuto/",
+            "translation": "Comme c'est bien que tu sois venu !",
+            "note": "L'emploi du subjonctif après « che » est maintenu même à l'oral informel, mais avec le passé composé."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Registro neutro",
+        "translation": "Registre neutre",
+        "examples": [
+          {
+            "original": "Salve, vorrei informazioni sull'orario dei treni.",
+            "phonetic": "/ ˈsalve vorˈrɛi informaˈtsjoni sulloˈrarjo dei ˈtrɛni/",
+            "translation": "Bonjour, je voudrais des informations sur les horaires des trains.",
+            "note": "« Salve » est un salut neutre, ni trop formel, ni trop informel, adapté aux inconnus."
+          },
+          {
+            "original": "Potrebbe dirmi dove si trova la stazione?",
+            "phonetic": "/ poˈtrebbe ˈdirmi ˈdove si ˈtrɔva la statˈtsjone/",
+            "translation": "Pourriez-vous me dire où se trouve la gare ?",
+            "note": "L'emploi du conditionnel « potrebbe » est une forme de politesse neutre."
+          },
+          {
+            "original": "Il problema è che non abbiamo abbastanza tempo.",
+            "phonetic": "/ il proˈblɛma ɛ ke non abˈbjamo abbaˈstantsa ˈtɛmpo/",
+            "translation": "Le problème est que nous n'avons pas assez de temps.",
+            "note": "Cette construction avec « il problema è che » est un registre standard courant."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Registro formale",
+        "translation": "Registre formel",
+        "examples": [
+          {
+            "original": "Egregio Direttore, desidero richiedere un colloquio.",
+            "phonetic": "/ eˈɡrɛdʒo diretˈtore deˈzidero riˈkjɛdere un kolˈlɔkwo/",
+            "translation": "Monsieur le Directeur, je souhaite demander un entretien.",
+            "note": "« Egregio » est réservé à la correspondance écrite très formelle, souvent administrative."
+          },
+          {
+            "original": "Le sarei grato se poteste fornirmi ulteriori dettagli.",
+            "phonetic": "/ le saˈrɛi ˈɡrato se poˈteste forˈnirmi ulteriˈori deˈttaʎʎi/",
+            "translation": "Je vous serais reconnaissant de bien vouloir me fournir des détails supplémentaires.",
+            "note": "Le conditionnel « sarei » et l'imparfait du subjonctif « poteste » sont des marqueurs de formalité élevée."
+          },
+          {
+            "original": "In riferimento alla Sua richiesta, Le comunichiamo che la procedura è in corso.",
+            "phonetic": "/ in riferiˈmento ˈalla ˈsua riˈkjesta le komunिˈkjamo ke la proˈtʃedura ɛ in ˈkorso/",
+            "translation": "En référence à votre demande, nous vous informons que la procédure est en cours.",
+            "note": "Les forrmules « in riferimento a » et « Le comunichiamo » sont typiques du registre formel écrit."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎩",
+    "phonetic": "",
+    "translations": {
+      "fr": "Registre et style : formel, informel et neutre"
+    }
+  },
+  {
+    "id": "fr_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Inversión y frontalización avanzadas / Inversion et thématisation avancées",
+    "bridge": "En français, l'inversion sujet-verbe est limitée à l'interrogation et à certains adverbes (à peine, peut-être). En italien, l'inversion et la frontalisation sont beaucoup plus fréquentes, surtout pour mettre en relief un élément (thème ou focus). Attention : le sujet postposé en italien entraîne souvent un accord différent avec le verbe, et l'ordre des mots peut changer le sens pragmatique. N'oubliez pas que le français tolère moins ces constructions, donc vous devrez adapter l'ordre à la traduction mais pas éviter l'inversion en italien lorsque le contexte expressif l'exige.",
+    "rule": "En italien, l'inversion (ou inversion stylistique) consiste à placer le sujet après le verbe, souvent avec une valeur emphatique ou pour équilibrer la phrase. On la trouve notamment : -- Après certains compléments circonstanciels antéposés : 'In questo momento arrivano i treni.' -- Dans les propositions relatives (en particulier avec le pronom 'cui') : 'Il ragazzo a cui ha parlato Maria è mio cugino.' -- Expressément avec des verbes inaccusatifs : 'Sono arrivate le lettere.' -- Dans les subordonnées avec 'come' ou 'quando' : 'Come ha detto il professore, ...' La frontalisation (ou topicalisation) consiste à placer un élément (objet, complément, adverbe) en tête de phrase sans inversion obligatoire, souvent repris par un pronom clitique de reprise : 'Il libro, lo ho già letto.' -- Une structure avec mise en relief : 'A Carlo, gli ho dato il libro.' (redoublement clitique). Contrairement au français, le redoublement clitique est courant et même obligatoire dans certains registres pour marquer le thème. Attention à l'accord du participe passé avec le sujet postposé : 'Sono arrivate le lettere' (fém. pluriel). Pour les formes pronominales, l'inversion est possible mais moins fréquente. Veillez à ne pas imiter le français en évitant toute inversion : elle est naturelle en italien, surtout à l'écrit et dans les tournures littéraires.",
+    "concept_examples": [
+      {
+        "text": "In quel paese vivono molte persone anziane.",
+        "translation": "Dans ce pays vivent de nombreuses personnes âgées.",
+        "phonetic": "iŋ ˈkwel paˈeze viˈvono ˈmolte perˈsone anˈtsjane"
+      },
+      {
+        "text": "Il libro, lo ho già letto.",
+        "translation": "Le livre, je l'ai déjà lu.",
+        "phonetic": "il ˈlibro lo ˈɔ dʒa ˈletto"
+      },
+      {
+        "text": "Sono arrivate le lettere.",
+        "translation": "Sont arrivées les lettres.",
+        "phonetic": "ˈsono arriˈvate le ˈlettere"
+      },
+      {
+        "text": "Non solo ha mentito, ma ha anche rubato.",
+        "translation": "Non seulement il a menti, mais il a aussi volé.",
+        "phonetic": "non ˈsolo a menˈtito ma a ˈaŋke ruˈbato"
+      }
+    ],
+    "common_error": {
+      "wrong": "In quel paese molte persone anziane vivono.",
+      "correct": "In quel paese vivono molte persone anziane.",
+      "correct_alt": "Molte persone anziane vivono in quel paese.",
+      "explanation": "L'erreur vient du calque du français où l'ordre sujet-verbe est plus rigide. En italien, lorsque l'on commence par un complément circonstanciel, l'inversion est souvent préférée pour équilibrer la phrase. Pour éviter la faute, pensez que l'italien peut rejeter le sujet après le verbe lorsque l'élément antéposé est long ou afin de mettre en valeur l'information nouvelle."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Inversione dopo complementi avverbiali",
+        "translation": "Inversion après les compléments adverbiaux",
+        "examples": [
+          {
+            "original": "Nel giardino crescono delle rose bellissime.",
+            "phonetic": "nel dʒarˈdino ˈkreʃʃono ˈdelle ˈroze bellisˈsime",
+            "translation": "Dans le jardin poussent de très belles roses.",
+            "note": "L'inversion est naturelle après un complément de lieu ; elle évite que la phrase soit perçue comme plate."
+          },
+          {
+            "original": "Dopo la cena arriva il dessert.",
+            "phonetic": "ˈdopo la ˈtʃena arˈriva il desˈser",
+            "translation": "Après le dîner, arrive le dessert.",
+            "note": "Le sujet est placé après le verbe pour introduire une information nouvelle (thème-rhème)."
+          },
+          {
+            "original": "Qui si parla italiano.",
+            "phonetic": "kwi si ˈparla itaˈljano",
+            "translation": "Ici on parle italien.",
+            "note": "Avec le 'si' impersonnel, l'ordre est souvent inversé ; le sujet ne s'exprime pas car on parle d'une action générale."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Anteposizione dell'oggetto con ripresa clitica",
+        "translation": "Antéposition de l'objet avec reprise clitique",
+        "examples": [
+          {
+            "original": "Quel film, l'ho visto due volte.",
+            "phonetic": "kwel film ˈlɔ ˈvisto ˈdue ˈvolte",
+            "translation": "Ce film, je l'ai vu deux fois.",
+            "note": "Le pronom 'lo' reprend le thème 'quel film'. C'est une structure de topicalisation."
+          },
+          {
+            "original": "Le mei amiche, non le ho invitate.",
+            "phonetic": "le mje aˈmike non le ˈɔ inviˈtate",
+            "translation": "Mes amies, je ne les ai pas invitées.",
+            "note": "Avec le complément d'objet féminin pluriel, la reprise clitique est indispensable pour la clarté."
+          },
+          {
+            "original": "A Carlo, gli ho dato un consiglio.",
+            "phonetic": "a ˈkarlo ʎi ˈɔ ˈdato un konˈsiʎʎo",
+            "translation": "À Carlo, je lui ai donné un conseil.",
+            "note": "Le redoublement du complément indirect (a Carlo, gli) est courant à l'oral et pour mettre en emphase."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Costruzioni con 'cui' e inversioni relative",
+        "translation": "Constructions avec 'cui' et inversions relatives",
+        "examples": [
+          {
+            "original": "Il motivo per cui partiamo è urgente.",
+            "phonetic": "il moˈtivo per kwi parˈtjamo ɛ urˈdʒente",
+            "translation": "La raison pour laquelle nous partons est urgente.",
+            "note": "Les relatives avec 'cui' exigent souvent l'antéposition de la préposition ; l'ordre du reste reste standard."
+          },
+          {
+            "original": "La ragazza a cui ho parlato è francese.",
+            "phonetic": "la raˈɡattsa a kwi ˈɔ parˈlato ɛ franˈtʃeze",
+            "translation": "La fille à qui j'ai parlé est française.",
+            "note": "L'inversion du sujet dans la relative (ho parlato io) est implicite ; on garde l'ordre sujet-verbe en réalité."
+          },
+          {
+            "original": "Come ha detto il professor, bisogna studiare molto.",
+            "phonetic": "ˈkome a ˈdetto il proˈfessor biˈzoɲɲa stuˈdʒare ˈmolto",
+            "translation": "Comme l'a dit le professeur, il faut étudier beaucoup.",
+            "note": "L'inversion est obligatoire après 'come' dans le sens de 'comme' ; noter la postposition du sujet."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "fr": "Inversion et thématisation avancées"
+    }
+  },
+  {
+    "id": "fr_C1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nominalizzazione complessa / Nominalisation complexe",
+    "bridge": "En français, la nominalisation d'un verbe en action se fait souvent avec des suffixes comme -tion, -ment ou -ance (transformer → transformation ; développer → développement). En italien, le processus est similaire mais avec des pièges : les suffixes -zione, -mento, -anza/-enza sont parfois interchangeables, mais parfois non. De plus, l'italien utilise fréquemment l'infinitif substantivé (il mangiare) là où le français préfère un nom dérivé ou un infinitif avec article (le manger, mais souvent la nourriture). Attention aussi aux faux amis : 'realizzazione' signifie 'réalisation' mais aussi 'accomplissement'.",
+    "rule": "La nominalisation complexe en italien (niveau C1) consiste à transformer des verbes, des adjectifs ou des phrases entières en noms abstraits pour exprimer un processus, une action ou un état. Les principaux suffixes sont :\n- -zione (de verbes en -are, -ire) : trasformare → trasformazione, decidere → decisione (irrégulier), produrre → produzione.\n- -mento (de verbes en -are, -ere) : sviluppare → sviluppo (parfois sans suffixe), cambiare → cambiamento, conoscere → conoscenza (suffixe -enza).\n- -anza/-enza (surtout pour les adjectifs et certains verbes) : tollerante → tolleranza, dipendere → dipendenza.\n- -tà (pour les adjectifs) : libero → libertà, possibile → possibilità.\n- Infinitif substantivé : il mangiare, il sapere, il vivere (souvent avec article défini).\n- Nominalisation à partir de participes passés : scritto (l'écrit), vissuto (le vécu).\n\nParticularités et pièges :\n- Certains verbes ont deux formes nominales avec des sens différents : 'lavorazione' (traitement) vs 'lavoro' (travail) ; 'costruzione' (construction) vs 'costrutto' (construction mentale).\n- Les noms en -zione sont souvent féminins et se terminent en -e.\n- Les infinitifs substantivés sont masculins singuliers, avec article 'il' ou 'lo' selon la voyelle.\n- Dans un registre soutenu, on utilise des nominalisations pour éviter les subordonnées : 'dopo la sua partenza' au lieu de 'dopo che è partito'.\n- Attention aux faux amis avec le français : 'l'educazione' (éducation, mais aussi bonnes manières), 'la realizzazione' (réalisation, mais aussi accomplissement), 'la fase' (phase, mais aussi étape).\n- Les nominalisations peuvent être accompagnées d'adjectifs ou de compléments prépositionnels : 'la rapida trasformazione del territorio'.",
+    "concept_examples": [
+      {
+        "text": "La trasformazione del paesaggio urbano è stata radicale.",
+        "translation": "La transformation du paysage urbain a été radicale.",
+        "phonetic": "/la trasfor.matˈtsjo.ne del pa.ezˈsad.dʒo urˈba.no ˌɛ ˈsta.ta ra.diˈka.le/"
+      },
+      {
+        "text": "Il cambiamento climatico richiede un'azione immediata.",
+        "translation": "Le changement climatique exige une action immédiate.",
+        "phonetic": "/il kam.bjaˈmen.to kliˈma.ti.ko riˈkjɛ.de u.na.ˈtsjo.ne im.meˈdja.ta/"
+      },
+      {
+        "text": "La conoscenza delle lingue straniere apre molte porte.",
+        "translation": "La connaissance des langues étrangères ouvre beaucoup de portes.",
+        "phonetic": "/la ko.noʃˈʃɛn.t͡sa ˈdel.le ˈliŋ.ɡwe straˈnjɛ.re ˈa.pre ˈmol.te ˈpɔr.te/"
+      },
+      {
+        "text": "Il sapere non occupa spazio.",
+        "translation": "Le savoir ne prend pas de place.",
+        "phonetic": "/il saˈpe.re non okˈku.pa ˈspat.t͡sjo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "La transformation de la ville a été très rapide.",
+      "correct": "La trasformazione della città è stata molto rapida.",
+      "correct_alt": "La trasformazione della città è stata rapidissima.",
+      "explanation": "Les francophones ont tendance à calquer le nom français 'transformation' sur l'italien 'trasformazione', ce qui est correct. Mais l'erreur fréquente est de faire l'accord du participe passé avec le sujet (comme en français) ou d'utiliser une préposition incorrecte. Ici, 'della città' (de la ville) et non 'della città di'. Une autre erreur est de confondre 'trasformazione' (processus) et 'trasformato' (résultat). De plus, l'italien préfère souvent une forme plus synthétique : 'rapidissima' au lieu de 'molto rapida'. Enfin, attention à l'ordre des mots : en italien, l'adjectif qualificatif se place souvent après le nom, mais certains adjectifs comme 'stata' doivent rester après l'auxiliaire 'è'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Suffissi principali: -zione, -mento, -anza/-enza",
+        "translation": "Principaux suffixes : -zione, -mento, -anza/-enza",
+        "examples": [
+          {
+            "original": "La produzione di energia solare è in aumento.",
+            "phonetic": "/la pro.dutˈt͡sjo.ne di eˈner.d͡ʒa soˈla.re ˌɛ in auˈmen.to/",
+            "translation": "La production d'énergie solaire est en augmentation.",
+            "note": "Le suffixe -zione transforme 'produrre' en 'produzione'. Attention : le double 'z' se prononce /tts/."
+          },
+          {
+            "original": "Lo sviluppo economico del paese è stato sostenuto.",
+            "phonetic": "/lo zviˈlup.po e.koˈnɔ.mi.ko del paˈe.ze ˌɛ ˈsta.to so.steˈnu.to/",
+            "translation": "Le développement économique du pays a été soutenu.",
+            "note": "-mento donne 'sviluppo' (ici, pas de -mento, mais le verbe 'sviluppare' donne 'sviluppo', ce qui est irrégulier)."
+          },
+          {
+            "original": "L'importanza della ricerca è fondamentale.",
+            "phonetic": "/lim.porˈtan.t͡sa ˈdel.la riˈt͡ʃer.ka ˌɛ fon.da.menˈta.le/",
+            "translation": "L'importance de la recherche est fondamentale.",
+            "note": "-anza est utilisé pour former des noms à partir de verbes/adjectifs en -are/-ente. Le français correspond à 'importance' (mais en français, c'est -ance)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Infinito sostantivato e nomi da participio",
+        "translation": "Infinitif substantivé et noms issus de participes",
+        "examples": [
+          {
+            "original": "Il mangiare sano è una scelta di vita.",
+            "phonetic": "/il manˈd͡ʒa.re ˈsa.no ˌɛ ˈu.na ˈʃel.ta di ˈvi.ta/",
+            "translation": "Le manger sain est un choix de vie.",
+            "note": "L'infinitif 'mangiare' est substantivé par l'article 'il'. En français, on emploie 'le fait de manger' ou 'la nourriture', mais l'infinitif substantivé est rare."
+          },
+          {
+            "original": "Il vissuto personale influenza le decisioni.",
+            "phonetic": "/il visˈsu.to per.soˈna.le in.fluˈen.t͡sa le de.t͡ʃiˈzjo.ni/",
+            "translation": "Le vécu personnel influence les décisions.",
+            "note": "Le participe passé 'vissuto' est utilisé comme nom. En français, 'le vécu' existe de même, mais l'italien l'emploie plus largement."
+          },
+          {
+            "original": "Il sapere è potere.",
+            "phonetic": "/il saˈpe.re ˌɛ poˈte.re/",
+            "translation": "Savoir, c'est pouvoir.",
+            "note": "Expression idiomatique. L'infinitif 'sapere' devient nom, avec une valeur générale."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nominalizzazioni a partire da frasi e costrutti complessi",
+        "translation": "Nominalisations issues de phrases et constructions complexes",
+        "examples": [
+          {
+            "original": "La rapida crescita demografica ha causato problemi urbanistici.",
+            "phonetic": "/la ˈra.pi.da ˈkreʃ.ʃi.ta de.moˈɡra.fi.ka a kauˈza.to proˈblɛ.mi ur.baˈni.sti.t͡ʃi/",
+            "translation": "La croissance démographique rapide a causé des problèmes d'urbanisme.",
+            "note": "La phrase 'la popolazione cresce rapidamente' est nominalisée en 'la rapida crescita demografica' (adjectif + nom + adjectif)."
+          },
+          {
+            "original": "Dopo la sua partenza, tutto è cambiato.",
+            "phonetic": "/ˈdo.po la ˈsu.a parˈtɛn.t͡sa ˈtu.to ˌɛ kamˈbja.to/",
+            "translation": "Après son départ, tout a changé.",
+            "note": "La subordonnée temporelle 'dopo che è partito' est remplacée par 'dopo la partenza' (nom + possessif)."
+          },
+          {
+            "original": "L'attesa dei risultati è stata ansiosa.",
+            "phonetic": "/latˈte.za dei ri.zulˈta.ti ˌɛ ˈsta.ta anˈsjo.za/",
+            "translation": "L'attente des résultats a été angoissante.",
+            "note": "Le verbe 'attendere' donne 'attesa'. Ici, on nominalise une action avec un complément d'objet ('dei risultati')."
+          },
+          {
+            "original": "La realizzazione del progetto richiede tempo.",
+            "phonetic": "/la re.a.lid.d͡zatˈt͡sjo.ne del proˈd͡ʒɛt.to riˈkjɛ.de ˈtem.po/",
+            "translation": "La réalisation du projet demande du temps.",
+            "note": "Faux ami : 'realizzazione' signifie bien 'réalisation' mais aussi 'accomplissement'. En français, 'réalisation' est correct, mais en italien, il a un sens plus large."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "fr": "Nominalisation complexe"
+    }
+  },
+  {
+    "id": "fr_C1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Ellissi e sostituzione / Ellipse et substitution",
+    "bridge": "En français, pour éviter les répétitions, on utilise 'le', 'la', 'les' ou 'en' (ex. : 'Je le fais', 'J'en ai'). En italien, le système est différent : on utilise souvent des pronoms comme 'lo', 'la', 'li', 'ne', mais aussi des structures avec 'anche' et 'nemmeno' pour exprimer l'accord ou le désaccord (comme 'so do I' en anglais). L'italien a tendance à sous-entendre le verbe quand le contexte est clair, ce qui peut surprendre un francophone qui a l'habitude de le répéter. Attention : en italien, on ne dit pas 'anche io faccio' mais plutôt 'anche io' ou 'lo faccio anche io', avec des nuances de registre et de forme.",
+    "rule": "L'ellipse en italien consiste à omettre des éléments linguistiques (verbe, syntagme) qui sont récupérables du contexte. On l'utilise souvent dans les réponses courtes, les coordinations et après certaines conjonctions. La substitution utilise des proformes comme 'lo', 'la', 'li', 'ne', 'ci', et des expressions comme 'anche', 'nemmeno', 'neanche', 'pure'. À l'oral, on peut répondre simplement 'Anche io' (moi aussi) ou 'Nemmeno io' (moi non plus). Pour exprimer l'accord avec une proposition, on utilise 'anche' + pronom sujet, ou 'lo' (ex. : 'Penso che sia giusto' → 'Lo penso anche io'). 'Ne' remplace un complément introduit par 'di' ou 'da' (ex. : 'Hai bisogno di aiuto? – Sì, ne ho bisogno'). 'Ci' remplace un lieu ou un complément introduit par 'a' ou 'in'. Au C1, on maîtrise aussi des formes plus complexes comme 'così' (pour remplacer une proposition) ou 'fare + lo' (pour remplacer un verbe).",
+    "concept_examples": [
+      {
+        "text": "Marco parla inglese, e anche io.",
+        "translation": "Marco parle anglais, et moi aussi.",
+        "phonetic": "/ˈmarko ˈparla inˈɡleze, e ˈanke ˈio/"
+      },
+      {
+        "text": "Non ho mai visto quel film, e nemmeno lei.",
+        "translation": "Je n'ai jamais vu ce film, et elle non plus.",
+        "phonetic": "/non ɔ ˈmai ˈvisto kwel ˈfilm, e nemˈmeno ˈlɛi/"
+      },
+      {
+        "text": "Puoi venire stasera? – Sì, credo di sì.",
+        "translation": "Peux-tu venir ce soir ? – Oui, je crois que oui.",
+        "phonetic": "/ˈpwɔi veˈnire staˈsera? ˈsi ˈkrɛdo di ˈsi/"
+      },
+      {
+        "text": "Hai finito i compiti? – Sì, li ho finiti.",
+        "translation": "As-tu fini les devoirs ? – Oui, je les ai finis.",
+        "phonetic": "/ˈai fiˈnito i ˈkompiti? ˈsi li ɔ fiˈniti/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Anche io lo penso che sia giusto.",
+      "correct": "Lo penso anche io.",
+      "correct_alt": "Penso anche io che sia giusto.",
+      "explanation": "L'erreur vient du fait qu'en français, on répète souvent le verbe et la proposition (ex. : 'Je le pense aussi que c'est juste'). En italien, la substitution avec 'lo' est suffisante et on ne garde pas la proposition. Il faut choisir entre la construction avec 'lo' + 'anche' et la construction avec le verbe + 'anche' + proposition, mais pas les deux à la fois."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ellissi del verbo in risposte brevi",
+        "translation": "Ellipse du verbe dans les réponses brèves",
+        "examples": [
+          {
+            "original": "Andiamo al cinema? – Sì, andiamo.",
+            "phonetic": "/anˈdʒamo al ˈtʃinema? ˈsi anˈdʒamo/",
+            "translation": "On va au cinéma ? – Oui, on y va.",
+            "note": "Réponse elliptique où le verbe est répété pour confirmer, mais on peut aussi répondre simplement 'Sì'."
+          },
+          {
+            "original": "Hai visto Maria? – No, non l'ho vista.",
+            "phonetic": "/ˈai ˈvisto maˈria? ˈnɔ non ˈlɔ ˈvista/",
+            "translation": "As-tu vu Maria ? – Non, je ne l'ai pas vue.",
+            "note": "Le pronom 'l'' remplace 'Maria' et le participe s'accorde en genre."
+          },
+          {
+            "original": "Vuoi un caffè? – Sì, grazie.",
+            "phonetic": "/ˈvwɔi un kafˈfɛ? ˈsi ˈɡrattsje/",
+            "translation": "Veux-tu un café ? – Oui, merci.",
+            "note": "Ellipse totale du verbe 'voglio' ; le contexte suffit."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Sostituzione con pronomi: lo, la, li, ne",
+        "translation": "Substitution avec pronoms : lo, la, li, ne",
+        "examples": [
+          {
+            "original": "Questo libro è interessante, ma non lo trovo.",
+            "phonetic": "/ˈkwesto ˈlibro ɛ intɛresˈsante, ma non lo ˈtrɔvo/",
+            "translation": "Ce livre est intéressant, mais je ne le trouve pas.",
+            "note": "'lo' remplace l'objet direct 'questo libro'."
+          },
+          {
+            "original": "Quante mele hai comprato? – Ne ho comprate tre.",
+            "phonetic": "/ˈkwante ˈmele ˈai komˈprato? ne ɔ komˈprate ˈtre/",
+            "translation": "Combien de pommes as-tu achetées ? – J'en ai acheté trois.",
+            "note": "'ne' remplace 'di mele' et s'accorde avec le participe passé."
+          },
+          {
+            "original": "Hai parlato con Luca? – Sì, ci ho parlato ieri.",
+            "phonetic": "/ˈai parˈlato kon ˈluka? ˈsi tʃi ɔ parˈlato ˈjɛri/",
+            "translation": "As-tu parlé avec Luca ? – Oui, je lui ai parlé hier.",
+            "note": "'ci' remplace 'con Luca' (complément indirect). Attention : en français on utilise 'lui', en italien 'ci' est plus idiomatique."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Sostituzione con 'così' e 'fare + lo'",
+        "translation": "Substitution avec 'così' et 'fare + lo'",
+        "examples": [
+          {
+            "original": "Dici che è difficile? – Sì, lo è.",
+            "phonetic": "/ˈdiʃi ke ɛ diffiˈtʃile? ˈsi lo ɛ/",
+            "translation": "Tu dis que c'est difficile ? – Oui, ça l'est.",
+            "note": "'lo' remplace l'attribut 'difficile'."
+          },
+          {
+            "original": "Dovresti studiare di più. – Lo farò.",
+            "phonetic": "/doˈvresti stuˈdʒare di ˈpju. lo faˈrɔ/",
+            "translation": "Tu devrais étudier plus. – Je le ferai.",
+            "note": "'lo' remplace l'action 'studiare di più'."
+          },
+          {
+            "original": "Se vieni, bene; se non vieni, farò così.",
+            "phonetic": "/se ˈvjeni ˈbɛne; se non ˈvjeni faˈrɔ koˈsi/",
+            "translation": "Si tu viens, bien ; si tu ne viens pas, je ferai ainsi.",
+            "note": "'così' remplace toute une proposition, comme 'ainsi' en français mais avec un usage plus large."
+          }
+        ]
+      }
+    ],
+    "emoji": "✂️",
+    "phonetic": "",
+    "translations": {
+      "fr": "Ellipse et substitution"
+    }
+  },
+  {
+    "id": "fr_C1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Marcatori discorsivi avanzati per la coesione / Marqueurs discursifs avancés pour la cohésion",
+    "bridge": "En français, pour structurer un discours ou un texte, on utilise des connecteurs comme 'en effet', 'par ailleurs', 'd'ailleurs' ou 'or'. En italien, les marqueurs discursifs ont des nuances subtiles qui ne correspondent pas toujours mot à mot : par exemple, 'anzi' peut signifier 'au contraire' ou même 'même plus exactement', tandis que 'piuttosto' est souvent utilisé pour exprimer une préférence ou une alternative, mais aussi pour atténuer. Attention : 'infatti' se traduit par 'en effet' mais s'emploie aussi pour 'c'est pourquoi'; et 'dunque' ne se traduit pas toujours par 'donc' – il peut avoir une valeur conclusive plus forte. Il faut surveiller l'ordre des mots et l'emploi des temps : ces marqueurs interagissent souvent avec les modes (indicatif vs subjonctif).",
+    "rule": "Les marqueurs discursifs avancés en italien servent à organiser un discours écrit ou oral pour assurer la cohésion et la progression logique. Les principaux sont :\n- **Anzi** (même, au contraire) : il introduit une rectification ou une précision. Placé en début de phrase ou après une pause, il surenchérit : 'È bello, anzi bellissimo.' Il exprime aussi un désaccord poli après une affirmation négative : 'Non è difficile, anzi è facile.'\n- **Piuttosto** (plutôt, mais aussi 'au contraire' dans certains contextes) : employé pour exprimer un choix préférentiel : 'Vieni piuttosto domani.' Dans un contexte contrastif, il signifie 'plutôt' : 'Non è stanco, piuttosto è annoiato.' Il s'utilise aussi comme adverbe intensif avec un sens atténuateur : 'È piuttosto interessante.'\n- **Infatti** (en effet, c'est pourquoi) : il introduit une justification ou une conséquence logique. Il se place généralement en début de phrase ou après un élément : 'Non è venuto, infatti era malato.' Il peut aussi être utilisé pour confirmer une hypothèse : 'Ti sembrava strano? Infatti lo era.'\n- **Dunque** (donc, par conséquent) : plus fort que 'quindi', il sert de conclusion logique après une série d'arguments. Il s'emploie en début de phrase ou après deux points : 'Abbiamo aspettato un'ora, dunque ce ne andiamo.' Il peut aussi être utilisé comme interjection de transition : 'Dunque, dicevamo...'\n- **Semmai** (si jamais, au cas où, ou plutôt) : exprime une éventualité : 'Semmai arriva, chiamami.' Dans un sens contrastif, il équivaut à 'si ce n'est que' : 'Non è bello, semmai interessante.'\n- **Semplicemente, realmente, fondamentalmente** : des adverbes modals qui ajoutent une évaluation subjective : 'Semplicemente non capisco.' 'Fondamentalmente, ha ragione.'\nCes marqueurs sont souvent accompagnés d'une virgule à l'écrit, et à l'oral d'une pause. Leur choix dépend de la relation sémantique entre deux énoncés (cause, conséquence, opposition, restriction). À un niveau C1, il est essentiel de comprendre leurs nuances stylistiques : 'anzi' et 'dunque' sont plus soutenus, alors que 'piuttosto' et 'infatti' sont plus courants. Il faut aussi savoir combiner ces marqueurs avec des adverbes de temps ou de lieu pour créer des effets de cohésion complexes.",
+    "concept_examples": [
+      {
+        "text": "Non è una critica, anzi un complimento.",
+        "translation": "Ce n'est pas une critique, mais plutôt un compliment.",
+        "phonetic": "non ˈɛ ˈuna ˈkritika | ˈantsi un kompliˈmento"
+      },
+      {
+        "text": "Ha piovuto tutto il giorno; infatti le strade sono ancora bagnate.",
+        "translation": "Il a plu toute la journée ; en effet, les rues sont encore mouillées.",
+        "phonetic": "ˈa pjuˈvuto ˈtutto il ˈdʒorno | inˈfatti le ˈstrade ˈsono anˈkora baɲˈɲate"
+      },
+      {
+        "text": "Abbiamo finito il lavoro, quindi possiamo riposarci.",
+        "translation": "Nous avons terminé le travail, donc nous pouvons nous reposer.",
+        "phonetic": "abˈbjamo fiˈnito il laˈvoro | ˈkwindi posˈsjamo ripoˈzartʃi"
+      },
+      {
+        "text": "Non è proprio sciocco, semmai un po' ingenuo.",
+        "translation": "Ce n'est pas vraiment sot, mais plutôt un peu naïf.",
+        "phonetic": "non ˈɛ ˈprɔprjo ʃˈʃɔkko | semˈmaj un ˈpo indˈʒɛnuo"
+      }
+    ],
+    "common_error": {
+      "wrong": "Non è stupido, infatti è intelligente.",
+      "correct": "Non è stupido, anzi è intelligente.",
+      "correct_alt": "Non è stupido, è intelligente.",
+      "explanation": "En français, 'en effet' sert souvent de confirmation ou de justification, mais en italien, 'infatti' sert uniquement à justifier ou confirmer ce qui précède, pas à introduire une opposition. Pour exprimer un contraste ou une correction, on utilise 'anzi' (au contraire, plutôt même). L'erreur vient du calque du français 'en effet' dans un contexte de rectification. Il faut bien distinguer 'infatti' (cause/conséquence) et 'anzi' (rectification/opposition)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Connettivi di causa e conseguenza",
+        "translation": "Connecteurs de cause et de conséquence",
+        "examples": [
+          {
+            "original": "È arrivato tardi; pertanto ha perso l'inizio dello spettacolo.",
+            "phonetic": "ˈɛ arriˈvato ˈtardi | perˈtanto ˈa ˈperso linˈitsjo ˈdello spetˈtakolo",
+            "translation": "Il est arrivé en retard ; c'est pourquoi il a manqué le début du spectacle.",
+            "note": "Le marqueur 'pertanto' est plus formel que 'quindi' ou 'dunque'."
+          },
+          {
+            "original": "Non ha superato l'esame, quindi dovrà ripeterlo.",
+            "phonetic": "non ˈa superˈato leˈzame | ˈkwindi doˈvra ripeteˈrlo",
+            "translation": "Il n'a pas réussi l'examen, donc il devra le repasser.",
+            "note": "On utilise souvent 'quindi' en italien parlé et écrit."
+          },
+          {
+            "original": "Tutto sommato, è stata una buona esperienza.",
+            "phonetic": "ˈtutto somˈmato | ˈɛ ˈstata ˈuna ˈbwɔna esperˈjɛntsa",
+            "translation": "Tout compte fait, ce fut une bonne expérience.",
+            "note": "Exprime une conclusion après évaluation."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Connettivi di opposizione e correzione",
+        "translation": "Connecteurs d'opposition et de correction",
+        "examples": [
+          {
+            "original": "Non mi dispiace, anzi mi piace molto.",
+            "phonetic": "non mi disˈpjatʃe | ˈantsi mi ˈpjatʃe ˈmolto",
+            "translation": "Ça ne me déplaît pas, au contraire, ça me plaît beaucoup.",
+            "note": "'Anzi' renforce une contradiction forte."
+          },
+          {
+            "original": "Preferisco non uscire, piuttosto resterò a casa.",
+            "phonetic": "prefeˈrisko non uʃˈʃire | pjuˈtosto resteˈrɔ a ˈkasa",
+            "translation": "Je préfère ne pas sortir, plutôt je resterai à la maison.",
+            "note": "Dans ce contexte, 'piuttosto' exprime une préférence."
+          },
+          {
+            "original": "Non è un problema, bensì un'opportunità.",
+            "phonetic": "non ˈɛ un proˈblema | benˈsi un opportuniˈta",
+            "translation": "Ce n'est pas un problème, mais plutôt une opportunité.",
+            "note": "'Bensì' est littéraire, utilise pour une correction nuance."
+          },
+          {
+            "original": "Potresti dirmi, semmai, la tua opinione.",
+            "phonetic": "poˈtresti ˈdirmi | semˈmaj | la ˈtua opiˈnjone",
+            "translation": "Tu pourrais, le cas échéant, me donner ton opinion.",
+            "note": "'Semmai' introduit une condition opposée."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Connettivi di esemplificazione e riformulazione",
+        "translation": "Connecteurs d'exemplification et de reformulation",
+        "examples": [
+          {
+            "original": "Molti studenti, ad esempio, preferiscono studiare da soli.",
+            "phonetic": "ˈmɔlti stuˈdɛnti | ad eˈzempjo | prefeˈriskoːno stuˈdʒare da ˈsoli",
+            "translation": "De nombreux étudiants, par exemple, préfèrent étudier seuls.",
+            "note": "'Ad esempio' est le connecteur d'exemplification standard."
+          },
+          {
+            "original": "Ha quattro anni di esperienza, vale a dire è molto qualificato.",
+            "phonetic": "ˈa ˈkwattro ˈanni di esperˈjɛntsa | ˈvale a ˈdire | ˈɛ ˈmolto kwalifiˈkato",
+            "translation": "Il a quatre ans d'expérience, c'est-à-dire qu'il est très qualifié.",
+            "note": "'Vale a dire' introduit une reformulation explicative."
+          },
+          {
+            "original": "In conclusione, possiamo affermare che l'esito è positivo.",
+            "phonetic": "in konkluˈzjone | posˈsjamo afferˈmare ke leˈzito ˈɛ poˈzitivo",
+            "translation": "En conclusion, nous pouvons affirmer que le résultat est positif.",
+            "note": "Connecteur pour résumer et conclure."
+          },
+          {
+            "original": "Fondamentalmente, il problema è di comunicazione.",
+            "phonetic": "fondamenˈtalmente | il proˈblɛma ˈɛ di komuniˈkattsjone",
+            "translation": "Fondamentalement, le problème est un problème de communication.",
+            "note": "Adverbe modalisateur qui exprime une évaluation subjective."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "fr": "Marqueurs discursifs avancés pour la cohésion"
+    }
+  },
+  {
+    "id": "fr_C1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Sfumature di attenuazione e distanziamento / Nuances d'atténuation et de prise de distance",
+    "bridge": "En français, vous utilisez souvent le conditionnel, le subjonctif ou des constructions impersonnelles (il se pourrait que, on dirait que) pour nuancer vos propos. En italien, ce système est plus riche et plus flexible, avec l'emploi du congiuntivo, du condizionale, de tournures impersonnelles (si può, si direbbe) et d'adverbes pragmatiques (magari, forse, eventualmente). Le piège principal est le calque trop direct du français, par exemple utiliser trop de 'potrebbe' ou 'forse', alors que l'italien préfère souvent le conditionnel passé ou des structures comme 'sembra che' + congiuntivo. De plus, l'italien utilise le futur antérieur comme marqueur d'hypothèse dans un registre soutenu (avrà avuto i suoi motivi), ce qui est rare en français. Méfiez-vous aussi de la tentation de traduire 'on dirait' par 'si dice' qui signifie plutôt 'on raconte', tandis que 'si direbbe' est plus proche de 'on dirait' au sens de 'il semblerait'.",
+    "rule": "L'atténuation et le distançement sont exprimés en italien par plusieurs moyens complémentaires : 1) Le condizionale présent et passé pour exprimer l'hypothèse, le doute ou la politesse ('sarei propenso', 'avrei detto'). 2) Le congiuntivo (subjonctif) après des expressions de doute, d'opinion personnelle, de sentiment : 'sembra che', 'non credo che', 'è possibile che' (au présent ou au passé). 3) Les tournures impersonnelles avec 'si' : 'si può', 'si direbbe', 'si tratta di'. 4) Les adverbes et locutions modalisateurs : 'forse', 'magari', 'eventualmente', 'quantomeno', 'tendenzialmente'. 5) Le futur antérieur pour l'hypothèse dans un registre formel : 'avrà avuto'. 6) Le conditionnel de reportage (giornalismo): 'secondo fonti, il governo avrebbe deciso'. Les nuances sont subtiles : 'potrebbe' (conditionnel présent) exprime une possibilité plus directe que 'potrebbe essere che' (avec le congiuntivo) qui introduit une hypothese plus lointaine. Attention à la concordance des temps : avec un conditionnel, on utilise souvent le congiuntivo imparfait ou trapasato. Pour les francophones, l'erreur la plus fréquente est de traduire 'il faudrait' par 'bisognerebbe' (correct) ou 'dovrebbe' (correct mais moins idiomatique que 'andrebbe fatto'). Il faut également éviter de mettre un indicatif après 'anche se' ou 'benché' quand le doute est exprimé.",
+    "concept_examples": [
+      {
+        "text": "Sembra che il progetto non sia ancora stato approvato.",
+        "translation": "Il semble que le projet n'ait pas encore été approuvé.",
+        "phonetic": "/ˈsɛmbra ke il proˈʤɛtto non ˈsia anˈkora ˈstato approˈvato/"
+      },
+      {
+        "text": "Potrebbe essere una buona idea, ma non ne sono del tutto convinta.",
+        "translation": "Ce pourrait être une bonne idée, mais je n'en suis pas tout à fait convaincue.",
+        "phonetic": "/poˈtrɛbbe ˈɛssere una ˈbwɔna iˈdɛa ma non ne ˈsono del ˈtutto konˈvinta/"
+      },
+      {
+        "text": "Avrei detto che il problema fosse già stato risolto.",
+        "translation": "J'aurais dit que le problème avait déjà été résolu.",
+        "phonetic": "/avˈrɛi ˈdetto ke il proˈblɛmma ˈfosse dʒa ˈstato riˈsɔlto/"
+      },
+      {
+        "text": "Secondo le ultime indiscrezioni, il ministro si sarebbe dimesso.",
+        "translation": "Selon les dernières indiscrétions, le ministre aurait démissionné.",
+        "phonetic": "/seˈkondo le ulˈtime indiscreˈtsjoni il miˈnistro si saˈrɛbbe diˈmesso/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Credo che il governo ha già approvato la legge.",
+      "correct": "Credo che il governo abbia già approvato la legge.",
+      "correct_alt": "Non sono sicuro che il governo abbia già approvato la legge.",
+      "explanation": "L'erreur vient de la traduction littérale du français 'je crois que le gouvernement a déjà approuvé la loi'. En français, 'croire' à la forme affirmative est suivi de l'indicatif, mais en italien, 'credere' (comme 'pensare', 'sembrare') exige le congiuntivo (abia) dans les propositions subordonnées à l'affirmative et à la négative. Ce piège est classique car les verbes d'opinion en italien gouvernent le subjonctif même quand la croyance est présentée comme certaine. Pour éviter cette erreur, retenez que la plupart des verbes exprimant une opinion ou un doute en italien déclenchent le congiuntivo, sauf exceptions comme 'essere certo che' qui peut prendre l'indicatif mais plus rarement. Pratiquez avec des exemples où le français utilise l'indicatif et l'italien le subjonctif."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Congiuntivo con verbi d'opinione e dubbio",
+        "translation": "Subjonctif avec les verbes d'opinion et de doute",
+        "examples": [
+          {
+            "original": "Penso che Lei abbia completamente ragione.",
+            "phonetic": "/ˈpɛnso ke ˈlɛi ˈabbja kompletaˈmente raˈdʒone/",
+            "translation": "Je pense que vous avez entièrement raison.",
+            "note": "Verbe 'pensare' au présent gouverné par 'che' + congiuntivo presente. En français on utilise l'indicatif, mais en italien le subjonctif est obligatoire. Noter que 'Lei' (forme de politesse) est conjugué à la 3e personne."
+          },
+          {
+            "original": "Dubito che la riunione cominci in orario.",
+            "phonetic": "/duˈbito ke la riuˈnjone koˈmintʃi in oˈrarjo/",
+            "translation": "Je doute que la réunion commence à l'heure.",
+            "note": "Le verbe 'dubitare' (douter) exprime directement le doute, donc toujours suivi du congiuntivo. Ici 'cominci' est le subjonctif présent de 'cominciare'."
+          },
+          {
+            "original": "Non crediamo che queste misure siano sufficienti.",
+            "phonetic": "/non kreˈdjamo ke ˈkwɛste miˈzure ˈsjano suffiˈtʃɛnti/",
+            "translation": "Nous ne croyons pas que ces mesures soient suffisantes.",
+            "note": "La forme négative du verbe d'opinion renforce le doute et exige le subjonctif. En français, on a aussi le subjonctif après 'ne pas croire que'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Condizionale di cortesia e ipotesi",
+        "translation": "Conditionnel de politesse et d'hypothèse",
+        "examples": [
+          {
+            "original": "Vorrei chiederLe un parere in merito.",
+            "phonetic": "/vorˈrɛi kjeˈdɛrle un paˈrere in ˈmɛrito/",
+            "translation": "Je voudrais vous demander un avis à ce sujet.",
+            "note": "Le conditionnel présent 'vorrei' (je voudrais) est utilisé pour atténuer une demande. En français on utilise aussi le conditionnel, mais il est parfois omis dans des contextes plus directs."
+          },
+          {
+            "original": "Sarebbe stato preferibile agire diversamente.",
+            "phonetic": "/saˈrɛbbe ˈstato prefeˈribile aˈdʒire diverzaˈmente/",
+            "translation": "Il aurait été préférable d'agir autrement.",
+            "note": "Le conditionnel passé 'sarebbe stato' exprime un regret ou une hypothèse non réalisée. Cette structure est plus nuancée qu'un simple 'c'era bisogno di' et montre une prise de distance."
+          },
+          {
+            "original": "Potresti passarmi la documentazione prima di domani?",
+            "phonetic": "/poˈtrɛsti pasˈsarmi la dokumentatˈtsjone ˈprima di doˈmani/",
+            "translation": "Tu pourrais me passer la documentation avant demain ?",
+            "note": "Le conditionnel de politesse est formulé à la deuxième personne du singulier ('potresti'). C'est un équivalent de 'tu pourrais' mais souvent plus poli que l'impératif."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Futuro analeptico e perifrasi attenuative",
+        "translation": "Futur antérieur hypothétique et périphrases d'atténuation",
+        "examples": [
+          {
+            "original": "Non si vede bene, avrà avuto i suoi motivi per non venire.",
+            "phonetic": "/non si ˈvede ˈbɛne avˈra aˈvuto i suˈoj moˈtivi per non veˈnire/",
+            "translation": "On ne voit pas bien, il aura eu ses raisons pour ne pas venir.",
+            "note": "Le futur antérieur ('avrà avuto') est utilisé ici pour exprimer une supposition à valeur de doute. C'est typique de l'italien soutenu, rare en français où l'on dirait plutôt 'il a dû avoir' ou 'sans doute'."
+          },
+          {
+            "original": "Si direbbe che la situazione stia lentamente migliorando.",
+            "phonetic": "/si dirˈrɛbbe ke la situatˈtsjone ˈstia lentamente miʎʎoˈrando/",
+            "translation": "On dirait que la situation est en train de s'améliorer lentement.",
+            "note": "La périphrase 'si direbbe che' + subjonctif (stia) est une manière élégante de formuler une hypothèse. En français, 'on dirait que' est suivi de l'indicatif, mais l'italien ici exige le subjonctif."
+          },
+          {
+            "original": "Eventualmente potremmo considerare un'altra proposta.",
+            "phonetic": "/eventualˈmente potˈremmo konsideˈrare unˈaltra proˈpɔsta/",
+            "translation": "Éventuellement, nous pourrions envisager une autre proposition.",
+            "note": "L'adverbe 'eventualmente' + conditionnel 'potremmo' forme une modalisation d'hypothèse délicate. Cette combinaison est très fréquente dans les contextes formels et montre une prise de distance polie."
+          },
+          {
+            "original": "Secondo questa analisi, l'economia potrebbe riprendersi entro l'anno.",
+            "phonetic": "/seˈkondo ˈkwɛsta aˈnalizi lekoˌnoˈmia poˈtrɛbbe riˈprɛndersi ˈentro ˈlanno/",
+            "translation": "Selon cette analyse, l'économie pourrait se reprendre d'ici la fin de l'année.",
+            "note": "Le conditionnel présent 'potrebbe' est utilisé dans le discours indirect pour attribuer l'hypothèse à une source tierce ('secondo questa analisi'). C'est le conditionnel de reportage."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "fr": "Nuances d'atténuation et de prise de distance"
+    }
+  },
+  {
+    "id": "fr_C1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Patterns verbaux complexes : double objet et combinaisons pronominales / Pattern complessi con doppio oggetto",
+    "bridge": "En italien, comme en français, les pronoms personnels atones s'organisent en combinaisons (me lo, te la, glielo...), mais l'ordre et la forme changent. Là où le français dit 'le lui', l'italien inverse en 'glielo'. De plus, l'italien utilise systématiquement le pronom datif 'gli' pour 'à lui/à elle' (au lieu de 'lui' en français), et les pronoms combinés subissent des modifications phonétiques (mi -> me, ti -> te) devant en, lo, la, li, le, ne. Attention également au pronom 'ci' qui remplace 'le lui' quand le complément est un lieu ou une chose. Le piège majeur pour un francophone est l'omission du pronom objet indirect avec certains verbes comme 'telefonare' ou 'rispondere', là où le français utilise 'à'. Enfin, l'impératif et les modes non finis placent les pronoms après le verbe, contrairement au français qui les place avant dans la plupart des cas.",
+    "rule": "En italien, les pronoms combinés suivent un ordre strict : pronom indirect (datif) d'abord, puis pronom direct (accusatif), puis éventuellement 'ne'. Les formes sont : mi/ti/ci/vi + lo/la/li/le/ne -> me/te/ce/ve + lo/la/li/le/ne ; si -> se (devant lo/la/li/le/ne) ; gli/le -> glie- (devant un pronom direct), formant glielo, gliela, glieli, gliele, gliene. Pour la 1ère et 2ème personne du pluriel, on a ce lo, ve lo, etc. Attention : 'gli' est utilisé pour 'à lui' et 'à elle' (et parfois 'à eux' dans la langue parlée), alors que le français distingue 'lui' et 'leur'. Dans les temps composés, le participe passé s'accorde avec le pronom direct (ex : 'gliel'ho detto' -> dit au masculin). Avec l'impératif, l'infinitif, le gérondif et le participe passé, les pronoms sont enclitiques (attachés à la fin) : 'diglielo' (dis-le-lui). À l'infinitif, le -e final tombe : 'dirglielo' (non 'dire glielo'). Avec 'ecco', on a 'eccolo'. Dans les phrases négatives, l'impératif garde la place préverbale des pronoms (non lo dire) mais à l'infinitif négatif on utilise l'enclise (non dirglielo). Les verbes pronominaux avec double objet (ex : 'mettersi' + vêtement) utilisent 'si' comme datif réfléchi combiné (se lo mette). Enfin, certains verbes comme 'telefonare', 'credere', 'ubbidire' exigent un complément indirect en italien, contrairement au français qui utilise un objet direct : 'gli telefono' (je lui téléphone), 'gli credo' (je lui crois).",
+    "concept_examples": [
+      {
+        "text": "Gliel'ho detto ieri.",
+        "translation": "Je le lui ai dit hier.",
+        "phonetic": "/ˈʎɛl‿o ˈdetto ˈjɛri/"
+      },
+      {
+        "text": "Te lo mando domani mattina.",
+        "translation": "Je te l'envoie demain matin.",
+        "phonetic": "/te lo ˈmando doˈmani matˈtiːna/"
+      },
+      {
+        "text": "Ce ne sono molti di libri qui.",
+        "translation": "Il y en a beaucoup de livres ici (nous en avons beaucoup ici).",
+        "phonetic": "/tʃe ne ˈsono ˈmɔlti di ˈliːbri kwi/"
+      },
+      {
+        "text": "Non glielo dire!",
+        "translation": "Ne le lui dis pas !",
+        "phonetic": "/non ˈʎɛlo ˈdiːre/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Gli ho dato il libro e l'ho detto.",
+      "correct": "Gliel'ho detto.",
+      "correct_alt": "Ho detto a lui / Ho detto a lei.",
+      "explanation": "Le locuteur francophone tend à répéter le complément direct et indirect séparément ('l'ho detto' au lieu de 'gliel'ho detto'). En français, on dit 'je le lui ai dit' en plaçant 'le' avant 'lui', mais en italien, il faut combiner 'gli' (à lui) et 'lo' (le) en une seule forme 'glielo', accompagnée de l'auxiliaire 'ho' et du participe passé, en accordant ce dernier avec le pronom direct. Pour éviter cette erreur, il faut mémoriser les formes combinées et toujours les utiliser comme une seule unité."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Combinazioni pronominali base",
+        "translation": "Combinaisons pronominales de base",
+        "examples": [
+          {
+            "original": "Me lo presti?",
+            "phonetic": "/me lo ˈpresti/",
+            "translation": "Tu me le prêtes ?",
+            "note": "On utilise 'me' au lieu de 'mi' devant 'lo'."
+          },
+          {
+            "original": "Te la do subito.",
+            "phonetic": "/te la do ˈsuːbito/",
+            "translation": "Je te la donne tout de suite.",
+            "note": "'te' remplace 'ti' devant 'la'."
+          },
+          {
+            "original": "Ce li offro io.",
+            "phonetic": "/tʃe li ˈoffro ˈiːo/",
+            "translation": "Je vous les offre (à nous / à vous).",
+            "note": "'ce' est utilisé pour 'ci' devant un pronom direct."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso di 'glie' e 'ne'",
+        "translation": "Usage de 'glie' et 'ne'",
+        "examples": [
+          {
+            "original": "Gliene parlo stasera.",
+            "phonetic": "/ˈʎɛne ˈparlo staˈseːra/",
+            "translation": "Je lui en parlerai ce soir.",
+            "note": "'gliene' combine 'gli' + 'ne' ; le 'i' disparaît."
+          },
+          {
+            "original": "Glielo spiego io.",
+            "phonetic": "/ˈʎɛlo ˈspjeːɡo ˈiːo/",
+            "translation": "C'est moi qui le lui explique.",
+            "note": "'glielo' est invariable en genre pour le complément indirect."
+          },
+          {
+            "original": "Non gliene importa nulla.",
+            "phonetic": "/non ˈʎɛne imˈpɔrta ˈnulla/",
+            "translation": "Il/elle s'en fiche (cela ne lui importe rien).",
+            "note": "Avec le verbe 'importare', on utilise 'gliene' pour 'lui en'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Pronomi enclitici e verbi modali",
+        "translation": "Pronoms enclitiques et verbes modaux",
+        "examples": [
+          {
+            "original": "Diglielo subito!",
+            "phonetic": "/diˈʎɛlo ˈsuːbito/",
+            "translation": "Dis-le-lui tout de suite !",
+            "note": "À l'impératif, les pronoms sont soudés au verbe."
+          },
+          {
+            "original": "Potresti darmelo?",
+            "phonetic": "/poˈtresti darˈmeːlo/",
+            "translation": "Pourrais-tu me le donner ?",
+            "note": "Avec un verbe modal suivi d'un infinitif, les pronoms s'attachent à l'infinitif qui perd son -e final."
+          },
+          {
+            "original": "Non volendo ammetterlo, ha sbagliato.",
+            "phonetic": "/non voˈlendo ammetˈterlo a zbaʎˈʎato/",
+            "translation": "En ne voulant pas l'admettre, il a eu tort.",
+            "note": "Au gérondif, les pronoms sont aussi enclitiques : 'ammetterlo'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "fr": "Patrons verbaux complexes (double objet, pronoms combinés)"
+    }
+  },
+  {
+    "id": "fr_C1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Distinzioni tra passato prossimo e imperfetto / Nuances entre passé composé et imparfait, et au-delà",
+    "bridge": "En français, vous avez l'habitude de jongler entre le passé composé et l'imparfait, mais en italien, le choix entre passato prossimo et imperfetto est encore plus délicat, car l'imperfetto peut exprimer des actions répétées, des habitudes, des descriptions, mais aussi des actions en cours dans le passé. Par ailleurs, l'italien possède des temps comme il trapassato prossimo et il congiuntivo che s'accordent avec des nuances aspectuelles que le français rend parfois avec le plus-que-parfait ou le subjonctif. Attention : l'italien utilise l'imperfetto pour des actions de politesse ou hypothétiques là où le français utiliserait le conditionnel présent. Ne tombez pas dans le piège de calquer systématiquement le passé composé français sur le passato prossimo italien.",
+    "rule": "En italien (C1), la distinction entre passato prossimo et imperfetto repose sur l'aspect : ponctuel/complété vs. continu/habituel/descriptif. Le passato prossimo indique une action achevée, souvent liée à un moment précis, tandis que l'imperfetto exprime la durée, la répétition (avec un adverbe de fréquence), le cadre d'une narration, ou une action interrompue. Le trapassato prossimo (auxiliaire à l'imperfetto + participe passé) marque l'antériorité, mais il est souvent remplacé par l'imperfetto dans les subordonnées temporelles ou causales ('mentre aspettavo' et non 'mentre ebbi aspettato'). De plus, avec les verbes modali (dovere, potere, volere), le choix entre passato prossimo et imperfetto change le sens : 'ho dovuto' = j'ai été obligé une fois, 'dovevo' = je devais (habituel ou conditionnel). Pour les actions de politesse, on utilise l'imperfetto : 'volevo chiedere' correspond à 'je voulais demander'. En italien, le congiuntivo imperfetto (ex : 'se avessi tempo') est courant pour les hypothèses contrefactuelles, parallèle au subjonctif imparfait français, mais 'se avrei' est incorrect, il faut 'se avessi'. Pour les nuances de progression, on peut utiliser la construction 'stare + gerundio' à l'imparfait ('stavo leggendo') pour exprimer une action en cours de déroulement dans le passé, équivalent du 'j'étais en train de lire' français.",
+    "concept_examples": [
+      {
+        "text": "Mentre leggevamo, il telefono ha squillato.",
+        "translation": "Pendant que nous lisions, le téléphone a sonné.",
+        "phonetic": "/ˈmɛntre leɡˈdʒeːvamo, il teˈlɛːfono a skwilˈlaːto/"
+      },
+      {
+        "text": "Da bambino, andavo sempre al mare ogni estate.",
+        "translation": "Enfant, j'allais toujours à la mer chaque été.",
+        "phonetic": "/da bamˈbiːno, anˈdaːvo ˈsɛmpre al ˈmaːre ˈɔɲɲi eˈstaːte/"
+      },
+      {
+        "text": "Avevo già mangiato quando sei arrivato.",
+        "translation": "J'avais déjà mangé quand tu es arrivé.",
+        "phonetic": "/aˈveːvo dʒa manˈdʒaːto ˈkwando ˈsɛi arriˈvaːto/"
+      },
+      {
+        "text": "Volevo parlarti di una cosa importante.",
+        "translation": "Je voulais te parler d'une chose importante. (poli)",
+        "phonetic": "/voˈleːvo parˈlarti di ˈuːna ˈkɔːza imporˈtante/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quando sono arrivato, lei già mangiava.",
+      "correct": "Quando sono arrivato, lei aveva già mangiato.",
+      "correct_alt": "Quando sono arrivato, lei aveva già mangiato.",
+      "explanation": "Le locuteur francophone utilise l'imparfait 'mangiava' en calquant le plus-que-parfait français 'elle avait mangé' sur l'imparfait italien. En italien, l'antériorité dans le passé nécessite le trapassato prossimo (aveva mangiato) car c'est une action antérieure à une autre action passée (l'arrivée). L'imperfetto 'mangiava' signifierait qu'elle était en train de manger au moment de ton arrivée, pas qu'elle avait terminé. Pour éviter cette erreur, identifiez l'ordre des événements : si l'action est antérieure, utilisez le trapassato prossimo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Contrasto tra passato prossimo e imperfetto",
+        "translation": "Contraste entre passé composé et imparfait",
+        "examples": [
+          {
+            "original": "È arrivato alle tre, ma non aveva ancora finito il lavoro.",
+            "phonetic": "/ɛ arriˈvaːto ˈalle tre, ma non aˈveːva anˈkɔːra fiˈniːto il laˈvoːro/",
+            "translation": "Il est arrivé à trois heures, mais il n'avait pas encore fini le travail.",
+            "note": "Ici, 'è arrivato' (action ponctuelle) côtoie 'aveva finito' (antériorité, donc trapassato prossimo) et 'non aveva finito' (état inachevé)."
+          },
+          {
+            "original": "Spesso quando parlavo con lei, mi sentivo nervosa.",
+            "phonetic": "/ˈspɛsso ˈkwando parˈlaːvo kon ˈlɛi, mi senˈtiːvo nerˈvoːza/",
+            "translation": "Souvent, quand je parlais avec elle, je me sentais nerveuse.",
+            "note": "L'imparfait exprime ici une habitude et un état psychologique dans le passé, équivalent de l'imparfait français."
+          },
+          {
+            "original": "Ieri ho mangiato in quel ristorante.",
+            "phonetic": "/ˈjɛːri ɔ manˈdʒaːto in kwel ristoˈrante/",
+            "translation": "Hier, j'ai mangé dans ce restaurant.",
+            "note": "Avec un indicateur temporel précis ('ieri'), l'action est révolue, donc passato prossimo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso dell'imperfetto per azioni in corso e di cortesia",
+        "translation": "Usage de l'imparfait pour actions en cours et de politesse",
+        "examples": [
+          {
+            "original": "Stavo cucinando quando mi hai chiamato.",
+            "phonetic": "/ˈstaːvo kutʃiˈnando ˈkwando mi ˈai kjaˈmaːto/",
+            "translation": "J'étais en train de cuisiner quand tu m'as appelé.",
+            "note": "La construction 'stare + gerundio' à l'imparfait ('stavo cucinando') exprime une action en cours de déroulement, idem au français 'être en train de'."
+          },
+          {
+            "original": "Volevo chiederti un favore, se mi vuoi aiutare.",
+            "phonetic": "/voˈleːvo ˈkjeːderti un faˈvoːre, se mi ˈvwɔi aiutˈtare/",
+            "translation": "Je voulais te demander une faveur, si tu veux bien m'aider.",
+            "note": "L'imparfait de 'volere' ('volevo') est utilisé pour atténuer une requête, ce qui correspond en français à 'je voulais' ou 'je voudrais'."
+          },
+          {
+            "original": "Mentre guidavo, ho visto un incidente.",
+            "phonetic": "/ˈmɛntre ɡwiˈdaːvo, ɔˈvisto un intʃiˈdɛnte/",
+            "translation": "Alors que je conduisais, j'ai vu un accident.",
+            "note": "L'imparfait 'guidavo' désigne l'arrière-plan (durée), le passato prossimo 'ho visto' l'événement ponctuel."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Modi verbali e sfumature: congiuntivo e condizionale",
+        "translation": "Modes verbaux et nuances : subjonctif et conditionnel",
+        "examples": [
+          {
+            "original": "Se avessi più tempo, imparerei il giapponese.",
+            "phonetic": "/se aˈvessi pju tˈtɛmpo, impareˈrɛi il dʒappoˈneːze/",
+            "translation": "Si j'avais plus de temps, j'apprendrais le japonais.",
+            "note": "Hypothèse irréelle : au présent, l'italien utilise 'congiuntivo imperfetto' dans la subordonnée et 'condizionale presente' dans la principale, comme en français."
+          },
+          {
+            "original": "Se fossi arrivato prima, avremmo preso il treno.",
+            "phonetic": "/se ˈfɔssi arriˈvaːto ˈpriːma, aˈvrɛmmo ˈpreːzo il ˈtrɛːno/",
+            "translation": "Si j'étais arrivé plus tôt, nous aurions pris le train.",
+            "note": "Hypothèse passée : 'trapassato congiuntivo' (fossi arrivato) + 'condizionale passato' (avremmo preso). En français, c'est le plus-que-parfait du subjonctif avec le conditionnel passé."
+          },
+          {
+            "original": "Aveva studiato molto, quindi ha superato l'esame.",
+            "phonetic": "/aˈveːva stuˈdjaːto ˈmolto, ˈkwindi a supeˈraːto leˈzaːme/",
+            "translation": "Il avait beaucoup étudié, donc il a réussi l'examen.",
+            "note": "Le trapassato prossimo 'aveva studiato' marque l'antériorité et la cause, équivalent du plus-que-parfait français."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "fr": "Nuances entre temps et aspects verbaux"
+    }
+  },
+  {
+    "id": "fr_C1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Pasivas avanzate: si ritiene che, si dice che / Il est cru que, on dit que",
+    "bridge": "En italien, pour exprimer les passives impersonnelles comme « it is believed » ou « there is said to be », on utilise des constructions avec « si » impersonnel ou des verbes comme « ritenere », « credere », « dire », souvent suivis de « che » + subjonctif. Contrairement au français, où l'on utilise souvent « on » ou des tournures comme « il est + participe passé », l'italien préfère la forme active avec « si » (si ritiene, si dice) ou le passif personnel avec les verbes de dire et de croire (si ritiene che, è ritenuto che). Attention aux pièges : en français, on dit « il est dit que » mais en italien « si dice che » (et non « è detto che ») ; également, le subjonctif est obligatoire après « che » dans ces constructions, ce qui peut surprendre les francophones qui utilisent l'indicatif en français (souvent avec le conditionnel). De plus, l'italien utilise le « si passivante » avec un verbe transitif à la troisième personne, mais pour les verbes intransitifs comme « dire » (si dice) on a une construction impersonnelle, alors qu'en français on a des équivalents comme « on dit » ou « il se dit ».",
+    "rule": "En italien, les passives avancées se forment de plusieurs manières pour exprimer une opinion, une croyance ou un ouï-dire impersonnel. 1) **Si impersonnel + indicatif/subjonctif** : « si dice che » (on dit que), « si ritiene che » (on estime que), « si crede che » (on croit que). Le verbe principal peut être à l'indicatif ou au subjonctif selon le degré de certitude ou de subjectivité. Après « si dice che », on utilise souvent l'indicatif si le fait est présenté comme certain, mais le subjonctif est de rigueur après des expressions de doute ou d'opinion comme « si ritiene che » ou « si crede che ». 2) **Passif personnel** : avec les verbes de dire, croire, estimer, on peut aussi utiliser la forme passive « essere + participe passé » + « da » pour exprimer un agent, mais plus couramment, on utilise la construction avec « si » passivante (si ritiene, si è scoperto). Pour les temps composés, on utilise « essere » ou « avere » selon le verbe : « si è saputo » (on a appris), « si è creduto » (on a cru). 3) **Structure « esserci + participio passato »** : pour exprimer « il y a quelque chose qui est dit/cru », on utilise « c'è da dire » ou « va detto » (il faut dire). Pour « there is said to be », on utilise « si dice che ci sia » ou « si ritiene che esista ». Attention aux accords du participe passé avec le sujet dans le passif personnel : « La notizia è stata creduta » (la nouvelle a été crue), mais avec « si » impersonnel, le participe reste au masculin singulier si le sujet n'est pas exprimé : « Si è parlato » (on a parlé). Les verbes pronominaux et intransitifs utilisent la forme impersonnelle avec « si », ex. « si va » (on va), mais pour les passives, on utilise principalement des verbes transitifs. Enfin, pour des constructions formelles, on peut utiliser « è risaputo che » (il est de notoriété que), « è evidente che » (il est évident que), suivis du subjonctif ou de l'indicatif selon le registre.",
+    "concept_examples": [
+      {
+        "text": "Si ritiene che il progetto sia fattibile.",
+        "translation": "On estime que le projet est réalisable.",
+        "phonetic": "si riˈtjɛːne ke il proˈdʒɛtto ˈsiːa fattiˈbile"
+      },
+      {
+        "text": "Si dice che Maria abbia vinto alla lotteria.",
+        "translation": "On dit que Maria a gagné à la loterie.",
+        "phonetic": "si ˈdiːtʃe ke maˈriːa ˈabbja ˈvinto alla lotteˈriːa"
+      },
+      {
+        "text": "Si è creduto che il vecchio castello fosse abitato da fantasmi.",
+        "translation": "On a cru que le vieux château était habité par des fantômes.",
+        "phonetic": "si ɛ kkreˈduːto ke il ˈvɛkkjo kaˈstɛllo ˈfosse abiˈtaːto da fanˈtazmi"
+      },
+      {
+        "text": "Viene considerato uno dei migliori scrittori italiani.",
+        "translation": "Il est considéré comme l'un des meilleurs écrivains italiens.",
+        "phonetic": "ˈvjɛne konsideˈraːto ˈuːno dei miʎˈʎoːri skritˈtoːri itaˈljaːni"
+      }
+    ],
+    "common_error": {
+      "wrong": "È detto che il presidente partirà domani.",
+      "correct": "Si dice che il presidente partirà domani.",
+      "correct_alt": "È risaputo che il presidente partirà domani.",
+      "explanation": "La construction « è detto che » est un calque du français « il est dit que » et n'est pas naturelle en italien. L'italien utilise « si dice che » (forme impersonnelle avec « si ») pour exprimer un ouï-dire. On peut aussi utiliser « è risaputo che » (il est de notoriété) dans un registre plus formel, mais jamais « è detto ». De plus, dans cet exemple, on utilise l'indicatif futur car l'action est certaine, mais si l'on exprimait une opinion, on utiliserait le subjonctif. Pour éviter cette erreur, il faut se souvenir que les verbes comme « dire », « ritenere », « credere » se construisent avec « si » impersonnel suivi de « che » et du mode approprié (souvent subjonctif) plutôt que d'utiliser une forme passive calquée sur le français."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Si impersonale con verbi di opinione",
+        "translation": "Si impersonnel avec verbes d'opinion",
+        "examples": [
+          {
+            "original": "Si ritiene che il mercato sia in crescita.",
+            "phonetic": "si riˈtjɛːne ke il merˈkaːto ˈsiːa in kreʃˈʃiːta",
+            "translation": "On estime que le marché est en croissance.",
+            "note": "Après « si ritiene che », on utilise le subjonctif (sia) car il s'agit d'une opinion, pas d'un fait certain."
+          },
+          {
+            "original": "Si crede che la Terra sia rotonda.",
+            "phonetic": "si ˈkreːde ke la ˈtɛrra ˈsiːa roˈtonda",
+            "translation": "On croit que la Terre est ronde.",
+            "note": "Même structure : subjonctif après « si crede che ». En français, on utilise souvent l'indicatif (on croit que la Terre est ronde), donc attention au mode."
+          },
+          {
+            "original": "Si pensa che l'attore abbia recitato magnificamente.",
+            "phonetic": "si ˈpɛnsa ke latˈtoːre ˈabbja retʃiˈtaːto maɲɲifikaˈmente",
+            "translation": "On pense que l'acteur a joué magnifiquement.",
+            "note": "Le subjonctif passé (abbia recitato) exprime une action antérieure à la pensée."
+          },
+          {
+            "original": "Si suppone che i ladri siano fuggiti all'estero.",
+            "phonetic": "si supˈpoːne ke i ˈlaːdri ˈsjaːno fudˈdʒiːti alˈlɛstero",
+            "translation": "On suppose que les voleurs se sont enfuis à l'étranger.",
+            "note": "Le subjonctif passé (siano fuggiti) indique une antériorité par rapport au verbe principal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Si dice che e passivo impersonale",
+        "translation": "Si dice che et passif impersonnel",
+        "examples": [
+          {
+            "original": "Si dice che il ristorante chiuda a mezzanotte.",
+            "phonetic": "si ˈdiːtʃe ke il ristoˈrante ˈkjuːda a meddzaˈnɔtte",
+            "translation": "On dit que le restaurant ferme à minuit.",
+            "note": "Avec « si dice che », on peut utiliser l'indicatif ou le subjonctif : ici l'indicatif (chiuda est en fait subjonctif, mais on peut aussi dire 'chiude' pour insister sur la certitude)."
+          },
+          {
+            "original": "Si diceva che fosse un uomo ricco.",
+            "phonetic": "si diˈtʃeːva ke ˈfosse un ˈwɔmo ˈrikko",
+            "translation": "On disait qu'il était un homme riche.",
+            "note": "Imparfait du subjonctif (fosse) après un verbe au passé, pour exprimer un ouï-dire non vérifié."
+          },
+          {
+            "original": "È risaputo che il treno è in ritardo.",
+            "phonetic": "ɛ rizaˈpuːto ke il ˈtrɛːno ɛ in riˈtardo",
+            "translation": "Il est de notoriété que le train est en retard.",
+            "note": "La tournure impersonnelle « è risaputo che » est l'équivalent formel de « si dice che ». Ici, l'indicatif est utilisé car il s'agit d'un fait présenté comme certain."
+          },
+          {
+            "original": "Si è scoperto che il testamento era falso.",
+            "phonetic": "si ɛ skoˈpɛrto ke il testaˈmento ˈɛːra ˈfalso",
+            "translation": "On a découvert que le testament était faux.",
+            "note": "Passé composé du verbe impersonnel « si è scoperto » ; le participe passé reste au masculin singulier car il n'y a pas de sujet explicite."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Costruzioni passive con verbi di percezione e dichiarazione",
+        "translation": "Constructions passives avec verbes de perception et de déclaration",
+        "examples": [
+          {
+            "original": "Viene detto che il film sia basato su una storia vera.",
+            "phonetic": "ˈvjɛne ˈdetto ke il ˈfilm ˈsiːa baˈzaːto su ˈuːna ˈstɔːrja ˈveːra",
+            "translation": "Il est dit que le film est basé sur une histoire vraie.",
+            "note": "Bien que moins courant, on peut utiliser « viene detto che » (passif de « dire ») dans un registre plus formel ou journalistique. Ici, le subjonctif (sia) est employé car il s'agit d'une affirmation non vérifiée."
+          },
+          {
+            "original": "Si ritrovò creduta da tutti innocente.",
+            "phonetic": "si ritroˈvɔ kkreˈduːta da ˈtutti innoˈtʃɛnte",
+            "translation": "Elle se retrouva crue de tous innocente.",
+            "note": "Exemple rare avec un participe passé accordé (creduta) après un verbe pronominal, mais cette construction est littéraire. Plus couramment, on dit « tutti la credevano innocente »."
+          },
+          {
+            "original": "L'esistenza di Dio è negata da molti scienziati.",
+            "phonetic": "leziˈstɛntsa di ˈdiːo ɛ neˈɡaːta da ˈmɔlti ʃʃenˈtsjaːti",
+            "translation": "L'existence de Dieu est niée par de nombreux scientifiques.",
+            "note": "Passif véritable avec un agent (da molti scienziati). On utilise le passif total lorsque le sujet est un nom inanimé et que le verbe est transitif direct."
+          },
+          {
+            "original": "Si è detto che l'incidente sia stato causato dal maltempo.",
+            "phonetic": "si ɛ ˈdetto ke lintʃiˈdɛnte ˈsiːa ˈstaːto kauˈzaːto dal malˈtɛmpo",
+            "translation": "On a dit que l'accident avait été causé par le mauvais temps.",
+            "note": "Au passé composé, « si è detto che » + subjonctif passé (sia stato causato) pour exprimer une action antérieure à la parole."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "fr": "Passives avancées : si impersonnel et passif de perception"
+    }
+  }
+]

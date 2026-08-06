@@ -1,0 +1,1168 @@
+[
+  {
+    "id": "pt_B2_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "倫理問題の議論 (Debate sobre dilemas éticos)",
+    "bridge": "Em japonês, expressar opinião em debates exige o uso de partículas modais e formas de hedging (como かもしれない, だろう, と思う) para suavizar afirmações, enquanto em português você pode ser mais direto. Além disso, a estrutura 〜べきだ (deveria) é comum, mas deve ser usada com cuidado para não soar autoritária. Os falantes de português tendem a traduzir literalmente 'eu acho que' como 私は思う, mas em japonês a omissão do sujeito é natural. Outro ponto: a partícula が em frases como 〜が、... é usada para suavizar discordância, algo que não tem equivalente direto no português.",
+    "rule": "Para debater ética, use: 1) 〜べきだ / 〜べきではない (deveria / não deveria) com forma dicionário do verbo (ex: するべきだ). 2) 〜てもいい (pode/permitido) e 〜てはいけない (não pode) para discutir permissibilidade. 3) 〜かもしれない e 〜だろう para expressar incerteza ou probabilidade. 4) Opiniões com と思う, 考える, 感じる, sempre no final da frase (ex: 〜と思う). Em contextos formais, use 〜と考えます. 5) Para concordar/discordar: 賛成です (concordo), 反対です (discordo), 賛成できません. Exceções: べきだ é forte; para suavizar, use べきかもしれません ou べきだと思います. Em registro educado, evite べきだ feito afirmação direta; prefira べきだと思います. Tópicos éticos frequentemente usam condicionais como もし〜たら (se, então) e expressões de hipótese.",
+    "concept_examples": [
+      {
+        "text": "遺伝子編集は許されるべきだと思いますか。",
+        "translation": "Você acha que a edição genética deveria ser permitida?",
+        "phonetic": "[i.dẽ.ɺiɕi çẽɕɯː ɕɯː ha juɾaɾeɾɯ beki da to omoimasɯ̥ ka]"
+      },
+      {
+        "text": "動物実験は必要かもしれないが、もっと代替方法を考えるべきだ。",
+        "translation": "A experimentação animal pode ser necessária, mas deveríamos pensar em métodos alternativos.",
+        "phonetic": "[doːbɯtɕɯ dʑikːẽɰa hitsɯːoː ka mo ɕiɾenai ga, motto daitaikʉhɔː o kaŋaɾɯ beki da]"
+      },
+      {
+        "text": "AIによる判断は公平だとは言えないだろう。",
+        "translation": "Não se pode dizer que o julgamento por IA é justo.",
+        "phonetic": "[eːaiː ni joɾɯ haŋdaɴɰa koːheː da toɰa ienai daɾoː]"
+      },
+      {
+        "text": "プライバシーを守るためには、監視を制限するべきではないですか。",
+        "translation": "Para proteger a privacidade, não deveríamos limitar a vigilância?",
+        "phonetic": "[pɯɾaibaɕiː o mamoɾɯ tame niɰa, kaɴɕi o seːɢẽɴ sɯɾɯ beki deɰa nai desɯ̥ ka]"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は思う、それは正しいです。",
+      "correct": "それは正しいと思います。",
+      "correct_alt": "それは正しいと考える。",
+      "explanation": "Em português, 'eu acho' vem antes da opinião, mas em japonês a opinião é colocada primeiro e o verbo de pensamento vem no final. Além disso, a partícula は após 私 é desnecessária na maioria dos contextos, pois o sujeito é subentendido. Esse erro ocorre por transferência da ordem SVO do português. Evite colocar 思う no início; coloque a proposição inteira antes de と思います."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "意見を述べる",
+        "translation": "Expressando opinião",
+        "examples": [
+          {
+            "original": "医療格差をなくすべきです。",
+            "phonetic": "[iːɾjoː kaksa o nakɯsɯ beki desɯ]",
+            "translation": "Deveríamos eliminar as desigualdades na saúde.",
+            "note": "Use べき + です para opinião educada. Note que o verbo antes de べき está no dicionário."
+          },
+          {
+            "original": "環境保護より経済発展が重要だと思います。",
+            "phonetic": "[kaŋkʲoː hoɡo joɾi keːzaɪ hatten ga dʑɯːjoː da to omoimasɯ]",
+            "translation": "Acho que o desenvolvimento econômico é mais importante que a proteção ambiental.",
+            "note": "Estrutura de comparação: X より Y が重要. No final, と思います."
+          },
+          {
+            "original": "それは賛成できません。",
+            "phonetic": "[soɾeɰa saɴseː dekimasẽɴ]",
+            "translation": "Não posso concordar com isso.",
+            "note": "Forma polida de discordar. Use できません ao invés de しない para educar."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "仮定と条件を話す",
+        "translation": "Falando sobre hipóteses e condições",
+        "examples": [
+          {
+            "original": "もしお金が十分にあれば、寄付をするでしょう。",
+            "phonetic": "[moɕi okane ga dʑɯːbɯɲi aɾeba, kifɯ o sɯɾɯ deɕoː]",
+            "translation": "Se tivesse dinheiro suficiente, provavelmente doaria.",
+            "note": "Use もし + forma ba (condicional) + でしょう para expressar probabilidade."
+          },
+          {
+            "original": "この方針が変わらない限り、問題は解決しないだろう。",
+            "phonetic": "[kono hoːɕĩŋ ga kawaɾanai kaɡiɾi, moɴdaɪɰa kaiketsɯ ɕinai daɾoː]",
+            "translation": "Enquanto essa política não mudar, o problema não será resolvido.",
+            "note": "〜限り (enquanto) é útil para limites, comum em argumentos éticos."
+          },
+          {
+            "original": "たとえ反対されても、真実を言うべきだ。",
+            "phonetic": "[tatoe haɴtaɪ saɾete mo, ɕĩɲdʑitɕɯ o iɯ beki da]",
+            "translation": "Mesmo que seja contestado, devo dizer a verdade.",
+            "note": "たとえ〜ても (mesmo se) introduz uma concessão hipotética."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "同意・反対を丁寧に示す",
+        "translation": "Concordando e discordando educadamente",
+        "examples": [
+          {
+            "original": "その意見には一理ありますが、少し違う見方もあると思います。",
+            "phonetic": "[sono iken niɰa itɕiɾi aɾimasɯ ga, sɯkɕi tɕiɡaɯ mikata mo aɾɯ to omoimasɯ]",
+            "translation": "Sua opinião tem seu mérito, mas acho que há uma perspectiva um pouco diferente.",
+            "note": "Estrutura de concessão: 〜ますが、... é formal e educado para discordar parcialmente."
+          },
+          {
+            "original": "確かにその通りですが、それでも私は反対です。",
+            "phonetic": "[taɕikaɲi sono toːɾi desɯ ga, soɽe demo ɰataɕiɰa haɴtaɪ desɯ]",
+            "translation": "Realmente, é verdade, mas mesmo assim sou contra.",
+            "note": "Começar concordando (確かに) antes de discordar é uma técnica útil no debate."
+          },
+          {
+            "original": "おっしゃる点ももっともですが、私は違う意見を持っています。",
+            "phonetic": "[oɕːjaɾɯ teɴ mo mottomo desɯ ga, ɰataɕiɰa tɕiɡaɯ iken o motːte imasɯ]",
+            "translation": "O que o senhor diz é muito razoável, mas tenho uma opinião diferente.",
+            "note": "Uso de おっしゃる (forma honorífica de dizer) e もっとも (razoável) para grande polidez."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Debate sobre dilemas éticos"
+    }
+  },
+  {
+    "id": "pt_B2_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "会議と交渉の表現 / Reuniões e Negociações Profissionais",
+    "bridge": "Em português, é comum usar o modo imperativo ou construções diretas para sugerir ou concordar, como 'Vamos fazer isso' ou 'Concordo'. No japonês B2, o uso de formas como 〜ましょう (vamos fazer), 〜てもいいですか (posso fazer?) e 〜と思います (acho que) é crucial para manter a cortesia e a hierarquia em reuniões. Diferente do português, onde a entonação e a escolha de palavras informais podem ser aceitáveis, o japonês exige a escolha consciente entre formas formais (です・ます) e honoríficas (敬語), dependendo do interlocutor. Além disso, expressões como 〜させていただきます (permita-me fazer) são frequentemente usadas para demonstrar humildade, algo que não tem equivalente direto em português e pode soar estranho se traduzido literalmente.",
+    "rule": "Em reuniões e negociações em japonês, é essencial usar a linguagem formal (丁寧語) com verbos terminados em ます, e frequentemente recorrer a formas de respeito (尊敬語) e humildade (謙譲語) para se dirigir a superiores ou clientes. Para fazer propostas, usa-se 〜ましょう (vamos fazer), mas para sugerir de forma mais polida, pode-se usar 〜ませんか (não quer fazer?) ou 〜するのはいかがですか (que tal fazer?). Para expressar concordância, são comuns そうですね (pois é, concordo) e 賛成です (sou a favor). Desacordo deve ser suavizado com expressões como ちょっと難しいかもしれません (pode ser um pouco difícil) ou 検討させてください (deixe-me considerar). Para pedir permissão, use 〜てもよろしいですか (posso fazer?) em situações formais, e para oferecer algo, 〜ましょうか (quer que eu faça?). Negociações envolvem expressões de concessão como それなら、〜しましょう (se for assim, vamos fazer) e de condição como 〜なら、〜 (se 〜, então 〜).",
+    "concept_examples": [
+      {
+        "text": "会議を始めましょう。",
+        "translation": "Vamos começar a reunião.",
+        "phonetic": "kaigi o hajimemashoː"
+      },
+      {
+        "text": "この提案について、ご意見をいただけますか。",
+        "translation": "Poderia me dar sua opinião sobre esta proposta?",
+        "phonetic": "kono teian ni tsuite, go-iken o itadakemasu ka"
+      },
+      {
+        "text": "それでは、来週までに検討させていただきます。",
+        "translation": "Então, deixe-me considerar até a próxima semana.",
+        "phonetic": "soredewa, raishuu made ni kentou sasete itadakimasu"
+      },
+      {
+        "text": "価格について、もう少し考慮していただけないでしょうか。",
+        "translation": "Poderia considerar um pouco mais sobre o preço?",
+        "phonetic": "kakaku ni tsuite, mou sukoshi kouryo shite itadakenai deshou ka"
+      }
+    ],
+    "common_error": {
+      "wrong": "この提案に賛成しますか？ (diretamente perguntando, pode soar brusco)",
+      "correct": "この提案に賁成していただけますか？",
+      "correct_alt": "この提案についてどうお考えですか？",
+      "explanation": "O erro vem da transferência do português 'Você concorda com esta proposta?', que em japonês com 賛成しますか? pode parecer muito direto e impessoal, especialmente com superiores ou clientes. Em japonês, é mais educado usar formas como 〜していただけますか (poderia fazer por mim?) ou usar お考え (opinião) para suavizar. Lembre-se de que em contextos de negócios, a cortesia e a deferência são priorizadas, e perguntas diretas podem ser interpretadas como falta de respeito."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "会議の開始",
+        "translation": "Iniciando a reunião",
+        "examples": [
+          {
+            "original": "それでは、始めましょう。",
+            "phonetic": "soredewa, hajimemashoː",
+            "translation": "Então, vamos começar.",
+            "note": "Uso de 〜ましょう para propor início de forma inclusiva e educada."
+          },
+          {
+            "original": "本日の議題を確認します。",
+            "phonetic": "honjitsu no gidai o kakunin shimasu",
+            "translation": "Vamos confirmar a pauta de hoje.",
+            "note": "Usa-se 本日 (hoje) em contexto formal."
+          },
+          {
+            "original": "まず、前回の議事録を確認してください。",
+            "phonetic": "mazu, zenkai no gijiroku o kakunin shite kudasai",
+            "translation": "Primeiro, por favor, confiram a ata da reunião anterior.",
+            "note": "〜てください é usado para pedir educadamente, mas ainda formal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "意見を述べる",
+        "translation": "Expressando opiniões",
+        "examples": [
+          {
+            "original": "私の考えでは、この方法が最適だと思います。",
+            "phonetic": "watashi no kangae dewa, kono houhou ga saiteki da to omoimasu",
+            "translation": "Na minha opinião, acho que este método é o mais adequado.",
+            "note": "〜と思います suaviza a afirmação, tornando-a mais modesta."
+          },
+          {
+            "original": "もう一つの選択肢を提案してもよろしいですか。",
+            "phonetic": "mou hitotsu no sentakushi o teian shite mo yoroshii desu ka",
+            "translation": "Posso propor outra opção?",
+            "note": "〜してもよろしいですか é a forma formal de pedir permissão."
+          },
+          {
+            "original": "その点について、異論があります。",
+            "phonetic": "sono ten ni tsuite, iron ga arimasu",
+            "translation": "Tenho uma objeção sobre esse ponto.",
+            "note": "異論 (objeção) é uma palavra formal para desacordo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "交渉と合意",
+        "translation": "Negociação e acordo",
+        "examples": [
+          {
+            "original": "条件を変更していただければ、契約を結ぶことができます。",
+            "phonetic": "jouken o henkou shite itadakereba, keiyaku o musubu koto ga dekimasu",
+            "translation": "Se puder alterar as condições, podemos fechar o contrato.",
+            "note": "Condicional 〜ば com humilde 〜いただく para negociar."
+          },
+          {
+            "original": "それなら、妥協点を見つけましょう。",
+            "phonetic": "sorenara, dakyou ten o mitsukemashoː",
+            "translation": "Então, vamos encontrar um ponto de compromisso.",
+            "note": "Uso de 妥協点 (ponto de acordo) e 〜ましょう para proposição."
+          },
+          {
+            "original": "これを承諾していただけると、幸いです。",
+            "phonetic": "kore o shoudaku shite itadakeru to, saiwai desu",
+            "translation": "Seríamos gratos se pudesse aceitar isto.",
+            "note": "Uso de 〜ていただけると (se puder fazer) e 幸いです (seria uma felicidade) para expressar expectativa educada."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤝",
+    "phonetic": "",
+    "translations": {
+      "pt": "Reuniões e negociações profissionais"
+    }
+  },
+  {
+    "id": "pt_B2_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "文学と映画について語る",
+    "bridge": "Em português, ao discutir literatura e cinema, usamos frequentemente o pretérito perfeito para narrar enredos e o subjuntivo para expressar opiniões. Em japonês, a narrativa de enredos exige o uso do aspecto imperfectivo (～ている) para descrever ações em andamento dentro da história, e o passado simples (～た) para eventos concluídos. Além disso, expressões de opinião como ～と思う (acho que) e ～感じがする (tenho a impressão de que) são fundamentais, mas cuidado: ao contrário do português, onde dizemos 'eu acho que o protagonista é...', em japonês a partícula は marca o tema, e a opinião é frequentemente suavizada com partículas como かな ou と思う. Outro ponto crítico é o uso de ～について (sobre) para introduzir o tópico da discussão, que não tem equivalente direto em português.",
+    "rule": "Para discutir literatura e cinema em japonês, é essencial dominar as seguintes estruturas: 1) Descrição de enredos: Use ～ている para ações em andamento (ex: 主人公は探している – o protagonista está procurando) e ～た para eventos concluídos. A narrativa pode alternar entre esses aspectos; 2) Opiniões: ～と思う (acho que) é usado com forma curta (dicionário/た/ない). Ex: 面白いと思う (acho interessante). Para suavizar, adicione けど or かな. 3) Reações: Use ～感じがする (tenho a impressão), ～気がする (sinto que), e ～みたい (parece que). Ex: 悲しい感じがする (tenho a impressão de que é triste). 4) Recomendações: Use ～をおすすめする (recomendo) ou ～するといい (seria bom). Ex: この映画をおすすめします (recomendo este filme). 5) Comparações: Use ～より (do que) e ～のほうが (mais). Ex: 小説のほうが映画より深い (o romance é mais profundo que o filme). 6) Partículas temáticas: ～について (sobre) é usado para introduzir o assunto, ex: この小説について話しましょう (vamos falar sobre este romance). Lembre-se que em japonês não há marcador de gênero para obras, e títulos são frequentemente citados com ～という (chamado).",
+    "concept_examples": [
+      {
+        "text": "この小説の主人公は、自分の過去を探している。",
+        "translation": "O protagonista deste romance está procurando seu próprio passado.",
+        "phonetic": "[kono ɕoːsetsu no ɕudʑiŋkoː wa, dʑibun no kako o sagaɕite iɾɯ]"
+      },
+      {
+        "text": "私はこの映画は面白いと思います。",
+        "translation": "Eu acho que este filme é interessante.",
+        "phonetic": "[ʍataɕi wa kono eːɡa wa omoɕiɾoi to omoimasɯ]"
+      },
+      {
+        "text": "このドラマのラストは悲しい感じがする。",
+        "translation": "Tenho a impressão de que o final deste drama é triste.",
+        "phonetic": "[kono doɾama no ɾasɯto wa kanaɕiː kandʑi ɡa sɯɾɯ]"
+      },
+      {
+        "text": "小説のほうが映画より細かい描写が多い。",
+        "translation": "O romance tem mais descrições detalhadas do que o filme.",
+        "phonetic": "[ɕoːsetsɯ no hoː ɡa eːɡa joɾi komakaː bʲoːɕa ɡa oːi]"
+      }
+    ],
+    "common_error": {
+      "wrong": "私はこの本を読みました。それはとても感動しました。",
+      "correct": "私はこの本を読みました。その本にとても感動しました。",
+      "correct_alt": "私はこの本を読んで、とても感動しました。",
+      "explanation": "Em português, 'isso' é usado livremente para retomar algo mencionado. Em japonês, a partícula は (wa) marca o tema e não pode ser substituída por isso de forma direta. 'それは' seria interpretado como 'aquilo' como tópico, mas não como objeto da ação (感動しました). Use 'その本' (esse livro) ou 'それに' (com isso) para expressar a causa. Além disso, 感動する (emocionar-se) exige a partícula に (com) para indicar a fonte da emoção."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "感想を言う",
+        "translation": "Expressar opiniões",
+        "examples": [
+          {
+            "original": "この映画はとても面白かったです。",
+            "phonetic": "[kono eːɡa wa totemo omoɕiɾokatta desɯ]",
+            "translation": "Este filme foi muito interessante.",
+            "note": "Use o passado ～かった para adjetivos em opiniões sobre obras já vistas."
+          },
+          {
+            "original": "登場人物の気持ちがよく分かります。",
+            "phonetic": "[toːdʑoː dʑiŋbɯtsɯ no kimotɕi ɡa jokɯ ɸakaɾimasɯ]",
+            "translation": "Entendo bem os sentimentos dos personagens.",
+            "note": "A partícula が marca o sujeito da emoção/compreensão, não は."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "ストーリーを要約する",
+        "translation": "Resumir o enredo",
+        "examples": [
+          {
+            "original": "最初に彼は村に着きます。そして、そこで秘密を知ります。",
+            "phonetic": "[saʲɕo ni kaɾe wa mɯɾa ni tɕɯkʲimasɯ. soɕite, doko de ɕimʲitɕɯ o ɕiɾimasɯ]",
+            "translation": "Primeiro ele chega à vila. E então, lá, descobre um segredo.",
+            "note": "O presente narrativo (～ます) é usado para dar vivacidade ao resumo, diferente do português que usa pretérito."
+          },
+          {
+            "original": "その後、主人公は敵と戦うことになります。",
+            "phonetic": "[soːɡo, ɕɯdʑiŋkoː wa teki to tatakaɯ koto ni naɾimasɯ]",
+            "translation": "Depois disso, acontece que o protagonista luta contra o vilão.",
+            "note": "A estrutura ことになる indica um desenvolvimento da história, útil para resumos."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "比較・推薦する",
+        "translation": "Comparar e recomendar",
+        "examples": [
+          {
+            "original": "この監督の前作より、新作のほうがテーマが深いです。",
+            "phonetic": "[kono kantoku no maːsaɕoɯ joɾi, ɕiŋsakɯ no hoː ɡa teːma ɡa ɸɯkaːi desɯ]",
+            "translation": "Comparado ao filme anterior desse diretor, o novo tem um tema mais profundo.",
+            "note": "Use ～より…のほうが… para expressar comparação. Note a posição do tópico."
+          },
+          {
+            "original": "この作品は、ミステリーが好きな人におすすめです。",
+            "phonetic": "[kono sakɯhiŋ wa, misɯteɾiː ɡa sɯki na ɸito ni osɯsɯme desɯ]",
+            "translation": "Esta obra é recomendada para quem gosta de mistério.",
+            "note": "A estrutura ～におすすめです (ser recomendado para) é comum em recomendações."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎬",
+    "phonetic": "",
+    "translations": {
+      "pt": "Falar sobre literatura e cinema"
+    }
+  },
+  {
+    "id": "pt_B2_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "科学と医療の話題を話す / Falando sobre tópicos científicos e médicos",
+    "bridge": "Em japonês, ao discutir tópicos científicos e médicos, é comum usar formas passivas e expressões de incerteza, como 'そうだ' e 'らしい', para indicar informações não confirmadas. Diferente do português, onde se usa 'dizem que' ou 'parece que', o japonês coloca essas partículas no final da frase. Além disso, o uso de 'なる' (tornar-se) em contextos médicos é frequente, enquanto em português usamos verbos como 'ficar' ou 'tornar-se'. Cuidado com a tradução literal de 'paciente' (paciente = 患者, mas também pode ser '忍耐強い' como adjetivo).",
+    "rule": "Para falar sobre ciência e medicina em japonês no nível B2, use: 1) Formas passivas (られる/される) para descrever procedimentos e descobertas, ex: この病気は早期に発見される (esta doença é detectada precocemente). 2) Expressões de inferência: らしい, そうだ, ようだ para indicar informação de segunda mão ou suposição, ex: その薬は効果があるらしい (dizem que esse remédio é eficaz). 3) Uso de 〜による/〜によって para expressar causa, ex: この症状はウイルスによるものだ (este sintoma é causado por um vírus). 4) Vocabulário específico: 症状 (sintoma), 治療 (tratamento), 予防 (prevenção), 研究 (pesquisa). Erros comuns: usar なる para 'tornar-se doente' (correto é 病気になる, mas para 'ficar com febre' é 熱が出る), confundir 患者 (paciente) com 忍耐 (paciência). Lembre-se de que em japonês, o tópico é frequentemente omitido quando é claro pelo contexto.",
+    "concept_examples": [
+      {
+        "text": "この病気は早期に発見されれば、治る可能性が高いです。",
+        "translation": "Se essa doença for detectada precocemente, a probabilidade de cura é alta.",
+        "phonetic": "/kono bʲoːki wa soːki ni hakkẽn sareba, naoru kanɯseː ga takai desɯ/",
+        "note": "Uso da forma passiva '発見されれば' e da condicional em -ば."
+      },
+      {
+        "text": "最新の研究によると、睡眠不足は免疫力を下げるそうだ。",
+        "translation": "De acordo com pesquisas recentes, dizem que a falta de sono diminui a imunidade.",
+        "phonetic": "/saɪɕin no kenkʲɯː ni joru to, nemʲin bɯsokɯ wa menʲekʲiɾokʲɯ o sageɾɯ soː da/",
+        "note": "Uso de 'によると' + 'そうだ' para citar fontes, semelhante a 'segundo' em português."
+      },
+      {
+        "text": "このワクチンは副作用が少ないようです。",
+        "translation": "Esta vacina parece ter poucos efeitos colaterais.",
+        "phonetic": "/kono wakɯtɕin wa hɯkoːsaː ga sɯkɯnaɪ joː desɯ/",
+        "note": "Uso de 'ようです' para expressar suposição baseada em evidências, mais formal que 'みたい'."
+      },
+      {
+        "text": "患者には十分な説明が行われるべきだ。",
+        "translation": "Os pacientes devem receber explicações suficientes.",
+        "phonetic": "/kãnʤa nʲi wa ʥɯːbɯn na setsɯmeː ga okonaʍaɾeɾɯ bekʲi da/",
+        "note": "Forma passiva '行われる' + 'べきだ' (dever) para expressar recomendação."
+      }
+    ],
+    "common_error": {
+      "wrong": "私は医者に診察してもらったとき、症状が説明しました。",
+      "correct": "私は医者に診察してもらったとき、症状を説明しました。",
+      "correct_alt": "私は医者に診察してもらったとき、症状の説明をしました。",
+      "explanation": "Em português, usamos 'explicar' como verbo transitivo direto (explicar algo), mas em japonês, o verbo '説明する' requer a partícula 'を' para marcar o objeto. O erro ocorre porque o aluno transferiu a estrutura do português ('explicar os sintomas') para o japonês, usando 'が'. Lembre-se: a partícula 'を' é obrigatória para o objeto direto de '説明する'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "症状を説明する",
+        "translation": "Descrevendo sintomas",
+        "examples": [
+          {
+            "original": "頭が痛くて、熱もありました。",
+            "phonetic": "/atama ga itakɯte, netsɯ mo aɾimasɨta/",
+            "translation": "Eu tinha dor de cabeça e também febre.",
+            "note": "Uso da forma て para conectar sintomas."
+          },
+          {
+            "original": "咳が出て、喉が腫れています。",
+            "phonetic": "/seki ga dete, nodo ga haɾete imasɯ/",
+            "translation": "Estou com tosse e a garganta está inchada.",
+            "note": "Expressões comuns para sintomas em consultas médicas."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "治療と薬について話す",
+        "translation": "Falando sobre tratamento e medicamentos",
+        "examples": [
+          {
+            "original": "この薬は食後に飲んでください。",
+            "phonetic": "/kono kɯsɯɾi wa ʃokɯɡo ni nõde kɯdasai/",
+            "translation": "Por favor, tome este remédio depois das refeições.",
+            "note": "Instrução médica típica com 〜てください."
+          },
+          {
+            "original": "抗生物質を処方されました。",
+            "phonetic": "/koːseːbɯtsɯɕit͡sɯ o ɕobɯː saɾemasɨta/",
+            "translation": "Fui prescrito antibióticos.",
+            "note": "Forma passiva de '処方する' para indicar ação recebida."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "科学情報の議論",
+        "translation": "Discutindo informações científicas",
+        "examples": [
+          {
+            "original": "この理論はまだ証明されていない。",
+            "phonetic": "/kono ɾʲiɾon wa mada ʃoːmeː saɾete inaɪ/",
+            "translation": "Essa teoria ainda não foi provada.",
+            "note": "Uso da forma negativa do passivo 'されていない' para indicar falta."
+          },
+          {
+            "original": "科学者たちはその結果を慎重に分析しているらしい。",
+            "phonetic": "/kaɡakɯɕatɕi wa sono kekka o ɕĩɕoː nʲi bɯnsekʲi ɕite iɾɯ ɾaɕiː/",
+            "translation": "Dizem que os cientistas estão analisando os resultados com cautela.",
+            "note": "Uso de 'らしい' para informação não confirmada."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔬",
+    "phonetic": "",
+    "translations": {
+      "pt": "Tópicos científicos e médicos acessíveis"
+    }
+  },
+  {
+    "id": "pt_B2_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "政治的・社会的問題を議論する / Discutindo questões políticas e sociais",
+    "bridge": "Em japonês, para discutir questões políticas e sociais, é fundamental dominar o uso das partículas は e が para marcar tópico e sujeito, respectivamente. Diferente do português, onde a ordem das palavras é mais flexível, no japonês a estrutura da frase é rígida: Tópico + Sujeito + Objeto + Verbo. Além disso, o japonês frequentemente omite o sujeito quando está implícito no contexto, o que pode confundir falantes de português que tendem a explicitá-lo. Outro ponto crucial é o uso de formas verbais como ～べき (deveria) e ～てもいい (pode) para expressar opiniões e permissões, que em português são expressas por verbos modais como 'dever' e 'poder', mas com nuances diferentes de formalidade e polidez.",
+    "rule": "Para discutir questões políticas e sociais em japonês, use o padrão: Tópico (は) + Comentário. Expressões de opinião como ～と思う (penso que) e ～ではないか (não é que?) são comuns. Para indicar necessidade ou dever, use ～なければならない (tenho que) ou ～べきだ (devo). Para sugerir possibilidades ou permissões, use ～てもいい (pode) ou ～かもしれない (talvez). Ao dar exemplos, use 例えば (por exemplo) e など (entre outros). Para concordar/discordar, use そうですね (concordo) e そう思いません (não acho). É importante manter a polidez usando formas -ます/です em conversas formais, e formas -だ/である em contextos mais acadêmicos ou escritos. Evite ser muito direto ao expressar opiniões fortes; use やはり (como esperado) ou おそらく (provavelmente) para suavizar.",
+    "concept_examples": [
+      {
+        "text": "政治について話すのは難しいです。",
+        "translation": "Falar sobre política é difícil.",
+        "phonetic": "[seːdʑi ni tsuite hanasu no wa muzukaɕiː desɯ]"
+      },
+      {
+        "text": "社会問題を解決するためには、もっと話し合うべきだと思います。",
+        "translation": "Eu acho que devemos discutir mais para resolver os problemas sociais.",
+        "phonetic": "[ɕakaɪ moɴdaɪ o kaɪkeʦɯ sɯrɯ tame ni wa, motto hanɕiaɯ beki da to omoɯ]"
+      },
+      {
+        "text": "若い人たちは選挙に行くべきではないか。",
+        "translation": "Os jovens não deveriam ir votar?",
+        "phonetic": "[ɰakaɪ hɯto-taɕi wa seŋkʲo nikaɯ bekɯ de wa naɪ ka]"
+      },
+      {
+        "text": "経済政策について、賛成ですか、反対ですか。",
+        "translation": "Você é a favor ou contra a política econômica?",
+        "phonetic": "[keːzaɪ seːsaɯɯ ni tsuite, sanseː desɯ ka, hantaɪ desɯ ka]"
+      }
+    ],
+    "common_error": {
+      "wrong": "政治について話すことは難しいです。",
+      "correct": "政治について話すのは難しいです。",
+      "correct_alt": "政治について話すのが難しいです。",
+      "explanation": "Muitos falantes de português usam こと (nominalizador) quando querem dizer 'falar sobre política é difícil'. Embora こと seja usado para nominalizar ações, の é mais natural quando se quer expressar uma opinião sobre uma ação específica em um contexto particular. A diferença é sutil: の tem um tom mais subjetivo e experiencial, enquanto こと é mais objetivo e genérico. Para evitar o erro, lembre-se de que の é preferível quando o comentário expressa um sentimento pessoal (como dificuldade, gosto, habilidade), e こと para fatos ou definições."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "意見を述べる",
+        "translation": "Expressando opiniões",
+        "examples": [
+          {
+            "original": "私はこの新しい法律に賛成です。",
+            "phonetic": "[ɰataɕi wa kono ataraɕiː hoːrɯʦɯ nʲ sanseː desɯ]",
+            "translation": "Eu sou a favor desta nova lei.",
+            "note": "Use 賛成 (sansei) para 'a favor' e 反対 (hantai) para 'contra'. Partícula に indica alvo."
+          },
+          {
+            "original": "政府の対応は不十分だと思います。",
+            "phonetic": "[seːɸɯ no taʲoː wa ɸɯʑɯːɸɯɴ da to omoɯ]",
+            "translation": "Acho que a resposta do governo é insuficiente.",
+            "note": "～と思う (to omou) é usado para opinião pessoal. Em contextos formais, use と考えています (to kangaete imasu)."
+          },
+          {
+            "original": "社会保障をもっと充実させるべきです。",
+            "phonetic": "[ɕakaɪ hoːɕoː o motto ʑɯːʑiʦɯ sase rɯ bekɯ desɯ]",
+            "translation": "Deveríamos melhorar mais a seguridade social.",
+            "note": "～べきです indica dever moral ou recomendação forte. Cuidado com a forma: する→すべき (mas pode ser するべき também)."
+          },
+          {
+            "original": "例えば、教育費を無料にする政策はどうですか。",
+            "phonetic": "[tatoeba, kjoːɯkɯɸi o mɯrjoː nʲ sɯrɯ seːsaɸɯ wa doː desɯ ka]",
+            "translation": "Por exemplo, o que acha de uma política de educação gratuita?",
+            "note": "Use 例えば (tatoeba) para dar exemplos. どうですか é uma forma educada de perguntar opinião."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "議論する",
+        "translation": "Debatendo",
+        "examples": [
+          {
+            "original": "その意見には反対ですが、おっしゃることもわかります。",
+            "phonetic": "[sono iːkeɴ ni wa hantaɪ desɯ ga, oɕːarɯ koto mo ɰakari masɯ]",
+            "translation": "Eu discordo dessa opinião, mas entendo o que você quer dizer.",
+            "note": "Use が para introduzir uma concessão. おっしゃる é a forma honorífica de 言う (falar)."
+          },
+          {
+            "original": "もっと具体的な例を挙げていただけませんか。",
+            "phonetic": "[motto gɯtaɪtekʲina reː o age te i'tada ke masen ka]",
+            "translation": "Você poderia dar exemplos mais concretos?",
+            "note": "～ていただけませんか é uma forma muito educada de pedir um favor. Em debates, é útil para pedir clareza."
+          },
+          {
+            "original": "それは、見方によっては正しいかもしれません。",
+            "phonetic": "[sore wa, mʲikata nʲ jotte wa tadasɯɪ kamo ɕiremasen]",
+            "translation": "Dependendo do ponto de vista, isso pode ser correto.",
+            "note": "～かもしれません expressa possibilidade. 見方によっては significa 'dependendo de como se vê'."
+          },
+          {
+            "original": "賛成する人もいれば、反対する人もいます。",
+            "phonetic": "[sanseː sɯrɯ hɯto mo ireba, hantaɪ sɯrɯ hɯto mo ɯimasɯ]",
+            "translation": "Há algumas pessoas a favor, outras contra.",
+            "note": "Use a construção ～もいれば～もいます para indicar a coexistência de dois grupos."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "妥協案を探る",
+        "translation": "Buscando consenso",
+        "examples": [
+          {
+            "original": "両方の意見を聞いて、折り合いをつける必要があります。",
+            "phonetic": "[ɾjoːhoː no iːkeɴ o kʲiːte, oɾiaːi o ʦɯkerɯ hɯʦɯjoː ga arimasɯ]",
+            "translation": "Precisamos ouvir os dois lados e chegar a um acordo.",
+            "note": "折り合いをつける (oriai o tsukeru) é uma expressão idiomática para 'chegar a um consenso'."
+          },
+          {
+            "original": "この点については、譲歩してもいいです。",
+            "phonetic": "[kono teɴ nʲ tɕɯte wa, ʑoːho ɕite mo iː desɯ]",
+            "translation": "Sobre este ponto, posso ceder.",
+            "note": "～てもいいです indica permissão ou concessão. Em negociação, você pode usar 譲歩する (ceder)."
+          },
+          {
+            "original": "それが一番妥当な解決策でしょう。",
+            "phonetic": "[sore ga itɕiɴ ban dataɯ na kaɯKeːsaɯɯ deɕoː]",
+            "translation": "Essa deve ser a solução mais razoável.",
+            "note": "～でしょう é usado para suposição ou confirmação. 妥当 (datou) significa 'apropriado, razoável'."
+          },
+          {
+            "original": "条件を少し変えることで、合意できるかもしれません。",
+            "phonetic": "[ʥoːkeɴ o sɯkoɕi kaerɯ koto de, goːɯ dekirɯ kamo ɕiremasen]",
+            "translation": "Podemos chegar a um acordo se mudarmos um pouco as condições.",
+            "note": "～ことで expressa meio ou causa. 合意する (goui suru) é 'concordar formalmente'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗳️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Questões políticas e sociais"
+    }
+  },
+  {
+    "id": "pt_B2_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "経済と金融の基本 / Fundamentos de economia e finanças",
+    "bridge": "Em japonês, ao discutir economia e finanças, é comum usar estrangeirismos (gairaigo) adaptados do inglês, como インフレ (inflação) e デフレ (deflação), que podem soar familiares, mas têm pronúncia e uso diferentes. Além disso, o japonês não usa artigos, e a ordem das palavras é Sujeito-Objeto-Verbo, o que pode gerar confusão ao traduzir estruturas como 'o preço subiu' (価格が上がりました). Diferente do português, que usa o verbo 'ter' para posse, o japonês usa o verbo ある (para coisas inanimadas) e いる (para seres animados), então frases como 'tenho dinheiro' viram お金があります. Fique atento também ao uso de partículas como は (tópico) e が (sujeito), que muitas vezes são omitidas na fala casual, mas essenciais em contextos formais.",
+    "rule": "Para discutir economia e finanças no nível B2, você precisa dominar: (1) Vocabulário básico de economia: 経済 (けいざい, economia), 市場 (しじょう, mercado), 供給 (きょうきゅう, oferta), 需要 (じゅよう, demanda), 投資 (とうし, investimento), 税金 (ぜいきん, imposto), 給料 (きゅうりょう, salário). (2) Padrões de frase: para expressar mudanças, use 上がる (subir) e 下がる (cair) com a partícula が: 物価が上がる (os preços sobem). Para opiniões, use と思います (acho que) após a frase: 経済は良くなると思います (acho que a economia vai melhorar). (3) Formas de comparação: より (do que) e 一番 (o mais): 株は不動産よりリスクが高い (ações são mais arriscadas que imóveis). (4) Discurso formal: use as formas ます/です em conversas: 税金が高いです (os impostos são altos). Evite formas informais como 高い (alta) sem o verbo, a menos que esteja falando casualmente. (5) Expressões de causa e efeito: ので (porque) e から (porque): 円が安いので、輸出が増えました (porque o iene está barato, as exportações aumentaram). Lembre-se de que a negação é feita no final do verbo: 上がらない (não sobe).",
+    "concept_examples": [
+      {
+        "text": "インフレで物価が上がっています。",
+        "translation": "A inflação está fazendo os preços subirem.",
+        "phonetic": "iɴɸɯɾe de ɸɯka̠ ɡa a̠ɡa̠te̞ imasɯ"
+      },
+      {
+        "text": "給料が下がりました。",
+        "translation": "O salário caiu.",
+        "phonetic": "kʲɯːɾʲoː ɡa sa̠ɡa̠ɾimasɨta̠"
+      },
+      {
+        "text": "株に投資するのはリスクがあります。",
+        "translation": "Investir em ações tem riscos.",
+        "phonetic": "kabɯ ɲi to̞ːɕi sɯɾɯ no̞ wa ɾisɯkɯ ɡa a̠ɾimasɯ"
+      },
+      {
+        "text": "経済は良くなるとと思います。",
+        "translation": "Acho que a economia vai melhorar.",
+        "phonetic": "keːza̠i wa̠ jo̞kɯ na̠ɾɯ to̞ o̞mo̞imasɯ"
+      }
+    ],
+    "common_error": {
+      "wrong": "私はお金をたくさんあります。",
+      "correct": "私はお金がたくさんあります。",
+      "correct_alt": "私はたくさんお金を持っています。",
+      "explanation": "O erro ocorre porque em português dizemos 'tenho muito dinheiro', usando o verbo 'ter' com objeto direto. Em japonês, quando se expressa posse (ou existência) de algo, o verbo あります é intransitivo e o que é possuído deve ser marcado com a partícula が, não を. A partícula を é usada para objetos diretos de verbos transitivos (ex: お金を使う - gastar dinheiro). Para evitar esse erro, lembre-se: na estrutura 'ter' (あります), use sempre が após o item que você possui. Alternativamente, se quiser usar o verbo 持っています (especificamente para segurar ou carregar), aí sim pode usar を."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本の経済用語",
+        "translation": "Vocabulário básico de economia",
+        "examples": [
+          {
+            "original": "経済",
+            "phonetic": "keːza̠i",
+            "translation": "economia",
+            "note": "Termo fundamental para qualquer discussão sobre o tópico."
+          },
+          {
+            "original": "市場",
+            "phonetic": "ɕiʑoː",
+            "translation": "mercado",
+            "note": "Cuidado: 市場 também pode significar 'feira' ou 'mercado municipal'."
+          },
+          {
+            "original": "供給",
+            "phonetic": "kʲoːkʲɯː",
+            "translation": "oferta",
+            "note": "Usado em contextos econômicos formais."
+          },
+          {
+            "original": "需要",
+            "phonetic": "ʑɯjoː",
+            "translation": "demanda",
+            "note": "Geralmente aparece junto com 供給 em discussões sobre leis de mercado."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "お金の話",
+        "translation": "Falar sobre dinheiro",
+        "examples": [
+          {
+            "original": "お金を貯めています。",
+            "phonetic": "o̞ka̠ne̞ o̞ ta̠me̞te̞ imasɯ",
+            "translation": "Estou economizando dinheiro.",
+            "note": "O verbo 貯める significa 'poupar' e é usado com を."
+          },
+          {
+            "original": "銀行でお金を下ろしました。",
+            "phonetic": "ɡiŋko̞ː de o̞ka̠ne̞ o̞ o̞ɾo̞ɕimasɨta̠",
+            "translation": "Saquei dinheiro no banco.",
+            "note": "O verbo 下ろす (sacar) usa a partícula を e o local com で."
+          },
+          {
+            "original": "クレジットカードで払います。",
+            "phonetic": "kɯɾe̞ʑit̚to̞ kaːdo de haɾa̠imasɯ",
+            "translation": "Vou pagar com cartão de crédito.",
+            "note": "O meio de pagamento é marcado com で."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "投資とリスク",
+        "translation": "Investimento e risco",
+        "examples": [
+          {
+            "original": "株式投資はリスクが高いです。",
+            "phonetic": "kabɯɕiki to̞ːɕi wa̠ ɾisɯkɯ ɡa ta̠ka̠i desɯ",
+            "translation": "Investimento em ações é arriscado.",
+            "note": "Use は para o tópico e が para o sujeito da característica."
+          },
+          {
+            "original": "投資する前に、よく調べます。",
+            "phonetic": "to̞ːɕi sɯɾɯ ma̠e̞ ɲi, jo̞kɯ ɕiɾa̠be̞masɯ",
+            "translation": "Antes de investir, pesquiso bem.",
+            "note": "A construção 前に (antes de) é seguida do dicionário do verbo."
+          },
+          {
+            "original": "外国為替は変動が激しいです。",
+            "phonetic": "ɡa̠ikokɯ ka̠ɕe̞ wa̠ he̞n̩do̞ː ɡa̠ ɕiɟe̞ɕiː desɯ",
+            "translation": "O câmbio estrangeiro é muito volátil.",
+            "note": "O verbo 変動する (flutuar) e o adjetivo 激しい (intenso) são comuns em finanças."
+          }
+        ]
+      }
+    ],
+    "emoji": "💰",
+    "phonetic": "",
+    "translations": {
+      "pt": "Economia e finanças básicas"
+    }
+  },
+  {
+    "id": "pt_B2_conv_07",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "哲学的な考えを話すときに使う「〜というものだ」と「〜とは」/ Filosofia e ideias abstratas",
+    "bridge": "Em japonês, para definir ou explicar a essência de conceitos abstratos, usamos construções como「〜とは…だ」e「〜というものだ」. Em português, usamos frases como 'a liberdade é...' com o verbo ser, mas no japonês essa estrutura é mais marcada e frequentemente acompanhada de partículas como「とは」ou「という」. Um erro comum é omitir essas partículas e usar apenas「は」, o que soa menos filosófico e mais factual. Além disso, a ordem das palavras é diferente: em japonês, o sujeito vem antes da definição, mas a definição frequentemente aparece no final da frase, exigindo que o ouvinte espere até o fim para entender o sentido completo.",
+    "rule": "Para expressar definições ou opiniões sobre ideias abstratas em japonês, usamos as seguintes estruturas:\n\n1. **〜とは…だ**: A partícula「とは」é usada para introduzir o tema a ser definido. Muitas vezes, é seguida por「ということだ」ou「というものだ」para dar ênfase à definição.\n   - Exemplo: 自由とは、自分の選択に責任を持つことだ。 (Liberdade é assumir responsabilidade pelas próprias escolhas.)\n   - Nota: A estrutura「とは」é mais formal e analítica, comum em ensaios e debates.\n\n2. **〜というものだ**: Essa construção é usada para expressar uma visão mais pessoal ou universal sobre algo, frequentemente com um tom de julgamento.\n   - Exemplo: 愛というものは、時間をかけて育むものだ。 (O amor é algo que se cultiva com o tempo.)\n   - Nota:「というもの」pode ser usado com「は」em vez de「とは」, especialmente em conversas informais.\n\n3. **〜は…ものだ**: Em um registro mais coloquial, podemos usar「は」seguido de「ものだ」para dar definições ou opiniões.\n   - Exemplo: 人生は、一度きりのものだ。 (A vida é uma coisa única.)\n\n4. **Uso de「こと」vs「もの」**: Para abstrações,「こと」é usado para fatos ou ações;「もの」é usado para objetos, conceitos tangíveis ou qualidades inerentes. Por exemplo, 「幸せとは、日常の中で見つけるものだ」 (Felicidade é algo que se encontra no cotidiano) – 「もの」porque felicidade é um conceito amplo.\n\n5. **Exceção**: Em perguntas retóricas ou expressões como「何だ…とは」, a estrutura pode ser invertida: 「愛とは何だ？」 (O que é o amor?).\n\n6. **Registro**: Em conversas formais ou filosóficas,「とは」e「というものだ」são mais comuns. Em conversas informais, usa-se「って」e「ものだ」sem partícula.\n\n**Dicas para B2**: Use「〜というのは…のことだ」para simplificar definições em conversas cotidianas, e「〜とは…だ」para discussões mais profundas. Cuidado com a partícula「は」: ela pode ser substituída por「とは」, mas não o contrário, pois「とは」tem um tom de definição.",
+    "concept_examples": [
+      {
+        "text": "自由とは、責任を取ることだ。",
+        "translation": "Liberdade é assumir responsabilidade.",
+        "phonetic": "dʑijuː towa, sekinin o toru koto da."
+      },
+      {
+        "text": "幸せというものは、毎日の小さな出来事の中にある。",
+        "translation": "A felicidade está nas pequenas coisas do dia a dia.",
+        "phonetic": "ɕiawase to iu mono wa, mainiti no tiisana dekigoto no naka ni aru."
+      },
+      {
+        "text": "人生とは、一度しかない旅のようなものだ。",
+        "translation": "A vida é como uma jornada que acontece apenas uma vez.",
+        "phonetic": "dʑinseː towa, itido sikanai tabi no joːna mono da."
+      },
+      {
+        "text": "愛というものは、言葉よりも行動で示すものだ。",
+        "translation": "O amor é algo que se mostra mais por ações do que por palavras.",
+        "phonetic": "ai to iu mono wa, kotoba jori mo koːdoː de simesu mono da."
+      }
+    ],
+    "common_error": {
+      "wrong": "自由は責任を取ることだ。",
+      "correct": "自由とは、責任を取ることだ。",
+      "correct_alt": "自由というものは、責任を取ることだ。",
+      "explanation": "O erro ocorre porque em português usamos o verbo ser sem partícula específica, e o aprendiz transfere isso para o japonês usando apenas「は」. No entanto, para definições filosóficas,「は」 soa incompleto ou coloquial demais. Use「とは」ou「というものは」para enfatizar que você está definindo um conceito, não apenas afirmando um fato. Lembre-se de que「とは」é mais formal e analítico, enquanto「というものは」é mais comum em conversas."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本の定義",
+        "translation": "Definições básicas",
+        "examples": [
+          {
+            "original": "平和とは、争いのない状態だ。",
+            "phonetic": "heːwa towa, arasoi no nai dʑoːtai da.",
+            "translation": "Paz é um estado sem conflitos.",
+            "note": "Use「とは」para definições diretas e objetivas."
+          },
+          {
+            "original": "正義というものは、人によって違う。",
+            "phonetic": "seːɡi to iu mono wa, hito ni jotte tigau.",
+            "translation": "Justiça é algo que varia de pessoa para pessoa.",
+            "note": "Aqui,「というものは」introduz uma reflexão sobre a natureza da justiça."
+          },
+          {
+            "original": "時間とは、止まることのない流れだ。",
+            "phonetic": "dʑikan towa, tomaru koto no nai naɡare da.",
+            "translation": "Tempo é um fluxo que nunca para.",
+            "note": "Observe o uso de「とは」seguido de「だ」para uma definição metafórica."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "抽象的な意見を述べる",
+        "translation": "Expressando opiniões abstratas",
+        "examples": [
+          {
+            "original": "幸せとは、他人と比べないことだと思う。",
+            "phonetic": "ɕiawase towa, tanin to kurabenai koto da to omou.",
+            "translation": "Eu acho que felicidade é não se comparar com os outros.",
+            "note": "Adicione「と思う」para expressar opinião pessoal após uma definição."
+          },
+          {
+            "original": "美というものは、心の持ちようで変わる。",
+            "phonetic": "bi to iu mono wa, kokoro no motijoː de kawaru.",
+            "translation": "A beleza muda dependendo do estado de espírito.",
+            "note": "Use o verbo「変わる」para mostrar que a definição é dinâmica."
+          },
+          {
+            "original": "友情とは、お互いを理解しようとすることだ。",
+            "phonetic": "juːʑoː towa, otagai o rikai sijoː to suru koto da.",
+            "translation": "Amizade é tentar entender um ao outro.",
+            "note": "A estrutura「〜しようとする」indica esforço contínuo, comum em definições."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "哲学的な議論",
+        "translation": "Discussões filosóficas",
+        "examples": [
+          {
+            "original": "死とは、終わりではなく、新たな始まりだと考える人もいる。",
+            "phonetic": "si towa, owari de wa naku, aratana hazimari da to kanɡaeru hito mo iru.",
+            "translation": "Algumas pessoas pensam que a morte não é um fim, mas um novo começo.",
+            "note": "Use「〜と考える人もいる」para apresentar perspectivas alternativas."
+          },
+          {
+            "original": "存在とは何かという問いは、永遠の謎だ。",
+            "phonetic": "sonzai towa nanika to iu toi wa, eːen no nazo da.",
+            "translation": "A questão do que é a existência é um mistério eterno.",
+            "note": "Combine「とは」com「何かという問い」para citar uma pergunta filosófica."
+          },
+          {
+            "original": "真実というものは、しばしば主観に左右されるものだ。",
+            "phonetic": "sinʑicu to iu mono wa, sibasiba sjukan ni sajuː sareru mono da.",
+            "translation": "A verdade é algo frequentemente influenciado pela subjetividade.",
+            "note": "Aqui,「というものは」é usado para uma afirmação geral e atemporal."
+          }
+        ]
+      }
+    ],
+    "emoji": "💭",
+    "phonetic": "",
+    "translations": {
+      "pt": "Filosofia e ideias abstratas"
+    }
+  },
+  {
+    "id": "pt_B2_conv_08",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "芸術と文化について語る / Falar sobre arte e cultura",
+    "bridge": "Em japonês, ao contrário do português, a opinião é frequentemente expressa de forma indireta, usando estruturas como 〜と思います (to omoimasu) ou 〜ではないでしょうか (dewa naideshou ka) para suavizar assertividade. Além disso, o uso de partículas como は e が é crucial para marcar tópico e sujeito, enquanto em português contamos com a ordem das palavras. Cuidado com a tradução literal de expressões como 'para mim' que não têm equivalente direto.",
+    "rule": "Para falar sobre arte e cultura em japonês no nível B2, use padrões como: 〜は〜です para descrições objetivas; 〜と思います para opiniões; 〜そうです (ouvir dizer) para informações; 〜ようです para impressões. Verbos como 描く (えがく, pintar), 彫刻する (ちょうこくする, esculpir), 鑑賞する (かんしょうする, apreciar) são úteis. Em conversas, o uso de 〜んですが e 〜んですね (explicação e busca de concordância) é comum. Para solicitar opinião: どう思いますか. Lembre-se de que はい/いいえ respondem à negação da pergunta, não à afirmativa, diferente do português.",
+    "concept_examples": [
+      {
+        "text": "この浮世絵は江戸時代の文化をよく表していると思います。",
+        "translation": "Eu acho que esta gravura ukiyo-e representa bem a cultura do período Edo.",
+        "phonetic": "kono ukiyoe wa edojidai no bunka o yoku arawashite iru to omoimasu."
+      },
+      {
+        "text": "現代美術は難しく感じますが、その奥深さが魅力ですね。",
+        "translation": "A arte moderna parece difícil, mas o seu aspecto profundo é fascinante, não é?",
+        "phonetic": "gendai bijutsu wa muzukashiku kanjimasu ga, sono okufukasa ga miryoku desu ne."
+      },
+      {
+        "text": "茶道では、動作の一つ一つに意味があります。",
+        "translation": "Na cerimônia do chá, cada gesto tem um significado.",
+        "phonetic": "sadō de wa, dōsa no hitotsu hitotsu ni imi ga arimasu."
+      },
+      {
+        "text": "この作家の影響を受けた芸術家は多いようです。",
+        "translation": "Parece que muitos artistas foram influenciados por este escritor.",
+        "phonetic": "kono sakka no eikyō o uketa geijutsuka wa ōi yō desu."
+      }
+    ],
+    "common_error": {
+      "wrong": " 私にとって、この絵は好きです。",
+      "correct": " 私はこの絵が好きです。",
+      "correct_alt": " この絵は私が好きです。 (contexto: é esta pintura que eu gosto)",
+      "explanation": "Em português, 'para mim' (私にとって) pode ser usado para expressar opinião, mas em japonês essa estrutura não indica preferência. Use 私は (tópico) + が (objeto do adjetivo 好き). Traduzir literalmente causa ambiguidade e soa não-natural."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "美術作品を説明する",
+        "translation": "Descrever obras de arte",
+        "examples": [
+          {
+            "original": "この絵は鮮やかな色彩が特徴です。",
+            "phonetic": "kono e wa azayaka na shikisai ga tokuchō desu.",
+            "translation": "Esta pintura tem como característica cores vivas.",
+            "note": "Use は para tópico e が para o detalhe específico."
+          },
+          {
+            "original": "作者は美しい風景を描くことで有名です。",
+            "phonetic": "sakusha wa utsukushii fūkei o egaku koto de yūmei desu.",
+            "translation": "O artista é famoso por pintar paisagens bonitas.",
+            "note": "O padrão 〜ことで示a causa/meio."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "伝統芸能について話す",
+        "translation": "Falar sobre artes tradicionais",
+        "examples": [
+          {
+            "original": "能は日本の代表的な舞台芸術です。",
+            "phonetic": "nō wa nihon no daihyōteki na butai geijutsu desu.",
+            "translation": "O teatro Nō é uma arte performática representativa do Japão.",
+            "note": "A partícula は marca o tópico geral."
+          },
+          {
+            "original": "着物を着るには特別な技術が必要です。",
+            "phonetic": "kimono o kiru ni wa tokubetsu na gijutsu ga hitsuyō desu.",
+            "translation": "Para vestir um quimono, é necessária uma técnica especial.",
+            "note": "Use 〜には para indicar finalidade."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "芸術の印象を述べる",
+        "translation": "Expressar impressões sobre arte",
+        "examples": [
+          {
+            "original": "この陶芸展は見る価値があると思います。",
+            "phonetic": "kono tōgeiten wa miru kachi ga aru to omoimasu.",
+            "translation": "Acho que esta exposição de cerâmica vale a pena ver.",
+            "note": "〜価値がある é útil para recomendar."
+          },
+          {
+            "original": "彼女の作品には何か心を動かされるものがありますね。",
+            "phonetic": "kanojo no sakuhin ni wa nanika kokoro o ugokasareru mono ga arimasu ne.",
+            "translation": "As obras dela têm algo que toca o coração, não é?",
+            "note": "Use 〜には〜があります para atribuir propriedade; verbo passivo 動かされる."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "pt": "Arte, cultura e história"
+    }
+  },
+  {
+    "id": "pt_B2_conv_09",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "問題解決の話し合い / Discussões para resolução de problemas",
+    "bridge": "Em português, ao discutir problemas, usamos frequentemente o modo subjuntivo (ex.: 'sugiro que tentemos...') e estruturas impessoais como 'é preciso' ou 'pode ser que'. Em japonês, essa nuance é expressa por formas verbais como -eba (condicional), -ta hou ga ii (é melhor), e -te miru (tentar fazer). Uma armadilha comum é a tradução literal de 'se eu fosse você' – que não é usada em japonês; em vez disso, usa-se 'anata no tachiba nara' ou simplesmente a condicional. Além disso, a polidez é crucial: em discussões, o uso de formas como 'to omoimasu' (eu acho) ou 'ja nai deshou ka' (não seria?) suaviza a opinião, enquanto em português podemos ser mais diretos.",
+    "rule": "Para discutir problemas e soluções em japonês (nível B2), é fundamental dominar as seguintes estruturas:\n\n1. **Condicionais -ba / -tara**: Usamos -ba para condições gerais e -tara para situações específicas ou hipotéticas. Ex.: 問題があれば、相談してください (Se houver um problema, por favor consulte). A forma -tara pode expressar 'quando' ou 'se' e frequentemente sugere uma solução proposta. Ex.: 時間があったら、一緒に考えましょう (Se tiver tempo, vamos pensar juntos).\n\n2. **Sugestões e recomendações**: A forma -ta hou ga ii desu (é melhor fazer) é usada para dar conselhos. Ex.: もっと話し合ったほうがいいです (É melhor conversarmos mais). Para sugestões mais suaves, usa-se -te wa ikaga deshou ka (que tal fazer?) ou -mashou (vamos fazer). Ex.: 新しい案を考えてみましょう (Vamos tentar pensar numa nova ideia).\n\n3. **Opinião e incerteza**: Para expressar opinião de forma educada, usamos to omoimasu (eu acho que) ou to kangaeimasu (eu penso que). Para incerteza, usamos kamoshiremasen (pode ser que) ou ja nai deshou ka (não seria?). Ex.: それは良い解決策じゃないでしょうか (Não seria uma boa solução?).\n\n4. **Pedir opiniões e sugestões**: Frases como dou omoimasu ka? (O que você acha?), nani ka ii houhou wa arimasen ka? (Existe algum bom método?), ou donna kangae o motte imasu ka? (Que ideias você tem?) são essenciais para incentivar a participação.\n\n5. **Estruturas de concessão e contraste**: Para reconhecer um ponto antes de contrapor, usamos shi… (e também), keredomo (mas), noni (apesar de). Ex.: 問題は難しいけど、解決策はあると思います (O problema é difícil, mas acho que há soluções).\n\n6. **Formas de resumo**: Para concluir uma discussão, usamos you suru ni (em resumo), kekkyoku (no final), ou toriaezu (por enquanto). Ex.: 要するに、予算を増やす必要があります (Em resumo, precisamos aumentar o orçamento).\n\nLembre-se de que, em contextos formais, você deve usar o keigo (linguagem respeitosa) e evitar expressões muito diretas. Em contextos informais, pode usar formas como nda ou ja nai para tornar a fala mais natural.",
+    "concept_examples": [
+      {
+        "text": "問題を解決するために、まず原因を調べましょう。",
+        "translation": "Para resolver o problema, vamos primeiro investigar a causa.",
+        "phonetic": "mondai o kaiketsu suru tame ni, mazu gen'in o shirabemashou."
+      },
+      {
+        "text": "もし予算が足りなければ、別の方法を考えたほうがいいです。",
+        "translation": "Se o orçamento não for suficiente, é melhor pensar em outro método.",
+        "phonetic": "moshi yosan ga tarinakereba, betsu no houhou o kangaeta hou ga ii desu."
+      },
+      {
+        "text": "この案についてどう思いますか。",
+        "translation": "O que você acha desta proposta?",
+        "phonetic": "kono an ni tsuite dou omoimasu ka."
+      },
+      {
+        "text": "皆さんの意見を聞かせてください。",
+        "translation": "Por favor, deixem-me ouvir as opiniões de todos.",
+        "phonetic": "minasan no iken o kikasete kudasai."
+      }
+    ],
+    "common_error": {
+      "wrong": "私の意見は、あなたの意見が間違っている。",
+      "correct": "私はあなたの意見とは少し違う考えを持っています。",
+      "correct_alt": "あなたの意見も分かりますが、私は別の考えです。",
+      "explanation": "Em português, é comum expressar discordância de forma direta: 'minha opinião é que a sua está errada'. Em japonês, isso soa agressivo e rude. Para manter a harmonia, é essencial suavizar a discordância, usando formas como 'to omoimasu' (eu acho) ou 'chigau kangae mo arimasu' (tenho uma opinião diferente). A estrutura 'watashi wa anata no iken to wa sukoshi chigau kangae o motte imasu' é uma forma educada de expressar discordância sem confronto direto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "問題提起と分析",
+        "translation": "Apresentação e análise do problema",
+        "examples": [
+          {
+            "original": "問題は何だと思いますか。",
+            "phonetic": "mondai wa nan da to omoimasu ka.",
+            "translation": "O que você acha que é o problema?",
+            "note": "Uso da estrutura 'to omoimasu ka' para pedir opinião de forma educada."
+          },
+          {
+            "original": "原因を明確にする必要があります。",
+            "phonetic": "gen'in o meikaku ni suru hitsuyou ga arimasu.",
+            "translation": "Precisamos esclarecer a causa.",
+            "note": "A expressão 'hitsuyou ga aru' (necessidade de) é comum em discussões formais."
+          },
+          {
+            "original": "もし情報が不足していたら、調査しましょう。",
+            "phonetic": "moshi jouhou ga fusoku shite itara, chousa shimashou.",
+            "translation": "Se a informação for insuficiente, vamos investigar.",
+            "note": "Uso da condicional -tara para situação hipotética."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "解決策の提案",
+        "translation": "Proposta de soluções",
+        "examples": [
+          {
+            "original": "新しい方法を試してみてはどうですか。",
+            "phonetic": "atarashii houhou o tameshite mite wa dou desu ka.",
+            "translation": "Que tal tentar um novo método?",
+            "note": "Expressão 'te mite wa dou desu ka' é uma sugestão suave."
+          },
+          {
+            "original": "この案が一番効果的だと思います。",
+            "phonetic": "kono an ga ichiban kouka-teki da to omoimasu.",
+            "translation": "Acho que esta proposta é a mais eficaz.",
+            "note": "Uso de 'to omoimasu' para expressar opinião pessoal."
+          },
+          {
+            "original": "まずは小さな変更から始めたらどうでしょうか。",
+            "phonetic": "mazu wa chiisana henkou kara hajimetara dou deshou ka.",
+            "translation": "Que tal começar com mudanças pequenas?",
+            "note": "Forma 'tara dou deshou ka' é mais formal e polida que 'tara dou desu ka'."
+          },
+          {
+            "original": "全員が納得するまで話し合うべきです。",
+            "phonetic": "zen'in ga nattoku suru made hanashiau beki desu.",
+            "translation": "Devemos discutir até que todos estejam convencidos.",
+            "note": "Uso de 'beki desu' para expressar obrigação moral ou recomendação."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "合意とまとめ",
+        "translation": "Acordo e conclusão",
+        "examples": [
+          {
+            "original": "皆さんの意見をまとめると、この案で進めましょう。",
+            "phonetic": "minasan no iken o matomeru to, kono an de susumemashou.",
+            "translation": "Resumindo as opiniões de todos, vamos prosseguir com esta proposta.",
+            "note": "A expressão 'matomeru to' (se resumirmos) é útil para concluir discussões."
+          },
+          {
+            "original": "異論がなければ、決定しましょう。",
+            "phonetic": "iron ga nakereba, kettei shimashou.",
+            "translation": "Se não houver objeções, vamos decidir.",
+            "note": "Uso da condicional -ba para condição negativa."
+          },
+          {
+            "original": "この問題は解決できたと思います。",
+            "phonetic": "kono mondai wa kaiketsu dekita to omoimasu.",
+            "translation": "Acho que conseguimos resolver este problema.",
+            "note": "Forma passada 'dekita' (conseguiu) para indicar conclusão."
+          },
+          {
+            "original": "次のステップを確認しましょう。",
+            "phonetic": "tsugi no sutepu o kakunin shimashou.",
+            "translation": "Vamos confirmar os próximos passos.",
+            "note": "Uso de 'shimashou' para sugerir ação conjunta."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤝",
+    "phonetic": "",
+    "translations": {
+      "pt": "Discutindo para resolver problemas"
+    }
+  },
+  {
+    "id": "pt_B2_conv_10",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "自分の目標を話す・達成する / Falando sobre metas pessoais e alcançando-as",
+    "bridge": "Em japonês, ao falar sobre metas e planos, é comum usar a estrutura 'こと' como nominalizador de verbos, algo que não tem equivalência direta em português. Outra diferença importante é a expressão de vontade e intenção: enquanto em português usamos verbos como 'pretender' ou 'querer' de forma flexível, em japonês há uma distinção clara entre 'つもり' (intenção planejada), 'たい' (desejo) e 'ことにしている' (hábito/rótina). Além disso, o uso de partículas como 'に' e 'を' mudam dependendo do verbo auxiliar, o que pode gerar confusão. Cuidado também com a formalidade: em conversas do dia a dia, as formas curtas (辞書形) são comuns, mas ao falar com superiores ou em situações formais, é necessário usar a forma 'ます'.",
+    "rule": "Para falar sobre metas e desenvolvimento pessoal em japonês:\n\n1. **Nominalização com 'こと'**: Para transformar verbos em substantivos (ex: 'はたらくこと' = 'trabalhar'), bastante usado em frases como '私の目標は…ことです'.\n\n2. **Expressão de intenção**: Use 'つもり' para intenções planejadas, 'つもりです' em contextos formais. Exemplo: '留学するつもりです' (pretendo estudar no exterior).\n\n3. **Desejo com 'たい'**: Use a forma 'ます' do verbo + 'たい' para expressar 'querer fazer'. Exemplo: '新しい言語を学びたい' (quero aprender um novo idioma). No passado, 'たかった'.\n\n4. **Hábito/rotina com 'ことにしている'**: Para expressar ações que decidiu manter, como rotina ou padrão. Exemplo: '毎日運動することにしている' (decidi me exercitar todos os dias).\n\n5. **Metas com '目標'**: Use '目標は…です' ou '目標として…' para estabelecer metas. Exemplo: '目標はマラソンを完走することです' (minha meta é completar uma maratona).\n\n6. **Condições com 'ために'**: Para expressar propósito, use 'ために' após verbo no dicionário ou substantivo. Exemplo: '健康のために走ります' (corro pela saúde).\n\n**Exceções e armadilhas**:\n- 'こと' não é usado para habilidades (isso é 'ことができます' para capacidade).\n- Não confundir 'つもり' com 'よてい' (agenda/previsão).\n- 'に' em 'ために' pode ser substituído por 'のに' para propósito com nuance de expectativa, mas 'のに' também é usado para contraste (apesar de).",
+    "concept_examples": [
+      {
+        "text": "私の目標は日本語を完璧に話すことです。",
+        "translation": "Minha meta é falar japonês perfeitamente.",
+        "phonetic": "/watashi no mokuhyō wa nihongo o kanpeki ni hanasu koto desu/"
+      },
+      {
+        "text": "来年、転職するつもりです。",
+        "translation": "Pretendo mudar de emprego no ano que vem.",
+        "phonetic": "/rainen, tenshoku suru tsumori desu/"
+      },
+      {
+        "text": "もっと健康的になるために、毎日歩いています。",
+        "translation": "Para ficar mais saudável, ando todos os dias.",
+        "phonetic": "/motto kenkōteki ni naru tame ni, mainichi aruite imasu/"
+      },
+      {
+        "text": "自分を成長させるために、新しい趣味を始めたいです。",
+        "translation": "Para me desenvolver, quero começar um novo hobby.",
+        "phonetic": "/jibun o seichō saseru tame ni, atarashii shumi o hajimete tai desu/"
+      }
+    ],
+    "common_error": {
+      "wrong": "私の目標は日本語を完璧に話すためにです。",
+      "correct": "私の目標は日本語を完璧に話すことです。",
+      "correct_alt": "私の目標は、日本語を完璧に話せるようになることです。",
+      "explanation": "O erro acontece porque o aluno confunde 'ために' (propósito) com a nominalização de 'こと'. Em português, usamos 'para' tanto para propósito quanto como parte da estrutura, mas em japonês, quando queremos dizer 'meu objetivo é [fazer algo]', devemos usar 'こと' para transformar o verbo em substantivo. 'ために' é usado para indicar o propósito da ação, não o objetivo em si. Por isso, em '目標は…です', o verbo deve ser nominalizado com 'こと'. Para evitar, lembre-se: se a frase está no padrão 'A é B' (A = B), use 'こと' antes de 'です'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "目標を立てる",
+        "translation": "Estabelecendo metas",
+        "examples": [
+          {
+            "original": "今年の目標は、運動を習慣にすることです。",
+            "phonetic": "/kotoshi no mokuhyō wa, undō o shūkan ni suru koto desu/",
+            "translation": "A meta deste ano é tornar o exercício um hábito.",
+            "note": "Repare no uso de 'にすること' (fazer tornar-se)."
+          },
+          {
+            "original": "海外で働くことを目指しています。",
+            "phonetic": "/kaigai de hataraku koto o mezashite imasu/",
+            "translation": "Estou almejando trabalhar no exterior.",
+            "note": "Usa-se '目指す' para almejar um objetivo."
+          },
+          {
+            "original": "貯金するために、毎月決まった額を預けています。",
+            "phonetic": "/chokin suru tame ni, maitsuki kimatta gaku o azukete imasu/",
+            "translation": "Para poupar dinheiro, deposito um valor fixo todo mês.",
+            "note": "Aqui 'ために' indica propósito da ação."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "成長を実感する",
+        "translation": "Sentindo o progresso",
+        "examples": [
+          {
+            "original": "前より日本語が上手になった気がします。",
+            "phonetic": "/mae yori nihongo ga jōzu ni natta ki ga shimasu/",
+            "translation": "Sinto que fiquei melhor em japonês do que antes.",
+            "note": "Expressão '気がする' para sensação pessoal."
+          },
+          {
+            "original": "継続することでスキルが向上すると信じています。",
+            "phonetic": "/keizoku suru koto de sukiru ga kōjō suru to shinjite imasu/",
+            "translation": "Acredito que a persistência melhora as habilidades.",
+            "note": "Uso de 'ことで' como meio/causa."
+          },
+          {
+            "original": "失敗を恐れずに新しい挑戦をすることが大切です。",
+            "phonetic": "/shippai o osorezu ni atarashii chōsen o suru koto ga taisetsu desu/",
+            "translation": "É importante não temer o fracasso e aceitar novos desafios.",
+            "note": "Note a construção '〜ずに' (sem fazer)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "モチベーションを保つ",
+        "translation": "Mantendo a motivação",
+        "examples": [
+          {
+            "original": "モチベーションを保つためには、小さな目標を立てるといいですよ。",
+            "phonetic": "/mochibēshon o tamotsu tame ni wa, chiisana mokuhyō o tateru to ii desu yo/",
+            "translation": "Para manter a motivação, é bom estabelecer metas pequenas.",
+            "note": "Uso de '〜といい' para dar conselho suave."
+          },
+          {
+            "original": "自分にご褒美をあげると、頑張り続けられます。",
+            "phonetic": "/jibun ni gohōbi o ageru to, ganbari tsuzukeraremasu/",
+            "translation": "Se recompensar a si mesmo, você consegue continuar se esforçando.",
+            "note": "Estrutura condicional '〜と' para consequência."
+          },
+          {
+            "original": "仲間と励まし合いながら目標に向かって進んでいます。",
+            "phonetic": "/nakama to hagemashiai nagara mokuhyō ni mukatte susunde imasu/",
+            "translation": "Estou progredindo em direção à meta enquanto nos encorajamos mutuamente.",
+            "note": "Uso de '〜ながら' para ações simultâneas."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎯",
+    "phonetic": "",
+    "translations": {
+      "pt": "Desenvolvimento pessoal e metas"
+    }
+  }
+]

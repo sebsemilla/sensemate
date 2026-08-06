@@ -1,0 +1,1364 @@
+[
+  {
+    "id": "es_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "过去的动作 / Pasado simple",
+    "bridge": "En español, conjugamos el verbo para expresar el pasado (comí, fuiste, etc.). En chino, los verbos no se conjugan: la misma forma verbal sirve para presente, pasado y futuro. Para indicar que algo ya ocurrió, se usa la partícula 了 (le) después del verbo, o marcadores temporales como 昨天 (ayer) o 去年 (el año pasado). El truco es que 了 no es obligatorio si el contexto ya deja claro que es pasado, y además no se usa con verbos que expresan estados o hábitos. ",
+    "rule": "En chino, para expresar acciones completadas en el pasado, se coloca la partícula 了 (le) inmediatamente después del verbo (estructura: Sujeto + Verbo + 了 + (Objeto)). Esta construcción se usa principalmente con acciones puntuales y completadas. No se usa 了 con verbos estativos (como 是 shì 'ser' o 在 zài 'estar en') para indicar pasado; en esos casos se usan marcadores temporales o el contexto. Con verbos como 去 (qù 'ir'), 吃 (chī 'comer'), 买 (mǎi 'comprar'), 看 (kàn 'ver'), 做 (zuò 'hacer'), 说 (shuō 'decir'), etc., la adición de 了 es común y natural. También se puede usar 过 (guò) para indicar experiencia ('alguna vez'), pero eso es más apropiado para el aspecto experiencial. Para principiantes A2, es suficiente dominar 了 y los marcadores temporales. Recuerda que el orden de las palabras sigue siendo SVO, y que los adverbios de tiempo (como 昨天 zuótiān) suelen ir antes del verbo, al comienzo o después del sujeto.",
+    "concept_examples": [
+      {
+        "text": "我昨天吃了饭。",
+        "translation": "Ayer comí (arroz).",
+        "phonetic": "wǒ zuótiān chī le fàn"
+      },
+      {
+        "text": "他去了学校。",
+        "translation": "Él fue a la escuela.",
+        "phonetic": "tā qù le xuéxiào"
+      },
+      {
+        "text": "我们看了电影。",
+        "translation": "Vimos una película.",
+        "phonetic": "wǒmen kàn le diànyǐng"
+      },
+      {
+        "text": "她买了书。",
+        "translation": "Ella compró un libro.",
+        "phonetic": "tā mǎi le shū"
+      }
+    ],
+    "common_error": {
+      "wrong": "我吃了饭昨天。",
+      "correct": "我昨天吃了饭。",
+      "correct_alt": "我昨天吃饭了。",
+      "explanation": "En español, el adverbio de tiempo suele ir al final o al principio (comí ayer). En chino, el adverbio de tiempo (como 昨天) debe colocarse antes del verbo, típicamente después del sujeto o al principio de la oración. Colocarlo al final es un error común. También ten en cuenta que 了 puede ir después del verbo (perfectivo) o al final de la oración (cambio de estado), pero con adverbios de tiempo específicos, la posición más común es después del verbo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "用“了”表示完成",
+        "translation": "Usando 'le' para indicar acción completada",
+        "examples": [
+          {
+            "original": "我喝了水。",
+            "phonetic": "wǒ hē le shuǐ",
+            "translation": "Bebí agua.",
+            "note": "Aquí 了 se usa después del verbo '喝' para indicar que la acción de beber ya se completó."
+          },
+          {
+            "original": "他看了书。",
+            "phonetic": "tā kàn le shū",
+            "translation": "Él leyó un libro.",
+            "note": "Observa que '看' puede significar 'ver' o 'leer' según el contexto; aquí con '书' significa 'leer'."
+          },
+          {
+            "original": "我们写了字。",
+            "phonetic": "wǒmen xiě le zì",
+            "translation": "Escribimos caracteres.",
+            "note": "El objeto '字' no lleva clasificador porque es un sustantivo no contable en este contexto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "用时间词表示过去",
+        "translation": "Usando palabras de tiempo para indicar el pasado",
+        "examples": [
+          {
+            "original": "我昨天去公园。",
+            "phonetic": "wǒ zuótiān qù gōngyuán",
+            "translation": "Ayer fui al parque.",
+            "note": "Aquí no se usa 了 porque el adverbio '昨天' ya deja claro que es pasado. Esta es una forma común de hablar de acciones pasadas sin 了, aunque también se puede añadir."
+          },
+          {
+            "original": "他去年学习中文。",
+            "phonetic": "tā qùnián xuéxí zhōngwén",
+            "translation": "El año pasado él estudió chino.",
+            "note": "El verbo '学习' no lleva 了 aquí, pero el tiempo está claro por '去年'. En chino, es aceptable omitir 了 cuando el tiempo ya está especificado."
+          },
+          {
+            "original": "我上午看了电视。",
+            "phonetic": "wǒ shàngwǔ kàn le diànshì",
+            "translation": "Esta mañana vi la televisión.",
+            "note": "Cuando se usa un tiempo específico (上午), se puede usar 了 para enfatizar la finalización, pero no es obligatorio. Aquí lo usamos para mayor precisión."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "否定和疑问",
+        "translation": "Negación y preguntas",
+        "examples": [
+          {
+            "original": "我没吃饭。",
+            "phonetic": "wǒ méi chī fàn",
+            "translation": "No comí.",
+            "note": "Para negar acciones pasadas, se usa '没' (méi) en lugar de '不' (bù). Además, cuando se niega con 没, no se usa 了: se dice '没吃饭' y no '没吃了饭'."
+          },
+          {
+            "original": "你昨天去了吗？",
+            "phonetic": "nǐ zuótiān qù le ma?",
+            "translation": "¿Fuiste ayer?",
+            "note": "Para formar preguntas sí/no, se añade la partícula '吗' al final. Aquí '了' se usa porque es una pregunta sobre una acción completada."
+          },
+          {
+            "original": "他买了吗？",
+            "phonetic": "tā mǎi le ma?",
+            "translation": "¿Él compró?",
+            "note": "En preguntas, 了 se mantiene para indicar que se pregunta si la acción se completó."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "es": "Pasado simple"
+    }
+  },
+  {
+    "id": "es_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "正在 + verbo / Presente continuo",
+    "bridge": "En español, el presente continuo se forma con el verbo 'estar' + gerundio, y se usa para acciones en progreso. En chino, la estructura es muy parecida pero con una palabra clave: 正在 (zhèngzài) antes del verbo. Sin embargo, a diferencia del español, en chino no se conjuga el verbo, y el orden de las palabras es más fijo: sujeto + 正在 + verbo + objeto. Un error común es omitir 正在 pensando que el contexto es suficiente, o usar 在 (zài) de forma ambigua. También, en chino no se usa el presente continuo para acciones habituales, como sí se puede hacer en español con 'estoy comiendo' (habitual).",
+    "rule": "Para expresar una acción en progreso en mandarín, se usa el adverbio 正在 (zhèngzài) delante del verbo. La estructura es: sujeto + 正在 + verbo (+ objeto). El verbo no cambia de forma (no hay conjugación). También se puede usar 在 (zài) solo, que es más coloquial, y se puede combinar con 呢 (ne) al final de la frase para enfatizar. Ejemplos: 我正在看书 (wǒ zhèngzài kàn shū) = Estoy leyendo un libro. 他在吃饭 (tā zài chīfàn) = Él está comiendo. 她正在唱歌呢 (tā zhèngzài chànggē ne) = Ella está cantando. No se usa esta estructura para acciones habituales o verdades generales; en esos casos se usa el presente simple (sin 正在). Además, cuando se usa 正在, la acción es específica y en curso, y a menudo se acompaña de contextos como 现在 (xiànzài, ahora) o 这时候 (zhè shíhou, en este momento).",
+    "concept_examples": [
+      {
+        "text": "我正在看书。",
+        "translation": "Estoy leyendo un libro.",
+        "phonetic": "wǒ zhèngzài kàn shū"
+      },
+      {
+        "text": "他在吃饭。",
+        "translation": "Él está comiendo.",
+        "phonetic": "tā zài chīfàn"
+      },
+      {
+        "text": "我们正在上课。",
+        "translation": "Estamos en clase (en medio de la clase).",
+        "phonetic": "wǒmen zhèngzài shàngkè"
+      },
+      {
+        "text": "妈妈正在做饭呢。",
+        "translation": "Mamá está cocinando.",
+        "phonetic": "māma zhèngzài zuòfàn ne"
+      }
+    ],
+    "common_error": {
+      "wrong": "我吃午饭 ahora.",
+      "correct": "我正在吃午饭。",
+      "correct_alt": "我在吃午饭。",
+      "explanation": "Los hispanohablantes tienden a omitir la marca de progreso porque en español el presente simple también puede expresar acciones en curso (por ejemplo, 'como ahora'). En chino, para dejar claro que la acción está en progreso, es necesario usar 正在 o 在. Además, no se debe usar la palabra 'ahora' como sustituto; esa información ya está implícita en la construcción."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "正在 + verbo",
+        "translation": "Uso de 正在 para acciones en progreso",
+        "examples": [
+          {
+            "original": "我正在写作业。",
+            "phonetic": "wǒ zhèngzài xiě zuòyè",
+            "translation": "Estoy haciendo la tarea.",
+            "note": "Observa que el verbo '写' (escribir) no cambia con el sujeto."
+          },
+          {
+            "original": "他正在看电视。",
+            "phonetic": "tā zhèngzài kàn diànshì",
+            "translation": "Él está viendo la televisión.",
+            "note": "La acción es claramente momentánea, se usa 正在 para enfatizar."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "在 + verbo (coloquial)",
+        "translation": "Uso de 在 para acciones en progreso",
+        "examples": [
+          {
+            "original": "她在洗澡。",
+            "phonetic": "tā zài xǐzǎo",
+            "translation": "Ella se está bañando.",
+            "note": "En conversación informal, 在 es suficiente y natural."
+          },
+          {
+            "original": "我在开车。",
+            "phonetic": "wǒ zài kāichē",
+            "translation": "Estoy conduciendo.",
+            "note": "En este caso, se usa 在 sin 正在, y es perfectamente comprensible."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "正在 + verbo + 呢",
+        "translation": "Añadir 呢 para enfatizar",
+        "examples": [
+          {
+            "original": "她正在跳舞呢。",
+            "phonetic": "tā zhèngzài tiàowǔ ne",
+            "translation": "Ella está bailando (ahora mismo).",
+            "note": "El 呢 al final añade un tono de énfasis o sorpresa, como en español 'justo ahora'."
+          },
+          {
+            "original": "我们正在吃饭呢。",
+            "phonetic": "wǒmen zhèngzài chīfàn ne",
+            "translation": "Estamos comiendo (justo en este momento).",
+            "note": "En contextos con 呢, la acción en progreso se enfatiza más."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "es": "Presente continuo o progresivo"
+    }
+  },
+  {
+    "id": "es_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "将要表达未来 (voluntad de futuro)",
+    "bridge": "En español usamos 'ir a + infinitivo' para expresar un futuro planeado o inminente. En chino mandarín, no hay conjugación verbal para el tiempo futuro; se usan adverbios de tiempo como 明天 (míngtiān) o 下个星期 (xià gè xīngqī) y el contexto. Además, existe el verbo auxiliar 要 (yào) para expresar intención o plan, similar a 'ir a'. También se usa 会 (huì) para predicciones o eventos futuros basados en una suposición. A diferencia del español, la estructura de la oración en chino es Sujeto + Adverbio de tiempo + Verbo, sin cambios en el verbo. El orden de las palabras es crucial, y los adverbios de tiempo suelen colocarse al principio o antes del verbo.",
+    "rule": "En chino mandarín, el futuro se expresa de varias maneras: 1) Usando adverbios de tiempo (明天, 下个月, 明年) junto con el verbo en forma básica, sin cambios morfológicos. 2) Usando el verbo auxiliar 要 (yào) antes del verbo principal para indicar una intención o un plan futuro, equivalente a 'ir a' o 'tener que'. La estructura es: Sujeto + 要 + Verbo + (Objeto). Por ejemplo, 我明天要去北京 (Wǒ míngtiān yào qù Běijīng) = 'Mañana voy a ir a Pekín'. 3) Usando 会 (huì) antes del verbo para expresar una predicción o una futura probabilidad, similar a 'habrá de' o 'será que'. La estructura es: Sujeto + 会 + Verbo + (Objeto). Por ejemplo, 明天会下雨 (Míngtiān huì xià yǔ) = 'Mañana lloverá'. En A2, nos enfocamos en 要 para planes e intenciones y en adverbios de tiempo. No hay diferencia entre los pronombres personales; 要 no cambia según la persona. También es común usar 以后 (yǐhòu) para 'después' para indicar futuro. Es importante recordar que el tiempo no se marca en el verbo; la ausencia de marcador temporal puede indicar presente o futuro dependiendo del contexto.",
+    "concept_examples": [
+      {
+        "text": "我明天要去图书馆。",
+        "translation": "Mañana voy a ir a la biblioteca.",
+        "phonetic": "wǒ míngtiān yào qù túshūguǎn"
+      },
+      {
+        "text": "她下个星期会来。",
+        "translation": "Ella vendrá la próxima semana.",
+        "phonetic": "tā xià gè xīngqī huì lái"
+      },
+      {
+        "text": "我们下午要开会。",
+        "translation": "Esta tarde vamos a tener una reunión.",
+        "phonetic": "wǒmen xiàwǔ yào kāihuì"
+      },
+      {
+        "text": "明年他会去西班牙。",
+        "translation": "El año que viene él irá a España.",
+        "phonetic": "míngnián tā huì qù xībānyá"
+      }
+    ],
+    "common_error": {
+      "wrong": "我明天要去图书馆吗？ (interpretado como '¿Mañana voy a ir a la biblioteca?' pero a veces los estudiantes usan 去 para 'ir' y 要 para futuro, confundiendo el orden: *我明天要去图书馆。 correctamente)",
+      "correct": "我明天要去图书馆。",
+      "correct_alt": "我明天去图书馆。",
+      "explanation": "Los hispanohablantes a menudo confunden la colocación de los adverbios de tiempo o intentan conjugar el verbo. En español, 'ir' se conjuga; en chino, el verbo 去 no cambia. Además, algunos estudiantes omiten el adverbio de tiempo porque el verbo 要 ya indica futuro, pero en chino es común especificar el tiempo para mayor claridad. Para evitar errores, recuerda: coloca siempre el adverbio de tiempo (como 明天) al principio o antes del verbo, y usa 要 para expresar intención planificada, pero si el contexto es claro, puedes omitirlo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "使用时间词 (usar palabras de tiempo)",
+        "translation": "Uso de adverbios de tiempo",
+        "examples": [
+          {
+            "original": "今天 晚上 我 学习。",
+            "phonetic": "jīntiān wǎnshàng wǒ xuéxí",
+            "translation": "Esta noche estudio.",
+            "note": "Aquí el tiempo se indica con '今晚' y el verbo '学习' no cambia. En español usamos presente o futuro, pero en chino el contexto temporal es claro."
+          },
+          {
+            "original": "明天 我 去 超市。",
+            "phonetic": "míngtiān wǒ qù chāoshì",
+            "translation": "Mañana voy al supermercado.",
+            "note": "Observa el orden: adverbio de tiempo + sujeto + verbo. Es lo más natural en chino."
+          },
+          {
+            "original": "下个月 我们 有 假期。",
+            "phonetic": "xià gè yuè wǒmen yǒu jiàqī",
+            "translation": "El mes que viene tenemos vacaciones.",
+            "note": "Se usa '下个月' para indicar futuro próximo, similar a 'el próximo mes'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "用“要”表达计划 (expresar planes con 要)",
+        "translation": "Expresando intención con 要",
+        "examples": [
+          {
+            "original": "我 要 买 一 本 书。",
+            "phonetic": "wǒ yào mǎi yī běn shū",
+            "translation": "Voy a comprar un libro.",
+            "note": "要 aquí indica intención o plan. Es similar a 'ir a + infinitivo'."
+          },
+          {
+            "original": "他 要 去 中国 学习。",
+            "phonetic": "tā yào qù zhōngguó xuéxí",
+            "translation": "Él va a ir a China a estudiar.",
+            "note": "La estructura es: Sujeto + 要 + Verbo. No hay conjugación para la tercera persona."
+          },
+          {
+            "original": "晚上 我们 要 看 电影。",
+            "phonetic": "wǎnshàng wǒmen yào kàn diànyǐng",
+            "translation": "Por la noche vamos a ver una película.",
+            "note": "El adverbio de tiempo puede ir al principio, y 要 indica la intención."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "用“会”表达预测 (usar 会 para predicciones)",
+        "translation": "Expresando predicciones con 会",
+        "examples": [
+          {
+            "original": "明天 会 下雨。",
+            "phonetic": "míngtiān huì xià yǔ",
+            "translation": "Mañana lloverá.",
+            "note": "会 se usa para una predicción basada en señales. Equivale a 'va a llover' o 'lloverá'."
+          },
+          {
+            "original": "你 会 喜欢 这个 城市。",
+            "phonetic": "nǐ huì xǐhuān zhège chéngshì",
+            "translation": "Te va a gustar esta ciudad.",
+            "note": "Para expresar una suposición sobre el futuro, usamos 会. No es un plan, sino una probabilidad."
+          },
+          {
+            "original": "他们 会 来 参加 生日 派对。",
+            "phonetic": "tāmen huì lái cānjiā shēngrì pàiduì",
+            "translation": "Ellos vendrán a la fiesta de cumpleaños.",
+            "note": "A veces 会 y 要 pueden intercambiarse, pero 会 sugiere que es una expectativa, no una intención firme."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "es": "Futuro con 'ir a' (要/会)"
+    }
+  },
+  {
+    "id": "es_A2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "会 (huì) para futuro simple",
+    "bridge": "En español, usamos el futuro simple ('voy a comer', 'comeré') para expresar acciones futuras. En chino mandarín no hay conjugaciones verbales; en su lugar se usan adverbios de tiempo y verbos modales como 会 (huì). A diferencia del español, el verbo en chino no cambia su forma: decimos 我明天去 (wǒ míngtiān qù) literalmente 'yo mañana ir', donde el tiempo se entiende por el contexto. Cuando queremos enfatizar una intención o predicción, añadimos 会 antes del verbo. Ojo: 会 también se usa para habilidad ('poder hacer algo'), así que el contexto es clave para no confundirlo.",
+    "rule": "Para formar el futuro simple en chino mandarín a nivel A2, se usa el verbo modal 会 (huì) antes del verbo principal. La estructura es: Sujeto + 会 + Verbo + (Objeto/Complemento). Ejemplo: 我明天会来 (wǒ míngtiān huì lái) = 'Vendré mañana'. 会 indica una intención, una predicción o una posibilidad futura. También se usa con frecuencia con adverbios de tiempo como 明天 (míngtiān) 'mañana', 下周 (xià zhōu) 'la próxima semana', 以后 (yǐhòu) 'después'. La negación se forma con 不会 (bú huì) = 'no + futuro'. La forma interrogativa se hace añadiendo 吗 (ma) al final: 你会来吗？(nǐ huì lái ma?) = '¿Vendrás?'. Importante: a diferencia del español, el verbo principal no se conjuga; permanece en su forma base. Además, 会 no se usa para acciones futuras que son planes fijos (ahí se prefiere 要 (yào) o el contexto temporal). Para A2, concéntrate en 会 para expresar predicciones y promesas.",
+    "concept_examples": [
+      {
+        "text": "我明天会去北京。",
+        "translation": "Mañana iré a Pekín.",
+        "phonetic": "wǒ míngtiān huì qù Běijīng"
+      },
+      {
+        "text": "他下周会打电话给你。",
+        "translation": "Él te llamará la próxima semana.",
+        "phonetic": "tā xià zhōu huì dǎ diànhuà gěi nǐ"
+      },
+      {
+        "text": "我不会迟到。",
+        "translation": "No llegaré tarde.",
+        "phonetic": "wǒ bú huì chídào"
+      },
+      {
+        "text": "你会说西班牙语吗？",
+        "translation": "¿Sabrás hablar español? (en el futuro)",
+        "phonetic": "nǐ huì shuō Xībānyáyǔ ma?"
+      }
+    ],
+    "common_error": {
+      "wrong": "*我明天会去北京了。",
+      "correct": "我明天去北京。",
+      "correct_alt": "我明天会去北京。",
+      "explanation": "El error típico de los hispanohablantes es añadir 了 (le) al usar 会, porque en español el futuro a veces se combina con el aspecto perfectivo. Pero en chino, 了 indica acción completada y no se usa con el futuro simple. Para expresar futuro, basta con el adverbio de tiempo y/o 会. Si dices '我明天会去北京了', suena como si la acción ya estuviera completada, lo cual es contradictorio. Recuerda: para futuro simple no uses 了. Usa 会 o simplemente el contexto temporal."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本用法",
+        "translation": "Uso básico",
+        "examples": [
+          {
+            "original": "我会来。",
+            "phonetic": "wǒ huì lái",
+            "translation": "Vendré.",
+            "note": "Usa 会 para expresar una intención futura simple."
+          },
+          {
+            "original": "她明天会到。",
+            "phonetic": "tā míngtiān huì dào",
+            "translation": "Ella llegará mañana.",
+            "note": "Observa que el verbo '到' no cambia; el tiempo lo marca '会' y '明天'."
+          },
+          {
+            "original": "我们不会去。",
+            "phonetic": "wǒmen bú huì qù",
+            "translation": "No iremos.",
+            "note": "La negación se forma con '不会' antes del verbo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "时间词",
+        "translation": "Palabras de tiempo",
+        "examples": [
+          {
+            "original": "我下个月会回国。",
+            "phonetic": "wǒ xià gè yuè huì huí guó",
+            "translation": "El próximo mes volveré a mi país.",
+            "note": "Usa '下个月' (el próximo mes) junto con '会' para situar la acción."
+          },
+          {
+            "original": "他明天不会来上课。",
+            "phonetic": "tā míngtiān bú huì lái shàngkè",
+            "translation": "Mañana no vendrá a clase.",
+            "note": "Combinación de negación '不会' y adverbio de tiempo '明天'."
+          },
+          {
+            "original": "你以后会明白。",
+            "phonetic": "nǐ yǐhòu huì míngbái",
+            "translation": "Lo entenderás más adelante.",
+            "note": "'以后' significa 'después', es común con predicciones."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "预测和疑问",
+        "translation": "Predicción y preguntas",
+        "examples": [
+          {
+            "original": "明天会下雨吗？",
+            "phonetic": "míngtiān huì xià yǔ ma?",
+            "translation": "¿Lloverá mañana?",
+            "note": "Para preguntas, añade '吗' al final."
+          },
+          {
+            "original": "我想他会同意。",
+            "phonetic": "wǒ xiǎng tā huì tóngyì",
+            "translation": "Creo que él estará de acuerdo.",
+            "note": "'会' se usa para predicciones sobre el futuro."
+          },
+          {
+            "original": "她会来吗？",
+            "phonetic": "tā huì lái ma?",
+            "translation": "¿Ella vendrá?",
+            "note": "Pregunta directa con '会' y '吗'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔮",
+    "phonetic": "",
+    "translations": {
+      "es": "Futuro simple con 会"
+    }
+  },
+  {
+    "id": "es_A2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "比较级和最高级 / Comparativos y superlativos",
+    "bridge": "En chino, los comparativos y superlativos se forman de manera muy distinta al español: no hay formas irregulares como 'mejor' o 'peor', y no se conjuga el adjetivo. Para comparar, usamos la partícula 比 (bǐ) y para el superlativo usamos 最 (zuì). El orden de la frase es clave: mientras en español decimos \"A es más alto que B\", en chino la estructura es \"A 比 B + adjetivo\". Además, los adverbios de grado como 很 (hěn) o 非常 (fēicháng) no se usan en comparaciones directas. ¡Ojo: el adjetivo en chino es una 'palabra de estado', no lleva 'ser' explícito en estos contextos!",
+    "rule": "**Comparativo de superioridad:** Estructura: A + 比 (bǐ) + B + Adjetivo. Ejemplo: 我比他高 (wǒ bǐ tā gāo) - Yo soy más alto que él. No se necesita el verbo 'ser'. Para decir 'más' + adjetivo + 'que', se usa 比. El adjetivo nunca se modifica para comparativos (no hay terminaciones como -er o más). Para expresar 'mucho más', se añade 得多 (de duō) después del adjetivo: 他比我高得多 (tā bǐ wǒ gāo de duō) - Él es mucho más alto que yo. Para 'un poco más', se usa 一点儿 (yìdiǎnr) después del adjetivo: 他比我高一点儿 (tā bǐ wǒ gāo yìdiǎnr).\n\n**Comparativo de igualdad:** Estructura: A + 跟/和 (gēn/hé) + B + 一样 (yíyàng) + Adjetivo (opcional). Ejemplo: 我跟他一样高 (wǒ gēn tā yíyàng gāo) - Yo soy tan alto como él. Si no se especifica el adjetivo, significa 'igual'. Para 'no tan... como', se usa 没有 (méiyǒu): 我没有他高 (wǒ méiyǒu tā gāo) - Yo no soy tan alto como él.\n\n**Comparativo de inferioridad:** Se expresa con 没有 (méiyǒu) en lugar de 不比 (bù bǐ) que es más formal y significa 'no es más... que'. Ejemplo: 这本书没有那本书难 (zhè běn shū méiyǒu nà běn shū nán) - Este libro no es tan difícil como ese.\n\n**Superlativo:** Se usa 最 (zuì) antes del adjetivo: 最高 (zuì gāo) - el más alto. La estructura es: 最 + Adjetivo. Puede ir seguido de 的 (de) para formar 'el más alto' como sustantivo. Ejemplo: 他是我最好的朋友 (tā shì wǒ zuì hǎo de péngyou) - Él es mi mejor amigo. En una frase, el superlativo suele preceder al sustantivo. Para 'el más alto de todos', se dice 最高 (zuì gāo) y no se necesita 'de todos', aunque se puede añadir 在...中 (zài...zhōng).\n\n**Particularidades:** No se usan palabras como 'más' o 'menos' delante del adjetivo en comparativos; en su lugar se usa 比 + B + Adjetivo. Para 'que' en comparaciones, 比 funciona como la preposición 'que'. En superlativo, 'más' se traduce como 最, no como 比. Recuerda que en chino, el adjetivo puede funcionar como verbo predicativo (estado), por lo que no se necesita ningún verbo copulativo.",
+    "concept_examples": [
+      {
+        "text": "我比他高。",
+        "translation": "Yo soy más alto que él.",
+        "phonetic": "wǒ bǐ tā gāo"
+      },
+      {
+        "text": "这本书比那本难。",
+        "translation": "Este libro es más difícil que aquel.",
+        "phonetic": "zhè běn shū bǐ nà běn nán"
+      },
+      {
+        "text": "她是我最好的朋友。",
+        "translation": "Ella es mi mejor amiga.",
+        "phonetic": "tā shì wǒ zuì hǎo de péngyou"
+      },
+      {
+        "text": "我没有他那么高。",
+        "translation": "No soy tan alto como él.",
+        "phonetic": "wǒ méiyǒu tā nàme gāo"
+      }
+    ],
+    "common_error": {
+      "wrong": "他是更高比我。",
+      "correct": "他比我高。",
+      "correct_alt": "他更高（相比我）。",
+      "explanation": "En español, el orden de la comparación es \"A es más + adjetivo + que B\", pero en chino el orden es \"A + 比 + B + adjetivo\". Por lo tanto, es un error común colocar el adjetivo antes de 比. Además, no se usa el verbo 'ser' (是) ni se añade 'más' (más) delante del adjetivo. La estructura correcta es simplemente: A + 比 + B + Adjetivo. En este caso: 他比我高 (tā bǐ wǒ gāo)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "比较结构：比",
+        "translation": "Estructura comparativa: 比 (bǐ)",
+        "examples": [
+          {
+            "original": "我比我哥哥高。",
+            "phonetic": "wǒ bǐ wǒ gēge gāo",
+            "translation": "Yo soy más alto que mi hermano mayor.",
+            "note": "La estructura básica es A + 比 + B + adjetivo. Aquí '我' (yo) y '我哥哥' (mi hermano) son los elementos comparados, y '高' (alto) es el adjetivo. No se usa el verbo 'ser'."
+          },
+          {
+            "original": "这本书比那本便宜。",
+            "phonetic": "zhè běn shū bǐ nà běn piányi",
+            "translation": "Este libro es más barato que aquel.",
+            "note": "Observa que después de 比 se puede omitir el sustantivo si es evidente: '那本' (aquel) es una elipsis de '那本书' (aquel libro)."
+          },
+          {
+            "original": "他比我高得多。",
+            "phonetic": "tā bǐ wǒ gāo de duō",
+            "translation": "Él es mucho más alto que yo.",
+            "note": "Para expresar 'mucho más', se añade '得多' (de duō) después del adjetivo. Esto intensifica la comparación."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "同等比较：跟/和……一样",
+        "translation": "Comparativo de igualdad: 跟/和...一样 (gēn/hé... yíyàng)",
+        "examples": [
+          {
+            "original": "我跟他一样高。",
+            "phonetic": "wǒ gēn tā yíyàng gāo",
+            "translation": "Yo soy tan alto como él.",
+            "note": "La estructura es A + 跟/和 + B + 一样 + adjetivo. Se usa '一样' (yíyàng) que significa 'igual'. No se usa '比' aquí."
+          },
+          {
+            "original": "她的头发和你的一样长。",
+            "phonetic": "tā de tóufa hé nǐ de yíyàng cháng",
+            "translation": "Su cabello es tan largo como el tuyo.",
+            "note": "Se usa '和' (hé) para 'y/con' y '一样' (yíyàng) para 'igual'. Se incluye la partícula '的' (de) para indicar posesión."
+          },
+          {
+            "original": "我没有他那么高。",
+            "phonetic": "wǒ méiyǒu tā nàme gāo",
+            "translation": "No soy tan alto como él.",
+            "note": "Para negar la igualdad, se usa '没有' (méiyǒu) en lugar de '不' (bù). La fórmula es: A + 没有 + B + 那么 + adjetivo. '那么' (nàme) significa 'tan'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "最高级：最",
+        "translation": "Superlativo: 最 (zuì)",
+        "examples": [
+          {
+            "original": "他是我们班最高的学生。",
+            "phonetic": "tā shì wǒmen bān zuì gāo de xuéshēng",
+            "translation": "Él es el estudiante más alto de nuestra clase.",
+            "note": "La estructura es: 最 + adjetivo + 的 + sustantivo. Aquí '最高' (zuì gāo) significa 'el más alto', y '的' conecta con el sustantivo '学生' (estudiante)."
+          },
+          {
+            "original": "这是最便宜的书。",
+            "phonetic": "zhè shì zuì piányi de shū",
+            "translation": "Este es el libro más barato.",
+            "note": "El superlativo se coloca antes del sustantivo, igual que un adjetivo descriptivo. '最便宜' (zuì piányi) significa 'el más barato'."
+          },
+          {
+            "original": "她最喜欢唱歌。",
+            "phonetic": "tā zuì xǐhuan chànggē",
+            "translation": "A ella lo que más le gusta es cantar.",
+            "note": "El superlativo '最' también se usa con verbos, como '喜欢' (gustar), para expresar 'lo que más'. En este caso, no se necesita '的'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📊",
+    "phonetic": "",
+    "translations": {
+      "es": "Comparativos y superlativos"
+    }
+  },
+  {
+    "id": "es_A2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "能愿动词 (Verbos modales)",
+    "bridge": "En español, los verbos modales (deber, poder, tener que) se conjugan y cambian según la persona, pero en chino los verbos modales son invariables y siempre van acompañados de otro verbo en su forma base. Además, en chino hay una distinción importante entre '要' (yào) para obligación y '应该' (yīnggāi) para consejo, que no siempre coincide con las formas que usamos en español. Ten cuidado de no traducir directamente 'deber' con '应该' en todos los casos, porque en contextos de necesidad física o lógica se usa más '要'. El orden es crucial: el modal siempre va antes del verbo principal, como en español. Otro punto clave es que para negar los modales de obligación, usamos '不要' (búyào) para prohibición y '不用' (búyòng) para no necesidad, mientras que en español a menudo usamos la misma palabra para ambos casos.",
+    "rule": "En chino (CEFR A2), los verbos modales principales son: 要 (yào) - tener que / querer, 应该 (yīnggāi) - deber (consejo), 得 (děi) - tener que (obligación fuerte), 可以 (kěyǐ) - poder (permiso), 能 (néng) - poder (capacidad). Todos son invariables y van seguidos de un verbo en infinitivo. Para negar, usamos: 不要 (búyào) para prohibición ('no debes'), 不该 (bù gāi) para consejo negativo, 不用 (búyòng) para no necesidad ('no hace falta'), 不能 (bù néng) para prohibición o imposibilidad. La posición en la oración es: sujeto + modal + verbo + complemento. No existe una forma pasada o futura de los modales; la temporalidad se deduce del contexto o se indica con marcadores temporales. Es importante no omitir el verbo después del modal, y no usar dos modales juntos.",
+    "concept_examples": [
+      {
+        "text": "我明天必须要早起床。",
+        "translation": "Mañana tengo que levantarme temprano.",
+        "phonetic": "wǒ míngtiān bìxū yào zǎo qǐchuáng"
+      },
+      {
+        "text": "你应该多喝水。",
+        "translation": "Deberías beber más agua.",
+        "phonetic": "nǐ yīnggāi duō hē shuǐ"
+      },
+      {
+        "text": "你可以用我的手机。",
+        "translation": "Puedes usar mi teléfono.",
+        "phonetic": "nǐ kěyǐ yòng wǒ de shǒujī"
+      },
+      {
+        "text": "你不用买票。",
+        "translation": "No hace falta que compres entrada.",
+        "phonetic": "nǐ búyòng mǎi piào"
+      }
+    ],
+    "common_error": {
+      "wrong": "我应该去学校。 (en contexto de obligación impuesta)",
+      "correct": "我得去学校。",
+      "correct_alt": "我必须去学校。",
+      "explanation": "En español, 'deber' puede expresar tanto consejo como obligación fuerte. En chino, '应该' se usa para consejo, no para obligación impuesta o necesidad. Para obligación, se usa '得' (děi) o '必须' (bìxū). Un hispanohablante tiende a usar '应该' en todos los casos, pero eso suena más a recomendación que a obligación."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "要 (yào) y 不用 (búyòng)",
+        "translation": "Tener que / no tener que",
+        "examples": [
+          {
+            "original": "我要去上班。",
+            "phonetic": "wǒ yào qù shàngbān",
+            "translation": "Tengo que ir a trabajar.",
+            "note": "Aquí '要' expresa necesidad u obligación, similar a 'tener que'."
+          },
+          {
+            "original": "我今天不用上学。",
+            "phonetic": "wǒ jīntiān búyòng shàngxué",
+            "translation": "Hoy no tengo que ir a la escuela.",
+            "note": "Usamos '不用' para indicar que no hay necesidad, en contraste con '不要' que es prohibición."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "应该 (yīnggāi) y 不该 (bù gāi)",
+        "translation": "Deber (consejo) y no deber",
+        "examples": [
+          {
+            "original": "你应该早睡觉。",
+            "phonetic": "nǐ yīnggāi zǎo shuìjiào",
+            "translation": "Deberías dormir temprano.",
+            "note": "Se usa para dar consejos, como 'deberías' en español."
+          },
+          {
+            "original": "你不该迟到。",
+            "phonetic": "nǐ bù gāi chídào",
+            "translation": "No deberías llegar tarde.",
+            "note": "La negación '不该' se usa para expresar que algo no es recomendable."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "可以 (kěyǐ) y 能 (néng)",
+        "translation": "Poder (permiso y capacidad)",
+        "examples": [
+          {
+            "original": "我可以进来吗？",
+            "phonetic": "wǒ kěyǐ jìnlái ma",
+            "translation": "¿Puedo entrar?",
+            "note": "'可以' se usa para pedir permiso, similar a 'poder' en español."
+          },
+          {
+            "original": "我能说中文。",
+            "phonetic": "wǒ néng shuō Zhōngwén",
+            "translation": "Puedo hablar chino.",
+            "note": "'能' indica capacidad o habilidad, como 'ser capaz de'."
+          },
+          {
+            "original": "这儿不能停车。",
+            "phonetic": "zhèr bù néng tíngchē",
+            "translation": "Aquí no se puede aparcar.",
+            "note": "La negación '不能' expresa prohibición."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔧",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbos modales"
+    }
+  },
+  {
+    "id": "es_A2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "自己 (zìjǐ) – verbos reflexivos",
+    "bridge": "En chino no existen verbos reflexivos como en español (me lavo, te levantas). En cambio, se usa el pronombre 自己 (zìjǐ) que significa 'uno mismo', a menudo combinado con 我, 你, 他 para indicar quién realiza la acción. La gran diferencia es que en chino el verbo no cambia de forma; la reflexividad se marca con la estructura sujeto + verbo + 自己. Cuidado: no uses 自己 cuando la acción es mutua (como 'nos vemos'), para eso se usa 互相.",
+    "rule": "Para expresar acciones reflexivas en chino, se coloca 自己 (zìjǐ) después del verbo o después del objeto. La estructura típica es: Sujeto + Verbo + 自己. Si el sujeto es explícito, se puede usar 我自己, 你自己, 他自己, etc. Ejemplos: 我自己洗 (wǒ zìjǐ xǐ) – yo me lavo. Cuando el verbo ya implica reflexividad (como 洗澡, 洗脸, 起床), no se necesita 自己, pero se puede añadir para enfatizar que lo haces por ti mismo. Para acciones mutuas (nos ayudamos, se ven) se usa 互相 (hùxiāng) en lugar de 自己. No confundir 自己 con el pronombre reflexivo español: en chino no hay conjugación verbal, así que el verbo permanece igual para todas las personas.",
+    "concept_examples": [
+      {
+        "text": "我自己做饭。",
+        "translation": "Yo me cocino (a mí mismo).",
+        "phonetic": "wǒ zìjǐ zuò fàn."
+      },
+      {
+        "text": "你喜欢自己吗？",
+        "translation": "¿Te gustas a ti mismo?",
+        "phonetic": "nǐ xǐhuān zìjǐ ma?"
+      },
+      {
+        "text": "他每天自己起床。",
+        "translation": "Él se levanta solo todos los días.",
+        "phonetic": "tā měitiān zìjǐ qǐchuáng."
+      },
+      {
+        "text": "我们自己做作业。",
+        "translation": "Nosotros hacemos la tarea solos (por nosotros mismos).",
+        "phonetic": "wǒmen zìjǐ zuò zuòyè."
+      }
+    ],
+    "common_error": {
+      "wrong": "我我自己洗。",
+      "correct": "我自己洗。",
+      "correct_alt": "我洗我自己。",
+      "explanation": "El error es duplicar el pronombre: en chino no se dice '我我自己' (yo yo mismo). Basta con usar 自己 después del verbo o después del objeto, pero no repetir el sujeto. También se puede decir '我洗我自己' (wǒ xǐ wǒ zìjǐ) que es más explícito, pero menos común. Recuerda que en chino el orden es sujeto + verbo + 自己, sin necesidad de un pronombre reflexivo separado."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "我自己/你自己/他自己",
+        "translation": "Yo mismo / tú mismo / él mismo",
+        "examples": [
+          {
+            "original": "我自己做。",
+            "phonetic": "wǒ zìjǐ zuò.",
+            "translation": "Yo lo hago yo mismo.",
+            "note": "Aquí 自己 enfatiza que la acción la realiza la misma persona, sin ayuda externa."
+          },
+          {
+            "original": "你自己看。",
+            "phonetic": "nǐ zìjǐ kàn.",
+            "translation": "Tú mismo mira.",
+            "note": "Se usa para indicar que la acción recae sobre el sujeto, pero también puede usarse imperativamente: 'míralo tú mismo'."
+          },
+          {
+            "original": "他自己吃。",
+            "phonetic": "tā zìjǐ chī.",
+            "translation": "Él come solo (él mismo se alimenta).",
+            "note": "En contexto, puede significar que come sin ayuda (por ejemplo, un bebé que ya come solo)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbos reflexivos comunes con 自己",
+        "translation": "Verbos reflexivos comunes con 自己",
+        "examples": [
+          {
+            "original": "我每天自己洗澡。",
+            "phonetic": "wǒ měitiān zìjǐ xǐzǎo.",
+            "translation": "Yo me baño solo todos los días.",
+            "note": "洗澡 ya implica bañarse, pero 自己 enfatiza que no necesita ayuda."
+          },
+          {
+            "original": "她喜欢自己做饭。",
+            "phonetic": "tā xǐhuān zìjǐ zuòfàn.",
+            "translation": "A ella le gusta cocinar para sí misma.",
+            "note": "Aquí 自己 indica que la acción es reflexiva: cocina para ella, no para otros."
+          },
+          {
+            "original": "你要自己穿衣服。",
+            "phonetic": "nǐ yào zìjǐ chuān yīfu.",
+            "translation": "Tienes que vestirte tú mismo.",
+            "note": "El verbo 穿衣服 (vestirse) normalmente no necesita 自己, pero se añade para indicar que lo haces por ti mismo, sin ayuda."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Acciones mutuas con 互相",
+        "translation": "Acciones mutuas con 互相",
+        "examples": [
+          {
+            "original": "我们互相帮助。",
+            "phonetic": "wǒmen hùxiāng bāngzhù.",
+            "translation": "Nos ayudamos mutuamente.",
+            "note": "Para acciones recíprocas (como 'nos ayudamos'), NO se usa 自己, sino 互相 (mutuamente)."
+          },
+          {
+            "original": "他们互相认识。",
+            "phonetic": "tāmen hùxiāng rènshi.",
+            "translation": "Se conocen el uno al otro.",
+            "note": "Aquí se usa 互相 porque la acción es recíproca, no reflexiva."
+          },
+          {
+            "original": "你们互相打电话。",
+            "phonetic": "nǐmen hùxiāng dǎ diànhuà.",
+            "translation": "Vosotros os llamáis por teléfono (el uno al otro).",
+            "note": "Si usaras 自己 en estas frases sería incorrecto o cambiaría el significado: 'se llaman a sí mismos' no tiene sentido."
+          }
+        ]
+      }
+    ],
+    "emoji": "🪞",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbos reflexivos"
+    }
+  },
+  {
+    "id": "es_A2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "宾语代词 / Pronombres de objeto",
+    "bridge": "En español, los pronombres de objeto directo e indirecto (me, te, lo/la, le, nos) se colocan antes del verbo o se unen al infinitivo/gerundio, y tendemos a duplicar el objeto indirecto (Le doy a Juan). En chino mandarín, no existen pronombres de objeto con casos (como lo/le), sino que se usan los mismos pronombres personales (我, 你, 他, 她, 我们, 你们, 他们) en posición de objeto, y el orden de las palabras (Sujeto + Verbo + Objeto) marca la función. La gran diferencia es que en chino no hay duplicación obligatoria del objeto y no hay cambio de forma del pronombre: 'lo veo' es simplemente 我看他 (wǒ kàn tā). También es común usar la preposición 给 (gěi) antes del objeto indirecto, algo similar a 'a' en español (te doy el libro → 我给你书).",
+    "rule": "En mandarín, los pronombres de objeto directo e indirecto son los mismos que los pronombres personales: 我 (wǒ, yo/me), 你 (nǐ, tú/te), 他 (tā, él/lo), 她 (tā, ella/la), 我们 (wǒmen, nosotros/nos), 你们 (nǐmen, vosotros/os), 他们 (tāmen, ellos/los/las). Para el objeto indirecto, se suele usar la preposición 给 (gěi, 'a/para') antes de la persona: 我给妈妈一封信 (wǒ gěi māma yī fēng xìn, 'doy a mamá una carta'). Estructura: Sujeto + (给 + Objeto indirecto) + Objeto directo + Verbo (aunque a menudo el verbo va después del objeto directo si no se usa 给). Cuando el objeto es claro por contexto, se puede omitir, pero en general se prefiere mantener. Para preguntar '¿a quién?' se usa 谁 (shéi) y '¿qué?' se usa 什么 (shénme). No hay conjugación ni cambios de forma según la función. Atención: en chino, el objeto directo puede ir antes del verbo con la estructura 把 (bǎ) para enfatizar la acción sobre el objeto, pero en nivel A2 se recomienda el orden estándar SVO. Además, no se usa duplicación del objeto como en español (ej. 'a Juan le doy') — se dice simplemente 我给小王一本书 (wǒ gěi Xiǎo Wáng yī běn shū).",
+    "concept_examples": [
+      {
+        "text": "我看你。",
+        "translation": "Te veo. (Yo te veo a ti)",
+        "phonetic": "wǒ kàn nǐ"
+      },
+      {
+        "text": "他给我一本书。",
+        "translation": "Él me da un libro.",
+        "phonetic": "tā gěi wǒ yī běn shū"
+      },
+      {
+        "text": "我们请他们吃饭。",
+        "translation": "Los invitamos a comer. (Nosotros invitamos a ellos a comer)",
+        "phonetic": "wǒmen qǐng tāmen chīfàn"
+      },
+      {
+        "text": "你帮帮她吧。",
+        "translation": "Ayúdala, ¿quieres? (Ayuda a ella)",
+        "phonetic": "nǐ bāng bāng tā ba"
+      }
+    ],
+    "common_error": {
+      "wrong": "我给你一本书给你。",
+      "correct": "我给你一本书。",
+      "correct_alt": "我把一本书给你。",
+      "explanation": "Este error ocurre porque en español a veces duplicamos el objeto indirecto ('te doy un libro a ti'). En chino, la preposición 给 (gěi) ya marca el receptor, y basta con usarla una vez. Decir '给你一本' significa 'te doy un libro', y añadir otro '给你' al final es redundante. Para evitar el error, recuerda que en chino la estructura es: Sujeto + 给 + Pronombre + Objeto directo + (Verbo), o bien Sujeto + 给 + Pronombre + Verbo + Objeto directo. No repitas 给."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "直接宾语代词",
+        "translation": "Pronombres de objeto directo",
+        "examples": [
+          {
+            "original": "我爱你。",
+            "phonetic": "wǒ ài nǐ",
+            "translation": "Te quiero.",
+            "note": "El pronombre 你 (nǐ) funciona como objeto directo, igual que 'te' en español, pero no cambia de forma."
+          },
+          {
+            "original": "妈妈叫他。",
+            "phonetic": "māma jiào tā",
+            "translation": "Mamá lo llama a él.",
+            "note": "他 (tā) es objeto directo; no hay diferencia entre 'lo' y 'le' como en español."
+          },
+          {
+            "original": "我们看她们。",
+            "phonetic": "wǒmen kàn tāmen",
+            "translation": "Las vemos a ellas.",
+            "note": "她们 (tāmen) se refiere a un grupo femenino, pero el pronombre es el mismo que para masculino."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "间接宾语代词",
+        "translation": "Pronombres de objeto indirecto",
+        "examples": [
+          {
+            "original": "我给你打电话。",
+            "phonetic": "wǒ gěi nǐ dǎ diànhuà",
+            "translation": "Te llamo por teléfono. (Te doy una llamada)",
+            "note": "给 (gěi) introduce el objeto indirecto 'tú' (你). Es similar a 'te' en español, pero requiere la preposición."
+          },
+          {
+            "original": "他给我写信。",
+            "phonetic": "tā gěi wǒ xiě xìn",
+            "translation": "Él me escribe una carta.",
+            "note": "El orden es: sujeto + 给 + pronombre + verbo + objeto. Compara con el español: 'él me escribe una carta'."
+          },
+          {
+            "original": "老师给我们解释。",
+            "phonetic": "lǎoshī gěi wǒmen jiěshì",
+            "translation": "El profesor nos explica.",
+            "note": "En español usamos 'nos', en chino se usa 我们 con 给."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "宾语位置及省略",
+        "translation": "Posición del objeto y omisión",
+        "examples": [
+          {
+            "original": "这本书我看完了。",
+            "phonetic": "zhè běn shū wǒ kàn wán le",
+            "translation": "Este libro lo he terminado de leer.",
+            "note": "A veces el objeto se coloca al inicio para enfatizar. En español diríamos 'este libro lo he leído'."
+          },
+          {
+            "original": "你吃了吗？",
+            "phonetic": "nǐ chī le ma?",
+            "translation": "¿Has comido? (¿Comiste?)",
+            "note": "El objeto se omite porque se sobreentiende (la comida). En español también podemos omitirlo: '¿ya comiste?'."
+          },
+          {
+            "original": "我把垃圾扔了。",
+            "phonetic": "wǒ bǎ lājī rēng le",
+            "translation": "Tiré la basura. (La basura la tiré)",
+            "note": "La estructura con 把 (bǎ) coloca el objeto antes del verbo y enfatiza la acción sobre él. Es común en nivel A2."
+          }
+        ]
+      }
+    ],
+    "emoji": "📦",
+    "phonetic": "",
+    "translations": {
+      "es": "Pronombres de objeto directo e indirecto"
+    }
+  },
+  {
+    "id": "es_A2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "频率副词 (frecuencia de adverbios)",
+    "bridge": "En español, los adverbios de frecuencia (siempre, a veces, nunca) suelen colocarse antes del verbo o al final de la oración, pero en chino mandarín su posición es muy fija: siempre van después del sujeto y antes del verbo. Además, en chino no existe la doble negación: para decir 'nunca' se usa '从来不' o '从不' con un solo adverbio negativo, mientras que en español puedes decir 'no... nunca'.",
+    "rule": "Los adverbios de frecuencia en chino mandarín se colocan entre el sujeto y el verbo. Los más comunes son: 总是 (zǒng shì) = siempre, 经常 (jīng cháng) = frecuentemente, 有时候 (yǒu shí hou) = a veces, 很少 (hěn shǎo) = raramente, 从不/从来不 (cóng bù/ cóng lái bù) = nunca. Ejemplos: 我总是吃早饭 (wǒ zǒng shì chī zǎo fàn) = Yo siempre desayuno. 他经常去健身房 (tā jīng cháng qù jiàn shēn fáng) = Él va frecuentemente al gimnasio. Nota: 从来 no se usa solo; siempre va seguido de 不 o 没 (没 para pasado). Para preguntas de frecuencia, se usa 多久 (duō jiǔ) = cuánto tiempo, pero para '¿Con qué frecuencia?' se usa 多经常 (duō jīng cháng) o 多久一次 (duō jiǔ yī cì).",
+    "concept_examples": [
+      {
+        "text": "我有时候喝咖啡。",
+        "translation": "A veces bebo café.",
+        "phonetic": "wǒ yǒu shí hou hē kā fēi"
+      },
+      {
+        "text": "他经常迟到。",
+        "translation": "Él llega tarde frecuentemente.",
+        "phonetic": "tā jīng cháng chí dào"
+      },
+      {
+        "text": "她从来不抽烟。",
+        "translation": "Ella nunca fuma.",
+        "phonetic": "tā cóng lái bù chōu yān"
+      },
+      {
+        "text": "我们总是很高兴。",
+        "translation": "Nosotros siempre estamos muy contentos.",
+        "phonetic": "wǒ men zǒng shì hěn gāo xìng"
+      }
+    ],
+    "common_error": {
+      "wrong": "我吃总是早饭。",
+      "correct": "我总是吃早饭。",
+      "correct_alt": "我经常吃早饭。",
+      "explanation": "El error común es colocar el adverbio de frecuencia después del verbo, siguiendo el patrón del español (como 'como siempre'). En chino, el adverbio debe ir antes del verbo, después del sujeto. Recuerda: sujeto + adverbio de frecuencia + verbo + resto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本频率 (básico)",
+        "translation": "Frecuencia básica",
+        "examples": [
+          {
+            "original": "我常常看书。",
+            "phonetic": "wǒ cháng cháng kàn shū",
+            "translation": "Frecuentemente leo libros.",
+            "note": "常常 es equivalente a 经常, pero un poco más coloquial."
+          },
+          {
+            "original": "他有时候很忙。",
+            "phonetic": "tā yǒu shí hou hěn máng",
+            "translation": "A veces él está muy ocupado.",
+            "note": "有时候 puede ir al principio de la oración, pero es más común después del sujeto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "否定频率 (negación)",
+        "translation": "Frecuencia negativa",
+        "examples": [
+          {
+            "original": "我很少喝酒。",
+            "phonetic": "wǒ hěn shǎo hē jiǔ",
+            "translation": "Rara vez bebo alcohol.",
+            "note": "很少 significa literalmente 'muy poco', funciona como adverbio de frecuencia negativa."
+          },
+          {
+            "original": "他不常来。",
+            "phonetic": "tā bù cháng lái",
+            "translation": "Él no viene a menudo.",
+            "note": "不常 es la forma negativa de 常 (a menudo), significa 'no a menudo'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "强调频率 (enfático)",
+        "translation": "Frecuencia enfática",
+        "examples": [
+          {
+            "original": "他总是第一个到。",
+            "phonetic": "tā zǒng shì dì yī gè dào",
+            "translation": "Él siempre llega el primero.",
+            "note": "总是 puede enfatizar una acción que siempre sucede, similar al español 'siempre'."
+          },
+          {
+            "original": "我从来不看恐怖片。",
+            "phonetic": "wǒ cóng lái bù kàn kǒng bù piàn",
+            "translation": "Nunca veo películas de terror.",
+            "note": "从来 no se usa solo; debe ir con 不 (presente) o 没 (pasado)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "es": "Adverbios de frecuencia"
+    }
+  },
+  {
+    "id": "es_A2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "时间介词 (Preposiciones de tiempo)",
+    "bridge": "En español usamos preposiciones como 'en', 'a', 'por' para expresar tiempo (en lunes, a las tres). En chino mandarín, el tiempo se marca con partículas como 在 (zài) para momentos específicos, 从...到 (cóng...dào) para rangos, y 以前/以后 (yǐqián/yǐhòu) para antes/después. A diferencia del español, no hay conjugación verbal: el contexto temporal viene dado por estas palabras y el orden de las palabras. Un error típico es traducir 'en la mañana' como 'en zǎoshang' en lugar de simplemente 'zǎoshang' sin preposición.",
+    "rule": "En chino, las preposiciones de tiempo se usan de forma más restringida que en español.\n\n1. **在 (zài)**: se usa para momentos específicos como fechas, horas, o días de la semana, pero a menudo se omite en lenguaje coloquial. Ej.: 我在星期一上班 (Wǒ zài xīngqīyī shàngbān) – Trabajo los lunes. También se usa con partes del día, pero si se combina con '早上' (zǎoshang) se puede omitir.\n\n2. **从...到 (cóng...dào)**: para expresar desde... hasta... Indica un rango temporal. Ej.: 从八点到十点 (cóng bā diǎn dào shí diǎn) – De ocho a diez.\n\n3. **以前 (yǐqián)** y **以后 (yǐhòu)**: se colocan después del sustantivo o frase temporal para indicar 'antes de' y 'después de'. Ej.: 吃饭以前 (chīfàn yǐqián) – Antes de comer. 三点以后 (sān diǎn yǐhòu) – Después de las tres.\n\n4. **Cuando se usa un sustantivo de tiempo como '今天' (hoy), '明天' (mañana) o '星期一' (lunes), no se necesita preposición**; se colocan al principio o antes del verbo. Ej.: 明天我去中国 (Míngtiān wǒ qù Zhōngguó) – Mañana voy a China.\n\n5. **Para expresar duración** se usa la estructura 'verbo + tiempo + 了 (le)' o simplemente el tiempo después del verbo sin preposición. Ej.: 我学了两年中文 (Wǒ xué le liǎng nián Zhōngwén) – He estudiado chino por dos años.\n\n6. **Para 'en' futuro o 'dentro de'** se usa '以后' (yǐhòu) o '再' (zài) + tiempo. Ej.: 我三天以后回来 (Wǒ sān tiān yǐhòu huílái) – Vuelvo en tres días.",
+    "concept_examples": [
+      {
+        "text": "我在星期一上班。",
+        "translation": "Trabajo los lunes.",
+        "phonetic": "wǒ zài xīngqīyī shàngbān"
+      },
+      {
+        "text": "从早上八点到晚上六点。",
+        "translation": "De las ocho de la mañana a las seis de la tarde.",
+        "phonetic": "cóng zǎoshang bā diǎn dào wǎnshang liù diǎn"
+      },
+      {
+        "text": "吃饭以前，我要洗手。",
+        "translation": "Antes de comer, quiero lavarme las manos.",
+        "phonetic": "chīfàn yǐqián, wǒ yào xǐshǒu"
+      },
+      {
+        "text": "明天下午三点见。",
+        "translation": "Nos vemos mañana a las tres de la tarde.",
+        "phonetic": "míngtiān xiàwǔ sān diǎn jiàn"
+      }
+    ],
+    "common_error": {
+      "wrong": "我在早上喝咖啡。 (literal: en la mañana)",
+      "correct": "我早上喝咖啡。",
+      "correct_alt": "我上午喝咖啡。",
+      "explanation": "En español decimos 'en la mañana' con preposición, pero en chino las partes del día como 早上 (zǎoshang) o 上午 (shàngwǔ) funcionan como adverbios de tiempo y no necesitan la preposición 在 (zài). Usar 在 en estos casos es un error común por transferencia del español. Simplemente coloca la palabra de tiempo al inicio de la oración."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "在 + tiempo específico",
+        "translation": "En + tiempo específico",
+        "examples": [
+          {
+            "original": "我在星期天休息。",
+            "phonetic": "wǒ zài xīngqītiān xiūxi",
+            "translation": "Descanso los domingos.",
+            "note": "Se usa 在 para días de la semana, pero a menudo se omite: 我星期天休息. Ambas son correctas, pero la versión sin 在 es más común en conversación."
+          },
+          {
+            "original": "我们在下午三点开会。",
+            "phonetic": "wǒmen zài xiàwǔ sān diǎn kāihuì",
+            "translation": "Tenemos una reunión a las tres de la tarde.",
+            "note": "Con horas exactas, 在 se usa con frecuencia, pero también se puede omitir en lenguaje coloquial: 我们三点开会."
+          },
+          {
+            "original": "他在二月份去北京。",
+            "phonetic": "tā zài èr yuèfèn qù Běijīng",
+            "translation": "Él va a Beijing en febrero.",
+            "note": "Para meses, 在 es común pero se puede omitir. Presta atención al orden: tiempo + sujeto + verbo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "从...到... (desde/hasta)",
+        "translation": "Desde... hasta... para rangos temporales",
+        "examples": [
+          {
+            "original": "从九点到十一点上课。",
+            "phonetic": "cóng jiǔ diǎn dào shíyī diǎn shàngkè",
+            "translation": "Clases de nueve a once.",
+            "note": "Esta estructura es equivalente a 'de... a...' en español. Se coloca al principio de la oración."
+          },
+          {
+            "original": "我从星期一到星期五工作。",
+            "phonetic": "wǒ cóng xīngqīyī dào xīngqīwǔ gōngzuò",
+            "translation": "Trabajo de lunes a viernes.",
+            "note": "El sujeto puede ir después de la frase temporal. Observa que no se usa verbo copulativo."
+          },
+          {
+            "original": "从去年到今年，我学了中文。",
+            "phonetic": "cóng qùnián dào jīnnián, wǒ xué le Zhōngwén",
+            "translation": "Desde el año pasado hasta este año, he estudiado chino.",
+            "note": "Se puede usar con años. La partícula 了 indica acción completada."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "以前 / 以后 (antes/después)",
+        "translation": "Antes de / después de",
+        "examples": [
+          {
+            "original": "上课以前，我喝咖啡。",
+            "phonetic": "shàngkè yǐqián, wǒ hē kāfēi",
+            "translation": "Antes de la clase, tomo café.",
+            "note": "以前 (yǐqián) se coloca después del sustantivo o frase verbal, a diferencia del español que va antes."
+          },
+          {
+            "original": "下班以后，我去超市。",
+            "phonetic": "xiàbān yǐhòu, wǒ qù chāoshì",
+            "translation": "Después de salir del trabajo, voy al supermercado.",
+            "note": "以后 (yǐhòu) significa 'después de'. También se puede usar solo para decir 'después'."
+          },
+          {
+            "original": "三点以后，我给你打电话。",
+            "phonetic": "sān diǎn yǐhòu, wǒ gěi nǐ dǎ diànhuà",
+            "translation": "Después de las tres, te llamo.",
+            "note": "Funciona con horas. Recuerda: tiempo + 以前/以后 + oración."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕐",
+    "phonetic": "",
+    "translations": {
+      "es": "Preposiciones de tiempo"
+    }
+  },
+  {
+    "id": "es_A2_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "连接词 / Conjunciones",
+    "bridge": "En español, las conjunciones como 'y', 'pero', 'o', 'porque', 'cuando' y 'si' se usan de manera similar al chino, pero hay diferencias clave. En chino, la conjunción 'y' (和) se usa solo para unir sustantivos, no oraciones completas; para unir oraciones se usan '也' o simplemente se yuxtaponen. Además, 'pero' (但是) y 'porque' (因为...所以) tienen estructuras que a veces requieren dos conectores a la vez, algo que no ocurre en español. Cuidado con no traducir literalmente: en chino, cuando usas '如果...就' (si...entonces), el segundo conector es obligatorio en ciertas estructuras.",
+    "rule": "Las conjunciones en chino mandarín se pueden clasificar en coordinantes y subordinantes. Las principales para nivel A2 son: 和 (y, para sustantivos), 也 (también, para oraciones), 但是 (pero), 还是 / 或者 (o, en preguntas alternativas vs. opciones), 因为 (porque, causa), 所以 (entonces/por lo tanto, consecuencia), 当...的时候 (cuando), 如果...就 (si...entonces). Reglas clave: 1) '和' no une oraciones, solo elementos nominales. 2) '但是' se coloca al inicio de la segunda cláusula, y a diferencia del español, no se usa coma antes en muchos casos. 3) '因为' puede ir al principio o después del sujeto, pero '所以' se usa en la cláusula principal para indicar consecuencia (a diferencia del español, que solo usa 'porque'). 4) '还是' se usa en preguntas con opciones, mientras que '或者' se usa en afirmaciones. 5) '当...的时候' se usa para 'cuando' en sentido temporal, y puede omitirse el sujeto en la subordinada si es obvio. 6) '如果...就' introduce una condición; '就' es obligatorio si la condición es hipotética y el resultado es concreto. No hay conjugación verbal, así que la relación lógica se expresa solo con estas partículas.",
+    "concept_examples": [
+      {
+        "text": "我喜欢茶和咖啡。",
+        "translation": "Me gusta el té y el café.",
+        "phonetic": "wǒ xǐhuān chá hé kāfēi"
+      },
+      {
+        "text": "我想去，但是没有时间。",
+        "translation": "Quiero ir, pero no tengo tiempo.",
+        "phonetic": "wǒ xiǎng qù, dànshì méiyǒu shíjiān"
+      },
+      {
+        "text": "因为下雨，所以我们不去公园。",
+        "translation": "Porque llueve, no vamos al parque.",
+        "phonetic": "yīnwèi xiàyǔ, suǒyǐ wǒmen bú qù gōngyuán"
+      },
+      {
+        "text": "如果你来，我就很高兴。",
+        "translation": "Si vienes, estaré muy contento.",
+        "phonetic": "rúguǒ nǐ lái, wǒ jiù hěn gāoxìng"
+      }
+    ],
+    "common_error": {
+      "wrong": "我喜欢咖啡和喝茶。",
+      "correct": "我喜欢咖啡，也喜欢喝茶。",
+      "correct_alt": "我喜欢咖啡和茶。",
+      "explanation": "El error común es usar '和' para unir una oración con otra. En chino, '和' solo conecta sustantivos, no verbos ni oraciones completas. Para expresar 'y' entre acciones u oraciones, se usa '也' (también) o simplemente se omiten conectores. Por lo tanto, debes separar las dos ideas y usar '也' para la segunda, o cambiar la segunda parte a un sustantivo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "和/也 (y/también)",
+        "translation": "和/也 (y/también)",
+        "examples": [
+          {
+            "original": "我有书和笔。",
+            "phonetic": "wǒ yǒu shū hé bǐ",
+            "translation": "Tengo libros y bolígrafos.",
+            "note": "Aquí '和' une dos sustantivos, como en español."
+          },
+          {
+            "original": "他喜欢唱歌，也喜欢跳舞。",
+            "phonetic": "tā xǐhuān chànggē, yě xǐhuān tiàowǔ",
+            "translation": "Él canta y también baila.",
+            "note": "Se usa '也' para unir dos oraciones con el mismo sujeto, no '和'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "但是/还是 (pero/o)",
+        "translation": "pero / o",
+        "examples": [
+          {
+            "original": "我想去，但是太贵了。",
+            "phonetic": "wǒ xiǎng qù, dànshì tài guì le",
+            "translation": "Quiero ir, pero es demasiado caro.",
+            "note": "'但是' se coloca al inicio de la segunda cláusula, igual que 'pero'."
+          },
+          {
+            "original": "你喝茶还是咖啡？",
+            "phonetic": "nǐ hē chá háishì kāfēi?",
+            "translation": "¿Tomas té o café?",
+            "note": "En preguntas con opciones se usa '还是', no '或者'."
+          },
+          {
+            "original": "我可以喝茶或者咖啡。",
+            "phonetic": "wǒ kěyǐ hē chá huòzhě kāfēi",
+            "translation": "Puedo tomar té o café.",
+            "note": "En afirmaciones, para opciones se usa '或者'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "因为...所以/如果...就 (porque/cuando/si)",
+        "translation": "porque...entonces / cuando / si",
+        "examples": [
+          {
+            "original": "因为天气好，所以我们去散步。",
+            "phonetic": "yīnwèi tiānqì hǎo, suǒyǐ wǒmen qù sànbù",
+            "translation": "Porque hace buen tiempo, vamos a pasear.",
+            "note": "En chino, a menudo se usan ambos conectores: 'porque' al principio y 'entonces' en la cláusula principal. En español solo usamos 'porque'."
+          },
+          {
+            "original": "当我去中国的时候，我会学习汉语。",
+            "phonetic": "dāng wǒ qù zhōngguó de shíhou, wǒ huì xuéxí hànyǔ",
+            "translation": "Cuando vaya a China, estudiaré chino.",
+            "note": "La estructura '当...的时候' significa 'cuando', pero requiere la partícula '的' y '时候'."
+          },
+          {
+            "original": "如果明天下雨，我就不去了。",
+            "phonetic": "rúguǒ míngtiān xiàyǔ, wǒ jiù bú qù le",
+            "translation": "Si mañana llueve, no iré.",
+            "note": "Observa que '就' se usa en la cláusula principal para conectar con la condición. Es obligatorio en condicionales hipotéticas."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "es": "Conjunciones"
+    }
+  },
+  {
+    "id": "es_A2_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "过 vs 了（过去经历与完成）",
+    "bridge": "En español, usamos el pretérito perfecto compuesto ('he comido') para hablar de experiencias pasadas con relevancia en el presente. En chino mandarín, esta idea se expresa de dos maneras: con la partícula 过 (guo) para indicar 'alguna vez en la vida' (experiencia) y con 了 (le) para indicar una acción completada recientemente. A diferencia del español, el chino no conjuga el verbo; en su lugar, añade estas partículas después del verbo. Un error común es confundir 过 y 了: recuerda que 过 se usa para experiencias (¿has estado alguna vez...?) y 了 para acciones que acaban de ocurrir o que completan un cambio de estado.",
+    "rule": "En chino mandarín, el 'perfecto compuesto' se forma colocando la partícula 过 (guo) o 了 (le) después del verbo. - **过 (guo):** Indica experiencia pasada, es decir, que algo ha ocurrido al menos una vez en la vida. Se usa con frecuencia en preguntas como 你…过吗？(¿Has... alguna vez?) y en negaciones con 没(有)…过 (nunca he...). El verbo no cambia de forma. Ejemplo: 我去过北京。(He estado en Pekín alguna vez). - **了 (le):** Indica que una acción se ha completado, a menudo recientemente o con relevancia para el presente. Se coloca después del verbo. Ejemplo: 我吃了饭。(He comido [ya] / comí). En negación, se usa 没(有) + verbo, sin 了. Ejemplo: 我没吃饭。(No he comido). - **Diferencia clave:** 过 se enfoca en la experiencia (si ocurrió alguna vez), mientras que 了 se enfoca en la finalización de la acción. En español, ambos pueden traducirse como pretérito perfecto, pero el contexto determina cuál usar. Para A2, domina primero 过 para hablar de experiencias y 了 para acciones completadas con marcadores de tiempo como 刚刚 (justo ahora) o 已经 (ya).",
+    "concept_examples": [
+      {
+        "text": "我去过西班牙。",
+        "translation": "He estado en España.",
+        "phonetic": "wǒ qù guo xībānyá."
+      },
+      {
+        "text": "他吃过中国菜。",
+        "translation": "Él ha comido comida china (alguna vez).",
+        "phonetic": "tā chī guo zhōngguó cài."
+      },
+      {
+        "text": "我已经吃了饭。",
+        "translation": "Ya he comido.",
+        "phonetic": "wǒ yǐjīng chī le fàn."
+      },
+      {
+        "text": "你学过汉语吗？",
+        "translation": "¿Has estudiado chino (alguna vez)?",
+        "phonetic": "nǐ xué guo hànyǔ ma?"
+      }
+    ],
+    "common_error": {
+      "wrong": "我去过了北京。",
+      "correct": "我去过北京。",
+      "correct_alt": "我去了北京。",
+      "explanation": "En español, a menudo añadimos 'ya' o 'alguna vez' para enfatizar, pero en chino, la partícula 过 ya implica la experiencia, y 了 indica completación. Decir 我去过了北京 es redundante y suena extraño porque 过 y 了 no suelen combinarse de esa manera (aunque en algunos dialectos o contextos informales se usa 过...了, pero es avanzado). Para A2, usa solo 过 para experiencias y solo 了 para acciones completadas. Evita traducir literalmente 'he ido' como '我去过了'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "过：表示经历",
+        "translation": "Guo: Expresar experiencias",
+        "examples": [
+          {
+            "original": "我看过那部电影。",
+            "phonetic": "wǒ kàn guo nà bù diànyǐng.",
+            "translation": "He visto esa película (alguna vez).",
+            "note": "Usa 过 para indicar que has tenido la experiencia de ver la película, sin especificar cuándo."
+          },
+          {
+            "original": "你喝过咖啡吗？",
+            "phonetic": "nǐ hē guo kāfēi ma?",
+            "translation": "¿Has bebido café alguna vez?",
+            "note": "Pregunta de experiencia común, equivalente a '¿alguna vez has...?'"
+          },
+          {
+            "original": "我没去过美国。",
+            "phonetic": "wǒ méi qù guo měiguó.",
+            "translation": "No he estado nunca en Estados Unidos.",
+            "note": "En negación, se usa 没(有) delante del verbo, y se mantiene 过 después del verbo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "了：表示完成",
+        "translation": "Le: Indicar acción completada",
+        "examples": [
+          {
+            "original": "我吃了早饭。",
+            "phonetic": "wǒ chī le zǎofàn.",
+            "translation": "He desayunado (ya).",
+            "note": "了 indica que la acción de desayunar está completada, con relevancia en el presente."
+          },
+          {
+            "original": "他买了新手机。",
+            "phonetic": "tā mǎi le xīn shǒujī.",
+            "translation": "Él ha comprado un móvil nuevo.",
+            "note": "Aquí 了 señala una acción recién completada. En español, usamos 'ha comprado'."
+          },
+          {
+            "original": "我刚刚到了家。",
+            "phonetic": "wǒ gānggāng dào le jiā.",
+            "translation": "Acabo de llegar a casa.",
+            "note": "Combina 刚刚 (justo ahora) con 了 para enfatizar la finalización reciente."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "过 vs 了：区分用法",
+        "translation": "Guo vs Le: Distinguir los usos",
+        "examples": [
+          {
+            "original": "我去过北京，但没去过上海。",
+            "phonetic": "wǒ qù guo běijīng, dàn méi qù guo shànghǎi.",
+            "translation": "He estado en Pekín, pero nunca en Shanghái.",
+            "note": "Contraste de experiencias: 过 para sí y 没…过 para no. No se usa 了 aquí porque son experiencias generales."
+          },
+          {
+            "original": "我已经吃了药，现在感觉好多了。",
+            "phonetic": "wǒ yǐjīng chī le yào, xiànzài gǎnjué hǎo duō le.",
+            "translation": "Ya he tomado la medicina, ahora me siento mucho mejor.",
+            "note": "Uso de 了 con 已经 (ya) para indicar acción completada con resultado presente."
+          },
+          {
+            "original": "你学过西班牙语吗？我学过一年。",
+            "phonetic": "nǐ xué guo xībānyáyǔ ma? wǒ xué guo yì nián.",
+            "translation": "¿Has estudiado español alguna vez? Lo he estudiado un año.",
+            "note": "Ejemplo de pregunta y respuesta con 过 para experiencia, sin especificar tiempo exacto."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕒",
+    "phonetic": "",
+    "translations": {
+      "es": "Perfecto compuesto básico"
+    }
+  }
+]

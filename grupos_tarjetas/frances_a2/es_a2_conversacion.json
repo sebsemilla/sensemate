@@ -1,0 +1,2563 @@
+[
+  {
+    "id": "es_A2_conv_01",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Au médecin",
+    "bridge": "En francés, describir síntomas al médico requiere expresiones específicas para localizar el dolor y su intensidad. A diferencia del español, se usa 'avoir mal à' para decir que algo duele, y 'depuis' para indicar desde cuándo tienes el síntoma. Los franceses también esperan que el médico les dé una 'ordonnance' (receta) al final de la consulta.",
+    "rule": "Frases clave: 'J'ai mal à...' (me duele...), 'Depuis quand?' (¿Desde cuándo?), 'Depuis [tiempo]' (Desde hace [tiempo]), 'J'ai de la fièvre' (tengo fiebre), 'Je me sens mal' (me siento mal), 'Pouvez-vous me prescrire quelque chose?' (¿Puede recetarme algo?), 'C'est grave?' (¿Es grave?)",
+    "concept_examples": [
+      {
+        "text": "J'ai mal à la gorge depuis trois jours.",
+        "translation": "Me duele la garganta desde hace tres días.",
+        "phonetic": "/ʒe mal a la ɡɔʁʒ dəpɥi tʁwɑ ʒuʁ/"
+      },
+      {
+        "text": "Où avez-vous mal exactement?",
+        "translation": "¿Dónde le duele exactamente?",
+        "phonetic": "/u ave vu mal ɛɡzaktəmɑ̃/"
+      },
+      {
+        "text": "Je vous prescris des antibiotiques.",
+        "translation": "Le receto antibióticos.",
+        "phonetic": "/ʒə vu pʁɛskʁi de zɑ̃tibjɔtik/"
+      }
+    ],
+    "common_error": {
+      "wrong": "J'ai douleur à la tête.",
+      "correct": "J'ai mal à la tête.",
+      "correct_alt": "J'ai une douleur à la tête.",
+      "explanation": "En francés no se dice 'avoir douleur' directamente. La construcción correcta es 'avoir mal à' para el dolor cotidiano, o 'avoir une douleur à' si quieres ser más formal o preciso. 'Douleur' necesita el artículo 'une'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Symptômes simples",
+        "translation": "Síntomas simples",
+        "examples": [
+          {
+            "original": "Bonjour docteur, je ne me sens pas bien.",
+            "phonetic": "/bɔ̃ʒuʁ dɔktœʁ, ʒə nə mə sɑ̃ pa bjɛ̃/",
+            "translation": "Buenos días doctor, no me siento bien.",
+            "note": "Frase de apertura estándar en la consulta médica."
+          },
+          {
+            "original": "Qu'est-ce qui vous amène aujourd'hui?",
+            "phonetic": "/kɛs ki vu zamɛn oʒuʁdɥi/",
+            "translation": "¿Qué le trae por aquí hoy?",
+            "note": "Pregunta típica del médico al inicio de la consulta."
+          },
+          {
+            "original": "J'ai mal à la tête et j'ai de la fièvre.",
+            "phonetic": "/ʒe mal a la tɛt e ʒe də la fjɛvʁ/",
+            "translation": "Me duele la cabeza y tengo fiebre.",
+            "note": "'Avoir de la fièvre' es la expresión fija para 'tener fiebre'."
+          },
+          {
+            "original": "Depuis combien de temps?",
+            "phonetic": "/dəpɥi kɔ̃bjɛ̃ də tɑ̃/",
+            "translation": "¿Desde hace cuánto tiempo?",
+            "note": "El médico siempre pregunta la duración del síntoma."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Décrire la douleur",
+        "translation": "Describir el dolor",
+        "examples": [
+          {
+            "original": "J'ai une douleur aiguë dans le côté droit depuis hier soir.",
+            "phonetic": "/ʒe yn dulœʁ eɡy dɑ̃ lə kote dʁwa dəpɥi jɛʁ swaʁ/",
+            "translation": "Tengo un dolor agudo en el lado derecho desde anoche.",
+            "note": "'Aigu/aiguë' significa agudo (dolor intenso y punzante). El género concuerda con 'douleur' (femenino)."
+          },
+          {
+            "original": "Est-ce que la douleur est constante ou par moments?",
+            "phonetic": "/ɛs kə la dulœʁ ɛ kɔ̃stɑ̃t u paʁ mɔmɑ̃/",
+            "translation": "¿El dolor es constante o por momentos?",
+            "note": "El médico necesita saber si es continuo o intermitente."
+          },
+          {
+            "original": "C'est plutôt par moments, surtout quand je bouge.",
+            "phonetic": "/sɛ plytot paʁ mɔmɑ̃, syʁtu kɑ̃ ʒə buʒ/",
+            "translation": "Es más bien por momentos, sobre todo cuando me muevo.",
+            "note": "'Surtout quand' equivale a 'sobre todo cuando'."
+          },
+          {
+            "original": "Je vais vous examiner. Allongez-vous, s'il vous plaît.",
+            "phonetic": "/ʒə ve vu ɛɡzamine. alɔ̃ʒe vu, sil vu plɛ/",
+            "translation": "Voy a examinarle. Acuéstese, por favor.",
+            "note": "'Allongez-vous' es el imperativo formal de 's'allonger' (tumbarse/acostarse)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ordonnance et traitement",
+        "translation": "Receta y tratamiento",
+        "examples": [
+          {
+            "original": "D'après vos symptômes, vous avez une infection bactérienne. Je vais vous prescrire des antibiotiques.",
+            "phonetic": "/dapʁɛ vo sɛ̃ptom, vu zave yn ɛ̃fɛksjɔ̃ baktɛʁjɛn. ʒə ve vu pʁɛskʁiʁ de zɑ̃tibjɔtik/",
+            "translation": "Según sus síntomas, tiene una infección bacteriana. Voy a recetarle antibióticos.",
+            "note": "'D'après' equivale a 'según'. 'Prescrire' es el verbo formal para recetar."
+          },
+          {
+            "original": "Combien de fois par jour dois-je les prendre?",
+            "phonetic": "/kɔ̃bjɛ̃ də fwa paʁ ʒuʁ dwa ʒə le pʁɑ̃dʁ/",
+            "translation": "¿Cuántas veces al día debo tomarlos?",
+            "note": "'Dois-je' es la inversión formal de 'je dois' (debo). Muy común en preguntas al médico."
+          },
+          {
+            "original": "Trois fois par jour, pendant sept jours. Et revenez me voir si ça ne va pas mieux dans 48 heures.",
+            "phonetic": "/tʁwa fwa paʁ ʒuʁ, pɑ̃dɑ̃ sɛt ʒuʁ. e ʁəvəne mə vwaʁ si sa nə va pa mjø dɑ̃ kaʁɑ̃t ɥit œʁ/",
+            "translation": "Tres veces al día, durante siete días. Y vuelva a verme si no mejora en 48 horas.",
+            "note": "'Revenez me voir' es una instrucción de seguimiento típica. '48 heures' se pronuncia 'quarante-huit heures'."
+          },
+          {
+            "original": "Est-ce que vous avez une carte Vitale?",
+            "phonetic": "/ɛs kə vu zave yn kaʁt vital/",
+            "translation": "¿Tiene tarjeta Vitale?",
+            "note": "La carte Vitale es la tarjeta del seguro de salud francés. Es habitual que te la pidan al pagar."
+          }
+        ]
+      }
+    ],
+    "emoji": "🩺",
+    "phonetic": "/o medsɛ̃/",
+    "translations": {
+      "es": "En el médico"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "es_A2_conv_02",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Réserver un hébergement",
+    "bridge": "Al reservar alojamiento en Francia, el vocabulario y las expectativas son similares al mundo hispanohablante, pero hay frases clave que debes conocer. Los franceses son directos al preguntar sobre servicios y condiciones. Es importante saber preguntar por el desayuno ('petit-déjeuner'), el wifi, el aparcamiento y las condiciones de cancelación antes de confirmar.",
+    "rule": "Frases clave: 'Je voudrais réserver...' (Quisiera reservar...), 'Avez-vous une chambre disponible?' (¿Tienen habitación disponible?), 'Pour combien de nuits?' (¿Para cuántas noches?), 'C'est compris?' (¿Está incluido?), 'Quelles sont les conditions d'annulation?' (¿Cuáles son las condiciones de cancelación?), 'Y a-t-il le wifi?' (¿Hay wifi?)",
+    "concept_examples": [
+      {
+        "text": "Je voudrais réserver une chambre pour deux personnes.",
+        "translation": "Quisiera reservar una habitación para dos personas.",
+        "phonetic": "/ʒə vudʁɛ ʁezɛʁve yn ʃɑ̃bʁ puʁ dø pɛʁsɔn/"
+      },
+      {
+        "text": "Le petit-déjeuner est-il compris dans le prix?",
+        "translation": "¿El desayuno está incluido en el precio?",
+        "phonetic": "/lə pəti deʒœne ɛ til kɔ̃pʁi dɑ̃ lə pʁi/"
+      },
+      {
+        "text": "Nous avons une chambre disponible du 15 au 18.",
+        "translation": "Tenemos una habitación disponible del 15 al 18.",
+        "phonetic": "/nu zavɔ̃ yn ʃɑ̃bʁ dispɔnibl dy kɛ̃z o dizyit/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je veux une chambre pour deux nuits.",
+      "correct": "Je voudrais une chambre pour deux nuits.",
+      "correct_alt": "Auriez-vous une chambre pour deux nuits?",
+      "explanation": "'Je veux' suena demasiado brusco en contextos de servicio al cliente. En francés es fundamental usar el condicional 'je voudrais' (quisiera) o preguntar con 'auriez-vous' para sonar educado. Usar 'je veux' puede percibirse como descortés."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Vérifier la disponibilité",
+        "translation": "Verificar la disponibilidad",
+        "examples": [
+          {
+            "original": "Bonjour, je voudrais réserver une chambre pour deux nuits, du 20 au 22 juin.",
+            "phonetic": "/bɔ̃ʒuʁ, ʒə vudʁɛ ʁezɛʁve yn ʃɑ̃bʁ puʁ dø nɥi, dy vɛ̃ o vɛ̃t dø ʒɥɛ̃/",
+            "translation": "Buenos días, quisiera reservar una habitación para dos noches, del 20 al 22 de junio.",
+            "note": "Siempre da las fechas de entrada y salida desde el principio."
+          },
+          {
+            "original": "Pour combien de personnes?",
+            "phonetic": "/puʁ kɔ̃bjɛ̃ də pɛʁsɔn/",
+            "translation": "¿Para cuántas personas?",
+            "note": "Pregunta estándar antes de consultar disponibilidad."
+          },
+          {
+            "original": "Pour deux personnes, s'il vous plaît.",
+            "phonetic": "/puʁ dø pɛʁsɔn, sil vu plɛ/",
+            "translation": "Para dos personas, por favor.",
+            "note": "Respuesta directa y cortés."
+          },
+          {
+            "original": "Oui, nous avons une chambre double disponible. Le prix est de 85 euros par nuit.",
+            "phonetic": "/wi, nu zavɔ̃ yn ʃɑ̃bʁ dubl dispɔnibl. lə pʁi ɛ də katʁəvɛ̃ sɛ̃k œʁo paʁ nɥi/",
+            "translation": "Sí, tenemos una habitación doble disponible. El precio es de 85 euros por noche.",
+            "note": "'Chambre double' puede tener cama de matrimonio o dos camas; vale la pena aclarar."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Questions sur les services",
+        "translation": "Preguntas sobre los servicios",
+        "examples": [
+          {
+            "original": "Est-ce que le petit-déjeuner est inclus dans ce tarif?",
+            "phonetic": "/ɛs kə lə pəti deʒœne ɛ ɛ̃kly dɑ̃ sə taʁif/",
+            "translation": "¿El desayuno está incluido en esta tarifa?",
+            "note": "'Tarif' es más formal que 'prix' cuando se habla de precios de hotel."
+          },
+          {
+            "original": "Non, le petit-déjeuner est en supplément, 12 euros par personne.",
+            "phonetic": "/nɔ̃, lə pəti deʒœne ɛ tɑ̃ syplemɑ̃, duz œʁo paʁ pɛʁsɔn/",
+            "translation": "No, el desayuno es aparte, 12 euros por persona.",
+            "note": "'En supplément' significa 'adicional' o 'aparte'."
+          },
+          {
+            "original": "Y a-t-il le wifi gratuit dans les chambres?",
+            "phonetic": "/i a til lə wifi ɡʁatɥi dɑ̃ le ʃɑ̃bʁ/",
+            "translation": "¿Hay wifi gratuito en las habitaciones?",
+            "note": "'Wifi' en francés es masculino: 'le wifi'. 'Y a-t-il' es la forma interrogativa formal de 'il y a'."
+          },
+          {
+            "original": "Oui, le wifi est gratuit partout dans l'hôtel. Avez-vous un parking?",
+            "phonetic": "/wi, lə wifi ɛ ɡʁatɥi paʁtu dɑ̃ lotɛl. ave vu œ̃ paʁkiŋ/",
+            "translation": "Sí, el wifi es gratuito en todo el hotel. ¿Tienen aparcamiento?",
+            "note": "'Partout' significa 'en todas partes'. 'Parking' es un préstamo del inglés muy usado en francés."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Confirmer et annuler",
+        "translation": "Confirmar y cancelar",
+        "examples": [
+          {
+            "original": "Quelles sont vos conditions d'annulation?",
+            "phonetic": "/kɛl sɔ̃ vo kɔ̃disjɔ̃ danylɑsjɔ̃/",
+            "translation": "¿Cuáles son sus condiciones de cancelación?",
+            "note": "Pregunta esencial antes de dar los datos de tarjeta. Las políticas varían mucho entre hoteles."
+          },
+          {
+            "original": "Vous pouvez annuler gratuitement jusqu'à 48 heures avant votre arrivée. Au-delà, une nuit vous sera facturée.",
+            "phonetic": "/vu puve anyle ɡʁatɥitmɑ̃ ʒyska kaʁɑ̃t ɥit œʁ avɑ̃ vɔtʁ aʁive. o dəla, yn nɥi vu səʁa faktyʁe/",
+            "translation": "Puede cancelar gratuitamente hasta 48 horas antes de su llegada. Pasado ese plazo, se le cobrará una noche.",
+            "note": "'Au-delà' significa 'más allá de' o 'pasado ese límite'. 'Facturer' es el verbo 'cobrar/facturar'."
+          },
+          {
+            "original": "Parfait. Je confirme la réservation. Pouvez-vous m'envoyer une confirmation par email?",
+            "phonetic": "/paʁfɛ. ʒə kɔ̃fiʁm la ʁezɛʁvasjɔ̃. puve vu mɑ̃vwaje yn kɔ̃fiʁmasjɔ̃ paʁ iməl/",
+            "translation": "Perfecto. Confirmo la reserva. ¿Puede enviarme una confirmación por email?",
+            "note": "'Parfait' es un comodín muy útil para expresar satisfacción. 'Email' o 'courriel' son ambas formas válidas."
+          },
+          {
+            "original": "Bien sûr. Quelle est votre adresse email? Et à quel nom faut-il faire la réservation?",
+            "phonetic": "/bjɛ̃ syʁ. kɛl ɛ vɔtʁ adʁɛs iməl? e a kɛl nɔ̃ fo til fɛʁ la ʁezɛʁvasjɔ̃/",
+            "translation": "Por supuesto. ¿Cuál es su dirección de email? ¿Y a qué nombre hay que hacer la reserva?",
+            "note": "'À quel nom faut-il faire?' es la forma estándar de preguntar el nombre para la reserva."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "/ʁezɛʁve œ̃ ebeʁʒmɑ̃/",
+    "translations": {
+      "es": "Reservar alojamiento"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "es_A2_conv_03",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "À la banque ou bureau de change",
+    "bridge": "En Francia y países francófonos, las gestiones bancarias tienen un vocabulario específico. A diferencia del español, en francés se dice 'retirer de l'argent' (retirar dinero) y 'effectuer un virement' (hacer una transferencia). Los bancos franceses suelen pedir justificativos ('justificatifs') para muchas operaciones, y el cajero automático se llama 'distributeur automatique' o simplemente 'DAB'.",
+    "rule": "Frases clave: 'Je voudrais ouvrir un compte' (Quisiera abrir una cuenta), 'Je voudrais retirer/déposer de l'argent' (Quisiera retirar/depositar dinero), 'Quel est le taux de change?' (¿Cuál es el tipo de cambio?), 'Il y a des frais?' (¿Hay comisiones?), 'Pouvez-vous me donner des billets de...?' (¿Puede darme billetes de...?)",
+    "concept_examples": [
+      {
+        "text": "Je voudrais changer des dollars en euros.",
+        "translation": "Quisiera cambiar dólares a euros.",
+        "phonetic": "/ʒə vudʁɛ ʃɑ̃ʒe de dɔlaʁ ɑ̃n øʁo/"
+      },
+      {
+        "text": "Quel est le taux de change aujourd'hui?",
+        "translation": "¿Cuál es el tipo de cambio hoy?",
+        "phonetic": "/kɛl ɛ lə to də ʃɑ̃ʒ oʒuʁdɥi/"
+      },
+      {
+        "text": "Y a-t-il des frais de commission?",
+        "translation": "¿Hay comisiones?",
+        "phonetic": "/i a til de fʁɛ də kɔmisjɔ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je veux changer de l'argent.",
+      "correct": "Je voudrais changer de l'argent.",
+      "correct_alt": "Pourriez-vous m'aider à changer de l'argent?",
+      "explanation": "Al igual que en el hotel, usar 'je veux' en el banco suena brusco. El condicional 'je voudrais' (quisiera) es la forma educada estándar en cualquier gestión formal en Francia. En entornos bancarios la cortesía lingüística es especialmente importante."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Changer de l'argent",
+        "translation": "Cambiar dinero",
+        "examples": [
+          {
+            "original": "Bonjour, je voudrais changer 200 dollars américains en euros, s'il vous plaît.",
+            "phonetic": "/bɔ̃ʒuʁ, ʒə vudʁɛ ʃɑ̃ʒe dø sɑ̃ dɔlaʁ ameʁikɛ̃ ɑ̃n øʁo, sil vu plɛ/",
+            "translation": "Buenos días, quisiera cambiar 200 dólares americanos a euros, por favor.",
+            "note": "Especifica siempre la moneda de origen ('dollars américains', 'livres sterling', 'pesos mexicains', etc.)."
+          },
+          {
+            "original": "Bien sûr. Le taux de change actuel est de 1 dollar pour 0,92 euro.",
+            "phonetic": "/bjɛ̃ syʁ. lə to də ʃɑ̃ʒ aktɥɛl ɛ də œ̃ dɔlaʁ puʁ zeʁo viŋt dø øʁo/",
+            "translation": "Por supuesto. El tipo de cambio actual es de 1 dólar por 0,92 euros.",
+            "note": "'Actuel' significa 'actual/vigente', no 'actual' en el sentido temporal como puede prestarse a confusión del falso amigo."
+          },
+          {
+            "original": "Est-ce qu'il y a des frais?",
+            "phonetic": "/ɛs kil i a de fʁɛ/",
+            "translation": "¿Hay comisiones?",
+            "note": "'Frais' (plural) significa gastos, comisiones o cargos. 'Frais de change' son específicamente las comisiones de cambio."
+          },
+          {
+            "original": "Oui, nous prenons une commission de 2%. Cela vous convient?",
+            "phonetic": "/wi, nu pʁənɔ̃ yn kɔmisjɔ̃ də dø puʁsɑ̃. səla vu kɔ̃vjɛ̃/",
+            "translation": "Sí, cobramos una comisión del 2%. ¿Le parece bien?",
+            "note": "'Cela vous convient?' es una forma muy francesa de pedir confirmación antes de proceder."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Retirer et déposer de l'argent",
+        "translation": "Retirar y depositar dinero",
+        "examples": [
+          {
+            "original": "Je voudrais retirer 300 euros de mon compte, s'il vous plaît.",
+            "phonetic": "/ʒə vudʁɛ ʁətiʁe tʁwa sɑ̃ øʁo də mɔ̃ kɔ̃t, sil vu plɛ/",
+            "translation": "Quisiera retirar 300 euros de mi cuenta, por favor.",
+            "note": "'Retirer' es el verbo para retirar dinero. 'Compte' es la cuenta bancaria."
+          },
+          {
+            "original": "Pouvez-vous me présenter votre carte bancaire et une pièce d'identité?",
+            "phonetic": "/puve vu mə pʁezɑ̃te vɔtʁ kaʁt bɑ̃kɛʁ e yn pjɛs didɑ̃tite/",
+            "translation": "¿Puede presentar su tarjeta bancaria y un documento de identidad?",
+            "note": "'Pièce d'identité' es el término genérico para cualquier documento identificativo (pasaporte, DNI, etc.)."
+          },
+          {
+            "original": "Voilà ma carte et mon passeport.",
+            "phonetic": "/vwala ma kaʁt e mɔ̃ paspɔʁ/",
+            "translation": "Aquí tiene mi tarjeta y mi pasaporte.",
+            "note": "'Voilà' se usa para presentar o entregar algo físicamente, como 'aquí tiene' o 'toma'."
+          },
+          {
+            "original": "Comment souhaitez-vous les billets? En coupures de 50 ou de 20?",
+            "phonetic": "/kɔmɑ̃ swɛte vu le bijɛ? ɑ̃ kupyʁ də sɛ̃kɑ̃t u də vɛ̃/",
+            "translation": "¿Cómo prefiere los billetes? ¿En billetes de 50 o de 20?",
+            "note": "'Coupure' significa denominación de billete. 'Souhaitez-vous' es la forma educada de '¿desea usted?'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ouvrir un compte et virements",
+        "translation": "Abrir una cuenta y transferencias",
+        "examples": [
+          {
+            "original": "Je viens d'arriver en France et je voudrais ouvrir un compte bancaire. Quels documents faut-il fournir?",
+            "phonetic": "/ʒə vjɛ̃ daʁive ɑ̃ fʁɑ̃s e ʒə vudʁɛ uvʁiʁ œ̃ kɔ̃t bɑ̃kɛʁ. kɛl dɔkymɑ̃ fo til fuʁniʁ/",
+            "translation": "Acabo de llegar a Francia y quisiera abrir una cuenta bancaria. ¿Qué documentos hay que aportar?",
+            "note": "'Je viens de + infinitif' expresa 'acabar de hacer algo'. 'Fournir' significa aportar o proporcionar documentos."
+          },
+          {
+            "original": "Il vous faut une pièce d'identité, un justificatif de domicile et un justificatif de revenus.",
+            "phonetic": "/il vu fo yn pjɛs didɑ̃tite, œ̃ ʒystifikatif də dɔmisil e œ̃ ʒystifikatif də ʁəvəny/",
+            "translation": "Necesita un documento de identidad, un justificante de domicilio y un justificante de ingresos.",
+            "note": "'Justificatif' es la palabra clave para todos los documentos que prueban algo en Francia. 'De domicile' prueba tu dirección."
+          },
+          {
+            "original": "Je voudrais aussi effectuer un virement vers l'Espagne. Est-ce possible depuis votre agence?",
+            "phonetic": "/ʒə vudʁɛ osi ɛfɛktɥe œ̃ viʁmɑ̃ vɛʁ lɛspaɲ. ɛs kə posibl dəpɥi vɔtʁ aʒɑ̃s/",
+            "translation": "También quisiera hacer una transferencia a España. ¿Es posible desde su sucursal?",
+            "note": "'Effectuer un virement' es la expresión formal para hacer una transferencia bancaria. 'Agence' es la sucursal bancaria."
+          },
+          {
+            "original": "Oui, tout à fait. Pour un virement SEPA vers l'Espagne, les délais sont de un à deux jours ouvrés.",
+            "phonetic": "/wi, tu ta fɛ. puʁ œ̃ viʁmɑ̃ sepa vɛʁ lɛspaɲ, le delɛ sɔ̃ də œ̃ a dø ʒuʁ uvʁe/",
+            "translation": "Sí, por supuesto. Para una transferencia SEPA a España, los plazos son de uno a dos días hábiles.",
+            "note": "'Tout à fait' es una afirmación enfática muy francesa. 'Jours ouvrés' son los días hábiles (laborables, excluyendo fines de semana y festivos)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏦",
+    "phonetic": "/a la bɑ̃k u byʁo də ʃɑ̃ʒ/",
+    "translations": {
+      "es": "En el banco o cambio de moneda"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "es_A2_conv_04",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Entretien d'embauche basique",
+    "bridge": "En Francia, una entrevista de trabajo tiene sus propios rituales: el apretón de manos es obligatorio, tutear al entrevistador sería un error grave, y se espera que el candidato presente su 'parcours' (trayectoria) de forma concisa. A diferencia del español, en francés se dice 'postuler à un poste' (postularse a un puesto) y 'CV' (curriculum vitae) se pronuncia en francés. Saber hablar de disponibilidad y motivación con frases simples es clave en este nivel A2.",
+    "rule": "Frases clave: 'Je me présente...' (Me presento...), 'J'ai [X] ans d'expérience' (Tengo [X] años de experiencia), 'Je suis disponible à partir du...' (Estoy disponible a partir del...), 'Pourquoi avez-vous postulé?' (¿Por qué postuló?), 'Quelles sont vos compétences?' (¿Cuáles son sus habilidades?), 'Je travaille actuellement chez...' (Trabajo actualmente en...)",
+    "concept_examples": [
+      {
+        "text": "Je me présente: je m'appelle Laura Díaz, j'ai 28 ans.",
+        "translation": "Me presento: me llamo Laura Díaz, tengo 28 años.",
+        "phonetic": "/ʒə mə pʁezɑ̃t: ʒə mapɛl loʁa djaz, ʒe vɛ̃t ɥit ɑ̃/"
+      },
+      {
+        "text": "J'ai deux ans d'expérience dans la vente.",
+        "translation": "Tengo dos años de experiencia en ventas.",
+        "phonetic": "/ʒe dø zɑ̃ dɛkspɛʁjɑ̃s dɑ̃ la vɑ̃t/"
+      },
+      {
+        "text": "Je suis disponible immédiatement.",
+        "translation": "Estoy disponible de inmediato.",
+        "phonetic": "/ʒə sɥi dispɔnibl imedjatmlɑ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis expérimenté dans les ventes.",
+      "correct": "J'ai de l'expérience dans la vente.",
+      "correct_alt": "J'ai deux ans d'expérience en vente.",
+      "explanation": "'Expérimenté' existe en francés pero es menos natural al hablar de uno mismo en entrevistas. Lo más habitual es cuantificar la experiencia con 'J'ai [X] ans d'expérience dans/en...'. Además, 'les ventes' (plural) es el sector, mientras 'la vente' (singular) es la actividad; ambas son correctas pero 'la vente' es más frecuente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Se présenter et parler de soi",
+        "translation": "Presentarse y hablar de uno mismo",
+        "examples": [
+          {
+            "original": "Bonjour, je m'appelle Carlos Romero. Je postule pour le poste de vendeur.",
+            "phonetic": "/bɔ̃ʒuʁ, ʒə mapɛl kaʁlos ʁomɛʁo. ʒə pɔstyl puʁ lə pɔst də vɑ̃dœʁ/",
+            "translation": "Buenos días, me llamo Carlos Romero. Me postulo para el puesto de vendedor.",
+            "note": "'Postuler pour un poste' es la expresión estándar para 'postularse a un puesto'. No se dice 'demander un travail'."
+          },
+          {
+            "original": "Enchanté, Carlos. Pouvez-vous vous présenter en quelques mots?",
+            "phonetic": "/ɑ̃ʃɑ̃te, kaʁlos. puve vu vu pʁezɑ̃te ɑ̃ kɛlkə mo/",
+            "translation": "Encantado, Carlos. ¿Puede presentarse en pocas palabras?",
+            "note": "'En quelques mots' (en pocas palabras) es una petición muy común al inicio de la entrevista."
+          },
+          {
+            "original": "Bien sûr. J'ai 30 ans, je suis espagnol et j'habite à Paris depuis deux ans.",
+            "phonetic": "/bjɛ̃ syʁ. ʒe tʁɑ̃t ɑ̃, ʒə sɥi ɛspaɲɔl e ʒabit a paʁi dəpɥi dø ɑ̃/",
+            "translation": "Por supuesto. Tengo 30 años, soy español y vivo en París desde hace dos años.",
+            "note": "'Depuis' + presente de indicativo para expresar cuánto tiempo llevas haciendo algo (diferente al español que usa pretérito)."
+          },
+          {
+            "original": "Très bien. Parlez-moi de votre expérience professionnelle.",
+            "phonetic": "/tʁɛ bjɛ̃. paʁle mwa də vɔtʁ ɛkspɛʁjɑ̃s pʁɔfɛsjɔnɛl/",
+            "translation": "Muy bien. Hábleme de su experiencia profesional.",
+            "note": "'Parlez-moi de...' es el imperativo formal de 'hablar de algo'. Es una instrucción muy común en entrevistas."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Expérience et compétences",
+        "translation": "Experiencia y habilidades",
+        "examples": [
+          {
+            "original": "J'ai travaillé trois ans comme assistant administratif dans une entreprise de logistique.",
+            "phonetic": "/ʒe tʁavaje tʁwa zɑ̃ kɔm asistɑ̃ administʁatif dɑ̃z yn ɑ̃tʁəpʁiz də lɔʒistik/",
+            "translation": "Trabajé tres años como asistente administrativo en una empresa de logística.",
+            "note": "Passé composé para describir experiencias pasadas concretas con duración definida."
+          },
+          {
+            "original": "Quelles sont vos principales compétences?",
+            "phonetic": "/kɛl sɔ̃ vo pʁɛ̃sipal kɔ̃petɑ̃s/",
+            "translation": "¿Cuáles son sus principales habilidades?",
+            "note": "'Compétences' es la palabra francesa para 'habilidades' o 'competencias' en el contexto laboral."
+          },
+          {
+            "original": "Je suis organisé, je parle espagnol et anglais, et je maîtrise les outils informatiques de base.",
+            "phonetic": "/ʒə sɥi ɔʁɡanize, ʒə paʁl ɛspaɲɔl e ɑ̃ɡlɛ, e ʒə mɛtʁiz le zutil ɛ̃fɔʁmatik də baz/",
+            "translation": "Soy organizado, hablo español e inglés, y domino las herramientas informáticas básicas.",
+            "note": "'Maîtriser' (dominar) es el verbo preferido para hablar de habilidades técnicas. 'Outils informatiques' son las herramientas informáticas."
+          },
+          {
+            "original": "Pourquoi voulez-vous travailler dans notre entreprise?",
+            "phonetic": "/puʁkwa vule vu tʁavaje dɑ̃ nɔtʁ ɑ̃tʁəpʁiz/",
+            "translation": "¿Por qué quiere trabajar en nuestra empresa?",
+            "note": "Pregunta clásica de motivación. Se recomienda mencionar algo específico de la empresa para no sonar genérico."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Disponibilité et questions",
+        "translation": "Disponibilidad y preguntas",
+        "examples": [
+          {
+            "original": "Parce que votre entreprise a une bonne réputation et je souhaite évoluer dans ce secteur.",
+            "phonetic": "/paʁs kə vɔtʁ ɑ̃tʁəpʁiz a yn bɔn ʁepytasjɔ̃ e ʒə swɛt evolɥe dɑ̃ sə sɛktœʁ/",
+            "translation": "Porque su empresa tiene buena reputación y deseo crecer en este sector.",
+            "note": "'Souhaiter + infinitif' (desear + infinitivo) suena más profesional que 'vouloir' en este contexto."
+          },
+          {
+            "original": "Très bien. Quand seriez-vous disponible pour commencer?",
+            "phonetic": "/tʁɛ bjɛ̃. kɑ̃ səʁje vu dispɔnibl puʁ kɔmɑ̃se/",
+            "translation": "Muy bien. ¿Cuándo estaría disponible para empezar?",
+            "note": "'Seriez-vous' es el condicional de 'être'. El entrevistador usa el condicional para ser más cortés y menos directo."
+          },
+          {
+            "original": "Je suis disponible à partir du premier mars. J'ai un préavis d'un mois à respecter.",
+            "phonetic": "/ʒə sɥi dispɔnibl a paʁtiʁ dy pʁəmje maʁs. ʒe œ̃ pʁeavi dœ̃ mwa a ʁɛspɛkte/",
+            "translation": "Estoy disponible a partir del primero de marzo. Tengo un preaviso de un mes que respetar.",
+            "note": "'Préavis' es el período de preaviso obligatorio antes de dejar un trabajo. Es un concepto clave en el sistema laboral francés."
+          },
+          {
+            "original": "Est-ce que vous avez des questions pour nous?",
+            "phonetic": "/ɛs kə vu zave de kɛstjɔ̃ puʁ nu/",
+            "translation": "¿Tiene alguna pregunta para nosotros?",
+            "note": "Siempre hay que tener al menos una pregunta preparada. Puede ser sobre el equipo, la formación interna o las perspectivas de crecimiento."
+          }
+        ]
+      }
+    ],
+    "emoji": "💼",
+    "phonetic": "/ɑ̃tʁətjɛ̃ dɑ̃boʃ bazik/",
+    "translations": {
+      "es": "Entrevista de trabajo básica"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "es_A2_conv_05",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "À la poste",
+    "bridge": "La oficina de correos francesa ('La Poste') es mucho más que un servicio postal: también ofrece servicios bancarios ('La Banque Postale') y trámites administrativos. Al enviar paquetes, los franceses deben elegir entre diferentes tipos de envío: 'lettre prioritaire' (carta urgente), 'Colissimo' (paquetería nacional) o 'recommandé' (certificado con acuse de recibo). El seguimiento se hace con un número de suivi ('numéro de suivi') en línea.",
+    "rule": "Frases clave: 'Je voudrais envoyer ce colis' (Quisiera enviar este paquete), 'En recommandé, s'il vous plaît' (Certificado, por favor), 'Quel est le délai de livraison?' (¿Cuál es el plazo de entrega?), 'Je voudrais un accusé de réception' (Quisiera acuse de recibo), 'Où est le guichet?' (¿Dónde está la ventanilla?), 'Avez-vous un numéro de suivi?' (¿Tiene número de seguimiento?)",
+    "concept_examples": [
+      {
+        "text": "Je voudrais envoyer ce colis en Espagne.",
+        "translation": "Quisiera enviar este paquete a España.",
+        "phonetic": "/ʒə vudʁɛ ɑ̃vwaje sə kɔli ɑ̃n ɛspaɲ/"
+      },
+      {
+        "text": "Quel est le délai de livraison en recommandé?",
+        "translation": "¿Cuál es el plazo de entrega por correo certificado?",
+        "phonetic": "/kɛl ɛ lə delɛ də livʁɛzɔ̃ ɑ̃ ʁəkɔmɑ̃de/"
+      },
+      {
+        "text": "Pouvez-vous me donner le numéro de suivi?",
+        "translation": "¿Puede darme el número de seguimiento?",
+        "phonetic": "/puve vu mə dɔne lə nymeʁo də sɥivi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je veux envoyer une boîte.",
+      "correct": "Je voudrais envoyer un colis.",
+      "correct_alt": "Je souhaite expédier un paquet.",
+      "explanation": "'Boîte' significa caja (el objeto físico), pero en correos se dice 'colis' (paquete) o 'paquet' para referirse al envío. Además, 'expédier' es un sinónimo más formal de 'envoyer' muy usado en contextos postales. Como siempre en servicios, 'je voudrais' es más cortés que 'je veux'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Envoyer une lettre ou un colis",
+        "translation": "Enviar una carta o un paquete",
+        "examples": [
+          {
+            "original": "Bonjour, je voudrais envoyer cette lettre en Espagne, s'il vous plaît.",
+            "phonetic": "/bɔ̃ʒuʁ, ʒə vudʁɛ ɑ̃vwaje sɛt lɛtʁ ɑ̃n ɛspaɲ, sil vu plɛ/",
+            "translation": "Buenos días, quisiera enviar esta carta a España, por favor.",
+            "note": "'Cette lettre' (esta carta) — el demostrativo 'cette' se usa con sustantivos femeninos singulares."
+          },
+          {
+            "original": "En lettre ordinaire ou en recommandé?",
+            "phonetic": "/ɑ̃ lɛtʁ ɔʁdinɛʁ u ɑ̃ ʁəkɔmɑ̃de/",
+            "translation": "¿Por correo ordinario o certificado?",
+            "note": "'Recommandé' es el correo certificado, con número de seguimiento y firma del destinatario. Siempre cuesta más."
+          },
+          {
+            "original": "En recommandé, s'il vous plaît. C'est un document important.",
+            "phonetic": "/ɑ̃ ʁəkɔmɑ̃de, sil vu plɛ. sɛ tœ̃ dɔkymɑ̃ ɛ̃pɔʁtɑ̃/",
+            "translation": "Certificado, por favor. Es un documento importante.",
+            "note": "Justificar la elección del tipo de envío es opcional pero natural en la conversación."
+          },
+          {
+            "original": "D'accord. Posez-la sur la balance, s'il vous plaît.",
+            "phonetic": "/dakɔʁ. poze la syʁ la balɑ̃s, sil vu plɛ/",
+            "translation": "De acuerdo. Póngala en la balanza, por favor.",
+            "note": "'Balance' (balanza) es el instrumento para pesar los envíos. 'Posez' es el imperativo de 'poser' (colocar)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Types d'envoi et tarifs",
+        "translation": "Tipos de envío y tarifas",
+        "examples": [
+          {
+            "original": "Ce colis pèse 2 kilos. Vous préférez Colissimo ou Chronopost?",
+            "phonetic": "/sə kɔli pɛz dø kilo. vu pʁefɛʁe kɔlisimo u kʁɔnopɔst/",
+            "translation": "Este paquete pesa 2 kilos. ¿Prefiere Colissimo o Chronopost?",
+            "note": "Colissimo es el servicio estándar de La Poste (2-3 días). Chronopost es el servicio exprés (24h) pero mucho más caro."
+          },
+          {
+            "original": "Quelle est la différence de prix?",
+            "phonetic": "/kɛl ɛ la difɛʁɑ̃s də pʁi/",
+            "translation": "¿Cuál es la diferencia de precio?",
+            "note": "Pregunta directa y muy útil. 'La différence de prix' entre dos opciones."
+          },
+          {
+            "original": "Colissimo coûte 12 euros avec livraison en 3 jours. Chronopost coûte 22 euros pour le lendemain avant midi.",
+            "phonetic": "/kɔlisimo kut duz øʁo avɛk livʁɛzɔ̃ ɑ̃ tʁwa ʒuʁ. kʁɔnopɔst kut vɛ̃t dø øʁo puʁ lə lɑ̃dmɛ̃ avɑ̃ midi/",
+            "translation": "Colissimo cuesta 12 euros con entrega en 3 días. Chronopost cuesta 22 euros para el día siguiente antes del mediodía.",
+            "note": "'Avant midi' (antes del mediodía) es una especificación de franja horaria habitual en entregas urgentes."
+          },
+          {
+            "original": "Je prends Colissimo alors. Est-ce qu'il y a un suivi en ligne?",
+            "phonetic": "/ʒə pʁɑ̃ kɔlisimo alɔʁ. ɛs kil i a œ̃ sɥivi ɑ̃ liɲ/",
+            "translation": "Entonces elijo Colissimo. ¿Hay seguimiento en línea?",
+            "note": "'Suivi en ligne' es el rastreo del paquete por internet. 'Alors' equivale a 'entonces' como conector de decisión."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Suivi et réclamation",
+        "translation": "Seguimiento y reclamación",
+        "examples": [
+          {
+            "original": "Bonjour, j'attends un colis depuis une semaine mais il n'est toujours pas arrivé.",
+            "phonetic": "/bɔ̃ʒuʁ, ʒatɑ̃ œ̃ kɔli dəpɥi yn səmɛn mɛ il nɛ tuʒuʁ pa aʁive/",
+            "translation": "Buenos días, espero un paquete desde hace una semana pero todavía no ha llegado.",
+            "note": "'Il n'est toujours pas arrivé' — 'toujours pas' equivale a 'todavía no' (negación persistente en el tiempo)."
+          },
+          {
+            "original": "Avez-vous le numéro de suivi? Je vais vérifier pour vous.",
+            "phonetic": "/ave vu lə nymeʁo də sɥivi? ʒə ve veʁifje puʁ vu/",
+            "translation": "¿Tiene el número de seguimiento? Voy a verificar para usted.",
+            "note": "'Je vais + infinitif' expresa futuro inmediato o intención. 'Vérifier' es el verbo para comprobar/verificar."
+          },
+          {
+            "original": "Oui, voici le numéro: CB123456789FR. Selon le site, le colis est en attente de livraison.",
+            "phonetic": "/wi, vwasi lə nymeʁo: se be œ̃ dø tʁwa katʁ sɛ̃k sis sɛt ɥit nœf ef ɛʁ. səlɔ̃ lə sit, lə kɔli ɛ tɑ̃n atɑ̃t də livʁɛzɔ̃/",
+            "translation": "Sí, aquí tiene el número: CB123456789FR. Según el sitio web, el paquete está pendiente de entrega.",
+            "note": "'En attente de livraison' es el estado 'pendiente de entrega'. 'Selon le site' = según la web de seguimiento."
+          },
+          {
+            "original": "Il semble qu'il y ait eu un problème lors de la distribution. Je vais ouvrir une réclamation pour vous.",
+            "phonetic": "/il sɑ̃bl kil i ɛ y œ̃ pʁɔblɛm lɔʁ də la distʁibysjɔ̃. ʒə ve uvʁiʁ yn ʁeklamasjɔ̃ puʁ vu/",
+            "translation": "Parece que hubo un problema durante la distribución. Voy a abrir una reclamación para usted.",
+            "note": "'Ouvrir une réclamation' es la expresión formal para iniciar una queja o reclamación. 'Lors de' equivale a 'durante' o 'en el momento de'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📦",
+    "phonetic": "/a la pɔst/",
+    "translations": {
+      "es": "En correos"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "es_A2_conv_06",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Louer un appartement",
+    "bridge": "Alquilar un piso en Francia tiene particularidades importantes: el sistema de alquiler es muy regulado, los propietarios suelen pedir un 'dossier de location' (expediente con documentos), y hay conceptos como 'caution' (fianza, normalmente un mes de alquiler) y 'charges' (gastos de comunidad incluidos o no en el precio). El término 'loyer' es el alquiler mensual, y 'état des lieux' es el inventario del estado del piso que se hace al entrar y salir.",
+    "rule": "Frases clave: 'Je voudrais visiter l'appartement' (Quisiera visitar el piso), 'Le loyer est de combien?' (¿Cuánto es el alquiler?), 'Les charges sont comprises?' (¿Los gastos están incluidos?), 'Il y a une caution?' (¿Hay fianza?), 'Quand est-il disponible?' (¿Cuándo está disponible?), 'C'est meublé ou vide?' (¿Es amueblado o vacío?)",
+    "concept_examples": [
+      {
+        "text": "Je voudrais visiter l'appartement annoncé sur le site.",
+        "translation": "Quisiera visitar el piso anunciado en el sitio web.",
+        "phonetic": "/ʒə vudʁɛ visite lapɑʁtəmɑ̃ anɔ̃se syʁ lə sit/"
+      },
+      {
+        "text": "Le loyer est de 850 euros, charges comprises.",
+        "translation": "El alquiler es de 850 euros, gastos incluidos.",
+        "phonetic": "/lə lwaje ɛ də ɥit sɑ̃ sɛ̃kɑ̃t øʁo, ʃaʁʒ kɔ̃pʁiz/"
+      },
+      {
+        "text": "Est-ce qu'il y a une caution à verser?",
+        "translation": "¿Hay que pagar una fianza?",
+        "phonetic": "/ɛs kil i a yn kosjɔ̃ a vɛʁse/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je veux louer la maison.",
+      "correct": "Je voudrais louer cet appartement.",
+      "correct_alt": "Seriez-vous prêt à me louer cet appartement?",
+      "explanation": "Además del error habitual de 'je veux' en lugar de 'je voudrais', hay que distinguir entre 'appartement' (piso/departamento) y 'maison' (casa unifamiliar). En el contexto de alquiler urbano francés, lo más habitual es 'appartement'. Usar el término incorrecto puede generar confusión con el propietario."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Visiter l'appartement",
+        "translation": "Visitar el piso",
+        "examples": [
+          {
+            "original": "Bonjour, j'appelle au sujet de l'appartement à louer dans le 11ème arrondissement.",
+            "phonetic": "/bɔ̃ʒuʁ, ʒapɛl o syʒɛ də lapɑʁtəmɑ̃ a lwe dɑ̃ lə ɔ̃zjɛm aʁɔ̃dismɑ̃/",
+            "translation": "Buenos días, llamo por el piso en alquiler en el distrito 11.",
+            "note": "'Au sujet de' (a propósito de / sobre) es una expresión formal para introducir el motivo de una llamada."
+          },
+          {
+            "original": "Oui, il est toujours disponible. Vous souhaitez le visiter?",
+            "phonetic": "/wi, il ɛ tuʒuʁ dispɔnibl. vu swɛte lə visite/",
+            "translation": "Sí, todavía está disponible. ¿Desea visitarlo?",
+            "note": "'Il est toujours disponible' — aquí 'toujours' significa 'todavía', no 'siempre'. El contexto cambia el significado."
+          },
+          {
+            "original": "Oui, s'il vous plaît. Est-ce que je peux venir samedi matin?",
+            "phonetic": "/wi, sil vu plɛ. ɛs kə ʒə pø vəniʁ samdi matɛ̃/",
+            "translation": "Sí, por favor. ¿Puedo venir el sábado por la mañana?",
+            "note": "'Est-ce que je peux + infinitif?' es la forma estándar para pedir permiso educadamente."
+          },
+          {
+            "original": "Bien sûr, disons 10h00. L'appartement fait 45 m², il est au 3ème étage avec ascenseur.",
+            "phonetic": "/bjɛ̃ syʁ, dizɔ̃ dizsœʁ. lapɑʁtəmɑ̃ fɛ kaʁɑ̃t sɛ̃k mɛtʁ kaʁʁe, il ɛ o tʁwazjɛm etaʒ avɛk asɑ̃sœʁ/",
+            "translation": "Por supuesto, digamos a las 10h. El piso tiene 45 m², está en el 3er piso con ascensor.",
+            "note": "'Disons' (digamos) se usa para proponer una hora tentativa. 'Faire X m²' es la expresión para indicar la superficie."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Questions sur le logement",
+        "translation": "Preguntas sobre el piso",
+        "examples": [
+          {
+            "original": "L'appartement est meublé ou vide?",
+            "phonetic": "/lapɑʁtəmɑ̃ ɛ møble u vid/",
+            "translation": "¿El piso es amueblado o vacío?",
+            "note": "'Meublé' (amueblado) vs 'vide' (vacío/sin muebles). Esta distinción es importante legalmente en Francia: el contrato y la fiscalidad varían."
+          },
+          {
+            "original": "Il est vide, mais la cuisine est équipée: réfrigérateur, cuisinière et lave-vaisselle.",
+            "phonetic": "/il ɛ vid, mɛ la kɥizin ɛ ekipe: ʁefʁiʒeʁatœʁ, kɥizinjɛʁ e lav vɛsɛl/",
+            "translation": "Está vacío, pero la cocina está equipada: nevera, cocina y lavavajillas.",
+            "note": "'Cuisine équipée' significa cocina equipada con electrodomésticos. 'Cuisinière' es la cocina (electrodoméstico), no el cocinero."
+          },
+          {
+            "original": "Est-ce qu'il y a du double vitrage? Et le chauffage, comment est-il?",
+            "phonetic": "/ɛs kil i a dy dubl vitʁaʒ? e lə ʃofaʒ, kɔmɑ̃ ɛ til/",
+            "translation": "¿Hay doble acristalamiento? ¿Y la calefacción, cómo es?",
+            "note": "'Double vitrage' (doble cristal) es importante para el aislamiento térmico. 'Chauffage' es la calefacción; puede ser individual o colectiva."
+          },
+          {
+            "original": "Oui, il y a du double vitrage. Le chauffage est collectif au gaz, inclus dans les charges.",
+            "phonetic": "/wi, il i a dy dubl vitʁaʒ. lə ʃofaʒ ɛ kɔlɛktif o ɡaz, ɛ̃kly dɑ̃ le ʃaʁʒ/",
+            "translation": "Sí, hay doble acristalamiento. La calefacción es colectiva de gas, incluida en los gastos.",
+            "note": "'Charges' engloba los gastos de comunidad: calefacción colectiva, ascensor, limpieza de zonas comunes, etc."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Conditions du contrat",
+        "translation": "Condiciones del contrato",
+        "examples": [
+          {
+            "original": "Le loyer est de 850 euros par mois, charges comprises. Il y a une caution d'un mois de loyer.",
+            "phonetic": "/lə lwaje ɛ də ɥit sɑ̃ sɛ̃kɑ̃t øʁo paʁ mwa, ʃaʁʒ kɔ̃pʁiz. il i a yn kosjɔ̃ dœ̃ mwa də lwaje/",
+            "translation": "El alquiler es de 850 euros al mes, gastos incluidos. Hay una fianza de un mes de alquiler.",
+            "note": "'Charges comprises' (CC) vs 'hors charges' (HC): importante saberlo para comparar precios reales entre pisos."
+          },
+          {
+            "original": "Est-ce que vous avez besoin d'un dossier de location?",
+            "phonetic": "/ɛs kə vu zave bəzwɛ̃ dœ̃ dɔsje də lɔkasjɔ̃/",
+            "translation": "¿Necesitan un expediente de alquiler?",
+            "note": "El 'dossier de location' incluye: DNI, contrato de trabajo, últimas nóminas y a veces un aval ('garant'). Es obligatorio en la mayoría de alquileres franceses."
+          },
+          {
+            "original": "Oui, il nous faut vos trois dernières fiches de paie, votre contrat de travail et une pièce d'identité.",
+            "phonetic": "/wi, il nu fo vo tʁwa dɛʁnjɛʁ fiʃ də pɛ, vɔtʁ kɔ̃tʁa də tʁavaj e yn pjɛs didɑ̃tite/",
+            "translation": "Sí, necesitamos sus tres últimas nóminas, su contrato de trabajo y un documento de identidad.",
+            "note": "'Fiche de paie' es la nómina mensual. 'Trois dernières fiches de paie' es el requisito mínimo habitual en Francia."
+          },
+          {
+            "original": "D'accord. Et quand est-ce que l'appartement serait disponible?",
+            "phonetic": "/dakɔʁ. e kɑ̃ ɛs kə lapɑʁtəmɑ̃ səʁɛ dispɔnibl/",
+            "translation": "De acuerdo. ¿Y cuándo estaría disponible el piso?",
+            "note": "'Serait disponible' — condicional de 'être' para preguntar de forma suavizada. Equivale al español 'estaría disponible'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "/lwe œ̃ napaʁtəmɑ̃/",
+    "translations": {
+      "es": "Alquilar un piso"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "es_A2_conv_07",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "À une fête ou événement social",
+    "bridge": "En las fiestas y eventos sociales franceses, las presentaciones tienen un ritmo propio: se da la bise (beso en la mejilla, generalmente dos en París) al saludar, y existe una cultura de la conversación ligera o 'small talk' que los franceses dominan con naturalidad. A diferencia del español, los franceses son a veces más reservados con desconocidos al inicio, pero una vez rotos el hielo suelen ser muy abiertos. Saber presentarse, hablar de uno mismo brevemente y despedirse con elegancia es clave en estos contextos.",
+    "rule": "Frases clave: 'Je me présente, je m'appelle...' (Me presento, me llamo...), 'Je suis venu(e) avec...' (Vine con...), 'Tu connais beaucoup de monde ici?' (¿Conoces a mucha gente aquí?), 'Qu'est-ce que tu fais dans la vie?' (¿A qué te dedicas?), 'C'était sympa de te rencontrer' (Fue agradable conocerte), 'Je dois y aller, bonne soirée!' (Tengo que irme, ¡buenas noches!)",
+    "concept_examples": [
+      {
+        "text": "Salut! Je ne crois pas qu'on se connaisse. Je m'appelle Sophie.",
+        "translation": "¡Hola! Creo que no nos conocemos. Me llamo Sophie.",
+        "phonetic": "/saly! ʒə nə kʁwa pa kɔ̃ sə kɔnɛs. ʒə mapɛl sɔfi/"
+      },
+      {
+        "text": "Qu'est-ce que tu fais dans la vie?",
+        "translation": "¿A qué te dedicas?",
+        "phonetic": "/kɛs kə ty fɛ dɑ̃ la vi/"
+      },
+      {
+        "text": "C'était vraiment sympa de te rencontrer ce soir!",
+        "translation": "¡De verdad fue muy agradable conocerte esta noche!",
+        "phonetic": "/setɛ vʁɛmɑ̃ sɛ̃pa də tə ʁɑ̃kɔ̃tʁe sə swaʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis venu avec mon ami Marc.",
+      "correct": "Je suis venu avec mon ami Marc.",
+      "correct_alt": "Je suis venue avec mon amie Lucie.",
+      "explanation": "El participio pasado 'venu' concuerda en género con el sujeto: un hombre dice 'je suis venu', una mujer dice 'je suis venue'. Este error de concordancia de género es muy frecuente en hispanohablantes porque en español el participio no cambia con 'he venido'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Se présenter à quelqu'un",
+        "translation": "Presentarse a alguien",
+        "examples": [
+          {
+            "original": "Salut! Je m'appelle Marcos. Et toi?",
+            "phonetic": "/saly! ʒə mapɛl maʁkos. e twa/",
+            "translation": "¡Hola! Me llamo Marcos. ¿Y tú?",
+            "note": "En una fiesta informal se usa 'tu' automáticamente. 'Et toi?' es la forma más natural de devolver la pregunta."
+          },
+          {
+            "original": "Moi c'est Clara. Tu es ami de Thomas?",
+            "phonetic": "/mwa sɛ klaʁa. ty ɛ ami də tɔma/",
+            "translation": "Yo soy Clara. ¿Eres amigo de Thomas?",
+            "note": "'Moi c'est...' es una presentación muy coloquial y natural. Preguntar por el anfitrión común es el arranque de conversación más típico en fiestas."
+          },
+          {
+            "original": "Oui, on se connaît depuis la fac. Et toi, comment tu le connais?",
+            "phonetic": "/wi, ɔ̃ sə kɔnɛ dəpɥi la fak. e twa, kɔmɑ̃ ty lə kɔnɛ/",
+            "translation": "Sí, nos conocemos desde la universidad. ¿Y tú, cómo lo conoces?",
+            "note": "'La fac' es la forma abreviada e informal de 'la faculté' (la universidad). Devolver la pregunta mantiene viva la conversación."
+          },
+          {
+            "original": "On travaille ensemble. C'est une super fête, non?",
+            "phonetic": "/ɔ̃ tʁavaj ɑ̃sɑ̃bl. sɛ tyn sypɛʁ fɛt, nɔ̃/",
+            "translation": "Trabajamos juntos. ¡Es una fiesta genial, ¿verdad?",
+            "note": "'Non?' al final de una frase funciona igual que '¿verdad?' en español: busca confirmación o complicidad."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Parler de soi et s'intéresser à l'autre",
+        "translation": "Hablar de uno mismo e interesarse por el otro",
+        "examples": [
+          {
+            "original": "Qu'est-ce que tu fais dans la vie?",
+            "phonetic": "/kɛs kə ty fɛ dɑ̃ la vi/",
+            "translation": "¿A qué te dedicas?",
+            "note": "'Qu'est-ce que tu fais dans la vie?' es LA pregunta social francesa por excelencia. Equivale a '¿en qué trabajas?' pero con un tono más amplio."
+          },
+          {
+            "original": "Je suis graphiste, je travaille en freelance. Et toi?",
+            "phonetic": "/ʒə sɥi ɡʁafist, ʒə tʁavaj ɑ̃ fʁilɑ̃s. e twa/",
+            "translation": "Soy diseñador gráfico, trabajo como autónomo. ¿Y tú?",
+            "note": "'Graphiste' es diseñador gráfico. 'En freelance' se pronuncia igual que en inglés y es de uso corriente en francés."
+          },
+          {
+            "original": "Moi je suis prof de maths dans un lycée à Lyon. Tu habites Paris?",
+            "phonetic": "/mwa ʒə sɥi pʁɔf də mat dɑ̃z œ̃ lise a ljɔ̃. ty abit paʁi/",
+            "translation": "Yo soy profesor de matemáticas en un instituto en Lyon. ¿Vives en París?",
+            "note": "'Prof' es la abreviación coloquial de 'professeur'. 'Lycée' es el instituto de secundaria (equivalente al bachillerato)."
+          },
+          {
+            "original": "Non, je suis de Barcelone mais je vis à Paris depuis deux ans. Tu aimes la vie ici?",
+            "phonetic": "/nɔ̃, ʒə sɥi də baʁsɛlɔn mɛ ʒə vi a paʁi dəpɥi dø ɑ̃. ty ɛm la vi isi/",
+            "translation": "No, soy de Barcelona pero vivo en París desde hace dos años. ¿Te gusta la vida aquí?",
+            "note": "'Je suis de...' para el origen, 'je vis à...' para la residencia actual. Son dos estructuras distintas que conviene dominar."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Se congédier poliment",
+        "translation": "Despedirse cortésmente",
+        "examples": [
+          {
+            "original": "Bon, je crois que je vais y aller, il se fait tard. C'était vraiment sympa de parler avec toi!",
+            "phonetic": "/bɔ̃, ʒə kʁwa kə ʒə ve i ale, il sə fɛ taʁ. setɛ vʁɛmɑ̃ sɛ̃pa də paʁle avɛk twa/",
+            "translation": "Bueno, creo que me voy, se está haciendo tarde. ¡De verdad fue muy agradable hablar contigo!",
+            "note": "'Je vais y aller' es la fórmula más natural para anunciar la despedida. 'Il se fait tard' = 'se está haciendo tarde'."
+          },
+          {
+            "original": "Moi aussi! On devrait se revoir. Tu es sur les réseaux?",
+            "phonetic": "/mwa osi! ɔ̃ dəvʁɛ sə ʁəvwaʁ. ty ɛ syʁ le ʁezo/",
+            "translation": "¡Yo también! Deberíamos volver a vernos. ¿Estás en las redes?",
+            "note": "'On devrait + infinitif' (el condicional de 'devoir') expresa una sugerencia amable. 'Les réseaux' es la abreviación de 'réseaux sociaux' (redes sociales)."
+          },
+          {
+            "original": "Oui, je suis sur Instagram. Je te donne mon pseudo: @marcos_bcn.",
+            "phonetic": "/wi, ʒə sɥi syʁ ɛ̃staɡʁam. ʒə tə dɔn mɔ̃ psødo: arobase maʁkos be se en/",
+            "translation": "Sí, estoy en Instagram. Te doy mi usuario: @marcos_bcn.",
+            "note": "'Pseudo' (apodo/usuario) es el término francés para el nombre de usuario en redes. 'Arobase' es como se llama el símbolo @."
+          },
+          {
+            "original": "Super! Bonne soirée et à bientôt j'espère!",
+            "phonetic": "/sypɛʁ! bɔn swaʁe e a bjɛ̃to ʒɛspɛʁ/",
+            "translation": "¡Genial! ¡Que pases buena noche y hasta pronto espero!",
+            "note": "'Bonne soirée' es la despedida estándar por la noche. 'À bientôt j'espère' añade un matiz de esperanza de reencuentro, muy cortés."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎉",
+    "phonetic": "/a yn fɛt u evenmɑ̃ sɔsjal/",
+    "translations": {
+      "es": "En una fiesta o evento social"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "es_A2_conv_08",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Se plaindre et s'excuser",
+    "bridge": "En Francia, quejarse tiene sus códigos: los franceses no dudan en reclamar cuando algo no está bien, pero siempre con cierta formalidad y sin perder los nervios (en teoría). El término clave es 'se plaindre' (quejarse) y 'porter réclamation' (presentar una queja formal). Disculparse también tiene sus matices: 'excusez-moi' se usa para disculpas leves, mientras que 'je suis vraiment désolé(e)' expresa un arrepentimiento más sincero. En comercios y con vecinos el tono cordial es esencial.",
+    "rule": "Frases clave: 'Je voudrais me plaindre de...' (Quisiera quejarme de...), 'Ce n'est pas acceptable' (Esto no es aceptable), 'Je suis vraiment désolé(e)' (Lo siento de verdad), 'Ce n'est pas de ma faute' (No es culpa mía), 'Pourriez-vous régler ce problème?' (¿Podría solucionar este problema?), 'Je vous présente mes excuses' (Le presento mis disculpas)",
+    "concept_examples": [
+      {
+        "text": "Je voudrais me plaindre: le produit que j'ai acheté est défectueux.",
+        "translation": "Quisiera quejarme: el producto que compré es defectuoso.",
+        "phonetic": "/ʒə vudʁɛ mə plɛ̃dʁ: lə pʁɔdɥi kə ʒe aʃte ɛ defɛktɥø/"
+      },
+      {
+        "text": "Je suis vraiment désolé pour ce désagrément.",
+        "translation": "Lo siento de verdad por este inconveniente.",
+        "phonetic": "/ʒə sɥi vʁɛmɑ̃ dezɔle puʁ sə dezaɡʁemɑ̃/"
+      },
+      {
+        "text": "Pourriez-vous faire quelque chose pour résoudre ce problème?",
+        "translation": "¿Podría hacer algo para resolver este problema?",
+        "phonetic": "/puʁje vu fɛʁ kɛlkə ʃoz puʁ ʁezudʁ sə pʁɔblɛm/"
+      }
+    ],
+    "common_error": {
+      "wrong": "C'est votre erreur.",
+      "correct": "Il y a eu une erreur de votre côté.",
+      "correct_alt": "Je pense qu'il y a eu un malentendu.",
+      "explanation": "Decir 'c'est votre erreur' (es su error) de forma directa resulta demasiado agresivo en francés y puede provocar una reacción defensiva. Es mucho más efectivo y cortés usar expresiones impersonales como 'il y a eu une erreur de votre côté' (ha habido un error de su parte) o sugerir un malentendido con 'malentendu'. Los franceses valoran la confrontación indirecta y civilizada."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Plainte dans un commerce",
+        "translation": "Queja en una tienda",
+        "examples": [
+          {
+            "original": "Excusez-moi, j'ai un problème avec cet article que j'ai acheté hier.",
+            "phonetic": "/ɛkskyze mwa, ʒe œ̃ pʁɔblɛm avɛk sɛ taʁtikl kə ʒe aʃte jɛʁ/",
+            "translation": "Perdone, tengo un problema con este artículo que compré ayer.",
+            "note": "'Excusez-moi' al inicio suaviza la queja y la hace más receptiva. Siempre es mejor empezar con cortesía."
+          },
+          {
+            "original": "Qu'est-ce qui ne va pas?",
+            "phonetic": "/kɛs ki nə va pa/",
+            "translation": "¿Qué es lo que no va bien?",
+            "note": "'Qu'est-ce qui ne va pas?' es la pregunta estándar del dependiente para invitar a explicar el problema."
+          },
+          {
+            "original": "L'appareil ne fonctionne pas correctement. Il s'arrête tout seul après cinq minutes.",
+            "phonetic": "/lapaʁɛj nə fɔ̃ksjɔn pa kɔʁɛktəmɑ̃. il saʁɛt tu sœl apʁɛ sɛ̃k minyt/",
+            "translation": "El aparato no funciona correctamente. Se apaga solo después de cinco minutos.",
+            "note": "'S'arrêter tout seul' (apagarse/detenerse solo) es la expresión para describir un mal funcionamiento espontáneo."
+          },
+          {
+            "original": "Je comprends. Avez-vous votre ticket de caisse? Nous allons vous l'échanger.",
+            "phonetic": "/ʒə kɔ̃pʁɑ̃. ave vu vɔtʁ tikɛ də kɛs? nu zalɔ̃ vu leʃɑ̃ʒe/",
+            "translation": "Entiendo. ¿Tiene su tique de caja? Se lo vamos a cambiar.",
+            "note": "'Ticket de caisse' es el recibo o tique de compra. 'Échanger' significa cambiar (el producto por otro)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Problème avec un voisin",
+        "translation": "Problema con un vecino",
+        "examples": [
+          {
+            "original": "Bonjour voisin. Je suis désolé de vous déranger, mais j'ai un problème à vous signaler.",
+            "phonetic": "/bɔ̃ʒuʁ vwazɛ̃. ʒə sɥi dezɔle də vu deʁɑ̃ʒe, mɛ ʒe œ̃ pʁɔblɛm a vu siɲale/",
+            "translation": "Buenos días vecino. Siento molestarle, pero tengo un problema que comunicarle.",
+            "note": "'Je suis désolé de vous déranger' (siento molestarle) es la apertura perfecta para abordar un conflicto vecinal con tacto."
+          },
+          {
+            "original": "Bien sûr, dites-moi. Qu'est-ce qui se passe?",
+            "phonetic": "/bjɛ̃ syʁ, dit mwa. kɛs ki sə pas/",
+            "translation": "Por supuesto, dígame. ¿Qué pasa?",
+            "note": "'Dites-moi' (dígame) es una invitación amable a hablar. 'Qu'est-ce qui se passe?' es '¿Qué está pasando?'."
+          },
+          {
+            "original": "La musique chez vous est très forte le soir et cela m'empêche de dormir. Pourriez-vous baisser le volume après 22 heures?",
+            "phonetic": "/la myzik ʃe vu ɛ tʁɛ fɔʁt lə swaʁ e səla mɑ̃pɛʃ də dɔʁmiʁ. puʁje vu bɛse lə vɔlym apʁɛ vɛ̃t dø œʁ/",
+            "translation": "La música en su casa es muy alta por las noches y eso me impide dormir. ¿Podría bajar el volumen después de las 22 horas?",
+            "note": "'M'empêcher de + infinitif' = 'impedirme + infinitivo'. 'Baisser le volume' es bajar el volumen. La hora legal de silencio en Francia suele ser las 22h."
+          },
+          {
+            "original": "Oh, je ne savais pas que ça vous dérangeait. Je suis vraiment désolé, je ferai attention à l'avenir.",
+            "phonetic": "/o, ʒə nə savɛ pa kə sa vu deʁɑ̃ʒɛ. ʒə sɥi vʁɛmɑ̃ dezɔle, ʒə fəʁɛ atɑ̃sjɔ̃ a lavniʁ/",
+            "translation": "Oh, no sabía que le molestaba. Lo siento de verdad, tendré más cuidado en el futuro.",
+            "note": "'Je ne savais pas' (no sabía) en imperfecto para explicar el desconocimiento previo. 'À l'avenir' = 'en el futuro / de ahora en adelante'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Réclamation formelle et excuses sincères",
+        "translation": "Reclamación formal y disculpas sinceras",
+        "examples": [
+          {
+            "original": "Je dois vous informer que j'ai reçu ma commande avec deux semaines de retard et plusieurs articles manquants.",
+            "phonetic": "/ʒə dwa vu ɛ̃fɔʁme kə ʒe ʁəsy ma kɔmɑ̃d avɛk dø səmɛn də ʁətaʁ e plyzjœʁ zaʁtikl mɑ̃kɑ̃/",
+            "translation": "Debo informarle que recibí mi pedido con dos semanas de retraso y varios artículos faltantes.",
+            "note": "'Je dois vous informer que...' es el arranque formal para una reclamación escrita o telefónica. 'Articles manquants' = artículos que faltan."
+          },
+          {
+            "original": "Je vous présente toutes nos excuses pour ce désagrément. Cela n'aurait pas dû se produire.",
+            "phonetic": "/ʒə vu pʁezɑ̃t tut no zɛkskyze puʁ sə dezaɡʁemɑ̃. səla noʁɛ pa dy sə pʁɔdɥiʁ/",
+            "translation": "Le presento nuestras más sinceras disculpas por este inconveniente. Esto no debería haber ocurrido.",
+            "note": "'Cela n'aurait pas dû se produire' usa el condicional pasado para expresar que algo no debería haber sucedido. Es la fórmula de disculpa empresarial más estándar."
+          },
+          {
+            "original": "Je souhaite un remboursement complet ou l'envoi des articles manquants dans les plus brefs délais.",
+            "phonetic": "/ʒə swɛt œ̃ ʁɑ̃buʁsmɑ̃ kɔ̃plɛ u lɑ̃vwa de zaʁtikl mɑ̃kɑ̃ dɑ̃ le ply bʁɛf delɛ/",
+            "translation": "Deseo un reembolso completo o el envío de los artículos faltantes a la mayor brevedad posible.",
+            "note": "'Dans les plus brefs délais' (a la mayor brevedad posible) es la expresión formal estándar para exigir rapidez en una resolución."
+          },
+          {
+            "original": "Nous allons traiter votre dossier en priorité et vous contacter sous 48 heures. Encore une fois, toutes nos excuses.",
+            "phonetic": "/nu zalɔ̃ tʁɛte vɔtʁ dɔsje ɑ̃ pʁjɔʁite e vu kɔ̃takte su kaʁɑ̃t ɥit œʁ. ɑ̃kɔʁ yn fwa, tut no zɛkskyze/",
+            "translation": "Vamos a tramitar su expediente de forma prioritaria y nos pondremos en contacto con usted en 48 horas. Una vez más, nuestras disculpas.",
+            "note": "'Traiter un dossier' = tramitar un expediente. 'Sous 48 heures' = en un plazo de 48 horas (diferente de 'dans 48 heures' = dentro de 48 horas exactas)."
+          }
+        ]
+      }
+    ],
+    "emoji": "😤",
+    "phonetic": "/sə plɛ̃dʁ e sɛkskyze/",
+    "translations": {
+      "es": "Quejarse y disculparse"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "es_A2_conv_09",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Décrire sa ville ou son village",
+    "bridge": "Describir tu ciudad o pueblo en francés implica manejar vocabulario de ubicación, características geográficas y sociales, y saber expresar tanto lo positivo como lo que falta. En francés hay una distinción clara entre 'ville' (ciudad) y 'village' (pueblo), y entre 'quartier' (barrio) y 'banlieue' (suburbio o periferia). Los franceses también usan mucho 'il y a' (hay) y 'il manque' (falta) para describir los servicios de un lugar.",
+    "rule": "Frases clave: 'Ma ville se trouve...' (Mi ciudad se encuentra...), 'C'est une ville/un village de [X] habitants' (Es una ciudad/pueblo de [X] habitantes), 'Il y a...' (Hay...), 'Il n'y a pas de...' (No hay...), 'Ce que j'aime, c'est...' (Lo que me gusta es...), 'Ce qui manque, c'est...' (Lo que falta es...), 'C'est calme/animé/moderne/historique' (Es tranquilo/animado/moderno/histórico)",
+    "concept_examples": [
+      {
+        "text": "Ma ville se trouve dans le sud de l'Espagne, près de la mer.",
+        "translation": "Mi ciudad se encuentra en el sur de España, cerca del mar.",
+        "phonetic": "/ma vil sə tʁuv dɑ̃ lə syd də lɛspaɲ, pʁɛ də la mɛʁ/"
+      },
+      {
+        "text": "C'est une ville de cent mille habitants, ni trop grande ni trop petite.",
+        "translation": "Es una ciudad de cien mil habitantes, ni demasiado grande ni demasiado pequeña.",
+        "phonetic": "/sɛ tyn vil də sɑ̃ mil abitɑ̃, ni tʁo ɡʁɑ̃d ni tʁo pətit/"
+      },
+      {
+        "text": "Ce qui manque, c'est un bon réseau de transports en commun.",
+        "translation": "Lo que falta es una buena red de transporte público.",
+        "phonetic": "/sə ki mɑ̃k, sɛ œ̃ bɔ̃ ʁezo də tʁɑ̃spɔʁ ɑ̃ kɔmœ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ma ville est situé au nord.",
+      "correct": "Ma ville est située au nord.",
+      "correct_alt": "Ma ville se trouve au nord.",
+      "explanation": "'Situé' es un adjetivo participio que concuerda con el sustantivo: 'ville' es femenino, así que la forma correcta es 'située'. Una alternativa más sencilla es usar el verbo pronominal 'se trouver' (encontrarse), que no requiere concordancia de género y es igual de natural: 'ma ville se trouve au nord'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Présenter sa ville",
+        "translation": "Presentar tu ciudad",
+        "examples": [
+          {
+            "original": "D'où viens-tu? Tu peux me parler de ta ville?",
+            "phonetic": "/du vjɛ̃ ty? ty pø mə paʁle də ta vil/",
+            "translation": "¿De dónde eres? ¿Puedes hablarme de tu ciudad?",
+            "note": "'D'où viens-tu?' es la pregunta estándar sobre el origen. 'Tu peux me parler de...?' invita a describir con libertad."
+          },
+          {
+            "original": "Je viens de Séville, une grande ville du sud de l'Espagne. Elle est connue pour sa cathédrale et son ambiance festive.",
+            "phonetic": "/ʒə vjɛ̃ də sevij, yn ɡʁɑ̃d vil dy syd də lɛspaɲ. ɛl ɛ kɔny puʁ sa katedral e sɔ̃n ɑ̃bjɑ̃s fɛstiv/",
+            "translation": "Soy de Sevilla, una gran ciudad del sur de España. Es conocida por su catedral y su ambiente festivo.",
+            "note": "'Elle est connue pour...' (es conocida por...) es la estructura perfecta para destacar los elementos más representativos de un lugar."
+          },
+          {
+            "original": "C'est grand comme ville?",
+            "phonetic": "/sɛ ɡʁɑ̃ kɔm vil/",
+            "translation": "¿Es grande como ciudad?",
+            "note": "'C'est grand comme ville?' es una pregunta coloquial y natural. Equivale a '¿Es una ciudad grande?'."
+          },
+          {
+            "original": "Oui, c'est la quatrième ville d'Espagne, avec environ 700 000 habitants.",
+            "phonetic": "/wi, sɛ la katʁjɛm vil dɛspaɲ, avɛk ɑ̃viʁɔ̃ sɛt sɑ̃ mil abitɑ̃/",
+            "translation": "Sí, es la cuarta ciudad de España, con alrededor de 700 000 habitantes.",
+            "note": "'Environ' (alrededor de / aproximadamente) es el equivalente francés de 'unos/unas' para cantidades aproximadas."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Décrire les caractéristiques",
+        "translation": "Describir las características",
+        "examples": [
+          {
+            "original": "Qu'est-ce qu'il y a à faire dans ta ville?",
+            "phonetic": "/kɛs kil i a a fɛʁ dɑ̃ ta vil/",
+            "translation": "¿Qué se puede hacer en tu ciudad?",
+            "note": "'Qu'est-ce qu'il y a à faire?' (¿Qué hay que hacer / qué se puede hacer?) es la pregunta más natural para preguntar por el ocio y las actividades de un lugar."
+          },
+          {
+            "original": "Il y a beaucoup de choses! Des musées, des parcs, de vieux quartiers historiques et une vie nocturne très animée.",
+            "phonetic": "/il i a boku də ʃoz! de myze, de paʁk, də vjø kaʁtje istɔʁik e yn vi nɔktɥʁn tʁɛ zanime/",
+            "translation": "¡Hay muchas cosas! Museos, parques, barrios históricos antiguos y una vida nocturna muy animada.",
+            "note": "'Vie nocturne' (vida nocturna). 'Animé(e)' es un adjetivo muy útil que significa animado/lleno de vida, lo contrario de 'calme'."
+          },
+          {
+            "original": "Et le climat, c'est comment?",
+            "phonetic": "/e lə klima, sɛ kɔmɑ̃/",
+            "translation": "¿Y el clima, cómo es?",
+            "note": "'C'est comment?' es la pregunta coloquial para pedir una descripción general. Más informal que '¿Cómo es?'."
+          },
+          {
+            "original": "Il fait très chaud en été, parfois plus de 40 degrés. En hiver, il fait doux, rarement froid.",
+            "phonetic": "/il fɛ tʁɛ ʃo ɑ̃n ete, paʁfwa ply də kaʁɑ̃t dəɡʁe. ɑ̃n ivɛʁ, il fɛ du, ʁaʁəmɑ̃ fʁwa/",
+            "translation": "Hace mucho calor en verano, a veces más de 40 grados. En invierno hace templado, raramente frío.",
+            "note": "'Il fait doux' (hace templado / suave). 'Rarement' (raramente / pocas veces). Las expresiones de clima usan siempre 'il fait + adjetivo'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Points positifs et ce qui manque",
+        "translation": "Puntos positivos y lo que falta",
+        "examples": [
+          {
+            "original": "Qu'est-ce que tu aimes le plus dans ta ville? Et qu'est-ce qui pourrait être amélioré?",
+            "phonetic": "/kɛs kə ty ɛm lə ply dɑ̃ ta vil? e kɛs ki puʁɛ ɛtʁ ameljoʁe/",
+            "translation": "¿Qué es lo que más te gusta de tu ciudad? ¿Y qué podría mejorarse?",
+            "note": "'Ce qui pourrait être amélioré' usa el condicional para preguntar sobre posibles mejoras de forma suavizada y no crítica."
+          },
+          {
+            "original": "Ce que j'aime le plus, c'est l'atmosphère: les gens sont chaleureux et il y a toujours quelque chose à faire.",
+            "phonetic": "/sə kə ʒɛm lə ply, sɛ latmɔsfɛʁ: le ʒɑ̃ sɔ̃ ʃaløʁø e il i a tuʒuʁ kɛlkə ʃoz a fɛʁ/",
+            "translation": "Lo que más me gusta es el ambiente: la gente es cálida y siempre hay algo que hacer.",
+            "note": "'Ce que j'aime le plus, c'est...' es la estructura para destacar lo que más valoras. 'Chaleureux' (cálido/acogedor) para describir a las personas."
+          },
+          {
+            "original": "Par contre, ce qui manque vraiment, c'est un bon réseau de transports en commun. On est trop dépendant de la voiture.",
+            "phonetic": "/paʁ kɔ̃tʁ, sə ki mɑ̃k vʁɛmɑ̃, sɛ œ̃ bɔ̃ ʁezo də tʁɑ̃spɔʁ ɑ̃ kɔmœ̃. ɔ̃n ɛ tʁo depɑ̃dɑ̃ də la vwatyʁ/",
+            "translation": "En cambio, lo que de verdad falta es una buena red de transporte público. Dependemos demasiado del coche.",
+            "note": "'Par contre' es el conector para introducir el contraste (equivalente a 'en cambio / sin embargo'). 'Ce qui manque' = lo que falta."
+          },
+          {
+            "original": "C'est un problème fréquent dans beaucoup de villes espagnoles. Mais malgré ça, tu y retournerais vivre?",
+            "phonetic": "/sɛ œ̃ pʁɔblɛm fʁekɑ̃ dɑ̃ boku də vil ɛspaɲɔl. mɛ malɡʁe sa, ty i ʁətuʁnəʁɛ vivʁ/",
+            "translation": "Es un problema frecuente en muchas ciudades españolas. Pero a pesar de eso, ¿volverías a vivir allí?",
+            "note": "'Malgré ça' (a pesar de eso) es el conector de concesión. 'Tu y retournerais' usa el condicional de 'retourner' con 'y' (pronombre de lugar = allí)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏙️",
+    "phonetic": "/dekʁiʁ sa vil u sɔ̃ vilaʒ/",
+    "translations": {
+      "es": "Describir tu ciudad o pueblo"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "es_A2_conv_10",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Parler de ses loisirs",
+    "bridge": "Hablar de aficiones en francés requiere algunos giros que no existen en español. Se usa 'faire du/de la/de l'' para la mayoría de deportes y actividades ('faire du tennis', 'faire de la natation'), pero 'jouer à' para los juegos y deportes de equipo ('jouer au foot', 'jouer aux échecs'). Para expresar frecuencia, los adverbios van colocados después del verbo principal, no al inicio como a veces hacemos en español. Invitar a alguien a unirse requiere el condicional: 'tu voudrais venir?' suena mucho más natural que 'tu veux venir?'.",
+    "rule": "Estructuras clave: 'Je fais du/de la...' (practico...), 'Je joue à...' (juego a...), 'J'aime + infinitif' (me gusta...), 'Je vais au cinéma / au musée' (voy al cine / al museo). Frecuencia: 'tous les jours' (cada día), 'une fois par semaine' (una vez a la semana), 'de temps en temps' (de vez en cuando), 'rarement' (raramente). Invitar: 'Tu voudrais venir avec moi?' (¿Te gustaría venir conmigo?), 'Ça te dit de...?' (¿Te apetece...?), 'On pourrait y aller ensemble' (Podríamos ir juntos).",
+    "concept_examples": [
+      {
+        "text": "Je fais du vélo tous les week-ends.",
+        "translation": "Voy en bici todos los fines de semana.",
+        "phonetic": "/ʒə fɛ dy velo tu le wik ɛnd/"
+      },
+      {
+        "text": "Ça te dit d'aller au musée samedi?",
+        "translation": "¿Te apetece ir al museo el sábado?",
+        "phonetic": "/sa tə di dale o myze samdi/"
+      },
+      {
+        "text": "Je joue au foot une fois par semaine avec des collègues.",
+        "translation": "Juego al fútbol una vez a la semana con compañeros.",
+        "phonetic": "/ʒə ʒu o fut yn fwa paʁ səmɛn avɛk de kɔlɛɡ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je fais du foot avec mes amis.",
+      "correct": "Je joue au foot avec mes amis.",
+      "correct_alt": "Je fais de la natation / Je joue au tennis.",
+      "explanation": "En francés hay que distinguir dos verbos según la actividad: 'jouer à' se usa para deportes de equipo y juegos que tienen un adversario o reglas de juego directas (foot, tennis, basket, échecs). 'Faire du/de la' se usa para actividades individuales, deportes de movimiento o actividades culturales (natation, vélo, yoga, peinture). Decir 'faire du foot' es un error frecuente entre hispanohablantes."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Activités du week-end",
+        "translation": "Actividades del fin de semana",
+        "examples": [
+          {
+            "original": "Qu'est-ce que tu fais pendant ton temps libre?",
+            "phonetic": "/kɛs kə ty fɛ pɑ̃dɑ̃ tɔ̃ tɑ̃ libʁ/",
+            "translation": "¿Qué haces en tu tiempo libre?",
+            "note": "'Temps libre' (tiempo libre) es la expresión natural. 'Pendant' aquí equivale a 'durante' o 'en'."
+          },
+          {
+            "original": "J'aime beaucoup lire et écouter de la musique. Et le week-end, je fais du sport.",
+            "phonetic": "/ʒɛm boku liʁ e ekute də la myzik. e lə wik ɛnd, ʒə fɛ dy spɔʁ/",
+            "translation": "Me gusta mucho leer y escuchar música. Y el fin de semana, hago deporte.",
+            "note": "'J'aime + infinitif' es la estructura básica para hablar de gustos. 'Faire du sport' es la expresión general para 'hacer deporte'."
+          },
+          {
+            "original": "Tu pratiques quel sport?",
+            "phonetic": "/ty pʁatik kɛl spɔʁ/",
+            "translation": "¿Qué deporte practicas?",
+            "note": "'Pratiquer un sport' es el verbo formal para practicar deporte. En conversación informal también se dice 'tu fais quel sport?'."
+          },
+          {
+            "original": "Je joue au basket deux fois par semaine et je fais de la natation le dimanche.",
+            "phonetic": "/ʒə ʒu o baskɛt dø fwa paʁ səmɛn e ʒə fɛ də la natasjɔ̃ lə dimɑ̃ʃ/",
+            "translation": "Juego al baloncesto dos veces a la semana y nado los domingos.",
+            "note": "Observa la diferencia: 'jouer au basket' (deporte de equipo) vs. 'faire de la natation' (actividad individual). Esta distinción es fundamental en francés."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Activités culturelles et fréquence",
+        "translation": "Actividades culturales y frecuencia",
+        "examples": [
+          {
+            "original": "Est-ce que tu t'intéresses à l'art ou à la culture?",
+            "phonetic": "/ɛs kə ty tɛ̃teʁɛs a laʁ u a la kyltʁyʁ/",
+            "translation": "¿Te interesas por el arte o la cultura?",
+            "note": "'S'intéresser à' (interesarse por) es un verbo pronominal. La preposición es 'à', no 'por' como en español, así que hay que memorizarla."
+          },
+          {
+            "original": "Oui, je vais souvent au cinéma, environ deux fois par mois. Et toi?",
+            "phonetic": "/wi, ʒə ve suvɑ̃ o sinema, ɑ̃viʁɔ̃ dø fwa paʁ mwa. e twa/",
+            "translation": "Sí, voy al cine a menudo, unas dos veces al mes. ¿Y tú?",
+            "note": "'Souvent' (a menudo) va siempre detrás del verbo conjugado. 'Environ' (aproximadamente / unas) suaviza la cifra."
+          },
+          {
+            "original": "Moi, je préfère les expositions. Je vais au musée de temps en temps, surtout le week-end.",
+            "phonetic": "/mwa, ʒə pʁefɛʁ le ɛkspɔzisjɔ̃. ʒə ve o myze də tɑ̃z ɑ̃ tɑ̃, syʁtu lə wik ɛnd/",
+            "translation": "Yo prefiero las exposiciones. Voy al museo de vez en cuando, sobre todo el fin de semana.",
+            "note": "'De temps en temps' (de vez en cuando) es una locución adverbial fija. 'Surtout' (sobre todo / especialmente) introduce la precisión."
+          },
+          {
+            "original": "Il y a un concert de jazz ce samedi. Tu aimes ce genre de musique?",
+            "phonetic": "/il i a œ̃ kɔ̃sɛʁ də dʒaz sə samdi. ty ɛm sə ʒɑ̃ʁ də myzik/",
+            "translation": "Hay un concierto de jazz este sábado. ¿Te gusta ese tipo de música?",
+            "note": "'Ce genre de' (este tipo de) es muy útil para categorizar. En francés 'jazz' es masculino: 'le jazz'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Inviter quelqu'un à une activité",
+        "translation": "Invitar a alguien a una actividad",
+        "examples": [
+          {
+            "original": "Dis, ça te dirait d'aller voir ce film avec moi vendredi soir?",
+            "phonetic": "/di, sa tə diʁɛ dale vwaʁ sə film avɛk mwa vɑ̃dʁədi swaʁ/",
+            "translation": "Oye, ¿te apetecería ir a ver esa película conmigo el viernes por la noche?",
+            "note": "'Ça te dirait de + infinitif?' (condicional) es la forma más natural y suave de proponer una actividad. Más cortés que 'tu veux?'."
+          },
+          {
+            "original": "Oh, avec plaisir! C'est quel film? Je ne suis pas très au courant des sorties en ce moment.",
+            "phonetic": "/o, avɛk plɛziʁ! sɛ kɛl film? ʒə nə sɥi pa tʁɛz o kuʁɑ̃ de sɔʁti ɑ̃ sə mɔmɑ̃/",
+            "translation": "¡Oh, con mucho gusto! ¿Qué película es? No estoy muy al día de los estrenos en este momento.",
+            "note": "'Avec plaisir' (con mucho gusto) es la aceptación entusiasta estándar. 'Être au courant de' (estar al tanto / al día de) es una expresión muy frecuente."
+          },
+          {
+            "original": "C'est le nouveau film de Cédric Klapisch. On dit que c'est excellent. La séance est à 20h, ça te convient?",
+            "phonetic": "/sɛ lə nuvo film də sedʁik klapiʃ. ɔ̃ di kə sɛt ɛksɛlɑ̃. la seɑ̃s ɛ a vɛ̃t œʁ, sa tə kɔ̃vjɛ̃/",
+            "translation": "Es la nueva película de Cédric Klapisch. Dicen que es excelente. La sesión es a las 20h, ¿te viene bien?",
+            "note": "'On dit que' (dicen que / se dice que) es el equivalente francés del 'dicen' impersonal. 'Séance' es la sesión de cine. 'Ça te convient?' confirma si el horario va bien."
+          },
+          {
+            "original": "Parfait, ça me convient! On se retrouve devant le cinéma un quart d'heure avant?",
+            "phonetic": "/paʁfɛ, sa mə kɔ̃vjɛ̃! ɔ̃ sə ʁətʁuv dəvɑ̃ lə sinema œ̃ kaʁ dœʁ avɑ̃/",
+            "translation": "¡Perfecto, me viene bien! ¿Quedamos delante del cine un cuarto de hora antes?",
+            "note": "'On se retrouve' (quedamos / nos encontramos) es la forma natural de quedar en francés. 'Un quart d'heure' (un cuarto de hora). 'Devant' (delante de) indica el punto de encuentro."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "/paʁle də se lwazin/",
+    "translations": {
+      "es": "Hablar de aficiones y tiempo libre"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "es_A2_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Chez le médecin / En el médico",
+    "bridge": "En español decimos \"tengo dolor de cabeza\" usando el verbo tener, pero en francés se usa el verbo avoir (tener) de forma similar: \"j'ai mal à la tête\". Sin embargo, hay que tener cuidado con la preposición: en español decimos \"dolor de\" + parte del cuerpo, mientras que en francés se usa \"mal à\" + artículo definido (la, le, les). Además, para expresar sensaciones como \"tengo frío\" o \"tengo calor\", el francés también usa avoir, pero no se usa artículo: \"j'ai froid\", \"j'ai chaud\". Otra diferencia importante: para decir \"me duele\", en francés se usa \"avoir mal à\" + parte del cuerpo, y el verbo avoir se conjuga con el sujeto, no con la parte del cuerpo: \"j'ai mal à la tête\" (me duele la cabeza), no \"la tête a mal\".",
+    "rule": "Para expresar síntomas y sensaciones en francés a nivel A2, se usa principalmente el verbo avoir (tener) y la estructura \"avoir mal à\" + artículo definido + parte del cuerpo. Ejemplos: j'ai mal à la tête (me duele la cabeza), j'ai mal au ventre (me duele el estómago), j'ai mal aux dents (me duelen los dientes). Nota: con las partes del cuerpo que son masculinas se usa \"au\" (à + le), con las femeninas \"à la\", y con plurales \"aux\" (à + les). También se usa avoir para sensaciones: j'ai froid (tengo frío), j'ai chaud (tengo calor), j'ai faim (tengo hambre), j'ai soif (tengo sed). Para hablar de enfermedades, se usa \"être\" + adjetivo o \"avoir\" + nombre: je suis malade (estoy enfermo), j'ai la grippe (tengo gripe), j'ai un rhume (tengo un resfriado). Para expresar la frecuencia de un síntoma, se usan adverbios como souvent (a menudo), parfois (a veces), toujours (siempre). También es común usar \"ça fait\" + tiempo para decir cuánto tiempo lleva con un síntoma: ça fait deux jours que j'ai mal à la tête (llevo dos días con dolor de cabeza). Recuerda que el verbo \"sentir\" (sentirse) se usa con pronombres reflexivos: je me sens fatigué (me siento cansado), mais attention: \"je sens\" sin pronombre significa \"huelo\".",
+    "concept_examples": [
+      {
+        "text": "J'ai mal à la tête.",
+        "translation": "Me duele la cabeza.",
+        "phonetic": "/ʒɛ mal a la tɛt/"
+      },
+      {
+        "text": "J'ai de la fièvre.",
+        "translation": "Tengo fiebre.",
+        "phonetic": "/ʒɛ də la fjɛvʁ/"
+      },
+      {
+        "text": "Je suis enrhumé.",
+        "translation": "Estoy resfriado.",
+        "phonetic": "/ʒə sɥi.z‿ɑ̃.ʁy.me/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis froid.",
+      "correct": "J'ai froid.",
+      "correct_alt": "",
+      "explanation": "Los hispanohablantes tienden a decir \"je suis froid\" porque en español decimos \"estoy frío\" o \"tengo frío\" con el verbo estar. Pero en francés, para sensaciones corporales como frío, calor, hambre, sed, se usa siempre el verbo avoir (tener). \"Je suis froid\" significaría que la persona es fría (emocionalmente) o que su cuerpo está frío al tacto, no que siente frío. Para evitar este error, recuerda asociar cada sensación con avoir: j'ai froid, j'ai chaud, j'ai faim, j'ai soif."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Les symptômes courants",
+        "translation": "Síntomas comunes",
+        "examples": [
+          {
+            "original": "J'ai mal à la gorge.",
+            "phonetic": "/ʒɛ mal a la ɡɔʁʒ/",
+            "translation": "Me duele la garganta.",
+            "note": "Observa que se usa 'à la' porque 'gorge' es femenino."
+          },
+          {
+            "original": "J'ai mal au dos.",
+            "phonetic": "/ʒɛ mal o do/",
+            "translation": "Me duele la espalda.",
+            "note": "'dos' es masculino, por eso se usa 'au' (à + le)."
+          },
+          {
+            "original": "J'ai mal aux oreilles.",
+            "phonetic": "/ʒɛ mal o.z‿ɔ.ʁɛj/",
+            "translation": "Me duelen los oídos.",
+            "note": "En plural se usa 'aux' (à + les)."
+          },
+          {
+            "original": "J'ai mal au ventre.",
+            "phonetic": "/ʒɛ mal o vɑ̃tʁ/",
+            "translation": "Me duele el estómago.",
+            "note": "En francés no se dice 'me duele el estómago' como en español, sino 'tengo mal en el estómago'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Les sensations et états",
+        "translation": "Sensaciones y estados",
+        "examples": [
+          {
+            "original": "J'ai froid.",
+            "phonetic": "/ʒɛ fʁwa/",
+            "translation": "Tengo frío.",
+            "note": "Recuerda: siempre 'avoir froid', no 'être froid'."
+          },
+          {
+            "original": "J'ai chaud.",
+            "phonetic": "/ʒɛ ʃo/",
+            "translation": "Tengo calor.",
+            "note": "A diferencia del español, no se dice 'estoy caliente' (que es vulgar), sino 'j'ai chaud'."
+          },
+          {
+            "original": "J'ai de la fièvre.",
+            "phonetic": "/ʒɛ də la fjɛvʁ/",
+            "translation": "Tengo fiebre.",
+            "note": "En francés se usa 'avoir de la fièvre', con artículo partitivo."
+          },
+          {
+            "original": "Je me sens fatigué.",
+            "phonetic": "/ʒə mə sɑ̃ fa.ti.ɡe/",
+            "translation": "Me siento cansado.",
+            "note": "Para expresar cómo te sientes, se usa el verbo pronominal 'se sentir'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Chez le médecin",
+        "translation": "En el médico",
+        "examples": [
+          {
+            "original": "J'ai rendez-vous chez le médecin.",
+            "phonetic": "/ʒɛ ʁɑ̃.de.vu ʃe lə me.dsɛ̃/",
+            "translation": "Tengo cita con el médico.",
+            "note": "Se usa 'chez' + persona para indicar 'en la consulta de'."
+          },
+          {
+            "original": "Je tousse beaucoup.",
+            "phonetic": "/ʒə tus bo.ku/",
+            "translation": "Toso mucho.",
+            "note": "El verbo 'tousser' es regular, -er."
+          },
+          {
+            "original": "J'ai de la toux.",
+            "phonetic": "/ʒɛ də la tu/",
+            "translation": "Tengo tos.",
+            "note": "Para decir 'tener tos' se usa 'avoir de la toux'."
+          },
+          {
+            "original": "Je suis enrhumé / enrhumée.",
+            "phonetic": "/ʒə sɥi.z‿ɑ̃.ʁy.me/",
+            "translation": "Estoy resfriado / resfriada.",
+            "note": "Concordancia de género: masculino 'enrhumé', femenino 'enrhumée'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🩺",
+    "phonetic": "",
+    "translations": {
+      "es": "En el médico"
+    }
+  },
+  {
+    "id": "es_A2_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Réserver un hébergement / Reservar alojamiento",
+    "bridge": "En francés, para reservar alojamiento usarás el verbo 'réserver' (reservar) y el condicional de cortesía 'je voudrais' (me gustaría), que en español equivale a 'quisiera' o 'me gustaría'. Ten cuidado con la preposición: en francés se dice 'réserver une chambre' (sin preposición), mientras que en español a veces dices 'reservar una habitación'. Además, los adjetivos posesivos y los artículos contractos (au, à la, aux) cambian según el género y número del sustantivo, algo que ya conoces del español pero con diferencias en su uso.",
+    "rule": "Para reservar alojamiento en francés a nivel A2, usa las siguientes estructuras:\n1. Verbo 'réserver' (reservar): se conjuga en presente o en condicional para mayor cortesía. Ejemplo: 'Je réserve une chambre' (Reservo una habitación) o 'Je voudrais réserver une chambre' (Me gustaría reservar una habitación).\n2. El condicional de cortesía 'je voudrais' (me gustaría) se usa mucho en conversaciones formales. También puedes usar 'j'aimerais' (me gustaría), pero 'je voudrais' es más común.\n3. Para indicar el tipo de habitación: 'une chambre simple' (individual), 'une chambre double' (doble), 'une chambre pour deux personnes' (para dos personas), 'avec salle de bain' (con baño), 'avec vue' (con vista).\n4. Las preposiciones de lugar: 'dans' (en), 'près de' (cerca de), 'au centre-ville' (en el centro de la ciudad).\n5. Para preguntar por disponibilidad y precio: 'Est-ce que vous avez une chambre ?' (¿Tienen una habitación?) y 'Combien ça coûte par nuit ?' (¿Cuánto cuesta por noche?).\n6. Los adjetivos posesivos concuerdan en género y número: 'ma réservation' (mi reserva), 'notre séjour' (nuestra estancia). 'Leur' es invariable (su de ellos), pero 'sa/leur' cambia: 'sa chambre' (su habitación de él/ella).\n7. Excepciones: 'hôtel' es masculino, 'auberge' es femenino. 'Nuit' (noche) es femenino; 'séjour' (estancia) es masculino.\n8. Para confirmar: 'Je confirme ma réservation' (Confirmo mi reserva). Para cancelar: 'Je voudrais annuler ma réservation' (Querría cancelar mi reserva). Usa el condicional para ser cortés.\n9. Al llegar, usa 'J'ai une réservation au nom de...' (Tengo una reserva a nombre de...).\n10. Recuerda que el pronombre 'on' se usa para 'nosotros' en francés hablado: 'On arrive demain' (Llegamos mañana).",
+    "concept_examples": [
+      {
+        "text": "Je voudrais réserver une chambre pour deux nuits.",
+        "translation": "Me gustaría reservar una habitación para dos noches.",
+        "phonetic": "/ʒə vudʁɛ ʁezeʁve yn ʃɑ̃bʁ puʁ dø nɥi/"
+      },
+      {
+        "text": "Avez-vous une chambre avec vue sur la mer ?",
+        "translation": "¿Tienen una habitación con vista al mar?",
+        "phonetic": "/ave vu yn ʃɑ̃bʁ avɛk vy syʁ la mɛʁ/"
+      },
+      {
+        "text": "Combien coûte la nuit ?",
+        "translation": "¿Cuánto cuesta la noche?",
+        "phonetic": "/kɔ̃bjɛ̃ kut la nɥi/"
+      },
+      {
+        "text": "Je confirme ma réservation au nom de Martin.",
+        "translation": "Confirmo mi reserva a nombre de Martin.",
+        "phonetic": "/ʒə kɔ̃fiʁm ma ʁezɛʁvasjɔ̃ o nɔ̃ də maʁtɛ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je veux réserver une chambre pour deux personnes.",
+      "correct": "Je voudrais réserver une chambre pour deux personnes.",
+      "correct_alt": "J'aimerais réserver une chambre pour deux personnes.",
+      "explanation": "El error típico es usar 'je veux' (quiero) directamente, que suena demasiado directo y poco cortés en francés, especialmente en un contexto de servicio. Los hispanohablantes tienden a traducir literalmente 'quiero' por 'je veux', pero en francés es más educado usar el condicional 'je voudrais' (me gustaría) o 'j'aimerais' (me gustaría). Recuerda que el condicional se forma con el infinitivo del verbo y las terminaciones -ais, -ais, -ait, etc. Así, 'voudrais' viene de 'vouloir'. Para evitar este error, practica la fórmula 'Je voudrais + infinitivo' como frase fija para pedir algo de forma cortés."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Demander une chambre",
+        "translation": "Pedir una habitación",
+        "examples": [
+          {
+            "original": "Je voudrais une chambre simple, s'il vous plaît.",
+            "phonetic": "/ʒə vudʁɛ yn ʃɑ̃bʁ sɛ̃pl sil vu plɛ/",
+            "translation": "Me gustaría una habitación individual, por favor.",
+            "note": "Aprende a usar 'Je voudrais' + sustantivo para pedir algo de forma cortés. 'Simple' significa 'individual' en este contexto, no 'simple' como en español."
+          },
+          {
+            "original": "Est-ce que vous avez une chambre libre ?",
+            "phonetic": "/ɛs kə vu zavɛ yn ʃɑ̃bʁ libʁ/",
+            "translation": "¿Tienen una habitación libre?",
+            "note": "La estructura 'Est-ce que' es una forma común de hacer preguntas en francés. 'Libre' significa 'libre' o 'disponible'."
+          },
+          {
+            "original": "Je voudrais une chambre avec lit double.",
+            "phonetic": "/ʒə vudʁɛ yn ʃɑ̃bʁ avɛk li dubl/",
+            "translation": "Me gustaría una habitación con cama doble.",
+            "note": "Observa la concordancia: 'lit' es masculino, así que 'double' no cambia. A diferencia del español, los adjetivos de color o tamaño suelen ir después del sustantivo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Demander le prix et la disponibilité",
+        "translation": "Preguntar por el precio y la disponibilidad",
+        "examples": [
+          {
+            "original": "Combien coûte la chambre par nuit ?",
+            "phonetic": "/kɔ̃bjɛ̃ kut la ʃɑ̃bʁ paʁ nɥi/",
+            "translation": "¿Cuánto cuesta la habitación por noche?",
+            "note": "'Combien' significa 'cuánto' y se coloca al principio. 'Par nuit' significa 'por noche'. Cuidado con la pronunciación de 'nuit' (nɥi), que no suena como 'noche'."
+          },
+          {
+            "original": "Est-ce que le petit-déjeuner est inclus ?",
+            "phonetic": "/ɛs kə lə pəti deʒœne ɛt ɛ̃kly/",
+            "translation": "¿Está incluido el desayuno?",
+            "note": "El desayuno se dice 'petit-déjeuner' (literalmente 'pequeño almuerzo'). 'Inclus' significa 'incluido' y concuerda con el sujeto masculino 'le petit-déjeuner'."
+          },
+          {
+            "original": "Pouvez-vous me donner le prix pour trois nuits ?",
+            "phonetic": "/puvɛ vu mə dɔne lə pʁi puʁ tʁwa nɥi/",
+            "translation": "¿Puede darme el precio por tres noches?",
+            "note": "El verbo 'pouvoir' en la forma 'Pouvez-vous' es una forma educada de pedir algo. 'Me donner' significa 'darme', con el pronombre 'me' antes del infinitivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Faire une réservation",
+        "translation": "Hacer una reserva",
+        "examples": [
+          {
+            "original": "Je voudrais faire une réservation pour le week-end prochain.",
+            "phonetic": "/ʒə vudʁɛ fɛʁ yn ʁezɛʁvasjɔ̃ puʁ lə wikɛnd pʁɔʃɛ̃/",
+            "translation": "Me gustaría hacer una reserva para el próximo fin de semana.",
+            "note": "Usa 'faire une réservation' (hacer una reserva) como expresión fija. 'Le week-end' es un anglicismo común en francés, pero también puedes decir 'le samedi et dimanche'."
+          },
+          {
+            "original": "Je peux laisser ma carte de crédit en garantie.",
+            "phonetic": "/ʒə pø lɛse ma kaʁt də kʁedi ɑ̃ ɡaʁɑ̃ti/",
+            "translation": "Puedo dejar mi tarjeta de crédito como garantía.",
+            "note": "Aprende 'laisser' (dejar) y 'en garantie' (como garantía). Observa que 'ma carte' es femenino, por eso 'ma' en lugar de 'mon'."
+          },
+          {
+            "original": "Je voudrais annuler ma réservation, s'il vous plaît.",
+            "phonetic": "/ʒə vudʁɛ anyle ma ʁezɛʁvasjɔ̃ sil vu plɛ/",
+            "translation": "Me gustaría cancelar mi reserva, por favor.",
+            "note": "El verbo 'annuler' es regular en -er. Se usa el condicional 'voudrais' para ser cortés aunque estés cancelando."
+          },
+          {
+            "original": "À quelle heure est l'arrivée ?",
+            "phonetic": "/a kɛl œʁ ɛ laʁive/",
+            "translation": "¿A qué hora es la llegada?",
+            "note": "Para preguntar por la hora de llegada, usa 'À quelle heure'. 'L'arrivée' significa 'la llegada', con el artículo contracto 'l’' antes de vocal."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "es": "Reservar alojamiento"
+    }
+  },
+  {
+    "id": "es_A2_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Au bureau de change / En la casa de cambio",
+    "bridge": "En español solemos usar '¿Cuánto cuesta?' o '¿Cuánto es?' para preguntar por precios, pero en francés, en el contexto del cambio de moneda, es más común usar 'Quel est le taux de change ?' (¿Cuál es el tipo de cambio?). Además, el verbo 'changer' (cambiar) se usa de manera similar al español, pero ten cuidado con la preposición: en francés se dice 'changer de l'argent' (cambiar dinero), no 'changer argent' sin artículo. También notarás que el francés usa 'il y a' (hay) de forma impersonal, parecido al 'hay' del español, pero con la estructura 'y' + 'a'.",
+    "rule": "Para preguntar por el tipo de cambio, usa 'Quel est le taux de change ?' o 'C'est combien, le taux de change ?'. Para pedir cambiar dinero: 'Je voudrais changer des euros en dollars' (Quisiera cambiar euros por dólares). Recuerda que la moneda se expresa con artículo partitivo (des, de la) cuando se habla de cantidad indefinida. Para indicar la cantidad, usa números y la moneda al final: 'cent euros', 'cinquante dollars'. El verbo 'coûter' (costar) también es útil: 'Combien ça coûte ?' (¿Cuánto cuesta?). Para pedir billetes pequeños: 'Je voudrais des petites coupures, s'il vous plaît' (Quisiera billetes pequeños, por favor).",
+    "concept_examples": [
+      {
+        "text": "Quel est le taux de change aujourd'hui ?",
+        "translation": "¿Cuál es el tipo de cambio hoy?",
+        "phonetic": "/kɛl ɛ lə to də ʃɑ̃ʒ oʒurdɥi/"
+      },
+      {
+        "text": "Je voudrais changer cent euros en dollars.",
+        "translation": "Quisiera cambiar cien euros por dólares.",
+        "phonetic": "/ʒə vudʁɛ ʃɑ̃ʒe sɑ̃ øʁo ɑ̃ dɔlaʁ/"
+      },
+      {
+        "text": "Combien ça coûte en euros ?",
+        "translation": "¿Cuánto cuesta en euros?",
+        "phonetic": "/kɔ̃bjɛ̃ sa kut ɑ̃ øʁo/"
+      },
+      {
+        "text": "Je voudrais des petites coupures, s'il vous plaît.",
+        "translation": "Quisiera billetes pequeños, por favor.",
+        "phonetic": "/ʒə vudʁɛ de pətit kupyʁ sil vu plɛ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je veux changer argent en dollars.",
+      "correct": "Je veux changer de l'argent en dollars.",
+      "correct_alt": "Je voudrais changer de l'argent en dollars.",
+      "explanation": "En español, 'cambiar dinero' no necesita artículo, pero en francés, cuando hablas de una cantidad indeterminada de dinero, debes usar el artículo partitivo 'de l'' o 'des'. 'Argent' es incontable, por lo que se usa 'de l’argent' (algo de dinero). Además, es más cortés usar 'Je voudrais' (quisiera) en lugar de 'Je veux' (quiero) en situaciones formales como un banco."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Demander le taux de change",
+        "translation": "Preguntar por el tipo de cambio",
+        "examples": [
+          {
+            "original": "Quel est le taux de change actuel ?",
+            "phonetic": "/kɛl ɛ lə to də ʃɑ̃ʒ aktɥɛl/",
+            "translation": "¿Cuál es el tipo de cambio actual?",
+            "note": "Usa 'actuel' para decir 'actual'. Cuidado con la pronunciación de 'taux' (to) que no se pronuncia la x."
+          },
+          {
+            "original": "C'est combien, le taux de change ?",
+            "phonetic": "/sɛ kɔ̃bjɛ̃ lə to də ʃɑ̃ʒ/",
+            "translation": "¿Cuánto es el tipo de cambio?",
+            "note": "Forma coloquial de preguntar el precio, similar a '¿Cuánto es?' en español."
+          },
+          {
+            "original": "Le taux de change est de 1,10 dollar pour un euro.",
+            "phonetic": "/lə to də ʃɑ̃ʒ ɛ də œ̃ vɛʁgyl sis dɔlaʁ puʁ œ̃ øʁo/",
+            "translation": "El tipo de cambio es de 1,10 dólares por un euro.",
+            "note": "En francés se usa la coma decimal, no el punto. Di 'virgule' para la coma."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Changer de l'argent",
+        "translation": "Cambiar dinero",
+        "examples": [
+          {
+            "original": "Je voudrais changer des euros en livres sterling.",
+            "phonetic": "/ʒə vudʁɛ ʃɑ̃ʒe de øʁo ɑ̃ livʁ stɛʁliŋ/",
+            "translation": "Quisiera cambiar euros por libras esterlinas.",
+            "note": "Usa 'en' para indicar la moneda a la que cambias, como en español 'por'."
+          },
+          {
+            "original": "Pouvez-vous changer ces dollars en euros ?",
+            "phonetic": "/puve vu ʃɑ̃ʒe se dɔlaʁ ɑ̃ øʁo/",
+            "translation": "¿Pueden cambiarme estos dólares por euros?",
+            "note": "Usa 'ces' (estos) en lugar de 'les' porque es una cantidad específica."
+          },
+          {
+            "original": "Je voudrais changer cinq cents francs suisses, s'il vous plaît.",
+            "phonetic": "/ʒə vudʁɛ ʃɑ̃ʒe sɛ̃k sɑ̃ fʁɑ̃ sɥis sil vu plɛ/",
+            "translation": "Quisiera cambiar quinientos francos suizos, por favor.",
+            "note": "Cuidado con 'cinq cents' (500) que lleva 's' al final de 'cents' para plural."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Demander des billets et de la monnaie",
+        "translation": "Pedir billetes y monedas",
+        "examples": [
+          {
+            "original": "Je voudrais des billets de 20 euros, s'il vous plaît.",
+            "phonetic": "/ʒə vudʁɛ de bijɛ də vɛ̃t øʁo sil vu plɛ/",
+            "translation": "Quisiera billetes de 20 euros, por favor.",
+            "note": "'Billet' es masculino, y 'de' se contrae con el artículo definido: 'de le' -> 'du'? No, aquí es 'de 20', sin artículo."
+          },
+          {
+            "original": "Pouvez-vous me faire de la monnaie ?",
+            "phonetic": "/puve vu mə fɛʁ də la mɔnɛ/",
+            "translation": "¿Puede darme cambio (en monedas)?",
+            "note": "Fíjate en la estructura 'faire de la monnaie' que significa 'dar cambio', no 'hacer moneda'."
+          },
+          {
+            "original": "Avez-vous des pièces de monnaie ?",
+            "phonetic": "/ave vu de pjɛs də mɔnɛ/",
+            "translation": "¿Tiene monedas?",
+            "note": "'Pièce' se usa para moneda (moneda suelta). No confundir con 'monnaie' que puede ser cambio o dinero en general."
+          },
+          {
+            "original": "Je voudrais des billets de petite valeur, si possible.",
+            "phonetic": "/ʒə vudʁɛ de bijɛ də pətit valœʁ si pɔsibl/",
+            "translation": "Quisiera billetes de bajo valor, si es posible.",
+            "note": "'Petite valeur' es una forma común de pedir billetes pequeños sin decir 'coupures'."
+          }
+        ]
+      }
+    ],
+    "emoji": "💱",
+    "phonetic": "",
+    "translations": {
+      "es": "En el banco o cambio de moneda"
+    }
+  },
+  {
+    "id": "es_A2_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "L'entretien d'embauche / La entrevista de trabajo",
+    "bridge": "En francés, al igual que en español, usamos el verbo 'être' (ser/estar) y 'avoir' (haber/tener) para hablar de nosotros mismos, pero cuidado: en francés siempre se necesita el sujeto explícito, y la pronunciación de las palabras cambia mucho. Por ejemplo, 'je suis' se pronuncia /ʒə sɥi/ y no como en español 'yo soy'. Además, en las entrevistas se usa frecuentemente el 'vous' de cortesía, que en español sería 'usted', pero en francés también se usa para plural. Un error común es traducir literalmente 'tengo 25 años' como 'j'ai 25 ans', que es correcto, pero la estructura 'avoir' + edad no tiene equivalente en español (usamos 'tener' también, pero cuidado con la conjugación: 'j'ai' no es 'yo tengo' sino 'je ai' contraído).",
+    "rule": "Para una entrevista de trabajo en francés a nivel A2, es esencial dominar: 1) El presente de indicativo de los verbos más comunes: être (je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont), avoir (j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont) y los verbos del primer grupo como 'parler' (hablar), 'travailler' (trabajar), 'habiter' (vivir). 2) Las preguntas con 'est-ce que' (¿...?) o inversión del sujeto: 'Où habitez-vous?' (¿Dónde vive usted?). 3) El vocabulario básico: 'expérience professionnelle' (experiencia profesional), 'formation' (formación), 'compétences' (competencias), 'poste' (puesto), 'employeur' (empleador), 'salaire' (salario). 4) Usar 'vous' en lugar de 'tu' para dirigirse al entrevistador, y recordar que en francés los adjetivos concuerdan en género y número: 'je suis motivé' (masculino) / 'je suis motivée' (femenino). 5) Expresar habilidades con 'je sais + infinitif' (sé + infinitivo) o 'je peux + infinitif' (puedo + infinitivo). Para A2, se espera que el candidato pueda presentarse, hablar de su formación, experiencia y motivación, y responder a preguntas sencillas.",
+    "concept_examples": [
+      {
+        "text": "Bonjour, je m'appelle Marie et je suis candidate pour le poste de commercial.",
+        "translation": "Hola, me llamo Marie y soy candidata para el puesto de comercial.",
+        "phonetic": "/bɔ̃ʒuʁ, ʒə mapɛl maʁi e ʒə sɥi kɑ̃didat puʁ lə pɔst də kɔmɛʁsjal/"
+      },
+      {
+        "text": "J'ai 25 ans et j'habite à Paris.",
+        "translation": "Tengo 25 años y vivo en París.",
+        "phonetic": "/ʒɛ vɛ̃t sɑ̃ e ʒabit a paʁi/"
+      },
+      {
+        "text": "Je parle espagnol et anglais, et je sais travailler en équipe.",
+        "translation": "Hablo español e inglés, y sé trabajar en equipo.",
+        "phonetic": "/ʒə paʁl ɛspaɲɔl e ɑ̃ɡlɛ, e ʒə sɛ tʁavaje ɑ̃n ekip/"
+      },
+      {
+        "text": "Je suis disponible à partir du mois prochain.",
+        "translation": "Estoy disponible a partir del mes próximo.",
+        "phonetic": "/ʒə sɥi dispɔnibl a paʁtiʁ dy mwa pʁɔʃɛ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis 25 ans.",
+      "correct": "J'ai 25 ans.",
+      "correct_alt": "",
+      "explanation": "Este error ocurre porque en español decimos 'tengo 25 años' y algunos estudiantes traducen literalmente usando 'être' (ser/estar). Pero en francés se usa el verbo 'avoir' (tener) para expresar la edad. Recuerda: 'avoir' + número + 'ans' = tener + número + años. Otro error relacionado es decir 'je suis faim' en lugar de 'j'ai faim' (tengo hambre), así que generaliza: para edad y sensaciones, usa 'avoir'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Se présenter",
+        "translation": "Presentarse",
+        "examples": [
+          {
+            "original": "Je me présente : je m'appelle Luc.",
+            "phonetic": "/ʒə mə pʁezɑ̃t: ʒə mapɛl lyk/",
+            "translation": "Me presento: me llamo Luc.",
+            "note": "Usamos 'je m'appelle' (me llamo) para decir el nombre, y luego 'je suis + profesión' (soy + profesión)."
+          },
+          {
+            "original": "Je suis ingénieur informatique.",
+            "phonetic": "/ʒə sɥi ɛ̃ʒenjœʁ ɛ̃fɔmatik/",
+            "translation": "Soy ingeniero informático.",
+            "note": "Cuidado: en francés, a menudo se omite el artículo cuando se dice la profesión: 'je suis + profesión' sin 'un/une'."
+          },
+          {
+            "original": "Je viens d'Espagne.",
+            "phonetic": "/ʒə vjɛ̃ dɛspaɲ/",
+            "translation": "Vengo de España.",
+            "note": "Usamos 'venir de' (venir de) para el origen. Recuerda la preposición 'de' + país sin artículo cuando es femenino, pero con 'du' para masculino (ej. 'du Maroc')."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Parler de son expérience",
+        "translation": "Hablar de su experiencia",
+        "examples": [
+          {
+            "original": "J'ai travaillé comme vendeur pendant trois ans.",
+            "phonetic": "/ʒɛ tʁavaje kɔm vɑ̃dœʁ pɑ̃dɑ̃ tʁwa zɑ̃/",
+            "translation": "He trabajado como vendedor durante tres años.",
+            "note": "Usamos 'j'ai travaillé' (passé composé) para hablar de experiencias pasadas. Aprende este tiempo: 'avoir' + participio pasado."
+          },
+          {
+            "original": "Avez-vous une expérience professionnelle dans ce domaine ?",
+            "phonetic": "/ave vu yn ɛkspeʁjɑ̃s pʁɔfɛsjɔnɛl dɑ̃ sə dɔmɛn/",
+            "translation": "¿Tiene usted experiencia profesional en este ámbito?",
+            "note": "Pregunta con inversión: 'Avez-vous' en lugar de 'est-ce que vous avez'. Es formal y muy común en entrevistas."
+          },
+          {
+            "original": "Je connais bien les logiciels de bureautique.",
+            "phonetic": "/ʒə kɔnɛ bjɛ̃ le lɔʒisjɛl də byʁotik/",
+            "translation": "Conozco bien los programas de ofimática.",
+            "note": "El verbo 'connaître' (conocer) se usa para personas, lugares o cosas, pero no para habilidades ('saber' se dice 'savoir')."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Exprimer ses compétences et motivations",
+        "translation": "Expresar sus competencias y motivaciones",
+        "examples": [
+          {
+            "original": "Je sais parler trois langues.",
+            "phonetic": "/ʒə sɛ paʁle tʁwa lɑ̃ɡ/",
+            "translation": "Sé hablar tres idiomas.",
+            "note": "Usamos 'savoir + infinitif' para expresar habilidades. Conjugación: 'je sais', 'tu sais', 'il/elle sait'."
+          },
+          {
+            "original": "Je suis très motivé pour ce poste.",
+            "phonetic": "/ʒə sɥi tʁɛ mɔtive puʁ sə pɔst/",
+            "translation": "Estoy muy motivado para este puesto.",
+            "note": "El adjetivo 'motivé' concuerda: 'motivée' si es femenino. En la entrevista, usa 'vous' para el entrevistador."
+          },
+          {
+            "original": "Je voudrais évoluer dans l'entreprise.",
+            "phonetic": "/ʒə vudʁɛ evɔlɥe dɑ̃ lɑ̃tʁəpʁiz/",
+            "translation": "Me gustaría evolucionar (crecer) en la empresa.",
+            "note": "Usamos el condicional de cortesía 'je voudrais' (me gustaría) para expresar deseos de forma educada. Es una fórmula fija muy útil."
+          }
+        ]
+      }
+    ],
+    "emoji": "💼",
+    "phonetic": "",
+    "translations": {
+      "es": "Entrevista de trabajo básica"
+    }
+  },
+  {
+    "id": "es_A2_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "À la poste / En la oficina de correos",
+    "bridge": "En francés, para hablar de servicios postales, es esencial conocer las preposiciones y artículos contractos que no siempre coinciden con el español. Por ejemplo, mientras que en español decimos 'voy al correo', en francés se usa 'à la poste' con artículo definido. Además, el verbo 'envoyer' (enviar) es irregular en el presente y se conjuga de forma diferente a 'enviar'. Presta atención también al uso de 'par' en 'envoyer par avion' (enviar por avión), que en español muchas veces se omite.",
+    "rule": "Para hablar de enviar y recibir correo en francés, usa los verbos 'envoyer' (enviar), 'recevoir' (recibir), 'affranchir' (franquear/sellar), y 'expédier' (expedir). El verbo 'envoyer' se conjuga: j'envoie, tu envoies, il/elle envoie, nous envoyons, vous envoyez, ils/elles envoient. El verbo 'recevoir' es irregular: je reçois, tu reçois, il reçoit, nous recevons, vous recevez, ils reçoivent. Para indicar el destinatario usa 'à' (a), para el remitente 'de' (de). Para el tipo de envío, usa 'par' (por) con el medio: 'par avion' (por avión), 'par bateau' (por barco), 'en recommandé' (certificado). Las expresiones útiles incluyen: 'un timbre' (un sello), 'un colis' (un paquete), 'une lettre' (una carta), 'la boîte aux lettres' (el buzón). El verbo 'payer' (pagar) se usa con 'pour' (por): 'payer pour un envoi'. Para preguntar el costo: 'Combien ça coûte ?' (¿Cuánto cuesta?).",
+    "concept_examples": [
+      {
+        "text": "Je voudrais envoyer cette lettre par avion.",
+        "translation": "Me gustaría enviar esta carta por avión.",
+        "phonetic": "/ʒə vudʁɛ ɑ̃vwaje sɛt lɛtʁ paʁ avjɔ̃/"
+      },
+      {
+        "text": "Combien coûte un timbre pour l'Espagne ?",
+        "translation": "¿Cuánto cuesta un sello para España?",
+        "phonetic": "/kɔ̃bjɛ̃ kut œ̃ tɛ̃bʁ puʁ lɛspaɲ/"
+      },
+      {
+        "text": "Je vais à la poste pour expédier un colis.",
+        "translation": "Voy a la oficina de correos para enviar un paquete.",
+        "phonetic": "/ʒə vɛ a la pɔst puʁ ɛkspedje œ̃ kɔli/"
+      },
+      {
+        "text": "Vous pouvez payer par carte bancaire ici.",
+        "translation": "Puede pagar con tarjeta bancaria aquí.",
+        "phonetic": "/vu puve pɛje paʁ kaʁt bɑ̃kɛʁ isi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je veux envoyer une lettre à le bureau de poste.",
+      "correct": "Je veux envoyer une lettre au bureau de poste.",
+      "correct_alt": "Je veux envoyer une lettre à la poste.",
+      "explanation": "El error ocurre porque en español decimos 'a el' y se simplifica a 'al'. En francés, la preposición 'à' se contrae con el artículo definido masculino 'le' para formar 'au'. No se escribe 'à le'. Es importante recordar las contracciones obligatorias: 'à + le = au', 'à + les = aux', 'de + le = du', 'de + les = des'. Para femenino no se contrae: 'à la'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Les objets et les lieux",
+        "translation": "Objetos y lugares",
+        "examples": [
+          {
+            "original": "La poste est à côté de la banque.",
+            "phonetic": "/la pɔst ɛ a kote də la bɑ̃k/",
+            "translation": "La oficina de correos está al lado del banco.",
+            "note": "Usa 'à côté de' para 'al lado de'. Fíjate en que 'poste' es femenino en francés, a diferencia de 'correos' en español que es masculino."
+          },
+          {
+            "original": "Je cherche un timbre pour cette carte postale.",
+            "phonetic": "/ʒə ʃɛʁʃ œ̃ tɛ̃bʁ puʁ sɛt kaʁt pɔstal/",
+            "translation": "Busco un sello para esta postal.",
+            "note": "'Timbre' es masculino en francés (un timbre), mientras que 'sello' es masculino en español también, pero cuidado con la pronunciación."
+          },
+          {
+            "original": "Le guichet est fermé à midi.",
+            "phonetic": "/lə giʃɛ ɛ fɛʁme a midi/",
+            "translation": "La ventanilla está cerrada al mediodía.",
+            "note": "'Guichet' se refiere a la ventanilla o mostrador. La preposición 'à' se usa para 'a' en horas, pero cuidado con la contracción 'au' con 'le'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Les actions et les services",
+        "translation": "Acciones y servicios",
+        "examples": [
+          {
+            "original": "J'envoie une lettre recommandée.",
+            "phonetic": "/ʒɑ̃vwaj yn lɛtʁ ʁəkɔ̃mɑ̃de/",
+            "translation": "Envío una carta certificada.",
+            "note": "El verbo 'envoyer' es irregular. Observa la forma 'j'envoie' (pronunciado /ʒɑ̃vwaj/). 'Recommandée' concuerda con 'lettre' (femenino)."
+          },
+          {
+            "original": "Vous pouvez affranchir votre courrier ici.",
+            "phonetic": "/vu puvez afʁɑ̃ʃiʁ vɔtʁ kuʁje isi/",
+            "translation": "Usted puede franquear su correspondencia aquí.",
+            "note": "'Affranchir' significa poner sellos o franquear. Es un verbo del primer grupo (-ir)."
+          },
+          {
+            "original": "Je dois expédier ce paquet en urgence.",
+            "phonetic": "/ʒə dwa ɛkspedje sə pakɛ ɑ̃ yʁʒɑ̃s/",
+            "translation": "Debo enviar este paquete urgentemente.",
+            "note": "'Expédier' es un verbo regular del primer grupo, pero ten cuidado con la ortografía: 'expédier' lleva acento en la 'e'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Les questions et les coûts",
+        "translation": "Preguntas y costos",
+        "examples": [
+          {
+            "original": "Combien coûte un envoi en tarif rapide ?",
+            "phonetic": "/kɔ̃bjɛ̃ kut œ̃n ɑ̃vwa ɑ̃ taʁif ʁapid/",
+            "translation": "¿Cuánto cuesta un envío en tarifa rápida?",
+            "note": "La pregunta 'Combien coûte...?' usa inversión del verbo, algo común en francés formal. 'Tarif' es masculino."
+          },
+          {
+            "original": "Je voudrais un timbre de 1,20 euros.",
+            "phonetic": "/ʒə vudʁɛ œ̃ tɛ̃bʁ də œ̃ vɛ̃t øʁo/",
+            "translation": "Quisiera un sello de 1,20 euros.",
+            "note": "La expresión 'de' se usa para indicar el valor. No olvides el verbo 'voudrais' (condicional de 'vouloir') para sonar cortés."
+          },
+          {
+            "original": "Pouvez-vous me dire où se trouve la boîte aux lettres ?",
+            "phonetic": "/puve vu mə diʁ u sə tʁuv la bwat o lɛtʁ/",
+            "translation": "¿Puede decirme dónde está el buzón?",
+            "note": "La construcción 'où se trouve...' es una forma educada de preguntar por una ubicación. 'Boîte aux lettres' es un buzón, literalmente 'caja para cartas'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📮",
+    "phonetic": "",
+    "translations": {
+      "es": "En la oficina de correos"
+    }
+  },
+  {
+    "id": "es_A2_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Louer un appartement / Alquilar un piso",
+    "bridge": "En francés, para hablar de alquilar un piso se usa el verbo 'louer', que significa tanto 'alquilar' como 'alquilarse'. A diferencia del español, donde se distingue entre 'alquilar' (acción) y 'alquilarse' (estado), en francés se usa la misma forma con pronombres reflexivos o la voz pasiva. Cuidado con el falso amigo 'location', que en francés significa 'alquiler' y no 'localización' (que es 'emplacement' o 'situation'). También nota que los artículos contractos (au, aux, du, des) son esenciales al indicar ubicación.",
+    "rule": "Para decir 'alquilar un piso' se usa 'louer un appartement'. Para 'estar alquilado' se usa la forma reflexiva 'se louer' o la voz pasiva. Las preposiciones de lugar: 'dans' para 'en' (dentro), 'près de' para 'cerca de', 'en face de' para 'enfrente de'. Los artículos contractos: à + le = au, à + les = aux, de + le = du, de + les = des. Para preguntar el precio: 'Combien coûte...?' o 'C'est combien?' (informal). Para expresar preferencias: 'Je voudrais...' (me gustaría), 'Je préfère...' (prefiero). La estructura típica de una frase de búsqueda: 'Je cherche un appartement...' (Busco un piso...), seguido de características (taille, quartier, prix).",
+    "concept_examples": [
+      {
+        "text": "Je cherche un appartement à louer.",
+        "translation": "Busco un piso para alquilar.",
+        "phonetic": "ʒə ʃɛʁʃ œ̃n‿apaʁtəmɑ̃ a lwe"
+      },
+      {
+        "text": "Combien coûte le loyer par mois ?",
+        "translation": "¿Cuánto cuesta el alquiler por mes?",
+        "phonetic": "kɔ̃bjɛ̃ kut lə lwaje paʁ mwa"
+      },
+      {
+        "text": "L'appartement est disponible au premier étage.",
+        "translation": "El piso está disponible en el primer piso.",
+        "phonetic": "l‿apaʁtəmɑ̃ ɛ dispɔnibl o pʁəmje etaʒ"
+      },
+      {
+        "text": "Le loyer comprend les charges.",
+        "translation": "El alquiler incluye los gastos (comunidad).",
+        "phonetic": "lə lwaje kɔ̃pʁɑ̃ le ʃaʁʒ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je veux louer un appartement en France.",
+      "correct": "Je veux louer un appartement en France.",
+      "correct_alt": "Je voudrais louer un appartement en France.",
+      "explanation": "Aunque la frase es gramaticalmente correcta, un error común es usar 'je veux' (quiero) en lugar de 'je voudrais' (me gustaría) en contextos formales o de negociación, porque puede sonar muy directo o incluso grosero. En una conversación de alquiler, es más cortés y típico usar el condicional de cortesía. Además, cuidado con el falso amigo 'location': no digas 'je cherche une location', porque eso puede entenderse como 'alquiler' en sí, no como 'localización'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Chercher un logement",
+        "translation": "Buscar una vivienda",
+        "examples": [
+          {
+            "original": "Je cherche un studio meublé.",
+            "phonetic": "ʒə ʃɛʁʃ œ̃ stydjo møble",
+            "translation": "Busco un estudio amueblado.",
+            "note": "Recuerda que 'meublé' significa 'amueblado' y 'non meublé' o 'vide' significa 'sin amueblar'."
+          },
+          {
+            "original": "Nous voulons un appartement avec deux chambres.",
+            "phonetic": "nu vulɔ̃ œ̃n‿apaʁtəmɑ̃ avɛk dø ʃɑ̃bʁ",
+            "translation": "Queremos un piso con dos habitaciones.",
+            "note": "En francés, 'chambre' es 'habitación' (dormitorio), mientras que 'pièce' es 'habitación' en general."
+          },
+          {
+            "original": "Où se trouve l'agence immobilière ?",
+            "phonetic": "u sə tʁuv l‿aʒɑ̃s imɔbiljɛʁ",
+            "translation": "¿Dónde está la agencia inmobiliaria?",
+            "note": "Observa la inversión en la pregunta: 'où se trouve' en lugar de 'dónde se encuentra'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Visiter et négocier",
+        "translation": "Visitar y negociar",
+        "examples": [
+          {
+            "original": "Puis-je visiter l'appartement ?",
+            "phonetic": "pɥiʒ vizi te l‿apaʁtəmɑ̃",
+            "translation": "¿Puedo visitar el piso?",
+            "note": "Usa 'puis-je' para '¿puedo?' en un registro formal; en informal, puedes usar 'je peux'."
+          },
+          {
+            "original": "Le loyer est trop cher pour moi.",
+            "phonetic": "lə lwaje ɛ tʁo ʃɛʁ puʁ mwa",
+            "translation": "El alquiler es demasiado caro para mí.",
+            "note": "'Trop' se usa para 'demasiado', a diferencia de 'très' = 'muy'."
+          },
+          {
+            "original": "Est-ce possible de baisser le prix ?",
+            "phonetic": "ɛs pɔsibl də bɛse lə pʁi",
+            "translation": "¿Es posible bajar el precio?",
+            "note": "La construcción 'est-ce possible de' + infinitivo es habitual para pedir algo de manera cortés."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Signer le contrat",
+        "translation": "Firmar el contrato",
+        "examples": [
+          {
+            "original": "Je signe le bail demain.",
+            "phonetic": "ʒə siɲ lə baj dəmɛ̃",
+            "translation": "Firmo el contrato de alquiler mañana.",
+            "note": "El contrato de alquiler se llama 'le bail' (plural: 'les baux'). No confundir con 'le contrat' que es genérico."
+          },
+          {
+            "original": "Le dépôt de garantie est de deux mois de loyer.",
+            "phonetic": "lə depo də gaʁɑ̃ti ɛ də dø mwa də lwaje",
+            "translation": "El depósito de garantía es de dos meses de alquiler.",
+            "note": "En Francia, el depósito de garantía suele ser de un mes sin amueblar, pero si está amueblado puede ser dos meses, como indica la ley."
+          },
+          {
+            "original": "Vous devez payer le premier mois d'avance.",
+            "phonetic": "vu dəve peje lə pʁəmje mwa davɑ̃s",
+            "translation": "Debéis pagar el primer mes por adelantado.",
+            "note": "La expresión 'd'avance' significa 'por adelantado'. En Francia, a menudo se piden meses por adelantado."
+          },
+          {
+            "original": "Le préavis est de trois mois.",
+            "phonetic": "lə pʁeavi ɛ də tʁwa mwa",
+            "translation": "El preaviso es de tres meses.",
+            "note": "En Francia, el período de notificación para irse es a menudo de tres meses (o uno en zonas tensionadas)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "es": "Alquilar un piso o apartamento"
+    }
+  },
+  {
+    "id": "es_A2_conv_07",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Faire la conversation à une fête / Conversar en una fiesta",
+    "bridge": "En español, para expresar gustos usamos el verbo 'gustar' con un pronombre de objeto indirecto ('me gusta'). En francés, el verbo 'aimer' se conjuga como un verbo normal ('j'aime') y, además, puede expresar tanto 'gustar' como 'querer'. Otra diferencia clave: para ofrecer algo, en español decimos '¿Quieres...?', pero en francés se usa frecuentemente el condicional de cortesía 'Tu voudrais...?' (forma familiar) o 'Vous voudriez...?' (formal). Esto es esencial para sonar natural en una fiesta. Además, observa que en francés la negación se forma con 'ne...pas' que rodea al verbo, mientras que en español basta con 'no' antes del verbo.",
+    "rule": "Para hablar de lo que te gusta o no te gusta en francés, se usa el verbo 'aimer' (amar/querer/gustar) seguido de un sustantivo o un verbo en infinitivo. Para expresar grados de gusto, se usan adverbios como 'beaucoup' (mucho), 'bien' (bien), 'un peu' (un poco) y 'vraiment' (realmente). Ejemplo: 'J'aime la musique' (Me gusta la música). Para ofrecer algo, se usa 'Tu veux...?' (informal) o 'Vous voulez...?' (formal), y para ser más cortés, 'Tu voudrais...?' / 'Vous voudriez...?'. Para invitar a alguien a hacer algo, se usa 'On peut...' (Podemos...) o 'Viens...' (Ven...). Recuerda que en francés, el pronombre 'on' se usa frecuentemente para 'nosotros' en conversación informal. En contextos de fiesta, es común usar expresiones como 's'amuser' (divertirse), 'danser' (bailar), 'boire' (beber). La negación: 'ne' + verbo + 'pas' (ej: 'Je ne bois pas' - No bebo).",
+    "concept_examples": [
+      {
+        "text": "J'aime beaucoup cette musique.",
+        "translation": "Me gusta mucho esta música.",
+        "phonetic": "/ʒɛm boku sɛt myzik/"
+      },
+      {
+        "text": "Tu veux un verre de vin ?",
+        "translation": "¿Quieres un vaso de vino?",
+        "phonetic": "/ty vø œ̃ vɛr də vɛ̃/"
+      },
+      {
+        "text": "On peut danser ?",
+        "translation": "¿Podemos bailar?",
+        "phonetic": "/ɔ̃ pø dɑ̃se/"
+      },
+      {
+        "text": "Je ne bois pas d'alcool.",
+        "translation": "No bebo alcohol.",
+        "phonetic": "/ʒə nə bwa pa dalkɔl/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je me plais cette chanson.",
+      "correct": "J'aime cette chanson.",
+      "correct_alt": "Cette chanson me plaît.",
+      "explanation": "Los hispanohablantes tienden a usar 'me gusta' directamente, pero en francés no existe la estructura con pronombre de objeto indirecto para 'gustar'. Se usa 'aimer' (que significa 'gustar') o, si se quiere una estructura similar al español, se puede usar el verbo 'plaire' (que funciona como 'gustar'), pero con el orden inverso: 'Cette chanson me plaît' (literalmente 'Esta canción me agrada'). Evita la traducción literal de 'me gusta' como 'je me plais' porque eso significa 'me gusta a mí mismo'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Exprimer ses goûts",
+        "translation": "Expresar gustos",
+        "examples": [
+          {
+            "original": "J'aime bien cette fête.",
+            "phonetic": "/ʒɛm bjɛ̃ sɛt fɛt/",
+            "translation": "Me gusta bastante esta fiesta.",
+            "note": "Nota que 'bien' después de 'aimer' suaviza el gusto (gustar bastante). En Francia, 'J'aime bien' es más común que 'J'aime' para no sonar demasiado intenso."
+          },
+          {
+            "original": "Je n'aime pas le bruit.",
+            "phonetic": "/ʒə nɛm pa lə bʁɥi/",
+            "translation": "No me gusta el ruido.",
+            "note": "La negación en francés se compone de 'ne' antes del verbo y 'pas' después. En español, solo usamos 'no' antes del verbo."
+          },
+          {
+            "original": "J'adore danser.",
+            "phonetic": "/ʒadɔʁ dɑ̃se/",
+            "translation": "Me encanta bailar.",
+            "note": "El verbo 'adorer' es más fuerte que 'aimer'. Se usa para expresar mucho entusiasmo. Observa que se omite el artículo 'de' después de 'adorer'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Proposer et offrir",
+        "translation": "Proponer y ofrecer",
+        "examples": [
+          {
+            "original": "Tu veux un peu de gâteau ?",
+            "phonetic": "/ty vø œ̃ pø də ɡɑto/",
+            "translation": "¿Quieres un poco de pastel?",
+            "note": "La construcción 'un peu de' + sustantivo es común para ofrecer una pequeña cantidad. En español decimos 'un poco de'."
+          },
+          {
+            "original": "Vous voudriez boire quelque chose ?",
+            "phonetic": "/vu vudʁje bwaʁ kɛlkə ʃoz/",
+            "translation": "¿Le gustaría beber algo? (formal)",
+            "note": "El condicional de cortesía 'voudriez' es más educado que el presente. Úsalo con personas desconocidas o en situaciones formales."
+          },
+          {
+            "original": "On se retrouve près du buffet ?",
+            "phonetic": "/ɔ̃ sə ʁətʁuv pʁɛ dy byfɛ/",
+            "translation": "¿Nos encontramos cerca del buffet?",
+            "note": "El pronombre 'on' se usa coloquialmente para 'nous' (nosotros). 'Près de' significa 'cerca de'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Réagir et interagir",
+        "translation": "Reaccionar e interactuar",
+        "examples": [
+          {
+            "original": "C'est génial !",
+            "phonetic": "/sɛ ʒenjal/",
+            "translation": "¡Es genial!",
+            "note": "En francés coloquial, 'génial' se usa para expresar entusiasmo. En español, sería equivalente a '¡Genial!' o '¡Increíble!'."
+          },
+          {
+            "original": "Tu t'amuses bien ?",
+            "phonetic": "/ty tamyz bjɛ̃/",
+            "translation": "¿Te estás divirtiendo?",
+            "note": "El verbo pronominal 's'amuser' (divertirse) se usa en contextos de fiesta. Observa la estructura: 'tu t'amuses' (te diviertes)."
+          },
+          {
+            "original": "Je suis désolé, je dois y aller.",
+            "phonetic": "/ʒə sɥi dezɔle, ʒə dwa i ale/",
+            "translation": "Lo siento, tengo que irme.",
+            "note": "Para despedirse, es común usar 'je dois y aller'. 'Y' reemplaza un lugar ya mencionado. En español, decimos 'me tengo que ir'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎉",
+    "phonetic": "",
+    "translations": {
+      "es": "En una fiesta o evento social"
+    }
+  },
+  {
+    "id": "es_A2_conv_08",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Se plaindre et s'excuser / Quejarse y disculparse",
+    "bridge": "En español, para quejarnos usamos expresiones como '¡Qué rollo!' o 'No me gusta nada', y para disculparnos, 'perdona' o 'lo siento'. En francés, la estructura es similar, pero hay que tener cuidado con el uso de 'désolé(e)' (que solo es para disculpas, no para expresar pena) y con la colocación de 'ne...pas' en negaciones. También, el verbo 'excuser' se usa de forma reflexiva ('s'excuser') más a menudo que en español. Presta atención a las preposiciones: 'se plaindre de' (quejarse de) y 's'excuser pour' (disculparse por).",
+    "rule": "Para quejarse en francés a nivel A2, se usan construcciones como:\n- 'Je suis désolé(e) de...' + sustantivo/infinitivo (para disculparse)\n- 'Je suis fâché(e) contre...' (estar enojado con)\n- 'Ça m'énerve' (me molesta) + que + subjuntivo (opcional, pero a este nivel se puede simplificar con infinitivo)\n- 'Je me plains de...' (me quejo de) + sustantivo\n- 'C'est pas juste' (no es justo) - registro informal\n\nPara disculparse:\n- 'Excuse-moi' (tú) / 'Excusez-moi' (usted) - para llamar la atención o disculparse\n- 'Pardon' - para disculparse\n- 'Je suis désolé(e)' - para disculparse (se usa solo para disculpas, no para expresar lástima, en cuyo caso se usa 'je suis navré(e)' o 'c'est triste')\n- 'Je m'excuse' (me disculpo) - registro un poco informal, pero común\n\nEstructura de la negación: 'ne' + verbo + 'pas' (ej. 'Je ne suis pas content'). En informal, se puede omitir 'ne' (ej. 'Je suis pas content').\n\nErrores comunes: usar 'désolé' para 'apenado' (en español 'estoy apenado' se traduce como 'je suis navré'), o confundir 'excuser' (disculpar) con 'excuser' (perdonar).",
+    "concept_examples": [
+      {
+        "text": "Je suis désolé, je suis en retard.",
+        "translation": "Lo siento, llego tarde.",
+        "phonetic": "/ʒə sɥi dezɔle ʒə sɥi ɑ̃ ʁətaʁ/"
+      },
+      {
+        "text": "Ça m'énerve d'attendre.",
+        "translation": "Me molesta esperar.",
+        "phonetic": "/sa menevʁ d‿atɑ̃dʁ/"
+      },
+      {
+        "text": "Je me plains du bruit.",
+        "translation": "Me quejo del ruido.",
+        "phonetic": "/ʒə mə plɛ̃ dy bʁɥi/"
+      },
+      {
+        "text": "Excusez-moi, je ne voulais pas vous déranger.",
+        "translation": "Disculpe, no quería molestarle.",
+        "phonetic": "/ɛkskyze mwa ʒə nə vulɛ pa vu deʁɑ̃ʒe/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis désolé pour toi (cuando se quiere decir 'lo siento por ti' en sentido de lástima).",
+      "correct": "Je suis navré(e) pour toi.",
+      "correct_alt": "C'est triste pour toi.",
+      "explanation": "En español, 'lo siento por ti' se usa para expresar lástima o solidaridad. En francés, 'désolé(e)' se reserva para disculpas. Para expresar lástima se usa 'navré(e)' (más formal) o 'c'est triste' (informal). Evita la traducción literal."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Se plaindre (quejarse)",
+        "translation": "Quejarse",
+        "examples": [
+          {
+            "original": "Je suis mécontent de ce service.",
+            "phonetic": "/ʒə sɥi mekɔ̃tɑ̃ də sə sɛʁvis/",
+            "translation": "Estoy descontento con este servicio.",
+            "note": "Usa 'mécontent(e)' como adjetivo, similar a 'descontento' en español."
+          },
+          {
+            "original": "Ça ne va pas du tout !",
+            "phonetic": "/sa nə va pa dy tu/",
+            "translation": "¡Esto no va nada bien!",
+            "note": "Expresión coloquial para quejarse de algo."
+          },
+          {
+            "original": "Le repas est froid, je me plains au serveur.",
+            "phonetic": "/lə ʁəpa ɛ fʁwa ʒə mə plɛ̃ o sɛʁvœʁ/",
+            "translation": "La comida está fría, me quejo al camarero.",
+            "note": "Verbo pronominal 'se plaindre' + preposición 'à' (a alguien)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "S'excuser (disculparse)",
+        "translation": "Disculparse",
+        "examples": [
+          {
+            "original": "Pardon, j'ai oublié ton anniversaire.",
+            "phonetic": "/paʁdɔ̃ ʒe ublije tɔ̃ anivɛʁsɛʁ/",
+            "translation": "Perdón, olvidé tu cumpleaños.",
+            "note": "'Pardon' es la forma más común para disculpas informales."
+          },
+          {
+            "original": "Je m'excuse pour le retard.",
+            "phonetic": "/ʒə mekskys puʁ lə ʁətaʁ/",
+            "translation": "Me disculpo por el retraso.",
+            "note": "Usa 'pour' + sustantivo para indicar el motivo."
+          },
+          {
+            "original": "Excusez-moi de vous interrompre.",
+            "phonetic": "/ɛkskyze mwa də vu z‿ɛ̃teʁɔ̃pʁ/",
+            "translation": "Disculpe por interrumpirle.",
+            "note": "Forma de cortesía con 'vous'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Répondre aux plaintes (responder a quejas)",
+        "translation": "Responder a quejas",
+        "examples": [
+          {
+            "original": "Ce n'est pas grave.",
+            "phonetic": "/sə nɛ pa ɡʁav/",
+            "translation": "No es grave / No pasa nada.",
+            "note": "Respuesta común para restar importancia."
+          },
+          {
+            "original": "Je comprends, je vais arranger ça.",
+            "phonetic": "/ʒə kɔ̃pʁɑ̃ ʒə vɛ aʁɑ̃ʒe sa/",
+            "translation": "Entiendo, voy a arreglarlo.",
+            "note": "Usa 'je vais' + infinitivo para futuro cercano."
+          },
+          {
+            "original": "Ne vous inquiétez pas, tout va bien.",
+            "phonetic": "/nə vu z‿ɛ̃kjetɛ pa tu va bjɛ̃/",
+            "translation": "No se preocupe, todo va bien.",
+            "note": "Imperativo negativo con 'ne...pas'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙏",
+    "phonetic": "",
+    "translations": {
+      "es": "Quejarse y disculparse"
+    }
+  },
+  {
+    "id": "es_A2_conv_09",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Décrire ma ville / Describir mi ciudad",
+    "bridge": "En español, para describir tu ciudad usas el verbo 'ser' (es grande, es bonita). En francés, también usas 'être' (elle est grande, elle est jolie). Pero cuidado: en francés los adjetivos suelen ir DESPUÉS del sustantivo (une ville moderne), mientras que en español van generalmente antes (una ciudad moderna). Además, en francés los adjetivos concuerdan en género y número con el sustantivo (grand, grande, grands, grandes), igual que en español, pero hay que prestar atención a las formas irregulares como 'beau/belle' o 'vieux/vieille'.",
+    "rule": "Para describir tu ciudad en francés a nivel A2, utiliza la estructura: 'Ma ville est + adjetivo' o 'C'est une ville + adjetivo'. Los adjetivos concuerdan en género y número: masculino singular (grand), femenino singular (grande), masculino plural (grands), femenino plural (grandes). Algunos adjetivos comunes para describir ciudades: grand(e) - grande, petit(e) - pequeño(a), beau/belle - hermoso(a), vieux/vieille - viejo(a), moderne - moderno(a), calme - tranquilo(a), animé(e) - animado(a), touristique - turístico(a). También puedes usar verbos como 'il y a' (hay) para mencionar lugares: 'Il y a un parc, un marché...'. Para ubicar lugares, usa preposiciones como 'au centre' (en el centro), 'près de' (cerca de), 'à côté de' (al lado de). Recuerda que en francés los adjetivos normalmente van después del sustantivo, excepto algunos como 'bon', 'petit', 'grand' que pueden ir antes en ciertos contextos.",
+    "concept_examples": [
+      {
+        "text": "Ma ville est grande et moderne.",
+        "translation": "Mi ciudad es grande y moderna.",
+        "phonetic": "/ma vil ɛ gʁɑ̃d e mɔdɛʁn/"
+      },
+      {
+        "text": "C'est une ville calme et agréable.",
+        "translation": "Es una ciudad tranquila y agradable.",
+        "phonetic": "/sɛt‿yn vil kalm e aɡʁeabl/"
+      },
+      {
+        "text": "Il y a beaucoup de parcs dans ma ville.",
+        "translation": "Hay muchos parques en mi ciudad.",
+        "phonetic": "/il i a boku də paʁk dɑ̃ ma vil/"
+      },
+      {
+        "text": "Mon quartier est près du centre-ville.",
+        "translation": "Mi barrio está cerca del centro de la ciudad.",
+        "phonetic": "/mɔ̃ kaʁtje ɛ pʁe dy sɑ̃tʁə vil/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ma ville est grande et moderne (correcto) / Mi ciudad es grande y moderno.",
+      "correct": "Ma ville est grande et moderne.",
+      "correct_alt": "Ma ville est grande et moderne.",
+      "explanation": "El error típico del hispanohablante es olvidar la concordancia de género en los adjetivos compuestos, especialmente cuando hay dos adjetivos. En español decimos 'grande y moderno' (masculino) pero eso no funciona en francés porque 'ville' es femenino. Tanto 'grande' como 'moderne' deben estar en femenino y singular: 'grande' (que ya termina en 'e' no cambia) y 'moderne' (que también es invariable). Asegúrate de que cada adjetivo concuerde en género y número con el sustantivo al que modifica."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adjectifs pour décrire",
+        "translation": "Adjetivos para describir",
+        "examples": [
+          {
+            "original": "Ma ville est propre et sûre.",
+            "phonetic": "/ma vil ɛ pʁɔpʁ e syʁ/",
+            "translation": "Mi ciudad es limpia y segura.",
+            "note": "'Propre' y 'sûre' son adjetivos que concuerdan: 'propre' es invariable, 'sûr' se convierte en 'sûre' para femenino."
+          },
+          {
+            "original": "La ville est animée le week-end.",
+            "phonetic": "/la vil ɛ anime lə wɛkɛnd/",
+            "translation": "La ciudad está animada el fin de semana.",
+            "note": "'Animé' se convierte en 'animée' para femenino. Observa el uso de 'le week-end' aunque es un anglicismo común."
+          },
+          {
+            "original": "C'est un petit village tranquille.",
+            "phonetic": "/sɛt‿ɛ̃ pəti vilaʒ tʁɑ̃kil/",
+            "translation": "Es un pueblo pequeño tranquilo.",
+            "note": "'Petit' se coloca delante del sustantivo (como en español 'pequeño'). 'Tranquille' es invariable en género."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Les lieux de ma ville",
+        "translation": "Los lugares de mi ciudad",
+        "examples": [
+          {
+            "original": "Il y a un marché en plein air chaque samedi.",
+            "phonetic": "/il i a ɛ̃ maʁʃe ɑ̃ plɛ̃ ɛʁ ʃak samdi/",
+            "translation": "Hay un mercado al aire libre cada sábado.",
+            "note": "Usamos 'il y a' (hay) para mencionar existencia. 'En plein air' significa 'al aire libre'."
+          },
+          {
+            "original": "Il y a une belle église au centre.",
+            "phonetic": "/il i a yn bɛl eɡliz o sɑ̃tʁ/",
+            "translation": "Hay una hermosa iglesia en el centro.",
+            "note": "'Belle' es la forma femenina de 'beau'. Observa la posición del adjetivo 'belle' delante del sustantivo (excepción)."
+          },
+          {
+            "original": "On trouve des cafés près de la gare.",
+            "phonetic": "/ɔ̃ tʁuv de kafe pʁe də la ɡaʁ/",
+            "translation": "Se pueden encontrar cafés cerca de la estación.",
+            "note": "'On' se usa coloquialmente para 'nosotros' o impersonal. 'Près de' significa 'cerca de'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Localiser et décrire",
+        "translation": "Ubicar y describir",
+        "examples": [
+          {
+            "original": "Le parc est derrière la mairie.",
+            "phonetic": "/lə paʁk ɛ dɛʁjɛʁ la mɛʁi/",
+            "translation": "El parque está detrás del ayuntamiento.",
+            "note": "Usamos 'derrière' para 'detrás de'. La preposición se coloca después del verbo 'être'."
+          },
+          {
+            "original": "Ma maison se situe à côté du fleuve.",
+            "phonetic": "/ma mɛzɔ̃ sə sitɥ a kote dy flœv/",
+            "translation": "Mi casa está situada al lado del río.",
+            "note": "La construcción 'se situer à côté de' es útil para ubicación. 'Du' es la contracción de 'de le'."
+          },
+          {
+            "original": "En été, la ville est très agréable.",
+            "phonetic": "/ɑ̃n ete la vil ɛ tʁɛ aɡʁeabl/",
+            "translation": "En verano, la ciudad es muy agradable.",
+            "note": "Observa la elisión: 'En été' se pronuncia con 'n' y 'la ville' es femenino. 'Très' intensifica el adjetivo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏙️",
+    "phonetic": "",
+    "translations": {
+      "es": "Describir tu ciudad o pueblo"
+    }
+  },
+  {
+    "id": "es_A2_conv_10",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Parler de ses loisirs / Hablar de aficiones y tiempo libre",
+    "bridge": "En español usamos el verbo 'gustar' con un pronombre de objeto indirecto (me gusta), mientras que en francés usamos 'aimer' con un pronombre sujeto directamente (j'aime). También ten en cuenta que el francés distingue entre 'jouer à' para deportes y juegos, y 'jouer de' para instrumentos musicales, algo que en español se resuelve con 'jugar a' y 'tocar' respectivamente. Otra diferencia clave: en francés se usa 'faire de' para muchas actividades de ocio (faire du vélo) que en español simplemente se expresan con el verbo 'hacer' o el infinitivo.",
+    "rule": "Para hablar de aficiones en francés A2:\n1. Usa 'aimer' + infinitivo para expresar gustos generales: J'aime lire (Me gusta leer). También 'adorer' (encantar) y 'détester' (odiar).\n2. Para actividades con 'jouer': se usa 'jouer à' + artículo contracto con deportes y juegos de pelota (jouer au football, jouer aux échecs). Se usa 'jouer de' + instrumento musical (jouer de la guitare, jouer du piano).\n3. Para actividades con 'faire': se usa 'faire de' + artículo contracto (faire du vélo, faire de la natation) para muchas actividades deportivas y de tiempo libre, especialmente con sustantivos.\n4. Los artículos contractos: à + le = au, à + la = à la, à + les = aux; de + le = du, de + la = de la, de + les = des.\n5. Para expresar frecuencia, coloca adverbios como 'souvent' (a menudo), 'parfois' (a veces), 'rarement' (raramente) después del verbo conjugado o al inicio de la frase.\n6. En negación, se usa 'ne... pas' rodeando al verbo, y el artículo indefinido o partitivo después de 'pas' se convierte en 'de' (je ne fais pas de sport).",
+    "concept_examples": [
+      {
+        "text": "J'aime lire des livres.",
+        "translation": "Me gusta leer libros.",
+        "phonetic": "/ʒɛm liʁ de livʁ/"
+      },
+      {
+        "text": "Je joue au tennis le week-end.",
+        "translation": "Juego al tenis los fines de semana.",
+        "phonetic": "/ʒə ʒu o tɛnis lə wikɛnd/"
+      },
+      {
+        "text": "Elle fait du vélo tous les matins.",
+        "translation": "Ella anda en bicicleta todas las mañanas.",
+        "phonetic": "/ɛl fɛ dy velo tu le matɛ̃/"
+      },
+      {
+        "text": "Nous aimons écouter de la musique.",
+        "translation": "Nos gusta escuchar música.",
+        "phonetic": "/nu zɛmɔ̃ ekute də la myzik/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je joue le piano.",
+      "correct": "Je joue du piano.",
+      "correct_alt": "Je joue au piano.",
+      "explanation": "En español decimos 'toco el piano' o 'juego al piano', pero en francés, para instrumentos musicales se usa 'jouer de', no 'jouer à'. La forma correcta es 'jouer du piano' (de + le). También se puede usar 'jouer au piano' en contextos coloquiales, pero 'jouer du' es más estándar para indicar habilidad musical. Recuerda: 'jouer à' es para deportes y juegos, 'jouer de' para instrumentos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Les activités préférées",
+        "translation": "Las actividades favoritas",
+        "examples": [
+          {
+            "original": "J'adore la natation.",
+            "phonetic": "/ʒadɔʁ la natasjɔ̃/",
+            "translation": "Me encanta la natación.",
+            "note": "Uso de 'adorer' + sustantivo para expresar un gusto fuerte. En español usamos 'encantar' con pronombre indirecto, pero aquí es directo."
+          },
+          {
+            "original": "Tu aimes le cinéma ?",
+            "phonetic": "/ty ɛm lə sinema/",
+            "translation": "¿Te gusta el cine?",
+            "note": "Pregunta informal con 'tu'. Atención a la pronunciación de 'aimes' que se oye como /ɛm/."
+          },
+          {
+            "original": "Je déteste le shopping.",
+            "phonetic": "/ʒə detɛst lə ʃɔpiŋ/",
+            "translation": "Odio ir de compras.",
+            "note": "Uso de 'détester' + sustantivo. En Francia se usa 'shopping' como préstamo del inglés."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Les sports et les jeux",
+        "translation": "Los deportes y juegos",
+        "examples": [
+          {
+            "original": "Je joue au football avec mes amis.",
+            "phonetic": "/ʒə ʒu o futbol avɛk me zami/",
+            "translation": "Juego al fútbol con mis amigos.",
+            "note": "Uso de 'jouer à' con deportes: 'au' = à + le. No confundir con 'je fais du football' (es menos común)."
+          },
+          {
+            "original": "Elle joue aux échecs.",
+            "phonetic": "/ɛl ʒu o zɛʃɛk/",
+            "translation": "Ella juega al ajedrez.",
+            "note": "Atención: 'aux' = à + les, porque 'échecs' es plural. En español decimos 'jugar al ajedrez', pero en francés se usa plural."
+          },
+          {
+            "original": "Nous faisons du sport tous les jours.",
+            "phonetic": "/nu fəzɔ̃ dy spɔʁ tu le ʒuʁ/",
+            "translation": "Hacemos deporte todos los días.",
+            "note": "Uso de 'faire de' + sustantivo. 'Faire du sport' es una expresión común para ejercicio."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Exprimer la fréquence",
+        "translation": "Expresar la frecuencia",
+        "examples": [
+          {
+            "original": "Je vais souvent à la piscine.",
+            "phonetic": "/ʒə vɛ suvɑ̃ a la pisɛ̃/",
+            "translation": "Voy a menudo a la piscina.",
+            "note": "El adverbio 'souvent' se coloca después del verbo conjugado. En español 'a menudo' suele ir al final."
+          },
+          {
+            "original": "Elle écoute parfois de la musique.",
+            "phonetic": "/ɛl ekut paʁfwa də la myzik/",
+            "translation": "Ella a veces escucha música.",
+            "note": "Adverbio 'parfois' en medio de la frase. En español 'a veces' puede variar de posición."
+          },
+          {
+            "original": "Je ne joue jamais aux jeux vidéo.",
+            "phonetic": "/ʒə nə ʒu ʒamɛ o ʒø vido/",
+            "translation": "Nunca juego a los videojuegos.",
+            "note": "Uso de 'ne... jamais' para expresar 'nunca'. El adverbio va después del verbo. Atención a la negación con 'ne' elidido a 'n'' antes de vocal."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "es": "Hablar de aficiones y tiempo libre"
+    }
+  }
+]

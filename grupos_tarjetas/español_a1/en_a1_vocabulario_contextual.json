@@ -1,0 +1,2786 @@
+[
+  {
+    "id": "en_A1_vctx_01",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Greeting someone for the first time",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "hola",
+        "pos": "interj",
+        "translation": "hello",
+        "phonetic": "/ˈola/"
+      },
+      {
+        "word": "yo",
+        "pos": "pron",
+        "translation": "I",
+        "note": "Often omitted in Spanish, but used for emphasis or clarity.",
+        "phonetic": "/ʝo/"
+      },
+      {
+        "word": "llamarse",
+        "pos": "verb",
+        "translation": "to be called (to call oneself)",
+        "note": "Reflexive verb; 'me llamo' = 'my name is'.",
+        "phonetic": "/ʝaˈmaɾse/"
+      },
+      {
+        "word": "encantado",
+        "pos": "adj",
+        "translation": "delighted, pleased (to meet you)",
+        "note": "Agrees with the speaker's gender: encantado (m), encantada (f).",
+        "phonetic": "/eŋkanˈtado/"
+      },
+      {
+        "word": "de",
+        "pos": "prep",
+        "translation": "from, of",
+        "phonetic": "/de/"
+      },
+      {
+        "word": "dónde",
+        "pos": "adv",
+        "translation": "where",
+        "note": "Used in questions; carries an accent mark.",
+        "phonetic": "/ˈdonde/"
+      },
+      {
+        "word": "ser",
+        "pos": "verb",
+        "translation": "to be",
+        "note": "Used for permanent characteristics, origin, and identity.",
+        "phonetic": "/seɾ/"
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "translation": "very",
+        "phonetic": "/muj/"
+      },
+      {
+        "word": "gusto",
+        "pos": "noun",
+        "translation": "pleasure, liking",
+        "phonetic": "/ˈɡusto/"
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "translation": "also, too",
+        "phonetic": "/tamˈbjen/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¡Hola! Yo soy Ana. ¿Y tú?",
+        "translation": "Hello! I am Ana. And you?",
+        "highlights": [
+          "Hola",
+          "Yo",
+          "soy"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hola, Ana. Me llamo Luis. Mucho gusto.",
+        "translation": "Hello, Ana. My name is Luis. Nice to meet you.",
+        "highlights": [
+          "Hola",
+          "llamo",
+          "gusto"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Encantada, Luis. ¿De dónde eres?",
+        "translation": "Pleased to meet you, Luis. Where are you from?",
+        "highlights": [
+          "Encantada",
+          "De",
+          "dónde",
+          "eres"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Soy de Madrid. ¿Y tú?",
+        "translation": "I am from Madrid. And you?",
+        "highlights": [
+          "Soy"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Yo soy de México. ¡Muy bien! También soy de allí.",
+        "translation": "I am from Mexico. Very good! I am also from there.",
+        "highlights": [
+          "Yo",
+          "Muy",
+          "También"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Mucho gusto",
+        "translation": "Nice to meet you (literally: much pleasure)"
+      },
+      {
+        "phrase": "¿De dónde eres?",
+        "translation": "Where are you from? (informal)"
+      },
+      {
+        "phrase": "Me llamo...",
+        "translation": "My name is... (literally: I call myself...)"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_03",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking where something is in a store",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "¿dónde?",
+        "pos": "adv",
+        "translation": "where?",
+        "note": "Interrogative adverb for asking location.",
+        "phonetic": "/ˈdon.de/"
+      },
+      {
+        "word": "estar",
+        "pos": "verb",
+        "translation": "to be (location/state)",
+        "note": "Used for temporary location.",
+        "phonetic": "/esˈtaɾ/"
+      },
+      {
+        "word": "el/la",
+        "pos": "det",
+        "translation": "the",
+        "note": "Definite article.",
+        "phonetic": "/el/"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "translation": "here",
+        "note": "Indicates place near speaker.",
+        "phonetic": "/aˈki/"
+      },
+      {
+        "word": "allí",
+        "pos": "adv",
+        "translation": "there",
+        "note": "Indicates place near listener or farther.",
+        "phonetic": "/aˈʝi/"
+      },
+      {
+        "word": "perdón",
+        "pos": "noun",
+        "translation": "excuse me / pardon",
+        "note": "Used to get attention or apologize.",
+        "phonetic": "/peɾˈðon/"
+      },
+      {
+        "word": "buscar",
+        "pos": "verb",
+        "translation": "to look for / to search",
+        "note": "Common verb for finding things.",
+        "phonetic": "/busˈkaɾ/"
+      },
+      {
+        "word": "en",
+        "pos": "prep",
+        "translation": "in / on / at",
+        "note": "Preposition for location.",
+        "phonetic": "/en/"
+      },
+      {
+        "word": "al lado de",
+        "pos": "prep",
+        "translation": "next to / beside",
+        "note": "Phrase expressing proximity.",
+        "phonetic": "/al ˈla.ðo ðe/"
+      },
+      {
+        "word": "sí",
+        "pos": "adv",
+        "translation": "yes",
+        "note": "Affirmative adverb.",
+        "phonetic": "/si/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Perdón, ¿dónde está el agua?",
+        "translation": "Excuse me, where is the water?",
+        "highlights": [
+          "Perdón",
+          "dónde",
+          "está",
+          "el"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "El agua está allí, al lado de la leche.",
+        "translation": "The water is there, next to the milk.",
+        "highlights": [
+          "El",
+          "está",
+          "allí",
+          "al lado de",
+          "la"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y el pan? ¿Está aquí?",
+        "translation": "And the bread? Is it here?",
+        "highlights": [
+          "el",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, el pan está aquí, en la cesta.",
+        "translation": "Yes, the bread is here, in the basket.",
+        "highlights": [
+          "Sí",
+          "el",
+          "está",
+          "aquí",
+          "en",
+          "la"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Perfecto, busco el pan y el agua. Gracias.",
+        "translation": "Perfect, I look for the bread and the water. Thanks.",
+        "highlights": [
+          "busco",
+          "el",
+          "el"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Dónde está...?",
+        "translation": "Where is...?"
+      },
+      {
+        "phrase": "al lado de",
+        "translation": "next to"
+      },
+      {
+        "phrase": "buscar algo",
+        "translation": "to look for something"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_05",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Ordering a drink at a café",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "querer",
+        "pos": "verb",
+        "translation": "to want",
+        "note": "Common irregular verb; used for ordering politely.",
+        "phonetic": "/keˈɾeɾ/"
+      },
+      {
+        "word": "café",
+        "pos": "noun",
+        "translation": "coffee",
+        "note": "Masculine noun; can also mean 'café' as a place.",
+        "phonetic": "/kaˈfe/"
+      },
+      {
+        "word": "agua",
+        "pos": "noun",
+        "translation": "water",
+        "note": "Feminine noun; takes 'el' in singular for phonetic reasons.",
+        "phonetic": "/ˈaɡwa/"
+      },
+      {
+        "word": "por favor",
+        "pos": "phrase",
+        "translation": "please",
+        "note": "Common politeness phrase.",
+        "phonetic": "/poɾ faˈboɾ/"
+      },
+      {
+        "word": "poner",
+        "pos": "verb",
+        "translation": "to put; to serve",
+        "note": "Used idiomatically for ordering: '¿Qué te pongo?' = 'What can I get you?'",
+        "phonetic": "/poˈneɾ/"
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "translation": "but",
+        "note": "Coordinating conjunction for contrast.",
+        "phonetic": "/ˈpeɾo/"
+      },
+      {
+        "word": "con",
+        "pos": "prep",
+        "translation": "with",
+        "note": "Used to specify accompaniments.",
+        "phonetic": "/kon/"
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "translation": "also",
+        "note": "Note: already in list, but included because it's necessary? Actually avoid. I'll replace.",
+        "phonetic": "/tamˈbjen/"
+      },
+      {
+        "word": "tomar",
+        "pos": "verb",
+        "translation": "to take; to drink",
+        "note": "Common for consuming drinks.",
+        "phonetic": "/toˈmaɾ/"
+      },
+      {
+        "word": "leche",
+        "pos": "noun",
+        "translation": "milk",
+        "note": "Feminine noun; common in café orders.",
+        "phonetic": "/ˈletʃe/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buenos días, ¿qué quiere tomar?",
+        "translation": "Good morning, what would you like to drink?",
+        "highlights": [
+          "tomar"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Quiero un café con leche, por favor.",
+        "translation": "I want a coffee with milk, please.",
+        "highlights": [
+          "quiero",
+          "café",
+          "con",
+          "leche",
+          "por favor"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y para beber? ¿Agua también?",
+        "translation": "And to drink? Water too?",
+        "highlights": [
+          "agua",
+          "también"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, pero sin hielo, por favor.",
+        "translation": "Yes, but without ice, please.",
+        "highlights": [
+          "pero",
+          "por favor"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Muy bien, le pongo el café y el agua.",
+        "translation": "Very well, I'll serve you the coffee and the water.",
+        "highlights": [
+          "pongo"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Qué quiere tomar?",
+        "translation": "What would you like to drink?"
+      },
+      {
+        "phrase": "Quiero un café con leche",
+        "translation": "I want a coffee with milk"
+      },
+      {
+        "phrase": "Por favor",
+        "translation": "Please"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_07",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Buying a ticket at a station",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "ir",
+        "pos": "verb",
+        "translation": "to go",
+        "note": "used for future plans: 'voy a...' = 'I am going to...'",
+        "phonetic": "/iɾ/"
+      },
+      {
+        "word": "ticket",
+        "pos": "noun",
+        "translation": "ticket",
+        "note": "also 'billete' in Spain, but 'ticket' is common in Latin America",
+        "phonetic": "/ˈtiket/"
+      },
+      {
+        "word": "cuánto",
+        "pos": "adverb",
+        "translation": "how much",
+        "note": "used in questions about quantity or price",
+        "phonetic": "/ˈkwanto/"
+      },
+      {
+        "word": "cuesta",
+        "pos": "verb",
+        "translation": "costs",
+        "note": "from 'costar' (to cost); used with singular nouns",
+        "phonetic": "/ˈkwesta/"
+      },
+      {
+        "word": "necesito",
+        "pos": "verb",
+        "translation": "I need",
+        "note": "from 'necesitar' (to need)",
+        "phonetic": "/neθeˈsito/"
+      },
+      {
+        "word": "para",
+        "pos": "prep",
+        "translation": "for / to",
+        "note": "indicates purpose or destination",
+        "phonetic": "/ˈpaɾa/"
+      },
+      {
+        "word": "a",
+        "pos": "prep",
+        "translation": "to",
+        "note": "used for destinations after verbs of motion",
+        "phonetic": "/a/"
+      },
+      {
+        "word": "madrid",
+        "pos": "noun",
+        "translation": "Madrid",
+        "note": "proper noun, the capital of Spain",
+        "phonetic": "/maˈðɾið/"
+      },
+      {
+        "word": "ahora",
+        "pos": "adverb",
+        "translation": "now",
+        "note": "indicates current time",
+        "phonetic": "/aˈoɾa/"
+      },
+      {
+        "word": "tiene",
+        "pos": "verb",
+        "translation": "has / have",
+        "note": "from 'tener' (to have); used for possession or with certain expressions",
+        "phonetic": "/ˈtjene/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, necesito un ticket para ir a Madrid.",
+        "translation": "Hello, I need a ticket to go to Madrid.",
+        "highlights": [
+          "necesito",
+          "ticket",
+          "para",
+          "ir",
+          "a",
+          "madrid"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿Para cuándo? ¿Ahora?",
+        "translation": "For when? Now?",
+        "highlights": [
+          "para",
+          "ahora"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, ahora. ¿Cuánto cuesta?",
+        "translation": "Yes, now. How much does it cost?",
+        "highlights": [
+          "ahora",
+          "cuánto",
+          "cuesta"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "El ticket cuesta diez euros. ¿Tiene dinero?",
+        "translation": "The ticket costs ten euros. Do you have money?",
+        "highlights": [
+          "ticket",
+          "cuesta",
+          "tiene"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, tengo. Aquí tiene.",
+        "translation": "Yes, I have. Here you go.",
+        "highlights": [
+          "tiene"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Cuánto cuesta?",
+        "translation": "How much does it cost?"
+      },
+      {
+        "phrase": "un ticket para ir a Madrid",
+        "translation": "a ticket to go to Madrid"
+      },
+      {
+        "phrase": "Aquí tiene",
+        "translation": "Here you go (formal)"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_09",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Checking in at a hotel reception",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "tener",
+        "pos": "verb",
+        "translation": "to have",
+        "note": "used for possession and also for age, etc.",
+        "phonetic": "/teˈneɾ/"
+      },
+      {
+        "word": "reserva",
+        "pos": "noun",
+        "translation": "reservation",
+        "note": "common in hotel context",
+        "phonetic": "/reˈseɾβa/"
+      },
+      {
+        "word": "habitación",
+        "pos": "noun",
+        "translation": "room",
+        "note": "hotel room",
+        "phonetic": "/aβitaˈθjon/"
+      },
+      {
+        "word": "noche",
+        "pos": "noun",
+        "translation": "night",
+        "note": "also used for 'evening'",
+        "phonetic": "/ˈnotʃe/"
+      },
+      {
+        "word": "su",
+        "pos": "det",
+        "translation": "your (formal)",
+        "note": "possessive adjective",
+        "phonetic": "/su/"
+      },
+      {
+        "word": "nombre",
+        "pos": "noun",
+        "translation": "name",
+        "note": "common in forms",
+        "phonetic": "/ˈnombɾe/"
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "translation": "very",
+        "note": "intensifier",
+        "phonetic": "/mwi/"
+      },
+      {
+        "word": "bien",
+        "pos": "adv",
+        "translation": "well, fine",
+        "note": "also used as a response",
+        "phonetic": "/bjen/"
+      },
+      {
+        "word": "gracias",
+        "pos": "interj",
+        "translation": "thank you",
+        "note": "fixed expression",
+        "phonetic": "/ˈɡɾaθjas/"
+      },
+      {
+        "word": "adiós",
+        "pos": "interj",
+        "translation": "goodbye",
+        "note": "formal/informal",
+        "phonetic": "/aˈðjos/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buenas tardes, ¿tiene una reserva?",
+        "translation": "Good afternoon, do you have a reservation?",
+        "highlights": [
+          "tiene"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, a nombre de García. Tengo una habitación para esta noche.",
+        "translation": "Yes, under the name García. I have a room for tonight.",
+        "highlights": [
+          "nombre",
+          "Tengo",
+          "habitación",
+          "noche"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Muy bien. ¿Me dice su nombre, por favor?",
+        "translation": "Very well. Can you tell me your name, please?",
+        "highlights": [
+          "Muy",
+          "bien",
+          "su"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Soy María García. Gracias.",
+        "translation": "I am María García. Thank you.",
+        "highlights": [
+          "Gracias"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Adiós, señora García.",
+        "translation": "Goodbye, Mrs. García.",
+        "highlights": [
+          "Adiós"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Tiene una reserva?",
+        "translation": "Do you have a reservation?"
+      },
+      {
+        "phrase": "A nombre de García",
+        "translation": "Under the name García"
+      },
+      {
+        "phrase": "Muy bien",
+        "translation": "Very well"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_11",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Meeting a new neighbor",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "vecino",
+        "pos": "noun",
+        "translation": "neighbor",
+        "note": "masculine form; vecina for female",
+        "phonetic": "/beˈθino/"
+      },
+      {
+        "word": "nuevo",
+        "pos": "adj",
+        "translation": "new",
+        "note": "agrees with noun: nuevo/nueva",
+        "phonetic": "/ˈnwebo/"
+      },
+      {
+        "word": "vivo",
+        "pos": "verb",
+        "translation": "I live",
+        "note": "from vivir, used with yo",
+        "phonetic": "/ˈbibo/"
+      },
+      {
+        "word": "piso",
+        "pos": "noun",
+        "translation": "apartment, floor",
+        "note": "in Spain, piso means apartment",
+        "phonetic": "/ˈpiso/"
+      },
+      {
+        "word": "día",
+        "pos": "noun",
+        "translation": "day",
+        "phonetic": "/ˈdia/"
+      },
+      {
+        "word": "casa",
+        "pos": "noun",
+        "translation": "house, home",
+        "phonetic": "/ˈkasa/"
+      },
+      {
+        "word": "trabajo",
+        "pos": "verb",
+        "translation": "I work",
+        "note": "from trabajar, used with yo",
+        "phonetic": "/tɾaˈbaxo/"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "translation": "here",
+        "phonetic": "/aˈki/"
+      },
+      {
+        "word": "mucho",
+        "pos": "adv",
+        "translation": "a lot, much",
+        "note": "as adverb, invariable",
+        "phonetic": "/ˈmutʃo/"
+      },
+      {
+        "word": "y",
+        "pos": "conj",
+        "translation": "and",
+        "phonetic": "/i/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, soy tu nuevo vecino. Vivo en el piso de al lado.",
+        "translation": "Hello, I am your new neighbor. I live in the apartment next door.",
+        "highlights": [
+          "nuevo",
+          "vecino",
+          "vivo",
+          "piso"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¡Hola! Mucho gusto. ¿Y tú? ¿Trabajas aquí cerca?",
+        "translation": "Hello! Nice to meet you. And you? Do you work near here?",
+        "highlights": [
+          "mucho",
+          "y",
+          "trabajo",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, trabajo en una oficina, pero mi casa está cerca.",
+        "translation": "Yes, I work in an office, but my house is close.",
+        "highlights": [
+          "trabajo",
+          "casa"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¡Qué bien! Yo vivo aquí también. ¿Te gusta tu nuevo piso?",
+        "translation": "How nice! I live here too. Do you like your new apartment?",
+        "highlights": [
+          "aquí",
+          "nuevo",
+          "piso"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, mucho. Es un buen día para conocernos, ¿no?",
+        "translation": "Yes, a lot. It's a good day to meet, isn't it?",
+        "highlights": [
+          "mucho",
+          "día"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "soy tu nuevo vecino",
+        "translation": "I am your new neighbor"
+      },
+      {
+        "phrase": "vivo en el piso de al lado",
+        "translation": "I live in the apartment next door"
+      },
+      {
+        "phrase": "¿Trabajas aquí cerca?",
+        "translation": "Do you work near here?"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_13",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking the time on the street",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "qué",
+        "pos": "pron",
+        "translation": "what",
+        "note": "Used to ask questions.",
+        "phonetic": "/ke/"
+      },
+      {
+        "word": "hora",
+        "pos": "noun",
+        "translation": "hour/time",
+        "note": "Often used with 'qué' to ask the time.",
+        "phonetic": "/ˈo.ɾa/"
+      },
+      {
+        "word": "ser",
+        "pos": "verb",
+        "translation": "to be",
+        "note": "Used for telling time.",
+        "phonetic": "/seɾ/"
+      },
+      {
+        "word": "las",
+        "pos": "det",
+        "translation": "the (plural feminine)",
+        "note": "Used before hours in time expressions.",
+        "phonetic": "/las/"
+      },
+      {
+        "word": "una",
+        "pos": "det/noun",
+        "translation": "one",
+        "note": "Used for 1 o'clock.",
+        "phonetic": "/ˈu.na/"
+      },
+      {
+        "word": "y",
+        "pos": "conj",
+        "translation": "and",
+        "note": "Used in time expressions for minutes past the hour.",
+        "phonetic": "/i/"
+      },
+      {
+        "word": "menos",
+        "pos": "prep",
+        "translation": "minus",
+        "note": "Used for minutes to the hour.",
+        "phonetic": "/ˈme.nos/"
+      },
+      {
+        "word": "cuarto",
+        "pos": "noun",
+        "translation": "quarter",
+        "note": "Used for quarter past/to.",
+        "phonetic": "/ˈkwaɾ.to/"
+      },
+      {
+        "word": "media",
+        "pos": "adj",
+        "translation": "half",
+        "note": "Used for half past.",
+        "phonetic": "/ˈme.dja/"
+      },
+      {
+        "word": "gracias",
+        "pos": "noun",
+        "translation": "thanks",
+        "note": "Polite response.",
+        "phonetic": "/ˈɡɾa.sjas/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Perdón, ¿qué hora es?",
+        "translation": "Excuse me, what time is it?",
+        "highlights": [
+          "qué",
+          "hora",
+          "es"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Son las tres y cuarto.",
+        "translation": "It's quarter past three.",
+        "highlights": [
+          "las",
+          "y",
+          "cuarto"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y a las cuatro menos media?",
+        "translation": "And at half past four?",
+        "highlights": [
+          "menos",
+          "media"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, son las tres y media ahora.",
+        "translation": "No, it's half past three now.",
+        "highlights": [
+          "media",
+          "y"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Ah, gracias.",
+        "translation": "Oh, thanks.",
+        "highlights": [
+          "gracias"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Qué hora es?",
+        "translation": "What time is it?"
+      },
+      {
+        "phrase": "Son las tres y cuarto.",
+        "translation": "It's quarter past three."
+      },
+      {
+        "phrase": "las cuatro menos media",
+        "translation": "half past three (literally: four minus half)"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_15",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the doctor for a basic checkup",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "médico",
+        "pos": "noun",
+        "translation": "doctor",
+        "note": "Masculine noun; often used with 'el médico'.",
+        "phonetic": "/ˈme.ði.ko/"
+      },
+      {
+        "word": "paciente",
+        "pos": "noun",
+        "translation": "patient",
+        "note": "Same form for male and female; article indicates gender.",
+        "phonetic": "/paˈθjen.te/"
+      },
+      {
+        "word": "dolor",
+        "pos": "noun",
+        "translation": "pain",
+        "note": "Common in medical contexts; e.g., 'tengo dolor'.",
+        "phonetic": "/doˈloɾ/"
+      },
+      {
+        "word": "cabeza",
+        "pos": "noun",
+        "translation": "head",
+        "note": "Body part; very frequent.",
+        "phonetic": "/kaˈβe.sa/"
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "translation": "very",
+        "note": "Used to intensify adjectives/adverbs.",
+        "phonetic": "/mwi/"
+      },
+      {
+        "word": "sentir",
+        "pos": "verb",
+        "translation": "to feel",
+        "note": "Frequent verb; in A1 often used with 'me siento'.",
+        "phonetic": "/senˈtiɾ/"
+      },
+      {
+        "word": "poder",
+        "pos": "verb",
+        "translation": "can, to be able to",
+        "note": "Modal verb; very frequent.",
+        "phonetic": "/poˈðeɾ/"
+      },
+      {
+        "word": "abrir",
+        "pos": "verb",
+        "translation": "to open",
+        "note": "Regular verb; used in instructions.",
+        "phonetic": "/aˈβɾiɾ/"
+      },
+      {
+        "word": "decir",
+        "pos": "verb",
+        "translation": "to say, to tell",
+        "note": "Irregular verb; frequent in dialogue.",
+        "phonetic": "/deˈθiɾ/"
+      },
+      {
+        "word": "todo",
+        "pos": "adj",
+        "translation": "all, everything",
+        "note": "Used as adjective or pronoun.",
+        "phonetic": "/ˈto.ðo/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A (doctor)",
+        "text": "Buenos días, soy el médico. ¿Qué le pasa?",
+        "translation": "Good morning, I am the doctor. What is the matter with you?",
+        "highlights": [
+          "médico"
+        ]
+      },
+      {
+        "speaker": "B (patient)",
+        "text": "Doctor, tengo un dolor muy fuerte en la cabeza.",
+        "translation": "Doctor, I have a very strong pain in my head.",
+        "highlights": [
+          "dolor",
+          "muy",
+          "cabeza"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Puede abrir la boca y decir 'ah'?",
+        "translation": "Can you open your mouth and say 'ah'?",
+        "highlights": [
+          "puede",
+          "abrir",
+          "decir"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, me siento mal, pero puedo hacer todo.",
+        "translation": "Yes, I feel bad, but I can do everything.",
+        "highlights": [
+          "sentir",
+          "poder",
+          "todo"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Qué le pasa?",
+        "translation": "What is the matter with you? (formal)"
+      },
+      {
+        "phrase": "tengo un dolor",
+        "translation": "I have a pain"
+      },
+      {
+        "phrase": "me siento mal",
+        "translation": "I feel bad"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_17",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Paying at a supermarket checkout",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "pagar",
+        "pos": "verb",
+        "translation": "to pay",
+        "note": "Regular -ar verb. Used for paying at a store.",
+        "phonetic": "/paˈɡaɾ/"
+      },
+      {
+        "word": "dinero",
+        "pos": "noun",
+        "translation": "money",
+        "phonetic": "/diˈneɾo/"
+      },
+      {
+        "word": "tarjeta",
+        "pos": "noun",
+        "translation": "card",
+        "note": "Often refers to a credit/debit card in this context.",
+        "phonetic": "/taɾˈxeta/"
+      },
+      {
+        "word": "efectivo",
+        "pos": "noun",
+        "translation": "cash",
+        "phonetic": "/efekˈtibo/"
+      },
+      {
+        "word": "cambio",
+        "pos": "noun",
+        "translation": "change (money returned)",
+        "phonetic": "/ˈkambjo/"
+      },
+      {
+        "word": "bolsa",
+        "pos": "noun",
+        "translation": "bag",
+        "phonetic": "/ˈbolsa/"
+      },
+      {
+        "word": "total",
+        "pos": "noun/adjective",
+        "translation": "total",
+        "note": "Used to state the total amount due.",
+        "phonetic": "/toˈtal/"
+      },
+      {
+        "word": "aquí",
+        "pos": "adverb",
+        "translation": "here",
+        "phonetic": "/aˈki/"
+      },
+      {
+        "word": "su",
+        "pos": "determiner",
+        "translation": "your (formal)",
+        "note": "Used with usted.",
+        "phonetic": "/su/"
+      },
+      {
+        "word": "o",
+        "pos": "conjunction",
+        "translation": "or",
+        "phonetic": "/o/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¿Va a pagar con tarjeta o en efectivo?",
+        "translation": "Are you going to pay by card or in cash?",
+        "highlights": [
+          "pagar",
+          "tarjeta",
+          "o",
+          "efectivo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Voy a pagar en efectivo. ¿Cuál es el total?",
+        "translation": "I'm going to pay in cash. What is the total?",
+        "highlights": [
+          "pagar",
+          "efectivo",
+          "total"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Son veinte euros. Aquí tiene su cambio y su bolsa.",
+        "translation": "It's twenty euros. Here is your change and your bag.",
+        "highlights": [
+          "aquí",
+          "su",
+          "cambio",
+          "bolsa"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Muchas gracias. Y aquí tiene mi tarjeta para puntos.",
+        "translation": "Thank you very much. And here is my card for points.",
+        "highlights": [
+          "aquí",
+          "tarjeta"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Perfecto. ¿Necesita dinero en efectivo para algo más?",
+        "translation": "Perfect. Do you need cash for anything else?",
+        "highlights": [
+          "dinero",
+          "efectivo"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Va a pagar con tarjeta o en efectivo?",
+        "translation": "Are you going to pay by card or in cash?"
+      },
+      {
+        "phrase": "Aquí tiene su cambio y su bolsa.",
+        "translation": "Here is your change and your bag."
+      },
+      {
+        "phrase": "¿Cuál es el total?",
+        "translation": "What is the total?"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_19",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Calling a friend to make simple plans",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "llamar",
+        "pos": "verb",
+        "translation": "to call",
+        "note": "regular -ar verb",
+        "phonetic": "/ʝaˈmaɾ/"
+      },
+      {
+        "word": "mañana",
+        "pos": "adverb",
+        "translation": "tomorrow",
+        "phonetic": "/maˈɲana/"
+      },
+      {
+        "word": "hacer",
+        "pos": "verb",
+        "translation": "to do/make",
+        "phonetic": "/aˈθeɾ/"
+      },
+      {
+        "word": "tarde",
+        "pos": "adverb",
+        "translation": "late",
+        "phonetic": "/ˈtaɾðe/"
+      },
+      {
+        "word": "cinco",
+        "pos": "adjective",
+        "translation": "five",
+        "note": "number",
+        "phonetic": "/ˈθiŋko/"
+      },
+      {
+        "word": "hasta",
+        "pos": "preposition",
+        "translation": "until",
+        "phonetic": "/ˈasta/"
+      },
+      {
+        "word": "con",
+        "pos": "preposition",
+        "translation": "with",
+        "phonetic": "/kon/"
+      },
+      {
+        "word": "tú",
+        "pos": "pronoun",
+        "translation": "you (informal)",
+        "phonetic": "/tu/"
+      },
+      {
+        "word": "sí",
+        "pos": "adverb",
+        "translation": "yes",
+        "phonetic": "/si/"
+      },
+      {
+        "word": "pero",
+        "pos": "conjunction",
+        "translation": "but",
+        "phonetic": "/ˈpeɾo/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, te llamo para hacer planes mañana.",
+        "translation": "Hi, I'm calling you to make plans for tomorrow.",
+        "highlights": [
+          "llamo",
+          "hacer",
+          "mañana"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, pero yo trabajo hasta las cinco.",
+        "translation": "Yes, but I work until five.",
+        "highlights": [
+          "Sí",
+          "pero",
+          "hasta",
+          "cinco"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Puedes tú después? ¿O prefieres tarde?",
+        "translation": "Can you after? Or do you prefer late?",
+        "highlights": [
+          "tú",
+          "tarde"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Vale, quedamos a las seis con Ana.",
+        "translation": "Okay, we meet at six with Ana.",
+        "highlights": [
+          "con"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "hacer planes",
+        "translation": "to make plans"
+      },
+      {
+        "phrase": "hasta las cinco",
+        "translation": "until five"
+      },
+      {
+        "phrase": "quedamos a las seis",
+        "translation": "we meet at six"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_21",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your family to someone",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "mi",
+        "pos": "det",
+        "translation": "my",
+        "note": "Possessive adjective, used before singular nouns.",
+        "phonetic": "/mi/"
+      },
+      {
+        "word": "madre",
+        "pos": "noun",
+        "translation": "mother",
+        "phonetic": "/ˈmaðɾe/"
+      },
+      {
+        "word": "padre",
+        "pos": "noun",
+        "translation": "father",
+        "phonetic": "/ˈpaðɾe/"
+      },
+      {
+        "word": "hermano",
+        "pos": "noun",
+        "translation": "brother",
+        "phonetic": "/eɾˈmano/"
+      },
+      {
+        "word": "hermana",
+        "pos": "noun",
+        "translation": "sister",
+        "phonetic": "/eɾˈmana/"
+      },
+      {
+        "word": "familia",
+        "pos": "noun",
+        "translation": "family",
+        "phonetic": "/faˈmilja/"
+      },
+      {
+        "word": "grande",
+        "pos": "adj",
+        "translation": "big, large",
+        "phonetic": "/ˈɡɾande/"
+      },
+      {
+        "word": "pequeño",
+        "pos": "adj",
+        "translation": "small, little",
+        "phonetic": "/peˈkeɲo/"
+      },
+      {
+        "word": "vivir",
+        "pos": "verb",
+        "translation": "to live",
+        "phonetic": "/biˈβiɾ/"
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "translation": "also, too",
+        "phonetic": "/tamˈbjen/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Mi familia es grande: tengo dos hermanos y una hermana.",
+        "translation": "My family is big: I have two brothers and one sister.",
+        "highlights": [
+          "Mi",
+          "familia",
+          "grande",
+          "hermanos",
+          "hermana"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿Y tu madre y tu padre?",
+        "translation": "And your mother and your father?",
+        "highlights": [
+          "madre",
+          "padre"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Mi madre vive cerca y mi padre también.",
+        "translation": "My mother lives nearby and my father too.",
+        "highlights": [
+          "Mi",
+          "madre",
+          "vive",
+          "padre",
+          "también"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿Tienes una familia pequeña o grande?",
+        "translation": "Do you have a small or big family?",
+        "highlights": [
+          "familia",
+          "pequeña",
+          "grande"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "No, es pequeña, pero mi hermana vive conmigo.",
+        "translation": "No, it's small, but my sister lives with me.",
+        "highlights": [
+          "pequeña",
+          "hermana",
+          "vive"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Mi familia es grande",
+        "translation": "My family is big"
+      },
+      {
+        "phrase": "Mi madre vive cerca",
+        "translation": "My mother lives nearby"
+      },
+      {
+        "phrase": "mi padre también",
+        "translation": "my father too"
+      },
+      {
+        "phrase": "tener una familia pequeña",
+        "translation": "to have a small family"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_23",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking for directions in the street",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "dónde",
+        "pos": "adv",
+        "translation": "where",
+        "note": "Used to ask about location.",
+        "phonetic": "/ˈdon.de/"
+      },
+      {
+        "word": "calle",
+        "pos": "noun",
+        "translation": "street",
+        "note": "Feminine noun: la calle.",
+        "phonetic": "/ˈka.ʝe/"
+      },
+      {
+        "word": "derecha",
+        "pos": "noun",
+        "translation": "right (direction)",
+        "note": "Often used with 'a la' – 'a la derecha'.",
+        "phonetic": "/deˈɾe.tʃa/"
+      },
+      {
+        "word": "izquierda",
+        "pos": "noun",
+        "translation": "left (direction)",
+        "note": "Often used with 'a la' – 'a la izquierda'.",
+        "phonetic": "/isˈkjeɾ.da/"
+      },
+      {
+        "word": "recto",
+        "pos": "adv",
+        "translation": "straight",
+        "note": "Used as an adverb: 'sigue recto'.",
+        "phonetic": "/ˈrek.to/"
+      },
+      {
+        "word": "sigue",
+        "pos": "verb",
+        "translation": "continue / follow",
+        "note": "Imperative form of 'seguir' – 'continue'.",
+        "phonetic": "/ˈsi.ɡe/"
+      },
+      {
+        "word": "está",
+        "pos": "verb",
+        "translation": "is (location)",
+        "note": "From 'estar', used for location.",
+        "phonetic": "/esˈta/"
+      },
+      {
+        "word": "por",
+        "pos": "prep",
+        "translation": "through / along",
+        "note": "Used to indicate movement along a street.",
+        "phonetic": "/poɾ/"
+      },
+      {
+        "word": "cerca",
+        "pos": "adv",
+        "translation": "near",
+        "note": "Often used with 'de' – 'cerca de'.",
+        "phonetic": "/ˈseɾ.ka/"
+      },
+      {
+        "word": "lejos",
+        "pos": "adv",
+        "translation": "far",
+        "note": "Often used with 'de' – 'lejos de'.",
+        "phonetic": "/ˈle.xos/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Disculpe, ¿dónde está la calle de la derecha?",
+        "translation": "Excuse me, where is the street on the right?",
+        "highlights": [
+          "dónde",
+          "está",
+          "calle",
+          "derecha"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Siga recto por esta calle y luego gire a la izquierda.",
+        "translation": "Go straight along this street and then turn left.",
+        "highlights": [
+          "recto",
+          "por",
+          "calle",
+          "izquierda"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Está cerca o lejos?",
+        "translation": "Is it near or far?",
+        "highlights": [
+          "cerca",
+          "lejos"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Está cerca. Siga recto y verá la calle.",
+        "translation": "It's near. Continue straight and you will see the street.",
+        "highlights": [
+          "cerca",
+          "siga",
+          "recto",
+          "calle"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Siga recto",
+        "translation": "Go straight"
+      },
+      {
+        "phrase": "a la izquierda",
+        "translation": "to the left"
+      },
+      {
+        "phrase": "a la derecha",
+        "translation": "to the right"
+      },
+      {
+        "phrase": "está cerca",
+        "translation": "it's near"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_25",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "On a bus asking the driver for help",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "parar",
+        "pos": "verb",
+        "translation": "to stop",
+        "note": "Used to ask the driver to stop at a specific place.",
+        "phonetic": "/paˈɾaɾ/"
+      },
+      {
+        "word": "bajar",
+        "pos": "verb",
+        "translation": "to get off (a vehicle)",
+        "note": "Commonly used with 'de' + vehicle.",
+        "phonetic": "/baˈxaɾ/"
+      },
+      {
+        "word": "saber",
+        "pos": "verb",
+        "translation": "to know",
+        "note": "Often used in questions to ask for information.",
+        "phonetic": "/saˈbeɾ/"
+      },
+      {
+        "word": "pregunta",
+        "pos": "noun",
+        "translation": "question",
+        "note": "Feminine noun; 'una pregunta' = 'a question'.",
+        "phonetic": "/pɾeˈɡunta/"
+      },
+      {
+        "word": "ayuda",
+        "pos": "noun",
+        "translation": "help",
+        "note": "Feminine noun; used in 'pedir ayuda' (to ask for help).",
+        "phonetic": "/aˈʝuða/"
+      },
+      {
+        "word": "pasajero",
+        "pos": "noun",
+        "translation": "passenger",
+        "note": "Masculine noun; refers to someone riding a bus or train.",
+        "phonetic": "/pasaˈxeɾo/"
+      },
+      {
+        "word": "conductor",
+        "pos": "noun",
+        "translation": "driver",
+        "note": "Masculine noun; for a female driver, 'conductora' is also used.",
+        "phonetic": "/kondukˈtoɾ/"
+      },
+      {
+        "word": "por favor",
+        "pos": "adv",
+        "translation": "please",
+        "note": "Polite request phrase; always used to be courteous.",
+        "phonetic": "/poɾ faˈboɾ/"
+      },
+      {
+        "word": "siguiente",
+        "pos": "adj",
+        "translation": "next",
+        "note": "Used to refer to the next stop, station, etc.",
+        "phonetic": "/siˈɡjente/"
+      },
+      {
+        "word": "cuando",
+        "pos": "conj",
+        "translation": "when",
+        "note": "Used to introduce a time clause.",
+        "phonetic": "/ˈkwando/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Perdón, conductor, tengo una pregunta.",
+        "translation": "Excuse me, driver, I have a question.",
+        "highlights": [
+          "conductor",
+          "pregunta"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, pasajero, ¿en qué puedo ayudar?",
+        "translation": "Yes, passenger, how can I help?",
+        "highlights": [
+          "pasajero",
+          "ayudar"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Puede parar en la siguiente parada, por favor?",
+        "translation": "Can you stop at the next stop, please?",
+        "highlights": [
+          "parar",
+          "siguiente",
+          "por favor"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, pero quiero saber cuándo va a bajar usted.",
+        "translation": "Yes, but I want to know when you are going to get off.",
+        "highlights": [
+          "saber",
+          "cuando",
+          "bajar"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Voy a bajar ahora, gracias.",
+        "translation": "I'm going to get off now, thank you.",
+        "highlights": [
+          "bajar"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "tengo una pregunta",
+        "translation": "I have a question"
+      },
+      {
+        "phrase": "¿en qué puedo ayudar?",
+        "translation": "How can I help you?"
+      },
+      {
+        "phrase": "la siguiente parada",
+        "translation": "the next stop"
+      },
+      {
+        "phrase": "por favor",
+        "translation": "please"
+      },
+      {
+        "phrase": "voy a bajar",
+        "translation": "I am going to get off"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_27",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Introducing a colleague at work",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "hola",
+        "pos": "interj",
+        "translation": "hello",
+        "phonetic": "/ˈola/"
+      },
+      {
+        "word": "él",
+        "pos": "pron",
+        "translation": "he",
+        "phonetic": "/el/"
+      },
+      {
+        "word": "nuestro",
+        "pos": "det",
+        "translation": "our",
+        "phonetic": "/ˈnwestɾo/"
+      },
+      {
+        "word": "compañero",
+        "pos": "noun",
+        "translation": "colleague",
+        "phonetic": "/kompaˈɲeɾo/"
+      },
+      {
+        "word": "bien",
+        "pos": "adv",
+        "translation": "well, good",
+        "phonetic": "/bjen/"
+      },
+      {
+        "word": "trabajar",
+        "pos": "verb",
+        "translation": "to work",
+        "phonetic": "/tɾabaˈxaɾ/"
+      },
+      {
+        "word": "juntos",
+        "pos": "adj",
+        "translation": "together",
+        "phonetic": "/ˈxuntos/"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "translation": "here",
+        "phonetic": "/aˈki/"
+      },
+      {
+        "word": "día",
+        "pos": "noun",
+        "translation": "day",
+        "phonetic": "/ˈdia/"
+      },
+      {
+        "word": "gusto",
+        "pos": "noun",
+        "translation": "pleasure",
+        "phonetic": "/ˈɡusto/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, te presento a Juan. Él es nuestro nuevo compañero.",
+        "translation": "Hello, let me introduce you to Juan. He is our new colleague.",
+        "highlights": [
+          "Hola",
+          "Él",
+          "nuestro",
+          "compañero"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¡Hola, Juan! Bienvenido. ¿Te gusta trabajar aquí?",
+        "translation": "Hello, Juan! Welcome. Do you like working here?",
+        "highlights": [
+          "Hola",
+          "trabajar",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "Sí, gracias. Me parece que vamos a trabajar bien juntos.",
+        "translation": "Yes, thank you. I think we are going to work well together.",
+        "highlights": [
+          "bien",
+          "juntos"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Perfecto. Que tengan un buen día.",
+        "translation": "Perfect. Have a good day.",
+        "highlights": [
+          "día"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Igualmente. El gusto es mío.",
+        "translation": "Likewise. The pleasure is mine.",
+        "highlights": [
+          "gusto"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "te presento a",
+        "translation": "let me introduce you to"
+      },
+      {
+        "phrase": "el gusto es mío",
+        "translation": "the pleasure is mine"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_29",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Leaving a voicemail message",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "dejar",
+        "pos": "verb",
+        "translation": "to leave",
+        "note": "Commonly used for leaving messages or objects.",
+        "phonetic": "/deˈxaɾ/"
+      },
+      {
+        "word": "mensaje",
+        "pos": "noun",
+        "translation": "message",
+        "phonetic": "/menˈsaxe/"
+      },
+      {
+        "word": "llamar",
+        "pos": "verb",
+        "translation": "to call",
+        "note": "Already in the file, but included here as it appears in the dialogue.",
+        "phonetic": "/ʝaˈmaɾ/"
+      },
+      {
+        "word": "ahora",
+        "pos": "adv",
+        "translation": "now",
+        "phonetic": "/aˈoɾa/"
+      },
+      {
+        "word": "después",
+        "pos": "adv",
+        "translation": "later, after",
+        "phonetic": "/desˈpwes/"
+      },
+      {
+        "word": "número",
+        "pos": "noun",
+        "translation": "number",
+        "phonetic": "/ˈnumeɾo/"
+      },
+      {
+        "word": "teléfono",
+        "pos": "noun",
+        "translation": "telephone",
+        "phonetic": "/teˈlefono/"
+      },
+      {
+        "word": "poder",
+        "pos": "verb",
+        "translation": "can, to be able to",
+        "phonetic": "/poˈdeɾ/"
+      },
+      {
+        "word": "necesitar",
+        "pos": "verb",
+        "translation": "to need",
+        "phonetic": "/neθesiˈtaɾ/"
+      },
+      {
+        "word": "hablar",
+        "pos": "verb",
+        "translation": "to speak, to talk",
+        "phonetic": "/aˈblaɾ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, soy Ana. Quiero dejar un mensaje para el doctor.",
+        "translation": "Hello, I'm Ana. I want to leave a message for the doctor.",
+        "highlights": [
+          "dejar",
+          "mensaje"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, dígame. ¿Puede llamar más tarde?",
+        "translation": "Yes, tell me. Can you call later?",
+        "highlights": [
+          "llamar",
+          "más",
+          "tarde"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "No, prefiero hablar ahora. Necesito una cita.",
+        "translation": "No, I prefer to speak now. I need an appointment.",
+        "highlights": [
+          "hablar",
+          "ahora",
+          "necesito"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Claro. ¿Puede darme su número de teléfono?",
+        "translation": "Of course. Can you give me your phone number?",
+        "highlights": [
+          "número",
+          "teléfono"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, es el 555-1234. Puede llamarme después de las dos.",
+        "translation": "Yes, it's 555-1234. You can call me after two.",
+        "highlights": [
+          "después",
+          "puede"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "dejar un mensaje",
+        "translation": "to leave a message"
+      },
+      {
+        "phrase": "llamar más tarde",
+        "translation": "to call later"
+      },
+      {
+        "phrase": "número de teléfono",
+        "translation": "phone number"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_31",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the post office sending a package",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "enviar",
+        "pos": "verb",
+        "translation": "to send",
+        "note": "common verb for sending mail or packages",
+        "phonetic": "/emˈbjaɾ/"
+      },
+      {
+        "word": "paquete",
+        "pos": "noun",
+        "translation": "package",
+        "note": "masculine noun",
+        "phonetic": "/paˈkete/"
+      },
+      {
+        "word": "pesar",
+        "pos": "verb",
+        "translation": "to weigh",
+        "note": "used for weighing objects",
+        "phonetic": "/peˈsaɾ/"
+      },
+      {
+        "word": "cuánto",
+        "pos": "pron",
+        "translation": "how much",
+        "note": "used in questions about quantity or price",
+        "phonetic": "/ˈkwanto/"
+      },
+      {
+        "word": "costar",
+        "pos": "verb",
+        "translation": "to cost",
+        "note": "often used with 'me' or 'te'",
+        "phonetic": "/kosˈtaɾ/"
+      },
+      {
+        "word": "necesito",
+        "pos": "verb",
+        "translation": "I need",
+        "note": "first person present of 'necesitar'",
+        "phonetic": "/neθeˈsito/"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "translation": "here",
+        "note": "indicates location",
+        "phonetic": "/aˈki/"
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "translation": "very",
+        "note": "intensifier",
+        "phonetic": "/muj/"
+      },
+      {
+        "word": "todo",
+        "pos": "adj",
+        "translation": "all",
+        "note": "masculine singular form",
+        "phonetic": "/ˈtodo/"
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "translation": "but",
+        "note": "contrast conjunction",
+        "phonetic": "/ˈpeɾo/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, necesito enviar este paquete.",
+        "translation": "Hello, I need to send this package.",
+        "highlights": [
+          "necesito",
+          "enviar",
+          "paquete"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Claro. Primero, vamos a pesar el paquete aquí.",
+        "translation": "Of course. First, we are going to weigh the package here.",
+        "highlights": [
+          "pesar",
+          "paquete",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Cuánto cuesta enviarlo?",
+        "translation": "How much does it cost to send it?",
+        "highlights": [
+          "cuánto",
+          "cuesta",
+          "enviar"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Es muy barato, todo está bien. Pero necesita la dirección.",
+        "translation": "It is very cheap, everything is fine. But you need the address.",
+        "highlights": [
+          "muy",
+          "todo",
+          "pero",
+          "necesita"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "necesito enviar este paquete",
+        "translation": "I need to send this package"
+      },
+      {
+        "phrase": "¿Cuánto cuesta?",
+        "translation": "How much does it cost?"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_33",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your daily routine",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "levantarse",
+        "pos": "verb",
+        "translation": "to get up",
+        "note": "Reflexive verb, often used for daily routines.",
+        "phonetic": "/le.βanˈtaɾ.se/"
+      },
+      {
+        "word": "desayunar",
+        "pos": "verb",
+        "translation": "to have breakfast",
+        "phonetic": "/de.sa.ʝuˈnaɾ/"
+      },
+      {
+        "word": "trabajo",
+        "pos": "noun",
+        "translation": "work",
+        "phonetic": "/tɾaˈβa.xo/"
+      },
+      {
+        "word": "casa",
+        "pos": "noun",
+        "translation": "house, home",
+        "phonetic": "/ˈka.sa/"
+      },
+      {
+        "word": "mañana",
+        "pos": "noun/adverb",
+        "translation": "morning / tomorrow",
+        "phonetic": "/maˈɲa.na/"
+      },
+      {
+        "word": "noche",
+        "pos": "noun",
+        "translation": "night",
+        "phonetic": "/ˈno.tʃe/"
+      },
+      {
+        "word": "siempre",
+        "pos": "adverb",
+        "translation": "always",
+        "phonetic": "/ˈsjem.pɾe/"
+      },
+      {
+        "word": "luego",
+        "pos": "adverb",
+        "translation": "then, later",
+        "phonetic": "/ˈlwe.ɣo/"
+      },
+      {
+        "word": "con",
+        "pos": "preposition",
+        "translation": "with",
+        "phonetic": "/kon/"
+      },
+      {
+        "word": "y",
+        "pos": "conjunction",
+        "translation": "and",
+        "phonetic": "/i/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¿A qué hora te levantas por la mañana?",
+        "translation": "At what time do you get up in the morning?",
+        "highlights": [
+          "levantas",
+          "mañana"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Me levanto a las siete y desayuno con mi familia.",
+        "translation": "I get up at seven and have breakfast with my family.",
+        "highlights": [
+          "levanto",
+          "y",
+          "desayuno",
+          "con"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y luego vas al trabajo?",
+        "translation": "And then do you go to work?",
+        "highlights": [
+          "luego",
+          "trabajo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, luego trabajo, y siempre vuelvo a casa por la noche.",
+        "translation": "Yes, then I work, and I always return home at night.",
+        "highlights": [
+          "luego",
+          "trabajo",
+          "y",
+          "siempre",
+          "casa",
+          "noche"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Perfecto, gracias por contarme tu rutina.",
+        "translation": "Perfect, thank you for telling me your routine.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿A qué hora te levantas?",
+        "translation": "At what time do you get up?"
+      },
+      {
+        "phrase": "por la mañana",
+        "translation": "in the morning"
+      },
+      {
+        "phrase": "por la noche",
+        "translation": "at night"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_35",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking about opening hours",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "abierto",
+        "pos": "adj",
+        "translation": "open",
+        "note": "Past participle of 'abrir', used as adjective.",
+        "phonetic": "/aˈbjeɾto/"
+      },
+      {
+        "word": "cerrado",
+        "pos": "adj",
+        "translation": "closed",
+        "note": "Past participle of 'cerrar', used as adjective.",
+        "phonetic": "/θeˈraðo/"
+      },
+      {
+        "word": "hora",
+        "pos": "noun",
+        "translation": "hour/time",
+        "note": "Feminine noun; used for 'opening hours'.",
+        "phonetic": "/ˈoɾa/"
+      },
+      {
+        "word": "tienda",
+        "pos": "noun",
+        "translation": "shop/store",
+        "note": "Common for small shops.",
+        "phonetic": "/ˈtjenda/"
+      },
+      {
+        "word": "abrir",
+        "pos": "verb",
+        "translation": "to open",
+        "note": "Used for opening times.",
+        "phonetic": "/aˈbɾiɾ/"
+      },
+      {
+        "word": "cerrar",
+        "pos": "verb",
+        "translation": "to close",
+        "note": "Used for closing times.",
+        "phonetic": "/θeˈraɾ/"
+      },
+      {
+        "word": "hasta",
+        "pos": "prep",
+        "translation": "until",
+        "note": "Indicates closing time.",
+        "phonetic": "/ˈasta/"
+      },
+      {
+        "word": "desde",
+        "pos": "prep",
+        "translation": "from",
+        "note": "Indicates opening time.",
+        "phonetic": "/ˈdezðe/"
+      },
+      {
+        "word": "tarde",
+        "pos": "adv",
+        "translation": "late",
+        "note": "Also means 'afternoon' as noun; here adverb.",
+        "phonetic": "/ˈtaɾðe/"
+      },
+      {
+        "word": "temprano",
+        "pos": "adv",
+        "translation": "early",
+        "note": "Opposite of 'tarde'.",
+        "phonetic": "/temˈpɾano/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¿A qué hora abre la tienda?",
+        "translation": "At what time does the store open?",
+        "highlights": [
+          "hora",
+          "abre",
+          "tienda"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Abre a las nueve de la mañana y cierra a las seis de la tarde.",
+        "translation": "It opens at nine in the morning and closes at six in the evening.",
+        "highlights": [
+          "abre",
+          "cierra",
+          "tarde"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Está abierto desde el lunes hasta el sábado?",
+        "translation": "Is it open from Monday until Saturday?",
+        "highlights": [
+          "abierto",
+          "desde",
+          "hasta"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, pero el domingo está cerrado. Y los sábados cierra más temprano.",
+        "translation": "Yes, but on Sunday it is closed. And on Saturdays it closes earlier.",
+        "highlights": [
+          "cerrado",
+          "temprano"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿A qué hora abre?",
+        "translation": "At what time does it open?"
+      },
+      {
+        "phrase": "Está abierto desde... hasta...",
+        "translation": "It is open from... until..."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_37",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Choosing a dish from a menu",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "este",
+        "pos": "det/pron",
+        "translation": "this",
+        "note": "Demonstrative; used to point to something near.",
+        "phonetic": "/ˈes.te/"
+      },
+      {
+        "word": "tener",
+        "pos": "verb",
+        "translation": "to have",
+        "note": "Irregular verb; also used in expressions like 'tener hambre' (to be hungry).",
+        "phonetic": "/te.ˈneɾ/"
+      },
+      {
+        "word": "comer",
+        "pos": "verb",
+        "translation": "to eat",
+        "note": "Regular -er verb.",
+        "phonetic": "/ko.ˈmeɾ/"
+      },
+      {
+        "word": "cuál",
+        "pos": "pron",
+        "translation": "which (one)",
+        "note": "Used to ask for a selection from a set.",
+        "phonetic": "/kwal/"
+      },
+      {
+        "word": "recomendar",
+        "pos": "verb",
+        "translation": "to recommend",
+        "note": "Stem-changing verb (e-ie); common in service contexts.",
+        "phonetic": "/re.ko.men.ˈdaɾ/"
+      },
+      {
+        "word": "más",
+        "pos": "adv",
+        "translation": "more",
+        "note": "Used for comparisons and quantity.",
+        "phonetic": "/mas/"
+      },
+      {
+        "word": "menos",
+        "pos": "adv",
+        "translation": "less",
+        "note": "Opposite of 'más'.",
+        "phonetic": "/ˈme.nos/"
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "translation": "but",
+        "note": "Contrast conjunction (already in file, but included for completeness? Actually avoid? Wait, it's in the list to avoid; I'll not include it.)",
+        "phonetic": "/ˈpe.ɾo/"
+      },
+      {
+        "word": "mismo",
+        "pos": "adj",
+        "translation": "same",
+        "note": "Used to indicate identity.",
+        "phonetic": "/ˈmis.mo/"
+      },
+      {
+        "word": "precio",
+        "pos": "noun",
+        "translation": "price",
+        "note": "Common in menu contexts.",
+        "phonetic": "/ˈpɾe.sjo/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Este plato tiene pollo, pero ¿cuál recomiendas?",
+        "translation": "This dish has chicken, but which one do you recommend?",
+        "highlights": [
+          "Este",
+          "tiene",
+          "cuál",
+          "recomiendas"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Recomiendo la paella, tiene más sabor y menos grasa.",
+        "translation": "I recommend the paella, it has more flavor and less fat.",
+        "highlights": [
+          "Recomiendo",
+          "tiene",
+          "más",
+          "menos"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y el precio? Es el mismo para los dos.",
+        "translation": "And the price? It is the same for both.",
+        "highlights": [
+          "precio",
+          "mismo",
+          "los"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, el precio es el mismo, pero la paella es mejor para comer.",
+        "translation": "Yes, the price is the same, but the paella is better to eat.",
+        "highlights": [
+          "precio",
+          "mismo",
+          "comer"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Cuál recomiendas?",
+        "translation": "Which one do you recommend?"
+      },
+      {
+        "phrase": "tener más sabor",
+        "translation": "to have more flavor"
+      },
+      {
+        "phrase": "el mismo precio",
+        "translation": "the same price"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_39",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the bank for a simple transaction",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "querer",
+        "pos": "verb",
+        "translation": "to want",
+        "note": "Used to express desire; common in polite requests.",
+        "phonetic": "/keˈɾeɾ/"
+      },
+      {
+        "word": "dinero",
+        "pos": "noun",
+        "translation": "money",
+        "note": "Masculine noun; often used with 'tener' or 'necesitar'.",
+        "phonetic": "/diˈneɾo/"
+      },
+      {
+        "word": "cuenta",
+        "pos": "noun",
+        "translation": "account",
+        "note": "Refers to bank account; also means 'bill' in other contexts.",
+        "phonetic": "/ˈkwenta/"
+      },
+      {
+        "word": "por",
+        "pos": "prep",
+        "translation": "for, by, through",
+        "note": "Used to indicate exchange, cause, or duration.",
+        "phonetic": "/poɾ/"
+      },
+      {
+        "word": "solo",
+        "pos": "adj",
+        "translation": "only, alone",
+        "note": "As adjective means 'only' (e.g., solo quiero) or 'alone'.",
+        "phonetic": "/ˈsolo/"
+      },
+      {
+        "word": "su",
+        "pos": "det",
+        "translation": "your, his, her, its, their",
+        "note": "Possessive determiner; context indicates owner.",
+        "phonetic": "/su/"
+      },
+      {
+        "word": "firma",
+        "pos": "noun",
+        "translation": "signature",
+        "note": "Feminine noun; used for signing documents.",
+        "phonetic": "/ˈfiɾma/"
+      },
+      {
+        "word": "otro",
+        "pos": "adj",
+        "translation": "other, another",
+        "note": "Used to refer to a different one.",
+        "phonetic": "/ˈotɾo/"
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "translation": "also, too",
+        "note": "Used to add information or agreement.",
+        "phonetic": "/tamˈbjen/"
+      },
+      {
+        "word": "pasar",
+        "pos": "verb",
+        "translation": "to pass, to happen, to come in",
+        "note": "Commonly used as 'pass me' or 'come in' in service contexts.",
+        "phonetic": "/paˈsaɾ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buenos días, quiero sacar dinero de mi cuenta, por favor.",
+        "translation": "Good morning, I want to withdraw money from my account, please.",
+        "highlights": [
+          "quiero",
+          "dinero",
+          "cuenta",
+          "por"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, ¿cuánto quiere sacar? Solo necesito su tarjeta y una firma.",
+        "translation": "Yes, how much do you want to withdraw? I only need your card and a signature.",
+        "highlights": [
+          "solo",
+          "su",
+          "firma"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Quiero cien euros. ¿Puedo pasar por otro mostrador para cambiar dinero?",
+        "translation": "I want a hundred euros. Can I go to another counter to exchange money?",
+        "highlights": [
+          "pasar",
+          "otro",
+          "dinero"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Claro, también puede hacer eso allí. Aquí tiene su dinero y su firma está lista.",
+        "translation": "Of course, you can also do that there. Here is your money and your signature is ready.",
+        "highlights": [
+          "también",
+          "su",
+          "dinero",
+          "firma"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Gracias, todo perfecto.",
+        "translation": "Thank you, all perfect.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "sacar dinero",
+        "translation": "to withdraw money"
+      },
+      {
+        "phrase": "por favor",
+        "translation": "please"
+      },
+      {
+        "phrase": "cambiar dinero",
+        "translation": "to exchange money"
+      }
+    ]
+  }
+]

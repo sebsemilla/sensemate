@@ -1,0 +1,2833 @@
+[
+  {
+    "id": "es_A1_vctx_01",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Greeting someone for the first time",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "hello",
+        "pos": "interjection",
+        "translation": "hola",
+        "note": "Saludo estándar",
+        "phonetic": "/həˈloʊ/"
+      },
+      {
+        "word": "my",
+        "pos": "possessive adjective",
+        "translation": "mi",
+        "note": "",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "word": "name",
+        "pos": "noun",
+        "translation": "nombre",
+        "note": "",
+        "phonetic": "/neɪm/"
+      },
+      {
+        "word": "be",
+        "pos": "verb",
+        "translation": "ser/estar",
+        "note": "Verbo 'to be'",
+        "phonetic": "/biː/"
+      },
+      {
+        "word": "meet",
+        "pos": "verb",
+        "translation": "conocer/encontrarse",
+        "note": "Se usa en presentaciones: 'Nice to meet you'",
+        "phonetic": "/miːt/"
+      },
+      {
+        "word": "you",
+        "pos": "pronoun",
+        "translation": "tú/usted",
+        "note": "",
+        "phonetic": "/juː/"
+      },
+      {
+        "word": "I",
+        "pos": "pronoun",
+        "translation": "yo",
+        "note": "Siempre se escribe en mayúscula",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "word": "this",
+        "pos": "determiner/pronoun",
+        "translation": "esto/esta",
+        "note": "Para presentar a alguien",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "word": "from",
+        "pos": "preposition",
+        "translation": "de (procedencia)",
+        "note": "",
+        "phonetic": "/frʌm/"
+      },
+      {
+        "word": "and",
+        "pos": "conjunction",
+        "translation": "y",
+        "note": "",
+        "phonetic": "/ænd/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hello! My name is Ana.",
+        "translation": "¡Hola! Mi nombre es Ana.",
+        "highlights": [
+          "Hello",
+          "My",
+          "name",
+          "is"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hi, Ana. Nice to meet you. I am Carlos.",
+        "translation": "Hola, Ana. Encantado de conocerte. Yo soy Carlos.",
+        "highlights": [
+          "meet",
+          "you",
+          "I",
+          "am"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Nice to meet you too. This is my friend, Luis.",
+        "translation": "Encantada de conocerte también. Este es mi amigo, Luis.",
+        "highlights": [
+          "you",
+          "This",
+          "is",
+          "my"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "Hello, Luis. I am from Spain.",
+        "translation": "Hola, Luis. Yo soy de España.",
+        "highlights": [
+          "Hello",
+          "I",
+          "am",
+          "from"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "And I am from Mexico. Welcome!",
+        "translation": "Y yo soy de México. ¡Bienvenido!",
+        "highlights": [
+          "And",
+          "I",
+          "am",
+          "from"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Nice to meet you",
+        "translation": "Encantado/a de conocerte"
+      },
+      {
+        "phrase": "My name is...",
+        "translation": "Mi nombre es..."
+      },
+      {
+        "phrase": "I am from...",
+        "translation": "Soy de..."
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_03",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking where something is in a store",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "where",
+        "pos": "adv",
+        "translation": "dónde",
+        "note": "Usado para preguntar por un lugar.",
+        "phonetic": "/wɛr/"
+      },
+      {
+        "word": "is",
+        "pos": "verb",
+        "translation": "está / es",
+        "note": "Tercera persona del singular del verbo 'to be'.",
+        "phonetic": "/ɪz/"
+      },
+      {
+        "word": "it",
+        "pos": "pron",
+        "translation": "eso / lo",
+        "note": "Pronombre para referirse a algo ya mencionado.",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "word": "there",
+        "pos": "adv",
+        "translation": "allí / ahí",
+        "note": "Indica lugar.",
+        "phonetic": "/ðɛr/"
+      },
+      {
+        "word": "over",
+        "pos": "prep",
+        "translation": "al otro lado / sobre",
+        "note": "En 'over there' significa 'allí' o 'por allí'.",
+        "phonetic": "/ˈoʊvər/"
+      },
+      {
+        "word": "right",
+        "pos": "adj",
+        "translation": "correcto / a la derecha",
+        "note": "En 'right there' significa 'justo allí'.",
+        "phonetic": "/raɪt/"
+      },
+      {
+        "word": "on",
+        "pos": "prep",
+        "translation": "en / sobre",
+        "note": "Indica posición sobre una superficie.",
+        "phonetic": "/ɑn/"
+      },
+      {
+        "word": "shelf",
+        "pos": "noun",
+        "translation": "estante / balda",
+        "note": "Mueble o superficie horizontal para colocar cosas.",
+        "phonetic": "/ʃɛlf/"
+      },
+      {
+        "word": "need",
+        "pos": "verb",
+        "translation": "necesitar",
+        "note": "Expresa necesidad.",
+        "phonetic": "/nid/"
+      },
+      {
+        "word": "get",
+        "pos": "verb",
+        "translation": "coger / obtener",
+        "note": "En contexto de tienda, significa 'coger' o 'alcanzar'.",
+        "phonetic": "/ɡɛt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, where is the bread?",
+        "translation": "Disculpe, ¿dónde está el pan?",
+        "highlights": [
+          "where",
+          "is"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "It is over there, on that shelf.",
+        "translation": "Está allí, en ese estante.",
+        "highlights": [
+          "It",
+          "over",
+          "there",
+          "on",
+          "shelf"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Is it right there?",
+        "translation": "¿Está justo allí?",
+        "highlights": [
+          "right",
+          "there"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes. You need to get it from the top.",
+        "translation": "Sí. Tienes que cogerlo de arriba.",
+        "highlights": [
+          "need",
+          "get",
+          "it"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Thank you!",
+        "translation": "¡Gracias!",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Where is...?",
+        "translation": "¿Dónde está...?"
+      },
+      {
+        "phrase": "over there",
+        "translation": "allí / por allí"
+      },
+      {
+        "phrase": "right there",
+        "translation": "justo allí"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_05",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Ordering a drink at a café",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "can",
+        "pos": "verb",
+        "translation": "poder",
+        "note": "Usado para pedir algo de forma educada: 'Can I have...?'",
+        "phonetic": "/kæn/"
+      },
+      {
+        "word": "have",
+        "pos": "verb",
+        "translation": "tener / tomar",
+        "note": "En este contexto significa 'tomar' una bebida.",
+        "phonetic": "/hæv/"
+      },
+      {
+        "word": "coffee",
+        "pos": "noun",
+        "translation": "café",
+        "phonetic": "/ˈkɔː.fi/"
+      },
+      {
+        "word": "or",
+        "pos": "conj",
+        "translation": "o",
+        "phonetic": "/ɔːr/"
+      },
+      {
+        "word": "tea",
+        "pos": "noun",
+        "translation": "té",
+        "phonetic": "/tiː/"
+      },
+      {
+        "word": "hot",
+        "pos": "adj",
+        "translation": "caliente",
+        "phonetic": "/hɒt/"
+      },
+      {
+        "word": "cold",
+        "pos": "adj",
+        "translation": "frío",
+        "phonetic": "/koʊld/"
+      },
+      {
+        "word": "please",
+        "pos": "adv",
+        "translation": "por favor",
+        "phonetic": "/pliːz/"
+      },
+      {
+        "word": "here",
+        "pos": "adv",
+        "translation": "aquí",
+        "phonetic": "/hɪr/"
+      },
+      {
+        "word": "what",
+        "pos": "pron",
+        "translation": "qué",
+        "phonetic": "/wʌt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What can I get for you?",
+        "translation": "¿Qué puedo darte?",
+        "highlights": [
+          "What",
+          "can"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Can I have a coffee, please?",
+        "translation": "¿Puedo tomar un café, por favor?",
+        "highlights": [
+          "Can",
+          "have",
+          "coffee",
+          "please"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Hot or cold?",
+        "translation": "¿Caliente o frío?",
+        "highlights": [
+          "Hot",
+          "or",
+          "cold"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hot, please. And what tea do you have?",
+        "translation": "Caliente, por favor. ¿Y qué té tienen?",
+        "highlights": [
+          "Hot",
+          "please",
+          "what",
+          "tea",
+          "have"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Here you go. Your coffee and tea.",
+        "translation": "Aquí tienes. Tu café y té.",
+        "highlights": [
+          "Here"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Can I have...?",
+        "translation": "¿Puedo tomar...?"
+      },
+      {
+        "phrase": "What can I get for you?",
+        "translation": "¿Qué puedo darte?"
+      },
+      {
+        "phrase": "Here you go.",
+        "translation": "Aquí tienes."
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_07",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Buying a ticket at a station",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "to",
+        "pos": "prep",
+        "translation": "a, hacia",
+        "note": "Indica destino o dirección.",
+        "phonetic": "/tuː/"
+      },
+      {
+        "word": "one",
+        "pos": "det/pron",
+        "translation": "uno, una",
+        "note": "Se usa para referirse a un billete, por ejemplo: 'one ticket'.",
+        "phonetic": "/wʌn/"
+      },
+      {
+        "word": "for",
+        "pos": "prep",
+        "translation": "para, por",
+        "note": "Indica propósito o destinatario.",
+        "phonetic": "/fɔːr/"
+      },
+      {
+        "word": "with",
+        "pos": "prep",
+        "translation": "con",
+        "note": "Indica compañía o inclusión.",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "word": "but",
+        "pos": "conj",
+        "translation": "pero",
+        "note": "Conector de contraste.",
+        "phonetic": "/bʌt/"
+      },
+      {
+        "word": "go",
+        "pos": "verb",
+        "translation": "ir",
+        "note": "Verbo de movimiento, muy común.",
+        "phonetic": "/ɡoʊ/"
+      },
+      {
+        "word": "want",
+        "pos": "verb",
+        "translation": "querer",
+        "note": "Se usa para expresar deseos.",
+        "phonetic": "/wɑːnt/"
+      },
+      {
+        "word": "now",
+        "pos": "adv",
+        "translation": "ahora",
+        "note": "Indica tiempo presente.",
+        "phonetic": "/naʊ/"
+      },
+      {
+        "word": "then",
+        "pos": "adv",
+        "translation": "entonces, luego",
+        "note": "Indica secuencia temporal.",
+        "phonetic": "/ðɛn/"
+      },
+      {
+        "word": "very",
+        "pos": "adv",
+        "translation": "muy",
+        "note": "Intensificador de adjetivos.",
+        "phonetic": "/ˈvɛri/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I want one ticket to London, please.",
+        "translation": "Quiero un billete a Londres, por favor.",
+        "highlights": [
+          "want",
+          "one",
+          "to"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "For today, with the train now?",
+        "translation": "¿Para hoy, con el tren ahora?",
+        "highlights": [
+          "For",
+          "with",
+          "now"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, but very early, and then I go to work.",
+        "translation": "Sí, pero muy temprano, y luego voy al trabajo.",
+        "highlights": [
+          "but",
+          "very",
+          "then",
+          "go"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "OK, you have the train at six. That is good.",
+        "translation": "Vale, tienes el tren a las seis. Eso está bien.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "I want one ticket to",
+        "translation": "Quiero un billete a"
+      },
+      {
+        "phrase": "For today",
+        "translation": "Para hoy"
+      },
+      {
+        "phrase": "very early",
+        "translation": "muy temprano"
+      },
+      {
+        "phrase": "go to work",
+        "translation": "ir al trabajo"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_09",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Checking in at a hotel reception",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "have",
+        "pos": "verb",
+        "translation": "tener",
+        "note": "Se usa para expresar posesión o necesidad.",
+        "phonetic": "/hæv/"
+      },
+      {
+        "word": "we",
+        "pos": "pron",
+        "translation": "nosotros/nosotras",
+        "phonetic": "/wiː/"
+      },
+      {
+        "word": "your",
+        "pos": "det",
+        "translation": "tu/su",
+        "phonetic": "/jɔːr/"
+      },
+      {
+        "word": "room",
+        "pos": "noun",
+        "translation": "habitación",
+        "phonetic": "/ruːm/"
+      },
+      {
+        "word": "key",
+        "pos": "noun",
+        "translation": "llave",
+        "phonetic": "/kiː/"
+      },
+      {
+        "word": "floor",
+        "pos": "noun",
+        "translation": "piso/planta",
+        "phonetic": "/flɔːr/"
+      },
+      {
+        "word": "need",
+        "pos": "verb",
+        "translation": "necesitar",
+        "phonetic": "/niːd/"
+      },
+      {
+        "word": "help",
+        "pos": "noun",
+        "translation": "ayuda",
+        "phonetic": "/hɛlp/"
+      },
+      {
+        "word": "stay",
+        "pos": "verb",
+        "translation": "quedarse/permanecer",
+        "phonetic": "/steɪ/"
+      },
+      {
+        "word": "how",
+        "pos": "adv",
+        "translation": "cómo",
+        "phonetic": "/haʊ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Good evening. Do you have a reservation?",
+        "translation": "Buenas noches. ¿Tiene una reserva?",
+        "highlights": [
+          "have"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, we have a room for two nights.",
+        "translation": "Sí, tenemos una habitación para dos noches.",
+        "highlights": [
+          "we",
+          "have",
+          "room"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Here is your key. Your room is on the third floor.",
+        "translation": "Aquí está su llave. Su habitación está en el tercer piso.",
+        "highlights": [
+          "your",
+          "key",
+          "room",
+          "floor"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Thank you. We need help with our bags.",
+        "translation": "Gracias. Necesitamos ayuda con nuestras maletas.",
+        "highlights": [
+          "need",
+          "help"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Of course. How long do you want to stay?",
+        "translation": "Por supuesto. ¿Cuánto tiempo quiere quedarse?",
+        "highlights": [
+          "how",
+          "stay"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Do you have a reservation?",
+        "translation": "¿Tiene una reserva?"
+      },
+      {
+        "phrase": "Here is your key.",
+        "translation": "Aquí está su llave."
+      },
+      {
+        "phrase": "We need help.",
+        "translation": "Necesitamos ayuda."
+      },
+      {
+        "phrase": "How long do you want to stay?",
+        "translation": "¿Cuánto tiempo quiere quedarse?"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_11",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Meeting a new neighbor",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "live",
+        "pos": "verb",
+        "translation": "vivir",
+        "note": "Se usa para hablar de dónde resides.",
+        "phonetic": "/lɪv/"
+      },
+      {
+        "word": "house",
+        "pos": "noun",
+        "translation": "casa",
+        "note": "Edificio donde vive alguien.",
+        "phonetic": "/haʊs/"
+      },
+      {
+        "word": "new",
+        "pos": "adj",
+        "translation": "nuevo",
+        "note": "Opuesto de 'old'.",
+        "phonetic": "/nuː/"
+      },
+      {
+        "word": "just",
+        "pos": "adv",
+        "translation": "recién / justo",
+        "note": "Indica que algo ocurrió hace poco.",
+        "phonetic": "/dʒʌst/"
+      },
+      {
+        "word": "move",
+        "pos": "verb",
+        "translation": "mudarse / mover",
+        "note": "En este contexto, 'move' significa cambiar de residencia.",
+        "phonetic": "/muːv/"
+      },
+      {
+        "word": "day",
+        "pos": "noun",
+        "translation": "día",
+        "note": "Periodo de 24 horas.",
+        "phonetic": "/deɪ/"
+      },
+      {
+        "word": "door",
+        "pos": "noun",
+        "translation": "puerta",
+        "note": "Abertura para entrar o salir.",
+        "phonetic": "/dɔːr/"
+      },
+      {
+        "word": "open",
+        "pos": "adj",
+        "translation": "abierto",
+        "note": "No cerrado.",
+        "phonetic": "/ˈoʊpən/"
+      },
+      {
+        "word": "so",
+        "pos": "conj",
+        "translation": "así que",
+        "note": "Conector que indica consecuencia.",
+        "phonetic": "/soʊ/"
+      },
+      {
+        "word": "at",
+        "pos": "prep",
+        "translation": "en / a",
+        "note": "Se usa para indicar lugar o tiempo.",
+        "phonetic": "/æt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hi! I see you just moved into the house next door.",
+        "translation": "¡Hola! Veo que te acabas de mudar a la casa de al lado.",
+        "highlights": [
+          "just",
+          "moved",
+          "house"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I live here now. It is my new home.",
+        "translation": "Sí, vivo aquí ahora. Es mi nuevo hogar.",
+        "highlights": [
+          "live",
+          "new"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "That is great! So, do you need help with your things today?",
+        "translation": "¡Eso es genial! Entonces, ¿necesitas ayuda con tus cosas hoy?",
+        "highlights": [
+          "So",
+          "day"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe later. Oh, the door is open. Let me close it.",
+        "translation": "Quizás más tarde. Oh, la puerta está abierta. Déjame cerrarla.",
+        "highlights": [
+          "door",
+          "open"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "No problem. I am at home all morning. Come by any time.",
+        "translation": "No hay problema. Estoy en casa toda la mañana. Pasa cuando quieras.",
+        "highlights": [
+          "at"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "I just moved in",
+        "translation": "Acabo de mudarme"
+      },
+      {
+        "phrase": "next door",
+        "translation": "al lado"
+      },
+      {
+        "phrase": "come by",
+        "translation": "pasar por aquí"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_13",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking the time on the street",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "time",
+        "pos": "noun",
+        "translation": "hora",
+        "note": "Se usa para preguntar la hora: 'What time is it?'",
+        "phonetic": "/taɪm/"
+      },
+      {
+        "word": "have",
+        "pos": "verb",
+        "translation": "tener",
+        "note": "En este contexto, 'Do you have the time?' = ¿Tienes hora?",
+        "phonetic": "/hæv/"
+      },
+      {
+        "word": "tell",
+        "pos": "verb",
+        "translation": "decir",
+        "note": "En 'Can you tell me...' = ¿Puedes decirme...",
+        "phonetic": "/tɛl/"
+      },
+      {
+        "word": "know",
+        "pos": "verb",
+        "translation": "saber",
+        "note": "Se usa para expresar desconocimiento: 'I don't know.'",
+        "phonetic": "/noʊ/"
+      },
+      {
+        "word": "sorry",
+        "pos": "adj",
+        "translation": "perdón / lo siento",
+        "note": "Expresión de disculpa.",
+        "phonetic": "/ˈsɑri/"
+      },
+      {
+        "word": "late",
+        "pos": "adj",
+        "translation": "tarde",
+        "note": "Se usa para indicar retraso o hora avanzada.",
+        "phonetic": "/leɪt/"
+      },
+      {
+        "word": "now",
+        "pos": "adv",
+        "translation": "ahora",
+        "note": "Indica el momento presente.",
+        "phonetic": "/naʊ/"
+      },
+      {
+        "word": "about",
+        "pos": "adv",
+        "translation": "aproximadamente",
+        "note": "En 'about three' = alrededor de las tres.",
+        "phonetic": "/əˈbaʊt/"
+      },
+      {
+        "word": "then",
+        "pos": "adv",
+        "translation": "entonces",
+        "note": "En 'see you then' = nos vemos entonces.",
+        "phonetic": "/ðɛn/"
+      },
+      {
+        "word": "at",
+        "pos": "prep",
+        "translation": "a",
+        "note": "Se usa para horas: 'at three' = a las tres.",
+        "phonetic": "/æt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, do you have the time?",
+        "translation": "Disculpe, ¿tiene la hora?",
+        "highlights": [
+          "have",
+          "time"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sorry, I don't know. I don't have a watch.",
+        "translation": "Lo siento, no sé. No tengo reloj.",
+        "highlights": [
+          "sorry",
+          "know",
+          "have"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Oh, but can you tell me if it's late?",
+        "translation": "Ah, pero ¿puede decirme si es tarde?",
+        "highlights": [
+          "tell",
+          "late"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "I think it's about three now.",
+        "translation": "Creo que son aproximadamente las tres ahora.",
+        "highlights": [
+          "about",
+          "now"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Thank you! See you at three then.",
+        "translation": "¡Gracias! Nos vemos a las tres entonces.",
+        "highlights": [
+          "at",
+          "then"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Do you have the time?",
+        "translation": "¿Tiene la hora?"
+      },
+      {
+        "phrase": "I don't know.",
+        "translation": "No sé."
+      },
+      {
+        "phrase": "See you at three.",
+        "translation": "Nos vemos a las tres."
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_15",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the doctor for a basic checkup",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "feel",
+        "pos": "verb",
+        "translation": "sentirse",
+        "note": "Se usa para hablar de cómo estás físicamente.",
+        "phonetic": "/fiːl/"
+      },
+      {
+        "word": "better",
+        "pos": "adj",
+        "translation": "mejor",
+        "note": "Comparativo de 'good'.",
+        "phonetic": "/ˈbɛtər/"
+      },
+      {
+        "word": "all",
+        "pos": "det",
+        "translation": "todo / todos",
+        "note": "Se usa para referirse a la totalidad.",
+        "phonetic": "/ɔːl/"
+      },
+      {
+        "word": "some",
+        "pos": "det",
+        "translation": "algo de / algunos",
+        "note": "Se usa con sustantivos contables e incontables.",
+        "phonetic": "/sʌm/"
+      },
+      {
+        "word": "more",
+        "pos": "adv",
+        "translation": "más",
+        "note": "Comparativo de 'much/many'.",
+        "phonetic": "/mɔːr/"
+      },
+      {
+        "word": "than",
+        "pos": "conj",
+        "translation": "que",
+        "note": "Se usa en comparaciones.",
+        "phonetic": "/ðæn/"
+      },
+      {
+        "word": "should",
+        "pos": "verb",
+        "translation": "debería",
+        "note": "Verbo modal para dar consejos.",
+        "phonetic": "/ʃʊd/"
+      },
+      {
+        "word": "take",
+        "pos": "verb",
+        "translation": "tomar",
+        "note": "Se usa para medicinas.",
+        "phonetic": "/teɪk/"
+      },
+      {
+        "word": "much",
+        "pos": "adv",
+        "translation": "mucho",
+        "note": "Se usa con incontables.",
+        "phonetic": "/mʌtʃ/"
+      },
+      {
+        "word": "day",
+        "pos": "noun",
+        "translation": "día",
+        "note": "Unidad de tiempo.",
+        "phonetic": "/deɪ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "How do you feel today?",
+        "translation": "¿Cómo te sientes hoy?",
+        "highlights": [
+          "feel"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Not better than yesterday. I have some pain here.",
+        "translation": "No mejor que ayer. Tengo algo de dolor aquí.",
+        "highlights": [
+          "better",
+          "than",
+          "some"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "You should take this medicine. All is fine, but rest more.",
+        "translation": "Deberías tomar esta medicina. Todo está bien, pero descansa más.",
+        "highlights": [
+          "should",
+          "take",
+          "all",
+          "more"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "How much do I take each day?",
+        "translation": "¿Cuánto tomo cada día?",
+        "highlights": [
+          "much",
+          "day"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "How do you feel?",
+        "translation": "¿Cómo te sientes?"
+      },
+      {
+        "phrase": "You should take this medicine.",
+        "translation": "Deberías tomar esta medicina."
+      },
+      {
+        "phrase": "Rest more.",
+        "translation": "Descansa más."
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_17",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Paying at a supermarket checkout",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "pay",
+        "pos": "verb",
+        "translation": "pagar",
+        "note": "Verbo regular: pay - paid - paid",
+        "phonetic": "/peɪ/"
+      },
+      {
+        "word": "cash",
+        "pos": "noun",
+        "translation": "efectivo",
+        "note": "Dinero en billetes y monedas",
+        "phonetic": "/kæʃ/"
+      },
+      {
+        "word": "card",
+        "pos": "noun",
+        "translation": "tarjeta",
+        "note": "Tarjeta de crédito o débito",
+        "phonetic": "/kɑːrd/"
+      },
+      {
+        "word": "total",
+        "pos": "noun",
+        "translation": "total",
+        "note": "Cantidad total a pagar",
+        "phonetic": "/ˈtoʊ.təl/"
+      },
+      {
+        "word": "price",
+        "pos": "noun",
+        "translation": "precio",
+        "note": "Costo de un artículo",
+        "phonetic": "/praɪs/"
+      },
+      {
+        "word": "cost",
+        "pos": "verb",
+        "translation": "costar",
+        "note": "Verbo irregular: cost - cost - cost",
+        "phonetic": "/kɔːst/"
+      },
+      {
+        "word": "change",
+        "pos": "noun",
+        "translation": "cambio (vuelto)",
+        "note": "Dinero que se devuelve al pagar de más",
+        "phonetic": "/tʃeɪndʒ/"
+      },
+      {
+        "word": "receipt",
+        "pos": "noun",
+        "translation": "recibo, ticket",
+        "note": "Comprobante de compra",
+        "phonetic": "/rɪˈsiːt/"
+      },
+      {
+        "word": "here",
+        "pos": "adv",
+        "translation": "aquí",
+        "note": "Indica lugar",
+        "phonetic": "/hɪr/"
+      },
+      {
+        "word": "out",
+        "pos": "prep/adv",
+        "translation": "fuera",
+        "note": "En 'out of' (de) – cantidad de algo",
+        "phonetic": "/aʊt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "That is the total. The price is twenty dollars.",
+        "translation": "Ese es el total. El precio es veinte dólares.",
+        "highlights": [
+          "total",
+          "price"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "OK. How much does it cost? Can I pay with a card?",
+        "translation": "Vale. ¿Cuánto cuesta? ¿Puedo pagar con tarjeta?",
+        "highlights": [
+          "cost",
+          "pay",
+          "card"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, here is the card machine. And here is your receipt.",
+        "translation": "Sí, aquí está la máquina de tarjetas. Y aquí está su recibo.",
+        "highlights": [
+          "here",
+          "receipt"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Thank you. I am out of cash, so card is good.",
+        "translation": "Gracias. No tengo efectivo, así que la tarjeta está bien.",
+        "highlights": [
+          "out",
+          "cash"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Here is your change. Have a nice day!",
+        "translation": "Aquí tiene su cambio. ¡Que tenga un buen día!",
+        "highlights": [
+          "change"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "How much does it cost?",
+        "translation": "¿Cuánto cuesta?"
+      },
+      {
+        "phrase": "pay with a card",
+        "translation": "pagar con tarjeta"
+      },
+      {
+        "phrase": "out of cash",
+        "translation": "sin efectivo"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_19",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Calling a friend to make simple plans",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "call",
+        "pos": "verb",
+        "translation": "llamar",
+        "note": "Usado para hablar por teléfono.",
+        "phonetic": "/kɔːl/"
+      },
+      {
+        "word": "me",
+        "pos": "pron",
+        "translation": "me / a mí",
+        "phonetic": "/miː/"
+      },
+      {
+        "word": "this",
+        "pos": "det",
+        "translation": "este/esta",
+        "note": "Se usa para señalar algo cercano.",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "word": "you",
+        "pos": "pron",
+        "translation": "tú/usted",
+        "phonetic": "/juː/"
+      },
+      {
+        "word": "can",
+        "pos": "verb",
+        "translation": "poder",
+        "note": "Verbo modal para habilidad o posibilidad.",
+        "phonetic": "/kæn/"
+      },
+      {
+        "word": "see",
+        "pos": "verb",
+        "translation": "ver",
+        "phonetic": "/siː/"
+      },
+      {
+        "word": "on",
+        "pos": "prep",
+        "translation": "en/sobre",
+        "phonetic": "/ɒn/"
+      },
+      {
+        "word": "today",
+        "pos": "adv",
+        "translation": "hoy",
+        "phonetic": "/təˈdeɪ/"
+      },
+      {
+        "word": "tomorrow",
+        "pos": "adv",
+        "translation": "mañana",
+        "phonetic": "/təˈmɒroʊ/"
+      },
+      {
+        "word": "where",
+        "pos": "adv",
+        "translation": "dónde",
+        "phonetic": "/weər/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hi, this is me. Can you call me today?",
+        "translation": "Hola, soy yo. ¿Puedes llamarme hoy?",
+        "highlights": [
+          "this",
+          "me",
+          "can",
+          "call",
+          "today"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I can call you now. Where are you?",
+        "translation": "Sí, puedo llamarte ahora. ¿Dónde estás?",
+        "highlights": [
+          "can",
+          "you",
+          "where"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "I am at home. Can you see me tomorrow?",
+        "translation": "Estoy en casa. ¿Puedes verme mañana?",
+        "highlights": [
+          "can",
+          "see",
+          "me",
+          "tomorrow"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I can see you tomorrow. Where do we meet?",
+        "translation": "Sí, puedo verte mañana. ¿Dónde nos vemos?",
+        "highlights": [
+          "can",
+          "see",
+          "you",
+          "tomorrow",
+          "where"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Meet me on this street, near the park.",
+        "translation": "Encuéntrame en esta calle, cerca del parque.",
+        "highlights": [
+          "me",
+          "on",
+          "this"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "this is me",
+        "translation": "soy yo"
+      },
+      {
+        "phrase": "can you call me?",
+        "translation": "¿puedes llamarme?"
+      },
+      {
+        "phrase": "where are you?",
+        "translation": "¿dónde estás?"
+      },
+      {
+        "phrase": "can you see me tomorrow?",
+        "translation": "¿puedes verme mañana?"
+      },
+      {
+        "phrase": "meet me on this street",
+        "translation": "encuéntrame en esta calle"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_21",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your family to someone",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "family",
+        "pos": "noun",
+        "translation": "familia",
+        "note": "Se usa para referirse a los miembros del hogar o parientes.",
+        "phonetic": "/ˈfæməli/"
+      },
+      {
+        "word": "mother",
+        "pos": "noun",
+        "translation": "madre",
+        "note": "Formal para 'mamá'.",
+        "phonetic": "/ˈmʌðər/"
+      },
+      {
+        "word": "father",
+        "pos": "noun",
+        "translation": "padre",
+        "note": "Formal para 'papá'.",
+        "phonetic": "/ˈfɑːðər/"
+      },
+      {
+        "word": "sister",
+        "pos": "noun",
+        "translation": "hermana",
+        "note": "Se usa para hermana, sin especificar mayor o menor.",
+        "phonetic": "/ˈsɪstər/"
+      },
+      {
+        "word": "brother",
+        "pos": "noun",
+        "translation": "hermano",
+        "note": "Se usa para hermano, sin especificar mayor o menor.",
+        "phonetic": "/ˈbrʌðər/"
+      },
+      {
+        "word": "old",
+        "pos": "adj",
+        "translation": "viejo/a, mayor",
+        "note": "Describe edad o antigüedad.",
+        "phonetic": "/oʊld/"
+      },
+      {
+        "word": "young",
+        "pos": "adj",
+        "translation": "joven",
+        "note": "Describe poca edad.",
+        "phonetic": "/jʌŋ/"
+      },
+      {
+        "word": "with",
+        "pos": "prep",
+        "translation": "con",
+        "note": "Indica compañía o posesión.",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "word": "very",
+        "pos": "adv",
+        "translation": "muy",
+        "note": "Intensificador de adjetivos.",
+        "phonetic": "/ˈvɛri/"
+      },
+      {
+        "word": "and",
+        "pos": "conj",
+        "translation": "y",
+        "note": "Conector para unir elementos.",
+        "phonetic": "/ænd/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Tell me about your family.",
+        "translation": "Cuéntame sobre tu familia.",
+        "highlights": [
+          "family"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "I live with my mother, father, and two sisters. My brother is not at home.",
+        "translation": "Vivo con mi madre, padre y dos hermanas. Mi hermano no está en casa.",
+        "highlights": [
+          "with",
+          "mother",
+          "father",
+          "and",
+          "sisters",
+          "brother"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Is your father old or young?",
+        "translation": "¿Tu padre es viejo o joven?",
+        "highlights": [
+          "father",
+          "old",
+          "young"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "He is not very old, but my mother is very young.",
+        "translation": "Él no es muy viejo, pero mi madre es muy joven.",
+        "highlights": [
+          "very",
+          "old",
+          "mother",
+          "very",
+          "young"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "And your sisters? Are they young too?",
+        "translation": "¿Y tus hermanas? ¿Son jóvenes también?",
+        "highlights": [
+          "And",
+          "sisters",
+          "young"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Tell me about your family",
+        "translation": "Cuéntame sobre tu familia"
+      },
+      {
+        "phrase": "live with my mother and father",
+        "translation": "vivo con mi madre y padre"
+      },
+      {
+        "phrase": "old or young",
+        "translation": "viejo o joven"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_23",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking for directions in the street",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "go",
+        "pos": "verb",
+        "translation": "ir",
+        "note": "Uso común para indicar movimiento.",
+        "phonetic": "/ɡoʊ/"
+      },
+      {
+        "word": "left",
+        "pos": "adverb/noun",
+        "translation": "izquierda",
+        "note": "Dirección.",
+        "phonetic": "/lɛft/"
+      },
+      {
+        "word": "right",
+        "pos": "adverb/noun",
+        "translation": "derecha",
+        "note": "Dirección.",
+        "phonetic": "/raɪt/"
+      },
+      {
+        "word": "straight",
+        "pos": "adverb",
+        "translation": "recto",
+        "note": "Continúa sin girar.",
+        "phonetic": "/streɪt/"
+      },
+      {
+        "word": "turn",
+        "pos": "verb",
+        "translation": "girar",
+        "note": "Cambiar de dirección.",
+        "phonetic": "/tɜrn/"
+      },
+      {
+        "word": "street",
+        "pos": "noun",
+        "translation": "calle",
+        "note": "Vía pública.",
+        "phonetic": "/strit/"
+      },
+      {
+        "word": "near",
+        "pos": "preposition",
+        "translation": "cerca de",
+        "note": "Indica proximidad.",
+        "phonetic": "/nɪr/"
+      },
+      {
+        "word": "far",
+        "pos": "adverb/adjective",
+        "translation": "lejos",
+        "note": "Indica distancia.",
+        "phonetic": "/fɑr/"
+      },
+      {
+        "word": "next",
+        "pos": "adjective/adverb",
+        "translation": "siguiente",
+        "note": "Después de algo.",
+        "phonetic": "/nɛkst/"
+      },
+      {
+        "word": "from",
+        "pos": "preposition",
+        "translation": "desde",
+        "note": "Indica origen.",
+        "phonetic": "/frʌm/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, is the station far from here?",
+        "translation": "Disculpe, ¿está la estación lejos de aquí?",
+        "highlights": [
+          "far",
+          "from"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, it's near. Go straight and turn left at the next street.",
+        "translation": "No, está cerca. Siga recto y gire a la izquierda en la próxima calle.",
+        "highlights": [
+          "near",
+          "Go",
+          "straight",
+          "turn",
+          "left",
+          "next",
+          "street"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Go straight and turn left? Is that right?",
+        "translation": "¿Sigo recto y giro a la izquierda? ¿Es correcto?",
+        "highlights": [
+          "Go",
+          "straight",
+          "turn",
+          "left",
+          "right"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, that's right. Then go straight again. The station is on your right.",
+        "translation": "Sí, es correcto. Luego siga recto de nuevo. La estación está a su derecha.",
+        "highlights": [
+          "right",
+          "go",
+          "straight",
+          "right"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Go straight",
+        "translation": "Sigue recto"
+      },
+      {
+        "phrase": "Turn left",
+        "translation": "Gira a la izquierda"
+      },
+      {
+        "phrase": "Turn right",
+        "translation": "Gira a la derecha"
+      },
+      {
+        "phrase": "Is it far?",
+        "translation": "¿Está lejos?"
+      },
+      {
+        "phrase": "Is it near?",
+        "translation": "¿Está cerca?"
+      },
+      {
+        "phrase": "On your right",
+        "translation": "A tu derecha"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_25",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "On a bus asking the driver for help",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "stop",
+        "pos": "noun",
+        "translation": "parada",
+        "note": "Se usa para referirse a la parada del autobús.",
+        "phonetic": "/stɑp/"
+      },
+      {
+        "word": "get",
+        "pos": "verb",
+        "translation": "bajarse / conseguir",
+        "note": "En este contexto, 'get off' significa bajarse.",
+        "phonetic": "/ɡɛt/"
+      },
+      {
+        "word": "off",
+        "pos": "adv",
+        "translation": "fuera / de",
+        "note": "Parte del phrasal verb 'get off' (bajarse).",
+        "phonetic": "/ɔf/"
+      },
+      {
+        "word": "how",
+        "pos": "adv",
+        "translation": "cómo",
+        "note": "Para preguntar por la manera de hacer algo.",
+        "phonetic": "/haʊ/"
+      },
+      {
+        "word": "which",
+        "pos": "pron",
+        "translation": "cuál / qué",
+        "note": "Para preguntar por una opción entre varias.",
+        "phonetic": "/wɪtʃ/"
+      },
+      {
+        "word": "help",
+        "pos": "verb",
+        "translation": "ayudar",
+        "note": "Verbo muy común para pedir asistencia.",
+        "phonetic": "/hɛlp/"
+      },
+      {
+        "word": "please",
+        "pos": "adv",
+        "translation": "por favor",
+        "note": "Palabra de cortesía esencial en peticiones.",
+        "phonetic": "/pliz/"
+      },
+      {
+        "word": "need",
+        "pos": "verb",
+        "translation": "necesitar",
+        "note": "Expresa necesidad o requerimiento.",
+        "phonetic": "/nid/"
+      },
+      {
+        "word": "here",
+        "pos": "adv",
+        "translation": "aquí",
+        "note": "Indica lugar cercano al hablante.",
+        "phonetic": "/hɪr/"
+      },
+      {
+        "word": "down",
+        "pos": "adv",
+        "translation": "abajo / hacia abajo",
+        "note": "Se usa con 'down' para indicar dirección.",
+        "phonetic": "/daʊn/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, can you help me? I need to get off at the next stop.",
+        "translation": "Disculpe, ¿puede ayudarme? Necesito bajarme en la próxima parada.",
+        "highlights": [
+          "help",
+          "need",
+          "get",
+          "off",
+          "stop"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sure. Which stop do you want? This is the next stop.",
+        "translation": "Claro. ¿Cuál parada quiere? Esta es la próxima parada.",
+        "highlights": [
+          "which",
+          "stop",
+          "this"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "I want the stop near the hospital. How many stops from here?",
+        "translation": "Quiero la parada cerca del hospital. ¿Cuántas paradas desde aquí?",
+        "highlights": [
+          "stop",
+          "how",
+          "here"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "It's three stops down. Please sit down, I will tell you.",
+        "translation": "Son tres paradas más adelante. Por favor, siéntese, yo le aviso.",
+        "highlights": [
+          "down",
+          "please"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "get off at the next stop",
+        "translation": "bajarse en la próxima parada"
+      },
+      {
+        "phrase": "How many stops from here?",
+        "translation": "¿Cuántas paradas desde aquí?"
+      },
+      {
+        "phrase": "Please sit down",
+        "translation": "Por favor, siéntese"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_27",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Introducing a colleague at work",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "work",
+        "pos": "noun",
+        "translation": "trabajo",
+        "note": "Se usa para referirse al lugar o la actividad laboral.",
+        "phonetic": "/wɜːrk/"
+      },
+      {
+        "word": "new",
+        "pos": "adj",
+        "translation": "nuevo/nueva",
+        "note": "Se usa para presentar a alguien recién llegado.",
+        "phonetic": "/njuː/"
+      },
+      {
+        "word": "name",
+        "pos": "noun",
+        "translation": "nombre",
+        "phonetic": "/neɪm/"
+      },
+      {
+        "word": "meet",
+        "pos": "verb",
+        "translation": "conocer, reunirse con",
+        "note": "En este contexto, 'meet' significa 'conocer' por primera vez.",
+        "phonetic": "/miːt/"
+      },
+      {
+        "word": "our",
+        "pos": "det",
+        "translation": "nuestro/nuestra",
+        "phonetic": "/aʊər/"
+      },
+      {
+        "word": "she",
+        "pos": "pron",
+        "translation": "ella",
+        "phonetic": "/ʃiː/"
+      },
+      {
+        "word": "he",
+        "pos": "pron",
+        "translation": "él",
+        "phonetic": "/hiː/"
+      },
+      {
+        "word": "good",
+        "pos": "adj",
+        "translation": "bueno/buena",
+        "note": "Se usa para expresar aprobación o satisfacción.",
+        "phonetic": "/ɡʊd/"
+      },
+      {
+        "word": "want",
+        "pos": "verb",
+        "translation": "querer",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "word": "what",
+        "pos": "pron",
+        "translation": "qué, cuál",
+        "note": "Se usa para preguntar por información.",
+        "phonetic": "/wɒt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hello, this is our new colleague. Her name is Ana.",
+        "translation": "Hola, esta es nuestra nueva compañera. Su nombre es Ana.",
+        "highlights": [
+          "our",
+          "new",
+          "name"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Nice to meet you, Ana. What do you do here?",
+        "translation": "Mucho gusto, Ana. ¿Qué haces aquí?",
+        "highlights": [
+          "meet",
+          "what"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "She works in our team. He is her manager.",
+        "translation": "Ella trabaja en nuestro equipo. Él es su gerente.",
+        "highlights": [
+          "she",
+          "he"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Good! I want to work with you.",
+        "translation": "¡Bien! Quiero trabajar contigo.",
+        "highlights": [
+          "good",
+          "want",
+          "work"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Nice to meet you",
+        "translation": "Mucho gusto / Encantado de conocerte"
+      },
+      {
+        "phrase": "our new colleague",
+        "translation": "nuestra nueva compañera/o"
+      },
+      {
+        "phrase": "What do you do?",
+        "translation": "¿A qué te dedicas?"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_29",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Leaving a voicemail message",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "leave",
+        "pos": "verb",
+        "translation": "dejar",
+        "note": "Usado para 'dejar un mensaje'.",
+        "phonetic": "/liːv/"
+      },
+      {
+        "word": "message",
+        "pos": "noun",
+        "translation": "mensaje",
+        "note": "Común en contextos de comunicación.",
+        "phonetic": "/ˈmɛsɪdʒ/"
+      },
+      {
+        "word": "after",
+        "pos": "prep",
+        "translation": "después de",
+        "note": "Indica tiempo posterior.",
+        "phonetic": "/ˈæftər/"
+      },
+      {
+        "word": "beep",
+        "pos": "noun",
+        "translation": "pitido",
+        "note": "Sonido que indica que puedes hablar.",
+        "phonetic": "/biːp/"
+      },
+      {
+        "word": "call",
+        "pos": "verb",
+        "translation": "llamar",
+        "note": "Verbo muy frecuente para telefonear.",
+        "phonetic": "/kɔːl/"
+      },
+      {
+        "word": "back",
+        "pos": "adverb",
+        "translation": "de vuelta",
+        "note": "En 'call back' = devolver la llamada.",
+        "phonetic": "/bæk/"
+      },
+      {
+        "word": "your",
+        "pos": "det",
+        "translation": "tu, su (de usted)",
+        "note": "Posesivo común.",
+        "phonetic": "/jɔːr/"
+      },
+      {
+        "word": "number",
+        "pos": "noun",
+        "translation": "número",
+        "note": "Se refiere al número de teléfono.",
+        "phonetic": "/ˈnʌmbər/"
+      },
+      {
+        "word": "soon",
+        "pos": "adverb",
+        "translation": "pronto",
+        "note": "Indica cercanía en el tiempo.",
+        "phonetic": "/suːn/"
+      },
+      {
+        "word": "thank",
+        "pos": "verb",
+        "translation": "agradecer",
+        "note": "En 'thank you' = gracias.",
+        "phonetic": "/θæŋk/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hello, this is Ana. Please leave a message after the beep.",
+        "translation": "Hola, soy Ana. Por favor, deja un mensaje después del pitido.",
+        "highlights": [
+          "leave",
+          "message",
+          "after",
+          "beep"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hi Ana, this is Luis. Please call me back soon.",
+        "translation": "Hola Ana, soy Luis. Por favor, llámame pronto.",
+        "highlights": [
+          "call",
+          "back",
+          "soon"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Okay, Luis. What is your number?",
+        "translation": "De acuerdo, Luis. ¿Cuál es tu número?",
+        "highlights": [
+          "your",
+          "number"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "It is 555-1234. Thank you!",
+        "translation": "Es 555-1234. ¡Gracias!",
+        "highlights": [
+          "thank"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "leave a message",
+        "translation": "dejar un mensaje"
+      },
+      {
+        "phrase": "call back",
+        "translation": "devolver la llamada"
+      },
+      {
+        "phrase": "after the beep",
+        "translation": "después del pitido"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_31",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the post office sending a package",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "send",
+        "pos": "verb",
+        "translation": "enviar",
+        "note": "Verbo regular: send - sent - sent",
+        "phonetic": "/sɛnd/"
+      },
+      {
+        "word": "package",
+        "pos": "noun",
+        "translation": "paquete",
+        "note": "Sinónimo de 'parcel'",
+        "phonetic": "/ˈpækɪdʒ/"
+      },
+      {
+        "word": "to",
+        "pos": "prep",
+        "translation": "a, para",
+        "note": "Indica destino o dirección",
+        "phonetic": "/tuː/"
+      },
+      {
+        "word": "for",
+        "pos": "prep",
+        "translation": "para, por",
+        "note": "Indica propósito o destinatario",
+        "phonetic": "/fɔːr/"
+      },
+      {
+        "word": "it",
+        "pos": "pron",
+        "translation": "lo, la, ello",
+        "note": "Pronombre objeto",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "word": "we",
+        "pos": "pron",
+        "translation": "nosotros/nosotras",
+        "phonetic": "/wiː/"
+      },
+      {
+        "word": "have",
+        "pos": "verb",
+        "translation": "tener, haber",
+        "note": "En este contexto, 'have' se usa como verbo auxiliar en presente perfecto",
+        "phonetic": "/hæv/"
+      },
+      {
+        "word": "this",
+        "pos": "det",
+        "translation": "este, esta",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "word": "all",
+        "pos": "adj",
+        "translation": "todo, toda, todos, todas",
+        "phonetic": "/ɔːl/"
+      },
+      {
+        "word": "at",
+        "pos": "prep",
+        "translation": "en, junto a",
+        "note": "Indica lugar o punto",
+        "phonetic": "/æt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I want to send this package to my friend.",
+        "translation": "Quiero enviar este paquete a mi amigo.",
+        "highlights": [
+          "send",
+          "to",
+          "this",
+          "package"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "We have it at the counter. Please fill out this form for the package.",
+        "translation": "Lo tenemos en el mostrador. Por favor, complete este formulario para el paquete.",
+        "highlights": [
+          "We",
+          "have",
+          "it",
+          "at",
+          "for",
+          "package"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Is this all for the package?",
+        "translation": "¿Es todo esto para el paquete?",
+        "highlights": [
+          "this",
+          "all",
+          "for",
+          "package"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, we have all we need. You can send it now.",
+        "translation": "Sí, tenemos todo lo que necesitamos. Puede enviarlo ahora.",
+        "highlights": [
+          "we",
+          "have",
+          "all",
+          "send",
+          "it"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Thank you.",
+        "translation": "Gracias.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "send a package",
+        "translation": "enviar un paquete"
+      },
+      {
+        "phrase": "fill out this form",
+        "translation": "rellenar este formulario"
+      },
+      {
+        "phrase": "at the counter",
+        "translation": "en el mostrador"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_33",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your daily routine",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "get up",
+        "pos": "verb",
+        "translation": "levantarse",
+        "note": "Verbo frasal común para 'levantarse de la cama'.",
+        "phonetic": "/ɡet ˈʌp/"
+      },
+      {
+        "word": "morning",
+        "pos": "noun",
+        "translation": "mañana",
+        "note": "Parte del día de 6 a 12.",
+        "phonetic": "/ˈmɔːrnɪŋ/"
+      },
+      {
+        "word": "then",
+        "pos": "adv",
+        "translation": "luego / después",
+        "note": "Para secuenciar acciones.",
+        "phonetic": "/ðen/"
+      },
+      {
+        "word": "breakfast",
+        "pos": "noun",
+        "translation": "desayuno",
+        "note": "Primera comida del día.",
+        "phonetic": "/ˈbrekfəst/"
+      },
+      {
+        "word": "work",
+        "pos": "verb",
+        "translation": "trabajar",
+        "note": "Aquí es verbo, no sustantivo.",
+        "phonetic": "/wɜːrk/"
+      },
+      {
+        "word": "home",
+        "pos": "noun",
+        "translation": "casa / hogar",
+        "note": "Se usa con 'at home'.",
+        "phonetic": "/hoʊm/"
+      },
+      {
+        "word": "evening",
+        "pos": "noun",
+        "translation": "tarde-noche",
+        "note": "Desde las 6 hasta las 10 aproximadamente.",
+        "phonetic": "/ˈiːvnɪŋ/"
+      },
+      {
+        "word": "watch",
+        "pos": "verb",
+        "translation": "ver / mirar",
+        "note": "Para televisión o algo visual.",
+        "phonetic": "/wɑːtʃ/"
+      },
+      {
+        "word": "because",
+        "pos": "conj",
+        "translation": "porque",
+        "note": "Conector de causa.",
+        "phonetic": "/bɪˈkɔːz/"
+      },
+      {
+        "word": "sleep",
+        "pos": "verb",
+        "translation": "dormir",
+        "note": "Verbo irregular: sleep, slept, slept.",
+        "phonetic": "/sliːp/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I get up at seven in the morning.",
+        "translation": "Me levanto a las siete de la mañana.",
+        "highlights": [
+          "get up",
+          "morning"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Then I have breakfast and go to work.",
+        "translation": "Luego desayuno y voy a trabajar.",
+        "highlights": [
+          "Then",
+          "breakfast",
+          "work"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "I work at home in the evening.",
+        "translation": "Trabajo en casa por la tarde-noche.",
+        "highlights": [
+          "work",
+          "home",
+          "evening"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "I watch TV because I like it.",
+        "translation": "Veo la tele porque me gusta.",
+        "highlights": [
+          "watch",
+          "because"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Then I sleep at ten.",
+        "translation": "Luego duermo a las diez.",
+        "highlights": [
+          "sleep"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "get up at seven",
+        "translation": "levantarse a las siete"
+      },
+      {
+        "phrase": "in the morning",
+        "translation": "por la mañana"
+      },
+      {
+        "phrase": "have breakfast",
+        "translation": "desayunar"
+      },
+      {
+        "phrase": "go to work",
+        "translation": "ir a trabajar"
+      },
+      {
+        "phrase": "at home",
+        "translation": "en casa"
+      },
+      {
+        "phrase": "in the evening",
+        "translation": "por la tarde-noche"
+      },
+      {
+        "phrase": "watch TV",
+        "translation": "ver la tele"
+      },
+      {
+        "phrase": "because I like it",
+        "translation": "porque me gusta"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_35",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking about opening hours",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "open",
+        "pos": "adjective",
+        "translation": "abierto",
+        "note": "Se usa para describir que un lugar está disponible al público.",
+        "phonetic": "/ˈoʊ.pən/"
+      },
+      {
+        "word": "close",
+        "pos": "verb",
+        "translation": "cerrar",
+        "note": "Indica la acción de cerrar, aquí usado en presente.",
+        "phonetic": "/kloʊz/"
+      },
+      {
+        "word": "time",
+        "pos": "noun",
+        "translation": "hora",
+        "note": "En este contexto se refiere a la hora del reloj.",
+        "phonetic": "/taɪm/"
+      },
+      {
+        "word": "day",
+        "pos": "noun",
+        "translation": "día",
+        "note": "Se refiere a los días de la semana.",
+        "phonetic": "/deɪ/"
+      },
+      {
+        "word": "today",
+        "pos": "adverb",
+        "translation": "hoy",
+        "note": "Indica el día actual.",
+        "phonetic": "/təˈdeɪ/"
+      },
+      {
+        "word": "can",
+        "pos": "modal verb",
+        "translation": "poder",
+        "note": "Se usa para expresar posibilidad o capacidad.",
+        "phonetic": "/kæn/"
+      },
+      {
+        "word": "on",
+        "pos": "preposition",
+        "translation": "en, el (día)",
+        "note": "Se usa delante de días de la semana.",
+        "phonetic": "/ɑːn/"
+      },
+      {
+        "word": "until",
+        "pos": "preposition",
+        "translation": "hasta",
+        "note": "Indica el límite de tiempo.",
+        "phonetic": "/ənˈtɪl/"
+      },
+      {
+        "word": "but",
+        "pos": "conjunction",
+        "translation": "pero",
+        "note": "Se usa para contrastar información.",
+        "phonetic": "/bʌt/"
+      },
+      {
+        "word": "at",
+        "pos": "preposition",
+        "translation": "a las",
+        "note": "Se usa delante de horas específicas.",
+        "phonetic": "/æt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me the open time today?",
+        "translation": "¿Puedes decirme la hora de apertura hoy?",
+        "highlights": [
+          "Can",
+          "open",
+          "time",
+          "today"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "We open at nine, but we close at five.",
+        "translation": "Abrimos a las nueve, pero cerramos a las cinco.",
+        "highlights": [
+          "open",
+          "at",
+          "but",
+          "close"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "And on Saturday, until what time are you open?",
+        "translation": "¿Y el sábado, hasta qué hora estáis abiertos?",
+        "highlights": [
+          "on",
+          "until",
+          "time",
+          "open"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "On Saturday, we close at one.",
+        "translation": "El sábado, cerramos a la una.",
+        "highlights": [
+          "on",
+          "close",
+          "at"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "open time",
+        "translation": "hora de apertura"
+      },
+      {
+        "phrase": "close at",
+        "translation": "cerrar a las"
+      },
+      {
+        "phrase": "until what time",
+        "translation": "hasta qué hora"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_37",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Choosing a dish from a menu",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "like",
+        "pos": "verb",
+        "translation": "gustar",
+        "note": "Se usa para expresar preferencia.",
+        "phonetic": "/laɪk/"
+      },
+      {
+        "word": "eat",
+        "pos": "verb",
+        "translation": "comer",
+        "phonetic": "/iːt/"
+      },
+      {
+        "word": "fish",
+        "pos": "noun",
+        "translation": "pescado",
+        "phonetic": "/fɪʃ/"
+      },
+      {
+        "word": "or",
+        "pos": "conj",
+        "translation": "o",
+        "phonetic": "/ɔːr/"
+      },
+      {
+        "word": "with",
+        "pos": "prep",
+        "translation": "con",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "word": "rice",
+        "pos": "noun",
+        "translation": "arroz",
+        "phonetic": "/raɪs/"
+      },
+      {
+        "word": "some",
+        "pos": "det",
+        "translation": "unos, algunos",
+        "phonetic": "/sʌm/"
+      },
+      {
+        "word": "very",
+        "pos": "adv",
+        "translation": "muy",
+        "phonetic": "/ˈveri/"
+      },
+      {
+        "word": "good",
+        "pos": "adj",
+        "translation": "bueno, buena",
+        "phonetic": "/ɡʊd/"
+      },
+      {
+        "word": "try",
+        "pos": "verb",
+        "translation": "probar",
+        "phonetic": "/traɪ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you like to eat?",
+        "translation": "¿Qué te gusta comer?",
+        "highlights": [
+          "like",
+          "eat"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "I like fish or chicken with rice.",
+        "translation": "Me gusta pescado o pollo con arroz.",
+        "highlights": [
+          "like",
+          "fish",
+          "or",
+          "with",
+          "rice"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "The fish is very good here.",
+        "translation": "El pescado está muy bueno aquí.",
+        "highlights": [
+          "fish",
+          "very",
+          "good"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Then I try some fish, please.",
+        "translation": "Entonces pruebo algo de pescado, por favor.",
+        "highlights": [
+          "try",
+          "some",
+          "fish"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "What do you like to eat?",
+        "translation": "¿Qué te gusta comer?"
+      },
+      {
+        "phrase": "The fish is very good here.",
+        "translation": "El pescado está muy bueno aquí."
+      },
+      {
+        "phrase": "I try some fish.",
+        "translation": "Pruebo algo de pescado."
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_39",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the bank for a simple transaction",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "money",
+        "pos": "noun",
+        "translation": "dinero",
+        "note": "Sustantivo incontable en inglés: 'money' no tiene plural.",
+        "phonetic": "/ˈmʌni/"
+      },
+      {
+        "word": "need",
+        "pos": "verb",
+        "translation": "necesitar",
+        "phonetic": "/niːd/"
+      },
+      {
+        "word": "here",
+        "pos": "adv",
+        "translation": "aquí",
+        "phonetic": "/hɪr/"
+      },
+      {
+        "word": "go",
+        "pos": "verb",
+        "translation": "ir",
+        "phonetic": "/ɡoʊ/"
+      },
+      {
+        "word": "give",
+        "pos": "verb",
+        "translation": "dar",
+        "phonetic": "/ɡɪv/"
+      },
+      {
+        "word": "more",
+        "pos": "det/adv",
+        "translation": "más",
+        "note": "Puede ser determinante ('more money') o adverbio ('more quickly').",
+        "phonetic": "/mɔːr/"
+      },
+      {
+        "word": "now",
+        "pos": "adv",
+        "translation": "ahora",
+        "phonetic": "/naʊ/"
+      },
+      {
+        "word": "there",
+        "pos": "adv",
+        "translation": "allí",
+        "phonetic": "/ðɛr/"
+      },
+      {
+        "word": "with",
+        "pos": "prep",
+        "translation": "con",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "word": "will",
+        "pos": "verb (modal)",
+        "translation": "will (futuro: 'haré', 'será')",
+        "note": "Se usa para formar el futuro simple.",
+        "phonetic": "/wɪl/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I need money now.",
+        "translation": "Necesito dinero ahora.",
+        "highlights": [
+          "need",
+          "money",
+          "now"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Here is your card. Go there with your ID.",
+        "translation": "Aquí está tu tarjeta. Ve allí con tu identificación.",
+        "highlights": [
+          "Here",
+          "Go",
+          "there",
+          "with"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Will you give me more cash?",
+        "translation": "¿Me darás más efectivo?",
+        "highlights": [
+          "Will",
+          "give",
+          "more"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I will give you the money now. Go there.",
+        "translation": "Sí, te daré el dinero ahora. Ve allí.",
+        "highlights": [
+          "will",
+          "give",
+          "money",
+          "now",
+          "Go",
+          "there"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "I need money",
+        "translation": "Necesito dinero"
+      },
+      {
+        "phrase": "Go there",
+        "translation": "Ve allí"
+      },
+      {
+        "phrase": "give me more",
+        "translation": "dame más"
+      },
+      {
+        "phrase": "here is your card",
+        "translation": "aquí está tu tarjeta"
+      }
+    ]
+  }
+]

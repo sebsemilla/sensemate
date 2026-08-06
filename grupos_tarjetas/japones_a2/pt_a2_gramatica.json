@@ -1,0 +1,2056 @@
+[
+  {
+    "id": "pt_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "過去形（かこけい）／Passado simples",
+    "bridge": "No japonês, o passado simples não é formado por desinências como em português (comer → comi, falar → falei). Em vez disso, você modifica a terminação do verbo no presente (forma -ます) para -ました (forma polida) ou usa a forma -た (forma casual). Atenção: diferente do português, que tem muitos verbos irregulares, o japonês tem apenas dois grupos regulares e uma pequena lista de irregulares. Além disso, a negação no passado também é feita de forma sistemática, trocando -ます por -ませんでした.",
+    "rule": "No japonês polido (usado em conversas com desconhecidos, em situações formais), o passado é formado a partir da forma -masu (presente/futuro). Para criar o passado afirmativo, substitua -ます por -ました. Para a negação no passado, use -ませんでした. Exemplos: たべます (tabemasu – comer) → たべました (tabemashita – comi); のみます (nomimasu – beber) → のみませんでした (nomimasen deshita – não bebi). Para a forma casual (entre amigos, família), você usa a forma -ta para afirmativo e a forma -nakatta para negativo. A forma -ta é criada a partir do radical do verbo (ex: たべる → たべた), e a forma -nakatta é formada adicionando -nakatta ao radical (ex: たべない → たべなかった). Os verbos são divididos em três grupos: verbo do grupo I (godan), grupo II (ichidan) e os irregulares (する e くる). Nas formas polidas, todos seguem a regra acima, mas na forma casual há mudanças de som (ex: かく → かいた, のむ → のんだ).",
+    "concept_examples": [
+      {
+        "text": "昨日テレビを見ました。",
+        "translation": "Ontem eu assisti televisão.",
+        "phonetic": "kinoː teɾebi o mimasiꜜta"
+      },
+      {
+        "text": "先週、映画を見ませんでした。",
+        "translation": "Semana passada, eu não vi filme.",
+        "phonetic": "sensjuː eɡa o mimaseɴ deɕiꜜta"
+      },
+      {
+        "text": "友達と昼ごはんを食べた。",
+        "translation": "Eu comi almoço com um amigo (casual).",
+        "phonetic": "tomodaꜜtɕi to çiɾuɡohaɴ o tabeꜜta"
+      },
+      {
+        "text": "昨日は忙しかったです。",
+        "translation": "Ontem eu estava ocupado (passado de adjetivo).",
+        "phonetic": "kinoː wa isoɡaɕikaꜜtta desɯ"
+      }
+    ],
+    "common_error": {
+      "wrong": "昨日、私はテレビを見ました。",
+      "correct": "昨日、私はテレビを見ました。",
+      "correct_alt": "昨日、テレビを見ました。",
+      "explanation": "Esse erro não é de gramática, mas de uso: em português, costumamos dizer 'eu vi televisão', mas no japonês é comum omitir o sujeito quando ele é claro pelo contexto. Usar 'watashi wa' em toda frase soa artificial e é um erro típico de falantes de português. Lembre-se: o japonês é uma língua pro-drop (omite sujeito)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "動詞の過去形（けいご）",
+        "translation": "Passado educado (forma polida)",
+        "examples": [
+          {
+            "original": "昨日、仕事に行きました。",
+            "phonetic": "kinoː ɕiɡoto ni ikiꜜmaɕiꜜta",
+            "translation": "Ontem, eu fui ao trabalho.",
+            "note": "A forma -ました é usada na fala polida. Note que o verbo 行く (いく) é do grupo I, mas a forma polida é regular."
+          },
+          {
+            "original": "朝ごはんを食べました。",
+            "phonetic": "asaɡohaɴ o tabeꜜmaɕiꜜta",
+            "translation": "Eu comi café da manhã.",
+            "note": "Para verbos do grupo II, como 食べる, basta trocar o -ます por -ました."
+          },
+          {
+            "original": "昨日は雨が降りました。",
+            "phonetic": "kinoː wa ame ɡa ɸɯɾiꜜmaɕiꜜta",
+            "translation": "Ontem choveu.",
+            "note": "Verbos meteorológicos também usam a mesma regra."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "否定の過去形",
+        "translation": "Negação no passado",
+        "examples": [
+          {
+            "original": "昨日、友達に会いませんでした。",
+            "phonetic": "kinoː tomodaꜜtɕi ni aiꜜmaꜜseɴ deɕiꜜta",
+            "translation": "Ontem, eu não encontrei meu amigo.",
+            "note": "A negação polida é -ませんでした, que é a combinação de -ません e でした."
+          },
+          {
+            "original": "先週、旅行に行きませんでした。",
+            "phonetic": "sensjuː ɾʲoꜜkoː ni ikiꜜmaꜜseɴ deɕiꜜta",
+            "translation": "Semana passada, eu não viajei.",
+            "note": "Lembre-se de colocar でした no final, não apenas -ません."
+          },
+          {
+            "original": "昨日、宿題をしませんでした。",
+            "phonetic": "kinoː ɕɯkɯdaꜜi o ɕiꜜmaꜜseɴ deɕiꜜta",
+            "translation": "Ontem, eu não fiz a lição de casa.",
+            "note": "O verbo する (fazer) é irregular, mas a forma polida segue a regra geral."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "辞書形の過去形（かたい）",
+        "translation": "Passado casual (forma curta)",
+        "examples": [
+          {
+            "original": "昨日、映画を見た。",
+            "phonetic": "kinoː eꜜɡa o miꜜta",
+            "translation": "Ontem, eu assisti a um filme (casual).",
+            "note": "A forma -ta é usada em conversas informais. Para verbos do grupo II, basta substituir -る por -た."
+          },
+          {
+            "original": "友達と話した。",
+            "phonetic": "tomodaꜜtɕi to hanasiꜜta",
+            "translation": "Eu conversei com um amigo (casual).",
+            "note": "Verbos do grupo I terminando em -す mudam para -した (話す → 話した)."
+          },
+          {
+            "original": "昨日、本を読んだ。",
+            "phonetic": "kinoː hoɴ o joꜜɴda",
+            "translation": "Ontem, eu li um livro (casual).",
+            "note": "Verbos do grupo I terminando em -む, -ぶ ou -ぬ mudam para -んだ (読む → 読んだ)."
+          },
+          {
+            "original": "昨日は来なかった。",
+            "phonetic": "kinoː wa konaꜜkaꜜtta",
+            "translation": "Ontem, ele/ela não veio (casual).",
+            "note": "Negação casual do verbo 来る (vir): こなかった, com irregularidade."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏪",
+    "phonetic": "",
+    "translations": {
+      "pt": "Passado simples"
+    }
+  },
+  {
+    "id": "pt_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "～ている (te iru) / Presente Progressivo",
+    "bridge": "Em japonês, o presente progressivo é formado com a forma -te do verbo seguida de いる (iru), enquanto em português usamos 'estar + gerúndio'. Uma diferença crucial é que em japonês essa construção também expressa estados resultantes (ex.: 'está casado') e ações habituais (ex.: 'trabalho em uma empresa'), o que não ocorre em português. Além disso, o verbo いる é frequentemente contraído para てる em conversas informais. Cuidado: verbos como 知る (saber) ou 住む (morar) já indicam estado, então o uso de ～ている pode mudar o sentido.",
+    "rule": "Para formar o presente progressivo em japonês: 1) Conjugue o verbo na forma -te (て-form). 2) Adicione いる (iru) ou sua forma contraída てる (teru) em registro informal. Exemplo: 食べる (taberu) → 食べている (tabete iru) / 食べてる (tabeteru). A forma negativa é ～ていない (te inai) ou ～てない (te nai). A forma interrogativa é ～ている？ (te iru?). Uso: A) Ação em andamento: 本を読んでいる (hon wo yonde iru) – 'estou lendo um livro'. B) Estado resultante: 結婚している (kekkon shite iru) – 'sou casado' (literalmente: 'estou no estado de ter me casado'). C) Ação habitual/rotina: 会社で働いている (kaisha de hataraite iru) – 'trabalho em uma empresa'. D) Mudança de estado: だんだん暑くなっている (dandan atsuku natte iru) – 'está ficando cada vez mais quente'. Exceções: Alguns verbos como 知る (shiru – saber) quando usados com ～ている significam 'saber' (estado), não 'estar sabendo'. Verbos como 結婚する (kekkon suru – casar) com ～ている indicam 'estar casado'. Verbos de movimento como 行く (iku – ir) podem ser usados com ～ている para indicar ação em progresso ou resultado. Em A2, foque nos usos principais e pratique com verbos comuns.",
+    "concept_examples": [
+      {
+        "text": "私は今ご飯を食べています。",
+        "translation": "Eu estou comendo agora.",
+        "phonetic": "watashi wa ima gohan wo tabete imasu"
+      },
+      {
+        "text": "彼女は本を読んでいる。",
+        "translation": "Ela está lendo um livro.",
+        "phonetic": "kanojo wa hon wo yonde iru"
+      },
+      {
+        "text": "父は会社で働いています。",
+        "translation": "Meu pai trabalha em uma empresa (ação habitual).",
+        "phonetic": "chichi wa kaisha de hataraite imasu"
+      },
+      {
+        "text": "もう結婚しています。",
+        "translation": "Já sou casado(a) (estado resultante).",
+        "phonetic": "mou kekkon shite imasu"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は今働くです。",
+      "correct": "私は今働いています。",
+      "correct_alt": "私は今働いてる。",
+      "explanation": "Em português, o progressivo é formado com 'estar + gerúndio', mas em japonês não se usa o dicionário (forma curta) com です para indicar ação em andamento. A forma -te + いる/います é obrigatória. Lembre-se de conjugar o verbo na forma -te (por exemplo, 働く → 働いて) antes de adicionar います. Evite traduzir literalmente 'estou + verbo no infinitivo'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本の形",
+        "translation": "Forma básica",
+        "examples": [
+          {
+            "original": "食べています",
+            "phonetic": "tabete imasu",
+            "translation": "Estou comendo (forma polida)",
+            "note": "Use います em situações formais. A contração 食べてる é informal."
+          },
+          {
+            "original": "読んでいます",
+            "phonetic": "yonde imasu",
+            "translation": "Estou lendo",
+            "note": "Note que o verbo 読む (yomu) muda para 読んで na forma -te devido ao som nasal."
+          },
+          {
+            "original": "寝ています",
+            "phonetic": "nete imasu",
+            "translation": "Estou dormindo",
+            "note": "Verbo 寝る (neru) é um verbo de segunda conjugação (ichidan), a forma -te é simples: 寝て."
+          },
+          {
+            "original": "見ています",
+            "phonetic": "mite imasu",
+            "translation": "Estou vendo/assistindo",
+            "note": "Verbo 見る (miru) também é ichidan, forma -te é 見て."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "否定形と疑問形",
+        "translation": "Forma negativa e interrogativa",
+        "examples": [
+          {
+            "original": "食べていません",
+            "phonetic": "tabete imasen",
+            "translation": "Não estou comendo",
+            "note": "Negativa polida: ～ていません. Informal: ～てない."
+          },
+          {
+            "original": "読んでいない",
+            "phonetic": "yonde inai",
+            "translation": "Não estou lendo (informal)",
+            "note": "A forma informal negativa é ～ていない."
+          },
+          {
+            "original": "食べていますか？",
+            "phonetic": "tabete imasu ka",
+            "translation": "Você está comendo?",
+            "note": "Adicione か no final para formar pergunta."
+          },
+          {
+            "original": "もう着ていますか？",
+            "phonetic": "mou kite imasu ka",
+            "translation": "Você já está vestido? (estado resultante)",
+            "note": "Aqui 着る (kiru) com ～ている pode indicar que a ação de vestir foi concluída e o estado permanece."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "状態と習慣",
+        "translation": "Estado e hábito",
+        "examples": [
+          {
+            "original": "結婚しています",
+            "phonetic": "kekkon shite imasu",
+            "translation": "Sou casado(a) (estado)",
+            "note": "Indica o estado resultante de ter se casado, não uma ação em andamento."
+          },
+          {
+            "original": "知っています",
+            "phonetic": "shitte imasu",
+            "translation": "Eu sei (estado)",
+            "note": "O verbo 知る (saber) com ～ている significa 'saber' e não 'estar sabendo'."
+          },
+          {
+            "original": "毎日ジョギングしています",
+            "phonetic": "mainichi jogingu shite imasu",
+            "translation": "Eu corro todos os dias (hábito)",
+            "note": "Usado para ações habituais/rotineiras, equivalente ao presente simples em português."
+          },
+          {
+            "original": "東京に住んでいます",
+            "phonetic": "toukyou ni sunde imasu",
+            "translation": "Moro em Tóquio (estado)",
+            "note": "Verbo 住む (morar) com ～ている indica estado permanente, não ação em andamento."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏃‍♂️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Presente progressivo"
+    }
+  },
+  {
+    "id": "pt_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "未来を表すつもり / Futuro com intenção",
+    "bridge": "Em português, usamos 'vou fazer' ou 'vou viajar' para expressar um futuro planejado. Em japonês, a forma equivalente é o verbo no volitivo + つもり (tsumori), que significa 'intenção'. Porém, diferente do português, o japonês exige que a forma verbal seja a forma curta (dicionário) antes de つもり. Além disso, não há marcação de pessoa como em português (eu, você, nós), o contexto é quem determina o sujeito.",
+    "rule": "Para expressar intenção ou plano futuro, use a forma volitiva do verbo (base dicionário) + つもり (tsumori). A estrutura é: [Verbo na forma curta] + つもり + です (desu) ou ます (masu). Para verbos do grupo 1 (u-verbs), a forma curta é o verbo no dicionário. Para verbos do grupo 2 (ru-verbs), basta retirar o -ru e adicionar -る? Na verdade, a forma correta é usar o verbo no dicionário (forma curta afirmativa) ou a forma negativa (presente curto) + つもり. Exemplo: 行くつもり (iku tsumori) = tenho a intenção de ir. Para negar, usa-se a forma negativa curta: 行かないつもり (ikanai tsumori) = tenho a intenção de não ir. Também é comum usar 予定 (yotei) para planos concretos, mas o foco aqui é a intenção. Note que o 'going to' do inglês não tem correspondente direto, mas つもり é mais próximo de 'ter a intenção de'. Para planos futuros, também se usa a forma 〜する (suru) com palavras temporais como 明日 (ashita) ou 来週 (raishuu), sem conjugação especial.",
+    "concept_examples": [
+      {
+        "text": "明日、東京へ行くつもりです。",
+        "translation": "Amanhã pretendo ir a Tóquio.",
+        "phonetic": "ashita, toukyou e iku tsumori desu."
+      },
+      {
+        "text": "来週、日本語を勉強するつもりです。",
+        "translation": "Na semana que vem, pretendo estudar japonês.",
+        "phonetic": "raishuu, nihongo o benkyou suru tsumori desu."
+      },
+      {
+        "text": "今日は何をするつもりですか？",
+        "translation": "O que você pretende fazer hoje?",
+        "phonetic": "kyou wa nani o suru tsumori desu ka?"
+      },
+      {
+        "text": "あしたは働かないつもりです。",
+        "translation": "Amanhã pretendo não trabalhar.",
+        "phonetic": "ashita wa hatarakanai tsumori desu."
+      }
+    ],
+    "common_error": {
+      "wrong": "明日、東京へ行きまつもりです。",
+      "correct": "明日、東京へ行くつもりです。",
+      "correct_alt": "",
+      "explanation": "Um erro comum é usar a forma masu (行きます) antes de つもり, porque em português tendemos a conjugar o verbo. Mas つもり exige a forma curta (dicionário). 行きます é a forma polida conjugada, mas aqui deve-se usar o verbo no dicionário: 行く."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本形＋つもり",
+        "translation": "Forma básica + tsumori",
+        "examples": [
+          {
+            "original": "買うつもりです。",
+            "phonetic": "kau tsumori desu.",
+            "translation": "Pretendo comprar.",
+            "note": "Use o verbo no dicionário (kau) para verbos simples."
+          },
+          {
+            "original": "食べるつもりです。",
+            "phonetic": "taberu tsumori desu.",
+            "translation": "Pretendo comer.",
+            "note": "Verbo do grupo 2 (taberu) também usa o dicionário."
+          },
+          {
+            "original": "するつもりです。",
+            "phonetic": "suru tsumori desu.",
+            "translation": "Pretendo fazer.",
+            "note": "する (suru) é irregular, use a forma dicionário."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "否定形＋つもり",
+        "translation": "Forma negativa + tsumori",
+        "examples": [
+          {
+            "original": "行かないつもりです。",
+            "phonetic": "ikanai tsumori desu.",
+            "translation": "Pretendo não ir.",
+            "note": "Forma negativa curta: ikanai (não ir)."
+          },
+          {
+            "original": "見ないつもりです。",
+            "phonetic": "minai tsumori desu.",
+            "translation": "Pretendo não ver.",
+            "note": "Para verbos do grupo 1, troque -u por -anai: miru -> minai."
+          },
+          {
+            "original": "買わないつもりです。",
+            "phonetic": "kawanai tsumori desu.",
+            "translation": "Pretendo não comprar.",
+            "note": "Cuidado com a transformação: 買う -> 買わない."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "質問形",
+        "translation": "Forma interrogativa",
+        "examples": [
+          {
+            "original": "週末は何をするつもりですか？",
+            "phonetic": "shuumatsu wa nani o suru tsumori desu ka?",
+            "translation": "O que você pretende fazer no fim de semana?",
+            "note": "Adicione か (ka) para tornar a pergunta."
+          },
+          {
+            "original": "日本に行くつもりがありますか？",
+            "phonetic": "nihon ni iku tsumori ga arimasu ka?",
+            "translation": "Você tem a intenção de ir ao Japão?",
+            "note": "Em perguntas informais, pode-se usar つもり? sem です."
+          },
+          {
+            "original": "いつ帰るつもり？",
+            "phonetic": "itsu kaeru tsumori?",
+            "translation": "Quando você pretende voltar?",
+            "note": "Em conversa casual, a partícula ですか é omitida."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "pt": "Futuro com 'going to' ou equivalente"
+    }
+  },
+  {
+    "id": "pt_A2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "未来（単純未来） / Futuro simples",
+    "bridge": "Em japonês, não existe um tempo verbal futuro como em português (ex.: 'vou comer', 'comerei'). Para expressar ações futuras, usa-se o presente (forma do dicionário) ou a forma -te iru (ação em andamento), frequentemente acompanhados de advérbios de tempo como 明日 (amanhã), 来週 (semana que vem). Diferente do português, não há conjugação específica para o futuro; o contexto temporal é indicado por palavras ou frases adverbiais. Além disso, o verbo não muda conforme o sujeito (eu, você, ele), o que é um alívio, mas exige atenção ao uso de partículas como に (para tempo específico) e で (para lugar de ação futura).",
+    "rule": "Para expressar futuro em japonês (A2), usa-se:\n1) Forma do dicionário (presente/futuro) do verbo: Ex.: 食べる (taberu) – 'comer' ou 'vou comer'. O contexto determina o tempo.\n2) Forma -te iru (ている) para ações futuras em andamento ou planos: Ex.: 行っている (itte iru) – literalmente 'está indo', mas pode indicar 'vai estar indo' em futuro.\n3) Com advérbios de tempo: 明日 (ashita), 来週 (raishuu), 来月 (raigetsu), 後で (ato de). Ex.: 明日、友達と映画を見ます (ashita, tomodachi to eiga o mimasu) – 'Amanhã, vou ver um filme com um amigo'.\n4) Para intenção ou plano, usa-se também つもりです (tsumori desu) – 'pretendo'. Ex.: 日本に行くつもりです (Nihon ni iku tsumori desu) – 'Pretendo ir ao Japão'.\n5) O verbo não muda para pessoa ou número. A partícula に é usada para marcar tempo específico (ex.: ３時に – às 3 horas), e から (kara) para indicação de início de ação futura (ex.: ５時から – a partir das 5).\n6) Para futuro negativo, usa-se a forma negativa do presente: Ex.: 明日は働きません (ashita wa hatarakimasen) – 'Amanhã não vou trabalhar' (forma polida). O negativo informal é -ない (não).\nNão há formas irregulares no futuro, mas cuidado com verbos que mudam a radical (ex.: する→し-, 来る→こ-).",
+    "concept_examples": [
+      {
+        "text": "明日、買い物に行きます。",
+        "translation": "Amanhã, vou às compras.",
+        "phonetic": "aɕita, kaimono ni ikimasɯ"
+      },
+      {
+        "text": "来週、京都へ行くつもりです。",
+        "translation": "Na próxima semana, pretendo ir a Kyoto.",
+        "phonetic": "ɾaɕɯː, kjoːto e iku t͡sɯmoɾi desɯ"
+      },
+      {
+        "text": "後で、メールを送ります。",
+        "translation": "Mais tarde, vou enviar um e-mail.",
+        "phonetic": "ato de, meːɾɯ o okɯɾimasɯ"
+      }
+    ],
+    "common_error": {
+      "wrong": "明日、私は働くだろう。",
+      "correct": "明日、私は働きます。",
+      "correct_alt": "明日、私は働くつもりです。",
+      "explanation": "O erro ocorre porque o aluno tenta criar um futuro explícito como no português ('trabalharei'). Em japonês, '働くだろう' (hataraku darou) é usado para suposição, não para intenção futura. Para A2, é mais natural usar o presente (polido ou informal) com advérbio de tempo, ou a construção com つもり para intenção. Evite traduzir diretamente a terminação '-arei' para -だろう."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "未来の基本形",
+        "translation": "Forma básica do futuro",
+        "examples": [
+          {
+            "original": "明日、勉強します。",
+            "phonetic": "aɕita, benkʲoː ɕimasɯ",
+            "translation": "Amanhã, vou estudar.",
+            "note": "Verbo no presente polido (ます) indica ação futura com advérbio de tempo."
+          },
+          {
+            "original": "来週、映画を見ます。",
+            "phonetic": "ɾaɕɯː, eːɡa o mimasɯ",
+            "translation": "Na próxima semana, vou ver um filme.",
+            "note": "O verbo 見ます (mimasu) é presente/futuro; o contexto temporal é claro por 来週."
+          },
+          {
+            "original": "後で、電話します。",
+            "phonetic": "ato de, denwa ɕimasɯ",
+            "translation": "Mais tarde, vou telefonar.",
+            "note": "Expressão 後で (ato de) - 'mais tarde' - é comum para futuro próximo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "計画と意図",
+        "translation": "Planos e intenções",
+        "examples": [
+          {
+            "original": "日本に留学するつもりです。",
+            "phonetic": "nihon ni ɾʲɯːɡakɯ sɯɾɯ t͡sɯmoɾi desɯ",
+            "translation": "Pretendo estudar no Japão.",
+            "note": "つもりです expressa intenção clara."
+          },
+          {
+            "original": "来月、車を買う予定です。",
+            "phonetic": "ɾaɡeʦɯ, kɯɾɯma o kaɯ joteː desɯ",
+            "translation": "No mês que vem, tenho planos de comprar um carro.",
+            "note": "予定 (jotei) significa 'plano/agenda' - útil para planos futuros."
+          },
+          {
+            "original": "あした、友だちとテニスをするつもりです。",
+            "phonetic": "aɕita, tomodaʨi to tenisɯ o sɯɾɯ t͡sɯmoɾi desɯ",
+            "translation": "Amanhã, pretendo jogar tênis com meu amigo.",
+            "note": "Observe a partícula と para 'com' (companhia)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "未来の否定",
+        "translation": "Negação do futuro",
+        "examples": [
+          {
+            "original": "明日は働きません。",
+            "phonetic": "aɕita wa hatarakimasen",
+            "translation": "Amanhã não vou trabalhar.",
+            "note": "Forma negativa polida: ません (masen)."
+          },
+          {
+            "original": "来週はテストをしません。",
+            "phonetic": "ɾaɕɯː wa tesɯto o ɕimasen",
+            "translation": "Na próxima semana não faremos teste.",
+            "note": "Negação de ação específica."
+          },
+          {
+            "original": "後で、食べないつもりです。",
+            "phonetic": "ato de, tabenai t͡sɯmoɾi desɯ",
+            "translation": "Mais tarde, pretendo não comer.",
+            "note": "Negação com つもり: usa a forma negativa informal (-nai)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "pt": "Futuro simples"
+    }
+  },
+  {
+    "id": "pt_A2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "比較級・最上級（ひかくきゅう・さいじょうきゅう） / Comparativos e Superlativos",
+    "bridge": "Em português, para comparar usamos 'mais... que' e para superlativo 'o mais... de'. No japonês, não há flexão de adjetivos como em português; em vez disso, usamos partículas como より (yori) para comparação e 一番 (ichiban) para superlativo. Cuidado: em japonês, a ordem da frase é diferente, e o que em português é adjetivo comparativo (ex: 'maior') em japonês é uma construção com adjetivo + partícula. Além disso, para dizer 'mais do que', a estrutura é 'A は B より + adjetivo', enquanto em português naturalmente pensamos 'A é mais + adjetivo + que B'.",
+    "rule": "Em japonês, os adjetivos não mudam de forma para comparativo ou superlativo. Para expressar comparação (mais ... que), usamos: [A] は [B] より + adjetivo (na forma afirmativa). Exemplo: 犬は猫より大きい (Inu wa neko yori ōkii) = O cão é maior que o gato. A partícula より funciona como 'do que' e vem após o segundo elemento da comparação. Para superlativo (o mais ... de), usamos: [A] は [grupo] で一番 + adjetivo. Exemplo: これはクラスで一番大きい (Kore wa kurasu de ichiban ōkii) = Isto é o maior da classe. A palavra 一番 (ichiban) significa 'o mais' e vem antes do adjetivo. Para 'menos', usamos 一番～ない (ichiban + forma negativa do adjetivo) ou usamos あまり～ない, mas para A2 focamos no uso de 一番. Adjetivos em japonês podem ser de dois tipos: i-adjetivos (terminados em -i, como 大きい) e na-adjetivos (como 元気な). A regra é a mesma para ambos, sem alteração. Exceção: para dizer 'melhor' e 'pior', usamos formas especiais: いい (bom) torna-se 良くない (não bom), mas para comparativo usamos よりいい e para superlativo 一番いい. Para 'pior', 悪い (warui) vira より悪い e 一番悪い. Cuidado com a ordem: o adjetivo vem no final da frase, não antes do substantivo como em português.",
+    "concept_examples": [
+      {
+        "text": "私は兄より背が高いです。",
+        "translation": "Eu sou mais alto que meu irmão.",
+        "phonetic": "watashi wa ani yori se ga takai desu"
+      },
+      {
+        "text": "これはあれより新しいです。",
+        "translation": "Este é mais novo do que aquele.",
+        "phonetic": "kore wa are yori atarashii desu"
+      },
+      {
+        "text": "このレストランは町で一番人気です。",
+        "translation": "Este restaurante é o mais popular da cidade.",
+        "phonetic": "kono resutoran wa machi de ichiban ninki desu"
+      },
+      {
+        "text": "彼女はクラスで一番きれいです。",
+        "translation": "Ela é a mais bonita da classe.",
+        "phonetic": "kanojo wa kurasu de ichiban kirei desu"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は兄より背が高いです。 (This is correct, but the typical error is using より before the subject, so the error would be: より兄は私が背が高いです)",
+      "correct": "私は兄より背が高いです。",
+      "correct_alt": "兄より私は背が高いです。",
+      "explanation": "O erro típico de falantes de português é colocar より no início ou inverter a ordem, pensando na estrutura portuguesa. Em português dizemos 'Eu sou mais alto do que meu irmão', mas em japonês a ordem é 'Eu (は) irmão (より) alto é'. Lembre-se: より vem sempre depois do elemento com o qual você compara. Então, se errar, corrija colocando o sujeito primeiro com は, depois o termo de comparação com より, e o adjetivo no final."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "比較級（ひかくきゅう）",
+        "translation": "Comparativo",
+        "examples": [
+          {
+            "original": "日本語は英語より難しいです。",
+            "phonetic": "nihongo wa eigo yori muzukashii desu",
+            "translation": "Japonês é mais difícil do que inglês.",
+            "note": "Note que a estrutura é: tópico (日本語) + は + elemento de comparação (英語) + より + adjetivo (難しい)."
+          },
+          {
+            "original": "この本はあの本より面白いです。",
+            "phonetic": "kono hon wa ano hon yori omoshiroi desu",
+            "translation": "Este livro é mais interessante do que aquele.",
+            "note": "Lembre-se: adjetivo -i (面白い) permanece igual, sem terminação diferente."
+          },
+          {
+            "original": "田中さんは佐藤さんより元気です。",
+            "phonetic": "tanaka-san wa satō-san yori genki desu",
+            "translation": "O senhor Tanaka é mais animado do que o senhor Sato.",
+            "note": "Com na-adjetivos (元気), não se adiciona 'na' após より; o adjetivo vem com 'です'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "最上級（さいじょうきゅう）",
+        "translation": "Superlativo",
+        "examples": [
+          {
+            "original": "一年で一番寒い月は二月です。",
+            "phonetic": "ichinen de ichiban samui tsuki wa nigatsu desu",
+            "translation": "O mês mais frio do ano é fevereiro.",
+            "note": "Usamos で para indicar o grupo (ano) e 一番 antes do adjetivo."
+          },
+          {
+            "original": "この問題が一番難しいです。",
+            "phonetic": "kono mondai ga ichiban muzukashii desu",
+            "translation": "Este problema é o mais difícil.",
+            "note": "Quando o grupo é óbvio, pode-se omitir a parte 'de grupo'."
+          },
+          {
+            "original": "家族の中で一番背が高いのは父です。",
+            "phonetic": "kazoku no naka de ichiban se ga takai no wa chichi desu",
+            "translation": "O mais alto da família é o pai.",
+            "note": "Para dizer 'em/entre', usamos で, mas com の中 de 'dentro'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "特殊な比較（とくしゅなひかく）・不規則形（ふきそくけい）",
+        "translation": "Comparações especiais e formas irregulares",
+        "examples": [
+          {
+            "original": "これはあれよりいいです。",
+            "phonetic": "kore wa are yori ii desu",
+            "translation": "Isto é melhor do que aquilo.",
+            "note": "いい (bom) não muda: use より + いい."
+          },
+          {
+            "original": "この店は一番いいです。",
+            "phonetic": "kono mise wa ichiban ii desu",
+            "translation": "Esta loja é a melhor.",
+            "note": "Para superlativo de 'bom', use 一番 + いい."
+          },
+          {
+            "original": "今日は昨日より悪いです。",
+            "phonetic": "kyō wa kinō yori warui desu",
+            "translation": "Hoje está pior do que ontem.",
+            "note": "Para 'pior', use より + 悪い."
+          },
+          {
+            "original": "このテストは一番悪かったです。",
+            "phonetic": "kono tesuto wa ichiban warukatta desu",
+            "translation": "Esta prova foi a pior.",
+            "note": "No passado, o adjetivo também muda: 悪い → 悪かった, e 一番 vem antes."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Comparativos e Superlativos"
+    }
+  },
+  {
+    "id": "pt_A2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "義務・許可の表現 (Obrigação e Permissão)",
+    "bridge": "Em português, usamos verbos modais como 'dever', 'ter que' e 'poder' para expressar obrigação, necessidade e permissão. Em japonês, essas ideias são transmitidas principalmente por sufixos verbais, como 〜なければなりません (obrigação forte), 〜てはいけません (proibição) e 〜てもいいです (permissão). Uma diferença crucial é que esses sufixos se anexam diretamente à forma te ou forma negativa do verbo, e não a um verbo auxiliar separado. Além disso, a educação (formas です/ます) é geralmente usada em situações formais, enquanto em contextos informais se usam formas mais curtas. Preste atenção: em japonês, 'não preciso' é '〜なくてもいいです', que literalmente significa 'mesmo se não fizer, é bom' – uma estrutura que não tem equivalente direto em português.",
+    "rule": "Para expressar obrigação e necessidade em japonês (nível A2), usamos 〜なければなりません (ou 〜なきゃいけません em conversa), que se anexa à forma negativa do verbo (nai-form). Exemplo: 行かなければなりません (tenho que ir). Para proibição, usamos 〜てはいけません (ou 〜ちゃだめ em informal), que se anexa à forma te do verbo. Exemplo: ここで食べてはいけません (não se pode comer aqui). Para permissão, usamos 〜てもいいです, também com a forma te. Exemplo: 聞いてもいいです (pode perguntar). A forma 〜なくてもいいです expressa que algo não é necessário. Exemplo: 行かなくてもいいです (não precisa ir). Em contextos informais, essas formas são abreviadas: 〜なきゃ, 〜ちゃだめ, 〜てもいい. Lembre-se de que a partícula が pode substituir を em algumas estruturas, e que a ordem das palavras é fixa (sujeito + objeto + verbo).",
+    "concept_examples": [
+      {
+        "text": "宿題をしなければなりません。",
+        "translation": "Tenho que fazer o dever de casa.",
+        "phonetic": "ɕɯkɯdaʑi o ɕinakerebanarimasen."
+      },
+      {
+        "text": "ここで写真を撮ってはいけません。",
+        "translation": "Não se pode tirar fotos aqui.",
+        "phonetic": "koko de ɕaɕiɴ o to̞t̚te wa ikemasen."
+      },
+      {
+        "text": "トイレを使ってもいいですか。",
+        "translation": "Posso usar o banheiro?",
+        "phonetic": "to̞ire o t͡sɯkat̚te mo iː desɯ ka."
+      },
+      {
+        "text": "明日来なくてもいいです。",
+        "translation": "Amanhã não precisa vir.",
+        "phonetic": "aɕita konaꜜkute̞ mo iː desɯ."
+      }
+    ],
+    "common_error": {
+      "wrong": "私は行くべきがあります。",
+      "correct": "私は行かなければなりません。",
+      "correct_alt": "私は行かなくてはいけません。",
+      "explanation": "Em português, usamos 'dever' + infinitivo ('eu devo ir'), mas em japonês não há um verbo modal separado que seja usado dessa forma. 'Beki' (べき) existe, mas é mais formal e usado para conselhos, não para obrigação. O erro vem da tentativa de traduzir literalmente a estrutura portuguesa. Em japonês, a obrigação é expressa pelo sufixo 〜なければなりません, que se anexa à forma negativa do verbo, ou 〜なくてはいけません, que usa a forma te negativa. Evite usar べき para obrigação; é mais adequado para 'deveria'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "義務・必要性",
+        "translation": "Obrigação e Necessidade",
+        "examples": [
+          {
+            "original": "毎日働かなければなりません。",
+            "phonetic": "mainiti hatarakanakerebanarimasen",
+            "translation": "Tenho que trabalhar todos os dias.",
+            "note": "Forma formal de obrigação. 'Nakereba narimasen' anexado à forma nai do verbo."
+          },
+          {
+            "original": "薬を飲まなければなりません。",
+            "phonetic": "kɯsɯri o nominakerebanarimasen",
+            "translation": "Tenho que tomar o remédio.",
+            "note": "Observe que o objeto é marcado com 'o'."
+          },
+          {
+            "original": "ここで靴を脱がなければなりません。",
+            "phonetic": "koko de kɯt͡sɯ o nɯganakerebanarimasen",
+            "translation": "Tenho que tirar os sapatos aqui.",
+            "note": "Uso típico em casas japonesas. A forma negativa de 'nugu' é 'nuganai'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "禁止",
+        "translation": "Proibição",
+        "examples": [
+          {
+            "original": "ここでタバコを吸ってはいけません。",
+            "phonetic": "koko de tabako o sɯt̚te wa ikemasen",
+            "translation": "Não se pode fumar aqui.",
+            "note": "Forma te + wa ikemasen. Expressa proibição."
+          },
+          {
+            "original": "授業中にスマホを使ってはいけません。",
+            "phonetic": "ʑɯɡʲoːt͡ɕɯː ni sɯmaho o t͡sɯkat̚te wa ikemasen",
+            "translation": "Não se pode usar o celular durante a aula.",
+            "note": "Uso comum em contexto escolar."
+          },
+          {
+            "original": "ここで騒いではいけません。",
+            "phonetic": "koko de sawaꜜide wa ikemasen",
+            "translation": "Não se pode fazer barulho aqui.",
+            "note": "O verbo 'sawagu' (fazer barulho) na forma te é 'sawaide'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "許可・不必要",
+        "translation": "Permissão e Desnecessidade",
+        "examples": [
+          {
+            "original": "ここに座ってもいいですか。",
+            "phonetic": "koko ni sɯɰat̚te mo iː desɯ ka",
+            "translation": "Posso sentar aqui?",
+            "note": "Forma te + mo ii desu ka para pedir permissão."
+          },
+          {
+            "original": "写真を撮ってもいいです。",
+            "phonetic": "ɕaɕiɴ o to̞t̚te mo iː desɯ",
+            "translation": "Pode tirar fotos.",
+            "note": "Resposta afirmativa com permissão."
+          },
+          {
+            "original": "急がなくてもいいです。",
+            "phonetic": "isoɡanakute mo iː desɯ",
+            "translation": "Não precisa ter pressa.",
+            "note": "Forma nai + kute mo ii desu para indicar que algo não é necessário."
+          },
+          {
+            "original": "傘を持っていかなくてもいいです。",
+            "phonetic": "kasa o mot̚te ikȵakute mo iː desɯ",
+            "translation": "Não precisa levar guarda-chuva.",
+            "note": "Verbo composto 'motte iku' (levar) na forma nai."
+          }
+        ]
+      }
+    ],
+    "emoji": "📋",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbos Modais (Obrigação, Proibição, Permissão)"
+    }
+  },
+  {
+    "id": "pt_A2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "自動詞と他動詞 / Verbos intransitivos e transitivos",
+    "bridge": "Em japonês, não existem exatamente 'verbos reflexivos' como em português (ex: 'me levanto', 'me chamo'). Em vez disso, o japonês usa pares de verbos intransitivos (自動詞) e transitivos (他動詞) para expressar ações que acontecem sozinhas versus ações que alguém causa. Por exemplo, 'a porta abre' (自動詞) vs 'abro a porta' (他動詞). Diferente do português, onde o mesmo verbo pode ser reflexivo, em japonês a escolha do verbo muda completamente. Você precisa memorizar os pares. Cuidado com a partícula: intransitivo usa が, transitivo usa を.",
+    "rule": "No nível A2, você deve conhecer os pares básicos de verbos intransitivos e transitivos. O intransitivo descreve uma mudança de estado que ocorre sem agente explícito (ex: ドアが開く - a porta abre). O transitivo descreve a ação de um agente sobre um objeto (ex: ドアを開ける - eu abro a porta). Os pares mais comuns são: 開く/開ける, 閉まる/閉める, 壊れる/壊す, つく/つける, 消える/消す, 止まる/止める, 入る/入れる. A estrutura é: [sujeito] が + verbo intransitivo; [agente] が [objeto] を + verbo transitivo. Em frases com sujeito implícito (comum em japonês), a partícula が marca o objeto que sofre a ação no intransitivo. Não há voz reflexiva explícita; para expressar 'eu mesmo fiz', usa-se 自分で (por mim mesmo) ou 自分に (para mim).",
+    "concept_examples": [
+      {
+        "text": "ドアが開く。",
+        "translation": "A porta abre.",
+        "phonetic": "/do.a.ɡa a.ka.ɕi/ (～aku)"
+      },
+      {
+        "text": "ドアを開ける。",
+        "translation": "Eu abro a porta.",
+        "phonetic": "/do.a.o a.ke.ɾɯ/"
+      },
+      {
+        "text": "電気が消える。",
+        "translation": "A luz se apaga.",
+        "phonetic": "/deŋ.ki.ɡa ki.e.ɾɯ/"
+      },
+      {
+        "text": "電気を消す。",
+        "translation": "Eu apago a luz.",
+        "phonetic": "/deŋ.ki.o ke.sɯ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "私はドアを開きます。 (usando o transitivo com partícula errada)",
+      "correct": "ドアが開きます。",
+      "correct_alt": "私はドアを開けます。",
+      "explanation": "O erro comum é usar o transitivo com partícula を quando se quer descrever uma ação que acontece naturalmente. Em português, 'a porta abre' pode ser expresso com o mesmo verbo, mas em japonês você precisa escolher o intransitivo e marcar o sujeito com が. Para dizer que você mesmo abre a porta, use o transitivo com を. Lembre-se: intransitivo = が, transitivo = を."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本のペア",
+        "translation": "Pares básicos",
+        "examples": [
+          {
+            "original": "ドアが開く",
+            "phonetic": "/do.a.ɡa a.kɯ/",
+            "translation": "A porta abre",
+            "note": "Verbo intransitivo: a ação acontece sem agente explícito."
+          },
+          {
+            "original": "ドアを開ける",
+            "phonetic": "/do.a.o a.ke.ɾɯ/",
+            "translation": "Abrir a porta",
+            "note": "Verbo transitivo: alguém executa a ação."
+          },
+          {
+            "original": "窓が閉まる",
+            "phonetic": "/ma.do.ɡa ɕi.ma.ɾɯ/",
+            "translation": "A janela fecha",
+            "note": "Intransitivo de 閉める."
+          },
+          {
+            "original": "窓を閉める",
+            "phonetic": "/ma.do.o ɕi.me.ɾɯ/",
+            "translation": "Fechar a janela",
+            "note": "Transitivo: requer objeto com を."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "状態の変化",
+        "translation": "Mudança de estado",
+        "examples": [
+          {
+            "original": "電気がつく",
+            "phonetic": "/deŋ.ki.ɡa t͡sɯ.kɯ/",
+            "translation": "A luz acende",
+            "note": "Intransitivo: a luz acende sozinha, sem agente."
+          },
+          {
+            "original": "電気をつける",
+            "phonetic": "/deŋ.ki.o t͡sɯ.ke.ɾɯ/",
+            "translation": "Acender a luz",
+            "note": "Transitivo: você acende a luz."
+          },
+          {
+            "original": "ビールが冷える",
+            "phonetic": "/biː.ɾɯ.ɡa çi.e.ɾɯ/",
+            "translation": "A cerveja esfria",
+            "note": "Intransitivo: mudança natural de temperatura."
+          },
+          {
+            "original": "ビールを冷やす",
+            "phonetic": "/biː.ɾɯ.o çi.ja.sɯ/",
+            "translation": "Esfriar a cerveja (colocar na geladeira)",
+            "note": "Transitivo: ação deliberada."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "使役の表現",
+        "translation": "Expressões de causação",
+        "examples": [
+          {
+            "original": "車が止まる",
+            "phonetic": "/kɯ.ɾu.ma.ɡa to.ma.ɾɯ/",
+            "translation": "O carro para",
+            "note": "Intransitivo: o carro para naturalmente (ex: no sinal)."
+          },
+          {
+            "original": "車を止める",
+            "phonetic": "/kɯ.ɾu.ma.o to.me.ɾɯ/",
+            "translation": "Parar o carro",
+            "note": "Transitivo: você para o carro."
+          },
+          {
+            "original": "自分でやる",
+            "phonetic": "/d͡ʑi.bɯɴ.de ja.ɾɯ/",
+            "translation": "Fazer eu mesmo",
+            "note": "Uso de 自分で para enfatizar ação reflexiva."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbos transitivos e intransitivos"
+    }
+  },
+  {
+    "id": "pt_A2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "助詞「を」と「に」 (Partículas を e に)",
+    "bridge": "No português, o objeto direto e o indireto são marcados pela ordem das palavras e pelas preposições (ex: 'Eu dou o livro a ela'). No japonês, as partículas を (o) e に (ni) desempenham esse papel, mas a ordem das palavras é mais flexível, e a partícula に também é usada para indicar destino, tempo e beneficiário. Um erro comum é usar を para o objeto indireto, mas lembre-se: に indica o 'receptor' da ação.",
+    "rule": "A partícula を marca o objeto direto (a coisa ou pessoa que sofre a ação). A partícula に marca o objeto indireto (receptor, beneficiário) e também é usada com verbos como 会う (encontrar), 乗る (embarcar) e 入る (entrar). Para A2, você precisa saber que: 1) A estrutura básica é: sujeito + は/が + objeto direto + を + verbo. 2) Para verbos que indicam dar/receber (上げます, もらいます), o receptor vem com に. 3) Não confunda: に também pode indicar destino (ex: 学校に行きます - vou à escola). Exceções: alguns verbos que parecem exigir に, como 好き (gostar de), na verdade usam が (ex: 私は猫が好きです).",
+    "concept_examples": [
+      {
+        "text": "私は本を読みます。",
+        "translation": "Eu leio um livro.",
+        "phonetic": "[watashi wa hon o yomimasu]"
+      },
+      {
+        "text": "田中さんにプレゼントをあげます。",
+        "translation": "Dou um presente ao Tanaka.",
+        "phonetic": "[tanaka-san ni purezento o agemasu]"
+      },
+      {
+        "text": "毎日コーヒーを飲みます。",
+        "translation": "Todos os dias bebo café.",
+        "phonetic": "[mainichi koohii o nomimasu]"
+      },
+      {
+        "text": "友達にメールを送ります。",
+        "translation": "Envio um e-mail para um amigo.",
+        "phonetic": "[tomodachi ni meeru o okurimasu]"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は先生をプレゼントをあげます。",
+      "correct": "私は先生にプレゼントをあげます。",
+      "correct_alt": "私は先生に贈り物をします。",
+      "explanation": "Em português, usamos 'dar algo a alguém', e o 'alguém' é objeto indireto. No japonês, o receptor de verbos como あげます (dar) e もらいます (receber) deve ser marcado com に, e não com を. O を é apenas para o objeto direto (o presente). Confundir essas partículas é comum porque o português não tem marcação explícita, mas lembre-se: に+receptor, を+coisa dada."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "を para objeto direto",
+        "translation": "を para objeto direto",
+        "examples": [
+          {
+            "original": "朝ごはんを食べます。",
+            "phonetic": "[asagohan o tabemasu]",
+            "translation": "Eu como café da manhã.",
+            "note": "O verbo 食べます (comer) exige objeto direto com を."
+          },
+          {
+            "original": "テレビを見ます。",
+            "phonetic": "[terebi o mimasu]",
+            "translation": "Eu assisto TV.",
+            "note": "O verbo 見ます (ver, assistir) é usado com を."
+          },
+          {
+            "original": "音楽を聞きます。",
+            "phonetic": "[ongaku o kikimasu]",
+            "translation": "Eu ouço música.",
+            "note": "Atenção: 聞きます significa 'ouvir', não 'escutar' no sentido de 'obedecer'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "に para objeto indireto e direção",
+        "translation": "に para objeto indireto e direção",
+        "examples": [
+          {
+            "original": "友達に会います。",
+            "phonetic": "[tomodachi ni aimasu]",
+            "translation": "Eu encontro um amigo.",
+            "note": "Com o verbo 会う, o objeto é marcado com に, não com を, ao contrário do português."
+          },
+          {
+            "original": "学校に行きます。",
+            "phonetic": "[gakkou ni ikimasu]",
+            "translation": "Vou para a escola.",
+            "note": "Aqui に indica direção/destino, algo parecido com a preposição 'para'."
+          },
+          {
+            "original": "駅で友達に会いました。",
+            "phonetic": "[eki de tomodachi ni aimashita]",
+            "translation": "Encontrei um amigo na estação.",
+            "note": "Note que で marca o local da ação, e に marca a pessoa encontrada."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Combinações を…に",
+        "translation": "Combinações を…に",
+        "examples": [
+          {
+            "original": "私は友達に手紙を書きます。",
+            "phonetic": "[watashi wa tomodachi ni tegami o kakimasu]",
+            "translation": "Eu escrevo uma carta para um amigo.",
+            "note": "Padrão: coisa (を) + pessoa/destino (に) + verbo."
+          },
+          {
+            "original": "母に料理を教えます。",
+            "phonetic": "[haha ni ryouri o oshiemasu]",
+            "translation": "Eu ensino culinária para minha mãe.",
+            "note": "Verbos como 'ensinar' (教えます) seguem o mesmo padrão."
+          },
+          {
+            "original": "日本人に日本語を習っています。",
+            "phonetic": "[nihonjin ni nihongo o naratte imasu]",
+            "translation": "Estou aprendendo japonês com uma pessoa japonesa.",
+            "note": "Para aprender (習います), a pessoa de quem se aprende é marcada com に, e o conteúdo com を."
+          },
+          {
+            "original": "彼に本を貸します。",
+            "phonetic": "[kare ni hon o kashimasu]",
+            "translation": "Eu empresto um livro a ele.",
+            "note": "Emprestar (貸します) também usa o padrão に para o receptor."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎯",
+    "phonetic": "",
+    "translations": {
+      "pt": "Pronomes de objeto direto e indireto"
+    }
+  },
+  {
+    "id": "pt_A2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "頻度の副詞 (Adverbios de Frequência)",
+    "bridge": "Em japonês, os advérbios de frequência funcionam de maneira semelhante ao português (sempre, às vezes, nunca), mas a posição na frase é mais flexível e geralmente vêm antes do verbo. Ao contrário do português, onde usamos 'nunca' ou 'sempre' com dupla negativa, o japonês tem uma lógica diferente: para dizer 'nunca', usamos 決して (kesshite) com verbo negativo, ou simplesmente 一度も (ichido mo) com negativo. Cuidado: em português, 'nunca' sozinho já é negativo, mas em japonês você precisa combinar com a forma negativa do verbo. Outra diferença: em japonês, advérbios como 毎日 (mainichi, todos os dias) podem ser usados sem preposição, enquanto em português usamos 'todos os dias' com artigo.",
+    "rule": "Os advérbios de frequência em japonês (頻度の副詞, hindo no fukushi) indicam com que frequência uma ação ocorre. Os principais são: いつも (itsumo, sempre), たいてい (taitei, geralmente), よく (yoku, frequentemente), ときどき (tokidoki, às vezes), あまり (amari, não muito - com verbo negativo), ぜんぜん (zenzen, nunca/nada - com verbo negativo), たまに (tamani, raramente), めったに (mettani, raramente - com negativo), 決して (kesshite, nunca - com negativo). Regra: a maioria desses advérbios vem imediatamente antes do verbo. Para expressar negação com frequência, use advérbios como あまり, ぜんぜん, めったに, 決して seguidos da forma negativa do verbo (ex: あまり食べない = não como muito). A forma negativa termina em ない (presente) ou ません (formal). Exceção: いつも pode ser usado com negativo para significar 'nem sempre' (sempre + não = nem sempre). Para 'nunca', a combinação mais forte é 決して + negativo, mas ぜんぜん também é comum. Em frases formais, use ません; em informais, use ない. Os advérbios podem vir no início da frase para ênfase, mas isso é menos comum. Em A2, concentre-se em uso com verbos no presente e passado.",
+    "concept_examples": [
+      {
+        "text": "わたしは いつも あさ ごはんを たべます。",
+        "translation": "Eu sempre como café da manhã.",
+        "phonetic": "vatashi wa itsumo asa gohan wo tabemasu."
+      },
+      {
+        "text": "かれは ときどき えいがを みます。",
+        "translation": "Ele às vezes assiste filmes.",
+        "phonetic": "kare wa tokidoki eiga wo mimasu."
+      },
+      {
+        "text": "わたしは あまり おさけを のみません。",
+        "translation": "Eu não bebo muito álcool.",
+        "phonetic": "vatashi wa amari osake wo nomimasen."
+      },
+      {
+        "text": "あなたは ぜんぜん べんきょう しません ね。",
+        "translation": "Você não estuda nada, né?",
+        "phonetic": "anata wa zenzen benkyou shimasen ne."
+      }
+    ],
+    "common_error": {
+      "wrong": "わたしは ぜんぜん たべます。(Watashi wa zenzen tabemasu.)",
+      "correct": "わたしは ぜんぜん たべません。(Watashi wa zenzen tabemasen.)",
+      "correct_alt": "わたしは ぜんぜん たべない。(Watashi wa zenzen tabenai.)",
+      "explanation": "Em português, 'nunca' já carrega sentido negativo, mas em japonês, ぜんぜん e outros advérbios de frequência negativos (あまり, めったに, 決して) exigem que o verbo esteja na forma negativa. Se usar ぜんぜん com verbo afirmativo, a frase fica incompleta e soa estranha. Para 'nunca como', use ぜんぜん + たべません (forma negativa polida) ou たべない (informal). Lembre-se: a negação é dupla no japonês (advérbio + verbo negativo), enquanto no português 'nunca' já é suficiente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本的な頻度の副詞",
+        "translation": "Advérbios de frequência básicos",
+        "examples": [
+          {
+            "original": "わたしは いつも コーヒーを のみます。",
+            "phonetic": "vatashi wa itsumo koohii wo nomimasu.",
+            "translation": "Eu sempre bebo café.",
+            "note": "いつも (itsumo) significa 'sempre' e vem antes do verbo. Observe que não há preposição como em 'sempre'."
+          },
+          {
+            "original": "かれは よく テレビを みます。",
+            "phonetic": "kare wa yoku terebi wo mimasu.",
+            "translation": "Ele frequentemente assiste TV.",
+            "note": "よく (yoku) indica alta frequência, mas não tão alta quanto いつも."
+          },
+          {
+            "original": "わたしは ときどき すしを たべます。",
+            "phonetic": "vatashi wa tokidoki sushi wo tabemasu.",
+            "translation": "Eu às vezes como sushi.",
+            "note": "ときどき (tokidoki) é equivalente a 'às vezes' e é mais comum em situações cotidianas."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "否定形と頻度の副詞",
+        "translation": "Advérbios de frequência com formas negativas",
+        "examples": [
+          {
+            "original": "わたしは あまり おかねが ありません。",
+            "phonetic": "vatashi wa amari okane ga arimasen.",
+            "translation": "Eu não tenho muito dinheiro.",
+            "note": "あまり (amari) com verbo negativo (ありません) significa 'não muito' ou 'quase nada'."
+          },
+          {
+            "original": "かれは ぜんぜん さかなを たべません。",
+            "phonetic": "kare wa zenzen sakana wo tabemasen.",
+            "translation": "Ele não come peixe de jeito nenhum.",
+            "note": "ぜんぜん (zenzen) com negativo enfatiza 'nunca/nada'."
+          },
+          {
+            "original": "わたしは めったに びょうきに なりません。",
+            "phonetic": "vatashi wa mettani byouki ni narimasen.",
+            "translation": "Eu raramente fico doente.",
+            "note": "めったに (mettani) com negativo significa 'raramente' (quase nunca)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "強調と位置の変化",
+        "translation": "Ênfase e mudança de posição",
+        "examples": [
+          {
+            "original": "いつも あなたを おもっています。",
+            "phonetic": "itsumo anata wo omotte imasu.",
+            "translation": "Eu sempre penso em você.",
+            "note": "Ao colocar いつも no início da frase, você dá ênfase à frequência."
+          },
+          {
+            "original": "わたしは しごとが おわってから、ときどき ジョギングを します。",
+            "phonetic": "vatashi wa shigoto ga owatte kara, tokidoki jogingu wo shimasu.",
+            "translation": "Depois do trabalho, eu às vezes corro.",
+            "note": "Aqui, o advérbio aparece depois da oração subordinada, mas ainda vem antes do verbo principal."
+          },
+          {
+            "original": "あなたは けっして うそを ついては いけません。",
+            "phonetic": "anata wa kesshite uso wo tsuite wa ikemasen.",
+            "translation": "Você nunca deve mentir.",
+            "note": "決して (kesshite) é usado com forma negativa e enfatiza proibição, equivalente a 'nunca' em português."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Advérbios de frequência"
+    }
+  },
+  {
+    "id": "pt_A2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "時間の助詞「に」「で」「へ」 / Preposições de tempo em japonês",
+    "bridge": "Em português, usamos preposições como 'em', 'às', 'por' para indicar tempo, mas em japonês as partículas に (ni) e で (de) funcionam de maneira diferente. Diferente do português, o japonês não usa preposição para expressões como 'hoje' ou 'amanhã', e a partícula に é obrigatória para horas e dias da semana. Cuidado: で é usado para duração, não para ponto específico no tempo.",
+    "rule": "A partícula に é usada para indicar um ponto específico no tempo: horas (3時に), dias da semana (月曜日に), datas (5月に), e estações com 'に' (夏に). Não se usa に com palavras como 今日 (hoje), 明日 (amanhã), 昨日 (ontem), 毎日 (todos os dias). A partícula で é usada para duração ou período de tempo, similar a 'por' em português: 3時間で (por 3 horas). Para expressar 'aos sábados' (regularidade), usa-se 土曜日に ou 土曜日は. Exceções: に pode ser omitido em conversa casual, mas em escrita formal é mantido.",
+    "concept_examples": [
+      {
+        "text": "毎朝7時に起きます。",
+        "translation": "Eu acordo às 7 horas toda manhã.",
+        "phonetic": "/maɪ asa ʃiʨi ʥi ni okimasɯ/",
+        "note": "Uso de に após hora."
+      },
+      {
+        "text": "明日は学校に行きません。",
+        "translation": "Amanhã não vou à escola.",
+        "phonetic": "/aɕita wa gakkoː ni ikimasen/",
+        "note": "明日 não leva に."
+      },
+      {
+        "text": "夏に日本へ行きました。",
+        "translation": "Fui ao Japão no verão.",
+        "phonetic": "/nacɯ ni nihon e ikimashita/",
+        "note": "Estação com に."
+      },
+      {
+        "text": "3時間で宿題を終えました。",
+        "translation": "Terminei a lição de casa em 3 horas.",
+        "phonetic": "/san ʥikan de ɕɯkɯdai o oemashita/",
+        "note": "Duração com で."
+      }
+    ],
+    "common_error": {
+      "wrong": "あしたに学校へ行きます。",
+      "correct": "あした学校へ行きます。",
+      "correct_alt": "あしたは学校へ行きます。",
+      "explanation": "Assim como em português, quando a palavra já indica tempo específico (amanhã, hoje), não se usa partícula. Adicionar に a 明日 é um erro comum, porque os aprendizes transferem a preposição 'em' do português. Lembre-se: に é para pontos no tempo que precisam de especificação, não para palavras relativas ao dia."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "特定の時間 (とくていのじかん)",
+        "translation": "Tempo específico: horas e momentos",
+        "examples": [
+          {
+            "original": "9時に会議があります。",
+            "phonetic": "/kjuːʥi ni kaigi ga arimasɯ/",
+            "translation": "Há uma reunião às 9 horas.",
+            "note": "Hora seguida de に."
+          },
+          {
+            "original": "昼12時に昼ごはんを食べます。",
+            "phonetic": "/hirɯ ʥɯːniʥi ni hirɯ gohan o tabemasɯ/",
+            "translation": "Almoço ao meio-dia.",
+            "note": "12時 também usa に."
+          },
+          {
+            "original": "夜10時に寝ます。",
+            "phonetic": "/joru ʥɯːʥi ni nemasɯ/",
+            "translation": "Durmo às 10 da noite.",
+            "note": "Expressão comum de rotina."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "曜日と日付 (ようびとひづけ)",
+        "translation": "Dias da semana e datas",
+        "examples": [
+          {
+            "original": "月曜日に日本語を勉強します。",
+            "phonetic": "/getsɯjoːbi ni nihongo o benkjoː shimasɯ/",
+            "translation": "Estudo japonês às segundas-feiras.",
+            "note": "Dias da semana exigem に."
+          },
+          {
+            "original": "12月25日に誕生日です。",
+            "phonetic": "/ʥɯːniɡatsɯ nidʑɯːɡo nichi ni tanʥoːbi desɯ/",
+            "translation": "Meu aniversário é em 25 de dezembro.",
+            "note": "Datas usam に."
+          },
+          {
+            "original": "3月に日本に来ました。",
+            "phonetic": "/saŋɡatsɯ ni nihon ni kimashita/",
+            "translation": "Vim para o Japão em março.",
+            "note": "Meses também usam に."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "期間 (きかん)",
+        "translation": "Período de tempo: duração",
+        "examples": [
+          {
+            "original": "1時間で英語を勉強しました。",
+            "phonetic": "/itʨiʥikan de eːɡo o benkjoː shimashita/",
+            "translation": "Estudei inglês por 1 hora.",
+            "note": "Duração com で."
+          },
+          {
+            "original": "2週間で日本語を覚えました。",
+            "phonetic": "/niʃɯːkan de nihongo o oboemashita/",
+            "translation": "Aprendi japonês em 2 semanas.",
+            "note": "Período + で."
+          },
+          {
+            "original": "毎日1時間で十分です。",
+            "phonetic": "/maɪnitɕi itʨiʥikan de ʥɯːbɯn desɯ/",
+            "translation": "Uma hora por dia é suficiente.",
+            "note": "Duração genérica."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏰",
+    "phonetic": "",
+    "translations": {
+      "pt": "Preposições de tempo"
+    }
+  },
+  {
+    "id": "pt_A2_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "接続詞 (Conjunções)",
+    "bridge": "Em português, usamos conjunções como 'e', 'mas', 'ou', 'porque', 'quando' e 'se' para conectar ideias. Em japonês, essas conexões são feitas de forma diferente: algumas partículas (como と, や, か) são anexadas diretamente aos substantivos, enquanto outras (como けど, から, とき, たら) são anexadas aos verbos no final da oração. Diferente do português, onde as conjunções são palavras independentes, no japonês muitas vezes são sufixos que modificam a forma do verbo, como 〜たら (se) que requer uma forma condicional. Além disso, a ordem das orações é diferente: a condição ou razão vem antes da conclusão, ao contrário do português que pode inverter. Preste atenção também em と: usado para 'e' entre substantivos (e não para conectar frases completas, como fazemos com 'e' em português).",
+    "rule": "As conjunções japonesas (接続詞 - setsuzokushi) podem ser divididas em dois grupos principais: partículas que conectam substantivos (と, や, か) e formas verbais que conectam orações (〜て, 〜けど, 〜から, 〜とき, 〜たら). Para conectar substantivos, use と (e - lista completa), や (e - lista parcial, com implícito 'etc.'), か (ou). Para conectar orações, use -て (e, para ações sequenciais), けど (mas), から (porque), とき (quando) e たら (se). から e ので indicam causa, mas から é mais subjetivo e usado em contextos informais; ので é mais formal e objetivo. とき expressa um momento: pode ser usado com verbos no presente ou passado, dependendo se a ação é simultânea ou anterior. たら é a forma condicional, usada para 'se' e também para 'quando' em situações com alta probabilidade. Note que と também pode significar 'quando' após verbos, mas indica uma relação automática ou habitual (se A, então B). No nível A2, foque nos usos básicos: と/や para listas, けど para contraste, から para razão, とき para tempo, e たら para condição.",
+    "concept_examples": [
+      {
+        "text": "私は本とペンを買います。",
+        "translation": "Eu compro um livro e uma caneta.",
+        "phonetic": "watashi wa hon to pen o kaimasu"
+      },
+      {
+        "text": "外は寒いけど、私は元気です。",
+        "translation": "Está frio lá fora, mas eu estou bem.",
+        "phonetic": "soto wa samui kedo, watashi wa genki desu"
+      },
+      {
+        "text": "時間がないから、タクシーで行きます。",
+        "translation": "Como não tenho tempo, vou de táxi.",
+        "phonetic": "jikan ga nai kara, takushii de ikimasu"
+      },
+      {
+        "text": "日本に行くとき、カメラを買いました。",
+        "translation": "Quando fui ao Japão, comprei uma câmera.",
+        "phonetic": "nihon ni iku toki, kamera o kaimashita"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は本とペンと買います。",
+      "correct": "私は本とペンを買います。",
+      "correct_alt": "私は本やペンを買います。",
+      "explanation": "Erro comum: usar と após o verbo como se fosse a conjunção 'e' em português. Em japonês, と deve vir após cada substantivo (exceto o último), e o verbo vem no final. O correto é 本とペンを (livro e caneta) com o verbo 買います após. Outro erro é usar と para listas parciais; para listas parciais use や. Sempre lembre: a partícula と conecta itens, não frases."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "と・や・か（e, ou）",
+        "translation": "と・や・か (e, ou)",
+        "examples": [
+          {
+            "original": "りんごとバナナ",
+            "phonetic": "ringo to banana",
+            "translation": "maçã e banana",
+            "note": "と é usado para listar todos os itens. Neste caso, apenas dois itens, sem 'etc.' implícito."
+          },
+          {
+            "original": "りんごやバナナ",
+            "phonetic": "ringo ya banana",
+            "translation": "maçã, banana (e outras coisas)",
+            "note": "や implica que existem outros itens não mencionados. Use quando quiser dar exemplos, mas não uma lista exaustiva."
+          },
+          {
+            "original": "コーヒーかお茶",
+            "phonetic": "koohii ka ocha",
+            "translation": "café ou chá",
+            "note": "か expressa uma escolha entre alternativas. Equivale a 'ou' em português."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "けど・から（mas, porque）",
+        "translation": "けど・から (mas, porque)",
+        "examples": [
+          {
+            "original": "仕事があるけど、行きます。",
+            "phonetic": "shigoto ga aru kedo, ikimasu",
+            "translation": "Tenho trabalho, mas vou.",
+            "note": "けど contrasta as duas orações, como 'mas' em português. Pode ser substituído por が em contextos mais formais."
+          },
+          {
+            "original": "雨が降っていますから、傘を持ちます。",
+            "phonetic": "ame ga futte imasu kara, kasa o mochimasu",
+            "translation": "Está chovendo, então levo um guarda-chuva.",
+            "note": "から indica a razão, similar a 'porque'. Note que a oração com から vem primeiro, ao contrário do português."
+          },
+          {
+            "original": "忙しいから、行けません。",
+            "phonetic": "isogashii kara, ikemasen",
+            "translation": "Estou ocupado, por isso não posso ir.",
+            "note": "から é usado no registro coloquial. Em situações formais, usa-se ので (como em: 忙しいので、行けません)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "とき・たら（quando, se）",
+        "translation": "とき・たら (quando, se)",
+        "examples": [
+          {
+            "original": "日本に来るとき、ビザを取ります。",
+            "phonetic": "nihon ni kuru toki, biza o torimasu",
+            "translation": "Quando eu vier ao Japão, tirarei o visto.",
+            "note": "とき indica o momento em que uma ação ocorre. O verbo antes de とき está no presente (来る) porque a ação de tirar o visto e vir são simultâneas ou futuras."
+          },
+          {
+            "original": "日本に来たとき、ビザを取ります。",
+            "phonetic": "nihon ni kita toki, biza o torimasu",
+            "translation": "Quando eu vier ao Japão, (depois disso) tirarei o visto.",
+            "note": "Aqui, とき com verbo no passado (来た) indica que a ação de tirar o visto ocorre DEPOIS de chegar. Compare com o exemplo anterior."
+          },
+          {
+            "original": "時間があったら、映画を見ます。",
+            "phonetic": "jikan ga attara, eiga o mimasu",
+            "translation": "Se eu tiver tempo, assisto a um filme.",
+            "note": "たら é a forma condicional. Equivale a 'se' em português. Pode também significar 'quando' se a condição for certa de acontecer."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Conjunções"
+    }
+  },
+  {
+    "id": "pt_A2_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "経験を表す「たことがある」 (Experiência: 'já fiz')",
+    "bridge": "Em português, usamos o pretérito perfeito composto ('eu já comi sushi') para falar de experiências de vida. Em japonês, essa ideia é expressa com a forma -ta koto ga aru: o verbo no passado (forma -ta) + ことがある. Atenção: ao contrário do português, o japonês não usa um auxiliar separado como 'ter' – a partícula こと funciona como 'experiência', e ある indica existência. Cuidado para não usar a forma -te iru, pois isso indica ação contínua, não experiência.",
+    "rule": "Para formar a expressão de experiência no japonês, use o verbo no passado informal (forma -ta) + こと + が + ある (presente). Exemplos: 食べた (tabeta) + ことがある = já comi; 行った (itta) + ことがある = já fui. A partícula が pode ser substituída por は para dar ênfase ou contraste. A negação é ことがない (koto ga nai). Para perguntar, usa-se ありますか (arimasu ka) ou ないですか (nai desu ka). O verbo ある é usado porque 'experiência' é tratado como uma coisa inanimada. Não use いる. A forma -たことがある é usada apenas para experiências em algum momento da vida; se você quer falar de uma ação recente que acabou de acontecer, use apenas o passado simples.",
+    "concept_examples": [
+      {
+        "text": "日本に行ったことがあります。",
+        "translation": "Já fui ao Japão.",
+        "phonetic": "nihon ni itta koto ga arimasu"
+      },
+      {
+        "text": "寿司を食べたことがありますか。",
+        "translation": "Você já comeu sushi?",
+        "phonetic": "sushi o tabeta koto ga arimasu ka"
+      },
+      {
+        "text": "富士山を見たことがありません。",
+        "translation": "Nunca vi o Monte Fuji.",
+        "phonetic": "fujisan o mita koto ga arimasen"
+      },
+      {
+        "text": "一度も飛行機に乗ったことがない。",
+        "translation": "Nunca andei de avião (nem uma vez).",
+        "phonetic": "ichido mo hikouki ni notta koto ga nai"
+      }
+    ],
+    "common_error": {
+      "wrong": "日本に行っています。",
+      "correct": "日本に行ったことがあります。",
+      "correct_alt": "",
+      "explanation": "O erro comum é usar a forma -te imasu (ação contínua ou estado resultante) para falar de experiência. '行っています' significa 'estou indo' ou 'fui e ainda estou lá', não 'já fui'. Para experiência, use a forma -ta + koto ga aru. Lembre-se: -ta koto ga aru indica 'já aconteceu na minha vida', enquanto -te iru indica que a ação está em progresso ou seu resultado permanece."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "肯定形",
+        "translation": "Forma afirmativa",
+        "examples": [
+          {
+            "original": "映画を見たことがあります。",
+            "phonetic": "eiga o mita koto ga arimasu",
+            "translation": "Já assisti a esse filme.",
+            "note": "Note a estrutura: verbo no passado (見た) + ことがあります. Use para experiências passadas."
+          },
+          {
+            "original": "京都に住んだことがあります。",
+            "phonetic": "kyouto ni sunda koto ga arimasu",
+            "translation": "Já morei em Quioto.",
+            "note": "Verbo 住む (viver) no passado é 住んだ. Lembre-se da mudança de som para んだ."
+          },
+          {
+            "original": "刺身を食べたことがあります。",
+            "phonetic": "sashimi o tabeta koto ga arimasu",
+            "translation": "Já comi sashimi.",
+            "note": "Experiência de provar algo. Não confundir com 'estou comendo'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "否定形と疑問形",
+        "translation": "Forma negativa e interrogativa",
+        "examples": [
+          {
+            "original": "コーヒーを飲んだことがありません。",
+            "phonetic": "koohii o nonda koto ga arimasen",
+            "translation": "Nunca bebi café.",
+            "note": "Negação: ことがありません (koto ga arimasen). O verbo 飲む no passado é 飲んだ."
+          },
+          {
+            "original": "外国に行ったことがありますか。",
+            "phonetic": "gaikoku ni itta koto ga arimasu ka",
+            "translation": "Você já foi para o exterior?",
+            "note": "Para perguntar, basta adicionar か no final. Resposta curta: はい、あります ou いいえ、ありません."
+          },
+          {
+            "original": "一度もピザを食べたことがない。",
+            "phonetic": "ichido mo piza o tabeta koto ga nai",
+            "translation": "Nunca comi pizza (nem uma vez).",
+            "note": "一度も + forma negativa reforça 'nem uma vez'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "過去の経験との比較",
+        "translation": "Comparação com o passado",
+        "examples": [
+          {
+            "original": "日本に行ったことがありますが、中国には行ったことがありません。",
+            "phonetic": "nihon ni itta koto ga arimasu ga, chuugoku ni wa itta koto ga arimasen",
+            "translation": "Já fui ao Japão, mas nunca fui à China.",
+            "note": "Contraste entre experiências. A partícula は pode substituir が na negação para enfatizar o contraste."
+          },
+          {
+            "original": "お酒を飲んだことがありますか。いいえ、一度もありません。",
+            "phonetic": "osake o nonda koto ga arimasu ka. iie, ichido mo arimasen",
+            "translation": "Você já bebeu álcool? Não, nunca.",
+            "note": "Resposta curta: 一度もありません (nem uma vez). Use 一度も para enfatizar 'nunca'."
+          },
+          {
+            "original": "これは何度も聞いたことがある歌です。",
+            "phonetic": "kore wa nando mo kiita koto ga aru uta desu",
+            "translation": "Esta é uma música que já ouvi muitas vezes.",
+            "note": "ことがある pode modificar um substantivo (aqui: 'música'). Note que ある vira ある antes de 名詞."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎌",
+    "phonetic": "",
+    "translations": {
+      "pt": "Experiências (pretérito perfeito composto) básico"
+    }
+  },
+  {
+    "id": "pt_A2_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "命令形・禁止形 (Imperativo Afirmativo e Negativo)",
+    "bridge": "Em português, o imperativo tem formas específicas para cada pessoa (fale, fala, falei, etc.), mas em japonês a forma é fixa e não muda com a pessoa. Além disso, o japonês distingue claramente entre a forma polida (〜てください) e a forma informal (〜ろ/〜な), enquanto o português usa o mesmo verbo com diferentes terminações. Um erro comum é usar a forma informal em situações formais, já que o português não tem essa distinção tão rígida. Preste atenção: em japonês, a ordem das palavras é diferente e o objeto vem antes do verbo.",
+    "rule": "O imperativo afirmativo informal se forma trocando a terminação do verbo: para verbos do grupo I (う-verbos), substitui-se a vogal final por え (ex.: 話す → 話せ); para verbos do grupo II (る-verbos), troca-se る por ろ (ex.: 食べる → 食べろ); para verbos irregulares, têm formas próprias (する → しろ, くる → こい). Para o imperativo polido, usa-se a forma て do verbo + ください (ex.: 話してください). O imperativo negativo informal é formado adicionando な ao dicionário (ex.: 話すな), mas é muito impolidado e usado apenas em contextos informais. Para negativo polido, usa-se ないでください (ex.: 話さないでください). Para o A2, foque no uso polido e na forma informal afirmativa para amigos.",
+    "concept_examples": [
+      {
+        "text": "食べてください。",
+        "translation": "Por favor, coma.",
+        "phonetic": "[ta'be̞te̞ kɯ̥da̠sa̠i]"
+      },
+      {
+        "text": "行きなさい。",
+        "translation": "Vá (informal, autoritativo).",
+        "phonetic": "[i'kʲina̠sa̠i]"
+      },
+      {
+        "text": "ここで写真を撮るな。",
+        "translation": "Não tire fotos aqui.",
+        "phonetic": "[ko̞ko̞ de̞ ɕa̠ɕiɴ o̞ tto̞ɾɯ̥ na̠]"
+      },
+      {
+        "text": "待ってください。",
+        "translation": "Por favor, espere.",
+        "phonetic": "[ma̠tte̞ kɯ̥da̠sa̠i]"
+      }
+    ],
+    "common_error": {
+      "wrong": "写真を撮るてください。",
+      "correct": "写真を撮ってください。",
+      "correct_alt": "",
+      "explanation": "O erro ocorre porque em português costumamos usar o infinitivo com 'por favor' (fotografar, por favor), e isso é transferido para o japonês. No imperativo polido, é obrigatório usar a forma て (te-form) do verbo, não o dicionário. Para verbos do grupo I, a forma て muda conforme a terminação: 撮る (toru) → 撮って (totte). Aprenda as regras de formação do te-form para evitar esse erro."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "丁寧な命令 (Imperativo Polido)",
+        "translation": "Polite imperative",
+        "examples": [
+          {
+            "original": "本を読んでください。",
+            "phonetic": "[ho̞ɴ o̞ jo̞ɴde̞ kɯ̥da̠sa̠i]",
+            "translation": "Por favor, leia o livro.",
+            "note": "Use 〜てください para pedidos educados em situações formais ou com desconhecidos."
+          },
+          {
+            "original": "ここに名前を書いてください。",
+            "phonetic": "[ko̞ko̞ ɲi na̠ma̠e̞ o̞ ka̠ite̞ kɯ̥da̠sa̠i]",
+            "translation": "Por favor, escreva seu nome aqui.",
+            "note": "A estrutura segue a ordem: lugar (ここに) + objeto (名前を) + verbo (書いてください)."
+          },
+          {
+            "original": "静かにしてください。",
+            "phonetic": "[ɕizɯ̥ka̠ ɲi ɕite̞ kɯ̥da̠sa̠i]",
+            "translation": "Por favor, fique quieto.",
+            "note": "Para adjetivos, use に + してください."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "禁止形・否定命令 (Imperativo Negativo)",
+        "translation": "Negative imperative",
+        "examples": [
+          {
+            "original": "触るな。",
+            "phonetic": "[sa̠wa̠ɾɯ̥ na̠]",
+            "translation": "Não toque!",
+            "note": "A forma な é muito forte e usada apenas entre amigos próximos ou situações de emergência."
+          },
+          {
+            "original": "ここでタバコを吸うな。",
+            "phonetic": "[ko̞ko̞ de̞ ta̠ba̠ko̞ o̞ sɯ̥ɯ̥ na̠]",
+            "translation": "Não fume aqui.",
+            "note": "Coloque な no final do dicionário. Em contextos formais, use ないでください."
+          },
+          {
+            "original": "心配しないでください。",
+            "phonetic": "[ɕĩɴpa̠i ɕi na̠i de̞ kɯ̥da̠sa̠i]",
+            "translation": "Não se preocupe, por favor.",
+            "note": "Negativo polido: forma ない + でください. É mais educado e comum."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "友達への命令 (Imperativo Informal Afirmativo)",
+        "translation": "Informal affirmative imperative",
+        "examples": [
+          {
+            "original": "早く来い！",
+            "phonetic": "[ha̠ja̠kɯ̥ ko̞i]",
+            "translation": "Vem rápido!",
+            "note": "Verbos irregulares: くる → こい. Muito informal, usado com amigos próximos."
+          },
+          {
+            "original": "これを食べろ。",
+            "phonetic": "[ko̞ɾe̞ o̞ ta̠be̞ɾo̞]",
+            "translation": "Come isto!",
+            "note": "Verbos do grupo II: troque る por ろ. Uso familiar ou autoritário."
+          },
+          {
+            "original": "外で遊べ。",
+            "phonetic": "[so̞to̞ de̞ a̠so̞be̞]",
+            "translation": "Brinque lá fora.",
+            "note": "Verbos do grupo I: a vogal final muda para え (遊ぶ → 遊べ)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📢",
+    "phonetic": "",
+    "translations": {
+      "pt": "Imperativo (Afirmativo e Negativo)"
+    }
+  },
+  {
+    "id": "pt_A2_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "可算名詞と不可算名詞 / Substantivos contáveis e incontáveis",
+    "bridge": "Em japonês, não há distinção gramatical entre substantivos contáveis e incontáveis como em português. Ao contrário do português, onde usamos artigos e plurais para marcar contagem, o japonês usa contadores (助数詞) e partículas. Por exemplo, 'pão' pode ser contado como 'um pão' (パン一斤) ou 'pão fatiado' (パン一枚), dependendo da forma. Isso é um desafio para falantes de português, pois a escolha do contador depende da forma ou categoria do objeto.",
+    "rule": "Em japonês, substantivos não mudam de forma para singular ou plural. A contagem é feita usando numerais acompanhados de contadores específicos (助数詞). Cada categoria de objeto tem um contador próprio: 人 (pessoas), 本 (objetos longos), 枚 (objetos planos), 個 (objetos pequenos e redondos), 杯 (bebidas em copos), 冊 (livros), 匹 (animais pequenos), etc. Para substantivos incontáveis como 'água' (水) ou 'açúcar' (砂糖), usamos contadores de quantidade como リットル (litros), グラム (gramas), ou 杯 (copos). Para expressar 'muitos' ou 'poucos', usamos advérbios como たくさん (muitos) e 少し (poucos), que não mudam conforme a contabilidade. Exceções: alguns substantivos podem usar contadores diferentes dependendo do contexto; por exemplo, 'papel' pode ser 一枚 (folha) ou 一冊 (livro).",
+    "concept_examples": [
+      {
+        "text": "水を一杯ください。",
+        "translation": "Dê-me um copo de água, por favor.",
+        "phonetic": "mizu o ippai kudasai"
+      },
+      {
+        "text": "本を三冊買いました。",
+        "translation": "Comprei três livros.",
+        "phonetic": "hon o san satsu kaimashita"
+      },
+      {
+        "text": "りんごを五つください。",
+        "translation": "Dê-me cinco maçãs, por favor.",
+        "phonetic": "ringo o itsutsu kudasai"
+      },
+      {
+        "text": "お金は少しあります。",
+        "translation": "Tenho pouco dinheiro.",
+        "phonetic": "okane wa sukoshi arimasu"
+      }
+    ],
+    "common_error": {
+      "wrong": "水を三つください。",
+      "correct": "水を三杯ください。",
+      "correct_alt": "水を三リットルください。",
+      "explanation": "Falantes de português tendem a usar つ (contador genérico) para tudo, mas para líquidos como água, o contador correto é 杯 (para copos) ou unidades de medida como リットル. Usar つ para água é incorreto porque つ é usado para objetos tridimensionais, não para líquidos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本的な数え方",
+        "translation": "Contagem básica",
+        "examples": [
+          {
+            "original": "犬が一匹います。",
+            "phonetic": "inu ga ippiki imasu",
+            "translation": "Há um cachorro.",
+            "note": "Use 匹 para animais pequenos."
+          },
+          {
+            "original": "鉛筆を二本ください。",
+            "phonetic": "enpitsu o nihon kudasai",
+            "translation": "Dê-me dois lápis.",
+            "note": "Use 本 para objetos longos e finos."
+          },
+          {
+            "original": "紙を三枚ください。",
+            "phonetic": "kami o san mai kudasai",
+            "translation": "Dê-me três folhas de papel.",
+            "note": "Use 枚 para objetos planos e finos."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "量の表現",
+        "translation": "Expressões de quantidade",
+        "examples": [
+          {
+            "original": "コーヒーを一杯飲みました。",
+            "phonetic": "koohii o ippai nomimashita",
+            "translation": "Bebi uma xícara de café.",
+            "note": "Use 杯 para bebidas em copos/xícaras."
+          },
+          {
+            "original": "砂糖を少し入れます。",
+            "phonetic": "satou o sukoshi iremasu",
+            "translation": "Coloco um pouco de açúcar.",
+            "note": "少し é usado para quantidades pequenas, independente de contabilidade."
+          },
+          {
+            "original": "りんごをたくさん食べました。",
+            "phonetic": "ringo o takusan tabemashita",
+            "translation": "Comi muitas maçãs.",
+            "note": "たくさん significa 'muitos' e não requer contador específico."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "特殊な数え方",
+        "translation": "Contagem especial",
+        "examples": [
+          {
+            "original": "人を三人招待しました。",
+            "phonetic": "hito o sannin shoutai shimashita",
+            "translation": "Convidei três pessoas.",
+            "note": "Para pessoas, use 人 (nin) com leituras especiais: 一人, 二人, 三人."
+          },
+          {
+            "original": "時間を二時間勉強しました。",
+            "phonetic": "jikan o nijikan benkyou shimashita",
+            "translation": "Estudei por duas horas.",
+            "note": "Para horas, use 時間 (jikan)."
+          },
+          {
+            "original": "パンを一斤買いました。",
+            "phonetic": "pan o ikkin kaimashita",
+            "translation": "Comprei um pão (inteiro).",
+            "note": "Para pães inteiros, use 斤; para fatias, use 枚."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "pt": "Substantivos contáveis e incontáveis"
+    }
+  },
+  {
+    "id": "pt_A2_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "何か・いくつか (Nanika, Ikutsuka)",
+    "bridge": "Em português, usamos 'algum/alguma' e 'nenhum/nenhuma' para indicar quantidade indefinida. Em japonês, não existe equivalência direta; em vez disso, usamos partículas como は (wa) e が (ga) para marcar o sujeito/objeto, e palavras como 何か (nanika) para 'algo' e 誰か (dareka) para 'alguém'. Cuidado: a ausência de algo é expressa com 何も (nanimo) + negação no final da frase. Isso difere do português, onde 'não tenho nada' coloca a negação antes do 'nada'; em japonês, a negação fica no verbo, e 'nada' é enfatizado com も.",
+    "rule": "Em japonês, não há artigos indefinidos como 'um'/'uma', mas usamos palavras que significam 'algum' ou 'alguns' para expressar existência não específica. As principais são:\n- 何か (nanika): 'algo' (usado em frases afirmativas e perguntas)\n- 誰か (dareka): 'alguém' (affirmativo/perguntas)\n- どこか (dokoka): 'algum lugar'\n- Para negativas, usamos 何も (nanimo), 誰も (daremo), どこにも (dokonimo) + verbo negativo no final. Ex: 何も食べません (nanimo tabemasen) – 'Não como nada'.\n- Em perguntas, muitas vezes a partícula か já indica indefinição: 何か食べますか? (Nanika tabemasu ka?) = 'Você quer comer algo?'.",
+    "concept_examples": [
+      {
+        "text": "何か食べたいです。",
+        "translation": "Quero comer algo.",
+        "phonetic": "nanika tabetai desu"
+      },
+      {
+        "text": "誰かが来ました。",
+        "translation": "Alguém veio.",
+        "phonetic": "dareka ga kimashita"
+      },
+      {
+        "text": "どこかへ行きましょう。",
+        "translation": "Vamos a algum lugar.",
+        "phonetic": "dokoka e ikimashou"
+      },
+      {
+        "text": "何も食べませんでした。",
+        "translation": "Não comi nada.",
+        "phonetic": "nanimo tabemasen deshita"
+      }
+    ],
+    "common_error": {
+      "wrong": "何もを食べません。 (Nanimo o tabemasen)",
+      "correct": "何も食べません。 (Nanimo tabemasen)",
+      "correct_alt": "何も食べなかった。 (Nanimo tabenakatta)",
+      "explanation": "Falantes de português frequentemente usam a partícula を (o) depois de 何も, porque em português 'nada' é o objeto direto. No japonês, quando se usa 何も, a partícula を é omitida. Lembre-se de que com palavras negativas como 何も, a partícula de objeto não é necessária; a partícula が ou を são substituídas por も."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "何か・誰か・どこか (Algo, alguém, algum lugar)",
+        "translation": "Algo, alguém, algum lugar",
+        "examples": [
+          {
+            "original": "何か飲みますか。",
+            "phonetic": "nanika nomimasu ka",
+            "translation": "Você quer beber algo?",
+            "note": "Use 何か para oferecer algo, similar a 'algo' em perguntas."
+          },
+          {
+            "original": "誰かが電話をかけました。",
+            "phonetic": "dareka ga denwa o kakemashita",
+            "translation": "Alguém ligou.",
+            "note": "Quando 'quem' é sujeito, usamos 誰かが (dareka ga)."
+          },
+          {
+            "original": "どこかで会いましょう。",
+            "phonetic": "dokoka de aimashou",
+            "translation": "Vamos nos encontrar em algum lugar.",
+            "note": "Observe a partícula で para local de ação."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "否定形: 何も・誰も・どこにも (nada, ninguém, nenhum lugar)",
+        "translation": "Negação: nada, ninguém, nenhum lugar",
+        "examples": [
+          {
+            "original": "誰もいません。",
+            "phonetic": "daremo imasen",
+            "translation": "Não há ninguém.",
+            "note": "Nesse caso, 誰も + verbo negativo significa 'ninguém'."
+          },
+          {
+            "original": "どこにも行きませんでした。",
+            "phonetic": "dokonimo ikimasen deshita",
+            "translation": "Não fui a nenhum lugar.",
+            "note": "A partícula に é usada com destinos; aqui fica どこにも."
+          },
+          {
+            "original": "何も見えません。",
+            "phonetic": "nanimo miemasen",
+            "translation": "Não vejo nada.",
+            "note": "Com verbos de percepção, use 何も para 'nada'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Outros compostos: いつか (algum dia), 何かと (etc.)",
+        "translation": "Outros compostos: algum dia, de alguma forma",
+        "examples": [
+          {
+            "original": "いつか日本に行きたいです。",
+            "phonetic": "itsuka nihon ni ikitai desu",
+            "translation": "Quero ir ao Japão algum dia.",
+            "note": "いつか significa 'algum dia' no futuro."
+          },
+          {
+            "original": "何かと忙しいです。",
+            "phonetic": "nanika to isogashii desu",
+            "translation": "Estou ocupado com várias coisas.",
+            "note": "Essa expressão é idiomática e significa 'com isso e aquilo'."
+          },
+          {
+            "original": "誰かに聞いてみます。",
+            "phonetic": "dareka ni kiite mimasu",
+            "translation": "Vou perguntar a alguém.",
+            "note": "A partícula に indica o alvo da pergunta."
+          }
+        ]
+      }
+    ],
+    "emoji": "❓",
+    "phonetic": "",
+    "translations": {
+      "pt": "Alguns, algumas e seus compostos"
+    }
+  },
+  {
+    "id": "pt_A2_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "たくさん・すこし・あまり (Muito, pouco, não muito)",
+    "bridge": "Em português, usamos 'muito', 'pouco' e 'bastante' tanto com substantivos contáveis quanto incontáveis. Em japonês, a quantidade é expressa por advérbios como たくさん (takusan), すこし (sukoshi) e あまり (amari), mas com diferenças importantes: あまり é usado apenas em frases negativas para significar 'não muito', e たくさん pode ser usado sozinho, sem partícula de posse. Cuidado para não usar たくさん com verbos no passado como se fosse um adjetivo, pois ele é invariável em japonês.",
+    "rule": "Os quantificadores japoneses funcionam como advérbios ou substantivos, e não como adjetivos que concordam em gênero ou número. Os principais são:\n- たくさん (takusan): significa 'muito(a), muitos(as)', usado com substantivos contáveis e incontáveis. Geralmente acompanhado da partícula の (no) quando modifica um substantivo: たくさん の 人 (muita gente). Também pode aparecer sem の, funcionando como advérbio: たべます (comer) + たくさん = comer muito.\n- すこし (sukoshi): significa 'pouco(a), um pouco'. Também pode usar の: すこし の おかね (pouco dinheiro). Como advérbio: すこし まちます (espero um pouco).\n- あまり (amari): significa 'não muito', usado com verbos negativos. Ex: あまり たべません (não como muito). Nunca use あまり sozinho em frases afirmativas.\n- Outros: ちょっと (chotto, um pouco), ぜんぜん (zenzen, nada de) — também com negativa.\nPara iniciantes (A2), é essencial memorizar a combinação de cada quantificador com a partícula correta e lembrar que eles não mudam conforme o gênero, ao contrário do português.",
+    "concept_examples": [
+      {
+        "text": "たくさん の ひと が います。",
+        "translation": "Há muitas pessoas.",
+        "phonetic": "[ta.kɯ.saɴ no çi.to ɡa i.ma.sɯ]"
+      },
+      {
+        "text": "すこし の おかね を もちます。",
+        "translation": "Eu tenho pouco dinheiro.",
+        "phonetic": "[sɯ.ko.ɕi no o.ka.ne o mo.ʨi.ma.sɯ]"
+      },
+      {
+        "text": "あまり たべません。",
+        "translation": "Eu não como muito.",
+        "phonetic": "[a.ma.ɾi ta.be.ma.seɴ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "たくさん の ひと を みます。",
+      "correct": "たくさん の ひと が います。",
+      "correct_alt": "たくさん ひと を みます。",
+      "explanation": "Em português, dizemos 'ver muitas pessoas', mas em japonês o verbo 'ver' (みる, miru) é transitivo, e o objeto com を é usado com coisas. Para pessoas, usamos o verbo 'existir' (いる, iru) com a partícula が. Além disso, o quantificador たくさん の não pode ser usado diretamente com o objeto de みます; é mais natural usar たくさん sozinho antes do verbo. Evite a tradução literal do português."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "たくさん (muito)",
+        "translation": "Muito/muitos",
+        "examples": [
+          {
+            "original": "たくさん の ほん を よみます。",
+            "phonetic": "[ta.kɯ.saɴ no hoɴ o jo.mi.ma.sɯ]",
+            "translation": "Eu leio muitos livros.",
+            "note": "Use たくさん の + substantivo para indicar grande quantidade."
+          },
+          {
+            "original": "おかね を たくさん もちます。",
+            "phonetic": "[o.ka.ne o ta.kɯ.saɴ mo.ʨi.ma.sɯ]",
+            "translation": "Eu tenho muito dinheiro.",
+            "note": "Coloque たくさん após o objeto para dar ênfase."
+          },
+          {
+            "original": "たべます たくさん？",
+            "phonetic": "[ta.be.ma.sɯ ta.kɯ.saɴ]",
+            "translation": "Você come muito?",
+            "note": "Perguntas informais com たくさん no final."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "すこし (um pouco)",
+        "translation": "Um pouco / pouco",
+        "examples": [
+          {
+            "original": "すこし の じかん が あります。",
+            "phonetic": "[sɯ.ko.ɕi no dʑi.kaɴ ɡa a.ɾi.ma.sɯ]",
+            "translation": "Tenho um pouco de tempo.",
+            "note": "Use すこし の para quantidade pequena de algo."
+          },
+          {
+            "original": "にほんご を すこし はなします。",
+            "phonetic": "[ɲi.hoɴ.ɡo o sɯ.ko.ɕi ha.na.ɕi.ma.sɯ]",
+            "translation": "Eu falo um pouco de japonês.",
+            "note": "Como advérbio, すこし vem antes do verbo."
+          },
+          {
+            "original": "すこし まって ください。",
+            "phonetic": "[sɯ.ko.ɕi ma.tːe kɯ.da.sa.i]",
+            "translation": "Espere um pouco, por favor.",
+            "note": "Expressão comum em conversas do dia a dia."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "あまり (não muito) e ぜんぜん (nada)",
+        "translation": "Não muito / nada",
+        "examples": [
+          {
+            "original": "あまり しごと が ありません。",
+            "phonetic": "[a.ma.ɾi ɕi.ɡo.to ɡa a.ɾi.ma.seɴ]",
+            "translation": "Não tenho muito trabalho.",
+            "note": "Use あまり com a forma negativa do verbo para expressar pouca quantidade."
+          },
+          {
+            "original": "ぜんぜん わからない。",
+            "phonetic": "[zeɴ.zeɴ ɰa.ka.ɾa.na.i]",
+            "translation": "Não entendo nada.",
+            "note": "ぜんぜん com negativo significa 'nada' ou 'absolutamente não'."
+          },
+          {
+            "original": "あまり おさけ を のみません。",
+            "phonetic": "[a.ma.ɾi o.sa.ke o no.mi.ma.seɴ]",
+            "translation": "Eu não bebo muito álcool.",
+            "note": "Atenção: あまり nunca aparece em frases afirmativas."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "pt": "Quantificadores: muito, pouco, não muito"
+    }
+  },
+  {
+    "id": "pt_A2_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "連体修飾 (rentai shūshoku) / Oraciones de relativo básicas",
+    "bridge": "Em japonês, diferente do português, as orações relativas vêm antes do substantivo que modificam, e não depois. Enquanto em português usamos pronomes relativos como 'que', 'quem', 'cujo', no japonês a oração é simplesmente colocada antes do substantivo, sem conjunção. Além disso, o verbo na oração relativa aparece na forma simples (dicionário ou passado), sem marca de tempo relativo. Cuidado: a partícula que marca o sujeito da oração relativa é geralmente が, não は.",
+    "rule": "Em japonês, para criar uma oração relativa (também chamada de oração adjetiva), você coloca uma oração com verbo na forma simples (forma de dicionário, forma passada, forma ない etc.) imediatamente antes do substantivo que deseja modificar. Não há necessidade de pronome relativo. A ordem é: [oração relativa + substantivo]. O verbo concorda com o tempo da ação relativo à frase principal, mas na oração relativa usamos o passado simples (た-form) para ações concluídas antes da ação principal, e o presente/futuro (forma de dicionário) para ações simultâneas ou futuras. O sujeito da oração relativa, quando explicitado, usa a partícula が. Além disso, o substantivo modificado pode exercer qualquer função na oração relativa (sujeito, objeto, lugar, etc.), e se for complemento, a partícula correspondente é omitida (ex.: たべる りんご - a maçã que eu como). Exceções: se o substantivo é o objeto direto, nenhuma partícula é usada; se é lugar, pode-se manter で/に, mas é comum omitir dependendo do contexto. Para A2, recomendamos focar em orações relativas com sujeito explícito ou objeto, sem casos de tempo complicado.",
+    "concept_examples": [
+      {
+        "text": "あの人は私が好きな人です。",
+        "translation": "Aquela pessoa é a pessoa de quem eu gosto.",
+        "phonetic": "[ano hito wa watashi ga suki na hito desu]"
+      },
+      {
+        "text": "これは昨日買った本です。",
+        "translation": "Este é o livro que comprei ontem.",
+        "phonetic": "[kore wa kinō katta hon desu]"
+      },
+      {
+        "text": "日本語を勉強している学生です。",
+        "translation": "É um estudante que está estudando japonês.",
+        "phonetic": "[nihongo o benkyō shite iru gakusei desu]"
+      },
+      {
+        "text": "犬を飼っている人はあそこにいます。",
+        "translation": "A pessoa que tem um cachorro está ali.",
+        "phonetic": "[inu o katte iru hito wa asoko ni imasu]"
+      }
+    ],
+    "common_error": {
+      "wrong": "私はが好きな人は学生です。",
+      "correct": "私が好きな人は学生です。",
+      "correct_alt": "私が好きな人は学生です。",
+      "explanation": "Em português, muitas vezes usamos o pronome relativo 'que' e tendemos a repetir o sujeito (eu gosto dela). No japonês, a oração relativa deve vir antes do substantivo, e o sujeito da oração relativa é marcado com が, não は. Além disso, não se usa a partícula を nem outros marcadores de caso no final da oração relativa antes do substantivo. Erro comum: colocar は no sujeito da oração relativa ou esquecer que a partícula が é obrigatória nesse contexto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本形",
+        "translation": "Forma básica",
+        "examples": [
+          {
+            "original": "これは本です。",
+            "phonetic": "[kore wa hon desu]",
+            "translation": "Isto é um livro.",
+            "note": "Primeiro, entender a estrutura de uma frase simples antes de adicionar a oração relativa."
+          },
+          {
+            "original": "読む本",
+            "phonetic": "[yomu hon]",
+            "translation": "livro que eu leio",
+            "note": "Colocando a forma de dicionário do verbo antes do substantivo."
+          },
+          {
+            "original": "買った本",
+            "phonetic": "[katta hon]",
+            "translation": "livro que eu comprei",
+            "note": "Usando a forma passada para indicar ação concluída."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "主語の表現",
+        "translation": "Expressão do sujeito",
+        "examples": [
+          {
+            "original": "私が好きな食べ物は寿司です。",
+            "phonetic": "[watashi ga suki na tabemono wa sushi desu]",
+            "translation": "A comida que eu gosto é sushi.",
+            "note": "Note que が marca o sujeito da oração relativa, e não は."
+          },
+          {
+            "original": "田中さんが書いた手紙を読みました。",
+            "phonetic": "[Tanaka-san ga kaita tegami o yomimashita]",
+            "translation": "Li a carta que o Tanaka escreveu.",
+            "note": "A partícula が é usada para o sujeito que faz a ação na oração relativa."
+          },
+          {
+            "original": "猫が好きな人は多いです。",
+            "phonetic": "[neko ga suki na hito wa ōi desu]",
+            "translation": "Muitas pessoas gostam de gatos (literalmente: pessoas que gostam de gatos são muitas).",
+            "note": "Observe que o sujeito da oração relativa pode ser o objeto do gosto, marcado com が."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "応用",
+        "translation": "Aplicação",
+        "examples": [
+          {
+            "original": "これは私が昨日買ったりんごです。",
+            "phonetic": "[kore wa watashi ga kinō katta ringo desu]",
+            "translation": "Esta é a maçã que comprei ontem.",
+            "note": "Com mais informações, a oração relativa fica mais longa e complexa."
+          },
+          {
+            "original": "私が働いている会社は大きいです。",
+            "phonetic": "[watashi ga hataraite iru kaisha wa ōkii desu]",
+            "translation": "A empresa onde eu trabalho é grande.",
+            "note": "Aqui a oração relativa indica lugar, mas a partícula に/で é omitida antes do substantivo (会社)."
+          },
+          {
+            "original": "日本語を勉強している人はたくさんいます。",
+            "phonetic": "[nihongo o benkyō shite iru hito wa takusan imasu]",
+            "translation": "Há muitas pessoas que estudam japonês.",
+            "note": "O sujeito da oração relativa (pessoas) é modificado, mas note que o verbo está na forma -te iru para ação contínua."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Orações de relativo básicas"
+    }
+  }
+]

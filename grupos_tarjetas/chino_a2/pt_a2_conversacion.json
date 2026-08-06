@@ -1,0 +1,1224 @@
+[
+  {
+    "id": "pt_A2_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "看医生 (kàn yīshēng) / Ver o médico",
+    "bridge": "Em português, usamos 'estar com' + sintoma ('estou com febre') ou 'sentir' ('sinto dor'). Em chinês, a estrutura é diferente: se usa 我 (wǒ) + verbo + parte do corpo + 疼 (téng) para dor, ou 我 + 有 (yǒu) + sintoma. Outro ponto importante: em chinês, a ordem da frase é fixa, e não há flexões verbais. Além disso, para dizer 'eu estou doente', usamos 我生病了 (wǒ shēngbìng le), onde 了 indica mudança de estado, algo que não tem equivalente direto em português.",
+    "rule": "Para expressar sintomas no médico, use estas estruturas principais: \n1. **Para dor**: 我 + [parte do corpo] + 疼 (téng) ou 痛 (tòng) - ex.: 我头疼 (wǒ tóu téng) 'Minha cabeça dói'.\n2. **Para sintomas comuns**: 我 + 有 (yǒu) + sintoma - ex.: 我有咳嗽 (wǒ yǒu késou) 'Eu tenho tosse'.\n3. **Para estado geral**: 我 + 觉得 (juéde) + adjetivo (sentir-se) - ex.: 我觉得头晕 (wǒ juéde tóuyūn) 'Eu me sinto tonto'.\n4. Importante: 了 (le) partícula de mudança de estado colocado após o verbo/adjetivo, ex.: 我生病了 (wǒ shēngbìng le) 'Eu fiquei doente'.\n5. Perguntas comuns do médico: 你怎么了？(nǐ zěnme le) 'O que você tem?' e 你哪里不舒服？(nǐ nǎlǐ bù shūfu) 'Onde você não se sente bem?'\n6. Ao responder, use 我 + sintoma + 了 se for recente, ex.: 我感冒了 (wǒ gǎnmào le) 'Eu peguei um resfriado'.\nExceções: algumas doenças têm nomes fixos, como 感冒 (gǎnmào) 'resfriado', 发烧 (fāshāo) 'febre', 咳嗽 (késou) 'tosse' – para elas, use 我 + verbo + 了, ex.: 我发烧了 (wǒ fāshāo le).",
+    "concept_examples": [
+      {
+        "text": "我头疼。",
+        "translation": "Eu tenho dor de cabeça.",
+        "phonetic": "wǒ tóu téng"
+      },
+      {
+        "text": "我感冒了。",
+        "translation": "Eu peguei um resfriado.",
+        "phonetic": "wǒ gǎnmào le"
+      },
+      {
+        "text": "我觉得头晕。",
+        "translation": "Eu me sinto tonto.",
+        "phonetic": "wǒ juéde tóuyūn"
+      },
+      {
+        "text": "我发烧了。",
+        "translation": "Eu estou com febre.",
+        "phonetic": "wǒ fāshāo le"
+      }
+    ],
+    "common_error": {
+      "wrong": "我头痛 (wǒ tóu tòng)",
+      "correct": "我头疼 (wǒ tóu téng)",
+      "correct_alt": "我头痛 (wǒ tóu tòng) é correto, mas 疼 é mais comum no norte",
+      "explanation": "Em português, dizemos 'eu estou com dor de cabeça', mas em chinês a estrutura é 'eu + parte do corpo + 疼/痛'. A confusão ocorre porque o português usa o verbo 'estar com', enquanto o chinês usa o verbo 'ter' ou a estrutura direta. Lembre-se de que o sujeito vem primeiro, depois a parte do corpo, e o verbo de dor no final. Não é necessário usar 的 (de) entre a parte do corpo e 疼/痛."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "哪里不舒服？",
+        "translation": "Onde você não se sente bem?",
+        "examples": [
+          {
+            "original": "你哪里不舒服？",
+            "phonetic": "nǐ nǎlǐ bù shūfu",
+            "translation": "Onde você não se sente bem?",
+            "note": "Pergunta típica do médico. A estrutura '哪里 + 不舒服' é essencial para iniciar a consulta."
+          },
+          {
+            "original": "我肚子疼。",
+            "phonetic": "wǒ dùzi téng",
+            "translation": "Eu tenho dor de barriga.",
+            "note": "Use 肚子 (barriga) + 疼. Note que a ordem é sujeito + parte do corpo + verbo de dor."
+          },
+          {
+            "original": "我嗓子疼。",
+            "phonetic": "wǒ sǎngzi téng",
+            "translation": "Eu tenho dor de garganta.",
+            "note": "嗓子 significa 'garganta'. Muito comum em constipações."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "说症状",
+        "translation": "Dizer os sintomas",
+        "examples": [
+          {
+            "original": "我有咳嗽。",
+            "phonetic": "wǒ yǒu késou",
+            "translation": "Eu tenho tosse.",
+            "note": "Use 有 (ter) para sintomas como tosse. Não diga 我咳嗽 (que significaria 'eu tusso' – ação)."
+          },
+          {
+            "original": "我流鼻涕。",
+            "phonetic": "wǒ liú bítì",
+            "translation": "Eu estou com coriza.",
+            "note": "Verbo 流 (escorrer) + 鼻涕 (muco nasal). Estrutura sujeito + verbo + objeto."
+          },
+          {
+            "original": "我浑身没劲儿。",
+            "phonetic": "wǒ húnshēn méi jìnr",
+            "translation": "Eu estou sem energia no corpo todo.",
+            "note": "没劲儿 (sem força) expressa fraqueza geral. Útil para descrever mal-estar."
+          },
+          {
+            "original": "我发冷。",
+            "phonetic": "wǒ fā lěng",
+            "translation": "Eu estou sentindo frio (calafrios).",
+            "note": "发冷 combina 发 (emitir) + 冷 (frio). Não confundir com 'estar com frio' ambiental."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "看医生",
+        "translation": "Indo ao médico",
+        "examples": [
+          {
+            "original": "我需要看医生。",
+            "phonetic": "wǒ xūyào kàn yīshēng",
+            "translation": "Eu preciso ver o médico.",
+            "note": "Expressão comum para indicar necessidade. 医生 = médico."
+          },
+          {
+            "original": "我要挂号。",
+            "phonetic": "wǒ yào guàhào",
+            "translation": "Eu quero me registrar (marcar consulta).",
+            "note": "挂号 é o ato de registrar-se no hospital/clínica. Verbo 要 indica intenção."
+          },
+          {
+            "original": "我拿药了。",
+            "phonetic": "wǒ ná yào le",
+            "translation": "Eu peguei o remédio.",
+            "note": "拿 (pegar) + 药 (remédio). A partícula 了 indica ação completada – não esquecer!"
+          },
+          {
+            "original": "我请一天假。",
+            "phonetic": "wǒ qǐng yī tiān jià",
+            "translation": "Eu vou tirar um dia de folga.",
+            "note": "请假 = pedir licença. Útil para dizer ao médico que precisa de atestado."
+          }
+        ]
+      }
+    ],
+    "emoji": "🩺",
+    "phonetic": "",
+    "translations": {
+      "pt": "No médico"
+    }
+  },
+  {
+    "id": "pt_A2_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "预订住宿 / Reservar alojamiento",
+    "bridge": "Em português, usamos o verbo 'reservar' com objetos diretos ('reservar um quarto') e frequentemente usamos o futuro do presente ('vou reservar') ou o condicional ('gostaria de reservar'). No mandarim, a estrutura é diferente: usamos o verbo 预订 (yùdìng) seguido do objeto, e a noção de futuro é frequentemente implícita ou expressa com 要 (yào). Além disso, enquanto em português usamos preposições como 'para' (quarto para duas pessoas), em mandarim isso é expresso com complementos de quantidade e 的 (de) para posse/descrição. Um erro comum dos falantes de português é traduzir literalmente 'para' como 给 (gěi) em contextos de descrição, mas 的 é mais adequado.",
+    "rule": "Para reservar alojamento em mandarim, a estrutura básica é: [sujeito] + 要/想 + 预订 + [tipo de quarto] + [período ou número de noites]. Exemplos: 我要预订一个单人间 (Wǒ yào yùdìng yí ge dānrén jiān) – Quero reservar um quarto individual. O verbo 预订 (yùdìng) é usado para reservas formais, enquanto 订 (dìng) é mais coloquial. Para expressar datas, usamos 从 (cóng) para 'de/desde' e 到 (dào) para 'até', ex: 从周五到周日 (cóng zhōuwǔ dào zhōurì) – de sexta a domingo. Para perguntar sobre disponibilidade, use 有...吗？(yǒu...ma?) – 'há/tem...?'. Para especificar o número de pessoas, usamos 位 (wèi) ou 个 (gè) com o número, ex: 两位 (liǎng wèi) – duas pessoas. Ao dar informações de contato, use 我的电话号码是... (wǒ de diànhuà hàomǎ shì...) – meu número de telefone é...",
+    "concept_examples": [
+      {
+        "text": "我要预订一个双人间，住两晚。",
+        "translation": "Quero reservar um quarto duplo por duas noites.",
+        "phonetic": "[wɔ yɑʊ̯ y tɪŋ i kɤ ʂwɑŋ ʐən tɕjɛn, ʈʂu ljɑŋ wɑn]"
+      },
+      {
+        "text": "请问，还有空房间吗？",
+        "translation": "Por favor, ainda há quartos disponíveis?",
+        "phonetic": "[tɕʰiŋ wən, xɑɪ̯ jɑʊ̯ kʰʊŋ fɑŋ tɕjɛn mɑ]"
+      },
+      {
+        "text": "我想订一个带阳台的房间。",
+        "translation": "Eu quero reservar um quarto com varanda.",
+        "phonetic": "[wɔ ɕjɑŋ tiŋ i kɤ tɑɪ̯ jɑŋ tʰɑɪ̯ tɤ fɑŋ tɕjɛn]"
+      },
+      {
+        "text": "从星期五到星期日，谢谢。",
+        "translation": "De sexta-feira a domingo, obrigado.",
+        "phonetic": "[tsʰʊŋ ɕiŋ tɕʰi wu tɑʊ̯ ɕiŋ tɕʰi ʐɻ, ɕjɛ ɕjɛ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "我要预订一个房间给两个人。",
+      "correct": "我要预订一个双人间。",
+      "correct_alt": "我要预订一个两人间。",
+      "explanation": "Em português, 'um quarto para duas pessoas' é natural, mas em mandarim, a preposição 'para' não é usada dessa forma. Em vez disso, usamos adjetivos compostos como 双人间 (quarto duplo) ou 两人间 (quarto para duas pessoas). O uso de 给 (gěi) para 'para' é incorreto nesse contexto, pois 给 é usado para dar algo a alguém. Para evitar esse erro, aprenda os nomes de tipos de quartos: 单人间 (individual), 双人间 (duplo), 三人间 (triplo) e use-os diretamente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "询问空房",
+        "translation": "Perguntar sobre disponibilidade",
+        "examples": [
+          {
+            "original": "请问，还有空房吗？",
+            "phonetic": "[tɕʰiŋ wən, xɑɪ̯ jɑʊ̯ kʰʊŋ fɑŋ mɑ]",
+            "translation": "Por favor, ainda há quartos disponíveis?",
+            "note": "Use 空房 (kōngfáng) para 'quarto vago'. A partícula 吗 transforma a frase em pergunta."
+          },
+          {
+            "original": "今晚有房间吗？",
+            "phonetic": "[tɕin wɑn jɑʊ̯ fɑŋ tɕjɛn mɑ]",
+            "translation": "Vocês têm quarto para esta noite?",
+            "note": "今晚 (jīnwǎn) significa 'esta noite'. A ordem é [tempo] + 有 + objeto + 吗."
+          },
+          {
+            "original": "你们有单人间吗？",
+            "phonetic": "[ni mən jɑʊ̯ tɑn ʐən tɕjɛn mɑ]",
+            "translation": "Vocês têm quarto individual?",
+            "note": "单人间 (dānrénjiān) é um termo composto. Lembre-se de que 人 (rén) significa 'pessoa'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "预订房间",
+        "translation": "Reservar um quarto",
+        "examples": [
+          {
+            "original": "我要预订一个双人间。",
+            "phonetic": "[wɔ yɑʊ̯ y tɪŋ i kɤ ʂwɑŋ ʐən tɕjɛn]",
+            "translation": "Quero reservar um quarto duplo.",
+            "note": "Use 要 (yào) para expressar necessidade ou intenção. O classificador 个 (ge) é usado para quartos."
+          },
+          {
+            "original": "我想订一个带阳台的房间。",
+            "phonetic": "[wɔ ɕjɑŋ tiŋ i kɤ tɑɪ̯ jɑŋ tʰɑɪ̯ tɤ fɑŋ tɕjɛn]",
+            "translation": "Eu gostaria de reservar um quarto com varanda.",
+            "note": "想 (xiǎng) é mais suave que 要. A estrutura '带 + substantivo + 的' indica 'com'."
+          },
+          {
+            "original": "我要住两晚。",
+            "phonetic": "[wɔ yɑʊ̯ ʈʂu ljɑŋ wɑn]",
+            "translation": "Vou ficar duas noites.",
+            "note": "住 (zhù) significa 'hospedar-se'. O número de noites é dito com numeral + 晚 (wǎn)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "确认预订",
+        "translation": "Confirmar a reserva",
+        "examples": [
+          {
+            "original": "我的预订号是2024。",
+            "phonetic": "[wɔ tɤ y tɪŋ xɑʊ̯ ʂɻ liŋ ər lɪŋ sɻ]",
+            "translation": "Meu número de reserva é 2024.",
+            "note": "预订号 (yùdìng hào) é 'número de reserva'. Os números são ditos dígito por dígito em chinês."
+          },
+          {
+            "original": "请告诉我您的姓名和电话。",
+            "phonetic": "[tɕʰiŋ kɑʊ̯ su wɔ nin tɤ ɕiŋ miŋ xɤ tjɛn xuɑ]",
+            "translation": "Por favor, me diga seu nome e telefone.",
+            "note": "您 (nín) é a forma polida de 'você'. Use 和 (hé) para 'e'."
+          },
+          {
+            "original": "谢谢，我确认预订。",
+            "phonetic": "[ɕjɛ ɕjɛ, wɔ tɕʰyɛ ʐən y tɪŋ]",
+            "translation": "Obrigado, confirmo a reserva.",
+            "note": "确认 (quèrèn) é 'confirmar'. É um verbo comum em contextos formais."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "pt": "Reservar alojamento"
+    }
+  },
+  {
+    "id": "pt_A2_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "在银行或兑换处 / No banco ou casa de câmbio",
+    "bridge": "Em português, usamos construções como 'quero trocar' ou 'preciso trocar', mas em chinês, verbos como 换 (huàn) e 兑换 (duìhuàn) são usados com estruturas de complemento que podem confundir. Além disso, em chinês, o verbo 想 (xiǎng) já implica desejo, e não precisa de 'quero' explícito em todas as frases. Outro ponto: em português, perguntamos 'qual é a taxa?', mas em chinês, usamos 汇率 (huìlǜ) e a pergunta é estruturada com 多少 (duōshao), que significa 'quanto' e é invariável. Cuidado com a ordem dos caracteres, especialmente em frases com verbo + objeto.",
+    "rule": "Em chinês, para expressar troca de moeda, usamos 换 (huàn) ou 兑换 (duìhuàn). A estrutura básica é: sujeito + verbo + objeto (moeda) + 成 (chéng, 'em') + outra moeda, ou simplesmente sujeito + verbo + quantia + moeda. Para perguntar a taxa de câmbio, usamos 汇率 (huìlǜ) com 多少 (duōshao): 汇率是多少? (Huìlǜ shì duōshao? – Qual é a taxa?). Para valores, usamos 钱 (qián) para dinheiro, e números com 块 (kuài) para yuan informal. Em nível A2, você deve dominar frases como: 我要换钱 (Wǒ yào huàn qián – Quero trocar dinheiro), 我想换美元 (Wǒ xiǎng huàn měiyuán – Quero trocar dólares), e 能换吗? (Néng huàn ma? – Pode trocar?). Lembre-se de que 要 (yào) indica necessidade ou vontade mais forte, enquanto 想 (xiǎng) é mais suave. Não há conjugação verbal em chinês; use partículas como 了 (le) para passado, se necessário. Para valores, use 零钱 (língqián) para troco e 现金 (xiànjīn) para dinheiro em espécie.",
+    "concept_examples": [
+      {
+        "text": "我要换人民币。",
+        "translation": "Quero trocar para RMB (yuan chinês).",
+        "phonetic": "wǒ yào huàn rénmínbì"
+      },
+      {
+        "text": "汇率是多少？",
+        "translation": "Qual é a taxa de câmbio?",
+        "phonetic": "huìlǜ shì duōshao"
+      },
+      {
+        "text": "我想换一百美元。",
+        "translation": "Quero trocar cem dólares.",
+        "phonetic": "wǒ xiǎng huàn yībǎi měiyuán"
+      },
+      {
+        "text": "你可以给我零钱吗？",
+        "translation": "Você pode me dar troco?",
+        "phonetic": "nǐ kěyǐ gěi wǒ língqián ma"
+      }
+    ],
+    "common_error": {
+      "wrong": "我换美元要人民币。",
+      "correct": "我要把美元换成人民币。",
+      "correct_alt": "我想换美元成人民币。",
+      "explanation": "O erro ocorre porque o aluno tenta traduzir diretamente a estrutura portuguesa 'trocar dólares por reais', mas em chinês, a troca é expressada com a construção 把 (bǎ) + objeto + verbo + 成 (chéng) ou com verbo + objeto + 成 + resultado. A ordem dos elementos é crucial. Em vez de colocar '美元' logo após o verbo, é mais natural usar a construção com 把 para destacar a moeda de origem e 成 para indicar a moeda de destino. Alternativamente, pode-se usar 我想换美元成人民币, mas a forma com 把 é mais comum e correta."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "换钱基本表达",
+        "translation": "Expressões básicas para trocar dinheiro",
+        "examples": [
+          {
+            "original": "我要换钱。",
+            "phonetic": "wǒ yào huàn qián",
+            "translation": "Quero trocar dinheiro.",
+            "note": "Use 要 (yào) para indicar necessidade ou intenção forte."
+          },
+          {
+            "original": "我想换欧元。",
+            "phonetic": "wǒ xiǎng huàn ōuyuán",
+            "translation": "Quero trocar euros.",
+            "note": "想 (xiǎng) expressa desejo mais suave."
+          },
+          {
+            "original": "能换吗？",
+            "phonetic": "néng huàn ma",
+            "translation": "Pode trocar?",
+            "note": "Pergunta com 能 (néng) para habilidade ou possibilidade."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "询问汇率和金额",
+        "translation": "Perguntar sobre taxa de câmbio e valores",
+        "examples": [
+          {
+            "original": "汇率是多少？",
+            "phonetic": "huìlǜ shì duōshao",
+            "translation": "Qual é a taxa de câmbio?",
+            "note": "Use 多少 (duōshao) para perguntar preço ou valor."
+          },
+          {
+            "original": "换一百块人民币要多少钱？",
+            "phonetic": "huàn yībǎi kuài rénmínbì yào duōshao qián",
+            "translation": "Quanto custa trocar 100 yuan?",
+            "note": "Estrutura: verbo + quantia + moeda + 要 + 多少钱."
+          },
+          {
+            "original": "今天的汇率是多少？",
+            "phonetic": "jīntiān de huìlǜ shì duōshao",
+            "translation": "Qual é a taxa de hoje?",
+            "note": "Coloque 的 (de) entre tempo e substantivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "完成兑换和请求",
+        "translation": "Completar a troca e fazer pedidos",
+        "examples": [
+          {
+            "original": "请给我换五百美元。",
+            "phonetic": "qǐng gěi wǒ huàn wǔbǎi měiyuán",
+            "translation": "Por favor, troque quinhentos dólares para mim.",
+            "note": "Use 请 (qǐng) para polidez, e 给 (gěi) antes do objeto."
+          },
+          {
+            "original": "我要把美元换成人民币。",
+            "phonetic": "wǒ yào bǎ měiyuán huàn chéng rénmínbì",
+            "translation": "Quero trocar dólares para RMB.",
+            "note": "Use 把 para construir a frase de troca com foco no objeto."
+          },
+          {
+            "original": "请给大票和零钱。",
+            "phonetic": "qǐng gěi dà piào hé língqián",
+            "translation": "Por favor, dê notas grandes e troco.",
+            "note": "Especifique notas grandes (大票) e troco (零钱)."
+          }
+        ]
+      }
+    ],
+    "emoji": "💱",
+    "phonetic": "",
+    "translations": {
+      "pt": "No banco ou casa de câmbio"
+    }
+  },
+  {
+    "id": "pt_A2_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "面试基础 / Fundamentos de entrevista de emprego",
+    "bridge": "Em português, a estrutura típica de resposta a uma pergunta de entrevista costuma ser 'Eu + verbo + complemento', com o sujeito geralmente explícito. Em chinês, o sujeito é frequentemente omitido quando o contexto é claro, o que pode soar incompleto para falantes de português. Além disso, em chinês não há conjugação verbal: o verbo não muda de forma, e o tempo é marcado por advérbios (como 以前 yǐqián, 'antes') ou partículas (como 了 le). Cuidado com a ordem das palavras: em chinês, o verbo 是 shì (ser/estar) não pode ser usado para todos os casos onde usamos 'ser' em português, e muitos adjetivos funcionam como verbos, dispensando o verbo 'ser'. Por fim, lembre-se de que em chinês o verbo 有 yǒu ('ter') é usado para expressar posse, mas também para indicar existência, o que difere do português.",
+    "rule": "Na entrevista de emprego em mandarim, as perguntas frequentes incluem: 你叫什么名字？(Nǐ jiào shénme míngzi? - Qual é o seu nome?), 你多大？(Nǐ duō dà? - Quantos anos você tem?), 你从哪儿来？(Nǐ cóng nǎr lái? - De onde você vem?), 你做什么工作？(Nǐ zuò shénme gōngzuò? - Qual é o seu trabalho?), 你住在哪里？(Nǐ zhù zài nǎlǐ? - Onde você mora?). Para responder, use a estrutura simples: sujeito + verbo + objeto. Por exemplo: 我叫安娜 (Wǒ jiào Ānnà - Eu me chamo Anna), 我今年25岁 (Wǒ jīnnián èrshíwǔ suì - Eu tenho 25 anos), 我来自巴西 (Wǒ láizì Bāxī - Eu venho do Brasil), 我是老师 (Wǒ shì lǎoshī - Eu sou professor). Lembre-se: em chinês, 'ser' (是 shì) não é usado com adjetivos; em vez disso, o adjetivo funciona como um verbo predicator: 我很高兴 (Wǒ hěn gāoxìng - Eu estou muito feliz; literalmente: Eu muito feliz). Use 很 hěn antes do adjetivo para indicar intensidade, mas não para 'ser'. O verbo 有 yǒu é usado para posse: 我有两个兄弟 (Wǒ yǒu liǎng gè xiōngdì - Eu tenho dois irmãos). Para negação, use 不 bù antes do verbo ou adjetivo, exceto com 有, que usa 没 méi: 我不是老师 (Wǒ bù shì lǎoshī - Eu não sou professor), 我没有车 (Wǒ méiyǒu chē - Eu não tenho carro). Nas respostas formais, é comum usar 请 qǐng (por favor) e 谢谢 xièxie (obrigado).",
+    "concept_examples": [
+      {
+        "text": "你好，我叫安娜。",
+        "translation": "Olá, eu me chamo Anna.",
+        "phonetic": "/ni˧˥ xɑʊ˨˩˦, ɑʊ˥˩ tɕjɑʊ˥˩ ɑn˥˥ nɑ˥/",
+        "phonetic_note": ""
+      },
+      {
+        "text": "我今年二十五岁。",
+        "translation": "Eu tenho vinte e cinco anos este ano.",
+        "phonetic": "/uɑʊ˨˩˦ tɕin˥˥ njɛn˧˥ ɑɻ˥˩ ʂɻ˧˥ u˨˩˦ suei˥˩/",
+        "phonetic_note": ""
+      },
+      {
+        "text": "我来自巴西，现在住在葡萄牙。",
+        "translation": "Eu venho do Brasil e agora moro em Portugal.",
+        "phonetic": "/uɑʊ˨˩˦ lɑɪ˥˩ tsɑɪ˥˩ pɑ˥˥ ɕi˥, ɕjɛn˥˩ tsɑɪ˥˩ ʈʂu˥˩ tsɑɪ˥˩ pʰu˧˥ tʰɑʊ˧˥ jɑ˧˥/",
+        "phonetic_note": ""
+      },
+      {
+        "text": "我是老师，我在学校工作。",
+        "translation": "Eu sou professor, eu trabalho na escola.",
+        "phonetic": "/uɑʊ˨˩˦ ʂɻ˥˩ lɑʊ˨˩˦ ʂɻ˥, uɑʊ˨˩˦ tsɑɪ˥˩ ɕɥɛ˧˥ ɕjɑʊ˥˩ kuŋ˥˥ tsuɑʊ˥˩/",
+        "phonetic_note": ""
+      }
+    ],
+    "common_error": {
+      "wrong": "我工作老师。",
+      "correct": "我是老师。",
+      "correct_alt": "我做老师。",
+      "explanation": "O erro ocorre porque em português usamos o verbo 'trabalhar' com a profissão: 'Eu trabalho como professor'. Em chinês, para expressar a profissão, usamos o verbo ser (是 shì) ou o verbo fazer (做 zuò) – não se usa o verbo 'trabalhar' (工作 gōngzuò) com a profissão diretamente. Para evitar esse erro, lembre-se: em chinês, a profissão é um substantivo que se coloca após 是 (shì) ou 做 (zuò). Você pode usar 工作 (gōngzuò) como substantivo (trabalho) ou verbo (trabalhar), mas não como ligação entre sujeito e profissão. Então, diga 我是老师 (Wǒ shì lǎoshī) ou 我做老师 (Wǒ zuò lǎoshī).",
+      "phonetic_wrong": "",
+      "phonetic_correct": ""
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "问候与自我介绍",
+        "translation": "Saudações e autopresentação",
+        "examples": [
+          {
+            "original": "你好！",
+            "phonetic": "/ni˧˥ xɑʊ˨˩˦/",
+            "translation": "Olá!",
+            "note": "Saudação básica, literalmente 'você bem'."
+          },
+          {
+            "original": "我叫安娜。",
+            "phonetic": "/uɑʊ˨˩˦ tɕjɑʊ˥˩ ɑn˥˥ nɑ˥/",
+            "translation": "Eu me chamo Anna.",
+            "note": "Use o verbo 叫 (jiào) para dizer seu nome. Em português usamos 'chamar', mas em chinês é ainda mais direto."
+          },
+          {
+            "original": "很高兴认识你。",
+            "phonetic": "/xɤn˨˩˦ kɑʊ˥˥ ɕɪŋ˥˩ ʐɤn˥˩ ʂɻ˥ ni˧˥/",
+            "translation": "Muito prazer em conhecê-lo.",
+            "note": "Literalmente: 'muito contente conhecer você'. Use no início do encontro."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "个人信息",
+        "translation": "Informações pessoais",
+        "examples": [
+          {
+            "original": "你多大？",
+            "phonetic": "/ni˧˥ tuɑʊ˥˩ tɑ˥˩/",
+            "translation": "Quantos anos você tem?",
+            "note": "Em chinês, literalmente 'você quão grande'. Não use 'quantos anos' (几岁 jǐ suì) para adultos em contexto formal."
+          },
+          {
+            "original": "我今年二十五岁。",
+            "phonetic": "/uɑʊ˨˩˦ tɕin˥˥ njɛn˧˥ ɑɻ˥˩ ʂɻ˧˥ u˨˩˦ suei˥˩/",
+            "translation": "Eu tenho vinte e cinco anos.",
+            "note": "A estrutura é 'ano atual + número + 岁 (suì)'. Não precisa do verbo 'ter'."
+          },
+          {
+            "original": "我来自巴西。",
+            "phonetic": "/uɑʊ˨˩˦ lɑɪ˥˩ tsɑɪ˥˩ pɑ˥˥ ɕi˥/",
+            "translation": "Eu venho do Brasil.",
+            "note": "Use 来自 (láizì) para indicar origem. Em português dizemos 'eu sou do Brasil' com 'ser', mas em chinês é diferente."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "教育与工作经验",
+        "translation": "Educação e experiência profissional",
+        "examples": [
+          {
+            "original": "我在大学学习经济。",
+            "phonetic": "/uɑʊ˨˩˦ tsɑɪ˥˩ tɑ˥˩ ɕɥɛ˧˥ ɕɥɛ˧˥ ɕi˧˥ tɕiŋ˥˥ tɕi˥˩/",
+            "translation": "Eu estudo economia na universidade.",
+            "note": "Use 在 (zài) para indicar local onde estuda, e o verbo 学习 (xuéxí) significa 'estudar'."
+          },
+          {
+            "original": "我在银行工作。",
+            "phonetic": "/uɑʊ˨˩˦ tsɑɪ˥˩ ɪn˧˥ xɑŋ˧˥ kuŋ˥˥ tsuɑʊ˥˩/",
+            "translation": "Eu trabalho em um banco.",
+            "note": "Para expressar o local de trabalho, use 在 + lugar + 工作 (gōngzuò)."
+          },
+          {
+            "original": "我以前做过销售。",
+            "phonetic": "/uɑʊ˨˩˦ i˧˥ tɕʰjɛn˧˥ tsuɑʊ˥˩ kuɑʊ˥˩ ɕjɑʊ˥˥ ɕɥɛ˥˩/",
+            "translation": "Eu já trabalhei com vendas antes.",
+            "note": "Use 以前 (yǐqián) para indicar 'antes' e a partícula 过 (guo) para experiência passada."
+          }
+        ]
+      }
+    ],
+    "emoji": "💼",
+    "phonetic": "",
+    "translations": {
+      "pt": "Entrevista de emprego básica"
+    }
+  },
+  {
+    "id": "pt_A2_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "在邮局 / No correio",
+    "bridge": "Em português, usamos verbos como 'enviar', 'receber' e 'pagar' de forma semelhante ao chinês, mas a ordem das palavras e o uso de medidores (classificadores) podem causar confusão. No chinês, a partícula 把 (bǎ) é usada para enfatizar o objeto, enquanto em português usamos a ordem direta. Além disso, os classificadores, como 封 (fēng) para cartas e 张 (zhāng) para selos, não existem em português e são essenciais para a fluência. Cuidado com a diferença entre 寄 (jì) 'enviar' e 送 (sòng) 'entregar'.",
+    "rule": "Para falar sobre serviços postais em chinês, use verbos como 寄 (jì) para 'enviar', 收 (shōu) para 'receber', 买 (mǎi) para 'comprar' e 贴 (tiē) para 'colar' (selo). Os objetos diretos devem ser precedidos por classificadores: 封 (fēng) para cartas, 张 (zhāng) para selos, 个 (gè) para pacotes. A estrutura básica é: Sujeito + Verbo + Classificador + Objeto. Para perguntar sobre preços, use 多少钱 (duōshǎo qián) 'quanto custa'. A partícula 了 (le) indica ação concluída, como em 我寄了一封信 (wǒ jì le yī fēng xìn) 'Eu enviei uma carta'. Para expressar 'para' ou 'a' (destinatário), use 给 (gěi) antes do destinatário: 我寄一封信给你 (wǒ jì yī fēng xìn gěi nǐ) 'Eu envio uma carta para você'. A estrutura 把 (bǎ) é usada para enfatizar o objeto, mas é mais avançada; no nível A2, evite ou use com cuidado.",
+    "concept_examples": [
+      {
+        "text": "我要寄一封信到巴西。",
+        "translation": "Quero enviar uma carta para o Brasil.",
+        "phonetic": "wǒ yào jì yī fēng xìn dào bāxī"
+      },
+      {
+        "text": "请问，邮票多少钱一张？",
+        "translation": "Por favor, quanto custa um selo?",
+        "phonetic": "qǐngwèn, yóupiào duōshǎo qián yī zhāng?"
+      },
+      {
+        "text": "我去邮局取包裹。",
+        "translation": "Vou ao correio retirar um pacote.",
+        "phonetic": "wǒ qù yóujú qǔ bāoguǒ"
+      },
+      {
+        "text": "请给我三张邮票。",
+        "translation": "Por favor, me dê três selos.",
+        "phonetic": "qǐng gěi wǒ sān zhāng yóupiào"
+      }
+    ],
+    "common_error": {
+      "wrong": "我要寄一封信去巴西。",
+      "correct": "我要寄一封信到巴西。",
+      "correct_alt": "我要寄一封信给巴西的朋友。",
+      "explanation": "O erro ocorre porque em português usamos 'para' para indicar destino, e os aprendizes tendem a traduzir diretamente com 去 (qù) que significa 'ir'. No chinês, 到 (dào) é usado para indicar destino de envio, enquanto 给 (gěi) é usado para indicar o destinatário (pessoa). Use 到 para lugares e 给 para pessoas."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "寄信 (jì xìn) - Enviar carta",
+        "translation": "Enviar carta",
+        "examples": [
+          {
+            "original": "我要寄一封信。",
+            "phonetic": "wǒ yào jì yī fēng xìn",
+            "translation": "Quero enviar uma carta.",
+            "note": "Use o classificador 封 (fēng) para cartas."
+          },
+          {
+            "original": "我在邮局寄信。",
+            "phonetic": "wǒ zài yóujú jì xìn",
+            "translation": "Estou no correio enviando uma carta.",
+            "note": "A preposição 在 (zài) indica localização."
+          },
+          {
+            "original": "你寄信到中国吗？",
+            "phonetic": "nǐ jì xìn dào zhōngguó ma?",
+            "translation": "Você envia carta para a China?",
+            "note": "A partícula 吗 (ma) transforma a frase em pergunta."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "买邮票 (mǎi yóupiào) - Comprar selos",
+        "translation": "Comprar selos",
+        "examples": [
+          {
+            "original": "我买两张邮票。",
+            "phonetic": "wǒ mǎi liǎng zhāng yóupiào",
+            "translation": "Compro dois selos.",
+            "note": "O classificador para selos é 张 (zhāng)."
+          },
+          {
+            "original": "邮票多少钱？",
+            "phonetic": "yóupiào duōshǎo qián?",
+            "translation": "Quanto custam os selos?",
+            "note": "Use 多少钱 (duōshǎo qián) para perguntar preço."
+          },
+          {
+            "original": "我要买三张纪念邮票。",
+            "phonetic": "wǒ yào mǎi sān zhāng jìniàn yóupiào",
+            "translation": "Quero comprar três selos comemorativos.",
+            "note": "纪念 (jìniàn) significa 'comemorativo'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "取包裹 (qǔ bāoguǒ) - Retirar pacote",
+        "translation": "Retirar pacote",
+        "examples": [
+          {
+            "original": "我来取包裹。",
+            "phonetic": "wǒ lái qǔ bāoguǒ",
+            "translation": "Vim retirar o pacote.",
+            "note": "Use 来 (lái) para indicar a ação de vir."
+          },
+          {
+            "original": "请出示你的证件。",
+            "phonetic": "qǐng chūshì nǐ de zhèngjiàn",
+            "translation": "Por favor, apresente seu documento.",
+            "note": "Em correios, é comum pedirem identificação."
+          },
+          {
+            "original": "这个包裹很大。",
+            "phonetic": "zhège bāoguǒ hěn dà",
+            "translation": "Este pacote é grande.",
+            "note": "Use 这个 (zhège) para 'este'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📮",
+    "phonetic": "",
+    "translations": {
+      "pt": "No correio"
+    }
+  },
+  {
+    "id": "pt_A2_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "租房 Zūfáng / Alugar um apartamento",
+    "bridge": "Em português, usamos o verbo 'alugar' tanto para o locador quanto para o locatário, e a estrutura é bastante flexível. Em mandarim, a direção da ação é marcada por verbos diferentes: 租 (zū) significa 'alugar de alguém' (locatário) e 出租 (chūzū) significa 'alugar para alguém' (locador). Além disso, a posse e a localização usam partículas como 的 (de) e 在 (zài), que não têm equivalente direto em português. Cuidado com a ordem das palavras: em chinês, o verbo vem antes do objeto, mas os complementos de lugar e instrumento seguem regras específicas.",
+    "rule": "Para falar sobre aluguel de imóveis em mandarim A2, use as seguintes estruturas:\n1. **Verbo 租 (zū)**: significa 'alugar' no sentido de tomar algo emprestado mediante pagamento. Ex.: 我租房子 (Wǒ zū fángzi) – Eu alugo uma casa. Para indicar de quem ou onde, use 从 (cóng) para 'de' (pessoa/lugar) e 在 (zài) para localização.\n2. **Verbo 出租 (chūzū)**: usado pelo locador, significa 'alugar para alguém'. Ex.: 房东出租房子 (Fángdōng chūzū fángzi) – O senhorio aluga a casa.\n3. **Medida 间 (jiān)**: para quartos/apartamentos, use 间 em vez de 个. Ex.: 一室一厅 (yī shì yī tīng) – um quarto e uma sala.\n4. **Estrutura de localização: 在 + lugar + 有 (yǒu)**: Ex.: 在市中心有一个房子 (Zài shìzhōngxīn yǒu yī gè fángzi) – No centro da cidade há uma casa.\n5. **Números e preços**: use 块 (kuài) para yuan (moeda). Ex.: 两千块 (liǎng qiān kuài) – dois mil yuans.\n6. **Perguntar sobre características**: use 怎么样 (zěnme yàng) para 'como é' e 离 (lí) para 'distância de'. Ex.: 离地铁站远吗? (Lí dìtiě zhàn yuǎn ma?) – É longe da estação de metrô?\nLembre-se de que a partícula 了 (le) marca ação concluída: 我租了房子 (Wǒ zū le fángzi) – Eu aluguei a casa.",
+    "concept_examples": [
+      {
+        "text": "我想租一个公寓。",
+        "translation": "Eu quero alugar um apartamento.",
+        "phonetic": "wǒ xiǎng zū yī gè gōngyù"
+      },
+      {
+        "text": "这个房子离地铁站很近。",
+        "translation": "Esta casa é muito perto da estação de metrô.",
+        "phonetic": "zhège fángzi lí dìtiě zhàn hěn jìn"
+      },
+      {
+        "text": "房租每个月两千块。",
+        "translation": "O aluguel é de dois mil yuans por mês.",
+        "phonetic": "fángzū měi gè yuè liǎng qiān kuài"
+      },
+      {
+        "text": "房东出租一个带家具的房间。",
+        "translation": "O senhorio aluga um quarto mobilhado.",
+        "phonetic": "fángdōng chūzū yī gè dài jiājù de fángjiān"
+      }
+    ],
+    "common_error": {
+      "wrong": "我出租一个公寓。",
+      "correct": "我租一个公寓。",
+      "correct_alt": "我想租一个公寓。",
+      "explanation": "Em português, 'eu alugo' pode significar tanto 'eu alugo de alguém' quanto 'eu alugo para alguém'. Em mandarim, 租 (zū) é usado quando você é o inquilino, e 出租 (chūzū) quando você é o proprietário. Para evitar confusão, lembre-se: 租 = tomar emprestado mediante pagamento; 出租 = dar em empréstimo mediante pagamento. No contexto de procurar um imóvel, use 租 (zū)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本词汇和句子",
+        "translation": "Vocabulário e frases básicas",
+        "examples": [
+          {
+            "original": "公寓",
+            "phonetic": "gōngyù",
+            "translation": "apartamento",
+            "note": "Palavra comum para 'apartamento'. Em chinês, 公寓 (gōngyù) é mais formal do que 房子 (fángzi), que significa 'casa' em geral."
+          },
+          {
+            "original": "房租",
+            "phonetic": "fángzū",
+            "translation": "aluguel (dinheiro)",
+            "note": "Composto de 房 (casa) + 租 (alugar). Use para falar do valor do aluguel."
+          },
+          {
+            "original": "我想租一个大房子。",
+            "phonetic": "wǒ xiǎng zū yī gè dà fángzi",
+            "translation": "Eu quero alugar uma casa grande.",
+            "note": "Estrutura: sujeito + 想 (querer) + verbo + objeto. Lembre-se de usar o classificador 个 (gè) para casas/apartamentos."
+          },
+          {
+            "original": "这个公寓有多少平方米？",
+            "phonetic": "zhège gōngyù yǒu duōshǎo píngfāngmǐ?",
+            "translation": "Quantos metros quadrados tem este apartamento?",
+            "note": "Para perguntar sobre o tamanho, use 平方米 (píngfāngmǐ) – metro quadrado. É uma pergunta comum ao alugar."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "描述房子和位置",
+        "translation": "Descrevendo a casa e a localização",
+        "examples": [
+          {
+            "original": "这套房子有两间卧室。",
+            "phonetic": "zhè tào fángzi yǒu liǎng jiān wòshì",
+            "translation": "Esta casa tem dois quartos.",
+            "note": "Use 套 (tào) como classificador para 'conjunto' de casa/apartamento, e 间 (jiān) para 'cômodos'."
+          },
+          {
+            "original": "附近有超市和地铁站。",
+            "phonetic": "fùjìn yǒu chāoshì hé dìtiě zhàn",
+            "translation": "Perto (daqui) há supermercado e estação de metrô.",
+            "note": "A estrutura 附近有 (fùjìn yǒu) – 'nos arredores há' – é útil para descrever a vizinhança."
+          },
+          {
+            "original": "房子离公司太远。",
+            "phonetic": "fángzi lí gōngsī tài yuǎn",
+            "translation": "A casa é muito longe do trabalho.",
+            "note": "A estrutura 离 + lugar + 太远 (tài yuǎn) expressa 'muito longe de'. Compare com o português que usa 'de'."
+          },
+          {
+            "original": "这个小区很安静。",
+            "phonetic": "zhège xiǎoqū hěn ānjìng",
+            "translation": "Este condomínio é muito tranquilo.",
+            "note": "小区 (xiǎoqū) é 'condomínio' ou 'bairro residencial'. Use 很 (hěn) antes de adjetivos para 'muito', mas sem sentido de intensidade forte."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "谈判和签约",
+        "translation": "Negociando e assinando contrato",
+        "examples": [
+          {
+            "original": "房租能便宜一点吗？",
+            "phonetic": "fángzū néng piányi yīdiǎn ma?",
+            "translation": "O aluguel pode ser um pouco mais barato?",
+            "note": "Use 能 (néng) para 'pode' e 一点 (yīdiǎn) para 'um pouco'. É educado negar com 不好意思 (bù hǎoyìsi)."
+          },
+          {
+            "original": "我需要签一年的合同。",
+            "phonetic": "wǒ xūyào qiān yī nián de hétong",
+            "translation": "Eu preciso assinar um contrato de um ano.",
+            "note": "签 (qiān) significa 'assinar'. Contrato é 合同 (hétong). A ordem: 一年的 (de um ano) antes de 合同."
+          },
+          {
+            "original": "押金是多少？",
+            "phonetic": "yājīn shì duōshǎo?",
+            "translation": "Qual é o depósito de garantia?",
+            "note": "押金 (yājīn) é 'caução' ou 'depósito'. Em muitos lugares, costuma ser um ou dois meses de aluguel."
+          },
+          {
+            "original": "我可以先看看房子吗？",
+            "phonetic": "wǒ kěyǐ xiān kànkan fángzi ma?",
+            "translation": "Posso ver a casa primeiro?",
+            "note": "看看 (kànkan) é uma duplicação do verbo ver para indicar 'dar uma olhada'. Use 先 (xiān) para 'primeiro'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "pt": "Alugar um apartamento"
+    }
+  },
+  {
+    "id": "pt_A2_conv_07",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "在聚会上 / Em uma festa ou evento social",
+    "bridge": "Em português, costumamos usar verbos como 'estar' e 'ter' para descrever situações em festas. Em mandarim, a estrutura é diferente: usamos 有 (yǒu) para indicar existência e 在 (zài) para localização. Além disso, o mandarim não tem conjugação verbal por pessoa, então o verbo permanece o mesmo, o que simplifica. Porém, a ordem das palavras é mais rígida: sujeito + verbo + objeto, e muitas vezes o sujeito é omitido quando o contexto é claro.",
+    "rule": "Para expressar ações em andamento durante uma festa, use 在 (zài) antes do verbo (ex: 我在喝酒 - wǒ zài hē jiǔ). Para dizer que há algo ou alguém, use 有 (yǒu) no início da frase (ex: 有很多人 - yǒu hěn duō rén). Para falar de algo que aconteceu, use o marcador de aspecto 了 (le) após o verbo (ex: 我喝了酒 - wǒ hē le jiǔ). Em conversas informais, o sujeito pode ser omitido se for óbvio. Para fazer perguntas, use 吗 (ma) no final ou palavras interrogativas como 什么 (shénme) e 谁 (shéi).",
+    "concept_examples": [
+      {
+        "text": "这个派对很好玩。",
+        "translation": "Esta festa é muito divertida.",
+        "phonetic": "zhè gè pài duì hěn hǎo wán"
+      },
+      {
+        "text": "有很多朋友在这里。",
+        "translation": "Há muitos amigos aqui.",
+        "phonetic": "yǒu hěn duō péng yǒu zài zhè lǐ"
+      },
+      {
+        "text": "我们在喝饮料和聊天。",
+        "translation": "Nós estamos bebendo e conversando.",
+        "phonetic": "wǒ men zài hē yǐn liào hé liáo tiān"
+      },
+      {
+        "text": "你吃了蛋糕吗？",
+        "translation": "Você comeu bolo?",
+        "phonetic": "nǐ chī le dàn gāo ma"
+      }
+    ],
+    "common_error": {
+      "wrong": "我喝啤酒在派对。",
+      "correct": "我在派对喝啤酒。",
+      "correct_alt": "我在派对上喝啤酒。",
+      "explanation": "Em português, dizemos 'eu bebo cerveja na festa', com o local depois do verbo. Em mandarim, o local vem antes do verbo, geralmente com 在 (zài) e às vezes seguido de 上 (shàng) para indicar 'na festa'. Além disso, o verbo em andamento requer 在 antes dele. A ordem correta é: sujeito + 在 + local + verbo + objeto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "打招呼和问候",
+        "translation": "Cumprimentos e saudações",
+        "examples": [
+          {
+            "original": "你好！欢迎来我的派对！",
+            "phonetic": "nǐ hǎo! huān yíng lái wǒ de pài duì!",
+            "translation": "Olá! Bem-vindo à minha festa!",
+            "note": "Use 欢迎 (huānyíng) para dar boas-vindas. Em português, 'bem-vindo' varia em gênero, mas em mandarim é fixo."
+          },
+          {
+            "original": "好久不见！你最近怎么样？",
+            "phonetic": "hǎo jiǔ bù jiàn! nǐ zuì jìn zěn me yàng?",
+            "translation": "Há quanto tempo! Como você está ultimamente?",
+            "note": "Expressão comum para reencontros. Note que 怎么样 (zěnme yàng) é usado como 'como está'."
+          },
+          {
+            "original": "大家都玩得开心吗？",
+            "phonetic": "dà jiā dōu wán dé kāi xīn ma?",
+            "translation": "Todos estão se divertindo?",
+            "note": "开心 (kāixīn) significa 'feliz' ou 'divertido'. A estrutura 玩得开心 (wán dé kāixīn) é fixa."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "介绍和聊天",
+        "translation": "Apresentações e conversa",
+        "examples": [
+          {
+            "original": "我来介绍一下，这是我的朋友安娜。",
+            "phonetic": "wǒ lái jiè shào yī xià, zhè shì wǒ de péng yǒu ān nà.",
+            "translation": "Deixa eu apresentar, esta é minha amiga Ana.",
+            "note": "Use 来 (lái) antes de um verbo para sugerir 'deixa eu fazer'. 一下 (yīxià) suaviza a ação."
+          },
+          {
+            "original": "你们认识吗？他是我的同事。",
+            "phonetic": "nǐ men rèn shí ma? tā shì wǒ de tóng shì.",
+            "translation": "Vocês se conhecem? Ele é meu colega de trabalho.",
+            "note": "认识 (rènshi) significa 'conhecer' (pessoas). Compare com 'saber' (知道 zhīdào)."
+          },
+          {
+            "original": "你在哪里工作？",
+            "phonetic": "nǐ zài nǎ lǐ gōng zuò?",
+            "translation": "Onde você trabalha?",
+            "note": "Localização com 在哪里 (zài nǎlǐ) antes do verbo, diferente do português."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "离开和告辞",
+        "translation": "Partir e despedir-se",
+        "examples": [
+          {
+            "original": "时间不早了，我得走了。",
+            "phonetic": "shí jiān bù zǎo le, wǒ děi zǒu le.",
+            "translation": "Está ficando tarde, eu preciso ir.",
+            "note": "得 (děi) expressa necessidade. O 了 (le) no final indica mudança de situação."
+          },
+          {
+            "original": "谢谢你的邀请，我今天玩得很开心。",
+            "phonetic": "xiè xiè nǐ de yāo qǐng, wǒ jīn tiān wán dé hěn kāi xīn.",
+            "translation": "Obrigado pelo convite, hoje me diverti muito.",
+            "note": "玩得很开心 (wán dé hěn kāixīn) significa 'diverti-me muito'. Note a partícula 得 (de) para complemento de grau."
+          },
+          {
+            "original": "明天见！下次再见！",
+            "phonetic": "míng tiān jiàn! xià cì zài jiàn!",
+            "translation": "Até amanhã! Até a próxima!",
+            "note": "见 (jiàn) significa 'ver/encontrar'. Combine com tempo ou ocasião para despedidas."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎉",
+    "phonetic": "",
+    "translations": {
+      "pt": "Em uma festa ou evento social"
+    }
+  },
+  {
+    "id": "pt_A2_conv_08",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "抱怨和道歉 / Queixar-se e desculpar-se",
+    "bridge": "Em português, usamos 'desculpa' ou 'sinto muito' para pedir desculpas, e 'queixa' ou 'reclamação' para expressar insatisfação. Em chinês, as estruturas são diferentes: para reclamar, você pode usar '我觉得...' (eu sinto que...) para suavizar, e para pedir desculpas, '对不起' é mais forte, enquanto '不好意思' é mais leve. Além disso, a ordem das palavras e o uso de partículas como '了' para indicar mudança de estado são fundamentais e não têm equivalente direto em português.",
+    "rule": "Para reclamar, use estruturas como: '我觉得 + [problema]' (eu acho que...), '太 + adjetivo + 了' para enfatizar ('太贵了' - muito caro), ou '请 + verbo' para pedir algo ('请换一个' - por favor troque). Para pedir desculpas, use '对不起' (desculpe, mais formal/sério), '不好意思' (com licença/desculpe, mais leve), ou '抱歉' (peço desculpas, formal). Para responder, aceite com '没关系' (não tem problema) ou '没事' (tudo bem). Lembre-se: em chinês, a partícula '了' indica mudança ou conclusão; use após adjetivos em reclamações ('太慢了' - está muito lento). A ordem das palavras é Sujeito + Verbo + Objeto, e os advérbios vêm antes do verbo (经常经常 - frequentemente).",
+    "concept_examples": [
+      {
+        "text": "我觉得这个菜太咸了。",
+        "translation": "Eu acho que este prato está muito salgado.",
+        "phonetic": "[wǒ juéde zhège cài tài xián le]"
+      },
+      {
+        "text": "对不起，我迟到了。",
+        "translation": "Desculpe, eu me atrasei.",
+        "phonetic": "[duìbùqǐ wǒ chídào le]"
+      },
+      {
+        "text": "不好意思，请问厕所在哪儿？",
+        "translation": "Com licença, onde fica o banheiro?",
+        "phonetic": "[bù hǎoyìsi qǐngwèn cèsuǒ zài nǎr]"
+      },
+      {
+        "text": "服务员，这个汤太凉了，请换一个。",
+        "translation": "Garçom, esta sopa está muito fria, por favor troque.",
+        "phonetic": "[fúwùyuán zhège tāng tài liáng le qǐng huàn yī gè]"
+      }
+    ],
+    "common_error": {
+      "wrong": "我道歉你 (wǒ dàoqiàn nǐ) - literalmente 'eu desculpo você'",
+      "correct": "我向你道歉 (wǒ xiàng nǐ dàoqiàn)",
+      "correct_alt": "对不起 (duìbùqǐ)",
+      "explanation": "Em português, dizemos 'peço desculpas a você', mas em chinês, o verbo '道歉' (dàoqiàn) requer a preposição '向' (xiàng) para indicar 'para/com'. Não se usa '道歉' diretamente com objeto. Outra forma é usar '对不起' que é uma expressão fixa sem verbo. Evite traduzir literalmente do português."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "表达抱怨",
+        "translation": "Expressar reclamações",
+        "examples": [
+          {
+            "original": "这个房间太吵了。",
+            "phonetic": "[zhège fángjiān tài chǎo le]",
+            "translation": "Este quarto está muito barulhento.",
+            "note": "Use '太 + adjetivo + 了' para enfatizar insatisfação."
+          },
+          {
+            "original": "我觉得价格有点贵。",
+            "phonetic": "[wǒ juéde jiàgé yǒudiǎn guì]",
+            "translation": "Eu acho que o preço está um pouco caro.",
+            "note": "'我觉得' suaviza a reclamação, tornando-a educada."
+          },
+          {
+            "original": "等的时间太长了。",
+            "phonetic": "[děng de shíjiān tài cháng le]",
+            "translation": "O tempo de espera está muito longo.",
+            "note": "Use '形容词 + 了' para indicar uma mudança percebida."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "表达道歉",
+        "translation": "Expressar pedidos de desculpa",
+        "examples": [
+          {
+            "original": "对不起，我不是故意的。",
+            "phonetic": "[duìbùqǐ wǒ bùshì gùyì de]",
+            "translation": "Desculpe, não foi de propósito.",
+            "note": "'对不起' é o pedido de desculpas mais comum."
+          },
+          {
+            "original": "不好意思，我忘了。",
+            "phonetic": "[bù hǎoyìsi wǒ wàng le]",
+            "translation": "Desculpe, eu esqueci.",
+            "note": "'不好意思' é mais leve, usado para situações triviais."
+          },
+          {
+            "original": "抱歉，我不能来。",
+            "phonetic": "[bàoqiàn wǒ bùnéng lái]",
+            "translation": "Peço desculpas, não poderei vir.",
+            "note": "'抱歉' é mais formal e usado em contextos sérios."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "回应道歉和抱怨",
+        "translation": "Responder a desculpas e reclamações",
+        "examples": [
+          {
+            "original": "没关系，下次注意。",
+            "phonetic": "[méiguānxi xiàcì zhùyì]",
+            "translation": "Não tem problema, da próxima vez preste atenção.",
+            "note": "Resposta comum a um pedido de desculpas."
+          },
+          {
+            "original": "没事，不用担心。",
+            "phonetic": "[méishì bùyòng dānxīn]",
+            "translation": "Tudo bem, não precisa se preocupar.",
+            "note": "Expressão coloquial para tranquilizar."
+          },
+          {
+            "original": "好的，我会改进。",
+            "phonetic": "[hǎo de wǒ huì gǎijìn]",
+            "translation": "Ok, eu vou melhorar.",
+            "note": "Resposta aceitável a uma reclamação, mostrando compromisso."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙏",
+    "phonetic": "",
+    "translations": {
+      "pt": "Queixar-se e pedir desculpas"
+    }
+  },
+  {
+    "id": "pt_A2_conv_09",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "我的家乡 / Minha cidade natal",
+    "bridge": "Em português, usamos o verbo 'ser' para descrever lugares (ex: 'Minha cidade é pequena'), enquanto em chinês usamos a estrutura com 是 (shì) seguida de adjetivos, mas sem flexão de gênero ou número. Cuidado: em chinês, a ordem é diferente – primeiro o local, depois o adjetivo com 很 (hěn) para 'ser' sem grau. Além disso, não existe artigo equivalente ao 'a' ou 'o' e a posse é marcada com 的 (de), que às vezes pode ser omitido. Aprenda a usar 有 (yǒu) para indicar existência ('há') e 在 (zài) para localização, elementos essenciais para falar da sua cidade.",
+    "rule": "Para descrever sua cidade em mandarim, você pode usar três padrões principais:\n1. **Nome + 有 (yǒu) + objeto(s)**: indica que há algo na cidade (ex: 我的城市有一个公园 – wǒ de chéngshì yǒu yīgè gōngyuán).\n2. **Lugar + 在 (zài) + localização**: indica onde algo está (ex: 学校在市中心 – xuéxiào zài shìzhōngxīn).\n3. **Lugar + 很 (hěn) + adjetivo**: para descrever características, 很 não é 'muito' aqui, mas sim um marcador de predicação (ex: 我的家乡很漂亮).\nOrdem dos adjetivos: em chinês, adjetivos vêm antes do substantivo (ex: 大的城市 – dà de chéngshì). Para negação, use 不 (bù) antes do adjetivo. Para perguntas, adicione 吗 (ma) no final. Lembre-se: questões como 'Onde é?' usam 哪儿 (nǎr).",
+    "concept_examples": [
+      {
+        "text": "我的家乡是一个小城市。",
+        "translation": "Minha cidade natal é uma cidade pequena.",
+        "phonetic": "wǒ de jiāxiāng shì yīgè xiǎo chéngshì"
+      },
+      {
+        "text": "这里有很多公园和商店。",
+        "translation": "Aqui há muitos parques e lojas.",
+        "phonetic": "zhèlǐ yǒu hěn duō gōngyuán hé shāngdiàn"
+      },
+      {
+        "text": "我的城市很安静。",
+        "translation": "Minha cidade é quieta.",
+        "phonetic": "wǒ de chéngshì hěn ānjìng"
+      },
+      {
+        "text": "市中心有一家咖啡店。",
+        "translation": "No centro da cidade há uma cafeteria.",
+        "phonetic": "shìzhōngxīn yǒu yī jiā kāfēidiàn"
+      }
+    ],
+    "common_error": {
+      "wrong": "我的城市是很大。",
+      "correct": "我的城市很大。",
+      "correct_alt": "我的城市比较大。",
+      "explanation": "Erro comum: usar 是 (shì) com adjetivos para copular. Em chinês, quando um adjetivo é o predicado, não se usa 是. Em vez disso, coloca-se 很 (hěn) antes do adjetivo (ex: 很大). Usar 是 aqui seria como dizer 'Minha cidade é é grande' em português. A função de 是 é para igualdade (ex: 我是老师). Então, para descrever características, use 很 + adjetivo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本描述",
+        "translation": "Descrição básica",
+        "examples": [
+          {
+            "original": "我的家乡在巴西。",
+            "phonetic": "wǒ de jiāxiāng zài bāxī",
+            "translation": "Minha cidade natal fica no Brasil.",
+            "note": "Use 在 (zài) para indicar localização geográfica."
+          },
+          {
+            "original": "我的城市不大。",
+            "phonetic": "wǒ de chéngshì bù dà",
+            "translation": "Minha cidade não é grande.",
+            "note": "Negação com 不 (bù) antes do adjetivo."
+          },
+          {
+            "original": "这里很美。",
+            "phonetic": "zhèlǐ hěn měi",
+            "translation": "Aqui é bonito.",
+            "note": "很 é usado para conectar sujeito e adjetivo, não para intensificar."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "城市设施",
+        "translation": "Instalações da cidade",
+        "examples": [
+          {
+            "original": "我们城市有一个图书馆。",
+            "phonetic": "wǒmen chéngshì yǒu yīgè túshūguǎn",
+            "translation": "Nossa cidade tem uma biblioteca.",
+            "note": "Use 有 (yǒu) para indicar posse ou existência."
+          },
+          {
+            "original": "这里没有地铁。",
+            "phonetic": "zhèlǐ méiyǒu dìtiě",
+            "translation": "Aqui não tem metrô.",
+            "note": "Nega a existência com 没有 (méiyǒu)."
+          },
+          {
+            "original": "医院在学校旁边。",
+            "phonetic": "yīyuàn zài xuéxiào pángbiān",
+            "translation": "O hospital fica ao lado da escola.",
+            "note": "Use 在...旁边 para dizer 'ao lado de'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "生活感受",
+        "translation": "Sentimentos sobre a vida",
+        "examples": [
+          {
+            "original": "我觉得这里的生活很方便。",
+            "phonetic": "wǒ juéde zhèlǐ de shēnghuó hěn fāngbiàn",
+            "translation": "Eu acho que a vida aqui é muito conveniente.",
+            "note": "Use 觉得 (juéde) para expressar opinião."
+          },
+          {
+            "original": "我喜欢这里的安静。",
+            "phonetic": "wǒ xǐhuān zhèlǐ de ānjìng",
+            "translation": "Eu gosto do sossego daqui.",
+            "note": "O substantivo 'quietude' (安静) é usado como objeto do verbo 喜欢."
+          },
+          {
+            "original": "虽然城市小，但是很舒适。",
+            "phonetic": "suīrán chéngshì xiǎo, dànshì hěn shūshì",
+            "translation": "Embora a cidade seja pequena, é confortável.",
+            "note": "Use 虽然...但是... para 'embora...mas...'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏙️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Descrevendo sua cidade natal"
+    }
+  },
+  {
+    "id": "pt_A2_conv_10",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "谈论爱好 / Falar sobre hobbies",
+    "bridge": "Em português, usamos o verbo 'gostar de' seguido de infinitivo ou substantivo, e também 'meu hobby é...'. Em mandarim, a estrutura é diferente: usamos 喜欢 (xǐhuān) para 'gostar de' e 爱好 (àihào) para 'hobby', mas a ordem e o uso de partículas como 的 e 得 mudam. Cuidado: em mandarim, não se usa 'gosto de + verbo no infinitivo' diretamente; você coloca o verbo depois de 喜欢 sem preposição. Além disso, para expressar 'meu hobby é...', usamos 我的爱好是... (wǒ de àihào shì...), mas 是 (shì) é obrigatório. Não diga '我爱好' sozinho para 'meu hobby' – precisa de 的.",
+    "rule": "Para falar sobre hobbies em mandarim no nível A2:\n\n1. **Verbo 喜欢 (xǐhuān) - 'gostar de'**: Estrutura: Sujeito + 喜欢 + Objeto (substantivo ou verbo). Exemplo: 我喜欢看书 (Wǒ xǐhuān kànshū) - 'Eu gosto de ler'. Não use preposição entre 喜欢 e o verbo, diferente do português.\n\n2. **爱好 (àihào) - 'hobby'**: Use com 是 (shì) para definir: 我的爱好是 + atividade. Exemplo: 我的爱好是画画 (Wǒ de àihào shì huàhuà) - 'Meu hobby é desenhar'. Note que 爱好 não é um verbo, é um substantivo.\n\n3. **Frequência e tempo livre**: Use 常常 (chángcháng) - 'frequentemente', 有时候 (yǒu shíhou) - 'às vezes', 周末 (zhōumò) - 'fim de semana'. Exemplo: 我周末常常去游泳 (Wǒ zhōumò chángcháng qù yóuyǒng) - 'Eu frequentemente nado nos fins de semana'. Note a ordem: tempo + 常常 + verbo.\n\n4. **Estrutura de tópico-comentário**: Em mandarim, muitas vezes você coloca o tópico primeiro. Exemplo: 看书，我喜欢 (Kànshū, wǒ xǐhuān) - 'Ler, eu gosto' (ênfase). Mas para A2, use a ordem normal: Sujeito + 喜欢 + Objeto.\n\n5. **Negação**: Use 不 (bù) antes de 喜欢: 我不喜欢跑步 (Wǒ bù xǐhuān pǎobù) - 'Eu não gosto de correr'.\n\n6. **Perguntas**: Use 吗 (ma) no final para sim/não: 你喜欢音乐吗? (Nǐ xǐhuān yīnyuè ma?) - 'Você gosta de música?' Use 什么 (shénme) para 'o quê': 你的爱好是什么? (Nǐ de àihào shì shénme?) - 'Qual é o seu hobby?'",
+    "concept_examples": [
+      {
+        "text": "我的爱好是听音乐。",
+        "translation": "Meu hobby é ouvir música.",
+        "phonetic": "wǒ də ài hào shì tīng yīn yuè"
+      },
+      {
+        "text": "我喜欢打篮球。",
+        "translation": "Eu gosto de jogar basquete.",
+        "phonetic": "wǒ xǐ huān dǎ lán qiú"
+      },
+      {
+        "text": "我周末常常去爬山。",
+        "translation": "Eu frequentemente vou caminhar nas montanhas nos fins de semana.",
+        "phonetic": "wǒ zhōu mò cháng cháng qù pá shān"
+      },
+      {
+        "text": "我不喜欢看书，我喜欢看电影。",
+        "translation": "Eu não gosto de ler, eu gosto de assistir filmes.",
+        "phonetic": "wǒ bù xǐ huān kàn shū, wǒ xǐ huān kàn diàn yǐng"
+      }
+    ],
+    "common_error": {
+      "wrong": "我爱好是听音乐。",
+      "correct": "我的爱好是听音乐。",
+      "correct_alt": "我爱好听音乐。",
+      "explanation": "Em português, dizemos 'meu hobby é', mas em mandarim, sem o '的', a frase fica incompleta e soa estranho. '我的爱好' significa 'meu hobby', enquanto '我爱好' pode ser interpretado como um verbo (eu gosto de) em contextos informais, mas não é padrão. Sempre use '的' para posse: 我的爱好. Alternativamente, você pode usar o verbo 喜欢 para dizer 'eu gosto de ouvir música': 我喜欢听音乐."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "喜欢 + 活动",
+        "translation": "Gostar de + atividade",
+        "examples": [
+          {
+            "original": "我喜欢游泳。",
+            "phonetic": "wǒ xǐ huān yóu yǒng",
+            "translation": "Eu gosto de nadar.",
+            "note": "Note que '游泳' é um verbo-objeto (nadar) e é usado diretamente após 喜欢, sem preposição."
+          },
+          {
+            "original": "你喜欢什么运动？",
+            "phonetic": "nǐ xǐ huān shén me yùn dòng?",
+            "translation": "Qual esporte você gosta?",
+            "note": "Use '什么' para perguntar 'o quê'. A ordem é: Sujeito + 喜欢 + 什么 + substantivo."
+          },
+          {
+            "original": "我不喜欢做饭。",
+            "phonetic": "wǒ bù xǐ huān zuò fàn",
+            "translation": "Eu não gosto de cozinhar.",
+            "note": "A negação com '不' vem antes de 喜欢. Lembre-se que a partícula '了' não é usada aqui."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "爱好 + 是",
+        "translation": "Hobby + ser",
+        "examples": [
+          {
+            "original": "我的爱好是画画。",
+            "phonetic": "wǒ də ài hào shì huà huà",
+            "translation": "Meu hobby é desenhar.",
+            "note": "A estrutura '我的爱好是' + verbo é comum. O '是' é obrigatório para conectar o sujeito e o complemento."
+          },
+          {
+            "original": "他的爱好是踢足球。",
+            "phonetic": "tā də ài hào shì tī zú qiú",
+            "translation": "O hobby dele é jogar futebol.",
+            "note": "Use '他的' para 'dele'. Cuidado: em português dizemos 'o hobby dele', mas em mandarim '的' vem depois do pronome: 他的."
+          },
+          {
+            "original": "你的爱好是什么？",
+            "phonetic": "nǐ də ài hào shì shén me?",
+            "translation": "Qual é o seu hobby?",
+            "note": "Pergunta comum: 'Qual é o seu hobby?' Use '什么' no final. Responda com '我的爱好是...'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "频率词",
+        "translation": "Palavras de frequência",
+        "examples": [
+          {
+            "original": "我常常去图书馆看书。",
+            "phonetic": "wǒ cháng cháng qù tú shū guǎn kàn shū",
+            "translation": "Eu frequentemente vou à biblioteca ler.",
+            "note": "'常常' significa 'frequentemente'. Coloque-o antes do verbo principal, depois do sujeito. Aqui, note a estrutura '去 + lugar + verbo'."
+          },
+          {
+            "original": "我有时候听歌。",
+            "phonetic": "wǒ yǒu shí hou tīng gē",
+            "translation": "Às vezes eu ouço música.",
+            "note": "'有时候' significa 'às vezes'. Use no início ou após o sujeito. Note que '听歌' significa 'ouvir música'."
+          },
+          {
+            "original": "我周末不常常运动。",
+            "phonetic": "wǒ zhōu mò bù cháng cháng yùn dòng",
+            "translation": "Eu não me exercito frequentemente nos fins de semana.",
+            "note": "A negação '不' pode vir antes de '常常' para negar a frequência. Cuidado com a ordem: sujeito + tempo + negação + advérbio + verbo."
+          },
+          {
+            "original": "我每天跑步。",
+            "phonetic": "wǒ měi tiān pǎo bù",
+            "translation": "Eu corro todos os dias.",
+            "note": "'每天' significa 'todos os dias'. É uma palavra de frequência simples, colocada após o sujeito."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "pt": "Falar sobre hobbies e tempo livre"
+    }
+  }
+]

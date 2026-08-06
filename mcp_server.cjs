@@ -326,97 +326,65 @@ if (require.main === module) {
 // ─── Modo HTTP (montado en Express desde server.cjs) ──────────────────────────
 
 function registerMcpRoutes(app) {
-    // Mapa de sesiones HTTP (sessionId → transport)
+    // Mapa de sesiones HTTP persistentes (sessionId → { transport, server })
     const _sessions = new Map();
 
-    // POST /mcp  → punto de entrada principal (Streamable HTTP Transport)
+    // POST /mcp  → inicializar sesión o manejar request existente
     app.post('/mcp', async (req, res) => {
         const sessionId = req.headers['mcp-session-id'];
 
-        let transport;
+        // Sesión existente
         if (sessionId && _sessions.has(sessionId)) {
-            transport = _sessions.get(sessionId);
-        } else {
-            transport = new StreamableHTTPServerTransport({
-                sessionIdGenerator: () => require('crypto').randomBytes(16).toString('hex'),
-                onsessioninitialized: (id) => { _sessions.set(id, transport); },
-            });
-            transport.onclose = () => { if (transport.sessionId) _sessions.delete(transport.sessionId); };
-            const server = createMcpServer();
-            await server.connect(transport);
+            const { transport } = _sessions.get(sessionId);
+            await transport.handleRequest(req, res, req.body);
+            return;
         }
 
+        // Nueva sesión — crear transport + server para esta sesión
+        const crypto    = require('crypto');
+        const transport = new StreamableHTTPServerTransport({
+            sessionIdGenerator: () => crypto.randomBytes(16).toString('hex'),
+            onsessioninitialized: (id) => {
+                _sessions.set(id, { transport, server: mcpServer });
+            },
+        });
+        transport.onclose = () => {
+            if (transport.sessionId) _sessions.delete(transport.sessionId);
+        };
+
+        const mcpServer = createMcpServer();
+        await mcpServer.connect(transport);
         await transport.handleRequest(req, res, req.body);
     });
 
-    // GET /mcp  → SSE para notificaciones push (opcional, si el transport lo soporta)
+    // GET /mcp  → SSE para notificaciones push
     app.get('/mcp', async (req, res) => {
         const sessionId = req.headers['mcp-session-id'];
-        const transport = sessionId && _sessions.get(sessionId);
-        if (!transport) {
+        const session   = sessionId && _sessions.get(sessionId);
+        if (!session) {
             res.status(400).json({ error: 'Sesión MCP no encontrada. Inicia con POST /mcp primero.' });
             return;
         }
-        await transport.handleRequest(req, res);
+        await session.transport.handleRequest(req, res);
     });
 
     // DELETE /mcp  → cerrar sesión
     app.delete('/mcp', async (req, res) => {
         const sessionId = req.headers['mcp-session-id'];
-        const transport = sessionId && _sessions.get(sessionId);
-        if (transport) {
-            await transport.handleRequest(req, res);
+        const session   = sessionId && _sessions.get(sessionId);
+        if (session) {
+            await session.transport.handleRequest(req, res);
             _sessions.delete(sessionId);
         } else {
             res.status(404).json({ error: 'Sesión no encontrada' });
         }
     });
 
-    // GET /.well-known/mcp/server-card.json — discovery para Smithery y crawlers MCP
-    app.get('/.well-known/mcp/server-card.json', (req, res) => {
-        res.json({
-            '$schema':        'https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json',
-            version:          '1.0',
-            protocolVersion:  '2025-03-26',
-            serverInfo: {
-                name:        'sensemate-content',
-                title:       'SenseMate Content MCP Server',
-                version:     '1.0.0',
-                description: 'Accede al contenido educativo de idiomas de SenseMate: Live Feed, Class Room y gestión de bots generadores con DeepSeek AI. Schema.org JSON-LD incluido en cada item.',
-                homepage:    'https://sensemate.app/mcp',
-            },
-            transport: {
-                type:     'streamable-http',
-                endpoint: '/mcp',
-            },
-            capabilities: {
-                tools:     {},
-                resources: {},
-            },
-            authentication: {
-                required: false,
-                schemes:  [],
-                notes:    'Las herramientas de lectura (get_feed, get_classes) son públicas. Las de administración requieren admin_token como parámetro.',
-            },
-            tools: TOOLS.map(t => ({
-                name:        t.name,
-                description: t.description,
-            })),
-            resources: [
-                { uri: 'sensemate://feed',      name: 'Live Feed',   description: 'Publicaciones educativas recientes' },
-                { uri: 'sensemate://classroom', name: 'Class Room',  description: 'Clases disponibles y en vivo'       },
-            ],
-            prompts: [],
-        });
-    });
-
-    // Alias SEP-1960 compatible
-    app.get('/.well-known/mcp.json', (req, res) => {
-        res.redirect('/.well-known/mcp/server-card.json');
-    });
+    // Nota: /.well-known/mcp/server-card.json se sirve como archivo estático
+    // desde .well-known/mcp/server-card.json (dotfiles: 'allow' en express.static)
 
     console.log('[MCP] Servidor HTTP activo en POST /mcp');
-    console.log('[MCP] Server Card en /.well-known/mcp/server-card.json');
+    console.log('[MCP] Server Card en /.well-known/mcp/server-card.json (archivo estático)');
 }
 
 module.exports = { createMcpServer, registerMcpRoutes, TOOLS, SERVER_INFO };

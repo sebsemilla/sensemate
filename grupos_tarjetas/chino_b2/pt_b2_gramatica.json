@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "pt_B2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "混合条件句 / Condicionais mistas",
+    "bridge": "Em português, usamos o subjuntivo e o condicional para expressar situações irreais ou hipotéticas, por exemplo: 'Se eu tivesse estudado, estaria aprovado'. Em mandarim, não existem tempos verbais flexionados; a condicionalidade é marcada por conectores como 要是 (yàoshi) e 就 (jiù), e a distinção entre passado, presente e futuro é feita por marcadores temporais como 了, 过, 在 e 会. O principal desafio é abandonar a flexão verbal e aprender a combinar os marcadores temporais com a estrutura 'se... então' para expressar condições mistas.",
+    "rule": "No mandarim, as condicionais mistas (mixed conditionals) combinam uma condição em um tempo (passado, presente ou futuro) com um resultado em outro tempo. A estrutura básica é: [conector condicional] + [condição] + [resultado (com 就)]. Os conectores mais comuns são 要是 (yàoshi), 如果 (rúguǒ) e 如果...的话 (rúguǒ...de huà). O conector 就 é usado para ligar a condição ao resultado, frequentemente antes do verbo principal do resultado. Para expressões hipotéticas, usamos 会 (huì) para possibilidade e 了 (le) para ações concluídas ou estados resultantes. Para indicar suposição ou contrafactualidade, usamos 了 antes do verbo ou no final da frase. Exemplo de condicional mista: 如果要是我昨天好好学习，今天就考试得第一了 (Se eu tivesse estudado bem ontem, hoje teria tirado o primeiro lugar no exame). Note que não há mudança verbal; o tempo é indicado pelos advérbios e partículas. É comum omitir 'então' (就) em registos informais. Atenção ao uso de 了: no resultado, 了 no final indica mudança de estado ou situação hipotética realizada.",
+    "concept_examples": [
+      {
+        "text": "要是你早来，就看到我了。",
+        "translation": "Se você tivesse vindo mais cedo, teria me visto.",
+        "phonetic": "yàoshi nǐ zǎo lái, jiù kàndào wǒ le."
+      },
+      {
+        "text": "如果我现在有钱，我就买那栋房子了。",
+        "translation": "Se eu tivesse dinheiro agora, teria comprado aquela casa.",
+        "phonetic": "rúguǒ wǒ xiànzài yǒu qián, wǒ jiù mǎi nà dòng fángzi le."
+      },
+      {
+        "text": "要是他当时听了我的建议，现在就不会有问题。",
+        "translation": "Se ele tivesse ouvido meu conselho naquela época, agora não haveria problemas.",
+        "phonetic": "yàoshi tā dāngshí tīng le wǒ de jiànyì, xiànzài jiù bù huì yǒu wèntí."
+      },
+      {
+        "text": "如果明天不下雨，我们就去爬山了，可惜天气预报说有雨。",
+        "translation": "Se não chovesse amanhã, teríamos ido fazer trilha, mas a previsão diz que vai chover.",
+        "phonetic": "rúguǒ míngtiān bù xià yǔ, wǒmen jiù qù páshān le, kěxī tiānqì yùbào shuō yǒu yǔ."
+      }
+    ],
+    "common_error": {
+      "wrong": "如果我昨天有时间，我去看电影。",
+      "correct": "如果我昨天有时间，我就去看电影了。",
+      "correct_alt": "要是昨天有时间，我就去看电影了。",
+      "explanation": "Muitos falantes de português esquecem de usar o marcador 了 no resultado para indicar que a ação não aconteceu (contrafactual). Em português, o subjuntivo mais o condicional são suficientes; em mandarim, a combinação de 如果/要是 com 就 e 了 no final do resultado é necessária para indicar a hipótese no passado."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "过去条件 + 现在结果",
+        "translation": "Condição no passado + resultado no presente",
+        "examples": [
+          {
+            "original": "要是他昨天没迟到，现在就不会被批评。",
+            "phonetic": "yàoshi tā zuótiān méi chídào, xiànzài jiù bù huì bèi pīpíng.",
+            "translation": "Se ele não tivesse se atrasado ontem, agora não estaria sendo criticado.",
+            "note": "A condição é no passado (昨天没迟到) e o resultado é no presente (现在就不会被批评). Use 就 + 不会 para negar o resultado hipotético."
+          },
+          {
+            "original": "如果我以前学了中文，现在我就能跟你交流了。",
+            "phonetic": "rúguǒ wǒ yǐqián xué le zhōngwén, xiànzài wǒ jiù néng gēn nǐ jiāoliú le.",
+            "translation": "Se eu tivesse aprendido chinês antes, agora eu poderia conversar com você.",
+            "note": "Note o uso de 了 após o verbo na condição para indicar ação completada, e 了 no final do resultado para indicar a mudança de estado."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "现在条件 + 过去结果",
+        "translation": "Condição no presente + resultado no passado (irreal)",
+        "examples": [
+          {
+            "original": "如果我是你，我当时就会接受那个工作。",
+            "phonetic": "rúguǒ wǒ shì nǐ, wǒ dāngshí jiù huì jiēshòu nà ge gōngzuò.",
+            "translation": "Se eu fosse você, naquela época eu teria aceitado aquele emprego.",
+            "note": "A condição é presente (我是你) e o resultado é passado (当时就会接受). A combinação é contrafactual: não sou você, então não aceitei."
+          },
+          {
+            "original": "要是我现在有车，昨天就开车去旅行了。",
+            "phonetic": "yàoshi wǒ xiànzài yǒu chē, zuótiān jiù kāichē qù lǚxíng le.",
+            "translation": "Se eu tivesse carro agora, ontem teria ido viajar de carro.",
+            "note": "Note que a condição é irreal no presente (não tenho carro), resultando numa ação passada que não aconteceu. O 了 no final indica que o resultado não ocorreu."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "未来条件 + 现在/过去结果",
+        "translation": "Condição no futuro + resultado no presente/passado (hipotético)",
+        "examples": [
+          {
+            "original": "如果明天他能来，我们现在就可以开始准备了。",
+            "phonetic": "rúguǒ míngtiān tā néng lái, wǒmen xiànzài jiù kěyǐ kāishǐ zhǔnbèi le.",
+            "translation": "Se ele puder vir amanhã, poderemos começar a nos preparar agora.",
+            "note": "Condição futura (明天他能来) com resultado imediato no presente (现在就可以开始准备). Use 可以 para indicar possibilidade."
+          },
+          {
+            "original": "要是你下个月回来，我们现在就订票了。",
+            "phonetic": "yàoshi nǐ xià ge yuè huílai, wǒmen xiànzài jiù dìng piào le.",
+            "translation": "Se você voltasse no próximo mês, já teríamos comprado os bilhetes agora.",
+            "note": "Este exemplo mistura futuro (下个月回来) com presente (现在) e o resultado usa 了 para indicar uma ação que já deveria ter sido feita hipoteticamente."
+          },
+          {
+            "original": "如果她下周有空，我就请她吃饭了，不过她可能很忙。",
+            "phonetic": "rúguǒ tā xià zhōu yǒu kòng, wǒ jiù qǐng tā chīfàn le, búguò tā kěnéng hěn máng.",
+            "translation": "Se ela tivesse tempo na próxima semana, eu a teria convidado para jantar, mas ela deve estar ocupada.",
+            "note": "Condição futura (下周有空) com resultado que se projeta no futuro (就请她吃饭了), mas a incerteza é expressa com 可能."
+          }
+        ]
+      }
+    ],
+    "emoji": "🌪️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Condicionais mistas"
+    }
+  },
+  {
+    "id": "pt_B2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "被动语态进阶 (Voz passiva avançada)",
+    "bridge": "Em português, a voz passiva é formada com 'ser' + particípio, e frequentemente usamos 'se' como partícula apassivadora. No mandarim, a estrutura clássica é '被' (bèi) + agente + verbo, mas em níveis avançados você vai encontrar formas mais sutis: '让' (ràng) e '叫' (jiào) para passivas causativas, e construções com '把' (bǎ) que mudam a ordem dos elementos. Além disso, enquanto o português usa gerúndio e infinitivo em passivas perifrásticas, o mandarim usa verbos auxiliares como '被' com complementos verbais e aspectuais. Fique atento: em português, a passiva pode omitir o agente, mas em mandarim, o agente pode ser omitido com '被' sem problema, mas a posição do advérbio e a partícula '了' mudam o sentido.",
+    "rule": "A voz passiva em mandarim é formada com '被' (bèi), '让' (ràng) ou '叫' (jiào): [sujeito] + [被/让/叫] + [agente] + [verbo] + [complemento]. '被' é usado para ações que causam impacto negativo ou neutro, enquanto '让' e '叫' têm nuances de permissão ou causação. Em nível B2, o aluno deve dominar: 1) a passiva com omissão do agente: '书被看了' (o livro foi lido); 2) a passiva com verbos modais: '这个问题能被解决' (este problema pode ser resolvido); 3) a passiva com gerúndio (embora não exista gerúndio gramatical, usam-se construções verbais - '被...着' para ações contínuas); 4) a passiva com infinitivo (usando '要' ou '会' antes do verbo passivo); 5) a passiva com '把' e '被' em construções complexas: '他把书被拿走了' não é comum, mas '书被他拿走了' é válida. A partícula '了' pode marcar aspecto completivo: '饭被吃了' (a comida foi comida)., '着' marca progressivo: '他被老师看着' (ele está sendo observado pelo professor)., '过' marca experiência: '他被骗过' (ele já foi enganado). Cuidado: advérbios de tempo e frequência vêm antes de '被', não depois. A forma negativa usa '没' para passado e '不' para presente/futuro: '他没被批评' (ele não foi criticado), '他不被喜欢' (ele não é querido).",
+    "concept_examples": [
+      {
+        "text": "这本书被他买走了。",
+        "translation": "Este livro foi comprado por ele.",
+        "phonetic": "ʈʂə pən ʂu pei tʰa mai tsou lə"
+      },
+      {
+        "text": "这个问题能被解决。",
+        "translation": "Este problema pode ser resolvido.",
+        "phonetic": "ʈʂə kə wen tʰi nəŋ pei tɕjɛ tɕyɛ"
+      },
+      {
+        "text": "他让妈妈批评了。",
+        "translation": "Ele foi criticado pela mãe (deixou a mãe criticá-lo).",
+        "phonetic": "tʰa ʐaŋ ma ma pʰi pʰiŋ lə"
+      },
+      {
+        "text": "我被他利用着。",
+        "translation": "Eu estou sendo usado por ele.",
+        "phonetic": "wo pei tʰa li juŋ ʈʂɔ"
+      }
+    ],
+    "common_error": {
+      "wrong": "他被老师很批评了。",
+      "correct": "他被老师批评得很厉害。",
+      "correct_alt": "他被老师狠狠批评了。",
+      "explanation": "Em português, 'muito' é um advérbio que modifica o verbo, mas em mandarim, quando usamos '被', o advérbio de grau não pode vir antes do verbo. Em vez disso, usamos '得' após o verbo para introduzir o complemento de grau, ou usamos '狠狠' antes do verbo. Colocar '很' antes de '批评' é um erro comum porque '很' não modifica verbos de ação diretamente sem '得'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "被动语态基本结构 (Bèi dòng yǔtài jīběn jiégòu)",
+        "translation": "Estrutura básica da voz passiva",
+        "examples": [
+          {
+            "original": "饭被吃了。",
+            "phonetic": "fan pei ʈʂʰɨ lə",
+            "translation": "A comida foi comida.",
+            "note": "Uso simples de '被' com omissão do agente. Note que '了' indica ação concluída."
+          },
+          {
+            "original": "他被我打了。",
+            "phonetic": "tʰa pei wo ta lə",
+            "translation": "Ele foi batido por mim.",
+            "note": "Atenção: a ordem é [sujeito] + 被 + [agente] + verbo. Em português, o agente vem depois do verbo."
+          },
+          {
+            "original": "这个字被写错了。",
+            "phonetic": "ʈʂə kə tsɨ pei ɕjɛ tsʰwo lə",
+            "translation": "Esta palavra foi escrita errada.",
+            "note": "Aqui o complemento '错' (errado) fica após o verbo, pois é um complemento resultativo. Não se usa '被' com verbo + advérbio como em português."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "被动与情态动词 (Bèi dòng yǔ qíngtài dòngcí)",
+        "translation": "Voz passiva com verbos modais",
+        "examples": [
+          {
+            "original": "这个问题可以被解决。",
+            "phonetic": "ʈʂə kə wen tʰi kʰə i pei tɕjɛ tɕyɛ",
+            "translation": "Este problema pode ser resolvido.",
+            "note": "'可以' (poder) precede '被'. Em português, o modal vem antes do verbo passivo, mas em mandarim, o modal vem antes de '被'."
+          },
+          {
+            "original": "他应该被尊重。",
+            "phonetic": "tʰa iŋ kai pei tsun ʈʂuŋ",
+            "translation": "Ele deve ser respeitado.",
+            "note": "O modal '应该' (dever) é colocado antes de '被', e o verbo final não leva '了' porque é uma obrigação geral."
+          },
+          {
+            "original": "这件事不能被忘记。",
+            "phonetic": "ʈʂə tɕjɛn ʂɨ pu nəŋ pei waŋ tɕi",
+            "translation": "Esta coisa não pode ser esquecida.",
+            "note": "A negação '不' vem antes de '能', não antes de '被'. Cuidado para não colocar '不' depois de '被'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "被动与进行/状态 (Bèi dòng yǔ jìnxíng/zhuàngtài)",
+        "translation": "Passiva com aspecto contínuo/estativo",
+        "examples": [
+          {
+            "original": "他正在被老师看着。",
+            "phonetic": "tʰa ʈʂəŋ tsai pei lau ʂɨ kʰan ʈʂɔ",
+            "translation": "Ele está sendo observado pelo professor agora.",
+            "note": "Use '正在' (estar no meio de) antes de '被' para indicar ação em andamento. Depois do verbo, use '着' para duratividade."
+          },
+          {
+            "original": "书被放在桌子上。",
+            "phonetic": "ʂu pei faŋ tsai ʈʂwɔ tsɨ ʂaŋ",
+            "translation": "O livro foi colocado sobre a mesa.",
+            "note": "Aqui, '在' + locativo funciona como complemento resultativo, indicando estado após a ação passiva. Não se usa '着' aqui."
+          },
+          {
+            "original": "他被关在房间里了。",
+            "phonetic": "tʰa pei kuan tsai faŋ tɕien li lə",
+            "translation": "Ele foi trancado no quarto.",
+            "note": "A combinação '被 + verbo + 在...里' expressa um estado resultante. O '了' no final indica mudança de estado."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "pt": "Voz passiva avançada"
+    }
+  },
+  {
+    "id": "pt_B2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Advanced reported speech / Estilo indirecto avanzado",
+    "bridge": "Em português, o discurso indireto envolve mudanças de tempo verbal, pronomes e advérbios (ex: 'disse que viria'). Em mandarim, não há conjugação verbal; a mudança de tempo é marcada por contexto ou partículas como 了. O principal desafio é que o mandarim usa a mesma estrutura sintática para discurso direto e indireto, mas depende de verbos como 说/告诉 e de como adaptar pronomes e expressões temporais, que muitas vezes são omitidas ou alteradas. Além disso, partículas modais como 吗, 呢 e 吧 precisam ser convertidas de forma específica para manter a intenção original.",
+    "rule": "No mandarim, o discurso indireto (间接引语) não requer mudança de tempo verbal, mas exige atenção a: (1) Verbos introdutórios: 说 (shuō) para 'dizer', 告诉 (gàosu) para 'contar a alguém', 问 (wèn) para 'perguntar', 回答 (huídá) para 'responder'. (2) Pronomes: adaptar conforme o ponto de vista do narrador (ex: 我 vira 他/她). (3) Partículas interrogativas: para perguntas sim-não, usa-se 是否 (shìfǒu) (formal) ou mantém-se a estrutura com 吗, mas frequentemente converte-se para 是否 ou repete a frase sem partícula. Para perguntas com palavra interrogativa, mantém-se a palavra. (4) Expressões temporais e locativas: não mudam obrigatoriamente como em português, mas podem ser reajustadas para o contexto (ex: 明天 amanhã pode virar 第二天 se o tempo passou). (5) Verbos modais: 要 (yào), 能 (néng), 会 (huì) mantêm-se, mas a intenção (ordem, pedido) pode ser marcada com 叫 (jiào) ou 让 (ràng). (6) Discurso indireto para ordens: verbo + 叫/让 + pessoa + ação (ex: 他叫我关门 - Ele me mandou fechar a porta). Para pedidos, usa-se 请 (qǐng). Atenção: 说 e 告诉 não são intercambiáveis; 说 não exige objeto indireto, 告诉 exige (ex: 他对我说, não 他告诉我说). Exceções: em contextos informais, usa-se 说 com estrutura '他说……' mesmo para perguntas.",
+    "concept_examples": [
+      {
+        "text": "他说他明天会来。",
+        "translation": "Ele disse que viria amanhã.",
+        "phonetic": "tā shuō tā míngtiān huì lái."
+      },
+      {
+        "text": "她告诉我她喜欢这本书。",
+        "translation": "Ela me contou que gosta deste livro.",
+        "phonetic": "tā gàosu wǒ tā xǐhuan zhè běn shū."
+      },
+      {
+        "text": "我问了他是否愿意帮助我们。",
+        "translation": "Perguntei a ele se estava disposto a nos ajudar.",
+        "phonetic": "wǒ wèn le tā shìfǒu yuànyì bāngzhù wǒmen."
+      },
+      {
+        "text": "妈妈叫我不要迟到。",
+        "translation": "Minha mãe me mandou não me atrasar.",
+        "phonetic": "māma jiào wǒ búyào chídào."
+      }
+    ],
+    "common_error": {
+      "wrong": "他告诉我说他要去商店. (Ele me disse que vai à loja)",
+      "correct": "他告诉我他要去商店。",
+      "correct_alt": "他对我说他要去商店。",
+      "explanation": "Erro comum devido à influência do português 'disse-me que'. Em mandarim, 告诉 já inclui o objeto indireto e o conteúdo; adicionar 说 é redundante. Alternativamente, use 对...说. Evite combinar 告诉 com 说."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Declarações indiretas",
+        "translation": "Declarações indiretas",
+        "examples": [
+          {
+            "original": "他说他喜欢喝茶。",
+            "phonetic": "tā shuō tā xǐhuan hē chá.",
+            "translation": "Ele disse que gosta de beber chá.",
+            "note": "Use 说 para declarar sem objeto indireto."
+          },
+          {
+            "original": "她告诉我她明天有空。",
+            "phonetic": "tā gàosu wǒ tā míngtiān yǒu kòng.",
+            "translation": "Ela me contou que estará livre amanhã.",
+            "note": "告诉 exige objeto indireto; note que o pronome 她 aparece duas vezes para clareza."
+          },
+          {
+            "original": "他说他不想去。",
+            "phonetic": "tā shuō tā bù xiǎng qù.",
+            "translation": "Ele disse que não queria ir.",
+            "note": "O tempo passado é inferido pelo contexto, sem mudança de forma verbal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Perguntas indiretas",
+        "translation": "Perguntas indiretas",
+        "examples": [
+          {
+            "original": "他问我要不要一起去。",
+            "phonetic": "tā wèn wǒ yào bú yào yìqǐ qù.",
+            "translation": "Ele perguntou se eu queria ir junto.",
+            "note": "Para perguntas sim-não, use '要不要' (informal) ou '是否' (formal)."
+          },
+          {
+            "original": "她问我什么时候回来。",
+            "phonetic": "tā wèn wǒ shénme shíhou huílái.",
+            "translation": "Ela perguntou quando eu voltaria.",
+            "note": "Palavras interrogativas mantêm-se, sem inversão como no português."
+          },
+          {
+            "original": "我想知道他是否已经到达。",
+            "phonetic": "wǒ xiǎng zhīdào tā shìfǒu yǐjīng dàodá.",
+            "translation": "Quero saber se ele já chegou.",
+            "note": "Em contextos mais formais ou escritos, usa-se 是否 em vez de repetir verbo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ordens, pedidos e conselhos indiretos",
+        "translation": "Ordens, pedidos e conselhos indiretos",
+        "examples": [
+          {
+            "original": "他叫我马上离开。",
+            "phonetic": "tā jiào wǒ mǎshàng líkāi.",
+            "translation": "Ele me mandou ir embora imediatamente.",
+            "note": "叫 (jiào) é usado para ordens; o objeto é o receptor da ordem."
+          },
+          {
+            "original": "他请我帮他一个忙。",
+            "phonetic": "tā qǐng wǒ bāng tā yí ge máng.",
+            "translation": "Ele me pediu para fazer um favor a ele.",
+            "note": "请 (qǐng) é mais polido e indica pedido."
+          },
+          {
+            "original": "她建议我多看中文电影。",
+            "phonetic": "tā jiànyì wǒ duō kàn Zhōngwén diànyǐng.",
+            "translation": "Ela me aconselhou a assistir mais filmes chineses.",
+            "note": "O verbo 建议 (jiànyì) + objeto + ação; não requer preposição."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Estilo indireto avançado"
+    }
+  },
+  {
+    "id": "pt_B2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "强调性倒装 / Inversão para Ênfase",
+    "bridge": "Em português, usamos estruturas como 'Não só... mas também' ou 'Raramente' no início da frase, muitas vezes com inversão do sujeito e verbo. Em mandarim, não existe inversão sintática para ênfase; em vez disso, usamos partículas e construções como '不但...而且...' e '很少' para indicar ênfase. O falante de português precisa entender que a ênfase em mandarim é marcada por palavras e ordem fixa, não por reordenação de frases.",
+    "rule": "Em mandarim, a ênfase em 'não só... mas também' é expressa pela construção 不但...而且... (bùdàn... érqiě...), que pode ser usada com verbos e adjetivos. Para 'raramente', usamos 很少 (hěn shǎo) antes do verbo, ou 几乎不 (jīhū bù) para 'quase não'. Não há inversão sujeito-verbo; a estrutura da frase permanece SVO. Outras formas de ênfase incluem o uso de 是...的 (shì... de) para destacar um elemento específico, e o advérbio 才 (cái) para ênfase em tempo ou circunstância. É importante não tentar traduzir literalmente a inversão portuguesa, mas sim usar as construções próprias do mandarim.",
+    "concept_examples": [
+      {
+        "text": "我不但会说英语，而且会说汉语。",
+        "translation": "Não só falo inglês, mas também falo chinês.",
+        "phonetic": "wǒ bùdàn huì shuō yīngyǔ, érqiě huì shuō hànyǔ."
+      },
+      {
+        "text": "他很少迟到。",
+        "translation": "Ele raramente se atrasa.",
+        "phonetic": "tā hěn shǎo chídào."
+      },
+      {
+        "text": "我几乎不喝咖啡。",
+        "translation": "Eu quase não bebo café.",
+        "phonetic": "wǒ jīhū bù hē kāfēi."
+      },
+      {
+        "text": "是昨天他告诉我的。",
+        "translation": "Foi ontem que ele me contou.",
+        "phonetic": "shì zuótiān tā gàosu wǒ de."
+      }
+    ],
+    "common_error": {
+      "wrong": "*Raramente ele vem à festa. (tradução literal: 很少他来参加聚会)",
+      "correct": "他很少来参加聚会。",
+      "correct_alt": "他几乎不来参加聚会。",
+      "explanation": "O erro ocorre porque o falante tenta transferir a inversão do português ('Raramente ele vem') para o mandarim, colocando o advérbio no início da frase. No entanto, em mandarim, o advérbio 很少 deve vir antes do verbo, e a ordem da frase permanece Sujeito-Advérbio-Verbo. Para evitar esse erro, lembre-se de que a ênfase em mandarim é feita com partículas e posições fixas, não com inversão."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "不但...而且...",
+        "translation": "Não só... mas também...",
+        "examples": [
+          {
+            "original": "他不但聪明，而且努力。",
+            "phonetic": "tā bùdàn cōngmíng, érqiě nǔlì.",
+            "translation": "Ele não só é inteligente, mas também é esforçado.",
+            "note": "Esta construção é usada para enfatizar duas qualidades ou ações. Atenção à ordem: 不但 vem antes do primeiro item, 而且 antes do segundo."
+          },
+          {
+            "original": "我不但喜欢唱歌，而且喜欢跳舞。",
+            "phonetic": "wǒ bùdàn xǐhuān chànggē, érqiě xǐhuān tiàowǔ.",
+            "translation": "Eu não só gosto de cantar, mas também gosto de dançar.",
+            "note": "Ambas as cláusulas mantêm a mesma estrutura, sem inversão."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "很少 / 几乎不",
+        "translation": "Raramente / Quase não",
+        "examples": [
+          {
+            "original": "她很少看电视。",
+            "phonetic": "tā hěn shǎo kàn diànshì.",
+            "translation": "Ela raramente assiste TV.",
+            "note": "很少 é usado antes do verbo para indicar baixa frequência. Não há inversão."
+          },
+          {
+            "original": "我几乎不喝酒。",
+            "phonetic": "wǒ jīhū bù hē jiǔ.",
+            "translation": "Eu quase não bebo álcool.",
+            "note": "几乎不 (jīhū bù) é uma forma mais forte de negação, equivalente a 'quase nunca'."
+          },
+          {
+            "original": "他几乎不迟到。",
+            "phonetic": "tā jīhū bù chídào.",
+            "translation": "Ele quase nunca se atrasa.",
+            "note": "A estrutura é: sujeito + 几乎不 + verbo. Não coloque 几乎 no início da frase."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "是...的",
+        "translation": "Ênfase com 是...的",
+        "examples": [
+          {
+            "original": "我是昨天到的。",
+            "phonetic": "wǒ shì zuótiān dào de.",
+            "translation": "Foi ontem que eu cheguei.",
+            "note": "Esta estrutura é usada para enfatizar o tempo, lugar ou maneira de uma ação. Coloque 是 antes do elemento enfatizado e 的 no final da frase."
+          },
+          {
+            "original": "他是坐飞机去北京的。",
+            "phonetic": "tā shì zuò fēijī qù Běijīng de.",
+            "translation": "Foi de avião que ele foi para Pequim.",
+            "note": "Aqui, a ênfase é no meio de transporte. Note que o verbo principal fica no passado sem partícula 了, pois 的 marca a ação concluída."
+          },
+          {
+            "original": "我是在中国学的汉语。",
+            "phonetic": "wǒ shì zài Zhōngguó xué de Hànyǔ.",
+            "translation": "Foi na China que eu aprendi chinês.",
+            "note": "Esta construção é comum para destacar o local. Não confunda com a voz passiva."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "pt": "Inversão para Ênfase"
+    }
+  },
+  {
+    "id": "pt_B2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "强调句式 (It is/was... that)",
+    "bridge": "Em português, usamos construções como 'é... que' ou 'foi... que' para destacar um elemento da frase. Em chinês, a estrutura equivalente é '是...的' (shì... de), mas há diferenças importantes: a ordem das palavras e o uso de '的' no final. Enquanto em português a construção é opcional e estilística, em chinês ela é obrigatória em certos contextos para enfatizar o tempo, o lugar ou o agente da ação. Cuidado: não confundir com a partícula '的' possessiva ou nominalizadora.",
+    "rule": "A construção de ênfase em chinês usa '是' (shì) no início do elemento enfatizado e '的' (de) no final da frase (ou após o verbo). A estrutura básica é: [Sujeito] + 是 + [elemento enfatizado] + [verbo] + [complemento] + 的. Para negar, usa-se '不是...的'. Essa construção é usada para responder a perguntas que pedem informações específicas (quem, quando, onde, como). Em português, a ênfase é feita por entonação ou por 'é que', mas em chinês é uma estrutura gramatical fixa. Exemplos: 他是昨天来的 (tā shì zuótiān lái de) = 'Ele veio ontem' (enfatizando 'ontem'). Observação: o verbo deve ser transitivo ou de movimento; se o verbo for estativo, pode-se omitir '的' em alguns dialetos, mas no mandarim padrão, é obrigatório. Também é comum usar '是...的' para destacar o passado, mas não é exclusivo do passado (embora a maioria dos usos seja com ações passadas).",
+    "concept_examples": [
+      {
+        "text": "他是昨天来的。",
+        "translation": "Ele veio ontem.",
+        "phonetic": "[tʰa ʂɨ̌ t͡su̯ɔ tʰjɛn lai̯ tə]"
+      },
+      {
+        "text": "我是坐飞机去北京的。",
+        "translation": "Eu fui para Pequim de avião.",
+        "phonetic": "[u̯ɔ ʂɨ̌ t͡su̯ɔ fɛi̯ t͡ɕi t͡ɕʰy pɛi̯ t͡ɕiŋ tə]"
+      },
+      {
+        "text": "她不是在图书馆学习的。",
+        "translation": "Ela não estudou na biblioteca.",
+        "phonetic": "[tʰa pu ʂɨ̌ t͡saɪ̯ tʰu ʃu kuan ɕy̯ɛ ɕi tə]"
+      },
+      {
+        "text": "这本书是我买的。",
+        "translation": "Este livro foi eu quem comprei.",
+        "phonetic": "[t͡ʂɤ pən ʃu ʂɨ̌ u̯ɔ mai̯ tə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "他昨天来了。",
+      "correct": "他是昨天来的。",
+      "correct_alt": "",
+      "explanation": "Em português, a ênfase é feita pela entonação, então o aprendiz tende a omitir a estrutura '是...的'. A frase '他昨天来了' é gramaticalmente correta, mas não enfatiza que foi 'ontem'. Para destacar o tempo, lugar ou agente, o chinês exige a construção '是...的'. Evite omitir '是' e '的' quando a intenção é enfatizar."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本结构",
+        "translation": "Estrutura básica",
+        "examples": [
+          {
+            "original": "我是老师。",
+            "phonetic": "[u̯ɔ ʂɨ̌ lau̯ ʂɨ]",
+            "translation": "Eu sou professor.",
+            "note": "Aqui '是' é usado como cópula, não como ênfase. A estrutura de ênfase requer '...的' no final."
+          },
+          {
+            "original": "他是昨天到的。",
+            "phonetic": "[tʰa ʂɨ̌ t͡su̯ɔ tʰjɛn tau̯ tə]",
+            "translation": "Ele chegou ontem.",
+            "note": "Enfatiza 'ontem' como o tempo da ação."
+          },
+          {
+            "original": "这本书是中文的。",
+            "phonetic": "[t͡ʂɤ pən ʃu ʂɨ̌ t͡ʂuŋ u̯ən tə]",
+            "translation": "Este livro é em chinês.",
+            "note": "Aqui '的' é nominalizador, não a construção de ênfase. Atenção ao contexto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "强调时间与地点",
+        "translation": "Enfatizando tempo e lugar",
+        "examples": [
+          {
+            "original": "我们是在北京见面的。",
+            "phonetic": "[u̯ɔ mən ʂɨ̌ t͡saɪ̯ pɛi̯ t͡ɕiŋ t͡ɕjɛn mjɛn tə]",
+            "translation": "Nós nos encontramos em Pequim.",
+            "note": "A ênfase está em 'em Pequim', o local do encontro."
+          },
+          {
+            "original": "他是去年开始学中文的。",
+            "phonetic": "[tʰa ʂɨ̌ t͡ɕʰy njɛn kʰai̯ ʂɨ̌ ɕy̯ɛ t͡ʂuŋ u̯ən tə]",
+            "translation": "Ele começou a estudar chinês no ano passado.",
+            "note": "Enfatiza 'ano passado' como o momento de início."
+          },
+          {
+            "original": "她是在上海出生的。",
+            "phonetic": "[tʰa ʂɨ̌ t͡saɪ̯ ʂaŋ xai̯ t͡ʂʰu ʂəŋ tə]",
+            "translation": "Ela nasceu em Xangai.",
+            "note": "Uso comum para enfatizar o local de nascimento."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "强调方式与原因",
+        "translation": "Enfatizando modo e razão",
+        "examples": [
+          {
+            "original": "我是走路去学校的。",
+            "phonetic": "[u̯ɔ ʂɨ̌ t͡su̯ou̯ lu̯a t͡ɕʰy ɕy̯ɛ ɕi̯au̯ tə]",
+            "translation": "Eu fui para a escola a pé.",
+            "note": "Enfatiza o modo (a pé) como a maneira de ir."
+          },
+          {
+            "original": "他是因为生病没来的。",
+            "phonetic": "[tʰa ʂɨ̌ in̯ u̯ei̯ ʂəŋ piŋ mei̯ lai̯ tə]",
+            "translation": "Ele não veio porque estava doente.",
+            "note": "Enfatiza a razão (doença) para não ter vindo."
+          },
+          {
+            "original": "这个问题是老师解决的。",
+            "phonetic": "[t͡ʂɤ u̯ən tʰi ʂɨ̌ lau̯ ʂɨ t͡ɕjɛ t͡ɕy̯e tə]",
+            "translation": "Este problema foi resolvido pelo professor.",
+            "note": "Enfatiza o agente (o professor) que resolveu o problema."
+          },
+          {
+            "original": "我们是用筷子吃饭的。",
+            "phonetic": "[u̯ɔ mən ʂɨ̌ juŋ kʰu̯ai̯ t͡sɨ t͡ʂʰɨ fan tə]",
+            "translation": "Nós comemos com pauzinhos.",
+            "note": "Enfatiza o instrumento (pauzinhos) usado para comer."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔍",
+    "phonetic": "",
+    "translations": {
+      "pt": "Construções enfáticas (é... que)"
+    }
+  },
+  {
+    "id": "pt_B2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "名词化 (Nominalização)",
+    "bridge": "Em português, usamos sufixos como -ção, -mento, -dade para transformar verbos e adjetivos em substantivos (ex.: 'decidir' → 'decisão', 'feliz' → 'felicidade'). Em chinês, a nominalização é feita de forma diferente: muitas vezes o verbo ou adjetivo permanece igual, mas é usado em posição de sujeito ou objeto, ou com a partícula 的 (de) para adjetivos. Você precisa prestar atenção à ordem das palavras e ao uso de 的, pois o português frequentemente exige um sufixo, enquanto o chinês pode simplesmente usar a forma original. Um erro comum é tentar criar uma palavra nova com sufixo, o que não funciona em chinês.",
+    "rule": "Em chinês, a nominalização pode ocorrer de várias formas:\n1. Verbos e adjetivos podem ser usados diretamente como substantivos em contextos apropriados, especialmente em posição de sujeito ou objeto. Ex.: 学习 (xuéxí) 'estudar' pode significar 'estudo' quando usado como sujeito: 学习很重要 (xuéxí hěn zhòngyào) 'Estudar é importante'.\n2. A partícula 的 (de) pode ser usada após adjetivos ou frases para criar nominalizações, muitas vezes equivalente a 'o que é...' ou 'aquele que...' em português. Ex.: 美丽的 (měilì de) 'o belo', 吃的 (chī de) 'coisa para comer'.\n3. Com certos sufixos que formam substantivos, como 化 (huà) para 'ação de tornar-se', 性 (xìng) para 'qualidade', 度 (dù) para 'grau', mas estes são menos usados do que em português. Ex.: 现代化 (xiàndàihuà) 'modernização', 可能性 (kěnéngxìng) 'possibilidade'.\n4. Em muitos casos, o contexto determina se uma palavra é verbo ou substantivo, sem mudança de forma. B2 exige reconhecer e usar essas nominalizações naturalmente, especialmente em contextos formais e acadêmicos.",
+    "concept_examples": [
+      {
+        "text": "学习是很重要的。",
+        "translation": "Estudar é muito importante.",
+        "phonetic": "/ɕɥɛ˧˥ɕi˧˥ ʂɻ̩˥˩ xɤn˨˩˦ ʈʂʊŋ˥˩jɑʊ̯˥˩ tɤ˧/"
+      },
+      {
+        "text": "他的成功让我很高兴。",
+        "translation": "O sucesso dele me deixou muito feliz.",
+        "phonetic": "/tʰa˥˥ tɤ˧ ʈʂʰɤŋ˧˥kʊŋ˥˥ ʐɑŋ˥˩ u̯ɔ˨˩˦ xɤn˨˩˦ kɑʊ̯˥˥ɕiŋ˥˩/"
+      },
+      {
+        "text": "我们讨论了这个问题的重要性。",
+        "translation": "Nós discutimos a importância deste problema.",
+        "phonetic": "/u̯ɔ˨˩˦mən tʰɑʊ̯˨˩˦lʊn˥˩ lɤ˧ ʈʂɤ˥˩ kɤ˥˩ u̯ən˥˩tʰi˧˥ tɤ˧ ʈʂʊŋ˥˩jɑʊ̯˥˩ɕiŋ˥˩/"
+      },
+      {
+        "text": "做决定之前要好好考虑。",
+        "translation": "Antes de tomar uma decisão, é preciso pensar bem.",
+        "phonetic": "/tsu̯ɔ˥˩ tɕɥɛ˧˥tiŋ˥˩ ʈʂɻ̩˥˩ tɕʰjɛn˧˥ jɑʊ̯˥˩ xɑʊ̯˨˩˦xɑʊ̯˨˩˦ kʰɑʊ̯˨˩˦lɥ˥˩/"
+      }
+    ],
+    "common_error": {
+      "wrong": "他的成功性让我很高兴。",
+      "correct": "他的成功让我很高兴。",
+      "correct_alt": "他的成功让我很高兴。",
+      "explanation": "Em português, usamos sufixos para nominalizar adjetivos, como 'feliz' → 'felicidade'. Em chinês, adjetivos como 成功 (chénggōng) 'bem-sucedido' já podem funcionar como substantivo 'sucesso' sem sufixo. Adicionar 性 (xìng) é um erro comum para alunos que transferem o padrão do português. Lembre-se que muitos adjetivos chineses podem ser usados diretamente como substantivos, especialmente em contextos abstratos. Use 性 apenas quando for necessário para clareza ou em termos técnicos, como 可能性 (possibilidade)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "动词直接名词化",
+        "translation": "Nominalização direta de verbos",
+        "examples": [
+          {
+            "original": "读书是一种享受。",
+            "phonetic": "/tu˧˥ʂu˥˥ ʂɻ̩˥˩ i˥˥ʈʂʊŋ˨˩˦ ɕjɑŋ˨˩˦ʂoʊ̯˥˩/",
+            "translation": "Ler é um prazer.",
+            "note": "O verbo 读书 (dúshū) 'ler' é usado como sujeito, equivalente a 'a leitura' ou 'ler' como substantivo."
+          },
+          {
+            "original": "游泳对身体很好。",
+            "phonetic": "/i̯oʊ̯˧˥jʊŋ˨˩˦ tu̯ei̯˥˩ ʂən˥˥tʰi˨˩˦ xɤn˨˩˦ xɑʊ̯˨˩˦/",
+            "translation": "Nadar é muito bom para a saúde.",
+            "note": "O verbo 游泳 (yóuyǒng) 'nadar' é usado como sujeito, como um substantivo."
+          },
+          {
+            "original": "他的建议很有用。",
+            "phonetic": "/tʰa˥˥ tɤ˧ tɕjɛn˥˩tɕi˥˩ xɤn˨˩˦ i̯oʊ̯˨˩˦ jʊŋ˥˩/",
+            "translation": "A sugestão dele é muito útil.",
+            "note": "O verbo 建议 (jiànyì) 'sugerir' é usado como substantivo 'sugestão' sem mudança de forma."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "形容词加“的”名词化",
+        "translation": "Nominalização de adjetivos com 'de'",
+        "examples": [
+          {
+            "original": "我喜欢新鲜的。",
+            "phonetic": "/u̯ɔ˨˩˦ ɕi˨˩˦xu̯ɑn˥˥ ɕin˥˥ɕjɛn˥˥ tɤ˧/",
+            "translation": "Eu gosto do fresco.",
+            "note": "Aqui 新鲜的 (xīnxiān de) nominaliza o adjetivo 'fresco' para significar 'coisa fresca'."
+          },
+          {
+            "original": "这些书都是新的，那些是旧的。",
+            "phonetic": "/ʈʂɤ˥˩ɕjɛ˥˥ ʂu˥˥ tʊ˥˥ ʂɻ̩˥˩ ɕin˥˥ tɤ˧， nɑ˥˩ɕjɛ˥˥ ʂɻ̩˥˩ tɕi̯oʊ̯˥˩ tɤ˧/",
+            "translation": "Estes livros são todos novos, aqueles são velhos.",
+            "note": "Os adjetivos 新的 (xīn de) e 旧的 (jiù de) são usados como substantivos para 'os novos' e 'os velhos'."
+          },
+          {
+            "original": "你说的很有道理。",
+            "phonetic": "/ni˨˩˦ ʂu̯ɔ˥˥ tɤ˧ xɤn˨˩˦ i̯oʊ̯˨˩˦ tɑʊ̯˥˩li˨˩˦/",
+            "translation": "O que você disse faz muito sentido.",
+            "note": "A frase 你说的 (nǐ shuō de) é uma nominalização de uma oração, significando 'o que você disse'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "常用名词化后缀",
+        "translation": "Sufixos comuns de nominalização",
+        "examples": [
+          {
+            "original": "这种药的副作用很大。",
+            "phonetic": "/ʈʂɤ˥˩ʈʂʊŋ˨˩˦ jɑʊ̯˥˩ tɤ˧ fu˥˩t͡su̯ɔ˥˩jʊŋ˥˩ xɤn˨˩˦ tɑ˥˩/",
+            "translation": "Os efeitos colaterais deste remédio são grandes.",
+            "note": "O sufixo 用 (yòng) em 副作用 (fùzuòyòng) indica 'efeito', nominalização de um verbo."
+          },
+          {
+            "original": "他的主动性很强。",
+            "phonetic": "/tʰa˥˥ tɤ˧ ʈʂu˨˩˦tʊŋ˥˩ɕiŋ˥˩ xɤn˨˩˦ tɕʰjɑŋ˧˥/",
+            "translation": "A iniciativa dele é muito forte.",
+            "note": "O sufixo 性 (xìng) transforma o adjetivo 主动 (zhǔdòng) 'proativo' em 'proatividade'."
+          },
+          {
+            "original": "我们需要提高工作效率。",
+            "phonetic": "/u̯ɔ˨˩˦mən ɕy˥˥jɑʊ̯˥˩ tʰi˧˥kɑʊ̯˥˥ kʊŋ˥˥t͡su̯ɔ˥˩ ɕjɑʊ̯˥˩lɥ˥˩/",
+            "translation": "Precisamos aumentar a eficiência do trabalho.",
+            "note": "O sufixo 率 (lǜ) é usado para formar 'taxa' ou 'índice', como em 效率 (xiàolǜ) 'eficiência'."
+          },
+          {
+            "original": "现代教育注重培养学生的创造力。",
+            "phonetic": "/ɕjɛn˥˩tɑɪ̯˥˩ tɕjɑʊ̯˥˩jɥ˥˩ ʈʂu˥˩ʈʂʊŋ˧˥ pʰeɪ̯˧˥jɑŋ˨˩˦ ɕy̯ɛ˧˥ʃɤŋ˥˥ tɤ˧ ʈʂʰu̯ɑŋ˥˩t͡sɑʊ̯˥˩lɥ˥˩/",
+            "translation": "A educação moderna enfatiza o cultivo da criatividade dos estudantes.",
+            "note": "O sufixo 力 (lì) é usado para formar substantivos abstratos como 'criatividade' (创造力)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "pt": "Nominalização"
+    }
+  },
+  {
+    "id": "pt_B2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "高级情态动词 (Modais avançados: teria feito, deveria ter feito)",
+    "bridge": "Em português, você usa o condicional composto (teria feito) e o pretérito mais-que-perfeito do subjuntivo (tivesse feito) para expressar hipóteses e arrependimentos. Em mandarim, esses significados são transmitidos principalmente por advérbios e partículas modais, como 会 (huì) para 'teria', 应该 (yīnggāi) para 'deveria', e 要是...就好了 (yàoshi...jiù hǎo le) para expressar desejos irreais. A principal armadilha é que o mandarim não flexiona o verbo para tempo; o contexto e as partículas de aspecto (了, 过) indicam a temporalidade. Além disso, a ordem das palavras muda: em chinês, o advérbio modal vem antes do verbo, e a partícula 了 vai no final da frase para indicar mudança ou realização. Os brasileiros tendem a usar 了 como se fosse o 'teria' do português, o que causa confusão.",
+    "rule": "Em mandarim, os modais avançados são expressos por combinações de verbos modais (会 huì, 应该 yīnggāi, 可能 kěnéng, 要 yào) com o advérbio 已经 (yǐjīng, 'já') e a partícula 了 (le) no final da frase para indicar uma ação completada ou uma situação hipotética. Para expressar 'teria feito' (condicional perfeito), use 会 + verbo + 了, frequentemente em frases condicionais com 如果 (rúguǒ, 'se') ou 要是 (yàoshi, 'se'). Exemplo: 如果我有时间，我就会去了。(Se eu tivesse tempo, eu teria ido.) Para 'deveria ter feito' (obrigação não cumprida), use 应该 + verbo + 了, muitas vezes com um tom de crítica ou arrependimento. Exemplo: 你应该早点告诉我。(Você deveria ter me contado antes.) Para 'poderia ter feito' (possibilidade não realizada), use 可以 (kěyǐ) ou 能 (néng) + verbo + 了. Exemplo: 他本可以成功的。(Ele poderia ter tido sucesso.) A partícula 了 é crucial: sem ela, a frase é interpretada como presente ou futuro. Cuidado com a posição: o modal vem antes do verbo, e 了 vai no final da oração. Em frases com 要是...就好了, a estrutura expressa um desejo irreal sobre o passado: 要是我去了就好了 (Se eu tivesse ido, teria sido ótimo).",
+    "concept_examples": [
+      {
+        "text": "如果我知道，我就会帮你。",
+        "translation": "Se eu soubesse, eu teria ajudado você.",
+        "phonetic": "rúguǒ wǒ zhīdào, wǒ jiù huì bāng nǐ"
+      },
+      {
+        "text": "你应该早点告诉我的。",
+        "translation": "Você deveria ter me contado antes.",
+        "phonetic": "nǐ yīnggāi zǎodiǎn gàosu wǒ de"
+      },
+      {
+        "text": "要是我们昨天去了就好了。",
+        "translation": "Se tivéssemos ido ontem, teria sido ótimo.",
+        "phonetic": "yàoshi wǒmen zuótiān qù le jiù hǎo le"
+      },
+      {
+        "text": "他可能已经忘了。",
+        "translation": "Ele pode ter esquecido.",
+        "phonetic": "tā kěnéng yǐjīng wàng le"
+      }
+    ],
+    "common_error": {
+      "wrong": "如果我有时，我去。",
+      "correct": "如果我有时间，我就会去。",
+      "correct_alt": "要是我有时间，我就去了。",
+      "explanation": "Em português, o condicional 'teria' é uma desinência verbal, mas em chinês é necessário usar o modal 会 (huì) antes do verbo. Esquecer 会 faz a frase soar como presente ('se eu tenho tempo, eu vou'), perdendo a hipótese. Além disso, a partícula 了 no final (em '我就去了') pode reforçar a ideia de ação completada, especialmente em contextos de arrependimento. É importante lembrar que a estrutura condicional em chinês é: 如果/要是 + condição, + 就 + modal + verbo + (了)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "会 + 了 (teria feito)",
+        "translation": "Teria feito (condicional perfeito)",
+        "examples": [
+          {
+            "original": "如果我是你，我就会接受那个工作。",
+            "phonetic": "rúguǒ wǒ shì nǐ, wǒ jiù huì jiēshòu nà gè gōngzuò",
+            "translation": "Se eu fosse você, eu teria aceitado aquele emprego.",
+            "note": "Observe a estrutura: 如果 (se) + condição, + 就 (então) + 会 (teria) + verbo + 了 (partícula de completude). Aqui, 了 pode ser omitido se o contexto for claro, mas é comum usá-lo."
+          },
+          {
+            "original": "她要是知道，一定会生气。",
+            "phonetic": "tā yàoshi zhīdào, yīdìng huì shēngqì",
+            "translation": "Se ela soubesse, ela teria ficado brava.",
+            "note": "Com 要是 (se), a frase é mais coloquial. 一定 (yīdìng) reforça a certeza da hipótese."
+          },
+          {
+            "original": "我们没有钱，不然就会买那栋房子了。",
+            "phonetic": "wǒmen méiyǒu qián, bùrán jiù huì mǎi nà dòng fángzi le",
+            "translation": "Não tínhamos dinheiro, senão teríamos comprado aquela casa.",
+            "note": "Aqui, 不然 (senão) introduz uma alternativa não realizada. O 了 no final marca a situação hipotética concluída."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "应该 + 了 (deveria ter feito)",
+        "translation": "Deveria ter feito (obrigação não cumprida)",
+        "examples": [
+          {
+            "original": "你应该早点跟我说。",
+            "phonetic": "nǐ yīnggāi zǎodiǎn gēn wǒ shuō",
+            "translation": "Você deveria ter me falado mais cedo.",
+            "note": "A estrutura 应该 + verbo expressa conselho ou crítica. Sem 了, a frase seria 'você deveria me falar mais cedo' (futuro), então o contexto determina o tempo."
+          },
+          {
+            "original": "他不应该那么做的。",
+            "phonetic": "tā bù yīnggāi nàme zuò de",
+            "translation": "Ele não deveria ter feito aquilo.",
+            "note": "A negação é formada com 不 (bù) antes de 应该. A partícula 的 (de) no final adiciona ênfase, como um 'mesmo' em português."
+          },
+          {
+            "original": "我应该多学习中文。",
+            "phonetic": "wǒ yīnggāi duō xuéxí zhōngwén",
+            "translation": "Eu deveria ter estudado mais chinês. (Em contexto passado)",
+            "note": "Sem contexto, a frase pode significar 'eu deveria estudar mais chinês' (presente/futuro). Para deixar claro o passado, adicione 了 no final: 我应该多学习中文了, mas cuidado: 了 após o verbo pode mudar o sentido. Use advérbios como 之前 (antes) se necessário: 我之前应该多学习中文。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "要是...就好了 (se eu tivesse... seria ótimo)",
+        "translation": "Se tivesse... teria sido ótimo (desejo irreal)",
+        "examples": [
+          {
+            "original": "要是我早来就好了。",
+            "phonetic": "yàoshi wǒ zǎo lái jiù hǎo le",
+            "translation": "Se eu tivesse vindo mais cedo, teria sido ótimo.",
+            "note": "A estrutura fixa é: 要是 + situação hipotética + 就好了. A partícula 了 no final é essencial para indicar o desejo sobre o passado."
+          },
+          {
+            "original": "要是他没说那句话就好了。",
+            "phonetic": "yàoshi tā méi shuō nà jù huà jiù hǎo le",
+            "translation": "Se ele não tivesse dito aquilo, teria sido ótimo.",
+            "note": "Use 没 (méi) para negar verbos no passado. Aqui, a negação de 说 (falar) é 没说."
+          },
+          {
+            "original": "要是我们早点出发就好了，现在赶不上了。",
+            "phonetic": "yàoshi wǒmen zǎo diǎn chūfā jiù hǎo le, xiànzài gǎn bù shàng le",
+            "translation": "Se tivéssemos partido mais cedo, teria sido ótimo; agora não dá tempo.",
+            "note": "Combine a estrutura de desejo com uma consequência no presente: 现在赶不上了 (agora não conseguimos chegar a tempo). Isso mostra a relação entre passado hipotético e presente."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "pt": "Modais avançados (teria feito, deveria ter feito, etc.)"
+    }
+  },
+  {
+    "id": "pt_B2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "伴随状语从句 (Cláusulas de participio)",
+    "bridge": "Em português, usamos gerúndio ou particípio para expressar ações simultâneas (ex: 'Caminhando pela rua, vi...'). No mandarim, não existe gerúndio; em vez disso, usamos construções com 一边...一边... (yìbiān... yìbiān...) para ações simultâneas do mesmo sujeito, ou construções com 着 (zhe) para indicar estado contínuo. Para ações sequenciais ou causais, usamos estruturas como 因为...所以... ou 然后... O principal desafio é que o mandarim não flexiona verbos e depende de ordem de palavras e partículas para conectar ideias, então os falantes de português devem evitar traduções literais com 'ing'.",
+    "rule": "No mandarim, as 'cláusulas de participio' são expressas por estruturas verbais que indicam ações simultâneas ou adjuntas. As principais são: 1) 一边...一边... (yìbiān... yìbiān...): usado quando duas ações ocorrem simultaneamente pelo mesmo sujeito. Ex: 他一边走路一边听音乐 (tā yìbiān zǒulù yìbiān tīng yīnyuè) - Ele caminha enquanto ouve música. 2) A partícula 着 (zhe) após um verbo indica uma ação contínua ou estado, e pode ser usada para descrever uma ação de fundo. Ex: 她笑着说话 (tā xiào zhe shuōhuà) - Ela fala sorrindo. 3) Construções com 'quando' podem ser expressas com... 的时候 (de shíhou). Ex: 我出门的时候，天在下雨 (wǒ chūmén de shíhou, tiān zài xiàyǔ) - Quando saí, estava chovendo. Não há infinitivo nem gerúndio; as relações de subordinação são marcadas por conjunções ou partículas. Em B2, espera-se que o aluno combine frases usando essas estruturas para descrever cenas com precisão.",
+    "concept_examples": [
+      {
+        "text": "一边吃饭，一边看手机",
+        "translation": "Comendo e olhando o celular ao mesmo tempo",
+        "phonetic": "yībiān chīfàn, yībiān kàn shǒujī"
+      },
+      {
+        "text": "他笑着走进来",
+        "translation": "Ele entrou sorrindo",
+        "phonetic": "tā xiào zhe zǒu jìnlái"
+      },
+      {
+        "text": "我出门的时候，看见了他",
+        "translation": "Quando saí, vi ele",
+        "phonetic": "wǒ chūmén de shíhou, kànjiàn le tā"
+      },
+      {
+        "text": "她一边唱歌，一边跳舞",
+        "translation": "Ela cantava e dançava ao mesmo tempo",
+        "phonetic": "tā yībiān chànggē, yībiān tiàowǔ"
+      }
+    ],
+    "common_error": {
+      "wrong": "*Eu caminhando na rua, vi um amigo. (literal translation: 我走路在街上，看见一个朋友)",
+      "correct": "我在街上走路的时候，看见了一个朋友",
+      "correct_alt": "我一边走，一边看见一个朋友（注意：一边...一边... só é usado para ações simultâneas do mesmo sujeito e com verbos de ação, não é ideal aqui）",
+      "explanation": "O erro ocorre porque em português usamos o gerúndio para expressar uma ação de fundo, mas em mandarim a estrutura com '的时候' (quando) é a mais natural para indicar o momento em que algo acontece. Evite traduzir -ando/-endo diretamente; em vez disso, use '的时候' ou '一边...一边...' dependendo se a ação é simultânea ou um fundo para outra."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "一边...一边...",
+        "translation": "Ao mesmo tempo que... (duas ações simultâneas)",
+        "examples": [
+          {
+            "original": "一边学习，一边听音乐",
+            "phonetic": "yībiān xuéxí, yībiān tīng yīnyuè",
+            "translation": "Estudando e ouvindo música ao mesmo tempo",
+            "note": "Use esta estrutura para expressar duas ações que ocorrem simultaneamente pelo mesmo sujeito. A repetição de 一边 é obrigatória."
+          },
+          {
+            "original": "她一边跑步，一边和朋友聊天",
+            "phonetic": "tā yībiān pǎobù, yībiān hé péngyou liáotiān",
+            "translation": "Ela corre e conversa com o amigo ao mesmo tempo",
+            "note": "Note que a estrutura não muda com o sujeito, pois os verbos não conjugam."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "V + 着 + V",
+        "translation": "Fazendo uma ação contínua como fundo",
+        "examples": [
+          {
+            "original": "拿着伞走进教室",
+            "phonetic": "ná zhe sǎn zǒu jìn jiàoshì",
+            "translation": "Entrando na sala de aula segurando um guarda-chuva",
+            "note": "A partícula 着 é colocada após o primeiro verbo para indicar uma ação contínua que acompanha a ação principal. A ordem é V + 着 + V."
+          },
+          {
+            "original": "他坐着看书",
+            "phonetic": "tā zuò zhe kàn shū",
+            "translation": "Ele está sentado lendo",
+            "note": "A construção com 着 descreve uma posição ou estado que serve de fundo para a ação principal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "的时候",
+        "translation": "Quando (momento da ação)",
+        "examples": [
+          {
+            "original": "回家的时候，顺便买了菜",
+            "phonetic": "huí jiā de shíhou, shùnbiàn mǎi le cài",
+            "translation": "Quando voltei para casa, aproveitei e comprei verduras",
+            "note": "的时候 é usado para marcar o momento em que uma ação acontece. Pode ser usado com passado, presente ou futuro."
+          },
+          {
+            "original": "我们到的时候，电影已经开始",
+            "phonetic": "wǒmen dào de shíhou, diànyǐng yǐjīng kāishǐ",
+            "translation": "Quando chegamos, o filme já tinha começado",
+            "note": "A estrutura é [ação/frase] + 的时候 + [outra frase]. Frequentemente expressa uma relação temporal de simultaneidade ou justaposição."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚶",
+    "phonetic": "",
+    "translations": {
+      "pt": "Cláusulas de particípio"
+    }
+  },
+  {
+    "id": "pt_B2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "虚拟语气（正式） / Subjuntivo formal",
+    "bridge": "Em português, o subjuntivo é uma forma verbal explícita (ex.: 'é essencial que ele seja'), mas em mandarim não há conjugação verbal para modo subjuntivo. Em vez disso, o mandarim usa estruturas como '必须 (bìxū)' + verbo, ou partículas modais como '要 (yào)', e às vezes '得 (děi)'. O desafio para falantes de português é abandonar a ideia de flexão verbal e confiar em marcadores de obrigação e contexto. Outra diferença: o mandarim frequentemente omite o sujeito quando o contexto é claro, enquanto o português exige sujeito explícito.",
+    "rule": "No mandarim, para expressar o subjuntivo formal (exigência, necessidade, recomendação) usam-se construções impessoais com verbos modais: 必须 (bìxū - ter que, ser necessário), 需要 (xūyào - precisar), 要 (yào - querer/precisar). Estrutura típica: [Sujeito] + 必须/需要 + Verbo. Em frases com 'que' subordinado (ex.: 'é essencial que ele vá'), o mandarim usa a mesma ordem: 主语 + 必须 + 动词. Não há mudança de forma verbal. Para sugerir ou recomendar, pode-se usar 应该 (yīnggāi - dever) ou 最好 (zuì hǎo - seria melhor). Exceção: em contexto formal escrito, pode-se usar 须 (xū) como forma abreviada de 必须. Uso típico: em discursos, documentos, notícias. A partícula modal '的 (de)' pode ser adicionada no final para ênfase.",
+    "concept_examples": [
+      {
+        "text": "重要的是他必须来。",
+        "translation": "O importante é que ele venha (é essencial que ele venha).",
+        "phonetic": "zhòngyào de shì tā bìxū lái."
+      },
+      {
+        "text": "老板要求我们准时到达。",
+        "translation": "O chefe exige que cheguemos pontualmente.",
+        "phonetic": "lǎobǎn yāoqiú wǒmen zhǔnshí dàodá."
+      },
+      {
+        "text": "必须强调的是，这个政策很重要。",
+        "translation": "É essencial enfatizar que esta política é muito importante.",
+        "phonetic": "bìxū qiángdiào de shì, zhège zhèngcè hěn zhòngyào."
+      },
+      {
+        "text": "他建议我们每天学习中文。",
+        "translation": "Ele recomenda que estudemos chinês todos os dias.",
+        "phonetic": "tā jiànyì wǒmen měitiān xuéxí zhōngwén."
+      }
+    ],
+    "common_error": {
+      "wrong": "他必须去学校。É necessário que ele vá para a escola. (construção correta, mas excessivamente literal em contextos de subjuntivo formal)",
+      "correct": "他必须去学校。",
+      "correct_alt": "他得去学校。",
+      "explanation": "Em português, a distinção entre indicativo e subjuntivo é marcada na forma verbal, mas em mandarim a obrigação é expressa pelo modal '必须' ou '得'. O erro mais comum é tentar conjugar o verbo ou usar '要' de forma inadequada. Por exemplo, '他要去学校' pode significar 'ele quer ir para a escola' (intenção), não 'é necessário'. Para expressar necessidade, use '必须' ou '得'. Evite omitir o modal quando o contexto exigir obrigação explícita."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "表示必要",
+        "translation": "Expressando necessidade",
+        "examples": [
+          {
+            "original": "你必须完成作业。",
+            "phonetic": "nǐ bìxū wánchéng zuòyè.",
+            "translation": "Você deve (precisa) terminar a lição de casa.",
+            "note": "Use '必须' para obrigação forte, similar ao 'ter que' em português."
+          },
+          {
+            "original": "我们需要更多时间。",
+            "phonetic": "wǒmen xūyào gèng duō shíjiān.",
+            "translation": "Precisamos de mais tempo.",
+            "note": "'需要' indica necessidade, frequentemente usado em contextos formais."
+          },
+          {
+            "original": "她要学习法律。",
+            "phonetic": "tā yào xuéxí fǎlǜ.",
+            "translation": "Ela precisa/quer estudar Direito.",
+            "note": "'要' pode expressar necessidade ou intenção, dependendo do contexto. Em discurso formal, geralmente é intenção. Para necessidade, use '必须'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "表示建议",
+        "translation": "Expressando recomendações",
+        "examples": [
+          {
+            "original": "你应该多喝水。",
+            "phonetic": "nǐ yīnggāi duō hē shuǐ.",
+            "translation": "Você deveria beber mais água.",
+            "note": "'应该' equivale a 'deveria' em português, usado para conselhos."
+          },
+          {
+            "original": "最好先打电话预约。",
+            "phonetic": "zuì hǎo xiān dǎ diànhuà yùyuē.",
+            "translation": "É melhor ligar antes para reservar.",
+            "note": "'最好' + verbo expressa uma recomendação forte, como 'o melhor é...'."
+          },
+          {
+            "original": "我建议你早点休息。",
+            "phonetic": "wǒ jiànyì nǐ zǎo diǎn xiūxī.",
+            "translation": "Eu sugiro que você descanse mais cedo.",
+            "note": "Verbo '建议' mais frase com sujeito. Estrutura: sujeito + verbo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "正式场合",
+        "translation": "Contextos formais",
+        "examples": [
+          {
+            "original": "与会者须准时出席。",
+            "phonetic": "yùhuìzhě xū zhǔnshí chūxí.",
+            "translation": "Os participantes devem comparecer pontualmente.",
+            "note": "Uso de '须' (forma formal de '必须') em avisos e documentos."
+          },
+          {
+            "original": "重要的是政府须采取措施。",
+            "phonetic": "zhòngyào de shì zhèngfǔ xū cǎiqǔ cuòshī.",
+            "translation": "É essencial que o governo tome medidas.",
+            "note": "Estrutura '重要的是...须...' é comum em discursos formais."
+          },
+          {
+            "original": "兹要求所有员工遵守规定。",
+            "phonetic": "zī yāoqiú suǒyǒu yuángōng zūnshǒu guīdìng.",
+            "translation": "Por meio deste, exige-se que todos os funcionários cumpram as regras.",
+            "note": "Uso de '兹' em linguagem extremamente formal (textos legais)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📌",
+    "phonetic": "",
+    "translations": {
+      "pt": "Subjuntivo formal"
+    }
+  },
+  {
+    "id": "pt_B2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "将来完成时和将来进行时 / Futuro perfecto y continuo",
+    "bridge": "Em português, usamos o futuro do presente composto (terei feito) e o futuro do presente contínuo (estarei fazendo) para expressar ações futuras em relação a outro ponto futuro. Em mandarim, não há conjugação verbal de tempo. Em vez disso, usamos marcadores temporais e advérbios como 会 (huì) e 在 (zài) ou 着 (zhe) para indicar progressão e 了 (le) para completude. O falante de português tende a procurar equivalentes diretos das desinências verbais, mas deve focar na estrutura da frase e nos marcadores de tempo.",
+    "rule": "Em mandarim, o futuro perfecto (ação que estará concluída em um ponto futuro) é expresso com 会 (huì) + verbo + 了 (le) ou com a construção 已经 (yǐjīng) + verbo + 了, reforçada por expressões de tempo. Para o futuro contínuo (ação em andamento em ponto futuro), usa-se 会 (huì) + 在 (zài) + verbo, ou 会 (huì) + verbo + 着 (zhe) para ações em progresso. Não há necessidade de conjugar o verbo; a informação temporal vem de adjuntos como 明天这个时候 (amanhã a esta hora) ou 下周 (na próxima semana).",
+    "concept_examples": [
+      {
+        "text": "明天这个时候我已经到了北京。",
+        "translation": "Amanhã a esta hora já terei chegado a Pequim.",
+        "phonetic": "míngtiān zhège shíhou wǒ yǐjīng dào le Běijīng"
+      },
+      {
+        "text": "明年这个时候我会在中国工作。",
+        "translation": "No próximo ano a esta hora, estarei trabalhando na China.",
+        "phonetic": "míngnián zhège shíhou wǒ huì zài Zhōngguó gōngzuò"
+      },
+      {
+        "text": "到下个月，我就学完这本书了。",
+        "translation": "Até o próximo mês, terei terminado de estudar este livro.",
+        "phonetic": "dào xià gè yuè, wǒ jiù xué wán zhè běn shū le"
+      },
+      {
+        "text": "今晚八点，她会在机场等着我们。",
+        "translation": "Hoje às oito da noite, ela estará nos esperando no aeroporto.",
+        "phonetic": "jīn wǎn bā diǎn, tā huì zài jīchǎng děng zhe wǒmen"
+      }
+    ],
+    "common_error": {
+      "wrong": "我将会已经到北京明天这个时候。",
+      "correct": "明天这个时候，我已经到北京了。",
+      "correct_alt": "明天这个时候，我会已经到北京了。",
+      "explanation": "O erro ocorre porque o estudante tenta seguir a ordem do português, colocando o tempo no final. Em mandarim, os marcadores temporais vêm no início ou antes do verbo. Além disso, '将会' é redundante quando já temos '已经' + '了'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "将来完成时",
+        "translation": "Futuro perfecto",
+        "examples": [
+          {
+            "original": "到明年，我已经工作十年了。",
+            "phonetic": "dào míngnián, wǒ yǐjīng gōngzuò shí nián le",
+            "translation": "Até o ano que vem, terei trabalhado dez anos.",
+            "note": "Use '到 + período + 已经 + verbo + 了' para indicar conclusão em um ponto futuro."
+          },
+          {
+            "original": "他回来以前，我会把饭做好。",
+            "phonetic": "tā huílái yǐqián, wǒ huì bǎ fàn zuò hǎo",
+            "translation": "Antes de ele voltar, terei preparado a comida.",
+            "note": "A estrutura '把' + verbo + '好' indica resultado concluído."
+          },
+          {
+            "original": "下周这个时候，我们就会完成报告了。",
+            "phonetic": "xiàzhōu zhège shíhou, wǒmen jiù huì wánchéng bàogào le",
+            "translation": "Semana que vem a esta hora, teremos concluído o relatório.",
+            "note": "Use '就会 + verbo + 了' para enfatizar a conclusão até o momento mencionado."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "将来进行时",
+        "translation": "Futuro contínuo",
+        "examples": [
+          {
+            "original": "明天这个时候，我将在开会。",
+            "phonetic": "míngtiān zhège shíhou, wǒ jiāng zài kāihuì",
+            "translation": "Amanhã a esta hora, estarei em reunião.",
+            "note": "A forma '将在 + verbo' é mais formal; na fala usa-se '会' ou simplesmente '在'."
+          },
+          {
+            "original": "晚上十点，孩子们会睡着觉。",
+            "phonetic": "wǎnshàng shí diǎn, háizimen huì shuì zháo jiào",
+            "translation": "Às dez da noite, as crianças estarão dormindo.",
+            "note": "Aqui, '着' após o verbo indica estado contínuo."
+          },
+          {
+            "original": "你到的时候，他们会在门口等你。",
+            "phonetic": "nǐ dào de shíhou, tāmen huì zài ménkǒu děng nǐ",
+            "translation": "Quando você chegar, eles estarão esperando você na porta.",
+            "note": "Use '会 + 在 + lugar + verbo' para ação em progresso em um ponto futuro."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "对比与语境",
+        "translation": "Comparação e contexto",
+        "examples": [
+          {
+            "original": "他明年回来时，我们已经搬了新家。",
+            "phonetic": "tā míngnián huílái shí, wǒmen yǐjīng bān le xīn jiā",
+            "translation": "Quando ele voltar no ano que vem, já teremos nos mudado para uma casa nova.",
+            "note": "O contexto temporal (quando ele voltar) é claro no início da frase, dispensando marcador extra."
+          },
+          {
+            "original": "如果顺利的话，年底我们就会把项目做完了。",
+            "phonetic": "rúguǒ shùnlì dehuà, niándǐ wǒmen jiù huì bǎ xiàngmù zuò wán le",
+            "translation": "Se tudo correr bem, até o fim do ano teremos concluído o projeto.",
+            "note": "Combine '如果...的话' para condição e '就会...了' para resultado futuro concluído."
+          },
+          {
+            "original": "她现在在复习，明天考试时她会记得所有内容。",
+            "phonetic": "tā xiànzài zài fùxí, míngtiān kǎoshì shí tā huì jìde suǒyǒu nèiróng",
+            "translation": "Ela está estudando agora; durante a prova amanhã, ela se lembrará de tudo.",
+            "note": "Note como o presente contínuo atual é explicitado com '在', e o futuro com '会'."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Futuro perfeito e contínuo"
+    }
+  },
+  {
+    "id": "pt_B2_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Discourse Markers for Cohesion (连接词) / Marcadores do discurso para coesão",
+    "bridge": "Em português, usamos conectivos como 'portanto', 'no entanto', 'além disso' para organizar o discurso. Em chinês, esses marcadores frequentemente aparecem em pares (por exemplo, 虽然...但是...) e têm posições fixas na frase. Diferente do português, muitos conectivos chineses são usados tanto na fala quanto na escrita, mas com níveis de formalidade distintos. Cuidado: alguns marcadores como '而且' (além disso) não podem ser usados no início de uma frase tão livremente como em português.",
+    "rule": "No mandarim B2, os marcadores discursivos são essenciais para criar coesão. Eles podem ser classificados em: (1) Aditivos: 而且 (além disso), 并且 (e, além disso), 此外 (além disso, formal). (2) Contrastivos: 但是 (mas), 然而 (no entanto), 不过 (porém), 虽然...但是... (embora...mas...). (3) Conclusivos: 所以 (portanto), 因此 (por isso, formal), 于是 (então, consequentemente). (4) De ordem: 首先...其次...最后... (primeiramente...em segundo lugar...finalmente). (5) De causa: 因为...所以... (porque...portanto...). Regras importantes: muitos conectivos como 虽然 e 因为 aparecem na primeira oração, e a segunda oração é introduzida por 但是/可是 ou 所以. Na escrita formal, use 然而, 因此, 此外; na fala, 不过, 所以, 而且. Não use 但是 e 所以 juntos na mesma frase (erro comum: 因为...所以...mas também 但是...). Para B2, domine a variação formal/informal e a posição dos conectivos.",
+    "concept_examples": [
+      {
+        "text": "虽然学习中文很难，但是我坚持每天练习。",
+        "translation": "Embora aprender chinês seja difícil, eu insisto em praticar todos os dias.",
+        "phonetic": "suīrán xuéxí zhōngwén hěn nán, dànshì wǒ jiānchí měitiān liànxí."
+      },
+      {
+        "text": "他不仅会说英语，而且还会说法语。",
+        "translation": "Ele não só fala inglês, mas também fala francês.",
+        "phonetic": "tā bùjǐn huì shuō yīngyǔ, érqiě hái huì shuō fǎyǔ."
+      },
+      {
+        "text": "由于天气不好，因此我们取消了旅行。",
+        "translation": "Devido ao mau tempo, portanto cancelamos a viagem.",
+        "phonetic": "yóuyú tiānqì bù hǎo, yīncǐ wǒmen qǔxiāo le lǚxíng."
+      },
+      {
+        "text": "首先，我们需要分析问题；其次，制定计划；最后，执行计划。",
+        "translation": "Primeiramente, precisamos analisar o problema; em segundo lugar, fazer um plano; finalmente, executar o plano.",
+        "phonetic": "shǒuxiān, wǒmen xūyào fēnxī wèntí; qícì, zhìdìng jìhuà; zuìhòu, zhíxíng jìhuà."
+      }
+    ],
+    "common_error": {
+      "wrong": "虽然他很累，但是他还是去上班了，所以但是他没有休息。",
+      "correct": "虽然他很累，但是他还是去上班了，所以他没有休息。",
+      "correct_alt": "虽然他很累，但是他还是去上班了，因此他没有休息。",
+      "explanation": "O erro ocorre porque o aluno usa '所以' e '但是' juntos na mesma frase, o que é redundante em chinês. Em português, podemos dizer 'mas...portanto...' mas em chinês, a estrutura '虽然...但是...' já indica contraste, e '所以' já indica consequência. Não se deve misturar dois conectivos da mesma categoria. Para evitar, lembre-se: use '但是' para contraste e '所以' para conclusão, mas não ambos no mesmo período. Em vez disso, divida em duas frases ou use '因此' como alternativa formal."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Aditivos 递进关系",
+        "translation": "Relações aditivas",
+        "examples": [
+          {
+            "original": "他学习很努力，而且成绩也很好。",
+            "phonetic": "tā xuéxí hěn nǔlì, érqiě chéngjì yě hěn hǎo.",
+            "translation": "Ele estuda com muito esforço, e além disso as notas também são boas.",
+            "note": "Use '而且' para adicionar uma informação que reforça a anterior. Diferente do português, '而且' não pode iniciar uma frase em discurso formal; deve vir após uma vírgula."
+          },
+          {
+            "original": "这个方案不但可行，并且成本很低。",
+            "phonetic": "zhège fāng'àn bùdàn kěxíng, bìngqiě chéngběn hěn dī.",
+            "translation": "Este plano não só é viável, como também tem custo baixo.",
+            "note": "'不但...并且...' é uma estrutura formal, equivalente a 'não só...mas também'. Na fala, prefira '不但...而且...'."
+          },
+          {
+            "original": "此外，我们还需要考虑文化差异。",
+            "phonetic": "cǐwài, wǒmen hái xūyào kǎolǜ wénhuà chāyì.",
+            "translation": "Além disso, precisamos considerar as diferenças culturais.",
+            "note": "'此外' é usado em contextos formais, como em ensaios ou relatórios. Na conversa, use '还有'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Contrastivos 转折关系",
+        "translation": "Relações contrastivas",
+        "examples": [
+          {
+            "original": "虽然下雨了，但是我们还是去了公园。",
+            "phonetic": "suīrán xià yǔ le, dànshì wǒmen háishì qù le gōngyuán.",
+            "translation": "Embora tenha chovido, ainda assim fomos ao parque.",
+            "note": "A estrutura '虽然...但是...' é obrigatória; não se pode omitir '但是' se '虽然' estiver presente."
+          },
+          {
+            "original": "这个产品很贵，然而质量非常好。",
+            "phonetic": "zhège chǎnpǐn hěn guì, rán'ér zhìliàng fēicháng hǎo.",
+            "translation": "Este produto é caro, no entanto a qualidade é muito boa.",
+            "note": "'然而' é formal e usado principalmente na escrita. Na fala, prefira '不过'."
+          },
+          {
+            "original": "我想去旅游，不过我没有时间。",
+            "phonetic": "wǒ xiǎng qù lǚyóu, búguò wǒ méiyǒu shíjiān.",
+            "translation": "Eu quero viajar, porém não tenho tempo.",
+            "note": "'不过' é informal e comum na conversação. Note que em português 'porém' é mais formal; em chinês, '不过' é neutro."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Conclusivos e causais 因果与总结",
+        "translation": "Causais e conclusivos",
+        "examples": [
+          {
+            "original": "因为天气太冷，所以我们没有出门。",
+            "phonetic": "yīnwèi tiānqì tài lěng, suǒyǐ wǒmen méiyǒu chūmén.",
+            "translation": "Porque o tempo estava muito frio, portanto não saímos.",
+            "note": "A estrutura '因为...所以...' é a mais comum para causa e consequência. Na fala, pode-se omitir '因为' se a causa for óbvia."
+          },
+          {
+            "original": "他努力学习，因此取得了好成绩。",
+            "phonetic": "tā nǔlì xuéxí, yīncǐ qǔdé le hǎo chéngjì.",
+            "translation": "Ele estudou com esforço, por isso obteve boas notas.",
+            "note": "'因此' é mais formal que '所以' e é usado em discursos, ensaios ou artigos."
+          },
+          {
+            "original": "最终，我们决定接受这个提议。",
+            "phonetic": "zuìzhōng, wǒmen juédìng jiēshòu zhège tíyì.",
+            "translation": "Finalmente, decidimos aceitar esta proposta.",
+            "note": "Use '最终' para concluir uma sequência ou decisão, similar a 'por fim' em português."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Marcadores do discurso para coesão"
+    }
+  },
+  {
+    "id": "pt_B2_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "模糊限制语（似乎、好像、倾向于） / Hedging Language ( parece, tende a, aparentemente )",
+    "bridge": "Em português, usamos verbos como 'parecer', 'tender a' e advérbios como 'aparentemente' para suavizar afirmações. Em mandarim, estruturas como 好像 (hǎoxiàng), 似乎 (sìhū) e 倾向于 (qīngxiàng yú) cumprem funções semelhantes, mas com diferenças importantes: a posição na frase, o uso de partículas modais e a ausência de conjugação verbal. O português frequentemente usa o subjuntivo ou o futuro do pretérito para expressar incerteza; o mandarim, por outro lado, usa advérbios e partículas finais como 吧 (ba) ou 的 (de), sem alterar a forma do verbo. Um erro comum é traduzir literalmente 'parece que' como '似乎' sempre, mas em contextos informais, '好像' é mais natural.",
+    "rule": "Em mandarim, o hedging (distanciamento) é expresso principalmente por:\n1. Advérbios de dúvida: 好像 (hǎoxiàng) - 'parece que', 似乎 (sìhū) - 'aparentemente', 大概 (dàgài) - 'provavelmente', 可能 (kěnéng) - 'possivelmente'.\n2. Verbos modais: 倾向于 (qīngxiàng yú) - 'tender a', 感觉 (gǎnjué) - 'sentir que'. Estes são usados antes do verbo principal, como em '我倾向于认为...' (wǒ qīngxiàng yú rènwéi...).\n3. Partículas finais: 吧 (ba) no final da frase expressa suposição ou sugestão suave, e 嘛 (ma) em tom coloquial. Ex: 他大概不来吧 (tā dàgài bù lái ba) - 'Ele provavelmente não vem'.\n4. Estruturas com 的 (de) no final: '是...的' (shì...de) pode indicar ênfase e também incerteza em perguntas, mas não é o foco aqui.\n\nDiferenças-chave: Em português, o verbo principal é conjugado no subjuntivo ('parece que ele venha'), enquanto em mandarim o verbo permanece invariável. A ordem das palavras também difere: em português, costumamos colocar o advérbio no início ('Aparentemente, ele...'); em mandarim, o advérbio geralmente vem após o sujeito e antes do verbo. Além disso, a partícula final 吧 (ba) é muito comum e não tem equivalente direto em português, servindo para suavizar a afirmação.",
+    "concept_examples": [
+      {
+        "text": "他好像不来参加会议。",
+        "translation": "Parece que ele não vem para a reunião.",
+        "phonetic": "[tʰa xau̯ɕiaŋ pu lai̯ tsʰan t͡ɕia̯ hui̯]"
+      },
+      {
+        "text": "这个方案似乎不太可行。",
+        "translation": "Este plano aparentemente não é muito viável.",
+        "phonetic": "[tʂɤ kɤ faŋ an sɯ xu pu tʰai̯ kʰɤ ɕiŋ]"
+      },
+      {
+        "text": "我倾向于认为他的观点是正确的。",
+        "translation": "Eu tendo a acreditar que o ponto de vista dele está correto.",
+        "phonetic": "[u̯o tɕʰiŋɕiaŋ jy ʐən u̯ei tʰa ti kuan ti̯ɛn ʂɤ tʂʰɤŋ tʰɕʰy̯ɛ ti]"
+      },
+      {
+        "text": "大概明天会下雨吧。",
+        "translation": "Provavelmente vai chover amanhã (acho eu).",
+        "phonetic": "[ta kai̯ miŋ tʰi̯ɛn xuei̯ ɕia jy pa]"
+      }
+    ],
+    "common_error": {
+      "wrong": "似乎他不懂这个问题。(Sìhū tā bù dǒng zhège wèntí.)",
+      "correct": "他好像不懂这个问题。(Tā hǎoxiàng bù dǒng zhège wèntí.)",
+      "correct_alt": "他似乎不懂这个问题。(Tā sìhū bù dǒng zhège wèntí.)",
+      "explanation": "O erro vem da tradução literal do português 'aparentemente' / 'parece que' como '似乎' no início da frase, influenciado pela ordem do português ('Aparentemente, ele...'). Em mandarim, advérbios como '似乎' e '好像' geralmente vêm depois do sujeito. Além disso, '似乎' é mais formal; em contextos quotidianos, '好像' é mais natural. Para evitar o erro, coloque o advérbio após o sujeito e escolha o registro adequado."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "好像 vs 似乎",
+        "translation": "Parece que / aparentemente: diferenças de registro e uso",
+        "examples": [
+          {
+            "original": "她好像生气了。",
+            "phonetic": "[tʰa xau̯ɕiaŋ ʂɤŋ tɕʰi la]",
+            "translation": "Parece que ela está brava.",
+            "note": "Use 好像 em situações informais ou cotidianas; é mais coloquial."
+          },
+          {
+            "original": "他似乎对这个问题很感兴趣。",
+            "phonetic": "[tʰa sɯ xu tue̯i tʂɤ kɤ u̯ən tʰi xən kan ɕiŋ tɕʰy]",
+            "translation": "Ele aparentemente está muito interessado neste problema.",
+            "note": "似乎 é mais formal, usado em escrita ou discurso polido."
+          },
+          {
+            "original": "好像要下雨了。",
+            "phonetic": "[xau̯ɕiaŋ iau̯ ɕia jy lə]",
+            "translation": "Parece que vai chover.",
+            "note": "Em frases sem sujeito, 好像 pode vir no início, mas é opcional."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "大概、可能、也许",
+        "translation": "Advérbios de probabilidade",
+        "examples": [
+          {
+            "original": "他大概忘记了我们的约定。",
+            "phonetic": "[tʰa ta kai̯ u̯aŋ t͡ɕi lə u̯o mən tɕy̯ɛ iŋ]",
+            "translation": "Ele provavelmente esqueceu o nosso acordo.",
+            "note": "大概 expressa alta probabilidade, similar a 'provavelmente'."
+          },
+          {
+            "original": "这可能是因为时间不够。",
+            "phonetic": "[tʂɤ kʰɤ nɤŋ ʂɤ in u̯ei ʂɤ tɕi̯ɛn pu kou̯]",
+            "translation": "Isto pode ser porque não há tempo suficiente.",
+            "note": "可能 indica possibilidade, equivalente a 'pode ser'."
+          },
+          {
+            "original": "也许我们可以换个时间见面。",
+            "phonetic": "[jɛ ɕy u̯o mən kʰɤ i xuan̯ kɤ ʂɤ tɕi̯ɛn tɕi̯ɛn mi̯ɛn]",
+            "translation": "Talvez possamos nos encontrar em outro horário.",
+            "note": "也许 é um pouco mais literário; 可能 é mais comum na fala."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "语气词：吧、的",
+        "translation": "Partículas modais para suavizar afirmações",
+        "examples": [
+          {
+            "original": "他大概不会来了吧。",
+            "phonetic": "[tʰa ta kai̯ pu xuei̯ lai̯ lə pa]",
+            "translation": "Ele provavelmente não virá mais, né?",
+            "note": "吧 no final indica suposição ou busca de concordância, como 'né'."
+          },
+          {
+            "original": "我想你是对的吧。",
+            "phonetic": "[u̯o ɕiaŋ ni ʂɤ tue̯i tɤ pa]",
+            "translation": "Acho que você está certo, não?",
+            "note": "A partícula 吧 suaviza a afirmação, tornando-a menos assertiva."
+          },
+          {
+            "original": "他肯定会来的（吧）。",
+            "phonetic": "[tʰa kʰən tiŋ xue̯i lai̯ tɤ (pa)]",
+            "translation": "Ele certamente virá (provavelmente).",
+            "note": "O uso de 肯定 com 吧 final cria um efeito de 'certamente, acho eu'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "pt": "Linguagem de distanciamento (hedging)"
+    }
+  }
+]

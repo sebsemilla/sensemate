@@ -1,0 +1,2858 @@
+[
+  {
+    "id": "fr_A1_vctx_01",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Greeting someone for the first time",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "ciao",
+        "pos": "interjection",
+        "translation": "salut / bonjour / au revoir",
+        "note": "Salutation informelle utilisée pour dire bonjour et au revoir.",
+        "phonetic": "/ˈtʃa.o/"
+      },
+      {
+        "word": "io",
+        "pos": "pron",
+        "translation": "je / moi",
+        "note": "Pronom sujet de la première personne du singulier.",
+        "phonetic": "/ˈi.o/"
+      },
+      {
+        "word": "tu",
+        "pos": "pron",
+        "translation": "tu / toi",
+        "note": "Pronom sujet de la deuxième personne du singulier, forme familière.",
+        "phonetic": "/tu/"
+      },
+      {
+        "word": "piacere",
+        "pos": "noun",
+        "translation": "plaisir",
+        "note": "Dans 'piacere di conoscerti' signifie 'enchanté'.",
+        "phonetic": "/pjaˈtʃe.re/"
+      },
+      {
+        "word": "di",
+        "pos": "prep",
+        "translation": "de",
+        "note": "Préposition indiquant une relation, ici 'de te connaître'.",
+        "phonetic": "/di/"
+      },
+      {
+        "word": "conoscere",
+        "pos": "verb",
+        "translation": "connaître",
+        "note": "Verbe en -ere, ici à l'infinitif après 'di'.",
+        "phonetic": "/koˈnoʃ.ʃe.re/"
+      },
+      {
+        "word": "come",
+        "pos": "adv",
+        "translation": "comment",
+        "note": "Adverbe interrogatif pour demander 'comment'.",
+        "phonetic": "/ˈko.me/"
+      },
+      {
+        "word": "stai",
+        "pos": "verb",
+        "translation": "tu vas / tu te portes",
+        "note": "Deuxième personne du singulier du verbe 'stare' (aller, se porter).",
+        "phonetic": "/ˈstai/"
+      },
+      {
+        "word": "bene",
+        "pos": "adv",
+        "translation": "bien",
+        "note": "Adverbe de manière, réponse standard à 'Come stai?'.",
+        "phonetic": "/ˈbɛ.ne/"
+      },
+      {
+        "word": "e",
+        "pos": "conj",
+        "translation": "et",
+        "note": "Conjonction de coordination.",
+        "phonetic": "/e/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Ciao! Io sono Marco.",
+        "translation": "Salut ! Je suis Marco.",
+        "highlights": [
+          "Ciao",
+          "Io"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ciao, Marco! Piacere di conoscerti. Io sono Sophie.",
+        "translation": "Salut, Marco ! Enchantée de te connaître. Je suis Sophie.",
+        "highlights": [
+          "Piacere",
+          "di",
+          "conoscerti",
+          "Io"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Piacere mio! Come stai?",
+        "translation": "Le plaisir est pour moi ! Comment vas-tu ?",
+        "highlights": [
+          "Come",
+          "stai"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Bene, grazie! E tu?",
+        "translation": "Bien, merci ! Et toi ?",
+        "highlights": [
+          "Bene",
+          "E",
+          "tu"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Piacere di conoscerti",
+        "translation": "Enchanté(e) de te connaître"
+      },
+      {
+        "phrase": "Come stai?",
+        "translation": "Comment vas-tu ?"
+      },
+      {
+        "phrase": "Bene, grazie. E tu?",
+        "translation": "Bien, merci. Et toi ?"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_03",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking where something is in a store",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "dove",
+        "pos": "adv",
+        "translation": "où",
+        "note": "Interrogatif de lieu.",
+        "phonetic": "/ˈdo.ve/"
+      },
+      {
+        "word": "essere",
+        "pos": "verb",
+        "translation": "être",
+        "note": "Verbe essentiel pour situer.",
+        "phonetic": "/ˈɛs.se.re/"
+      },
+      {
+        "word": "il",
+        "pos": "det",
+        "translation": "le",
+        "note": "Article défini masculin singulier.",
+        "phonetic": "/il/"
+      },
+      {
+        "word": "signore",
+        "pos": "noun",
+        "translation": "monsieur",
+        "note": "Forme de politesse.",
+        "phonetic": "/siɲˈɲo.re/"
+      },
+      {
+        "word": "qui",
+        "pos": "adv",
+        "translation": "ici",
+        "note": "Indique un lieu proche.",
+        "phonetic": "/kwi/"
+      },
+      {
+        "word": "lì",
+        "pos": "adv",
+        "translation": "là",
+        "note": "Indique un lieu éloigné.",
+        "phonetic": "/li/"
+      },
+      {
+        "word": "in",
+        "pos": "prep",
+        "translation": "dans, à",
+        "note": "Préposition de lieu.",
+        "phonetic": "/in/"
+      },
+      {
+        "word": "a",
+        "pos": "prep",
+        "translation": "à",
+        "note": "Préposition pour direction ou lieu.",
+        "phonetic": "/a/"
+      },
+      {
+        "word": "grazie",
+        "pos": "interj",
+        "translation": "merci",
+        "note": "Expression de gratitude.",
+        "phonetic": "/ˈɡrat.t͡sje/"
+      },
+      {
+        "word": "no",
+        "pos": "adv",
+        "translation": "non",
+        "note": "Négation simple.",
+        "phonetic": "/nɔ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Dov'è il reparto frutta?",
+        "translation": "Où est le rayon des fruits ?",
+        "highlights": [
+          "Dov'è",
+          "il"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "È qui, signore, a destra.",
+        "translation": "C'est ici, monsieur, à droite.",
+        "highlights": [
+          "È",
+          "qui",
+          "signore",
+          "a"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "E la cassa, è lì?",
+        "translation": "Et la caisse, est-elle là ?",
+        "highlights": [
+          "lì"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, la cassa è in fondo, dopo il pane.",
+        "translation": "Non, la caisse est au fond, après le pain.",
+        "highlights": [
+          "No",
+          "in"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Grazie!",
+        "translation": "Merci !",
+        "highlights": [
+          "Grazie"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Dov'è...?",
+        "translation": "Où est... ?"
+      },
+      {
+        "phrase": "È qui",
+        "translation": "C'est ici"
+      },
+      {
+        "phrase": "a destra",
+        "translation": "à droite"
+      },
+      {
+        "phrase": "in fondo",
+        "translation": "au fond"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_05",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Ordering a drink at a café",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "prendere",
+        "pos": "verb",
+        "translation": "prendre",
+        "note": "Verbe très fréquent, utilisé pour commander (prendere un caffè).",
+        "phonetic": "/ˈprɛn.de.re/"
+      },
+      {
+        "word": "volere",
+        "pos": "verb",
+        "translation": "vouloir",
+        "note": "Verbe modal courant, souvent utilisé au conditionnel (vorrei) par politesse.",
+        "phonetic": "/voˈle.re/"
+      },
+      {
+        "word": "caffè",
+        "pos": "noun",
+        "translation": "café",
+        "note": "Nom masculin invariable, boisson typique au bar.",
+        "phonetic": "/kafˈfɛ/"
+      },
+      {
+        "word": "acqua",
+        "pos": "noun",
+        "translation": "eau",
+        "note": "Nom féminin, souvent accompagné de 'minerale' ou 'naturale'.",
+        "phonetic": "/ˈak.kwa/"
+      },
+      {
+        "word": "questo",
+        "pos": "det",
+        "translation": "ce/cette",
+        "note": "Déterminant démonstratif, très fréquent, s'accorde avec le nom (questo caffè).",
+        "phonetic": "/ˈkwe.sto/"
+      },
+      {
+        "word": "quanto",
+        "pos": "adv",
+        "translation": "combien",
+        "note": "Adverbe interrogatif, utilisé dans 'quanto costa?'.",
+        "phonetic": "/ˈkwan.to/"
+      },
+      {
+        "word": "costa",
+        "pos": "verb",
+        "translation": "coûte",
+        "note": "Forme du verbe 'costare' (coûter), très fréquent pour demander un prix.",
+        "phonetic": "/ˈkɔ.sta/"
+      },
+      {
+        "word": "poi",
+        "pos": "adv",
+        "translation": "ensuite",
+        "note": "Adverbe de temps, souvent utilisé pour enchaîner les actions.",
+        "phonetic": "/ˈpɔ.i/"
+      },
+      {
+        "word": "con",
+        "pos": "prep",
+        "translation": "avec",
+        "note": "Préposition très courante, utilisée pour indiquer un accompagnement.",
+        "phonetic": "/kon/"
+      },
+      {
+        "word": "ma",
+        "pos": "conj",
+        "translation": "mais",
+        "note": "Conjonction de coordination, très fréquente pour opposer deux idées.",
+        "phonetic": "/ma/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buongiorno, vorrei prendere un caffè.",
+        "translation": "Bonjour, je voudrais prendre un café.",
+        "highlights": [
+          "prendere"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Certo. E poi, vuole qualcosa da mangiare?",
+        "translation": "Bien sûr. Et ensuite, voulez-vous quelque chose à manger ?",
+        "highlights": [
+          "poi",
+          "vuole"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "No, grazie. Ma vorrei anche un'acqua naturale.",
+        "translation": "Non, merci. Mais je voudrais aussi une eau naturelle.",
+        "highlights": [
+          "Ma",
+          "acqua"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ecco il caffè e l'acqua. Quanto costa?",
+        "translation": "Voici le café et l'eau. Combien ça coûte ?",
+        "highlights": [
+          "caffè",
+          "acqua",
+          "Quanto",
+          "costa"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Questo caffè costa due euro, e l'acqua un euro. Con questo, fa tre euro.",
+        "translation": "Ce café coûte deux euros, et l'eau un euro. Avec ça, ça fait trois euros.",
+        "highlights": [
+          "Questo",
+          "caffè",
+          "costa",
+          "con"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "vorrei prendere un caffè",
+        "translation": "je voudrais prendre un café"
+      },
+      {
+        "phrase": "quanto costa?",
+        "translation": "combien ça coûte ?"
+      },
+      {
+        "phrase": "un'acqua naturale",
+        "translation": "une eau plate"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_07",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Buying a ticket at a station",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "un",
+        "pos": "det",
+        "translation": "un, une",
+        "note": "Article indéfini masculin singulier",
+        "phonetic": "/un/"
+      },
+      {
+        "word": "biglietto",
+        "pos": "noun",
+        "translation": "billet",
+        "note": "Masculin, -o final",
+        "phonetic": "/biʎˈʎɛt.to/"
+      },
+      {
+        "word": "per",
+        "pos": "prep",
+        "translation": "pour",
+        "note": "Indique la destination",
+        "phonetic": "/per/"
+      },
+      {
+        "word": "che",
+        "pos": "pron",
+        "translation": "que, quoi",
+        "note": "Pronom interrogatif",
+        "phonetic": "/ke/"
+      },
+      {
+        "word": "ora",
+        "pos": "adv",
+        "translation": "maintenant",
+        "note": "Adverbe de temps",
+        "phonetic": "/ˈo.ra/"
+      },
+      {
+        "word": "arrivare",
+        "pos": "verb",
+        "translation": "arriver",
+        "note": "Verbe en -are, régulier",
+        "phonetic": "/ar.riˈva.re/"
+      },
+      {
+        "word": "quando",
+        "pos": "adv",
+        "translation": "quand",
+        "note": "Adverbe interrogatif",
+        "phonetic": "/ˈkwan.do/"
+      },
+      {
+        "word": "partire",
+        "pos": "verb",
+        "translation": "partir",
+        "note": "Verbe en -ire, régulier",
+        "phonetic": "/parˈti.re/"
+      },
+      {
+        "word": "dopo",
+        "pos": "prep",
+        "translation": "après",
+        "note": "Préposition de temps",
+        "phonetic": "/ˈdo.po/"
+      },
+      {
+        "word": "alle",
+        "pos": "prep",
+        "translation": "à (heures)",
+        "note": "Contraction de 'a le'",
+        "phonetic": "/ˈal.le/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buongiorno, vorrei un biglietto per Roma.",
+        "translation": "Bonjour, je voudrais un billet pour Rome.",
+        "highlights": [
+          "un",
+          "biglietto",
+          "per"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Certo. Che ora? C'è un treno alle dieci.",
+        "translation": "Bien sûr. Quelle heure ? Il y a un train à dix heures.",
+        "highlights": [
+          "Che",
+          "ora",
+          "alle"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Quando arriva a Roma?",
+        "translation": "Quand arrive-t-il à Rome ?",
+        "highlights": [
+          "Quando",
+          "arriva"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Parte ora e arriva dopo due ore.",
+        "translation": "Il part maintenant et arrive après deux heures.",
+        "highlights": [
+          "Parte",
+          "ora",
+          "dopo"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "un biglietto per",
+        "translation": "un billet pour"
+      },
+      {
+        "phrase": "Che ora?",
+        "translation": "Quelle heure ?"
+      },
+      {
+        "phrase": "Quando arriva?",
+        "translation": "Quand arrive-t-il ?"
+      },
+      {
+        "phrase": "dopo due ore",
+        "translation": "après deux heures"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_09",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Checking in at a hotel reception",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "avere",
+        "pos": "verb",
+        "translation": "avoir",
+        "note": "verbe auxiliaire, très fréquent",
+        "phonetic": "/aˈve.re/"
+      },
+      {
+        "word": "notte",
+        "pos": "noun",
+        "translation": "nuit",
+        "phonetic": "/ˈnɔt.te/"
+      },
+      {
+        "word": "chiamarsi",
+        "pos": "verb",
+        "translation": "s'appeler",
+        "phonetic": "/kjaˈmar.si/"
+      },
+      {
+        "word": "nome",
+        "pos": "noun",
+        "translation": "nom",
+        "phonetic": "/ˈno.me/"
+      },
+      {
+        "word": "camera",
+        "pos": "noun",
+        "translation": "chambre",
+        "phonetic": "/ˈka.me.ra/"
+      },
+      {
+        "word": "chiave",
+        "pos": "noun",
+        "translation": "clé",
+        "phonetic": "/ˈkja.ve/"
+      },
+      {
+        "word": "trovare",
+        "pos": "verb",
+        "translation": "trouver",
+        "phonetic": "/troˈva.re/"
+      },
+      {
+        "word": "numero",
+        "pos": "noun",
+        "translation": "numéro",
+        "phonetic": "/ˈnu.me.ro/"
+      },
+      {
+        "word": "molto",
+        "pos": "adverb/adj",
+        "translation": "très / beaucoup",
+        "phonetic": "/ˈmol.to/"
+      },
+      {
+        "word": "arrivare",
+        "pos": "verb",
+        "translation": "arriver",
+        "phonetic": "/ar.riˈva.re/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buonasera, ho una prenotazione. Mi chiamo Marie.",
+        "translation": "Bonsoir, j'ai une réservation. Je m'appelle Marie.",
+        "highlights": [
+          "ho",
+          "chiamo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Benvenuta! Qual è il suo nome, per favore?",
+        "translation": "Bienvenue ! Quel est votre nom, s'il vous plaît ?",
+        "highlights": [
+          "nome"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Marie Dupont. Ho prenotato una camera per una notte.",
+        "translation": "Marie Dupont. J'ai réservé une chambre pour une nuit.",
+        "highlights": [
+          "camera",
+          "notte"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Perfetto. Ecco la chiave. Il numero della camera è il 204.",
+        "translation": "Parfait. Voici la clé. Le numéro de la chambre est le 204.",
+        "highlights": [
+          "chiave",
+          "numero"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Grazie mille. Dov'è la camera? La trovo facilmente?",
+        "translation": "Merci beaucoup. Où est la chambre ? Je la trouve facilement ?",
+        "highlights": [
+          "trovo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sì, è al secondo piano. Arriva con l'ascensore, è molto facile.",
+        "translation": "Oui, c'est au deuxième étage. Arrivez avec l'ascenseur, c'est très facile.",
+        "highlights": [
+          "arriva",
+          "molto"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Ho una prenotazione.",
+        "translation": "J'ai une réservation."
+      },
+      {
+        "phrase": "Mi chiamo...",
+        "translation": "Je m'appelle..."
+      },
+      {
+        "phrase": "Ecco la chiave.",
+        "translation": "Voici la clé."
+      },
+      {
+        "phrase": "Dov'è la camera?",
+        "translation": "Où est la chambre ?"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_11",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Meeting a new neighbor",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "siamo",
+        "pos": "verb",
+        "translation": "nous sommes (verbe essere, 1re personne pluriel)",
+        "note": "Utilisé pour se présenter collectivement ou pour dire 'c'est nous'.",
+        "phonetic": "/ˈsja.mo/"
+      },
+      {
+        "word": "nuovo",
+        "pos": "adj",
+        "translation": "nouveau",
+        "note": "S'accorde en genre et en nombre. Ici au masculin singulier.",
+        "phonetic": "/ˈnwɔ.vo/"
+      },
+      {
+        "word": "vicino",
+        "pos": "noun",
+        "translation": "voisin",
+        "note": "Au pluriel 'vicini'.",
+        "phonetic": "/viˈtʃi.no/"
+      },
+      {
+        "word": "mio",
+        "pos": "adj",
+        "translation": "mon/ma",
+        "note": "Adjectif possessif, accordé avec le nom masculin singulier.",
+        "phonetic": "/ˈmi.o/"
+      },
+      {
+        "word": "marito",
+        "pos": "noun",
+        "translation": "mari",
+        "note": "Nom masculin, régulier.",
+        "phonetic": "/maˈri.to/"
+      },
+      {
+        "word": "abitiamo",
+        "pos": "verb",
+        "translation": "nous habitons (verbo abitare)",
+        "note": "1re personne pluriel du présent.",
+        "phonetic": "/a.biˈtja.mo/"
+      },
+      {
+        "word": "piano",
+        "pos": "noun",
+        "translation": "étage",
+        "note": "Peut aussi signifier 'plan' ou 'doux'.",
+        "phonetic": "/ˈpja.no/"
+      },
+      {
+        "word": "anche",
+        "pos": "adv",
+        "translation": "aussi, également",
+        "note": "Place avant ou après le verbe.",
+        "phonetic": "/ˈaŋ.ke/"
+      },
+      {
+        "word": "perché",
+        "pos": "conj",
+        "translation": "parce que",
+        "note": "Peut aussi être interrogatif : 'pourquoi'.",
+        "phonetic": "/perˈke/"
+      },
+      {
+        "word": "spero",
+        "pos": "verb",
+        "translation": "j'espère (verbo sperare)",
+        "note": "1re personne singulier du présent.",
+        "phonetic": "/ˈspe.ro/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buongiorno! Siamo i nuovi vicini, io sono Marco e lei è mia moglie, Anna.",
+        "translation": "Bonjour ! Nous sommes les nouveaux voisins, moi c'est Marco et elle est ma femme, Anna.",
+        "highlights": [
+          "siamo",
+          "nuovi",
+          "vicini",
+          "mia"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ah, piacere! Io sono Carla. Benvenuti. Da quanto tempo abitate qui?",
+        "translation": "Ah, enchantée ! Moi c'est Carla. Bienvenue. Depuis combien de temps habitez-vous ici ?",
+        "highlights": [
+          "abitate"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Abitiamo al terzo piano, da una settimana. E voi, abitate qui da molto?",
+        "translation": "Nous habitons au troisième étage, depuis une semaine. Et vous, vous habitez ici depuis longtemps ?",
+        "highlights": [
+          "abitiamo",
+          "piano"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sì, anche io abito al terzo piano, ma al primo. Che coincidenza! E perché vi siete trasferiti?",
+        "translation": "Oui, moi aussi j'habite au troisième étage, mais au premier. Quelle coïncidence ! Et pourquoi avez-vous déménagé ?",
+        "highlights": [
+          "anche",
+          "perché"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Perché abbiamo trovato un lavoro qui. Spero di conoscerti meglio presto!",
+        "translation": "Parce que nous avons trouvé un travail ici. J'espère faire mieux connaissance avec toi bientôt !",
+        "highlights": [
+          "perché",
+          "spero"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Siamo i nuovi vicini",
+        "translation": "Nous sommes les nouveaux voisins"
+      },
+      {
+        "phrase": "Da quanto tempo abitate qui?",
+        "translation": "Depuis combien de temps habitez-vous ici ?"
+      },
+      {
+        "phrase": "Spero di conoscerti meglio",
+        "translation": "J'espère faire mieux connaissance avec toi"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_13",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking the time on the street",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "sapere",
+        "pos": "verb",
+        "translation": "savoir",
+        "note": "Utilisé pour demander/exprimer une information.",
+        "phonetic": "/saˈpe.re/"
+      },
+      {
+        "word": "ora",
+        "pos": "noun",
+        "translation": "heure",
+        "note": "Attention: 'ora' est aussi un adverbe signifiant 'maintenant'.",
+        "phonetic": "/ˈo.ra/"
+      },
+      {
+        "word": "essere",
+        "pos": "verb",
+        "translation": "être",
+        "note": "Essentiel pour indiquer l'heure: 'è l'una', 'sono le due'.",
+        "phonetic": "/ˈɛs.se.re/"
+      },
+      {
+        "word": "una",
+        "pos": "det",
+        "translation": "une",
+        "note": "Article indéfini, utilisé pour l'heure: 'è l'una' (il est une heure).",
+        "phonetic": "/ˈu.na/"
+      },
+      {
+        "word": "due",
+        "pos": "adj",
+        "translation": "deux",
+        "note": "Nombre cardinal.",
+        "phonetic": "/ˈdu.e/"
+      },
+      {
+        "word": "tre",
+        "pos": "adj",
+        "translation": "trois",
+        "note": "Nombre cardinal.",
+        "phonetic": "/ˈtre/"
+      },
+      {
+        "word": "quattro",
+        "pos": "adj",
+        "translation": "quatre",
+        "note": "Nombre cardinal.",
+        "phonetic": "/ˈkwat.tro/"
+      },
+      {
+        "word": "e",
+        "pos": "conj",
+        "translation": "et",
+        "note": "Conjonction de coordination.",
+        "phonetic": "/e/"
+      },
+      {
+        "word": "mezza",
+        "pos": "adj",
+        "translation": "demie",
+        "note": "Pour exprimer 'et demie'.",
+        "phonetic": "/ˈmɛd.dza/"
+      },
+      {
+        "word": "in",
+        "pos": "prep",
+        "translation": "en, dans",
+        "note": "Préposition de lieu ou de temps.",
+        "phonetic": "/in/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Scusi, sa che ora è?",
+        "translation": "Excusez-moi, savez-vous quelle heure il est ?",
+        "highlights": [
+          "sa",
+          "ora",
+          "è"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sì, sono le due e mezza.",
+        "translation": "Oui, il est deux heures et demie.",
+        "highlights": [
+          "sono",
+          "due",
+          "e",
+          "mezza"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Grazie. E il treno parte alle tre?",
+        "translation": "Merci. Et le train part à trois heures ?",
+        "highlights": [
+          "tre"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, alle quattro, in ritardo.",
+        "translation": "Non, à quatre heures, en retard.",
+        "highlights": [
+          "quattro",
+          "in"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Ah, allora ho tempo. Grazie ancora!",
+        "translation": "Ah, alors j'ai le temps. Merci encore !",
+        "highlights": [
+          "una"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Che ora è?",
+        "translation": "Quelle heure est-il ?"
+      },
+      {
+        "phrase": "Sono le due e mezza.",
+        "translation": "Il est deux heures et demie."
+      },
+      {
+        "phrase": "parte alle tre",
+        "translation": "il part à trois heures"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_15",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the doctor for a basic checkup",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "dottore",
+        "pos": "noun",
+        "translation": "médecin",
+        "note": "Forme masculine; au féminin 'dottoressa'.",
+        "phonetic": "/dotˈtoː.re/"
+      },
+      {
+        "word": "vedere",
+        "pos": "verb",
+        "translation": "voir",
+        "note": "Verbe irrégulier, très fréquent, utilisé ici pour 'voir le médecin'.",
+        "phonetic": "/veˈdeː.re/"
+      },
+      {
+        "word": "come",
+        "pos": "adv",
+        "translation": "comment",
+        "note": "Sert à poser des questions sur l'état de santé.",
+        "phonetic": "/ˈkoː.me/"
+      },
+      {
+        "word": "male",
+        "pos": "noun",
+        "translation": "mal",
+        "note": "Utilisé dans 'avere male a' pour exprimer une douleur.",
+        "phonetic": "/ˈmaː.le/"
+      },
+      {
+        "word": "testa",
+        "pos": "noun",
+        "translation": "tête",
+        "note": "Fréquent, utilisé dans les expressions de douleur.",
+        "phonetic": "/ˈtɛ.sta/"
+      },
+      {
+        "word": "più",
+        "pos": "adv",
+        "translation": "plus",
+        "note": "Comparatif, très fréquent.",
+        "phonetic": "/pju/"
+      },
+      {
+        "word": "bene",
+        "pos": "adv",
+        "translation": "bien",
+        "note": "Utilisé pour répondre 'sto bene' (je vais bien).",
+        "phonetic": "/ˈbɛ.ne/"
+      },
+      {
+        "word": "quando",
+        "pos": "conj",
+        "translation": "quand",
+        "note": "Conjonction temporelle.",
+        "phonetic": "/ˈkwan.do/"
+      },
+      {
+        "word": "oggi",
+        "pos": "adv",
+        "translation": "aujourd'hui",
+        "note": "Adverbe de temps.",
+        "phonetic": "/ˈɔd.dʒi/"
+      },
+      {
+        "word": "dare",
+        "pos": "verb",
+        "translation": "donner",
+        "note": "Verbe irrégulier, utilisé pour 'dare una medicina'.",
+        "phonetic": "/ˈdaː.re/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buongiorno, dottore. Oggi voglio vedere come sto.",
+        "translation": "Bonjour, docteur. Aujourd'hui je veux voir comment je vais.",
+        "highlights": [
+          "dottore",
+          "oggi",
+          "vedere",
+          "come"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ciao! Come ti senti? Hai male alla testa?",
+        "translation": "Salut ! Comment te sens-tu ? As-tu mal à la tête ?",
+        "highlights": [
+          "come",
+          "male",
+          "testa"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sì, un po'. Ma quando prendo una medicina, sto più bene.",
+        "translation": "Oui, un peu. Mais quand je prends un médicament, je vais mieux.",
+        "highlights": [
+          "quando",
+          "più",
+          "bene"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Va bene. Ti do una ricetta. Quando torni domani?",
+        "translation": "D'accord. Je te donne une ordonnance. Quand reviens-tu demain ?",
+        "highlights": [
+          "dare",
+          "quando"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Grazie, dottore. Oggi non ho più male. Arrivederci!",
+        "translation": "Merci, docteur. Aujourd'hui je n'ai plus mal. Au revoir !",
+        "highlights": [
+          "oggi",
+          "più",
+          "male"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "avere male alla testa",
+        "translation": "avoir mal à la tête"
+      },
+      {
+        "phrase": "sto bene",
+        "translation": "je vais bien"
+      },
+      {
+        "phrase": "dare una ricetta",
+        "translation": "donner une ordonnance"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_17",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Paying at a supermarket checkout",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "fare",
+        "pos": "verb",
+        "translation": "faire",
+        "note": "Verbe très fréquent, utilisé ici dans l'expression 'faire la queue' (fare la fila).",
+        "phonetic": "/ˈfa.re/"
+      },
+      {
+        "word": "cassa",
+        "pos": "noun",
+        "translation": "caisse",
+        "note": "Féminin singulier. Désigne la caisse du supermarché.",
+        "phonetic": "/ˈkas.sa/"
+      },
+      {
+        "word": "pagare",
+        "pos": "verb",
+        "translation": "payer",
+        "note": "Verbe régulier en -are. Souvent suivi de 'per' ou d'un complément d'objet.",
+        "phonetic": "/paˈɡa.re/"
+      },
+      {
+        "word": "totale",
+        "pos": "noun",
+        "translation": "total",
+        "note": "Nom masculin. Utilisé pour le montant total à payer.",
+        "phonetic": "/toˈta.le/"
+      },
+      {
+        "word": "contanti",
+        "pos": "noun",
+        "translation": "espèces",
+        "note": "Toujours au pluriel. Signifie 'argent liquide'.",
+        "phonetic": "/konˈtan.ti/"
+      },
+      {
+        "word": "carta",
+        "pos": "noun",
+        "translation": "carte",
+        "note": "Ici, 'carta' signifie 'carte bancaire'. Peut aussi signifier 'papier'.",
+        "phonetic": "/ˈkar.ta/"
+      },
+      {
+        "word": "bancomat",
+        "pos": "noun",
+        "translation": "carte de débit / bancomat",
+        "note": "Emprunt à l'anglais, utilisé en italien pour désigner la carte de débit.",
+        "phonetic": "/ˈbaŋ.ko.mat/"
+      },
+      {
+        "word": "scontrino",
+        "pos": "noun",
+        "translation": "ticket de caisse",
+        "note": "Nom masculin. Le reçu remis après le paiement.",
+        "phonetic": "/skonˈtri.no/"
+      },
+      {
+        "word": "borsa",
+        "pos": "noun",
+        "translation": "sac",
+        "note": "Féminin singulier. Désigne le sac de courses.",
+        "phonetic": "/ˈbor.sa/"
+      },
+      {
+        "word": "poi",
+        "pos": "adverb",
+        "translation": "ensuite",
+        "note": "Adverbe de temps. Attention : déjà vu dans la liste précédente, mais ici utilisé avec un autre sens contextuel.",
+        "phonetic": "/ˈpɔ.i/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Devo fare la coda alla cassa per pagare.",
+        "translation": "Je dois faire la queue à la caisse pour payer.",
+        "highlights": [
+          "fare",
+          "cassa",
+          "pagare"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Il totale è venti euro. Paga in contanti o con carta?",
+        "translation": "Le total est de vingt euros. Vous payez en espèces ou par carte ?",
+        "highlights": [
+          "totale",
+          "contanti",
+          "carta"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Pago con il bancomat, per favore.",
+        "translation": "Je paie avec la carte de débit, s'il vous plaît.",
+        "highlights": [
+          "bancomat",
+          "pagare"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ecco il suo scontrino. Vuole una borsa?",
+        "translation": "Voici votre ticket de caisse. Voulez-vous un sac ?",
+        "highlights": [
+          "scontrino",
+          "borsa"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sì, grazie. Poi prendo la borsa e vado.",
+        "translation": "Oui, merci. Ensuite je prends le sac et je m'en vais.",
+        "highlights": [
+          "poi",
+          "borsa"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "fare la coda",
+        "translation": "faire la queue"
+      },
+      {
+        "phrase": "pagare in contanti",
+        "translation": "payer en espèces"
+      },
+      {
+        "phrase": "pagare con carta",
+        "translation": "payer par carte"
+      },
+      {
+        "phrase": "ecco il suo scontrino",
+        "translation": "voici votre ticket de caisse"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_19",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Calling a friend to make simple plans",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "domani",
+        "pos": "adv",
+        "translation": "demain",
+        "note": "Adverbe de temps très fréquent.",
+        "phonetic": "/doˈmani/"
+      },
+      {
+        "word": "andare",
+        "pos": "verb",
+        "translation": "aller",
+        "note": "Verbe irrégulier, très utile pour les projets.",
+        "phonetic": "/anˈdare/"
+      },
+      {
+        "word": "cinema",
+        "pos": "noun",
+        "translation": "cinéma",
+        "note": "Nom masculin, même sens qu'en français.",
+        "phonetic": "/ˈtʃinema/"
+      },
+      {
+        "word": "volere",
+        "pos": "verb",
+        "translation": "vouloir",
+        "note": "Verbe modal, fréquent dans les invitations.",
+        "phonetic": "/voˈlere/"
+      },
+      {
+        "word": "con",
+        "pos": "prep",
+        "translation": "avec",
+        "note": "Préposition simple et courante.",
+        "phonetic": "/kon/"
+      },
+      {
+        "word": "noi",
+        "pos": "pron",
+        "translation": "nous",
+        "note": "Pronom sujet de la première personne du pluriel.",
+        "phonetic": "/ˈnoi/"
+      },
+      {
+        "word": "ma",
+        "pos": "conj",
+        "translation": "mais",
+        "note": "Conjonction de coordination très fréquente.",
+        "phonetic": "/ma/"
+      },
+      {
+        "word": "dove",
+        "pos": "adv",
+        "translation": "où",
+        "note": "Adverbe interrogatif de lieu.",
+        "phonetic": "/ˈdove/"
+      },
+      {
+        "word": "alle",
+        "pos": "prep",
+        "translation": "à (heure)",
+        "note": "Article contracté, déjà vu mais ici dans un autre contexte.",
+        "phonetic": "/ˈalle/"
+      },
+      {
+        "word": "va",
+        "pos": "verb",
+        "translation": "va (aller)",
+        "note": "3e personne du singulier de 'andare', utilisé dans 'va bene'.",
+        "phonetic": "/va/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Ciao! Domani vuoi andare al cinema con me?",
+        "translation": "Salut ! Demain, tu veux aller au cinéma avec moi ?",
+        "highlights": [
+          "Domani",
+          "vuoi",
+          "andare",
+          "con"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sì, volentieri! Ma dove ci troviamo?",
+        "translation": "Oui, volontiers ! Mais où est-ce qu'on se retrouve ?",
+        "highlights": [
+          "Ma",
+          "dove"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Possiamo andare al cinema alle sette. Va bene?",
+        "translation": "On peut aller au cinéma à sept heures. Ça va ?",
+        "highlights": [
+          "andare",
+          "alle",
+          "Va"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Perfetto! Allora noi ci vediamo lì. A domani!",
+        "translation": "Parfait ! Alors on se voit là-bas. À demain !",
+        "highlights": [
+          "noi",
+          "domani"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "vuoi andare al cinema?",
+        "translation": "tu veux aller au cinéma ?"
+      },
+      {
+        "phrase": "dove ci troviamo?",
+        "translation": "où est-ce qu'on se retrouve ?"
+      },
+      {
+        "phrase": "va bene?",
+        "translation": "ça va ? / d'accord ?"
+      },
+      {
+        "phrase": "a domani!",
+        "translation": "à demain !"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_21",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your family to someone",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "famiglia",
+        "pos": "noun",
+        "translation": "famille",
+        "note": "Féminin, se dit de la famille au sens large.",
+        "phonetic": "/faˈmiʎʎa/"
+      },
+      {
+        "word": "madre",
+        "pos": "noun",
+        "translation": "mère",
+        "note": "Féminin, formel ; 'mamma' est plus courant.",
+        "phonetic": "/ˈmadre/"
+      },
+      {
+        "word": "padre",
+        "pos": "noun",
+        "translation": "père",
+        "note": "Masculin, formel ; 'papà' est plus courant.",
+        "phonetic": "/ˈpadre/"
+      },
+      {
+        "word": "fratello",
+        "pos": "noun",
+        "translation": "frère",
+        "note": "Masculin ; pour une sœur, on dit 'sorella'.",
+        "phonetic": "/fraˈtɛllo/"
+      },
+      {
+        "word": "sorella",
+        "pos": "noun",
+        "translation": "sœur",
+        "note": "Féminin.",
+        "phonetic": "/soˈrɛlla/"
+      },
+      {
+        "word": "grande",
+        "pos": "adj",
+        "translation": "grand",
+        "note": "S'accorde en genre et en nombre : grande/grandi.",
+        "phonetic": "/ˈɡrande/"
+      },
+      {
+        "word": "piccolo",
+        "pos": "adj",
+        "translation": "petit",
+        "note": "S'accorde en genre et en nombre : piccolo/piccoli/piccola/piccole.",
+        "phonetic": "/ˈpikkolo/"
+      },
+      {
+        "word": "avere",
+        "pos": "verb",
+        "translation": "avoir",
+        "note": "Verbe auxiliaire, très fréquent. Se conjugue : ho, hai, ha...",
+        "phonetic": "/aˈvere/"
+      },
+      {
+        "word": "vivere",
+        "pos": "verb",
+        "translation": "vivre",
+        "note": "Verbe intransitif, souvent suivi de 'a' ou 'in' pour le lieu.",
+        "phonetic": "/ˈvivere/"
+      },
+      {
+        "word": "qui",
+        "pos": "adv",
+        "translation": "ici",
+        "note": "Adverbe de lieu ; équivaut à 'ici' en français.",
+        "phonetic": "/kwi/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Ciao! Questa è la mia famiglia: mio padre, mia madre, mio fratello e mia sorella.",
+        "translation": "Salut ! Voici ma famille : mon père, ma mère, mon frère et ma sœur.",
+        "highlights": [
+          "famiglia",
+          "padre",
+          "madre",
+          "fratello",
+          "sorella"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Che bello! Hai un fratello e una sorella? Quanti anni hanno?",
+        "translation": "Comme c'est beau ! Tu as un frère et une sœur ? Quel âge ont-ils ?",
+        "highlights": [
+          "Hai"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sì, mio fratello ha vent'anni e mia sorella è piccola, ha dieci anni.",
+        "translation": "Oui, mon frère a vingt ans et ma sœur est petite, elle a dix ans.",
+        "highlights": [
+          "ha",
+          "piccola"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "E i tuoi genitori? Sono grandi o giovani?",
+        "translation": "Et tes parents ? Ils sont âgés ou jeunes ?",
+        "highlights": [
+          "grandi"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Mio padre ha cinquant'anni, mia madre è più giovane. Vivono qui, vicino a me.",
+        "translation": "Mon père a cinquante ans, ma mère est plus jeune. Ils vivent ici, près de chez moi.",
+        "highlights": [
+          "Vivono",
+          "qui"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Questa è la mia famiglia",
+        "translation": "Voici ma famille"
+      },
+      {
+        "phrase": "Quanti anni hai?",
+        "translation": "Quel âge as-tu ?"
+      },
+      {
+        "phrase": "Vivere qui",
+        "translation": "Vivre ici"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_23",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking for directions in the street",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "strada",
+        "pos": "noun",
+        "translation": "rue",
+        "note": "Féminin, comme en français.",
+        "phonetic": "/ˈstra.da/"
+      },
+      {
+        "word": "destra",
+        "pos": "noun",
+        "translation": "droite",
+        "note": "Souvent utilisé avec 'a' : 'a destra'.",
+        "phonetic": "/ˈde.stra/"
+      },
+      {
+        "word": "sinistra",
+        "pos": "noun",
+        "translation": "gauche",
+        "note": "Souvent utilisé avec 'a' : 'a sinistra'.",
+        "phonetic": "/siˈni.stra/"
+      },
+      {
+        "word": "sempre",
+        "pos": "adverb",
+        "translation": "toujours",
+        "note": "Adverbe de fréquence.",
+        "phonetic": "/ˈsɛm.pre/"
+      },
+      {
+        "word": "poi",
+        "pos": "adverb",
+        "translation": "ensuite, puis",
+        "note": "Marqueur temporel fréquent.",
+        "phonetic": "/ˈpɔ.i/"
+      },
+      {
+        "word": "chiedere",
+        "pos": "verb",
+        "translation": "demander",
+        "note": "Verbe irrégulier (chiedo, chiedi...).",
+        "phonetic": "/ˈkjɛ.de.re/"
+      },
+      {
+        "word": "sapere",
+        "pos": "verb",
+        "translation": "savoir",
+        "note": "Au présent : so, sai, sa... (irrégulier).",
+        "phonetic": "/saˈpe.re/"
+      },
+      {
+        "word": "trovare",
+        "pos": "verb",
+        "translation": "trouver",
+        "note": "Premier groupe, régulier.",
+        "phonetic": "/troˈva.re/"
+      },
+      {
+        "word": "qui",
+        "pos": "adverb",
+        "translation": "ici",
+        "note": "Synonyme de 'qua'.",
+        "phonetic": "/kwi/"
+      },
+      {
+        "word": "per",
+        "pos": "preposition",
+        "translation": "pour, à (destination)",
+        "note": "Indique le but ou la direction.",
+        "phonetic": "/per/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Scusi, per andare alla stazione, quale strada devo prendere?",
+        "translation": "Excusez-moi, pour aller à la gare, quelle rue dois-je prendre ?",
+        "highlights": [
+          "per",
+          "strada"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Vada sempre dritto, poi giri a destra.",
+        "translation": "Allez toujours tout droit, puis tournez à droite.",
+        "highlights": [
+          "sempre",
+          "poi",
+          "destra"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "A destra o a sinistra?",
+        "translation": "À droite ou à gauche ?",
+        "highlights": [
+          "destra",
+          "sinistra"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "A destra, subito dopo il bar. Non è difficile, lo sa tutto qui.",
+        "translation": "À droite, juste après le bar. Ce n'est pas difficile, tout le monde le sait ici.",
+        "highlights": [
+          "destra",
+          "sapere",
+          "qui"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Grazie, spero di trovare la strada senza chiedere ancora.",
+        "translation": "Merci, j'espère trouver la rue sans demander encore.",
+        "highlights": [
+          "trovare",
+          "chiedere"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "per andare a...",
+        "translation": "pour aller à..."
+      },
+      {
+        "phrase": "giri a destra",
+        "translation": "tournez à droite"
+      },
+      {
+        "phrase": "sempre dritto",
+        "translation": "tout droit"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_25",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "On a bus asking the driver for help",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "scendere",
+        "pos": "verb",
+        "translation": "descendre",
+        "note": "Verbe irrégulier ; utilisé pour descendre d'un véhicule.",
+        "phonetic": "/ʃenˈde.re/"
+      },
+      {
+        "word": "fermata",
+        "pos": "noun",
+        "translation": "arrêt (de bus)",
+        "note": "Nom féminin ; désigne l'arrêt du bus.",
+        "phonetic": "/ferˈma.ta/"
+      },
+      {
+        "word": "prossima",
+        "pos": "adj",
+        "translation": "prochaine",
+        "note": "Féminin de 'prossimo' ; accord avec 'fermata'.",
+        "phonetic": "/ˈprɔs.si.ma/"
+      },
+      {
+        "word": "autobus",
+        "pos": "noun",
+        "translation": "bus",
+        "note": "Invariable ; synonyme courant de 'bus'.",
+        "phonetic": "/ˈau.to.bus/"
+      },
+      {
+        "word": "aiutare",
+        "pos": "verb",
+        "translation": "aider",
+        "note": "Verbe régulier en -are.",
+        "phonetic": "/a.juˈta.re/"
+      },
+      {
+        "word": "signore",
+        "pos": "noun",
+        "translation": "monsieur",
+        "note": "Forme de politesse pour s'adresser à un homme.",
+        "phonetic": "/siɲˈɲo.re/"
+      },
+      {
+        "word": "per favore",
+        "pos": "adv",
+        "translation": "s'il vous plaît",
+        "note": "Locution adverbiale de politesse.",
+        "phonetic": "/per faˈvo.re/"
+      },
+      {
+        "word": "devo",
+        "pos": "verb",
+        "translation": "je dois",
+        "note": "1ère personne du singulier du verbe 'dovere'.",
+        "phonetic": "/ˈde.vo/"
+      },
+      {
+        "word": "qui",
+        "pos": "adv",
+        "translation": "ici",
+        "note": "Indique un lieu proche.",
+        "phonetic": "/kwi/"
+      },
+      {
+        "word": "grazie",
+        "pos": "interj",
+        "translation": "merci",
+        "note": "Exclamation de remerciement.",
+        "phonetic": "/ˈɡrat.t͡sje/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A (passager)",
+        "text": "Signore, per favore, devo scendere alla prossima fermata?",
+        "translation": "Monsieur, s'il vous plaît, dois-je descendre au prochain arrêt ?",
+        "highlights": [
+          "Signore",
+          "per favore",
+          "devo",
+          "scendere",
+          "prossima",
+          "fermata"
+        ]
+      },
+      {
+        "speaker": "B (chauffeur)",
+        "text": "Sì, la prossima fermata è qui. Ma questo autobus non si ferma qui.",
+        "translation": "Oui, le prochain arrêt est ici. Mais ce bus ne s'arrête pas ici.",
+        "highlights": [
+          "prossima",
+          "fermata",
+          "qui",
+          "autobus",
+          "qui"
+        ]
+      },
+      {
+        "speaker": "A (passager)",
+        "text": "Ah, come posso fare? Mi può aiutare?",
+        "translation": "Ah, comment puis-je faire ? Pouvez-vous m'aider ?",
+        "highlights": [
+          "aiutare"
+        ]
+      },
+      {
+        "speaker": "B (chauffeur)",
+        "text": "Certo, scenda alla prossima fermata e prenda il prossimo autobus.",
+        "translation": "Bien sûr, descendez au prochain arrêt et prenez le prochain bus.",
+        "highlights": [
+          "scenda",
+          "prossima",
+          "fermata",
+          "autobus"
+        ]
+      },
+      {
+        "speaker": "A (passager)",
+        "text": "Grazie mille!",
+        "translation": "Merci beaucoup !",
+        "highlights": [
+          "Grazie"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "devo scendere alla prossima fermata?",
+        "translation": "Dois-je descendre au prochain arrêt ?"
+      },
+      {
+        "phrase": "Mi può aiutare?",
+        "translation": "Pouvez-vous m'aider ?"
+      },
+      {
+        "phrase": "Grazie mille!",
+        "translation": "Merci beaucoup !"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_27",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Introducing a colleague at work",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "lavoro",
+        "pos": "noun",
+        "translation": "travail",
+        "note": "Nom masculin, très courant.",
+        "phonetic": "/laˈvo.ro/"
+      },
+      {
+        "word": "collega",
+        "pos": "noun",
+        "translation": "collègue",
+        "note": "Invariable en genre.",
+        "phonetic": "/kolˈle.ɡa/"
+      },
+      {
+        "word": "questo",
+        "pos": "det",
+        "translation": "ce/cet/cette",
+        "note": "Déterminant démonstratif.",
+        "phonetic": "/ˈkwe.sto/"
+      },
+      {
+        "word": "nuovo",
+        "pos": "adj",
+        "translation": "nouveau",
+        "note": "S'accorde en genre et en nombre.",
+        "phonetic": "/ˈnwɔ.vo/"
+      },
+      {
+        "word": "nome",
+        "pos": "noun",
+        "translation": "nom",
+        "note": "Souvent utilisé avec 'come ti chiami' mais ici pour présenter.",
+        "phonetic": "/ˈno.me/"
+      },
+      {
+        "word": "piacere",
+        "pos": "noun",
+        "translation": "plaisir",
+        "note": "Dans 'piacere di conoscerti' = enchanté.",
+        "phonetic": "/pjaˈt͡ʃe.re/"
+      },
+      {
+        "word": "conoscere",
+        "pos": "verb",
+        "translation": "connaître, rencontrer",
+        "note": "Verbe régulier en -ere.",
+        "phonetic": "/koˈnoʃ.ʃe.re/"
+      },
+      {
+        "word": "anche",
+        "pos": "adv",
+        "translation": "aussi",
+        "note": "Fréquent pour ajouter une information.",
+        "phonetic": "/ˈaŋ.ke/"
+      },
+      {
+        "word": "ufficio",
+        "pos": "noun",
+        "translation": "bureau",
+        "note": "Lieu de travail.",
+        "phonetic": "/ufˈfi.t͡ʃo/"
+      },
+      {
+        "word": "dove",
+        "pos": "adv",
+        "translation": "où",
+        "note": "Adverbe interrogatif ou relatif.",
+        "phonetic": "/ˈdo.ve/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buongiorno, questo è il mio nuovo collega, Marco.",
+        "translation": "Bonjour, voici mon nouveau collègue, Marco.",
+        "highlights": [
+          "questo",
+          "nuovo",
+          "collega"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Piacere, Marco. Qual è il tuo nome completo?",
+        "translation": "Enchanté, Marco. Quel est ton nom complet ?",
+        "highlights": [
+          "piacere",
+          "nome"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "Il mio nome è Marco Rossi. Lavoro nell'ufficio di Milano.",
+        "translation": "Mon nom est Marco Rossi. Je travaille dans le bureau de Milan.",
+        "highlights": [
+          "nome",
+          "lavoro",
+          "ufficio"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Anche io lavoro a Milano. Dove sta il tuo ufficio?",
+        "translation": "Je travaille aussi à Milan. Où se trouve ton bureau ?",
+        "highlights": [
+          "anche",
+          "lavoro",
+          "dove",
+          "ufficio"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "Il mio ufficio sta al terzo piano. Piacere di conoscerti!",
+        "translation": "Mon bureau est au troisième étage. Enchanté de te connaître !",
+        "highlights": [
+          "ufficio",
+          "piacere",
+          "conoscerti"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Piacere di conoscerti",
+        "translation": "Enchanté de te connaître"
+      },
+      {
+        "phrase": "Qual è il tuo nome?",
+        "translation": "Quel est ton nom ?"
+      },
+      {
+        "phrase": "Lavoro in ufficio",
+        "translation": "Je travaille au bureau"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_29",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Leaving a voicemail message",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "essere",
+        "pos": "verb",
+        "translation": "être",
+        "note": "Auxiliaire et verbe principal; très fréquent.",
+        "phonetic": "/ˈɛs.se.re/"
+      },
+      {
+        "word": "io",
+        "pos": "pron",
+        "translation": "je",
+        "note": "Pronom sujet, souvent omis en italien.",
+        "phonetic": "/ˈi.o/"
+      },
+      {
+        "word": "chiamare",
+        "pos": "verb",
+        "translation": "appeler",
+        "note": "Verbe régulier en -are.",
+        "phonetic": "/kjaˈma.re/"
+      },
+      {
+        "word": "ora",
+        "pos": "adv",
+        "translation": "maintenant",
+        "note": "Adverbe de temps.",
+        "phonetic": "/ˈo.ra/"
+      },
+      {
+        "word": "non",
+        "pos": "adv",
+        "translation": "ne ... pas",
+        "note": "Négation.",
+        "phonetic": "/non/"
+      },
+      {
+        "word": "potere",
+        "pos": "verb",
+        "translation": "pouvoir",
+        "note": "Verbe modal.",
+        "phonetic": "/poˈte.re/"
+      },
+      {
+        "word": "rispondere",
+        "pos": "verb",
+        "translation": "répondre",
+        "note": "Verbe irrégulier en -ere.",
+        "phonetic": "/riˈspon.de.re/"
+      },
+      {
+        "word": "messaggio",
+        "pos": "noun",
+        "translation": "message",
+        "note": "Nom masculin.",
+        "phonetic": "/mesˈsad.dʒo/"
+      },
+      {
+        "word": "poi",
+        "pos": "adv",
+        "translation": "ensuite",
+        "note": "Attention: déjà dans la liste d'exclusion? Ici utilisé comme 'plus tard'.",
+        "phonetic": "/ˈpɔ.i/"
+      },
+      {
+        "word": "a",
+        "pos": "prep",
+        "translation": "à",
+        "note": "Préposition simple.",
+        "phonetic": "/a/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Ciao, sono Maria. Non posso rispondere ora.",
+        "translation": "Bonjour, c'est Maria. Je ne peux pas répondre maintenant.",
+        "highlights": [
+          "sono",
+          "Non",
+          "posso",
+          "rispondere",
+          "ora"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ciao Maria, sono io, Luca. Ti chiamo per un messaggio.",
+        "translation": "Bonjour Maria, c'est moi, Luca. Je t'appelle pour un message.",
+        "highlights": [
+          "io",
+          "chiamo",
+          "messaggio"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Lascia il tuo messaggio dopo il segnale.",
+        "translation": "Laisse ton message après le signal.",
+        "highlights": [
+          "messaggio"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ok, poi ti chiamo a casa. Ciao!",
+        "translation": "Ok, je t'appelle plus tard à la maison. Salut!",
+        "highlights": [
+          "poi",
+          "a"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Non posso rispondere ora",
+        "translation": "Je ne peux pas répondre maintenant"
+      },
+      {
+        "phrase": "Lascia il tuo messaggio",
+        "translation": "Laisse ton message"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_31",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the post office sending a package",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "dare",
+        "pos": "verb",
+        "translation": "donner",
+        "note": "verbe très fréquent, signifie 'donner'",
+        "phonetic": "/ˈda.re/"
+      },
+      {
+        "word": "peso",
+        "pos": "noun",
+        "translation": "poids",
+        "note": "nom masculin, indique le poids",
+        "phonetic": "/ˈpe.zo/"
+      },
+      {
+        "word": "costa",
+        "pos": "verb",
+        "translation": "coûte",
+        "note": "3e personne du singulier de 'costare' (coûter)",
+        "phonetic": "/ˈkɔ.sta/"
+      },
+      {
+        "word": "prezzo",
+        "pos": "noun",
+        "translation": "prix",
+        "note": "nom masculin, le prix",
+        "phonetic": "/ˈpret.tso/"
+      },
+      {
+        "word": "busta",
+        "pos": "noun",
+        "translation": "enveloppe",
+        "note": "nom féminin, enveloppe ou pochette",
+        "phonetic": "/ˈbu.sta/"
+      },
+      {
+        "word": "riempire",
+        "pos": "verb",
+        "translation": "remplir",
+        "note": "verbe en -ire, signifie 'remplir'",
+        "phonetic": "/ri.emˈpi.re/"
+      },
+      {
+        "word": "modulo",
+        "pos": "noun",
+        "translation": "formulaire",
+        "note": "nom masculin, formulaire à remplir",
+        "phonetic": "/ˈmɔ.du.lo/"
+      },
+      {
+        "word": "qualcosa",
+        "pos": "pron",
+        "translation": "quelque chose",
+        "note": "pronom indéfini, signifie 'quelque chose'",
+        "phonetic": "/kwalˈko.sa/"
+      },
+      {
+        "word": "quanto",
+        "pos": "adv",
+        "translation": "combien",
+        "note": "adverbe interrogatif, 'combien'",
+        "phonetic": "/ˈkwan.to/"
+      },
+      {
+        "word": "subito",
+        "pos": "adv",
+        "translation": "tout de suite",
+        "note": "adverbe de temps, signifie 'immédiatement'",
+        "phonetic": "/ˈsu.bi.to/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buongiorno, devo spedire un pacco. Quanto costa?",
+        "translation": "Bonjour, je dois envoyer un colis. Combien ça coûte ?",
+        "highlights": [
+          "Quanto",
+          "costa"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Dipende dal peso. Mi dia il pacco, per favore.",
+        "translation": "Ça dépend du poids. Donnez-moi le colis, s'il vous plaît.",
+        "highlights": [
+          "peso",
+          "dia"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Ecco. C'è anche una busta con documenti.",
+        "translation": "Voilà. Il y a aussi une enveloppe avec des documents.",
+        "highlights": [
+          "busta"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Va bene. Il prezzo è venti euro. Deve riempire questo modulo.",
+        "translation": "D'accord. Le prix est de vingt euros. Vous devez remplir ce formulaire.",
+        "highlights": [
+          "prezzo",
+          "riempire",
+          "modulo"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Grazie. Ho bisogno di qualcosa? ... No, faccio subito.",
+        "translation": "Merci. J'ai besoin de quelque chose ? ... Non, je le fais tout de suite.",
+        "highlights": [
+          "qualcosa",
+          "subito"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Quanto costa?",
+        "translation": "Combien ça coûte ?"
+      },
+      {
+        "phrase": "Mi dia",
+        "translation": "Donnez-moi (forme de politesse)"
+      },
+      {
+        "phrase": "Deve riempire questo modulo",
+        "translation": "Vous devez remplir ce formulaire"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_33",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your daily routine",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "ogni",
+        "pos": "adj",
+        "translation": "chaque",
+        "note": "Utilisé pour exprimer une répétition quotidienne.",
+        "phonetic": "/ˈoɲɲi/"
+      },
+      {
+        "word": "giorno",
+        "pos": "noun",
+        "translation": "jour",
+        "note": "Masculin, souvent utilisé avec 'ogni'.",
+        "phonetic": "/ˈdʒorno/"
+      },
+      {
+        "word": "alzarsi",
+        "pos": "verb",
+        "translation": "se lever",
+        "note": "Verbe pronominal, très courant dans la routine.",
+        "phonetic": "/alˈtsarsi/"
+      },
+      {
+        "word": "fare",
+        "pos": "verb",
+        "translation": "faire",
+        "note": "Verbe très fréquent, utilisé dans 'fare colazione'.",
+        "phonetic": "/ˈfare/"
+      },
+      {
+        "word": "colazione",
+        "pos": "noun",
+        "translation": "petit-déjeuner",
+        "note": "Féminin, souvent avec 'fare'.",
+        "phonetic": "/kolatˈtsjone/"
+      },
+      {
+        "word": "pranzo",
+        "pos": "noun",
+        "translation": "déjeuner (repas)",
+        "note": "Masculin, repas du midi.",
+        "phonetic": "/ˈprandzo/"
+      },
+      {
+        "word": "cena",
+        "pos": "noun",
+        "translation": "dîner",
+        "note": "Féminin, repas du soir.",
+        "phonetic": "/ˈtʃena/"
+      },
+      {
+        "word": "sera",
+        "pos": "noun",
+        "translation": "soir",
+        "note": "Féminin, moment de la journée.",
+        "phonetic": "/ˈsera/"
+      },
+      {
+        "word": "dopo",
+        "pos": "prep",
+        "translation": "après",
+        "note": "Préposition temporelle, très courante.",
+        "phonetic": "/ˈdopo/"
+      },
+      {
+        "word": "casa",
+        "pos": "noun",
+        "translation": "maison",
+        "note": "Féminin, souvent utilisée dans 'a casa'.",
+        "phonetic": "/ˈkasa/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Ogni giorno mi alzo alle sette e faccio colazione.",
+        "translation": "Chaque jour, je me lève à sept heures et je prends le petit-déjeuner.",
+        "highlights": [
+          "Ogni",
+          "giorno",
+          "alzo",
+          "faccio",
+          "colazione"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "E dopo il pranzo, cosa fai?",
+        "translation": "Et après le déjeuner, que fais-tu ?",
+        "highlights": [
+          "dopo",
+          "pranzo"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Dopo pranzo torno a casa e riposo un po'.",
+        "translation": "Après le déjeuner, je rentre à la maison et je me repose un peu.",
+        "highlights": [
+          "Dopo",
+          "pranzo",
+          "casa"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "E la sera, ceni a casa?",
+        "translation": "Et le soir, tu dînes à la maison ?",
+        "highlights": [
+          "sera",
+          "ceni",
+          "casa"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sì, la cena è sempre a casa.",
+        "translation": "Oui, le dîner est toujours à la maison.",
+        "highlights": [
+          "cena"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Ogni giorno",
+        "translation": "Chaque jour"
+      },
+      {
+        "phrase": "Fare colazione",
+        "translation": "Prendre le petit-déjeuner"
+      },
+      {
+        "phrase": "Dopo pranzo",
+        "translation": "Après le déjeuner"
+      },
+      {
+        "phrase": "A casa",
+        "translation": "À la maison"
+      },
+      {
+        "phrase": "La sera",
+        "translation": "Le soir"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_35",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking about opening hours",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "aprire",
+        "pos": "verb",
+        "translation": "ouvrir",
+        "note": "Verbe irrégulier, utilisé pour les magasins et établissements.",
+        "phonetic": "/aˈpri.re/"
+      },
+      {
+        "word": "ora",
+        "pos": "noun",
+        "translation": "heure",
+        "note": "Féminin, souvent utilisé pour demander l'heure d'ouverture.",
+        "phonetic": "/ˈo.ra/"
+      },
+      {
+        "word": "aprirsi",
+        "pos": "verb",
+        "translation": "s'ouvrir",
+        "note": "Forme pronominale, moins courante mais utilisée pour les horaires.",
+        "phonetic": "/aˈprir.si/"
+      },
+      {
+        "word": "dalle",
+        "pos": "prep",
+        "translation": "à partir de",
+        "note": "Préposition articulée (da + le), utilisée pour les horaires.",
+        "phonetic": "/ˈdal.le/"
+      },
+      {
+        "word": "alle",
+        "pos": "prep",
+        "translation": "à (heure)",
+        "note": "Préposition articulée (a + le), utilisée pour les heures.",
+        "phonetic": "/ˈal.le/"
+      },
+      {
+        "word": "fino",
+        "pos": "prep",
+        "translation": "jusqu'à",
+        "note": "Souvent suivi de 'a' ou 'alle' pour indiquer la fin d'un horaire.",
+        "phonetic": "/ˈfi.no/"
+      },
+      {
+        "word": "chiudere",
+        "pos": "verb",
+        "translation": "fermer",
+        "note": "Verbe irrégulier, opposé de 'aprire'.",
+        "phonetic": "/ˈkju.de.re/"
+      },
+      {
+        "word": "sì",
+        "pos": "adv",
+        "translation": "oui",
+        "note": "Adverbe d'affirmation, très fréquent.",
+        "phonetic": "/ˈsi/"
+      },
+      {
+        "word": "ma",
+        "pos": "conj",
+        "translation": "mais",
+        "note": "Conjonction de coordination pour introduire une opposition.",
+        "phonetic": "/ma/"
+      },
+      {
+        "word": "dalle... alle...",
+        "pos": "prep",
+        "translation": "de... à...",
+        "note": "Structure pour exprimer une plage horaire.",
+        "phonetic": "/ˈdal.le ˈal.le/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "A che ora aprite oggi?",
+        "translation": "À quelle heure ouvrez-vous aujourd'hui ?",
+        "highlights": [
+          "ora",
+          "aprite"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Apriamo dalle 8 alle 12, ma chiudiamo per pranzo.",
+        "translation": "Nous ouvrons de 8 à 12, mais nous fermons pour le déjeuner.",
+        "highlights": [
+          "dalle",
+          "alle",
+          "ma",
+          "chiudiamo"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "E poi aprite di nuovo fino a che ora?",
+        "translation": "Et ensuite vous rouvrez jusqu'à quelle heure ?",
+        "highlights": [
+          "fino",
+          "ora"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sì, riapriamo alle 15 e restiamo aperti fino alle 19.",
+        "translation": "Oui, nous rouvrons à 15 et nous restons ouverts jusqu'à 19.",
+        "highlights": [
+          "sì",
+          "alle",
+          "fino"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "A che ora aprite?",
+        "translation": "À quelle heure ouvrez-vous ?"
+      },
+      {
+        "phrase": "dalle 8 alle 12",
+        "translation": "de 8 à 12"
+      },
+      {
+        "phrase": "fino alle 19",
+        "translation": "jusqu'à 19"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_37",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Choosing a dish from a menu",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "prendere",
+        "pos": "verb",
+        "translation": "prendre",
+        "note": "Utilisé pour commander ou choisir quelque chose.",
+        "phonetic": "/ˈprɛn.de.re/"
+      },
+      {
+        "word": "vedere",
+        "pos": "verb",
+        "translation": "voir",
+        "note": "Souvent utilisé pour dire 'voyons' ou 'regardons'.",
+        "phonetic": "/veˈde.re/"
+      },
+      {
+        "word": "cosa",
+        "pos": "noun",
+        "translation": "chose",
+        "note": "Fréquent dans les questions comme 'cosa prendi?'",
+        "phonetic": "/ˈkɔ.za/"
+      },
+      {
+        "word": "bene",
+        "pos": "adv",
+        "translation": "bien",
+        "note": "Peut aussi être un nom ('il bene') ou une interjection.",
+        "phonetic": "/ˈbɛ.ne/"
+      },
+      {
+        "word": "ma",
+        "pos": "conj",
+        "translation": "mais",
+        "note": "Conjonction d'opposition.",
+        "phonetic": "/ma/"
+      },
+      {
+        "word": "o",
+        "pos": "conj",
+        "translation": "ou",
+        "note": "Pour proposer des alternatives.",
+        "phonetic": "/ɔ/"
+      },
+      {
+        "word": "con",
+        "pos": "prep",
+        "translation": "avec",
+        "note": "Préposition courante, aussi dans les plats composés.",
+        "phonetic": "/kon/"
+      },
+      {
+        "word": "volere",
+        "pos": "verb",
+        "translation": "vouloir",
+        "note": "Conjugaison: voglio, vuoi, vuole.",
+        "phonetic": "/voˈle.re/"
+      },
+      {
+        "word": "carne",
+        "pos": "noun",
+        "translation": "viande",
+        "note": "Aliment de base sur un menu.",
+        "phonetic": "/ˈkar.ne/"
+      },
+      {
+        "word": "pesce",
+        "pos": "noun",
+        "translation": "poisson",
+        "note": "Aliment fréquent dans les menus italiens.",
+        "phonetic": "/ˈpeʃ.ʃe/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Vediamo il menu: cosa prendiamo?",
+        "translation": "Voyons le menu : qu'est-ce qu'on prend ?",
+        "highlights": [
+          "Vediamo",
+          "cosa",
+          "prendiamo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Non so, ma voglio carne o pesce con patate.",
+        "translation": "Je ne sais pas, mais je veux de la viande ou du poisson avec des pommes de terre.",
+        "highlights": [
+          "ma",
+          "voglio",
+          "carne",
+          "o",
+          "pesce",
+          "con"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Bene, prendiamo carne con insalata?",
+        "translation": "Bien, prenons de la viande avec une salade ?",
+        "highlights": [
+          "Bene",
+          "prendiamo",
+          "carne",
+          "con"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sì, ma voglio vedere anche il pesce.",
+        "translation": "Oui, mais je veux voir aussi le poisson.",
+        "highlights": [
+          "ma",
+          "voglio",
+          "vedere",
+          "pesce"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Va bene, prendiamo pesce per te e carne per me.",
+        "translation": "D'accord, prenons du poisson pour toi et de la viande pour moi.",
+        "highlights": [
+          "bene",
+          "prendiamo",
+          "pesce",
+          "carne"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Cosa prendiamo?",
+        "translation": "Qu'est-ce qu'on prend ?"
+      },
+      {
+        "phrase": "Voglio carne o pesce",
+        "translation": "Je veux de la viande ou du poisson"
+      },
+      {
+        "phrase": "Va bene",
+        "translation": "D'accord / Ça va"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_39",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the bank for a simple transaction",
+    "frequency_note": "top 300 most frequent words of Italian",
+    "vocabulary": [
+      {
+        "word": "banca",
+        "pos": "noun",
+        "translation": "banque",
+        "note": "Féminin, comme en français.",
+        "phonetic": "/ˈbaŋ.ka/"
+      },
+      {
+        "word": "conto",
+        "pos": "noun",
+        "translation": "compte",
+        "note": "Souvent utilisé avec 'corrente' (compte courant) mais ici seul.",
+        "phonetic": "/ˈkon.to/"
+      },
+      {
+        "word": "carta",
+        "pos": "noun",
+        "translation": "carte",
+        "note": "Carte bancaire, souvent 'carta di credito' ou 'bancomat'.",
+        "phonetic": "/ˈkar.ta/"
+      },
+      {
+        "word": "soldi",
+        "pos": "noun",
+        "translation": "argent",
+        "note": "Toujours pluriel en italien.",
+        "phonetic": "/ˈsol.di/"
+      },
+      {
+        "word": "andare",
+        "pos": "verb",
+        "translation": "aller",
+        "note": "Verbe irrégulier, très fréquent.",
+        "phonetic": "/anˈda.re/"
+      },
+      {
+        "word": "avere",
+        "pos": "verb",
+        "translation": "avoir",
+        "note": "Auxiliaire, essentiel.",
+        "phonetic": "/aˈve.re/"
+      },
+      {
+        "word": "per",
+        "pos": "prep",
+        "translation": "pour",
+        "note": "Préposition très courante.",
+        "phonetic": "/per/"
+      },
+      {
+        "word": "ma",
+        "pos": "conj",
+        "translation": "mais",
+        "note": "Conjonction d'opposition.",
+        "phonetic": "/ma/"
+      },
+      {
+        "word": "già",
+        "pos": "adv",
+        "translation": "déjà",
+        "note": "Adverbe de temps.",
+        "phonetic": "/dʒa/"
+      },
+      {
+        "word": "qui",
+        "pos": "adv",
+        "translation": "ici",
+        "note": "Adverbe de lieu.",
+        "phonetic": "/kwi/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buongiorno, devo andare in banca per un semplice prelievo.",
+        "translation": "Bonjour, je dois aller à la banque pour un simple retrait.",
+        "highlights": [
+          "andare",
+          "banca",
+          "per"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hai già il conto qui?",
+        "translation": "Tu as déjà un compte ici ?",
+        "highlights": [
+          "già",
+          "conto",
+          "qui"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sì, ho la carta e i soldi sul conto.",
+        "translation": "Oui, j'ai la carte et l'argent sur le compte.",
+        "highlights": [
+          "carta",
+          "soldi",
+          "conto"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ma hai bisogno di un documento?",
+        "translation": "Mais as-tu besoin d'un document ?",
+        "highlights": [
+          "Ma"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "No, ho già tutto, grazie.",
+        "translation": "Non, j'ai déjà tout, merci.",
+        "highlights": [
+          "ho",
+          "già"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "devo andare in banca",
+        "translation": "je dois aller à la banque"
+      },
+      {
+        "phrase": "ho la carta",
+        "translation": "j'ai la carte"
+      },
+      {
+        "phrase": "soldi sul conto",
+        "translation": "argent sur le compte"
+      }
+    ]
+  }
+]

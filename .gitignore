@@ -40,6 +40,9 @@ android/
 .DS_Store
 Thumbs.db
 
+# Incluir explícitamente el directorio de discovery MCP (empieza con punto)
+!.well-known/
+
 # Logs
 *.log
 npm-debug.log*

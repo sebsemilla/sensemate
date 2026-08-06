@@ -1,0 +1,1170 @@
+[
+  {
+    "id": "es_C1_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": " nuanced argumentation",
+    "bridge": "En español, para expresar matices usamos conectores como 'aunque', 'si bien', 'por más que', y subjuntivos. En japonés, la matización se logra mediante partículas finales (ね, よ, よね, さ), estructuras con けど/が, のに, ものの, y la inclusión de aspectos como ように思う, と言える. La gran diferencia es que el japonés tiende a dejar la opinión implícita, usando partículas y elipsis, mientras que el español es más explícito y directo. Además, el orden sintáctico y la posición de los conectores difieren, y es común usar constructos como とはいえ (aunque se diga) al inicio, en vez de al final como en español.",
+    "rule": "Para construir un argumento matizado en japonés a nivel C1, se emplean varias estrategias: 1) Concesión con partículas como けど/ですが, のに (aunque, a pesar de), ものの (si bien, aunque), とはいえ (dicho eso, aunque sea así), にもかかわらず (a pesar de). 2) Contraste con 一方で (por otro lado), それに対して (en cambio). 3) Matiz de opinión con ように思う (me parece que), と考える (considero que), と言える (se puede decir), かもしれない (quizás) para suavizar. 4) Uso de partículas finales: ね (busca acuerdo), よ (afirma con énfasis), よね (afirma buscando confirmación). El orden típico en una oración compleja es: concesión + afirmación principal + matiz final. La partícula が se usa en registro formal y けど en informal. En contextos académicos o formales se prefiere ものの, にもかかわらず. Es crucial recordar que la subordinada con concesivos va antes de la cláusula principal, y que el verbo principal va al final, tras los complementos. La elipsis es común: se omite el sujeto y a veces el verbo si se sobreentiende. Para matizar una opinión, se usa la forma と + pensar + が/けど para dejar la oración abierta.",
+    "concept_examples": [
+      {
+        "text": "彼の意見はもっともだが、予算の面で実現は難しいと思う。",
+        "translation": "Su opinión es razonable, pero creo que es difícil de realizar en términos de presupuesto.",
+        "phonetic": "[kaɾe no iken wa mottomo da ga, yosan no men de jitsugen wa muzukaɕi to omou]"
+      },
+      {
+        "text": "とはいえ、安易に結論を出すべきではないだろう。",
+        "translation": "Dicho eso, no deberíamos sacar conclusiones precipitadas.",
+        "phonetic": "[to wa ie, an'i ni ketsuron o dasu beki dewa nai darou]"
+      },
+      {
+        "text": "その提案には賛成できるものの、細部に問題が残っている。",
+        "translation": "Aunque puedo estar de acuerdo con esa propuesta, quedan problemas en los detalles.",
+        "phonetic": "[sono teian ni wa sansei dekiru mono no, saibu ni mondai ga nokotte iru]"
+      },
+      {
+        "text": "一方で、リスクを考慮する必要もあるように思う。",
+        "translation": "Por otro lado, me parece que también es necesario considerar los riesgos.",
+        "phonetic": "[ippou de, risuku o kouryo suru hitsuyou mo aru you ni omou]"
+      }
+    ],
+    "common_error": {
+      "wrong": "彼の意見はもっともだが、しかし予算の面で実現は難しいと思う。",
+      "correct": "彼の意見はもっともだが、予算の面で実現は難しいと思う。",
+      "correct_alt": "彼の意見はもっともなものの、予算の面では実現は難しいと考える。",
+      "explanation": "El error típico es usar が/けど y además añadir 'しかし' al inicio de la segunda cláusula, como en español ('pero'). En japonés, la concesión ya está marcada por が o ものの, por lo que agregar しかし resulta redundante y poco natural. Se debe elegir una sola marca de contraste. Además, en español se suele usar 'pero' después de una coma, pero en japonés la conexión se hace con la partícula al final de la primera oración. Para evitar este error, recuerda que が/けど equivalen a 'pero' y no se necesita ningún conector adicional."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本的な譲歩表現",
+        "translation": "Expresiones básicas de concesión",
+        "examples": [
+          {
+            "original": "難しいけど、やってみる価値はある。",
+            "phonetic": "[muzukaɕi kedo, yatte miru kachi wa aru]",
+            "translation": "Aunque es difícil, vale la pena intentarlo.",
+            "note": "Uso de けど en registro informal para concesión. En español 'aunque' va al inicio, pero en japonés se coloca al final de la primera cláusula."
+          },
+          {
+            "original": "時間がないが、それでもやらなければならない。",
+            "phonetic": "[jikan ga nai ga, soredemo yaranakereba naranai]",
+            "translation": "No hay tiempo, pero aun así hay que hacerlo.",
+            "note": "Uso de が en registro formal. それでも refuerza la idea de 'aun así', pero no es obligatorio."
+          },
+          {
+            "original": "高かったのに、品質はあまり良くなかった。",
+            "phonetic": "[takakatta noni, hinshitsu wa amari yoku nakatta]",
+            "translation": "Aunque era caro, la calidad no era muy buena.",
+            "note": "のに expresa contraste con expectativa contraria. Aquí no se puede usar けど porque hay sorpresa o contradicción."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "意見を和らげる表現",
+        "translation": "Expresiones para suavizar opiniones",
+        "examples": [
+          {
+            "original": "その見解には納得できないように思う。",
+            "phonetic": "[sono kenkai ni wa nattoku dekinai you ni omou]",
+            "translation": "Me parece que no puedo estar de acuerdo con esa opinión.",
+            "note": "ように思う suaviza la negación. En español usaríamos 'no estoy seguro de poder estar de acuerdo'."
+          },
+          {
+            "original": "改革は必要だと言えるかもしれない。",
+            "phonetic": "[kaikaku wa hitsuyou da to ieru kamoshirenai]",
+            "translation": "Quizás se pueda decir que la reforma es necesaria.",
+            "note": "Combinación de と言える y かもしれない para expresar duda de manera cortés y matizada."
+          },
+          {
+            "original": "この問題は、慎重に考える必要があると考える。",
+            "phonetic": "[kono mondai wa, shinchou ni kangaeru hitsuyou ga aru to kangaeru]",
+            "translation": "Considero que este problema requiere una reflexión cuidadosa.",
+            "note": "Uso de と考える para presentar la opinión como razonamiento, más objetivo que と思う."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "複雑な議論における洗練された接続表現",
+        "translation": "Conectores sofisticados en argumentación compleja",
+        "examples": [
+          {
+            "original": "確かにメリットがあるとはいえ、デメリットも無視できない。",
+            "phonetic": "[tashika ni meritto ga aru towa ie, demeritto mo mushi dekinai]",
+            "translation": "Si bien es cierto que hay ventajas, no se pueden ignorar las desventajas.",
+            "note": "とはいえ es un conector formal y sofisticado que equivale a 'si bien'. Se coloca al final de la primera cláusula."
+          },
+          {
+            "original": "彼の主張は理解できるものの、全面的に支持するわけにはいかない。",
+            "phonetic": "[kare no shuchou wa rikai dekiru mono no, zenmente ni shiji suru wake ni wa ikanai]",
+            "translation": "Aunque puedo entender su argumento, no puedo apoyarlo completamente.",
+            "note": "ものの es más formal que けど/が. La expresión わけにはいかない indica limitación de acción."
+          },
+          {
+            "original": "経済的な観点からは有益である。一方で、環境への影響は深刻だ。",
+            "phonetic": "[keizaiteki na kanten kara wa yuueki de aru. Ippou de, kankyou e no eikyou wa shinkoku da]",
+            "translation": "Desde el punto de vista económico es beneficioso. Por otro lado, el impacto ambiental es grave.",
+            "note": "一方で se usa como conector discursivo para presentar un contraste, similar a 'por otro lado'."
+          },
+          {
+            "original": "にもかかわらず、彼は自分の過ちを認めなかった。",
+            "phonetic": "[ni mo kakawarazu, kare wa jibun no ayamachi o mitomenakatta]",
+            "translation": "A pesar de eso, él no reconoció su error.",
+            "note": "にもかかわらず es muy formal y se usa para expresar contraste fuerte, equivalente a 'no obstante'."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "es": "Construir un argumento matizado y complejo"
+    }
+  },
+  {
+    "id": "es_C1_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "批判的評価・分析（ひはんてきひょうか・ぶんせき）/ Evaluación y análisis crítico",
+    "bridge": "En español, para evaluar críticamente solemos usar verbos como 'considerar', 'valorar' o 'cuestionar' con estructuras subordinadas. En japonés, la modalidad se expresa de forma más matizada mediante partículas finales como ね, よ, じゃないか, y construcciones como と言えよう (se podría decir). Un error común es traducir directamente 'me parece que...' como 私は...と思います, pero a nivel C1 necesitas matices como とは言えない (no se puede decir que) o に違いない (sin duda). Además, en japonés la negación y la evaluación suelen anteponerse al verbo en forma ないわけにはいかない (no se puede evitar), lo que choca con la estructura española.",
+    "rule": "Para expresar análisis crítico y evaluación en japonés a nivel C1 se usan: 1) Construcciones modales como と言えよう / と言えるだろう (se podría decir), 2) とは言い難い (es difícil decir), 3) に過ぎない (no es más que), 4) という観点から (desde el punto de vista de), 5) を踏まえると (teniendo en cuenta). También se usan partículas finales matizadoras como じゃないか (¿no es cierto que...?) para invitar al acuerdo o reforzar una afirmación. La negación doble: ないとは言えない (no se puede decir que no) es común para expresar reservas. En contraste con el español, el sujeto y la opinión se omiten con frecuencia si el contexto es claro, y se recurre a pasivas impersonales como 考えられている (se considera).",
+    "concept_examples": [
+      {
+        "text": "この提案は確かに有効だが、コストの面で実現性に疑問が残ると言わざるを得ない。",
+        "translation": "Esta propuesta es ciertamente efectiva, pero hay que decir que quedan dudas sobre su viabilidad en términos de costo.",
+        "phonetic": "kono teian wa tashika ni yūkō da ga, kosuto no men de jitsugen-sei ni gimon ga nokoru to iwa zaruwonai."
+      },
+      {
+        "text": "彼の理論は一見説得力があるように思えるが、データの解釈には偏りがあるとは言えないだろうか。",
+        "translation": "Su teoría parece convincente a primera vista, pero ¿no se podría decir que hay un sesgo en la interpretación de los datos?",
+        "phonetic": "kare no riron wa ikken settoku-ryoku ga aru yō ni omoeru ga, dēta no kaishaku ni wa katayori ga aru to wa ienai darō ka."
+      },
+      {
+        "text": "この結果だけを持って、全体の傾向を判断するのは早計に過ぎる。",
+        "translation": "Juzgar la tendencia general basándose solo en estos resultados es demasiado precipitado.",
+        "phonetic": "kono kekka dake o motte, zentai no keikō o handan suru no wa sōkei ni sugiru."
+      },
+      {
+        "text": "持続可能性の観点から見れば、この計画は見直しを余儀なくされると言えよう。",
+        "translation": "Desde el punto de vista de la sostenibilidad, se podría decir que este plan se ve obligado a ser revisado.",
+        "phonetic": "jizoku-kanō-sei no kanten kara mireba, kono keikaku wa minaoshi o yogi naku sareru to ieyō."
+      }
+    ],
+    "common_error": {
+      "wrong": "この意見は良いと思いますが、問題があります。",
+      "correct": "この意見は一理あるが、問題点も無視できない。",
+      "correct_alt": "この意見は評価できるものの、課題も残されていると言わざるを得ない。",
+      "explanation": "El error típico es usar と思います (pienso) de forma demasiado directa y simple para un registro crítico formal. En español 'pienso que' es aceptable, pero en japonés a nivel C1 se espera matizar con expresiones como と言わざるを得ない o と言えよう, y usar estructuras como 一理ある (tiene algo de razón) o 無視できない (no se puede ignorar). Además, la conjunción が es más natural para contrastar que しかし en el registro escrito. Evita la traducción literal de 'pero'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "批判のための表現",
+        "translation": "Expresiones para criticar",
+        "examples": [
+          {
+            "original": "この案には無理があると言わざるを得ない。",
+            "phonetic": "kono an ni wa muri ga aru to iwa zaruwonai.",
+            "translation": "No hay más remedio que decir que este plan es imposible.",
+            "note": "Uso de と言わざるを得ない para expresar una conclusión forzada por la evidencia, equivalente a 'no queda más remedio que decir'."
+          },
+          {
+            "original": "その指摘は的を射ているとは言い難い。",
+            "phonetic": "sono shiteki wa mato o ite iru to wa iigatai.",
+            "translation": "Es difícil decir que esa observación sea acertada.",
+            "note": "とは言い難い es una forma cortés de rechazar sin ser brusco. En español usaríamos 'es difícil afirmar que'."
+          },
+          {
+            "original": "この論点は重要だが、議論の焦点がずれているようだ。",
+            "phonetic": "kono ronten wa jūyō da ga, giron no shōten ga zurete iru yō da.",
+            "translation": "Este punto es importante, pero parece que el foco de la discusión se ha desviado.",
+            "note": "La combinación de が (pero) y ようだ (parece) para suavizar la crítica y mantener el respeto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "評価のモダリティ",
+        "translation": "Modalidad de evaluación",
+        "examples": [
+          {
+            "original": "彼の主張は一面の真実を含むにしても、全体像を反映しているとは考えにくい。",
+            "phonetic": "kare no shuchō wa ichimen no shinjitsu o fukumu ni shite mo, zentai-zō o han'ei shite iru to wa kangaenikui.",
+            "translation": "Si bien su afirmación contiene una verdad parcial, es difícil pensar que refleje el panorama completo.",
+            "note": "Estructura とは考えにくい para expresar escepticismo de manera educada y analítica."
+          },
+          {
+            "original": "このデータを見る限り、仮説は支持されないと言わざるを得ない。",
+            "phonetic": "kono dēta o miru kagiri, kasetsu wa shiji sarenai to iwa zaruwonai.",
+            "translation": "Según estos datos, no podemos evitar decir que la hipótesis no se respalda.",
+            "note": "Uso de 見る限り (en la medida en que se ve) para introducir la evidencia que obliga a la conclusión."
+          },
+          {
+            "original": "成功の可能性は低いとは言えないが、リスクを考慮すべきだ。",
+            "phonetic": "seikō no kanō-sei wa hikui to wa ienai ga, risuku o kōryo subeki da.",
+            "translation": "No se puede decir que la probabilidad de éxito sea baja, pero se deben considerar los riesgos.",
+            "note": "Doble negación とは言えない para indicar una evaluación matizada; en español sería 'no se puede decir que no sea...'."
+          },
+          {
+            "original": "この解決策は一見有効に見えるが、長期的な影響を無視するわけにはいかない。",
+            "phonetic": "kono kaiketsu-saku wa ikken yūkō ni mieru ga, chōki-teki na eikyō o mushi suru wake ni wa ikanai.",
+            "translation": "Esta solución parece efectiva a primera vista, pero no podemos ignorar sus efectos a largo plazo.",
+            "note": "わけにはいかない expresa imposibilidad moral o lógica; en español equivaldría a 'no podemos permitirnos'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "分析的な強調と留保",
+        "translation": "Énfasis analítico y reservas",
+        "examples": [
+          {
+            "original": "この結果は、従来の理論を覆すものではないが、新たな視点を提供するものだと言えよう。",
+            "phonetic": "kono kekka wa, jūrai no riron o kutsugaesu mono dewa nai ga, aratana shiten o teikyō suru mono da to ieyō.",
+            "translation": "Este resultado no echa por tierra la teoría convencional, pero se podría decir que ofrece una nueva perspectiva.",
+            "note": "Uso de と言えよう para una afirmación con reserva, más formal que と言える."
+          },
+          {
+            "original": "彼の結論は、データの裏付けが不十分であるという点で、説得力に欠けると言わざるを得ない。",
+            "phonetic": "kare no ketsuron wa, dēta no urazuke ga fujūbun de aru to iu ten de, settoku-ryoku ni kak eru to iwa zaruwonai.",
+            "translation": "No podemos evitar decir que su conclusión carece de persuasión en el punto de que el respaldo de datos es insuficiente.",
+            "note": "Estructura compleja con という点で para especificar el aspecto que se critica."
+          },
+          {
+            "original": "この提案は確かに革新的だが、現実の制約を考慮すると、実行可能性は極めて低いと言わざるを得ない。",
+            "phonetic": "kono teian wa tashika ni kakushin-teki da ga, genjitsu no seiyaku o kōryo suru to, jikkō kanō-sei wa gokute ni hikui to iwa zaruwonai.",
+            "translation": "Esta propuesta es ciertamente innovadora, pero considerando las restricciones reales, no podemos evitar decir que su viabilidad es extremadamente baja.",
+            "note": "Combinación de とはいえ (aunque) implícito, con を考慮すると (teniendo en cuenta) y la obligación de expresar la opinión."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔍",
+    "phonetic": "",
+    "translations": {
+      "es": "Análisis crítico y evaluación de ideas"
+    }
+  },
+  {
+    "id": "es_C1_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "皮肉・誇張・婉曲表現 / Ironía, sarcasmo y eufemismo",
+    "bridge": "En español, la ironía y el sarcasmo se apoyan fuertemente en la entonación, el contexto y la exageración explícita. En japonés, el tono de voz suele mantenerse neutro y el significado irónico se transmite mediante estructuras gramaticales como わけがない (no hay manera), かな (tal vez), o partículas finales como よ/ね, junto con el uso de la negación para expresar lo contrario. Un trampa común es que la ironía japonesa no se comprende sin conocer el contexto y la relación entre los hablantes, ya que se evita la confrontación directa y se usa más el eufemismo (遠回し).",
+    "rule": "En japonés, la ironía y el sarcasmo se construyen a través de mecanismos lingüísticos específicos: 1) El uso de わけがない (wake ga nai) para expresar que algo es imposible, a menudo con intención irónica. 2) La partícula final よ con entonación plana puede indicar desacuerdo o ironía, mientras que ね puede usarse para implicar lo contrario. 3) La negación retórica: frases como 「それは面白くないね」 (eso no es interesante, pero significa que es demasiado interesante) son comunes. 4) El eufemismo (婉曲表現) incluye estructuras como 〜かもしれない (quizás) y 〜ではないか (no es que...) para suavizar afirmaciones críticas. 5) El sarcasmo directo es menos común; se prefiere la ironía sutil con adverbios como たいして (no mucho), 全然 (para nada), o さすが (como era de esperar, usado sarcásticamente). A nivel C1, el alumno debe dominar el registro contextual: la ironía se usa en grupos cercanos y en situaciones informales; en situaciones formales, se prefiere el eufemismo o el silencio.",
+    "concept_examples": [
+      {
+        "text": "また遅刻？さすがだね。",
+        "translation": "¿Otra vez llegas tarde? Como siempre, eres un caso.",
+        "phonetic": "mata tikoku? sasuga da ne."
+      },
+      {
+        "text": "彼は本当に頭がいいわけがない。",
+        "translation": "No hay manera de que él sea realmente inteligente (ironía: es un tonto).",
+        "phonetic": "kare wa hontō ni atama ga ii wake ga nai."
+      },
+      {
+        "text": "それは面白くないね。",
+        "translation": "Eso no es interesante (ironía: es muy interesante o increíble).",
+        "phonetic": "sore wa omoshirokunai ne."
+      },
+      {
+        "text": "まあ、頑張ればいいかもしれないね。",
+        "translation": "Bueno, quizás si te esfuerzas, tal vez... (eufemismo: no tiene remedio).",
+        "phonetic": "mā, ganbareba ii kamo shirenai ne."
+      }
+    ],
+    "common_error": {
+      "wrong": "彼は天才だ！すごい！ (con tono exagerado y sarcástico)",
+      "correct": "彼は天才かもしれないね。",
+      "correct_alt": "彼は天才なわけがない。",
+      "explanation": "El error surge porque los hispanohablantes tienden a usar exclamaciones y tono de voz irónico, lo cual en japonés suena demasiado directo y poco natural. En japonés, la ironía se expresa con estructuras como かもしれない (quizás) o わけがない (no hay manera), y con partículas finales como ね o よ, manteniendo un tono neutral. Para evitar malentendidos, se recomienda usar la negación o el eufemismo en lugar del sarcasmo abierto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "皮肉の基本構造",
+        "translation": "Estructuras básicas de la ironía",
+        "examples": [
+          {
+            "original": "さすがにできる男だ。",
+            "phonetic": "sasuga ni dekiru otoko da.",
+            "translation": "Como era de esperar, un hombre capaz (sarcasmo: un incompetente).",
+            "note": "さすが se usa para reconocer algo esperado, pero con contexto negativo se vuelve irónico."
+          },
+          {
+            "original": "よくもそんなことが言えるね。",
+            "phonetic": "yoku mo sonna koto ga ieru ne.",
+            "translation": "Cómo puedes decir algo así (ironía: es una insolencia).",
+            "note": "La estructura よくも + verbo + ね es típica para criticar con ironía."
+          },
+          {
+            "original": "それは助かるよ。",
+            "phonetic": "sore wa tasukaru yo.",
+            "translation": "Eso ayuda (ironía: al contrario, complica).",
+            "note": "La partícula よ con tono plano y contexto contrasta con el significado literal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "婉曲表現と皮肉の間",
+        "translation": "Entre el eufemismo y la ironía",
+        "examples": [
+          {
+            "original": "あまりお世辞が上手じゃないね。",
+            "phonetic": "amari oseji ga jōzu ja nai ne.",
+            "translation": "No eres muy bueno para los cumplidos (eufemismo: eres grosero).",
+            "note": "La negación con あまり + じゃない suaviza la crítica, pero a menudo se entiende como irónica."
+          },
+          {
+            "original": "それでいいんじゃないかな。",
+            "phonetic": "sore de ii n ja nai kana.",
+            "translation": "¿No está bien así? (ironía: no está bien).",
+            "note": "〜んじゃないかな es una forma indirecta de expresar duda, usada para evitar una afirmación directa."
+          },
+          {
+            "original": "なかなかやるね。",
+            "phonetic": "nakanaka yaru ne.",
+            "translation": "No está mal lo que haces (eufemismo: sorprendentemente bueno o malo según contexto).",
+            "note": "なかなか puede significar 'bastante' o 'no fácilmente', dependiendo del tono y contexto."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "高度な皮肉と会話の駆け引き",
+        "translation": "Ironía avanzada y estrategias conversacionales",
+        "examples": [
+          {
+            "original": "なるほど、君の言うことはいつも正しいね。",
+            "phonetic": "naruhodo, kimi no iu koto wa itsumo tadashii ne.",
+            "translation": "Ya veo, siempre tienes razón (ironía: estás equivocado).",
+            "note": "使用 なるほど + いつも + 正しい con tono plano implica lo contrario."
+          },
+          {
+            "original": "君の完璧な計画で全部うまくいくんだろうね。",
+            "phonetic": "kimi no kanpeki na keikaku de zenbu umaku ikun darō ne.",
+            "translation": "Con tu plan perfecto todo saldrá bien, ¿verdad? (sarcasmo: el plan es un desastre).",
+            "note": "La estructura 〜んだろうね muestra expectativa, usada irónicamente en situación obviamente contraria."
+          },
+          {
+            "original": "ああ、それで？どうぞ続けて。",
+            "phonetic": "ā, sore de? dōzo tsuzukete.",
+            "translation": "Ah, ¿y luego? Continúa (ironía: no me interesa).",
+            "note": "La invitación cortés どうぞ con tono frío indica desinterés y sarcasmo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙄",
+    "phonetic": "",
+    "translations": {
+      "es": "Ironía, sarcasmo y eufemismo"
+    }
+  },
+  {
+    "id": "es_C1_func_04",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "含意と間接発話行為 (Implicaturas y actos de habla indirectos)",
+    "bridge": "En español, la cortesía y la indirectness se marcan mediante el condicional, el subjuntivo o frases como '¿Podrías...?' o 'Me preguntaba si...'. En japonés, la indirectness se codifica de forma mucho más sistemática: a través de la partícula final 'ね', el uso de formas negativas (〜ない), las expresiones de vacilación como ちょっと, y el verbo 思う (pensar) en negación. El mayor trap para un hispanohablante es que una respuesta negativa aparente (e.g., 大丈夫です) puede significar 'no' cortés, y que '〜ない' no siempre tiene valor negativo, sino que suaviza la petición. En japonés, lo que no se dice es tan importante como lo que se dice; los hablantes esperan que el interlocutor infiera la intención real a partir del contexto y la relación jerárquica.",
+    "rule": "Las implicaturas y los actos de habla indirectos (AHS) en japonés se rigen por principios de cortesía negativa (evitar imposición) y positividad (buscar solidaridad). Mecanismos clave: 1) Uso de la partícula final ね para buscar asentimiento y suavizar afirmaciones (e.g., 電車が遅れましたね = 'el tren llegó tarde, ¿verdad?' implica que ambos lo saben y crea complicidad). 2) Negación para atenuar peticiones o rechazos: あの、ちょっと… (lit. 'un poco…') se usa para insinuar que algo es inconveniente sin decir 'no' directamente; 手伝えなくてすみません (no puedo ayudarte) es más cortés que 手伝えない. 3) La forma ～と思う (creo que) en presente o con ない (e.g., 違うと思います = 'creo que es diferente') se usa para expresar desacuerdo sin afirmar directamente. 4) Las peticiones indirectas se construyen con 〜てもらえませんか (¿no podrías…?) o 〜してくれませんか (¿no me harías el favor de…?), evitando la forma imperativa directa. 5) La expresión よろしいですか (¿está bien?) se usa en contextos formales como confirmación indirecta de permiso. Excepciones: en contextos familiares o entre amigos, la directness aumenta, pero nunca se pierde del todo la marca de atenuación en situaciones de conflicto o rechazo.",
+    "concept_examples": [
+      {
+        "text": "ちょっと、その話は難しいかもしれません。",
+        "translation": "Eso es un poco difícil de discutir (implica rechazo indirecto).",
+        "phonetic": "tɕot̚to so.no ha.naɕi wa mɯzɯkaɕiː ka mo ɕiɾe ma seɴ"
+      },
+      {
+        "text": "また今度、お願いします。",
+        "translation": "Por favor, en otra ocasión (implica un 'no' cortés a una invitación).",
+        "phonetic": "ma.ta ko.ɴdo o.ne.ɡa.i ɕi.ma.sɯ"
+      },
+      {
+        "text": "お茶でもいかがですか？",
+        "translation": "¿Le apetece un té o algo? (invitación indirecta, evita imposición).",
+        "phonetic": "o.tɕa de.mo i.ka.ɡa de.sɯ ka"
+      },
+      {
+        "text": "それについては、ちょっと考えさせてください。",
+        "translation": "Déjeme pensarlo un poco (rechazo indirecto a una propuesta).",
+        "phonetic": "so.ɾe.ni tɕu.i.te.wa tɕot̚to kaŋ.ɡa.e sa.se.te kɯ.da.sa.i"
+      }
+    ],
+    "common_error": {
+      "wrong": "この仕事をしてください。 (Haz este trabajo, imperativo directo)",
+      "correct": "この仕事をしていただけますか？",
+      "correct_alt": "この仕事をお願いできますか？",
+      "explanation": "El error más común es traducir directamente la estructura imperativa del español (o incluso la de '¿Puedes hacer esto?') al japonés usando -てください, que es mucho más directo y suena impositivo en contextos de trabajo o entre desconocidos. En C1, el estudiante debe entender que en japonés la petición se formula mediante la forma potencial + いただけますか (forma humilde de 'recibir') o お願いします, que implican una actitud de humildad y consideración hacia el interlocutor."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "含意としての否定形",
+        "translation": "La negación como implicatura",
+        "examples": [
+          {
+            "original": "それはちょっと難しいかもしれない。",
+            "phonetic": "so.ɾe.wa tɕot̚to mɯzɯkaɕiː ka.mo ɕi.ɾe.na.i",
+            "translation": "Puede que sea un poco difícil (implica 'no' sin decirlo).",
+            "note": "Uso de 〜かもしれない (quizás) con 難しい (difícil) para suavizar un rechazo."
+          },
+          {
+            "original": "今日はちょっと都合が悪くて。",
+            "phonetic": "kjoː.wa tɕot̚to tɕu.ɡoː.ɡa wa.ɾɯ.kɯ.te",
+            "translation": "Hoy estoy un poco ocupado (literal: las circunstancias son malas) — se deja la frase incompleta.",
+            "note": "La frase se corta sin terminar, dejando que el interlocutor infiera la negativa."
+          },
+          {
+            "original": "手伝えないことはないんですけど。",
+            "phonetic": "te.tsɯ.da.e.na.i ko.to.wa na.iɴ.de.sɯ ke.do",
+            "translation": "No es que no pueda ayudar, pero... (implica que no quiere o que hay condiciones).",
+            "note": "Doble negación (〜ないことはない) como atenuante de una objeción."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "間接的な依頼",
+        "translation": "Peticiones indirectas",
+        "examples": [
+          {
+            "original": "窓を閉めていただけませんか？",
+            "phonetic": "ma.do.o to.me.te i.ta.da.ke.ma.seɴ ka",
+            "translation": "¿No podría cerrar la ventana? (uso de forma humilde いただく).",
+            "note": "La estructura 〜ていただけませんか es la forma más cortés de pedir algo."
+          },
+          {
+            "original": "もし良かったら、手伝ってもらえますか？",
+            "phonetic": "mo.ɕi jo.ka.ta.ɾa te.tsɯ.da.tte mo.ɾa.e.ma.sɯ.ka",
+            "translation": "Si no te importa, ¿podrías ayudarme? (uso de condicional y partícula もらう).",
+            "note": "La condición previa (もし良かったら) hace que la petición sea aún más indirecta."
+          },
+          {
+            "original": "お時間があれば、ちょっと見ていただきたいんですが。",
+            "phonetic": "o.dʑi.kaŋ.ɡa a.ɾe.ba tɕot̚to mi.te i.ta.da.ki.ta.iɴ.de.sɯ.ɡa",
+            "translation": "Si tiene tiempo, me gustaría que le echara un vistazo (pero no quiero forzar).",
+            "note": "Terminar con 〜んですが deja la frase en suspenso, indicando cortesía."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "発話行為の裏読み",
+        "translation": "Interpretación de actos de habla indirectos",
+        "examples": [
+          {
+            "original": "すみません、あのう、よろしかったら…。",
+            "phonetic": "sɯ.mi.ma.seɴ a.noː jo.ɾo.ɕi.ka.ta.ɾa",
+            "translation": "Perdón, ehh, si no es molestia... (interrupción que implica una petición).",
+            "note": "La vacilación y la no-finalización son señales de que se espera que el otro ofrezca ayuda."
+          },
+          {
+            "original": "それ、いいですね。",
+            "phonetic": "so.ɾe iː.de.sɯ.ne",
+            "translation": "Eso está bien, ¿verdad? (puede implicar que uno quiere participar o interés).",
+            "note": "La partícula ね busca complicidad, pero en contexto puede ser una sugerencia indirecta."
+          },
+          {
+            "original": "あした、けっこういい天気かもしれないね。",
+            "phonetic": "a.ɕi.ta ke.kːoː iː.teŋ.ki ka.mo.ɕi.ɾe.na.i.ne",
+            "translation": "Mañana puede que haga buen tiempo, ¿no? (implica propuesta de plan).",
+            "note": "En japonés, hablar del tiempo puede ser una invitación indirecta a hacer algo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "es": "Implicaturas y actos de habla indirectos"
+    }
+  },
+  {
+    "id": "es_C1_func_05",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "正式なスピーチとプレゼンテーション / Discursos y presentaciones formales",
+    "bridge": "En español, los discursos formales suelen usar un registro elevado pero con estructuras sintácticas similares a la conversación. En japonés, sin embargo, existe una distinción explícita entre lenguaje formal (敬語, keigo) y un nivel de cortesía especializado para discursos. Los hispanohablantes tienden a usar un solo 'usted' para toda situación formal, pero en japonés hay que distinguir entre respeto hacia el interlocutor (尊敬語), humildad propia (謙譲語) y lenguaje cortés neutral (丁寧語). Además, la estructura argumentativa japonesa prefiere la inducción y la anticipación de objeciones, en contraste con la estructura deductiva común en español.",
+    "rule": "En discursos formales (スピーチ, supīchi) o presentaciones (プレゼンテーション, purezentsēshon), se emplea el keigo (lenguaje respetuoso) que incluye: 1) 尊敬語 (sonkeigo) para las acciones del oyente o una tercera persona respetada, usando verbos como なさる, いらっしゃる, お〜になる; 2) 謙譲語 (kenjōgo) para las acciones propias, con verbos como いたす, 参る, お〜する; 3) 丁寧語 (teineigo) que usa el sufijo です・ます, además de prefijos de cortesía como お・ご. También se usan expresiones fijas: ただいまより (a continuación), ご出席くださいまして (por su asistencia), 心より感謝申し上げます (expresar gratitud desde el corazón). La estructura típica de un discurso incluye: saludo inicial (ご挨拶), introducción del tema, desarrollo con evidencia o ejemplos, expresiones de humildad para referirse al propio trabajo, y cierre con agradecimiento. Es fundamental evitar el uso de formas directas como 私は思う (pienso) y usar 私は考えております o 存じます. También se usan conectores formales: さて, ところで, また, しかしながら.",
+    "concept_examples": [
+      {
+        "text": "ただいまより、第5回持続可能な開発に関する国際会議を開催いたします。",
+        "translation": "A continuación, damos inicio a la quinta conferencia internacional sobre desarrollo sostenible.",
+        "phonetic": "/tadaima jori, dai go kai jizoku kanō na kaihatsu ni kansuru kokusai kaigi o kaisai itashimasu/"
+      },
+      {
+        "text": "本日はご多忙の中、ご出席くださいまして、誠にありがとうございます。",
+        "translation": "Agradecemos profundamente su presencia hoy, a pesar de su ocupada agenda.",
+        "phonetic": "/honjitsu wa gotabō no naka, goshusseki kudasaimashite, makoto ni arigatō gozaimasu/"
+      },
+      {
+        "text": "弊社の新製品につきまして、ご説明させていただきます。",
+        "translation": "Permítanme explicarles acerca del nuevo producto de nuestra compañía.",
+        "phonetic": "/heisha no shinseihin ni tsukimashite, gosetsumei sasete itadakimasu/"
+      },
+      {
+        "text": "今後とも、皆様のご支援を賜りますよう、心よりお願い申し上げます。",
+        "translation": "A partir de ahora, les pedimos de corazón su continuo apoyo.",
+        "phonetic": "/kongo tomo, minasama no goshien o tamawarimasu yō, kokoro yori onegai mōshiagemasu/"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は思います、この計画は非常に重要です。",
+      "correct": "私はこの計画が非常に重要であると考えております。",
+      "correct_alt": "この計画は非常に重要だと存じます。",
+      "explanation": "El error surge porque los hispanohablantes tienden a traducir directamente 'pienso que' como '私は思います' en contextos formales. En japonés formal, para expresar opinión propia se prefiere el verbo 考える (pensar, reflexionar) en su forma kenjōgo 考えております, o el verbo 存じる (saber, pensar) que es humilde. Usar 思います en un discurso formal suena informal y poco profesional. Además, en japonés formal se evita la partícula は después de 私 cuando el significado es obvio; se puede omitir o usar といたしまして."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "スピーチの基本構成（はじめ・なか・おわり）",
+        "translation": "Estructura básica del discurso (inicio, desarrollo, cierre)",
+        "examples": [
+          {
+            "original": "皆様、本日はお忙しいところをお集まりいただき、誠にありがとうございます。",
+            "phonetic": "/minasama, honjitsu wa oisogashii tokoro o otsudomari itadaki, makoto ni arigatō gozaimasu/",
+            "translation": "Señores, gracias por reunirse hoy a pesar de sus ocupaciones.",
+            "note": "Saludo inicial que muestra gratitud y respeto, usando お忙しい (forma respetuosa de 忙しい) y el verbo いただく (humilde)."
+          },
+          {
+            "original": "まず初めに、本日のテーマについてご説明いたします。",
+            "phonetic": "/mazu hajime ni, honjitsu no tēma ni tsuite gosetsumei itashimasu/",
+            "translation": "Primero, comenzaré explicando el tema de hoy.",
+            "note": "Uso de ご説明いたします (explicar con humildad) para referirse a la propia acción."
+          },
+          {
+            "original": "最後に、ご清聴ありがとうございました。",
+            "phonetic": "/saigo ni, goseichō arigatō gozaimashita/",
+            "translation": "Finalmente, gracias por su amable atención.",
+            "note": "Expresión fija de cierre que agradece la atención del público."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "尊敬語と謙譲語の使い分け",
+        "translation": "Uso diferenciado de sonkeigo y kenjōgo",
+        "examples": [
+          {
+            "original": "本日は、ご専門の立場からお話しいただけるとのこと、大変光栄に存じます。",
+            "phonetic": "/honjitsu wa, gosenmon no tachiba kara ohanashi itadakeru to no koto, taihen kōei ni zonjimasu/",
+            "translation": "Es un gran honor que hoy nos hable desde su posición de especialista.",
+            "note": "お話しいただける es una forma de sonkeigo indirecto que expresa respeto hacia la acción del oyente."
+          },
+          {
+            "original": "私どもの研究結果をご報告させていただきます。",
+            "phonetic": "/watakushidomo no kenkyū kekka o gohōkoku sasete itadakimasu/",
+            "translation": "Permítannos presentar los resultados de nuestra investigación.",
+            "note": "ご報告させていただきます es una forma de kenjōgo para pedir permiso humildemente para realizar una acción propia."
+          },
+          {
+            "original": "先ほど申し上げました通り、来年度の予算を大幅に増額する方針でございます。",
+            "phonetic": "/sakihodo mōshiagemashita tōri, rainendo no yosan o ōhaba ni zōgaku suru hōshin de gozaimasu/",
+            "translation": "Como mencioné anteriormente, la política es aumentar significativamente el presupuesto del próximo año.",
+            "note": "申し上げました es kenjōgo de 言いました (decir). でございます es la forma formal de です."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "流ちょうな接続表現と緩衝表現",
+        "translation": "Conectores fluidos y expresiones de mitigación",
+        "examples": [
+          {
+            "original": "さて、その点につきましては、いくつかの課題がございます。",
+            "phonetic": "/sate, sono ten ni tsukimashite wa, ikutsuka no kadai ga gozaimasu/",
+            "translation": "Ahora bien, en cuanto a ese punto, hay varios desafíos.",
+            "note": "さて es un conector formal que indica cambio de tema o transición en un discurso."
+          },
+          {
+            "original": "しかしながら、この案にはまだ懸念が残っております。",
+            "phonetic": "/shikashinagara, kono an ni wa mada kenen ga nokotte orimasu/",
+            "translation": "Sin embargo, aún persisten preocupaciones sobre esta propuesta.",
+            "note": "しかしながら es una versión más formal de しかし. El verbo 残っております es kenjōgo de 残っています."
+          },
+          {
+            "original": "とは申しましても、現段階では確定的なことは申し上げられません。",
+            "phonetic": "/to wa mōshimashitemo, gendankai de wa kakuteiteki na koto wa mōshiageraremasen/",
+            "translation": "Dicho esto, en esta etapa no podemos afirmar nada con certeza.",
+            "note": "とは申しましても es una expresión de mitigación formal que equivale a 'dicho esto' o 'sin embargo'. 申し上げられません es la forma potencial negativa de humildad."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎤",
+    "phonetic": "",
+    "translations": {
+      "es": "Presentaciones y discursos formales"
+    }
+  },
+  {
+    "id": "es_C1_func_06",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "複雑な学術的文章を書く / Redacción académica compleja",
+    "bridge": "En la redacción académica japonesa, a diferencia del español, se evita la primera persona explícita y se prefiere la voz pasiva o construcciones impersonales para mantener un tono objetivo. Además, las conjunciones y marcadores discursivos japoneses (例えば、また、したがって) funcionan de manera distinta: no siempre inician oración, sino que se integran al flujo de la frase, a menudo precedidos de coma. Para un hispanohablante, el mayor reto es dominar la distinción entre は and が en la estructura tema/comentario, especialmente al introducir evidencia o contrastar hipótesis en textos formales, ya que en español usamos el artículo definido o indefinido para ello, mientras que el japonés marca esta relación con partículas.",
+    "rule": "En japonés académico (学術的文章) se requiere: (1) Uso de estilo formal (です・ます o, preferentemente, forma neutral con だである) en todo el texto. (2) Oraciones con tema (は) para información ya conocida o general, y sujeto con が para información nueva o específica. (3) Conectores lógicos: したがって (por lo tanto), しかし (sin embargo), 一方 (por otra parte), さらに (además), つまり (es decir), que suelen colocarse al inicio de la oración seguidos de coma, similar al español, pero sin la libertad de cambiar su posición. (4) Uso de nominalizaciones con こと, もの, の para crear oraciones complejas. (5) La voz pasiva られる/される para evitar la responsabilidad directa del autor (例: 本研究では...が考察された). (6) Expresiones de citación と述べられている, と示唆される para referirse a fuentes. (7) Evitar la partícula よ, ね, o cualquier matiz coloquial. Para nivel C1, se espera manejar la escritura de párrafos con cohesión, cohesivos como そのため, それに対して, así como estructuras de causa-efecto y comparación.",
+    "concept_examples": [
+      {
+        "text": "本研究では、日本語とスペイン語の比較を通じて、言語的相違が文化的価値観に与える影響を考察した。",
+        "translation": "En este estudio, se examinó la influencia de las diferencias lingüísticas en los valores culturales mediante la comparación del japonés y el español.",
+        "phonetic": "honkenkyuː dewa, nihongo to supeingo no hikaku o tsuːjite, gengoteki sōi ga bunkateki kachikan ni ataeru eikyō o kōsatsu shita."
+      },
+      {
+        "text": "しかし、先行研究では、この点に関して十分な証拠が提供されていない。",
+        "translation": "Sin embargo, en los estudios previos no se ha proporcionado evidencia suficiente respecto a este punto.",
+        "phonetic": "shikashi, senkō kenkyū dewa, kono ten ni kanshite jūbunna shōko ga teikyō sarete inai."
+      },
+      {
+        "text": "したがって、我々は新たな仮説を立てる必要がある。",
+        "translation": "Por lo tanto, es necesario que planteemos una nueva hipótesis.",
+        "phonetic": "shitagatte, wareware wa aratana kasetsu o tateru hitsuyō ga aru."
+      },
+      {
+        "text": "一方、日本語の敬語体系は、社会階層を反映するという指摘もある。",
+        "translation": "Por otra parte, también hay quienes señalan que el sistema honorífico del japonés refleja la jerarquía social.",
+        "phonetic": "ippō, nihongo no keigo taikei wa, shakai kaisō o han'ei suru to iu shiteki mo aru."
+      }
+    ],
+    "common_error": {
+      "wrong": "私は研究をしました。そして、結果は面白かったです。",
+      "correct": "本研究では、調査を行った。その結果、興味深いことが明らかになった。",
+      "correct_alt": "本研究では調査を実施し、その結果、興味深い知見が得られた。",
+      "explanation": "Un error típico de hispanohablantes es usar la primera persona explícita (私は) y el estilo coloquial (です・ます) en textos académicos, así como conectar oraciones con 'そして' de manera similar al español. En japonés académico, se prefiere el estilo neutral (だ/である), la voz pasiva o impersonal, y conectores más formales como 'その結果' o 'したがって'. Además, no se debe usar 'です・ます' en un ensayo formal si se usa el estilo científico; se elige un registro uniforme."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "序論と問題提起",
+        "translation": "Introducción y planteamiento del problema",
+        "examples": [
+          {
+            "original": "近年、グローバル化の進展に伴い、異文化間コミュニケーションの重要性が増している。",
+            "phonetic": "kinen, gurōbaruka no shinten ni tomonai, ibunka-kan komyunikēshon no jūyōsei ga mashite iru.",
+            "translation": "En los últimos años, con el avance de la globalización, la importancia de la comunicación intercultural está aumentando.",
+            "note": "Se usa 'に伴い' para expresar 'conforme a', similar a 'a medida que' en español."
+          },
+          {
+            "original": "しかしながら、この分野における実証研究はまだ十分ではない。",
+            "phonetic": "shikashinagara, kono bunya ni okeru jisshō kenkyū wa mada jūbun de wa nai.",
+            "translation": "Sin embargo, la investigación empírica en este campo aún no es suficiente.",
+            "note": "Sin embargo, la investigación empírica en este campo aún no es suficiente."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "論証と引用",
+        "translation": "Argumentación y citación",
+        "examples": [
+          {
+            "original": "例えば、スミス(2020)は、言語と思考の関係について重要な示唆を与えている。",
+            "phonetic": "tatoeba, sumisu (2020) wa, gengo to shikō no kankei ni tsuite jūyōna shisa o ataete iru.",
+            "translation": "Por ejemplo, Smith (2020) ofrece importantes sugerencias sobre la relación entre lengua y pensamiento.",
+            "note": "Las citas se introducen con 'は...と' y se usa el verbo '与える' o '述べる'."
+          },
+          {
+            "original": "この理論は、多くの研究者によって支持されているが、反論も存在する。",
+            "phonetic": "kono riron wa, ōku no kenkyūsha ni yotte shiji sarete iru ga, hanron mo sonzai suru.",
+            "translation": "Esta teoría es apoyada por muchos investigadores, pero también existen objeciones.",
+            "note": "Uso de voz pasiva con 'によって' para marcar el agente, tal como 'por' en español, pero con orden distinto."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "結論と考察",
+        "translation": "Conclusión y discusión",
+        "examples": [
+          {
+            "original": "以上の考察から、日本語の学習者がスペイン語を学ぶ際には、文化的コンテクストの理解が不可欠であると結論づけられる。",
+            "phonetic": "ijō no kōsatsu kara, nihongo no gakushūsha ga supeingo o manabu sai ni wa, bunkateki kontekusuto no rikai ga fukaketsu de aru to ketsuronzukerareru.",
+            "translation": "A partir de las consideraciones anteriores, se concluye que la comprensión del contexto cultural es indispensable cuando los aprendices de japonés estudian español.",
+            "note": "Uso de la pasiva 'と結論づけられる' para una conclusión impersonal."
+          },
+          {
+            "original": "今後の課題として、より大規模なデータを用いた検証が求められる。",
+            "phonetic": "kongo no kadai toshite, yori daikibona dēta o mochiita kenshō ga motomerareru.",
+            "translation": "Como tarea futura, se requiere la verificación utilizando datos a mayor escala.",
+            "note": "'今後の課題として' es una fórmula común en conclusiones para indicar trabajos futuros."
+          }
+        ]
+      }
+    ],
+    "emoji": "📝",
+    "phonetic": "",
+    "translations": {
+      "es": "Redacción académica compleja"
+    }
+  },
+  {
+    "id": "es_C1_func_07",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "高度な交渉戦略 / Estrategias de negociación avanzadas",
+    "bridge": "En español, las estrategias de negociación suelen apoyarse en un lenguaje directo, con fórmulas como 'propongo que...' o 'no estamos de acuerdo'. En japonés, la negociación avanzada se sostiene sobre la cortesía negativa y la comunicación indirecta: se evita el 'no' rotundo y se prefiere la sugerencia modalizada, el uso de formas pasivas para despersonalizar, y partículas finales que suavizan o condicionan. El hablante de español debe tener cuidado con la literalidad: una respuesta como '難しいですね' (literalmente, 'es difícil') no es una declaración de dificultad, sino un rechazo cortés. El dominio de la modalidad, el uso de 〜ていただけませんか versus 〜ていただきたいのですが, y el manejo de la condición 〜ば son esenciales.",
+    "rule": "Para negociar a nivel C1, se necesitan: 1) Expresar desacuerdo sin confrontación directa: usar ちょっと, 難しい, 検討します (lo consideraré) en lugar de いいえ. 2) Condicionales para propuestas hipotéticas: 〜ば、〜たら y 〜なら, combinados con 〜のですが/〜のですが、いかがでしょうか. 3) Formas de cortesía humilde (謙譲語) y respetuosa (尊敬語): 伺う, 申し上げる, 存じる para posición de inferioridad, y お考え, ご意向 para el interlocutor. 4) Estructuras de concesión como 〜てもいいですが / 〜なければならないわけではありません para matizar. 5) Partículas de final como ね, よ, けど, の, かしら que modulan la fuerza ilocutiva. También es crucial el uso de 〜させていただく para solicitar permiso de forma extremadamente cortés. Excepciones: en contextos formales de negociación empresarial, el uso de 〜ていただく es más común que 〜てください. Errores comunes: el uso excesivo de いいえ, la falta de modalización al rechazar, y la ausencia de fórmulas de agradecimiento al aceptar una contraoferta.",
+    "concept_examples": [
+      {
+        "text": "その条件ですと、こちらとしては難しいですね。",
+        "translation": "Con esas condiciones, para nosotros es difícil.",
+        "phonetic": "sono dʑoːken desu to, kotɕi toɕite wa muzukaɕiː desu ne"
+      },
+      {
+        "text": "もう少し値下げしていただけませんか。",
+        "translation": "¿No podría hacernos una rebaja un poco mayor?",
+        "phonetic": "moː sukɕi ne̞saɡe̞ ɕite ita̠dake̞ma se̞ɴ ka"
+      },
+      {
+        "text": "一度検討させていただけますか。",
+        "translation": "¿Nos permitiría considerarlo una vez?",
+        "phonetic": "it͡ɕido kentoː sase̞te ita̠dake̞masɨ ka"
+      },
+      {
+        "text": "お互いに納得できる形が見つかれば良いのですが。",
+        "translation": "Si pudiéramos encontrar una forma que nos satisfaga a ambos, sería bueno.",
+        "phonetic": "o-taɡaɪ ni na̠t̚to̞ku de̞kʲiɾɯ katɕi ga mʲiʦɯka̠ɾe̞ba jo̞i no̞ desɯ ɡa"
+      }
+    ],
+    "common_error": {
+      "wrong": "条件が悪いです。",
+      "correct": "条件が厳しいですね。",
+      "correct_alt": "その条件は、ちょっと難しいですが。",
+      "explanation": "Muchos hispanohablantes usan declaraciones directas como '条件が悪いです' (las condiciones son malas) al negociar en japonés, lo cual suena brusco y poco profesional. En lugar de decir que algo es 'malo', se prefiere usar adjetivos como '厳しい' (estricto/difícil) o '難しい', y añadir la partícula 'ね' o la conjunción 'が' para suavizar. La estrategia es evitar la valoración negativa directa y presentar el rechazo como una dificultad compartida."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "間接的な拒否",
+        "translation": "Rechazo indirecto",
+        "examples": [
+          {
+            "original": "その点に関しては、難しいと申し上げざるを得ません。",
+            "phonetic": "sono te̞n ni ka̠nɕite̞ wa, muzukaɕiː to moːɕiaɡe̞ sa̠ɾɯ o e̞masɯ",
+            "translation": "En cuanto a ese punto, me veo obligado a decir que es difícil.",
+            "note": "Uso de '～ざるを得ない' para expresar una obligación contraria a la voluntad, combinado con el verbo humilde '申し上げる' para suavizar."
+          },
+          {
+            "original": "ご提示いただいた価格では、採算が取れません。",
+            "phonetic": "ɡo̞teːdʑi ita̠da̠i̥ta ka̠kaku de̞wa, sa̠isoɴ ɡa to̞remasen",
+            "translation": "Con el precio que nos ha ofrecido, no podemos cubrir costes.",
+            "note": "Uso de 'ご提示いただいた' (lo que usted nos ofreció) en forma respetuosa, para no culpar directamente al interlocutor."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "条件付きの提案",
+        "translation": "Propuestas condicionadas",
+        "examples": [
+          {
+            "original": "納期を一週間延ばしていただけるなら、価格を10%下げられますが。",
+            "phonetic": "noːki o issɕuːkan no̞baɕite ita̠da̠ke̞ɾɯ na̠ɾa, ka̠kaku o d͡ʑɯːpaːse̞nto saɡe̞ɾaɾemasɯ ɡa",
+            "translation": "Si pudieran extender el plazo de entrega una semana, podríamos bajar el precio un 10%.",
+            "note": "Estructura condicional '～なら' combinada con la forma pasiva de poder '～られる' y la partícula 'が' al final para dejar la frase abierta."
+          },
+          {
+            "original": "数量を増やしていただければ、単価を抑えることも可能です。",
+            "phonetic": "sɯːɾjoː o̞ ɸʊje̞te ita̠da̠ke̞ɾe̞ba, tã̠ŋka o̞ o̞sa̠e̞ɾɯ ko̞to̞ mo̞ ka̠no̞ː desɯ",
+            "translation": "Si nos aumentan la cantidad, también es posible contener el precio unitario.",
+            "note": "Uso de la condicional '～れば' y la nominalización 'こと' para expresar posibilidad de manera formal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "合意への誘導",
+        "translation": "Conducción hacia el acuerdo",
+        "examples": [
+          {
+            "original": "両者にとって納得のいく妥協点を見つけたいものですね。",
+            "phonetic": "ɾjoːɕa̠ ni to̞tːe na̠tːoku no̞ ikɯ da̠kʲoːte̞n o̞ mʲiʦɯke̞ta̠i mo̞no̞ desɯ ne",
+            "translation": "Ojalá podamos encontrar un punto de compromiso que sea aceptable para ambas partes.",
+            "note": "Uso de '～ものですね' para expresar un deseo compartido, creando un ambiente colaborativo."
+          },
+          {
+            "original": "こちらは最大限の譲歩をいたす所存です。",
+            "phonetic": "kotɕiɾa wa sa̠ida̠iːɴ no̞ d͡ʑoːho o̞ ita̠sɯ ɕo̞zoɴ desɯ",
+            "translation": "Por nuestra parte, tenemos la intención de hacer la máxima concesión.",
+            "note": "Uso del verbo humilde 'いたす' y la construcción '所存です' para expresar intención formal y de respeto."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤝",
+    "phonetic": "",
+    "translations": {
+      "es": "Estrategias de negociación avanzadas"
+    }
+  },
+  {
+    "id": "es_C1_func_08",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Reacción y evaluación: ～てしまう / ～ものだ / ～ことか / ～やら",
+    "bridge": "En español usamos matices como 'por desgracia', 'no te imaginas cuánto' o 'vaya con...' para expresar actitud. En japonés, estos matices se codifican directamente en la gramática con partículas y estructuras que no existen en español. Por ejemplo, ～てしまう añade un matiz de inevitabilidad o lamentación, mientras que ～ものだ expresa admiración o constatación general. Cuidado: los hispanohablantes tienden a usar adjetivos/adverbios (残念ながら, 本当に) en lugar de integrar la valoración en la forma verbal, lo que suena menos natural y menos matizado en C1.",
+    "rule": "Para expresar actitud y evaluación con matices en japonés C1, se usan estructuras gramaticales específicas: 1) ～てしまう: expresa que algo ocurrió de forma irreparable o no deseada (lamentación, pérdida, o final involuntario). También puede indicar completitud accidental. Forma: verbo en て形 + しまう (o ちゃう en registro coloquial). Ejemplo: 忘れてしまった (olvidé irremediablemente). 2) ～ものだ: expresa admiración, constancia, o una verdad general aprendida por experiencia. Con verbo en presente indica característica general ('suele pasar'). Con たい forma (～たいものだ) indica deseo profundo. Con pasado (～たものだ) indica recuerdo nostálgico habitual. Ejemplo: 昔はよく遊んだものだ (solía jugar mucho antes). 3) ～ことか: se usa en exclamaciones para enfatizar el grado o la frecuencia, a menudo con palabras interrogativas como なんと o どれほど. Ejemplo: どれほど待ったことか (¡cuánto esperé!). 4) ～やら: expresa incertidumbre, duda, o evaluaciones negativas con un matiz de desasosiego. Se usa a menudo con 何 (なに) o con estructuras como ～やら～やら. Ejemplo: 何を言ったやら (no sé qué dijo, y me preocupa). Otras estructuras: ～ものか (negación enfática), ～ことだ (recomendación/valoración), ～ざるを得ない (no tener más remedio que). En C1 se espera que el estudiante combine estas estructuras con el contexto para expresar ironía, resignación o sorpresa, y que las use tanto en registro formal como informal según la situación.",
+    "concept_examples": [
+      {
+        "text": "せっかく作った料理を全部捨ててしまった。",
+        "translation": "Tiré toda la comida que había preparado con tanto esfuerzo (y me da mucha pena).",
+        "phonetic": "sekkaku tsukutta ryōri o zenbu sutete shimatta"
+      },
+      {
+        "text": "若い頃はよく山に登ったものだ。",
+        "translation": "Cuando era joven, solía subir montañas muy a menudo (lo recuerdo con nostalgia).",
+        "phonetic": "wakai koro wa yoku yama ni nobotta mono da"
+      },
+      {
+        "text": "試験に落ちた時、どれほど悔しかったことか。",
+        "translation": "Cuando suspendí el examen, no te imaginas cuánto me arrepentí.",
+        "phonetic": "shiken ni ochita toki, dorehodo kuyashikatta koto ka"
+      },
+      {
+        "text": "あの人は一体何を考えているやら、さっぱり分からない。",
+        "translation": "Esa persona, no sé qué estará pensando, no lo entiendo para nada (me inquieta).",
+        "phonetic": "ano hito wa ittai nani o kangaete iru yara, sappari wakaranai"
+      }
+    ],
+    "common_error": {
+      "wrong": "本当に残念です。プレゼントを忘れました。",
+      "correct": "せっかくのプレゼントを忘れてしまいました。",
+      "correct_alt": "プレゼントを忘れてしまって、本当に残念です。",
+      "explanation": "El error típico es usar un adverbio/adjetivo (本当に残念です) y el verbo en pasado simple (忘れました) para expresar lamentación, lo cual suena plano y poco natural en contextos de actitud. En japonés, la evaluación se incorpora a la forma verbal con ～てしまう, que comunica el matiz de pérdida o irreversibilidad. Para sonar más avanzado, se debe usar ～てしまう y, si se quiere reforzar, añadir una expresión de sentimiento, pero no como sustituto. Además, 'せっかくの' añade el matiz de que el esfuerzo fue en vano, algo muy útil para contextos C1."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "～てしまう：lamentación y final involuntario",
+        "translation": "～てしまう: lamentación y final involuntario",
+        "examples": [
+          {
+            "original": "パソコンが壊れてしまった。",
+            "phonetic": "pasokon ga kowarete shimatta",
+            "translation": "El ordenador se ha estropeado (y no hay solución, me fastidia).",
+            "note": "Se usa ～てしまう para expresar que el daño es permanente o que no se puede evitar. En español, el pasado simple no transmite ese matiz de 'no hay remedio'."
+          },
+          {
+            "original": "電車に乗り遅れてしまいました。",
+            "phonetic": "densha ni noriokurete shimaimashita",
+            "translation": "He perdido el tren (y esto tiene consecuencias fatales para mí).",
+            "note": "En registro formal se usa ～てしまいました. En conversación informal, se puede abreviar como ～ちゃった."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "～ものだ：constancia, recuerdos y deseos",
+        "translation": "～ものだ: constancia, recuerdos y deseos",
+        "examples": [
+          {
+            "original": "人間は時間が経つと忘れるものだ。",
+            "phonetic": "ningen wa jikan ga tatsu to wasureru mono da",
+            "translation": "Los humanos, con el tiempo, acaban olvidando (es una verdad general).",
+            "note": "～ものだ aquí expresa una ley general o característica inevitable. Se diferencia de ことだ, que se usa para recomendaciones o hechos concretos."
+          },
+          {
+            "original": "子供の頃はよく川で泳いだものだ。",
+            "phonetic": "kodomo no koro wa yoku kawa de oyoida mono da",
+            "translation": "De niño solía nadar en el río (recuerdo con nostalgia).",
+            "note": "Con verbo en pasado, ～ものだ indica un hábito del pasado que evoca nostalgia. Es equivalente a 'solía' pero con carga afectiva."
+          },
+          {
+            "original": "一度は海外で働いてみたいものだ。",
+            "phonetic": "ichido wa kaigai de hataraite mitai mono da",
+            "translation": "Me gustaría mucho, alguna vez, trabajar en el extranjero (deseo profundo).",
+            "note": "～たいものだ expresa un deseo intenso y soñado. A menudo se traduce como 'me encantaría...' para reflejar el matiz."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "～ことか y ～やら：énfasis y duda con valoración",
+        "translation": "～ことか y ～やら: énfasis y duda con valoración",
+        "examples": [
+          {
+            "original": "彼にどれほど助けられたことか。",
+            "phonetic": "kare ni dorehodo tasukerareta koto ka",
+            "translation": "No te imaginas cuánto me ayudó (énfasis emocional).",
+            "note": "～ことか se usa en exclamaciones para expresar un grado extremo, a menudo con どれほど, なんと, o いくら. Transmite impacto emocional."
+          },
+          {
+            "original": "明日の天気はどうなるやら。",
+            "phonetic": "asu no tenki wa dō naru yara",
+            "translation": "A ver qué tiempo hará mañana (no tengo ni idea, y me preocupa un poco).",
+            "note": "～やら indica incertidumbre con un matiz de desasosiego o resignación. En español no existe equivalente directo; se usa a menudo en situaciones donde no se puede saber y eso inquieta."
+          },
+          {
+            "original": "何を言っているやら、さっぱり理解できない。",
+            "phonetic": "nani o itte iru yara, sappari rikai dekinai",
+            "translation": "No sé qué está diciendo, no lo entiendo en absoluto (con frustración).",
+            "note": "Aquí ～やら se combina con 何 (qué) para expresar confusión y desagrado. Es común en quejas o comentarios negativos."
+          }
+        ]
+      }
+    ],
+    "emoji": "😤",
+    "phonetic": "",
+    "translations": {
+      "es": "Expresar actitud y evaluación con matices"
+    }
+  },
+  {
+    "id": "es_C1_func_09",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "場面に応じた言葉遣いの切り替え（改まる場面とくだけた場面）",
+    "bridge": "En español, el cambio de registro se manifiesta principalmente en el uso de 'tú'/'usted' y en la elección de léxico, pero en japonés este cambio es mucho más sistemático y gramatical: se refleja en la elección de formas verbales (forma cortés vs. forma simple), en partículas finales (ね, よ, か) y en sufijos de tratamiento (さん, くん, さま). Para un hispanohablante, el desafío no es solo conocer las formas, sino saber cuándo y con quién usar cada una. Un error común es usar la forma cortés en exceso con amigos, lo que crea distancia, o usar la forma simple con superiores, lo que se percibe como falta de respeto. Además, en japonés existen niveles intermedios como el 'keigo' (lenguaje honorífico), que no tienen equivalente directo en español y requieren una comprensión profunda de la jerarquía social.",
+    "rule": "El registro en japonés se divide en tres grandes niveles: (1) 丁寧語 (teineigo, lenguaje cortés), (2) 尊敬語 (sonkeigo, lenguaje honorífico para acciones de otros), (3) 謙譲語 (kenjougo, lenguaje humilde para acciones propias). En contextos informales se usa la forma simple (普通体). La elección depende de: la relación de estatus (superior, igual, inferior), el grado de familiaridad, la situación (reunión de negocios, conversación entre amigos), y el tema (asuntos serios vs. cotidianos). Para C1, se espera que el estudiante maneje: a) el cambio entre forma simple y cortés en diferentes contextos; b) el uso adecuado de partículas modales (ね, よ, な, ぞ, かな, の, etc.) que matizan el registro; c) el uso básico de keigo en situaciones formales (como いらっしゃる, 参る, 申す). Reglas clave: la forma cortés se construye con -ます/-です; la forma simple usa el diccionario o formas informales. En el keigo, 尊敬語 se aplica a acciones de la persona a quien se respeta (e.g., 社長がおっしゃいました), mientras que 謙譲語 se usa para las propias acciones hacia esa persona (e.g., ご報告申し上げます). Es crucial no mezclar niveles: una vez escogido un registro, debe mantenerse consistente. Las partículas finales también varían: en registro formal se evita よ y ね en exceso; en informal, se usan para expresar matices emotivos.",
+    "concept_examples": [
+      {
+        "text": "本日はお忙しいところ、ご来社いただき、誠にありがとうございます。",
+        "translation": "Le agradezco de corazón que haya venido a nuestra oficina a pesar de su apretada agenda hoy.",
+        "phonetic": "honʑitɕi wa oisogaɕiː tokoro de, goraisja itadaki, makoto ni arigatoː gozaimasɯ."
+      },
+      {
+        "text": "今日は忙しいのに来てくれて、本当にありがとう。",
+        "translation": "Gracias de verdad por venir hoy aunque estás ocupado.",
+        "phonetic": "kjoː wa isogaɕiː noni kite kurete, hontoːni arigatoː."
+      },
+      {
+        "text": "あの書類、もうご覧になりましたか。",
+        "translation": "¿Ya ha visto ese documento? (en contexto formal, mostrando respeto hacia la acción de la otra persona)",
+        "phonetic": "ano ɕorɯi, moː goran ni narimaɕita ka."
+      },
+      {
+        "text": "あの書類、もう見た？",
+        "translation": "¿Ya viste ese documento? (informal, entre amigos)",
+        "phonetic": "ano ɕorɯi, moː mita? "
+      }
+    ],
+    "common_error": {
+      "wrong": "先生に「これ、わかった？」と言った。",
+      "correct": "先生に「これはお分かりになりましたか？」と言った。",
+      "correct_alt": "先生に「これはご理解いただけましたか？」と言った。",
+      "explanation": "El error consiste en usar la forma informal わかった? con el profesor, lo que es inapropiado en japonés por la jerarquía y el contexto formal. En japonés, al dirigirse a un superior, se debe usar el keigo (honorífico) para mostrar respeto. La forma correcta sería お分かりになりましたか (usando 尊敬語 del verbo わかる) o una alternativa como ご理解いただけましたか (uso de 謙譲語). El hispanohablante tiende a confiar en el contexto como en español, donde se puede decir '¿entendiste?' con un tono de respeto, pero en japonés la gramática debe reflejar la cortesía."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "丁寧語と普通体の切り替え",
+        "translation": "Cambio entre lenguaje cortés y forma simple",
+        "examples": [
+          {
+            "original": "明日、会議があります。",
+            "phonetic": "aɕita, kaigi ga arimasɯ.",
+            "translation": "Mañana hay una reunión. (formal)",
+            "note": "Uso de la forma cortés -ます para contextos formales o con personas no cercanas."
+          },
+          {
+            "original": "明日、会議がある。",
+            "phonetic": "aɕita, kaigi ga arɯ.",
+            "translation": "Mañana hay reunión. (informal)",
+            "note": "Uso de la forma simple (diccionario) para hablar con amigos o familiares."
+          },
+          {
+            "original": "何を食べますか？",
+            "phonetic": "nani o tabemasɯ ka?",
+            "translation": "¿Qué va a comer? (cortés)",
+            "note": "La partícula か mantiene la cortesía al añadir el sufijo -ます al verbo."
+          },
+          {
+            "original": "何食べる？",
+            "phonetic": "nani taberɯ?",
+            "translation": "¿Qué comes? (informal)",
+            "note": "En registro informal, la partícula か se omite y la entonación ascendente indica pregunta."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "尊敬語と謙譲語の基本",
+        "translation": "Fundamentos del lenguaje honorífico y humilde",
+        "examples": [
+          {
+            "original": "社長はもうお帰りになりました。",
+            "phonetic": "ɕatɕoː wa moː okaeri ni narimaɕita.",
+            "translation": "El presidente ya se ha ido a casa. (usando 尊敬語 para la acción del presidente)",
+            "note": "El verbo 帰る se convierte en お帰りになる para expresar respeto hacia el superior."
+          },
+          {
+            "original": "私がご案内いたします。",
+            "phonetic": "watakɕi ga goannai itaɕimasɯ.",
+            "translation": "Yo le guiaré (humilde).",
+            "note": "El verbo 案内する se convierte en ご案内いたす usando 謙譲語 para humillar la propia acción."
+          },
+          {
+            "original": "部長、この書類をご覧になりますか。",
+            "phonetic": "butɕoː, kono ɕorɯi o goran ni narimasɯ ka.",
+            "translation": "¿Jefe, echa un vistazo a este documento? (respetuoso)",
+            "note": "ご覧になる es el 尊敬語 del verbo 見る. Se usa para acciones de la persona a quien se respeta."
+          },
+          {
+            "original": "こちらでお待ちしております。",
+            "phonetic": "kotɕira de omatɕi ɕite orimasɯ.",
+            "translation": "Le espero aquí. (humilde, indicando que la acción de esperar es propia)",
+            "note": "お待ちする es la forma humilde de 待つ, utilizada para mostrar deferencia hacia el interlocutor."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "場面に応じたポライトネスと語尾表現",
+        "translation": "Cortesía adaptada a la situación y partículas finales",
+        "examples": [
+          {
+            "original": "この件につきましては、後ほどご連絡いただけますでしょうか。",
+            "phonetic": "kono ken ni tɕikimaɕite wa, ato hodo gorenraku itadakemasɨ deɕoː ka.",
+            "translation": "En cuanto a este asunto, ¿podría ponerse en contacto con nosotros más tarde? (muy formal, uso de -いただけますでしょうか)",
+            "note": "En situaciones muy formales, como correos electrónicos o negociaciones, se usan estructuras como いただけますでしょうか para suavizar la petición."
+          },
+          {
+            "original": "ねえ、それどう思う？",
+            "phonetic": "neː, sore doː omoː?",
+            "translation": "Oye, ¿qué piensas de eso? (informal con partícula ね para crear cercanía)",
+            "note": "La partícula ね en contexto informal busca la aprobación o empatía del interlocutor. En contextos formales se evitaría."
+          },
+          {
+            "original": "これはちょっと難しいですね。",
+            "phonetic": "kore wa tɕotto muzukaɕiː desɨ ne.",
+            "translation": "Esto es un poco difícil, ¿verdad? (cortés con ね para suavizar)",
+            "note": "En registro formal, se usa ね al final para hacer la afirmación menos directa, mostrando consideración hacia el interlocutor."
+          },
+          {
+            "original": "それ、やめておくよ。",
+            "phonetic": "sore, yamete oku jo.",
+            "translation": "Eso lo dejaré, ¿eh? (informal con よ para enfatizar la decisión)",
+            "note": "La partícula よ en registro informal transmite información nueva o énfasis, pero en formal se reemplazaría por ですよ con un tono menos directo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "es": "Cambio de registro según el contexto"
+    }
+  },
+  {
+    "id": "es_C1_func_10",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "間接的コミュニケーションと忖度 (Comunicación indirecta y omote–ura)",
+    "bridge": "En español, la comunicación directa es habitual: expresamos desacuerdo, negación o peticiones de forma explícita, y el contexto social tiene menos peso que en Japón. En japonés, la cortesía y la armonía grupal (和) exigen un estilo indirecto, donde lo que no se dice (行間, 'entre líneas') es tan importante como lo que se dice. Los hispanohablantes tienden a rechazar ofrecimientos con 'no' explícito o a dar respuestas afirmativas para evitar conflictos, pero en japonés hay formas específicas como '大丈夫です' (estoy bien / no gracias) que se interpretan como negación cortés. También es clave entender la diferencia entre 本音 (opinión verdadera) y 建前 (fachada social): los japoneses usan 建前 en contextos formales y esperan que el interlocutor perciba el 本音 mediante pistas contextuales. Confiar solo en las palabras literales puede llevar a malentendidos graves.",
+    "rule": "En japonés C1, el dominio del estilo indirecto es esencial. Reglas básicas: 1) Para rechazar ofrecimientos, se usa '大丈夫です' o '結構です' en lugar de un 'no' directo. 2) Para dar opiniones en contextos formales, se emplean 'と思う' (creo que) con suavización, o se pospone la afirmación para mostrar consideración. 3) La expresión 'こちらこそ' (el placer es mío) se usa para responder a agradecimientos de forma humilde. 4) Los marcadores de vacilación como 'ちょっと…' o 'あのう…' indican que se va a expresar algo difícil o negativo. 5) La partícula 'けど' al final (p. ej., 'やめたいんですけど') deja la frase abierta, invitando al interlocutor a inferir la conclusión. 6) En peticiones indirectas, se usa '〜していただけますか' (¿podría…?) en lugar de formas imperativas. 7) El uso de 'おかげさまで' (gracias a ti) agradece atribuyendo el mérito al otro, aunque no sea literal. El error más común es transferir la franqueza española: responder 'いいえ' directamente o usar 'すみません' fuera de contexto. En C1, debes reconocer que la verdadera intención se comunica mediante el contexto, la entonación, y los límites en la frase.",
+    "concept_examples": [
+      {
+        "text": "大丈夫です。",
+        "translation": "Estoy bien. (usado para rechazar un ofrecimiento cortésmente)",
+        "phonetic": "[daidʑoːbu desɯ]"
+      },
+      {
+        "text": "ちょっと…難しいかもしれません。",
+        "translation": "Es un poco… puede que sea difícil. (rechazo indirecto)",
+        "phonetic": "[tɕotto… mɯzukaɕiː kamo ɕiremasen]"
+      },
+      {
+        "text": "せっかくですが、今回は遠慮させていただきます。",
+        "translation": "Agradezco mucho su ofrecimiento, pero esta vez me permito declinar. (rechazo formal)",
+        "phonetic": "[sekːakɯ desɯ ga, konkai wa enɾjo sase̞te itadakʲimasɯ]"
+      },
+      {
+        "text": "おかげさまで、うまくいきました。",
+        "translation": "Gracias a ti, salió bien. (reconocimiento humilde del éxito)",
+        "phonetic": "[okage sama de, ɯmakɯ ikʲimaɕita]"
+      }
+    ],
+    "common_error": {
+      "wrong": "いいえ、できません。",
+      "correct": "すみません、できません。",
+      "correct_alt": "申し訳ございませんが、今回は見送らせていただきます。",
+      "explanation": "En español, responder 'no, no puedo' es aceptable. Pero en japonés, un rechazo directo suena brusco y falta a la cortesía. Se espera una disculpa ('すみません', '申し訳ございません') que atenúa la negativa y una explicación. En lugar de decir literalmente 'no', se usa 'できません' con disculpa, o mejor aún, una forma indirecta como '見送らせていただきます' (permita que decline), que implica respeto. La clave es mitigar el impacto del rechazo usando estructuras de humildad y agradecimiento."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "遠回しな拒否",
+        "translation": "Rechazo indirecto",
+        "examples": [
+          {
+            "original": "あのう、今日はちょっと…",
+            "phonetic": "[anoː, kʲoː wa tɕotto…]",
+            "translation": "Mmm, hoy es un poco… (implica no disponible o no querer)",
+            "note": "La frase se deja a medias; el interlocutor debe inferir que es una negativa."
+          },
+          {
+            "original": "それはちょっと厳しいかも知れません。",
+            "phonetic": "[sore wa tɕotto kʲɯːɕiː ka mo ɕiremasen]",
+            "translation": "Eso quizás sea un poco difícil. (Cuando algo no es factible, suaviza el rechazo)",
+            "note": "Usar 'かも知れません' añade duda, reduciendo la afirmación categórica."
+          },
+          {
+            "original": "結構です。",
+            "phonetic": "[kekːoː desɯ]",
+            "translation": "Está bien. (Significa 'no, gracias' en contexto de ofrecimiento)",
+            "note": "A menudo se malinterpreta como 'me gusta'; depende del contexto y tono."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "建前と本音",
+        "translation": "Fachada social y opinión verdadera",
+        "examples": [
+          {
+            "original": "はい、そうですね。",
+            "phonetic": "[hai, soː desɯ ne]",
+            "translation": "Sí, verdad. (Asentimiento formal que puede ser 建前, sin estar de acuerdo realmente)",
+            "note": "En contextos formales, se suele afirmar para mantener armonía, aunque no se comparta la opinión."
+          },
+          {
+            "original": "検討させていただきます。",
+            "phonetic": "[kentoː sase̞te itadakʲimasɯ]",
+            "translation": "Permita que lo consideremos. (A menudo es un rechazo cortés en el mundo laboral)",
+            "note": "Los hispanohablantes deben entender que esta frase puede no significar una consideración real."
+          },
+          {
+            "original": "大変勉強になります。",
+            "phonetic": "[taiben benkʲoː ni narimasɯ]",
+            "translation": "Aprender mucho de esto. (Frase de cortesía para alabar, aunque no sea del todo cierto)",
+            "note": "Usar este tipo de expresiones muestra que dominas la pragmática japonesa."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "察しを促す表現",
+        "translation": "Expresiones que invitan a la inferencia",
+        "examples": [
+          {
+            "original": "お手数ですが、よろしくお願いします。",
+            "phonetic": "[otesɯː desɯ ga, joɾoɕikɯ oneɡaʲi ɕimasɯ]",
+            "translation": "Lamento las molestias, pero se lo agradezco de antemano. (Petición indirecta de ayuda)",
+            "note": "No se pide directamente, sino que se espera que el otro ofrezca ayuda."
+          },
+          {
+            "original": "明日までにできればありがたいんですけど。",
+            "phonetic": "[aɕita made ni dekirɛba aɾigatai n desɯ kedo]",
+            "translation": "Me sería de gran ayuda si pudiera hacerlo para mañana. (Condicional suavizado)",
+            "note": "La partícula 'けど' final deja la oración abierta, sugiriendo una petición sin imponer."
+          },
+          {
+            "original": "お忙しいところ恐れ入りますが、ご確認いただけますか。",
+            "phonetic": "[o̞isoɡaɕiː tokoro o̞soɾeirimasɯ ga, ɡo̞kakɯnin itadakʲimasɯ ka]",
+            "translation": "Lamento interrumpirle, pero ¿podría confirmar? (Solicitud de verificación con doble cortesía)",
+            "note": "Combina disculpa y verbo de recepción humilde, elevando el nivel de cortesía."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤝",
+    "phonetic": "",
+    "translations": {
+      "es": "Comunicación intercultural y estilo pragmático: la indirectness japonesa frente a la franqueza hispana"
+    }
+  }
+]

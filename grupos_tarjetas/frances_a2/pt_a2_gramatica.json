@@ -1,0 +1,2003 @@
+[
+  {
+    "id": "pt_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Le passé composé / O pretérito perfeito composto",
+    "bridge": "Em francês, o passado simples é geralmente expresso pelo 'passé composé' (ex.: 'j'ai parlé'), enquanto em português usamos o pretérito perfeito simples ('eu falei'). Diferente do português, o francês usa um verbo auxiliar (avoir ou être) + particípio passado. Cuidado: muitos verbos que usam 'ter' em português usam 'être' em francês, e o particípio concorda com o sujeito quando o auxiliar é 'être'.",
+    "rule": "O passé composé é formado com o presente do indicativo do auxiliar 'avoir' ou 'être' + particípio passado do verbo principal. A escolha do auxiliar: a maioria dos verbos usa 'avoir'; verbos de movimento e mudança de estado (aller, venir, arriver, partir, rester, devenir, etc.) e verbos pronominais usam 'être'. Com 'être', o particípio concorda em gênero e número com o sujeito (ex.: elle est allée). Verbos regulares em -er formam o particípio com -é (parler -> parlé), em -ir com -i (finir -> fini), e em -re com -u (vendre -> vendu). Verbos irregulares comuns: avoir -> eu, être -> été, faire -> fait, prendre -> pris, mettre -> mis, dire -> dit, voir -> vu, vouloir -> voulu, pouvoir -> pu. Negação: ne + auxiliar + pas + particípio. Exceções: alguns verbos de movimento podem usar avoir quando têm objeto direto (ex.: j'ai monté les valises).",
+    "concept_examples": [
+      {
+        "text": "Hier, j'ai mangé une pomme.",
+        "translation": "Ontem, eu comi uma maçã.",
+        "phonetic": "/jɛʁ | ʒe mɑ̃ʒe yn pɔm/"
+      },
+      {
+        "text": "Elle est allée au marché.",
+        "translation": "Ela foi ao mercado.",
+        "phonetic": "/ɛl ɛt‿ale o maʁʃe/"
+      },
+      {
+        "text": "Nous avons fini nos devoirs.",
+        "translation": "Nós terminamos nossos deveres.",
+        "phonetic": "/nu zavɔ̃ fini no dəvwaʁ/"
+      },
+      {
+        "text": "Ils sont partis à midi.",
+        "translation": "Eles partiram ao meio-dia.",
+        "phonetic": "/il sɔ̃ paʁti a midi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis mangé une pomme.",
+      "correct": "J'ai mangé une pomme.",
+      "correct_alt": "",
+      "explanation": "O erro acontece porque em português usamos 'ter' como auxiliar na maioria das vezes, mas alguns aprendizes transferem o uso de 'ser' de construções como 'eu sou chegado' ou do italiano. No francês, 'manger' usa 'avoir'. Use 'être' apenas com verbos de movimento/mudança e pronominais. Para evitar, memorize a lista de verbos que usam 'être'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbes réguliers avec avoir",
+        "translation": "Verbos regulares com avoir",
+        "examples": [
+          {
+            "original": "J'ai parlé avec Marie.",
+            "phonetic": "/ʒe paʁle avek maʁi/",
+            "translation": "Eu falei com a Maria.",
+            "note": "Verbos em -er formam o particípio com -é. Note que 'parlé' é invariável com avoir."
+          },
+          {
+            "original": "Tu as fini tes devoirs?",
+            "phonetic": "/ty a fini te dəvwaʁ/",
+            "translation": "Você terminou seus deveres?",
+            "note": "Verbos em -ir formam o particípio com -i. A pergunta pode ser feita com inversão ou entonação."
+          },
+          {
+            "original": "Nous avons vendu notre voiture.",
+            "phonetic": "/nu zavɔ̃ vɑ̃dy nɔtʁ vwatyr/",
+            "translation": "Nós vendemos nosso carro.",
+            "note": "Verbos em -re formam o particípio com -u (vendu)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbes avec être et accord",
+        "translation": "Verbos com être e concordância",
+        "examples": [
+          {
+            "original": "Elle est partie tôt.",
+            "phonetic": "/ɛl ɛt paʁti to/",
+            "translation": "Ela partiu cedo.",
+            "note": "Como o auxiliar é être, o particípio 'partie' concorda com o sujeito feminino singular."
+          },
+          {
+            "original": "Nous sommes allés au cinéma.",
+            "phonetic": "/nu sɔmz‿ale o sinema/",
+            "translation": "Nós fomos ao cinema.",
+            "note": "Com 'nous', o particípio fica no masculino plural se o grupo for misto ou só masculino."
+          },
+          {
+            "original": "Ils sont arrivés hier soir.",
+            "phonetic": "/il sɔ̃t‿aʁive jɛʁ swaʁ/",
+            "translation": "Eles chegaram ontem à noite.",
+            "note": "Verbos de movimento (arriver, partir, aller, venir) usam être. Concordância com 'ils' - masculino plural."
+          },
+          {
+            "original": "Elles se sont levées tard.",
+            "phonetic": "/ɛl sə sɔ̃ ləve taʁ/",
+            "translation": "Elas se levantaram tarde.",
+            "note": "Verbos pronominais usam être, e o particípio concorda com o sujeito feminino plural (levées)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbes irréguliers courants",
+        "translation": "Verbos irregulares comuns",
+        "examples": [
+          {
+            "original": "J'ai fait un gâteau.",
+            "phonetic": "/ʒe fɛ ɛ̃ ɡato/",
+            "translation": "Eu fiz um bolo.",
+            "note": "O particípio de 'faire' é 'fait', invariável com avoir."
+          },
+          {
+            "original": "Ils ont vu un film.",
+            "phonetic": "/il zɔ̃ vy ɛ̃ film/",
+            "translation": "Eles viram um filme.",
+            "note": "O particípio de 'voir' é 'vu'."
+          },
+          {
+            "original": "Nous avons pris le bus.",
+            "phonetic": "/nu zavɔ̃ pʁi lə bys/",
+            "translation": "Nós pegamos o ônibus.",
+            "note": "O particípio de 'prendre' é 'pris'. Não confunda com 'prie' (de prier)."
+          },
+          {
+            "original": "Elle a mis sa robe.",
+            "phonetic": "/ɛl a mi sa ʁɔb/",
+            "translation": "Ela vestiu seu vestido.",
+            "note": "O particípio de 'mettre' é 'mis'."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Pretérito perfeito composto"
+    }
+  },
+  {
+    "id": "pt_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Le présent progressif / Presente progressivo",
+    "bridge": "Em português, você usa 'estar + gerúndio' (estou fazendo) para expressar uma ação em andamento. Em francês, essa estrutura não existe da mesma forma. O francês usa o presente simples (je fais) na maioria dos casos, ou a construção 'être en train de + infinitivo' para enfatizar que a ação está acontecendo agora. Cuidado: não use 'je suis faisant' – isso é um erro comum!",
+    "rule": "Em francês, não existe um tempo verbal específico para o presente progressivo. Para expressar uma ação em andamento, você tem duas opções: 1) Usar o presente do indicativo (je mange) para ações habituais ou que estão acontecendo no momento, especialmente com verbos de estado. 2) Usar a construção 'être en train de + infinitivo' (je suis en train de manger) para enfatizar que a ação está acontecendo agora, no momento da fala. Essa construção é equivalente a 'estar + gerúndio' em português. Exemplo: 'Je suis en train de travailler' = 'Estou trabalhando'. A construção 'être en train de' é conjugada com o verbo 'être' no presente, seguido de 'en train de' e o infinitivo do verbo principal. Não há variação do gerúndio em francês.",
+    "concept_examples": [
+      {
+        "text": "Je mange une pomme.",
+        "translation": "Estou comendo uma maçã.",
+        "phonetic": "/ʒə mɑ̃ʒ yn pɔm/"
+      },
+      {
+        "text": "Tu es en train de lire.",
+        "translation": "Você está lendo.",
+        "phonetic": "/ty ɛ ɑ̃ tʁɛ̃ də liʁ/"
+      },
+      {
+        "text": "Nous sommes en train de parler.",
+        "translation": "Estamos falando.",
+        "phonetic": "/nu sɔm ɑ̃ tʁɛ̃ də paʁle/"
+      },
+      {
+        "text": "Elle chante dans la salle de bain.",
+        "translation": "Ela está cantando no banheiro.",
+        "phonetic": "/ɛl ʃɑ̃t dɑ̃ la sal də bɛ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis faisant mes devoirs.",
+      "correct": "Je fais mes devoirs.",
+      "correct_alt": "Je suis en train de faire mes devoirs.",
+      "explanation": "Em português, você diria 'estou fazendo', então a tendência é traduzir literalmente como 'je suis faisant'. Mas em francês, o particípio presente não é usado com 'être' para formar o progressivo. A forma correta é usar o presente simples ('je fais') ou a construção 'être en train de' + infinitivo ('je suis en train de faire'). Lembre-se: 'être en train de' é invariável, não se conjuga o verbo principal."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Le présent simple pour une action en cours",
+        "translation": "O presente simples para uma ação em andamento",
+        "examples": [
+          {
+            "original": "Je travaille.",
+            "phonetic": "/ʒə tʁavaj/",
+            "translation": "Estou trabalhando.",
+            "note": "O presente simples em francês pode expressar uma ação que acontece agora, como em português quando usamos o presente simples em alguns contextos informais."
+          },
+          {
+            "original": "Tu manges.",
+            "phonetic": "/ty mɑ̃ʒ/",
+            "translation": "Você está comendo.",
+            "note": "Verbos de ação no presente simples são a forma mais comum para indicar o progressivo em francês."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "La construction être en train de",
+        "translation": "A construção être en train de",
+        "examples": [
+          {
+            "original": "Je suis en train de cuisiner.",
+            "phonetic": "/ʒə sɥi ɑ̃ tʁɛ̃ də kɥizine/",
+            "translation": "Estou cozinhando.",
+            "note": "Use a construção 'être en train de' para enfatizar que a ação está acontecendo no momento exato da fala."
+          },
+          {
+            "original": "Nous sommes en train de regarder la télé.",
+            "phonetic": "/nu sɔm ɑ̃ tʁɛ̃ də ʁəɡaʁde la tele/",
+            "translation": "Estamos assistindo TV.",
+            "note": "Lembre-se de conjugar o verbo 'être' de acordo com o sujeito e manter o infinitivo após 'en train de'."
+          },
+          {
+            "original": "Ils sont en train de jouer au parc.",
+            "phonetic": "/il sɔ̃ ɑ̃ tʁɛ̃ də ʒwe o paʁk/",
+            "translation": "Eles estão brincando no parque.",
+            "note": "A construção é invariável, então o verbo principal fica sempre no infinitivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbes d'état et actions habituelles",
+        "translation": "Verbos de estado e ações habituais",
+        "examples": [
+          {
+            "original": "Je pense à toi.",
+            "phonetic": "/ʒə pɑ̃s a twa/",
+            "translation": "Estou pensando em você.",
+            "note": "Com verbos de estado (como 'penser', 'savoir', 'aimer'), use o presente simples, não 'être en train de'."
+          },
+          {
+            "original": "Il fait ses devoirs tous les soirs.",
+            "phonetic": "/il fɛ se dəvwaʁ tu le swaʁ/",
+            "translation": "Ele faz/tem feito seus deveres todas as noites.",
+            "note": "Para ações habituais, o presente simples é a forma correta, assim como em português."
+          },
+          {
+            "original": "Je suis en train de comprendre.",
+            "phonetic": "/ʒə sɥi ɑ̃ tʁɛ̃ də kɔ̃pʁɑ̃dʁ/",
+            "translation": "Estou começando a entender.",
+            "note": "Alguns verbos podem ser usados com 'être en train de' para indicar um processo, mas é melhor evitar com verbos de estado."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Presente progressivo"
+    }
+  },
+  {
+    "id": "pt_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Le futur proche / Futuro próximo",
+    "bridge": "Em francês, para expressar o futuro imediato, usamos 'aller' (ir) + infinitivo, o que é muito parecido com o português 'ir + infinitivo'. No entanto, cuidado: em francês, 'aller' deve ser conjugado no presente, e o verbo principal permanece no infinitivo, sem preposição entre eles. Em português, também usamos 'ir + infinitivo', mas às vezes inserimos preposições (ex.: 'vou de comer' é errado, mas em francês nunca se usa preposição). Outra diferença importante: em francês, o futuro próximo é mais usado do que em português para ações planejadas no futuro, enquanto o futuro simples é mais formal ou distante.",
+    "rule": "Para formar o futur proche em francês, use o verbo 'aller' conjugado no presente do indicativo + o infinitivo do verbo principal. As formas de 'aller' são: je vais, tu vas, il/elle/on va, nous allons, vous allez, ils/elles vont. Exemplos: 'Je vais manger' (Vou comer), 'Nous allons partir' (Vamos partir). Esse tempo é usado para ações futuras imediatas ou planos próximos, frequentemente com expressões de tempo como 'demain' (amanhã), 'ce soir' (esta noite), 'tout à l'heure' (daqui a pouco). Não há preposição entre o verbo conjugado e o infinitivo. Para negar, use 'ne...pas' ao redor do verbo 'aller': 'Je ne vais pas manger' (Não vou comer). Para perguntas, pode-se usar inversão ou 'est-ce que'. Cuidado com a concordância: o verbo 'aller' é irregular, mas sua conjugação é similar ao português em termos de uso.",
+    "concept_examples": [
+      {
+        "text": "Je vais manger.",
+        "translation": "Vou comer.",
+        "phonetic": "/ʒə vɛ mɑ̃ʒe/"
+      },
+      {
+        "text": "Nous allons visiter Paris.",
+        "translation": "Vamos visitar Paris.",
+        "phonetic": "/nu zalɔ̃ vizite paʁi/"
+      },
+      {
+        "text": "Elle va arriver à 8 heures.",
+        "translation": "Ela vai chegar às 8 horas.",
+        "phonetic": "/ɛl va aʁive a ɥit œʁ/"
+      },
+      {
+        "text": "Ils ne vont pas venir.",
+        "translation": "Eles não vão vir.",
+        "phonetic": "/il nə vɔ̃ pa vəniʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je vais à manger.",
+      "correct": "Je vais manger.",
+      "correct_alt": "",
+      "explanation": "Muitos falantes de português tendem a inserir a preposição 'à' entre o verbo 'aller' e o infinitivo, influenciados pelo português 'vou a comer' (em algumas regiões do Brasil) ou pela preposição 'à' em locuções. Em francês, o futur proche não usa preposição alguma entre o verbo conjugado e o infinitivo. Basta justapor os dois verbos: 'Je vais manger'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formation du futur proche",
+        "translation": "Formação do futuro próximo",
+        "examples": [
+          {
+            "original": "Je vais parler.",
+            "phonetic": "/ʒə vɛ paʁle/",
+            "translation": "Vou falar.",
+            "note": "Observe que o verbo 'aller' é conjugado (vais) e o verbo principal fica no infinitivo (parler)."
+          },
+          {
+            "original": "Tu vas faire tes devoirs.",
+            "phonetic": "/ty va fɛʁ te dəvwaʁ/",
+            "translation": "Você vai fazer sua lição de casa.",
+            "note": "Note a forma 'tu vas' e o infinitivo 'faire'."
+          },
+          {
+            "original": "Nous allons travailler.",
+            "phonetic": "/nu zalɔ̃ tʁavaje/",
+            "translation": "Vamos trabalhar.",
+            "note": "A ligação (liaison) é feita entre 'nous allons' e o verbo seguinte para a pronúncia."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Futur proche et expressions de temps",
+        "translation": "Futuro próximo e expressões de tempo",
+        "examples": [
+          {
+            "original": "Je vais partir demain matin.",
+            "phonetic": "/ʒə vɛ paʁtiʁ dəmɛ̃ matɛ̃/",
+            "translation": "Vou partir amanhã de manhã.",
+            "note": "Expressões de tempo como 'demain' são frequentemente usadas com o futur proche."
+          },
+          {
+            "original": "Elle va venir tout à l'heure.",
+            "phonetic": "/ɛl va vəniʁ tut a lœʁ/",
+            "translation": "Ela vai vir daqui a pouco.",
+            "note": "A expressão 'tout à l'heure' indica um futuro próximo."
+          },
+          {
+            "original": "Nous allons regarder un film ce soir.",
+            "phonetic": "/nu zalɔ̃ ʁəgaʁde œ̃ film sə swaʁ/",
+            "translation": "Vamos assistir um filme esta noite.",
+            "note": "'Ce soir' (esta noite) é uma expressão comum de tempo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Négation et questions",
+        "translation": "Negação e perguntas",
+        "examples": [
+          {
+            "original": "Je ne vais pas travailler.",
+            "phonetic": "/ʒə nə vɛ pa tʁavaje/",
+            "translation": "Não vou trabalhar.",
+            "note": "A negação envolve 'ne' antes de 'vais' e 'pas' após o verbo conjugado."
+          },
+          {
+            "original": "Est-ce que tu vas venir ?",
+            "phonetic": "/ɛs kə ty va vəniʁ/",
+            "translation": "Você vai vir?",
+            "note": "Perguntas podem ser formadas com 'est-ce que' seguido da frase afirmativa."
+          },
+          {
+            "original": "Vont-ils acheter une maison ?",
+            "phonetic": "/vɔ̃ til aʃte yn mɛzɔ̃/",
+            "translation": "Eles vão comprar uma casa?",
+            "note": "Inversão do sujeito e do verbo em perguntas formais."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚀",
+    "phonetic": "",
+    "translations": {
+      "pt": "Futuro com 'going to' ou equivalente"
+    }
+  },
+  {
+    "id": "pt_A2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Le futur simple (futuro simples em francês)",
+    "bridge": "Em português, o futuro do presente é formado com uma desinência própria (ex: falarei, comerás). Em francês, o futur simple é formado de maneira diferente: você usa o infinitivo do verbo (ou uma forma especial para verbos irregulares) e adiciona as terminações do verbo avoir no presente (-ai, -as, -a, -ons, -ez, -ont). Cuidado: em francês, não se usa um verbo auxiliar (como 'vou' em português) para o futuro simples; isso seria o futur proche (ex: je vais manger). Além disso, a pronúncia das terminações é crucial: -ai é pronunciado /e/ e -a é /a/, então 'je parlerai' e 'il parlera' têm sons diferentes, enquanto em português 'falarei' e 'falará' também se diferenciam na vogal tônica, mas o padrão é distinto.",
+    "rule": "Para formar o futur simple, usa-se o infinitivo do verbo (para verbos -er e -ir, e alguns -re) e adiciona-se as terminações: -ai, -as, -a, -ons, -ez, -ont. Para verbos regulares -re (ex: vendre), tira-se o -e final antes de adicionar as terminações (ex: je vendrai, tu vendras). Verbos irregulares têm radicais especiais: être → ser-, avoir → aur-, aller → ir-, faire → fer-, venir → viendr-, pouvoir → pourr-, devoir → devr-, vouloir → voudr-, savoir → saur-. Exemplo: je serai, tu auras, il ira, nous ferons. O futur simple é usado para ações futuras, promessas, previsões, e em orações condicionais após 'si' (ex: Si tu viens, je serai heureux). Nota: o futuro simples não é usado após 'quand' quando a ação é futura; usamos o presente do indicativo (ex: Quand je serai grand, je serai médecin - atenção: 'serai' na oração principal, 'serai' na subordinada depois de 'quand'? Na verdade, depois de 'quand', usa-se o futuro, mas também pode-se usar o presente? Regra: depois de 'quand', 'lorsque', 'dès que', 'pendant que', usa-se o futuro simples se a ação for futura, mas o verbo na subordinada pode ser presente ou futuro, não há regra fixa? Na prática, usamos o futuro simples na subordinada também. Porém, para A2, vamos focar na forma básica. Lembre-se: em francês, não se usa 'will' ou equivalente; o futuro é uma terminação verbal.",
+    "concept_examples": [
+      {
+        "text": "Je parlerai français demain.",
+        "translation": "Falarei francês amanhã.",
+        "phonetic": "/ʒə paʁ.lə.ʁe fʁɑ̃.sɛ də.mɛ̃/"
+      },
+      {
+        "text": "Tu mangeras une pomme.",
+        "translation": "Você comerá uma maçã.",
+        "phonetic": "/ty mɑ̃ʒ.ʁa yn pɔm/"
+      },
+      {
+        "text": "Ils iront à Paris la semaine prochaine.",
+        "translation": "Eles irão a Paris na próxima semana.",
+        "phonetic": "/il i.ʁɔ̃ a pa.ʁi la sə.mɛn pʁɔ.ʃɛn/"
+      },
+      {
+        "text": "Nous serons contents de vous voir.",
+        "translation": "Ficaremos felizes em vê-los.",
+        "phonetic": "/nu sə.ʁɔ̃ kɔ̃.tɑ̃ də vu vwaʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je vais parler français demain.",
+      "correct": "Je parlerai français demain.",
+      "correct_alt": "",
+      "explanation": "Em francês, existem duas formas de falar do futuro: o futur proche (je vais + infinitivo) e o futur simple (je parlerai). Para iniciantes, é comum usar apenas o futur proche porque é mais fácil, mas o futur simple é mais formal e usado em escrita, previsões e discursos. O erro aqui é usar o futur proche quando o esperado é o futur simple. Para evitar, lembre-se: se quer expressar ações futuras de forma mais neutra ou formal, use o futur simple. O futur proche é mais coloquial e imediato."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formation régulière (verbos -er)",
+        "translation": "Formação regular (verbos -er)",
+        "examples": [
+          {
+            "original": "Je parlerai avec toi.",
+            "phonetic": "/ʒə paʁ.lə.ʁe a.vɛk twa/",
+            "translation": "Falarei com você.",
+            "note": "Use o infinitivo 'parler' + terminação -ai."
+          },
+          {
+            "original": "Tu chanteras une chanson.",
+            "phonetic": "/ty ʃɑ̃.tə.ʁa yn ʃɑ̃.sɔ̃/",
+            "translation": "Você cantará uma canção.",
+            "note": "Terminação -as para 'tu'."
+          },
+          {
+            "original": "Elle regardera la télé.",
+            "phonetic": "/ɛl ʁə.ɡaʁ.də.ʁa la te.le/",
+            "translation": "Ela assistirá à TV.",
+            "note": "Terminação -a para 'il/elle'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbes irréguliers",
+        "translation": "Verbos irregulares",
+        "examples": [
+          {
+            "original": "J'irai au cinéma samedi.",
+            "phonetic": "/ʒi.ʁe o si.ne.ma sam.di/",
+            "translation": "Irei ao cinema no sábado.",
+            "note": "O radical de 'aller' é 'ir-'."
+          },
+          {
+            "original": "Tu feras tes devoirs.",
+            "phonetic": "/ty fə.ʁa te də.vwaʁ/",
+            "translation": "Você fará seus deveres.",
+            "note": "O radical de 'faire' é 'fer-'."
+          },
+          {
+            "original": "Nous aurons une surprise.",
+            "phonetic": "/nu.z‿o.ʁɔ̃ yn syʁ.pʁiz/",
+            "translation": "Teremos uma surpresa.",
+            "note": "O radical de 'avoir' é 'aur-'."
+          },
+          {
+            "original": "Ils seront en vacances.",
+            "phonetic": "/il sə.ʁɔ̃ ɑ̃ va.kɑ̃s/",
+            "translation": "Eles estarão de férias.",
+            "note": "O radical de 'être' é 'ser-'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Usages et expressions",
+        "translation": "Usos e expressões",
+        "examples": [
+          {
+            "original": "Demain, il fera beau.",
+            "phonetic": "/də.mɛ̃ il fə.ʁa bo/",
+            "translation": "Amanhã fará bom tempo.",
+            "note": "Uso para previsões do tempo."
+          },
+          {
+            "original": "Quand tu voudras, nous partirons.",
+            "phonetic": "/kɑ̃ ty vu.dʁa nu paʁ.ti.ʁɔ̃/",
+            "translation": "Quando você quiser, partiremos.",
+            "note": "Atenção: depois de 'quand', geralmente usamos o presente ou futuro? Aqui, usamos futuro nas duas orações porque o sentido é de futuro."
+          },
+          {
+            "original": "Je vous aiderai si je peux.",
+            "phonetic": "/ʒə vu.z‿ɛ.də.ʁe si ʒə pø/",
+            "translation": "Ajudarei vocês se eu puder.",
+            "note": "Uso em condicional: 'si' + presente, futuro na outra parte."
+          },
+          {
+            "original": "Nous verrons bien.",
+            "phonetic": "/nu ve.ʁɔ̃ bjɛ̃/",
+            "translation": "Veremos bem (já veremos).",
+            "note": "Expressão fixa para indicar que o tempo dirá."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔮",
+    "phonetic": "",
+    "translations": {
+      "pt": "Futuro simples"
+    }
+  },
+  {
+    "id": "pt_A2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Comparatifs et superlatifs / Comparativos e superlativos",
+    "bridge": "Em português, usamos 'mais... que' e 'o mais... de' para comparativos e superlativos. Em francês, a estrutura é semelhante: 'plus... que' e 'le plus... de', mas há diferenças importantes: em francês, o adjetivo concorda em gênero e número com o substantivo, e o superlativo sempre leva o artigo definido (le, la, les). Cuidado com a posição do adjetivo: em francês, a maioria vem depois do substantivo, mas alguns (como 'bon') vêm antes. Também, 'que' é usado para comparação, mas 'de' é usado antes de números ou grupos.",
+    "rule": "Para formar o comparativo de superioridade, use 'plus' + adjetivo + 'que' (ex: plus grand que). Para inferioridade, 'moins' + adjetivo + 'que' (ex: moins cher que). Para igualdade, 'aussi' + adjetivo + 'que' (ex: aussi intelligent que). O superlativo é formado com o artigo definido + 'plus' ou 'moins' + adjetivo + 'de' (ex: le plus grand de). Lembre-se da concordância: se o substantivo é feminino, o adjetivo e o artigo mudam (la plus grande). Exceções importantes: 'bon' tem comparativo 'meilleur' e superlativo 'le meilleur'; 'mauvais' tem 'pire' e 'le pire' (mas 'plus mauvais' também é aceito). Para advérbios, use 'plus... que', mas o superlativo é 'le plus' sem artigo variável (ex: le plus rapidement).",
+    "concept_examples": [
+      {
+        "text": "Ce livre est plus intéressant que celui-là.",
+        "translation": "Este livro é mais interessante do que aquele.",
+        "phonetic": "/sə livʁ ɛ plyz‿ɛ̃teʁɛsɑ̃ kə səɥi la/"
+      },
+      {
+        "text": "Marie est la plus grande de la classe.",
+        "translation": "Marie é a mais alta da turma.",
+        "phonetic": "/maʁi ɛ la ply gʁɑ̃d də la klas/"
+      },
+      {
+        "text": "Ce gâteau est aussi bon que celui de ma mère.",
+        "translation": "Este bolo é tão bom quanto o da minha mãe.",
+        "phonetic": "/sə ɡato ɛ osi bɔ̃ kə səɥi də ma mɛʁ/"
+      },
+      {
+        "text": "Il court moins vite que son frère.",
+        "translation": "Ele corre menos rápido que o irmão dele.",
+        "phonetic": "/il kuʁ mwɛ̃ vit kə sɔ̃ fʁɛʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ce livre est plus intéressant que celui-là. (erro: 'plus grand que' em vez de 'plus intéressant' - na verdade, o erro comum é 'plus bon' para 'melhor')",
+      "correct": "Ce livre est meilleur que celui-là.",
+      "correct_alt": "Ce livre est plus bon que celui-là. (não é usado)",
+      "explanation": "Falantes de português tendem a usar 'plus bon' para 'melhor', seguindo a regra geral, mas o francês tem o comparativo irregular 'meilleur' para o adjetivo 'bon'. Sempre use 'meilleur' (que concorda em número e gênero: meilleure, meilleurs, meilleures). Para 'bom', não use 'plus bon' em francês formal."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Comparatif de supériorité",
+        "translation": "Comparativo de superioridade",
+        "examples": [
+          {
+            "original": "Il est plus grand que moi.",
+            "phonetic": "/il ɛ ply gʁɑ̃ kə mwa/",
+            "translation": "Ele é mais alto do que eu.",
+            "note": "Use 'plus' + adjetivo + 'que'. Note que 'que' pode ser reduzido a 'qu'' antes de vogal, mas aqui é 'que moi'."
+          },
+          {
+            "original": "Cette voiture est plus rapide que la mienne.",
+            "phonetic": "/sɛt vwɑtyʁ ɛ ply ʁapid kə la mjɛn/",
+            "translation": "Este carro é mais rápido do que o meu.",
+            "note": "A concordância: 'rapide' não muda no feminino, mas 'grand' vira 'grande'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Comparatif d'égalité et d'infériorité",
+        "translation": "Comparativo de igualdade e inferioridade",
+        "examples": [
+          {
+            "original": "Elle est aussi intelligente que son frère.",
+            "phonetic": "/ɛl ɛ osi ɛ̃tɛliʒɑ̃t kə sɔ̃ fʁɛʁ/",
+            "translation": "Ela é tão inteligente quanto o irmão dela.",
+            "note": "Use 'aussi' (tão) em comparações de igualdade. Não confunda com 'si' que é usado em frases condicionais."
+          },
+          {
+            "original": "Ce restaurant est moins cher que l'autre.",
+            "phonetic": "/sə ʁɛstɔʁɑ̃ ɛ mwɛ̃ ʃɛʁ kə lotʁ/",
+            "translation": "Este restaurante é menos caro do que o outro.",
+            "note": "Use 'moins' para inferioridade. Aqui, 'cher' no masculino, mas se fosse 'chère' no feminino."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Superlatif",
+        "translation": "Superlativo",
+        "examples": [
+          {
+            "original": "C'est la plus belle ville de France.",
+            "phonetic": "/sɛ la ply bɛl vil də fʁɑ̃s/",
+            "translation": "É a cidade mais bonita da França.",
+            "note": "O superlativo usa artigo definido + 'plus' + adjetivo + 'de' (para grupos). Note que 'belle' concorda com 'ville' (feminino)."
+          },
+          {
+            "original": "C'est le meilleur film de l'année.",
+            "phonetic": "/sɛ lə mɛjœʁ film də lane/",
+            "translation": "É o melhor filme do ano.",
+            "note": "'Meilleur' é o comparativo/superlativo irregular de 'bon'. No superlativo, use 'le meilleur'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📊",
+    "phonetic": "",
+    "translations": {
+      "pt": "Comparativos e superlativos"
+    }
+  },
+  {
+    "id": "pt_A2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les verbes modaux / Verbos modais",
+    "bridge": "Em francês, os verbos modais (devoir, pouvoir, vouloir, falloir) funcionam de maneira semelhante ao português, mas com diferenças importantes. Por exemplo, 'devoir' pode expressar obrigação ('devoir faire') ou probabilidade ('il doit être') – algo que em português costuma ser distinguido por 'dever' vs. 'ter que'. Além disso, em francês não se usa preposição entre o modal e o verbo principal (exceto com 'falloir' que exige 'que' + subjuntivo, mas em contextos impessoais). Outra diferença: 'savoir' expressa habilidade aprendida, enquanto 'pouvoir' expressa permissão ou capacidade física – algo que o português confunde com 'saber' vs. 'poder'.",
+    "rule": "Os verbos modais em francês: 'devoir' (dever, ter que), 'pouvoir' (poder), 'vouloir' (querer), 'falloir' (ser preciso, impessoal) e 'savoir' (saber, no sentido de saber fazer). Eles são seguidos de infinitivo sem preposição, exceto 'falloir' que é sempre impessoal (il faut + infinitivo, ou il faut que + subjuntivo). Em A2, você deve saber usá-los no présent, passé composé (se aplicável) e com expressões de cortesia (je voudrais, je pourrais). Cuidado: 'devoir' no conditionnel (je devrais) expressa conselho, como 'eu deveria'. 'Falloir' não tem sujeito real, então use 'il faut'. A negação: ne + modal + pas + infinitivo (je ne peux pas venir).",
+    "concept_examples": [
+      {
+        "text": "Je dois étudier ce soir.",
+        "translation": "Eu preciso estudar esta noite.",
+        "phonetic": "/ʒə dwa etydje sə swaʁ/"
+      },
+      {
+        "text": "Tu peux m'aider ?",
+        "translation": "Você pode me ajudar?",
+        "phonetic": "/ty pø mede/"
+      },
+      {
+        "text": "Il faut partir maintenant.",
+        "translation": "É preciso partir agora.",
+        "phonetic": "/il fo partiʁ mɛ̃tənɑ̃/"
+      },
+      {
+        "text": "Je voudrais un café, s'il vous plaît.",
+        "translation": "Eu gostaria de um café, por favor.",
+        "phonetic": "/ʒə vudʁɛ œ̃ kafe sil vu plɛ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je dois de parler français.",
+      "correct": "Je dois parler français.",
+      "correct_alt": "",
+      "explanation": "Em português, dizemos 'devo de falar' (embora arcaico) e muitos alunos transferem essa preposição. No francês, após os modais, usa-se o infinitivo diretamente sem preposição. Lembre-se: modal + infinitivo, sem 'de' ou 'à'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Devoir : obligation et probabilité",
+        "translation": "Dever: obrigação e probabilidade",
+        "examples": [
+          {
+            "original": "Je dois finir mes devoirs.",
+            "phonetic": "/ʒə dwa fini me dəvwaʁ/",
+            "translation": "Tenho que terminar meus deveres.",
+            "note": "Obrigação pessoal, igual ao português 'ter que'."
+          },
+          {
+            "original": "Tu dois être fatigué après le voyage.",
+            "phonetic": "/ty dwa ɛtʁ fatige apʁe lə vɔjaʒ/",
+            "translation": "Você deve estar cansado depois da viagem.",
+            "note": "Probabilidade – aqui 'devoir' funciona como 'dever' expressando suposição."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pouvoir et savoir : capacité et permission",
+        "translation": "Poder e saber: capacidade e permissão",
+        "examples": [
+          {
+            "original": "Est-ce que je peux sortir ?",
+            "phonetic": "/ɛs kə ʒə pø sɔʁtiʁ/",
+            "translation": "Posso sair?",
+            "note": "Pouvoir para pedir permissão, como 'posso'."
+          },
+          {
+            "original": "Elle sait nager depuis son enfance.",
+            "phonetic": "/ɛl sɛ naʒe dəpɥi sɔn ɑ̃fɑ̃s/",
+            "translation": "Ela sabe nadar desde a infância.",
+            "note": "Saber = capacidade adquirida, não usar 'pouvoir' para isso."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Vouloir et falloir : désir et nécessité impersonnelle",
+        "translation": "Querer e precisar: desejo e necessidade impessoal",
+        "examples": [
+          {
+            "original": "Je veux apprendre le français.",
+            "phonetic": "/ʒə vø apʁɑ̃dʁ lə fʁɑ̃sɛ/",
+            "translation": "Eu quero aprender francês.",
+            "note": "Vouloir no presente para expressar desejo."
+          },
+          {
+            "original": "Il faut que tu fasses attention.",
+            "phonetic": "/il fo kə ty fas atɑ̃sjɔ̃/",
+            "translation": "É preciso que você preste atenção.",
+            "note": "Falloir + que + subjuntivo; note o subjuntivo após 'faut que'."
+          }
+        ]
+      }
+    ],
+    "emoji": "💭",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbos modais"
+    }
+  },
+  {
+    "id": "pt_A2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les verbes pronominaux / Verbos reflexivos",
+    "bridge": "Em português, os verbos reflexivos usam pronomes como 'me', 'te', 'se', e frequentemente podem ser omitidos ou posicionados de forma flexível. Em francês, o pronome reflexivo é obrigatório e vem antes do verbo, nunca depois (exceto no imperativo afirmativo). Cuidado com a concordância do particípio passado com o sujeito nos tempos compostos, algo que não existe em português da mesma forma.",
+    "rule": "Os verbos pronominais em francês são sempre conjugados com um pronome reflexivo (me, te, se, nous, vous, se) que concorda com o sujeito. No presente, a estrutura é: sujeito + pronome reflexivo + verbo. Ex: je me lave, tu te lèves. Nos tempos compostos, usam o auxiliar 'être' e o particípio passado concorda com o sujeito se o pronome for objeto direto. Ex: elle s'est lavée (feminino). Verbos comuns: se lever, se laver, se coucher, se sentir, s'appeler. Cuidado com a elisão: je + me vira 'je m' antes de vogal ou h mudo. No imperativo afirmativo, o pronome vem depois do verbo com hífen: lève-toi (levanta-te).",
+    "concept_examples": [
+      {
+        "text": "Je me lève à sept heures.",
+        "translation": "Eu me levanto às sete horas.",
+        "phonetic": "/ʒə mə lɛv a sɛt œʁ/"
+      },
+      {
+        "text": "Elle se lave les mains.",
+        "translation": "Ela lava as mãos.",
+        "phonetic": "/ɛl sə lav le mɛ̃/"
+      },
+      {
+        "text": "Nous nous couchons tard.",
+        "translation": "Nós nos deitamos tarde.",
+        "phonetic": "/nu nu kuʃɔ̃ taʁ/"
+      },
+      {
+        "text": "Ils se sont rencontrés à Paris.",
+        "translation": "Eles se encontraram em Paris.",
+        "phonetic": "/il sə sɔ̃ ʁɑ̃kɔ̃tʁe a paʁi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "*Je me lave les mains à midi.",
+      "correct": "Je me lave les mains à midi.",
+      "correct_alt": "Je me les lave à midi.",
+      "explanation": "O erro aqui é a posição do pronome reflexivo: em francês, ele sempre vem antes do verbo, e não depois como em português ('Eu lavo-me as mãos'). Também, quando há um objeto direto (as mãos), pode-se substituir por 'les', que vai antes do verbo: 'Je me les lave'. A frase inicial parece correta, mas o erro comum é usar a ordem do português: 'Lavo-me as mãos' viraria 'Me lave les mains' – incorreto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Le présent des verbes pronominaux",
+        "translation": "O presente dos verbos reflexivos",
+        "examples": [
+          {
+            "original": "Je me réveille à six heures.",
+            "phonetic": "/ʒə mə ʁevɛj a si œʁ/",
+            "translation": "Eu acordo às seis horas.",
+            "note": "Note que 'me' vem antes do verbo. Em português, diríamos 'Eu acordo-me' ou 'Eu me acordo', mas em francês a ordem é fixa."
+          },
+          {
+            "original": "Tu te dépêches ?",
+            "phonetic": "/ty tə depɛʃ/",
+            "translation": "Você se apressa?",
+            "note": "O pronome 'te' se torna 't' antes de 'd' por elisão? Não, aqui fica 'te' porque 'd' é consoante. Cuidado com a pronúncia: 'te' não se reduz."
+          },
+          {
+            "original": "Il se sent mal aujourd'hui.",
+            "phonetic": "/il sə sɑ̃ mal oʒuʁdɥi/",
+            "translation": "Ele se sente mal hoje.",
+            "note": "O verbo 'se sentir' é usado com adjetivos. Em português, 'sentir-se' é reflexivo, mas muitas vezes omitimos o pronome."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Le passé composé avec être",
+        "translation": "O passado composto com 'être'",
+        "examples": [
+          {
+            "original": "Elle s'est douchée.",
+            "phonetic": "/ɛl sɛ duʃe/",
+            "translation": "Ela tomou banho.",
+            "note": "O particípio passado 'douchée' concorda com o sujeito feminino 'elle'. Em português não há essa concordância."
+          },
+          {
+            "original": "Nous nous sommes levés tôt.",
+            "phonetic": "/nu nu sɔm ləve to/",
+            "translation": "Nós nos levantamos cedo.",
+            "note": "O particípio concorda com 'nous' no masculino. Se fosse só com mulheres, seria 'levées'."
+          },
+          {
+            "original": "Ils se sont parlé.",
+            "phonetic": "/il sə sɔ̃ paʁle/",
+            "translation": "Eles se falaram.",
+            "note": "Aqui o particípio não concorda porque 'se' é objeto indireto (falaram um com o outro). Esse é um caso especial."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "L'impératif et la négation",
+        "translation": "O imperativo e a negação",
+        "examples": [
+          {
+            "original": "Lève-toi !",
+            "phonetic": "/lɛv twa/",
+            "translation": "Levanta-te!",
+            "note": "No imperativo afirmativo, o pronome vai depois do verbo com hífen. 'Te' se torna 'toi' para dar ênfase."
+          },
+          {
+            "original": "Ne te lève pas !",
+            "phonetic": "/nə tə lɛv pɑ/",
+            "translation": "Não te levantes!",
+            "note": "Na negação, o pronome volta antes do verbo e a estrutura é ne...pas. No imperativo negativo, o pronome fica antes."
+          },
+          {
+            "original": "Levons-nous !",
+            "phonetic": "/ləvɔ̃ nu/",
+            "translation": "Levantemo-nos!",
+            "note": "No imperativo com 'nous', o pronome fica após o verbo, mas o 'nous' final é invariável."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbos reflexivos"
+    }
+  },
+  {
+    "id": "pt_A2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les pronoms objets directs et indirects / Pronomes de objeto direto e indireto",
+    "bridge": "Em francês, assim como em português, os pronomes de objeto direto e indireto substituem nomes para evitar repetição. No entanto, há diferenças importantes: em francês, os pronomes de objeto direto (le, la, les) e indireto (lui, leur) têm formas e posições específicas, e a concordância do particípio passado com o objeto direto anteposto não tem equivalente direto em português. Atenção: em francês, o pronome indireto 'lui' serve para 'a ele' e 'a ela', enquanto 'leur' para 'a eles' e 'a elas', mas cuidado com a distinção entre 'lui' (singular) e 'leur' (plural).",
+    "rule": "Em francês, os pronomes de objeto direto (COD) são: me (me), te (te), le (o), la (a), nous (nos), vous (vos), les (os/as). Eles substituem substantivos que recebem a ação diretamente. Os pronomes de objeto indireto (COI) são: me (me), te (te), lui (a ele/ela), nous (nos), vous (vos), leur (a eles/elas). Eles substituem substantivos precedidos de 'à' (indicando a quem se dirige a ação). A posição desses pronomes é geralmente antes do verbo (ou do auxiliar em tempos compostos). Em tempos compostos com 'avoir', o particípio passado concorda em gênero e número com o objeto direto se ele estiver antes do verbo. Exceções: com 'faire' + infinitivo, os pronomes vêm antes do infinitivo. Para A2, foque nas formas básicas e na colocação.",
+    "concept_examples": [
+      {
+        "text": "Je vois le chien. → Je le vois.",
+        "translation": "Eu vejo o cachorro. → Eu o vejo.",
+        "phonetic": "/ʒə vwa lə ʃjɛ̃/ → /ʒə lə vwa/"
+      },
+      {
+        "text": "Il donne un livre à Marie. → Il lui donne un livre.",
+        "translation": "Ele dá um livro à Maria. → Ele dá um livro a ela.",
+        "phonetic": "/il dɔn œ̃ livʁ a maʁi/ → /il lɥi dɔn œ̃ livʁ/"
+      },
+      {
+        "text": "Nous aimons les fleurs. → Nous les aimons.",
+        "translation": "Nós gostamos das flores. → Nós gostamos delas.",
+        "phonetic": "/nu zɛmɔ̃ le flœʁ/ → /nu le zɛmɔ̃/"
+      },
+      {
+        "text": "Elle parle à ses amis. → Elle leur parle.",
+        "translation": "Ela fala com seus amigos. → Ela fala com eles.",
+        "phonetic": "/ɛl paʁl a se zami/ → /ɛl lœʁ paʁl/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je le donne le livre.",
+      "correct": "Je lui donne le livre.",
+      "correct_alt": "Je le lui donne.",
+      "explanation": "Em português, dizemos 'Eu o dou o livro' é errado, mas a tendência é confundir os pronomes. Em francês, 'le' é objeto direto (o livro), e 'lui' é objeto indireto (para ele). Portanto, 'Je le donne le livre' está errado porque 'le' não pode ser usado como objeto indireto. Use 'lui' para 'para ele/ela'. Alternativa: 'Je le lui donne' (eu o dou a ele) para combinar ambos os pronomes."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Les pronoms objets directs",
+        "translation": "Pronomes de objeto direto",
+        "examples": [
+          {
+            "original": "Tu manges la pomme. → Tu la manges.",
+            "phonetic": "/ty mɑ̃ʒ la pɔm/ → /ty la mɑ̃ʒ/",
+            "translation": "Você come a maçã. → Você a come.",
+            "note": "O pronome 'la' substitui 'la pomme' (feminino singular)."
+          },
+          {
+            "original": "Nous regardons les films. → Nous les regardons.",
+            "phonetic": "/nu ʁəɡaʁdɔ̃ le film/ → /nu le ʁəɡaʁdɔ̃/",
+            "translation": "Nós assistimos aos filmes. → Nós os assistimos.",
+            "note": "'les' é usado para plural (os e as)."
+          },
+          {
+            "original": "Je vois Marie. → Je la vois.",
+            "phonetic": "/ʒə vwa maʁi/ → /ʒə la vwa/",
+            "translation": "Eu vejo a Maria. → Eu a vejo.",
+            "note": "Substitui um nome próprio feminino."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Les pronoms objets indirects",
+        "translation": "Pronomes de objeto indireto",
+        "examples": [
+          {
+            "original": "Je parle à mon père. → Je lui parle.",
+            "phonetic": "/ʒə paʁl a mɔ̃ pɛʁ/ → /ʒə lɥi paʁl/",
+            "translation": "Eu falo com meu pai. → Eu falo com ele.",
+            "note": "'lui' substitui 'à mon père' (masculino singular)."
+          },
+          {
+            "original": "Elle téléphone à ses parents. → Elle leur téléphone.",
+            "phonetic": "/ɛl telefɔn a se paʁɑ̃/ → /ɛl lœʁ telefɔn/",
+            "translation": "Ela liga para seus pais. → Ela liga para eles.",
+            "note": "'leur' é usado para plural, não confundir com 'leur' (possessivo)."
+          },
+          {
+            "original": "Nous donnons des cadeaux aux enfants. → Nous leur donnons des cadeaux.",
+            "phonetic": "/nu dɔnɔ̃ de kado o zɑ̃fɑ̃/ → /nu lœʁ dɔnɔ̃ de kado/",
+            "translation": "Nós damos presentes às crianças. → Nós lhes damos presentes.",
+            "note": "Aqui 'aux enfants' é substituído por 'leur'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "La position et la concordance",
+        "translation": "Posição e concordância",
+        "examples": [
+          {
+            "original": "J'ai mangé la pomme. → Je l'ai mangée.",
+            "phonetic": "/ʒɛ mɑ̃ʒe la pɔm/ → /ʒə lɛ mɑ̃ʒe/",
+            "translation": "Eu comi a maçã. → Eu a comi.",
+            "note": "Concordância: o particípio passado concorda com o objeto direto antes do verbo (mangée, feminino singular)."
+          },
+          {
+            "original": "Les fleurs que j'ai achetées.",
+            "phonetic": "/le flœʁ kə ʒɛ aʃəte/",
+            "translation": "As flores que eu comprei.",
+            "note": "Aqui 'que' refere-se a 'fleurs' (feminino plural), por isso 'achetées' com 'es'."
+          },
+          {
+            "original": "Il a vu Marie. → Il l'a vue.",
+            "phonetic": "/il a vy maʁi/ → /il la vy/",
+            "translation": "Ele viu a Maria. → Ele a viu.",
+            "note": "Com 'avoir', o particípio passado concorda em gênero e número com o objeto direto anteposto."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "pt": "Pronomes de objeto direto e indireto"
+    }
+  },
+  {
+    "id": "pt_A2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les adverbes de fréquence / Advérbios de frequência",
+    "bridge": "Em português, você está acostumado a colocar advérbios como 'sempre' e 'nunca' geralmente antes do verbo, mas em francês a posição pode variar: com tempos simples, o advérbio vem depois do verbo (ex: 'Je mange toujours'). Isso é uma diferença importante porque em português diríamos 'Eu sempre como'. Além disso, atenção: em francês, 'ne...pas' envolve o verbo, e o advérbio de frequência geralmente fica depois do verbo conjugado, mas antes do infinitivo se houver. Cuidado com falsos cognatos como 'actuellement' (que significa 'atualmente' em francês, não 'atualmente' em português? Na verdade, 'actuellement' significa 'atualmente' em português, mas cuidado com 'couramment' que significa 'comumente').",
+    "rule": "Os advérbios de frequência em francês (toujours, souvent, parfois, rarement, jamais, etc.) indicam com que frequência uma ação ocorre. Em tempos simples (presente do indicativo), eles geralmente são colocados **depois** do verbo conjugado. Exemplo: 'Je bois souvent du café.' (Eu bebo frequentemente café). Em tempos compostos (ex: passé composé), eles são colocados entre o auxiliar (avoir/être) e o particípio passado, mas cuidado: alguns advérbios como 'toujours' e 'souvent' podem vir depois do particípio em certos casos, mas para A2, é mais comum vir antes. Exemplo: 'J'ai souvent mangé ici.' (Eu comi frequentemente aqui). Com a negação, a estrutura é: ne + verbo + pas + advérbio (ou ne + advérbio + verbo + pas? Na verdade, 'je ne mange pas souvent' - o advérbio vem depois de 'pas'). Em frases com infinitivo (ex: 'Je vais souvent courir'), o advérbio vai antes do infinitivo. Importante: nunca colocar o advérbio entre o sujeito e o verbo em francês (diferente do português).",
+    "concept_examples": [
+      {
+        "text": "Je mange toujours des légumes.",
+        "translation": "Eu sempre como legumes.",
+        "phonetic": "/ʒə mɑ̃ʒ tuʒuʁ de leɡym/"
+      },
+      {
+        "text": "Nous allons souvent au cinéma.",
+        "translation": "Nós vamos frequentemente ao cinema.",
+        "phonetic": "/nuz‿alɔ̃ suvɑ̃ o sinema/"
+      },
+      {
+        "text": "Elle ne boit jamais de café.",
+        "translation": "Ela nunca bebe café.",
+        "phonetic": "/ɛl nə bwa ʒamɛ də kafe/"
+      },
+      {
+        "text": "Ils ont rarement fini leurs devoirs.",
+        "translation": "Eles raramente terminaram seus deveres.",
+        "phonetic": "/ilz‿ɔ̃ ʁaʁmɑ̃ fini lœʁ dəvwaʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je toujours mange des légumes.",
+      "correct": "Je mange toujours des légumes.",
+      "correct_alt": "Je mange des légumes toujours. (informal, menos comum)",
+      "explanation": "O erro ocorre porque em português, os advérbios de frequência normalmente vêm antes do verbo ('Eu sempre como'), e o aluno transfere essa estrutura para o francês. Para evitar, lembre-se: em francês, o advérbio de frequência vem depois do verbo conjugado em tempos simples, e não antes. Pratique com verbos comuns como manger, aller, boire, etc."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Les adverbes de fréquence de base",
+        "translation": "Advérbios de frequência básicos",
+        "examples": [
+          {
+            "original": "toujours",
+            "phonetic": "/tuʒuʁ/",
+            "translation": "sempre",
+            "note": "Significa 'sempre', equivalente a 'sempre' em português. Usado para ações que ocorrem 100% das vezes."
+          },
+          {
+            "original": "souvent",
+            "phonetic": "/suvɑ̃/",
+            "translation": "frequentemente / muitas vezes",
+            "note": "Equivalente a 'frequentemente' ou 'muitas vezes'. Colocado depois do verbo."
+          },
+          {
+            "original": "parfois",
+            "phonetic": "/paʁfwa/",
+            "translation": "às vezes",
+            "note": "Significa 'às vezes'. Pode ser usado no início da frase para dar ênfase, mas em posição normal depois do verbo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Position dans la phrase",
+        "translation": "Posição na frase",
+        "examples": [
+          {
+            "original": "Je vais souvent au marché.",
+            "phonetic": "/ʒə vɛ suvɑ̃ o maʁʃe/",
+            "translation": "Eu vou frequentemente ao mercado.",
+            "note": "Advérbio depois do verbo conjugado 'vais'."
+          },
+          {
+            "original": "Elle a souvent voyagé en France.",
+            "phonetic": "/ɛl a suvɑ̃ vwajaʒe ɑ̃ fʁɑ̃s/",
+            "translation": "Ela viajou frequentemente para a França.",
+            "note": "No passé composé, 'souvent' vai entre o auxiliar 'a' e o particípio 'voyagé'."
+          },
+          {
+            "original": "Nous ne mangeons jamais de viande.",
+            "phonetic": "/nu nə mɑ̃ʒɔ̃ ʒamɛ də vjɑ̃d/",
+            "translation": "Nós nunca comemos carne.",
+            "note": "Com negação, 'jamais' vem depois de 'pas' (na verdade, a estrutura é ne + verbo + jamais, mas aqui não há 'pas', pois 'jamais' é a palavra negativa)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Adverbes avec l'infinitif et le passé composé",
+        "translation": "Advérbios com infinitivo e passado composto",
+        "examples": [
+          {
+            "original": "Je vais toujours me promener le soir.",
+            "phonetic": "/ʒə vɛ tuʒuʁ mə pʁɔməne lə swaʁ/",
+            "translation": "Eu sempre vou passear à noite.",
+            "note": "Com infinitivo ('me promener'), o advérbio vai antes do infinitivo, mas depois do verbo conjugado 'vais'."
+          },
+          {
+            "original": "Il a rarement pris le train.",
+            "phonetic": "/il a ʁaʁmɑ̃ pʁi lə tʁɛ̃/",
+            "translation": "Ele raramente pegou o trem.",
+            "note": "No passé composé, 'rarement' vai entre o auxiliar e o particípio."
+          },
+          {
+            "original": "Nous avons parfois dîné chez des amis.",
+            "phonetic": "/nuz‿avɔ̃ paʁfwa dine ʃe dez‿ami/",
+            "translation": "Nós às vezes jantamos na casa de amigos.",
+            "note": "Observe a posição: 'parfois' entre o auxiliar e o particípio, mas pode também vir depois do particípio em linguagem formal."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏰",
+    "phonetic": "",
+    "translations": {
+      "pt": "Advérbios de frequência"
+    }
+  },
+  {
+    "id": "pt_A2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les prépositions de temps / Preposições de tempo",
+    "bridge": "Em francês, as preposições de tempo (à, en, dans, pendant, pour, depuis) não correspondem exatamente às que você usa em português. Por exemplo, 'em' em português pode ser 'en' (para meses e anos), 'dans' (para um prazo futuro) ou 'à' (para horas) em francês. Além disso, 'desde' é 'depuis' e 'durante' é 'pendant' — mas cuidado: 'pour' também pode indicar duração planejada. Essas diferenças causam erros comuns, então preste atenção nas regras abaixo.",
+    "rule": "1) **À** é usado para horas (à cinq heures) e momentos específicos (à midi, à minuit). Para dias da semana, não se usa preposição (je viens lundi).\n\n2) **En** é usado para meses, anos, estações (en janvier, en 2024, en été) e para duração total (j'ai fini en deux heures).\n\n3) **Dans** indica um prazo futuro a partir de agora (je pars dans une semaine).\n\n4) **Pendant** indica duração contínua no passado, presente ou futuro (j'ai travaillé pendant deux heures).\n\n5) **Depuis** indica algo que começou no passado e continua no presente (je vis ici depuis 2010).\n\n6) **Pour** indica duração planejada ou futura (je vais à Paris pour trois jours).\n\n7) Exceções: 'le matin', 'l'après-midi' (sem preposição) vs. 'en matinée' (literário). Em geral, não se usa 'à' com dias da semana.\n\nPara A2, foque no uso de 'à', 'en', 'dans', 'pendant', 'depuis' e 'pour'.",
+    "concept_examples": [
+      {
+        "text": "Je me lève à sept heures du matin.",
+        "translation": "Eu me levanto às sete horas da manhã.",
+        "phonetic": "/ʒə mə lɛv a sɛt œʁ dy matɛ̃/"
+      },
+      {
+        "text": "Il part dans trois jours.",
+        "translation": "Ele parte em três dias.",
+        "phonetic": "/il paʁ dɑ̃ tʁwa ʒuʁ/"
+      },
+      {
+        "text": "Nous avons étudié pendant deux heures.",
+        "translation": "Nós estudamos durante duas horas.",
+        "phonetic": "/nu zavɔ̃ etydje pɑ̃dɑ̃ døz œʁ/"
+      },
+      {
+        "text": "Elle habite à Paris depuis 2019.",
+        "translation": "Ela mora em Paris desde 2019.",
+        "phonetic": "/ɛl abit a paʁi dəpɥi dø mil diz nœf/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je vais au cinéma en le soir.",
+      "correct": "Je vais au cinéma le soir.",
+      "correct_alt": "Je vais au cinéma pendant la soirée.",
+      "explanation": "Em português, dizemos 'à noite', mas em francês não se usa 'à' com 'le soir'. Para períodos do dia (le matin, l'après-midi, le soir), não se usa preposição. Se quiser usar uma preposição, 'pendant' pode ser usado, mas o mais natural é sem preposição. Outro erro comum é usar 'en' com dias da semana; para dias, simplesmente use o dia sem preposição: 'je viens lundi'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "À, En, Dans",
+        "translation": "À, Em, Dentro de",
+        "examples": [
+          {
+            "original": "Le train part à dix heures.",
+            "phonetic": "/lə tʁɛ̃ paʁ a diz œʁ/",
+            "translation": "O trem parte às dez horas.",
+            "note": "Use 'à' para horas exatas."
+          },
+          {
+            "original": "Nous partons en vacances en août.",
+            "phonetic": "/nu paʁtɔ̃ ɑ̃ vakɑ̃s ɑ̃n ut/",
+            "translation": "Partimos de férias em agosto.",
+            "note": "Use 'en' para meses e estações."
+          },
+          {
+            "original": "Je reviens dans dix minutes.",
+            "phonetic": "/ʒə ʁəvjɛ̃ dɑ̃ di minyt/",
+            "translation": "Volto em dez minutos.",
+            "note": "Use 'dans' para um prazo futuro a partir de agora."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pendant, Depuis, Pour",
+        "translation": "Durante, Desde, Para",
+        "examples": [
+          {
+            "original": "Il a plu pendant toute la nuit.",
+            "phonetic": "/il a ply pɑ̃dɑ̃ tut la nɥi/",
+            "translation": "Choveu durante toda a noite.",
+            "note": "Use 'pendant' para duração contínua no passado, presente ou futuro."
+          },
+          {
+            "original": "Je travaille ici depuis 2015.",
+            "phonetic": "/ʒə tʁavaj isi dəpɥi dø mil kɛ̃z/",
+            "translation": "Trabalho aqui desde 2015.",
+            "note": "Use 'depuis' para algo que começou no passado e continua até agora."
+          },
+          {
+            "original": "Nous allons à Rome pour une semaine.",
+            "phonetic": "/nu zalɔ̃ a ʁɔm puʁ yn səmɛn/",
+            "translation": "Vamos a Roma por uma semana.",
+            "note": "Use 'pour' para uma duração planejada ou futura."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Expressions avec jours et moments",
+        "translation": "Expressões com dias e momentos",
+        "examples": [
+          {
+            "original": "Je vais au marché samedi matin.",
+            "phonetic": "/ʒə vɛ o maʁʃe samdi matɛ̃/",
+            "translation": "Vou ao mercado sábado de manhã.",
+            "note": "Com dias da semana, não use preposição."
+          },
+          {
+            "original": "On se voit dimanche après-midi ?",
+            "phonetic": "/ɔ̃ sə vwa dimɑ̃ʃ apʁɛ midi/",
+            "translation": "A gente se vê domingo à tarde?",
+            "note": "Use somente o dia da semana e o período do dia sem preposição."
+          },
+          {
+            "original": "Le magasin est ouvert en hiver.",
+            "phonetic": "/lə maɡazɛ̃ ɛt uvɛʁ ɑ̃n ivɛʁ/",
+            "translation": "A loja está aberta no inverno.",
+            "note": "Use 'en' para estações do ano."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Preposições de tempo"
+    }
+  },
+  {
+    "id": "pt_A2_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les conjonctions / Conjunções (et, mais, ou, parce que, quand, si)",
+    "bridge": "Em português, usamos conjunções como 'e', 'mas', 'ou', 'porque', 'quando' e 'se'. Em francês, a maioria tem equivalentes diretos, mas há diferenças importantes. Por exemplo, 'et' é sempre pronunciado com o som de 'e' fechado, e nunca se usa 'e' antes de vogal como em português (ex: 'e você' vira 'et toi'). Além disso, 'quand' introduz uma ação no futuro com o presente, enquanto em português usamos futuro do subjuntivo. Fique atento a essas diferenças para não copiar estruturas do português.",
+    "rule": "As conjunções em francês A2 incluem: 'et' (e) para adição, 'mais' (mas) para oposição, 'ou' (ou) para alternativa, 'parce que' (porque) para causa, 'quand' (quando) para tempo, e 'si' (se) para condição. 'Et' é invariável e não sofre elisão (não vira 'et''). 'Mais' é uma conjunção adversativa, não confundir com 'mes' (meus). 'Ou' é usado para exclusão, enquanto 'où' (com acento grave) significa 'onde'. 'Parce que' responde a 'pourquoi' (porquê). 'Quand' é seguido do presente do indicativo para ações futuras, não do futuro. 'Si' é usado para condições, e antes de 'il' ou 'ils' vira 's'il', 's'ils'. Não se usa 'si' com o futuro do indicativo.",
+    "concept_examples": [
+      {
+        "text": "Je parle français et portugais.",
+        "translation": "Eu falo francês e português.",
+        "phonetic": "/ʒə paʁl fʁɑ̃sɛ e pɔʁtyɡɛ/"
+      },
+      {
+        "text": "Il est petit mais il est fort.",
+        "translation": "Ele é pequeno mas é forte.",
+        "phonetic": "/il ɛ pəti mɛ il ɛ fɔʁ/"
+      },
+      {
+        "text": "Tu préfères le café ou le thé ?",
+        "translation": "Você prefere café ou chá?",
+        "phonetic": "/ty pʁefɛʁ lə kafe u lə te/"
+      },
+      {
+        "text": "Je reste à la maison parce qu'il pleut.",
+        "translation": "Eu fico em casa porque chove.",
+        "phonetic": "/ʒə ʁɛst a la mɛzɔ̃ paʁsə kil plø/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quand je serai grand, je serai médecin.",
+      "correct": "Quand je serai grand, je serai médecin.",
+      "correct_alt": "Quand je serai grand, je serai médecin.",
+      "explanation": "Na verdade, essa frase está correta! O erro comum é usar o futuro do indicativo após 'quand' no sentido de 'quando', mas em francês usa-se o futuro simples, ao contrário do que se pensa. O erro típico é: 'Quand je serai grand...' é aceito. O erro real é: 'Quand je serai grand' (futuro) em vez de 'Quand je serai grand' (futuro). Perceba que 'quand' pode ser seguido do futuro em francês, mas não se usa o futuro do subjuntivo. Outro erro comum: 'Parce que je suis fatigué' (porque estou cansado) - usar 'parce que' em vez de 'car' ou 'puisque' é correto, mas não confunda com 'pourquoi'. O erro mais frequente é: 'Je ne sais pas si je viendrai' (futuro) em vez de 'si je viens' (presente). Sempre use o presente após 'si' para condições futuras."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "et, mais, ou",
+        "translation": "e, mas, ou",
+        "examples": [
+          {
+            "original": "J'aime les pommes et les bananes.",
+            "phonetic": "/ʒɛm le pɔm e le banan/",
+            "translation": "Eu gosto de maçãs e bananas.",
+            "note": "'et' é usado para adicionar elementos. Não se esqueça de pronunciar o 'e' fechado."
+          },
+          {
+            "original": "Il fait froid mais il fait soleil.",
+            "phonetic": "/il fɛ fʁwa mɛ il fɛ sɔlɛj/",
+            "translation": "Faz frio mas faz sol.",
+            "note": "'mais' indica contraste. Não confundir com 'mes' (meus)."
+          },
+          {
+            "original": "Tu veux du thé ou du café ?",
+            "phonetic": "/ty vø dy te u dy kafe/",
+            "translation": "Você quer chá ou café?",
+            "note": "'ou' é para escolha. Lembre-se que 'où' (com acento) significa 'onde'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "parce que, car",
+        "translation": "porque, pois",
+        "examples": [
+          {
+            "original": "Je suis content parce que j'ai réussi l'examen.",
+            "phonetic": "/ʒə sɥi kɔ̃tɑ̃ paʁsə ʒe ʁeysi lɛgzamɛ̃/",
+            "translation": "Estou feliz porque passei no exame.",
+            "note": "'parce que' é usado para explicar a causa. Em português, frequentemente usamos 'porque' de forma mais flexível."
+          },
+          {
+            "original": "Il est en retard car il a raté le bus.",
+            "phonetic": "/il ɛ ɑ̃ ʁətaʁ kaʁ il a ʁate lə bys/",
+            "translation": "Ele está atrasado pois perdeu o ônibus.",
+            "note": "'car' é mais formal que 'parce que'. Ambos significam 'porque'."
+          },
+          {
+            "original": "Je ne sors pas parce qu'il pleut.",
+            "phonetic": "/ʒə nə sɔʁ pa paʁsə kil plø/",
+            "translation": "Eu não saio porque chove.",
+            "note": "Cuidado com a elisão: 'parce qu'il' (porque ele) – o 'e' cai antes de vogal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "quand, si",
+        "translation": "quando, se",
+        "examples": [
+          {
+            "original": "Quand je serai en vacances, je voyagerai.",
+            "phonetic": "/kɑ̃ ʒə səʁe ɑ̃ vakɑ̃s, ʒə vwajaʒəʁe/",
+            "translation": "Quando eu estiver de férias, viajarei.",
+            "note": "Aqui 'quand' é seguido do futuro simples, o que é correto. Já em português às vezes usamos futuro do subjuntivo."
+          },
+          {
+            "original": "Si j'ai le temps, je t'appellerai.",
+            "phonetic": "/si ʒɛ lə tɑ̃, ʒə tapɛləʁe/",
+            "translation": "Se eu tiver tempo, te ligarei.",
+            "note": "Após 'si' (condicional), usa-se o presente do indicativo, não o futuro."
+          },
+          {
+            "original": "Quand tu viendras, on ira au cinéma.",
+            "phonetic": "/kɑ̃ ty vjɛ̃dʁa, ɔ̃niʁa o sinema/",
+            "translation": "Quando você vier, iremos ao cinema.",
+            "note": "'quand' pode ser seguido do futuro, mas cuidado: em orações condicionais com 'si', nunca se usa o futuro."
+          },
+          {
+            "original": "S'il fait beau, on sortira.",
+            "phonetic": "/sil fɛ bo, ɔ̃ sɔʁtiʁa/",
+            "translation": "Se fizer bom tempo, sairemos.",
+            "note": "Note a forma 's'il' (se ele) – a elisão é obrigatória antes de 'il' e 'ils'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Conjunções"
+    }
+  },
+  {
+    "id": "pt_A2_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Le passé composé avec avoir / O pretérito perfeito composto com avoir",
+    "bridge": "Em francês, o passé composé é o tempo verbal mais comum para falar de ações passadas concluídas, enquanto em português usamos o pretérito perfeito simples (ex.: 'eu comi'). Cuidado: não use o pretérito imperfeito (como 'eu comia') para ações pontuais. Outra diferença importante é que, no francês, o particípio passado concorda em gênero e número com o objeto direto quando ele vem antes do verbo (ex.: 'les pommes que j'ai mangées'), algo que não acontece em português.",
+    "rule": "O passé composé é formado com o verbo auxiliar 'avoir' no presente do indicativo + o particípio passado do verbo principal. Para verbos regulares em -er, o particípio é -é (ex.: mangé); em -ir, -i (ex.: fini); em -re, -u (ex.: vendu). Muitos verbos têm particípios irregulares, como 'avoir' (eu), 'être' (été), 'faire' (fait), 'prendre' (pris), 'voir' (vu). A estrutura básica é: sujeito + avoir (conjugado) + particípio + complemento. Para a negativa, coloca-se 'ne...pas' ao redor do auxiliar: 'Je n'ai pas mangé'. Para a inversão interrogativa, usa-se 'Est-ce que' ou a inversão sujeito-verbo: 'As-tu mangé?' ou 'Est-ce que tu as mangé?'. No nível A2, você deve dominar a concordância do particípio com o objeto direto quando ele é um pronome (ex.: 'Je les ai vus').",
+    "concept_examples": [
+      {
+        "text": "J'ai mangé une pomme.",
+        "translation": "Eu comi uma maçã.",
+        "phonetic": "ʒɛ mɑ̃ʒe yn pɔm"
+      },
+      {
+        "text": "Nous avons fini nos devoirs.",
+        "translation": "Nós terminamos nossos deveres.",
+        "phonetic": "nu zavɔ̃ fini no dəvwaʁ"
+      },
+      {
+        "text": "Elle a pris le train.",
+        "translation": "Ela pegou o trem.",
+        "phonetic": "ɛl a pʁi lə tʁɛ̃"
+      },
+      {
+        "text": "Vous avez vu le film?",
+        "translation": "Vocês viram o filme?",
+        "phonetic": "vu zave vy lə film"
+      }
+    ],
+    "common_error": {
+      "wrong": "J'ai fini les devoirs. (masculino plural: 'J'ai fini les devoirs' está correto, mas o erro comum é usar o particípio invariável quando o objeto direto é feminino plural antes do verbo, por exemplo: 'Les devoirs que j'ai fini' – erro)",
+      "correct": "Les devoirs que j'ai finis.",
+      "correct_alt": "J'ai fini les devoirs.",
+      "explanation": "Muitos falantes de português esquecem de fazer a concordância do particípio passado com o objeto direto quando ele vem antes do verbo. Em francês, se o objeto direto (substantivo feminino ou plural, ou pronome) precede o verbo, o particípio deve concordar em gênero e número. Em português, não existe essa concordância, então é um erro comum. Lembre-se: 'les devoirs' é masculino plural, então 'finis' – com 's'. Evite tratar o particípio como invariável nesse caso."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formation du passé composé avec avoir",
+        "translation": "Formação do pretérito perfeito composto com avoir",
+        "examples": [
+          {
+            "original": "J'ai parlé avec Marie.",
+            "phonetic": "ʒɛ paʁle avɛk maʁi",
+            "translation": "Eu falei com a Maria.",
+            "note": "Verbo regular em -er: 'parlé' termina com 'é'."
+          },
+          {
+            "original": "Tu as choisi un gâteau.",
+            "phonetic": "ty a ʃwazi œ̃ ɡato",
+            "translation": "Tu escolheste um bolo.",
+            "note": "Verbo regular em -ir: particípio em 'i'."
+          },
+          {
+            "original": "Il a vendu sa voiture.",
+            "phonetic": "il a vɑ̃dy sa vwatyʁ",
+            "translation": "Ele vendeu o carro dele.",
+            "note": "Verbo regular em -re: particípio em 'u'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Participes passés irréguliers",
+        "translation": "Particípios passados irregulares",
+        "examples": [
+          {
+            "original": "J'ai fait mes devoirs.",
+            "phonetic": "ʒɛ fɛ me dəvwaʁ",
+            "translation": "Eu fiz meus deveres.",
+            "note": "Particípio irregular de 'faire' = 'fait'."
+          },
+          {
+            "original": "Nous avons eu une bonne idée.",
+            "phonetic": "nu zavɔ̃ y yn bɔn ide",
+            "translation": "Nós tivemos uma boa ideia.",
+            "note": "Particípio de 'avoir' = 'eu' (pronuncia-se 'y' – não confundir com 'eu' em português)."
+          },
+          {
+            "original": "Elle a mis la table.",
+            "phonetic": "ɛl a mi la tabl",
+            "translation": "Ela pôs a mesa.",
+            "note": "Particípio de 'mettre' = 'mis'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Accord du participe passé avec l'objet direct placé avant",
+        "translation": "Concordância do particípio passado com o objeto direto colocado antes",
+        "examples": [
+          {
+            "original": "Les pommes que j'ai mangées.",
+            "phonetic": "le pɔm kə ʒɛ mɑ̃ʒe",
+            "translation": "As maçãs que eu comi.",
+            "note": "Objeto direto 'les pommes' (feminino plural) vem antes do verbo, então acrescenta-se 'es' ao particípio 'mangé'."
+          },
+          {
+            "original": "La lettre qu'il a écrite.",
+            "phonetic": "la lɛtʁ k il a ekʁit",
+            "translation": "A carta que ele escreveu.",
+            "note": "Objeto direto 'la lettre' (feminino singular) antes do verbo – particípio 'écrit' vira 'écrite'."
+          },
+          {
+            "original": "Les garçons que j'ai vus.",
+            "phonetic": "le ɡaʁsɔ̃ kə ʒɛ vy",
+            "translation": "Os garotos que eu vi.",
+            "note": "Objeto direto masculino plural antes do verbo – particípio 'vu' vira 'vus'."
+          },
+          {
+            "original": "Je les ai vues (elles).",
+            "phonetic": "ʒə le zɛ vy",
+            "translation": "Eu as vi (elas).",
+            "note": "Pronome objeto direto 'les' (feminino) antes do verbo – particípio concorda com o gênero do referente, aqui 'vues'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🍽️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Pretérito perfeito composto básico"
+    }
+  },
+  {
+    "id": "pt_A2_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Impératif affirmatif et négatif / Imperativo afirmativo e negativo",
+    "bridge": "Em francês, o imperativo é usado como em português para dar ordens, conselhos ou instruções. Porém, há diferenças importantes: em francês, os pronomes pessoais (tu, nous, vous) são omitidos, e a forma negativa coloca 'ne...pas' ao redor do verbo. Além disso, verbos do grupo -er perdem o 's' na forma 'tu' (ex.: 'parle', não 'parles'), o que não acontece em português. Cuidado com a inversão de pronomes em construções afirmativas, que não existe em português.",
+    "rule": "O imperativo em francês tem três pessoas: tu, nous, vous. A forma afirmativa não usa pronomes. Para verbos regulares em -er, a forma 'tu' perde o 's' (ex.: 'parle', não 'parles'), exceto antes de 'y' ou 'en' (ex.: 'parles-en'). Os verbos 'être' (sois, soyons, soyez), 'avoir' (aie, ayons, ayez) e 'savoir' (sache, sachons, sachez) são irregulares. Na forma negativa, usa-se 'ne' antes do verbo e 'pas' depois (ex.: 'ne parle pas'). Em imperativos afirmativos, os pronomes objetos vêm depois do verbo com hífen (ex.: 'donne-le-moi'), mas em negativos ficam antes do verbo (ex.: 'ne le donne pas').",
+    "concept_examples": [
+      {
+        "text": "Parle plus lentement !",
+        "translation": "Fale mais devagar!",
+        "phonetic": "paʁl ply lɑ̃tmɑ̃"
+      },
+      {
+        "text": "Ne fume pas ici !",
+        "translation": "Não fume aqui!",
+        "phonetic": "nə fym pa isi"
+      },
+      {
+        "text": "Soyons patients !",
+        "translation": "Sejamos pacientes!",
+        "phonetic": "swajɔ̃ pasjɑ̃"
+      },
+      {
+        "text": "Venez avec nous !",
+        "translation": "Venham conosco!",
+        "phonetic": "vəne avek nu"
+      }
+    ],
+    "common_error": {
+      "wrong": "Tu manges ! (usando o pronome)",
+      "correct": "Mange !",
+      "correct_alt": "Manges-en !",
+      "explanation": "Falantes de português costumam incluir o pronome 'tu' no imperativo, mas em francês ele é omitido. Por exemplo, 'Tu manges !' está errado porque soa como uma declaração, não uma ordem. Use apenas a forma verbal: 'Mange !'. Lembre-se de que, para verbos -er, o 's' final cai, a menos que seguido de 'en' ou 'y'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Impératif affirmatif (tu, nous, vous)",
+        "translation": "Imperativo afirmativo (tu, nous, vous)",
+        "examples": [
+          {
+            "original": "Écoute !",
+            "phonetic": "ekut",
+            "translation": "Ouça!",
+            "note": "Verbo regular -er: 'écouter' – perde o 's' na forma 'tu'."
+          },
+          {
+            "original": "Parlons français !",
+            "phonetic": "paʁlɔ̃ fʁɑ̃sɛ",
+            "translation": "Vamos falar francês!",
+            "note": "Na forma 'nous', o verbo mantém a terminação -ons."
+          },
+          {
+            "original": "Chantez encore une fois !",
+            "phonetic": "ʃɑ̃te ɑ̃kɔʁ yn fwa",
+            "translation": "Cantem mais uma vez!",
+            "note": "Na forma 'vous', o verbo mantém a terminação -ez."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Impératif négatif",
+        "translation": "Imperativo negativo",
+        "examples": [
+          {
+            "original": "Ne parle pas si vite !",
+            "phonetic": "nə paʁl pa si vit",
+            "translation": "Não fale tão rápido!",
+            "note": "O 'ne' vem antes do verbo e 'pas' depois, mesmo com a perda do 's'."
+          },
+          {
+            "original": "Ne soyons pas en retard !",
+            "phonetic": "nə swajɔ̃ pa ɑ̃ ʁətaʁ",
+            "translation": "Não nos atrasemos!",
+            "note": "Com 'être', a forma imperativa negativa é 'ne soyons pas'."
+          },
+          {
+            "original": "N'ayez pas peur !",
+            "phonetic": "n‿eje pa pœʁ",
+            "translation": "Não tenham medo!",
+            "note": "Com 'avoir', usa-se 'n'ayez pas' (elidido antes de vogal)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Pronoms objets avec l'impératif",
+        "translation": "Pronomes objetos com o imperativo",
+        "examples": [
+          {
+            "original": "Donne-le-moi !",
+            "phonetic": "dɔn lə mwa",
+            "translation": "Dê-me isso!",
+            "note": "No afirmativo, o pronome objeto vai depois do verbo com hífen."
+          },
+          {
+            "original": "Ne le donne pas !",
+            "phonetic": "nə lə dɔn pa",
+            "translation": "Não o dê!",
+            "note": "No negativo, o pronome volta a posição antes do verbo."
+          },
+          {
+            "original": "Parlez-nous de votre voyage !",
+            "phonetic": "paʁle nu də vɔtʁə vwajaʒ",
+            "translation": "Falem-nos sobre a viagem de vocês!",
+            "note": "Com 'nous' como objeto, usa-se hífen: 'parlez-nous'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📢",
+    "phonetic": "",
+    "translations": {
+      "pt": "Imperativo (afirmativo e negativo)"
+    }
+  },
+  {
+    "id": "pt_A2_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les noms comptables et non comptables / Substantivos contáveis e incontáveis",
+    "bridge": "Em francês, como em português, alguns substantivos podem ser contados (un livre, dois livres) e outros não (de l'eau, du pain). No entanto, há diferenças importantes: o francês usa artigos partitivos (du, de la, de l', des) para exprimir quantidade indefinida, enquanto o português frequentemente omite o artigo ou usa 'um pouco de'. Cuidado: alguns substantivos que são contáveis em português podem ser incontáveis em francês (ex.: 'un conseil' vs. 'conselho').",
+    "rule": "Em francês, os substantivos contáveis (noms comptables) podem ser contados e usados com números (un, deux, trois...) e com artigos indefinidos (un, une, des). Os substantivos incontáveis (noms non comptables) designam substâncias ou noções abstratas que não podem ser contadas (eau, sucre, temps, argent) e normalmente usam o artigo partitivo: du (masculino), de la (feminino), de l' (antes de vogal ou h mudo), e des para plural (mas também para quantidades indefinidas em frases afirmativas). Para negar ou exprimir quantidade zero, usa-se 'de' ou 'd'' (je n'ai pas de pain). Exceções: alguns substantivos são contáveis em francês, mas incontáveis em português (ex.: un meuble, un renseignement) e vice-versa. O contexto e o uso determinam a classe. Para A2, foque nos usos básicos: contáveis com artigos definidos/indefinidos e números; incontáveis com partitivos e expressões de quantidade (un peu de, beaucoup de, un kilo de).",
+    "concept_examples": [
+      {
+        "text": "Je mange une pomme.",
+        "translation": "Eu como uma maçã.",
+        "phonetic": "/ʒə mɑ̃ʒ yn pɔm/"
+      },
+      {
+        "text": "Il boit de l'eau.",
+        "translation": "Ele bebe água.",
+        "phonetic": "/il bwa də lo/"
+      },
+      {
+        "text": "Nous avons des amis.",
+        "translation": "Nós temos amigos.",
+        "phonetic": "/nu zavɔ̃ de zami/"
+      },
+      {
+        "text": "Je n'ai pas de sucre.",
+        "translation": "Eu não tenho açúcar.",
+        "phonetic": "/ʒə ne pa də sykʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je veux du eau.",
+      "correct": "Je veux de l'eau.",
+      "correct_alt": "Je voudrais de l'eau.",
+      "explanation": "Erro comum: usar 'du' antes de um substantivo feminino ou que começa com vogal. Em francês, o partitivo deve concordar com o gênero e a inicial: 'de la' para feminino (de la viande), 'de l'' para vogal (de l'eau). Lembre-se: 'du' é masculino, 'de la' é feminino, 'de l'' é para qualquer gênero antes de vogal."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Les noms comptables",
+        "translation": "Substantivos contáveis",
+        "examples": [
+          {
+            "original": "Un livre, deux livres, trois livres.",
+            "phonetic": "/ɛ̃ livʁ, dø livʁ, tʁwa livʁ/",
+            "translation": "Um livro, dois livros, três livros.",
+            "note": "Substantivos contáveis podem ser usados com números e fazem plural normalmente."
+          },
+          {
+            "original": "J'ai un chat et une chienne.",
+            "phonetic": "/ʒe ɛ̃ ʃa e yn ʃjɛn/",
+            "translation": "Eu tenho um gato e uma cadela.",
+            "note": "Use 'un' para masculino e 'une' para feminino."
+          },
+          {
+            "original": "Les enfants jouent dans le jardin.",
+            "phonetic": "/le zɑ̃fɑ̃ ʒu dɑ̃ lə ʒaʁdɛ̃/",
+            "translation": "As crianças brincam no jardim.",
+            "note": "Com artigo definido plural 'les' para substantivos contáveis."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Les noms non comptables",
+        "translation": "Substantivos incontáveis",
+        "examples": [
+          {
+            "original": "Je voudrais du pain, s'il vous plaît.",
+            "phonetic": "/ʒə vudʁɛ dy pɛ̃, sil vu plɛ/",
+            "translation": "Eu gostaria de pão, por favor.",
+            "note": "Use 'du' para incontáveis masculinos."
+          },
+          {
+            "original": "Elle met de la confiture sur son pain.",
+            "phonetic": "/ɛl mɛ də la kɔ̃fityʁ syʁ sɔ̃ pɛ̃/",
+            "translation": "Ela coloca geleia no pão.",
+            "note": "Use 'de la' para incontáveis femininos."
+          },
+          {
+            "original": "Il y a de l'air dans la pièce.",
+            "phonetic": "/il i a də lɛʁ dɑ̃ la pjɛs/",
+            "translation": "Há ar na sala.",
+            "note": "Use 'de l'' antes de vogal (l'air)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Quantités et négation",
+        "translation": "Quantidades e negação",
+        "examples": [
+          {
+            "original": "Je bois un peu de café.",
+            "phonetic": "/ʒə bwa ɛ̃ pø də kafe/",
+            "translation": "Eu bebo um pouco de café.",
+            "note": "Expressões de quantidade: 'un peu de', 'beaucoup de', etc. seguem de 'de'."
+          },
+          {
+            "original": "Il n'y a pas de lait.",
+            "phonetic": "/il nja pa də lɛ/",
+            "translation": "Não há leite.",
+            "note": "Na negação, use 'de' (ou 'd'') sem artigo partitivo."
+          },
+          {
+            "original": "J'achète un kilo de pommes.",
+            "phonetic": "/ʒaʃɛt ɛ̃ kilo də pɔm/",
+            "translation": "Eu compro um quilo de maçãs.",
+            "note": "Unidades de medida são usadas com substantivos contáveis e incontáveis."
+          },
+          {
+            "original": "Tu veux du sucre dans ton café ?",
+            "phonetic": "/ty vø dy sykʁ dɑ̃ tɔ̃ kafe/",
+            "translation": "Você quer açúcar no seu café?",
+            "note": "Em perguntas afirmativas com 'tu veux', usa-se partitivo normalmente."
+          }
+        ]
+      }
+    ],
+    "emoji": "🍎",
+    "phonetic": "",
+    "translations": {
+      "pt": "Substantivos contáveis e incontáveis"
+    }
+  },
+  {
+    "id": "pt_A2_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les articles partitifs et les quantités indéterminées (du, de la, des, de) / Artigos partitivos e quantidades indeterminadas (du, de la, des, de)",
+    "bridge": "Em português, usamos 'um pouco de', 'algum' ou simplesmente o artigo definido ('a água', 'as maçãs') para falar de quantidades indefinidas. Em francês, existe uma categoria especial de artigos chamada 'partitivos' (du, de la, des) que não tem equivalência direta no português. A maior dificuldade para falantes de português é que, em frases negativas, esses artigos mudam para 'de' (ou 'd'' antes de vogal), o que não acontece no português. Além disso, em construções com 'beaucoup de', 'peu de', etc., também usamos apenas 'de', enquanto no português usamos 'muito de', 'pouco de' com preposição.",
+    "rule": "No francês, os artigos partitivos são usados para indicar uma quantidade indefinida ou uma parte de um todo, com substantivos incontáveis (massa, água) ou plurais (legumes). Existem três formas: 'du' (masculino singular) – ex: du pain (pão); 'de la' (feminino singular) – ex: de la salade (alface); 'des' (plural) – ex: des tomates (tomates). Antes de vogal ou H mudo, 'du' e 'de la' tornam-se 'de l'' – ex: de l'eau (água). Em frases negativas (ne... pas, ne... jamais, etc.), todos os partitivos mudam para 'de' (ou 'd'' antes de vogal): Je ne mange pas de pain (Não como pão). Após expressões de quantidade (beaucoup de, peu de, un kilo de, une bouteille de), também usamos apenas 'de': beaucoup de lait (muito leite). Atenção: com o verbo 'être' e em alguns casos de sentido figurado, usamos 'du/de la/des' (ex: c'est du travail). Em perguntas e ofertas, usa-se 'du/de la/des' (ex: Vous voulez du café?).",
+    "concept_examples": [
+      {
+        "text": "Je voudrais de l'eau, s'il vous plaît.",
+        "translation": "Eu gostaria de um pouco de água, por favor.",
+        "phonetic": "/ʒə vudʁɛ də lo sil vu plɛ/"
+      },
+      {
+        "text": "Nous avons acheté des fruits au marché.",
+        "translation": "Nós compramos (algumas) frutas no mercado.",
+        "phonetic": "/nuz‿avɔ̃z‿aʃəte de fʁɥi o maʁʃe/"
+      },
+      {
+        "text": "Elle ne mange pas de viande.",
+        "translation": "Ela não come carne.",
+        "phonetic": "/ɛl nə mɑ̃ʒ pɑ də vjɑ̃d/"
+      },
+      {
+        "text": "Il y a trop de sucre dans ce gâteau.",
+        "translation": "Há açúcar demais neste bolo.",
+        "phonetic": "/il ja tʁo də sykʁ dɑ̃ sə ɡɑto/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je ne mange pas du viande.",
+      "correct": "Je ne mange pas de viande.",
+      "correct_alt": "",
+      "explanation": "Em português, dizemos 'não como carne' sem alterar o artigo. Por isso, muitos estudantes mantêm 'du' em frases negativas no francês. No entanto, em francês, após uma negação, o partitivo 'du', 'de la', 'des' deve ser substituído por 'de' (ou 'd'' antes de vogal). Lembre-se da regra: ne + verbe + pas + de/d' + nom (mesmo para substantivos femininos e plurais)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Les articles partitifs affirmatifs (du, de la, des, de l')",
+        "translation": "Artigos partitivos afirmativos (du, de la, des, de l')",
+        "examples": [
+          {
+            "original": "Je prends du fromage.",
+            "phonetic": "/ʒə pʁɑ̃ dy fʁɔmaʒ/",
+            "translation": "Eu como (um pouco de) queijo.",
+            "note": "Observe que 'du' é usado com substantivos masculinos incontáveis. Em português, usamos 'queijo' sem artigo."
+          },
+          {
+            "original": "Elle boit de la limonade.",
+            "phonetic": "/ɛl bwa də la limɔnad/",
+            "translation": "Ela bebe (um pouco de) limonada.",
+            "note": "Use 'de la' com substantivos femininos incontáveis."
+          },
+          {
+            "original": "Nous mangeons des légumes.",
+            "phonetic": "/nu mɑ̃ʒɔ̃ de leɡym/",
+            "translation": "Nós comemos (alguns) legumes.",
+            "note": "Des é usado no plural, tanto para masculino quanto feminino."
+          },
+          {
+            "original": "Tu veux de l'orangeade?",
+            "phonetic": "/ty vø də lɔʁɑ̃ʒad/",
+            "translation": "Queres um pouco de laranjada?",
+            "note": "Antes de vogal (orangeade começa com o), use de l'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "La forme négative (ne... pas de/d')",
+        "translation": "A forma negativa (ne... pas de/d')",
+        "examples": [
+          {
+            "original": "Il n'y a pas de beurre au frigo.",
+            "phonetic": "/il nja pɑ də bœʁ o fʁiɡo/",
+            "translation": "Não há manteiga na geladeira.",
+            "note": "Após 'pas', o partitivo vira 'de' mesmo no singular."
+          },
+          {
+            "original": "Je n'ai pas de cousins.",
+            "phonetic": "/ʒə nɛ pɑ də kuzɛ̃/",
+            "translation": "Eu não tenho primos.",
+            "note": "No plural, também usamos 'de' e não 'des' na negação."
+          },
+          {
+            "original": "Elle ne boit jamais de café.",
+            "phonetic": "/ɛl nə bwa ʒamɛ də kafe/",
+            "translation": "Ela nunca bebe café.",
+            "note": "Com advérbios negativos como 'jamais', a regra é a mesma."
+          },
+          {
+            "original": "Nous ne prenons pas d'apéritif.",
+            "phonetic": "/nu nə pʁənɔ̃ pɑ d‿apeʁitif/",
+            "translation": "Nós não tomamos aperitivo.",
+            "note": "Antes de vogal, 'de' vira 'd''."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Après les expressions de quantité (beaucoup de, peu de, un kilo de...)",
+        "translation": "Depois de expressões de quantidade (beaucoup de, peu de, un kilo de...)",
+        "examples": [
+          {
+            "original": "Elle achète beaucoup de fruits.",
+            "phonetic": "/ɛl aʃɛt boku də fʁɥi/",
+            "translation": "Ela compra muitas frutas.",
+            "note": "Após 'beaucoup de', nunca use 'des'."
+          },
+          {
+            "original": "Nous avons peu de temps.",
+            "phonetic": "/nuz‿avɔ̃ pø də tɑ̃/",
+            "translation": "Nós temos pouco tempo.",
+            "note": "Aqui, 'temps' é incontável e não leva partitivo."
+          },
+          {
+            "original": "Je voudrais un kilo de pommes.",
+            "phonetic": "/ʒə vudʁɛ œ̃ kilo də pɔm/",
+            "translation": "Eu gostaria de um quilo de maçãs.",
+            "note": "Com unidades de medida, use 'de'."
+          },
+          {
+            "original": "Il y a trop de sel dans la soupe.",
+            "phonetic": "/il ja tʁo də sɛl dɑ̃ la sup/",
+            "translation": "Há sal demais na sopa.",
+            "note": "Expressões como 'trop de' também pedem 'de'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧀",
+    "phonetic": "",
+    "translations": {
+      "pt": "Artigos partitivos e quantidades indeterminadas (du, de la, des, de)"
+    }
+  },
+  {
+    "id": "pt_A2_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Beaucoup, trop, assez / Muito, demais, suficiente",
+    "bridge": "Em francês, assim como em português, usamos quantificadores para expressar quantidade. A diferença principal é que 'beaucoup' (muito) é invariável, enquanto no português 'muito' concorda em gênero e número. Além disso, o francês não usa 'de' após 'beaucoup' quando seguido de substantivo, o que pode causar confusão com a estrutura 'muito de'.",
+    "rule": "Em francês, os quantificadores 'beaucoup' (muito), 'trop' (demais), 'assez' (suficiente) são invariáveis e sempre seguidos de 'de' + substantivo (ou 'd'' antes de vogal). Exceção: 'beaucoup' nunca é seguido de 'de' quando modifica um verbo. 'Trop' e 'assez' também podem modificar adjetivos. Para 'muito' com substantivos contáveis, usa-se 'beaucoup de'; para 'muito' com verbos, apenas 'beaucoup'. Não há concordância de gênero ou número.",
+    "concept_examples": [
+      {
+        "text": "J'ai beaucoup d'amis.",
+        "translation": "Eu tenho muitos amigos.",
+        "phonetic": "/ʒ‿ɛ bo.ku d‿a.mi/"
+      },
+      {
+        "text": "Il a trop de travail.",
+        "translation": "Ele tem trabalho demais.",
+        "phonetic": "/il a tʁo də tʁa.vaj/"
+      },
+      {
+        "text": "Elle a assez d'argent.",
+        "translation": "Ela tem dinheiro suficiente.",
+        "phonetic": "/ɛl a a.sɛ d‿aʁ.ʒɑ̃/"
+      },
+      {
+        "text": "Nous parlons beaucoup.",
+        "translation": "Nós falamos muito.",
+        "phonetic": "/nu paʁ.lɔ̃ bo.ku/"
+      }
+    ],
+    "common_error": {
+      "wrong": "J'ai beaucoup de amis.",
+      "correct": "J'ai beaucoup d'amis.",
+      "correct_alt": "J'ai beaucoup d'amis.",
+      "explanation": "Em francês, 'beaucoup de' é seguido de substantivo, mas quando o substantivo começa com vogal, 'de' se torna 'd'' (elision). O erro de escrever 'de amis' é comum porque em português dizemos 'de amigos', mas em francês a preposição 'de' contrai com a vogal. Lembre-se: sempre use 'd'' antes de vogal ou 'h' mudo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Beaucoup de + substantif",
+        "translation": "Muito de + substantivo",
+        "examples": [
+          {
+            "original": "Il y a beaucoup de monde ici.",
+            "phonetic": "/il i a bo.ku də mɔ̃d i.si/",
+            "translation": "Há muita gente aqui.",
+            "note": "'beaucoup de' é usado com substantivos incontáveis como 'monde' (gente). Note que 'monde' é singular em francês, mas traduzimos como 'gente' em português."
+          },
+          {
+            "original": "Elle a beaucoup de livres.",
+            "phonetic": "/ɛl a bo.ku də livʁ/",
+            "translation": "Ela tem muitos livros.",
+            "note": "Aqui 'beaucoup de' é usado com substantivo contável plural. Em português, diríamos 'muitos livros', mas em francês não há concordância."
+          },
+          {
+            "original": "Nous mangeons beaucoup de pain.",
+            "phonetic": "/nu mɑ̃.ʒɔ̃ bo.ku də pɛ̃/",
+            "translation": "Nós comemos muito pão.",
+            "note": "'pain' é incontável em francês, então 'beaucoup de' é apropriado."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Trop de / Assez de",
+        "translation": "Demais de / Suficiente de",
+        "examples": [
+          {
+            "original": "Tu mets trop de sel.",
+            "phonetic": "/ty mɛ tʁo də sɛl/",
+            "translation": "Você põe sal demais.",
+            "note": "'trop de' expressa excesso. Em português, usamos 'demais' após o substantivo, mas em francês 'trop' vem antes."
+          },
+          {
+            "original": "Il y a assez de chaises pour tout le monde.",
+            "phonetic": "/il i a a.sɛ də ʃɛz puʁ tu lə mɔ̃d/",
+            "translation": "Há cadeiras suficientes para todo mundo.",
+            "note": "'assez de' indica quantidade suficiente. Note que 'assez' também significa 'bastante'."
+          },
+          {
+            "original": "Elle dort trop.",
+            "phonetic": "/ɛl dɔʁ tʁo/",
+            "translation": "Ela dorme demais.",
+            "note": "Quando 'trop' modifica um verbo, não usa 'de'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Beaucoup, trop, assez avec des verbes",
+        "translation": "Muito, demais, suficiente com verbos",
+        "examples": [
+          {
+            "original": "Il travaille beaucoup.",
+            "phonetic": "/il tʁa.vaj bo.ku/",
+            "translation": "Ele trabalha muito.",
+            "note": "Aqui, 'beaucoup' modifica o verbo 'travaille' (trabalha) e não é seguido de 'de'."
+          },
+          {
+            "original": "Elle parle trop.",
+            "phonetic": "/ɛl paʁl tʁo/",
+            "translation": "Ela fala demais.",
+            "note": "'trop' sozinho modifica o verbo, sem 'de'. É uma diferença chave do português, onde diríamos 'fala demais' também, mas sem preposição."
+          },
+          {
+            "original": "Nous avons assez mangé.",
+            "phonetic": "/nu a.vɔ̃ a.sɛ mɑ̃.ʒe/",
+            "translation": "Nós comemos o suficiente.",
+            "note": "Com o particípio passado, 'assez' vem antes do verbo. Em português, dizemos 'comemos o suficiente', mas em francês a estrutura é diferente."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Quantificadores: muito, demais, suficiente"
+    }
+  },
+  {
+    "id": "pt_A2_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Orações relativas (qui, que) / Orações relativas (quem, que)",
+    "bridge": "Em francês, ao contrário do português, não se usa 'que' ou 'quem' de forma direta para sujeito e objeto: usa-se 'qui' para sujeito e 'que' para objeto. Cuidado com a preposição: em português dizemos 'com quem', em francês 'avec qui' (nunca 'avec que').",
+    "rule": "As orações relativas em francês são introduzidas por 'qui' (sujeito) ou 'que' (objeto). 'Qui' substitui o sujeito (pessoa ou coisa) e é seguido de verbo. 'Que' substitui o objeto direto e é seguido de sujeito + verbo. Quando há preposição (à, de, avec, pour, etc.), usa-se sempre 'qui' precedido da preposição. Não há distinção de gênero ou número. Em português, 'quem' é usado para pessoas, mas em francês 'qui' também serve para coisas (ex.: 'la chose qui...').",
+    "concept_examples": [
+      {
+        "text": "La femme qui parle est ma sœur.",
+        "translation": "A mulher que fala é minha irmã.",
+        "phonetic": "/la fam ki paʁl ɛ ma sœʁ/"
+      },
+      {
+        "text": "Le livre que j'ai lu est intéressant.",
+        "translation": "O livro que eu li é interessante.",
+        "phonetic": "/lə livʁ kə ʒe ly ɛ ɛ̃teʁɛsɑ̃/"
+      },
+      {
+        "text": "C'est la personne avec qui je travaille.",
+        "translation": "É a pessoa com quem eu trabalho.",
+        "phonetic": "/sɛ la pɛʁsɔn avɛk ki ʒə tʁavaj/"
+      }
+    ],
+    "common_error": {
+      "wrong": "La femme que parle est ma sœur.",
+      "correct": "La femme qui parle est ma sœur.",
+      "correct_alt": "",
+      "explanation": "Em português, usamos 'que' para sujeito também. Mas em francês, quando o pronome relativo é o sujeito da oração, deve-se usar 'qui', nunca 'que'. Lembre-se: 'qui' + verbo, 'que' + sujeito + verbo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Qui (sujet)",
+        "translation": "Qui (sujeito)",
+        "examples": [
+          {
+            "original": "L'homme qui chante est mon voisin.",
+            "phonetic": "/l‿ɔm ki ʃɑ̃t ɛ mɔ̃ vwazɛ̃/",
+            "translation": "O homem que canta é meu vizinho.",
+            "note": "Qui é usado para o sujeito, seguido do verbo. Não confundir com 'que'."
+          },
+          {
+            "original": "Les fleurs qui poussent ici sont belles.",
+            "phonetic": "/le flœʁ ki pus isi sɔ̃ bɛl/",
+            "translation": "As flores que crescem aqui são bonitas.",
+            "note": "Qui também se usa para coisas quando são sujeito."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Que (objet)",
+        "translation": "Que (objeto)",
+        "examples": [
+          {
+            "original": "Le film que nous avons vu est ennuyeux.",
+            "phonetic": "/lə fil kə nu avɔ̃ vy ɛ ɑ̃nɥijø/",
+            "translation": "O filme que nós vimos é entediante.",
+            "note": "Que é usado quando o pronome é o objeto direto. Observe que 'que' pode ser seguido de sujeito + verbo."
+          },
+          {
+            "original": "La chanson que tu écoutes est populaire.",
+            "phonetic": "/la ʃɑ̃sɔ̃ kə ty ekut ɛ pɔpylɛʁ/",
+            "translation": "A música que você ouve é popular.",
+            "note": "Note que 'que' é invariável, não concorda com o substantivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Prepositions + qui",
+        "translation": "Preposições + qui",
+        "examples": [
+          {
+            "original": "La fille à qui je pense s'appelle Marie.",
+            "phonetic": "/la fij a ki ʒə pɑ̃s sapɛl maʁi/",
+            "translation": "A garota em quem eu penso se chama Maria.",
+            "note": "Com preposição (à, de, avec, pour...), usa-se sempre 'qui', mesmo para coisas."
+          },
+          {
+            "original": "Le sujet avec qui j'ai discuté était complexe.",
+            "phonetic": "/lə syʒɛ avɛk ki ʒe diskyte ɛtɛ kɔ̃plɛks/",
+            "translation": "O assunto com quem/que eu discuti era complexo.",
+            "note": "Apesar de 'sujet' ser coisa, 'avec qui' é obrigatório, nunca 'avec que'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Orações relativas básicas (qui, que)"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json",
+  "version": "1.0",
+  "protocolVersion": "2025-03-26",
+  "serverInfo": {
+    "name": "sensemate-content",
+    "title": "SenseMate Content MCP Server",
+    "version": "1.0.0",
+    "description": "Accede al contenido educativo de idiomas de SenseMate: Live Feed, Class Room y gestión de bots generadores con DeepSeek AI. Schema.org JSON-LD incluido en cada item.",
+    "homepage": "https://sensemate.app/mcp"
+  },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "/mcp"
+  },
+  "capabilities": {
+    "tools": {},
+    "resources": {}
+  },
+  "authentication": {
+    "required": false,
+    "schemes": [],
+    "notes": "get_feed y get_classes son públicas. Las herramientas admin requieren admin_token como parámetro."
+  },
+  "tools": [
+    { "name": "get_feed",      "description": "Obtiene publicaciones recientes del Live Feed" },
+    { "name": "get_classes",   "description": "Obtiene clases disponibles o en vivo del Class Room" },
+    { "name": "list_bots",     "description": "[Admin] Lista todos los bots de contenido" },
+    { "name": "run_bot",       "description": "[Admin] Ejecuta un bot manualmente" },
+    { "name": "create_bot",    "description": "[Admin] Crea un nuevo bot de contenido" },
+    { "name": "get_bot_logs",  "description": "[Admin] Historial de ejecuciones de un bot" }
+  ],
+  "resources": [
+    { "uri": "sensemate://feed",      "name": "Live Feed",  "description": "Publicaciones educativas recientes" },
+    { "uri": "sensemate://classroom", "name": "Class Room", "description": "Clases disponibles y en vivo" }
+  ],
+  "prompts": []
+}

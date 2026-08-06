@@ -6,26 +6,107 @@
     "title": "Meeting a new neighbor",
     "conversation": {
       "vocabulary": [
-        { "verb": "be", "form": "am/is/are", "meaning": "ser / estar" },
-        { "verb": "live", "form": "live/lives", "meaning": "morar / viver" },
-        { "verb": "move", "form": "move/moves", "meaning": "mudar-se" },
-        { "verb": "meet", "form": "meet/meets", "meaning": "conhecer (alguém)" },
-        { "verb": "work", "form": "work/works", "meaning": "trabalhar" },
-        { "verb": "study", "form": "study/studies", "meaning": "estudar" },
-        { "verb": "have", "form": "have/has", "meaning": "ter" },
-        { "verb": "do", "form": "do/does", "meaning": "fazer (auxiliar em perguntas)" },
-        { "verb": "come", "form": "come/comes", "meaning": "vir" }
+        {
+          "verb": "be",
+          "form": "am/is/are",
+          "meaning": "ser / estar"
+        },
+        {
+          "verb": "live",
+          "form": "live/lives",
+          "meaning": "morar / viver"
+        },
+        {
+          "verb": "move",
+          "form": "move/moves",
+          "meaning": "mudar-se"
+        },
+        {
+          "verb": "meet",
+          "form": "meet/meets",
+          "meaning": "conhecer (alguém)"
+        },
+        {
+          "verb": "work",
+          "form": "work/works",
+          "meaning": "trabalhar"
+        },
+        {
+          "verb": "study",
+          "form": "study/studies",
+          "meaning": "estudar"
+        },
+        {
+          "verb": "have",
+          "form": "have/has",
+          "meaning": "ter"
+        },
+        {
+          "verb": "do",
+          "form": "do/does",
+          "meaning": "fazer (auxiliar em perguntas)"
+        },
+        {
+          "verb": "come",
+          "form": "come/comes",
+          "meaning": "vir"
+        }
       ],
       "dialogue": [
-        { "speaker": "Anna", "text": "Hello! Are you the new neighbor?", "translation": "Olá! Você é o novo vizinho?", "note": "Saudação e pergunta de identificação." },
-        { "speaker": "Tom", "text": "Yes, I am. My name is Tom.", "translation": "Sim, sou eu. Meu nome é Tom.", "note": "Confirmação e apresentação." },
-        { "speaker": "Anna", "text": "Nice to meet you, Tom. I'm Anna.", "translation": "Prazer em conhecê-lo, Tom. Sou Anna.", "note": "Resposta educada e apresentação própria." },
-        { "speaker": "Tom", "text": "Nice to meet you too. Do you live here with your family?", "translation": "Prazer em conhecê-la também. Você mora aqui com sua família?", "note": "Pergunta sobre a situação familiar." },
-        { "speaker": "Anna", "text": "Yes, I live with my husband and my daughter.", "translation": "Sim, moro com meu marido e minha filha.", "note": "Resposta com detalhes da família." },
-        { "speaker": "Tom", "text": "That's great. I work at the hospital. What about you?", "translation": "Que ótimo. Eu trabalho no hospital. E você?", "note": "Comentário e pergunta sobre a ocupação." },
-        { "speaker": "Anna", "text": "I study English at the university.", "translation": "Estudo inglês na universidade.", "note": "Informação sobre os estudos." },
-        { "speaker": "Tom", "text": "Wonderful! Well, I have to go now. See you later!", "translation": "Maravilhoso! Bem, tenho que ir agora. Até logo!", "note": "Despedida educada." },
-        { "speaker": "Anna", "text": "Goodbye, Tom.", "translation": "Tchau, Tom.", "note": "Despedida final." }
+        {
+          "speaker": "Anna",
+          "text": "Hello! Are you the new neighbor?",
+          "translation": "Olá! Você é o novo vizinho?",
+          "note": "Saudação e pergunta de identificação."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Yes, I am. My name is Tom.",
+          "translation": "Sim, sou eu. Meu nome é Tom.",
+          "note": "Confirmação e apresentação."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Nice to meet you, Tom. I'm Anna.",
+          "translation": "Prazer em conhecê-lo, Tom. Sou Anna.",
+          "note": "Resposta educada e apresentação própria."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Nice to meet you too. Do you live here with your family?",
+          "translation": "Prazer em conhecê-la também. Você mora aqui com sua família?",
+          "note": "Pergunta sobre a situação familiar."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Yes, I live with my husband and my daughter.",
+          "translation": "Sim, moro com meu marido e minha filha.",
+          "note": "Resposta com detalhes da família."
+        },
+        {
+          "speaker": "Tom",
+          "text": "That's great. I work at the hospital. What about you?",
+          "translation": "Que ótimo. Eu trabalho no hospital. E você?",
+          "note": "Comentário e pergunta sobre a ocupação."
+        },
+        {
+          "speaker": "Anna",
+          "text": "I study English at the university.",
+          "translation": "Estudo inglês na universidade.",
+          "note": "Informação sobre os estudos."
+        },
+        {
+          "speaker": "Tom",
+          "text": "Wonderful! Well, I have to go now. See you later!",
+          "translation": "Maravilhoso! Bem, tenho que ir agora. Até logo!",
+          "note": "Despedida educada."
+        },
+        {
+          "speaker": "Anna",
+          "text": "Goodbye, Tom.",
+          "translation": "Tchau, Tom.",
+          "note": "Despedida final."
+        }
       ]
     }
   },
@@ -36,26 +117,107 @@
     "title": "Ordering breakfast at a café",
     "conversation": {
       "vocabulary": [
-        { "verb": "like", "form": "like/likes", "meaning": "gostar" },
-        { "verb": "want", "form": "want/wants", "meaning": "querer" },
-        { "verb": "have", "form": "have/has", "meaning": "ter / tomar" },
-        { "verb": "take", "form": "take/takes", "meaning": "pegar / tomar" },
-        { "verb": "drink", "form": "drink/drinks", "meaning": "beber" },
-        { "verb": "eat", "form": "eat/eats", "meaning": "comer" },
-        { "verb": "pay", "form": "pay/pays", "meaning": "pagar" },
-        { "verb": "come", "form": "come/comes", "meaning": "vir" },
-        { "verb": "bring", "form": "bring/brings", "meaning": "trazer" }
+        {
+          "verb": "like",
+          "form": "like/likes",
+          "meaning": "gostar"
+        },
+        {
+          "verb": "want",
+          "form": "want/wants",
+          "meaning": "querer"
+        },
+        {
+          "verb": "have",
+          "form": "have/has",
+          "meaning": "ter / tomar"
+        },
+        {
+          "verb": "take",
+          "form": "take/takes",
+          "meaning": "pegar / tomar"
+        },
+        {
+          "verb": "drink",
+          "form": "drink/drinks",
+          "meaning": "beber"
+        },
+        {
+          "verb": "eat",
+          "form": "eat/eats",
+          "meaning": "comer"
+        },
+        {
+          "verb": "pay",
+          "form": "pay/pays",
+          "meaning": "pagar"
+        },
+        {
+          "verb": "come",
+          "form": "come/comes",
+          "meaning": "vir"
+        },
+        {
+          "verb": "bring",
+          "form": "bring/brings",
+          "meaning": "trazer"
+        }
       ],
       "dialogue": [
-        { "speaker": "Waiter", "text": "Good morning. What do you want to eat?", "translation": "Bom dia. O que você quer comer?", "note": "Saudação e pergunta inicial do garçom." },
-        { "speaker": "Client", "text": "I'd like a sandwich, please.", "translation": "Eu gostaria de um sanduíche, por favor.", "note": "Pedido educado com 'I'd like'." },
-        { "speaker": "Waiter", "text": "Do you want cheese or ham?", "translation": "Você quer queijo ou presunto?", "note": "Pergunta para escolher o tipo de sanduíche." },
-        { "speaker": "Client", "text": "Ham, please. And I want a glass of orange juice.", "translation": "Presunto, por favor. E quero um copo de suco de laranja.", "note": "Escolha e pedido de bebida." },
-        { "speaker": "Waiter", "text": "Anything else? Coffee or tea?", "translation": "Mais alguma coisa? Café ou chá?", "note": "Oferecimento adicional." },
-        { "speaker": "Client", "text": "Yes, I'd like a cup of coffee with milk.", "translation": "Sim, gostaria de uma xícara de café com leite.", "note": "Pedido de café com leite." },
-        { "speaker": "Waiter", "text": "That's a sandwich, orange juice and coffee. Is that correct?", "translation": "Isso é um sanduíche, suco de laranja e café. Está correto?", "note": "Confirmação do pedido." },
-        { "speaker": "Client", "text": "Yes, perfect. How much is it?", "translation": "Sim, perfeito. Quanto custa?", "note": "Pergunta sobre o preço." },
-        { "speaker": "Waiter", "text": "It's 9 dollars. You can pay at the counter.", "translation": "São 9 dólares. Você pode pagar no balcão.", "note": "Indicação do preço e local de pagamento." }
+        {
+          "speaker": "Waiter",
+          "text": "Good morning. What do you want to eat?",
+          "translation": "Bom dia. O que você quer comer?",
+          "note": "Saudação e pergunta inicial do garçom."
+        },
+        {
+          "speaker": "Client",
+          "text": "I'd like a sandwich, please.",
+          "translation": "Eu gostaria de um sanduíche, por favor.",
+          "note": "Pedido educado com 'I'd like'."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Do you want cheese or ham?",
+          "translation": "Você quer queijo ou presunto?",
+          "note": "Pergunta para escolher o tipo de sanduíche."
+        },
+        {
+          "speaker": "Client",
+          "text": "Ham, please. And I want a glass of orange juice.",
+          "translation": "Presunto, por favor. E quero um copo de suco de laranja.",
+          "note": "Escolha e pedido de bebida."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Anything else? Coffee or tea?",
+          "translation": "Mais alguma coisa? Café ou chá?",
+          "note": "Oferecimento adicional."
+        },
+        {
+          "speaker": "Client",
+          "text": "Yes, I'd like a cup of coffee with milk.",
+          "translation": "Sim, gostaria de uma xícara de café com leite.",
+          "note": "Pedido de café com leite."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "That's a sandwich, orange juice and coffee. Is that correct?",
+          "translation": "Isso é um sanduíche, suco de laranja e café. Está correto?",
+          "note": "Confirmação do pedido."
+        },
+        {
+          "speaker": "Client",
+          "text": "Yes, perfect. How much is it?",
+          "translation": "Sim, perfeito. Quanto custa?",
+          "note": "Pergunta sobre o preço."
+        },
+        {
+          "speaker": "Waiter",
+          "text": "It's 9 dollars. You can pay at the counter.",
+          "translation": "São 9 dólares. Você pode pagar no balcão.",
+          "note": "Indicação do preço e local de pagamento."
+        }
       ]
     }
   },
@@ -66,25 +228,101 @@
     "title": "A rainy day at home",
     "conversation": {
       "vocabulary": [
-        { "verb": "rain", "form": "rain/rains", "meaning": "chover" },
-        { "verb": "stay", "form": "stay/stays", "meaning": "ficar" },
-        { "verb": "watch", "form": "watch/watches", "meaning": "assistir (TV)" },
-        { "verb": "read", "form": "read/reads", "meaning": "ler" },
-        { "verb": "drink", "form": "drink/drinks", "meaning": "beber" },
-        { "verb": "play", "form": "play/plays", "meaning": "brincar / jogar" },
-        { "verb": "cook", "form": "cook/cooks", "meaning": "cozinhar" },
-        { "verb": "clean", "form": "clean/cleans", "meaning": "limpar" },
-        { "verb": "sleep", "form": "sleep/sleeps", "meaning": "dormir" }
+        {
+          "verb": "rain",
+          "form": "rain/rains",
+          "meaning": "chover"
+        },
+        {
+          "verb": "stay",
+          "form": "stay/stays",
+          "meaning": "ficar"
+        },
+        {
+          "verb": "watch",
+          "form": "watch/watches",
+          "meaning": "assistir (TV)"
+        },
+        {
+          "verb": "read",
+          "form": "read/reads",
+          "meaning": "ler"
+        },
+        {
+          "verb": "drink",
+          "form": "drink/drinks",
+          "meaning": "beber"
+        },
+        {
+          "verb": "play",
+          "form": "play/plays",
+          "meaning": "brincar / jogar"
+        },
+        {
+          "verb": "cook",
+          "form": "cook/cooks",
+          "meaning": "cozinhar"
+        },
+        {
+          "verb": "clean",
+          "form": "clean/cleans",
+          "meaning": "limpar"
+        },
+        {
+          "verb": "sleep",
+          "form": "sleep/sleeps",
+          "meaning": "dormir"
+        }
       ],
       "dialogue": [
-        { "speaker": "Mom", "text": "It's raining outside. What do you want to do today?", "translation": "Está chovendo lá fora. O que você quer fazer hoje?", "note": "Comentário sobre o clima e pergunta sobre o plano." },
-        { "speaker": "Daughter", "text": "I want to watch a movie in the living room.", "translation": "Quero assistir a um filme na sala de estar.", "note": "Proposta de atividade." },
-        { "speaker": "Mom", "text": "Good idea. And I want to read my new book.", "translation": "Boa ideia. E eu quero ler meu novo livro.", "note": "Aceitação e plano da mãe." },
-        { "speaker": "Daughter", "text": "Can I have some hot chocolate?", "translation": "Posso tomar um pouco de chocolate quente?", "note": "Pedido de permissão com 'can'." },
-        { "speaker": "Mom", "text": "Yes, I can prepare it for you.", "translation": "Sim, posso preparar para você.", "note": "Permissão e oferta." },
-        { "speaker": "Daughter", "text": "And later, can I play with my toys?", "translation": "E depois, posso brincar com meus brinquedos?", "note": "Outro pedido com 'can'." },
-        { "speaker": "Mom", "text": "Sure. But first, let's clean the bedroom together.", "translation": "Claro. Mas primeiro, vamos limpar o quarto juntas.", "note": "Aceitação com condição (uso de 'let's')." },
-        { "speaker": "Daughter", "text": "OK, Mom. After that, maybe I take a nap.", "translation": "OK, mãe. Depois disso, talvez eu tire uma soneca.", "note": "Concordância e plano posterior." }
+        {
+          "speaker": "Mom",
+          "text": "It's raining outside. What do you want to do today?",
+          "translation": "Está chovendo lá fora. O que você quer fazer hoje?",
+          "note": "Comentário sobre o clima e pergunta sobre o plano."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "I want to watch a movie in the living room.",
+          "translation": "Quero assistir a um filme na sala de estar.",
+          "note": "Proposta de atividade."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Good idea. And I want to read my new book.",
+          "translation": "Boa ideia. E eu quero ler meu novo livro.",
+          "note": "Aceitação e plano da mãe."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "Can I have some hot chocolate?",
+          "translation": "Posso tomar um pouco de chocolate quente?",
+          "note": "Pedido de permissão com 'can'."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Yes, I can prepare it for you.",
+          "translation": "Sim, posso preparar para você.",
+          "note": "Permissão e oferta."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "And later, can I play with my toys?",
+          "translation": "E depois, posso brincar com meus brinquedos?",
+          "note": "Outro pedido com 'can'."
+        },
+        {
+          "speaker": "Mom",
+          "text": "Sure. But first, let's clean the bedroom together.",
+          "translation": "Claro. Mas primeiro, vamos limpar o quarto juntas.",
+          "note": "Aceitação com condição (uso de 'let's')."
+        },
+        {
+          "speaker": "Daughter",
+          "text": "OK, Mom. After that, maybe I take a nap.",
+          "translation": "OK, mãe. Depois disso, talvez eu tire uma soneca.",
+          "note": "Concordância e plano posterior."
+        }
       ]
     }
   },
@@ -95,28 +333,118 @@
     "title": "Buying a T-shirt at the store",
     "conversation": {
       "vocabulary": [
-        { "verb": "buy", "form": "buy/buys", "meaning": "comprar" },
-        { "verb": "want", "form": "want/wants", "meaning": "querer" },
-        { "verb": "need", "form": "need/needs", "meaning": "precisar" },
-        { "verb": "have", "form": "have/has", "meaning": "ter" },
-        { "verb": "see", "form": "see/sees", "meaning": "ver" },
-        { "verb": "try", "form": "try/tries", "meaning": "experimentar (roupa)" },
-        { "verb": "fit", "form": "fit/fits", "meaning": "servir (bem)" },
-        { "verb": "like", "form": "like/likes", "meaning": "gostar" },
-        { "verb": "cost", "form": "cost/costs", "meaning": "custar" },
-        { "verb": "take", "form": "take/takes", "meaning": "pegar / levar" }
+        {
+          "verb": "buy",
+          "form": "buy/buys",
+          "meaning": "comprar"
+        },
+        {
+          "verb": "want",
+          "form": "want/wants",
+          "meaning": "querer"
+        },
+        {
+          "verb": "need",
+          "form": "need/needs",
+          "meaning": "precisar"
+        },
+        {
+          "verb": "have",
+          "form": "have/has",
+          "meaning": "ter"
+        },
+        {
+          "verb": "see",
+          "form": "see/sees",
+          "meaning": "ver"
+        },
+        {
+          "verb": "try",
+          "form": "try/tries",
+          "meaning": "experimentar (roupa)"
+        },
+        {
+          "verb": "fit",
+          "form": "fit/fits",
+          "meaning": "servir (bem)"
+        },
+        {
+          "verb": "like",
+          "form": "like/likes",
+          "meaning": "gostar"
+        },
+        {
+          "verb": "cost",
+          "form": "cost/costs",
+          "meaning": "custar"
+        },
+        {
+          "verb": "take",
+          "form": "take/takes",
+          "meaning": "pegar / levar"
+        }
       ],
       "dialogue": [
-        { "speaker": "Salesperson", "text": "Hello. Can I help you?", "translation": "Olá. Posso ajudar você?", "note": "Saudação e oferta de ajuda." },
-        { "speaker": "Customer", "text": "Yes, I want to buy a T-shirt.", "translation": "Sim, quero comprar uma camiseta.", "note": "Expressão da intenção de compra." },
-        { "speaker": "Salesperson", "text": "What color do you like?", "translation": "Qual cor você gosta?", "note": "Pergunta sobre a preferência de cor." },
-        { "speaker": "Customer", "text": "I like blue and black. Do you have a blue one?", "translation": "Gosto de azul e preto. Você tem uma azul?", "note": "Resposta e pergunta sobre disponibilidade." },
-        { "speaker": "Salesperson", "text": "Yes, we do. What size do you need?", "translation": "Sim, temos. Qual tamanho você precisa?", "note": "Confirmação e pergunta sobre o tamanho." },
-        { "speaker": "Customer", "text": "I think I need a large size. Can I try it on?", "translation": "Acho que preciso de um tamanho grande. Posso experimentar?", "note": "Pedido para experimentar a peça." },
-        { "speaker": "Salesperson", "text": "Of course. The fitting room is over there.", "translation": "Claro. O provador é ali.", "note": "Permissão e indicação do local." },
-        { "speaker": "Customer", "text": "It fits perfectly! I like it very much. How much does it cost?", "translation": "Serve perfeitamente! Gostei muito. Quanto custa?", "note": "Comentário positivo e pergunta sobre o preço." },
-        { "speaker": "Salesperson", "text": "It costs 25 dollars. Do you want to take it?", "translation": "Custa 25 dólares. Você quer levá-la?", "note": "Preço e oferta de compra." },
-        { "speaker": "Customer", "text": "Yes, I'll take it.", "translation": "Sim, vou levá-la.", "note": "Decisão de compra." }
+        {
+          "speaker": "Salesperson",
+          "text": "Hello. Can I help you?",
+          "translation": "Olá. Posso ajudar você?",
+          "note": "Saudação e oferta de ajuda."
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I want to buy a T-shirt.",
+          "translation": "Sim, quero comprar uma camiseta.",
+          "note": "Expressão da intenção de compra."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "What color do you like?",
+          "translation": "Qual cor você gosta?",
+          "note": "Pergunta sobre a preferência de cor."
+        },
+        {
+          "speaker": "Customer",
+          "text": "I like blue and black. Do you have a blue one?",
+          "translation": "Gosto de azul e preto. Você tem uma azul?",
+          "note": "Resposta e pergunta sobre disponibilidade."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Yes, we do. What size do you need?",
+          "translation": "Sim, temos. Qual tamanho você precisa?",
+          "note": "Confirmação e pergunta sobre o tamanho."
+        },
+        {
+          "speaker": "Customer",
+          "text": "I think I need a large size. Can I try it on?",
+          "translation": "Acho que preciso de um tamanho grande. Posso experimentar?",
+          "note": "Pedido para experimentar a peça."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Of course. The fitting room is over there.",
+          "translation": "Claro. O provador é ali.",
+          "note": "Permissão e indicação do local."
+        },
+        {
+          "speaker": "Customer",
+          "text": "It fits perfectly! I like it very much. How much does it cost?",
+          "translation": "Serve perfeitamente! Gostei muito. Quanto custa?",
+          "note": "Comentário positivo e pergunta sobre o preço."
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "It costs 25 dollars. Do you want to take it?",
+          "translation": "Custa 25 dólares. Você quer levá-la?",
+          "note": "Preço e oferta de compra."
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I'll take it.",
+          "translation": "Sim, vou levá-la.",
+          "note": "Decisão de compra."
+        }
       ]
     }
   },
@@ -127,28 +455,118 @@
     "title": "Asking for directions to the bank",
     "conversation": {
       "vocabulary": [
-        { "verb": "go", "form": "go/goes", "meaning": "ir" },
-        { "verb": "walk", "form": "walk/walks", "meaning": "andar / caminhar" },
-        { "verb": "turn", "form": "turn/turns", "meaning": "virar" },
-        { "verb": "cross", "form": "cross/crosses", "meaning": "atravessar" },
-        { "verb": "find", "form": "find/finds", "meaning": "encontrar" },
-        { "verb": "need", "form": "need/needs", "meaning": "precisar" },
-        { "verb": "see", "form": "see/sees", "meaning": "ver" },
-        { "verb": "get", "form": "get/gets", "meaning": "chegar / obter" },
-        { "verb": "take", "form": "take/takes", "meaning": "pegar (transporte)" },
-        { "verb": "thank", "form": "thank/thanks", "meaning": "agradecer" }
+        {
+          "verb": "go",
+          "form": "go/goes",
+          "meaning": "ir"
+        },
+        {
+          "verb": "walk",
+          "form": "walk/walks",
+          "meaning": "andar / caminhar"
+        },
+        {
+          "verb": "turn",
+          "form": "turn/turns",
+          "meaning": "virar"
+        },
+        {
+          "verb": "cross",
+          "form": "cross/crosses",
+          "meaning": "atravessar"
+        },
+        {
+          "verb": "find",
+          "form": "find/finds",
+          "meaning": "encontrar"
+        },
+        {
+          "verb": "need",
+          "form": "need/needs",
+          "meaning": "precisar"
+        },
+        {
+          "verb": "see",
+          "form": "see/sees",
+          "meaning": "ver"
+        },
+        {
+          "verb": "get",
+          "form": "get/gets",
+          "meaning": "chegar / obter"
+        },
+        {
+          "verb": "take",
+          "form": "take/takes",
+          "meaning": "pegar (transporte)"
+        },
+        {
+          "verb": "thank",
+          "form": "thank/thanks",
+          "meaning": "agradecer"
+        }
       ],
       "dialogue": [
-        { "speaker": "Tourist", "text": "Excuse me. I need to go to the bank. Where is it?", "translation": "Com licença. Preciso ir ao banco. Onde fica?", "note": "Pedido de informações." },
-        { "speaker": "Local", "text": "The bank is near the park. Go straight down this street.", "translation": "O banco fica perto do parque. Siga em frente por esta rua.", "note": "Indicação de direção." },
-        { "speaker": "Tourist", "text": "OK, go straight. Then?", "translation": "OK, seguir em frente. Depois?", "note": "Confirmação e pedido de continuação." },
-        { "speaker": "Local", "text": "Walk for two blocks and turn right at the cinema.", "translation": "Ande dois quarteirões e vire à direita no cinema.", "note": "Instruções detalhadas." },
-        { "speaker": "Tourist", "text": "Turn right at the cinema. Is it far?", "translation": "Virar à direita no cinema. É longe?", "note": "Repetição e pergunta sobre a distância." },
-        { "speaker": "Local", "text": "No, it's not far. Cross the street and you'll see the bank in front of you.", "translation": "Não, não é longe. Atravesse a rua e você verá o banco na sua frente.", "note": "Esclarecimento sobre a distância e instrução final." },
-        { "speaker": "Tourist", "text": "Great. And is there a bus stop near there?", "translation": "Ótimo. E tem um ponto de ônibus perto daí?", "note": "Pergunta adicional sobre transporte público." },
-        { "speaker": "Local", "text": "Yes, there is a bus stop next to the bank. You can take bus number 5.", "translation": "Sim, há um ponto de ônibus ao lado do banco. Você pode pegar o ônibus número 5.", "note": "Informação adicional útil." },
-        { "speaker": "Tourist", "text": "Thank you very much for your help.", "translation": "Muito obrigado pela ajuda.", "note": "Agradecimento." },
-        { "speaker": "Local", "text": "You're welcome.", "translation": "De nada.", "note": "Resposta educada ao agradecimento." }
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me. I need to go to the bank. Where is it?",
+          "translation": "Com licença. Preciso ir ao banco. Onde fica?",
+          "note": "Pedido de informações."
+        },
+        {
+          "speaker": "Local",
+          "text": "The bank is near the park. Go straight down this street.",
+          "translation": "O banco fica perto do parque. Siga em frente por esta rua.",
+          "note": "Indicação de direção."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "OK, go straight. Then?",
+          "translation": "OK, seguir em frente. Depois?",
+          "note": "Confirmação e pedido de continuação."
+        },
+        {
+          "speaker": "Local",
+          "text": "Walk for two blocks and turn right at the cinema.",
+          "translation": "Ande dois quarteirões e vire à direita no cinema.",
+          "note": "Instruções detalhadas."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Turn right at the cinema. Is it far?",
+          "translation": "Virar à direita no cinema. É longe?",
+          "note": "Repetição e pergunta sobre a distância."
+        },
+        {
+          "speaker": "Local",
+          "text": "No, it's not far. Cross the street and you'll see the bank in front of you.",
+          "translation": "Não, não é longe. Atravesse a rua e você verá o banco na sua frente.",
+          "note": "Esclarecimento sobre a distância e instrução final."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Great. And is there a bus stop near there?",
+          "translation": "Ótimo. E tem um ponto de ônibus perto daí?",
+          "note": "Pergunta adicional sobre transporte público."
+        },
+        {
+          "speaker": "Local",
+          "text": "Yes, there is a bus stop next to the bank. You can take bus number 5.",
+          "translation": "Sim, há um ponto de ônibus ao lado do banco. Você pode pegar o ônibus número 5.",
+          "note": "Informação adicional útil."
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Thank you very much for your help.",
+          "translation": "Muito obrigado pela ajuda.",
+          "note": "Agradecimento."
+        },
+        {
+          "speaker": "Local",
+          "text": "You're welcome.",
+          "translation": "De nada.",
+          "note": "Resposta educada ao agradecimento."
+        }
       ]
     }
   },
@@ -159,30 +577,639 @@
     "title": "Describing a family photo",
     "conversation": {
       "vocabulary": [
-        { "verb": "have", "form": "have/has", "meaning": "ter" },
-        { "verb": "be", "form": "am/is/are", "meaning": "ser / estar" },
-        { "verb": "sit", "form": "sit/sits", "meaning": "sentar-se / estar sentado" },
-        { "verb": "stand", "form": "stand/stands", "meaning": "estar em pé" },
-        { "verb": "wear", "form": "wear/wears", "meaning": "vestir / usar (roupa)" },
-        { "verb": "look", "form": "look/looks", "meaning": "parecer / olhar" },
-        { "verb": "smile", "form": "smile/smiles", "meaning": "sorrir" },
-        { "verb": "love", "form": "love/loves", "meaning": "amar" },
-        { "verb": "live", "form": "live/lives", "meaning": "morar / viver" },
-        { "verb": "see", "form": "see/sees", "meaning": "ver" }
+        {
+          "verb": "have",
+          "form": "have/has",
+          "meaning": "ter"
+        },
+        {
+          "verb": "be",
+          "form": "am/is/are",
+          "meaning": "ser / estar"
+        },
+        {
+          "verb": "sit",
+          "form": "sit/sits",
+          "meaning": "sentar-se / estar sentado"
+        },
+        {
+          "verb": "stand",
+          "form": "stand/stands",
+          "meaning": "estar em pé"
+        },
+        {
+          "verb": "wear",
+          "form": "wear/wears",
+          "meaning": "vestir / usar (roupa)"
+        },
+        {
+          "verb": "look",
+          "form": "look/looks",
+          "meaning": "parecer / olhar"
+        },
+        {
+          "verb": "smile",
+          "form": "smile/smiles",
+          "meaning": "sorrir"
+        },
+        {
+          "verb": "love",
+          "form": "love/loves",
+          "meaning": "amar"
+        },
+        {
+          "verb": "live",
+          "form": "live/lives",
+          "meaning": "morar / viver"
+        },
+        {
+          "verb": "see",
+          "form": "see/sees",
+          "meaning": "ver"
+        }
       ],
       "dialogue": [
-        { "speaker": "Lucy", "text": "Look! This is a photo of my family.", "translation": "Olha! Esta é uma foto da minha família.", "note": "Apresentação da foto." },
-        { "speaker": "Peter", "text": "Wow! Who is the man next to you?", "translation": "Uau! Quem é o homem ao seu lado?", "note": "Pergunta sobre um membro da família." },
-        { "speaker": "Lucy", "text": "That is my father. He is tall and has brown hair.", "translation": "Esse é meu pai. Ele é alto e tem cabelo castanho.", "note": "Descrição física do pai." },
-        { "speaker": "Peter", "text": "And the woman with the glasses?", "translation": "E a mulher com os óculos?", "note": "Pergunta sobre outra pessoa." },
-        { "speaker": "Lucy", "text": "That's my mother. She is a teacher. She is wearing a blue dress.", "translation": "Essa é minha mãe. Ela é professora. Ela está vestindo um vestido azul.", "note": "Descrição da mãe e sua profissão." },
-        { "speaker": "Peter", "text": "They look very happy. Is that your brother?", "translation": "Eles parecem muito felizes. Esse é seu irmão?", "note": "Comentário e pergunta sobre outra pessoa." },
-        { "speaker": "Lucy", "text": "Yes, he is my brother. He is sitting on the sofa. He is 10 years old.", "translation": "Sim, ele é meu irmão. Ele está sentado no sofá. Ele tem 10 anos.", "note": "Identificação e descrição do irmão." },
-        { "speaker": "Peter", "text": "And where are you in the photo?", "translation": "E onde você está na foto?", "note": "Pergunta sobre a localização de Lucy." },
-        { "speaker": "Lucy", "text": "I am standing behind my parents. I smile a lot!", "translation": "Estou em pé atrás dos meus pais. Eu sorrio muito!", "note": "Descrição de sua posição e atitude." },
-        { "speaker": "Peter", "text": "You have a nice family. Do you all live together?", "translation": "Você tem uma família bonita. Vocês moram todos juntos?", "note": "Comentário e pergunta sobre a situação familiar." },
-        { "speaker": "Lucy", "text": "Yes, we live in a big house near the beach. I love them.", "translation": "Sim, moramos em uma casa grande perto da praia. Eu os amo.", "note": "Informação adicional e expressão de afeto." }
+        {
+          "speaker": "Lucy",
+          "text": "Look! This is a photo of my family.",
+          "translation": "Olha! Esta é uma foto da minha família.",
+          "note": "Apresentação da foto."
+        },
+        {
+          "speaker": "Peter",
+          "text": "Wow! Who is the man next to you?",
+          "translation": "Uau! Quem é o homem ao seu lado?",
+          "note": "Pergunta sobre um membro da família."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "That is my father. He is tall and has brown hair.",
+          "translation": "Esse é meu pai. Ele é alto e tem cabelo castanho.",
+          "note": "Descrição física do pai."
+        },
+        {
+          "speaker": "Peter",
+          "text": "And the woman with the glasses?",
+          "translation": "E a mulher com os óculos?",
+          "note": "Pergunta sobre outra pessoa."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "That's my mother. She is a teacher. She is wearing a blue dress.",
+          "translation": "Essa é minha mãe. Ela é professora. Ela está vestindo um vestido azul.",
+          "note": "Descrição da mãe e sua profissão."
+        },
+        {
+          "speaker": "Peter",
+          "text": "They look very happy. Is that your brother?",
+          "translation": "Eles parecem muito felizes. Esse é seu irmão?",
+          "note": "Comentário e pergunta sobre outra pessoa."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "Yes, he is my brother. He is sitting on the sofa. He is 10 years old.",
+          "translation": "Sim, ele é meu irmão. Ele está sentado no sofá. Ele tem 10 anos.",
+          "note": "Identificação e descrição do irmão."
+        },
+        {
+          "speaker": "Peter",
+          "text": "And where are you in the photo?",
+          "translation": "E onde você está na foto?",
+          "note": "Pergunta sobre a localização de Lucy."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "I am standing behind my parents. I smile a lot!",
+          "translation": "Estou em pé atrás dos meus pais. Eu sorrio muito!",
+          "note": "Descrição de sua posição e atitude."
+        },
+        {
+          "speaker": "Peter",
+          "text": "You have a nice family. Do you all live together?",
+          "translation": "Você tem uma família bonita. Vocês moram todos juntos?",
+          "note": "Comentário e pergunta sobre a situação familiar."
+        },
+        {
+          "speaker": "Lucy",
+          "text": "Yes, we live in a big house near the beach. I love them.",
+          "translation": "Sim, moramos em uma casa grande perto da praia. Eu os amo.",
+          "note": "Informação adicional e expressão de afeto."
+        }
       ]
+    }
+  },
+  {
+    "id": "pt_A1_conv_07",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Introductions and Greetings / Apresentações e Cumprimentos",
+    "bridge": "Em inglês, as saudações e apresentações têm estruturas fixas que nem sempre correspondem literalmente ao português. Por exemplo, 'How are you?' não exige uma resposta detalhada; é um cumprimento padrão. Além disso, o verbo 'to be' é essencial e muda de forma ('am', 'is', 'are') conforme o sujeito, algo que em português também ocorre ('sou', 'é', 'são'), mas os usos podem ser diferentes. Cuidado com a tradução direta: em inglês, dizemos 'I am John' e não 'I am John Smith' com sobrenome em contextos informais. Outra diferença: o possessivo 'my' sempre vem antes do nome, como em 'My name is...'.",
+    "rule": "Para cumprimentar: 'Hello', 'Hi', 'Good morning', 'Good afternoon', 'Good evening'. Para perguntar o nome: 'What's your name?' (informal) ou 'What is your name?' (formal). Para responder: 'My name is...' ou 'I am...'. Para apresentar alguém: 'This is...' (para pessoas) e 'This is...' para objetos. O verbo 'to be' no presente: 'I am', 'you are', 'he/she/it is', 'we are', 'they are'. Contrações comuns: 'I'm', 'you're', 'he's', 'she's', 'it's', 'we're', 'they're'. Perguntas de cortesia: 'How are you?' e respostas: 'I'm fine, thank you.', 'I'm good.', 'I'm well.' Em situações formais, use 'How do you do?' (raro) e respostas padrão. Para se despedir: 'Goodbye', 'Bye', 'See you later', 'See you tomorrow'.",
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Anna.",
+        "translation": "Olá, meu nome é Anna.",
+        "phonetic": "/həˈloʊ maɪ neɪm ɪz ˈænə/"
+      },
+      {
+        "text": "What's your name?",
+        "translation": "Qual é o seu nome?",
+        "phonetic": "/wʌts jʊr neɪm/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Prazer em conhecê-lo.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "How are you?",
+        "translation": "Como você está?",
+        "phonetic": "/haʊ ɑːr juː/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am agree.",
+      "correct": "I agree.",
+      "correct_alt": "I'm agree. (incorreto, mas comum; use 'I agree'.)",
+      "explanation": "Em português, dizemos 'eu concordo', mas em inglês o verbo 'agree' não precisa do verbo 'to be'. Isso acontece porque os falantes de português muitas vezes traduzem literalmente 'estar de acordo' como 'be agree'. Lembre-se: 'agree' já é um verbo completo em inglês, então não use 'am/is/are' antes dele. Para evitar o erro, memorize que 'agree' é um verbo normal: 'I agree', 'You agree', 'He agrees'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic Greetings",
+        "translation": "Cumprimentos Básicos",
+        "examples": [
+          {
+            "original": "Hello!",
+            "phonetic": "/həˈloʊ/",
+            "translation": "Olá!",
+            "note": "Saudação universal, usada em qualquer situação, formal ou informal."
+          },
+          {
+            "original": "Hi!",
+            "phonetic": "/haɪ/",
+            "translation": "Oi!",
+            "note": "Mais informal que 'Hello', usado entre amigos e pessoas conhecidas."
+          },
+          {
+            "original": "Good morning!",
+            "phonetic": "/ɡʊd ˈmɔːrnɪŋ/",
+            "translation": "Bom dia!",
+            "note": "Usado até o meio-dia. Não confundir com 'Good night' (boa noite ao se despedir)."
+          },
+          {
+            "original": "Good afternoon!",
+            "phonetic": "/ɡʊd ˌæftərˈnuːn/",
+            "translation": "Boa tarde!",
+            "note": "Usado da tarde até o anoitecer, aproximadamente das 12h às 18h."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Asking and Saying Your Name",
+        "translation": "Perguntar e Dizer o Nome",
+        "examples": [
+          {
+            "original": "What's your name?",
+            "phonetic": "/wʌts jʊr neɪm/",
+            "translation": "Qual é o seu nome?",
+            "note": "Forma contraída de 'What is'. Use em situações informais e formais."
+          },
+          {
+            "original": "My name is Carlos.",
+            "phonetic": "/maɪ neɪm ɪz ˈkɑːrloʊs/",
+            "translation": "Meu nome é Carlos.",
+            "note": "Use 'my' antes de 'name'. Não esqueça o possessivo."
+          },
+          {
+            "original": "I'm Maria.",
+            "phonetic": "/aɪm məˈriːə/",
+            "translation": "Eu sou Maria.",
+            "note": "Contração de 'I am'. Mais informal que 'My name is'."
+          },
+          {
+            "original": "Nice to meet you.",
+            "phonetic": "/naɪs tə miːt juː/",
+            "translation": "Prazer em conhecê-lo.",
+            "note": "Resposta típica: 'Nice to meet you too.' (Prazer em conhecê-lo também.)"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Introducing Others",
+        "translation": "Apresentando Outras Pessoas",
+        "examples": [
+          {
+            "original": "This is my friend, John.",
+            "phonetic": "/ðɪs ɪz maɪ frɛnd dʒɑːn/",
+            "translation": "Este é meu amigo, John.",
+            "note": "Use 'This is' para apresentar alguém. 'My' indica posse."
+          },
+          {
+            "original": "This is my mother.",
+            "phonetic": "/ðɪs ɪz maɪ ˈmʌðər/",
+            "translation": "Esta é minha mãe.",
+            "note": "Para familiares, também use 'This is'."
+          },
+          {
+            "original": "Nice to meet you too.",
+            "phonetic": "/naɪs tə miːt juː tuː/",
+            "translation": "Prazer em conhecê-lo também.",
+            "note": "Resposta comum ao 'Nice to meet you'."
+          },
+          {
+            "original": "Where are you from?",
+            "phonetic": "/wɛr ɑːr juː frʌm/",
+            "translation": "De onde você é?",
+            "note": "Pergunta comum após apresentações. Use 'from' no final."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤝",
+    "phonetic": "",
+    "translations": {
+      "pt": "Conhecendo pessoas novas"
+    }
+  },
+  {
+    "id": "pt_A1_conv_08",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "In a Café / En una cafetería",
+    "bridge": "Em inglês, para fazer pedidos educados em uma cafeteria, usamos 'I would like' ou 'Can I have' – diferente do português, onde usamos o verbo 'querer' diretamente (ex: 'Eu quero um café'). Cuidado com a ordem das palavras: em inglês, o adjetivo vem antes do substantivo (ex: 'a hot coffee', não 'a coffee hot'). Além disso, o uso de 'some' em frases afirmativas (ex: 'some water') é comum, enquanto em português muitas vezes usamos 'um pouco de' ou podemos omitir o artigo.",
+    "rule": "Para pedir algo em uma cafeteria, use 'I would like' (Eu gostaria) seguido de 'a' ou 'an' para itens contáveis (ex: a sandwich) ou 'some' para incontáveis (ex: some water). Também é comum usar 'Can I have' (Posso ter). Forma negativa: 'I wouldn't like' (eu não gostaria) ou 'No, thank you'. Para perguntar o que alguém quer, use 'What would you like?' ou 'Can I get you anything?'. Lembre-se de que 'would like' é mais educado que 'want'. A estrutura da frase é: Sujeito + would like + substantivo (com artigo ou some), por exemplo: 'I would like a coffee.'",
+    "concept_examples": [
+      {
+        "text": "I would like a cup of tea, please.",
+        "translation": "Eu gostaria de uma xícara de chá, por favor.",
+        "phonetic": "/aɪ ˈwʊd laɪk ə kʌp əv tiː pliːz/"
+      },
+      {
+        "text": "Can I have a sandwich?",
+        "translation": "Posso ter um sanduíche?",
+        "phonetic": "/kæn aɪ hæv ə ˈsænwɪdʒ/"
+      },
+      {
+        "text": "Could I get some water?",
+        "translation": "Eu poderia pegar um pouco de água?",
+        "phonetic": "/kʊd aɪ ɡet sʌm ˈwɔːtər/"
+      },
+      {
+        "text": "What would you like to drink?",
+        "translation": "O que você gostaria de beber?",
+        "phonetic": "/wɒt wʊd ju laɪk tə drɪŋk/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I want a coffee hot.",
+      "correct": "I would like a hot coffee.",
+      "correct_alt": "Can I have a hot coffee?",
+      "explanation": "O erro comum é colocar o adjetivo depois do substantivo (como no português 'um café quente') e usar 'want' que é direto demais. Em inglês, adjetivos vêm antes do substantivo, e em situações educadas use 'would like' ou 'can I have'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic Requests",
+        "translation": "Pedidos básicos",
+        "examples": [
+          {
+            "original": "I would like a coffee.",
+            "phonetic": "/aɪ ˈwʊd laɪk ə ˈkɒfi/",
+            "translation": "Eu gostaria de um café.",
+            "note": "Use 'a' com substantivos contáveis (como 'coffee' quando se refere a uma xícara)."
+          },
+          {
+            "original": "Can I have a tea?",
+            "phonetic": "/kæn aɪ hæv ə tiː/",
+            "translation": "Posso ter um chá?",
+            "note": "'Can I have' é uma forma comum de pedir. Lembre-se de usar 'a' para itens contáveis."
+          },
+          {
+            "original": "Some water, please.",
+            "phonetic": "/sʌm ˈwɔːtər pliːz/",
+            "translation": "Um pouco de água, por favor.",
+            "note": "Para líquidos e itens incontáveis, use 'some' em frases afirmativas."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Orders with Adjectives",
+        "translation": "Pedidos com adjetivos",
+        "examples": [
+          {
+            "original": "A hot chocolate, please.",
+            "phonetic": "/ə hɒt ˈtʃɒklət pliːz/",
+            "translation": "Um chocolate quente, por favor.",
+            "note": "Coloque o adjetivo antes do substantivo: 'hot chocolate' e não 'chocolate hot'."
+          },
+          {
+            "original": "I would like a black coffee.",
+            "phonetic": "/aɪ ˈwʊd laɪk ə blæk ˈkɒfi/",
+            "translation": "Eu gostaria de um café preto.",
+            "note": "'Black' é um adjetivo comum para café. A ordem é: adjetivo + substantivo."
+          },
+          {
+            "original": "A large orange juice, please.",
+            "phonetic": "/ə lɑːdʒ ˈɒrɪndʒ dʒuːs pliːz/",
+            "translation": "Um suco de laranja grande, por favor.",
+            "note": "Aqui 'large' (tamanho) vem antes do sabor 'orange'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Polite Questions and Responses",
+        "translation": "Perguntas e respostas educadas",
+        "examples": [
+          {
+            "original": "What would you like to drink?",
+            "phonetic": "/wɒt wʊd ju laɪk tə drɪŋk/",
+            "translation": "O que você gostaria de beber?",
+            "note": "Use essa pergunta para perguntar a preferência de alguém. É mais educado que 'What do you want?'"
+          },
+          {
+            "original": "I'd like a cappuccino, please.",
+            "phonetic": "/aɪd laɪk ə ˌkæpʊˈtʃiːnəʊ pliːz/",
+            "translation": "Eu gostaria de um cappuccino, por favor.",
+            "note": "'I'd like' é a forma contraída de 'I would like'. Muito comum em conversas."
+          },
+          {
+            "original": "Would you like some sugar?",
+            "phonetic": "/wʊd ju laɪk sʌm ˈʃʊɡər/",
+            "translation": "Você gostaria de um pouco de açúcar?",
+            "note": "Ao oferecer algo, use 'would you like' + 'some'."
+          },
+          {
+            "original": "No, thank you.",
+            "phonetic": "/nəʊ θæŋk juː/",
+            "translation": "Não, obrigado(a).",
+            "note": "Resposta educada para recusar algo."
+          }
+        ]
+      }
+    ],
+    "emoji": "☕",
+    "phonetic": "",
+    "translations": {
+      "pt": "Em uma cafeteria"
+    }
+  },
+  {
+    "id": "pt_A1_conv_09",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Phone and Messaging Basics / Telefone e Mensagens Básicas",
+    "bridge": "Em inglês, ao falar ao telefone, usamos expressões fixas como 'Hello?' para atender e 'This is...' para se apresentar, diferente do português, onde dizemos 'Alô?' ou 'É o/a...'. Outra diferença importante é que em inglês os números de telefone são ditos dígito por dígito, e o '0' é pronunciado como 'oh', enquanto em português costumamos falar 'zero'. Além disso, ao escrever mensagens, os ingleses usam contrações como 'I'm' e 'don't', que são menos comuns na escrita formal em português.",
+    "rule": "Para atender o telefone: diga 'Hello?' (com entonação de pergunta). Para se apresentar: use 'This is [nome]' (ex: 'This is Maria'). Para perguntar com quem fala: 'Who is this?' (não use 'Who are you?' que é mais direto). Para pedir para falar com alguém: 'Can I speak to [nome], please?' Para deixar recado: 'Can I leave a message?' O verbo 'to call' (ligar) e 'to text' (enviar mensagem) são regulares: 'I call', 'you call', etc. Nas mensagens, use contrações comuns: 'I'm' (I am), 'you're' (you are), 'don't' (do not), 'can't' (cannot). Números de telefone são falados dígito a dígito, e o 0 pode ser 'zero' ou 'oh'. Para perguntar o número: 'What's your phone number?'",
+    "concept_examples": [
+      {
+        "text": "Hello? Who is this?",
+        "translation": "Alô? Quem está falando?",
+        "phonetic": "/həˈloʊ? huː ɪz ðɪs?/"
+      },
+      {
+        "text": "Hi, this is John. Can I speak to Maria?",
+        "translation": "Oi, aqui é o John. Posso falar com a Maria?",
+        "phonetic": "/haɪ, ðɪs ɪz dʒɑːn. kæn aɪ spiːk tuː məˈriːə?/"
+      },
+      {
+        "text": "I'm sorry, she's not here. Can I leave a message?",
+        "translation": "Sinto muito, ela não está aqui. Posso deixar um recado?",
+        "phonetic": "/aɪm ˈsɑːri, ʃiːz nɑːt hɪr. kæn aɪ liːv ə ˈmɛsɪdʒ?/"
+      },
+      {
+        "text": "What's your phone number? It's 555-0192.",
+        "translation": "Qual é o seu número de telefone? É 555-0192.",
+        "phonetic": "/wʌts jɔːr foʊn ˈnʌmbər? ɪts faɪv faɪv faɪv oʊ wʌn naɪn tuː./"
+      }
+    ],
+    "common_error": {
+      "wrong": "Who are you?",
+      "correct": "Who is this?",
+      "correct_alt": "Who am I speaking to?",
+      "explanation": "Em português, perguntamos 'Quem é você?' ao telefone, mas em inglês, 'Who are you?' é muito direto e até rude. A forma educada e correta é 'Who is this?' (literalmente 'Quem é este?', referindo-se à pessoa do outro lado). Outra opção é 'Who am I speaking to?' (Com quem estou falando?). Lembre-se: ao telefone, usamos 'this' para a pessoa que fala e 'that' para a pessoa que ouve, mas na prática, apenas 'this' é usado na pergunta."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Answering the Phone",
+        "translation": "Atender o Telefone",
+        "examples": [
+          {
+            "original": "Hello?",
+            "phonetic": "/həˈloʊ?/",
+            "translation": "Alô?",
+            "note": "Use 'Hello?' com entonação de pergunta ao atender. Não use 'Alô?' como em português."
+          },
+          {
+            "original": "Hi, this is Ana.",
+            "phonetic": "/haɪ, ðɪs ɪz ˈænə/",
+            "translation": "Oi, aqui é a Ana.",
+            "note": "Para se apresentar, use 'This is [nome]'. Não diga 'I am Ana' ao telefone, embora seja gramatical, não é o uso natural."
+          },
+          {
+            "original": "Can I speak to Pedro?",
+            "phonetic": "/kæn aɪ spiːk tuː ˈpeɪdroʊ?/",
+            "translation": "Posso falar com o Pedro?",
+            "note": "Use 'Can I speak to...' para pedir para falar com alguém. É educado e comum."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Leaving a Message",
+        "translation": "Deixar um Recado",
+        "examples": [
+          {
+            "original": "I'm sorry, she's not here.",
+            "phonetic": "/aɪm ˈsɑːri, ʃiːz nɑːt hɪr./",
+            "translation": "Sinto muito, ela não está aqui.",
+            "note": "Use 'I'm sorry' para se desculpar, e 'not here' para dizer que a pessoa não está. Contrações 'I'm' e 'she's' são muito comuns."
+          },
+          {
+            "original": "Can I leave a message?",
+            "phonetic": "/kæn aɪ liːv ə ˈmɛsɪdʒ?/",
+            "translation": "Posso deixar um recado?",
+            "note": "Verbo 'leave' (deixar) é usado para recados. Em português, 'deixar um recado' é similar, mas note a ordem das palavras."
+          },
+          {
+            "original": "Please tell him I called.",
+            "phonetic": "/pliːz tɛl hɪm aɪ kɔːld./",
+            "translation": "Por favor, diga a ele que eu liguei.",
+            "note": "Use 'tell [pessoa]' para pedir que transmitam um recado. 'Called' é o passado de 'call'."
+          },
+          {
+            "original": "No problem, goodbye.",
+            "phonetic": "/noʊ ˈprɑːbləm, ɡʊdˈbaɪ./",
+            "translation": "Sem problema, tchau.",
+            "note": "'Goodbye' é mais formal que 'bye'. No telefone, 'bye' é comum."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Texting and Numbers",
+        "translation": "Mensagens e Números",
+        "examples": [
+          {
+            "original": "What's your phone number?",
+            "phonetic": "/wʌts jɔːr foʊn ˈnʌmbər?/",
+            "translation": "Qual é o seu número de telefone?",
+            "note": "Use 'What's' para perguntar. Note que 'phone number' é duas palavras, diferente de 'telefone' em português."
+          },
+          {
+            "original": "It's 555-0192.",
+            "phonetic": "/ɪts faɪv faɪv faɪv oʊ wʌn naɪn tuː./",
+            "translation": "É 555-0192.",
+            "note": "Cada dígito é falado separadamente. O '0' pode ser dito como 'oh'. No exemplo, '0' é 'oh'."
+          },
+          {
+            "original": "I'll text you later.",
+            "phonetic": "/aɪl tɛkst juː ˈleɪtər./",
+            "translation": "Vou te mandar mensagem mais tarde.",
+            "note": "'Text' como verbo significa enviar mensagem de texto. 'I'll' é contração de 'I will'."
+          },
+          {
+            "original": "Call me when you're free.",
+            "phonetic": "/kɔːl miː wɛn jʊr friː./",
+            "translation": "Me ligue quando você estiver livre.",
+            "note": "Use 'call me' para pedir que liguem. 'You're' é contração de 'you are'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📱",
+    "phonetic": "",
+    "translations": {
+      "pt": "Telefone e Mensagens Básicas"
+    }
+  },
+  {
+    "id": "pt_A1_conv_10",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Emergency Phrases / Frases de emergência",
+    "bridge": "Em português, para pedir ajuda frequentemente usamos o verbo 'precisar' (ex.: 'Preciso de ajuda'), mas em inglês a estrutura é 'I need help' – sem a preposição 'de'. Outra diferença importante: os verbos modais 'can' e 'could' têm formas específicas para pedidos – em português usamos 'pode' ou 'poderia' de forma mais flexível. Além disso, o imperativo em inglês é mais direto (ex.: 'Call an ambulance!'), enquanto em português costumamos usar 'Chame uma ambulância!' com a mesma estrutura, mas cuidado com a posição dos pronomes.",
+    "rule": "Em situações de emergência, as frases em inglês tendem a ser curtas e diretas. Use 'I need' + substantivo (ex.: 'I need help') ou 'I need' + verbo (ex.: 'I need to call'). Para pedidos, use 'Can you...?' (informal) ou 'Could you...?' (mais polido) seguido do verbo. Para urgência, use o imperativo (ex.: 'Call 911!', 'Stop!'). Lembre-se: em inglês não se usa preposição após 'need' (diferente do português 'preciso de'). Aprenda também números e palavras-chave: 'police', 'fire', 'hospital', 'medicine', 'accident'.",
+    "concept_examples": [
+      {
+        "text": "I need help.",
+        "translation": "Eu preciso de ajuda.",
+        "phonetic": "/aɪ niːd hɛlp/"
+      },
+      {
+        "text": "Can you call an ambulance?",
+        "translation": "Você pode chamar uma ambulância?",
+        "phonetic": "/kæn juː kɔːl æn ˈæmbjələns/"
+      },
+      {
+        "text": "Where is the hospital?",
+        "translation": "Onde fica o hospital?",
+        "phonetic": "/wɛr ɪz ðə ˈhɑːspɪtl/"
+      },
+      {
+        "text": "Call the police!",
+        "translation": "Chame a polícia!",
+        "phonetic": "/kɔːl ðə pəˈliːs/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I need of help.",
+      "correct": "I need help.",
+      "correct_alt": "I need some help.",
+      "explanation": "O erro ocorre porque em português dizemos 'preciso DE ajuda', mas em inglês o verbo 'need' é transitivo direto e não exige preposição. Para evitar, memorize que 'need' + substantivo ou 'need to' + verbo, sem 'of'. Outra opção é usar 'I need some help' para suavizar."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic Needs",
+        "translation": "Necessidades básicas",
+        "examples": [
+          {
+            "original": "I need help.",
+            "phonetic": "/aɪ niːd hɛlp/",
+            "translation": "Eu preciso de ajuda.",
+            "note": "Use esta frase quando precisar de assistência geral."
+          },
+          {
+            "original": "I need water.",
+            "phonetic": "/aɪ niːd ˈwɔːtər/",
+            "translation": "Eu preciso de água.",
+            "note": "Memorize: 'I need' + substantivo, sem preposição."
+          },
+          {
+            "original": "I need a doctor.",
+            "phonetic": "/aɪ niːd ə ˈdɑːktər/",
+            "translation": "Eu preciso de um médico.",
+            "note": "Atenção ao artigo indefinido 'a' antes de palavras que começam com consoante."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Asking for Help",
+        "translation": "Pedindo ajuda",
+        "examples": [
+          {
+            "original": "Can you help me?",
+            "phonetic": "/kæn juː hɛlp miː/",
+            "translation": "Você pode me ajudar?",
+            "note": "'Can' é usado para pedidos informais; é a forma mais comum."
+          },
+          {
+            "original": "Could you call a taxi?",
+            "phonetic": "/kʊd juː kɔːl ə ˈtæksi/",
+            "translation": "Você poderia chamar um táxi?",
+            "note": "'Could' é mais polido que 'can' e adequado para desconhecidos."
+          },
+          {
+            "original": "Please, I need help.",
+            "phonetic": "/pliːz aɪ niːd hɛlp/",
+            "translation": "Por favor, eu preciso de ajuda.",
+            "note": "Adicione 'please' para ser educado; note a vírgula em inglês."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Urgent Situations",
+        "translation": "Situações urgentes",
+        "examples": [
+          {
+            "original": "Call an ambulance!",
+            "phonetic": "/kɔːl æn ˈæmbjələns/",
+            "translation": "Chame uma ambulância!",
+            "note": "Use o imperativo para pedir ação imediata. 'An' antes de vogal."
+          },
+          {
+            "original": "There is an accident.",
+            "phonetic": "/ðɛr ɪz æn ˈæksɪdənt/",
+            "translation": "Há um acidente.",
+            "note": "'There is' para singular; 'there are' para plural."
+          },
+          {
+            "original": "I am lost.",
+            "phonetic": "/aɪ æm lɔːst/",
+            "translation": "Eu estou perdido.",
+            "note": "Não diga 'I am losted' – o particípio passado de 'lose' é 'lost'."
+          },
+          {
+            "original": "Fire! Help!",
+            "phonetic": "/ˈfaɪər hɛlp/",
+            "translation": "Fogo! Socorro!",
+            "note": "Em emergências, grite 'Fire!' e 'Help!' – são palavras de alerta."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚨",
+    "phonetic": "",
+    "translations": {
+      "pt": "Frases de emergência"
     }
   }
 ]

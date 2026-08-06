@@ -186,5 +186,2214 @@
       "vocabulary": [],
       "dialogue": []
     }
+  },
+  {
+    "id": "es_A1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Sein – Verbo ser/estar",
+    "bridge": "En alemán, el verbo 'sein' cubre tanto 'ser' como 'estar', igual que en español, pero su conjugación es muy irregular. A diferencia del español, en alemán no se omite el sujeto: siempre debe aparecer 'ich', 'du', 'er', etc. Además, el alemán no usa el verbo 'estar' para estados temporales como 'estoy cansado' (ich bin müde), pero sí distingue entre 'wohnen' (vivir) y 'sein' (estar) en contextos de ubicación.",
+    "rule": "El verbo 'sein' es el equivalente de 'ser' y 'estar'. Se conjuga de forma irregular en presente: ich bin (yo soy/estoy), du bist (tú eres/estás), er/sie/es ist (él/ella/eso es/está), wir sind (nosotros somos/estamos), ihr seid (vosotros sois/estáis), sie/Sie sind (ellos son/están / usted es/está). Se usa para: identidad (Ich bin Ana), profesión (Er ist Arzt), origen (Wir sind aus Spanien), ubicación (Die Katze ist im Haus), estados físicos y emocionales (Ich bin müde), y características permanentes (Das Auto ist rot). A diferencia del español, no existe diferencia entre ser y estar; el contexto y los adjetivos determinan el matiz. Recuerda que el sujeto siempre está presente, aunque el contexto lo aclare.",
+    "concept_examples": [
+      {
+        "text": "Ich bin müde.",
+        "translation": "Estoy cansado.",
+        "phonetic": "ɪç bɪn ˈmyːdə"
+      },
+      {
+        "text": "Du bist mein Freund.",
+        "translation": "Tú eres mi amigo.",
+        "phonetic": "duː bɪst maɪn frɔɪnt"
+      },
+      {
+        "text": "Er ist hier.",
+        "translation": "Él está aquí.",
+        "phonetic": "eːɐ ɪst hiːɐ"
+      },
+      {
+        "text": "Wir sind in Berlin.",
+        "translation": "Estamos en Berlín.",
+        "phonetic": "viːɐ zɪnt ɪn bɛʁˈliːn"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo soy contento.",
+      "correct": "Ich bin glücklich.",
+      "correct_alt": "Ich bin froh.",
+      "explanation": "Los hispanohablantes tienden a traducir literalmente 'yo soy contento' omitiendo el sujeto. En alemán, el sujeto es obligatorio: 'ich' no se puede omitir. Además, 'contento' como estado emocional temporal se expresa con 'glücklich' o 'froh', no con 'zufrieden' (que es más bien satisfecho). La estructura es 'pronombre + bin + adjetivo', sin artículo indefinido."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Präsens von sein",
+        "translation": "Presente de sein",
+        "examples": [
+          {
+            "original": "Ich bin Student.",
+            "phonetic": "ɪç bɪn ʃtuˈdɛnt",
+            "translation": "Soy estudiante.",
+            "note": "Se usa 'bin' para la primera persona; no se dice 'yo soy' omitiendo el sujeto."
+          },
+          {
+            "original": "Du bist Spanier.",
+            "phonetic": "duː bɪst ˈʃpaːni̯ɐ",
+            "translation": "Tú eres español.",
+            "note": "'Du' es informal singular; para respeto se usa 'Sie sind'."
+          },
+          {
+            "original": "Er ist Lehrer.",
+            "phonetic": "eːɐ ɪst ˈleːʁɐ",
+            "translation": "Él es profesor.",
+            "note": "Las profesiones van sin artículo en singular."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Sein für Zustände",
+        "translation": "Sein para estados",
+        "examples": [
+          {
+            "original": "Ich bin krank.",
+            "phonetic": "ɪç bɪn kʁaŋk",
+            "translation": "Estoy enfermo.",
+            "note": "'Krank' es un estado temporal; no se usa 'estar' como en español."
+          },
+          {
+            "original": "Wir sind zufrieden.",
+            "phonetic": "viːɐ zɪnt tsuˈfʁiːdən",
+            "translation": "Estamos satisfechos.",
+            "note": "'Zufrieden' se usa para satisfacción, no para felicidad momentánea."
+          },
+          {
+            "original": "Sie ist glücklich.",
+            "phonetic": "ziː ɪst ˈɡlʏklɪç",
+            "translation": "Ella es feliz.",
+            "note": "'Glücklich' puede ser estado o rasgo; aquí puede interpretarse como 'es feliz'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Sein für Ort und Herkunft",
+        "translation": "Sein para lugar y origen",
+        "examples": [
+          {
+            "original": "Ich bin aus Mexiko.",
+            "phonetic": "ɪç bɪn aʊs ˈmɛksiko",
+            "translation": "Soy de México.",
+            "note": "Para origen se usa 'aus' + país, no 'de' como en español."
+          },
+          {
+            "original": "Das Buch ist auf dem Tisch.",
+            "phonetic": "das buːx ɪst aʊf deːm tɪʃ",
+            "translation": "El libro está sobre la mesa.",
+            "note": "'Auf' indica superficie; recuerda que el verbo es 'sein' para ubicación."
+          },
+          {
+            "original": "Sie sind im Kaufhaus.",
+            "phonetic": "ziː zɪnt ɪm ˈkaʊfhaʊs",
+            "translation": "Ellos están en los grandes almacenes.",
+            "note": "La contracción 'im' (in + dem) es común; significa 'en el'."
+          }
+        ]
+      }
+    ],
+    "emoji": "➡️",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbo ser/estar (sein)"
+    }
+  },
+  {
+    "id": "es_A1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Personalpronomen / Pronombres personales",
+    "bridge": "En español, los pronombres personales a menudo se omiten porque la terminación del verbo indica quién actúa. En alemán, los pronombres son obligatorios: siempre deben acompañar al verbo, aunque la forma verbal ya indique la persona. Además, el alemán distingue entre 'du' (tú informal) e 'ihr' (vosotros informal), y usa 'Sie' (usted/ustedes) como forma de cortesía, que siempre se escribe con mayúscula. Otra diferencia clave: 'es' (ello) se usa para género neutro, algo que no existe en español.",
+    "rule": "Los pronombres personales en alemán en nominativo son: ich (yo), du (tú, informal singular), er (él), sie (ella), es (ello, para sustantivos neutros), wir (nosotros), ihr (vosotros, informal plural), sie (ellos/ellas) y Sie (usted/ustedes, forma de cortesía, siempre con mayúscula). Se usan siempre antes del verbo conjugado, aunque el verbo ya indique la persona. Para A1, es esencial memorizar la conjugación: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. El pronombre 'es' también se usa como sujeto impersonal en expresiones como 'es regnet' (llueve) o 'es ist kalt' (hace frío). No olvides que 'sie' (ella) y 'sie' (ellos) se escriben igual, pero el verbo conjugado indica el número: sie ist (ella es) vs. sie sind (ellos son).",
+    "concept_examples": [
+      {
+        "text": "Ich bin María.",
+        "translation": "Yo soy María.",
+        "phonetic": "ɪç bɪn maˈʁiːa"
+      },
+      {
+        "text": "Du bist mein Freund.",
+        "translation": "Tú eres mi amigo.",
+        "phonetic": "duː bɪst maɪn fʁɔʏnt"
+      },
+      {
+        "text": "Sie ist aus Spanien.",
+        "translation": "Ella es de España.",
+        "phonetic": "ziː ɪst aʊs ˈʃpaːni̯ən"
+      },
+      {
+        "text": "Wir lernen Deutsch.",
+        "translation": "Nosotros aprendemos alemán.",
+        "phonetic": "viːɐ̯ ˈlɛʁnən dɔʏtʃ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Er ist Juan y estudia.",
+      "correct": "Er ist Juan und er studiert.",
+      "correct_alt": "Er ist Juan und studiert.",
+      "explanation": "En español, es normal omitir el pronombre en la segunda parte de la oración ('y estudia'), pero en alemán, aunque el verbo conjugado indique la persona, la omisión suena incompleta y poco natural. Para evitar este error, recuerda que el pronombre debe repetirse cuando cambia el verbo o para enfatizar. Aunque en algunos casos se puede omitir en oraciones coordinadas, en A1 es más seguro incluir el pronombre siempre."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "ich, du, er/sie/es",
+        "translation": "yo, tú, él/ella/ello",
+        "examples": [
+          {
+            "original": "Ich heiße Anna.",
+            "phonetic": "ɪç ˈhaɪsə ˈana",
+            "translation": "Me llamo Anna.",
+            "note": "Usa 'ich' para hablar de ti mismo. En alemán, a diferencia del español, el pronombre no se omite."
+          },
+          {
+            "original": "Du bist nett.",
+            "phonetic": "duː bɪst nɛt",
+            "translation": "Tú eres amable.",
+            "note": "'du' es para el trato informal con una sola persona, como 'tú' en español."
+          },
+          {
+            "original": "Er kommt aus Mexiko.",
+            "phonetic": "eːɐ̯ kɔmt aʊs ˈmɛksiko",
+            "translation": "Él viene de México.",
+            "note": "Para hombres o sustantivos masculinos. Observa la terminación '-t' del verbo."
+          },
+          {
+            "original": "Sie ist Lehrerin.",
+            "phonetic": "ziː ɪst ˈleːʁəʁɪn",
+            "translation": "Ella es maestra.",
+            "note": "'sie' con minúscula significa 'ella', pero también 'ellos' (ver nivel 3)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "wir, ihr, Sie",
+        "translation": "nosotros, vosotros, usted/ustedes",
+        "examples": [
+          {
+            "original": "Wir sind Studenten.",
+            "phonetic": "viːɐ̯ zɪnt ʃtuˈdɛntn̩",
+            "translation": "Nosotros somos estudiantes.",
+            "note": "'wir' es idéntico al español 'nosotros'. Se usa siempre, incluso si el verbo lo aclara."
+          },
+          {
+            "original": "Ihr habt eine Frage.",
+            "phonetic": "iːɐ̯ hapt ˈaɪnə ˈfʁaːɡə",
+            "translation": "Vosotros tenéis una pregunta.",
+            "note": "'ihr' es el plural de 'du', como 'vosotros' en España. No confundir con 'er' (él)."
+          },
+          {
+            "original": "Sie sind Herr Schmidt.",
+            "phonetic": "ziː zɪnt hɛʁ ʃmɪt",
+            "translation": "Usted es el señor Schmidt.",
+            "note": "'Sie' con mayúscula es la forma de cortesía, tanto para 'usted' como para 'ustedes'. Siempre se escribe con mayúscula."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "er/sie/es y la forma impersonal",
+        "translation": "él/ella/ello y la forma impersonal",
+        "examples": [
+          {
+            "original": "Es ist ein Buch.",
+            "phonetic": "ɛs ɪst aɪn buːx",
+            "translation": "Es un libro.",
+            "note": "'es' se usa para sustantivos neutros (das Buch). No tiene equivalente en español, pero se traduce como 'ello'."
+          },
+          {
+            "original": "Es regnet.",
+            "phonetic": "ɛs ˈʁeːɡnət",
+            "translation": "Llueve.",
+            "note": "En español usamos una oración impersonal sin sujeto; en alemán, se usa 'es' como sujeto obligatorio."
+          },
+          {
+            "original": "Sie sind aus Deutschland.",
+            "phonetic": "ziː zɪnt aʊs ˈdɔʏtʃlant",
+            "translation": "Ellos son de Alemania.",
+            "note": "'sie' (ellos) se escribe igual que 'sie' (ella), pero el verbo está en plural. Fíjate en el contexto."
+          }
+        ]
+      }
+    ],
+    "emoji": "👤",
+    "phonetic": "",
+    "translations": {
+      "es": "Pronombres personales"
+    }
+  },
+  {
+    "id": "es_A1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Der bestimmte und unbestimmte Artikel (El artículo definido e indefinido)",
+    "bridge": "En español, decimos 'el', 'la', 'los', 'las' para artículos definidos, y 'un', 'una', 'unos', 'unas' para indefinidos. En alemán, el artículo cambia no solo por género (masculino, femenino, neutro) sino también por caso (nominativo, acusativo, dativo, genitivo). A diferencia del español, el alemán tiene un artículo neutro 'das' y usa un sistema de casos que modifica los artículos según su función en la oración, algo que no existe en español. Además, los artículos indefinidos no tienen plural en alemán.",
+    "rule": "En alemán, los artículos concuerdan con el género (maskulin, feminin, neutral), el número (singular, plural) y el caso (Nominativ, Akkusativ, Dativ, Genitiv). Para A1, es esencial dominar los casos nominativo y acusativo. En nominativo: der (masculino), die (femenino), das (neutro), die (plural) para definidos; ein (masculino), eine (femenino), ein (neutro) para indefinidos (sin plural). En acusativo, el único cambio es en masculino: der se convierte en den, y ein se convierte en einen. El artículo indefinido negativo se forma con 'kein' (para masculino/neutro) y 'keine' (para femenino). Aprende a identificar el género de los sustantivos (por ejemplo, los que terminan en -ung, -heit, -keit suelen ser femeninos; los que terminan en -er suelen ser masculinos) y memoriza los artículos desde el principio, porque son fundamentales para el caso y la concordancia.",
+    "concept_examples": [
+      {
+        "text": "Der Mann ist hier.",
+        "translation": "El hombre está aquí.",
+        "phonetic": "[deːɐ̯ man ɪst hiːɐ̯]"
+      },
+      {
+        "text": "Ich sehe den Mann.",
+        "translation": "Yo veo al hombre.",
+        "phonetic": "[ɪç zeːə deːn man]"
+      },
+      {
+        "text": "Das ist eine Frau.",
+        "translation": "Esa es una mujer.",
+        "phonetic": "[das ɪst ˈaɪnə fʁaʊ̯]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich habe ein Bruder.",
+      "correct": "Ich habe einen Bruder.",
+      "correct_alt": "Ich habe ein Geschwister.",
+      "explanation": "En español, 'un hermano' usa un artículo indefinido que no cambia con el verbo 'tener'. En alemán, el verbo 'haben' (tener) exige acusativo, y el artículo indefinido masculino 'ein' cambia a 'einen'. Por eso, es común olvidar la terminación '-en'. Para evitarlo, recuerda que en acusativo solo el masculino cambia a 'den' y 'einen'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Der bestimmte Artikel (Nominativ)",
+        "translation": "El artículo definido (nominativo)",
+        "examples": [
+          {
+            "original": "Der Hund ist klein.",
+            "phonetic": "[deːɐ̯ hʊnt ɪst klaɪ̯n]",
+            "translation": "El perro es pequeño.",
+            "note": "Aquí 'der' es masculino en nominativo (sujeto)."
+          },
+          {
+            "original": "Die Katze schläft.",
+            "phonetic": "[diː ˈkatsə ʃlɛːft]",
+            "translation": "La gata duerme.",
+            "note": "'Die' se usa para femenino singular en nominativo."
+          },
+          {
+            "original": "Das Buch ist neu.",
+            "phonetic": "[das buːx ɪst nɔɪ̯]",
+            "translation": "El libro es nuevo.",
+            "note": "'Das' es el artículo neutro."
+          },
+          {
+            "original": "Die Kinder spielen.",
+            "phonetic": "[diː ˈkɪndɐ ˈʃpiːlən]",
+            "translation": "Los niños juegan.",
+            "note": "El plural 'die' se usa para todos los géneros."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Der unbestimmte Artikel (Nominativ)",
+        "translation": "El artículo indefinido (nominativo)",
+        "examples": [
+          {
+            "original": "Ein Mann kommt.",
+            "phonetic": "[aɪ̯n man kɔmt]",
+            "translation": "Un hombre viene.",
+            "note": "'Ein' para masculino, como 'un' en español."
+          },
+          {
+            "original": "Eine Frau lacht.",
+            "phonetic": "[ˈaɪnə fʁaʊ̯ laxt]",
+            "translation": "Una mujer ríe.",
+            "note": "La terminación '-e' indica femenino."
+          },
+          {
+            "original": "Ein Kind weint.",
+            "phonetic": "[aɪ̯n kɪnt vaɪ̯nt]",
+            "translation": "Un niño llora.",
+            "note": "Para neutro también se usa 'ein' sin terminación."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Der Akkusativ",
+        "translation": "El acusativo",
+        "examples": [
+          {
+            "original": "Ich sehe den Tisch.",
+            "phonetic": "[ɪç zeːə deːn tɪʃ]",
+            "translation": "Yo veo la mesa.",
+            "note": "El masculino 'der' cambia a 'den' en acusativo (objeto directo)."
+          },
+          {
+            "original": "Er kauft einen Apfel.",
+            "phonetic": "[eːɐ̯ kaʊ̯ft ˈaɪnən ˈap͡fl̩]",
+            "translation": "Él compra una manzana.",
+            "note": "El indefinido 'ein' se convierte en 'einen' para masculino acusativo."
+          },
+          {
+            "original": "Sie mag die Musik.",
+            "phonetic": "[ziː maːk diː muˈziːk]",
+            "translation": "A ella le gusta la música.",
+            "note": "Femenino y plural no cambian en acusativo."
+          },
+          {
+            "original": "Wir trinken das Wasser.",
+            "phonetic": "[viːɐ̯ ˈtʁɪŋkən das ˈvasɐ]",
+            "translation": "Nosotros bebemos el agua.",
+            "note": "El artículo neutro permanece 'das' en acusativo."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "es": "Artículos definidos e indefinidos"
+    }
+  },
+  {
+    "id": "es_A1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Geschlecht und Zahl der Nomen / Género y número de los sustantivos",
+    "bridge": "En español, el género de los sustantivos suele ser masculino o femenino y, a menudo, se deduce de la terminación (-o/-a). En alemán, hay tres géneros: masculino, femenino y neutro, y no siempre hay una regla clara. Además, el artículo (der/die/das) cambia con el género, y en plural todos los géneros usan 'die'. A diferencia del español, el plural en alemán tiene varias formas (por ejemplo, añadir -e, -er, -n, o no cambiar), lo que requiere memorización.",
+    "rule": "En alemán, cada sustantivo tiene un género gramatical: masculino (der), femenino (die) o neutro (das). El artículo definido en singular es: der (masculino), die (femenino), das (neutro). En plural, el artículo es siempre 'die', independientemente del género. Para A1, es esencial aprender cada sustantivo con su artículo. Hay algunas pistas: los sustantivos que terminan en -ung, -heit, -keit, -schaft suelen ser femeninos (die Zeitung, die Freiheit). Los sustantivos que terminan en -er, -en, -el suelen ser masculinos o neutros (der Lehrer, der Kuchen). Los diminutivos con -chen o -lein son neutros (das Mädchen). El plural se forma de varias maneras: añadiendo -e (der Tisch -> die Tische), -er (das Kind -> die Kinder), -n/-en (die Frau -> die Frauen), -s (das Auto -> die Autos), o sin cambio (das Mädchen -> die Mädchen). Algunos sustantivos cambian la vocal (der Vater -> die Väter). Para A1, se recomienda aprender el plural junto con el sustantivo, por ejemplo, 'der Mann, die Männer'.",
+    "concept_examples": [
+      {
+        "text": "Der Mann ist groß.",
+        "translation": "El hombre es grande.",
+        "phonetic": "/deːɐ̯ man ɪst ɡʁoːs/"
+      },
+      {
+        "text": "Die Frau ist nett.",
+        "translation": "La mujer es amable.",
+        "phonetic": "/diː fʁaʊ̯ ɪst nɛt/"
+      },
+      {
+        "text": "Das Kind spielt.",
+        "translation": "El niño juega.",
+        "phonetic": "/das kɪnt ʃpiːlt/"
+      },
+      {
+        "text": "Die Kinder spielen.",
+        "translation": "Los niños juegan.",
+        "phonetic": "/diː ˈkɪndɐ ˈʃpiːlən/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Der Frau ist nett.",
+      "correct": "Die Frau ist nett.",
+      "correct_alt": "",
+      "explanation": "En español, 'mujer' es femenino y usamos 'la'. En alemán, 'Frau' también es femenino, pero el artículo es 'die', no 'der'. El error ocurre porque el estudiante confunde 'der' (masculino) con 'la' (femenino) debido a la influencia del español. Para evitarlo, es crucial asociar cada sustantivo con su artículo desde el principio, por ejemplo, aprender 'die Frau' como una unidad."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Bestimmter Artikel im Singular (Artículo definido en singular)",
+        "translation": "Artículo definido en singular",
+        "examples": [
+          {
+            "original": "der Tisch",
+            "phonetic": "/deːɐ̯ tɪʃ/",
+            "translation": "la mesa",
+            "note": "Masculino: der. Recuerda que en español 'mesa' es femenino, pero en alemán es masculino. Aprende la palabra con su artículo."
+          },
+          {
+            "original": "die Lampe",
+            "phonetic": "/diː ˈlampə/",
+            "translation": "la lámpara",
+            "note": "Femenino: die. Muchas palabras que terminan en -e son femeninas, pero no siempre."
+          },
+          {
+            "original": "das Buch",
+            "phonetic": "/das buːx/",
+            "translation": "el libro",
+            "note": "Neutro: das. En español 'libro' es masculino, pero en alemán es neutro. No hay regla fija; memoriza."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pluralbildung (Formación del plural)",
+        "translation": "Formación del plural",
+        "examples": [
+          {
+            "original": "der Tisch – die Tische",
+            "phonetic": "/deːɐ̯ tɪʃ – diː ˈtɪʃə/",
+            "translation": "la mesa – las mesas",
+            "note": "Muchos sustantivos masculinos forman el plural añadiendo -e."
+          },
+          {
+            "original": "die Frau – die Frauen",
+            "phonetic": "/diː fʁaʊ̯ – diː ˈfʁaʊ̯ən/",
+            "translation": "la mujer – las mujeres",
+            "note": "Los femeninos suelen añadir -n o -en."
+          },
+          {
+            "original": "das Kind – die Kinder",
+            "phonetic": "/das kɪnt – diː ˈkɪndɐ/",
+            "translation": "el niño – los niños",
+            "note": "Algunos neutros añaden -er. Observa que el artículo en plural es siempre 'die'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Besonderheiten und Ausnahmen (Particularidades y excepciones)",
+        "translation": "Particularidades y excepciones",
+        "examples": [
+          {
+            "original": "der Mann – die Männer",
+            "phonetic": "/deːɐ̯ man – diː ˈmɛnɐ/",
+            "translation": "el hombre – los hombres",
+            "note": "Cambio de vocal (Umlaut) y terminación -er. Es una excepción común."
+          },
+          {
+            "original": "das Mädchen",
+            "phonetic": "/das ˈmɛːtçən/",
+            "translation": "la niña",
+            "note": "A pesar de que se refiere a una niña (femenino), es gramaticalmente neutro debido al sufijo -chen."
+          },
+          {
+            "original": "das Auto – die Autos",
+            "phonetic": "/das ˈaʊ̯to – diː ˈaʊ̯tos/",
+            "translation": "el auto – los autos",
+            "note": "Los extranjerismos suelen añadir -s en plural."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚻",
+    "phonetic": "",
+    "translations": {
+      "es": "Género y número de los sustantivos"
+    }
+  },
+  {
+    "id": "es_A1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Regelmäßige Verben im Präsens / Verbos regulares en presente",
+    "bridge": "En alemán, los verbos regulares en presente se conjugan de manera muy parecida al español: se quita la terminación -en del infinitivo y se añade una desinencia según la persona. Sin embargo, hay dos diferencias clave: no existe la forma progresiva (estoy hablando) y el verbo siempre ocupa la segunda posición en la oración, incluso en preguntas. Además, presta atención a las formas de 'du' y 'ihr', que no tienen equivalente directo en español (son tus/vosotros y vosotros, respectivamente).",
+    "rule": "En alemán, los verbos regulares en presente se conjugan de la siguiente manera: se toma el infinitivo (p.ej. 'machen' - hacer), se elimina la terminación -en (quedando 'mach-'), y se añade la desinencia correspondiente a cada persona: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. Ejemplos con 'machen': ich mache, du machst, er macht, wir machen, ihr macht, sie machen. Excepción: si la raíz termina en -t o -d (como en 'arbeiten'), se añade una 'e' antes de las desinencias -st y -t para facilitar la pronunciación: du arbeitest, er arbeitet. En oraciones afirmativas, el verbo conjugado va en segunda posición. En preguntas, va en primera posición. No se usan auxiliares para formar el presente continuo; el presente simple cubre ambos usos.",
+    "concept_examples": [
+      {
+        "text": "Ich lerne Deutsch.",
+        "translation": "Yo aprendo alemán.",
+        "phonetic": "[ɪç ˈlɛʁnə dɔɪ̯tʃ]"
+      },
+      {
+        "text": "Du spielst Fußball.",
+        "translation": "Tú juegas al fútbol.",
+        "phonetic": "[duː ʃpiːlst ˈfuːsbal]"
+      },
+      {
+        "text": "Er arbeitet in Berlin.",
+        "translation": "Él trabaja en Berlín.",
+        "phonetic": "[eːɐ̯ ˈaʁbaɪ̯tət ɪn bɛʁˈliːn]"
+      },
+      {
+        "text": "Wir tanzen gern.",
+        "translation": "Nosotros bailamos con gusto.",
+        "phonetic": "[viːɐ̯ ˈtantsn̩ ɡɛʁn]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich machest Hausaufgaben.",
+      "correct": "Ich mache Hausaufgaben.",
+      "correct_alt": "Ich mache meine Hausaufgaben.",
+      "explanation": "Los hispanohablantes a menudo añaden una 's' extra en la primera persona del singular (yo) porque en español decimos 'hago', no 'hagost'. En alemán, la terminación correcta para 'ich' es '-e' solamente. Evita transferir las desinencias del español al alemán."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Grundverbkonjugation",
+        "translation": "Conjugación básica de verbos",
+        "examples": [
+          {
+            "original": "Ich wohne in Madrid.",
+            "phonetic": "[ɪç ˈvoːnə ɪn maˈdʁɪt]",
+            "translation": "Yo vivo en Madrid.",
+            "note": "Observa la terminación '-e' para 'ich'."
+          },
+          {
+            "original": "Du lernst Spanisch.",
+            "phonetic": "[duː lɛʁnst ˈʃpaːnɪʃ]",
+            "translation": "Tú estudias español.",
+            "note": "La terminación '-st' se usa solo con 'du'."
+          },
+          {
+            "original": "Er kauft Brot.",
+            "phonetic": "[eːɐ̯ kaʊ̯ft bʁoːt]",
+            "translation": "Él compra pan.",
+            "note": "Para 'er/sie/es' se usa '-t' (reemplaza la terminación del infinitivo)."
+          },
+          {
+            "original": "Wir spielen Tennis.",
+            "phonetic": "[viːɐ̯ ˈʃpiːlən ˈtɛnɪs]",
+            "translation": "Nosotros jugamos al tenis.",
+            "note": "'Wir' usa la misma terminación que el infinitivo: '-en'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verben mit besonderen Formen",
+        "translation": "Verbos con formas especiales",
+        "examples": [
+          {
+            "original": "Du arbeitest heute.",
+            "phonetic": "[duː ˈaʁbaɪ̯təst ˈhɔʏ̯tə]",
+            "translation": "Tú trabajas hoy.",
+            "note": "Se añade 'e' antes de '-st' porque la raíz termina en 't'."
+          },
+          {
+            "original": "Er redet viel.",
+            "phonetic": "[eːɐ̯ ˈʁeːdət fiːl]",
+            "translation": "Él habla mucho.",
+            "note": "Igual con raíz en 'd': 'red-e-t' en lugar de 'red-t'."
+          },
+          {
+            "original": "Ihr tanzt gut.",
+            "phonetic": "[iːɐ̯ tantst ɡuːt]",
+            "translation": "Vosotros bailáis bien.",
+            "note": "Cuidado: 'ihr' es 'vosotros', y se usa '-t', pero a veces se confunde con la tercera persona del singular."
+          },
+          {
+            "original": "Sie suchen ein Hotel.",
+            "phonetic": "[ziː ˈzuːxən aɪ̯n hoˈtɛl]",
+            "translation": "Ellos buscan un hotel.",
+            "note": "La forma 'sie' (ellos/ellas) es igual a 'wir' y a 'Sie' (usted/ustedes)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Fragen und Verneinung",
+        "translation": "Preguntas y negación",
+        "examples": [
+          {
+            "original": "Lernst du Deutsch?",
+            "phonetic": "[lɛʁnst duː dɔɪ̯tʃ]",
+            "translation": "¿Estudias alemán?",
+            "note": "En preguntas, el verbo va primero. No necesitas 'do/does' como en inglés ni signos de interrogación en alemán."
+          },
+          {
+            "original": "Er wohnt nicht hier.",
+            "phonetic": "[eːɐ̯ voːnt nɪçt hiːɐ̯]",
+            "translation": "Él no vive aquí.",
+            "note": "La negación con 'nicht' se coloca después del verbo y generalmente al final si no hay complemento específico."
+          },
+          {
+            "original": "Wir kommen nicht spät.",
+            "phonetic": "[viːɐ̯ ˈkɔmən nɪçt ʃpɛːt]",
+            "translation": "Nosotros no llegamos tarde.",
+            "note": "En alemán, el verbo conjugado se mantiene en segunda posición incluso con negación."
+          },
+          {
+            "original": "Spielt ihr Tennis?",
+            "phonetic": "[ʃpiːlt iːɐ̯ ˈtɛnɪs]",
+            "translation": "¿Jugáis vosotros al tenis?",
+            "note": "La forma de pregunta para 'ihr' es igual que la afirmativa, solo cambia el orden de las palabras."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbos regulares en presente"
+    }
+  },
+  {
+    "id": "es_A1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Negación: nicht / kein",
+    "bridge": "En español, la negación suele ser simple: añadimos 'no' delante del verbo. En alemán, hay dos palabras principales para negar: 'nicht' y 'kein'. 'Nicht' se usa para negar verbos, adjetivos o frases completas, mientras que 'kein' se usa para negar sustantivos con artículo indefinido o sin artículo. La posición de 'nicht' en la oración alemana también es diferente y puede resultar confusa para los hispanohablantes, ya que no va siempre delante del verbo, sino al final o antes de la palabra que se niega.",
+    "rule": "Para negar en alemán a nivel A1, se usan principalmente 'nicht' y 'kein'. \n\n**Usos de 'nicht':** \n- Para negar verbos: 'Ich komme nicht.' (No vengo.) \n- Para negar adjetivos o adverbios: 'Das ist nicht gut.' (Eso no es bueno.) \n- Para negar sustantivos con artículo definido o posesivo: 'Das ist nicht mein Buch.' (Ese no es mi libro.) \n- Para negar una frase entera: 'Er arbeitet nicht.' (Él no trabaja.) \n\n**Posición de 'nicht':** Generalmente va al final de la oración si niega el verbo principal, o inmediatamente antes de la palabra que niega (adjetivo, adverbio, etc.). \n\n**Usos de 'kein':** \n- Se usa para negar sustantivos que en afirmativo llevarían 'ein/eine' o ningún artículo (sustantivos contables o incontables). \n- Se declina como el artículo indefinido: 'kein' (masculino/neutro nominativo), 'keine' (femenino nominativo o plural), 'keinen' (masculino acusativo), etc. \n- Ejemplos: 'Ich habe kein Geld.' (No tengo dinero.) / 'Ich habe keine Zeit.' (No tengo tiempo.) \n\n**Comparación con español:** En español, 'no' se usa siempre delante del verbo, y el sustantivo no cambia. En alemán, al negar un sustantivo con 'kein', el artículo desaparece o se transforma, lo que requiere atención. Además, en español la doble negación es común y aceptada, pero en alemán no: solo se usa una negación a la vez. \n\n**Excepción importante:** En la respuesta a una pregunta con 'doch' (sí, contrario a lo dicho), no se usa 'nicht' ni 'kein', sino 'doch'.",
+    "concept_examples": [
+      {
+        "text": "Ich spreche nicht Spanisch.",
+        "translation": "No hablo español.",
+        "phonetic": "[ɪç ˈʃpʁɛçə nɪçt ˈʃpaːnɪʃ]"
+      },
+      {
+        "text": "Ich habe kein Auto.",
+        "translation": "No tengo coche.",
+        "phonetic": "[ɪç ˈhaːbə kaɪ̯n ˈaʊ̯toː]"
+      },
+      {
+        "text": "Das ist nicht mein Buch.",
+        "translation": "Ese no es mi libro.",
+        "phonetic": "[das ɪst nɪçt maɪ̯n buːx]"
+      },
+      {
+        "text": "Er hat keine Zeit.",
+        "translation": "Él no tiene tiempo.",
+        "phonetic": "[eːɐ̯ hat ˈkaɪ̯nə tsaɪ̯t]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich habe nicht Zeit.",
+      "correct": "Ich habe keine Zeit.",
+      "correct_alt": "Ich habe keine Zeit.",
+      "explanation": "El error ocurre porque en español decimos 'no tengo tiempo' con el adverbio 'no' delante del verbo. En alemán, cuando se niega un sustantivo sin artículo definido o con artículo indefinido, se debe usar 'kein/e' en lugar de 'nicht'. 'Zeit' (tiempo) es un sustantivo femenino incontable, por lo que se usa 'keine'. Para evitar este error, hay que preguntarse: ¿qué estoy negando? Si es un sustantivo, uso 'kein' (con su declinación); si es un verbo, adjetivo o adverbio, uso 'nicht'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Negation mit „nicht“",
+        "translation": "Negación con 'nicht'",
+        "examples": [
+          {
+            "original": "Ich bin nicht müde.",
+            "phonetic": "[ɪç bɪn nɪçt ˈmyːdə]",
+            "translation": "No estoy cansado.",
+            "note": "Aquí 'nicht' niega el adjetivo 'müde' (cansado). Va delante del adjetivo."
+          },
+          {
+            "original": "Er kommt heute nicht.",
+            "phonetic": "[eːɐ̯ kɔmt ˈhɔɪ̯tə nɪçt]",
+            "translation": "Él no viene hoy.",
+            "note": "Cuando se niega el verbo, 'nicht' va al final de la oración."
+          },
+          {
+            "original": "Das ist nicht mein Auto.",
+            "phonetic": "[das ɪst nɪçt maɪ̯n ˈaʊ̯toː]",
+            "translation": "Ese no es mi coche.",
+            "note": "Se usa 'nicht' con sustantivos que llevan artículo posesivo o definido."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Negation mit „kein“",
+        "translation": "Negación con 'kein'",
+        "examples": [
+          {
+            "original": "Ich habe kein Geld.",
+            "phonetic": "[ɪç ˈhaːbə kaɪ̯n gɛlt]",
+            "translation": "No tengo dinero.",
+            "note": "'Geld' es neutro y sin artículo, así que se usa 'kein' (nominativo/acusativo neutro)."
+          },
+          {
+            "original": "Wir haben keine Kinder.",
+            "phonetic": "[viːɐ̯ ˈhaːbən ˈkaɪ̯nə ˈkɪndɐ]",
+            "translation": "No tenemos hijos.",
+            "note": "En plural, 'kein' se convierte en 'keine'."
+          },
+          {
+            "original": "Hast du einen Bruder? – Nein, ich habe keinen Bruder.",
+            "phonetic": "[hast duː ˈaɪ̯nən ˈbʁuːdɐ | naɪ̯n, ɪç ˈhaːbə ˈkaɪ̯nən ˈbʁuːdɐ]",
+            "translation": "¿Tienes un hermano? – No, no tengo hermano.",
+            "note": "En acusativo masculino, 'kein' se convierte en 'keinen'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Unterschied: nicht vs. kein",
+        "translation": "Diferencia: 'nicht' vs. 'kein'",
+        "examples": [
+          {
+            "original": "Ich habe nicht viel Zeit.",
+            "phonetic": "[ɪç ˈhaːbə nɪçt fiːl tsaɪ̯t]",
+            "translation": "No tengo mucho tiempo.",
+            "note": "Aquí 'nicht' niega la cantidad 'viel' (mucho), no el sustantivo, así que se usa 'nicht'."
+          },
+          {
+            "original": "Ich habe keine Zeit.",
+            "phonetic": "[ɪç ˈhaːbə ˈkaɪ̯nə tsaɪ̯t]",
+            "translation": "No tengo tiempo (en absoluto).",
+            "note": "Usamos 'keine' porque negamos el sustantivo 'Zeit' directamente."
+          },
+          {
+            "original": "Das ist nicht mein Glas. Das ist dein Glas.",
+            "phonetic": "[das ɪst nɪçt maɪ̯n glaːs | das ɪst daɪ̯n glaːs]",
+            "translation": "Ese no es mi vaso. Ese es tu vaso.",
+            "note": "Con artículo posesivo ('mein'), se usa 'nicht'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚫",
+    "phonetic": "",
+    "translations": {
+      "es": "Negación básica"
+    }
+  },
+  {
+    "id": "es_A1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Fragen stellen / Preguntas básicas",
+    "bridge": "En español, las preguntas de sí/no se forman simplemente con la entonación (¿Hablas español?). En alemán, además de la entonación, el verbo conjugado se coloca en la primera posición. Para las preguntas con interrogativo (qué, quién, dónde...), la palabra interrogativa (W-Frage) va en primera posición, seguida del verbo. Así, el orden se invierte: sujeto y verbo se intercambian en las preguntas directas. Presta atención a los interrogativos alemanes: \"wo\" (dónde) puede parecerse a \"was\" (qué), ¡no los confundas!",
+    "rule": "En alemán, existen dos tipos de preguntas: las preguntas de sí/no (Ja/Nein-Fragen) y las preguntas con interrogativo (W-Fragen).\n\n1. **Ja/Nein-Fragen**: El verbo conjugado va en la primera posición de la oración, seguido del sujeto. La entonación sube al final. Por ejemplo: \"Kommst du?\" (¿Vienes?), \"Sprichst du Spanisch?\" (¿Hablas español?).\n\n2. **W-Fragen**: La palabra interrogativa (warum, wann, woher, etc.) va en primera posición, seguida del verbo conjugado y luego el sujeto. Los interrogativos más comunes a nivel A1 son:\n   - **wer** (quién) - para personas\n   - **was** (qué) - para cosas\n   - **wo** (dónde) - para lugar\n   - **woher** (de dónde) - para origen\n   - **wohin** (a dónde) - para dirección\n   - **wann** (cuándo) - para tiempo\n   - **warum** (por qué) - para razón\n   - **wie** (cómo) - para modo\n\n**Excepción**: El interrogativo \"wer\" (quién) requiere que el verbo se conjugue en tercera persona del singular, independientemente de a quién se refiera. Por ejemplo: \"Wer bist du?\" (¿Quién eres?) es incorrecto; lo correcto es \"Wer bist du?\"? No, realmente \"wer\" siempre se conjuga en singular: \"Wer bist du?\" es correcto (eres = segunda persona singular). No hay excepción aquí.\n\n**Uso de \"wie\" con \"viel\" y \"viele\"**: \"Wie viel\" (¿cuánto?) para incontables, \"wie viele\" (¿cuántos?) para contables. A1 aún no lo cubre profundamente, pero es útil.\n\n**Entonación**: En las preguntas de sí/no, la entonación sube al final; en las W-Fragen, la entonación baja.\n\n**Orden en preguntas con complementos**: Cuando hay un complemento preposicional, se mantiene el orden verbo+sujeto. Ejemplo: \"Woher kommst du?\" (¿De dónde vienes? literalmente: ¿de dónde vienes tú?).\n\n**Comparación con español**: En español, las preguntas se forman con inversión opcional o solo con entonación, y a veces se usa el interrogativo al inicio. En alemán, la inversión es obligatoria.",
+    "concept_examples": [
+      {
+        "text": "Bist du müde?",
+        "translation": "¿Estás cansado?",
+        "phonetic": "[bɪst duː ˈmyːdə]"
+      },
+      {
+        "text": "Wo wohnst du?",
+        "translation": "¿Dónde vives?",
+        "phonetic": "[voː voːnst duː]"
+      },
+      {
+        "text": "Was machst du heute?",
+        "translation": "¿Qué haces hoy?",
+        "phonetic": "[vas maχst duː ˈhɔɪ̯tə]"
+      },
+      {
+        "text": "Warum lernst du Deutsch?",
+        "translation": "¿Por qué aprendes alemán?",
+        "phonetic": "[vaˈrʊm lɛrnst duː dɔɪ̯tʃ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Du sprichst Spanisch?",
+      "correct": "Sprichst du Spanisch?",
+      "correct_alt": "",
+      "explanation": "En español, una pregunta de sí/no se puede formar simplemente cambiando la entonación de una declarativa (¿Tú hablas español?). En alemán, este tipo de pregunta requiere obligatoriamente la inversión del verbo y el sujeto: el verbo conjugado va al principio. Mantener el orden declarativo solo con entonación suena muy informal y no es correcto en alemán estándar. Recuerda que en las Ja/Nein-Fragen, el verbo siempre ocupa la primera posición."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ja/Nein-Fragen",
+        "translation": "Preguntas de sí/no",
+        "examples": [
+          {
+            "original": "Bist du Student?",
+            "phonetic": "[bɪst duː ʃtuˈdɛnt]",
+            "translation": "¿Eres estudiante?",
+            "note": "El verbo 'sein' (ser/estar) se conjuga en segunda persona singular 'bist' y va al principio. En español, se puede preguntar solo con entonación, pero en alemán es obligatorio el orden verbo-sujeto."
+          },
+          {
+            "original": "Kommst du aus Spanien?",
+            "phonetic": "[kɔmst duː aʊ̯s ˈʃpaːni̯ən]",
+            "translation": "¿Vienes de España?",
+            "note": "Verbo 'kommen' conjugado en segunda persona singular 'kommst' al inicio. La preposición 'aus' indica origen, igual que 'de' en español."
+          },
+          {
+            "original": "Hast du Geschwister?",
+            "phonetic": "[hast duː ɡəˈʃvɪstɐ]",
+            "translation": "¿Tienes hermanos?",
+            "note": "El verbo 'haben' en segunda persona 'hast' va al principio. 'Geschwister' es un plural que significa 'hermanos' en sentido genérico (no especifica género)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "W-Fragen: wer, was, wo",
+        "translation": "Preguntas con interrogativo: quién, qué, dónde",
+        "examples": [
+          {
+            "original": "Wer bist du?",
+            "phonetic": "[veːɐ̯ bɪst duː]",
+            "translation": "¿Quién eres?",
+            "note": "'Wer' (quién) se refiere a la identidad de una persona. Se conjuga el verbo en segunda persona singular después de 'wer', manteniendo el orden wer + verbo + sujeto."
+          },
+          {
+            "original": "Was ist das?",
+            "phonetic": "[vas ɪst das]",
+            "translation": "¿Qué es eso?",
+            "note": "'Was' (qué) pregunta por cosas o conceptos. Verbo 'ist' en tercera persona singular y el sujeto 'das' (eso) después. Es una pregunta muy frecuente."
+          },
+          {
+            "original": "Wo wohnst du?",
+            "phonetic": "[voː voːnst duː]",
+            "translation": "¿Dónde vives?",
+            "note": "'Wo' (dónde) pregunta por lugar. El verbo 'wohnen' en segunda persona singular 'wohnst' va después del interrogativo."
+          },
+          {
+            "original": "Woher kommst du?",
+            "phonetic": "[voːheːɐ̯ kɔmst duː]",
+            "translation": "¿De dónde vienes?",
+            "note": "'Woher' (de dónde) pregunta el origen. No confundir con 'wo': 'woher' indica procedencia, mientras que 'wo' indica ubicación."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Weitere W-Fragen: wann, warum, wie",
+        "translation": "Más interrogativos: cuándo, por qué, cómo",
+        "examples": [
+          {
+            "original": "Wann hast du Geburtstag?",
+            "phonetic": "[van hast duː ɡəˈbuːɐ̯tstaːk]",
+            "translation": "¿Cuándo es tu cumpleaños?",
+            "note": "'Wann' (cuándo) pregunta por tiempo. Verbo 'haben' en segunda persona singular 'hast' al inicio después del interrogativo. Se usa el acusativo (días, fechas)."
+          },
+          {
+            "original": "Warum lernst du Deutsch?",
+            "phonetic": "[vaˈrʊm lɛrnst duː dɔɪ̯tʃ]",
+            "translation": "¿Por qué aprendes alemán?",
+            "note": "'Warum' (por qué) pregunta por la razón. Recuerda que en alemán no hay diferencia entre 'por qué' y 'porque' en la escritura, pero en la pronunciación y el orden de la oración se distingue: 'warum' inicia la pregunta; 'weil' introduce una subordinada."
+          },
+          {
+            "original": "Wie heißt du?",
+            "phonetic": "[viː haɪ̯st duː]",
+            "translation": "¿Cómo te llamas? (literal: ¿cómo te llamas?)",
+            "note": "'Wie' (cómo) es esencial para presentarse. El verbo 'heißen' (llamarse) se conjuga en segunda persona singular 'heißt'. En español usamos el verbo 'llamarse'."
+          },
+          {
+            "original": "Wie spät ist es?",
+            "phonetic": "[viː ʃpɛːt ɪst ɛs]",
+            "translation": "¿Qué hora es? (literal: ¿qué tan tarde es?)",
+            "note": "Expresión fija para preguntar la hora. 'Wie spät' significa literalmente 'qué tan tarde'. En alemán se usa esta estructura en lugar de '¿qué hora es?'."
+          }
+        ]
+      }
+    ],
+    "emoji": "❓",
+    "phonetic": "",
+    "translations": {
+      "es": "Preguntas básicas"
+    }
+  },
+  {
+    "id": "es_A1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Zahlen 1-100 / Números del 1 al 100",
+    "bridge": "En español, los números se forman de manera relativamente simple: después del 15, simplemente decimos 'dieciséis', 'diecisiete', etc. En alemán, hay que prestar atención a la inversión: para números del 21 al 99, se dice primero la unidad y luego la decena, uniendo ambas con 'und' (y), por ejemplo, 'einundzwanzig' (21) es literalmente 'uno y veinte'. Además, a diferencia del español, los números en alemán pueden actuar como sustantivos y entonces se escriben con mayúscula (die Eins, die Zwei).",
+    "rule": "En alemán, los números del 1 al 12 tienen nombres propios (eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf). Del 13 al 19, se forma añadiendo '-zehn' a la raíz: dreizehn (13), vierzehn, fünfzehn, sechzehn (¡cuidado con la pérdida de 's'), siebzehn (pierde 'en'), achtzehn, neunzehn. Las decenas (20, 30, ... 90) se forman con la raíz más '-zig' (zwanzig, dreißig, vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig). Para los números compuestos del 21 al 99, se dice primero la unidad, luego 'und' y después la decena: einundzwanzig (21), zweiunddreißig (32). El número 100 es 'hundert'. Los números se escriben como una sola palabra. Al leerlos, se pronuncian de corrido.",
+    "concept_examples": [
+      {
+        "text": "Ich habe zwei Brüder.",
+        "translation": "Tengo dos hermanos.",
+        "phonetic": "ɪç ˈhaːbə t͡svaɪ̯ ˈbʁyːdɐ"
+      },
+      {
+        "text": "Das Buch kostet neunzehn Euro.",
+        "translation": "El libro cuesta diecinueve euros.",
+        "phonetic": "das buːx ˈkɔstət ˈnɔɪ̯nt͡seːn ˈɔɪ̯ʁo"
+      },
+      {
+        "text": "Wir treffen uns um dreißig Minuten.",
+        "translation": "Nos encontramos en treinta minutos.",
+        "phonetic": "viːɐ̯ ˈtʁɛfən ʊns ʊm ˈdʁaɪ̯sɪç miˈnuːtən"
+      },
+      {
+        "text": "Er ist einundzwanzig Jahre alt.",
+        "translation": "Él tiene veintiún años.",
+        "phonetic": "eːɐ̯ ɪst ˈaɪ̯nʊnt͡sʋaːnʦɪç ˈjaːʁə alt"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich bin zwanzigundein Jahre alt.",
+      "correct": "Ich bin einundzwanzig Jahre alt.",
+      "correct_alt": "Ich bin 21 Jahre alt.",
+      "explanation": "El error surge porque en español decimos primero la decena y luego la unidad (veintiuno), pero en alemán se invierte: primero la unidad, luego 'und' y después la decena. También hay que recordar que 'ein' se usa sin 's' en compuestos, y que no se pone 'und' entre unidades si el número es solo decena o solo unidad."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Die Grundzahlen 1-20",
+        "translation": "Los números cardinales 1-20",
+        "examples": [
+          {
+            "original": "eins, zwei, drei",
+            "phonetic": "aɪ̯ns, t͡svaɪ̯, dʁaɪ̯",
+            "translation": "uno, dos, tres",
+            "note": "Aprende los primeros números de memoria. Nota que 'eins' se convierte en 'ein' cuando se usa delante de un sustantivo."
+          },
+          {
+            "original": "vier, fünf, sechs",
+            "phonetic": "fiːɐ̯, fʏnf, zɛks",
+            "translation": "cuatro, cinco, seis",
+            "note": "Pronunciación: 'sechs' se dice como 'zex' (con 's' sonora al principio)."
+          },
+          {
+            "original": "sieben, acht, neun",
+            "phonetic": "ˈziːbən, axt, nɔɪ̯n",
+            "translation": "siete, ocho, nueve",
+            "note": "La 'ch' en 'acht' se pronuncia como una 'j' suave, no como 'k'."
+          },
+          {
+            "original": "zehn, elf, zwölf",
+            "phonetic": "t͡seːn, ɛlf, t͡svœlf",
+            "translation": "diez, once, doce",
+            "note": "Aunque 'elf' y 'zwölf' parecen irregulares, son muy usados, así que acostúmbrate."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Zahlen von 20 bis 99",
+        "translation": "Números del 20 al 99",
+        "examples": [
+          {
+            "original": "zwanzig, dreißig, vierzig",
+            "phonetic": "ˈt͡svaːnʦɪç, ˈdʁaɪ̯sɪç, ˈfiːɐ̯ʦɪç",
+            "translation": "veinte, treinta, cuarenta",
+            "note": "Las decenas terminan en '-zig' excepto 'dreißig' que es con 'ß' (esserzett)."
+          },
+          {
+            "original": "einundzwanzig",
+            "phonetic": "ˈaɪ̯nʊnt͡sʋaːnʦɪç",
+            "translation": "veintiuno",
+            "note": "Recuerda: se dice primero la unidad (ein) + und + decena (zwanzig)."
+          },
+          {
+            "original": "sechsundsiebzig",
+            "phonetic": "zɛksʊntˈziːpʦɪç",
+            "translation": "setenta y seis",
+            "note": "Fíjate en la inversión y en que 'sechs' pierde la 's' en algunos compuestos, pero aquí se mantiene."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Die Hundert und das Alter",
+        "translation": "El cien y la edad",
+        "examples": [
+          {
+            "original": "hundert",
+            "phonetic": "ˈhʊndɐt",
+            "translation": "cien",
+            "note": "No se dice 'einhundert' para 100, pero sí se puede usar para enfatizar."
+          },
+          {
+            "original": "Ich bin fünfundfünfzig Jahre alt.",
+            "phonetic": "ɪç bɪn ˈfʏnfʊntfʏnftsɪç ˈjaːʁə alt",
+            "translation": "Tengo cincuenta y cinco años.",
+            "note": "Para decir la edad en alemán se usa el verbo 'sein' (ser/estar) y no 'haben'. Es un contraste importante con el español."
+          },
+          {
+            "original": "Das kostet hundert Euro.",
+            "phonetic": "das ˈkɔstət ˈhʊndɐt ˈɔɪ̯ʁo",
+            "translation": "Eso cuesta cien euros.",
+            "note": "Practica con precios: es común usar números en tiendas."
+          },
+          {
+            "original": "Wir haben neunundneunzig Luftballons.",
+            "phonetic": "viːɐ̯ ˈhaːbən ˈnɔɪ̯nʊntnɔɪ̯nʦɪç ˈlʊftbalɔns",
+            "translation": "Tenemos noventa y nueve globos.",
+            "note": "Es un número alto para practicar la inversión y la pronunciación de 'und'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "es": "Números del 1 al 100"
+    }
+  },
+  {
+    "id": "es_A1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Adjektive und ihre Endungen / Adjetivos y sus terminaciones",
+    "bridge": "En español, los adjetivos cambian solo en género y número (por ejemplo, 'bueno' → 'buena', 'buenos'). En alemán, además de género y número, también dependen del caso (nominativo, acusativo, dativo, genitivo) y de si van precedidos por un artículo definido, indefinido o sin artículo. Como hispanohablante, te resultará familiar la idea de concordancia, pero tendrás que aprender a observar la terminación del adjetivo según el artículo que lo precede. Un error típico es usar siempre la forma base del adjetivo sin añadir la terminación correcta.",
+    "rule": "Los adjetivos alemanes en función atributiva (antes del sustantivo) reciben una terminación que depende de tres factores: (1) el género del sustantivo (masculino, femenino, neutro), (2) el número (singular o plural) y (3) el caso (nominativo para el sujeto, acusativo para el objeto directo, dativo para el objeto indirecto, genitivo para posesión). En nivel A1 nos centramos en nominativo y acusativo.\n\nCon artículo definido (der, die, das), las terminaciones son: en nominativo: der kleine Mann, die kleine Frau, das kleine Kind; en acusativo: den kleinen Mann, die kleine Frau, das kleine Kind. La terminación típica es -e en nominativo singular y -en en el resto (excepto neutro y femenino en nominativo/acusativo que quedan en -e).\n\nCon artículo indefinido (ein, eine, ein): masculino nominativo: ein kleiner Mann, acusativo: einen kleinen Mann; femenino: eine kleine Frau (nominativo y acusativo); neutro: ein kleines Kind (nominativo y acusativo). Observa que la terminación refleja el género del sustantivo cuando el artículo no lo muestra claramente.\n\nSin artículo (por ejemplo, en plural o con sustantivos no contables): el adjetivo recibe la terminación del artículo definido: kleine Kinder, teurer Wein. En singular sin artículo, también se usa la terminación fuerte: guter Kaffee, gute Milch, gutes Bier.\n\nPara A1, memoriza los patrones con los adjetivos más comunes: groß, klein, gut, neu, schön, alt, jung, teuer, billig, hoch. Recuerda que 'hoch' pierde la 'c' cuando se declina: ein hoher Berg. El adjetivo 'teuer' pierde la 'e' en la forma declinada: ein teures Auto.",
+    "concept_examples": [
+      {
+        "text": "Der kleine Hund ist süß.",
+        "translation": "El perro pequeño es lindo.",
+        "phonetic": "[deːɐ̯ ˈklaɪ̯nə hʊnt ɪst zyːs]"
+      },
+      {
+        "text": "Ich sehe einen großen Baum.",
+        "translation": "Yo veo un árbol grande.",
+        "phonetic": "[ɪç ˈzeːə ˈaɪ̯nən ˈɡʁoːsən baʊ̯m]"
+      },
+      {
+        "text": "Sie hat eine neue Tasche.",
+        "translation": "Ella tiene un bolso nuevo.",
+        "phonetic": "[ziː hat ˈaɪ̯nə ˈnɔɪ̯ə ˈtaʃə]"
+      },
+      {
+        "text": "Das ist ein gutes Buch.",
+        "translation": "Este es un libro bueno.",
+        "phonetic": "[das ɪst aɪ̯n ˈɡuːtəs buːχ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich habe ein groß Haus.",
+      "correct": "Ich habe ein großes Haus.",
+      "correct_alt": "Ich habe ein Haus, das groß ist.",
+      "explanation": "El error ocurre porque en español decimos 'tengo una casa grande' sin cambiar el adjetivo según el artículo. En alemán, con artículo indefinido neutro ('ein'), el adjetivo necesita la terminación -es para marcar el género neutro en nominativo/acusativo. Olvidar la terminación es muy común. Piensa: el artículo 'ein' no muestra el género claramente (puede ser masculino o neutro), así que la terminación del adjetivo compensa esa información. Memoriza: ein + adjetivo + -es para neutro, -en para masculino acusativo, -e para femenino."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nominativ mit bestimmten Artikeln",
+        "translation": "Nominativo con artículos definidos",
+        "examples": [
+          {
+            "original": "Der Mann ist groß.",
+            "phonetic": "[deːɐ̯ man ɪst ɡʁoːs]",
+            "translation": "El hombre es grande (alto).",
+            "note": "Aquí 'groß' es atributo del sujeto, pero después de 'ist' se usa la forma base sin terminación. No se declina."
+          },
+          {
+            "original": "Die Frau ist nett.",
+            "phonetic": "[diː fʁaʊ̯ ɪst nɛt]",
+            "translation": "La mujer es amable.",
+            "note": "Mismo caso: adjetivo predicativo, sin terminación."
+          },
+          {
+            "original": "Das kleine Kind spielt.",
+            "phonetic": "[das ˈklaɪ̯nə kɪnt ʃpiːlt]",
+            "translation": "El niño pequeño juega.",
+            "note": "Aquí 'kleine' lleva -e porque es atributo delante del sustantivo neutro con artículo definido 'das' en nominativo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Akkusativ und unbestimmte Artikel",
+        "translation": "Acusativo y artículos indefinidos",
+        "examples": [
+          {
+            "original": "Ich kaufe einen neuen Computer.",
+            "phonetic": "[ɪç ˈkaʊ̯fə ˈaɪ̯nən ˈnɔɪ̯ən kɔmˈpjuːtɐ]",
+            "translation": "Compro un ordenador nuevo.",
+            "note": "En acusativo masculino, el artículo se convierte en 'einen' y el adjetivo lleva -en."
+          },
+          {
+            "original": "Er hat eine alte Uhr.",
+            "phonetic": "[eːɐ̯ hat ˈaɪ̯nə ˈaltə uːɐ̯]",
+            "translation": "Él tiene un reloj viejo.",
+            "note": "Femenino: tanto nominativo como acusativo usan 'eine' + adjetivo con -e."
+          },
+          {
+            "original": "Wir suchen ein billiges Hotel.",
+            "phonetic": "[viːɐ̯ ˈzuːχən aɪ̯n ˈbɪlɪɡəs hoˈtɛl]",
+            "translation": "Buscamos un hotel barato.",
+            "note": "Neutro: 'ein' + adjetivo con -es. Observa que 'billig' se mantiene en su forma base y solo se añade la terminación."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Adjektive ohne Artikel",
+        "translation": "Adjetivos sin artículo",
+        "examples": [
+          {
+            "original": "Kalter Kaffee schmeckt nicht gut.",
+            "phonetic": "[ˈkaltɐ ˈkafeː ʃmɛkt nɪçt ɡuːt]",
+            "translation": "El café frío no sabe bien.",
+            "note": "Sin artículo, el adjetivo toma la terminación fuerte del artículo definido: masculino nominativo → -er."
+          },
+          {
+            "original": "Ich trinke heiße Milch.",
+            "phonetic": "[ɪç ˈtʁɪŋkə ˈhaɪ̯sə mɪlç]",
+            "translation": "Bebo leche caliente.",
+            "note": "Femenino sin artículo: -e (igual que con artículo indefinido)."
+          },
+          {
+            "original": "Frisches Brot ist lecker.",
+            "phonetic": "[ˈfʁɪʃəs bʁoːt ɪst ˈlɛkɐ]",
+            "translation": "El pan fresco está rico.",
+            "note": "Neutro sin artículo: -es. Recuerda que en plural sin artículo se usa -e: 'große Fenster'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏷️",
+    "phonetic": "",
+    "translations": {
+      "es": "Adjetivos básicos y concordancia"
+    }
+  },
+  {
+    "id": "es_A1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Possessivartikel / Posesivos",
+    "bridge": "En español usamos 'mi', 'tu', 'su', etc. que concuerdan en número con el sustantivo (mi libro, mis libros). En alemán, los posesivos (mein, dein, sein, etc.) también concuerdan en género, número y caso con el sustantivo que acompañan. Un punto clave es que en alemán no existe una forma única para 'su': depende de quién posee (de él: sein, de ella: ihr, de ellos: ihr, de usted formal: Ihr). Además, los posesivos alemanes tienen terminaciones que cambian según el género del sustantivo: mein Vater (masculino), meine Mutter (femenino), mein Kind (neutro). Cuidado: en español 'su' es ambiguo, pero en alemán debes elegir la forma correcta según el dueño.",
+    "rule": "Los posesivos en alemán (Possessivartikel) concuerdan con el sustantivo que modifican en género (masculino, femenino, neutro), número (singular/plural) y caso (nominativo, acusativo, dativo, genitivo). A nivel A1 nos centramos en nominativo y acusativo. Las formas básicas en nominativo son: mein (mi, masculino/neutro), meine (mi, femenino/plural), dein (tu, masculino/neutro), deine (tu, femenino/plural), sein (su de él), seine (su de ella/plural), ihr (su de ella), ihre (su de ella/plural), unser (nuestro), unsere (nuestra/plural), euer (vuestro), eure (vuestra/plural), ihr/Ihr (su de ellos/usted formal). En acusativo, el masculino cambia: meinen, deinen, seinen, ihren, unseren, euren (ej. Ich sehe meinen Vater). El femenino y neutro no cambian en acusativo. Recuerda que el posesivo se coloca delante del sustantivo y reemplaza al artículo. Para A1, es esencial memorizar las formas de nominativo y acusativo con los géneros.",
+    "concept_examples": [
+      {
+        "text": "Das ist mein Buch.",
+        "translation": "Ese es mi libro.",
+        "phonetic": "[das ɪst maɪn buːχ]"
+      },
+      {
+        "text": "Meine Mutter ist Ärztin.",
+        "translation": "Mi madre es médica.",
+        "phonetic": "[ˈmaɪnə ˈmʊtɐ ɪst ˈɛʁtstɪn]"
+      },
+      {
+        "text": "Ich liebe deinen Bruder.",
+        "translation": "Quiero a tu hermano.",
+        "phonetic": "[ɪç ˈliːbə ˈdaɪnən ˈbʁuːdɐ]"
+      },
+      {
+        "text": "Ihre Schwester wohnt in Madrid.",
+        "translation": "Su hermana (de ella) vive en Madrid.",
+        "phonetic": "[ˈiːʁə ˈʃvɛstɐ voːnt ɪn maˈdʁɪt]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich liebe dein Bruder.",
+      "correct": "Ich liebe deinen Bruder.",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque en español el posesivo 'tu' no cambia con el caso (quiero a tu hermano). En alemán, cuando el sustantivo es masculino y está en acusativo (objeto directo), el posesivo debe llevar la terminación '-en': deinen. Así, 'dein' se convierte en 'deinen' antes de un sustantivo masculino en acusativo. Recuerda: para masculino en acusativo, añade '-en'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mein und dein",
+        "translation": "Mi y tu",
+        "examples": [
+          {
+            "original": "Das ist mein Tisch.",
+            "phonetic": "[das ɪst maɪn tɪʃ]",
+            "translation": "Esta es mi mesa.",
+            "note": "Para sustantivos masculinos (der Tisch), usamos 'mein' sin terminación."
+          },
+          {
+            "original": "Ist das deine Tasche?",
+            "phonetic": "[ɪst das ˈdaɪnə ˈtaʃə]",
+            "translation": "¿Esa es tu bolsa?",
+            "note": "Para femeninos (die Tasche), añadimos '-e' a 'dein': deine."
+          },
+          {
+            "original": "Mein Kind ist klein.",
+            "phonetic": "[maɪn kɪnt ɪst klaɪn]",
+            "translation": "Mi hijo es pequeño.",
+            "note": "Para neutros (das Kind), usamos 'mein' sin terminación, igual que masculino."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Sein und ihr",
+        "translation": "Su (de él y de ella)",
+        "examples": [
+          {
+            "original": "Sein Auto ist rot.",
+            "phonetic": "[zaɪn ˈaʊto ɪst ʁoːt]",
+            "translation": "Su coche (de él) es rojo.",
+            "note": "'Sein' se usa cuando el poseedor es masculino (él)."
+          },
+          {
+            "original": "Ihr Hund heißt Max.",
+            "phonetic": "[iːʁ hʊnt haɪst maks]",
+            "translation": "Su perro (de ella) se llama Max.",
+            "note": "'Ihr' se usa cuando el poseedor es femenino (ella)."
+          },
+          {
+            "original": "Seine Mutter ist nett.",
+            "phonetic": "[ˈzaɪnə ˈmʊtɐ ɪst nɛt]",
+            "translation": "Su madre (de él) es simpática.",
+            "note": "Con sustantivos femeninos, añadimos '-e' a 'sein': seine."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Unser, euer, ihr",
+        "translation": "Nuestro, vuestro, su (de ellos)",
+        "examples": [
+          {
+            "original": "Unser Haus ist groß.",
+            "phonetic": "[ˈʊnzɐ haʊs ɪst gʁoːs]",
+            "translation": "Nuestra casa es grande.",
+            "note": "'Unser' se usa para 'nuestro' con sustantivos masculinos o neutros."
+          },
+          {
+            "original": "Eure Eltern sind freundlich.",
+            "phonetic": "[ˈɔʏʁə ˈɛltɐn zɪnt ˈfʁɔɪntlɪç]",
+            "translation": "Vuestros padres son amables.",
+            "note": "'Eure' es la forma para 'vuestro/vuestra' con sustantivos plurales."
+          },
+          {
+            "original": "Ihr Vater ist Lehrer.",
+            "phonetic": "[iːʁ ˈfaːtɐ ɪst ˈleːʁɐ]",
+            "translation": "Su padre (de ellos) es profesor.",
+            "note": "Para 'su' de ellos/ellas, usamos 'ihr' (con minúscula). No confundir con 'Ihr' formal."
+          }
+        ]
+      }
+    ],
+    "emoji": "📦",
+    "phonetic": "",
+    "translations": {
+      "es": "Posesivos"
+    }
+  },
+  {
+    "id": "es_A1_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Demonstrativpronomen / Demostrativos",
+    "bridge": "En español usamos 'este/esta/estos/estas' para indicar cercanía y 'ese/esa/esos/esas' para distancia, y 'aquel/aquella' para algo aún más lejos. En alemán, la distinción principal es entre 'dies-' (cerca) y 'jen-' (lejos), pero hay una trampa: el alemán no tiene un equivalente exacto de 'ese' intermedio; se usa 'dies-' para cosas cercanas (incluso si están a un metro) y 'jen-' para lo lejano. Otra diferencia clave: los demostrativos alemanes se declinan según género, número y caso, igual que los artículos, mientras que en español solo cambian por género y número. Además, 'das' puede ser tanto un artículo neutro (el/la) como un demostrativo (eso), lo que a menudo confunde a los hispanohablantes.",
+    "rule": "En alemán, los demostrativos son 'dieser' (este), 'diese' (esta), 'dieses' (esto/este neutro) y 'diese' (estos/estas) para plural. Para lejanía, se usan 'jener' (ese/aquel), 'jene' (esa/aquella), 'jenes' (eso/aquello) y 'jene' (esos/as). Se declinan como el artículo definido: en nominativo, masculino 'dieser', femenino 'diese', neutro 'dieses', plural 'diese'. En acusativo, masculino cambia a 'diesen', femenino y neutro igual que nominativo, plural 'diese'. En dativo, masculino y neutro 'diesem', femenino 'dieser', plural 'diesen'. Casos especiales: 'das' puede funcionar como demostrativo neutro (eso) en lugar de 'dieses', y 'das' también es el artículo neutro. Típicamente, 'dieser' se usa para algo cerca del hablante, 'jener' para algo lejos, y son intercambiables en contexto claro.",
+    "concept_examples": [
+      {
+        "text": "Dieser Mann ist mein Vater.",
+        "translation": "Este hombre es mi padre.",
+        "phonetic": "[ˈdiːzɐ man ɪst maɪn ˈfaːtɐ]"
+      },
+      {
+        "text": "Diese Frau kommt aus Spanien.",
+        "translation": "Esta mujer viene de España.",
+        "phonetic": "[ˈdiːzə fʁaʊ̯ kɔmt aʊ̯s ˈʃpaːni̯ən]"
+      },
+      {
+        "text": "Jenes Haus ist sehr alt.",
+        "translation": "Aquella casa es muy vieja.",
+        "phonetic": "[ˈjeːnəs haʊ̯s ɪst zeːɐ̯ alt]"
+      },
+      {
+        "text": "Das ist meine Schwester.",
+        "translation": "Esa es mi hermana.",
+        "phonetic": "[das ɪst ˈmaɪ̯nə ˈʃvɛstɐ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Este casa es bonita.",
+      "correct": "Diese Haus ist schön.",
+      "correct_alt": "Dieses Haus ist schön.",
+      "explanation": "El error típico es usar 'este' como en español sin declinar, pero en alemán el demostrativo debe concordar con el género del sustantivo. 'Haus' es neutro, por lo tanto se usa 'dieses' (o 'das') en nominativo. Además, 'casa' en alemán es 'Haus' (neutro), no femenino. Hay que recordar: siempre usar la forma correcta según el artículo del sustantivo (der/die/das)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nominativ",
+        "translation": "Nominativo (este, esta, esto, estos/as)",
+        "examples": [
+          {
+            "original": "Dieser Hund ist braun.",
+            "phonetic": "[ˈdiːzɐ hʊnt ɪst bʁaʊ̯n]",
+            "translation": "Este perro es marrón.",
+            "note": "Usamos 'dieser' porque 'Hund' es masculino."
+          },
+          {
+            "original": "Diese Blume ist rot.",
+            "phonetic": "[ˈdiːzə ˈbluːmə ɪst ʁoːt]",
+            "translation": "Esta flor es roja.",
+            "note": "'Blume' es femenino, entonces 'diese'."
+          },
+          {
+            "original": "Dieses Buch ist neu.",
+            "phonetic": "[ˈdiːzəs buːx ɪst nɔɪ̯]",
+            "translation": "Este libro es nuevo.",
+            "note": "'Buch' es neutro, usamos 'dieses'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Akkusativ",
+        "translation": "Acusativo (este/esta/estos/as como objeto directo)",
+        "examples": [
+          {
+            "original": "Ich sehe diesen Mann.",
+            "phonetic": "[ɪç ˈzeːə ˈdiːzən man]",
+            "translation": "Yo veo a este hombre.",
+            "note": "En acusativo, masculino cambia a 'diesen'."
+          },
+          {
+            "original": "Ich kaufe diese Blume.",
+            "phonetic": "[ɪç ˈkaʊ̯fə ˈdiːzə ˈbluːmə]",
+            "translation": "Yo compro esta flor.",
+            "note": "Femenino no cambia: 'diese'."
+          },
+          {
+            "original": "Ich lese dieses Buch.",
+            "phonetic": "[ɪç ˈleːzə ˈdiːzəs buːx]",
+            "translation": "Yo leo este libro.",
+            "note": "Neutro igual que nominativo: 'dieses'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Jener / Das",
+        "translation": "Lejanía (ese/aquel) y el demostrativo 'das'",
+        "examples": [
+          {
+            "original": "Jener Baum ist groß.",
+            "phonetic": "[ˈjeːnɐ baʊ̯m ɪst ɡʁoːs]",
+            "translation": "Aquel árbol es grande.",
+            "note": "'Jener' para lejanía con sustantivo masculino."
+          },
+          {
+            "original": "Jene Frau ist meine Lehrerin.",
+            "phonetic": "[ˈjeːnə fʁaʊ̯ ɪst ˈmaɪ̯nə ˈleːʁəʁɪn]",
+            "translation": "Aquella mujer es mi profesora.",
+            "note": "'Jene' femenino."
+          },
+          {
+            "original": "Das ist ein Auto.",
+            "phonetic": "[das ɪst aɪ̯n ˈaʊ̯to]",
+            "translation": "Eso es un coche.",
+            "note": "'Das' como demostrativo neutro significa 'eso'."
+          },
+          {
+            "original": "Ich nehme das.",
+            "phonetic": "[ɪç ˈneːmə das]",
+            "translation": "Tomo eso.",
+            "note": "'Das' en acusativo, muy usado en conversación."
+          }
+        ]
+      }
+    ],
+    "emoji": "👈",
+    "phonetic": "",
+    "translations": {
+      "es": "Demostrativos"
+    }
+  },
+  {
+    "id": "es_A1_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "es gibt / Hay (existencia)",
+    "bridge": "En español usamos 'hay' tanto para singular como para plural. En alemán, se usa 'es gibt' (más formal) o 'da ist/da sind' (más coloquial), que cambian según el número. Ojo: en alemán, 'es gibt' siempre va con acusativo, y 'da ist' con nominativo. Además, en frases negativas, usamos 'kein' en lugar de 'no'.",
+    "rule": "En alemán, para expresar existencia se usa principalmente 'es gibt' (hay) seguido de acusativo, y 'da ist' (hay, singular) o 'da sind' (hay, plural) con nominativo. 'Es gibt' es invariable: no cambia con singular o plural. Ejemplos: 'Es gibt ein Buch.' (Hay un libro), 'Es gibt viele Bücher.' (Hay muchos libros). Para negar, se usa 'kein' (ninguno) en lugar de 'nicht': 'Es gibt kein Buch.' (No hay ningún libro). También se puede usar 'da ist' para singular y 'da sind' para plural: 'Da ist ein Tisch.' (Hay una mesa), 'Da sind Stühle.' (Hay sillas). En preguntas, se invierte: 'Gibt es ein Problem?' (¿Hay un problema?), 'Ist da ein Problem?' (¿Hay un problema?).",
+    "concept_examples": [
+      {
+        "text": "Es gibt einen Supermarkt hier.",
+        "translation": "Hay un supermercado aquí.",
+        "phonetic": "/ɛs ɡiːpt ˈaɪnən ˈzuːpɐmaʁkt hiːɐ̯/"
+      },
+      {
+        "text": "Da ist ein Hund im Garten.",
+        "translation": "Hay un perro en el jardín.",
+        "phonetic": "/daː ɪst aɪn hʊnt ɪm ˈɡaʁtn̩/"
+      },
+      {
+        "text": "Da sind zwei Katzen auf dem Sofa.",
+        "translation": "Hay dos gatos en el sofá.",
+        "phonetic": "/daː zɪnt t͡svaɪ ˈkat͡sn̩ aʊf deːm ˈzoːfa/"
+      },
+      {
+        "text": "Es gibt keine Milch im Kühlschrank.",
+        "translation": "No hay leche en el refrigerador.",
+        "phonetic": "/ɛs ɡiːpt ˈkaɪnə mɪlç ɪm ˈkyːlʃʁaŋk/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Es gibt nicht ein Buch.",
+      "correct": "Es gibt kein Buch.",
+      "correct_alt": "Da ist kein Buch.",
+      "explanation": "Los hispanohablantes a menudo usan 'nicht' para negar 'es gibt', pero en alemán, para negar la existencia de algo, se usa 'kein' (ninguno) en lugar de 'nicht ein'. 'Nicht' se usa para negar verbos o adjetivos, pero no para negar sustantivos indefinidos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "es gibt + Akkusativ",
+        "translation": "es gibt + acusativo",
+        "examples": [
+          {
+            "original": "Es gibt ein Problem.",
+            "phonetic": "/ɛs ɡiːpt aɪn pʁoˈbleːm/",
+            "translation": "Hay un problema.",
+            "note": "Se usa 'es gibt' con acusativo: 'ein Problem' (un problema)."
+          },
+          {
+            "original": "Es gibt viele Leute auf der Straße.",
+            "phonetic": "/ɛs ɡiːpt ˈfiːlə ˈlɔɪtə aʊf deːɐ̯ ˈʃtʁaːsə/",
+            "translation": "Hay mucha gente en la calle.",
+            "note": "'viele Leute' está en acusativo plural (se mantiene igual que nominativo)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "da ist / da sind",
+        "translation": "hay (singular/plural, coloquial)",
+        "examples": [
+          {
+            "original": "Da ist ein Stuhl.",
+            "phonetic": "/daː ɪst aɪn ʃtuːl/",
+            "translation": "Hay una silla.",
+            "note": "'da ist' es más informal y se usa para singular."
+          },
+          {
+            "original": "Da sind Blumen im Garten.",
+            "phonetic": "/daː zɪnt ˈbluːmən ɪm ˈɡaʁtn̩/",
+            "translation": "Hay flores en el jardín.",
+            "note": "'da sind' para plural, con nominativo."
+          },
+          {
+            "original": "Da ist ein Auto vor dem Haus.",
+            "phonetic": "/daː ɪst aɪn ˈaʊ̯to foːɐ̯ deːm haʊ̯s/",
+            "translation": "Hay un coche delante de la casa.",
+            "note": "La posición de 'da' al inicio es típica en alemán."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negation und Fragen",
+        "translation": "negación y preguntas",
+        "examples": [
+          {
+            "original": "Es gibt kein Brot.",
+            "phonetic": "/ɛs ɡiːpt kaɪn bʁoːt/",
+            "translation": "No hay pan.",
+            "note": "Usamos 'kein' antes de sustantivos masculinos/neutros (acusativo)."
+          },
+          {
+            "original": "Gibt es einen Bahnhof hier?",
+            "phonetic": "/ɡiːpt ɛs ˈaɪnən ˈbaːnhoːf hiːɐ̯/",
+            "translation": "¿Hay una estación de tren aquí?",
+            "note": "En preguntas, 'es gibt' se invierte a 'gibt es'."
+          },
+          {
+            "original": "Sind da Äpfel? - Nein, da sind keine.",
+            "phonetic": "/zɪnt daː ˈɛpfəl/ - /naɪn, daː zɪnt ˈkaɪnə/",
+            "translation": "¿Hay manzanas? - No, no hay ninguna.",
+            "note": "En la respuesta, 'keine' se usa para negar plural."
+          }
+        ]
+      }
+    ],
+    "emoji": "🌍",
+    "phonetic": "",
+    "translations": {
+      "es": "Hay / Existencia"
+    }
+  },
+  {
+    "id": "es_A1_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Präpositionen des Ortes / Preposiciones de lugar",
+    "bridge": "En español, usamos preposiciones como 'en', 'sobre', 'debajo de' sin cambios en el sustantivo. En alemán, las preposiciones de lugar requieren que el artículo que las sigue cambie según el caso (dativo o acusativo), lo cual puede resultar confuso para hablantes de español. La clave está en preguntarse: ¿hay movimiento? Si es así, se usa acusativo; si es posición estática, dativo. Además, muchas preposiciones alemanas tienen significados que no coinciden exactamente con una única preposición española, como 'an' que puede ser 'en' o 'junto a'.",
+    "rule": "Las preposiciones de lugar más comunes en alemán son: 'in' (en, dentro de), 'an' (en, junto a), 'auf' (sobre, encima de), 'über' (sobre, encima de, sin contacto), 'unter' (debajo de), 'vor' (delante de), 'hinter' (detrás de), 'neben' (al lado de), 'zwischen' (entre). Estas preposiciones pueden regir dativo (posición: wo? ¿dónde?) o acusativo (dirección: wohin? ¿adónde?). En dativo, los artículos cambian: der→dem, die→der, das→dem. En acusativo: der→den, die→die, das→das. Para A1, nos centramos en el uso más común (dativo) y en contextos fijos como 'nach Hause' (a casa) o 'zu Hause' (en casa). Excepciones: 'in' se usa con países y ciudades sin artículo, y 'nach' se usa para direcciones sin artículo.",
+    "concept_examples": [
+      {
+        "text": "Das Buch ist auf dem Tisch.",
+        "translation": "El libro está sobre la mesa.",
+        "phonetic": "[das buːx ɪst aʊf deːm tɪʃ]"
+      },
+      {
+        "text": "Ich bin in der Schule.",
+        "translation": "Estoy en la escuela.",
+        "phonetic": "[ɪç bɪn ɪn deːɐ̯ ˈʃuːlə]"
+      },
+      {
+        "text": "Die Katze ist unter dem Bett.",
+        "translation": "El gato está debajo de la cama.",
+        "phonetic": "[diː ˈkatsə ɪst ˈʊntɐ deːm bɛt]"
+      },
+      {
+        "text": "Wir gehen in das Kino.",
+        "translation": "Vamos al cine. (Literal: dentro del cine)",
+        "phonetic": "[viːɐ̯ ˈɡeːən ɪn das ˈkiːno]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Das Buch ist auf der Tisch.",
+      "correct": "Das Buch ist auf dem Tisch.",
+      "correct_alt": "Das Buch ist auf den Tisch. (si hay movimiento)",
+      "explanation": "El error ocurre porque en español decimos 'sobre la mesa' sin cambiar el artículo. En alemán, con preposición de posición (dónde), se usa dativo: der Tisch → dem Tisch. Si fuera movimiento (poner el libro sobre la mesa), se usaría acusativo: den Tisch. Recuerda: después de preposiciones de lugar, pregunta 'wo?' (dónde) → dativo, 'wohin?' (adónde) → acusativo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "in, an, auf (en, junto a, sobre)",
+        "translation": "en, junto a, sobre",
+        "examples": [
+          {
+            "original": "Ich wohne in Berlin.",
+            "phonetic": "[ɪç ˈvoːnə ɪn bɛʁˈliːn]",
+            "translation": "Vivo en Berlín.",
+            "note": "'in' se usa con ciudades y países sin artículo."
+          },
+          {
+            "original": "Das Bild hängt an der Wand.",
+            "phonetic": "[das bɪlt hɛŋt an deːɐ̯ vant]",
+            "translation": "El cuadro cuelga en la pared.",
+            "note": "'an' indica contacto vertical o cercanía."
+          },
+          {
+            "original": "Die Tasse ist auf dem Tisch.",
+            "phonetic": "[diː ˈtasə ɪst aʊf deːm tɪʃ]",
+            "translation": "La taza está sobre la mesa.",
+            "note": "'auf' se usa para superficies horizontales con contacto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "über, unter, vor, hinter (sobre, debajo, delante, detrás)",
+        "translation": "sobre (sin contacto), debajo de, delante de, detrás de",
+        "examples": [
+          {
+            "original": "Die Lampe hängt über dem Tisch.",
+            "phonetic": "[diː ˈlampə hɛŋt ˈyːbɐ deːm tɪʃ]",
+            "translation": "La lámpara cuelga sobre la mesa (sin tocarla).",
+            "note": "'über' se usa para algo más alto que otra cosa sin contacto."
+          },
+          {
+            "original": "Der Hund schläft unter dem Sofa.",
+            "phonetic": "[deːɐ̯ hʊnt ʃlɛːft ˈʊntɐ deːm ˈzoːfa]",
+            "translation": "El perro duerme debajo del sofá.",
+            "note": "Recuerda que 'unter' requiere dativo en posición."
+          },
+          {
+            "original": "Das Auto steht vor dem Haus.",
+            "phonetic": "[das ˈaʊtoː ʃteːt foːɐ̯ deːm haʊs]",
+            "translation": "El coche está delante de la casa.",
+            "note": "'vor' significa delante de; en español a veces usamos 'enfrente de'."
+          },
+          {
+            "original": "Der Garten ist hinter dem Haus.",
+            "phonetic": "[deːɐ̯ ˈɡaʁtən ɪst ˈhɪntɐ deːm haʊs]",
+            "translation": "El jardín está detrás de la casa.",
+            "note": "'hinter' es lo opuesto de 'vor'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "neben, zwischen, zu, nach (al lado de, entre, a, hacia)",
+        "translation": "al lado de, entre, a, hacia",
+        "examples": [
+          {
+            "original": "Die Bank ist neben dem Supermarkt.",
+            "phonetic": "[diː baŋk ɪst ˈneːbən deːm ˈzuːpɐmaʁkt]",
+            "translation": "El banco está al lado del supermercado.",
+            "note": "'neben' significa al lado de; es común en direcciones."
+          },
+          {
+            "original": "Das Café ist zwischen der Kirche und dem Bahnhof.",
+            "phonetic": "[das kaˈfeː ɪst ˈtsvɪʃən deːɐ̯ ˈkɪʁçə ʊnt deːm ˈbaːnhoːf]",
+            "translation": "El café está entre la iglesia y la estación de tren.",
+            "note": "'zwischen' se usa con dos objetos o lugares."
+          },
+          {
+            "original": "Ich gehe zu der Party.",
+            "phonetic": "[ɪç ˈɡeːə tsuː deːɐ̯ ˈpaʁti]",
+            "translation": "Voy a la fiesta.",
+            "note": "'zu' se usa para dirección hacia un lugar específico (persona o evento)."
+          },
+          {
+            "original": "Wir fahren nach Spanien.",
+            "phonetic": "[viːɐ̯ ˈfaːʁən naːx ˈʃpaːniən]",
+            "translation": "Vamos a España.",
+            "note": "Se usa 'nach' con países y ciudades sin artículo, y con direcciones cardinales."
+          }
+        ]
+      }
+    ],
+    "emoji": "📍",
+    "phonetic": "",
+    "translations": {
+      "es": "Preposiciones básicas de lugar"
+    }
+  },
+  {
+    "id": "es_A1_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Tage, Monate und Jahreszeiten / Días, meses y estaciones",
+    "bridge": "En alemán, los días, meses y estaciones se escriben siempre con mayúscula inicial, igual que en español, pero a diferencia del español, la mayoría son de género masculino y se usan con la preposición 'am' (contracción de 'an dem') para indicar 'en' o 'el' (por ejemplo, 'am Montag' = 'el lunes'). Además, en alemán el orden de la fecha es día, mes y año (como en español), pero se usa el punto ordinal (1. Mai) y se dice 'der erste Mai'. Ojo: los meses no se traducen igual; por ejemplo, 'Marz' en español es 'marzo' y no 'martes'.",
+    "rule": "En alemán, los días de la semana, los meses y las estaciones son sustantivos y siempre llevan mayúscula inicial. Los días de la semana son: Montag (lunes), Dienstag (martes), Mittwoch (miércoles), Donnerstag (jueves), Freitag (viernes), Samstag (sábado), Sonntag (domingo). Los meses son: Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember. Las estaciones son: Frühling (primavera), Sommer (verano), Herbst (otoño), Winter (invierno). Para expresar 'en' con días se usa 'am' (ej. 'am Montag'), con meses se usa 'im' (ej. 'im Januar') y con estaciones también 'im' (ej. 'im Sommer'). Para fechas se usa el ordinal: el primero de mayo = 'der erste Mai' o 'am ersten Mai'. Nota: el sábado también se dice 'Sonnabend' en el norte de Alemania, pero 'Samstag' es más común. Excepción: 'Mittwoch' no contiene 'tag' pero es masculino.",
+    "concept_examples": [
+      {
+        "text": "Heute ist Montag.",
+        "translation": "Hoy es lunes.",
+        "phonetic": "/ˈhɔʏtə ɪst ˈmoːntaːk/"
+      },
+      {
+        "text": "Mein Geburtstag ist im Mai.",
+        "translation": "Mi cumpleaños es en mayo.",
+        "phonetic": "/maɪn ɡəˈbuːɐ̯tstaːk ɪst ɪm maɪ̯/"
+      },
+      {
+        "text": "Im Sommer ist es warm.",
+        "translation": "En verano hace calor.",
+        "phonetic": "/ɪm ˈzɔmɐ ɪst ɛs vaʁm/"
+      },
+      {
+        "text": "Der erste Januar ist Neujahr.",
+        "translation": "El primero de enero es Año Nuevo.",
+        "phonetic": "/deːɐ̯ ˈeːɐ̯stə ˈjanuaːɐ̯ ɪst ˈnɔʏ̯jaːɐ̯/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Hoy es lunes.",
+      "correct": "Heute ist Montag.",
+      "correct_alt": "Heute haben wir Montag.",
+      "explanation": "El error típico es traducir literalmente 'Hoy es lunes' como 'Heute ist Montag' pero a veces los hispanohablantes dicen 'Hoy es lunes' en alemán como 'Heute ist der Montag' (con artículo), pero en alemán no se usa artículo cuando se dice el día de la semana en general. Se dice 'Heute ist Montag' sin 'der'. Otra variante correcta es 'Heute haben wir Montag' (literalmente 'Hoy tenemos lunes'), que es más coloquial. Evita la interferencia del español que a veces usa 'el lunes'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Die Wochentage",
+        "translation": "Los días de la semana",
+        "examples": [
+          {
+            "original": "Montag",
+            "phonetic": "/ˈmoːntaːk/",
+            "translation": "lunes",
+            "note": "Recuerda: todos los días terminan en '-tag' excepto 'Mittwoch'."
+          },
+          {
+            "original": "Mittwoch",
+            "phonetic": "/ˈmɪtvɔx/",
+            "translation": "miércoles",
+            "note": "Literalmente significa 'mitad de semana'."
+          },
+          {
+            "original": "Samstag",
+            "phonetic": "/ˈzamstaːk/",
+            "translation": "sábado",
+            "note": "También se dice 'Sonnabend' en el norte."
+          },
+          {
+            "original": "Sonntag",
+            "phonetic": "/ˈzɔntaːk/",
+            "translation": "domingo",
+            "note": "Se usa 'am Sonntag' para 'el domingo'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Die Monate",
+        "translation": "Los meses",
+        "examples": [
+          {
+            "original": "Januar",
+            "phonetic": "/ˈjanuaːɐ̯/",
+            "translation": "enero",
+            "note": "Se usa 'im Januar' para 'en enero'."
+          },
+          {
+            "original": "März",
+            "phonetic": "/mɛʁt͡s/",
+            "translation": "marzo",
+            "note": "Cuidado con la diéresis, no es 'Marz'."
+          },
+          {
+            "original": "Mai",
+            "phonetic": "/maɪ̯/",
+            "translation": "mayo",
+            "note": "Se pronuncia como 'mai' con diptongo."
+          },
+          {
+            "original": "Dezember",
+            "phonetic": "/deˈt͡sɛmbɐ/",
+            "translation": "diciembre",
+            "note": "El mes más corto y con 'z' que se pronuncia /ts/."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Die Jahreszeiten und Datumsangaben",
+        "translation": "Las estaciones y las fechas",
+        "examples": [
+          {
+            "original": "der Frühling",
+            "phonetic": "/deːɐ̯ ˈfʁyːlɪŋ/",
+            "translation": "la primavera",
+            "note": "Se usa 'im Frühling' para 'en primavera'."
+          },
+          {
+            "original": "der Sommer",
+            "phonetic": "/deːɐ̯ ˈzɔmɐ/",
+            "translation": "el verano",
+            "note": "Igual que en español, pero con article masculino 'der'."
+          },
+          {
+            "original": "der Herbst",
+            "phonetic": "/deːɐ̯ hɛʁpst/",
+            "translation": "el otoño",
+            "note": "La 'h' es muda y la 'st' se pronuncia /ʃt/."
+          },
+          {
+            "original": "der Winter",
+            "phonetic": "/deːɐ̯ ˈvɪntɐ/",
+            "translation": "el invierno",
+            "note": "Se escribe con 'W' que suena como /v/."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "es": "Días, meses y estaciones"
+    }
+  },
+  {
+    "id": "es_A1_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Das Verb „haben“ / El verbo tener",
+    "bridge": "En alemán, el verbo 'haben' (tener) es un verbo irregular que cambia su raíz en las formas de 'du' y 'er/sie/es'. A diferencia del español, donde 'tener' también es irregular, en alemán la segunda persona singular usa 'hast' en lugar de 'habst'. Además, en alemán no se usa el verbo 'haben' para expresar edad (se usa 'sein') ni para expresar sensaciones como hambre o sed (se usa 'haben' con sustantivos, pero cuidado: no se dice 'tengo hambre' literalmente, sino 'ich habe Hunger'). Es importante recordar que 'haben' siempre va acompañado de un acusativo para el objeto directo.",
+    "rule": "El verbo 'haben' (tener) se conjuga de la siguiente manera en presente de indicativo:\n- ich habe (yo tengo)\n- du hast (tú tienes)\n- er/sie/es hat (él/ella/usted tiene)\n- wir haben (nosotros tenemos)\n- ihr habt (vosotros tenéis)\n- sie/Sie haben (ellos/ustedes tienen)\n\nEs un verbo irregular porque la segunda y tercera persona del singular cambian la raíz 'b' a 'st' y 't' respectivamente. Se usa para expresar posesión (Ich habe ein Buch), relaciones (Ich habe einen Bruder), estados físicos (Ich habe Hunger), y con algunos verbos en perfecto. En alemán, la edad se expresa con 'sein' (Ich bin 20 Jahre alt), no con 'haben'. Además, con 'haben' se usa el artículo indeterminado 'ein/eine' y el artículo definido 'den/die/das' según el caso acusativo.",
+    "concept_examples": [
+      {
+        "text": "Ich habe einen Hund.",
+        "translation": "Yo tengo un perro.",
+        "phonetic": "ɪç ˈhaːbə ˈaɪnən hʊnt"
+      },
+      {
+        "text": "Du hast eine Schwester.",
+        "translation": "Tú tienes una hermana.",
+        "phonetic": "duː hast ˈaɪnə ˈʃvɛstɐ"
+      },
+      {
+        "text": "Er hat ein Auto.",
+        "translation": "Él tiene un coche.",
+        "phonetic": "eːɐ̯ hat aɪn ˈaʊto"
+      },
+      {
+        "text": "Wir haben Zeit.",
+        "translation": "Nosotros tenemos tiempo.",
+        "phonetic": "viːɐ̯ ˈhaːbən tsaɪt"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich habe 20 Jahre alt.",
+      "correct": "Ich bin 20 Jahre alt.",
+      "correct_alt": "Ich habe 20 Jahre.",
+      "explanation": "En español decimos 'tengo 20 años', pero en alemán la edad se expresa con el verbo 'sein' (ser/estar). Decir 'Ich habe 20 Jahre alt' es una traducción literal que no es correcta. La forma correcta es 'Ich bin 20 Jahre alt'. También se puede decir 'Ich habe 20 Jahre' informalmente, pero no es la manera más común."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Konjugation von „haben“",
+        "translation": "Conjugación de 'haben'",
+        "examples": [
+          {
+            "original": "Ich habe ein Buch.",
+            "phonetic": "ɪç ˈhaːbə aɪn buːx",
+            "translation": "Yo tengo un libro.",
+            "note": "Recuerda que 'ein' se usa para masculino y neutro, y 'eine' para femenino."
+          },
+          {
+            "original": "Du hast einen Stift.",
+            "phonetic": "duː hast ˈaɪnən ʃtɪft",
+            "translation": "Tú tienes un bolígrafo.",
+            "note": "Observa la forma 'hast' con 't' en lugar de 'b'. También nota 'einen' en acusativo masculino."
+          },
+          {
+            "original": "Er hat eine Frage.",
+            "phonetic": "eːɐ̯ hat ˈaɪnə ˈfʁaːɡə",
+            "translation": "Él tiene una pregunta.",
+            "note": "La tercera persona del singular es 'hat' sin 'b'. 'Frage' es femenino, por eso 'eine'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Haben mit Akkusativ",
+        "translation": "Haben con acusativo",
+        "examples": [
+          {
+            "original": "Wir haben den Schlüssel.",
+            "phonetic": "viːɐ̯ ˈhaːbən deːn ˈʃlʏsəl",
+            "translation": "Nosotros tenemos la llave.",
+            "note": "El objeto directo va en acusativo: 'den Schlüssel' (la llave)."
+          },
+          {
+            "original": "Ihr habt das Auto.",
+            "phonetic": "iːɐ̯ hapt das ˈaʊto",
+            "translation": "Vosotros tenéis el coche.",
+            "note": "La forma 'ihr habt' es para la segunda persona del plural (vosotros)."
+          },
+          {
+            "original": "Sie haben die Zeit.",
+            "phonetic": "ziː ˈhaːbən diː tsaɪt",
+            "translation": "Ellos/ustedes tienen el tiempo.",
+            "note": "La forma 'sie' puede ser 'ellos' o 'usted', y 'Sie' (mayúscula) es la forma formal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nützliche Ausdrücke mit „haben“",
+        "translation": "Expresiones útiles con 'haben'",
+        "examples": [
+          {
+            "original": "Ich habe Hunger.",
+            "phonetic": "ɪç ˈhaːbə ˈhʊŋɐ",
+            "translation": "Tengo hambre.",
+            "note": "Literalmente 'tengo hambre' pero se usa 'haben' + sustantivo, no verbo."
+          },
+          {
+            "original": "Hast du Durst?",
+            "phonetic": "hast duː dʊʁst",
+            "translation": "¿Tienes sed?",
+            "note": "Pregunta con 'haben' en segunda persona singular. 'Durst' es sed."
+          },
+          {
+            "original": "Wir haben kein Geld.",
+            "phonetic": "viːɐ̯ ˈhaːbən kaɪn ɡɛlt",
+            "translation": "No tenemos dinero.",
+            "note": "La negación con 'kein' se usa para sustantivos, aquí 'kein Geld'."
+          }
+        ]
+      }
+    ],
+    "emoji": "💼",
+    "phonetic": "",
+    "translations": {
+      "es": "El verbo tener"
+    }
+  },
+  {
+    "id": "es_A1_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "können / poder (verbo modal básico)",
+    "bridge": "En español, 'poder' se conjuga en presente como 'puedo, puedes, puede...'. En alemán, 'können' también es irregular: 'ich kann, du kannst, er kann'. A diferencia del español, el verbo modal en alemán va en segunda posición en la frase principal y el verbo principal se coloca al final en infinitivo. Además, en alemán, 'können' puede expresar tanto habilidad ('sé hacer algo') como posibilidad ('es posible'), al igual que 'poder' en español, pero ten cuidado: para hablar de 'saber' (conocimiento) se usa 'kennen' (conocer) o 'wissen' (saber), mientras que 'können' solo para habilidades. Por ejemplo, 'Ich kann Deutsch sprechen' = 'Puedo hablar alemán' (habilidad) y 'Das kann sein' = 'Eso puede ser' (posibilidad).",
+    "rule": "El verbo modal 'können' (poder) se conjuga en presente de la siguiente manera: ich kann, du kannst, er/sie/es kann, wir können, ihr könnt, sie/Sie können. En una oración principal, 'können' ocupa la segunda posición (o primera si es pregunta) y el verbo principal en infinitivo se coloca al final. Por ejemplo: 'Ich kann gut schwimmen' (Puedo nadar bien). Cuando se usa solo sin otro verbo, 'können' significa 'saber hacer algo' (Ich kann das = Sé hacer eso). Para expresar posibilidad, se usa con un infinitivo o en construcciones impersonales como 'Das kann sein' (Eso puede ser). Es común usarlo para pedir permiso de forma educada (¿Kann ich bitte ...? = ¿Puedo ... por favor?). En preguntas, se invierte el orden: 'Kannst du mir helfen?' (¿Puedes ayudarme?). A diferencia del español, en alemán no se usa 'können' para expresar 'poder' como permiso formal; en ese caso se prefiere 'dürfen' (más formal y de permiso). Para A1, es suficiente conocer las formas yo, tú, él/ella, nosotros, vosotros y ellos/usted.",
+    "concept_examples": [
+      {
+        "text": "Ich kann Deutsch sprechen.",
+        "translation": "Puedo hablar alemán.",
+        "phonetic": "[ɪç kan dɔʏtʃ ˈʃpʀɛçən]"
+      },
+      {
+        "text": "Kannst du schwimmen?",
+        "translation": "¿Puedes nadar?",
+        "phonetic": "[kanst duː ˈʃvɪmən]"
+      },
+      {
+        "text": "Er kann nicht kommen.",
+        "translation": "Él no puede venir.",
+        "phonetic": "[eːɐ̯ kan nɪçt ˈkɔmən]"
+      },
+      {
+        "text": "Wir können heute feiern.",
+        "translation": "Podemos celebrar hoy.",
+        "phonetic": "[viːɐ̯ ˈkœnən ˈhɔʏtə ˈfaɪ̯ɐn]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich kann schwimmen können.",
+      "correct": "Ich kann schwimmen.",
+      "correct_alt": "Ich kann schwimmen. (sin infinitivo adicional)",
+      "explanation": "En español a veces decimos 'puedo nadar' y el verbo modal ya incluye la acción, pero en alemán, si usas 'können' con otro verbo, el segundo verbo va en infinitivo al final, PERO no se repite 'können'. El error común de los hispanohablantes es añadir 'können' dos veces (como 'puedo poder nadar'). Solo se usa un modal. Para expresar habilidad, se dice 'Ich kann schwimmen' (Puedo nadar). Si quieres decir 'puedo hacer algo más', usas el verbo principal: 'Ich kann kochen' (Puedo cocinar)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Konjugation im Präsens",
+        "translation": "Conjugación en presente",
+        "examples": [
+          {
+            "original": "Ich kann gut kochen.",
+            "phonetic": "[ɪç kan guːt ˈkɔxən]",
+            "translation": "Yo puedo/sé cocinar bien.",
+            "note": "Fíjate que 'kann' tiene una 'a' corta y no lleva diéresis. Aquí expresa habilidad."
+          },
+          {
+            "original": "Du kannst schnell laufen.",
+            "phonetic": "[duː kanst ʃnɛl ˈlaʊfən]",
+            "translation": "Tú puedes correr rápido.",
+            "note": "La forma 'kannst' para 'du' (tú) es similar a la del español, pero recuerda la terminación -st."
+          },
+          {
+            "original": "Er kann nicht singen.",
+            "phonetic": "[eːɐ̯ kan nɪçt ˈzɪŋən]",
+            "translation": "Él no puede cantar.",
+            "note": "La tercera persona singular 'kann' es igual que la primera persona, como en español 'puede'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Fragen und Verneinung",
+        "translation": "Preguntas y negación",
+        "examples": [
+          {
+            "original": "Kannst du mir helfen?",
+            "phonetic": "[kanst duː miːɐ̯ ˈhɛlfən]",
+            "translation": "¿Puedes ayudarme?",
+            "note": "En preguntas, el verbo modal va primero. En español, la entonación hace la pregunta, pero en alemán es el orden."
+          },
+          {
+            "original": "Ich kann nicht kommen.",
+            "phonetic": "[ɪç kan nɪçt ˈkɔmən]",
+            "translation": "No puedo venir.",
+            "note": "La negación 'nicht' se coloca antes del infinitivo al final. Ojo: en español 'no' va antes del verbo."
+          },
+          {
+            "original": "Kann er schwimmen?",
+            "phonetic": "[kan eːɐ̯ ˈʃvɪmən]",
+            "translation": "¿Puede él nadar?",
+            "note": "Para preguntas con 'er/sie/es', la forma es 'kann', sin 't'. Recuerda la inversión."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Bedeutungen und Höflichkeit",
+        "translation": "Significados y cortesía",
+        "examples": [
+          {
+            "original": "Das kann teuer sein.",
+            "phonetic": "[das kan ˈtɔʏɐ̯ zaɪn]",
+            "translation": "Eso puede ser caro.",
+            "note": "Aquí 'können' expresa posibilidad, no habilidad. Equivale a 'puede ser' en español."
+          },
+          {
+            "original": "Kann ich bitte die Rechnung haben?",
+            "phonetic": "[kan ɪç ˈbɪtə diː ˈʁɛçnʊŋ ˈhaːbən]",
+            "translation": "¿Puedo tener la cuenta, por favor?",
+            "note": "Uso cortés para pedir algo. Es equivalente a '¿me trae la cuenta?'."
+          },
+          {
+            "original": "Sie können mich duzen.",
+            "phonetic": "[ziː ˈkœnən mɪç ˈduːtsən]",
+            "translation": "Usted puede tutearme.",
+            "note": "Con 'Sie' (usted/ellos) se usa 'können' (igual que 'ellos' y 'ustedes'). Aquí expresa permiso."
+          }
+        ]
+      }
+    ],
+    "emoji": "💪",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbo poder (können)"
+    }
+  },
+  {
+    "id": "es_A1_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbos irregulares básicos (gehen, kommen, tun, machen) / Verbos irregulares básicos",
+    "bridge": "En español, los verbos como 'ir', 'venir', 'hacer' también son irregulares, pero en alemán hay que prestar atención a los cambios de vocal en las formas de 'du' y 'er/sie/es'. Por ejemplo, 'gehen' (ir) cambia a 'du gehst' y 'er geht', pero no cambia la raíz. Sin embargo, 'nehmen' (tomar) cambia de 'e' a 'i' en 'du nimmst'. Además, en alemán no existe la distinción entre 'ser' y 'estar' para estos verbos, así que 'gehen' siempre es 'ir' y no tiene equivalente directo en español. Ojo: el verbo 'tun' (hacer) se usa menos que 'machen', pero es importante para expresiones fijas.",
+    "rule": "Estos cuatro verbos son irregulares en presente de indicativo. Las formas son: \n- **gehen** (ir): ich gehe, du gehst, er/sie/es geht, wir gehen, ihr geht, sie/Sie gehen. No cambia la raíz, solo la terminación. \n- **kommen** (venir): ich komme, du kommst, er/sie/es kommt, wir kommen, ihr kommt, sie/Sie kommen. Sin cambio de raíz. \n- **tun** (hacer/poner): ich tue, du tust, er/sie/es tut, wir tun, ihr tut, sie/Sie tun. Cambia la vocal en du/er/sie/es (e -> u). \n- **machen** (hacer): ich mache, du machst, er/sie/es macht, wir machen, ihr macht, sie/Sie machen. Es es regular en presente, pero se incluye porque es confundido con 'tun'. \nUsos típicos: \n- 'gehen' se usa para movimiento a pie: 'Ich gehe nach Hause' (Voy a casa). \n- 'kommen' indica venir o llegar: 'Er kommt morgen' (Él viene mañana). \n- 'tun' se usa en expresiones como 'Gutes tun' (hacer el bien) o con pronombres: 'Was tust du?' (¿Qué haces?). \n- 'machen' es más común para actividades: 'Ich mache Hausaufgaben' (Hago los deberes). \nNo uses 'tun' para acciones concretas como en español 'hacer' general; prefiere 'machen'. Recuerda que en alemán el verbo siempre va en segunda posición en oraciones declarativas.",
+    "concept_examples": [
+      {
+        "text": "Ich gehe jeden Tag zur Schule.",
+        "translation": "Voy todos los días a la escuela.",
+        "phonetic": "ɪç ˈɡeːə ˈjeːdn̩ taːk tsuːɐ̯ ˈʃuːlə"
+      },
+      {
+        "text": "Wann kommst du nach Hause?",
+        "translation": "¿Cuándo vienes a casa?",
+        "phonetic": "van kɔmst duː naːx ˈhaʊzə"
+      },
+      {
+        "text": "Wir machen jetzt eine Pause.",
+        "translation": "Ahora hacemos una pausa.",
+        "phonetic": "vɪʁ ˈmaxən jɛtst ˈaɪ̯nə ˈpaʊzə"
+      },
+      {
+        "text": "Was tust du da?",
+        "translation": "¿Qué estás haciendo ahí?",
+        "phonetic": "vas tuːst duː daː"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich machen meine Hausaufgaben.",
+      "correct": "Ich mache meine Hausaufgaben.",
+      "correct_alt": "",
+      "explanation": "El error es usar la forma infinitiva 'machen' después de 'ich'. En alemán, el verbo debe conjugarse según el sujeto: 'ich' requiere la terminación '-e'. Este error ocurre porque en español a veces se usa el infinitivo en construcciones coloquiales ('yo hacer los deberes') y por influencia del inglés ('I do'). Para evitarlo, memoriza las conjugaciones y verifica siempre que el verbo concuerde con el sujeto en persona y número."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Konjugation",
+        "translation": "Conjugación",
+        "examples": [
+          {
+            "original": "Ich gehe, du kommst, er macht",
+            "phonetic": "ɪç ˈɡeːə, duː kɔmst, eːɐ̯ maxt",
+            "translation": "Yo voy, tú vienes, él hace",
+            "note": "Observa la diferencia en las terminaciones: -e para ich, -st para du, -t para er."
+          },
+          {
+            "original": "Wir tun, ihr tut, sie tun",
+            "phonetic": "vɪʁ tuːn, iːɐ̯ tuːt, ziː tuːn",
+            "translation": "Nosotros hacemos, vosotros hacéis, ellos hacen",
+            "note": "El verbo 'tun' es irregular en du y er: 'tust' y 'tut'."
+          },
+          {
+            "original": "Kommst du mit?",
+            "phonetic": "kɔmst duː mɪt",
+            "translation": "¿Vienes conmigo?",
+            "note": "En preguntas, el verbo conjugado va delante del sujeto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verwendung",
+        "translation": "Uso",
+        "examples": [
+          {
+            "original": "Ich gehe nach Berlin.",
+            "phonetic": "ɪç ˈɡeːə naːx bɛʁˈliːn",
+            "translation": "Voy a Berlín.",
+            "note": "Para destinos, usamos 'nach' con ciudades y países sin artículo."
+          },
+          {
+            "original": "Komm bitte her!",
+            "phonetic": "kɔm ˈbɪtə heːɐ̯",
+            "translation": "¡Ven aquí, por favor!",
+            "note": "Imperativo de 'kommen' para 'du' es 'komm' sin terminación."
+          },
+          {
+            "original": "Er macht einen Kaffee.",
+            "phonetic": "eːɐ̯ maxt ˈaɪ̯nən ˈkafeː",
+            "translation": "Él hace un café.",
+            "note": "En alemán se dice 'einen Kaffee machen' en lugar de 'cocinar'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Redewendungen",
+        "translation": "Expresiones idiomáticas",
+        "examples": [
+          {
+            "original": "Es tut mir leid.",
+            "phonetic": "ɛs tuːt miːɐ̯ laɪt",
+            "translation": "Lo siento.",
+            "note": "Expresión fija con 'tun' que no se traduce literalmente."
+          },
+          {
+            "original": "Das macht Sinn.",
+            "phonetic": "das maxt zɪn",
+            "translation": "Eso tiene sentido.",
+            "note": "Uso de 'machen' con sustantivos abstractos; en español usamos 'tener'."
+          },
+          {
+            "original": "Was machst du beruflich?",
+            "phonetic": "vas maxt duː bəˈʁuːflɪç",
+            "translation": "¿A qué te dedicas?",
+            "note": "Pregunta común para hablar de la profesión."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚶",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbos irregulares básicos"
+    }
+  },
+  {
+    "id": "es_A1_gram_18",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Die Uhrzeit / Decir la hora",
+    "bridge": "En español, para decir la hora usamos el verbo 'ser' (es la una, son las dos) y las horas se dividen en 'y cuarto', 'y media', 'menos cuarto'. En alemán, la estructura es diferente: se usa 'Es ist' sin importar el número, y los minutos se expresan de manera distinta, especialmente después de la media hora (por ejemplo, 'halb drei' significa 'las dos y media', no 'las tres y media' como sería literal). Además, en alemán los números de las horas se dicen primero y luego los minutos, pero a partir de los 30 minutos se indica cuántos minutos faltan para la siguiente hora.",
+    "rule": "En alemán, para decir la hora en A1, se usa la estructura: 'Es ist' + hora + 'Uhr' + (minutos). Para las horas exactas: 'Es ist zwei Uhr' (Son las dos en punto). Para los minutos de 1 a 24, se dice primero la hora y luego los minutos: 'Es ist zwei Uhr fünf' (Son las dos y cinco). Para los minutos de 25 a 59, se utiliza la forma 'vor' (antes de) o 'nach' (después de) con la hora siguiente o la hora actual. A partir de los 30 minutos, se usa comúnmente 'halb' + siguiente hora (por ejemplo, 'halb drei' = las dos y media). Para 15 minutos se dice 'Viertel nach' (y cuarto) o 'Viertel vor' (menos cuarto). Para 30 minutos exactos se dice 'halb' + siguiente hora. Para 45 minutos se dice 'Viertel vor' + siguiente hora. Las horas formales (por ejemplo, en horarios de trenes) usan el formato de 24 horas y se dice 'vierzehn Uhr dreißig' (14:30). En el lenguaje coloquial, se puede omitir 'Uhr' y decir 'Es ist zwei'.",
+    "concept_examples": [
+      {
+        "text": "Es ist ein Uhr.",
+        "translation": "Es la una.",
+        "phonetic": "/ɛs ɪst aɪn uːɐ̯/"
+      },
+      {
+        "text": "Es ist zwei Uhr fünf.",
+        "translation": "Son las dos y cinco.",
+        "phonetic": "/ɛs ɪst t͡svaɪ̯ uːɐ̯ fʏnf/"
+      },
+      {
+        "text": "Es ist halb drei.",
+        "translation": "Son las dos y media.",
+        "phonetic": "/ɛs ɪst halp dʁaɪ̯/"
+      },
+      {
+        "text": "Es ist Viertel vor vier.",
+        "translation": "Son las tres y cuarenta y cinco / Son las cuatro menos cuarto.",
+        "phonetic": "/ɛs ɪst ˈfɪʁtl̩ foːɐ̯ fiːɐ̯/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Es ist drei Uhr halb.",
+      "correct": "Es ist halb drei.",
+      "correct_alt": "Es ist zwei Uhr dreißig.",
+      "explanation": "El error común es traducir literalmente 'las dos y media' como 'zwei Uhr halb', pero en alemán la estructura es 'halb' + siguiente hora, sin mencionar la hora actual. Además, 'halb' siempre va antes de la hora siguiente. Para evitar este error, recuerda que 'halb drei' significa 'la mitad de la tercera hora', es decir, las dos y media. Alternativamente, puedes usar el formato digital 'zwei Uhr dreißig' (las dos y treinta) para ser más claro."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Volle Stunden",
+        "translation": "Horas en punto",
+        "examples": [
+          {
+            "original": "Es ist ein Uhr.",
+            "phonetic": "/ɛs ɪst aɪn uːɐ̯/",
+            "translation": "Es la una.",
+            "note": "Se usa 'Es ist' para todas las horas, a diferencia del español que cambia 'es' y 'son'."
+          },
+          {
+            "original": "Es ist zwei Uhr.",
+            "phonetic": "/ɛs ɪst t͡svaɪ̯ uːɐ̯/",
+            "translation": "Son las dos.",
+            "note": "'Uhr' se usa para indicar hora en punto."
+          },
+          {
+            "original": "Es ist vier Uhr.",
+            "phonetic": "/ɛs ɪst fiːɐ̯ uːɐ̯/",
+            "translation": "Son las cuatro.",
+            "note": "Recuerda que en alemán no hay diferencia entre 'es' y 'son'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Minuten nach der vollen Stunde",
+        "translation": "Minutos después de la hora en punto (hasta 30)",
+        "examples": [
+          {
+            "original": "Es ist fünf nach zwei.",
+            "phonetic": "/ɛs ɪst fʏnf naːx t͡svaɪ̯/",
+            "translation": "Son las dos y cinco.",
+            "note": "Se usa 'nach' para minutos después de la hora, del 1 al 24."
+          },
+          {
+            "original": "Es ist Viertel nach drei.",
+            "phonetic": "/ɛs ɪst ˈfɪʁtl̩ naːx dʁaɪ̯/",
+            "translation": "Son las tres y cuarto.",
+            "note": "'Viertel' significa cuarto de hora."
+          },
+          {
+            "original": "Es ist halb vier.",
+            "phonetic": "/ɛs ɪst halp fiːɐ̯/",
+            "translation": "Son las tres y media.",
+            "note": "'halb' se usa para la media hora, pero indica la siguiente hora."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Minuten vor der nächsten Stunde",
+        "translation": "Minutos antes de la siguiente hora (de 31 a 59)",
+        "examples": [
+          {
+            "original": "Es ist zehn vor drei.",
+            "phonetic": "/ɛs ɪst t͡seːn foːɐ̯ dʁaɪ̯/",
+            "translation": "Son las dos y cincuenta.",
+            "note": "Se usa 'vor' para indicar minutos que faltan para la siguiente hora."
+          },
+          {
+            "original": "Es ist Viertel vor fünf.",
+            "phonetic": "/ɛs ɪst ˈfɪʁtl̩ foːɐ̯ fʏnf/",
+            "translation": "Son las cuatro y cuarenta y cinco.",
+            "note": "'Viertel vor' se usa para los 45 minutos."
+          },
+          {
+            "original": "Es ist zwanzig vor sechs.",
+            "phonetic": "/ɛs ɪst ˈt͡svant͡sɪç foːɐ̯ zɛks/",
+            "translation": "Son las cinco y cuarenta.",
+            "note": "Puedes usar también el formato digital: 'Es ist fünf Uhr vierzig'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕐",
+    "phonetic": "",
+    "translations": {
+      "es": "Decir la hora"
+    }
   }
 ]

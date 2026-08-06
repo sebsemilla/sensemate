@@ -1,0 +1,2786 @@
+[
+  {
+    "id": "ru_A1_vctx_01",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Greeting someone for the first time",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "hola",
+        "pos": "interj",
+        "translation": "привет",
+        "phonetic": "/ˈola/"
+      },
+      {
+        "word": "yo",
+        "pos": "pron",
+        "translation": "я",
+        "note": "Часто опускается в испанском, но используется для акцента или ясности.",
+        "phonetic": "/ʝo/"
+      },
+      {
+        "word": "llamarse",
+        "pos": "verb",
+        "translation": "называться (звать себя)",
+        "note": "Возвратный глагол; 'me llamo' = 'меня зовут'.",
+        "phonetic": "/ʝaˈmaɾse/"
+      },
+      {
+        "word": "encantado",
+        "pos": "adj",
+        "translation": "восхищён, рад (познакомиться)",
+        "note": "Согласуется с родом говорящего: encantado (м.р.), encantada (ж.р.).",
+        "phonetic": "/eŋkanˈtado/"
+      },
+      {
+        "word": "de",
+        "pos": "prep",
+        "translation": "из, от",
+        "phonetic": "/de/"
+      },
+      {
+        "word": "dónde",
+        "pos": "adv",
+        "translation": "где, куда",
+        "note": "Используется в вопросах; несёт знак ударения.",
+        "phonetic": "/ˈdonde/"
+      },
+      {
+        "word": "ser",
+        "pos": "verb",
+        "translation": "быть",
+        "note": "Используется для постоянных характеристик, происхождения и идентичности.",
+        "phonetic": "/seɾ/"
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "translation": "очень",
+        "phonetic": "/muj/"
+      },
+      {
+        "word": "gusto",
+        "pos": "noun",
+        "translation": "удовольствие, симпатия",
+        "phonetic": "/ˈɡusto/"
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "translation": "также, тоже",
+        "phonetic": "/tamˈbjen/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¡Hola! Yo soy Ana. ¿Y tú?",
+        "translation": "Привет! Я Ана. А ты?",
+        "highlights": [
+          "Hola",
+          "Yo",
+          "soy"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hola, Ana. Me llamo Luis. Mucho gusto.",
+        "translation": "Привет, Ана. Меня зовут Луис. Очень приятно.",
+        "highlights": [
+          "Hola",
+          "llamo",
+          "gusto"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Encantada, Luis. ¿De dónde eres?",
+        "translation": "Приятно познакомиться, Луис. Откуда ты?",
+        "highlights": [
+          "Encantada",
+          "De",
+          "dónde",
+          "eres"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Soy de Madrid. ¿Y tú?",
+        "translation": "Я из Мадрида. А ты?",
+        "highlights": [
+          "Soy"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Yo soy de México. ¡Muy bien! También soy de allí.",
+        "translation": "Я из Мексики. Очень хорошо! Я тоже оттуда.",
+        "highlights": [
+          "Yo",
+          "Muy",
+          "También"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Mucho gusto",
+        "translation": "Очень приятно (буквально: большое удовольствие)"
+      },
+      {
+        "phrase": "¿De dónde eres?",
+        "translation": "Откуда ты? (неформально)"
+      },
+      {
+        "phrase": "Me llamo...",
+        "translation": "Меня зовут... (буквально: я называю себя...)"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_03",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking where something is in a store",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "¿dónde?",
+        "pos": "adv",
+        "translation": "где?",
+        "note": "Вопросительное наречие для вопроса о месте.",
+        "phonetic": "/ˈdon.de/"
+      },
+      {
+        "word": "estar",
+        "pos": "verb",
+        "translation": "быть (местонахождение/состояние)",
+        "note": "Используется для временного местонахождения.",
+        "phonetic": "/esˈtaɾ/"
+      },
+      {
+        "word": "el/la",
+        "pos": "det",
+        "translation": "определённый артикль",
+        "note": "Определённый артикль.",
+        "phonetic": "/el/"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "translation": "здесь",
+        "note": "Указывает на место рядом с говорящим.",
+        "phonetic": "/aˈki/"
+      },
+      {
+        "word": "allí",
+        "pos": "adv",
+        "translation": "там",
+        "note": "Указывает на место рядом со слушающим или дальше.",
+        "phonetic": "/aˈʝi/"
+      },
+      {
+        "word": "perdón",
+        "pos": "noun",
+        "translation": "извините / простите",
+        "note": "Используется для привлечения внимания или извинения.",
+        "phonetic": "/peɾˈðon/"
+      },
+      {
+        "word": "buscar",
+        "pos": "verb",
+        "translation": "искать",
+        "note": "Частый глагол для поиска вещей.",
+        "phonetic": "/busˈkaɾ/"
+      },
+      {
+        "word": "en",
+        "pos": "prep",
+        "translation": "в / на",
+        "note": "Предлог для указания места.",
+        "phonetic": "/en/"
+      },
+      {
+        "word": "al lado de",
+        "pos": "prep",
+        "translation": "рядом с",
+        "note": "Фраза, выражающая близость.",
+        "phonetic": "/al ˈla.ðo ðe/"
+      },
+      {
+        "word": "sí",
+        "pos": "adv",
+        "translation": "да",
+        "note": "Утвердительное наречие.",
+        "phonetic": "/si/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Perdón, ¿dónde está el agua?",
+        "translation": "Извините, где вода?",
+        "highlights": [
+          "Perdón",
+          "dónde",
+          "está",
+          "el"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "El agua está allí, al lado de la leche.",
+        "translation": "Вода там, рядом с молоком.",
+        "highlights": [
+          "El",
+          "está",
+          "allí",
+          "al lado de",
+          "la"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y el pan? ¿Está aquí?",
+        "translation": "А хлеб? Он здесь?",
+        "highlights": [
+          "el",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, el pan está aquí, en la cesta.",
+        "translation": "Да, хлеб здесь, в корзине.",
+        "highlights": [
+          "Sí",
+          "el",
+          "está",
+          "aquí",
+          "en",
+          "la"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Perfecto, busco el pan y el agua. Gracias.",
+        "translation": "Отлично, я ищу хлеб и воду. Спасибо.",
+        "highlights": [
+          "busco",
+          "el",
+          "el"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Dónde está...?",
+        "translation": "Где находится...?"
+      },
+      {
+        "phrase": "al lado de",
+        "translation": "рядом с"
+      },
+      {
+        "phrase": "buscar algo",
+        "translation": "искать что-то"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_05",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Ordering a drink at a café",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "querer",
+        "pos": "verb",
+        "translation": "хотеть",
+        "note": "Распространённый неправильный глагол; используется для вежливого заказа.",
+        "phonetic": "/keˈɾeɾ/"
+      },
+      {
+        "word": "café",
+        "pos": "noun",
+        "translation": "кофе",
+        "note": "Существительное мужского рода; также может означать «кафе» как место.",
+        "phonetic": "/kaˈfe/"
+      },
+      {
+        "word": "agua",
+        "pos": "noun",
+        "translation": "вода",
+        "note": "Существительное женского рода; в единственном числе требует артикль «el» по фонетическим причинам.",
+        "phonetic": "/ˈaɡwa/"
+      },
+      {
+        "word": "por favor",
+        "pos": "phrase",
+        "translation": "пожалуйста",
+        "note": "Распространённая формула вежливости.",
+        "phonetic": "/poɾ faˈboɾ/"
+      },
+      {
+        "word": "poner",
+        "pos": "verb",
+        "translation": "класть; подавать",
+        "note": "Идиоматически используется при заказе: «¿Qué te pongo?» = «Что вам подать?»",
+        "phonetic": "/poˈneɾ/"
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "translation": "но",
+        "note": "Сочинительный союз для выражения противопоставления.",
+        "phonetic": "/ˈpeɾo/"
+      },
+      {
+        "word": "con",
+        "pos": "prep",
+        "translation": "с",
+        "note": "Используется для указания дополнений.",
+        "phonetic": "/kon/"
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "translation": "также",
+        "note": "Примечание: уже в списке, но включено, потому что необходимо? На самом деле избегайте. Я заменю.",
+        "phonetic": "/tamˈbjen/"
+      },
+      {
+        "word": "tomar",
+        "pos": "verb",
+        "translation": "брать; пить",
+        "note": "Часто используется для употребления напитков.",
+        "phonetic": "/toˈmaɾ/"
+      },
+      {
+        "word": "leche",
+        "pos": "noun",
+        "translation": "молоко",
+        "note": "Существительное женского рода; часто встречается в заказах в кафе.",
+        "phonetic": "/ˈletʃe/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buenos días, ¿qué quiere tomar?",
+        "translation": "Доброе утро, что вы хотите выпить?",
+        "highlights": [
+          "tomar"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Quiero un café con leche, por favor.",
+        "translation": "Я хочу кофе с молоком, пожалуйста.",
+        "highlights": [
+          "quiero",
+          "café",
+          "con",
+          "leche",
+          "por favor"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y para beber? ¿Agua también?",
+        "translation": "А выпить? Тоже воду?",
+        "highlights": [
+          "agua",
+          "también"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, pero sin hielo, por favor.",
+        "translation": "Да, но без льда, пожалуйста.",
+        "highlights": [
+          "pero",
+          "por favor"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Muy bien, le pongo el café y el agua.",
+        "translation": "Хорошо, я подам вам кофе и воду.",
+        "highlights": [
+          "pongo"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Qué quiere tomar?",
+        "translation": "Что вы хотите выпить?"
+      },
+      {
+        "phrase": "Quiero un café con leche",
+        "translation": "Я хочу кофе с молоком"
+      },
+      {
+        "phrase": "Por favor",
+        "translation": "Пожалуйста"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_07",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Buying a ticket at a station",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "ir",
+        "pos": "verb",
+        "translation": "идти",
+        "note": "используется для будущих планов: 'voy a...' = 'я собираюсь...'",
+        "phonetic": "/iɾ/"
+      },
+      {
+        "word": "ticket",
+        "pos": "noun",
+        "translation": "билет",
+        "note": "также 'billete' в Испании, но 'ticket' распространено в Латинской Америке",
+        "phonetic": "/ˈtiket/"
+      },
+      {
+        "word": "cuánto",
+        "pos": "adverb",
+        "translation": "сколько",
+        "note": "используется в вопросах о количестве или цене",
+        "phonetic": "/ˈkwanto/"
+      },
+      {
+        "word": "cuesta",
+        "pos": "verb",
+        "translation": "стоит",
+        "note": "от 'costar' (стоить); используется с существительными в единственном числе",
+        "phonetic": "/ˈkwesta/"
+      },
+      {
+        "word": "necesito",
+        "pos": "verb",
+        "translation": "мне нужно",
+        "note": "от 'necesitar' (нуждаться)",
+        "phonetic": "/neθeˈsito/"
+      },
+      {
+        "word": "para",
+        "pos": "prep",
+        "translation": "для / чтобы",
+        "note": "указывает на цель или назначение",
+        "phonetic": "/ˈpaɾa/"
+      },
+      {
+        "word": "a",
+        "pos": "prep",
+        "translation": "в",
+        "note": "используется для направлений после глаголов движения",
+        "phonetic": "/a/"
+      },
+      {
+        "word": "madrid",
+        "pos": "noun",
+        "translation": "Мадрид",
+        "note": "имя собственное, столица Испании",
+        "phonetic": "/maˈðɾið/"
+      },
+      {
+        "word": "ahora",
+        "pos": "adverb",
+        "translation": "сейчас",
+        "note": "указывает на текущее время",
+        "phonetic": "/aˈoɾa/"
+      },
+      {
+        "word": "tiene",
+        "pos": "verb",
+        "translation": "имеет / есть",
+        "note": "от 'tener' (иметь); используется для обладания или в определенных выражениях",
+        "phonetic": "/ˈtjene/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, necesito un ticket para ir a Madrid.",
+        "translation": "Здравствуйте, мне нужен билет до Мадрида.",
+        "highlights": [
+          "necesito",
+          "ticket",
+          "para",
+          "ir",
+          "a",
+          "madrid"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿Para cuándo? ¿Ahora?",
+        "translation": "На когда? Сейчас?",
+        "highlights": [
+          "para",
+          "ahora"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, ahora. ¿Cuánto cuesta?",
+        "translation": "Да, сейчас. Сколько это стоит?",
+        "highlights": [
+          "ahora",
+          "cuánto",
+          "cuesta"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "El ticket cuesta diez euros. ¿Tiene dinero?",
+        "translation": "Билет стоит десять евро. У вас есть деньги?",
+        "highlights": [
+          "ticket",
+          "cuesta",
+          "tiene"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, tengo. Aquí tiene.",
+        "translation": "Да, есть. Вот, возьмите.",
+        "highlights": [
+          "tiene"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Cuánto cuesta?",
+        "translation": "Сколько это стоит?"
+      },
+      {
+        "phrase": "un ticket para ir a Madrid",
+        "translation": "билет до Мадрида"
+      },
+      {
+        "phrase": "Aquí tiene",
+        "translation": "Вот, возьмите (формально)"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_09",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Checking in at a hotel reception",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "tener",
+        "pos": "verb",
+        "translation": "иметь",
+        "note": "используется для обладания, а также для возраста и т.д.",
+        "phonetic": "/teˈneɾ/"
+      },
+      {
+        "word": "reserva",
+        "pos": "noun",
+        "translation": "бронь",
+        "note": "часто в контексте отеля",
+        "phonetic": "/reˈseɾβa/"
+      },
+      {
+        "word": "habitación",
+        "pos": "noun",
+        "translation": "номер",
+        "note": "гостиничный номер",
+        "phonetic": "/aβitaˈθjon/"
+      },
+      {
+        "word": "noche",
+        "pos": "noun",
+        "translation": "ночь",
+        "note": "также используется для 'вечер'",
+        "phonetic": "/ˈnotʃe/"
+      },
+      {
+        "word": "su",
+        "pos": "det",
+        "translation": "ваш (формально)",
+        "note": "притяжательное прилагательное",
+        "phonetic": "/su/"
+      },
+      {
+        "word": "nombre",
+        "pos": "noun",
+        "translation": "имя",
+        "note": "часто в формах",
+        "phonetic": "/ˈnombɾe/"
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "translation": "очень",
+        "note": "усилитель",
+        "phonetic": "/mwi/"
+      },
+      {
+        "word": "bien",
+        "pos": "adv",
+        "translation": "хорошо, отлично",
+        "note": "также используется как ответ",
+        "phonetic": "/bjen/"
+      },
+      {
+        "word": "gracias",
+        "pos": "interj",
+        "translation": "спасибо",
+        "note": "устойчивое выражение",
+        "phonetic": "/ˈɡɾaθjas/"
+      },
+      {
+        "word": "adiós",
+        "pos": "interj",
+        "translation": "до свидания",
+        "note": "формально/неформально",
+        "phonetic": "/aˈðjos/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buenas tardes, ¿tiene una reserva?",
+        "translation": "Добрый день, у вас есть бронь?",
+        "highlights": [
+          "tiene"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, a nombre de García. Tengo una habitación para esta noche.",
+        "translation": "Да, на имя Гарсия. У меня есть номер на эту ночь.",
+        "highlights": [
+          "nombre",
+          "Tengo",
+          "habitación",
+          "noche"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Muy bien. ¿Me dice su nombre, por favor?",
+        "translation": "Очень хорошо. Назовите ваше имя, пожалуйста.",
+        "highlights": [
+          "Muy",
+          "bien",
+          "su"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Soy María García. Gracias.",
+        "translation": "Я Мария Гарсия. Спасибо.",
+        "highlights": [
+          "Gracias"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Adiós, señora García.",
+        "translation": "До свидания, госпожа Гарсия.",
+        "highlights": [
+          "Adiós"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Tiene una reserva?",
+        "translation": "У вас есть бронь?"
+      },
+      {
+        "phrase": "A nombre de García",
+        "translation": "На имя Гарсия"
+      },
+      {
+        "phrase": "Muy bien",
+        "translation": "Очень хорошо"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_11",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Meeting a new neighbor",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "vecino",
+        "pos": "noun",
+        "translation": "сосед",
+        "note": "мужской род; vecina для женского",
+        "phonetic": "/beˈθino/"
+      },
+      {
+        "word": "nuevo",
+        "pos": "adj",
+        "translation": "новый",
+        "note": "согласуется с существительным: nuevo/nueva",
+        "phonetic": "/ˈnwebo/"
+      },
+      {
+        "word": "vivo",
+        "pos": "verb",
+        "translation": "я живу",
+        "note": "от vivir, используется с yo",
+        "phonetic": "/ˈbibo/"
+      },
+      {
+        "word": "piso",
+        "pos": "noun",
+        "translation": "квартира, этаж",
+        "note": "в Испании piso означает квартира",
+        "phonetic": "/ˈpiso/"
+      },
+      {
+        "word": "día",
+        "pos": "noun",
+        "translation": "день",
+        "phonetic": "/ˈdia/"
+      },
+      {
+        "word": "casa",
+        "pos": "noun",
+        "translation": "дом, жилище",
+        "phonetic": "/ˈkasa/"
+      },
+      {
+        "word": "trabajo",
+        "pos": "verb",
+        "translation": "я работаю",
+        "note": "от trabajar, используется с yo",
+        "phonetic": "/tɾaˈbaxo/"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "translation": "здесь",
+        "phonetic": "/aˈki/"
+      },
+      {
+        "word": "mucho",
+        "pos": "adv",
+        "translation": "много",
+        "note": "как наречие, неизменяемое",
+        "phonetic": "/ˈmutʃo/"
+      },
+      {
+        "word": "y",
+        "pos": "conj",
+        "translation": "и",
+        "phonetic": "/i/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, soy tu nuevo vecino. Vivo en el piso de al lado.",
+        "translation": "Привет, я твой новый сосед. Я живу в квартире рядом.",
+        "highlights": [
+          "nuevo",
+          "vecino",
+          "vivo",
+          "piso"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¡Hola! Mucho gusto. ¿Y tú? ¿Trabajas aquí cerca?",
+        "translation": "Привет! Очень приятно. А ты? Ты работаешь здесь рядом?",
+        "highlights": [
+          "mucho",
+          "y",
+          "trabajo",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, trabajo en una oficina, pero mi casa está cerca.",
+        "translation": "Да, я работаю в офисе, но мой дом рядом.",
+        "highlights": [
+          "trabajo",
+          "casa"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¡Qué bien! Yo vivo aquí también. ¿Te gusta tu nuevo piso?",
+        "translation": "Как здорово! Я тоже живу здесь. Тебе нравится твоя новая квартира?",
+        "highlights": [
+          "aquí",
+          "nuevo",
+          "piso"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, mucho. Es un buen día para conocernos, ¿no?",
+        "translation": "Да, очень. Хороший день, чтобы познакомиться, не так ли?",
+        "highlights": [
+          "mucho",
+          "día"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "soy tu nuevo vecino",
+        "translation": "я твой новый сосед"
+      },
+      {
+        "phrase": "vivo en el piso de al lado",
+        "translation": "я живу в квартире рядом"
+      },
+      {
+        "phrase": "¿Trabajas aquí cerca?",
+        "translation": "Ты работаешь здесь рядом?"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_13",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking the time on the street",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "qué",
+        "pos": "pron",
+        "translation": "что",
+        "note": "Используется для вопросов.",
+        "phonetic": "/ke/"
+      },
+      {
+        "word": "hora",
+        "pos": "noun",
+        "translation": "час/время",
+        "note": "Часто используется с 'qué' для вопроса о времени.",
+        "phonetic": "/ˈo.ɾa/"
+      },
+      {
+        "word": "ser",
+        "pos": "verb",
+        "translation": "быть",
+        "note": "Используется для обозначения времени.",
+        "phonetic": "/seɾ/"
+      },
+      {
+        "word": "las",
+        "pos": "det",
+        "translation": "определённый артикль (мн.ч., жен.р.)",
+        "note": "Используется перед часами в выражениях времени.",
+        "phonetic": "/las/"
+      },
+      {
+        "word": "una",
+        "pos": "det/noun",
+        "translation": "один",
+        "note": "Используется для 1 часа.",
+        "phonetic": "/ˈu.na/"
+      },
+      {
+        "word": "y",
+        "pos": "conj",
+        "translation": "и",
+        "note": "Используется в выражениях времени для минут после часа.",
+        "phonetic": "/i/"
+      },
+      {
+        "word": "menos",
+        "pos": "prep",
+        "translation": "без",
+        "note": "Используется для минут до часа.",
+        "phonetic": "/ˈme.nos/"
+      },
+      {
+        "word": "cuarto",
+        "pos": "noun",
+        "translation": "четверть",
+        "note": "Используется для четверти часа (после или до).",
+        "phonetic": "/ˈkwaɾ.to/"
+      },
+      {
+        "word": "media",
+        "pos": "adj",
+        "translation": "половина",
+        "note": "Используется для половины часа.",
+        "phonetic": "/ˈme.dja/"
+      },
+      {
+        "word": "gracias",
+        "pos": "noun",
+        "translation": "спасибо",
+        "note": "Вежливый ответ.",
+        "phonetic": "/ˈɡɾa.sjas/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Perdón, ¿qué hora es?",
+        "translation": "Извините, который час?",
+        "highlights": [
+          "qué",
+          "hora",
+          "es"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Son las tres y cuarto.",
+        "translation": "Сейчас три пятнадцать.",
+        "highlights": [
+          "las",
+          "y",
+          "cuarto"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y a las cuatro menos media?",
+        "translation": "А в половине пятого?",
+        "highlights": [
+          "menos",
+          "media"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, son las tres y media ahora.",
+        "translation": "Нет, сейчас половина четвёртого.",
+        "highlights": [
+          "media",
+          "y"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Ah, gracias.",
+        "translation": "А, спасибо.",
+        "highlights": [
+          "gracias"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Qué hora es?",
+        "translation": "Который час?"
+      },
+      {
+        "phrase": "Son las tres y cuarto.",
+        "translation": "Сейчас три пятнадцать."
+      },
+      {
+        "phrase": "las cuatro menos media",
+        "translation": "половина четвёртого (буквально: четыре без половины)"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_15",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the doctor for a basic checkup",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "médico",
+        "pos": "noun",
+        "translation": "врач",
+        "note": "Существительное мужского рода; часто используется с 'el médico'.",
+        "phonetic": "/ˈme.ði.ko/"
+      },
+      {
+        "word": "paciente",
+        "pos": "noun",
+        "translation": "пациент",
+        "note": "Одна форма для мужского и женского рода; род указывается артиклем.",
+        "phonetic": "/paˈθjen.te/"
+      },
+      {
+        "word": "dolor",
+        "pos": "noun",
+        "translation": "боль",
+        "note": "Часто используется в медицинских контекстах; например, 'tengo dolor'.",
+        "phonetic": "/doˈloɾ/"
+      },
+      {
+        "word": "cabeza",
+        "pos": "noun",
+        "translation": "голова",
+        "note": "Часть тела; очень частое слово.",
+        "phonetic": "/kaˈβe.sa/"
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "translation": "очень",
+        "note": "Используется для усиления прилагательных/наречий.",
+        "phonetic": "/mwi/"
+      },
+      {
+        "word": "sentir",
+        "pos": "verb",
+        "translation": "чувствовать",
+        "note": "Частый глагол; на уровне A1 часто используется с 'me siento'.",
+        "phonetic": "/senˈtiɾ/"
+      },
+      {
+        "word": "poder",
+        "pos": "verb",
+        "translation": "мочь, быть в состоянии",
+        "note": "Модальный глагол; очень частый.",
+        "phonetic": "/poˈðeɾ/"
+      },
+      {
+        "word": "abrir",
+        "pos": "verb",
+        "translation": "открывать",
+        "note": "Правильный глагол; используется в инструкциях.",
+        "phonetic": "/aˈβɾiɾ/"
+      },
+      {
+        "word": "decir",
+        "pos": "verb",
+        "translation": "говорить, сказать",
+        "note": "Неправильный глагол; частый в диалогах.",
+        "phonetic": "/deˈθiɾ/"
+      },
+      {
+        "word": "todo",
+        "pos": "adj",
+        "translation": "весь, всё",
+        "note": "Используется как прилагательное или местоимение.",
+        "phonetic": "/ˈto.ðo/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A (doctor)",
+        "text": "Buenos días, soy el médico. ¿Qué le pasa?",
+        "translation": "Доброе утро, я врач. Что с вами?",
+        "highlights": [
+          "médico"
+        ]
+      },
+      {
+        "speaker": "B (patient)",
+        "text": "Doctor, tengo un dolor muy fuerte en la cabeza.",
+        "translation": "Доктор, у меня очень сильная боль в голове.",
+        "highlights": [
+          "dolor",
+          "muy",
+          "cabeza"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Puede abrir la boca y decir 'ah'?",
+        "translation": "Можете открыть рот и сказать 'а'?",
+        "highlights": [
+          "puede",
+          "abrir",
+          "decir"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, me siento mal, pero puedo hacer todo.",
+        "translation": "Да, я чувствую себя плохо, но я могу делать всё.",
+        "highlights": [
+          "sentir",
+          "poder",
+          "todo"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Qué le pasa?",
+        "translation": "Что с вами? (формально)"
+      },
+      {
+        "phrase": "tengo un dolor",
+        "translation": "у меня боль"
+      },
+      {
+        "phrase": "me siento mal",
+        "translation": "я чувствую себя плохо"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_17",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Paying at a supermarket checkout",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "pagar",
+        "pos": "verb",
+        "translation": "платить",
+        "note": "Правильный глагол на -ar. Используется для оплаты в магазине.",
+        "phonetic": "/paˈɡaɾ/"
+      },
+      {
+        "word": "dinero",
+        "pos": "noun",
+        "translation": "деньги",
+        "phonetic": "/diˈneɾo/"
+      },
+      {
+        "word": "tarjeta",
+        "pos": "noun",
+        "translation": "карта",
+        "note": "В этом контексте часто означает кредитную/дебетовую карту.",
+        "phonetic": "/taɾˈxeta/"
+      },
+      {
+        "word": "efectivo",
+        "pos": "noun",
+        "translation": "наличные",
+        "phonetic": "/efekˈtibo/"
+      },
+      {
+        "word": "cambio",
+        "pos": "noun",
+        "translation": "сдача",
+        "phonetic": "/ˈkambjo/"
+      },
+      {
+        "word": "bolsa",
+        "pos": "noun",
+        "translation": "сумка, пакет",
+        "phonetic": "/ˈbolsa/"
+      },
+      {
+        "word": "total",
+        "pos": "noun/adjective",
+        "translation": "итог, общая сумма",
+        "note": "Используется для указания общей суммы к оплате.",
+        "phonetic": "/toˈtal/"
+      },
+      {
+        "word": "aquí",
+        "pos": "adverb",
+        "translation": "здесь, вот",
+        "phonetic": "/aˈki/"
+      },
+      {
+        "word": "su",
+        "pos": "determiner",
+        "translation": "ваш (формально)",
+        "note": "Используется с usted.",
+        "phonetic": "/su/"
+      },
+      {
+        "word": "o",
+        "pos": "conjunction",
+        "translation": "или",
+        "phonetic": "/o/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¿Va a pagar con tarjeta o en efectivo?",
+        "translation": "Вы будете платить картой или наличными?",
+        "highlights": [
+          "pagar",
+          "tarjeta",
+          "o",
+          "efectivo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Voy a pagar en efectivo. ¿Cuál es el total?",
+        "translation": "Я буду платить наличными. Какая общая сумма?",
+        "highlights": [
+          "pagar",
+          "efectivo",
+          "total"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Son veinte euros. Aquí tiene su cambio y su bolsa.",
+        "translation": "Двадцать евро. Вот ваша сдача и ваш пакет.",
+        "highlights": [
+          "aquí",
+          "su",
+          "cambio",
+          "bolsa"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Muchas gracias. Y aquí tiene mi tarjeta para puntos.",
+        "translation": "Большое спасибо. И вот моя карта для баллов.",
+        "highlights": [
+          "aquí",
+          "tarjeta"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Perfecto. ¿Necesita dinero en efectivo para algo más?",
+        "translation": "Отлично. Вам нужны наличные для чего-нибудь ещё?",
+        "highlights": [
+          "dinero",
+          "efectivo"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Va a pagar con tarjeta o en efectivo?",
+        "translation": "Вы будете платить картой или наличными?"
+      },
+      {
+        "phrase": "Aquí tiene su cambio y su bolsa.",
+        "translation": "Вот ваша сдача и ваш пакет."
+      },
+      {
+        "phrase": "¿Cuál es el total?",
+        "translation": "Какая общая сумма?"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_19",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Calling a friend to make simple plans",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "llamar",
+        "pos": "verb",
+        "translation": "звонить",
+        "note": "правильный глагол на -ar",
+        "phonetic": "/ʝaˈmaɾ/"
+      },
+      {
+        "word": "mañana",
+        "pos": "adverb",
+        "translation": "завтра",
+        "phonetic": "/maˈɲana/"
+      },
+      {
+        "word": "hacer",
+        "pos": "verb",
+        "translation": "делать/создавать",
+        "phonetic": "/aˈθeɾ/"
+      },
+      {
+        "word": "tarde",
+        "pos": "adverb",
+        "translation": "поздно",
+        "phonetic": "/ˈtaɾðe/"
+      },
+      {
+        "word": "cinco",
+        "pos": "adjective",
+        "translation": "пять",
+        "note": "число",
+        "phonetic": "/ˈθiŋko/"
+      },
+      {
+        "word": "hasta",
+        "pos": "preposition",
+        "translation": "до",
+        "phonetic": "/ˈasta/"
+      },
+      {
+        "word": "con",
+        "pos": "preposition",
+        "translation": "с",
+        "phonetic": "/kon/"
+      },
+      {
+        "word": "tú",
+        "pos": "pronoun",
+        "translation": "ты (неформально)",
+        "phonetic": "/tu/"
+      },
+      {
+        "word": "sí",
+        "pos": "adverb",
+        "translation": "да",
+        "phonetic": "/si/"
+      },
+      {
+        "word": "pero",
+        "pos": "conjunction",
+        "translation": "но",
+        "phonetic": "/ˈpeɾo/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, te llamo para hacer planes mañana.",
+        "translation": "Привет, я звоню тебе, чтобы построить планы на завтра.",
+        "highlights": [
+          "llamo",
+          "hacer",
+          "mañana"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, pero yo trabajo hasta las cinco.",
+        "translation": "Да, но я работаю до пяти.",
+        "highlights": [
+          "Sí",
+          "pero",
+          "hasta",
+          "cinco"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Puedes tú después? ¿O prefieres tarde?",
+        "translation": "Ты можешь позже? Или ты предпочитаешь поздно?",
+        "highlights": [
+          "tú",
+          "tarde"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Vale, quedamos a las seis con Ana.",
+        "translation": "Хорошо, встречаемся в шесть с Аной.",
+        "highlights": [
+          "con"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "hacer planes",
+        "translation": "строить планы"
+      },
+      {
+        "phrase": "hasta las cinco",
+        "translation": "до пяти"
+      },
+      {
+        "phrase": "quedamos a las seis",
+        "translation": "встречаемся в шесть"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_21",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your family to someone",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "mi",
+        "pos": "det",
+        "translation": "мой",
+        "note": "Притяжательное прилагательное, используется перед существительными в единственном числе.",
+        "phonetic": "/mi/"
+      },
+      {
+        "word": "madre",
+        "pos": "noun",
+        "translation": "мать",
+        "phonetic": "/ˈmaðɾe/"
+      },
+      {
+        "word": "padre",
+        "pos": "noun",
+        "translation": "отец",
+        "phonetic": "/ˈpaðɾe/"
+      },
+      {
+        "word": "hermano",
+        "pos": "noun",
+        "translation": "брат",
+        "phonetic": "/eɾˈmano/"
+      },
+      {
+        "word": "hermana",
+        "pos": "noun",
+        "translation": "сестра",
+        "phonetic": "/eɾˈmana/"
+      },
+      {
+        "word": "familia",
+        "pos": "noun",
+        "translation": "семья",
+        "phonetic": "/faˈmilja/"
+      },
+      {
+        "word": "grande",
+        "pos": "adj",
+        "translation": "большой",
+        "phonetic": "/ˈɡɾande/"
+      },
+      {
+        "word": "pequeño",
+        "pos": "adj",
+        "translation": "маленький",
+        "phonetic": "/peˈkeɲo/"
+      },
+      {
+        "word": "vivir",
+        "pos": "verb",
+        "translation": "жить",
+        "phonetic": "/biˈβiɾ/"
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "translation": "также, тоже",
+        "phonetic": "/tamˈbjen/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Mi familia es grande: tengo dos hermanos y una hermana.",
+        "translation": "Моя семья большая: у меня два брата и одна сестра.",
+        "highlights": [
+          "Mi",
+          "familia",
+          "grande",
+          "hermanos",
+          "hermana"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿Y tu madre y tu padre?",
+        "translation": "А твоя мать и твой отец?",
+        "highlights": [
+          "madre",
+          "padre"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Mi madre vive cerca y mi padre también.",
+        "translation": "Моя мать живет рядом, и мой отец тоже.",
+        "highlights": [
+          "Mi",
+          "madre",
+          "vive",
+          "padre",
+          "también"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿Tienes una familia pequeña o grande?",
+        "translation": "У тебя маленькая или большая семья?",
+        "highlights": [
+          "familia",
+          "pequeña",
+          "grande"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "No, es pequeña, pero mi hermana vive conmigo.",
+        "translation": "Нет, она маленькая, но моя сестра живет со мной.",
+        "highlights": [
+          "pequeña",
+          "hermana",
+          "vive"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Mi familia es grande",
+        "translation": "Моя семья большая"
+      },
+      {
+        "phrase": "Mi madre vive cerca",
+        "translation": "Моя мать живет рядом"
+      },
+      {
+        "phrase": "mi padre también",
+        "translation": "мой отец тоже"
+      },
+      {
+        "phrase": "tener una familia pequeña",
+        "translation": "иметь маленькую семью"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_23",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking for directions in the street",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "dónde",
+        "pos": "adv",
+        "translation": "где",
+        "note": "Используется для вопроса о местоположении.",
+        "phonetic": "/ˈdon.de/"
+      },
+      {
+        "word": "calle",
+        "pos": "noun",
+        "translation": "улица",
+        "note": "Существительное женского рода: la calle.",
+        "phonetic": "/ˈka.ʝe/"
+      },
+      {
+        "word": "derecha",
+        "pos": "noun",
+        "translation": "направо (направление)",
+        "note": "Часто используется с 'a la' – 'a la derecha'.",
+        "phonetic": "/deˈɾe.tʃa/"
+      },
+      {
+        "word": "izquierda",
+        "pos": "noun",
+        "translation": "налево (направление)",
+        "note": "Часто используется с 'a la' – 'a la izquierda'.",
+        "phonetic": "/isˈkjeɾ.da/"
+      },
+      {
+        "word": "recto",
+        "pos": "adv",
+        "translation": "прямо",
+        "note": "Используется как наречие: 'sigue recto'.",
+        "phonetic": "/ˈrek.to/"
+      },
+      {
+        "word": "sigue",
+        "pos": "verb",
+        "translation": "продолжай / следуй",
+        "note": "Форма повелительного наклонения от 'seguir' – 'продолжай'.",
+        "phonetic": "/ˈsi.ɡe/"
+      },
+      {
+        "word": "está",
+        "pos": "verb",
+        "translation": "находится (местоположение)",
+        "note": "От 'estar', используется для местоположения.",
+        "phonetic": "/esˈta/"
+      },
+      {
+        "word": "por",
+        "pos": "prep",
+        "translation": "по / вдоль",
+        "note": "Используется для указания движения вдоль улицы.",
+        "phonetic": "/poɾ/"
+      },
+      {
+        "word": "cerca",
+        "pos": "adv",
+        "translation": "близко",
+        "note": "Часто используется с 'de' – 'cerca de'.",
+        "phonetic": "/ˈseɾ.ka/"
+      },
+      {
+        "word": "lejos",
+        "pos": "adv",
+        "translation": "далеко",
+        "note": "Часто используется с 'de' – 'lejos de'.",
+        "phonetic": "/ˈle.xos/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Disculpe, ¿dónde está la calle de la derecha?",
+        "translation": "Извините, где улица справа?",
+        "highlights": [
+          "dónde",
+          "está",
+          "calle",
+          "derecha"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Siga recto por esta calle y luego gire a la izquierda.",
+        "translation": "Идите прямо по этой улице, затем поверните налево.",
+        "highlights": [
+          "recto",
+          "por",
+          "calle",
+          "izquierda"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Está cerca o lejos?",
+        "translation": "Это близко или далеко?",
+        "highlights": [
+          "cerca",
+          "lejos"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Está cerca. Siga recto y verá la calle.",
+        "translation": "Это близко. Идите прямо и увидите улицу.",
+        "highlights": [
+          "cerca",
+          "siga",
+          "recto",
+          "calle"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Siga recto",
+        "translation": "Идите прямо"
+      },
+      {
+        "phrase": "a la izquierda",
+        "translation": "налево"
+      },
+      {
+        "phrase": "a la derecha",
+        "translation": "направо"
+      },
+      {
+        "phrase": "está cerca",
+        "translation": "это близко"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_25",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "On a bus asking the driver for help",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "parar",
+        "pos": "verb",
+        "translation": "останавливаться",
+        "note": "Используется, чтобы попросить водителя остановиться в определённом месте.",
+        "phonetic": "/paˈɾaɾ/"
+      },
+      {
+        "word": "bajar",
+        "pos": "verb",
+        "translation": "выходить (из транспорта)",
+        "note": "Обычно используется с 'de' + транспортное средство.",
+        "phonetic": "/baˈxaɾ/"
+      },
+      {
+        "word": "saber",
+        "pos": "verb",
+        "translation": "знать",
+        "note": "Часто используется в вопросах для получения информации.",
+        "phonetic": "/saˈbeɾ/"
+      },
+      {
+        "word": "pregunta",
+        "pos": "noun",
+        "translation": "вопрос",
+        "note": "Существительное женского рода; 'una pregunta' = 'вопрос'.",
+        "phonetic": "/pɾeˈɡunta/"
+      },
+      {
+        "word": "ayuda",
+        "pos": "noun",
+        "translation": "помощь",
+        "note": "Существительное женского рода; используется в 'pedir ayuda' (просить о помощи).",
+        "phonetic": "/aˈʝuða/"
+      },
+      {
+        "word": "pasajero",
+        "pos": "noun",
+        "translation": "пассажир",
+        "note": "Существительное мужского рода; относится к человеку, который едет в автобусе или поезде.",
+        "phonetic": "/pasaˈxeɾo/"
+      },
+      {
+        "word": "conductor",
+        "pos": "noun",
+        "translation": "водитель",
+        "note": "Существительное мужского рода; для женщины-водителя также используется 'conductora'.",
+        "phonetic": "/kondukˈtoɾ/"
+      },
+      {
+        "word": "por favor",
+        "pos": "adv",
+        "translation": "пожалуйста",
+        "note": "Вежливая просьба; всегда используется для вежливости.",
+        "phonetic": "/poɾ faˈboɾ/"
+      },
+      {
+        "word": "siguiente",
+        "pos": "adj",
+        "translation": "следующий",
+        "note": "Используется для обозначения следующей остановки, станции и т.д.",
+        "phonetic": "/siˈɡjente/"
+      },
+      {
+        "word": "cuando",
+        "pos": "conj",
+        "translation": "когда",
+        "note": "Используется для введения временного придаточного предложения.",
+        "phonetic": "/ˈkwando/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Perdón, conductor, tengo una pregunta.",
+        "translation": "Извините, водитель, у меня вопрос.",
+        "highlights": [
+          "conductor",
+          "pregunta"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, pasajero, ¿en qué puedo ayudar?",
+        "translation": "Да, пассажир, чем я могу помочь?",
+        "highlights": [
+          "pasajero",
+          "ayudar"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Puede parar en la siguiente parada, por favor?",
+        "translation": "Не могли бы вы остановиться на следующей остановке, пожалуйста?",
+        "highlights": [
+          "parar",
+          "siguiente",
+          "por favor"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, pero quiero saber cuándo va a bajar usted.",
+        "translation": "Да, но я хочу знать, когда вы собираетесь выходить.",
+        "highlights": [
+          "saber",
+          "cuando",
+          "bajar"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Voy a bajar ahora, gracias.",
+        "translation": "Я выхожу сейчас, спасибо.",
+        "highlights": [
+          "bajar"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "tengo una pregunta",
+        "translation": "у меня вопрос"
+      },
+      {
+        "phrase": "¿en qué puedo ayudar?",
+        "translation": "Чем я могу помочь?"
+      },
+      {
+        "phrase": "la siguiente parada",
+        "translation": "следующая остановка"
+      },
+      {
+        "phrase": "por favor",
+        "translation": "пожалуйста"
+      },
+      {
+        "phrase": "voy a bajar",
+        "translation": "я собираюсь выйти"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_27",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Introducing a colleague at work",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "hola",
+        "pos": "interj",
+        "translation": "привет",
+        "phonetic": "/ˈola/"
+      },
+      {
+        "word": "él",
+        "pos": "pron",
+        "translation": "он",
+        "phonetic": "/el/"
+      },
+      {
+        "word": "nuestro",
+        "pos": "det",
+        "translation": "наш",
+        "phonetic": "/ˈnwestɾo/"
+      },
+      {
+        "word": "compañero",
+        "pos": "noun",
+        "translation": "коллега",
+        "phonetic": "/kompaˈɲeɾo/"
+      },
+      {
+        "word": "bien",
+        "pos": "adv",
+        "translation": "хорошо",
+        "phonetic": "/bjen/"
+      },
+      {
+        "word": "trabajar",
+        "pos": "verb",
+        "translation": "работать",
+        "phonetic": "/tɾabaˈxaɾ/"
+      },
+      {
+        "word": "juntos",
+        "pos": "adj",
+        "translation": "вместе",
+        "phonetic": "/ˈxuntos/"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "translation": "здесь",
+        "phonetic": "/aˈki/"
+      },
+      {
+        "word": "día",
+        "pos": "noun",
+        "translation": "день",
+        "phonetic": "/ˈdia/"
+      },
+      {
+        "word": "gusto",
+        "pos": "noun",
+        "translation": "удовольствие",
+        "phonetic": "/ˈɡusto/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, te presento a Juan. Él es nuestro nuevo compañero.",
+        "translation": "Привет, познакомься с Хуаном. Он наш новый коллега.",
+        "highlights": [
+          "Hola",
+          "Él",
+          "nuestro",
+          "compañero"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¡Hola, Juan! Bienvenido. ¿Te gusta trabajar aquí?",
+        "translation": "Привет, Хуан! Добро пожаловать. Тебе нравится здесь работать?",
+        "highlights": [
+          "Hola",
+          "trabajar",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "Sí, gracias. Me parece que vamos a trabajar bien juntos.",
+        "translation": "Да, спасибо. Думаю, мы будем хорошо работать вместе.",
+        "highlights": [
+          "bien",
+          "juntos"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Perfecto. Que tengan un buen día.",
+        "translation": "Отлично. Хорошего вам дня.",
+        "highlights": [
+          "día"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Igualmente. El gusto es mío.",
+        "translation": "Взаимно. Это мне приятно.",
+        "highlights": [
+          "gusto"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "te presento a",
+        "translation": "познакомься с"
+      },
+      {
+        "phrase": "el gusto es mío",
+        "translation": "это мне приятно"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_29",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Leaving a voicemail message",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "dejar",
+        "pos": "verb",
+        "translation": "оставлять",
+        "note": "Обычно используется для оставления сообщений или предметов.",
+        "phonetic": "/deˈxaɾ/"
+      },
+      {
+        "word": "mensaje",
+        "pos": "noun",
+        "translation": "сообщение",
+        "phonetic": "/menˈsaxe/"
+      },
+      {
+        "word": "llamar",
+        "pos": "verb",
+        "translation": "звонить",
+        "note": "Уже есть в файле, но включено сюда, так как встречается в диалоге.",
+        "phonetic": "/ʝaˈmaɾ/"
+      },
+      {
+        "word": "ahora",
+        "pos": "adv",
+        "translation": "сейчас",
+        "phonetic": "/aˈoɾa/"
+      },
+      {
+        "word": "después",
+        "pos": "adv",
+        "translation": "позже, после",
+        "phonetic": "/desˈpwes/"
+      },
+      {
+        "word": "número",
+        "pos": "noun",
+        "translation": "номер",
+        "phonetic": "/ˈnumeɾo/"
+      },
+      {
+        "word": "teléfono",
+        "pos": "noun",
+        "translation": "телефон",
+        "phonetic": "/teˈlefono/"
+      },
+      {
+        "word": "poder",
+        "pos": "verb",
+        "translation": "мочь, быть в состоянии",
+        "phonetic": "/poˈdeɾ/"
+      },
+      {
+        "word": "necesitar",
+        "pos": "verb",
+        "translation": "нуждаться",
+        "phonetic": "/neθesiˈtaɾ/"
+      },
+      {
+        "word": "hablar",
+        "pos": "verb",
+        "translation": "говорить, разговаривать",
+        "phonetic": "/aˈblaɾ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, soy Ana. Quiero dejar un mensaje para el doctor.",
+        "translation": "Здравствуйте, я Ана. Я хочу оставить сообщение для доктора.",
+        "highlights": [
+          "dejar",
+          "mensaje"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, dígame. ¿Puede llamar más tarde?",
+        "translation": "Да, слушаю вас. Можете позвонить позже?",
+        "highlights": [
+          "llamar",
+          "más",
+          "tarde"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "No, prefiero hablar ahora. Necesito una cita.",
+        "translation": "Нет, я предпочитаю поговорить сейчас. Мне нужна запись на приём.",
+        "highlights": [
+          "hablar",
+          "ahora",
+          "necesito"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Claro. ¿Puede darme su número de teléfono?",
+        "translation": "Конечно. Можете дать мне ваш номер телефона?",
+        "highlights": [
+          "número",
+          "teléfono"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, es el 555-1234. Puede llamarme después de las dos.",
+        "translation": "Да, это 555-1234. Можете позвонить мне после двух.",
+        "highlights": [
+          "después",
+          "puede"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "dejar un mensaje",
+        "translation": "оставить сообщение"
+      },
+      {
+        "phrase": "llamar más tarde",
+        "translation": "позвонить позже"
+      },
+      {
+        "phrase": "número de teléfono",
+        "translation": "номер телефона"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_31",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the post office sending a package",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "enviar",
+        "pos": "verb",
+        "translation": "отправлять",
+        "note": "распространённый глагол для отправки почты или посылок",
+        "phonetic": "/emˈbjaɾ/"
+      },
+      {
+        "word": "paquete",
+        "pos": "noun",
+        "translation": "посылка",
+        "note": "существительное мужского рода",
+        "phonetic": "/paˈkete/"
+      },
+      {
+        "word": "pesar",
+        "pos": "verb",
+        "translation": "взвешивать",
+        "note": "используется для взвешивания предметов",
+        "phonetic": "/peˈsaɾ/"
+      },
+      {
+        "word": "cuánto",
+        "pos": "pron",
+        "translation": "сколько",
+        "note": "используется в вопросах о количестве или цене",
+        "phonetic": "/ˈkwanto/"
+      },
+      {
+        "word": "costar",
+        "pos": "verb",
+        "translation": "стоить",
+        "note": "часто используется с 'me' или 'te'",
+        "phonetic": "/kosˈtaɾ/"
+      },
+      {
+        "word": "necesito",
+        "pos": "verb",
+        "translation": "мне нужно",
+        "note": "первое лицо настоящего времени от 'necesitar'",
+        "phonetic": "/neθeˈsito/"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "translation": "здесь",
+        "note": "указывает на место",
+        "phonetic": "/aˈki/"
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "translation": "очень",
+        "note": "усилитель",
+        "phonetic": "/muj/"
+      },
+      {
+        "word": "todo",
+        "pos": "adj",
+        "translation": "весь",
+        "note": "форма мужского рода единственного числа",
+        "phonetic": "/ˈtodo/"
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "translation": "но",
+        "note": "противительный союз",
+        "phonetic": "/ˈpeɾo/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, necesito enviar este paquete.",
+        "translation": "Здравствуйте, мне нужно отправить эту посылку.",
+        "highlights": [
+          "necesito",
+          "enviar",
+          "paquete"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Claro. Primero, vamos a pesar el paquete aquí.",
+        "translation": "Конечно. Сначала мы взвесим посылку здесь.",
+        "highlights": [
+          "pesar",
+          "paquete",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Cuánto cuesta enviarlo?",
+        "translation": "Сколько стоит отправить её?",
+        "highlights": [
+          "cuánto",
+          "cuesta",
+          "enviar"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Es muy barato, todo está bien. Pero necesita la dirección.",
+        "translation": "Это очень дёшево, всё в порядке. Но вам нужен адрес.",
+        "highlights": [
+          "muy",
+          "todo",
+          "pero",
+          "necesita"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "necesito enviar este paquete",
+        "translation": "мне нужно отправить эту посылку"
+      },
+      {
+        "phrase": "¿Cuánto cuesta?",
+        "translation": "Сколько это стоит?"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_33",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your daily routine",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "levantarse",
+        "pos": "verb",
+        "translation": "вставать",
+        "note": "Возвратный глагол, часто используется для описания повседневных действий.",
+        "phonetic": "/le.βanˈtaɾ.se/"
+      },
+      {
+        "word": "desayunar",
+        "pos": "verb",
+        "translation": "завтракать",
+        "phonetic": "/de.sa.ʝuˈnaɾ/"
+      },
+      {
+        "word": "trabajo",
+        "pos": "noun",
+        "translation": "работа",
+        "phonetic": "/tɾaˈβa.xo/"
+      },
+      {
+        "word": "casa",
+        "pos": "noun",
+        "translation": "дом",
+        "phonetic": "/ˈka.sa/"
+      },
+      {
+        "word": "mañana",
+        "pos": "noun/adverb",
+        "translation": "утро / завтра",
+        "phonetic": "/maˈɲa.na/"
+      },
+      {
+        "word": "noche",
+        "pos": "noun",
+        "translation": "ночь",
+        "phonetic": "/ˈno.tʃe/"
+      },
+      {
+        "word": "siempre",
+        "pos": "adverb",
+        "translation": "всегда",
+        "phonetic": "/ˈsjem.pɾe/"
+      },
+      {
+        "word": "luego",
+        "pos": "adverb",
+        "translation": "затем, позже",
+        "phonetic": "/ˈlwe.ɣo/"
+      },
+      {
+        "word": "con",
+        "pos": "preposition",
+        "translation": "с",
+        "phonetic": "/kon/"
+      },
+      {
+        "word": "y",
+        "pos": "conjunction",
+        "translation": "и",
+        "phonetic": "/i/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¿A qué hora te levantas por la mañana?",
+        "translation": "В котором часу ты встаёшь утром?",
+        "highlights": [
+          "levantas",
+          "mañana"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Me levanto a las siete y desayuno con mi familia.",
+        "translation": "Я встаю в семь и завтракаю с семьёй.",
+        "highlights": [
+          "levanto",
+          "y",
+          "desayuno",
+          "con"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y luego vas al trabajo?",
+        "translation": "А потом ты идёшь на работу?",
+        "highlights": [
+          "luego",
+          "trabajo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, luego trabajo, y siempre vuelvo a casa por la noche.",
+        "translation": "Да, потом я работаю, и всегда возвращаюсь домой вечером.",
+        "highlights": [
+          "luego",
+          "trabajo",
+          "y",
+          "siempre",
+          "casa",
+          "noche"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Perfecto, gracias por contarme tu rutina.",
+        "translation": "Отлично, спасибо, что рассказал(а) мне о своём распорядке.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿A qué hora te levantas?",
+        "translation": "В котором часу ты встаёшь?"
+      },
+      {
+        "phrase": "por la mañana",
+        "translation": "утром"
+      },
+      {
+        "phrase": "por la noche",
+        "translation": "ночью, вечером"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_35",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking about opening hours",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "abierto",
+        "pos": "adj",
+        "translation": "открытый",
+        "note": "Причастие прошедшего времени от 'abrir', используется как прилагательное.",
+        "phonetic": "/aˈbjeɾto/"
+      },
+      {
+        "word": "cerrado",
+        "pos": "adj",
+        "translation": "закрытый",
+        "note": "Причастие прошедшего времени от 'cerrar', используется как прилагательное.",
+        "phonetic": "/θeˈraðo/"
+      },
+      {
+        "word": "hora",
+        "pos": "noun",
+        "translation": "час/время",
+        "note": "Существительное женского рода; используется для 'часов работы'.",
+        "phonetic": "/ˈoɾa/"
+      },
+      {
+        "word": "tienda",
+        "pos": "noun",
+        "translation": "магазин",
+        "note": "Обычно для небольших магазинов.",
+        "phonetic": "/ˈtjenda/"
+      },
+      {
+        "word": "abrir",
+        "pos": "verb",
+        "translation": "открывать",
+        "note": "Используется для времени открытия.",
+        "phonetic": "/aˈbɾiɾ/"
+      },
+      {
+        "word": "cerrar",
+        "pos": "verb",
+        "translation": "закрывать",
+        "note": "Используется для времени закрытия.",
+        "phonetic": "/θeˈraɾ/"
+      },
+      {
+        "word": "hasta",
+        "pos": "prep",
+        "translation": "до",
+        "note": "Указывает время закрытия.",
+        "phonetic": "/ˈasta/"
+      },
+      {
+        "word": "desde",
+        "pos": "prep",
+        "translation": "с, от",
+        "note": "Указывает время открытия.",
+        "phonetic": "/ˈdezðe/"
+      },
+      {
+        "word": "tarde",
+        "pos": "adv",
+        "translation": "поздно",
+        "note": "Также означает 'после полудня' как существительное; здесь наречие.",
+        "phonetic": "/ˈtaɾðe/"
+      },
+      {
+        "word": "temprano",
+        "pos": "adv",
+        "translation": "рано",
+        "note": "Противоположность 'tarde'.",
+        "phonetic": "/temˈpɾano/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¿A qué hora abre la tienda?",
+        "translation": "В котором часу открывается магазин?",
+        "highlights": [
+          "hora",
+          "abre",
+          "tienda"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Abre a las nueve de la mañana y cierra a las seis de la tarde.",
+        "translation": "Открывается в девять утра и закрывается в шесть вечера.",
+        "highlights": [
+          "abre",
+          "cierra",
+          "tarde"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Está abierto desde el lunes hasta el sábado?",
+        "translation": "Открыто с понедельника по субботу?",
+        "highlights": [
+          "abierto",
+          "desde",
+          "hasta"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, pero el domingo está cerrado. Y los sábados cierra más temprano.",
+        "translation": "Да, но в воскресенье закрыто. А по субботам закрывается раньше.",
+        "highlights": [
+          "cerrado",
+          "temprano"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿A qué hora abre?",
+        "translation": "В котором часу открывается?"
+      },
+      {
+        "phrase": "Está abierto desde... hasta...",
+        "translation": "Открыто с... до..."
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_37",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Choosing a dish from a menu",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "este",
+        "pos": "det/pron",
+        "translation": "этот",
+        "note": "Указательное местоимение; используется для указания на что-то рядом.",
+        "phonetic": "/ˈes.te/"
+      },
+      {
+        "word": "tener",
+        "pos": "verb",
+        "translation": "иметь",
+        "note": "Неправильный глагол; также используется в выражениях, таких как 'tener hambre' (быть голодным).",
+        "phonetic": "/te.ˈneɾ/"
+      },
+      {
+        "word": "comer",
+        "pos": "verb",
+        "translation": "есть",
+        "note": "Правильный глагол на -er.",
+        "phonetic": "/ko.ˈmeɾ/"
+      },
+      {
+        "word": "cuál",
+        "pos": "pron",
+        "translation": "который (какой)",
+        "note": "Используется для вопроса о выборе из множества.",
+        "phonetic": "/kwal/"
+      },
+      {
+        "word": "recomendar",
+        "pos": "verb",
+        "translation": "рекомендовать",
+        "note": "Глагол с изменяемой гласной (e-ie); часто используется в сфере обслуживания.",
+        "phonetic": "/re.ko.men.ˈdaɾ/"
+      },
+      {
+        "word": "más",
+        "pos": "adv",
+        "translation": "больше",
+        "note": "Используется для сравнений и количества.",
+        "phonetic": "/mas/"
+      },
+      {
+        "word": "menos",
+        "pos": "adv",
+        "translation": "меньше",
+        "note": "Противоположность 'más'.",
+        "phonetic": "/ˈme.nos/"
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "translation": "но",
+        "note": "Противительный союз (уже есть в файле, но включен для полноты? На самом деле избегайте? Подождите, он в списке, чтобы избежать; я не буду его включать.)",
+        "phonetic": "/ˈpe.ɾo/"
+      },
+      {
+        "word": "mismo",
+        "pos": "adj",
+        "translation": "тот же самый",
+        "note": "Используется для указания на идентичность.",
+        "phonetic": "/ˈmis.mo/"
+      },
+      {
+        "word": "precio",
+        "pos": "noun",
+        "translation": "цена",
+        "note": "Часто встречается в контексте меню.",
+        "phonetic": "/ˈpɾe.sjo/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Este plato tiene pollo, pero ¿cuál recomiendas?",
+        "translation": "Это блюдо содержит курицу, но какое ты рекомендуешь?",
+        "highlights": [
+          "Este",
+          "tiene",
+          "cuál",
+          "recomiendas"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Recomiendo la paella, tiene más sabor y menos grasa.",
+        "translation": "Я рекомендую паэлью, в ней больше вкуса и меньше жира.",
+        "highlights": [
+          "Recomiendo",
+          "tiene",
+          "más",
+          "menos"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y el precio? Es el mismo para los dos.",
+        "translation": "А цена? Она одинаковая для обоих.",
+        "highlights": [
+          "precio",
+          "mismo",
+          "los"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, el precio es el mismo, pero la paella es mejor para comer.",
+        "translation": "Да, цена та же, но паэлья лучше для еды.",
+        "highlights": [
+          "precio",
+          "mismo",
+          "comer"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Cuál recomiendas?",
+        "translation": "Какой ты рекомендуешь?"
+      },
+      {
+        "phrase": "tener más sabor",
+        "translation": "иметь больше вкуса"
+      },
+      {
+        "phrase": "el mismo precio",
+        "translation": "та же цена"
+      }
+    ]
+  },
+  {
+    "id": "ru_A1_vctx_39",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the bank for a simple transaction",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "querer",
+        "pos": "verb",
+        "translation": "хотеть",
+        "note": "Используется для выражения желания; часто в вежливых просьбах.",
+        "phonetic": "/keˈɾeɾ/"
+      },
+      {
+        "word": "dinero",
+        "pos": "noun",
+        "translation": "деньги",
+        "note": "Существительное мужского рода; часто используется с 'tener' или 'necesitar'.",
+        "phonetic": "/diˈneɾo/"
+      },
+      {
+        "word": "cuenta",
+        "pos": "noun",
+        "translation": "счёт",
+        "note": "Относится к банковскому счёту; также означает 'счёт' в других контекстах.",
+        "phonetic": "/ˈkwenta/"
+      },
+      {
+        "word": "por",
+        "pos": "prep",
+        "translation": "за, по, через",
+        "note": "Используется для указания обмена, причины или продолжительности.",
+        "phonetic": "/poɾ/"
+      },
+      {
+        "word": "solo",
+        "pos": "adj",
+        "translation": "только, один",
+        "note": "Как прилагательное означает 'только' (например, solo quiero) или 'один'.",
+        "phonetic": "/ˈsolo/"
+      },
+      {
+        "word": "su",
+        "pos": "det",
+        "translation": "ваш, его, её, их",
+        "note": "Притяжательное местоимение; контекст указывает на владельца.",
+        "phonetic": "/su/"
+      },
+      {
+        "word": "firma",
+        "pos": "noun",
+        "translation": "подпись",
+        "note": "Существительное женского рода; используется для подписания документов.",
+        "phonetic": "/ˈfiɾma/"
+      },
+      {
+        "word": "otro",
+        "pos": "adj",
+        "translation": "другой, ещё один",
+        "note": "Используется для обозначения другого.",
+        "phonetic": "/ˈotɾo/"
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "translation": "также, тоже",
+        "note": "Используется для добавления информации или согласия.",
+        "phonetic": "/tamˈbjen/"
+      },
+      {
+        "word": "pasar",
+        "pos": "verb",
+        "translation": "проходить, случаться, входить",
+        "note": "Обычно используется как 'передать' или 'войти' в контексте обслуживания.",
+        "phonetic": "/paˈsaɾ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buenos días, quiero sacar dinero de mi cuenta, por favor.",
+        "translation": "Доброе утро, я хочу снять деньги со своего счёта, пожалуйста.",
+        "highlights": [
+          "quiero",
+          "dinero",
+          "cuenta",
+          "por"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, ¿cuánto quiere sacar? Solo necesito su tarjeta y una firma.",
+        "translation": "Да, сколько вы хотите снять? Мне нужны только ваша карта и подпись.",
+        "highlights": [
+          "solo",
+          "su",
+          "firma"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Quiero cien euros. ¿Puedo pasar por otro mostrador para cambiar dinero?",
+        "translation": "Я хочу сто евро. Могу я подойти к другому окну, чтобы обменять деньги?",
+        "highlights": [
+          "pasar",
+          "otro",
+          "dinero"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Claro, también puede hacer eso allí. Aquí tiene su dinero y su firma está lista.",
+        "translation": "Конечно, вы также можете сделать это там. Вот ваши деньги, и ваша подпись готова.",
+        "highlights": [
+          "también",
+          "su",
+          "dinero",
+          "firma"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Gracias, todo perfecto.",
+        "translation": "Спасибо, всё отлично.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "sacar dinero",
+        "translation": "снимать деньги"
+      },
+      {
+        "phrase": "por favor",
+        "translation": "пожалуйста"
+      },
+      {
+        "phrase": "cambiar dinero",
+        "translation": "обменивать деньги"
+      }
+    ]
+  }
+]

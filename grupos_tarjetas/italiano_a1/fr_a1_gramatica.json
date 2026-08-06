@@ -1,0 +1,2228 @@
+[
+  {
+    "id": "fr_A1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Essere (essere / estar)",
+    "bridge": "Le verbe italien *essere* correspond à deux verbes français : *être* et parfois *avoir* (dans des expressions comme 'avere fame'). Contrairement au français, l'italien n'a pas de distinction entre 'être' et 'estar' (comme en espagnol), mais il utilise *essere* pour des états permanents et temporaires. Attention : la forme 'tu sei' se traduit par 'tu es', mais la deuxième personne du pluriel 'voi siete' correspond à 'vous êtes'.",
+    "rule": "En italien, le verbe *essere* (être) se conjugue au présent de l'indicatif :\n- io sono (je suis)\n- tu sei (tu es)\n- lui/lei è (il/elle est)\n- noi siamo (nous sommes)\n- voi siete (vous êtes)\n- loro sono (ils/elles sont).\nIl est utilisé pour l'identité, la profession, l'origine, la description physique et morale, la localisation, et avec les adjectifs. On l'emploie aussi comme auxiliaire pour les temps composés de certains verbes. Il exprime un état permanent ou temporaire, sans distinction comme en espagnol. Il est essentiel de ne pas confondre 'è' (il est) avec 'e' (et) et d'accorder le participe passé avec le sujet dans les temps composés.",
+    "concept_examples": [
+      {
+        "text": "Io sono francese.",
+        "translation": "Je suis français.",
+        "phonetic": "/ˈi.o ˈso.no franˈtʃe.ze/"
+      },
+      {
+        "text": "Lei è a casa.",
+        "translation": "Elle est à la maison.",
+        "phonetic": "/ˈlɛi ɛ a ˈka.za/"
+      },
+      {
+        "text": "Noi siamo studenti.",
+        "translation": "Nous sommes étudiants.",
+        "phonetic": "/ˈnɔi ˈsja.mo stuˈdɛn.ti/"
+      },
+      {
+        "text": "Voi siete italiani?",
+        "translation": "Vous êtes italiens ?",
+        "phonetic": "/ˈvɔi ˈsjɛ.te i.taˈlja.ni/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Io sono ha fame.",
+      "correct": "Io ho fame.",
+      "correct_alt": "",
+      "explanation": "En français, on dit 'j'ai faim', donc les francophones ont tendance à utiliser 'essere' (être) avec 'fame'. En italien, on emploie le verbe 'avere' (avoir) pour exprimer la faim, la soif, l'âge, etc. Il faut donc mémoriser les expressions avec 'avere' : 'avere fame', 'avere sete', 'avere sonno'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Forme del presente indicativo",
+        "translation": "Formes du présent de l'indicatif",
+        "examples": [
+          {
+            "original": "Io sono",
+            "phonetic": "/ˈi.o ˈso.no/",
+            "translation": "Je suis",
+            "note": "La première personne du singulier est régulière."
+          },
+          {
+            "original": "Tu sei",
+            "phonetic": "/tu ˈsɛi/",
+            "translation": "Tu es",
+            "note": "Attention à la diphtongue 'ei' qui se prononce [ɛi]."
+          },
+          {
+            "original": "Lui/Lei è",
+            "phonetic": "/ˈlui/ˈlɛi ɛ/",
+            "translation": "Il/elle est",
+            "note": "L'accent grave sur 'è' est important pour distinguer de 'e' (et)."
+          },
+          {
+            "original": "Noi siamo",
+            "phonetic": "/ˈnɔi ˈsja.mo/",
+            "translation": "Nous sommes",
+            "note": "La forme 'siamo' est irrégulière."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Frasi affermative e negative",
+        "translation": "Phrases affirmatives et négatives",
+        "examples": [
+          {
+            "original": "Lei è simpatica.",
+            "phonetic": "/ˈlɛi ɛ simˈpa.ti.ka/",
+            "translation": "Elle est sympathique.",
+            "note": "L'adjectif s'accorde en genre et en nombre avec le sujet."
+          },
+          {
+            "original": "Non sono stanco.",
+            "phonetic": "/non ˈso.no ˈstan.ko/",
+            "translation": "Je ne suis pas fatigué.",
+            "note": "La négation se forme avec 'non' placé avant le verbe."
+          },
+          {
+            "original": "Tu non sei francese?",
+            "phonetic": "/tu non ˈsɛi franˈtʃe.ze/",
+            "translation": "Tu n'es pas français ?",
+            "note": "Question avec intonation, pas d'inversion comme en français."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Usi particolari",
+        "translation": "Usages particuliers",
+        "examples": [
+          {
+            "original": "Oggi è venerdì.",
+            "phonetic": "/ˈɔd.dʒi ɛ ve.nerˈdi/",
+            "translation": "Aujourd'hui c'est vendredi.",
+            "note": "On utilise 'essere' pour les jours de la semaine."
+          },
+          {
+            "original": "Che ora è?",
+            "phonetic": "/kɛ ˈɔ.ra ɛ/",
+            "translation": "Quelle heure est-il ?",
+            "note": "Expression pour demander l'heure."
+          },
+          {
+            "original": "Siamo in Italia.",
+            "phonetic": "/ˈsja.mo in iˈta.lja/",
+            "translation": "Nous sommes en Italie.",
+            "note": "Utilisé pour la localisation."
+          }
+        ]
+      }
+    ],
+    "emoji": "👤",
+    "phonetic": "",
+    "translations": {
+      "fr": "Être (verbe être)"
+    }
+  },
+  {
+    "id": "fr_A1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Pronomi personali soggetto / Pronoms personnels sujets",
+    "bridge": "En français, le pronom sujet est toujours exprimé (je, tu, il…). En italien, il est souvent omis car la terminaison du verbe indique déjà la personne. Par exemple, 'parlo' signifie 'je parle' sans avoir besoin de 'io'. Attention aussi à la distinction entre 'tu' (familier) et 'Lei' (forme de politesse), qui correspond à 'vous' en français. Enfin, le pronom 'egli/ella' est littéraire : on utilise plutôt 'lui/lei' à l'oral.",
+    "rule": "Les pronoms personnels sujets en italien sont : io (je), tu (tu), lui/lei (il/elle), noi (nous), voi (vous), loro (ils/elles). Au niveau A1, on utilise généralement 'lui' pour 'il' et 'lei' pour 'elle' dans la langue parlée ; 'egli'/'ella' sont réservés à l'écrit formel. Le pronom 'Lei' avec une majuscule est la forme de politesse (vous de politesse) et s'emploie avec la 3e personne du singulier. 'Voi' est utilisé comme vous pluriel, mais aussi comme vouvoiement dans certaines régions. En italien, le pronom sujet est souvent sous-entendu, surtout à l'oral. On le met pour insister, pour clarifier ou pour contraster. Exemples : 'Vado' (je vais) vs 'Io vado, tu resti' (moi, je vais, toi, tu restes).",
+    "concept_examples": [
+      {
+        "text": "Io sono francese.",
+        "translation": "Je suis français.",
+        "phonetic": "ˈi.o ˈso.no franˈtʃe.ze"
+      },
+      {
+        "text": "Tu parli italiano.",
+        "translation": "Tu parles italien.",
+        "phonetic": "tu ˈpar.li i.taˈlja.no"
+      },
+      {
+        "text": "Lei è italiana.",
+        "translation": "Elle est italienne.",
+        "phonetic": "ˈlɛ.i ɛ i.taˈlja.na"
+      },
+      {
+        "text": "Noi siamo studenti.",
+        "translation": "Nous sommes étudiants.",
+        "phonetic": "ˈnɔ.i ˈsja.mo stuˈdɛn.ti"
+      }
+    ],
+    "common_error": {
+      "wrong": "Io io sono francese.",
+      "correct": "Io sono francese.",
+      "correct_alt": "Sono francese.",
+      "explanation": "Les apprenants francophones ont tendance à doubler le pronom (par exemple 'io io') car en français on dit 'moi, je suis'. En italien, il faut un seul pronom ou pas du tout. Si on veut insister, on dit simplement 'Io sono francese' ou 'Sono francese' sans pronom."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Prima persona singolare e plurale (io, noi)",
+        "translation": "Première personne du singulier et du pluriel (je, nous)",
+        "examples": [
+          {
+            "original": "Io mangio una mela.",
+            "phonetic": "ˈi.o ˈman.dʒo ˈu.na ˈme.la",
+            "translation": "Je mange une pomme.",
+            "note": "En italien, le pronom 'io' est souvent omis : on dit 'Mangio una mela.' pour dire 'Je mange une pomme.'"
+          },
+          {
+            "original": "Noi abitiamo a Parigi.",
+            "phonetic": "ˈnɔ.i a.biˈtja.mo a paˈri.dʒi",
+            "translation": "Nous habitons à Paris.",
+            "note": "Le pronom 'noi' peut être omis : 'Abitiamo a Parigi.' est plus naturel."
+          },
+          {
+            "original": "Io e tu siamo amici.",
+            "phonetic": "ˈi.o e tu ˈsja.mo aˈmi.tʃi",
+            "translation": "Moi et toi, nous sommes amis.",
+            "note": "Quand on énumère plusieurs personnes, le pronom 'noi' est souvent utilisé après la liste, comme ici."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Seconda persona (tu, voi, Lei)",
+        "translation": "Deuxième personne (tu, vous, forme de politesse)",
+        "examples": [
+          {
+            "original": "Tu sei molto gentile.",
+            "phonetic": "tu ˈsɛ.i ˈmol.to dʒenˈti.le",
+            "translation": "Tu es très gentil.",
+            "note": "Le pronom 'tu' est utilisé pour le tutoiement familier, comme en français."
+          },
+          {
+            "original": "Voi parlate francese?",
+            "phonetic": "vɔi parˈla.te franˈtʃe.ze",
+            "translation": "Vous parlez français ? (pluriel)",
+            "note": "Pour le pluriel, on utilise 'voi' qui correspond à 'vous' en français."
+          },
+          {
+            "original": "Lei è il signor Rossi?",
+            "phonetic": "ˈlɛ.i ɛ il siɲˈɲor ˈrɔs.si",
+            "translation": "Vous êtes Monsieur Rossi ? (forme de politesse)",
+            "note": "Attention : 'Lei' avec majuscule est la forme de politesse, mais il se conjugue comme la troisième personne du singulier, ce qui est différent du 'vous' français (deuxième personne du pluriel)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Terza persona singolare e plurale (lui, lei, loro)",
+        "translation": "Troisième personne du singulier et du pluriel (lui, elle, ils/elles)",
+        "examples": [
+          {
+            "original": "Lui è mio padre.",
+            "phonetic": "ˈlu.i ɛ ˈmi.o ˈpa.dre",
+            "translation": "Il est mon père.",
+            "note": "À l'oral, on utilise 'lui' pour dire 'il' ; 'egli' est littéraire."
+          },
+          {
+            "original": "Lei è mia sorella.",
+            "phonetic": "ˈlɛ.i ɛ ˈmi.a soˈrɛl.la",
+            "translation": "Elle est ma sœur.",
+            "note": "De même, 'lei' remplace 'ella' à l'oral."
+          },
+          {
+            "original": "Loro sono studenti.",
+            "phonetic": "ˈlo.ro ˈso.no stuˈdɛn.ti",
+            "translation": "Ils sont étudiants.",
+            "note": "Le pronom 'loro' est invariable et peut désigner un groupe mixte (ils/elles)."
+          }
+        ]
+      }
+    ],
+    "emoji": "👤",
+    "phonetic": "",
+    "translations": {
+      "fr": "Pronoms personnels sujets"
+    }
+  },
+  {
+    "id": "fr_A1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Articoli determinativi e indeterminativi / Articles définis et indéfinis",
+    "bridge": "En français, vous utilisez 'le', 'la', 'les', 'un', 'une', 'des'. En italien, c'est similaire mais il y a des différences : les articles définis italiens ont plusieurs formes (il, lo, l', la, i, gli, le) selon le genre, le nombre et la première lettre du mot. Attention : en italien, on utilise l'article défini plus souvent qu'en français (par exemple avec les jours de la semaine, les langues, et les parties du corps). De plus, l'article indéfini pluriel 'des' n'existe pas en italien : on utilise l'article partitif ('del', 'della', etc.) ou tout simplement rien.",
+    "rule": "En italien, les articles définis (il, lo, l', la, i, gli, le) correspondent à 'le', 'la', 'les' en français. Règles de base :\n- Maschile singolare : 'il' devant consonne (il libro), 'lo' devant s+consonne, z, x, y, pn, ps, gn (lo studente, lo zio), 'l'' devant voyelle (l'amico).\n- Femminile singolare : 'la' (la casa), 'l'' devant voyelle (l'amica).\n- Maschile plurale : 'i' (i libri), 'gli' devant voyelle, s+consonne, z, x, etc. (gli amici, gli studenti).\n- Femminile plurale : 'le' (le case).\nLes articles indéfinis : 'un' (maschile, devant consonne ou voyelle, mais devient 'uno' devant s+consonne, z, x, etc.), 'una' (femminile, devient 'un''' devant voyelle). Au pluriel, on utilise l'article partitif 'del', 'dello', 'della', 'dei', 'degli', 'delle' pour exprimer 'des' ou 'de la'.\nExceptions et pièges : ne pas utiliser d'article avec les noms de pays (en général) après 'in' : 'vado in Italia' (pas 'nella Italia'). Avec les jours de la semaine, on utilise l'article défini pour indiquer une habitude : 'il lunedì' = 'le lundi' (chaque lundi). Avec les langues, on utilise l'article défini : 'l'italiano' = 'l'italien'. Avec les parties du corps, on utilise l'article défini, pas le possessif : 'mi lavo le mani' = 'je me lave les mains'.\nPour l'heure, on utilise l'article défini : 'sono le tre' = 'il est trois heures'.",
+    "concept_examples": [
+      {
+        "text": "Il libro è sul tavolo.",
+        "translation": "Le livre est sur la table.",
+        "phonetic": "/il ˈliːbro ɛ sul ˈtaːvolo/"
+      },
+      {
+        "text": "Ho un amico francese.",
+        "translation": "J'ai un ami français.",
+        "phonetic": "/ɔ un aˈmiːko franˈtʃeːze/"
+      },
+      {
+        "text": "Le ragazze sono in classe.",
+        "translation": "Les filles sont en classe.",
+        "phonetic": "/le raˈɡatts e ˈsoːno in ˈklas se/"
+      },
+      {
+        "text": "Vorrei dell'acqua, per favore.",
+        "translation": "Je voudrais de l'eau, s'il vous plaît.",
+        "phonetic": "/vorˈrɛi dellˈak kwa per faˈvoːre/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Vado alla Italia domani.",
+      "correct": "Vado in Italia domani.",
+      "correct_alt": "Vado in Italia domani.",
+      "explanation": "En français, on dit 'je vais en Italie', et certains francophones transfèrent l'article 'la' de 'l'Italie' en disant 'alla Italia' (en pensant à 'à la'). En italien, avec les noms de pays féminins, on utilise 'in' sans article : 'vado in Italia'. Donc ne pas utiliser l'article défini après 'in' pour les pays."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Articolo determinativo maschile e femminile",
+        "translation": "Article défini masculin et féminin",
+        "examples": [
+          {
+            "original": "Il cane è nero.",
+            "phonetic": "/il ˈkaːne ɛ ˈneːro/",
+            "translation": "Le chien est noir.",
+            "note": "Utilisez 'il' pour les noms masculins singuliers commençant par une consonne."
+          },
+          {
+            "original": "La casa è grande.",
+            "phonetic": "/la ˈkaːza ɛ ˈɡrande/",
+            "translation": "La maison est grande.",
+            "note": "Utilisez 'la' pour les noms féminins singuliers."
+          },
+          {
+            "original": "L'amico è simpatico.",
+            "phonetic": "/laˈmiːko ɛ simˈpaːtiko/",
+            "translation": "L'ami est sympathique.",
+            "note": "Devant une voyelle, 'il' et 'la' deviennent 'l''."
+          },
+          {
+            "original": "Lo zio è alto.",
+            "phonetic": "/lo ˈtsiːo ɛ ˈalto/",
+            "translation": "L'oncle est grand.",
+            "note": "Devant 'z', 's+consonne', 'ps', etc., on utilise 'lo'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Articolo indeterminativo e partitivo",
+        "translation": "Article indéfini et partitif",
+        "examples": [
+          {
+            "original": "Un ragazzo parla italiano.",
+            "phonetic": "/un raˈɡattso ˈparla itaˈljaːno/",
+            "translation": "Un garçon parle italien.",
+            "note": "Utilisez 'un' pour masculin (devant consonne ou voyelle)."
+          },
+          {
+            "original": "Uno studente studia molto.",
+            "phonetic": "/ˈuno stuˈdɛnte ˈstuːdja ˈmolto/",
+            "translation": "Un étudiant étudie beaucoup.",
+            "note": "Devant 's+consonne', utilisez 'uno'."
+          },
+          {
+            "original": "Una mela al giorno.",
+            "phonetic": "/ˈuːna ˈmeːla al ˈdʒorno/",
+            "translation": "Une pomme par jour.",
+            "note": "Utilisez 'una' pour féminin singulier."
+          },
+          {
+            "original": "Compro del pane.",
+            "phonetic": "/ˈkompro del ˈpaːne/",
+            "translation": "J'achète du pain.",
+            "note": "Le partitif 'del' correspond à 'du' en français."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Plurali e casi particolari",
+        "translation": "Pluriels et cas particuliers",
+        "examples": [
+          {
+            "original": "I libri sono interessanti.",
+            "phonetic": "/i ˈliːbri ˈsoːno intɛresˈsanti/",
+            "translation": "Les livres sont intéressants.",
+            "note": "Le pluriel masculin de 'il' est 'i'."
+          },
+          {
+            "original": "Gli studenti sono in aula.",
+            "phonetic": "/ʎi stuˈdɛnti ˈsoːno in ˈaːula/",
+            "translation": "Les étudiants sont dans la salle.",
+            "note": "Le pluriel masculin de 'lo' et 'l'' est 'gli'."
+          },
+          {
+            "original": "Le finestre sono aperte.",
+            "phonetic": "/le fiˈnɛstre ˈsoːno aˈpɛrte/",
+            "translation": "Les fenêtres sont ouvertes.",
+            "note": "Le pluriel féminin est toujours 'le'."
+          },
+          {
+            "original": "Dei ragazzi giocano nel parco.",
+            "phonetic": "/ˈdej raˈɡattsi ˈdʒɔːkano nel ˈparko/",
+            "translation": "Des garçons jouent dans le parc.",
+            "note": "Le partitif pluriel 'dei' correspond à 'des'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📦",
+    "phonetic": "",
+    "translations": {
+      "fr": "Articles définis et indéfinis"
+    }
+  },
+  {
+    "id": "fr_A1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Genere e numero dei sostantivi / Genre et nombre des noms",
+    "bridge": "En italien, comme en français, les noms ont un genre (masculin ou féminin) et un nombre (singulier ou pluriel). Mais attention : en italien, le pluriel se forme souvent en changeant la voyelle finale (par exemple, 'libro' → 'libri'), alors qu'en français on ajoute généralement un 's' qui ne se prononce pas (livre → livres). De plus, certains mots qui sont masculins en français sont féminins en italien (par exemple, 'le problème' → 'il problema'), et inversement. Il est donc essentiel de mémoriser le genre de chaque nom.",
+    "rule": "En italien, au singulier, les noms masculins se terminent généralement par -o (ex. 'ragazzo', garçon) et les noms féminins par -a (ex. 'casa', maison). Il existe aussi des noms en -e qui peuvent être masculins ou féminins (ex. 'padre' masculin, 'madre' féminin). Pour former le pluriel : les noms en -o deviennent en -i (ragazzo → ragazzi), les noms en -a deviennent en -e (casa → case), et les noms en -e deviennent en -i (padre → padri, madre → madri). Les noms invariables (ceux qui se terminent par une consonne ou par une voyelle accentuée, ou les mots d'origine étrangère) ne changent pas au pluriel (ex. 'il bar' → 'i bar'). L'article indéfini : 'un' pour masculin devant consonne, 'uno' devant s+consonne, z, gn, ps, x ; 'una' pour féminin (devant une voyelle devient 'un''). L'article défini : 'il' (masculin singulier devant consonne), 'lo' (devant s+consonne, z, gn, ps, x), 'la' (féminin singulier), 'i' (masculin pluriel), 'gli' (masculin pluriel devant voyelle ou s+consonne), 'le' (féminin pluriel).",
+    "concept_examples": [
+      {
+        "text": "Un ragazzo e una ragazza.",
+        "translation": "Un garçon et une fille.",
+        "phonetic": "un raɡˈɡat͡t͡so e ˈuna raɡˈɡat͡t͡sa"
+      },
+      {
+        "text": "Libri e penne sono sul tavolo.",
+        "translation": "Des livres et des stylos sont sur la table.",
+        "phonetic": "ˈlibri e ˈpenne ˈsono sul ˈtaːvolo"
+      },
+      {
+        "text": "La casa è grande.",
+        "translation": "La maison est grande.",
+        "phonetic": "la ˈkaːza ɛ ˈɡrande"
+      },
+      {
+        "text": "I padri e le madri.",
+        "translation": "Les pères et les mères.",
+        "phonetic": "i ˈpaːdri e le ˈmaːdri"
+      }
+    ],
+    "common_error": {
+      "wrong": "Il libro rossa",
+      "correct": "Il libro rosso",
+      "correct_alt": "La penna rossa",
+      "explanation": "En italien, l'adjectif doit s'accorder en genre avec le nom. 'Libro' est masculin, donc l'adjectif doit être 'rosso' (masculin), non pas 'rossa' (féminin). Beaucoup d'apprenants francophones transfèrent la règle française où l'accord est souvent marqué par un 'e' final (rouge, vert), mais en italien il faut changer la voyelle finale (-o pour masculin, -a pour féminin)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Maschile e femminile",
+        "translation": "Masculin et féminin",
+        "examples": [
+          {
+            "original": "Un amico, un'amica.",
+            "phonetic": "un aˈmiko, un aˈmika",
+            "translation": "Un ami, une amie.",
+            "note": "Observez que l'article indéfini change : 'un' pour masculin, 'una' pour féminin. Devant une voyelle, 'una' devient 'un''."
+          },
+          {
+            "original": "Il maestro, la maestra.",
+            "phonetic": "il maˈestro, la maˈestra",
+            "translation": "Le maître, la maîtresse.",
+            "note": "Les noms en -o sont souvent masculins, ceux en -a sont souvent féminins, mais il y a des exceptions."
+          },
+          {
+            "original": "Il pane, la carne.",
+            "phonetic": "il ˈpane, la ˈkarne",
+            "translation": "Le pain, la viande.",
+            "note": "Les noms en -e peuvent être masculins ou féminins : il faut les apprendre par cœur."
+          },
+          {
+            "original": "L'amico, l'amica.",
+            "phonetic": "laˈmiko, laˈmika",
+            "translation": "L'ami, l'amie.",
+            "note": "L'article défini 'lo' devient 'l'' devant une voyelle, de même que 'la' devient 'l''."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Il plurale: -o → -i, -a → -e, -e → -i",
+        "translation": "Le pluriel : -o → -i, -a → -e, -e → -i",
+        "examples": [
+          {
+            "original": "Amici, amiche.",
+            "phonetic": "aˈmit͡ʃi, aˈmike",
+            "translation": "Amis, amies.",
+            "note": "Le masculin pluriel de 'amico' est 'amici' (avec un -i), tandis que le féminin est 'amiche' (avec -e)."
+          },
+          {
+            "original": "Gatti, case.",
+            "phonetic": "ˈɡatti, ˈkaze",
+            "translation": "Chats, maisons.",
+            "note": "Remarquez que 'case' se prononce avec un 'z' sonore (comme dans 'zéro' en français)."
+          },
+          {
+            "original": "Padri, madri.",
+            "phonetic": "ˈpaːdri, ˈmaːdri",
+            "translation": "Pères, mères.",
+            "note": "Les noms en -e au singulier forment leur pluriel avec -i, que ce soit masculin ou féminin."
+          },
+          {
+            "original": "Il caffè, i caffè.",
+            "phonetic": "il kafˈfɛ, i kafˈfɛ",
+            "translation": "Le café, les cafés.",
+            "note": "Les mots accentué sur la dernière voyelle sont invariables au pluriel."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Eccezioni e casi particolari",
+        "translation": "Exceptions et cas particuliers",
+        "examples": [
+          {
+            "original": "La mano, le mani.",
+            "phonetic": "la ˈmaːno, le ˈmaːni",
+            "translation": "La main, les mains.",
+            "note": "'Mano' est un nom féminin qui se termine en -o : c'est une exception courante."
+          },
+          {
+            "original": "Il problema, i problemi.",
+            "phonetic": "il proˈblɛma, i proˈblɛmi",
+            "translation": "Le problème, les problèmes.",
+            "note": "Les noms d'origine grecque en -ma sont masculins en italien (contrairement au français)."
+          },
+          {
+            "original": "Un uomo, due uomini.",
+            "phonetic": "un ˈwɔmo, ˈdue ˈwɔmini",
+            "translation": "Un homme, deux hommes.",
+            "note": "Le pluriel de 'uomo' est irrégulier : 'uomini'."
+          },
+          {
+            "original": "La città, le città.",
+            "phonetic": "la t͡ʃitˈta, le t͡ʃitˈta",
+            "translation": "La ville, les villes.",
+            "note": "Les mots terminés par une voyelle accentuée restent invariables au pluriel."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚥",
+    "phonetic": "",
+    "translations": {
+      "fr": "Genre et nombre des noms"
+    }
+  },
+  {
+    "id": "fr_A1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbi regolari al presente / Verbes réguliers au présent",
+    "bridge": "En italien, comme en français, les verbes réguliers se conjuguent en trois groupes selon la terminaison de l'infinitif : -are, -ere, -ire. Mais attention : en italien, il n'y a pas de sujet exprimé systématiquement comme en français, car les terminaisons indiquent déjà la personne. De plus, les terminaisons sont plus uniformes et régulières qu'en français, mais les pièges viennent des verbes en -ire qui peuvent prendre -isc- à certaines personnes, et de la prononciation qui distingue clairement les formes.",
+    "rule": "En italien, les verbes réguliers au présent de l'indicatif se conjuguent selon leur infinitif :\n\n1. Verbes en -are (parlare - parler) :\n   - io parlo\n   - tu parli\n   - lui/lei parla\n   - noi parliamo\n   - voi parlate\n   - loro parlano\n\n2. Verbes en -ere (leggere - lire) :\n   - io leggo\n   - tu leggi\n   - lui/lei legge\n   - noi leggiamo\n   - voi leggete\n   - loro leggono\n\n3. Verbes en -ire (dormire - dormir) :\n   - io dormo\n   - tu dormi\n   - lui/lei dorme\n   - noi dormiamo\n   - voi dormite\n   - loro dormono\n\nException : certains verbes en -ire (comme finire, capire, preferire) insèrent -isc- entre le radical et la terminaison pour les personnes singulières et la 3e personne du pluriel : io finisco, tu finisci, lui finisce, loro finiscono. Ceci est similaire à la désinence -iss- en français pour certains verbes comme 'finir' (je finis, tu finis, il finit).\n\nUsage : On utilise le présent pour des actions habituelles, des vérités générales, ou des actions en cours. En italien, on ne met pas toujours le sujet explicite, car la terminaison suffit.",
+    "concept_examples": [
+      {
+        "text": "Io parlo italiano.",
+        "translation": "Je parle italien.",
+        "phonetic": "/ˈi.o ˈpar.lo i.taˈlja.no/"
+      },
+      {
+        "text": "Lei legge un libro.",
+        "translation": "Elle lit un livre.",
+        "phonetic": "/ˈlɛi ˈlɛd.dʒe un ˈli.bro/"
+      },
+      {
+        "text": "Noi dormiamo bene.",
+        "translation": "Nous dormons bien.",
+        "phonetic": "/ˈnɔi dorˈmja.mo ˈbɛ.ne/"
+      },
+      {
+        "text": "Loro finiscono il lavoro.",
+        "translation": "Ils finissent le travail.",
+        "phonetic": "/ˈlo.ro fiˈni.sko.no il laˈvo.ro/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Io parlo italiano? No, io parlo italiano è sbagliato? (en fait, l'erreur typique est d'omettre le sujet alors qu'on l'emploie par habitude)",
+      "correct": "Parlo italiano.",
+      "correct_alt": "Io parlo italiano.",
+      "explanation": "L'erreur la plus fréquente pour les francophones est de toujours prononcer le sujet (io, tu, lui) parce qu'en français le sujet est obligatoire. En italien, le sujet est souvent sous-entendu, car la terminaison verbale indique la personne. Dire 'Io parlo' n'est pas incorrect, mais c'est moins naturel dans une conversation courante. Il faut donc apprendre à omettre le sujet quand il est clair, et ne le mettre que pour insister ou lever une ambiguïté."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbi in -are",
+        "translation": "Verbes en -are",
+        "examples": [
+          {
+            "original": "Io mangio una mela.",
+            "phonetic": "/ˈi.o ˈman.dʒo ˈu.na ˈmɛ.la/",
+            "translation": "Je mange une pomme.",
+            "note": "Le verbe 'mangiare' se conjugue comme 'parlare' : radical + terminaison. Notez la prononciation de 'mangio' avec un son /dʒ/."
+          },
+          {
+            "original": "Tu canti bene.",
+            "phonetic": "/tu ˈkan.ti ˈbɛ.ne/",
+            "translation": "Tu chantes bien.",
+            "note": "La 2e personne du singulier se termine en -i, comme la 1re personne. Attention à ne pas confondre avec le pronom 'tu'."
+          },
+          {
+            "original": "Loro guardano la televisione.",
+            "phonetic": "/ˈlo.ro ˈɡwar.da.no la te.le.viˈzjo.ne/",
+            "translation": "Ils regardent la télévision.",
+            "note": "La 3e personne du pluriel en -ano est similaire à la terminaison française '-ent' mais prononcée clairement."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbi in -ere",
+        "translation": "Verbes en -ere",
+        "examples": [
+          {
+            "original": "Noi scriviamo una lettera.",
+            "phonetic": "/ˈnɔi skriˈvja.mo ˈu.na ˈlet.te.ra/",
+            "translation": "Nous écrivons une lettre.",
+            "note": "La 1re personne du pluriel en -iamo est identique pour tous les groupes : facile à retenir."
+          },
+          {
+            "original": "Voi leggete il giornale.",
+            "phonetic": "/ˈvɔi ledˈdʒe.te il dʒorˈna.le/",
+            "translation": "Vous lisez le journal.",
+            "note": "Attention à la double consonne 'gg' dans 'leggete' : prononcez /dʒe/ plus long."
+          },
+          {
+            "original": "Lui vende la macchina.",
+            "phonetic": "/ˈlu.i ˈven.de la ˈmak.ki.na/",
+            "translation": "Il vend la voiture.",
+            "note": "Le verbe 'vendere' est régulier en -ere. La 3e personne du singulier se termine en -e, comme en français 'il vend'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbi in -ire e verbi in -isc",
+        "translation": "Verbes en -ire et verbes en -isc",
+        "examples": [
+          {
+            "original": "Io parto domani.",
+            "phonetic": "/ˈi.o ˈpar.to doˈma.ni/",
+            "translation": "Je pars demain.",
+            "note": "Le verbe 'partire' est régulier en -ire, sans -isc. La terminaison est -o pour je."
+          },
+          {
+            "original": "Tu capisci il problema.",
+            "phonetic": "/tu kaˈpiʃ.ʃi il proˈblɛ.ma/",
+            "translation": "Tu comprends le problème.",
+            "note": "Le verbe 'capire' prend -isc- : tu capisci. La prononciation /ʃ/ est comme 'ch' en français."
+          },
+          {
+            "original": "Loro preferiscono il caffè.",
+            "phonetic": "/ˈlo.ro pre.feˈri.sko.no il kafˈfɛ/",
+            "translation": "Ils préfèrent le café.",
+            "note": "Ici aussi, 'preferire' prend -isc- à la 3e personne du pluriel. Comparez avec 'preferisco, preferisci'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "fr": "Verbes réguliers au présent"
+    }
+  },
+  {
+    "id": "fr_A1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "La negazione / La négation",
+    "bridge": "En français, vous utilisez 'ne...pas' pour former la négation. En italien, c'est plus simple : il suffit de placer 'non' devant le verbe, sans deuxième mot. Par exemple, 'je ne parle pas' devient 'non parlo'. Attention : en italien, on ne met jamais 'non' après le verbe, et il ne s'accorde pas avec le sujet. C'est un point facile à maîtriser si vous vous souvenez que 'non' est toujours avant le verbe.",
+    "rule": "Pour former une phrase négative en italien, on place l'adverbe 'non' directement devant le verbe conjugué. Il n'y a pas d'équivalent de 'pas' ou 'ne'. Exemples : 'Parlo italiano' (je parle italien) -> 'Non parlo italiano' (je ne parle pas italien). Avec les verbes modaux comme 'potere' (pouvoir), 'volere' (vouloir), 'dovere' (devoir), 'non' précède le verbe conjugué, mais peut aussi précéder l'infinitif dans certains cas, bien que la forme la plus courante soit devant le verbe conjugué. Pour les temps composés (comme le passato prossimo), 'non' se place avant l'auxiliaire (essere ou avere). Par exemple : 'Non ho mangiato' (je n'ai pas mangé). Dans les réponses courtes, 'non' est utilisé seul pour dire 'non' (ex. 'Vuoi un caffè? - Non, grazie.'). L'impératif négatif se construit avec 'non' + infinitif pour les personnes 'tu' et 'voi' (ex. 'Non parlare!' - ne parle pas !). Pour le 'noi', on utilise 'non' + l'impératif de la première personne du pluriel (ex. 'Non parliamo!'). Il n'y a pas de double négation : en italien, une seule négation suffit.",
+    "concept_examples": [
+      {
+        "text": "Non parlo italiano.",
+        "translation": "Je ne parle pas italien.",
+        "phonetic": "non ˈparlo itaˈljano"
+      },
+      {
+        "text": "Non ho fame.",
+        "translation": "Je n'ai pas faim.",
+        "phonetic": "non ɔ ˈfame"
+      },
+      {
+        "text": "Non voglio uscire.",
+        "translation": "Je ne veux pas sortir.",
+        "phonetic": "non ˈvɔʎʎo uʃˈʃire"
+      },
+      {
+        "text": "Non è italiano.",
+        "translation": "Il n'est pas italien.",
+        "phonetic": "non ɛ itaˈljano"
+      }
+    ],
+    "common_error": {
+      "wrong": "Io no parlo francese.",
+      "correct": "Io non parlo francese.",
+      "correct_alt": "Non parlo francese.",
+      "explanation": "L'erreur vient du fait qu'en français, on utilise 'ne' qui peut être confondu avec 'non' en italien. Mais en italien, c'est toujours 'non' et jamais 'no' pour la négation dans une phrase. De plus, on ne met rien après le verbe. Si vous utilisez 'no' pour la négation, cela signifie 'non' comme réponse courte. Par exemple, 'No, non parlo' est correct pour répondre à une question. Retenez : 'non' est l'adverbe de négation, et il se place directement devant le verbe."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Negazione semplice",
+        "translation": "Négation simple",
+        "examples": [
+          {
+            "original": "Non sono francese.",
+            "phonetic": "non ˈsono franˈtʃeze",
+            "translation": "Je ne suis pas français.",
+            "note": "Observez que 'non' précède le verbe 'sono' (je suis)."
+          },
+          {
+            "original": "Non abito a Roma.",
+            "phonetic": "non ˈabito a ˈroma",
+            "translation": "Je n'habite pas à Rome.",
+            "note": "La structure est identique à la forme affirmative, avec 'non' avant le verbe."
+          },
+          {
+            "original": "Non ho fratelli.",
+            "phonetic": "non ɔ fraˈtɛlli",
+            "translation": "Je n'ai pas de frères.",
+            "note": "Attention : en italien, on n'utilise pas 'pas de' comme en français, avec 'non' seul."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Negazione con verbi modali",
+        "translation": "Négation avec les verbes modaux",
+        "examples": [
+          {
+            "original": "Non posso venire.",
+            "phonetic": "non ˈpɔsso veˈnire",
+            "translation": "Je ne peux pas venir.",
+            "note": "Placez 'non' avant le verbe modal 'posso'."
+          },
+          {
+            "original": "Non voglio mangiare la pizza.",
+            "phonetic": "non ˈvɔʎʎo manˈdʒare la ˈpittsa",
+            "translation": "Je ne veux pas manger de pizza.",
+            "note": "Le verbe modal est conjugué, suivi de l'infinitif."
+          },
+          {
+            "original": "Non devo lavorare oggi.",
+            "phonetic": "non ˈdɛvo lavoˈrare ˈɔddʒi",
+            "translation": "Je ne dois pas travailler aujourd'hui.",
+            "note": "La négation ne change pas la structure modale + infinitif."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negazione al passato e all'imperativo",
+        "translation": "Négation au passé et à l'impératif",
+        "examples": [
+          {
+            "original": "Non ho mangiato.",
+            "phonetic": "non ɔ manˈdʒato",
+            "translation": "Je n'ai pas mangé.",
+            "note": "Au passé composé, 'non' est placé devant l'auxiliaire 'ho'."
+          },
+          {
+            "original": "Non è arrivato.",
+            "phonetic": "non ɛ arriˈvato",
+            "translation": "Il n'est pas arrivé.",
+            "note": "Avec 'essere', la négation est aussi devant l'auxiliaire."
+          },
+          {
+            "original": "Non parlare!",
+            "phonetic": "non parˈlare",
+            "translation": "Ne parle pas !",
+            "note": "L'impératif négatif à la deuxième personne du singulier utilise l'infinitif."
+          },
+          {
+            "original": "Non andate via!",
+            "phonetic": "non anˈdate ˈvia",
+            "translation": "Ne partez pas !",
+            "note": "Pour 'voi', on utilise la forme de l'impératif (ou la forme infinitive est parfois utilisée, mais la forme impérative est plus courante ici)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙅",
+    "phonetic": "",
+    "translations": {
+      "fr": "La négation"
+    }
+  },
+  {
+    "id": "fr_A1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Domande di base / Questions de base",
+    "bridge": "En italien, comme en français, on utilise des mots interrogatifs (chi, cosa, dove, quando, perché, come) pour poser des questions ouvertes, et l'inversion ou l'ajout de '? pour les questions fermées. Attention : en italien, le sujet peut être omis, et l'ordre des mots est souvent flexible. Contrairement au français, on ne fait pas de liaison ni de 'est-ce que' ; l'intonation et parfois l'inversion suffisent.",
+    "rule": "Pour poser une question ouverte en italien, on place le mot interrogatif au début, suivi du verbe et du sujet (si exprimé). Exemples : 'Chi sei?' (Qui es-tu ?), 'Cosa fai?' (Que fais-tu ?). Pour les questions fermées, on peut simplement ajouter un point d'interrogation à une phrase affirmative, ou inverser le sujet et le verbe, ex. 'Sei italiano?' (Es-tu italien ?). L'accord du participe passé et l'utilisation des auxiliaires essere/avere suivent les règles habituelles. Les mots interrogatifs courants : chi (qui), che/cosa (quoi/que), dove (où), quando (quand), perché (pourquoi), come (comment).",
+    "concept_examples": [
+      {
+        "text": "Chi sei?",
+        "translation": "Qui es-tu ?",
+        "phonetic": "/ˈki ˈsɛi/"
+      },
+      {
+        "text": "Cosa fai?",
+        "translation": "Que fais-tu ?",
+        "phonetic": "/ˈkɔza ˈfai/"
+      },
+      {
+        "text": "Dove abiti?",
+        "translation": "Où habites-tu ?",
+        "phonetic": "/ˈdove ˈabiti/"
+      },
+      {
+        "text": "Sei italiano?",
+        "translation": "Es-tu italien ?",
+        "phonetic": "/ˈsɛi itaˈljano/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Tu sei chi?",
+      "correct": "Chi sei?",
+      "correct_alt": "Chi è? (forme de politesse)",
+      "explanation": "En italien, le mot interrogatif 'chi' doit être placé en tête de phrase. Reprendre l'ordre sujet-verbe comme en français ('Tu es qui ?') est incorrect. Pensez à mettre le pronom interrogatif en premier."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Parole interrogative di base / Mots interrogatifs de base",
+        "translation": "Mots interrogatifs de base",
+        "examples": [
+          {
+            "original": "Chi?",
+            "phonetic": "/ki/",
+            "translation": "Qui ?",
+            "note": "Pour demander une personne."
+          },
+          {
+            "original": "Che cosa?",
+            "phonetic": "/ke ˈkɔza/",
+            "translation": "Quoi ?",
+            "note": "Pour demander une chose. On peut aussi dire 'Cosa?' ou 'Che?'."
+          },
+          {
+            "original": "Dove?",
+            "phonetic": "/ˈdove/",
+            "translation": "Où ?",
+            "note": "Pour demander un lieu."
+          },
+          {
+            "original": "Quando?",
+            "phonetic": "/ˈkwando/",
+            "translation": "Quand ?",
+            "note": "Pour demander un moment."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Domande sì/no / Questions oui/non",
+        "translation": "Questions fermées",
+        "examples": [
+          {
+            "original": "Sei pronto?",
+            "phonetic": "/ˈsɛi ˈpronto/",
+            "translation": "Es-tu prêt ?",
+            "note": "On garde l'ordre sujet-verbe, l'intonation montante suffit pour en faire une question."
+          },
+          {
+            "original": "Hai fame?",
+            "phonetic": "/ˈai ˈfame/",
+            "translation": "As-tu faim ?",
+            "note": "Le verbe 'avere' est utilisé pour exprimer 'avoir faim'."
+          },
+          {
+            "original": "Parla italiano?",
+            "phonetic": "/ˈparla itaˈljano/",
+            "translation": "Parle-t-il italien ?",
+            "note": "Le sujet peut être omis."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Domande con 'perché' e 'come' / Questions avec 'perché' et 'come'",
+        "translation": "Questions avec 'pourquoi' et 'comment'",
+        "examples": [
+          {
+            "original": "Perché sei triste?",
+            "phonetic": "/perˈke ˈsɛi ˈtriste/",
+            "translation": "Pourquoi es-tu triste ?",
+            "note": "'Perché' signifie 'pourquoi' et aussi 'parce que'."
+          },
+          {
+            "original": "Come ti chiami?",
+            "phonetic": "/ˈkome ti ˈkjami/",
+            "translation": "Comment t'appelles-tu ?",
+            "note": "Littéralement : 'Comment tu t'appelles ?'."
+          },
+          {
+            "original": "Come stai?",
+            "phonetic": "/ˈkome ˈstai/",
+            "translation": "Comment vas-tu ?",
+            "note": "Formule de salutation courante."
+          }
+        ]
+      }
+    ],
+    "emoji": "❓",
+    "phonetic": "",
+    "translations": {
+      "fr": "Questions de base"
+    }
+  },
+  {
+    "id": "fr_A1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Numeri 1-100 / Nombres 1-100",
+    "bridge": "En italien, les nombres de 1 à 20 sont presque tous irréguliers, comme en français (un, deux, trois...). Mais attention aux pièges : 'venti', 'trenta', etc. perdent leur voyelle finale devant 'uno' et 'otto' (ex. ventuno, ventotto), alors qu'en français on écrit 'vingt et un' avec une liaison et 'vingt-huit' sans changement. De plus, l'italien n'utilise pas de trait d'union ni 'et' pour les nombres composés (sauf avec 'uno' et 'otto' qui fusionnent), ce qui diffère du français où l'on dit 'quatre-vingts' et 'trente et un'. Enfin, la distinction entre 'uno' et 'un' devant un nom masculin (et 'una' devant féminin) est cruciale, similaire à 'un'/'une' en français.",
+    "rule": "Les nombres de 1 à 10 : uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci. De 11 à 16 : undici, dodici, tredici, quattordici, quindici, sedici (notez que 11-16 ont des formes irrégulières). De 17 à 19 : diciassette, diciotto, diciannove (on utilise 'dici' + nombre, mais 'diciotto' est irrégulier). De 20 à 90, les dizaines se forment avec la racine du nombre (venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta) et on ajoute le nombre unité sans 'et'. Exception : 'ventuno' (21) et 'ventotto' (28) perdent la voyelle finale de 'venti' devant 'uno' et 'otto' (de même pour toutes les dizaines : trentuno, trentotto, quarantuno, quarantotto, etc.). 'Cento' (100) est invariable. Accord de 'uno' : uno (devant s+consonne, z, gn, ps, x), un (devant voyelle ou consonne simple), una (devant consonne féminine), un' (devant voyelle féminine).",
+    "concept_examples": [
+      {
+        "text": "Ho due fratelli.",
+        "translation": "J'ai deux frères.",
+        "phonetic": "/ɔ ˈdue fraˈtɛlli/"
+      },
+      {
+        "text": "L'appartamento costa trecento euro al mese.",
+        "translation": "L'appartement coûte trois cents euros par mois.",
+        "phonetic": "/lappartaˈmento ˈkɔsta tretˈtʃɛnto ˈɛuro al ˈmeze/"
+      },
+      {
+        "text": "Sono le cinque e venti.",
+        "translation": "Il est cinq heures vingt.",
+        "phonetic": "/ˈsono le ˈtʃiŋkwe e ˈventi/"
+      },
+      {
+        "text": "Quanti anni hai? Ho ventotto anni.",
+        "translation": "Quel âge as-tu ? J'ai vingt-huit ans.",
+        "phonetic": "/ˈkwanti ˈanni ˈai ɔ venˈtɔtto ˈanni/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ho trenta-duo anni.",
+      "correct": "Ho trentadue anni.",
+      "correct_alt": "",
+      "explanation": "En français, on utilise souvent un trait d'union pour les nombres composés (trente-deux). En italien, les nombres composés s'écrivent en un seul mot sans trait d'union ni 'et' (sauf pour les cas de fusion avec uno et otto). De plus, 'duo' est une forme littéraire, on utilise 'due' pour dire deux. Il faut donc mémoriser la construction soudée des nombres italiens."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Numeri 1-20",
+        "translation": "Nombres 1-20",
+        "examples": [
+          {
+            "original": "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci.",
+            "phonetic": "/ˈuno ˈdue tre ˈkwattro ˈtʃiŋkwe ˈsɛi ˈsɛtte ˈɔtto ˈnɔve ˈdjɛtʃi/",
+            "translation": "Un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix.",
+            "note": "Mémorisez la liste de 1 à 10. Notez que 'sei' et 'sette' se prononcent avec un 'e' ouvert."
+          },
+          {
+            "original": "Undici, dodici, tredici, quattordici, quindici, sedici.",
+            "phonetic": "/ˈunditʃi ˈdoditʃi ˈtreditʃi kwatˈtorditʃi ˈkwinditʃi ˈsɛditʃi/",
+            "translation": "Onze, douze, treize, quatorze, quinze, seize.",
+            "note": "Ces nombres sont irréguliers, comme en français. Notez 'sedici' avec un 'e' fermé."
+          },
+          {
+            "original": "Diciassette, diciotto, diciannove, venti.",
+            "phonetic": "/ditʃasˈsɛtte diˈtʃɔtto ditʃanˈnɔve ˈventi/",
+            "translation": "Dix-sept, dix-huit, dix-neuf, vingt.",
+            "note": "Pour 17-19, on dit 'dici' + 7,8,9, mais 'diciotto' est irrégulier."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Decine 20-90",
+        "translation": "Les dizaines 20-90",
+        "examples": [
+          {
+            "original": "Venti, trenta, quaranta, cinquanta, sessanta.",
+            "phonetic": "/ˈventi ˈtrɛnta kwaˈranta tʃiŋˈkwanta sesˈsanta/",
+            "translation": "Vingt, trente, quarante, cinquante, soixante.",
+            "note": "Les dizaines sont formées régulièrement. Notez que 'quaranta' perd le 't' de 'quattro'."
+          },
+          {
+            "original": "Settanta, ottanta, novanta.",
+            "phonetic": "/setˈtanta otˈtanta noˈvanta/",
+            "translation": "Soixante-dix (70), quatre-vingts (80), quatre-vingt-dix (90).",
+            "note": "En français, ces nombres ont des structures différentes, mais en italien ils sont réguliers."
+          },
+          {
+            "original": "Il biglietto costa venti euro.",
+            "phonetic": "/il biʎˈʎɛtto ˈkɔsta ˈventi ˈɛuro/",
+            "translation": "Le billet coûte vingt euros.",
+            "note": "Exemple d'utilisation de 'venti' avec un nom."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Composizione (21-99)",
+        "translation": "Les nombres composés (21-99)",
+        "examples": [
+          {
+            "original": "Ventuno, ventidue, ventitré, ventotto.",
+            "phonetic": "/venˈtuno ventiˈdue ventiˈtre venˈtɔtto/",
+            "translation": "Vingt et un, vingt-deux, vingt-trois, vingt-huit.",
+            "note": "Remarquez que 'ventuno' et 'ventotto' perdent la voyelle finale de 'venti'. Au contraire, 'ventidue' et 'ventitré' gardent le 'i'."
+          },
+          {
+            "original": "Quarantuno, quarantotto.",
+            "phonetic": "/kwarantˈtuno kwarantˈtɔtto/",
+            "translation": "Quarante et un, quarante-huit.",
+            "note": "Même règle pour toutes les dizaines : la voyelle finale tombe devant 'uno' et 'otto'."
+          },
+          {
+            "original": "Ho trentatré anni.",
+            "phonetic": "/ɔ trentaˈtre ˈanni/",
+            "translation": "J'ai trente-trois ans.",
+            "note": "Notez l'accent sur 'tré' pour distinguer de 'tre' (trois) - l'accent tonique est important."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "fr": "Nombres de 1 à 100"
+    }
+  },
+  {
+    "id": "fr_A1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Aggettivi di base e concordanza / Adjectifs de base et accord",
+    "bridge": "En français, l'adjectif s'accorde en genre et en nombre avec le nom, tout comme en italien. Mais attention : en italien, l'adjectif se place généralement APRÈS le nom (contrairement au français où il est souvent avant). Par exemple, 'une belle maison' se dit 'una casa bella' en italien. De plus, il n'y a pas de 'e' muet : le féminin pluriel se termine en '-e' et le masculin pluriel en '-i', ce qui peut surprendre les francophones habitués à '-es' ou '-s'.",
+    "rule": "En italien, l'adjectif s'accorde en genre (masculin/féminin) et en nombre (singulier/pluriel) avec le nom qu'il qualifie. Les terminaisons sont : masculin singulier -o, féminin singulier -a, masculin pluriel -i, féminin pluriel -e. Exemples : 'buono' (bon), 'buona' (bonne), 'buoni' (bons), 'buone' (bonnes). Pour les adjectifs en -e (comme 'grande' ou 'felice'), le singulier est invariable en genre, mais le pluriel se termine en -i pour les deux genres (grandi, felici). La position est généralement après le nom, mais certains adjectifs courants comme 'bello', 'buono', 'grande' peuvent se placer avant pour des raisons stylistiques ou pour changer le sens. Attention aux adjectifs possessifs et démonstratifs qui se placent toujours avant le nom.",
+    "concept_examples": [
+      {
+        "text": "Una casa bella",
+        "translation": "Une belle maison",
+        "phonetic": "/ˈu.na ˈka.za ˈbɛl.la/"
+      },
+      {
+        "text": "Un libro interessante",
+        "translation": "Un livre intéressant",
+        "phonetic": "/un ˈli.bro in.te.resˈsan.te/"
+      },
+      {
+        "text": "Le ragazze italiane",
+        "translation": "Les filles italiennes",
+        "phonetic": "/le raˈɡat.tse i.taˈlja.ne/"
+      },
+      {
+        "text": "I ragazzi intelligenti",
+        "translation": "Les garçons intelligents",
+        "phonetic": "/i raˈɡat.ti in.tel.liˈdʒɛn.ti/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Una bella casa",
+      "correct": "Una casa bella",
+      "correct_alt": "Una bella casa (possible mais plus littéraire ou emphatique)",
+      "explanation": "En français, on dit souvent 'une belle maison' avec l'adjectif avant le nom. En italien, l'adjectif 'bello' se place généralement après le nom, surtout en contexte neutre. Placer 'bello' avant donne une nuance plus poétique ou subjective. Pour éviter l'erreur, rappelez-vous que la règle générale en italien est nom + adjectif, sauf pour les adjectifs invariants de quantité ou de qualité comme 'buono' qui peuvent se placer avant pour atténuer le sens (par exemple, 'un buon amico' signifie un ami cher, alors que 'un amico buono' signifie un ami gentil)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Aggettivi di base (colori, dimensioni, qualità)",
+        "translation": "Adjectifs de base (couleurs, tailles, qualités)",
+        "examples": [
+          {
+            "original": "La mela è rossa.",
+            "phonetic": "/la ˈmɛ.la ɛ ˈrɔs.sa/",
+            "translation": "La pomme est rouge.",
+            "note": "Notez que l'adjectif 'rosso' s'accorde en genre : 'rossa' pour le féminin singulier."
+          },
+          {
+            "original": "Il gatto è piccolo.",
+            "phonetic": "/il ˈɡat.to ɛ ˈpik.ko.lo/",
+            "translation": "Le chat est petit.",
+            "note": "'Piccolo' est au masculin singulier, s'accordant avec 'gatto'."
+          },
+          {
+            "original": "Le scarpe sono nere.",
+            "phonetic": "/le ˈskar.pe ˈso.no ˈne.re/",
+            "translation": "Les chaussures sont noires.",
+            "note": "Au féminin pluriel, l'adjectif se termine en -e : 'nere'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Concordanza con nomi irregolari o invariabili",
+        "translation": "Accord avec des noms irréguliers ou invariables",
+        "examples": [
+          {
+            "original": "La città è grande.",
+            "phonetic": "/la tʃitˈta ɛ ˈɡran.de/",
+            "translation": "La ville est grande.",
+            "note": "Les noms féminins en -à ne changent pas au pluriel, mais l'adjectif s'accorde normalement : 'grande' reste invariable en genre car il se termine en -e."
+          },
+          {
+            "original": "I problemi sono difficili.",
+            "phonetic": "/i proˈblɛ.mi ˈso.no difˈfi.tʃi.li/",
+            "translation": "Les problèmes sont difficiles.",
+            "note": "Le nom 'problema' est masculin (bien qu'il se termine en -a), donc l'adjectif 'difficile' devient 'difficili' au pluriel."
+          },
+          {
+            "original": "Le foto sono belle.",
+            "phonetic": "/le ˈfɔ.to ˈso.no ˈbɛl.le/",
+            "translation": "Les photos sont belles.",
+            "note": "'Foto' est invariable, mais l'adjectif s'accorde en genre et en nombre : 'belle' (féminin pluriel)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Posizione dell'aggettivo (prima o dopo il nome)",
+        "translation": "Position de l'adjectif (avant ou après le nom)",
+        "examples": [
+          {
+            "original": "Un nuovo libro.",
+            "phonetic": "/un ˈnwɔ.vo ˈli.bro/",
+            "translation": "Un nouveau livre.",
+            "note": "Certains adjectifs comme 'nuovo' peuvent se placer avant le nom pour exprimer la nouveauté (par opposition à 'usato')."
+          },
+          {
+            "original": "Un libro nuovo.",
+            "phonetic": "/un ˈli.bro ˈnwɔ.vo/",
+            "translation": "Un livre neuf.",
+            "note": "Après le nom, 'nuovo' signifie 'neuf' (non utilisé) – la position change le sens."
+          },
+          {
+            "original": "Una grande casa.",
+            "phonetic": "/ˈu.na ˈɡran.de ˈka.za/",
+            "translation": "Une grande maison.",
+            "note": "Avant le nom, 'grande' peut signifier 'important' ou 'grand' dans un sens figuré, mais après le nom, il indique la taille physique."
+          },
+          {
+            "original": "La casa è grande.",
+            "phonetic": "/la ˈka.za ɛ ˈɡran.de/",
+            "translation": "La maison est grande.",
+            "note": "Avec le verbe 'essere', l'adjectif se place après, comme en français."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "fr": "Adjectifs de base et accord"
+    }
+  },
+  {
+    "id": "fr_A1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Aggettivi possessivi / Les possessifs",
+    "bridge": "En italien, les possessifs s'accordent en genre et en nombre avec le nom possédé, pas avec le possesseur. Contrairement au français, on omet souvent l'article devant les possessifs avec les noms de famille, mais on l'utilise généralement avec les autres noms. Attention : 'loro' est invariable, alors que 'leur' en français s'accorde parfois.",
+    "rule": "En italien, les adjectifs possessifs sont : mio (mon/ma), tuo (ton/ta), suo (son/sa), nostro (notre), vostro (votre), loro (leur). Ils s'accordent en genre (masculin/féminin) et en nombre (singulier/pluriel) avec le nom qu'ils accompagnent : mio fratello (mon frère), mia sorella (ma sœur), i miei fratelli (mes frères), le mie sorelle (mes sœurs). Pour 'loro', la forme reste toujours 'loro' quel que soit le nom. Généralement, on utilise l'article défini devant le possessif (il mio libro), sauf avec les noms de famille au singulier (mio padre) et avec certains titres (mia madre). Au pluriel, l'article est toujours requis (i miei genitori). À la troisième personne, 'suo' peut signifier 'son/sa' à lui ou à elle, selon le contexte.",
+    "concept_examples": [
+      {
+        "text": "Il mio libro è qui.",
+        "translation": "Mon livre est ici.",
+        "phonetic": "/il ˈmi.o ˈli.bro ɛ kwi/"
+      },
+      {
+        "text": "La tua casa è grande.",
+        "translation": "Ta maison est grande.",
+        "phonetic": "/la ˈtu.a ˈka.za ɛ ˈɡran.de/"
+      },
+      {
+        "text": "I nostri amici sono simpatici.",
+        "translation": "Nos amis sont sympathiques.",
+        "phonetic": "/i ˈnɔ.stri aˈmi.tʃi ˈsɔ.no simˈpa.ti.tʃi/"
+      },
+      {
+        "text": "Le loro idee sono chiare.",
+        "translation": "Leurs idées sont claires.",
+        "phonetic": "/le ˈlɔ.ro iˈdɛ.e ˈsɔ.no ˈkja.re/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mio libro è interessante.",
+      "correct": "Il mio libro è interessante.",
+      "correct_alt": "Questo mio libro è interessante.",
+      "explanation": "En italien, contrairement au français, on utilise presque toujours l'article défini devant un adjectif possessif (sauf devant les noms de famille et quelques cas particuliers). Omettre l'article donne une phrase incorrecte. Pensez à toujours insérer 'il/la/lo' devant le possessif quand le nom n'est pas un membre de la famille proche."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Forme singulière (mio, tuo, suo)",
+        "translation": "Formes singulières",
+        "examples": [
+          {
+            "original": "Mio fratello è alto.",
+            "phonetic": "/ˈmi.o fraˈtɛl.lo ɛ ˈal.to/",
+            "translation": "Mon frère est grand.",
+            "note": "Devant un nom de parenté au singulier, on omet l'article."
+          },
+          {
+            "original": "La tua amica è gentile.",
+            "phonetic": "/la ˈtu.a aˈmi.ka ɛ dʒɛnˈti.le/",
+            "translation": "Ton amie est gentille.",
+            "note": "Ici, on utilise l'article 'la' devant 'tua' car 'amica' n'est pas un lien de parenté."
+          },
+          {
+            "original": "Il suo gatto è nero.",
+            "phonetic": "/il ˈsu.o ˈɡat.to ɛ ˈne.ro/",
+            "translation": "Son chat est noir.",
+            "note": "'suo' peut être sa ou son, selon le contexte (à lui ou à elle)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Forme plurielle (miei, tue, sue, etc.)",
+        "translation": "Formes plurielles",
+        "examples": [
+          {
+            "original": "I miei genitori sono qui.",
+            "phonetic": "/i ˈmjɛ.i dʒɛ.niˈtɔ.ri ˈsɔ.no kwi/",
+            "translation": "Mes parents sont ici.",
+            "note": "Au pluriel, l'article est toujours utilisé, même avec les liens de parenté."
+          },
+          {
+            "original": "Le tue sorelle sono carine.",
+            "phonetic": "/le ˈtu.e soˈrɛl.le ˈsɔ.no kaˈri.ne/",
+            "translation": "Tes sœurs sont mignonnes.",
+            "note": "'tue' s'accorde au féminin pluriel."
+          },
+          {
+            "original": "I suoi amici mangiano la pizza.",
+            "phonetic": "/i ˈsuɔ.i aˈmi.tʃi manˈdʒa.no la ˈpit.tsa/",
+            "translation": "Ses amis mangent la pizza.",
+            "note": "'suoi' est le masculin pluriel."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nostro, vostro, loro",
+        "translation": "Notre, votre, leur",
+        "examples": [
+          {
+            "original": "Il nostro cane è piccolo.",
+            "phonetic": "/il ˈnɔ.stro ˈka.ne ɛ ˈpik.ko.lo/",
+            "translation": "Notre chien est petit.",
+            "note": "'nostro' s'accorde comme un adjectif normal."
+          },
+          {
+            "original": "La vostra casa è lontana.",
+            "phonetic": "/la ˈvɔ.stra ˈka.za ɛ lonˈta.na/",
+            "translation": "Votre maison est lointaine.",
+            "note": "Faites attention à l'accord avec la maison (féminin singulier)."
+          },
+          {
+            "original": "I loro libri sono nuovi.",
+            "phonetic": "/i ˈlɔ.ro ˈli.bri ˈsɔ.no ˈnwɔ.vi/",
+            "translation": "Leurs livres sont nouveaux.",
+            "note": "'loro' est invariable : ne change jamais."
+          }
+        ]
+      }
+    ],
+    "emoji": "👨‍👩‍👧‍👦",
+    "phonetic": "",
+    "translations": {
+      "fr": "Les adjectifs possessifs"
+    }
+  },
+  {
+    "id": "fr_A1_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Questo, Quello, Questi, Quelli / Ce, Cette, Ces",
+    "bridge": "En français, vous utilisez 'ce', 'cet', 'cette' et 'ces' sans distinction de proximité. En italien, il faut choisir entre 'questo' (ce...-ci) et 'quello' (ce...-là) selon la distance physique ou temporelle. De plus, l'italien fait varier ces adjectifs en genre et en nombre, mais aussi la forme de 'quello' change selon la première lettre du nom qui suit, comme l'article défini.",
+    "rule": "En italien, les démonstratifs s'accordent en genre et en nombre avec le nom qu'ils accompagnent. 'Questo' (ce...-ci, proche) et ses variantes: 'questa' (fém. sing.), 'questi' (masc. pl.), 'queste' (fém. pl.). 'Quello' (ce...-là, éloigné) et ses variantes: 'quella' (fém. sing.), 'quelli' (masc. pl.), 'quelle' (fém. pl.). Attention: devant une voyelle ou un s+consonne, 'quello' devient 'quell'' (masc. sing. devant voyelle, ex: quell'amico) et 'quello' devient 'quel' devant consonne (ex: quel libro). Au pluriel, 'quelli' devient 'quegli' devant voyelle ou s+consonne, et 'quei' devant consonne (ex: quei libri). De même 'questa' devient 'quest'' devant voyelle (ex: quest'amica). En français, vous ne faites pas ces adaptations, donc surveillez ces changements.",
+    "concept_examples": [
+      {
+        "text": "Questo libro è interessante.",
+        "translation": "Ce livre-ci est intéressant.",
+        "phonetic": "/ˈkwesto ˈliːbro ɛ in.teresˈsante/"
+      },
+      {
+        "text": "Quella casa è bella.",
+        "translation": "Cette maison-là est belle.",
+        "phonetic": "/ˈkwɛl.la ˈkaːza ɛ ˈbɛl.la/"
+      },
+      {
+        "text": "Questi fiori sono rossi.",
+        "translation": "Ces fleurs-ci sont rouges.",
+        "phonetic": "/ˈkwesti ˈfjoːri ˈsoːno ˈrossi/"
+      },
+      {
+        "text": "Quei ragazzi sono simpatici.",
+        "translation": "Ces garçons-là sont sympathiques.",
+        "phonetic": "/ˈkwɛi raɡˈdʒaːdzi ˈsoːno simˈpaːtitʃi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quello libro è mio.",
+      "correct": "Quel libro è mio.",
+      "correct_alt": "Quel libro è mio.",
+      "explanation": "Les francophones oublient souvent la règle de la forme de 'quello' devant consonne. En italien, 'quello' se contracte en 'quel' devant une consonne simple. Ceci est similaire à l'article défini 'il' qui devient 'lo' devant s+consonne, mais ici c'est l'inverse : 'quello' devient 'quel' devant consonne. Pensez à vérifier la première lettre du nom."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Questo e Quello (singolare)",
+        "translation": "Ce...-ci et ce...-là (singulier)",
+        "examples": [
+          {
+            "original": "Questo cane è piccolo.",
+            "phonetic": "/ˈkwesto ˈkane ɛ ˈpikkolo/",
+            "translation": "Ce chien-ci est petit.",
+            "note": "Utilisez 'questo' pour un objet proche, comme en français 'ce...-ci'."
+          },
+          {
+            "original": "Quel gatto è nero.",
+            "phonetic": "/kwel ˈɡatto ɛ ˈnero/",
+            "translation": "Ce chat-là est noir.",
+            "note": "Notez la forme 'quel' devant consonne, pas 'quello'."
+          },
+          {
+            "original": "Questa mela è buona.",
+            "phonetic": "/ˈkwesta ˈmela ɛ ˈbwɔna/",
+            "translation": "Cette pomme-ci est bonne.",
+            "note": "'Questo' au féminin singulier devient 'questa'."
+          },
+          {
+            "original": "Quella penna è rossa.",
+            "phonetic": "/ˈkwɛl.la ˈpen.na ɛ ˈrossa/",
+            "translation": "Ce stylo-là est rouge.",
+            "note": "'Quella' est la forme féminine singulière de 'quello'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Questi e Quelli (plurale)",
+        "translation": "Ces...-ci et ces...-là (pluriel)",
+        "examples": [
+          {
+            "original": "Questi libri sono nuovi.",
+            "phonetic": "/ˈkwesti ˈliːbri ˈsoːno ˈnwɔvi/",
+            "translation": "Ces livres-ci sont nouveaux.",
+            "note": "Au masculin pluriel, 'questo' devient 'questi'."
+          },
+          {
+            "original": "Queste chiavi sono tue.",
+            "phonetic": "/ˈkweste ˈkjaːvi ˈsoːno ˈtuːe/",
+            "translation": "Ces clés-ci sont à toi.",
+            "note": "Féminin pluriel : 'queste'."
+          },
+          {
+            "original": "Quei fiori sono gialli.",
+            "phonetic": "/kwɛi ˈfjoːri ˈsoːno ˈdʒalli/",
+            "translation": "Ces fleurs-là sont jaunes.",
+            "note": "Attention : 'quei' pour 'quelli' devant consonne."
+          },
+          {
+            "original": "Quelle ragazze sono simpatiche.",
+            "phonetic": "/ˈkwɛl.le raˈɡatts e ˈsoːno simˈpaːtike/",
+            "translation": "Ces filles-là sont sympathiques.",
+            "note": "Féminin pluriel : 'quelle'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Forme speciali (quell', quegli)",
+        "translation": "Formes spéciales (quell', quegli)",
+        "examples": [
+          {
+            "original": "Quell'amico è italiano.",
+            "phonetic": "/kwelˈla.mi.ko ɛ i.taˈljaːno/",
+            "translation": "Cet ami-là est italien.",
+            "note": "Devant une voyelle, 'quello' devient 'quell'' avec apostrophe."
+          },
+          {
+            "original": "Quell'acqua è fredda.",
+            "phonetic": "/kwelˈla.kkwa ɛ ˈfred.da/",
+            "translation": "Cette eau-là est froide.",
+            "note": "Devant une voyelle, 'quella' devient aussi 'quell''."
+          },
+          {
+            "original": "Quegli studenti sono bravi.",
+            "phonetic": "/ˈkweʎ.ʎi stuˈdɛnti ˈsoːno ˈbraːvi/",
+            "translation": "Ces étudiants-là sont bons.",
+            "note": "'Quelli' devient 'quegli' devant s+consonne ou voyelle au masculin pluriel."
+          },
+          {
+            "original": "Quel zaino è pesante.",
+            "phonetic": "/kwel ˈdzaːi.no ɛ peˈzante/",
+            "translation": "Ce sac à dos-là est lourd.",
+            "note": "Attention : devant 'z', on utilise 'quel' (pas 'quello') car 'z' est traitée comme une consonne simple."
+          }
+        ]
+      }
+    ],
+    "emoji": "👉",
+    "phonetic": "",
+    "translations": {
+      "fr": "Démonstratifs"
+    }
+  },
+  {
+    "id": "fr_A1_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "C'è / Ci sono",
+    "bridge": "En italien, pour exprimer l'existence, on utilise « c'è » pour le singulier et « ci sono » pour le pluriel, un peu comme « il y a » en français. Contrairement au français, la forme reste invariable et ne s'accorde pas avec le temps (présent uniquement à ce niveau). Attention : en italien, « c'è » et « ci sono » sont utilisés pour les deux genres, sans distinction de genre comme on pourrait le croire avec « il y a ».",
+    "rule": "En italien, « c'è » (il y a) et « ci sono » (il y a, pluriel) sont employés pour indiquer la présence ou l'existence de quelque chose ou quelqu'un. La forme ne change pas selon le genre, mais selon le nombre. On utilise « c'è » devant un nom singulier (masculin ou féminin), et « ci sono » devant un nom pluriel. La négation se forme avec « non » : « non c'è » / « non ci sono ». Exemples : « C'è un libro » (Il y a un livre), « Ci sono due penne » (Il y a deux stylos). Dans les questions, on peut inverser le sujet ou utiliser l'intonation : « C'è un bar qui est ouvert ? ». Il n'y a pas d'accord avec le genre du nom.",
+    "concept_examples": [
+      {
+        "text": "C'è un gatto nel giardino.",
+        "translation": "Il y a un chat dans le jardin.",
+        "phonetic": "ˈtʃɛ un ˈɡatto nel dʤarˈdino"
+      },
+      {
+        "text": "Ci sono due finestre in questa stanza.",
+        "translation": "Il y a deux fenêtres dans cette pièce.",
+        "phonetic": "ˈtʃi sono ˈduːe fiˈnestre in ˈkwɛsta ˈstantsa"
+      },
+      {
+        "text": "Non c'è latte nel frigo.",
+        "translation": "Il n'y a pas de lait dans le frigo.",
+        "phonetic": "non tʃɛ ˈlatte nel ˈfriɡo"
+      },
+      {
+        "text": "Ci sono molti turisti a Roma.",
+        "translation": "Il y a beaucoup de touristes à Rome.",
+        "phonetic": "ˈtʃi sono ˈmɔl ti tuˈristi a ˈrɔma"
+      }
+    ],
+    "common_error": {
+      "wrong": "C'è due libri sul tavolo.",
+      "correct": "Ci sono due libri sul tavolo.",
+      "correct_alt": "Sul tavolo ci sono due libri.",
+      "explanation": "L'erreur vient du fait qu'en français, on dit « il y a » pour le singulier et le pluriel de la même manière. En italien, il faut distinguer le singulier et le pluriel. « c'è » s'emploie uniquement pour un nom singulier, alors que pour un nom pluriel, il faut utiliser « ci sono ». Pensez à toujours vérifier le nombre du nom qui suit."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "C'è con nomi singolari",
+        "translation": "Il y a avec des noms singuliers",
+        "examples": [
+          {
+            "original": "C'è un libro",
+            "phonetic": "ˈtʃɛ un ˈlibro",
+            "translation": "Il y a un livre",
+            "note": "Utilisez « c'è » pour un nom singulier. Notez la liaison « c'è » + article."
+          },
+          {
+            "original": "C'è una mela",
+            "phonetic": "ˈtʃɛ una ˈmɛla",
+            "translation": "Il y a une pomme",
+            "note": "Même règle pour les noms féminins. Le genre ne change pas la forme."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ci sono con nomi plurali",
+        "translation": "Il y a avec des noms pluriels",
+        "examples": [
+          {
+            "original": "Ci sono due libri",
+            "phonetic": "ˈtʃi sono ˈduːe ˈlibri",
+            "translation": "Il y a deux livres",
+            "note": "Pour le pluriel, on utilise toujours « ci sono », quel que soit le genre."
+          },
+          {
+            "original": "Ci sono tre ragazze",
+            "phonetic": "ˈtʃi sono ˈtre raˈɡatts.e",
+            "translation": "Il y a trois filles",
+            "note": "Le pluriel féminin suit la même règle."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Forma negativa e interrogativa",
+        "translation": "Forme négative et interrogative",
+        "examples": [
+          {
+            "original": "Non c'è tempo.",
+            "phonetic": "non tʃɛ ˈtɛmpo",
+            "translation": "Il n'y a pas de temps.",
+            "note": "Pour la négation, placez « non » avant « c'è »."
+          },
+          {
+            "original": "Non ci sono problemi.",
+            "phonetic": "non ˈtʃi sono proˈblɛmi",
+            "translation": "Il n'y a pas de problèmes.",
+            "note": "Négation au pluriel : « non ci sono »."
+          },
+          {
+            "original": "C'è il pane?",
+            "phonetic": "ˈtʃɛ il ˈpane",
+            "translation": "Y a-t-il du pain ?",
+            "note": "La question se forme simplement avec l'intonation (à l'écrit, avec un point d'interrogation)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "fr": "Il y a / Il existe"
+    }
+  },
+  {
+    "id": "fr_A1_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Preposizioni di luogo (in, a, da, su) / Prépositions de lieu",
+    "bridge": "En français, vous utilisez souvent « à », « en » ou « chez » pour exprimer le lieu. En italien, le choix est plus nuancé : « in » pour les pays, régions et espaces fermés, « a » pour les villes et les lieux ponctuels, « da » pour chez une personne ou pour exprimer la provenance, et « su » pour « sur ». Attention : en italien, on dit « in Italia » et non « à Italie », et « a Parigi » et non « à Paris » avec la même préposition qu'en français. Les prépositions italiennes ne se contractent pas toujours avec l'article défini, mais quand elles le font, cela change la prononciation et l'écriture.",
+    "rule": "En italien, les prépositions de lieu de base sont :\n- **in** : utilisé pour les pays, régions, continents, et les espaces fermés (ex. *in Francia*, *in Toscana*, *in casa*, *in macchina*).\n- **a** : utilisé pour les villes, les îles de petite taille, et les lieux ponctuels (ex. *a Roma*, *a Capri*, *a scuola*, *al cinema* - avec article contracté).\n- **da** : utilisé pour exprimer la provenance (ex. *vengo da Parigi*) et pour « chez » (ex. *vado da Maria*).\n- **su** : utilisé pour « sur » (ex. *il libro è sul tavolo*).\n- **in** et **a** se contractent avec l'article défini : *in + il = nel*, *in + la = nella*, *a + il = al*, *a + la = alla* (ex. *nel parco*, *alla stazione*).\n- Pour les lieux géographiques, **in** est souvent utilisé avec les noms féminins (ex. *in Francia*), et **a** avec les noms masculins et les villes (ex. *a Parigi*).\n- **da** peut aussi être utilisé pour exprimer le temps (ex. *da lunedì*) mais ce n'est pas l'objet ici.\n- Pour demander où l'on va, on utilise *dove vai?* et pour demander d'où l'on vient, *da dove vieni?*.",
+    "concept_examples": [
+      {
+        "text": "Vivo in Italia.",
+        "translation": "Je vis en Italie.",
+        "phonetic": "/ˈviːvo ˈin iˈtaːlja/"
+      },
+      {
+        "text": "Vado a Parigi.",
+        "translation": "Je vais à Paris.",
+        "phonetic": "/ˈvaːdo a paˈriːdʒi/"
+      },
+      {
+        "text": "Sono da Maria.",
+        "translation": "Je suis chez Maria.",
+        "phonetic": "/ˈsoːno da maˈriːa/"
+      },
+      {
+        "text": "Il libro è sul tavolo.",
+        "translation": "Le livre est sur la table.",
+        "phonetic": "/il ˈliːbro ɛ sul ˈtaːvolo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Vado in Parigi.",
+      "correct": "Vado a Parigi.",
+      "correct_alt": "Vado a Parigi.",
+      "explanation": "Les francophones ont tendance à utiliser « in » pour les villes, mais en italien, on utilise toujours « a » pour les villes, y compris les villes étrangères. La préposition « in » est réservée aux pays, régions et espaces fermés. Pour éviter cette erreur, rappelez-vous que les villes sont des points, pas des espaces étendus : on dit « a Parigi », « a Londra », etc. En revanche, pour les pays, on dit « in Francia », « in Germania »."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Uso di 'in'",
+        "translation": "Usage de 'in'",
+        "examples": [
+          {
+            "original": "Sono in Francia.",
+            "phonetic": "/ˈsoːno in ˈfranʧa/",
+            "translation": "Je suis en France.",
+            "note": "Utilisez 'in' pour les pays. En français, on dit aussi 'en', donc pas de piège ici."
+          },
+          {
+            "original": "Studio in biblioteca.",
+            "phonetic": "/ˈstuːdjo in bibljoˈtɛːka/",
+            "translation": "J'étudie à la bibliothèque.",
+            "note": "'in' pour un espace fermé, comme 'dans' ou 'à' en français. Attention : on ne dit pas 'a biblioteca'."
+          },
+          {
+            "original": "Abito in campagna.",
+            "phonetic": "/aˈbiːto in kamˈpaɲɲa/",
+            "translation": "J'habite à la campagne.",
+            "note": "'in campagna' signifie 'à la campagne'. En français, on utilise 'à', mais en italien, c'est 'in' pour les espaces ouverts non urbains."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso di 'a'",
+        "translation": "Usage de 'a'",
+        "examples": [
+          {
+            "original": "Vado a Roma.",
+            "phonetic": "/ˈvaːdo a ˈrɔːma/",
+            "translation": "Je vais à Rome.",
+            "note": "Pour les villes, on utilise 'a'. En français, on utilise aussi 'à', donc c'est simple."
+          },
+          {
+            "original": "Sono a casa.",
+            "phonetic": "/ˈsoːno a ˈkaːza/",
+            "translation": "Je suis à la maison.",
+            "note": "Attention : 'a casa' signifie 'à la maison'. Ne dites pas 'in casa' pour être à la maison (cela sous-entend à l'intérieur de la maison, par opposition à l'extérieur)."
+          },
+          {
+            "original": "Lavoro al mercato.",
+            "phonetic": "/laˈvoːro al merˈkaːto/",
+            "translation": "Je travaille au marché.",
+            "note": "'al' est la contraction de 'a + il'. En français, on utilise 'au', donc la contraction est similaire."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Uso di 'da' e 'su'",
+        "translation": "Usage de 'da' et 'su'",
+        "examples": [
+          {
+            "original": "Vengo da Milano.",
+            "phonetic": "/ˈvɛnɡo da miˈlaːno/",
+            "translation": "Je viens de Milan.",
+            "note": "'da' exprime la provenance, comme 'de' en français. Attention : on dit 'vengo da Milano' et non 'vengo di Milano'."
+          },
+          {
+            "original": "Vado dal dottore.",
+            "phonetic": "/ˈvaːdo dal dotˈtoːre/",
+            "translation": "Je vais chez le docteur.",
+            "note": "Pour 'chez' une personne, on utilise 'da' contracté : 'dal' (da + il). En français, on dit 'chez le docteur', donc la logique est similaire, mais la préposition change."
+          },
+          {
+            "original": "Il gatto è sul divano.",
+            "phonetic": "/il ˈɡatto ɛ sul diˈvaːno/",
+            "translation": "Le chat est sur le canapé.",
+            "note": "'su' signifie 'sur', et 'sul' est la contraction avec 'il'. En français, on utilise aussi 'sur', donc c'est transparent."
+          }
+        ]
+      }
+    ],
+    "emoji": "📍",
+    "phonetic": "",
+    "translations": {
+      "fr": "Prépositions de lieu"
+    }
+  },
+  {
+    "id": "fr_A1_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Giorni, mesi e stagioni / Jours, mois et saisons",
+    "bridge": "En italien, les jours, les mois et les saisons s'écrivent généralement avec une minuscule, contrairement au français où ils prennent une majuscule. De plus, pour dire « lundi » on utilise « lunedì » (sans « i » final au pluriel), et pour exprimer « en janvier » on dit « a gennaio » (préposition 'a') et non « en janvier ». Attention aussi à « domenica » qui est féminin alors que les autres jours sont masculins.",
+    "rule": "Les jours de la semaine en italien : lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica. Ils s'utilisent sans article pour exprimer un jour habituel (ex: 'Il lunedì vado a scuola' = le lundi je vais à l'école). Les mois : gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre. Pour dire « en mai » on dit « a maggio » (a + mois). Les saisons : primavera, estate, autunno, inverno. On utilise souvent « in » pour les saisons : in primavera, in estate, in autunno, in inverno. Attention : les jours et mois ne prennent jamais de majuscule en italien (sauf en début de phrase).",
+    "concept_examples": [
+      {
+        "text": "Oggi è lunedì.",
+        "translation": "Aujourd'hui c'est lundi.",
+        "phonetic": "/ˈɔddʒi ɛ luneˈdi/"
+      },
+      {
+        "text": "Gennaio è il primo mese dell'anno.",
+        "translation": "Janvier est le premier mois de l'année.",
+        "phonetic": "/dʒenˈnajo ɛ il ˈpriːmo ˈmeːze dellˈanno/"
+      },
+      {
+        "text": "In estate fa caldo.",
+        "translation": "En été il fait chaud.",
+        "phonetic": "/in eˈstɑːte fa ˈkaldo/"
+      },
+      {
+        "text": "Il mio compleanno è in marzo.",
+        "translation": "Mon anniversaire est en mars.",
+        "phonetic": "/il ˈmiːo kompleˈanno ɛ in ˈmartso/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Lunedi ho una lezione.",
+      "correct": "Lunedì ho una lezione.",
+      "correct_alt": "Oggi è lunedì.",
+      "explanation": "L'erreur courante est d'oublier l'accent sur le « i » final de « lunedì » (ainsi que pour martedì, mercoledì, giovedì, venerdì). En français, on ne met pas d'accent, mais en italien, l'accent tonique sur la dernière syllabe est essentiel. De plus, attention à ne pas mettre de majuscule : en italien, on écrit « lunedì » avec une minuscule."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "I giorni della settimana",
+        "translation": "Les jours de la semaine",
+        "examples": [
+          {
+            "original": "Lunedì vado al lavoro.",
+            "phonetic": "/luneˈdi ˈvado al laˈvoro/",
+            "translation": "Lundi je vais au travail.",
+            "note": "Notez que le jour peut être utilisé sans article pour exprimer un fait habituel."
+          },
+          {
+            "original": "Domenica riposo.",
+            "phonetic": "/doˈmenika riˈpɔzo/",
+            "translation": "Dimanche je me repose.",
+            "note": "Domenica est le seul jour féminin en italien, mais cela n'affecte pas la conjugaison."
+          },
+          {
+            "original": "Sabato è il mio giorno preferito.",
+            "phonetic": "/ˈsabato ɛ il ˈmiːo ˈdʒorno prefeˈrito/",
+            "translation": "Samedi est mon jour préféré.",
+            "note": "On remarque que les jours sont masculins, sauf domenica, mais ils sont utilisés sans article pour des actions fréquentes."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "I mesi dell'anno",
+        "translation": "Les mois de l'année",
+        "examples": [
+          {
+            "original": "Febbraio è corto.",
+            "phonetic": "/febˈbrajo ɛ ˈkorto/",
+            "translation": "Février est court.",
+            "note": "Les mois ne prennent jamais de majuscule en italien, contrairement au français."
+          },
+          {
+            "original": "A settembre iniziano le scuole.",
+            "phonetic": "/a setˈtembre iniˈtsjano le ˈskwɔle/",
+            "translation": "En septembre commencent les écoles.",
+            "note": "On utilise la préposition 'a' devant les mois, mais pour 'gennaio' on dit 'a gennaio' (pas 'in')."
+          },
+          {
+            "original": "Il mio compleanno è a maggio.",
+            "phonetic": "/il ˈmiːo kompleˈanno ɛ a ˈmaddʒo/",
+            "translation": "Mon anniversaire est en mai.",
+            "note": "Même règle : 'a' + mois pour exprimer une date."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Le stagioni",
+        "translation": "Les saisons",
+        "examples": [
+          {
+            "original": "La primavera è bella.",
+            "phonetic": "/la primaˈvɛra ɛ ˈbɛlla/",
+            "translation": "Le printemps est beau.",
+            "note": "Les saisons sont toutes féminines en italien."
+          },
+          {
+            "original": "In inverno nevica.",
+            "phonetic": "/in inˈvɛrno ˈneːvika/",
+            "translation": "En hiver il neige.",
+            "note": "On emploie 'in' avec les saisons, sauf quelques exceptions (comme 'd'estate' pour 'in estate' ? non, on dit 'in estate')."
+          },
+          {
+            "original": "In autunno cadono le foglie.",
+            "phonetic": "/in auˈtunno ˈkadono le ˈfɔʎʎe/",
+            "translation": "En automne tombent les feuilles.",
+            "note": "Répétition de la préposition 'in' pour les saisons."
+          },
+          {
+            "original": "D'estate andiamo al mare.",
+            "phonetic": "/deˈstɑːte anˈdjaːmo al ˈmaːre/",
+            "translation": "En été nous allons à la mer.",
+            "note": "On peut utiliser 'd'estate' (de + estate) comme alternative à 'in estate' pour exprimer 'en été'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "fr": "Jours, mois et saisons"
+    }
+  },
+  {
+    "id": "fr_A1_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Il verbo avere / Avoir",
+    "bridge": "En italien, le verbe 'avere' correspond au français 'avoir'. La bonne nouvelle : les deux langues utilisent ce verbe pour exprimer la possession et l'âge. Attention, en italien on dit 'avere fame' (avoir faim) comme en français, mais pour dire 'j'ai 20 ans', on utilise aussi 'avere' : 'ho 20 anni'. En revanche, contrairement au français, les formes du verbe sont plus régulières dans la conjugaison, mais méfiez-vous des formes contractées comme 'l'ho' (je l'ai).",
+    "rule": "Le verbe 'avere' (avoir) se conjugue au présent : io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno. Il est utilisé pour exprimer la possession (Ho un libro), l'âge (Ho 20 anni), la faim/soif (Ho fame/sete), et dans les temps composés avec les verbes transitifs (Ho mangiato). Contrairement au français, l'italien n'utilise pas 'avere' pour la formation de tous les temps composés (certains verbes utilisent 'essere'). Attention aux formes élidées : 'l'ho' (je l'ai) et 'c'è' (il y a) ne sont pas à confondre.",
+    "concept_examples": [
+      {
+        "text": "Io ho un gatto.",
+        "translation": "J'ai un chat.",
+        "phonetic": "/ˈi.o ˈɔ un ˈɡat.to/"
+      },
+      {
+        "text": "Tu hai vent'anni.",
+        "translation": "Tu as vingt ans.",
+        "phonetic": "/tu ˈai venˈtanni/"
+      },
+      {
+        "text": "Lei ha fame.",
+        "translation": "Elle a faim.",
+        "phonetic": "/ˈlɛi a ˈfa.me/"
+      },
+      {
+        "text": "Noi abbiamo una casa.",
+        "translation": "Nous avons une maison.",
+        "phonetic": "/ˈnoi abˈbja.mo ˈu.na ˈka.sa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Io ho 25 anni, io sono 25 anni.",
+      "correct": "Io ho 25 anni.",
+      "correct_alt": "Ho 25 anni.",
+      "explanation": "L'erreur vient du français où l'on utilise 'avoir' pour l'âge, mais certains francophones pourraient être tentés d'utiliser 'essere' (être) à cause de la construction 'je suis âgé de'. En italien, on utilise toujours 'avere' pour l'âge. Retenez : 'avere + nombre + anni'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Forme affirmative",
+        "translation": "Forme affirmative",
+        "examples": [
+          {
+            "original": "Io ho un libro.",
+            "phonetic": "/ˈi.o ˈɔ un ˈli.bro/",
+            "translation": "J'ai un livre.",
+            "note": "Le sujet 'io' est souvent omis, mais ici on le met pour insister."
+          },
+          {
+            "original": "Tu hai una sorella.",
+            "phonetic": "/tu ˈai ˈu.na soˈrɛl.la/",
+            "translation": "Tu as une sœur.",
+            "note": "La forme 'hai' se prononce /ai/ comme 'aï' en français, attention au 'h' muet."
+          },
+          {
+            "original": "Lui ha due fratelli.",
+            "phonetic": "/ˈlui a ˈdu.e fraˈtɛl.li/",
+            "translation": "Il a deux frères.",
+            "note": "La forme 'ha' est identique au français 'a' dans certaines phrases, attention aux pièges de l'orthographe."
+          },
+          {
+            "original": "Noi abbiamo tempo.",
+            "phonetic": "/ˈnoi abˈbja.mo ˈtem.po/",
+            "translation": "Nous avons le temps.",
+            "note": "Le double 'b' de 'abbiamo' se prononce allongé. N'oubliez pas le 'b' redoublé."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Forme négative",
+        "translation": "Forme négative",
+        "examples": [
+          {
+            "original": "Io non ho fame.",
+            "phonetic": "/ˈi.o non ˈɔ ˈfa.me/",
+            "translation": "Je n'ai pas faim.",
+            "note": "La négation 'non' se place avant le verbe, comme en français 'ne...pas'."
+          },
+          {
+            "original": "Tu non hai sete.",
+            "phonetic": "/tu non ˈai ˈse.te/",
+            "translation": "Tu n'as pas soif.",
+            "note": "Le 'non' est invariable, contrairement au français 'ne...pas'."
+          },
+          {
+            "original": "Lei non ha soldi.",
+            "phonetic": "/ˈlɛi non a ˈsɔl.di/",
+            "translation": "Elle n'a pas d'argent.",
+            "note": "On utilise 'non' seul, pas besoin de 'pas' en italien."
+          },
+          {
+            "original": "Voi non avete paura.",
+            "phonetic": "/ˈvɔi non aˈve.te paˈu.ra/",
+            "translation": "Vous n'avez pas peur.",
+            "note": "La forme 'avete' est régulière, attention à la terminaison '-ete'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Expressions avec avere",
+        "translation": "Expressions avec avoir",
+        "examples": [
+          {
+            "original": "Ho freddo.",
+            "phonetic": "/ˈɔ ˈfred.do/",
+            "translation": "J'ai froid.",
+            "note": "Comme en français, on utilise 'avere' pour les sensations physiques."
+          },
+          {
+            "original": "Abbiamo bisogno di aiuto.",
+            "phonetic": "/abˈbja.mo biˈzoɲ.ɲo di aˈju.to/",
+            "translation": "Nous avons besoin d'aide.",
+            "note": "'Avere bisogno di' correspond à 'avoir besoin de'."
+          },
+          {
+            "original": "Hanno ragione.",
+            "phonetic": "/ˈan.no raˈdʒo.ne/",
+            "translation": "Ils ont raison.",
+            "note": "La forme 'hanno' (ils ont) se distingue de 'ha' (il/elle a) par le double 'n' et la terminaison '-no'."
+          },
+          {
+            "original": "Ho voglia di gelato.",
+            "phonetic": "/ˈɔ ˈvɔʎ.ʎa di dʒeˈla.to/",
+            "translation": "J'ai envie de glace.",
+            "note": "L'expression 'avere voglia di' est très idiomatique."
+          }
+        ]
+      }
+    ],
+    "emoji": "🐱",
+    "phonetic": "",
+    "translations": {
+      "fr": "Le verbe avoir"
+    }
+  },
+  {
+    "id": "fr_A1_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Potere (sapere/riuscire) / Pouvoir",
+    "bridge": "En français, vous utilisez « pouvoir » pour exprimer la capacité, la permission ou la possibilité. En italien, le verbe « potere » fonctionne de manière très similaire, mais attention : il est toujours suivi de l'infinitif sans préposition, contrairement au français où l'on dit « je peux faire » et non « je peux à faire ». De plus, la conjugaison au présent de « potere » est irrégulière : « io posso », « tu puoi », etc. Méfiez-vous de la forme « può » qui ressemble au français « peut » mais se prononce différemment.",
+    "rule": "En italien, « potere » est un verbe modal utilisé pour exprimer la permission, la capacité (au sens de « être capable de ») et la possibilité. Au présent de l'indicatif, il se conjugue : io posso, tu puoi, lui/lei può, noi possiamo, voi potete, loro possono. Il est toujours suivi d'un infinitif sans préposition. Exemples : « posso entrare ? » (puis-je entrer ?), « non posso venire » (je ne peux pas venir). Pour exprimer la capacité physique ou intellectuelle, on utilise parfois « riuscire a » (réussir à) mais pour A1, « potere » suffit pour la plupart des cas. Les formes négatives se construisent avec « non » avant le verbe : « non posso ». Le verbe « sapere » est utilisé pour les compétences (savoir faire quelque chose), tandis que « potere » est utilisé pour la permission ou la possibilité.",
+    "concept_examples": [
+      {
+        "text": "Posso andare al bagno?",
+        "translation": "Puis-je aller aux toilettes ?",
+        "phonetic": "[ˈpɔsso anˈdaːre al ˈbaɲɲo]"
+      },
+      {
+        "text": "Non posso parlare ora.",
+        "translation": "Je ne peux pas parler maintenant.",
+        "phonetic": "[non ˈpɔsso parˈlaːre ˈoːra]"
+      },
+      {
+        "text": "Puoi aiutarmi, per favore?",
+        "translation": "Peux-tu m'aider, s'il te plaît ?",
+        "phonetic": "[ˈpwɔi ajʉˈtarmi per faˈvoːre]"
+      },
+      {
+        "text": "Possiamo prendere un caffè?",
+        "translation": "Pouvons-nous prendre un café ?",
+        "phonetic": "[posˈsjaːmo ˈprɛndere un kafˈfɛ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Io può andare a casa.",
+      "correct": "Io posso andare a casa.",
+      "correct_alt": "Posso andare a casa.",
+      "explanation": "En français, « peut » est utilisé pour toutes les personnes (je peux, il peut). En italien, la terminaison change : pour « je », c'est « posso », pour « il/elle », c'est « può ». L'erreur vient de l'analogie avec le français. Il faut mémoriser les formes : posso, puoi, può, possiamo, potete, possono."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Presente di potere",
+        "translation": "Présent de potere",
+        "examples": [
+          {
+            "original": "Io posso cantare.",
+            "phonetic": "[ˈiːo ˈpɔsso kanˈtaːre]",
+            "translation": "Je peux chanter.",
+            "note": "Utilisez « posso » pour la première personne du singulier."
+          },
+          {
+            "original": "Tu puoi leggere questo libro.",
+            "phonetic": "[tu ˈpwɔi ˈlɛddʒere ˈkwɛsto ˈliːbro]",
+            "translation": "Tu peux lire ce livre.",
+            "note": "« puoi » est la forme pour « tu »."
+          },
+          {
+            "original": "Lui può venire domani.",
+            "phonetic": "[ˈlui ˈpwɔ veˈniːre doˈmaːni]",
+            "translation": "Il peut venir demain.",
+            "note": "« può » avec l'accent circonflexe italien, se prononce [pwɔ]."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Forma negativa e interrogativa",
+        "translation": "Forme négative et interrogative",
+        "examples": [
+          {
+            "original": "Non posso fumare qui.",
+            "phonetic": "[non ˈpɔsso fuˈmaːre kwi]",
+            "translation": "Je ne peux pas fumer ici.",
+            "note": "Placez « non » avant le verbe pour la négation."
+          },
+          {
+            "original": "Posso entrare?",
+            "phonetic": "[ˈpɔsso enˈtraːre]",
+            "translation": "Puis-je entrer ?",
+            "note": "L'interrogation se fait simplement par l'intonation, pas d'inversion comme en français."
+          },
+          {
+            "original": "Non puoi uscire senza permesso.",
+            "phonetic": "[non ˈpwɔi uʃˈʃiːre ˈsɛntsa perˈmɛsso]",
+            "translation": "Tu ne peux pas sortir sans permission.",
+            "note": "« puoi » à la forme négative."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Potere con infiniti comuni",
+        "translation": "Potere avec des infinitifs courants",
+        "examples": [
+          {
+            "original": "Possiamo giocare a calcio.",
+            "phonetic": "[posˈsjaːmo dʒoˈkaːre a ˈkaltʃo]",
+            "translation": "Nous pouvons jouer au football.",
+            "note": "« Possiamo » pour « nous »."
+          },
+          {
+            "original": "Potete parlare più lentamente?",
+            "phonetic": "[poˈteːte parˈlaːre pju lentaˈmente]",
+            "translation": "Pouvez-vous parler plus lentement ?",
+            "note": "« Potete » pour « vous » (pluriel ou poli)."
+          },
+          {
+            "original": "Loro possono aprire la finestra.",
+            "phonetic": "[ˈloːro ˈpɔssoˈno aˈpriːre la fiˈnɛstra]",
+            "translation": "Ils peuvent ouvrir la fenêtre.",
+            "note": "« Possono » avec deux s."
+          },
+          {
+            "original": "Posso avere un caffè?",
+            "phonetic": "[ˈpɔsso aˈveːre un kafˈfɛ]",
+            "translation": "Puis-je avoir un café ?",
+            "note": "Formule utile pour commander."
+          }
+        ]
+      }
+    ],
+    "emoji": "💪",
+    "phonetic": "",
+    "translations": {
+      "fr": "Pouvoir (verbe modal de base)"
+    }
+  },
+  {
+    "id": "fr_A1_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbi irregolari di base (andare, venire, fare) / Verbes irréguliers de base (aller, venir, faire)",
+    "bridge": "En italien, les verbes 'andare' (aller), 'venire' (venir), 'fare' (faire) sont irréguliers au présent, tout comme en français 'aller', 'venir', 'faire'. Mais attention : la terminaison de la 2e personne du singulier est toujours '-i' (tu vai, tu vieni, tu fai) alors qu'en français vous avez 'tu vas', 'tu viens', 'tu fais'. Notez aussi que 'andare' et 'venire' se conjuguent avec 'essere' aux temps composés, contrairement au français qui utilise 'avoir' (je suis allé vs. je suis allée – ici l'accord se fait avec le sujet, mais la structure est différente).",
+    "rule": "Au présent de l'indicatif, ces verbes ont des formes irrégulières qu'il faut mémoriser. Voici les conjugaisons complètes :\n\n**andare** (aller) : io vado, tu vai, lui/lei va, noi andiamo, voi andate, loro vanno.\n**venire** (venir) : io vengo, tu vieni, lui/lei viene, noi veniamo, voi venite, loro vengono.\n**fare** (faire) : io faccio, tu fai, lui/lei fa, noi facciamo, voi fate, loro fanno.\n\nNotez que 'fare' vient du latin 'facere' et perd le 'c' à certaines personnes. 'Andare' a des formes irrégulières mais la base 'and-' apparaît dans 'noi' et 'voi'. 'Venire' change la voyelle 'e' en 'ie' pour 'tu' et 'lui/lei'.\n\nÀ l'A1, vous utiliserez souvent ces verbes pour parler d'actions quotidiennes : 'vado a casa', 'vieni con me?', 'faccio colazione'. Ils sont essentiels pour exprimer le mouvement et les activités.\n\n**Pièges pour francophones** :\n- Ne dites pas 'io vado' avec un accent tonique sur 'vado' (c'est correct) mais ne confondez pas avec 'vado' pour 'je vais' (le sens est identique).\n- 'Fare' se traduit par 'faire' mais aussi par 'fabriquer', 'créer', etc. Attention aux faux amis : 'fare una foto' = 'prendre une photo', pas 'faire une photo'.\n- La forme 'tu fai' est irrégulière (au lieu de *tu faci*), et 'lui fa' (pas 'fà').",
+    "concept_examples": [
+      {
+        "text": "Io vado a Roma domani.",
+        "translation": "Je vais à Rome demain.",
+        "phonetic": "ˈi.o ˈva.do a ˈrɔ.ma doˈma.ni"
+      },
+      {
+        "text": "Tu vieni con me?",
+        "translation": "Tu viens avec moi ?",
+        "phonetic": "tu ˈvjɛ.ni kon me"
+      },
+      {
+        "text": "Lui fa i compiti.",
+        "translation": "Il fait ses devoirs.",
+        "phonetic": "ˈlu.i fa i ˈkom.pi.ti"
+      },
+      {
+        "text": "Noi andiamo al mercato.",
+        "translation": "Nous allons au marché.",
+        "phonetic": "ˈno.i anˈdja.mo al merˈka.to"
+      }
+    ],
+    "common_error": {
+      "wrong": "Tu va a casa?",
+      "correct": "Tu vai a casa?",
+      "correct_alt": "",
+      "explanation": "L'erreur vient de la similitude avec le français 'tu vas' où le 's' est muet. En italien, la terminaison de la 2e personne du singulier est toujours '-i', donc 'tu vai'. Pensez à la règle générale des verbes italiens : tu -i. Même pour les irréguliers, c'est le cas."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Andare (aller)",
+        "translation": "Aller",
+        "examples": [
+          {
+            "original": "Io vado a scuola.",
+            "phonetic": "ˈi.o ˈva.do a ˈskwɔ.la",
+            "translation": "Je vais à l'école.",
+            "note": "Le verbe 'andare' se conjugue avec 'essere' aux temps composés, mais au présent, on utilise 'vado' comme 'je vais'."
+          },
+          {
+            "original": "Tu vai al cinema?",
+            "phonetic": "tu ˈvai al ˈtʃi.ne.ma",
+            "translation": "Tu vas au cinéma ?",
+            "note": "Remarquez 'al' = à + le (article contracté). On dit 'al cinema' et non 'a il cinema'."
+          },
+          {
+            "original": "Loro vanno in Italia.",
+            "phonetic": "ˈlɔ.ro ˈvan.no in iˈta.lja",
+            "translation": "Ils vont en Italie.",
+            "note": "La forme 'vanno' a un double 'n' – attention à ne pas écrire 'vano' (qui signifie 'vain')."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Venire (venir)",
+        "translation": "Venir",
+        "examples": [
+          {
+            "original": "Io vengo da Parigi.",
+            "phonetic": "ˈi.o ˈvɛŋ.ɡo da paˈri.dʒi",
+            "translation": "Je viens de Paris.",
+            "note": "Utilisez 'da' pour exprimer la provenance. 'Vengo da' = 'je viens de'."
+          },
+          {
+            "original": "Lei viene con noi?",
+            "phonetic": "ˈlɛi ˈvjɛ.ne kon ˈnɔ.i",
+            "translation": "Elle vient avec nous ?",
+            "note": "La forme 'viene' garde le 'ie' – ne le réduisez pas à 'vene'."
+          },
+          {
+            "original": "Noi veniamo stasera.",
+            "phonetic": "ˈnɔ.i veˈnja.mo staˈse.ra",
+            "translation": "Nous venons ce soir.",
+            "note": "Le 'i' de 'veniamo' est semi-voyelle – prononcez 'ven-ya-mo'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Fare (faire)",
+        "translation": "Faire",
+        "examples": [
+          {
+            "original": "Che cosa fai?",
+            "phonetic": "ke ˈkɔ.za ˈfai",
+            "translation": "Qu'est-ce que tu fais ?",
+            "note": "En italien familier, on dit souvent 'Che fai?' sans 'cosa'."
+          },
+          {
+            "original": "Loro fanno una festa.",
+            "phonetic": "ˈlɔ.ro ˈfan.no ˈu.na ˈfɛ.sta",
+            "translation": "Ils font une fête.",
+            "note": "Attention : 'fanno' a deux 'n' – ne confondez pas avec 'fano' (qui n'existe pas)."
+          },
+          {
+            "original": "Noi facciamo colazione alle otto.",
+            "phonetic": "ˈnɔ.i fatˈtʃa.mo ko.laˈtsjo.ne ˈal.le ˈɔt.to",
+            "translation": "Nous prenons le petit-déjeuner à huit heures.",
+            "note": "L'expression 'fare colazione' = prendre le petit-déjeuner (littéralement 'faire le petit-déjeuner')."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏃",
+    "phonetic": "",
+    "translations": {
+      "fr": "Verbes irréguliers de base"
+    }
+  },
+  {
+    "id": "fr_A1_gram_18",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Che ore sono? / Quelle heure est-il ?",
+    "bridge": "En français, vous utilisez « il est » pour l'heure, tandis qu'en italien on utilise « sono le » pour toutes les heures sauf une heure (où l'on dit « è l'una »). Attention aussi à l'article défini : on dit « sono le tre » (il est trois heures), mais « è mezzogiorno » et « è mezzanotte » sans article. Enfin, les Italiens utilisent souvent l'heure sur 12 heures dans la conversation, mais l'heure officielle sur 24 heures dans les horaires.",
+    "rule": "Pour dire l'heure en italien, on utilise le verbe « essere » (être) suivi de l'article défini féminin pluriel « le » et le nombre, car « ora » (heure) est féminin. Exemples : « Sono le due » (il est deux heures), « Sono le cinque » (il est cinq heures). Pour une heure, on utilise le singulier : « È l'una » (il est une heure). Pour les heures spéciales : « È mezzogiorno » (il est midi), « È mezzanotte » (il est minuit). Pour exprimer les minutes, on utilise « e » (et) pour les minutes après l'heure : « Sono le tre e dieci » (il est trois heures dix). Pour les minutes avant l'heure, on utilise « meno » (moins) : « Sono le quattro meno cinque » (il est quatre heures moins cinq). Les quarts d'heure : « un quarto » (quart), « tre quarti » (trois quarts). La demi-heure : « e mezzo » ou « e mezza » : « Sono le due e mezzo » (il est deux heures et demie). Pour demander l'heure : « Che ore sono? » (Quelle heure est-il ?) ou plus formellement « Che ora è? ». Réponse : « Sono le... » ou « È l'una ».",
+    "concept_examples": [
+      {
+        "text": "Che ore sono?",
+        "translation": "Quelle heure est-il ?",
+        "phonetic": "ke ˈoːre ˈsoːno"
+      },
+      {
+        "text": "Sono le tre.",
+        "translation": "Il est trois heures.",
+        "phonetic": "ˈsoːno le ˈtre"
+      },
+      {
+        "text": "È l'una.",
+        "translation": "Il est une heure.",
+        "phonetic": "ɛ ˈluna"
+      },
+      {
+        "text": "Sono le sei e mezza.",
+        "translation": "Il est six heures et demie.",
+        "phonetic": "ˈsoːno le ˈsɛi e ˈmɛddza"
+      }
+    ],
+    "common_error": {
+      "wrong": "È le tre.",
+      "correct": "Sono le tre.",
+      "correct_alt": "",
+      "explanation": "En français, on utilise « il est » (singulier) pour toutes les heures. En italien, on utilise « sono » (pluriel) pour toutes les heures sauf une heure, car « ore » est sous-entendu au pluriel. Il faut donc toujours dire « sono le » suivi du nombre, sauf pour « è l'una »."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Le ore piene / Les heures pleines",
+        "translation": "Les heures pleines",
+        "examples": [
+          {
+            "original": "Sono le due.",
+            "phonetic": "ˈsoːno le ˈduːe",
+            "translation": "Il est deux heures.",
+            "note": "On utilise 'sono le' pour toutes les heures sauf une."
+          },
+          {
+            "original": "È l'una.",
+            "phonetic": "ɛ ˈluna",
+            "translation": "Il est une heure.",
+            "note": "Singulier : 'è l'una' (la contraction de 'la una')."
+          },
+          {
+            "original": "Sono le dieci.",
+            "phonetic": "ˈsoːno le ˈdjɛːtʃi",
+            "translation": "Il est dix heures.",
+            "note": "Attention à la prononciation de 'dieci' : [ˈdjɛːtʃi]."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "I minuti / Les minutes",
+        "translation": "Les minutes",
+        "examples": [
+          {
+            "original": "Sono le tre e dieci.",
+            "phonetic": "ˈsoːno le ˈtre e ˈdjɛːtʃi",
+            "translation": "Il est trois heures dix.",
+            "note": "'e' = 'et' pour additionner les minutes."
+          },
+          {
+            "original": "Sono le quattro meno cinque.",
+            "phonetic": "ˈsoːno le ˈkwattro ˈmeːno ˈtʃiŋkwe",
+            "translation": "Il est quatre heures moins cinq.",
+            "note": "'meno' = 'moins' pour les minutes avant l'heure."
+          },
+          {
+            "original": "Sono le sette e un quarto.",
+            "phonetic": "ˈsoːno le ˈsɛtte e un ˈkwarto",
+            "translation": "Il est sept heures et quart.",
+            "note": "On dit 'un quarto' pour un quart d'heure."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Le ore speciali / Les heures spéciales",
+        "translation": "Les heures spéciales",
+        "examples": [
+          {
+            "original": "È mezzogiorno.",
+            "phonetic": "ɛ ˌmɛddzoˈdʒorno",
+            "translation": "Il est midi.",
+            "note": "Aucun article, verbe 'è' au singulier."
+          },
+          {
+            "original": "È mezzanotte.",
+            "phonetic": "ɛ ˌmɛddzaˈnɔtte",
+            "translation": "Il est minuit.",
+            "note": "Toujours singulier et sans article."
+          },
+          {
+            "original": "Sono le cinque e mezzo.",
+            "phonetic": "ˈsoːno le ˈtʃiŋkwe e ˈmɛddzo",
+            "translation": "Il est cinq heures et demie.",
+            "note": "On peut aussi dire 'e mezza' (féminin) pour la demi-heure."
+          },
+          {
+            "original": "Che ora è?",
+            "phonetic": "ke ˈoːra ɛ",
+            "translation": "Quelle heure est-il ? (variante)",
+            "note": "Autre façon de demander l'heure, plus formelle."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕐",
+    "phonetic": "",
+    "translations": {
+      "fr": "Dire l'heure"
+    }
+  }
+]

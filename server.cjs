@@ -113,7 +113,9 @@ app.get('/', (req, res, next) => {
 </head><body><a href="/">SenseMate</a></body></html>`);
 });
 
-app.use(express.static(path.join(__dirname, '.')));
+app.use(express.static(path.join(__dirname, '.'), {
+    dotfiles: 'allow',   // necesario para servir /.well-known/mcp/server-card.json
+}));
 
 // ─── Register routes ──────────────────────────────────────────
 

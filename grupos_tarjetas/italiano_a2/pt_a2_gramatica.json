@@ -1,0 +1,2062 @@
+[
+  {
+    "id": "pt_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Passato Prossimo / Pretérito Perfeito Composto",
+    "bridge": "Assim como no português usamos o pretérito perfeito composto (ter + particípio) para ações concluídas, o italiano usa o passato prossimo, mas com uma diferença crucial: a escolha do auxiliar (essere ou avere) que depende do verbo e, muitas vezes, do fato de o verbo ser transitivo ou intransitivo. Além disso, o particípio passado concorda em gênero e número com o sujeito quando o auxiliar é essere, e com o objeto direto quando o auxiliar é avere com pronomes de objeto direto (mi, ti, lo, la, etc.). Preste atenção: verbos de movimento e mudança de estado frequentemente usam essere, enquanto no português usamos sempre 'ter'. Por exemplo, 'Eu fui' em italiano é 'sono andato' (literalmente 'sou ido'), não 'ho andato'. Essa é uma das maiores armadilhas para lusófonos.",
+    "rule": "O passato prossimo é um tempo composto formado pelo presente do indicativo do auxiliar (avere o essere) + o particípio passado do verbo principal. \n\n**Escolha do auxiliar:**\n- **Avere** é usado com a maioria dos verbos transitivos (com objeto direto) e com muitos verbos intransitivos (ex: dormire, lavorare, mangiare quando não tem objeto direto). O particípio passado com avere é invariável (exceto com pronomes de objeto direto, como 'li ho visti' – os vi).\n- **Essere** é usado com verbos de movimento (andare, venire, partire, arrivare, uscire), verbos de mudança de estado (nascere, morire, diventare), verbos reflexivos, e alguns intransitivos (piacere). O particípio passado concorda em gênero e número com o sujeito: -o/-a/-i/-e.\n\n**Formação do particípio passado:**\n- Verbos regulares: -are → -ato (parlare → parlato), -ere → -uto (credere → creduto), -ire → -ito (finire → finito).\n- Verbos irregulares: muitos, ex: fare → fatto, dire → detto, scrivere → scritto, prendere → preso, vedere → visto, aprire → aperto.\n\n**Uso:**\n- Ações concluídas num momento específico no passado (ex: ieri, l'anno scorso).\n- Ações que aconteceram uma única vez ou num período de tempo definido. \n- Diferente do português, não é usado para ações habituais no passado (isso é imperfetto).\n\n**Exemplos comuns:**\n- Ho mangiato una mela. (Comi uma maçã.)\n- Sono andato al mare. (Fui ao mar.)\n- Maria è partita ieri. (Maria partiu ontem.)",
+    "concept_examples": [
+      {
+        "text": "Ho comprato il pane.",
+        "translation": "Comprei o pão.",
+        "phonetic": "/ɔ komˈpraːto il ˈpane/"
+      },
+      {
+        "text": "Siamo arrivati in ritardo.",
+        "translation": "Chegamos atrasados.",
+        "phonetic": "/ˈsjaːmo arriˈvaːti in riˈtardo/"
+      },
+      {
+        "text": "Hai visto il film?",
+        "translation": "Você viu o filme?",
+        "phonetic": "/ˈai ˈvisto il film/"
+      },
+      {
+        "text": "Maria è uscita con gli amici.",
+        "translation": "Maria saiu com os amigos.",
+        "phonetic": "/maˈriːa ɛ uʃˈʃiːta kon ʎi aˈmiːtʃi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Io ho andato al cinema ieri.",
+      "correct": "Io sono andato al cinema ieri.",
+      "correct_alt": "Sono andato al cinema ieri.",
+      "explanation": "O erro acontece porque no português usamos sempre o auxiliar 'ter' (eu tenho ido, mas no pretérito perfeito simples: eu fui). No italiano, o verbo 'andare' (ir) é intransitivo de movimento e exige o auxiliar 'essere'. Além disso, o particípio deve concordar com o sujeito: 'andato' para masculino singular, 'andata' para feminino. Para evitar esse erro, memorize que verbos de movimento (andare, venire, partire, arrivare, uscire, entrare) sempre usam 'essere'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbi regolari",
+        "translation": "Verbos regulares",
+        "examples": [
+          {
+            "original": "Ieri ho parlato con Marco.",
+            "phonetic": "/ˈjɛːri ɔ parˈlaːto kon ˈmarko/",
+            "translation": "Ontem falei com o Marco.",
+            "note": "Uso do auxiliar avere com verbo transitivo. O particípio 'parlato' é invariável."
+          },
+          {
+            "original": "Abbiamo mangiato la pizza.",
+            "phonetic": "/abˈbjaːmo manˈdʒaːto la ˈpittsa/",
+            "translation": "Comemos a pizza.",
+            "note": "Verbo mangiare (comer) com objeto direto, usa avere."
+          },
+          {
+            "original": "Hai finito i compiti?",
+            "phonetic": "/ai fiˈniːto i ˈkompiti/",
+            "translation": "Você terminou os deveres?",
+            "note": "Verbo finire (-ire) com particípio regular em -ito, auxiliar avere."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbi con essere",
+        "translation": "Verbos com essere",
+        "examples": [
+          {
+            "original": "Sono andata a Roma.",
+            "phonetic": "/ˈsoːno anˈdaːta a ˈrɔːma/",
+            "translation": "Fui a Roma. (feminino)",
+            "note": "Verbo andare usa essere, e o particípio concorda: andata (f. sing.)."
+          },
+          {
+            "original": "I ragazzi sono partiti ieri.",
+            "phonetic": "/i raˈɡattsi ˈsoːno parˈtiːti ˈjɛːri/",
+            "translation": "Os rapazes partiram ontem.",
+            "note": "Ausiliare essere, particípio plural masculino: partiti."
+          },
+          {
+            "original": "Maria è nata nel 2000.",
+            "phonetic": "/maˈriːa ɛ ˈnaːta nel dueˈmiːla/",
+            "translation": "Maria nasceu no ano 2000.",
+            "note": "Verbo nascere (nascer) é intransitivo e usa essere; concorda com o sujeito feminino: nata."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Participi irregolari",
+        "translation": "Particípios irregulares",
+        "examples": [
+          {
+            "original": "Ho fatto una torta.",
+            "phonetic": "/ɔ ˈfatto ˈuːna ˈtorta/",
+            "translation": "Fiz um bolo.",
+            "note": "Fare tem particípio irregular: fatto (e não *fato)."
+          },
+          {
+            "original": "Hanno scritto una lettera.",
+            "phonetic": "/ˈanno ˈskritto ˈuːna ˈlettera/",
+            "translation": "Escreveram uma carta.",
+            "note": "Scrivere → scritto. Cuidado com a dupla consoante."
+          },
+          {
+            "original": "Ha aperto la porta.",
+            "phonetic": "/a aˈpɛrto la ˈpɔrta/",
+            "translation": "Abriu a porta.",
+            "note": "Aprire → aperto (irregular)."
+          },
+          {
+            "original": "Non ho visto niente.",
+            "phonetic": "/non ɔ ˈvisto ˈnjɛnte/",
+            "translation": "Não vi nada.",
+            "note": "Vedere → visto (irregular)."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Pretérito perfeito composto"
+    }
+  },
+  {
+    "id": "pt_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Stare + gerundio / Presente progressivo",
+    "bridge": "Em italiano, o presente contínuo (progressivo) é formado com o verbo 'stare' + gerúndio, diferente do português que usa 'estar' + 'a' + infinitivo (em Portugal) ou 'estar' + gerúndio (no Brasil). O uso é semelhante, mas atenção: em italiano, o gerúndio é invariável e o verbo 'stare' é que conjuga. Cuidado para não traduzir literalmente 'estou fazendo' como 'sono facendo' – o correto é 'sto facendo'.",
+    "rule": "O presente progressivo italiano (presente progressivo) é usado para ações em curso no momento da fala. Forma-se com o presente do indicativo do verbo 'stare' (sto, stai, sta, stiamo, state, stanno) seguido do gerúndio do verbo principal. Para verbos regulares, o gerúndio termina em -ando (1ª conjugação: -are), -endo (2ª e 3ª: -ere, -ire). Exemplos: parlare → parlando; leggere → leggendo; dormire → dormendo. Alguns verbos irregulares: fare → facendo; dire → dicendo; bere → bevendo; porre → ponendo. O progressivo não é usado para ações habituais ou futuras – para essas, use o presente simples (ex: 'Domani vado al cinema' – não 'domani sto andando'). Também não é usado com verbos modais (dovere, potere, volere) nem com 'sapere' ou 'conoscere' (estados permanentes).",
+    "concept_examples": [
+      {
+        "text": "Sto mangiando una mela.",
+        "translation": "Estou comendo uma maçã.",
+        "phonetic": "ˈsto manˈdʒando ˈuna ˈmela"
+      },
+      {
+        "text": "Stai leggendo il giornale?",
+        "translation": "Você está lendo o jornal?",
+        "phonetic": "ˈstaj ˈleddʒendo il dʒorˈnale"
+      },
+      {
+        "text": "Stiamo guardando la partita.",
+        "translation": "Nós estamos assistindo ao jogo.",
+        "phonetic": "ˈstjamo ɡwarˈdando la parˈtita"
+      },
+      {
+        "text": "Sta piovendo molto.",
+        "translation": "Está chovendo muito.",
+        "phonetic": "sta ˈpjovendo ˈmolto"
+      }
+    ],
+    "common_error": {
+      "wrong": "Sono facendo i compiti.",
+      "correct": "Sto facendo i compiti.",
+      "correct_alt": "Faccio i compiti.",
+      "explanation": "O erro ocorre porque em português brasileiro usamos 'estou fazendo', e o aluno pode tentar traduzir 'estou' como 'sono' (verbo essere). Em italiano, o auxiliar do progressivo é 'stare', não 'essere'. Lembre-se: 'stare' significa 'estar' em muitos contextos. Outra alternativa é usar o presente simples 'Faccio i compiti' para indicar uma ação em curso, embora menos enfático."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formazione del gerundio regolare",
+        "translation": "Formação do gerúndio regular",
+        "examples": [
+          {
+            "original": "Sto parlando italiano.",
+            "phonetic": "sto parˈlando itaˈljano",
+            "translation": "Estou falando italiano.",
+            "note": "Verbos -are: gerúndio em -ando (parlare → parlando)."
+          },
+          {
+            "original": "Stai scrivendo una lettera.",
+            "phonetic": "ˈstaj skriˈvendo ˈuna ˈlettera",
+            "translation": "Você está escrevendo uma carta.",
+            "note": "Verbos -ere: gerúndio em -endo (scrivere → scrivendo)."
+          },
+          {
+            "original": "Sta dormendo il bambino.",
+            "phonetic": "sta dorˈmendo il bamˈbino",
+            "translation": "O bebê está dormindo.",
+            "note": "Verbos -ire: gerúndio em -endo (dormire → dormendo)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Gerundi irregolari comuni",
+        "translation": "Gerúndios irregulares comuns",
+        "examples": [
+          {
+            "original": "Cosa stai facendo?",
+            "phonetic": "ˈkɔza ˈstaj faˈtʃendo",
+            "translation": "O que você está fazendo?",
+            "note": "Fare → facendo. Atenção à troca de vogal."
+          },
+          {
+            "original": "Sto dicendo la verità.",
+            "phonetic": "sto diˈtʃendo la veriˈta",
+            "translation": "Estou dizendo a verdade.",
+            "note": "Dire → dicendo. A forma muda completamente."
+          },
+          {
+            "original": "Stiamo bevendo un caffè.",
+            "phonetic": "ˈstjamo beˈvendo un kafˈfɛ",
+            "translation": "Estamos bebendo um café.",
+            "note": "Bere → bevendo. Perde o 'e' do infinito."
+          },
+          {
+            "original": "Stanno traducendo il testo.",
+            "phonetic": "ˈstanno traduˈtʃendo il ˈtɛsto",
+            "translation": "Eles estão traduzindo o texto.",
+            "note": "Tradurre → traducendo (irregular em -urre)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Usi e limiti del progressivo",
+        "translation": "Usos e limites do progressivo",
+        "examples": [
+          {
+            "original": "Domani vado a Roma.",
+            "phonetic": "doˈmani ˈvado a ˈrɔma",
+            "translation": "Amanhã vou a Roma.",
+            "note": "Futuro: usa-se o presente simples, não 'stare + gerundio'."
+          },
+          {
+            "original": "Ogni giorno leggo il giornale.",
+            "phonetic": "ˈɔɲi ˈdʒorno ˈleddʒo il dʒorˈnale",
+            "translation": "Todos os dias leio o jornal.",
+            "note": "Ação habitual: presente simples, pois progressivo indica ação momentânea."
+          },
+          {
+            "original": "Non posso parlare ora, sto mangiando.",
+            "phonetic": "non ˈpɔsso parˈlare ˈora sto manˈdʒando",
+            "translation": "Não posso falar agora, estou comendo.",
+            "note": "Com modais (posso), o progressivo pode ser usado no verbo principal, mas não no modal."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏃",
+    "phonetic": "",
+    "translations": {
+      "pt": "Presente progressivo / Gerúndio"
+    }
+  },
+  {
+    "id": "pt_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Futuro con 'andare a' + infinito",
+    "bridge": "No português, você costuma usar 'ir + infinitivo' para expressar futuro imediato (ex.: 'vou comer'). Em italiano, existe o mesmo mecanismo: 'andare a' + infinito (ex.: 'vado a mangiare'). Mas cuidado: em italiano, 'andare a' significa literalmente 'ir a algum lugar', e o futuro com 'andare a' é usado principalmente para ações que acontecerão em um futuro próximo, enquanto no português essa construção é mais frequente. Outra diferença importante: a conjugação de 'andare' no presente (io vado, tu vai, lui va) pode ser uma armadilha, pois é irregular.",
+    "rule": "Para formar o futuro com 'going to' em italiano (equivalente ao 'ir + infinitivo' no português), usa-se o verbo 'andare' conjugado no presente do indicativo, seguido da preposição 'a' e do infinitivo do verbo principal. Exemplo: 'Io vado a mangiare' (Eu vou comer). O verbo 'andare' é irregular no presente: io vado, tu vai, lui/lei va, noi andiamo, voi andate, loro vanno. Atenção: não confunda com 'andare' no sentido de movimento físico; o contexto indica o futuro. Para negar, coloca-se 'non' antes do verbo (ex.: 'Non vado a mangiare'). Para perguntas, a entonação ou partículas interrogativas fazem o trabalho. Este futuro é usado para intenções, planos e previsões com evidência presente – muito parecido com o português, mas menos usado para promessas (esse caso usa o futuro simples).",
+    "concept_examples": [
+      {
+        "text": "Domani vado a visitare mia nonna.",
+        "translation": "Amanhã vou visitar minha avó.",
+        "phonetic": "/doˈmaːni ˈvaːdo a viziˈtaːre ˈmiːa ˈnɔnna/"
+      },
+      {
+        "text": "Stasera andiamo a vedere un film.",
+        "translation": "Hoje à noite vamos ver um filme.",
+        "phonetic": "/staˈseːra anˈdjaːmo a veˈdeːre un ˈfilm/"
+      },
+      {
+        "text": "Che cosa vai a fare dopo?",
+        "translation": "O que você vai fazer depois?",
+        "phonetic": "/ke ˈkɔːza ˈvaːi a ˈfaːre ˈdoːpo/"
+      },
+      {
+        "text": "Non vado a lavorare domani.",
+        "translation": "Não vou trabalhar amanhã.",
+        "phonetic": "/non ˈvaːdo a lavoˈraːre doˈmaːni/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Io vai a mangiare.",
+      "correct": "Io vado a mangiare.",
+      "correct_alt": "Vado a mangiare.",
+      "explanation": "O erro acontece porque o aluno transfere a segunda pessoa do singular 'vai' do italiano para a primeira pessoa, influenciado pelo português 'vai' (que em português é usado para ele/ela, mas também pode ser usado com 'você'). Em italiano, as formas do presente de 'andare' são diferentes para cada pessoa: 'io vado', 'tu vai', 'lui va'. Para evitar esse erro, memorize as formas do presente de 'andare' e pratique com sujeitos diferentes."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formazione del futuro",
+        "translation": "Formação do futuro",
+        "examples": [
+          {
+            "original": "Io vado a mangiare.",
+            "phonetic": "/ˈiːo ˈvaːdo a manˈdʒaːre/",
+            "translation": "Eu vou comer.",
+            "note": "Estrutura básica: andare + a + infinito."
+          },
+          {
+            "original": "Tu vai a studiare.",
+            "phonetic": "/tu ˈvaːi a stuˈdjaːre/",
+            "translation": "Você vai estudar.",
+            "note": "Observe a forma 'vai' para 'tu'."
+          },
+          {
+            "original": "Noi andiamo a giocare.",
+            "phonetic": "/ˈnɔi anˈdjaːmo a dʒoˈkaːre/",
+            "translation": "Nós vamos jogar.",
+            "note": "A forma 'andiamo' é regular."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso con espressioni di tempo",
+        "translation": "Uso com expressões de tempo",
+        "examples": [
+          {
+            "original": "Domani vado a fare la spesa.",
+            "phonetic": "/doˈmaːni ˈvaːdo a ˈfaːre la ˈspeːza/",
+            "translation": "Amanhã vou fazer compras.",
+            "note": "Use com 'domani' (amanhã) para futuro próximo."
+          },
+          {
+            "original": "Stasera andiamo a cena fuori.",
+            "phonetic": "/staˈseːra anˈdjaːmo a ˈtʃeːna ˈfwɔːri/",
+            "translation": "Hoje à noite vamos jantar fora.",
+            "note": "Expressões como 'stasera' indicam um tempo específico."
+          },
+          {
+            "original": "La prossima settimana vado a trovare i miei amici.",
+            "phonetic": "/la ˈprɔssima settiˈmaːna ˈvaːdo a troˈvaːre i ˈmjɛi aˈmiːtʃi/",
+            "translation": "Na próxima semana vou visitar meus amigos.",
+            "note": "Para planos em um futuro um pouco mais distante."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Forma negativa e interrogativa",
+        "translation": "Forma negativa e interrogativa",
+        "examples": [
+          {
+            "original": "Non vado a lavorare oggi.",
+            "phonetic": "/non ˈvaːdo a lavoˈraːre ˈɔddʒi/",
+            "translation": "Não vou trabalhar hoje.",
+            "note": "A negação 'non' vem antes do verbo."
+          },
+          {
+            "original": "Vai a partire domani?",
+            "phonetic": "/ˈvaːi a parˈtiːre doˈmaːni?/",
+            "translation": "Você vai partir amanhã?",
+            "note": "Pergunta sem palavra interrogativa, apenas entonação."
+          },
+          {
+            "original": "Quando andate a vedere il museo?",
+            "phonetic": "/ˈkwando anˈdaːte a veˈdeːre il muˈzɛːo?/",
+            "translation": "Quando vocês vão ver o museu?",
+            "note": "Usa 'quando' para perguntar sobre o tempo."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏰",
+    "phonetic": "",
+    "translations": {
+      "pt": "Futuro com 'going to' (ir + infinitivo)"
+    }
+  },
+  {
+    "id": "pt_A2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Il futuro semplice / Futuro simples",
+    "bridge": "Em italiano, o futuro simples é mais usado do que em português, onde muitas vezes usamos o presente ou 'ir + infinitivo'. No italiano, você vai conjugar o verbo com terminações específicas ( -erò, -erai, -erà, etc.) e não há formas irregulares como em português (ex.: 'farei' vs. 'farò'). Cuidado: em italiano, o futuro pode expressar dúvida ou suposição, algo que em português fazemos com o futuro do pretérito ou com 'deve ser'.",
+    "rule": "O futuro simples italiano é formado com o infinitivo do verbo (para verbos -are e -ere, remove-se a vogal final 'e' e adicionam-se as terminações; para verbos -ire, remove-se o 'e' e adicionam-se as mesmas terminações). Terminações: -ò, -ai, -à, -emo, -ete, -anno. Exemplos: parlare → parlerò, parlerai, parlerà, parleremo, parlerete, parleranno; credere → crederò, etc.; dormire → dormirò, etc. Alguns verbos são irregulares: essere (sarò), avere (avrò), fare (farò), dare (darò), andare (andrò), stare (starò), dire (dirò), venire (verrò), volere (vorrò), potere (potrò), dovere (dovrò), sapere (saprò), vedere (vedrò), vivere (vivrò), bere (berrò), tenere (terrò), rimanere (rimarrò), etc. Uso: para ações futuras, promessas, previsões, e também para expressar incerteza ou suposição no presente (ex.: 'Sarà a casa' = 'Ele deve estar em casa').",
+    "concept_examples": [
+      {
+        "text": "Domani andrò al mercato.",
+        "translation": "Amanhã irei ao mercado.",
+        "phonetic": "/doˈmaːni anˈdrɔ al merˈkaːto/"
+      },
+      {
+        "text": "Tu parlerai con il professore?",
+        "translation": "Você falará com o professor?",
+        "phonetic": "/tu parleˈrai kon il profesˈsoːre/"
+      },
+      {
+        "text": "Lei arriverà alle otto.",
+        "translation": "Ela chegará às oito.",
+        "phonetic": "/lɛi arriveˈra ˈalle ˈɔtto/"
+      },
+      {
+        "text": "Noi faremo una festa sabato.",
+        "translation": "Nós faremos uma festa sábado.",
+        "phonetic": "/nɔi faˈremo ˈuːna ˈfesta ˈsaːbato/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Domani io ando al mercato.",
+      "correct": "Domani andrò al mercato.",
+      "correct_alt": "Domani io andrò al mercato.",
+      "explanation": "O erro ocorre porque o aluno usa a conjugação do presente (ando) no lugar do futuro (andrò), influenciado pelo português onde 'vou' pode indicar futuro. Para evitar, memorize as terminações do futuro e lembre-se de que em italiano o futuro é marcado pela terminação -ò, não pela forma do presente. Além disso, muitos verbos irregulares como 'andare' mudam a raiz (and- → andr-)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbi regolari",
+        "translation": "Verbos regulares",
+        "examples": [
+          {
+            "original": "Parlarò con Maria domani.",
+            "phonetic": "/parleˈrɔ kon maˈriːa doˈmaːni/",
+            "translation": "Falarei com a Maria amanhã.",
+            "note": "Observe a terminação -erò para verbos -are, com perda do 'a' final."
+          },
+          {
+            "original": "Tu scriverai una lettera.",
+            "phonetic": "/tu skriveˈrai ˈuːna ˈlettera/",
+            "translation": "Você escreverá uma carta.",
+            "note": "Terminação -erai para a segunda pessoa."
+          },
+          {
+            "original": "Loro leggeranno il libro.",
+            "phonetic": "/ˈlɔːro leddʒeˈranno il ˈliːbro/",
+            "translation": "Eles lerão o livro.",
+            "note": "Note o -anno para a terceira pessoa do plural."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbi irregolari comuni",
+        "translation": "Verbos irregulares comuns",
+        "examples": [
+          {
+            "original": "Domani saremo a casa.",
+            "phonetic": "/doˈmaːni saˈremo a ˈkaːza/",
+            "translation": "Amanhã estaremos em casa.",
+            "note": "O verbo 'essere' no futuro: sarò, sarai, sarà, saremo, sarete, saranno."
+          },
+          {
+            "original": "Avrò molto lavoro la settimana prossima.",
+            "phonetic": "/aˈvrɔ ˈmolto laˈvoːro la settiˈmaːna ˈprɔssima/",
+            "translation": "Terei muito trabalho na semana que vem.",
+            "note": "O verbo 'avere' irregular: avrò, avrai, avrà..."
+          },
+          {
+            "original": "Farai un viaggio in estate?",
+            "phonetic": "/faˈrai un viˈaddʒo in eˈstaːte/",
+            "translation": "Você fará uma viagem no verão?",
+            "note": "'Fare' perde a vogal e forma farò, farai, farà."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Usi: futuro per supposizioni",
+        "translation": "Usos: futuro para suposições",
+        "examples": [
+          {
+            "original": "Che ora sarà? Sono le tre, credo.",
+            "phonetic": "/ke ˈɔːra saˈra | ˈsɔːno le tre | ˈkreːdo/",
+            "translation": "Que horas serão? São três, acho.",
+            "note": "O futuro 'sarà' expressa incerteza sobre o presente, como em português usamos 'será'."
+          },
+          {
+            "original": "Maria sarà a casa?",
+            "phonetic": "/maˈriːa saˈra a ˈkaːza/",
+            "translation": "Será que a Maria está em casa?",
+            "note": "Aqui o futuro indica suposição, não futuro real."
+          },
+          {
+            "original": "Avranno fame dopo la passeggiata.",
+            "phonetic": "/aˈvranno ˈfaːme ˈdɔːpo la passedˈdʒaːta/",
+            "translation": "Devem estar com fome depois da caminhada.",
+            "note": "O futuro de 'avere' é usado para hipóteses."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔮",
+    "phonetic": "",
+    "translations": {
+      "pt": "Futuro simples"
+    }
+  },
+  {
+    "id": "pt_A2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Comparativi e superlativi / Comparativos y superlativos",
+    "bridge": "Em italiano, assim como em português, os comparativos e superlativos são formados com 'più' (mais) e 'meno' (menos), mas há diferenças importantes. Enquanto em português usamos 'mais ... do que' ou 'tão ... quanto', em italiano usamos 'più ... di' ou 'così ... come'. Além disso, o superlativo absoluto em italiano é formado com o sufixo '-issimo', equivalente a '-íssimo' em português, mas cuidado: a posição e o uso de 'di' vs 'che' podem confundir. Preste atenção especial à concordância e ao uso do artigo antes do superlativo.",
+    "rule": "**Comparativo di maggioranza (superioridade):** 'più + aggettivo/avverbio + di (ou che)'. Use 'di' quando compara dois substantivos ou pronomes (ex: 'Maria è più alta di Anna' - 'Maria é mais alta do que Ana'). Use 'che' quando compara dois aggettivi, verbi, avverbi ou quando há preposição (ex: 'È più facile dire che fare' - 'É mais fácil dizer do que fazer').\n\n**Comparativo di minoranza (inferioridade):** 'meno + aggettivo/avverbio + di/che' (mesma regra de 'di' vs 'che'). Ex: 'Questo libro è meno interessante di quello' - 'Este livro é menos interessante do que aquele'.\n\n**Comparativo di uguaglianza (igualdade):** 'così ... come' ou 'tanto ... quanto' (o segundo é mais formal). Ex: 'Luca è così alto come suo padre' - 'Luca é tão alto quanto seu pai'. Em frases negativas, usa-se 'non ... così ... come'.\n\n**Superlativo relativo (relativo):** 'il/la/le/i + più/meno + aggettivo' (sempre com artigo e 'di' ou 'che'). Ex: 'Questa è la città più bella d'Italia' - 'Esta é a cidade mais bonita da Itália'. O superlativo relativo concorda em gênero e número com o substantivo.\n\n**Superlativo assoluto (absoluto):** adjetivo com sufixo '-issimo/-issima/-issimi/-issime' (equivalente a '-íssimo'). Ex: 'bellissimo' (belíssimo), 'grandissimo' (grandíssimo). Também pode ser formado com 'molto', 'tanto', 'assai' antes do adjetivo (ex: 'molto bello') ou com prefixos como 'stra-', 'arci-' (ex: 'stracotto', 'arcicontento').\n\n**Formas irregulares:** 'buono' -> comparativo 'migliore', superlativo 'ottimo/il migliore'; 'cattivo' -> 'peggiore', 'pessimo/il peggiore'; 'grande' -> 'maggiore', 'massimo'; 'piccolo' -> 'minore', 'minimo'. Esses têm uso específico: 'migliore' refere-se a qualidade, 'maggiore' a tamanho/idade.\n\n**Uso em frases:** Em comparações com mais de dois elementos, use 'tra' ou 'fra': 'È il più veloce tra tutti' - 'É o mais rápido entre todos'.",
+    "concept_examples": [
+      {
+        "text": "Questo gelato è più buono di quello.",
+        "translation": "Este sorvete é mais bom do que aquele.",
+        "phonetic": "/ˈkwɛsto dʒeˈlato ɛ ˈpju ˈbwɔno di ˈkwɛllo/"
+      },
+      {
+        "text": "Maria è la più intelligente della classe.",
+        "translation": "Maria é a mais inteligente da turma.",
+        "phonetic": "/maˈria ɛ la ˈpju intelliˈdʒɛnte ˈdella ˈklasse/"
+      },
+      {
+        "text": "Questo compito è facilissimo.",
+        "translation": "Esta tarefa é facilíssima.",
+        "phonetic": "/ˈkwɛsto komˈpito ɛ fatʃiˈlissimo/"
+      },
+      {
+        "text": "Luca è così alto come suo fratello.",
+        "translation": "Luca é tão alto quanto seu irmão.",
+        "phonetic": "/ˈluka ɛ koˈzi ˈalto ˈkome ˈsuo fraˈtello/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Questo libro è più interessante che quello.",
+      "correct": "Questo libro è più interessante di quello.",
+      "correct_alt": "Questo libro è più interessante rispetto a quello.",
+      "explanation": "O erro acontece porque em português usamos 'do que' em ambos os casos, mas em italiano, quando se compara dois substantivos (ou pronomes), a preposição correta é 'di', não 'che'. 'Che' é usado apenas quando compara qualidades, verbos, advérbios ou quando há preposição (como 'a', 'da', 'in'). Lembre-se: 'più ... di' para comparar coisas, 'più ... che' para comparar ações ou qualidades dentro de um mesmo sujeito."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Comparativo di maggioranza e minoranza",
+        "translation": "Comparativo de superioridade e inferioridade",
+        "examples": [
+          {
+            "original": "La pizza è più buona della pasta.",
+            "phonetic": "/la ˈpittsa ɛ ˈpju ˈbwɔna ˈdella ˈpasta/",
+            "translation": "A pizza é mais saborosa do que a massa.",
+            "note": "Use 'di' + artigo (del, della, etc.) para comparar substantivos. Note a contração 'della' = di + la."
+          },
+          {
+            "original": "Il gatto è meno grande del cane.",
+            "phonetic": "/il ˈgatto ɛ ˈmeno ˈgrande del ˈkane/",
+            "translation": "O gato é menos grande do que o cão.",
+            "note": "A formação com 'meno' segue a mesma regra de 'di' para comparar substantivos."
+          },
+          {
+            "original": "È più facile nuotare che correre.",
+            "phonetic": "/ɛ ˈpju ˈfatʃile nwoˈtare ke korˈrere/",
+            "translation": "É mais fácil nadar do que correr.",
+            "note": "Quando compara dois verbos no infinitivo, use 'che', não 'di'."
+          },
+          {
+            "original": "Questa macchina è meno veloce di quella.",
+            "phonetic": "/ˈkwɛsta makˈkina ɛ ˈmeno veˈlotʃe di ˈkwɛlla/",
+            "translation": "Este carro é menos rápido do que aquele.",
+            "note": "A estrutura com 'meno' é idêntica à de 'più'. Observe que 'quella' é pronome demonstrativo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Comparativo di uguaglianza",
+        "translation": "Comparativo de igualdade",
+        "examples": [
+          {
+            "original": "Anna è così alta come sua madre.",
+            "phonetic": "/ˈanna ɛ koˈzi ˈalta ˈkome ˈsua ˈmadre/",
+            "translation": "Ana é tão alta quanto sua mãe.",
+            "note": "Use 'così ... come' para igualdade. Em português usamos 'tão ... quanto', mas nunca use 'come' com 'tanto' em italiano."
+          },
+          {
+            "original": "Questo ristorante è tanto buono quanto caro.",
+            "phonetic": "/ˈkwɛsto ristoˈrante ɛ ˈtanto ˈbwɔno ˈkwanto ˈkaro/",
+            "translation": "Este restaurante é tão bom quanto caro.",
+            "note": "Para comparar duas qualidades do mesmo sujeito, use 'tanto ... quanto' (mais formal)."
+          },
+          {
+            "original": "Non è così difficile come pensi.",
+            "phonetic": "/non ɛ koˈzi diffiˈtʃile ˈkome ˈpensi/",
+            "translation": "Não é tão difícil quanto você pensa.",
+            "note": "Em frases negativas, a estrutura 'così ... come' é mantida."
+          },
+          {
+            "original": "Lei è tanto intelligente quanto bella.",
+            "phonetic": "/lɛi ɛ ˈtanto intelliˈdʒɛnte ˈkwanto ˈbɛlla/",
+            "translation": "Ela é tão inteligente quanto bonita.",
+            "note": "Aqui comparamos duas qualidades, por isso 'quanto' fica invariável (não concorda com gênero)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Superlativo relativo e assoluto",
+        "translation": "Superlativo relativo e absoluto",
+        "examples": [
+          {
+            "original": "Questa è la città più bella del mondo.",
+            "phonetic": "/ˈkwɛsta ɛ la tʃitˈta ˈpju ˈbɛlla del ˈmondo/",
+            "translation": "Esta é a cidade mais bonita do mundo.",
+            "note": "Superlativo relativo: sempre com artigo definido (la, il, le, i) + più/meno + aggettivo."
+          },
+          {
+            "original": "È il ragazzo più alto della classe.",
+            "phonetic": "/ɛ il raˈgattso ˈpju ˈalto ˈdella ˈklasse/",
+            "translation": "Ele é o menino mais alto da turma.",
+            "note": "Agradeça a concordância: il ragazzo più alto (masculino singular)."
+          },
+          {
+            "original": "Ma che bellissimo panorama!",
+            "phonetic": "/ma ke belliˈssimo panoˈrama/",
+            "translation": "Mas que panorama belíssimo!",
+            "note": "Superlativo absoluto com sufixo '-issimo'. Note que em português temos '-íssimo'."
+          },
+          {
+            "original": "Questo è il vino migliore che abbia mai bevuto.",
+            "phonetic": "/ˈkwɛsto ɛ il ˈvino miʎˈʎore ke abˈbja maj beˈvuto/",
+            "translation": "Este é o melhor vinho que já bebi.",
+            "note": "Forma irregular: 'migliore' é comparativo/superlativo de 'buono'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📊",
+    "phonetic": "",
+    "translations": {
+      "pt": "Comparativos e superlativos"
+    }
+  },
+  {
+    "id": "pt_A2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbi modali (dovere, potere, volere) / Verbos modais (dever, poder, querer)",
+    "bridge": "Em italiano, os verbos modais (dovere, potere, volere) funcionam de forma semelhante ao português, mas com diferenças importantes. Ao contrário do português, onde usamos 'ter que' ou 'precisar de', o italiano usa 'dovere' para obrigação e necessidade. Cuidado: 'potere' não é 'poder' no sentido de capacidade física (que em italiano se diz 'sapere'), mas sim permissão ou possibilidade. 'Volere' exige o subjuntivo em frases como 'voglio che tu venga', o que é um desafio para falantes de português, que usam o indicativo.",
+    "rule": "Em italiano, os verbos modais são: dovere (dever, ter que), potere (poder, ter permissão) e volere (querer). Eles são sempre seguidos de um verbo no infinitivo (sem preposição). No presente do indicativo: dovere (devo, devi, deve, dobbiamo, dovete, devono), potere (posso, puoi, può, possiamo, potete, possono), volere (voglio, vuoi, vuole, vogliamo, volete, vogliono). A obrigação pode ser expressa com 'dovere' (devolver) ou 'avere bisogno di' (precisar de), mas não use 'ter que' literalmente. Para permissão, 'potere' é usado em perguntas e respostas. 'Volere' é usado com infinitivo para desejo; em frases com 'che' exige o congiuntivo (ex: voglio che tu venga). No passado, usamos o imperfetto (dovevo, potevo, volevo) ou o passato prossimo (ho dovuto, ho potuto, ho voluto). O particípio passado concorda com o sujeito quando o verbo modal é seguido de 'essere' (ex: sono dovuto andare, sono potuta uscire).",
+    "concept_examples": [
+      {
+        "text": "Devo studiare ogni giorno.",
+        "translation": "Devo estudar todos os dias.",
+        "phonetic": "/ˈdeːvo stuˈdjaːre ˈoɲɲi ˈdʒorno/"
+      },
+      {
+        "text": "Puoi aprire la finestra?",
+        "translation": "Você pode abrir a janela?",
+        "phonetic": "/ˈpwɔːi aˈpriːre la fiˈnɛstra/"
+      },
+      {
+        "text": "Voglio andare in Italia.",
+        "translation": "Quero ir para a Itália.",
+        "phonetic": "/ˈvɔʎʎo anˈdaːre in iˈtaːlja/"
+      },
+      {
+        "text": "Non devi fumare qui.",
+        "translation": "Você não deve fumar aqui.",
+        "phonetic": "/non ˈdeːvi fuˈmaːre kwi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Devo andare a casa.",
+      "correct": "Devo andare a casa.",
+      "correct_alt": "",
+      "explanation": "Este erro não é comum, mas muitos falantes de português tendem a usar 'avere bisogno di' para 'precisar de', o que pode ser confundido com necessidade em vez de obrigação. Na verdade, para obrigação, use 'dovere'. Outro erro frequente é dizer 'posso sapere' em vez de 'so uscire' para 'sei sair' (capacidade). Lembre-se: 'potere' é permissão, 'sapere' é habilidade."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Presente dei verbi modali",
+        "translation": "Presente dos verbos modais",
+        "examples": [
+          {
+            "original": "Devo comprare il pane.",
+            "phonetic": "/ˈdeːvo komˈpraːre il ˈpaːne/",
+            "translation": "Devo comprar o pão.",
+            "note": "Uso de 'devo' para obrigação pessoal."
+          },
+          {
+            "original": "Puoi venire domani?",
+            "phonetic": "/ˈpwɔːi veˈniːre doˈmaːni/",
+            "translation": "Você pode vir amanhã?",
+            "note": "Uso de 'puoi' para permissão ou possibilidade."
+          },
+          {
+            "original": "Voglio un caffè.",
+            "phonetic": "/ˈvɔʎʎo un kafˈfɛ/",
+            "translation": "Quero um café.",
+            "note": "Volere com substantivo; não é preciso infinitivo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Passato prossimo con modali",
+        "translation": "Passado próximo com modais",
+        "examples": [
+          {
+            "original": "Ho dovuto studiare molto.",
+            "phonetic": "/ɔ dˈduːto stuˈdjaːre ˈmolto/",
+            "translation": "Tive que estudar muito.",
+            "note": "Passato prossimo de 'dovere' com 'avere'."
+          },
+          {
+            "original": "Sono potuta uscire.",
+            "phonetic": "/ˈsoːno poˈtuːta uʃˈʃiːre/",
+            "translation": "Eu pude sair (feminino).",
+            "note": "Concordância do particípio com o sujeito quando é feminino."
+          },
+          {
+            "original": "Non ho voluto andare.",
+            "phonetic": "/non ɔ voˈluːto anˈdaːre/",
+            "translation": "Não quis ir.",
+            "note": "Negação com 'non' antes do auxiliar."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Uso di 'dovere' per consigli",
+        "translation": "Uso de 'dovere' para conselhos",
+        "examples": [
+          {
+            "original": "Dovresti riposare di più.",
+            "phonetic": "/doˈvresti ripoˈsaːre di ˈpju/",
+            "translation": "Você deveria descansar mais.",
+            "note": "Forma condicional de 'dovere' para dar conselhos."
+          },
+          {
+            "original": "Non dovresti fumare.",
+            "phonetic": "/non doˈvresti fuˈmaːre/",
+            "translation": "Você não deveria fumar.",
+            "note": "Conselho negativo com 'non' + condicional."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔑",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbos modais (dever, poder, querer)"
+    }
+  },
+  {
+    "id": "pt_A2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbi riflessivi / Verbos reflexivos",
+    "bridge": "Em italiano, os verbos reflexivos são muito parecidos com os do português: usam-se pronomes reflexivos (mi, ti, si, ci, vi, si) e o verbo é conjugado com o sujeito. No entanto, há diferenças importantes: em italiano, o pronome reflexivo vem antes do verbo na maioria dos tempos, e em alguns tempos compostos (como o passato prossimo) o verbo auxiliar é sempre 'essere', mesmo que em português use 'ter' (ex.: 'mi sono lavato' = 'eu me lavei'). Outra diferença: em expressões como 'alzarsi' (levantar-se) e 'chiamarsi' (chamar-se), o uso é obrigatório em italiano, enquanto em português às vezes omitimos o pronome.",
+    "rule": "Em italiano, os verbos reflexivos são usados quando a ação recai sobre o próprio sujeito. A conjugação é feita com os pronomes reflexivos: mi, ti, si, ci, vi, si. No presente do indicativo, o pronome vem antes do verbo: mi chiamo, ti vesti, si lava. Nos tempos compostos (como o passato prossimo), o verbo auxiliar é sempre 'essere' e o particípio passado concorda com o sujeito: mi sono alzato/a, ti sei svegliato/a. Muitos verbos reflexivos italianos correspondem a verbos pronominais em português, mas há casos onde o italiano usa reflexivo e o português não (ex.: 'andarsene' = ir embora). Além disso, em frases com verbos modais (dovere, potere, volere), o pronome pode vir antes do verbo modal ou ligado ao infinitivo: 'mi devo alzare' ou 'devo alzarmi'.",
+    "concept_examples": [
+      {
+        "text": "Mi chiamo Marco.",
+        "translation": "Eu me chamo Marco.",
+        "phonetic": "mi ˈkjaːmo ˈmarko"
+      },
+      {
+        "text": "Maria si lava le mani.",
+        "translation": "Maria lava as mãos.",
+        "phonetic": "maˈriːa si ˈlaːva le ˈmaːni"
+      },
+      {
+        "text": "Loro si sono svegliati tardi.",
+        "translation": "Eles se acordaram tarde.",
+        "phonetic": "ˈloːro si ˈsoːno zweʎˈʎaːti ˈtardi"
+      },
+      {
+        "text": "Voi vi divertite molto.",
+        "translation": "Vocês se divertem muito.",
+        "phonetic": "ˈvɔi vi divɛrˈtiːte ˈmɔlto"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mi sono lavato le mani con sapone.",
+      "correct": "Mi sono lavato le mani con il sapone.",
+      "correct_alt": "",
+      "explanation": "Em português, usamos o artigo 'com sabão' sem artigo definido, mas em italiano é necessário usar o artigo definido com objetos específicos. O erro vem da transferência direta do português, onde 'sapone' não tem artigo. Lembre-se de que, em italiano, substantivos comuns precisam de artigo na maioria dos casos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Presente dei verbi riflessivi",
+        "translation": "Presente dos verbos reflexivos",
+        "examples": [
+          {
+            "original": "Mi alzo alle sette.",
+            "phonetic": "mi ˈalʦo ˈalle ˈsette",
+            "translation": "Eu me levanto às sete.",
+            "note": "Observe a posição do pronome 'mi' antes do verbo."
+          },
+          {
+            "original": "Ti vesti velocemente.",
+            "phonetic": "ti ˈvesti veloʧeˈmente",
+            "translation": "Você se veste rapidamente.",
+            "note": "Use 'ti' para a segunda pessoa do singular."
+          },
+          {
+            "original": "Si chiama Anna.",
+            "phonetic": "si ˈkjaːma ˈanna",
+            "translation": "Ela se chama Anna.",
+            "note": "'Si' é usado para ele/ela e também como impessoal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Passato prossimo dei verbi riflessivi",
+        "translation": "Passado próximo dos verbos reflexivos",
+        "examples": [
+          {
+            "original": "Ieri mi sono svegliato alle otto.",
+            "phonetic": "ˈjɛːri mi ˈsoːno zweʎˈʎaːto ˈalle ˈɔtto",
+            "translation": "Ontem eu me acordei às oito.",
+            "note": "O auxiliar 'essere' é usado, e o particípio concorda com o sujeito."
+          },
+          {
+            "original": "Marco si è lavato i capelli.",
+            "phonetic": "ˈmarko si ˈɛ llaˈvaːto i kaˈpelli",
+            "translation": "Marco lavou o cabelo.",
+            "note": "Em português dizemos 'lavou o cabelo', mas em italiano o reflexivo 'si' indica ação sobre si mesmo."
+          },
+          {
+            "original": "Noi ci siamo addormentati sul divano.",
+            "phonetic": "ˈnɔi tʃi ˈsjaːmo addormenˈtaːti sul diˈvaːno",
+            "translation": "Nós nos adormecemos no sofá.",
+            "note": "O particípio passado se ajusta em gênero e número: addormentati (masculino plural)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbi riflessivi con verbi modali",
+        "translation": "Verbos reflexivos com verbos modais",
+        "examples": [
+          {
+            "original": "Mi devo alzare presto.",
+            "phonetic": "mi ˈdeːvo alˈʦaːre ˈprɛsto",
+            "translation": "Eu tenho que me levantar cedo.",
+            "note": "O pronome pode vir antes do verbo modal."
+          },
+          {
+            "original": "Devo alzarmi presto.",
+            "phonetic": "ˈdeːvo alˈʦaːrmi ˈprɛsto",
+            "translation": "Eu tenho que me levantar cedo.",
+            "note": "Na forma com infinitivo, o pronome é anexado ao final do infinitivo (com queda do 'e' final)."
+          },
+          {
+            "original": "Loro possono riposarsi dopo il lavoro.",
+            "phonetic": "ˈloːro ˈpɔssono ripoˈzarsi ˈdoːpo il laˈvoːro",
+            "translation": "Eles podem descansar depois do trabalho.",
+            "note": "Quando o verbo modal está no plural, o pronome reflexivo também concorda: 'riposarsi' (si ligado a riposare)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbos reflexivos"
+    }
+  },
+  {
+    "id": "pt_A2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Pronomi oggetto diretto e indiretto / Pronomes de objeto direto e indireto",
+    "bridge": "Em italiano, assim como em português, os pronomes objeto substituem nomes e podem ser diretos ou indiretos. Mas cuidado: a ordem das palavras muda! Em italiano, eles vêm antes do verbo (exceto com infinitivo, imperativo e ecco), enquanto em português muitas vezes vêm depois. Além disso, a forma dos pronomes indiretos (mi, ti, gli, le, ci, vi, gli) é igual à dos diretos para a 1ª e 2ª pessoa, mas na 3ª pessoa há diferenças importantes. Preste atenção às combinações com partículas como 'ne' e 'ci'.",
+    "rule": "**Pronomi diretti** (objeto direto): mi (me), ti (te), lo (o, masculino singular), la (a, feminino singular), ci (nos), vi (vos), li (os, masculino plural), le (as, feminino plural). Eles respondem 'che cosa?' ou 'chi?' e vêm antes do verbo conjugado: 'Ti vedo' (Vejo-te). No passato prossimo com verbo transitivo, o particípio passado concorda com o pronome: 'Li ho visti' (Eu os vi - masculino plural).\n\n**Pronomi indiretti** (objeto indireto): mi (a mim), ti (a ti), gli (a ele), le (a ela), ci (a nós), vi (a vós), gli (a eles/elas, no plural). Respondem 'a chi?' ou 'a che cosa?' e indicam para quem a ação é feita. Exemplo: 'Le parlo' (Eu falo com ela - literalmente 'a ela falo').\n\n**Posição:** Na maioria dos casos, o pronome precede o verbo: 'Maria lo compra' (Maria compra-o). Com verbos modais (potere, dovere, volere) e com a construção 'stare + gerundio', o pronome pode vir antes do verbo conjugado ou depois do infinitivo/gerúndio: 'Lo posso fare' ou 'Posso farlo' (Posso fazê-lo). No imperativo afirmativo, o pronome é posposto e forma uma só palavra: 'Compra lo!' (Compra-o!), mas com 'non' no imperativo, ele vem antes: 'Non lo comprare!' (Não o compres!).\n\n**Uso com 'ci' e 'ne':** 'Ci' pode significar 'nos' ou 'a isso', e 'ne' significa 'disso, daí'. Exemplos: 'Ci vediamo' (Nós vemos-nos), 'Ne parlo' (Falo disso).",
+    "concept_examples": [
+      {
+        "text": "Ti amo.",
+        "translation": "Amo-te.",
+        "phonetic": "/ti ˈaːmo/"
+      },
+      {
+        "text": "La chiamo domani.",
+        "translation": "Chamo-a amanhã.",
+        "phonetic": "/la ˈkjaːmo doˈmaːni/"
+      },
+      {
+        "text": "Gli dico la verità.",
+        "translation": "Digo-lhe a verdade (a ele).",
+        "phonetic": "/ʎi ˈdiːko la veriˈta/"
+      },
+      {
+        "text": "Ci vediamo venerdì.",
+        "translation": "Vemo-nos (encontramo-nos) na sexta-feira.",
+        "phonetic": "/tʃi veˈdjaːmo venerˈdi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Io vedo ti al cinema.",
+      "correct": "Io ti vedo al cinema.",
+      "correct_alt": "Ti vedo al cinema.",
+      "explanation": "Em português, é comum dizer 'vejo-te' (verbo + pronome), mas em italiano o pronome objeto deve vir antes do verbo conjugado. Colocá-lo depois do verbo, como em 'vedo ti', é um erro típico de falantes de português. Lembre-se: quando o verbo está conjugado (não no infinitivo, imperativo ou gerúndio), o pronome precede o verbo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Pronomi diretti",
+        "translation": "Pronomes diretos",
+        "examples": [
+          {
+            "original": "Maria mi ama.",
+            "phonetic": "/maˈriːa mi ˈaːma/",
+            "translation": "A Maria ama-me.",
+            "note": "'Mi' é pronome direto de 1ª pessoa singular, igual ao português, mas vem antes do verbo."
+          },
+          {
+            "original": "Ti vedo stasera.",
+            "phonetic": "/ti ˈveːdo staˈseːra/",
+            "translation": "Vejo-te esta noite.",
+            "note": "'Ti' pode ser direto ou indireto. Aqui, é direto: 'vejo ti'."
+          },
+          {
+            "original": "La compro domani.",
+            "phonetic": "/la ˈkompro doˈmaːni/",
+            "translation": "Compro-a amanhã.",
+            "note": "'La' refere-se a algo feminino singular (ex.: 'la macchina' - o carro)."
+          },
+          {
+            "original": "Li conosco bene.",
+            "phonetic": "/li koˈnosko ˈbɛːne/",
+            "translation": "Conheço-os bem.",
+            "note": "'Li' é o plural masculino. Cuidado com a pronúncia: /li/ e não /ʎi/ (isto é 'gli')."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pronomi indiretti",
+        "translation": "Pronomes indiretos",
+        "examples": [
+          {
+            "original": "Ti do un consiglio.",
+            "phonetic": "/ti do un konˈsiʎʎo/",
+            "translation": "Dou-te um conselho.",
+            "note": "'Ti' aqui é indireto: 'dou a ti'. A forma é a mesma que o direto, mas o contexto indica a função."
+          },
+          {
+            "original": "Le scrivo una lettera.",
+            "phonetic": "/le ˈskriːvo ˈuːna ˈlɛttera/",
+            "translation": "Escrevo-lhe uma carta (a ela).",
+            "note": "'Le' é o pronome indireto feminino singular. Não confundir com 'la' (direto)."
+          },
+          {
+            "original": "Gli ho detto la verità.",
+            "phonetic": "/ʎi o ˈdetto la veriˈta/",
+            "translation": "Disse-lhe a verdade (a ele).",
+            "note": "No passato prossimo, o particípio não concorda com o pronome indireto. Fica invariável: 'detto'."
+          },
+          {
+            "original": "Vi offro un caffè.",
+            "phonetic": "/vi ˈoffro un kafˈfɛ/",
+            "translation": "Ofereço-vos um café.",
+            "note": "'Vi' é a 2ª pessoa do plural: 'a vós'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Posizione con modali, imperativo e 'ne'",
+        "translation": "Posição com modais, imperativo e 'ne'",
+        "examples": [
+          {
+            "original": "Lo posso fare / Posso farlo.",
+            "phonetic": "/lo ˈposso ˈfaːre/ / ˈposso ˈfarlo/",
+            "translation": "Posso fazê-lo.",
+            "note": "Com verbos modais, o pronome pode vir antes do verbo conjugado ou ligado ao infinitivo (sem espaço)."
+          },
+          {
+            "original": "Compralo subito!",
+            "phonetic": "/komˈpraːlo ˈsuːbito/",
+            "translation": "Compra-o já!",
+            "note": "No imperativo afirmativo, o pronome é anexado ao verbo."
+          },
+          {
+            "original": "Non lo comprare!",
+            "phonetic": "/non lo komˈpraːre/",
+            "translation": "Não o compres!",
+            "note": "No imperativo negativo, o pronome vem antes do verbo."
+          },
+          {
+            "original": "Ne voglio due.",
+            "phonetic": "/ne ˈvɔʎʎo ˈduːe/",
+            "translation": "Quero dois disso.",
+            "note": "'Ne' substitui 'di questo' e vem antes do verbo. Em português, usamos 'disso' ou simplesmente omitimos."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔂",
+    "phonetic": "",
+    "translations": {
+      "pt": "Pronomes de objeto direto e indireto"
+    }
+  },
+  {
+    "id": "pt_A2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Avverbi di frequenza / Advérbios de frequência",
+    "bridge": "Em português, os advérbios de frequência (sempre, nunca, às vezes) geralmente vêm antes do verbo principal, mas depois do verbo 'ser'. Em italiano, a regra é semelhante, mas há diferenças importantes: em frases com verbo auxiliar (tempo composto), o advérbio deve ficar entre o auxiliar e o particípio passado, enquanto em português muitas vezes o colocamos antes do auxiliar. Além disso, em italiano, 'mai' (nunca) pode ser usado com 'non' duplo, o que não acontece no português padrão.",
+    "rule": "Os advérbios de frequência mais comuns em italiano são: sempre (sempre), spesso (frequentemente), di solito (geralmente), a volte (às vezes), raramente (raramente), mai (nunca) e non...mai (nunca, com negação redundante). Regras de posição: 1) Com um verbo único, o advérbio vem depois do verbo (ex: Io mangio sempre la pizza). 2) Com o verbo 'essere', o advérbio vem depois dele (ex: Lui è sempre in ritardo). 3) Em tempos compostos (com 'avere' ou 'essere' como auxiliar), o advérbio fica entre o auxiliar e o particípio passado (ex: Ho sempre mangiato qui). Em perguntas, o advérbio pode vir no início ou depois do verbo. Para negar, usa-se 'non' antes do verbo e o advérbio 'mai' depois do particípio (ex: Non ho mai visto questo film). Alguns advérbios, como 'a volte' e 'di solito', podem aparecer no início da frase sem alterar o sentido.",
+    "concept_examples": [
+      {
+        "text": "Io mangio sempre la pizza.",
+        "translation": "Eu sempre como pizza.",
+        "phonetic": "/ˈi.o ˈman.d͡ʒo ˈsem.pre la ˈpit.t͡sa/"
+      },
+      {
+        "text": "Loro sono spesso a casa.",
+        "translation": "Eles estão frequentemente em casa.",
+        "phonetic": "/ˈlo.ro ˈso.no ˈspɛs.so a ˈka.za/"
+      },
+      {
+        "text": "Abbiamo mai visto quel film? (Com 'mai' em pergunta)",
+        "translation": "Alguma vez vimos aquele filme?",
+        "phonetic": "/abˈbja.mo ma.i ˈvi.sto kwel film/"
+      },
+      {
+        "text": "Non ho mai mangiato il pesce.",
+        "translation": "Eu nunca comi peixe.",
+        "phonetic": "/non ɔ ma.i manˈd͡ʒa.to il ˈpeʃ.ʃe/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Io sempre mangio la pizza.",
+      "correct": "Io mangio sempre la pizza.",
+      "correct_alt": "Sempre mangio la pizza.",
+      "explanation": "Em português, o advérbio 'sempre' normalmente vem antes do verbo ('eu sempre como pizza'). Em italiano, a regra é diferente: com um verbo principal, o advérbio vem geralmente depois do verbo. Colocá-lo antes como em português é um erro comum. A posição pode ser antes do verbo apenas para ênfase, mas é mais natural depois. Lembre-se: em italiano, o advérbio tende a ficar mais perto do verbo que modifica, mas após o verbo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Avverbi comuni",
+        "translation": "Advérbios comuns",
+        "examples": [
+          {
+            "original": "Sono sempre contento.",
+            "phonetic": "/ˈso.no ˈsem.pre konˈten.to/",
+            "translation": "Estou sempre contente.",
+            "note": "Com o verbo 'essere', o advérbio vem depois do verbo, como no português."
+          },
+          {
+            "original": "Maria viene spesso qui.",
+            "phonetic": "/maˈri.a ˈvje.ne ˈspɛs.sɔ kwi/",
+            "translation": "Maria vem frequentemente aqui.",
+            "note": "Note que 'spesso' vem depois do verbo de movimento."
+          },
+          {
+            "original": "Noi andiamo di solito al cinema.",
+            "phonetic": "/ˈnɔ.i anˈdja.mo di ˈsɔ.li.to al ˈt͡ʃi.ne.ma/",
+            "translation": "Nós geralmente vamos ao cinema.",
+            "note": "'Di solito' pode ser colocado no início da frase: 'Di solito andiamo al cinema'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Avverbi in frasi negative",
+        "translation": "Advérbios em frases negativas",
+        "examples": [
+          {
+            "original": "Non bevo mai alcol.",
+            "phonetic": "/non ˈbe.vo ma.i ˈal.kol/",
+            "translation": "Nunca bebo álcool.",
+            "note": "Em italiano, usa-se 'non...mai' (dupla negativa) para expressar 'nunca'. Diferente do português, que só usa 'nunca'."
+          },
+          {
+            "original": "Lei non mangia spesso la carne.",
+            "phonetic": "/lɛi non ˈman.d͡ʒa ˈspɛs.so la ˈkar.ne/",
+            "translation": "Ela não come carne com frequência.",
+            "note": "'Non' + 'spesso' significa 'não frequentemente'. Cuidado para não usar 'ne...spesso' como em português."
+          },
+          {
+            "original": "Non guardo mai la televisione la mattina.",
+            "phonetic": "/non ˈɡwar.do ma.i la te.le.viˈzjo.ne la matˈti.na/",
+            "translation": "Nunca assisto televisão de manhã.",
+            "note": "Em frases negativas com 'mai', o particípio passado fica depois: 'Non ho mai visto...'"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Avverbi con tempi composti",
+        "translation": "Advérbios em tempos compostos",
+        "examples": [
+          {
+            "original": "Ho sempre voluto andare in Italia.",
+            "phonetic": "/ɔ ˈsem.pre voˈlu.to anˈda.re in iˈta.lja/",
+            "translation": "Sempre quis ir para a Itália.",
+            "note": "No presente perfeito (passato prossimo), o advérbio fica entre o auxiliar 'ho' e o particípio 'voluto'."
+          },
+          {
+            "original": "Non ho mai capito questa lezione.",
+            "phonetic": "/non ɔ ma.i kaˈpi.to ˈkwe.sta leˈt͡sjo.ne/",
+            "translation": "Nunca entendi esta lição.",
+            "note": "Com negativa, 'mai' vem entre o auxiliar e o particípio, seguindo a mesma posição do advérbio."
+          },
+          {
+            "original": "Gli amici sono spesso rimasti a cena.",
+            "phonetic": "/ʎi aˈmi.t͡ʃi ˈso.no ˈspɛs.so riˈma.sti a ˈt͡ʃe.na/",
+            "translation": "Os amigos frequentemente ficaram para o jantar.",
+            "note": "Mesmo com o auxiliar 'essere', o advérbio vem entre o auxiliar e o particípio."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Advérbios de frequência"
+    }
+  },
+  {
+    "id": "pt_A2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Preposizioni di tempo (in, a, da, per)",
+    "bridge": "Em italiano, as preposições de tempo funcionam de maneira parecida com o português, mas com diferenças importantes: usamos 'in' para meses, estações e anos (em italiano: 'in estate' = no verão), 'a' para horas e momentos específicos (a mezzogiorno = ao meio-dia), 'da' para indicar duração com início no passado (vivo qui da due anni = moro aqui há dois anos), e 'per' para duração futura ou planejada (vado in Italia per due settimane = vou à Itália por duas semanas). Cuidado com a tradução literal: em português dizemos 'à noite', mas em italiano é 'di notte' (e não 'a notte').",
+    "rule": "Em italiano, as preposições de tempo mais comuns são: 'in' (meses, estações, anos, partes do dia com artigo: nel pomeriggio), 'a' (horas, dias da semana com artigo: al lunedì, refeições: a pranzo), 'da' (duração com início no passado, seguido de um período de tempo + verbo no presente), 'per' (duração futura ou intenção), 'di' (partes do dia: di mattina, di sera, di notte), 'tra/fra' (tempo futuro: tra due giorni = daqui a dois dias). Exceções: 'in primavera', 'in estate', 'in autunno', 'in inverno' (mas 'nell'anno'), 'a Natale' (mas 'in occasione di'), 'di' é usado com dias da semana para ação habitual: 'la domenica' vs. 'di domenica' (formas intercambiáveis). Para horas: 'alle tre' (às três), 'all'una' (à uma). Para datas: 'il 5 maggio' (no dia 5 de maio).",
+    "concept_examples": [
+      {
+        "text": "In estate vado al mare.",
+        "translation": "No verão vou à praia.",
+        "phonetic": "/in esˈtate ˈvado al ˈmaːre/"
+      },
+      {
+        "text": "Il treno parte alle sette.",
+        "translation": "O trem parte às sete.",
+        "phonetic": "/il ˈtrɛːno ˈparte ˈalle ˈsɛtte/"
+      },
+      {
+        "text": "Abito qui da cinque anni.",
+        "translation": "Moro aqui há cinco anos.",
+        "phonetic": "/ˈaːbito kwi da ˈtʃiŋkwe ˈanni/"
+      },
+      {
+        "text": "Parto per due settimane.",
+        "translation": "Parto por duas semanas.",
+        "phonetic": "/ˈparto per ˈduːe settiˈmaːne/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Sono in Italia da due anni. (correto) / *Sono in Italia per due anni. (para indicar duração que continua)",
+      "correct": "Sono in Italia da due anni.",
+      "correct_alt": "Vivo in Italia da due anni.",
+      "explanation": "Erro comum: usar 'per' em vez de 'da' para expressar duração que começou no passado e continua no presente. Em português, usamos 'há' (moro aqui há dois anos), e o estudante pode traduzir literalmente com 'per' (por). No italiano, 'da' é obrigatório nesse contexto, enquanto 'per' é usado para duração futura ou limitada (es. 'Vado in Italia per due mesi')."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Preposizioni con mesi e stagioni",
+        "translation": "Preposições com meses e estações",
+        "examples": [
+          {
+            "original": "In gennaio fa freddo.",
+            "phonetic": "/in dʒenˈnaːjo fa ˈfreddo/",
+            "translation": "Em janeiro faz frio.",
+            "note": "Use 'in' para meses (same as Portuguese 'em')."
+          },
+          {
+            "original": "In primavera ci sono i fiori.",
+            "phonetic": "/in primaˈvɛːra tʃi ˈsoːno i ˈfjoːri/",
+            "translation": "Na primavera há flores.",
+            "note": "Estações do ano usam 'in', mas em português dizemos 'na primavera' (com artigo)."
+          },
+          {
+            "original": "Nel 2024 andrò in Giappone.",
+            "phonetic": "/nel duemiˈlaˈventikwatˈtrɔ anˈdrɔ in dʒapˈpoːne/",
+            "translation": "Em 2024 irei ao Japão.",
+            "note": "Com anos, usa-se 'in' mas com artigo definido: 'nel 2024' (contração de 'in + il')."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Preposizioni con orari e momenti del giorno",
+        "translation": "Preposições com horários e momentos do dia",
+        "examples": [
+          {
+            "original": "A mezzogiorno mangio sempre.",
+            "phonetic": "/a ˌmɛddzoˈdʒɔrno ˈmandʒo ˈsɛmpre/",
+            "translation": "Ao meio-dia como sempre.",
+            "note": "Use 'a' (ou 'a + artigo') para horas exatas e momentos como meio-dia."
+          },
+          {
+            "original": "Alle otto di sera guardo la TV.",
+            "phonetic": "/ˈalle ˈɔtto di ˈseːra ˈɡwardo la ˈtiːˈvu/",
+            "translation": "Às oito da noite assisto TV.",
+            "note": "Para horas, use 'alle' (a + le). 'di sera' = da noite (parte do dia)."
+          },
+          {
+            "original": "Di notte dormo.",
+            "phonetic": "/di ˈnɔtte ˈdormo/",
+            "translation": "À noite durmo.",
+            "note": "Diferente do português, 'di notte' é usado sem artigo. Não diga 'a notte'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Preposizioni con durata (da, per, tra)",
+        "translation": "Preposições com duração (da, per, tra)",
+        "examples": [
+          {
+            "original": "Studio italiano da tre anni.",
+            "phonetic": "/ˈstuːdjo itaˈljaːno da tre ˈanni/",
+            "translation": "Estudo italiano há três anos.",
+            "note": "'da' + período = desde há (ação que continua)."
+          },
+          {
+            "original": "Vado al mare per due settimane.",
+            "phonetic": "/ˈvaːdo al ˈmaːre per ˈduːe settiˈmaːne/",
+            "translation": "Vou à praia por duas semanas.",
+            "note": "'per' = por (duração limitada ou planejada)."
+          },
+          {
+            "original": "Abito qui da gennaio.",
+            "phonetic": "/ˈaːbito kwi da dʒenˈnaːjo/",
+            "translation": "Moro aqui desde janeiro.",
+            "note": "Use 'da' com pontos de partida específicos no passado."
+          },
+          {
+            "original": "Arrivo tra venti minuti.",
+            "phonetic": "/arˈriːvo tra ˈvɛnti miˈnuːti/",
+            "translation": "Chego em vinte minutos.",
+            "note": "'tra/fra' indica tempo futuro (daqui a)."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏰",
+    "phonetic": "",
+    "translations": {
+      "pt": "Preposições de tempo"
+    }
+  },
+  {
+    "id": "pt_A2_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Congiunzioni (e, ma, o, perché, quando, se) / Conjunções (e, mas, ou, porque, quando, se)",
+    "bridge": "Em italiano, as conjunções básicas funcionam de forma semelhante ao português, mas com diferenças importantes. Por exemplo, 'e' vira 'ed' antes de vogal, e 'o' vira 'od' antes de vogal, algo que não acontece em português. Além disso, 'perché' significa tanto 'porque' quanto 'para que', dependendo do contexto. Cuidado com 'quando' que não leva futuro do subjuntivo como em português, e com 'se' que não usa o futuro do subjuntivo.",
+    "rule": "As conjunções coordenativas e subordinativas em italiano A2 incluem: 'e' (e), 'ma' (mas), 'o' (ou), 'perché' (porque, pois), 'quando' (quando), 'se' (se). 'E' e 'o' podem assumir formas eufônicas 'ed' e 'od' antes de palavras iniciadas por vogal, especialmente em registos mais formais. 'Perché' é usado para explicar causa e também para introduzir finalidade (neste caso, seguido de subjuntivo, mas em A2 focamos na causa). 'Quando' é usado para tempo e, diferente do português, não é seguido de futuro do subjuntivo; usa-se o presente do indicativo para ações futuras. 'Se' introduz condições; em A2, usa-se o presente do indicativo + futuro simples ou presente, evitando o futuro do subjuntivo. Em italiano, as conjunções não são precedidas de vírgula obrigatoriamente, exceto em alguns casos de 'ma' e 'perché'.",
+    "concept_examples": [
+      {
+        "text": "Io mangio pasta e pizza.",
+        "translation": "Eu como massa e pizza.",
+        "phonetic": "ˈi.o ˈman.dʒo ˈpa.sta e ˈpit.tsa"
+      },
+      {
+        "text": "Voglio uscire, ma piove.",
+        "translation": "Quero sair, mas chove.",
+        "phonetic": "ˈvɔʎ.ʎo uʃˈʃi.re ma ˈpjɔ.ve"
+      },
+      {
+        "text": "Preferisci il caffè o il tè?",
+        "translation": "Preferes o café ou o chá?",
+        "phonetic": "pre.feˈriʃ.ʃi il kafˈfɛ o il ˈtɛ"
+      },
+      {
+        "text": "Studio l'italiano perché mi piace.",
+        "translation": "Estudo italiano porque gosto.",
+        "phonetic": "ˈstu.djo li.taˈlja.no perˈke mi ˈpja.tʃe"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quando io andrò in Italia, visiterò Roma. (usando futuro depois de 'quando', como em português)",
+      "correct": "Quando vado in Italia, visiterò Roma.",
+      "correct_alt": "Quando io vado in Italia, visiterò Roma.",
+      "explanation": "Em português, é comum usar o futuro do subjuntivo depois de 'quando' (ex.: 'Quando eu for'). Em italiano, esse uso não existe; em vez disso, usa-se o presente do indicativo para expressar uma ação futura depois de 'quando'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Congiunzioni coordinative",
+        "translation": "Conjunções coordenativas",
+        "examples": [
+          {
+            "original": "Ho comprato pane e formaggio.",
+            "phonetic": "ɔ komˈpra.to ˈpa.ne e forˈmad.dʒo",
+            "translation": "Comprei pão e queijo.",
+            "note": "'e' é usado para adição. Antes de palavra que começa com vogal, pode-se usar 'ed', mas em A2 o uso é opcional."
+          },
+          {
+            "original": "Non ho tempo, ma lo farò domani.",
+            "phonetic": "non ɔ ˈtɛm.po ma lo faˈrɔ doˈma.ni",
+            "translation": "Não tenho tempo, mas farei amanhã.",
+            "note": "'ma' indica contraste. Diferente do português, não se usa vírgula obrigatória antes de 'ma' em frases curtas."
+          },
+          {
+            "original": "Vuoi tè o caffè?",
+            "phonetic": "vwɔi ˈtɛ o kafˈfɛ",
+            "translation": "Queres chá ou café?",
+            "note": "'o' oferece alternativas. Pode virar 'od' antes de vogal, mas é raro e formal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Congiunzioni subordinative (perché, quando)",
+        "translation": "Conjunções subordinativas (porque, quando)",
+        "examples": [
+          {
+            "original": "Non esco perché sono stanco.",
+            "phonetic": "non ˈɛs.ko perˈke ˈsɔ.no ˈstaŋ.ko",
+            "translation": "Não saio porque estou cansado.",
+            "note": "'perché' para causa. Em português também se usa 'porque', mas cuidado: 'perché' nunca leva acento e também pode significar 'para que'."
+          },
+          {
+            "original": "Quando arrivo a casa, mangio.",
+            "phonetic": "ˈkwan.do arˈri.vo a ˈka.za ˈman.dʒo",
+            "translation": "Quando chego em casa, eu como.",
+            "note": "Ação habitual com 'quando' + presente. Não use futuro do subjuntivo."
+          },
+          {
+            "original": "Quando sarò grande, farò il medico.",
+            "phonetic": "ˈkwan.do saˈrɔ ˈɡran.de faˈrɔ il ˈmɛ.di.ko",
+            "translation": "Quando eu for grande, serei médico.",
+            "note": "Aqui 'quando' + futuro simples é aceitável quando a ação é futura, mas o presente também é comum: 'quando sono grande'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Congiunzione condizionale (se)",
+        "translation": "Conjunção condicional (se)",
+        "examples": [
+          {
+            "original": "Se piove, non esco.",
+            "phonetic": "se ˈpjɔ.ve non ˈɛs.ko",
+            "translation": "Se chover, não saio.",
+            "note": "Em italiano, usa-se presente + presente para condições reais. Em português, diríamos 'se chover' (futuro do subjuntivo), mas em italiano é 'se piove'."
+          },
+          {
+            "original": "Se hai tempo, chiamami.",
+            "phonetic": "se ˈai ˈtɛm.po ˈkja.ma.mi",
+            "translation": "Se tiveres tempo, liga-me.",
+            "note": "Imperativo + se + presente. Muito comum em A2."
+          },
+          {
+            "original": "Se studio, imparo.",
+            "phonetic": "se ˈstu.djo imˈpa.ro",
+            "translation": "Se eu estudo, aprendo.",
+            "note": "Estrutura típica de condição. Em português, 'se eu estudar, aprendo', mas em italiano usa-se presente."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Conjunções"
+    }
+  },
+  {
+    "id": "pt_A2_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Passato Prossimo (básico) / Pretérito Perfeito Composto (básico)",
+    "bridge": "Em italiano, o passato prossimo é o tempo verbal mais usado para falar de ações concluídas no passado, enquanto no português você costuma usar o pretérito perfeito simples (ex.: 'comi', 'fui'). Na Itália, você dirá 'ho mangiato' e 'sono andato'. A grande diferença é que em italiano se monta com o presente de 'avere' ou 'essere' + particípio passado, e a escolha do auxiliar depende do verbo. Atenção: com 'essere', o particípio concorda com o sujeito (como um adjetivo), algo que não existe no português.",
+    "rule": "O passato prossimo é formado com o presente do indicativo de 'avere' (ho, hai, ha, abbiamo, avete, hanno) ou 'essere' (sono, sei, è, siamo, siete, sono) + o particípio passado do verbo principal. Verbos transitivos (que têm objeto direto) e muitos verbos intransitivos usam 'avere' (ex.: mangiare → ho mangiato; parlare → ho parlato). Verbos de movimento, mudança de estado, e verbos reflexivos usam 'essere' (ex.: andare → sono andato; nascere → sono nato; alzarsi → mi sono alzato). Com 'essere', o particípio passado concorda em gênero e número com o sujeito: 'sono andato' (masc. sing.), 'sono andata' (fem. sing.), 'sono andati' (masc. pl.), 'sono andate' (fem. pl.). Com 'avere', o particípio é invariável (exceto com pronomes de objeto direto, mas isso é nível mais avançado). Particípios passados regulares: -are → -ato (mangiare → mangiato); -ere → -uto (vendere → venduto); -ire → -ito (dormire → dormito). Alguns verbos irregulares comuns: fare → fatto, dire → detto, bere → bevuto, scrivere → scritto, aprire → aperto, prendere → preso, vedere → visto, venire → venuto, essere → stato, avere → avuto.",
+    "concept_examples": [
+      {
+        "text": "Ho mangiato una pizza ieri.",
+        "translation": "Eu comi uma pizza ontem.",
+        "phonetic": "/ɔ manˈdʒaːto ˈuːna ˈpittsa ˈjɛːri/"
+      },
+      {
+        "text": "Sono andata al mercato.",
+        "translation": "Eu fui ao mercado. (falado por uma mulher)",
+        "phonetic": "/ˈsoːno anˈdaːta al merˈkaːto/"
+      },
+      {
+        "text": "Abbiamo visto un film italiano.",
+        "translation": "Nós vimos um filme italiano.",
+        "phonetic": "/abˈbjaːmo ˈvisto un film itaˈljaːno/"
+      },
+      {
+        "text": "Maria è partita per Roma.",
+        "translation": "Maria partiu para Roma.",
+        "phonetic": "/maˈriːa ɛ parˈtiːta per ˈrɔːma/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Sono mangiato una pizza.",
+      "correct": "Ho mangiato una pizza.",
+      "correct_alt": "",
+      "explanation": "Em português, o auxiliar 'ter' e 'ser' não mudam o significado de forma sistemática, mas em italiano a escolha entre 'avere' e 'essere' é essencial. O verbo 'mangiare' é transitivo e exige 'avere'. Usar 'essere' com verbos transitivos é um erro comum de falantes de português, porque em português às vezes se diz 'eu sou chegado' (com sentido de 'eu cheguei'), mas em italiano 'sono mangiato' soa como 'sou comido' (voz passiva). Sempre verifique: se o verbo tem objeto direto, use 'avere'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Avere + Participio Passato",
+        "translation": "Avere + Particípio Passado",
+        "examples": [
+          {
+            "original": "Ho comprato un libro.",
+            "phonetic": "/ɔ komˈpraːto un ˈliːbro/",
+            "translation": "Eu comprei um livro.",
+            "note": "Use 'avere' com verbos transitivos como 'comprare'."
+          },
+          {
+            "original": "Hai parlato con Marco?",
+            "phonetic": "/ˈai parˈlaːto kon ˈmarko/",
+            "translation": "Você falou com o Marco?",
+            "note": "O particípio '-ato' é invariável com 'avere'."
+          },
+          {
+            "original": "Abbiamo dormito bene.",
+            "phonetic": "/abˈbjaːmo dorˈmiːto ˈbɛːne/",
+            "translation": "Nós dormimos bem.",
+            "note": "Verbos intransitivos como 'dormire' também usam 'avere'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Essere + Participio Passato",
+        "translation": "Essere + Particípio Passado",
+        "examples": [
+          {
+            "original": "Sono andato a casa.",
+            "phonetic": "/ˈsoːno anˈdaːto a ˈkaːza/",
+            "translation": "Eu fui para casa.",
+            "note": "Verbos de movimento usam 'essere'. Particípio concorda: 'andato' (masc.)"
+          },
+          {
+            "original": "Maria è uscita presto.",
+            "phonetic": "/maˈriːa ɛ uʃˈʃiːta ˈprɛsto/",
+            "translation": "A Maria saiu cedo.",
+            "note": "O particípio concorda com o sujeito feminino: 'uscita'"
+          },
+          {
+            "original": "Siamo arrivati in ritardo.",
+            "phonetic": "/ˈsjaːmo arriˈvaːti in riˈtardo/",
+            "translation": "Chegamos atrasados.",
+            "note": "Com sujeito masculino plural, o particípio termina em '-ati'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Particìpi Irregolari",
+        "translation": "Particípios Irregulares",
+        "examples": [
+          {
+            "original": "Ho fatto i compiti.",
+            "phonetic": "/ɔ ˈfatto i ˈkompiti/",
+            "translation": "Eu fiz a lição de casa.",
+            "note": "Particípio irregular de 'fare' → 'fatto'."
+          },
+          {
+            "original": "Hanno scritto una lettera.",
+            "phonetic": "/ˈanno ˈskritto ˈuːna ˈlettera/",
+            "translation": "Eles escreveram uma carta.",
+            "note": "De 'scrivere' → 'scritto'."
+          },
+          {
+            "original": "Sono venuti alle otto.",
+            "phonetic": "/ˈsoːno veˈnuːti ˈalle ˈɔtto/",
+            "translation": "Eles vieram às oito.",
+            "note": "De 'venire' → 'venuto', com 'essere' e concordância."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Pretérito Perfeito Composto (básico)"
+    }
+  },
+  {
+    "id": "pt_A2_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Imperativo (affermativo e negativo) / Imperativo (afirmativo e negativo)",
+    "bridge": "Em italiano, o imperativo é usado para dar ordens, conselhos ou convites, assim como em português. A grande diferença é que, no italiano, as formas do imperativo variam mais: para 'tu' e 'voi' são parecidas com o presente, mas para 'Lei' (forma de cortesia) usamos o subjuntivo. Outro ponto de atenção: no imperativo negativo informal, usamos 'non' + infinitivo para 'tu', enquanto em português usamos 'não' + imperativo. Cuidado com as formas irregulares, como 'andare' → 'vai' e 'avere' → 'abbi'.",
+    "rule": "O imperativo em italiano tem formas específicas para todas as pessoas, mas no nível A2 focamos em 'tu', 'noi', 'voi' e 'Lei'. Para verbos regulares: -ARE: tu parla, noi parliamo, voi parlate, Lei parli; -ERE: tu prendi (irregular: tu abbi), noi prendiamo, voi prendete, Lei prenda; -IRE: tu dormi, noi dormiamo, voi dormite, Lei dorma. O imperativo negativo: para 'tu' usa-se 'non' + infinitivo (ex.: 'non parlare'), para 'noi' e 'voi' usa-se 'non' + imperativo (ex.: 'non parliamo', 'non parlate'), e para 'Lei' usa-se 'non' + subjuntivo (ex.: 'non parli'). Verbos irregulares comuns: essere → sii (tu), sia (Lei); avere → abbi (tu), abbia (Lei); fare → fa'/fai (tu), faccia (Lei); andare → va'/vai (tu), vada (Lei); dare → da'/dai (tu), dia (Lei); stare → sta'/stai (tu), stia (Lei). O imperativo é usado para ordens, convites, instruções, recomendações e conselhos. No italiano informal, é comum omitir o pronome sujeito.",
+    "concept_examples": [
+      {
+        "text": "Parla più lentamente!",
+        "translation": "Fale mais devagar!",
+        "phonetic": "/ˈparla ˈpju lentaˈmente/"
+      },
+      {
+        "text": "Non fumare qui!",
+        "translation": "Não fume aqui!",
+        "phonetic": "/non fuˈmare kwi/"
+      },
+      {
+        "text": "Scusi, può dirmi dov'è la stazione?",
+        "translation": "Com licença, pode me dizer onde fica a estação?",
+        "phonetic": "/ˈskuːzi ˈpwɔ ˈdirmi doˈvɛ la staˈtsjone/"
+      },
+      {
+        "text": "Andiamo a casa!",
+        "translation": "Vamos para casa!",
+        "phonetic": "/anˈdjaːmo a ˈkaːza/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Non parla! (em vez de 'Non parlare!')",
+      "correct": "Non parlare!",
+      "correct_alt": "Non parli! (formalmente, usando 'Lei')",
+      "explanation": "Falantes de português muitas vezes usam a forma do presente ou a forma de cortesia para o imperativo negativo informal. Em italiano, para 'tu', o imperativo negativo é sempre 'non' + infinitivo. Lembre-se: para 'tu' é 'non parlare', não 'non parla'. Use 'non parli' apenas quando se dirigir formalmente a alguém com 'Lei'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Imperativo informale (tu e voi)",
+        "translation": "Imperativo informal (tu e você/vocês)",
+        "examples": [
+          {
+            "original": "Mangia la frutta!",
+            "phonetic": "/ˈmandʒa la ˈfrutta/",
+            "translation": "Come a fruta!",
+            "note": "Verbo regular 'mangiare' (are) → tu mangia."
+          },
+          {
+            "original": "Parlate italiano con me!",
+            "phonetic": "/parˈlaːte itaˈljaːno kon me/",
+            "translation": "Falem italiano comigo!",
+            "note": "Para 'voi', a forma é igual ao presente do indicativo."
+          },
+          {
+            "original": "Non aprite la finestra!",
+            "phonetic": "/non aˈpriːte la fiˈnestra/",
+            "translation": "Não abram a janela!",
+            "note": "No imperativo negativo para 'voi', usa-se 'non' + verbo no imperativo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Imperativo formale (Lei)",
+        "translation": "Imperativo formal (o senhor/a senhora)",
+        "examples": [
+          {
+            "original": "Mi scusi!",
+            "phonetic": "/mi ˈskuːzi/",
+            "translation": "Com licença! / Desculpe-me!",
+            "note": "Usa-se a forma do subjuntivo para 'Lei': scusi (de scusare)."
+          },
+          {
+            "original": "Parli lentamente, per favore.",
+            "phonetic": "/ˈparli lentaˈmente per faˈvoːre/",
+            "translation": "Fale devagar, por favor.",
+            "note": "Para 'Lei', usa-se a 3ª pessoa do subjuntivo presente: parli."
+          },
+          {
+            "original": "Non fumi qui!",
+            "phonetic": "/non ˈfuːmi kwi/",
+            "translation": "Não fume aqui!",
+            "note": "No imperativo negativo formal, 'non' + subjuntivo: fumi."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Irregolari comuni e consigli",
+        "translation": "Irregulares comuns e conselhos",
+        "examples": [
+          {
+            "original": "Abbi pazienza!",
+            "phonetic": "/ˈabbi paˈtsjɛntsa/",
+            "translation": "Tenha paciência!",
+            "note": "Avere no imperativo: tu abbi (irregular)."
+          },
+          {
+            "original": "Stai attento!",
+            "phonetic": "/ˈstaj atˈtɛnto/",
+            "translation": "Fique atento!",
+            "note": "Stare no imperativo: tu sta'/stai (informal)."
+          },
+          {
+            "original": "Dammi una mano!",
+            "phonetic": "/ˈdammi ˈuːna ˈmaːno/",
+            "translation": "Dá-me uma ajuda!",
+            "note": "Combinado com pronome: da' + mi = dammi (imperativo de dare)."
+          },
+          {
+            "original": "Fa' quello che vuoi.",
+            "phonetic": "/ˈfa ˈkwɛllo ke ˈvwɔi/",
+            "translation": "Faça o que quiser.",
+            "note": "Fare no imperativo informal: fa' (apócope) ou fai."
+          }
+        ]
+      }
+    ],
+    "emoji": "📣",
+    "phonetic": "",
+    "translations": {
+      "pt": "Imperativo (afirmativo e negativo)"
+    }
+  },
+  {
+    "id": "pt_A2_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Sostantivi contabili e non contabili / Substantivos contáveis e incontáveis",
+    "bridge": "Em italiano, assim como em português, alguns substantivos podem ser contados (como 'libro') e outros não (como 'acqua'). No entanto, há diferenças importantes: em italiano, os substantivos incontáveis frequentemente não têm plural (ex.: 'informazione' vs. 'informazioni' – aqui o plural é usado de forma diferente do português). Além disso, para expressar 'um pouco de' ou 'um copo de', o italiano usa expressões partitivas como 'un po' di' e 'un bicchiere di', semelhantes ao português 'um pouco de' e 'um copo de', mas com construções sintáticas específicas. Cuidado com falsos cognatos: 'informazione' (singular) é usado onde o português prefere 'informações' no plural, e 'consiglio' (singular) traduz 'conselho', mas no plural 'consigli' é comum, enquanto 'conselhos' no português pode ser plural. Preste atenção também ao uso de 'molto' vs. 'molti': concorda com o substantivo, então 'molto pane' (muito pão) mas 'molti libri' (muitos livros).",
+    "rule": "Em italiano, os substantivos contáveis (nomi numerabili) têm formas singular e plural e podem ser usados com artigos indefinidos (un, una) e numerais (due, tre). Exemplos: 'libro' → 'libri', 'casa' → 'case'. Os substantivos incontáveis (nomi non numerabili) referem-se a substâncias, líquidos, conceitos abstratos ou coleções que não podem ser contados diretamente; eles geralmente são usados no singular, mas podem aparecer no plural quando se referem a tipos ou quantidades indefinidas (ex.: 'acque' para águas minerais, 'informazioni' para informações). Não usam artigos indefinidos no singular; em vez disso, usam partitivos: 'del', 'dello', 'della', 'dei', 'degli', 'delle' (que podem significar 'algum' ou 'alguns'). Por exemplo: 'Vorrei del pane' (Quero pão). Para indicar uma quantidade específica, use expressões como 'un po' di' (um pouco de), 'un litro di' (um litro de), 'un chilo di' (um quilo de). Exceções: alguns substantivos que são contáveis em português são incontáveis em italiano (ex.: 'informazione' – plural 'informazioni' é usado para informações específicas, mas o singular é comum como 'un'informazione' = uma informação). A concordância com 'molto/tanto' depende da contabilidade: 'molto' (singular incontável) e 'molti' (plural contável), mas também 'molta' e 'molte'. A2: use as formas comuns do partitivo e as expressões de quantidade com 'di'.",
+    "concept_examples": [
+      {
+        "text": "Vorrei dell'acqua, per favore.",
+        "translation": "Eu gostaria de um pouco de água, por favor.",
+        "phonetic": "/ˈvor.rei delˈlak.kwa per faˈvo.re/"
+      },
+      {
+        "text": "Ho comprato dei libri.",
+        "translation": "Comprei alguns livros.",
+        "phonetic": "/ɔ komˈpra.to dei ˈli.bri/"
+      },
+      {
+        "text": "Non ho molto tempo.",
+        "translation": "Não tenho muito tempo.",
+        "phonetic": "/non ɔ ˈmol.to ˈtɛm.po/"
+      },
+      {
+        "text": "Quante informazioni hai?",
+        "translation": "Quantas informações você tem?",
+        "phonetic": "/ˈkwan.te in.for.matˈtsjo.ni ai/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ho comprato un pane.",
+      "correct": "Ho comprato del pane.",
+      "correct_alt": "Ho comprato una pagnotta.",
+      "explanation": "Em português, 'um pão' é comum, mas em italiano 'pane' é um substantivo incontável quando se refere ao alimento em geral. Usar 'un pane' sugere que você comprou um pão inteiro, mas é mais natural usar 'del pane' (um pouco de pão) ou, se for um pão específico, use 'una pagnotta' (um pão). O erro ocorre porque o português trata 'pão' como contável, enquanto o italiano trata 'pane' como incontável no sentido geral."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Sostantivi numerabili",
+        "translation": "Substantivos contáveis",
+        "examples": [
+          {
+            "original": "Ho due libri.",
+            "phonetic": "/ɔ ˈdu.e ˈli.bri/",
+            "translation": "Tenho dois livros.",
+            "note": "Use numerais e artigos indefinidos com contáveis: 'un libro', 'due libri'."
+          },
+          {
+            "original": "Una mela al giorno è sana.",
+            "phonetic": "/ˈu.na ˈme.la al ˈdʒor.no ɛ ˈsa.na/",
+            "translation": "Uma maçã por dia é saudável.",
+            "note": "O plural de 'mela' é 'mele', regular."
+          },
+          {
+            "original": "Ci sono molte amiche a scuola.",
+            "phonetic": "/tʃi ˈso.no ˈmol.te aˈmi.ke a ˈskwo.la/",
+            "translation": "Há muitas amigas na escola.",
+            "note": "'Molte' concorda com 'amiche' (feminino plural)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Sostantivi non numerabili",
+        "translation": "Substantivos incontáveis",
+        "examples": [
+          {
+            "original": "Bevo sempre latte a colazione.",
+            "phonetic": "/ˈbe.vo ˈsem.pre ˈlat.te a ko.latˈtsjo.ne/",
+            "translation": "Bebo sempre leite no café da manhã.",
+            "note": "Sem artigo definido ou indefinido: use 'latte' sem artigo."
+          },
+          {
+            "original": "Vorrei un po' di zucchero nel caffè.",
+            "phonetic": "/ˈvor.rei um po di ˈtsuk.ke.ro nel kafˈfɛ/",
+            "translation": "Queria um pouco de açúcar no café.",
+            "note": "Use 'un po' di' para quantidades indefinidas."
+          },
+          {
+            "original": "Mi dai del pane, per piacere?",
+            "phonetic": "/mi dai del ˈpa.ne per pjaˈtʃe.re/",
+            "translation": "Você me dá um pouco de pão, por favor?",
+            "note": "'Del pane' = um pouco de pão; use partitivo 'del'."
+          },
+          {
+            "original": "Il tempo è prezioso.",
+            "phonetic": "/il ˈtɛm.po ɛ preˈtsjɔ.zo/",
+            "translation": "O tempo é precioso.",
+            "note": "'Tempo' é incontável; use artigo definido quando for específico."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Quantità e partitivi",
+        "translation": "Quantidade e partitivos",
+        "examples": [
+          {
+            "original": "Quanta pazienza hai?",
+            "phonetic": "/ˈkwan.ta paˈtsjɛn.tsa ai/",
+            "translation": "Quanta paciência você tem?",
+            "note": "'Quanta' concorda com 'pazienza' (incontável)."
+          },
+          {
+            "original": "Bisogna comprare del vino per la cena.",
+            "phonetic": "/biˈsoɲ.ɲa komˈpra.re del ˈvi.no per la ˈtʃe.na/",
+            "translation": "Precisamos comprar vinho para o jantar.",
+            "note": "'Del vino' = um pouco de vinho; use partitivo."
+          },
+          {
+            "original": "Aggio visto molti studenti alla festa.",
+            "phonetic": "/ˈad.dʒo ˈvi.sto ˈmol.ti stuˈdɛn.ti ˈal.la ˈfɛ.sta/",
+            "translation": "Eu vi muitos estudantes na festa.",
+            "note": "'Molti' para contáveis no plural; atenção à pronúncia."
+          }
+        ]
+      }
+    ],
+    "emoji": "📦",
+    "phonetic": "",
+    "translations": {
+      "pt": "Substantivos contáveis e incontáveis"
+    }
+  },
+  {
+    "id": "pt_A2_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Qualche, alcuni/e / Algum, alguns/algumas",
+    "bridge": "Em italiano, para expressar 'algum/alguns', existem duas palavras principais: 'qualche' (sempre singular) e 'alcuni/alcune' (plural). Diferente do português, onde 'algum' concorda em gênero e número, em italiano 'qualche' é invariável e usado apenas com substantivos no singular, enquanto 'alcuni/alcune' é usado no plural. Cuidado para não usar 'qualche' com plural, pois isso é um erro comum para falantes de português.",
+    "rule": "Use 'qualche' + substantivo singular para expressar 'algum/alguma' ou 'alguns/algumas' em sentido indefinido. Ex.: 'qualche amico' (algum amigo). Use 'alcuni' (masculino plural) e 'alcune' (feminino plural) para 'alguns/algumas'. Ex.: 'alcuni amici' (alguns amigos). 'Qualche' não muda com o gênero. Não use 'qualche' com plural. Em frases negativas, use 'nessuno/nessuna' ou 'non...nessuno' para 'nenhum'. Em perguntas e ofertas, 'qualche' e 'alcuni' são usados, mas 'qualche' é mais comum.",
+    "concept_examples": [
+      {
+        "text": "Ho qualche amico in Italia.",
+        "translation": "Tenho algum amigo na Itália.",
+        "phonetic": "/ɔ ˈkwalke aˈmiko in iˈtalja/"
+      },
+      {
+        "text": "Ci sono alcuni libri sul tavolo.",
+        "translation": "Há alguns livros sobre a mesa.",
+        "phonetic": "/tʃi ˈsono alˈkuni ˈlibri sul ˈtavolo/"
+      },
+      {
+        "text": "Hai qualche domanda?",
+        "translation": "Você tem alguma pergunta?",
+        "phonetic": "/ˈai ˈkwalke doˈmanda/"
+      },
+      {
+        "text": "Vorrei alcune mele, per favore.",
+        "translation": "Eu gostaria de algumas maçãs, por favor.",
+        "phonetic": "/vorˈrei alˈkune ˈmele per faˈvore/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ho qualche amici in Italia.",
+      "correct": "Ho qualche amico in Italia.",
+      "correct_alt": "Ho alcuni amici in Italia.",
+      "explanation": "O erro ocorre porque em português 'algum' concorda em número com o substantivo, então o falante tende a usar 'qualche' com plural. Em italiano, 'qualche' é sempre singular, então deve-se usar 'qualche amico' ou 'alcuni amici', nunca 'qualche amici'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Qualche + singolare",
+        "translation": "Qualche + singular",
+        "examples": [
+          {
+            "original": "Ho qualche libro interessante.",
+            "phonetic": "/ɔ ˈkwalke ˈlibro interesˈsante/",
+            "translation": "Tenho algum livro interessante.",
+            "note": "Note que 'qualche' é usado com substantivo singular, mesmo que em português possamos dizer 'alguns livros'."
+          },
+          {
+            "original": "C'è qualche problema?",
+            "phonetic": "/tʃɛ ˈkwalke proˈblɛma/",
+            "translation": "Há algum problema?",
+            "note": "Em perguntas, 'qualche' é usado para oferecer ou perguntar de forma genérica."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Alcuni / alcune + plurale",
+        "translation": "Alguns/algumas + plural",
+        "examples": [
+          {
+            "original": "Ho alcuni amici italiani.",
+            "phonetic": "/ɔ alˈkuni aˈmici itaˈljani/",
+            "translation": "Tenho alguns amigos italianos.",
+            "note": "Use 'alcuni' com substantivos masculinos plurais."
+          },
+          {
+            "original": "Ci sono alcune cose da fare.",
+            "phonetic": "/tʃi ˈsono alˈkune ˈkose da ˈfare/",
+            "translation": "Há algumas coisas para fazer.",
+            "note": "Use 'alcune' com substantivos femininos plurais."
+          },
+          {
+            "original": "Ho alcune domande per te.",
+            "phonetic": "/ɔ alˈkune doˈmande per ˈte/",
+            "translation": "Tenho algumas perguntas para você.",
+            "note": "Atenção: 'alcune' concorda em gênero com o substantivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Usi particolari e negazione",
+        "translation": "Usos particulares e negação",
+        "examples": [
+          {
+            "original": "Non ho nessun libro.",
+            "phonetic": "/non ɔ nesˈsun ˈlibro/",
+            "translation": "Não tenho nenhum livro.",
+            "note": "Em frases negativas, use 'nessun' (antes de consoante) ou 'nessuno' (antes de vogal ou s+consoante) para 'nenhum'."
+          },
+          {
+            "original": "Hai qualche idea?",
+            "phonetic": "/ˈai ˈkwalke iˈdɛa/",
+            "translation": "Você tem alguma ideia?",
+            "note": "Em perguntas, 'qualche' é mais comum do que 'alcuni'."
+          },
+          {
+            "original": "Vorrei un po' di pane.",
+            "phonetic": "/vorˈrei um ˈpɔ di ˈpane/",
+            "translation": "Eu gostaria de um pouco de pão.",
+            "note": "Para 'um pouco de', use 'un po' di' com substantivos não contáveis, diferente de 'qualche' para contáveis."
+          }
+        ]
+      }
+    ],
+    "emoji": "✳️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Algum/alguns e seus usos"
+    }
+  },
+  {
+    "id": "pt_A2_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Molto, tanto, un po' di / Quantificadores",
+    "bridge": "Em italiano, os quantificadores funcionam de forma semelhante ao português, mas com algumas diferenças importantes. Enquanto no português usamos 'muito/muita' e 'muitos/muitas' que concordam em gênero e número, em italiano 'molto' também varia (molto/molta/molti/molte). Contudo, em italiano, 'molto' pode ser usado como advérbio invariável antes de adjetivos, o que é um ponto de atenção. Além disso, 'tanto' é usado de maneira mais enfática, e 'un po' di' exige a preposição 'di' antes de um substantivo, enquanto em português dizemos 'um pouco de'.",
+    "rule": "Em italiano, para expressar quantidade, usamos:\n1. **Molto/molta/molti/molte** (muito(s)/muita(s)): varia em gênero e número e é usado antes de substantivos. Ex.: 'Ho molto lavoro' (Tenho muito trabalho), 'Ci sono molti libri' (Há muitos livros).\n2. **Tanto/tanta/tanti/tante** (muito(s)/muita(s) de forma enfática): também varia e pode ser usado antes de substantivos ou como advérbio. Ex.: 'C'è tanto traffico' (Há tanto trânsito), 'Ho tante amiche' (Tenho muitas amigas).\n3. **Un po' di** (um pouco de): é invariável e sempre seguido de 'di' + substantivo. Ex.: 'Un po' di pane' (um pouco de pão).\n4. Quando usado antes de adjetivos como advérbio, usamos a forma invariável 'molto' ou 'tanto'. Ex.: 'Molto bello' (muito bonito), 'Tanto difficile' (tão difícil). Isto é diferente do português, onde 'muito' também é invariável nessa posição, mas em italiano é importante não acrescentar a terminação de gênero/número.",
+    "concept_examples": [
+      {
+        "text": "Ho molto tempo libero.",
+        "translation": "Tenho muito tempo livre.",
+        "phonetic": "ˈɔ ˈmolto ˈtɛmpo ˈlibero"
+      },
+      {
+        "text": "Ci sono tanti studenti in classe.",
+        "translation": "Há muitos estudantes na sala de aula.",
+        "phonetic": "tʃi ˈsono ˈtanti stuˈdɛnti in ˈklasse"
+      },
+      {
+        "text": "Vuoi un po' di caffè?",
+        "translation": "Queres um pouco de café?",
+        "phonetic": "ˈvwɔi un ˈpɔ di kafˈfɛ"
+      },
+      {
+        "text": "Questo libro è molto interessante.",
+        "translation": "Este livro é muito interessante.",
+        "phonetic": "ˈkwesto ˈlibro ɛ ˈmolto interesˈsante"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ho molto amici.",
+      "correct": "Ho molti amici.",
+      "correct_alt": "Ho tanti amici.",
+      "explanation": "O erro ocorre porque em português 'muito' pode ser invariável em certos contextos, mas em italiano, quando usado antes de um substantivo plural, deve concordar em gênero e número: 'molti' (masculino plural). A forma 'molto' invariável é usada apenas antes de adjetivos ou verbos como advérbio. Para evitar o erro, lembre-se: se a palavra seguinte é um substantivo contável plural, use 'molti/molte'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Molto/molta/molti/molte",
+        "translation": "Muito/muita/muitos/muitas",
+        "examples": [
+          {
+            "original": "Ho molta fame.",
+            "phonetic": "ˈɔ ˈmolta ˈfame",
+            "translation": "Tenho muita fome.",
+            "note": "Use 'molta' (feminino singular) porque 'fame' é feminino. Em português, usamos 'muita' também."
+          },
+          {
+            "original": "Ci sono molte persone.",
+            "phonetic": "tʃi ˈsono ˈmolte perˈsone",
+            "translation": "Há muitas pessoas.",
+            "note": "'Molte' concorda com 'persone' (feminino plural). Note que 'persone' é plural mesmo terminando em -e."
+          },
+          {
+            "original": "Ho molti compiti da fare.",
+            "phonetic": "ˈɔ ˈmɔlti ˈkompiti da ˈfare",
+            "translation": "Tenho muitos deveres para fazer.",
+            "note": "'Molti' é masculino plural."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Tanto/tanta/tanti/tante",
+        "translation": "Tanto/tanta/tantos/tantas",
+        "examples": [
+          {
+            "original": "C'è tanto rumore qui.",
+            "phonetic": "ˈtʃɛ ˈtanto ruˈmore kwi",
+            "translation": "Há tanto barulho aqui.",
+            "note": "'Tanto' é invariável quando usado como advérbio, mas aqui é adjetivo e concorda com 'rumore' (masculino singular)."
+          },
+          {
+            "original": "Ho tante cose da fare.",
+            "phonetic": "ˈɔ ˈtante ˈkose da ˈfare",
+            "translation": "Tenho tantas coisas para fazer.",
+            "note": "'Tante' concorda com 'cose' (feminino plural)."
+          },
+          {
+            "original": "Mangia tanto!",
+            "phonetic": "ˈmandʒa ˈtanto",
+            "translation": "Come muito!",
+            "note": "Aqui 'tanto' é advérbio (invariável) e modifica o verbo, sem concordância."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Un po' di / Non molto",
+        "translation": "Um pouco de / Não muito",
+        "examples": [
+          {
+            "original": "Prendo un po' di zucchero.",
+            "phonetic": "ˈprendo un ˈpɔ di ˈdzukkero",
+            "translation": "Pego um pouco de açúcar.",
+            "note": "'Un po' di' é seguido de substantivo sem artigo."
+          },
+          {
+            "original": "Non ho molto tempo oggi.",
+            "phonetic": "non ˈɔ ˈmolto ˈtɛmpo ˈɔddʒi",
+            "translation": "Não tenho muito tempo hoje.",
+            "note": "Em frases negativas, usamos 'molto' com substantivos incontáveis; para contáveis, usamos 'molti/multe'."
+          },
+          {
+            "original": "C'è un po' di vino nella bottiglia.",
+            "phonetic": "ˈtʃɛ un ˈpɔ di ˈvino ˈnella botˈtiʎʎa",
+            "translation": "Há um pouco de vinho na garrafa.",
+            "note": "'Un po' di' é invariável e não depende do gênero do substantivo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧂",
+    "phonetic": "",
+    "translations": {
+      "pt": "Muito, muitos, um pouco de / Quantificadores"
+    }
+  },
+  {
+    "id": "pt_A2_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Pronomi relativi: che, cui, il quale / Pronomes relativos: que, cujo, o qual",
+    "bridge": "Em português, você usa 'que' para pessoas e coisas, mas em italiano também se usa 'che' de forma muito parecida. Porém, há diferenças: em italiano, 'che' nunca é precedido de preposição (diga 'a cui' e não 'a che'), e o pronome relativo 'cui' equivale a 'cujo' e também a 'o qual' com preposição. Além disso, em italiano não se usa o 'que' pleonástico como em frases como 'é ele que faz' – em vez disso, usa-se 'è lui che fa', mas com atenção à concisão.",
+    "rule": "Em italiano, os pronomes relativos principais são: 'che' (invariável, para sujeito e objeto direto, referindo-se a pessoas, animais ou coisas), 'cui' (invariável, usado após preposições, equivale a 'o qual/a qual' com preposição, e também pode significar 'cujo' quando precedido de artigo definido: il cui, la cui, etc.), e 'il quale/la quale/i quali/le quali' (variável, usado para evitar ambiguidade ou em registos mais formais). Para A2, foque principalmente em 'che' e 'cui' com preposições simples (a, di, da, in, con, su, per). Lembre-se: 'che' nunca é usado após preposição; em vez disso, use 'cui' precedido da preposição (ex: 'con cui', 'per cui'). O relativo deve concordar em gênero e número quando se usa 'il quale' (ex: 'la quale', 'i quali').",
+    "concept_examples": [
+      {
+        "text": "Il ragazzo che parla è mio fratello.",
+        "translation": "O rapaz que fala é meu irmão.",
+        "phonetic": "/il raˈɡat.tso ˈke ˈpar.la ɛ ˈmi.o fraˈtɛl.lo/"
+      },
+      {
+        "text": "La casa che vedi è antica.",
+        "translation": "A casa que você vê é antiga.",
+        "phonetic": "/la ˈka.za ˈke ˈve.di ɛ anˈti.ka/"
+      },
+      {
+        "text": "La persona con cui lavoro è simpatica.",
+        "translation": "A pessoa com quem trabalho é simpática.",
+        "phonetic": "/la perˈso.na kon ˈkwi laˈvo.ro ɛ simˈpa.ti.ka/"
+      },
+      {
+        "text": "Il libro di cui ti ho parlato è interessante.",
+        "translation": "O livro sobre o qual te falei é interessante.",
+        "phonetic": "/il ˈli.bro di ˈkwi ti o parˈla.to ɛ in.te.resˈsan.te/"
+      }
+    ],
+    "common_error": {
+      "wrong": "La persona a che parlo è italiana.",
+      "correct": "La persona a cui parlo è italiana.",
+      "correct_alt": "La persona alla quale parlo è italiana.",
+      "explanation": "Em português, usamos 'que' após preposição (ex: 'a pessoa a que falo'), então muitos alunos transferem isso para o italiano, dizendo 'a che'. Em italiano, após preposição, o relativo deve ser 'cui' (ou 'quale' precedido de artigo). Lembre-se: 'che' é apenas para sujeito ou objeto direto, nunca após preposição."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Che (soggetto e oggetto)",
+        "translation": "Que (sujeito e objeto)",
+        "examples": [
+          {
+            "original": "Il gatto che dorme è nero.",
+            "phonetic": "/il ˈɡat.to ˈke ˈdor.me ɛ ˈne.ro/",
+            "translation": "O gato que dorme é preto.",
+            "note": "Aqui 'che' é sujeito da oração relativa (o gato dorme)."
+          },
+          {
+            "original": "I libri che leggo sono avvincenti.",
+            "phonetic": "/i ˈli.bri ˈke ˈleɡ.ɡo ˈso.no av.vinˈtʃɛn.ti/",
+            "translation": "Os livros que leio são envolventes.",
+            "note": "Aqui 'che' é objeto direto (leio os livros)."
+          },
+          {
+            "original": "La donna che vedi è mia madre.",
+            "phonetic": "/la ˈdɔn.na ˈke ˈve.di ɛ ˈmi.a ˈma.dre/",
+            "translation": "A mulher que você vê é minha mãe.",
+            "note": "Note que 'che' não muda, quer para sujeito quer para objeto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Cui (dopo preposizione)",
+        "translation": "Cui (após preposição)",
+        "examples": [
+          {
+            "original": "Il paese in cui vivo è piccolo.",
+            "phonetic": "/il paˈe.ze in ˈkwi ˈvi.vo ɛ ˈpik.ko.lo/",
+            "translation": "A cidade em que vivo é pequena.",
+            "note": "Use 'in cui' para 'em que' (lugar)."
+          },
+          {
+            "original": "La persona a cui penso è lontana.",
+            "phonetic": "/la perˈso.na a ˈkwi ˈpen.so ɛ lonˈta.na/",
+            "translation": "A pessoa em quem penso está distante.",
+            "note": "'Pensare a' exige a preposição 'a', então use 'a cui'."
+          },
+          {
+            "original": "La ragazza con cui esco si chiama Maria.",
+            "phonetic": "/la raˈɡat.tsa kon ˈkwi ˈe.sko si ˈkja.ma maˈri.a/",
+            "translation": "A garota com quem saio se chama Maria.",
+            "note": "'Uscire con' significa 'sair com' – use 'con cui'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Il quale (variabile)",
+        "translation": "O qual (variável)",
+        "examples": [
+          {
+            "original": "La ragazza la quale ha vinto è felice.",
+            "phonetic": "/la raˈɡat.tsa la ˈkwa.le a ˈvin.to ɛ feˈli.tʃe/",
+            "translation": "A garota a qual venceu está feliz.",
+            "note": "Uso mais formal; 'la quale' concorda em gênero e número."
+          },
+          {
+            "original": "I ragazzi i quali giocano sono stanchi.",
+            "phonetic": "/i raˈɡat.t͡si i ˈkwa.li ˈdʒo.ka.no ˈso.no ˈstan.ki/",
+            "translation": "Os rapazes os quais jogam estão cansados.",
+            "note": "Plural masculino: 'i quali'."
+          },
+          {
+            "original": "Le città nelle quali siamo stati sono belle.",
+            "phonetic": "/le t͡ʃitˈta ˈnel.le ˈkwa.li ˈsja.mo ˈsta.ti ˈso.no ˈbel.le/",
+            "translation": "As cidades nas quais estivemos são bonitas.",
+            "note": "Após preposição articulada, use 'nelle quali'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Orações relativas básicas"
+    }
+  }
+]

@@ -1,0 +1,1176 @@
+[
+  {
+    "id": "pt_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Satzklammer und Nebensatzstrukturen / Estruturas de moldura frasal e orações subordinadas",
+    "bridge": "Em alemão, a estrutura da frase é como um 'parêntese': o verbo conjugado abre a moldura e o verbo no infinitivo ou o prefixo separável a fecha. Em português, a ordem é mais livre e as partículas geralmente não são separadas. Por exemplo, 'Ich habe das Buch gelesen' (Eu li o livro) – 'habe' no início, 'gelesen' no fim. Essa rigidez é difícil para falantes de português, pois tendem a colocar o particípio logo após o verbo auxiliar. Além disso, em orações subordinadas, o verbo conjugado vai para o final, o que inverte completamente a lógica do português.",
+    "rule": "1) Em orações principais (Satzaussage): o verbo conjugado é sempre o segundo elemento (posição 2). Partículas separáveis e verbos no infinitivo ou particípio são colocados no final da oração (satzklammer ou moldura). Ex.: 'Er steht früh auf' (Ele levanta cedo) – 'auf' no fim. Ex.: 'Wir haben gestern Fußball gespielt' (Jogamos futebol ontem) – 'gespielt' no fim. 2) Em orações subordinadas (Nebensätze) introduzidas por conjunções como 'dass', 'weil', 'wenn', 'obwohl': o verbo conjugado vai para o final da oração, após todos os outros elementos. Ex.: 'Ich weiß, dass er morgen kommt' (Eu sei que ele vem amanhã). Se houver um verbo modal ou auxiliar, o verbo no infinitivo/particípio vai antes do verbo conjugado. Ex.: 'Ich glaube, dass sie das Buch gelesen hat' (Eu acredito que ela leu o livro) – 'gelesen' antes de 'hat'. 3) Construções com 'um ... zu' (finalidade) e 'ohne ... zu' o verbo vai no final após 'zu' – sem moldura adicional. 4) Em perguntas, o verbo conjugado vai à posição 1, mas a moldura permanece. Ex.: 'Hast du das Buch gekauft?' (Você comprou o livro?). 5) Exceção: em orações principais com inversão (advérbio ou objeto no início), o verbo permanece na posição 2, mas o sujeito vai após o verbo. Ex.: 'Gestern habe ich das Buch gekauft' (Ontem eu comprei o livro). Isso também ocorre em português, mas com mais liberdade.",
+    "concept_examples": [
+      {
+        "text": "Er hat gestern das neue Buch gelesen.",
+        "translation": "Ele leu o novo livro ontem.",
+        "phonetic": "eːɐ̯ hat ˈɡɛstɐn das ˈnɔʏ̯ə buːx ˈɡeːleːzn̩"
+      },
+      {
+        "text": "Ich weiß, dass sie morgen nach Berlin fährt.",
+        "translation": "Eu sei que ela viaja para Berlim amanhã.",
+        "phonetic": "ɪç vaɪ̯s, das ziː ˈmɔrɡən naːχ bɛrˈliːn fɛːɐ̯t"
+      },
+      {
+        "text": "Er steht jeden Morgen um sechs Uhr auf.",
+        "translation": "Ele se levanta todos os dias às seis horas.",
+        "phonetic": "eːɐ̯ ʃteːt ˈjeːdən ˈmɔrɡən ʊm zɛks uːɐ̯ aʊ̯f"
+      },
+      {
+        "text": "Wir haben uns gestern über die Politik unterhalten.",
+        "translation": "Nós conversamos ontem sobre política.",
+        "phonetic": "viːɐ̯ ˈhaːbən ʊns ˈɡɛstɐn ˈyːbɐ diː poliˈtiːk ˌʊntɐˈhaltən"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich weiß, dass er hat das Buch gelesen.",
+      "correct": "Ich weiß, dass er das Buch gelesen hat.",
+      "correct_alt": "",
+      "explanation": "O erro ocorre porque em português a ordem é 'que ele leu o livro' – o verbo vem logo após o sujeito. Em alemão, a conjunção 'dass' exige o verbo no final da oração. Para evitar, lembre-se: após conjunções subordinativas, o verbo conjugado deve ser o último elemento. Pratique com frases simples e depois adicione complementos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Satzklammer mit trennbaren Verben",
+        "translation": "Moldura frasal com verbos separáveis",
+        "examples": [
+          {
+            "original": "Ich rufe dich morgen an.",
+            "phonetic": "ɪç ˈruːfə dɪç ˈmɔrɡən an",
+            "translation": "Eu te ligo amanhã.",
+            "note": "O prefixo 'an' vai para o final da oração. Em português, o verbo é único, então a tendência é manter junto."
+          },
+          {
+            "original": "Sie sieht fern, während sie isst.",
+            "phonetic": "ziː ziːt fɛrn, ˈvɛːrənd ziː ɪst",
+            "translation": "Ela assiste TV enquanto come.",
+            "note": "Observe a moldura na oração principal ('sieht ... fern') e o verbo no final na subordinada: 'isst'."
+          },
+          {
+            "original": "Wir hören jeden Tag Musik an.",
+            "phonetic": "viːɐ̯ ˈhøːrən ˈjeːdən taːk muˈziːk an",
+            "translation": "Nós ouvimos música todos os dias.",
+            "note": "Aqui, 'anhören' é separável, mas o objeto direto (Musik) vai dentro da moldura."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nebensatz mit Konjunktionen",
+        "translation": "Orações subordinadas com conjunções",
+        "examples": [
+          {
+            "original": "Obwohl es regnet, gehen wir spazieren.",
+            "phonetic": "ˈɔpvoːl ɛs ˈreːɡnət, ˈɡeːən viːɐ̯ ʃpaˈtsiːrən",
+            "translation": "Embora esteja chovendo, vamos passear.",
+            "note": "A conjunção 'obwohl' é concessiva e o verbo 'regnet' vai para o final. Em português, a ordem é 'embora chova'."
+          },
+          {
+            "original": "Ich lerne Deutsch, weil ich nach Deutschland will.",
+            "phonetic": "ɪç ˈlɛrnə dɔʏ̯tʃ, vaɪ̯l ɪç naːχ ˈdɔʏtʃlant vɪl",
+            "translation": "Eu aprendo alemão porque quero ir para a Alemanha.",
+            "note": "Com 'weil', o verbo 'will' vai para o final. Cuidado com a diferença entre 'weil' e 'denn' (este último não subordina)."
+          },
+          {
+            "original": "Sie sagt, dass sie morgen kommt.",
+            "phonetic": "ziː zaːkt, das ziː ˈmɔrɡən kɔmt",
+            "translation": "Ela diz que vem amanhã.",
+            "note": "O uso de 'dass' é semelhante a 'que', mas muda a posição do verbo. Em português, o verbo vem depois do sujeito."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Erweiterte Satzstrukturen mit Modalverben und komplexen Nebensätzen",
+        "translation": "Estruturas avançadas com verbos modais e orações complexas",
+        "examples": [
+          {
+            "original": "Er muss jeden Tag früh aufstehen, um pünktlich zu sein.",
+            "phonetic": "eːɐ̯ mʊs ˈjeːdən taːk fryː ˈaʊ̯fʃteːən, ʊm ˈpʏŋktlɪç tsuː zaɪ̯n",
+            "translation": "Ele precisa levantar cedo todos os dias para ser pontual.",
+            "note": "A construção 'um ... zu' coloca o verbo no final sem auxiliar. Compare com o português 'para ser' – a regência é diferente."
+          },
+          {
+            "original": "Ich habe nicht gewusst, dass sie so gut Deutsch spricht.",
+            "phonetic": "ɪç ˈhaːbə nɪçt ɡəˈvʊst, das ziː zoː ɡuːt dɔʏ̯tʃ ʃprɪçt",
+            "translation": "Eu não sabia que ela fala alemão tão bem.",
+            "note": "Em subordinadas com dois verbos, o verbo conjugado vai para o final, mas o particípio ou infinitivo fica antes dele."
+          },
+          {
+            "original": "Hättest du Zeit, würden wir ins Kino gehen.",
+            "phonetic": "ˈhɛtəst duː tsaɪ̯t, ˈvyːrdən viːɐ̯ ɪns ˈkiːnoː ˈɡeːən",
+            "translation": "Se você tivesse tempo, iríamos ao cinema.",
+            "note": "Este é o Konjunktiv II para situações irreais. Note a inversão na oração condicional: verbo em primeira posição, sem 'wenn'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏗️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Sintaxe avançada e estruturas complexas"
+    }
+  },
+  {
+    "id": "pt_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Register und Stil: formell, informell, neutral / Registro e estilo: formal, informal, neutro",
+    "bridge": "Em alemão, a escolha entre formas 'du' e 'Sie' não é apenas uma questão de pronome, mas define o registro da interação e afeta a forma do verbo, o imperativo, e até o uso de partículas modais. Diferente do português, que usa 'você' de forma mais neutra, o alemão exige uma decisão consciente baseada em proximidade, hierarquia e contexto. Cuidado: misturar os dois registros na mesma conversa é um erro comum e soa incoerente.",
+    "rule": "O alemão distingue três registros principais: formal (formell), informal (informell) e neutro (neutral). O registro formal usa o pronome 'Sie' (sempre com maiúscula em textos escritos) e a conjugação verbal na terceira pessoa do plural, independentemente do número de interlocutores. O registro informal usa 'du' (singular) ou 'ihr' (plural) com conjugação correspondente. O registro neutro é frequentemente usado em textos escritos, manuais, ou discursos públicos, empregando o 'man' (a gente/se) ou construções passivas, evitando tanto o 'du' quanto o 'Sie'. A escolha de vocabulário também varia: 'bekommen' (neutro) vs. 'erhalten' (formal), 'kriegen' (informal). No imperativo, o formal usa 'Sie' + verbo no infinitivo, enquanto o informal usa formas próprias imperative: 'Kommen Sie!' vs. 'Komm!' vs. 'Kommt!' Em cartas e e-mails, o formal é obrigatório com pessoas desconhecidas, superiores ou clientes; com amigos e familiares, o informal. Em contextos neutros, como instruções, prefere-se o 'man': 'Man öffnet die Tür' em vez de 'Sie öffnen die Tür'. Conhecer as convenções regionais e geracionais é essencial para não causar ofensa ou parecer distante.",
+    "concept_examples": [
+      {
+        "text": "Könnten Sie mir bitte die Unterlagen schicken?",
+        "translation": "O senhor/a senhora poderia me enviar os documentos, por favor?",
+        "phonetic": "ˈkœntn̩ ziː miːɐ̯ ˈbɪtə diː ˈʊntɐlaːɡn̩ ˈʃɪkn̩"
+      },
+      {
+        "text": "Kannst du mir mal die Unterlagen schicken?",
+        "translation": "Você pode me enviar os documentos?",
+        "phonetic": "ˈkanst duː miːɐ̯ maːl diː ˈʊntɐlaːɡn̩ ˈʃɪkn̩"
+      },
+      {
+        "text": "Man sollte die Unterlagen rechtzeitig einreichen.",
+        "translation": "Deve-se enviar os documentos em tempo hábil.",
+        "phonetic": "man ˈzɔltə diː ˈʊntɐlaːɡn̩ ˈʁɛçtˌtsaɪ̯tɪç ˈaɪ̯nˌʁaɪ̯çn̩"
+      },
+      {
+        "text": "Bitte reichen Sie die Unterlagen fristgerecht ein.",
+        "translation": "Por favor, envie os documentos dentro do prazo.",
+        "phonetic": "ˈbɪtə ˈʁaɪ̯çn̩ ziː diː ˈʊntɐlaːɡn̩ ˈfʁɪstɡəˌʁɛçt ˈaɪ̯n"
+      }
+    ],
+    "common_error": {
+      "wrong": "Können du mir helfen? (em contexto formal)",
+      "correct": "Können Sie mir helfen?",
+      "correct_alt": "Kannst du mir helfen? (em contexto informal)",
+      "explanation": "Erro típico de lusófonos: misturar du e Sie na mesma frase, influenciados pelo uso mais 'neutro' de 'você' em português. Em alemão, a concordância entre pronome e verbo é rígida: du exige a forma verbal da 2ª pessoa do singular (kannst), e Sie exige a 3ª do plural (können). Além disso, o pronome formal é sempre capitalizado em textos escritos. Para evitar esse erro, decida o registro antes de começar a frase e mantenha consistência até o fim do diálogo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formelle Anrede: Sie",
+        "translation": "Tratamento formal: Sie",
+        "examples": [
+          {
+            "original": "Könnten Sie mir bitte Ihren Namen nennen?",
+            "phonetic": "ˈkœntn̩ ziː miːɐ̯ ˈbɪtə ˈiːʁən ˈnaːmən ˈnɛnən",
+            "translation": "O senhor/a senhora poderia me dizer o seu nome, por favor?",
+            "note": "Uso de Konjunktiv II (könnten) para maior polidez. O possessivo 'Ihren' concorda com Sie."
+          },
+          {
+            "original": "Haben Sie einen Moment Zeit?",
+            "phonetic": "ˈhaːbən ziː ˈaɪ̯nən moˈmɛnt tsaɪ̯t",
+            "translation": "O senhor/a senhora tem um momento?",
+            "note": "Forma interrogativa direta com inversão sujeito-verbo. 'Sie' mantém a capitalização."
+          },
+          {
+            "original": "Bitte geben Sie mir Bescheid.",
+            "phonetic": "ˈbɪtə ˈɡeːbn̩ ziː miːɐ̯ bəˈʃaɪ̯t",
+            "translation": "Por favor, me avise.",
+            "note": "Imperativo formal: verbo no infinitivo + Sie."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Informelle Anrede: du/ihr",
+        "translation": "Tratamento informal: du/ihr",
+        "examples": [
+          {
+            "original": "Kannst du mir kurz helfen?",
+            "phonetic": "ˈkanst duː miːɐ̯ kʊʁts ˈhɛlfn̩",
+            "translation": "Você pode me ajudar rapidinho?",
+            "note": "Uso de du com a forma conjugada 'kannst'. A partícula 'kurz' dá tom coloquial."
+          },
+          {
+            "original": "Habt ihr schon gegessen?",
+            "phonetic": "haːpt iːɐ̯ ʃoːn ɡəˈɡɛsn̩",
+            "translation": "Vocês já comeram?",
+            "note": "Ihr é usado para mais de uma pessoa informal."
+          },
+          {
+            "original": "Komm mal her!",
+            "phonetic": "kɔm maːl heːɐ̯",
+            "translation": "Vem cá!",
+            "note": "Imperativo informal singular. 'Mal' é um particípio coloquial que suaviza a ordem."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Neutrale Ausdrucksweise: man und Passiv",
+        "translation": "Estilo neutro: man e passivo",
+        "examples": [
+          {
+            "original": "Man darf hier nicht rauchen.",
+            "phonetic": "man daʁf hiːɐ̯ nɪçt ˈʁaʊ̯xn̩",
+            "translation": "Não se pode fumar aqui.",
+            "note": "Uso de 'man' para sujeito genérico, impessoal, típico de avisos ou instruções."
+          },
+          {
+            "original": "Die Tür wird automatisch geöffnet.",
+            "phonetic": "diː tyːɐ̯ vɪʁt aʊ̯toˈmaːtɪʃ ɡəˈʔœfnət",
+            "translation": "A porta é aberta automaticamente.",
+            "note": "Voz passiva com 'wird' além do particípio passado, sem indicação de agente."
+          },
+          {
+            "original": "Es wird erwartet, dass die Prüfung bestanden wird.",
+            "phonetic": "ɛs vɪʁt ɛɐ̯ˈvaʁtət, das diː ˈpʁyːfʊŋ bəˈʃtandn̩ vɪʁt",
+            "translation": "Espera-se que a prova seja aprovada.",
+            "note": "Passivo com 'es' inicial e a estrutura 'wird erwartet, dass' formaliza o discurso."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "pt": "Registro e estilo: formal, informal, neutro"
+    }
+  },
+  {
+    "id": "pt_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Fortgeschrittene Inversion und Frontierung / Inversão e frontalização avançadas",
+    "bridge": "Em alemão, a inversão não é apenas uma ferramenta estilística, mas muitas vezes obrigatória em certas construções, como após advérbios e orações subordinadas no início da frase. Em português, a ordem das palavras é mais flexível e a inversão costuma ser opcional ou enfática. Preste atenção especial à posição do verbo finito: em alemão, em uma oração principal, ele sempre ocupa a segunda posição, mesmo quando o sujeito é deslocado. Além disso, ao contrário do português, a inversão em alemão não altera a formalidade ou o tom, mas é uma regra gramatical estrutural.",
+    "rule": "No nível C1, você deve dominar a inversão e frontalização em construções complexas. As regras principais são: 1) Em orações principais declarativas, o verbo finito ocupa sempre a segunda posição. Se um elemento que não seja o sujeito (advérbio, objeto, oração subordinada) for colocado na primeira posição, o sujeito deve vir depois do verbo (inversão). Exemplo: 'Gestern habe ich ihn gesehen.' (Ayer lo vi.) 2) Após orações subordinadas antepostas, a oração principal começa com o verbo finito: 'Obwohl es regnete, gingen wir spazieren.' (Aunque llovía, fuimos a pasear.) 3) A frontalização pode ser usada para ênfase ou coesão textual, mas nunca se separa o verbo de seu complemento em posição final (em orações com particípios, infinitivos ou prefixos separáveis). 4) Em construções com dativo ou acusativo, a ordem dos objetos pode variar, mas o verbo permanece na segunda posição. 5) A inversão também ocorre em perguntas (W-Fragen) e em frases imperativas, mas com regras específicas. Erros comuns: colocar o sujeito antes do verbo após um advérbio, ou usar a ordem direta em subordinadas antepostas. A prática de reescrever frases com diferentes elementos na primeira posição é essencial.",
+    "concept_examples": [
+      {
+        "text": "Selten habe ich so etwas Schönes gesehen.",
+        "translation": "Raramente vi algo tão bonito.",
+        "phonetic": "[ˈzɛltn̩ ˈhaːbə ɪç zoː ˈɛtvas ˈʃøːnəs ɡəˈzeːən]"
+      },
+      {
+        "text": "Nicht nur sprachlich, sondern auch kulturell ist Deutschland vielfältig.",
+        "translation": "Não apenas linguisticamente, mas também culturalmente, a Alemanha é diversa.",
+        "phonetic": "[nɪçt nuːɐ̯ ˈʃpʁaːxlɪç ˈzɔndɐn ˈaʊ̯x kʊltuˈʁɛl ɪst ˈdɔʏ̯tʃlant ˈfiːlˌfɛltɪç]"
+      },
+      {
+        "text": "Ohne seine Brille konnte er nichts erkennen.",
+        "translation": "Sem seus óculos, ele não conseguia reconhecer nada.",
+        "phonetic": "[ˈoːnə zaɪ̯nə ˈbʁɪlə ˈkɔntə eːɐ̯ nɪçts ɛɐ̯ˈkɛnən]"
+      },
+      {
+        "text": "Dass sie kommen würde, hatte niemand erwartet.",
+        "translation": "Que ela viria, ninguém esperava.",
+        "phonetic": "[das ziː ˈkɔmən ˈvʏʁdə ˈhatə ˈniːmant ɛɐ̯ˈvaʁtət]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Selten ich habe so etwas Schönes gesehen.",
+      "correct": "Selten habe ich so etwas Schönes gesehen.",
+      "correct_alt": "",
+      "explanation": "Em português, após um advérbio no início, a ordem direta 'eu vi' é comum. No entanto, em alemão, quando um elemento que não seja o sujeito ocupa a primeira posição, o verbo finito deve vir antes do sujeito (V2 obrigatório). Evite a transferência da ordem SVO do português."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Inversion nach Adverbien",
+        "translation": "Inversão após advérbios",
+        "examples": [
+          {
+            "original": "Gelegentlich besucht er seine Großmutter.",
+            "phonetic": "[ɡəˈleːɡn̩tlɪç bəˈzuːxt eːɐ̯ zaɪ̯nə ˈɡʁoːsmʊtɐ]",
+            "translation": "Ocasionalmente, ele visita sua avó.",
+            "note": "A inversão após advérbios de frequência é obrigatória em alemão, enquanto em português a ordem direta seria aceitável."
+          },
+          {
+            "original": "Kaum war der Zug abgefahren, da fiel es ihm ein.",
+            "phonetic": "[kaʊ̯m vaːɐ̯ deːɐ̯ tsuːk ˈapɡəfaːʁən daː fiːl ɛs iːm aɪ̯n]",
+            "translation": "Mal o trem partiu, então ele lembrou.",
+            "note": "Com 'kaum' no sentido temporal, a inversão é necessária e a estrutura coordenada com 'da' é típica."
+          },
+          {
+            "original": "Nirgends fühlte sie sich wohler als zu Hause.",
+            "phonetic": "[ˈnɪʁɡənts fyːltə ziː zɪç ˈvoːlɐ als tsuː ˈhaʊ̯zə]",
+            "translation": "Em nenhum lugar ela se sentia melhor do que em casa.",
+            "note": "Advérbios negativos como 'nirgends' frequentemente iniciam a frase e exigem inversão."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Frontierung von Objekten und Ergänzungen",
+        "translation": "Frontalização de objetos e complementos",
+        "examples": [
+          {
+            "original": "Den Schlüssel habe ich gestern verloren.",
+            "phonetic": "[deːn ˈʃlʏsəl ˈhaːbə ɪç ˈɡeːstɐn fɛɐ̯ˈloːʁən]",
+            "translation": "A chave, eu perdi ontem.",
+            "note": "Ao frontalizar o objeto acusativo, o verbo permanece na segunda posição e o sujeito vem depois."
+          },
+          {
+            "original": "Seiner Mutter vertraut er mehr als seinem Vater.",
+            "phonetic": "[ˈzaɪ̯nɐ ˈmʊtɐ fɛɐ̯ˈtʁaʊ̯t eːɐ̯ meːɐ̯ als ˈzaɪ̯nəm ˈfaːtɐ]",
+            "translation": "Em sua mãe, ele confia mais do que em seu pai.",
+            "note": "A frontalização do objeto dativo para ênfase é comum em textos formais e narrativos."
+          },
+          {
+            "original": "Über seine Vergangenheit spricht er nur selten.",
+            "phonetic": "[ˈyːbɐ zaɪ̯nə fɛɐ̯ˈɡaŋənhaɪ̯t ʃpʁɪçt eːɐ̯ nuːɐ̯ ˈzɛltn̩]",
+            "translation": "Sobre seu passado, ele fala raramente.",
+            "note": "Frases preposicionadas podem ser frontalizadas para dar ênfase ou coesão."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Inversion nach Nebensätzen",
+        "translation": "Inversão após orações subordinadas",
+        "examples": [
+          {
+            "original": "Obwohl er müde war, arbeitete er weiter.",
+            "phonetic": "[ˈɔpvoːl eːɐ̯ ˈmyːdə vaːɐ̯ ˈaʁbaɪ̯tətə eːɐ̯ ˈvaɪ̯tɐ]",
+            "translation": "Embora estivesse cansado, ele continuou trabalhando.",
+            "note": "A oração subordinada anteposta ocupa a primeira posição, e o verbo da oração principal vem imediatamente depois."
+          },
+          {
+            "original": "Wenn du Zeit hast, können wir uns treffen.",
+            "phonetic": "[vɛn duː tsaɪ̯t hast ˈkœnən viːɐ̯ ʊns ˈtʁɛfən]",
+            "translation": "Se você tiver tempo, podemos nos encontrar.",
+            "note": "A inversão na oração principal é obrigatória após uma condicional no início."
+          },
+          {
+            "original": "Nachdem er gegessen hatte, ging er spazieren.",
+            "phonetic": "[ˈnaːxdeːm eːɐ̯ ɡəˈɡɛsən ˈhatə ɡɪŋ eːɐ̯ ʃpaˈtsiːʁən]",
+            "translation": "Depois que ele comeu, ele foi passear.",
+            "note": "Use o pretérito mais-que-perfeito na subordinada e o pretérito simples na principal com inversão."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "pt": "Inversão e frontalização avançadas"
+    }
+  },
+  {
+    "id": "pt_C1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nominalisierung komplexer Prozesse (Nominalização complexa de processos)",
+    "bridge": "Em português, tendemos a usar verbos no infinitivo ou orações relativas para expressar processos, como em 'o processamento dos dados'. Em alemão, a nominalização é mais frequente e flexível, permitindo transformar verbos e até frases inteiras em substantivos compostos, como 'die Datenverarbeitung'. No nível C1, você precisa dominar não apenas a nominalização de verbos simples, mas também a de verbos separáveis, prefixados e de construções com preposições, o que exige atenção à ordem dos elementos e ao gênero gramatical.",
+    "rule": "A nominalização em alemão permite transformar verbos (e às vezes adjetivos) em substantivos. Para verbos, usa-se o infinitivo substantivado (das Lesen), mas em contextos formais e técnicos, é comum o uso do substantivo derivado com sufixos como -ung, -tion, -nis, -heit/-keit, entre outros. Exemplos: verarbeiten (processar) → die Verarbeitung, entwickeln (desenvolver) → die Entwicklung, entscheiden (decidir) → die Entscheidung. Verbos com prefixo separável mantêm o prefixo no substantivo, mas sem separação: einkaufen (comprar) → das Einkaufen / der Einkauf. Para nominalizar sintagmas preposicionais, usa-se frequentemente o gerúndio com 'das' + infinitivo ou compostos: das Verarbeiten von Daten → die Datenverarbeitung. Cuidado com o gênero: a maioria dos substantivos derivados de verbos com -ung é feminino; o infinitivo substantivado é neutro. Em contextos C1, é importante escolher a forma mais idiomática: em alemão científico e técnico, a nominalização é preferida para tornar o estilo mais conciso e formal, enquanto em português usamos mais orações relativas. Além disso, há nominalizações irregulares (ex: nehmen → die Annahme, annehmen → die Annahme) e casos em que o verbo é totalmente transformado em um substantivo de significado diferente (ex: fahren → die Fahrt).",
+    "concept_examples": [
+      {
+        "text": "Die Verarbeitung der Daten erfolgt automatisch.",
+        "translation": "O processamento dos dados ocorre automaticamente.",
+        "phonetic": "[diː fɛɐ̯ˈaʁbaɪ̯tʊŋ deːɐ̯ ˈdaːtən ɛɐ̯ˈfɔlkt aʊ̯toˈmaːtɪʃ]"
+      },
+      {
+        "text": "Die Entwicklung neuer Technologien verändert die Gesellschaft.",
+        "translation": "O desenvolvimento de novas tecnologias transforma a sociedade.",
+        "phonetic": "[diː ɛntˈvɪklʊŋ ˈnɔʏɐ tɛçnoˈloːɡi̯ən fɛɐ̯ˈʔɛndɐt diː ɡəˈzɛlʃaft]"
+      },
+      {
+        "text": "Die Entscheidung für das Studium war nicht leicht.",
+        "translation": "A decisão pelo curso superior não foi fácil.",
+        "phonetic": "[diː ɛntˈʃaɪ̯dʊŋ fyːɐ̯ das ˈʃtuːdi̯ʊm vaːɐ̯ nɪçt laɪ̯çt]"
+      },
+      {
+        "text": "Das Lesen wissenschaftlicher Texte erfordert Geduld.",
+        "translation": "A leitura de textos científicos exige paciência.",
+        "phonetic": "[das ˈleːzən ˈvɪsənʃaftlɪçɐ ˈtɛkstə ɛɐ̯ˈfɔʁdɐt ɡəˈdʊlt]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Die Verarbeitung von Daten erfolgt automatisch. (embora correto, o erro comum é usar 'von' em excesso, mas o problema é quando o aluno traduz literalmente do português: 'Das Verarbeiten von den Daten' ou 'Die Verarbeitung der Daten' no lugar de 'die Datenverarbeitung')",
+      "correct": "Die Datenverarbeitung erfolgt automatisch.",
+      "correct_alt": "Die Verarbeitung der Daten erfolgt automatisch.",
+      "explanation": "O erro comum para falantes de português é usar a estrutura analítica com 'von' + substantivo, seguindo o padrão português 'o processamento dos dados'. Em alemão, a estrutura composta (substantivo + substantivo) é preferida em contextos formais e técnicos, resultando em frases mais concisas. No exemplo, 'die Verarbeitung von den Daten' está incorreto porque 'von' pede dativo, mas o certo seria 'von den Daten' (embora 'von den Daten' seja aceitável, mas menos natural). A forma mais idiomática é o composto 'Datenverarbeitung'. Evite usar 'das Verarbeiten von den Daten' como tradução literal; prefira o composto. Lembre-se: em alemão, o modificador vem antes do núcleo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nomen mit Suffix -ung",
+        "translation": "Substantivos com sufixo -ung",
+        "examples": [
+          {
+            "original": "Die Durchführung der Untersuchung erforderte viel Zeit.",
+            "phonetic": "[diː ˈdʊʁçfyːʁʊŋ deːɐ̯ ʊntɐˈzuːχʊŋ ɛɐ̯ˈfɔʁdɐtə fiːl tsaɪ̯t]",
+            "translation": "A realização da investigação exigiu muito tempo.",
+            "note": "Verbo 'durchführen' (realizar) vira 'Durchführung'; note a manutenção do prefixo separável no substantivo."
+          },
+          {
+            "original": "Die Erweiterung des Netzes wird geplant.",
+            "phonetic": "[diː ɛɐ̯ˈvaɪ̯təʁʊŋ dɛs ˈnɛtsəs vɪʁt ɡəˈplaːnt]",
+            "translation": "A ampliação da rede está planejada.",
+            "note": "Verbo 'erweitern' (ampliar) vira 'Erweiterung'; preste atenção no gênero feminino."
+          },
+          {
+            "original": "Die Beantragung eines Visums dauert mehrere Wochen.",
+            "phonetic": "[diː bəˈʔantʁaːɡʊŋ ˈaɪ̯nəs ˈviːzʊms ˈdaʊɐt ˈmeːʁəʁə ˈvɔxn̩]",
+            "translation": "A solicitação de um visto leva várias semanas.",
+            "note": "Verbo 'beantragen' (solicitar) vira 'Beantragung'; nesse caso, o prefixo 'be-' é inseparável."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Infinitiv als Nomen",
+        "translation": "Infinitivo como substantivo",
+        "examples": [
+          {
+            "original": "Das Rauchen ist in öffentlichen Gebäuden verboten.",
+            "phonetic": "[das ˈʁaʊ̯xən ɪst ɪn ˈœfn̩tlɪçən ɡəˈbɔʏdn̩ fɛɐ̯ˈboːtən]",
+            "translation": "Fumar é proibido em edifícios públicos.",
+            "note": "O infinitivo 'rauchen' vira substantivo neutro 'das Rauchen'."
+          },
+          {
+            "original": "Beim Schwimmen trainieren wir die Ausdauer.",
+            "phonetic": "[baɪ̯m ˈʃvɪmən tʁɛˈniːʁən viːɐ̯ diː ˈaʊ̯sdaʊɐ]",
+            "translation": "Ao nadar, treinamos a resistência.",
+            "note": "Forma contraída 'beim' = 'bei dem', seguido do infinitivo substantivado."
+          },
+          {
+            "original": "Das ständige Wiederholen der Vokabeln hilft beim Lernen.",
+            "phonetic": "[das ˈʃtɛndɪɡə viːdɐˈhoːlən deːɐ̯ foˈkaːbəln hɪlft baɪ̯m ˈlɛrnən]",
+            "translation": "A repetição constante do vocabulário ajuda no aprendizado.",
+            "note": "Aqui, 'Wiederholen' e 'Lernen' são infinitivos substantivados, ambos neutros."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Komposita und nominalisierte Fügungen",
+        "translation": "Compostos e construções nominalizadas",
+        "examples": [
+          {
+            "original": "Die Datenschutzverordnung regelt den Umgang mit personenbezogenen Daten.",
+            "phonetic": "[diː ˈdaːtənʃʊtsfɛɐ̯ˈɔʁdnʊŋ ˈʁeːɡl̩t deːn ˈʊmɡaŋ mɪt pɐˈzoːnənbəˌzoːgənən ˈdaːtən]",
+            "translation": "O regulamento de proteção de dados regula o tratamento de dados pessoais.",
+            "note": "Composto complexo: Daten + Schutz + Verordnung; típico do alemão técnico."
+          },
+          {
+            "original": "Die Inbetriebnahme der Anlage wurde verschoben.",
+            "phonetic": "[diː ˈɪnbəˌtʁiːpnaːmə deːɐ̯ ˈanlaːɡə ˈvʊʁdə fɛɐ̯ˈʃoːbən]",
+            "translation": "A colocação em funcionamento da instalação foi adiada.",
+            "note": "Substantivo composto 'Inbetriebnahme' (nominalização de 'in Betrieb nehmen')."
+          },
+          {
+            "original": "Die Nichtbeachtung der Hinweise kann zu Problemen führen.",
+            "phonetic": "[diː ˈnɪçtbəˌʔaxtʊŋ deːɐ̯ ˈhɪnvaɪzə kan tsuː pʁoˈbleːmən ˈfyːʁən]",
+            "translation": "A não observância das instruções pode levar a problemas.",
+            "note": "Uso do prefixo 'Nicht-' para negar a nominalização."
+          },
+          {
+            "original": "Die Zusammenarbeit der Abteilungen verbessert die Effizienz.",
+            "phonetic": "[diː ˈtsuːzamənˌʔaʁbaɪ̯t deːɐ̯ apˈtaɪ̯lʊŋən fɛɐ̯ˈbɛsɐt diː ˌɛfiˈtsi̯ɛnts]",
+            "translation": "A cooperação entre os departamentos melhora a eficiência.",
+            "note": "Composto de verbo separável: 'zusammenarbeiten' → 'Zusammenarbeit' (sem -ung)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗂️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Nominalização complexa (processo → processamento)"
+    }
+  },
+  {
+    "id": "pt_C1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Ellipse und Substitution / Elipse e substituição",
+    "bridge": "Em alemão, assim como em português, usamos elipse para evitar repetição, mas as estratégias diferem bastante. Enquanto o português frequentemente usa 'também' ou 'também não' (ex.: 'Eu também' / 'Eu também não'), o alemão recorre a verbos auxiliares e modais invertidos com 'auch' ou 'nicht' (ex.: 'Ich auch' não é correto em muitos contextos; dizemos 'Ich auch' apenas em respostas curtas, mas para concordar com uma afirmação completa usamos 'so + verbo + sujeito'). Além disso, o alemão usa 'doch' para contradizer uma negação, o que não tem equivalente direto em português. Cuidado com a ordem das palavras: o verbo vem antes do sujeito na construção 'so do I'. Também, em respostas negativas, usa-se 'neither' (nem) que em alemão é 'auch nicht' com inversão, ou 'weder...noch' para nem...nem.",
+    "rule": "Uso de elipse e substituição em alemão para evitar repetição em respostas curtas e orações coordenadas.\n\n1. **Concordância afirmativa (so do I)**: Para concordar com uma declaração afirmativa, usa-se a estrutura: **so + verbo auxiliar/conjugado + sujeito**. O verbo auxiliar deve concordar com o tempo e a pessoa da frase original. Exemplos:\n   - 'Ich liebe Kaffee.' → 'So liebe ich auch.' (ou mais comum: 'Ich auch' – mas em estilo formal, 'So do I' não é usado em alemão; o correto é 'Ich auch' ou 'Das tue ich auch')\n   - Na verdade, em alemão, a construção 'so do I' é rara; normalmente se usa 'Ich auch' (para verbos plenos) ou 'Das mache ich auch' (para verbos com objeto). Alternativa: 'So ist es bei mir auch'.\n   - Mais comum: para concordar com um verbo modal ou auxiliar, repete-se o auxiliar: 'Ich kann schwimmen.' → 'Ich auch.' ou 'Das kann ich auch.'\n   - Para dar ênfase ou em registro elevado, pode-se usar a inversão: 'So bin ich auch' (assim sou eu também).\n\n2. **Concordância negativa (neither do I)**: Para concordar com uma negativa, usa-se **auch nicht** com inversão: **verbo auxiliar + sujeito + auch nicht** (ou 'nein, auch nicht'). Exemplo: 'Ich habe kein Geld.' → 'Ich auch nicht.' (ou 'Das habe ich auch nicht.'). Para 'nem eu', em português, usamos 'nem eu' ou 'eu também não', mas em alemão é 'ich auch nicht'.\n\n3. **Contradição (doch)**: Para contradizer uma negativa, usa-se 'doch' como resposta: 'Du hast kein Geld.' → 'Doch, ich habe welches.' (Tenho sim!)\n\n4. **Substituição com 'das' e 'es'**: Em orações com objeto direto ou complemento, usa-se 'das' ou 'es' para substituir a oração inteira: 'Ich glaube, dass er kommt.' → 'Ich glaube es.' (Eu acredito nisso.)\n\n5. **Elipse em orações coordenadas**: Quando o verbo é o mesmo, pode-se omitir na segunda oração: 'Er trinkt Bier und ich [trinke] Wein.' (Ele bebe cerveja e eu, vinho.) – A elipse do verbo é comum, mas cuidado com a ordem dos constituintes.\n\n6. **'weder...noch'** para 'nem...nem': 'Ich mag weder Kaffee noch Tee.' (Não gosto nem de café nem de chá.)",
+    "concept_examples": [
+      {
+        "text": "Ich liebe Kaffee. – Ich auch.",
+        "translation": "Eu amo café. – Eu também.",
+        "phonetic": "[ɪç ˈliːbə ˈkafeː | ɪç ˈaʊx]"
+      },
+      {
+        "text": "Ich habe keinen Hunger. – Ich auch nicht.",
+        "translation": "Não estou com fome. – Eu também não.",
+        "phonetic": "[ɪç ˈhaːbə ˈkaɪnən ˈhʊŋɐ | ɪç ˈaʊx nɪçt]"
+      },
+      {
+        "text": "Du hast kein Geld. – Doch, ich habe welches.",
+        "translation": "Você não tem dinheiro. – Tenho sim! (Contradição)",
+        "phonetic": "[duː hast kaɪn gɛlt | dɔx, ɪç ˈhaːbə ˈvɛlçəs]"
+      },
+      {
+        "text": "Er trinkt Bier und ich Wein.",
+        "translation": "Ele bebe cerveja e eu, vinho.",
+        "phonetic": "[eːɐ trɪŋkt biːɐ ʊnt ɪç vaɪn]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich liebe Kaffee. – Ich auch liebe.",
+      "correct": "Ich liebe Kaffee. – Ich auch.",
+      "correct_alt": "Ich liebe Kaffee. – Das tue ich auch.",
+      "explanation": "Em português, dizemos 'Eu também amo' ou 'Eu também', mas em alemão, na resposta curta, não repetimos o verbo pleno. A estrutura correta para concordar é apenas 'Ich auch' (sem repetir o verbo) ou, com mais ênfase, 'Das tue ich auch'. O erro vem da transferência literal do português, onde 'também' pode ser acompanhado do verbo. Evite colocar o verbo conjugado após 'auch'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Positive Kurzantworten",
+        "translation": "Respostas curtas afirmativas",
+        "examples": [
+          {
+            "original": "Ich mag Schokolade. – Ich auch.",
+            "phonetic": "[ɪç maːk ʃokoˈlaːdə | ɪç ˈaʊx]",
+            "translation": "Eu gosto de chocolate. – Eu também.",
+            "note": "Uso básico: 'auch' no final."
+          },
+          {
+            "original": "Sie hat ein Auto. – Das hat sie auch.",
+            "phonetic": "[ziː hat aɪn ˈaʊto | das hat ziː ˈaʊx]",
+            "translation": "Ela tem um carro. – Ela também tem (isso).",
+            "note": "Quando o objeto é explícito, pode-se usar 'das' para substituir."
+          },
+          {
+            "original": "Kannst du schwimmen? – Ja, das kann ich.",
+            "phonetic": "[kannst duː ˈʃvɪmən | jaː, das kan ɪç]",
+            "translation": "Você sabe nadar? – Sim, eu sei.",
+            "note": "Com modais, repete-se o modal com 'das'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Negative Kurzantworten",
+        "translation": "Respostas curtas negativas",
+        "examples": [
+          {
+            "original": "Ich habe keine Zeit. – Ich auch nicht.",
+            "phonetic": "[ɪç ˈhaːbə ˈkaɪnə tsaɪt | ɪç ˈaʊx nɪçt]",
+            "translation": "Não tenho tempo. – Eu também não.",
+            "note": "Estrutura: sujeito + auch nicht."
+          },
+          {
+            "original": "Er will nicht kommen. – Sie auch nicht.",
+            "phonetic": "[eːɐ vɪl nɪçt ˈkɔmən | ziː ˈaʊx nɪçt]",
+            "translation": "Ele não quer vir. – Ela também não.",
+            "note": "Funciona com modais e verbos plenos."
+          },
+          {
+            "original": "Wir haben nichts gekauft. – Ich auch nicht.",
+            "phonetic": "[viːɐ ˈhaːbən nɪçts gəˈkaʊft | ɪç ˈaʊx nɪçt]",
+            "translation": "Não compramos nada. – Eu também não.",
+            "note": "Cuidado com 'nichts' e 'nicht' – usamos 'auch nicht' para concordar com a negação."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Substitution und Ellipse im Satz",
+        "translation": "Substituição e elipse na frase",
+        "examples": [
+          {
+            "original": "Ich glaube, dass er kommt. – Ich glaube es.",
+            "phonetic": "[ɪç ˈglaʊbə, das eːɐ kɔmt | ɪç ˈglaʊbə ɛs]",
+            "translation": "Acredito que ele vem. – Acredito nisso.",
+            "note": "Uso de 'es' para substituir a oração subordinada."
+          },
+          {
+            "original": "Er trinkt Bier und sie Wein.",
+            "phonetic": "[eːɐ trɪŋkt biːɐ ʊnt ziː vaɪn]",
+            "translation": "Ele bebe cerveja e ela, vinho.",
+            "note": "Elipse do verbo 'trinken' na segunda oração."
+          },
+          {
+            "original": "Ich mag weder Kaffee noch Tee.",
+            "phonetic": "[ɪç maːk ˈveːdɐ ˈkafeː nɔx teː]",
+            "translation": "Não gosto nem de café nem de chá.",
+            "note": "Construção 'weder...noch' para nem...nem."
+          },
+          {
+            "original": "Du hast kein Auto, oder? – Doch, ich habe eins.",
+            "phonetic": "[duː hast kaɪn ˈaʊto, ˈoːdɐ | dɔx, ɪç ˈhaːbə aɪns]",
+            "translation": "Você não tem carro, não é? – Tenho sim!",
+            "note": "Uso de 'doch' para contradizer negação, com 'eins' como pronome substituto."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "pt": "Elipse e substituição"
+    }
+  },
+  {
+    "id": "pt_C1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Fortgeschrittene Diskursmarker / Marcadores discursivos avançados",
+    "bridge": "Em português, usamos conectores como 'no entanto', 'portanto', 'aliás' para organizar o discurso. No alemão, muitos desses marcadores ocupam a posição inicial da frase e desencadeiam inversão do sujeito (Verberststellung). Além disso, alguns têm nuances que não existem em português (ex.: 'zwar' vs. 'allerdings'). Cuidado com o uso de partículas modais que não têm equivalente direto. Aprender esses marcadores é essencial para uma argumentação sofisticada e coesa em alemão.",
+    "rule": "Os marcadores discursivos avançados no alemão podem ser classificados em: 1) Adverbios conjuncionais (z.B. allerdings, außerdem, daher, trotzdem) que exigem inversão do sujeito quando usados no início da frase. 2) Conjunções subordinativas (z.B. während, obwohl) que enviam o verbo para o final da oração. 3) Partículas modais (z.B. ja, doch, denn) que modificam a atitude do falante e não têm tradução literal. 4) Construções com 'zwar' (concede um ponto) e 'aber' (introduz a objeção). Regras: - Após advérbio conjuncional, o verbo vem antes do sujeito (Inversão): 'Allerdings muss ich sagen...' - 'Zwar' é usado com 'aber' em construções correlatas: 'Zwar ist das Angebot gut, aber zu teuer.' - 'Während' pode significar 'enquanto' ou 'ao passo que' (contraste), e exige verbo no final: 'Während er arbeitet, schläft sie.' - 'Je...desto' para correlação proporcional. - Uso de 'nämlich' para explicar, 'allerdings' para restringir, 'außerdem' para adicionar, 'deshalb' para consequência. Exceções: alguns marcadores (z.B. 'also') podem ser usados sem inversão em registro oral. Cuidado com a posição de 'nicht' e 'aber'.",
+    "concept_examples": [
+      {
+        "text": "Allerdings müssen wir den Termin verschieben.",
+        "translation": "No entanto, temos que adiar o prazo.",
+        "phonetic": "ˈalɐdɪŋs ˈmʏsn̩ viːɐ̯ deːn tɛʁˈmiːn fɛɐ̯ˈʃiːbn̩"
+      },
+      {
+        "text": "Zwar ist das Angebot attraktiv, aber die Kosten sind zu hoch.",
+        "translation": "De fato, a oferta é atraente, mas os custos são muito altos.",
+        "phonetic": "tsvaːɐ̯ ɪst das ˈanɡəboːt atʁakˈtiːf, ˈaːbɐ diː ˈkɔstn̩ zɪnt tsuː hoːx"
+      },
+      {
+        "text": "Während die einen sparen, geben die anderen viel Geld aus.",
+        "translation": "Enquanto uns poupam, os outros gastam muito dinheiro.",
+        "phonetic": "ˈvɛːʁənt diː ˈaɪnən ˈʃpaːʁən, ˈɡeːbn̩ diː ˈandəʁən fiːl ɡɛlt aʊs"
+      },
+      {
+        "text": "Je mehr man lernt, desto mehr erkennt man die eigenen Lücken.",
+        "translation": "Quanto mais se aprende, mais se reconhecem as próprias lacunas.",
+        "phonetic": "jeː meːɐ̯ man lɛʁnt, ˈdɛstoː meːɐ̯ ɛɐ̯ˈkɛnt man diː ˈaɪ̯ɡənən ˈlʏkn̩"
+      }
+    ],
+    "common_error": {
+      "wrong": "Obwohl es regnet, ich gehe spazieren.",
+      "correct": "Obwohl es regnet, gehe ich spazieren.",
+      "correct_alt": "Es regnet zwar, aber ich gehe trotzdem spazieren.",
+      "explanation": "Em alemão, 'obwohl' é uma conjunção subordinativa e exige que o verbo da oração subordinada vá para o final, e na oração principal a ordem é Verbo-Sujeito (inversão). O erro vem da transferência do português, que mantém a ordem SVO. Lembre-se: depois de 'obwohl', o verbo vai para o final, e a oração principal começa com o verbo (inversão)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Konnektoren mit Inversion",
+        "translation": "Conectores com inversão",
+        "examples": [
+          {
+            "original": "Außerdem haben wir noch viel Zeit.",
+            "phonetic": "ˈaʊ̯sɐdeːm ˈhaːbn̩ viːɐ̯ nɔx fiːl tsaɪ̯t",
+            "translation": "Além disso, ainda temos muito tempo.",
+            "note": "Observe que 'außerdem' é um advérbio conjuncional que, no início da frase, força a inversão: verbo antes do sujeito."
+          },
+          {
+            "original": "Deshalb konnte er nicht kommen.",
+            "phonetic": "ˈdɛshalp ˈkɔntə eːɐ̯ nɪçt ˈkɔmən",
+            "translation": "Por isso, ele não pôde vir.",
+            "note": "A inversão é obrigatória após 'deshalb'. Em português diríamos 'por isso ele não pôde' sem inversão."
+          },
+          {
+            "original": "Trotzdem hat sie das Projekt erfolgreich abgeschlossen.",
+            "phonetic": "ˈtʁɔt͡sdeːm hat ziː das pʁoˈjɛkt ɛɐ̯ˈfɔlkʁaɪ̯ç ˈapɡəʃlɔsn̩",
+            "translation": "Mesmo assim, ela concluiu o projeto com sucesso.",
+            "note": "Após 'trotzdem', o verbo vem antes do sujeito: 'hat sie'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Zwar ... aber / Jedoch",
+        "translation": "De fato... mas / No entanto",
+        "examples": [
+          {
+            "original": "Zwar ist die Lösung einfach, aber sie ist nicht effizient.",
+            "phonetic": "tsvaːɐ̯ ɪst diː ˈløːzʊŋ ˈaɪ̯nfax, ˈaːbɐ ziː ɪst nɪçt ɛfɪˈt͡si̯ɛnt",
+            "translation": "De fato, a solução é simples, mas ela não é eficiente.",
+            "note": "A construção 'zwar... aber' é típica do alemão formal. 'Zwar' no início exige inversão."
+          },
+          {
+            "original": "Die Idee ist jedoch nicht neu.",
+            "phonetic": "diː iˈdeː ɪst jeˈdɔx nɪçt nɔɪ̯",
+            "translation": "A ideia, no entanto, não é nova.",
+            "note": "'Jedoch' pode ficar no meio da frase e não exige inversão nesse caso."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Subordinierte Konnektoren",
+        "translation": "Conectores subordinativos",
+        "examples": [
+          {
+            "original": "Während die Preise steigen, sinkt die Nachfrage.",
+            "phonetic": "ˈvɛːʁənt diː ˈpʁaɪ̯zə ˈʃtaɪ̯ɡən, zɪŋkt diː ˈnaːxfʁaːɡə",
+            "translation": "Enquanto os preços sobem, a demanda cai.",
+            "note": "'Während' exige verbo no final da oração subordinada: 'steigen' vem depois de 'Preise'."
+          },
+          {
+            "original": "Obwohl er wenig Erfahrung hat, wurde er eingestellt.",
+            "phonetic": "ˈɔpvoːl eːɐ̯ ˈvɪnç ɛɐ̯ˈfaːʁʊŋ hat, ˈvʊʁdə eːɐ̯ ˈaɪ̯nɡəʃtɛlt",
+            "translation": "Embora ele tenha pouca experiência, foi contratado.",
+            "note": "Em 'obwohl', o verbo 'hat' vai para o final. Na oração principal, a inversão ocorre: 'wurde er'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Marcadores discursivos avançados para coesão"
+    }
+  },
+  {
+    "id": "pt_C1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Hedging und Feinabstufung / Distanciamento e matização fina",
+    "bridge": "Em português, usamos expressões como 'talvez', 'possivelmente' e o futuro do subjuntivo para suavizar afirmações. Em alemão, no nível C1, você precisa dominar não só advérbios modais, mas também partículas modais (ja, wohl, doch, eigentlich) e o Konjunktiv II com verbos modais para expressar incerteza de forma sutil. Um erro comum é traduzir 'talvez' diretamente como 'vielleicht' em todas as situações, mas o alemão usa estratégias mais refinadas, como 'sollen' + perfeito para rumores ou 'würde' + infinitivo para hipóteses. A colocação dessas partículas é crucial: elas geralmente vêm depois do verbo finito, o que difere do português.",
+    "rule": "No alemão C1, o hedging (distanciamento) se manifesta por: 1) Advérbios e partículas modais (vielleicht, wohl, vermutlich, wahrscheinlich, angeblich, ja, doch, eigentlich) – cada um tem um grau específico de incerteza e nuances pragmáticas. 2) Konjunktiv II de verbos modais (könnte, müsste, sollte, dürfte) para suposições com diferentes graus de probabilidade: 'könnte' = possibilidade, 'dürfte' = probabilidade, 'müsste' = quase certeza. 3) Konjunktiv II de 'würde' + infinitivo para hipóteses gerais. 4) Verbos modais com significado epistêmico: 'sollen' (rumor), 'wollen' (alegação), 'mögen' (concessão). 5) Construções impessoais como 'es scheint, als ob', 'man könnte annehmen'. Erros comuns incluem usar 'vielleicht' demais, esquecer a posição verbal após partículas, e usar o indikativo em vez do Konjunktiv II em contextos formais. Para C1, é essencial diferenciar níveis de certeza: 'sicher' > 'wahrscheinlich' > 'vermutlich' > 'vielleicht' > 'kaum'. Também é importante dominar o uso de 'doch' e 'ja' para suavizar afirmações ou apelar ao conhecimento compartilhado.",
+    "concept_examples": [
+      {
+        "text": "Das dürfte wohl der richtige Ansatz sein.",
+        "translation": "Provavelmente essa é a abordagem certa.",
+        "phonetic": "/das ˈdʏʁftə vɔl deːɐ̯ ˈʁɪçtɪɡə ˈanzats zaɪn/"
+      },
+      {
+        "text": "Er soll angeblich das Projekt geleitet haben.",
+        "translation": "Ele supostamente liderou o projeto.",
+        "phonetic": "/eːɐ̯ zɔl ˈanɡəblɪç das pʁoˈjɛkt ɡəˈlaɪtət ˈhaːbən/"
+      },
+      {
+        "text": "Es könnte sein, dass wir den Termin verschieben müssen.",
+        "translation": "Pode ser que tenhamos que adiar o prazo.",
+        "phonetic": "/ɛs ˈkœntə zaɪn das viːɐ̯ deːn tɛʁˈmiːn fɛɐ̯ˈʃiːbən ˈmʏsən/"
+      },
+      {
+        "text": "Man müsste die Daten noch einmal überprüfen.",
+        "translation": "Seria necessário verificar os dados mais uma vez.",
+        "phonetic": "/man ˈmʏstə diː ˈdaːtən nɔx ˈaɪnmaːl yːbɐˈpʁyːfən/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Vielleicht er ist nicht da, weil er krank ist.",
+      "correct": "Er ist vielleicht nicht da, weil er krank ist.",
+      "correct_alt": "Er könnte nicht da sein, weil er krank ist.",
+      "explanation": "Em português, 'talvez' no início da frase é comum. Em alemão, o advérbio 'vielleicht' não pode ocupar a posição antes do verbo sem causar inversão; deve vir após o verbo finito ou ser substituído por uma construção com Konjunktiv II (como 'könnte') para expressar incerteza de forma mais natural."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Modale Partikeln und ihre Nuancen",
+        "translation": "Partículas modais e suas nuances",
+        "examples": [
+          {
+            "original": "Das ist ja wohl nicht dein Ernst.",
+            "phonetic": "/das ɪst ja vɔl nɪçt daɪn ɛʁnst/",
+            "translation": "Isso não pode ser sério.",
+            "note": "A combinação 'ja wohl' expressa incredulidade e crítica suave, algo como 'não é possível'."
+          },
+          {
+            "original": "Du hast doch sicher die Unterlagen dabei.",
+            "phonetic": "/duː hast dɔx ˈzɪçɐ diː ˈʊntɐlaːɡən daˈbaɪ/",
+            "translation": "Você certamente trouxe os documentos, não é?",
+            "note": "'doch' apela ao conhecimento compartilhado, suavizando a suposição."
+          },
+          {
+            "original": "Das ist eigentlich nicht so kompliziert.",
+            "phonetic": "/das ɪst ˈaɪɡəntlɪç nɪçt zoː kɔmpliˈt͡siːɐ̯t/",
+            "translation": "Na verdade, não é tão complicado.",
+            "note": "'eigentlich' indica que a realidade difere da expectativa."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Epistemische Modalverben",
+        "translation": "Verbos modais epistêmicos",
+        "examples": [
+          {
+            "original": "Sie dürfte inzwischen angekommen sein.",
+            "phonetic": "/ziː ˈdʏʁftə ɪnˈt͡svɪʃən ˈanɡəkɔmən zaɪn/",
+            "translation": "Ela provavelmente já chegou.",
+            "note": "'dürfte' expressa alta probabilidade, mais forte que 'könnte'."
+          },
+          {
+            "original": "Er will den Unfall gesehen haben.",
+            "phonetic": "/eːɐ̯ vɪl deːn ˈʊnfal ɡəˈzeːən ˈhaːbən/",
+            "translation": "Ele alega ter visto o acidente.",
+            "note": "'wollen' indica que a pessoa afirma algo, mas não necessariamente é verdade."
+          },
+          {
+            "original": "Das mag ja sein, aber trotzdem sollten wir vorsichtig sein.",
+            "phonetic": "/das maːk jaː zaɪn ˈaːbɐ ˈtʁɔt͡sdeːm ˈzɔltən viːɐ̯ ˈfoːɐ̯zɪçtɪç zaɪn/",
+            "translation": "Pode até ser, mas mesmo assim devemos ser cautelosos.",
+            "note": "'mag' + 'ja' concede um ponto, mas não o aceita totalmente."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Höflichkeits- und Distanzstrategien",
+        "translation": "Estratégias de polidez e distanciamento",
+        "examples": [
+          {
+            "original": "Ich würde vorschlagen, die Besprechung auf nächste Woche zu verschieben.",
+            "phonetic": "/ɪç ˈvʏʁdə foːɐ̯ˈʃlaːɡən diː bəˈʃpʁɛçʊŋ aʊf ˈnɛːçstə ˈvɔxə t͡suː fɛɐ̯ˈʃiːbən/",
+            "translation": "Eu sugeriria adiar a reunião para a próxima semana.",
+            "note": "'würde' + infinitivo torna a sugestão mais educada e menos direta."
+          },
+          {
+            "original": "Es scheint, als ob das Team überlastet wäre.",
+            "phonetic": "/ɛs ʃaɪnt als ɔp das teːm yːbɐˈlastət ˈvɛːʁə/",
+            "translation": "Parece que o time está sobrecarregado.",
+            "note": "A construção 'als ob' + Konjunktiv II expressa uma suposição baseada em indícios."
+          },
+          {
+            "original": "Man könnte annehmen, dass die Zahlen nicht stimmen.",
+            "phonetic": "/man ˈkœntə ˈannɛːmən das diː ˈtsaːlən nɪçt ˈʃtɪmən/",
+            "translation": "Pode-se supor que os números não estão corretos.",
+            "note": "'man könnte' é uma forma impessoal de expressar hipótese, muito usada em contextos acadêmicos."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "pt": "Distanciamento e matização fina"
+    }
+  },
+  {
+    "id": "pt_C1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verben mit zwei Objekten (Dativ und Akkusativ) / Verbos com dois objetos (dativo e acusativo)",
+    "bridge": "Em português, muitos verbos que pedem dois objetos (como 'dar', 'enviar', 'mostrar') regem frequentemente preposições (dar algo a alguém, enviar algo para alguém). Em alemão, no entanto, esses verbos usam casos gramaticais sem preposição: o objeto indireto vai no dativo e o objeto direto no acusativo. A ordem das palavras é mais flexível que em português, mas quando o objeto direto é um pronome, ele deve vir antes do objeto indireto substantivo. Um erro típico do falante de português é usar preposições como 'an' ou 'für' onde o alemão usa simplesmente o dativo, ou inverter a ordem dos pronomes.",
+    "rule": "Em alemão, verbos como 'geben', 'schicken', 'zeigen', 'bringen', 'empfehlen', 'versprechen' exigem dois objetos: um no dativo (a pessoa que recebe) e um no acusativo (a coisa dada). Quando ambos os objetos são substantivos, a ordem mais comum é Dativ antes Akkusativ: 'Ich gebe dem Mann das Buch.' No entanto, se o objeto acusativo é um pronome, ele deve preceder o objeto dativo substantivo: 'Ich gebe es dem Mann.' Se ambos são pronomes, o acusativo vem antes do dativo: 'Ich gebe es ihm.' O dativo frequentemente corresponde ao complemento com 'a' ou 'para' em português, mas em alemão não se usa preposição. Atenção: verbos como 'fragen' e 'lehren' regem dois acusativos, o que é uma exceção. Também há verbos que pedem dativo e preposição (como 'warten auf'), mas aqui focamos em verbos com duplo objeto sem preposição.",
+    "concept_examples": [
+      {
+        "text": "Der Lehrer gibt dem Schüler die Hausaufgaben.",
+        "translation": "O professor dá ao aluno a lição de casa.",
+        "phonetic": "deːɐ̯ ˈleːʁɐ ɡiːpt deːm ˈʃyːlɐ diː ˈhaʊ̯sʔaʊ̯fɡaːbən"
+      },
+      {
+        "text": "Ich schicke meiner Mutter einen Brief.",
+        "translation": "Eu envio uma carta para minha mãe.",
+        "phonetic": "ɪç ˈʃɪkə ˈmaɪ̯nɐ ˈmʊtɐ ˈaɪ̯nən bʁiːf"
+      },
+      {
+        "text": "Kannst du mir das Buch zeigen?",
+        "translation": "Você pode me mostrar o livro?",
+        "phonetic": "kanst duː miːɐ̯ das buːx ˈtsaɪ̯ɡən"
+      },
+      {
+        "text": "Er empfiehlt uns dieses Restaurant.",
+        "translation": "Ele nos recomenda este restaurante.",
+        "phonetic": "eːɐ̯ ɛmˈpfiːlt ʊns ˈdiːzəs ʁɛstoˈʁãː"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich gebe das Buch zu dem Mann.",
+      "correct": "Ich gebe dem Mann das Buch.",
+      "correct_alt": "Ich gebe das Buch dem Mann.",
+      "explanation": "O erro ocorre porque em português usamos a preposição 'para' ou 'a' para introduzir o objeto indireto (dar o livro para o homem). Em alemão, essa relação é expressa apenas pelo caso dativo (dem Mann), sem preposição. Para evitar o erro, lembre-se de que verbos como 'geben' já incluem a ideia de 'para alguém' e o destinatário deve ficar no dativo, não com 'zu' ou 'an'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Dativ- und Akkusativobjekt bei Verben des Gebens",
+        "translation": "Objeto dativo e acusativo em verbos de dar",
+        "examples": [
+          {
+            "original": "Er schenkt seiner Freundin eine Rose.",
+            "phonetic": "eːɐ̯ ʃɛŋkt ˈzaɪ̯nɐ ˈfʁɔɪ̯ndɪn ˈaɪ̯nə ˈʁoːzə",
+            "translation": "Ele presenteia sua namorada com uma rosa.",
+            "note": "Verbo 'schenken' rege dativo (a pessoa) e acusativo (a coisa). A ordem natural é dativo primeiro."
+          },
+          {
+            "original": "Der Kellner bringt den Gästen das Essen.",
+            "phonetic": "deːɐ̯ ˈkɛlnɐ bʁɪŋt deːn ˈɡɛstən das ˈɛsən",
+            "translation": "O garçom traz a comida para os hóspedes.",
+            "note": "Aqui o dativo plural 'den Gästen' é seguido pelo acusativo 'das Essen'."
+          },
+          {
+            "original": "Sie reicht mir das Salz.",
+            "phonetic": "ziː ʁaɪ̯çt miːɐ̯ das zalt͡s",
+            "translation": "Ela me passa o sal.",
+            "note": "O pronome dativo 'mir' é curto e naturalmente vem antes do acusativo substantivo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pronomenstellung bei zwei Objekten",
+        "translation": "Posição dos pronomes com dois objetos",
+        "examples": [
+          {
+            "original": "Ich gebe es dem Mann.",
+            "phonetic": "ɪç ˈɡeːbə ɛs deːm man",
+            "translation": "Eu o dou ao homem.",
+            "note": "Quando o acusativo é um pronome (es), ele deve vir antes do dativo substantivo (dem Mann)."
+          },
+          {
+            "original": "Er zeigt es ihr.",
+            "phonetic": "eːɐ̯ t͡saɪ̯kt ɛs iːɐ̯",
+            "translation": "Ele mostra isso a ela.",
+            "note": "Quando ambos os objetos são pronomes, o acusativo (es) vem antes do dativo (ihr)."
+          },
+          {
+            "original": "Kannst du es mir geben?",
+            "phonetic": "kanst duː ɛs miːɐ̯ ˈɡeːbən",
+            "translation": "Você pode me dar isso?",
+            "note": "Em perguntas com verbo modal, o pronome acusativo ('es') precede o dativo ('mir') no infinitivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verben mit zwei Akkusativobjekten und Sonderfälle",
+        "translation": "Verbos com dois objetos acusativos e casos especiais",
+        "examples": [
+          {
+            "original": "Der Lehrer fragt die Schüler die Vokabeln ab.",
+            "phonetic": "deːɐ̯ ˈleːʁɐ fʁaːkt diː ˈʃyːlɐ diː voˈkaːbəln ap",
+            "translation": "O professor pergunta as palavras aos alunos.",
+            "note": "'fragen' e 'lehren' são exceções: ambos os objetos são acusativos. Em português, um deles seria introduzido por preposição."
+          },
+          {
+            "original": "Sie lehrt die Kinder die deutsche Sprache.",
+            "phonetic": "ziː leːɐ̯t diː ˈkɪndɐ diː ˈdɔɪ̯tʃə ˈʃpʁaːxə",
+            "translation": "Ela ensina a língua alemã às crianças.",
+            "note": "Mais um exemplo de dois acusativos: a pessoa e a matéria são ambos acusativos, sem preposição."
+          },
+          {
+            "original": "Er nennt ihn einen Lügner.",
+            "phonetic": "eːɐ̯ nɛnt iːn ˈaɪ̯nən ˈlyːɡnɐ",
+            "translation": "Ele o chama de mentiroso.",
+            "note": "Verbos de nomear (nennen, rufen, schimpfen) usam um acusativo para a pessoa e um segundo acusativo para o predicativo."
+          },
+          {
+            "original": "Wir versprechen den Kindern einen Ausflug.",
+            "phonetic": "viːɐ̯ fɛɐ̯ˈʃpʁɛçən deːn ˈkɪndɐn ˈaɪ̯nən ˈaʊ̯sfluːk",
+            "translation": "Nós prometemos uma excursão às crianças.",
+            "note": "Apesar de 'versprechen' ter dois objetos, a ordem padrão é dativo antes acusativo, mas pode ser invertida para ênfase."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎁",
+    "phonetic": "",
+    "translations": {
+      "pt": "Padrões verbais complexos: verbos com dois objetos"
+    }
+  },
+  {
+    "id": "pt_C1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nuancen von Tempus und Aspekt / Matizes de tempo e aspecto",
+    "bridge": "Em português, a distinção entre tempo e aspecto é frequentemente marcada por perífrases verbais (ex: 'estava fazendo' vs 'fiz'), enquanto o alemão utiliza formas verbais simples e auxiliares com nuances específicas. Para falantes de português, um dos maiores desafios é entender que o Präteritum e o Perfekt não correspondem exatamente ao Pretérito Perfeito e ao Pretérito Imperfeito. Além disso, o uso do Konjunktiv I e II para expressar irrealidade e discurso indireto não tem paralelo direto em português, exigindo reanálise de como expressar hipóteses e incertezas.",
+    "rule": "No nível C1, o foco está em nuances de tempo e aspecto que expressam atitude do falante, anterioridade relativa e duração. 1) Präteritum vs. Perfekt: na escrita formal e narrativa, usa-se Präteritum; na conversação, Perfekt. Mas com verbos modais e 'haben', 'sein', Präteritum é comum mesmo na fala. 2) Plusquamperfekt: expressa anterioridade em relação a um ponto no passado (ex: 'Er hatte schon gegessen, als sie kam'). 3) Konjunktiv II: para situações irreais no presente (ex: 'Wenn ich Zeit hätte, würde ich kommen') e no passado (ex: 'Hätte ich das gewusst, wäre ich nicht gegangen'). 4) Konjunktiv I: para discurso indireto (ex: 'Er sagt, er sei müde'). 5) Futur I e II: Futur I pode expressar suposição (ex: 'Er wird wohl krank sein') e Futur II para suposição sobre o passado (ex: 'Sie wird es vergessen haben'). 6) Aspecto progressivo não é gramaticalizado em alemão; usa-se 'gerade', 'am + Infinitiv' (regional), ou construções com 'dabei sein zu'. É crucial não transferir a distinção entre 'fazia' e 'fez' diretamente.",
+    "concept_examples": [
+      {
+        "text": "Er hatte das Buch schon gelesen, als sie ankam.",
+        "translation": "Ele já tinha lido o livro quando ela chegou.",
+        "phonetic": "eːɐ̯ ˈhatə das buːx ʃoːn ˈɡeːleːzn̩ als ziː ˈaŋkaːm"
+      },
+      {
+        "text": "Wenn ich mehr Zeit hätte, würde ich mehr reisen.",
+        "translation": "Se eu tivesse mais tempo, viajaria mais.",
+        "phonetic": "vɛn ɪç meːɐ̯ tsaɪt ˈhɛtə ˈvʏrdə ɪç meːɐ̯ ˈʁaɪ̯zn̩"
+      },
+      {
+        "text": "Sie sagte, sie sei gestern angekommen.",
+        "translation": "Ela disse que chegou ontem.",
+        "phonetic": "ziː ˈzaːktə ziː zaɪ̯ ˈɡɛstɐn ˈanɡəˌkɔmən"
+      },
+      {
+        "text": "Er wird wohl den Zug verpasst haben.",
+        "translation": "Ele provavelmente perdeu o trem.",
+        "phonetic": "eːɐ̯ vɪʁt voːl deːn tsuːk fɛɐ̯ˈpast ˈhaːbn̩"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich bin gestern gearbeitet.",
+      "correct": "Ich habe gestern gearbeitet.",
+      "correct_alt": "Gestern arbeitete ich.",
+      "explanation": "Falantes de português frequentemente usam 'sein' + Partizip II para formar o Perfekt com verbos que exigem 'haben'. Em alemão, o auxiliar é determinado pelo verbo: verbos transitivos e intransitivos sem mudança de lugar usam 'haben'; verbos que indicam movimento ou mudança de estado usam 'sein'. 'Arbeiten' é intransitivo e expressa atividade, portanto exige 'haben'. Para evitar esse erro, associe cada verbo ao seu auxiliar corretamente e pratique conjugações comuns."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Präteritum vs. Perfekt",
+        "translation": "Pretérito imperfeito/indefinido vs. pretérito perfeito composto",
+        "examples": [
+          {
+            "original": "Als Kind spielte ich oft im Park.",
+            "phonetic": "als kɪnt ˈʃpiːltə ɪç ɔft ɪm paʁk",
+            "translation": "Quando criança, eu brincava frequentemente no parque.",
+            "note": "Use Präteritum para ações habituais no passado, similar ao pretérito imperfeito, mas em alemão é mais comum em narrativas escritas."
+          },
+          {
+            "original": "Ich habe gestern einen Film gesehen.",
+            "phonetic": "ɪç ˈhaːbə ˈɡɛstɐn ˈaɪ̯nən fɪlm ɡəˈzeːən",
+            "translation": "Ontem eu vi um filme.",
+            "note": "Perfekt é usado na conversação para ações concluídas, mesmo que o português use pretérito perfeito simples."
+          },
+          {
+            "original": "Er war müde, also ging er nach Hause.",
+            "phonetic": "eːɐ̯ vaːɐ̯ ˈmyːdə ˈalzoː ɡɪŋ eːɐ̯ naːx ˈhaʊ̯zə",
+            "translation": "Ele estava cansado, então foi para casa.",
+            "note": "Verbos como 'sein' e 'gehen' frequentemente usam Präteritum mesmo na fala; observe a mudança de auxiliar para movimento."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Plusquamperfekt und Nachzeitigkeit",
+        "translation": "Mais-que-perfeito composto e posterioridade",
+        "examples": [
+          {
+            "original": "Nachdem er gegessen hatte, machte er einen Spaziergang.",
+            "phonetic": "ˈnaːxdeːm eːɐ̯ ɡəˈɡɛsən ˈhatə ˈmaxtə eːɐ̯ ˈaɪ̯nən ˈʃpaːtsiːɐ̯ˌɡaŋ",
+            "translation": "Depois que ele tinha comido, ele fez uma caminhada.",
+            "note": "Plusquamperfekt expressa anterioridade em relação a outro evento passado; note o uso de 'hatte'."
+          },
+          {
+            "original": "Sie hatte das Fenster geöffnet, bevor es regnete.",
+            "phonetic": "ziː ˈhatə das ˈfɛnstɐ ɡəˈʔœfnət bəˈfoːɐ̯ ɛs ˈʁeːɡnətə",
+            "translation": "Ela tinha aberto a janela antes de chover.",
+            "note": "Aqui, 'hatte' + Partizip II indica que a ação de abrir ocorreu antes da chuva, similar ao mais-que-perfeito em português."
+          },
+          {
+            "original": "Bevor ich aufstand, hatte ich schon Kaffee getrunken.",
+            "phonetic": "bəˈfoːɐ̯ ɪç ˈaʊ̯fʃtant ˈhatə ɪç ʃoːn ˈkafe ɡəˈtʁʊŋkn̩",
+            "translation": "Antes de eu me levantar, eu já tinha bebido café.",
+            "note": "A posição do advérbio 'schon' e a ordem dos verbos são típicas; atenção à estrutura da oração subordinada."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Konjunktiv I und II",
+        "translation": "Conjuntivo I e II",
+        "examples": [
+          {
+            "original": "Er behauptet, er habe das nicht gewusst.",
+            "phonetic": "eːɐ̯ bəˈhaʊ̯ptət eːɐ̯ ˈhaːbə das nɪçt ɡəˈvʊst",
+            "translation": "Ele afirma que não sabia disso.",
+            "note": "Konjunktiv I é usado para discurso indireto; a forma 'habe' difere do indicativo 'hat'."
+          },
+          {
+            "original": "Wenn ich du wäre, würde ich anders handeln.",
+            "phonetic": "vɛn ɪç duː ˈvɛːʁə ˈvʏʁdə ɪç ˈandɐs ˈhandəln",
+            "translation": "Se eu fosse você, agiria de maneira diferente.",
+            "note": "Konjunktiv II expressa situações irreais ou hipotéticas; 'wäre' e 'würde' são formas típicas."
+          },
+          {
+            "original": "Hätte ich mehr Geld, könnte ich ein Haus kaufen.",
+            "phonetic": "ˈhɛtə ɪç meːɐ̯ ɡɛlt ˈkœntə ɪç aɪ̯n haʊ̯s ˈkaʊ̯fn̩",
+            "translation": "Se eu tivesse mais dinheiro, poderia comprar uma casa.",
+            "note": "A inversão sem 'wenn' é comum em condicionais irreais; 'hätte' e 'könnte' são formas de Konjunktiv II."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Matizes entre tempos e aspectos verbais"
+    }
+  },
+  {
+    "id": "pt_C1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Fortgeschrittene Passivkonstruktionen: „es wird geglaubt, man sagt, es gibt Berichte“ / Pasivas avançadas: „acredita-se, diz-se, há relatos de“",
+    "bridge": "Em alemão, as passivas impessoais são expressas de maneira diferente do português. Enquanto no português usamos o pronome „se“ („acredita-se que...“) ou a terceira pessoa do plural („dizem que...“), o alemão frequentemente recorre ao pronome „es“ ou ao verbo „sein“ com o particípio passado („Es wird geglaubt, dass...“). Uma armadilha comum para falantes de português é a ordem das palavras: quando „es“ é substituído por outra informação, ele desaparece e o verbo assume a primeira posição na frase. Além disso, o uso de „man“ („diz-se“) pode confundir, pois não é uma construção passiva, mas sim ativa com sujeito indefinido.",
+    "rule": "As passivas avançadas no alemão (C1) incluem: 1) Passivas impessoais com „es“: formadas com „es“ + verbo modal/auxiliar + particípio II („Es wird geglaubt, dass...“). Quando um elemento é topicalizado, „es“ é omitido e o verbo vai para a primeira posição („Geglaubt wird, dass...“). 2) Estruturas com „sein“ + particípio II + „zu“ (passiva com modalidade) ou com verbos modais („Das ist zu machen“ = „pode ser feito“). 3) Alternativas ativas com „man“ e „sich lassen“ („Das lässt sich machen“ = „isso pode ser feito“). 4) Passivas com dativo („Mir wurde geholfen“) e com preposições („Es wurde über das Problem diskutiert“). 5) Passivas impessoais com verbos que não têm objeto acusativo („Es wird getanzt“). Exceções: verbos que não formam passiva („haben, sein, wissen, kennen, es gibt“); estar atento ao caso com verbos que regem dativo.",
+    "concept_examples": [
+      {
+        "text": "Es wird geglaubt, dass der Klimawandel die Ursache ist.",
+        "translation": "Acredita-se que a mudança climática seja a causa.",
+        "phonetic": "ɛs vɪʁt ɡəˈɡlaʊpt, das deːɐ̯ ˈkliːmaˌvandl̩ diː ˈuːɐ̯ˌzaːxə ɪst."
+      },
+      {
+        "text": "Man sagt, er sei der beste Spieler der Welt.",
+        "translation": "Dizem que ele é o melhor jogador do mundo.",
+        "phonetic": "man zaːkt, eːɐ̯ zaɪ deːɐ̯ ˈbɛstə ˈʃpiːlɐ deːɐ̯ vɛlt."
+      },
+      {
+        "text": "Er gilt als der klügste Mann seiner Generation.",
+        "translation": "Ele é considerado o homem mais inteligente de sua geração.",
+        "phonetic": "eːɐ̯ ɡɪlt als deːɐ̯ ˈklyːkstə man ˈzaɪnɐ ɡenəˈʁaːtsi̯oːn."
+      },
+      {
+        "text": "Das Projekt lässt sich problemlos umsetzen.",
+        "translation": "O projeto pode ser implementado sem problemas.",
+        "phonetic": "das pʁoˈjɛkt lɛst zɪç pʁoˈbleːmˌloːs ˈʊmˌzɛt͡sn̩."
+      }
+    ],
+    "common_error": {
+      "wrong": "Es wird geglaubt, dass er ist der beste.",
+      "correct": "Es wird geglaubt, dass er der beste ist.",
+      "correct_alt": "Man glaubt, dass er der beste ist.",
+      "explanation": "O erro ocorre porque em português a ordem direta „ele é o melhor“ é natural, mas em alemão, em orações subordinadas introduzidas por „dass“, o verbo conjugado deve ficar no final da oração. Essa diferença de ordenação é típica e precisa ser internalizada. Pratique com frases passivas impessoais para memorizar a posição final do verbo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Unpersönliche Passiv mit „es“",
+        "translation": "Passiva impessoal com „es“",
+        "examples": [
+          {
+            "original": "Es wird getanzt und gelacht.",
+            "phonetic": "ɛs vɪʁt ˈtant͡st ʊnt ɡəˈlaxt.",
+            "translation": "Dança-se e ri-se.",
+            "note": "Note que o „es“ é apenas um placeholder; se a frase começar com outra informação, ele desaparece."
+          },
+          {
+            "original": "Es wurde viel über das Thema diskutiert.",
+            "phonetic": "ɛs ˈvʊʁdə fiːl ˈyːbɐ das ˈteːma dɪskuˈtiːɐ̯t.",
+            "translation": "Discutiu-se muito sobre o tema.",
+            "note": "A preposição „über“ permanece após o verbo, e o „es“ é obrigatório no início."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Alternativen: „man“ und „sich lassen“",
+        "translation": "Alternativas: „man“ e „sich lassen“",
+        "examples": [
+          {
+            "original": "Man erzählt sich, dass sie heimlich heiraten wollen.",
+            "phonetic": "man ɛɐ̯ˈt͡sɛːlt zɪç, das ziː ˈhaɪ̯mlɪç ˈhaɪ̯ʁaːtn̩ ˈvɔlən.",
+            "translation": "Conta-se que eles querem se casar em segredo.",
+            "note": "Aqui „man“ + reflexivo „sich“ é uma alternativa à passiva impessoal, mais comum na fala."
+          },
+          {
+            "original": "Das Problem lässt sich nicht vermeiden.",
+            "phonetic": "das pʁoˈbleːm lɛst zɪç nɪçt fɛɐ̯ˈmaɪ̯dn̩.",
+            "translation": "O problema não pode ser evitado.",
+            "note": "„sich lassen“ + infinitivo é uma forma elegante de expressar possibilidade passiva."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Passiv mit Modalverben und „sein...zu\"",
+        "translation": "Passiva com verbos modais e „sein...zu“",
+        "examples": [
+          {
+            "original": "Die Vorschriften sind unbedingt zu beachten.",
+            "phonetic": "diː ˈfoːɐ̯ˌʃʁɪftn̩ zɪnt ʊnbəˈdɪŋt t͡suː bəˈaxtn̩.",
+            "translation": "As normas devem ser rigorosamente observadas.",
+            "note": "„sein + zu + infinitivo“ indica obrigação ou possibilidade. Aqui no sentido de obrigação."
+          },
+          {
+            "original": "Der Vertrag muss morgen unterschrieben werden.",
+            "phonetic": "deːɐ̯ fɛɐ̯ˈtʁaːk mʊs ˈmɔʁɡn̩ ʊntɐˈʃʁiːbn̩ ˈveːɐ̯dn̩.",
+            "translation": "O contrato deve ser assinado amanhã.",
+            "note": "Com verbo modal, o particípio II + „werden“ aparece no final da frase."
+          },
+          {
+            "original": "Es kann nicht erwartet werden, dass wir alles akzeptieren.",
+            "phonetic": "ɛs kan nɪçt ɛɐ̯ˈvaʁtət ˈveːɐ̯dn̩, das viːɐ̯ ˈaləs ʔaktsɛpˈtiːʁən.",
+            "translation": "Não se pode esperar que aceitemos tudo.",
+            "note": "Com „es“ inicial e modal no final da estrutura, formando uma passiva impessoal com modal."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔒",
+    "phonetic": "",
+    "translations": {
+      "pt": "Passivas avançadas: acredita-se, diz-se, há relatos de"
+    }
+  }
+]

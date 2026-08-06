@@ -1,0 +1,1146 @@
+[
+  {
+    "id": "es_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الفعل الماضي (Pasado simple)",
+    "bridge": "En español, el pasado simple se forma cambiando la terminación del verbo (-ar, -er, -ir). En árabe, el pasado se forma con el verbo conjugado que ya lleva la persona, el género y el número, y no hay auxiliares como 'haber'. Ten cuidado: en árabe el verbo se conjuga de forma diferente para masculino y femenino en segunda y tercera persona, y los verbos irregulares (como 'كان' - ser/estar) cambian su raíz, algo parecido a los verbos irregulares españoles, pero con patrones propios.",
+    "rule": "En árabe, el pasado simple (الماضي) se forma añadiendo sufijos a la raíz verbal (generalmente tres consonantes). Los sufijos varían según la persona, el género y el número. Las terminaciones típicas son: Para la primera persona singular: -tu (تَكَلَّمْتُ - hablé). Primera persona plural: -nā (تَكَلَّمْنَا - hablamos). Segunda persona masculino singular: -ta (تَكَلَّمْتَ - hablaste). Segunda persona femenino singular: -ti (تَكَلَّمْتِ - hablaste). Tercera persona masculino singular: no lleva sufijo (تَكَلَّمَ - habló). Tercera persona femenino singular: -at (تَكَلَّمَتْ - habló). Tercera persona masculino plural: -ū (تَكَلَّمُوا - hablaron). Tercera persona femenino plural: -na (تَكَلَّمْنَ - hablaron). Los verbos irregulares (como كانَ 'ser/estar') tienen cambios en su raíz: كانَ (era/estuvo), كُنْتُ (yo era/estuve), كُنْتَ (tú eras/estuviste), كَانَتْ (ella era/estuvo). También hay verbos que empiezan con vocal (مثل أَكَلَ - comió) y verbos con consonantes geminadas (مثل مَدَّ - extendió). Se usa el pasado para acciones completadas en el pasado, equivalentes al pretérito perfecto simple o compuesto en español.",
+    "concept_examples": [
+      {
+        "text": "تَكَلَّمْتُ مَعَ صَدِيقِي أَمْسَ.",
+        "translation": "Hablé con mi amigo ayer.",
+        "phonetic": "taˈkallamtu maʕa ṣadīqī ʔamsa"
+      },
+      {
+        "text": "كَتَبَتِ الْبِنْتُ رِسَالَةً.",
+        "translation": "La niña escribió una carta.",
+        "phonetic": "katabat al-bintu risālatan"
+      },
+      {
+        "text": "ذَهَبْنَا إِلَى السُّوقِ.",
+        "translation": "Nosotros fuimos al mercado.",
+        "phonetic": "ðahabnā ʔilā s-sūqi"
+      },
+      {
+        "text": "كَانَ الطَّقْسُ جَمِيلًا.",
+        "translation": "El tiempo estuvo hermoso.",
+        "phonetic": "kāna ṭ-ṭaqsu jamīlan"
+      }
+    ],
+    "common_error": {
+      "wrong": "أَنَا تَكَلَّمَ مَعَ صَدِيقِي.",
+      "correct": "أَنَا تَكَلَّمْتُ مَعَ صَدِيقِي.",
+      "correct_alt": "تَكَلَّمْتُ مَعَ صَدِيقِي.",
+      "explanation": "El error ocurre porque en español usamos el pronombre personal 'yo' y luego el verbo conjugado, pero en árabe, aunque se puede usar el pronombre para énfasis, es obligatorio que la terminación del verbo indique la persona. En este caso, 'تَكَلَّمْتُ' (con -tu) es correcto para 'yo'. Evita añadir el pronombre innecesariamente y asegúrate de usar la terminación correcta."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الأَفْعَالُ المُنْتَظِمَةُ فِي المَاضِي",
+        "translation": "Verbos regulares en pasado",
+        "examples": [
+          {
+            "original": "دَرَسَ الطَّالِبُ الدَّرْسَ.",
+            "phonetic": "darasa ṭ-ṭālibu d-darsa",
+            "translation": "El estudiante estudió la lección.",
+            "note": "Verbo 'درس' (estudiar) en tercera persona masculino singular: no lleva sufijo."
+          },
+          {
+            "original": "سَكَنَتِ العَائِلَةُ فِي بَيْتٍ جَدِيدٍ.",
+            "phonetic": "sakanat al-ʕāʔilatu fī baytin jadīdin",
+            "translation": "La familia vivió en una casa nueva.",
+            "note": "Terminación -at para femenino singular."
+          },
+          {
+            "original": "لَعِبْنَا فِي الحَدِيقَةِ.",
+            "phonetic": "laʕibnā fī l-ḥadīqati",
+            "translation": "Jugamos en el jardín.",
+            "note": "Primera persona del plural con -nā."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الأَفْعَالُ غَيْرُ المُنْتَظِمَةِ فِي المَاضِي",
+        "translation": "Verbos irregulares en pasado",
+        "examples": [
+          {
+            "original": "كَانَ الجَوُّ بَارِدًا.",
+            "phonetic": "kāna l-jawwu bāridan",
+            "translation": "El clima era frío.",
+            "note": "Verbo irregular 'كان' (ser/estar) en pasado."
+          },
+          {
+            "original": "أَكَلْنَا الغَدَاءَ مَعًا.",
+            "phonetic": "ʔakalnā l-ġadāʔa maʕan",
+            "translation": "Comimos el almuerzo juntos.",
+            "note": "Verbo 'أكل' (comer) - la raíz comienza con vocal en pasado."
+          },
+          {
+            "original": "شَرِبْتُ القَهْوَةَ صَبَاحًا.",
+            "phonetic": "šaribtu l-qahwata ṣabāḥan",
+            "translation": "Bebí café por la mañana.",
+            "note": "Primera persona singular con -tu."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "المَاضِي مَعَ الضَّمَائِرِ وَالنَّفْيِ",
+        "translation": "Pasado con pronombres y negación",
+        "examples": [
+          {
+            "original": "هِيَ كَتَبَتْ رِسَالَةً.",
+            "phonetic": "hiya katabat risālatan",
+            "translation": "Ella escribió una carta.",
+            "note": "Uso del pronombre 'هي' (ella) para énfasis con terminación -at."
+          },
+          {
+            "original": "لَمْ أَذْهَبْ إِلَى المَدْرَسَةِ.",
+            "phonetic": "lam ʔaðhab ʔilā l-madrasati",
+            "translation": "No fui a la escuela.",
+            "note": "La negación con 'لم' + verbo en presente (forma corta) para pasado."
+          },
+          {
+            "original": "مَا دَرَسْنَا الكَثِيرَ.",
+            "phonetic": "mā darasnā l-kaṯīra",
+            "translation": "No estudiamos mucho.",
+            "note": "Otra forma de negación con 'ما' + verbo en pasado."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "es": "Pasado simple (verbos regulares e irregulares)"
+    }
+  },
+  {
+    "id": "es_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الفعل المضارع المستمر / Presente continuo o progresivo",
+    "bridge": "En español usamos el presente continuo con 'estar + gerundio' para hablar de acciones en curso. En árabe, no existe un tiempo verbal específico para el presente continuo; en su lugar, se usa el presente simple (المضارع) con partículas o adverbios como الآن (ahora) o حالياً (actualmente). El verbo árabe ya indica presente, y el contexto o adverbios aclaran que la acción está en progreso. Ten cuidado: no debes buscar un equivalente directo de 'estar', ya que en árabe no se conjuga un verbo auxiliar para esto.",
+    "rule": "En árabe, el presente continuo se forma con el verbo en presente (المضارع) precedido o seguido de adverbios o expresiones temporales como الآن (ahora), في هذا الوقت (en este momento), حالياً (actualmente). El verbo se conjuga en presente con las terminaciones correspondientes al sujeto. Ejemplos de conjugación en presente: أَنا أَكتُب (yo escribo/estoy escribiendo), أَنتَ تَكتُب (tú escribes/estás escribiendo), هُوَ يَكتُب (él escribe/está escribiendo). A diferencia del español, no se usa un verbo auxiliar; el aspecto continuo se deduce del contexto. Para preguntar por una acción en progreso, se usa la misma estructura con adverbios. Excepción: para enfatizar lo que está ocurriendo 'ahora mismo', se puede usar 'يَفعَلُ الآن' o 'في هذه اللحظة'. No hay diferencia morfológica entre presente simple y continuo en árabe.",
+    "concept_examples": [
+      {
+        "text": "أنا أكتبُ الآن.",
+        "translation": "Yo estoy escribiendo ahora.",
+        "phonetic": "ʔanaː ʔaktubu al-ʔaːn."
+      },
+      {
+        "text": "هي تقرأُ الكتابَ حالياً.",
+        "translation": "Ella está leyendo el libro ahora mismo.",
+        "phonetic": "hiya taqraʔu l-kitaːba ḥaːliyan."
+      },
+      {
+        "text": "نحن نأكلُ في المطعمِ الآن.",
+        "translation": "Nosotros estamos comiendo en el restaurante ahora.",
+        "phonetic": "naḥnu naʔkulu fiː l-maṭʿami l-ʔaːn."
+      },
+      {
+        "text": "هل تلعبُ في الحديقةِ؟",
+        "translation": "¿Estás jugando en el parque?",
+        "phonetic": "hal talʿabu fiː l-ḥadiːqati?"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا أكتبُ كتابةً الآن.",
+      "correct": "أنا أكتبُ الآن.",
+      "correct_alt": "أنا الآن أكتبُ.",
+      "explanation": "El error común es intentar imitar el gerundio español añadiendo una forma como 'كتابةً' (escribir algo como sustantivo) o usando estructuras calcos del español. En árabe, el presente simple ya expresa la acción en curso con el contexto. Añadir un adverbio o expresión temporal como 'الآن' es suficiente. Evita traducir literalmente 'estar + gerundio'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الفعل المضارع مع الآن",
+        "translation": "El presente con 'ahora'",
+        "examples": [
+          {
+            "original": "أنا آكلُ الآن.",
+            "phonetic": "ʔanaː ʔaːkulu l-ʔaːn.",
+            "translation": "Estoy comiendo ahora.",
+            "note": "El verbo 'آكل' está en presente (أفعل) y 'الآن' indica que la acción está en progreso."
+          },
+          {
+            "original": "هي تشربُ القهوةَ الآن.",
+            "phonetic": "hiya taʃrabu l-qahwata l-ʔaːn.",
+            "translation": "Ella está bebiendo café ahora.",
+            "note": "Observa que el verbo 'تشرب' no cambia; el contexto hace que se entienda como continuo."
+          },
+          {
+            "original": "أنتم تلعبون الآن.",
+            "phonetic": "ʔantum talʿabuːna l-ʔaːn.",
+            "translation": "Vosotros estáis jugando ahora.",
+            "note": "El sufijo -ون indica plural masculino en presente."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الفعل المضارع مع حالياً",
+        "translation": "El presente con 'actualmente'",
+        "examples": [
+          {
+            "original": "نحن ندرسُ اللغةَ العربيةَ حالياً.",
+            "phonetic": "naḥnu nadrusu l-luɣata l-ʿarabiyyata ḥaːliyan.",
+            "translation": "Estamos estudiando árabe actualmente.",
+            "note": "'حالياً' es un adverbio más formal que 'الآن' pero expresa lo mismo."
+          },
+          {
+            "original": "أنا أعملُ في شركةٍ حالياً.",
+            "phonetic": "ʔanaː ʔaʿmalu fiː šarikatin ḥaːliyan.",
+            "translation": "Estoy trabajando en una empresa actualmente.",
+            "note": "La acción puede ser a largo plazo, pero se expresa en presente."
+          },
+          {
+            "original": "هم يبنونَ بيتاً جديداً حالياً.",
+            "phonetic": "hum yabnuːna baytan jadīdan ḥaːliyan.",
+            "translation": "Ellos están construyendo una casa nueva actualmente.",
+            "note": "El plural masculino se conjuga con ي- y la terminación -ون."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "الأسئلة عن الحدوث الآن",
+        "translation": "Preguntas sobre acciones en curso",
+        "examples": [
+          {
+            "original": "هل تسمعُ الموسيقى الآن؟",
+            "phonetic": "hal tasmaʿu l-muːsiːqaː l-ʔaːn?",
+            "translation": "¿Estás escuchando música ahora?",
+            "note": "Para preguntar, se usa 'هل' al inicio del presente."
+          },
+          {
+            "original": "ماذا تفعلُ الآن؟",
+            "phonetic": "maːðaː tafʿalu l-ʔaːn?",
+            "translation": "¿Qué estás haciendo ahora?",
+            "note": "La partícula interrogativa 'ماذا' se coloca al principio."
+          },
+          {
+            "original": "هل أنت تشاهدُ التلفازَ الآن؟",
+            "phonetic": "hal ʔanta tuʃaːhidu t-tilfaːza l-ʔaːn?",
+            "translation": "¿Estás viendo la televisión ahora?",
+            "note": "El pronombre 'أنت' puede ser explícito para evitar ambigüedad."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "es": "Presente continuo o progresivo"
+    }
+  },
+  {
+    "id": "es_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "سَوْفَ (futuro con 'sa-' y 'sawfa') / Futuro con 'going to' o equivalente",
+    "bridge": "En español usamos 'ir a + infinitivo' para expresar futuro próximo o intención. En árabe, no existe un equivalente directo, pero se usa el prefijo 'sa-' (سَـ) o la partícula 'sawfa' (سَوْفَ) para formar el futuro simple. La diferencia clave es que en árabe el futuro se marca en el verbo mismo, no con un auxiliar separado como 'ir a'. Además, en árabe no se distingue entre futuro cercano y lejano con estas marcas; esa distinción se hace con contexto o adverbios temporales. Para expresar intención, se puede usar también la estructura 'أنا ذاهب إلى' (ana dhahib ila) que literalmente es 'yo voy a', pero es menos común que en español.",
+    "rule": "En árabe, el futuro se forma de dos maneras:\n1. El prefijo 'sa-' (سَـ) se añade al verbo en presente/imperfecto (mudari). Por ejemplo: يَكْتُبُ (yaktubu, escribe) -> سَيَكْتُبُ (sayaktubu, escribirá).\n2. La partícula 'sawfa' (سَوْفَ) se coloca antes del verbo en presente. Por ejemplo: سَوْفَ يَكْتُبُ (sawfa yaktubu, escribirá). Ambos son equivalentes, pero 'sawfa' puede indicar un futuro un poco más lejano, aunque en la práctica se usan indistintamente.\n\nPara conjugar: el verbo mantiene las mismas terminaciones que el presente, solo se le añade el prefijo o la partícula. Con 'sa-', se une directamente al verbo: سَأَكْتُبُ (sa'aktubu, escribiré), سَتَكْتُبُ (sataktubu, escribirás), سَنَكْتُبُ (sanaktubu, escribiremos).\n\nAdverbios temporales comunes: غَدًا (ghadan, mañana), لاحِقًا (lahiqan, luego), قَرِيبًا (qariban, pronto).\n\nPara expresar intención o futuro próximo, se puede usar la estructura 'ذَاهِبٌ إِلَى أَنْ' (dhahib ila an) + verbo subjuntivo, pero es más común y sencillo usar 'sa-' o 'sawfa'.\n\nErrores típicos: no confundir 'sa-' con 's-' de la primera persona (سَأْ) en verbos que empiezan con hamza; recordar que el prefijo 'sa-' se escribe pegada al verbo, pero 'sawfa' va separada.",
+    "concept_examples": [
+      {
+        "text": "سوف أذهب إلى السوق غدًا.",
+        "translation": "Iré al mercado mañana.",
+        "phonetic": "sawfa ʔaðhabu ʔilā al-sūqi ġadan."
+      },
+      {
+        "text": "سأدرس اللغة العربية.",
+        "translation": "Estudiaré árabe.",
+        "phonetic": "saʔadrusu al-luġata al-ʕarabiyya."
+      },
+      {
+        "text": "هي ستسافر إلى مصر قريبًا.",
+        "translation": "Ella viajará a Egipto pronto.",
+        "phonetic": "hiya satusāfiru ʔilā miṣra qarīban."
+      },
+      {
+        "text": "سنلتقي في المطعم الليلة.",
+        "translation": "Nos encontraremos en el restaurante esta noche.",
+        "phonetic": "sanaltqī fī al-mutʕam al-layla."
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا سأذهب إلى السوق.",
+      "correct": "سأذهب إلى السوق.",
+      "correct_alt": "سوف أذهب إلى السوق.",
+      "explanation": "En español, es común decir 'yo voy a ir', y muchos estudiantes tienden a incluir el pronombre 'أنا' (ana, yo) con el verbo conjugado. En árabe, la terminación del verbo ya indica el sujeto, así que añadir el pronombre es redundante y suena antinatural. El pronombre solo se usa para énfasis o contraste. Evita poner 'أنا' delante de la forma 'sa-' porque el prefijo ya implica 'yo'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "تشكيل المستقبل بـ 'sa-' و 'sawfa'",
+        "translation": "Formación del futuro con 'sa-' y 'sawfa'",
+        "examples": [
+          {
+            "original": "سوف يلعب الولد في الحديقة.",
+            "phonetic": "sawfa yalʕabu al-waladu fī al-ḥadīqa.",
+            "translation": "El niño jugará en el parque.",
+            "note": "Observa que 'sawfa' va antes del verbo en presente, y se traduce como 'jugará'."
+          },
+          {
+            "original": "ستأكل البنت التفاحة.",
+            "phonetic": "sataʔkulu al-bintu al-tuffāḥa.",
+            "translation": "La niña comerá la manzana.",
+            "note": "El prefijo 'sa-' se une directamente al verbo: 'sta' + 'ta'kul' (se convierte en 'sata'kul)."
+          },
+          {
+            "original": "سنشاهد فيلمًا جديدًا.",
+            "phonetic": "sanušāhidu fīlaman jadīdan.",
+            "translation": "Veremos una película nueva.",
+            "note": "'san' + 'nushahid' = 'sanushahid'. No se separa."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "المستقبل مع ضمائر مختلفة",
+        "translation": "Futuro con diferentes pronombres",
+        "examples": [
+          {
+            "original": "سأكتب رسالة لصديقي.",
+            "phonetic": "saʔaktubu risālatan liṣadīqī.",
+            "translation": "Escribiré una carta para mi amigo.",
+            "note": "Para la primera persona del singular, se usa 'sa' + 'a' (yo) -> 'sa'a' + verbo. Aquí 'aktubu' (escribo) se convierte en 'sa'aktubu'."
+          },
+          {
+            "original": "ستعمل في شركة كبيرة.",
+            "phonetic": "sataʕmal fī šarikatin kabīra.",
+            "translation": "Trabajarás en una empresa grande.",
+            "note": "Para 'tú' masculino, la terminación del presente es 'ta' -> 'sa' + 'ta'mal' = 'sata'mal'."
+          },
+          {
+            "original": "سيسافرون إلى إسبانيا.",
+            "phonetic": "sayusāfirūna ʔilā ʔisbāniyā.",
+            "translation": "Ellos viajarán a España.",
+            "note": "Para 'ellos', la terminación es 'una' -> 'sa' + 'yusafirūna' = 'sayusafirūna'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "استخدام أدوات التوقيت مع المستقبل",
+        "translation": "Uso de adverbios de tiempo con el futuro",
+        "examples": [
+          {
+            "original": "سأزورك بعد غدٍ.",
+            "phonetic": "saʔazūruka baʕda ġadin.",
+            "translation": "Te visitaré pasado mañana.",
+            "note": "El adverbio 'ba'da ghadin' (pasado mañana) se coloca al final, al igual que en español."
+          },
+          {
+            "original": "سوف نذاكر للامتحان الأسبوع المقبل.",
+            "phonetic": "sawfa nuḏākiru lilimtiḥāni al-usbūʕi al-muqbil.",
+            "translation": "Estudiaremos para el examen la próxima semana.",
+            "note": "Se puede usar 'sawfa' en lugar de 'sa-' con el mismo significado. Aquí 'sawfa' facilita la pronunciación entre consonantes."
+          },
+          {
+            "original": "لن يسافر الآن، لكنه سيسافر قريبًا.",
+            "phonetic": "lan yusāfira al-ʔāna, lākinahu sayusāfiru qarīban.",
+            "translation": "No viajará ahora, pero viajará pronto.",
+            "note": "Para el futuro negativo se usa 'lan' + verbo en subjuntivo. Pero para expresar contraste, luego se usa 'sa-' para el futuro positivo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕰️",
+    "phonetic": "",
+    "translations": {
+      "es": "Futuro con 'going to' o equivalente"
+    }
+  },
+  {
+    "id": "es_A2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "المستقبل البسيط (سوف / سـ) / Futuro simple",
+    "bridge": "En español, el futuro se forma con terminaciones verbales (-aré, -ás, -á...). En árabe, no hay conjugación de futuro; se usa el prefijo سَـ (sa-) o la partícula سَوْفَ (sawfa) antes del verbo en presente. El verbo no cambia su forma, solo se añade el marcador. Un error común es olvidar que el verbo permanece en presente, no se conjuga en futuro como en español.",
+    "rule": "Para formar el futuro en árabe, se usa el verbo en presente (المضارع) precedido de سَـ (sa-) para un futuro cercano o inmediato, o de سَوْفَ (sawfa) para un futuro más lejano o enfático. El verbo no cambia su terminación según la persona, sino que el contexto y los pronombres indican quién realiza la acción. Ejemplos: سَأَكْتُبُ (sa-aktubu) = escribiré؛ سَوْفَ أَسْكُنُ فِي مَدْرِيدَ (sawfa askunu fi madrid) = viviré en Madrid. Se usa con todos los verbos, tanto regulares como irregulares. En la negación, se usa لَنْ (lan) seguido del verbo en subjuntivo (المضارع المنصوب), pero a nivel A2 es suficiente con saber que لَنْ + presente expresa futuro negativo.",
+    "concept_examples": [
+      {
+        "text": "سَأَذْهَبُ إِلَى السُّوقِ غَدًا.",
+        "translation": "Iré al mercado mañana.",
+        "phonetic": "sa-ʔaðhabu ʔilā as-sūqi ġadan."
+      },
+      {
+        "text": "سَوْفَ نَتَعَلَّمُ اللُّغَةَ الْعَرَبِيَّةَ.",
+        "translation": "Aprenderemos la lengua árabe.",
+        "phonetic": "sawfa nataʕallamu al-luġata al-ʕarabiyya."
+      },
+      {
+        "text": "هَلْ سَتَأْتِي إِلَى الْحَفْلَةِ؟",
+        "translation": "¿Vendrás a la fiesta?",
+        "phonetic": "hal sataʔtī ʔilā al-ḥafla?"
+      },
+      {
+        "text": "لَنْ أَنْسَى ذَلِكَ الْيَوْمَ.",
+        "translation": "No olvidaré ese día.",
+        "phonetic": "lan ʔansā ðālika al-yawma."
+      }
+    ],
+    "common_error": {
+      "wrong": "أَنَا سَوْفَ أَكْتُبُ رِسَالَةً.",
+      "correct": "سَوْفَ أَكْتُبُ رِسَالَةً.",
+      "correct_alt": "سَأَكْتُبُ رِسَالَةً.",
+      "explanation": "En español, a menudo usamos un pronombre sujeto explícito (yo, tú...). En árabe, el pronombre está incluido en la conjugación del verbo, por lo que añadirlo es redundante y suena poco natural, aunque no es incorrecto gramaticalmente. Evita usar أَنَا (ana) con سَوْفَ o سَـ porque ya se sabe quién es el sujeto por la forma verbal. Si quieres enfatizar, puedes usarlo, pero para un nivel A2 es mejor omitirlo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "المُسْتَقْبَل القَرِيب بِـ (سَـ)",
+        "translation": "Futuro cercano con (سَـ)",
+        "examples": [
+          {
+            "original": "سَأَدْرُسُ اللُّغَةَ الإِسْبَانِيَّةَ.",
+            "phonetic": "sa-ʔadrusu al-luġata al-ʔisbāniyya.",
+            "translation": "Estudiaré la lengua española.",
+            "note": "La partícula سَـ se añade directamente al verbo en presente. Observa que el verbo دَرَسَ (estudiar) se conjuga en presente: أَدْرُسُ (estudio), y con سَـ se convierte en futuro."
+          },
+          {
+            "original": "سَنَأْكُلُ الْعَشَاءَ مَعًا.",
+            "phonetic": "sanaʔkulu al-ʕašāʔa maʕan.",
+            "translation": "Cenaremos juntos.",
+            "note": "Aquí سَـ + نَأْكُلُ (comemos) = comeremos. Recuerda que la forma verbal ya indica 'nosotros', por lo que no hace falta usar نَحْنُ (nosotros)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "المُسْتَقْبَل البَعِيد بِـ (سَوْفَ)",
+        "translation": "Futuro lejano con (سَوْفَ)",
+        "examples": [
+          {
+            "original": "سَوْفَ أَسْكُنُ فِي بَيْتٍ كَبِيرٍ.",
+            "phonetic": "sawfa ʔaskunu fī baytin kabīrin.",
+            "translation": "Viviré en una casa grande.",
+            "note": "سَوْفَ va separada del verbo, a diferencia de سَـ. Se usa para un futuro más lejano o con énfasis."
+          },
+          {
+            "original": "سَوْفَ نُسَافِرُ إِلَى مِصْرَ فِي الصَّيْفِ.",
+            "phonetic": "sawfa nusāfiru ʔilā miṣra fī aṣ-ṣayfi.",
+            "translation": "Viajaremos a Egipto en verano.",
+            "note": "El verbo نُسَافِرُ (viajamos) ya incluye el sujeto 'nosotros'. سَوْفَ simplemente lo hace futuro."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "النَّفْي بِـ (لَنْ)",
+        "translation": "Negación con (لَنْ)",
+        "examples": [
+          {
+            "original": "لَنْ أَتَأَخَّرَ عَنِ الْمَوْعِدِ.",
+            "phonetic": "lan ʔataʔaḫḫara ʕani al-mawʕidi.",
+            "translation": "No llegaré tarde a la cita.",
+            "note": "لَنْ cambia el verbo al subjuntivo (terminación -a). Aquí أَتَأَخَّرَ en lugar de أَتَأَخَّرُ."
+          },
+          {
+            "original": "لَنْ تَنْدَمَ عَلَى هَذَا الْقَرَارِ.",
+            "phonetic": "lan tandama ʕalā hāðā al-qarār.",
+            "translation": "No te arrepentirás de esta decisión.",
+            "note": "El verbo تَنْدَمَ (subjuntivo) en lugar de تَنْدَمُ (indicativo). Es importante notar el cambio de la última vocal."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔮",
+    "phonetic": "",
+    "translations": {
+      "es": "Futuro simple"
+    }
+  },
+  {
+    "id": "es_A2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "التفضيل والمقارنة (Comparativos y superlativos)",
+    "bridge": "En español usamos 'más... que' y 'el más... de'. En árabe, la forma comparativa se construye con un patrón especial: أَفْعَل (afʕal) para el masculino y فُعْلى (fuʕlaa) para el femenino. Un error común es usar 'من' (min) en lugar de 'que', pero en árabe siempre se usa 'من' después del comparativo. Además, el superlativo se expresa con el artículo definido 'ال' + comparativo, o con la construcción 'من بين'.",
+    "rule": "En árabe, el comparativo se forma con el patrón أَفْعَل (afʕal) para el masculino y فُعْلى (fuʕlaa) para el femenino, que se derivan de adjetivos de tres consonantes. Por ejemplo, de كَبير (grande) → أَكْبَر (más grande) y كُبْرى (más grande, fem.). El segundo término de la comparación se introduce con مِن (que). Para el superlativo, se usa el artículo definido ال + comparativo (الأَكْبَر = el más grande) o la construcción comparativo + مِن + sustantivo plural (أَكْبَرُ الطُّلّابِ = el más grande de los estudiantes). Los adjetivos que no siguen el patrón triliteral (como los de origen extranjero) usan أَكْثَر (más) seguido del adjetivo, y أَقَلّ (menos) para menos.",
+    "concept_examples": [
+      {
+        "text": "هذا البيت أكبر من ذاك.",
+        "translation": "Esta casa es más grande que aquella.",
+        "phonetic": "haːðaː l-bajtu ʔakbaru min ðaːk"
+      },
+      {
+        "text": "هي أصغر من أختها.",
+        "translation": "Ella es más pequeña que su hermana.",
+        "phonetic": "hija ʔaṣɣaru min ʔuxtihaː"
+      },
+      {
+        "text": "هذا هو أفضل فيلم شاهدته.",
+        "translation": "Esta es la mejor película que he visto.",
+        "phonetic": "haːðaː huwa ʔafḍalu fiːlm ʃaːhadtuh"
+      },
+      {
+        "text": "هذا الكتاب أكثر إثارة من ذاك.",
+        "translation": "Este libro es más emocionante que aquel.",
+        "phonetic": "haːðaː l-kitaːbu ʔakθaru ʔiṯaːratin min ðaːk"
+      }
+    ],
+    "common_error": {
+      "wrong": "هو أكبر مني *من* أخي",
+      "correct": "هو أكبر مني من أخي (pero mejor: هو أكبر مني من أخي)",
+      "correct_alt": "هو أكبر من أخي",
+      "explanation": "En español, a veces se usa 'que' y luego 'de' en comparaciones, pero en árabe, la partícula 'من' se usa siempre para 'que' en comparativos. El error común es usar 'من' dos veces, pero es correcto usarla una sola vez. La confusión surge porque en español decimos 'más grande que yo' y luego 'que mi hermano', pero en árabe se dice 'أكبر منّي' (más grande que yo) y luego se puede añadir 'من أخي' (que mi hermano) sin repetir el verbo. La forma natural es 'هو أكبر من أخي'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "المقارنة",
+        "translation": "Comparativo",
+        "examples": [
+          {
+            "original": "هو أطول مني.",
+            "phonetic": "huwa ʔaṭwalu minnī",
+            "translation": "Él es más alto que yo.",
+            "note": "Usamos أطول (más alto) seguido de من (que) y el pronombre personal."
+          },
+          {
+            "original": "هي أجمل من صديقتها.",
+            "phonetic": "hija ʔajmalu min ṣadīqatihā",
+            "translation": "Ella es más bonita que su amiga.",
+            "note": "El comparativo femenino se forma igual que el masculino, aunque el adjetivo concuerde en género."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "التفضيل",
+        "translation": "Superlativo relativo",
+        "examples": [
+          {
+            "original": "هذا هو الأفضل.",
+            "phonetic": "haːðaː huwa l-ʔafḍal",
+            "translation": "Este es el mejor.",
+            "note": "El superlativo se forma con ال + comparativo: الأفضل (el mejor)."
+          },
+          {
+            "original": "هي الأذكى في الصف.",
+            "phonetic": "hija l-ʔaðkaː fī ṣ-ṣaff",
+            "translation": "Ella es la más inteligente de la clase.",
+            "note": "Usamos في (en) en lugar de 'de' para indicar el grupo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "أكثر وأقل",
+        "translation": "Más y menos con adjetivos no regulares",
+        "examples": [
+          {
+            "original": "هذا الدرس أكثر صعوبة من ذاك.",
+            "phonetic": "haːðaː d-darsu ʔakθaru ṣuʕūbatin min ðāk",
+            "translation": "Esta lección es más difícil que aquella.",
+            "note": "Con adjetivos como صعوبة (dificultad) usamos أكثر + sustantivo + من."
+          },
+          {
+            "original": "هذا الكتاب أقل إثارة من الفيلم.",
+            "phonetic": "haːðaː l-kitaːbu ʔaqallu ʔiṯāratin min al-fiːlm",
+            "translation": "Este libro es menos emocionante que la película.",
+            "note": "Para 'menos' usamos أقل (aqall) + sustantivo + من."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "es": "Comparativos y superlativos"
+    }
+  },
+  {
+    "id": "es_A2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الأفعال الناقصة (يجب، ينبغي، يجب على)",
+    "bridge": "En español usamos verbos modales como 'deber', 'tener que' o 'hay que' para expresar obligación o consejo. En árabe, estos significados se transmiten principalmente con estructuras verbales impersonales y partículas, no con verbos auxiliares conjugados como en español. Una diferencia clave es que en árabe la obligación se expresa con frecuencia mediante 'يجب أن' (debe que) seguido de un verbo en subjuntivo, o con 'على' (sobre) precedido del verbo 'يكون' (ser). Además, el árabe no tiene un infinitivo propiamente dicho: se usa el subjuntivo con 'أن' (que). Cuidado: no debes traducir literalmente 'deber' como un verbo conjugado con persona, porque en árabe 'يجب' es impersonal y la persona se marca en la preposición que sigue (على + pronombre) o en el verbo subordinado.",
+    "rule": "En árabe, para expresar obligación y necesidad (equivalente a 'deber', 'tener que', 'hay que'), se usan principalmente las siguientes construcciones:\n\n1. **يجب أن + فعل مضارع منصوب** (debe que + verbo en subjuntivo): Expresa una obligación general o personal. La partícula 'أن' exige que el verbo siguiente esté en subjuntivo (terminación -a). Ejemplo: يجب أن تدرسَ (debes estudiar). Cuando la obligación es para una persona específica, se usa 'على' antes del pronombre o sustantivo: يجب عليك أن تدرسَ (debes estudiar – a ti te toca). La persona se marca en la preposición: عليّ (yo), عليك (tú), عليه (él), علينا (nosotros), عليكم (vosotros), عليهم (ellos).\n\n2. **ينبغي أن + فعل مضارع منصوب**: Es más formal, similar a 'conviene' o 'es recomendable'. También impersonal, pero sin la preposición 'على'. Ejemplo: ينبغي أن تحترمَ الآخرين (conviene que respetes a los demás).\n\n3. **من الضروري أن / من المهم أن** (es necesario que / es importante que): También van seguidas de subjuntivo. Ejemplo: من الضروري أن تصلَ في الوقت (es necesario que llegues a tiempo).\n\n4. **لا بد أن + فعل مضارع مرفوع** (no hay remedio que / forzosamente): Expresa obligación fuerte o inevitabilidad. No exige subjuntivo, sino indicativo. Ejemplo: لا بد أن تدرسَ (debes estudiar forzosamente) – pero aquí el verbo puede estar en indicativo o subjuntivo según el hablante; lo común es indicativo.\n\n**Conjugación del verbo en subjuntivo**: Para formar el subjuntivo, se toma el presente de indicativo y se cambia la terminación: -u → -a en singular, y -ūna → -ū, -īna → -ī. Ejemplos: يدرسُ (estudia) → يدرسَ (estudie); تدرسونَ → تدرسوا.\n\n**Negación**: Para negar la obligación se usa 'لا يجب أن' (no debe que) o 'ليس من الضروري' (no es necesario). Ejemplo: لا يجب أن تذهبَ (no debes ir). Nota: 'لا يجب' puede significar 'no es obligatorio' o 'está prohibido' según contexto; para prohibición se prefiere 'ممنوع' o 'لا يجوز'.\n\n**Uso en pasado**: Para expresar obligación en el pasado, se usa 'كان يجب أن' + subjuntivo, o 'كان من الضروري أن'. Ejemplo: كان يجب أن أدرسَ (debí estudiar).\n\n**Diferencia con español**: En español, los modales se conjugan (debo, debes, debe), pero en árabe 'يجب' es invariable y la persona se marca con 'على + pronombre'. Además, el subjuntivo es obligatorio después de 'أن', mientras que en español usamos infinitivo ('debes estudiar' → 'يجب أن تدرس', no 'يجب تدرس').",
+    "concept_examples": [
+      {
+        "text": "يجب أن تدرسَ كل يوم.",
+        "translation": "Debes estudiar todos los días.",
+        "phonetic": "/ˈjajibu ʔan tadrusa kulli jawm/"
+      },
+      {
+        "text": "يجب عليك أن تتصلَ بوالدتك.",
+        "translation": "Debes llamar a tu madre.",
+        "phonetic": "/ˈjajibu ʕalajka ʔan tatˤasˤsˤala biwaːlidatik/"
+      },
+      {
+        "text": "ينبغي أن تشربَ الماء كثيراً.",
+        "translation": "Conviene que bebas mucha agua.",
+        "phonetic": "/ˈjanbaɣi ʔan taʃraba lmaːʔa kaθiːran/"
+      },
+      {
+        "text": "لا بد أن تذهبَ إلى الطبيب.",
+        "translation": "Tienes que ir al médico (forzosamente).",
+        "phonetic": "/laː budda ʔan taðhaba ʔila tˤabiːb/"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا يجب أن أدرس",
+      "correct": "يجب عليَّ أن أدرس",
+      "correct_alt": "يجب أن أدرس",
+      "explanation": "Los hispanohablantes suelen traducir literalmente 'yo debo' como 'أنا يجب', añadiendo el pronombre personal 'أنا' delante. Pero 'يجب' es impersonal y no se conjuga; la persona se indica mediante la preposición 'على' con el pronombre correspondiente (عليَّ = sobre mí), o se omite cuando está claro por el verbo subordinado. Decir 'أنا يجب' es incorrecto porque el pronombre no puede ser sujeto de un verbo impersonal. Para corregirlo, usa 'يجب عليَّ أن' + verbo en subjuntivo, o simplemente 'يجب أن' + verbo en subjuntivo si el sujeto se entiende por contexto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "يجب أن",
+        "translation": "Debe que (obligación general)",
+        "examples": [
+          {
+            "original": "يجب أن نأكل الفطور.",
+            "phonetic": "/ˈjajibu ʔan naːkula lfuːtˤuːr/",
+            "translation": "Debemos desayunar.",
+            "note": "Se usa 'يجب أن' seguido de subjuntivo. Aquí 'نأكل' (comamos) termina con -a porque es subjuntivo."
+          },
+          {
+            "original": "يجب أن تسامح صديقك.",
+            "phonetic": "/ˈjajibu ʔan tasaːmaħa sˤadiːqak/",
+            "translation": "Debes perdonar a tu amigo.",
+            "note": "El verbo 'تسامح' (perdonar) está en subjuntivo: termina en -a. Sin la 'أن', sería 'تسامحُ' con -u."
+          },
+          {
+            "original": "لا يجب أن تتأخر.",
+            "phonetic": "/laː ˈjajibu ʔan tataʔaxxara/",
+            "translation": "No debes llegar tarde.",
+            "note": "La negación se forma con 'لا' antes de 'يجب'. El subjuntivo se mantiene después de 'أن'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "يجب على + ضمير",
+        "translation": "Debe sobre + pronombre (obligación personal)",
+        "examples": [
+          {
+            "original": "يجب عليَّ أن أنظف غرفتي.",
+            "phonetic": "/ˈjajibu ʕalajja ʔan ʔunatˤːifa ɣurfatij/",
+            "translation": "Debo limpiar mi habitación.",
+            "note": "La forma 'عليَّ' (sobre mí) indica la persona. El verbo 'أنظف' está en subjuntivo."
+          },
+          {
+            "original": "يجب علينا أن ندرس بجد.",
+            "phonetic": "/ˈjajibu ʕalajnaː ʔan nadrusa bidʒidd/",
+            "translation": "Debemos estudiar con esfuerzo.",
+            "note": "'علينا' (sobre nosotros) marca la primera persona del plural. Observa la terminación -a en 'ندرس'."
+          },
+          {
+            "original": "يجب عليك أن تشرب الدواء.",
+            "phonetic": "/ˈjajibu ʕalajka ʔan taʃraba dːawaːʔ/",
+            "translation": "Debes tomar la medicina.",
+            "note": "'عليك' (sobre ti) para la segunda persona. Recuerda que el pronombre va pegado a la preposición."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "ينبغي أن / لا بد أن",
+        "translation": "Conviene que / Tener que (necesidad y recomendación)",
+        "examples": [
+          {
+            "original": "ينبغي أن تقرأ أكثر.",
+            "phonetic": "/ˈjanbaɣi ʔan taqraʔa ʔakθar/",
+            "translation": "Conviene que leas más.",
+            "note": "'ينبغي' es más formal y se usa para recomendaciones. También requiere subjuntivo."
+          },
+          {
+            "original": "ينبغي على الطلاب أن يحترموا معلمهم.",
+            "phonetic": "/ˈjanbaɣi ʕala ttˤullaːb ʔan jaħtˤarimuu muʕallimahum/",
+            "translation": "Los estudiantes deben respetar a su maestro.",
+            "note": "Aquí 'ينبغي' también puede ir con 'على' para especificar la persona. El verbo 'يحترموا' está en subjuntivo plural."
+          },
+          {
+            "original": "لا بد أن تنجح في الامتحان.",
+            "phonetic": "/laː budda ʔan tanǧaħa fiː lʔimtiħaːn/",
+            "translation": "Tienes que aprobar el examen (sí o sí).",
+            "note": "'لا بد أن' expresa obligación fuerte o inevitabilidad. A menudo se usa con subjuntivo, aunque algunos hablantes usan indicativo."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbos modales (deber, tener que)"
+    }
+  },
+  {
+    "id": "es_A2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الأفعال الانعكاسية / Verbos reflexivos",
+    "bridge": "En español usamos pronombres reflexivos como 'me', 'te', 'se' antes del verbo (ej. 'yo me lavo'). En árabe, la reflexividad se expresa de manera diferente: a menudo mediante el uso de la forma verbal derivada 'tafaʿʿala' (por ejemplo, 'istayqaẓa' = despertarse) o con el objeto directo que indica la misma persona. La clave es que en árabe no existe un pronombre reflexivo separado como 'se'; en su lugar, se usan patrones verbales específicos o la partícula 'nafs' (mismo). Para un hispanohablante, el error típico es intentar traducir literalmente 'me lavo' como 'aġsil nafsī' (lavo mi mismo), que suena poco natural y se prefiere la forma reflexiva del verbo.",
+    "rule": "En árabe, los verbos reflexivos se forman principalmente mediante las formas derivadas (awzān) del verbo, especialmente la forma V (tafaʿʿala) y la forma VII (infaʿala). La forma V añade el prefijo 'ta-' a la forma base y suele indicar reflexividad o reciprocidad (ej. 'tadarrasa' = estudiarse a sí mismo, aunque más comúnmente 'tadarraba' = entrenarse). La forma VII añade el prefijo 'in-' (ej. 'inkasara' = romperse). También se usa la partícula 'nafs' (mismo) con pronombres posesivos para enfatizar (ej. 'ʾarā nafsī' = me veo a mí mismo). Para verbos de rutina diaria (lavarse, peinarse, levantarse), se emplean principalmente las formas V o VII, o verbos específicos que ya tienen sentido reflexivo. No se usa un pronombre reflexivo como en español; el verbo en sí transmite la acción reflexiva. Ejemplos comunes: 'istayqaẓa' (despertarse) de la forma X, 'iġtasala' (lavarse) de la forma VIII. Para A2, es importante aprender los verbos más frecuentes y sus formas, y recordar que el objeto directo en árabe puede omitirse si es reflexivo.",
+    "concept_examples": [
+      {
+        "text": "أَسْتَيْقِظُ فِي السَّادِسَةِ صَبَاحًا.",
+        "translation": "Me despierto a las seis de la mañana.",
+        "phonetic": "ʾastayqiẓu fī as-sādisati ṣabāḥan."
+      },
+      {
+        "text": "تَغْسِلُ فَاطِمَةُ وَجْهَهَا كُلَّ يَوْمٍ.",
+        "translation": "Fátima se lava la cara todos los días.",
+        "phonetic": "taġsilu fāṭimatu wajhahā kulla yawmin."
+      },
+      {
+        "text": "نَسْتَحِمُّ بَعْدَ الرِّيَاضَةِ.",
+        "translation": "Nos duchamos después del deporte.",
+        "phonetic": "nastaḥimmu baʿda ar-riyāḍati."
+      },
+      {
+        "text": "هَلْ تَذْكُرُ اسْمِي؟",
+        "translation": "¿Te acuerdas de mi nombre? (literal: ¿Recuerdas mi nombre?)",
+        "phonetic": "hal taḏkuru smī?"
+      }
+    ],
+    "common_error": {
+      "wrong": "أَنَا أَغْسِلُ نَفْسِي كُلَّ يَوْمٍ.",
+      "correct": "أَغْتَسِلُ كُلَّ يَوْمٍ.",
+      "correct_alt": "أَغْسِلُ وَجْهِي كُلَّ يَوْمٍ.",
+      "explanation": "El error es traducir literalmente 'yo me lavo' como 'aġsil nafsī' (lavo mi mismo), que es gramaticalmente posible pero suena poco natural y enfático en árabe. El árabe prefiere usar la forma verbal reflexiva (aquí 'aġtasilu' de la forma VIII) o incluir la parte del cuerpo como objeto (ej. 'aġsilu wajhī' = lavo mi cara). Para evitar este error, aprende las formas verbales reflexivas de los verbos comunes y evita usar 'nafs' a menos que quieras enfatizar 'yo mismo'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الأَفْعَالُ الانْعِكَاسِيَّةُ الشَّائِعَةُ",
+        "translation": "Verbos reflexivos comunes",
+        "examples": [
+          {
+            "original": "أَسْتَيْقِظُ مُبَكِّرًا.",
+            "phonetic": "ʾastayqiẓu mubakkiran.",
+            "translation": "Me despierto temprano.",
+            "note": "El verbo 'istayqaẓa' (forma X) significa despertarse y ya incluye la reflexividad."
+          },
+          {
+            "original": "تَغْسِلُ يَدَيْهَا قَبْلَ الأَكْلِ.",
+            "phonetic": "taġsilu yadayhā qabla al-akli.",
+            "translation": "Ella se lava las manos antes de comer.",
+            "note": "Se usa el verbo 'ġasala' con la parte del cuerpo como objeto, no un reflexivo separado."
+          },
+          {
+            "original": "نَلْبَسُ مَلَابِسَنَا بِسُرْعَةٍ.",
+            "phonetic": "nalbasu malābisanā bisurʿatin.",
+            "translation": "Nos vestimos rápidamente.",
+            "note": "En árabe, 'labisa' se usa con el objeto 'nuestras ropas' para expresar 'vestirse'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الأَفْعَالُ المُتَبَادَلَةُ (المُتَكَافِئَةُ)",
+        "translation": "Verbos recíprocos",
+        "examples": [
+          {
+            "original": "يَتَقَابَلُ الأَصْدِقَاءُ فِي المَقْهَى.",
+            "phonetic": "yataqābalu al-ʾaṣdiqāʾu fī al-maqhā.",
+            "translation": "Los amigos se encuentran en el café.",
+            "note": "El verbo 'taqābala' (forma VI) indica acción mutua: encontrarse unos a otros."
+          },
+          {
+            "original": "نَتَسَاعَدُ فِي المَنْزِلِ.",
+            "phonetic": "natasāʿadu fī al-manzili.",
+            "translation": "Nos ayudamos mutuamente en casa.",
+            "note": "La forma VI 'tasāʿada' expresa ayuda recíproca."
+          },
+          {
+            "original": "يَتَفَاهَمُونَ جَيِّدًا.",
+            "phonetic": "yatafāhamūna jayyidan.",
+            "translation": "Se entienden bien (mutuamente).",
+            "note": "El verbo 'tafāhama' (forma VI) significa entenderse el uno al otro."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "التَّرْكِيبُ مَعَ نَفْس",
+        "translation": "La construcción con 'nafs' (mismo)",
+        "examples": [
+          {
+            "original": "أَرَى نَفْسِي فِي المِرْآةِ.",
+            "phonetic": "ʾarā nafsī fī al-mirʾāti.",
+            "translation": "Me veo a mí mismo en el espejo.",
+            "note": "Usamos 'nafs' + sufijo posesivo para enfatizar 'a mí mismo'. No es el uso común para rutinas."
+          },
+          {
+            "original": "هِيَ تَغْرِسُ نَفْسَهَا فِي العَمَلِ.",
+            "phonetic": "hiya taġrisu nafsahā fī al-ʿamali.",
+            "translation": "Ella se involucra a sí misma en el trabajo.",
+            "note": "Ejemplo menos común pero válido: 'nafs' + sufijo posesivo indica énfasis en la propia persona."
+          },
+          {
+            "original": "يَقُولُ لِنَفْسِهِ: كُنْ شُجَاعًا.",
+            "phonetic": "yaqūlu linafsihi: kun šujāʿan.",
+            "translation": "Se dice a sí mismo: sé valiente.",
+            "note": "Aquí 'nafs' con sufijo posesivo y preposición 'li-' (a) expresa 'a sí mismo'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🪞",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbos reflexivos"
+    }
+  },
+  {
+    "id": "es_A2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "ضمائر المفعول به والمفعول لأجله / Pronombres de objeto directo e indirecto",
+    "bridge": "En árabe, los pronombres de objeto directo e indirecto son sufijos que se añaden al final del verbo, la preposición o el nombre, mientras que en español son palabras separadas (me, te, lo/la, le…). Esta diferencia es clave: mientras que en español decimos 'te veo', en árabe se dice 'أَراكَ' (arāka), donde 'ka' es el sufijo de objeto directo. Presta atención a la posición: en árabe el sufijo va pegado, y en español puede ir antes o después del verbo. Además, en árabe no hay distinción entre 'le' y 'lo/la' para objetos indirectos y directos en la misma forma, pero el contexto y las vocales cortas lo indican.",
+    "rule": "En árabe, los pronombres de objeto directo e indirecto son sufijos que se unen al final del verbo, preposición o nombre. Para el objeto directo, los sufijos más comunes son: -nī (me), -ka (te, masc.), -ki (te, fem.), -hu (lo, él), -hā (la, ella), -nā (nos), -kum (os, masc.), -kunna (os, fem.), -hum (los, ellos), -hunna (las, ellas). Para el objeto indirecto, se usa la preposición 'li' (para) + sufijo: lī (para mí), laka (para ti), lahu (para él), lahā (para ella), lanā (para nosotros), lakum (para vosotros), lahum (para ellos). Ejemplo: 'كَتَبْتُ لَهُ' (katabtu lahu) = 'le escribí a él'. A diferencia del español, en árabe el objeto indirecto no se duplica; se expresa una sola vez con la preposición. Además, cuando el verbo termina en vocal y se añade el sufijo, se inserta una consonante de unión (como ن) en algunos casos para evitar dos vocales seguidas. Para nivel A2, es esencial dominar los sufijos de objeto directo con verbos comunes y los indirectos con 'li'.",
+    "concept_examples": [
+      {
+        "text": "أَراكَ كُلَّ يَوْمٍ",
+        "translation": "Te veo todos los días.",
+        "phonetic": "ʔarāka kulla yawm"
+      },
+      {
+        "text": "كَسَرْتُهُ بِالخَطَأِ",
+        "translation": "Lo rompí por accidente.",
+        "phonetic": "kasartuhu bil-xaṭaʔ"
+      },
+      {
+        "text": "أُحِبُّها كَثيرًا",
+        "translation": "La quiero mucho.",
+        "phonetic": "ʔuḥibbuhā kaṯīran"
+      },
+      {
+        "text": "أَعْطَيْتُهُ كِتابًا",
+        "translation": "Le di un libro (a él).",
+        "phonetic": "ʔaʕṭaytuhu kitāban"
+      }
+    ],
+    "common_error": {
+      "wrong": "أَنا أَكْتُبُ لَهُ الرسالةَ يَوْمِياً (Ana aktubu lahu ar-risālata yawmiyan) – literalmente 'yo escribo para él la carta', que es correcto en estructura, pero el error típico de hispanohablantes es poner el pronombre antes como palabra separada: 'أَنا لَهُ أَكْتُبُ الرسالة' (Ana lahu aktubu ar-risālah) – que es incorrecto porque en árabe el pronombre no se antepone al verbo como en español.",
+      "correct": "أَنا أَكْتُبُ لَهُ الرسالةَ يَوْمِياً",
+      "correct_alt": "أَكْتُبُ لَهُ الرسالةَ يَوْمِياً",
+      "explanation": "El error surge porque en español los pronombres de objeto indirecto pueden ir antes del verbo ('le escribo') o después ('escribirle'), pero en árabe siempre van unidos como sufijos o después de la preposición 'li'. Para evitarlo, recuerda que en árabe el verbo va primero, y el pronombre de objeto directo o indirecto se pega al final o viene después de la preposición."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "ضمائر المفعول به مع الأفعال الماضية",
+        "translation": "Pronombres de objeto directo con verbos en pasado",
+        "examples": [
+          {
+            "original": "شاهَدَني في الحَفْلَةِ",
+            "phonetic": "šāhadanī fī al-ḥaflah",
+            "translation": "Me vio en la fiesta.",
+            "note": "El sufijo -nī se añade al verbo en pasado. Observa que el verbo 'šāhada' termina en vocal corta que se refleja en la -a antes del sufijo."
+          },
+          {
+            "original": "ضَرَبَهُ وَلَدٌ",
+            "phonetic": "ḍarabahu walad",
+            "translation": "Un niño lo golpeó.",
+            "note": "El sufijo -hu se pega al verbo. La vocal final del verbo cambia a -a para unir el sufijo."
+          },
+          {
+            "original": "سَمِعْتُها في الراديو",
+            "phonetic": "samiʕtuhā fī ar-rādyū",
+            "translation": "La escuché en la radio.",
+            "note": "El sufijo -hā (la) se añade al verbo. En este caso, el verbo termina en t (consonante) y no se altera la vocal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "ضمائر المفعول به مع الأفعال المضارعة",
+        "translation": "Pronombres de objeto directo con verbos en presente",
+        "examples": [
+          {
+            "original": "أَكْتُبُها الآنَ",
+            "phonetic": "ʔaktubuhā al-ʔān",
+            "translation": "La escribo ahora.",
+            "note": "En presente, el sufijo -hā se une al verbo. La vocal final del verbo se alarga para evitar el encuentro de dos consonantes."
+          },
+          {
+            "original": "نُحِبُّكُمْ كَثيرًا",
+            "phonetic": "nuḥibbukum kaṯīran",
+            "translation": "Os queremos mucho.",
+            "note": "El sufijo -kum (os) se pega al verbo. En árabe, la 'u' final del verbo se mantiene y se añade el sufijo."
+          },
+          {
+            "original": "تَقرَؤونَها بِانْتِظامٍ",
+            "phonetic": "taqraʔūnahā bi-ntiẓām",
+            "translation": "La leéis con regularidad (vosotros).",
+            "note": "Con el plural masculino, el verbo termina en -ūna y se añade -hā, resultando en -ūnahā."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "ضمائر المفعول لأجله مع حرف الجرّ 'لِ'",
+        "translation": "Pronombres de objeto indirecto con la preposición 'li' (para)",
+        "examples": [
+          {
+            "original": "هٰذا الكِتابُ لَكَ",
+            "phonetic": "hāḏā al-kitābu laka",
+            "translation": "Este libro es para ti.",
+            "note": "La preposición 'li' + sufijo -ka forma 'laka' (para ti). En este caso, el objeto indirecto no se une al verbo, sino a la preposición."
+          },
+          {
+            "original": "أُريدُ أَنْ أَتَحَدَّثَ مَعَها",
+            "phonetic": "ʔurīdu ʔan ʔataḥaddaṯa maʕahā",
+            "translation": "Quiero hablar con ella.",
+            "note": "Aquí se usa 'maʕa' (con) + sufijo, pero el objeto indirecto también se puede expresar con 'li'. En este ejemplo, se muestra otro caso de preposición con sufijo."
+          },
+          {
+            "original": "أُعْطي لَهُ هَدِيَّةً",
+            "phonetic": "ʔuʕṭī lahu hadiyyatan",
+            "translation": "Le doy un regalo (a él).",
+            "note": "El objeto indirecto 'lahu' (para él) se coloca después del verbo, separado, pero siempre sigue la estructura de preposición + sufijo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎯",
+    "phonetic": "",
+    "translations": {
+      "es": "Pronombres de objeto directo e indirecto"
+    }
+  },
+  {
+    "id": "es_A2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "ظروف التكرار / Adverbios de frecuencia",
+    "bridge": "En español, los adverbios de frecuencia suelen colocarse después del verbo conjugado (por ejemplo, 'siempre como', 'nunca duermo'). En árabe, la posición es más flexible, pero lo más común es que aparezcan después del verbo y del objeto, o al final de la oración. Además, en árabe no existe una palabra exacta para 'a veces' que funcione como adverbio simple; se usa la expresión 'أحيانًا' (a veces) que es invariante. A diferencia del español, 'nunca' en árabe (أبدًا) se usa frecuentemente con una estructura negativa doble: la partícula 'لا' o 'ما' junto con el adverbio. Cuidado: no coloques el adverbio antes del verbo como en español, porque cambia el énfasis y puede sonar poco natural.",
+    "rule": "Los adverbios de frecuencia en árabe se usan para indicar con qué frecuencia ocurre una acción. Los más comunes son:\n- دائمًا (dāʾiman) = siempre\n- عادةً (ʿādatan) = usualmente\n- أحيانًا (aḥyānan) = a veces\n- نادرًا (nādiran) = raramente\n- أبدًا (abadan) = nunca (se usa con negación)\n\n**Posición:** Generalmente van después del verbo y su objeto, o al final de la oración. Ejemplo: أنا أشرب القهوة دائمًا (yo bebo café siempre). Cuando se quiere enfatizar el adverbio, puede colocarse al principio, pero no es lo común. Con 'nunca' (أبدًا), se debe usar una negación (لا أو ما) antes del verbo: أنا لا أشرب القهوة أبدًا (yo no bebo café nunca). No se dice 'أنا أبدًا أشرب القهوة' sin negación. Para A2, es importante recordar que estos adverbios son invariables y no cambian con el género o número.",
+    "concept_examples": [
+      {
+        "text": "أنا دائمًا أقرأ الكتب قبل النوم.",
+        "translation": "Yo siempre leo libros antes de dormir.",
+        "phonetic": "ʾanā dāʾiman ʾaqraʾu al-kutub qabla an-nawm."
+      },
+      {
+        "text": "نحن عادةً نذهب إلى السوق يوم السبت.",
+        "translation": "Nosotros normalmente vamos al mercado el sábado.",
+        "phonetic": "naḥnu ʿādatan naḏhabu ʾilā as-sūq yawm as-sabt."
+      },
+      {
+        "text": "أحيانًا أتحدث مع أصدقائي عبر الهاتف.",
+        "translation": "A veces hablo con mis amigos por teléfono.",
+        "phonetic": "ʾaḥyānan ʾataḥaddaṯu maʿa ʾaṣdiqāʾī ʿabra al-hātif."
+      },
+      {
+        "text": "هي لا تشاهد التلفاز أبدًا.",
+        "translation": "Ella nunca ve la televisión.",
+        "phonetic": "hiya lā tušāhidu at-tilfāz abadan."
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا أبدًا أشرب القهوة.",
+      "correct": "أنا لا أشرب القهوة أبدًا.",
+      "correct_alt": "ما أشرب القهوة أبدًا.",
+      "explanation": "El error ocurre porque en español se coloca 'nunca' antes del verbo ('yo nunca bebo café') y se traduce literalmente al árabe. Pero en árabe, 'أبدًا' no puede ir solo con un verbo afirmativo; se necesita una partícula negativa (لا o ما) delante del verbo, y el adverbio se coloca al final. Así, la estructura equivalente es 'no + verbo + أبدًا'. evitar la traducción literal de la posición del adverbio."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "أساسيات الظروف",
+        "translation": "Fundamentos de los adverbios",
+        "examples": [
+          {
+            "original": "دائمًا أستيقظ مبكرًا.",
+            "phonetic": "dāʾiman ʾastaqīẓu mubakkiran.",
+            "translation": "Siempre me despierto temprano.",
+            "note": "Aquí el adverbio se coloca al principio para dar énfasis, pero es menos común. Observa que la oración comienza con el adverbio, lo cual es posible pero no lo más habitual."
+          },
+          {
+            "original": "أنا أدرس عادةً في المكتبة.",
+            "phonetic": "ʾanā ʾadrusu ʿādatan fī al-maktabah.",
+            "translation": "Yo estudio usualmente en la biblioteca.",
+            "note": "El adverbio va después del verbo 'أدرس' y antes del complemento de lugar. Es la posición más natural."
+          },
+          {
+            "original": "نادرًا ما أسافر في الشتاء.",
+            "phonetic": "nādiran mā ʾusāfiru fī aš-šitāʾ.",
+            "translation": "Raramente viajo en invierno.",
+            "note": "Con 'نادرًا' también se puede usar 'ما' después del adverbio para reforzar el significado, pero no es obligatorio."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "موضع الظرف في الجملة",
+        "translation": "Posición del adverbio en la oración",
+        "examples": [
+          {
+            "original": "أشرب الشاي دائمًا في الصباح.",
+            "phonetic": "ʾašrabu aš-šāy dāʾiman fī aṣ-ṣabāḥ.",
+            "translation": "Bebo té siempre por la mañana.",
+            "note": "Adverbio después del objeto directo. Esta es una posición común, aunque también se podría poner después del verbo sin problema."
+          },
+          {
+            "original": "أحيانًا نلعب كرة القدم في النادي.",
+            "phonetic": "ʾaḥyānan nalʿabu kurat al-qadam fī an-nādī.",
+            "translation": "A veces jugamos fútbol en el club.",
+            "note": "Al comenzar la oración con 'أحيانًا', se da énfasis a la frecuencia. Es aceptable, pero en el habla cotidiana se prefiere después del verbo."
+          },
+          {
+            "original": "هو لا يتأخر أبدًا عن العمل.",
+            "phonetic": "huwa lā yataʾaḫḫaru ʿan al-ʿamal.",
+            "translation": "Él nunca llega tarde al trabajo.",
+            "note": "Observa la negación 'لا' antes del verbo y 'أبدًا' al final. Nunca omitas la negación."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "استخدام أبدًا مع النفي",
+        "translation": "Uso de 'abadan' con negación",
+        "examples": [
+          {
+            "original": "ما زرت باريس أبدًا.",
+            "phonetic": "mā zurtu Bārīs abadan.",
+            "translation": "Nunca he visitado París.",
+            "note": "Además de 'لا', se puede usar 'ما' para negar. En presente, 'ما' se usa con verbos en pasado como en este ejemplo para indicar experiencia."
+          },
+          {
+            "original": "لن أنسى هذا الدرس أبدًا.",
+            "phonetic": "lan ʾansā hāḏā ad-dars abadan.",
+            "translation": "Nunca olvidaré esta lección.",
+            "note": "'لن' se usa para negación de futuro. Aquí 'أبدًا' refuerza la idea de 'nunca'."
+          },
+          {
+            "original": "لا أكل اللحم أبدًا لأني نباتي.",
+            "phonetic": "lā ʾākulu al-laḥm abadan li-ʾannī nabātī.",
+            "translation": "Nunca como carne porque soy vegetariano.",
+            "note": "Recuerda que después de 'لا', el verbo está en presente. El adverbio 'أبدًا' va al final."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "es": "Adverbios de frecuencia"
+    }
+  },
+  {
+    "id": "es_A2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "حروف الجر للوقت (Preposiciones de tiempo)",
+    "bridge": "En español usamos preposiciones como 'en', 'a', 'por' y 'durante' para hablar del tiempo. En árabe, las preposiciones de tiempo son similares pero con algunas diferencias clave: por ejemplo, 'في' (fi) se usa para 'en' (meses, años, estaciones), pero para días de la semana se usa 'في' también, aunque a menudo se omite. Además, 'من' (min) y 'إلى' (ila) equivalen a 'desde' y 'hasta'. Cuidado: en árabe no se usa preposición con expresiones como 'cada día' (كل يوم) o 'hoy' (اليوم).",
+    "rule": "En árabe, las preposiciones de tiempo principales son:\n- في (fi): para meses, años, estaciones y partes del día (ej. في الصباح = por la mañana, في الشتاء = en invierno). También se usa para días de la semana (ej. في يوم الاثنين = el lunes), aunque a veces se omite.\n- على (ala): para 'en' con días específicos (ej. على الساعة = a las...), pero es menos común; se usa más en árabe clásico.\n- من (min) و إلى (ila): para expresar 'desde' y 'hasta' (ej. من الساعة ٩ إلى ٥ = de 9 a 5).\n- قبل (qabl) y بعد (ba'd): 'antes de' y 'después de' (ej. قبل الظهر = antes del mediodía).\n- durante: se dice 'خلال' (khilal) o 'أثناء' (athna'), pero en el habla cotidiana se usa 'طول' (tul) o simplemente se omite.\n- No se usa preposición con 'cada' (كل) ni con expresiones como 'اليوم' (hoy), 'الآن' (ahora), etc.\n- Para la hora, se usa 'في' con 'الساعة' (la hora), pero también se puede omitir en contexto.",
+    "concept_examples": [
+      {
+        "text": "أستيقظ في الصباح.",
+        "translation": "Me despierto por la mañana.",
+        "phonetic": "ʔastaqiẓu fī ṣ-ṣabāḥ."
+      },
+      {
+        "text": "أعمل من الاثنين إلى الجمعة.",
+        "translation": "Trabajo de lunes a viernes.",
+        "phonetic": "ʔaʿmal min al-ithnayn ʾilā al-jumʿah."
+      },
+      {
+        "text": "नلتقي بعد الظهر.",
+        "translation": "Nos vemos después del mediodía.",
+        "phonetic": "naltaqī baʿda ẓ-ẓuhr."
+      },
+      {
+        "text": "في الشتاء يكون الجو باردًا.",
+        "translation": "En invierno hace frío.",
+        "phonetic": "fī sh-shitāʾ yakūn al-jaww bāridan."
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا أذهب إلى المدرسة في كل يوم.",
+      "correct": "أنا أذهب إلى المدرسة كل يوم.",
+      "correct_alt": "أذهب إلى المدرسة كل يوم.",
+      "explanation": "En español decimos 'cada día' con la preposición 'en' implícita, pero en árabe la palabra 'كل' (kull) ya incluye la idea de 'cada', por lo que no necesita preposición. Añadir 'في' es un error común por transferencia del español."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "في للوقت (fi para tiempo)",
+        "translation": "Uso de 'fi' para indicar tiempo",
+        "examples": [
+          {
+            "original": "في الصيف أسافر إلى الشاطئ.",
+            "phonetic": "fī ṣ-ṣayf ʾusāfir ʾilā sh-shāṭiʾ.",
+            "translation": "En verano viajo a la playa.",
+            "note": "Se usa في con las estaciones del año."
+          },
+          {
+            "original": "في الساعة الثامنة أتناول الفطور.",
+            "phonetic": "fī s-sāʿah ath-thāminah ʾatanāwal al-fuṭūr.",
+            "translation": "A las ocho desayuno.",
+            "note": "Para las horas se usa في + الساعة."
+          },
+          {
+            "original": "في يوم الجمعة نصلي في المسجد.",
+            "phonetic": "fī yawm al-jumʿah nuṣallī fī l-masjid.",
+            "translation": "El viernes rezamos en la mezquita.",
+            "note": "Para días de la semana, في es opcional pero común."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "من وإلى (min e ila)",
+        "translation": "Uso de 'min' e 'ila' para expresar desde/hasta",
+        "examples": [
+          {
+            "original": "الدرس من الساعة التاسعة إلى العاشرة.",
+            "phonetic": "ad-dars min as-sāʿah at-tāsiʿah ʾilā al-ʿāshirah.",
+            "translation": "La clase es de 9 a 10.",
+            "note": "من... إلى... indica un rango de tiempo."
+          },
+          {
+            "original": "أنا مشغول من الصباح إلى المساء.",
+            "phonetic": "ʾanā mashghūl min aṣ-ṣabāḥ ʾilā al-masāʾ.",
+            "translation": "Estoy ocupado desde la mañana hasta la tarde.",
+            "note": "Se usa con partes del día también."
+          },
+          {
+            "original": "منذ متى وأنت تدرس العربية؟",
+            "phonetic": "mundhu matā wa-ʾanta tadrus al-ʿarabiyyah?",
+            "translation": "¿Desde cuándo estudias árabe?",
+            "note": "منذ (mundhu) significa 'desde' y se usa para preguntar por duración."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "قبل وبعد (qabl wa ba'd)",
+        "translation": "Uso de 'qabl' y 'ba'd' para antes y después",
+        "examples": [
+          {
+            "original": "قبل العمل أتناول القهوة.",
+            "phonetic": "qabl al-ʿamal ʾatanāwal al-qahwah.",
+            "translation": "Antes del trabajo tomo café.",
+            "note": "قبل se usa directamente con un sustantivo."
+          },
+          {
+            "original": "بعد المدرسة ألعب كرة القدم.",
+            "phonetic": "baʿd al-madrasah ʾalʿab kurat al-qadam.",
+            "translation": "Después de la escuela juego al fútbol.",
+            "note": "بعد también se usa con sustantivos."
+          },
+          {
+            "original": "سأزورك قبل المغادرة.",
+            "phonetic": "sa-ʾazūruka qabl al-mughādara.",
+            "translation": "Te visitaré antes de partir.",
+            "note": "Se puede usar con un infinitivo (sustantivo verbal)."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏰",
+    "phonetic": "",
+    "translations": {
+      "es": "Preposiciones de tiempo"
+    }
+  }
+]
