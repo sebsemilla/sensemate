@@ -4,11 +4,14 @@
 //   HTTP   → montado en Express vía registerMcpRoutes()  (POST /mcp, GET /mcp/sse)
 'use strict';
 
+const { AsyncLocalStorage }           = require('async_hooks');
 const { Server }                      = require('@modelcontextprotocol/sdk/server/index.js');
 const { StdioServerTransport }        = require('@modelcontextprotocol/sdk/server/stdio.js');
 const { StreamableHTTPServerTransport } = require('@modelcontextprotocol/sdk/server/streamableHttp.js');
-const { z }                           = require('@modelcontextprotocol/sdk/types.js');
 const { loadBots, loadFeed, loadClasses, runBot } = require('./bot_runner.cjs');
+
+// Contexto de request para pasar el adminToken de Smithery (query param) a los handlers
+const _reqCtx = new AsyncLocalStorage();
 
 const SERVER_INFO = {
     name:    'sensemate-content',
@@ -116,7 +119,9 @@ const TOOLS = [
 function _checkAdmin(args) {
     const expected = process.env.ADMIN_TOKEN;
     if (!expected) throw new Error('ADMIN_TOKEN no configurado en el servidor.');
-    if (args.admin_token !== expected) throw new Error('Token de administrador inválido.');
+    // Acepta el token desde los args del tool call O desde el query param de Smithery
+    const provided = args.admin_token || _reqCtx.getStore()?.adminToken || '';
+    if (provided !== expected) throw new Error('Token de administrador inválido.');
 }
 
 async function _handleTool(name, args) {
@@ -331,16 +336,22 @@ function registerMcpRoutes(app) {
 
     // POST /mcp  → inicializar sesión o manejar request existente
     app.post('/mcp', async (req, res) => {
-        const sessionId = req.headers['mcp-session-id'];
+        const sessionId  = req.headers['mcp-session-id'];
+        // Smithery pasa el adminToken como query param: /mcp?adminToken=xxx
+        const adminToken = req.query.adminToken || '';
+
+        const handleWithCtx = (transport) =>
+            _reqCtx.run({ adminToken }, () =>
+                transport.handleRequest(req, res, req.body)
+            );
 
         // Sesión existente
         if (sessionId && _sessions.has(sessionId)) {
-            const { transport } = _sessions.get(sessionId);
-            await transport.handleRequest(req, res, req.body);
+            await handleWithCtx(_sessions.get(sessionId).transport);
             return;
         }
 
-        // Nueva sesión — crear transport + server para esta sesión
+        // Nueva sesión
         const crypto    = require('crypto');
         const transport = new StreamableHTTPServerTransport({
             sessionIdGenerator: () => crypto.randomBytes(16).toString('hex'),
@@ -354,7 +365,7 @@ function registerMcpRoutes(app) {
 
         const mcpServer = createMcpServer();
         await mcpServer.connect(transport);
-        await transport.handleRequest(req, res, req.body);
+        await handleWithCtx(transport);
     });
 
     // GET /mcp  → SSE para notificaciones push
