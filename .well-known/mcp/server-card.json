@@ -1,7 +1,4 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json",
-  "version": "1.0",
-  "protocolVersion": "2025-03-26",
   "serverInfo": {
     "name": "sensemate-content",
     "title": "SenseMate Content MCP Server",
@@ -9,26 +6,83 @@
     "description": "Accede al contenido educativo de idiomas de SenseMate: Live Feed, Class Room y gestión de bots generadores con DeepSeek AI. Schema.org JSON-LD incluido en cada item.",
     "homepage": "https://sensemate.app/mcp"
   },
-  "transport": {
-    "type": "streamable-http",
-    "endpoint": "/mcp"
-  },
-  "capabilities": {
-    "tools": {},
-    "resources": {}
-  },
   "authentication": {
     "required": false,
     "schemes": [],
     "notes": "get_feed y get_classes son públicas. Las herramientas admin requieren admin_token como parámetro."
   },
   "tools": [
-    { "name": "get_feed",      "description": "Obtiene publicaciones recientes del Live Feed" },
-    { "name": "get_classes",   "description": "Obtiene clases disponibles o en vivo del Class Room" },
-    { "name": "list_bots",     "description": "[Admin] Lista todos los bots de contenido" },
-    { "name": "run_bot",       "description": "[Admin] Ejecuta un bot manualmente" },
-    { "name": "create_bot",    "description": "[Admin] Crea un nuevo bot de contenido" },
-    { "name": "get_bot_logs",  "description": "[Admin] Historial de ejecuciones de un bot" }
+    {
+      "name": "get_feed",
+      "description": "Obtiene publicaciones recientes del Live Feed",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "limit":  { "type": "number", "description": "Máximo de posts (1-100). Default: 20" },
+          "offset": { "type": "number", "description": "Offset para paginación. Default: 0" }
+        }
+      }
+    },
+    {
+      "name": "get_classes",
+      "description": "Obtiene clases disponibles o en vivo del Class Room",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "tab":   { "type": "string", "enum": ["disponibles", "live"] },
+          "limit": { "type": "number", "description": "Máximo de clases (1-100). Default: 20" }
+        }
+      }
+    },
+    {
+      "name": "list_bots",
+      "description": "[Admin] Lista todos los bots de contenido",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "admin_token": { "type": "string" }
+        },
+        "required": ["admin_token"]
+      }
+    },
+    {
+      "name": "run_bot",
+      "description": "[Admin] Ejecuta un bot manualmente",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "admin_token": { "type": "string" },
+          "bot_id":      { "type": "string" }
+        },
+        "required": ["admin_token", "bot_id"]
+      }
+    },
+    {
+      "name": "create_bot",
+      "description": "[Admin] Crea un nuevo bot de contenido",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "admin_token": { "type": "string" },
+          "name":        { "type": "string" },
+          "prompt":      { "type": "string" },
+          "schedule":    { "type": "string" }
+        },
+        "required": ["admin_token", "name", "prompt", "schedule"]
+      }
+    },
+    {
+      "name": "get_bot_logs",
+      "description": "[Admin] Historial de ejecuciones de un bot",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "admin_token": { "type": "string" },
+          "bot_id":      { "type": "string" }
+        },
+        "required": ["admin_token", "bot_id"]
+      }
+    }
   ],
   "resources": [
     { "uri": "sensemate://feed",      "name": "Live Feed",  "description": "Publicaciones educativas recientes" },

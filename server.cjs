@@ -160,6 +160,15 @@ registerBotRoutes(app);
 
 registerMcpRoutes(app);
 
+// ─── Error handler global (captura errores no manejados en routes) ────────────
+// eslint-disable-next-line no-unused-vars
+app.use((err, req, res, next) => {
+    console.error('[Express Error]', req.method, req.path, err?.message, err?.stack?.split('\n')[1]);
+    if (!res.headersSent) {
+        res.status(500).json({ error: err?.message || 'Internal Server Error', path: req.path });
+    }
+});
+
 // ─── Start server ─────────────────────────────────────────────
 
 const PORT = process.env.PORT || 3000;
