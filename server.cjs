@@ -2,7 +2,7 @@
 'use strict';
 const express = require('express');
 const cors    = require('cors');
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const fs   = require('fs');
 const path = require('path');
 const axios = require('axios');

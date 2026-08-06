@@ -326,7 +326,7 @@ function createMcpServer() {
 // ─── Modo stdio (ejecución directa: node mcp_server.cjs) ──────────────────────
 
 if (require.main === module) {
-    require('dotenv').config();
+    require('dotenv').config({ quiet: true }); // quiet: evita que dotenv@17 imprima a stdout (corrompe JSON-RPC)
     const server    = createMcpServer();
     const transport = new StdioServerTransport();
     server.connect(transport).then(() => {
