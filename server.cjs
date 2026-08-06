@@ -90,6 +90,25 @@ app.get('/.well-known/mcp/server-card.json', (req, res) => {
     res.sendFile(path.join(__dirname, '.well-known', 'mcp', 'server-card.json'));
 });
 
+// Patch Accept header para SmitheryBot y otros clientes MCP que no envían text/event-stream.
+// El SDK de MCP usa @hono/node-server que lee req.rawHeaders (no req.headers), por eso
+// hay que parchear ambos para que el check del SDK no devuelva 406.
+app.use('/mcp', (req, res, next) => {
+    if (req.method === 'POST' && !req.headers['accept']?.includes('text/event-stream')) {
+        const ACCEPT_VAL = 'application/json, text/event-stream';
+        // Patch parsed headers (Express)
+        req.headers['accept'] = ACCEPT_VAL;
+        // Patch rawHeaders (leídos por @hono/node-server al convertir a Web Fetch Request)
+        const idx = req.rawHeaders.findIndex((h, i) => i % 2 === 0 && h.toLowerCase() === 'accept');
+        if (idx === -1) {
+            req.rawHeaders.push('Accept', ACCEPT_VAL);
+        } else {
+            req.rawHeaders[idx + 1] = ACCEPT_VAL;
+        }
+    }
+    next();
+});
+
 // Página pública de discovery del servidor MCP
 app.get('/mcp', (req, res, next) => {
     // Si es una solicitud MCP (JSON), dejar que la maneje registerMcpRoutes
