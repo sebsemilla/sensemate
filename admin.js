@@ -7,7 +7,7 @@ async function _loadAdminToken() {
     if (ADMIN_TOKEN) return ADMIN_TOKEN;
     try {
         const session = JSON.parse(localStorage.getItem('ls_session') || '{}');
-        const res = await fetch(`${API_URL}/auth/admin-token`, {
+        const res = await fetch(`${_API_HOST}/auth/admin-token`, {
             headers: { 'Authorization': `Bearer ${session.token}` }
         });
         if (res.ok) ADMIN_TOKEN = (await res.json()).token;

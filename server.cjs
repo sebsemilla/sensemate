@@ -85,6 +85,11 @@ app.get('/lite', (req, res) => {
     res.sendFile(path.join(__dirname, 'index-lite.html'));
 });
 
+// MCP Server Card — ruta explícita como backup al express.static (dotfiles: 'allow')
+app.get('/.well-known/mcp/server-card.json', (req, res) => {
+    res.sendFile(path.join(__dirname, '.well-known', 'mcp', 'server-card.json'));
+});
+
 // Página pública de discovery del servidor MCP
 app.get('/mcp', (req, res, next) => {
     // Si es una solicitud MCP (JSON), dejar que la maneje registerMcpRoutes

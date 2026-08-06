@@ -342,36 +342,41 @@ function registerMcpRoutes(app) {
 
     // POST /mcp  → inicializar sesión o manejar request existente
     app.post('/mcp', async (req, res) => {
-        const sessionId  = req.headers['mcp-session-id'];
-        // Smithery pasa el adminToken como query param: /mcp?adminToken=xxx
-        const adminToken = req.query.adminToken || '';
+        try {
+            const sessionId  = req.headers['mcp-session-id'];
+            // Smithery pasa el adminToken como query param: /mcp?adminToken=xxx
+            const adminToken = req.query.adminToken || '';
 
-        const handleWithCtx = (transport) =>
-            _reqCtx.run({ adminToken }, () =>
-                transport.handleRequest(req, res, req.body)
-            );
+            const handleWithCtx = (transport) =>
+                _reqCtx.run({ adminToken }, () =>
+                    transport.handleRequest(req, res, req.body)
+                );
 
-        // Sesión existente
-        if (sessionId && _sessions.has(sessionId)) {
-            await handleWithCtx(_sessions.get(sessionId).transport);
-            return;
+            // Sesión existente
+            if (sessionId && _sessions.has(sessionId)) {
+                await handleWithCtx(_sessions.get(sessionId).transport);
+                return;
+            }
+
+            // Nueva sesión
+            const crypto    = require('crypto');
+            const transport = new StreamableHTTPServerTransport({
+                sessionIdGenerator: () => crypto.randomBytes(16).toString('hex'),
+                onsessioninitialized: (id) => {
+                    _sessions.set(id, { transport, server: mcpServer });
+                },
+            });
+            transport.onclose = () => {
+                if (transport.sessionId) _sessions.delete(transport.sessionId);
+            };
+
+            const mcpServer = createMcpServer();
+            await mcpServer.connect(transport);
+            await handleWithCtx(transport);
+        } catch (err) {
+            console.error('[MCP] Error en POST /mcp:', err);
+            if (!res.headersSent) res.status(500).json({ error: 'MCP initialization error', detail: err.message });
         }
-
-        // Nueva sesión
-        const crypto    = require('crypto');
-        const transport = new StreamableHTTPServerTransport({
-            sessionIdGenerator: () => crypto.randomBytes(16).toString('hex'),
-            onsessioninitialized: (id) => {
-                _sessions.set(id, { transport, server: mcpServer });
-            },
-        });
-        transport.onclose = () => {
-            if (transport.sessionId) _sessions.delete(transport.sessionId);
-        };
-
-        const mcpServer = createMcpServer();
-        await mcpServer.connect(transport);
-        await handleWithCtx(transport);
     });
 
     // GET /mcp  → SSE para notificaciones push
