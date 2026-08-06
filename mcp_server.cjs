@@ -8,6 +8,12 @@ const { AsyncLocalStorage }           = require('async_hooks');
 const { Server }                      = require('@modelcontextprotocol/sdk/server/index.js');
 const { StdioServerTransport }        = require('@modelcontextprotocol/sdk/server/stdio.js');
 const { StreamableHTTPServerTransport } = require('@modelcontextprotocol/sdk/server/streamableHttp.js');
+const {
+    ListToolsRequestSchema,
+    CallToolRequestSchema,
+    ListResourcesRequestSchema,
+    ReadResourceRequestSchema,
+} = require('@modelcontextprotocol/sdk/types.js');
 const { loadBots, loadFeed, loadClasses, runBot } = require('./bot_runner.cjs');
 
 // Contexto de request para pasar el adminToken de Smithery (query param) a los handlers
@@ -260,9 +266,9 @@ async function _handleTool(name, args) {
 function createMcpServer() {
     const server = new Server(SERVER_INFO, { capabilities: CAPABILITIES });
 
-    server.setRequestHandler({ method: 'tools/list' }, async () => ({ tools: TOOLS }));
+    server.setRequestHandler(ListToolsRequestSchema, async () => ({ tools: TOOLS }));
 
-    server.setRequestHandler({ method: 'tools/call' }, async (req) => {
+    server.setRequestHandler(CallToolRequestSchema, async (req) => {
         const { name, arguments: args = {} } = req.params;
         try {
             return await _handleTool(name, args);
@@ -274,7 +280,7 @@ function createMcpServer() {
         }
     });
 
-    server.setRequestHandler({ method: 'resources/list' }, async () => ({
+    server.setRequestHandler(ListResourcesRequestSchema, async () => ({
         resources: [
             {
                 uri:         'sensemate://feed',
@@ -291,7 +297,7 @@ function createMcpServer() {
         ],
     }));
 
-    server.setRequestHandler({ method: 'resources/read' }, async (req) => {
+    server.setRequestHandler(ReadResourceRequestSchema, async (req) => {
         const { uri } = req.params;
         if (uri === 'sensemate://feed') {
             return {
