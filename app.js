@@ -1135,12 +1135,34 @@ const _ESPANOL_A1_NUEVOS = {
     pt: { gram: 'pt_a1_gramatica.json', func: 'pt_a1_funciones_comunicativas.json' },
 };
 
-function _initEspanolNuevoHub() {
+function _initEspanolNuevoHub(tab = 'curriculum') {
     const grid = document.getElementById('misionPathGrid');
     if (!grid) return;
 
     const files = _ESPANOL_A1_NUEVOS[sourceLang];
     if (!files) return;
+
+    let tabsEl = document.getElementById('inglesHubTabs');
+    if (!tabsEl) {
+        grid.insertAdjacentHTML('beforebegin', `
+            <div class="ingles-hub-tabs" id="inglesHubTabs">
+                <button class="ingles-hub-tab ${tab === 'curriculum' ? 'active' : ''}" data-tab="curriculum">📚 Curriculum A1</button>
+                <button class="ingles-hub-tab ${tab === 'contexto' ? 'active' : ''}" data-tab="contexto">🌍 Contexto</button>
+            </div>`);
+        tabsEl = document.getElementById('inglesHubTabs');
+        tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
+            btn.addEventListener('click', () => _initEspanolNuevoHub(btn.dataset.tab));
+        });
+    } else {
+        tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.tab === tab);
+        });
+    }
+
+    if (tab === 'contexto') {
+        _initVocabCtxTab(grid, 'es', sourceLang);
+        return;
+    }
 
     grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1.5rem 0">Cargando módulos…</p>';
 
@@ -1202,14 +1224,15 @@ function _initInglesHub(tab = 'curriculum') {
         return;
     }
 
-    // Tabs: Curriculum A1 | Modismos y Phrasal Verbs
+    // Tabs: Curriculum A1 | Modismos y Phrasal Verbs | Contexto
     const hasModismos = !!_INGLES_MODISMOS_LANGS[sourceLang];
     let tabsEl = document.getElementById('inglesHubTabs');
     if (!tabsEl) {
         grid.insertAdjacentHTML('beforebegin', `
             <div class="ingles-hub-tabs" id="inglesHubTabs">
                 <button class="ingles-hub-tab ${tab === 'curriculum' ? 'active' : ''}" data-tab="curriculum">📚 Curriculum A1</button>
-                ${hasModismos ? `<button class="ingles-hub-tab ${tab === 'modismos' ? 'active' : ''}" data-tab="modismos">💬 Modismos y Phrasal Verbs</button>` : ''}
+                ${hasModismos ? `<button class="ingles-hub-tab ${tab === 'modismos' ? 'active' : ''}" data-tab="modismos">💬 Modismos</button>` : ''}
+                <button class="ingles-hub-tab ${tab === 'contexto' ? 'active' : ''}" data-tab="contexto">🌍 Contexto</button>
             </div>`);
         tabsEl = document.getElementById('inglesHubTabs');
         tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
@@ -1219,6 +1242,11 @@ function _initInglesHub(tab = 'curriculum') {
         tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.tab === tab);
         });
+    }
+
+    if (tab === 'contexto') {
+        _initVocabCtxTab(grid, 'en', sourceLang);
+        return;
     }
 
     if (tab === 'modismos') {
@@ -1271,7 +1299,7 @@ const _MISION_LANG_LABELS = {
     wo: 'Wolof',     ha: 'Hausa',    yo: 'Yoruba',
 };
 
-function _initGenericLangHub(targetCode) {
+function _initGenericLangHub(targetCode, tab = 'curriculum') {
     const grid = document.getElementById('misionPathGrid');
     if (!grid) return;
 
@@ -1279,6 +1307,28 @@ function _initGenericLangHub(targetCode) {
     const label = _MISION_LANG_LABELS[targetCode] || targetCode;
     const src   = sourceLang;
     const base  = `${_API_HOST}/grupos_tarjetas/${encodeURIComponent(dir)}_a1/`;
+
+    let tabsEl = document.getElementById('inglesHubTabs');
+    if (!tabsEl) {
+        grid.insertAdjacentHTML('beforebegin', `
+            <div class="ingles-hub-tabs" id="inglesHubTabs">
+                <button class="ingles-hub-tab ${tab === 'curriculum' ? 'active' : ''}" data-tab="curriculum">📚 Curriculum A1</button>
+                <button class="ingles-hub-tab ${tab === 'contexto' ? 'active' : ''}" data-tab="contexto">🌍 Contexto</button>
+            </div>`);
+        tabsEl = document.getElementById('inglesHubTabs');
+        tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
+            btn.addEventListener('click', () => _initGenericLangHub(targetCode, btn.dataset.tab));
+        });
+    } else {
+        tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.tab === tab);
+        });
+    }
+
+    if (tab === 'contexto') {
+        _initVocabCtxTab(grid, targetCode, src);
+        return;
+    }
 
     const safeJson = url => fetch(url).then(r => r.ok ? r.json() : []).catch(() => []);
 
@@ -4261,6 +4311,143 @@ function getLanguageName(code) {
 function escapeHtml(text) {
     if (!text) return '';
     return text.replace(/[&<>]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[m]));
+}
+
+// ─── Vocabulario Contextual ───────────────────────────────────
+
+const _VOCAB_CTX_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'];
+
+async function _initVocabCtxTab(container, targetLang, sourceLang) {
+    container.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1.5rem 0">Cargando vocabulario…</p>';
+    const dir = _MISION_LANG_DIRS[targetLang];
+    if (!dir) { container.innerHTML = ''; return; }
+    const safeJson = url => fetch(url).then(r => r.ok ? r.json() : []).catch(() => []);
+    const results = await Promise.all(
+        _VOCAB_CTX_LEVELS.map(lvl =>
+            safeJson(`${_API_HOST}/grupos_tarjetas/${encodeURIComponent(dir)}_${lvl.toLowerCase()}/${sourceLang}_${lvl.toLowerCase()}_vocabulario_contextual.json`)
+        )
+    );
+    const hasAny = results.some(r => r.length);
+    if (!hasAny) {
+        container.innerHTML = `<div style="text-align:center;padding:2rem 1rem;color:var(--text-muted)"><div style="font-size:2rem;margin-bottom:.75rem">📚</div><p>Vocabulario contextual próximamente para este par de idiomas.</p></div>`;
+        return;
+    }
+    container.innerHTML = '';
+    _VOCAB_CTX_LEVELS.forEach((lvl, i) => {
+        if (!results[i].length) return;
+        _renderVocabCtxLevel(container, results[i], lvl, targetLang, sourceLang);
+    });
+}
+
+function _renderVocabCtxLevel(container, groups, level, targetLang, srcLang) {
+    const completed = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
+    const cards = groups.map((g, idx) => {
+        const key = `vctx_${targetLang}_${srcLang}_${level}_${idx}`;
+        const done = completed.includes(key);
+        return `<button class="vctx-card${done ? ' vctx-card--done' : ''}" data-key="${key}" data-idx="${idx}" data-lvl="${level}">
+            ${done ? '<span class="vctx-card-check">✓</span>' : ''}
+            <span class="vctx-card-scenario">${escapeHtml(g.scenario || 'Escenario')}</span>
+            <span class="vctx-card-meta">${g.vocabulary?.length || 0} palabras</span>
+        </button>`;
+    }).join('');
+    container.insertAdjacentHTML('beforeend', `
+        <div class="vctx-level-section">
+            <div class="vctx-level-header">${level}</div>
+            <div class="vctx-cards-grid">${cards}</div>
+        </div>`);
+    container.querySelectorAll(`.vctx-card[data-lvl="${level}"]`).forEach(btn => {
+        btn.addEventListener('click', () => {
+            _showVocabCtxModule(groups[+btn.dataset.idx], btn.dataset.key);
+        });
+    });
+}
+
+function _showVocabCtxModule(group, key) {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+    window.scrollTo(0, 0);
+    const vocab = group.vocabulary || [];
+    const dialogue = group.dialogue || [];
+    const done = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]').includes(key);
+    const vocabRows = vocab.map(v => `
+        <tr>
+            <td class="vctx-vocab-word">${escapeHtml(v.word)}${v.phonetic ? `<br><span class="vctx-vocab-phonetic">${escapeHtml(v.phonetic)}</span>` : ''}</td>
+            <td class="vctx-vocab-pos">${escapeHtml(v.pos || '')}</td>
+            <td class="vctx-vocab-trans">${escapeHtml(v.translation || '')}</td>
+            <td class="vctx-vocab-note">${escapeHtml(v.note || '')}</td>
+        </tr>`).join('');
+    const dialogueHtml = dialogue.map(t => `
+        <div class="vctx-turn">
+            <span class="vctx-turn-speaker">${escapeHtml(t.speaker || '')}</span>
+            <div class="vctx-turn-bubble">
+                <div class="vctx-turn-text">${escapeHtml(t.text || '')}</div>
+                ${t.translation ? `<div class="vctx-turn-trans">${escapeHtml(t.translation)}</div>` : ''}
+                ${t.note ? `<div class="vctx-turn-note">${escapeHtml(t.note)}</div>` : ''}
+            </div>
+        </div>`).join('');
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="vctx-wrap">
+            <div class="ma1-topbar">
+                <button class="school-back-btn" id="vctxBackBtn">← Volver</button>
+            </div>
+            <div class="vctx-hero">
+                <span class="vctx-hero-icon">🌍</span>
+                <h2 class="vctx-hero-title">${escapeHtml(group.scenario || '')}</h2>
+                ${group.frequency_note ? `<p class="vctx-hero-note">${escapeHtml(group.frequency_note)}</p>` : ''}
+            </div>
+            <div class="vctx-section">
+                <div class="vctx-section-title">📝 Vocabulario</div>
+                <div class="vctx-table-wrap">
+                    <table class="vctx-table">
+                        <thead><tr><th>Palabra</th><th>Tipo</th><th>Traducción</th><th>Nota</th></tr></thead>
+                        <tbody>${vocabRows}</tbody>
+                    </table>
+                </div>
+            </div>
+            ${dialogueHtml ? `<div class="vctx-section"><div class="vctx-section-title">💬 Diálogo</div><div class="vctx-dialogue">${dialogueHtml}</div></div>` : ''}
+            <div class="vctx-actions">
+                <button class="ma1-quiz-start-btn" id="vctxQuizBtn">${done ? '✓ Practicado — Repetir' : '🎯 Practicar vocabulario'}</button>
+            </div>
+        </div>`);
+    document.getElementById('vctxBackBtn').addEventListener('click', () => showMainMenu());
+    document.getElementById('vctxQuizBtn').addEventListener('click', () => _runVocabCtxQuiz(group, key));
+}
+
+function _genVocabCtxExercises(group) {
+    const vocab = group.vocabulary || [];
+    if (vocab.length < 2) return [];
+    const allWords = vocab.map(v => v.word);
+    const allTrans = vocab.map(v => v.translation);
+    const pool = [];
+    function distract(correct, full, n) {
+        return _misionShuffle(full.filter(x => x && x !== correct)).slice(0, n);
+    }
+    vocab.forEach(v => {
+        const d = distract(v.translation, allTrans, 3);
+        if (d.length) pool.push({ promptLabel: '¿Qué significa?', prompt: v.word + (v.phonetic ? `  ${v.phonetic}` : ''), correct: v.translation, options: _misionShuffle([v.translation, ...d]), note: v.note || '' });
+    });
+    vocab.forEach(v => {
+        const d = distract(v.word, allWords, 3);
+        if (d.length) pool.push({ promptLabel: '¿Cómo se dice?', prompt: v.translation, correct: v.word, options: _misionShuffle([v.word, ...d]), note: v.note || '' });
+    });
+    return _misionShuffle(pool);
+}
+
+function _runVocabCtxQuiz(group, key) {
+    const exercises = _genVocabCtxExercises(group);
+    if (!exercises.length) { showToast('No hay suficiente vocabulario para el quiz.'); return; }
+    const total = Math.min(exercises.length, 12);
+    _runGenericQuiz(exercises.slice(0, total), {
+        total,
+        threshold: Math.ceil(total * 0.7),
+        key,
+        onPass: () => {
+            const steps = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
+            if (!steps.includes(key)) { steps.push(key); localStorage.setItem('ls_mision_steps', JSON.stringify(steps)); }
+            _showVocabCtxModule(group, key);
+        },
+        onBack: () => _showVocabCtxModule(group, key),
+    });
 }
 
 // ─── Init ─────────────────────────────────────────────────────
