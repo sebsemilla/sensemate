@@ -1004,41 +1004,57 @@ function _showCustomConfigPanel() {
 
 // ── Vocabulario Contextual panel ──────────────────────────────
 
-function showVocabCtxPanel() {
+function showVocabCtxPanel(selectedLevel = 'A1') {
     mainContainer.innerHTML = '';
     renderLanguageBar();
 
-    const levels = getAvailableLevels(targetLang || 'es');
+    const tLang = targetLang || 'es';
+    const sLang = sourceLang || 'en';
 
     mainContainer.insertAdjacentHTML('beforeend', `
         <div class="prac-wrap">
             <div class="prac-header">
-                <button class="school-back-btn" id="vctxPracBackBtn">← Menú</button>
+                <button class="school-back-btn" id="vctxPracBackBtn">← Volver</button>
             </div>
             <h2 class="prac-title-centered">🌍 Vocabulario Contextual</h2>
             <div class="prac-level-tabs-centered">
-                ${levels.map(l => `<button class="prac-level-tab" data-level="${l.key}">${l.label}</button>`).join('')}
-                <button class="prac-level-tab" data-level="custom">📝 Mis Tarjetas</button>
-                <button class="prac-level-tab active" data-level="contexto">🌍 Contexto</button>
+                ${_VOCAB_CTX_LEVELS.map(lvl => `
+                    <button class="prac-level-tab ${lvl === selectedLevel ? 'active' : ''}"
+                            data-level="${lvl}">${lvl}</button>
+                `).join('')}
             </div>
-            <div id="vctxPracContent" style="margin-top:.5rem"></div>
+            <div id="vctxLevelContent" style="margin-top:.75rem">
+                <p style="text-align:center;color:var(--text-muted);font-size:.85rem;padding:1.5rem 0">Cargando…</p>
+            </div>
         </div>`);
 
-    document.getElementById('vctxPracBackBtn').addEventListener('click', showMainMenu);
+    document.getElementById('vctxPracBackBtn').addEventListener('click', () => showPracticeOverview('contexto'));
 
     document.querySelectorAll('.prac-level-tab').forEach(tab => {
-        tab.addEventListener('click', () => {
-            if (tab.dataset.level === 'custom') showCustomGroupsPanel();
-            else if (tab.dataset.level === 'contexto') return;
-            else showPracticeOverview(tab.dataset.level);
-        });
+        tab.addEventListener('click', () => showVocabCtxPanel(tab.dataset.level));
     });
 
-    _initVocabCtxTab(
-        document.getElementById('vctxPracContent'),
-        targetLang || 'es',
-        sourceLang || 'en'
+    _loadAndRenderVocabCtxLevel(
+        document.getElementById('vctxLevelContent'),
+        tLang, sLang, selectedLevel
     );
+}
+
+async function _loadAndRenderVocabCtxLevel(container, tLang, sLang, level) {
+    const dir = _MISION_LANG_DIRS[tLang];
+    if (!dir) { container.innerHTML = ''; return; }
+    const lvl = level.toLowerCase();
+    const url = `${_API_HOST}/grupos_tarjetas/${encodeURIComponent(dir)}_${lvl}/${sLang}_${lvl}_vocabulario_contextual.json`;
+    const groups = await fetch(url).then(r => r.ok ? r.json() : []).catch(() => []);
+    if (!groups.length) {
+        container.innerHTML = `<div style="text-align:center;padding:2rem 1rem;color:var(--text-muted)">
+            <div style="font-size:1.75rem;margin-bottom:.5rem">📭</div>
+            <p>No hay contenido para ${level} en este par de idiomas todavía.</p>
+        </div>`;
+        return;
+    }
+    container.innerHTML = '';
+    _renderVocabCtxLevel(container, groups, level, tLang, sLang);
 }
 
 // ── Helpers de compatibilidad (para app.js) ───────────────────
