@@ -105,6 +105,8 @@ function showPracticeOverview(selectedLevel = 'A0') {
                 `).join('')}
                 <button class="prac-level-tab ${selectedLevel === 'custom' ? 'active' : ''}"
                         data-level="custom">📝 Mis Tarjetas</button>
+                <button class="prac-level-tab ${selectedLevel === 'contexto' ? 'active' : ''}"
+                        data-level="contexto">🌍 Contexto</button>
             </div>
 
             <div class="prac-groups">
@@ -159,6 +161,7 @@ function showPracticeOverview(selectedLevel = 'A0') {
     document.querySelectorAll('.prac-level-tab').forEach(tab => {
         tab.addEventListener('click', () => {
             if (tab.dataset.level === 'custom') showCustomGroupsPanel();
+            else if (tab.dataset.level === 'contexto') showVocabCtxPanel();
             else showPracticeOverview(tab.dataset.level);
         });
     });
@@ -997,6 +1000,45 @@ function _showCustomConfigPanel() {
     });
     overlay.querySelector('#ccpCloseBtn').addEventListener('click', () => overlay.remove());
     overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+}
+
+// ── Vocabulario Contextual panel ──────────────────────────────
+
+function showVocabCtxPanel() {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+
+    const levels = getAvailableLevels(targetLang || 'es');
+
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="prac-wrap">
+            <div class="prac-header">
+                <button class="school-back-btn" id="vctxPracBackBtn">← Menú</button>
+            </div>
+            <h2 class="prac-title-centered">🌍 Vocabulario Contextual</h2>
+            <div class="prac-level-tabs-centered">
+                ${levels.map(l => `<button class="prac-level-tab" data-level="${l.key}">${l.label}</button>`).join('')}
+                <button class="prac-level-tab" data-level="custom">📝 Mis Tarjetas</button>
+                <button class="prac-level-tab active" data-level="contexto">🌍 Contexto</button>
+            </div>
+            <div id="vctxPracContent" style="margin-top:.5rem"></div>
+        </div>`);
+
+    document.getElementById('vctxPracBackBtn').addEventListener('click', showMainMenu);
+
+    document.querySelectorAll('.prac-level-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            if (tab.dataset.level === 'custom') showCustomGroupsPanel();
+            else if (tab.dataset.level === 'contexto') return;
+            else showPracticeOverview(tab.dataset.level);
+        });
+    });
+
+    _initVocabCtxTab(
+        document.getElementById('vctxPracContent'),
+        targetLang || 'es',
+        sourceLang || 'en'
+    );
 }
 
 // ── Helpers de compatibilidad (para app.js) ───────────────────
