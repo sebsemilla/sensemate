@@ -379,6 +379,7 @@ async function loadMembershipSection() {
                         </div>` : ''}
                     </div>
                     <ul class="plan-feature-list plan-feature-list--premium">
+                        <li>🚫 ${isES ? 'Sin publicidades' : 'No ads'}</li>
                         <li>✅ ${isES ? 'Traductor ilimitado' : 'Unlimited translator'}</li>
                         <li>✅ ${isES ? 'Todos los flashcards' : 'All flashcards'}</li>
                         <li>✅ ${isES ? 'Chat IA libre — consultas en contexto' : 'Free AI chat — contextual queries'}</li>
@@ -410,6 +411,7 @@ async function loadMembershipSection() {
                         <div class="plan-price-monthly-equiv">≈ u$s ${(oroAnnual / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}</div>
                     </div>
                     <ul class="plan-feature-list plan-feature-list--oro">
+                        <li>🚫 ${isES ? 'Sin publicidades' : 'No ads'}</li>
                         <li>✅ ${isES ? 'Traductor ilimitado' : 'Unlimited translator'}</li>
                         <li>✅ ${isES ? 'Todos los flashcards' : 'All flashcards'}</li>
                         <li>✅ ${isES ? 'Chat IA con historial contextualizado' : 'AI chat with contextual history'}</li>
@@ -439,6 +441,12 @@ async function loadMembershipSection() {
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td>🚫 ${isES ? 'Publicidades' : 'Ads'}</td>
+                            <td>${isES ? 'Sí' : 'Yes'}</td>
+                            <td>✅ ${isES ? 'Sin anuncios' : 'Ad-free'}</td>
+                            <td>✅ ${isES ? 'Sin anuncios' : 'Ad-free'}</td>
+                        </tr>
                         <tr>
                             <td>🔄 ${isES ? 'Traductor' : 'Translator'}</td>
                             <td>${isES ? '10/día' : '10/day'}</td>
