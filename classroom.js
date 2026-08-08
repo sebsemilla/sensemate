@@ -437,32 +437,75 @@ async function _clDetailMessagesTab(user, cls, content) {
 }
 
 function _clShowGroupMessageModal(user, cls) {
+    const now = new Date();
+    const localDate = now.toISOString().slice(0,10);
+    const localTime = now.toTimeString().slice(0,5);
     const overlay = document.createElement('div');
     overlay.className = 'cl-modal-overlay';
     overlay.innerHTML = `
-        <div class="cl-modal">
+        <div class="cl-modal cl-modal--wide">
             <button class="cl-modal-close" id="clGrpClose">×</button>
             <h3>📣 Mensaje para toda la clase</h3>
-            <p class="cl-muted" style="font-size:.83rem;margin-bottom:.75rem">El mensaje se enviará al chat grupal de <strong>${escapeHtml(cls.name)}</strong> y quedará visible para todos los alumnos.</p>
+            <p class="cl-muted" style="font-size:.83rem;margin-bottom:.75rem">El mensaje se enviará al chat grupal de <strong>${escapeHtml(cls.name)}</strong>.</p>
+            <label class="cl-label">Título</label>
+            <input class="cl-input" id="clGrpTitle" placeholder="Ej: Tarea para el viernes…" style="margin-bottom:.75rem">
             <label class="cl-label">Mensaje</label>
-            <textarea class="cl-textarea" id="clGrpBody" rows="4" placeholder="Escribí el mensaje para todos…"></textarea>
+            <div class="cl-rich-toolbar" id="clGrpToolbar">
+                <button type="button" class="cl-rt-btn" data-cmd="bold" title="Negrita"><b>B</b></button>
+                <button type="button" class="cl-rt-btn" data-cmd="underline" title="Subrayar"><u>U</u></button>
+                <select class="cl-rt-select" id="clGrpFontSize" title="Tamaño de letra">
+                    <option value="">Tamaño</option>
+                    <option value="1">Pequeño</option>
+                    <option value="3">Normal</option>
+                    <option value="5">Grande</option>
+                </select>
+            </div>
+            <div class="cl-rich-editor" id="clGrpBody" contenteditable="true" placeholder="Escribí el mensaje para todos…"></div>
+            <div class="cl-form-row" style="margin-top:.75rem;gap:.5rem">
+                <div style="flex:1">
+                    <label class="cl-label">Fecha</label>
+                    <input class="cl-input" type="date" id="clGrpDate" value="${localDate}">
+                </div>
+                <div style="flex:1">
+                    <label class="cl-label">Hora</label>
+                    <input class="cl-input" type="time" id="clGrpTime" value="${localTime}">
+                </div>
+            </div>
             <div class="cl-error hidden" id="clGrpErr"></div>
-            <button class="cl-save-btn" id="clGrpSend">Enviar a todo el grupo</button>
+            <button class="cl-save-btn" id="clGrpSend" style="margin-top:.75rem">Enviar a todo el grupo</button>
         </div>`;
     document.body.appendChild(overlay);
     overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
     document.getElementById('clGrpClose').addEventListener('click', () => overlay.remove());
+
+    // Rich text toolbar
+    overlay.querySelectorAll('.cl-rt-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.getElementById('clGrpBody').focus();
+            document.execCommand(btn.dataset.cmd, false, null);
+        });
+    });
+    document.getElementById('clGrpFontSize').addEventListener('change', function() {
+        if (!this.value) return;
+        document.getElementById('clGrpBody').focus();
+        document.execCommand('fontSize', false, this.value);
+        this.value = '';
+    });
+
     document.getElementById('clGrpSend').addEventListener('click', async () => {
-        const body  = document.getElementById('clGrpBody').value.trim();
-        const errEl = document.getElementById('clGrpErr');
-        if (!body) { errEl.textContent = 'Escribí un mensaje.'; errEl.classList.remove('hidden'); return; }
+        const title   = document.getElementById('clGrpTitle').value.trim();
+        const bodyHtml = document.getElementById('clGrpBody').innerHTML.trim();
+        const date    = document.getElementById('clGrpDate').value;
+        const time    = document.getElementById('clGrpTime').value;
+        const errEl   = document.getElementById('clGrpErr');
+        if (!bodyHtml || bodyHtml === '<br>') { errEl.textContent = 'Escribí un mensaje.'; errEl.classList.remove('hidden'); return; }
+        const payload = JSON.stringify({ _type: 'group', title, bodyHtml, datetime: date && time ? `${date}T${time}` : null });
         const r   = await _authFetch(`${_API_HOST}/classroom/messages/${cls.id}`, {
-            method: 'POST', body: JSON.stringify({ content: body })
+            method: 'POST', body: JSON.stringify({ content: payload })
         });
         const res = await r.json();
         if (res.ok) {
             overlay.remove();
-            // Refresh chat if visible
             const content = document.getElementById('clDetailContent');
             if (content) _clDetailMessagesTab(user, cls, content);
         } else {
@@ -1229,12 +1272,31 @@ function _clRenderChatUI(container, user, cls, allClasses, isTeacher) {
             const msgs = data.messages || [];
             const scrolledToBottom = msgsEl.scrollHeight - msgsEl.scrollTop <= msgsEl.clientHeight + 40;
             msgsEl.innerHTML = msgs.length
-                ? msgs.map(m => `
-                    <div class="lt-chat-msg ${m.sender_id === user.id ? 'lt-chat-msg--user' : 'lt-chat-msg--ai'}">
+                ? msgs.map(m => {
+                    let parsed = null;
+                    try { const p = JSON.parse(m.content); if (p && p._type === 'group') parsed = p; } catch {}
+                    if (parsed) {
+                        const dtLabel = parsed.datetime ? (() => {
+                            const d = new Date(parsed.datetime);
+                            return d.toLocaleString('es-AR', {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+                        })() : '';
+                        return `<div class="cl-msg-group-card">
+                            <div class="cl-msg-group-badge">📣 Mensaje Grupal</div>
+                            ${parsed.title ? `<div class="cl-msg-group-title">${escapeHtml(parsed.title)}</div>` : ''}
+                            <div class="cl-msg-group-body">${parsed.bodyHtml}</div>
+                            <div class="cl-msg-group-meta">
+                                <span class="cl-msg-sender-tag">${escapeHtml(m.sender_username || m.sender_name || '—')}</span>
+                                ${dtLabel ? `<span class="cl-msg-group-datetime">🕐 ${dtLabel}</span>` : ''}
+                                <span class="cl-msg-time">${_clFmtTime(m.created_at)}</span>
+                            </div>
+                        </div>`;
+                    }
+                    return `<div class="lt-chat-msg ${m.sender_id === user.id ? 'lt-chat-msg--user' : 'lt-chat-msg--ai'}">
                         ${m.sender_id !== user.id ? `<span class="cl-msg-sender">${escapeHtml(m.sender_username || m.sender_name || '—')}</span>` : ''}
                         ${escapeHtml(m.content)}
                         <span class="cl-msg-time">${_clFmtTime(m.created_at)}</span>
-                    </div>`).join('')
+                    </div>`;
+                }).join('')
                 : '<p class="cl-muted" style="text-align:center;margin-top:2rem">Sin mensajes todavía.</p>';
             if (scrolledToBottom || msgs.length < 3) msgsEl.scrollTop = msgsEl.scrollHeight;
         } catch {}
