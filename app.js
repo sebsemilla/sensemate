@@ -1,6 +1,16 @@
 // app.js — Core: globals, utilidades, auth, menú principal, init
 // ===============================================================
 
+// ─── Google AdSense ───────────────────────────────────────────
+const _AD_CLIENT       = 'ca-pub-9984132185083141'; // Google AdSense publisher ID
+const _AD_SLOT_TRANSLATE = 'XXXXXXXXXX';            // ← slot para la sección Traductor
+const _AD_SLOT_FEED      = 'YYYYYYYYYY';            // ← slot para el Feed (in-feed ad)
+
+function _shouldShowAds() {
+    const plan = currentUser?.plan;
+    return !plan || plan === 'free';
+}
+
 // ─── Analytics helper ─────────────────────────────────────────
 function _track(eventName, params = {}) {
     if (typeof gtag !== 'function') return;
@@ -2973,13 +2983,15 @@ async function _renderLiveFeed() {
     const posts = await _getLiveFeedPosts('recientes');
 
     const feed = document.getElementById('livefeedFeed');
-    if (feed) feed.innerHTML = _buildPostsHtml(posts);
+    if (feed) { feed.innerHTML = _buildPostsHtml(posts); _initFeedAds(feed); }
     _initLiveFeed();
 }
 
 function _buildPostsHtml(posts) {
     if (!posts.length) return '<div class="livefeed-empty">📭 No hay publicaciones recientes aún.</div>';
-    return posts.map(p => `
+    const showAds = _shouldShowAds();
+    return posts.map((p, i) => {
+        const postHtml = `
         <div class="livefeed-post">
             <div class="livefeed-post-header">
                 <div class="livefeed-avatar">${p.avatar || '👤'}</div>
@@ -2995,8 +3007,27 @@ function _buildPostsHtml(posts) {
                 <button class="livefeed-action-btn">💬 ${p.comments || 0}</button>
                 <button class="livefeed-action-btn">↗️ Compartir</button>
             </div>
-        </div>
-    `).join('');
+        </div>`;
+        const adHtml = showAds && (i + 1) % 6 === 0
+            ? `<div class="livefeed-ad-wrap">
+                <span class="livefeed-ad-label">Publicidad</span>
+                <ins class="adsbygoogle livefeed-ad-ins"
+                     style="display:block"
+                     data-ad-client="${_AD_CLIENT}"
+                     data-ad-slot="${_AD_SLOT_FEED}"
+                     data-ad-format="fluid"
+                     data-ad-layout-key="-fb+5w+4e-db+86"></ins>
+               </div>`
+            : '';
+        return postHtml + adHtml;
+    }).join('');
+}
+
+function _initFeedAds(container) {
+    if (!_shouldShowAds()) return;
+    container.querySelectorAll('.livefeed-ad-ins').forEach(el => {
+        try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch {}
+    });
 }
 
 function _initLiveFeed() {
@@ -3009,6 +3040,7 @@ function _initLiveFeed() {
             feed.innerHTML = '<div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>';
             const posts = await _getLiveFeedPosts(btn.dataset.filter);
             feed.innerHTML = _buildPostsHtml(posts);
+            _initFeedAds(feed);
         });
     });
 }
@@ -3800,6 +3832,16 @@ function loadSimpleMode() {
                         <div class="smp-ampliar-panel hidden" id="smpAmpiarPanel"></div>
                     </div>
 
+                    <!-- Ad slot (solo usuarios free) -->
+                    <div class="smp-ad-slot hidden" id="smpAdSlot">
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="${_AD_CLIENT}"
+                             data-ad-slot="${_AD_SLOT_TRANSLATE}"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                    </div>
+
                     <!-- IA in Context -->
                     <div class="smp-extra-actions hidden" id="smpExtraActions">
                         <div class="smp-extra-btns">
@@ -3951,10 +3993,19 @@ function loadSimpleMode() {
         loadingEl.classList.remove('hidden');
         cardsEl.classList.add('hidden');
     }
+    let _translateAdPushed = false;
     function showCards() {
         placeholder.classList.add('hidden');
         loadingEl.classList.add('hidden');
         cardsEl.classList.remove('hidden');
+        const adSlot = document.getElementById('smpAdSlot');
+        if (adSlot && _shouldShowAds()) {
+            adSlot.classList.remove('hidden');
+            if (!_translateAdPushed) {
+                _translateAdPushed = true;
+                try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch {}
+            }
+        }
     }
 
     // ── Traducir ──────────────────────────────────────────────
