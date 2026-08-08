@@ -694,6 +694,22 @@ function updateUserAdmin(userId, { plan, role, label, permissions, managedRegion
     if (!fields.length) return { ok: false, error: 'Nada que actualizar.' };
     vals.push(userId);
     db.prepare(`UPDATE users SET ${fields.join(', ')} WHERE id = ?`).run(...vals);
+
+    // Si se asigna rol estudiante con un profesor, inscribir automáticamente en la clase del profesor
+    if (role === 'estudiante' && assignedTeacherId) {
+        const cls = db.prepare('SELECT * FROM classes WHERE teacher_id = ? ORDER BY created_at ASC LIMIT 1').get(assignedTeacherId);
+        if (cls) {
+            const existing = db.prepare('SELECT * FROM class_students WHERE class_id = ? AND student_id = ?').get(cls.id, userId);
+            if (!existing) {
+                db.prepare('INSERT INTO class_students (class_id, student_id, status, joined_at) VALUES (?, ?, ?, ?)')
+                  .run(cls.id, userId, 'active', new Date().toISOString());
+            } else if (existing.status !== 'active') {
+                db.prepare('UPDATE class_students SET status = ? WHERE class_id = ? AND student_id = ?')
+                  .run('active', cls.id, userId);
+            }
+        }
+    }
+
     return { ok: true };
 }
 
