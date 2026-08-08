@@ -39,3 +39,6 @@ const CURATED_CONTENT = [
     ]
   },
 ];
+
+// Permite que server.cjs use el mismo archivo como fuente única de verdad
+if (typeof module !== 'undefined') module.exports = CURATED_CONTENT;

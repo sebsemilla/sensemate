@@ -81,8 +81,8 @@ app.use(express.urlencoded({ extended: true }));
 // ── Bot detector: si es un crawler social, servir HTML con meta tags correctos ──
 const BOT_UA = /facebookexternalhit|twitterbot|linkedinbot|whatsapp|telegram|slack|discord|googlebot|bingbot|applebot/i;
 
-// ── Contenido curado (para SSR y sitemap) ─────────────────────
-const CURATED = require('./data/curated_content.json');
+// ── Contenido curado (fuente única: content_library.js) ───────
+const CURATED = require('./content_library.js');
 
 function _esc(s) {
     return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
