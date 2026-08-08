@@ -194,7 +194,7 @@ function loadSettingsSection() {
                 ${_toggleRow('sec_translator', '🔄 Traductor (Modo Simple)',   appSettings.sections.translator)}
                 ${_toggleRow('sec_famous',     '⭐ Famosos',                   appSettings.sections.famous)}
                 ${_toggleRow('sec_musicians',  '🎵 Músicos y Letras',          appSettings.sections.musicians)}
-                ${_toggleRow('sec_immersion',  '🌍 Aprende con...',            appSettings.sections.immersion)}
+                ${_toggleRow('sec_immersion',  '🎬 Multimedia',                appSettings.sections.immersion)}
                 ${_toggleRow('sec_practice',   '📇 Práctica / Flashcards',     appSettings.sections.practice)}
             </div>
 
@@ -322,7 +322,20 @@ function _bindSettingsEvents() {
         appSettings.uiLanguage = newLang;
         appUILanguage = newLang;
         localStorage.setItem('appUILanguage', newLang);
+        localStorage.setItem('_uiLangSetByUser', '1'); // evitar que el mapeo por país lo sobreescriba
         saveSettings();
+
+        // Persistir en servidor (cross-device) si hay sesión activa
+        if (currentUser && currentUser.id !== 'dev') {
+            _authFetch(`${_API_HOST}/auth/me/ui-language`, {
+                method: 'PATCH',
+                body: JSON.stringify({ lang: newLang })
+            }).catch(() => {});
+            // Actualizar también el objeto de usuario en localStorage para que esté disponible en la próxima init
+            currentUser.uiLanguage = newLang;
+            const session = JSON.parse(localStorage.getItem('ls_session') || '{}');
+            if (session.user) { session.user.uiLanguage = newLang; localStorage.setItem('ls_session', JSON.stringify(session)); }
+        }
 
         // Recargar traducciones y re-renderizar en el nuevo idioma
         await loadTranslations(newLang);

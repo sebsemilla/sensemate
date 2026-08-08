@@ -5058,6 +5058,144 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
 .imm-translate-srt-btn:hover  { opacity: 0.88; }
 .imm-translate-srt-btn:disabled { opacity: 0.55; cursor: default; }
 
+/* ── Textarea para "Texto completo" en modal de agregar ── */
+.imm-modal-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.65rem 0.8rem;
+  border: 1.5px solid var(--border, #e2e8f0);
+  border-radius: 10px;
+  background: var(--input-bg, #f8fafc);
+  color: var(--text, #1e293b);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  resize: vertical;
+  font-family: inherit;
+  transition: border-color 0.15s;
+}
+.imm-modal-textarea:focus { outline: none; border-color: rgba(99,102,241,0.7); }
+.dark-mode .imm-modal-textarea { background: rgba(255,255,255,.05); color: #f1f5f9; border-color: rgba(255,255,255,.1); }
+
+/* ── Botón "Editar subtítulos" en el player ── */
+.imm-sub-edit-open-btn {
+  display: block;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1rem;
+  background: var(--card-bg, #fff);
+  border: 1.5px solid var(--border, #e2e8f0);
+  border-radius: 12px;
+  color: var(--text-muted, #64748b);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: border-color 0.15s, color 0.15s;
+}
+.imm-sub-edit-open-btn:hover { border-color: #f59e0b; color: #d97706; }
+
+/* ── Panel editor de subtítulos ── */
+.imm-sub-editor-panel {
+  margin-top: 0.5rem;
+  border: 1.5px solid var(--border, #e2e8f0);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.imm-sed-toolbar {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  background: var(--card-bg, #f8fafc);
+  border-bottom: 1px solid var(--border, #e2e8f0);
+}
+.imm-sed-btn {
+  padding: 0.4rem 0.85rem;
+  border: 1.5px solid var(--border, #e2e8f0);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  color: var(--text-muted, #64748b);
+  transition: all 0.15s;
+}
+.imm-sed-btn--text:hover, .imm-sed-btn--text.imm-sed-btn--active { border-color: #6366f1; color: #6366f1; background: rgba(99,102,241,.08); }
+.imm-sed-btn--save { margin-left: auto; background: linear-gradient(135deg,#6366f1,#8b5cf6); color: #fff; border-color: transparent; }
+.imm-sed-btn--save:hover { opacity: 0.88; }
+.imm-sed-btn--save:disabled { opacity: 0.55; cursor: default; }
+
+.imm-sed-hint {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.75rem;
+  color: var(--text-muted, #64748b);
+  background: var(--card-bg, #f8fafc);
+  border-bottom: 1px solid var(--border, #e2e8f0);
+}
+
+.imm-sed-list {
+  max-height: 360px;
+  overflow-y: auto;
+  background: var(--bg, #fff);
+}
+.imm-sed-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border, #f1f5f9);
+}
+.imm-sed-row:last-child { border-bottom: none; }
+
+.imm-sed-times {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+.imm-sed-mark {
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border, #e2e8f0);
+  background: var(--card-bg, #f8fafc);
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.12s;
+  font-family: monospace;
+  color: var(--text-muted, #64748b);
+}
+.imm-sed-mark--start:hover { border-color: #10b981; color: #059669; background: rgba(16,185,129,.08); }
+.imm-sed-mark--end:hover   { border-color: #f59e0b; color: #d97706; background: rgba(245,158,11,.08); }
+
+.imm-sed-text {
+  flex: 1;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text, #1e293b);
+  padding: 0.15rem 0.25rem;
+  border-radius: 6px;
+  word-break: break-word;
+  cursor: default;
+}
+.imm-sed-text--editable {
+  cursor: text;
+  background: var(--input-bg, #f8fafc);
+  border: 1px dashed var(--border, #cbd5e1);
+  outline: none;
+}
+.imm-sed-text--editable:focus { border-color: #6366f1; background: rgba(99,102,241,.04); }
+
+.dark-mode .imm-sub-editor-panel { border-color: rgba(255,255,255,.1); }
+.dark-mode .imm-sed-toolbar, .dark-mode .imm-sed-hint { background: rgba(255,255,255,.04); border-color: rgba(255,255,255,.08); }
+.dark-mode .imm-sed-list { background: var(--bg); }
+.dark-mode .imm-sed-row { border-color: rgba(255,255,255,.06); }
+.dark-mode .imm-sed-mark { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.1); color: #94a3b8; }
+.dark-mode .imm-sed-text { color: #e2e8f0; }
+.dark-mode .imm-sed-text--editable { background: rgba(255,255,255,.05); border-color: rgba(255,255,255,.15); }
+.dark-mode .imm-sub-edit-open-btn { background: rgba(255,255,255,.04); border-color: rgba(255,255,255,.1); color: #94a3b8; }
+
 .imm-srt-progress {
   margin-top: 0.5rem;
   display: flex;

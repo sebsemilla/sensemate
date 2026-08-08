@@ -186,6 +186,7 @@ try {
     const _activeTasks = new Map();
 
     function _scheduleBot(bot) {
+        if (bot.scheduleMode === 'human-random') return; // handled by dispatcher
         if (!bot.enabled || !cron.validate(bot.schedule)) return;
         if (_activeTasks.has(bot.id)) _activeTasks.get(bot.id).destroy();
 
@@ -224,6 +225,33 @@ try {
 } catch (err) {
     console.warn('[Bots] node-cron no disponible — bots solo ejecutables manualmente:', err.message);
     app._botScheduler = { register: () => {}, update: () => {}, unregister: () => {} };
+}
+
+// ─── Human-random bot dispatcher ──────────────────────────────
+try {
+    const cronDisp = require('node-cron');
+    const { getDueEntries, markFired } = require('./bot_schedule.cjs');
+
+    cronDisp.schedule('* * * * *', async () => {
+        const due = getDueEntries();
+        if (!due.length) return;
+        const bots = loadBots();
+        for (const entry of due) {
+            const bot = bots.find(b => b.id === entry.botId && b.enabled && b.scheduleMode === 'human-random');
+            if (!bot) { markFired(entry.botId, entry.ts); continue; }
+            console.log(`[Dispatcher] "${bot.displayName || bot.name}" (${new Date(entry.ts).toLocaleString('es-AR')})`);
+            try {
+                await runBot(bot.id);
+            } catch (err) {
+                console.error(`[Dispatcher] Error en "${bot.displayName || bot.name}": ${err.message}`);
+            }
+            markFired(entry.botId, entry.ts);
+        }
+    }, { timezone: 'America/Argentina/Buenos_Aires' });
+
+    console.log('[Dispatcher] Bot dispatcher human-random activo (cada minuto).');
+} catch (err) {
+    console.warn('[Dispatcher] No disponible:', err.message);
 }
 
 // ─── LinkedIn Bot — publicación automática cada 4 días ────────

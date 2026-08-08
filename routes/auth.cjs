@@ -58,6 +58,16 @@ module.exports = function registerAuthRoutes(app, { authDb, authLimiter, _detect
         res.json({ user });
     });
 
+    // PATCH /auth/me/ui-language — guarda el idioma de UI elegido por el usuario
+    app.patch('/auth/me/ui-language', authDb.verifyToken, (req, res) => {
+        const { lang } = req.body;
+        if (!lang || typeof lang !== 'string' || lang.length > 10) {
+            return res.status(400).json({ error: 'Idioma inválido.' });
+        }
+        authDb.saveUILanguage(req.jwtUser.id, lang);
+        res.json({ ok: true });
+    });
+
     // GET /auth/verify/:token — verifica el email del usuario
     app.get('/auth/verify/:token', (req, res) => {
         const result = authDb.verifyEmail(req.params.token);
@@ -155,8 +165,8 @@ module.exports = function registerAuthRoutes(app, { authDb, authLimiter, _detect
     // PATCH /admin/users/:id — admin: actualiza plan, rol, etiqueta, permisos, regiones gestionadas
     app.patch('/admin/users/:id', (req, res) => {
         if (!checkAdminToken(req, res)) return;
-        const { plan, role, label, permissions, managedRegions } = req.body;
-        const result = authDb.updateUserAdmin(req.params.id, { plan, role, label, permissions, managedRegions });
+        const { plan, role, label, permissions, managedRegions, assignedTeacherId } = req.body;
+        const result = authDb.updateUserAdmin(req.params.id, { plan, role, label, permissions, managedRegions, assignedTeacherId });
         res.json(result);
     });
 

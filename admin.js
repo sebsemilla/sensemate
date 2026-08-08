@@ -1840,18 +1840,30 @@ function _timeAgoAdmin(ts) {
     return `${Math.floor(hrs / 24)}d atrás`;
 }
 
+function _botDirectionBadge(bot) {
+    if (bot.direction === 'es-en') return `<span class="bot-dir-badge">🇦🇷→🇺🇸 Es→En</span>`;
+    if (bot.direction === 'en-es') return `<span class="bot-dir-badge">🇺🇸→🇦🇷 En→Es</span>`;
+    return '';
+}
+
 function _botCard(bot) {
+    const isHumanRandom = bot.scheduleMode === 'human-random';
     const preset = _CRON_PRESETS.find(p => p.value === bot.schedule);
-    const schedLabel = preset ? preset.label : bot.schedule;
+    const schedLabel = isHumanRandom
+        ? `🎲 ${bot.postsPerDayWeekday || 2}/día · ${bot.postsPerDayWeekend || 3}/fin de semana`
+        : (preset ? preset.label : bot.schedule);
+    const displayName = bot.displayName || bot.name;
     return `
     <div class="bot-card" data-bot-id="${bot.id}">
         <div class="bot-card-header">
             <div class="bot-card-info">
-                <span class="bot-card-name">${escapeHtml(bot.name)}</span>
+                <span class="bot-card-name">${escapeHtml(displayName)}</span>
+                ${_botDirectionBadge(bot)}
                 ${_botStatusBadge(bot)}
             </div>
             <div class="bot-card-actions">
                 <button class="bot-run-btn" data-id="${bot.id}" title="Ejecutar ahora">▶ Ejecutar</button>
+                ${isHumanRandom ? `<button class="bot-agenda-btn" data-id="${bot.id}" title="Ver agenda">📅 Agenda</button>` : ''}
                 <button class="bot-edit-btn" data-id="${bot.id}" title="Editar">✏️</button>
                 <button class="bot-del-btn"  data-id="${bot.id}" title="Eliminar">🗑️</button>
             </div>
@@ -1871,6 +1883,7 @@ function _botCard(bot) {
                 `<span class="${l.ok ? 'bot-log-ok' : 'bot-log-err'}">${l.ok ? `✓ ${l.count} items (${l.ms}ms)` : `✗ ${escapeHtml(l.error || '')}`}</span>`
             ).join('')}
         </div>
+        <div class="bot-agenda-panel hidden" id="botAgenda_${bot.id}"></div>
         <label class="bot-toggle-wrap">
             <input type="checkbox" class="bot-toggle" data-id="${bot.id}" ${bot.enabled ? 'checked' : ''}>
             <span>${bot.enabled ? 'Activo' : 'Pausado'}</span>
@@ -1879,16 +1892,33 @@ function _botCard(bot) {
 }
 
 function _botForm(bot = {}) {
-    const isEdit     = !!bot.id;
-    const selPreset  = _CRON_PRESETS.find(p => p.value === bot.schedule)?.value || 'custom';
-    const isCustom   = selPreset === 'custom';
+    const isEdit        = !!bot.id;
+    const isHumanRandom = bot.scheduleMode === 'human-random';
+    const selPreset     = isHumanRandom ? 'custom' : (_CRON_PRESETS.find(p => p.value === bot.schedule)?.value || 'custom');
+    const isCustom      = !isHumanRandom && selPreset === 'custom';
 
     return `
     <div class="bot-form" id="botForm">
         <h3 class="bot-form-title">${isEdit ? '✏️ Editar bot' : '➕ Nuevo bot'}</h3>
 
-        <label class="bot-form-label">Nombre del bot
+        <label class="bot-form-label">Nombre público (displayName)
+            <input class="bot-form-input" id="bfDisplayName" maxlength="80" value="${escapeHtml(bot.displayName || '')}" placeholder="Ej: El Corrector">
+        </label>
+
+        <label class="bot-form-label">Nombre interno del bot
             <input class="bot-form-input" id="bfName" maxlength="80" value="${escapeHtml(bot.name || '')}" placeholder="Ej: Tips de vocabulario diarios">
+        </label>
+
+        <label class="bot-form-label">Dirección de idioma
+            <select class="bot-form-select" id="bfDirection">
+                <option value=""      ${!bot.direction            ? 'selected' : ''}>— Sin dirección —</option>
+                <option value="es-en" ${bot.direction === 'es-en' ? 'selected' : ''}>Es→En</option>
+                <option value="en-es" ${bot.direction === 'en-es' ? 'selected' : ''}>En→Es</option>
+            </select>
+        </label>
+
+        <label class="bot-form-label">URL de avatar
+            <input class="bot-form-input" id="bfAvatarUrl" maxlength="500" value="${escapeHtml(bot.avatarUrl || '')}" placeholder="https://... (se puede agregar después)">
         </label>
 
         <label class="bot-form-label">Destino
@@ -1908,21 +1938,44 @@ function _botForm(bot = {}) {
             <textarea class="bot-form-textarea" id="bfPrompt" maxlength="2000" rows="5" placeholder="Describe qué contenido debe generar. Ej: Crea posts educativos sobre expresiones coloquiales en español rioplatense, con ejemplos y traducción al inglés.">${escapeHtml(bot.prompt || '')}</textarea>
         </label>
 
-        <label class="bot-form-label">Periodicidad
-            <select class="bot-form-select" id="bfPreset">
-                ${_CRON_PRESETS.map(p => `<option value="${p.value}" ${selPreset === p.value ? 'selected' : ''}>${p.label}</option>`).join('')}
-            </select>
-        </label>
+        <div class="bot-form-label">Modo de programación
+            <div class="bot-schedule-mode-wrap">
+                <label class="bot-radio-label">
+                    <input type="radio" name="bfScheduleMode" id="bfModeCron" value="cron" ${!isHumanRandom ? 'checked' : ''}>
+                    🕐 Cron fijo
+                </label>
+                <label class="bot-radio-label">
+                    <input type="radio" name="bfScheduleMode" id="bfModeHuman" value="human-random" ${isHumanRandom ? 'checked' : ''}>
+                    🎲 Aleatorio humano
+                </label>
+            </div>
+        </div>
 
-        <div id="bfCustomCronWrap" style="display:${isCustom ? 'block' : 'none'}">
-            <label class="bot-form-label">Expresión cron (min hr día mes dow)
-                <input class="bot-form-input" id="bfCron" value="${isCustom ? escapeHtml(bot.schedule || '') : ''}" placeholder="0 9 * * *">
-                <small style="color:#6b7280">Ej: <code>0 9 * * *</code> = diario 9am · <code>*/30 * * * *</code> = cada 30 min</small>
+        <div id="bfCronSection" style="display:${isHumanRandom ? 'none' : 'block'}">
+            <label class="bot-form-label">Periodicidad
+                <select class="bot-form-select" id="bfPreset">
+                    ${_CRON_PRESETS.map(p => `<option value="${p.value}" ${selPreset === p.value ? 'selected' : ''}>${p.label}</option>`).join('')}
+                </select>
+            </label>
+            <div id="bfCustomCronWrap" style="display:${isCustom ? 'block' : 'none'}">
+                <label class="bot-form-label">Expresión cron (min hr día mes dow)
+                    <input class="bot-form-input" id="bfCron" value="${isCustom ? escapeHtml(bot.schedule || '') : ''}" placeholder="0 9 * * *">
+                    <small style="color:#6b7280">Ej: <code>0 9 * * *</code> = diario 9am · <code>*/30 * * * *</code> = cada 30 min</small>
+                </label>
+            </div>
+        </div>
+
+        <div id="bfHumanSection" style="display:${isHumanRandom ? 'block' : 'none'}">
+            <label class="bot-form-label">Posts/día semana
+                <input class="bot-form-input" id="bfPostsWeekday" type="number" min="1" max="6" value="${bot.postsPerDayWeekday || 2}">
+            </label>
+            <label class="bot-form-label">Posts/día fin de semana
+                <input class="bot-form-input" id="bfPostsWeekend" type="number" min="1" max="8" value="${bot.postsPerDayWeekend || 3}">
             </label>
         </div>
 
         <label class="bot-form-label">Cantidad por ejecución (1–10)
-            <input class="bot-form-input" id="bfQty" type="number" min="1" max="10" value="${bot.quantity || 2}">
+            <input class="bot-form-input" id="bfQty" type="number" min="1" max="10" value="${bot.quantity || 1}">
         </label>
 
         <label class="bot-form-label">Modelo DeepSeek
@@ -1944,6 +1997,8 @@ async function _adminRenderBots(container) {
     if (!res.ok) throw new Error('Error al cargar bots');
     const bots = await res.json();
 
+    const hasHumanBots = bots.some(b => b.scheduleMode === 'human-random');
+
     const deepseekWarning = !bots.length ? '' :
         `<div class="bot-info-banner">
             ℹ️ Requiere <code>DEEPSEEK_API_KEY</code> en <code>.env</code>.
@@ -1951,16 +2006,34 @@ async function _adminRenderBots(container) {
             e insertan schema.org JSON-LD en cada publicación.
          </div>`;
 
+    const seedBtn = hasHumanBots ? '' :
+        `<button class="admin-btn admin-btn--seed" id="botSeedBtn">🌱 Crear bots editoriales</button>`;
+
     container.innerHTML = `
         <div class="admin-bots-section">
             <div class="admin-bots-header">
                 <span class="admin-count">${bots.length} bot(s) · ${bots.filter(b=>b.enabled).length} activo(s)</span>
-                <button class="admin-btn" id="botNewBtn">➕ Nuevo bot</button>
+                <div class="admin-bots-header-actions">
+                    ${seedBtn}
+                    <button class="admin-btn" id="botNewBtn">➕ Nuevo bot</button>
+                </div>
             </div>
             ${deepseekWarning}
             <div id="botFormSlot"></div>
             <div class="bot-list" id="botList">
                 ${bots.length ? bots.map(_botCard).join('') : '<div class="admin-empty">🤖 No hay bots aún. Crea el primero.</div>'}
+            </div>
+
+            <!-- Gestionar posts del feed -->
+            <div class="bot-posts-section" id="botPostsSection">
+                <button class="admin-btn admin-btn--secondary bot-posts-toggle" id="botPostsToggleBtn">
+                    📬 Gestionar posts del feed
+                </button>
+                <div class="bot-posts-panel hidden" id="botPostsPanel">
+                    <div class="bot-posts-list" id="botPostsList">
+                        <div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>
+                    </div>
+                </div>
             </div>
         </div>
     `;
@@ -1973,11 +2046,169 @@ async function _adminRenderBots(container) {
         slot.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
 
+    // ── Seed bots editoriales ──────────────────────────────────────────────────
+    const seedBtnEl = document.getElementById('botSeedBtn');
+    if (seedBtnEl) {
+        seedBtnEl.addEventListener('click', async () => {
+            seedBtnEl.textContent = '⏳ Creando bots…';
+            seedBtnEl.disabled = true;
+            try {
+                const r = await fetch(_API_HOST + '/admin/seed-bots', {
+                    method: 'POST',
+                    headers: { 'x-admin-token': ADMIN_TOKEN }
+                });
+                const data = await r.json();
+                if (data.ok) {
+                    seedBtnEl.textContent = data.skipped ? '✓ Ya existen' : `✓ ${data.created} bots creados`;
+                    setTimeout(() => _adminRenderBots(container), 1200);
+                } else {
+                    seedBtnEl.textContent = `✗ ${data.error || 'Error'}`;
+                    seedBtnEl.disabled = false;
+                }
+            } catch (e) {
+                seedBtnEl.textContent = '✗ Error de red';
+                seedBtnEl.disabled = false;
+            }
+        });
+    }
+
+    // ── Toggle gestionar posts ─────────────────────────────────────────────────
+    document.getElementById('botPostsToggleBtn').addEventListener('click', async () => {
+        const panel = document.getElementById('botPostsPanel');
+        const isOpen = !panel.classList.contains('hidden');
+        if (isOpen) {
+            panel.classList.add('hidden');
+        } else {
+            panel.classList.remove('hidden');
+            await _loadAdminPosts();
+        }
+    });
+
     // ── Eventos en las tarjetas ────────────────────────────────────────────────
     _bindBotCardEvents(container, bots);
 }
 
+async function _loadAdminPosts() {
+    const listEl = document.getElementById('botPostsList');
+    if (!listEl) return;
+    listEl.innerHTML = '<div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>';
+    try {
+        const r = await fetch(_API_HOST + '/admin/posts?limit=50', { headers: { 'x-admin-token': ADMIN_TOKEN } });
+        if (!r.ok) throw new Error('Error al cargar posts');
+        const data = await r.json();
+        const posts = data.posts || [];
+        if (!posts.length) {
+            listEl.innerHTML = '<div class="admin-empty">📭 No hay posts en el feed.</div>';
+            return;
+        }
+        listEl.innerHTML = posts.map(p => `
+            <div class="bot-post-row" data-post-id="${p.id}">
+                <div class="bot-post-main">
+                    <span class="bot-post-avatar">${escapeHtml(p.avatar || '📝')}</span>
+                    <span class="bot-post-title">${escapeHtml((p.title || '').slice(0, 60))}${(p.title||'').length > 60 ? '…' : ''}</span>
+                    <span class="bot-post-author">— ${escapeHtml(p.author || '')}</span>
+                    <span class="bot-post-date">${p.ts ? new Date(p.ts).toLocaleDateString('es-AR') : ''}</span>
+                    <button class="bot-post-edit-btn" data-id="${p.id}" title="Editar">✏️</button>
+                    <button class="bot-post-del-btn"  data-id="${p.id}" title="Eliminar">🗑️</button>
+                </div>
+                <div class="bot-post-edit-panel hidden" id="postEdit_${p.id}">
+                    <label class="bot-form-label">Título
+                        <input class="bot-form-input" id="peTitle_${p.id}" value="${escapeHtml(p.title || '')}">
+                    </label>
+                    <label class="bot-form-label">Cuerpo
+                        <textarea class="bot-form-textarea" id="peBody_${p.id}" rows="3">${escapeHtml(p.body || '')}</textarea>
+                    </label>
+                    <label class="bot-form-label">Tags (coma separados)
+                        <input class="bot-form-input" id="peTags_${p.id}" value="${escapeHtml((p.tags || []).join(', '))}">
+                    </label>
+                    <div class="bot-form-actions">
+                        <button class="admin-btn bot-post-save-btn" data-id="${p.id}">Guardar</button>
+                        <button class="admin-btn admin-btn--secondary bot-post-cancel-btn" data-id="${p.id}">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+
+        // Bind edit/delete/save/cancel events
+        listEl.querySelectorAll('.bot-post-edit-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const panel = document.getElementById(`postEdit_${btn.dataset.id}`);
+                if (panel) panel.classList.toggle('hidden');
+            });
+        });
+        listEl.querySelectorAll('.bot-post-cancel-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const panel = document.getElementById(`postEdit_${btn.dataset.id}`);
+                if (panel) panel.classList.add('hidden');
+            });
+        });
+        listEl.querySelectorAll('.bot-post-save-btn').forEach(btn => {
+            btn.addEventListener('click', async () => {
+                const id    = btn.dataset.id;
+                const title = document.getElementById(`peTitle_${id}`)?.value.trim();
+                const body  = document.getElementById(`peBody_${id}`)?.value.trim();
+                const tagsRaw = document.getElementById(`peTags_${id}`)?.value.trim();
+                const tags  = tagsRaw ? tagsRaw.split(',').map(t => t.trim()).filter(Boolean) : [];
+                btn.textContent = '⏳';
+                const r = await fetch(_API_HOST + `/admin/posts/${id}`, {
+                    method: 'PATCH',
+                    headers: { 'x-admin-token': ADMIN_TOKEN, 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ title, body, tags })
+                });
+                if (r.ok) {
+                    btn.textContent = '✓ Guardado';
+                    setTimeout(() => _loadAdminPosts(), 800);
+                } else {
+                    btn.textContent = '✗ Error';
+                    setTimeout(() => { btn.textContent = 'Guardar'; }, 2000);
+                }
+            });
+        });
+        listEl.querySelectorAll('.bot-post-del-btn').forEach(btn => {
+            btn.addEventListener('click', async () => {
+                if (!confirm('¿Eliminar este post?')) return;
+                const r = await fetch(_API_HOST + `/admin/posts/${btn.dataset.id}`, {
+                    method: 'DELETE',
+                    headers: { 'x-admin-token': ADMIN_TOKEN }
+                });
+                if (r.ok) {
+                    btn.closest('.bot-post-row')?.remove();
+                } else {
+                    alert('Error al eliminar el post.');
+                }
+            });
+        });
+    } catch (e) {
+        listEl.innerHTML = `<div class="admin-error">❌ ${escapeHtml(e.message)}</div>`;
+    }
+}
+
 function _bindBotCardEvents(container, botsArr) {
+    // Agenda button (human-random bots)
+    container.querySelectorAll('.bot-agenda-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            const id    = btn.dataset.id;
+            const panel = document.getElementById(`botAgenda_${id}`);
+            if (!panel) return;
+            const isOpen = !panel.classList.contains('hidden');
+            if (isOpen) { panel.classList.add('hidden'); return; }
+            panel.classList.remove('hidden');
+            panel.innerHTML = '<em>Cargando agenda…</em>';
+            try {
+                const r = await fetch(_API_HOST + `/admin/bots/${id}/schedule?limit=5`, {
+                    headers: { 'x-admin-token': ADMIN_TOKEN }
+                });
+                const entries = await r.json();
+                if (!entries.length) { panel.innerHTML = '<em>Sin entradas programadas.</em>'; return; }
+                panel.innerHTML = `<ul class="bot-agenda-list">${entries.slice(0, 5).map(e =>
+                    `<li>📅 ${new Date(e.ts).toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires', dateStyle: 'short', timeStyle: 'short' })}</li>`
+                ).join('')}</ul>`;
+            } catch (err) {
+                panel.innerHTML = `<em>Error: ${escapeHtml(err.message)}</em>`;
+            }
+        });
+    });
+
     // Toggle enable/disable
     container.querySelectorAll('.bot-toggle').forEach(chk => {
         chk.addEventListener('change', async () => {
@@ -2055,11 +2286,24 @@ function _bindBotCardEvents(container, botsArr) {
 }
 
 function _initBotForm(existingBot, slot, botsArr, container) {
-    const preset = document.getElementById('bfPreset');
+    const preset     = document.getElementById('bfPreset');
     const customWrap = document.getElementById('bfCustomCronWrap');
+    const cronSection  = document.getElementById('bfCronSection');
+    const humanSection = document.getElementById('bfHumanSection');
+    const modeCronEl   = document.getElementById('bfModeCron');
+    const modeHumanEl  = document.getElementById('bfModeHuman');
 
-    preset.addEventListener('change', () => {
-        customWrap.style.display = preset.value === 'custom' ? 'block' : 'none';
+    function _updateScheduleMode() {
+        const isHuman = modeHumanEl?.checked;
+        if (cronSection)  cronSection.style.display  = isHuman ? 'none' : 'block';
+        if (humanSection) humanSection.style.display = isHuman ? 'block' : 'none';
+    }
+
+    modeCronEl?.addEventListener('change',  _updateScheduleMode);
+    modeHumanEl?.addEventListener('change', _updateScheduleMode);
+
+    preset?.addEventListener('change', () => {
+        if (customWrap) customWrap.style.display = preset.value === 'custom' ? 'block' : 'none';
     });
 
     document.getElementById('bfCancelBtn').addEventListener('click', () => {
@@ -2067,23 +2311,47 @@ function _initBotForm(existingBot, slot, botsArr, container) {
     });
 
     document.getElementById('bfSaveBtn').addEventListener('click', async () => {
-        const name      = document.getElementById('bfName').value.trim();
-        const prompt    = document.getElementById('bfPrompt').value.trim();
-        const target    = document.getElementById('bfTarget').value;
-        const schemaType = document.getElementById('bfSchema').value;
-        const presetVal = document.getElementById('bfPreset').value;
-        const schedule  = presetVal === 'custom'
-            ? document.getElementById('bfCron').value.trim()
-            : presetVal;
-        const quantity  = parseInt(document.getElementById('bfQty').value) || 2;
-        const model     = document.getElementById('bfModel').value;
+        const name         = document.getElementById('bfName').value.trim();
+        const displayName  = document.getElementById('bfDisplayName').value.trim();
+        const direction    = document.getElementById('bfDirection').value;
+        const avatarUrl    = document.getElementById('bfAvatarUrl').value.trim();
+        const prompt       = document.getElementById('bfPrompt').value.trim();
+        const target       = document.getElementById('bfTarget').value;
+        const schemaType   = document.getElementById('bfSchema').value;
+        const quantity     = parseInt(document.getElementById('bfQty').value) || 1;
+        const model        = document.getElementById('bfModel').value;
+        const isHuman      = modeHumanEl?.checked;
+        const scheduleMode = isHuman ? 'human-random' : null;
 
-        if (!name || !prompt || !schedule) {
-            alert('Nombre, prompt y periodicidad son obligatorios.'); return;
+        let schedule = null;
+        let postsPerDayWeekday = null;
+        let postsPerDayWeekend = null;
+
+        if (isHuman) {
+            postsPerDayWeekday = parseInt(document.getElementById('bfPostsWeekday')?.value) || 2;
+            postsPerDayWeekend = parseInt(document.getElementById('bfPostsWeekend')?.value) || 3;
+        } else {
+            const presetVal = document.getElementById('bfPreset')?.value;
+            schedule = presetVal === 'custom'
+                ? document.getElementById('bfCron')?.value.trim()
+                : presetVal;
         }
 
-        const body = { name, prompt, target, schemaType, schedule, quantity, model };
-        const url  = existingBot
+        if (!name || !prompt) {
+            alert('Nombre y prompt son obligatorios.'); return;
+        }
+        if (!isHuman && !schedule) {
+            alert('Periodicidad es obligatoria para modo cron.'); return;
+        }
+
+        const body = {
+            name, displayName, direction, avatarUrl,
+            prompt, target, schemaType, quantity, model,
+            scheduleMode,
+            ...(isHuman ? { postsPerDayWeekday, postsPerDayWeekend } : { schedule })
+        };
+
+        const url    = existingBot
             ? `${_API_HOST}/admin/bots/${existingBot.id}`
             : `${_API_HOST}/admin/bots`;
         const method = existingBot ? 'PATCH' : 'POST';

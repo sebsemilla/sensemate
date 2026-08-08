@@ -3,10 +3,122 @@
 
 // ─── Constantes ───────────────────────────────────────────────
 
-const _CL_LANG_NAMES = {
-    en:'Inglés', es:'Español', fr:'Francés', de:'Alemán', pt:'Portugués',
-    it:'Italiano', zh:'Chino', ja:'Japonés', ko:'Coreano', ru:'Ruso', ar:'Árabe'
-};
+const _CL_LANG_GROUPS = [
+    { label: '🌎 América', langs: [
+        { code: 'es',  name: 'Español' },
+        { code: 'en',  name: 'Inglés' },
+        { code: 'pt',  name: 'Português' },
+        { code: 'fr',  name: 'Français' },
+        { code: 'gn',  name: 'Guaraní' },
+        { code: 'qu',  name: 'Quechua' },
+        { code: 'ht',  name: 'Kreyòl ayisyen' },
+    ]},
+    { label: '🌍 Europa Occidental', langs: [
+        { code: 'de',  name: 'Deutsch' },
+        { code: 'it',  name: 'Italiano' },
+        { code: 'nl',  name: 'Nederlands' },
+        { code: 'da',  name: 'Dansk' },
+        { code: 'sv',  name: 'Svenska' },
+        { code: 'no',  name: 'Norsk' },
+        { code: 'fi',  name: 'Suomi' },
+        { code: 'is',  name: 'Íslenska' },
+        { code: 'ga',  name: 'Gaeilge' },
+        { code: 'ca',  name: 'Català' },
+        { code: 'gl',  name: 'Galego' },
+        { code: 'eu',  name: 'Euskara' },
+        { code: 'cy',  name: 'Cymraeg' },
+    ]},
+    { label: '🌍 Europa Oriental', langs: [
+        { code: 'ru',  name: 'Русский' },
+        { code: 'pl',  name: 'Polski' },
+        { code: 'cs',  name: 'Čeština' },
+        { code: 'sk',  name: 'Slovenčina' },
+        { code: 'uk',  name: 'Українська' },
+        { code: 'bg',  name: 'Български' },
+        { code: 'ro',  name: 'Română' },
+        { code: 'hr',  name: 'Hrvatski' },
+        { code: 'sr',  name: 'Srpski' },
+        { code: 'bs',  name: 'Bosanski' },
+        { code: 'sl',  name: 'Slovenščina' },
+        { code: 'mk',  name: 'Македонски' },
+        { code: 'sq',  name: 'Shqip' },
+        { code: 'el',  name: 'Ελληνικά' },
+        { code: 'hu',  name: 'Magyar' },
+        { code: 'lt',  name: 'Lietuvių' },
+        { code: 'lv',  name: 'Latviešu' },
+        { code: 'et',  name: 'Eesti' },
+        { code: 'be',  name: 'Беларуская' },
+    ]},
+    { label: '🕌 Asia Occidental', langs: [
+        { code: 'ar',  name: 'العربية' },
+        { code: 'he',  name: 'עברית' },
+        { code: 'tr',  name: 'Türkçe' },
+        { code: 'fa',  name: 'فارسی' },
+        { code: 'ur',  name: 'اردو' },
+        { code: 'az',  name: 'Azərbaycan' },
+        { code: 'ka',  name: 'ქართული' },
+        { code: 'hy',  name: 'Հայերեն' },
+        { code: 'ku',  name: 'Kurdî' },
+    ]},
+    { label: '🌏 Asia Oriental y del Sur', langs: [
+        { code: 'zh',  name: '中文 (Mandarín)' },
+        { code: 'ja',  name: '日本語' },
+        { code: 'ko',  name: '한국어' },
+        { code: 'hi',  name: 'हिन्दी' },
+        { code: 'bn',  name: 'বাংলা' },
+        { code: 'ta',  name: 'தமிழ்' },
+        { code: 'te',  name: 'తెలుగు' },
+        { code: 'vi',  name: 'Tiếng Việt' },
+        { code: 'th',  name: 'ภาษาไทย' },
+        { code: 'id',  name: 'Bahasa Indonesia' },
+        { code: 'ms',  name: 'Bahasa Melayu' },
+        { code: 'tl',  name: 'Filipino' },
+        { code: 'ne',  name: 'नेपाली' },
+        { code: 'si',  name: 'සිංහල' },
+        { code: 'my',  name: 'မြန်မာဘာသာ' },
+        { code: 'km',  name: 'ភាសាខ្មែរ' },
+        { code: 'lo',  name: 'ພາສາລາວ' },
+        { code: 'mn',  name: 'Монгол' },
+        { code: 'kk',  name: 'Қазақша' },
+        { code: 'uz',  name: 'Oʻzbek' },
+        { code: 'ky',  name: 'Кыргызча' },
+        { code: 'tg',  name: 'Тоҷикӣ' },
+        { code: 'tk',  name: 'Türkmen' },
+    ]},
+    { label: '🌍 África Subsahariana', langs: [
+        { code: 'sw',  name: 'Kiswahili' },
+        { code: 'yo',  name: 'Yorùbá' },
+        { code: 'ig',  name: 'Igbo' },
+        { code: 'ha',  name: 'Hausa' },
+        { code: 'zu',  name: 'isiZulu' },
+        { code: 'xh',  name: 'isiXhosa' },
+        { code: 'am',  name: 'አማርኛ' },
+        { code: 'so',  name: 'Soomaali' },
+        { code: 'sn',  name: 'ChiShona' },
+        { code: 'rw',  name: 'Kinyarwanda' },
+        { code: 'lg',  name: 'Luganda' },
+        { code: 'wo',  name: 'Wolof' },
+        { code: 'ff',  name: 'Fulfulde' },
+        { code: 'ln',  name: 'Lingála' },
+        { code: 'mg',  name: 'Malagasy' },
+    ]},
+    { label: '🏜️ África del Norte', langs: [
+        { code: 'ar-DZ', name: 'العربية (Magreb)' },
+        { code: 'ber',   name: 'Tamazight' },
+    ]},
+    { label: '🌏 Oceanía', langs: [
+        { code: 'mi',  name: 'Te Reo Māori' },
+        { code: 'sm',  name: 'Gagana Sāmoa' },
+        { code: 'fj',  name: 'Na Vosa Vakaviti' },
+        { code: 'tpi', name: 'Tok Pisin' },
+        { code: 'haw', name: 'ʻŌlelo Hawaiʻi' },
+    ]},
+];
+
+// Mapa plano derivado de los grupos (para lookups rápidos)
+const _CL_LANG_NAMES = Object.fromEntries(
+    _CL_LANG_GROUPS.flatMap(g => g.langs.map(l => [l.code, l.name]))
+);
 
 // ─── Entry point ──────────────────────────────────────────────
 
@@ -56,7 +168,8 @@ function _showClassRoomsIntro() {
     if (!user) { alert('Debés iniciar sesión para ver ClassRooms.'); return; }
 
     const hasAccess  = user.plan === 'gold' || !!user.classroomAddon || user.isDev;
-    const isEligible = hasAccess || (typeof MembershipPlan !== 'undefined' && MembershipPlan.isActive());
+    const isPaid     = ['premium', 'oro', 'contributor', 'trial'].includes(user.plan);
+    const isEligible = hasAccess || isPaid || (typeof MembershipPlan !== 'undefined' && MembershipPlan.isActive());
 
     // Ya tiene el rol de Profesor (Gold admin o addon activo)
     if (hasAccess) {
@@ -406,11 +519,15 @@ async function _clTeacherProfileTab(user) {
                 placeholder="Describí tu experiencia como profesor, metodología, idiomas que enseñás...">${escapeHtml(profile.bio || '')}</textarea>
 
             <label class="cl-label">Idiomas que enseñás</label>
-            <div class="cl-lang-checkboxes" id="clLangChecks">
-                ${Object.entries(_CL_LANG_NAMES).filter(([k]) => k !== 'es').map(([k,v]) => `
-                    <label class="cl-lang-check">
-                        <input type="checkbox" value="${k}" ${currentLangs.includes(k) ? 'checked' : ''}> ${v}
-                    </label>`).join('')}
+            <div class="cl-lang-picker" id="clLangPicker">
+                <select class="cl-input cl-lang-picker-sel" id="clLangAddSel">
+                    <option value="">— Seleccioná un idioma para agregar —</option>
+                    ${_CL_LANG_GROUPS.map(g => `
+                        <optgroup label="${g.label}">
+                            ${g.langs.map(l => `<option value="${l.code}">${l.name}</option>`).join('')}
+                        </optgroup>`).join('')}
+                </select>
+                <div class="cl-lang-check-list" id="clLangCheckList"></div>
             </div>
 
             <button class="cl-save-btn" id="clSaveProfileBtn">Guardar perfil</button>
@@ -433,9 +550,53 @@ async function _clTeacherProfileTab(user) {
         });
     });
 
+    // ── Selector de idiomas con checkboxes ────────────────────
+    // _langList: array de { code, checked } — todos son públicos,
+    // el estado checked es solo visual para el profesor.
+    let _langList = currentLangs.map(code => ({ code, checked: true }));
+
+    const _renderLangCheckboxes = () => {
+        const listEl = document.getElementById('clLangCheckList');
+        if (!listEl) return;
+        if (!_langList.length) {
+            listEl.innerHTML = '<span class="cl-lang-tags-empty">Ningún idioma agregado todavía</span>';
+            return;
+        }
+        listEl.innerHTML = _langList.map(({ code, checked }) => `
+            <label class="cl-lang-cb-row" data-code="${code}">
+                <input type="checkbox" class="cl-lang-cb" data-code="${code}" ${checked ? 'checked' : ''}>
+                <span class="cl-lang-cb-name">${escapeHtml(_CL_LANG_NAMES[code] || code)}</span>
+                <button type="button" class="cl-lang-cb-rm" data-code="${code}" title="Quitar idioma">×</button>
+            </label>`).join('');
+
+        listEl.querySelectorAll('.cl-lang-cb').forEach(cb => {
+            cb.addEventListener('change', () => {
+                const entry = _langList.find(l => l.code === cb.dataset.code);
+                if (entry) entry.checked = cb.checked;
+            });
+        });
+        listEl.querySelectorAll('.cl-lang-cb-rm').forEach(btn => {
+            btn.addEventListener('click', () => {
+                _langList = _langList.filter(l => l.code !== btn.dataset.code);
+                _renderLangCheckboxes();
+            });
+        });
+    };
+
+    document.getElementById('clLangAddSel').addEventListener('change', e => {
+        const code = e.target.value;
+        if (!code || _langList.some(l => l.code === code)) { e.target.value = ''; return; }
+        _langList.push({ code, checked: true });
+        e.target.value = '';
+        _renderLangCheckboxes();
+    });
+
+    _renderLangCheckboxes();
+    // ──────────────────────────────────────────────────────────
+
     document.getElementById('clSaveProfileBtn').addEventListener('click', async () => {
         const bio         = document.getElementById('clBio').value.trim();
-        const targetLangs = [...document.querySelectorAll('#clLangChecks input:checked')].map(i => i.value);
+        const targetLangs = _langList.map(l => l.code); // todos son públicos
         const r           = await _authFetch(`${_API_HOST}/classroom/teacher/profile`, {
             method: 'POST', body: JSON.stringify({ bio, targetLangs, status: _status })
         });
@@ -456,12 +617,20 @@ function _clShowCreateClassModal(user, onSuccess) {
             <input class="cl-input" id="clClassName" placeholder="Ej: Inglés A1 - Mañana">
             <label class="cl-label">Idioma que van a aprender</label>
             <select class="cl-input" id="clClassLang">
-                ${Object.entries(_CL_LANG_NAMES).filter(([k]) => k !== 'es').map(([k,v]) => `<option value="${k}">${v}</option>`).join('')}
+                ${_CL_LANG_GROUPS.map(g => `
+                    <optgroup label="${g.label}">
+                        ${g.langs.map(l => `<option value="${l.code}">${l.name}</option>`).join('')}
+                    </optgroup>`).join('')}
             </select>
             <div class="cl-error hidden" id="clCreateClassErr"></div>
             <button class="cl-save-btn" id="clCreateClassConfirm">Crear clase</button>
         </div>`;
     document.body.appendChild(overlay);
+
+    // Pre-seleccionar según preferencia del usuario (igual que el selector del main)
+    const _clLangSel = document.getElementById('clClassLang');
+    const _clPrefLang = targetLang || (navigator.language || 'en').split('-')[0].toLowerCase();
+    if (_clLangSel && _clPrefLang) _clLangSel.value = _clPrefLang;
 
     overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
     document.getElementById('clModalClose').addEventListener('click', () => overlay.remove());

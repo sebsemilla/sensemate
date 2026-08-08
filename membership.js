@@ -164,6 +164,7 @@ function _todayKey() {
 let _membershipConfig  = null;
 let _billingToggle     = 'annual'; // 'monthly' | 'annual'
 let _plansTab          = 'region'; // 'region' | 'contributors'
+let _installments      = null;     // null = pago único, 4, 6 o 12 cuotas
 
 async function loadMembershipSection() {
     if (window.IS_LITE) { await _loadMembershipLite(); return; }
@@ -171,7 +172,7 @@ async function loadMembershipSection() {
     renderLanguageBar();
 
     // Load config from server
-    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 9.99, badge: '🔥 Precio de lanzamiento', urgencyText: { es: 'Solo para los primeros 250 usuarios', en: 'Only for the first 250 users' } }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' }, limits: { translationsPerDay: 50, schoolMessages: 10, famousMessages: 5 } };
+    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 19.99, badge: '🔥 Precio de lanzamiento', urgencyText: { es: 'Solo para los primeros 250 usuarios', en: 'Only for the first 250 users' } }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' }, limits: { translationsPerDay: 50, schoolMessages: 10, famousMessages: 5 } };
     let counter = { current: 0, max: 250, remaining: 250 };
 
     try {
@@ -198,7 +199,7 @@ async function loadMembershipSection() {
     const planName = isES ? (config.planName?.es || 'Premium 250X') : (config.planName?.en || 'STARTUP FOR 250X');
     const promoActive = config.promo?.active;
     const promoMonthly = config.promo?.monthlyPrice || 2.00;
-    const promoAnnual  = config.promo?.annualPrice  || 9.99;
+    const promoAnnual  = config.promo?.annualPrice  || 19.99;
     const regMonthly   = config.regular?.monthlyPrice || 4.99;
     const regAnnual    = config.regular?.annualPrice  || 34.99;
     const badge        = config.promo?.badge || '🔥 Precio de lanzamiento';
@@ -261,7 +262,7 @@ async function loadMembershipSection() {
                     <ul class="plan-feature-list plan-feature-list--contributor">
                         <li>✅ ${isES ? 'Todo lo de Premium incluido' : 'Everything in Premium included'}</li>
                         <li>🤝 ${isES ? 'Panel de contribuidor con puntos' : 'Contributor panel with points'}</li>
-                        <li>🌍 ${isES ? 'Subir contenido a "Aprende con..."' : 'Upload to "Learn with..."'}</li>
+                        <li>🎬 ${isES ? 'Subir contenido a "Multimedia"' : 'Upload to "Multimedia"'}</li>
                         <li>🎵 ${isES ? 'Subir canciones y subtítulos' : 'Upload songs & subtitles'}</li>
                         <li>📚 ${isES ? 'Revisar módulos MisiónMate' : 'Review MisiónMate modules'}</li>
                         <li>🏆 ${isES ? 'Puntos → beneficios y reconocimiento' : 'Points → benefits & recognition'}</li>
@@ -283,7 +284,7 @@ async function loadMembershipSection() {
                     <ul class="plan-feature-list plan-feature-list--contributor">
                         <li>✅ ${isES ? 'Todo lo de Premium incluido' : 'Everything in Premium included'}</li>
                         <li>🤝 ${isES ? 'Panel de contribuidor con puntos' : 'Contributor panel with points'}</li>
-                        <li>🌍 ${isES ? 'Subir contenido a "Aprende con..."' : 'Upload to "Learn with..."'}</li>
+                        <li>🎬 ${isES ? 'Subir contenido a "Multimedia"' : 'Upload to "Multimedia"'}</li>
                         <li>🎵 ${isES ? 'Subir canciones y subtítulos' : 'Upload songs & subtitles'}</li>
                         <li>📚 ${isES ? 'Revisar módulos MisiónMate' : 'Review MisiónMate modules'}</li>
                         <li>🏆 ${isES ? 'Puntos dobles durante el trimestre' : 'Double points during the quarter'}</li>
@@ -315,16 +316,7 @@ async function loadMembershipSection() {
                 <span class="plans-promo-urgency">${urgency}${counter.current >= 12 ? ` — <strong class="plans-counter-num">${counter.remaining}</strong> ${isES ? 'lugares restantes' : 'spots left'}` : ''}</span>
             </div>` : ''}
 
-            <!-- Billing toggle -->
-            <div class="plans-billing-toggle">
-                <button class="plans-toggle-btn ${_billingToggle === 'monthly' ? 'active' : ''}" id="toggleMonthly">
-                    ${isES ? 'Mensual' : 'Monthly'}
-                </button>
-                <button class="plans-toggle-btn ${_billingToggle === 'annual' ? 'active' : ''}" id="toggleAnnual">
-                    ${isES ? 'Anual' : 'Annual'}
-                    <span class="plans-save-badge">${isES ? 'Ahorrás 75%' : 'Save 75%'}</span>
-                </button>
-            </div>`}
+`}
 
             <!-- Plan cards + table + trust (only in region tab) -->
             ${_plansTab !== 'contributors' ? `<div class="plans-cards-row plans-cards-row--3">
@@ -370,6 +362,20 @@ async function loadMembershipSection() {
                         ${_billingToggle === 'annual' ? `
                         <div class="plan-price-monthly-equiv">
                             ≈ u$s ${((promoActive ? promoAnnual : regAnnual) / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}
+                        <div class="plan-installments-selector">
+                            <div class="plan-installments-label">${isES ? 'Forma de pago:' : 'Payment option:'}</div>
+                            <button class="plan-installment-btn ${_installments === null ? 'active' : ''}" data-inst="null">
+                                ${isES ? 'Pago único' : 'Single payment'} · u$s ${(promoActive ? promoAnnual : regAnnual).toFixed(2)}
+                            </button>
+                            <button class="plan-installment-btn ${_installments === 4 ? 'active' : ''}" data-inst="4">
+                                4 ${isES ? 'cuotas' : 'installments'} · u$s ${((promoActive ? promoAnnual : regAnnual) / 4).toFixed(2)} c/u
+                            </button>
+                            <button class="plan-installment-btn ${_installments === 6 ? 'active' : ''}" data-inst="6">
+                                6 ${isES ? 'cuotas' : 'installments'} · u$s ${((promoActive ? promoAnnual : regAnnual) / 6).toFixed(2)} c/u
+                            </button>
+                            <button class="plan-installment-btn ${_installments === 12 ? 'active' : ''}" data-inst="12">
+                                12 ${isES ? 'cuotas' : 'installments'} · u$s ${((promoActive ? promoAnnual : regAnnual) / 12).toFixed(2)} c/u
+                            </button>
                         </div>` : ''}
                     </div>
                     <ul class="plan-feature-list plan-feature-list--premium">
@@ -391,10 +397,10 @@ async function loadMembershipSection() {
                     </button>
                 </div>
 
-                <!-- Oro card (anual) / Contributor card (mensual) -->
-                ${_billingToggle === 'annual' ? `
-                <div class="plan-card plan-card--oro">
+                <!-- Oro card — visible pero en desarrollo -->
+                <div class="plan-card plan-card--oro plan-card--oro-disabled">
                     <div class="plans-popular-tag plans-popular-tag--oro">🥇 ${isES ? 'Acceso total' : 'Full access'}</div>
+                    <div class="plan-card--oro-soon-badge">${isES ? '🚧 Próximamente' : '🚧 Coming soon'}</div>
                     <div class="plan-card-header">
                         <div class="plan-card-name">${isES ? '🥇 Membresía Oro' : '🥇 Gold Membership'}</div>
                         <div class="plan-price-promo">
@@ -414,33 +420,10 @@ async function loadMembershipSection() {
                         <li>✅ ${isES ? 'Insertar videos (BD personal)' : 'Insert videos (personal DB)'}</li>
                         <li>✅ ${isES ? 'Aprender idiomas: todo + IA con seguimiento de contexto' : 'Language learning: all + AI context tracking'}</li>
                     </ul>
-                    <button class="plan-cta-btn plan-cta-btn--oro" id="planOroBtn">
-                        ${isES ? 'Obtener Oro →' : 'Get Gold →'}
+                    <button class="plan-cta-btn plan-cta-btn--oro plan-cta-btn--oro-disabled" id="planOroBtn">
+                        ${isES ? '🚧 No disponible aún' : '🚧 Not available yet'}
                     </button>
-                </div>` : `
-                <div class="plan-card plan-card--contributor">
-                    <div class="plans-popular-tag plans-popular-tag--contributor">🤝 ${isES ? 'Para la comunidad' : 'For the community'}</div>
-                    <div class="plan-card-header">
-                        <div class="plan-card-name">${isES ? '🤝 Contributor' : '🤝 Contributor'}</div>
-                        <div class="plan-price-promo">
-                            u$s 4.99
-                            <span class="plan-price-period">/ ${isES ? 'mes' : 'month'}</span>
-                        </div>
-                        <div class="plan-price-monthly-equiv">${isES ? '15 días de prueba gratuita' : '15-day free trial'}</div>
-                    </div>
-                    <ul class="plan-feature-list plan-feature-list--contributor">
-                        <li>✅ ${isES ? 'Todo lo de Premium' : 'Everything in Premium'}</li>
-                        <li>🤝 ${isES ? 'Panel de contribuidor con puntos' : 'Contributor panel with points'}</li>
-                        <li>🌍 ${isES ? 'Subir contenido a "Aprende con..."' : 'Upload to "Learn with..."'}</li>
-                        <li>🎵 ${isES ? 'Subir canciones y subtítulos' : 'Upload songs & subtitles'}</li>
-                        <li>📚 ${isES ? 'Revisar módulos MisiónMate' : 'Review MisiónMate modules'}</li>
-                        <li>🏆 ${isES ? 'Puntos → beneficios y reconocimiento' : 'Points → benefits & recognition'}</li>
-                        <li>🚀 ${isES ? 'Elegible para formar parte del equipo' : 'Eligible to join the team'}</li>
-                    </ul>
-                    <button class="plan-cta-btn plan-cta-btn--contributor" id="planContribBtn">
-                        ${isES ? 'Empezar prueba gratis →' : 'Start free trial →'}
-                    </button>
-                </div>`}
+                </div>
             </div>
 
             <!-- Feature comparison table -->
@@ -518,7 +501,8 @@ async function loadMembershipSection() {
             <div class="plans-trust-row" id="plansTrustRow">
                 ${region === 'latam' ? `
                     <span>☕ ${isES ? 'Menos que un café por mes' : 'Less than a coffee per month'}</span>
-                    <span>📱 ${isES ? 'Pagá con MercadoPago, sin tarjeta' : 'Pay with MercadoPago, no card needed'}</span>
+                    <span>💙 ${isES ? 'Mercado Pago o Wise' : 'Mercado Pago or Wise'}</span>
+                    <span>📦 ${isES ? 'Pagá en cuotas' : 'Pay in installments'}</span>
                     <span>🔒 ${isES ? 'Cancelá cuando quieras' : 'Cancel anytime'}</span>
                 ` : `
                     <span>🔒 GDPR compliant</span>
@@ -535,11 +519,21 @@ async function loadMembershipSection() {
     document.getElementById('plansBackBtn')?.addEventListener('click', () => showMainMenu());
     document.getElementById('planFreeCta')?.addEventListener('click', () => showMainMenu());
     document.getElementById('planTrialBtn')?.addEventListener('click', () => _startTrialFlow());
-    document.getElementById('planSubscribeBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium'));
-    document.getElementById('planOroBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'oro'));
+    document.getElementById('planSubscribeBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium', _billingToggle === 'annual' ? _installments : null));
+    document.getElementById('planOroBtn')?.addEventListener('click', () => _showOroComingSoonModal());
     document.getElementById('planContribBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'contributor'));
     document.getElementById('planContribMonthlyBtn')?.addEventListener('click', () => _showPaymentFlow('monthly', 'contributor'));
     document.getElementById('planContribQuarterlyBtn')?.addEventListener('click', () => _showPaymentFlow('quarterly', 'contributor'));
+
+    // Installment selector buttons
+    document.querySelectorAll('.plan-installment-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const val = btn.dataset.inst;
+            _installments = val === 'null' ? null : parseInt(val);
+            document.querySelectorAll('.plan-installment-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        });
+    });
 
     // Tab / Region buttons
     document.querySelectorAll('.plans-region-btn').forEach(btn => {
@@ -560,15 +554,7 @@ async function loadMembershipSection() {
         });
     });
 
-    // Billing toggle
-    document.getElementById('toggleMonthly')?.addEventListener('click', () => {
-        _billingToggle = 'monthly';
-        loadMembershipSection();
-    });
-    document.getElementById('toggleAnnual')?.addEventListener('click', () => {
-        _billingToggle = 'annual';
-        loadMembershipSection();
-    });
+
 
     // Animate counter (only rendered when current >= 12)
     if (promoActive && counter.current >= 12) {
@@ -582,7 +568,7 @@ async function _loadMembershipLite() {
     mainContainer.innerHTML = '';
     renderLanguageBar();
 
-    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 9.99, badge: '🔥 Precio de lanzamiento' }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' } };
+    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 19.99, badge: '🔥 Precio de lanzamiento' }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' } };
     try {
         const r = await fetch(_API_HOST + '/membership/config');
         if (r.ok) { const d = await r.json(); config = d.config || config; }
@@ -595,7 +581,7 @@ async function _loadMembershipLite() {
     const planName    = isES ? (config.planName?.es || 'Premium 250X') : (config.planName?.en || 'STARTUP FOR 250X');
     const promoActive = config.promo?.active;
     const promoMonthly = config.promo?.monthlyPrice || 2.00;
-    const promoAnnual  = config.promo?.annualPrice  || 9.99;
+    const promoAnnual  = config.promo?.annualPrice  || 19.99;
     const regMonthly   = config.regular?.monthlyPrice || 4.99;
     const regAnnual    = config.regular?.annualPrice  || 34.99;
 
@@ -625,15 +611,7 @@ async function _loadMembershipLite() {
                 </button>
             </div>
 
-            <!-- Billing toggle -->
-            <div class="plans-toggle-wrap" style="margin-bottom:1.25rem">
-                <button class="plans-toggle-btn ${_billingToggle === 'monthly' ? 'active' : ''}" id="liteToggleMonthly">
-                    ${isES ? 'Mensual' : 'Monthly'}
-                </button>
-                <button class="plans-toggle-btn ${_billingToggle === 'annual' ? 'active' : ''}" id="liteToggleAnnual">
-                    ${isES ? 'Anual' : 'Annual'} ${isES ? '(ahorrás ~${Math.round(100 - (promoActive ? promoAnnual : regAnnual) / (promoActive ? promoMonthly : regMonthly) / 12 * 100)}%)' : ''}
-                </button>
-            </div>
+
 
             <!-- 2 plan cards -->
             <div class="plans-cards-row plans-cards-row--2">
@@ -726,7 +704,8 @@ async function _loadMembershipLite() {
             <div class="plans-trust-row">
                 ${region === 'latam' ? `
                     <span>☕ ${isES ? 'Menos que un café por mes' : 'Less than a coffee per month'}</span>
-                    <span>📱 ${isES ? 'Pagá con MercadoPago, sin tarjeta' : 'Pay with MercadoPago, no card needed'}</span>
+                    <span>💙 ${isES ? 'Mercado Pago o Wise' : 'Mercado Pago or Wise'}</span>
+                    <span>📦 ${isES ? 'Pagá en cuotas' : 'Pay in installments'}</span>
                     <span>🔒 ${isES ? 'Cancelá cuando quieras' : 'Cancel anytime'}</span>
                 ` : `
                     <span>🔒 GDPR compliant</span>
@@ -747,8 +726,7 @@ async function _loadMembershipLite() {
     });
 
     // Billing toggle
-    document.getElementById('liteToggleMonthly')?.addEventListener('click', () => { _billingToggle = 'monthly'; _loadMembershipLite(); });
-    document.getElementById('liteToggleAnnual')?.addEventListener('click',  () => { _billingToggle = 'annual';  _loadMembershipLite(); });
+
 
     // CTAs
     document.getElementById('liteFreeCta')?.addEventListener('click', () => showMainMenu());
@@ -832,9 +810,43 @@ function _startTrialFlow() {
     }
 }
 
+// ─── Gold coming soon modal ────────────────────────────────────
+
+function _showOroComingSoonModal() {
+    const lang = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
+    const isES = lang !== 'en';
+    const modal = document.createElement('div');
+    modal.className = 'payment-modal-overlay';
+    modal.innerHTML = `
+        <div class="payment-modal oro-soon-modal">
+            <div class="payment-modal-header">
+                <h3>🥇 ${isES ? 'Membresía Oro' : 'Gold Membership'}</h3>
+                <button class="payment-modal-close" id="oroSoonClose">×</button>
+            </div>
+            <div class="payment-modal-body" style="text-align:center; padding: 1.5rem 1.25rem">
+                <div class="oro-soon-icon">🚧</div>
+                <h4 class="oro-soon-title">${isES ? 'Esta opción está en desarrollo' : 'This option is under development'}</h4>
+                <p class="oro-soon-desc">${isES
+                    ? 'La Membresía Oro estará disponible próximamente. Ya podés acceder a todo el contenido con el plan Premium mientras tanto.'
+                    : 'Gold Membership will be available soon. You can access all content with the Premium plan in the meantime.'}</p>
+                <button class="plan-cta-btn plan-cta-btn--premium" id="oroSoonGoPremium" style="margin-top:1rem; width:100%">
+                    ${isES ? '⭐ Ver plan Premium →' : '⭐ See Premium plan →'}
+                </button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+    modal.addEventListener('click', e => { if (e.target === modal) modal.remove(); });
+    document.getElementById('oroSoonClose').addEventListener('click', () => modal.remove());
+    document.getElementById('oroSoonGoPremium').addEventListener('click', () => {
+        modal.remove();
+        document.getElementById('planSubscribeBtn')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+}
+
 // ─── Payment flow ─────────────────────────────────────────────
 
-function _showPaymentFlow(period, tier = 'premium') {
+function _showPaymentFlow(period, tier = 'premium', installments = null) {
     if (typeof gtag === 'function') gtag('event', 'begin_checkout', { period, tier });
     const region = localStorage.getItem('ls_region') || 'latam';
     const lang   = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
@@ -842,7 +854,7 @@ function _showPaymentFlow(period, tier = 'premium') {
     const config = _membershipConfig || {};
     const promoActive  = config.promo?.active;
     const promoMonthly = config.promo?.monthlyPrice || 2.00;
-    const promoAnnual  = config.promo?.annualPrice  || 9.99;
+    const promoAnnual  = config.promo?.annualPrice  || 19.99;
     const regMonthly   = config.regular?.monthlyPrice || 4.99;
     const regAnnual    = config.regular?.annualPrice  || 34.99;
     const oroMonthly   = config.oro?.monthlyPrice || 4.99;
@@ -884,25 +896,33 @@ function _showPaymentFlow(period, tier = 'premium') {
             : (promoActive ? 'promo-mensual' : 'mensual');
     }
 
+    const installmentLabel = installments
+        ? `${installments} ${isES ? 'cuotas de' : 'installments of'} u$s ${(price / installments).toFixed(2)}`
+        : `u$s ${price.toFixed(2)} / ${periodLabel}`;
+
     if (region === 'latam') {
         modal.innerHTML = `
             <div class="payment-modal">
                 <div class="payment-modal-header">
-                    <h3>💙 ${isES ? 'Pagar con MercadoPago' : 'Pay with MercadoPago'}</h3>
+                    <h3>💰 ${isES ? 'Opciones de pago' : 'Payment options'}</h3>
                     <button class="payment-modal-close" id="payModalClose">×</button>
                 </div>
                 <div class="payment-modal-body">
                     <div class="payment-plan-summary">
                         <span class="payment-plan-name">${planName}</span>
-                        <span class="payment-plan-price">u$s ${price.toFixed(2)} / ${periodLabel}</span>
+                        <span class="payment-plan-price">${installmentLabel}</span>
                     </div>
                     <button class="payment-mp-btn" id="payMpBtn">
-                        💙 ${isES ? 'Pagar con MercadoPago' : 'Pay with MercadoPago'}
+                        💙 ${isES ? 'Pagar con Mercado Pago' : 'Pay with Mercado Pago'}
                     </button>
                     <div id="payMpLoading" class="payment-mp-loading hidden">
                         <div class="payment-spinner"></div>
                         <span>${isES ? 'Generando link de pago…' : 'Generating payment link…'}</span>
                     </div>
+                    <div class="payment-or-divider">${isES ? 'o' : 'or'}</div>
+                    <button class="payment-wise-btn" id="payWiseLatamBtn">
+                        🏦 ${isES ? 'Pagar con Wise (transferencia)' : 'Pay with Wise (transfer)'}
+                    </button>
                     <p class="payment-no-card">${isES ? '✓ Sin tarjeta requerida · Efectivo, débito o crédito · Pago seguro' : '✓ No card required · Cash, debit or credit · Secure payment'}</p>
                 </div>
             </div>
@@ -974,6 +994,10 @@ function _showPaymentFlow(period, tier = 'premium') {
                 if (typeof showToast === 'function') showToast('❌ ' + e.message);
             }
         });
+        document.getElementById('payWiseLatamBtn')?.addEventListener('click', () => {
+            modal.remove();
+            _showWiseModal(price, period, periodLabel, planName, isES, installments);
+        });
     }
 
     if (region === 'eu') {
@@ -988,10 +1012,17 @@ function _showPaymentFlow(period, tier = 'premium') {
     }
 }
 
-function _showWiseModal(price, period, periodLabel, planName, isES) {
+function _showWiseModal(price, period, periodLabel, planName, isES, installments = null) {
     const userEmail = (typeof currentUser !== 'undefined' && currentUser?.email) ? currentUser.email : 'tu@email.com';
     const modal = document.createElement('div');
     modal.className = 'payment-modal-overlay';
+    const firstPayment = installments ? (price / installments).toFixed(2) : price.toFixed(2);
+    const amountLabel = installments
+        ? `u$s ${firstPayment} ${isES ? `(1ra de ${installments} cuotas)` : `(1st of ${installments} installments)`}`
+        : `u$s ${price.toFixed(2)}`;
+    const subjectLabel = installments
+        ? `SenseMate ${periodLabel} ${installments}cuotas ${userEmail}`
+        : `SenseMate ${periodLabel} ${userEmail}`;
     modal.innerHTML = `
         <div class="payment-modal">
             <div class="payment-modal-header">
@@ -1006,11 +1037,15 @@ function _showWiseModal(price, period, periodLabel, planName, isES) {
                     </div>
                     <div class="wise-row">
                         <span class="wise-label">${isES ? 'Monto' : 'Amount'}:</span>
-                        <strong>u$s ${price.toFixed(2)}</strong>
+                        <strong>${amountLabel}</strong>
                     </div>
+                    ${installments ? `<div class="wise-row wise-row--note">
+                        <span class="wise-label"></span>
+                        <span>${isES ? `Total: u$s ${price.toFixed(2)} en ${installments} cuotas mensuales` : `Total: u$s ${price.toFixed(2)} in ${installments} monthly installments`}</span>
+                    </div>` : ''}
                     <div class="wise-row">
                         <span class="wise-label">${isES ? 'Asunto' : 'Subject'}:</span>
-                        <strong>SenseMate ${periodLabel} ${userEmail}</strong>
+                        <strong>${subjectLabel}</strong>
                     </div>
                 </div>
                 <button class="payment-wise-btn" id="wiseCopyBtn" style="width:100%; margin:1rem 0">
@@ -1124,7 +1159,7 @@ function _showUpgradeModal(feature) {
         audio:      isES ? 'El audio TTS está disponible solo en el plan Premium' : 'TTS audio is only available in the Premium plan',
         flashcards: isES ? 'Este grupo de flashcards es exclusivo del plan Premium' : 'This flashcard group is exclusive to the Premium plan',
         musicians:  isES ? 'Ya usaste tu sesión gratuita de Músicos con Letras' : 'You\'ve used your free Musicians session',
-        immersion:  isES ? 'Ya usaste tu sesión gratuita de Aprende con...' : 'You\'ve used your free Immersion session',
+        immersion:  isES ? 'Ya usaste tu sesión gratuita de Multimedia' : 'You\'ve used your free Multimedia session',
         flashcard_group_month: isES ? 'Ya creaste tu grupo de flashcards de este mes' : 'You\'ve already created your flashcard group this month',
         flashcard_group_cap:   isES ? 'Los grupos del plan gratuito tienen un máximo de 10 tarjetas' : 'Free plan groups have a maximum of 10 cards',
         flashcard_publish_contributor: isES ? 'Publicar un grupo como público es exclusivo para Contributores' : 'Publishing a group as public is exclusive to Contributors'

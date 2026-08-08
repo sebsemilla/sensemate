@@ -23,7 +23,21 @@
       "Bash(curl -s -w '\\\\nHTTP_STATUS:%{http_code}' -X POST https://hook.eu1.make.com/d42n5bsnjcujulkoy3e7f14mpbpkhm2k -H 'Content-Type: application/json' -d '{\"text\":\"test\",\"imageUrl\":\"https://example.com/img.png\"}')",
       "Bash(curl -s -w '\\\\nHTTP_STATUS:%{http_code}' -X POST https://hook.eu1.make.com/d42n5bsnjcujulkoy3e7f14mpbpkhm2k -H 'Content-Type: application/json' -H 'User-Agent: curl/7.88.1' -d '{\"text\":\"test desde curl\",\"imageUrl\":\"https://example.com/img.png\"}')",
       "Bash(curl -s -w '\\\\nHTTP_STATUS:%{http_code}' -X POST https://hook.eu1.make.com/41tl8croy8l3pneub9geycjzjf3rlvej -H 'Content-Type: application/json' -d '{\"text\":\"test\",\"imageUrl\":\"https://example.com/img.png\"}')",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://raw.githubusercontent.com/sebsemilla/sensemate/main/images/social/immersion.png\")"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://raw.githubusercontent.com/sebsemilla/sensemate/main/images/social/immersion.png\")",
+      "Bash(node *)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d[0], indent=2, ensure_ascii=False\\)\\)\")",
+      "WebFetch(domain:paste.c-net.org)",
+      "Bash(python3 -c ' *)",
+      "Bash(nohup node *)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(echo \"A2 PID: $!\")",
+      "Bash(echo \"B1 PID: $!\")",
+      "Bash(echo \"B2 PID: $!\")",
+      "Bash(echo \"C1 PID: $!\")",
+      "Bash(echo \"A1 PID: $!\")",
+      "Bash(echo \"C1 conv PID: $!\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); ex=data[0]['concept_examples'][0]; print\\('phonetic:', repr\\(ex.get\\('phonetic',''\\)\\)\\); lvl=data[0]['levels'][0]['examples'][0]; print\\('level phonetic:', repr\\(lvl.get\\('phonetic',''\\)\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); ex=data[0]['concept_examples'][0]; print\\('text:', ex.get\\('text',''\\)\\); print\\('phonetic:', repr\\(ex.get\\('phonetic',''\\)\\)\\)\")"
     ]
   }
 }

@@ -2650,7 +2650,7 @@ function _showContributorsModal() {
                         <div class="contrib-way-header">
                             <span class="contrib-way-emoji">🌍</span>
                             <div>
-                                <div class="contrib-way-title">Subir contenido a "Aprende con..."</div>
+                                <div class="contrib-way-title">Subir contenido a "Multimedia"</div>
                                 <div class="contrib-way-pts">+30 pts por episodio aprobado</div>
                             </div>
                         </div>
@@ -2842,10 +2842,10 @@ function showMainMenu() {
 
             ${showImmersion ? (sectionEnabled('immersion') ? `
             <div class="mode-card" data-mode="immersion">
-                <h2>🌍</h2>
-                <h4>Aprende con...</h4>
+                <h2>🎬</h2>
+                <h4>Multimedia</h4>
                 <p>Películas, series y más en el idioma original</p>
-            </div>` : sectionMinimized('immersion', '🌍', 'Aprende con...')) : ''}
+            </div>` : sectionMinimized('immersion', '🎬', 'Multimedia')) : ''}
 
             ${showPlans ? `
             <div class="mode-card mode-card--plans" data-mode="plans">
@@ -2882,7 +2882,7 @@ function showMainMenu() {
                 if (typeof MembershipPlan !== 'undefined' && !MembershipPlan.canUseSingleUse('immersion')) {
                     _showUpgradeModal('immersion'); return;
                 }
-                requireAuth('Aprende con...', () => {
+                requireAuth('Multimedia', () => {
                     if (typeof MembershipPlan !== 'undefined') MembershipPlan.markSingleUse('immersion');
                     loadImmersionSection();
                 });

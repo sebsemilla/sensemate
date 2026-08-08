@@ -188,7 +188,7 @@ async function runBot(botId) {
     const newItems = generated.map((item, i) => ({
         id:         `${botId}_${ts}_${i}`,
         botId,
-        author:     bot.name,
+        author:     bot.displayName || bot.name,
         avatar:     item.avatar  || '🤖',
         emoji:      item.emoji   || '📝',
         title:      item.title   || '',

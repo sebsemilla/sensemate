@@ -1,7 +1,8 @@
 // routes/bots.cjs — Admin bot management + public feed/classroom API
 'use strict';
 const crypto    = require('crypto');
-const { loadBots, saveBots, loadFeed, loadClasses, runBot } = require('../bot_runner.cjs');
+const { loadBots, saveBots, loadFeed, saveFeed, loadClasses, runBot } = require('../bot_runner.cjs');
+const { regenerateBotSchedule, getUpcomingEntries, removeBotSchedule, getDueEntries } = require('../bot_schedule.cjs');
 
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN;
 
@@ -17,6 +18,59 @@ function isValidCron(expr) {
     const parts = expr.trim().split(/\s+/);
     return parts.length >= 5 && parts.length <= 6;
 }
+
+// ─── Seed bots editoriales ────────────────────────────────────────────────────
+
+const SEED_BOTS = [
+  {
+    displayName: 'El Corrector', direction: 'es-en',
+    name: 'El Corrector',
+    prompt: 'Genera exactamente 1 publicación sobre un error común que cometen los hispanohablantes al aprender inglés. Puede ser un error gramatical, un "falso amigo" (como embarrassed/embarazada) o un uso incorrecto. Incluye: el error, la forma correcta y una explicación breve amigable. Nivel A2-B1.',
+    schemaType: 'Article', postsPerDayWeekday: 2, postsPerDayWeekend: 3,
+  },
+  {
+    displayName: 'El Idiomático', direction: 'es-en',
+    name: 'El Idiomático',
+    prompt: 'Genera exactamente 1 publicación sobre una expresión idiomática del inglés que no tiene traducción literal al español. Incluye: la expresión, su significado real, y una frase natural de ejemplo. Nivel B1-B2.',
+    schemaType: 'LearningResource', postsPerDayWeekday: 2, postsPerDayWeekend: 3,
+  },
+  {
+    displayName: 'La Situación', direction: 'es-en',
+    name: 'La Situación',
+    prompt: 'Genera exactamente 1 publicación con vocabulario esencial para una situación cotidiana real (restaurante, aeropuerto, trabajo remoto, médico, banco, tienda, hotel, etc.). Incluye 6-8 palabras o frases clave con traducción y un ejemplo en contexto. Nivel A2-B1.',
+    schemaType: 'LearningResource', postsPerDayWeekday: 2, postsPerDayWeekend: 4,
+  },
+  {
+    displayName: 'El Fonetista', direction: 'es-en',
+    name: 'El Fonetista',
+    prompt: 'Genera exactamente 1 publicación sobre un sonido del inglés que no existe en español y cómo pronunciarlo correctamente. Incluye palabras conocidas como ejemplos y un truco mnemotécnico para recordarlo. Nivel A1-B1.',
+    schemaType: 'LearningResource', postsPerDayWeekday: 2, postsPerDayWeekend: 3,
+  },
+  {
+    displayName: 'Grammar Dispatch', direction: 'en-es',
+    name: 'Grammar Dispatch',
+    prompt: 'Generate exactly 1 post explaining a specific Spanish grammar concept to English speakers. No technical jargon — use plain English. Topics: ser vs estar, por vs para, preterite vs imperfect, subjunctive, gender agreement, etc. Use real natural examples. Keep it short and practical.',
+    schemaType: 'LearningResource', postsPerDayWeekday: 2, postsPerDayWeekend: 3,
+  },
+  {
+    displayName: 'Slang & Context', direction: 'en-es',
+    name: 'Slang & Context',
+    prompt: 'Generate exactly 1 post about colloquial Spanish or Argentine/Latin slang that English speakers would never learn in a classroom. Include: the expression, when to use it (and when NOT to), and a natural conversation example. Informal and engaging tone.',
+    schemaType: 'Article', postsPerDayWeekday: 2, postsPerDayWeekend: 4,
+  },
+  {
+    displayName: 'Word Builder', direction: 'en-es',
+    name: 'Word Builder',
+    prompt: 'Generate exactly 1 post about Spanish vocabulary for English speakers. Topics: word families that help memorize multiple words at once, false cognates, Spanish words that express concepts English lacks, or etymology connections between Spanish and English. Practical and memorable.',
+    schemaType: 'LearningResource', postsPerDayWeekday: 2, postsPerDayWeekend: 3,
+  },
+  {
+    displayName: 'The Culture Brief', direction: 'en-es',
+    name: 'The Culture Brief',
+    prompt: 'Generate exactly 1 post about a cultural difference between English and Spanish-speaking worlds that directly affects how the language works: why "mañana" has multiple meanings, what "te quiero" vs "te amo" really signals, why "buenas" is a full greeting, how politeness registers differ. Curious, non-academic tone.',
+    schemaType: 'Article', postsPerDayWeekday: 2, postsPerDayWeekend: 3,
+  },
+];
 
 module.exports = function registerBotRoutes(app) {
 
@@ -48,37 +102,121 @@ module.exports = function registerBotRoutes(app) {
         res.json(bots);
     });
 
+    // POST /admin/seed-bots — crear los 8 bots editoriales
+    app.post('/admin/seed-bots', (req, res) => {
+        if (!checkAdmin(req, res)) return;
+        const bots = loadBots();
+        const existing = bots.filter(b => b.scheduleMode === 'human-random');
+        if (existing.length >= 8) {
+            return res.json({ ok: true, skipped: true });
+        }
+
+        const now = new Date();
+        const endDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 2, 0));
+        const created = [];
+
+        SEED_BOTS.forEach((def, idx) => {
+            const bot = {
+                id:                 `bot_${crypto.randomBytes(5).toString('hex')}`,
+                name:               def.name,
+                displayName:        def.displayName,
+                direction:          def.direction,
+                avatarUrl:          null,
+                prompt:             def.prompt,
+                target:             'livefeed',
+                schemaType:         def.schemaType,
+                schedule:           'human-random',
+                scheduleMode:       'human-random',
+                postsPerDayWeekday: def.postsPerDayWeekday,
+                postsPerDayWeekend: def.postsPerDayWeekend,
+                quantity:           1,
+                model:              'deepseek-chat',
+                enabled:            true,
+                lang:               def.direction === 'es-en' ? 'es' : 'en',
+                lastRun:            null,
+                runCount:           0,
+                logs:               [],
+                createdAt:          Date.now()
+            };
+            bots.push(bot);
+            created.push(bot);
+
+            // Generate schedule
+            regenerateBotSchedule(
+                bot.id,
+                def.postsPerDayWeekday,
+                def.postsPerDayWeekend,
+                idx,
+                endDate
+            );
+        });
+
+        saveBots(bots);
+        res.status(201).json({ ok: true, created: created.length });
+    });
+
     // POST /admin/bots
     app.post('/admin/bots', (req, res) => {
         if (!checkAdmin(req, res)) return;
-        const { name, prompt, target, schemaType, schedule, quantity, model, enabled } = req.body;
-        if (!name || !prompt || !schedule) return res.status(400).json({ error: 'Faltan campos: name, prompt, schedule' });
-        if (!isValidCron(schedule)) return res.status(400).json({ error: 'Expresión cron inválida' });
+        const {
+            name, displayName, direction, avatarUrl,
+            prompt, target, schemaType, schedule, scheduleMode,
+            postsPerDayWeekday, postsPerDayWeekend,
+            quantity, model, enabled
+        } = req.body;
+
+        if (!name || !prompt) return res.status(400).json({ error: 'Faltan campos: name, prompt' });
+
+        const isHumanRandom = scheduleMode === 'human-random';
+
+        if (!isHumanRandom) {
+            if (!schedule) return res.status(400).json({ error: 'Falta campo: schedule' });
+            if (!isValidCron(schedule)) return res.status(400).json({ error: 'Expresión cron inválida' });
+        }
+
         const qty = Math.min(Math.max(parseInt(quantity) || 1, 1), 10);
 
         const bot = {
-            id:         `bot_${crypto.randomBytes(5).toString('hex')}`,
-            name:       String(name).slice(0, 80),
-            prompt:     String(prompt).slice(0, 2000),
-            target:     ['livefeed', 'classroom'].includes(target) ? target : 'livefeed',
-            schemaType: ['Article','LearningResource','Course','EducationEvent','FAQPage'].includes(schemaType)
-                            ? schemaType : 'Article',
-            schedule:   schedule.trim(),
-            quantity:   qty,
-            model:      ['deepseek-chat','deepseek-reasoner'].includes(model) ? model : 'deepseek-chat',
-            enabled:    enabled !== false,
-            lastRun:    null,
-            runCount:   0,
-            logs:       [],
-            createdAt:  Date.now()
+            id:                 `bot_${crypto.randomBytes(5).toString('hex')}`,
+            name:               String(name).slice(0, 80),
+            displayName:        displayName ? String(displayName).slice(0, 80) : null,
+            direction:          ['es-en', 'en-es'].includes(direction) ? direction : null,
+            avatarUrl:          avatarUrl ? String(avatarUrl).slice(0, 500) : null,
+            prompt:             String(prompt).slice(0, 2000),
+            target:             ['livefeed', 'classroom'].includes(target) ? target : 'livefeed',
+            schemaType:         ['Article','LearningResource','Course','EducationEvent','FAQPage'].includes(schemaType)
+                                    ? schemaType : 'Article',
+            schedule:           isHumanRandom ? 'human-random' : schedule.trim(),
+            scheduleMode:       isHumanRandom ? 'human-random' : null,
+            postsPerDayWeekday: isHumanRandom ? (parseInt(postsPerDayWeekday) || 2) : null,
+            postsPerDayWeekend: isHumanRandom ? (parseInt(postsPerDayWeekend) || 3) : null,
+            quantity:           qty,
+            model:              ['deepseek-chat','deepseek-reasoner'].includes(model) ? model : 'deepseek-chat',
+            enabled:            enabled !== false,
+            lastRun:            null,
+            runCount:           0,
+            logs:               [],
+            createdAt:          Date.now()
         };
 
         const bots = loadBots();
+        const botIndex = bots.filter(b => b.scheduleMode === 'human-random').length;
         bots.push(bot);
         saveBots(bots);
 
-        // Registrar cron en el scheduler global
-        app._botScheduler?.register(bot);
+        if (isHumanRandom) {
+            const now = new Date();
+            const endDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 2, 0));
+            regenerateBotSchedule(
+                bot.id,
+                bot.postsPerDayWeekday,
+                bot.postsPerDayWeekend,
+                botIndex,
+                endDate
+            );
+        } else {
+            app._botScheduler?.register(bot);
+        }
 
         res.status(201).json(bot);
     });
@@ -90,16 +228,48 @@ module.exports = function registerBotRoutes(app) {
         const idx  = bots.findIndex(b => b.id === req.params.id);
         if (idx === -1) return res.status(404).json({ error: 'Bot no encontrado' });
 
-        const allowed = ['name','prompt','target','schemaType','schedule','quantity','model','enabled'];
+        const allowed = [
+            'name','displayName','direction','avatarUrl',
+            'prompt','target','schemaType','schedule',
+            'scheduleMode','postsPerDayWeekday','postsPerDayWeekend',
+            'quantity','model','enabled'
+        ];
+
+        let scheduleChanged = false;
+
         for (const key of allowed) {
             if (req.body[key] !== undefined) {
-                if (key === 'quantity') bots[idx][key] = Math.min(Math.max(parseInt(req.body[key]) || 1, 1), 10);
-                else if (key === 'schedule' && !isValidCron(req.body[key])) continue;
-                else bots[idx][key] = req.body[key];
+                if (key === 'quantity') {
+                    bots[idx][key] = Math.min(Math.max(parseInt(req.body[key]) || 1, 1), 10);
+                } else if (key === 'schedule' && bots[idx].scheduleMode !== 'human-random' && !isValidCron(req.body[key])) {
+                    continue;
+                } else {
+                    bots[idx][key] = req.body[key];
+                }
+                if (key === 'scheduleMode' || key === 'postsPerDayWeekday' || key === 'postsPerDayWeekend') {
+                    scheduleChanged = true;
+                }
             }
         }
+
         saveBots(bots);
-        app._botScheduler?.update(bots[idx]);
+
+        if (bots[idx].scheduleMode === 'human-random' && scheduleChanged) {
+            const allHumanBots = bots.filter(b => b.scheduleMode === 'human-random');
+            const botIndex = allHumanBots.findIndex(b => b.id === bots[idx].id);
+            const now = new Date();
+            const endDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 2, 0));
+            regenerateBotSchedule(
+                bots[idx].id,
+                bots[idx].postsPerDayWeekday || 2,
+                bots[idx].postsPerDayWeekend || 3,
+                botIndex >= 0 ? botIndex : 0,
+                endDate
+            );
+        } else {
+            app._botScheduler?.update(bots[idx]);
+        }
+
         res.json(bots[idx]);
     });
 
@@ -111,6 +281,7 @@ module.exports = function registerBotRoutes(app) {
         if (filtered.length === bots.length) return res.status(404).json({ error: 'Bot no encontrado' });
         saveBots(filtered);
         app._botScheduler?.unregister(req.params.id);
+        removeBotSchedule(req.params.id);
         res.json({ ok: true });
     });
 
@@ -131,6 +302,75 @@ module.exports = function registerBotRoutes(app) {
         const bot = loadBots().find(b => b.id === req.params.id);
         if (!bot) return res.status(404).json({ error: 'Bot no encontrado' });
         res.json(bot.logs || []);
+    });
+
+    // GET /admin/bots/:id/schedule — upcoming entries
+    app.get('/admin/bots/:id/schedule', (req, res) => {
+        if (!checkAdmin(req, res)) return;
+        const bot = loadBots().find(b => b.id === req.params.id);
+        if (!bot) return res.status(404).json({ error: 'Bot no encontrado' });
+        const limit = Math.min(parseInt(req.query.limit || 50), 100);
+        const entries = getUpcomingEntries(req.params.id, limit);
+        res.json(entries);
+    });
+
+    // POST /admin/bots/:id/regenerate — regenerate schedule for a bot
+    app.post('/admin/bots/:id/regenerate', (req, res) => {
+        if (!checkAdmin(req, res)) return;
+        const bots = loadBots();
+        const bot  = bots.find(b => b.id === req.params.id);
+        if (!bot) return res.status(404).json({ error: 'Bot no encontrado' });
+        if (bot.scheduleMode !== 'human-random') {
+            return res.status(400).json({ error: 'Este bot no usa human-random' });
+        }
+        const allHumanBots = bots.filter(b => b.scheduleMode === 'human-random');
+        const botIndex = allHumanBots.findIndex(b => b.id === bot.id);
+        const now = new Date();
+        const endDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 2, 0));
+        const count = regenerateBotSchedule(
+            bot.id,
+            bot.postsPerDayWeekday || 2,
+            bot.postsPerDayWeekend || 3,
+            botIndex >= 0 ? botIndex : 0,
+            endDate
+        );
+        res.json({ ok: true, scheduled: count });
+    });
+
+    // ── Post management (admin) ───────────────────────────────────────────────
+
+    // GET /admin/posts — list posts (admin)
+    app.get('/admin/posts', (req, res) => {
+        if (!checkAdmin(req, res)) return;
+        const limit  = Math.min(parseInt(req.query.limit  || 50), 200);
+        const offset = parseInt(req.query.offset || 0);
+        const posts  = loadFeed();
+        res.json({ posts: posts.slice(offset, offset + limit), total: posts.length });
+    });
+
+    // PATCH /admin/posts/:id — edit post
+    app.patch('/admin/posts/:id', (req, res) => {
+        if (!checkAdmin(req, res)) return;
+        const posts = loadFeed();
+        const idx   = posts.findIndex(p => p.id === req.params.id);
+        if (idx === -1) return res.status(404).json({ error: 'Post no encontrado' });
+
+        const allowed = ['title', 'body', 'tags', 'author', 'level', 'lang'];
+        for (const key of allowed) {
+            if (req.body[key] !== undefined) posts[idx][key] = req.body[key];
+        }
+        saveFeed(posts);
+        res.json(posts[idx]);
+    });
+
+    // DELETE /admin/posts/:id — remove post
+    app.delete('/admin/posts/:id', (req, res) => {
+        if (!checkAdmin(req, res)) return;
+        const posts    = loadFeed();
+        const filtered = posts.filter(p => p.id !== req.params.id);
+        if (filtered.length === posts.length) return res.status(404).json({ error: 'Post no encontrado' });
+        saveFeed(filtered);
+        res.json({ ok: true });
     });
 
     // ── REST API pública (con API key opcional) ───────────────────────────────

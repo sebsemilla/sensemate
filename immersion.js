@@ -367,7 +367,7 @@ function _renderBrowser(container) {
     <div class="imm-wrap">
       <div class="imm-topbar">
         <button class="imm-back-btn" id="immBackMenu">← Menú</button>
-        <h2 class="imm-page-title">🌍 Aprende con...</h2>
+        <h2 class="imm-page-title">🎬 Multimedia</h2>
         <button class="imm-add-btn" id="immAddBtn">＋ Agregar</button>
       </div>
 
@@ -710,6 +710,12 @@ function _loadStudyArea(container, content) {
         </div>
       </div>` : ''}
 
+      ${(content._user || content._pinned) && content.dialogue?.length ? `
+      <!-- ── Editor de subtítulos ── -->
+      <button class="imm-sub-edit-open-btn" id="immSubEditOpenBtn">✂️ Editar subtítulos</button>
+      <div class="imm-sub-editor-panel hidden" id="immSubEditorPanel"></div>
+      ` : ''}
+
       ${content._user || content._pinned ? `
       <!-- ── Editar contenido ── -->
       <button class="imm-edit-content-btn" id="saEditContentBtn">✏️ Editar este contenido</button>
@@ -846,6 +852,16 @@ function _loadStudyArea(container, content) {
   };
   document.getElementById('saEditBtn')?.addEventListener('click', _openEdit);
   document.getElementById('saEditContentBtn')?.addEventListener('click', _openEdit);
+
+  // Editor de subtítulos
+  document.getElementById('immSubEditOpenBtn')?.addEventListener('click', () => {
+    const panel = document.getElementById('immSubEditorPanel');
+    if (!panel) return;
+    const isOpen = !panel.classList.contains('hidden');
+    if (isOpen) { panel.classList.add('hidden'); return; }
+    panel.classList.remove('hidden');
+    _renderSubtitleEditor(content, panel);
+  });
 
   // Fijar como curated (solo admin)
   document.getElementById('saPinContentBtn')?.addEventListener('click', () => {
@@ -1635,7 +1651,14 @@ function _showAddModal(container, editItem = null) {
         <div class="imm-add-section-title">📝 Subtítulos *</div>
         <div class="imm-radio-group">
           <label class="imm-radio-opt"><input type="radio" name="sSrc" value="srt" checked> Archivo .SRT / .TXT</label>
+          <label class="imm-radio-opt"><input type="radio" name="sSrc" value="text"> Texto completo</label>
           <label class="imm-radio-opt"><input type="radio" name="sSrc" value="manual"> Manual</label>
+        </div>
+
+        <!-- Texto completo (copiar/pegar) -->
+        <div id="sTextWrap" class="hidden">
+          <textarea class="imm-modal-textarea" id="aFullText" rows="8"
+            placeholder="Pegá aquí el texto completo del video. Cada línea se convierte en un subtítulo. Los tiempos se asignan después desde el editor del reproductor."></textarea>
         </div>
 
         <!-- SRT -->
@@ -1887,6 +1910,7 @@ function _showAddModal(container, editItem = null) {
   overlay.querySelectorAll('input[name="sSrc"]').forEach(r => {
     r.addEventListener('change', () => {
       overlay.querySelector('#sSRTWrap').classList.toggle('hidden',    r.value !== 'srt');
+      overlay.querySelector('#sTextWrap').classList.toggle('hidden',   r.value !== 'text');
       overlay.querySelector('#sManualWrap').classList.toggle('hidden', r.value !== 'manual');
       if (r.value === 'manual') renderManualRows();
     });
@@ -2067,12 +2091,18 @@ function _showAddModal(container, editItem = null) {
     const sRadio   = overlay.querySelector('input[name="sSrc"]:checked')?.value || 'srt';
     let dialogue = sRadio === 'srt'
       ? parsedDialogue
-      : manualRows
-          .filter(r => r.original && r.start !== '' && r.end !== '')
-          .map(r => ({ start: +r.start, end: +r.end, original: r.original, translation: r.translation || '' }));
+      : sRadio === 'text'
+        ? (overlay.querySelector('#aFullText')?.value || '').split('\n')
+            .map(l => l.trim()).filter(Boolean)
+            .map(l => ({ start: 0, end: 0, original: l, translation: '' }))
+        : manualRows
+            .filter(r => r.original && r.start !== '' && r.end !== '')
+            .map(r => ({ start: +r.start, end: +r.end, original: r.original, translation: r.translation || '' }));
 
     if (!dialogue.length) {
-      err.textContent = 'Agregá al menos un subtítulo (importá un .srt o escribí uno manual).';
+      err.textContent = sRadio === 'text'
+        ? 'El texto completo está vacío. Pegá el contenido del video.'
+        : 'Agregá al menos un subtítulo (importá un .srt o escribí uno manual).';
       err.classList.remove('hidden'); return;
     }
 
@@ -2206,6 +2236,109 @@ function _esc(str) {
   return String(str || '')
     .replace(/&/g, '&amp;').replace(/</g, '&lt;')
     .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// ─────────────────────────────────────────────
+// EDITOR DE SUBTÍTULOS
+// ─────────────────────────────────────────────
+
+function _renderSubtitleEditor(content, panel) {
+  // Trabajamos sobre una copia mutable del dialogue
+  let rows = content.dialogue.map(d => ({ ...d }));
+  let editTextMode = false;
+
+  function _getCurrentTime() {
+    if (!_immMedia) return 0;
+    try { return _immMedia.currentTime || 0; } catch { return 0; }
+  }
+
+  function _render() {
+    panel.innerHTML = `
+      <div class="imm-sed-toolbar">
+        <button class="imm-sed-btn imm-sed-btn--text ${editTextMode ? 'imm-sed-btn--active' : ''}" id="sedToggleText">
+          ${editTextMode ? '🔒 Bloquear texto' : '✏️ Editar texto'}
+        </button>
+        <button class="imm-sed-btn imm-sed-btn--save" id="sedSave">💾 Guardar</button>
+      </div>
+      <div class="imm-sed-hint">
+        Presioná ↦ para marcar el <strong>inicio</strong> de una frase en el tiempo actual del video,
+        y ↤ para marcar el <strong>fin</strong>.
+      </div>
+      <div class="imm-sed-list" id="sedList">
+        ${rows.map((r, i) => `
+          <div class="imm-sed-row" data-i="${i}">
+            <div class="imm-sed-times">
+              <button class="imm-sed-mark imm-sed-mark--start" data-i="${i}" title="Marcar inicio en tiempo actual">↦ ${_immFmt(r.start)}</button>
+              <button class="imm-sed-mark imm-sed-mark--end"   data-i="${i}" title="Marcar fin en tiempo actual">↤ ${_immFmt(r.end)}</button>
+            </div>
+            <span class="imm-sed-text ${editTextMode ? 'imm-sed-text--editable' : ''}"
+                  ${editTextMode ? 'contenteditable="true"' : ''}
+                  data-i="${i}">${_esc(r.original)}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+
+    // Botones ↦ ↤
+    panel.querySelectorAll('.imm-sed-mark--start').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const i = +btn.dataset.i;
+        rows[i].start = parseFloat(_getCurrentTime().toFixed(2));
+        btn.textContent = `↦ ${_immFmt(rows[i].start)}`;
+      });
+    });
+    panel.querySelectorAll('.imm-sed-mark--end').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const i = +btn.dataset.i;
+        rows[i].end = parseFloat(_getCurrentTime().toFixed(2));
+        btn.textContent = `↤ ${_immFmt(rows[i].end)}`;
+      });
+    });
+
+    // Edición de texto (contenteditable)
+    panel.querySelectorAll('.imm-sed-text[contenteditable]').forEach(span => {
+      span.addEventListener('input', () => {
+        rows[+span.dataset.i].original = span.textContent;
+      });
+    });
+
+    // Toggle editar texto
+    panel.querySelector('#sedToggleText').addEventListener('click', () => {
+      editTextMode = !editTextMode;
+      _render();
+    });
+
+    // Guardar
+    panel.querySelector('#sedSave').addEventListener('click', () => {
+      // Flush texto editable en caso de que no haya disparado 'input'
+      panel.querySelectorAll('.imm-sed-text[contenteditable]').forEach(span => {
+        rows[+span.dataset.i].original = span.textContent;
+      });
+
+      content.dialogue = rows;
+
+      // Persistir en localStorage
+      if (content._user) {
+        const list = _getUserImmContent().map(c => c.id === content.id ? { ...c, dialogue: rows } : c);
+        localStorage.setItem(_USER_IMM_KEY, JSON.stringify(list));
+      } else if (content._pinned) {
+        const list = _getPinnedImmContent().map(c => c.id === content.id ? { ...c, dialogue: rows } : c);
+        localStorage.setItem(_PINNED_IMM_KEY, JSON.stringify(list));
+      }
+
+      // Feedback visual
+      const btn = panel.querySelector('#sedSave');
+      btn.textContent = '✅ Guardado';
+      btn.disabled = true;
+      setTimeout(() => { btn.textContent = '💾 Guardar'; btn.disabled = false; }, 2000);
+
+      // Recargar grupos de subtítulos para que la sync los tome
+      _immGroups  = _groupDialogue(rows);
+      _immLineIdx = -2;
+    });
+  }
+
+  _render();
 }
 
 function _immCleanup() {
