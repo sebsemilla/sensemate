@@ -544,6 +544,39 @@ function loadComplaintsSection() {
 
 let appMode = 'traduccion'; // siempre arranca en traducción; mobile lo restaura vía visibilitychange
 
+// ── URL routing helpers ───────────────────────────────────────
+const _TAB_URLS = { exploracion: '/aprende', traduccion: '/', mision: '/', livefeed: '/', classroom: '/' };
+
+function _pushTabState(tab) {
+    const url = _TAB_URLS[tab] || '/';
+    history.pushState({ tab }, '', url);
+}
+
+function _routeFromUrl() {
+    const p = window.location.pathname;
+    if (p.startsWith('/aprende/')) {
+        const id = p.slice('/aprende/'.length);
+        appMode = 'exploracion';
+        const sel = document.getElementById('appModeSelector');
+        if (sel) sel.setAttribute('data-mode', appMode);
+        if (typeof loadImmersionSection === 'function') loadImmersionSection();
+        // Abrir el contenido específico después de que el browser renderice
+        setTimeout(() => {
+            if (typeof _getAllImmContent === 'function' && typeof _loadStudyArea === 'function') {
+                const item = _getAllImmContent().find(c => c.id === id);
+                if (item) _loadStudyArea(document.getElementById('mainContainer'), item);
+            }
+        }, 80);
+    } else if (p === '/aprende') {
+        appMode = 'exploracion';
+        const sel = document.getElementById('appModeSelector');
+        if (sel) sel.setAttribute('data-mode', appMode);
+        if (typeof loadImmersionSection === 'function') loadImmersionSection();
+    } else {
+        showMainMenu();
+    }
+}
+
 function _initModeSelector() {
     const selector = document.getElementById('appModeSelector');
     if (!selector) return;
@@ -555,6 +588,7 @@ function _initModeSelector() {
             appMode = tab;
             localStorage.setItem('appMode', appMode);
             selector.setAttribute('data-mode', appMode);
+            _pushTabState(tab);
             showMainMenu();
             if (tab === 'mision') {
                 setTimeout(() => toggleMisionMate(), 100);
@@ -568,6 +602,28 @@ function _initModeSelector() {
         });
     });
 }
+
+window.addEventListener('popstate', (e) => {
+    const p = window.location.pathname;
+    if (p.startsWith('/aprende/')) {
+        const id = p.slice('/aprende/'.length);
+        if (typeof _getAllImmContent === 'function' && typeof _loadStudyArea === 'function') {
+            const item = _getAllImmContent().find(c => c.id === id);
+            if (item) { _loadStudyArea(document.getElementById('mainContainer'), item); return; }
+        }
+        if (typeof loadImmersionSection === 'function') loadImmersionSection();
+    } else if (p === '/aprende') {
+        appMode = 'exploracion';
+        const sel = document.getElementById('appModeSelector');
+        if (sel) sel.setAttribute('data-mode', appMode);
+        if (typeof loadImmersionSection === 'function') loadImmersionSection();
+    } else {
+        appMode = e.state?.tab || 'traduccion';
+        const sel = document.getElementById('appModeSelector');
+        if (sel) sel.setAttribute('data-mode', appMode);
+        showMainMenu();
+    }
+});
 
 let _misionLastKey = null; // clave del último módulo visto, para re-centrar al volver
 
@@ -5100,7 +5156,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     if (currentUser) {
         if (!sourceLang || !targetLang) saveLanguages('en', 'es');
-        showMainMenu();
+        _routeFromUrl();
     } else if (!_resetToken) {
         showOnboarding();
     }

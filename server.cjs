@@ -81,6 +81,77 @@ app.use(express.urlencoded({ extended: true }));
 // ── Bot detector: si es un crawler social, servir HTML con meta tags correctos ──
 const BOT_UA = /facebookexternalhit|twitterbot|linkedinbot|whatsapp|telegram|slack|discord|googlebot|bingbot|applebot/i;
 
+// ── Contenido curado (para SSR y sitemap) ─────────────────────
+const CURATED = require('./data/curated_content.json');
+
+function _esc(s) {
+    return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function _ssrContentPage(item) {
+    const desc = `Aprende ${_esc(item.languageName)} con ${_esc(item.title)} — ${_esc(item.subtitle)}. Subtítulos sincronizados y traducción al español.`;
+    const url  = `https://sensemate.app/aprende/${item.id}`;
+    const lines = (item.dialogue || []).map(d =>
+        `<p lang="${_esc(item.language)}">${_esc(d.original)}${d.translation ? ` — <span lang="es">${_esc(d.translation)}</span>` : ''}</p>`
+    ).join('\n');
+    return `<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>${_esc(item.title)} — ${_esc(item.subtitle)} | Aprende ${_esc(item.languageName)} | SenseMate</title>
+<meta name="description" content="${desc}">
+<link rel="canonical" href="${url}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="${url}">
+<meta property="og:title" content="${_esc(item.title)} — ${_esc(item.subtitle)} | SenseMate">
+<meta property="og:description" content="${desc}">
+<meta property="og:image" content="https://sensemate.app/images/og-preview.jpg">
+<meta property="og:locale" content="es_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://sensemate.app/images/og-preview.jpg">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LearningResource","name":"${_esc(item.title)} — ${_esc(item.subtitle)}","description":"${desc}","url":"${url}","inLanguage":"${_esc(item.language)}","learningResourceType":"Immersive content","educationalLevel":"Beginner","provider":{"@type":"Organization","name":"SenseMate","url":"https://sensemate.app"}}
+</script>
+</head>
+<body style="font-family:sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem">
+<p><a href="/aprende">← Multimedia</a></p>
+<h1>${_esc(item.title)}</h1>
+<h2>${_esc(item.subtitle)}</h2>
+<p><strong>Idioma:</strong> ${_esc(item.languageName)} · <strong>Categoría:</strong> ${_esc(item.category)}</p>
+<div>${lines}</div>
+<p><a href="/">Abrir en SenseMate →</a></p>
+</body></html>`;
+}
+
+function _ssrBrowsePage() {
+    const items = CURATED.map(c =>
+        `<li><a href="/aprende/${c.id}">${_esc(c.title)} — ${_esc(c.subtitle)}</a> (${_esc(c.languageName)})</li>`
+    ).join('\n');
+    return `<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Aprende idiomas con series y anime | SenseMate Multimedia</title>
+<meta name="description" content="Practica inglés, japonés y más idiomas con subtítulos sincronizados de series, anime y películas auténticas.">
+<link rel="canonical" href="https://sensemate.app/aprende">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sensemate.app/aprende">
+<meta property="og:title" content="Aprende idiomas con series y anime | SenseMate">
+<meta property="og:description" content="Practica con subtítulos sincronizados de contenido auténtico.">
+<meta property="og:image" content="https://sensemate.app/images/og-preview.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Multimedia — SenseMate","description":"Contenido para aprender idiomas con subtítulos sincronizados","url":"https://sensemate.app/aprende","provider":{"@type":"Organization","name":"SenseMate","url":"https://sensemate.app"}}
+</script>
+</head>
+<body style="font-family:sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem">
+<h1>Multimedia — Aprende idiomas</h1>
+<p>Practicá inglés, japonés y más con subtítulos sincronizados de contenido auténtico.</p>
+<ul>${items}</ul>
+<p><a href="/">Abrir en SenseMate →</a></p>
+</body></html>`;
+}
+
 app.get('/lite', (req, res) => {
     res.sendFile(path.join(__dirname, 'index-lite.html'));
 });
@@ -137,6 +208,37 @@ app.get('/', (req, res, next) => {
 </head><body><a href="/">SenseMate</a></body></html>`);
 });
 
+// ── Sitemap dinámico ──────────────────────────────────────────
+app.get('/sitemap.xml', (req, res) => {
+    const BASE = 'https://sensemate.app';
+    const fixed = [
+        { url: `${BASE}/`,       priority: '1.0', changefreq: 'weekly' },
+        { url: `${BASE}/aprende`, priority: '0.9', changefreq: 'weekly' },
+        { url: `${BASE}/mcp`,    priority: '0.6', changefreq: 'monthly' },
+        { url: `${BASE}/privacy.html`, priority: '0.3', changefreq: 'yearly' },
+        { url: `${BASE}/terms.html`,   priority: '0.3', changefreq: 'yearly' },
+    ];
+    const content = CURATED.map(c => ({ url: `${BASE}/aprende/${c.id}`, priority: '0.8', changefreq: 'monthly' }));
+    const all = [...fixed, ...content];
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${
+        all.map(u => `  <url><loc>${u.url}</loc><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join('\n')
+    }\n</urlset>`;
+    res.set('Content-Type', 'application/xml').send(xml);
+});
+
+// ── SSR para bots / deep links de Multimedia ─────────────────
+app.get('/aprende', (req, res) => {
+    if (!BOT_UA.test(req.headers['user-agent'] || '')) return res.sendFile(path.join(__dirname, 'index.html'));
+    res.send(_ssrBrowsePage());
+});
+
+app.get('/aprende/:id', (req, res) => {
+    const item = CURATED.find(c => c.id === req.params.id);
+    if (!item) return res.sendFile(path.join(__dirname, 'index.html'));
+    if (!BOT_UA.test(req.headers['user-agent'] || '')) return res.sendFile(path.join(__dirname, 'index.html'));
+    res.send(_ssrContentPage(item));
+});
+
 app.use(express.static(path.join(__dirname, '.'), {
     dotfiles: 'allow',   // necesario para servir /.well-known/mcp/server-card.json
 }));
@@ -159,6 +261,12 @@ registerClassroomRoutes(app, { authDb });
 registerBotRoutes(app);
 
 registerMcpRoutes(app);
+
+// ── Catch-all para rutas del SPA (deep links) ─────────────────
+app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api/') || req.path.startsWith('/admin/')) return next();
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
 
 // ─── Error handler global (captura errores no manejados en routes) ────────────
 // eslint-disable-next-line no-unused-vars

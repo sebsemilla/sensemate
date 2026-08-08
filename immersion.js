@@ -230,6 +230,7 @@ function loadImmersionSection() {
   _immCleanup();
   const main = document.getElementById('mainContainer');
   main.innerHTML = '';
+  history.pushState({ tab: 'exploracion' }, '', '/aprende');
   _renderBrowser(main);
 }
 
@@ -519,6 +520,7 @@ function _renderBrowser(container) {
 
 function _loadStudyArea(container, content) {
   _immCleanup();
+  history.pushState({ tab: 'exploracion', immId: content.id }, '', `/aprende/${content.id}`);
   _immContent = content;
   _immLineIdx = -1;
   _immGroups  = _groupDialogue(content.dialogue || [], 2);
@@ -864,6 +866,7 @@ function _loadStudyArea(container, content) {
   // Volver
   document.getElementById('saBack').addEventListener('click', () => {
     _immCleanup();
+    history.pushState({ tab: 'exploracion' }, '', '/aprende');
     _renderBrowser(container);
   });
 
