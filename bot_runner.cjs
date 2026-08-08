@@ -206,6 +206,15 @@ async function runBot(botId) {
         saveClasses([...newItems, ...classes]);
     } else {
         dbSavePosts(newItems);
+        // Postear en Discord si hay webhook configurado
+        if (process.env.DISCORD_WEBHOOK_URL) {
+            try {
+                const { postToDiscord } = require('./discord_bot.cjs');
+                for (const item of newItems) await postToDiscord(item);
+            } catch (err) {
+                console.error('[Discord Webhook] Error:', err.message);
+            }
+        }
     }
 
     // Actualizar estado del bot

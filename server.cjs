@@ -362,6 +362,14 @@ try {
     console.warn('[Dispatcher] No disponible:', err.message);
 }
 
+// ─── Discord Bot ──────────────────────────────────────────────
+try {
+    const { startDiscordBot } = require('./discord_bot.cjs');
+    startDiscordBot();
+} catch (err) {
+    console.warn('[Discord] No disponible:', err.message);
+}
+
 // ─── LinkedIn Bot — publicación automática cada 4 días ────────
 
 try {
