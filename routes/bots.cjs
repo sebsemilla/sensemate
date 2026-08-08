@@ -337,6 +337,29 @@ module.exports = function registerBotRoutes(app) {
         res.json({ ok: true, scheduled: count });
     });
 
+    // GET /admin/schedule — agenda global de todos los bots
+    app.get('/admin/schedule', (req, res) => {
+        if (!checkAdmin(req, res)) return;
+        const limit      = Math.min(parseInt(req.query.limit  || 200), 500);
+        const onlyFired  = req.query.fired === 'true';
+        const onlyPending = req.query.pending === 'true';
+        const bots       = loadBots();
+        const botMap     = Object.fromEntries(bots.map(b => [b.id, { displayName: b.displayName || b.name, direction: b.direction, enabled: b.enabled }]));
+        const { loadSchedule } = require('../bot_schedule.cjs');
+        let entries = loadSchedule().map(e => ({
+            ...e,
+            botName:    botMap[e.botId]?.displayName || e.botId,
+            direction:  botMap[e.botId]?.direction   || null,
+            botEnabled: botMap[e.botId]?.enabled     ?? true,
+        }));
+        if (onlyFired)   entries = entries.filter(e => e.fired);
+        if (onlyPending) entries = entries.filter(e => !e.fired);
+        // Sort: upcoming asc, fired desc (most recent first)
+        const pending = entries.filter(e => !e.fired).sort((a,b) => a.ts - b.ts);
+        const fired   = entries.filter(e =>  e.fired).sort((a,b) => b.ts - a.ts);
+        res.json({ pending: pending.slice(0, limit), fired: fired.slice(0, limit), total: entries.length });
+    });
+
     // ── Post management (admin) ───────────────────────────────────────────────
 
     // GET /admin/posts — list posts (admin)

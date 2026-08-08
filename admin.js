@@ -1992,100 +1992,172 @@ function _botForm(bot = {}) {
     </div>`;
 }
 
-async function _adminRenderBots(container) {
+async function _adminRenderBots(container, activeTab) {
     const res  = await fetch(_API_HOST + '/admin/bots', { headers: { 'x-admin-token': ADMIN_TOKEN } });
     if (!res.ok) throw new Error('Error al cargar bots');
     const bots = await res.json();
+    const tab  = activeTab || 'bots'; // 'bots' | 'agenda'
 
     const hasHumanBots = bots.some(b => b.scheduleMode === 'human-random');
-
-    const deepseekWarning = !bots.length ? '' :
-        `<div class="bot-info-banner">
-            ℹ️ Requiere <code>DEEPSEEK_API_KEY</code> en <code>.env</code>.
-            Los bots generan contenido via <a href="https://api.deepseek.com" target="_blank">DeepSeek API</a>
-            e insertan schema.org JSON-LD en cada publicación.
-         </div>`;
-
     const seedBtn = hasHumanBots ? '' :
         `<button class="admin-btn admin-btn--seed" id="botSeedBtn">🌱 Crear bots editoriales</button>`;
 
     container.innerHTML = `
         <div class="admin-bots-section">
-            <div class="admin-bots-header">
-                <span class="admin-count">${bots.length} bot(s) · ${bots.filter(b=>b.enabled).length} activo(s)</span>
-                <div class="admin-bots-header-actions">
-                    ${seedBtn}
-                    <button class="admin-btn" id="botNewBtn">➕ Nuevo bot</button>
-                </div>
-            </div>
-            ${deepseekWarning}
-            <div id="botFormSlot"></div>
-            <div class="bot-list" id="botList">
-                ${bots.length ? bots.map(_botCard).join('') : '<div class="admin-empty">🤖 No hay bots aún. Crea el primero.</div>'}
+
+            <!-- ── Tabs ── -->
+            <div class="bots-tab-bar">
+                <button class="bots-tab ${tab === 'bots'  ? 'bots-tab--active' : ''}" data-tab="bots">🤖 Bots</button>
+                <button class="bots-tab ${tab === 'agenda'? 'bots-tab--active' : ''}" data-tab="agenda">📅 Agenda</button>
             </div>
 
-            <!-- Gestionar posts del feed -->
-            <div class="bot-posts-section" id="botPostsSection">
-                <button class="admin-btn admin-btn--secondary bot-posts-toggle" id="botPostsToggleBtn">
-                    📬 Gestionar posts del feed
-                </button>
-                <div class="bot-posts-panel hidden" id="botPostsPanel">
-                    <div class="bot-posts-list" id="botPostsList">
-                        <div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>
+            <!-- ── Vista Bots ── -->
+            <div id="botsTabBots" class="${tab !== 'bots' ? 'hidden' : ''}">
+                <div class="admin-bots-header">
+                    <span class="admin-count">${bots.length} bot(s) · ${bots.filter(b=>b.enabled).length} activo(s)</span>
+                    <div class="admin-bots-header-actions">
+                        ${seedBtn}
+                        <button class="admin-btn" id="botNewBtn">➕ Nuevo bot</button>
                     </div>
                 </div>
+                <div class="bot-info-banner" style="${bots.length ? '' : 'display:none'}">
+                    ℹ️ Requiere <code>DEEPSEEK_API_KEY</code> en <code>.env</code>.
+                    Los bots generan contenido via DeepSeek API.
+                </div>
+                <div id="botFormSlot"></div>
+                <div class="bot-list" id="botList">
+                    ${bots.length ? bots.map(_botCard).join('') : '<div class="admin-empty">🤖 No hay bots aún. Creá el primero.</div>'}
+                </div>
             </div>
+
+            <!-- ── Vista Agenda ── -->
+            <div id="botsTabAgenda" class="${tab !== 'agenda' ? 'hidden' : ''}">
+                <div class="agenda-toolbar">
+                    <button class="admin-btn admin-btn--secondary" id="agendaRefreshBtn">↻ Actualizar</button>
+                </div>
+                <div id="agendaContent">
+                    <div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>
+                </div>
+            </div>
+
         </div>
     `;
 
-    // ── Abrir formulario de nuevo bot ──────────────────────────────────────────
-    document.getElementById('botNewBtn').addEventListener('click', () => {
-        const slot = document.getElementById('botFormSlot');
-        slot.innerHTML = _botForm();
-        _initBotForm(null, slot, bots, container);
-        slot.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // ── Tabs ──────────────────────────────────────────────────────────────────
+    container.querySelectorAll('.bots-tab').forEach(btn => {
+        btn.addEventListener('click', () => _adminRenderBots(container, btn.dataset.tab));
     });
 
-    // ── Seed bots editoriales ──────────────────────────────────────────────────
+    // ── Seed ──────────────────────────────────────────────────────────────────
     const seedBtnEl = document.getElementById('botSeedBtn');
     if (seedBtnEl) {
         seedBtnEl.addEventListener('click', async () => {
             seedBtnEl.textContent = '⏳ Creando bots…';
             seedBtnEl.disabled = true;
             try {
-                const r = await fetch(_API_HOST + '/admin/seed-bots', {
-                    method: 'POST',
-                    headers: { 'x-admin-token': ADMIN_TOKEN }
-                });
+                const r    = await fetch(_API_HOST + '/admin/seed-bots', { method: 'POST', headers: { 'x-admin-token': ADMIN_TOKEN } });
                 const data = await r.json();
                 if (data.ok) {
                     seedBtnEl.textContent = data.skipped ? '✓ Ya existen' : `✓ ${data.created} bots creados`;
-                    setTimeout(() => _adminRenderBots(container), 1200);
+                    setTimeout(() => _adminRenderBots(container, 'bots'), 1200);
                 } else {
                     seedBtnEl.textContent = `✗ ${data.error || 'Error'}`;
                     seedBtnEl.disabled = false;
                 }
-            } catch (e) {
-                seedBtnEl.textContent = '✗ Error de red';
-                seedBtnEl.disabled = false;
-            }
+            } catch (e) { seedBtnEl.textContent = '✗ Error de red'; seedBtnEl.disabled = false; }
         });
     }
 
-    // ── Toggle gestionar posts ─────────────────────────────────────────────────
-    document.getElementById('botPostsToggleBtn').addEventListener('click', async () => {
-        const panel = document.getElementById('botPostsPanel');
-        const isOpen = !panel.classList.contains('hidden');
-        if (isOpen) {
-            panel.classList.add('hidden');
-        } else {
-            panel.classList.remove('hidden');
-            await _loadAdminPosts();
-        }
+    // ── Nuevo bot ──────────────────────────────────────────────────────────────
+    document.getElementById('botNewBtn')?.addEventListener('click', () => {
+        const slot = document.getElementById('botFormSlot');
+        slot.innerHTML = _botForm();
+        _initBotForm(null, slot, bots, container);
+        slot.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
 
-    // ── Eventos en las tarjetas ────────────────────────────────────────────────
+    // ── Tarjetas de bot ────────────────────────────────────────────────────────
     _bindBotCardEvents(container, bots);
+
+    // ── Agenda ────────────────────────────────────────────────────────────────
+    if (tab === 'agenda') _loadAgenda();
+
+    document.getElementById('agendaRefreshBtn')?.addEventListener('click', _loadAgenda);
+}
+
+async function _loadAgenda() {
+    const el = document.getElementById('agendaContent');
+    if (!el) return;
+    el.innerHTML = '<div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>';
+    try {
+        const [schedRes, postsRes] = await Promise.all([
+            fetch(_API_HOST + '/admin/schedule?limit=300', { headers: { 'x-admin-token': ADMIN_TOKEN } }),
+            fetch(_API_HOST + '/admin/posts?limit=100',   { headers: { 'x-admin-token': ADMIN_TOKEN } }),
+        ]);
+        const { pending, fired } = await schedRes.json();
+        const { posts }          = await postsRes.json();
+
+        // Map fired ts → post (para linkear post publicado con su entrada de schedule)
+        const postByBotAndTs = {};
+        (posts || []).forEach(p => { postByBotAndTs[`${p.botId}_${p.ts}`] = p; });
+
+        const fmtAR = ts => new Date(ts).toLocaleString('es-AR', {
+            timeZone: 'America/Argentina/Buenos_Aires',
+            day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit'
+        });
+        const dirBadge = d => d === 'es-en' ? '<span class="agenda-dir es-en">Es→En</span>'
+                            : d === 'en-es' ? '<span class="agenda-dir en-es">En→Es</span>' : '';
+
+        const pendingHtml = pending.length ? pending.map(e => `
+            <div class="agenda-row agenda-row--pending">
+                <span class="agenda-time">${fmtAR(e.ts)}</span>
+                <span class="agenda-bot">${escapeHtml(e.botName)}</span>
+                ${dirBadge(e.direction)}
+                <span class="agenda-status pending">⏳ Pendiente</span>
+            </div>
+        `).join('') : '<div class="agenda-empty">Sin publicaciones pendientes programadas.</div>';
+
+        const firedHtml = fired.length ? fired.map(e => {
+            const post = postByBotAndTs[`${e.botId}_${Math.round(e.ts/1000)*1000}`]
+                      || postByBotAndTs[`${e.botId}_${e.ts}`]
+                      || posts?.find(p => p.botId === e.botId && Math.abs(p.ts - e.ts) < 120000);
+            return `
+            <div class="agenda-row agenda-row--fired">
+                <span class="agenda-time">${fmtAR(e.ts)}</span>
+                <span class="agenda-bot">${escapeHtml(e.botName)}</span>
+                ${dirBadge(e.direction)}
+                <span class="agenda-status fired">✅ Publicado</span>
+                ${post ? `<span class="agenda-post-title" title="${escapeHtml(post.title || '')}">${escapeHtml((post.title || '').slice(0, 50))}${(post.title||'').length > 50 ? '…' : ''}</span>
+                          <button class="agenda-post-del" data-id="${post.id}" title="Eliminar post">🗑️</button>` : ''}
+            </div>`;
+        }).join('') : '<div class="agenda-empty">Sin publicaciones realizadas aún.</div>';
+
+        el.innerHTML = `
+            <section class="agenda-section">
+                <div class="agenda-section-title">⏰ Próximas publicaciones <span class="agenda-badge">${pending.length}</span></div>
+                <div class="agenda-list">${pendingHtml}</div>
+            </section>
+            <section class="agenda-section">
+                <div class="agenda-section-title">✅ Historial publicado <span class="agenda-badge">${fired.length}</span></div>
+                <div class="agenda-list">${firedHtml}</div>
+            </section>
+        `;
+
+        // Eliminar post desde la agenda
+        el.querySelectorAll('.agenda-post-del').forEach(btn => {
+            btn.addEventListener('click', async () => {
+                if (!confirm('¿Eliminar este post del feed?')) return;
+                const r = await fetch(_API_HOST + `/admin/posts/${btn.dataset.id}`, {
+                    method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN }
+                });
+                if (r.ok) { btn.closest('.agenda-row')?.querySelector('.agenda-post-title')?.remove(); btn.remove(); }
+                else alert('Error al eliminar.');
+            });
+        });
+
+    } catch(e) {
+        el.innerHTML = `<div class="admin-error">❌ ${escapeHtml(e.message)}</div>`;
+    }
 }
 
 async function _loadAdminPosts() {
