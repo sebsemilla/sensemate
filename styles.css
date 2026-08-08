@@ -3364,6 +3364,11 @@ body.dark-mode .cl-ann-expired { background:#3b5080; }
 /* ─── Admin: Tab Usuarios ─────────────────────────────────────── */
 
 .au-wrap { display:flex; flex-direction:column; gap:.65rem; }
+.au-role-header { display:flex; align-items:center; justify-content:space-between; gap:.75rem; flex-wrap:wrap; padding:.1rem 0 .3rem; }
+.au-role-total  { font-size:.82rem; font-weight:600; color:var(--text-muted); }
+.au-role-select { font-size:.82rem; font-weight:600; border:1.5px solid var(--border); border-radius:20px; padding:.3rem .75rem; background:var(--surface); color:var(--text); cursor:pointer; outline:none; appearance:none; -webkit-appearance:none; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%236b7280'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right .55rem center; padding-right:1.6rem; transition:border-color .15s; }
+.au-role-select:focus { border-color:var(--primary,#4f46e5); }
+body.dark-mode .au-role-select { background-color:#1e293b; border-color:#334155; color:#f1f5f9; }
 .au-search-row { display:flex; align-items:center; gap:.75rem; }
 .au-search {
     flex:1; padding:.55rem .85rem; border:1.5px solid var(--border); border-radius:12px;

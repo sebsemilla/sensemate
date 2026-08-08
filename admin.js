@@ -56,8 +56,6 @@ async function loadAdminPanel() {
                         </div>
 
                         <div class="admin-sec-divider"></div>
-                        <button class="admin-sec-item" data-tab="contributors">👥 Contributores</button>
-                        <button class="admin-sec-item" data-tab="teachers">🏫 Profesores</button>
                         <button class="admin-sec-item" data-tab="tools">🔧 Herramientas</button>
                         <button class="admin-sec-item" data-tab="membership">💳 Membresías</button>
                         <button class="admin-sec-item" data-tab="bots">🤖 Bots</button>
@@ -168,16 +166,12 @@ async function _adminLoadTab(tab) {
             await _adminRenderFlashcardGroups(content);
         } else if (tab === 'stats') {
             await _adminRenderStats(content);
-        } else if (tab === 'contributors') {
-            await _adminRenderContributors(content);
         } else if (tab === 'tools') {
             _adminRenderTools(content);
         } else if (tab === 'membership') {
             await _adminRenderMembership(content);
         } else if (tab === 'users') {
             await _adminRenderUsers(content);
-        } else if (tab === 'teachers') {
-            await _adminRenderTeachers(content);
         } else if (tab === 'bots') {
             await _adminRenderBots(content);
         }
@@ -1386,62 +1380,156 @@ const _AU_ROLE_DEFAULTS = {
 };
 
 async function _adminRenderUsers(container, page = 1) {
-    const res  = await fetch(`${_API_HOST}/admin/users?page=${page}&limit=50`, { headers: { 'x-admin-token': ADMIN_TOKEN } });
-    const data = await res.json();
-    const users = data.users || data; // compatibilidad con respuesta antigua
+    // Cargar usuarios, profesores y contributores en paralelo
+    const sessionToken = (() => { try { return JSON.parse(localStorage.getItem('ls_session') || '{}').token || ''; } catch { return ''; } })();
+    let users = [], teachers = [], contributors = [];
+    try {
+        const [ur, tr, cr] = await Promise.all([
+            fetch(`${_API_HOST}/admin/users?page=${page}&limit=200`, { headers: { 'x-admin-token': ADMIN_TOKEN } }),
+            fetch(`${_API_HOST}/classroom/teachers`, { headers: { 'Authorization': `Bearer ${sessionToken}` } }),
+            fetch(`${_API_HOST}/admin/contributors`, { headers: { 'x-admin-token': ADMIN_TOKEN } })
+        ]);
+        const ud = await ur.json(); users = ud.users || (Array.isArray(ud) ? ud : []);
+        const td = await tr.json(); teachers = td.teachers || [];
+        const cd = await cr.json(); contributors = Array.isArray(cd) ? cd : [];
+    } catch {}
 
-    // Distribución por región
+    const studentCount = users.filter(u => u.role === 'estudiante').length;
     const regionCounts = {};
     users.forEach(u => { if (u.region) regionCounts[u.region] = (regionCounts[u.region] || 0) + 1; });
     const regionSummary = Object.entries(regionCounts).sort((a,b) => b[1]-a[1]);
 
     container.innerHTML = `
         <div class="au-wrap">
-            ${regionSummary.length ? `
-            <div class="au-region-summary">
-                <span class="au-region-summary-title">Usuarios por región:</span>
-                ${regionSummary.map(([r,c]) => `
-                    <span class="au-region-pill au-region-filter" data-region="${r}" title="${r}">
-                        ${(_AU_REGION_LABELS[r] || r).split(' ').slice(0,2).join(' ')} <strong>${c}</strong>
-                    </span>`).join('')}
-                <span class="au-region-pill au-region-filter au-region-filter--active" data-region="" style="border-color:#6366f1;color:#6366f1">Todos</span>
-            </div>` : ''}
-            <div class="au-search-row">
-                <input class="au-search" id="auSearch" placeholder="🔍 Buscar por nombre, email o username…" autocomplete="off">
-                <span class="au-count" id="auCount">${users.length} usuarios</span>
+            <div class="au-role-header">
+                <span class="au-role-total" id="auRoleTotal">${users.length} usuarios registrados</span>
+                <select class="au-role-select" id="auRoleFilter">
+                    <option value="todos">👤 Todos (${users.length})</option>
+                    <option value="estudiantes">🎓 Estudiantes (${studentCount})</option>
+                    <option value="profesores">🏫 Profesores (${teachers.length})</option>
+                    <option value="contributores">👥 Contributores (${contributors.length})</option>
+                </select>
             </div>
-            <div class="au-list" id="auList"></div>
+            <div id="auSubContent"></div>
         </div>`;
+
+    const subContainer = document.getElementById('auSubContent');
+
+    function renderSubview(role) {
+        if (role === 'todos' || role === 'estudiantes') {
+            const list = role === 'estudiantes' ? users.filter(u => u.role === 'estudiante') : users;
+            document.getElementById('auRoleTotal').textContent =
+                role === 'estudiantes' ? `${list.length} estudiantes` : `${users.length} usuarios registrados`;
+            _auRenderUserList(subContainer, list, users, regionSummary);
+        } else if (role === 'profesores') {
+            document.getElementById('auRoleTotal').textContent = `${teachers.length} profesores registrados`;
+            _auRenderTeachersInline(subContainer, teachers);
+        } else if (role === 'contributores') {
+            document.getElementById('auRoleTotal').textContent = `${contributors.length} contributores registrados`;
+            _auRenderContributorsInline(subContainer, contributors);
+        }
+    }
+
+    document.getElementById('auRoleFilter').addEventListener('change', e => renderSubview(e.target.value));
+    renderSubview('todos');
+}
+
+function _auRenderUserList(subContainer, displayUsers, allUsers, regionSummary) {
+    subContainer.innerHTML = `
+        ${regionSummary.length ? `
+        <div class="au-region-summary">
+            <span class="au-region-summary-title">Por región:</span>
+            ${regionSummary.map(([r,c]) => `
+                <span class="au-region-pill au-region-filter" data-region="${r}" title="${r}">
+                    ${(_AU_REGION_LABELS[r] || r).split(' ').slice(0,2).join(' ')} <strong>${c}</strong>
+                </span>`).join('')}
+            <span class="au-region-pill au-region-filter au-region-filter--active" data-region="">Todos</span>
+        </div>` : ''}
+        <div class="au-search-row">
+            <input class="au-search" id="auSearch" placeholder="🔍 Buscar por nombre, email o username…" autocomplete="off">
+            <span class="au-count" id="auCount">${displayUsers.length} usuario${displayUsers.length !== 1 ? 's' : ''}</span>
+        </div>
+        <div class="au-list" id="auList"></div>`;
 
     let _regionFilter = '';
 
     function renderList(query) {
         const q = (query || '').toLowerCase().trim();
-        let filtered = _regionFilter
-            ? users.filter(u => u.region === _regionFilter)
-            : users;
+        let filtered = _regionFilter ? displayUsers.filter(u => u.region === _regionFilter) : displayUsers;
         if (q) filtered = filtered.filter(u =>
-            (u.name     || '').toLowerCase().includes(q) ||
-            (u.email    || '').toLowerCase().includes(q) ||
+            (u.name || '').toLowerCase().includes(q) ||
+            (u.email || '').toLowerCase().includes(q) ||
             (u.username || '').toLowerCase().includes(q));
         document.getElementById('auCount').textContent = `${filtered.length} usuario${filtered.length !== 1 ? 's' : ''}`;
         const list = document.getElementById('auList');
         list.innerHTML = filtered.map(u => _auCardHTML(u)).join('');
-        _bindAuCards(list, users);
+        _bindAuCards(list, allUsers);
     }
 
     document.getElementById('auSearch').addEventListener('input', e => renderList(e.target.value));
-
-    container.querySelectorAll('.au-region-filter').forEach(pill => {
+    subContainer.querySelectorAll('.au-region-filter').forEach(pill => {
         pill.addEventListener('click', () => {
-            container.querySelectorAll('.au-region-filter').forEach(p => p.classList.remove('au-region-filter--active'));
+            subContainer.querySelectorAll('.au-region-filter').forEach(p => p.classList.remove('au-region-filter--active'));
             pill.classList.add('au-region-filter--active');
             _regionFilter = pill.dataset.region;
-            renderList(document.getElementById('auSearch').value);
+            renderList(document.getElementById('auSearch')?.value || '');
         });
     });
-
     renderList('');
+}
+
+function _auRenderTeachersInline(subContainer, profiles) {
+    const _CL_LANGS = { en:'Inglés', es:'Español', fr:'Francés', de:'Alemán', pt:'Portugués', it:'Italiano', zh:'Chino', ja:'Japonés', ko:'Coreano', ru:'Ruso', ar:'Árabe' };
+    subContainer.innerHTML = profiles.length === 0
+        ? '<p style="padding:1rem;color:var(--text-muted)">No hay perfiles de profesor registrados todavía.</p>'
+        : profiles.map(p => `
+            <div class="au-card">
+                <div class="au-card-head">
+                    <div class="au-avatar" style="background:linear-gradient(135deg,#f59e0b,#d97706)">👨‍🏫</div>
+                    <div class="au-info">
+                        <span class="au-name">${escapeHtml(p.name || '—')}</span>
+                        <span class="au-sub">@${escapeHtml(p.username || '—')}</span>
+                        <span class="au-sub">${(p.target_langs || []).map(l => _CL_LANGS[l] || l).join(' · ') || 'Sin idiomas'}</span>
+                    </div>
+                    <div class="au-meta">
+                        <span class="au-badge ${p.status === 'available' ? 'au-badge--active' : 'au-badge--inactive'}">
+                            ${p.status === 'available' ? '🟢 Disponible' : '🔴 No disponible'}
+                        </span>
+                        ${p.rating_count > 0 ? `<span class="au-badge au-badge--dev">⭐ ${p.rating}</span>` : ''}
+                    </div>
+                </div>
+                ${p.bio ? `<div style="padding:.35rem .85rem .65rem;font-size:.82rem;color:var(--text-muted);font-style:italic;border-top:1px solid var(--border)">${escapeHtml(p.bio.slice(0,160))}${p.bio.length > 160 ? '…' : ''}</div>` : ''}
+            </div>`).join('');
+}
+
+function _auRenderContributorsInline(subContainer, contributors) {
+    if (contributors.length === 0) {
+        subContainer.innerHTML = '<div class="admin-empty">👥 No hay contribuidores registrados todavía.</div>';
+        return;
+    }
+    subContainer.innerHTML = `<div class="admin-contrib-list">${contributors.map(c => _adminContribCard(c, 0)).join('')}</div>`;
+    subContainer.querySelectorAll('.admin-contrib-status-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            const id  = btn.dataset.id;
+            const status = btn.dataset.status;
+            const newStatus = status === 'pending' ? 'approved' : status === 'approved' ? 'rejected' : 'approved';
+            await fetch(`${_API_HOST}/admin/contributors/${id}`, {
+                method: 'PATCH', headers: { 'x-admin-token': ADMIN_TOKEN, 'Content-Type': 'application/json' },
+                body: JSON.stringify({ status: newStatus })
+            });
+            btn.textContent = newStatus === 'approved' ? '✅ Aprobado' : '❌ Rechazado';
+            btn.dataset.status = newStatus;
+        });
+    });
+    subContainer.querySelectorAll('.admin-contrib-del-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            if (!confirm('¿Eliminar este contribuidor?')) return;
+            await fetch(`${_API_HOST}/admin/contributors/${btn.dataset.id}`, {
+                method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN }
+            });
+            btn.closest('.admin-contrib-card')?.remove();
+        });
+    });
 }
 
 function _auCardHTML(u) {
