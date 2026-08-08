@@ -3,29 +3,18 @@
 const fs   = require('fs');
 const path = require('path');
 const axios = require('axios');
+const { dbLoadBots, dbSaveBots, dbSavePosts, dbLoadFeed } = require('./auth_db.cjs');
 
-const BOTS_FILE    = path.join(__dirname, 'bots.json');
-const FEED_FILE    = path.join(__dirname, 'feed_posts.json');
 const CLASSES_FILE = path.join(__dirname, 'classroom_classes.json');
-const MAX_FEED     = 500;
 const MAX_CLASSES  = 200;
 
 // ─── Persistencia ─────────────────────────────────────────────────────────────
 
-function loadBots() {
-    try { return JSON.parse(fs.readFileSync(BOTS_FILE, 'utf8')); } catch { return []; }
-}
-function saveBots(bots) {
-    fs.writeFileSync(BOTS_FILE, JSON.stringify(bots, null, 2));
-}
-function loadFeed() {
-    try { return JSON.parse(fs.readFileSync(FEED_FILE, 'utf8')); } catch { return []; }
-}
-function saveFeed(posts) {
-    // Mantener solo los MAX_FEED más recientes
-    const sorted = posts.sort((a, b) => b.ts - a.ts).slice(0, MAX_FEED);
-    fs.writeFileSync(FEED_FILE, JSON.stringify(sorted, null, 2));
-}
+function loadBots()       { return dbLoadBots(); }
+function saveBots(bots)   { dbSaveBots(bots); }
+function loadFeed(n = 50) { return dbLoadFeed(n); }
+function saveFeed()       { /* posts saved individually via dbSavePosts */ }
+
 function loadClasses() {
     try { return JSON.parse(fs.readFileSync(CLASSES_FILE, 'utf8')); } catch { return []; }
 }
@@ -113,19 +102,22 @@ function _systemPrompt(bot) {
     return `Eres un generador de contenido educativo para SenseMate, una app de aprendizaje de idiomas.
 Genera exactamente ${bot.quantity} publicación(es) distintas en formato JSON array.
 
-Cada elemento debe tener:
-- "title": string (max 80 chars)
-- "body": string (150-300 chars, texto natural, educativo)
-- "tags": array de 2-4 strings (ej: ["vocabulario", "español", "A2"])
-- "avatar": un solo emoji representativo del autor/tema
+Cada elemento DEBE tener estos campos:
+- "title": string (max 80 chars) — título directo y concreto
+- "intro": string (max 70 chars) — gancho de apertura, curioso o sorprendente
+- "body": string (120-200 chars) — explicación clara y educativa del concepto
+- "highlight": string (max 90 chars) — el concepto clave resumido en una frase memorable
+- "example": string (max 130 chars) — ejemplo natural en contexto (puede incluir la traducción)
+- "tip": string (max 90 chars) — truco, regla mnemotécnica o consejo práctico (o null si no aplica)
+- "tags": array de 2-4 strings (ej: ["vocabulario", "inglés", "B1"])
+- "avatar": un solo emoji representativo del autor
 - "emoji": emoji representativo del contenido
-- "level": nivel MCER si aplica ("A1","A2","B1","B2","C1","C2") o null
+- "level": nivel MCER ("A1","A2","B1","B2","C1","C2") o null
 - "lang": código de idioma principal ("es","en","fr","pt","it","de")
-${bot.target === 'classroom' ? `- "teacher": nombre del profesor (puede ser ficticio pero realista)
-- "live": false (usar true solo si el bot es para clases en vivo)` : ''}
+${bot.target === 'classroom' ? `- "teacher": nombre del profesor (ficticio pero realista)\n- "live": false` : ''}
 ${bot.schemaType === 'FAQPage' ? `- "faqs": array de {q,a} con 3-5 preguntas y respuestas` : ''}
 
-Responde SOLO con el JSON array, sin markdown, sin explicaciones.`;
+Responde SOLO con el JSON array, sin markdown, sin explicaciones adicionales.`;
 }
 
 async function _callDeepSeek(bot, apiKey) {
@@ -186,31 +178,34 @@ async function runBot(botId) {
 
     const ts   = Date.now();
     const newItems = generated.map((item, i) => ({
-        id:         `${botId}_${ts}_${i}`,
+        id:        `${botId}_${ts}_${i}`,
         botId,
-        author:     bot.displayName || bot.name,
-        avatar:     item.avatar  || '🤖',
-        emoji:      item.emoji   || '📝',
-        title:      item.title   || '',
-        body:       item.body    || '',
-        tags:       item.tags    || [],
-        level:      item.level   || null,
-        lang:       item.lang    || 'es',
-        teacher:    item.teacher || null,
-        live:       item.live    || false,
-        faqs:       item.faqs   || null,
+        author:    bot.displayName || bot.name,
+        avatar:    item.avatar    || '🤖',
+        emoji:     item.emoji     || '📝',
+        title:     item.title     || '',
+        intro:     item.intro     || null,
+        body:      item.body      || '',
+        highlight: item.highlight || null,
+        example:   item.example   || null,
+        tip:       item.tip       || null,
+        tags:      item.tags      || [],
+        level:     item.level     || null,
+        lang:      item.lang      || 'es',
+        teacher:   item.teacher   || null,
+        live:      item.live      || false,
+        faqs:      item.faqs      || null,
         ts,
-        likes:      0,
-        comments:   0,
-        schema:     buildSchemaOrg(bot.schemaType || 'Article', { ...item, ts, id: `${botId}_${ts}_${i}` })
+        likes:     0,
+        comments:  0,
+        schema:    buildSchemaOrg(bot.schemaType || 'Article', { ...item, ts, id: `${botId}_${ts}_${i}` })
     }));
 
     if (bot.target === 'classroom') {
         const classes = loadClasses();
         saveClasses([...newItems, ...classes]);
     } else {
-        const posts = loadFeed();
-        saveFeed([...newItems, ...posts]);
+        dbSavePosts(newItems);
     }
 
     // Actualizar estado del bot

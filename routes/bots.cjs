@@ -1,7 +1,8 @@
 // routes/bots.cjs — Admin bot management + public feed/classroom API
 'use strict';
 const crypto    = require('crypto');
-const { loadBots, saveBots, loadFeed, saveFeed, loadClasses, runBot } = require('../bot_runner.cjs');
+const { loadBots, saveBots, loadClasses, runBot } = require('../bot_runner.cjs');
+const { dbLoadBots, dbSaveBots, dbPatchBot, dbDeleteBot, dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost } = require('../auth_db.cjs');
 const { regenerateBotSchedule, getUpcomingEntries, removeBotSchedule, getDueEntries } = require('../bot_schedule.cjs');
 
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN;
@@ -80,8 +81,8 @@ module.exports = function registerBotRoutes(app) {
     app.get('/api/feed', (req, res) => {
         const limit  = Math.min(parseInt(req.query.limit  || 30), 100);
         const offset = parseInt(req.query.offset || 0);
-        const posts  = loadFeed().slice(offset, offset + limit);
-        res.json({ posts, total: loadFeed().length });
+        const posts  = dbLoadFeed(limit, offset);
+        res.json({ posts, total: posts.length });
     });
 
     // GET /api/classroom?tab=disponibles|live
@@ -98,15 +99,14 @@ module.exports = function registerBotRoutes(app) {
     // GET /admin/bots
     app.get('/admin/bots', (req, res) => {
         if (!checkAdmin(req, res)) return;
-        const bots = loadBots().map(b => ({ ...b, logs: (b.logs || []).slice(0, 5) }));
+        const bots = dbLoadBots().map(b => ({ ...b, logs: (b.logs || []).slice(0, 5) }));
         res.json(bots);
     });
 
     // POST /admin/seed-bots — crear los 8 bots editoriales
     app.post('/admin/seed-bots', (req, res) => {
         if (!checkAdmin(req, res)) return;
-        const bots = loadBots();
-        const existing = bots.filter(b => b.scheduleMode === 'human-random');
+        const existing = dbLoadBots().filter(b => b.scheduleMode === 'human-random');
         if (existing.length >= 8) {
             return res.json({ ok: true, skipped: true });
         }
@@ -132,26 +132,16 @@ module.exports = function registerBotRoutes(app) {
                 quantity:           1,
                 model:              'deepseek-chat',
                 enabled:            true,
-                lang:               def.direction === 'es-en' ? 'es' : 'en',
                 lastRun:            null,
                 runCount:           0,
                 logs:               [],
-                createdAt:          Date.now()
+                created_at:         new Date().toISOString()
             };
-            bots.push(bot);
             created.push(bot);
-
-            // Generate schedule
-            regenerateBotSchedule(
-                bot.id,
-                def.postsPerDayWeekday,
-                def.postsPerDayWeekend,
-                idx,
-                endDate
-            );
+            regenerateBotSchedule(bot.id, def.postsPerDayWeekday, def.postsPerDayWeekend, idx, endDate);
         });
 
-        saveBots(bots);
+        dbSaveBots(created);
         res.status(201).json({ ok: true, created: created.length });
     });
 
@@ -199,10 +189,8 @@ module.exports = function registerBotRoutes(app) {
             createdAt:          Date.now()
         };
 
-        const bots = loadBots();
-        const botIndex = bots.filter(b => b.scheduleMode === 'human-random').length;
-        bots.push(bot);
-        saveBots(bots);
+        const botIndex = dbLoadBots().filter(b => b.scheduleMode === 'human-random').length;
+        dbSaveBots([bot]);
 
         if (isHumanRandom) {
             const now = new Date();
@@ -224,62 +212,45 @@ module.exports = function registerBotRoutes(app) {
     // PATCH /admin/bots/:id
     app.patch('/admin/bots/:id', (req, res) => {
         if (!checkAdmin(req, res)) return;
-        const bots = loadBots();
-        const idx  = bots.findIndex(b => b.id === req.params.id);
-        if (idx === -1) return res.status(404).json({ error: 'Bot no encontrado' });
+        const existing = dbLoadBots().find(b => b.id === req.params.id);
+        if (!existing) return res.status(404).json({ error: 'Bot no encontrado' });
 
-        const allowed = [
-            'name','displayName','direction','avatarUrl',
-            'prompt','target','schemaType','schedule',
-            'scheduleMode','postsPerDayWeekday','postsPerDayWeekend',
-            'quantity','model','enabled'
-        ];
-
+        const allowed = ['name','displayName','direction','avatarUrl','prompt','target',
+                         'schemaType','schedule','scheduleMode','postsPerDayWeekday',
+                         'postsPerDayWeekend','quantity','model','enabled'];
+        const fields = {};
         let scheduleChanged = false;
-
         for (const key of allowed) {
             if (req.body[key] !== undefined) {
-                if (key === 'quantity') {
-                    bots[idx][key] = Math.min(Math.max(parseInt(req.body[key]) || 1, 1), 10);
-                } else if (key === 'schedule' && bots[idx].scheduleMode !== 'human-random' && !isValidCron(req.body[key])) {
-                    continue;
-                } else {
-                    bots[idx][key] = req.body[key];
-                }
-                if (key === 'scheduleMode' || key === 'postsPerDayWeekday' || key === 'postsPerDayWeekend') {
-                    scheduleChanged = true;
-                }
+                if (key === 'quantity') fields[key] = Math.min(Math.max(parseInt(req.body[key]) || 1, 1), 10);
+                else if (key === 'schedule' && existing.scheduleMode !== 'human-random' && !isValidCron(req.body[key])) continue;
+                else fields[key] = req.body[key];
+                if (['scheduleMode','postsPerDayWeekday','postsPerDayWeekend'].includes(key)) scheduleChanged = true;
             }
         }
 
-        saveBots(bots);
+        const updated = dbPatchBot(req.params.id, fields);
 
-        if (bots[idx].scheduleMode === 'human-random' && scheduleChanged) {
-            const allHumanBots = bots.filter(b => b.scheduleMode === 'human-random');
-            const botIndex = allHumanBots.findIndex(b => b.id === bots[idx].id);
+        if (updated.scheduleMode === 'human-random' && scheduleChanged) {
+            const allHuman = dbLoadBots().filter(b => b.scheduleMode === 'human-random');
+            const botIndex = allHuman.findIndex(b => b.id === updated.id);
             const now = new Date();
-            const endDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 2, 0));
-            regenerateBotSchedule(
-                bots[idx].id,
-                bots[idx].postsPerDayWeekday || 2,
-                bots[idx].postsPerDayWeekend || 3,
+            regenerateBotSchedule(updated.id, updated.postsPerDayWeekday || 2, updated.postsPerDayWeekend || 3,
                 botIndex >= 0 ? botIndex : 0,
-                endDate
-            );
+                new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 2, 0)));
         } else {
-            app._botScheduler?.update(bots[idx]);
+            app._botScheduler?.update(updated);
         }
 
-        res.json(bots[idx]);
+        res.json(updated);
     });
 
     // DELETE /admin/bots/:id
     app.delete('/admin/bots/:id', (req, res) => {
         if (!checkAdmin(req, res)) return;
-        const bots    = loadBots();
-        const filtered = bots.filter(b => b.id !== req.params.id);
-        if (filtered.length === bots.length) return res.status(404).json({ error: 'Bot no encontrado' });
-        saveBots(filtered);
+        const existing = dbLoadBots().find(b => b.id === req.params.id);
+        if (!existing) return res.status(404).json({ error: 'Bot no encontrado' });
+        dbDeleteBot(req.params.id);
         app._botScheduler?.unregister(req.params.id);
         removeBotSchedule(req.params.id);
         res.json({ ok: true });
@@ -299,7 +270,7 @@ module.exports = function registerBotRoutes(app) {
     // GET /admin/bots/:id/logs
     app.get('/admin/bots/:id/logs', (req, res) => {
         if (!checkAdmin(req, res)) return;
-        const bot = loadBots().find(b => b.id === req.params.id);
+        const bot = dbLoadBots().find(b => b.id === req.params.id);
         if (!bot) return res.status(404).json({ error: 'Bot no encontrado' });
         res.json(bot.logs || []);
     });
@@ -307,7 +278,7 @@ module.exports = function registerBotRoutes(app) {
     // GET /admin/bots/:id/schedule — upcoming entries
     app.get('/admin/bots/:id/schedule', (req, res) => {
         if (!checkAdmin(req, res)) return;
-        const bot = loadBots().find(b => b.id === req.params.id);
+        const bot = dbLoadBots().find(b => b.id === req.params.id);
         if (!bot) return res.status(404).json({ error: 'Bot no encontrado' });
         const limit = Math.min(parseInt(req.query.limit || 50), 100);
         const entries = getUpcomingEntries(req.params.id, limit);
@@ -317,7 +288,7 @@ module.exports = function registerBotRoutes(app) {
     // POST /admin/bots/:id/regenerate — regenerate schedule for a bot
     app.post('/admin/bots/:id/regenerate', (req, res) => {
         if (!checkAdmin(req, res)) return;
-        const bots = loadBots();
+        const bots = dbLoadBots();
         const bot  = bots.find(b => b.id === req.params.id);
         if (!bot) return res.status(404).json({ error: 'Bot no encontrado' });
         if (bot.scheduleMode !== 'human-random') {
@@ -327,13 +298,8 @@ module.exports = function registerBotRoutes(app) {
         const botIndex = allHumanBots.findIndex(b => b.id === bot.id);
         const now = new Date();
         const endDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 2, 0));
-        const count = regenerateBotSchedule(
-            bot.id,
-            bot.postsPerDayWeekday || 2,
-            bot.postsPerDayWeekend || 3,
-            botIndex >= 0 ? botIndex : 0,
-            endDate
-        );
+        const count = regenerateBotSchedule(bot.id, bot.postsPerDayWeekday || 2, bot.postsPerDayWeekend || 3,
+            botIndex >= 0 ? botIndex : 0, endDate);
         res.json({ ok: true, scheduled: count });
     });
 
@@ -343,7 +309,7 @@ module.exports = function registerBotRoutes(app) {
         const limit      = Math.min(parseInt(req.query.limit  || 200), 500);
         const onlyFired  = req.query.fired === 'true';
         const onlyPending = req.query.pending === 'true';
-        const bots       = loadBots();
+        const bots       = dbLoadBots();
         const botMap     = Object.fromEntries(bots.map(b => [b.id, { displayName: b.displayName || b.name, direction: b.direction, enabled: b.enabled }]));
         const { loadSchedule } = require('../bot_schedule.cjs');
         let entries = loadSchedule().map(e => ({
@@ -367,32 +333,22 @@ module.exports = function registerBotRoutes(app) {
         if (!checkAdmin(req, res)) return;
         const limit  = Math.min(parseInt(req.query.limit  || 50), 200);
         const offset = parseInt(req.query.offset || 0);
-        const posts  = loadFeed();
-        res.json({ posts: posts.slice(offset, offset + limit), total: posts.length });
+        const posts  = dbLoadFeed(limit, offset);
+        res.json({ posts, total: posts.length });
     });
 
     // PATCH /admin/posts/:id — edit post
     app.patch('/admin/posts/:id', (req, res) => {
         if (!checkAdmin(req, res)) return;
-        const posts = loadFeed();
-        const idx   = posts.findIndex(p => p.id === req.params.id);
-        if (idx === -1) return res.status(404).json({ error: 'Post no encontrado' });
-
-        const allowed = ['title', 'body', 'tags', 'author', 'level', 'lang'];
-        for (const key of allowed) {
-            if (req.body[key] !== undefined) posts[idx][key] = req.body[key];
-        }
-        saveFeed(posts);
-        res.json(posts[idx]);
+        const updated = dbPatchPost(req.params.id, req.body);
+        if (!updated) return res.status(404).json({ error: 'Post no encontrado' });
+        res.json(updated);
     });
 
     // DELETE /admin/posts/:id — remove post
     app.delete('/admin/posts/:id', (req, res) => {
         if (!checkAdmin(req, res)) return;
-        const posts    = loadFeed();
-        const filtered = posts.filter(p => p.id !== req.params.id);
-        if (filtered.length === posts.length) return res.status(404).json({ error: 'Post no encontrado' });
-        saveFeed(filtered);
+        dbDeletePost(req.params.id);
         res.json({ ok: true });
     });
 

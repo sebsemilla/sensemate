@@ -723,6 +723,138 @@ function getUserByUsername(username) {
     return row || null;
 }
 
+// ── Bots (SQLite persistence — survives redeploys) ────────────────────────────
+
+db.exec(`
+  CREATE TABLE IF NOT EXISTS bots (
+    id TEXT PRIMARY KEY,
+    name TEXT,
+    displayName TEXT,
+    direction TEXT,
+    avatarUrl TEXT,
+    prompt TEXT,
+    target TEXT DEFAULT 'livefeed',
+    schemaType TEXT DEFAULT 'Article',
+    quantity INTEGER DEFAULT 1,
+    model TEXT DEFAULT 'deepseek-chat',
+    schedule TEXT,
+    scheduleMode TEXT,
+    postsPerDayWeekday INTEGER DEFAULT 2,
+    postsPerDayWeekend INTEGER DEFAULT 3,
+    enabled INTEGER DEFAULT 1,
+    lastRun INTEGER,
+    runCount INTEGER DEFAULT 0,
+    logs TEXT DEFAULT '[]',
+    created_at TEXT DEFAULT (datetime('now'))
+  );
+  CREATE TABLE IF NOT EXISTS feed_posts (
+    id TEXT PRIMARY KEY,
+    botId TEXT,
+    author TEXT,
+    avatar TEXT,
+    emoji TEXT,
+    title TEXT,
+    body TEXT,
+    intro TEXT,
+    highlight TEXT,
+    example TEXT,
+    tip TEXT,
+    tags TEXT DEFAULT '[]',
+    level TEXT,
+    lang TEXT DEFAULT 'es',
+    teacher TEXT,
+    live INTEGER DEFAULT 0,
+    ts INTEGER,
+    likes INTEGER DEFAULT 0,
+    comments INTEGER DEFAULT 0,
+    schema TEXT
+  );
+`);
+
+function _botRow(b) {
+    return { ...b, enabled: b.enabled === 1, logs: JSON.parse(b.logs || '[]') };
+}
+function _postRow(p) {
+    return { ...p, live: p.live === 1, tags: JSON.parse(p.tags || '[]'), schema: p.schema ? JSON.parse(p.schema) : null };
+}
+
+const _upsertBot = db.prepare(`INSERT INTO bots
+  (id,name,displayName,direction,avatarUrl,prompt,target,schemaType,quantity,model,
+   schedule,scheduleMode,postsPerDayWeekday,postsPerDayWeekend,enabled,lastRun,runCount,logs,created_at)
+  VALUES (@id,@name,@displayName,@direction,@avatarUrl,@prompt,@target,@schemaType,@quantity,@model,
+          @schedule,@scheduleMode,@postsPerDayWeekday,@postsPerDayWeekend,@enabled,@lastRun,@runCount,@logs,@created_at)
+  ON CONFLICT(id) DO UPDATE SET
+    name=excluded.name, displayName=excluded.displayName, direction=excluded.direction,
+    avatarUrl=excluded.avatarUrl, prompt=excluded.prompt, target=excluded.target,
+    schemaType=excluded.schemaType, quantity=excluded.quantity, model=excluded.model,
+    schedule=excluded.schedule, scheduleMode=excluded.scheduleMode,
+    postsPerDayWeekday=excluded.postsPerDayWeekday, postsPerDayWeekend=excluded.postsPerDayWeekend,
+    enabled=excluded.enabled, lastRun=excluded.lastRun, runCount=excluded.runCount, logs=excluded.logs`);
+
+const _upsertBotTx = db.transaction((bots) => {
+    bots.forEach(b => _upsertBot.run({
+        id: b.id, name: b.name || null, displayName: b.displayName || null,
+        direction: b.direction || null, avatarUrl: b.avatarUrl || null,
+        prompt: b.prompt || null, target: b.target || 'livefeed',
+        schemaType: b.schemaType || 'Article', quantity: b.quantity || 1,
+        model: b.model || 'deepseek-chat', schedule: b.schedule || null,
+        scheduleMode: b.scheduleMode || null,
+        postsPerDayWeekday: b.postsPerDayWeekday || 2,
+        postsPerDayWeekend: b.postsPerDayWeekend || 3,
+        enabled: b.enabled ? 1 : 0,
+        lastRun: b.lastRun || null, runCount: b.runCount || 0,
+        logs: JSON.stringify(b.logs || []),
+        created_at: b.created_at || new Date().toISOString()
+    }));
+});
+
+function dbLoadBots() {
+    return db.prepare('SELECT * FROM bots ORDER BY created_at ASC').all().map(_botRow);
+}
+function dbSaveBots(bots) { _upsertBotTx(bots); }
+function dbPatchBot(id, fields) {
+    const row = db.prepare('SELECT * FROM bots WHERE id = ?').get(id);
+    if (!row) return null;
+    const merged = { ..._botRow(row), ...fields };
+    _upsertBotTx([merged]);
+    return _botRow(db.prepare('SELECT * FROM bots WHERE id = ?').get(id));
+}
+function dbDeleteBot(id) { db.prepare('DELETE FROM bots WHERE id = ?').run(id); }
+
+const _upsertPost = db.prepare(`INSERT OR REPLACE INTO feed_posts
+  (id,botId,author,avatar,emoji,title,body,intro,highlight,example,tip,tags,level,lang,teacher,live,ts,likes,comments,schema)
+  VALUES (@id,@botId,@author,@avatar,@emoji,@title,@body,@intro,@highlight,@example,@tip,@tags,@level,@lang,@teacher,@live,@ts,@likes,@comments,@schema)`);
+
+const _upsertPostTx = db.transaction((posts) => {
+    posts.forEach(p => _upsertPost.run({
+        id: p.id, botId: p.botId || null, author: p.author || null,
+        avatar: p.avatar || null, emoji: p.emoji || null,
+        title: p.title || null, body: p.body || null,
+        intro: p.intro || null, highlight: p.highlight || null,
+        example: p.example || null, tip: p.tip || null,
+        tags: JSON.stringify(p.tags || []),
+        level: p.level || null, lang: p.lang || 'es',
+        teacher: p.teacher || null, live: p.live ? 1 : 0,
+        ts: p.ts || Date.now(), likes: p.likes || 0, comments: p.comments || 0,
+        schema: p.schema ? JSON.stringify(p.schema) : null
+    }));
+});
+
+function dbLoadFeed(limit = 50, offset = 0) {
+    return db.prepare('SELECT * FROM feed_posts ORDER BY ts DESC LIMIT ? OFFSET ?').all(limit, offset).map(_postRow);
+}
+function dbSavePosts(posts) { _upsertPostTx(posts); }
+function dbPatchPost(id, fields) {
+    const row = db.prepare('SELECT * FROM feed_posts WHERE id = ?').get(id);
+    if (!row) return null;
+    const allowed = ['title','body','intro','highlight','example','tip','tags','author','level','lang'];
+    const merged = _postRow(row);
+    allowed.forEach(k => { if (fields[k] !== undefined) merged[k] = fields[k]; });
+    _upsertPostTx([merged]);
+    return _postRow(db.prepare('SELECT * FROM feed_posts WHERE id = ?').get(id));
+}
+function dbDeletePost(id) { db.prepare('DELETE FROM feed_posts WHERE id = ?').run(id); }
+
 module.exports = {
     register, login, loginWithGoogle, verifyToken, optionalAuth, signToken, getUserById, setUserPlan, setClassroomAddon,
     setAuthCookie, clearAuthCookie,
@@ -738,4 +870,7 @@ module.exports = {
     getUserNotifications, markNotifRead, getUnreadCount, createNotification,
     rateTeacher, getUserByUsername,
     createAnnouncement, getAnnouncements, deleteAnnouncement,
+    // Bots + Feed (SQLite)
+    dbLoadBots, dbSaveBots, dbPatchBot, dbDeleteBot,
+    dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost,
 };

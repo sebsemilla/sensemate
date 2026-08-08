@@ -2991,6 +2991,7 @@ function _buildPostsHtml(posts) {
     if (!posts.length) return '<div class="livefeed-empty">📭 No hay publicaciones recientes aún.</div>';
     const showAds = _shouldShowAds();
     return posts.map((p, i) => {
+        const tags = Array.isArray(p.tags) ? p.tags : [];
         const postHtml = `
         <div class="livefeed-post">
             <div class="livefeed-post-header">
@@ -2999,9 +3000,16 @@ function _buildPostsHtml(posts) {
                     <div class="livefeed-post-author">${_escHtml(p.author)}</div>
                     <div class="livefeed-post-time">${_timeAgo(p.ts)}</div>
                 </div>
-                ${p.live ? '<span class="livefeed-post-badge live">🔴 EN VIVO</span>' : '<span class="livefeed-post-badge">Nuevo</span>'}
+                ${p.live ? '<span class="livefeed-post-badge live">🔴 EN VIVO</span>' : ''}
+                ${p.level ? `<span class="livefeed-post-level">${_escHtml(p.level)}</span>` : ''}
             </div>
-            <div class="livefeed-post-body">${_escHtml(p.body)}</div>
+            ${p.title ? `<div class="livefeed-post-title">${_escHtml(p.title)}</div>` : ''}
+            ${p.intro ? `<div class="lf-post-intro">${_escHtml(p.intro)}</div>` : ''}
+            <div class="lf-post-body">${_escHtml(p.body)}</div>
+            ${p.highlight ? `<div class="lf-post-highlight"><span class="lf-hl-icon">⭐</span><span>${_escHtml(p.highlight)}</span></div>` : ''}
+            ${p.example ? `<div class="lf-post-example"><span class="lf-ex-icon">💬</span><em>${_escHtml(p.example)}</em></div>` : ''}
+            ${p.tip ? `<div class="lf-post-tip"><span class="lf-tip-icon">💡</span><span>${_escHtml(p.tip)}</span></div>` : ''}
+            ${tags.length ? `<div class="lf-post-tags">${tags.map(t => `<span class="lf-tag">#${_escHtml(t)}</span>`).join('')}</div>` : ''}
             <div class="livefeed-post-actions">
                 <button class="livefeed-action-btn">👍 ${p.likes || 0}</button>
                 <button class="livefeed-action-btn">💬 ${p.comments || 0}</button>
