@@ -4884,7 +4884,10 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
 
 .imm-sub-mode-wrap {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 0.4rem;
+  align-items: center;
 }
 .imm-sub-mode-wrap .imm-lang-picker {
   max-width: 100%;
@@ -5165,6 +5168,77 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
   transition: border-color 0.15s, color 0.15s;
 }
 .imm-sub-edit-open-btn:hover { border-color: #f59e0b; color: #d97706; }
+
+/* ── Botón "Editar subtítulo" inline (junto al selector de idioma) ── */
+.imm-sub-edit-inline-btn {
+  padding: 0.35rem 0.8rem;
+  border: 1.5px solid var(--border, #e2e8f0);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--text-muted, #64748b);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.imm-sub-edit-inline-btn:hover,
+.imm-sub-edit-inline-btn--active { border-color: #f59e0b; color: #d97706; background: rgba(245,158,11,.08); }
+
+/* ── Editor inline de tiempos ── */
+.imm-sub-inline-editor {
+  margin-top: 0.5rem;
+  border: 1.5px solid var(--border, #e2e8f0);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.imm-sed-time-group {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+.imm-sed-time-group:last-child { margin-bottom: 0; }
+.imm-sed-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-muted, #64748b);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  min-width: 2.6rem;
+}
+.imm-sed-time-input {
+  width: 5.5rem;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+  background: var(--input-bg, #f8fafc);
+  color: var(--text, #1e293b);
+  font-size: 0.78rem;
+  font-family: monospace;
+  text-align: right;
+}
+.imm-sed-time-input:focus { outline: none; border-color: #6366f1; background: rgba(99,102,241,.04); }
+.imm-sed-set-btn {
+  padding: 0.18rem 0.55rem;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+  background: var(--card-bg, #f8fafc);
+  color: var(--text-muted, #64748b);
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.12s;
+}
+.imm-sed-set-start:hover { border-color: #10b981; color: #059669; background: rgba(16,185,129,.08); }
+.imm-sed-set-end:hover   { border-color: #f59e0b; color: #d97706; background: rgba(245,158,11,.08); }
+
+/* dark mode inline editor */
+.dark-mode .imm-sub-inline-editor { border-color: rgba(255,255,255,.1); }
+.dark-mode .imm-sed-time-input { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.12); color: #e2e8f0; }
+.dark-mode .imm-sed-set-btn { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.1); color: #94a3b8; }
+.dark-mode .imm-sub-edit-inline-btn { border-color: rgba(255,255,255,.1); color: #94a3b8; }
 
 /* ── Panel editor de subtítulos ── */
 .imm-sub-editor-panel {

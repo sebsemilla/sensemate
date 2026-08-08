@@ -633,11 +633,11 @@ function _loadStudyArea(container, content) {
       <!-- ── Timeline + controles para video HTML5/YouTube (colapsado por defecto:
            el reproductor nativo ya cubre play/pausa/seek) ── -->
       ` : `
-        <div class="imm-player-collapse imm-player-collapse--closed">
+        <div class="imm-player-collapse">
           <button class="imm-player-toggle" id="immPlayerToggle">
-            🎚️ Controles avanzados (velocidad, marcadores) <span class="imm-player-toggle-arrow">▸</span>
+            🎚️ Controles avanzados (velocidad, marcadores) <span class="imm-player-toggle-arrow">▾</span>
           </button>
-          <div class="imm-player-collapse-body hidden" id="immPlayerCollapseBody">
+          <div class="imm-player-collapse-body" id="immPlayerCollapseBody">
             <div class="imm-player">
               <div class="imm-progress-wrap">
                 <div class="imm-progress-bar imm-progress-bar--video" id="immProgressBar">
@@ -665,7 +665,7 @@ function _loadStudyArea(container, content) {
         </div>
       `}
 
-      <!-- ── Selectores de subtítulos: original + traducción, independientes ── -->
+      <!-- ── Selectores de subtítulos: original + traducción + botón editar ── -->
       <div class="imm-sub-mode-wrap">
         <select class="imm-lang-picker" id="immSubOrigSelect" title="Subtítulo original">
           <option value="show" ${_immShowOrig ? 'selected' : ''}>💬 Mostrar ${origLangName}</option>
@@ -676,6 +676,9 @@ function _loadStudyArea(container, content) {
           <option value="hide" ${!_immShowTrans ? 'selected' : ''}>🚫 Sin traducción</option>
           <option value="show" ${_immShowTrans ? 'selected' : ''}>🌐 + ${transLangName}</option>
         </select>` : ''}
+        ${(content._user || content._pinned) && content.dialogue?.length ? `
+        <button class="imm-sub-edit-inline-btn" id="immSubEditInlineBtn">✂️ Editar subtítulo</button>
+        ` : ''}
       </div>
 
       <!-- ── Stage de subtítulos con efecto degradé ── -->
@@ -689,6 +692,34 @@ function _loadStudyArea(container, content) {
       <div class="imm-word-hint">
         💡 Tocá cualquier palabra del subtítulo central para guardarla como flashcard
       </div>
+
+      <!-- ── Editor inline de tiempos de subtítulo ── -->
+      ${(content._user || content._pinned) && content.dialogue?.length ? `
+      <div class="imm-sub-inline-editor hidden" id="immSubInlineEditor">
+        <div class="imm-sed-list" id="immSedInlineList">
+          ${content.dialogue.map((d, i) => `
+          <div class="imm-sed-row" data-i="${i}">
+            <div class="imm-sed-times">
+              <div class="imm-sed-time-group">
+                <span class="imm-sed-label">Inicio</span>
+                <input type="number" class="imm-sed-time-input" id="immSedStart${i}" data-i="${i}" value="${d.start}" step="0.01" min="0">
+                <button class="imm-sed-set-btn imm-sed-set-start" data-i="${i}">Set</button>
+              </div>
+              <div class="imm-sed-time-group">
+                <span class="imm-sed-label">Fin</span>
+                <input type="number" class="imm-sed-time-input" id="immSedEnd${i}" data-i="${i}" value="${d.end}" step="0.01" min="0">
+                <button class="imm-sed-set-btn imm-sed-set-end" data-i="${i}">Set</button>
+              </div>
+            </div>
+            <span class="imm-sed-text">${_esc(d.original)}</span>
+          </div>
+          `).join('')}
+        </div>
+        <div class="imm-sed-toolbar">
+          <button class="imm-sed-btn imm-sed-btn--save" id="immSedInlineSave">💾 Guardar</button>
+        </div>
+      </div>
+      ` : ''}
 
       <!-- ── Marcadores (colapsable) ── -->
       <details class="imm-bm-details">
@@ -709,12 +740,6 @@ function _loadStudyArea(container, content) {
           <span id="immPlayerSrtLabel">0 / ${content.dialogue.length}</span>
         </div>
       </div>` : ''}
-
-      ${(content._user || content._pinned) && content.dialogue?.length ? `
-      <!-- ── Editor de subtítulos ── -->
-      <button class="imm-sub-edit-open-btn" id="immSubEditOpenBtn">✂️ Editar subtítulos</button>
-      <div class="imm-sub-editor-panel hidden" id="immSubEditorPanel"></div>
-      ` : ''}
 
       ${content._user || content._pinned ? `
       <!-- ── Editar contenido ── -->
@@ -853,14 +878,58 @@ function _loadStudyArea(container, content) {
   document.getElementById('saEditBtn')?.addEventListener('click', _openEdit);
   document.getElementById('saEditContentBtn')?.addEventListener('click', _openEdit);
 
-  // Editor de subtítulos
-  document.getElementById('immSubEditOpenBtn')?.addEventListener('click', () => {
-    const panel = document.getElementById('immSubEditorPanel');
-    if (!panel) return;
-    const isOpen = !panel.classList.contains('hidden');
-    if (isOpen) { panel.classList.add('hidden'); return; }
-    panel.classList.remove('hidden');
-    _renderSubtitleEditor(content, panel);
+  // Editor inline de subtítulos
+  document.getElementById('immSubEditInlineBtn')?.addEventListener('click', () => {
+    const editor = document.getElementById('immSubInlineEditor');
+    const btn    = document.getElementById('immSubEditInlineBtn');
+    if (!editor) return;
+    const opening = editor.classList.toggle('hidden') === false;
+    if (btn) btn.classList.toggle('imm-sub-edit-inline-btn--active', opening);
+  });
+
+  document.querySelectorAll('.imm-sed-set-start').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const i = btn.dataset.i;
+      const t = _immMedia ? parseFloat((_immMedia.currentTime || 0).toFixed(2))
+              : (_immYtPlayer ? parseFloat((_immYtPlayer.getCurrentTime?.() || 0).toFixed(2)) : 0);
+      const input = document.getElementById(`immSedStart${i}`);
+      if (input) input.value = t;
+    });
+  });
+
+  document.querySelectorAll('.imm-sed-set-end').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const i = btn.dataset.i;
+      const t = _immMedia ? parseFloat((_immMedia.currentTime || 0).toFixed(2))
+              : (_immYtPlayer ? parseFloat((_immYtPlayer.getCurrentTime?.() || 0).toFixed(2)) : 0);
+      const input = document.getElementById(`immSedEnd${i}`);
+      if (input) input.value = t;
+    });
+  });
+
+  document.getElementById('immSedInlineSave')?.addEventListener('click', () => {
+    const rows = content.dialogue.map((d, i) => {
+      const s = document.getElementById(`immSedStart${i}`);
+      const e = document.getElementById(`immSedEnd${i}`);
+      return { ...d,
+        start: s ? parseFloat(s.value) || d.start : d.start,
+        end:   e ? parseFloat(e.value) || d.end   : d.end
+      };
+    });
+    content.dialogue = rows;
+    if (content._user) {
+      const list = _getUserImmContent().map(c => c.id === content.id ? { ...c, dialogue: rows } : c);
+      localStorage.setItem(_USER_IMM_KEY, JSON.stringify(list));
+    } else if (content._pinned) {
+      const list = _getPinnedImmContent().map(c => c.id === content.id ? { ...c, dialogue: rows } : c);
+      localStorage.setItem(_PINNED_IMM_KEY, JSON.stringify(list));
+    }
+    const saveBtn = document.getElementById('immSedInlineSave');
+    saveBtn.textContent = '✅ Guardado';
+    saveBtn.disabled = true;
+    setTimeout(() => { saveBtn.textContent = '💾 Guardar'; saveBtn.disabled = false; }, 2000);
+    _immGroups  = _groupDialogue(rows);
+    _immLineIdx = -2;
   });
 
   // Fijar como curated (solo admin)
