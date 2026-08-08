@@ -266,9 +266,7 @@ async function _clRenderTeacherPanel(user) {
             </div>
 
             <div class="cl-tabs" id="clTabs">
-                <button class="cl-tab active" data-tab="class">📋 Mi Clase</button>
-                <button class="cl-tab" data-tab="messages">💬 Mensajes</button>
-                <button class="cl-tab" data-tab="students">👥 Alumnos</button>
+                <button class="cl-tab active" data-tab="class">📋 Mis Clases</button>
                 <button class="cl-tab" data-tab="profile">⚙️ Mi Perfil</button>
             </div>
 
@@ -287,10 +285,8 @@ async function _clRenderTeacherPanel(user) {
             document.querySelectorAll('.cl-tab').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             const tab = btn.dataset.tab;
-            if      (tab === 'class')    await _clTeacherClassTab(user, _activeClass, c => { _activeClass = c; });
-            else if (tab === 'messages') await _clTeacherMessagesTab(user, _activeClass);
-            else if (tab === 'students') await _clTeacherStudentsTab(user, _activeClass);
-            else if (tab === 'profile')  await _clTeacherProfileTab(user);
+            if      (tab === 'class')   await _clTeacherClassTab(user, _activeClass, c => { _activeClass = c; });
+            else if (tab === 'profile') await _clTeacherProfileTab(user);
         });
     });
 
@@ -346,18 +342,22 @@ async function _clTeacherClassTab(user, _activeClass, setActive) {
     `;
 
     document.querySelectorAll('.cl-class-card').forEach(card => {
-        card.addEventListener('click', async () => {
-            const clsId = card.dataset.classId;
-            const cls   = classes.find(c => c.id === clsId);
-            setActive(cls);
-            document.querySelectorAll('.cl-class-card').forEach(c => c.classList.remove('selected'));
-            card.classList.add('selected');
+        card.addEventListener('click', () => {
+            const cls = classes.find(c => c.id === card.dataset.classId);
+            if (cls) _clOpenClassDetail(user, cls);
         });
     });
 
-    document.getElementById('clCreateClassBtn').addEventListener('click', () => _clShowCreateClassModal(user, async () => {
-        await _clTeacherClassTab(user, null, setActive);
-    }));
+    document.getElementById('clCreateClassBtn').addEventListener('click', () =>
+        _clShowCreateClassModal(user, async () => {
+            // Reload classes and open the newest one
+            const r2    = await _authFetch(`${_API_HOST}/classroom/classes`);
+            const data2 = await r2.json();
+            const newest = (data2.classes || []).sort((a, b) => b.id.localeCompare(a.id))[0];
+            if (newest) _clOpenClassDetail(user, newest);
+            else await _clTeacherClassTab(user, null, setActive);
+        })
+    );
 
     document.querySelectorAll('.cl-accept-btn').forEach(btn => {
         btn.addEventListener('click', async () => {
@@ -375,6 +375,246 @@ async function _clTeacherClassTab(user, _activeClass, setActive) {
             await _clTeacherClassTab(user, _activeClass, setActive);
         });
     });
+}
+
+// ═══════════════════════════════════════════════════════════════
+// CLASS DETAIL VIEW
+// ═══════════════════════════════════════════════════════════════
+
+function _clOpenClassDetail(user, cls) {
+    const wrap = document.getElementById('clWrap');
+    if (!wrap) return;
+
+    // Replace the full clWrap content with the detail view
+    wrap.innerHTML = `
+        <div class="cl-header">
+            <button class="school-back-btn" id="clDetailBack">← Mis Clases</button>
+            <h2 class="cl-title cl-detail-title">
+                🏫 <span>${escapeHtml(cls.name)}</span>
+                <span class="cl-lang-chip" style="font-size:.75rem;font-weight:500">${_CL_LANG_NAMES[cls.target_lang] || cls.target_lang || ''}</span>
+            </h2>
+        </div>
+        <div class="cl-tabs" id="clDetailTabs">
+            <button class="cl-tab active" data-dtab="messages">💬 Mensajes</button>
+            <button class="cl-tab" data-dtab="students">👥 Alumnos</button>
+            <button class="cl-tab" data-dtab="calendar">📅 Calendario</button>
+        </div>
+        <div class="cl-tab-content" id="clDetailContent">
+            <div class="cl-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>
+        </div>
+    `;
+
+    document.getElementById('clDetailBack').addEventListener('click', () => _clRenderTeacherPanel(user));
+
+    const switchTab = (tab) => {
+        wrap.querySelectorAll('.cl-tab[data-dtab]').forEach(b => b.classList.toggle('active', b.dataset.dtab === tab));
+        const content = document.getElementById('clDetailContent');
+        if      (tab === 'messages') _clDetailMessagesTab(user, cls, content);
+        else if (tab === 'students') _clDetailStudentsTab(user, cls, content);
+        else if (tab === 'calendar') _clDetailCalendarTab(user, cls, content);
+    };
+
+    wrap.querySelectorAll('.cl-tab[data-dtab]').forEach(btn => {
+        btn.addEventListener('click', () => switchTab(btn.dataset.dtab));
+    });
+
+    // Start on messages tab
+    switchTab('messages');
+}
+
+async function _clDetailMessagesTab(user, cls, content) {
+    // Reuse existing chat UI — teacher view, no class selector needed
+    _clRenderChatUI(content, user, cls, [], true);
+    // Inject "Mensaje Grupal" button above the chat
+    const chatWrap = content.querySelector('.cl-chat-wrap');
+    if (chatWrap) {
+        const msgBtn = document.createElement('button');
+        msgBtn.className = 'cl-group-msg-btn';
+        msgBtn.textContent = '📣 Mensaje Grupal';
+        msgBtn.addEventListener('click', () => _clShowGroupMessageModal(user, cls));
+        chatWrap.prepend(msgBtn);
+    }
+}
+
+function _clShowGroupMessageModal(user, cls) {
+    const overlay = document.createElement('div');
+    overlay.className = 'cl-modal-overlay';
+    overlay.innerHTML = `
+        <div class="cl-modal">
+            <button class="cl-modal-close" id="clGrpClose">×</button>
+            <h3>📣 Mensaje para toda la clase</h3>
+            <p class="cl-muted" style="font-size:.83rem;margin-bottom:.75rem">El mensaje se enviará al chat grupal de <strong>${escapeHtml(cls.name)}</strong> y quedará visible para todos los alumnos.</p>
+            <label class="cl-label">Mensaje</label>
+            <textarea class="cl-textarea" id="clGrpBody" rows="4" placeholder="Escribí el mensaje para todos…"></textarea>
+            <div class="cl-error hidden" id="clGrpErr"></div>
+            <button class="cl-save-btn" id="clGrpSend">Enviar a todo el grupo</button>
+        </div>`;
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+    document.getElementById('clGrpClose').addEventListener('click', () => overlay.remove());
+    document.getElementById('clGrpSend').addEventListener('click', async () => {
+        const body  = document.getElementById('clGrpBody').value.trim();
+        const errEl = document.getElementById('clGrpErr');
+        if (!body) { errEl.textContent = 'Escribí un mensaje.'; errEl.classList.remove('hidden'); return; }
+        const r   = await _authFetch(`${_API_HOST}/classroom/messages/${cls.id}`, {
+            method: 'POST', body: JSON.stringify({ content: body })
+        });
+        const res = await r.json();
+        if (res.ok) {
+            overlay.remove();
+            // Refresh chat if visible
+            const content = document.getElementById('clDetailContent');
+            if (content) _clDetailMessagesTab(user, cls, content);
+        } else {
+            errEl.textContent = res.error || 'Error al enviar.'; errEl.classList.remove('hidden');
+        }
+    });
+}
+
+async function _clDetailStudentsTab(user, cls, content) {
+    content.innerHTML = `<div class="cl-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>`;
+    // Reload fresh class data to get current students
+    let freshCls = cls;
+    try {
+        const r    = await _authFetch(`${_API_HOST}/classroom/classes`);
+        const data = await r.json();
+        freshCls   = (data.classes || []).find(c => c.id === cls.id) || cls;
+    } catch {}
+
+    content.innerHTML = `
+        <div class="cl-add-student-row">
+            <input class="cl-input" id="clDetailAddInput" placeholder="@usuario del alumno" autocomplete="off">
+            <button class="cl-add-btn-sm" id="clDetailAddBtn">＋ Agregar</button>
+        </div>
+        <div class="cl-error hidden" id="clDetailAddErr"></div>
+        <div class="cl-students-list" id="clDetailStudentsList">
+            ${_clRenderStudentsList(freshCls)}
+        </div>`;
+
+    document.getElementById('clDetailAddBtn').addEventListener('click', async () => {
+        const username = document.getElementById('clDetailAddInput').value.trim();
+        const errEl    = document.getElementById('clDetailAddErr');
+        if (!username) return;
+        const r   = await _authFetch(`${_API_HOST}/classroom/classes/${cls.id}/students`, {
+            method: 'POST', body: JSON.stringify({ username })
+        });
+        const res = await r.json();
+        if (!res.ok) { errEl.textContent = res.error; errEl.classList.remove('hidden'); return; }
+        errEl.classList.add('hidden');
+        document.getElementById('clDetailAddInput').value = '';
+        _clDetailStudentsTab(user, cls, content);
+    });
+
+    // Bind remove buttons
+    content.querySelectorAll('.cl-remove-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            if (!confirm('¿Querés quitar a este alumno de la clase?')) return;
+            await _authFetch(`${_API_HOST}/classroom/classes/${btn.dataset.class}/students/${btn.dataset.student}`, { method: 'DELETE' });
+            _clDetailStudentsTab(user, cls, content);
+        });
+    });
+}
+
+async function _clDetailCalendarTab(user, cls, content, isTeacher = true) {
+    content.innerHTML = `<div class="cl-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>`;
+    let announcements = [];
+    try {
+        const r = await _authFetch(`${_API_HOST}/classroom/classes/${cls.id}/announcements`);
+        const d = await r.json();
+        announcements = d.announcements || [];
+    } catch {}
+
+    const now = new Date();
+
+    const _renderAnn = () => {
+        const listEl = document.getElementById('clAnnList');
+        if (!listEl) return;
+        if (!announcements.length) {
+            listEl.innerHTML = '<p class="cl-muted">No hay avisos todavía.' + (isTeacher ? ' Creá el primero.' : '') + '</p>';
+            return;
+        }
+        listEl.innerHTML = announcements.map(a => {
+            const isPending = !a.due_date || new Date(a.due_date) > now;
+            const dueFmt    = a.due_date ? new Date(a.due_date).toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires', dateStyle: 'short', timeStyle: 'short' }) : null;
+            return `
+            <div class="cl-ann-card">
+                <div class="cl-ann-head">
+                    <span class="cl-ann-status-btn ${isPending ? 'cl-ann-pending' : 'cl-ann-expired'}" title="${isPending ? 'Pendiente' : 'Vencido'}"></span>
+                    <span class="cl-ann-title">${escapeHtml(a.title)}</span>
+                    ${isTeacher ? `<button class="cl-ann-del" data-id="${a.id}" title="Eliminar">✕</button>` : ''}
+                </div>
+                ${a.body ? `<p class="cl-ann-body">${escapeHtml(a.body)}</p>` : ''}
+                ${dueFmt ? `<span class="cl-ann-due">📅 Vence: ${dueFmt}</span>` : ''}
+            </div>`;
+        }).join('');
+
+        if (isTeacher) {
+            listEl.querySelectorAll('.cl-ann-del').forEach(btn => {
+                btn.addEventListener('click', async () => {
+                    if (!confirm('¿Eliminar este aviso?')) return;
+                    await _authFetch(`${_API_HOST}/classroom/classes/${cls.id}/announcements/${btn.dataset.id}`, { method: 'DELETE' });
+                    announcements = announcements.filter(a => a.id !== btn.dataset.id);
+                    _renderAnn();
+                });
+            });
+        }
+    };
+
+    content.innerHTML = `
+        ${isTeacher ? `<button class="cl-add-btn" id="clAnnNewBtn">➕ Nuevo aviso</button>
+
+        <div class="cl-ann-form hidden" id="clAnnForm">
+            <label class="cl-label">Título *</label>
+            <input class="cl-input" id="clAnnTitle" placeholder="Ej: Entrega de tarea — Unidad 3">
+            <label class="cl-label">Descripción</label>
+            <textarea class="cl-textarea" id="clAnnBody" rows="3" placeholder="Detallá el aviso o la tarea…"></textarea>
+            <label class="cl-label">Fecha límite <span class="cl-optional-hint">(opcional)</span></label>
+            <input class="cl-input" type="datetime-local" id="clAnnDue">
+            <div class="cl-error hidden" id="clAnnErr"></div>
+            <div class="cl-form-row">
+                <button class="cl-save-btn" id="clAnnSave">Publicar aviso</button>
+                <button class="cl-cancel-btn" id="clAnnCancel">Cancelar</button>
+            </div>
+        </div>` : ''}
+
+        <div id="clAnnList"></div>
+    `;
+
+    _renderAnn();
+
+    if (isTeacher) {
+        document.getElementById('clAnnNewBtn').addEventListener('click', () => {
+            document.getElementById('clAnnForm').classList.remove('hidden');
+            document.getElementById('clAnnNewBtn').classList.add('hidden');
+        });
+        document.getElementById('clAnnCancel').addEventListener('click', () => {
+            document.getElementById('clAnnForm').classList.add('hidden');
+            document.getElementById('clAnnNewBtn').classList.remove('hidden');
+        });
+        document.getElementById('clAnnSave').addEventListener('click', async () => {
+            const title = document.getElementById('clAnnTitle').value.trim();
+            const body  = document.getElementById('clAnnBody').value.trim();
+            const due   = document.getElementById('clAnnDue').value;
+            const errEl = document.getElementById('clAnnErr');
+            if (!title) { errEl.textContent = 'El título es obligatorio.'; errEl.classList.remove('hidden'); return; }
+            const r   = await _authFetch(`${_API_HOST}/classroom/classes/${cls.id}/announcements`, {
+                method: 'POST', body: JSON.stringify({ title, body, dueDate: due || null })
+            });
+            const res = await r.json();
+            if (res.ok) {
+                announcements.unshift(res.announcement);
+                document.getElementById('clAnnTitle').value = '';
+                document.getElementById('clAnnBody').value  = '';
+                document.getElementById('clAnnDue').value   = '';
+                errEl.classList.add('hidden');
+                document.getElementById('clAnnForm').classList.add('hidden');
+                document.getElementById('clAnnNewBtn').classList.remove('hidden');
+                _renderAnn();
+            } else {
+                errEl.textContent = res.error || 'Error al guardar.'; errEl.classList.remove('hidden');
+            }
+        });
+    }
 }
 
 // Tab: Alumnos
@@ -666,6 +906,7 @@ async function _clRenderStudentPanel(user) {
             <div class="cl-tabs" id="clTabs">
                 <button class="cl-tab active" data-tab="myclass">🏫 Mi Clase</button>
                 <button class="cl-tab" data-tab="messages">💬 Mensajes</button>
+                <button class="cl-tab" data-tab="calendar">📅 Calendario</button>
                 <button class="cl-tab" data-tab="teachers">🔍 Profesores</button>
             </div>
 
@@ -684,6 +925,7 @@ async function _clRenderStudentPanel(user) {
             const tab = btn.dataset.tab;
             if      (tab === 'myclass')  await _clStudentMyClassTab(user);
             else if (tab === 'messages') await _clStudentMessagesTab(user);
+            else if (tab === 'calendar') await _clStudentCalendarTab(user);
             else if (tab === 'teachers') await _clStudentTeachersTab(user);
         });
     });
@@ -757,6 +999,27 @@ async function _clStudentMessagesTab(user) {
     const e   = enrollments[0];
     const cls = { id: e.class_id, name: e.name, teacher_id: e.teacher_id };
     _clRenderChatUI(content, user, cls, [], false);
+}
+
+// Tab: Calendario (alumno)
+async function _clStudentCalendarTab(user) {
+    const content = document.getElementById('clTabContent');
+    content.innerHTML = `<div class="cl-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>`;
+
+    let enrollment = null;
+    try {
+        const r    = await _authFetch(`${_API_HOST}/classroom/my-enrollment`);
+        const data = await r.json();
+        enrollment = (data.enrollments || [])[0] || null;
+    } catch {}
+
+    if (!enrollment) {
+        content.innerHTML = '<p class="cl-muted" style="padding:1rem">Primero inscribite en una clase para ver el calendario.</p>';
+        return;
+    }
+
+    const cls = { id: enrollment.class_id, name: enrollment.name, target_lang: enrollment.target_lang };
+    await _clDetailCalendarTab(user, cls, content, false);
 }
 
 // Tab: Profesores disponibles

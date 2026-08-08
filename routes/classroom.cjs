@@ -168,4 +168,25 @@ module.exports = function registerClassroomRoutes(app, { authDb }) {
         res.json({ unread: authDb.getUnreadCount(req.jwtUser.id) });
     });
 
+    // ── Announcements (Calendario) ───────────────────────────────
+    app.get('/classroom/classes/:id/announcements', authDb.verifyToken, _requirePremiumOrGold, (req, res) => {
+        const access = _classAccess(req.params.id, req.jwtUser.id);
+        if (!access) return res.status(403).json({ error: 'Sin acceso' });
+        res.json({ announcements: authDb.getAnnouncements(req.params.id) });
+    });
+
+    app.post('/classroom/classes/:id/announcements', authDb.verifyToken, _requireGold, (req, res) => {
+        const cls = authDb.db.prepare('SELECT * FROM classes WHERE id = ? AND teacher_id = ?').get(req.params.id, req.jwtUser.id);
+        if (!cls) return res.status(403).json({ error: 'No sos el profesor de esta clase' });
+        const { title, body, dueDate } = req.body;
+        if (!title?.trim()) return res.status(400).json({ error: 'El título es obligatorio' });
+        const ann = authDb.createAnnouncement(req.params.id, req.jwtUser.id, { title: title.trim(), body: body || '', dueDate: dueDate || null });
+        res.json({ ok: true, announcement: ann });
+    });
+
+    app.delete('/classroom/classes/:id/announcements/:annId', authDb.verifyToken, _requireGold, (req, res) => {
+        const result = authDb.deleteAnnouncement(req.params.annId, req.jwtUser.id);
+        res.json(result);
+    });
+
 };

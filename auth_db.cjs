@@ -468,6 +468,15 @@ db.exec(`
     created_at TEXT NOT NULL,
     PRIMARY KEY (teacher_id, student_id)
   );
+  CREATE TABLE IF NOT EXISTS class_announcements (
+    id         TEXT PRIMARY KEY,
+    class_id   TEXT NOT NULL,
+    teacher_id TEXT NOT NULL,
+    title      TEXT NOT NULL,
+    body       TEXT NOT NULL,
+    due_date   TEXT,
+    created_at TEXT NOT NULL
+  );
 `);
 
 // ─── Classroom helpers ────────────────────────────────────────
@@ -655,6 +664,23 @@ function rateTeacher(teacherId, studentId, score, comment) {
     return { ok: true };
 }
 
+function createAnnouncement(classId, teacherId, { title, body, dueDate }) {
+    const id  = require('crypto').randomBytes(8).toString('hex');
+    const now = new Date().toISOString();
+    db.prepare('INSERT INTO class_announcements (id, class_id, teacher_id, title, body, due_date, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)')
+      .run(id, classId, teacherId, title, body || '', dueDate || null, now);
+    return db.prepare('SELECT * FROM class_announcements WHERE id = ?').get(id);
+}
+
+function getAnnouncements(classId) {
+    return db.prepare('SELECT * FROM class_announcements WHERE class_id = ? ORDER BY created_at DESC').all(classId);
+}
+
+function deleteAnnouncement(id, teacherId) {
+    const r = db.prepare('DELETE FROM class_announcements WHERE id = ? AND teacher_id = ?').run(id, teacherId);
+    return { ok: r.changes > 0 };
+}
+
 function updateUserAdmin(userId, { plan, role, label, permissions, managedRegions, assignedTeacherId }) {
     if (!userId || userId === 'dev') return { ok: false, error: 'No permitido.' };
     const fields = [];
@@ -695,4 +721,5 @@ module.exports = {
     getClassMessages, getDMMessages, sendMessage,
     getUserNotifications, markNotifRead, getUnreadCount, createNotification,
     rateTeacher, getUserByUsername,
+    createAnnouncement, getAnnouncements, deleteAnnouncement,
 };
