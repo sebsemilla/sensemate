@@ -2,7 +2,8 @@
 'use strict';
 const crypto    = require('crypto');
 const { loadBots, saveBots, loadClasses, runBot } = require('../bot_runner.cjs');
-const { dbLoadBots, dbSaveBots, dbPatchBot, dbDeleteBot, dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost, dbLoadPost } = require('../auth_db.cjs');
+const { dbLoadBots, dbSaveBots, dbPatchBot, dbDeleteBot, dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost, dbLoadPost,
+        dbToggleLike, dbGetLikes, dbAddComment, dbGetComments, optionalAuth } = require('../auth_db.cjs');
 const { regenerateBotSchedule, getUpcomingEntries, removeBotSchedule, getDueEntries } = require('../bot_schedule.cjs');
 
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN;
@@ -96,6 +97,38 @@ module.exports = function registerBotRoutes(app) {
         const post = dbLoadPost(req.params.id);
         if (!post) return res.status(404).json({ error: 'Post no encontrado' });
         res.json(post);
+    });
+
+    // POST /api/posts/:id/like — toggle like
+    app.post('/api/posts/:id/like', optionalAuth, (req, res) => {
+        const fp = req.jwtUser?.id || req.body.fingerprint || req.ip;
+        const liked = dbToggleLike(req.params.id, String(fp));
+        const { count } = dbGetLikes(req.params.id);
+        res.json({ liked, count });
+    });
+
+    // GET /api/posts/:id/like-status
+    app.get('/api/posts/:id/like-status', (req, res) => {
+        const fp = req.query.fp || req.ip;
+        const { liked, count } = dbGetLikes(req.params.id, String(fp));
+        res.json({ liked, count });
+    });
+
+    // GET /api/posts/:id/comments
+    app.get('/api/posts/:id/comments', (req, res) => {
+        res.json({ comments: dbGetComments(req.params.id) });
+    });
+
+    // POST /api/posts/:id/comments — add comment
+    app.post('/api/posts/:id/comments', optionalAuth, (req, res) => {
+        const { text } = req.body;
+        if (!text?.trim()) return res.status(400).json({ error: 'Texto vacío' });
+        if (text.length > 500) return res.status(400).json({ error: 'Máximo 500 caracteres' });
+        const fp     = req.jwtUser?.id || req.body.fingerprint || req.ip;
+        const author = req.jwtUser?.username || req.body.author || 'Anónimo';
+        const id     = dbAddComment(req.params.id, String(fp), author, text.trim());
+        const { count } = dbGetComments(req.params.id);
+        res.json({ ok: true, id, count: dbGetLikes(req.params.id).count });
     });
 
     // GET /api/classroom?tab=disponibles|live

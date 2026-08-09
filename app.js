@@ -3072,8 +3072,12 @@ function _buildPostsHtml(posts) {
                 ${p.intro ? `<p class="lf-card-intro">${_escHtml(p.intro)}</p>` : ''}
             </div>
             <div class="lf-card-footer">
-                ${tags.length ? `<div class="lf-card-tags">${tags.slice(0,3).map(t => `<span class="lf-tag">#${_escHtml(t)}</span>`).join('')}</div>` : '<div></div>'}
-                <button class="lf-card-read-btn">Leer <span>→</span></button>
+                ${tags.length ? `<div class="lf-card-tags">${tags.slice(0,3).map(t => `<span class="lf-tag">#${_escHtml(t)}</span>`).join('')}</div>` : ''}
+                <div class="lf-card-actions">
+                    <button class="lf-card-read-btn">Leer <span>→</span></button>
+                    <button class="lf-action-btn lf-comment-btn" data-post-id="${p.id}" aria-label="Comentarios">💬 <span class="lf-cmt-count">${p.comments || 0}</span></button>
+                    <button class="lf-action-btn lf-like-btn" data-post-id="${p.id}" aria-label="Me gusta">❤️ <span class="lf-like-count">${p.likes || 0}</span></button>
+                </div>
             </div>
         </article>`;
         const adHtml = showAds && (i + 1) % 6 === 0
@@ -3091,7 +3095,7 @@ function _buildPostsHtml(posts) {
     }).join('');
 }
 
-async function _openPost(id) {
+async function _openPost(id, scrollToComments = false) {
     let overlay = document.getElementById('lfPostOverlay');
     if (!overlay) {
         overlay = document.createElement('div');
@@ -3109,6 +3113,10 @@ async function _openPost(id) {
         const post = await res.json();
         overlay.innerHTML = _buildArticleHtml(post);
         overlay.querySelector('.lf-article-back')?.addEventListener('click', _closePost);
+        _bindArticleActions(overlay, post);
+        if (scrollToComments) {
+            setTimeout(() => overlay.querySelector('#articleComments')?.scrollIntoView({ behavior: 'smooth' }), 100);
+        }
     } catch (e) {
         overlay.innerHTML = `<div class="lf-article-error"><button class="lf-article-back" style="margin-bottom:1rem">← Volver</button><p>❌ ${_escHtml(e.message)}</p></div>`;
         overlay.querySelector('.lf-article-back')?.addEventListener('click', _closePost);
@@ -3120,6 +3128,64 @@ function _closePost() {
     if (!overlay) return;
     overlay.classList.remove('open');
     document.body.style.overflow = '';
+}
+
+function _bindArticleActions(overlay, post) {
+    const fp = _getFeedFingerprint();
+
+    // Like button
+    const likeBtn = overlay.querySelector('.lf-like-btn');
+    if (likeBtn) {
+        fetch(`${_API_HOST}/api/posts/${post.id}/like-status?fp=${encodeURIComponent(fp)}`)
+            .then(r => r.json()).then(d => { if (d.liked) likeBtn.classList.add('liked'); }).catch(() => {});
+        likeBtn.addEventListener('click', async () => {
+            likeBtn.disabled = true;
+            try {
+                const r = await _authFetch(`${_API_HOST}/api/posts/${post.id}/like`, { method: 'POST', body: JSON.stringify({ fingerprint: fp }) });
+                const { liked, count } = await r.json();
+                likeBtn.querySelector('.lf-like-count').textContent = count;
+                likeBtn.classList.toggle('liked', liked);
+            } catch {}
+            likeBtn.disabled = false;
+        });
+    }
+
+    // Comments
+    const list   = overlay.querySelector('#lf-comments-list');
+    const input  = overlay.querySelector('#lf-comment-input');
+    const submit = overlay.querySelector('#lf-comment-submit');
+
+    const loadComments = () => fetch(`${_API_HOST}/api/posts/${post.id}/comments`)
+        .then(r => r.json()).then(({ comments }) => {
+            if (!list) return;
+            if (!comments.length) { list.innerHTML = '<p class="lf-no-comments">Sin comentarios aún. ¡Sé el primero!</p>'; return; }
+            list.innerHTML = comments.map(c => `
+            <div class="lf-comment-item">
+                <span class="lf-comment-author">${_escHtml(c.author)}</span>
+                <span class="lf-comment-time">${_timeAgo(c.ts)}</span>
+                <p class="lf-comment-text">${_escHtml(c.text)}</p>
+            </div>`).join('');
+        }).catch(() => { if (list) list.innerHTML = ''; });
+
+    loadComments();
+
+    submit?.addEventListener('click', async () => {
+        const text = input?.value.trim();
+        if (!text) return;
+        submit.disabled = true;
+        const author = (typeof currentUser !== 'undefined' && currentUser?.username) || 'Anónimo';
+        try {
+            const r = await _authFetch(`${_API_HOST}/api/posts/${post.id}/comments`, {
+                method: 'POST', body: JSON.stringify({ text, fingerprint: fp, author })
+            });
+            if (!r.ok) throw new Error();
+            input.value = '';
+            const cntEl = overlay.querySelector('.lf-comment-btn .lf-cmt-count');
+            if (cntEl) cntEl.textContent = parseInt(cntEl.textContent || 0) + 1;
+            await loadComments();
+        } catch {}
+        submit.disabled = false;
+    });
 }
 
 function _buildArticleHtml(p) {
@@ -3173,10 +3239,17 @@ function _buildArticleHtml(p) {
         <div class="lf-article-footer">
             ${tags.length ? `<div class="lf-article-tags">${tags.map(t => `<span class="lf-tag">#${_escHtml(t)}</span>`).join('')}</div>` : ''}
             <div class="lf-article-actions">
-                <button class="livefeed-action-btn">👍 ${p.likes || 0}</button>
-                <button class="livefeed-action-btn">💬 ${p.comments || 0}</button>
-                <button class="livefeed-action-btn">↗️ Compartir</button>
+                <button class="lf-action-btn lf-like-btn" data-post-id="${p.id}">❤️ <span class="lf-like-count">${p.likes || 0}</span></button>
+                <button class="lf-action-btn lf-comment-btn" data-post-id="${p.id}">💬 <span class="lf-cmt-count">${p.comments || 0}</span></button>
             </div>
+        </div>
+        <div id="articleComments" class="lf-comments-section">
+            <h4 class="lf-comments-title">Comentarios</h4>
+            <div class="lf-comments-form">
+                <textarea id="lf-comment-input" class="lf-comment-input" placeholder="Escribí un comentario…" maxlength="500" rows="2"></textarea>
+                <button id="lf-comment-submit" class="lf-comment-submit">Enviar</button>
+            </div>
+            <div id="lf-comments-list" class="lf-comments-list"><div class="lf-comments-loading">Cargando…</div></div>
         </div>
     </div>`;
 }
@@ -3212,6 +3285,38 @@ function _bindFeedCardClicks(container) {
         card.addEventListener('click', open);
         card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') open(); });
     });
+    container.querySelectorAll('.lf-like-btn').forEach(btn => {
+        btn.addEventListener('click', async e => {
+            e.stopPropagation();
+            const postId = btn.dataset.postId;
+            const fp = _getFeedFingerprint();
+            btn.disabled = true;
+            try {
+                const res = await _authFetch(`${_API_HOST}/api/posts/${postId}/like`, {
+                    method: 'POST', body: JSON.stringify({ fingerprint: fp })
+                });
+                const { liked, count } = await res.json();
+                btn.querySelector('.lf-like-count').textContent = count;
+                btn.classList.toggle('liked', liked);
+            } catch {}
+            btn.disabled = false;
+        });
+        const fp = _getFeedFingerprint();
+        fetch(`${_API_HOST}/api/posts/${btn.dataset.postId}/like-status?fp=${encodeURIComponent(fp)}`)
+            .then(r => r.json()).then(d => { if (d.liked) btn.classList.add('liked'); }).catch(() => {});
+    });
+    container.querySelectorAll('.lf-comment-btn').forEach(btn => {
+        btn.addEventListener('click', e => {
+            e.stopPropagation();
+            _openPost(btn.dataset.postId, true);
+        });
+    });
+}
+
+function _getFeedFingerprint() {
+    let fp = localStorage.getItem('_feed_fp');
+    if (!fp) { fp = Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem('_feed_fp', fp); }
+    return fp;
 }
 
 // ─── Class Room ───────────────────────────────────────────────────────────────

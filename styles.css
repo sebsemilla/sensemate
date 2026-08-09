@@ -14573,11 +14573,14 @@ body.dark-mode .bot-card-meta span { background: #111b14; }
 }
 
 .lf-card-footer {
-    display: flex; align-items: center;
-    justify-content: space-between;
-    margin-top: 2px;
+    display: flex; flex-direction: column;
+    gap: 8px; margin-top: 6px;
 }
 .lf-card-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.lf-card-actions {
+    display: flex; align-items: center; justify-content: center;
+    gap: 10px;
+}
 .lf-card-read-btn {
     background: #3a7d5c; color: #fff;
     border: none; border-radius: 20px;
@@ -14587,6 +14590,18 @@ body.dark-mode .bot-card-meta span { background: #111b14; }
 }
 .lf-card-read-btn:hover { background: #2d6a4f; }
 .lf-card-read-btn span { display: inline-block; transition: transform 0.15s; }
+.lf-action-btn {
+    display: flex; align-items: center; gap: 5px;
+    background: none; border: 1px solid #d1d5db; border-radius: 20px;
+    padding: 4px 12px; font-size: 0.78rem; font-weight: 600; color: var(--text-muted, #6b7280);
+    cursor: pointer; transition: background 0.15s, color 0.15s, border-color 0.15s;
+    white-space: nowrap;
+}
+.lf-action-btn:hover { background: rgba(0,0,0,.05); }
+.lf-like-btn.liked { color: #e11d48; border-color: #e11d48; background: rgba(225,29,72,.08); }
+body.dark-mode .lf-action-btn { border-color: #2a4035; color: #94a3b8; }
+body.dark-mode .lf-action-btn:hover { background: rgba(255,255,255,.06); }
+body.dark-mode .lf-like-btn.liked { color: #fb7185; border-color: #fb7185; background: rgba(251,113,133,.1); }
 .lf-card:hover .lf-card-read-btn span { transform: translateX(3px); }
 
 body.dark-mode .lf-card {
@@ -14722,7 +14737,36 @@ body.dark-mode .lf-badge--level { background: rgba(99,102,241,.2); }
     display: flex; flex-direction: column; gap: 12px;
 }
 .lf-article-tags { display: flex; flex-wrap: wrap; gap: 5px; }
-.lf-article-actions { display: flex; gap: 16px; }
+.lf-article-actions { display: flex; gap: 10px; justify-content: center; }
+
+/* ── Comments section (inside article overlay) ── */
+.lf-comments-section { padding: 20px 16px 32px; border-top: 1px solid var(--border, #e2e8f0); margin-top: 8px; }
+.lf-comments-title { font-size: .95rem; font-weight: 700; margin: 0 0 14px; color: var(--text, #1e293b); }
+.lf-comments-form { display: flex; gap: 8px; margin-bottom: 18px; }
+.lf-comment-input {
+    flex: 1; border: 1px solid #d1d5db; border-radius: 10px;
+    padding: 8px 12px; font-size: .85rem; resize: none;
+    background: var(--body-bg, #f5f7fb); color: var(--text, #1e293b);
+    font-family: inherit;
+}
+.lf-comment-input:focus { outline: none; border-color: #3a7d5c; }
+.lf-comment-submit {
+    align-self: flex-end; padding: 8px 16px;
+    background: #3a7d5c; color: #fff; border: none; border-radius: 10px;
+    font-size: .85rem; font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.lf-comment-submit:disabled { opacity: .55; }
+.lf-comment-item { padding: 10px 0; border-bottom: 1px solid var(--border, #f1f5f9); }
+.lf-comment-item:last-child { border-bottom: none; }
+.lf-comment-author { font-weight: 700; font-size: .82rem; color: #3a7d5c; }
+.lf-comment-time   { font-size: .75rem; color: var(--text-muted, #6b7280); margin-left: 8px; }
+.lf-comment-text   { font-size: .88rem; margin: 4px 0 0; color: var(--text, #1e293b); line-height: 1.5; }
+.lf-no-comments    { font-size: .85rem; color: var(--text-muted); text-align: center; padding: 12px 0; }
+.lf-comments-loading { font-size: .85rem; color: var(--text-muted); text-align: center; }
+body.dark-mode .lf-comments-section { border-color: #2a4035; }
+body.dark-mode .lf-comment-input { background: #0f1a13; border-color: #2a4035; color: #e2e8f0; }
+body.dark-mode .lf-comment-item  { border-color: #1e3a2a; }
+body.dark-mode .lf-comment-text  { color: #cbd5e1; }
 
 .lf-article-loading, .lf-article-error {
     display: flex; flex-direction: column;

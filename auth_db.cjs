@@ -778,6 +778,19 @@ db.exec(`
     targetLang TEXT DEFAULT 'es',
     ts INTEGER
   );
+  CREATE TABLE IF NOT EXISTS post_likes (
+    postId TEXT NOT NULL,
+    fingerprint TEXT NOT NULL,
+    PRIMARY KEY (postId, fingerprint)
+  );
+  CREATE TABLE IF NOT EXISTS post_comments (
+    id TEXT PRIMARY KEY,
+    postId TEXT NOT NULL,
+    fingerprint TEXT NOT NULL,
+    author TEXT DEFAULT 'Anónimo',
+    text TEXT NOT NULL,
+    ts INTEGER
+  );
 `);
 
 function _botRow(b) {
@@ -878,6 +891,34 @@ function dbLoadScans(userId, limit = 50) {
     return db.prepare('SELECT * FROM scan_history WHERE userId=? ORDER BY ts DESC LIMIT ?').all(userId, limit);
 }
 
+function dbToggleLike(postId, fingerprint) {
+    const exists = db.prepare('SELECT 1 FROM post_likes WHERE postId=? AND fingerprint=?').get(postId, fingerprint);
+    if (exists) {
+        db.prepare('DELETE FROM post_likes WHERE postId=? AND fingerprint=?').run(postId, fingerprint);
+        db.prepare('UPDATE feed_posts SET likes = MAX(0, likes-1) WHERE id=?').run(postId);
+        return false;
+    } else {
+        db.prepare('INSERT OR IGNORE INTO post_likes (postId, fingerprint) VALUES (?,?)').run(postId, fingerprint);
+        db.prepare('UPDATE feed_posts SET likes = likes+1 WHERE id=?').run(postId);
+        return true;
+    }
+}
+function dbGetLikes(postId, fingerprint) {
+    const row = db.prepare('SELECT likes FROM feed_posts WHERE id=?').get(postId);
+    const liked = fingerprint ? !!db.prepare('SELECT 1 FROM post_likes WHERE postId=? AND fingerprint=?').get(postId, fingerprint) : false;
+    return { count: row?.likes || 0, liked };
+}
+
+function dbAddComment(postId, fingerprint, author, text) {
+    const id = `cmt_${Date.now()}_${Math.random().toString(36).slice(2,7)}`;
+    db.prepare(`INSERT INTO post_comments (id,postId,fingerprint,author,text,ts) VALUES (?,?,?,?,?,?)`).run(id, postId, fingerprint, author, text, Date.now());
+    db.prepare('UPDATE feed_posts SET comments = comments+1 WHERE id=?').run(postId);
+    return id;
+}
+function dbGetComments(postId, limit = 50) {
+    return db.prepare('SELECT id,author,text,ts FROM post_comments WHERE postId=? ORDER BY ts DESC LIMIT ?').all(postId, limit);
+}
+
 module.exports = {
     register, login, loginWithGoogle, verifyToken, optionalAuth, signToken, getUserById, setUserPlan, setClassroomAddon,
     setAuthCookie, clearAuthCookie,
@@ -898,4 +939,6 @@ module.exports = {
     dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost, dbLoadPost,
     // Scan history
     dbSaveScan, dbLoadScans,
+    // Likes & comments
+    dbToggleLike, dbGetLikes, dbAddComment, dbGetComments,
 };
