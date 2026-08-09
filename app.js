@@ -3048,30 +3048,29 @@ function _buildPostsHtml(posts) {
     const showAds = _shouldShowAds();
     return posts.map((p, i) => {
         const tags = Array.isArray(p.tags) ? p.tags : [];
-        const postHtml = `
-        <div class="livefeed-post">
-            <div class="livefeed-post-header">
-                <div class="livefeed-avatar">${p.avatar || '👤'}</div>
-                <div class="livefeed-post-meta">
-                    <div class="livefeed-post-author">${_escHtml(p.author)}</div>
-                    <div class="livefeed-post-time">${_timeAgo(p.ts)}</div>
+        const dir = p.lang === 'en' ? 'En→Es' : 'Es→En';
+        const cardHtml = `
+        <article class="lf-card" data-post-id="${p.id}" role="button" tabindex="0">
+            <div class="lf-card-header">
+                <div class="lf-card-avatar">${p.avatar || '🤖'}</div>
+                <div class="lf-card-meta">
+                    <span class="lf-card-author">${_escHtml(p.author || '')}</span>
+                    <span class="lf-card-time">${_timeAgo(p.ts)}</span>
                 </div>
-                ${p.live ? '<span class="livefeed-post-badge live">🔴 EN VIVO</span>' : ''}
-                ${p.level ? `<span class="livefeed-post-level">${_escHtml(p.level)}</span>` : ''}
+                <div class="lf-card-badges">
+                    ${p.level ? `<span class="lf-badge lf-badge--level">${_escHtml(p.level)}</span>` : ''}
+                    ${p.live ? '<span class="lf-badge lf-badge--live">🔴 EN VIVO</span>' : ''}
+                </div>
             </div>
-            ${p.title ? `<div class="livefeed-post-title">${_escHtml(p.title)}</div>` : ''}
-            ${p.intro ? `<div class="lf-post-intro">${_escHtml(p.intro)}</div>` : ''}
-            <div class="lf-post-body">${_escHtml(p.body)}</div>
-            ${p.highlight ? `<div class="lf-post-highlight"><span class="lf-hl-icon">⭐</span><span>${_escHtml(p.highlight)}</span></div>` : ''}
-            ${p.example ? `<div class="lf-post-example"><span class="lf-ex-icon">💬</span><em>${_escHtml(p.example)}</em></div>` : ''}
-            ${p.tip ? `<div class="lf-post-tip"><span class="lf-tip-icon">💡</span><span>${_escHtml(p.tip)}</span></div>` : ''}
-            ${tags.length ? `<div class="lf-post-tags">${tags.map(t => `<span class="lf-tag">#${_escHtml(t)}</span>`).join('')}</div>` : ''}
-            <div class="livefeed-post-actions">
-                <button class="livefeed-action-btn">👍 ${p.likes || 0}</button>
-                <button class="livefeed-action-btn">💬 ${p.comments || 0}</button>
-                <button class="livefeed-action-btn">↗️ Compartir</button>
+            <div class="lf-card-content">
+                <h3 class="lf-card-title">${p.emoji ? `<span class="lf-card-emoji">${p.emoji}</span>` : ''}${_escHtml(p.title || '')}</h3>
+                ${p.intro ? `<p class="lf-card-intro">${_escHtml(p.intro)}</p>` : ''}
             </div>
-        </div>`;
+            <div class="lf-card-footer">
+                ${tags.length ? `<div class="lf-card-tags">${tags.slice(0,3).map(t => `<span class="lf-tag">#${_escHtml(t)}</span>`).join('')}</div>` : '<div></div>'}
+                <button class="lf-card-read-btn">Leer <span>→</span></button>
+            </div>
+        </article>`;
         const adHtml = showAds && (i + 1) % 6 === 0
             ? `<div class="livefeed-ad-wrap">
                 <span class="livefeed-ad-label">Publicidad</span>
@@ -3083,8 +3082,98 @@ function _buildPostsHtml(posts) {
                      data-ad-layout-key="-fb+5w+4e-db+86"></ins>
                </div>`
             : '';
-        return postHtml + adHtml;
+        return cardHtml + adHtml;
     }).join('');
+}
+
+async function _openPost(id) {
+    let overlay = document.getElementById('lfPostOverlay');
+    if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.id = 'lfPostOverlay';
+        overlay.className = 'lf-post-overlay';
+        document.body.appendChild(overlay);
+    }
+    overlay.innerHTML = '<div class="lf-article-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>';
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+
+    try {
+        const res = await fetch(`${_API_HOST}/api/posts/${encodeURIComponent(id)}`);
+        if (!res.ok) throw new Error('No se pudo cargar el post');
+        const post = await res.json();
+        overlay.innerHTML = _buildArticleHtml(post);
+        overlay.querySelector('.lf-article-back')?.addEventListener('click', _closePost);
+    } catch (e) {
+        overlay.innerHTML = `<div class="lf-article-error"><button class="lf-article-back" style="margin-bottom:1rem">← Volver</button><p>❌ ${_escHtml(e.message)}</p></div>`;
+        overlay.querySelector('.lf-article-back')?.addEventListener('click', _closePost);
+    }
+}
+
+function _closePost() {
+    const overlay = document.getElementById('lfPostOverlay');
+    if (!overlay) return;
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+}
+
+function _buildArticleHtml(p) {
+    const tags = Array.isArray(p.tags) ? p.tags : [];
+    const langLabel = p.direction || (p.lang === 'en' ? 'En→Es' : 'Es→En');
+    return `
+    <div class="lf-article">
+        <div class="lf-article-topbar">
+            <button class="lf-article-back">← Volver</button>
+            <div class="lf-article-top-badges">
+                ${p.level ? `<span class="lf-badge lf-badge--level">${_escHtml(p.level)}</span>` : ''}
+            </div>
+        </div>
+        <div class="lf-article-hero">
+            <div class="lf-article-avatar">${p.avatar || '🤖'}</div>
+            <div class="lf-article-author-wrap">
+                <span class="lf-article-author">${_escHtml(p.author || '')}</span>
+                <span class="lf-article-time">${_timeAgo(p.ts)}</span>
+            </div>
+        </div>
+        <div class="lf-article-body">
+            <h1 class="lf-article-title">${p.emoji ? `<span>${p.emoji}</span> ` : ''}${_escHtml(p.title || '')}</h1>
+            ${p.intro ? `<p class="lf-article-intro">${_escHtml(p.intro)}</p>` : ''}
+            <div class="lf-article-divider"></div>
+            <p class="lf-article-text">${_escHtml(p.body || '')}</p>
+            ${p.highlight ? `
+            <div class="lf-article-block lf-article-block--highlight">
+                <div class="lf-article-block-label">⭐ Concepto clave</div>
+                <p>${_escHtml(p.highlight)}</p>
+            </div>` : ''}
+            ${p.example ? `
+            <div class="lf-article-block lf-article-block--example">
+                <div class="lf-article-block-label">💬 Ejemplo</div>
+                <p><em>${_escHtml(p.example)}</em></p>
+            </div>` : ''}
+            ${p.tip ? `
+            <div class="lf-article-block lf-article-block--tip">
+                <div class="lf-article-block-label">💡 Consejo</div>
+                <p>${_escHtml(p.tip)}</p>
+            </div>` : ''}
+            ${p.faqs?.length ? `
+            <div class="lf-article-faqs">
+                <div class="lf-article-block-label" style="margin-bottom:.75rem">❓ Preguntas frecuentes</div>
+                ${p.faqs.map(f => `
+                <details class="lf-faq-item">
+                    <summary class="lf-faq-q">${_escHtml(f.q)}</summary>
+                    <p class="lf-faq-a">${_escHtml(f.a)}</p>
+                </details>`).join('')}
+            </div>` : ''}
+        </div>
+        <div class="lf-article-footer">
+            ${tags.length ? `<div class="lf-article-tags">${tags.map(t => `<span class="lf-tag">#${_escHtml(t)}</span>`).join('')}</div>` : ''}
+            <div class="lf-article-actions">
+                <button class="livefeed-action-btn">👍 ${p.likes || 0}</button>
+                <button class="livefeed-action-btn">💬 ${p.comments || 0}</button>
+                <button class="livefeed-action-btn">↗️ Compartir</button>
+            </div>
+        </div>
+    </div>`;
 }
 
 function _initFeedAds(container) {
@@ -3105,7 +3194,18 @@ function _initLiveFeed() {
             const posts = await _getLiveFeedPosts(btn.dataset.filter);
             feed.innerHTML = _buildPostsHtml(posts);
             _initFeedAds(feed);
+            _bindFeedCardClicks(feed);
         });
+    });
+    _bindFeedCardClicks(document.getElementById('livefeedFeed'));
+}
+
+function _bindFeedCardClicks(container) {
+    if (!container) return;
+    container.querySelectorAll('.lf-card').forEach(card => {
+        const open = () => _openPost(card.dataset.postId);
+        card.addEventListener('click', open);
+        card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') open(); });
     });
 }
 
@@ -5160,6 +5260,11 @@ window.addEventListener('DOMContentLoaded', async () => {
     } else if (!_resetToken) {
         showOnboarding();
     }
+
+    // Close article overlay with Escape key
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') _closePost();
+    });
 
     // Mobile: cuando el usuario vuelve a la app, restaura el modo en que estaba
     let _mobileLastMode = null;

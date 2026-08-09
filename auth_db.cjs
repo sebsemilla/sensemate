@@ -854,6 +854,10 @@ function dbPatchPost(id, fields) {
     return _postRow(db.prepare('SELECT * FROM feed_posts WHERE id = ?').get(id));
 }
 function dbDeletePost(id) { db.prepare('DELETE FROM feed_posts WHERE id = ?').run(id); }
+function dbLoadPost(id) {
+    const row = db.prepare('SELECT * FROM feed_posts WHERE id = ?').get(id);
+    return row ? _postRow(row) : null;
+}
 
 module.exports = {
     register, login, loginWithGoogle, verifyToken, optionalAuth, signToken, getUserById, setUserPlan, setClassroomAddon,
@@ -872,5 +876,5 @@ module.exports = {
     createAnnouncement, getAnnouncements, deleteAnnouncement,
     // Bots + Feed (SQLite)
     dbLoadBots, dbSaveBots, dbPatchBot, dbDeleteBot,
-    dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost,
+    dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost, dbLoadPost,
 };

@@ -2,7 +2,7 @@
 'use strict';
 const crypto    = require('crypto');
 const { loadBots, saveBots, loadClasses, runBot } = require('../bot_runner.cjs');
-const { dbLoadBots, dbSaveBots, dbPatchBot, dbDeleteBot, dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost } = require('../auth_db.cjs');
+const { dbLoadBots, dbSaveBots, dbPatchBot, dbDeleteBot, dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost, dbLoadPost } = require('../auth_db.cjs');
 const { regenerateBotSchedule, getUpcomingEntries, removeBotSchedule, getDueEntries } = require('../bot_schedule.cjs');
 
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN;
@@ -81,8 +81,21 @@ module.exports = function registerBotRoutes(app) {
     app.get('/api/feed', (req, res) => {
         const limit  = Math.min(parseInt(req.query.limit  || 30), 100);
         const offset = parseInt(req.query.offset || 0);
-        const posts  = dbLoadFeed(limit, offset);
+        const posts  = dbLoadFeed(limit, offset).map(p => ({
+            id: p.id, botId: p.botId, author: p.author,
+            avatar: p.avatar, emoji: p.emoji,
+            title: p.title, intro: p.intro,
+            tags: p.tags, level: p.level, lang: p.lang,
+            ts: p.ts, likes: p.likes, comments: p.comments
+        }));
         res.json({ posts, total: posts.length });
+    });
+
+    // GET /api/posts/:id — full post
+    app.get('/api/posts/:id', (req, res) => {
+        const post = dbLoadPost(req.params.id);
+        if (!post) return res.status(404).json({ error: 'Post no encontrado' });
+        res.json(post);
     });
 
     // GET /api/classroom?tab=disponibles|live
