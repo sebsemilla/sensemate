@@ -14903,6 +14903,9 @@ body.dark-mode .cam-modal-text { background: #0f1a13; color: #e2e8f0; }
 }
 .shortcut-item span { font-size: .72rem; font-weight: 600; color: var(--text, #1e293b); text-align: center; line-height: 1.2; }
 .shortcut-item:hover { background: rgba(52,183,120,.1); transform: scale(1.04); }
+.shortcut-pinned { background: rgba(52,183,120,.18) !important; border-color: #34b778 !important; box-shadow: 0 0 0 2px #34b77840; }
+.shortcut-pinned span { color: #16a34a !important; font-weight: 700 !important; }
+.shortcuts-hint { text-align: center; font-size: .72rem; color: var(--text-muted, #6b7280); margin: 8px 0 0; padding: 0 12px; }
 
 body.dark-mode .shortcuts-drawer { background: #1a2820; }
 body.dark-mode .shortcut-item    { background: #0f1a13; border-color: #2a4035; }

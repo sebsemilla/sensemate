@@ -5326,10 +5326,31 @@ function _initFab() {
         camInput?.click();
     });
 
+    _updateShortcutBtn();
+
+    let _shortLongTimer = null;
+    shortBtn?.addEventListener('pointerdown', () => {
+        _shortLongTimer = setTimeout(() => {
+            _shortLongTimer = null;
+            subBtns.classList.add('hidden');
+            fab.classList.remove('fab-open');
+            _openShortcutsPanel(true);
+        }, 500);
+    });
+    shortBtn?.addEventListener('pointerup', () => clearTimeout(_shortLongTimer));
+    shortBtn?.addEventListener('pointerleave', () => clearTimeout(_shortLongTimer));
     shortBtn?.addEventListener('click', () => {
+        if (_shortLongTimer === null) return; // long-press already handled
+        clearTimeout(_shortLongTimer);
+        _shortLongTimer = null;
         subBtns.classList.add('hidden');
         fab.classList.remove('fab-open');
-        _openShortcutsPanel();
+        const pinned = _getPinnedShortcut();
+        if (pinned) {
+            _executeShortcut(pinned);
+        } else {
+            _openShortcutsPanel(false);
+        }
     });
 
     camInput?.addEventListener('change', async (e) => {
@@ -5338,6 +5359,54 @@ function _initFab() {
         e.target.value = '';
         await _processCameraImage(file);
     });
+}
+
+const _FAB_SHORTCUT_KEY = 'fabPinnedShortcut';
+function _getFabSections() {
+    return [
+        { icon: '🔄', label: 'Traducción',        mode: 'traduccion' },
+        { icon: '🧭', label: 'Exploración',        mode: 'exploracion' },
+        { icon: '🗡️', label: 'MisionMate',         mode: 'mision' },
+        { icon: '🃏', label: 'Flashcards',          idx_action: 'flashcards' },
+        { icon: '💬', label: 'Chat Tutor',          mode: 'chat' },
+        { icon: '🎤', label: 'Personajes',          mode: 'famous' },
+        { icon: '🎵', label: 'Música',              mode: 'musicians' },
+        { icon: '📡', label: 'Live Feed',            mode: 'livefeed' },
+        { icon: '🎓', label: 'Class Room',           mode: 'classroom' },
+        { icon: '🎬', label: 'Inmersión',            mode: 'immersion' },
+        { icon: '📷', label: 'Historial de cámara',  idx_action: 'scanhistory' },
+    ];
+}
+function _getPinnedShortcut() {
+    try { return JSON.parse(localStorage.getItem(_FAB_SHORTCUT_KEY)); } catch { return null; }
+}
+function _setPinnedShortcut(s) {
+    localStorage.setItem(_FAB_SHORTCUT_KEY, JSON.stringify(s));
+    _updateShortcutBtn();
+}
+function _updateShortcutBtn() {
+    const btn = document.getElementById('fabShortcutBtn');
+    const lbl = btn?.closest('.fab-sub-item')?.querySelector('.fab-sub-label');
+    const pinned = _getPinnedShortcut();
+    if (pinned) {
+        if (btn) btn.textContent = pinned.icon;
+        if (lbl) lbl.textContent = pinned.label;
+        btn?.setAttribute('title', `Ir a ${pinned.label} · Mantener para cambiar`);
+    } else {
+        if (btn) btn.textContent = '⚡';
+        if (lbl) lbl.textContent = 'Ir a...';
+        btn?.removeAttribute('title');
+    }
+}
+function _executeShortcut(s) {
+    if (s.mode) {
+        const tab = document.querySelector(`#appModeSelector [data-tab="${s.mode}"]`);
+        if (tab) tab.click();
+    } else if (s.idx_action === 'flashcards') {
+        if (typeof loadFlashcards === 'function') loadFlashcards();
+    } else if (s.idx_action === 'scanhistory') {
+        _renderScanHistory();
+    }
 }
 
 async function _processCameraImage(file) {
@@ -5454,7 +5523,7 @@ function _showCameraModal({ loading, result, error } = {}) {
     }
 }
 
-function _openShortcutsPanel() {
+function _openShortcutsPanel(forChange = false) {
     let panel = document.getElementById('shortcutsPanel');
     if (!panel) {
         panel = document.createElement('div');
@@ -5463,30 +5532,24 @@ function _openShortcutsPanel() {
         document.body.appendChild(panel);
     }
 
-    const sections = [
-        { icon: '🔄', label: 'Traducción',       mode: 'traduccion' },
-        { icon: '🧭', label: 'Exploración',       mode: 'exploracion' },
-        { icon: '🎯', label: 'MisionMate',         action: () => { if (typeof toggleMisionMate === 'function') toggleMisionMate(); } },
-        { icon: '🃏', label: 'Flashcards',         action: () => { if (typeof loadFlashcards === 'function') loadFlashcards(); } },
-        { icon: '💬', label: 'Chat Tutor',         mode: 'chat' },
-        { icon: '🎤', label: 'Personajes',         mode: 'famous' },
-        { icon: '🎵', label: 'Música',             mode: 'musicians' },
-        { icon: '📡', label: 'Live Feed',           mode: 'livefeed' },
-        { icon: '🎓', label: 'Class Room',          mode: 'classroom' },
-        { icon: '🎬', label: 'Inmersión',           mode: 'immersion' },
-        { icon: '📷', label: 'Historial de cámara', action: () => _renderScanHistory() },
-    ];
+    const sections = _getFabSections();
+    const pinned   = _getPinnedShortcut();
+    const title    = forChange ? 'Cambiar acceso directo' : 'Elegir acceso directo';
 
     panel.innerHTML = `
     <div class="shortcuts-overlay" onclick="document.getElementById('shortcutsPanel').classList.remove('open')"></div>
     <div class="shortcuts-drawer">
         <div class="shortcuts-header">
-            <span>Ir a...</span>
+            <span>${title}</span>
             <button class="shortcuts-close" onclick="document.getElementById('shortcutsPanel').classList.remove('open')">✕</button>
         </div>
         <div class="shortcuts-grid">
-            ${sections.map((s, i) => `<button class="shortcut-item" data-idx="${i}">${s.icon}<span>${s.label}</span></button>`).join('')}
+            ${sections.map((s, i) => {
+                const active = pinned && pinned.icon === s.icon && pinned.label === s.label;
+                return `<button class="shortcut-item${active ? ' shortcut-pinned' : ''}" data-idx="${i}">${s.icon}<span>${s.label}</span></button>`;
+            }).join('')}
         </div>
+        ${pinned ? `<p class="shortcuts-hint">Mantén presionado ⚡ para cambiar</p>` : ''}
     </div>`;
 
     panel.classList.add('open');
@@ -5495,15 +5558,8 @@ function _openShortcutsPanel() {
         btn.addEventListener('click', () => {
             panel.classList.remove('open');
             const s = sections[parseInt(btn.dataset.idx)];
-            if (s.action) {
-                s.action();
-            } else if (s.mode) {
-                const selector = document.getElementById('appModeSelector');
-                if (selector) {
-                    const tab = selector.querySelector(`[data-tab="${s.mode}"]`);
-                    if (tab) tab.click();
-                }
-            }
+            _setPinnedShortcut({ icon: s.icon, label: s.label, mode: s.mode || null, idx_action: s.idx_action || null });
+            _executeShortcut(s);
         });
     });
 }
