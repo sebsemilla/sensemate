@@ -159,6 +159,16 @@ function _todayKey() {
     return new Date().toISOString().split('T')[0];
 }
 
+// ─── Pricing helpers ──────────────────────────────────────────
+
+function _fmtPrice(pricing, amount) {
+    const noDecimals = ['ARS','CLP','COP','PYG','JPY','IDR','KRW'];
+    const val = noDecimals.includes(pricing.currency)
+        ? Math.round(amount).toLocaleString('es-AR')
+        : Number(amount).toFixed(2);
+    return `${pricing.symbol} ${val}`;
+}
+
 // ─── Pricing page ─────────────────────────────────────────────
 
 let _membershipConfig  = null;
@@ -192,6 +202,13 @@ async function loadMembershipSection() {
         // Use defaults silently
     }
     _membershipConfig = config;
+
+    // Fetch dynamic geo-pricing
+    let pricing = { currency: 'ARS', symbol: '$', annual: 20000, monthly: 1667, countryCode: 'AR', countryName: 'Argentina' };
+    try {
+        const pr = await fetch(_API_HOST + '/api/pricing');
+        if (pr.ok) pricing = await pr.json();
+    } catch {}
 
     const region  = localStorage.getItem('ls_region') || 'latam';
     const lang    = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
@@ -347,36 +364,15 @@ async function loadMembershipSection() {
                     <div class="plans-popular-tag">${isES ? '⭐ Más popular' : '⭐ Most popular'}</div>
                     <div class="plan-card-header">
                         <div class="plan-card-name">${planName}</div>
-                        ${promoActive ? `
-                        <div class="plan-price-regular">
-                            u$s ${_billingToggle === 'annual' ? regAnnual.toFixed(2) : regMonthly.toFixed(2)} / ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}
+                        <div class="plan-price-promo">
+                            ${_billingToggle === 'annual' ? _fmtPrice(pricing, pricing.annual) : _fmtPrice(pricing, pricing.monthly)}
+                            <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
                         </div>
-                        <div class="plan-price-promo">
-                            u$s ${_billingToggle === 'annual' ? promoAnnual.toFixed(2) : promoMonthly.toFixed(2)}
-                            <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
-                        </div>` : `
-                        <div class="plan-price-promo">
-                            u$s ${_billingToggle === 'annual' ? regAnnual.toFixed(2) : regMonthly.toFixed(2)}
-                            <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
-                        </div>`}
                         ${_billingToggle === 'annual' ? `
                         <div class="plan-price-monthly-equiv">
-                            ≈ u$s ${((promoActive ? promoAnnual : regAnnual) / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}
-                        <div class="plan-installments-selector">
-                            <div class="plan-installments-label">${isES ? 'Forma de pago:' : 'Payment option:'}</div>
-                            <button class="plan-installment-btn ${_installments === null ? 'active' : ''}" data-inst="null">
-                                ${isES ? 'Pago único' : 'Single payment'} · u$s ${(promoActive ? promoAnnual : regAnnual).toFixed(2)}
-                            </button>
-                            <button class="plan-installment-btn ${_installments === 4 ? 'active' : ''}" data-inst="4">
-                                4 ${isES ? 'cuotas' : 'installments'} · u$s ${((promoActive ? promoAnnual : regAnnual) / 4).toFixed(2)} c/u
-                            </button>
-                            <button class="plan-installment-btn ${_installments === 6 ? 'active' : ''}" data-inst="6">
-                                6 ${isES ? 'cuotas' : 'installments'} · u$s ${((promoActive ? promoAnnual : regAnnual) / 6).toFixed(2)} c/u
-                            </button>
-                            <button class="plan-installment-btn ${_installments === 12 ? 'active' : ''}" data-inst="12">
-                                12 ${isES ? 'cuotas' : 'installments'} · u$s ${((promoActive ? promoAnnual : regAnnual) / 12).toFixed(2)} c/u
-                            </button>
+                            ≈ ${_fmtPrice(pricing, pricing.annual / 12)} / ${isES ? 'mes' : 'month'}
                         </div>` : ''}
+                        <div class="plan-price-country">📍 ${pricing.countryCode === 'AR' ? 'Argentina' : (pricing.countryName || pricing.countryCode)} · ${pricing.currency}</div>
                     </div>
                     <ul class="plan-feature-list plan-feature-list--premium">
                         <li>🚫 ${isES ? 'Sin publicidades' : 'No ads'}</li>
@@ -527,21 +523,11 @@ async function loadMembershipSection() {
     document.getElementById('plansBackBtn')?.addEventListener('click', () => showMainMenu());
     document.getElementById('planFreeCta')?.addEventListener('click', () => showMainMenu());
     document.getElementById('planTrialBtn')?.addEventListener('click', () => _startTrialFlow());
-    document.getElementById('planSubscribeBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium', _billingToggle === 'annual' ? _installments : null));
+    document.getElementById('planSubscribeBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium'));
     document.getElementById('planOroBtn')?.addEventListener('click', () => _showOroComingSoonModal());
     document.getElementById('planContribBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'contributor'));
     document.getElementById('planContribMonthlyBtn')?.addEventListener('click', () => _showPaymentFlow('monthly', 'contributor'));
     document.getElementById('planContribQuarterlyBtn')?.addEventListener('click', () => _showPaymentFlow('quarterly', 'contributor'));
-
-    // Installment selector buttons
-    document.querySelectorAll('.plan-installment-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const val = btn.dataset.inst;
-            _installments = val === 'null' ? null : parseInt(val);
-            document.querySelectorAll('.plan-installment-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-        });
-    });
 
     // Tab / Region buttons
     document.querySelectorAll('.plans-region-btn').forEach(btn => {
@@ -582,6 +568,13 @@ async function _loadMembershipLite() {
         if (r.ok) { const d = await r.json(); config = d.config || config; }
     } catch {}
     _membershipConfig = config;
+
+    // Fetch dynamic geo-pricing
+    let pricing = { currency: 'ARS', symbol: '$', annual: 20000, monthly: 1667, countryCode: 'AR', countryName: 'Argentina' };
+    try {
+        const pr = await fetch(_API_HOST + '/api/pricing');
+        if (pr.ok) pricing = await pr.json();
+    } catch {}
 
     const region      = localStorage.getItem('ls_region') || 'latam';
     const lang        = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
@@ -649,22 +642,15 @@ async function _loadMembershipLite() {
                     <div class="plans-popular-tag">${isES ? '⭐ Recomendado' : '⭐ Recommended'}</div>
                     <div class="plan-card-header">
                         <div class="plan-card-name">${planName}</div>
-                        ${promoActive ? `
-                        <div class="plan-price-regular">
-                            u$s ${_billingToggle === 'annual' ? regAnnual.toFixed(2) : regMonthly.toFixed(2)} / ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}
+                        <div class="plan-price-promo">
+                            ${_billingToggle === 'annual' ? _fmtPrice(pricing, pricing.annual) : _fmtPrice(pricing, pricing.monthly)}
+                            <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
                         </div>
-                        <div class="plan-price-promo">
-                            u$s ${_billingToggle === 'annual' ? promoAnnual.toFixed(2) : promoMonthly.toFixed(2)}
-                            <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
-                        </div>` : `
-                        <div class="plan-price-promo">
-                            u$s ${_billingToggle === 'annual' ? regAnnual.toFixed(2) : regMonthly.toFixed(2)}
-                            <span class="plan-price-period">/ ${_billingToggle === 'annual' ? (isES ? 'año' : 'year') : (isES ? 'mes' : 'month')}</span>
-                        </div>`}
                         ${_billingToggle === 'annual' ? `
                         <div class="plan-price-monthly-equiv">
-                            ≈ u$s ${((promoActive ? promoAnnual : regAnnual) / 12).toFixed(2)} / ${isES ? 'mes' : 'month'}
+                            ≈ ${_fmtPrice(pricing, pricing.annual / 12)} / ${isES ? 'mes' : 'month'}
                         </div>` : ''}
+                        <div class="plan-price-country">📍 ${pricing.countryCode === 'AR' ? 'Argentina' : (pricing.countryName || pricing.countryCode)} · ${pricing.currency}</div>
                     </div>
                     <ul class="plan-feature-list plan-feature-list--premium">
                         <li>✅ ${isES ? 'Traductor ilimitado' : 'Unlimited translator'}</li>

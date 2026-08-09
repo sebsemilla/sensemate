@@ -244,6 +244,88 @@ app.use(express.static(path.join(__dirname, '.'), {
     dotfiles: 'allow',   // necesario para servir /.well-known/mcp/server-card.json
 }));
 
+// ─── Dynamic Pricing ──────────────────────────────────────────
+
+const COUNTRY_CURRENCY = {
+    AR: { currency: 'ARS', symbol: '$',    name: 'Argentina' },
+    US: { currency: 'USD', symbol: 'u$s',  name: 'Estados Unidos' },
+    BR: { currency: 'BRL', symbol: 'R$',   name: 'Brasil' },
+    MX: { currency: 'MXN', symbol: '$',    name: 'México' },
+    CL: { currency: 'CLP', symbol: '$',    name: 'Chile' },
+    CO: { currency: 'COP', symbol: '$',    name: 'Colombia' },
+    PE: { currency: 'PEN', symbol: 'S/',   name: 'Perú' },
+    UY: { currency: 'UYU', symbol: '$U',   name: 'Uruguay' },
+    PY: { currency: 'PYG', symbol: '₲',    name: 'Paraguay' },
+    BO: { currency: 'BOB', symbol: 'Bs.',  name: 'Bolivia' },
+    VE: { currency: 'USD', symbol: 'u$s',  name: 'Venezuela' },
+    EC: { currency: 'USD', symbol: 'u$s',  name: 'Ecuador' },
+    ES: { currency: 'EUR', symbol: '€',    name: 'España' },
+    DE: { currency: 'EUR', symbol: '€',    name: 'Alemania' },
+    FR: { currency: 'EUR', symbol: '€',    name: 'Francia' },
+    IT: { currency: 'EUR', symbol: '€',    name: 'Italia' },
+    PT: { currency: 'EUR', symbol: '€',    name: 'Portugal' },
+    GB: { currency: 'GBP', symbol: '£',    name: 'Reino Unido' },
+    CA: { currency: 'CAD', symbol: 'CA$',  name: 'Canadá' },
+    AU: { currency: 'AUD', symbol: 'A$',   name: 'Australia' },
+    NZ: { currency: 'NZD', symbol: 'NZ$',  name: 'Nueva Zelanda' },
+    JP: { currency: 'JPY', symbol: '¥',    name: 'Japón' },
+    CN: { currency: 'CNY', symbol: '¥',    name: 'China' },
+    IN: { currency: 'INR', symbol: '₹',    name: 'India' },
+};
+
+const _NO_DECIMALS_CURRENCIES = new Set(['ARS','CLP','COP','PYG','JPY','IDR','KRW']);
+
+let _pricingCache = null; // { rates, fetchedAt }
+
+function _roundPrice(amount, currency) {
+    if (currency === 'ARS') return Math.round(amount / 100) * 100;
+    if (_NO_DECIMALS_CURRENCIES.has(currency)) return Math.round(amount);
+    return Math.round(amount * 100) / 100;
+}
+
+app.get('/api/pricing', async (req, res) => {
+    const FALLBACK = { currency: 'ARS', symbol: '$', monthly: 20000, annual: 180000, countryCode: 'AR', countryName: 'Argentina' };
+    const monthlyARS = 20000;
+    const annualARS  = 180000;
+
+    try {
+        // 1. Detect country
+        const ip = (req.headers['x-forwarded-for'] || '').split(',')[0].trim() || req.ip;
+        let countryCode = 'AR';
+        const isLocal = !ip || ip === '127.0.0.1' || ip === '::1' || /^::ffff:127\./.test(ip);
+        if (!isLocal) {
+            try {
+                const geoRes = await axios.get(`https://api.country.is/${ip}`, { timeout: 3000 });
+                const code = (geoRes.data?.country || '').toString().trim().toUpperCase();
+                if (code.length === 2) countryCode = code;
+            } catch { /* default AR */ }
+        }
+
+        // 2. Map to currency
+        const entry = COUNTRY_CURRENCY[countryCode] || { currency: 'USD', symbol: 'u$s', name: countryCode };
+        const { currency, symbol, name: countryName } = entry;
+
+        // 3. Fetch exchange rates (cached 6h)
+        const now = Date.now();
+        if (!_pricingCache || (now - _pricingCache.fetchedAt) > 6 * 60 * 60 * 1000) {
+            const ratesRes = await axios.get('https://open.er-api.com/v6/latest/ARS', { timeout: 5000 });
+            _pricingCache = { rates: ratesRes.data.rates, fetchedAt: now };
+        }
+        const rates = _pricingCache.rates;
+        const rate  = rates[currency];
+        if (!rate) return res.json(FALLBACK);
+
+        // 4. Convert
+        const monthly = _roundPrice(monthlyARS / rate, currency);
+        const annual  = _roundPrice(annualARS  / rate, currency);
+
+        return res.json({ currency, symbol, monthly, annual, countryCode, countryName });
+    } catch (e) {
+        console.error('[/api/pricing]', e?.message);
+        return res.json(FALLBACK);
+    }
+});
+
 // ─── Register routes ──────────────────────────────────────────
 
 // Limiter global para todos los endpoints /admin
@@ -262,6 +344,89 @@ registerClassroomRoutes(app, { authDb });
 registerBotRoutes(app);
 
 registerCameraRoutes(app);
+
+// ── Pricing por geo-IP ─────────────────────────────────────────
+{
+    const COUNTRY_CURRENCY = {
+        AR: { currency: 'ARS', symbol: '$',    name: 'Argentina' },
+        US: { currency: 'USD', symbol: 'u$s',  name: 'Estados Unidos' },
+        BR: { currency: 'BRL', symbol: 'R$',   name: 'Brasil' },
+        MX: { currency: 'MXN', symbol: '$',    name: 'México' },
+        CL: { currency: 'CLP', symbol: '$',    name: 'Chile' },
+        CO: { currency: 'COP', symbol: '$',    name: 'Colombia' },
+        PE: { currency: 'PEN', symbol: 'S/',   name: 'Perú' },
+        UY: { currency: 'UYU', symbol: '$U',   name: 'Uruguay' },
+        PY: { currency: 'PYG', symbol: '₲',    name: 'Paraguay' },
+        BO: { currency: 'BOB', symbol: 'Bs.',  name: 'Bolivia' },
+        VE: { currency: 'USD', symbol: 'u$s',  name: 'Venezuela' },
+        EC: { currency: 'USD', symbol: 'u$s',  name: 'Ecuador' },
+        ES: { currency: 'EUR', symbol: '€',    name: 'España' },
+        DE: { currency: 'EUR', symbol: '€',    name: 'Alemania' },
+        FR: { currency: 'EUR', symbol: '€',    name: 'Francia' },
+        IT: { currency: 'EUR', symbol: '€',    name: 'Italia' },
+        PT: { currency: 'EUR', symbol: '€',    name: 'Portugal' },
+        GB: { currency: 'GBP', symbol: '£',    name: 'Reino Unido' },
+        CA: { currency: 'CAD', symbol: 'CA$',  name: 'Canadá' },
+        AU: { currency: 'AUD', symbol: 'A$',   name: 'Australia' },
+        NZ: { currency: 'NZD', symbol: 'NZ$',  name: 'Nueva Zelanda' },
+        JP: { currency: 'JPY', symbol: '¥',    name: 'Japón' },
+        CN: { currency: 'CNY', symbol: '¥',    name: 'China' },
+        IN: { currency: 'INR', symbol: '₹',    name: 'India' },
+    };
+    const NO_DECIMALS = new Set(['ARS','CLP','COP','PYG','JPY','IDR','KRW']);
+    const ANNUAL_ARS  = 20000;
+    const MONTHLY_ARS = Math.round(ANNUAL_ARS / 12);
+
+    let _rateCache = null; // { rates, fetchedAt }
+
+    function _roundPrice(amount, currency) {
+        if (NO_DECIMALS.has(currency)) return Math.round(amount);
+        return Math.round(amount * 100) / 100;
+    }
+
+    app.get('/api/pricing', async (req, res) => {
+        const fallback = { currency: 'ARS', symbol: '$', annual: ANNUAL_ARS, monthly: MONTHLY_ARS, countryCode: 'AR', countryName: 'Argentina' };
+        try {
+            const rawIp = (req.headers['x-forwarded-for'] || '').split(',')[0].trim() || req.ip || '';
+            const ip    = rawIp.replace('::ffff:', '');
+            const isLocal = !ip || ip === '::1' || ip.startsWith('127.') || ip === 'localhost';
+
+            let countryCode = 'AR';
+            if (!isLocal) {
+                try {
+                    const geoRes = await axios.get(`https://api.country.is/${ip}`, { timeout: 3000 });
+                    countryCode = geoRes.data?.country || 'AR';
+                } catch {}
+            }
+
+            const info = COUNTRY_CURRENCY[countryCode] || { currency: 'USD', symbol: 'u$s', name: countryCode };
+
+            if (info.currency === 'ARS') return res.json({ ...fallback, countryCode, countryName: info.name });
+
+            // Fetch exchange rates (cached 6h)
+            const now = Date.now();
+            if (!_rateCache || (now - _rateCache.fetchedAt) > 6 * 3600 * 1000) {
+                const rateRes = await axios.get('https://open.er-api.com/v6/latest/ARS', { timeout: 5000 });
+                _rateCache = { rates: rateRes.data.rates, fetchedAt: now };
+            }
+
+            const rate = _rateCache.rates[info.currency];
+            if (!rate) return res.json({ ...fallback, countryCode, countryName: info.name });
+
+            res.json({
+                currency:    info.currency,
+                symbol:      info.symbol,
+                annual:      _roundPrice(ANNUAL_ARS  * rate, info.currency),
+                monthly:     _roundPrice(MONTHLY_ARS * rate, info.currency),
+                countryCode,
+                countryName: info.name,
+            });
+        } catch (err) {
+            console.error('[pricing]', err.message);
+            res.json(fallback);
+        }
+    });
+}
 
 registerMcpRoutes(app);
 
