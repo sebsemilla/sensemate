@@ -5341,32 +5341,29 @@ function _initFab() {
 }
 
 async function _processCameraImage(file) {
-    // Compress image with Canvas
-    const base64 = await new Promise((resolve, reject) => {
-        const img = new Image();
-        const url = URL.createObjectURL(file);
-        img.onload = () => {
-            URL.revokeObjectURL(url);
-            const MAX = 1024;
-            let { width, height } = img;
-            if (width > MAX || height > MAX) {
-                const ratio = Math.min(MAX / width, MAX / height);
-                width  = Math.round(width  * ratio);
-                height = Math.round(height * ratio);
-            }
-            const canvas = document.createElement('canvas');
-            canvas.width = width; canvas.height = height;
-            canvas.getContext('2d').drawImage(img, 0, 0, width, height);
-            resolve(canvas.toDataURL('image/jpeg', 0.75).split(',')[1]);
-        };
-        img.onerror = reject;
-        img.src = url;
-    });
-
-    // Show loading modal
     _showCameraModal({ loading: true });
-
     try {
+        const base64 = await new Promise((resolve, reject) => {
+            const img = new Image();
+            const url = URL.createObjectURL(file);
+            img.onload = () => {
+                URL.revokeObjectURL(url);
+                const MAX = 1024;
+                let { width, height } = img;
+                if (width > MAX || height > MAX) {
+                    const ratio = Math.min(MAX / width, MAX / height);
+                    width  = Math.round(width  * ratio);
+                    height = Math.round(height * ratio);
+                }
+                const canvas = document.createElement('canvas');
+                canvas.width = width; canvas.height = height;
+                canvas.getContext('2d').drawImage(img, 0, 0, width, height);
+                resolve(canvas.toDataURL('image/jpeg', 0.75).split(',')[1]);
+            };
+            img.onerror = () => reject(new Error('No se pudo leer la imagen'));
+            img.src = url;
+        });
+
         const tLang = (typeof targetLang !== 'undefined' ? targetLang : null) || 'es';
         const res = await _authFetch(`${_API_HOST}/translate-image`, {
             method: 'POST',
@@ -5396,6 +5393,7 @@ function _showCameraModal({ loading, result, error } = {}) {
     }
 
     if (error) {
+        modal.classList.add('open');
         modal.innerHTML = `
         <div class="cam-modal-box">
             <button class="cam-modal-close" onclick="document.getElementById('cameraModal').classList.remove('open')">✕</button>
@@ -5405,6 +5403,7 @@ function _showCameraModal({ loading, result, error } = {}) {
     }
 
     if (result) {
+        modal.classList.add('open');
         const { originalText, translatedText } = result;
         const saved = !!currentUser;
         modal.innerHTML = `
