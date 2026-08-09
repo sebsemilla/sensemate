@@ -59,17 +59,23 @@ module.exports = function registerCameraRoutes(app) {
                 || '';
 
             const result = { originalText, translatedText, sourceLang: 'auto', targetLang, ts: Date.now() };
-
-            // Save to history if user is logged in
-            if (req.jwtUser?.id) {
-                try { dbSaveScan(req.jwtUser.id, result); } catch {}
-            }
-
             res.json(result);
         } catch (err) {
             const detail = err.response?.data ? JSON.stringify(err.response.data) : err.message;
             console.error('[translate-image]', detail);
             res.status(500).json({ error: 'Error procesando la imagen. Intentá de nuevo.' });
+        }
+    });
+
+    // POST /user/save-scan — explicit save to history
+    app.post('/user/save-scan', verifyToken, (req, res) => {
+        const { originalText, translatedText, sourceLang = 'auto', targetLang = 'es' } = req.body;
+        if (!translatedText) return res.status(400).json({ error: 'Falta translatedText' });
+        try {
+            dbSaveScan(req.jwtUser.id, { originalText, translatedText, sourceLang, targetLang });
+            res.json({ ok: true });
+        } catch (err) {
+            res.status(500).json({ error: err.message });
         }
     });
 

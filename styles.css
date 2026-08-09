@@ -14849,6 +14849,12 @@ body.dark-mode .fab-sub-btn { background: #1e2d24; }
 .cam-modal-translation { background: rgba(52,183,120,.1); border-left: 3px solid #34b778; }
 .cam-modal-saved { font-size: .8rem; color: #16a34a; margin: 4px 0 0; }
 .cam-modal-note  { font-size: .8rem; color: var(--text-muted); margin: 4px 0 0; }
+.cam-modal-actions { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; align-items: center; }
+.cam-save-btn { flex: 1; min-width: 140px; padding: 9px 14px; border: none; border-radius: 10px; font-size: .85rem; font-weight: 600; cursor: pointer; background: #2d6a4f; color: #fff; transition: background .18s, opacity .18s; }
+.cam-save-btn:hover { background: #1b4332; }
+.cam-save-btn:disabled { opacity: .55; cursor: default; }
+.cam-save-txt { background: #475569; }
+.cam-save-txt:hover { background: #334155; }
 
 body.dark-mode .cam-modal-box { background: #1a2820; }
 body.dark-mode .cam-modal-text { background: #0f1a13; color: #e2e8f0; }

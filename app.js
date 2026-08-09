@@ -5404,8 +5404,8 @@ function _showCameraModal({ loading, result, error } = {}) {
 
     if (result) {
         modal.classList.add('open');
-        const { originalText, translatedText } = result;
-        const saved = !!currentUser;
+        const { originalText, translatedText, sourceLang: sLang, targetLang: tLang, ts } = result;
+        const canHistory = !!currentUser;
         modal.innerHTML = `
         <div class="cam-modal-box">
             <button class="cam-modal-close" onclick="document.getElementById('cameraModal').classList.remove('open')">✕</button>
@@ -5419,8 +5419,38 @@ function _showCameraModal({ loading, result, error } = {}) {
                 <div class="cam-modal-label">Traducción</div>
                 <div class="cam-modal-text cam-modal-translation">${_escHtml(translatedText || '(sin resultado)')}</div>
             </div>
-            ${saved ? '<p class="cam-modal-saved">✅ Guardado en tu historial</p>' : '<p class="cam-modal-note">💡 Iniciá sesión para guardar en tu historial</p>'}
+            <div class="cam-modal-actions">
+                ${canHistory ? `<button class="cam-save-btn" id="camSaveHistoryBtn">📋 Guardar en historial</button>` : `<span class="cam-modal-note">💡 Iniciá sesión para guardar en historial</span>`}
+                <button class="cam-save-btn cam-save-txt" id="camSaveTxtBtn">💾 Guardar como .txt</button>
+            </div>
         </div>`;
+        modal.querySelector('#camSaveTxtBtn')?.addEventListener('click', () => {
+            const content = [
+                originalText ? `[Original]\n${originalText}` : '',
+                `[Traducción]\n${translatedText}`,
+                `\nFecha: ${new Date(ts || Date.now()).toLocaleString()}`
+            ].filter(Boolean).join('\n\n');
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(new Blob([content], { type: 'text/plain' }));
+            a.download = `sensemate_scan_${Date.now()}.txt`;
+            a.click();
+        });
+        modal.querySelector('#camSaveHistoryBtn')?.addEventListener('click', async (e) => {
+            const btn = e.currentTarget;
+            btn.disabled = true;
+            btn.textContent = 'Guardando…';
+            try {
+                const r = await _authFetch(`${_API_HOST}/user/save-scan`, {
+                    method: 'POST',
+                    body: JSON.stringify({ originalText, translatedText, sourceLang: sLang, targetLang: tLang })
+                });
+                if (!r.ok) throw new Error();
+                btn.textContent = '✅ Guardado';
+            } catch {
+                btn.textContent = '❌ Error al guardar';
+                btn.disabled = false;
+            }
+        });
     }
 }
 
