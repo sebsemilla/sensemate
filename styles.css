@@ -14612,7 +14612,7 @@ body.dark-mode .lf-badge--level { background: rgba(99,102,241,.2); }
 
 /* ── Full post overlay / article ─────────────────────── */
 .lf-post-overlay {
-    position: fixed; inset: 0; z-index: 900;
+    position: fixed; inset: 0; z-index: 1300;
     background: var(--body-bg, #f5f7fb);
     transform: translateX(100%);
     transition: transform 0.28s cubic-bezier(0.4,0,0.2,1);
