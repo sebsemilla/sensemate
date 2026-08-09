@@ -100,7 +100,7 @@ const DEEPSEEK_URL = 'https://api.deepseek.com/chat/completions';
 
 function _systemPrompt(bot) {
     return `Eres un generador de contenido educativo para SenseMate, una app de aprendizaje de idiomas.
-Genera exactamente ${bot.quantity} publicación(es) distintas en formato JSON array.
+Genera EXACTAMENTE ${bot.quantity} publicación(es) distintas en formato JSON array. Este número es obligatorio — si el prompt del usuario menciona otra cantidad, ignórala y genera ${bot.quantity}.
 
 Cada elemento DEBE tener estos campos:
 - "title": string (max 80 chars) — título directo y concreto

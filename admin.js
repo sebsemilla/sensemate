@@ -2161,7 +2161,8 @@ async function _adminRenderBots(container, activeTab) {
         const slot = document.getElementById('botFormSlot');
         slot.innerHTML = _botForm();
         _initBotForm(null, slot, bots, container);
-        slot.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const adminContent = document.getElementById('adminTabContent') || container;
+        adminContent.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     // ── Tarjetas de bot ────────────────────────────────────────────────────────
@@ -2428,7 +2429,8 @@ function _bindBotCardEvents(container, botsArr) {
             const slot = document.getElementById('botFormSlot');
             slot.innerHTML = _botForm(bot);
             _initBotForm(bot, slot, botsArr, container);
-            slot.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            const adminContent = document.getElementById('adminTabContent') || container;
+            adminContent.scrollTo({ top: 0, behavior: 'smooth' });
         });
     });
 

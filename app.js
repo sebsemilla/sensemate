@@ -3008,7 +3008,7 @@ function showMainMenu() {
 async function _getLiveFeedPosts(filter = 'recientes') {
     try {
         const limit = filter === 'recientes' ? 30 : 100;
-        const res   = await fetch(`${API_URL}/api/feed?limit=${limit}`);
+        const res   = await fetch(`${_API_HOST}/api/feed?limit=${limit}`);
         if (!res.ok) throw new Error('API error');
         const data  = await res.json();
         return data.posts || [];
