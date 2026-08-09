@@ -17,6 +17,7 @@ const registerContentRoutes   = require('./routes/content.cjs');
 const registerMembershipRoutes = require('./routes/membership.cjs');
 const registerClassroomRoutes = require('./routes/classroom.cjs');
 const registerBotRoutes       = require('./routes/bots.cjs');
+const registerCameraRoutes    = require('./routes/camera.cjs');
 const { registerMcpRoutes }   = require('./mcp_server.cjs');
 const { loadContributors }    = require('./routes/content.cjs');
 const { loadBots, runBot }    = require('./bot_runner.cjs');
@@ -259,6 +260,8 @@ registerMembershipRoutes(app, { authDb });
 registerClassroomRoutes(app, { authDb });
 
 registerBotRoutes(app);
+
+registerCameraRoutes(app);
 
 registerMcpRoutes(app);
 

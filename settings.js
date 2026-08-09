@@ -33,6 +33,9 @@ const SETTINGS_DEFAULTS = {
     dailyReminder:     false,
     reminderTime:      '20:00',
     reminderFrequency: 'daily',   // 'daily' | 'weekdays'
+
+    // UI
+    fabPosition: 'right',   // 'right' | 'left'
 };
 
 // ─── Carga y guardado ─────────────────────────────────────────
@@ -224,6 +227,21 @@ function loadSettingsSection() {
 
             <div class="cfg-divider"></div>
 
+            <!-- ═══ Interfaz ════════════════════════════════════ -->
+            <div class="cfg-section">
+                <div class="cfg-section-title">🎛️ Interfaz</div>
+
+                <div class="cfg-row">
+                    <span class="cfg-row-label">Posición del botón flotante</span>
+                    <select class="cfg-select" id="cfgFabPosition">
+                        <option value="right" ${appSettings.fabPosition === 'right' ? 'selected' : ''}>Derecha</option>
+                        <option value="left"  ${appSettings.fabPosition === 'left'  ? 'selected' : ''}>Izquierda</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cfg-divider"></div>
+
             <!-- ═══ Privacidad y datos ══════════════════════════ -->
             <div class="cfg-section">
                 <div class="cfg-section-title">🔒 Privacidad y datos</div>
@@ -372,6 +390,13 @@ function _bindSettingsEvents() {
     document.getElementById('cfgReminderFreq')?.addEventListener('change', e => {
         appSettings.reminderFrequency = e.target.value;
         saveSettings();
+    });
+
+    // FAB position
+    document.getElementById('cfgFabPosition')?.addEventListener('change', e => {
+        appSettings.fabPosition = e.target.value;
+        saveSettings();
+        if (typeof _applyFabPosition === 'function') _applyFabPosition();
     });
 
     // Privacidad

@@ -769,6 +769,15 @@ db.exec(`
     comments INTEGER DEFAULT 0,
     schema TEXT
   );
+  CREATE TABLE IF NOT EXISTS scan_history (
+    id TEXT PRIMARY KEY,
+    userId TEXT NOT NULL,
+    originalText TEXT,
+    translatedText TEXT,
+    sourceLang TEXT DEFAULT 'auto',
+    targetLang TEXT DEFAULT 'es',
+    ts INTEGER
+  );
 `);
 
 function _botRow(b) {
@@ -859,6 +868,16 @@ function dbLoadPost(id) {
     return row ? _postRow(row) : null;
 }
 
+function dbSaveScan(userId, { originalText, translatedText, sourceLang, targetLang }) {
+    const id = `scan_${Date.now()}_${Math.random().toString(36).slice(2,7)}`;
+    db.prepare(`INSERT INTO scan_history (id,userId,originalText,translatedText,sourceLang,targetLang,ts)
+                VALUES (?,?,?,?,?,?,?)`).run(id, userId, originalText, translatedText, sourceLang, targetLang, Date.now());
+    return id;
+}
+function dbLoadScans(userId, limit = 50) {
+    return db.prepare('SELECT * FROM scan_history WHERE userId=? ORDER BY ts DESC LIMIT ?').all(userId, limit);
+}
+
 module.exports = {
     register, login, loginWithGoogle, verifyToken, optionalAuth, signToken, getUserById, setUserPlan, setClassroomAddon,
     setAuthCookie, clearAuthCookie,
@@ -877,4 +896,6 @@ module.exports = {
     // Bots + Feed (SQLite)
     dbLoadBots, dbSaveBots, dbPatchBot, dbDeleteBot,
     dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost, dbLoadPost,
+    // Scan history
+    dbSaveScan, dbLoadScans,
 };

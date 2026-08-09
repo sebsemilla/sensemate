@@ -128,6 +128,7 @@
                 🌐 Cargando...
             </div>
             <a href="#" id="profileLink">👤 Perfil</a>
+            <a href="#" id="scanHistoryLink">📷 Historial de cámara</a>
             <a href="#" id="settingsLink">⚙️ Configuración</a>
             <a href="#" id="complaintsLink">📢 Quejas</a>
             <a href="#" id="suggestionsLink">💡 Sugerencias</a>
@@ -231,6 +232,24 @@
             });
         }
     </script>
+
+<!-- FAB -->
+<div class="fab-container" id="fabContainer">
+    <div class="fab-sub-btns hidden" id="fabSubBtns">
+        <div class="fab-sub-item">
+            <span class="fab-sub-label">Ir a...</span>
+            <button class="fab-sub-btn" id="fabShortcutBtn" aria-label="Accesos directos">⚡</button>
+        </div>
+        <div class="fab-sub-item">
+            <span class="fab-sub-label">Cámara</span>
+            <button class="fab-sub-btn" id="fabCameraBtn" aria-label="Traducir imagen">📷</button>
+        </div>
+    </div>
+    <button class="fab-main" id="fabMain" aria-label="Menú rápido">
+        <span class="fab-icon">＋</span>
+    </button>
+</div>
+<input type="file" id="fabCameraInput" accept="image/*" capture="environment" style="display:none">
 
 </body>
 </html>

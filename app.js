@@ -417,6 +417,11 @@ document.getElementById('suggestionsLink').addEventListener('click', e => { e.pr
 document.getElementById('themesLink').addEventListener('click',      e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); showThemesPanel(); });
 document.getElementById('logoutLink').addEventListener('click', e => { e.preventDefault(); authLogout(); location.reload(); });
 document.getElementById('planesMenuLink')?.addEventListener('click', e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); if (typeof loadMembershipSection === 'function') loadMembershipSection(); });
+document.getElementById('scanHistoryLink')?.addEventListener('click', e => {
+    e.preventDefault();
+    dropdownMenu.classList.add('hidden');
+    _renderScanHistory();
+});
 document.getElementById('classroomsMenuLink')?.addEventListener('click', e => {
     e.preventDefault();
     dropdownMenu.classList.add('hidden');
@@ -4703,6 +4708,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     // Cargar configuración (antes de traducciones para que appSettings.uiLanguage tenga prioridad)
     loadSettings();
+    _initFab();
     if (appSettings?.uiLanguage && appSettings.uiLanguage !== appUILanguage) {
         appUILanguage = appSettings.uiLanguage;
         localStorage.setItem('appUILanguage', appUILanguage);
@@ -5279,3 +5285,237 @@ window.addEventListener('DOMContentLoaded', async () => {
         }
     });
 });
+
+// ─── FAB (Floating Action Button) ─────────────────────────────
+
+function _applyFabPosition() {
+    const fab = document.getElementById('fabContainer');
+    if (!fab) return;
+    const pos = (typeof appSettings !== 'undefined' && appSettings.fabPosition) || 'right';
+    fab.classList.toggle('fab-left', pos === 'left');
+    fab.classList.toggle('fab-right', pos !== 'left');
+}
+
+function _initFab() {
+    const fab      = document.getElementById('fabMain');
+    const subBtns  = document.getElementById('fabSubBtns');
+    const camBtn   = document.getElementById('fabCameraBtn');
+    const shortBtn = document.getElementById('fabShortcutBtn');
+    const camInput = document.getElementById('fabCameraInput');
+    if (!fab) return;
+
+    _applyFabPosition();
+
+    fab.addEventListener('click', () => {
+        const open = !subBtns.classList.contains('hidden');
+        subBtns.classList.toggle('hidden', open);
+        fab.classList.toggle('fab-open', !open);
+    });
+
+    document.addEventListener('click', e => {
+        const container = document.getElementById('fabContainer');
+        if (container && !container.contains(e.target)) {
+            subBtns.classList.add('hidden');
+            fab.classList.remove('fab-open');
+        }
+    });
+
+    camBtn?.addEventListener('click', () => {
+        subBtns.classList.add('hidden');
+        fab.classList.remove('fab-open');
+        camInput?.click();
+    });
+
+    shortBtn?.addEventListener('click', () => {
+        subBtns.classList.add('hidden');
+        fab.classList.remove('fab-open');
+        _openShortcutsPanel();
+    });
+
+    camInput?.addEventListener('change', async (e) => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+        e.target.value = '';
+        await _processCameraImage(file);
+    });
+}
+
+async function _processCameraImage(file) {
+    // Compress image with Canvas
+    const base64 = await new Promise((resolve, reject) => {
+        const img = new Image();
+        const url = URL.createObjectURL(file);
+        img.onload = () => {
+            URL.revokeObjectURL(url);
+            const MAX = 1024;
+            let { width, height } = img;
+            if (width > MAX || height > MAX) {
+                const ratio = Math.min(MAX / width, MAX / height);
+                width  = Math.round(width  * ratio);
+                height = Math.round(height * ratio);
+            }
+            const canvas = document.createElement('canvas');
+            canvas.width = width; canvas.height = height;
+            canvas.getContext('2d').drawImage(img, 0, 0, width, height);
+            resolve(canvas.toDataURL('image/jpeg', 0.75).split(',')[1]);
+        };
+        img.onerror = reject;
+        img.src = url;
+    });
+
+    // Show loading modal
+    _showCameraModal({ loading: true });
+
+    try {
+        const tLang = (typeof targetLang !== 'undefined' ? targetLang : null) || 'es';
+        const res = await _authFetch(`${_API_HOST}/translate-image`, {
+            method: 'POST',
+            body: JSON.stringify({ imageBase64: base64, targetLang: tLang })
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Error desconocido');
+        _showCameraModal({ result: data });
+    } catch (err) {
+        _showCameraModal({ error: err.message });
+    }
+}
+
+function _showCameraModal({ loading, result, error } = {}) {
+    let modal = document.getElementById('cameraModal');
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'cameraModal';
+        modal.className = 'cam-modal';
+        document.body.appendChild(modal);
+    }
+
+    if (loading) {
+        modal.innerHTML = `<div class="cam-modal-box"><div class="cam-modal-loading"><div class="school-dots"><span></span><span></span><span></span></div><p>Analizando imagen…</p></div></div>`;
+        modal.classList.add('open');
+        return;
+    }
+
+    if (error) {
+        modal.innerHTML = `
+        <div class="cam-modal-box">
+            <button class="cam-modal-close" onclick="document.getElementById('cameraModal').classList.remove('open')">✕</button>
+            <p class="cam-modal-error">❌ ${_escHtml(error)}</p>
+        </div>`;
+        return;
+    }
+
+    if (result) {
+        const { originalText, translatedText } = result;
+        const saved = !!currentUser;
+        modal.innerHTML = `
+        <div class="cam-modal-box">
+            <button class="cam-modal-close" onclick="document.getElementById('cameraModal').classList.remove('open')">✕</button>
+            <h3 class="cam-modal-title">📷 Traducción de imagen</h3>
+            ${originalText ? `
+            <div class="cam-modal-section">
+                <div class="cam-modal-label">Texto original</div>
+                <div class="cam-modal-text">${_escHtml(originalText)}</div>
+            </div>` : ''}
+            <div class="cam-modal-section">
+                <div class="cam-modal-label">Traducción</div>
+                <div class="cam-modal-text cam-modal-translation">${_escHtml(translatedText || '(sin resultado)')}</div>
+            </div>
+            ${saved ? '<p class="cam-modal-saved">✅ Guardado en tu historial</p>' : '<p class="cam-modal-note">💡 Iniciá sesión para guardar en tu historial</p>'}
+        </div>`;
+    }
+}
+
+function _openShortcutsPanel() {
+    let panel = document.getElementById('shortcutsPanel');
+    if (!panel) {
+        panel = document.createElement('div');
+        panel.id = 'shortcutsPanel';
+        panel.className = 'shortcuts-panel';
+        document.body.appendChild(panel);
+    }
+
+    const sections = [
+        { icon: '🔄', label: 'Traducción',       mode: 'traduccion' },
+        { icon: '🧭', label: 'Exploración',       mode: 'exploracion' },
+        { icon: '🎯', label: 'MisionMate',         action: () => { if (typeof toggleMisionMate === 'function') toggleMisionMate(); } },
+        { icon: '🃏', label: 'Flashcards',         action: () => { if (typeof loadFlashcards === 'function') loadFlashcards(); } },
+        { icon: '💬', label: 'Chat Tutor',         mode: 'chat' },
+        { icon: '🎤', label: 'Personajes',         mode: 'famous' },
+        { icon: '🎵', label: 'Música',             mode: 'musicians' },
+        { icon: '📡', label: 'Live Feed',           mode: 'livefeed' },
+        { icon: '🎓', label: 'Class Room',          mode: 'classroom' },
+        { icon: '🎬', label: 'Inmersión',           mode: 'immersion' },
+        { icon: '📷', label: 'Historial de cámara', action: () => _renderScanHistory() },
+    ];
+
+    panel.innerHTML = `
+    <div class="shortcuts-overlay" onclick="document.getElementById('shortcutsPanel').classList.remove('open')"></div>
+    <div class="shortcuts-drawer">
+        <div class="shortcuts-header">
+            <span>Ir a...</span>
+            <button class="shortcuts-close" onclick="document.getElementById('shortcutsPanel').classList.remove('open')">✕</button>
+        </div>
+        <div class="shortcuts-grid">
+            ${sections.map((s, i) => `<button class="shortcut-item" data-idx="${i}">${s.icon}<span>${s.label}</span></button>`).join('')}
+        </div>
+    </div>`;
+
+    panel.classList.add('open');
+
+    panel.querySelectorAll('.shortcut-item').forEach(btn => {
+        btn.addEventListener('click', () => {
+            panel.classList.remove('open');
+            const s = sections[parseInt(btn.dataset.idx)];
+            if (s.action) {
+                s.action();
+            } else if (s.mode) {
+                const selector = document.getElementById('appModeSelector');
+                if (selector) {
+                    const tab = selector.querySelector(`[data-tab="${s.mode}"]`);
+                    if (tab) tab.click();
+                }
+            }
+        });
+    });
+}
+
+async function _renderScanHistory() {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+
+    if (!currentUser) {
+        mainContainer.innerHTML = `
+        <div style="max-width:500px;margin:40px auto;padding:20px;text-align:center">
+            <p style="font-size:1.1rem;margin-bottom:12px">📷 Necesitás iniciar sesión para ver tu historial de cámara.</p>
+        </div>`;
+        return;
+    }
+
+    mainContainer.innerHTML = `
+    <div class="scan-history-section">
+        <div class="scan-history-header">
+            <h2>📷 Historial de cámara</h2>
+        </div>
+        <div id="scanHistoryList"><div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div></div>
+    </div>`;
+
+    try {
+        const res = await _authFetch(`${_API_HOST}/user/scan-history`);
+        if (!res.ok) throw new Error('Error al cargar historial');
+        const { scans } = await res.json();
+        const list = document.getElementById('scanHistoryList');
+        if (!scans.length) {
+            list.innerHTML = '<div class="livefeed-empty">📭 No hay traducciones guardadas aún.</div>';
+            return;
+        }
+        list.innerHTML = scans.map(s => `
+        <div class="scan-item">
+            <div class="scan-item-date">${new Date(s.ts).toLocaleString('es-AR', { dateStyle: 'short', timeStyle: 'short' })}</div>
+            ${s.originalText ? `<div class="scan-item-original">${_escHtml(s.originalText)}</div>` : ''}
+            <div class="scan-item-translation">${_escHtml(s.translatedText || '')}</div>
+            <div class="scan-item-langs">${s.sourceLang || 'auto'} → ${s.targetLang || 'es'}</div>
+        </div>`).join('');
+    } catch (err) {
+        document.getElementById('scanHistoryList').innerHTML = `<div class="admin-error">❌ ${_escHtml(err.message)}</div>`;
+    }
+}
