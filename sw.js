@@ -1,4 +1,4 @@
-const CACHE = 'sensemate-v3';
+const CACHE = 'sensemate-v4';
 const STATIC = [
     '/',
     '/styles.css',
