@@ -320,6 +320,22 @@ try {
     initialBots.filter(b => b.enabled).forEach(_scheduleBot);
     console.log(`[Bots] ${initialBots.filter(b => b.enabled).length} bot(s) activo(s) registrados.`);
 
+    // Auto-regenerar schedule human-random si el archivo no existe o está vacío (ej: redeploy)
+    try {
+        const { loadSchedule, regenerateBotSchedule } = require('./bot_schedule.cjs');
+        const humanBots = initialBots.filter(b => b.enabled && b.scheduleMode === 'human-random');
+        if (humanBots.length > 0 && loadSchedule().filter(e => !e.fired).length === 0) {
+            const now = new Date();
+            const endDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 2, 0));
+            humanBots.forEach((bot, idx) => {
+                regenerateBotSchedule(bot.id, bot.postsPerDayWeekday || 2, bot.postsPerDayWeekend || 3, idx, endDate);
+            });
+            console.log(`[Bots] Schedule auto-regenerado para ${humanBots.length} bot(s) human-random.`);
+        }
+    } catch (e) {
+        console.warn('[Bots] No se pudo auto-regenerar schedule:', e.message);
+    }
+
     // Exponer el scheduler en app para que routes/bots.cjs pueda crear/actualizar/borrar crons
     app._botScheduler = {
         register: (bot) => _scheduleBot(bot),
