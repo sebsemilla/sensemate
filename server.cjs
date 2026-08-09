@@ -263,7 +263,8 @@ registerBotRoutes(app);
 registerMcpRoutes(app);
 
 // ── Catch-all para rutas del SPA (deep links) ─────────────────
-app.get('*', (req, res, next) => {
+app.use((req, res, next) => {
+    if (req.method !== 'GET') return next();
     if (req.path.startsWith('/api/') || req.path.startsWith('/admin/')) return next();
     res.sendFile(path.join(__dirname, 'index.html'));
 });
