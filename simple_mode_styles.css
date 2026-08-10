@@ -372,4 +372,22 @@
 .dark-mode .smp-auto-btn      { border-color: rgba(255,255,255,.1); }
 
 
+/* ── AI Footer ── */
+.smp-ai-footer {
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
+  gap: 8px; margin-top: 4px; padding: 10px 14px;
+  background: rgba(45,106,79,.06); border: 1px solid rgba(45,106,79,.15);
+  border-radius: 10px; font-size: .78rem; color: var(--text-muted, #64748b);
+}
+.smp-ai-footer strong { color: #2d6a4f; }
+.smp-ai-footer-btn {
+  display: inline-block; padding: 4px 12px;
+  background: #2d6a4f; color: #fff; border-radius: 20px;
+  font-size: .75rem; font-weight: 600; text-decoration: none;
+  transition: background .15s; white-space: nowrap;
+}
+.smp-ai-footer-btn:hover { background: #1b4332; }
+.dark-mode .smp-ai-footer { background: rgba(52,183,120,.07); border-color: rgba(52,183,120,.15); }
+.dark-mode .smp-ai-footer strong { color: #52b788; }
+
 /* ============ SIMPLE MODE — fin ============ */

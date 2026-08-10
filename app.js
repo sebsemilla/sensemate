@@ -4133,6 +4133,13 @@ function loadSimpleMode() {
                 </div>
 
             </div>
+
+            <!-- Footer Cohere -->
+            <div class="smp-ai-footer">
+                <span class="smp-ai-footer-text">✨ ${t.powered_by || 'Traducción impulsada por'} <strong>Cohere AI</strong></span>
+                <a class="smp-ai-footer-btn" href="https://cohere.com" target="_blank" rel="noopener">Conocer Cohere →</a>
+            </div>
+
         </div>
     `);
 
