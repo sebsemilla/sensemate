@@ -5476,17 +5476,16 @@ function _initFab() {
 const _FAB_SHORTCUT_KEY = 'fabPinnedShortcut';
 function _getFabSections() {
     return [
-        { icon: '🔄', label: 'Traducción',        mode: 'traduccion' },
-        { icon: '🧭', label: 'Exploración',        mode: 'exploracion' },
-        { icon: '🗡️', label: 'MisionMate',         mode: 'mision' },
-        { icon: '🃏', label: 'Flashcards',          idx_action: 'flashcards' },
-        { icon: '💬', label: 'Chat Tutor',          mode: 'chat' },
-        { icon: '🎤', label: 'Personajes',          mode: 'famous' },
-        { icon: '🎵', label: 'Música',              mode: 'musicians' },
-        { icon: '📡', label: 'Live Feed',            mode: 'livefeed' },
-        { icon: '🎓', label: 'Class Room',           mode: 'classroom' },
-        { icon: '🎬', label: 'Inmersión',            mode: 'immersion' },
-        { icon: '📷', label: 'Historial de cámara',  idx_action: 'scanhistory' },
+        { icon: '🔄', label: 'Traducción con IA',  idx_action: 'traduccion' },
+        { icon: '🧭', label: 'Exploración',         mode: 'exploracion' },
+        { icon: '🗡️', label: 'MisionMate',          mode: 'mision' },
+        { icon: '🃏', label: 'Flashcards',           idx_action: 'flashcards' },
+        { icon: '⭐', label: 'Chat con Famosos',     idx_action: 'famous' },
+        { icon: '🎵', label: 'Música',               idx_action: 'musicians' },
+        { icon: '📡', label: 'Live Feed',             mode: 'livefeed' },
+        { icon: '🎓', label: 'Class Room',            mode: 'classroom' },
+        { icon: '🎬', label: 'Multimedia',            idx_action: 'immersion' },
+        { icon: '👤', label: 'Perfil',               idx_action: 'profile' },
     ];
 }
 function _getPinnedShortcut() {
@@ -5514,10 +5513,24 @@ function _executeShortcut(s) {
     if (s.mode) {
         const tab = document.querySelector(`#appModeSelector [data-tab="${s.mode}"]`);
         if (tab) tab.click();
+    } else if (s.idx_action === 'traduccion') {
+        // Go to traduccion tab first, then load SimpleMode directly
+        const tab = document.querySelector('#appModeSelector [data-tab="traduccion"]');
+        if (tab) tab.click();
+        setTimeout(() => { if (typeof loadSimpleMode === 'function') loadSimpleMode(); }, 80);
     } else if (s.idx_action === 'flashcards') {
         if (typeof loadFlashcards === 'function') loadFlashcards();
-    } else if (s.idx_action === 'scanhistory') {
-        _renderScanHistory();
+    } else if (s.idx_action === 'famous') {
+        if (typeof loadFamousChatMenu === 'function') loadFamousChatMenu();
+        else document.querySelector('[data-mode="famous"]')?.click();
+    } else if (s.idx_action === 'musicians') {
+        if (typeof loadMusiciansMenu === 'function') loadMusiciansMenu();
+        else document.querySelector('[data-mode="musicians"]')?.click();
+    } else if (s.idx_action === 'immersion') {
+        if (typeof loadImmersionSection === 'function') loadImmersionSection();
+        else document.querySelector('[data-mode="immersion"]')?.click();
+    } else if (s.idx_action === 'profile') {
+        document.getElementById('profileLink')?.click();
     }
 }
 
