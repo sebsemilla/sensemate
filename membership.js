@@ -163,9 +163,18 @@ function _todayKey() {
 
 function _fmtPrice(pricing, amount) {
     const noDecimals = ['ARS','CLP','COP','PYG','JPY','IDR','KRW'];
-    const val = noDecimals.includes(pricing.currency)
-        ? Math.round(amount).toLocaleString('es-AR')
-        : Number(amount).toFixed(2);
+    const localeMap  = {
+        ARS:'es-AR', BRL:'pt-BR', MXN:'es-MX', CLP:'es-CL', COP:'es-CO',
+        PEN:'es-PE', UYU:'es-UY', PYG:'es-PY', BOB:'es-BO',
+        USD:'en-US', EUR:'es-ES', GBP:'en-GB', CAD:'en-CA',
+        AUD:'en-AU', NZD:'en-NZ', JPY:'ja-JP', CNY:'zh-CN', INR:'en-IN',
+    };
+    const locale   = localeMap[pricing.currency] || 'es-AR';
+    const decimals = noDecimals.includes(pricing.currency) ? 0 : 2;
+    const val = new Intl.NumberFormat(locale, {
+        minimumFractionDigits: decimals,
+        maximumFractionDigits: decimals,
+    }).format(amount);
     return `${pricing.symbol} ${val}`;
 }
 
