@@ -374,8 +374,18 @@ registerCameraRoutes(app);
         IN: { currency: 'INR', symbol: '₹',    name: 'India' },
     };
     const NO_DECIMALS = new Set(['ARS','CLP','COP','PYG','JPY','IDR','KRW']);
-    const ANNUAL_ARS  = 20000;
-    const MONTHLY_ARS = Math.round(ANNUAL_ARS / 12);
+
+    // Precios fijos por moneda (anuales)
+    const FIXED_PRICES = {
+        ARS: 19990,
+        USD: 19.99,
+        BRL: 100,
+    };
+    const FIXED_MONTHLY = {
+        ARS: Math.round(19990 / 12),
+        USD: +(19.99 / 12).toFixed(2),
+        BRL: +(100  / 12).toFixed(2),
+    };
 
     let _rateCache = null; // { rates, fetchedAt }
 
@@ -385,7 +395,7 @@ registerCameraRoutes(app);
     }
 
     app.get('/api/pricing', async (req, res) => {
-        const fallback = { currency: 'ARS', symbol: '$', annual: ANNUAL_ARS, monthly: MONTHLY_ARS, countryCode: 'AR', countryName: 'Argentina' };
+        const fallback = { currency: 'ARS', symbol: '$', annual: FIXED_PRICES.ARS, monthly: FIXED_MONTHLY.ARS, countryCode: 'AR', countryName: 'Argentina' };
         try {
             const rawIp = (req.headers['x-forwarded-for'] || '').split(',')[0].trim() || req.ip || '';
             const ip    = rawIp.replace('::ffff:', '');
@@ -401,12 +411,19 @@ registerCameraRoutes(app);
 
             const info = COUNTRY_CURRENCY[countryCode] || { currency: 'USD', symbol: 'u$s', name: countryCode };
 
-            if (info.currency === 'ARS') return res.json({ ...fallback, countryCode, countryName: info.name });
+            // Devolver precio fijo si existe para esa moneda
+            if (FIXED_PRICES[info.currency] !== undefined) {
+                return res.json({
+                    currency: info.currency, symbol: info.symbol,
+                    annual: FIXED_PRICES[info.currency], monthly: FIXED_MONTHLY[info.currency],
+                    countryCode, countryName: info.name,
+                });
+            }
 
-            // Fetch exchange rates (cached 6h)
+            // Para el resto: convertir desde USD $19.99 usando tipo de cambio
             const now = Date.now();
             if (!_rateCache || (now - _rateCache.fetchedAt) > 6 * 3600 * 1000) {
-                const rateRes = await axios.get('https://open.er-api.com/v6/latest/ARS', { timeout: 5000 });
+                const rateRes = await axios.get('https://open.er-api.com/v6/latest/USD', { timeout: 5000 });
                 _rateCache = { rates: rateRes.data.rates, fetchedAt: now };
             }
 
@@ -416,8 +433,8 @@ registerCameraRoutes(app);
             res.json({
                 currency:    info.currency,
                 symbol:      info.symbol,
-                annual:      _roundPrice(ANNUAL_ARS  * rate, info.currency),
-                monthly:     _roundPrice(MONTHLY_ARS * rate, info.currency),
+                annual:      _roundPrice(FIXED_PRICES.USD * rate, info.currency),
+                monthly:     _roundPrice(FIXED_MONTHLY.USD * rate, info.currency),
                 countryCode,
                 countryName: info.name,
             });

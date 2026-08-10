@@ -213,7 +213,7 @@ async function loadMembershipSection() {
     _membershipConfig = config;
 
     // Fetch dynamic geo-pricing
-    let pricing = { currency: 'ARS', symbol: '$', annual: 20000, monthly: 1667, countryCode: 'AR', countryName: 'Argentina' };
+    let pricing = { currency: 'ARS', symbol: '$', annual: 19990, monthly: 1666, countryCode: 'AR', countryName: 'Argentina' };
     try {
         const pr = await fetch(_API_HOST + '/api/pricing');
         if (pr.ok) pricing = await pr.json();
@@ -593,7 +593,7 @@ async function _loadMembershipLite() {
     _membershipConfig = config;
 
     // Fetch dynamic geo-pricing
-    let pricing = { currency: 'ARS', symbol: '$', annual: 20000, monthly: 1667, countryCode: 'AR', countryName: 'Argentina' };
+    let pricing = { currency: 'ARS', symbol: '$', annual: 19990, monthly: 1666, countryCode: 'AR', countryName: 'Argentina' };
     try {
         const pr = await fetch(_API_HOST + '/api/pricing');
         if (pr.ok) pricing = await pr.json();
