@@ -371,6 +371,20 @@ async function loadMembershipSection() {
                         ${_billingToggle === 'annual' ? `
                         <div class="plan-price-monthly-equiv">
                             ≈ ${_fmtPrice(pricing, pricing.annual / 12)} / ${isES ? 'mes' : 'month'}
+                        <div class="plan-installments-selector">
+                            <div class="plan-installments-label">${isES ? 'Forma de pago:' : 'Payment option:'}</div>
+                            <button class="plan-installment-btn ${_installments === null ? 'active' : ''}" data-inst="null">
+                                ${isES ? 'Pago único' : 'Single payment'} · ${_fmtPrice(pricing, pricing.annual)}
+                            </button>
+                            <button class="plan-installment-btn ${_installments === 4 ? 'active' : ''}" data-inst="4">
+                                4 ${isES ? 'cuotas' : 'installments'} · ${_fmtPrice(pricing, pricing.annual / 4)} c/u
+                            </button>
+                            <button class="plan-installment-btn ${_installments === 6 ? 'active' : ''}" data-inst="6">
+                                6 ${isES ? 'cuotas' : 'installments'} · ${_fmtPrice(pricing, pricing.annual / 6)} c/u
+                            </button>
+                            <button class="plan-installment-btn ${_installments === 12 ? 'active' : ''}" data-inst="12">
+                                12 ${isES ? 'cuotas' : 'installments'} · ${_fmtPrice(pricing, pricing.annual / 12)} c/u
+                            </button>
                         </div>` : ''}
                         <div class="plan-price-country">📍 ${pricing.countryCode === 'AR' ? 'Argentina' : (pricing.countryName || pricing.countryCode)} · ${pricing.currency}</div>
                     </div>
@@ -649,6 +663,20 @@ async function _loadMembershipLite() {
                         ${_billingToggle === 'annual' ? `
                         <div class="plan-price-monthly-equiv">
                             ≈ ${_fmtPrice(pricing, pricing.annual / 12)} / ${isES ? 'mes' : 'month'}
+                        <div class="plan-installments-selector">
+                            <div class="plan-installments-label">${isES ? 'Forma de pago:' : 'Payment option:'}</div>
+                            <button class="plan-installment-btn ${_installments === null ? 'active' : ''}" data-inst="null">
+                                ${isES ? 'Pago único' : 'Single payment'} · ${_fmtPrice(pricing, pricing.annual)}
+                            </button>
+                            <button class="plan-installment-btn ${_installments === 4 ? 'active' : ''}" data-inst="4">
+                                4 ${isES ? 'cuotas' : 'installments'} · ${_fmtPrice(pricing, pricing.annual / 4)} c/u
+                            </button>
+                            <button class="plan-installment-btn ${_installments === 6 ? 'active' : ''}" data-inst="6">
+                                6 ${isES ? 'cuotas' : 'installments'} · ${_fmtPrice(pricing, pricing.annual / 6)} c/u
+                            </button>
+                            <button class="plan-installment-btn ${_installments === 12 ? 'active' : ''}" data-inst="12">
+                                12 ${isES ? 'cuotas' : 'installments'} · ${_fmtPrice(pricing, pricing.annual / 12)} c/u
+                            </button>
                         </div>` : ''}
                         <div class="plan-price-country">📍 ${pricing.countryCode === 'AR' ? 'Argentina' : (pricing.countryName || pricing.countryCode)} · ${pricing.currency}</div>
                     </div>
