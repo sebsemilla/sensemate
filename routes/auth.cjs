@@ -58,6 +58,17 @@ module.exports = function registerAuthRoutes(app, { authDb, authLimiter, _detect
         res.json({ user });
     });
 
+    // PUT /auth/profile — update name, bio, profilePhoto
+    app.put('/auth/profile', authDb.verifyToken, (req, res) => {
+        const { name, bio, profilePhoto } = req.body;
+        if (profilePhoto && profilePhoto.length > 200000) {
+            return res.status(400).json({ error: 'Imagen demasiado grande.' });
+        }
+        const updated = authDb.updateUserProfile(req.jwtUser.id, { name, bio, profilePhoto });
+        if (!updated) return res.status(404).json({ error: 'Usuario no encontrado.' });
+        res.json({ user: updated });
+    });
+
     // PATCH /auth/me/ui-language — guarda el idioma de UI elegido por el usuario
     app.patch('/auth/me/ui-language', authDb.verifyToken, (req, res) => {
         const { lang } = req.body;

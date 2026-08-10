@@ -52,6 +52,8 @@ try { db.exec(`ALTER TABLE users ADD COLUMN classroom_addon INTEGER DEFAULT 0`);
 try { db.exec(`ALTER TABLE users ADD COLUMN classroom_addon_period TEXT DEFAULT NULL`); } catch {}
 // Rol Estudiante: profesor asignado por admin
 try { db.exec(`ALTER TABLE users ADD COLUMN assigned_teacher_id TEXT DEFAULT NULL`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN bio TEXT DEFAULT NULL`); } catch {}
+try { db.exec(`ALTER TABLE users ADD COLUMN profile_photo TEXT DEFAULT NULL`); } catch {}
 // Idioma de UI elegido por el usuario (persiste cross-device)
 try { db.exec(`ALTER TABLE users ADD COLUMN ui_language TEXT DEFAULT NULL`); } catch {}
 
@@ -99,6 +101,8 @@ function _makePublicUser(row) {
         classroomAddon: !!row.classroom_addon,
         uiLanguage:    row.ui_language   || null,
         country:       row.country       || null,
+        bio:           row.bio           || null,
+        profilePhoto:  row.profile_photo || null,
     };
 }
 
@@ -891,6 +895,18 @@ function dbLoadScans(userId, limit = 50) {
     return db.prepare('SELECT * FROM scan_history WHERE userId=? ORDER BY ts DESC LIMIT ?').all(userId, limit);
 }
 
+function updateUserProfile(userId, { name, bio, profilePhoto }) {
+    const allowed = {};
+    if (name?.trim())            allowed.name          = name.trim().slice(0, 80);
+    if (bio  !== undefined)      allowed.bio           = bio  ? bio.trim().slice(0, 300) : null;
+    if (profilePhoto !== undefined) allowed.profile_photo = profilePhoto || null;
+    if (!Object.keys(allowed).length) return;
+    const sets = Object.keys(allowed).map(k => `${k} = ?`).join(', ');
+    db.prepare(`UPDATE users SET ${sets} WHERE id = ?`).run(...Object.values(allowed), userId);
+    const row = db.prepare('SELECT * FROM users WHERE id = ?').get(userId);
+    return row ? _makePublicUser(row) : null;
+}
+
 function dbToggleLike(postId, fingerprint) {
     const exists = db.prepare('SELECT 1 FROM post_likes WHERE postId=? AND fingerprint=?').get(postId, fingerprint);
     if (exists) {
@@ -937,6 +953,8 @@ module.exports = {
     // Bots + Feed (SQLite)
     dbLoadBots, dbSaveBots, dbPatchBot, dbDeleteBot,
     dbLoadFeed, dbSavePosts, dbPatchPost, dbDeletePost, dbLoadPost,
+    // User profile
+    updateUserProfile,
     // Scan history
     dbSaveScan, dbLoadScans,
     // Likes & comments

@@ -410,7 +410,7 @@ document.addEventListener('click', e => {
 });
 menuButton.addEventListener('click', () => dropdownMenu.classList.toggle('hidden'));
 
-document.getElementById('profileLink').addEventListener('click',     e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); loadClassroomPanel(); });
+document.getElementById('profileLink').addEventListener('click',     e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); loadUserProfile(); });
 document.getElementById('settingsLink').addEventListener('click',    e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); loadSettingsSection(); });
 document.getElementById('complaintsLink').addEventListener('click',  e => { e.preventDefault(); dropdownMenu.classList.add('hidden'); loadComplaintsSection(); });
 document.getElementById('suggestionsLink').addEventListener('click', e => { e.preventDefault(); alert('Sugerencias - Próximamente');   dropdownMenu.classList.add('hidden'); });
@@ -5397,6 +5397,203 @@ window.addEventListener('DOMContentLoaded', async () => {
         }
     });
 });
+
+// ─── Perfil de usuario ─────────────────────────────────────────
+
+async function loadUserProfile() {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+
+    if (!currentUser) {
+        mainContainer.innerHTML = `
+        <div style="max-width:480px;margin:48px auto;padding:24px;text-align:center">
+            <div style="font-size:3rem;margin-bottom:16px">👤</div>
+            <p style="font-size:1rem;color:var(--text-muted,#6b7280)">Iniciá sesión para ver tu perfil.</p>
+            <button onclick="showOnboarding(true)" style="margin-top:16px;padding:10px 24px;background:#2d6a4f;color:#fff;border:none;border-radius:10px;font-size:.9rem;font-weight:600;cursor:pointer">Iniciar sesión</button>
+        </div>`;
+        return;
+    }
+
+    const plan      = currentUser.plan || 'free';
+    const planLabel = plan === 'premium' ? '⭐ Premium' : plan === 'oro' ? '🥇 Oro' : plan === 'contributor' ? '🤝 Contributor' : '🆓 Gratis';
+    const photo     = currentUser.profilePhoto || null;
+    const bio       = currentUser.bio || '';
+    const lastGroup = localStorage.getItem('lastGroupId');
+    const misionProgress = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]').length;
+
+    mainContainer.insertAdjacentHTML('beforeend', `
+    <div class="uprofile-wrap">
+
+        <div class="uprofile-back-row">
+            <button class="school-back-btn" id="upBackBtn">← Volver</button>
+        </div>
+
+        <!-- Header: avatar + nombre + plan -->
+        <div class="uprofile-header">
+            <div class="uprofile-avatar-wrap" id="upAvatarWrap" title="Cambiar foto">
+                ${photo
+                    ? `<img src="${photo}" class="uprofile-avatar-img" id="upAvatarImg" alt="Avatar">`
+                    : `<div class="uprofile-avatar-placeholder" id="upAvatarImg">${(currentUser.name||'?')[0].toUpperCase()}</div>`}
+                <div class="uprofile-avatar-edit">📷</div>
+                <input type="file" id="upAvatarInput" accept="image/*" style="display:none">
+            </div>
+            <div class="uprofile-info">
+                <div class="uprofile-name-row">
+                    <span class="uprofile-name" id="upName">${_escHtml(currentUser.name || '')}</span>
+                    <button class="uprofile-edit-btn" id="upEditNameBtn" title="Editar nombre">✏️</button>
+                </div>
+                ${currentUser.username ? `<span class="uprofile-username">@${_escHtml(currentUser.username)}</span>` : ''}
+                <span class="uprofile-plan-badge">${planLabel}</span>
+            </div>
+        </div>
+
+        <!-- Bio / Intro -->
+        <div class="uprofile-bio-section">
+            <div class="uprofile-bio-view" id="upBioView">
+                <p class="uprofile-bio-text" id="upBioText">${bio ? _escHtml(bio) : '<span class="uprofile-bio-empty">Agregá una introducción breve…</span>'}</p>
+                <button class="uprofile-edit-btn" id="upEditBioBtn" title="Editar introducción">✏️</button>
+            </div>
+            <div class="uprofile-bio-edit hidden" id="upBioEdit">
+                <textarea class="uprofile-bio-textarea" id="upBioInput" maxlength="300" rows="3" placeholder="Contá algo sobre vos… (máx. 300 caracteres)">${bio}</textarea>
+                <div class="uprofile-bio-actions">
+                    <button class="uprofile-save-btn" id="upSaveBioBtn">Guardar</button>
+                    <button class="uprofile-cancel-btn" id="upCancelBioBtn">Cancelar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botones historial -->
+        <div class="uprofile-hist-row">
+            <button class="uprofile-hist-btn" id="upScanHistBtn">
+                <span class="uprofile-hist-icon">📷</span>
+                <span>Traducciones</span>
+            </button>
+            <button class="uprofile-hist-btn" id="upSavedBtn">
+                <span class="uprofile-hist-icon">🃏</span>
+                <span>Flashcards</span>
+            </button>
+        </div>
+
+        <!-- Accesos directos -->
+        <div class="uprofile-shortcuts">
+            <h4 class="uprofile-shortcuts-title">Continuar donde lo dejaste</h4>
+            <div class="uprofile-shortcuts-row">
+                <button class="uprofile-shortcut-card" id="upMisionBtn">
+                    <span class="uprofile-shortcut-icon">🗡️</span>
+                    <span class="uprofile-shortcut-label">MisionMate</span>
+                    <span class="uprofile-shortcut-sub">${misionProgress > 0 ? `${misionProgress} pasos completados` : 'Comenzar'}</span>
+                </button>
+                <button class="uprofile-shortcut-card" id="upFlashBtn">
+                    <span class="uprofile-shortcut-icon">🃏</span>
+                    <span class="uprofile-shortcut-label">Flashcards</span>
+                    <span class="uprofile-shortcut-sub">${lastGroup ? 'Continuar último grupo' : 'Explorar flashcards'}</span>
+                </button>
+            </div>
+        </div>
+
+    </div>`);
+
+    // ── Event handlers ──────────────────────────────────────────
+
+    document.getElementById('upBackBtn').addEventListener('click', () => showMainMenu());
+
+    // Avatar
+    const avatarWrap  = document.getElementById('upAvatarWrap');
+    const avatarInput = document.getElementById('upAvatarInput');
+    avatarWrap.addEventListener('click', () => avatarInput.click());
+    avatarInput.addEventListener('change', async e => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+        e.target.value = '';
+        const b64 = await new Promise((res, rej) => {
+            const img = new Image(), url = URL.createObjectURL(file);
+            img.onload = () => {
+                URL.revokeObjectURL(url);
+                const MAX = 200, canvas = document.createElement('canvas');
+                let { width: w, height: h } = img;
+                if (w > MAX || h > MAX) { const r = Math.min(MAX/w, MAX/h); w = Math.round(w*r); h = Math.round(h*r); }
+                canvas.width = w; canvas.height = h;
+                canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+                res(canvas.toDataURL('image/jpeg', 0.75));
+            };
+            img.onerror = rej; img.src = url;
+        });
+        await _saveProfileField({ profilePhoto: b64 });
+        const el = document.getElementById('upAvatarImg');
+        if (el.tagName === 'IMG') el.src = b64;
+        else { el.outerHTML = `<img src="${b64}" class="uprofile-avatar-img" id="upAvatarImg" alt="Avatar">`; }
+    });
+
+    // Nombre
+    document.getElementById('upEditNameBtn').addEventListener('click', () => {
+        const nameEl = document.getElementById('upName');
+        const input  = document.createElement('input');
+        input.type = 'text'; input.value = currentUser.name || '';
+        input.className = 'uprofile-name-input';
+        input.maxLength = 80;
+        nameEl.replaceWith(input);
+        input.focus();
+        const save = async () => {
+            const val = input.value.trim();
+            if (!val) return;
+            await _saveProfileField({ name: val });
+            const span = document.createElement('span');
+            span.className = 'uprofile-name'; span.id = 'upName';
+            span.textContent = currentUser.name;
+            input.replaceWith(span);
+        };
+        input.addEventListener('blur', save);
+        input.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); save(); } });
+    });
+
+    // Bio
+    document.getElementById('upEditBioBtn').addEventListener('click', () => {
+        document.getElementById('upBioView').classList.add('hidden');
+        document.getElementById('upBioEdit').classList.remove('hidden');
+        document.getElementById('upBioInput').focus();
+    });
+    document.getElementById('upCancelBioBtn').addEventListener('click', () => {
+        document.getElementById('upBioView').classList.remove('hidden');
+        document.getElementById('upBioEdit').classList.add('hidden');
+    });
+    document.getElementById('upSaveBioBtn').addEventListener('click', async () => {
+        const val = document.getElementById('upBioInput').value.trim();
+        await _saveProfileField({ bio: val });
+        document.getElementById('upBioText').innerHTML = val ? _escHtml(val) : '<span class="uprofile-bio-empty">Agregá una introducción breve…</span>';
+        document.getElementById('upBioView').classList.remove('hidden');
+        document.getElementById('upBioEdit').classList.add('hidden');
+    });
+
+    // Historial botones
+    document.getElementById('upScanHistBtn').addEventListener('click', () => _renderScanHistory());
+    document.getElementById('upSavedBtn').addEventListener('click', () => {
+        if (typeof loadFlashcards === 'function') loadFlashcards();
+    });
+
+    // Shortcuts
+    document.getElementById('upMisionBtn').addEventListener('click', () => {
+        const tab = document.querySelector('#appModeSelector [data-tab="mision"]');
+        if (tab) tab.click();
+    });
+    document.getElementById('upFlashBtn').addEventListener('click', () => {
+        if (typeof loadFlashcards === 'function') loadFlashcards();
+    });
+}
+
+async function _saveProfileField(fields) {
+    try {
+        const r = await _authFetch(`${_API_HOST}/auth/profile`, {
+            method: 'PUT', body: JSON.stringify(fields)
+        });
+        if (!r.ok) return;
+        const { user } = await r.json();
+        if (user) {
+            currentUser = { ...currentUser, ...user };
+            const s = JSON.parse(localStorage.getItem('ls_session') || '{}');
+            if (s.user) { s.user = { ...s.user, ...user }; localStorage.setItem('ls_session', JSON.stringify(s)); }
+        }
+    } catch {}
+}
 
 // ─── FAB (Floating Action Button) ─────────────────────────────
 
