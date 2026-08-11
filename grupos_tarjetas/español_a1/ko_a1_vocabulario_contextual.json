@@ -1,0 +1,2860 @@
+[
+  {
+    "id": "ko_A1_vctx_01",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Greeting someone for the first time",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "hola",
+        "pos": "interj",
+        "phonetic": "ˈola",
+        "translation": "안녕하세요",
+        "note": "가장 기본적인 인사말"
+      },
+      {
+        "word": "yo",
+        "pos": "pron",
+        "phonetic": "ʝo",
+        "translation": "나",
+        "note": "주어로 쓰이는 1인칭 단수"
+      },
+      {
+        "word": "me",
+        "pos": "pron",
+        "phonetic": "me",
+        "translation": "나를, 내게",
+        "note": "재귀대명사 또는 여격 대명사"
+      },
+      {
+        "word": "llamar",
+        "pos": "verb",
+        "phonetic": "ʝaˈmaɾ",
+        "translation": "부르다, 이름을 짓다",
+        "note": "llamarse로 '이름이 ~이다'"
+      },
+      {
+        "word": "mucho",
+        "pos": "adj/adv",
+        "phonetic": "ˈmutʃo",
+        "translation": "많이, 많은",
+        "note": "mucho gusto에서 '많은' 의미"
+      },
+      {
+        "word": "gusto",
+        "pos": "noun",
+        "phonetic": "ˈɡusto",
+        "translation": "즐거움, 기쁨",
+        "note": "mucho gusto = 만나서 반갑습니다"
+      },
+      {
+        "word": "de",
+        "pos": "prep",
+        "phonetic": "de",
+        "translation": "~의, ~에서",
+        "note": "소유나 출신을 나타냄"
+      },
+      {
+        "word": "encantado",
+        "pos": "adj",
+        "phonetic": "eŋkanˈtaðo",
+        "translation": "반가운, 기쁜",
+        "note": "남성형. 여성은 encantada"
+      },
+      {
+        "word": "y",
+        "pos": "conj",
+        "phonetic": "i",
+        "translation": "그리고",
+        "note": "연결사"
+      },
+      {
+        "word": "tú",
+        "pos": "pron",
+        "phonetic": "tu",
+        "translation": "너",
+        "note": "비격식 2인칭 단수"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¡Hola! Yo soy Ana, ¿y tú?",
+        "translation": "안녕하세요! 저는 아나예요, 당신은요?",
+        "highlights": [
+          "Hola",
+          "Yo",
+          "y",
+          "tú"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hola, Ana. Yo me llamo Luis.",
+        "translation": "안녕하세요, 아나. 저는 루이스라고 해요.",
+        "highlights": [
+          "Hola",
+          "Yo",
+          "me",
+          "llamo"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Mucho gusto, Luis.",
+        "translation": "만나서 반가워요, 루이스.",
+        "highlights": [
+          "Mucho",
+          "gusto"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Encantado, Ana. ¿Y de dónde eres?",
+        "translation": "반가워요, 아나. 그런데 어디에서 오셨어요?",
+        "highlights": [
+          "Encantado",
+          "Y",
+          "de"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Cómo te llamas?",
+        "translation": "이름이 뭐예요?"
+      },
+      {
+        "phrase": "Mucho gusto.",
+        "translation": "만나서 반갑습니다."
+      },
+      {
+        "phrase": "Encantado/a.",
+        "translation": "반갑습니다."
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_03",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking where something is in a store",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "¿dónde?",
+        "pos": "adv",
+        "phonetic": "/ˈdon̪.de/",
+        "translation": "어디에",
+        "note": "의문사로, 위치를 물을 때 사용합니다."
+      },
+      {
+        "word": "estar",
+        "pos": "verb",
+        "phonetic": "/esˈtaɾ/",
+        "translation": "있다 (위치)",
+        "note": "일시적인 상태나 위치를 나타낼 때 사용합니다."
+      },
+      {
+        "word": "el",
+        "pos": "det",
+        "phonetic": "/el/",
+        "translation": "그 (남성 단수 정관사)",
+        "note": "특정한 남성 명사 앞에 옵니다."
+      },
+      {
+        "word": "agua",
+        "pos": "noun",
+        "phonetic": "/ˈa.ɣwa/",
+        "translation": "물",
+        "note": "여성 명사이지만 강세 있는 'a'로 시작하여 'el agua'로 사용합니다."
+      },
+      {
+        "word": "en",
+        "pos": "prep",
+        "phonetic": "/en/",
+        "translation": "~에 (장소)",
+        "note": "위치나 장소를 나타냅니다."
+      },
+      {
+        "word": "la",
+        "pos": "det",
+        "phonetic": "/la/",
+        "translation": "그 (여성 단수 정관사)",
+        "note": "특정한 여성 명사 앞에 옵니다."
+      },
+      {
+        "word": "tienda",
+        "pos": "noun",
+        "phonetic": "/ˈtjen̪.da/",
+        "translation": "가게, 상점",
+        "note": "일반적인 상점을 의미합니다."
+      },
+      {
+        "word": "señor",
+        "pos": "noun",
+        "phonetic": "/seˈɲoɾ/",
+        "translation": "신사, 아저씨, 손님",
+        "note": "낯선 사람(남성)을 정중하게 부를 때 사용합니다."
+      },
+      {
+        "word": "allí",
+        "pos": "adv",
+        "phonetic": "/aˈʝi/",
+        "translation": "저기, 거기",
+        "note": "화자와 청자로부터 떨어진 곳을 가리킵니다."
+      },
+      {
+        "word": "gracias",
+        "pos": "noun",
+        "phonetic": "/ˈɡɾa.sjas/",
+        "translation": "감사",
+        "note": "'고맙습니다'라는 인사말로 가장 많이 쓰입니다."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Perdón, señor, ¿dónde está el agua?",
+        "translation": "실례합니다, 아저씨, 물이 어디에 있나요?",
+        "highlights": [
+          "señor",
+          "¿dónde?",
+          "está",
+          "el",
+          "agua"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "El agua está en la tienda, allí.",
+        "translation": "물은 저기 가게에 있습니다.",
+        "highlights": [
+          "El",
+          "agua",
+          "está",
+          "en",
+          "la",
+          "tienda",
+          "allí"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿En la tienda? Muchas gracias.",
+        "translation": "가게에요? 대단히 감사합니다.",
+        "highlights": [
+          "En",
+          "la",
+          "tienda",
+          "gracias"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿dónde está...?",
+        "translation": "...이(가) 어디에 있나요?"
+      },
+      {
+        "phrase": "está en...",
+        "translation": "...에 있습니다"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_05",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Ordering a drink at a café",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "querer",
+        "pos": "verb",
+        "phonetic": "/keˈɾeɾ/",
+        "translation": "원하다, 갖고 싶다",
+        "note": "주문할 때 'Quiero...' (주세요)로 흔히 사용됩니다."
+      },
+      {
+        "word": "café",
+        "pos": "noun",
+        "phonetic": "/kaˈfe/",
+        "translation": "커피",
+        "note": "스페인에서는 기본적으로 에스프레소를 의미합니다."
+      },
+      {
+        "word": "con",
+        "pos": "prep",
+        "phonetic": "/kon/",
+        "translation": "~와 함께, (음료에) ~을 넣어서",
+        "note": "'café con leche' = 우유 커피"
+      },
+      {
+        "word": "leche",
+        "pos": "noun",
+        "phonetic": "/ˈletʃe/",
+        "translation": "우유",
+        "note": "불가산 명사로 주로 단수로 쓰입니다."
+      },
+      {
+        "word": "o",
+        "pos": "conj",
+        "phonetic": "/o/",
+        "translation": "또는",
+        "note": "선택지를 제시할 때 사용합니다."
+      },
+      {
+        "word": "té",
+        "pos": "noun",
+        "phonetic": "/te/",
+        "translation": "차 (茶)",
+        "note": "액센트가 있어야 'tea'를 뜻합니다. 'te'(너)와 구분됩니다."
+      },
+      {
+        "word": "tener",
+        "pos": "verb",
+        "phonetic": "/teˈneɾ/",
+        "translation": "가지다, (나이·갈증 등을) 나타내다",
+        "note": "여기서는 'tengo sed' (목말라요)로 사용됩니다."
+      },
+      {
+        "word": "sed",
+        "pos": "noun",
+        "phonetic": "/seð/",
+        "translation": "갈증",
+        "note": "'tener sed' = 목마르다. 주로 단수로만 쓰입니다."
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "phonetic": "/tamˈbjen/",
+        "translation": "~도, 또한",
+        "note": "긍정문에서 '나도'를 표현할 때 씁니다."
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "phonetic": "/ˈpeɾo/",
+        "translation": "하지만, 그러나",
+        "note": "대조를 나타냅니다."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buenas tardes. ¿Qué quiere tomar?",
+        "translation": "안녕하세요. 무엇을 드시겠어요?",
+        "highlights": [
+          "quiere"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Quiero un café con leche, por favor.",
+        "translation": "우유 커피 하나 주세요.",
+        "highlights": [
+          "quiero",
+          "café",
+          "con",
+          "leche"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y algo más? ¿Un té o un agua?",
+        "translation": "그리고 더 필요한 게 있으세요? 차나 물 드릴까요?",
+        "highlights": [
+          "té",
+          "o"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, gracias. Pero tengo sed, también quiero un agua.",
+        "translation": "아니요, 괜찮아요. 그런데 목이 말라서 물도 하나 주세요.",
+        "highlights": [
+          "pero",
+          "tengo",
+          "sed",
+          "también",
+          "quiero"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Muy bien. Un café con leche y un agua.",
+        "translation": "좋습니다. 우유 커피 하나와 물 하나요.",
+        "highlights": [
+          "café",
+          "con",
+          "leche"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Quiero...",
+        "translation": "… 주세요 (원합니다)"
+      },
+      {
+        "phrase": "café con leche",
+        "translation": "우유 커피"
+      },
+      {
+        "phrase": "tengo sed",
+        "translation": "목이 말라요"
+      },
+      {
+        "phrase": "¿Y algo más?",
+        "translation": "더 필요한 게 있으세요?"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_07",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Buying a ticket at a station",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "ir",
+        "pos": "verb",
+        "phonetic": "/iɾ/",
+        "translation": "가다",
+        "note": "비정규 동사. 'voy' 등으로 활용."
+      },
+      {
+        "word": "para",
+        "pos": "prep",
+        "phonetic": "/ˈpaɾa/",
+        "translation": "~을 위하여, ~로 (방향/목적)",
+        "note": "목적이나 방향을 나타냄."
+      },
+      {
+        "word": "billete",
+        "pos": "noun",
+        "phonetic": "/biˈʝete/",
+        "translation": "표, 티켓",
+        "note": "교통수단 표를 의미."
+      },
+      {
+        "word": "a",
+        "pos": "prep",
+        "phonetic": "/a/",
+        "translation": "~에, ~으로",
+        "note": "방향이나 목적지 앞에 사용."
+      },
+      {
+        "word": "tren",
+        "pos": "noun",
+        "phonetic": "/tɾen/",
+        "translation": "기차",
+        "note": "남성 명사."
+      },
+      {
+        "word": "uno",
+        "pos": "pron",
+        "phonetic": "/ˈuno/",
+        "translation": "하나, 한 개",
+        "note": "수량을 나타낼 때 사용."
+      },
+      {
+        "word": "cuánto",
+        "pos": "adj",
+        "phonetic": "/ˈkwanto/",
+        "translation": "얼마나, 얼마",
+        "note": "의문사로 가격이나 양을 물을 때."
+      },
+      {
+        "word": "necesitar",
+        "pos": "verb",
+        "phonetic": "/neθesiˈtaɾ/",
+        "translation": "필요로 하다",
+        "note": "정규 동사."
+      },
+      {
+        "word": "porque",
+        "pos": "conj",
+        "phonetic": "/ˈpoɾke/",
+        "translation": "왜냐하면, 때문에",
+        "note": "이유를 나타냄."
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "phonetic": "/muj/",
+        "translation": "매우, 아주",
+        "note": "형용사나 부사를 수식."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, quiero un billete para ir a Madrid.",
+        "translation": "안녕하세요, 마드리드로 가는 표 하나 주세요.",
+        "highlights": [
+          "billete",
+          "para",
+          "ir"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿Para el tren de las diez?",
+        "translation": "10시 기차로 드릴까요?",
+        "highlights": [
+          "tren"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, uno, por favor. ¿Cuánto es?",
+        "translation": "네, 하나 주세요. 얼마인가요?",
+        "highlights": [
+          "uno",
+          "cuánto"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Veinte euros. Necesitas el billete para el tren.",
+        "translation": "20유로입니다. 기차 표가 필요하세요.",
+        "highlights": [
+          "necesitas",
+          "para",
+          "tren"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Muy bien, gracias. Lo pago porque tengo prisa.",
+        "translation": "좋아요, 감사합니다. 서두르기 때문에 지불할게요.",
+        "highlights": [
+          "muy",
+          "porque"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "un billete para ir a Madrid",
+        "translation": "마드리드로 가는 표 하나"
+      },
+      {
+        "phrase": "¿Cuánto es?",
+        "translation": "얼마인가요?"
+      },
+      {
+        "phrase": "Necesitas el billete",
+        "translation": "표가 필요합니다"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_09",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Checking in at a hotel reception",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "bueno",
+        "pos": "adj",
+        "phonetic": "/ˈbweno/",
+        "translation": "좋은",
+        "note": "인사말 'buenos días' 등에서도 쓰임"
+      },
+      {
+        "word": "día",
+        "pos": "noun",
+        "phonetic": "/ˈdi.a/",
+        "translation": "날, 하루",
+        "note": "복수형 'días'로 인사말에 자주 쓰임"
+      },
+      {
+        "word": "su",
+        "pos": "det",
+        "phonetic": "/su/",
+        "translation": "당신의 (존칭)",
+        "note": "usted와 함께 쓰는 소유형용사"
+      },
+      {
+        "word": "habitación",
+        "pos": "noun",
+        "phonetic": "/abiˈtaθjon/",
+        "translation": "방, 객실",
+        "note": "호텔에서 '방'을 뜻함"
+      },
+      {
+        "word": "reserva",
+        "pos": "noun",
+        "phonetic": "/reˈserβa/",
+        "translation": "예약",
+        "note": "동사 reservar(예약하다)에서 파생된 명사"
+      },
+      {
+        "word": "nombre",
+        "pos": "noun",
+        "phonetic": "/ˈnombɾe/",
+        "translation": "이름",
+        "note": "성과 이름을 구분할 때 'nombre'는 이름(이름 부분)"
+      },
+      {
+        "word": "apellido",
+        "pos": "noun",
+        "phonetic": "/apeˈʎiðo/",
+        "translation": "성(姓)",
+        "note": "스페인어권에서는 성이 두 개일 수 있음"
+      },
+      {
+        "word": "pasaporte",
+        "pos": "noun",
+        "phonetic": "/pasaˈpoɾte/",
+        "translation": "여권",
+        "note": "호텔 체크인 시 신분 확인용"
+      },
+      {
+        "word": "firma",
+        "pos": "noun",
+        "phonetic": "/ˈfiɾma/",
+        "translation": "서명",
+        "note": "동사 firmar(서명하다)에서 파생된 명사"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "phonetic": "/aˈki/",
+        "translation": "여기에",
+        "note": "장소를 가리키는 지시부사"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A (receptionist)",
+        "text": "Buenos días. ¿Su nombre y apellido, por favor?",
+        "translation": "안녕하세요. 성함과 성(姓)을 말씀해 주시겠어요?",
+        "highlights": [
+          "Buenos",
+          "días",
+          "Su",
+          "nombre",
+          "apellido"
+        ]
+      },
+      {
+        "speaker": "B (guest)",
+        "text": "Me llamo Kim Min-jun. Tengo una reserva para esta noche.",
+        "translation": "저는 김민준입니다. 오늘 밤 예약이 있습니다.",
+        "highlights": [
+          "reserva"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, aquí está su habitación. ¿Puede firmar aquí, por favor?",
+        "translation": "네, 여기 당신의 객실이 있습니다. 여기에 서명해 주시겠어요?",
+        "highlights": [
+          "aquí",
+          "su",
+          "habitación",
+          "firmar",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Claro. ¿Necesito el pasaporte?",
+        "translation": "물론이죠. 여권이 필요할까요?",
+        "highlights": [
+          "pasaporte"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, por favor. Aquí tiene su llave.",
+        "translation": "네, 부탁드립니다. 여기 당신의 열쇠 있습니다.",
+        "highlights": [
+          "Aquí",
+          "su"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Buenos días",
+        "translation": "좋은 아침입니다 / 안녕하세요 (오전 인사)"
+      },
+      {
+        "phrase": "su nombre y apellido",
+        "translation": "성함과 성"
+      },
+      {
+        "phrase": "tener una reserva",
+        "translation": "예약이 있다"
+      },
+      {
+        "phrase": "firmar aquí",
+        "translation": "여기에 서명하다"
+      },
+      {
+        "phrase": "el pasaporte",
+        "translation": "여권"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_11",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Meeting a new neighbor",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "vivir",
+        "pos": "verb",
+        "phonetic": "/biˈβir/",
+        "translation": "살다, 거주하다",
+        "note": "주로 'vivir en + 장소' 형태로 사용"
+      },
+      {
+        "word": "piso",
+        "pos": "noun",
+        "phonetic": "/ˈpiso/",
+        "translation": "아파트, 층",
+        "note": "스페인에서 '아파트'를 뜻함"
+      },
+      {
+        "word": "nuevo",
+        "pos": "adj",
+        "phonetic": "/ˈnweβo/",
+        "translation": "새로운",
+        "note": "성수 일치: nuevo/nueva"
+      },
+      {
+        "word": "vecino",
+        "pos": "noun",
+        "phonetic": "/beˈθino/",
+        "translation": "이웃",
+        "note": "남성형, 여성형은 vecina"
+      },
+      {
+        "word": "por",
+        "pos": "prep",
+        "phonetic": "/poɾ/",
+        "translation": "~을 통해, ~때문에, ~에",
+        "note": "여기서는 'por aquí' = '이 근처에' 의미"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "phonetic": "/aˈki/",
+        "translation": "여기",
+        "note": "장소를 가리킬 때 사용"
+      },
+      {
+        "word": "encantar",
+        "pos": "verb",
+        "phonetic": "/eŋkanˈtaɾ/",
+        "translation": "매우 좋아하다, 매혹하다",
+        "note": "역구조 동사: 'me encanta' = '나는 매우 좋아한다'"
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "phonetic": "/ˈpeɾo/",
+        "translation": "하지만, 그러나",
+        "note": "대조를 나타낼 때 사용"
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "phonetic": "/tamˈbjen/",
+        "translation": "~도, 또한",
+        "note": "동의나 추가 정보를 나타낼 때 사용"
+      },
+      {
+        "word": "nosotros",
+        "pos": "pron",
+        "phonetic": "/noˈsotɾos/",
+        "translation": "우리",
+        "note": "주어로 사용, 여성형은 nosotras"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, soy Ana. ¿Vives en este piso?",
+        "translation": "안녕하세요, 저는 아나예요. 이 아파트에 사세요?",
+        "highlights": [
+          "vives",
+          "piso"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, soy nueva aquí. Y tú, ¿vives en el piso de al lado?",
+        "translation": "네, 저는 여기 새로 왔어요. 당신은 옆 아파트에 사세요?",
+        "highlights": [
+          "nueva",
+          "aquí",
+          "vives",
+          "piso"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, soy tu vecino. Me encanta este barrio, pero es un poco ruidoso.",
+        "translation": "네, 저는 당신의 이웃이에요. 저는 이 동네를 정말 좋아하지만, 조금 시끄러워요.",
+        "highlights": [
+          "vecino",
+          "encanta",
+          "pero"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¡Ah, qué bien! A mí también me encanta, pero por la noche es tranquilo.",
+        "translation": "아, 좋네요! 저도 이곳을 정말 좋아해요, 하지만 밤에는 조용해요.",
+        "highlights": [
+          "también",
+          "encanta",
+          "pero",
+          "por"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Pues bienvenida. Nosotros siempre ayudamos a los vecinos nuevos.",
+        "translation": "그럼 환영해요. 우리는 항상 새로운 이웃을 도와드려요.",
+        "highlights": [
+          "nosotros",
+          "vecinos",
+          "nuevos"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Vives en este piso?",
+        "translation": "이 아파트에 사세요?"
+      },
+      {
+        "phrase": "Soy nueva aquí.",
+        "translation": "저는 여기 새로 왔어요."
+      },
+      {
+        "phrase": "Me encanta este barrio.",
+        "translation": "저는 이 동네를 정말 좋아해요."
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_13",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking the time on the street",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "qué",
+        "pos": "pron",
+        "phonetic": "/ke/",
+        "translation": "무엇, 어떤",
+        "note": "의문사로 'what'"
+      },
+      {
+        "word": "hora",
+        "pos": "noun",
+        "phonetic": "/ˈo.ɾa/",
+        "translation": "시간 (시각)",
+        "note": "여성 명사, 'la hora'"
+      },
+      {
+        "word": "ser",
+        "pos": "verb",
+        "phonetic": "/seɾ/",
+        "translation": "이다 (본질, 시간)",
+        "note": "시간 표현에 사용: '¿Qué hora es?'"
+      },
+      {
+        "word": "las",
+        "pos": "det",
+        "phonetic": "/las/",
+        "translation": "그 (여성 복수 정관사)",
+        "note": "시간 표현에서 'las' + 숫자"
+      },
+      {
+        "word": "y",
+        "pos": "conj",
+        "phonetic": "/i/",
+        "translation": "그리고, (시간에서) ~분",
+        "note": "시간에서 'y'는 분을 나타냄 (예: y cinco = 5분)"
+      },
+      {
+        "word": "son",
+        "pos": "verb",
+        "phonetic": "/son/",
+        "translation": "이다 (3인칭 복수, 현재)",
+        "note": "'ser'의 복수형, 시간이 2시 이상일 때 사용"
+      },
+      {
+        "word": "menos",
+        "pos": "prep",
+        "phonetic": "/ˈme.nos/",
+        "translation": "~전에 (시간)",
+        "note": "시간에서 '~분 전'을 나타냄 (예: menos cuarto = 15분 전)"
+      },
+      {
+        "word": "cuarto",
+        "pos": "noun",
+        "phonetic": "/ˈkwaɾ.to/",
+        "translation": "4분의 1, 15분",
+        "note": "시간에서 'cuarto'는 15분을 의미"
+      },
+      {
+        "word": "media",
+        "pos": "noun",
+        "phonetic": "/ˈme.dja/",
+        "translation": "반, 30분",
+        "note": "시간에서 'media'는 30분을 의미"
+      },
+      {
+        "word": "tarde",
+        "pos": "adv",
+        "phonetic": "/ˈtaɾ.de/",
+        "translation": "늦게, 늦은",
+        "note": "시간이 늦음을 표현할 때 사용"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Perdón, ¿qué hora es?",
+        "translation": "실례합니다, 지금 몇 시인가요?",
+        "highlights": [
+          "qué",
+          "hora",
+          "es"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Son las tres y cuarto.",
+        "translation": "3시 15분입니다.",
+        "highlights": [
+          "Son",
+          "las",
+          "y",
+          "cuarto"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y para llegar a la estación, es tarde?",
+        "translation": "그럼 역에 가기에는 늦은 건가요?",
+        "highlights": [
+          "Y",
+          "es",
+          "tarde"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, son las tres y media, todavía no es tarde.",
+        "translation": "아니요, 3시 30분이니까 아직 늦지 않았어요.",
+        "highlights": [
+          "son",
+          "las",
+          "y",
+          "media",
+          "es",
+          "tarde"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Qué hora es?",
+        "translation": "지금 몇 시인가요?"
+      },
+      {
+        "phrase": "Son las...",
+        "translation": "...시입니다 (2시 이상)"
+      },
+      {
+        "phrase": "y cuarto",
+        "translation": "15분 (예: 3시 15분)"
+      },
+      {
+        "phrase": "y media",
+        "translation": "30분 (예: 3시 30분)"
+      },
+      {
+        "phrase": "es tarde",
+        "translation": "늦었다"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_15",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the doctor for a basic checkup",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "de",
+        "pos": "prep",
+        "phonetic": "de",
+        "translation": "~의",
+        "note": "소유, 기원, 재료 등을 나타내는 전치사"
+      },
+      {
+        "word": "más",
+        "pos": "adv",
+        "phonetic": "mas",
+        "translation": "더, 더 많이",
+        "note": "비교급을 만들 때 사용"
+      },
+      {
+        "word": "todo",
+        "pos": "adj/pron",
+        "phonetic": "ˈtoðo",
+        "translation": "모든, 전부",
+        "note": "남성 단수형으로, '모든 것'을 의미할 때도 사용"
+      },
+      {
+        "word": "doctor",
+        "pos": "noun",
+        "phonetic": "dokˈtoɾ",
+        "translation": "의사",
+        "note": "의사(특히 진료하는 의사)를 지칭"
+      },
+      {
+        "word": "sentir",
+        "pos": "verb",
+        "phonetic": "senˈtiɾ",
+        "translation": "느끼다, (아프다, 아쉽다) 느끼다",
+        "note": "느낌이나 감정을 표현할 때 사용"
+      },
+      {
+        "word": "bien",
+        "pos": "adv",
+        "phonetic": "bjen",
+        "translation": "잘, 좋게",
+        "note": "상태나 정도를 나타내는 부사"
+      },
+      {
+        "word": "dolor",
+        "pos": "noun",
+        "phonetic": "doˈloɾ",
+        "translation": "통증, 아픔",
+        "note": "신체적 통증을 의미"
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "phonetic": "ˈpeɾo",
+        "translation": "하지만",
+        "note": "반대되는 내용을 연결할 때 사용"
+      },
+      {
+        "word": "hasta",
+        "pos": "prep",
+        "phonetic": "ˈasta",
+        "translation": "~까지",
+        "note": "시간, 장소, 정도의 한계를 나타냄"
+      },
+      {
+        "word": "pronto",
+        "pos": "adv",
+        "phonetic": "ˈpɾonto",
+        "translation": "곧, 빨리",
+        "note": "'hasta pronto' 는 '곧 봐요'라는 작별 인사"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buenos días, doctor. Me siento un poco mal.",
+        "translation": "안녕하세요, 의사 선생님. 조금 몸이 안 좋아요.",
+        "highlights": [
+          "doctor",
+          "siento"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿Qué le pasa? ¿Tiene dolor de cabeza?",
+        "translation": "어디가 아프세요? 머리가 아프신가요?",
+        "highlights": [
+          "dolor"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, pero también tengo dolor en todo el cuerpo.",
+        "translation": "네, 하지만 온몸에 통증도 있어요.",
+        "highlights": [
+          "pero",
+          "todo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Bien, vamos a ver. Necesita descansar más y beber agua.",
+        "translation": "좋아요, 한번 볼게요. 더 쉬고 물을 많이 마셔야 해요.",
+        "highlights": [
+          "bien",
+          "más"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "De acuerdo. Muchas gracias, doctor. Hasta pronto.",
+        "translation": "알겠어요. 정말 감사합니다, 의사 선생님. 곧 봐요.",
+        "highlights": [
+          "de",
+          "Hasta",
+          "pronto"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Me siento mal",
+        "translation": "몸이 안 좋아요 / 기분이 나빠요"
+      },
+      {
+        "phrase": "tener dolor",
+        "translation": "통증이 있다"
+      },
+      {
+        "phrase": "hasta pronto",
+        "translation": "곧 봐요 (헤어질 때 인사)"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_17",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Paying at a supermarket checkout",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "pagar",
+        "pos": "verb",
+        "phonetic": "/paˈɣaɾ/",
+        "translation": "지불하다",
+        "note": "동작의 완료를 나타내는 데 자주 쓰임"
+      },
+      {
+        "word": "todo",
+        "pos": "pron",
+        "phonetic": "/ˈtoðo/",
+        "translation": "전부, 모든 것"
+      },
+      {
+        "word": "efectivo",
+        "pos": "noun",
+        "phonetic": "/efeɡˈtiβo/",
+        "translation": "현금",
+        "note": "pagar en efectivo - 현금으로 지불하다"
+      },
+      {
+        "word": "tarjeta",
+        "pos": "noun",
+        "phonetic": "/taɾˈxeta/",
+        "translation": "카드",
+        "note": "결제 수단으로 흔히 사용"
+      },
+      {
+        "word": "cuenta",
+        "pos": "noun",
+        "phonetic": "/ˈkwenta/",
+        "translation": "계산서, 합계",
+        "note": "계산대에서 총액을 의미"
+      },
+      {
+        "word": "cambio",
+        "pos": "noun",
+        "phonetic": "/ˈkambjo/",
+        "translation": "거스름돈"
+      },
+      {
+        "word": "cliente",
+        "pos": "noun",
+        "phonetic": "/ˈkljente/",
+        "translation": "고객"
+      },
+      {
+        "word": "cajero",
+        "pos": "noun",
+        "phonetic": "/kaˈxeɾo/",
+        "translation": "계산원"
+      },
+      {
+        "word": "poder",
+        "pos": "verb",
+        "phonetic": "/poˈðeɾ/",
+        "translation": "할 수 있다",
+        "note": "허가나 가능성을 표현"
+      },
+      {
+        "word": "gracias",
+        "pos": "interj",
+        "phonetic": "/ˈɡɾaθjas/",
+        "translation": "감사합니다"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¿Puedo pagar con tarjeta?",
+        "translation": "카드로 지불할 수 있나요?",
+        "highlights": [
+          "pagar",
+          "tarjeta"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, ¿todo junto?",
+        "translation": "네, 전부 한꺼번에요?",
+        "highlights": [
+          "todo"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, y también quiero pagar en efectivo.",
+        "translation": "네, 그리고 현금으로도 지불하고 싶어요.",
+        "highlights": [
+          "efectivo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Aquí tiene su cuenta. ¿Tiene cambio?",
+        "translation": "여기 계산서입니다. 거스름돈 있으세요?",
+        "highlights": [
+          "cuenta",
+          "cambio"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, gracias, cajero.",
+        "translation": "네, 감사합니다, 계산원님.",
+        "highlights": [
+          "gracias",
+          "cajero"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Puedo pagar con tarjeta?",
+        "translation": "카드로 지불할 수 있나요?"
+      },
+      {
+        "phrase": "Aquí tiene su cuenta",
+        "translation": "여기 계산서입니다."
+      },
+      {
+        "phrase": "¿Tiene cambio?",
+        "translation": "거스름돈 있으세요?"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_19",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Calling a friend to make simple plans",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "llamar",
+        "pos": "verb",
+        "phonetic": "/ʝaˈmaɾ/",
+        "translation": "전화하다, 부르다",
+        "note": "전화할 때 'llamar a alguien'으로 씁니다."
+      },
+      {
+        "word": "amigo",
+        "pos": "noun",
+        "phonetic": "/aˈmiɣo/",
+        "translation": "친구",
+        "note": "남성 친구. 여성 친구는 'amiga'."
+      },
+      {
+        "word": "hacer",
+        "pos": "verb",
+        "phonetic": "/aˈθeɾ/",
+        "translation": "하다, 만들다",
+        "note": "'hacer planes' = 계획을 세우다"
+      },
+      {
+        "word": "plan",
+        "pos": "noun",
+        "phonetic": "/plan/",
+        "translation": "계획",
+        "note": "주로 복수형 'planes'로 많이 씁니다."
+      },
+      {
+        "word": "hoy",
+        "pos": "adv",
+        "phonetic": "/oi̯/",
+        "translation": "오늘"
+      },
+      {
+        "word": "tiempo",
+        "pos": "noun",
+        "phonetic": "/ˈtjempo/",
+        "translation": "시간, 날씨",
+        "note": "여기서는 '시간'의 뜻."
+      },
+      {
+        "word": "libre",
+        "pos": "adj",
+        "phonetic": "/ˈliβɾe/",
+        "translation": "시간이 있는, 한가한, 자유로운",
+        "note": "사람이 주어일 때 '한가하다'는 뜻."
+      },
+      {
+        "word": "quiero",
+        "pos": "verb",
+        "phonetic": "/ˈkjeɾo/",
+        "translation": "나는 원한다",
+        "note": "'querer'의 1인칭 단수형. '~하고 싶다'는 'quiero + 동사원형'."
+      },
+      {
+        "word": "ver",
+        "pos": "verb",
+        "phonetic": "/beɾ/",
+        "translation": "보다, 만나다",
+        "note": "'ver a un amigo' = 친구를 만나다."
+      },
+      {
+        "word": "luego",
+        "pos": "adv",
+        "phonetic": "/ˈlweɣo/",
+        "translation": "나중에, 그 후에",
+        "note": "'hasta luego' = 나중에 봐"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, soy Ana. ¿Puedo hablar con mi amigo Luis?",
+        "translation": "안녕, 나는 아나야. 내 친구 루이스와 통화할 수 있을까?",
+        "highlights": [
+          "amigo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hola, Ana. Sí, soy Luis. ¿Qué quieres hacer hoy?",
+        "translation": "안녕, 아나. 응, 나는 루이스야. 오늘 뭐 하고 싶어?",
+        "highlights": [
+          "quieres",
+          "hacer",
+          "hoy"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Tengo tiempo libre. Quiero ver una película, ¿tú tienes tiempo?",
+        "translation": "나 시간 있어. 영화 보고 싶어. 너 시간 있니?",
+        "highlights": [
+          "tiempo",
+          "libre",
+          "Quiero",
+          "ver"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, tengo tiempo. Pero prefiero hacer planes para luego, porque ahora no puedo.",
+        "translation": "응, 시간 있어. 하지만 나는 나중에 계획을 세우는 게 좋아. 왜냐하면 지금은 안 되거든.",
+        "highlights": [
+          "tiempo",
+          "hacer",
+          "planes",
+          "luego"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Vale, ¿llamo a otros amigos? Así tenemos un plan más grande.",
+        "translation": "좋아, 다른 친구들에게 전화할까? 그러면 더 큰 계획이 생기지.",
+        "highlights": [
+          "llamo",
+          "amigos",
+          "plan"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Qué quieres hacer hoy?",
+        "translation": "오늘 뭐 하고 싶어?"
+      },
+      {
+        "phrase": "Tengo tiempo libre.",
+        "translation": "나 시간 있어."
+      },
+      {
+        "phrase": "Quiero ver una película.",
+        "translation": "영화 보고 싶어."
+      },
+      {
+        "phrase": "hacer planes para luego",
+        "translation": "나중에 계획을 세우다"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_21",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your family to someone",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "mi",
+        "pos": "det",
+        "phonetic": "/mi/",
+        "translation": "나의",
+        "note": "소유형용사, 항상 명사 앞에 옴"
+      },
+      {
+        "word": "tener",
+        "pos": "verb",
+        "phonetic": "/teˈner/",
+        "translation": "가지다, 있다",
+        "note": "불규칙 동사, 1인칭 단수형은 'tengo'"
+      },
+      {
+        "word": "hermano",
+        "pos": "noun",
+        "phonetic": "/erˈmano/",
+        "translation": "형제, 남자 형제",
+        "note": "남자 형제. 여자 형제는 'hermana'"
+      },
+      {
+        "word": "madre",
+        "pos": "noun",
+        "phonetic": "/ˈmaðɾe/",
+        "translation": "어머니",
+        "note": "'mamá'보다 격식 있는 표현"
+      },
+      {
+        "word": "padre",
+        "pos": "noun",
+        "phonetic": "/ˈpaðɾe/",
+        "translation": "아버지",
+        "note": "'papá'보다 격식 있는 표현"
+      },
+      {
+        "word": "pequeño",
+        "pos": "adj",
+        "phonetic": "/peˈkeɲo/",
+        "translation": "어린, 작은",
+        "note": "나이나 크기가 작을 때 사용"
+      },
+      {
+        "word": "familia",
+        "pos": "noun",
+        "phonetic": "/faˈmilja/",
+        "translation": "가족",
+        "note": "단수 명사로 취급"
+      },
+      {
+        "word": "con",
+        "pos": "prep",
+        "phonetic": "/kon/",
+        "translation": "~와 함께",
+        "note": "동반을 나타냄"
+      },
+      {
+        "word": "vivir",
+        "pos": "verb",
+        "phonetic": "/biˈβiɾ/",
+        "translation": "살다",
+        "note": "1인칭 단수형은 'vivo'"
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "phonetic": "/mwi/",
+        "translation": "매우",
+        "note": "형용사나 부사 앞에서 강조"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¿Tienes hermanos?",
+        "translation": "너는 형제가 있니?",
+        "highlights": [
+          "Tienes",
+          "hermanos"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí. Tengo un hermano pequeño. Mi madre y mi padre viven con él.",
+        "translation": "응. 나는 어린 형제가 하나 있어. 우리 어머니와 아버지는 그와 함께 살아.",
+        "highlights": [
+          "Tengo",
+          "hermano",
+          "pequeño",
+          "Mi",
+          "madre",
+          "padre",
+          "viven",
+          "con"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y tu familia es grande?",
+        "translation": "그리고 너의 가족은 크니?",
+        "highlights": [
+          "familia"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, es muy pequeña. Somos solo cuatro personas.",
+        "translation": "아니, 아주 작아. 우리는 단지 네 명이야.",
+        "highlights": [
+          "muy",
+          "pequeña"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Qué bien. Yo vivo con mi abuela.",
+        "translation": "좋다. 나는 할머니와 함께 살아.",
+        "highlights": [
+          "vivo",
+          "mi"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Tienes hermanos?",
+        "translation": "형제가 있니?"
+      },
+      {
+        "phrase": "Mi familia es pequeña.",
+        "translation": "우리 가족은 작아."
+      },
+      {
+        "phrase": "Vivir con alguien",
+        "translation": "누군가와 함께 살다"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_23",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking for directions in the street",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "ir",
+        "pos": "verb",
+        "phonetic": "/iɾ/",
+        "translation": "가다",
+        "note": "방향을 물을 때 '¿Cómo voy a...?' (어떻게 가나요?)로 자주 사용됩니다."
+      },
+      {
+        "word": "derecha",
+        "pos": "noun",
+        "phonetic": "/deˈɾet͡ʃa/",
+        "translation": "오른쪽",
+        "note": "방향을 나타낼 때 'a la derecha' (오른쪽으로)로 사용됩니다."
+      },
+      {
+        "word": "izquierda",
+        "pos": "noun",
+        "phonetic": "/iθˈkjeɾða/",
+        "translation": "왼쪽",
+        "note": "방향을 나타낼 때 'a la izquierda' (왼쪽으로)로 사용됩니다."
+      },
+      {
+        "word": "metro",
+        "pos": "noun",
+        "phonetic": "/ˈmetɾo/",
+        "translation": "지하철",
+        "note": "지하철역을 나타낼 때 'el metro'로 사용됩니다."
+      },
+      {
+        "word": "calle",
+        "pos": "noun",
+        "phonetic": "/ˈkaʎe/",
+        "translation": "거리, 길",
+        "note": "길 이름을 말할 때 'la calle'로 사용됩니다."
+      },
+      {
+        "word": "seguir",
+        "pos": "verb",
+        "phonetic": "/seˈɣiɾ/",
+        "translation": "계속 가다, 따르다",
+        "note": "길 안내에서 'sigue recto' (직진하세요)처럼 사용됩니다."
+      },
+      {
+        "word": "a",
+        "pos": "prep",
+        "phonetic": "/a/",
+        "translation": "~로, ~에",
+        "note": "방향이나 목적지를 나타낼 때 사용됩니다 (예: a la derecha, al metro)."
+      },
+      {
+        "word": "de",
+        "pos": "prep",
+        "phonetic": "/de/",
+        "translation": "~의, ~에서",
+        "note": "소유, 출처, 방향 등을 나타내는 전치사 (예: de aquí)."
+      },
+      {
+        "word": "está",
+        "pos": "verb",
+        "phonetic": "/esˈta/",
+        "translation": "있다 (위치)",
+        "note": "'estar'의 3인칭 단수형으로 위치를 묻거나 답할 때 사용됩니다."
+      },
+      {
+        "word": "lejos",
+        "pos": "adv",
+        "phonetic": "/ˈlexos/",
+        "translation": "멀리",
+        "note": "거리를 나타낼 때 '¿está lejos?' (멀어요?)로 사용됩니다."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Perdona, ¿cómo voy al metro?",
+        "translation": "실례합니다, 지하철에 어떻게 가나요?",
+        "highlights": [
+          "voy",
+          "al"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sigue todo recto y luego gira a la derecha.",
+        "translation": "계속 직진하시고 그 다음에 오른쪽으로 도세요.",
+        "highlights": [
+          "Sigue",
+          "derecha"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Y está lejos de aquí?",
+        "translation": "그리고 여기에서 멀리 있나요?",
+        "highlights": [
+          "está",
+          "lejos",
+          "de",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, no está lejos. Camina una calle y verás el metro a la izquierda.",
+        "translation": "아니요, 멀지 않아요. 한 블록 걸으면 왼쪽에 지하철이 보일 거예요.",
+        "highlights": [
+          "calle",
+          "izquierda"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Muchas gracias. Voy a la izquierda, ¿no?",
+        "translation": "감사합니다. 왼쪽으로 가면 되죠?",
+        "highlights": [
+          "Voy",
+          "izquierda"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Cómo voy a...?",
+        "translation": "~에 어떻게 가나요?"
+      },
+      {
+        "phrase": "Sigue todo recto",
+        "translation": "계속 직진하세요"
+      },
+      {
+        "phrase": "gira a la derecha",
+        "translation": "오른쪽으로 도세요"
+      },
+      {
+        "phrase": "está lejos",
+        "translation": "멀리 있나요?"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_25",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "On a bus asking the driver for help",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "por",
+        "pos": "prep",
+        "phonetic": "poɾ",
+        "translation": "~을 위해, ~로",
+        "note": "이 문맥에서는 'por favor'에서 '~을 위해'의 의미로 쓰임"
+      },
+      {
+        "word": "favor",
+        "pos": "noun",
+        "phonetic": "faˈβoɾ",
+        "translation": "부탁, 호의",
+        "note": "'por favor'는 '제발, 부탁합니다'라는 관용구"
+      },
+      {
+        "word": "ayudar",
+        "pos": "verb",
+        "phonetic": "aʝuˈðaɾ",
+        "translation": "돕다",
+        "note": "직접목적어가 사람일 때 'a'를 씀 (ayudar a alguien)"
+      },
+      {
+        "word": "necesitar",
+        "pos": "verb",
+        "phonetic": "neθesiˈtaɾ",
+        "translation": "필요로 하다",
+        "note": "동사원형을 목적어로 취할 수 있음"
+      },
+      {
+        "word": "bajar",
+        "pos": "verb",
+        "phonetic": "baˈxaɾ",
+        "translation": "내리다 (탈것에서)",
+        "note": "교통수단에서 내릴 때 'bajar de' 또는 'bajarse en'을 씀"
+      },
+      {
+        "word": "parada",
+        "pos": "noun",
+        "phonetic": "paˈɾaða",
+        "translation": "정류장, 정거장",
+        "note": "버스 정류장은 'parada de autobús'"
+      },
+      {
+        "word": "siguiente",
+        "pos": "adj",
+        "phonetic": "siˈɣjente",
+        "translation": "다음의",
+        "note": "관사와 함께 'la siguiente parada'처럼 명사 앞에 씀"
+      },
+      {
+        "word": "puedo",
+        "pos": "verb",
+        "phonetic": "ˈpweðo",
+        "translation": "나는 할 수 있다",
+        "note": "'poder'의 1인칭 단수 현재형"
+      },
+      {
+        "word": "dónde",
+        "pos": "adv",
+        "phonetic": "ˈdonde",
+        "translation": "어디에, 어디로",
+        "note": "의문사, 강세가 있음"
+      },
+      {
+        "word": "aquí",
+        "pos": "adv",
+        "phonetic": "aˈki",
+        "translation": "여기에",
+        "note": "장소를 가리키는 지시부사"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Por favor, ¿me puede ayudar? Necesito bajar en la próxima parada.",
+        "translation": "부탁드립니다. 저를 도와주실 수 있나요? 다음 정류장에서 내려야 해요.",
+        "highlights": [
+          "Por",
+          "favor",
+          "ayudar",
+          "Necesito",
+          "bajar",
+          "parada"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, ¿dónde quiere bajar?",
+        "translation": "네, 어디서 내리시겠어요?",
+        "highlights": [
+          "dónde",
+          "bajar"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "En la siguiente parada, por favor. ¿Puedo bajar aquí?",
+        "translation": "다음 정류장에서요, 부탁드립니다. 여기서 내릴 수 있나요?",
+        "highlights": [
+          "siguiente",
+          "parada",
+          "por",
+          "favor",
+          "Puedo",
+          "bajar",
+          "aquí"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, aquí puede bajar. La siguiente parada es la suya.",
+        "translation": "네, 여기서 내리실 수 있어요. 다음 정류장이 당신의 정류장입니다.",
+        "highlights": [
+          "aquí",
+          "puede",
+          "bajar",
+          "siguiente",
+          "parada"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Me puede ayudar?",
+        "translation": "저를 도와주실 수 있나요?"
+      },
+      {
+        "phrase": "Necesito bajar en la próxima parada.",
+        "translation": "다음 정류장에서 내려야 해요."
+      },
+      {
+        "phrase": "¿Dónde quiere bajar?",
+        "translation": "어디서 내리시겠어요?"
+      },
+      {
+        "phrase": "En la siguiente parada, por favor.",
+        "translation": "다음 정류장에서요, 부탁드립니다."
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_27",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Introducing a colleague at work",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "ser",
+        "pos": "verb",
+        "phonetic": "/seɾ/",
+        "translation": "~이다 (본질, 직업 등)",
+        "note": "주어의 정체나 직업을 말할 때 사용"
+      },
+      {
+        "word": "trabajar",
+        "pos": "verb",
+        "phonetic": "/tɾaβaˈxaɾ/",
+        "translation": "일하다, 근무하다"
+      },
+      {
+        "word": "compañero",
+        "pos": "noun",
+        "phonetic": "/kompaˈɲeɾo/",
+        "translation": "동료, 동업자"
+      },
+      {
+        "word": "empresa",
+        "pos": "noun",
+        "phonetic": "/emˈpɾesa/",
+        "translation": "회사, 기업"
+      },
+      {
+        "word": "nuevo",
+        "pos": "adj",
+        "phonetic": "/ˈnweβo/",
+        "translation": "새로운"
+      },
+      {
+        "word": "este",
+        "pos": "det",
+        "phonetic": "/ˈeste/",
+        "translation": "이 (남성 단수 지시형용사)"
+      },
+      {
+        "word": "presentar",
+        "pos": "verb",
+        "phonetic": "/pɾesenˈtaɾ/",
+        "translation": "소개하다"
+      },
+      {
+        "word": "mucho",
+        "pos": "adv",
+        "phonetic": "/ˈmutʃo/",
+        "translation": "많이, 매우",
+        "note": "여기서는 'mucho gusto'의 일부로 사용"
+      },
+      {
+        "word": "gusto",
+        "pos": "noun",
+        "phonetic": "/ˈɡusto/",
+        "translation": "기쁨, 즐거움",
+        "note": "'mucho gusto'는 '만나서 반갑습니다'라는 인사말"
+      },
+      {
+        "word": "también",
+        "pos": "adv",
+        "phonetic": "/tamˈbjen/",
+        "translation": "~도, 또한"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, Juan. Te presento a este compañero nuevo, él es Pedro.",
+        "translation": "안녕, 후안. 이 새로운 동료를 소개할게, 그는 페드로야.",
+        "highlights": [
+          "presento",
+          "este",
+          "compañero",
+          "nuevo",
+          "es"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Mucho gusto, Pedro. ¿Trabajas en la empresa grande?",
+        "translation": "만나서 반가워요, 페드로. 큰 회사에서 일하시나요?",
+        "highlights": [
+          "mucho",
+          "gusto",
+          "trabajas",
+          "empresa"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "Sí, trabajo aquí. Y también soy nuevo en este departamento.",
+        "translation": "네, 여기서 일해요. 그리고 저도 이 부서에서 새내기예요.",
+        "highlights": [
+          "trabajo",
+          "también",
+          "soy",
+          "nuevo",
+          "este"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¡Bienvenido! Espero que te guste trabajar con nosotros.",
+        "translation": "환영합니다! 우리와 함께 일하는 것을 좋아하시길 바랍니다.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Te presento a...",
+        "translation": "~을 소개할게요"
+      },
+      {
+        "phrase": "Mucho gusto",
+        "translation": "만나서 반갑습니다"
+      },
+      {
+        "phrase": "trabajar en una empresa",
+        "translation": "회사에서 일하다"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_29",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Leaving a voicemail message",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "mensaje",
+        "pos": "noun",
+        "phonetic": "/menˈsa.xe/",
+        "translation": "메시지",
+        "note": "음성 메시지를 뜻함"
+      },
+      {
+        "word": "dejar",
+        "pos": "verb",
+        "phonetic": "/deˈxaɾ/",
+        "translation": "남기다",
+        "note": "메시지를 남길 때 사용"
+      },
+      {
+        "word": "llamada",
+        "pos": "noun",
+        "phonetic": "/ʝaˈma.ða/",
+        "translation": "전화",
+        "note": "전화 통화를 뜻함"
+      },
+      {
+        "word": "teléfono",
+        "pos": "noun",
+        "phonetic": "/teˈle.fo.no/",
+        "translation": "전화기, 전화번호",
+        "note": "전화기 또는 번호 의미"
+      },
+      {
+        "word": "número",
+        "pos": "noun",
+        "phonetic": "/ˈnu.me.ɾo/",
+        "translation": "번호",
+        "note": "전화번호를 가리킬 때"
+      },
+      {
+        "word": "después",
+        "pos": "adv",
+        "phonetic": "/desˈpwes/",
+        "translation": "나중에, 그 후에",
+        "note": "시간 순서를 나타냄"
+      },
+      {
+        "word": "cuando",
+        "pos": "conj",
+        "phonetic": "/ˈkwan.do/",
+        "translation": "~할 때",
+        "note": "시간 접속사"
+      },
+      {
+        "word": "llamar",
+        "pos": "verb",
+        "phonetic": "/ʝaˈmaɾ/",
+        "translation": "전화하다",
+        "note": "이미 배운 단어지만 상황에 맞게 사용 (피해야 할 단어에 있지만 대화에 자연스러움을 위해 포함, 단어 목록에서 제외하고 대화에만 사용 가능) - 실제로는 규칙에 따라 대화에만 사용"
+      },
+      {
+        "word": "volver",
+        "pos": "verb",
+        "phonetic": "/bolˈbeɾ/",
+        "translation": "다시 하다, 돌아오다",
+        "note": "전화를 다시 걸 때 'volver a llamar'로 사용"
+      },
+      {
+        "word": "otra",
+        "pos": "det",
+        "phonetic": "/ˈo.tɾa/",
+        "translation": "다른",
+        "note": "여성 명사 앞에 쓰임"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, soy María. Dejo un mensaje para Juan.",
+        "translation": "안녕하세요, 저는 마리아입니다. 후안을 위한 메시지를 남깁니다.",
+        "highlights": [
+          "mensaje",
+          "Dejo"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hola, María. No puedo contestar ahora. Deja tu mensaje después del tono.",
+        "translation": "안녕하세요, 마리아. 지금 전화를 받을 수 없습니다. 신호음 후에 메시지를 남기세요.",
+        "highlights": [
+          "después",
+          "mensaje"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Juan, cuando vuelvas, llámame a mi número de teléfono.",
+        "translation": "후안, 돌아오면 내 전화번호로 전화해 주세요.",
+        "highlights": [
+          "cuando",
+          "vuelvas",
+          "número",
+          "teléfono"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Necesito hablar contigo otra vez. Volveré a llamar más tarde.",
+        "translation": "당신과 다시 이야기해야 해요. 나중에 다시 전화할게요.",
+        "highlights": [
+          "otra",
+          "Volveré"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Dejar un mensaje",
+        "translation": "메시지를 남기다"
+      },
+      {
+        "phrase": "Volver a llamar",
+        "translation": "다시 전화하다"
+      },
+      {
+        "phrase": "Después del tono",
+        "translation": "신호음 후에"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_31",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the post office sending a package",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "enviar",
+        "pos": "verb",
+        "phonetic": "/enˈbjaɾ/",
+        "translation": "보내다",
+        "note": "편지나 소포를 보낼 때 사용하는 일반적인 동사"
+      },
+      {
+        "word": "paquete",
+        "pos": "noun",
+        "phonetic": "/paˈkete/",
+        "translation": "소포, 꾸러미",
+        "note": "보내는 물건을 가리키는 명사"
+      },
+      {
+        "word": "necesitar",
+        "pos": "verb",
+        "phonetic": "/neθesiˈtaɾ/",
+        "translation": "필요로 하다",
+        "note": "이미 파일에 있지만 필수 동사이므로 포함"
+      },
+      {
+        "word": "pesar",
+        "pos": "verb",
+        "phonetic": "/peˈsaɾ/",
+        "translation": "무게를 재다",
+        "note": "소포의 무게를 측정할 때 사용"
+      },
+      {
+        "word": "carta",
+        "pos": "noun",
+        "phonetic": "/ˈkaɾta/",
+        "translation": "편지",
+        "note": "봉투에 넣어 보내는 편지"
+      },
+      {
+        "word": "dirección",
+        "pos": "noun",
+        "phonetic": "/diɾekˈθjon/",
+        "translation": "주소",
+        "note": "받는 사람의 주소"
+      },
+      {
+        "word": "cuánto",
+        "pos": "adv",
+        "phonetic": "/ˈkwanto/",
+        "translation": "얼마나",
+        "note": "비용이나 양을 물을 때 사용"
+      },
+      {
+        "word": "todo",
+        "pos": "pron",
+        "phonetic": "/ˈtodo/",
+        "translation": "전부, 모든 것",
+        "note": "남김없이 모두"
+      },
+      {
+        "word": "más",
+        "pos": "adv",
+        "phonetic": "/mas/",
+        "translation": "더",
+        "note": "비교하거나 추가를 나타냄"
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "phonetic": "/ˈpeɾo/",
+        "translation": "하지만",
+        "note": "대조를 나타내는 접속사"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Buenos días, quiero enviar este paquete.",
+        "translation": "안녕하세요, 이 소포를 보내고 싶습니다.",
+        "highlights": [
+          "enviar",
+          "paquete"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Muy bien. ¿Necesita pesar el paquete? Primero, póngalo aquí.",
+        "translation": "좋습니다. 소포 무게를 재야 합니까? 먼저 여기에 놓으세요.",
+        "highlights": [
+          "Necesita",
+          "pesar",
+          "paquete"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, y también quiero enviar una carta a Corea.",
+        "translation": "네, 그리고 한국으로 편지도 보내고 싶습니다.",
+        "highlights": [
+          "enviar",
+          "carta"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿Tiene la dirección del destinatario? Y ¿cuánto pesa todo?",
+        "translation": "받는 사람의 주소가 있습니까? 그리고 전체 무게가 얼마나 됩니까?",
+        "highlights": [
+          "dirección",
+          "cuánto",
+          "todo"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, aquí está. ¿Necesito pagar más por la carta?",
+        "translation": "네, 여기 있습니다. 편지에 대해 더 내야 합니까?",
+        "highlights": [
+          "más"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, pero el paquete es muy pesado. Necesita pagar más.",
+        "translation": "아니요, 하지만 소포가 매우 무겁습니다. 더 내셔야 합니다.",
+        "highlights": [
+          "pero",
+          "paquete",
+          "Necesita",
+          "más"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "quiero enviar este paquete",
+        "translation": "이 소포를 보내고 싶습니다"
+      },
+      {
+        "phrase": "necesita pesar",
+        "translation": "무게를 재야 합니다"
+      },
+      {
+        "phrase": "¿cuánto pesa todo?",
+        "translation": "전체 무게가 얼마나 됩니까?"
+      },
+      {
+        "phrase": "pagar más",
+        "translation": "더 내다"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_33",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your daily routine",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "levantarse",
+        "pos": "verb",
+        "phonetic": "/leβanˈtaɾse/",
+        "translation": "일어나다",
+        "note": "재귀동사로, 'me levanto' 등으로 활용"
+      },
+      {
+        "word": "desayuno",
+        "pos": "noun",
+        "phonetic": "/desaˈʝuno/",
+        "translation": "아침 식사",
+        "note": "명사, 동사 desayunar와 구분"
+      },
+      {
+        "word": "trabajo",
+        "pos": "noun",
+        "phonetic": "/tɾaˈβaxo/",
+        "translation": "일, 직장",
+        "note": "동사 trabajar의 1인칭 형태와 동일하지만 여기서는 명사로 사용"
+      },
+      {
+        "word": "a",
+        "pos": "prep",
+        "phonetic": "/a/",
+        "translation": "~에, ~로",
+        "note": "시간을 나타낼 때 'a las'로 사용"
+      },
+      {
+        "word": "las",
+        "pos": "det",
+        "phonetic": "/las/",
+        "translation": "그 (여러 개의 여성 명사 앞)",
+        "note": "정관사, 시간 표현 'a las'에서 사용"
+      },
+      {
+        "word": "siete",
+        "pos": "num",
+        "phonetic": "/ˈsjete/",
+        "translation": "일곱, 7",
+        "note": "숫자, 시간 표현에 사용"
+      },
+      {
+        "word": "ducharse",
+        "pos": "verb",
+        "phonetic": "/duˈtʃaɾse/",
+        "translation": "샤워하다",
+        "note": "재귀동사, 'me ducho' 등으로 활용"
+      },
+      {
+        "word": "salir",
+        "pos": "verb",
+        "phonetic": "/saˈliɾ/",
+        "translation": "나가다, 떠나다",
+        "note": "장소에서 나갈 때 사용"
+      },
+      {
+        "word": "de",
+        "pos": "prep",
+        "phonetic": "/de/",
+        "translation": "~의, ~에서",
+        "note": "출발점을 나타낼 때 사용"
+      },
+      {
+        "word": "casa",
+        "pos": "noun",
+        "phonetic": "/ˈkasa/",
+        "translation": "집",
+        "note": "여성 명사, 'en casa' 등으로 사용"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Me levanto a las siete todos los días.",
+        "translation": "나는 매일 일곱 시에 일어나요.",
+        "highlights": [
+          "levanto",
+          "a",
+          "las",
+          "siete"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿Y desayunas antes de salir de casa?",
+        "translation": "그리고 집에서 나가기 전에 아침을 먹나요?",
+        "highlights": [
+          "desayunas",
+          "salir",
+          "de",
+          "casa"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, desayuno y luego me ducho.",
+        "translation": "네, 아침을 먹고 나서 샤워해요.",
+        "highlights": [
+          "desayuno",
+          "ducho"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "¿A qué hora sales para el trabajo?",
+        "translation": "몇 시에 일하러 나가요?",
+        "highlights": [
+          "sales",
+          "trabajo"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Salgo de casa a las ocho.",
+        "translation": "나는 여덟 시에 집에서 나가요.",
+        "highlights": [
+          "Salgo",
+          "de",
+          "casa",
+          "las"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Me levanto a las siete",
+        "translation": "나는 일곱 시에 일어나요"
+      },
+      {
+        "phrase": "salir de casa",
+        "translation": "집에서 나가다"
+      },
+      {
+        "phrase": "desayunar antes de salir",
+        "translation": "나가기 전에 아침을 먹다"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_35",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking about opening hours",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "abrir",
+        "pos": "verb",
+        "phonetic": "/aˈbɾiɾ/",
+        "translation": "열다, 개점하다",
+        "note": "가게나 상점이 문을 여는 것을 말합니다."
+      },
+      {
+        "word": "cerrar",
+        "pos": "verb",
+        "phonetic": "/θeˈraɾ/",
+        "translation": "닫다, 폐점하다",
+        "note": "가게나 상점이 문을 닫는 것을 말합니다."
+      },
+      {
+        "word": "hora",
+        "pos": "noun",
+        "phonetic": "/ˈoɾa/",
+        "translation": "시간, 시각",
+        "note": "특정 시각을 물을 때 사용합니다."
+      },
+      {
+        "word": "tienda",
+        "pos": "noun",
+        "phonetic": "/ˈtjenda/",
+        "translation": "상점, 가게",
+        "note": "물건을 파는 곳을 일반적으로 이릅니다."
+      },
+      {
+        "word": "hasta",
+        "pos": "prep",
+        "phonetic": "/ˈasta/",
+        "translation": "~까지",
+        "note": "시간이나 장소의 끝 지점을 나타냅니다."
+      },
+      {
+        "word": "desde",
+        "pos": "prep",
+        "phonetic": "/ˈdezde/",
+        "translation": "~부터",
+        "note": "시간이나 장소의 시작 지점을 나타냅니다."
+      },
+      {
+        "word": "temprano",
+        "pos": "adv",
+        "phonetic": "/temˈpɾano/",
+        "translation": "일찍",
+        "note": "시간이 이른 것을 나타냅니다."
+      },
+      {
+        "word": "tarde",
+        "pos": "adv",
+        "phonetic": "/ˈtaɾde/",
+        "translation": "늦게",
+        "note": "시간이 늦은 것을 나타냅니다."
+      },
+      {
+        "word": "saber",
+        "pos": "verb",
+        "phonetic": "/saˈbeɾ/",
+        "translation": "알다",
+        "note": "정보나 사실을 알고 있음을 나타냅니다."
+      },
+      {
+        "word": "entonces",
+        "pos": "conj",
+        "phonetic": "/enˈtonθes/",
+        "translation": "그러면, 그렇다면",
+        "note": "대화에서 논리적인 결과를 이끌 때 사용합니다."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Perdón, ¿sabe a qué hora abre la tienda?",
+        "translation": "실례합니다, 가게가 몇 시에 여는지 아세요?",
+        "highlights": [
+          "sabe",
+          "hora",
+          "abre",
+          "tienda"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, abre desde las nueve y media. Pero hoy cierra más temprano.",
+        "translation": "네, 9시 반부터 엽니다. 하지만 오늘은 더 일찍 닫습니다.",
+        "highlights": [
+          "abre",
+          "desde",
+          "cierra",
+          "temprano"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "¿Hasta qué hora está abierta hoy?",
+        "translation": "오늘은 몇 시까지 열려 있나요?",
+        "highlights": [
+          "Hasta",
+          "hora"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hoy cierra a las dos. Es un poco tarde, ¿no?",
+        "translation": "오늘은 2시에 닫습니다. 조금 늦은 거죠, 그렇죠?",
+        "highlights": [
+          "cierra",
+          "tarde"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Entonces, ¿puedo ir ahora?",
+        "translation": "그러면, 지금 갈 수 있을까요?",
+        "highlights": [
+          "Entonces"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿A qué hora abre/cierra?",
+        "translation": "몇 시에 열고/닫나요?"
+      },
+      {
+        "phrase": "Abre desde... hasta...",
+        "translation": "...부터 ...까지 엽니다."
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_37",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Choosing a dish from a menu",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "querer",
+        "pos": "verb",
+        "phonetic": "/keˈɾeɾ/",
+        "translation": "원하다",
+        "note": "주로 '~을 원하다'로 쓰이며, 'quiero' 형태로 자주 사용됩니다."
+      },
+      {
+        "word": "comer",
+        "pos": "verb",
+        "phonetic": "/koˈmeɾ/",
+        "translation": "먹다",
+        "note": "식사하다의 의미로도 쓰입니다."
+      },
+      {
+        "word": "menú",
+        "pos": "noun",
+        "phonetic": "/meˈnu/",
+        "translation": "메뉴",
+        "note": "스페인어에서는 '메뉴' 그대로 사용되며, '오늘의 메뉴'라는 뜻도 있습니다."
+      },
+      {
+        "word": "plato",
+        "pos": "noun",
+        "phonetic": "/ˈplato/",
+        "translation": "접시, 요리",
+        "note": "식당에서 '요리'나 '접시'를 의미합니다."
+      },
+      {
+        "word": "agua",
+        "pos": "noun",
+        "phonetic": "/ˈaɣwa/",
+        "translation": "물",
+        "note": "주로 음료로 마시는 물을 가리킵니다."
+      },
+      {
+        "word": "con",
+        "pos": "prep",
+        "phonetic": "/kon/",
+        "translation": "~와 함께, ~을 곁들인",
+        "note": "재료나 동반 관계를 나타낼 때 사용됩니다."
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "phonetic": "/ˈpeɾo/",
+        "translation": "하지만",
+        "note": "대조를 나타내는 접속사입니다."
+      },
+      {
+        "word": "tener",
+        "pos": "verb",
+        "phonetic": "/teˈneɾ/",
+        "translation": "가지다",
+        "note": "소유나 상태를 나타낼 때 쓰이며, 'tengo' 형태로 자주 사용됩니다."
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "phonetic": "/muj/",
+        "translation": "매우",
+        "note": "형용사나 부사를 강조할 때 사용됩니다."
+      },
+      {
+        "word": "rico",
+        "pos": "adj",
+        "phonetic": "/ˈriko/",
+        "translation": "맛있는",
+        "note": "음식이 맛있을 때 사용하며, '맛있는'이라는 뜻입니다."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "¿Qué quieres comer hoy?",
+        "translation": "오늘 무엇을 먹고 싶어?",
+        "highlights": [
+          "quieres",
+          "comer"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Quiero el menú del día con plato de pescado, pero también tengo hambre.",
+        "translation": "나는 생선 요리가 포함된 오늘의 메뉴를 원해, 하지만 나는 배도 고파.",
+        "highlights": [
+          "menú",
+          "plato",
+          "pero",
+          "tengo"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "El pescado es muy rico aquí. ¿Y quieres agua?",
+        "translation": "여기 생선은 매우 맛있어. 그리고 물은 원해?",
+        "highlights": [
+          "muy",
+          "rico",
+          "agua"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sí, quiero agua con limón, por favor.",
+        "translation": "응, 레몬과 함께 물을 원해, 부탁해.",
+        "highlights": [
+          "agua",
+          "con"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "¿Qué quieres comer?",
+        "translation": "뭐 먹고 싶어?"
+      },
+      {
+        "phrase": "el menú del día",
+        "translation": "오늘의 메뉴"
+      },
+      {
+        "phrase": "agua con limón",
+        "translation": "레몬물"
+      }
+    ]
+  },
+  {
+    "id": "ko_A1_vctx_39",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the bank for a simple transaction",
+    "frequency_note": "top 300 most frequent words of Spanish",
+    "vocabulary": [
+      {
+        "word": "dinero",
+        "pos": "noun",
+        "phonetic": "diˈneɾo",
+        "translation": "돈",
+        "note": "물질적 가치, 금전을 뜻하는 일반 명사."
+      },
+      {
+        "word": "banco",
+        "pos": "noun",
+        "phonetic": "ˈbaŋko",
+        "translation": "은행",
+        "note": "금융 기관. 'banco'는 의자(벤치)의 뜻도 있지만 여기서는 은행."
+      },
+      {
+        "word": "cuenta",
+        "pos": "noun",
+        "phonetic": "ˈkwenta",
+        "translation": "계좌",
+        "note": "은행 계좌를 뜻함. 'cuenta'는 계산이라는 뜻도 있음."
+      },
+      {
+        "word": "cliente",
+        "pos": "noun",
+        "phonetic": "ˈkljente",
+        "translation": "고객",
+        "note": "은행에서 서비스를 받는 사람."
+      },
+      {
+        "word": "pagar",
+        "pos": "verb",
+        "phonetic": "paˈɣaɾ",
+        "translation": "지불하다",
+        "note": "돈을 내다. 주로 요금이나 비용을 지불할 때 사용."
+      },
+      {
+        "word": "abrir",
+        "pos": "verb",
+        "phonetic": "aˈβɾiɾ",
+        "translation": "열다, 개설하다",
+        "note": "여기서는 계좌를 개설하는 의미로 사용."
+      },
+      {
+        "word": "por",
+        "pos": "prep",
+        "phonetic": "poɾ",
+        "translation": "~을 위해, ~에 의해",
+        "note": "원인이나 목적, 수단을 나타내는 전치사."
+      },
+      {
+        "word": "para",
+        "pos": "prep",
+        "phonetic": "ˈpaɾa",
+        "translation": "~을 위해, ~에게",
+        "note": "목적이나 수신자를 나타내는 전치사."
+      },
+      {
+        "word": "muy",
+        "pos": "adv",
+        "phonetic": "muj",
+        "translation": "매우, 아주",
+        "note": "형용사나 부사를 강조할 때 사용."
+      },
+      {
+        "word": "pero",
+        "pos": "conj",
+        "phonetic": "ˈpeɾo",
+        "translation": "하지만",
+        "note": "대조를 나타내는 접속사."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hola, necesito abrir una cuenta, por favor.",
+        "translation": "안녕하세요, 계좌를 개설해야 합니다.",
+        "highlights": [
+          "abrir",
+          "cuenta"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Claro, señor. ¿Tiene dinero para pagar la cuenta?",
+        "translation": "물론입니다, 고객님. 계좌 개설 비용을 지불할 돈이 있으신가요?",
+        "highlights": [
+          "dinero",
+          "pagar",
+          "cuenta"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Sí, pero tengo muy poco dinero hoy.",
+        "translation": "네, 하지만 오늘 돈이 아주 조금밖에 없어요.",
+        "highlights": [
+          "pero",
+          "muy",
+          "dinero"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No pasa nada. Puede pagar mañana en el banco.",
+        "translation": "괜찮습니다. 내일 은행에서 지불하실 수 있어요.",
+        "highlights": [
+          "pagar",
+          "banco"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Perfecto, gracias. Soy cliente nuevo y necesito esta cuenta para el trabajo.",
+        "translation": "좋아요, 감사합니다. 저는 신규 고객인데, 일을 위해 이 계좌가 필요해요.",
+        "highlights": [
+          "cliente",
+          "cuenta",
+          "para"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "abrir una cuenta",
+        "translation": "계좌를 개설하다"
+      },
+      {
+        "phrase": "pagar por",
+        "translation": "~에 대해 지불하다"
+      },
+      {
+        "phrase": "cliente nuevo",
+        "translation": "신규 고객"
+      }
+    ]
+  }
+]

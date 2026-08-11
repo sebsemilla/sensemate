@@ -1,0 +1,2848 @@
+[
+  {
+    "id": "es_A1_vctx_01",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Greeting someone for the first time",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "مرحباً",
+        "pos": "interj",
+        "phonetic": "marḥaban",
+        "translation": "hola",
+        "note": "Saludo formal y general."
+      },
+      {
+        "word": "اسم",
+        "pos": "noun",
+        "phonetic": "ism",
+        "translation": "nombre",
+        "note": "Sustantivo masculino."
+      },
+      {
+        "word": "ما",
+        "pos": "pron",
+        "phonetic": "mā",
+        "translation": "qué",
+        "note": "Pronombre interrogativo."
+      },
+      {
+        "word": "أنا",
+        "pos": "pron",
+        "phonetic": "ʔanā",
+        "translation": "yo",
+        "note": "Pronombre personal."
+      },
+      {
+        "word": "من",
+        "pos": "prep",
+        "phonetic": "min",
+        "translation": "de",
+        "note": "Indica procedencia u origen."
+      },
+      {
+        "word": "أين",
+        "pos": "adv",
+        "phonetic": "ʔayna",
+        "translation": "dónde",
+        "note": "Adverbio interrogativo de lugar."
+      },
+      {
+        "word": "هذا",
+        "pos": "pron",
+        "phonetic": "hāḏā",
+        "translation": "este",
+        "note": "Demostrativo masculino singular."
+      },
+      {
+        "word": "صديق",
+        "pos": "noun",
+        "phonetic": "ṣadīq",
+        "translation": "amigo",
+        "note": "Sustantivo masculino."
+      },
+      {
+        "word": "جداً",
+        "pos": "adv",
+        "phonetic": "jiddan",
+        "translation": "muy",
+        "note": "Adverbio de grado."
+      },
+      {
+        "word": "سعيد",
+        "pos": "adj",
+        "phonetic": "saʿīd",
+        "translation": "feliz",
+        "note": "Adjetivo, usado en saludo."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "مرحباً! ما اسمك؟",
+        "translation": "¡Hola! ¿Cómo te llamas? (literal: ¿Cuál es tu nombre?)",
+        "highlights": [
+          "مرحباً",
+          "ما",
+          "اسم"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "أنا ليلى. من أين أنت؟",
+        "translation": "Yo soy Laila. ¿De dónde eres?",
+        "highlights": [
+          "أنا",
+          "من",
+          "أين"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "أنا من إسبانيا. هذا صديقي أحمد.",
+        "translation": "Yo soy de España. Este es mi amigo Ahmed.",
+        "highlights": [
+          "هذا",
+          "صديق"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "أهلاً بك! سعيد جداً بلقائك.",
+        "translation": "¡Bienvenido! Muy feliz de conocerte.",
+        "highlights": [
+          "سعيد",
+          "جداً"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "ما اسمك؟",
+        "translation": "¿Cómo te llamas?"
+      },
+      {
+        "phrase": "من أين أنت؟",
+        "translation": "¿De dónde eres?"
+      },
+      {
+        "phrase": "سعيد جداً بلقائك",
+        "translation": "Encantado de conocerte"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_03",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking where something is in a store",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "عند",
+        "pos": "prep",
+        "phonetic": "/ʕind/",
+        "translation": "en, junto a, tener (en posesión)",
+        "note": "Se usa para indicar posesión o ubicación; en el diálogo significa 'tener'."
+      },
+      {
+        "word": "شيء",
+        "pos": "noun",
+        "phonetic": "/ʃajʔ/",
+        "translation": "cosa, algo",
+        "note": "Sustantivo muy común."
+      },
+      {
+        "word": "يوجد",
+        "pos": "verb",
+        "phonetic": "/juːdʒad/",
+        "translation": "hay, existe",
+        "note": "Forma del verbo 'encontrarse'."
+      },
+      {
+        "word": "فقط",
+        "pos": "adv",
+        "phonetic": "/faqatˤ/",
+        "translation": "solo, solamente",
+        "note": "Adverbio de cantidad."
+      },
+      {
+        "word": "هنا",
+        "pos": "adv",
+        "phonetic": "/hunaː/",
+        "translation": "aquí",
+        "note": "Adverbio de lugar."
+      },
+      {
+        "word": "بجانب",
+        "pos": "prep",
+        "phonetic": "/bidʒaːnib/",
+        "translation": "al lado de",
+        "note": "Preposición de lugar."
+      },
+      {
+        "word": "بين",
+        "pos": "prep",
+        "phonetic": "/bajna/",
+        "translation": "entre",
+        "note": "Preposición de lugar."
+      },
+      {
+        "word": "أو",
+        "pos": "conj",
+        "phonetic": "/ʔaw/",
+        "translation": "o",
+        "note": "Conjunción disyuntiva."
+      },
+      {
+        "word": "لكن",
+        "pos": "conj",
+        "phonetic": "/laːkin/",
+        "translation": "pero",
+        "note": "Conjunción adversativa."
+      },
+      {
+        "word": "قريب",
+        "pos": "adj",
+        "phonetic": "/qariːb/",
+        "translation": "cerca",
+        "note": "Adjetivo de proximidad."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "السلام عليكم، عندك شيء مثل هذا؟",
+        "translation": "Hola, ¿tienes algo como esto?",
+        "highlights": [
+          "عندك",
+          "شيء"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "نعم، يوجد عندنا هذا فقط هنا.",
+        "translation": "Sí, tenemos esto solo aquí.",
+        "highlights": [
+          "يوجد",
+          "فقط",
+          "هنا"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "وأين يوجد بجانب هذا؟",
+        "translation": "¿Y dónde está al lado de esto?",
+        "highlights": [
+          "بجانب"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "بين الرفوف، أو قريب من الباب.",
+        "translation": "Entre los estantes, o cerca de la puerta.",
+        "highlights": [
+          "بين",
+          "أو",
+          "قريب"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "لكن أنا أريد شيئاً آخر.",
+        "translation": "Pero yo quiero otra cosa.",
+        "highlights": [
+          "لكن"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "عندك شيء؟",
+        "translation": "¿Tienes algo?"
+      },
+      {
+        "phrase": "يوجد هنا",
+        "translation": "Hay aquí"
+      },
+      {
+        "phrase": "بجانب هذا",
+        "translation": "al lado de esto"
+      },
+      {
+        "phrase": "بين ... و ...",
+        "translation": "entre ... y ..."
+      },
+      {
+        "phrase": "قريب من",
+        "translation": "cerca de"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_05",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Ordering a drink at a café",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "أُرِيدُ",
+        "pos": "verb",
+        "phonetic": "/ʔuriːdu/",
+        "translation": "quiero",
+        "note": "Verbo 'querer' en presente, primera persona singular. Muy común para expresar deseos."
+      },
+      {
+        "word": "قَهْوَة",
+        "pos": "noun",
+        "phonetic": "/qahwa/",
+        "translation": "café",
+        "note": "Bebida de café. Es un sustantivo femenino."
+      },
+      {
+        "word": "مَاء",
+        "pos": "noun",
+        "phonetic": "/maːʔ/",
+        "translation": "agua",
+        "note": "Sustantivo masculino. Se usa mucho en contextos de bebidas."
+      },
+      {
+        "word": "مَع",
+        "pos": "prep",
+        "phonetic": "/maʕ/",
+        "translation": "con",
+        "note": "Preposición para acompañamiento o mezcla."
+      },
+      {
+        "word": "حَلِيب",
+        "pos": "noun",
+        "phonetic": "/ħaliːb/",
+        "translation": "leche",
+        "note": "Sustantivo masculino. Común en pedidos de café con leche."
+      },
+      {
+        "word": "سُكَّر",
+        "pos": "noun",
+        "phonetic": "/sukkar/",
+        "translation": "azúcar",
+        "note": "Sustantivo masculino. A menudo se pide en cafés."
+      },
+      {
+        "word": "بَارِد",
+        "pos": "adj",
+        "phonetic": "/baːrid/",
+        "translation": "frío",
+        "note": "Adjetivo para describir temperatura. Se usa con bebidas."
+      },
+      {
+        "word": "هٰذَا",
+        "pos": "pron",
+        "phonetic": "/haːðaː/",
+        "translation": "esto/este",
+        "note": "Pronombre demostrativo para masculino singular. Ya visto en otros archivos, pero aquí se usa en contexto de señalar."
+      },
+      {
+        "word": "كَم",
+        "pos": "adv",
+        "phonetic": "/kam/",
+        "translation": "cuánto/cuántos",
+        "note": "Adverbio interrogativo para preguntar por cantidad o precio."
+      },
+      {
+        "word": "وَ",
+        "pos": "conj",
+        "phonetic": "/wa/",
+        "translation": "y",
+        "note": "Conjunción copulativa. Se escribe pegada a la palabra siguiente."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "أُرِيدُ قَهْوَةً، مِنْ فَضْلِكَ.",
+        "translation": "Quiero un café, por favor.",
+        "highlights": [
+          "أُرِيدُ",
+          "قَهْوَةً"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "مَعَ الحَلِيبِ وَ السُّكَّرِ؟",
+        "translation": "¿Con leche y azúcar?",
+        "highlights": [
+          "مَعَ",
+          "الحَلِيبِ",
+          "وَ",
+          "السُّكَّرِ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "لَا، مَاءٌ بَارِدٌ مِنْ فَضْلِكَ. هٰذَا كَمْ؟",
+        "translation": "No, agua fría por favor. ¿Esto cuánto cuesta?",
+        "highlights": [
+          "مَاءٌ",
+          "بَارِدٌ",
+          "هٰذَا",
+          "كَمْ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "خَمْسَةُ دَرَاهِمَ.",
+        "translation": "Cinco dírhams.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "أُرِيدُ قَهْوَةً",
+        "translation": "Quiero un café"
+      },
+      {
+        "phrase": "مَعَ الحَلِيبِ وَ السُّكَّرِ",
+        "translation": "Con leche y azúcar"
+      },
+      {
+        "phrase": "مَاءٌ بَارِدٌ",
+        "translation": "Agua fría"
+      },
+      {
+        "phrase": "هٰذَا كَمْ؟",
+        "translation": "¿Cuánto cuesta esto?"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_07",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Buying a ticket at a station",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "إلى",
+        "pos": "prep",
+        "phonetic": "ʔilā",
+        "translation": "a, hacia"
+      },
+      {
+        "word": "بكم",
+        "pos": "adv",
+        "phonetic": "bikam",
+        "translation": "¿cuánto cuesta?"
+      },
+      {
+        "word": "تذكرة",
+        "pos": "noun",
+        "phonetic": "taðkara",
+        "translation": "billete, boleto"
+      },
+      {
+        "word": "قطار",
+        "pos": "noun",
+        "phonetic": "qiṭār",
+        "translation": "tren"
+      },
+      {
+        "word": "محطة",
+        "pos": "noun",
+        "phonetic": "maḥaṭṭa",
+        "translation": "estación"
+      },
+      {
+        "word": "متى",
+        "pos": "adv",
+        "phonetic": "matā",
+        "translation": "¿cuándo?"
+      },
+      {
+        "word": "يغادر",
+        "pos": "verb",
+        "phonetic": "yuḡādir",
+        "translation": "salir (partir)"
+      },
+      {
+        "word": "أريد",
+        "pos": "verb",
+        "phonetic": "ʔurīd",
+        "translation": "quiero (yo)"
+      },
+      {
+        "word": "من فضلك",
+        "pos": "adv",
+        "phonetic": "min faḍlik",
+        "translation": "por favor"
+      },
+      {
+        "word": "كم",
+        "pos": "adv",
+        "phonetic": "kam",
+        "translation": "¿cuánto?"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "أريد تذكرة إلى القطار، من فضلك.",
+        "translation": "Quiero un billete para el tren, por favor.",
+        "highlights": [
+          "أريد",
+          "تذكرة",
+          "إلى",
+          "القطار",
+          "من فضلك"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "من أين إلى أين؟",
+        "translation": "¿De dónde a dónde?",
+        "highlights": [
+          "إلى"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "إلى محطة القاهرة. بكم التذكرة؟",
+        "translation": "A la estación de El Cairo. ¿Cuánto cuesta el billete?",
+        "highlights": [
+          "إلى",
+          "محطة",
+          "بكم",
+          "التذكرة"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "التذكرة بخمسة جنيهات. متى يغادر القطار؟",
+        "translation": "El billete cuesta cinco libras. ¿Cuándo sale el tren?",
+        "highlights": [
+          "التذكرة",
+          "متى",
+          "يغادر",
+          "القطار"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "كم ساعة؟ أريد القطار الساعة الثالثة.",
+        "translation": "¿Cuántas horas? Quiero el tren de las tres.",
+        "highlights": [
+          "كم",
+          "أريد",
+          "القطار"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "أريد تذكرة إلى...",
+        "translation": "Quiero un billete a..."
+      },
+      {
+        "phrase": "بكم التذكرة؟",
+        "translation": "¿Cuánto cuesta el billete?"
+      },
+      {
+        "phrase": "متى يغادر القطار؟",
+        "translation": "¿Cuándo sale el tren?"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_09",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Checking in at a hotel reception",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "حُجْزَة",
+        "pos": "noun",
+        "phonetic": "ˈħuʒza",
+        "translation": "reserva",
+        "note": "común para reservas en hoteles"
+      },
+      {
+        "word": "غُرْفَة",
+        "pos": "noun",
+        "phonetic": "ˈɣurfa",
+        "translation": "habitación",
+        "note": ""
+      },
+      {
+        "word": "مِفْتاح",
+        "pos": "noun",
+        "phonetic": "mifˈtaːħ",
+        "translation": "llave",
+        "note": ""
+      },
+      {
+        "word": "هٰذِهِ",
+        "pos": "pron",
+        "phonetic": "ˈhaːðihi",
+        "translation": "esta (femenino)",
+        "note": "demostrativo femenino"
+      },
+      {
+        "word": "لَيْلَة",
+        "pos": "noun",
+        "phonetic": "ˈlajla",
+        "translation": "noche",
+        "note": "singular, también se usa para 'una noche'"
+      },
+      {
+        "word": "نَعَم",
+        "pos": "adv",
+        "phonetic": "ˈnaʕam",
+        "translation": "sí",
+        "note": "afirmación"
+      },
+      {
+        "word": "مُهِمّ",
+        "pos": "adj",
+        "phonetic": "muˈhimm",
+        "translation": "importante",
+        "note": ""
+      },
+      {
+        "word": "هٰذَا",
+        "pos": "pron",
+        "phonetic": "ˈhaːða",
+        "translation": "esto / este",
+        "note": "demostrativo masculino (ya visto, pero se usa aquí en el diálogo)"
+      },
+      {
+        "word": "قَبْل",
+        "pos": "prep",
+        "phonetic": "qabl",
+        "translation": "antes de",
+        "note": ""
+      },
+      {
+        "word": "وَقْت",
+        "pos": "noun",
+        "phonetic": "waqt",
+        "translation": "tiempo / hora",
+        "note": ""
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A (recepcionista)",
+        "text": "نَعَم، حُجْزَةٌ لِغُرْفَةٍ لَيْلَةً وَاحِدَة؟",
+        "translation": "Sí, ¿una reserva para una habitación por una noche?",
+        "highlights": [
+          "نَعَم",
+          "حُجْزَةٌ",
+          "غُرْفَةٍ",
+          "لَيْلَةً"
+        ]
+      },
+      {
+        "speaker": "B (huésped)",
+        "text": "نَعَم، هٰذِهِ غُرْفَتِي، وَهٰذَا الْمِفْتَاحُ؟",
+        "translation": "Sí, esta es mi habitación, ¿y esta es la llave?",
+        "highlights": [
+          "نَعَم",
+          "هٰذِهِ",
+          "غُرْفَتِي",
+          "هٰذَا",
+          "الْمِفْتَاحُ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "قَبْلَ ذٰلِكَ، هٰذَا مُهِمٌّ: وَقْتُ الْمَغَادَرَةِ عَشْرَةٌ.",
+        "translation": "Antes de eso, esto es importante: la hora de salida son las diez.",
+        "highlights": [
+          "قَبْلَ",
+          "هٰذَا",
+          "مُهِمٌّ",
+          "وَقْتُ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "شُكْرًا، هٰذَا وَقْتٌ طَوِيلٌ.",
+        "translation": "Gracias, esto es un tiempo largo.",
+        "highlights": [
+          "هٰذَا",
+          "وَقْتٌ"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "حُجْزَةٌ لِغُرْفَةٍ",
+        "translation": "reserva para una habitación"
+      },
+      {
+        "phrase": "وَقْتُ الْمَغَادَرَةِ",
+        "translation": "hora de salida"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_11",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Meeting a new neighbor",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "جَار",
+        "pos": "noun",
+        "phonetic": "/d͡ʒaːr/",
+        "translation": "vecino",
+        "note": "Sustantivo masculino; femenino: جارة (jāra)."
+      },
+      {
+        "word": "بَيْت",
+        "pos": "noun",
+        "phonetic": "/bajt/",
+        "translation": "casa",
+        "note": "Se usa para hogar o edificio."
+      },
+      {
+        "word": "نَحْنُ",
+        "pos": "pron",
+        "phonetic": "/naħnu/",
+        "translation": "nosotros/nosotras",
+        "note": "Pronombre de sujeto plural."
+      },
+      {
+        "word": "مُتَجَاوِر",
+        "pos": "adj",
+        "phonetic": "/mutad͡ʒaːwir/",
+        "translation": "contiguo, vecino (adj.)",
+        "note": "Se usa para indicar proximidad física."
+      },
+      {
+        "word": "أَهْلًا",
+        "pos": "adv",
+        "phonetic": "/ʔahlan/",
+        "translation": "hola, bienvenido",
+        "note": "Saludo común."
+      },
+      {
+        "word": "سَكَنَ",
+        "pos": "verb",
+        "phonetic": "/sakana/",
+        "translation": "vivir, residir",
+        "note": "Verbo pasado; presente: يسكن (yaskun)."
+      },
+      {
+        "word": "جَدِيد",
+        "pos": "adj",
+        "phonetic": "/d͡ʒadiːd/",
+        "translation": "nuevo",
+        "note": "Concuerda en género y número."
+      },
+      {
+        "word": "هُنَاكَ",
+        "pos": "adv",
+        "phonetic": "/hunaːka/",
+        "translation": "ahí, allí",
+        "note": "Indica lugar lejano."
+      },
+      {
+        "word": "دَخَلَ",
+        "pos": "verb",
+        "phonetic": "/daxala/",
+        "translation": "entrar",
+        "note": "Verbo pasado; presente: يدخل (yadkhul)."
+      },
+      {
+        "word": "مَعًا",
+        "pos": "adv",
+        "phonetic": "/maʕan/",
+        "translation": "juntos",
+        "note": "Adverbio de compañía."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "أَهْلًا، أَنَا جَارُكَ الجَدِيدُ.",
+        "translation": "Hola, soy tu nuevo vecino.",
+        "highlights": [
+          "أَهْلًا",
+          "جَارُكَ",
+          "الجَدِيدُ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "أَهْلًا بِكَ! نَحْنُ نَسْكُنُ فِي بَيْتٍ مُتَجَاوِرٍ.",
+        "translation": "¡Hola! Vivimos en una casa contigua.",
+        "highlights": [
+          "أَهْلًا",
+          "نَحْنُ",
+          "نَسْكُنُ",
+          "بَيْتٍ",
+          "مُتَجَاوِرٍ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "هَلْ دَخَلْتَ البَيْتَ مِنْ قَبْلُ؟",
+        "translation": "¿Has entrado a la casa antes?",
+        "highlights": [
+          "دَخَلْتَ",
+          "البَيْتَ",
+          "قَبْلُ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "لَا، لَكِنْ هُنَاكَ حَدِيقَةٌ صَغِيرَةٌ. نَسْتَطِيعُ أَنْ نَشْرَبَ القَهْوَةَ مَعًا.",
+        "translation": "No, pero hay un pequeño jardín. Podemos tomar café juntos.",
+        "highlights": [
+          "هُنَاكَ",
+          "مَعًا"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "أَهْلًا بِكَ",
+        "translation": "Hola, bienvenido (respuesta a un saludo)."
+      },
+      {
+        "phrase": "نَسْكُنُ فِي بَيْتٍ مُتَجَاوِرٍ",
+        "translation": "Vivimos en una casa contigua."
+      },
+      {
+        "phrase": "نَشْرَبَ القَهْوَةَ مَعًا",
+        "translation": "Tomar café juntos."
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_13",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking the time on the street",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "ساعة",
+        "pos": "noun",
+        "phonetic": "saːʕa",
+        "translation": "hora, reloj",
+        "note": "Puede significar 'hora' o 'reloj'; en contexto se entiende."
+      },
+      {
+        "word": "الآن",
+        "pos": "adv",
+        "phonetic": "alʔaːn",
+        "translation": "ahora",
+        "note": "Usado para referirse al momento presente."
+      },
+      {
+        "word": "بعد",
+        "pos": "prep",
+        "phonetic": "baʕd",
+        "translation": "después de, más tarde",
+        "note": "Indica posterioridad en el tiempo."
+      },
+      {
+        "word": "دقيقة",
+        "pos": "noun",
+        "phonetic": "daqiːqa",
+        "translation": "minuto",
+        "note": "Unidad de tiempo."
+      },
+      {
+        "word": "عندما",
+        "pos": "conj",
+        "phonetic": "ʕindamaː",
+        "translation": "cuando",
+        "note": "Conjunción temporal."
+      },
+      {
+        "word": "كل",
+        "pos": "det",
+        "phonetic": "kull",
+        "translation": "cada, todo",
+        "note": "Se usa para generalizar."
+      },
+      {
+        "word": "يوم",
+        "pos": "noun",
+        "phonetic": "jawm",
+        "translation": "día",
+        "note": "Unidad de tiempo básica."
+      },
+      {
+        "word": "يعرف",
+        "pos": "verb",
+        "phonetic": "jaʕrif",
+        "translation": "saber, conocer",
+        "note": "Forma base: عَرَفَ (conocer)."
+      },
+      {
+        "word": "هنا",
+        "pos": "adv",
+        "phonetic": "hunaː",
+        "translation": "aquí",
+        "note": "Indica lugar cercano."
+      },
+      {
+        "word": "في",
+        "pos": "prep",
+        "phonetic": "fiː",
+        "translation": "en",
+        "note": "Preposición de lugar o tiempo."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "كم الساعة الآن؟",
+        "translation": "¿Qué hora es ahora?",
+        "highlights": [
+          "كم",
+          "الساعة",
+          "الآن"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "الساعة ثلاث و خمس دقائق.",
+        "translation": "Son las tres y cinco minutos.",
+        "highlights": [
+          "الساعة",
+          "دقائق"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "شكراً! هل تعرف متى يغادر القطار؟",
+        "translation": "¡Gracias! ¿Sabes cuándo sale el tren?",
+        "highlights": [
+          "تعرف",
+          "متى"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "عندما تصل إلى المحطة، اسأل هناك. القطار يغادر بعد عشر دقائق.",
+        "translation": "Cuando llegues a la estación, pregunta allí. El tren sale después de diez minutos.",
+        "highlights": [
+          "عندما",
+          "بعد",
+          "دقائق"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "شكراً. كل يوم أسأل هنا.",
+        "translation": "Gracias. Cada día pregunto aquí.",
+        "highlights": [
+          "كل",
+          "يوم",
+          "هنا"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "كم الساعة؟",
+        "translation": "¿Qué hora es?"
+      },
+      {
+        "phrase": "بعد عشر دقائق",
+        "translation": "después de diez minutos"
+      },
+      {
+        "phrase": "في المحطة",
+        "translation": "en la estación"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_15",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the doctor for a basic checkup",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "طَبِيب",
+        "pos": "noun",
+        "phonetic": "tˤabib",
+        "translation": "médico",
+        "note": "Sustantivo común para médico, usado en contexto formal e informal."
+      },
+      {
+        "word": "مَرِيض",
+        "pos": "noun/adj",
+        "phonetic": "mariidˤ",
+        "translation": "enfermo/paciente",
+        "note": "Puede ser adjetivo (enfermo) o sustantivo (paciente)."
+      },
+      {
+        "word": "يُحِبّ",
+        "pos": "verb",
+        "phonetic": "juħibbu",
+        "translation": "querer/amar (él)",
+        "note": "En contextos médicos se usa para expresar preferencia, no amor romántico."
+      },
+      {
+        "word": "يَأْكُل",
+        "pos": "verb",
+        "phonetic": "jaʔkulu",
+        "translation": "comer (él)",
+        "note": "Verbo regular, presente."
+      },
+      {
+        "word": "يَشْرَب",
+        "pos": "verb",
+        "phonetic": "jaʃrabu",
+        "translation": "beber (él)",
+        "note": "Verbo regular, presente."
+      },
+      {
+        "word": "يَنَام",
+        "pos": "verb",
+        "phonetic": "janaamu",
+        "translation": "dormir (él)",
+        "note": "Verbo con raíz ن-و-م, presente."
+      },
+      {
+        "word": "جَيِّد",
+        "pos": "adj",
+        "phonetic": "dʒajjid",
+        "translation": "bueno/bien",
+        "note": "Adjetivo común, invariable en género en uso coloquial."
+      },
+      {
+        "word": "كَثِير",
+        "pos": "adj/adv",
+        "phonetic": "kaθiir",
+        "translation": "mucho/muchos",
+        "note": "Puede funcionar como adjetivo o adverbio (ej. 'mucho')."
+      },
+      {
+        "word": "يَوْم",
+        "pos": "noun",
+        "phonetic": "jawm",
+        "translation": "día",
+        "note": "Sustantivo masculino, plural أيام."
+      },
+      {
+        "word": "لِأَنَّ",
+        "pos": "conj",
+        "phonetic": "liʔanna",
+        "translation": "porque",
+        "note": "Conjunción que introduce causa, seguida de sustantivo o pronombre."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "أَهْلًا، أَنَا الطَّبِيب. كَيْفَ تَشْعُر؟",
+        "translation": "Hola, yo soy el médico. ¿Cómo te sientes?",
+        "highlights": [
+          "الطَّبِيب"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "أَنَا مَرِيض قَلِيلًا، لِأَنَّنِي لَا أَنَام كَثِير.",
+        "translation": "Estoy un poco enfermo, porque no duermo mucho.",
+        "highlights": [
+          "مَرِيض",
+          "لِأَنَّ",
+          "أَنَام",
+          "كَثِير"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "هَلْ تَأْكُل جَيِّدًا وَتَشْرَب مَاء كَثِير كُلّ يَوْم؟",
+        "translation": "¿Comes bien y bebes mucha agua cada día?",
+        "highlights": [
+          "تَأْكُل",
+          "جَيِّد",
+          "تَشْرَب",
+          "يَوْم"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "نَعَم، أُحِبّ الخُضَرَاوَات، لَكِنْ لَا أَشْرَب كَثِير.",
+        "translation": "Sí, me gustan las verduras, pero no bebo mucho.",
+        "highlights": [
+          "أُحِبّ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "هٰذَا جَيِّد. خُذ دَوَاء وَارْتَاح. تَعَالَ بَعْد ثَلَاثَة أَيَّام.",
+        "translation": "Esto es bueno. Toma medicina y descansa. Ven después de tres días.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "كَيْفَ تَشْعُر؟",
+        "translation": "¿Cómo te sientes?"
+      },
+      {
+        "phrase": "لَا أَنَام كَثِير",
+        "translation": "No duermo mucho"
+      },
+      {
+        "phrase": "تَأْكُل جَيِّدًا",
+        "translation": "Comes bien"
+      },
+      {
+        "phrase": "أُحِبّ الخُضَرَاوَات",
+        "translation": "Me gustan las verduras"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_17",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Paying at a supermarket checkout",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "هٰذَا",
+        "pos": "pron",
+        "phonetic": "haːðaː",
+        "translation": "este/esto",
+        "note": "Ya visto, pero se usa aquí en contexto de pago."
+      },
+      {
+        "word": "دَفَعَ",
+        "pos": "verb",
+        "phonetic": "dafaʕa",
+        "translation": "pagar",
+        "note": "Verbo base, forma pasada; en diálogo se usa imperativo."
+      },
+      {
+        "word": "نُقُود",
+        "pos": "noun",
+        "phonetic": "nuquːd",
+        "translation": "dinero en efectivo",
+        "note": "Plural de نقد."
+      },
+      {
+        "word": "بِطَاقَة",
+        "pos": "noun",
+        "phonetic": "biṭaːqa",
+        "translation": "tarjeta",
+        "note": "Común para tarjeta de crédito/débito."
+      },
+      {
+        "word": "حِسَاب",
+        "pos": "noun",
+        "phonetic": "ħisaːb",
+        "translation": "cuenta, total a pagar",
+        "note": "En supermercado, la cuenta total."
+      },
+      {
+        "word": "يَدْفَع",
+        "pos": "verb",
+        "phonetic": "jadfaʕ",
+        "translation": "paga (él)",
+        "note": "Forma presente de دفع."
+      },
+      {
+        "word": "مَعَ",
+        "pos": "prep",
+        "phonetic": "maʕa",
+        "translation": "con",
+        "note": "Ya visto, pero aquí en 'con tarjeta'."
+      },
+      {
+        "word": "كُلّ",
+        "pos": "adj",
+        "phonetic": "kull",
+        "translation": "todo/toda",
+        "note": "En 'todo junto'."
+      },
+      {
+        "word": "جَمِيع",
+        "pos": "adj",
+        "phonetic": "d͡ʒamiːʕ",
+        "translation": "todos",
+        "note": "Sinónimo de كل, usado para enfatizar."
+      },
+      {
+        "word": "يَقْبَل",
+        "pos": "verb",
+        "phonetic": "jaqbal",
+        "translation": "aceptar (él)",
+        "note": "En '¿aceptan tarjeta?'."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "هٰذَا كُلّ شَيْء؟ نَعَم، هٰذَا الحِسَاب.",
+        "translation": "¿Esto es todo? Sí, esta es la cuenta.",
+        "highlights": [
+          "هٰذَا",
+          "كُلّ",
+          "الحِسَاب"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "كَم الحِسَاب؟ هُوَ عَشَرَة دَنَانِير.",
+        "translation": "¿Cuánto es la cuenta? Son diez dinares.",
+        "highlights": [
+          "الحِسَاب"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "هَل تَقْبَلُونَ بِطَاقَة؟ نَعَم، نَقْبَل.",
+        "translation": "¿Aceptan tarjeta? Sí, aceptamos.",
+        "highlights": [
+          "تَقْبَلُونَ",
+          "بِطَاقَة"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "أُفَضِّل الدَّفْع نُقُودًا أَو بِطَاقَة، مَعَ السَّلَامَة.",
+        "translation": "Prefiero pagar en efectivo o con tarjeta, adiós.",
+        "highlights": [
+          "الدَّفْع",
+          "نُقُودًا",
+          "بِطَاقَة",
+          "مَعَ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "شُكْرًا، يَدْفَع جَمِيع الزَّبَائِن هُنَا.",
+        "translation": "Gracias, todos los clientes pagan aquí.",
+        "highlights": [
+          "يَدْفَع",
+          "جَمِيع"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "كَم الحِسَاب؟",
+        "translation": "¿Cuánto es la cuenta?"
+      },
+      {
+        "phrase": "هَل تَقْبَلُونَ بِطَاقَة؟",
+        "translation": "¿Aceptan tarjeta?"
+      },
+      {
+        "phrase": "أُفَضِّل الدَّفْع نُقُودًا",
+        "translation": "Prefiero pagar en efectivo."
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_19",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Calling a friend to make simple plans",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "أَنْتَ",
+        "pos": "pron",
+        "phonetic": "ʔanta",
+        "translation": "tú (masculino)",
+        "note": "Pronombre de segunda persona singular masculino."
+      },
+      {
+        "word": "أَنَا",
+        "pos": "pron",
+        "phonetic": "ʔanā",
+        "translation": "yo",
+        "note": "Pronombre de primera persona singular."
+      },
+      {
+        "word": "مَاذَا",
+        "pos": "pron",
+        "phonetic": "māðā",
+        "translation": "qué",
+        "note": "Pronombre interrogativo para preguntar por cosas."
+      },
+      {
+        "word": "اَلْيَوْمَ",
+        "pos": "adv",
+        "phonetic": "al-yawma",
+        "translation": "hoy",
+        "note": "Adverbio de tiempo; se escribe con artículo pero funciona como adverbio."
+      },
+      {
+        "word": "غَدًا",
+        "pos": "adv",
+        "phonetic": "ɣadan",
+        "translation": "mañana",
+        "note": "Adverbio de tiempo."
+      },
+      {
+        "word": "سَوْفَ",
+        "pos": "adv",
+        "phonetic": "sawfa",
+        "translation": "pronto / va a (futuro)",
+        "note": "Partícula de futuro; se usa antes del verbo en presente."
+      },
+      {
+        "word": "نَجْعَلُ",
+        "pos": "verb",
+        "phonetic": "naǧʕalu",
+        "translation": "hacemos / ponemos",
+        "note": "Verbo جَعَلَ en presente, 1ª persona plural."
+      },
+      {
+        "word": "نَذْهَبُ",
+        "pos": "verb",
+        "phonetic": "naðhabu",
+        "translation": "vamos (ir)",
+        "note": "Verbo ذَهَبَ en presente, 1ª persona plural."
+      },
+      {
+        "word": "مِنْ",
+        "pos": "prep",
+        "phonetic": "min",
+        "translation": "de / desde",
+        "note": "Preposición de procedencia."
+      },
+      {
+        "word": "بَعْدَ",
+        "pos": "prep",
+        "phonetic": "baʕda",
+        "translation": "después de",
+        "note": "Preposición temporal."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "أَهْلًا يَا صَدِيقِي! أَنْتَ فِي الْبَيْتِ؟",
+        "translation": "¡Hola amigo! ¿Estás en casa?",
+        "highlights": [
+          "أَنْتَ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "نَعَمْ، أَنَا فِي الْبَيْتِ. مَاذَا تُرِيدُ؟",
+        "translation": "Sí, estoy en casa. ¿Qué quieres?",
+        "highlights": [
+          "أَنَا",
+          "مَاذَا"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "اَلْيَوْمَ جَوٌّ جَمِيلٌ. سَوْفَ نَذْهَبُ إِلَى الْحَدِيقَةِ بَعْدَ الظُّهْرِ.",
+        "translation": "Hoy hace buen tiempo. Iremos al parque por la tarde.",
+        "highlights": [
+          "اَلْيَوْمَ",
+          "سَوْفَ",
+          "نَذْهَبُ",
+          "بَعْدَ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "فِكْرَةٌ جَيِّدَةٌ! مِنْ أَيْنَ نَجْعَلُ الْمَوْعِدَ؟",
+        "translation": "¡Buena idea! ¿Dónde quedamos?",
+        "highlights": [
+          "مِنْ",
+          "نَجْعَلُ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "غَدًا أَيْضًا نَسْتَطِيعُ، لٰكِنِ الْيَوْمَ أَفْضَلُ.",
+        "translation": "Mañana también podemos, pero hoy es mejor.",
+        "highlights": [
+          "غَدًا"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "مَاذَا تُرِيدُ؟",
+        "translation": "¿Qué quieres?"
+      },
+      {
+        "phrase": "سَوْفَ نَذْهَبُ",
+        "translation": "Vamos a ir"
+      },
+      {
+        "phrase": "بَعْدَ الظُّهْرِ",
+        "translation": "por la tarde"
+      },
+      {
+        "phrase": "مِنْ أَيْنَ نَجْعَلُ الْمَوْعِدَ؟",
+        "translation": "¿Dónde quedamos?"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_21",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your family to someone",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "أُسْرَة",
+        "pos": "noun",
+        "phonetic": "ʔusra",
+        "translation": "familia",
+        "note": "Se usa para referirse a la familia en general."
+      },
+      {
+        "word": "أَب",
+        "pos": "noun",
+        "phonetic": "ʔab",
+        "translation": "padre"
+      },
+      {
+        "word": "أُمّ",
+        "pos": "noun",
+        "phonetic": "ʔumm",
+        "translation": "madre"
+      },
+      {
+        "word": "أَخ",
+        "pos": "noun",
+        "phonetic": "ʔax",
+        "translation": "hermano"
+      },
+      {
+        "word": "أُخْت",
+        "pos": "noun",
+        "phonetic": "ʔuxt",
+        "translation": "hermana"
+      },
+      {
+        "word": "عِنْدَ",
+        "pos": "prep",
+        "phonetic": "ʕinda",
+        "translation": "tener (literalmente: 'donde')",
+        "note": "Se usa para expresar posesión: عِنْدِي (tengo), عِنْدَكَ (tienes)."
+      },
+      {
+        "word": "وَاحِد",
+        "pos": "adj",
+        "phonetic": "waːħid",
+        "translation": "uno"
+      },
+      {
+        "word": "اِثْنَان",
+        "pos": "adj",
+        "phonetic": "iθnaːn",
+        "translation": "dos"
+      },
+      {
+        "word": "صَغِير",
+        "pos": "adj",
+        "phonetic": "sˤaɣiːr",
+        "translation": "pequeño / joven"
+      },
+      {
+        "word": "كَبِير",
+        "pos": "adj",
+        "phonetic": "kabiːr",
+        "translation": "grande / mayor"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "هٰذِهِ أُسْرَتِي. عِنْدِي أَب وَأُمّ.",
+        "translation": "Esta es mi familia. Tengo padre y madre.",
+        "highlights": [
+          "أُسْرَتِي",
+          "عِنْدِي",
+          "أَب",
+          "أُمّ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "هَلْ عِنْدَكَ أَخ أَوْ أُخْت؟",
+        "translation": "¿Tienes hermano o hermana?",
+        "highlights": [
+          "عِنْدَكَ",
+          "أَخ",
+          "أُخْت"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "نَعَم، عِنْدِي أَخ وَاحِد وَأُخْت اِثْنَان.",
+        "translation": "Sí, tengo un hermano y dos hermanas.",
+        "highlights": [
+          "وَاحِد",
+          "اِثْنَان"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "أَخُوكَ كَبِير أَمْ صَغِير؟",
+        "translation": "¿Tu hermano es mayor o pequeño?",
+        "highlights": [
+          "كَبِير",
+          "صَغِير"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "أَخِي كَبِير وَأُخْتِي صَغِيرَة.",
+        "translation": "Mi hermano es mayor y mi hermana es pequeña.",
+        "highlights": [
+          "كَبِير",
+          "صَغِيرَة"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "عِنْدِي أَب وَأُمّ",
+        "translation": "Tengo padre y madre"
+      },
+      {
+        "phrase": "أَخ وَاحِد",
+        "translation": "un hermano"
+      },
+      {
+        "phrase": "أُخْت اِثْنَان",
+        "translation": "dos hermanas"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_23",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking for directions in the street",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "أَيْنَ",
+        "pos": "adv",
+        "phonetic": "/ˈʔajna/",
+        "translation": "dónde",
+        "note": "Adverbio interrogativo de lugar."
+      },
+      {
+        "word": "شَارِع",
+        "pos": "noun",
+        "phonetic": "/ˈʃaːriʕ/",
+        "translation": "calle"
+      },
+      {
+        "word": "عَلَى",
+        "pos": "prep",
+        "phonetic": "/ˈʕalaː/",
+        "translation": "sobre, en (superficie)",
+        "note": "Se usa para indicar ubicación sobre algo, o en una calle."
+      },
+      {
+        "word": "يَمِين",
+        "pos": "noun",
+        "phonetic": "/jaˈmiːn/",
+        "translation": "derecha"
+      },
+      {
+        "word": "يَسَار",
+        "pos": "noun",
+        "phonetic": "/jaˈsaːr/",
+        "translation": "izquierda"
+      },
+      {
+        "word": "أَمَام",
+        "pos": "noun/adv",
+        "phonetic": "/ʔaˈmaːm/",
+        "translation": "enfrente, delante de",
+        "note": "Funciona como preposición de lugar."
+      },
+      {
+        "word": "ثُمَّ",
+        "pos": "conj",
+        "phonetic": "/ˈθumma/",
+        "translation": "luego, después",
+        "note": "Conector temporal."
+      },
+      {
+        "word": "قَرِيب",
+        "pos": "adj",
+        "phonetic": "/qaˈriːb/",
+        "translation": "cerca, cercano"
+      },
+      {
+        "word": "ذَهَبَ",
+        "pos": "verb",
+        "phonetic": "/ˈðahaba/",
+        "translation": "ir (él fue)",
+        "note": "Verbo en pasado (3ª persona masculino singular). Para 'yo voy' se usa 'أَذْهَبُ'."
+      },
+      {
+        "word": "مِنْ",
+        "pos": "prep",
+        "phonetic": "/min/",
+        "translation": "de, desde"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "عَفْوًا، أَيْنَ شَارِع النَّجْم؟",
+        "translation": "Perdón, ¿dónde está la calle An-Najm?",
+        "highlights": [
+          "أَيْنَ",
+          "شَارِع"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "اِمْشِ عَلَى يَمِين، ثُمَّ يَسَار مِنْ هُنَا.",
+        "translation": "Camina a la derecha, luego a la izquierda desde aquí.",
+        "highlights": [
+          "عَلَى",
+          "يَمِين",
+          "ثُمَّ",
+          "يَسَار",
+          "مِنْ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "وَأَيْنَ البِنَايَة القَرِيبَة؟",
+        "translation": "¿Y dónde está el edificio cercano?",
+        "highlights": [
+          "قَرِيب"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "البِنَايَة أَمَام المَسْجِد. أَذْهَبُ إِلَيْهَا الآن.",
+        "translation": "El edificio está enfrente de la mezquita. Voy hacia allí ahora.",
+        "highlights": [
+          "أَمَام",
+          "ذَهَبَ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "شُكْرًا كَثِيرًا!",
+        "translation": "¡Muchas gracias!",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "أَيْنَ شَارِع...؟",
+        "translation": "¿Dónde está la calle...?"
+      },
+      {
+        "phrase": "عَلَى يَمِين / عَلَى يَسَار",
+        "translation": "A la derecha / A la izquierda"
+      },
+      {
+        "phrase": "أَمَام المَسْجِد",
+        "translation": "Enfrente de la mezquita"
+      },
+      {
+        "phrase": "قَرِيب مِنْ",
+        "translation": "Cerca de"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_25",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "On a bus asking the driver for help",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "أَيْنَ",
+        "pos": "adv",
+        "phonetic": "/ʔajna/",
+        "translation": "dónde",
+        "note": "Interrogativo de lugar."
+      },
+      {
+        "word": "هٰذَا",
+        "pos": "pron",
+        "phonetic": "/haːðaː/",
+        "translation": "este, esto",
+        "note": "Demostrativo para masculino singular."
+      },
+      {
+        "word": "مَحَطَّة",
+        "pos": "noun",
+        "phonetic": "/maħatˤtˤa/",
+        "translation": "estación, parada",
+        "note": "Común para estación de autobús o tren."
+      },
+      {
+        "word": "يَذْهَبُ",
+        "pos": "verb",
+        "phonetic": "/jaðhabu/",
+        "translation": "ir, él va",
+        "note": "Presente de ذَهَبَ."
+      },
+      {
+        "word": "جَامِعَة",
+        "pos": "noun",
+        "phonetic": "/dʒaːmiʕa/",
+        "translation": "universidad",
+        "note": "También significa 'mezquita' pero en contexto es universidad."
+      },
+      {
+        "word": "مِنْ",
+        "pos": "prep",
+        "phonetic": "/min/",
+        "translation": "de, desde",
+        "note": "Preposición de origen o procedencia."
+      },
+      {
+        "word": "بَعْدَ",
+        "pos": "prep",
+        "phonetic": "/baʕda/",
+        "translation": "después de",
+        "note": "Se usa con sustantivos o pronombres."
+      },
+      {
+        "word": "قَلِيل",
+        "pos": "adj",
+        "phonetic": "/qaliːl/",
+        "translation": "poco, escaso",
+        "note": "Opuesto de كَثِير."
+      },
+      {
+        "word": "يُسَاعِدُ",
+        "pos": "verb",
+        "phonetic": "/jusaːʕidu/",
+        "translation": "ayudar, él ayuda",
+        "note": "Presente de سَاعَدَ."
+      },
+      {
+        "word": "شُكْرًا",
+        "pos": "interj",
+        "phonetic": "/ʃukran/",
+        "translation": "gracias",
+        "note": "Expresión fija de agradecimiento."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "أَيْنَ هٰذَا الْبَاصُ يَذْهَبُ؟",
+        "translation": "¿A dónde va este autobús?",
+        "highlights": [
+          "أَيْنَ",
+          "هٰذَا",
+          "يَذْهَبُ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "هٰذَا الْبَاصُ يَذْهَبُ إِلَى الْجَامِعَةِ.",
+        "translation": "Este autobús va a la universidad.",
+        "highlights": [
+          "هٰذَا",
+          "يَذْهَبُ",
+          "الْجَامِعَةِ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "مِنْ أَيْنَ بَعْدَ قَلِيلٍ؟",
+        "translation": "¿Desde dónde (sale) después de un poco?",
+        "highlights": [
+          "مِنْ",
+          "بَعْدَ",
+          "قَلِيلٍ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "تَذْهَبُ بَعْدَ قَلِيلٍ مِنْ هٰذِهِ الْمَحَطَّةِ.",
+        "translation": "Sale después de un poco desde esta parada.",
+        "highlights": [
+          "بَعْدَ",
+          "قَلِيلٍ",
+          "مِنْ",
+          "الْمَحَطَّةِ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "هَلْ تُسَاعِدُنِي؟ شُكْرًا.",
+        "translation": "¿Me ayuda? Gracias.",
+        "highlights": [
+          "تُسَاعِدُنِي",
+          "شُكْرًا"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "أَيْنَ يَذْهَبُ هٰذَا الْبَاصُ؟",
+        "translation": "¿A dónde va este autobús?"
+      },
+      {
+        "phrase": "مِنْ أَيْنَ؟",
+        "translation": "¿Desde dónde?"
+      },
+      {
+        "phrase": "هَلْ تُسَاعِدُنِي؟",
+        "translation": "¿Me ayuda?"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_27",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Introducing a colleague at work",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "زَمِيل",
+        "pos": "noun",
+        "phonetic": "zamiːl",
+        "translation": "compañero (de trabajo)",
+        "note": "Se usa para referirse a un colega. El femenino es زَمِيلَة."
+      },
+      {
+        "word": "عَمَل",
+        "pos": "noun",
+        "phonetic": "ʕamal",
+        "translation": "trabajo",
+        "note": "También puede significar 'obra' o 'acción'."
+      },
+      {
+        "word": "اِسْم",
+        "pos": "noun",
+        "phonetic": "ism",
+        "translation": "nombre",
+        "note": "Se usa en presentaciones: 'ما اسمك؟' (¿Cómo te llamas?)"
+      },
+      {
+        "word": "هٰذِهِ",
+        "pos": "pron",
+        "phonetic": "haːðihi",
+        "translation": "esta",
+        "note": "Demostrativo femenino singular. Se usa para presentar a una mujer."
+      },
+      {
+        "word": "مَدِير",
+        "pos": "noun",
+        "phonetic": "mudiːr",
+        "translation": "director, jefe",
+        "note": "En contexto laboral, se refiere a quien dirige un equipo o departamento."
+      },
+      {
+        "word": "مِنْ",
+        "pos": "prep",
+        "phonetic": "min",
+        "translation": "de (procedencia)",
+        "note": "Indica origen o pertenencia. Ya aparece en la lista de evitados, pero en la frase 'من العمل' es esencial."
+      },
+      {
+        "word": "جَدِيد",
+        "pos": "adj",
+        "phonetic": "dʒadiːd",
+        "translation": "nuevo",
+        "note": "Concuerda en género y número con el sustantivo."
+      },
+      {
+        "word": "يَعْمَل",
+        "pos": "verb",
+        "phonetic": "jaʕmal",
+        "translation": "trabaja",
+        "note": "Presente del verbo 'trabajar'. La raíz es ع-م-ل."
+      },
+      {
+        "word": "هٰذَا",
+        "pos": "pron",
+        "phonetic": "haːðaː",
+        "translation": "este",
+        "note": "Demostrativo masculino singular."
+      },
+      {
+        "word": "أَهْلًا",
+        "pos": "adv",
+        "phonetic": "ʔahlan",
+        "translation": "hola, bienvenido",
+        "note": "Saludo común. Se usa al recibir a alguien."
+      },
+      {
+        "word": "سَعِيد",
+        "pos": "adj",
+        "phonetic": "saʕiːd",
+        "translation": "feliz, contento",
+        "note": "En la frase 'سعيد بمعرفتك' significa 'encantado de conocerte'."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "أَهْلًا سَارَة! هٰذِهِ زَمِيلَتِي الجَدِيدَة، مَرْيَم.",
+        "translation": "¡Hola Sara! Esta es mi nueva compañera, Maryam.",
+        "highlights": [
+          "أَهْلًا",
+          "هٰذِهِ",
+          "زَمِيلَتِي",
+          "الجَدِيدَة"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "أَهْلًا مَرْيَم! مَا اِسْمُكِ؟ أَنَا سَارَة.",
+        "translation": "¡Hola Maryam! ¿Cómo te llamas? Yo soy Sara.",
+        "highlights": [
+          "أَهْلًا",
+          "اِسْمُكِ"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "أَهْلًا سَارَة! اِسْمِي مَرْيَم. أَنَا مِنْ قِسْمِ المَبِيعَات.",
+        "translation": "Hola Sara, me llamo Maryam. Soy del departamento de ventas.",
+        "highlights": [
+          "اِسْمِي",
+          "مِنْ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "هٰذَا مَدِيرُنَا السَّيِّد خَالِد. هُوَ يَعْمَل هُنَا مِنْ سَنَوَات.",
+        "translation": "Este es nuestro director, el señor Khalid. Él trabaja aquí desde hace años.",
+        "highlights": [
+          "هٰذَا",
+          "مَدِيرُنَا",
+          "يَعْمَل",
+          "مِنْ"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "سَعِيدَة بِلِقَائِكَ يَا سَيِّد خَالِد. أَنَا مَرْيَم، زَمِيلَة جَدِيدَة فِي العَمَل.",
+        "translation": "Encantada de conocerle, señor Khalid. Soy Maryam, nueva compañera en el trabajo.",
+        "highlights": [
+          "سَعِيدَة",
+          "زَمِيلَة",
+          "جَدِيدَة",
+          "العَمَل"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "هٰذِهِ زَمِيلَتِي الجَدِيدَة",
+        "translation": "Esta es mi nueva compañera"
+      },
+      {
+        "phrase": "مَا اِسْمُكِ؟",
+        "translation": "¿Cómo te llamas? (femenino)"
+      },
+      {
+        "phrase": "سَعِيدَة بِلِقَائِكَ",
+        "translation": "Encantada de conocerte (dicho por mujer)"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_29",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Leaving a voicemail message",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "رَجُل",
+        "pos": "noun",
+        "phonetic": "radʒul",
+        "translation": "hombre",
+        "note": "Se usa para referirse a una persona masculina; en el contexto de un mensaje, puede ser 'el señor'."
+      },
+      {
+        "word": "اِمْرَأَة",
+        "pos": "noun",
+        "phonetic": "imraʔa",
+        "translation": "mujer",
+        "note": "Femenino de 'hombre'; se usa para referirse a una mujer."
+      },
+      {
+        "word": "اِتَّصَلَ",
+        "pos": "verb",
+        "phonetic": "ittasala",
+        "translation": "llamar (por teléfono)",
+        "note": "Verbo en pasado; en el contexto de mensaje, se usa para indicar que alguien llamó."
+      },
+      {
+        "word": "يَتَّصِلُ",
+        "pos": "verb",
+        "phonetic": "jattasilu",
+        "translation": "llama (presente)",
+        "note": "Presente del verbo 'llamar'."
+      },
+      {
+        "word": "رَسَالَة",
+        "pos": "noun",
+        "phonetic": "risaːla",
+        "translation": "mensaje",
+        "note": "Puede referirse a mensaje de texto, correo o mensaje de voz."
+      },
+      {
+        "word": "مَكْتَوب",
+        "pos": "adj",
+        "phonetic": "maktuːb",
+        "translation": "escrito",
+        "note": "Participio pasivo de 'escribir'; se usa para describir algo escrito."
+      },
+      {
+        "word": "يَكْتُبُ",
+        "pos": "verb",
+        "phonetic": "jaktubu",
+        "translation": "escribe",
+        "note": "Presente del verbo 'escribir'."
+      },
+      {
+        "word": "يَقْرَأُ",
+        "pos": "verb",
+        "phonetic": "jaqraʔu",
+        "translation": "lee",
+        "note": "Presente del verbo 'leer'."
+      },
+      {
+        "word": "يَسْمَعُ",
+        "pos": "verb",
+        "phonetic": "jasmau",
+        "translation": "escucha",
+        "note": "Presente del verbo 'oír/escuchar'."
+      },
+      {
+        "word": "يَرُدُّ",
+        "pos": "verb",
+        "phonetic": "jaruddu",
+        "translation": "responde",
+        "note": "Presente del verbo 'responder'."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "السَّلَامُ عَلَيْكُمْ، أَنَا رَجُلٌ مِنَ الشَّرِكَةِ. اِتَّصَلْتُ، لَكِنْ لَا أَحَدَ يَرُدُّ.",
+        "translation": "La paz sea con ustedes, soy un hombre de la empresa. Llamé, pero nadie responde.",
+        "highlights": [
+          "رَجُلٌ",
+          "اِتَّصَلْتُ",
+          "يَرُدُّ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "أَهْلًا، أَنَا اِمْرَأَةٌ مِنَ الشَّرِكَةِ أَيْضًا. أَسْمَعُ رَسَالَةً مَكْتُوبَةً؟",
+        "translation": "Hola, soy una mujer de la empresa también. ¿Escucho un mensaje escrito?",
+        "highlights": [
+          "اِمْرَأَةٌ",
+          "أَسْمَعُ",
+          "رَسَالَةً",
+          "مَكْتُوبَةً"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "لَا، لَيْسَ مَكْتُوبًا، بَلْ رَسَالَةٌ صَوْتِيَّةٌ. أَنَا يَتَّصِلُ لِأَقْرَأَ لَكَ مَا كَتَبْتُ.",
+        "translation": "No, no es escrito, sino un mensaje de voz. Yo llamo para leerte lo que escribí.",
+        "highlights": [
+          "مَكْتُوبًا",
+          "رَسَالَةٌ",
+          "يَتَّصِلُ",
+          "أَقْرَأَ",
+          "كَتَبْتُ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "حَسَنًا، أَنَا أَسْمَعُ. اِتَّصَلَ مَدِيرُكَ، وَيَكْتُبُ رَسَالَةً لَكَ.",
+        "translation": "Bien, escucho. Tu director llamó y te escribe un mensaje.",
+        "highlights": [
+          "أَسْمَعُ",
+          "اِتَّصَلَ",
+          "يَكْتُبُ",
+          "رَسَالَةً"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "شُكْرًا، سَأَقْرَأُهَا وَأَرُدُّ عَلَيْهِ.",
+        "translation": "Gracias, la leeré y le responderé.",
+        "highlights": [
+          "أَقْرَأُ",
+          "أَرُدُّ"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "رَسَالَةٌ صَوْتِيَّةٌ",
+        "translation": "mensaje de voz"
+      },
+      {
+        "phrase": "لَا أَحَدَ يَرُدُّ",
+        "translation": "nadie responde"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_31",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the post office sending a package",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "يُرِيدُ",
+        "pos": "verb",
+        "phonetic": "/juriːdu/",
+        "translation": "él quiere",
+        "note": "Verbo modal para expresar deseo; en el diálogo aparece conjugado para tercera persona singular."
+      },
+      {
+        "word": "طَرِيق",
+        "pos": "noun",
+        "phonetic": "/tˤariːq/",
+        "translation": "camino; por / vía",
+        "note": "En el contexto de 'بِطَرِيقَةٍ' significa 'de manera' o 'por medio de'."
+      },
+      {
+        "word": "هٰهُنَا",
+        "pos": "adv",
+        "phonetic": "/haːhunaː/",
+        "translation": "aquí",
+        "note": "Adverbio de lugar; sinónimo de 'هُنَا'."
+      },
+      {
+        "word": "يَجِبُ",
+        "pos": "verb",
+        "phonetic": "/jajibu/",
+        "translation": "debe (es necesario)",
+        "note": "Verbo modal impersonal; se usa con 'أَنْ'."
+      },
+      {
+        "word": "قَبْلَ",
+        "pos": "prep",
+        "phonetic": "/qabla/",
+        "translation": "antes de",
+        "note": "Preposición de tiempo."
+      },
+      {
+        "word": "بَعْدَ",
+        "pos": "prep",
+        "phonetic": "/baʕda/",
+        "translation": "después de",
+        "note": "Preposición de tiempo; aunque aparece en la lista de evitadas, en el diálogo se usa en la expresión 'بَعْدَ ذٰلِكَ' como parte de una frase fija. Se incluye aquí porque es una palabra de alta frecuencia."
+      },
+      {
+        "word": "ذٰلِكَ",
+        "pos": "pron",
+        "phonetic": "/ðaːlika/",
+        "translation": "eso",
+        "note": "Pronombre demostrativo para referirse a algo mencionado."
+      },
+      {
+        "word": "كَمْ",
+        "pos": "adv",
+        "phonetic": "/kam/",
+        "translation": "cuánto / cuántos",
+        "note": "Usado para preguntar por cantidad o precio."
+      },
+      {
+        "word": "دِينَار",
+        "pos": "noun",
+        "phonetic": "/diːnaːr/",
+        "translation": "dinar (moneda)",
+        "note": "Unidad monetaria en varios países árabes."
+      },
+      {
+        "word": "طَبْعًا",
+        "pos": "adv",
+        "phonetic": "/tˤabʕan/",
+        "translation": "por supuesto, claro",
+        "note": "Expresión de afirmación; muy común en la conversación."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "أَنَا أُرِيدُ أَنْ أُرْسِلَ طَرْدًا مِنْ هٰهُنَا.",
+        "translation": "Quiero enviar un paquete desde aquí.",
+        "highlights": [
+          "يُرِيدُ",
+          "هٰهُنَا"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "طَبْعًا. يَجِبُ أَنْ تَكْتُبَ العُنْوَانَ قَبْلَ ذٰلِكَ.",
+        "translation": "Por supuesto. Debes escribir la dirección antes de eso.",
+        "highlights": [
+          "طَبْعًا",
+          "يَجِبُ",
+          "قَبْلَ",
+          "ذٰلِكَ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "كَمْ دِينَارًا أَدْفَعُ بَعْدَ ذٰلِكَ؟",
+        "translation": "¿Cuántos dinares pago después de eso?",
+        "highlights": [
+          "كَمْ",
+          "دِينَار",
+          "بَعْدَ",
+          "ذٰلِكَ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "خَمْسَةُ دَنَانِيرَ بِطَرِيقَةٍ سَرِيعَةٍ.",
+        "translation": "Cinco dinares por vía rápida.",
+        "highlights": [
+          "دِينَار",
+          "طَرِيق"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "جَيِّدٌ، شُكْرًا!",
+        "translation": "¡Bien, gracias!",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "يَجِبُ أَنْ تَكْتُبَ",
+        "translation": "Debes escribir"
+      },
+      {
+        "phrase": "بَعْدَ ذٰلِكَ",
+        "translation": "después de eso"
+      },
+      {
+        "phrase": "بِطَرِيقَةٍ سَرِيعَةٍ",
+        "translation": "por vía rápida"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_33",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your daily routine",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "يَوْم",
+        "pos": "noun",
+        "phonetic": "jawm",
+        "translation": "día",
+        "note": "Se usa para referirse al día en general o a un día específico."
+      },
+      {
+        "word": "صَبَاح",
+        "pos": "noun",
+        "phonetic": "sˤabaːħ",
+        "translation": "mañana (parte del día)",
+        "note": "Común en saludos como صَبَاح الْخَيْر."
+      },
+      {
+        "word": "مَسَاء",
+        "pos": "noun",
+        "phonetic": "masaːʔ",
+        "translation": "tarde/noche (parte del día)",
+        "note": "Usado en saludos como مَسَاء الْخَيْر."
+      },
+      {
+        "word": "يَقُومُ",
+        "pos": "verb",
+        "phonetic": "jaquːmu",
+        "translation": "levantarse",
+        "note": "En contexto de rutina, significa levantarse de la cama."
+      },
+      {
+        "word": "يَأْكُلُ",
+        "pos": "verb",
+        "phonetic": "jaʔkulu",
+        "translation": "comer",
+        "note": "Verbo regular, se usa con alimentos."
+      },
+      {
+        "word": "يَشْرَبُ",
+        "pos": "verb",
+        "phonetic": "jaʃrabu",
+        "translation": "beber",
+        "note": "Se usa para líquidos, común con قَهْوَة (café) o شَاي (té)."
+      },
+      {
+        "word": "يَنَامُ",
+        "pos": "verb",
+        "phonetic": "janaːmu",
+        "translation": "dormir",
+        "note": "En rutina, se refiere a la acción de ir a dormir."
+      },
+      {
+        "word": "بَيْت",
+        "pos": "noun",
+        "phonetic": "bajt",
+        "translation": "casa",
+        "note": "También significa 'hogar'."
+      },
+      {
+        "word": "لَيْل",
+        "pos": "noun",
+        "phonetic": "lajl",
+        "translation": "noche (período)",
+        "note": "A diferencia de مَسَاء, لَيْل se refiere a la noche profunda."
+      },
+      {
+        "word": "كُلّ",
+        "pos": "det",
+        "phonetic": "kull",
+        "translation": "cada/todo",
+        "note": "Se usa para expresar frecuencia: كُلّ يَوْم (cada día)."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "كُلّ يَوْمٍ أَقُومُ فِي الصَّبَاحِ وَأَشْرَبُ قَهْوَةً.",
+        "translation": "Cada día me levanto por la mañana y bebo café.",
+        "highlights": [
+          "كُلّ",
+          "يَوْمٍ",
+          "أَقُومُ",
+          "الصَّبَاحِ",
+          "أَشْرَبُ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "وَتَأْكُلُ فِي الْبَيْتِ؟",
+        "translation": "¿Y comes en casa?",
+        "highlights": [
+          "تَأْكُلُ",
+          "الْبَيْتِ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "نَعَمْ، آكُلُ فِي الْبَيْتِ، ثُمَّ أَنَامُ فِي الْمَسَاءِ.",
+        "translation": "Sí, como en casa, luego duermo por la tarde/noche.",
+        "highlights": [
+          "آكُلُ",
+          "الْبَيْتِ",
+          "أَنَامُ",
+          "الْمَسَاءِ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "وَهَلْ تَنَامُ فِي اللَّيْلِ؟",
+        "translation": "¿Y duermes por la noche?",
+        "highlights": [
+          "تَنَامُ",
+          "اللَّيْلِ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "لَا، أَنَامُ فِي اللَّيْلِ بَعْدَ الْعَمَلِ.",
+        "translation": "No, duermo en la noche después del trabajo.",
+        "highlights": [
+          "أَنَامُ",
+          "اللَّيْلِ"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "كُلّ يَوْمٍ",
+        "translation": "cada día"
+      },
+      {
+        "phrase": "فِي الصَّبَاحِ",
+        "translation": "por la mañana"
+      },
+      {
+        "phrase": "فِي الْمَسَاءِ",
+        "translation": "por la tarde/noche"
+      },
+      {
+        "phrase": "فِي اللَّيْلِ",
+        "translation": "por la noche"
+      },
+      {
+        "phrase": "يَشْرَبُ قَهْوَةً",
+        "translation": "beber café"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_35",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking about opening hours",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "مَتى",
+        "pos": "adv",
+        "phonetic": "/matā/",
+        "translation": "cuándo",
+        "note": "Interrogativo para preguntar por tiempo."
+      },
+      {
+        "word": "يَفْتَحُ",
+        "pos": "verb",
+        "phonetic": "/yaftaḥu/",
+        "translation": "abrir",
+        "note": "Presente de la raíz ف-ت-ح."
+      },
+      {
+        "word": "يُغْلِقُ",
+        "pos": "verb",
+        "phonetic": "/yuḡliq/",
+        "translation": "cerrar",
+        "note": "Presente de la raíz غ-ل-ق."
+      },
+      {
+        "word": "ساعَة",
+        "pos": "noun",
+        "phonetic": "/sāʿa/",
+        "translation": "hora",
+        "note": "También significa 'reloj'."
+      },
+      {
+        "word": "باب",
+        "pos": "noun",
+        "phonetic": "/bāb/",
+        "translation": "puerta",
+        "note": "En contexto, se refiere a la apertura del lugar."
+      },
+      {
+        "word": "حَتّى",
+        "pos": "prep",
+        "phonetic": "/ḥattā/",
+        "translation": "hasta",
+        "note": "Se usa para indicar límite de tiempo."
+      },
+      {
+        "word": "مِن",
+        "pos": "prep",
+        "phonetic": "/min/",
+        "translation": "desde",
+        "note": "Indica el punto de inicio."
+      },
+      {
+        "word": "نَحْنُ",
+        "pos": "pron",
+        "phonetic": "/naḥnu/",
+        "translation": "nosotros",
+        "note": "Pronombre sujeto."
+      },
+      {
+        "word": "هٰذَا",
+        "pos": "det",
+        "phonetic": "/hāḏā/",
+        "translation": "este",
+        "note": "Demostrativo masculino singular."
+      },
+      {
+        "word": "لٰكِنْ",
+        "pos": "conj",
+        "phonetic": "/lākin/",
+        "translation": "pero",
+        "note": "Conjunción adversativa."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "مَتى يَفْتَحُ البابُ؟",
+        "translation": "¿Cuándo abre la puerta?",
+        "highlights": [
+          "مَتى",
+          "يَفْتَحُ",
+          "البابُ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "يَفْتَحُ مِنَ السّاعَةِ التاسِعَةِ حَتّى الخامِسَةِ.",
+        "translation": "Abre desde las nueve hasta las cinco.",
+        "highlights": [
+          "يَفْتَحُ",
+          "مِنَ",
+          "السّاعَةِ",
+          "حَتّى"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "وَمَتى يُغْلِقُ؟",
+        "translation": "¿Y cuándo cierra?",
+        "highlights": [
+          "مَتى",
+          "يُغْلِقُ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "نَحْنُ نُغْلِقُ عِنْدَ السّاعَةِ الخامِسَةِ، لٰكِنْ يَوْمَ الجُمُعَةِ نُغْلِقُ مُبَكِّرًا.",
+        "translation": "Nosotros cerramos a las cinco, pero el viernes cerramos temprano.",
+        "highlights": [
+          "نَحْنُ",
+          "لٰكِنْ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "هٰذا جَيِّدٌ، شُكْرًا!",
+        "translation": "¡Esto es bueno, gracias!",
+        "highlights": [
+          "هٰذا"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "مَتى يَفْتَحُ؟",
+        "translation": "¿Cuándo abre?"
+      },
+      {
+        "phrase": "مِن ... حَتّى ...",
+        "translation": "desde ... hasta ..."
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_37",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Choosing a dish from a menu",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "يُرِيدُ",
+        "pos": "verb",
+        "phonetic": "/juriːdu/",
+        "translation": "querer",
+        "note": "Verbo modal para expresar deseo."
+      },
+      {
+        "word": "طَعَام",
+        "pos": "noun",
+        "phonetic": "/tˤaʕaːm/",
+        "translation": "comida",
+        "note": "Comida en general."
+      },
+      {
+        "word": "مَاذَا",
+        "pos": "pron",
+        "phonetic": "/maːðaː/",
+        "translation": "qué",
+        "note": "Pronombre interrogativo para cosas."
+      },
+      {
+        "word": "هٰذَا",
+        "pos": "det",
+        "phonetic": "/haːðaː/",
+        "translation": "este",
+        "note": "Demostrativo masculino singular."
+      },
+      {
+        "word": "أَوْ",
+        "pos": "conj",
+        "phonetic": "/ʔaw/",
+        "translation": "o",
+        "note": "Conjunción disyuntiva."
+      },
+      {
+        "word": "لَيْسَ",
+        "pos": "verb",
+        "phonetic": "/lajsa/",
+        "translation": "no ser/estar",
+        "note": "Verbo negativo para negar la existencia o cualidad."
+      },
+      {
+        "word": "لَذِيذ",
+        "pos": "adj",
+        "phonetic": "/laðiːð/",
+        "translation": "delicioso",
+        "note": "Adjetivo para describir comida sabrosa."
+      },
+      {
+        "word": "مِنْ",
+        "pos": "prep",
+        "phonetic": "/min/",
+        "translation": "de",
+        "note": "Preposición de origen o pertenencia."
+      },
+      {
+        "word": "قَلِيل",
+        "pos": "adj",
+        "phonetic": "/qaliːl/",
+        "translation": "poco",
+        "note": "Indica cantidad pequeña."
+      },
+      {
+        "word": "جِدًّا",
+        "pos": "adv",
+        "phonetic": "/d͡ʒiddan/",
+        "translation": "muy",
+        "note": "Adverbio de intensidad."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "مَاذَا يُرِيدُ الضَّيْفُ؟",
+        "translation": "¿Qué quiere el invitado?",
+        "highlights": [
+          "مَاذَا",
+          "يُرِيدُ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "يُرِيدُ طَعَامًا مِنْ هٰذَا الْقَائِمَةِ أَوْ مِنْ غَيْرِهَا.",
+        "translation": "Quiere comida de este menú o de otro.",
+        "highlights": [
+          "يُرِيدُ",
+          "طَعَامًا",
+          "مِنْ",
+          "هٰذَا",
+          "أَوْ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "لَيْسَ هٰذَا الطَّعَامُ لَذِيذًا جِدًّا.",
+        "translation": "Esta comida no es muy deliciosa.",
+        "highlights": [
+          "لَيْسَ",
+          "هٰذَا",
+          "الطَّعَامُ",
+          "لَذِيذًا",
+          "جِدًّا"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "لٰكِنْ قَلِيلٌ مِنْهُ يَكْفِي.",
+        "translation": "Pero un poco de ella es suficiente.",
+        "highlights": [
+          "قَلِيلٌ"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "مَاذَا يُرِيدُ؟",
+        "translation": "¿Qué quiere?"
+      },
+      {
+        "phrase": "لَيْسَ لَذِيذًا جِدًّا",
+        "translation": "No es muy delicioso."
+      },
+      {
+        "phrase": "قَلِيلٌ مِنْهُ",
+        "translation": "un poco de eso"
+      }
+    ]
+  },
+  {
+    "id": "es_A1_vctx_39",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the bank for a simple transaction",
+    "frequency_note": "top 300 most frequent words of Arabic",
+    "vocabulary": [
+      {
+        "word": "بِنْك",
+        "pos": "noun",
+        "phonetic": "/bink/",
+        "translation": "banco",
+        "note": "Sustantivo masculino; se refiere a la institución o al edificio."
+      },
+      {
+        "word": "فُلُوس",
+        "pos": "noun",
+        "phonetic": "/fuluːs/",
+        "translation": "dinero",
+        "note": "Plural de 'فَلْس' (moneda); se usa comúnmente para 'dinero' en dialecto y MSA."
+      },
+      {
+        "word": "حِسَاب",
+        "pos": "noun",
+        "phonetic": "/ħisaːb/",
+        "translation": "cuenta",
+        "note": "Cuenta bancaria o de dinero; también puede ser 'cálculo'."
+      },
+      {
+        "word": "يَأْخُذُ",
+        "pos": "verb",
+        "phonetic": "/jaʔxuðu/",
+        "translation": "tomar, llevar",
+        "note": "Verbo en presente; en el contexto bancario: 'sacar' dinero."
+      },
+      {
+        "word": "يَدْفَعُ",
+        "pos": "verb",
+        "phonetic": "/jadfaʕu/",
+        "translation": "pagar",
+        "note": "Verbo en presente; usado para pagar o transferir."
+      },
+      {
+        "word": "هٰنَا",
+        "pos": "adv",
+        "phonetic": "/haːnaː/",
+        "translation": "aquí",
+        "note": "Adverbio de lugar; enfatiza la posición."
+      },
+      {
+        "word": "ثُمَّ",
+        "pos": "conj",
+        "phonetic": "/θumma/",
+        "translation": "luego, después",
+        "note": "Conjunción que indica secuencia temporal."
+      },
+      {
+        "word": "بِطَاقَة",
+        "pos": "noun",
+        "phonetic": "/bitˤaːqa/",
+        "translation": "tarjeta",
+        "note": "Tarjeta bancaria o de identificación."
+      },
+      {
+        "word": "صِحَّة",
+        "pos": "noun",
+        "phonetic": "/sˤiħːa/",
+        "translation": "salud",
+        "note": "Usado en fórmulas de cortesía, pero también puede ser 'estado' o 'validez'."
+      },
+      {
+        "word": "يَسْأَلُ",
+        "pos": "verb",
+        "phonetic": "/jasʔalu/",
+        "translation": "preguntar",
+        "note": "Verbo en presente; usado para pedir información."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "أَخِي يَسْأَلُ عَنِ الْحِسَابِ، هٰنَا فِي الْبِنْكِ.",
+        "translation": "Mi hermano pregunta por la cuenta, aquí en el banco.",
+        "highlights": [
+          "يَسْأَلُ",
+          "الْحِسَابِ",
+          "هٰنَا",
+          "الْبِنْكِ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "مَاذَا تُرِيدُ؟ أَتَدْفَعُ أَمْ تَأْخُذُ فُلُوسًا؟",
+        "translation": "¿Qué quieres? ¿Pagas o sacas dinero?",
+        "highlights": [
+          "تَدْفَعُ",
+          "تَأْخُذُ",
+          "فُلُوسًا"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "أُرِيدُ أَنْ آخُذَ فُلُوسًا، ثُمَّ أَدْفَعُ بِطَاقَتِي.",
+        "translation": "Quiero sacar dinero, luego pago con mi tarjeta.",
+        "highlights": [
+          "آخُذَ",
+          "فُلُوسًا",
+          "ثُمَّ",
+          "أَدْفَعُ",
+          "بِطَاقَتِي"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "حَسَنًا، وَمَا صِحَّةُ الْحِسَابِ؟",
+        "translation": "Bien, ¿y cuál es el estado de la cuenta?",
+        "highlights": [
+          "صِحَّةُ",
+          "الْحِسَابِ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "الْحِسَابُ جَيِّدٌ، وَهٰنَا الْبِنْكُ مَفْتُوحٌ.",
+        "translation": "La cuenta está bien, y aquí el banco está abierto.",
+        "highlights": [
+          "الْحِسَابُ",
+          "هٰنَا",
+          "الْبِنْكُ"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "يَأْخُذُ فُلُوسًا",
+        "translation": "sacar dinero"
+      },
+      {
+        "phrase": "يَدْفَعُ بِطَاقَة",
+        "translation": "pagar con tarjeta"
+      },
+      {
+        "phrase": "صِحَّةُ الْحِسَابِ",
+        "translation": "estado de la cuenta"
+      }
+    ]
+  }
+]
