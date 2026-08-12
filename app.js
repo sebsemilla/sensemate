@@ -3013,6 +3013,8 @@ function showMainMenu() {
     // Crear grupo requiere cuenta (guarda datos + cupo mensual) — createNewGroup
     // ya valida el login con su propio aviso, así que no se ofrece "modo invitado" aquí.
     document.getElementById('newGroupMainBtn')?.addEventListener('click', createNewGroup);
+
+    if (typeof _maybeShowTutorial === 'function') _maybeShowTutorial();
 }
 
 // ─── Live Feed ────────────────────────────────────────────────────────────────
