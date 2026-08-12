@@ -1218,7 +1218,7 @@ function _initEspanolNuevoHub(tab = 'curriculum') {
         grid.insertAdjacentHTML('beforebegin', `
             <div class="ingles-hub-tabs" id="inglesHubTabs">
                 <button class="ingles-hub-tab ${tab === 'curriculum' ? 'active' : ''}" data-tab="curriculum">📚 Curriculum A1</button>
-                <button class="ingles-hub-tab ${tab === 'contexto' ? 'active' : ''}" data-tab="contexto">🌍 Contexto</button>
+                <button class="ingles-hub-tab ${tab === 'contexto' ? 'active' : ''}" data-tab="contexto">🌍 Vocabulario</button>
             </div>`);
         tabsEl = document.getElementById('inglesHubTabs');
         tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
@@ -1303,7 +1303,7 @@ function _initInglesHub(tab = 'curriculum') {
             <div class="ingles-hub-tabs" id="inglesHubTabs">
                 <button class="ingles-hub-tab ${tab === 'curriculum' ? 'active' : ''}" data-tab="curriculum">📚 Curriculum A1</button>
                 ${hasModismos ? `<button class="ingles-hub-tab ${tab === 'modismos' ? 'active' : ''}" data-tab="modismos">💬 Modismos</button>` : ''}
-                <button class="ingles-hub-tab ${tab === 'contexto' ? 'active' : ''}" data-tab="contexto">🌍 Contexto</button>
+                <button class="ingles-hub-tab ${tab === 'contexto' ? 'active' : ''}" data-tab="contexto">🌍 Vocabulario</button>
             </div>`);
         tabsEl = document.getElementById('inglesHubTabs');
         tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
@@ -1384,7 +1384,7 @@ function _initGenericLangHub(targetCode, tab = 'curriculum') {
         grid.insertAdjacentHTML('beforebegin', `
             <div class="ingles-hub-tabs" id="inglesHubTabs">
                 <button class="ingles-hub-tab ${tab === 'curriculum' ? 'active' : ''}" data-tab="curriculum">📚 Curriculum A1</button>
-                <button class="ingles-hub-tab ${tab === 'contexto' ? 'active' : ''}" data-tab="contexto">🌍 Contexto</button>
+                <button class="ingles-hub-tab ${tab === 'contexto' ? 'active' : ''}" data-tab="contexto">🌍 Vocabulario</button>
             </div>`);
         tabsEl = document.getElementById('inglesHubTabs');
         tabsEl.querySelectorAll('.ingles-hub-tab').forEach(btn => {
