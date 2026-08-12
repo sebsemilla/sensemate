@@ -198,11 +198,11 @@ function _updateMMBtn() {
     const earned = MM_TROPHIES.filter(t => mm.trophies?.[t.id]).length;
     btn.classList.add('mm-btn--active');
     btn.dataset.badge = earned > 0 ? earned : '';
-    btn.title = `MisiónMate activo · ${earned}/${MM_TROPHIES.length} trofeos`;
+    btn.title = `Curso activo · ${earned}/${MM_TROPHIES.length} trofeos`;
   } else {
     btn.classList.remove('mm-btn--active');
     btn.dataset.badge = '';
-    btn.title = 'MisiónMate — activar modo misión';
+    btn.title = 'Curso — área de aprendizaje de idiomas';
   }
 }
 
@@ -212,9 +212,8 @@ function toggleMisionMate() {
   const mm = _mmGet();
   if (!mm?.setupDone) {
     _showMMOnboarding();
-  } else {
-    showMMPanel();
   }
+  // Panel de trofeos oculto por ahora
 }
 
 // ─── Onboarding (2 pasos) ─────────────────────────────────────
@@ -250,55 +249,37 @@ function _renderMMStep(overlay, step, prefs) {
     overlay.innerHTML = `
       <div class="mm-card mm-card--s1">
         <div class="mm-card-hero">
-          <div class="mm-card-sword">🗡️</div>
-          <div class="mm-card-sparkles">
-            <span>✨</span><span>⭐</span><span>✨</span>
-          </div>
+          <div class="mm-card-sword">🌐</div>
         </div>
 
-        <h2 class="mm-card-title">¡Activaste MisiónMate!</h2>
+        <h2 class="mm-card-title">¡Bienvenido al área de aprendizaje de idiomas!</h2>
         <p class="mm-card-text">
-          Cada acción en la app te acerca a un nuevo trofeo.
-          Estudiás a tu ritmo — nosotros lo celebramos.
+          El curso será en el idioma que tengas seleccionado en el <strong>selector del lado derecho</strong> de la pantalla.
         </p>
 
-        <div class="mm-trophies-preview">
-          <div class="mm-trophy-prev-item">
-            <span class="mm-trophy-prev-icon">🌱</span>
-            <span class="mm-trophy-prev-name">Buenas Raices</span>
-            <span class="mm-trophy-prev-sub">50 traducciones</span>
-          </div>
-          <div class="mm-trophy-prev-item">
-            <span class="mm-trophy-prev-icon">⭐</span>
-            <span class="mm-trophy-prev-name">Estudiante Estrella</span>
-            <span class="mm-trophy-prev-sub">25 flashcards</span>
-          </div>
-          <div class="mm-trophy-prev-item">
-            <span class="mm-trophy-prev-icon">🗣️</span>
-            <span class="mm-trophy-prev-name">Trofeo Fluentist</span>
-            <span class="mm-trophy-prev-sub">20 mensajes IA</span>
-          </div>
-          <div class="mm-trophy-prev-item">
-            <span class="mm-trophy-prev-icon">🧱🌸🥇</span>
-            <span class="mm-trophy-prev-name">Constructor · Alquimista · Maestro</span>
-            <span class="mm-trophy-prev-sub">Flashcards A0→C2</span>
-          </div>
+        <p class="mm-card-question" style="font-size:.95rem;font-weight:600;margin:1rem 0 .75rem;color:var(--text-primary)">
+          ¿Prefieres realizar el curso formalmente o en formato de juego con puntuaje y trofeos?
+        </p>
+
+        <div class="mm-card-btns mm-card-btns--col" style="flex-direction:column;gap:.75rem">
+          <button class="primary-btn" id="mmGameBtn">🎮 Formato de Juego</button>
+          <button class="secondary-btn" id="mmModulesBtn">📚 Curso por módulos</button>
         </div>
 
-        <div class="mm-step-dots">
-          <div class="mm-dot mm-dot--active"></div>
-          <div class="mm-dot"></div>
-        </div>
-
-        <div class="mm-card-btns">
-          <button class="secondary-btn" id="mmCancelBtn">Ahora no</button>
-          <button class="primary-btn"   id="mmNextBtn">Continuar →</button>
-        </div>
+        <button class="mm-cancel-link" id="mmCancelBtn" style="display:block;margin-top:1rem;background:none;border:none;color:var(--text-muted);font-size:.85rem;cursor:pointer;text-decoration:underline">
+          Ahora no
+        </button>
       </div>
     `;
     overlay.querySelector('#mmCancelBtn').addEventListener('click', () => overlay.remove());
-    overlay.querySelector('#mmNextBtn').addEventListener('click', () => _renderMMStep(overlay, 2, prefs));
-    _mmAddSwipe(overlay.querySelector('.mm-card'), null, () => _renderMMStep(overlay, 2, prefs));
+    overlay.querySelector('#mmGameBtn').addEventListener('click', () => {
+      prefs.courseFormat = 'game';
+      _renderMMStep(overlay, 2, prefs);
+    });
+    overlay.querySelector('#mmModulesBtn').addEventListener('click', () => {
+      prefs.courseFormat = 'modules';
+      _renderMMStep(overlay, 2, prefs);
+    });
 
   } else {
     overlay.innerHTML = `
@@ -369,13 +350,14 @@ function _renderMMStep(overlay, step, prefs) {
         level_c1: 0, level_c2: 0,
       };
       _mmSave({
-        active:     true,
-        setupDone:  true,
-        dailyMins:  prefs.dailyMins,
-        weeklyDays: prefs.weeklyDays,
-        startedAt:  new Date().toISOString(),
-        stats:      initStats,
-        trophies:   {}
+        active:       true,
+        setupDone:    true,
+        courseFormat: prefs.courseFormat || 'modules',
+        dailyMins:    prefs.dailyMins,
+        weeklyDays:   prefs.weeklyDays,
+        startedAt:    new Date().toISOString(),
+        stats:        initStats,
+        trophies:     {}
       });
       overlay.remove();
       _updateMMBtn();
@@ -562,7 +544,7 @@ function showMMPanel() {
     <div class="mm-panel">
       <div class="mm-panel-hd">
         <span class="mm-panel-hd-icon">🗡️</span>
-        <span class="mm-panel-hd-title">MisiónMate</span>
+        <span class="mm-panel-hd-title">Curso</span>
         <button class="mm-panel-close-btn" id="mmPanelClose">✕</button>
       </div>
 
@@ -600,7 +582,7 @@ function showMMPanel() {
     _updateMMBtn();
     close();
     if (typeof showToast === 'function')
-      showToast(mm.active ? '🗡️ MisiónMate activado' : '⏸ MisiónMate pausado');
+      showToast(mm.active ? '🗡️ Curso activado' : '⏸ Curso pausado');
   });
 
   overlay.querySelector('#mmPanelRoute').addEventListener('click', () => {
@@ -612,5 +594,11 @@ function showMMPanel() {
 // ─── Init ─────────────────────────────────────────────────────
 
 function initMisionMate() {
+  // Si el setup fue hecho con el onboarding viejo (sin courseFormat), resetear para mostrar el nuevo
+  const mm = _mmGet();
+  if (mm?.setupDone && !mm.courseFormat) {
+    mm.setupDone = false;
+    _mmSave(mm);
+  }
   _updateMMBtn();
 }

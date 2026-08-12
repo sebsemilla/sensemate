@@ -702,7 +702,7 @@ function _initMisionHub() {
         grid.innerHTML = `
             <div style="text-align:center;padding:2rem 1rem;color:var(--text-muted)">
                 <div style="font-size:2rem;margin-bottom:.75rem">🗺️</div>
-                <p style="font-size:.95rem;margin-bottom:.5rem">Idioma destino no disponible aún en MisionMate.</p>
+                <p style="font-size:.95rem;margin-bottom:.5rem">Idioma destino no disponible aún en Curso.</p>
                 <p style="font-size:.85rem">Disponible: <strong>Español · Inglés · Francés · Portugués · Alemán · Italiano · Chino · Japonés · Coreano · Ruso · Árabe</strong></p>
             </div>`;
         return;
@@ -2576,7 +2576,7 @@ function _getBanners() {
             bg: 'linear-gradient(135deg,#064e3b 0%,#065f46 100%)',
             emoji: '🤝',
             title: 'Sé parte del proyecto',
-            body: 'Contribuí con contenido, reportá errores o mejorá <strong>MisiónMate</strong> y ganá beneficios',
+            body: 'Contribuí con contenido, reportá errores o mejorá <strong>Curso</strong> y ganá beneficios',
             cta: 'Saber más →',
             action: () => _showContributorsModal()
         }
@@ -2744,7 +2744,7 @@ function _showContributorsModal() {
                         <div class="contrib-way-header">
                             <span class="contrib-way-emoji">📚</span>
                             <div>
-                                <div class="contrib-way-title">Revisar y mejorar módulos de MisiónMate</div>
+                                <div class="contrib-way-title">Revisar y mejorar módulos de Curso</div>
                                 <div class="contrib-way-pts">+50 pts por módulo aprobado · Nominación a staff</div>
                             </div>
                         </div>
@@ -2913,6 +2913,13 @@ function showMainMenu() {
                 <h2>⭐</h2>
                 <h4>Premium 500X</h4>
                 <p>Desbloqueá todas las funciones sin límites</p>
+            </div>` : ''}
+
+            ${inExploracion ? `
+            <!-- Footer Cohere -->
+            <div class="smp-ai-footer" style="margin:20px 0 4px;">
+                <span class="smp-ai-footer-text">🌿 Esta app usa <strong>Cohere AI</strong> por sus políticas éticas y ecológicas</span>
+                <a class="smp-ai-footer-btn" href="https://cohere.com" target="_blank" rel="noopener noreferrer">Conocer Cohere →</a>
             </div>` : ''}
 
         </div>
@@ -3372,6 +3379,11 @@ async function _renderClassRoom() {
             </div>
             <div class="classroom-grid" id="classroomGrid">
                 <div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>
+            </div>
+            <!-- Footer Cohere -->
+            <div class="smp-ai-footer" style="margin:20px 0 4px;">
+                <span class="smp-ai-footer-text">🌿 Esta app usa <strong>Cohere AI</strong> por sus políticas éticas y ecológicas</span>
+                <a class="smp-ai-footer-btn" href="https://cohere.com" target="_blank" rel="noopener noreferrer">Conocer Cohere →</a>
             </div>
         </div>
     `);
@@ -4136,8 +4148,8 @@ function loadSimpleMode() {
 
             <!-- Footer Cohere -->
             <div class="smp-ai-footer">
-                <span class="smp-ai-footer-text">✨ ${t.powered_by || 'Traducción impulsada por'} <strong>Cohere AI</strong></span>
-                <a class="smp-ai-footer-btn" href="https://cohere.com" target="_blank" rel="noopener">Conocer Cohere →</a>
+                <span class="smp-ai-footer-text">🌿 Esta app usa <strong>Cohere AI</strong> por sus políticas éticas y ecológicas</span>
+                <a class="smp-ai-footer-btn" href="https://cohere.com" target="_blank" rel="noopener noreferrer">Conocer Cohere →</a>
             </div>
 
         </div>
@@ -4558,24 +4570,15 @@ function loadSimpleMode() {
         // Flashcard
         document.querySelectorAll('.smp-flash-btn').forEach(btn => {
             btn.onclick = () => {
-                if (!requireAuthForAction('guardar flashcard')) return;
+                if (!requireAuthForAction('guardar en el Cajón')) return;
                 const el          = document.getElementById(btn.dataset.target);
                 const translation = el?.textContent || '';
-                const cards       = JSON.parse(localStorage.getItem('flashcards') || '[]');
-                cards.push({
-                    id:          Date.now() + '-' + Math.random(),
-                    word:        originalText,
-                    translation,
-                    groupId:     lastGroupId || null,
-                    dateAdded:   new Date().toISOString(),
-                    source:      'translator'
-                });
-                localStorage.setItem('flashcards', JSON.stringify(cards));
+                addToCajon(originalText, translation, sourceLang, targetLang);
                 if (typeof misionTrack === 'function') misionTrack('flashcard');
                 const orig = btn.innerHTML;
                 btn.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>`;
                 setTimeout(() => { btn.innerHTML = orig; }, 1500);
-                showToast('📇 ' + t.flashcard_guardada_toast);
+                showToast('📥 Guardado en el Cajón');
             };
         });
 
@@ -4602,7 +4605,7 @@ function _toggleFlashInfoPopover(anchorBtn) {
     const pop = document.createElement('div');
     pop.id = 'smpFlashInfoPopover';
     pop.className = 'smp-flash-info-popover';
-    pop.textContent = 'Al guardar el texto lo envías dentro del grupo que tengas creado en el área "Tarjetas / Flashcards". Si aún no has creado ninguno no se enviará.';
+    pop.textContent = 'Al guardar el texto lo enviás al Cajón, tu área de palabras guardadas. Desde ahí podés moverlas a cualquier grupo de Flashcards cuando quieras.';
     pop._anchor = anchorBtn;
     document.body.appendChild(pop);
 
@@ -4741,7 +4744,7 @@ function _showVocabCtxModule(group, key) {
                 <button class="ma1-quiz-start-btn" id="vctxQuizBtn">${done ? '✓ Practicado — Repetir' : '🎯 Practicar vocabulario'}</button>
             </div>
         </div>`);
-    document.getElementById('vctxBackBtn').addEventListener('click', () => showMainMenu());
+    document.getElementById('vctxBackBtn').addEventListener('click', () => showVocabCtxPanel());
     document.getElementById('vctxQuizBtn').addEventListener('click', () => _runVocabCtxQuiz(group, key));
 }
 
@@ -4833,6 +4836,9 @@ window.addEventListener('DOMContentLoaded', async () => {
                 currentUser = verified;
                 if (typeof MembershipPlan !== 'undefined') MembershipPlan.syncFromUser(verified);
                 updateAdminButton();
+                // Dispara notificaciones programadas (daily tip, subscription reminder) silenciosamente
+                _authFetch(`${_API_HOST}/notifications/check`, { method: 'POST', body: '{}' }).catch(() => {});
+                _updateDayStreak();
                 // Aplicar idioma del servidor si difiere del actual (cambio desde otro dispositivo)
                 if (verified.uiLanguage && verified.uiLanguage !== appUILanguage && _supportedLangs.includes(verified.uiLanguage)) {
                     appUILanguage = verified.uiLanguage;
@@ -5398,6 +5404,88 @@ window.addEventListener('DOMContentLoaded', async () => {
     });
 });
 
+// ─── Racha de días ────────────────────────────────────────────
+
+function _updateDayStreak() {
+    const today     = new Date().toISOString().slice(0, 10);
+    const raw       = localStorage.getItem('ls_streak');
+    const data      = raw ? JSON.parse(raw) : { lastDate: null, streak: 0, longest: 0 };
+    if (data.lastDate === today) return;
+    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    data.streak     = data.lastDate === yesterday ? (data.streak || 0) + 1 : 1;
+    data.lastDate   = today;
+    data.longest    = Math.max(data.longest || 0, data.streak);
+    localStorage.setItem('ls_streak', JSON.stringify(data));
+}
+
+function _getStreakData() {
+    try { return JSON.parse(localStorage.getItem('ls_streak') || '{"streak":0,"longest":0}'); }
+    catch { return { streak: 0, longest: 0 }; }
+}
+
+// ─── Vista de estadísticas del perfil ─────────────────────────
+
+function _showProfileStats() {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+
+    loadFlashcardData();
+    const cajon       = typeof loadCajon === 'function' ? loadCajon() : [];
+    const streak      = _getStreakData();
+    const cardStates  = JSON.parse(localStorage.getItem('ls_card_states') || '{}');
+    const learned     = Object.values(cardStates).filter(s => s === 'learned').length;
+    const reviewing   = Object.values(cardStates).filter(s => s === 'reviewing').length;
+    const misionSteps = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]').length;
+    const groups      = (flashcardGroups || []).length;
+    const allCards    = (flashcards || []).length;
+
+    const stat = (icon, value, label) => `
+        <div class="upstats-card">
+            <span class="upstats-icon">${icon}</span>
+            <span class="upstats-value">${value}</span>
+            <span class="upstats-label">${label}</span>
+        </div>`;
+
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="prac-wrap">
+            <div class="prac-header">
+                <button class="school-back-btn" id="statsBackBtn">← Perfil</button>
+            </div>
+            <div style="text-align:center;margin:1rem 0 1.5rem">
+                <span style="font-size:1.75rem">📊</span>
+                <h2 class="prac-title-centered" style="margin:.3rem 0 0">Estadísticas</h2>
+            </div>
+
+            <div class="upstats-section-title">Racha</div>
+            <div class="upstats-grid upstats-grid--2">
+                ${stat('🔥', streak.streak, 'Racha actual (días)')}
+                ${stat('🏆', streak.longest, 'Mejor racha')}
+            </div>
+
+            <div class="upstats-section-title">Vocabulario</div>
+            <div class="upstats-grid upstats-grid--2">
+                ${stat('📥', cajon.length, 'Palabras en el Cajón')}
+                ${stat('🃏', allCards, 'Tarjetas propias')}
+            </div>
+
+            <div class="upstats-section-title">Progreso</div>
+            <div class="upstats-grid upstats-grid--3">
+                ${stat('✅', learned, 'Aprendidas')}
+                ${stat('🔄', reviewing, 'En repaso')}
+                ${stat('🗡️', misionSteps, 'Pasos Curso')}
+            </div>
+
+            <div class="upstats-section-title">Colección</div>
+            <div class="upstats-grid upstats-grid--2">
+                ${stat('📁', groups, 'Grupos creados')}
+                ${stat('📚', misionSteps + learned, 'Total completado')}
+            </div>
+        </div>
+    `);
+
+    document.getElementById('statsBackBtn').addEventListener('click', loadUserProfile);
+}
+
 // ─── Perfil de usuario ─────────────────────────────────────────
 
 async function loadUserProfile() {
@@ -5472,6 +5560,14 @@ async function loadUserProfile() {
                 <span class="uprofile-hist-icon">🃏</span>
                 <span>Flashcards</span>
             </button>
+            <button class="uprofile-hist-btn" id="upCajonBtn">
+                <span class="uprofile-hist-icon">📥</span>
+                <span>El Cajón</span>
+            </button>
+            <button class="uprofile-hist-btn" id="upStatsBtn">
+                <span class="uprofile-hist-icon">📊</span>
+                <span>Estadísticas</span>
+            </button>
         </div>
 
         <!-- Accesos directos -->
@@ -5480,7 +5576,7 @@ async function loadUserProfile() {
             <div class="uprofile-shortcuts-row">
                 <button class="uprofile-shortcut-card" id="upMisionBtn">
                     <span class="uprofile-shortcut-icon">🗡️</span>
-                    <span class="uprofile-shortcut-label">MisionMate</span>
+                    <span class="uprofile-shortcut-label">Curso</span>
                     <span class="uprofile-shortcut-sub">${misionProgress > 0 ? `${misionProgress} pasos completados` : 'Comenzar'}</span>
                 </button>
                 <button class="uprofile-shortcut-card" id="upFlashBtn">
@@ -5569,6 +5665,10 @@ async function loadUserProfile() {
     document.getElementById('upSavedBtn').addEventListener('click', () => {
         if (typeof loadFlashcards === 'function') loadFlashcards();
     });
+    document.getElementById('upCajonBtn').addEventListener('click', () => {
+        if (typeof _showCajonPanel === 'function') _showCajonPanel();
+    });
+    document.getElementById('upStatsBtn').addEventListener('click', () => _showProfileStats());
 
     // Shortcuts
     document.getElementById('upMisionBtn').addEventListener('click', () => {
@@ -5675,7 +5775,7 @@ function _getFabSections() {
     return [
         { icon: '🔄', label: 'Traducción con IA',  idx_action: 'traduccion' },
         { icon: '🧭', label: 'Exploración',         mode: 'exploracion' },
-        { icon: '🗡️', label: 'MisionMate',          mode: 'mision' },
+        { icon: '🗡️', label: 'Curso',                mode: 'mision' },
         { icon: '🃏', label: 'Flashcards',           idx_action: 'flashcards' },
         { icon: '⭐', label: 'Chat con Famosos',     idx_action: 'famous' },
         { icon: '🎵', label: 'Música',               idx_action: 'musicians' },
