@@ -6613,6 +6613,2668 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
+  // JA_FR
+  // ──────────────────────────────────────────────────────
+  ja_fr: {
+      "level": "A0",
+      "levelName": "Hiragana y Katakana",
+      "groups": [
+          {
+              "id": "ja_a0_g1",
+              "name": "Hiragana — parte 1",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "あ行 か行 さ行 た行 な行 — primeras 25 sílabas",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ja_a0_g1_L_a-row",
+                      "isLetter": true,
+                      "letter": "あいうえお",
+                      "word": "あいうえお",
+                      "emoji": "🔤",
+                      "phonetic": "/a i ɯ e o/",
+                      "translation": "La rangée <b>あ</b> — les 5 voyelles de base<br><i>あ (a), い (i), う (u), え (e), お (o)</i>",
+                      "mnemonic": "あ ressemble à un 'a' stylisé avec une croix; い est comme un 'i' avec un point; う est un 'u' arrondi; え est un 'e' cursif; お est un 'o' avec une boucle.",
+                      "examples": [
+                          {
+                              "t": "<b>あ</b> — comme dans « <i>a</i>mi »<br>あ = un « a » avec une écharpe",
+                              "n": "あ est la première voyelle"
+                          },
+                          {
+                              "t": "<b>い</b> — comme dans « <i>i</i>ci »<br>い = deux traits comme un « i »",
+                              "n": "い est la deuxième voyelle"
+                          },
+                          {
+                              "t": "<b>う</b> — comme dans « <i>ou</i>i » (bouche arrondie)<br>う = un « u » couché",
+                              "n": "う se prononce entre u et ou"
+                          },
+                          {
+                              "t": "<b>え</b> — comme dans « <i>é</i>té »<br>え = un « e » qui s'écrit en deux traits",
+                              "n": "え est la quatrième voyelle"
+                          },
+                          {
+                              "t": "<b>お</b> — comme dans « <i>o</i>ui » (mais plus fermé)<br>お = un « o » avec une boucle en bas à droite",
+                              "n": "お est la cinquième voyelle"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_ka-row",
+                      "isLetter": true,
+                      "letter": "かきくけこ",
+                      "word": "かきくけこ",
+                      "emoji": "🔤",
+                      "phonetic": "/ka ki kɯ ke ko/",
+                      "translation": "La rangée <b>か</b> — la consonne K<br><i>か (ka), き (ki), く (ku), け (ke), こ (ko)</i>",
+                      "mnemonic": "か = un « k » avec une barre; き = un « k » avec une boucle en bas; く = un « < » comme un bec; け = un « K » avec une barre oblique; こ = deux traits horizontaux comme un « k » couché.",
+                      "examples": [
+                          {
+                              "t": "<b>か</b> — comme dans « <i>ca</i>fe »<br>か = un « k » avec une ligne qui descend",
+                              "n": "か est ka"
+                          },
+                          {
+                              "t": "<b>き</b> — comme dans « <i>ki</i>wi »<br>き = un « k » avec un trait en bas",
+                              "n": "き est ki"
+                          },
+                          {
+                              "t": "<b>く</b> — comme dans « <i>cou</i> » (sans le o)<br>く = un angle comme un bec d'oiseau",
+                              "n": "く est ku"
+                          },
+                          {
+                              "t": "<b>け</b> — comme dans « <i>ke</i>fir »<br>け = un « K » avec un trait oblique",
+                              "n": "け est ke"
+                          },
+                          {
+                              "t": "<b>こ</b> — comme dans « <i>co</i>co »<br>こ = deux traits parallèles",
+                              "n": "こ est ko"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_sa-row",
+                      "isLetter": true,
+                      "letter": "さしすせそ",
+                      "word": "さしすせそ",
+                      "emoji": "🔤",
+                      "phonetic": "/sa ɕi sɯ se so/",
+                      "translation": "La rangée <b>さ</b> — la consonne S<br><i>さ (sa), し (shi), す (su), せ (se), そ (so)</i><br>Attention : <span class=\"hl\">し se prononce shi</span>, pas si",
+                      "mnemonic": "さ = un « s » avec une barre; し = un crochet comme un « c » qui siffle; す = un « s » avec une boucle en bas; せ = un « s » avec un trait en bas; そ = un « z » avec un trait qui descend.",
+                      "examples": [
+                          {
+                              "t": "<b>さ</b> — comme dans « <i>sa</i>la »<br>さ = un « s » avec un trait horizontal",
+                              "n": "さ est sa"
+                          },
+                          {
+                              "t": "<b>し</b> — comme dans « <i>chi</i>en » (mais plus doux)<br>し = un crochet comme un hameçon",
+                              "n": "し est shi (irrégulier)"
+                          },
+                          {
+                              "t": "<b>す</b> — comme dans « <i>sou</i>ris » (sans le r)<br>す = un « s » avec une boucle en bas",
+                              "n": "す est su"
+                          },
+                          {
+                              "t": "<b>せ</b> — comme dans « <i>se</i>lle »<br>せ = un « s » avec un trait qui descend",
+                              "n": "せ est se"
+                          },
+                          {
+                              "t": "<b>そ</b> — comme dans « <i>so</i>l »<br>そ = un « z » avec un trait qui descend",
+                              "n": "そ est so"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_ta-row",
+                      "isLetter": true,
+                      "letter": "たちつてと",
+                      "word": "たちつてと",
+                      "emoji": "🔤",
+                      "phonetic": "/ta tɕi tsɯ te to/",
+                      "translation": "La rangée <b>た</b> — la consonne T<br><i>た (ta), ち (chi), つ (tsu), て (te), と (to)</i><br>⚠️ <span class=\"hl\">ち = chi</span> et <span class=\"hl\">つ = tsu</span> (irréguliers)",
+                      "mnemonic": "た = un « t » avec une barre; ち = un « 5 » qui se tortille (chi); つ = un « u » avec une boucle (tsu); て = un « t » avec une courbe; と = un « t » avec un point.",
+                      "examples": [
+                          {
+                              "t": "<b>た</b> — comme dans « <i>ta</i>ble »<br>た = un « t » avec une barre",
+                              "n": "た est ta"
+                          },
+                          {
+                              "t": "<b>ち</b> — comme dans « <i>tchi</i>que » (tch)<br>ち = un « 5 » avec une boucle",
+                              "n": "ち est chi (irrégulier)"
+                          },
+                          {
+                              "t": "<b>つ</b> — comme dans « <i>tsou</i> » (ts)<br>つ = un « u » avec une boucle en bas",
+                              "n": "つ est tsu (irrégulier)"
+                          },
+                          {
+                              "t": "<b>て</b> — comme dans « <i>té</i> »<br>て = un « t » avec une courbe",
+                              "n": "て est te"
+                          },
+                          {
+                              "t": "<b>と</b> — comme dans « <i>to</i>it »<br>と = un « t » avec un point",
+                              "n": "と est to"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_na-row",
+                      "isLetter": true,
+                      "letter": "なにぬねの",
+                      "word": "なにぬねの",
+                      "emoji": "🔤",
+                      "phonetic": "/na ɲi nɯ ne no/",
+                      "translation": "La rangée <b>な</b> — la consonne N<br><i>な (na), に (ni), ぬ (nu), ね (ne), の (no)</i>",
+                      "mnemonic": "な = un « n » avec une boucle; に = un « n » avec un trait; ぬ = un « nu » avec une boucle; ね = un « n » avec une courbe; の = un cercle avec une queue (comme un « no » tourné).",
+                      "examples": [
+                          {
+                              "t": "<b>な</b> — comme dans « <i>na</i>ge »<br>な = un « n » avec une boucle",
+                              "n": "な est na"
+                          },
+                          {
+                              "t": "<b>に</b> — comme dans « <i>ni</i>ce »<br>に = un « n » avec un trait",
+                              "n": "に est ni"
+                          },
+                          {
+                              "t": "<b>ぬ</b> — comme dans « <i>nou</i>s » (sans le s)<br>ぬ = un « nu » avec une boucle",
+                              "n": "ぬ est nu"
+                          },
+                          {
+                              "t": "<b>ね</b> — comme dans « <i>ne</i>z »<br>ね = un « n » avec une courbe",
+                              "n": "ね est ne"
+                          },
+                          {
+                              "t": "<b>の</b> — comme dans « <i>no</i>n »<br>の = un cercle avec une queue",
+                              "n": "の est no"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "あ",
+                      "word": "あさ",
+                      "emoji": "🌅",
+                      "phonetic": "/asa/",
+                      "translation": "<b>あさ</b> — le matin",
+                      "translations": {
+                          "ja": "あさ",
+                          "fr": "le matin",
+                          "en": "morning"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>あさ</b>に おきます。",
+                              "n": "Je me lève le matin."
+                          },
+                          {
+                              "t": "あさ の コーヒー が すき です。",
+                              "n": "J'aime le café du matin."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "き",
+                      "word": "きく",
+                      "emoji": "👂",
+                      "phonetic": "/kikɯ/",
+                      "translation": "<b>きく</b> — écouter / entendre",
+                      "translations": {
+                          "ja": "きく",
+                          "fr": "écouter",
+                          "en": "to listen / to hear"
+                      },
+                      "examples": [
+                          {
+                              "t": "おんがく を <b>きく</b>。",
+                              "n": "J'écoute de la musique."
+                          },
+                          {
+                              "t": "こえ が <b>きこえる</b>。",
+                              "n": "J'entends une voix."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "す",
+                      "word": "すし",
+                      "emoji": "🍣",
+                      "phonetic": "/sɯɕi/",
+                      "translation": "<b>すし</b> — sushi",
+                      "translations": {
+                          "ja": "すし",
+                          "fr": "sushi",
+                          "en": "sushi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>すし</b> が たべたい。",
+                              "n": "J'ai envie de manger des sushis."
+                          },
+                          {
+                              "t": "にほん の <b>すし</b> は おいしい。",
+                              "n": "Les sushis japonais sont délicieux."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "た",
+                      "word": "たべる",
+                      "emoji": "🍽️",
+                      "phonetic": "/taberɯ/",
+                      "translation": "<b>たべる</b> — manger",
+                      "translations": {
+                          "ja": "たべる",
+                          "fr": "manger",
+                          "en": "to eat"
+                      },
+                      "examples": [
+                          {
+                              "t": "りんご を <b>たべる</b>。",
+                              "n": "Je mange une pomme."
+                          },
+                          {
+                              "t": "あさ に パン を <b>たべる</b>。",
+                              "n": "Je mange du pain le matin."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "ね",
+                      "word": "ねる",
+                      "emoji": "😴",
+                      "phonetic": "/nerɯ/",
+                      "translation": "<b>ねる</b> — dormir",
+                      "translations": {
+                          "ja": "ねる",
+                          "fr": "dormir",
+                          "en": "to sleep"
+                      },
+                      "examples": [
+                          {
+                              "t": "よる に <b>ねる</b>。",
+                              "n": "Je dors la nuit."
+                          },
+                          {
+                              "t": "ねこ と いっしょ に <b>ねる</b>。",
+                              "n": "Je dors avec le chat."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g2",
+              "name": "Hiragana — parte 2",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "は行 ま行 や行 ら行 わ行 ん + dakuten",
+              "reviewFrom": [
+                  "ja_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g2_L_hagyou",
+                      "isLetter": true,
+                      "letter": "は",
+                      "word": "は",
+                      "emoji": "🔤",
+                      "phonetic": "/ha/",
+                      "translation": "Son <b>ha</b> — comme « <i>ha</i> » dans <i>haha</i> (rire en français) mais plus court.<br>La ligne <b>は行</b> : は ひ ふ へ ほ",
+                      "mnemonic": "On dirait un « H » avec une branche qui pousse à droite — pensez à un arbre en forme de H.",
+                      "examples": [
+                          {
+                              "t": "<b>は</b> est la première lettre de <b>はな</b> (fleur).",
+                              "n": "Ha est la première lettre de hana (fleur)."
+                          },
+                          {
+                              "t": "La ligne <b>は</b> se prononce avec le souffle, comme un rire doux.",
+                              "n": "La ligne ha se prononce avec le souffle."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_hagyou_fu",
+                      "isLetter": true,
+                      "letter": "ふ",
+                      "word": "ふ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɸɯ/",
+                      "translation": "Son <b>fu</b> — mais attention : c'est un <i>/ɸ/</i> soufflé, entre « f » et « h », sans les dents sur la lèvre.",
+                      "mnemonic": "Ressemble à un petit mont Fuji avec une fumée qui sort — <span class=\"hl\">fu</span> comme « fumer ».",
+                      "examples": [
+                          {
+                              "t": "<b>ふ</b> se prononce en soufflant entre les lèvres, comme pour éteindre une bougie.",
+                              "n": "Fu se prononce en soufflant doucement."
+                          },
+                          {
+                              "t": "Dans <b>ふじさん</b> (Fuji-san), on entend bien ce <b>ふ</b>.",
+                              "n": "Dans Fuji-san, on entend bien ce fu."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_magyou",
+                      "isLetter": true,
+                      "letter": "ま",
+                      "word": "ま",
+                      "emoji": "🔤",
+                      "phonetic": "/ma/",
+                      "translation": "Son <b>ma</b> — comme « <i>ma</i> » dans <i>maman</i>.<br>La ligne <b>ま行</b> : ま み む め も",
+                      "mnemonic": "On dirait un « M » avec une barre en bas — comme une <span class=\"hl\">maison</span> (mai en anglais).",
+                      "examples": [
+                          {
+                              "t": "<b>ま</b> commence <b>まど</b> (fenêtre).",
+                              "n": "Ma commence mado (fenêtre)."
+                          },
+                          {
+                              "t": "La ligne <b>ま</b> est douce, comme une caresse.",
+                              "n": "La ligne ma est douce."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_yagyou",
+                      "isLetter": true,
+                      "letter": "や",
+                      "word": "や",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Son <b>ya</b> — comme « <i>ya</i> » dans <i>yaourt</i>.<br>La ligne <b>や行</b> : や ゆ よ (seulement 3)",
+                      "mnemonic": "On dirait un « Y » avec une petite queue en bas — <span class=\"hl\">Yakitori</span> commence par や.",
+                      "examples": [
+                          {
+                              "t": "<b>や</b> est dans <b>やま</b> (montagne).",
+                              "n": "Ya est dans yama (montagne)."
+                          },
+                          {
+                              "t": "La ligne <b>や</b> n'a que 3 lettres, c'est spécial !",
+                              "n": "La ligne ya n'a que 3 lettres."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ragyou",
+                      "isLetter": true,
+                      "letter": "ら",
+                      "word": "ら",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾa/",
+                      "translation": "Son <b>ra</b> — c'est un <i>/ɾ/</i> battu, entre « r » et « l », comme le « r » espagnol court.<br>La ligne <b>ら行</b> : ら り る れ ろ",
+                      "mnemonic": "Ressemble à un petit « L » avec une boucle — pensez à <span class=\"hl\">la</span> en français, mais avec la langue qui tape.",
+                      "examples": [
+                          {
+                              "t": "<b>ら</b> est dans <b>らーめん</b> (ramen).",
+                              "n": "Ra est dans ramen."
+                          },
+                          {
+                              "t": "Le <b>ら</b> est rapide, la langue tape juste derrière les dents.",
+                              "n": "Le ra est rapide."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_wagyou",
+                      "isLetter": true,
+                      "letter": "わ",
+                      "word": "わ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɰa/",
+                      "translation": "Son <b>wa</b> — comme « <i>wa</i> » dans <i>wagon</i>.<br>La ligne <b>わ行</b> : わ を (particule) + ん (nasale)",
+                      "mnemonic": "On dirait un « W » tout rond, comme une <span class=\"hl\">vague</span> (wave en anglais).",
+                      "examples": [
+                          {
+                              "t": "<b>わ</b> commence <b>わたし</b> (je/moi).",
+                              "n": "Wa commence watashi (je)."
+                          },
+                          {
+                              "t": "<b>わ</b> est la dernière vraie voyelle de l'alphabet.",
+                              "n": "Wa est la dernière vraie voyelle."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "ん",
+                      "word": "ん",
+                      "emoji": "🔤",
+                      "phonetic": "/ɴ/",
+                      "translation": "Son <b>n</b> — une <i>nasale</i> seule, comme le « n » final de <i>bon</i> en français.<br>C'est la seule consonne seule en japonais.",
+                      "mnemonic": "On dirait un « n » qui se recroqueville, comme pour dormir — <span class=\"hl\">nuit</span>.",
+                      "examples": [
+                          {
+                              "t": "<b>ん</b> est à la fin de <b>にほん</b> (Japon).",
+                              "n": "N est à la fin de nihon (Japon)."
+                          },
+                          {
+                              "t": "<b>ん</b> se prononce avec le nez, comme un grognement doux.",
+                              "n": "N se prononce avec le nez."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_dakuten",
+                      "isLetter": true,
+                      "letter": "が",
+                      "word": "が",
+                      "emoji": "🔤",
+                      "phonetic": "/ga/",
+                      "translation": "Son <b>ga</b> — c'est le <b>か</b> avec un <i>dakuten</i> ゛(les deux petits traits).<br>Le dakuten rend la consonne voisée : か→が, さ→ざ, た→だ, は→ば.<br>Le <i>handakuten</i> ゜(le petit rond) donne ぱ (pa).",
+                      "mnemonic": "Les deux petits traits sont comme des <span class=\"hl\">lunettes</span> qui rendent le son plus fort.",
+                      "examples": [
+                          {
+                              "t": "<b>が</b> est か + ゛ — on ajoute la voix.",
+                              "n": "Ga est ka + dakuten."
+                          },
+                          {
+                              "t": "<b>ぱ</b> (pa) utilise le rond ゜ — comme une bulle qui éclate.",
+                              "n": "Pa utilise le handakuten."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "は",
+                      "word": "はな",
+                      "emoji": "🌸",
+                      "phonetic": "/hana/",
+                      "translation": "<b>Fleur</b> — le <b>は</b> se prononce « ha » ici.",
+                      "translations": {
+                          "ja": "はな",
+                          "fr": "fleur",
+                          "en": "flower"
+                      },
+                      "examples": [
+                          {
+                              "t": "これは <b>はな</b> です。",
+                              "n": "C'est une fleur."
+                          },
+                          {
+                              "t": "<b>はな</b> が きれい です。",
+                              "n": "La fleur est jolie."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "み",
+                      "word": "みず",
+                      "emoji": "💧",
+                      "phonetic": "/mizɯ/",
+                      "translation": "<b>Eau</b> — le <b>み</b> et le <b>ず</b> (dakuten de す).",
+                      "translations": {
+                          "ja": "みず",
+                          "fr": "eau",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>みず</b> を ください。",
+                              "n": "De l'eau, s'il vous plaît."
+                          },
+                          {
+                              "t": "<b>みず</b> は たいせつ です。",
+                              "n": "L'eau est importante."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "や",
+                      "word": "やま",
+                      "emoji": "⛰️",
+                      "phonetic": "/jama/",
+                      "translation": "<b>Montagne</b> — le <b>や</b> est la lettre de la ligne ya.",
+                      "translations": {
+                          "ja": "やま",
+                          "fr": "montagne",
+                          "en": "mountain"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>やま</b> が たかい です。",
+                              "n": "La montagne est haute."
+                          },
+                          {
+                              "t": "ふじさん は <b>やま</b> です。",
+                              "n": "Le Fuji est une montagne."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "ら",
+                      "word": "られる",
+                      "emoji": "💪",
+                      "phonetic": "/raɾeɾɯ/",
+                      "translation": "<b>Pouvoir faire</b> — forme potentielle (avec ら).",
+                      "translations": {
+                          "ja": "られる",
+                          "fr": "pouvoir faire",
+                          "en": "can do"
+                      },
+                      "examples": [
+                          {
+                              "t": "にほんご が <b>はなせる</b> ように なりたい。",
+                              "n": "Je veux pouvoir parler japonais."
+                          },
+                          {
+                              "t": "<b>たべられる</b>？",
+                              "n": "Tu peux manger ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "わ",
+                      "word": "わたし",
+                      "emoji": "👤",
+                      "phonetic": "/ɰataɕi/",
+                      "translation": "<b>Je / Moi</b> — le <b>わ</b> est la première lettre.",
+                      "translations": {
+                          "ja": "わたし",
+                          "fr": "je / moi",
+                          "en": "I / me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>わたし</b> は がくせい です。",
+                              "n": "Je suis étudiant(e)."
+                          },
+                          {
+                              "t": "<b>わたし</b> の なまえ は アンヌ です。",
+                              "n": "Je m'appelle Anne."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "り",
+                      "word": "ありがとう",
+                      "emoji": "🙏",
+                      "phonetic": "/aɾiɡatoː/",
+                      "translation": "<b>Merci</b> — le <b>り</b> est dans la ligne ra.",
+                      "translations": {
+                          "ja": "ありがとう",
+                          "fr": "merci",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ありがとう</b> ございます。",
+                              "n": "Merci beaucoup (poli)."
+                          },
+                          {
+                              "t": "たすけてくれて <b>ありがとう</b>。",
+                              "n": "Merci de m'avoir aidé."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "に",
+                      "word": "にほん",
+                      "emoji": "🇯🇵",
+                      "phonetic": "/ɲihoɴ/",
+                      "translation": "<b>Japon</b> — le <b>に</b> et le <b>ほ</b> (ligne ha).",
+                      "translations": {
+                          "ja": "にほん",
+                          "fr": "Japon",
+                          "en": "Japan"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>にほん</b> は すばらしい です。",
+                              "n": "Le Japon est merveilleux."
+                          },
+                          {
+                              "t": "わたし は <b>にほん</b> に いきたい。",
+                              "n": "Je veux aller au Japon."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g3",
+              "name": "Katakana — parte 1",
+              "icon": "🔠",
+              "color": "#10b981",
+              "description": "ア行 カ行 サ行 タ行 ナ行 — comparando con hiragana",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "ア",
+                      "word": "ア",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "<b>ア</b> = あ — son <i>/a/</i>.<br>Katakana utilisé pour les mots étrangers.",
+                      "mnemonic": "L'ア ressemble à un 'A' majuscule penché avec une barre — pensez à un <span class='hl'>A</span> qui s'incline.",
+                      "examples": [
+                          {
+                              "t": "<b>ア</b> comme dans <i>アフリカ</i> (Afrique).",
+                              "n": "ア = a, mot d'emprunt"
+                          },
+                          {
+                              "t": "Comparez : あ est courbé, <b>ア</b> est anguleux.",
+                              "n": "Différence hiragana/katakana"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "イ",
+                      "word": "イ",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "<b>イ</b> = い — son <i>/i/</i>.<br>Deux traits comme un <i>i</i> sans point.",
+                      "mnemonic": "L'イ ressemble à un <span class='hl'>i</span> latin sans le point — deux traits droits.",
+                      "examples": [
+                          {
+                              "t": "<b>イ</b> comme dans <i>イタリア</i> (Italie).",
+                              "n": "イ = i"
+                          },
+                          {
+                              "t": "い a une boucle, <b>イ</b> est tout en angles.",
+                              "n": "Contraste avec hiragana"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_u",
+                      "isLetter": true,
+                      "letter": "ウ",
+                      "word": "ウ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɯ/",
+                      "translation": "<b>ウ</b> = う — son <i>/u/</i> (non arrondi).<br>Ressemble à un toit ou un 'u' renversé.",
+                      "mnemonic": "L'ウ ressemble à un <span class='hl'>toit</span> de maison — un toit en forme de 'u' renversé.",
+                      "examples": [
+                          {
+                              "t": "<b>ウ</b> comme dans <i>ウイスキー</i> (whisky).",
+                              "n": "ウ = u"
+                          },
+                          {
+                              "t": "う est arrondi, <b>ウ</b> est anguleux comme un toit.",
+                              "n": "Différence visuelle"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "エ",
+                      "word": "エ",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "<b>エ</b> = え — son <i>/e/</i>.<br>Ressemble à un 'E' sans la barre du milieu.",
+                      "mnemonic": "L'エ ressemble à un <span class='hl'>E</span> latin incomplet — il manque la barre du milieu.",
+                      "examples": [
+                          {
+                              "t": "<b>エ</b> comme dans <i>エネルギー</i> (énergie).",
+                              "n": "エ = e"
+                          },
+                          {
+                              "t": "え a une courbe, <b>エ</b> est tout en lignes droites.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "オ",
+                      "word": "オ",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "<b>オ</b> = お — son <i>/o/</i>.<br>Un carré avec une barre verticale qui dépasse.",
+                      "mnemonic": "L'オ ressemble à un <span class='hl'>arbre</span> avec une branche qui dépasse à droite.",
+                      "examples": [
+                          {
+                              "t": "<b>オ</b> comme dans <i>オーストラリア</i> (Australie).",
+                              "n": "オ = o"
+                          },
+                          {
+                              "t": "お a une boucle, <b>オ</b> est anguleux avec une barre.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ka",
+                      "isLetter": true,
+                      "letter": "カ",
+                      "word": "カ",
+                      "emoji": "🔤",
+                      "phonetic": "/ka/",
+                      "translation": "<b>カ</b> = か — son <i>/ka/</i>.<br>Ressemble à un 'K' sans la jambe droite.",
+                      "mnemonic": "L'カ ressemble à un <span class='hl'>K</span> auquel il manque une jambe — pensez à 'ka' comme 'K'.",
+                      "examples": [
+                          {
+                              "t": "<b>カ</b> comme dans <i>カナダ</i> (Canada).",
+                              "n": "カ = ka"
+                          },
+                          {
+                              "t": "か a une courbe, <b>カ</b> est anguleux comme un K.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ki",
+                      "isLetter": true,
+                      "letter": "キ",
+                      "word": "キ",
+                      "emoji": "🔤",
+                      "phonetic": "/ki/",
+                      "translation": "<b>キ</b> = き — son <i>/ki/</i>.<br>Ressemble à un 'K' complet mais stylisé.",
+                      "mnemonic": "L'キ ressemble à un <span class='hl'>K</span> complet avec une barre en bas — comme un K qui se repose.",
+                      "examples": [
+                          {
+                              "t": "<b>キ</b> comme dans <i>キロ</i> (kilo).",
+                              "n": "キ = ki"
+                          },
+                          {
+                              "t": "き a une courbe en bas, <b>キ</b> est tout en angles.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ku",
+                      "isLetter": true,
+                      "letter": "ク",
+                      "word": "ク",
+                      "emoji": "🔤",
+                      "phonetic": "/kɯ/",
+                      "translation": "<b>ク</b> = く — son <i>/ku/</i>.<br>Ressemble à un crochet ou un 'v' ouvert.",
+                      "mnemonic": "L'ク ressemble à un <span class='hl'>bec</span> d'oiseau ouvert — comme un 'v' avec une petite queue.",
+                      "examples": [
+                          {
+                              "t": "<b>ク</b> comme dans <i>クラス</i> (classe).",
+                              "n": "ク = ku"
+                          },
+                          {
+                              "t": "く est simple, <b>ク</b> a un petit trait en plus.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ke",
+                      "isLetter": true,
+                      "letter": "ケ",
+                      "word": "ケ",
+                      "emoji": "🔤",
+                      "phonetic": "/ke/",
+                      "translation": "<b>ケ</b> = け — son <i>/ke/</i>.<br>Ressemble à un 'K' avec un trait diagonal en bas à gauche.",
+                      "mnemonic": "L'ケ ressemble à un <span class='hl'>K</span> avec un accent — comme un K qui porte un chapeau.",
+                      "examples": [
+                          {
+                              "t": "<b>ケ</b> comme dans <i>ケーキ</i> (gâteau).",
+                              "n": "ケ = ke"
+                          },
+                          {
+                              "t": "け a une courbe, <b>ケ</b> est anguleux.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ko",
+                      "isLetter": true,
+                      "letter": "コ",
+                      "word": "コ",
+                      "emoji": "🔤",
+                      "phonetic": "/ko/",
+                      "translation": "<b>コ</b> = こ — son <i>/ko/</i>.<br>Ressemble à un angle droit ou un 'L' inversé.",
+                      "mnemonic": "L'コ ressemble à un <span class='hl'>coin</span> ou un 'L' inversé — un angle droit.",
+                      "examples": [
+                          {
+                              "t": "<b>コ</b> comme dans <i>コーヒー</i> (café).",
+                              "n": "コ = ko"
+                          },
+                          {
+                              "t": "こ est horizontal, <b>コ</b> est un angle net.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_sa",
+                      "isLetter": true,
+                      "letter": "サ",
+                      "word": "サ",
+                      "emoji": "🔤",
+                      "phonetic": "/sa/",
+                      "translation": "<b>サ</b> = さ — son <i>/sa/</i>.<br>Ressemble à un 'S' avec un trait vertical au milieu.",
+                      "mnemonic": "L'サ ressemble à un <span class='hl'>S</span> traversé par une barre — comme un S barré.",
+                      "examples": [
+                          {
+                              "t": "<b>サ</b> comme dans <i>サラダ</i> (salade).",
+                              "n": "サ = sa"
+                          },
+                          {
+                              "t": "さ a une courbe, <b>サ</b> est anguleux avec une barre.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_shi",
+                      "isLetter": true,
+                      "letter": "シ",
+                      "word": "シ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕi/",
+                      "translation": "<b>シ</b> = し — son <i>/shi/</i>.<br>Trois petits traits comme des gouttes de pluie.",
+                      "mnemonic": "L'シ ressemble à <span class='hl'>trois gouttes</span> de pluie qui tombent — comme des larmes.",
+                      "examples": [
+                          {
+                              "t": "<b>シ</b> comme dans <i>シャツ</i> (chemise).",
+                              "n": "シ = shi"
+                          },
+                          {
+                              "t": "し est une courbe, <b>シ</b> est trois traits.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_su",
+                      "isLetter": true,
+                      "letter": "ス",
+                      "word": "ス",
+                      "emoji": "🔤",
+                      "phonetic": "/sɯ/",
+                      "translation": "<b>ス</b> = す — son <i>/su/</i>.<br>Ressemble à un '7' avec une courbe.",
+                      "mnemonic": "L'ス ressemble à un <span class='hl'>7</span> avec une boucle — comme un 7 qui s'enroule.",
+                      "examples": [
+                          {
+                              "t": "<b>ス</b> comme dans <i>スポーツ</i> (sport).",
+                              "n": "ス = su"
+                          },
+                          {
+                              "t": "す a une boucle, <b>ス</b> est plus simple.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_se",
+                      "isLetter": true,
+                      "letter": "セ",
+                      "word": "セ",
+                      "emoji": "🔤",
+                      "phonetic": "/se/",
+                      "translation": "<b>セ</b> = せ — son <i>/se/</i>.<br>Ressemble à un 'S' avec un trait qui traverse en bas.",
+                      "mnemonic": "L'セ ressemble à un <span class='hl'>S</span> avec une barre — comme un S qui a une ceinture.",
+                      "examples": [
+                          {
+                              "t": "<b>セ</b> comme dans <i>セーター</i> (pull).",
+                              "n": "セ = se"
+                          },
+                          {
+                              "t": "せ a une courbe, <b>セ</b> est plus anguleux.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_so",
+                      "isLetter": true,
+                      "letter": "ソ",
+                      "word": "ソ",
+                      "emoji": "🔤",
+                      "phonetic": "/so/",
+                      "translation": "<b>ソ</b> = そ — son <i>/so/</i>.<br>Deux traits comme un 'z' avec un accent.",
+                      "mnemonic": "L'ソ ressemble à un <span class='hl'>z</span> avec un accent — comme un z qui penche.",
+                      "examples": [
+                          {
+                              "t": "<b>ソ</b> comme dans <i>ソファ</i> (canapé).",
+                              "n": "ソ = so"
+                          },
+                          {
+                              "t": "そ a une courbe, <b>ソ</b> est deux traits.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ta",
+                      "isLetter": true,
+                      "letter": "タ",
+                      "word": "タ",
+                      "emoji": "🔤",
+                      "phonetic": "/ta/",
+                      "translation": "<b>タ</b> = た — son <i>/ta/</i>.<br>Ressemble à un 'T' avec une barre en bas.",
+                      "mnemonic": "L'タ ressemble à un <span class='hl'>T</span> avec un trait horizontal en bas — comme un T posé.",
+                      "examples": [
+                          {
+                              "t": "<b>タ</b> comme dans <i>タクシー</i> (taxi).",
+                              "n": "タ = ta"
+                          },
+                          {
+                              "t": "た a une boucle, <b>タ</b> est anguleux.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_chi",
+                      "isLetter": true,
+                      "letter": "チ",
+                      "word": "チ",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕi/",
+                      "translation": "<b>チ</b> = ち — son <i>/chi/</i>.<br>Ressemble à un '5' renversé.",
+                      "mnemonic": "L'チ ressemble à un <span class='hl'>5</span> renversé — comme un 5 qui tombe.",
+                      "examples": [
+                          {
+                              "t": "<b>チ</b> comme dans <i>チーズ</i> (fromage).",
+                              "n": "チ = chi"
+                          },
+                          {
+                              "t": "ち a une courbe, <b>チ</b> est plus anguleux.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_tsu",
+                      "isLetter": true,
+                      "letter": "ツ",
+                      "word": "ツ",
+                      "emoji": "🔤",
+                      "phonetic": "/tsɯ/",
+                      "translation": "<b>ツ</b> = つ — son <i>/tsu/</i>.<br>Trois traits comme des vagues.",
+                      "mnemonic": "L'ツ ressemble à <span class='hl'>trois vagues</span> qui montent — comme des vagues de la mer.",
+                      "examples": [
+                          {
+                              "t": "<b>ツ</b> comme dans <i>ツアー</i> (tour).",
+                              "n": "ツ = tsu"
+                          },
+                          {
+                              "t": "つ est une courbe, <b>ツ</b> est trois traits.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_te",
+                      "isLetter": true,
+                      "letter": "テ",
+                      "word": "テ",
+                      "emoji": "🔤",
+                      "phonetic": "/te/",
+                      "translation": "<b>テ</b> = て — son <i>/te/</i>.<br>Ressemble à un 'T' avec un trait qui descend à droite.",
+                      "mnemonic": "L'テ ressemble à un <span class='hl'>T</span> avec une barre supplémentaire — comme un T qui a une épée.",
+                      "examples": [
+                          {
+                              "t": "<b>テ</b> comme dans <i>テレビ</i> (TV).",
+                              "n": "テ = te"
+                          },
+                          {
+                              "t": "て a une courbe, <b>テ</b> est anguleux.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_to",
+                      "isLetter": true,
+                      "letter": "ト",
+                      "word": "ト",
+                      "emoji": "🔤",
+                      "phonetic": "/to/",
+                      "translation": "<b>ト</b> = と — son <i>/to/</i>.<br>Ressemble à un 'T' avec un point en bas à droite.",
+                      "mnemonic": "L'ト ressemble à un <span class='hl'>T</span> avec un point — comme un T qui a une goutte.",
+                      "examples": [
+                          {
+                              "t": "<b>ト</b> comme dans <i>トマト</i> (tomate).",
+                              "n": "ト = to"
+                          },
+                          {
+                              "t": "と a une boucle, <b>ト</b> est simple avec un point.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_na",
+                      "isLetter": true,
+                      "letter": "ナ",
+                      "word": "ナ",
+                      "emoji": "🔤",
+                      "phonetic": "/na/",
+                      "translation": "<b>ナ</b> = な — son <i>/na/</i>.<br>Ressemble à un 'n' avec une barre.",
+                      "mnemonic": "L'ナ ressemble à un <span class='hl'>n</span> avec une barre — comme un n qui a une ceinture.",
+                      "examples": [
+                          {
+                              "t": "<b>ナ</b> comme dans <i>ナイフ</i> (couteau).",
+                              "n": "ナ = na"
+                          },
+                          {
+                              "t": "な a une boucle, <b>ナ</b> est anguleux.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ni",
+                      "isLetter": true,
+                      "letter": "ニ",
+                      "word": "ニ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɲi/",
+                      "translation": "<b>ニ</b> = に — son <i>/ni/</i>.<br>Deux traits horizontaux parallèles.",
+                      "mnemonic": "L'ニ ressemble à <span class='hl'>deux barres</span> parallèles — comme un '='.",
+                      "examples": [
+                          {
+                              "t": "<b>ニ</b> comme dans <i>ニュース</i> (nouvelles).",
+                              "n": "ニ = ni"
+                          },
+                          {
+                              "t": "に a une courbe, <b>ニ</b> est deux traits.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_nu",
+                      "isLetter": true,
+                      "letter": "ヌ",
+                      "word": "ヌ",
+                      "emoji": "🔤",
+                      "phonetic": "/nɯ/",
+                      "translation": "<b>ヌ</b> = ぬ — son <i>/nu/</i>.<br>Ressemble à un 'v' avec une boucle.",
+                      "mnemonic": "L'ヌ ressemble à un <span class='hl'>v</span> avec une boucle — comme un v qui s'enroule.",
+                      "examples": [
+                          {
+                              "t": "<b>ヌ</b> comme dans <i>ヌードル</i> (nouilles).",
+                              "n": "ヌ = nu"
+                          },
+                          {
+                              "t": "ぬ a une boucle, <b>ヌ</b> est plus simple.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ne",
+                      "isLetter": true,
+                      "letter": "ネ",
+                      "word": "ネ",
+                      "emoji": "🔤",
+                      "phonetic": "/ne/",
+                      "translation": "<b>ネ</b> = ね — son <i>/ne/</i>.<br>Ressemble à un 'N' avec une barre en bas.",
+                      "mnemonic": "L'ネ ressemble à un <span class='hl'>N</span> avec une barre — comme un N qui a une écharpe.",
+                      "examples": [
+                          {
+                              "t": "<b>ネ</b> comme dans <i>ネクタイ</i> (cravate).",
+                              "n": "ネ = ne"
+                          },
+                          {
+                              "t": "ね a une courbe, <b>ネ</b> est anguleux.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_no",
+                      "isLetter": true,
+                      "letter": "ノ",
+                      "word": "ノ",
+                      "emoji": "🔤",
+                      "phonetic": "/no/",
+                      "translation": "<b>ノ</b> = の — son <i>/no/</i>.<br>Un seul trait diagonal comme une barre inclinée.",
+                      "mnemonic": "L'ノ ressemble à un <span class='hl'>trait</span> incliné — comme une barre qui glisse.",
+                      "examples": [
+                          {
+                              "t": "<b>ノ</b> comme dans <i>ノート</i> (carnet).",
+                              "n": "ノ = no"
+                          },
+                          {
+                              "t": "の est une boucle, <b>ノ</b> est un trait.",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "コ",
+                      "word": "コーヒー",
+                      "emoji": "☕",
+                      "phonetic": "/koːçiː/",
+                      "translation": "<b>コーヒー</b> — café (du néerlandais <i>koffie</i>)",
+                      "translations": {
+                          "ja": "コーヒー",
+                          "fr": "café",
+                          "en": "coffee"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>コーヒー</b>を飲みます。",
+                              "n": "Je bois du café."
+                          },
+                          {
+                              "t": "Le trait <b>ー</b> allonge la voyelle : <i>ko-o-hi-i</i>.",
+                              "n": "Note sur la longueur"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "テ",
+                      "word": "テレビ",
+                      "emoji": "📺",
+                      "phonetic": "/teɾebi/",
+                      "translation": "<b>テレビ</b> — télévision (abréviation de <i>terebi</i> de l'anglais)",
+                      "translations": {
+                          "ja": "テレビ",
+                          "fr": "télévision",
+                          "en": "TV"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>テレビ</b>を見ます。",
+                              "n": "Je regarde la télé."
+                          },
+                          {
+                              "t": "Vient de l'anglais <i>television</i> → テレビジョン → abrégé en テレビ.",
+                              "n": "Origine"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "ア",
+                      "word": "アイスクリーム",
+                      "emoji": "🍨",
+                      "phonetic": "/aisɯkɯɾiːmɯ/",
+                      "translation": "<b>アイスクリーム</b> — crème glacée (de l'anglais <i>ice cream</i>)",
+                      "translations": {
+                          "ja": "アイスクリーム",
+                          "fr": "crème glacée",
+                          "en": "ice cream"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>アイスクリーム</b>が好きです。",
+                              "n": "J'aime la glace."
+                          },
+                          {
+                              "t": "Long mot avec ー pour allonger <i>ri-i</i>.",
+                              "n": "Note longueur"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "タ",
+                      "word": "タクシー",
+                      "emoji": "🚕",
+                      "phonetic": "/takɯɕiː/",
+                      "translation": "<b>タクシー</b> — taxi (de l'anglais <i>taxi</i>)",
+                      "translations": {
+                          "ja": "タクシー",
+                          "fr": "taxi",
+                          "en": "taxi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>タクシー</b>に乗ります。",
+                              "n": "Je prends un taxi."
+                          },
+                          {
+                              "t": "Le ー allonge le <i>shi-i</i>.",
+                              "n": "Note longueur"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "ニ",
+                      "word": "ニュース",
+                      "emoji": "📰",
+                      "phonetic": "/ɲɯːsɯ/",
+                      "translation": "<b>ニュース</b> — nouvelles / actualités (de l'anglais <i>news</i>)",
+                      "translations": {
+                          "ja": "ニュース",
+                          "fr": "nouvelles / actualités",
+                          "en": "news"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ニュース</b>を見ます。",
+                              "n": "Je regarde les actualités."
+                          },
+                          {
+                              "t": "Le ー allonge <i>nyu-u</i>.",
+                              "n": "Note longueur"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g4",
+              "name": "Katakana — parte 2",
+              "icon": "🔣",
+              "color": "#ef4444",
+              "description": "ハ行 マ行 ヤ行 ラ行 ワ行 + préstamos",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2",
+                  "ja_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g4_L_ha",
+                      "isLetter": true,
+                      "letter": "ハ",
+                      "word": "ハ",
+                      "emoji": "🔤",
+                      "phonetic": "/ha/",
+                      "translation": "<b>ハ</b> se lit <i>ha</i> (comme dans « <span class='hl'>hache</span> »).<br>Ressemble à une <span class='hl'>maison</span> vue de face.",
+                      "mnemonic": "La partie gauche ressemble à un toit de maison, et on dit « ha » comme pour « habiter ».",
+                      "examples": [
+                          {
+                              "t": "<b>ハ</b> est la première lettre de <b>ハイ</b> (hai, oui).",
+                              "n": "« Ha » commence le mot « hai » qui signifie oui."
+                          },
+                          {
+                              "t": "Dans <b>ハンカチ</b> (mouchoir), on retrouve <b>ハ</b>.",
+                              "n": "Han-kachi = mouchoir (emprunt)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_hi",
+                      "isLetter": true,
+                      "letter": "ヒ",
+                      "word": "ヒ",
+                      "emoji": "🔤",
+                      "phonetic": "/çi/",
+                      "translation": "<b>ヒ</b> se lit <i>hi</i> (un « h » soufflé, proche du français <i>hi</i>).<br>Évoque un <span class='hl'>sourire</span> en biais.",
+                      "mnemonic": "On dirait un sourire narquois : on fait « hi hi ».",
+                      "examples": [
+                          {
+                              "t": "<b>ヒ</b> apparaît dans <b>ヒーター</b> (chauffage).",
+                              "n": "Hītā = chauffage (de l'anglais heater)."
+                          },
+                          {
+                              "t": "<b>ヒ</b> est aussi dans <b>ヒント</b> (indice).",
+                              "n": "Hinto = indice (de l'anglais hint)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_fu",
+                      "isLetter": true,
+                      "letter": "フ",
+                      "word": "フ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɸɯ/",
+                      "translation": "<b>フ</b> se lit <i>fu</i> (souffle entre les lèvres).<br>Ressemble à un <span class='hl'>toit</span> ou à une <span class='hl'>montagne</span>.",
+                      "mnemonic": "C'est comme un toit incliné ; on souffle « fou » pour se rafraîchir.",
+                      "examples": [
+                          {
+                              "t": "<b>フ</b> est dans <b>フランス</b> (France).",
+                              "n": "Furansu = France."
+                          },
+                          {
+                              "t": "<b>フ</b> est aussi dans <b>フォーク</b> (fourchette).",
+                              "n": "Fōku = fourchette (de l'anglais fork)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_he",
+                      "isLetter": true,
+                      "letter": "ヘ",
+                      "word": "ヘ",
+                      "emoji": "🔤",
+                      "phonetic": "/he/",
+                      "translation": "<b>ヘ</b> se lit <i>he</i> (comme « hé » en français).<br>C'est un <span class='hl'>toit</span> à deux pans.",
+                      "mnemonic": "Un toit pointu, on dit « hé » pour appeler quelqu'un.",
+                      "examples": [
+                          {
+                              "t": "<b>ヘ</b> est dans <b>ヘリコプター</b> (hélicoptère).",
+                              "n": "Herikoputā = hélicoptère."
+                          },
+                          {
+                              "t": "<b>ヘ</b> est aussi dans <b>ヘア</b> (cheveux).",
+                              "n": "Hea = cheveux (de l'anglais hair)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ho",
+                      "isLetter": true,
+                      "letter": "ホ",
+                      "word": "ホ",
+                      "emoji": "🔤",
+                      "phonetic": "/ho/",
+                      "translation": "<b>ホ</b> se lit <i>ho</i> (comme « ho » en français).<br>Ressemble à un <span class='hl'>arbre</span> avec des branches.",
+                      "mnemonic": "Un arbre avec des branches, et on dit « ho » comme pour « hop ».",
+                      "examples": [
+                          {
+                              "t": "<b>ホ</b> est dans <b>ホテル</b> (hôtel).",
+                              "n": "Hotaru = hôtel."
+                          },
+                          {
+                              "t": "<b>ホ</b> est aussi dans <b>ホーム</b> (quai de gare).",
+                              "n": "Hōmu = quai (de l'anglais platform)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ma",
+                      "isLetter": true,
+                      "letter": "マ",
+                      "word": "マ",
+                      "emoji": "🔤",
+                      "phonetic": "/ma/",
+                      "translation": "<b>マ</b> se lit <i>ma</i> (comme dans « <span class='hl'>maman</span> »).<br>Ressemble à un <span class='hl'>nœud</span> ou à une croix.",
+                      "mnemonic": "Une croix avec un nœud, on pense à « ma » comme maman.",
+                      "examples": [
+                          {
+                              "t": "<b>マ</b> est dans <b>マンゴー</b> (mangue).",
+                              "n": "Mangō = mangue."
+                          },
+                          {
+                              "t": "<b>マ</b> est aussi dans <b>マスク</b> (masque).",
+                              "n": "Masuku = masque."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mi",
+                      "isLetter": true,
+                      "letter": "ミ",
+                      "word": "ミ",
+                      "emoji": "🔤",
+                      "phonetic": "/mi/",
+                      "translation": "<b>ミ</b> se lit <i>mi</i> (comme la note de musique <i>mi</i>).<br>Trois <span class='hl'>vagues</span> ou trois traits.",
+                      "mnemonic": "Trois vagues, on chante « mi » comme la note.",
+                      "examples": [
+                          {
+                              "t": "<b>ミ</b> est dans <b>ミルク</b> (lait).",
+                              "n": "Miruku = lait (de l'anglais milk)."
+                          },
+                          {
+                              "t": "<b>ミ</b> est aussi dans <b>ミカン</b> (mandarine).",
+                              "n": "Mikan = mandarine (mot japonais)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mu",
+                      "isLetter": true,
+                      "letter": "ム",
+                      "word": "ム",
+                      "emoji": "🔤",
+                      "phonetic": "/mɯ/",
+                      "translation": "<b>ム</b> se lit <i>mu</i> (entre « mou » et « mu »).<br>Ressemble à un <span class='hl'>triangle</span> ouvert.",
+                      "mnemonic": "Un triangle, on dit « mou » comme une vache.",
+                      "examples": [
+                          {
+                              "t": "<b>ム</b> est dans <b>ムービー</b> (film).",
+                              "n": "Mūbī = film (de l'anglais movie)."
+                          },
+                          {
+                              "t": "<b>ム</b> est aussi dans <b>アニメ</b> ? Non, pas là !",
+                              "n": "Anime s'écrit avec アニメ, pas avec ム."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_me",
+                      "isLetter": true,
+                      "letter": "メ",
+                      "word": "メ",
+                      "emoji": "🔤",
+                      "phonetic": "/me/",
+                      "translation": "<b>メ</b> se lit <i>me</i> (comme « mé » en français).<br>Ressemble à un <span class='hl'>X</span> ou à des <span class='hl'>baguettes</span> croisées.",
+                      "mnemonic": "Deux traits qui se croisent, on dit « me » comme « même ».",
+                      "examples": [
+                          {
+                              "t": "<b>メ</b> est dans <b>メール</b> (courriel).",
+                              "n": "Mēru = e-mail (de l'anglais mail)."
+                          },
+                          {
+                              "t": "<b>メ</b> est aussi dans <b>メニュー</b> (menu).",
+                              "n": "Menyū = menu."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mo",
+                      "isLetter": true,
+                      "letter": "モ",
+                      "word": "モ",
+                      "emoji": "🔤",
+                      "phonetic": "/mo/",
+                      "translation": "<b>モ</b> se lit <i>mo</i> (comme « mot » sans le t).<br>Ressemble à un <span class='hl'>arbre</span> avec des branches.",
+                      "mnemonic": "Un arbre avec des branches, on dit « mo » comme « mot ».",
+                      "examples": [
+                          {
+                              "t": "<b>モ</b> est dans <b>モーター</b> (moteur).",
+                              "n": "Mōtā = moteur."
+                          },
+                          {
+                              "t": "<b>モ</b> est aussi dans <b>モノレール</b> (monorail).",
+                              "n": "Monorēru = monorail."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ya",
+                      "isLetter": true,
+                      "letter": "ヤ",
+                      "word": "ヤ",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "<b>ヤ</b> se lit <i>ya</i> (comme « ya » dans « yaourt »).<br>Ressemble à un <span class='hl'>cerf-volant</span> ou à un Y.",
+                      "mnemonic": "Un Y avec une barre, on dit « ya » comme « yaourt ».",
+                      "examples": [
+                          {
+                              "t": "<b>ヤ</b> est dans <b>ヤクルト</b> (yaourt à boire).",
+                              "n": "Yakuruto = marque de yaourt."
+                          },
+                          {
+                              "t": "<b>ヤ</b> est aussi dans <b>ヤード</b> (yard).",
+                              "n": "Yādo = yard (unité de mesure)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_yu",
+                      "isLetter": true,
+                      "letter": "ユ",
+                      "word": "ユ",
+                      "emoji": "🔤",
+                      "phonetic": "/jɯ/",
+                      "translation": "<b>ユ</b> se lit <i>yu</i> (comme « you » en anglais).<br>Ressemble à un <span class='hl'>poisson</span> qui nage.",
+                      "mnemonic": "Un poisson, on dit « you » comme en anglais.",
+                      "examples": [
+                          {
+                              "t": "<b>ユ</b> est dans <b>ユーロ</b> (euro).",
+                              "n": "Yūro = euro."
+                          },
+                          {
+                              "t": "<b>ユ</b> est aussi dans <b>ユニーク</b> (unique).",
+                              "n": "Yunīku = unique (de l'anglais unique)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_yo",
+                      "isLetter": true,
+                      "letter": "ヨ",
+                      "word": "ヨ",
+                      "emoji": "🔤",
+                      "phonetic": "/jo/",
+                      "translation": "<b>ヨ</b> se lit <i>yo</i> (comme « yo » en espagnol).<br>Ressemble à un <span class='hl'>peigne</span> ou à des vagues.",
+                      "mnemonic": "Des vagues, on dit « yo » comme pour saluer.",
+                      "examples": [
+                          {
+                              "t": "<b>ヨ</b> est dans <b>ヨガ</b> (yoga).",
+                              "n": "Yoga = yoga."
+                          },
+                          {
+                              "t": "<b>ヨ</b> est aussi dans <b>ヨット</b> (voilier).",
+                              "n": "Yotto = yacht."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ra",
+                      "isLetter": true,
+                      "letter": "ラ",
+                      "word": "ラ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾa/",
+                      "translation": "<b>ラ</b> se lit <i>ra</i> (un « r » rapide, presque un « l »).<br>Ressemble à un <span class='hl'>couteau</span> ou à une <span class='hl'>lame</span>.",
+                      "mnemonic": "Une lame, on dit « ra » comme « rasoir ».",
+                      "examples": [
+                          {
+                              "t": "<b>ラ</b> est dans <b>ラーメン</b> (nouilles).",
+                              "n": "Rāmen = ramen."
+                          },
+                          {
+                              "t": "<b>ラ</b> est aussi dans <b>ラジオ</b> (radio).",
+                              "n": "Rajio = radio."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ri",
+                      "isLetter": true,
+                      "letter": "リ",
+                      "word": "リ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾi/",
+                      "translation": "<b>リ</b> se lit <i>ri</i> (comme « ri » en français).<br>Deux <span class='hl'>bâtons</span> ou deux personnes.",
+                      "mnemonic": "Deux personnes, on dit « ri » comme « rire ».",
+                      "examples": [
+                          {
+                              "t": "<b>リ</b> est dans <b>リンゴ</b> (pomme).",
+                              "n": "Ringo = pomme."
+                          },
+                          {
+                              "t": "<b>リ</b> est aussi dans <b>リスト</b> (liste).",
+                              "n": "Risuto = liste."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ru",
+                      "isLetter": true,
+                      "letter": "ル",
+                      "word": "ル",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾɯ/",
+                      "translation": "<b>ル</b> se lit <i>ru</i> (entre « rou » et « ru »).<br>Ressemble à un <span class='hl'>Z</span> avec une boucle.",
+                      "mnemonic": "Un Z avec une boucle, on dit « rou » comme « roue ».",
+                      "examples": [
+                          {
+                              "t": "<b>ル</b> est dans <b>ルール</b> (règle).",
+                              "n": "Rūru = règle (de l'anglais rule)."
+                          },
+                          {
+                              "t": "<b>ル</b> est aussi dans <b>ルビー</b> (rubis).",
+                              "n": "Rubī = rubis."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_re",
+                      "isLetter": true,
+                      "letter": "レ",
+                      "word": "レ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾe/",
+                      "translation": "<b>レ</b> se lit <i>re</i> (comme « ré » en musique).<br>Ressemble à un <span class='hl'>crochet</span> ou à un <span class='hl'>point d'interrogation</span>.",
+                      "mnemonic": "Un crochet, on dit « ré » comme la note.",
+                      "examples": [
+                          {
+                              "t": "<b>レ</b> est dans <b>レストラン</b> (restaurant).",
+                              "n": "Resutoran = restaurant."
+                          },
+                          {
+                              "t": "<b>レ</b> est aussi dans <b>レモン</b> (citron).",
+                              "n": "Remon = citron."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ro",
+                      "isLetter": true,
+                      "letter": "ロ",
+                      "word": "ロ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾo/",
+                      "translation": "<b>ロ</b> se lit <i>ro</i> (comme « ro » en français).<br>Ressemble à un <span class='hl'>carré</span> ou à une <span class='hl'>boîte</span>.",
+                      "mnemonic": "Un carré, on dit « ro » comme « robot ».",
+                      "examples": [
+                          {
+                              "t": "<b>ロ</b> est dans <b>ロボット</b> (robot).",
+                              "n": "Robotto = robot."
+                          },
+                          {
+                              "t": "<b>ロ</b> est aussi dans <b>ローマ</b> (Rome).",
+                              "n": "Rōma = Rome."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_wa",
+                      "isLetter": true,
+                      "letter": "ワ",
+                      "word": "ワ",
+                      "emoji": "🔤",
+                      "phonetic": "/wa/",
+                      "translation": "<b>ワ</b> se lit <i>wa</i> (comme « wa » dans « wagon »).<br>Ressemble à un <span class='hl'>bol</span> ou à un <span class='hl'>nid</span>.",
+                      "mnemonic": "Un bol, on dit « wa » comme « wagon ».",
+                      "examples": [
+                          {
+                              "t": "<b>ワ</b> est dans <b>ワイン</b> (vin).",
+                              "n": "Wain = vin (de l'anglais wine)."
+                          },
+                          {
+                              "t": "<b>ワ</b> est aussi dans <b>ワールド</b> (monde).",
+                              "n": "Wārudo = monde (de l'anglais world)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_wo",
+                      "isLetter": true,
+                      "letter": "ヲ",
+                      "word": "ヲ",
+                      "emoji": "🔤",
+                      "phonetic": "/o/ ou /wo/",
+                      "translation": "<b>ヲ</b> se lit <i>o</i> (ou parfois <i>wo</i>).<br>Ressemble à un <span class='hl'>hameçon</span> ou à un <span class='hl'>cintre</span>.",
+                      "mnemonic": "Un cintre, mais on prononce « o » (rarement utilisé).",
+                      "examples": [
+                          {
+                              "t": "<b>ヲ</b> est rarement utilisé, surtout dans les mots anciens.",
+                              "n": "On le trouve dans des noms comme ヲタク (otaku) parfois."
+                          },
+                          {
+                              "t": "La particule を se prononce <i>o</i>, mais s'écrit en hiragana.",
+                              "n": "La particule を n'est pas en katakana."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_n",
+                      "isLetter": true,
+                      "letter": "ン",
+                      "word": "ン",
+                      "emoji": "🔤",
+                      "phonetic": "/ɴ/",
+                      "translation": "<b>ン</b> se lit <i>n</i> (nasale).<br>Ressemble à un <span class='hl'>vague</span> ou à un <span class='hl'>trait</span> ondulé.",
+                      "mnemonic": "Une vague, on fait « nnn » comme une hésitation.",
+                      "examples": [
+                          {
+                              "t": "<b>ン</b> est dans <b>パン</b> (pain).",
+                              "n": "Pan = pain."
+                          },
+                          {
+                              "t": "<b>ン</b> est aussi dans <b>ラーメン</b> (nouilles).",
+                              "n": "Rāmen = ramen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_chouon",
+                      "isLetter": true,
+                      "letter": "ー",
+                      "word": "ー",
+                      "emoji": "🔤",
+                      "phonetic": "/ː/",
+                      "translation": "<b>ー</b> est le <i>chōon</i> (allongement de la voyelle).<br>Il allonge la voyelle précédente.",
+                      "mnemonic": "Un trait horizontal, on tire le son comme un élastique.",
+                      "examples": [
+                          {
+                              "t": "Dans <b>ケーキ</b> (gâteau), le ー allonge le <i>e</i> : <i>kēki</i>.",
+                              "n": "Kēki = gâteau (de l'anglais cake)."
+                          },
+                          {
+                              "t": "Dans <b>コーヒー</b> (café), le ー allonge le <i>o</i> et le <i>i</i>.",
+                              "n": "Kōhī = café."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_01",
+                      "isLetter": false,
+                      "letter": "ホ",
+                      "word": "ホテル",
+                      "emoji": "🏨",
+                      "phonetic": "/hoteɾɯ/",
+                      "translation": "<b>hôtel</b> (emprunt de l'anglais <i>hotel</i>)",
+                      "translations": {
+                          "ja": "ホテル",
+                          "fr": "hôtel",
+                          "en": "hotel"
+                      },
+                      "examples": [
+                          {
+                              "t": "この <b>ホテル</b> は きれい です。",
+                              "n": "Cet hôtel est joli."
+                          },
+                          {
+                              "t": "<b>ホテル</b> で あいましょう。",
+                              "n": "Retrouvons-nous à l'hôtel."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_02",
+                      "isLetter": false,
+                      "letter": "レ",
+                      "word": "レストラン",
+                      "emoji": "🍽️",
+                      "phonetic": "/ɾesɯtoɾaɴ/",
+                      "translation": "<b>restaurant</b> (emprunt du français <i>restaurant</i>)",
+                      "translations": {
+                          "ja": "レストラン",
+                          "fr": "restaurant",
+                          "en": "restaurant"
+                      },
+                      "examples": [
+                          {
+                              "t": "あの <b>レストラン</b> は おいしい です。",
+                              "n": "Ce restaurant est délicieux."
+                          },
+                          {
+                              "t": "<b>レストラン</b> で はたらきます。",
+                              "n": "Je travaille au restaurant."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_03",
+                      "isLetter": false,
+                      "letter": "パ",
+                      "word": "パスポート",
+                      "emoji": "🛂",
+                      "phonetic": "/pasɯpoːto/",
+                      "translation": "<b>passeport</b> (emprunt de l'anglais <i>passport</i>)",
+                      "translations": {
+                          "ja": "パスポート",
+                          "fr": "passeport",
+                          "en": "passport"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>パスポート</b> を みせて ください。",
+                              "n": "Montrez-moi votre passeport."
+                          },
+                          {
+                              "t": "<b>パスポート</b> が ひつようです。",
+                              "n": "Un passeport est nécessaire."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_04",
+                      "isLetter": false,
+                      "letter": "マ",
+                      "word": "スマートフォン",
+                      "emoji": "📱",
+                      "phonetic": "/sɯmaːtoɸoɴ/",
+                      "translation": "<b>smartphone</b> (abréviation de <i>smartphone</i>)",
+                      "translations": {
+                          "ja": "スマートフォン",
+                          "fr": "smartphone",
+                          "en": "smartphone"
+                      },
+                      "examples": [
+                          {
+                              "t": "わたしの <b>スマートフォン</b> は あたらしい です。",
+                              "n": "Mon smartphone est neuf."
+                          },
+                          {
+                              "t": "<b>スマートフォン</b> で はなします。",
+                              "n": "Je parle avec mon smartphone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_05",
+                      "isLetter": false,
+                      "letter": "コ",
+                      "word": "コンピューター",
+                      "emoji": "💻",
+                      "phonetic": "/koɴpjuːtaː/",
+                      "translation": "<b>ordinateur</b> (emprunt de l'anglais <i>computer</i>)",
+                      "translations": {
+                          "ja": "コンピューター",
+                          "fr": "ordinateur",
+                          "en": "computer"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>コンピューター</b> で しごと を します。",
+                              "n": "Je travaille sur l'ordinateur."
+                          },
+                          {
+                              "t": "あの <b>コンピューター</b> は やすい です。",
+                              "n": "Cet ordinateur est bon marché."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_06",
+                      "isLetter": false,
+                      "letter": "バ",
+                      "word": "バス",
+                      "emoji": "🚌",
+                      "phonetic": "/basɯ/",
+                      "translation": "<b>bus</b> (emprunt de l'anglais <i>bus</i>)",
+                      "translations": {
+                          "ja": "バス",
+                          "fr": "bus",
+                          "en": "bus"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>バス</b> で がっこう に いきます。",
+                              "n": "Je vais à l'école en bus."
+                          },
+                          {
+                              "t": "この <b>バス</b> は どこ に いきますか。",
+                              "n": "Où va ce bus ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_07",
+                      "isLetter": false,
+                      "letter": "ビ",
+                      "word": "ビール",
+                      "emoji": "🍺",
+                      "phonetic": "/biːɾɯ/",
+                      "translation": "<b>bière</b> (emprunt du néerlandais <i>bier</i>)",
+                      "translations": {
+                          "ja": "ビール",
+                          "fr": "bière",
+                          "en": "beer"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ビール</b> を のみます。",
+                              "n": "Je bois de la bière."
+                          },
+                          {
+                              "t": "<b>ビール</b> は つめたい です。",
+                              "n": "La bière est froide."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_08",
+                      "isLetter": false,
+                      "letter": "チョ",
+                      "word": "チョコレート",
+                      "emoji": "🍫",
+                      "phonetic": "/tɕokoɾeːto/",
+                      "translation": "<b>chocolat</b> (emprunt de l'anglais <i>chocolate</i>)",
+                      "translations": {
+                          "ja": "チョコレート",
+                          "fr": "chocolat",
+                          "en": "chocolate"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>チョコレート</b> が すき です。",
+                              "n": "J'aime le chocolat."
+                          },
+                          {
+                              "t": "<b>チョコレート</b> を かいます。",
+                              "n": "J'achète du chocolat."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g5",
+              "name": "Primeros Kanji",
+              "icon": "漢",
+              "color": "#8b5cf6",
+              "description": "日 月 火 水 木 金 土 + números + personas",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2",
+                  "ja_a0_g3",
+                  "ja_a0_g4"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g5_L_ichi",
+                      "isLetter": true,
+                      "letter": "一",
+                      "word": "一",
+                      "emoji": "1️⃣",
+                      "phonetic": "/ichi/",
+                      "translation": "Un (un) — <b>一</b> est juste <i>un trait horizontal</i>, comme le sol ou une ligne.",
+                      "mnemonic": "Un seul trait horizontal = un seul objet.",
+                      "examples": [
+                          {
+                              "t": "<b>一</b>人 (hitori) — une personne.<br><span class='hl'>Un</span> trait = une personne seule.",
+                              "n": "Une personne"
+                          },
+                          {
+                              "t": "<b>一</b>番 (ichiban) — numéro un, le meilleur.",
+                              "n": "Le numéro un"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_ni",
+                      "isLetter": true,
+                      "letter": "二",
+                      "word": "二",
+                      "emoji": "2️⃣",
+                      "phonetic": "/ni/",
+                      "translation": "Deux (deux) — <b>二</b> a <i>deux traits horizontaux</i>, comme deux lignes.",
+                      "mnemonic": "Deux traits = deux choses.",
+                      "examples": [
+                          {
+                              "t": "<b>二</b>人 (futari) — deux personnes.",
+                              "n": "Deux personnes"
+                          },
+                          {
+                              "t": "<b>二</b>月 (nigatsu) — février (le 2e mois).",
+                              "n": "Février"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_san",
+                      "isLetter": true,
+                      "letter": "三",
+                      "word": "三",
+                      "emoji": "3️⃣",
+                      "phonetic": "/san/",
+                      "translation": "Trois (trois) — <b>三</b> a <i>trois traits horizontaux</i>, empilés comme des étagères.",
+                      "mnemonic": "Trois traits = trois niveaux.",
+                      "examples": [
+                          {
+                              "t": "<b>三</b>人 (sannin) — trois personnes.",
+                              "n": "Trois personnes"
+                          },
+                          {
+                              "t": "<b>三</b>月 (sangatsu) — mars (le 3e mois).",
+                              "n": "Mars"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_shi_yon",
+                      "isLetter": true,
+                      "letter": "四",
+                      "word": "四",
+                      "emoji": "4️⃣",
+                      "phonetic": "/shi/ ou /yon/",
+                      "translation": "Quatre (quatre) — <b>四</b> ressemble à une <i>fenêtre</i> ou une bouche avec deux dents à l'intérieur.",
+                      "mnemonic": "Une fenêtre avec un carré intérieur = 4 côtés.",
+                      "examples": [
+                          {
+                              "t": "<b>四</b>人 (yonin) — quatre personnes.",
+                              "n": "Quatre personnes"
+                          },
+                          {
+                              "t": "<b>四</b>月 (shigatsu) — avril (le 4e mois).",
+                              "n": "Avril"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_go",
+                      "isLetter": true,
+                      "letter": "五",
+                      "word": "五",
+                      "emoji": "5️⃣",
+                      "phonetic": "/go/",
+                      "translation": "Cinq (cinq) — <b>五</b> ressemble à un <i>chevalet</i> ou une personne avec les bras écartés.",
+                      "mnemonic": "Un chevalet avec une barre = 5 (pensez à une main ouverte).",
+                      "examples": [
+                          {
+                              "t": "<b>五</b>人 (gonin) — cinq personnes.",
+                              "n": "Cinq personnes"
+                          },
+                          {
+                              "t": "<b>五</b>月 (gogatsu) — mai (le 5e mois).",
+                              "n": "Mai"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_roku",
+                      "isLetter": true,
+                      "letter": "六",
+                      "word": "六",
+                      "emoji": "6️⃣",
+                      "phonetic": "/roku/",
+                      "translation": "Six (six) — <b>六</b> ressemble à un <i>toit</i> ou à une personne accroupie vue de profil.",
+                      "mnemonic": "Un toit avec deux jambes = 6 (pensez à 六 comme 'roku' qui sonne comme 'rocku' — rock).",
+                      "examples": [
+                          {
+                              "t": "<b>六</b>人 (rokunin) — six personnes.",
+                              "n": "Six personnes"
+                          },
+                          {
+                              "t": "<b>六</b>月 (rokugatsu) — juin (le 6e mois).",
+                              "n": "Juin"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_shichi_nana",
+                      "isLetter": true,
+                      "letter": "七",
+                      "word": "七",
+                      "emoji": "7️⃣",
+                      "phonetic": "/shichi/ ou /nana/",
+                      "translation": "Sept (sept) — <b>七</b> ressemble à un <i>crochet</i> ou un L incliné.",
+                      "mnemonic": "Un crochet qui tombe = 7 (comme un 7 qui penche).",
+                      "examples": [
+                          {
+                              "t": "<b>七</b>人 (shichinin / nananin) — sept personnes.",
+                              "n": "Sept personnes"
+                          },
+                          {
+                              "t": "<b>七</b>月 (shichigatsu) — juillet (le 7e mois).",
+                              "n": "Juillet"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_hachi",
+                      "isLetter": true,
+                      "letter": "八",
+                      "word": "八",
+                      "emoji": "8️⃣",
+                      "phonetic": "/hachi/",
+                      "translation": "Huit (huit) — <b>八</b> ressemble à une <i>montagne</i> ou à deux bras écartés qui s'ouvrent.",
+                      "mnemonic": "Deux traits qui s'ouvrent = 8 (pensez à 'hachi' comme 'hache' — la hache fend en deux).",
+                      "examples": [
+                          {
+                              "t": "<b>八</b>人 (hachinin) — huit personnes.",
+                              "n": "Huit personnes"
+                          },
+                          {
+                              "t": "<b>八</b>月 (hachigatsu) — août (le 8e mois).",
+                              "n": "Août"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kyuu",
+                      "isLetter": true,
+                      "letter": "九",
+                      "word": "九",
+                      "emoji": "9️⃣",
+                      "phonetic": "/kyuu/ ou /ku/",
+                      "translation": "Neuf (neuf) — <b>九</b> ressemble à un <i>bras plié</i> ou à un crochet avec une queue.",
+                      "mnemonic": "Un bras plié avec une queue = 9 (pensez à 'kyuu' comme 'queue' en français).",
+                      "examples": [
+                          {
+                              "t": "<b>九</b>人 (kyuunin) — neuf personnes.",
+                              "n": "Neuf personnes"
+                          },
+                          {
+                              "t": "<b>九</b>月 (kugatsu) — septembre (le 9e mois).",
+                              "n": "Septembre"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_juu",
+                      "isLetter": true,
+                      "letter": "十",
+                      "word": "十",
+                      "emoji": "🔟",
+                      "phonetic": "/juu/",
+                      "translation": "Dix (dix) — <b>十</b> est une <i>croix</i> parfaite, comme une croix de chemin.",
+                      "mnemonic": "Une croix = 10 (pensez à une croix qui compte pour 10).",
+                      "examples": [
+                          {
+                              "t": "<b>十</b>人 (juunin) — dix personnes.",
+                              "n": "Dix personnes"
+                          },
+                          {
+                              "t": "<b>十</b>月 (juugatsu) — octobre (le 10e mois).",
+                              "n": "Octobre"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_hi_nichi",
+                      "isLetter": true,
+                      "letter": "日",
+                      "word": "日",
+                      "emoji": "☀️",
+                      "phonetic": "/nichi/ /hi/ /bi/",
+                      "translation": "Soleil / Jour — <b>日</b> est un <i>rectangle avec une ligne au milieu</i>, comme le soleil qui se lève à l'horizon.",
+                      "mnemonic": "Le soleil dans un cadre = jour. La ligne du milieu est l'horizon.",
+                      "examples": [
+                          {
+                              "t": "<b>日</b>本 (Nihon) — le Japon (le pays du soleil levant).",
+                              "n": "Japon"
+                          },
+                          {
+                              "t": "<b>日</b>曜日 (nichiyoubi) — dimanche (jour du soleil).",
+                              "n": "Dimanche"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_gatsu_tsuki",
+                      "isLetter": true,
+                      "letter": "月",
+                      "word": "月",
+                      "emoji": "🌙",
+                      "phonetic": "/gatsu/ /tsuki/",
+                      "translation": "Lune / Mois — <b>月</b> ressemble à un <i>croissant de lune</i> avec deux traits à l'intérieur.",
+                      "mnemonic": "Un croissant avec des cratères = lune. La lune rythme les mois.",
+                      "examples": [
+                          {
+                              "t": "<b>月</b>曜日 (getsuyoubi) — lundi (jour de la lune).",
+                              "n": "Lundi"
+                          },
+                          {
+                              "t": "一<b>月</b> (ichigatsu) — janvier (1er mois).",
+                              "n": "Janvier"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_ka_hi",
+                      "isLetter": true,
+                      "letter": "火",
+                      "word": "火",
+                      "emoji": "🔥",
+                      "phonetic": "/ka/ /hi/",
+                      "translation": "Feu — <b>火</b> ressemble à une <i>personne qui lève les bras</i> avec des flammes qui s'échappent.",
+                      "mnemonic": "Une personne qui fait des gestes avec des étincelles = feu.",
+                      "examples": [
+                          {
+                              "t": "<b>火</b>曜日 (kayoubi) — mardi (jour du feu).",
+                              "n": "Mardi"
+                          },
+                          {
+                              "t": "火<b>事</b> (kaji) — incendie (littéralement 'affaire de feu').",
+                              "n": "Incendie"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_sui_mizu",
+                      "isLetter": true,
+                      "letter": "水",
+                      "word": "水",
+                      "emoji": "💧",
+                      "phonetic": "/sui/ /mizu/",
+                      "translation": "Eau — <b>水</b> ressemble à une <i>rivière qui coule</i> entre deux berges, avec des gouttes au milieu.",
+                      "mnemonic": "Des gouttes d'eau qui tombent entre deux rives = eau.",
+                      "examples": [
+                          {
+                              "t": "<b>水</b>曜日 (suiyoubi) — mercredi (jour de l'eau).",
+                              "n": "Mercredi"
+                          },
+                          {
+                              "t": "お<b>水</b> (omizu) — eau (poli).",
+                              "n": "Eau"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_moku_ki",
+                      "isLetter": true,
+                      "letter": "木",
+                      "word": "木",
+                      "emoji": "🌳",
+                      "phonetic": "/moku/ /ki/",
+                      "translation": "Arbre — <b>木</b> est un <i>arbre stylisé</i> : le trait vertical est le tronc, les traits horizontaux sont les branches.",
+                      "mnemonic": "Un arbre avec des branches = bois/arbre.",
+                      "examples": [
+                          {
+                              "t": "<b>木</b>曜日 (mokuyoubi) — jeudi (jour de l'arbre).",
+                              "n": "Jeudi"
+                          },
+                          {
+                              "t": "大<b>木</b> (taiboku) — grand arbre.",
+                              "n": "Grand arbre"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kin_kane",
+                      "isLetter": true,
+                      "letter": "金",
+                      "word": "金",
+                      "emoji": "💰",
+                      "phonetic": "/kin/ /kane/",
+                      "translation": "Or — <b>金</b> contient <i>土</i> (terre) en bas et quelque chose qui brille au-dessus, comme un lingot.",
+                      "mnemonic": "De l'or qui sort de la terre = métal précieux.",
+                      "examples": [
+                          {
+                              "t": "<b>金</b>曜日 (kinyoubi) — vendredi (jour de l'or).",
+                              "n": "Vendredi"
+                          },
+                          {
+                              "t": "お<b>金</b> (okane) — argent (littéralement 'or précieux').",
+                              "n": "Argent"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_do_tsuchi",
+                      "isLetter": true,
+                      "letter": "土",
+                      "word": "土",
+                      "emoji": "⛰️",
+                      "phonetic": "/do/ /tsuchi/",
+                      "translation": "Terre / Sol — <b>土</b> ressemble à une <i>plante qui pousse dans le sol</i>, avec une ligne horizontale pour la surface.",
+                      "mnemonic": "Une pousse qui sort du sol = terre.",
+                      "examples": [
+                          {
+                              "t": "<b>土</b>曜日 (doyoubi) — samedi (jour de la terre).",
+                              "n": "Samedi"
+                          },
+                          {
+                              "t": "土<b>地</b> (tochi) — terrain, terre.",
+                              "n": "Terrain"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_hito_jin",
+                      "isLetter": true,
+                      "letter": "人",
+                      "word": "人",
+                      "emoji": "🚶",
+                      "phonetic": "/hito/ /jin/",
+                      "translation": "Personne — <b>人</b> ressemble à une <i>personne qui marche</i> avec les jambes écartées.",
+                      "mnemonic": "Deux jambes qui marchent = personne.",
+                      "examples": [
+                          {
+                              "t": "<b>人</b>間 (ningen) — être humain.",
+                              "n": "Être humain"
+                          },
+                          {
+                              "t": "日本<b>人</b> (nihonjin) — Japonais (personne du Japon).",
+                              "n": "Japonais"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_yama_san",
+                      "isLetter": true,
+                      "letter": "山",
+                      "word": "山",
+                      "emoji": "🏔️",
+                      "phonetic": "/yama/ /san/",
+                      "translation": "Montagne — <b>山</b> ressemble à <i>trois pics</i>, avec le pic central plus haut.",
+                      "mnemonic": "Trois sommets = montagne.",
+                      "examples": [
+                          {
+                              "t": "富<b>士山</b> (Fujisan) — le mont Fuji.",
+                              "n": "Mont Fuji"
+                          },
+                          {
+                              "t": "<b>山</b>田 (Yamada) — nom de famille courant (champ de montagne).",
+                              "n": "Nom de famille"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kawa",
+                      "isLetter": true,
+                      "letter": "川",
+                      "word": "川",
+                      "emoji": "🏞️",
+                      "phonetic": "/kawa/ /sen/",
+                      "translation": "Rivière — <b>川</b> ressemble à <i>trois courants d'eau</i> qui coulent vers le bas.",
+                      "mnemonic": "Trois lignes qui coulent = rivière.",
+                      "examples": [
+                          {
+                              "t": "小<b>川</b> (ogawa) — ruisseau (petite rivière).",
+                              "n": "Ruisseau"
+                          },
+                          {
+                              "t": "<b>川</b>崎 (Kawasaki) — ville (péninsule de la rivière).",
+                              "n": "Ville japonaise"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_dai_oo",
+                      "isLetter": true,
+                      "letter": "大",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "/dai/ /oo/",
+                      "translation": "Grand — <b>大</b> est une <i>personne avec les bras écartés</i>, comme pour montrer quelque chose de grand.",
+                      "mnemonic": "Une personne qui écarte les bras = grand.",
+                      "examples": [
+                          {
+                              "t": "<b>大</b>学 (daigaku) — université (grande école).",
+                              "n": "Université"
+                          },
+                          {
+                              "t": "<b>大</b>きい (ookii) — grand (adjectif).",
+                              "n": "Grand"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_shou_ko",
+                      "isLetter": true,
+                      "letter": "小",
+                      "word": "小",
+                      "emoji": "🐜",
+                      "phonetic": "/shou/ /ko/ /chiisai/",
+                      "translation": "Petit — <b>小</b> ressemble à <i>trois petites gouttes</i> ou à une personne qui se recroqueville.",
+                      "mnemonic": "Trois petites gouttes = petit.",
+                      "examples": [
+                          {
+                              "t": "<b>小</b>学 (shougaku) — école primaire (petite école).",
+                              "n": "École primaire"
+                          },
+                          {
+                              "t": "<b>小</b>さい (chiisai) — petit (adjectif).",
+                              "n": "Petit"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_01",
+                      "isLetter": false,
+                      "letter": "日",
+                      "word": "日本",
+                      "emoji": "🇯🇵",
+                      "phonetic": "/nihon/",
+                      "translation": "Japon — <b>日本</b> signifie littéralement « origine du soleil » (pays du soleil levant).",
+                      "translations": {
+                          "ja": "日本",
+                          "fr": "Japon",
+                          "en": "Japan"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>日本</b>は美しいです。",
+                              "n": "Le Japon est beau."
+                          },
+                          {
+                              "t": "私は<b>日本</b>人です。",
+                              "n": "Je suis Japonais(e)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_02",
+                      "isLetter": false,
+                      "letter": "日",
+                      "word": "日曜日",
+                      "emoji": "📅",
+                      "phonetic": "/nichiyoubi/",
+                      "translation": "Dimanche — jour du <b>soleil</b> (日).",
+                      "translations": {
+                          "ja": "日曜日",
+                          "fr": "Dimanche",
+                          "en": "Sunday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>日曜日</b>に休みます。",
+                              "n": "Je me repose dimanche."
+                          },
+                          {
+                              "t": "今日は<b>日曜日</b>です。",
+                              "n": "Aujourd'hui c'est dimanche."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_03",
+                      "isLetter": false,
+                      "letter": "月",
+                      "word": "月曜日",
+                      "emoji": "📅",
+                      "phonetic": "/getsuyoubi/",
+                      "translation": "Lundi — jour de la <b>lune</b> (月).",
+                      "translations": {
+                          "ja": "月曜日",
+                          "fr": "Lundi",
+                          "en": "Monday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>月曜日</b>に働きます。",
+                              "n": "Je travaille lundi."
+                          },
+                          {
+                              "t": "明日は<b>月曜日</b>です。",
+                              "n": "Demain c'est lundi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_04",
+                      "isLetter": false,
+                      "letter": "火",
+                      "word": "火曜日",
+                      "emoji": "📅",
+                      "phonetic": "/kayoubi/",
+                      "translation": "Mardi — jour du <b>feu</b> (火).",
+                      "translations": {
+                          "ja": "火曜日",
+                          "fr": "Mardi",
+                          "en": "Tuesday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>火曜日</b>に会いましょう。",
+                              "n": "Rencontrons-nous mardi."
+                          },
+                          {
+                              "t": "今日は<b>火曜日</b>です。",
+                              "n": "Aujourd'hui c'est mardi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_05",
+                      "isLetter": false,
+                      "letter": "水",
+                      "word": "水曜日",
+                      "emoji": "📅",
+                      "phonetic": "/suiyoubi/",
+                      "translation": "Mercredi — jour de l'<b>eau</b> (水).",
+                      "translations": {
+                          "ja": "水曜日",
+                          "fr": "Mercredi",
+                          "en": "Wednesday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>水曜日</b>に日本語を勉強します。",
+                              "n": "J'étudie le japonais mercredi."
+                          },
+                          {
+                              "t": "今日は<b>水曜日</b>です。",
+                              "n": "Aujourd'hui c'est mercredi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_06",
+                      "isLetter": false,
+                      "letter": "木",
+                      "word": "木曜日",
+                      "emoji": "📅",
+                      "phonetic": "/mokuyoubi/",
+                      "translation": "Jeudi — jour de l'<b>arbre</b> (木).",
+                      "translations": {
+                          "ja": "木曜日",
+                          "fr": "Jeudi",
+                          "en": "Thursday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>木曜日</b>に映画を見ます。",
+                              "n": "Je regarde un film jeudi."
+                          },
+                          {
+                              "t": "今日は<b>木曜日</b>です。",
+                              "n": "Aujourd'hui c'est jeudi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_07",
+                      "isLetter": false,
+                      "letter": "金",
+                      "word": "金曜日",
+                      "emoji": "📅",
+                      "phonetic": "/kinyoubi/",
+                      "translation": "Vendredi — jour de l'<b>or</b> (金).",
+                      "translations": {
+                          "ja": "金曜日",
+                          "fr": "Vendredi",
+                          "en": "Friday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>金曜日</b>にパーティーがあります。",
+                              "n": "Il y a une fête vendredi."
+                          },
+                          {
+                              "t": "今日は<b>金曜日</b>です。",
+                              "n": "Aujourd'hui c'est vendredi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_08",
+                      "isLetter": false,
+                      "letter": "土",
+                      "word": "土曜日",
+                      "emoji": "📅",
+                      "phonetic": "/doyoubi/",
+                      "translation": "Samedi — jour de la <b>terre</b> (土).",
+                      "translations": {
+                          "ja": "土曜日",
+                          "fr": "Samedi",
+                          "en": "Saturday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>土曜日</b>に買い物に行きます。",
+                              "n": "Je vais faire les courses samedi."
+                          },
+                          {
+                              "t": "今日は<b>土曜日</b>です。",
+                              "n": "Aujourd'hui c'est samedi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_09",
+                      "isLetter": false,
+                      "letter": "人",
+                      "word": "一人",
+                      "emoji": "🧍",
+                      "phonetic": "/hitori/",
+                      "translation": "Une personne / seul(e) — <b>一</b> (un) + <b>人</b> (personne).",
+                      "translations": {
+                          "ja": "一人",
+                          "fr": "Une personne / seul(e)",
+                          "en": "One person / alone"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>一人</b>で行きます。",
+                              "n": "J'y vais seul(e)."
+                          },
+                          {
+                              "t": "<b>一人</b>暮らしです。",
+                              "n": "Je vis seul(e)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_10",
+                      "isLetter": false,
+                      "letter": "大",
+                      "word": "大学",
+                      "emoji": "🎓",
+                      "phonetic": "/daigaku/",
+                      "translation": "Université — <b>大</b> (grand) + 学 (école).",
+                      "translations": {
+                          "ja": "大学",
+                          "fr": "Université",
+                          "en": "University"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>大学</b>で勉強します。",
+                              "n": "J'étudie à l'université."
+                          },
+                          {
+                              "t": "京都<b>大学</b>に行きたいです。",
+                              "n": "Je veux aller à l'université de Kyoto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_11",
+                      "isLetter": false,
+                      "letter": "小",
+                      "word": "小さい",
+                      "emoji": "🐭",
+                      "phonetic": "/chiisai/",
+                      "translation": "Petit — <b>小</b> est le kanji pour petit.",
+                      "translations": {
+                          "ja": "小さい",
+                          "fr": "Petit",
+                          "en": "Small"
+                      },
+                      "examples": [
+                          {
+                              "t": "猫が<b>小さい</b>です。",
+                              "n": "Le chat est petit."
+                          },
+                          {
+                              "t": "<b>小さい</b>家に住んでいます。",
+                              "n": "J'habite dans une petite maison."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_12",
+                      "isLetter": false,
+                      "letter": "山",
+                      "word": "富士山",
+                      "emoji": "🗻",
+                      "phonetic": "/fujisan/",
+                      "translation": "Mont Fuji — <b>山</b> (montagne) est le dernier caractère.",
+                      "translations": {
+                          "ja": "富士山",
+                          "fr": "Mont Fuji",
+                          "en": "Mount Fuji"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>富士山</b>は高いです。",
+                              "n": "Le mont Fuji est haut."
+                          },
+                          {
+                              "t": "<b>富士山</b>を見たいです。",
+                              "n": "Je veux voir le mont Fuji."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
   // JA_IT
   // ──────────────────────────────────────────────────────
   ja_it: {
@@ -9741,6 +12403,5482 @@ const FLASHCARD_ALPHA = {
                           {
                               "t": "これは<b>小さい</b>猫です。",
                               "n": "Questo è un gatto piccolo."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // JA_PT
+  // ──────────────────────────────────────────────────────
+  ja_pt: {
+      "level": "A0",
+      "levelName": "Hiragana y Katakana",
+      "groups": [
+          {
+              "id": "ja_a0_g1",
+              "name": "Hiragana — parte 1",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "あ行 か行 さ行 た行 な行 — primeras 25 sílabas",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ja_a0_g1_L_a-row",
+                      "isLetter": true,
+                      "letter": "あいうえお",
+                      "word": "あいうえお",
+                      "emoji": "🔤",
+                      "phonetic": "/a i ɯ e o/",
+                      "translation": "Linha <b>あ</b> — as cinco vogais do japonês.<br><i>あ</i> (a), <i>い</i> (i), <i>う</i> (u), <i>え</i> (e), <i>お</i> (o).",
+                      "mnemonic": "あ parece um 'a' com um laço; い são dois traços como dedos; う é um 'u' com chapéu; え parece um 'e' com teto; お é um 'o' com um nó.",
+                      "examples": [
+                          {
+                              "t": "<b>あ</b> é a primeira letra do alfabeto.",
+                              "n": "A letra あ é como um 'a' com um laço."
+                          },
+                          {
+                              "t": "<b>い</b> é um 'i' com dois traços.",
+                              "n": "O som é como o 'i' do português."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_ka-row",
+                      "isLetter": true,
+                      "letter": "かきくけこ",
+                      "word": "かきくけこ",
+                      "emoji": "🔤",
+                      "phonetic": "/ka ki kɯ ke ko/",
+                      "translation": "Linha <b>か</b> — consoante K + vogais.<br><i>か</i> (ka), <i>き</i> (ki), <i>く</i> (ku), <i>け</i> (ke), <i>こ</i> (ko).",
+                      "mnemonic": "か parece um 'ka' com um laço; き é um 'ki' com uma espada; く é um bico de pássaro; け é um 'ke' com um telhado; こ são dois traços como um 'k' deitado.",
+                      "examples": [
+                          {
+                              "t": "<b>か</b> é a primeira letra da linha.",
+                              "n": "O som é como 'ca' em português."
+                          },
+                          {
+                              "t": "<b>き</b> é usado em <i>きれい</i> (bonito).",
+                              "n": "Exemplo: きれい significa 'bonito'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_sa-row",
+                      "isLetter": true,
+                      "letter": "さしすせそ",
+                      "word": "さしすせそ",
+                      "emoji": "🔤",
+                      "phonetic": "/sa ɕi sɯ se so/",
+                      "translation": "Linha <b>さ</b> — consoante S + vogais.<br><i>さ</i> (sa), <i>し</i> (shi), <i>す</i> (su), <i>せ</i> (se), <i>そ</i> (so).",
+                      "mnemonic": "さ parece um 'sa' com um corte; し é um anzol; す é um 'su' com um laço; せ é um 'se' com um rabo; そ é um 'so' com um zigue-zague.",
+                      "examples": [
+                          {
+                              "t": "<b>さ</b> é a primeira letra da linha.",
+                              "n": "O som é como 'sa' em português."
+                          },
+                          {
+                              "t": "<b>し</b> é usado em <i>さくら</i> (cerejeira).",
+                              "n": "Exemplo: さくら significa 'cerejeira'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_ta-row",
+                      "isLetter": true,
+                      "letter": "たちつてと",
+                      "word": "たちつてと",
+                      "emoji": "🔤",
+                      "phonetic": "/ta tɕi tsɯ te to/",
+                      "translation": "Linha <b>た</b> — consoante T + vogais.<br><i>た</i> (ta), <i>ち</i> (chi), <i>つ</i> (tsu), <i>て</i> (te), <i>と</i> (to).<br><span class='hl'>Atenção:</span> <i>ち</i> e <i>つ</i> são irregulares.",
+                      "mnemonic": "た parece um 'ta' com um laço; ち é um 'chi' com um laço; つ é um 'tsu' com um arco; て é um 'te' com um gancho; と é um 'to' com um laço.",
+                      "examples": [
+                          {
+                              "t": "<b>た</b> é a primeira letra da linha.",
+                              "n": "O som é como 'ta' em português."
+                          },
+                          {
+                              "t": "<b>つ</b> é usado em <i>つき</i> (lua).",
+                              "n": "Exemplo: つき significa 'lua'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_na-row",
+                      "isLetter": true,
+                      "letter": "なにぬねの",
+                      "word": "なにぬねの",
+                      "emoji": "🔤",
+                      "phonetic": "/na ɲi nɯ ne no/",
+                      "translation": "Linha <b>な</b> — consoante N + vogais.<br><i>な</i> (na), <i>に</i> (ni), <i>ぬ</i> (nu), <i>ね</i> (ne), <i>の</i> (no).",
+                      "mnemonic": "な parece um 'na' com um laço; に é um 'ni' com um traço; ぬ é um 'nu' com um laço; ね é um 'ne' com um rabo; の é um 'no' com um círculo.",
+                      "examples": [
+                          {
+                              "t": "<b>な</b> é a primeira letra da linha.",
+                              "n": "O som é como 'na' em português."
+                          },
+                          {
+                              "t": "<b>の</b> é uma partícula comum.",
+                              "n": "Exemplo: ねこ (gato) usa ね."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "あ",
+                      "word": "あさ",
+                      "emoji": "🌅",
+                      "phonetic": "/asa/",
+                      "translation": "<b>あさ</b> — manhã",
+                      "translations": {
+                          "ja": "あさ",
+                          "pt": "manhã",
+                          "en": "morning"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>あさ</b> に おきます。",
+                              "n": "Eu acordo de manhã."
+                          },
+                          {
+                              "t": "あさ は しずか です。",
+                              "n": "A manhã é tranquila."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "き",
+                      "word": "きく",
+                      "emoji": "👂",
+                      "phonetic": "/kiku/",
+                      "translation": "<b>きく</b> — ouvir, escutar",
+                      "translations": {
+                          "ja": "きく",
+                          "pt": "ouvir",
+                          "en": "to listen"
+                      },
+                      "examples": [
+                          {
+                              "t": "おんがく を <b>きく</b>。",
+                              "n": "Eu ouço música."
+                          },
+                          {
+                              "t": "こえ が きこえます。",
+                              "n": "Eu posso ouvir uma voz."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "す",
+                      "word": "すし",
+                      "emoji": "🍣",
+                      "phonetic": "/sɯɕi/",
+                      "translation": "<b>すし</b> — sushi",
+                      "translations": {
+                          "ja": "すし",
+                          "pt": "sushi",
+                          "en": "sushi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>すし</b> が すき です。",
+                              "n": "Eu gosto de sushi."
+                          },
+                          {
+                              "t": "すし を たべます。",
+                              "n": "Eu como sushi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "た",
+                      "word": "たべる",
+                      "emoji": "🍽️",
+                      "phonetic": "/tapeɾɯ/",
+                      "translation": "<b>たべる</b> — comer",
+                      "translations": {
+                          "ja": "たべる",
+                          "pt": "comer",
+                          "en": "to eat"
+                      },
+                      "examples": [
+                          {
+                              "t": "りんご を <b>たべる</b>。",
+                              "n": "Eu como uma maçã."
+                          },
+                          {
+                              "t": "すし を たべたい。",
+                              "n": "Eu quero comer sushi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "ね",
+                      "word": "ねる",
+                      "emoji": "😴",
+                      "phonetic": "/neɾɯ/",
+                      "translation": "<b>ねる</b> — dormir",
+                      "translations": {
+                          "ja": "ねる",
+                          "pt": "dormir",
+                          "en": "to sleep"
+                      },
+                      "examples": [
+                          {
+                              "t": "よる に <b>ねる</b>。",
+                              "n": "Eu durmo à noite."
+                          },
+                          {
+                              "t": "ねむい です。",
+                              "n": "Estou com sono."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g2",
+              "name": "Hiragana — parte 2",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "は行 ま行 や行 ら行 わ行 ん + dakuten",
+              "reviewFrom": [
+                  "ja_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g2_L_ha",
+                      "isLetter": true,
+                      "letter": "は",
+                      "word": "は",
+                      "emoji": "🔤",
+                      "phonetic": "/ha/",
+                      "translation": "Som <b>ha</b> — como em <i>hash</i> em inglês, mas curto.<br>Parece uma <span class=\"hl\">árvore</span> com um galho à esquerda.",
+                      "mnemonic": "Parece uma pessoa com um chapéu grande — o traço da esquerda é o braço levantado.",
+                      "examples": [
+                          {
+                              "t": "<b>は</b> é a primeira letra de <b>はな</b> (flor).",
+                              "n": "A letra ha abre a palavra flor."
+                          },
+                          {
+                              "t": "Usada como partícula de tópico: <b>は</b> (wa).",
+                              "n": "Quando é partícula, lê-se wa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ma",
+                      "isLetter": true,
+                      "letter": "ま",
+                      "word": "ま",
+                      "emoji": "🔤",
+                      "phonetic": "/ma/",
+                      "translation": "Som <b>ma</b> — como <i>mãe</i> sem nasalização.<br>Parece um <span class=\"hl\">cavalo</span> com pernas cruzadas.",
+                      "mnemonic": "O traço superior parece uma crina de cavalo — e o resto são as pernas.",
+                      "examples": [
+                          {
+                              "t": "<b>ま</b> começa <b>ま</b> (ma) — palavra antiga para 'verdade'? Não, é só um som.",
+                              "n": "Foco no som e formato."
+                          },
+                          {
+                              "t": "Em <b>ま</b>tsuri (festival), aparece esta letra.",
+                              "n": "Matsuri é um festival japonês."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ya",
+                      "isLetter": true,
+                      "letter": "や",
+                      "word": "や",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Som <b>ya</b> — como <i>iá</i> em português.<br>Parece um <span class=\"hl\">ia-te</span> (iate) com vela.",
+                      "mnemonic": "O traço curvo parece a vela de um barco — e iate começa com ya.",
+                      "examples": [
+                          {
+                              "t": "<b>や</b> é usado em <b>や</b>ma (montanha).",
+                              "n": "Yama é montanha."
+                          },
+                          {
+                              "t": "Versão pequena ゃ é usada para sons combinados.",
+                              "n": "Ex: きゃ (kya)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ra",
+                      "isLetter": true,
+                      "letter": "ら",
+                      "word": "ら",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾa/",
+                      "translation": "Som <b>ra</b> — um <i>r</i> leve, entre R e L (flap).<br>Parece um <span class=\"hl\">rato</span> de perfil.",
+                      "mnemonic": "O traço inclinado parece um rabo de rato — e rato começa com ra.",
+                      "examples": [
+                          {
+                              "t": "<b>ら</b> aparece em <b>ら</b>men (macarrão japonês).",
+                              "n": "Ramen é um prato famoso."
+                          },
+                          {
+                              "t": "O som é como o 'r' em 'caro' no português do Brasil.",
+                              "n": "Flap alveolar, não vibrante."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_wa",
+                      "isLetter": true,
+                      "letter": "わ",
+                      "word": "わ",
+                      "emoji": "🔤",
+                      "phonetic": "/wa/",
+                      "translation": "Som <b>wa</b> — como <i>uá</i> em português.<br>Parece um <span class=\"hl\">waffle</span> visto de lado.",
+                      "mnemonic": "O traço arredondado parece um waffle — e waffle começa com wa.",
+                      "examples": [
+                          {
+                              "t": "<b>わ</b> começa <b>わ</b>たし (eu).",
+                              "n": "Watashi significa eu."
+                          },
+                          {
+                              "t": "Não confunda com は (ha) — わ é sempre wa.",
+                              "n": "は como partícula lê-se wa, mas escreve-se は."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "ん",
+                      "word": "ん",
+                      "emoji": "🔤",
+                      "phonetic": "/n/ (ou /m/ antes de p/b)",
+                      "translation": "Som <b>n</b> — nasal, como <i>n</i> em 'santo'.<br>Parece um <span class=\"hl\">n</span> minúsculo com um rabinho.",
+                      "mnemonic": "Parece a letra n com um gancho — é o único som nasal sozinho.",
+                      "examples": [
+                          {
+                              "t": "<b>ん</b> é a única consoante que pode terminar uma palavra.",
+                              "n": "Ex: にほん (Japão)."
+                          },
+                          {
+                              "t": "Antes de p/b, vira m: しんぶん (shimbun/jornal).",
+                              "n": "Regra de pronúncia."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_dakuten",
+                      "isLetter": true,
+                      "letter": "゛",
+                      "word": "゛",
+                      "emoji": "🔤",
+                      "phonetic": "/dakuten/",
+                      "translation": "Dakuten (゛) — adiciona <b>voz</b> ao som.<br>Ex: か (ka) → が (ga).<br>Handakuten (゜) — adiciona <b>p</b>: は (ha) → ぱ (pa).",
+                      "mnemonic": "Duas marquinhas = som 'pesado' (voz). Bolinha = som 'p' leve.",
+                      "examples": [
+                          {
+                              "t": "か → <b>が</b> (ga) — som com vibração nas cordas vocais.",
+                              "n": "Dakuten = voz."
+                          },
+                          {
+                              "t": "は → <b>ぱ</b> (pa) — handakuten vira p.",
+                              "n": "Bolinha = p."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "は",
+                      "word": "はな",
+                      "emoji": "🌸",
+                      "phonetic": "/hana/",
+                      "translation": "<b>Flor</b> — <i>ha</i> + <i>na</i>",
+                      "translations": {
+                          "ja": "はな",
+                          "pt": "flor",
+                          "en": "flower"
+                      },
+                      "examples": [
+                          {
+                              "t": "これは <b>はな</b> です。",
+                              "n": "Isto é uma flor."
+                          },
+                          {
+                              "t": "<b>はな</b> が きれい です。",
+                              "n": "A flor é bonita."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "み",
+                      "word": "みず",
+                      "emoji": "💧",
+                      "phonetic": "/mizu/",
+                      "translation": "<b>Água</b> — <i>mi</i> + <i>zu</i> (com dakuten)",
+                      "translations": {
+                          "ja": "みず",
+                          "pt": "água",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>みず</b> を ください。",
+                              "n": "Água, por favor."
+                          },
+                          {
+                              "t": "この <b>みず</b> は つめたい。",
+                              "n": "Esta água está fria."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "や",
+                      "word": "やま",
+                      "emoji": "🏔️",
+                      "phonetic": "/jama/",
+                      "translation": "<b>Montanha</b> — <i>ya</i> + <i>ma</i>",
+                      "translations": {
+                          "ja": "やま",
+                          "pt": "montanha",
+                          "en": "mountain"
+                      },
+                      "examples": [
+                          {
+                              "t": "ふじ <b>やま</b> は たかい。",
+                              "n": "O Monte Fuji é alto."
+                          },
+                          {
+                              "t": "<b>やま</b> に いく。",
+                              "n": "Vou à montanha."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "ら",
+                      "word": "られる",
+                      "emoji": "💪",
+                      "phonetic": "/raɾeru/",
+                      "translation": "<b>Poder fazer</b> — forma potencial de verbos",
+                      "translations": {
+                          "ja": "られる",
+                          "pt": "poder fazer",
+                          "en": "can do"
+                      },
+                      "examples": [
+                          {
+                              "t": "にほんご が <b>はなせる</b> ように なりたい。",
+                              "n": "Quero conseguir falar japonês. (exemplo com forma potencial)"
+                          },
+                          {
+                              "t": "これ は <b>たべられる</b>。",
+                              "n": "Isto pode ser comido."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "わ",
+                      "word": "わたし",
+                      "emoji": "🙋",
+                      "phonetic": "/watashi/",
+                      "translation": "<b>Eu</b> — pronome pessoal",
+                      "translations": {
+                          "ja": "わたし",
+                          "pt": "eu",
+                          "en": "I/me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>わたし</b> は がくせい です。",
+                              "n": "Eu sou estudante."
+                          },
+                          {
+                              "t": "<b>わたし</b> の なまえ は アナ です。",
+                              "n": "Meu nome é Ana."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "り",
+                      "word": "ありがとう",
+                      "emoji": "🙏",
+                      "phonetic": "/aɾiga-toː/",
+                      "translation": "<b>Obrigado(a)</b> — expressão de gratidão",
+                      "translations": {
+                          "ja": "ありがとう",
+                          "pt": "obrigado(a)",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ありがとう</b> ございます。",
+                              "n": "Muito obrigado (formal)."
+                          },
+                          {
+                              "t": "たすけてくれて <b>ありがとう</b>。",
+                              "n": "Obrigado por me ajudar."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "に",
+                      "word": "にほん",
+                      "emoji": "🇯🇵",
+                      "phonetic": "/nihon/",
+                      "translation": "<b>Japão</b> — <i>ni</i> + <i>hon</i> (origem: 'país do sol nascente')",
+                      "translations": {
+                          "ja": "にほん",
+                          "pt": "Japão",
+                          "en": "Japan"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>にほん</b> に いきたい。",
+                              "n": "Quero ir ao Japão."
+                          },
+                          {
+                              "t": "<b>にほん</b> の たべもの は おいしい。",
+                              "n": "A comida do Japão é deliciosa."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g3",
+              "name": "Katakana — parte 1",
+              "icon": "🔠",
+              "color": "#10b981",
+              "description": "ア行 カ行 サ行 タ行 ナ行 — comparando con hiragana",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "ア",
+                      "word": "ア",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "<b>ア</b> = <i>a</i> (igual que あ)<br>Som: <b>/a/</b> — como em <i>paz</i>",
+                      "mnemonic": "O ア parece um 'A' com um braço esticado para a direita.",
+                      "examples": [
+                          {
+                              "t": "<b>ア</b> é o katakana de <b>あ</b>.<br>Ambos som <i>/a/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ア</b>メリカ (América)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "イ",
+                      "word": "イ",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "<b>イ</b> = <i>i</i> (igual que い)<br>Som: <b>/i/</b> — como em <i>vida</i>",
+                      "mnemonic": "O イ parece um 'I' com um risco à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>イ</b> é o katakana de <b>い</b>.<br>Ambos som <i>/i/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>イ</b>タリア (Itália)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_u",
+                      "isLetter": true,
+                      "letter": "ウ",
+                      "word": "ウ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɯ/",
+                      "translation": "<b>ウ</b> = <i>u</i> (igual que う)<br>Som: <b>/u/</b> — como em <i>uva</i>",
+                      "mnemonic": "O ウ parece um 'u' de cabeça para baixo com um teto.",
+                      "examples": [
+                          {
+                              "t": "<b>ウ</b> é o katakana de <b>う</b>.<br>Ambos som <i>/u/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ウ</b>イスキー (uísque)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "エ",
+                      "word": "エ",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "<b>エ</b> = <i>e</i> (igual que え)<br>Som: <b>/e/</b> — como em <i>pé</i>",
+                      "mnemonic": "O エ parece um 'E' com um risco no meio.",
+                      "examples": [
+                          {
+                              "t": "<b>エ</b> é o katakana de <b>え</b>.<br>Ambos som <i>/e/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>エ</b>レベーター (elevador)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "オ",
+                      "word": "オ",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "<b>オ</b> = <i>o</i> (igual que お)<br>Som: <b>/o/</b> — como em <i>ovo</i>",
+                      "mnemonic": "O オ parece um 'o' com um risco vertical à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>オ</b> é o katakana de <b>お</b>.<br>Ambos som <i>/o/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>オ</b>ーストラリア (Austrália)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ka",
+                      "isLetter": true,
+                      "letter": "カ",
+                      "word": "カ",
+                      "emoji": "🔤",
+                      "phonetic": "/ka/",
+                      "translation": "<b>カ</b> = <i>ka</i> (igual que か)<br>Som: <b>/ka/</b> — como em <i>casa</i>",
+                      "mnemonic": "O カ parece um 'k' com um risco à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>カ</b> é o katakana de <b>か</b>.<br>Ambos som <i>/ka/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>カ</b>メラ (câmera)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ki",
+                      "isLetter": true,
+                      "letter": "キ",
+                      "word": "キ",
+                      "emoji": "🔤",
+                      "phonetic": "/ki/",
+                      "translation": "<b>キ</b> = <i>ki</i> (igual que き)<br>Som: <b>/ki/</b> — como em <i>quiabo</i>",
+                      "mnemonic": "O キ parece um 'k' com dois riscos à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>キ</b> é o katakana de <b>き</b>.<br>Ambos som <i>/ki/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>キ</b>ロ (quilo)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ku",
+                      "isLetter": true,
+                      "letter": "ク",
+                      "word": "ク",
+                      "emoji": "🔤",
+                      "phonetic": "/kɯ/",
+                      "translation": "<b>ク</b> = <i>ku</i> (igual que く)<br>Som: <b>/ku/</b> — como em <i>cuco</i>",
+                      "mnemonic": "O ク parece um '<' com um risco à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>ク</b> é o katakana de <b>く</b>.<br>Ambos som <i>/ku/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ク</b>リスマス (Natal)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ke",
+                      "isLetter": true,
+                      "letter": "ケ",
+                      "word": "ケ",
+                      "emoji": "🔤",
+                      "phonetic": "/ke/",
+                      "translation": "<b>ケ</b> = <i>ke</i> (igual que け)<br>Som: <b>/ke/</b> — como em <i>queijo</i>",
+                      "mnemonic": "O ケ parece um 'k' com um risco à esquerda.",
+                      "examples": [
+                          {
+                              "t": "<b>ケ</b> é o katakana de <b>け</b>.<br>Ambos som <i>/ke/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ケ</b>ーキ (bolo)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ko",
+                      "isLetter": true,
+                      "letter": "コ",
+                      "word": "コ",
+                      "emoji": "🔤",
+                      "phonetic": "/ko/",
+                      "translation": "<b>コ</b> = <i>ko</i> (igual que こ)<br>Som: <b>/ko/</b> — como em <i>copo</i>",
+                      "mnemonic": "O コ parece um 'k' com dois riscos à esquerda.",
+                      "examples": [
+                          {
+                              "t": "<b>コ</b> é o katakana de <b>こ</b>.<br>Ambos som <i>/ko/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>コ</b>ーラ (cola)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_sa",
+                      "isLetter": true,
+                      "letter": "サ",
+                      "word": "サ",
+                      "emoji": "🔤",
+                      "phonetic": "/sa/",
+                      "translation": "<b>サ</b> = <i>sa</i> (igual que さ)<br>Som: <b>/sa/</b> — como em <i>sapo</i>",
+                      "mnemonic": "O サ parece um 's' com um risco à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>サ</b> é o katakana de <b>さ</b>.<br>Ambos som <i>/sa/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>サ</b>ラダ (salada)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_shi",
+                      "isLetter": true,
+                      "letter": "シ",
+                      "word": "シ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕi/",
+                      "translation": "<b>シ</b> = <i>shi</i> (igual que し)<br>Som: <b>/shi/</b> — como em <i>chave</i>",
+                      "mnemonic": "O シ parece um 's' com dois riscos à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>シ</b> é o katakana de <b>し</b>.<br>Ambos som <i>/shi/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>シ</b>ャツ (camisa)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_su",
+                      "isLetter": true,
+                      "letter": "ス",
+                      "word": "ス",
+                      "emoji": "🔤",
+                      "phonetic": "/sɯ/",
+                      "translation": "<b>ス</b> = <i>su</i> (igual que す)<br>Som: <b>/su/</b> — como em <i>suco</i>",
+                      "mnemonic": "O ス parece um 's' com um risco à esquerda.",
+                      "examples": [
+                          {
+                              "t": "<b>ス</b> é o katakana de <b>す</b>.<br>Ambos som <i>/su/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ス</b>ープ (sopa)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_se",
+                      "isLetter": true,
+                      "letter": "セ",
+                      "word": "セ",
+                      "emoji": "🔤",
+                      "phonetic": "/se/",
+                      "translation": "<b>セ</b> = <i>se</i> (igual que せ)<br>Som: <b>/se/</b> — como em <i>seda</i>",
+                      "mnemonic": "O セ parece um 's' com um risco no meio.",
+                      "examples": [
+                          {
+                              "t": "<b>セ</b> é o katakana de <b>せ</b>.<br>Ambos som <i>/se/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>セ</b>ンター (centro)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_so",
+                      "isLetter": true,
+                      "letter": "ソ",
+                      "word": "ソ",
+                      "emoji": "🔤",
+                      "phonetic": "/so/",
+                      "translation": "<b>ソ</b> = <i>so</i> (igual que そ)<br>Som: <b>/so/</b> — como em <i>sopa</i>",
+                      "mnemonic": "O ソ parece um 's' com dois riscos à esquerda.",
+                      "examples": [
+                          {
+                              "t": "<b>ソ</b> é o katakana de <b>そ</b>.<br>Ambos som <i>/so/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ソ</b>ファ (sofá)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ta",
+                      "isLetter": true,
+                      "letter": "タ",
+                      "word": "タ",
+                      "emoji": "🔤",
+                      "phonetic": "/ta/",
+                      "translation": "<b>タ</b> = <i>ta</i> (igual que た)<br>Som: <b>/ta/</b> — como em <i>tatu</i>",
+                      "mnemonic": "O タ parece um 't' com um risco à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>タ</b> é o katakana de <b>た</b>.<br>Ambos som <i>/ta/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>タ</b>クシー (táxi)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_chi",
+                      "isLetter": true,
+                      "letter": "チ",
+                      "word": "チ",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕi/",
+                      "translation": "<b>チ</b> = <i>chi</i> (igual que ち)<br>Som: <b>/tchi/</b> — como em <i>tchau</i>",
+                      "mnemonic": "O チ parece um 't' com um risco no meio.",
+                      "examples": [
+                          {
+                              "t": "<b>チ</b> é o katakana de <b>ち</b>.<br>Ambos som <i>/tchi/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>チ</b>ーズ (queijo)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_tsu",
+                      "isLetter": true,
+                      "letter": "ツ",
+                      "word": "ツ",
+                      "emoji": "🔤",
+                      "phonetic": "/tsɯ/",
+                      "translation": "<b>ツ</b> = <i>tsu</i> (igual que つ)<br>Som: <b>/tsu/</b> — como em <i>tsunami</i>",
+                      "mnemonic": "O ツ parece um 't' com dois riscos à esquerda.",
+                      "examples": [
+                          {
+                              "t": "<b>ツ</b> é o katakana de <b>つ</b>.<br>Ambos som <i>/tsu/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ツ</b>アー (tour)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_te",
+                      "isLetter": true,
+                      "letter": "テ",
+                      "word": "テ",
+                      "emoji": "🔤",
+                      "phonetic": "/te/",
+                      "translation": "<b>テ</b> = <i>te</i> (igual que て)<br>Som: <b>/te/</b> — como em <i>teto</i>",
+                      "mnemonic": "O テ parece um 't' com um risco à esquerda.",
+                      "examples": [
+                          {
+                              "t": "<b>テ</b> é o katakana de <b>て</b>.<br>Ambos som <i>/te/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>テ</b>ニス (tênis)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_to",
+                      "isLetter": true,
+                      "letter": "ト",
+                      "word": "ト",
+                      "emoji": "🔤",
+                      "phonetic": "/to/",
+                      "translation": "<b>ト</b> = <i>to</i> (igual que と)<br>Som: <b>/to/</b> — como em <i>torta</i>",
+                      "mnemonic": "O ト parece um 't' com um risco à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>ト</b> é o katakana de <b>と</b>.<br>Ambos som <i>/to/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ト</b>マト (tomate)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_na",
+                      "isLetter": true,
+                      "letter": "ナ",
+                      "word": "ナ",
+                      "emoji": "🔤",
+                      "phonetic": "/na/",
+                      "translation": "<b>ナ</b> = <i>na</i> (igual que な)<br>Som: <b>/na/</b> — como em <i>nada</i>",
+                      "mnemonic": "O ナ parece um 'n' com um risco à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>ナ</b> é o katakana de <b>な</b>.<br>Ambos som <i>/na/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ナ</b>イフ (faca)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ni",
+                      "isLetter": true,
+                      "letter": "ニ",
+                      "word": "ニ",
+                      "emoji": "🔤",
+                      "phonetic": "/ni/",
+                      "translation": "<b>ニ</b> = <i>ni</i> (igual que に)<br>Som: <b>/ni/</b> — como em <i>ninho</i>",
+                      "mnemonic": "O ニ parece um 'n' com dois riscos à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>ニ</b> é o katakana de <b>に</b>.<br>Ambos som <i>/ni/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ニ</b>ュース (notícias)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_nu",
+                      "isLetter": true,
+                      "letter": "ヌ",
+                      "word": "ヌ",
+                      "emoji": "🔤",
+                      "phonetic": "/nɯ/",
+                      "translation": "<b>ヌ</b> = <i>nu</i> (igual que ぬ)<br>Som: <b>/nu/</b> — como em <i>nuvem</i>",
+                      "mnemonic": "O ヌ parece um 'n' com um risco à esquerda.",
+                      "examples": [
+                          {
+                              "t": "<b>ヌ</b> é o katakana de <b>ぬ</b>.<br>Ambos som <i>/nu/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ヌ</b>ードル (macarrão)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ne",
+                      "isLetter": true,
+                      "letter": "ネ",
+                      "word": "ネ",
+                      "emoji": "🔤",
+                      "phonetic": "/ne/",
+                      "translation": "<b>ネ</b> = <i>ne</i> (igual que ね)<br>Som: <b>/ne/</b> — como em <i>nervo</i>",
+                      "mnemonic": "O ネ parece um 'n' com um risco no meio.",
+                      "examples": [
+                          {
+                              "t": "<b>ネ</b> é o katakana de <b>ね</b>.<br>Ambos som <i>/ne/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ネ</b>クタイ (gravata)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_no",
+                      "isLetter": true,
+                      "letter": "ノ",
+                      "word": "ノ",
+                      "emoji": "🔤",
+                      "phonetic": "/no/",
+                      "translation": "<b>ノ</b> = <i>no</i> (igual que の)<br>Som: <b>/no/</b> — como em <i>nó</i>",
+                      "mnemonic": "O ノ parece um 'n' com um risco à direita.",
+                      "examples": [
+                          {
+                              "t": "<b>ノ</b> é o katakana de <b>の</b>.<br>Ambos som <i>/no/</i>",
+                              "n": "Ambos representam o mesmo som."
+                          },
+                          {
+                              "t": "Palavra: <b>ノ</b>ート (caderno)",
+                              "n": "Exemplo de uso em palavra estrangeira."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "コ",
+                      "word": "コーヒー",
+                      "emoji": "☕",
+                      "phonetic": "/koːçiː/",
+                      "translation": "<b>café</b> — do holandês <i>koffie</i>",
+                      "translations": {
+                          "ja": "コーヒー",
+                          "pt": "café",
+                          "en": "coffee"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>コーヒー</b>を飲みます。",
+                              "n": "Eu bebo café."
+                          },
+                          {
+                              "t": "この<b>コーヒー</b>はおいしいです。",
+                              "n": "Este café é delicioso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "テ",
+                      "word": "テレビ",
+                      "emoji": "📺",
+                      "phonetic": "/teɾebi/",
+                      "translation": "<b>televisão</b> — abreviação de <i>television</i>",
+                      "translations": {
+                          "ja": "テレビ",
+                          "pt": "televisão",
+                          "en": "TV"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>テレビ</b>を見ます。",
+                              "n": "Eu assisto TV."
+                          },
+                          {
+                              "t": "<b>テレビ</b>が好きです。",
+                              "n": "Eu gosto de TV."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "ア",
+                      "word": "アイスクリーム",
+                      "emoji": "🍨",
+                      "phonetic": "/aisɯkɯɾiːmɯ/",
+                      "translation": "<b>sorvete</b> — do inglês <i>ice cream</i>",
+                      "translations": {
+                          "ja": "アイスクリーム",
+                          "pt": "sorvete",
+                          "en": "ice cream"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>アイスクリーム</b>を食べます。",
+                              "n": "Eu como sorvete."
+                          },
+                          {
+                              "t": "<b>アイスクリーム</b>は冷たいです。",
+                              "n": "Sorvete é gelado."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "タ",
+                      "word": "タクシー",
+                      "emoji": "🚕",
+                      "phonetic": "/takɯɕiː/",
+                      "translation": "<b>táxi</b> — do inglês <i>taxi</i>",
+                      "translations": {
+                          "ja": "タクシー",
+                          "pt": "táxi",
+                          "en": "taxi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>タクシー</b>に乗ります。",
+                              "n": "Eu pego um táxi."
+                          },
+                          {
+                              "t": "<b>タクシー</b>は速いです。",
+                              "n": "O táxi é rápido."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "ニ",
+                      "word": "ニュース",
+                      "emoji": "📰",
+                      "phonetic": "/nʲɯːsɯ/",
+                      "translation": "<b>notícias</b> — do inglês <i>news</i>",
+                      "translations": {
+                          "ja": "ニュース",
+                          "pt": "notícias",
+                          "en": "news"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ニュース</b>を見ます。",
+                              "n": "Eu assisto as notícias."
+                          },
+                          {
+                              "t": "<b>ニュース</b>を聞きます。",
+                              "n": "Eu ouço as notícias."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g4",
+              "name": "Katakana — parte 2",
+              "icon": "🔣",
+              "color": "#ef4444",
+              "description": "ハ行 マ行 ヤ行 ラ行 ワ行 + préstamos",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2",
+                  "ja_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g4_L_ha",
+                      "isLetter": true,
+                      "letter": "ハ",
+                      "word": "ハ",
+                      "emoji": "🔤",
+                      "phonetic": "/ha/",
+                      "translation": "Nome: <b>ハ</b> (ha) — som de <i>'rrá'</i> como em 'rapaz' (mas sem vibrar).<br>Parece um <span class='hl'>'ha'</span> com um traço extra.",
+                      "mnemonic": "Visual: parece um 'ha' minúsculo com um chapéu.",
+                      "examples": [
+                          {
+                              "t": "ハは「ha」です。<br><b>ハ</b> = ha",
+                              "n": "Ha é 'ha'."
+                          },
+                          {
+                              "t": "ハンバーガー (hanbāgā) — hambúrguer",
+                              "n": "Palavra comum com ハ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_hi",
+                      "isLetter": true,
+                      "letter": "ヒ",
+                      "word": "ヒ",
+                      "emoji": "🔤",
+                      "phonetic": "/çi/",
+                      "translation": "Nome: <b>ヒ</b> (hi) — som de <i>'ri'</i> como em 'riso', mas mais suave.<br>Parece um <span class='hl'>'hi'</span> com um sorriso.",
+                      "mnemonic": "Visual: parece um 'hi' com um sorriso aberto.",
+                      "examples": [
+                          {
+                              "t": "ヒは「hi」です。<br><b>ヒ</b> = hi",
+                              "n": "Hi é 'hi'."
+                          },
+                          {
+                              "t": "ヒーター (hītā) — aquecedor",
+                              "n": "Palavra comum com ヒ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_fu",
+                      "isLetter": true,
+                      "letter": "フ",
+                      "word": "フ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɸɯ/",
+                      "translation": "Nome: <b>フ</b> (fu) — som de <i>'fu'</i> como em 'fumaça' (sem vibrar).<br>Parece um <span class='hl'>'fu'</span> com um rabo.",
+                      "mnemonic": "Visual: parece um 'fu' com uma cauda para baixo.",
+                      "examples": [
+                          {
+                              "t": "フは「fu」です。<br><b>フ</b> = fu",
+                              "n": "Fu é 'fu'."
+                          },
+                          {
+                              "t": "フルーツ (furūtsu) — fruta",
+                              "n": "Palavra comum com フ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_he",
+                      "isLetter": true,
+                      "letter": "ヘ",
+                      "word": "ヘ",
+                      "emoji": "🔤",
+                      "phonetic": "/he/",
+                      "translation": "Nome: <b>ヘ</b> (he) — som de <i>'rré'</i> como em 'rede' (sem vibrar).<br>Parece um <span class='hl'>'he'</span> com um chapéu.",
+                      "mnemonic": "Visual: parece um 'he' com um chapéu pontudo.",
+                      "examples": [
+                          {
+                              "t": "ヘは「he」です。<br><b>ヘ</b> = he",
+                              "n": "He é 'he'."
+                          },
+                          {
+                              "t": "ヘリコプター (herikoputā) — helicóptero",
+                              "n": "Palavra comum com ヘ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ho",
+                      "isLetter": true,
+                      "letter": "ホ",
+                      "word": "ホ",
+                      "emoji": "🔤",
+                      "phonetic": "/ho/",
+                      "translation": "Nome: <b>ホ</b> (ho) — som de <i>'rró'</i> como em 'roda' (sem vibrar).<br>Parece um <span class='hl'>'ho'</span> com um cinto.",
+                      "mnemonic": "Visual: parece um 'ho' com um cinto na horizontal.",
+                      "examples": [
+                          {
+                              "t": "ホは「ho」です。<br><b>ホ</b> = ho",
+                              "n": "Ho é 'ho'."
+                          },
+                          {
+                              "t": "ホテル (hoteru) — hotel",
+                              "n": "Palavra comum com ホ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ma",
+                      "isLetter": true,
+                      "letter": "マ",
+                      "word": "マ",
+                      "emoji": "🔤",
+                      "phonetic": "/ma/",
+                      "translation": "Nome: <b>マ</b> (ma) — som de <i>'ma'</i> como em 'mãe'.<br>Parece um <span class='hl'>'ma'</span> com um X.",
+                      "mnemonic": "Visual: parece um 'ma' com um X no meio.",
+                      "examples": [
+                          {
+                              "t": "マは「ma」です。<br><b>マ</b> = ma",
+                              "n": "Ma é 'ma'."
+                          },
+                          {
+                              "t": "マンゴー (mangō) — manga",
+                              "n": "Palavra comum com マ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mi",
+                      "isLetter": true,
+                      "letter": "ミ",
+                      "word": "ミ",
+                      "emoji": "🔤",
+                      "phonetic": "/mi/",
+                      "translation": "Nome: <b>ミ</b> (mi) — som de <i>'mi'</i> como em 'mito'.<br>Parece um <span class='hl'>'mi'</span> com duas linhas.",
+                      "mnemonic": "Visual: parece um 'mi' com dois traços inclinados.",
+                      "examples": [
+                          {
+                              "t": "ミは「mi」です。<br><b>ミ</b> = mi",
+                              "n": "Mi é 'mi'."
+                          },
+                          {
+                              "t": "ミルク (miruku) — leite",
+                              "n": "Palavra comum com ミ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mu",
+                      "isLetter": true,
+                      "letter": "ム",
+                      "word": "ム",
+                      "emoji": "🔤",
+                      "phonetic": "/mɯ/",
+                      "translation": "Nome: <b>ム</b> (mu) — som de <i>'mu'</i> como em 'mula'.<br>Parece um <span class='hl'>'mu'</span> com um rabo.",
+                      "mnemonic": "Visual: parece um 'mu' com uma cauda para cima.",
+                      "examples": [
+                          {
+                              "t": "ムは「mu」です。<br><b>ム</b> = mu",
+                              "n": "Mu é 'mu'."
+                          },
+                          {
+                              "t": "ムード (mūdo) — clima, humor",
+                              "n": "Palavra comum com ム."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_me",
+                      "isLetter": true,
+                      "letter": "メ",
+                      "word": "メ",
+                      "emoji": "🔤",
+                      "phonetic": "/me/",
+                      "translation": "Nome: <b>メ</b> (me) — som de <i>'mé'</i> como em 'médico'.<br>Parece um <span class='hl'>'me'</span> com um X.",
+                      "mnemonic": "Visual: parece um 'me' com um X no final.",
+                      "examples": [
+                          {
+                              "t": "メは「me」です。<br><b>メ</b> = me",
+                              "n": "Me é 'me'."
+                          },
+                          {
+                              "t": "メール (mēru) — e-mail",
+                              "n": "Palavra comum com メ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mo",
+                      "isLetter": true,
+                      "letter": "モ",
+                      "word": "モ",
+                      "emoji": "🔤",
+                      "phonetic": "/mo/",
+                      "translation": "Nome: <b>モ</b> (mo) — som de <i>'mó'</i> como em 'moda'.<br>Parece um <span class='hl'>'mo'</span> com um X.",
+                      "mnemonic": "Visual: parece um 'mo' com um X no topo.",
+                      "examples": [
+                          {
+                              "t": "モは「mo」です。<br><b>モ</b> = mo",
+                              "n": "Mo é 'mo'."
+                          },
+                          {
+                              "t": "モーター (mōtā) — motor",
+                              "n": "Palavra comum com モ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ya",
+                      "isLetter": true,
+                      "letter": "ヤ",
+                      "word": "ヤ",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Nome: <b>ヤ</b> (ya) — som de <i>'iá'</i> como em 'iate'.<br>Parece um <span class='hl'>'ya'</span> com um rabo.",
+                      "mnemonic": "Visual: parece um 'ya' com uma cauda para baixo.",
+                      "examples": [
+                          {
+                              "t": "ヤは「ya」です。<br><b>ヤ</b> = ya",
+                              "n": "Ya é 'ya'."
+                          },
+                          {
+                              "t": "ヤクルト (yakuruto) — iogurte probiótico",
+                              "n": "Palavra comum com ヤ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_yu",
+                      "isLetter": true,
+                      "letter": "ユ",
+                      "word": "ユ",
+                      "emoji": "🔤",
+                      "phonetic": "/jɯ/",
+                      "translation": "Nome: <b>ユ</b> (yu) — som de <i>'iu'</i> como em 'iugoslavo'.<br>Parece um <span class='hl'>'yu'</span> com um gancho.",
+                      "mnemonic": "Visual: parece um 'yu' com um gancho para cima.",
+                      "examples": [
+                          {
+                              "t": "ユは「yu」です。<br><b>ユ</b> = yu",
+                              "n": "Yu é 'yu'."
+                          },
+                          {
+                              "t": "ユニーク (yunīku) — único, original",
+                              "n": "Palavra comum com ユ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_yo",
+                      "isLetter": true,
+                      "letter": "ヨ",
+                      "word": "ヨ",
+                      "emoji": "🔤",
+                      "phonetic": "/jo/",
+                      "translation": "Nome: <b>ヨ</b> (yo) — som de <i>'iô'</i> como em 'iodo'.<br>Parece um <span class='hl'>'yo'</span> com um traço.",
+                      "mnemonic": "Visual: parece um 'yo' com um traço horizontal.",
+                      "examples": [
+                          {
+                              "t": "ヨは「yo」です。<br><b>ヨ</b> = yo",
+                              "n": "Yo é 'yo'."
+                          },
+                          {
+                              "t": "ヨット (yotto) — iate",
+                              "n": "Palavra comum com ヨ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ra",
+                      "isLetter": true,
+                      "letter": "ラ",
+                      "word": "ラ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾa/",
+                      "translation": "Nome: <b>ラ</b> (ra) — som de <i>'rá'</i> como em 'cara' (um toque).<br>Parece um <span class='hl'>'ra'</span> com um chapéu.",
+                      "mnemonic": "Visual: parece um 'ra' com um chapéu.",
+                      "examples": [
+                          {
+                              "t": "ラは「ra」です。<br><b>ラ</b> = ra",
+                              "n": "Ra é 'ra'."
+                          },
+                          {
+                              "t": "ラジオ (rajio) — rádio",
+                              "n": "Palavra comum com ラ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ri",
+                      "isLetter": true,
+                      "letter": "リ",
+                      "word": "リ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾi/",
+                      "translation": "Nome: <b>リ</b> (ri) — som de <i>'ri'</i> como em 'carioca' (um toque).<br>Parece um <span class='hl'>'ri'</span> com duas linhas.",
+                      "mnemonic": "Visual: parece um 'ri' com dois traços paralelos.",
+                      "examples": [
+                          {
+                              "t": "リは「ri」です。<br><b>リ</b> = ri",
+                              "n": "Ri é 'ri'."
+                          },
+                          {
+                              "t": "リスト (risuto) — lista",
+                              "n": "Palavra comum com リ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ru",
+                      "isLetter": true,
+                      "letter": "ル",
+                      "word": "ル",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾɯ/",
+                      "translation": "Nome: <b>ル</b> (ru) — som de <i>'ru'</i> como em 'cru' (um toque).<br>Parece um <span class='hl'>'ru'</span> com um laço.",
+                      "mnemonic": "Visual: parece um 'ru' com um laço na ponta.",
+                      "examples": [
+                          {
+                              "t": "ルは「ru」です。<br><b>ル</b> = ru",
+                              "n": "Ru é 'ru'."
+                          },
+                          {
+                              "t": "ルール (rūru) — regra",
+                              "n": "Palavra comum com ル."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_re",
+                      "isLetter": true,
+                      "letter": "レ",
+                      "word": "レ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾe/",
+                      "translation": "Nome: <b>レ</b> (re) — som de <i>'ré'</i> como em 'café' (um toque).<br>Parece um <span class='hl'>'re'</span> com um rabo.",
+                      "mnemonic": "Visual: parece um 're' com uma cauda para baixo.",
+                      "examples": [
+                          {
+                              "t": "レは「re」です。<br><b>レ</b> = re",
+                              "n": "Re é 're'."
+                          },
+                          {
+                              "t": "レストラン (resutoran) — restaurante",
+                              "n": "Palavra comum com レ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ro",
+                      "isLetter": true,
+                      "letter": "ロ",
+                      "word": "ロ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾo/",
+                      "translation": "Nome: <b>ロ</b> (ro) — som de <i>'ró'</i> como em 'coração' (um toque).<br>Parece um <span class='hl'>'ro'</span> quadrado.",
+                      "mnemonic": "Visual: parece um 'ro' quadrado (um quadrado aberto).",
+                      "examples": [
+                          {
+                              "t": "ロは「ro」です。<br><b>ロ</b> = ro",
+                              "n": "Ro é 'ro'."
+                          },
+                          {
+                              "t": "ロボット (robotto) — robô",
+                              "n": "Palavra comum com ロ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_wa",
+                      "isLetter": true,
+                      "letter": "ワ",
+                      "word": "ワ",
+                      "emoji": "🔤",
+                      "phonetic": "/wa/",
+                      "translation": "Nome: <b>ワ</b> (wa) — som de <i>'uá'</i> como em 'uau'.<br>Parece um <span class='hl'>'wa'</span> com um sorriso.",
+                      "mnemonic": "Visual: parece um 'wa' com um sorriso aberto.",
+                      "examples": [
+                          {
+                              "t": "ワは「wa」です。<br><b>ワ</b> = wa",
+                              "n": "Wa é 'wa'."
+                          },
+                          {
+                              "t": "ワイン (wain) — vinho",
+                              "n": "Palavra comum com ワ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_wo",
+                      "isLetter": true,
+                      "letter": "ヲ",
+                      "word": "ヲ",
+                      "emoji": "🔤",
+                      "phonetic": "/wo/",
+                      "translation": "Nome: <b>ヲ</b> (wo) — som de <i>'uó'</i> como em 'uó' (raro).<br>Parece um <span class='hl'>'wo'</span> com um rabo.",
+                      "mnemonic": "Visual: parece um 'wo' com uma cauda para baixo.",
+                      "examples": [
+                          {
+                              "t": "ヲ é raro; usado como partícula.",
+                              "n": "Exemplo: 本を読む (hon wo yomu) — ler livro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_n",
+                      "isLetter": true,
+                      "letter": "ン",
+                      "word": "ン",
+                      "emoji": "🔤",
+                      "phonetic": "/ɴ/",
+                      "translation": "Nome: <b>ン</b> (n) — som nasal <i>'n'</i> como em 'não'.<br>Parece um <span class='hl'>'n'</span> com um traço.",
+                      "mnemonic": "Visual: parece um 'n' com um traço diagonal.",
+                      "examples": [
+                          {
+                              "t": "ン é o som nasal final.",
+                              "n": "Exemplo: パン (pan) — pão."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_long_vowel",
+                      "isLetter": true,
+                      "letter": "ー",
+                      "word": "ー",
+                      "emoji": "🔤",
+                      "phonetic": "/ː/",
+                      "translation": "Nome: <b>ー</b> (chōonpu) — sinal de vogal longa.<br>Prolonga a vogal anterior: <i>a → ā</i>.",
+                      "mnemonic": "Visual: um traço horizontal que estica o som.",
+                      "examples": [
+                          {
+                              "t": "コーヒー (kōhī) — café",
+                              "n": "O ー alonga o 'o' e o 'i'."
+                          },
+                          {
+                              "t": "ビール (bīru) — cerveja",
+                              "n": "O ー alonga o 'i'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_01",
+                      "isLetter": false,
+                      "letter": "ホ",
+                      "word": "ホテル",
+                      "emoji": "🏨",
+                      "phonetic": "/hoteɾɯ/",
+                      "translation": "hotel",
+                      "translations": {
+                          "ja": "ホテル",
+                          "pt": "hotel",
+                          "en": "hotel"
+                      },
+                      "examples": [
+                          {
+                              "t": "この<b>ホテル</b>はきれいです。",
+                              "n": "Este hotel é bonito."
+                          },
+                          {
+                              "t": "<b>ホテル</b>で会いましょう。",
+                              "n": "Vamos nos encontrar no hotel."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_02",
+                      "isLetter": false,
+                      "letter": "レ",
+                      "word": "レストラン",
+                      "emoji": "🍽️",
+                      "phonetic": "/ɾesɯtoɾaɴ/",
+                      "translation": "restaurante",
+                      "translations": {
+                          "ja": "レストラン",
+                          "pt": "restaurante",
+                          "en": "restaurant"
+                      },
+                      "examples": [
+                          {
+                              "t": "あの<b>レストラン</b>はおいしいです。",
+                              "n": "Aquele restaurante é delicioso."
+                          },
+                          {
+                              "t": "<b>レストラン</b>で昼ごはんを食べます。",
+                              "n": "Vou almoçar no restaurante."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_03",
+                      "isLetter": false,
+                      "letter": "パ",
+                      "word": "パスポート",
+                      "emoji": "🛂",
+                      "phonetic": "/pasɯpoːto/",
+                      "translation": "passaporte",
+                      "translations": {
+                          "ja": "パスポート",
+                          "pt": "passaporte",
+                          "en": "passport"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>パスポート</b>を見せてください。",
+                              "n": "Por favor, mostre seu passaporte."
+                          },
+                          {
+                              "t": "<b>パスポート</b>を忘れました。",
+                              "n": "Esqueci meu passaporte."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_04",
+                      "isLetter": false,
+                      "letter": "ス",
+                      "word": "スマートフォン",
+                      "emoji": "📱",
+                      "phonetic": "/sɯmaːtoɸoɴ/",
+                      "translation": "smartphone",
+                      "translations": {
+                          "ja": "スマートフォン",
+                          "pt": "smartphone",
+                          "en": "smartphone"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>スマートフォン</b>を買いました。",
+                              "n": "Comprei um smartphone."
+                          },
+                          {
+                              "t": "<b>スマートフォン</b>で写真を撮ります。",
+                              "n": "Tiro fotos com o smartphone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_05",
+                      "isLetter": false,
+                      "letter": "コ",
+                      "word": "コンピューター",
+                      "emoji": "💻",
+                      "phonetic": "/koɴpjuːtaː/",
+                      "translation": "computador",
+                      "translations": {
+                          "ja": "コンピューター",
+                          "pt": "computador",
+                          "en": "computer"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>コンピューター</b>で仕事をします。",
+                              "n": "Trabalho no computador."
+                          },
+                          {
+                              "t": "この<b>コンピューター</b>は新しいです。",
+                              "n": "Este computador é novo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_06",
+                      "isLetter": false,
+                      "letter": "バ",
+                      "word": "バス",
+                      "emoji": "🚌",
+                      "phonetic": "/basɯ/",
+                      "translation": "ônibus",
+                      "translations": {
+                          "ja": "バス",
+                          "pt": "ônibus",
+                          "en": "bus"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>バス</b>で学校に行きます。",
+                              "n": "Vou à escola de ônibus."
+                          },
+                          {
+                              "t": "次の<b>バス</b>は何時ですか。",
+                              "n": "A que horas é o próximo ônibus?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_07",
+                      "isLetter": false,
+                      "letter": "ビ",
+                      "word": "ビール",
+                      "emoji": "🍺",
+                      "phonetic": "/biːɾɯ/",
+                      "translation": "cerveja",
+                      "translations": {
+                          "ja": "ビール",
+                          "pt": "cerveja",
+                          "en": "beer"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ビール</b>を一杯ください。",
+                              "n": "Uma cerveja, por favor."
+                          },
+                          {
+                              "t": "<b>ビール</b>は冷たいです。",
+                              "n": "A cerveja está gelada."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_08",
+                      "isLetter": false,
+                      "letter": "チ",
+                      "word": "チョコレート",
+                      "emoji": "🍫",
+                      "phonetic": "/tɕokoɾeːto/",
+                      "translation": "chocolate",
+                      "translations": {
+                          "ja": "チョコレート",
+                          "pt": "chocolate",
+                          "en": "chocolate"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>チョコレート</b>が好きです。",
+                              "n": "Eu gosto de chocolate."
+                          },
+                          {
+                              "t": "<b>チョコレート</b>を食べます。",
+                              "n": "Eu como chocolate."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g5",
+              "name": "Primeros Kanji",
+              "icon": "漢",
+              "color": "#8b5cf6",
+              "description": "日 月 火 水 木 金 土 + números + personas",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2",
+                  "ja_a0_g3",
+                  "ja_a0_g4"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g5_L_ichi",
+                      "isLetter": true,
+                      "letter": "一",
+                      "word": "一",
+                      "emoji": "1️⃣",
+                      "phonetic": "/ichi/",
+                      "translation": "Uno. Lectura ON: <b>ichi</b>; lectura KUN: <b>hito</b>. <br>Un solo trazo horizontal.",
+                      "mnemonic": "Un palito horizontal en el suelo: es el número uno.",
+                      "examples": [
+                          {
+                              "t": "<b>一</b>人 (hitori) = una persona",
+                              "n": "Una persona"
+                          },
+                          {
+                              "t": "<b>一</b>つ (hitotsu) = una cosa",
+                              "n": "Una cosa (contando objetos)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_ni",
+                      "isLetter": true,
+                      "letter": "二",
+                      "word": "二",
+                      "emoji": "2️⃣",
+                      "phonetic": "/ni/",
+                      "translation": "Dos. Lectura ON: <b>ni</b>; lectura KUN: <b>futa</b>. <br>Dos trazos horizontales paralelos.",
+                      "mnemonic": "Dos palitos horizontales: el número dos.",
+                      "examples": [
+                          {
+                              "t": "<b>二</b>人 (futari) = dos personas",
+                              "n": "Dos personas"
+                          },
+                          {
+                              "t": "<b>二</b>つ (futatsu) = dos cosas",
+                              "n": "Dos cosas"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_san",
+                      "isLetter": true,
+                      "letter": "三",
+                      "word": "三",
+                      "emoji": "3️⃣",
+                      "phonetic": "/san/",
+                      "translation": "Tres. Lectura ON: <b>san</b>; lectura KUN: <b>mit</b>. <br>Tres trazos horizontales.",
+                      "mnemonic": "Tres palitos horizontales apilados: el número tres.",
+                      "examples": [
+                          {
+                              "t": "<b>三</b>人 (sannin) = tres personas",
+                              "n": "Tres personas"
+                          },
+                          {
+                              "t": "<b>三</b>つ (mittsu) = tres cosas",
+                              "n": "Tres cosas"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_yon",
+                      "isLetter": true,
+                      "letter": "四",
+                      "word": "四",
+                      "emoji": "4️⃣",
+                      "phonetic": "/shi/ /yon/",
+                      "translation": "Cuatro. Lectura ON: <b>shi</b>; lectura KUN: <b>yon</b>. <br>Una ventana con dos cortinas.",
+                      "mnemonic": "Parece una ventana con dos cortinas: cuatro lados tiene una ventana.",
+                      "examples": [
+                          {
+                              "t": "<b>四</b>人 (yonin) = cuatro personas",
+                              "n": "Cuatro personas"
+                          },
+                          {
+                              "t": "<b>四</b>つ (yottsu) = cuatro cosas",
+                              "n": "Cuatro cosas"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_go",
+                      "isLetter": true,
+                      "letter": "五",
+                      "word": "五",
+                      "emoji": "5️⃣",
+                      "phonetic": "/go/",
+                      "translation": "Cinco. Lectura ON: <b>go</b>; lectura KUN: <b>itsu</b>. <br>Una persona con los brazos abiertos.",
+                      "mnemonic": "Parece una persona con los brazos abiertos: cinco dedos en cada mano.",
+                      "examples": [
+                          {
+                              "t": "<b>五</b>人 (gonin) = cinco personas",
+                              "n": "Cinco personas"
+                          },
+                          {
+                              "t": "<b>五</b>つ (itsutsu) = cinco cosas",
+                              "n": "Cinco cosas"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_roku",
+                      "isLetter": true,
+                      "letter": "六",
+                      "word": "六",
+                      "emoji": "6️⃣",
+                      "phonetic": "/roku/",
+                      "translation": "Seis. Lectura ON: <b>roku</b>; lectura KUN: <b>mu</b>. <br>Una tienda de campaña vista de frente.",
+                      "mnemonic": "Parece una tienda de campaña con dos puntas: seis es un número de campamento.",
+                      "examples": [
+                          {
+                              "t": "<b>六</b>人 (rokunin) = seis personas",
+                              "n": "Seis personas"
+                          },
+                          {
+                              "t": "<b>六</b>つ (muttsu) = seis cosas",
+                              "n": "Seis cosas"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_shichi",
+                      "isLetter": true,
+                      "letter": "七",
+                      "word": "七",
+                      "emoji": "7️⃣",
+                      "phonetic": "/shichi/ /nana/",
+                      "translation": "Siete. Lectura ON: <b>shichi</b>; lectura KUN: <b>nana</b>. <br>Una cruz con un gancho.",
+                      "mnemonic": "Parece un 7 con un sombrerito: es el número siete.",
+                      "examples": [
+                          {
+                              "t": "<b>七</b>人 (shichinin / nananin) = siete personas",
+                              "n": "Siete personas"
+                          },
+                          {
+                              "t": "<b>七</b>つ (nanatsu) = siete cosas",
+                              "n": "Siete cosas"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_hachi",
+                      "isLetter": true,
+                      "letter": "八",
+                      "word": "八",
+                      "emoji": "8️⃣",
+                      "phonetic": "/hachi/",
+                      "translation": "Ocho. Lectura ON: <b>hachi</b>; lectura KUN: <b>ya</b>. <br>Dos trazos que se separan.",
+                      "mnemonic": "Dos montañas que se separan: ocho es un número de separación.",
+                      "examples": [
+                          {
+                              "t": "<b>八</b>人 (hachinin) = ocho personas",
+                              "n": "Ocho personas"
+                          },
+                          {
+                              "t": "<b>八</b>つ (yattsu) = ocho cosas",
+                              "n": "Ocho cosas"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kyuu",
+                      "isLetter": true,
+                      "letter": "九",
+                      "word": "九",
+                      "emoji": "9️⃣",
+                      "phonetic": "/kyuu/ /ku/",
+                      "translation": "Nueve. Lectura ON: <b>kyuu</b>; lectura KUN: <b>kokono</b>. <br>Un brazo doblado con una mano.",
+                      "mnemonic": "Parece un gancho o un brazo doblado: nueve es un número que se dobla.",
+                      "examples": [
+                          {
+                              "t": "<b>九</b>人 (kyuunin) = nueve personas",
+                              "n": "Nueve personas"
+                          },
+                          {
+                              "t": "<b>九</b>つ (kokonotsu) = nueve cosas",
+                              "n": "Nueve cosas"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_juu",
+                      "isLetter": true,
+                      "letter": "十",
+                      "word": "十",
+                      "emoji": "🔟",
+                      "phonetic": "/juu/",
+                      "translation": "Diez. Lectura ON: <b>juu</b>; lectura KUN: <b>tou</b>. <br>Una cruz perfecta.",
+                      "mnemonic": "Una cruz: en romano, X es diez; aquí es una cruz.",
+                      "examples": [
+                          {
+                              "t": "<b>十</b>人 (juunin) = diez personas",
+                              "n": "Diez personas"
+                          },
+                          {
+                              "t": "<b>十</b> (juu) = diez",
+                              "n": "Diez"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_nichi",
+                      "isLetter": true,
+                      "letter": "日",
+                      "word": "日",
+                      "emoji": "☀️",
+                      "phonetic": "/nichi/ /bi/ /hi/",
+                      "translation": "Sol / Día. Lectura ON: <b>nichi</b>; lectura KUN: <b>hi</b>. <br>Un rectángulo con una línea en el medio.",
+                      "mnemonic": "Un sol con un rayo en el centro: el sol está dentro del rectángulo.",
+                      "examples": [
+                          {
+                              "t": "<b>日</b>曜日 (nichiyoubi) = domingo",
+                              "n": "Domingo (día del sol)"
+                          },
+                          {
+                              "t": "<b>日</b>本 (nihon) = Japón",
+                              "n": "Japón (país del sol naciente)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_gatsu",
+                      "isLetter": true,
+                      "letter": "月",
+                      "word": "月",
+                      "emoji": "🌙",
+                      "phonetic": "/gatsu/ /tsuki/",
+                      "translation": "Luna / Mes. Lectura ON: <b>gatsu</b>; lectura KUN: <b>tsuki</b>. <br>Una luna creciente con dos rayos.",
+                      "mnemonic": "Una luna creciente con dos rayos: la luna está en el cielo.",
+                      "examples": [
+                          {
+                              "t": "<b>月</b>曜日 (getsuyoubi) = lunes",
+                              "n": "Lunes (día de la luna)"
+                          },
+                          {
+                              "t": "<b>月</b> (tsuki) = luna",
+                              "n": "La luna"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_ka",
+                      "isLetter": true,
+                      "letter": "火",
+                      "word": "火",
+                      "emoji": "🔥",
+                      "phonetic": "/ka/",
+                      "translation": "Fuego. Lectura ON: <b>ka</b>; lectura KUN: <b>hi</b>. <br>Una persona con los brazos levantados en llamas.",
+                      "mnemonic": "Parece una persona con los brazos en llamas: fuego.",
+                      "examples": [
+                          {
+                              "t": "<b>火</b>曜日 (kayoubi) = martes",
+                              "n": "Martes (día del fuego)"
+                          },
+                          {
+                              "t": "<b>火</b> (hi) = fuego",
+                              "n": "Fuego"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_sui",
+                      "isLetter": true,
+                      "letter": "水",
+                      "word": "水",
+                      "emoji": "💧",
+                      "phonetic": "/sui/",
+                      "translation": "Agua. Lectura ON: <b>sui</b>; lectura KUN: <b>mizu</b>. <br>Tres gotas de agua cayendo.",
+                      "mnemonic": "Tres gotas de agua cayendo: agua.",
+                      "examples": [
+                          {
+                              "t": "<b>水</b>曜日 (suiyoubi) = miércoles",
+                              "n": "Miércoles (día del agua)"
+                          },
+                          {
+                              "t": "<b>水</b> (mizu) = agua",
+                              "n": "Agua"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_moku",
+                      "isLetter": true,
+                      "letter": "木",
+                      "word": "木",
+                      "emoji": "🌳",
+                      "phonetic": "/moku/ /ki/",
+                      "translation": "Árbol. Lectura ON: <b>moku</b>; lectura KUN: <b>ki</b>. <br>Un árbol con raíces y ramas.",
+                      "mnemonic": "Un árbol con raíces y ramas: el tronco y las ramas.",
+                      "examples": [
+                          {
+                              "t": "<b>木</b>曜日 (mokuyoubi) = jueves",
+                              "n": "Jueves (día del árbol)"
+                          },
+                          {
+                              "t": "<b>木</b> (ki) = árbol",
+                              "n": "Árbol"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kin",
+                      "isLetter": true,
+                      "letter": "金",
+                      "word": "金",
+                      "emoji": "💰",
+                      "phonetic": "/kin/ /kane/",
+                      "translation": "Oro / Dinero. Lectura ON: <b>kin</b>; lectura KUN: <b>kane</b>. <br>Una campana con un tesoro debajo.",
+                      "mnemonic": "Una campana con un tesoro debajo: oro y dinero.",
+                      "examples": [
+                          {
+                              "t": "<b>金</b>曜日 (kinyoubi) = viernes",
+                              "n": "Viernes (día del oro)"
+                          },
+                          {
+                              "t": "<b>金</b> (kane) = dinero",
+                              "n": "Dinero"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_do",
+                      "isLetter": true,
+                      "letter": "土",
+                      "word": "土",
+                      "emoji": "⛰️",
+                      "phonetic": "/do/ /tsuchi/",
+                      "translation": "Tierra. Lectura ON: <b>do</b>; lectura KUN: <b>tsuchi</b>. <br>Una planta creciendo del suelo.",
+                      "mnemonic": "Una planta creciendo del suelo: tierra.",
+                      "examples": [
+                          {
+                              "t": "<b>土</b>曜日 (doyoubi) = sábado",
+                              "n": "Sábado (día de la tierra)"
+                          },
+                          {
+                              "t": "<b>土</b> (tsuchi) = tierra",
+                              "n": "Tierra"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_hito",
+                      "isLetter": true,
+                      "letter": "人",
+                      "word": "人",
+                      "emoji": "🚶",
+                      "phonetic": "/hito/ /jin/",
+                      "translation": "Persona. Lectura ON: <b>jin</b>; lectura KUN: <b>hito</b>. <br>Una persona caminando.",
+                      "mnemonic": "Una persona caminando: dos piernas en movimiento.",
+                      "examples": [
+                          {
+                              "t": "<b>人</b> (hito) = persona",
+                              "n": "Persona"
+                          },
+                          {
+                              "t": "日本<b>人</b> (nihonjin) = japonés",
+                              "n": "Persona japonesa"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_yama",
+                      "isLetter": true,
+                      "letter": "山",
+                      "word": "山",
+                      "emoji": "🏔️",
+                      "phonetic": "/yama/ /san/",
+                      "translation": "Montaña. Lectura ON: <b>san</b>; lectura KUN: <b>yama</b>. <br>Tres picos de montaña.",
+                      "mnemonic": "Tres picos de montaña: la montaña más alta en el centro.",
+                      "examples": [
+                          {
+                              "t": "<b>山</b> (yama) = montaña",
+                              "n": "Montaña"
+                          },
+                          {
+                              "t": "富士<b>山</b> (fujisan) = Monte Fuji",
+                              "n": "Monte Fuji"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kawa",
+                      "isLetter": true,
+                      "letter": "川",
+                      "word": "川",
+                      "emoji": "🏞️",
+                      "phonetic": "/kawa/ /sen/",
+                      "translation": "Río. Lectura ON: <b>sen</b>; lectura KUN: <b>kawa</b>. <br>Tres líneas que fluyen como un río.",
+                      "mnemonic": "Tres líneas que fluyen: un río con corriente.",
+                      "examples": [
+                          {
+                              "t": "<b>川</b> (kawa) = río",
+                              "n": "Río"
+                          },
+                          {
+                              "t": "日本<b>川</b> (nihonkawa) = río japonés",
+                              "n": "Río de Japón"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_dai",
+                      "isLetter": true,
+                      "letter": "大",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "/dai/ /oo/",
+                      "translation": "Grande. Lectura ON: <b>dai</b>; lectura KUN: <b>oo</b>. <br>Una persona con los brazos abiertos de par en par.",
+                      "mnemonic": "Una persona con los brazos abiertos: ¡qué grande es!",
+                      "examples": [
+                          {
+                              "t": "<b>大</b>きい (ookii) = grande",
+                              "n": "Grande"
+                          },
+                          {
+                              "t": "<b>大</b>学 (daigaku) = universidad",
+                              "n": "Universidad (escuela grande)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_shou",
+                      "isLetter": true,
+                      "letter": "小",
+                      "word": "小",
+                      "emoji": "🐜",
+                      "phonetic": "/shou/ /ko/",
+                      "translation": "Pequeño. Lectura ON: <b>shou</b>; lectura KUN: <b>ko</b>. <br>Tres gotas pequeñas o tres palitos pequeños.",
+                      "mnemonic": "Tres palitos pequeños: algo muy pequeño.",
+                      "examples": [
+                          {
+                              "t": "<b>小</b>さい (chiisai) = pequeño",
+                              "n": "Pequeño"
+                          },
+                          {
+                              "t": "<b>小</b>学校 (shougakkou) = escuela primaria",
+                              "n": "Escuela pequeña"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_01",
+                      "isLetter": false,
+                      "letter": "一",
+                      "word": "一人",
+                      "emoji": "🧍",
+                      "phonetic": "/hitori/",
+                      "translation": "Una persona. <b>一人</b>",
+                      "translations": {
+                          "ja": "一人",
+                          "pt": "Uma pessoa",
+                          "en": "One person"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>一人</b>で行きます。",
+                              "n": "Voy solo."
+                          },
+                          {
+                              "t": "部屋に<b>一人</b>います。",
+                              "n": "Hay una persona en la habitación."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_02",
+                      "isLetter": false,
+                      "letter": "日",
+                      "word": "日本",
+                      "emoji": "🇯🇵",
+                      "phonetic": "/nihon/",
+                      "translation": "Japón. <b>日本</b> (país del sol naciente)",
+                      "translations": {
+                          "ja": "日本",
+                          "pt": "Japão",
+                          "en": "Japan"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>日本</b>が好きです。",
+                              "n": "Me gusta Japón."
+                          },
+                          {
+                              "t": "<b>日本</b>人です。",
+                              "n": "Soy japonés."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_03",
+                      "isLetter": false,
+                      "letter": "月",
+                      "word": "月曜日",
+                      "emoji": "📅",
+                      "phonetic": "/getsuyoubi/",
+                      "translation": "Lunes. <b>月曜日</b>",
+                      "translations": {
+                          "ja": "月曜日",
+                          "pt": "Segunda-feira",
+                          "en": "Monday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>月曜日</b>に働きます。",
+                              "n": "Trabajo el lunes."
+                          },
+                          {
+                              "t": "<b>月曜日</b>は忙しいです。",
+                              "n": "El lunes es ocupado."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_04",
+                      "isLetter": false,
+                      "letter": "火",
+                      "word": "火曜日",
+                      "emoji": "📅",
+                      "phonetic": "/kayoubi/",
+                      "translation": "Martes. <b>火曜日</b>",
+                      "translations": {
+                          "ja": "火曜日",
+                          "pt": "Terça-feira",
+                          "en": "Tuesday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>火曜日</b>に会いましょう。",
+                              "n": "Encontrémonos el martes."
+                          },
+                          {
+                              "t": "<b>火曜日</b>は暇です。",
+                              "n": "El martes estoy libre."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_05",
+                      "isLetter": false,
+                      "letter": "水",
+                      "word": "水曜日",
+                      "emoji": "📅",
+                      "phonetic": "/suiyoubi/",
+                      "translation": "Miércoles. <b>水曜日</b>",
+                      "translations": {
+                          "ja": "水曜日",
+                          "pt": "Quarta-feira",
+                          "en": "Wednesday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>水曜日</b>に勉強します。",
+                              "n": "Estudio el miércoles."
+                          },
+                          {
+                              "t": "<b>水曜日</b>はテストです。",
+                              "n": "El miércoles hay examen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_06",
+                      "isLetter": false,
+                      "letter": "木",
+                      "word": "木曜日",
+                      "emoji": "📅",
+                      "phonetic": "/mokuyoubi/",
+                      "translation": "Jueves. <b>木曜日</b>",
+                      "translations": {
+                          "ja": "木曜日",
+                          "pt": "Quinta-feira",
+                          "en": "Thursday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>木曜日</b>に買い物します。",
+                              "n": "Voy de compras el jueves."
+                          },
+                          {
+                              "t": "<b>木曜日</b>は晴れです。",
+                              "n": "El jueves hace sol."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_07",
+                      "isLetter": false,
+                      "letter": "金",
+                      "word": "金曜日",
+                      "emoji": "📅",
+                      "phonetic": "/kinyoubi/",
+                      "translation": "Viernes. <b>金曜日</b>",
+                      "translations": {
+                          "ja": "金曜日",
+                          "pt": "Sexta-feira",
+                          "en": "Friday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>金曜日</b>に映画を見ます。",
+                              "n": "Veo una película el viernes."
+                          },
+                          {
+                              "t": "<b>金曜日</b>は楽しいです。",
+                              "n": "El viernes es divertido."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_08",
+                      "isLetter": false,
+                      "letter": "土",
+                      "word": "土曜日",
+                      "emoji": "📅",
+                      "phonetic": "/doyoubi/",
+                      "translation": "Sábado. <b>土曜日</b>",
+                      "translations": {
+                          "ja": "土曜日",
+                          "pt": "Sábado",
+                          "en": "Saturday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>土曜日</b>に遊びます。",
+                              "n": "Salgo a jugar el sábado."
+                          },
+                          {
+                              "t": "<b>土曜日</b>は休みです。",
+                              "n": "El sábado es día libre."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_09",
+                      "isLetter": false,
+                      "letter": "人",
+                      "word": "日本人",
+                      "emoji": "👤",
+                      "phonetic": "/nihonjin/",
+                      "translation": "Japonés (persona). <b>日本人</b>",
+                      "translations": {
+                          "ja": "日本人",
+                          "pt": "Japonês (pessoa)",
+                          "en": "Japanese person"
+                      },
+                      "examples": [
+                          {
+                              "t": "彼は<b>日本人</b>です。",
+                              "n": "Él es japonés."
+                          },
+                          {
+                              "t": "<b>日本人</b>の友達がいます。",
+                              "n": "Tengo un amigo japonés."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_10",
+                      "isLetter": false,
+                      "letter": "山",
+                      "word": "富士山",
+                      "emoji": "🗻",
+                      "phonetic": "/fujisan/",
+                      "translation": "Monte Fuji. <b>富士山</b>",
+                      "translations": {
+                          "ja": "富士山",
+                          "pt": "Monte Fuji",
+                          "en": "Mount Fuji"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>富士山</b>は高いです。",
+                              "n": "El Monte Fuji es alto."
+                          },
+                          {
+                              "t": "<b>富士山</b>を見たいです。",
+                              "n": "Quiero ver el Monte Fuji."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_11",
+                      "isLetter": false,
+                      "letter": "大",
+                      "word": "大学",
+                      "emoji": "🎓",
+                      "phonetic": "/daigaku/",
+                      "translation": "Universidad. <b>大学</b> (escuela grande)",
+                      "translations": {
+                          "ja": "大学",
+                          "pt": "Universidade",
+                          "en": "University"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>大学</b>に行きます。",
+                              "n": "Voy a la universidad."
+                          },
+                          {
+                              "t": "<b>大学</b>で勉強します。",
+                              "n": "Estudio en la universidad."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_12",
+                      "isLetter": false,
+                      "letter": "小",
+                      "word": "小学校",
+                      "emoji": "🏫",
+                      "phonetic": "/shougakkou/",
+                      "translation": "Escuela primaria. <b>小学校</b>",
+                      "translations": {
+                          "ja": "小学校",
+                          "pt": "Escola primária",
+                          "en": "Elementary school"
+                      },
+                      "examples": [
+                          {
+                              "t": "子供は<b>小学校</b>に行きます。",
+                              "n": "Los niños van a la escuela primaria."
+                          },
+                          {
+                              "t": "<b>小学校</b>は近いです。",
+                              "n": "La escuela primaria está cerca."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // JA_RU
+  // ──────────────────────────────────────────────────────
+  ja_ru: {
+      "level": "A0",
+      "levelName": "Hiragana y Katakana",
+      "groups": [
+          {
+              "id": "ja_a0_g1",
+              "name": "Hiragana — parte 1",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "あ行 か行 さ行 た行 な行 — primeras 25 sílabas",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ja_a0_g1_L_a-row",
+                      "isLetter": true,
+                      "letter": "あ",
+                      "word": "あ",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Звук <b>а</b>. Гласная <i>а</i> — как в русском «мама».<br>Порядок черт: 3 линии, начни с горизонтальной.",
+                      "mnemonic": "Похоже на букву «а» с хвостиком вниз.",
+                      "examples": [
+                          {
+                              "t": "<b>あ</b> — первая буква алфавита.",
+                              "n": "А — первая буква алфавита."
+                          },
+                          {
+                              "t": "<b>い</b> — звук «и», как в слове <span class='hl'>мир</span>.",
+                              "n": "И — как в слове «мир»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_ka-row",
+                      "isLetter": true,
+                      "letter": "か",
+                      "word": "か",
+                      "emoji": "🔤",
+                      "phonetic": "/ka/",
+                      "translation": "Слог <b>ка</b> (звук <i>k</i> + <i>a</i>).<br>Как в слове «каша».",
+                      "mnemonic": "Похоже на букву «К» с ручкой сверху.",
+                      "examples": [
+                          {
+                              "t": "<b>か</b> — слог «ка», как в слове <span class='hl'>каша</span>.",
+                              "n": "Ка — как в «каша»."
+                          },
+                          {
+                              "t": "<b>き</b> — «ки», как в слове <span class='hl'>кино</span>.",
+                              "n": "Ки — как в «кино»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_sa-row",
+                      "isLetter": true,
+                      "letter": "さ",
+                      "word": "さ",
+                      "emoji": "🔤",
+                      "phonetic": "/sa/",
+                      "translation": "Слог <b>са</b> (звук <i>s</i> + <i>a</i>).<br>Как в слове «сало».",
+                      "mnemonic": "Внутри буквы — как будто сломанная буква «С».",
+                      "examples": [
+                          {
+                              "t": "<b>さ</b> — слог «са», как в слове <span class='hl'>салат</span>.",
+                              "n": "Са — как в «салат»."
+                          },
+                          {
+                              "t": "<b>し</b> — «ши», как в слове <span class='hl'>шина</span>.",
+                              "n": "Ши — как в «шина»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_ta-row",
+                      "isLetter": true,
+                      "letter": "た",
+                      "word": "た",
+                      "emoji": "🔤",
+                      "phonetic": "/ta/",
+                      "translation": "Слог <b>та</b> (звук <i>t</i> + <i>a</i>).<br>Как в слове «танк».",
+                      "mnemonic": "Похоже на букву «Т» с петелькой.",
+                      "examples": [
+                          {
+                              "t": "<b>た</b> — слог «та», как в слове <span class='hl'>танк</span>.",
+                              "n": "Та — как в «танк»."
+                          },
+                          {
+                              "t": "Не путай: <b>ち</b> — «чи», а не «ти»! <br><b>つ</b> — «цу», а не «ту»!",
+                              "n": "Особые чтения: ти → чи, ту → цу."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_na-row",
+                      "isLetter": true,
+                      "letter": "な",
+                      "word": "な",
+                      "emoji": "🔤",
+                      "phonetic": "/na/",
+                      "translation": "Слог <b>на</b> (звук <i>n</i> + <i>a</i>).<br>Как в слове «надо».",
+                      "mnemonic": "Похоже на букву «Н» с закорючкой.",
+                      "examples": [
+                          {
+                              "t": "<b>な</b> — слог «на», как в слове <span class='hl'>надо</span>.",
+                              "n": "На — как в «надо»."
+                          },
+                          {
+                              "t": "<b>の</b> — «но», как в слове <span class='hl'>нота</span>.",
+                              "n": "Но — как в «нота»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "あ",
+                      "word": "あさ",
+                      "emoji": "🌅",
+                      "phonetic": "/asa/",
+                      "translation": "Утро",
+                      "translations": {
+                          "ja": "あさ",
+                          "ru": "утро",
+                          "en": "morning"
+                      },
+                      "examples": [
+                          {
+                              "t": "あさ、<b>あさ</b>ごはんをたべる。",
+                              "n": "Утром я ем завтрак."
+                          },
+                          {
+                              "t": "<b>あさ</b>は はやい。",
+                              "n": "Утро раннее."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "き",
+                      "word": "きく",
+                      "emoji": "👂",
+                      "phonetic": "/kiku/",
+                      "translation": "Слушать",
+                      "translations": {
+                          "ja": "きく",
+                          "ru": "слушать",
+                          "en": "to listen"
+                      },
+                      "examples": [
+                          {
+                              "t": "おんがくを <b>きく</b>。",
+                              "n": "Я слушаю музыку."
+                          },
+                          {
+                              "t": "はなしを <b>きく</b>。",
+                              "n": "Я слушаю разговор."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "す",
+                      "word": "すし",
+                      "emoji": "🍣",
+                      "phonetic": "/suɕi/",
+                      "translation": "Суши",
+                      "translations": {
+                          "ja": "すし",
+                          "ru": "суши",
+                          "en": "sushi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>すし</b>を たべる。",
+                              "n": "Я ем суши."
+                          },
+                          {
+                              "t": "<b>すし</b>は おいしい。",
+                              "n": "Суши вкусные."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "た",
+                      "word": "たべる",
+                      "emoji": "🍽️",
+                      "phonetic": "/taberu/",
+                      "translation": "Есть, кушать",
+                      "translations": {
+                          "ja": "たべる",
+                          "ru": "есть, кушать",
+                          "en": "to eat"
+                      },
+                      "examples": [
+                          {
+                              "t": "りんごを <b>たべる</b>。",
+                              "n": "Я ем яблоко."
+                          },
+                          {
+                              "t": "ごはんを <b>たべる</b>。",
+                              "n": "Я ем рис."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "ね",
+                      "word": "ねる",
+                      "emoji": "😴",
+                      "phonetic": "/neru/",
+                      "translation": "Спать",
+                      "translations": {
+                          "ja": "ねる",
+                          "ru": "спать",
+                          "en": "to sleep"
+                      },
+                      "examples": [
+                          {
+                              "t": "よるに <b>ねる</b>。",
+                              "n": "Я сплю ночью."
+                          },
+                          {
+                              "t": "こどもは <b>ねる</b>。",
+                              "n": "Ребёнок спит."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g2",
+              "name": "Hiragana — parte 2",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "は行 ま行 や行 ら行 わ行 ん + dakuten",
+              "reviewFrom": [
+                  "ja_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g2_L_ha",
+                      "isLetter": true,
+                      "letter": "は",
+                      "word": "は",
+                      "emoji": "🔤",
+                      "phonetic": "/ha/",
+                      "translation": "Звук <b>ха</b> — буква <b>は</b>.<br><i>Напоминает «ха» из смеха.</i>",
+                      "mnemonic": "Визуально похожа на человека с поднятой рукой, который говорит «ха!»",
+                      "examples": [
+                          {
+                              "t": "Слог <b>は</b> — как в слове <span class='hl'>はな</span> (цветок).",
+                              "n": "Напоминание: は произносится как «ха»."
+                          },
+                          {
+                              "t": "Частица <b>は</b> читается как «ва», когда указывает тему.<br>例: わたし<b>は</b> — «что касается меня»",
+                              "n": "Важно: は как частица — «ва»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_hi",
+                      "isLetter": true,
+                      "letter": "ひ",
+                      "word": "ひ",
+                      "emoji": "🔤",
+                      "phonetic": "/hi/",
+                      "translation": "Звук <b>хи</b> — буква <b>ひ</b>.",
+                      "mnemonic": "Похожа на улыбку до ушей — произноси «хи-и».",
+                      "examples": [
+                          {
+                              "t": "Слог <b>ひ</b> — как в слове <span class='hl'>ひと</span> (человек).",
+                              "n": "ひ = «хи»."
+                          },
+                          {
+                              "t": "Смех: <b>ひ</b>хихи — как хихиканье.",
+                              "n": "Ассоциация со смехом."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_fu",
+                      "isLetter": true,
+                      "letter": "ふ",
+                      "word": "ふ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɸɯ/",
+                      "translation": "Звук <b>фу</b> — буква <b>ふ</b>.<br><i>Губно-губной звук: как «ф», но без зубов.</i>",
+                      "mnemonic": "Похожа на гору Фудзи — произноси «фу».",
+                      "examples": [
+                          {
+                              "t": "Слог <b>ふ</b> — как в слове <span class='hl'>ふじ</span> (гора Фудзи).",
+                              "n": "ふ = «фу» с придыханием."
+                          },
+                          {
+                              "t": "Звук <b>ふ</b> — дуй на свечу, как «фу».",
+                              "n": "Губы округлены, без контакта с зубами."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_he",
+                      "isLetter": true,
+                      "letter": "へ",
+                      "word": "へ",
+                      "emoji": "🔤",
+                      "phonetic": "/he/",
+                      "translation": "Звук <b>хэ</b> — буква <b>へ</b>.<br><i>Направление: как стрелка вправо.</i>",
+                      "mnemonic": "Похожа на стрелку, указывающую направление — «хе».",
+                      "examples": [
+                          {
+                              "t": "Слог <b>へ</b> — как в слове <span class='hl'>へや</span> (комната).",
+                              "n": "へ = «хе»."
+                          },
+                          {
+                              "t": "Частица <b>へ</b> читается «э» — направление.<br>例: がっこう<b>へ</b> — в школу.",
+                              "n": "Как частица — «э»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ho",
+                      "isLetter": true,
+                      "letter": "ほ",
+                      "word": "ほ",
+                      "emoji": "🔤",
+                      "phonetic": "/ho/",
+                      "translation": "Звук <b>хо</b> — буква <b>ほ</b>.<br><i>Похожа на «は» с палочкой справа.</i>",
+                      "mnemonic": "Как «ха» с дополнительной палочкой — «хо».",
+                      "examples": [
+                          {
+                              "t": "Слог <b>ほ</b> — как в слове <span class='hl'>ほし</span> (звезда).",
+                              "n": "ほ = «хо»."
+                          },
+                          {
+                              "t": "<b>ほ</b> — как «хо» в слове «хохот».",
+                              "n": "Ассоциация с хохотом."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ma",
+                      "isLetter": true,
+                      "letter": "ま",
+                      "word": "ま",
+                      "emoji": "🔤",
+                      "phonetic": "/ma/",
+                      "translation": "Звук <b>ма</b> — буква <b>ま</b>.",
+                      "mnemonic": "Похожа на раскрытую ладонь — «ма» (как «мама»).",
+                      "examples": [
+                          {
+                              "t": "Слог <b>ま</b> — как в слове <span class='hl'>まめ</span> (боб).",
+                              "n": "ま = «ма»."
+                          },
+                          {
+                              "t": "<b>ま</b> — как «ма» в слове «мама».",
+                              "n": "Ассоциация с мамой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_mi",
+                      "isLetter": true,
+                      "letter": "み",
+                      "word": "み",
+                      "emoji": "🔤",
+                      "phonetic": "/mi/",
+                      "translation": "Звук <b>ми</b> — буква <b>み</b>.",
+                      "mnemonic": "Похожа на улыбающегося кота — «ми» (как «ми-ми-ми»).",
+                      "examples": [
+                          {
+                              "t": "Слог <b>み</b> — как в слове <span class='hl'>みみ</span> (ухо).",
+                              "n": "み = «ми»."
+                          },
+                          {
+                              "t": "<b>み</b> — как «ми» в слове «милый».",
+                              "n": "Ассоциация с милотой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_mu",
+                      "isLetter": true,
+                      "letter": "む",
+                      "word": "む",
+                      "emoji": "🔤",
+                      "phonetic": "/mɯ/",
+                      "translation": "Звук <b>му</b> — буква <b>む</b>.",
+                      "mnemonic": "Похожа на коровью морду — «му» (как мычание).",
+                      "examples": [
+                          {
+                              "t": "Слог <b>む</b> — как в слове <span class='hl'>むし</span> (насекомое).",
+                              "n": "む = «му»."
+                          },
+                          {
+                              "t": "<b>む</b> — как мычание коровы «му».",
+                              "n": "Ассоциация с коровой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_me",
+                      "isLetter": true,
+                      "letter": "め",
+                      "word": "め",
+                      "emoji": "🔤",
+                      "phonetic": "/me/",
+                      "translation": "Звук <b>мэ</b> — буква <b>め</b>.",
+                      "mnemonic": "Похожа на глаз (め = глаз) — произноси «мэ».",
+                      "examples": [
+                          {
+                              "t": "Слог <b>め</b> — как в слове <span class='hl'>め</span> (глаз).",
+                              "n": "め = «мэ»."
+                          },
+                          {
+                              "t": "<b>め</b> — как «мэ» в слове «мэр».",
+                              "n": "Ассоциация с мэром."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_mo",
+                      "isLetter": true,
+                      "letter": "も",
+                      "word": "も",
+                      "emoji": "🔤",
+                      "phonetic": "/mo/",
+                      "translation": "Звук <b>мо</b> — буква <b>も</b>.",
+                      "mnemonic": "Похожа на две палочки, связанные вместе — «мо» (как «мост»).",
+                      "examples": [
+                          {
+                              "t": "Слог <b>も</b> — как в слове <span class='hl'>もり</span> (лес).",
+                              "n": "も = «мо»."
+                          },
+                          {
+                              "t": "<b>も</b> — как «мо» в слове «море».",
+                              "n": "Ассоциация с морем."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ya",
+                      "isLetter": true,
+                      "letter": "や",
+                      "word": "や",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Звук <b>я</b> — буква <b>や</b>.",
+                      "mnemonic": "Похожа на ветку с листьями — «я» (как «яблоко»).",
+                      "examples": [
+                          {
+                              "t": "Слог <b>や</b> — как в слове <span class='hl'>やま</span> (гора).",
+                              "n": "や = «я»."
+                          },
+                          {
+                              "t": "<b>や</b> — как «я» в слове «яма».",
+                              "n": "Ассоциация с ямой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_yu",
+                      "isLetter": true,
+                      "letter": "ゆ",
+                      "word": "ゆ",
+                      "emoji": "🔤",
+                      "phonetic": "/jɯ/",
+                      "translation": "Звук <b>ю</b> — буква <b>ゆ</b>.",
+                      "mnemonic": "Похожа на рыбу с хвостом — «ю» (как «юла»).",
+                      "examples": [
+                          {
+                              "t": "Слог <b>ゆ</b> — как в слове <span class='hl'>ゆき</span> (снег).",
+                              "n": "ゆ = «ю»."
+                          },
+                          {
+                              "t": "<b>ゆ</b> — как «ю» в слове «юбка».",
+                              "n": "Ассоциация с юбкой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_yo",
+                      "isLetter": true,
+                      "letter": "よ",
+                      "word": "よ",
+                      "emoji": "🔤",
+                      "phonetic": "/jo/",
+                      "translation": "Звук <b>ё</b> — буква <b>よ</b>.",
+                      "mnemonic": "Похожа на ключ — «ё» (как «ёлка»).",
+                      "examples": [
+                          {
+                              "t": "Слог <b>よ</b> — как в слове <span class='hl'>よる</span> (ночь).",
+                              "n": "よ = «ё»."
+                          },
+                          {
+                              "t": "<b>よ</b> — как «ё» в слове «ёж».",
+                              "n": "Ассоциация с ежом."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ra",
+                      "isLetter": true,
+                      "letter": "ら",
+                      "word": "ら",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾa/",
+                      "translation": "Звук <b>ра</b> — буква <b>ら</b>.<br><i>Язык касается альвеол — как испанская «r».</i>",
+                      "mnemonic": "Похожа на цифру 5 — произноси «ра».",
+                      "examples": [
+                          {
+                              "t": "Слог <b>ら</b> — как в слове <span class='hl'>らくだ</span> (верблюд).",
+                              "n": "ら = «ра»."
+                          },
+                          {
+                              "t": "<b>ら</b> — как «ра» в слове «рама».",
+                              "n": "Ассоциация с рамой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ri",
+                      "isLetter": true,
+                      "letter": "り",
+                      "word": "り",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾi/",
+                      "translation": "Звук <b>ри</b> — буква <b>ри</b>.",
+                      "mnemonic": "Похожа на две палочки — как «ри» в слове «рис».",
+                      "examples": [
+                          {
+                              "t": "Слог <b>り</b> — как в слове <span class='hl'>りんご</span> (яблоко).",
+                              "n": "り = «ри»."
+                          },
+                          {
+                              "t": "<b>ри</b> — как «ри» в слове «рис».",
+                              "n": "Ассоциация с рисом."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ru",
+                      "isLetter": true,
+                      "letter": "る",
+                      "word": "る",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾɯ/",
+                      "translation": "Звук <b>ру</b> — буква <b>ру</b>.",
+                      "mnemonic": "Похожа на цифру 3 с хвостиком — «ру».",
+                      "examples": [
+                          {
+                              "t": "Слог <b>る</b> — как в слове <span class='hl'>くるま</span> (машина).",
+                              "n": "る = «ру»."
+                          },
+                          {
+                              "t": "<b>る</b> — как «ру» в слове «рука».",
+                              "n": "Ассоциация с рукой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_re",
+                      "isLetter": true,
+                      "letter": "れ",
+                      "word": "れ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾe/",
+                      "translation": "Звук <b>рэ</b> — буква <b>れ</b>.",
+                      "mnemonic": "Похожа на «ね» без петли — «рэ» (как «рэп»).",
+                      "examples": [
+                          {
+                              "t": "Слог <b>れ</b> — как в слове <span class='hl'>れきし</span> (история).",
+                              "n": "れ = «рэ»."
+                          },
+                          {
+                              "t": "<b>れ</b> — как «рэ» в слове «рэп».",
+                              "n": "Ассоциация с рэпом."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ro",
+                      "isLetter": true,
+                      "letter": "ろ",
+                      "word": "ろ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾo/",
+                      "translation": "Звук <b>ро</b> — буква <b>ро</b>.",
+                      "mnemonic": "Похожа на «る» без хвостика — «ро» (как «рот»).",
+                      "examples": [
+                          {
+                              "t": "Слог <b>ろ</b> — как в слове <span class='hl'>ろく</span> (шесть).",
+                              "n": "ろ = «ро»."
+                          },
+                          {
+                              "t": "<b>ろ</b> — как «ро» в слове «роза».",
+                              "n": "Ассоциация с розой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_wa",
+                      "isLetter": true,
+                      "letter": "わ",
+                      "word": "わ",
+                      "emoji": "🔤",
+                      "phonetic": "/wa/",
+                      "translation": "Звук <b>ва</b> — буква <b>わ</b>.",
+                      "mnemonic": "Похожа на «う」 с палочкой — «ва» (как «вата»).",
+                      "examples": [
+                          {
+                              "t": "Слог <b>わ</b> — как в слове <span class='hl'>わたし</span> (я).",
+                              "n": "わ = «ва»."
+                          },
+                          {
+                              "t": "<b>わ</b> — как «ва» в слове «вата».",
+                              "n": "Ассоциация с ватой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_wo",
+                      "isLetter": true,
+                      "letter": "を",
+                      "word": "を",
+                      "emoji": "🔤",
+                      "phonetic": "/o/ (как частица)",
+                      "translation": "Звук <b>о</b> — буква <b>を</b>.<br><i>Используется только как частица винительного падежа.</i>",
+                      "mnemonic": "Похожа на «お» с дополнительной чертой — «о».",
+                      "examples": [
+                          {
+                              "t": "Частица <b>を</b> указывает объект: みず<b>を</b>のむ — пить воду.",
+                              "n": "を читается как «о»."
+                          },
+                          {
+                              "t": "<b>を</b> — никогда не используется в словах, только как частица.",
+                              "n": "Важно: не путать с お."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "ん",
+                      "word": "ん",
+                      "emoji": "🔤",
+                      "phonetic": "/ɴ/ (носовой)",
+                      "translation": "Звук <b>н</b> — буква <b>ん</b>.<br><i>Единственная согласная в хирагане.</i>",
+                      "mnemonic": "Похожа на волну — произноси «н» с носовым оттенком.",
+                      "examples": [
+                          {
+                              "t": "Слог <b>ん</b> — как в слове <span class='hl'>にほん</span> (Япония).",
+                              "n": "ん = «н»."
+                          },
+                          {
+                              "t": "<b>ん</b> — как «н» в слове «нос».",
+                              "n": "Ассоциация с носом."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_dakuten",
+                      "isLetter": true,
+                      "letter": "゛",
+                      "word": "゛",
+                      "emoji": "🔤",
+                      "phonetic": "дакутэн (озвончение)",
+                      "translation": "Знак <b>゛</b> (дакутэн) — добавляет звонкость.<br><i>か→が, さ→ざ, た→だ, は→ば.</i>",
+                      "mnemonic": "Две маленькие чёрточки — как «озвончение».",
+                      "examples": [
+                          {
+                              "t": "か + <b>゛</b> = が (га).",
+                              "n": "Пример озвончения."
+                          },
+                          {
+                              "t": "は + <b>゛</b> = ば (ба).",
+                              "n": "Ещё пример."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_handakuten",
+                      "isLetter": true,
+                      "letter": "゜",
+                      "word": "゜",
+                      "emoji": "🔤",
+                      "phonetic": "хандакутэн (полузвонкий)",
+                      "translation": "Знак <b>゜</b> (хандакутэн) — меняет は на ぱ.<br><i>Только для は行.</i>",
+                      "mnemonic": "Кружок — как «п» (губы округлены).",
+                      "examples": [
+                          {
+                              "t": "は + <b>゜</b> = ぱ (па).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "ひ + <b>゜</b> = ぴ (пи).",
+                              "n": "Ещё пример."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "は",
+                      "word": "はな",
+                      "emoji": "🌸",
+                      "phonetic": "/hana/",
+                      "translation": "<b>Цветок</b> (はな)",
+                      "translations": {
+                          "ja": "はな",
+                          "ru": "цветок",
+                          "en": "flower"
+                      },
+                      "examples": [
+                          {
+                              "t": "これは<b>はな</b>です。",
+                              "n": "Это цветок."
+                          },
+                          {
+                              "t": "<b>はな</b>がきれいです。",
+                              "n": "Цветок красивый."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "み",
+                      "word": "みず",
+                      "emoji": "💧",
+                      "phonetic": "/mizɯ/",
+                      "translation": "<b>Вода</b> (みず)",
+                      "translations": {
+                          "ja": "みず",
+                          "ru": "вода",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>みず</b>をください。",
+                              "n": "Дайте воды, пожалуйста."
+                          },
+                          {
+                              "t": "<b>みず</b>は冷たいです。",
+                              "n": "Вода холодная."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "や",
+                      "word": "やま",
+                      "emoji": "⛰️",
+                      "phonetic": "/jama/",
+                      "translation": "<b>Гора</b> (やま)",
+                      "translations": {
+                          "ja": "やま",
+                          "ru": "гора",
+                          "en": "mountain"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>やま</b>が高いです。",
+                              "n": "Гора высокая."
+                          },
+                          {
+                              "t": "<b>やま</b>に登ります。",
+                              "n": "Я поднимаюсь на гору."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "ら",
+                      "word": "られる",
+                      "emoji": "💪",
+                      "phonetic": "/rarerɯ/",
+                      "translation": "<b>Мочь</b> (потенциальная форма)",
+                      "translations": {
+                          "ja": "られる",
+                          "ru": "мочь (делать что-то)",
+                          "en": "can do"
+                      },
+                      "examples": [
+                          {
+                              "t": "日本語が話せ<b>られる</b>。",
+                              "n": "Я могу говорить по-японски."
+                          },
+                          {
+                              "t": "これは食べ<b>られる</b>。",
+                              "n": "Это можно съесть."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "わ",
+                      "word": "わたし",
+                      "emoji": "🙋",
+                      "phonetic": "/watasi/",
+                      "translation": "<b>Я</b> (わたし)",
+                      "translations": {
+                          "ja": "わたし",
+                          "ru": "я",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>わたし</b>はロシア人です。",
+                              "n": "Я русский."
+                          },
+                          {
+                              "t": "<b>わたし</b>の名前はアンナです。",
+                              "n": "Меня зовут Анна."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "あ",
+                      "word": "ありがとう",
+                      "emoji": "🙏",
+                      "phonetic": "/aɾigatoː/",
+                      "translation": "<b>Спасибо</b> (ありがとう)",
+                      "translations": {
+                          "ja": "ありがとう",
+                          "ru": "спасибо",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ありがとう</b>ございます。",
+                              "n": "Большое спасибо (вежливо)."
+                          },
+                          {
+                              "t": "<b>ありがとう</b>！",
+                              "n": "Спасибо!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "に",
+                      "word": "にほん",
+                      "emoji": "🇯🇵",
+                      "phonetic": "/nihon/",
+                      "translation": "<b>Япония</b> (にほん)",
+                      "translations": {
+                          "ja": "にほん",
+                          "ru": "Япония",
+                          "en": "Japan"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>にほん</b>はきれいです。",
+                              "n": "Япония красивая."
+                          },
+                          {
+                              "t": "<b>にほん</b>ごを勉強します。",
+                              "n": "Я учу японский язык."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g3",
+              "name": "Katakana — parte 1",
+              "icon": "🔠",
+              "color": "#10b981",
+              "description": "ア行 カ行 サ行 タ行 ナ行 — comparando con hiragana",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "ア",
+                      "word": "ア",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "<b>ア</b> — звук [a], как в русском «а». <br><i>Хирагана: あ</i>",
+                      "mnemonic": "Похожа на букву «А» без перекладины — как «а» с отломанной палкой.",
+                      "examples": [
+                          {
+                              "t": "ア — первый звук в слове <b>ア</bメリカ (Amerika)",
+                              "n": "Америка — заимствованное слово."
+                          },
+                          {
+                              "t": "Сравни с <b>あ</b>: у катаканы углы, у хираганы плавные линии.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "イ",
+                      "word": "イ",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "<b>イ</b> — звук [i], как русское «и». <br><i>Хирагана: い</i>",
+                      "mnemonic": "Две палочки — как «и» с двумя точками, только без точек.",
+                      "examples": [
+                          {
+                              "t": "イ — в слове <b>イ</b>タリア (Itaria)",
+                              "n": "Италия."
+                          },
+                          {
+                              "t": "Сравни с <b>い</b>: у катаканы левая палочка длиннее.",
+                              "n": "Обрати внимание на наклон."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_u",
+                      "isLetter": true,
+                      "letter": "ウ",
+                      "word": "ウ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɯ/",
+                      "translation": "<b>ウ</b> — звук [u], похож на русское «у», но губы не округляются. <br><i>Хирагана: う</i>",
+                      "mnemonic": "Похожа на «у» с крышей — как домик для «у».",
+                      "examples": [
+                          {
+                              "t": "ウ — в слове <b>ウ</b>クライナ (Ukuraina)",
+                              "n": "Украина."
+                          },
+                          {
+                              "t": "Сравни с <b>う</b>: катакана выглядит как угол, хирагана — как волна.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "エ",
+                      "word": "エ",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "<b>エ</b> — звук [e], как русское «э». <br><i>Хирагана: え</i>",
+                      "mnemonic": "Похожа на букву «E» с перекладиной — как «э» с полкой.",
+                      "examples": [
+                          {
+                              "t": "エ — в слове <b>エ</b>ジプト (Ejiputo)",
+                              "n": "Египет."
+                          },
+                          {
+                              "t": "Сравни с <b>え</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "オ",
+                      "word": "オ",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "<b>オ</b> — звук [o], как русское «о». <br><i>Хирагана: お</i>",
+                      "mnemonic": "Похожа на «о» с палочкой — как «о» с мечом.",
+                      "examples": [
+                          {
+                              "t": "オ — в слове <b>オ</b>ーストラリア (Ōsutoraria)",
+                              "n": "Австралия."
+                          },
+                          {
+                              "t": "Сравни с <b>お</b>: у катаканы палочка слева, у хираганы — справа.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ka",
+                      "isLetter": true,
+                      "letter": "カ",
+                      "word": "カ",
+                      "emoji": "🔤",
+                      "phonetic": "/ka/",
+                      "translation": "<b>カ</b> — звук [ka]. <br><i>Хирагана: か</i>",
+                      "mnemonic": "Похожа на «ка» с палкой — как «ка» с мечом.",
+                      "examples": [
+                          {
+                              "t": "カ — в слове <b>カ</b>ナダ (Kanada)",
+                              "n": "Канада."
+                          },
+                          {
+                              "t": "Сравни с <b>か</b>: у катаканы палка слева, у хираганы — справа.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ki",
+                      "isLetter": true,
+                      "letter": "キ",
+                      "word": "キ",
+                      "emoji": "🔤",
+                      "phonetic": "/ki/",
+                      "translation": "<b>キ</b> — звук [ki]. <br><i>Хирагана: き</i>",
+                      "mnemonic": "Две палочки с перекладиной — как «ки» с двумя ногами.",
+                      "examples": [
+                          {
+                              "t": "キ — в слове <b>キ</b>ロ (kiro)",
+                              "n": "Кило (грамм)."
+                          },
+                          {
+                              "t": "Сравни с <b>き</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ku",
+                      "isLetter": true,
+                      "letter": "ク",
+                      "word": "ク",
+                      "emoji": "🔤",
+                      "phonetic": "/kɯ/",
+                      "translation": "<b>ク</b> — звук [ku]. <br><i>Хирагана: く</i>",
+                      "mnemonic": "Похожа на «ку» с клювом — как птица.",
+                      "examples": [
+                          {
+                              "t": "ク — в слове <b>ク</b>ラス (kurasu)",
+                              "n": "Класс (в школе)."
+                          },
+                          {
+                              "t": "Сравни с <b>く</b>: катакана — острее, хирагана — круглее.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ke",
+                      "isLetter": true,
+                      "letter": "ケ",
+                      "word": "ケ",
+                      "emoji": "🔤",
+                      "phonetic": "/ke/",
+                      "translation": "<b>ケ</b> — звук [ke]. <br><i>Хирагана: け</i>",
+                      "mnemonic": "Похожа на «ке» с крышей — как домик.",
+                      "examples": [
+                          {
+                              "t": "ケ — в слове <b>ケ</b>ーキ (kēki)",
+                              "n": "Торт (кейк)."
+                          },
+                          {
+                              "t": "Сравни с <b>け</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ko",
+                      "isLetter": true,
+                      "letter": "コ",
+                      "word": "コ",
+                      "emoji": "🔤",
+                      "phonetic": "/ko/",
+                      "translation": "<b>コ</b> — звук [ko]. <br><i>Хирагана: こ</i>",
+                      "mnemonic": "Похожа на «ко» с полкой — как «ко» с этажом.",
+                      "examples": [
+                          {
+                              "t": "コ — в слове <b>コ</b>ーヒー (kōhī)",
+                              "n": "Кофе."
+                          },
+                          {
+                              "t": "Сравни с <b>こ</b>: катакана — угловатая, хирагана — изогнутая.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_sa",
+                      "isLetter": true,
+                      "letter": "サ",
+                      "word": "サ",
+                      "emoji": "🔤",
+                      "phonetic": "/sa/",
+                      "translation": "<b>サ</b> — звук [sa]. <br><i>Хирагана: さ</i>",
+                      "mnemonic": "Похожа на «са» с крышей — как «са» с зонтиком.",
+                      "examples": [
+                          {
+                              "t": "サ — в слове <b>サ</b>ラダ (sarada)",
+                              "n": "Салат."
+                          },
+                          {
+                              "t": "Сравни с <b>さ</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_shi",
+                      "isLetter": true,
+                      "letter": "シ",
+                      "word": "シ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕi/",
+                      "translation": "<b>シ</b> — звук [shi]. <br><i>Хирагана: し</i>",
+                      "mnemonic": "Три палочки — как «си» с тремя пальцами.",
+                      "examples": [
+                          {
+                              "t": "シ — в слове <b>シ</b>ャツ (shatsu)",
+                              "n": "Рубашка."
+                          },
+                          {
+                              "t": "Сравни с <b>し</b>: катакана — угловатая, хирагана — плавная.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_su",
+                      "isLetter": true,
+                      "letter": "ス",
+                      "word": "ス",
+                      "emoji": "🔤",
+                      "phonetic": "/sɯ/",
+                      "translation": "<b>ス</b> — звук [su]. <br><i>Хирагана: す</i>",
+                      "mnemonic": "Похожа на «су» с крючком — как «су» с хвостиком.",
+                      "examples": [
+                          {
+                              "t": "ス — в слове <b>ス</b>ープ (sūpu)",
+                              "n": "Суп."
+                          },
+                          {
+                              "t": "Сравни с <b>す</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_se",
+                      "isLetter": true,
+                      "letter": "セ",
+                      "word": "セ",
+                      "emoji": "🔤",
+                      "phonetic": "/se/",
+                      "translation": "<b>セ</b> — звук [se]. <br><i>Хирагана: せ</i>",
+                      "mnemonic": "Похожа на «се» с палкой — как «се» с мечом.",
+                      "examples": [
+                          {
+                              "t": "セ — в слове <b>セ</b>ーター (sētā)",
+                              "n": "Свитер."
+                          },
+                          {
+                              "t": "Сравни с <b>せ</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_so",
+                      "isLetter": true,
+                      "letter": "ソ",
+                      "word": "ソ",
+                      "emoji": "🔤",
+                      "phonetic": "/so/",
+                      "translation": "<b>ソ</b> — звук [so]. <br><i>Хирагана: そ</i>",
+                      "mnemonic": "Две палочки — как «со» с двумя пальцами.",
+                      "examples": [
+                          {
+                              "t": "ソ — в слове <b>ソ</b>ファ (sofa)",
+                              "n": "Диван."
+                          },
+                          {
+                              "t": "Сравни с <b>そ</b>: катакана — угловатая, хирагана — плавная.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ta",
+                      "isLetter": true,
+                      "letter": "タ",
+                      "word": "タ",
+                      "emoji": "🔤",
+                      "phonetic": "/ta/",
+                      "translation": "<b>タ</b> — звук [ta]. <br><i>Хирагана: た</i>",
+                      "mnemonic": "Похожа на «та» с крышей — как «та» с зонтиком.",
+                      "examples": [
+                          {
+                              "t": "タ — в слове <b>タ</b>クシー (takushī)",
+                              "n": "Такси."
+                          },
+                          {
+                              "t": "Сравни с <b>た</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_chi",
+                      "isLetter": true,
+                      "letter": "チ",
+                      "word": "チ",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕi/",
+                      "translation": "<b>チ</b> — звук [chi]. <br><i>Хирагана: ち</i>",
+                      "mnemonic": "Похожа на «чи» с палкой — как «чи» с мечом.",
+                      "examples": [
+                          {
+                              "t": "チ — в слове <b>チ</b>ーズ (chīzu)",
+                              "n": "Сыр."
+                          },
+                          {
+                              "t": "Сравни с <b>ち</b>: катакана — угловатая, хирагана — плавная.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_tsu",
+                      "isLetter": true,
+                      "letter": "ツ",
+                      "word": "ツ",
+                      "emoji": "🔤",
+                      "phonetic": "/tsɯ/",
+                      "translation": "<b>ツ</b> — звук [tsu]. <br><i>Хирагана: つ</i>",
+                      "mnemonic": "Три палочки — как «цу» с тремя пальцами.",
+                      "examples": [
+                          {
+                              "t": "ツ — в слове <b>ツ</b>アー (tsuā)",
+                              "n": "Тур (поездка)."
+                          },
+                          {
+                              "t": "Сравни с <b>つ</b>: катакана — угловатая, хирагана — плавная.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_te",
+                      "isLetter": true,
+                      "letter": "テ",
+                      "word": "テ",
+                      "emoji": "🔤",
+                      "phonetic": "/te/",
+                      "translation": "<b>テ</b> — звук [te]. <br><i>Хирагана: て</i>",
+                      "mnemonic": "Похожа на «те» с крышей — как «те» с зонтиком.",
+                      "examples": [
+                          {
+                              "t": "テ — в слове <b>テ</b>レビ (terebi)",
+                              "n": "Телевизор."
+                          },
+                          {
+                              "t": "Сравни с <b>て</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_to",
+                      "isLetter": true,
+                      "letter": "ト",
+                      "word": "ト",
+                      "emoji": "🔤",
+                      "phonetic": "/to/",
+                      "translation": "<b>ト</b> — звук [to]. <br><i>Хирагана: と</i>",
+                      "mnemonic": "Похожа на «то» с палкой — как «то» с мечом.",
+                      "examples": [
+                          {
+                              "t": "ト — в слове <b>ト</b>マト (tomato)",
+                              "n": "Помидор."
+                          },
+                          {
+                              "t": "Сравни с <b>と</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_na",
+                      "isLetter": true,
+                      "letter": "ナ",
+                      "word": "ナ",
+                      "emoji": "🔤",
+                      "phonetic": "/na/",
+                      "translation": "<b>ナ</b> — звук [na]. <br><i>Хирагана: な</i>",
+                      "mnemonic": "Похожа на «на» с крышей — как «на» с зонтиком.",
+                      "examples": [
+                          {
+                              "t": "ナ — в слове <b>ナ</b>イフ (naifu)",
+                              "n": "Нож."
+                          },
+                          {
+                              "t": "Сравни с <b>な</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ni",
+                      "isLetter": true,
+                      "letter": "ニ",
+                      "word": "ニ",
+                      "emoji": "🔤",
+                      "phonetic": "/nʲi/",
+                      "translation": "<b>ニ</b> — звук [ni]. <br><i>Хирагана: に</i>",
+                      "mnemonic": "Две палочки — как «ни» с двумя пальцами.",
+                      "examples": [
+                          {
+                              "t": "ニ — в слове <b>ニ</b>ュース (nyūsu)",
+                              "n": "Новости."
+                          },
+                          {
+                              "t": "Сравни с <b>に</b>: катакана — угловатая, хирагана — плавная.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_nu",
+                      "isLetter": true,
+                      "letter": "ヌ",
+                      "word": "ヌ",
+                      "emoji": "🔤",
+                      "phonetic": "/nɯ/",
+                      "translation": "<b>ヌ</b> — звук [nu]. <br><i>Хирагана: ぬ</i>",
+                      "mnemonic": "Похожа на «ну» с хвостиком — как «ну» с крючком.",
+                      "examples": [
+                          {
+                              "t": "ヌ — в слове <b>ヌ</b>ードル (nūdoru)",
+                              "n": "Лапша."
+                          },
+                          {
+                              "t": "Сравни с <b>ぬ</b>: катакана — угловатая, хирагана — плавная.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ne",
+                      "isLetter": true,
+                      "letter": "ネ",
+                      "word": "ネ",
+                      "emoji": "🔤",
+                      "phonetic": "/ne/",
+                      "translation": "<b>ネ</b> — звук [ne]. <br><i>Хирагана: ね</i>",
+                      "mnemonic": "Похожа на «не» с палкой — как «не» с мечом.",
+                      "examples": [
+                          {
+                              "t": "ネ — в слове <b>ネ</b>クタイ (nekutai)",
+                              "n": "Галстук."
+                          },
+                          {
+                              "t": "Сравни с <b>ね</b>: катакана — прямая, хирагана — с изгибом.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_no",
+                      "isLetter": true,
+                      "letter": "ノ",
+                      "word": "ノ",
+                      "emoji": "🔤",
+                      "phonetic": "/no/",
+                      "translation": "<b>ノ</b> — звук [no]. <br><i>Хирагана: の</i>",
+                      "mnemonic": "Одна палочка — как «но» с хвостиком.",
+                      "examples": [
+                          {
+                              "t": "ノ — в слове <b>ノ</b>ート (nōto)",
+                              "n": "Тетрадь."
+                          },
+                          {
+                              "t": "Сравни с <b>の</b>: катакана — прямая, хирагана — круг.",
+                              "n": "Запомни: катакана — «угловатая»."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "コ",
+                      "word": "コーヒー",
+                      "emoji": "☕",
+                      "phonetic": "/koːçiː/",
+                      "translation": "<b>コーヒー</b> — «кофе» (от англ. coffee)",
+                      "translations": {
+                          "ja": "コーヒー",
+                          "ru": "кофе",
+                          "en": "coffee"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>コーヒー</b>を飲みます。",
+                              "n": "Я пью кофе."
+                          },
+                          {
+                              "t": "この<b>コーヒー</b>はおいしいです。",
+                              "n": "Этот кофе вкусный."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "テ",
+                      "word": "テレビ",
+                      "emoji": "📺",
+                      "phonetic": "/teɾebi/",
+                      "translation": "<b>テレビ</b> — «телевизор» (сокращение от англ. television)",
+                      "translations": {
+                          "ja": "テレビ",
+                          "ru": "телевизор",
+                          "en": "TV"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>テレビ</b>を見ます。",
+                              "n": "Я смотрю телевизор."
+                          },
+                          {
+                              "t": "部屋に<b>テレビ</b>があります。",
+                              "n": "В комнате есть телевизор."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "ア",
+                      "word": "アイスクリーム",
+                      "emoji": "🍨",
+                      "phonetic": "/aisɯkɯɾiːmɯ/",
+                      "translation": "<b>アイスクリーム</b> — «мороженое» (от англ. ice cream)",
+                      "translations": {
+                          "ja": "アイスクリーム",
+                          "ru": "мороженое",
+                          "en": "ice cream"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>アイスクリーム</b>を食べます。",
+                              "n": "Я ем мороженое."
+                          },
+                          {
+                              "t": "夏は<b>アイスクリーム</b>が人気です。",
+                              "n": "Летом мороженое популярно."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "タ",
+                      "word": "タクシー",
+                      "emoji": "🚕",
+                      "phonetic": "/takɯɕiː/",
+                      "translation": "<b>タクシー</b> — «такси» (от англ. taxi)",
+                      "translations": {
+                          "ja": "タクシー",
+                          "ru": "такси",
+                          "en": "taxi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>タクシー</b>で行きます。",
+                              "n": "Я поеду на такси."
+                          },
+                          {
+                              "t": "<b>タクシー</b>を呼びます。",
+                              "n": "Я вызову такси."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "ニ",
+                      "word": "ニュース",
+                      "emoji": "📰",
+                      "phonetic": "/nʲɯːsɯ/",
+                      "translation": "<b>ニュース</b> — «новости» (от англ. news)",
+                      "translations": {
+                          "ja": "ニュース",
+                          "ru": "новости",
+                          "en": "news"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ニュース</b>を見ます。",
+                              "n": "Я смотрю новости."
+                          },
+                          {
+                              "t": "毎日<b>ニュース</b>をチェックします。",
+                              "n": "Каждый день проверяю новости."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g4",
+              "name": "Katakana — parte 2",
+              "icon": "🔣",
+              "color": "#ef4444",
+              "description": "ハ行 マ行 ヤ行 ラ行 ワ行 + préstamos",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2",
+                  "ja_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g4_L_ha",
+                      "isLetter": true,
+                      "letter": "ハ",
+                      "word": "ハ",
+                      "emoji": "🔤",
+                      "phonetic": "/ha/",
+                      "translation": "Звук <b>ха</b>. Похож на букву <i>ha</i>, но без верхней перекладины.",
+                      "mnemonic": "Похожа на букву «Н» с раздвинутыми ногами — как будто говоришь «ха!».",
+                      "examples": [
+                          {
+                              "t": "<b>ハ</b> в слове <i>ハワイ</i> (Гавайи).",
+                              "n": "Пример использования."
+                          },
+                          {
+                              "t": "Рисуется как две линии, расходящиеся вниз.",
+                              "n": "Подсказка по написанию."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_hi",
+                      "isLetter": true,
+                      "letter": "ヒ",
+                      "word": "ヒ",
+                      "emoji": "🔤",
+                      "phonetic": "/çi/",
+                      "translation": "Звук <b>хи</b> (мягкий, как в «хихи»).",
+                      "mnemonic": "Похожа на улыбку с одним глазом — как будто кто-то смеётся «хи-хи».",
+                      "examples": [
+                          {
+                              "t": "<b>ヒ</b> в слове <i>ヒーター</i> (обогреватель).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Одна горизонтальная линия и вертикальная, пересекающая её.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_fu",
+                      "isLetter": true,
+                      "letter": "フ",
+                      "word": "フ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɸɯ/",
+                      "translation": "Звук <b>фу</b> (между «ф» и «х», с округлёнными губами).",
+                      "mnemonic": "Похожа на крышу или шляпу — как будто снимаешь шляпу и говоришь «фух».",
+                      "examples": [
+                          {
+                              "t": "<b>フ</b> в слове <i>フランス</i> (Франция).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как уголок, открытый вниз.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_he",
+                      "isLetter": true,
+                      "letter": "ヘ",
+                      "word": "ヘ",
+                      "emoji": "🔤",
+                      "phonetic": "/he/",
+                      "translation": "Звук <b>хэ</b>.",
+                      "mnemonic": "Похожа на стрелку вверх или на «меньше» — как будто говоришь «хе» и показываешь направление.",
+                      "examples": [
+                          {
+                              "t": "<b>ヘ</b> в слове <i>ヘリコプター</i> (вертолёт).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Одна линия, изогнутая как дуга.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ho",
+                      "isLetter": true,
+                      "letter": "ホ",
+                      "word": "ホ",
+                      "emoji": "🔤",
+                      "phonetic": "/ho/",
+                      "translation": "Звук <b>хо</b>.",
+                      "mnemonic": "Похожа на букву «Н» с крестиком сверху — как будто дерево с ветками.",
+                      "examples": [
+                          {
+                              "t": "<b>ホ</b> в слове <i>ホテル</i> (отель).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как «Н» с дополнительной чертой сверху.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ma",
+                      "isLetter": true,
+                      "letter": "マ",
+                      "word": "マ",
+                      "emoji": "🔤",
+                      "phonetic": "/ma/",
+                      "translation": "Звук <b>ма</b>.",
+                      "mnemonic": "Похожа на букву «м» в зеркале, но с острым верхом.",
+                      "examples": [
+                          {
+                              "t": "<b>マ</b> в слове <i>マンゴー</i> (манго).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Две линии, образующие угол, и горизонтальная черта снизу.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mi",
+                      "isLetter": true,
+                      "letter": "ミ",
+                      "word": "ミ",
+                      "emoji": "🔤",
+                      "phonetic": "/mi/",
+                      "translation": "Звук <b>ми</b>.",
+                      "mnemonic": "Три линии, как три ноты — напоминает «ми» в музыке.",
+                      "examples": [
+                          {
+                              "t": "<b>ミ</b> в слове <i>ミルク</i> (молоко).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Три параллельные линии, наклонённые вниз.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mu",
+                      "isLetter": true,
+                      "letter": "ム",
+                      "word": "ム",
+                      "emoji": "🔤",
+                      "phonetic": "/mɯ/",
+                      "translation": "Звук <b>му</b>.",
+                      "mnemonic": "Похожа на коровью морду с рогами — корова мычит «му».",
+                      "examples": [
+                          {
+                              "t": "<b>ム</b> в слове <i>ムード</i> (настроение).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как угол с точкой или чёрточкой сверху.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_me",
+                      "isLetter": true,
+                      "letter": "メ",
+                      "word": "メ",
+                      "emoji": "🔤",
+                      "phonetic": "/me/",
+                      "translation": "Звук <b>мэ</b>.",
+                      "mnemonic": "Похожа на букву «X» или на крест — как будто говоришь «мэ» и ставишь крест.",
+                      "examples": [
+                          {
+                              "t": "<b>メ</b> в слове <i>メール</i> (почта).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Две линии, пересекающиеся как крест.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mo",
+                      "isLetter": true,
+                      "letter": "モ",
+                      "word": "モ",
+                      "emoji": "🔤",
+                      "phonetic": "/mo/",
+                      "translation": "Звук <b>мо</b>.",
+                      "mnemonic": "Похожа на букву «М» с дополнительной чертой сверху — как будто «мо» с шляпой.",
+                      "examples": [
+                          {
+                              "t": "<b>モ</b> в слове <i>モーター</i> (мотор).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как «М» с крышей.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ya",
+                      "isLetter": true,
+                      "letter": "ヤ",
+                      "word": "ヤ",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Звук <b>я</b> (йа).",
+                      "mnemonic": "Похожа на букву «Y» с дополнительной чертой — как будто говоришь «я» и показываешь на себя.",
+                      "examples": [
+                          {
+                              "t": "<b>ヤ</b> в слове <i>ヤクルト</i> (напиток).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как «Y» с горизонтальной чертой.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_yu",
+                      "isLetter": true,
+                      "letter": "ユ",
+                      "word": "ユ",
+                      "emoji": "🔤",
+                      "phonetic": "/jɯ/",
+                      "translation": "Звук <b>ю</b> (йу).",
+                      "mnemonic": "Похожа на букву «U» с ножкой — как будто «ю» в виде подковы.",
+                      "examples": [
+                          {
+                              "t": "<b>ユ</b> в слове <i>ユーモア</i> (юмор).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как «U» с вертикальной линией снизу.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_yo",
+                      "isLetter": true,
+                      "letter": "ヨ",
+                      "word": "ヨ",
+                      "emoji": "🔤",
+                      "phonetic": "/jo/",
+                      "translation": "Звук <b>ё</b> (йо).",
+                      "mnemonic": "Похожа на букву «E» с тремя полосками — как будто «ё» с этажами.",
+                      "examples": [
+                          {
+                              "t": "<b>ヨ</b> в слове <i>ヨガ</i> (йога).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как «E» с тремя горизонтальными линиями.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ra",
+                      "isLetter": true,
+                      "letter": "ラ",
+                      "word": "ラ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾa/",
+                      "translation": "Звук <b>ра</b> (лёгкий, похож на испанскую «r»).",
+                      "mnemonic": "Похожа на букву «R» без ножки — как будто «ра» с хвостиком.",
+                      "examples": [
+                          {
+                              "t": "<b>ラ</b> в слове <i>ラジオ</i> (радио).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как «R» без нижней части.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ri",
+                      "isLetter": true,
+                      "letter": "リ",
+                      "word": "リ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾi/",
+                      "translation": "Звук <b>ри</b>.",
+                      "mnemonic": "Две вертикальные линии — как будто «ри» в виде двух столбиков.",
+                      "examples": [
+                          {
+                              "t": "<b>リ</b> в слове <i>リスト</i> (список).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как две параллельные линии.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ru",
+                      "isLetter": true,
+                      "letter": "ル",
+                      "word": "ル",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾɯ/",
+                      "translation": "Звук <b>ру</b>.",
+                      "mnemonic": "Похожа на букву «Z» с петлёй — как будто «ру» в виде крючка.",
+                      "examples": [
+                          {
+                              "t": "<b>ル</b> в слове <i>ルール</i> (правило).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как «Z» с изогнутой линией.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_re",
+                      "isLetter": true,
+                      "letter": "レ",
+                      "word": "レ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾe/",
+                      "translation": "Звук <b>рэ</b>.",
+                      "mnemonic": "Похожа на стрелку вниз — как будто указываешь вниз и говоришь «ре».",
+                      "examples": [
+                          {
+                              "t": "<b>レ</b> в слове <i>レストラン</i> (ресторан).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как линия с крючком внизу.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ro",
+                      "isLetter": true,
+                      "letter": "ロ",
+                      "word": "ロ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾo/",
+                      "translation": "Звук <b>ро</b>.",
+                      "mnemonic": "Похожа на квадрат или рот — как будто говоришь «ро» и открываешь рот.",
+                      "examples": [
+                          {
+                              "t": "<b>ロ</b> в слове <i>ロボット</i> (робот).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как квадрат.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_wa",
+                      "isLetter": true,
+                      "letter": "ワ",
+                      "word": "ワ",
+                      "emoji": "🔤",
+                      "phonetic": "/wa/",
+                      "translation": "Звук <b>ва</b>.",
+                      "mnemonic": "Похожа на букву «W» без верхних зубцов — как будто «ва» в виде волны.",
+                      "examples": [
+                          {
+                              "t": "<b>ワ</b> в слове <i>ワイン</i> (вино).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как «W» с обрезанным верхом.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_wo",
+                      "isLetter": true,
+                      "letter": "ヲ",
+                      "word": "ヲ",
+                      "emoji": "🔤",
+                      "phonetic": "/wo/ (обычно читается как /o/)",
+                      "translation": "Звук <b>во</b>, но в современном японском произносится как <b>о</b>. Используется только как частица.",
+                      "mnemonic": "Похожа на букву «W» с дополнительной чертой — как будто «во» с палочкой.",
+                      "examples": [
+                          {
+                              "t": "Частица <b>ヲ</b> указывает на объект действия.",
+                              "n": "Грамматическая функция."
+                          },
+                          {
+                              "t": "Пишется редко, в основном в катакане для иностранных имён.",
+                              "n": "Примечание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_n",
+                      "isLetter": true,
+                      "letter": "ン",
+                      "word": "ン",
+                      "emoji": "🔤",
+                      "phonetic": "/ɴ/ (носовой звук)",
+                      "translation": "Носовой звук <b>н</b> (в конце слога).",
+                      "mnemonic": "Похожа на волну или на букву «N» на боку — как будто «н» в виде зигзага.",
+                      "examples": [
+                          {
+                              "t": "<b>ン</b> в слове <i>パン</i> (хлеб).",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Рисуется как волнистая линия.",
+                              "n": "Написание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_long_vowel_mark",
+                      "isLetter": true,
+                      "letter": "ー",
+                      "word": "ー",
+                      "emoji": "🔤",
+                      "phonetic": "/ː/ (удлинение гласного)",
+                      "translation": "Знак долготы гласного — удлиняет предыдущий гласный звук.",
+                      "mnemonic": "Просто длинная черта — как будто тянешь звук.",
+                      "examples": [
+                          {
+                              "t": "В слове <i>ケーキ</i> (торт) звук «э» удлиняется.",
+                              "n": "Пример."
+                          },
+                          {
+                              "t": "Всегда пишется горизонтально в катакане.",
+                              "n": "Правило."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_01",
+                      "isLetter": false,
+                      "letter": "ホ",
+                      "word": "ホテル",
+                      "emoji": "🏨",
+                      "phonetic": "/hoteɾɯ/",
+                      "translation": "<b>отель</b> (от англ. <i>hotel</i>)",
+                      "translations": {
+                          "ja": "ホテル",
+                          "ru": "отель",
+                          "en": "hotel"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ホテル</b>はどこですか。",
+                              "n": "Где отель?"
+                          },
+                          {
+                              "t": "この<b>ホテル</b>は高いです。",
+                              "n": "Этот отель дорогой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_02",
+                      "isLetter": false,
+                      "letter": "レ",
+                      "word": "レストラン",
+                      "emoji": "🍽️",
+                      "phonetic": "/ɾesɯtoɾaɴ/",
+                      "translation": "<b>ресторан</b> (от англ. <i>restaurant</i>)",
+                      "translations": {
+                          "ja": "レストラン",
+                          "ru": "ресторан",
+                          "en": "restaurant"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>レストラン</b>で昼ご飯を食べます。",
+                              "n": "Я обедаю в ресторане."
+                          },
+                          {
+                              "t": "あの<b>レストラン</b>は人気です。",
+                              "n": "Тот ресторан популярен."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_03",
+                      "isLetter": false,
+                      "letter": "パ",
+                      "word": "パスポート",
+                      "emoji": "🛂",
+                      "phonetic": "/pasɯpoːto/",
+                      "translation": "<b>паспорт</b> (от англ. <i>passport</i>)",
+                      "translations": {
+                          "ja": "パスポート",
+                          "ru": "паспорт",
+                          "en": "passport"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>パスポート</b>を見せてください。",
+                              "n": "Покажите паспорт."
+                          },
+                          {
+                              "t": "<b>パスポート</b>を忘れました。",
+                              "n": "Я забыл паспорт."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_04",
+                      "isLetter": false,
+                      "letter": "ス",
+                      "word": "スマートフォン",
+                      "emoji": "📱",
+                      "phonetic": "/sɯmaːtoɸoɴ/",
+                      "translation": "<b>смартфон</b> (от англ. <i>smartphone</i>)",
+                      "translations": {
+                          "ja": "スマートフォン",
+                          "ru": "смартфон",
+                          "en": "smartphone"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>スマートフォン</b>を買いました。",
+                              "n": "Я купил смартфон."
+                          },
+                          {
+                              "t": "<b>スマートフォン</b>の電源が切れました。",
+                              "n": "Смартфон выключился."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_05",
+                      "isLetter": false,
+                      "letter": "コ",
+                      "word": "コンピューター",
+                      "emoji": "💻",
+                      "phonetic": "/koɴpjuːtaː/",
+                      "translation": "<b>компьютер</b> (от англ. <i>computer</i>)",
+                      "translations": {
+                          "ja": "コンピューター",
+                          "ru": "компьютер",
+                          "en": "computer"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>コンピューター</b>で仕事をします。",
+                              "n": "Я работаю на компьютере."
+                          },
+                          {
+                              "t": "新しい<b>コンピューター</b>が欲しいです。",
+                              "n": "Хочу новый компьютер."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_06",
+                      "isLetter": false,
+                      "letter": "バ",
+                      "word": "バス",
+                      "emoji": "🚌",
+                      "phonetic": "/basɯ/",
+                      "translation": "<b>автобус</b> (от англ. <i>bus</i>)",
+                      "translations": {
+                          "ja": "バス",
+                          "ru": "автобус",
+                          "en": "bus"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>バス</b>で学校に行きます。",
+                              "n": "Я еду в школу на автобусе."
+                          },
+                          {
+                              "t": "次の<b>バス</b>は何時ですか。",
+                              "n": "Во сколько следующий автобус?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_07",
+                      "isLetter": false,
+                      "letter": "ビ",
+                      "word": "ビール",
+                      "emoji": "🍺",
+                      "phonetic": "/biːɾɯ/",
+                      "translation": "<b>пиво</b> (от англ. <i>beer</i>)",
+                      "translations": {
+                          "ja": "ビール",
+                          "ru": "пиво",
+                          "en": "beer"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ビール</b>を一杯ください。",
+                              "n": "Одно пиво, пожалуйста."
+                          },
+                          {
+                              "t": "私は<b>ビール</b>が好きです。",
+                              "n": "Я люблю пиво."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_08",
+                      "isLetter": false,
+                      "letter": "チ",
+                      "word": "チョコレート",
+                      "emoji": "🍫",
+                      "phonetic": "/tɕokoɾeːto/",
+                      "translation": "<b>шоколад</b> (от англ. <i>chocolate</i>)",
+                      "translations": {
+                          "ja": "チョコレート",
+                          "ru": "шоколад",
+                          "en": "chocolate"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>チョコレート</b>を食べます。",
+                              "n": "Я ем шоколад."
+                          },
+                          {
+                              "t": "この<b>チョコレート</b>は美味しいです。",
+                              "n": "Этот шоколад вкусный."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g5",
+              "name": "Primeros Kanji",
+              "icon": "漢",
+              "color": "#8b5cf6",
+              "description": "日 月 火 水 木 金 土 + números + personas",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2",
+                  "ja_a0_g3",
+                  "ja_a0_g4"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g5_L_ichi",
+                      "isLetter": true,
+                      "letter": "一",
+                      "word": "一",
+                      "emoji": "1️⃣",
+                      "phonetic": "/itɕi/",
+                      "translation": "Один — <b>一</b> — один горизонтальный штрих, как цифра <i>1</i> лежащая на боку",
+                      "mnemonic": "Одна линия = один — самая простая форма, запомните как горизонтальную палочку",
+                      "examples": [
+                          {
+                              "t": "<b>一</b>人 (いちにん) — один человек",
+                              "n": "Ичинин — один человек"
+                          },
+                          {
+                              "t": "<b>一</b>番 (いちばん) — номер один, лучший",
+                              "n": "Ичибан — первый, лучший"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_ni",
+                      "isLetter": true,
+                      "letter": "二",
+                      "word": "二",
+                      "emoji": "2️⃣",
+                      "phonetic": "/ni/",
+                      "translation": "Два — <b>二</b> — две горизонтальные линии",
+                      "mnemonic": "Две параллельные линии = два — просто сложите две линии вместе",
+                      "examples": [
+                          {
+                              "t": "<b>二</b>人 (ふたり) — два человека",
+                              "n": "Футари — два человека"
+                          },
+                          {
+                              "t": "<b>二</b>番目 (にばんめ) — второй",
+                              "n": "Нибанме — второй по порядку"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_san",
+                      "isLetter": true,
+                      "letter": "三",
+                      "word": "三",
+                      "emoji": "3️⃣",
+                      "phonetic": "/saɴ/",
+                      "translation": "Три — <b>三</b> — три горизонтальные линии",
+                      "mnemonic": "Три линии = три — как три ступеньки лестницы",
+                      "examples": [
+                          {
+                              "t": "<b>三</b>人 (さんにん) — три человека",
+                              "n": "Саннин — три человека"
+                          },
+                          {
+                              "t": "<b>三</b>角 (さんかく) — треугольник",
+                              "n": "Санкаку — треугольник, три угла"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_shi",
+                      "isLetter": true,
+                      "letter": "四",
+                      "word": "四",
+                      "emoji": "4️⃣",
+                      "phonetic": "/ɕi/",
+                      "translation": "Четыре — <b>四</b> — чтение: ши или ён",
+                      "mnemonic": "Похоже на окно с крестовиной — 4 угла окна",
+                      "examples": [
+                          {
+                              "t": "<b>四</b>人 (よにん) — четыре человека",
+                              "n": "Ёнин — четыре человека"
+                          },
+                          {
+                              "t": "<b>四</b>月 (しがつ) — апрель",
+                              "n": "Сигацу — апрель, четвёртый месяц"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_go",
+                      "isLetter": true,
+                      "letter": "五",
+                      "word": "五",
+                      "emoji": "5️⃣",
+                      "phonetic": "/ɡo/",
+                      "translation": "Пять — <b>五</b> — между линиями появился угол",
+                      "mnemonic": "Похоже на цифру 5, лежащую на боку — верхняя часть как рука",
+                      "examples": [
+                          {
+                              "t": "<b>五</b>人 (ごにん) — пять человек",
+                              "n": "Гонин — пять человек"
+                          },
+                          {
+                              "t": "<b>五</b>月 (ごがつ) — май",
+                              "n": "Гогацу — май, пятый месяц"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_roku",
+                      "isLetter": true,
+                      "letter": "六",
+                      "word": "六",
+                      "emoji": "6️⃣",
+                      "phonetic": "/ɾokɯ/",
+                      "translation": "Шесть — <b>六</b> — две линии, расходящиеся вниз",
+                      "mnemonic": "Похоже на человечка, шагающего вниз — шесть ног?",
+                      "examples": [
+                          {
+                              "t": "<b>六</b>人 (ろくにん) — шесть человек",
+                              "n": "Рокунин — шесть человек"
+                          },
+                          {
+                              "t": "<b>六</b>月 (ろくがつ) — июнь",
+                              "n": "Рокугацу — июнь, шестой месяц"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_nana",
+                      "isLetter": true,
+                      "letter": "七",
+                      "word": "七",
+                      "emoji": "7️⃣",
+                      "phonetic": "/ɕitɕi/",
+                      "translation": "Семь — <b>七</b> — изогнутая линия, похожая на цифру 7",
+                      "mnemonic": "Просто поверните цифру 7 — вот и кандзи",
+                      "examples": [
+                          {
+                              "t": "<b>七</b>人 (しちにん) — семь человек",
+                              "n": "Ситинин — семь человек"
+                          },
+                          {
+                              "t": "<b>七</b>月 (しちがつ) — июль",
+                              "n": "Ситигацу — июль, седьмой месяц"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_hachi",
+                      "isLetter": true,
+                      "letter": "八",
+                      "word": "八",
+                      "emoji": "8️⃣",
+                      "phonetic": "/hatɕi/",
+                      "translation": "Восемь — <b>八</b> — две линии, расходящиеся в стороны",
+                      "mnemonic": "Похоже на раскрытые ножницы — разрежьте восемь пополам",
+                      "examples": [
+                          {
+                              "t": "<b>八</b>人 (はちにん) — восемь человек",
+                              "n": "Хатинин — восемь человек"
+                          },
+                          {
+                              "t": "<b>八</b>月 (はちがつ) — август",
+                              "n": "Хатигацу — август, восьмой месяц"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kyuu",
+                      "isLetter": true,
+                      "letter": "九",
+                      "word": "九",
+                      "emoji": "9️⃣",
+                      "phonetic": "/kʲɯː/",
+                      "translation": "Девять — <b>九</b> — изогнутая линия с хвостиком",
+                      "mnemonic": "Похоже на цифру 9 с загнутым хвостиком",
+                      "examples": [
+                          {
+                              "t": "<b>九</b>人 (きゅうにん) — девять человек",
+                              "n": "Кюунин — девять человек"
+                          },
+                          {
+                              "t": "<b>九</b>月 (くがつ) — сентябрь",
+                              "n": "Кугацу — сентябрь, девятый месяц"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_juu",
+                      "isLetter": true,
+                      "letter": "十",
+                      "word": "十",
+                      "emoji": "🔟",
+                      "phonetic": "/dʑɯː/",
+                      "translation": "Десять — <b>十</b> — крест из двух линий",
+                      "mnemonic": "Крест = 10 — как перекрёсток, где встречаются все дороги",
+                      "examples": [
+                          {
+                              "t": "<b>十</b>人 (じゅうにん) — десять человек",
+                              "n": "Дзюунин — десять человек"
+                          },
+                          {
+                              "t": "<b>十</b>月 (じゅうがつ) — октябрь",
+                              "n": "Дзюугацу — октябрь, десятый месяц"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_nichi",
+                      "isLetter": true,
+                      "letter": "日",
+                      "word": "日",
+                      "emoji": "☀️",
+                      "phonetic": "/nitɕi/",
+                      "translation": "Солнце/день — <b>日</b> — прямоугольник с линией внутри",
+                      "mnemonic": "Квадрат = солнце, линия внутри = луч — день",
+                      "examples": [
+                          {
+                              "t": "<b>日</b>曜日 (にちようび) — воскресенье",
+                              "n": "Ничиёуби — воскресенье, день солнца"
+                          },
+                          {
+                              "t": "毎<b>日</b> (まいにち) — каждый день",
+                              "n": "Майничи — каждый день"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_tsuki",
+                      "isLetter": true,
+                      "letter": "月",
+                      "word": "月",
+                      "emoji": "🌙",
+                      "phonetic": "/ɡat͡sɯ/",
+                      "translation": "Луна/месяц — <b>月</b> — полумесяц с двумя линиями",
+                      "mnemonic": "Форма напоминает полумесяц — две линии внутри как кратеры",
+                      "examples": [
+                          {
+                              "t": "<b>月</b>曜日 (げつようび) — понедельник",
+                              "n": "Гецуёуби — понедельник, день луны"
+                          },
+                          {
+                              "t": "今<b>月</b> (こんげつ) — этот месяц",
+                              "n": "Конгецу — этот месяц"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_ka",
+                      "isLetter": true,
+                      "letter": "火",
+                      "word": "火",
+                      "emoji": "🔥",
+                      "phonetic": "/ka/",
+                      "translation": "Огонь — <b>火</b> — человек с распростёртыми руками и искрами",
+                      "mnemonic": "Пламя, поднимающееся вверх — как огонь костра",
+                      "examples": [
+                          {
+                              "t": "<b>火</b>曜日 (かようび) — вторник",
+                              "n": "Каёуби — вторник, день огня"
+                          },
+                          {
+                              "t": "<b>火</b>山 (かざん) — вулкан",
+                              "n": "Кадзан — вулкан, огненная гора"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_sui",
+                      "isLetter": true,
+                      "letter": "水",
+                      "word": "水",
+                      "emoji": "💧",
+                      "phonetic": "/sɯi/",
+                      "translation": "Вода — <b>水</b> — три капли воды, стекающие вниз",
+                      "mnemonic": "Три линии = три капли — вода течёт",
+                      "examples": [
+                          {
+                              "t": "<b>水</b>曜日 (すいようび) — среда",
+                              "n": "Суйёуби — среда, день воды"
+                          },
+                          {
+                              "t": "お<b>水</b> (おみず) — вода (вежливо)",
+                              "n": "Омидзу — вода"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_moku",
+                      "isLetter": true,
+                      "letter": "木",
+                      "word": "木",
+                      "emoji": "🌳",
+                      "phonetic": "/mokɯ/",
+                      "translation": "Дерево — <b>木</b> — дерево с корнями и ветвями",
+                      "mnemonic": "Вертикальная линия = ствол, горизонтальная = ветви, нижние = корни",
+                      "examples": [
+                          {
+                              "t": "<b>木</b>曜日 (もくようび) — четверг",
+                              "n": "Мокуёуби — четверг, день дерева"
+                          },
+                          {
+                              "t": "大<b>木</b> (たいぼく) — большое дерево",
+                              "n": "Тайбоку — большое дерево"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kin",
+                      "isLetter": true,
+                      "letter": "金",
+                      "word": "金",
+                      "emoji": "💰",
+                      "phonetic": "/kiɴ/",
+                      "translation": "Золото — <b>金</b> — навес с двумя точками и землёй",
+                      "mnemonic": "Крыша = навес, точки = золотые монеты, линия = земля",
+                      "examples": [
+                          {
+                              "t": "<b>金</b>曜日 (きんようび) — пятница",
+                              "n": "Кинъёуби — пятница, день золота"
+                          },
+                          {
+                              "t": "お<b>金</b> (おかね) — деньги",
+                              "n": "Оканэ — деньги"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_do",
+                      "isLetter": true,
+                      "letter": "土",
+                      "word": "土",
+                      "emoji": "🌍",
+                      "phonetic": "/do/",
+                      "translation": "Земля — <b>土</b> — холм с растением наверху",
+                      "mnemonic": "Вертикальная линия = растение, горизонтальная = земля, нижняя = корни",
+                      "examples": [
+                          {
+                              "t": "<b>土</b>曜日 (どようび) — суббота",
+                              "n": "Доёуби — суббота, день земли"
+                          },
+                          {
+                              "t": "<b>土</b>地 (とち) — земля, участок",
+                              "n": "Точи — земля, участок"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_hito",
+                      "isLetter": true,
+                      "letter": "人",
+                      "word": "人",
+                      "emoji": "🚶",
+                      "phonetic": "/çito/",
+                      "translation": "Человек — <b>人</b> — человек, идущий в две ноги",
+                      "mnemonic": "Форма напоминает человека, шагающего — две ноги",
+                      "examples": [
+                          {
+                              "t": "日本<b>人</b> (にほんじん) — японец",
+                              "n": "Нихондзин — японский человек"
+                          },
+                          {
+                              "t": "あの<b>人</b> (あのひと) — тот человек",
+                              "n": "Ано хито — тот человек"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_yama",
+                      "isLetter": true,
+                      "letter": "山",
+                      "word": "山",
+                      "emoji": "⛰️",
+                      "phonetic": "/jama/",
+                      "translation": "Гора — <b>山</b> — три вершины горы",
+                      "mnemonic": "Три пика — центральный выше — как горный хребет",
+                      "examples": [
+                          {
+                              "t": "富士<b>山</b> (ふじさん) — гора Фудзи",
+                              "n": "Фудзисан — гора Фудзи"
+                          },
+                          {
+                              "t": "<b>山</b>道 (やまみち) — горная тропа",
+                              "n": "Ямамичи — горная тропа"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kawa",
+                      "isLetter": true,
+                      "letter": "川",
+                      "word": "川",
+                      "emoji": "🏞️",
+                      "phonetic": "/kawa/",
+                      "translation": "Река — <b>川</b> — три изогнутые линии, как течение реки",
+                      "mnemonic": "Три волнистые линии = течение воды",
+                      "examples": [
+                          {
+                              "t": "大<b>川</b> (おおかわ) — большая река",
+                              "n": "Оокава — большая река"
+                          },
+                          {
+                              "t": "<b>川</b>岸 (かわぎし) — берег реки",
+                              "n": "Кавагиши — берег реки"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_dai",
+                      "isLetter": true,
+                      "letter": "大",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "/da i/",
+                      "translation": "Большой — <b>大</b> — человек с распростёртыми руками",
+                      "mnemonic": "Человек раскинул руки = большой, занимает много места",
+                      "examples": [
+                          {
+                              "t": "<b>大</b>好き (だいすき) — очень люблю",
+                              "n": "Дайсуки — очень нравится"
+                          },
+                          {
+                              "t": "大きい (おおきい) — большой",
+                              "n": "Оокии — большой"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_shou",
+                      "isLetter": true,
+                      "letter": "小",
+                      "word": "小",
+                      "emoji": "🐜",
+                      "phonetic": "/ɕoː/",
+                      "translation": "Маленький — <b>小</b> — три маленькие точки/чёрточки",
+                      "mnemonic": "Три маленькие линии = что-то крошечное",
+                      "examples": [
+                          {
+                              "t": "<b>小</b>さい (ちいさい) — маленький",
+                              "n": "Чиисай — маленький"
+                          },
+                          {
+                              "t": "<b>小</b>学校 (しょうがっこう) — начальная школа",
+                              "n": "Сёугаккоу — начальная школа"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_01",
+                      "isLetter": false,
+                      "letter": "日",
+                      "word": "日曜日",
+                      "emoji": "📅",
+                      "phonetic": "/nitɕijoːbi/",
+                      "translation": "Воскресенье — <b>日</b>曜日 — день солнца",
+                      "translations": {
+                          "ja": "日曜日",
+                          "ru": "воскресенье",
+                          "en": "Sunday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>日曜日</b>に公園へ行きます。",
+                              "n": "В воскресенье иду в парк."
+                          },
+                          {
+                              "t": "<b>日曜日</b>は休みです。",
+                              "n": "В воскресенье выходной."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_02",
+                      "isLetter": false,
+                      "letter": "月",
+                      "word": "月曜日",
+                      "emoji": "📅",
+                      "phonetic": "/ɡeʦɯjoːbi/",
+                      "translation": "Понедельник — <b>月</b>曜日 — день луны",
+                      "translations": {
+                          "ja": "月曜日",
+                          "ru": "понедельник",
+                          "en": "Monday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>月曜日</b>に日本語を勉強します。",
+                              "n": "В понедельник учу японский."
+                          },
+                          {
+                              "t": "<b>月曜日</b>は忙しいです。",
+                              "n": "В понедельник занят."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_03",
+                      "isLetter": false,
+                      "letter": "火",
+                      "word": "火曜日",
+                      "emoji": "📅",
+                      "phonetic": "/kajoːbi/",
+                      "translation": "Вторник — <b>火</b>曜日 — день огня",
+                      "translations": {
+                          "ja": "火曜日",
+                          "ru": "вторник",
+                          "en": "Tuesday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>火曜日</b>に映画を見ます。",
+                              "n": "Во вторник смотрю фильм."
+                          },
+                          {
+                              "t": "<b>火曜日</b>はテストがあります。",
+                              "n": "Во вторник будет тест."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_04",
+                      "isLetter": false,
+                      "letter": "水",
+                      "word": "水曜日",
+                      "emoji": "📅",
+                      "phonetic": "/sɯijoːbi/",
+                      "translation": "Среда — <b>水</b>曜日 — день воды",
+                      "translations": {
+                          "ja": "水曜日",
+                          "ru": "среда",
+                          "en": "Wednesday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>水曜日</b>に買い物に行きます。",
+                              "n": "В среду иду за покупками."
+                          },
+                          {
+                              "t": "<b>水曜日</b>は暇です。",
+                              "n": "В среду свободен."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_05",
+                      "isLetter": false,
+                      "letter": "木",
+                      "word": "木曜日",
+                      "emoji": "📅",
+                      "phonetic": "/mokɯjoːbi/",
+                      "translation": "Четверг — <b>木</b>曜日 — день дерева",
+                      "translations": {
+                          "ja": "木曜日",
+                          "ru": "четверг",
+                          "en": "Thursday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>木曜日</b>に友達に会います。",
+                              "n": "В четверг встречаюсь с другом."
+                          },
+                          {
+                              "t": "<b>木曜日</b>は図書館に行きます。",
+                              "n": "В четверг иду в библиотеку."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_06",
+                      "isLetter": false,
+                      "letter": "金",
+                      "word": "金曜日",
+                      "emoji": "📅",
+                      "phonetic": "/kiɴjoːbi/",
+                      "translation": "Пятница — <b>金</b>曜日 — день золота",
+                      "translations": {
+                          "ja": "金曜日",
+                          "ru": "пятница",
+                          "en": "Friday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>金曜日</b>にパーティーがあります。",
+                              "n": "В пятницу будет вечеринка."
+                          },
+                          {
+                              "t": "<b>金曜日</b>は楽しいです。",
+                              "n": "Пятница — весёлый день."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_07",
+                      "isLetter": false,
+                      "letter": "土",
+                      "word": "土曜日",
+                      "emoji": "📅",
+                      "phonetic": "/dojoːbi/",
+                      "translation": "Суббота — <b>土</b>曜日 — день земли",
+                      "translations": {
+                          "ja": "土曜日",
+                          "ru": "суббота",
+                          "en": "Saturday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>土曜日</b>に遊びに行きます。",
+                              "n": "В субботу иду гулять."
+                          },
+                          {
+                              "t": "<b>土曜日</b>はゆっくり休みます。",
+                              "n": "В субботу отдыхаю."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_08",
+                      "isLetter": false,
+                      "letter": "人",
+                      "word": "日本人",
+                      "emoji": "🇯🇵",
+                      "phonetic": "/nihondʑiɴ/",
+                      "translation": "Японец — 日本<b>人</b> — человек из Японии",
+                      "translations": {
+                          "ja": "日本人",
+                          "ru": "японец",
+                          "en": "Japanese person"
+                      },
+                      "examples": [
+                          {
+                              "t": "彼は<b>日本人</b>です。",
+                              "n": "Он японец."
+                          },
+                          {
+                              "t": "<b>日本人</b>の友達がいます。",
+                              "n": "У меня есть японский друг."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_09",
+                      "isLetter": false,
+                      "letter": "山",
+                      "word": "富士山",
+                      "emoji": "🗻",
+                      "phonetic": "/ɸɯdʑisaɴ/",
+                      "translation": "Гора Фудзи — 富士<b>山</b> — самая известная гора Японии",
+                      "translations": {
+                          "ja": "富士山",
+                          "ru": "гора Фудзи",
+                          "en": "Mount Fuji"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>富士山</b>は高いです。",
+                              "n": "Гора Фудзи высокая."
+                          },
+                          {
+                              "t": "<b>富士山</b>を見ました。",
+                              "n": "Я видел гору Фудзи."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_10",
+                      "isLetter": false,
+                      "letter": "川",
+                      "word": "川",
+                      "emoji": "🏞️",
+                      "phonetic": "/kawa/",
+                      "translation": "Река — <b>川</b> — три линии течения",
+                      "translations": {
+                          "ja": "川",
+                          "ru": "река",
+                          "en": "river"
+                      },
+                      "examples": [
+                          {
+                              "t": "この<b>川</b>はきれいです。",
+                              "n": "Эта река красивая."
+                          },
+                          {
+                              "t": "<b>川</b>で泳ぎます。",
+                              "n": "Купаюсь в реке."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_11",
+                      "isLetter": false,
+                      "letter": "大",
+                      "word": "大好き",
+                      "emoji": "❤️",
+                      "phonetic": "/daijsɯki/",
+                      "translation": "Очень нравится — <b>大</b>好き — большой + любовь",
+                      "translations": {
+                          "ja": "大好き",
+                          "ru": "очень нравится",
+                          "en": "love (very much)"
+                      },
+                      "examples": [
+                          {
+                              "t": "日本が<b>大好き</b>です。",
+                              "n": "Я очень люблю Японию."
+                          },
+                          {
+                              "t": "猫が<b>大好き</b>です。",
+                              "n": "Очень люблю кошек."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_12",
+                      "isLetter": false,
+                      "letter": "小",
+                      "word": "小さい",
+                      "emoji": "🐭",
+                      "phonetic": "/tɕiːsa i/",
+                      "translation": "Маленький — <b>小</b>さい — противоположность большому",
+                      "translations": {
+                          "ja": "小さい",
+                          "ru": "маленький",
+                          "en": "small"
+                      },
+                      "examples": [
+                          {
+                              "t": "この犬は<b>小さい</b>です。",
+                              "n": "Эта собака маленькая."
+                          },
+                          {
+                              "t": "<b>小さい</b>家に住んでいます。",
+                              "n": "Живу в маленьком доме."
                           }
                       ]
                   }
@@ -15955,9 +24093,9 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
-  // JA_PT
+  // JA_DE
   // ──────────────────────────────────────────────────────
-  ja_pt: {
+  ja_de: {
       "level": "A0",
       "levelName": "Hiragana y Katakana",
       "groups": [
@@ -15972,220 +24110,215 @@ const FLASHCARD_ALPHA = {
                   {
                       "id": "ja_a0_g1_L_a-row",
                       "isLetter": true,
-                      "letter": "あいうえお",
-                      "word": "あいうえお",
+                      "letter": "あ",
+                      "word": "あ",
                       "emoji": "🔤",
-                      "phonetic": "/a i ɯ e o/",
-                      "translation": "Linha <b>あ</b> — as cinco vogais do japonês.<br><i>あ</i> (a), <i>い</i> (i), <i>う</i> (u), <i>え</i> (e), <i>お</i> (o).",
-                      "mnemonic": "あ parece um 'a' com um laço; い são dois traços como dedos; う é um 'u' com chapéu; え parece um 'e' com teto; お é um 'o' com um nó.",
+                      "phonetic": "/a/",
+                      "translation": "Vokal <b>あ</b> — klingt wie <i>a</i> in „<span class=\"hl\">A</span>pfel“",
+                      "mnemonic": "Sieht aus wie ein A mit einem Querbalken – einfach das A mit einem Hut.",
                       "examples": [
                           {
-                              "t": "<b>あ</b> é a primeira letra do alfabeto.",
-                              "n": "A letra あ é como um 'a' com um laço."
+                              "t": "あ ist der erste Buchstabe der <b>あ</b>-Reihe",
+                              "n": "A ist der erste Buchstabe der A-Reihe."
                           },
                           {
-                              "t": "<b>い</b> é um 'i' com dois traços.",
-                              "n": "O som é como o 'i' do português."
+                              "t": "あ wie <i>a</i> in „<span class=\"hl\">A</span>pfel“",
+                              "n": "A wie in Apfel."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g1_L_ka-row",
                       "isLetter": true,
-                      "letter": "かきくけこ",
-                      "word": "かきくけこ",
+                      "letter": "か",
+                      "word": "か",
                       "emoji": "🔤",
-                      "phonetic": "/ka ki kɯ ke ko/",
-                      "translation": "Linha <b>か</b> — consoante K + vogais.<br><i>か</i> (ka), <i>き</i> (ki), <i>く</i> (ku), <i>け</i> (ke), <i>こ</i> (ko).",
-                      "mnemonic": "か parece um 'ka' com um laço; き é um 'ki' com uma espada; く é um bico de pássaro; け é um 'ke' com um telhado; こ são dois traços como um 'k' deitado.",
+                      "phonetic": "/ka/",
+                      "translation": "Laut <b>か</b> – wie <i>ka</i> in „<span class=\"hl\">Ka</span>tz“",
+                      "mnemonic": "Sieht aus wie ein K mit einem Schrägstrich – denk an ein <span class=\"hl\">K</span> mit Schwert.",
                       "examples": [
                           {
-                              "t": "<b>か</b> é a primeira letra da linha.",
-                              "n": "O som é como 'ca' em português."
+                              "t": "<b>か</b> wie in <b>かさ</b> (Regenschirm)",
+                              "n": "Ka wie in Kasa (Regenschirm)."
                           },
                           {
-                              "t": "<b>き</b> é usado em <i>きれい</i> (bonito).",
-                              "n": "Exemplo: きれい significa 'bonito'."
+                              "t": "<b>か</b> – die Linie von oben nach unten",
+                              "n": "Ka – die Linie von oben nach unten."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g1_L_sa-row",
                       "isLetter": true,
-                      "letter": "さしすせそ",
-                      "word": "さしすせそ",
+                      "letter": "さ",
+                      "word": "さ",
                       "emoji": "🔤",
-                      "phonetic": "/sa ɕi sɯ se so/",
-                      "translation": "Linha <b>さ</b> — consoante S + vogais.<br><i>さ</i> (sa), <i>し</i> (shi), <i>す</i> (su), <i>せ</i> (se), <i>そ</i> (so).",
-                      "mnemonic": "さ parece um 'sa' com um corte; し é um anzol; す é um 'su' com um laço; せ é um 'se' com um rabo; そ é um 'so' com um zigue-zague.",
+                      "phonetic": "/sa/",
+                      "translation": "Laut <b>さ</b> – wie <i>sa</i> in „<span class=\"hl\">Sa</span>lz“",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">S</span> mit einem Querstrich – denk an eine Schlange.",
                       "examples": [
                           {
-                              "t": "<b>さ</b> é a primeira letra da linha.",
-                              "n": "O som é como 'sa' em português."
+                              "t": "<b>さ</b> wie in <b>さくら</b> (Kirschblüte)",
+                              "n": "Sa wie in Sakura (Kirschblüte)."
                           },
                           {
-                              "t": "<b>し</b> é usado em <i>さくら</i> (cerejeira).",
-                              "n": "Exemplo: さくら significa 'cerejeira'."
+                              "t": "さ hat zwei kleine Striche – wie Augen",
+                              "n": "Sa hat zwei kleine Striche – wie Augen."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g1_L_ta-row",
                       "isLetter": true,
-                      "letter": "たちつてと",
-                      "word": "たちつてと",
+                      "letter": "た",
+                      "word": "た",
                       "emoji": "🔤",
-                      "phonetic": "/ta tɕi tsɯ te to/",
-                      "translation": "Linha <b>た</b> — consoante T + vogais.<br><i>た</i> (ta), <i>ち</i> (chi), <i>つ</i> (tsu), <i>て</i> (te), <i>と</i> (to).<br><span class='hl'>Atenção:</span> <i>ち</i> e <i>つ</i> são irregulares.",
-                      "mnemonic": "た parece um 'ta' com um laço; ち é um 'chi' com um laço; つ é um 'tsu' com um arco; て é um 'te' com um gancho; と é um 'to' com um laço.",
+                      "phonetic": "/ta/",
+                      "translation": "Laut <b>た</b> – wie <i>ta</i> in „<span class=\"hl\">Ta</span>fel“",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">T</span> mit einem Bogen – denk an einen Tisch.",
                       "examples": [
                           {
-                              "t": "<b>た</b> é a primeira letra da linha.",
-                              "n": "O som é como 'ta' em português."
+                              "t": "<b>た</b> wie in <b>たべる</b> (essen)",
+                              "n": "Ta wie in Taberu (essen)."
                           },
                           {
-                              "t": "<b>つ</b> é usado em <i>つき</i> (lua).",
-                              "n": "Exemplo: つき significa 'lua'."
+                              "t": "た – der Bogen ist wie ein Arm",
+                              "n": "Ta – der Bogen ist wie ein Arm."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g1_L_na-row",
                       "isLetter": true,
-                      "letter": "なにぬねの",
-                      "word": "なにぬねの",
+                      "letter": "な",
+                      "word": "な",
                       "emoji": "🔤",
-                      "phonetic": "/na ɲi nɯ ne no/",
-                      "translation": "Linha <b>な</b> — consoante N + vogais.<br><i>な</i> (na), <i>に</i> (ni), <i>ぬ</i> (nu), <i>ね</i> (ne), <i>の</i> (no).",
-                      "mnemonic": "な parece um 'na' com um laço; に é um 'ni' com um traço; ぬ é um 'nu' com um laço; ね é um 'ne' com um rabo; の é um 'no' com um círculo.",
+                      "phonetic": "/na/",
+                      "translation": "Laut <b>な</b> – wie <i>na</i> in „<span class=\"hl\">Na</span>se“",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">N</span> mit einem Bogen – denk an eine Nase.",
                       "examples": [
                           {
-                              "t": "<b>な</b> é a primeira letra da linha.",
-                              "n": "O som é como 'na' em português."
+                              "t": "<b>な</b> wie in <b>ねこ</b> (Katze)",
+                              "n": "Na wie in Neko (Katze)."
                           },
                           {
-                              "t": "<b>の</b> é uma partícula comum.",
-                              "n": "Exemplo: ねこ (gato) usa ね."
+                              "t": "な – der Bogen ist wie ein Ohr",
+                              "n": "Na – der Bogen ist wie ein Ohr."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g1_01",
-                      "isLetter": false,
                       "letter": "あ",
                       "word": "あさ",
                       "emoji": "🌅",
                       "phonetic": "/asa/",
-                      "translation": "<b>あさ</b> — manhã",
+                      "translation": "Morgen (Tageszeit) – <b>あさ</b>",
                       "translations": {
                           "ja": "あさ",
-                          "pt": "manhã",
+                          "de": "Morgen",
                           "en": "morning"
                       },
                       "examples": [
                           {
-                              "t": "<b>あさ</b> に おきます。",
-                              "n": "Eu acordo de manhã."
+                              "t": "<b>あさ</b>に起きます。",
+                              "n": "Ich stehe am Morgen auf."
                           },
                           {
-                              "t": "あさ は しずか です。",
-                              "n": "A manhã é tranquila."
+                              "t": "あさは <span class=\"hl\">早い</span>です。",
+                              "n": "Der Morgen ist früh."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g1_02",
-                      "isLetter": false,
                       "letter": "き",
                       "word": "きく",
                       "emoji": "👂",
                       "phonetic": "/kiku/",
-                      "translation": "<b>きく</b> — ouvir, escutar",
+                      "translation": "hören – <b>きく</b>",
                       "translations": {
                           "ja": "きく",
-                          "pt": "ouvir",
-                          "en": "to listen"
+                          "de": "hören",
+                          "en": "to hear"
                       },
                       "examples": [
                           {
-                              "t": "おんがく を <b>きく</b>。",
-                              "n": "Eu ouço música."
+                              "t": "音楽を<b>きく</b>。",
+                              "n": "Ich höre Musik."
                           },
                           {
-                              "t": "こえ が きこえます。",
-                              "n": "Eu posso ouvir uma voz."
+                              "t": "音を<b>きく</b>。",
+                              "n": "Ich höre einen Ton."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g1_03",
-                      "isLetter": false,
                       "letter": "す",
                       "word": "すし",
                       "emoji": "🍣",
-                      "phonetic": "/sɯɕi/",
-                      "translation": "<b>すし</b> — sushi",
+                      "phonetic": "/sushi/",
+                      "translation": "Sushi – <b>すし</b>",
                       "translations": {
                           "ja": "すし",
-                          "pt": "sushi",
+                          "de": "Sushi",
                           "en": "sushi"
                       },
                       "examples": [
                           {
-                              "t": "<b>すし</b> が すき です。",
-                              "n": "Eu gosto de sushi."
+                              "t": "<b>すし</b>を食べる。",
+                              "n": "Ich esse Sushi."
                           },
                           {
-                              "t": "すし を たべます。",
-                              "n": "Eu como sushi."
+                              "t": "すしはおいしい。",
+                              "n": "Sushi ist lecker."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g1_04",
-                      "isLetter": false,
                       "letter": "た",
                       "word": "たべる",
                       "emoji": "🍽️",
-                      "phonetic": "/tapeɾɯ/",
-                      "translation": "<b>たべる</b> — comer",
+                      "phonetic": "/taberu/",
+                      "translation": "essen – <b>たべる</b>",
                       "translations": {
                           "ja": "たべる",
-                          "pt": "comer",
+                          "de": "essen",
                           "en": "to eat"
                       },
                       "examples": [
                           {
-                              "t": "りんご を <b>たべる</b>。",
-                              "n": "Eu como uma maçã."
+                              "t": "りんごを<b>たべる</b>。",
+                              "n": "Ich esse einen Apfel."
                           },
                           {
-                              "t": "すし を たべたい。",
-                              "n": "Eu quero comer sushi."
+                              "t": "すしを<b>たべる</b>。",
+                              "n": "Ich esse Sushi."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g1_05",
-                      "isLetter": false,
                       "letter": "ね",
                       "word": "ねる",
                       "emoji": "😴",
-                      "phonetic": "/neɾɯ/",
-                      "translation": "<b>ねる</b> — dormir",
+                      "phonetic": "/neru/",
+                      "translation": "schlafen – <b>ねる</b>",
                       "translations": {
                           "ja": "ねる",
-                          "pt": "dormir",
+                          "de": "schlafen",
                           "en": "to sleep"
                       },
                       "examples": [
                           {
-                              "t": "よる に <b>ねる</b>。",
-                              "n": "Eu durmo à noite."
+                              "t": "夜に<b>ねる</b>。",
+                              "n": "Ich schlafe in der Nacht."
                           },
                           {
-                              "t": "ねむい です。",
-                              "n": "Estou com sono."
+                              "t": "猫が<b>ねる</b>。",
+                              "n": "Die Katze schläft."
                           }
                       ]
                   }
@@ -16208,16 +24341,96 @@ const FLASHCARD_ALPHA = {
                       "word": "は",
                       "emoji": "🔤",
                       "phonetic": "/ha/",
-                      "translation": "Som <b>ha</b> — como em <i>hash</i> em inglês, mas curto.<br>Parece uma <span class=\"hl\">árvore</span> com um galho à esquerda.",
-                      "mnemonic": "Parece uma pessoa com um chapéu grande — o traço da esquerda é o braço levantado.",
+                      "translation": "Laut <b>ha</b> – wie im Deutschen „<i>Hase</i>“<br>Die Form sieht aus wie ein <span class=\"hl\">H</span> mit einem Dach.",
+                      "mnemonic": "Stell dir ein Haus (H) mit einem Schornstein vor – das ist は.",
                       "examples": [
                           {
-                              "t": "<b>は</b> é a primeira letra de <b>はな</b> (flor).",
-                              "n": "A letra ha abre a palavra flor."
+                              "t": "は ist die Partikel für das Thema.<br>Beispiel: <b>わたし</b>は Student.",
+                              "n": "は als Topik-Partikel: „Ich bin Student.“"
                           },
                           {
-                              "t": "Usada como partícula de tópico: <b>は</b> (wa).",
-                              "n": "Quando é partícula, lê-se wa."
+                              "t": "はな – <b>は</b> + な",
+                              "n": "Blume – beginnt mit は"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_hi",
+                      "isLetter": true,
+                      "letter": "ひ",
+                      "word": "ひ",
+                      "emoji": "🔤",
+                      "phonetic": "/çi/",
+                      "translation": "Laut <b>hi</b> – wie ein <i>Lächeln</i> (smile) auf Japanisch<br>Die Form erinnert an ein <span class=\"hl\">lachendes Gesicht</span>.",
+                      "mnemonic": "ひ sieht aus wie ein lächelnder Mund – lächle und sag „hi!“",
+                      "examples": [
+                          {
+                              "t": "ひ – ein Zeichen mit einer <b>geschwungenen Linie</b>",
+                              "n": "Form: eine Kurve wie ein Lächeln"
+                          },
+                          {
+                              "t": "ひこうき – <b>ひ</b> + こう + き",
+                              "n": "Flugzeug – beginnt mit ひ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_fu",
+                      "isLetter": true,
+                      "letter": "ふ",
+                      "word": "ふ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɸɯ/",
+                      "translation": "Laut <b>fu</b> – aber mit <i>beiden Lippen</i> (wie ein leises „fu“)<br>Nicht wie das deutsche „fu“ – eher wie ein <span class=\"hl\">Kerzen-Auspusten</span>.",
+                      "mnemonic": "ふ sieht aus wie eine Kerze, die du auspustest – puste leicht und sag „fu“.",
+                      "examples": [
+                          {
+                              "t": "ふ – der einzige Laut mit <b>beiden Lippen</b>",
+                              "n": "Besonderheit: /ɸ/ statt /f/"
+                          },
+                          {
+                              "t": "ふじさん – <b>ふ</b> + じ + さん",
+                              "n": "Fuji-san – beginnt mit ふ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_he",
+                      "isLetter": true,
+                      "letter": "へ",
+                      "word": "へ",
+                      "emoji": "🔤",
+                      "phonetic": "/he/",
+                      "translation": "Laut <b>he</b> – wie im Deutschen „<i>Hemd</i>“<br>Die Form ist ein <span class=\"hl\">Dach</span> oder <span class=\"hl\">Pfeil</span> nach rechts.",
+                      "mnemonic": "へ ist wie ein Dach oder ein Pfeil – „he“ wie „Hemd“ auf dem Dach.",
+                      "examples": [
+                          {
+                              "t": "へ ist auch eine Partikel (Richtung).<br>Beispiel: 学校<へ>行く",
+                              "n": "へ als Richtungs-Partikel: „zur Schule gehen“"
+                          },
+                          {
+                              "t": "へや – <b>へ</b> + や",
+                              "n": "Zimmer – beginnt mit へ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ho",
+                      "isLetter": true,
+                      "letter": "ほ",
+                      "word": "ほ",
+                      "emoji": "🔤",
+                      "phonetic": "/ho/",
+                      "translation": "Laut <b>ho</b> – wie „<i>Hose</i>“ auf Deutsch<br>Wie は, aber mit <span class=\"hl\">einem zusätzlichen Strich</span> rechts.",
+                      "mnemonic": "ほ = は + ein extra Strich – wie eine Hose, die am Haus (は) hängt.",
+                      "examples": [
+                          {
+                              "t": "ほ – fast wie は, nur mit <b>einem Strich mehr</b>",
+                              "n": "Vergleich: は vs. ほ"
+                          },
+                          {
+                              "t": "ほん – <b>ほ</b> + ん",
+                              "n": "Buch – beginnt mit ほ"
                           }
                       ]
                   },
@@ -16228,16 +24441,96 @@ const FLASHCARD_ALPHA = {
                       "word": "ま",
                       "emoji": "🔤",
                       "phonetic": "/ma/",
-                      "translation": "Som <b>ma</b> — como <i>mãe</i> sem nasalização.<br>Parece um <span class=\"hl\">cavalo</span> com pernas cruzadas.",
-                      "mnemonic": "O traço superior parece uma crina de cavalo — e o resto são as pernas.",
+                      "translation": "Laut <b>ma</b> – wie „<i>Mama</i>“<br>Die Form sieht aus wie ein <span class=\"hl\">Baum mit Wurzeln</span>.",
+                      "mnemonic": "ま sieht aus wie ein Baum – „ma“ wie „Mama“ im Wald.",
                       "examples": [
                           {
-                              "t": "<b>ま</b> começa <b>ま</b> (ma) — palavra antiga para 'verdade'? Não, é só um som.",
-                              "n": "Foco no som e formato."
+                              "t": "ま – ein Zeichen mit <b>zwei horizontalen Strichen</b>",
+                              "n": "Form: oben ein Kreuz, unten ein Haken"
                           },
                           {
-                              "t": "Em <b>ま</b>tsuri (festival), aparece esta letra.",
-                              "n": "Matsuri é um festival japonês."
+                              "t": "まど – <b>ま</b> + ど",
+                              "n": "Fenster – beginnt mit ま"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_mi",
+                      "isLetter": true,
+                      "letter": "み",
+                      "word": "み",
+                      "emoji": "🔤",
+                      "phonetic": "/mi/",
+                      "translation": "Laut <b>mi</b> – wie „<i>Milch</i>“<br>Die Form erinnert an eine <span class=\"hl\">Schlange</span> oder eine <span class=\"hl\">Welle</span>.",
+                      "mnemonic": "み sieht aus wie eine Schlange, die „mi“ zischt.",
+                      "examples": [
+                          {
+                              "t": "み – ein Zeichen mit <b>zwei Kurven</b>",
+                              "n": "Form: wie eine liegende Acht"
+                          },
+                          {
+                              "t": "みず – <b>み</b> + ず",
+                              "n": "Wasser – beginnt mit み"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_mu",
+                      "isLetter": true,
+                      "letter": "む",
+                      "word": "む",
+                      "emoji": "🔤",
+                      "phonetic": "/mɯ/",
+                      "translation": "Laut <b>mu</b> – wie „<i>Muh</i>“ von der Kuh<br>Die Form sieht aus wie eine <span class=\"hl\">Kuh</span> mit Hörnern.",
+                      "mnemonic": "む sieht aus wie eine Kuh, die „Muh!“ macht.",
+                      "examples": [
+                          {
+                              "t": "む – ein Zeichen mit <b>Schleife</b> am Ende",
+                              "n": "Form: oben ein Haken, unten eine Schleife"
+                          },
+                          {
+                              "t": "むずかしい – <b>む</b> + ず + か + し + い",
+                              "n": "schwierig – beginnt mit む"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_me",
+                      "isLetter": true,
+                      "letter": "め",
+                      "word": "め",
+                      "emoji": "🔤",
+                      "phonetic": "/me/",
+                      "translation": "Laut <b>me</b> – wie „<i>Messe</i>“<br>Die Form ähnelt <span class=\"hl\">め</span> (nu), aber mit <span class=\"hl\">offenem Ende</span>.",
+                      "mnemonic": "め ist wie ぬ, aber mit offenem Ende – „me“ wie „Messe“ (offen für Besucher).",
+                      "examples": [
+                          {
+                              "t": "め – ähnlich wie ぬ, aber <b>ohne Schleife</b>",
+                              "n": "Vergleich: め vs. ぬ"
+                          },
+                          {
+                              "t": "め – Auge: め",
+                              "n": "Wort: Auge"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_mo",
+                      "isLetter": true,
+                      "letter": "も",
+                      "word": "も",
+                      "emoji": "🔤",
+                      "phonetic": "/mo/",
+                      "translation": "Laut <b>mo</b> – wie „<i>Mond</i>“<br>Wie ま, aber mit <span class=\"hl\">einem Haken</span> nach links.",
+                      "mnemonic": "も = ま mit Haken – „mo“ wie „Mond“, der am Baum hängt.",
+                      "examples": [
+                          {
+                              "t": "も – wie ま, aber mit <b>Haken links</b>",
+                              "n": "Vergleich: ま vs. も"
+                          },
+                          {
+                              "t": "も – auch: わたし<b>も</b>",
+                              "n": "Partikel: „auch ich“"
                           }
                       ]
                   },
@@ -16248,16 +24541,56 @@ const FLASHCARD_ALPHA = {
                       "word": "や",
                       "emoji": "🔤",
                       "phonetic": "/ja/",
-                      "translation": "Som <b>ya</b> — como <i>iá</i> em português.<br>Parece um <span class=\"hl\">ia-te</span> (iate) com vela.",
-                      "mnemonic": "O traço curvo parece a vela de um barco — e iate começa com ya.",
+                      "translation": "Laut <b>ya</b> – wie „<i>Jacht</i>“<br>Die Form sieht aus wie ein <span class=\"hl\">Y</span> mit einem Querstrich.",
+                      "mnemonic": "や sieht aus wie ein Y – „ya“ wie „Yacht“.",
                       "examples": [
                           {
-                              "t": "<b>や</b> é usado em <b>や</b>ma (montanha).",
-                              "n": "Yama é montanha."
+                              "t": "や – nur 3 Zeichen in dieser Reihe",
+                              "n": "Besonderheit: keine い/え-Varianten"
                           },
                           {
-                              "t": "Versão pequena ゃ é usada para sons combinados.",
-                              "n": "Ex: きゃ (kya)."
+                              "t": "やま – <b>や</b> + ま",
+                              "n": "Berg – beginnt mit や"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_yu",
+                      "isLetter": true,
+                      "letter": "ゆ",
+                      "word": "ゆ",
+                      "emoji": "🔤",
+                      "phonetic": "/jɯ/",
+                      "translation": "Laut <b>yu</b> – wie „<i>Urlaub</i>“ (mit j)<br>Die Form sieht aus wie ein <span class=\"hl\">Fisch</span>, der schwimmt.",
+                      "mnemonic": "ゆ sieht aus wie ein Fisch – „yu“ wie „Urlaub“ am Meer.",
+                      "examples": [
+                          {
+                              "t": "ゆ – ein Zeichen mit <b>einer Kurve</b> nach unten",
+                              "n": "Form: wie ein umgedrehtes J"
+                          },
+                          {
+                              "t": "ゆき – <b>ゆ</b> + き",
+                              "n": "Schnee – beginnt mit ゆ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_yo",
+                      "isLetter": true,
+                      "letter": "よ",
+                      "word": "よ",
+                      "emoji": "🔤",
+                      "phonetic": "/jo/",
+                      "translation": "Laut <b>yo</b> – wie „<i>Joghurt</i>“<br>Die Form ist wie ゆ, aber mit <span class=\"hl\">einem Strich</span> oben.",
+                      "mnemonic": "よ = ゆ mit Strich oben – „yo“ wie „Joghurt“ mit Sahnehaube.",
+                      "examples": [
+                          {
+                              "t": "よ – wie ゆ, aber mit <b>Strich oben</b>",
+                              "n": "Vergleich: ゆ vs. よ"
+                          },
+                          {
+                              "t": "よる – <b>よ</b> + る",
+                              "n": "Nacht – beginnt mit よ"
                           }
                       ]
                   },
@@ -16268,16 +24601,96 @@ const FLASHCARD_ALPHA = {
                       "word": "ら",
                       "emoji": "🔤",
                       "phonetic": "/ɾa/",
-                      "translation": "Som <b>ra</b> — um <i>r</i> leve, entre R e L (flap).<br>Parece um <span class=\"hl\">rato</span> de perfil.",
-                      "mnemonic": "O traço inclinado parece um rabo de rato — e rato começa com ra.",
+                      "translation": "Laut <b>ra</b> – ein <i>Zungenschlag</i> (zwischen R und L)<br>Die Form sieht aus wie eine <span class=\"hl\">Blume</span> mit Stiel.",
+                      "mnemonic": "ら sieht aus wie eine Blume – sag „ra“ mit einem schnellen Zungenschlag.",
                       "examples": [
                           {
-                              "t": "<b>ら</b> aparece em <b>ら</b>men (macarrão japonês).",
-                              "n": "Ramen é um prato famoso."
+                              "t": "ら – der Zungenschlag-Laut",
+                              "n": "Besonderheit: /ɾ/ wie im Spanischen"
                           },
                           {
-                              "t": "O som é como o 'r' em 'caro' no português do Brasil.",
-                              "n": "Flap alveolar, não vibrante."
+                              "t": "らくだ – <b>ら</b> + く + だ",
+                              "n": "Kamel – beginnt mit ら"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ri",
+                      "isLetter": true,
+                      "letter": "り",
+                      "word": "り",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾi/",
+                      "translation": "Laut <b>ri</b> – wie „<i>Riese</i>“ mit Zungenschlag<br>Die Form sieht aus wie <span class=\"hl\">zwei Stäbe</span> mit Haken.",
+                      "mnemonic": "り sieht aus wie zwei Stäbe – „ri“ wie „Riese“ mit Stab.",
+                      "examples": [
+                          {
+                              "t": "り – zwei Striche, die sich <b>nicht berühren</b>",
+                              "n": "Form: wie ein kleines n"
+                          },
+                          {
+                              "t": "りんご – <b>り</b> + ん + ご",
+                              "n": "Apfel – beginnt mit り"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ru",
+                      "isLetter": true,
+                      "letter": "る",
+                      "word": "る",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾɯ/",
+                      "translation": "Laut <b>ru</b> – wie „<i>Ruder</i>“<br>Die Form hat eine <span class=\"hl\">Schleife</span> am Ende (wie ろ mit Schleife).",
+                      "mnemonic": "る = ろ mit Schleife – „ru“ wie „Ruder“ mit einer Schlaufe.",
+                      "examples": [
+                          {
+                              "t": "る – ähnlich wie ろ, aber mit <b>Schleife</b>",
+                              "n": "Vergleich: る vs. ろ"
+                          },
+                          {
+                              "t": "る – Verben enden oft auf る",
+                              "n": "Grammatik: z.B. たべる (essen)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_re",
+                      "isLetter": true,
+                      "letter": "れ",
+                      "word": "れ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾe/",
+                      "translation": "Laut <b>re</b> – wie „<i>Regen</i>“<br>Die Form sieht aus wie <span class=\"hl\">わ</span> mit einem extra Haken.",
+                      "mnemonic": "れ ist wie わ mit Haken – „re“ wie „Regen“ mit Tropfen.",
+                      "examples": [
+                          {
+                              "t": "れ – ähnlich wie わ, aber mit <b>Haken</b>",
+                              "n": "Vergleich: れ vs. わ"
+                          },
+                          {
+                              "t": "れきし – <b>れ</b> + き + し",
+                              "n": "Geschichte – beginnt mit れ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ro",
+                      "isLetter": true,
+                      "letter": "ろ",
+                      "word": "ろ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾo/",
+                      "translation": "Laut <b>ro</b> – wie „<i>Rose</i>“<br>Die Form ist wie る, aber <span class=\"hl\">ohne Schleife</span>.",
+                      "mnemonic": "ろ = る ohne Schleife – „ro“ wie „Rose“ ohne Dornen.",
+                      "examples": [
+                          {
+                              "t": "ろ – wie る, aber <b>ohne Schleife</b>",
+                              "n": "Vergleich: ろ vs. る"
+                          },
+                          {
+                              "t": "ろく – <b>ろ</b> + く",
+                              "n": "sechs – beginnt mit ろ"
                           }
                       ]
                   },
@@ -16288,16 +24701,36 @@ const FLASHCARD_ALPHA = {
                       "word": "わ",
                       "emoji": "🔤",
                       "phonetic": "/wa/",
-                      "translation": "Som <b>wa</b> — como <i>uá</i> em português.<br>Parece um <span class=\"hl\">waffle</span> visto de lado.",
-                      "mnemonic": "O traço arredondado parece um waffle — e waffle começa com wa.",
+                      "translation": "Laut <b>wa</b> – wie „<i>Wasser</i>“<br>Die Form sieht aus wie <span class=\"hl\">れ</span> ohne Haken – oder eine Welle.",
+                      "mnemonic": "わ sieht aus wie eine Welle – „wa“ wie „Wasser“ im Meer.",
                       "examples": [
                           {
-                              "t": "<b>わ</b> começa <b>わ</b>たし (eu).",
-                              "n": "Watashi significa eu."
+                              "t": "わ – wie れ, aber <b>ohne Haken</b>",
+                              "n": "Vergleich: わ vs. れ"
                           },
                           {
-                              "t": "Não confunda com は (ha) — わ é sempre wa.",
-                              "n": "は como partícula lê-se wa, mas escreve-se は."
+                              "t": "わたし – <b>わ</b> + た + し",
+                              "n": "Ich – beginnt mit わ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_wo",
+                      "isLetter": true,
+                      "letter": "を",
+                      "word": "を",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Laut <b>o</b> – wird nur als <i>Partikel</i> verwendet<br>Die Form ist wie お mit <span class=\"hl\">einem Strich mehr</span>.",
+                      "mnemonic": "を = お mit extra Strich – wird nur als Partikel benutzt (wie ein „o“ mit Zusatz).",
+                      "examples": [
+                          {
+                              "t": "を – Akkusativ-Partikel<br>Beispiel: 本<b>を</b>読む",
+                              "n": "を als Objekt-Partikel: „ein Buch lesen“"
+                          },
+                          {
+                              "t": "を wird <b>wie お</b> ausgesprochen",
+                              "n": "Aussprache: /o/ nicht /wo/"
                           }
                       ]
                   },
@@ -16307,17 +24740,17 @@ const FLASHCARD_ALPHA = {
                       "letter": "ん",
                       "word": "ん",
                       "emoji": "🔤",
-                      "phonetic": "/n/ (ou /m/ antes de p/b)",
-                      "translation": "Som <b>n</b> — nasal, como <i>n</i> em 'santo'.<br>Parece um <span class=\"hl\">n</span> minúsculo com um rabinho.",
-                      "mnemonic": "Parece a letra n com um gancho — é o único som nasal sozinho.",
+                      "phonetic": "/n/",
+                      "translation": "Laut <b>n</b> – ein <i>nasaler</i> Konsonant<br>Die Form sieht aus wie eine <span class=\"hl\">Schlange</span>, die sich windet.",
+                      "mnemonic": "ん sieht aus wie eine Schlange – zisch „nnn“ wie eine Schlange.",
                       "examples": [
                           {
-                              "t": "<b>ん</b> é a única consoante que pode terminar uma palavra.",
-                              "n": "Ex: にほん (Japão)."
+                              "t": "ん – der einzige <b>eigenständige Nasal</b>",
+                              "n": "Besonderheit: kann allein stehen"
                           },
                           {
-                              "t": "Antes de p/b, vira m: しんぶん (shimbun/jornal).",
-                              "n": "Regra de pronúncia."
+                              "t": "にほん – に + ほ + <b>ん</b>",
+                              "n": "Japan – endet mit ん"
                           }
                       ]
                   },
@@ -16327,17 +24760,49 @@ const FLASHCARD_ALPHA = {
                       "letter": "゛",
                       "word": "゛",
                       "emoji": "🔤",
-                      "phonetic": "/dakuten/",
-                      "translation": "Dakuten (゛) — adiciona <b>voz</b> ao som.<br>Ex: か (ka) → が (ga).<br>Handakuten (゜) — adiciona <b>p</b>: は (ha) → ぱ (pa).",
-                      "mnemonic": "Duas marquinhas = som 'pesado' (voz). Bolinha = som 'p' leve.",
+                      "phonetic": "/◌ˡ/",
+                      "translation": "Dakuten: <b>Stimmhaftmachung</b><br>Zwei kleine Striche oben rechts – wie ein <span class=\"hl\">Stimmband</span>.",
+                      "mnemonic": "゛ sind zwei Striche = „Stimme an“ – macht k→g, s→z, t→d, h→b.",
                       "examples": [
                           {
-                              "t": "か → <b>が</b> (ga) — som com vibração nas cordas vocais.",
-                              "n": "Dakuten = voz."
+                              "t": "か → <b>が</b> (ga)",
+                              "n": "k wird zu g"
                           },
                           {
-                              "t": "は → <b>ぱ</b> (pa) — handakuten vira p.",
-                              "n": "Bolinha = p."
+                              "t": "さ → <b>ざ</b> (za)",
+                              "n": "s wird zu z"
+                          },
+                          {
+                              "t": "た → <b>だ</b> (da)",
+                              "n": "t wird zu d"
+                          },
+                          {
+                              "t": "は → <b>ば</b> (ba)",
+                              "n": "h wird zu b"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_handakuten",
+                      "isLetter": true,
+                      "letter": "゜",
+                      "word": "゜",
+                      "emoji": "🔤",
+                      "phonetic": "/◌ʰ/",
+                      "translation": "Handakuten: <b>p-Laut</b><br>Ein kleiner Kreis – wie ein <span class=\"hl\">Luftballon</span>, der platzt (p!).",
+                      "mnemonic": "゜ ist ein Kreis = „p“ wie „Pop!“ – nur bei は行.",
+                      "examples": [
+                          {
+                              "t": "は → <b>ぱ</b> (pa)",
+                              "n": "h wird zu p"
+                          },
+                          {
+                              "t": "ひ → <b>ぴ</b> (pi)",
+                              "n": "hi wird zu pi"
+                          },
+                          {
+                              "t": "ふ → <b>ぷ</b> (pu)",
+                              "n": "fu wird zu pu"
                           }
                       ]
                   },
@@ -16348,20 +24813,20 @@ const FLASHCARD_ALPHA = {
                       "word": "はな",
                       "emoji": "🌸",
                       "phonetic": "/hana/",
-                      "translation": "<b>Flor</b> — <i>ha</i> + <i>na</i>",
+                      "translation": "Blume – <b>はな</b>",
                       "translations": {
                           "ja": "はな",
-                          "pt": "flor",
+                          "de": "Blume",
                           "en": "flower"
                       },
                       "examples": [
                           {
-                              "t": "これは <b>はな</b> です。",
-                              "n": "Isto é uma flor."
+                              "t": "これは<b>はな</b>です。",
+                              "n": "Das ist eine Blume."
                           },
                           {
-                              "t": "<b>はな</b> が きれい です。",
-                              "n": "A flor é bonita."
+                              "t": "はなはきれいです。",
+                              "n": "Die Blume ist schön."
                           }
                       ]
                   },
@@ -16371,21 +24836,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "み",
                       "word": "みず",
                       "emoji": "💧",
-                      "phonetic": "/mizu/",
-                      "translation": "<b>Água</b> — <i>mi</i> + <i>zu</i> (com dakuten)",
+                      "phonetic": "/mizɯ/",
+                      "translation": "Wasser – <b>みず</b>",
                       "translations": {
                           "ja": "みず",
-                          "pt": "água",
+                          "de": "Wasser",
                           "en": "water"
                       },
                       "examples": [
                           {
-                              "t": "<b>みず</b> を ください。",
-                              "n": "Água, por favor."
+                              "t": "みずを飲みます。",
+                              "n": "Ich trinke Wasser."
                           },
                           {
-                              "t": "この <b>みず</b> は つめたい。",
-                              "n": "Esta água está fria."
+                              "t": "みずは冷たいです。",
+                              "n": "Das Wasser ist kalt."
                           }
                       ]
                   },
@@ -16394,22 +24859,22 @@ const FLASHCARD_ALPHA = {
                       "isLetter": false,
                       "letter": "や",
                       "word": "やま",
-                      "emoji": "🏔️",
+                      "emoji": "⛰️",
                       "phonetic": "/jama/",
-                      "translation": "<b>Montanha</b> — <i>ya</i> + <i>ma</i>",
+                      "translation": "Berg – <b>やま</b>",
                       "translations": {
                           "ja": "やま",
-                          "pt": "montanha",
+                          "de": "Berg",
                           "en": "mountain"
                       },
                       "examples": [
                           {
-                              "t": "ふじ <b>やま</b> は たかい。",
-                              "n": "O Monte Fuji é alto."
+                              "t": "やまが高いです。",
+                              "n": "Der Berg ist hoch."
                           },
                           {
-                              "t": "<b>やま</b> に いく。",
-                              "n": "Vou à montanha."
+                              "t": "やまに登ります。",
+                              "n": "Ich besteige den Berg."
                           }
                       ]
                   },
@@ -16419,21 +24884,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "ら",
                       "word": "られる",
                       "emoji": "💪",
-                      "phonetic": "/raɾeru/",
-                      "translation": "<b>Poder fazer</b> — forma potencial de verbos",
+                      "phonetic": "/raɾeɾɯ/",
+                      "translation": "können / möglich sein – <b>られる</b>",
                       "translations": {
                           "ja": "られる",
-                          "pt": "poder fazer",
-                          "en": "can do"
+                          "de": "können / möglich sein",
+                          "en": "can do / to be able to"
                       },
                       "examples": [
                           {
-                              "t": "にほんご が <b>はなせる</b> ように なりたい。",
-                              "n": "Quero conseguir falar japonês. (exemplo com forma potencial)"
+                              "t": "日本語が話せます。",
+                              "n": "Ich kann Japanisch sprechen."
                           },
                           {
-                              "t": "これ は <b>たべられる</b>。",
-                              "n": "Isto pode ser comido."
+                              "t": "これは食べ<b>られる</b>。",
+                              "n": "Das kann man essen."
                           }
                       ]
                   },
@@ -16443,45 +24908,45 @@ const FLASHCARD_ALPHA = {
                       "letter": "わ",
                       "word": "わたし",
                       "emoji": "🙋",
-                      "phonetic": "/watashi/",
-                      "translation": "<b>Eu</b> — pronome pessoal",
+                      "phonetic": "/ɰataɕi/",
+                      "translation": "ich – <b>わたし</b>",
                       "translations": {
                           "ja": "わたし",
-                          "pt": "eu",
-                          "en": "I/me"
+                          "de": "ich",
+                          "en": "I / me"
                       },
                       "examples": [
                           {
-                              "t": "<b>わたし</b> は がくせい です。",
-                              "n": "Eu sou estudante."
+                              "t": "<b>わたし</b>は学生です。",
+                              "n": "Ich bin Student."
                           },
                           {
-                              "t": "<b>わたし</b> の なまえ は アナ です。",
-                              "n": "Meu nome é Ana."
+                              "t": "これはわたしの本です。",
+                              "n": "Das ist mein Buch."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g2_06",
                       "isLetter": false,
-                      "letter": "り",
+                      "letter": "あ",
                       "word": "ありがとう",
                       "emoji": "🙏",
-                      "phonetic": "/aɾiga-toː/",
-                      "translation": "<b>Obrigado(a)</b> — expressão de gratidão",
+                      "phonetic": "/aɾiɡatoː/",
+                      "translation": "Danke – <b>ありがとう</b>",
                       "translations": {
                           "ja": "ありがとう",
-                          "pt": "obrigado(a)",
+                          "de": "Danke",
                           "en": "thank you"
                       },
                       "examples": [
                           {
-                              "t": "<b>ありがとう</b> ございます。",
-                              "n": "Muito obrigado (formal)."
+                              "t": "<b>ありがとう</b>ございます。",
+                              "n": "Vielen Dank (formell)."
                           },
                           {
-                              "t": "たすけてくれて <b>ありがとう</b>。",
-                              "n": "Obrigado por me ajudar."
+                              "t": "ありがとう！",
+                              "n": "Danke! (informell)"
                           }
                       ]
                   },
@@ -16491,21 +24956,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "に",
                       "word": "にほん",
                       "emoji": "🇯🇵",
-                      "phonetic": "/nihon/",
-                      "translation": "<b>Japão</b> — <i>ni</i> + <i>hon</i> (origem: 'país do sol nascente')",
+                      "phonetic": "/ɲihoɴ/",
+                      "translation": "Japan – <b>にほん</b>",
                       "translations": {
                           "ja": "にほん",
-                          "pt": "Japão",
+                          "de": "Japan",
                           "en": "Japan"
                       },
                       "examples": [
                           {
-                              "t": "<b>にほん</b> に いきたい。",
-                              "n": "Quero ir ao Japão."
+                              "t": "<b>にほん</b>が好きです。",
+                              "n": "Ich mag Japan."
                           },
                           {
-                              "t": "<b>にほん</b> の たべもの は おいしい。",
-                              "n": "A comida do Japão é deliciosa."
+                              "t": "にほんに行きます。",
+                              "n": "Ich gehe nach Japan."
                           }
                       ]
                   }
@@ -16529,16 +24994,12 @@ const FLASHCARD_ALPHA = {
                       "word": "ア",
                       "emoji": "🔤",
                       "phonetic": "/a/",
-                      "translation": "<b>ア</b> = <i>a</i> (igual que あ)<br>Som: <b>/a/</b> — como em <i>paz</i>",
-                      "mnemonic": "O ア parece um 'A' com um braço esticado para a direita.",
+                      "translation": "ア = <b>a</b> (wie im Deutschen <i>Apfel</i>)<br>Hiragana: あ",
+                      "mnemonic": "Sieht aus wie ein umgedrehtes 'a' – einfach die obere Schleife wegdenken.",
                       "examples": [
                           {
-                              "t": "<b>ア</b> é o katakana de <b>あ</b>.<br>Ambos som <i>/a/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ア</b>メリカ (América)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ア ist die Katakana-Form von <b>あ</b>.<br>Denk an <span class='hl'>Apfel</span> für den Laut.",
+                              "n": "ア ist wie あ, aber eckiger."
                           }
                       ]
                   },
@@ -16549,16 +25010,12 @@ const FLASHCARD_ALPHA = {
                       "word": "イ",
                       "emoji": "🔤",
                       "phonetic": "/i/",
-                      "translation": "<b>イ</b> = <i>i</i> (igual que い)<br>Som: <b>/i/</b> — como em <i>vida</i>",
-                      "mnemonic": "O イ parece um 'I' com um risco à direita.",
+                      "translation": "イ = <b>i</b> (wie im Deutschen <i>Igel</i>)<br>Hiragana: い",
+                      "mnemonic": "Zwei Striche wie ein 'i' ohne Punkt – einfach die linke Linie als Punkt.",
                       "examples": [
                           {
-                              "t": "<b>イ</b> é o katakana de <b>い</b>.<br>Ambos som <i>/i/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>イ</b>タリア (Itália)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "イ sieht aus wie ein <span class='hl'>I</span> ohne Punkt.<br>Denk an <i>Igel</i>.",
+                              "n": "イ ist wie い, aber mit geraden Linien."
                           }
                       ]
                   },
@@ -16568,17 +25025,13 @@ const FLASHCARD_ALPHA = {
                       "letter": "ウ",
                       "word": "ウ",
                       "emoji": "🔤",
-                      "phonetic": "/ɯ/",
-                      "translation": "<b>ウ</b> = <i>u</i> (igual que う)<br>Som: <b>/u/</b> — como em <i>uva</i>",
-                      "mnemonic": "O ウ parece um 'u' de cabeça para baixo com um teto.",
+                      "phonetic": "/u/",
+                      "translation": "ウ = <b>u</b> (wie im Deutschen <i>Uhr</i>)<br>Hiragana: う",
+                      "mnemonic": "Sieht aus wie ein umgedrehtes 'u' – der Haken ist oben.",
                       "examples": [
                           {
-                              "t": "<b>ウ</b> é o katakana de <b>う</b>.<br>Ambos som <i>/u/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ウ</b>イスキー (uísque)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ウ hat einen <span class='hl'>Haken</span> oben.<br>Denk an <i>Uhr</i>.",
+                              "n": "ウ ist wie う, aber mit scharfen Ecken."
                           }
                       ]
                   },
@@ -16589,16 +25042,12 @@ const FLASHCARD_ALPHA = {
                       "word": "エ",
                       "emoji": "🔤",
                       "phonetic": "/e/",
-                      "translation": "<b>エ</b> = <i>e</i> (igual que え)<br>Som: <b>/e/</b> — como em <i>pé</i>",
-                      "mnemonic": "O エ parece um 'E' com um risco no meio.",
+                      "translation": "エ = <b>e</b> (wie im Deutschen <i>Elefant</i>)<br>Hiragana: え",
+                      "mnemonic": "Sieht aus wie ein 'E' mit einem extra Strich – wie ein Regal.",
                       "examples": [
                           {
-                              "t": "<b>エ</b> é o katakana de <b>え</b>.<br>Ambos som <i>/e/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>エ</b>レベーター (elevador)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "エ sieht aus wie ein <span class='hl'>E</span> mit einem Strich.<br>Denk an <i>Elefant</i>.",
+                              "n": "エ ist wie え, aber mit geraden Linien."
                           }
                       ]
                   },
@@ -16609,16 +25058,12 @@ const FLASHCARD_ALPHA = {
                       "word": "オ",
                       "emoji": "🔤",
                       "phonetic": "/o/",
-                      "translation": "<b>オ</b> = <i>o</i> (igual que お)<br>Som: <b>/o/</b> — como em <i>ovo</i>",
-                      "mnemonic": "O オ parece um 'o' com um risco vertical à direita.",
+                      "translation": "オ = <b>o</b> (wie im Deutschen <i>Ohr</i>)<br>Hiragana: お",
+                      "mnemonic": "Sieht aus wie ein 'o' mit einem senkrechten Strich – wie ein Schlüssel.",
                       "examples": [
                           {
-                              "t": "<b>オ</b> é o katakana de <b>お</b>.<br>Ambos som <i>/o/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>オ</b>ーストラリア (Austrália)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "オ hat einen <span class='hl'>Strich</span> durch.<br>Denk an <i>Ohr</i>.",
+                              "n": "オ ist wie お, aber ohne Schleife."
                           }
                       ]
                   },
@@ -16629,16 +25074,12 @@ const FLASHCARD_ALPHA = {
                       "word": "カ",
                       "emoji": "🔤",
                       "phonetic": "/ka/",
-                      "translation": "<b>カ</b> = <i>ka</i> (igual que か)<br>Som: <b>/ka/</b> — como em <i>casa</i>",
-                      "mnemonic": "O カ parece um 'k' com um risco à direita.",
+                      "translation": "カ = <b>ka</b> (wie <i>Kaffee</i>)<br>Hiragana: か",
+                      "mnemonic": "Sieht aus wie ein 'k' mit einem Strich – wie ein umgedrehtes 'K'.",
                       "examples": [
                           {
-                              "t": "<b>カ</b> é o katakana de <b>か</b>.<br>Ambos som <i>/ka/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>カ</b>メラ (câmera)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "カ ist wie <b>か</b>, aber ohne den kleinen Kreis.<br>Denk an <span class='hl'>Kaffee</span>.",
+                              "n": "カ hat weniger Kurven als か."
                           }
                       ]
                   },
@@ -16649,16 +25090,12 @@ const FLASHCARD_ALPHA = {
                       "word": "キ",
                       "emoji": "🔤",
                       "phonetic": "/ki/",
-                      "translation": "<b>キ</b> = <i>ki</i> (igual que き)<br>Som: <b>/ki/</b> — como em <i>quiabo</i>",
-                      "mnemonic": "O キ parece um 'k' com dois riscos à direita.",
+                      "translation": "キ = <b>ki</b> (wie <i>Kilo</i>)<br>Hiragana: き",
+                      "mnemonic": "Sieht aus wie ein 'k' mit einem langen Strich – wie ein Schlüssel.",
                       "examples": [
                           {
-                              "t": "<b>キ</b> é o katakana de <b>き</b>.<br>Ambos som <i>/ki/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>キ</b>ロ (quilo)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "キ hat zwei <span class='hl'>Kreuze</span>.<br>Denk an <i>Kilo</i>.",
+                              "n": "キ ist wie き, aber mit geraden Linien."
                           }
                       ]
                   },
@@ -16668,17 +25105,13 @@ const FLASHCARD_ALPHA = {
                       "letter": "ク",
                       "word": "ク",
                       "emoji": "🔤",
-                      "phonetic": "/kɯ/",
-                      "translation": "<b>ク</b> = <i>ku</i> (igual que く)<br>Som: <b>/ku/</b> — como em <i>cuco</i>",
-                      "mnemonic": "O ク parece um '<' com um risco à direita.",
+                      "phonetic": "/ku/",
+                      "translation": "ク = <b>ku</b> (wie <i>Kuh</i>)<br>Hiragana: く",
+                      "mnemonic": "Sieht aus wie ein Winkel – wie ein 'v' mit einem Strich.",
                       "examples": [
                           {
-                              "t": "<b>ク</b> é o katakana de <b>く</b>.<br>Ambos som <i>/ku/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ク</b>リスマス (Natal)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ク ist wie <b>く</b>, aber mit einem <span class='hl'>Haken</span>.<br>Denk an <i>Kuh</i>.",
+                              "n": "ク ist ähnlich zu く."
                           }
                       ]
                   },
@@ -16689,16 +25122,12 @@ const FLASHCARD_ALPHA = {
                       "word": "ケ",
                       "emoji": "🔤",
                       "phonetic": "/ke/",
-                      "translation": "<b>ケ</b> = <i>ke</i> (igual que け)<br>Som: <b>/ke/</b> — como em <i>queijo</i>",
-                      "mnemonic": "O ケ parece um 'k' com um risco à esquerda.",
+                      "translation": "ケ = <b>ke</b> (wie <i>Keks</i>)<br>Hiragana: け",
+                      "mnemonic": "Sieht aus wie ein 'K' mit einem Strich – wie ein umgedrehtes 'K'.",
                       "examples": [
                           {
-                              "t": "<b>ケ</b> é o katakana de <b>け</b>.<br>Ambos som <i>/ke/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ケ</b>ーキ (bolo)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ケ ist wie <b>け</b>, aber mit <span class='hl'>geraden Linien</span>.<br>Denk an <i>Keks</i>.",
+                              "n": "ケ hat weniger Kurven als け."
                           }
                       ]
                   },
@@ -16709,16 +25138,12 @@ const FLASHCARD_ALPHA = {
                       "word": "コ",
                       "emoji": "🔤",
                       "phonetic": "/ko/",
-                      "translation": "<b>コ</b> = <i>ko</i> (igual que こ)<br>Som: <b>/ko/</b> — como em <i>copo</i>",
-                      "mnemonic": "O コ parece um 'k' com dois riscos à esquerda.",
+                      "translation": "コ = <b>ko</b> (wie <i>Koffer</i>)<br>Hiragana: こ",
+                      "mnemonic": "Sieht aus wie ein umgedrehtes 'C' – wie ein Koffer.",
                       "examples": [
                           {
-                              "t": "<b>コ</b> é o katakana de <b>こ</b>.<br>Ambos som <i>/ko/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>コ</b>ーラ (cola)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "コ ist wie <b>こ</b>, aber mit <span class='hl'>Ecken</span>.<br>Denk an <i>Koffer</i>.",
+                              "n": "コ ist ähnlich zu こ."
                           }
                       ]
                   },
@@ -16729,16 +25154,12 @@ const FLASHCARD_ALPHA = {
                       "word": "サ",
                       "emoji": "🔤",
                       "phonetic": "/sa/",
-                      "translation": "<b>サ</b> = <i>sa</i> (igual que さ)<br>Som: <b>/sa/</b> — como em <i>sapo</i>",
-                      "mnemonic": "O サ parece um 's' com um risco à direita.",
+                      "translation": "サ = <b>sa</b> (wie <i>Salat</i>)<br>Hiragana: さ",
+                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein schiefes Kreuz.",
                       "examples": [
                           {
-                              "t": "<b>サ</b> é o katakana de <b>さ</b>.<br>Ambos som <i>/sa/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>サ</b>ラダ (salada)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "サ hat einen <span class='hl'>Strich</span> oben.<br>Denk an <i>Salat</i>.",
+                              "n": "サ ist wie さ, aber mit geraden Linien."
                           }
                       ]
                   },
@@ -16749,16 +25170,12 @@ const FLASHCARD_ALPHA = {
                       "word": "シ",
                       "emoji": "🔤",
                       "phonetic": "/ɕi/",
-                      "translation": "<b>シ</b> = <i>shi</i> (igual que し)<br>Som: <b>/shi/</b> — como em <i>chave</i>",
-                      "mnemonic": "O シ parece um 's' com dois riscos à direita.",
+                      "translation": "シ = <b>shi</b> (wie <i>Schiff</i>)<br>Hiragana: し",
+                      "mnemonic": "Sieht aus wie ein 's' mit zwei Strichen – wie ein Schiff.",
                       "examples": [
                           {
-                              "t": "<b>シ</b> é o katakana de <b>し</b>.<br>Ambos som <i>/shi/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>シ</b>ャツ (camisa)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "シ hat zwei <span class='hl'>Striche</span>.<br>Denk an <i>Schiff</i>.",
+                              "n": "シ ist wie し, aber mit zusätzlichen Strichen."
                           }
                       ]
                   },
@@ -16768,17 +25185,13 @@ const FLASHCARD_ALPHA = {
                       "letter": "ス",
                       "word": "ス",
                       "emoji": "🔤",
-                      "phonetic": "/sɯ/",
-                      "translation": "<b>ス</b> = <i>su</i> (igual que す)<br>Som: <b>/su/</b> — como em <i>suco</i>",
-                      "mnemonic": "O ス parece um 's' com um risco à esquerda.",
+                      "phonetic": "/su/",
+                      "translation": "ス = <b>su</b> (wie <i>Suppe</i>)<br>Hiragana: す",
+                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein Haken.",
                       "examples": [
                           {
-                              "t": "<b>ス</b> é o katakana de <b>す</b>.<br>Ambos som <i>/su/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ス</b>ープ (sopa)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ス hat einen <span class='hl'>Haken</span>.<br>Denk an <i>Suppe</i>.",
+                              "n": "ス ist wie す, aber ohne Schleife."
                           }
                       ]
                   },
@@ -16789,16 +25202,12 @@ const FLASHCARD_ALPHA = {
                       "word": "セ",
                       "emoji": "🔤",
                       "phonetic": "/se/",
-                      "translation": "<b>セ</b> = <i>se</i> (igual que せ)<br>Som: <b>/se/</b> — como em <i>seda</i>",
-                      "mnemonic": "O セ parece um 's' com um risco no meio.",
+                      "translation": "セ = <b>se</b> (wie <i>See</i>)<br>Hiragana: せ",
+                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein Segel.",
                       "examples": [
                           {
-                              "t": "<b>セ</b> é o katakana de <b>せ</b>.<br>Ambos som <i>/se/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>セ</b>ンター (centro)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "セ hat einen <span class='hl'>Strich</span> durch.<br>Denk an <i>See</i>.",
+                              "n": "セ ist wie せ, aber mit geraden Linien."
                           }
                       ]
                   },
@@ -16809,16 +25218,12 @@ const FLASHCARD_ALPHA = {
                       "word": "ソ",
                       "emoji": "🔤",
                       "phonetic": "/so/",
-                      "translation": "<b>ソ</b> = <i>so</i> (igual que そ)<br>Som: <b>/so/</b> — como em <i>sopa</i>",
-                      "mnemonic": "O ソ parece um 's' com dois riscos à esquerda.",
+                      "translation": "ソ = <b>so</b> (wie <i>Sonne</i>)<br>Hiragana: そ",
+                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein schiefes Kreuz.",
                       "examples": [
                           {
-                              "t": "<b>ソ</b> é o katakana de <b>そ</b>.<br>Ambos som <i>/so/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ソ</b>ファ (sofá)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ソ hat einen <span class='hl'>Strich</span> oben.<br>Denk an <i>Sonne</i>.",
+                              "n": "ソ ist wie そ, aber mit geraden Linien."
                           }
                       ]
                   },
@@ -16829,16 +25234,12 @@ const FLASHCARD_ALPHA = {
                       "word": "タ",
                       "emoji": "🔤",
                       "phonetic": "/ta/",
-                      "translation": "<b>タ</b> = <i>ta</i> (igual que た)<br>Som: <b>/ta/</b> — como em <i>tatu</i>",
-                      "mnemonic": "O タ parece um 't' com um risco à direita.",
+                      "translation": "タ = <b>ta</b> (wie <i>Tasse</i>)<br>Hiragana: た",
+                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein Tisch.",
                       "examples": [
                           {
-                              "t": "<b>タ</b> é o katakana de <b>た</b>.<br>Ambos som <i>/ta/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>タ</b>クシー (táxi)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "タ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Tasse</i>.",
+                              "n": "タ ist wie た, aber ohne Schleifen."
                           }
                       ]
                   },
@@ -16849,16 +25250,12 @@ const FLASHCARD_ALPHA = {
                       "word": "チ",
                       "emoji": "🔤",
                       "phonetic": "/tɕi/",
-                      "translation": "<b>チ</b> = <i>chi</i> (igual que ち)<br>Som: <b>/tchi/</b> — como em <i>tchau</i>",
-                      "mnemonic": "O チ parece um 't' com um risco no meio.",
+                      "translation": "チ = <b>chi</b> (wie <i>China</i>)<br>Hiragana: ち",
+                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein umgedrehtes 't'.",
                       "examples": [
                           {
-                              "t": "<b>チ</b> é o katakana de <b>ち</b>.<br>Ambos som <i>/tchi/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>チ</b>ーズ (queijo)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "チ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>China</i>.",
+                              "n": "チ ist wie ち, aber mit geraden Linien."
                           }
                       ]
                   },
@@ -16868,17 +25265,13 @@ const FLASHCARD_ALPHA = {
                       "letter": "ツ",
                       "word": "ツ",
                       "emoji": "🔤",
-                      "phonetic": "/tsɯ/",
-                      "translation": "<b>ツ</b> = <i>tsu</i> (igual que つ)<br>Som: <b>/tsu/</b> — como em <i>tsunami</i>",
-                      "mnemonic": "O ツ parece um 't' com dois riscos à esquerda.",
+                      "phonetic": "/tsu/",
+                      "translation": "ツ = <b>tsu</b> (wie <i>Zug</i>)<br>Hiragana: つ",
+                      "mnemonic": "Sieht aus wie ein 't' mit zwei Strichen – wie ein Zug.",
                       "examples": [
                           {
-                              "t": "<b>ツ</b> é o katakana de <b>つ</b>.<br>Ambos som <i>/tsu/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ツ</b>アー (tour)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ツ hat zwei <span class='hl'>Striche</span>.<br>Denk an <i>Zug</i>.",
+                              "n": "ツ ist wie つ, aber mit zusätzlichen Strichen."
                           }
                       ]
                   },
@@ -16889,16 +25282,12 @@ const FLASHCARD_ALPHA = {
                       "word": "テ",
                       "emoji": "🔤",
                       "phonetic": "/te/",
-                      "translation": "<b>テ</b> = <i>te</i> (igual que て)<br>Som: <b>/te/</b> — como em <i>teto</i>",
-                      "mnemonic": "O テ parece um 't' com um risco à esquerda.",
+                      "translation": "テ = <b>te</b> (wie <i>Teppich</i>)<br>Hiragana: て",
+                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein T-Stück.",
                       "examples": [
                           {
-                              "t": "<b>テ</b> é o katakana de <b>て</b>.<br>Ambos som <i>/te/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>テ</b>ニス (tênis)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "テ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Teppich</i>.",
+                              "n": "テ ist wie て, aber mit geraden Linien."
                           }
                       ]
                   },
@@ -16909,16 +25298,12 @@ const FLASHCARD_ALPHA = {
                       "word": "ト",
                       "emoji": "🔤",
                       "phonetic": "/to/",
-                      "translation": "<b>ト</b> = <i>to</i> (igual que と)<br>Som: <b>/to/</b> — como em <i>torta</i>",
-                      "mnemonic": "O ト parece um 't' com um risco à direita.",
+                      "translation": "ト = <b>to</b> (wie <i>Tor</i>)<br>Hiragana: と",
+                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein Tor.",
                       "examples": [
                           {
-                              "t": "<b>ト</b> é o katakana de <b>と</b>.<br>Ambos som <i>/to/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ト</b>マト (tomate)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ト hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Tor</i>.",
+                              "n": "ト ist wie と, aber mit geraden Linien."
                           }
                       ]
                   },
@@ -16929,16 +25314,12 @@ const FLASHCARD_ALPHA = {
                       "word": "ナ",
                       "emoji": "🔤",
                       "phonetic": "/na/",
-                      "translation": "<b>ナ</b> = <i>na</i> (igual que な)<br>Som: <b>/na/</b> — como em <i>nada</i>",
-                      "mnemonic": "O ナ parece um 'n' com um risco à direita.",
+                      "translation": "ナ = <b>na</b> (wie <i>Nase</i>)<br>Hiragana: な",
+                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie eine Nase.",
                       "examples": [
                           {
-                              "t": "<b>ナ</b> é o katakana de <b>な</b>.<br>Ambos som <i>/na/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ナ</b>イフ (faca)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ナ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Nase</i>.",
+                              "n": "ナ ist wie な, aber ohne Schleife."
                           }
                       ]
                   },
@@ -16949,16 +25330,12 @@ const FLASHCARD_ALPHA = {
                       "word": "ニ",
                       "emoji": "🔤",
                       "phonetic": "/ni/",
-                      "translation": "<b>ニ</b> = <i>ni</i> (igual que に)<br>Som: <b>/ni/</b> — como em <i>ninho</i>",
-                      "mnemonic": "O ニ parece um 'n' com dois riscos à direita.",
+                      "translation": "ニ = <b>ni</b> (wie <i>Nil</i>)<br>Hiragana: に",
+                      "mnemonic": "Zwei Striche – wie ein 'n' mit zwei Strichen.",
                       "examples": [
                           {
-                              "t": "<b>ニ</b> é o katakana de <b>に</b>.<br>Ambos som <i>/ni/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ニ</b>ュース (notícias)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ニ hat zwei <span class='hl'>Striche</span>.<br>Denk an <i>Nil</i>.",
+                              "n": "ニ ist wie に, aber ohne Kurven."
                           }
                       ]
                   },
@@ -16968,17 +25345,13 @@ const FLASHCARD_ALPHA = {
                       "letter": "ヌ",
                       "word": "ヌ",
                       "emoji": "🔤",
-                      "phonetic": "/nɯ/",
-                      "translation": "<b>ヌ</b> = <i>nu</i> (igual que ぬ)<br>Som: <b>/nu/</b> — como em <i>nuvem</i>",
-                      "mnemonic": "O ヌ parece um 'n' com um risco à esquerda.",
+                      "phonetic": "/nu/",
+                      "translation": "ヌ = <b>nu</b> (wie <i>Null</i>)<br>Hiragana: ぬ",
+                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie ein Haken.",
                       "examples": [
                           {
-                              "t": "<b>ヌ</b> é o katakana de <b>ぬ</b>.<br>Ambos som <i>/nu/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ヌ</b>ードル (macarrão)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ヌ hat einen <span class='hl'>Haken</span>.<br>Denk an <i>Null</i>.",
+                              "n": "ヌ ist wie ぬ, aber ohne Schleife."
                           }
                       ]
                   },
@@ -16989,16 +25362,12 @@ const FLASHCARD_ALPHA = {
                       "word": "ネ",
                       "emoji": "🔤",
                       "phonetic": "/ne/",
-                      "translation": "<b>ネ</b> = <i>ne</i> (igual que ね)<br>Som: <b>/ne/</b> — como em <i>nervo</i>",
-                      "mnemonic": "O ネ parece um 'n' com um risco no meio.",
+                      "translation": "ネ = <b>ne</b> (wie <i>Nest</i>)<br>Hiragana: ね",
+                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie ein Nest.",
                       "examples": [
                           {
-                              "t": "<b>ネ</b> é o katakana de <b>ね</b>.<br>Ambos som <i>/ne/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ネ</b>クタイ (gravata)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ネ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Nest</i>.",
+                              "n": "ネ ist wie ね, aber mit geraden Linien."
                           }
                       ]
                   },
@@ -17009,16 +25378,12 @@ const FLASHCARD_ALPHA = {
                       "word": "ノ",
                       "emoji": "🔤",
                       "phonetic": "/no/",
-                      "translation": "<b>ノ</b> = <i>no</i> (igual que の)<br>Som: <b>/no/</b> — como em <i>nó</i>",
-                      "mnemonic": "O ノ parece um 'n' com um risco à direita.",
+                      "translation": "ノ = <b>no</b> (wie <i>Nord</i>)<br>Hiragana: の",
+                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie ein Haken.",
                       "examples": [
                           {
-                              "t": "<b>ノ</b> é o katakana de <b>の</b>.<br>Ambos som <i>/no/</i>",
-                              "n": "Ambos representam o mesmo som."
-                          },
-                          {
-                              "t": "Palavra: <b>ノ</b>ート (caderno)",
-                              "n": "Exemplo de uso em palavra estrangeira."
+                              "t": "ノ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Nord</i>.",
+                              "n": "ノ ist wie の, aber ohne Kreis."
                           }
                       ]
                   },
@@ -17029,20 +25394,20 @@ const FLASHCARD_ALPHA = {
                       "word": "コーヒー",
                       "emoji": "☕",
                       "phonetic": "/koːçiː/",
-                      "translation": "<b>café</b> — do holandês <i>koffie</i>",
+                      "translation": "Kaffee – <b>コーヒー</b> (koohii), mit langem Vokal ー",
                       "translations": {
                           "ja": "コーヒー",
-                          "pt": "café",
+                          "de": "Kaffee",
                           "en": "coffee"
                       },
                       "examples": [
                           {
-                              "t": "<b>コーヒー</b>を飲みます。",
-                              "n": "Eu bebo café."
+                              "t": "コーヒーを飲みます。<br><b>コーヒー</b> ist ein Lehnwort.",
+                              "n": "Ich trinke Kaffee."
                           },
                           {
-                              "t": "この<b>コーヒー</b>はおいしいです。",
-                              "n": "Este café é delicioso."
+                              "t": "このコーヒーはおいしいです。<br>Denk an <span class='hl'>Kaffee</span>.",
+                              "n": "Dieser Kaffee ist lecker."
                           }
                       ]
                   },
@@ -17052,21 +25417,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "テ",
                       "word": "テレビ",
                       "emoji": "📺",
-                      "phonetic": "/teɾebi/",
-                      "translation": "<b>televisão</b> — abreviação de <i>television</i>",
+                      "phonetic": "/teɾeβi/",
+                      "translation": "Fernseher – <b>テレビ</b> (terebi), von <i>television</i>",
                       "translations": {
                           "ja": "テレビ",
-                          "pt": "televisão",
+                          "de": "Fernseher",
                           "en": "TV"
                       },
                       "examples": [
                           {
-                              "t": "<b>テレビ</b>を見ます。",
-                              "n": "Eu assisto TV."
+                              "t": "テレビを見ます。<br><b>テレビ</b> ist ein Lehnwort.",
+                              "n": "Ich schaue fern."
                           },
                           {
-                              "t": "<b>テレビ</b>が好きです。",
-                              "n": "Eu gosto de TV."
+                              "t": "新しいテレビを買いました。<br>Denk an <span class='hl'>TV</span>.",
+                              "n": "Ich habe einen neuen Fernseher gekauft."
                           }
                       ]
                   },
@@ -17075,22 +25440,22 @@ const FLASHCARD_ALPHA = {
                       "isLetter": false,
                       "letter": "ア",
                       "word": "アイスクリーム",
-                      "emoji": "🍨",
+                      "emoji": "🍦",
                       "phonetic": "/aisɯkɯɾiːmɯ/",
-                      "translation": "<b>sorvete</b> — do inglês <i>ice cream</i>",
+                      "translation": "Eiscreme – <b>アイスクリーム</b> (aisukuriimu), von <i>ice cream</i>",
                       "translations": {
                           "ja": "アイスクリーム",
-                          "pt": "sorvete",
+                          "de": "Eiscreme",
                           "en": "ice cream"
                       },
                       "examples": [
                           {
-                              "t": "<b>アイスクリーム</b>を食べます。",
-                              "n": "Eu como sorvete."
+                              "t": "アイスクリームが好きです。<br><b>アイスクリーム</b> ist ein Lehnwort.",
+                              "n": "Ich mag Eiscreme."
                           },
                           {
-                              "t": "<b>アイスクリーム</b>は冷たいです。",
-                              "n": "Sorvete é gelado."
+                              "t": "夏はアイスクリームを食べます。<br>Denk an <span class='hl'>Eis</span>.",
+                              "n": "Im Sommer esse ich Eiscreme."
                           }
                       ]
                   },
@@ -17101,20 +25466,20 @@ const FLASHCARD_ALPHA = {
                       "word": "タクシー",
                       "emoji": "🚕",
                       "phonetic": "/takɯɕiː/",
-                      "translation": "<b>táxi</b> — do inglês <i>taxi</i>",
+                      "translation": "Taxi – <b>タクシー</b> (takushii), von <i>taxi</i>",
                       "translations": {
                           "ja": "タクシー",
-                          "pt": "táxi",
+                          "de": "Taxi",
                           "en": "taxi"
                       },
                       "examples": [
                           {
-                              "t": "<b>タクシー</b>に乗ります。",
-                              "n": "Eu pego um táxi."
+                              "t": "タクシーで行きます。<br><b>タクシー</b> ist ein Lehnwort.",
+                              "n": "Ich fahre mit dem Taxi."
                           },
                           {
-                              "t": "<b>タクシー</b>は速いです。",
-                              "n": "O táxi é rápido."
+                              "t": "タクシーを呼びました。<br>Denk an <span class='hl'>Taxi</span>.",
+                              "n": "Ich habe ein Taxi gerufen."
                           }
                       ]
                   },
@@ -17125,20 +25490,20 @@ const FLASHCARD_ALPHA = {
                       "word": "ニュース",
                       "emoji": "📰",
                       "phonetic": "/nʲɯːsɯ/",
-                      "translation": "<b>notícias</b> — do inglês <i>news</i>",
+                      "translation": "Nachrichten – <b>ニュース</b> (nyuusu), von <i>news</i>",
                       "translations": {
                           "ja": "ニュース",
-                          "pt": "notícias",
+                          "de": "Nachrichten",
                           "en": "news"
                       },
                       "examples": [
                           {
-                              "t": "<b>ニュース</b>を見ます。",
-                              "n": "Eu assisto as notícias."
+                              "t": "ニュースを見ます。<br><b>ニュース</b> ist ein Lehnwort.",
+                              "n": "Ich schaue die Nachrichten."
                           },
                           {
-                              "t": "<b>ニュース</b>を聞きます。",
-                              "n": "Eu ouço as notícias."
+                              "t": "今日のニュースは何ですか。<br>Denk an <span class='hl'>News</span>.",
+                              "n": "Was sind die heutigen Nachrichten?"
                           }
                       ]
                   }
@@ -17163,16 +25528,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ハ",
                       "emoji": "🔤",
                       "phonetic": "/ha/",
-                      "translation": "Nome: <b>ハ</b> (ha) — som de <i>'rrá'</i> como em 'rapaz' (mas sem vibrar).<br>Parece um <span class='hl'>'ha'</span> com um traço extra.",
-                      "mnemonic": "Visual: parece um 'ha' minúsculo com um chapéu.",
+                      "translation": "Laut <b>ha</b> – wie <i>„haha“</i> im Deutschen.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Hut</span> ohne Hutständer – der Laut ist ‚ha‘.",
                       "examples": [
                           {
-                              "t": "ハは「ha」です。<br><b>ハ</b> = ha",
-                              "n": "Ha é 'ha'."
+                              "t": "<b>ハ</b> ist der erste Laut in <i>ハワイ</i> (Hawaii).",
+                              "n": "Hawaii"
                           },
                           {
-                              "t": "ハンバーガー (hanbāgā) — hambúrguer",
-                              "n": "Palavra comum com ハ."
+                              "t": "Denk an <b>ハ</b> wie ein <span class=\"hl\">Haus</span> ohne Dach.",
+                              "n": "Haus-Dach-Mnemonic"
                           }
                       ]
                   },
@@ -17183,16 +25548,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ヒ",
                       "emoji": "🔤",
                       "phonetic": "/çi/",
-                      "translation": "Nome: <b>ヒ</b> (hi) — som de <i>'ri'</i> como em 'riso', mas mais suave.<br>Parece um <span class='hl'>'hi'</span> com um sorriso.",
-                      "mnemonic": "Visual: parece um 'hi' com um sorriso aberto.",
+                      "translation": "Laut <b>hi</b> – wie <i>„hi“</i> auf Englisch.",
+                      "mnemonic": "Ein <span class=\"hl\">Hügel</span> mit einem Weg – ‚hi‘.",
                       "examples": [
                           {
-                              "t": "ヒは「hi」です。<br><b>ヒ</b> = hi",
-                              "n": "Hi é 'hi'."
+                              "t": "<b>ヒ</b> kommt in <i>ヒーター</i> (Heater) vor.",
+                              "n": "Heizung"
                           },
                           {
-                              "t": "ヒーター (hītā) — aquecedor",
-                              "n": "Palavra comum com ヒ."
+                              "t": "Form ähnlich einem <span class=\"hl\">Hügel</span> mit einer Linie.",
+                              "n": "Hügel-Mnemonic"
                           }
                       ]
                   },
@@ -17203,16 +25568,16 @@ const FLASHCARD_ALPHA = {
                       "word": "フ",
                       "emoji": "🔤",
                       "phonetic": "/ɸɯ/",
-                      "translation": "Nome: <b>フ</b> (fu) — som de <i>'fu'</i> como em 'fumaça' (sem vibrar).<br>Parece um <span class='hl'>'fu'</span> com um rabo.",
-                      "mnemonic": "Visual: parece um 'fu' com uma cauda para baixo.",
+                      "translation": "Laut <b>fu</b> – wie ein <i>„fu“</i> mit gehauchtem f.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Finger</span>, der nach oben zeigt – ‚fu‘.",
                       "examples": [
                           {
-                              "t": "フは「fu」です。<br><b>フ</b> = fu",
-                              "n": "Fu é 'fu'."
+                              "t": "<b>フ</b> ist in <i>フランス</i> (Frankreich).",
+                              "n": "Frankreich"
                           },
                           {
-                              "t": "フルーツ (furūtsu) — fruta",
-                              "n": "Palavra comum com フ."
+                              "t": "Ein <span class=\"hl\">Fächer</span> geöffnet – ‚fu‘.",
+                              "n": "Fächer-Mnemonic"
                           }
                       ]
                   },
@@ -17223,16 +25588,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ヘ",
                       "emoji": "🔤",
                       "phonetic": "/he/",
-                      "translation": "Nome: <b>ヘ</b> (he) — som de <i>'rré'</i> como em 'rede' (sem vibrar).<br>Parece um <span class='hl'>'he'</span> com um chapéu.",
-                      "mnemonic": "Visual: parece um 'he' com um chapéu pontudo.",
+                      "translation": "Laut <b>he</b> – wie <i>„he“</i> im Deutschen.",
+                      "mnemonic": "Ein <span class=\"hl\">Held</span> mit Umhang – ‚he‘.",
                       "examples": [
                           {
-                              "t": "ヘは「he」です。<br><b>ヘ</b> = he",
-                              "n": "He é 'he'."
+                              "t": "<b>ヘ</b> sieht aus wie ein <span class=\"hl\">Dach</span> ohne Haus.",
+                              "n": "Dach-Form"
                           },
                           {
-                              "t": "ヘリコプター (herikoputā) — helicóptero",
-                              "n": "Palavra comum com ヘ."
+                              "t": "In <i>ヘリコプター</i> (Helikopter) steckt <b>ヘ</b>.",
+                              "n": "Helikopter"
                           }
                       ]
                   },
@@ -17243,16 +25608,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ホ",
                       "emoji": "🔤",
                       "phonetic": "/ho/",
-                      "translation": "Nome: <b>ホ</b> (ho) — som de <i>'rró'</i> como em 'roda' (sem vibrar).<br>Parece um <span class='hl'>'ho'</span> com um cinto.",
-                      "mnemonic": "Visual: parece um 'ho' com um cinto na horizontal.",
+                      "translation": "Laut <b>ho</b> – wie <i>„ho“</i> in „hoch“.",
+                      "mnemonic": "Ein <span class=\"hl\">Haus</span> mit zwei Fenstern – ‚ho‘.",
                       "examples": [
                           {
-                              "t": "ホは「ho」です。<br><b>ホ</b> = ho",
-                              "n": "Ho é 'ho'."
+                              "t": "<b>ホ</b> ist in <i>ホテル</i> (Hotel).",
+                              "n": "Hotel"
                           },
                           {
-                              "t": "ホテル (hoteru) — hotel",
-                              "n": "Palavra comum com ホ."
+                              "t": "Denk an ein <span class=\"hl\">Haus</span> mit Türen – ‚ho‘.",
+                              "n": "Haus-Mnemonic"
                           }
                       ]
                   },
@@ -17263,16 +25628,16 @@ const FLASHCARD_ALPHA = {
                       "word": "マ",
                       "emoji": "🔤",
                       "phonetic": "/ma/",
-                      "translation": "Nome: <b>マ</b> (ma) — som de <i>'ma'</i> como em 'mãe'.<br>Parece um <span class='hl'>'ma'</span> com um X.",
-                      "mnemonic": "Visual: parece um 'ma' com um X no meio.",
+                      "translation": "Laut <b>ma</b> – wie <i>„ma“</i> in „Mama“.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Mund</span> mit einem Strich – ‚ma‘.",
                       "examples": [
                           {
-                              "t": "マは「ma」です。<br><b>マ</b> = ma",
-                              "n": "Ma é 'ma'."
+                              "t": "<b>マ</b> ist in <i>マンゴー</i> (Mango).",
+                              "n": "Mango"
                           },
                           {
-                              "t": "マンゴー (mangō) — manga",
-                              "n": "Palavra comum com マ."
+                              "t": "Zwei Striche wie ein <span class=\"hl\">Mund</span> – ‚ma‘.",
+                              "n": "Mund-Mnemonic"
                           }
                       ]
                   },
@@ -17283,16 +25648,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ミ",
                       "emoji": "🔤",
                       "phonetic": "/mi/",
-                      "translation": "Nome: <b>ミ</b> (mi) — som de <i>'mi'</i> como em 'mito'.<br>Parece um <span class='hl'>'mi'</span> com duas linhas.",
-                      "mnemonic": "Visual: parece um 'mi' com dois traços inclinados.",
+                      "translation": "Laut <b>mi</b> – wie <i>„mi“</i> in „Mitte“.",
+                      "mnemonic": "Drei Striche wie ein <span class=\"hl\">Mikrofon</span> – ‚mi‘.",
                       "examples": [
                           {
-                              "t": "ミは「mi」です。<br><b>ミ</b> = mi",
-                              "n": "Mi é 'mi'."
+                              "t": "<b>ミ</b> ist in <i>ミルク</i> (Milch).",
+                              "n": "Milch"
                           },
                           {
-                              "t": "ミルク (miruku) — leite",
-                              "n": "Palavra comum com ミ."
+                              "t": "Drei Linien wie ein <span class=\"hl\">Mikrofon</span> – ‚mi‘.",
+                              "n": "Mikrofon-Mnemonic"
                           }
                       ]
                   },
@@ -17303,16 +25668,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ム",
                       "emoji": "🔤",
                       "phonetic": "/mɯ/",
-                      "translation": "Nome: <b>ム</b> (mu) — som de <i>'mu'</i> como em 'mula'.<br>Parece um <span class='hl'>'mu'</span> com um rabo.",
-                      "mnemonic": "Visual: parece um 'mu' com uma cauda para cima.",
+                      "translation": "Laut <b>mu</b> – wie <i>„mu“</i> in „Muh“ (Kuh).",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Kuhhorn</span> – ‚mu‘.",
                       "examples": [
                           {
-                              "t": "ムは「mu」です。<br><b>ム</b> = mu",
-                              "n": "Mu é 'mu'."
+                              "t": "<b>ム</b> ist in <i>ムーン</i> (Mond) – aber auf Japanisch oft <i>ムーン</i>.",
+                              "n": "Mond"
                           },
                           {
-                              "t": "ムード (mūdo) — clima, humor",
-                              "n": "Palavra comum com ム."
+                              "t": "Ein <span class=\"hl\">Mund</span> offen – ‚mu‘.",
+                              "n": "Mund-Mnemonic"
                           }
                       ]
                   },
@@ -17323,16 +25688,16 @@ const FLASHCARD_ALPHA = {
                       "word": "メ",
                       "emoji": "🔤",
                       "phonetic": "/me/",
-                      "translation": "Nome: <b>メ</b> (me) — som de <i>'mé'</i> como em 'médico'.<br>Parece um <span class='hl'>'me'</span> com um X.",
-                      "mnemonic": "Visual: parece um 'me' com um X no final.",
+                      "translation": "Laut <b>me</b> – wie <i>„me“</i> in „Meer“.",
+                      "mnemonic": "Ein <span class=\"hl\">Meer</span> mit einer Welle – ‚me‘.",
                       "examples": [
                           {
-                              "t": "メは「me」です。<br><b>メ</b> = me",
-                              "n": "Me é 'me'."
+                              "t": "<b>メ</b> ist in <i>メール</i> (E-Mail).",
+                              "n": "E-Mail"
                           },
                           {
-                              "t": "メール (mēru) — e-mail",
-                              "n": "Palavra comum com メ."
+                              "t": "Form wie ein <span class=\"hl\">Messer</span> – ‚me‘.",
+                              "n": "Messer-Mnemonic"
                           }
                       ]
                   },
@@ -17343,16 +25708,16 @@ const FLASHCARD_ALPHA = {
                       "word": "モ",
                       "emoji": "🔤",
                       "phonetic": "/mo/",
-                      "translation": "Nome: <b>モ</b> (mo) — som de <i>'mó'</i> como em 'moda'.<br>Parece um <span class='hl'>'mo'</span> com um X.",
-                      "mnemonic": "Visual: parece um 'mo' com um X no topo.",
+                      "translation": "Laut <b>mo</b> – wie <i>„mo“</i> in „Motor“.",
+                      "mnemonic": "Ein <span class=\"hl\">Motor</span> mit einem Strich – ‚mo‘.",
                       "examples": [
                           {
-                              "t": "モは「mo」です。<br><b>モ</b> = mo",
-                              "n": "Mo é 'mo'."
+                              "t": "<b>モ</b> ist in <i>モデル</i> (Model).",
+                              "n": "Model"
                           },
                           {
-                              "t": "モーター (mōtā) — motor",
-                              "n": "Palavra comum com モ."
+                              "t": "Sieht aus wie ein <span class=\"hl\">Mond</span> mit einem Strich – ‚mo‘.",
+                              "n": "Mond-Mnemonic"
                           }
                       ]
                   },
@@ -17363,16 +25728,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ヤ",
                       "emoji": "🔤",
                       "phonetic": "/ja/",
-                      "translation": "Nome: <b>ヤ</b> (ya) — som de <i>'iá'</i> como em 'iate'.<br>Parece um <span class='hl'>'ya'</span> com um rabo.",
-                      "mnemonic": "Visual: parece um 'ya' com uma cauda para baixo.",
+                      "translation": "Laut <b>ya</b> – wie <i>„ja“</i> auf Deutsch.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Y</span> mit einem Arm – ‚ya‘.",
                       "examples": [
                           {
-                              "t": "ヤは「ya」です。<br><b>ヤ</b> = ya",
-                              "n": "Ya é 'ya'."
+                              "t": "<b>ヤ</b> ist in <i>ヤクルト</i> (Yakult).",
+                              "n": "Yakult"
                           },
                           {
-                              "t": "ヤクルト (yakuruto) — iogurte probiótico",
-                              "n": "Palavra comum com ヤ."
+                              "t": "Denk an <span class=\"hl\">Y</span> – ‚ya‘.",
+                              "n": "Y-Form"
                           }
                       ]
                   },
@@ -17383,16 +25748,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ユ",
                       "emoji": "🔤",
                       "phonetic": "/jɯ/",
-                      "translation": "Nome: <b>ユ</b> (yu) — som de <i>'iu'</i> como em 'iugoslavo'.<br>Parece um <span class='hl'>'yu'</span> com um gancho.",
-                      "mnemonic": "Visual: parece um 'yu' com um gancho para cima.",
+                      "translation": "Laut <b>yu</b> – wie <i>„ju“</i> in „jung“.",
+                      "mnemonic": "Ein <span class=\"hl\">U</span> mit einem Strich – ‚yu‘.",
                       "examples": [
                           {
-                              "t": "ユは「yu」です。<br><b>ユ</b> = yu",
-                              "n": "Yu é 'yu'."
+                              "t": "<b>ユ</b> ist in <i>ユーロ</i> (Euro).",
+                              "n": "Euro"
                           },
                           {
-                              "t": "ユニーク (yunīku) — único, original",
-                              "n": "Palavra comum com ユ."
+                              "t": "Ein <span class=\"hl\">U</span> mit Dach – ‚yu‘.",
+                              "n": "U-Form"
                           }
                       ]
                   },
@@ -17403,16 +25768,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ヨ",
                       "emoji": "🔤",
                       "phonetic": "/jo/",
-                      "translation": "Nome: <b>ヨ</b> (yo) — som de <i>'iô'</i> como em 'iodo'.<br>Parece um <span class='hl'>'yo'</span> com um traço.",
-                      "mnemonic": "Visual: parece um 'yo' com um traço horizontal.",
+                      "translation": "Laut <b>yo</b> – wie <i>„jo“</i> in „Joghurt“.",
+                      "mnemonic": "Drei Striche wie ein <span class=\"hl\">Y</span> – ‚yo‘.",
                       "examples": [
                           {
-                              "t": "ヨは「yo」です。<br><b>ヨ</b> = yo",
-                              "n": "Yo é 'yo'."
+                              "t": "<b>ヨ</b> ist in <i>ヨガ</i> (Yoga).",
+                              "n": "Yoga"
                           },
                           {
-                              "t": "ヨット (yotto) — iate",
-                              "n": "Palavra comum com ヨ."
+                              "t": "Horizontal wie ein <span class=\"hl\">Y</span> – ‚yo‘.",
+                              "n": "Y-Form"
                           }
                       ]
                   },
@@ -17423,16 +25788,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ラ",
                       "emoji": "🔤",
                       "phonetic": "/ɾa/",
-                      "translation": "Nome: <b>ラ</b> (ra) — som de <i>'rá'</i> como em 'cara' (um toque).<br>Parece um <span class='hl'>'ra'</span> com um chapéu.",
-                      "mnemonic": "Visual: parece um 'ra' com um chapéu.",
+                      "translation": "Laut <b>ra</b> – wie ein <i>„ra“</i> mit leichtem Zungenschlag.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">R</span> mit einem Strich – ‚ra‘.",
                       "examples": [
                           {
-                              "t": "ラは「ra」です。<br><b>ラ</b> = ra",
-                              "n": "Ra é 'ra'."
+                              "t": "<b>ラ</b> ist in <i>ラジオ</i> (Radio).",
+                              "n": "Radio"
                           },
                           {
-                              "t": "ラジオ (rajio) — rádio",
-                              "n": "Palavra comum com ラ."
+                              "t": "Ein <span class=\"hl\">R</span> mit Dach – ‚ra‘.",
+                              "n": "R-Form"
                           }
                       ]
                   },
@@ -17443,16 +25808,16 @@ const FLASHCARD_ALPHA = {
                       "word": "リ",
                       "emoji": "🔤",
                       "phonetic": "/ɾi/",
-                      "translation": "Nome: <b>リ</b> (ri) — som de <i>'ri'</i> como em 'carioca' (um toque).<br>Parece um <span class='hl'>'ri'</span> com duas linhas.",
-                      "mnemonic": "Visual: parece um 'ri' com dois traços paralelos.",
+                      "translation": "Laut <b>ri</b> – wie <i>„ri“</i> in „Ritze“.",
+                      "mnemonic": "Zwei Striche wie <span class=\"hl\">Reisstäbchen</span> – ‚ri‘.",
                       "examples": [
                           {
-                              "t": "リは「ri」です。<br><b>リ</b> = ri",
-                              "n": "Ri é 'ri'."
+                              "t": "<b>リ</b> ist in <i>リンゴ</i> (Apfel) – aber meist Kanji.",
+                              "n": "Apfel"
                           },
                           {
-                              "t": "リスト (risuto) — lista",
-                              "n": "Palavra comum com リ."
+                              "t": "Zwei Striche wie ein <span class=\"hl\">Riss</span> – ‚ri‘.",
+                              "n": "Riss-Mnemonic"
                           }
                       ]
                   },
@@ -17463,16 +25828,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ル",
                       "emoji": "🔤",
                       "phonetic": "/ɾɯ/",
-                      "translation": "Nome: <b>ル</b> (ru) — som de <i>'ru'</i> como em 'cru' (um toque).<br>Parece um <span class='hl'>'ru'</span> com um laço.",
-                      "mnemonic": "Visual: parece um 'ru' com um laço na ponta.",
+                      "translation": "Laut <b>ru</b> – wie <i>„ru“</i> in „Ruf“.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">R</span> mit einer Schleife – ‚ru‘.",
                       "examples": [
                           {
-                              "t": "ルは「ru」です。<br><b>ル</b> = ru",
-                              "n": "Ru é 'ru'."
+                              "t": "<b>ル</b> ist in <i>ルーム</i> (Raum).",
+                              "n": "Raum"
                           },
                           {
-                              "t": "ルール (rūru) — regra",
-                              "n": "Palavra comum com ル."
+                              "t": "Ein <span class=\"hl\">R</span> mit Haken – ‚ru‘.",
+                              "n": "R-Form"
                           }
                       ]
                   },
@@ -17483,16 +25848,16 @@ const FLASHCARD_ALPHA = {
                       "word": "レ",
                       "emoji": "🔤",
                       "phonetic": "/ɾe/",
-                      "translation": "Nome: <b>レ</b> (re) — som de <i>'ré'</i> como em 'café' (um toque).<br>Parece um <span class='hl'>'re'</span> com um rabo.",
-                      "mnemonic": "Visual: parece um 're' com uma cauda para baixo.",
+                      "translation": "Laut <b>re</b> – wie <i>„re“</i> in „Regen“.",
+                      "mnemonic": "Ein <span class=\"hl\">Regen</span>tropfen mit Strich – ‚re‘.",
                       "examples": [
                           {
-                              "t": "レは「re」です。<br><b>レ</b> = re",
-                              "n": "Re é 're'."
+                              "t": "<b>レ</b> ist in <i>レモン</i> (Zitrone).",
+                              "n": "Zitrone"
                           },
                           {
-                              "t": "レストラン (resutoran) — restaurante",
-                              "n": "Palavra comum com レ."
+                              "t": "Ein <span class=\"hl\">R</span> mit einem Strich – ‚re‘.",
+                              "n": "R-Form"
                           }
                       ]
                   },
@@ -17503,16 +25868,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ロ",
                       "emoji": "🔤",
                       "phonetic": "/ɾo/",
-                      "translation": "Nome: <b>ロ</b> (ro) — som de <i>'ró'</i> como em 'coração' (um toque).<br>Parece um <span class='hl'>'ro'</span> quadrado.",
-                      "mnemonic": "Visual: parece um 'ro' quadrado (um quadrado aberto).",
+                      "translation": "Laut <b>ro</b> – wie <i>„ro“</i> in „rot“.",
+                      "mnemonic": "Ein <span class=\"hl\">Quadrat</span> wie ein Fenster – ‚ro‘.",
                       "examples": [
                           {
-                              "t": "ロは「ro」です。<br><b>ロ</b> = ro",
-                              "n": "Ro é 'ro'."
+                              "t": "<b>ロ</b> ist in <i>ロボット</i> (Roboter).",
+                              "n": "Roboter"
                           },
                           {
-                              "t": "ロボット (robotto) — robô",
-                              "n": "Palavra comum com ロ."
+                              "t": "Ein <span class=\"hl\">Quadrat</span> – ‚ro‘.",
+                              "n": "Quadrat-Form"
                           }
                       ]
                   },
@@ -17523,16 +25888,16 @@ const FLASHCARD_ALPHA = {
                       "word": "ワ",
                       "emoji": "🔤",
                       "phonetic": "/wa/",
-                      "translation": "Nome: <b>ワ</b> (wa) — som de <i>'uá'</i> como em 'uau'.<br>Parece um <span class='hl'>'wa'</span> com um sorriso.",
-                      "mnemonic": "Visual: parece um 'wa' com um sorriso aberto.",
+                      "translation": "Laut <b>wa</b> – wie <i>„wa“</i> in „Wasser“.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">W</span> mit einem Strich – ‚wa‘.",
                       "examples": [
                           {
-                              "t": "ワは「wa」です。<br><b>ワ</b> = wa",
-                              "n": "Wa é 'wa'."
+                              "t": "<b>ワ</b> ist in <i>ワイン</i> (Wein).",
+                              "n": "Wein"
                           },
                           {
-                              "t": "ワイン (wain) — vinho",
-                              "n": "Palavra comum com ワ."
+                              "t": "Ein <span class=\"hl\">W</span> – ‚wa‘.",
+                              "n": "W-Form"
                           }
                       ]
                   },
@@ -17542,13 +25907,17 @@ const FLASHCARD_ALPHA = {
                       "letter": "ヲ",
                       "word": "ヲ",
                       "emoji": "🔤",
-                      "phonetic": "/wo/",
-                      "translation": "Nome: <b>ヲ</b> (wo) — som de <i>'uó'</i> como em 'uó' (raro).<br>Parece um <span class='hl'>'wo'</span> com um rabo.",
-                      "mnemonic": "Visual: parece um 'wo' com uma cauda para baixo.",
+                      "phonetic": "/o/ (historisch /wo/)",
+                      "translation": "Laut <b>o</b> (wird wie <i>o</i> ausgesprochen) – Partikel.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">W</span> mit einem Haken – ‚wo‘.",
                       "examples": [
                           {
-                              "t": "ヲ é raro; usado como partícula.",
-                              "n": "Exemplo: 本を読む (hon wo yomu) — ler livro."
+                              "t": "<b>ヲ</b> wird meist als Partikel geschrieben, aber Laut ist <i>o</i>.",
+                              "n": "Partikel"
+                          },
+                          {
+                              "t": "Form wie ein <span class=\"hl\">W</span> mit Arm – ‚wo‘.",
+                              "n": "W-Form"
                           }
                       ]
                   },
@@ -17558,13 +25927,17 @@ const FLASHCARD_ALPHA = {
                       "letter": "ン",
                       "word": "ン",
                       "emoji": "🔤",
-                      "phonetic": "/ɴ/",
-                      "translation": "Nome: <b>ン</b> (n) — som nasal <i>'n'</i> como em 'não'.<br>Parece um <span class='hl'>'n'</span> com um traço.",
-                      "mnemonic": "Visual: parece um 'n' com um traço diagonal.",
+                      "phonetic": "/ɴ/ (nasal)",
+                      "translation": "Nasallaut <b>n</b> – wie <i>„n“</i> in „lang“.",
+                      "mnemonic": "Ein <span class=\"hl\">N</span> mit einem Strich – ‚n‘.",
                       "examples": [
                           {
-                              "t": "ン é o som nasal final.",
-                              "n": "Exemplo: パン (pan) — pão."
+                              "t": "<b>ン</b> ist in <i>パン</i> (Brot).",
+                              "n": "Brot"
+                          },
+                          {
+                              "t": "Denk an <span class=\"hl\">N</span> – ‚n‘.",
+                              "n": "N-Form"
                           }
                       ]
                   },
@@ -17574,17 +25947,17 @@ const FLASHCARD_ALPHA = {
                       "letter": "ー",
                       "word": "ー",
                       "emoji": "🔤",
-                      "phonetic": "/ː/",
-                      "translation": "Nome: <b>ー</b> (chōonpu) — sinal de vogal longa.<br>Prolonga a vogal anterior: <i>a → ā</i>.",
-                      "mnemonic": "Visual: um traço horizontal que estica o som.",
+                      "phonetic": "/ː/ (Längung)",
+                      "translation": "Längungszeichen – verlängert den Vokal davor.",
+                      "mnemonic": "Ein <span class=\"hl\">Strich</span> wie ein langes Band – ‚verlängern‘.",
                       "examples": [
                           {
-                              "t": "コーヒー (kōhī) — café",
-                              "n": "O ー alonga o 'o' e o 'i'."
+                              "t": "In <i>コーヒー</i> (Kaffee) verlängert <b>ー</b> das <i>o</i> und <i>i</i>.",
+                              "n": "Kaffee"
                           },
                           {
-                              "t": "ビール (bīru) — cerveja",
-                              "n": "O ー alonga o 'i'."
+                              "t": "Es ist kein Buchstabe, sondern ein <span class=\"hl\">Dehnungszeichen</span>.",
+                              "n": "Dehnung"
                           }
                       ]
                   },
@@ -17594,21 +25967,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "ホ",
                       "word": "ホテル",
                       "emoji": "🏨",
-                      "phonetic": "/hoteɾɯ/",
-                      "translation": "hotel",
+                      "phonetic": "/hoteru/",
+                      "translation": "Hotel",
                       "translations": {
                           "ja": "ホテル",
-                          "pt": "hotel",
+                          "de": "Hotel",
                           "en": "hotel"
                       },
                       "examples": [
                           {
-                              "t": "この<b>ホテル</b>はきれいです。",
-                              "n": "Este hotel é bonito."
+                              "t": "この<b>ホテル</b>は大きいです。",
+                              "n": "Dieses Hotel ist groß."
                           },
                           {
-                              "t": "<b>ホテル</b>で会いましょう。",
-                              "n": "Vamos nos encontrar no hotel."
+                              "t": "<b>ホテル</b>で朝ごはんを食べます。",
+                              "n": "Ich esse Frühstück im Hotel."
                           }
                       ]
                   },
@@ -17618,21 +25991,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "レ",
                       "word": "レストラン",
                       "emoji": "🍽️",
-                      "phonetic": "/ɾesɯtoɾaɴ/",
-                      "translation": "restaurante",
+                      "phonetic": "/resutoran/",
+                      "translation": "Restaurant",
                       "translations": {
                           "ja": "レストラン",
-                          "pt": "restaurante",
+                          "de": "Restaurant",
                           "en": "restaurant"
                       },
                       "examples": [
                           {
                               "t": "あの<b>レストラン</b>はおいしいです。",
-                              "n": "Aquele restaurante é delicioso."
+                              "n": "Dieses Restaurant ist lecker."
                           },
                           {
                               "t": "<b>レストラン</b>で昼ごはんを食べます。",
-                              "n": "Vou almoçar no restaurante."
+                              "n": "Ich esse Mittag im Restaurant."
                           }
                       ]
                   },
@@ -17642,21 +26015,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "パ",
                       "word": "パスポート",
                       "emoji": "🛂",
-                      "phonetic": "/pasɯpoːto/",
-                      "translation": "passaporte",
+                      "phonetic": "/pasupoːto/",
+                      "translation": "Reisepass",
                       "translations": {
                           "ja": "パスポート",
-                          "pt": "passaporte",
+                          "de": "Reisepass",
                           "en": "passport"
                       },
                       "examples": [
                           {
-                              "t": "<b>パスポート</b>を見せてください。",
-                              "n": "Por favor, mostre seu passaporte."
+                              "t": "<b>パスポート</b>を忘れました。",
+                              "n": "Ich habe meinen Pass vergessen."
                           },
                           {
-                              "t": "<b>パスポート</b>を忘れました。",
-                              "n": "Esqueci meu passaporte."
+                              "t": "<b>パスポート</b>を見せてください。",
+                              "n": "Zeigen Sie mir bitte Ihren Pass."
                           }
                       ]
                   },
@@ -17666,21 +26039,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "ス",
                       "word": "スマートフォン",
                       "emoji": "📱",
-                      "phonetic": "/sɯmaːtoɸoɴ/",
-                      "translation": "smartphone",
+                      "phonetic": "/sumaːtofon/",
+                      "translation": "Smartphone",
                       "translations": {
                           "ja": "スマートフォン",
-                          "pt": "smartphone",
+                          "de": "Smartphone",
                           "en": "smartphone"
                       },
                       "examples": [
                           {
                               "t": "<b>スマートフォン</b>を買いました。",
-                              "n": "Comprei um smartphone."
+                              "n": "Ich habe ein Smartphone gekauft."
                           },
                           {
                               "t": "<b>スマートフォン</b>で写真を撮ります。",
-                              "n": "Tiro fotos com o smartphone."
+                              "n": "Ich mache Fotos mit dem Smartphone."
                           }
                       ]
                   },
@@ -17690,21 +26063,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "コ",
                       "word": "コンピューター",
                       "emoji": "💻",
-                      "phonetic": "/koɴpjuːtaː/",
-                      "translation": "computador",
+                      "phonetic": "/konpjuːtaː/",
+                      "translation": "Computer",
                       "translations": {
                           "ja": "コンピューター",
-                          "pt": "computador",
+                          "de": "Computer",
                           "en": "computer"
                       },
                       "examples": [
                           {
                               "t": "<b>コンピューター</b>で仕事をします。",
-                              "n": "Trabalho no computador."
+                              "n": "Ich arbeite am Computer."
                           },
                           {
-                              "t": "この<b>コンピューター</b>は新しいです。",
-                              "n": "Este computador é novo."
+                              "t": "新しい<b>コンピューター</b>が欲しいです。",
+                              "n": "Ich möchte einen neuen Computer."
                           }
                       ]
                   },
@@ -17714,21 +26087,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "バ",
                       "word": "バス",
                       "emoji": "🚌",
-                      "phonetic": "/basɯ/",
-                      "translation": "ônibus",
+                      "phonetic": "/basu/",
+                      "translation": "Bus",
                       "translations": {
                           "ja": "バス",
-                          "pt": "ônibus",
+                          "de": "Bus",
                           "en": "bus"
                       },
                       "examples": [
                           {
                               "t": "<b>バス</b>で学校に行きます。",
-                              "n": "Vou à escola de ônibus."
+                              "n": "Ich fahre mit dem Bus zur Schule."
                           },
                           {
                               "t": "次の<b>バス</b>は何時ですか。",
-                              "n": "A que horas é o próximo ônibus?"
+                              "n": "Wann fährt der nächste Bus?"
                           }
                       ]
                   },
@@ -17738,21 +26111,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "ビ",
                       "word": "ビール",
                       "emoji": "🍺",
-                      "phonetic": "/biːɾɯ/",
-                      "translation": "cerveja",
+                      "phonetic": "/biːru/",
+                      "translation": "Bier",
                       "translations": {
                           "ja": "ビール",
-                          "pt": "cerveja",
+                          "de": "Bier",
                           "en": "beer"
                       },
                       "examples": [
                           {
                               "t": "<b>ビール</b>を一杯ください。",
-                              "n": "Uma cerveja, por favor."
+                              "n": "Ein Bier bitte."
                           },
                           {
-                              "t": "<b>ビール</b>は冷たいです。",
-                              "n": "A cerveja está gelada."
+                              "t": "私は<b>ビール</b>が好きです。",
+                              "n": "Ich mag Bier."
                           }
                       ]
                   },
@@ -17762,21 +26135,21 @@ const FLASHCARD_ALPHA = {
                       "letter": "チ",
                       "word": "チョコレート",
                       "emoji": "🍫",
-                      "phonetic": "/tɕokoɾeːto/",
-                      "translation": "chocolate",
+                      "phonetic": "/chokoreːto/",
+                      "translation": "Schokolade",
                       "translations": {
                           "ja": "チョコレート",
-                          "pt": "chocolate",
+                          "de": "Schokolade",
                           "en": "chocolate"
                       },
                       "examples": [
                           {
-                              "t": "<b>チョコレート</b>が好きです。",
-                              "n": "Eu gosto de chocolate."
+                              "t": "<b>チョコレート</b>を食べます。",
+                              "n": "Ich esse Schokolade."
                           },
                           {
-                              "t": "<b>チョコレート</b>を食べます。",
-                              "n": "Eu como chocolate."
+                              "t": "この<b>チョコレート</b>は甘いです。",
+                              "n": "Diese Schokolade ist süß."
                           }
                       ]
                   }
@@ -17802,16 +26175,16 @@ const FLASHCARD_ALPHA = {
                       "word": "一",
                       "emoji": "1️⃣",
                       "phonetic": "/ichi/",
-                      "translation": "Uno. Lectura ON: <b>ichi</b>; lectura KUN: <b>hito</b>. <br>Un solo trazo horizontal.",
-                      "mnemonic": "Un palito horizontal en el suelo: es el número uno.",
+                      "translation": "Eins — <b>一</b> ist ein einzelner horizontaler Strich. <i>ON: ichi</i>",
+                      "mnemonic": "Ein Strich = eine Eins.",
                       "examples": [
                           {
-                              "t": "<b>一</b>人 (hitori) = una persona",
-                              "n": "Una persona"
+                              "t": "<b>一</b> = ein Strich, wie eine liegende 1.",
+                              "n": "So bleibt es im Gedächtnis."
                           },
                           {
-                              "t": "<b>一</b>つ (hitotsu) = una cosa",
-                              "n": "Una cosa (contando objetos)"
+                              "t": "ichi, ni, san…",
+                              "n": "Eins, zwei, drei…"
                           }
                       ]
                   },
@@ -17822,16 +26195,16 @@ const FLASHCARD_ALPHA = {
                       "word": "二",
                       "emoji": "2️⃣",
                       "phonetic": "/ni/",
-                      "translation": "Dos. Lectura ON: <b>ni</b>; lectura KUN: <b>futa</b>. <br>Dos trazos horizontales paralelos.",
-                      "mnemonic": "Dos palitos horizontales: el número dos.",
+                      "translation": "Zwei — <b>二</b> sind zwei parallele Striche. <i>ON: ni</i>",
+                      "mnemonic": "Zwei Striche = Zwei.",
                       "examples": [
                           {
-                              "t": "<b>二</b>人 (futari) = dos personas",
-                              "n": "Dos personas"
+                              "t": "<b>二</b> sieht aus wie zwei nebeneinanderliegende Streichhölzer.",
+                              "n": "Merkhilfe."
                           },
                           {
-                              "t": "<b>二</b>つ (futatsu) = dos cosas",
-                              "n": "Dos cosas"
+                              "t": "ni = 2",
+                              "n": "Kurz und einfach."
                           }
                       ]
                   },
@@ -17842,36 +26215,36 @@ const FLASHCARD_ALPHA = {
                       "word": "三",
                       "emoji": "3️⃣",
                       "phonetic": "/san/",
-                      "translation": "Tres. Lectura ON: <b>san</b>; lectura KUN: <b>mit</b>. <br>Tres trazos horizontales.",
-                      "mnemonic": "Tres palitos horizontales apilados: el número tres.",
+                      "translation": "Drei — <b>三</b> hat drei Striche. <i>ON: san</i>",
+                      "mnemonic": "Drei Striche = Drei.",
                       "examples": [
                           {
-                              "t": "<b>三</b>人 (sannin) = tres personas",
-                              "n": "Tres personas"
+                              "t": "Eins, zwei, drei — <b>三</b> hat drei Striche.",
+                              "n": "Logisch, oder?"
                           },
                           {
-                              "t": "<b>三</b>つ (mittsu) = tres cosas",
-                              "n": "Tres cosas"
+                              "t": "san = 3",
+                              "n": "Japanisch zählen."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g5_L_yon",
+                      "id": "ja_a0_g5_L_shi_yon",
                       "isLetter": true,
                       "letter": "四",
                       "word": "四",
                       "emoji": "4️⃣",
-                      "phonetic": "/shi/ /yon/",
-                      "translation": "Cuatro. Lectura ON: <b>shi</b>; lectura KUN: <b>yon</b>. <br>Una ventana con dos cortinas.",
-                      "mnemonic": "Parece una ventana con dos cortinas: cuatro lados tiene una ventana.",
+                      "phonetic": "/shi/ oder /yon/",
+                      "translation": "Vier — <b>四</b> sieht aus wie ein Fenster mit Vorhang. <i>ON: shi, KUN: yon</i>",
+                      "mnemonic": "Ein Fenster mit einem Vorhang in der Mitte = Vier.",
                       "examples": [
                           {
-                              "t": "<b>四</b>人 (yonin) = cuatro personas",
-                              "n": "Cuatro personas"
+                              "t": "<b>四</b> = ein Fenster mit Vorhang.",
+                              "n": "Bildliche Hilfe."
                           },
                           {
-                              "t": "<b>四</b>つ (yottsu) = cuatro cosas",
-                              "n": "Cuatro cosas"
+                              "t": "shi (unglücklich) → yon ist üblicher.",
+                              "n": "shi klingt wie Tod (死)."
                           }
                       ]
                   },
@@ -17882,16 +26255,16 @@ const FLASHCARD_ALPHA = {
                       "word": "五",
                       "emoji": "5️⃣",
                       "phonetic": "/go/",
-                      "translation": "Cinco. Lectura ON: <b>go</b>; lectura KUN: <b>itsu</b>. <br>Una persona con los brazos abiertos.",
-                      "mnemonic": "Parece una persona con los brazos abiertos: cinco dedos en cada mano.",
+                      "translation": "Fünf — <b>五</b> sieht aus wie eine 5 mit Hut. <i>ON: go</i>",
+                      "mnemonic": "Oben ein Hut, unten ein Haken — wie eine 5.",
                       "examples": [
                           {
-                              "t": "<b>五</b>人 (gonin) = cinco personas",
-                              "n": "Cinco personas"
+                              "t": "<b>五</b> = 5 mit Hut.",
+                              "n": "Einfache Eselsbrücke."
                           },
                           {
-                              "t": "<b>五</b>つ (itsutsu) = cinco cosas",
-                              "n": "Cinco cosas"
+                              "t": "go = 5",
+                              "n": "Kurz und prägnant."
                           }
                       ]
                   },
@@ -17902,36 +26275,36 @@ const FLASHCARD_ALPHA = {
                       "word": "六",
                       "emoji": "6️⃣",
                       "phonetic": "/roku/",
-                      "translation": "Seis. Lectura ON: <b>roku</b>; lectura KUN: <b>mu</b>. <br>Una tienda de campaña vista de frente.",
-                      "mnemonic": "Parece una tienda de campaña con dos puntas: seis es un número de campamento.",
+                      "translation": "Sechs — <b>六</b> sieht aus wie zwei Beine, die nach unten zeigen. <i>ON: roku</i>",
+                      "mnemonic": "Zwei Beine (oben) und zwei Füße (unten) = Sechs.",
                       "examples": [
                           {
-                              "t": "<b>六</b>人 (rokunin) = seis personas",
-                              "n": "Seis personas"
+                              "t": "<b>六</b> = zwei Beine.",
+                              "n": "Wie eine stehende Person."
                           },
                           {
-                              "t": "<b>六</b>つ (muttsu) = seis cosas",
-                              "n": "Seis cosas"
+                              "t": "roku = 6",
+                              "n": "Roku ist leicht zu merken."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g5_L_shichi",
+                      "id": "ja_a0_g5_L_shichi_nana",
                       "isLetter": true,
                       "letter": "七",
                       "word": "七",
                       "emoji": "7️⃣",
-                      "phonetic": "/shichi/ /nana/",
-                      "translation": "Siete. Lectura ON: <b>shichi</b>; lectura KUN: <b>nana</b>. <br>Una cruz con un gancho.",
-                      "mnemonic": "Parece un 7 con un sombrerito: es el número siete.",
+                      "phonetic": "/shichi/ oder /nana/",
+                      "translation": "Sieben — <b>七</b> ist ein Strich mit einem Haken, wie eine 7. <i>ON: shichi, KUN: nana</i>",
+                      "mnemonic": "Ein langer Strich mit kurzem Haken = 7.",
                       "examples": [
                           {
-                              "t": "<b>七</b>人 (shichinin / nananin) = siete personas",
-                              "n": "Siete personas"
+                              "t": "<b>七</b> sieht aus wie eine 7.",
+                              "n": "Fast identisch."
                           },
                           {
-                              "t": "<b>七</b>つ (nanatsu) = siete cosas",
-                              "n": "Siete cosas"
+                              "t": "shichi (formell) / nana (alltäglich)",
+                              "n": "Beides bedeutet 7."
                           }
                       ]
                   },
@@ -17942,36 +26315,36 @@ const FLASHCARD_ALPHA = {
                       "word": "八",
                       "emoji": "8️⃣",
                       "phonetic": "/hachi/",
-                      "translation": "Ocho. Lectura ON: <b>hachi</b>; lectura KUN: <b>ya</b>. <br>Dos trazos que se separan.",
-                      "mnemonic": "Dos montañas que se separan: ocho es un número de separación.",
+                      "translation": "Acht — <b>八</b> sieht aus wie zwei Beine, die auseinandergehen. <i>ON: hachi</i>",
+                      "mnemonic": "Zwei Beine, die sich öffnen = 8 (wie eine Acht, die aufbricht).",
                       "examples": [
                           {
-                              "t": "<b>八</b>人 (hachinin) = ocho personas",
-                              "n": "Ocho personas"
+                              "t": "<b>八</b> = zwei Beine, die auseinandergehen.",
+                              "n": "Wie beim Spagat."
                           },
                           {
-                              "t": "<b>八</b>つ (yattsu) = ocho cosas",
-                              "n": "Ocho cosas"
+                              "t": "hachi = 8",
+                              "n": "Hachi ist leicht zu merken."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g5_L_kyuu",
+                      "id": "ja_a0_g5_L_ku_kyuu",
                       "isLetter": true,
                       "letter": "九",
                       "word": "九",
                       "emoji": "9️⃣",
-                      "phonetic": "/kyuu/ /ku/",
-                      "translation": "Nueve. Lectura ON: <b>kyuu</b>; lectura KUN: <b>kokono</b>. <br>Un brazo doblado con una mano.",
-                      "mnemonic": "Parece un gancho o un brazo doblado: nueve es un número que se dobla.",
+                      "phonetic": "/ku/ oder /kyuu/",
+                      "translation": "Neun — <b>九</b> sieht aus wie eine 9 mit gebogenem Schwanz. <i>ON: ku/kyuu</i>",
+                      "mnemonic": "Eine 9, die sich umdreht.",
                       "examples": [
                           {
-                              "t": "<b>九</b>人 (kyuunin) = nueve personas",
-                              "n": "Nueve personas"
+                              "t": "<b>九</b> = 9 mit Schwanz.",
+                              "n": "Der Haken unten."
                           },
                           {
-                              "t": "<b>九</b>つ (kokonotsu) = nueve cosas",
-                              "n": "Nueve cosas"
+                              "t": "kyuu = 9",
+                              "n": "Kyuu ist die übliche Lesung."
                           }
                       ]
                   },
@@ -17982,56 +26355,56 @@ const FLASHCARD_ALPHA = {
                       "word": "十",
                       "emoji": "🔟",
                       "phonetic": "/juu/",
-                      "translation": "Diez. Lectura ON: <b>juu</b>; lectura KUN: <b>tou</b>. <br>Una cruz perfecta.",
-                      "mnemonic": "Una cruz: en romano, X es diez; aquí es una cruz.",
+                      "translation": "Zehn — <b>十</b> ist ein Kreuz, wie ein Pluszeichen. <i>ON: juu</i>",
+                      "mnemonic": "Ein Kreuz = zehn (römisch X ähnelt einem Kreuz).",
                       "examples": [
                           {
-                              "t": "<b>十</b>人 (juunin) = diez personas",
-                              "n": "Diez personas"
+                              "t": "<b>十</b> = Pluszeichen = 10.",
+                              "n": "Einfach und einprägsam."
                           },
                           {
-                              "t": "<b>十</b> (juu) = diez",
-                              "n": "Diez"
+                              "t": "juu = 10",
+                              "n": "juu ist kurz."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g5_L_nichi",
+                      "id": "ja_a0_g5_L_nichi_bi_hi",
                       "isLetter": true,
                       "letter": "日",
                       "word": "日",
                       "emoji": "☀️",
                       "phonetic": "/nichi/ /bi/ /hi/",
-                      "translation": "Sol / Día. Lectura ON: <b>nichi</b>; lectura KUN: <b>hi</b>. <br>Un rectángulo con una línea en el medio.",
-                      "mnemonic": "Un sol con un rayo en el centro: el sol está dentro del rectángulo.",
+                      "translation": "Sonne / Tag — <b>日</b> ist ein Rechteck mit einem Strich in der Mitte, wie ein Fenster zur Sonne. <i>ON: nichi, KUN: hi/bi</i>",
+                      "mnemonic": "Ein Fenster, durch das die Sonne scheint.",
                       "examples": [
                           {
-                              "t": "<b>日</b>曜日 (nichiyoubi) = domingo",
-                              "n": "Domingo (día del sol)"
+                              "t": "<b>日</b> = Sonne im Fenster.",
+                              "n": "Bildliche Vorstellung."
                           },
                           {
-                              "t": "<b>日</b>本 (nihon) = Japón",
-                              "n": "Japón (país del sol naciente)"
+                              "t": "nichi = Tag, hi = Sonne",
+                              "n": "Zwei Lesungen."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g5_L_gatsu",
+                      "id": "ja_a0_g5_L_gatsu_tsuki",
                       "isLetter": true,
                       "letter": "月",
                       "word": "月",
                       "emoji": "🌙",
                       "phonetic": "/gatsu/ /tsuki/",
-                      "translation": "Luna / Mes. Lectura ON: <b>gatsu</b>; lectura KUN: <b>tsuki</b>. <br>Una luna creciente con dos rayos.",
-                      "mnemonic": "Una luna creciente con dos rayos: la luna está en el cielo.",
+                      "translation": "Mond / Monat — <b>月</b> sieht aus wie ein Halbmond. <i>ON: gatsu, KUN: tsuki</i>",
+                      "mnemonic": "Ein Halbmond mit zwei Strichen = Mond.",
                       "examples": [
                           {
-                              "t": "<b>月</b>曜日 (getsuyoubi) = lunes",
-                              "n": "Lunes (día de la luna)"
+                              "t": "<b>月</b> = Halbmond.",
+                              "n": "Die Form erinnert an den Mond."
                           },
                           {
-                              "t": "<b>月</b> (tsuki) = luna",
-                              "n": "La luna"
+                              "t": "tsuki = Mond, gatsu = Monat",
+                              "n": "Zwei Lesungen."
                           }
                       ]
                   },
@@ -18042,16 +26415,16 @@ const FLASHCARD_ALPHA = {
                       "word": "火",
                       "emoji": "🔥",
                       "phonetic": "/ka/",
-                      "translation": "Fuego. Lectura ON: <b>ka</b>; lectura KUN: <b>hi</b>. <br>Una persona con los brazos levantados en llamas.",
-                      "mnemonic": "Parece una persona con los brazos en llamas: fuego.",
+                      "translation": "Feuer — <b>火</b> sieht aus wie eine Flamme mit zwei Seitenarmen. <i>ON: ka</i>",
+                      "mnemonic": "Eine Flamme, die nach oben züngelt.",
                       "examples": [
                           {
-                              "t": "<b>火</b>曜日 (kayoubi) = martes",
-                              "n": "Martes (día del fuego)"
+                              "t": "<b>火</b> = Flamme.",
+                              "n": "Die Striche sind die Flammen."
                           },
                           {
-                              "t": "<b>火</b> (hi) = fuego",
-                              "n": "Fuego"
+                              "t": "ka = Feuer",
+                              "n": "Auch in 火曜日 (Dienstag)."
                           }
                       ]
                   },
@@ -18062,16 +26435,16 @@ const FLASHCARD_ALPHA = {
                       "word": "水",
                       "emoji": "💧",
                       "phonetic": "/sui/",
-                      "translation": "Agua. Lectura ON: <b>sui</b>; lectura KUN: <b>mizu</b>. <br>Tres gotas de agua cayendo.",
-                      "mnemonic": "Tres gotas de agua cayendo: agua.",
+                      "translation": "Wasser — <b>水</b> sieht aus wie ein Fluss mit Tropfen. <i>ON: sui</i>",
+                      "mnemonic": "Wasser tropft von einer Klippe.",
                       "examples": [
                           {
-                              "t": "<b>水</b>曜日 (suiyoubi) = miércoles",
-                              "n": "Miércoles (día del agua)"
+                              "t": "<b>水</b> = Wasser, das tropft.",
+                              "n": "Die Striche sind Tropfen."
                           },
                           {
-                              "t": "<b>水</b> (mizu) = agua",
-                              "n": "Agua"
+                              "t": "sui = Wasser",
+                              "n": "Auch in 水曜日 (Mittwoch)."
                           }
                       ]
                   },
@@ -18081,17 +26454,17 @@ const FLASHCARD_ALPHA = {
                       "letter": "木",
                       "word": "木",
                       "emoji": "🌳",
-                      "phonetic": "/moku/ /ki/",
-                      "translation": "Árbol. Lectura ON: <b>moku</b>; lectura KUN: <b>ki</b>. <br>Un árbol con raíces y ramas.",
-                      "mnemonic": "Un árbol con raíces y ramas: el tronco y las ramas.",
+                      "phonetic": "/moku/",
+                      "translation": "Baum — <b>木</b> sieht aus wie ein Baum mit Stamm und Ästen. <i>ON: moku, KUN: ki</i>",
+                      "mnemonic": "Ein Baum mit Wurzeln und Ästen.",
                       "examples": [
                           {
-                              "t": "<b>木</b>曜日 (mokuyoubi) = jueves",
-                              "n": "Jueves (día del árbol)"
+                              "t": "<b>木</b> = Baum.",
+                              "n": "Mittelstrich ist der Stamm."
                           },
                           {
-                              "t": "<b>木</b> (ki) = árbol",
-                              "n": "Árbol"
+                              "t": "ki = Baum",
+                              "n": "Auch in 木曜日 (Donnerstag)."
                           }
                       ]
                   },
@@ -18101,17 +26474,17 @@ const FLASHCARD_ALPHA = {
                       "letter": "金",
                       "word": "金",
                       "emoji": "💰",
-                      "phonetic": "/kin/ /kane/",
-                      "translation": "Oro / Dinero. Lectura ON: <b>kin</b>; lectura KUN: <b>kane</b>. <br>Una campana con un tesoro debajo.",
-                      "mnemonic": "Una campana con un tesoro debajo: oro y dinero.",
+                      "phonetic": "/kin/",
+                      "translation": "Gold — <b>金</b> sieht aus wie ein Schatz unter einem Dach. <i>ON: kin</i>",
+                      "mnemonic": "Gold unter einem Dach (Schatzkiste).",
                       "examples": [
                           {
-                              "t": "<b>金</b>曜日 (kinyoubi) = viernes",
-                              "n": "Viernes (día del oro)"
+                              "t": "<b>金</b> = Gold im Haus.",
+                              "n": "Das Dach oben."
                           },
                           {
-                              "t": "<b>金</b> (kane) = dinero",
-                              "n": "Dinero"
+                              "t": "kin = Gold",
+                              "n": "Auch in 金曜日 (Freitag)."
                           }
                       ]
                   },
@@ -18120,58 +26493,58 @@ const FLASHCARD_ALPHA = {
                       "isLetter": true,
                       "letter": "土",
                       "word": "土",
-                      "emoji": "⛰️",
-                      "phonetic": "/do/ /tsuchi/",
-                      "translation": "Tierra. Lectura ON: <b>do</b>; lectura KUN: <b>tsuchi</b>. <br>Una planta creciendo del suelo.",
-                      "mnemonic": "Una planta creciendo del suelo: tierra.",
+                      "emoji": "🪨",
+                      "phonetic": "/do/",
+                      "translation": "Erde — <b>土</b> sieht aus wie ein Grab oder ein Hügel. <i>ON: do, KUN: tsuchi</i>",
+                      "mnemonic": "Ein Hügel mit einem Kreuz oben.",
                       "examples": [
                           {
-                              "t": "<b>土</b>曜日 (doyoubi) = sábado",
-                              "n": "Sábado (día de la tierra)"
+                              "t": "<b>土</b> = Erde.",
+                              "n": "Wie ein kleiner Hügel."
                           },
                           {
-                              "t": "<b>土</b> (tsuchi) = tierra",
-                              "n": "Tierra"
+                              "t": "tsuchi = Erde",
+                              "n": "Auch in 土曜日 (Samstag)."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g5_L_hito",
+                      "id": "ja_a0_g5_L_hito_jin",
                       "isLetter": true,
                       "letter": "人",
                       "word": "人",
                       "emoji": "🚶",
                       "phonetic": "/hito/ /jin/",
-                      "translation": "Persona. Lectura ON: <b>jin</b>; lectura KUN: <b>hito</b>. <br>Una persona caminando.",
-                      "mnemonic": "Una persona caminando: dos piernas en movimiento.",
+                      "translation": "Person — <b>人</b> sieht aus wie eine Person mit zwei Beinen. <i>KUN: hito, ON: jin</i>",
+                      "mnemonic": "Zwei Beine, die gehen.",
                       "examples": [
                           {
-                              "t": "<b>人</b> (hito) = persona",
-                              "n": "Persona"
+                              "t": "<b>人</b> = eine Person.",
+                              "n": "Die Striche sind Beine."
                           },
                           {
-                              "t": "日本<b>人</b> (nihonjin) = japonés",
-                              "n": "Persona japonesa"
+                              "t": "hito = Person, jin = Mensch",
+                              "n": "Zwei Lesungen."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g5_L_yama",
+                      "id": "ja_a0_g5_L_yama_san",
                       "isLetter": true,
                       "letter": "山",
                       "word": "山",
-                      "emoji": "🏔️",
+                      "emoji": "⛰️",
                       "phonetic": "/yama/ /san/",
-                      "translation": "Montaña. Lectura ON: <b>san</b>; lectura KUN: <b>yama</b>. <br>Tres picos de montaña.",
-                      "mnemonic": "Tres picos de montaña: la montaña más alta en el centro.",
+                      "translation": "Berg — <b>山</b> sieht aus wie drei Berge. <i>KUN: yama, ON: san</i>",
+                      "mnemonic": "Drei Gipfel nebeneinander.",
                       "examples": [
                           {
-                              "t": "<b>山</b> (yama) = montaña",
-                              "n": "Montaña"
+                              "t": "<b>山</b> = drei Berge.",
+                              "n": "Mittelgipfel ist höher."
                           },
                           {
-                              "t": "富士<b>山</b> (fujisan) = Monte Fuji",
-                              "n": "Monte Fuji"
+                              "t": "yama = Berg",
+                              "n": "Auch in 富士山 (Fuji)."
                           }
                       ]
                   },
@@ -18180,58 +26553,58 @@ const FLASHCARD_ALPHA = {
                       "isLetter": true,
                       "letter": "川",
                       "word": "川",
-                      "emoji": "🏞️",
-                      "phonetic": "/kawa/ /sen/",
-                      "translation": "Río. Lectura ON: <b>sen</b>; lectura KUN: <b>kawa</b>. <br>Tres líneas que fluyen como un río.",
-                      "mnemonic": "Tres líneas que fluyen: un río con corriente.",
+                      "emoji": "🌊",
+                      "phonetic": "/kawa/",
+                      "translation": "Fluss — <b>川</b> sieht aus wie ein Fluss mit drei Armen. <i>KUN: kawa</i>",
+                      "mnemonic": "Drei Wellenlinien = Fluss.",
                       "examples": [
                           {
-                              "t": "<b>川</b> (kawa) = río",
-                              "n": "Río"
+                              "t": "<b>川</b> = Fluss.",
+                              "n": "Die Striche sind Wasser."
                           },
                           {
-                              "t": "日本<b>川</b> (nihonkawa) = río japonés",
-                              "n": "Río de Japón"
+                              "t": "kawa = Fluss",
+                              "n": "Wie in 川崎 (Kawasaki)."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g5_L_dai",
+                      "id": "ja_a0_g5_L_dai_oo",
                       "isLetter": true,
                       "letter": "大",
                       "word": "大",
                       "emoji": "🐘",
                       "phonetic": "/dai/ /oo/",
-                      "translation": "Grande. Lectura ON: <b>dai</b>; lectura KUN: <b>oo</b>. <br>Una persona con los brazos abiertos de par en par.",
-                      "mnemonic": "Una persona con los brazos abiertos: ¡qué grande es!",
+                      "translation": "Groß — <b>大</b> sieht aus wie eine Person mit ausgestreckten Armen. <i>ON: dai, KUN: oo</i>",
+                      "mnemonic": "Eine Person, die die Arme weit ausstreckt = groß.",
                       "examples": [
                           {
-                              "t": "<b>大</b>きい (ookii) = grande",
-                              "n": "Grande"
+                              "t": "<b>大</b> = große Person.",
+                              "n": "Arme weit offen."
                           },
                           {
-                              "t": "<b>大</b>学 (daigaku) = universidad",
-                              "n": "Universidad (escuela grande)"
+                              "t": "ookii = groß",
+                              "n": "Adjektivform."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g5_L_shou",
+                      "id": "ja_a0_g5_L_shou_ko",
                       "isLetter": true,
                       "letter": "小",
                       "word": "小",
-                      "emoji": "🐜",
+                      "emoji": "🐭",
                       "phonetic": "/shou/ /ko/",
-                      "translation": "Pequeño. Lectura ON: <b>shou</b>; lectura KUN: <b>ko</b>. <br>Tres gotas pequeñas o tres palitos pequeños.",
-                      "mnemonic": "Tres palitos pequeños: algo muy pequeño.",
+                      "translation": "Klein — <b>小</b> sieht aus wie eine kleine Person mit gesenkten Armen. <i>ON: shou, KUN: ko</i>",
+                      "mnemonic": "Eine Person, die die Arme senkt = klein.",
                       "examples": [
                           {
-                              "t": "<b>小</b>さい (chiisai) = pequeño",
-                              "n": "Pequeño"
+                              "t": "<b>小</b> = kleine Person.",
+                              "n": "Arme nach unten."
                           },
                           {
-                              "t": "<b>小</b>学校 (shougakkou) = escuela primaria",
-                              "n": "Escuela pequeña"
+                              "t": "chiisai = klein",
+                              "n": "Adjektivform."
                           }
                       ]
                   },
@@ -18242,20 +26615,20 @@ const FLASHCARD_ALPHA = {
                       "word": "一人",
                       "emoji": "🧍",
                       "phonetic": "/hitori/",
-                      "translation": "Una persona. <b>一人</b>",
+                      "translation": "eine Person / allein — <b>一人</b> (hitori)",
                       "translations": {
                           "ja": "一人",
-                          "pt": "Uma pessoa",
-                          "en": "One person"
+                          "de": "eine Person",
+                          "en": "one person"
                       },
                       "examples": [
                           {
                               "t": "<b>一人</b>で行きます。",
-                              "n": "Voy solo."
+                              "n": "Ich gehe allein."
                           },
                           {
-                              "t": "部屋に<b>一人</b>います。",
-                              "n": "Hay una persona en la habitación."
+                              "t": "一人は寂しいです。",
+                              "n": "Allein zu sein ist einsam."
                           }
                       ]
                   },
@@ -18266,20 +26639,20 @@ const FLASHCARD_ALPHA = {
                       "word": "日本",
                       "emoji": "🇯🇵",
                       "phonetic": "/nihon/",
-                      "translation": "Japón. <b>日本</b> (país del sol naciente)",
+                      "translation": "Japan — <b>日本</b> (nihon)",
                       "translations": {
                           "ja": "日本",
-                          "pt": "Japão",
+                          "de": "Japan",
                           "en": "Japan"
                       },
                       "examples": [
                           {
-                              "t": "<b>日本</b>が好きです。",
-                              "n": "Me gusta Japón."
+                              "t": "私は<b>日本</b>人です。",
+                              "n": "Ich bin Japaner."
                           },
                           {
-                              "t": "<b>日本</b>人です。",
-                              "n": "Soy japonés."
+                              "t": "<b>日本</b>が好きです。",
+                              "n": "Ich mag Japan."
                           }
                       ]
                   },
@@ -18290,20 +26663,20 @@ const FLASHCARD_ALPHA = {
                       "word": "月曜日",
                       "emoji": "📅",
                       "phonetic": "/getsuyoubi/",
-                      "translation": "Lunes. <b>月曜日</b>",
+                      "translation": "Montag — <b>月曜日</b> (getsuyoubi)",
                       "translations": {
                           "ja": "月曜日",
-                          "pt": "Segunda-feira",
+                          "de": "Montag",
                           "en": "Monday"
                       },
                       "examples": [
                           {
                               "t": "<b>月曜日</b>に働きます。",
-                              "n": "Trabajo el lunes."
+                              "n": "Am Montag arbeite ich."
                           },
                           {
-                              "t": "<b>月曜日</b>は忙しいです。",
-                              "n": "El lunes es ocupado."
+                              "t": "今日は<b>月曜日</b>です。",
+                              "n": "Heute ist Montag."
                           }
                       ]
                   },
@@ -18312,22 +26685,22 @@ const FLASHCARD_ALPHA = {
                       "isLetter": false,
                       "letter": "火",
                       "word": "火曜日",
-                      "emoji": "📅",
+                      "emoji": "🔥",
                       "phonetic": "/kayoubi/",
-                      "translation": "Martes. <b>火曜日</b>",
+                      "translation": "Dienstag — <b>火曜日</b> (kayoubi)",
                       "translations": {
                           "ja": "火曜日",
-                          "pt": "Terça-feira",
+                          "de": "Dienstag",
                           "en": "Tuesday"
                       },
                       "examples": [
                           {
                               "t": "<b>火曜日</b>に会いましょう。",
-                              "n": "Encontrémonos el martes."
+                              "n": "Treffen wir uns am Dienstag."
                           },
                           {
-                              "t": "<b>火曜日</b>は暇です。",
-                              "n": "El martes estoy libre."
+                              "t": "火曜日は忙しいです。",
+                              "n": "Dienstag ist beschäftigt."
                           }
                       ]
                   },
@@ -18336,22 +26709,22 @@ const FLASHCARD_ALPHA = {
                       "isLetter": false,
                       "letter": "水",
                       "word": "水曜日",
-                      "emoji": "📅",
+                      "emoji": "💧",
                       "phonetic": "/suiyoubi/",
-                      "translation": "Miércoles. <b>水曜日</b>",
+                      "translation": "Mittwoch — <b>水曜日</b> (suiyoubi)",
                       "translations": {
                           "ja": "水曜日",
-                          "pt": "Quarta-feira",
+                          "de": "Mittwoch",
                           "en": "Wednesday"
                       },
                       "examples": [
                           {
-                              "t": "<b>水曜日</b>に勉強します。",
-                              "n": "Estudio el miércoles."
+                              "t": "<b>水曜日</b>に休みます。",
+                              "n": "Am Mittwoch ruhe ich mich aus."
                           },
                           {
-                              "t": "<b>水曜日</b>はテストです。",
-                              "n": "El miércoles hay examen."
+                              "t": "水曜日はテストです。",
+                              "n": "Mittwoch ist der Test."
                           }
                       ]
                   },
@@ -18360,22 +26733,22 @@ const FLASHCARD_ALPHA = {
                       "isLetter": false,
                       "letter": "木",
                       "word": "木曜日",
-                      "emoji": "📅",
+                      "emoji": "🌳",
                       "phonetic": "/mokuyoubi/",
-                      "translation": "Jueves. <b>木曜日</b>",
+                      "translation": "Donnerstag — <b>木曜日</b> (mokuyoubi)",
                       "translations": {
                           "ja": "木曜日",
-                          "pt": "Quinta-feira",
+                          "de": "Donnerstag",
                           "en": "Thursday"
                       },
                       "examples": [
                           {
-                              "t": "<b>木曜日</b>に買い物します。",
-                              "n": "Voy de compras el jueves."
+                              "t": "<b>木曜日</b>に勉強します。",
+                              "n": "Am Donnerstag lerne ich."
                           },
                           {
-                              "t": "<b>木曜日</b>は晴れです。",
-                              "n": "El jueves hace sol."
+                              "t": "木曜日は暇です。",
+                              "n": "Donnerstag bin ich frei."
                           }
                       ]
                   },
@@ -18384,22 +26757,22 @@ const FLASHCARD_ALPHA = {
                       "isLetter": false,
                       "letter": "金",
                       "word": "金曜日",
-                      "emoji": "📅",
+                      "emoji": "💰",
                       "phonetic": "/kinyoubi/",
-                      "translation": "Viernes. <b>金曜日</b>",
+                      "translation": "Freitag — <b>金曜日</b> (kinyoubi)",
                       "translations": {
                           "ja": "金曜日",
-                          "pt": "Sexta-feira",
+                          "de": "Freitag",
                           "en": "Friday"
                       },
                       "examples": [
                           {
-                              "t": "<b>金曜日</b>に映画を見ます。",
-                              "n": "Veo una película el viernes."
+                              "t": "<b>金曜日</b>にパーティーがあります。",
+                              "n": "Am Freitag ist eine Party."
                           },
                           {
-                              "t": "<b>金曜日</b>は楽しいです。",
-                              "n": "El viernes es divertido."
+                              "t": "金曜日が楽しみです。",
+                              "n": "Ich freue mich auf Freitag."
                           }
                       ]
                   },
@@ -18408,22 +26781,22 @@ const FLASHCARD_ALPHA = {
                       "isLetter": false,
                       "letter": "土",
                       "word": "土曜日",
-                      "emoji": "📅",
+                      "emoji": "🪨",
                       "phonetic": "/doyoubi/",
-                      "translation": "Sábado. <b>土曜日</b>",
+                      "translation": "Samstag — <b>土曜日</b> (doyoubi)",
                       "translations": {
                           "ja": "土曜日",
-                          "pt": "Sábado",
+                          "de": "Samstag",
                           "en": "Saturday"
                       },
                       "examples": [
                           {
-                              "t": "<b>土曜日</b>に遊びます。",
-                              "n": "Salgo a jugar el sábado."
+                              "t": "<b>土曜日</b>に買い物に行きます。",
+                              "n": "Am Samstag gehe ich einkaufen."
                           },
                           {
-                              "t": "<b>土曜日</b>は休みです。",
-                              "n": "El sábado es día libre."
+                              "t": "土曜日は休みです。",
+                              "n": "Samstag ist frei."
                           }
                       ]
                   },
@@ -18431,23 +26804,23 @@ const FLASHCARD_ALPHA = {
                       "id": "ja_a0_g5_09",
                       "isLetter": false,
                       "letter": "人",
-                      "word": "日本人",
-                      "emoji": "👤",
-                      "phonetic": "/nihonjin/",
-                      "translation": "Japonés (persona). <b>日本人</b>",
+                      "word": "外国人",
+                      "emoji": "🌍",
+                      "phonetic": "/gaikokujin/",
+                      "translation": "Ausländer — <b>外国人</b> (gaikokujin)",
                       "translations": {
-                          "ja": "日本人",
-                          "pt": "Japonês (pessoa)",
-                          "en": "Japanese person"
+                          "ja": "外国人",
+                          "de": "Ausländer",
+                          "en": "foreigner"
                       },
                       "examples": [
                           {
-                              "t": "彼は<b>日本人</b>です。",
-                              "n": "Él es japonés."
+                              "t": "私は<b>外国人</b>です。",
+                              "n": "Ich bin Ausländer."
                           },
                           {
-                              "t": "<b>日本人</b>の友達がいます。",
-                              "n": "Tengo un amigo japonés."
+                              "t": "<b>外国人</b>が多いです。",
+                              "n": "Es gibt viele Ausländer."
                           }
                       ]
                   },
@@ -18458,68 +26831,92 @@ const FLASHCARD_ALPHA = {
                       "word": "富士山",
                       "emoji": "🗻",
                       "phonetic": "/fujisan/",
-                      "translation": "Monte Fuji. <b>富士山</b>",
+                      "translation": "Fuji-Berg — <b>富士山</b> (fujisan)",
                       "translations": {
                           "ja": "富士山",
-                          "pt": "Monte Fuji",
+                          "de": "Fuji-Berg",
                           "en": "Mount Fuji"
                       },
                       "examples": [
                           {
                               "t": "<b>富士山</b>は高いです。",
-                              "n": "El Monte Fuji es alto."
+                              "n": "Der Fuji ist hoch."
                           },
                           {
                               "t": "<b>富士山</b>を見たいです。",
-                              "n": "Quiero ver el Monte Fuji."
+                              "n": "Ich möchte den Fuji sehen."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g5_11",
                       "isLetter": false,
-                      "letter": "大",
-                      "word": "大学",
-                      "emoji": "🎓",
-                      "phonetic": "/daigaku/",
-                      "translation": "Universidad. <b>大学</b> (escuela grande)",
+                      "letter": "川",
+                      "word": "川",
+                      "emoji": "🏞️",
+                      "phonetic": "/kawa/",
+                      "translation": "Fluss — <b>川</b> (kawa)",
                       "translations": {
-                          "ja": "大学",
-                          "pt": "Universidade",
-                          "en": "University"
+                          "ja": "川",
+                          "de": "Fluss",
+                          "en": "river"
                       },
                       "examples": [
                           {
-                              "t": "<b>大学</b>に行きます。",
-                              "n": "Voy a la universidad."
+                              "t": "<b>川</b>で泳ぎます。",
+                              "n": "Ich schwimme im Fluss."
                           },
                           {
-                              "t": "<b>大学</b>で勉強します。",
-                              "n": "Estudio en la universidad."
+                              "t": "この<b>川</b>は長いです。",
+                              "n": "Dieser Fluss ist lang."
                           }
                       ]
                   },
                   {
                       "id": "ja_a0_g5_12",
                       "isLetter": false,
-                      "letter": "小",
-                      "word": "小学校",
-                      "emoji": "🏫",
-                      "phonetic": "/shougakkou/",
-                      "translation": "Escuela primaria. <b>小学校</b>",
+                      "letter": "大",
+                      "word": "大きい",
+                      "emoji": "🐘",
+                      "phonetic": "/ookii/",
+                      "translation": "groß — <b>大きい</b> (ookii)",
                       "translations": {
-                          "ja": "小学校",
-                          "pt": "Escola primária",
-                          "en": "Elementary school"
+                          "ja": "大きい",
+                          "de": "groß",
+                          "en": "big"
                       },
                       "examples": [
                           {
-                              "t": "子供は<b>小学校</b>に行きます。",
-                              "n": "Los niños van a la escuela primaria."
+                              "t": "この家は<b>大きい</b>です。",
+                              "n": "Dieses Haus ist groß."
                           },
                           {
-                              "t": "<b>小学校</b>は近いです。",
-                              "n": "La escuela primaria está cerca."
+                              "t": "<b>大きい</b>犬がいます。",
+                              "n": "Ich habe einen großen Hund."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_13",
+                      "isLetter": false,
+                      "letter": "小",
+                      "word": "小さい",
+                      "emoji": "🐭",
+                      "phonetic": "/chiisai/",
+                      "translation": "klein — <b>小さい</b> (chiisai)",
+                      "translations": {
+                          "ja": "小さい",
+                          "de": "klein",
+                          "en": "small"
+                      },
+                      "examples": [
+                          {
+                              "t": "猫は<b>小さい</b>です。",
+                              "n": "Die Katze ist klein."
+                          },
+                          {
+                              "t": "<b>小さい</b>町に住んでいます。",
+                              "n": "Ich wohne in einer kleinen Stadt."
                           }
                       ]
                   }
