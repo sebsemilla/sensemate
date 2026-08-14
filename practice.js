@@ -26,7 +26,7 @@ function getGroupProgress(group) {
 // ── Entry point ───────────────────────────────────────────────
 
 function loadPracticeMenu() {
-    showPracticeOverview();
+    showVocabCtxPanel();
 }
 
 // ── Traducción de carta al idioma nativo del usuario ─────────
@@ -116,6 +116,7 @@ function showPracticeOverview(selectedLevel = 'A0') {
                     const showReset = false; // moved to bottom bar
                     return `
                     <div class="prac-group-card" data-group-idx="${idx}"
+                         data-complete="${prog.pct === 100 ? 'true' : 'false'}"
                          style="--gc:${group.color}">
                         <div class="prac-group-left">
                             <div class="prac-group-icon">${group.icon}</div>
@@ -129,7 +130,7 @@ function showPracticeOverview(selectedLevel = 'A0') {
                             </div>
                         </div>
                         <div class="prac-group-right">
-                            <div class="prac-group-pct">${prog.pct}%</div>
+                            <div class="prac-group-pct">${prog.pct === 100 ? '✓' : prog.pct + '%'}</div>
                             <div class="prac-group-bar">
                                 <div class="prac-group-fill" style="width:${prog.pct}%"></div>
                             </div>
@@ -705,17 +706,32 @@ function showCustomGroupsPanel() {
                 <button class="prac-custom-config-btn" id="customConfigBtn" title="Configurar visualización">⚙️ Configurar</button>
             </div>
             <div class="prac-level-tabs-centered">
-                <button class="prac-level-tab" data-level="A0">A0</button>
-                <button class="prac-level-tab" data-level="A1">A1</button>
-                <button class="prac-level-tab active" data-level="custom">📝 Mis Tarjetas</button>
+                <button class="prac-level-tab" data-mainnav="nivel">Tarjetas por nivel</button>
+                <button class="prac-level-tab active" data-mainnav="mis">Mis Tarjetas</button>
             </div>
 
             <div class="prac-groups" id="customGroupsList">
+                ${(() => {
+                    const cajonCount = (typeof loadCajon === 'function' ? loadCajon() : []).length;
+                    return `
+                    <div class="cajon-entry-card" id="cajonEntryCard">
+                        <div class="prac-group-left">
+                            <div class="prac-group-icon">📥</div>
+                            <div class="prac-group-info">
+                                <div class="prac-group-name">El Cajón</div>
+                                <div class="prac-group-desc">Palabras guardadas sin asignar</div>
+                            </div>
+                        </div>
+                        <div class="prac-group-right">
+                            <div class="cajon-entry-count">${cajonCount}</div>
+                        </div>
+                    </div>`;
+                })()}
                 ${groups.length === 0 ? `
                     <div class="prac-custom-empty">
                         <div class="prac-custom-empty-icon">📭</div>
                         <p>Todavía no tenés grupos propios.</p>
-                        <p class="prac-custom-empty-hint">Guardá palabras desde la sección de Canciones para crear grupos aquí.</p>
+                        <p class="prac-custom-empty-hint">Guardá palabras desde el Traductor al Cajón y organizalas en grupos.</p>
                     </div>
                 ` : groups.map(g => {
                     const cards = (flashcards || []).filter(c => c.groupId === g.id);
@@ -740,12 +756,13 @@ function showCustomGroupsPanel() {
     document.getElementById('customBackBtn').addEventListener('click', showMainMenu);
     document.getElementById('customConfigBtn').addEventListener('click', _showCustomConfigPanel);
 
-    document.querySelectorAll('.prac-level-tab').forEach(tab => {
+    document.querySelectorAll('[data-mainnav]').forEach(tab => {
         tab.addEventListener('click', () => {
-            if (tab.dataset.level === 'custom') return;
-            showPracticeOverview(tab.dataset.level);
+            if (tab.dataset.mainnav === 'nivel') showVocabCtxPanel();
         });
     });
+
+    document.getElementById('cajonEntryCard')?.addEventListener('click', () => _showCajonPanel());
 
     document.querySelectorAll('.prac-custom-card').forEach(card => {
         card.addEventListener('click', e => {
@@ -1014,12 +1031,15 @@ function showVocabCtxPanel(selectedLevel = 'A1') {
     mainContainer.insertAdjacentHTML('beforeend', `
         <div class="prac-wrap">
             <div class="prac-header">
-                <button class="school-back-btn" id="vctxPracBackBtn">← Volver</button>
+                <button class="school-back-btn" id="vctxPracBackBtn">← Menú</button>
             </div>
-            <h2 class="prac-title-centered">🌍 Vocabulario Contextual</h2>
             <div class="prac-level-tabs-centered">
+                <button class="prac-level-tab active" data-mainnav="nivel">Tarjetas por nivel</button>
+                <button class="prac-level-tab" data-mainnav="mis">Mis Tarjetas</button>
+            </div>
+            <div class="prac-level-tabs-centered" style="margin-top:.35rem">
                 ${_VOCAB_CTX_LEVELS.map(lvl => `
-                    <button class="prac-level-tab ${lvl === selectedLevel ? 'active' : ''}"
+                    <button class="prac-sublevel-tab prac-level-tab ${lvl === selectedLevel ? 'active' : ''}"
                             data-level="${lvl}">${lvl}</button>
                 `).join('')}
             </div>
@@ -1028,9 +1048,15 @@ function showVocabCtxPanel(selectedLevel = 'A1') {
             </div>
         </div>`);
 
-    document.getElementById('vctxPracBackBtn').addEventListener('click', () => showPracticeOverview('contexto'));
+    document.getElementById('vctxPracBackBtn').addEventListener('click', showMainMenu);
 
-    document.querySelectorAll('.prac-level-tab').forEach(tab => {
+    document.querySelectorAll('[data-mainnav]').forEach(tab => {
+        tab.addEventListener('click', () => {
+            if (tab.dataset.mainnav === 'mis') showCustomGroupsPanel();
+        });
+    });
+
+    document.querySelectorAll('.prac-sublevel-tab').forEach(tab => {
         tab.addEventListener('click', () => showVocabCtxPanel(tab.dataset.level));
     });
 
