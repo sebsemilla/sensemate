@@ -1182,6 +1182,2839 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
+  // JA_DE
+  // ──────────────────────────────────────────────────────
+  ja_de: {
+      "level": "A0",
+      "levelName": "Hiragana y Katakana",
+      "groups": [
+          {
+              "id": "ja_a0_g1",
+              "name": "Hiragana — parte 1",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "あ行 か行 さ行 た行 な行 — primeras 25 sílabas",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ja_a0_g1_L_a-row",
+                      "isLetter": true,
+                      "letter": "あ",
+                      "word": "あ",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Vokal <b>あ</b> — klingt wie <i>a</i> in „<span class=\"hl\">A</span>pfel“",
+                      "mnemonic": "Sieht aus wie ein A mit einem Querbalken – einfach das A mit einem Hut.",
+                      "examples": [
+                          {
+                              "t": "あ ist der erste Buchstabe der <b>あ</b>-Reihe",
+                              "n": "A ist der erste Buchstabe der A-Reihe."
+                          },
+                          {
+                              "t": "あ wie <i>a</i> in „<span class=\"hl\">A</span>pfel“",
+                              "n": "A wie in Apfel."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_ka-row",
+                      "isLetter": true,
+                      "letter": "か",
+                      "word": "か",
+                      "emoji": "🔤",
+                      "phonetic": "/ka/",
+                      "translation": "Laut <b>か</b> – wie <i>ka</i> in „<span class=\"hl\">Ka</span>tz“",
+                      "mnemonic": "Sieht aus wie ein K mit einem Schrägstrich – denk an ein <span class=\"hl\">K</span> mit Schwert.",
+                      "examples": [
+                          {
+                              "t": "<b>か</b> wie in <b>かさ</b> (Regenschirm)",
+                              "n": "Ka wie in Kasa (Regenschirm)."
+                          },
+                          {
+                              "t": "<b>か</b> – die Linie von oben nach unten",
+                              "n": "Ka – die Linie von oben nach unten."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_sa-row",
+                      "isLetter": true,
+                      "letter": "さ",
+                      "word": "さ",
+                      "emoji": "🔤",
+                      "phonetic": "/sa/",
+                      "translation": "Laut <b>さ</b> – wie <i>sa</i> in „<span class=\"hl\">Sa</span>lz“",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">S</span> mit einem Querstrich – denk an eine Schlange.",
+                      "examples": [
+                          {
+                              "t": "<b>さ</b> wie in <b>さくら</b> (Kirschblüte)",
+                              "n": "Sa wie in Sakura (Kirschblüte)."
+                          },
+                          {
+                              "t": "さ hat zwei kleine Striche – wie Augen",
+                              "n": "Sa hat zwei kleine Striche – wie Augen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_ta-row",
+                      "isLetter": true,
+                      "letter": "た",
+                      "word": "た",
+                      "emoji": "🔤",
+                      "phonetic": "/ta/",
+                      "translation": "Laut <b>た</b> – wie <i>ta</i> in „<span class=\"hl\">Ta</span>fel“",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">T</span> mit einem Bogen – denk an einen Tisch.",
+                      "examples": [
+                          {
+                              "t": "<b>た</b> wie in <b>たべる</b> (essen)",
+                              "n": "Ta wie in Taberu (essen)."
+                          },
+                          {
+                              "t": "た – der Bogen ist wie ein Arm",
+                              "n": "Ta – der Bogen ist wie ein Arm."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_L_na-row",
+                      "isLetter": true,
+                      "letter": "な",
+                      "word": "な",
+                      "emoji": "🔤",
+                      "phonetic": "/na/",
+                      "translation": "Laut <b>な</b> – wie <i>na</i> in „<span class=\"hl\">Na</span>se“",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">N</span> mit einem Bogen – denk an eine Nase.",
+                      "examples": [
+                          {
+                              "t": "<b>な</b> wie in <b>ねこ</b> (Katze)",
+                              "n": "Na wie in Neko (Katze)."
+                          },
+                          {
+                              "t": "な – der Bogen ist wie ein Ohr",
+                              "n": "Na – der Bogen ist wie ein Ohr."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_01",
+                      "letter": "あ",
+                      "word": "あさ",
+                      "emoji": "🌅",
+                      "phonetic": "/asa/",
+                      "translation": "Morgen (Tageszeit) – <b>あさ</b>",
+                      "translations": {
+                          "ja": "あさ",
+                          "de": "Morgen",
+                          "en": "morning"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>あさ</b>に起きます。",
+                              "n": "Ich stehe am Morgen auf."
+                          },
+                          {
+                              "t": "あさは <span class=\"hl\">早い</span>です。",
+                              "n": "Der Morgen ist früh."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_02",
+                      "letter": "き",
+                      "word": "きく",
+                      "emoji": "👂",
+                      "phonetic": "/kiku/",
+                      "translation": "hören – <b>きく</b>",
+                      "translations": {
+                          "ja": "きく",
+                          "de": "hören",
+                          "en": "to hear"
+                      },
+                      "examples": [
+                          {
+                              "t": "音楽を<b>きく</b>。",
+                              "n": "Ich höre Musik."
+                          },
+                          {
+                              "t": "音を<b>きく</b>。",
+                              "n": "Ich höre einen Ton."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_03",
+                      "letter": "す",
+                      "word": "すし",
+                      "emoji": "🍣",
+                      "phonetic": "/sushi/",
+                      "translation": "Sushi – <b>すし</b>",
+                      "translations": {
+                          "ja": "すし",
+                          "de": "Sushi",
+                          "en": "sushi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>すし</b>を食べる。",
+                              "n": "Ich esse Sushi."
+                          },
+                          {
+                              "t": "すしはおいしい。",
+                              "n": "Sushi ist lecker."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_04",
+                      "letter": "た",
+                      "word": "たべる",
+                      "emoji": "🍽️",
+                      "phonetic": "/taberu/",
+                      "translation": "essen – <b>たべる</b>",
+                      "translations": {
+                          "ja": "たべる",
+                          "de": "essen",
+                          "en": "to eat"
+                      },
+                      "examples": [
+                          {
+                              "t": "りんごを<b>たべる</b>。",
+                              "n": "Ich esse einen Apfel."
+                          },
+                          {
+                              "t": "すしを<b>たべる</b>。",
+                              "n": "Ich esse Sushi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g1_05",
+                      "letter": "ね",
+                      "word": "ねる",
+                      "emoji": "😴",
+                      "phonetic": "/neru/",
+                      "translation": "schlafen – <b>ねる</b>",
+                      "translations": {
+                          "ja": "ねる",
+                          "de": "schlafen",
+                          "en": "to sleep"
+                      },
+                      "examples": [
+                          {
+                              "t": "夜に<b>ねる</b>。",
+                              "n": "Ich schlafe in der Nacht."
+                          },
+                          {
+                              "t": "猫が<b>ねる</b>。",
+                              "n": "Die Katze schläft."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g2",
+              "name": "Hiragana — parte 2",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "は行 ま行 や行 ら行 わ行 ん + dakuten",
+              "reviewFrom": [
+                  "ja_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g2_L_ha",
+                      "isLetter": true,
+                      "letter": "は",
+                      "word": "は",
+                      "emoji": "🔤",
+                      "phonetic": "/ha/",
+                      "translation": "Laut <b>ha</b> – wie im Deutschen „<i>Hase</i>“<br>Die Form sieht aus wie ein <span class=\"hl\">H</span> mit einem Dach.",
+                      "mnemonic": "Stell dir ein Haus (H) mit einem Schornstein vor – das ist は.",
+                      "examples": [
+                          {
+                              "t": "は ist die Partikel für das Thema.<br>Beispiel: <b>わたし</b>は Student.",
+                              "n": "は als Topik-Partikel: „Ich bin Student.“"
+                          },
+                          {
+                              "t": "はな – <b>は</b> + な",
+                              "n": "Blume – beginnt mit は"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_hi",
+                      "isLetter": true,
+                      "letter": "ひ",
+                      "word": "ひ",
+                      "emoji": "🔤",
+                      "phonetic": "/çi/",
+                      "translation": "Laut <b>hi</b> – wie ein <i>Lächeln</i> (smile) auf Japanisch<br>Die Form erinnert an ein <span class=\"hl\">lachendes Gesicht</span>.",
+                      "mnemonic": "ひ sieht aus wie ein lächelnder Mund – lächle und sag „hi!“",
+                      "examples": [
+                          {
+                              "t": "ひ – ein Zeichen mit einer <b>geschwungenen Linie</b>",
+                              "n": "Form: eine Kurve wie ein Lächeln"
+                          },
+                          {
+                              "t": "ひこうき – <b>ひ</b> + こう + き",
+                              "n": "Flugzeug – beginnt mit ひ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_fu",
+                      "isLetter": true,
+                      "letter": "ふ",
+                      "word": "ふ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɸɯ/",
+                      "translation": "Laut <b>fu</b> – aber mit <i>beiden Lippen</i> (wie ein leises „fu“)<br>Nicht wie das deutsche „fu“ – eher wie ein <span class=\"hl\">Kerzen-Auspusten</span>.",
+                      "mnemonic": "ふ sieht aus wie eine Kerze, die du auspustest – puste leicht und sag „fu“.",
+                      "examples": [
+                          {
+                              "t": "ふ – der einzige Laut mit <b>beiden Lippen</b>",
+                              "n": "Besonderheit: /ɸ/ statt /f/"
+                          },
+                          {
+                              "t": "ふじさん – <b>ふ</b> + じ + さん",
+                              "n": "Fuji-san – beginnt mit ふ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_he",
+                      "isLetter": true,
+                      "letter": "へ",
+                      "word": "へ",
+                      "emoji": "🔤",
+                      "phonetic": "/he/",
+                      "translation": "Laut <b>he</b> – wie im Deutschen „<i>Hemd</i>“<br>Die Form ist ein <span class=\"hl\">Dach</span> oder <span class=\"hl\">Pfeil</span> nach rechts.",
+                      "mnemonic": "へ ist wie ein Dach oder ein Pfeil – „he“ wie „Hemd“ auf dem Dach.",
+                      "examples": [
+                          {
+                              "t": "へ ist auch eine Partikel (Richtung).<br>Beispiel: 学校<へ>行く",
+                              "n": "へ als Richtungs-Partikel: „zur Schule gehen“"
+                          },
+                          {
+                              "t": "へや – <b>へ</b> + や",
+                              "n": "Zimmer – beginnt mit へ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ho",
+                      "isLetter": true,
+                      "letter": "ほ",
+                      "word": "ほ",
+                      "emoji": "🔤",
+                      "phonetic": "/ho/",
+                      "translation": "Laut <b>ho</b> – wie „<i>Hose</i>“ auf Deutsch<br>Wie は, aber mit <span class=\"hl\">einem zusätzlichen Strich</span> rechts.",
+                      "mnemonic": "ほ = は + ein extra Strich – wie eine Hose, die am Haus (は) hängt.",
+                      "examples": [
+                          {
+                              "t": "ほ – fast wie は, nur mit <b>einem Strich mehr</b>",
+                              "n": "Vergleich: は vs. ほ"
+                          },
+                          {
+                              "t": "ほん – <b>ほ</b> + ん",
+                              "n": "Buch – beginnt mit ほ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ma",
+                      "isLetter": true,
+                      "letter": "ま",
+                      "word": "ま",
+                      "emoji": "🔤",
+                      "phonetic": "/ma/",
+                      "translation": "Laut <b>ma</b> – wie „<i>Mama</i>“<br>Die Form sieht aus wie ein <span class=\"hl\">Baum mit Wurzeln</span>.",
+                      "mnemonic": "ま sieht aus wie ein Baum – „ma“ wie „Mama“ im Wald.",
+                      "examples": [
+                          {
+                              "t": "ま – ein Zeichen mit <b>zwei horizontalen Strichen</b>",
+                              "n": "Form: oben ein Kreuz, unten ein Haken"
+                          },
+                          {
+                              "t": "まど – <b>ま</b> + ど",
+                              "n": "Fenster – beginnt mit ま"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_mi",
+                      "isLetter": true,
+                      "letter": "み",
+                      "word": "み",
+                      "emoji": "🔤",
+                      "phonetic": "/mi/",
+                      "translation": "Laut <b>mi</b> – wie „<i>Milch</i>“<br>Die Form erinnert an eine <span class=\"hl\">Schlange</span> oder eine <span class=\"hl\">Welle</span>.",
+                      "mnemonic": "み sieht aus wie eine Schlange, die „mi“ zischt.",
+                      "examples": [
+                          {
+                              "t": "み – ein Zeichen mit <b>zwei Kurven</b>",
+                              "n": "Form: wie eine liegende Acht"
+                          },
+                          {
+                              "t": "みず – <b>み</b> + ず",
+                              "n": "Wasser – beginnt mit み"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_mu",
+                      "isLetter": true,
+                      "letter": "む",
+                      "word": "む",
+                      "emoji": "🔤",
+                      "phonetic": "/mɯ/",
+                      "translation": "Laut <b>mu</b> – wie „<i>Muh</i>“ von der Kuh<br>Die Form sieht aus wie eine <span class=\"hl\">Kuh</span> mit Hörnern.",
+                      "mnemonic": "む sieht aus wie eine Kuh, die „Muh!“ macht.",
+                      "examples": [
+                          {
+                              "t": "む – ein Zeichen mit <b>Schleife</b> am Ende",
+                              "n": "Form: oben ein Haken, unten eine Schleife"
+                          },
+                          {
+                              "t": "むずかしい – <b>む</b> + ず + か + し + い",
+                              "n": "schwierig – beginnt mit む"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_me",
+                      "isLetter": true,
+                      "letter": "め",
+                      "word": "め",
+                      "emoji": "🔤",
+                      "phonetic": "/me/",
+                      "translation": "Laut <b>me</b> – wie „<i>Messe</i>“<br>Die Form ähnelt <span class=\"hl\">め</span> (nu), aber mit <span class=\"hl\">offenem Ende</span>.",
+                      "mnemonic": "め ist wie ぬ, aber mit offenem Ende – „me“ wie „Messe“ (offen für Besucher).",
+                      "examples": [
+                          {
+                              "t": "め – ähnlich wie ぬ, aber <b>ohne Schleife</b>",
+                              "n": "Vergleich: め vs. ぬ"
+                          },
+                          {
+                              "t": "め – Auge: め",
+                              "n": "Wort: Auge"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_mo",
+                      "isLetter": true,
+                      "letter": "も",
+                      "word": "も",
+                      "emoji": "🔤",
+                      "phonetic": "/mo/",
+                      "translation": "Laut <b>mo</b> – wie „<i>Mond</i>“<br>Wie ま, aber mit <span class=\"hl\">einem Haken</span> nach links.",
+                      "mnemonic": "も = ま mit Haken – „mo“ wie „Mond“, der am Baum hängt.",
+                      "examples": [
+                          {
+                              "t": "も – wie ま, aber mit <b>Haken links</b>",
+                              "n": "Vergleich: ま vs. も"
+                          },
+                          {
+                              "t": "も – auch: わたし<b>も</b>",
+                              "n": "Partikel: „auch ich“"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ya",
+                      "isLetter": true,
+                      "letter": "や",
+                      "word": "や",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Laut <b>ya</b> – wie „<i>Jacht</i>“<br>Die Form sieht aus wie ein <span class=\"hl\">Y</span> mit einem Querstrich.",
+                      "mnemonic": "や sieht aus wie ein Y – „ya“ wie „Yacht“.",
+                      "examples": [
+                          {
+                              "t": "や – nur 3 Zeichen in dieser Reihe",
+                              "n": "Besonderheit: keine い/え-Varianten"
+                          },
+                          {
+                              "t": "やま – <b>や</b> + ま",
+                              "n": "Berg – beginnt mit や"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_yu",
+                      "isLetter": true,
+                      "letter": "ゆ",
+                      "word": "ゆ",
+                      "emoji": "🔤",
+                      "phonetic": "/jɯ/",
+                      "translation": "Laut <b>yu</b> – wie „<i>Urlaub</i>“ (mit j)<br>Die Form sieht aus wie ein <span class=\"hl\">Fisch</span>, der schwimmt.",
+                      "mnemonic": "ゆ sieht aus wie ein Fisch – „yu“ wie „Urlaub“ am Meer.",
+                      "examples": [
+                          {
+                              "t": "ゆ – ein Zeichen mit <b>einer Kurve</b> nach unten",
+                              "n": "Form: wie ein umgedrehtes J"
+                          },
+                          {
+                              "t": "ゆき – <b>ゆ</b> + き",
+                              "n": "Schnee – beginnt mit ゆ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_yo",
+                      "isLetter": true,
+                      "letter": "よ",
+                      "word": "よ",
+                      "emoji": "🔤",
+                      "phonetic": "/jo/",
+                      "translation": "Laut <b>yo</b> – wie „<i>Joghurt</i>“<br>Die Form ist wie ゆ, aber mit <span class=\"hl\">einem Strich</span> oben.",
+                      "mnemonic": "よ = ゆ mit Strich oben – „yo“ wie „Joghurt“ mit Sahnehaube.",
+                      "examples": [
+                          {
+                              "t": "よ – wie ゆ, aber mit <b>Strich oben</b>",
+                              "n": "Vergleich: ゆ vs. よ"
+                          },
+                          {
+                              "t": "よる – <b>よ</b> + る",
+                              "n": "Nacht – beginnt mit よ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ra",
+                      "isLetter": true,
+                      "letter": "ら",
+                      "word": "ら",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾa/",
+                      "translation": "Laut <b>ra</b> – ein <i>Zungenschlag</i> (zwischen R und L)<br>Die Form sieht aus wie eine <span class=\"hl\">Blume</span> mit Stiel.",
+                      "mnemonic": "ら sieht aus wie eine Blume – sag „ra“ mit einem schnellen Zungenschlag.",
+                      "examples": [
+                          {
+                              "t": "ら – der Zungenschlag-Laut",
+                              "n": "Besonderheit: /ɾ/ wie im Spanischen"
+                          },
+                          {
+                              "t": "らくだ – <b>ら</b> + く + だ",
+                              "n": "Kamel – beginnt mit ら"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ri",
+                      "isLetter": true,
+                      "letter": "り",
+                      "word": "り",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾi/",
+                      "translation": "Laut <b>ri</b> – wie „<i>Riese</i>“ mit Zungenschlag<br>Die Form sieht aus wie <span class=\"hl\">zwei Stäbe</span> mit Haken.",
+                      "mnemonic": "り sieht aus wie zwei Stäbe – „ri“ wie „Riese“ mit Stab.",
+                      "examples": [
+                          {
+                              "t": "り – zwei Striche, die sich <b>nicht berühren</b>",
+                              "n": "Form: wie ein kleines n"
+                          },
+                          {
+                              "t": "りんご – <b>り</b> + ん + ご",
+                              "n": "Apfel – beginnt mit り"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ru",
+                      "isLetter": true,
+                      "letter": "る",
+                      "word": "る",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾɯ/",
+                      "translation": "Laut <b>ru</b> – wie „<i>Ruder</i>“<br>Die Form hat eine <span class=\"hl\">Schleife</span> am Ende (wie ろ mit Schleife).",
+                      "mnemonic": "る = ろ mit Schleife – „ru“ wie „Ruder“ mit einer Schlaufe.",
+                      "examples": [
+                          {
+                              "t": "る – ähnlich wie ろ, aber mit <b>Schleife</b>",
+                              "n": "Vergleich: る vs. ろ"
+                          },
+                          {
+                              "t": "る – Verben enden oft auf る",
+                              "n": "Grammatik: z.B. たべる (essen)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_re",
+                      "isLetter": true,
+                      "letter": "れ",
+                      "word": "れ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾe/",
+                      "translation": "Laut <b>re</b> – wie „<i>Regen</i>“<br>Die Form sieht aus wie <span class=\"hl\">わ</span> mit einem extra Haken.",
+                      "mnemonic": "れ ist wie わ mit Haken – „re“ wie „Regen“ mit Tropfen.",
+                      "examples": [
+                          {
+                              "t": "れ – ähnlich wie わ, aber mit <b>Haken</b>",
+                              "n": "Vergleich: れ vs. わ"
+                          },
+                          {
+                              "t": "れきし – <b>れ</b> + き + し",
+                              "n": "Geschichte – beginnt mit れ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_ro",
+                      "isLetter": true,
+                      "letter": "ろ",
+                      "word": "ろ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾo/",
+                      "translation": "Laut <b>ro</b> – wie „<i>Rose</i>“<br>Die Form ist wie る, aber <span class=\"hl\">ohne Schleife</span>.",
+                      "mnemonic": "ろ = る ohne Schleife – „ro“ wie „Rose“ ohne Dornen.",
+                      "examples": [
+                          {
+                              "t": "ろ – wie る, aber <b>ohne Schleife</b>",
+                              "n": "Vergleich: ろ vs. る"
+                          },
+                          {
+                              "t": "ろく – <b>ろ</b> + く",
+                              "n": "sechs – beginnt mit ろ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_wa",
+                      "isLetter": true,
+                      "letter": "わ",
+                      "word": "わ",
+                      "emoji": "🔤",
+                      "phonetic": "/wa/",
+                      "translation": "Laut <b>wa</b> – wie „<i>Wasser</i>“<br>Die Form sieht aus wie <span class=\"hl\">れ</span> ohne Haken – oder eine Welle.",
+                      "mnemonic": "わ sieht aus wie eine Welle – „wa“ wie „Wasser“ im Meer.",
+                      "examples": [
+                          {
+                              "t": "わ – wie れ, aber <b>ohne Haken</b>",
+                              "n": "Vergleich: わ vs. れ"
+                          },
+                          {
+                              "t": "わたし – <b>わ</b> + た + し",
+                              "n": "Ich – beginnt mit わ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_wo",
+                      "isLetter": true,
+                      "letter": "を",
+                      "word": "を",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Laut <b>o</b> – wird nur als <i>Partikel</i> verwendet<br>Die Form ist wie お mit <span class=\"hl\">einem Strich mehr</span>.",
+                      "mnemonic": "を = お mit extra Strich – wird nur als Partikel benutzt (wie ein „o“ mit Zusatz).",
+                      "examples": [
+                          {
+                              "t": "を – Akkusativ-Partikel<br>Beispiel: 本<b>を</b>読む",
+                              "n": "を als Objekt-Partikel: „ein Buch lesen“"
+                          },
+                          {
+                              "t": "を wird <b>wie お</b> ausgesprochen",
+                              "n": "Aussprache: /o/ nicht /wo/"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "ん",
+                      "word": "ん",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Laut <b>n</b> – ein <i>nasaler</i> Konsonant<br>Die Form sieht aus wie eine <span class=\"hl\">Schlange</span>, die sich windet.",
+                      "mnemonic": "ん sieht aus wie eine Schlange – zisch „nnn“ wie eine Schlange.",
+                      "examples": [
+                          {
+                              "t": "ん – der einzige <b>eigenständige Nasal</b>",
+                              "n": "Besonderheit: kann allein stehen"
+                          },
+                          {
+                              "t": "にほん – に + ほ + <b>ん</b>",
+                              "n": "Japan – endet mit ん"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_dakuten",
+                      "isLetter": true,
+                      "letter": "゛",
+                      "word": "゛",
+                      "emoji": "🔤",
+                      "phonetic": "/◌ˡ/",
+                      "translation": "Dakuten: <b>Stimmhaftmachung</b><br>Zwei kleine Striche oben rechts – wie ein <span class=\"hl\">Stimmband</span>.",
+                      "mnemonic": "゛ sind zwei Striche = „Stimme an“ – macht k→g, s→z, t→d, h→b.",
+                      "examples": [
+                          {
+                              "t": "か → <b>が</b> (ga)",
+                              "n": "k wird zu g"
+                          },
+                          {
+                              "t": "さ → <b>ざ</b> (za)",
+                              "n": "s wird zu z"
+                          },
+                          {
+                              "t": "た → <b>だ</b> (da)",
+                              "n": "t wird zu d"
+                          },
+                          {
+                              "t": "は → <b>ば</b> (ba)",
+                              "n": "h wird zu b"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_L_handakuten",
+                      "isLetter": true,
+                      "letter": "゜",
+                      "word": "゜",
+                      "emoji": "🔤",
+                      "phonetic": "/◌ʰ/",
+                      "translation": "Handakuten: <b>p-Laut</b><br>Ein kleiner Kreis – wie ein <span class=\"hl\">Luftballon</span>, der platzt (p!).",
+                      "mnemonic": "゜ ist ein Kreis = „p“ wie „Pop!“ – nur bei は行.",
+                      "examples": [
+                          {
+                              "t": "は → <b>ぱ</b> (pa)",
+                              "n": "h wird zu p"
+                          },
+                          {
+                              "t": "ひ → <b>ぴ</b> (pi)",
+                              "n": "hi wird zu pi"
+                          },
+                          {
+                              "t": "ふ → <b>ぷ</b> (pu)",
+                              "n": "fu wird zu pu"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "は",
+                      "word": "はな",
+                      "emoji": "🌸",
+                      "phonetic": "/hana/",
+                      "translation": "Blume – <b>はな</b>",
+                      "translations": {
+                          "ja": "はな",
+                          "de": "Blume",
+                          "en": "flower"
+                      },
+                      "examples": [
+                          {
+                              "t": "これは<b>はな</b>です。",
+                              "n": "Das ist eine Blume."
+                          },
+                          {
+                              "t": "はなはきれいです。",
+                              "n": "Die Blume ist schön."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "み",
+                      "word": "みず",
+                      "emoji": "💧",
+                      "phonetic": "/mizɯ/",
+                      "translation": "Wasser – <b>みず</b>",
+                      "translations": {
+                          "ja": "みず",
+                          "de": "Wasser",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "みずを飲みます。",
+                              "n": "Ich trinke Wasser."
+                          },
+                          {
+                              "t": "みずは冷たいです。",
+                              "n": "Das Wasser ist kalt."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "や",
+                      "word": "やま",
+                      "emoji": "⛰️",
+                      "phonetic": "/jama/",
+                      "translation": "Berg – <b>やま</b>",
+                      "translations": {
+                          "ja": "やま",
+                          "de": "Berg",
+                          "en": "mountain"
+                      },
+                      "examples": [
+                          {
+                              "t": "やまが高いです。",
+                              "n": "Der Berg ist hoch."
+                          },
+                          {
+                              "t": "やまに登ります。",
+                              "n": "Ich besteige den Berg."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "ら",
+                      "word": "られる",
+                      "emoji": "💪",
+                      "phonetic": "/raɾeɾɯ/",
+                      "translation": "können / möglich sein – <b>られる</b>",
+                      "translations": {
+                          "ja": "られる",
+                          "de": "können / möglich sein",
+                          "en": "can do / to be able to"
+                      },
+                      "examples": [
+                          {
+                              "t": "日本語が話せます。",
+                              "n": "Ich kann Japanisch sprechen."
+                          },
+                          {
+                              "t": "これは食べ<b>られる</b>。",
+                              "n": "Das kann man essen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "わ",
+                      "word": "わたし",
+                      "emoji": "🙋",
+                      "phonetic": "/ɰataɕi/",
+                      "translation": "ich – <b>わたし</b>",
+                      "translations": {
+                          "ja": "わたし",
+                          "de": "ich",
+                          "en": "I / me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>わたし</b>は学生です。",
+                              "n": "Ich bin Student."
+                          },
+                          {
+                              "t": "これはわたしの本です。",
+                              "n": "Das ist mein Buch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "あ",
+                      "word": "ありがとう",
+                      "emoji": "🙏",
+                      "phonetic": "/aɾiɡatoː/",
+                      "translation": "Danke – <b>ありがとう</b>",
+                      "translations": {
+                          "ja": "ありがとう",
+                          "de": "Danke",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ありがとう</b>ございます。",
+                              "n": "Vielen Dank (formell)."
+                          },
+                          {
+                              "t": "ありがとう！",
+                              "n": "Danke! (informell)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "に",
+                      "word": "にほん",
+                      "emoji": "🇯🇵",
+                      "phonetic": "/ɲihoɴ/",
+                      "translation": "Japan – <b>にほん</b>",
+                      "translations": {
+                          "ja": "にほん",
+                          "de": "Japan",
+                          "en": "Japan"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>にほん</b>が好きです。",
+                              "n": "Ich mag Japan."
+                          },
+                          {
+                              "t": "にほんに行きます。",
+                              "n": "Ich gehe nach Japan."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g3",
+              "name": "Katakana — parte 1",
+              "icon": "🔠",
+              "color": "#10b981",
+              "description": "ア行 カ行 サ行 タ行 ナ行 — comparando con hiragana",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "ア",
+                      "word": "ア",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "ア = <b>a</b> (wie im Deutschen <i>Apfel</i>)<br>Hiragana: あ",
+                      "mnemonic": "Sieht aus wie ein umgedrehtes 'a' – einfach die obere Schleife wegdenken.",
+                      "examples": [
+                          {
+                              "t": "ア ist die Katakana-Form von <b>あ</b>.<br>Denk an <span class='hl'>Apfel</span> für den Laut.",
+                              "n": "ア ist wie あ, aber eckiger."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "イ",
+                      "word": "イ",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "イ = <b>i</b> (wie im Deutschen <i>Igel</i>)<br>Hiragana: い",
+                      "mnemonic": "Zwei Striche wie ein 'i' ohne Punkt – einfach die linke Linie als Punkt.",
+                      "examples": [
+                          {
+                              "t": "イ sieht aus wie ein <span class='hl'>I</span> ohne Punkt.<br>Denk an <i>Igel</i>.",
+                              "n": "イ ist wie い, aber mit geraden Linien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_u",
+                      "isLetter": true,
+                      "letter": "ウ",
+                      "word": "ウ",
+                      "emoji": "🔤",
+                      "phonetic": "/u/",
+                      "translation": "ウ = <b>u</b> (wie im Deutschen <i>Uhr</i>)<br>Hiragana: う",
+                      "mnemonic": "Sieht aus wie ein umgedrehtes 'u' – der Haken ist oben.",
+                      "examples": [
+                          {
+                              "t": "ウ hat einen <span class='hl'>Haken</span> oben.<br>Denk an <i>Uhr</i>.",
+                              "n": "ウ ist wie う, aber mit scharfen Ecken."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "エ",
+                      "word": "エ",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "エ = <b>e</b> (wie im Deutschen <i>Elefant</i>)<br>Hiragana: え",
+                      "mnemonic": "Sieht aus wie ein 'E' mit einem extra Strich – wie ein Regal.",
+                      "examples": [
+                          {
+                              "t": "エ sieht aus wie ein <span class='hl'>E</span> mit einem Strich.<br>Denk an <i>Elefant</i>.",
+                              "n": "エ ist wie え, aber mit geraden Linien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "オ",
+                      "word": "オ",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "オ = <b>o</b> (wie im Deutschen <i>Ohr</i>)<br>Hiragana: お",
+                      "mnemonic": "Sieht aus wie ein 'o' mit einem senkrechten Strich – wie ein Schlüssel.",
+                      "examples": [
+                          {
+                              "t": "オ hat einen <span class='hl'>Strich</span> durch.<br>Denk an <i>Ohr</i>.",
+                              "n": "オ ist wie お, aber ohne Schleife."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ka",
+                      "isLetter": true,
+                      "letter": "カ",
+                      "word": "カ",
+                      "emoji": "🔤",
+                      "phonetic": "/ka/",
+                      "translation": "カ = <b>ka</b> (wie <i>Kaffee</i>)<br>Hiragana: か",
+                      "mnemonic": "Sieht aus wie ein 'k' mit einem Strich – wie ein umgedrehtes 'K'.",
+                      "examples": [
+                          {
+                              "t": "カ ist wie <b>か</b>, aber ohne den kleinen Kreis.<br>Denk an <span class='hl'>Kaffee</span>.",
+                              "n": "カ hat weniger Kurven als か."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ki",
+                      "isLetter": true,
+                      "letter": "キ",
+                      "word": "キ",
+                      "emoji": "🔤",
+                      "phonetic": "/ki/",
+                      "translation": "キ = <b>ki</b> (wie <i>Kilo</i>)<br>Hiragana: き",
+                      "mnemonic": "Sieht aus wie ein 'k' mit einem langen Strich – wie ein Schlüssel.",
+                      "examples": [
+                          {
+                              "t": "キ hat zwei <span class='hl'>Kreuze</span>.<br>Denk an <i>Kilo</i>.",
+                              "n": "キ ist wie き, aber mit geraden Linien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ku",
+                      "isLetter": true,
+                      "letter": "ク",
+                      "word": "ク",
+                      "emoji": "🔤",
+                      "phonetic": "/ku/",
+                      "translation": "ク = <b>ku</b> (wie <i>Kuh</i>)<br>Hiragana: く",
+                      "mnemonic": "Sieht aus wie ein Winkel – wie ein 'v' mit einem Strich.",
+                      "examples": [
+                          {
+                              "t": "ク ist wie <b>く</b>, aber mit einem <span class='hl'>Haken</span>.<br>Denk an <i>Kuh</i>.",
+                              "n": "ク ist ähnlich zu く."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ke",
+                      "isLetter": true,
+                      "letter": "ケ",
+                      "word": "ケ",
+                      "emoji": "🔤",
+                      "phonetic": "/ke/",
+                      "translation": "ケ = <b>ke</b> (wie <i>Keks</i>)<br>Hiragana: け",
+                      "mnemonic": "Sieht aus wie ein 'K' mit einem Strich – wie ein umgedrehtes 'K'.",
+                      "examples": [
+                          {
+                              "t": "ケ ist wie <b>け</b>, aber mit <span class='hl'>geraden Linien</span>.<br>Denk an <i>Keks</i>.",
+                              "n": "ケ hat weniger Kurven als け."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ko",
+                      "isLetter": true,
+                      "letter": "コ",
+                      "word": "コ",
+                      "emoji": "🔤",
+                      "phonetic": "/ko/",
+                      "translation": "コ = <b>ko</b> (wie <i>Koffer</i>)<br>Hiragana: こ",
+                      "mnemonic": "Sieht aus wie ein umgedrehtes 'C' – wie ein Koffer.",
+                      "examples": [
+                          {
+                              "t": "コ ist wie <b>こ</b>, aber mit <span class='hl'>Ecken</span>.<br>Denk an <i>Koffer</i>.",
+                              "n": "コ ist ähnlich zu こ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_sa",
+                      "isLetter": true,
+                      "letter": "サ",
+                      "word": "サ",
+                      "emoji": "🔤",
+                      "phonetic": "/sa/",
+                      "translation": "サ = <b>sa</b> (wie <i>Salat</i>)<br>Hiragana: さ",
+                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein schiefes Kreuz.",
+                      "examples": [
+                          {
+                              "t": "サ hat einen <span class='hl'>Strich</span> oben.<br>Denk an <i>Salat</i>.",
+                              "n": "サ ist wie さ, aber mit geraden Linien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_shi",
+                      "isLetter": true,
+                      "letter": "シ",
+                      "word": "シ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕi/",
+                      "translation": "シ = <b>shi</b> (wie <i>Schiff</i>)<br>Hiragana: し",
+                      "mnemonic": "Sieht aus wie ein 's' mit zwei Strichen – wie ein Schiff.",
+                      "examples": [
+                          {
+                              "t": "シ hat zwei <span class='hl'>Striche</span>.<br>Denk an <i>Schiff</i>.",
+                              "n": "シ ist wie し, aber mit zusätzlichen Strichen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_su",
+                      "isLetter": true,
+                      "letter": "ス",
+                      "word": "ス",
+                      "emoji": "🔤",
+                      "phonetic": "/su/",
+                      "translation": "ス = <b>su</b> (wie <i>Suppe</i>)<br>Hiragana: す",
+                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein Haken.",
+                      "examples": [
+                          {
+                              "t": "ス hat einen <span class='hl'>Haken</span>.<br>Denk an <i>Suppe</i>.",
+                              "n": "ス ist wie す, aber ohne Schleife."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_se",
+                      "isLetter": true,
+                      "letter": "セ",
+                      "word": "セ",
+                      "emoji": "🔤",
+                      "phonetic": "/se/",
+                      "translation": "セ = <b>se</b> (wie <i>See</i>)<br>Hiragana: せ",
+                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein Segel.",
+                      "examples": [
+                          {
+                              "t": "セ hat einen <span class='hl'>Strich</span> durch.<br>Denk an <i>See</i>.",
+                              "n": "セ ist wie せ, aber mit geraden Linien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_so",
+                      "isLetter": true,
+                      "letter": "ソ",
+                      "word": "ソ",
+                      "emoji": "🔤",
+                      "phonetic": "/so/",
+                      "translation": "ソ = <b>so</b> (wie <i>Sonne</i>)<br>Hiragana: そ",
+                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein schiefes Kreuz.",
+                      "examples": [
+                          {
+                              "t": "ソ hat einen <span class='hl'>Strich</span> oben.<br>Denk an <i>Sonne</i>.",
+                              "n": "ソ ist wie そ, aber mit geraden Linien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ta",
+                      "isLetter": true,
+                      "letter": "タ",
+                      "word": "タ",
+                      "emoji": "🔤",
+                      "phonetic": "/ta/",
+                      "translation": "タ = <b>ta</b> (wie <i>Tasse</i>)<br>Hiragana: た",
+                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein Tisch.",
+                      "examples": [
+                          {
+                              "t": "タ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Tasse</i>.",
+                              "n": "タ ist wie た, aber ohne Schleifen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_chi",
+                      "isLetter": true,
+                      "letter": "チ",
+                      "word": "チ",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕi/",
+                      "translation": "チ = <b>chi</b> (wie <i>China</i>)<br>Hiragana: ち",
+                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein umgedrehtes 't'.",
+                      "examples": [
+                          {
+                              "t": "チ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>China</i>.",
+                              "n": "チ ist wie ち, aber mit geraden Linien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_tsu",
+                      "isLetter": true,
+                      "letter": "ツ",
+                      "word": "ツ",
+                      "emoji": "🔤",
+                      "phonetic": "/tsu/",
+                      "translation": "ツ = <b>tsu</b> (wie <i>Zug</i>)<br>Hiragana: つ",
+                      "mnemonic": "Sieht aus wie ein 't' mit zwei Strichen – wie ein Zug.",
+                      "examples": [
+                          {
+                              "t": "ツ hat zwei <span class='hl'>Striche</span>.<br>Denk an <i>Zug</i>.",
+                              "n": "ツ ist wie つ, aber mit zusätzlichen Strichen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_te",
+                      "isLetter": true,
+                      "letter": "テ",
+                      "word": "テ",
+                      "emoji": "🔤",
+                      "phonetic": "/te/",
+                      "translation": "テ = <b>te</b> (wie <i>Teppich</i>)<br>Hiragana: て",
+                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein T-Stück.",
+                      "examples": [
+                          {
+                              "t": "テ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Teppich</i>.",
+                              "n": "テ ist wie て, aber mit geraden Linien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_to",
+                      "isLetter": true,
+                      "letter": "ト",
+                      "word": "ト",
+                      "emoji": "🔤",
+                      "phonetic": "/to/",
+                      "translation": "ト = <b>to</b> (wie <i>Tor</i>)<br>Hiragana: と",
+                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein Tor.",
+                      "examples": [
+                          {
+                              "t": "ト hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Tor</i>.",
+                              "n": "ト ist wie と, aber mit geraden Linien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_na",
+                      "isLetter": true,
+                      "letter": "ナ",
+                      "word": "ナ",
+                      "emoji": "🔤",
+                      "phonetic": "/na/",
+                      "translation": "ナ = <b>na</b> (wie <i>Nase</i>)<br>Hiragana: な",
+                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie eine Nase.",
+                      "examples": [
+                          {
+                              "t": "ナ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Nase</i>.",
+                              "n": "ナ ist wie な, aber ohne Schleife."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ni",
+                      "isLetter": true,
+                      "letter": "ニ",
+                      "word": "ニ",
+                      "emoji": "🔤",
+                      "phonetic": "/ni/",
+                      "translation": "ニ = <b>ni</b> (wie <i>Nil</i>)<br>Hiragana: に",
+                      "mnemonic": "Zwei Striche – wie ein 'n' mit zwei Strichen.",
+                      "examples": [
+                          {
+                              "t": "ニ hat zwei <span class='hl'>Striche</span>.<br>Denk an <i>Nil</i>.",
+                              "n": "ニ ist wie に, aber ohne Kurven."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_nu",
+                      "isLetter": true,
+                      "letter": "ヌ",
+                      "word": "ヌ",
+                      "emoji": "🔤",
+                      "phonetic": "/nu/",
+                      "translation": "ヌ = <b>nu</b> (wie <i>Null</i>)<br>Hiragana: ぬ",
+                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie ein Haken.",
+                      "examples": [
+                          {
+                              "t": "ヌ hat einen <span class='hl'>Haken</span>.<br>Denk an <i>Null</i>.",
+                              "n": "ヌ ist wie ぬ, aber ohne Schleife."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_ne",
+                      "isLetter": true,
+                      "letter": "ネ",
+                      "word": "ネ",
+                      "emoji": "🔤",
+                      "phonetic": "/ne/",
+                      "translation": "ネ = <b>ne</b> (wie <i>Nest</i>)<br>Hiragana: ね",
+                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie ein Nest.",
+                      "examples": [
+                          {
+                              "t": "ネ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Nest</i>.",
+                              "n": "ネ ist wie ね, aber mit geraden Linien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_L_no",
+                      "isLetter": true,
+                      "letter": "ノ",
+                      "word": "ノ",
+                      "emoji": "🔤",
+                      "phonetic": "/no/",
+                      "translation": "ノ = <b>no</b> (wie <i>Nord</i>)<br>Hiragana: の",
+                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie ein Haken.",
+                      "examples": [
+                          {
+                              "t": "ノ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Nord</i>.",
+                              "n": "ノ ist wie の, aber ohne Kreis."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "コ",
+                      "word": "コーヒー",
+                      "emoji": "☕",
+                      "phonetic": "/koːçiː/",
+                      "translation": "Kaffee – <b>コーヒー</b> (koohii), mit langem Vokal ー",
+                      "translations": {
+                          "ja": "コーヒー",
+                          "de": "Kaffee",
+                          "en": "coffee"
+                      },
+                      "examples": [
+                          {
+                              "t": "コーヒーを飲みます。<br><b>コーヒー</b> ist ein Lehnwort.",
+                              "n": "Ich trinke Kaffee."
+                          },
+                          {
+                              "t": "このコーヒーはおいしいです。<br>Denk an <span class='hl'>Kaffee</span>.",
+                              "n": "Dieser Kaffee ist lecker."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "テ",
+                      "word": "テレビ",
+                      "emoji": "📺",
+                      "phonetic": "/teɾeβi/",
+                      "translation": "Fernseher – <b>テレビ</b> (terebi), von <i>television</i>",
+                      "translations": {
+                          "ja": "テレビ",
+                          "de": "Fernseher",
+                          "en": "TV"
+                      },
+                      "examples": [
+                          {
+                              "t": "テレビを見ます。<br><b>テレビ</b> ist ein Lehnwort.",
+                              "n": "Ich schaue fern."
+                          },
+                          {
+                              "t": "新しいテレビを買いました。<br>Denk an <span class='hl'>TV</span>.",
+                              "n": "Ich habe einen neuen Fernseher gekauft."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "ア",
+                      "word": "アイスクリーム",
+                      "emoji": "🍦",
+                      "phonetic": "/aisɯkɯɾiːmɯ/",
+                      "translation": "Eiscreme – <b>アイスクリーム</b> (aisukuriimu), von <i>ice cream</i>",
+                      "translations": {
+                          "ja": "アイスクリーム",
+                          "de": "Eiscreme",
+                          "en": "ice cream"
+                      },
+                      "examples": [
+                          {
+                              "t": "アイスクリームが好きです。<br><b>アイスクリーム</b> ist ein Lehnwort.",
+                              "n": "Ich mag Eiscreme."
+                          },
+                          {
+                              "t": "夏はアイスクリームを食べます。<br>Denk an <span class='hl'>Eis</span>.",
+                              "n": "Im Sommer esse ich Eiscreme."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "タ",
+                      "word": "タクシー",
+                      "emoji": "🚕",
+                      "phonetic": "/takɯɕiː/",
+                      "translation": "Taxi – <b>タクシー</b> (takushii), von <i>taxi</i>",
+                      "translations": {
+                          "ja": "タクシー",
+                          "de": "Taxi",
+                          "en": "taxi"
+                      },
+                      "examples": [
+                          {
+                              "t": "タクシーで行きます。<br><b>タクシー</b> ist ein Lehnwort.",
+                              "n": "Ich fahre mit dem Taxi."
+                          },
+                          {
+                              "t": "タクシーを呼びました。<br>Denk an <span class='hl'>Taxi</span>.",
+                              "n": "Ich habe ein Taxi gerufen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "ニ",
+                      "word": "ニュース",
+                      "emoji": "📰",
+                      "phonetic": "/nʲɯːsɯ/",
+                      "translation": "Nachrichten – <b>ニュース</b> (nyuusu), von <i>news</i>",
+                      "translations": {
+                          "ja": "ニュース",
+                          "de": "Nachrichten",
+                          "en": "news"
+                      },
+                      "examples": [
+                          {
+                              "t": "ニュースを見ます。<br><b>ニュース</b> ist ein Lehnwort.",
+                              "n": "Ich schaue die Nachrichten."
+                          },
+                          {
+                              "t": "今日のニュースは何ですか。<br>Denk an <span class='hl'>News</span>.",
+                              "n": "Was sind die heutigen Nachrichten?"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g4",
+              "name": "Katakana — parte 2",
+              "icon": "🔣",
+              "color": "#ef4444",
+              "description": "ハ行 マ行 ヤ行 ラ行 ワ行 + préstamos",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2",
+                  "ja_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g4_L_ha",
+                      "isLetter": true,
+                      "letter": "ハ",
+                      "word": "ハ",
+                      "emoji": "🔤",
+                      "phonetic": "/ha/",
+                      "translation": "Laut <b>ha</b> – wie <i>„haha“</i> im Deutschen.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Hut</span> ohne Hutständer – der Laut ist ‚ha‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ハ</b> ist der erste Laut in <i>ハワイ</i> (Hawaii).",
+                              "n": "Hawaii"
+                          },
+                          {
+                              "t": "Denk an <b>ハ</b> wie ein <span class=\"hl\">Haus</span> ohne Dach.",
+                              "n": "Haus-Dach-Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_hi",
+                      "isLetter": true,
+                      "letter": "ヒ",
+                      "word": "ヒ",
+                      "emoji": "🔤",
+                      "phonetic": "/çi/",
+                      "translation": "Laut <b>hi</b> – wie <i>„hi“</i> auf Englisch.",
+                      "mnemonic": "Ein <span class=\"hl\">Hügel</span> mit einem Weg – ‚hi‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ヒ</b> kommt in <i>ヒーター</i> (Heater) vor.",
+                              "n": "Heizung"
+                          },
+                          {
+                              "t": "Form ähnlich einem <span class=\"hl\">Hügel</span> mit einer Linie.",
+                              "n": "Hügel-Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_fu",
+                      "isLetter": true,
+                      "letter": "フ",
+                      "word": "フ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɸɯ/",
+                      "translation": "Laut <b>fu</b> – wie ein <i>„fu“</i> mit gehauchtem f.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Finger</span>, der nach oben zeigt – ‚fu‘.",
+                      "examples": [
+                          {
+                              "t": "<b>フ</b> ist in <i>フランス</i> (Frankreich).",
+                              "n": "Frankreich"
+                          },
+                          {
+                              "t": "Ein <span class=\"hl\">Fächer</span> geöffnet – ‚fu‘.",
+                              "n": "Fächer-Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_he",
+                      "isLetter": true,
+                      "letter": "ヘ",
+                      "word": "ヘ",
+                      "emoji": "🔤",
+                      "phonetic": "/he/",
+                      "translation": "Laut <b>he</b> – wie <i>„he“</i> im Deutschen.",
+                      "mnemonic": "Ein <span class=\"hl\">Held</span> mit Umhang – ‚he‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ヘ</b> sieht aus wie ein <span class=\"hl\">Dach</span> ohne Haus.",
+                              "n": "Dach-Form"
+                          },
+                          {
+                              "t": "In <i>ヘリコプター</i> (Helikopter) steckt <b>ヘ</b>.",
+                              "n": "Helikopter"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ho",
+                      "isLetter": true,
+                      "letter": "ホ",
+                      "word": "ホ",
+                      "emoji": "🔤",
+                      "phonetic": "/ho/",
+                      "translation": "Laut <b>ho</b> – wie <i>„ho“</i> in „hoch“.",
+                      "mnemonic": "Ein <span class=\"hl\">Haus</span> mit zwei Fenstern – ‚ho‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ホ</b> ist in <i>ホテル</i> (Hotel).",
+                              "n": "Hotel"
+                          },
+                          {
+                              "t": "Denk an ein <span class=\"hl\">Haus</span> mit Türen – ‚ho‘.",
+                              "n": "Haus-Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ma",
+                      "isLetter": true,
+                      "letter": "マ",
+                      "word": "マ",
+                      "emoji": "🔤",
+                      "phonetic": "/ma/",
+                      "translation": "Laut <b>ma</b> – wie <i>„ma“</i> in „Mama“.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Mund</span> mit einem Strich – ‚ma‘.",
+                      "examples": [
+                          {
+                              "t": "<b>マ</b> ist in <i>マンゴー</i> (Mango).",
+                              "n": "Mango"
+                          },
+                          {
+                              "t": "Zwei Striche wie ein <span class=\"hl\">Mund</span> – ‚ma‘.",
+                              "n": "Mund-Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mi",
+                      "isLetter": true,
+                      "letter": "ミ",
+                      "word": "ミ",
+                      "emoji": "🔤",
+                      "phonetic": "/mi/",
+                      "translation": "Laut <b>mi</b> – wie <i>„mi“</i> in „Mitte“.",
+                      "mnemonic": "Drei Striche wie ein <span class=\"hl\">Mikrofon</span> – ‚mi‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ミ</b> ist in <i>ミルク</i> (Milch).",
+                              "n": "Milch"
+                          },
+                          {
+                              "t": "Drei Linien wie ein <span class=\"hl\">Mikrofon</span> – ‚mi‘.",
+                              "n": "Mikrofon-Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mu",
+                      "isLetter": true,
+                      "letter": "ム",
+                      "word": "ム",
+                      "emoji": "🔤",
+                      "phonetic": "/mɯ/",
+                      "translation": "Laut <b>mu</b> – wie <i>„mu“</i> in „Muh“ (Kuh).",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Kuhhorn</span> – ‚mu‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ム</b> ist in <i>ムーン</i> (Mond) – aber auf Japanisch oft <i>ムーン</i>.",
+                              "n": "Mond"
+                          },
+                          {
+                              "t": "Ein <span class=\"hl\">Mund</span> offen – ‚mu‘.",
+                              "n": "Mund-Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_me",
+                      "isLetter": true,
+                      "letter": "メ",
+                      "word": "メ",
+                      "emoji": "🔤",
+                      "phonetic": "/me/",
+                      "translation": "Laut <b>me</b> – wie <i>„me“</i> in „Meer“.",
+                      "mnemonic": "Ein <span class=\"hl\">Meer</span> mit einer Welle – ‚me‘.",
+                      "examples": [
+                          {
+                              "t": "<b>メ</b> ist in <i>メール</i> (E-Mail).",
+                              "n": "E-Mail"
+                          },
+                          {
+                              "t": "Form wie ein <span class=\"hl\">Messer</span> – ‚me‘.",
+                              "n": "Messer-Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_mo",
+                      "isLetter": true,
+                      "letter": "モ",
+                      "word": "モ",
+                      "emoji": "🔤",
+                      "phonetic": "/mo/",
+                      "translation": "Laut <b>mo</b> – wie <i>„mo“</i> in „Motor“.",
+                      "mnemonic": "Ein <span class=\"hl\">Motor</span> mit einem Strich – ‚mo‘.",
+                      "examples": [
+                          {
+                              "t": "<b>モ</b> ist in <i>モデル</i> (Model).",
+                              "n": "Model"
+                          },
+                          {
+                              "t": "Sieht aus wie ein <span class=\"hl\">Mond</span> mit einem Strich – ‚mo‘.",
+                              "n": "Mond-Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ya",
+                      "isLetter": true,
+                      "letter": "ヤ",
+                      "word": "ヤ",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Laut <b>ya</b> – wie <i>„ja“</i> auf Deutsch.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Y</span> mit einem Arm – ‚ya‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ヤ</b> ist in <i>ヤクルト</i> (Yakult).",
+                              "n": "Yakult"
+                          },
+                          {
+                              "t": "Denk an <span class=\"hl\">Y</span> – ‚ya‘.",
+                              "n": "Y-Form"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_yu",
+                      "isLetter": true,
+                      "letter": "ユ",
+                      "word": "ユ",
+                      "emoji": "🔤",
+                      "phonetic": "/jɯ/",
+                      "translation": "Laut <b>yu</b> – wie <i>„ju“</i> in „jung“.",
+                      "mnemonic": "Ein <span class=\"hl\">U</span> mit einem Strich – ‚yu‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ユ</b> ist in <i>ユーロ</i> (Euro).",
+                              "n": "Euro"
+                          },
+                          {
+                              "t": "Ein <span class=\"hl\">U</span> mit Dach – ‚yu‘.",
+                              "n": "U-Form"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_yo",
+                      "isLetter": true,
+                      "letter": "ヨ",
+                      "word": "ヨ",
+                      "emoji": "🔤",
+                      "phonetic": "/jo/",
+                      "translation": "Laut <b>yo</b> – wie <i>„jo“</i> in „Joghurt“.",
+                      "mnemonic": "Drei Striche wie ein <span class=\"hl\">Y</span> – ‚yo‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ヨ</b> ist in <i>ヨガ</i> (Yoga).",
+                              "n": "Yoga"
+                          },
+                          {
+                              "t": "Horizontal wie ein <span class=\"hl\">Y</span> – ‚yo‘.",
+                              "n": "Y-Form"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ra",
+                      "isLetter": true,
+                      "letter": "ラ",
+                      "word": "ラ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾa/",
+                      "translation": "Laut <b>ra</b> – wie ein <i>„ra“</i> mit leichtem Zungenschlag.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">R</span> mit einem Strich – ‚ra‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ラ</b> ist in <i>ラジオ</i> (Radio).",
+                              "n": "Radio"
+                          },
+                          {
+                              "t": "Ein <span class=\"hl\">R</span> mit Dach – ‚ra‘.",
+                              "n": "R-Form"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ri",
+                      "isLetter": true,
+                      "letter": "リ",
+                      "word": "リ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾi/",
+                      "translation": "Laut <b>ri</b> – wie <i>„ri“</i> in „Ritze“.",
+                      "mnemonic": "Zwei Striche wie <span class=\"hl\">Reisstäbchen</span> – ‚ri‘.",
+                      "examples": [
+                          {
+                              "t": "<b>リ</b> ist in <i>リンゴ</i> (Apfel) – aber meist Kanji.",
+                              "n": "Apfel"
+                          },
+                          {
+                              "t": "Zwei Striche wie ein <span class=\"hl\">Riss</span> – ‚ri‘.",
+                              "n": "Riss-Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ru",
+                      "isLetter": true,
+                      "letter": "ル",
+                      "word": "ル",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾɯ/",
+                      "translation": "Laut <b>ru</b> – wie <i>„ru“</i> in „Ruf“.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">R</span> mit einer Schleife – ‚ru‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ル</b> ist in <i>ルーム</i> (Raum).",
+                              "n": "Raum"
+                          },
+                          {
+                              "t": "Ein <span class=\"hl\">R</span> mit Haken – ‚ru‘.",
+                              "n": "R-Form"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_re",
+                      "isLetter": true,
+                      "letter": "レ",
+                      "word": "レ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾe/",
+                      "translation": "Laut <b>re</b> – wie <i>„re“</i> in „Regen“.",
+                      "mnemonic": "Ein <span class=\"hl\">Regen</span>tropfen mit Strich – ‚re‘.",
+                      "examples": [
+                          {
+                              "t": "<b>レ</b> ist in <i>レモン</i> (Zitrone).",
+                              "n": "Zitrone"
+                          },
+                          {
+                              "t": "Ein <span class=\"hl\">R</span> mit einem Strich – ‚re‘.",
+                              "n": "R-Form"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_ro",
+                      "isLetter": true,
+                      "letter": "ロ",
+                      "word": "ロ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾo/",
+                      "translation": "Laut <b>ro</b> – wie <i>„ro“</i> in „rot“.",
+                      "mnemonic": "Ein <span class=\"hl\">Quadrat</span> wie ein Fenster – ‚ro‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ロ</b> ist in <i>ロボット</i> (Roboter).",
+                              "n": "Roboter"
+                          },
+                          {
+                              "t": "Ein <span class=\"hl\">Quadrat</span> – ‚ro‘.",
+                              "n": "Quadrat-Form"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_wa",
+                      "isLetter": true,
+                      "letter": "ワ",
+                      "word": "ワ",
+                      "emoji": "🔤",
+                      "phonetic": "/wa/",
+                      "translation": "Laut <b>wa</b> – wie <i>„wa“</i> in „Wasser“.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">W</span> mit einem Strich – ‚wa‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ワ</b> ist in <i>ワイン</i> (Wein).",
+                              "n": "Wein"
+                          },
+                          {
+                              "t": "Ein <span class=\"hl\">W</span> – ‚wa‘.",
+                              "n": "W-Form"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_wo",
+                      "isLetter": true,
+                      "letter": "ヲ",
+                      "word": "ヲ",
+                      "emoji": "🔤",
+                      "phonetic": "/o/ (historisch /wo/)",
+                      "translation": "Laut <b>o</b> (wird wie <i>o</i> ausgesprochen) – Partikel.",
+                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">W</span> mit einem Haken – ‚wo‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ヲ</b> wird meist als Partikel geschrieben, aber Laut ist <i>o</i>.",
+                              "n": "Partikel"
+                          },
+                          {
+                              "t": "Form wie ein <span class=\"hl\">W</span> mit Arm – ‚wo‘.",
+                              "n": "W-Form"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_n",
+                      "isLetter": true,
+                      "letter": "ン",
+                      "word": "ン",
+                      "emoji": "🔤",
+                      "phonetic": "/ɴ/ (nasal)",
+                      "translation": "Nasallaut <b>n</b> – wie <i>„n“</i> in „lang“.",
+                      "mnemonic": "Ein <span class=\"hl\">N</span> mit einem Strich – ‚n‘.",
+                      "examples": [
+                          {
+                              "t": "<b>ン</b> ist in <i>パン</i> (Brot).",
+                              "n": "Brot"
+                          },
+                          {
+                              "t": "Denk an <span class=\"hl\">N</span> – ‚n‘.",
+                              "n": "N-Form"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_L_long_vowel",
+                      "isLetter": true,
+                      "letter": "ー",
+                      "word": "ー",
+                      "emoji": "🔤",
+                      "phonetic": "/ː/ (Längung)",
+                      "translation": "Längungszeichen – verlängert den Vokal davor.",
+                      "mnemonic": "Ein <span class=\"hl\">Strich</span> wie ein langes Band – ‚verlängern‘.",
+                      "examples": [
+                          {
+                              "t": "In <i>コーヒー</i> (Kaffee) verlängert <b>ー</b> das <i>o</i> und <i>i</i>.",
+                              "n": "Kaffee"
+                          },
+                          {
+                              "t": "Es ist kein Buchstabe, sondern ein <span class=\"hl\">Dehnungszeichen</span>.",
+                              "n": "Dehnung"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_01",
+                      "isLetter": false,
+                      "letter": "ホ",
+                      "word": "ホテル",
+                      "emoji": "🏨",
+                      "phonetic": "/hoteru/",
+                      "translation": "Hotel",
+                      "translations": {
+                          "ja": "ホテル",
+                          "de": "Hotel",
+                          "en": "hotel"
+                      },
+                      "examples": [
+                          {
+                              "t": "この<b>ホテル</b>は大きいです。",
+                              "n": "Dieses Hotel ist groß."
+                          },
+                          {
+                              "t": "<b>ホテル</b>で朝ごはんを食べます。",
+                              "n": "Ich esse Frühstück im Hotel."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_02",
+                      "isLetter": false,
+                      "letter": "レ",
+                      "word": "レストラン",
+                      "emoji": "🍽️",
+                      "phonetic": "/resutoran/",
+                      "translation": "Restaurant",
+                      "translations": {
+                          "ja": "レストラン",
+                          "de": "Restaurant",
+                          "en": "restaurant"
+                      },
+                      "examples": [
+                          {
+                              "t": "あの<b>レストラン</b>はおいしいです。",
+                              "n": "Dieses Restaurant ist lecker."
+                          },
+                          {
+                              "t": "<b>レストラン</b>で昼ごはんを食べます。",
+                              "n": "Ich esse Mittag im Restaurant."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_03",
+                      "isLetter": false,
+                      "letter": "パ",
+                      "word": "パスポート",
+                      "emoji": "🛂",
+                      "phonetic": "/pasupoːto/",
+                      "translation": "Reisepass",
+                      "translations": {
+                          "ja": "パスポート",
+                          "de": "Reisepass",
+                          "en": "passport"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>パスポート</b>を忘れました。",
+                              "n": "Ich habe meinen Pass vergessen."
+                          },
+                          {
+                              "t": "<b>パスポート</b>を見せてください。",
+                              "n": "Zeigen Sie mir bitte Ihren Pass."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_04",
+                      "isLetter": false,
+                      "letter": "ス",
+                      "word": "スマートフォン",
+                      "emoji": "📱",
+                      "phonetic": "/sumaːtofon/",
+                      "translation": "Smartphone",
+                      "translations": {
+                          "ja": "スマートフォン",
+                          "de": "Smartphone",
+                          "en": "smartphone"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>スマートフォン</b>を買いました。",
+                              "n": "Ich habe ein Smartphone gekauft."
+                          },
+                          {
+                              "t": "<b>スマートフォン</b>で写真を撮ります。",
+                              "n": "Ich mache Fotos mit dem Smartphone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_05",
+                      "isLetter": false,
+                      "letter": "コ",
+                      "word": "コンピューター",
+                      "emoji": "💻",
+                      "phonetic": "/konpjuːtaː/",
+                      "translation": "Computer",
+                      "translations": {
+                          "ja": "コンピューター",
+                          "de": "Computer",
+                          "en": "computer"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>コンピューター</b>で仕事をします。",
+                              "n": "Ich arbeite am Computer."
+                          },
+                          {
+                              "t": "新しい<b>コンピューター</b>が欲しいです。",
+                              "n": "Ich möchte einen neuen Computer."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_06",
+                      "isLetter": false,
+                      "letter": "バ",
+                      "word": "バス",
+                      "emoji": "🚌",
+                      "phonetic": "/basu/",
+                      "translation": "Bus",
+                      "translations": {
+                          "ja": "バス",
+                          "de": "Bus",
+                          "en": "bus"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>バス</b>で学校に行きます。",
+                              "n": "Ich fahre mit dem Bus zur Schule."
+                          },
+                          {
+                              "t": "次の<b>バス</b>は何時ですか。",
+                              "n": "Wann fährt der nächste Bus?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_07",
+                      "isLetter": false,
+                      "letter": "ビ",
+                      "word": "ビール",
+                      "emoji": "🍺",
+                      "phonetic": "/biːru/",
+                      "translation": "Bier",
+                      "translations": {
+                          "ja": "ビール",
+                          "de": "Bier",
+                          "en": "beer"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ビール</b>を一杯ください。",
+                              "n": "Ein Bier bitte."
+                          },
+                          {
+                              "t": "私は<b>ビール</b>が好きです。",
+                              "n": "Ich mag Bier."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g4_08",
+                      "isLetter": false,
+                      "letter": "チ",
+                      "word": "チョコレート",
+                      "emoji": "🍫",
+                      "phonetic": "/chokoreːto/",
+                      "translation": "Schokolade",
+                      "translations": {
+                          "ja": "チョコレート",
+                          "de": "Schokolade",
+                          "en": "chocolate"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>チョコレート</b>を食べます。",
+                              "n": "Ich esse Schokolade."
+                          },
+                          {
+                              "t": "この<b>チョコレート</b>は甘いです。",
+                              "n": "Diese Schokolade ist süß."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ja_a0_g5",
+              "name": "Primeros Kanji",
+              "icon": "漢",
+              "color": "#8b5cf6",
+              "description": "日 月 火 水 木 金 土 + números + personas",
+              "reviewFrom": [
+                  "ja_a0_g1",
+                  "ja_a0_g2",
+                  "ja_a0_g3",
+                  "ja_a0_g4"
+              ],
+              "cards": [
+                  {
+                      "id": "ja_a0_g5_L_ichi",
+                      "isLetter": true,
+                      "letter": "一",
+                      "word": "一",
+                      "emoji": "1️⃣",
+                      "phonetic": "/ichi/",
+                      "translation": "Eins — <b>一</b> ist ein einzelner horizontaler Strich. <i>ON: ichi</i>",
+                      "mnemonic": "Ein Strich = eine Eins.",
+                      "examples": [
+                          {
+                              "t": "<b>一</b> = ein Strich, wie eine liegende 1.",
+                              "n": "So bleibt es im Gedächtnis."
+                          },
+                          {
+                              "t": "ichi, ni, san…",
+                              "n": "Eins, zwei, drei…"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_ni",
+                      "isLetter": true,
+                      "letter": "二",
+                      "word": "二",
+                      "emoji": "2️⃣",
+                      "phonetic": "/ni/",
+                      "translation": "Zwei — <b>二</b> sind zwei parallele Striche. <i>ON: ni</i>",
+                      "mnemonic": "Zwei Striche = Zwei.",
+                      "examples": [
+                          {
+                              "t": "<b>二</b> sieht aus wie zwei nebeneinanderliegende Streichhölzer.",
+                              "n": "Merkhilfe."
+                          },
+                          {
+                              "t": "ni = 2",
+                              "n": "Kurz und einfach."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_san",
+                      "isLetter": true,
+                      "letter": "三",
+                      "word": "三",
+                      "emoji": "3️⃣",
+                      "phonetic": "/san/",
+                      "translation": "Drei — <b>三</b> hat drei Striche. <i>ON: san</i>",
+                      "mnemonic": "Drei Striche = Drei.",
+                      "examples": [
+                          {
+                              "t": "Eins, zwei, drei — <b>三</b> hat drei Striche.",
+                              "n": "Logisch, oder?"
+                          },
+                          {
+                              "t": "san = 3",
+                              "n": "Japanisch zählen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_shi_yon",
+                      "isLetter": true,
+                      "letter": "四",
+                      "word": "四",
+                      "emoji": "4️⃣",
+                      "phonetic": "/shi/ oder /yon/",
+                      "translation": "Vier — <b>四</b> sieht aus wie ein Fenster mit Vorhang. <i>ON: shi, KUN: yon</i>",
+                      "mnemonic": "Ein Fenster mit einem Vorhang in der Mitte = Vier.",
+                      "examples": [
+                          {
+                              "t": "<b>四</b> = ein Fenster mit Vorhang.",
+                              "n": "Bildliche Hilfe."
+                          },
+                          {
+                              "t": "shi (unglücklich) → yon ist üblicher.",
+                              "n": "shi klingt wie Tod (死)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_go",
+                      "isLetter": true,
+                      "letter": "五",
+                      "word": "五",
+                      "emoji": "5️⃣",
+                      "phonetic": "/go/",
+                      "translation": "Fünf — <b>五</b> sieht aus wie eine 5 mit Hut. <i>ON: go</i>",
+                      "mnemonic": "Oben ein Hut, unten ein Haken — wie eine 5.",
+                      "examples": [
+                          {
+                              "t": "<b>五</b> = 5 mit Hut.",
+                              "n": "Einfache Eselsbrücke."
+                          },
+                          {
+                              "t": "go = 5",
+                              "n": "Kurz und prägnant."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_roku",
+                      "isLetter": true,
+                      "letter": "六",
+                      "word": "六",
+                      "emoji": "6️⃣",
+                      "phonetic": "/roku/",
+                      "translation": "Sechs — <b>六</b> sieht aus wie zwei Beine, die nach unten zeigen. <i>ON: roku</i>",
+                      "mnemonic": "Zwei Beine (oben) und zwei Füße (unten) = Sechs.",
+                      "examples": [
+                          {
+                              "t": "<b>六</b> = zwei Beine.",
+                              "n": "Wie eine stehende Person."
+                          },
+                          {
+                              "t": "roku = 6",
+                              "n": "Roku ist leicht zu merken."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_shichi_nana",
+                      "isLetter": true,
+                      "letter": "七",
+                      "word": "七",
+                      "emoji": "7️⃣",
+                      "phonetic": "/shichi/ oder /nana/",
+                      "translation": "Sieben — <b>七</b> ist ein Strich mit einem Haken, wie eine 7. <i>ON: shichi, KUN: nana</i>",
+                      "mnemonic": "Ein langer Strich mit kurzem Haken = 7.",
+                      "examples": [
+                          {
+                              "t": "<b>七</b> sieht aus wie eine 7.",
+                              "n": "Fast identisch."
+                          },
+                          {
+                              "t": "shichi (formell) / nana (alltäglich)",
+                              "n": "Beides bedeutet 7."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_hachi",
+                      "isLetter": true,
+                      "letter": "八",
+                      "word": "八",
+                      "emoji": "8️⃣",
+                      "phonetic": "/hachi/",
+                      "translation": "Acht — <b>八</b> sieht aus wie zwei Beine, die auseinandergehen. <i>ON: hachi</i>",
+                      "mnemonic": "Zwei Beine, die sich öffnen = 8 (wie eine Acht, die aufbricht).",
+                      "examples": [
+                          {
+                              "t": "<b>八</b> = zwei Beine, die auseinandergehen.",
+                              "n": "Wie beim Spagat."
+                          },
+                          {
+                              "t": "hachi = 8",
+                              "n": "Hachi ist leicht zu merken."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_ku_kyuu",
+                      "isLetter": true,
+                      "letter": "九",
+                      "word": "九",
+                      "emoji": "9️⃣",
+                      "phonetic": "/ku/ oder /kyuu/",
+                      "translation": "Neun — <b>九</b> sieht aus wie eine 9 mit gebogenem Schwanz. <i>ON: ku/kyuu</i>",
+                      "mnemonic": "Eine 9, die sich umdreht.",
+                      "examples": [
+                          {
+                              "t": "<b>九</b> = 9 mit Schwanz.",
+                              "n": "Der Haken unten."
+                          },
+                          {
+                              "t": "kyuu = 9",
+                              "n": "Kyuu ist die übliche Lesung."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_juu",
+                      "isLetter": true,
+                      "letter": "十",
+                      "word": "十",
+                      "emoji": "🔟",
+                      "phonetic": "/juu/",
+                      "translation": "Zehn — <b>十</b> ist ein Kreuz, wie ein Pluszeichen. <i>ON: juu</i>",
+                      "mnemonic": "Ein Kreuz = zehn (römisch X ähnelt einem Kreuz).",
+                      "examples": [
+                          {
+                              "t": "<b>十</b> = Pluszeichen = 10.",
+                              "n": "Einfach und einprägsam."
+                          },
+                          {
+                              "t": "juu = 10",
+                              "n": "juu ist kurz."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_nichi_bi_hi",
+                      "isLetter": true,
+                      "letter": "日",
+                      "word": "日",
+                      "emoji": "☀️",
+                      "phonetic": "/nichi/ /bi/ /hi/",
+                      "translation": "Sonne / Tag — <b>日</b> ist ein Rechteck mit einem Strich in der Mitte, wie ein Fenster zur Sonne. <i>ON: nichi, KUN: hi/bi</i>",
+                      "mnemonic": "Ein Fenster, durch das die Sonne scheint.",
+                      "examples": [
+                          {
+                              "t": "<b>日</b> = Sonne im Fenster.",
+                              "n": "Bildliche Vorstellung."
+                          },
+                          {
+                              "t": "nichi = Tag, hi = Sonne",
+                              "n": "Zwei Lesungen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_gatsu_tsuki",
+                      "isLetter": true,
+                      "letter": "月",
+                      "word": "月",
+                      "emoji": "🌙",
+                      "phonetic": "/gatsu/ /tsuki/",
+                      "translation": "Mond / Monat — <b>月</b> sieht aus wie ein Halbmond. <i>ON: gatsu, KUN: tsuki</i>",
+                      "mnemonic": "Ein Halbmond mit zwei Strichen = Mond.",
+                      "examples": [
+                          {
+                              "t": "<b>月</b> = Halbmond.",
+                              "n": "Die Form erinnert an den Mond."
+                          },
+                          {
+                              "t": "tsuki = Mond, gatsu = Monat",
+                              "n": "Zwei Lesungen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_ka",
+                      "isLetter": true,
+                      "letter": "火",
+                      "word": "火",
+                      "emoji": "🔥",
+                      "phonetic": "/ka/",
+                      "translation": "Feuer — <b>火</b> sieht aus wie eine Flamme mit zwei Seitenarmen. <i>ON: ka</i>",
+                      "mnemonic": "Eine Flamme, die nach oben züngelt.",
+                      "examples": [
+                          {
+                              "t": "<b>火</b> = Flamme.",
+                              "n": "Die Striche sind die Flammen."
+                          },
+                          {
+                              "t": "ka = Feuer",
+                              "n": "Auch in 火曜日 (Dienstag)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_sui",
+                      "isLetter": true,
+                      "letter": "水",
+                      "word": "水",
+                      "emoji": "💧",
+                      "phonetic": "/sui/",
+                      "translation": "Wasser — <b>水</b> sieht aus wie ein Fluss mit Tropfen. <i>ON: sui</i>",
+                      "mnemonic": "Wasser tropft von einer Klippe.",
+                      "examples": [
+                          {
+                              "t": "<b>水</b> = Wasser, das tropft.",
+                              "n": "Die Striche sind Tropfen."
+                          },
+                          {
+                              "t": "sui = Wasser",
+                              "n": "Auch in 水曜日 (Mittwoch)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_moku",
+                      "isLetter": true,
+                      "letter": "木",
+                      "word": "木",
+                      "emoji": "🌳",
+                      "phonetic": "/moku/",
+                      "translation": "Baum — <b>木</b> sieht aus wie ein Baum mit Stamm und Ästen. <i>ON: moku, KUN: ki</i>",
+                      "mnemonic": "Ein Baum mit Wurzeln und Ästen.",
+                      "examples": [
+                          {
+                              "t": "<b>木</b> = Baum.",
+                              "n": "Mittelstrich ist der Stamm."
+                          },
+                          {
+                              "t": "ki = Baum",
+                              "n": "Auch in 木曜日 (Donnerstag)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kin",
+                      "isLetter": true,
+                      "letter": "金",
+                      "word": "金",
+                      "emoji": "💰",
+                      "phonetic": "/kin/",
+                      "translation": "Gold — <b>金</b> sieht aus wie ein Schatz unter einem Dach. <i>ON: kin</i>",
+                      "mnemonic": "Gold unter einem Dach (Schatzkiste).",
+                      "examples": [
+                          {
+                              "t": "<b>金</b> = Gold im Haus.",
+                              "n": "Das Dach oben."
+                          },
+                          {
+                              "t": "kin = Gold",
+                              "n": "Auch in 金曜日 (Freitag)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_do",
+                      "isLetter": true,
+                      "letter": "土",
+                      "word": "土",
+                      "emoji": "🪨",
+                      "phonetic": "/do/",
+                      "translation": "Erde — <b>土</b> sieht aus wie ein Grab oder ein Hügel. <i>ON: do, KUN: tsuchi</i>",
+                      "mnemonic": "Ein Hügel mit einem Kreuz oben.",
+                      "examples": [
+                          {
+                              "t": "<b>土</b> = Erde.",
+                              "n": "Wie ein kleiner Hügel."
+                          },
+                          {
+                              "t": "tsuchi = Erde",
+                              "n": "Auch in 土曜日 (Samstag)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_hito_jin",
+                      "isLetter": true,
+                      "letter": "人",
+                      "word": "人",
+                      "emoji": "🚶",
+                      "phonetic": "/hito/ /jin/",
+                      "translation": "Person — <b>人</b> sieht aus wie eine Person mit zwei Beinen. <i>KUN: hito, ON: jin</i>",
+                      "mnemonic": "Zwei Beine, die gehen.",
+                      "examples": [
+                          {
+                              "t": "<b>人</b> = eine Person.",
+                              "n": "Die Striche sind Beine."
+                          },
+                          {
+                              "t": "hito = Person, jin = Mensch",
+                              "n": "Zwei Lesungen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_yama_san",
+                      "isLetter": true,
+                      "letter": "山",
+                      "word": "山",
+                      "emoji": "⛰️",
+                      "phonetic": "/yama/ /san/",
+                      "translation": "Berg — <b>山</b> sieht aus wie drei Berge. <i>KUN: yama, ON: san</i>",
+                      "mnemonic": "Drei Gipfel nebeneinander.",
+                      "examples": [
+                          {
+                              "t": "<b>山</b> = drei Berge.",
+                              "n": "Mittelgipfel ist höher."
+                          },
+                          {
+                              "t": "yama = Berg",
+                              "n": "Auch in 富士山 (Fuji)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_kawa",
+                      "isLetter": true,
+                      "letter": "川",
+                      "word": "川",
+                      "emoji": "🌊",
+                      "phonetic": "/kawa/",
+                      "translation": "Fluss — <b>川</b> sieht aus wie ein Fluss mit drei Armen. <i>KUN: kawa</i>",
+                      "mnemonic": "Drei Wellenlinien = Fluss.",
+                      "examples": [
+                          {
+                              "t": "<b>川</b> = Fluss.",
+                              "n": "Die Striche sind Wasser."
+                          },
+                          {
+                              "t": "kawa = Fluss",
+                              "n": "Wie in 川崎 (Kawasaki)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_dai_oo",
+                      "isLetter": true,
+                      "letter": "大",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "/dai/ /oo/",
+                      "translation": "Groß — <b>大</b> sieht aus wie eine Person mit ausgestreckten Armen. <i>ON: dai, KUN: oo</i>",
+                      "mnemonic": "Eine Person, die die Arme weit ausstreckt = groß.",
+                      "examples": [
+                          {
+                              "t": "<b>大</b> = große Person.",
+                              "n": "Arme weit offen."
+                          },
+                          {
+                              "t": "ookii = groß",
+                              "n": "Adjektivform."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_L_shou_ko",
+                      "isLetter": true,
+                      "letter": "小",
+                      "word": "小",
+                      "emoji": "🐭",
+                      "phonetic": "/shou/ /ko/",
+                      "translation": "Klein — <b>小</b> sieht aus wie eine kleine Person mit gesenkten Armen. <i>ON: shou, KUN: ko</i>",
+                      "mnemonic": "Eine Person, die die Arme senkt = klein.",
+                      "examples": [
+                          {
+                              "t": "<b>小</b> = kleine Person.",
+                              "n": "Arme nach unten."
+                          },
+                          {
+                              "t": "chiisai = klein",
+                              "n": "Adjektivform."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_01",
+                      "isLetter": false,
+                      "letter": "一",
+                      "word": "一人",
+                      "emoji": "🧍",
+                      "phonetic": "/hitori/",
+                      "translation": "eine Person / allein — <b>一人</b> (hitori)",
+                      "translations": {
+                          "ja": "一人",
+                          "de": "eine Person",
+                          "en": "one person"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>一人</b>で行きます。",
+                              "n": "Ich gehe allein."
+                          },
+                          {
+                              "t": "一人は寂しいです。",
+                              "n": "Allein zu sein ist einsam."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_02",
+                      "isLetter": false,
+                      "letter": "日",
+                      "word": "日本",
+                      "emoji": "🇯🇵",
+                      "phonetic": "/nihon/",
+                      "translation": "Japan — <b>日本</b> (nihon)",
+                      "translations": {
+                          "ja": "日本",
+                          "de": "Japan",
+                          "en": "Japan"
+                      },
+                      "examples": [
+                          {
+                              "t": "私は<b>日本</b>人です。",
+                              "n": "Ich bin Japaner."
+                          },
+                          {
+                              "t": "<b>日本</b>が好きです。",
+                              "n": "Ich mag Japan."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_03",
+                      "isLetter": false,
+                      "letter": "月",
+                      "word": "月曜日",
+                      "emoji": "📅",
+                      "phonetic": "/getsuyoubi/",
+                      "translation": "Montag — <b>月曜日</b> (getsuyoubi)",
+                      "translations": {
+                          "ja": "月曜日",
+                          "de": "Montag",
+                          "en": "Monday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>月曜日</b>に働きます。",
+                              "n": "Am Montag arbeite ich."
+                          },
+                          {
+                              "t": "今日は<b>月曜日</b>です。",
+                              "n": "Heute ist Montag."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_04",
+                      "isLetter": false,
+                      "letter": "火",
+                      "word": "火曜日",
+                      "emoji": "🔥",
+                      "phonetic": "/kayoubi/",
+                      "translation": "Dienstag — <b>火曜日</b> (kayoubi)",
+                      "translations": {
+                          "ja": "火曜日",
+                          "de": "Dienstag",
+                          "en": "Tuesday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>火曜日</b>に会いましょう。",
+                              "n": "Treffen wir uns am Dienstag."
+                          },
+                          {
+                              "t": "火曜日は忙しいです。",
+                              "n": "Dienstag ist beschäftigt."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_05",
+                      "isLetter": false,
+                      "letter": "水",
+                      "word": "水曜日",
+                      "emoji": "💧",
+                      "phonetic": "/suiyoubi/",
+                      "translation": "Mittwoch — <b>水曜日</b> (suiyoubi)",
+                      "translations": {
+                          "ja": "水曜日",
+                          "de": "Mittwoch",
+                          "en": "Wednesday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>水曜日</b>に休みます。",
+                              "n": "Am Mittwoch ruhe ich mich aus."
+                          },
+                          {
+                              "t": "水曜日はテストです。",
+                              "n": "Mittwoch ist der Test."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_06",
+                      "isLetter": false,
+                      "letter": "木",
+                      "word": "木曜日",
+                      "emoji": "🌳",
+                      "phonetic": "/mokuyoubi/",
+                      "translation": "Donnerstag — <b>木曜日</b> (mokuyoubi)",
+                      "translations": {
+                          "ja": "木曜日",
+                          "de": "Donnerstag",
+                          "en": "Thursday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>木曜日</b>に勉強します。",
+                              "n": "Am Donnerstag lerne ich."
+                          },
+                          {
+                              "t": "木曜日は暇です。",
+                              "n": "Donnerstag bin ich frei."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_07",
+                      "isLetter": false,
+                      "letter": "金",
+                      "word": "金曜日",
+                      "emoji": "💰",
+                      "phonetic": "/kinyoubi/",
+                      "translation": "Freitag — <b>金曜日</b> (kinyoubi)",
+                      "translations": {
+                          "ja": "金曜日",
+                          "de": "Freitag",
+                          "en": "Friday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>金曜日</b>にパーティーがあります。",
+                              "n": "Am Freitag ist eine Party."
+                          },
+                          {
+                              "t": "金曜日が楽しみです。",
+                              "n": "Ich freue mich auf Freitag."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_08",
+                      "isLetter": false,
+                      "letter": "土",
+                      "word": "土曜日",
+                      "emoji": "🪨",
+                      "phonetic": "/doyoubi/",
+                      "translation": "Samstag — <b>土曜日</b> (doyoubi)",
+                      "translations": {
+                          "ja": "土曜日",
+                          "de": "Samstag",
+                          "en": "Saturday"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>土曜日</b>に買い物に行きます。",
+                              "n": "Am Samstag gehe ich einkaufen."
+                          },
+                          {
+                              "t": "土曜日は休みです。",
+                              "n": "Samstag ist frei."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_09",
+                      "isLetter": false,
+                      "letter": "人",
+                      "word": "外国人",
+                      "emoji": "🌍",
+                      "phonetic": "/gaikokujin/",
+                      "translation": "Ausländer — <b>外国人</b> (gaikokujin)",
+                      "translations": {
+                          "ja": "外国人",
+                          "de": "Ausländer",
+                          "en": "foreigner"
+                      },
+                      "examples": [
+                          {
+                              "t": "私は<b>外国人</b>です。",
+                              "n": "Ich bin Ausländer."
+                          },
+                          {
+                              "t": "<b>外国人</b>が多いです。",
+                              "n": "Es gibt viele Ausländer."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_10",
+                      "isLetter": false,
+                      "letter": "山",
+                      "word": "富士山",
+                      "emoji": "🗻",
+                      "phonetic": "/fujisan/",
+                      "translation": "Fuji-Berg — <b>富士山</b> (fujisan)",
+                      "translations": {
+                          "ja": "富士山",
+                          "de": "Fuji-Berg",
+                          "en": "Mount Fuji"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>富士山</b>は高いです。",
+                              "n": "Der Fuji ist hoch."
+                          },
+                          {
+                              "t": "<b>富士山</b>を見たいです。",
+                              "n": "Ich möchte den Fuji sehen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_11",
+                      "isLetter": false,
+                      "letter": "川",
+                      "word": "川",
+                      "emoji": "🏞️",
+                      "phonetic": "/kawa/",
+                      "translation": "Fluss — <b>川</b> (kawa)",
+                      "translations": {
+                          "ja": "川",
+                          "de": "Fluss",
+                          "en": "river"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>川</b>で泳ぎます。",
+                              "n": "Ich schwimme im Fluss."
+                          },
+                          {
+                              "t": "この<b>川</b>は長いです。",
+                              "n": "Dieser Fluss ist lang."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_12",
+                      "isLetter": false,
+                      "letter": "大",
+                      "word": "大きい",
+                      "emoji": "🐘",
+                      "phonetic": "/ookii/",
+                      "translation": "groß — <b>大きい</b> (ookii)",
+                      "translations": {
+                          "ja": "大きい",
+                          "de": "groß",
+                          "en": "big"
+                      },
+                      "examples": [
+                          {
+                              "t": "この家は<b>大きい</b>です。",
+                              "n": "Dieses Haus ist groß."
+                          },
+                          {
+                              "t": "<b>大きい</b>犬がいます。",
+                              "n": "Ich habe einen großen Hund."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ja_a0_g5_13",
+                      "isLetter": false,
+                      "letter": "小",
+                      "word": "小さい",
+                      "emoji": "🐭",
+                      "phonetic": "/chiisai/",
+                      "translation": "klein — <b>小さい</b> (chiisai)",
+                      "translations": {
+                          "ja": "小さい",
+                          "de": "klein",
+                          "en": "small"
+                      },
+                      "examples": [
+                          {
+                              "t": "猫は<b>小さい</b>です。",
+                              "n": "Die Katze ist klein."
+                          },
+                          {
+                              "t": "<b>小さい</b>町に住んでいます。",
+                              "n": "Ich wohne in einer kleinen Stadt."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
   // JA_EN
   // ──────────────────────────────────────────────────────
   ja_en: {
@@ -19507,6 +22340,4763 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
+  // RU_DE
+  // ──────────────────────────────────────────────────────
+  ru_de: {
+      "level": "A0",
+      "levelName": "El alfabeto cirílico",
+      "groups": [
+          {
+              "id": "ru_a0_g1",
+              "name": "Letras parecidas al latín",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "А Е О М Т К В Н Р С — entrada fácil al cirílico",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ru_a0_g1_L_а",
+                      "isLetter": true,
+                      "letter": "А",
+                      "word": "А",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "A wie im deutschen „<i>Apfel</i>“ – klingt wie das deutsche <b>A</b>.",
+                      "mnemonic": "Sieht genauso aus wie das lateinische A – einfach übernehmen!",
+                      "examples": [
+                          {
+                              "t": "<b>А</b> ist identisch mit dem lateinischen <b>A</b>.<br>Beispiel: <b>мама</b> (Mama)",
+                              "n": "Das A ist ein Buchstabe, den du schon kennst."
+                          },
+                          {
+                              "t": "Sprich <b>А</b> wie in <span class='hl'>„Apfel“</span> – kurz und klar.",
+                              "n": "Klang wie im Deutschen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_е",
+                      "isLetter": true,
+                      "letter": "Е",
+                      "word": "Е",
+                      "emoji": "🔤",
+                      "phonetic": "/je/",
+                      "translation": "Sieht wie ein lateinisches <b>E</b> aus, klingt aber wie <b>„JE“</b> (wie in <i>„Jetzt“</i>).",
+                      "mnemonic": "Das E hat einen heimlichen <span class='hl'>J-Anlaut</span> – denk an „Joghurt“.",
+                      "examples": [
+                          {
+                              "t": "<b>Е</b> klingt wie <i>„je“</i> – Beispiel: <b>нет</b> (njet = nein)",
+                              "n": "Das Wort „нет“ beginnt mit dem Laut „nje“."
+                          },
+                          {
+                              "t": "Wo ist das? – <b>где</b> (gde = wo)",
+                              "n": "Achtung: Das E wird hier als „je“ gesprochen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_о",
+                      "isLetter": true,
+                      "letter": "О",
+                      "word": "О",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Wie das deutsche <b>O</b> – zum Beispiel in <i>„Ofen“</i>.",
+                      "mnemonic": "Ein perfekter Kreis – denk an die Sonne, die <span class='hl'>O</span> heißt.",
+                      "examples": [
+                          {
+                              "t": "<b>О</b> ist wie ein Kreis – Beispiel: <b>он</b> (er)",
+                              "n": "Das O ist ein runder Buchstabe."
+                          },
+                          {
+                              "t": "Sie – <b>она</b> (ona)",
+                              "n": "Das O kommt zweimal vor."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_м",
+                      "isLetter": true,
+                      "letter": "М",
+                      "word": "М",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Wie das deutsche <b>M</b> – zum Beispiel in <i>„Mama“</i>.",
+                      "mnemonic": "Sieht aus wie ein Berg mit zwei Gipfeln – <span class='hl'>M</span> wie „Mama“.",
+                      "examples": [
+                          {
+                              "t": "<b>М</b> wie in <b>мир</b> (Frieden/Welt)",
+                              "n": "Das M ist ein vertrauter Buchstabe."
+                          },
+                          {
+                              "t": "Mein – <b>мой</b> (moy)",
+                              "n": "Das M am Anfang."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_т",
+                      "isLetter": true,
+                      "letter": "Т",
+                      "word": "Т",
+                      "emoji": "🔤",
+                      "phonetic": "/t/",
+                      "translation": "Wie das deutsche <b>T</b> – zum Beispiel in <i>„Tag“</i>.",
+                      "mnemonic": "Ein T wie ein Tisch – <span class='hl'>T</span> wie „Tee“.",
+                      "examples": [
+                          {
+                              "t": "<b>Т</b> wie in <b>ты</b> (du)",
+                              "n": "Das T ist ein harter Konsonant."
+                          },
+                          {
+                              "t": "Dort – <b>там</b> (tam)",
+                              "n": "Das T am Anfang."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_к",
+                      "isLetter": true,
+                      "letter": "К",
+                      "word": "К",
+                      "emoji": "🔤",
+                      "phonetic": "/k/",
+                      "translation": "Wie das deutsche <b>K</b> – zum Beispiel in <i>„Kuh“</i>.",
+                      "mnemonic": "Sieht aus wie ein K mit einem zusätzlichen Strich – <span class='hl'>K</span> wie „Kuh“.",
+                      "examples": [
+                          {
+                              "t": "<b>К</b> wie in <b>как</b> (wie)",
+                              "n": "Das K ist ein harter Konsonant."
+                          },
+                          {
+                              "t": "Wer – <b>кто</b> (kto)",
+                              "n": "Das K am Anfang."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_в",
+                      "isLetter": true,
+                      "letter": "В",
+                      "word": "В",
+                      "emoji": "🔤",
+                      "phonetic": "/v/",
+                      "translation": "Sieht wie ein lateinisches <b>B</b> aus, klingt aber wie ein deutsches <b>W</b> (in <i>„Wasser“</i>).",
+                      "mnemonic": "Das <span class='hl'>B</span> hat sich umgedreht – jetzt sprich es als <b>W</b>.",
+                      "examples": [
+                          {
+                              "t": "<b>В</b> klingt wie ein W – Beispiel: <b>вода</b> (Wasser)",
+                              "n": "Achtung: Nicht wie B sprechen!"
+                          },
+                          {
+                              "t": "Hier ist – <b>вот</b> (vot)",
+                              "n": "Das В am Anfang."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_н",
+                      "isLetter": true,
+                      "letter": "Н",
+                      "word": "Н",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Sieht wie ein lateinisches <b>H</b> aus, klingt aber wie ein deutsches <b>N</b> (in <i>„Nase“</i>).",
+                      "mnemonic": "Das <span class='hl'>H</span> hat einen Querstrich – denk an „H“ für „Halt“, aber sprich <b>N</b>.",
+                      "examples": [
+                          {
+                              "t": "<b>Н</b> klingt wie ein N – Beispiel: <b>но</b> (aber)",
+                              "n": "Das Н sieht wie ein H aus."
+                          },
+                          {
+                              "t": "Nein – <b>нет</b> (njet)",
+                              "n": "Das Н am Anfang."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_р",
+                      "isLetter": true,
+                      "letter": "Р",
+                      "word": "Р",
+                      "emoji": "🔤",
+                      "phonetic": "/r/",
+                      "translation": "Sieht wie ein lateinisches <b>P</b> aus, klingt aber wie ein gerolltes <b>R</b> (wie im Spanischen).",
+                      "mnemonic": "Das <span class='hl'>P</span> hat einen Bauch – aber es ist ein <b>R</b>!",
+                      "examples": [
+                          {
+                              "t": "<b>Р</b> klingt wie ein gerolltes R – Beispiel: <b>Россия</b> (Russland)",
+                              "n": "Das Р sieht wie ein P aus."
+                          },
+                          {
+                              "t": "Froh – <b>рад</b> (rad)",
+                              "n": "Das Р am Anfang."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_с",
+                      "isLetter": true,
+                      "letter": "С",
+                      "word": "С",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Sieht wie ein lateinisches <b>C</b> aus, klingt aber wie ein deutsches <b>S</b> (in <i>„Sonne“</i>).",
+                      "mnemonic": "Das <span class='hl'>C</span> hat keine Spitze – es ist ein <b>S</b>.",
+                      "examples": [
+                          {
+                              "t": "<b>С</b> klingt wie ein S – Beispiel: <b>сон</b> (Traum)",
+                              "n": "Das С sieht wie ein C aus."
+                          },
+                          {
+                              "t": "Saft – <b>сок</b> (sok)",
+                              "n": "Das С am Anfang."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "А",
+                      "word": "мама",
+                      "emoji": "👩‍👧",
+                      "phonetic": "/ˈmamə/",
+                      "translation": "Mama – <b>мама</b> ist wie im Deutschen.",
+                      "translations": {
+                          "ru": "мама",
+                          "de": "Mama",
+                          "en": "mom"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мама</b> дома.",
+                              "n": "Mama ist zu Hause."
+                          },
+                          {
+                              "t": "Это <b>мама</b>.",
+                              "n": "Das ist Mama."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "нет",
+                      "emoji": "🙅",
+                      "phonetic": "/nʲet/",
+                      "translation": "nein – <b>нет</b> (sprich: <i>njet</i>)",
+                      "translations": {
+                          "ru": "нет",
+                          "de": "nein",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "Nein, danke."
+                          },
+                          {
+                              "t": "Это не так – <b>нет</b>.",
+                              "n": "Das ist nicht so – nein."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "er – <b>он</b>",
+                      "translations": {
+                          "ru": "он",
+                          "de": "er",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> дома.",
+                              "n": "Er ist zu Hause."
+                          },
+                          {
+                              "t": "<b>Он</b> работает.",
+                              "n": "Er arbeitet."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мир",
+                      "emoji": "🕊️",
+                      "phonetic": "/mʲir/",
+                      "translation": "Frieden / Welt – <b>мир</b>",
+                      "translations": {
+                          "ru": "мир",
+                          "de": "Frieden/Welt",
+                          "en": "peace/world"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы хотим <b>мир</b>.",
+                              "n": "Wir wollen Frieden."
+                          },
+                          {
+                              "t": "Весь <b>мир</b>.",
+                              "n": "Die ganze Welt."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "du – <b>ты</b>",
+                      "translations": {
+                          "ru": "ты",
+                          "de": "du",
+                          "en": "you (singular)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> здесь.",
+                              "n": "Du bist hier."
+                          },
+                          {
+                              "t": "Как <b>ты</b>?",
+                              "n": "Wie geht es dir?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "кто",
+                      "emoji": "❓",
+                      "phonetic": "/kto/",
+                      "translation": "wer – <b>кто</b>",
+                      "translations": {
+                          "ru": "кто",
+                          "de": "wer",
+                          "en": "who"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Кто</b> это?",
+                              "n": "Wer ist das?"
+                          },
+                          {
+                              "t": "<b>Кто</b> дома?",
+                              "n": "Wer ist zu Hause?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "В",
+                      "word": "вода",
+                      "emoji": "💧",
+                      "phonetic": "/vɐˈda/",
+                      "translation": "Wasser – <b>вода</b>",
+                      "translations": {
+                          "ru": "вода",
+                          "de": "Wasser",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>воду</b>.",
+                              "n": "Ich trinke Wasser."
+                          },
+                          {
+                              "t": "<b>Вода</b> холодная.",
+                              "n": "Das Wasser ist kalt."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "Н",
+                      "word": "но",
+                      "emoji": "🔄",
+                      "phonetic": "/no/",
+                      "translation": "aber – <b>но</b>",
+                      "translations": {
+                          "ru": "но",
+                          "de": "aber",
+                          "en": "but"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я хочу, <b>но</b> не могу.",
+                              "n": "Ich will, aber ich kann nicht."
+                          },
+                          {
+                              "t": "<b>Но</b> это дорого.",
+                              "n": "Aber das ist teuer."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "Россия",
+                      "emoji": "🇷🇺",
+                      "phonetic": "/rɐˈsʲijə/",
+                      "translation": "Russland – <b>Россия</b>",
+                      "translations": {
+                          "ru": "Россия",
+                          "de": "Russland",
+                          "en": "Russia"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я люблю <b>Россию</b>.",
+                              "n": "Ich liebe Russland."
+                          },
+                          {
+                              "t": "<b>Россия</b> большая.",
+                              "n": "Russland ist groß."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сок",
+                      "emoji": "🧃",
+                      "phonetic": "/sok/",
+                      "translation": "Saft – <b>сок</b>",
+                      "translations": {
+                          "ru": "сок",
+                          "de": "Saft",
+                          "en": "juice"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>сок</b>.",
+                              "n": "Ich trinke Saft."
+                          },
+                          {
+                              "t": "Это яблочный <b>сок</b>.",
+                              "n": "Das ist Apfelsaft."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g2",
+              "name": "Letras nuevas — sonidos conocidos",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "Б Г Д З И Л П Ф Э Ю Я — formas nuevas, sonidos familiares",
+              "reviewFrom": [
+                  "ru_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "Б",
+                      "word": "Б",
+                      "emoji": "🔤",
+                      "phonetic": "/b/",
+                      "translation": "Buchstabe <b>Б</b> – klingt wie ein weiches <b>B</b> (wie in <i>Brot</i>)",
+                      "mnemonic": "Sieht aus wie ein <span class='hl'>B</span> mit einem kleinen Schrank darunter – denk an ein Bücherregal.",
+                      "examples": [
+                          {
+                              "t": "Это <b>брат</b>. – Das ist der Bruder.",
+                              "n": "брат = Bruder"
+                          },
+                          {
+                              "t": "Я иду в <b>банк</b>. – Ich gehe zur Bank.",
+                              "n": "банк = Bank"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "Г",
+                      "word": "Г",
+                      "emoji": "🔤",
+                      "phonetic": "/g/",
+                      "translation": "Buchstabe <b>Г</b> – klingt wie ein hartes <b>G</b> (wie in <i>Garten</i>)",
+                      "mnemonic": "Sieht aus wie ein umgedrehtes <span class='hl'>L</span> oder ein Haken – denk an einen Golfschläger.",
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет? – Wo ist die Toilette?",
+                              "n": "где = wo"
+                          },
+                          {
+                              "t": "Какой сейчас <b>год</b>? – Welches Jahr ist jetzt?",
+                              "n": "год = Jahr"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "Д",
+                      "word": "Д",
+                      "emoji": "🔤",
+                      "phonetic": "/d/",
+                      "translation": "Buchstabe <b>Д</b> – klingt wie ein <b>D</b> (wie in <i>Dach</i>)",
+                      "mnemonic": "Sieht aus wie ein Haus mit einem Dach – und <span class='hl'>дом</span> heißt Haus.",
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я понимаю. – Ja, ich verstehe.",
+                              "n": "да = ja"
+                          },
+                          {
+                              "t": "Это мой <b>дом</b>. – Das ist mein Haus.",
+                              "n": "дом = Haus"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "З",
+                      "word": "З",
+                      "emoji": "🔤",
+                      "phonetic": "/z/",
+                      "translation": "Buchstabe <b>З</b> – klingt wie ein stimmhaftes <b>S</b> (wie in <i>Rose</i>)",
+                      "mnemonic": "Sieht aus wie eine <span class='hl'>3</span> – und die 3 sieht aus wie ein S, aber mit Stimme.",
+                      "examples": [
+                          {
+                              "t": "<b>Завтра</b> я пойду в парк. – Morgen gehe ich in den Park.",
+                              "n": "завтра = morgen"
+                          },
+                          {
+                              "t": "Я люблю <b>зиму</b>. – Ich liebe den Winter.",
+                              "n": "зима = Winter"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_i",
+                      "isLetter": true,
+                      "letter": "И",
+                      "word": "И",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "Buchstabe <b>И</b> – klingt wie ein <b>I</b> (wie in <i>Igel</i>)",
+                      "mnemonic": "Sieht aus wie ein umgedrehtes <span class='hl'>N</span> – und klingt wie das deutsche 'i'.",
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе? – Tee oder Kaffee?",
+                              "n": "или = oder"
+                          },
+                          {
+                              "t": "Меня зовут Анна, а <b>имя</b> тебя? – Ich heiße Anna, und wie ist dein Name?",
+                              "n": "имя = Name"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "Л",
+                      "word": "Л",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "Buchstabe <b>Л</b> – klingt wie ein <b>L</b> (wie in <i>Liebe</i>)",
+                      "mnemonic": "Sieht aus wie ein Zelt oder ein <span class='hl'>L</span> mit einem Bein – denk an ein Lagerfeuer.",
+                      "examples": [
+                          {
+                              "t": "Я живу в <b>лесу</b>. – Ich wohne im Wald.",
+                              "n": "лес = Wald"
+                          },
+                          {
+                              "t": "Я люблю <b>людей</b>. – Ich liebe Menschen.",
+                              "n": "люди = Menschen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "П",
+                      "word": "П",
+                      "emoji": "🔤",
+                      "phonetic": "/p/",
+                      "translation": "Buchstabe <b>П</b> – klingt wie ein <b>P</b> (wie in <i>Park</i>)",
+                      "mnemonic": "Sieht aus wie ein Tor oder ein <span class='hl'>π</span> – denk an Pi, aber mit einem Bein.",
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>парк</b>. – Ich gehe in den Park.",
+                              "n": "парк = Park"
+                          },
+                          {
+                              "t": "<b>Привет</b>, как дела? – Hallo, wie geht's?",
+                              "n": "привет = hallo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "Ф",
+                      "word": "Ф",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Buchstabe <b>Ф</b> – klingt wie ein <b>F</b> (wie in <i>Foto</i>)",
+                      "mnemonic": "Sieht aus wie ein <span class='hl'>F</span> mit einem Bauch – denk an eine Fahne.",
+                      "examples": [
+                          {
+                              "t": "Это моё <b>фото</b>. – Das ist mein Foto.",
+                              "n": "фото = Foto"
+                          },
+                          {
+                              "t": "Это <b>факт</b>. – Das ist eine Tatsache.",
+                              "n": "факт = Fakt"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_e",
+                      "isLetter": true,
+                      "letter": "Э",
+                      "word": "Э",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "Buchstabe <b>Э</b> – klingt wie ein offenes <b>E</b> (wie in <i>Ende</i>, ohne 'j'-Laut)",
+                      "mnemonic": "Sieht aus wie ein <span class='hl'>E</span> mit dem Rücken nach links – denk an ein Echo.",
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> книга. – Das ist ein Buch.",
+                              "n": "это = das ist"
+                          },
+                          {
+                              "t": "На каком <b>этаже</b> ты живёшь? – In welchem Stock wohnst du?",
+                              "n": "этаж = Stockwerk"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_yu",
+                      "isLetter": true,
+                      "letter": "Ю",
+                      "word": "Ю",
+                      "emoji": "🔤",
+                      "phonetic": "/ju/",
+                      "translation": "Buchstabe <b>Ю</b> – klingt wie <b>ju</b> (wie in <i>Jugend</i>)",
+                      "mnemonic": "Sieht aus wie ein <span class='hl'>IO</span> zusammengefügt – denk an 'you' auf Englisch.",
+                      "examples": [
+                          {
+                              "t": "Мы едем на <b>юг</b>. – Wir fahren in den Süden.",
+                              "n": "юг = Süden"
+                          },
+                          {
+                              "t": "Я тебя <b>люблю</b>. – Ich liebe dich.",
+                              "n": "люблю = ich liebe"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_ya",
+                      "isLetter": true,
+                      "letter": "Я",
+                      "word": "Я",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Buchstabe <b>Я</b> – klingt wie <b>ja</b> (wie in <i>Jacht</i>)",
+                      "mnemonic": "Sieht aus wie ein <span class='hl'>R</span> mit einem Bein – und klingt wie das deutsche 'ja'.",
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент. – Ich bin Student.",
+                              "n": "я = ich"
+                          },
+                          {
+                              "t": "Какой <b>язык</b> ты изучаешь? – Welche Sprache lernst du?",
+                              "n": "язык = Sprache/Zunge"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "Б",
+                      "word": "брат",
+                      "emoji": "👬",
+                      "phonetic": "/brat/",
+                      "translation": "Bruder",
+                      "translations": {
+                          "ru": "брат",
+                          "de": "Bruder",
+                          "en": "brother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>брат</b> дома. – Mein Bruder ist zu Hause.",
+                              "n": "брат = Bruder"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "Б",
+                      "word": "банк",
+                      "emoji": "🏦",
+                      "phonetic": "/bank/",
+                      "translation": "Bank (Geldinstitut)",
+                      "translations": {
+                          "ru": "банк",
+                          "de": "Bank",
+                          "en": "bank"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>банк</b>. – Ich gehe zur Bank.",
+                              "n": "банк = Bank"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "Г",
+                      "word": "где",
+                      "emoji": "❓",
+                      "phonetic": "/gdʲe/",
+                      "translation": "wo",
+                      "translations": {
+                          "ru": "где",
+                          "de": "wo",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> ты? – Wo bist du?",
+                              "n": "где = wo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "Г",
+                      "word": "год",
+                      "emoji": "📅",
+                      "phonetic": "/got/",
+                      "translation": "Jahr",
+                      "translations": {
+                          "ru": "год",
+                          "de": "Jahr",
+                          "en": "year"
+                      },
+                      "examples": [
+                          {
+                              "t": "Какой сейчас <b>год</b>? – Welches Jahr ist jetzt?",
+                              "n": "год = Jahr"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "ja",
+                      "translations": {
+                          "ru": "да",
+                          "de": "ja",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, конечно. – Ja, natürlich.",
+                              "n": "да = ja"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "дом",
+                      "emoji": "🏠",
+                      "phonetic": "/dom/",
+                      "translation": "Haus",
+                      "translations": {
+                          "ru": "дом",
+                          "de": "Haus",
+                          "en": "house"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это мой <b>дом</b>. – Das ist mein Haus.",
+                              "n": "дом = Haus"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "З",
+                      "word": "завтра",
+                      "emoji": "🌅",
+                      "phonetic": "/ˈzaftrə/",
+                      "translation": "morgen (am nächsten Tag)",
+                      "translations": {
+                          "ru": "завтра",
+                          "de": "morgen",
+                          "en": "tomorrow"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Завтра</b> я пойду в парк. – Morgen gehe ich in den Park.",
+                              "n": "завтра = morgen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "З",
+                      "word": "зима",
+                      "emoji": "❄️",
+                      "phonetic": "/zʲɪˈma/",
+                      "translation": "Winter",
+                      "translations": {
+                          "ru": "зима",
+                          "de": "Winter",
+                          "en": "winter"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я люблю <b>зиму</b>. – Ich liebe den Winter.",
+                              "n": "зима = Winter"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "И",
+                      "word": "или",
+                      "emoji": "🔀",
+                      "phonetic": "/ˈilʲi/",
+                      "translation": "oder",
+                      "translations": {
+                          "ru": "или",
+                          "de": "oder",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе? – Tee oder Kaffee?",
+                              "n": "или = oder"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "И",
+                      "word": "имя",
+                      "emoji": "📛",
+                      "phonetic": "/ˈimʲə/",
+                      "translation": "Name",
+                      "translations": {
+                          "ru": "имя",
+                          "de": "Name",
+                          "en": "name"
+                      },
+                      "examples": [
+                          {
+                              "t": "Какое твоё <b>имя</b>? – Wie ist dein Name?",
+                              "n": "имя = Name"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_11",
+                      "isLetter": false,
+                      "letter": "Л",
+                      "word": "лес",
+                      "emoji": "🌲",
+                      "phonetic": "/lʲes/",
+                      "translation": "Wald",
+                      "translations": {
+                          "ru": "лес",
+                          "de": "Wald",
+                          "en": "forest"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы гуляем в <b>лесу</b>. – Wir spazieren im Wald.",
+                              "n": "лес = Wald"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_12",
+                      "isLetter": false,
+                      "letter": "Л",
+                      "word": "люди",
+                      "emoji": "👥",
+                      "phonetic": "/ˈlʲʉdʲɪ/",
+                      "translation": "Leute, Menschen",
+                      "translations": {
+                          "ru": "люди",
+                          "de": "Leute",
+                          "en": "people"
+                      },
+                      "examples": [
+                          {
+                              "t": "На улице много <b>людей</b>. – Auf der Straße sind viele Leute.",
+                              "n": "люди = Leute"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_13",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "парк",
+                      "emoji": "🌳",
+                      "phonetic": "/park/",
+                      "translation": "Park",
+                      "translations": {
+                          "ru": "парк",
+                          "de": "Park",
+                          "en": "park"
+                      },
+                      "examples": [
+                          {
+                              "t": "Дети играют в <b>парке</b>. – Die Kinder spielen im Park.",
+                              "n": "парк = Park"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_14",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/prʲɪˈvʲet/",
+                      "translation": "Hallo (informell)",
+                      "translations": {
+                          "ru": "привет",
+                          "de": "Hallo",
+                          "en": "hi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>, как дела? – Hallo, wie geht's?",
+                              "n": "привет = hallo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_15",
+                      "isLetter": false,
+                      "letter": "Ф",
+                      "word": "фото",
+                      "emoji": "📷",
+                      "phonetic": "/ˈfotə/",
+                      "translation": "Foto",
+                      "translations": {
+                          "ru": "фото",
+                          "de": "Foto",
+                          "en": "photo"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это моё <b>фото</b>. – Das ist mein Foto.",
+                              "n": "фото = Foto"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_16",
+                      "isLetter": false,
+                      "letter": "Ф",
+                      "word": "факт",
+                      "emoji": "💡",
+                      "phonetic": "/fakt/",
+                      "translation": "Fakt, Tatsache",
+                      "translations": {
+                          "ru": "факт",
+                          "de": "Fakt",
+                          "en": "fact"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>факт</b>. – Das ist eine Tatsache.",
+                              "n": "факт = Fakt"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_17",
+                      "isLetter": false,
+                      "letter": "Э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/ˈɛtə/",
+                      "translation": "das (ist)",
+                      "translations": {
+                          "ru": "это",
+                          "de": "das",
+                          "en": "this/that"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> мой друг. – Das ist mein Freund.",
+                              "n": "это = das ist"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_18",
+                      "isLetter": false,
+                      "letter": "Э",
+                      "word": "этаж",
+                      "emoji": "🏢",
+                      "phonetic": "/ɪˈtaʂ/",
+                      "translation": "Stockwerk, Etage",
+                      "translations": {
+                          "ru": "этаж",
+                          "de": "Stockwerk",
+                          "en": "floor"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я живу на третьем <b>этаже</b>. – Ich wohne im dritten Stock.",
+                              "n": "этаж = Stockwerk"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_19",
+                      "isLetter": false,
+                      "letter": "Ю",
+                      "word": "юг",
+                      "emoji": "🧭",
+                      "phonetic": "/juk/",
+                      "translation": "Süden",
+                      "translations": {
+                          "ru": "юг",
+                          "de": "Süden",
+                          "en": "south"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы едем на <b>юг</b>. – Wir fahren in den Süden.",
+                              "n": "юг = Süden"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_20",
+                      "isLetter": false,
+                      "letter": "Ю",
+                      "word": "люблю",
+                      "emoji": "❤️",
+                      "phonetic": "/lʲʊbˈlʲu/",
+                      "translation": "ich liebe",
+                      "translations": {
+                          "ru": "люблю",
+                          "de": "ich liebe",
+                          "en": "I love"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я тебя <b>люблю</b>. – Ich liebe dich.",
+                              "n": "люблю = ich liebe"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_21",
+                      "isLetter": false,
+                      "letter": "Я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "/ja/",
+                      "translation": "ich",
+                      "translations": {
+                          "ru": "я",
+                          "de": "ich",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент. – Ich bin Student.",
+                              "n": "я = ich"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_22",
+                      "isLetter": false,
+                      "letter": "Я",
+                      "word": "язык",
+                      "emoji": "🗣️",
+                      "phonetic": "/jɪˈzɨk/",
+                      "translation": "Sprache, Zunge",
+                      "translations": {
+                          "ru": "язык",
+                          "de": "Sprache",
+                          "en": "language/tongue"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я учу русский <b>язык</b>. – Ich lerne die russische Sprache.",
+                              "n": "язык = Sprache"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g3",
+              "name": "Sonidos únicos del ruso",
+              "icon": "🔣",
+              "color": "#10b981",
+              "description": "Ж Ш Щ Ч Х Ц Ъ Ь Ы — los sonidos más difíciles",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g3_L_ж",
+                      "isLetter": true,
+                      "letter": "Ж",
+                      "word": "Ж",
+                      "emoji": "🔤",
+                      "phonetic": "/ʒ/",
+                      "translation": "Ж ist wie das <b>J</b> in <i>Journal</i> (französisch) oder das <i>s</i> in „Mea<b>s</b>ure“ (englisch).",
+                      "mnemonic": "Stell dir einen Käfer vor, der summt: „schschsch“ – das ist Ж.",
+                      "examples": [
+                          {
+                              "t": "<b>Ж</b> ist ein stimmhaftes Sch – wie ein Motor, der brummt.",
+                              "n": "Vergleich mit dem stimmlosen Ш"
+                          },
+                          {
+                              "t": "Das Zeichen sieht aus wie ein Käfer mit Beinen.",
+                              "n": "Visuelle Eselsbrücke"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ш",
+                      "isLetter": true,
+                      "letter": "Ш",
+                      "word": "Ш",
+                      "emoji": "🔤",
+                      "phonetic": "/ʃ/",
+                      "translation": "Ш ist ein hartes <b>Sch</b> wie in <i>Schuh</i> oder <i>Show</i>.",
+                      "mnemonic": "Stell dir eine Schlange vor, die zischt: „schhhhh“ – das ist Ш.",
+                      "examples": [
+                          {
+                              "t": "Ш klingt wie das englische <b>sh</b>, aber mit zurückgezogenen Lippen.",
+                              "n": "Aussprachehinweis"
+                          },
+                          {
+                              "t": "Der Buchstabe sieht aus wie eine Gabel mit drei Zinken.",
+                              "n": "Formmerkmal"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_щ",
+                      "isLetter": true,
+                      "letter": "Щ",
+                      "word": "Щ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕɕ/",
+                      "translation": "Щ ist ein <b>weiches, langes Sch</b> – wie ein zischendes „schtsch“.",
+                      "mnemonic": "Stell dir ein leises, hohes Zischen vor, wie bei einer Katze – das ist Щ.",
+                      "examples": [
+                          {
+                              "t": "Щ ist wie <b>Sch</b> in „Schtsch“ – aber weicher und länger.",
+                              "n": "Vergleich mit Ш"
+                          },
+                          {
+                              "t": "Der Buchstabe sieht aus wie eine Gabel mit einem Häkchen unten.",
+                              "n": "Formmerkmal"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ч",
+                      "isLetter": true,
+                      "letter": "Ч",
+                      "word": "Ч",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/",
+                      "translation": "Ч ist wie <b>tsch</b> in <i>Tschüss</i>, aber weicher und mit mehr Luft.",
+                      "mnemonic": "Stell dir eine Tasse Tee vor – „tschai“ – das ist Ч.",
+                      "examples": [
+                          {
+                              "t": "Ч klingt wie das <b>ch</b> in „cheap“ (englisch), aber weicher.",
+                              "n": "Aussprachehinweis"
+                          },
+                          {
+                              "t": "Der Buchstabe sieht aus wie eine umgedrehte 4.",
+                              "n": "Formmerkmal"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_х",
+                      "isLetter": true,
+                      "letter": "Х",
+                      "word": "Х",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "Х ist wie das <b>j</b> in <i>Juan</i> (Spanisch) oder das <b>ch</b> in <i>Bach</i> (Deutsch).",
+                      "mnemonic": "Stell dir ein kräftiges Räuspern vor: „chhh“ – das ist Х.",
+                      "examples": [
+                          {
+                              "t": "Х ist ein Reibe-Laut aus dem Rachen – wie beim <b>Ausatmen</b>.",
+                              "n": "Artikulation"
+                          },
+                          {
+                              "t": "Sieht aus wie ein X, klingt aber wie ein <b>ch</b>.",
+                              "n": "Formhinweis"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ц",
+                      "isLetter": true,
+                      "letter": "Ц",
+                      "word": "Ц",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/",
+                      "translation": "Ц ist wie <b>z</b> in <i>Pizza</i> oder <b>ts</b> in <i>Katze</i>.",
+                      "mnemonic": "Stell dir das Zischen einer Ziege vor: „ts-ts-ts“ – das ist Ц.",
+                      "examples": [
+                          {
+                              "t": "Ц ist immer hart – wie das <b>z</b> in „Zeit“ (aber mit t davor).",
+                              "n": "Ausspracheregel"
+                          },
+                          {
+                              "t": "Der Buchstabe sieht aus wie ein U mit Schwanz.",
+                              "n": "Formmerkmal"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ъ",
+                      "isLetter": true,
+                      "letter": "Ъ",
+                      "word": "Ъ",
+                      "emoji": "🔤",
+                      "phonetic": "/–/ (kein Laut)",
+                      "translation": "Ъ ist das <b>harte Zeichen</b> – es hat keinen eigenen Laut, sondern trennt Präfix und Vokal.",
+                      "mnemonic": "Stell dir eine Mauer vor, die zwei Buchstaben trennt – das ist Ъ.",
+                      "examples": [
+                          {
+                              "t": "Ъ trennt wie ein <b>Stopp</b> zwischen Konsonant und Vokal.",
+                              "n": "Funktion"
+                          },
+                          {
+                              "t": "Es sieht aus wie ein kleines <b>b</b> mit einem Deckel.",
+                              "n": "Formhinweis"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ь",
+                      "isLetter": true,
+                      "letter": "Ь",
+                      "word": "Ь",
+                      "emoji": "🔤",
+                      "phonetic": "/–/ (palatalisiert vorherigen Konsonanten)",
+                      "translation": "Ь ist das <b>weiche Zeichen</b> – es macht den vorherigen Konsonanten weich (palatalisiert).",
+                      "mnemonic": "Stell dir ein weiches Kissen vor, das den Konsonanten weich macht – das ist Ь.",
+                      "examples": [
+                          {
+                              "t": "Ь macht den Konsonanten <b>weich</b> wie in „Mutter“ vs. „Muttjer“",
+                              "n": "Vergleich"
+                          },
+                          {
+                              "t": "Es sieht aus wie ein kleines <b>b</b> ohne Bauch.",
+                              "n": "Formhinweis"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ы",
+                      "isLetter": true,
+                      "letter": "Ы",
+                      "word": "Ы",
+                      "emoji": "🔤",
+                      "phonetic": "/ɨ/",
+                      "translation": "Ы ist ein Laut zwischen <b>i</b> und <b>u</b> – es gibt ihn im Deutschen nicht.",
+                      "mnemonic": "Stell dir vor, du wirst überrascht: „äh“ – aber mit gespreizten Lippen – das ist Ы.",
+                      "examples": [
+                          {
+                              "t": "Ы klingt wie ein <b>tiefes i</b> mit gerundeten Lippen.",
+                              "n": "Aussprachehinweis"
+                          },
+                          {
+                              "t": "Der Buchstabe sieht aus wie ein <b>b</b> mit einem Strich.",
+                              "n": "Formmerkmal"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_10",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "жить",
+                      "emoji": "🏠",
+                      "phonetic": "/ʐɨtʲ/",
+                      "translation": "leben",
+                      "translations": {
+                          "ru": "жить",
+                          "de": "leben",
+                          "en": "to live"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>живу</b> в Берлине.",
+                              "n": "Ich lebe in Berlin."
+                          },
+                          {
+                              "t": "Он <b>живёт</b> в Москве.",
+                              "n": "Er lebt in Moskau."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_11",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "муж",
+                      "emoji": "👨",
+                      "phonetic": "/muʂ/",
+                      "translation": "Ehemann",
+                      "translations": {
+                          "ru": "муж",
+                          "de": "Ehemann",
+                          "en": "husband"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>муж</b> дома.",
+                              "n": "Mein Mann ist zu Hause."
+                          },
+                          {
+                              "t": "У неё есть <b>муж</b>.",
+                              "n": "Sie hat einen Ehemann."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_12",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "школа",
+                      "emoji": "🏫",
+                      "phonetic": "/ˈʂkoɫə/",
+                      "translation": "Schule",
+                      "translations": {
+                          "ru": "школа",
+                          "de": "Schule",
+                          "en": "school"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>школу</b>.",
+                              "n": "Ich gehe zur Schule."
+                          },
+                          {
+                              "t": "Это моя <b>школа</b>.",
+                              "n": "Das ist meine Schule."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_13",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "хорошо",
+                      "emoji": "😊",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "gut, okay",
+                      "translations": {
+                          "ru": "хорошо",
+                          "de": "gut, okay",
+                          "en": "good, okay"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Alles gut."
+                          },
+                          {
+                              "t": "Я чувствую себя <b>хорошо</b>.",
+                              "n": "Ich fühle mich gut."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_14",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "щи",
+                      "emoji": "🍲",
+                      "phonetic": "/ɕɕi/",
+                      "translation": "Kohlsuppe (traditionelles Gericht)",
+                      "translations": {
+                          "ru": "щи",
+                          "de": "Kohlsuppe",
+                          "en": "cabbage soup"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я люблю <b>щи</b>.",
+                              "n": "Ich liebe Kohlsuppe."
+                          },
+                          {
+                              "t": "На обед были <b>щи</b>.",
+                              "n": "Zum Mittagessen gab es Kohlsuppe."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_15",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "ещё",
+                      "emoji": "➕",
+                      "phonetic": "/jɪˈɕːɵ/",
+                      "translation": "noch, mehr",
+                      "translations": {
+                          "ru": "ещё",
+                          "de": "noch, mehr",
+                          "en": "still, more"
+                      },
+                      "examples": [
+                          {
+                              "t": "Дай мне <b>ещё</b> чай.",
+                              "n": "Gib mir noch Tee."
+                          },
+                          {
+                              "t": "Он <b>ещё</b> спит.",
+                              "n": "Er schläft noch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_16",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/ʂto/",
+                      "translation": "was",
+                      "translations": {
+                          "ru": "что",
+                          "de": "was",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "Was ist das?"
+                          },
+                          {
+                              "t": "Я не знаю, <b>что</b> делать.",
+                              "n": "Ich weiß nicht, was ich tun soll."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_17",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "чай",
+                      "emoji": "🍵",
+                      "phonetic": "/tɕaj/",
+                      "translation": "Tee",
+                      "translations": {
+                          "ru": "чай",
+                          "de": "Tee",
+                          "en": "tea"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>чай</b>.",
+                              "n": "Ich trinke Tee."
+                          },
+                          {
+                              "t": "Хочешь <b>чай</b>?",
+                              "n": "Möchtest du Tee?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_18",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хлеб",
+                      "emoji": "🍞",
+                      "phonetic": "/xlʲep/",
+                      "translation": "Brot",
+                      "translations": {
+                          "ru": "хлеб",
+                          "de": "Brot",
+                          "en": "bread"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я ем <b>хлеб</b>.",
+                              "n": "Ich esse Brot."
+                          },
+                          {
+                              "t": "Купи <b>хлеб</b> в магазине.",
+                              "n": "Kauf Brot im Laden."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_19",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хорошо",
+                      "emoji": "😊",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "gut, okay",
+                      "translations": {
+                          "ru": "хорошо",
+                          "de": "gut, okay",
+                          "en": "good, okay"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Alles gut."
+                          },
+                          {
+                              "t": "Он говорит по-русски <b>хорошо</b>.",
+                              "n": "Er spricht gut Russisch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_20",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "цена",
+                      "emoji": "💲",
+                      "phonetic": "/tsɨˈna/",
+                      "translation": "Preis",
+                      "translations": {
+                          "ru": "цена",
+                          "de": "Preis",
+                          "en": "price"
+                      },
+                      "examples": [
+                          {
+                              "t": "Какая <b>цена</b>?",
+                              "n": "Was ist der Preis?"
+                          },
+                          {
+                              "t": "<b>Цена</b> слишком высокая.",
+                              "n": "Der Preis ist zu hoch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_21",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "отец",
+                      "emoji": "👨‍👧",
+                      "phonetic": "/ɐˈtʲets/",
+                      "translation": "Vater",
+                      "translations": {
+                          "ru": "отец",
+                          "de": "Vater",
+                          "en": "father"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>отец</b> работает.",
+                              "n": "Mein Vater arbeitet."
+                          },
+                          {
+                              "t": "Это мой <b>отец</b>.",
+                              "n": "Das ist mein Vater."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_22",
+                      "isLetter": false,
+                      "letter": "Ъ",
+                      "word": "объект",
+                      "emoji": "📦",
+                      "phonetic": "/ɐbˈjekt/",
+                      "translation": "Objekt",
+                      "translations": {
+                          "ru": "объект",
+                          "de": "Objekt",
+                          "en": "object"
+                      },
+                      "examples": [
+                          {
+                              "t": "Этот <b>объект</b> большой.",
+                              "n": "Dieses Objekt ist groß."
+                          },
+                          {
+                              "t": "Мы изучаем <b>объект</b>.",
+                              "n": "Wir untersuchen das Objekt."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_23",
+                      "isLetter": false,
+                      "letter": "Ъ",
+                      "word": "съезд",
+                      "emoji": "🛣️",
+                      "phonetic": "/sjest/",
+                      "translation": "Kongress, Treffen (auch: Abfahrt)",
+                      "translations": {
+                          "ru": "съезд",
+                          "de": "Kongress, Treffen",
+                          "en": "congress, meeting"
+                      },
+                      "examples": [
+                          {
+                              "t": "Он поехал на <b>съезд</b>.",
+                              "n": "Er ist zum Kongress gefahren."
+                          },
+                          {
+                              "t": "У них был <b>съезд</b> партии.",
+                              "n": "Sie hatten einen Parteitag."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_24",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "мать",
+                      "emoji": "👩‍👧",
+                      "phonetic": "/matʲ/",
+                      "translation": "Mutter",
+                      "translations": {
+                          "ru": "мать",
+                          "de": "Mutter",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Моя <b>мать</b> дома.",
+                              "n": "Meine Mutter ist zu Hause."
+                          },
+                          {
+                              "t": "Я люблю свою <b>мать</b>.",
+                              "n": "Ich liebe meine Mutter."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_25",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "пять",
+                      "emoji": "5️⃣",
+                      "phonetic": "/pʲatʲ/",
+                      "translation": "fünf",
+                      "translations": {
+                          "ru": "пять",
+                          "de": "fünf",
+                          "en": "five"
+                      },
+                      "examples": [
+                          {
+                              "t": "У меня <b>пять</b> яблок.",
+                              "n": "Ich habe fünf Äpfel."
+                          },
+                          {
+                              "t": "Это стоит <b>пять</b> рублей.",
+                              "n": "Das kostet fünf Rubel."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_26",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "du",
+                      "translations": {
+                          "ru": "ты",
+                          "de": "du",
+                          "en": "you (singular)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> дома?",
+                              "n": "Bist du zu Hause?"
+                          },
+                          {
+                              "t": "Как <b>ты</b>?",
+                              "n": "Wie geht es dir?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_27",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/mɨ/",
+                      "translation": "wir",
+                      "translations": {
+                          "ru": "мы",
+                          "de": "wir",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> идём в кино.",
+                              "n": "Wir gehen ins Kino."
+                          },
+                          {
+                              "t": "<b>Мы</b> студенты.",
+                              "n": "Wir sind Studenten."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_28",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "сын",
+                      "emoji": "👦",
+                      "phonetic": "/sɨn/",
+                      "translation": "Sohn",
+                      "translations": {
+                          "ru": "сын",
+                          "de": "Sohn",
+                          "en": "son"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>сын</b> учится в школе.",
+                              "n": "Mein Sohn geht zur Schule."
+                          },
+                          {
+                              "t": "У них есть <b>сын</b>.",
+                              "n": "Sie haben einen Sohn."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g4",
+              "name": "Primeras palabras rusas",
+              "icon": "📖",
+              "color": "#ef4444",
+              "description": "Leer y entender 20 palabras rusas esenciales",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2",
+                  "ru_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g4_01",
+                      "letter": "Д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "<b>sí</b> – <i>suena como 'da' en alemán (da = ahí)</i>",
+                      "translations": {
+                          "ru": "да",
+                          "de": "ja",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я говорю по-русски.",
+                              "n": "Ja, ich spreche Russisch."
+                          },
+                          {
+                              "t": "<b>Да</b>, это мой дом.",
+                              "n": "Ja, das ist mein Haus."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_02",
+                      "letter": "Н",
+                      "word": "нет",
+                      "emoji": "❌",
+                      "phonetic": "/njet/",
+                      "translation": "<b>nein</b> – <i>klingt wie 'njet' – das deutsche 'net' (nicht) ähnelt</i>",
+                      "translations": {
+                          "ru": "нет",
+                          "de": "nein",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, я не хочу.",
+                              "n": "Nein, ich will nicht."
+                          },
+                          {
+                              "t": "<b>Нет</b>, это не так.",
+                              "n": "Nein, das ist nicht so."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_03",
+                      "letter": "П",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/priˈvʲet/",
+                      "translation": "<b>Hallo</b> (informell) – <i>von 'приветствовать' (begrüßen)</i>",
+                      "translations": {
+                          "ru": "привет",
+                          "de": "Hallo",
+                          "en": "hi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>, как дела?",
+                              "n": "Hallo, wie geht's?"
+                          },
+                          {
+                              "t": "<b>Привет</b>, рад тебя видеть.",
+                              "n": "Hallo, schön dich zu sehen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_04",
+                      "letter": "П",
+                      "word": "пока",
+                      "emoji": "👋",
+                      "phonetic": "/paˈka/",
+                      "translation": "<b>Tschüss</b> (informell) – <i>wörtlich: 'bis (dann)'</i>",
+                      "translations": {
+                          "ru": "пока",
+                          "de": "Tschüss",
+                          "en": "bye"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Пока</b>, до завтра!",
+                              "n": "Tschüss, bis morgen!"
+                          },
+                          {
+                              "t": "Ну всё, <b>пока</b>.",
+                              "n": "Na gut, tschüss."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_05",
+                      "letter": "С",
+                      "word": "спасибо",
+                      "emoji": "🙏",
+                      "phonetic": "/spɐˈsʲibə/",
+                      "translation": "<b>Danke</b> – <i>von 'спаси Бог' (Gott rette dich)</i>",
+                      "translations": {
+                          "ru": "спасибо",
+                          "de": "Danke",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Спасибо</b> за помощь.",
+                              "n": "Danke für die Hilfe."
+                          },
+                          {
+                              "t": "Большое <b>спасибо</b>!",
+                              "n": "Vielen Dank!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_06",
+                      "letter": "П",
+                      "word": "пожалуйста",
+                      "emoji": "🙏",
+                      "phonetic": "/pɐˈʐalʊstə/",
+                      "translation": "<b>bitte</b> (höflich)",
+                      "translations": {
+                          "ru": "пожалуйста",
+                          "de": "bitte",
+                          "en": "please"
+                      },
+                      "examples": [
+                          {
+                              "t": "Скажите, <b>пожалуйста</b>, где метро?",
+                              "n": "Sagen Sie bitte, wo ist die U-Bahn?"
+                          },
+                          {
+                              "t": "<b>Пожалуйста</b>, проходите.",
+                              "n": "Bitte, kommen Sie herein."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_07",
+                      "letter": "К",
+                      "word": "как дела?",
+                      "emoji": "🤔",
+                      "phonetic": "/kak dʲɪˈla/",
+                      "translation": "<b>Wie geht's?</b> – wörtlich: <i>wie (die) Sachen?</i>",
+                      "translations": {
+                          "ru": "как дела?",
+                          "de": "Wie geht's?",
+                          "en": "How are you?"
+                      },
+                      "examples": [
+                          {
+                              "t": "Привет, <b>как дела</b>?",
+                              "n": "Hallo, wie geht's?"
+                          },
+                          {
+                              "t": "<b>Как дела</b> у тебя?",
+                              "n": "Wie geht es dir?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_08",
+                      "letter": "Х",
+                      "word": "хорошо",
+                      "emoji": "😊",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "<b>gut</b> – <i>das 'х' klingt wie das deutsche 'ch' in 'Bach'</i>",
+                      "translations": {
+                          "ru": "хорошо",
+                          "de": "gut",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Alles gut."
+                          },
+                          {
+                              "t": "Я чувствую себя <b>хорошо</b>.",
+                              "n": "Ich fühle mich gut."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_09",
+                      "letter": "Я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "/ja/",
+                      "translation": "<b>ich</b> – <i>das 'я' ist der Buchstabe, der wie 'ja' klingt</i>",
+                      "translations": {
+                          "ru": "я",
+                          "de": "ich",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент.",
+                              "n": "Ich bin Student."
+                          },
+                          {
+                              "t": "<b>Я</b> люблю тебя.",
+                              "n": "Ich liebe dich."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_10",
+                      "letter": "Т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "<b>du</b> (informell)",
+                      "translations": {
+                          "ru": "ты",
+                          "de": "du",
+                          "en": "you (singular)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> мой друг.",
+                              "n": "Du bist mein Freund."
+                          },
+                          {
+                              "t": "Как <b>ты</b>?",
+                              "n": "Wie geht es dir?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_11",
+                      "letter": "О",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "<b>er</b> – <i>ähnlich wie deutsches 'on' (ohne 'n' zu stark)</i>",
+                      "translations": {
+                          "ru": "он",
+                          "de": "er",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> дома.",
+                              "n": "Er ist zu Hause."
+                          },
+                          {
+                              "t": "<b>Он</b> говорит по-русски.",
+                              "n": "Er spricht Russisch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_12",
+                      "letter": "О",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "/ɐˈna/",
+                      "translation": "<b>sie</b> (weiblich)",
+                      "translations": {
+                          "ru": "она",
+                          "de": "sie",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Она</b> красивая.",
+                              "n": "Sie ist schön."
+                          },
+                          {
+                              "t": "<b>Она</b> учится в школе.",
+                              "n": "Sie lernt in der Schule."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_13",
+                      "letter": "М",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/mɨ/",
+                      "translation": "<b>wir</b> – <i>das 'ы' ist ein spezieller Laut, ähnlich wie in 'füllen'</i>",
+                      "translations": {
+                          "ru": "мы",
+                          "de": "wir",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> из Германии.",
+                              "n": "Wir sind aus Deutschland."
+                          },
+                          {
+                              "t": "<b>Мы</b> вместе.",
+                              "n": "Wir sind zusammen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_14",
+                      "letter": "Ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/ʂto/",
+                      "translation": "<b>was</b> – <i>Buchstabe 'ч' wie 'tsch' in 'Tschüss'</i>",
+                      "translations": {
+                          "ru": "что",
+                          "de": "was",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "Was ist das?"
+                          },
+                          {
+                              "t": "<b>Что</b> ты делаешь?",
+                              "n": "Was machst du?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_15",
+                      "letter": "Г",
+                      "word": "где",
+                      "emoji": "📍",
+                      "phonetic": "/ɡdʲe/",
+                      "translation": "<b>wo</b> – <i>das 'г' ist ein stimmhaftes 'g'</i>",
+                      "translations": {
+                          "ru": "где",
+                          "de": "wo",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "Wo ist die Toilette?"
+                          },
+                          {
+                              "t": "<b>Где</b> ты живёшь?",
+                              "n": "Wo wohnst du?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_16",
+                      "letter": "З",
+                      "word": "здесь",
+                      "emoji": "📍",
+                      "phonetic": "/zdʲesʲ/",
+                      "translation": "<b>hier</b> – <i>das 'з' wie stimmhaftes 's' in 'Sonne'</i>",
+                      "translations": {
+                          "ru": "здесь",
+                          "de": "hier",
+                          "en": "here"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>здесь</b>.",
+                              "n": "Ich bin hier."
+                          },
+                          {
+                              "t": "<b>Здесь</b> очень красиво.",
+                              "n": "Hier ist es sehr schön."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_17",
+                      "letter": "Т",
+                      "word": "там",
+                      "emoji": "📍",
+                      "phonetic": "/tam/",
+                      "translation": "<b>dort</b> – <i>ähnlich wie 'daheim' in manchen Dialekten</i>",
+                      "translations": {
+                          "ru": "там",
+                          "de": "dort",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Он <b>там</b>.",
+                              "n": "Er ist dort."
+                          },
+                          {
+                              "t": "<b>Там</b> мой дом.",
+                              "n": "Dort ist mein Haus."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_18",
+                      "letter": "Э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/ˈɛtə/",
+                      "translation": "<b>das ist</b> – <i>das 'э' wie ein offenes 'e'</i>",
+                      "translations": {
+                          "ru": "это",
+                          "de": "das ist",
+                          "en": "this is"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> книга.",
+                              "n": "Das ist ein Buch."
+                          },
+                          {
+                              "t": "<b>Это</b> мой друг.",
+                              "n": "Das ist mein Freund."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_19",
+                      "letter": "И",
+                      "word": "и",
+                      "emoji": "➕",
+                      "phonetic": "/i/",
+                      "translation": "<b>und</b> – <i>wie das deutsche 'i' in 'Kino'</i>",
+                      "translations": {
+                          "ru": "и",
+                          "de": "und",
+                          "en": "and"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>и</b> ты.",
+                              "n": "Ich und du."
+                          },
+                          {
+                              "t": "Хлеб <b>и</b> вода.",
+                              "n": "Brot und Wasser."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_20",
+                      "letter": "И",
+                      "word": "или",
+                      "emoji": "↔️",
+                      "phonetic": "/ˈilʲi/",
+                      "translation": "<b>oder</b> – <i>ähnlich wie 'или' in 'Illusion'</i>",
+                      "translations": {
+                          "ru": "или",
+                          "de": "oder",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе?",
+                              "n": "Tee oder Kaffee?"
+                          },
+                          {
+                              "t": "Ты <b>или</b> я.",
+                              "n": "Du oder ich."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // RU_EN
+  // ──────────────────────────────────────────────────────
+  ru_en: {
+      "level": "A0",
+      "levelName": "El alfabeto cirílico",
+      "groups": [
+          {
+              "id": "ru_a0_g1",
+              "name": "Letras parecidas al latín",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "А Е О М Т К В Н Р С — entrada fácil al cirílico",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ru_a0_g1_L_a",
+                      "isLetter": true,
+                      "letter": "А",
+                      "word": "А",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Name: <b>А</b> (a) — sounds like <i>“a”</i> in “father”<br>Identical to Latin <b>A</b>",
+                      "mnemonic": "It’s the same as your A, just keep it simple.",
+                      "examples": [
+                          {
+                              "t": "This is <b>А</b>, just like in <span class=\"hl\">mamá</span>",
+                              "n": "Mnemonic: m-a-m-a"
+                          },
+                          {
+                              "t": "Write <b>А</b> with two strokes: a vertical and a crossbar",
+                              "n": "Shape clue: like a house"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_ye",
+                      "isLetter": true,
+                      "letter": "Е",
+                      "word": "Е",
+                      "emoji": "🔤",
+                      "phonetic": "/je/",
+                      "translation": "Name: <b>Е</b> (ye) — sounds like <i>“ye”</i> in “yes”<br>Looks like Latin <b>E</b> but sounds like <b>YE</b>",
+                      "mnemonic": "Think of the English word <span class=\"hl\">“yet”</span> — that’s the sound.",
+                      "examples": [
+                          {
+                              "t": "Say <b>Е</b> as in <span class=\"hl\">“yellow”</span> — not like “e”",
+                              "n": "Sound clue"
+                          },
+                          {
+                              "t": "<b>Е</b> is a letter that always carries a hidden “y” sound",
+                              "n": "Tip: it’s a soft vowel"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_o",
+                      "isLetter": true,
+                      "letter": "О",
+                      "word": "О",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Name: <b>О</b> (o) — sounds like <i>“o”</i> in “more”<br>Identical to Latin <b>O</b>",
+                      "mnemonic": "A perfect circle — just like the letter <span class=\"hl\">O</span>.",
+                      "examples": [
+                          {
+                              "t": "This is <b>О</b>, a round letter like a wheel",
+                              "n": "Shape clue"
+                          },
+                          {
+                              "t": "Pronounce <b>О</b> with rounded lips",
+                              "n": "Tip"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_m",
+                      "isLetter": true,
+                      "letter": "М",
+                      "word": "М",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Name: <b>М</b> (em) — sounds like <i>“m”</i> in “mother”<br>Identical to Latin <b>M</b>",
+                      "mnemonic": "Two peaks like a mountain — <span class=\"hl\">M</span>.",
+                      "examples": [
+                          {
+                              "t": "<b>М</b> is the same as your M, no tricks",
+                              "n": "Reassurance"
+                          },
+                          {
+                              "t": "Think of <span class=\"hl\">“mom”</span> — both start with <b>М</b>",
+                              "n": "Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_t",
+                      "isLetter": true,
+                      "letter": "Т",
+                      "word": "Т",
+                      "emoji": "🔤",
+                      "phonetic": "/t/",
+                      "translation": "Name: <b>Т</b> (te) — sounds like <i>“t”</i> in “top”<br>Identical to Latin <b>T</b>",
+                      "mnemonic": "It’s a capital <span class=\"hl\">T</span> — crossbar on top.",
+                      "examples": [
+                          {
+                              "t": "<b>Т</b> looks like a hammer",
+                              "n": "Shape clue"
+                          },
+                          {
+                              "t": "Say <b>Т</b> as in <span class=\"hl\">“tea”</span>",
+                              "n": "Sound clue"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_k",
+                      "isLetter": true,
+                      "letter": "К",
+                      "word": "К",
+                      "emoji": "🔤",
+                      "phonetic": "/k/",
+                      "translation": "Name: <b>К</b> (ka) — sounds like <i>“k”</i> in “kite”<br>Identical to Latin <b>K</b>",
+                      "mnemonic": "It’s a <span class=\"hl\">K</span> with no changes.",
+                      "examples": [
+                          {
+                              "t": "<b>К</b> is the same as your K — easy",
+                              "n": "Reassurance"
+                          },
+                          {
+                              "t": "Think of <span class=\"hl\">“kangaroo”</span> — starts with <b>К</b>",
+                              "n": "Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_v",
+                      "isLetter": true,
+                      "letter": "В",
+                      "word": "В",
+                      "emoji": "🔤",
+                      "phonetic": "/v/",
+                      "translation": "Name: <b>В</b> (ve) — sounds like <i>“v”</i> in “very”<br>Looks like Latin <b>B</b> but sounds like <b>V</b>",
+                      "mnemonic": "A <span class=\"hl\">B</span> that says <span class=\"hl\">“v”</span> — imagine a bee that says “vroom”.",
+                      "examples": [
+                          {
+                              "t": "Don’t be fooled: <b>В</b> is not a B, it’s a <span class=\"hl\">V</span>",
+                              "n": "Warning"
+                          },
+                          {
+                              "t": "Think of <span class=\"hl\">“victory”</span> — that’s the sound",
+                              "n": "Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_n",
+                      "isLetter": true,
+                      "letter": "Н",
+                      "word": "Н",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Name: <b>Н</b> (en) — sounds like <i>“n”</i> in “no”<br>Looks like Latin <b>H</b> but sounds like <b>N</b>",
+                      "mnemonic": "An <span class=\"hl\">H</span> that says <span class=\"hl\">“n”</span> — like a horse neighing “nay”.",
+                      "examples": [
+                          {
+                              "t": "Remember: <b>Н</b> is an H that sounds like N",
+                              "n": "Warning"
+                          },
+                          {
+                              "t": "Think of <span class=\"hl\">“no”</span> — starts with <b>Н</b>",
+                              "n": "Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_r",
+                      "isLetter": true,
+                      "letter": "Р",
+                      "word": "Р",
+                      "emoji": "🔤",
+                      "phonetic": "/r/",
+                      "translation": "Name: <b>Р</b> (er) — sounds like <i>“r”</i> in “run” (rolled)<br>Looks like Latin <b>P</b> but sounds like <b>R</b>",
+                      "mnemonic": "A <span class=\"hl\">P</span> that rolls its <span class=\"hl\">R</span>s — like a pirate saying “arrr”.",
+                      "examples": [
+                          {
+                              "t": "This is <b>Р</b> — it’s a rolled R, not a P",
+                              "n": "Warning"
+                          },
+                          {
+                              "t": "Practice rolling your tongue: <b>Р</b> like in <span class=\"hl\">“perro”</span>",
+                              "n": "Sound clue"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_s",
+                      "isLetter": true,
+                      "letter": "С",
+                      "word": "С",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Name: <b>С</b> (es) — sounds like <i>“s”</i> in “sun”<br>Looks like Latin <b>C</b> but sounds like <b>S</b>",
+                      "mnemonic": "A <span class=\"hl\">C</span> that hisses like a <span class=\"hl\">snake</span> — “sss”.",
+                      "examples": [
+                          {
+                              "t": "Don’t say “k” — <b>С</b> is always <span class=\"hl\">“s”</span>",
+                              "n": "Warning"
+                          },
+                          {
+                              "t": "Think of <span class=\"hl\">“sun”</span> — starts with <b>С</b>",
+                              "n": "Mnemonic"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "А",
+                      "word": "мама",
+                      "emoji": "👩‍👧",
+                      "phonetic": "/ˈmamə/",
+                      "translation": "<b>mom</b> (mama)",
+                      "translations": {
+                          "ru": "мама",
+                          "en": "mom"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мама</b> дома.",
+                              "n": "Mom is home."
+                          },
+                          {
+                              "t": "Это <b>мама</b>.",
+                              "n": "This is mom."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "А",
+                      "word": "папа",
+                      "emoji": "👨‍👧",
+                      "phonetic": "/ˈpapə/",
+                      "translation": "<b>dad</b> (papa)",
+                      "translations": {
+                          "ru": "папа",
+                          "en": "dad"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Папа</b> там.",
+                              "n": "Dad is there."
+                          },
+                          {
+                              "t": "Это <b>папа</b>.",
+                              "n": "This is dad."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "нет",
+                      "emoji": "🚫",
+                      "phonetic": "/nʲet/",
+                      "translation": "<b>no</b> (nyet)",
+                      "translations": {
+                          "ru": "нет",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, thank you."
+                          },
+                          {
+                              "t": "Это <b>нет</b>?",
+                              "n": "Is this no?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "где",
+                      "emoji": "❓",
+                      "phonetic": "/ɡdʲe/",
+                      "translation": "<b>where</b> (gde)",
+                      "translations": {
+                          "ru": "где",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> мама?",
+                              "n": "Where is mom?"
+                          },
+                          {
+                              "t": "<b>Где</b> папа?",
+                              "n": "Where is dad?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "<b>he</b> (on)",
+                      "translations": {
+                          "ru": "он",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> дома.",
+                              "n": "He is home."
+                          },
+                          {
+                              "t": "<b>Он</b> там.",
+                              "n": "He is there."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "/ɐˈna/",
+                      "translation": "<b>she</b> (ona)",
+                      "translations": {
+                          "ru": "она",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Она</b> мама.",
+                              "n": "She is mom."
+                          },
+                          {
+                              "t": "<b>Она</b> там.",
+                              "n": "She is there."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мир",
+                      "emoji": "🌍",
+                      "phonetic": "/mʲir/",
+                      "translation": "<b>world</b> / <b>peace</b> (mir)",
+                      "translations": {
+                          "ru": "мир",
+                          "en": "world/peace"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мир</b> большой.",
+                              "n": "The world is big."
+                          },
+                          {
+                              "t": "Мы хотим <b>мир</b>.",
+                              "n": "We want peace."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мой",
+                      "emoji": "🙋",
+                      "phonetic": "/moj/",
+                      "translation": "<b>my</b> (masculine) (moy)",
+                      "translations": {
+                          "ru": "мой",
+                          "en": "my"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мой</b> папа.",
+                              "n": "My dad."
+                          },
+                          {
+                              "t": "<b>Мой</b> дом.",
+                              "n": "My house."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "<b>you</b> (informal singular) (ty)",
+                      "translations": {
+                          "ru": "ты",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> дома.",
+                              "n": "You are home."
+                          },
+                          {
+                              "t": "<b>Ты</b> там.",
+                              "n": "You are there."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "там",
+                      "emoji": "📍",
+                      "phonetic": "/tam/",
+                      "translation": "<b>there</b> (tam)",
+                      "translations": {
+                          "ru": "там",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Он <b>там</b>.",
+                              "n": "He is there."
+                          },
+                          {
+                              "t": "Мама <b>там</b>.",
+                              "n": "Mom is there."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_11",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "как",
+                      "emoji": "❔",
+                      "phonetic": "/kak/",
+                      "translation": "<b>how</b> (kak)",
+                      "translations": {
+                          "ru": "как",
+                          "en": "how"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Как</b> ты?",
+                              "n": "How are you?"
+                          },
+                          {
+                              "t": "<b>Как</b> это?",
+                              "n": "How is this?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_12",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "кто",
+                      "emoji": "🙋‍♂️",
+                      "phonetic": "/kto/",
+                      "translation": "<b>who</b> (kto)",
+                      "translations": {
+                          "ru": "кто",
+                          "en": "who"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Кто</b> это?",
+                              "n": "Who is this?"
+                          },
+                          {
+                              "t": "<b>Кто</b> там?",
+                              "n": "Who is there?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_13",
+                      "isLetter": false,
+                      "letter": "В",
+                      "word": "вода",
+                      "emoji": "💧",
+                      "phonetic": "/vɐˈda/",
+                      "translation": "<b>water</b> (voda)",
+                      "translations": {
+                          "ru": "вода",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>воду</b>.",
+                              "n": "I drink water."
+                          },
+                          {
+                              "t": "<b>Вода</b> холодная.",
+                              "n": "The water is cold."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_14",
+                      "isLetter": false,
+                      "letter": "В",
+                      "word": "вот",
+                      "emoji": "👉",
+                      "phonetic": "/vot/",
+                      "translation": "<b>here is</b> (vot)",
+                      "translations": {
+                          "ru": "вот",
+                          "en": "here is"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Вот</b> мама.",
+                              "n": "Here is mom."
+                          },
+                          {
+                              "t": "<b>Вот</b> дом.",
+                              "n": "Here is the house."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_15",
+                      "isLetter": false,
+                      "letter": "Н",
+                      "word": "но",
+                      "emoji": "🔄",
+                      "phonetic": "/no/",
+                      "translation": "<b>but</b> (no)",
+                      "translations": {
+                          "ru": "но",
+                          "en": "but"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я хочу, <b>но</b> не могу.",
+                              "n": "I want to, but I can't."
+                          },
+                          {
+                              "t": "<b>Но</b> это так.",
+                              "n": "But it is so."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_16",
+                      "isLetter": false,
+                      "letter": "Н",
+                      "word": "нет",
+                      "emoji": "🚫",
+                      "phonetic": "/nʲet/",
+                      "translation": "<b>no</b> (nyet)",
+                      "translations": {
+                          "ru": "нет",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, thank you."
+                          },
+                          {
+                              "t": "Это <b>нет</b>?",
+                              "n": "Is this no?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_17",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "Россия",
+                      "emoji": "🇷🇺",
+                      "phonetic": "/rɐˈsʲijə/",
+                      "translation": "<b>Russia</b> (Rossiya)",
+                      "translations": {
+                          "ru": "Россия",
+                          "en": "Russia"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я из <b>России</b>.",
+                              "n": "I am from Russia."
+                          },
+                          {
+                              "t": "<b>Россия</b> большая.",
+                              "n": "Russia is big."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_18",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "рад",
+                      "emoji": "😊",
+                      "phonetic": "/rat/",
+                      "translation": "<b>glad</b> (rad)",
+                      "translations": {
+                          "ru": "рад",
+                          "en": "glad"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>рад</b> вас видеть.",
+                              "n": "I am glad to see you."
+                          },
+                          {
+                              "t": "Он <b>рад</b>.",
+                              "n": "He is glad."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_19",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сон",
+                      "emoji": "😴",
+                      "phonetic": "/son/",
+                      "translation": "<b>dream</b> / <b>sleep</b> (son)",
+                      "translations": {
+                          "ru": "сон",
+                          "en": "dream/sleep"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мне нужен <b>сон</b>.",
+                              "n": "I need sleep."
+                          },
+                          {
+                              "t": "Это был хороший <b>сон</b>.",
+                              "n": "That was a good dream."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_20",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сок",
+                      "emoji": "🧃",
+                      "phonetic": "/sok/",
+                      "translation": "<b>juice</b> (sok)",
+                      "translations": {
+                          "ru": "сок",
+                          "en": "juice"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>сок</b>.",
+                              "n": "I drink juice."
+                          },
+                          {
+                              "t": "<b>Сок</b> вкусный.",
+                              "n": "The juice is tasty."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g2",
+              "name": "Letras nuevas — sonidos conocidos",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "Б Г Д З И Л П Ф Э Ю Я — formas nuevas, sonidos familiares",
+              "reviewFrom": [
+                  "ru_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "Б",
+                      "word": "Б",
+                      "emoji": "🔤",
+                      "phonetic": "/b/",
+                      "translation": "Letter <b>Б</b> — sounds like Spanish <b>B</b> (as in <i>bueno</i>).<br>Uppercase looks like a <span class=\"hl\">B with a missing left side</span>.",
+                      "mnemonic": "It's a 'B' but the belly is on the right — like it's turned to face you.",
+                      "examples": [
+                          {
+                              "t": "<b>Б</b>рат — brother.<br>The letter looks like a <span class=\"hl\">B</span> that lost its left bump.",
+                              "n": "Remember: Б = B, just flipped."
+                          },
+                          {
+                              "t": "<b>Б</b>анк — bank.<br>Same word as in Spanish!",
+                              "n": "Loan word — easy win."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "Г",
+                      "word": "Г",
+                      "emoji": "🔤",
+                      "phonetic": "/g/",
+                      "translation": "Letter <b>Г</b> — sounds like Spanish <b>G</b> (always hard, as in <i>gato</i>).<br>Looks like an <span class=\"hl\">upside-down L</span> or a <i>gamma</i>.",
+                      "mnemonic": "It's a 'gamma' from math — but sounds like a hard G.",
+                      "examples": [
+                          {
+                              "t": "<b>Г</b>де — where.<br>Looks like a <span class=\"hl\">Γ</span> (Greek gamma).",
+                              "n": "Gamma = G sound."
+                          },
+                          {
+                              "t": "<b>Г</b>од — year.<br>Think 'God' minus the 'o' — but means year.",
+                              "n": "Common word, easy sound."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "Д",
+                      "word": "Д",
+                      "emoji": "🔤",
+                      "phonetic": "/d/",
+                      "translation": "Letter <b>Д</b> — sounds like Spanish <b>D</b>.<br>Looks like a <span class=\"hl\">house</span> or a <i>triangle on legs</i>.",
+                      "mnemonic": "It's a little house — 'Дом' means house, so Д = house = D.",
+                      "examples": [
+                          {
+                              "t": "<b>Д</b>а — yes.<br>Short and easy.",
+                              "n": "Да = yes (da)."
+                          },
+                          {
+                              "t": "<b>Д</b>ом — house.<br>Д looks like a house with a roof!",
+                              "n": "Remember: Д = house shape."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "З",
+                      "word": "З",
+                      "emoji": "🔤",
+                      "phonetic": "/z/",
+                      "translation": "Letter <b>З</b> — sounds like Spanish <b>S</b> but voiced (like <i>zumbido</i>).<br>It's a <span class=\"hl\">3</span> with a flat top.",
+                      "mnemonic": "It's a 3 (tres) — and it sounds like a buzzing 'z'.",
+                      "examples": [
+                          {
+                              "t": "<b>З</b>автра — tomorrow.<br>З looks like a 3 — think '3 days from now'.",
+                              "n": "Zavtra = tomorrow."
+                          },
+                          {
+                              "t": "<b>З</b>има — winter.<br>З is like a 3 — snow is cold like a '3'? Eh, just remember the shape.",
+                              "n": "Zima = winter."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_i",
+                      "isLetter": true,
+                      "letter": "И",
+                      "word": "И",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "Letter <b>И</b> — sounds like Spanish <b>I</b> (as in <i>si</i>).<br>Looks like a <span class=\"hl\">backwards N</span> or an <i>upside-down U</i>.",
+                      "mnemonic": "It's an N flipped — and it says 'ee' like the 'i' in 'machine'.",
+                      "examples": [
+                          {
+                              "t": "<b>И</b>ли — or.<br>И looks like a backwards N — 'N' for 'or'? Just remember the sound.",
+                              "n": "Ili = or."
+                          },
+                          {
+                              "t": "<b>И</b>мя — name.<br>И = 'ee' — 'ee-mya' = name.",
+                              "n": "Imya = name."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "Л",
+                      "word": "Л",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "Letter <b>Л</b> — sounds like Spanish <b>L</b>.<br>Looks like an <span class=\"hl\">upside-down V</span> or a <i>tent</i>.",
+                      "mnemonic": "It's a tent (like a camping tent) — and 'lodge' starts with L.",
+                      "examples": [
+                          {
+                              "t": "<b>Л</b>ес — forest.<br>Л is a tent — you camp in a forest.",
+                              "n": "Les = forest."
+                          },
+                          {
+                              "t": "<b>Л</b>юди — people.<br>Л is a tent — people live in tents? Just remember the sound.",
+                              "n": "Lyudi = people."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "П",
+                      "word": "П",
+                      "emoji": "🔤",
+                      "phonetic": "/p/",
+                      "translation": "Letter <b>П</b> — sounds like Spanish <b>P</b>.<br>Looks like the Greek <span class=\"hl\">π</span> (pi) with a flat top.",
+                      "mnemonic": "It's a 'pi' (π) — but with a flat top. Pi = P.",
+                      "examples": [
+                          {
+                              "t": "<b>П</b>арк — park.<br>Same word as English!",
+                              "n": "Park = park."
+                          },
+                          {
+                              "t": "<b>П</b>ривет — hello.<br>П = π — 'pi' + 'vet' = hello.",
+                              "n": "Privet = hello (informal)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "Ф",
+                      "word": "Ф",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Letter <b>Ф</b> — sounds like Spanish <b>F</b>.<br>It's a <span class=\"hl\">circle with a line</span> through it.",
+                      "mnemonic": "It's an 'F' that swallowed a ball — or a lollipop with a stick.",
+                      "examples": [
+                          {
+                              "t": "<b>Ф</b>ото — photo.<br>Same as English!",
+                              "n": "Foto = photo."
+                          },
+                          {
+                              "t": "<b>Ф</b>акт — fact.<br>Same as English!",
+                              "n": "Fakt = fact."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_e",
+                      "isLetter": true,
+                      "letter": "Э",
+                      "word": "Э",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "Letter <b>Э</b> — sounds like Spanish <b>E</b> but open (like in <i>él</i>), without the 'y' glide.<br>It's a <span class=\"hl\">backwards E</span> (like the Euro sign € without the lines).",
+                      "mnemonic": "It's a backwards E — 'E' for 'Echo' but reversed, sounds like 'eh'.",
+                      "examples": [
+                          {
+                              "t": "<b>Э</b>то — this is.<br>Э is a backwards E — 'eh-to' = this.",
+                              "n": "Eto = this/this is."
+                          },
+                          {
+                              "t": "<b>Э</b>таж — floor/story.<br>Э = 'eh' — 'eh-tazh' = floor.",
+                              "n": "Etazh = floor (of a building)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_yu",
+                      "isLetter": true,
+                      "letter": "Ю",
+                      "word": "Ю",
+                      "emoji": "🔤",
+                      "phonetic": "/ju/",
+                      "translation": "Letter <b>Ю</b> — sounds like the English word <b>\"you\"</b>.<br>It's an <span class=\"hl\">I with a hook</span> underneath.",
+                      "mnemonic": "It looks like an I with a little tail — and it says 'you'.",
+                      "examples": [
+                          {
+                              "t": "<b>Ю</b>г — south.<br>Ю = 'you' — 'you-g' = south.",
+                              "n": "Yug = south."
+                          },
+                          {
+                              "t": "Я тебя любл<b>ю</b> — I love you.<br>Ю = 'you' — you is right there!",
+                              "n": "Lyublyu = I love."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_ya",
+                      "isLetter": true,
+                      "letter": "Я",
+                      "word": "Я",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Letter <b>Я</b> — sounds like <b>\"ya\"</b> as in <i>yacht</i>.<br>It's a <span class=\"hl\">backwards R</span>.",
+                      "mnemonic": "It's a backwards R — and 'R' backwards = 'Я' = 'ya'.",
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> — I/me.<br>Я is backwards R — 'I am' = 'Я'.",
+                              "n": "Ya = I."
+                          },
+                          {
+                              "t": "<b>Я</b>зык — language/tongue.<br>Я = 'ya' — 'ya-zyk' = language.",
+                              "n": "Yazyk = language/tongue."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "Б",
+                      "word": "брат",
+                      "emoji": "👬",
+                      "phonetic": "/brat/",
+                      "translation": "<b>брат</b> — brother",
+                      "translations": {
+                          "ru": "брат",
+                          "en": "brother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>брат</b> дома.",
+                              "n": "My brother is at home."
+                          },
+                          {
+                              "t": "У меня есть <b>брат</b>.",
+                              "n": "I have a brother."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "Б",
+                      "word": "банк",
+                      "emoji": "🏦",
+                      "phonetic": "/bank/",
+                      "translation": "<b>банк</b> — bank",
+                      "translations": {
+                          "ru": "банк",
+                          "en": "bank"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>банк</b>.",
+                              "n": "I'm going to the bank."
+                          },
+                          {
+                              "t": "Это <b>банк</b>.",
+                              "n": "This is a bank."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "Г",
+                      "word": "где",
+                      "emoji": "❓",
+                      "phonetic": "/gdye/",
+                      "translation": "<b>где</b> — where",
+                      "translations": {
+                          "ru": "где",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "Where is the bathroom?"
+                          },
+                          {
+                              "t": "<b>Где</b> ты?",
+                              "n": "Where are you?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "Г",
+                      "word": "год",
+                      "emoji": "📅",
+                      "phonetic": "/got/",
+                      "translation": "<b>год</b> — year",
+                      "translations": {
+                          "ru": "год",
+                          "en": "year"
+                      },
+                      "examples": [
+                          {
+                              "t": "Новый <b>год</b>!",
+                              "n": "New Year!"
+                          },
+                          {
+                              "t": "Один <b>год</b>.",
+                              "n": "One year."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "<b>да</b> — yes",
+                      "translations": {
+                          "ru": "да",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я понимаю.",
+                              "n": "Yes, I understand."
+                          },
+                          {
+                              "t": "<b>Да</b> или нет?",
+                              "n": "Yes or no?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "дом",
+                      "emoji": "🏠",
+                      "phonetic": "/dom/",
+                      "translation": "<b>дом</b> — house",
+                      "translations": {
+                          "ru": "дом",
+                          "en": "house"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это мой <b>дом</b>.",
+                              "n": "This is my house."
+                          },
+                          {
+                              "t": "Я дома.",
+                              "n": "I'm at home."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "З",
+                      "word": "завтра",
+                      "emoji": "🌅",
+                      "phonetic": "/zavtra/",
+                      "translation": "<b>завтра</b> — tomorrow",
+                      "translations": {
+                          "ru": "завтра",
+                          "en": "tomorrow"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Завтра</b> я работаю.",
+                              "n": "Tomorrow I work."
+                          },
+                          {
+                              "t": "До <b>завтра</b>!",
+                              "n": "See you tomorrow!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "З",
+                      "word": "зима",
+                      "emoji": "❄️",
+                      "phonetic": "/zima/",
+                      "translation": "<b>зима</b> — winter",
+                      "translations": {
+                          "ru": "зима",
+                          "en": "winter"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Зима</b> холодная.",
+                              "n": "Winter is cold."
+                          },
+                          {
+                              "t": "Я люблю <b>зиму</b>.",
+                              "n": "I love winter."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "И",
+                      "word": "или",
+                      "emoji": "🔀",
+                      "phonetic": "/ili/",
+                      "translation": "<b>или</b> — or",
+                      "translations": {
+                          "ru": "или",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе?",
+                              "n": "Tea or coffee?"
+                          },
+                          {
+                              "t": "Это <b>или</b> то.",
+                              "n": "This or that."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "И",
+                      "word": "имя",
+                      "emoji": "📛",
+                      "phonetic": "/imya/",
+                      "translation": "<b>имя</b> — name",
+                      "translations": {
+                          "ru": "имя",
+                          "en": "name"
+                      },
+                      "examples": [
+                          {
+                              "t": "Моё <b>имя</b> Анна.",
+                              "n": "My name is Anna."
+                          },
+                          {
+                              "t": "Какое твоё <b>имя</b>?",
+                              "n": "What's your name?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_11",
+                      "isLetter": false,
+                      "letter": "Л",
+                      "word": "лес",
+                      "emoji": "🌲",
+                      "phonetic": "/les/",
+                      "translation": "<b>лес</b> — forest",
+                      "translations": {
+                          "ru": "лес",
+                          "en": "forest"
+                      },
+                      "examples": [
+                          {
+                              "t": "В <b>лесу</b> много деревьев.",
+                              "n": "There are many trees in the forest."
+                          },
+                          {
+                              "t": "Я гуляю в <b>лесу</b>.",
+                              "n": "I walk in the forest."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_12",
+                      "isLetter": false,
+                      "letter": "Л",
+                      "word": "люди",
+                      "emoji": "👥",
+                      "phonetic": "/lyudi/",
+                      "translation": "<b>люди</b> — people",
+                      "translations": {
+                          "ru": "люди",
+                          "en": "people"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Люди</b> здесь добрые.",
+                              "n": "People here are kind."
+                          },
+                          {
+                              "t": "Многие <b>люди</b> говорят по-русски.",
+                              "n": "Many people speak Russian."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_13",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "парк",
+                      "emoji": "🌳",
+                      "phonetic": "/park/",
+                      "translation": "<b>парк</b> — park",
+                      "translations": {
+                          "ru": "парк",
+                          "en": "park"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы идём в <b>парк</b>.",
+                              "n": "We're going to the park."
+                          },
+                          {
+                              "t": "Это большой <b>парк</b>.",
+                              "n": "This is a big park."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_14",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/privet/",
+                      "translation": "<b>привет</b> — hello (informal)",
+                      "translations": {
+                          "ru": "привет",
+                          "en": "hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>!",
+                              "n": "Hi!"
+                          },
+                          {
+                              "t": "<b>Привет</b>, как дела?",
+                              "n": "Hi, how are you?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_15",
+                      "isLetter": false,
+                      "letter": "Ф",
+                      "word": "фото",
+                      "emoji": "📷",
+                      "phonetic": "/foto/",
+                      "translation": "<b>фото</b> — photo",
+                      "translations": {
+                          "ru": "фото",
+                          "en": "photo"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это хорошее <b>фото</b>.",
+                              "n": "This is a good photo."
+                          },
+                          {
+                              "t": "Сделай <b>фото</b>!",
+                              "n": "Take a photo!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_16",
+                      "isLetter": false,
+                      "letter": "Ф",
+                      "word": "факт",
+                      "emoji": "📌",
+                      "phonetic": "/fakt/",
+                      "translation": "<b>факт</b> — fact",
+                      "translations": {
+                          "ru": "факт",
+                          "en": "fact"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>факт</b>.",
+                              "n": "This is a fact."
+                          },
+                          {
+                              "t": "Интересный <b>факт</b>.",
+                              "n": "Interesting fact."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_17",
+                      "isLetter": false,
+                      "letter": "Э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/eto/",
+                      "translation": "<b>это</b> — this is / this",
+                      "translations": {
+                          "ru": "это",
+                          "en": "this"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> книга.",
+                              "n": "This is a book."
+                          },
+                          {
+                              "t": "<b>Это</b> я.",
+                              "n": "This is me."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_18",
+                      "isLetter": false,
+                      "letter": "Э",
+                      "word": "этаж",
+                      "emoji": "🏢",
+                      "phonetic": "/etazh/",
+                      "translation": "<b>этаж</b> — floor/story",
+                      "translations": {
+                          "ru": "этаж",
+                          "en": "floor"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я живу на пятом <b>этаже</b>.",
+                              "n": "I live on the fifth floor."
+                          },
+                          {
+                              "t": "Какой <b>этаж</b>?",
+                              "n": "Which floor?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_19",
+                      "isLetter": false,
+                      "letter": "Ю",
+                      "word": "юг",
+                      "emoji": "🧭",
+                      "phonetic": "/yug/",
+                      "translation": "<b>юг</b> — south",
+                      "translations": {
+                          "ru": "юг",
+                          "en": "south"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы едем на <b>юг</b>.",
+                              "n": "We're going south."
+                          },
+                          {
+                              "t": "<b>Юг</b> — это тепло.",
+                              "n": "South means warm."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_20",
+                      "isLetter": false,
+                      "letter": "Ю",
+                      "word": "люблю",
+                      "emoji": "❤️",
+                      "phonetic": "/lyublyu/",
+                      "translation": "<b>люблю</b> — I love",
+                      "translations": {
+                          "ru": "люблю",
+                          "en": "I love"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я тебя <b>люблю</b>.",
+                              "n": "I love you."
+                          },
+                          {
+                              "t": "Я <b>люблю</b> кофе.",
+                              "n": "I love coffee."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_21",
+                      "isLetter": false,
+                      "letter": "Я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "/ya/",
+                      "translation": "<b>я</b> — I/me",
+                      "translations": {
+                          "ru": "я",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент.",
+                              "n": "I am a student."
+                          },
+                          {
+                              "t": "<b>Я</b> дома.",
+                              "n": "I am at home."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_22",
+                      "isLetter": false,
+                      "letter": "Я",
+                      "word": "язык",
+                      "emoji": "🗣️",
+                      "phonetic": "/yazyk/",
+                      "translation": "<b>язык</b> — language/tongue",
+                      "translations": {
+                          "ru": "язык",
+                          "en": "language"
+                      },
+                      "examples": [
+                          {
+                              "t": "Русский <b>язык</b> сложный.",
+                              "n": "The Russian language is difficult."
+                          },
+                          {
+                              "t": "Я учу <b>язык</b>.",
+                              "n": "I'm learning a language."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g3",
+              "name": "Sonidos únicos del ruso",
+              "icon": "🔣",
+              "color": "#10b981",
+              "description": "Ж Ш Щ Ч Х Ц Ъ Ь Ы — los sonidos más difíciles",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g3_L_zh",
+                      "isLetter": true,
+                      "letter": "Ж",
+                      "word": "Ж",
+                      "emoji": "🔤",
+                      "phonetic": "/ʒ/",
+                      "translation": "Sounds like the <i>s</i> in “trea<b>s</b>ure” or French <i>j</i>.<br>It’s a buzzing, vibrating sound.",
+                      "mnemonic": "Looks like a beetle with its legs spread. A beetle goes “zhzhzh”.",
+                      "examples": [
+                          {
+                              "t": "Ж is like the <b>Ж</b> in <b>жить</b> (to live).",
+                              "n": "Remember: life buzzes."
+                          },
+                          {
+                              "t": "It’s never soft, always hard and buzzing.",
+                              "n": "Practice: ж-ж-ж like a bee."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_sh",
+                      "isLetter": true,
+                      "letter": "Ш",
+                      "word": "Ш",
+                      "emoji": "🔤",
+                      "phonetic": "/ʃ/",
+                      "translation": "Sounds like <b>SH</b> in “<b>sh</b>oe”.<br>It’s a hard, hissing sound.",
+                      "mnemonic": "The shape looks like a comb with three teeth. Comb your hair and say “shhh”.",
+                      "examples": [
+                          {
+                              "t": "Ш is like <b>Ш</b> in <b>школа</b> (school).",
+                              "n": "School starts with a hiss."
+                          },
+                          {
+                              "t": "Always hard, never soft.",
+                              "n": "Think of a snake: shhh."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_shch",
+                      "isLetter": true,
+                      "letter": "Щ",
+                      "word": "Щ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕɕ/",
+                      "translation": "A soft, prolonged <b>SH</b> — like “<b>sh</b>” but with a smile, as if saying “<b>shee</b>” but longer.",
+                      "mnemonic": "It looks like a brush with three bristles. Brush your teeth and say “shhh” with a smile.",
+                      "examples": [
+                          {
+                              "t": "Щ is like <b>Щ</b> in <b>щи</b> (cabbage soup).",
+                              "n": "Hot soup makes you hiss softly."
+                          },
+                          {
+                              "t": "Compare: <span class=\"hl\">Ш</span> is hard, <span class=\"hl\">Щ</span> is soft.",
+                              "n": "Practice both."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ch",
+                      "isLetter": true,
+                      "letter": "Ч",
+                      "word": "Ч",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/",
+                      "translation": "Sounds like <b>CH</b> in “cheap” but softer, as if you’re whispering.",
+                      "mnemonic": "It looks like an upside-down chair. Sit and say “ch” quietly.",
+                      "examples": [
+                          {
+                              "t": "Ч is like <b>Ч</b> in <b>чай</b> (tea).",
+                              "n": "Tea is served with a soft ch."
+                          },
+                          {
+                              "t": "Always soft, never hard.",
+                              "n": "Practice: ч-ч-ч like a quiet train."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_kh",
+                      "isLetter": true,
+                      "letter": "Х",
+                      "word": "Х",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "Like the <b>j</b> in Spanish “<b>j</b>ota” — a strong h from the throat.",
+                      "mnemonic": "Looks like an X. Cross your arms and say “kh” like a Scottish “loch”.",
+                      "examples": [
+                          {
+                              "t": "Х is like <b>Х</b> in <b>хлеб</b> (bread).",
+                              "n": "Bread is a staple."
+                          },
+                          {
+                              "t": "No English equivalent, but Spanish <i>j</i> works.",
+                              "n": "Practice: kh-kh-kh."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ts",
+                      "isLetter": true,
+                      "letter": "Ц",
+                      "word": "Ц",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/",
+                      "translation": "Sounds like <b>ts</b> in “pi<b>tz</b>a” — a quick burst.",
+                      "mnemonic": "It looks like a claw or a crab. A crab snaps “ts-ts-ts”.",
+                      "examples": [
+                          {
+                              "t": "Ц is like <b>Ц</b> in <b>цена</b> (price).",
+                              "n": "Prices make you click your tongue."
+                          },
+                          {
+                              "t": "Always hard, never soft.",
+                              "n": "Think of “tsk tsk”."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_hard_sign",
+                      "isLetter": true,
+                      "letter": "Ъ",
+                      "word": "Ъ",
+                      "emoji": "🔤",
+                      "phonetic": "/-/",
+                      "translation": "The <b>hard sign</b> — it has no sound. It separates a prefix from a vowel, making the consonant hard.",
+                      "mnemonic": "It looks like a little hook. It hooks two parts together but stays silent.",
+                      "examples": [
+                          {
+                              "t": "In <b>объект</b> (object), the Ъ separates <i>об</i> and <i>ект</i>.",
+                              "n": "It’s like a hyphen."
+                          },
+                          {
+                              "t": "You never hear it, but it changes the sound.",
+                              "n": "Think of it as a silent guard."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_soft_sign",
+                      "isLetter": true,
+                      "letter": "Ь",
+                      "word": "Ь",
+                      "emoji": "🔤",
+                      "phonetic": "/ʲ/",
+                      "translation": "The <b>soft sign</b> — it has no sound itself, but it softens the previous consonant (like adding a <i>y</i> sound).",
+                      "mnemonic": "It looks like a soft, round wave. It makes consonants soft and gentle.",
+                      "examples": [
+                          {
+                              "t": "In <b>мать</b> (mother), the Ь softens the <b>т</b>.",
+                              "n": "Mother is soft."
+                          },
+                          {
+                              "t": "In <b>пять</b> (five), it softens <b>п</b>.",
+                              "n": "Five fingers, soft touch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_y",
+                      "isLetter": true,
+                      "letter": "Ы",
+                      "word": "Ы",
+                      "emoji": "🔤",
+                      "phonetic": "/ɨ/",
+                      "translation": "A unique vowel between <b>i</b> and <b>u</b>. No English equivalent — like saying “<b>ee</b>” with your tongue pulled back.",
+                      "mnemonic": "It looks like a stick with a ball. Imagine a person shrugging and saying “uh-ee”.",
+                      "examples": [
+                          {
+                              "t": "Ы is in <b>ты</b> (you) and <b>мы</b> (we).",
+                              "n": "Very common words."
+                          },
+                          {
+                              "t": "Practice: <span class=\"hl\">Ы</span> is deep, <span class=\"hl\">И</span> is high.",
+                              "n": "Feel the difference."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "жить",
+                      "emoji": "🌱",
+                      "phonetic": "/ʐɨtʲ/",
+                      "translation": "to live",
+                      "translations": {
+                          "ru": "жить",
+                          "en": "to live"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я хочу <b>жить</b> в Москве.",
+                              "n": "I want to live in Moscow."
+                          },
+                          {
+                              "t": "Он <b>живёт</b> здесь.",
+                              "n": "He lives here."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "муж",
+                      "emoji": "💍",
+                      "phonetic": "/muʂ/",
+                      "translation": "husband",
+                      "translations": {
+                          "ru": "муж",
+                          "en": "husband"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>муж</b> дома.",
+                              "n": "My husband is at home."
+                          },
+                          {
+                              "t": "У неё есть <b>муж</b>.",
+                              "n": "She has a husband."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "школа",
+                      "emoji": "🏫",
+                      "phonetic": "/ˈʂkolə/",
+                      "translation": "school",
+                      "translations": {
+                          "ru": "школа",
+                          "en": "school"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>школу</b>.",
+                              "n": "I go to school."
+                          },
+                          {
+                              "t": "Это моя <b>школа</b>.",
+                              "n": "This is my school."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "good, well",
+                      "translations": {
+                          "ru": "хорошо",
+                          "en": "good, well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Everything is good."
+                          },
+                          {
+                              "t": "Он говорит по-русски <b>хорошо</b>.",
+                              "n": "He speaks Russian well."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "щи",
+                      "emoji": "🍲",
+                      "phonetic": "/ɕɕi/",
+                      "translation": "cabbage soup",
+                      "translations": {
+                          "ru": "щи",
+                          "en": "cabbage soup"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я люблю <b>щи</b>.",
+                              "n": "I love cabbage soup."
+                          },
+                          {
+                              "t": "<b>Щи</b> — это русское блюдо.",
+                              "n": "Shchi is a Russian dish."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_06",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "ещё",
+                      "emoji": "🔄",
+                      "phonetic": "/jɪˈɕːo/",
+                      "translation": "still, more",
+                      "translations": {
+                          "ru": "ещё",
+                          "en": "still, more"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я хочу <b>ещё</b> чай.",
+                              "n": "I want more tea."
+                          },
+                          {
+                              "t": "Он <b>ещё</b> спит.",
+                              "n": "He is still sleeping."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_07",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "чай",
+                      "emoji": "🍵",
+                      "phonetic": "/tɕaj/",
+                      "translation": "tea",
+                      "translations": {
+                          "ru": "чай",
+                          "en": "tea"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>чай</b>.",
+                              "n": "I drink tea."
+                          },
+                          {
+                              "t": "Дайте мне <b>чай</b>, пожалуйста.",
+                              "n": "Give me tea, please."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_08",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/ʂto/",
+                      "translation": "what",
+                      "translations": {
+                          "ru": "что",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "What is this?"
+                          },
+                          {
+                              "t": "Я не знаю, <b>что</b> делать.",
+                              "n": "I don't know what to do."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_09",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хлеб",
+                      "emoji": "🍞",
+                      "phonetic": "/xlʲep/",
+                      "translation": "bread",
+                      "translations": {
+                          "ru": "хлеб",
+                          "en": "bread"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я ем <b>хлеб</b>.",
+                              "n": "I eat bread."
+                          },
+                          {
+                              "t": "Купи <b>хлеб</b>, пожалуйста.",
+                              "n": "Buy bread, please."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_10",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "good, well",
+                      "translations": {
+                          "ru": "хорошо",
+                          "en": "good, well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Everything is good."
+                          },
+                          {
+                              "t": "Я чувствую себя <b>хорошо</b>.",
+                              "n": "I feel well."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_11",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "цена",
+                      "emoji": "🏷️",
+                      "phonetic": "/tsɨˈna/",
+                      "translation": "price",
+                      "translations": {
+                          "ru": "цена",
+                          "en": "price"
+                      },
+                      "examples": [
+                          {
+                              "t": "Какая <b>цена</b>?",
+                              "n": "What is the price?"
+                          },
+                          {
+                              "t": "Это высокая <b>цена</b>.",
+                              "n": "That's a high price."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_12",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "отец",
+                      "emoji": "👨",
+                      "phonetic": "/ɐˈtʲets/",
+                      "translation": "father",
+                      "translations": {
+                          "ru": "отец",
+                          "en": "father"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>отец</b> работает.",
+                              "n": "My father works."
+                          },
+                          {
+                              "t": "Это мой <b>отец</b>.",
+                              "n": "This is my father."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_13",
+                      "isLetter": false,
+                      "letter": "Ъ",
+                      "word": "объект",
+                      "emoji": "📦",
+                      "phonetic": "/ɐbˈjekt/",
+                      "translation": "object",
+                      "translations": {
+                          "ru": "объект",
+                          "en": "object"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это важный <b>объект</b>.",
+                              "n": "This is an important object."
+                          },
+                          {
+                              "t": "Мы изучаем этот <b>объект</b>.",
+                              "n": "We study this object."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_14",
+                      "isLetter": false,
+                      "letter": "Ъ",
+                      "word": "съезд",
+                      "emoji": "🚗",
+                      "phonetic": "/sjest/",
+                      "translation": "congress, exit (road)",
+                      "translations": {
+                          "ru": "съезд",
+                          "en": "congress, exit (road)"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы едем на <b>съезд</b>.",
+                              "n": "We are going to the congress."
+                          },
+                          {
+                              "t": "Поверни на <b>съезд</b>.",
+                              "n": "Turn at the exit."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_15",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "мать",
+                      "emoji": "👩",
+                      "phonetic": "/matʲ/",
+                      "translation": "mother",
+                      "translations": {
+                          "ru": "мать",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Моя <b>мать</b> дома.",
+                              "n": "My mother is at home."
+                          },
+                          {
+                              "t": "Я люблю свою <b>мать</b>.",
+                              "n": "I love my mother."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_16",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "пять",
+                      "emoji": "✋",
+                      "phonetic": "/pʲatʲ/",
+                      "translation": "five",
+                      "translations": {
+                          "ru": "пять",
+                          "en": "five"
+                      },
+                      "examples": [
+                          {
+                              "t": "У меня <b>пять</b> книг.",
+                              "n": "I have five books."
+                          },
+                          {
+                              "t": "Мне <b>пять</b> лет.",
+                              "n": "I am five years old."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_17",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "you (singular)",
+                      "translations": {
+                          "ru": "ты",
+                          "en": "you (singular)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> дома?",
+                              "n": "Are you at home?"
+                          },
+                          {
+                              "t": "Я люблю <b>тебя</b>.",
+                              "n": "I love you."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_18",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/mɨ/",
+                      "translation": "we",
+                      "translations": {
+                          "ru": "мы",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> вместе.",
+                              "n": "We are together."
+                          },
+                          {
+                              "t": "<b>Мы</b> идём.",
+                              "n": "We are going."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_19",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "сын",
+                      "emoji": "👦",
+                      "phonetic": "/sɨn/",
+                      "translation": "son",
+                      "translations": {
+                          "ru": "сын",
+                          "en": "son"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>сын</b> учится.",
+                              "n": "My son is studying."
+                          },
+                          {
+                              "t": "У неё есть <b>сын</b>.",
+                              "n": "She has a son."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g4",
+              "name": "Primeras palabras rusas",
+              "icon": "📖",
+              "color": "#ef4444",
+              "description": "Leer y entender 20 palabras rusas esenciales",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2",
+                  "ru_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g4_01",
+                      "letter": "д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "da",
+                      "translation": "Sí",
+                      "translations": {
+                          "ru": "да",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я здесь.",
+                              "n": "Sí, estoy aquí."
+                          },
+                          {
+                              "t": "<b>Да</b>, это хорошо.",
+                              "n": "Sí, esto está bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_02",
+                      "letter": "н",
+                      "word": "нет",
+                      "emoji": "❌",
+                      "phonetic": "nyet",
+                      "translation": "No",
+                      "translations": {
+                          "ru": "нет",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, gracias."
+                          },
+                          {
+                              "t": "Это <b>нет</b> так.",
+                              "n": "Esto no es así."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_03",
+                      "letter": "п",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "pree-vyet",
+                      "translation": "Hola (informal)",
+                      "translations": {
+                          "ru": "привет",
+                          "en": "hi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>, как дела?",
+                              "n": "Hola, ¿cómo estás?"
+                          },
+                          {
+                              "t": "<b>Привет</b>, я ты.",
+                              "n": "Hola, soy yo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_04",
+                      "letter": "п",
+                      "word": "пока",
+                      "emoji": "👋",
+                      "phonetic": "pa-KA",
+                      "translation": "Adiós (informal), hasta luego",
+                      "translations": {
+                          "ru": "пока",
+                          "en": "bye"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Пока</b>, до встречи!",
+                              "n": "¡Adiós, hasta la vista!"
+                          },
+                          {
+                              "t": "Ну, <b>пока</b>!",
+                              "n": "¡Bueno, hasta luego!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_05",
+                      "letter": "с",
+                      "word": "спасибо",
+                      "emoji": "🙏",
+                      "phonetic": "spa-SEE-ba",
+                      "translation": "Gracias",
+                      "translations": {
+                          "ru": "спасибо",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Спасибо</b> большое!",
+                              "n": "¡Muchas gracias!"
+                          },
+                          {
+                              "t": "Скажи <b>спасибо</b>.",
+                              "n": "Di gracias."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_06",
+                      "letter": "п",
+                      "word": "пожалуйста",
+                      "emoji": "🙏",
+                      "phonetic": "pa-ZHA-lus-ta",
+                      "translation": "Por favor; de nada",
+                      "translations": {
+                          "ru": "пожалуйста",
+                          "en": "please; you're welcome"
+                      },
+                      "examples": [
+                          {
+                              "t": "Скажи <b>пожалуйста</b>.",
+                              "n": "Di por favor."
+                          },
+                          {
+                              "t": "— Спасибо! — <b>Пожалуйста</b>.",
+                              "n": "— ¡Gracias! — De nada."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_07",
+                      "letter": "к",
+                      "word": "как дела?",
+                      "emoji": "❓",
+                      "phonetic": "kak de-LA",
+                      "translation": "¿Cómo estás? (literal: cómo van las cosas)",
+                      "translations": {
+                          "ru": "как дела?",
+                          "en": "how are you?"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Как дела</b>?",
+                              "n": "¿Cómo estás?"
+                          },
+                          {
+                              "t": "Ну, <b>как дела</b>?",
+                              "n": "Bueno, ¿cómo te va?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_08",
+                      "letter": "х",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "ha-ra-SHO",
+                      "translation": "Bien, bueno",
+                      "translations": {
+                          "ru": "хорошо",
+                          "en": "good, well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Todo está bien."
+                          },
+                          {
+                              "t": "Это <b>хорошо</b>.",
+                              "n": "Esto es bueno."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_09",
+                      "letter": "я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "ya",
+                      "translation": "Yo",
+                      "translations": {
+                          "ru": "я",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> здесь.",
+                              "n": "Yo estoy aquí."
+                          },
+                          {
+                              "t": "<b>Я</b> и ты.",
+                              "n": "Yo y tú."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_10",
+                      "letter": "т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "ty",
+                      "translation": "Tú (informal)",
+                      "translations": {
+                          "ru": "ты",
+                          "en": "you (singular informal)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> здесь.",
+                              "n": "Tú estás aquí."
+                          },
+                          {
+                              "t": "Как <b>ты</b>?",
+                              "n": "¿Cómo estás tú?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_11",
+                      "letter": "о",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "on",
+                      "translation": "Él",
+                      "translations": {
+                          "ru": "он",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> там.",
+                              "n": "Él está allí."
+                          },
+                          {
+                              "t": "<b>Он</b> и она.",
+                              "n": "Él y ella."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_12",
+                      "letter": "о",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "a-NA",
+                      "translation": "Ella",
+                      "translations": {
+                          "ru": "она",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Она</b> здесь.",
+                              "n": "Ella está aquí."
+                          },
+                          {
+                              "t": "<b>Она</b> и он.",
+                              "n": "Ella y él."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_13",
+                      "letter": "м",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "my",
+                      "translation": "Nosotros/nosotras",
+                      "translations": {
+                          "ru": "мы",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> здесь.",
+                              "n": "Nosotros estamos aquí."
+                          },
+                          {
+                              "t": "<b>Мы</b> и вы.",
+                              "n": "Nosotros y vosotros."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_14",
+                      "letter": "ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "shto",
+                      "translation": "Qué",
+                      "translations": {
+                          "ru": "что",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "¿Qué es esto?"
+                          },
+                          {
+                              "t": "<b>Что</b> ты?",
+                              "n": "¿Qué tú? (informal)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_15",
+                      "letter": "г",
+                      "word": "где",
+                      "emoji": "📍",
+                      "phonetic": "gdye",
+                      "translation": "Dónde",
+                      "translations": {
+                          "ru": "где",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> ты?",
+                              "n": "¿Dónde estás?"
+                          },
+                          {
+                              "t": "<b>Где</b> это?",
+                              "n": "¿Dónde está esto?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_16",
+                      "letter": "з",
+                      "word": "здесь",
+                      "emoji": "📍",
+                      "phonetic": "zdyes'",
+                      "translation": "Aquí",
+                      "translations": {
+                          "ru": "здесь",
+                          "en": "here"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>здесь</b>.",
+                              "n": "Yo estoy aquí."
+                          },
+                          {
+                              "t": "Он <b>здесь</b>.",
+                              "n": "Él está aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_17",
+                      "letter": "т",
+                      "word": "там",
+                      "emoji": "📍",
+                      "phonetic": "tam",
+                      "translation": "Allí, allá",
+                      "translations": {
+                          "ru": "там",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Она <b>там</b>.",
+                              "n": "Ella está allí."
+                          },
+                          {
+                              "t": "Книга <b>там</b>.",
+                              "n": "El libro está allí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_18",
+                      "letter": "э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "E-ta",
+                      "translation": "Esto, eso",
+                      "translations": {
+                          "ru": "это",
+                          "en": "this, that"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> хорошо.",
+                              "n": "Esto está bien."
+                          },
+                          {
+                              "t": "Что <b>это</b>?",
+                              "n": "¿Qué es esto?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_19",
+                      "letter": "и",
+                      "word": "и",
+                      "emoji": "🔗",
+                      "phonetic": "ee",
+                      "translation": "Y (conjunción)",
+                      "translations": {
+                          "ru": "и",
+                          "en": "and"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>и</b> ты.",
+                              "n": "Yo y tú."
+                          },
+                          {
+                              "t": "Он <b>и</b> она.",
+                              "n": "Él y ella."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_20",
+                      "letter": "и",
+                      "word": "или",
+                      "emoji": "🔀",
+                      "phonetic": "EE-lee",
+                      "translation": "O (conjunción)",
+                      "translations": {
+                          "ru": "или",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>или</b> то.",
+                              "n": "Esto o eso."
+                          },
+                          {
+                              "t": "Ты <b>или</b> я.",
+                              "n": "Tú o yo."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
   // RUSO
   // ──────────────────────────────────────────────────────
   ru: {
@@ -21731,6 +29321,7625 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "ru": "или",
                           "es": "o",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе?",
+                              "n": "¿Té o café?"
+                          },
+                          {
+                              "t": "Сегодня <b>или</b> завтра?",
+                              "n": "¿Hoy o mañana?"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // RU_FR
+  // ──────────────────────────────────────────────────────
+  ru_fr: {
+      "level": "A0",
+      "levelName": "El alfabeto cirílico",
+      "groups": [
+          {
+              "id": "ru_a0_g1",
+              "name": "Letras parecidas al latín",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "А Е О М Т К В Н Р С — entrada fácil al cirílico",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ru_a0_g1_L_a",
+                      "isLetter": true,
+                      "letter": "А",
+                      "word": "А",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Sonido <b>a</b> como en español. Letra idéntica a la <i>A latina</i>.",
+                      "mnemonic": "Es una A latina tal cual, solo que siempre suena como 'a' de 'casa'.",
+                      "examples": [
+                          {
+                              "t": "<b>А</b> es la primera letra del alfabeto ruso.",
+                              "n": "A es la primera letra del alfabeto ruso."
+                          },
+                          {
+                              "t": "Mira la palabra <b>мама</b> – la <b>а</b> suena igual que en español.",
+                              "n": "Observa la palabra 'mamá' – la 'a' suena igual que en español."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_e",
+                      "isLetter": true,
+                      "letter": "Е",
+                      "word": "Е",
+                      "emoji": "🔤",
+                      "phonetic": "/je/",
+                      "translation": "Suena <b>ye</b> como en 'yema'. Se escribe como la <i>E latina</i>, pero no suena como 'e'.",
+                      "mnemonic": "La <span class='hl'>Е</span> es una E con acento ruso: siempre dice 'ye'.",
+                      "examples": [
+                          {
+                              "t": "Di <b>Е</b> como 'ye' en <i>yema</i>.",
+                              "n": "Di Е como 'ye' en 'yema'."
+                          },
+                          {
+                              "t": "En <b>нет</b> (no), la <b>е</b> suena 'ye' – <i>nyet</i>.",
+                              "n": "En 'нет' (no), la e suena 'ye' – nyet."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_o",
+                      "isLetter": true,
+                      "letter": "О",
+                      "word": "О",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Sonido <b>o</b> como en español. Letra idéntica a la <i>O latina</i>.",
+                      "mnemonic": "Un círculo perfecto: es una O redonda como una pelota.",
+                      "examples": [
+                          {
+                              "t": "<b>О</b> suena siempre como 'o' en 'sol'.",
+                              "n": "O suena siempre como 'o' en 'sol'."
+                          },
+                          {
+                              "t": "La palabra <b>он</b> (él) empieza con <b>о</b>.",
+                              "n": "La palabra 'on' (él) empieza con o."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_m",
+                      "isLetter": true,
+                      "letter": "М",
+                      "word": "М",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Sonido <b>m</b> como en español. Letra idéntica a la <i>M latina</i>.",
+                      "mnemonic": "Misma M, mismo sonido: no hay trampa.",
+                      "examples": [
+                          {
+                              "t": "<b>М</b> es igual que la M de 'mamá'.",
+                              "n": "M es igual que la M de 'mamá'."
+                          },
+                          {
+                              "t": "Di <b>мир</b> (paz/mundo) – <i>mir</i>.",
+                              "n": "Di 'mir' (paz/mundo)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_t",
+                      "isLetter": true,
+                      "letter": "Т",
+                      "word": "Т",
+                      "emoji": "🔤",
+                      "phonetic": "/t/",
+                      "translation": "Sonido <b>t</b> como en español. Letra idéntica a la <i>T latina</i>.",
+                      "mnemonic": "Es una T normal, solo que un poco más estilizada.",
+                      "examples": [
+                          {
+                              "t": "<b>Т</b> suena como la 't' de 'taza'.",
+                              "n": "T suena como la 't' de 'taza'."
+                          },
+                          {
+                              "t": "La palabra <b>ты</b> (tú) – <i>ty</i>.",
+                              "n": "La palabra 'ty' (tú)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_k",
+                      "isLetter": true,
+                      "letter": "К",
+                      "word": "К",
+                      "emoji": "🔤",
+                      "phonetic": "/k/",
+                      "translation": "Sonido <b>k</b> como en español. Letra idéntica a la <i>K latina</i>.",
+                      "mnemonic": "Es una K sin el palito superior: pero suena igual.",
+                      "examples": [
+                          {
+                              "t": "<b>К</b> suena como la 'k' de 'kilo'.",
+                              "n": "K suena como la 'k' de 'kilo'."
+                          },
+                          {
+                              "t": "Pregunta <b>кто</b> (quién) – <i>kto</i>.",
+                              "n": "Pregunta 'kto' (quién)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_v",
+                      "isLetter": true,
+                      "letter": "В",
+                      "word": "В",
+                      "emoji": "🔤",
+                      "phonetic": "/v/",
+                      "translation": "Suena <b>v</b> como en 'vaca'. Se ve como una <i>B latina</i>, pero es una <span class='hl'>V</span>.",
+                      "mnemonic": "Parece una B, pero en ruso es una <span class='hl'>V</span> – ¡cuidado!",
+                      "examples": [
+                          {
+                              "t": "La <b>В</b> se parece a la B, pero suena <b>v</b>.",
+                              "n": "La В se parece a la B, pero suena v."
+                          },
+                          {
+                              "t": "La palabra <b>вода</b> (agua) suena <i>vada</i>.",
+                              "n": "La palabra 'vada' (agua)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_n",
+                      "isLetter": true,
+                      "letter": "Н",
+                      "word": "Н",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Suena <b>n</b> como en español. Se ve como una <i>H latina</i>, pero es una <span class='hl'>N</span>.",
+                      "mnemonic": "La <span class='hl'>Н</span> es una H con sonido de N – es una N escondida.",
+                      "examples": [
+                          {
+                              "t": "La <b>Н</b> parece una H, pero suena <b>n</b>.",
+                              "n": "La Н parece una H, pero suena n."
+                          },
+                          {
+                              "t": "La palabra <b>но</b> (pero) suena <i>no</i>.",
+                              "n": "La palabra 'no' (pero)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_r",
+                      "isLetter": true,
+                      "letter": "Р",
+                      "word": "Р",
+                      "emoji": "🔤",
+                      "phonetic": "/r/",
+                      "translation": "Suena <b>r</b> fuerte (vibrante). Se ve como una <i>P latina</i>, pero es una <span class='hl'>R</span>.",
+                      "mnemonic": "La <span class='hl'>Р</span> es una P con sonido de R – es una R con la cola hacia abajo.",
+                      "examples": [
+                          {
+                              "t": "La <b>Р</b> parece una P, pero suena <b>r</b> (como en 'perro').",
+                              "n": "La Р parece una P, pero suena r (como en 'perro')."
+                          },
+                          {
+                              "t": "El país <b>Россия</b> (Rusia) empieza con <b>Р</b>.",
+                              "n": "El país 'Rossiya' (Rusia) empieza con Р."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_s",
+                      "isLetter": true,
+                      "letter": "С",
+                      "word": "С",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Suena <b>s</b> como en español. Se ve como una <i>C latina</i>, pero es una <span class='hl'>S</span>.",
+                      "mnemonic": "La <span class='hl'>С</span> es una C con sonido de S – es una S sin el palito.",
+                      "examples": [
+                          {
+                              "t": "La <b>С</b> parece una C, pero suena <b>s</b>.",
+                              "n": "La С parece una C, pero suena s."
+                          },
+                          {
+                              "t": "La palabra <b>сон</b> (sueño) suena <i>son</i>.",
+                              "n": "La palabra 'son' (sueño)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "А",
+                      "word": "мама",
+                      "emoji": "👩‍👧",
+                      "phonetic": "/ˈmamə/",
+                      "translation": "mamá – <b>мама</b> es igual que en español, pero con la <b>а</b> rusa.",
+                      "translations": {
+                          "ru": "мама",
+                          "fr": "maman",
+                          "en": "mom"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мама</b> дома.",
+                              "n": "Mamá está en casa."
+                          },
+                          {
+                              "t": "Моя <b>мама</b> – врач.",
+                              "n": "Mi mamá es médica."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "А",
+                      "word": "папа",
+                      "emoji": "👨‍👧",
+                      "phonetic": "/ˈpapə/",
+                      "translation": "papá – <b>папа</b> es un falso amigo: se ve igual que en español, pero suena con <b>а</b>.",
+                      "translations": {
+                          "ru": "папа",
+                          "fr": "papa",
+                          "en": "dad"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Папа</b> работает.",
+                              "n": "Papá trabaja."
+                          },
+                          {
+                              "t": "Это мой <b>папа</b>.",
+                              "n": "Este es mi papá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "нет",
+                      "emoji": "🚫",
+                      "phonetic": "/nʲet/",
+                      "translation": "no – la <b>е</b> suena <i>ye</i>, como en 'yema'.",
+                      "translations": {
+                          "ru": "нет",
+                          "fr": "non",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, я не знаю.",
+                              "n": "No, no sé."
+                          },
+                          {
+                              "t": "У меня <b>нет</b> времени.",
+                              "n": "No tengo tiempo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "где",
+                      "emoji": "❓",
+                      "phonetic": "/ɡdʲe/",
+                      "translation": "dónde – la <b>е</b> suena <i>ye</i> al final.",
+                      "translations": {
+                          "ru": "где",
+                          "fr": "où",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "¿Dónde está el baño?"
+                          },
+                          {
+                              "t": "<b>Где</b> мама?",
+                              "n": "¿Dónde está mamá?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "él – la <b>о</b> suena como 'o' en español.",
+                      "translations": {
+                          "ru": "он",
+                          "fr": "il",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> дома.",
+                              "n": "Él está en casa."
+                          },
+                          {
+                              "t": "<b>Он</b> мой друг.",
+                              "n": "Él es mi amigo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "/ɐˈna/",
+                      "translation": "ella – la <b>о</b> se pronuncia casi como 'a' en la primera sílaba.",
+                      "translations": {
+                          "ru": "она",
+                          "fr": "elle",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Она</b> красивая.",
+                              "n": "Ella es bonita."
+                          },
+                          {
+                              "t": "<b>Она</b> здесь.",
+                              "n": "Ella está aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мир",
+                      "emoji": "🕊️",
+                      "phonetic": "/mʲir/",
+                      "translation": "paz / mundo – la <b>м</b> suena como 'm'.",
+                      "translations": {
+                          "ru": "мир",
+                          "fr": "paix / monde",
+                          "en": "peace/world"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы хотим <b>мир</b>.",
+                              "n": "Queremos paz."
+                          },
+                          {
+                              "t": "Весь <b>мир</b> знает.",
+                              "n": "Todo el mundo lo sabe."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мой",
+                      "emoji": "🙋",
+                      "phonetic": "/moj/",
+                      "translation": "mi (masculino) – la <b>м</b> suena como 'm'.",
+                      "translations": {
+                          "ru": "мой",
+                          "fr": "mon (masculin)",
+                          "en": "my (masculine)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мой</b> брат – студент.",
+                              "n": "Mi hermano es estudiante."
+                          },
+                          {
+                              "t": "Это <b>мой</b> дом.",
+                              "n": "Esta es mi casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "tú – la <b>т</b> suena como 't'.",
+                      "translations": {
+                          "ru": "ты",
+                          "fr": "tu",
+                          "en": "you (informal)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> дома?",
+                              "n": "¿Estás en casa?"
+                          },
+                          {
+                              "t": "<b>Ты</b> мой друг.",
+                              "n": "Tú eres mi amigo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "там",
+                      "emoji": "📍",
+                      "phonetic": "/tam/",
+                      "translation": "allí – la <b>т</b> suena como 't'.",
+                      "translations": {
+                          "ru": "там",
+                          "fr": "là-bas",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Книга <b>там</b>.",
+                              "n": "El libro está allí."
+                          },
+                          {
+                              "t": "<b>Там</b> хорошо.",
+                              "n": "Allí es agradable."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_11",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "как",
+                      "emoji": "❓",
+                      "phonetic": "/kak/",
+                      "translation": "cómo – la <b>к</b> suena como 'k'.",
+                      "translations": {
+                          "ru": "как",
+                          "fr": "comment",
+                          "en": "how"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Как</b> дела?",
+                              "n": "¿Cómo estás?"
+                          },
+                          {
+                              "t": "<b>Как</b> тебя зовут?",
+                              "n": "¿Cómo te llamas?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_12",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "кто",
+                      "emoji": "👤",
+                      "phonetic": "/kto/",
+                      "translation": "quién – la <b>к</b> suena como 'k'.",
+                      "translations": {
+                          "ru": "кто",
+                          "fr": "qui",
+                          "en": "who"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Кто</b> это?",
+                              "n": "¿Quién es?"
+                          },
+                          {
+                              "t": "<b>Кто</b> там?",
+                              "n": "¿Quién está allí?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_13",
+                      "isLetter": false,
+                      "letter": "В",
+                      "word": "вода",
+                      "emoji": "💧",
+                      "phonetic": "/vɐˈda/",
+                      "translation": "agua – la <b>в</b> suena como <b>v</b>, no como <i>b</i>.",
+                      "translations": {
+                          "ru": "вода",
+                          "fr": "eau",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>воду</b>.",
+                              "n": "Bebo agua."
+                          },
+                          {
+                              "t": "<b>Вода</b> холодная.",
+                              "n": "El agua está fría."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_14",
+                      "isLetter": false,
+                      "letter": "В",
+                      "word": "вот",
+                      "emoji": "👉",
+                      "phonetic": "/vot/",
+                      "translation": "aquí está – la <b>в</b> suena como <b>v</b>.",
+                      "translations": {
+                          "ru": "вот",
+                          "fr": "voici",
+                          "en": "here is"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Вот</b> мой дом.",
+                              "n": "Aquí está mi casa."
+                          },
+                          {
+                              "t": "<b>Вот</b> твой кофе.",
+                              "n": "Aquí está tu café."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_15",
+                      "isLetter": false,
+                      "letter": "Н",
+                      "word": "но",
+                      "emoji": "🔄",
+                      "phonetic": "/no/",
+                      "translation": "pero – la <b>н</b> suena como <b>n</b>, no como <i>h</i>.",
+                      "translations": {
+                          "ru": "но",
+                          "fr": "mais",
+                          "en": "but"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я хочу, <b>но</b> не могу.",
+                              "n": "Quiero, pero no puedo."
+                          },
+                          {
+                              "t": "<b>Но</b> это дорого.",
+                              "n": "Pero es caro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_16",
+                      "isLetter": false,
+                      "letter": "Н",
+                      "word": "нет",
+                      "emoji": "🚫",
+                      "phonetic": "/nʲet/",
+                      "translation": "no – la <b>н</b> suena como <b>n</b>.",
+                      "translations": {
+                          "ru": "нет",
+                          "fr": "non",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, gracias."
+                          },
+                          {
+                              "t": "У меня <b>нет</b> денег.",
+                              "n": "No tengo dinero."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_17",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "Россия",
+                      "emoji": "🇷🇺",
+                      "phonetic": "/rɐˈsʲijə/",
+                      "translation": "Rusia – la <b>р</b> suena como <b>r</b> fuerte, no como <i>p</i>.",
+                      "translations": {
+                          "ru": "Россия",
+                          "fr": "Russie",
+                          "en": "Russia"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я из <b>России</b>.",
+                              "n": "Soy de Rusia."
+                          },
+                          {
+                              "t": "<b>Россия</b> – большая страна.",
+                              "n": "Rusia es un país grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_18",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "рад",
+                      "emoji": "😊",
+                      "phonetic": "/rat/",
+                      "translation": "contento (masculino) – la <b>р</b> suena como <b>r</b>.",
+                      "translations": {
+                          "ru": "рад",
+                          "fr": "content (masculin)",
+                          "en": "glad"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>рад</b> тебя видеть.",
+                              "n": "Me alegra verte."
+                          },
+                          {
+                              "t": "Он <b>рад</b>.",
+                              "n": "Él está contento."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_19",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сон",
+                      "emoji": "😴",
+                      "phonetic": "/son/",
+                      "translation": "sueño – la <b>с</b> suena como <b>s</b>, no como <i>c</i>.",
+                      "translations": {
+                          "ru": "сон",
+                          "fr": "sommeil / rêve",
+                          "en": "sleep/dream"
+                      },
+                      "examples": [
+                          {
+                              "t": "У меня был хороший <b>сон</b>.",
+                              "n": "Tuve un buen sueño."
+                          },
+                          {
+                              "t": "Мне нужен <b>сон</b>.",
+                              "n": "Necesito dormir."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_20",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сок",
+                      "emoji": "🧃",
+                      "phonetic": "/sok/",
+                      "translation": "zumo – la <b>с</b> suena como <b>s</b>.",
+                      "translations": {
+                          "ru": "сок",
+                          "fr": "jus",
+                          "en": "juice"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью яблочный <b>сок</b>.",
+                              "n": "Bebo zumo de manzana."
+                          },
+                          {
+                              "t": "Этот <b>сок</b> вкусный.",
+                              "n": "Este zumo está rico."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g2",
+              "name": "Letras nuevas — sonidos conocidos",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "Б Г Д З И Л П Ф Э Ю Я — formas nuevas, sonidos familiares",
+              "reviewFrom": [
+                  "ru_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "Б",
+                      "word": "Б",
+                      "emoji": "🔤",
+                      "phonetic": "/b/",
+                      "translation": "<b>Б</b> — sonido <b>B</b> del español. <i>Como en «<span class=\"hl\">b</span>anco»</i>.",
+                      "mnemonic": "Parece una B con una barriga extra abajo — piensa en «B con panza».",
+                      "examples": [
+                          {
+                              "t": "<b>Б</b>рат — <i>hermano</i>.<br>La Б es la B con una panza.",
+                              "n": "La letra Б suena como la B española."
+                          },
+                          {
+                              "t": "<b>Б</b>анк — <i>banco</i>.<br>Palabra casi igual al español.",
+                              "n": "Préstamo directo, fácil de recordar."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "Г",
+                      "word": "Г",
+                      "emoji": "🔤",
+                      "phonetic": "/g/",
+                      "translation": "<b>Г</b> — sonido <b>G</b> dura, <i>siempre como en «<span class=\"hl\">g</span>ato»</i>.",
+                      "mnemonic": "Parece una Γ griega (gamma) — y suena como la G de «gamma».",
+                      "examples": [
+                          {
+                              "t": "<b>Г</b>де — <i>dónde</i>.<br>La Г es una gamma griega.",
+                              "n": "Pregunta clave para ubicarse."
+                          },
+                          {
+                              "t": "<b>Г</b>од — <i>año</i>.<br>La G siempre es dura en ruso.",
+                              "n": "Nunca suena como la J española."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "Д",
+                      "word": "Д",
+                      "emoji": "🔤",
+                      "phonetic": "/d/",
+                      "translation": "<b>Д</b> — sonido <b>D</b> del español. <i>Como en «<span class=\"hl\">d</span>edo»</i>.",
+                      "mnemonic": "Parece una casa vista de frente — la D de «дом» (casa).",
+                      "examples": [
+                          {
+                              "t": "<b>Д</b>а — <i>sí</i>.<br>La Д es una casita con techo.",
+                              "n": "La palabra más útil para afirmar."
+                          },
+                          {
+                              "t": "<b>Д</b>ом — <i>casa</i>.<br>La Д se parece a una casa.",
+                              "n": "Mnemotecnia visual perfecta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "З",
+                      "word": "З",
+                      "emoji": "🔤",
+                      "phonetic": "/z/",
+                      "translation": "<b>З</b> — sonido <b>S</b> sonora, <i>como la S de «<span class=\"hl\">mi</span>smo»</i>.",
+                      "mnemonic": "Es un 3 con una S encima — «3 con S» = Zumbido.",
+                      "examples": [
+                          {
+                              "t": "<b>З</b>автра — <i>mañana</i>.<br>La З es un 3 con una S.",
+                              "n": "Zumbido como una abeja."
+                          },
+                          {
+                              "t": "<b>З</b>има — <i>invierno</i>.<br>La З vibra como una S sonora.",
+                              "n": "Contraste con la S sorda del español."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_i",
+                      "isLetter": true,
+                      "letter": "И",
+                      "word": "И",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "<b>И</b> — sonido <b>I</b> del español. <i>Como en «<span class=\"hl\">i</span>glesia»</i>.",
+                      "mnemonic": "Parece una N invertida con una línea — «N al revés» = I.",
+                      "examples": [
+                          {
+                              "t": "<b>И</b>ли — <i>o</i>.<br>La И es una N invertida.",
+                              "n": "Conjunción clave para alternativas."
+                          },
+                          {
+                              "t": "<b>И</b>мя — <i>nombre</i>.<br>La И suena como la I española.",
+                              "n": "Palabra esencial para presentarse."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "Л",
+                      "word": "Л",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "<b>Л</b> — sonido <b>L</b> del español. <i>Como en «<span class=\"hl\">l</span>una»</i>.",
+                      "mnemonic": "Parece una L con una pata que se dobla — «L con pie».",
+                      "examples": [
+                          {
+                              "t": "<b>Л</b>ес — <i>bosque</i>.<br>La Л es una L con un pie.",
+                              "n": "La Л tiene una patita extra."
+                          },
+                          {
+                              "t": "<b>Л</b>юди — <i>gente</i>.<br>La Л suena como la L española.",
+                              "n": "Palabra útil para hablar de personas."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "П",
+                      "word": "П",
+                      "emoji": "🔤",
+                      "phonetic": "/p/",
+                      "translation": "<b>П</b> — sonido <b>P</b> del español. <i>Como en «<span class=\"hl\">p</span>ato»</i>.",
+                      "mnemonic": "Parece la letra griega π (pi) — y suena como P, ¡fácil!",
+                      "examples": [
+                          {
+                              "t": "<b>П</b>арк — <i>parque</i>.<br>La П es la π griega.",
+                              "n": "Palabra internacional, fácil."
+                          },
+                          {
+                              "t": "<b>П</b>ривет — <i>hola</i>.<br>La П suena como P siempre.",
+                              "n": "Saludo esencial para empezar."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "Ф",
+                      "word": "Ф",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "<b>Ф</b> — sonido <b>F</b> del español. <i>Como en «<span class=\"hl\">f</span>oto»</i>.",
+                      "mnemonic": "Parece una F con dos brazos — «F con hombros».",
+                      "examples": [
+                          {
+                              "t": "<b>Ф</b>ото — <i>foto</i>.<br>La Ф es una F con bracitos.",
+                              "n": "Préstamo directo del griego."
+                          },
+                          {
+                              "t": "<b>Ф</b>акт — <i>hecho</i>.<br>La Ф suena como F siempre.",
+                              "n": "Palabra internacional."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_e",
+                      "isLetter": true,
+                      "letter": "Э",
+                      "word": "Э",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "<b>Э</b> — sonido <b>E</b> abierta, <i>sin deslizar hacia Y</i>.",
+                      "mnemonic": "Es una E al revés — «E espejada» = E abierta.",
+                      "examples": [
+                          {
+                              "t": "<b>Э</b>то — <i>esto</i>.<br>La Э es una E al revés.",
+                              "n": "Palabra clave para señalar."
+                          },
+                          {
+                              "t": "<b>Э</b>таж — <i>planta/piso</i>.<br>La Э no tiene el sonido «ye».",
+                              "n": "Contraste con la Е que verás después."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_yu",
+                      "isLetter": true,
+                      "letter": "Ю",
+                      "word": "Ю",
+                      "emoji": "🔤",
+                      "phonetic": "/ju/",
+                      "translation": "<b>Ю</b> — sonido <b>«you»</b> en inglés. <i>Como «<span class=\"hl\">yu</span>» en «yuca»</i>.",
+                      "mnemonic": "Parece una O con una I pegada — «IO» = Ю, suena «yu».",
+                      "examples": [
+                          {
+                              "t": "<b>Ю</b>г — <i>sur</i>.<br>La Ю es una O con una I.",
+                              "n": "Dirección cardinal útil."
+                          },
+                          {
+                              "t": "Я тебя любл<b>ю</b> — <i>te quiero</i>.<br>La Ю suena «yu».",
+                              "n": "Frase romántica para practicar."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_ya",
+                      "isLetter": true,
+                      "letter": "Я",
+                      "word": "Я",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "<b>Я</b> — sonido <b>«ya»</b> como en «<span class=\"hl\">ya</span>te».",
+                      "mnemonic": "Parece una R al revés con una pata — «R espejada» = ya.",
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> — <i>yo</i>.<br>La Я es una R al revés.",
+                              "n": "La palabra más importante: yo."
+                          },
+                          {
+                              "t": "<b>Я</b>зык — <i>idioma/lengua</i>.<br>La Я suena «ya».",
+                              "n": "Palabra clave para aprender idiomas."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "Б",
+                      "word": "брат",
+                      "emoji": "👬",
+                      "phonetic": "/brat/",
+                      "translation": "<b>hermano</b>",
+                      "translations": {
+                          "ru": "брат",
+                          "fr": "frère",
+                          "en": "brother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это мой <b>брат</b>.",
+                              "n": "Este es mi hermano."
+                          },
+                          {
+                              "t": "У меня есть <b>брат</b>.",
+                              "n": "Tengo un hermano."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "Б",
+                      "word": "банк",
+                      "emoji": "🏦",
+                      "phonetic": "/bank/",
+                      "translation": "<b>banco</b> (institución)",
+                      "translations": {
+                          "ru": "банк",
+                          "fr": "banque",
+                          "en": "bank"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>банк</b>.",
+                              "n": "Voy al banco."
+                          },
+                          {
+                              "t": "<b>Банк</b> работает.",
+                              "n": "El banco está abierto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "Г",
+                      "word": "где",
+                      "emoji": "❓",
+                      "phonetic": "/gdʲe/",
+                      "translation": "<b>dónde</b>",
+                      "translations": {
+                          "ru": "где",
+                          "fr": "où",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "¿Dónde está el baño?"
+                          },
+                          {
+                              "t": "<b>Где</b> ты?",
+                              "n": "¿Dónde estás?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "Г",
+                      "word": "год",
+                      "emoji": "📅",
+                      "phonetic": "/got/",
+                      "translation": "<b>año</b>",
+                      "translations": {
+                          "ru": "год",
+                          "fr": "an, année",
+                          "en": "year"
+                      },
+                      "examples": [
+                          {
+                              "t": "Какой сейчас <b>год</b>?",
+                              "n": "¿En qué año estamos?"
+                          },
+                          {
+                              "t": "С Новым <b>годом</b>!",
+                              "n": "¡Feliz Año Nuevo!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "<b>sí</b>",
+                      "translations": {
+                          "ru": "да",
+                          "fr": "oui",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я понимаю.",
+                              "n": "Sí, entiendo."
+                          },
+                          {
+                              "t": "<b>Да</b> или нет?",
+                              "n": "¿Sí o no?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "дом",
+                      "emoji": "🏠",
+                      "phonetic": "/dom/",
+                      "translation": "<b>casa</b>",
+                      "translations": {
+                          "ru": "дом",
+                          "fr": "maison",
+                          "en": "house, home"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это мой <b>дом</b>.",
+                              "n": "Esta es mi casa."
+                          },
+                          {
+                              "t": "Я дома.",
+                              "n": "Estoy en casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "З",
+                      "word": "завтра",
+                      "emoji": "🌅",
+                      "phonetic": "/ˈzaftra/",
+                      "translation": "<b>mañana</b> (futuro)",
+                      "translations": {
+                          "ru": "завтра",
+                          "fr": "demain",
+                          "en": "tomorrow"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Завтра</b> я работаю.",
+                              "n": "Mañana trabajo."
+                          },
+                          {
+                              "t": "До <b>завтра</b>!",
+                              "n": "¡Hasta mañana!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "З",
+                      "word": "зима",
+                      "emoji": "❄️",
+                      "phonetic": "/zʲɪˈma/",
+                      "translation": "<b>invierno</b>",
+                      "translations": {
+                          "ru": "зима",
+                          "fr": "hiver",
+                          "en": "winter"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Зима</b> холодная.",
+                              "n": "El invierno es frío."
+                          },
+                          {
+                              "t": "Я люблю <b>зиму</b>.",
+                              "n": "Me gusta el invierno."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "И",
+                      "word": "или",
+                      "emoji": "🔀",
+                      "phonetic": "/ˈilʲi/",
+                      "translation": "<b>o</b> (alternativa)",
+                      "translations": {
+                          "ru": "или",
+                          "fr": "ou",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе?",
+                              "n": "¿Té o café?"
+                          },
+                          {
+                              "t": "Сегодня <b>или</b> завтра?",
+                              "n": "¿Hoy o mañana?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "И",
+                      "word": "имя",
+                      "emoji": "📛",
+                      "phonetic": "/ˈimʲə/",
+                      "translation": "<b>nombre</b>",
+                      "translations": {
+                          "ru": "имя",
+                          "fr": "prénom, nom",
+                          "en": "name"
+                      },
+                      "examples": [
+                          {
+                              "t": "Как твоё <b>имя</b>?",
+                              "n": "¿Cómo te llamas?"
+                          },
+                          {
+                              "t": "Моё <b>имя</b> Анна.",
+                              "n": "Mi nombre es Anna."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_11",
+                      "isLetter": false,
+                      "letter": "Л",
+                      "word": "лес",
+                      "emoji": "🌲",
+                      "phonetic": "/lʲes/",
+                      "translation": "<b>bosque</b>",
+                      "translations": {
+                          "ru": "лес",
+                          "fr": "forêt",
+                          "en": "forest"
+                      },
+                      "examples": [
+                          {
+                              "t": "В <b>лесу</b> много деревьев.",
+                              "n": "En el bosque hay muchos árboles."
+                          },
+                          {
+                              "t": "Я гуляю в <b>лесу</b>.",
+                              "n": "Camino en el bosque."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_12",
+                      "isLetter": false,
+                      "letter": "Л",
+                      "word": "люди",
+                      "emoji": "👥",
+                      "phonetic": "/ˈlʲʉdʲi/",
+                      "translation": "<b>gente, personas</b>",
+                      "translations": {
+                          "ru": "люди",
+                          "fr": "gens, personnes",
+                          "en": "people"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Люди</b> здесь добрые.",
+                              "n": "La gente aquí es amable."
+                          },
+                          {
+                              "t": "Много <b>людей</b>.",
+                              "n": "Hay mucha gente."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_13",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "парк",
+                      "emoji": "🌳",
+                      "phonetic": "/park/",
+                      "translation": "<b>parque</b>",
+                      "translations": {
+                          "ru": "парк",
+                          "fr": "parc",
+                          "en": "park"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы идём в <b>парк</b>.",
+                              "n": "Vamos al parque."
+                          },
+                          {
+                              "t": "<b>Парк</b> красивый.",
+                              "n": "El parque es bonito."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_14",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/prʲɪˈvʲet/",
+                      "translation": "<b>hola</b> (informal)",
+                      "translations": {
+                          "ru": "привет",
+                          "fr": "salut",
+                          "en": "hi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>!",
+                              "n": "¡Hola!"
+                          },
+                          {
+                              "t": "<b>Привет</b>, как дела?",
+                              "n": "¡Hola!, ¿cómo estás?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_15",
+                      "isLetter": false,
+                      "letter": "Ф",
+                      "word": "фото",
+                      "emoji": "📷",
+                      "phonetic": "/ˈfotə/",
+                      "translation": "<b>foto</b>",
+                      "translations": {
+                          "ru": "фото",
+                          "fr": "photo",
+                          "en": "photo"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это моё <b>фото</b>.",
+                              "n": "Esta es mi foto."
+                          },
+                          {
+                              "t": "Сделай <b>фото</b>!",
+                              "n": "¡Toma una foto!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_16",
+                      "isLetter": false,
+                      "letter": "Ф",
+                      "word": "факт",
+                      "emoji": "📌",
+                      "phonetic": "/fakt/",
+                      "translation": "<b>hecho, dato</b>",
+                      "translations": {
+                          "ru": "факт",
+                          "fr": "fait",
+                          "en": "fact"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>факт</b>.",
+                              "n": "Esto es un hecho."
+                          },
+                          {
+                              "t": "Интересный <b>факт</b>.",
+                              "n": "Un dato interesante."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_17",
+                      "isLetter": false,
+                      "letter": "Э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/ˈɛtə/",
+                      "translation": "<b>esto, esto es</b>",
+                      "translations": {
+                          "ru": "это",
+                          "fr": "c'est, ceci",
+                          "en": "this, it is"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> стол.",
+                              "n": "Esto es una mesa."
+                          },
+                          {
+                              "t": "Кто <b>это</b>?",
+                              "n": "¿Quién es?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_18",
+                      "isLetter": false,
+                      "letter": "Э",
+                      "word": "этаж",
+                      "emoji": "🏢",
+                      "phonetic": "/ɛˈtaʂ/",
+                      "translation": "<b>planta, piso</b>",
+                      "translations": {
+                          "ru": "этаж",
+                          "fr": "étage",
+                          "en": "floor, storey"
+                      },
+                      "examples": [
+                          {
+                              "t": "На каком <b>этаже</b>?",
+                              "n": "¿En qué piso?"
+                          },
+                          {
+                              "t": "Пятый <b>этаж</b>.",
+                              "n": "El quinto piso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_19",
+                      "isLetter": false,
+                      "letter": "Ю",
+                      "word": "юг",
+                      "emoji": "🧭",
+                      "phonetic": "/juk/",
+                      "translation": "<b>sur</b>",
+                      "translations": {
+                          "ru": "юг",
+                          "fr": "sud",
+                          "en": "south"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы едем на <b>юг</b>.",
+                              "n": "Vamos al sur."
+                          },
+                          {
+                              "t": "<b>Юг</b> тёплый.",
+                              "n": "El sur es cálido."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_20",
+                      "isLetter": false,
+                      "letter": "Ю",
+                      "word": "люблю",
+                      "emoji": "❤️",
+                      "phonetic": "/lʲʊˈblʲu/",
+                      "translation": "<b>(yo) amo / quiero</b>",
+                      "translations": {
+                          "ru": "люблю",
+                          "fr": "j'aime",
+                          "en": "I love"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>люблю</b> тебя.",
+                              "n": "Te quiero."
+                          },
+                          {
+                              "t": "Я <b>люблю</b> музыку.",
+                              "n": "Me encanta la música."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_21",
+                      "isLetter": false,
+                      "letter": "Я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "/ja/",
+                      "translation": "<b>yo</b>",
+                      "translations": {
+                          "ru": "я",
+                          "fr": "je, moi",
+                          "en": "I, me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент.",
+                              "n": "Soy estudiante."
+                          },
+                          {
+                              "t": "<b>Я</b> из Франции.",
+                              "n": "Soy de Francia."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_22",
+                      "isLetter": false,
+                      "letter": "Я",
+                      "word": "язык",
+                      "emoji": "🗣️",
+                      "phonetic": "/jɪˈzɨk/",
+                      "translation": "<b>idioma, lengua</b>",
+                      "translations": {
+                          "ru": "язык",
+                          "fr": "langue, langage",
+                          "en": "language, tongue"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я учу русский <b>язык</b>.",
+                              "n": "Estudio ruso."
+                          },
+                          {
+                              "t": "Какой <b>язык</b> ты знаешь?",
+                              "n": "¿Qué idioma sabes?"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g3",
+              "name": "Sonidos únicos del ruso",
+              "icon": "🔣",
+              "color": "#10b981",
+              "description": "Ж Ш Щ Ч Х Ц Ъ Ь Ы — los sonidos más difíciles",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g3_L_zh",
+                      "isLetter": true,
+                      "letter": "Ж",
+                      "word": "Ж",
+                      "emoji": "🔤",
+                      "phonetic": "/ʒ/",
+                      "translation": "Letra <b>Ж</b> — sonido <i>como la J francesa</i> en «<i>je</i>» o la <i>s</i> de «<i>measure</i>» en inglés. Vibración de las cuerdas vocales.",
+                      "mnemonic": "Parece un insecto con patas — piensa en un abejorro que zumba «zhzhzh».",
+                      "examples": [
+                          {
+                              "t": "<b>Ж</b> es una letra mayúscula con trazos en zigzag.",
+                              "n": "La forma recuerda a un escarabajo."
+                          },
+                          {
+                              "t": "Se escribe como una «K» con una cola abajo.",
+                              "n": "Visual: la parte superior es similar a una K."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_sh",
+                      "isLetter": true,
+                      "letter": "Ш",
+                      "word": "Ш",
+                      "emoji": "🔤",
+                      "phonetic": "/ʃ/",
+                      "translation": "Letra <b>Ш</b> — sonido <i>como «ch» en francés</i> (o «sh» en inglés). Sordo, sin vibración.",
+                      "mnemonic": "Tiene tres púas hacia arriba — como un tenedor que dice «shhh» pidiendo silencio.",
+                      "examples": [
+                          {
+                              "t": "La <b>Ш</b> mayúscula tiene tres líneas verticales.",
+                              "n": "Parece una E con tres dientes."
+                          },
+                          {
+                              "t": "Es una letra ancha y estable.",
+                              "n": "Se parece a una mesa con patas."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_shch",
+                      "isLetter": true,
+                      "letter": "Щ",
+                      "word": "Щ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕɕ/",
+                      "translation": "Letra <b>Щ</b> — sonido <i>«sh» suave y prolongado</i>, como si alargaras la «ch» francesa con la lengua tocando el paladar.",
+                      "mnemonic": "Es una <b>Ш</b> con una cola — piensa en un gato que mueve la cola mientras dice «shhh» más suave.",
+                      "examples": [
+                          {
+                              "t": "<b>Щ</b> tiene una cola que cuelga hacia abajo.",
+                              "n": "Distingue de Ш por esa cola."
+                          },
+                          {
+                              "t": "Se pronuncia con una sonrisa, como «shchi» (sopa de col).",
+                              "n": "Ejemplo acústico."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ch",
+                      "isLetter": true,
+                      "letter": "Ч",
+                      "word": "Ч",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/",
+                      "translation": "Letra <b>Ч</b> — sonido <i>como «tch» en «atchoum»</i>, pero más suave y palatal. Es una «ch» francesa con la lengua más adelante.",
+                      "mnemonic": "Parece una «4» al revés — piensa en el número 4 que dice «che» como en «chocolate».",
+                      "examples": [
+                          {
+                              "t": "La forma de <b>Ч</b> es como un 4 con una curva.",
+                              "n": "Asocia con el 4."
+                          },
+                          {
+                              "t": "Suena como la «ch» de «chico» en español.",
+                              "n": "Comparación con español."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_kh",
+                      "isLetter": true,
+                      "letter": "Х",
+                      "word": "Х",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "Letra <b>Х</b> — sonido <i>como la J española</i> o la «ch» alemana en «Bach». Es una fricativa sorda, como exhalar aire.",
+                      "mnemonic": "Es una X que «jadea» — imagina que tienes frío y dices «¡jjj!» con la X.",
+                      "examples": [
+                          {
+                              "t": "<b>Х</b> se parece a la X latina, pero suena como J.",
+                              "n": "No confundir con el sonido de X."
+                          },
+                          {
+                              "t": "Practica: «<b>хлеб</b>» (pan) — suena como «jleb».",
+                              "n": "Ejemplo con palabra."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ts",
+                      "isLetter": true,
+                      "letter": "Ц",
+                      "word": "Ц",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/",
+                      "translation": "Letra <b>Ц</b> — sonido <i>«ts» como en «pizza»</i> en italiano o «tsé-tsé» en francés. Es una africada sorda.",
+                      "mnemonic": "Parece una «U» con una cola — piensa en «tsu» de tsunami, con la cola apuntando.",
+                      "examples": [
+                          {
+                              "t": "<b>Ц</b> tiene una cola que sale de la base.",
+                              "n": "Visual: como una U con gancho."
+                          },
+                          {
+                              "t": "Suena como el final de «cats» en inglés.",
+                              "n": "Comparación con inglés."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_hard_sign",
+                      "isLetter": true,
+                      "letter": "Ъ",
+                      "word": "Ъ",
+                      "emoji": "🔤",
+                      "phonetic": "/-/",
+                      "translation": "Letra <b>Ъ</b> — signo duro. No tiene sonido, separa el prefijo de la vocal para hacerla más fuerte. Ej: <i>объект</i> (ob-yekt).",
+                      "mnemonic": "Es una «b» sin palito — piensa en un bloque que separa, como un muro.",
+                      "examples": [
+                          {
+                              "t": "En <b>объект</b>, la <b>Ъ</b> separa la «б» de la «е».",
+                              "n": "Se pronuncia «ab-yekt»."
+                          },
+                          {
+                              "t": "Aparece raramente, sobre todo en palabras prestadas.",
+                              "n": "Uso limitado."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_soft_sign",
+                      "isLetter": true,
+                      "letter": "Ь",
+                      "word": "Ь",
+                      "emoji": "🔤",
+                      "phonetic": "/-/",
+                      "translation": "Letra <b>Ь</b> — signo blando. No tiene sonido, pero suaviza la consonante anterior. Ej: <i>мать</i> (mat’) — la «т» se vuelve suave.",
+                      "mnemonic": "Es una «b» con un palito — piensa en un cojín que ablanda la consonante.",
+                      "examples": [
+                          {
+                              "t": "En <b>пять</b> (cinco), la <b>Ь</b> hace la «т» suave.",
+                              "n": "Se pronuncia «piat’» con la t palatal."
+                          },
+                          {
+                              "t": "Cambia el significado: <b>брат</b> (hermano) vs <b>брать</b> (tomar).",
+                              "n": "Ejemplo contrastivo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_y",
+                      "isLetter": true,
+                      "letter": "Ы",
+                      "word": "Ы",
+                      "emoji": "🔤",
+                      "phonetic": "/ɨ/",
+                      "translation": "Letra <b>Ы</b> — sonido vocal <i>entre «i» y «u»</i>, sin equivalente en francés. Se pronuncia con la lengua retraída y los labios no redondeados.",
+                      "mnemonic": "Parece una «b» con un palo — imagina que dices «i» mientras te tiran de la lengua hacia atrás.",
+                      "examples": [
+                          {
+                              "t": "<b>Ы</b> se escribe como una «i» con una barra.",
+                              "n": "Visual: es como una «b» sin la panza."
+                          },
+                          {
+                              "t": "Practica con «<b>ты</b>» (tú) y «<b>мы</b>» (nosotros).",
+                              "n": "Palabras frecuentes."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "жить",
+                      "emoji": "🏠",
+                      "phonetic": "/ʐɨtʲ/",
+                      "translation": "vivir",
+                      "translations": {
+                          "ru": "жить",
+                          "fr": "vivre",
+                          "en": "to live"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я хочу <b>жить</b> в Париже.",
+                              "n": "Je veux vivre à Paris."
+                          },
+                          {
+                              "t": "Он <b>живёт</b> в Москве.",
+                              "n": "Il vit à Moscou."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "муж",
+                      "emoji": "👨",
+                      "phonetic": "/muʂ/",
+                      "translation": "marido, esposo",
+                      "translations": {
+                          "ru": "муж",
+                          "fr": "mari",
+                          "en": "husband"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>муж</b> дома.",
+                              "n": "Mon mari est à la maison."
+                          },
+                          {
+                              "t": "У неё есть <b>муж</b>.",
+                              "n": "Elle a un mari."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "школа",
+                      "emoji": "🏫",
+                      "phonetic": "/ˈʂkoɫə/",
+                      "translation": "école",
+                      "translations": {
+                          "ru": "школа",
+                          "fr": "école",
+                          "en": "school"
+                      },
+                      "examples": [
+                          {
+                              "t": "Дети идут в <b>школу</b>.",
+                              "n": "Les enfants vont à l'école."
+                          },
+                          {
+                              "t": "Наша <b>школа</b> большая.",
+                              "n": "Notre école est grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "bien, bon",
+                      "translations": {
+                          "ru": "хорошо",
+                          "fr": "bien",
+                          "en": "good, well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Tout va bien."
+                          },
+                          {
+                              "t": "Я чувствую себя <b>хорошо</b>.",
+                              "n": "Je me sens bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "щи",
+                      "emoji": "🍲",
+                      "phonetic": "/ɕɕi/",
+                      "translation": "soupe aux choux (plat traditionnel)",
+                      "translations": {
+                          "ru": "щи",
+                          "fr": "soupe aux choux",
+                          "en": "cabbage soup"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я люблю <b>щи</b>.",
+                              "n": "J'aime la soupe aux choux."
+                          },
+                          {
+                              "t": "<b>Щи</b> — это русское блюдо.",
+                              "n": "Le shchi est un plat russe."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_06",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "ещё",
+                      "emoji": "➕",
+                      "phonetic": "/jɪˈɕːɵ/",
+                      "translation": "encore, plus",
+                      "translations": {
+                          "ru": "ещё",
+                          "fr": "encore",
+                          "en": "still, more"
+                      },
+                      "examples": [
+                          {
+                              "t": "Дай мне <b>ещё</b> чай.",
+                              "n": "Donne-moi encore du thé."
+                          },
+                          {
+                              "t": "Он <b>ещё</b> спит.",
+                              "n": "Il dort encore."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_07",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "чай",
+                      "emoji": "🍵",
+                      "phonetic": "/t͡ɕaj/",
+                      "translation": "thé",
+                      "translations": {
+                          "ru": "чай",
+                          "fr": "thé",
+                          "en": "tea"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>чай</b>.",
+                              "n": "Je bois du thé."
+                          },
+                          {
+                              "t": "Хочешь <b>чаю</b>?",
+                              "n": "Tu veux du thé ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_08",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/ʂto/",
+                      "translation": "que, quoi (se prononce « chto »)",
+                      "translations": {
+                          "ru": "что",
+                          "fr": "que, quoi",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "Qu'est-ce que c'est ?"
+                          },
+                          {
+                              "t": "Я не знаю, <b>что</b> сказать.",
+                              "n": "Je ne sais pas quoi dire."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_09",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хлеб",
+                      "emoji": "🍞",
+                      "phonetic": "/xlʲep/",
+                      "translation": "pain",
+                      "translations": {
+                          "ru": "хлеб",
+                          "fr": "pain",
+                          "en": "bread"
+                      },
+                      "examples": [
+                          {
+                              "t": "Купи <b>хлеб</b> в магазине.",
+                              "n": "Achète du pain au magasin."
+                          },
+                          {
+                              "t": "Русский <b>хлеб</b> вкусный.",
+                              "n": "Le pain russe est délicieux."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_10",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "bien (déjà présenté pour Ш, mais utile pour Х)",
+                      "translations": {
+                          "ru": "хорошо",
+                          "fr": "bien",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "Очень <b>хорошо</b>!",
+                              "n": "Très bien !"
+                          },
+                          {
+                              "t": "Он говорит по-русски <b>хорошо</b>.",
+                              "n": "Il parle bien russe."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_11",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "цена",
+                      "emoji": "🏷️",
+                      "phonetic": "/t͡sɨˈna/",
+                      "translation": "prix",
+                      "translations": {
+                          "ru": "цена",
+                          "fr": "prix",
+                          "en": "price"
+                      },
+                      "examples": [
+                          {
+                              "t": "Какая <b>цена</b>?",
+                              "n": "Quel est le prix ?"
+                          },
+                          {
+                              "t": "<b>Цена</b> высокая.",
+                              "n": "Le prix est élevé."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_12",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "отец",
+                      "emoji": "👨‍👧",
+                      "phonetic": "/ɐˈtʲet͡s/",
+                      "translation": "père",
+                      "translations": {
+                          "ru": "отец",
+                          "fr": "père",
+                          "en": "father"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>отец</b> работает.",
+                              "n": "Mon père travaille."
+                          },
+                          {
+                              "t": "Он хороший <b>отец</b>.",
+                              "n": "C'est un bon père."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_13",
+                      "isLetter": false,
+                      "letter": "Ъ",
+                      "word": "объект",
+                      "emoji": "📦",
+                      "phonetic": "/ɐˈbjekt/",
+                      "translation": "objet",
+                      "translations": {
+                          "ru": "объект",
+                          "fr": "objet",
+                          "en": "object"
+                      },
+                      "examples": [
+                          {
+                              "t": "Этот <b>объект</b> большой.",
+                              "n": "Cet objet est grand."
+                          },
+                          {
+                              "t": "<b>Объект</b> находится в центре.",
+                              "n": "L'objet se trouve au centre."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_14",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "мать",
+                      "emoji": "👩‍👧",
+                      "phonetic": "/matʲ/",
+                      "translation": "mère",
+                      "translations": {
+                          "ru": "мать",
+                          "fr": "mère",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Моя <b>мать</b> дома.",
+                              "n": "Ma mère est à la maison."
+                          },
+                          {
+                              "t": "Я люблю свою <b>мать</b>.",
+                              "n": "J'aime ma mère."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_15",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "пять",
+                      "emoji": "5️⃣",
+                      "phonetic": "/pʲatʲ/",
+                      "translation": "cinq",
+                      "translations": {
+                          "ru": "пять",
+                          "fr": "cinq",
+                          "en": "five"
+                      },
+                      "examples": [
+                          {
+                              "t": "У меня <b>пять</b> рублей.",
+                              "n": "J'ai cinq roubles."
+                          },
+                          {
+                              "t": "Мне <b>пять</b> лет.",
+                              "n": "J'ai cinq ans."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_16",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "ты",
+                      "emoji": "👤",
+                      "phonetic": "/tɨ/",
+                      "translation": "tu, toi",
+                      "translations": {
+                          "ru": "ты",
+                          "fr": "tu",
+                          "en": "you (singular)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> студент?",
+                              "n": "Es-tu étudiant ?"
+                          },
+                          {
+                              "t": "Как <b>ты</b>?",
+                              "n": "Comment vas-tu ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_17",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/mɨ/",
+                      "translation": "nous",
+                      "translations": {
+                          "ru": "мы",
+                          "fr": "nous",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> друзья.",
+                              "n": "Nous sommes amis."
+                          },
+                          {
+                              "t": "<b>Мы</b> идём в кино.",
+                              "n": "Nous allons au cinéma."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_18",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "сын",
+                      "emoji": "👦",
+                      "phonetic": "/sɨn/",
+                      "translation": "fils",
+                      "translations": {
+                          "ru": "сын",
+                          "fr": "fils",
+                          "en": "son"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>сын</b> учится.",
+                              "n": "Mon fils étudie."
+                          },
+                          {
+                              "t": "У него есть <b>сын</b>.",
+                              "n": "Il a un fils."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g4",
+              "name": "Primeras palabras rusas",
+              "icon": "📖",
+              "color": "#ef4444",
+              "description": "Leer y entender 20 palabras rusas esenciales",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2",
+                  "ru_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g4_01",
+                      "letter": "д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "sí",
+                      "translations": {
+                          "ru": "да",
+                          "fr": "oui",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я понимаю.",
+                              "n": "Oui, je comprends."
+                          },
+                          {
+                              "t": "<b>Да</b>, это мой дом.",
+                              "n": "Oui, c'est ma maison."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_02",
+                      "letter": "н",
+                      "word": "нет",
+                      "emoji": "❌",
+                      "phonetic": "/njet/",
+                      "translation": "no",
+                      "translations": {
+                          "ru": "нет",
+                          "fr": "non",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "Non, merci."
+                          },
+                          {
+                              "t": "Это <b>нет</b> трудно.",
+                              "n": "Ce n'est pas difficile."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_03",
+                      "letter": "п",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/pri-vyet/",
+                      "translation": "hola (informal)",
+                      "translations": {
+                          "ru": "привет",
+                          "fr": "salut",
+                          "en": "hi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>, как дела?",
+                              "n": "Salut, comment ça va ?"
+                          },
+                          {
+                              "t": "<b>Привет</b>, Анна!",
+                              "n": "Salut, Anna !"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_04",
+                      "letter": "п",
+                      "word": "пока",
+                      "emoji": "👋",
+                      "phonetic": "/pa-KA/",
+                      "translation": "adiós (informal), hasta luego",
+                      "translations": {
+                          "ru": "пока",
+                          "fr": "au revoir (familier)",
+                          "en": "bye"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Пока</b>, до завтра!",
+                              "n": "Au revoir, à demain !"
+                          },
+                          {
+                              "t": "Ну, <b>пока</b>!",
+                              "n": "Bon, salut !"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_05",
+                      "letter": "с",
+                      "word": "спасибо",
+                      "emoji": "🙏",
+                      "phonetic": "/spa-SEE-ba/",
+                      "translation": "gracias",
+                      "translations": {
+                          "ru": "спасибо",
+                          "fr": "merci",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Спасибо</b> большое!",
+                              "n": "Merci beaucoup !"
+                          },
+                          {
+                              "t": "<b>Спасибо</b> за помощь.",
+                              "n": "Merci pour l'aide."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_06",
+                      "letter": "п",
+                      "word": "пожалуйста",
+                      "emoji": "🙏",
+                      "phonetic": "/pa-ZHA-lus-ta/",
+                      "translation": "por favor; de nada",
+                      "translations": {
+                          "ru": "пожалуйста",
+                          "fr": "s'il vous plaît / de rien",
+                          "en": "please / you're welcome"
+                      },
+                      "examples": [
+                          {
+                              "t": "Скажите, <b>пожалуйста</b>…",
+                              "n": "Dites-moi, s'il vous plaît…"
+                          },
+                          {
+                              "t": "— Спасибо! — <b>Пожалуйста</b>!",
+                              "n": "— Merci ! — De rien !"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_07",
+                      "letter": "к",
+                      "word": "как дела?",
+                      "emoji": "🤔",
+                      "phonetic": "/kak de-LA/",
+                      "translation": "¿cómo estás? (literal: cómo van las cosas)",
+                      "translations": {
+                          "ru": "как дела?",
+                          "fr": "comment ça va ?",
+                          "en": "how are you?"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Как дела</b>?",
+                              "n": "Comment ça va ?"
+                          },
+                          {
+                              "t": "Привет, <b>как дела</b>?",
+                              "n": "Salut, comment ça va ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_08",
+                      "letter": "х",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/ha-ra-SHO/",
+                      "translation": "bien",
+                      "translations": {
+                          "ru": "хорошо",
+                          "fr": "bien",
+                          "en": "good, well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Tout va bien."
+                          },
+                          {
+                              "t": "Она говорит <b>хорошо</b> по-русски.",
+                              "n": "Elle parle bien russe."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_09",
+                      "letter": "я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "/ja/",
+                      "translation": "yo",
+                      "translations": {
+                          "ru": "я",
+                          "fr": "je, moi",
+                          "en": "I, me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент.",
+                              "n": "Je suis étudiant."
+                          },
+                          {
+                              "t": "<b>Я</b> люблю тебя.",
+                              "n": "Je t'aime."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_10",
+                      "letter": "т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/ty/",
+                      "translation": "tú (informal)",
+                      "translations": {
+                          "ru": "ты",
+                          "fr": "tu",
+                          "en": "you (singular informal)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> здесь.",
+                              "n": "Tu es ici."
+                          },
+                          {
+                              "t": "Как <b>ты</b>?",
+                              "n": "Comment vas-tu ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_11",
+                      "letter": "о",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "él",
+                      "translations": {
+                          "ru": "он",
+                          "fr": "il",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> дома.",
+                              "n": "Il est à la maison."
+                          },
+                          {
+                              "t": "<b>Он</b> мой друг.",
+                              "n": "C'est mon ami."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_12",
+                      "letter": "о",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "/a-NA/",
+                      "translation": "ella",
+                      "translations": {
+                          "ru": "она",
+                          "fr": "elle",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Она</b> здесь.",
+                              "n": "Elle est ici."
+                          },
+                          {
+                              "t": "<b>Она</b> красивая.",
+                              "n": "Elle est belle."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_13",
+                      "letter": "м",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/my/",
+                      "translation": "nosotros",
+                      "translations": {
+                          "ru": "мы",
+                          "fr": "nous",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> вместе.",
+                              "n": "Nous sommes ensemble."
+                          },
+                          {
+                              "t": "<b>Мы</b> из Франции.",
+                              "n": "Nous venons de France."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_14",
+                      "letter": "ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/shto/",
+                      "translation": "qué",
+                      "translations": {
+                          "ru": "что",
+                          "fr": "quoi, que",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "Qu'est-ce que c'est ?"
+                          },
+                          {
+                              "t": "<b>Что</b> ты делаешь?",
+                              "n": "Que fais-tu ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_15",
+                      "letter": "г",
+                      "word": "где",
+                      "emoji": "📍",
+                      "phonetic": "/gdye/",
+                      "translation": "dónde",
+                      "translations": {
+                          "ru": "где",
+                          "fr": "où",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "Où sont les toilettes ?"
+                          },
+                          {
+                              "t": "<b>Где</b> ты?",
+                              "n": "Où es-tu ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_16",
+                      "letter": "з",
+                      "word": "здесь",
+                      "emoji": "👉",
+                      "phonetic": "/zdyes/",
+                      "translation": "aquí",
+                      "translations": {
+                          "ru": "здесь",
+                          "fr": "ici",
+                          "en": "here"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>здесь</b>.",
+                              "n": "Je suis ici."
+                          },
+                          {
+                              "t": "<b>Здесь</b> холодно.",
+                              "n": "Il fait froid ici."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_17",
+                      "letter": "т",
+                      "word": "там",
+                      "emoji": "👈",
+                      "phonetic": "/tam/",
+                      "translation": "allí",
+                      "translations": {
+                          "ru": "там",
+                          "fr": "là-bas",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Он <b>там</b>.",
+                              "n": "Il est là-bas."
+                          },
+                          {
+                              "t": "<b>Там</b> парк.",
+                              "n": "Là-bas, il y a un parc."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_18",
+                      "letter": "э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/EH-ta/",
+                      "translation": "esto, eso",
+                      "translations": {
+                          "ru": "это",
+                          "fr": "c'est, ceci",
+                          "en": "this, that"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> стол.",
+                              "n": "C'est une table."
+                          },
+                          {
+                              "t": "<b>Это</b> мой брат.",
+                              "n": "C'est mon frère."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_19",
+                      "letter": "и",
+                      "word": "и",
+                      "emoji": "➕",
+                      "phonetic": "/i/",
+                      "translation": "y (conjunción)",
+                      "translations": {
+                          "ru": "и",
+                          "fr": "et",
+                          "en": "and"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>и</b> ты.",
+                              "n": "Moi et toi."
+                          },
+                          {
+                              "t": "Мама <b>и</b> папа.",
+                              "n": "Maman et papa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_20",
+                      "letter": "и",
+                      "word": "или",
+                      "emoji": "🔀",
+                      "phonetic": "/EE-lee/",
+                      "translation": "o (conjunción)",
+                      "translations": {
+                          "ru": "или",
+                          "fr": "ou",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе?",
+                              "n": "Thé ou café ?"
+                          },
+                          {
+                              "t": "Сегодня <b>или</b> завтра?",
+                              "n": "Aujourd'hui ou demain ?"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // RU_IT
+  // ──────────────────────────────────────────────────────
+  ru_it: {
+      "level": "A0",
+      "levelName": "El alfabeto cirílico",
+      "groups": [
+          {
+              "id": "ru_a0_g1",
+              "name": "Letras parecidas al latín",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "А Е О М Т К В Н Р С — entrada fácil al cirílico",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ru_a0_g1_L_a",
+                      "isLetter": true,
+                      "letter": "А",
+                      "word": "А",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Si legge <b>a</b>, come in italiano. <i>Stessa identica forma della A latina.</i>",
+                      "mnemonic": "È la stessa A dell'alfabeto italiano, non devi imparare nulla di nuovo.",
+                      "examples": [
+                          {
+                              "t": "<b>А</b> come <span class='hl'>a</span>mico",
+                              "n": "Suono identico all'italiano"
+                          },
+                          {
+                              "t": "Scrivila come la A normale: <b>А</b>",
+                              "n": "Nessuna differenza grafica"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_e",
+                      "isLetter": true,
+                      "letter": "Е",
+                      "word": "Е",
+                      "emoji": "🔤",
+                      "phonetic": "/je/",
+                      "translation": "Sembra una <b>E</b> latina ma si pronuncia <i>IE</i> – come in <span class='hl'>ieri</span>.",
+                      "mnemonic": "La E russa fa il verso dell'asino: <i>IE-IE</i>! Sembra una E ma suona come 'ie'.",
+                      "examples": [
+                          {
+                              "t": "<b>Е</b> come <span class='hl'>ie</span>ri",
+                              "n": "Suono composto: i+e"
+                          },
+                          {
+                              "t": "нет = <i>niet</i> (no)",
+                              "n": "Parola utilissima per iniziare"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_o",
+                      "isLetter": true,
+                      "letter": "О",
+                      "word": "О",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Si legge <b>o</b>, come in italiano. <i>Stessa identica forma della O latina.</i>",
+                      "mnemonic": "Un cerchio perfetto: è la O che conosci già.",
+                      "examples": [
+                          {
+                              "t": "<b>О</b> come <span class='hl'>o</span>cchio",
+                              "n": "Suono identico"
+                          },
+                          {
+                              "t": "он = <i>on</i> (lui)",
+                              "n": "Pronome personale"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_m",
+                      "isLetter": true,
+                      "letter": "М",
+                      "word": "М",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Si legge <b>m</b>, come in italiano. <i>Stessa identica forma della M latina.</i>",
+                      "mnemonic": "Due montagne: è la M che conosci già.",
+                      "examples": [
+                          {
+                              "t": "<b>М</b> come <span class='hl'>m</span>amma",
+                              "n": "Suono identico"
+                          },
+                          {
+                              "t": "мама = <i>mama</i> (mamma)",
+                              "n": "La prima parola di ogni lingua"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_t",
+                      "isLetter": true,
+                      "letter": "Т",
+                      "word": "Т",
+                      "emoji": "🔤",
+                      "phonetic": "/t/",
+                      "translation": "Si legge <b>t</b>, come in italiano. <i>Stessa identica forma della T latina.</i>",
+                      "mnemonic": "È la T normale, solo scritta in stampatello.",
+                      "examples": [
+                          {
+                              "t": "<b>Т</b> come <span class='hl'>t</span>avolo",
+                              "n": "Suono identico"
+                          },
+                          {
+                              "t": "ты = <i>ty</i> (tu)",
+                              "n": "Pronome personale informale"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_k",
+                      "isLetter": true,
+                      "letter": "К",
+                      "word": "К",
+                      "emoji": "🔤",
+                      "phonetic": "/k/",
+                      "translation": "Si legge <b>k</b>, come in italiano. <i>Stessa identica forma della K latina.</i>",
+                      "mnemonic": "È la K che conosci, solo senza la gambetta in più.",
+                      "examples": [
+                          {
+                              "t": "<b>К</b> come <span class='hl'>k</span>ilo",
+                              "n": "Suono identico"
+                          },
+                          {
+                              "t": "как = <i>kak</i> (come)",
+                              "n": "Parola fondamentale per fare domande"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_v",
+                      "isLetter": true,
+                      "letter": "В",
+                      "word": "В",
+                      "emoji": "🔤",
+                      "phonetic": "/v/",
+                      "translation": "Sembra una <b>B</b> latina ma si pronuncia <i>V</i> – come in <span class='hl'>vino</span>.",
+                      "mnemonic": "La B russa ha perso la voce: si legge <i>V</i>! Sembra una B ma è una V.",
+                      "examples": [
+                          {
+                              "t": "<b>В</b> come <span class='hl'>v</span>ino",
+                              "n": "Suono: v di 'vino'"
+                          },
+                          {
+                              "t": "вода = <i>voda</i> (acqua)",
+                              "n": "Attenzione: non si legge 'boda'!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_n",
+                      "isLetter": true,
+                      "letter": "Н",
+                      "word": "Н",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Sembra una <b>H</b> latina ma si pronuncia <i>N</i> – come in <span class='hl'>naso</span>.",
+                      "mnemonic": "La H russa ha perso l'aria: si legge <i>N</i>! Sembra una H ma è una N.",
+                      "examples": [
+                          {
+                              "t": "<b>Н</b> come <span class='hl'>n</span>aso",
+                              "n": "Suono: n di 'naso'"
+                          },
+                          {
+                              "t": "но = <i>no</i> (ma)",
+                              "n": "Congiunzione utilissima"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_r",
+                      "isLetter": true,
+                      "letter": "Р",
+                      "word": "Р",
+                      "emoji": "🔤",
+                      "phonetic": "/r/",
+                      "translation": "Sembra una <b>P</b> latina ma si pronuncia <i>R</i> – come in <span class='hl'>riva</span>.",
+                      "mnemonic": "La P russa fa le vibrazioni: si legge <i>R</i>! Sembra una P ma è una R.",
+                      "examples": [
+                          {
+                              "t": "<b>Р</b> come <span class='hl'>r</span>iva",
+                              "n": "Suono: r vibrante"
+                          },
+                          {
+                              "t": "Россия = <i>Rossiya</i> (Russia)",
+                              "n": "Attenzione: non si legge 'Possiya'!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_s",
+                      "isLetter": true,
+                      "letter": "С",
+                      "word": "С",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Sembra una <b>C</b> latina ma si pronuncia <i>S</i> – come in <span class='hl'>sole</span>.",
+                      "mnemonic": "La C russa è sorda: si legge <i>S</i>! Sembra una C ma è una S.",
+                      "examples": [
+                          {
+                              "t": "<b>С</b> come <span class='hl'>s</span>ole",
+                              "n": "Suono: s di 'sole'"
+                          },
+                          {
+                              "t": "сок = <i>sok</i> (succo)",
+                              "n": "Attenzione: non si legge 'cok'!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "А",
+                      "word": "мама",
+                      "emoji": "👩",
+                      "phonetic": "/ˈmama/",
+                      "translation": "mamma — <b>ma-ma</b>, due sillabe identiche",
+                      "translations": {
+                          "ru": "мама",
+                          "it": "mamma",
+                          "en": "mom"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мама</b> дома.",
+                              "n": "La mamma è a casa."
+                          },
+                          {
+                              "t": "Это <b>мама</b>.",
+                              "n": "Questa è la mamma."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "А",
+                      "word": "папа",
+                      "emoji": "👨",
+                      "phonetic": "/ˈpapa/",
+                      "translation": "papà — <b>pa-pa</b>",
+                      "translations": {
+                          "ru": "папа",
+                          "it": "papà",
+                          "en": "dad"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Папа</b> там.",
+                              "n": "Il papà è lì."
+                          },
+                          {
+                              "t": "Это <b>папа</b>.",
+                              "n": "Questo è il papà."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "нет",
+                      "emoji": "🚫",
+                      "phonetic": "/nʲet/",
+                      "translation": "no — attenzione: la <b>Е</b> si legge <i>ie</i>, non <i>e</i>",
+                      "translations": {
+                          "ru": "нет",
+                          "it": "no",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, grazie."
+                          },
+                          {
+                              "t": "Это <b>нет</b>?",
+                              "n": "Questo è no? (informale)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "где",
+                      "emoji": "📍",
+                      "phonetic": "/ɡdʲe/",
+                      "translation": "dove — la <b>Е</b> finale si legge <i>ie</i>",
+                      "translations": {
+                          "ru": "где",
+                          "it": "dove",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> мама?",
+                              "n": "Dov'è la mamma?"
+                          },
+                          {
+                              "t": "<b>Где</b> папа?",
+                              "n": "Dov'è il papà?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "lui — la <b>О</b> si legge esattamente come la nostra <i>o</i>",
+                      "translations": {
+                          "ru": "он",
+                          "it": "lui",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> дома.",
+                              "n": "Lui è a casa."
+                          },
+                          {
+                              "t": "<b>Он</b> там.",
+                              "n": "Lui è lì."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "/ɐˈna/",
+                      "translation": "lei — la <b>О</b> non accentata si riduce quasi a <i>a</i>",
+                      "translations": {
+                          "ru": "она",
+                          "it": "lei",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Она</b> дома.",
+                              "n": "Lei è a casa."
+                          },
+                          {
+                              "t": "<b>Она</b> там.",
+                              "n": "Lei è lì."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мир",
+                      "emoji": "🌍",
+                      "phonetic": "/mʲir/",
+                      "translation": "pace/mondo — la <b>М</b> è identica alla nostra",
+                      "translations": {
+                          "ru": "мир",
+                          "it": "pace/mondo",
+                          "en": "peace/world"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мир</b> во всём мире.",
+                              "n": "Pace in tutto il mondo."
+                          },
+                          {
+                              "t": "Это <b>мир</b>.",
+                              "n": "Questo è il mondo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мой",
+                      "emoji": "💼",
+                      "phonetic": "/moj/",
+                      "translation": "mio — la <b>М</b> + <b>О</b> + <b>Й</b>",
+                      "translations": {
+                          "ru": "мой",
+                          "it": "mio",
+                          "en": "my"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>мой</b> папа.",
+                              "n": "Questo è mio papà."
+                          },
+                          {
+                              "t": "<b>Мой</b> дом.",
+                              "n": "La mia casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "tu — la <b>Т</b> è identica alla nostra",
+                      "translations": {
+                          "ru": "ты",
+                          "it": "tu",
+                          "en": "you (informal)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> дома?",
+                              "n": "Sei a casa?"
+                          },
+                          {
+                              "t": "<b>Ты</b> там?",
+                              "n": "Sei lì?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "там",
+                      "emoji": "📍",
+                      "phonetic": "/tam/",
+                      "translation": "lì — la <b>Т</b> + <b>А</b> + <b>М</b>",
+                      "translations": {
+                          "ru": "там",
+                          "it": "lì",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мама <b>там</b>.",
+                              "n": "La mamma è lì."
+                          },
+                          {
+                              "t": "Папа <b>там</b>.",
+                              "n": "Il papà è lì."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_11",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "как",
+                      "emoji": "❓",
+                      "phonetic": "/kak/",
+                      "translation": "come — la <b>К</b> è identica alla nostra <i>K</i>",
+                      "translations": {
+                          "ru": "как",
+                          "it": "come",
+                          "en": "how"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Как</b> ты?",
+                              "n": "Come stai?"
+                          },
+                          {
+                              "t": "<b>Как</b> это?",
+                              "n": "Com'è questo?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_12",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "кто",
+                      "emoji": "❓",
+                      "phonetic": "/kto/",
+                      "translation": "chi — la <b>К</b> + <b>Т</b> + <b>О</b>",
+                      "translations": {
+                          "ru": "кто",
+                          "it": "chi",
+                          "en": "who"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Кто</b> это?",
+                              "n": "Chi è questo?"
+                          },
+                          {
+                              "t": "<b>Кто</b> там?",
+                              "n": "Chi è lì?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_13",
+                      "isLetter": false,
+                      "letter": "В",
+                      "word": "вода",
+                      "emoji": "💧",
+                      "phonetic": "/vɐˈda/",
+                      "translation": "acqua — attenzione: la <b>В</b> si legge <i>v</i>, non <i>b</i>!",
+                      "translations": {
+                          "ru": "вода",
+                          "it": "acqua",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>вода</b>.",
+                              "n": "Questa è acqua."
+                          },
+                          {
+                              "t": "<b>Вода</b> там.",
+                              "n": "L'acqua è lì."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_14",
+                      "isLetter": false,
+                      "letter": "В",
+                      "word": "вот",
+                      "emoji": "👉",
+                      "phonetic": "/vot/",
+                      "translation": "ecco — la <b>В</b> si legge <i>v</i>",
+                      "translations": {
+                          "ru": "вот",
+                          "it": "ecco",
+                          "en": "here is"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Вот</b> мама.",
+                              "n": "Ecco la mamma."
+                          },
+                          {
+                              "t": "<b>Вот</b> папа.",
+                              "n": "Ecco il papà."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_15",
+                      "isLetter": false,
+                      "letter": "Н",
+                      "word": "но",
+                      "emoji": "🔄",
+                      "phonetic": "/no/",
+                      "translation": "ma — attenzione: la <b>Н</b> si legge <i>n</i>, non <i>h</i>!",
+                      "translations": {
+                          "ru": "но",
+                          "it": "ma",
+                          "en": "but"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мама, <b>но</b> папа.",
+                              "n": "La mamma, ma il papà."
+                          },
+                          {
+                              "t": "<b>Но</b> это так.",
+                              "n": "Ma è così."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_16",
+                      "isLetter": false,
+                      "letter": "Н",
+                      "word": "нет",
+                      "emoji": "🚫",
+                      "phonetic": "/nʲet/",
+                      "translation": "no — la <b>Н</b> si legge <i>n</i> + la <b>Е</b> si legge <i>ie</i>",
+                      "translations": {
+                          "ru": "нет",
+                          "it": "no",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, это так.",
+                              "n": "No, è così."
+                          },
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, grazie."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_17",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "Россия",
+                      "emoji": "🇷🇺",
+                      "phonetic": "/rɐˈsʲijə/",
+                      "translation": "Russia — attenzione: la <b>Р</b> si legge <i>r</i>, non <i>p</i>!",
+                      "translations": {
+                          "ru": "Россия",
+                          "it": "Russia",
+                          "en": "Russia"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>Россия</b>.",
+                              "n": "Questa è la Russia."
+                          },
+                          {
+                              "t": "Я из <b>России</b>.",
+                              "n": "Vengo dalla Russia."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_18",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "рад",
+                      "emoji": "😊",
+                      "phonetic": "/rat/",
+                      "translation": "contento — la <b>Р</b> si legge <i>r</i> vibrante",
+                      "translations": {
+                          "ru": "рад",
+                          "it": "contento",
+                          "en": "glad"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>рад</b>.",
+                              "n": "Sono contento."
+                          },
+                          {
+                              "t": "Он <b>рад</b>.",
+                              "n": "Lui è contento."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_19",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сон",
+                      "emoji": "😴",
+                      "phonetic": "/son/",
+                      "translation": "sogno — attenzione: la <b>С</b> si legge <i>s</i>, non <i>c</i>!",
+                      "translations": {
+                          "ru": "сон",
+                          "it": "sogno",
+                          "en": "dream/sleep"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>сон</b>.",
+                              "n": "Questo è un sogno."
+                          },
+                          {
+                              "t": "Я вижу <b>сон</b>.",
+                              "n": "Vedo un sogno."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_20",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сок",
+                      "emoji": "🧃",
+                      "phonetic": "/sok/",
+                      "translation": "succo — la <b>С</b> si legge <i>s</i>",
+                      "translations": {
+                          "ru": "сок",
+                          "it": "succo",
+                          "en": "juice"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>сок</b>.",
+                              "n": "Questo è succo."
+                          },
+                          {
+                              "t": "Я пью <b>сок</b>.",
+                              "n": "Bevo succo."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g2",
+              "name": "Letras nuevas — sonidos conocidos",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "Б Г Д З И Л П Ф Э Ю Я — formas nuevas, sonidos familiares",
+              "reviewFrom": [
+                  "ru_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "Б",
+                      "word": "Б",
+                      "emoji": "🔤",
+                      "phonetic": "/b/",
+                      "translation": "Letra <b>Б</b> — suona come la <b>B</b> spagnola. <br> <i>Forma: sembra una B con la pancia a destra, ma senza il secondo arco.</i>",
+                      "mnemonic": "Immagina un orso (bear) che suona la batteria: Б-Б-Б.",
+                      "examples": [
+                          {
+                              "t": "Это <b>брат</b>. <br> (fratello)",
+                              "n": "Il fratello."
+                          },
+                          {
+                              "t": "Я иду в <b>банк</b>.",
+                              "n": "Vado in banca."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "Г",
+                      "word": "Г",
+                      "emoji": "🔤",
+                      "phonetic": "/g/",
+                      "translation": "Letra <b>Г</b> — suona come la <b>G</b> dura di <i>gatto</i>. <br> <i>Forma: sembra una L rovesciata o un gancio.</i>",
+                      "mnemonic": "È come un gancio che appende la G dura.",
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> ты? <br> (dove)",
+                              "n": "Dove sei?"
+                          },
+                          {
+                              "t": "Это <b>год</b> 2024.",
+                              "n": "È l'anno 2024."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "Д",
+                      "word": "Д",
+                      "emoji": "🔤",
+                      "phonetic": "/d/",
+                      "translation": "Letra <b>Д</b> — suona come la <b>D</b> spagnola. <br> <i>Forma: sembra una casa con il tetto.</i>",
+                      "mnemonic": "La Д è una casa (dom) – e 'dom' in russo significa 'casa'.",
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, конечно. <br> (sì)",
+                              "n": "Sì, certamente."
+                          },
+                          {
+                              "t": "Это мой <b>дом</b>.",
+                              "n": "Questa è la mia casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "З",
+                      "word": "З",
+                      "emoji": "🔤",
+                      "phonetic": "/z/",
+                      "translation": "Letra <b>З</b> — suona come la <b>S</b> sonora di <i>rosa</i>. <br> <i>Forma: come un 3 con le punte arrotondate.</i>",
+                      "mnemonic": "È un 3 che ronza come un'ape: ZZZ.",
+                      "examples": [
+                          {
+                              "t": "<b>Завтра</b> я дома. <br> (domani)",
+                              "n": "Domani sono a casa."
+                          },
+                          {
+                              "t": "Я люблю <b>зиму</b>.",
+                              "n": "Amo l'inverno."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_i",
+                      "isLetter": true,
+                      "letter": "И",
+                      "word": "И",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "Letra <b>И</b> — suona come la <b>I</b> italiana. <br> <i>Forma: come una N rovesciata.</i>",
+                      "mnemonic": "Sembra una N rovesciata – e suona come 'i'.",
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе? <br> (o)",
+                              "n": "Tè o caffè?"
+                          },
+                          {
+                              "t": "Моё <b>имя</b> Анна.",
+                              "n": "Il mio nome è Anna."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "Л",
+                      "word": "Л",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "Letra <b>Л</b> — suona come la <b>L</b> spagnola. <br> <i>Forma: sembra una L maiuscola con una gamba curva.</i>",
+                      "mnemonic": "È una L con una gamba che fa una piroetta.",
+                      "examples": [
+                          {
+                              "t": "Это <b>лес</b>. <br> (foresta)",
+                              "n": "Questa è la foresta."
+                          },
+                          {
+                              "t": "Я люблю <b>людей</b>.",
+                              "n": "Amo le persone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "П",
+                      "word": "П",
+                      "emoji": "🔤",
+                      "phonetic": "/p/",
+                      "translation": "Letra <b>П</b> — suona come la <b>P</b> spagnola. <br> <i>Forma: sembra un π greco o un portico.</i>",
+                      "mnemonic": "Sembra un π (pi greco) – ma suona come P.",
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>парк</b>. <br> (parco)",
+                              "n": "Vado al parco."
+                          },
+                          {
+                              "t": "<b>Привет</b>! Как дела?",
+                              "n": "Ciao! Come stai?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "Ф",
+                      "word": "Ф",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Letra <b>Ф</b> — suona come la <b>F</b> spagnola. <br> <i>Forma: come una F con un palloncino in cima.</i>",
+                      "mnemonic": "È una F con un palloncino – soffia via il palloncino: FFF.",
+                      "examples": [
+                          {
+                              "t": "Это <b>фото</b>. <br> (foto)",
+                              "n": "Questa è una foto."
+                          },
+                          {
+                              "t": "Это <b>факт</b>.",
+                              "n": "Questo è un fatto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_e",
+                      "isLetter": true,
+                      "letter": "Э",
+                      "word": "Э",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "Letra <b>Э</b> — suona come la <b>E</b> aperta di <i>caffè</i> (senza la semivocale Y). <br> <i>Forma: come una E rovesciata.</i>",
+                      "mnemonic": "È una E che guarda a destra – come per dire 'Ehi!'",
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> книга. <br> (questo)",
+                              "n": "Questo è un libro."
+                          },
+                          {
+                              "t": "Это <b>этаж</b> пять.",
+                              "n": "Questo è il quinto piano."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_yu",
+                      "isLetter": true,
+                      "letter": "Ю",
+                      "word": "Ю",
+                      "emoji": "🔤",
+                      "phonetic": "/ju/",
+                      "translation": "Letra <b>Ю</b> — suona come la parola inglese <i>you</i>. <br> <i>Forma: una I con un cerchietto in basso.</i>",
+                      "mnemonic": "Sembra una I con un occhio – 'you' (tu) mi guardi.",
+                      "examples": [
+                          {
+                              "t": "Мы едем на <b>юг</b>. <br> (sud)",
+                              "n": "Andiamo al sud."
+                          },
+                          {
+                              "t": "Я тебя <b>люблю</b>.",
+                              "n": "Ti amo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_ya",
+                      "isLetter": true,
+                      "letter": "Я",
+                      "word": "Я",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Letra <b>Я</b> — suona come <i>ya</i> in spagnolo (es. <i>yate</i>). <br> <i>Forma: come una R rovesciata.</i>",
+                      "mnemonic": "Sembra una R rovesciata – e 'Я' significa 'io' in russo.",
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент. <br> (io)",
+                              "n": "Io sono studente."
+                          },
+                          {
+                              "t": "Я учу <b>язык</b>.",
+                              "n": "Studio la lingua."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_01",
+                      "letter": "Б",
+                      "word": "брат",
+                      "emoji": "👬",
+                      "phonetic": "/brat/",
+                      "translation": "fratello",
+                      "translations": {
+                          "ru": "брат",
+                          "it": "fratello",
+                          "en": "brother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>брат</b> дома.",
+                              "n": "Mio fratello è a casa."
+                          },
+                          {
+                              "t": "Это мой <b>брат</b>.",
+                              "n": "Questo è mio fratello."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_02",
+                      "letter": "Б",
+                      "word": "банк",
+                      "emoji": "🏦",
+                      "phonetic": "/bank/",
+                      "translation": "banca",
+                      "translations": {
+                          "ru": "банк",
+                          "it": "banca",
+                          "en": "bank"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>банк</b>.",
+                              "n": "Vado in banca."
+                          },
+                          {
+                              "t": "Где <b>банк</b>?",
+                              "n": "Dov'è la banca?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_03",
+                      "letter": "Г",
+                      "word": "где",
+                      "emoji": "❓",
+                      "phonetic": "/ɡdʲe/",
+                      "translation": "dove",
+                      "translations": {
+                          "ru": "где",
+                          "it": "dove",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "Dov'è il bagno?"
+                          },
+                          {
+                              "t": "<b>Где</b> мой телефон?",
+                              "n": "Dov'è il mio telefono?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_04",
+                      "letter": "Г",
+                      "word": "год",
+                      "emoji": "📅",
+                      "phonetic": "/ɡot/",
+                      "translation": "anno",
+                      "translations": {
+                          "ru": "год",
+                          "it": "anno",
+                          "en": "year"
+                      },
+                      "examples": [
+                          {
+                              "t": "Какой сейчас <b>год</b>?",
+                              "n": "Che anno è adesso?"
+                          },
+                          {
+                              "t": "Этот <b>год</b> хороший.",
+                              "n": "Quest'anno è buono."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_05",
+                      "letter": "Д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "sì",
+                      "translations": {
+                          "ru": "да",
+                          "it": "sì",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я понимаю.",
+                              "n": "Sì, capisco."
+                          },
+                          {
+                              "t": "<b>Да</b>, это так.",
+                              "n": "Sì, è così."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_06",
+                      "letter": "Д",
+                      "word": "дом",
+                      "emoji": "🏠",
+                      "phonetic": "/dom/",
+                      "translation": "casa",
+                      "translations": {
+                          "ru": "дом",
+                          "it": "casa",
+                          "en": "house"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это мой <b>дом</b>.",
+                              "n": "Questa è la mia casa."
+                          },
+                          {
+                              "t": "Я иду <b>домой</b>.",
+                              "n": "Vado a casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_07",
+                      "letter": "З",
+                      "word": "завтра",
+                      "emoji": "🌅",
+                      "phonetic": "/ˈzaftrə/",
+                      "translation": "domani",
+                      "translations": {
+                          "ru": "завтра",
+                          "it": "domani",
+                          "en": "tomorrow"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Завтра</b> будет солнечно.",
+                              "n": "Domani sarà soleggiato."
+                          },
+                          {
+                              "t": "Увидимся <b>завтра</b>.",
+                              "n": "Ci vediamo domani."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_08",
+                      "letter": "З",
+                      "word": "зима",
+                      "emoji": "❄️",
+                      "phonetic": "/zʲɪˈma/",
+                      "translation": "inverno",
+                      "translations": {
+                          "ru": "зима",
+                          "it": "inverno",
+                          "en": "winter"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я люблю <b>зиму</b>.",
+                              "n": "Amo l'inverno."
+                          },
+                          {
+                              "t": "<b>Зима</b> холодная.",
+                              "n": "L'inverno è freddo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_09",
+                      "letter": "И",
+                      "word": "или",
+                      "emoji": "🤔",
+                      "phonetic": "/ˈilʲi/",
+                      "translation": "o (oppure)",
+                      "translations": {
+                          "ru": "или",
+                          "it": "o",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе?",
+                              "n": "Tè o caffè?"
+                          },
+                          {
+                              "t": "Это <b>или</b> то.",
+                              "n": "Questo o quello."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_10",
+                      "letter": "И",
+                      "word": "имя",
+                      "emoji": "📛",
+                      "phonetic": "/ˈimʲə/",
+                      "translation": "nome",
+                      "translations": {
+                          "ru": "имя",
+                          "it": "nome",
+                          "en": "name"
+                      },
+                      "examples": [
+                          {
+                              "t": "Моё <b>имя</b> Анна.",
+                              "n": "Il mio nome è Anna."
+                          },
+                          {
+                              "t": "Как твоё <b>имя</b>?",
+                              "n": "Come ti chiami?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_11",
+                      "letter": "Л",
+                      "word": "лес",
+                      "emoji": "🌲",
+                      "phonetic": "/lʲes/",
+                      "translation": "foresta",
+                      "translations": {
+                          "ru": "лес",
+                          "it": "foresta",
+                          "en": "forest"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это большой <b>лес</b>.",
+                              "n": "Questa è una grande foresta."
+                          },
+                          {
+                              "t": "Я гуляю в <b>лесу</b>.",
+                              "n": "Cammino nella foresta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_12",
+                      "letter": "Л",
+                      "word": "люди",
+                      "emoji": "👥",
+                      "phonetic": "/ˈlʲʉdʲi/",
+                      "translation": "persone",
+                      "translations": {
+                          "ru": "люди",
+                          "it": "persone",
+                          "en": "people"
+                      },
+                      "examples": [
+                          {
+                              "t": "Эти <b>люди</b> добрые.",
+                              "n": "Queste persone sono gentili."
+                          },
+                          {
+                              "t": "Многие <b>люди</b> любят музыку.",
+                              "n": "Molte persone amano la musica."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_13",
+                      "letter": "П",
+                      "word": "парк",
+                      "emoji": "🌳",
+                      "phonetic": "/park/",
+                      "translation": "parco",
+                      "translations": {
+                          "ru": "парк",
+                          "it": "parco",
+                          "en": "park"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы идём в <b>парк</b>.",
+                              "n": "Andiamo al parco."
+                          },
+                          {
+                              "t": "Это красивый <b>парк</b>.",
+                              "n": "Questo è un bel parco."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_14",
+                      "letter": "П",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/prʲɪˈvʲet/",
+                      "translation": "ciao (informale)",
+                      "translations": {
+                          "ru": "привет",
+                          "it": "ciao",
+                          "en": "hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>! Как дела?",
+                              "n": "Ciao! Come stai?"
+                          },
+                          {
+                              "t": "<b>Привет</b>, мама!",
+                              "n": "Ciao, mamma!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_15",
+                      "letter": "Ф",
+                      "word": "фото",
+                      "emoji": "📷",
+                      "phonetic": "/ˈfotə/",
+                      "translation": "foto",
+                      "translations": {
+                          "ru": "фото",
+                          "it": "foto",
+                          "en": "photo"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это моё <b>фото</b>.",
+                              "n": "Questa è la mia foto."
+                          },
+                          {
+                              "t": "Сделай <b>фото</b>!",
+                              "n": "Scatta una foto!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_16",
+                      "letter": "Ф",
+                      "word": "факт",
+                      "emoji": "💡",
+                      "phonetic": "/fakt/",
+                      "translation": "fatto",
+                      "translations": {
+                          "ru": "факт",
+                          "it": "fatto",
+                          "en": "fact"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>факт</b>.",
+                              "n": "Questo è un fatto."
+                          },
+                          {
+                              "t": "Интересный <b>факт</b>!",
+                              "n": "Un fatto interessante!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_17",
+                      "letter": "Э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/ˈetə/",
+                      "translation": "questo/questa",
+                      "translations": {
+                          "ru": "это",
+                          "it": "questo",
+                          "en": "this"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> книга.",
+                              "n": "Questo è un libro."
+                          },
+                          {
+                              "t": "<b>Это</b> мой друг.",
+                              "n": "Questo è il mio amico."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_18",
+                      "letter": "Э",
+                      "word": "этаж",
+                      "emoji": "🏢",
+                      "phonetic": "/ɪˈtaʂ/",
+                      "translation": "piano (di un edificio)",
+                      "translations": {
+                          "ru": "этаж",
+                          "it": "piano",
+                          "en": "floor"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я живу на пятом <b>этаже</b>.",
+                              "n": "Abito al quinto piano."
+                          },
+                          {
+                              "t": "Какой это <b>этаж</b>?",
+                              "n": "Che piano è?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_19",
+                      "letter": "Ю",
+                      "word": "юг",
+                      "emoji": "🧭",
+                      "phonetic": "/juk/",
+                      "translation": "sud",
+                      "translations": {
+                          "ru": "юг",
+                          "it": "sud",
+                          "en": "south"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы едем на <b>юг</b>.",
+                              "n": "Andiamo al sud."
+                          },
+                          {
+                              "t": "На <b>юге</b> тепло.",
+                              "n": "Al sud fa caldo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_20",
+                      "letter": "Ю",
+                      "word": "люблю",
+                      "emoji": "❤️",
+                      "phonetic": "/lʲʊˈblʲu/",
+                      "translation": "amo",
+                      "translations": {
+                          "ru": "люблю",
+                          "it": "amo",
+                          "en": "I love"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я тебя <b>люблю</b>.",
+                              "n": "Ti amo."
+                          },
+                          {
+                              "t": "Я <b>люблю</b> музыку.",
+                              "n": "Amo la musica."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_21",
+                      "letter": "Я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "/ja/",
+                      "translation": "io",
+                      "translations": {
+                          "ru": "я",
+                          "it": "io",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент.",
+                              "n": "Io sono studente."
+                          },
+                          {
+                              "t": "<b>Я</b> дома.",
+                              "n": "Io sono a casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_22",
+                      "letter": "Я",
+                      "word": "язык",
+                      "emoji": "👅",
+                      "phonetic": "/jɪˈzɨk/",
+                      "translation": "lingua (anche linguaggio)",
+                      "translations": {
+                          "ru": "язык",
+                          "it": "lingua",
+                          "en": "tongue/language"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я учу русский <b>язык</b>.",
+                              "n": "Studio la lingua russa."
+                          },
+                          {
+                              "t": "У меня болит <b>язык</b>.",
+                              "n": "Mi fa male la lingua."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g3",
+              "name": "Sonidos únicos del ruso",
+              "icon": "🔣",
+              "color": "#10b981",
+              "description": "Ж Ш Щ Ч Х Ц Ъ Ь Ы — los sonidos más difíciles",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g3_L_ж",
+                      "isLetter": true,
+                      "letter": "Ж",
+                      "word": "Ж",
+                      "emoji": "🔤",
+                      "phonetic": "/ʒ/",
+                      "translation": "<b>Ж</b> — suena como la <i>J francesa</i> o la <i>s</i> de “measure” en inglés. Es un sonido vibrante y sonoro.",
+                      "mnemonic": "Parece un escarabajo con alas: el escarabajo hace “jzhzh”.",
+                      "examples": [
+                          {
+                              "t": "<b>Ж</b> es como la <i>J</i> de “jardin” en francés.",
+                              "n": "Recuerda: sonido de abeja zumbando."
+                          },
+                          {
+                              "t": "La letra <b>Ж</b> se escribe con tres trazos: como una K con una I en medio.",
+                              "n": "Visual: parece un insecto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ш",
+                      "isLetter": true,
+                      "letter": "Ш",
+                      "word": "Ш",
+                      "emoji": "🔤",
+                      "phonetic": "/ʃ/",
+                      "translation": "<b>Ш</b> — suena como <i>SH</i> en inglés “shoe”. Es un sonido sordo y fuerte.",
+                      "mnemonic": "La Ш parece un tenedor de tres dientes: ¡sopla para enfriar la sopa! (shhh).",
+                      "examples": [
+                          {
+                              "t": "<b>Ш</b> es como el sonido de pedir silencio: “<span class='hl'>shhh</span>”.",
+                              "n": "Recuerda: shhh de silencio."
+                          },
+                          {
+                              "t": "Tiene tres patitas: <b>Ш</b> — como un tridente.",
+                              "n": "Visual: tres líneas verticales."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_щ",
+                      "isLetter": true,
+                      "letter": "Щ",
+                      "word": "Щ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕɕ/",
+                      "translation": "<b>Щ</b> — es una <i>SH</i> larga y suave, como si sonrieras mientras dices “sh”. No existe en italiano.",
+                      "mnemonic": "La Щ tiene una colita: es una Ш con cola de cerdo, hace un shhh más largo y suave.",
+                      "examples": [
+                          {
+                              "t": "<b>Щ</b> es como <i>SH</i> pero con una sonrisa: más suave y largo.",
+                              "n": "Imagina decir “shhh” con una sonrisa."
+                          },
+                          {
+                              "t": "La <b>Щ</b> se escribe como una Ш con un rabito abajo.",
+                              "n": "Visual: Ш + cola."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ч",
+                      "isLetter": true,
+                      "letter": "Ч",
+                      "word": "Ч",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/",
+                      "translation": "<b>Ч</b> — suena como la <i>CH</i> de “cheap” en inglés, pero más suave y con la lengua más atrás.",
+                      "mnemonic": "El número <b>4</b> en ruso se escribe “четыре” (chetyre) — la Ч es como un 4 al revés. ¡Di “che” como en “cheese”!",
+                      "examples": [
+                          {
+                              "t": "<b>Ч</b> es como la <i>CH</i> italiana de “cena” (pero más suave).",
+                              "n": "No es como la C dura."
+                          },
+                          {
+                              "t": "La <b>Ч</b> parece un 4 al revés.",
+                              "n": "Visual: como un número 4."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_х",
+                      "isLetter": true,
+                      "letter": "Х",
+                      "word": "Х",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "<b>Х</b> — suena como la <i>J</i> española (como en “jamón”). Es una aspiración fuerte desde la garganta.",
+                      "mnemonic": "La Х es como una X, pero se pronuncia como la J española. ¡Piensa en “J”!",
+                      "examples": [
+                          {
+                              "t": "<b>Х</b> es la <i>J</i> española: “<span class='hl'>jamón</span>”.",
+                              "n": "Mismo sonido."
+                          },
+                          {
+                              "t": "La <b>Х</b> se parece a la X, pero no suena como /ks/.",
+                              "n": "Cuidado: no es equis."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ц",
+                      "isLetter": true,
+                      "letter": "Ц",
+                      "word": "Ц",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/",
+                      "translation": "<b>Ц</b> — suena como <i>TS</i> en “pizza” (italiano). Es un sonido sordo y corto.",
+                      "mnemonic": "La Ц parece una U con cola: piensa en “<span class='hl'>pizza</span>” y su sonido “ts”.",
+                      "examples": [
+                          {
+                              "t": "<b>Ц</b> es como la <i>ZZ</i> de “pizza” en italiano.",
+                              "n": "Ejemplo: “pizza” se dice “pitsa”."
+                          },
+                          {
+                              "t": "La <b>Ц</b> tiene una colita hacia abajo.",
+                              "n": "Visual: U con rabo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ъ",
+                      "isLetter": true,
+                      "letter": "Ъ",
+                      "word": "Ъ",
+                      "emoji": "🔤",
+                      "phonetic": "(sin sonido)",
+                      "translation": "<b>Ъ</b> — es el <i>signo duro</i>. No tiene sonido, solo separa la consonante de la vocal para que se pronuncien por separado.",
+                      "mnemonic": "Es como un muro: separa dos letras que no quieren mezclarse. ¡No se pronuncia!",
+                      "examples": [
+                          {
+                              "t": "Ejemplo: <b>объект</b> (ob'yekt) — la Ъ separa la B de la Ye.",
+                              "n": "Se pronuncia “ob-yekt”."
+                          },
+                          {
+                              "t": "El <b>Ъ</b> es como un guardia: no deja que se unan.",
+                              "n": "Recuerda: no suena."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ь",
+                      "isLetter": true,
+                      "letter": "Ь",
+                      "word": "Ь",
+                      "emoji": "🔤",
+                      "phonetic": "(suaviza la consonante)",
+                      "translation": "<b>Ь</b> — es el <i>signo blando</i>. No tiene sonido, pero hace que la consonante anterior se pronuncie suave (palatalizada).",
+                      "mnemonic": "Es como una nube que ablanda la letra anterior. Piensa en “<span class='hl'>mamma</span>” vs “mam’a” — más suave.",
+                      "examples": [
+                          {
+                              "t": "Ejemplo: <b>мать</b> (mat') — la T se suaviza.",
+                              "n": "Se pronuncia “mat’”, con la lengua pegada al paladar."
+                          },
+                          {
+                              "t": "El <b>Ь</b> es como una almohada: hace todo más suave.",
+                              "n": "No suena, solo afecta a la letra anterior."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ы",
+                      "isLetter": true,
+                      "letter": "Ы",
+                      "word": "Ы",
+                      "emoji": "🔤",
+                      "phonetic": "/ɨ/",
+                      "translation": "<b>Ы</b> — es un sonido único: entre <i>I</i> y <i>U</i>, como si te tiraran de la lengua hacia atrás. No existe en italiano.",
+                      "mnemonic": "Imagina que te duele la garganta y dices “<span class='hl'>iiiu</span>”. La Ы parece una letra con un palo y una Y.",
+                      "examples": [
+                          {
+                              "t": "<b>Ы</b> es como una <i>I</i> profunda y gutural.",
+                              "n": "Practica: “y” como en “my” pero más atrás."
+                          },
+                          {
+                              "t": "La <b>Ы</b> se escribe con una barra y una Y: parece un palo con una Y al lado.",
+                              "n": "Visual: I + Y."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "жить",
+                      "emoji": "🏠",
+                      "phonetic": "/ʐɨtʲ/",
+                      "translation": "vivir",
+                      "translations": {
+                          "ru": "жить",
+                          "it": "vivere",
+                          "en": "to live"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я хочу <b>жить</b> в Италии.",
+                              "n": "Voglio vivere in Italia."
+                          },
+                          {
+                              "t": "Он <b>живёт</b> в Москве.",
+                              "n": "Lui vive a Mosca."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "муж",
+                      "emoji": "👨",
+                      "phonetic": "/muʂ/",
+                      "translation": "marito",
+                      "translations": {
+                          "ru": "муж",
+                          "it": "marito",
+                          "en": "husband"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>муж</b> дома.",
+                              "n": "Mio marito è a casa."
+                          },
+                          {
+                              "t": "У неё есть <b>муж</b>.",
+                              "n": "Lei ha un marito."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "школа",
+                      "emoji": "🏫",
+                      "phonetic": "/ˈʂkoɫə/",
+                      "translation": "scuola",
+                      "translations": {
+                          "ru": "школа",
+                          "it": "scuola",
+                          "en": "school"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>школу</b>.",
+                              "n": "Vado a scuola."
+                          },
+                          {
+                              "t": "Наша <b>школа</b> большая.",
+                              "n": "La nostra scuola è grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "bene, buono",
+                      "translations": {
+                          "ru": "хорошо",
+                          "it": "bene",
+                          "en": "good, well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Tutto bene."
+                          },
+                          {
+                              "t": "Он говорит по-русски <b>хорошо</b>.",
+                              "n": "Lui parla russo bene."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "щи",
+                      "emoji": "🍲",
+                      "phonetic": "/ɕɕi/",
+                      "translation": "zuppa di cavolo (piatto russo)",
+                      "translations": {
+                          "ru": "щи",
+                          "it": "zuppa di cavolo",
+                          "en": "cabbage soup"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я люблю <b>щи</b>.",
+                              "n": "Mi piace la zuppa di cavolo."
+                          },
+                          {
+                              "t": "<b>Щи</b> — это русское блюдо.",
+                              "n": "La shchi è un piatto russo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_06",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "ещё",
+                      "emoji": "🔄",
+                      "phonetic": "/jɪˈɕːɵ/",
+                      "translation": "ancora, di più",
+                      "translations": {
+                          "ru": "ещё",
+                          "it": "ancora",
+                          "en": "still, more"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мне нужно <b>ещё</b> время.",
+                              "n": "Ho bisogno di più tempo."
+                          },
+                          {
+                              "t": "Он <b>ещё</b> спит.",
+                              "n": "Lui dorme ancora."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_07",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "чай",
+                      "emoji": "🍵",
+                      "phonetic": "/tɕaj/",
+                      "translation": "tè",
+                      "translations": {
+                          "ru": "чай",
+                          "it": "tè",
+                          "en": "tea"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>чай</b>.",
+                              "n": "Bevo il tè."
+                          },
+                          {
+                              "t": "Чашка <b>чая</b>, пожалуйста.",
+                              "n": "Una tazza di tè, per favore."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_08",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/ʂto/",
+                      "translation": "che cosa",
+                      "translations": {
+                          "ru": "что",
+                          "it": "che cosa",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "Che cos'è?"
+                          },
+                          {
+                              "t": "Я не знаю, <b>что</b> сказать.",
+                              "n": "Non so cosa dire."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_09",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хлеб",
+                      "emoji": "🍞",
+                      "phonetic": "/xlʲep/",
+                      "translation": "pane",
+                      "translations": {
+                          "ru": "хлеб",
+                          "it": "pane",
+                          "en": "bread"
+                      },
+                      "examples": [
+                          {
+                              "t": "Свежий <b>хлеб</b> вкусный.",
+                              "n": "Il pane fresco è buono."
+                          },
+                          {
+                              "t": "Купи <b>хлеб</b>, пожалуйста.",
+                              "n": "Compra il pane, per favore."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_10",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "bene, buono",
+                      "translations": {
+                          "ru": "хорошо",
+                          "it": "bene",
+                          "en": "good, well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Tutto bene."
+                          },
+                          {
+                              "t": "Он говорит по-русски <b>хорошо</b>.",
+                              "n": "Lui parla russo bene."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_11",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "цена",
+                      "emoji": "💰",
+                      "phonetic": "/tsɨˈna/",
+                      "translation": "prezzo",
+                      "translations": {
+                          "ru": "цена",
+                          "it": "prezzo",
+                          "en": "price"
+                      },
+                      "examples": [
+                          {
+                              "t": "Какая <b>цена</b>?",
+                              "n": "Qual è il prezzo?"
+                          },
+                          {
+                              "t": "Это хорошая <b>цена</b>.",
+                              "n": "È un buon prezzo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_12",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "отец",
+                      "emoji": "👨‍👧",
+                      "phonetic": "/ɐˈtʲets/",
+                      "translation": "padre",
+                      "translations": {
+                          "ru": "отец",
+                          "it": "padre",
+                          "en": "father"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>отец</b> работает.",
+                              "n": "Mio padre lavora."
+                          },
+                          {
+                              "t": "У него есть <b>отец</b>.",
+                              "n": "Lui ha un padre."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_13",
+                      "isLetter": false,
+                      "letter": "Ъ",
+                      "word": "объект",
+                      "emoji": "📦",
+                      "phonetic": "/ɐbˈjekt/",
+                      "translation": "oggetto",
+                      "translations": {
+                          "ru": "объект",
+                          "it": "oggetto",
+                          "en": "object"
+                      },
+                      "examples": [
+                          {
+                              "t": "Этот <b>объект</b> большой.",
+                              "n": "Questo oggetto è grande."
+                          },
+                          {
+                              "t": "На столе лежит <b>объект</b>.",
+                              "n": "Sul tavolo c'è un oggetto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_14",
+                      "isLetter": false,
+                      "letter": "Ъ",
+                      "word": "съезд",
+                      "emoji": "🚗",
+                      "phonetic": "/sjest/",
+                      "translation": "congresso, uscita (stradale)",
+                      "translations": {
+                          "ru": "съезд",
+                          "it": "congresso, uscita",
+                          "en": "congress, exit"
+                      },
+                      "examples": [
+                          {
+                              "t": "Он поехал на <b>съезд</b>.",
+                              "n": "È andato al congresso."
+                          },
+                          {
+                              "t": "Следующий <b>съезд</b> через километр.",
+                              "n": "La prossima uscita è tra un chilometro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_15",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "мать",
+                      "emoji": "👩‍👧",
+                      "phonetic": "/matʲ/",
+                      "translation": "madre",
+                      "translations": {
+                          "ru": "мать",
+                          "it": "madre",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Моя <b>мать</b> дома.",
+                              "n": "Mia madre è a casa."
+                          },
+                          {
+                              "t": "Я люблю свою <b>мать</b>.",
+                              "n": "Amo mia madre."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_16",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "пять",
+                      "emoji": "5️⃣",
+                      "phonetic": "/pʲatʲ/",
+                      "translation": "cinque",
+                      "translations": {
+                          "ru": "пять",
+                          "it": "cinque",
+                          "en": "five"
+                      },
+                      "examples": [
+                          {
+                              "t": "У меня <b>пять</b> рублей.",
+                              "n": "Ho cinque rubli."
+                          },
+                          {
+                              "t": "Мне нужно <b>пять</b> минут.",
+                              "n": "Mi servono cinque minuti."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_17",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "tu",
+                      "translations": {
+                          "ru": "ты",
+                          "it": "tu",
+                          "en": "you (singular)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> дома?",
+                              "n": "Sei a casa?"
+                          },
+                          {
+                              "t": "Я люблю <b>тебя</b>.",
+                              "n": "Ti amo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_18",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/mɨ/",
+                      "translation": "noi",
+                      "translations": {
+                          "ru": "мы",
+                          "it": "noi",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> идём в кино.",
+                              "n": "Andiamo al cinema."
+                          },
+                          {
+                              "t": "<b>Мы</b> друзья.",
+                              "n": "Siamo amici."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_19",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "сын",
+                      "emoji": "👦",
+                      "phonetic": "/sɨn/",
+                      "translation": "figlio",
+                      "translations": {
+                          "ru": "сын",
+                          "it": "figlio",
+                          "en": "son"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>сын</b> учится.",
+                              "n": "Mio figlio studia."
+                          },
+                          {
+                              "t": "У них есть <b>сын</b>.",
+                              "n": "Hanno un figlio."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g4",
+              "name": "Primeras palabras rusas",
+              "icon": "📖",
+              "color": "#ef4444",
+              "description": "Leer y entender 20 palabras rusas esenciales",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2",
+                  "ru_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g4_01",
+                      "letter": "Д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "Sì – <b>д</b> si legge come una <i>D</i> dura italiana",
+                      "translations": {
+                          "ru": "да",
+                          "it": "sì",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я понимаю.",
+                              "n": "Sì, capisco."
+                          },
+                          {
+                              "t": "Ты идёшь? – <b>Да</b>.",
+                              "n": "Vai? – Sì."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_02",
+                      "letter": "Н",
+                      "word": "нет",
+                      "emoji": "❌",
+                      "phonetic": "/nʲet/",
+                      "translation": "No – <b>н</b> come <i>N</i>, <b>е</b> come <i>je</i>",
+                      "translations": {
+                          "ru": "нет",
+                          "it": "no",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, grazie."
+                          },
+                          {
+                              "t": "Это не так – <b>нет</b>.",
+                              "n": "Non è così – no."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_03",
+                      "letter": "П",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/prʲivʲet/",
+                      "translation": "Ciao (informale) – <b>п</b> come <i>P</i>, <b>р</b> come <i>R</i>",
+                      "translations": {
+                          "ru": "привет",
+                          "it": "ciao",
+                          "en": "hi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>, как дела?",
+                              "n": "Ciao, come va?"
+                          },
+                          {
+                              "t": "Скажи <b>привет</b> маме.",
+                              "n": "Di' ciao alla mamma."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_04",
+                      "letter": "П",
+                      "word": "пока",
+                      "emoji": "👋",
+                      "phonetic": "/pɐˈka/",
+                      "translation": "Ciao (arrivederci) – <b>п</b> come <i>P</i>, <b>о</b> come <i>O</i>",
+                      "translations": {
+                          "ru": "пока",
+                          "it": "ciao (arrivederci)",
+                          "en": "bye"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Пока</b>, до завтра!",
+                              "n": "Ciao, a domani!"
+                          },
+                          {
+                              "t": "Ну, <b>пока</b>!",
+                              "n": "Beh, ciao!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_05",
+                      "letter": "С",
+                      "word": "спасибо",
+                      "emoji": "🙏",
+                      "phonetic": "/spɐˈsʲibə/",
+                      "translation": "Grazie – <b>с</b> come <i>S</i>, <b>п</b> come <i>P</i>",
+                      "translations": {
+                          "ru": "спасибо",
+                          "it": "grazie",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Спасибо</b> большое!",
+                              "n": "Grazie mille!"
+                          },
+                          {
+                              "t": "Скажи <b>спасибо</b> бабушке.",
+                              "n": "Di' grazie alla nonna."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_06",
+                      "letter": "П",
+                      "word": "пожалуйста",
+                      "emoji": "🙏",
+                      "phonetic": "/pɐˈʐalʊstə/",
+                      "translation": "Per favore / prego – <b>п</b> come <i>P</i>, <b>ж</b> come <i>j</i> francese",
+                      "translations": {
+                          "ru": "пожалуйста",
+                          "it": "per favore / prego",
+                          "en": "please / you're welcome"
+                      },
+                      "examples": [
+                          {
+                              "t": "Скажи <b>пожалуйста</b>.",
+                              "n": "Di' per favore."
+                          },
+                          {
+                              "t": "– Спасибо! – <b>Пожалуйста</b>.",
+                              "n": "– Grazie! – Prego."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_07",
+                      "letter": "К",
+                      "word": "как дела?",
+                      "emoji": "❓",
+                      "phonetic": "/kak dʲɪˈla/",
+                      "translation": "Come va? – <b>к</b> come <i>K</i>, <b>д</b> come <i>D</i>",
+                      "translations": {
+                          "ru": "как дела?",
+                          "it": "come va?",
+                          "en": "how are you?"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Как дела</b>?",
+                              "n": "Come va?"
+                          },
+                          {
+                              "t": "Привет, <b>как дела</b>?",
+                              "n": "Ciao, come va?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_08",
+                      "letter": "Х",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "Bene – <b>х</b> come la <i>j</i> spagnola, <b>ш</b> come <i>sc</i> di sci",
+                      "translations": {
+                          "ru": "хорошо",
+                          "it": "bene",
+                          "en": "good/well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Tutto bene."
+                          },
+                          {
+                              "t": "Я чувствую себя <b>хорошо</b>.",
+                              "n": "Mi sento bene."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_09",
+                      "letter": "Я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "/ja/",
+                      "translation": "Io – <b>я</b> è come <i>ia</i> in italiano",
+                      "translations": {
+                          "ru": "я",
+                          "it": "io",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент.",
+                              "n": "Io sono studente."
+                          },
+                          {
+                              "t": "<b>Я</b> люблю тебя.",
+                              "n": "Io ti amo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_10",
+                      "letter": "Т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "Tu – <b>т</b> come <i>T</i>, <b>ы</b> un suono tra i e u",
+                      "translations": {
+                          "ru": "ты",
+                          "it": "tu",
+                          "en": "you (singular)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> дома?",
+                              "n": "Sei a casa?"
+                          },
+                          {
+                              "t": "Как <b>ты</b>?",
+                              "n": "Come stai?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_11",
+                      "letter": "О",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "Lui – <b>о</b> come <i>O</i>, <b>н</b> come <i>N</i>",
+                      "translations": {
+                          "ru": "он",
+                          "it": "lui",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> мой друг.",
+                              "n": "Lui è mio amico."
+                          },
+                          {
+                              "t": "<b>Он</b> здесь.",
+                              "n": "Lui è qui."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_12",
+                      "letter": "О",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "/ɐˈna/",
+                      "translation": "Lei – <b>о</b> come <i>O</i>, <b>н</b> come <i>N</i>",
+                      "translations": {
+                          "ru": "она",
+                          "it": "lei",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Она</b> красивая.",
+                              "n": "Lei è bella."
+                          },
+                          {
+                              "t": "<b>Она</b> тут.",
+                              "n": "Lei è qui."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_13",
+                      "letter": "М",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/mɨ/",
+                      "translation": "Noi – <b>м</b> come <i>M</i>, <b>ы</b> un suono tra i e u",
+                      "translations": {
+                          "ru": "мы",
+                          "it": "noi",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> идём.",
+                              "n": "Noi andiamo."
+                          },
+                          {
+                              "t": "<b>Мы</b> из Италии.",
+                              "n": "Noi siamo dall'Italia."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_14",
+                      "letter": "Ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/ʂto/",
+                      "translation": "Che cosa – <b>ч</b> come <i>ci</i> di ciao",
+                      "translations": {
+                          "ru": "что",
+                          "it": "che cosa",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "Che cos'è?"
+                          },
+                          {
+                              "t": "Я не знаю, <b>что</b> сказать.",
+                              "n": "Non so cosa dire."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_15",
+                      "letter": "Г",
+                      "word": "где",
+                      "emoji": "📍",
+                      "phonetic": "/ɡdʲe/",
+                      "translation": "Dove – <b>г</b> come <i>G</i> dura",
+                      "translations": {
+                          "ru": "где",
+                          "it": "dove",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "Dov'è il bagno?"
+                          },
+                          {
+                              "t": "<b>Где</b> ты?",
+                              "n": "Dove sei?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_16",
+                      "letter": "З",
+                      "word": "здесь",
+                      "emoji": "📍",
+                      "phonetic": "/zdʲesʲ/",
+                      "translation": "Qui – <b>з</b> come <i>Z</i> sonora",
+                      "translations": {
+                          "ru": "здесь",
+                          "it": "qui",
+                          "en": "here"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>здесь</b>.",
+                              "n": "Io sono qui."
+                          },
+                          {
+                              "t": "<b>Здесь</b> холодно.",
+                              "n": "Qui fa freddo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_17",
+                      "letter": "Т",
+                      "word": "там",
+                      "emoji": "📍",
+                      "phonetic": "/tam/",
+                      "translation": "Lì – <b>т</b> come <i>T</i>",
+                      "translations": {
+                          "ru": "там",
+                          "it": "lì",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Он <b>там</b>.",
+                              "n": "Lui è lì."
+                          },
+                          {
+                              "t": "<b>Там</b> хорошо.",
+                              "n": "Lì si sta bene."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_18",
+                      "letter": "Э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/ˈɛtə/",
+                      "translation": "Questo – <b>э</b> come <i>E</i> aperta",
+                      "translations": {
+                          "ru": "это",
+                          "it": "questo",
+                          "en": "this"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> книга.",
+                              "n": "Questo è un libro."
+                          },
+                          {
+                              "t": "<b>Это</b> хорошо.",
+                              "n": "Questo è buono."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_19",
+                      "letter": "И",
+                      "word": "и",
+                      "emoji": "➕",
+                      "phonetic": "/i/",
+                      "translation": "E – <b>и</b> come <i>I</i> italiana",
+                      "translations": {
+                          "ru": "и",
+                          "it": "e",
+                          "en": "and"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>и</b> ты.",
+                              "n": "Io e te."
+                          },
+                          {
+                              "t": "Хлеб <b>и</b> вода.",
+                              "n": "Pane e acqua."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_20",
+                      "letter": "И",
+                      "word": "или",
+                      "emoji": "🔀",
+                      "phonetic": "/ˈilʲi/",
+                      "translation": "O (oppure) – <b>и</b> come <i>I</i>",
+                      "translations": {
+                          "ru": "или",
+                          "it": "o",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе?",
+                              "n": "Tè o caffè?"
+                          },
+                          {
+                              "t": "Сегодня <b>или</b> завтра?",
+                              "n": "Oggi o domani?"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // RU_PT
+  // ──────────────────────────────────────────────────────
+  ru_pt: {
+      "level": "A0",
+      "levelName": "El alfabeto cirílico",
+      "groups": [
+          {
+              "id": "ru_a0_g1",
+              "name": "Letras parecidas al latín",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "А Е О М Т К В Н Р С — entrada fácil al cirílico",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ru_a0_g1_L_а",
+                      "isLetter": true,
+                      "letter": "А",
+                      "word": "А",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Nombre: <b>А</b> (a) — suena como la <i>a</i> de \"casa\"",
+                      "mnemonic": "Es la misma letra A del español, solo que en cirílico.",
+                      "examples": [
+                          {
+                              "t": "<b>А</b> como en <i>mamá</i>",
+                              "n": "A como en 'mamá'"
+                          },
+                          {
+                              "t": "<b>М</b>ама — <b>П</b>апа",
+                              "n": "Mamá y papá"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_е",
+                      "isLetter": true,
+                      "letter": "Е",
+                      "word": "Е",
+                      "emoji": "🔤",
+                      "phonetic": "/je/",
+                      "translation": "Nombre: <b>Е</b> (ye) — suena como <i>ye</i> en \"yema\"",
+                      "mnemonic": "Parece una E latina, pero se lee como 'ye'. Piensa en <span class='hl'>ye</span> para recordar.",
+                      "examples": [
+                          {
+                              "t": "<b>Е</b> como en <i>нет</i> (no)",
+                              "n": "Ye como en 'no'"
+                          },
+                          {
+                              "t": "<b>Е</b> en <i>где</i> (dónde)",
+                              "n": "Ye en 'dónde'"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_о",
+                      "isLetter": true,
+                      "letter": "О",
+                      "word": "О",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Nombre: <b>О</b> (o) — igual que la <i>o</i> española",
+                      "mnemonic": "Es un círculo perfecto, como la O latina.",
+                      "examples": [
+                          {
+                              "t": "<b>О</b> como en <i>он</i> (él)",
+                              "n": "O como en 'él'"
+                          },
+                          {
+                              "t": "<b>О</b> en <i>она</i> (ella)",
+                              "n": "O en 'ella'"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_м",
+                      "isLetter": true,
+                      "letter": "М",
+                      "word": "М",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Nombre: <b>М</b> (em) — igual que la <i>m</i> española",
+                      "mnemonic": "Es una M idéntica, no hay confusión.",
+                      "examples": [
+                          {
+                              "t": "<b>М</b> como en <i>мир</i> (mundo/paz)",
+                              "n": "M como en 'mundo'"
+                          },
+                          {
+                              "t": "<b>М</b>ой (mi)",
+                              "n": "Moy (mi)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_т",
+                      "isLetter": true,
+                      "letter": "Т",
+                      "word": "Т",
+                      "emoji": "🔤",
+                      "phonetic": "/t/",
+                      "translation": "Nombre: <b>Т</b> (te) — suena como <i>t</i> de \"taza\"",
+                      "mnemonic": "Se ve como una T pero con la barra superior curvada hacia abajo, como una <span class='hl'>t</span> minúscula.",
+                      "examples": [
+                          {
+                              "t": "<b>Т</b> como en <i>ты</i> (tú)",
+                              "n": "T como en 'tú'"
+                          },
+                          {
+                              "t": "<b>Т</b>ам (allí)",
+                              "n": "Tam (allí)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_к",
+                      "isLetter": true,
+                      "letter": "К",
+                      "word": "К",
+                      "emoji": "🔤",
+                      "phonetic": "/k/",
+                      "translation": "Nombre: <b>К</b> (ka) — suena como <i>k</i> de \"koala\"",
+                      "mnemonic": "Es una K latina, pero con el palo vertical más corto y la diagonal más larga.",
+                      "examples": [
+                          {
+                              "t": "<b>К</b> como en <i>как</i> (cómo)",
+                              "n": "K como en 'cómo'"
+                          },
+                          {
+                              "t": "<b>К</b>то (quién)",
+                              "n": "Kto (quién)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_в",
+                      "isLetter": true,
+                      "letter": "В",
+                      "word": "В",
+                      "emoji": "🔤",
+                      "phonetic": "/v/",
+                      "translation": "Nombre: <b>В</b> (ve) — suena como <i>v</i> de \"vaca\", ¡cuidado!",
+                      "mnemonic": "Parece una B, pero se lee como <span class='hl'>v</span>. Imagina una <span class='hl'>V</span> dentro de la B.",
+                      "examples": [
+                          {
+                              "t": "<b>В</b>ода (agua)",
+                              "n": "Voda (agua)"
+                          },
+                          {
+                              "t": "<b>В</b>от (aquí está)",
+                              "n": "Vot (aquí está)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_н",
+                      "isLetter": true,
+                      "letter": "Н",
+                      "word": "Н",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Nombre: <b>Н</b> (en) — suena como <i>n</i> de \"nube\"",
+                      "mnemonic": "Parece una H, pero es una <span class='hl'>N</span> con las patas abiertas.",
+                      "examples": [
+                          {
+                              "t": "<b>Н</b>о (pero)",
+                              "n": "No (pero)"
+                          },
+                          {
+                              "t": "<b>Н</b>ет (no)",
+                              "n": "Nyet (no)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_р",
+                      "isLetter": true,
+                      "letter": "Р",
+                      "word": "Р",
+                      "emoji": "🔤",
+                      "phonetic": "/r/",
+                      "translation": "Nombre: <b>Р</b> (er) — suena como <i>r</i> fuerte de \"perro\"",
+                      "mnemonic": "Parece una P, pero se lee como <span class='hl'>r</span>. La cola de la P se convierte en una r.",
+                      "examples": [
+                          {
+                              "t": "<b>Р</b>оссия (Rusia)",
+                              "n": "Rossiya (Rusia)"
+                          },
+                          {
+                              "t": "<b>Р</b>ад (contento)",
+                              "n": "Rad (contento)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_с",
+                      "isLetter": true,
+                      "letter": "С",
+                      "word": "С",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Nombre: <b>С</b> (es) — suena como <i>s</i> de \"sol\"",
+                      "mnemonic": "Parece una C, pero se lee como <span class='hl'>s</span>. Piensa en <span class='hl'>sol</span>.",
+                      "examples": [
+                          {
+                              "t": "<b>С</b>он (sueño)",
+                              "n": "Son (sueño)"
+                          },
+                          {
+                              "t": "<b>С</b>ок (jugo)",
+                              "n": "Sok (jugo)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "А",
+                      "word": "мама",
+                      "emoji": "👩",
+                      "phonetic": "/ˈmamə/",
+                      "translation": "mamá — <b>мама</b> es igual que en español",
+                      "translations": {
+                          "ru": "мама",
+                          "pt": "mamãe",
+                          "en": "mom"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мама</b> дома.",
+                              "n": "Mamá está en casa."
+                          },
+                          {
+                              "t": "Это <b>мама</b>.",
+                              "n": "Esta es mamá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "А",
+                      "word": "папа",
+                      "emoji": "👨",
+                      "phonetic": "/ˈpapə/",
+                      "translation": "papá — <b>папа</b> se pronuncia casi igual",
+                      "translations": {
+                          "ru": "папа",
+                          "pt": "papai",
+                          "en": "dad"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Папа</b> работает.",
+                              "n": "Papá trabaja."
+                          },
+                          {
+                              "t": "Где <b>папа</b>?",
+                              "n": "¿Dónde está papá?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "нет",
+                      "emoji": "❌",
+                      "phonetic": "/nʲet/",
+                      "translation": "no — <b>нет</b> se pronuncia 'nyet'",
+                      "translations": {
+                          "ru": "нет",
+                          "pt": "não",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, gracias."
+                          },
+                          {
+                              "t": "Это <b>нет</b>.",
+                              "n": "Esto no es."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "где",
+                      "emoji": "📍",
+                      "phonetic": "/ɡdʲe/",
+                      "translation": "dónde — <b>где</b> suena 'gde'",
+                      "translations": {
+                          "ru": "где",
+                          "pt": "onde",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "¿Dónde está el baño?"
+                          },
+                          {
+                              "t": "<b>Где</b> мама?",
+                              "n": "¿Dónde está mamá?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "él — <b>он</b> se pronuncia como la 'on' de 'once'",
+                      "translations": {
+                          "ru": "он",
+                          "pt": "ele",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> дома.",
+                              "n": "Él está en casa."
+                          },
+                          {
+                              "t": "<b>Он</b> мой папа.",
+                              "n": "Él es mi papá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "/ɐˈna/",
+                      "translation": "ella — <b>она</b> se pronuncia 'aná'",
+                      "translations": {
+                          "ru": "она",
+                          "pt": "ela",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Она</b> там.",
+                              "n": "Ella está allí."
+                          },
+                          {
+                              "t": "<b>Она</b> мама.",
+                              "n": "Ella es mamá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мир",
+                      "emoji": "🌍",
+                      "phonetic": "/mʲir/",
+                      "translation": "mundo / paz — <b>мир</b> significa ambas cosas",
+                      "translations": {
+                          "ru": "мир",
+                          "pt": "mundo/paz",
+                          "en": "world/peace"
+                      },
+                      "examples": [
+                          {
+                              "t": "Весь <b>мир</b>.",
+                              "n": "Todo el mundo."
+                          },
+                          {
+                              "t": "Мы хотим <b>мир</b>.",
+                              "n": "Queremos paz."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мой",
+                      "emoji": "🙋",
+                      "phonetic": "/moj/",
+                      "translation": "mi (masculino) — <b>мой</b> se pronuncia 'moy'",
+                      "translations": {
+                          "ru": "мой",
+                          "pt": "meu",
+                          "en": "my"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мой</b> папа.",
+                              "n": "Mi papá."
+                          },
+                          {
+                              "t": "<b>Мой</b> дом.",
+                              "n": "Mi casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "tú — <b>ты</b> es informal",
+                      "translations": {
+                          "ru": "ты",
+                          "pt": "você (informal)",
+                          "en": "you (informal)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> дома?",
+                              "n": "¿Estás en casa?"
+                          },
+                          {
+                              "t": "<b>Ты</b> мой друг.",
+                              "n": "Tú eres mi amigo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "там",
+                      "emoji": "📍",
+                      "phonetic": "/tam/",
+                      "translation": "allí — <b>там</b> se pronuncia como 'tam'",
+                      "translations": {
+                          "ru": "там",
+                          "pt": "ali",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Он <b>там</b>.",
+                              "n": "Él está allí."
+                          },
+                          {
+                              "t": "<b>Там</b> мама.",
+                              "n": "Mamá está allí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_11",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "как",
+                      "emoji": "❓",
+                      "phonetic": "/kak/",
+                      "translation": "cómo — <b>как</b> se pronuncia 'kak'",
+                      "translations": {
+                          "ru": "как",
+                          "pt": "como",
+                          "en": "how"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Как</b> дела?",
+                              "n": "¿Cómo estás?"
+                          },
+                          {
+                              "t": "<b>Как</b> тебя зовут?",
+                              "n": "¿Cómo te llamas?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_12",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "кто",
+                      "emoji": "❓",
+                      "phonetic": "/kto/",
+                      "translation": "quién — <b>кто</b> se pronuncia 'kto'",
+                      "translations": {
+                          "ru": "кто",
+                          "pt": "quem",
+                          "en": "who"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Кто</b> это?",
+                              "n": "¿Quién es?"
+                          },
+                          {
+                              "t": "<b>Кто</b> там?",
+                              "n": "¿Quién está allí?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_13",
+                      "isLetter": false,
+                      "letter": "В",
+                      "word": "вода",
+                      "emoji": "💧",
+                      "phonetic": "/vɐˈda/",
+                      "translation": "agua — <b>вода</b> se pronuncia 'vadá' (¡cuidado, la 'в' suena como 'v'!)",
+                      "translations": {
+                          "ru": "вода",
+                          "pt": "água",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>воду</b>.",
+                              "n": "Bebo agua."
+                          },
+                          {
+                              "t": "Где <b>вода</b>?",
+                              "n": "¿Dónde está el agua?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_14",
+                      "isLetter": false,
+                      "letter": "В",
+                      "word": "вот",
+                      "emoji": "👉",
+                      "phonetic": "/vot/",
+                      "translation": "aquí está — <b>вот</b> se pronuncia 'vot'",
+                      "translations": {
+                          "ru": "вот",
+                          "pt": "aqui está",
+                          "en": "here is"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Вот</b> мама.",
+                              "n": "Aquí está mamá."
+                          },
+                          {
+                              "t": "<b>Вот</b> дом.",
+                              "n": "Aquí está la casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_15",
+                      "isLetter": false,
+                      "letter": "Н",
+                      "word": "но",
+                      "emoji": "🔄",
+                      "phonetic": "/no/",
+                      "translation": "pero — <b>но</b> se pronuncia 'no' (¡cuidado con la 'н' que es 'n'!)",
+                      "translations": {
+                          "ru": "но",
+                          "pt": "mas",
+                          "en": "but"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я хочу, <b>но</b> не могу.",
+                              "n": "Quiero, pero no puedo."
+                          },
+                          {
+                              "t": "<b>Но</b> это не так.",
+                              "n": "Pero no es así."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_16",
+                      "isLetter": false,
+                      "letter": "Н",
+                      "word": "нет",
+                      "emoji": "❌",
+                      "phonetic": "/nʲet/",
+                      "translation": "no — <b>нет</b> (ya visto, pero recuerda que la 'н' es 'n')",
+                      "translations": {
+                          "ru": "нет",
+                          "pt": "não",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, gracias."
+                          },
+                          {
+                              "t": "Это <b>нет</b>.",
+                              "n": "Esto no es."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_17",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "Россия",
+                      "emoji": "🇷🇺",
+                      "phonetic": "/rɐˈsʲijə/",
+                      "translation": "Rusia — <b>Россия</b> se pronuncia 'Rassíya' (la 'р' es una 'r' fuerte)",
+                      "translations": {
+                          "ru": "Россия",
+                          "pt": "Rússia",
+                          "en": "Russia"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я из <b>России</b>.",
+                              "n": "Soy de Rusia."
+                          },
+                          {
+                              "t": "<b>Россия</b> большая.",
+                              "n": "Rusia es grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_18",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "рад",
+                      "emoji": "😊",
+                      "phonetic": "/rat/",
+                      "translation": "contento — <b>рад</b> se pronuncia 'rat' (la 'р' es 'r')",
+                      "translations": {
+                          "ru": "рад",
+                          "pt": "contente",
+                          "en": "glad"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>рад</b> тебя видеть.",
+                              "n": "Estoy contento de verte."
+                          },
+                          {
+                              "t": "Он <b>рад</b>.",
+                              "n": "Él está contento."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_19",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сон",
+                      "emoji": "😴",
+                      "phonetic": "/son/",
+                      "translation": "sueño (el acto de dormir) — <b>сон</b> se pronuncia 'son'",
+                      "translations": {
+                          "ru": "сон",
+                          "pt": "sono",
+                          "en": "sleep"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мне нужен <b>сон</b>.",
+                              "n": "Necesito dormir."
+                          },
+                          {
+                              "t": "Хорошего <b>сна</b>!",
+                              "n": "¡Buen sueño!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_20",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сок",
+                      "emoji": "🧃",
+                      "phonetic": "/sok/",
+                      "translation": "jugo — <b>сок</b> se pronuncia 'sok'",
+                      "translations": {
+                          "ru": "сок",
+                          "pt": "suco",
+                          "en": "juice"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>сок</b>.",
+                              "n": "Bebo jugo."
+                          },
+                          {
+                              "t": "Апельсиновый <b>сок</b>.",
+                              "n": "Jugo de naranja."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g2",
+              "name": "Letras nuevas — sonidos conocidos",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "Б Г Д З И Л П Ф Э Ю Я — formas nuevas, sonidos familiares",
+              "reviewFrom": [
+                  "ru_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "Б",
+                      "word": "Б",
+                      "emoji": "🔤",
+                      "phonetic": "/b/",
+                      "translation": "Letra <b>Б</b> — som de <b>B</b> como em <i>bola</i>. Parece um <b>B</b> com a barriga para a direita.",
+                      "mnemonic": "O <b>Б</b> parece um <b>B</b> com a barriga para a direita, mas o som é igual ao nosso B.",
+                      "examples": [
+                          {
+                              "t": "<b>Б</b> como em <i>брат</i> (irmão) — <br> <b>Б</b> como em <i>банк</i> (banco)",
+                              "n": "O som é sempre /b/, como em português."
+                          },
+                          {
+                              "t": "Escreva: comece com a linha vertical, depois a barriga para a direita.",
+                              "n": "Dica de traçado: parece um B maiúsculo, mas sem a volta inferior."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "Г",
+                      "word": "Г",
+                      "emoji": "🔤",
+                      "phonetic": "/g/",
+                      "translation": "Letra <b>Г</b> — som de <b>G</b> como em <i>gato</i> (sempre forte). Parece um <b>Γ</b> grego.",
+                      "mnemonic": "O <b>Г</b> é como um <b>G</b> sem a perninha, ou um <b>Γ</b> grego. Som sempre /g/.",
+                      "examples": [
+                          {
+                              "t": "<b>Г</b> como em <i>где</i> (onde) — <br> <b>Г</b> como em <i>год</i> (ano)",
+                              "n": "Nunca tem som de /ʒ/ como em português."
+                          },
+                          {
+                              "t": "Escreva: uma linha horizontal no topo e uma vertical descendo.",
+                              "n": "Parece um 'r' maiúsculo invertido."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "Д",
+                      "word": "Д",
+                      "emoji": "🔤",
+                      "phonetic": "/d/",
+                      "translation": "Letra <b>Д</b> — som de <b>D</b> como em <i>dado</i>. Parece uma casa pequena.",
+                      "mnemonic": "O <b>Д</b> parece uma <b>casinha</b> com telhado. O som é igual ao nosso D.",
+                      "examples": [
+                          {
+                              "t": "<b>Д</b> como em <i>да</i> (sim) — <br> <b>Д</b> como em <i>дом</i> (casa)",
+                              "n": "A casa começa com Д!"
+                          },
+                          {
+                              "t": "Escreva: um triângulo no topo e duas perninhas.",
+                              "n": "Parece um 'A' sem a travessa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "З",
+                      "word": "З",
+                      "emoji": "🔤",
+                      "phonetic": "/z/",
+                      "translation": "Letra <b>З</b> — som de <b>Z</b> como em <i>zebra</i>, mas mais suave, como um <b>S</b> sonoro.",
+                      "mnemonic": "O <b>З</b> parece um <b>3</b> (três). Lembre: três = som de /z/.",
+                      "examples": [
+                          {
+                              "t": "<b>З</b> como em <i>завтра</i> (amanhã) — <br> <b>З</b> como em <i>зима</i> (inverno)",
+                              "n": "É como o S de 'casa' em português."
+                          },
+                          {
+                              "t": "Escreva: um círculo no topo e outro embaixo, unidos.",
+                              "n": "Parece um número 3 estilizado."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_i",
+                      "isLetter": true,
+                      "letter": "И",
+                      "word": "И",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "Letra <b>И</b> — som de <b>I</b> como em <i>ilha</i>. Parece um <b>N</b> invertido.",
+                      "mnemonic": "O <b>И</b> parece um <b>N</b> de cabeça para baixo. Som de /i/.",
+                      "examples": [
+                          {
+                              "t": "<b>И</b> como em <i>или</i> (ou) — <br> <b>И</b> como em <i>имя</i> (nome)",
+                              "n": "Não confunda com Н (que tem som de N)."
+                          },
+                          {
+                              "t": "Escreva: uma linha diagonal para baixo, depois sobe e desce.",
+                              "n": "Parece um 'U' com uma perna reta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "Л",
+                      "word": "Л",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "Letra <b>Л</b> — som de <b>L</b> como em <i>lua</i>. Parece um <b>L</b> invertido ou um pico de montanha.",
+                      "mnemonic": "O <b>Л</b> parece um <b>L</b> de cabeça para baixo, ou uma montanha. Som de /l/.",
+                      "examples": [
+                          {
+                              "t": "<b>Л</b> como em <i>лес</i> (floresta) — <br> <b>Л</b> como em <i>люди</i> (pessoas)",
+                              "n": "O som é sempre /l/, mesmo antes de vogais suaves."
+                          },
+                          {
+                              "t": "Escreva: uma linha diagonal para a direita e outra para a esquerda, encontrando-se no topo.",
+                              "n": "Parece um 'A' sem a travessa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "П",
+                      "word": "П",
+                      "emoji": "🔤",
+                      "phonetic": "/p/",
+                      "translation": "Letra <b>П</b> — som de <b>P</b> como em <i>pato</i>. Parece um <b>π</b> (pi) grego.",
+                      "mnemonic": "O <b>П</b> parece um <b>π</b> (pi) com as pernas retas. Som de /p/.",
+                      "examples": [
+                          {
+                              "t": "<b>П</b> como em <i>парк</i> (parque) — <br> <b>П</b> como em <i>привет</i> (olá)",
+                              "n": "Parece um portão, mas o som é P."
+                          },
+                          {
+                              "t": "Escreva: duas linhas verticais unidas por uma horizontal no topo.",
+                              "n": "Parece um 'n' maiúsculo invertido."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "Ф",
+                      "word": "Ф",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Letra <b>Ф</b> — som de <b>F</b> como em <i>faca</i>. Parece um <b>Φ</b> grego.",
+                      "mnemonic": "O <b>Ф</b> parece um <b>Φ</b> (phi) grego. Som de /f/.",
+                      "examples": [
+                          {
+                              "t": "<b>Ф</b> como em <i>фото</i> (foto) — <br> <b>Ф</b> como em <i>факт</i> (fato)",
+                              "n": "Palavras emprestadas do grego/latim."
+                          },
+                          {
+                              "t": "Escreva: um círculo com uma linha vertical no meio.",
+                              "n": "Parece um 'O' com uma espada no meio."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_e",
+                      "isLetter": true,
+                      "letter": "Э",
+                      "word": "Э",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "Letra <b>Э</b> — som de <b>E</b> aberto como em <i>pé</i>. Parece um <b>E</b> ao contrário.",
+                      "mnemonic": "O <b>Э</b> é um <b>E</b> espelhado. Som de /e/ aberto.",
+                      "examples": [
+                          {
+                              "t": "<b>Э</b> como em <i>это</i> (isto) — <br> <b>Э</b> como em <i>этаж</i> (andar)",
+                              "n": "Não tem o som de 'i' como em inglês."
+                          },
+                          {
+                              "t": "Escreva: um 'C' grande com uma linha horizontal no meio.",
+                              "n": "Parece um 'E' sem a perna do meio."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_yu",
+                      "isLetter": true,
+                      "letter": "Ю",
+                      "word": "Ю",
+                      "emoji": "🔤",
+                      "phonetic": "/ju/",
+                      "translation": "Letra <b>Ю</b> — som de <b>iu</b> como em <i>iugular</i> ou <i>you</i> em inglês. Parece um <b>IO</b> unidos.",
+                      "mnemonic": "O <b>Ю</b> parece um <b>IO</b> juntos: I + O = som de 'iu'.",
+                      "examples": [
+                          {
+                              "t": "<b>Ю</b> como em <i>юг</i> (sul) — <br> <b>Ю</b> como em <i>люблю</i> (eu amo)",
+                              "n": "É um som de duas vogais."
+                          },
+                          {
+                              "t": "Escreva: um 'I' com um 'O' colado na perna direita.",
+                              "n": "Parece um 'IO' entrelaçado."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_ya",
+                      "isLetter": true,
+                      "letter": "Я",
+                      "word": "Я",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Letra <b>Я</b> — som de <b>ia</b> como em <i>iam</i> ou <i>ya</i> em espanhol. Parece um <b>R</b> invertido.",
+                      "mnemonic": "O <b>Я</b> parece um <b>R</b> ao contrário. Som de 'ia'.",
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> como em <i>я</i> (eu) — <br> <b>Я</b> como em <i>язык</i> (língua)",
+                              "n": "É a palavra mais curta: 'я' = eu."
+                          },
+                          {
+                              "t": "Escreva: um 'R' espelhado, com a perna para a esquerda.",
+                              "n": "Parece um 'R' de cabeça para baixo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "Б",
+                      "word": "брат",
+                      "emoji": "👬",
+                      "phonetic": "/brat/",
+                      "translation": "<b>брат</b> — irmão",
+                      "translations": {
+                          "ru": "брат",
+                          "pt": "irmão",
+                          "en": "brother"
+                      },
+                      "examples": [
+                          {
+                              "t": "У меня есть <b>брат</b>.",
+                              "n": "Eu tenho um irmão."
+                          },
+                          {
+                              "t": "<b>Брат</b> дома.",
+                              "n": "O irmão está em casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "Б",
+                      "word": "банк",
+                      "emoji": "🏦",
+                      "phonetic": "/bank/",
+                      "translation": "<b>банк</b> — banco",
+                      "translations": {
+                          "ru": "банк",
+                          "pt": "banco",
+                          "en": "bank"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>банк</b>.",
+                              "n": "Eu vou ao banco."
+                          },
+                          {
+                              "t": "<b>Банк</b> работает.",
+                              "n": "O banco está aberto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "Г",
+                      "word": "где",
+                      "emoji": "❓",
+                      "phonetic": "/gdʲe/",
+                      "translation": "<b>где</b> — onde",
+                      "translations": {
+                          "ru": "где",
+                          "pt": "onde",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "Onde fica o banheiro?"
+                          },
+                          {
+                              "t": "<b>Где</b> ты?",
+                              "n": "Onde você está?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "Г",
+                      "word": "год",
+                      "emoji": "📅",
+                      "phonetic": "/got/",
+                      "translation": "<b>год</b> — ano",
+                      "translations": {
+                          "ru": "год",
+                          "pt": "ano",
+                          "en": "year"
+                      },
+                      "examples": [
+                          {
+                              "t": "Новый <b>год</b> скоро.",
+                              "n": "O Ano Novo está chegando."
+                          },
+                          {
+                              "t": "Мне двадцать лет. (idade)",
+                              "n": "Literalmente: 'Eu tenho vinte anos'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "<b>да</b> — sim",
+                      "translations": {
+                          "ru": "да",
+                          "pt": "sim",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я понимаю.",
+                              "n": "Sim, eu entendo."
+                          },
+                          {
+                              "t": "Ты дома? — <b>Да</b>.",
+                              "n": "Você está em casa? — Sim."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "дом",
+                      "emoji": "🏠",
+                      "phonetic": "/dom/",
+                      "translation": "<b>дом</b> — casa",
+                      "translations": {
+                          "ru": "дом",
+                          "pt": "casa",
+                          "en": "house"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>дом</b> большой.",
+                              "n": "Minha casa é grande."
+                          },
+                          {
+                              "t": "Я иду <b>домой</b>.",
+                              "n": "Eu vou para casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "З",
+                      "word": "завтра",
+                      "emoji": "🌅",
+                      "phonetic": "/ˈzaftrə/",
+                      "translation": "<b>завтра</b> — amanhã",
+                      "translations": {
+                          "ru": "завтра",
+                          "pt": "amanhã",
+                          "en": "tomorrow"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Завтра</b> будет хорошо.",
+                              "n": "Amanhã será bom."
+                          },
+                          {
+                              "t": "Увидимся <b>завтра</b>.",
+                              "n": "Até amanhã."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "З",
+                      "word": "зима",
+                      "emoji": "❄️",
+                      "phonetic": "/zʲɪˈma/",
+                      "translation": "<b>зима</b> — inverno",
+                      "translations": {
+                          "ru": "зима",
+                          "pt": "inverno",
+                          "en": "winter"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Зима</b> холодная.",
+                              "n": "O inverno é frio."
+                          },
+                          {
+                              "t": "Я люблю <b>зиму</b>.",
+                              "n": "Eu amo o inverno."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "И",
+                      "word": "или",
+                      "emoji": "🔀",
+                      "phonetic": "/ˈilʲi/",
+                      "translation": "<b>или</b> — ou",
+                      "translations": {
+                          "ru": "или",
+                          "pt": "ou",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе?",
+                              "n": "Chá ou café?"
+                          },
+                          {
+                              "t": "Это <b>или</b> то.",
+                              "n": "Isto ou aquilo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "И",
+                      "word": "имя",
+                      "emoji": "📛",
+                      "phonetic": "/ˈimʲə/",
+                      "translation": "<b>имя</b> — nome",
+                      "translations": {
+                          "ru": "имя",
+                          "pt": "nome",
+                          "en": "name"
+                      },
+                      "examples": [
+                          {
+                              "t": "Моё <b>имя</b> Анна.",
+                              "n": "Meu nome é Anna."
+                          },
+                          {
+                              "t": "Какое у тебя <b>имя</b>?",
+                              "n": "Qual é o seu nome?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_11",
+                      "isLetter": false,
+                      "letter": "Л",
+                      "word": "лес",
+                      "emoji": "🌲",
+                      "phonetic": "/lʲes/",
+                      "translation": "<b>лес</b> — floresta",
+                      "translations": {
+                          "ru": "лес",
+                          "pt": "floresta",
+                          "en": "forest"
+                      },
+                      "examples": [
+                          {
+                              "t": "В <b>лесу</b> много деревьев.",
+                              "n": "Na floresta há muitas árvores."
+                          },
+                          {
+                              "t": "Я гуляю в <b>лесу</b>.",
+                              "n": "Eu caminho na floresta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_12",
+                      "isLetter": false,
+                      "letter": "Л",
+                      "word": "люди",
+                      "emoji": "👥",
+                      "phonetic": "/ˈlʲudʲi/",
+                      "translation": "<b>люди</b> — pessoas",
+                      "translations": {
+                          "ru": "люди",
+                          "pt": "pessoas",
+                          "en": "people"
+                      },
+                      "examples": [
+                          {
+                              "t": "На улице много <b>людей</b>.",
+                              "n": "Na rua há muitas pessoas."
+                          },
+                          {
+                              "t": "<b>Люди</b> добрые.",
+                              "n": "As pessoas são boas."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_13",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "парк",
+                      "emoji": "🌳",
+                      "phonetic": "/park/",
+                      "translation": "<b>парк</b> — parque",
+                      "translations": {
+                          "ru": "парк",
+                          "pt": "parque",
+                          "en": "park"
+                      },
+                      "examples": [
+                          {
+                              "t": "Дети играют в <b>парке</b>.",
+                              "n": "As crianças brincam no parque."
+                          },
+                          {
+                              "t": "Я люблю этот <b>парк</b>.",
+                              "n": "Eu amo este parque."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_14",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/prʲɪˈvʲet/",
+                      "translation": "<b>привет</b> — olá (informal)",
+                      "translations": {
+                          "ru": "привет",
+                          "pt": "olá",
+                          "en": "hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>!",
+                              "n": "Olá!"
+                          },
+                          {
+                              "t": "Скажи <b>привет</b> маме.",
+                              "n": "Diga olá para a mãe."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_15",
+                      "isLetter": false,
+                      "letter": "Ф",
+                      "word": "фото",
+                      "emoji": "📷",
+                      "phonetic": "/ˈfotə/",
+                      "translation": "<b>фото</b> — foto",
+                      "translations": {
+                          "ru": "фото",
+                          "pt": "foto",
+                          "en": "photo"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это моё <b>фото</b>.",
+                              "n": "Esta é minha foto."
+                          },
+                          {
+                              "t": "Сделай <b>фото</b>!",
+                              "n": "Tira uma foto!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_16",
+                      "isLetter": false,
+                      "letter": "Ф",
+                      "word": "факт",
+                      "emoji": "📌",
+                      "phonetic": "/fakt/",
+                      "translation": "<b>факт</b> — fato",
+                      "translations": {
+                          "ru": "факт",
+                          "pt": "fato",
+                          "en": "fact"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>факт</b>.",
+                              "n": "Isso é um fato."
+                          },
+                          {
+                              "t": "Интересный <b>факт</b>.",
+                              "n": "Um fato interessante."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_17",
+                      "isLetter": false,
+                      "letter": "Э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/ˈetə/",
+                      "translation": "<b>это</b> — isto/isso",
+                      "translations": {
+                          "ru": "это",
+                          "pt": "isto",
+                          "en": "this"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> книга.",
+                              "n": "Isto é um livro."
+                          },
+                          {
+                              "t": "Что <b>это</b>?",
+                              "n": "O que é isto?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_18",
+                      "isLetter": false,
+                      "letter": "Э",
+                      "word": "этаж",
+                      "emoji": "🏢",
+                      "phonetic": "/ɪˈtaʂ/",
+                      "translation": "<b>этаж</b> — andar",
+                      "translations": {
+                          "ru": "этаж",
+                          "pt": "andar",
+                          "en": "floor"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я живу на пятом <b>этаже</b>.",
+                              "n": "Eu moro no quinto andar."
+                          },
+                          {
+                              "t": "Какой <b>этаж</b>?",
+                              "n": "Qual andar?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_19",
+                      "isLetter": false,
+                      "letter": "Ю",
+                      "word": "юг",
+                      "emoji": "🧭",
+                      "phonetic": "/juk/",
+                      "translation": "<b>юг</b> — sul",
+                      "translations": {
+                          "ru": "юг",
+                          "pt": "sul",
+                          "en": "south"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы едем на <b>юг</b>.",
+                              "n": "Nós vamos para o sul."
+                          },
+                          {
+                              "t": "<b>Юг</b> тёплый.",
+                              "n": "O sul é quente."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_20",
+                      "isLetter": false,
+                      "letter": "Ю",
+                      "word": "люблю",
+                      "emoji": "❤️",
+                      "phonetic": "/lʲʊˈblʲu/",
+                      "translation": "<b>люблю</b> — eu amo",
+                      "translations": {
+                          "ru": "люблю",
+                          "pt": "eu amo",
+                          "en": "I love"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>люблю</b> тебя.",
+                              "n": "Eu te amo."
+                          },
+                          {
+                              "t": "Я <b>люблю</b> музыку.",
+                              "n": "Eu amo música."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_21",
+                      "isLetter": false,
+                      "letter": "Я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "/ja/",
+                      "translation": "<b>я</b> — eu",
+                      "translations": {
+                          "ru": "я",
+                          "pt": "eu",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент.",
+                              "n": "Eu sou estudante."
+                          },
+                          {
+                              "t": "<b>Я</b> люблю кофе.",
+                              "n": "Eu amo café."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_22",
+                      "isLetter": false,
+                      "letter": "Я",
+                      "word": "язык",
+                      "emoji": "👅",
+                      "phonetic": "/jɪˈzɨk/",
+                      "translation": "<b>язык</b> — língua (idioma ou órgão)",
+                      "translations": {
+                          "ru": "язык",
+                          "pt": "língua",
+                          "en": "language/tongue"
+                      },
+                      "examples": [
+                          {
+                              "t": "Русский <b>язык</b> сложный.",
+                              "n": "A língua russa é difícil."
+                          },
+                          {
+                              "t": "У меня болит <b>язык</b>.",
+                              "n": "Minha língua dói."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g3",
+              "name": "Sonidos únicos del ruso",
+              "icon": "🔣",
+              "color": "#10b981",
+              "description": "Ж Ш Щ Ч Х Ц Ъ Ь Ы — los sonidos más difíciles",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g3_L_ж",
+                      "isLetter": true,
+                      "letter": "Ж",
+                      "word": "Ж",
+                      "emoji": "🔤",
+                      "phonetic": "/ʒ/",
+                      "translation": "Letra <b>Ж</b> — suena como la <i>J</i> francesa o la <i>s</i> de <i>measure</i> en inglés. Vibración en la garganta.",
+                      "mnemonic": "Parece un escarabajo (жук) que zumba: ¡zhzhzh!",
+                      "examples": [
+                          {
+                              "t": "<b>Ж</b> se escribe como una <b>Ж</b> con patitas, como un insecto.",
+                              "n": "Visual: parece un bicho con patas."
+                          },
+                          {
+                              "t": "жить = vivir, муж = marido",
+                              "n": "Palabras con Ж"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ш",
+                      "isLetter": true,
+                      "letter": "Ш",
+                      "emoji": "🔤",
+                      "phonetic": "/ʃ/",
+                      "translation": "Letra <b>Ш</b> — suena como <i>SH</i> en inglés, como en <i>shoe</i>. Es un sonido duro y sordo.",
+                      "mnemonic": "Parece un tridente o un tenedor: ¡shhh! pide silencio.",
+                      "examples": [
+                          {
+                              "t": "<b>Ш</b> es como una <b>Ш</b> con tres púas.",
+                              "n": "Visual: tridente."
+                          },
+                          {
+                              "t": "школа = escuela, хорошо = bien",
+                              "n": "Palabras con Ш"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_щ",
+                      "isLetter": true,
+                      "letter": "Щ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕɕ/",
+                      "translation": "Letra <b>Щ</b> — un <i>SH</i> largo y suave, como si dijeras <i>sh</i> con una sonrisa. No existe en español.",
+                      "mnemonic": "Tiene una colita que lo hace más suave y largo: <span class='hl'>shhh</span> pero más dulce.",
+                      "examples": [
+                          {
+                              "t": "<b>Щ</b> es como <b>Ш</b> pero con una cola abajo.",
+                              "n": "Visual: Ш con rabito."
+                          },
+                          {
+                              "t": "щи = sopa de repollo, ещё = todavía",
+                              "n": "Palabras con Щ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ч",
+                      "isLetter": true,
+                      "letter": "Ч",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/",
+                      "translation": "Letra <b>Ч</b> — suena como <i>CH</i> en inglés, pero más suave, como en <i>cheap</i>. Siempre es suave.",
+                      "mnemonic": "Parece una silla (chair) vista de lado: ¡siéntate y di 'ch'!",
+                      "examples": [
+                          {
+                              "t": "<b>Ч</b> parece una <b>Ч</b> con una pata doblada.",
+                              "n": "Visual: silla."
+                          },
+                          {
+                              "t": "чай = té, что = qué (se pronuncia 'shto')",
+                              "n": "Palabras con Ч"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_х",
+                      "isLetter": true,
+                      "letter": "Х",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "Letra <b>Х</b> — suena como la <i>J</i> española (como en <i>Jorge</i>). Es una aspiración fuerte.",
+                      "mnemonic": "Es una <b>X</b> que tose: ¡<span class='hl'>j</span> como la jota española!",
+                      "examples": [
+                          {
+                              "t": "<b>Х</b> es como una X, pero se lee como J.",
+                              "n": "Visual: X."
+                          },
+                          {
+                              "t": "хлеб = pan, хорошо = bien",
+                              "n": "Palabras con Х"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ц",
+                      "isLetter": true,
+                      "letter": "Ц",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/",
+                      "translation": "Letra <b>Ц</b> — suena como <i>TS</i> en inglés, como en <i>pizza</i> o <i>cats</i>. Siempre es duro.",
+                      "mnemonic": "Parece un gato (cat) con cola: ¡ts ts ts!",
+                      "examples": [
+                          {
+                              "t": "<b>Ц</b> tiene una colita como un gato.",
+                              "n": "Visual: gato."
+                          },
+                          {
+                              "t": "цена = precio, отец = padre",
+                              "n": "Palabras con Ц"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ъ",
+                      "isLetter": true,
+                      "letter": "Ъ",
+                      "emoji": "🔤",
+                      "phonetic": "/-/",
+                      "translation": "Signo duro <b>Ъ</b> — no tiene sonido. Separa el prefijo de la vocal, como una pausa invisible.",
+                      "mnemonic": "Es una <b>b</b> sin palito: un bloque que separa.",
+                      "examples": [
+                          {
+                              "t": "<b>Ъ</b> no se pronuncia, solo separa.",
+                              "n": "Ej: объект = objeto"
+                          },
+                          {
+                              "t": "съезд = congreso (se pronuncia 'syezd')",
+                              "n": "Con Ъ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ь",
+                      "isLetter": true,
+                      "letter": "Ь",
+                      "emoji": "🔤",
+                      "phonetic": "/ʲ/",
+                      "translation": "Signo blando <b>Ь</b> — no tiene sonido, pero suaviza la consonante anterior. Como una 'y' corta.",
+                      "mnemonic": "Es una <b>b</b> con un palito: ablanda como una almohada.",
+                      "examples": [
+                          {
+                              "t": "<b>Ь</b> suaviza: мать = madre, пять = cinco",
+                              "n": "Con Ь"
+                          },
+                          {
+                              "t": "Compara: брат (hermano) vs брать (tomar)",
+                              "n": "Contraste"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ы",
+                      "isLetter": true,
+                      "letter": "Ы",
+                      "emoji": "🔤",
+                      "phonetic": "/ɨ/",
+                      "translation": "Letra <b>Ы</b> — un sonido entre <i>i</i> y <i>u</i>, sin equivalente. Se pronuncia con la lengua hacia atrás.",
+                      "mnemonic": "Parece una <b>i</b> con una barriga: empuja la lengua hacia atrás y di 'i'.",
+                      "examples": [
+                          {
+                              "t": "<b>Ы</b> es como una i con panza.",
+                              "n": "Visual: i gorda."
+                          },
+                          {
+                              "t": "ты = tú, мы = nosotros, сын = hijo",
+                              "n": "Palabras con Ы"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_10",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "жить",
+                      "emoji": "🏠",
+                      "phonetic": "/ʐɨtʲ/",
+                      "translation": "vivir",
+                      "translations": {
+                          "ru": "жить",
+                          "pt": "vivir",
+                          "en": "to live"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я хочу <b>жить</b> в Москве.",
+                              "n": "Quiero vivir en Moscú."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_11",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "муж",
+                      "emoji": "👨",
+                      "phonetic": "/muʂ/",
+                      "translation": "marido, esposo",
+                      "translations": {
+                          "ru": "муж",
+                          "pt": "marido",
+                          "en": "husband"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>муж</b> дома.",
+                              "n": "Mi marido está en casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_12",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "школа",
+                      "emoji": "🏫",
+                      "phonetic": "/ˈʂkolə/",
+                      "translation": "escuela",
+                      "translations": {
+                          "ru": "школа",
+                          "pt": "escola",
+                          "en": "school"
+                      },
+                      "examples": [
+                          {
+                              "t": "Дети идут в <b>школу</b>.",
+                              "n": "Los niños van a la escuela."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_13",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "bien, bueno",
+                      "translations": {
+                          "ru": "хорошо",
+                          "pt": "bem",
+                          "en": "good, well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Todo está bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_14",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "щи",
+                      "emoji": "🍲",
+                      "phonetic": "/ɕɕi/",
+                      "translation": "sopa de repollo (tradicional rusa)",
+                      "translations": {
+                          "ru": "щи",
+                          "pt": "sopa de repolho",
+                          "en": "cabbage soup"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я люблю <b>щи</b>.",
+                              "n": "Me gusta la sopa de repollo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_15",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "ещё",
+                      "emoji": "➕",
+                      "phonetic": "/jɪˈɕːo/",
+                      "translation": "todavía, aún, más",
+                      "translations": {
+                          "ru": "ещё",
+                          "pt": "ainda, mais",
+                          "en": "still, yet, more"
+                      },
+                      "examples": [
+                          {
+                              "t": "Хочешь <b>ещё</b> чай?",
+                              "n": "¿Quieres más té?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_16",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "чай",
+                      "emoji": "🍵",
+                      "phonetic": "/tɕaj/",
+                      "translation": "té",
+                      "translations": {
+                          "ru": "чай",
+                          "pt": "chá",
+                          "en": "tea"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>чай</b> утром.",
+                              "n": "Bebo té por la mañana."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_17",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/ʂto/",
+                      "translation": "qué (se pronuncia 'shto')",
+                      "translations": {
+                          "ru": "что",
+                          "pt": "o que",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "¿Qué es esto?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_18",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хлеб",
+                      "emoji": "🍞",
+                      "phonetic": "/xlʲep/",
+                      "translation": "pan",
+                      "translations": {
+                          "ru": "хлеб",
+                          "pt": "pão",
+                          "en": "bread"
+                      },
+                      "examples": [
+                          {
+                              "t": "Купи <b>хлеб</b>.",
+                              "n": "Compra pan."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_19",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "bien, bueno",
+                      "translations": {
+                          "ru": "хорошо",
+                          "pt": "bem",
+                          "en": "good, well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Она говорит по-русски <b>хорошо</b>.",
+                              "n": "Ella habla ruso bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_20",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "цена",
+                      "emoji": "💲",
+                      "phonetic": "/tsɨˈna/",
+                      "translation": "precio",
+                      "translations": {
+                          "ru": "цена",
+                          "pt": "preço",
+                          "en": "price"
+                      },
+                      "examples": [
+                          {
+                              "t": "Какая <b>цена</b>?",
+                              "n": "¿Cuál es el precio?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_21",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "отец",
+                      "emoji": "👨‍👧",
+                      "phonetic": "/ɐˈtʲets/",
+                      "translation": "padre",
+                      "translations": {
+                          "ru": "отец",
+                          "pt": "pai",
+                          "en": "father"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>отец</b> врач.",
+                              "n": "Mi padre es médico."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_22",
+                      "isLetter": false,
+                      "letter": "Ъ",
+                      "word": "объект",
+                      "emoji": "📦",
+                      "phonetic": "/ɐˈbjekt/",
+                      "translation": "objeto",
+                      "translations": {
+                          "ru": "объект",
+                          "pt": "objeto",
+                          "en": "object"
+                      },
+                      "examples": [
+                          {
+                              "t": "Этот <b>объект</b> большой.",
+                              "n": "Este objeto es grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_23",
+                      "isLetter": false,
+                      "letter": "Ъ",
+                      "word": "съезд",
+                      "emoji": "🏛️",
+                      "phonetic": "/sjest/",
+                      "translation": "congreso, reunión",
+                      "translations": {
+                          "ru": "съезд",
+                          "pt": "congresso",
+                          "en": "congress, convention"
+                      },
+                      "examples": [
+                          {
+                              "t": "Был <b>съезд</b> партии.",
+                              "n": "Hubo un congreso del partido."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_24",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "мать",
+                      "emoji": "👩",
+                      "phonetic": "/matʲ/",
+                      "translation": "madre",
+                      "translations": {
+                          "ru": "мать",
+                          "pt": "mãe",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Моя <b>мать</b> дома.",
+                              "n": "Mi madre está en casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_25",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "пять",
+                      "emoji": "5️⃣",
+                      "phonetic": "/pʲatʲ/",
+                      "translation": "cinco",
+                      "translations": {
+                          "ru": "пять",
+                          "pt": "cinco",
+                          "en": "five"
+                      },
+                      "examples": [
+                          {
+                              "t": "У меня <b>пять</b> книг.",
+                              "n": "Tengo cinco libros."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_26",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "tú (informal)",
+                      "translations": {
+                          "ru": "ты",
+                          "pt": "você (informal)",
+                          "en": "you (singular informal)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> студент?",
+                              "n": "¿Eres estudiante?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_27",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/mɨ/",
+                      "translation": "nosotros",
+                      "translations": {
+                          "ru": "мы",
+                          "pt": "nós",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> дома.",
+                              "n": "Estamos en casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_28",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "сын",
+                      "emoji": "👦",
+                      "phonetic": "/sɨn/",
+                      "translation": "hijo",
+                      "translations": {
+                          "ru": "сын",
+                          "pt": "filho",
+                          "en": "son"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>сын</b> учится.",
+                              "n": "Mi hijo estudia."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g4",
+              "name": "Primeras palabras rusas",
+              "icon": "📖",
+              "color": "#ef4444",
+              "description": "Leer y entender 20 palabras rusas esenciales",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2",
+                  "ru_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g4_01",
+                      "letter": "Д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "sí",
+                      "translations": {
+                          "ru": "да",
+                          "pt": "sim",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, это так.",
+                              "n": "Sí, es así."
+                          },
+                          {
+                              "t": "Ты хочешь? – <b>Да</b>.",
+                              "n": "¿Quieres? – Sí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_02",
+                      "letter": "Н",
+                      "word": "нет",
+                      "emoji": "❌",
+                      "phonetic": "/njet/",
+                      "translation": "no",
+                      "translations": {
+                          "ru": "нет",
+                          "pt": "não",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, gracias."
+                          },
+                          {
+                              "t": "Это не так? – <b>Нет</b>.",
+                              "n": "¿No es así? – No."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_03",
+                      "letter": "П",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/priˈvʲet/",
+                      "translation": "hola (informal)",
+                      "translations": {
+                          "ru": "привет",
+                          "pt": "olá",
+                          "en": "hi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>, как дела?",
+                              "n": "Hola, ¿cómo estás?"
+                          },
+                          {
+                              "t": "Скажи ему <b>привет</b>.",
+                              "n": "Dile hola."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_04",
+                      "letter": "П",
+                      "word": "пока",
+                      "emoji": "👋",
+                      "phonetic": "/paˈka/",
+                      "translation": "adiós (informal), hasta luego",
+                      "translations": {
+                          "ru": "пока",
+                          "pt": "tchau",
+                          "en": "bye"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Пока</b>, до завтра!",
+                              "n": "¡Adiós, hasta mañana!"
+                          },
+                          {
+                              "t": "Ну, <b>пока</b>!",
+                              "n": "¡Bueno, adiós!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_05",
+                      "letter": "С",
+                      "word": "спасибо",
+                      "emoji": "🙏",
+                      "phonetic": "/spɐˈsʲibə/",
+                      "translation": "gracias",
+                      "translations": {
+                          "ru": "спасибо",
+                          "pt": "obrigado",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Спасибо</b> большое!",
+                              "n": "¡Muchas gracias!"
+                          },
+                          {
+                              "t": "Скажи <b>спасибо</b>.",
+                              "n": "Di gracias."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_06",
+                      "letter": "П",
+                      "word": "пожалуйста",
+                      "emoji": "🙏",
+                      "phonetic": "/pɐˈʐalʊstə/",
+                      "translation": "por favor; de nada",
+                      "translations": {
+                          "ru": "пожалуйста",
+                          "pt": "por favor",
+                          "en": "please"
+                      },
+                      "examples": [
+                          {
+                              "t": "Скажите, <b>пожалуйста</b>.",
+                              "n": "Diga, por favor."
+                          },
+                          {
+                              "t": "– Спасибо! – <b>Пожалуйста</b>.",
+                              "n": "– ¡Gracias! – De nada."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_07",
+                      "letter": "К",
+                      "word": "как дела?",
+                      "emoji": "💬",
+                      "phonetic": "/kak dʲɪˈla/",
+                      "translation": "¿cómo estás?",
+                      "translations": {
+                          "ru": "как дела?",
+                          "pt": "como vai?",
+                          "en": "how are you?"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Как дела</b>?",
+                              "n": "¿Cómo estás?"
+                          },
+                          {
+                              "t": "Привет! <b>Как дела</b>?",
+                              "n": "¡Hola! ¿Cómo estás?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_08",
+                      "letter": "Х",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/",
+                      "translation": "bien",
+                      "translations": {
+                          "ru": "хорошо",
+                          "pt": "bem",
+                          "en": "well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>.",
+                              "n": "Todo está bien."
+                          },
+                          {
+                              "t": "Я чувствую себя <b>хорошо</b>.",
+                              "n": "Me siento bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_09",
+                      "letter": "Я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "/ja/",
+                      "translation": "yo",
+                      "translations": {
+                          "ru": "я",
+                          "pt": "eu",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> студент.",
+                              "n": "Soy estudiante."
+                          },
+                          {
+                              "t": "<b>Я</b> люблю Россию.",
+                              "n": "Amo Rusia."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_10",
+                      "letter": "Т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "tú",
+                      "translations": {
+                          "ru": "ты",
+                          "pt": "você",
+                          "en": "you (singular informal)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> дома?",
+                              "n": "¿Estás en casa?"
+                          },
+                          {
+                              "t": "<b>Ты</b> говоришь по-русски?",
+                              "n": "¿Hablas ruso?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_11",
+                      "letter": "О",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "él",
+                      "translations": {
+                          "ru": "он",
+                          "pt": "ele",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> мой друг.",
+                              "n": "Él es mi amigo."
+                          },
+                          {
+                              "t": "<b>Он</b> работает здесь.",
+                              "n": "Él trabaja aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_12",
+                      "letter": "О",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "/ɐˈna/",
+                      "translation": "ella",
+                      "translations": {
+                          "ru": "она",
+                          "pt": "ela",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Она</b> красивая.",
+                              "n": "Ella es bonita."
+                          },
+                          {
+                              "t": "<b>Она</b> здесь.",
+                              "n": "Ella está aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_13",
+                      "letter": "М",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/mɨ/",
+                      "translation": "nosotros",
+                      "translations": {
+                          "ru": "мы",
+                          "pt": "nós",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> друзья.",
+                              "n": "Somos amigos."
+                          },
+                          {
+                              "t": "<b>Мы</b> идём в кино.",
+                              "n": "Vamos al cine."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_14",
+                      "letter": "Ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/ʂto/",
+                      "translation": "qué",
+                      "translations": {
+                          "ru": "что",
+                          "pt": "o que",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "¿Qué es esto?"
+                          },
+                          {
+                              "t": "<b>Что</b> ты делаешь?",
+                              "n": "¿Qué haces?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_15",
+                      "letter": "Г",
+                      "word": "где",
+                      "emoji": "📍",
+                      "phonetic": "/ɡdʲe/",
+                      "translation": "dónde",
+                      "translations": {
+                          "ru": "где",
+                          "pt": "onde",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "¿Dónde está el baño?"
+                          },
+                          {
+                              "t": "<b>Где</b> ты?",
+                              "n": "¿Dónde estás?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_16",
+                      "letter": "З",
+                      "word": "здесь",
+                      "emoji": "📍",
+                      "phonetic": "/zdʲesʲ/",
+                      "translation": "aquí",
+                      "translations": {
+                          "ru": "здесь",
+                          "pt": "aqui",
+                          "en": "here"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>здесь</b>.",
+                              "n": "Estoy aquí."
+                          },
+                          {
+                              "t": "<b>Здесь</b> вкусно.",
+                              "n": "Aquí es rico."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_17",
+                      "letter": "Т",
+                      "word": "там",
+                      "emoji": "📍",
+                      "phonetic": "/tam/",
+                      "translation": "allí",
+                      "translations": {
+                          "ru": "там",
+                          "pt": "lá",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Он <b>там</b>.",
+                              "n": "Él está allí."
+                          },
+                          {
+                              "t": "<b>Там</b> красиво.",
+                              "n": "Allí es bonito."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_18",
+                      "letter": "Э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/ˈɛtə/",
+                      "translation": "esto, esto es",
+                      "translations": {
+                          "ru": "это",
+                          "pt": "isto",
+                          "en": "this"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> дом.",
+                              "n": "Esto es una casa."
+                          },
+                          {
+                              "t": "<b>Это</b> вкусно.",
+                              "n": "Esto está rico."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_19",
+                      "letter": "И",
+                      "word": "и",
+                      "emoji": "➕",
+                      "phonetic": "/i/",
+                      "translation": "y",
+                      "translations": {
+                          "ru": "и",
+                          "pt": "e",
+                          "en": "and"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>и</b> ты.",
+                              "n": "Yo y tú."
+                          },
+                          {
+                              "t": "Мама <b>и</b> папа.",
+                              "n": "Mamá y papá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_20",
+                      "letter": "И",
+                      "word": "или",
+                      "emoji": "🔀",
+                      "phonetic": "/ˈilʲi/",
+                      "translation": "o",
+                      "translations": {
+                          "ru": "или",
+                          "pt": "ou",
                           "en": "or"
                       },
                       "examples": [
@@ -24093,2830 +39302,2515 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
-  // JA_DE
+  // RU_RU
   // ──────────────────────────────────────────────────────
-  ja_de: {
+  ru_ru: {
       "level": "A0",
-      "levelName": "Hiragana y Katakana",
+      "levelName": "El alfabeto cirílico",
       "groups": [
           {
-              "id": "ja_a0_g1",
-              "name": "Hiragana — parte 1",
+              "id": "ru_a0_g1",
+              "name": "Letras parecidas al latín",
               "icon": "🔤",
               "color": "#6366f1",
-              "description": "あ行 か行 さ行 た行 な行 — primeras 25 sílabas",
+              "description": "А Е О М Т К В Н Р С — entrada fácil al cirílico",
               "reviewFrom": [],
               "cards": [
                   {
-                      "id": "ja_a0_g1_L_a-row",
+                      "id": "ru_a0_g1_L_a",
                       "isLetter": true,
-                      "letter": "あ",
-                      "word": "あ",
+                      "letter": "А",
+                      "word": "А",
                       "emoji": "🔤",
                       "phonetic": "/a/",
-                      "translation": "Vokal <b>あ</b> — klingt wie <i>a</i> in „<span class=\"hl\">A</span>pfel“",
-                      "mnemonic": "Sieht aus wie ein A mit einem Querbalken – einfach das A mit einem Hut.",
+                      "translation": "Letra <b>А</b> — suena como la <i>a</i> española. Igual que la <b>A</b> latina.",
+                      "mnemonic": "Es exactamente la A latina, solo que en cirílico.",
                       "examples": [
                           {
-                              "t": "あ ist der erste Buchstabe der <b>あ</b>-Reihe",
-                              "n": "A ist der erste Buchstabe der A-Reihe."
+                              "t": "<b>М</b>ама — mamá",
+                              "n": "La A aparece dos veces"
                           },
                           {
-                              "t": "あ wie <i>a</i> in „<span class=\"hl\">A</span>pfel“",
-                              "n": "A wie in Apfel."
+                              "t": "<b>П</b>апа — papá",
+                              "n": "Otra palabra con A"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g1_L_ka-row",
+                      "id": "ru_a0_g1_L_e",
                       "isLetter": true,
-                      "letter": "か",
-                      "word": "か",
+                      "letter": "Е",
+                      "word": "Е",
                       "emoji": "🔤",
-                      "phonetic": "/ka/",
-                      "translation": "Laut <b>か</b> – wie <i>ka</i> in „<span class=\"hl\">Ka</span>tz“",
-                      "mnemonic": "Sieht aus wie ein K mit einem Schrägstrich – denk an ein <span class=\"hl\">K</span> mit Schwert.",
+                      "phonetic": "/je/",
+                      "translation": "Letra <b>Е</b> — se parece a la <i>E</i> latina, pero suena <b>YE</b> como en <i>yema</i>.",
+                      "mnemonic": "Es una E latina que quiere sonar como una Y: piensa en <span class=\"hl\">YE</span>.",
                       "examples": [
                           {
-                              "t": "<b>か</b> wie in <b>かさ</b> (Regenschirm)",
-                              "n": "Ka wie in Kasa (Regenschirm)."
+                              "t": "<b>Н</b>ет — no",
+                              "n": "La E suena YE"
                           },
                           {
-                              "t": "<b>か</b> – die Linie von oben nach unten",
-                              "n": "Ka – die Linie von oben nach unten."
+                              "t": "<b>Г</b>де — dónde",
+                              "n": "Otra palabra con E"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g1_L_sa-row",
+                      "id": "ru_a0_g1_L_o",
                       "isLetter": true,
-                      "letter": "さ",
-                      "word": "さ",
-                      "emoji": "🔤",
-                      "phonetic": "/sa/",
-                      "translation": "Laut <b>さ</b> – wie <i>sa</i> in „<span class=\"hl\">Sa</span>lz“",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">S</span> mit einem Querstrich – denk an eine Schlange.",
-                      "examples": [
-                          {
-                              "t": "<b>さ</b> wie in <b>さくら</b> (Kirschblüte)",
-                              "n": "Sa wie in Sakura (Kirschblüte)."
-                          },
-                          {
-                              "t": "さ hat zwei kleine Striche – wie Augen",
-                              "n": "Sa hat zwei kleine Striche – wie Augen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g1_L_ta-row",
-                      "isLetter": true,
-                      "letter": "た",
-                      "word": "た",
-                      "emoji": "🔤",
-                      "phonetic": "/ta/",
-                      "translation": "Laut <b>た</b> – wie <i>ta</i> in „<span class=\"hl\">Ta</span>fel“",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">T</span> mit einem Bogen – denk an einen Tisch.",
-                      "examples": [
-                          {
-                              "t": "<b>た</b> wie in <b>たべる</b> (essen)",
-                              "n": "Ta wie in Taberu (essen)."
-                          },
-                          {
-                              "t": "た – der Bogen ist wie ein Arm",
-                              "n": "Ta – der Bogen ist wie ein Arm."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g1_L_na-row",
-                      "isLetter": true,
-                      "letter": "な",
-                      "word": "な",
-                      "emoji": "🔤",
-                      "phonetic": "/na/",
-                      "translation": "Laut <b>な</b> – wie <i>na</i> in „<span class=\"hl\">Na</span>se“",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">N</span> mit einem Bogen – denk an eine Nase.",
-                      "examples": [
-                          {
-                              "t": "<b>な</b> wie in <b>ねこ</b> (Katze)",
-                              "n": "Na wie in Neko (Katze)."
-                          },
-                          {
-                              "t": "な – der Bogen ist wie ein Ohr",
-                              "n": "Na – der Bogen ist wie ein Ohr."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g1_01",
-                      "letter": "あ",
-                      "word": "あさ",
-                      "emoji": "🌅",
-                      "phonetic": "/asa/",
-                      "translation": "Morgen (Tageszeit) – <b>あさ</b>",
-                      "translations": {
-                          "ja": "あさ",
-                          "de": "Morgen",
-                          "en": "morning"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>あさ</b>に起きます。",
-                              "n": "Ich stehe am Morgen auf."
-                          },
-                          {
-                              "t": "あさは <span class=\"hl\">早い</span>です。",
-                              "n": "Der Morgen ist früh."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g1_02",
-                      "letter": "き",
-                      "word": "きく",
-                      "emoji": "👂",
-                      "phonetic": "/kiku/",
-                      "translation": "hören – <b>きく</b>",
-                      "translations": {
-                          "ja": "きく",
-                          "de": "hören",
-                          "en": "to hear"
-                      },
-                      "examples": [
-                          {
-                              "t": "音楽を<b>きく</b>。",
-                              "n": "Ich höre Musik."
-                          },
-                          {
-                              "t": "音を<b>きく</b>。",
-                              "n": "Ich höre einen Ton."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g1_03",
-                      "letter": "す",
-                      "word": "すし",
-                      "emoji": "🍣",
-                      "phonetic": "/sushi/",
-                      "translation": "Sushi – <b>すし</b>",
-                      "translations": {
-                          "ja": "すし",
-                          "de": "Sushi",
-                          "en": "sushi"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>すし</b>を食べる。",
-                              "n": "Ich esse Sushi."
-                          },
-                          {
-                              "t": "すしはおいしい。",
-                              "n": "Sushi ist lecker."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g1_04",
-                      "letter": "た",
-                      "word": "たべる",
-                      "emoji": "🍽️",
-                      "phonetic": "/taberu/",
-                      "translation": "essen – <b>たべる</b>",
-                      "translations": {
-                          "ja": "たべる",
-                          "de": "essen",
-                          "en": "to eat"
-                      },
-                      "examples": [
-                          {
-                              "t": "りんごを<b>たべる</b>。",
-                              "n": "Ich esse einen Apfel."
-                          },
-                          {
-                              "t": "すしを<b>たべる</b>。",
-                              "n": "Ich esse Sushi."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g1_05",
-                      "letter": "ね",
-                      "word": "ねる",
-                      "emoji": "😴",
-                      "phonetic": "/neru/",
-                      "translation": "schlafen – <b>ねる</b>",
-                      "translations": {
-                          "ja": "ねる",
-                          "de": "schlafen",
-                          "en": "to sleep"
-                      },
-                      "examples": [
-                          {
-                              "t": "夜に<b>ねる</b>。",
-                              "n": "Ich schlafe in der Nacht."
-                          },
-                          {
-                              "t": "猫が<b>ねる</b>。",
-                              "n": "Die Katze schläft."
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "id": "ja_a0_g2",
-              "name": "Hiragana — parte 2",
-              "icon": "🔡",
-              "color": "#f59e0b",
-              "description": "は行 ま行 や行 ら行 わ行 ん + dakuten",
-              "reviewFrom": [
-                  "ja_a0_g1"
-              ],
-              "cards": [
-                  {
-                      "id": "ja_a0_g2_L_ha",
-                      "isLetter": true,
-                      "letter": "は",
-                      "word": "は",
-                      "emoji": "🔤",
-                      "phonetic": "/ha/",
-                      "translation": "Laut <b>ha</b> – wie im Deutschen „<i>Hase</i>“<br>Die Form sieht aus wie ein <span class=\"hl\">H</span> mit einem Dach.",
-                      "mnemonic": "Stell dir ein Haus (H) mit einem Schornstein vor – das ist は.",
-                      "examples": [
-                          {
-                              "t": "は ist die Partikel für das Thema.<br>Beispiel: <b>わたし</b>は Student.",
-                              "n": "は als Topik-Partikel: „Ich bin Student.“"
-                          },
-                          {
-                              "t": "はな – <b>は</b> + な",
-                              "n": "Blume – beginnt mit は"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_hi",
-                      "isLetter": true,
-                      "letter": "ひ",
-                      "word": "ひ",
-                      "emoji": "🔤",
-                      "phonetic": "/çi/",
-                      "translation": "Laut <b>hi</b> – wie ein <i>Lächeln</i> (smile) auf Japanisch<br>Die Form erinnert an ein <span class=\"hl\">lachendes Gesicht</span>.",
-                      "mnemonic": "ひ sieht aus wie ein lächelnder Mund – lächle und sag „hi!“",
-                      "examples": [
-                          {
-                              "t": "ひ – ein Zeichen mit einer <b>geschwungenen Linie</b>",
-                              "n": "Form: eine Kurve wie ein Lächeln"
-                          },
-                          {
-                              "t": "ひこうき – <b>ひ</b> + こう + き",
-                              "n": "Flugzeug – beginnt mit ひ"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_fu",
-                      "isLetter": true,
-                      "letter": "ふ",
-                      "word": "ふ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɸɯ/",
-                      "translation": "Laut <b>fu</b> – aber mit <i>beiden Lippen</i> (wie ein leises „fu“)<br>Nicht wie das deutsche „fu“ – eher wie ein <span class=\"hl\">Kerzen-Auspusten</span>.",
-                      "mnemonic": "ふ sieht aus wie eine Kerze, die du auspustest – puste leicht und sag „fu“.",
-                      "examples": [
-                          {
-                              "t": "ふ – der einzige Laut mit <b>beiden Lippen</b>",
-                              "n": "Besonderheit: /ɸ/ statt /f/"
-                          },
-                          {
-                              "t": "ふじさん – <b>ふ</b> + じ + さん",
-                              "n": "Fuji-san – beginnt mit ふ"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_he",
-                      "isLetter": true,
-                      "letter": "へ",
-                      "word": "へ",
-                      "emoji": "🔤",
-                      "phonetic": "/he/",
-                      "translation": "Laut <b>he</b> – wie im Deutschen „<i>Hemd</i>“<br>Die Form ist ein <span class=\"hl\">Dach</span> oder <span class=\"hl\">Pfeil</span> nach rechts.",
-                      "mnemonic": "へ ist wie ein Dach oder ein Pfeil – „he“ wie „Hemd“ auf dem Dach.",
-                      "examples": [
-                          {
-                              "t": "へ ist auch eine Partikel (Richtung).<br>Beispiel: 学校<へ>行く",
-                              "n": "へ als Richtungs-Partikel: „zur Schule gehen“"
-                          },
-                          {
-                              "t": "へや – <b>へ</b> + や",
-                              "n": "Zimmer – beginnt mit へ"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_ho",
-                      "isLetter": true,
-                      "letter": "ほ",
-                      "word": "ほ",
-                      "emoji": "🔤",
-                      "phonetic": "/ho/",
-                      "translation": "Laut <b>ho</b> – wie „<i>Hose</i>“ auf Deutsch<br>Wie は, aber mit <span class=\"hl\">einem zusätzlichen Strich</span> rechts.",
-                      "mnemonic": "ほ = は + ein extra Strich – wie eine Hose, die am Haus (は) hängt.",
-                      "examples": [
-                          {
-                              "t": "ほ – fast wie は, nur mit <b>einem Strich mehr</b>",
-                              "n": "Vergleich: は vs. ほ"
-                          },
-                          {
-                              "t": "ほん – <b>ほ</b> + ん",
-                              "n": "Buch – beginnt mit ほ"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_ma",
-                      "isLetter": true,
-                      "letter": "ま",
-                      "word": "ま",
-                      "emoji": "🔤",
-                      "phonetic": "/ma/",
-                      "translation": "Laut <b>ma</b> – wie „<i>Mama</i>“<br>Die Form sieht aus wie ein <span class=\"hl\">Baum mit Wurzeln</span>.",
-                      "mnemonic": "ま sieht aus wie ein Baum – „ma“ wie „Mama“ im Wald.",
-                      "examples": [
-                          {
-                              "t": "ま – ein Zeichen mit <b>zwei horizontalen Strichen</b>",
-                              "n": "Form: oben ein Kreuz, unten ein Haken"
-                          },
-                          {
-                              "t": "まど – <b>ま</b> + ど",
-                              "n": "Fenster – beginnt mit ま"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_mi",
-                      "isLetter": true,
-                      "letter": "み",
-                      "word": "み",
-                      "emoji": "🔤",
-                      "phonetic": "/mi/",
-                      "translation": "Laut <b>mi</b> – wie „<i>Milch</i>“<br>Die Form erinnert an eine <span class=\"hl\">Schlange</span> oder eine <span class=\"hl\">Welle</span>.",
-                      "mnemonic": "み sieht aus wie eine Schlange, die „mi“ zischt.",
-                      "examples": [
-                          {
-                              "t": "み – ein Zeichen mit <b>zwei Kurven</b>",
-                              "n": "Form: wie eine liegende Acht"
-                          },
-                          {
-                              "t": "みず – <b>み</b> + ず",
-                              "n": "Wasser – beginnt mit み"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_mu",
-                      "isLetter": true,
-                      "letter": "む",
-                      "word": "む",
-                      "emoji": "🔤",
-                      "phonetic": "/mɯ/",
-                      "translation": "Laut <b>mu</b> – wie „<i>Muh</i>“ von der Kuh<br>Die Form sieht aus wie eine <span class=\"hl\">Kuh</span> mit Hörnern.",
-                      "mnemonic": "む sieht aus wie eine Kuh, die „Muh!“ macht.",
-                      "examples": [
-                          {
-                              "t": "む – ein Zeichen mit <b>Schleife</b> am Ende",
-                              "n": "Form: oben ein Haken, unten eine Schleife"
-                          },
-                          {
-                              "t": "むずかしい – <b>む</b> + ず + か + し + い",
-                              "n": "schwierig – beginnt mit む"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_me",
-                      "isLetter": true,
-                      "letter": "め",
-                      "word": "め",
-                      "emoji": "🔤",
-                      "phonetic": "/me/",
-                      "translation": "Laut <b>me</b> – wie „<i>Messe</i>“<br>Die Form ähnelt <span class=\"hl\">め</span> (nu), aber mit <span class=\"hl\">offenem Ende</span>.",
-                      "mnemonic": "め ist wie ぬ, aber mit offenem Ende – „me“ wie „Messe“ (offen für Besucher).",
-                      "examples": [
-                          {
-                              "t": "め – ähnlich wie ぬ, aber <b>ohne Schleife</b>",
-                              "n": "Vergleich: め vs. ぬ"
-                          },
-                          {
-                              "t": "め – Auge: め",
-                              "n": "Wort: Auge"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_mo",
-                      "isLetter": true,
-                      "letter": "も",
-                      "word": "も",
-                      "emoji": "🔤",
-                      "phonetic": "/mo/",
-                      "translation": "Laut <b>mo</b> – wie „<i>Mond</i>“<br>Wie ま, aber mit <span class=\"hl\">einem Haken</span> nach links.",
-                      "mnemonic": "も = ま mit Haken – „mo“ wie „Mond“, der am Baum hängt.",
-                      "examples": [
-                          {
-                              "t": "も – wie ま, aber mit <b>Haken links</b>",
-                              "n": "Vergleich: ま vs. も"
-                          },
-                          {
-                              "t": "も – auch: わたし<b>も</b>",
-                              "n": "Partikel: „auch ich“"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_ya",
-                      "isLetter": true,
-                      "letter": "や",
-                      "word": "や",
-                      "emoji": "🔤",
-                      "phonetic": "/ja/",
-                      "translation": "Laut <b>ya</b> – wie „<i>Jacht</i>“<br>Die Form sieht aus wie ein <span class=\"hl\">Y</span> mit einem Querstrich.",
-                      "mnemonic": "や sieht aus wie ein Y – „ya“ wie „Yacht“.",
-                      "examples": [
-                          {
-                              "t": "や – nur 3 Zeichen in dieser Reihe",
-                              "n": "Besonderheit: keine い/え-Varianten"
-                          },
-                          {
-                              "t": "やま – <b>や</b> + ま",
-                              "n": "Berg – beginnt mit や"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_yu",
-                      "isLetter": true,
-                      "letter": "ゆ",
-                      "word": "ゆ",
-                      "emoji": "🔤",
-                      "phonetic": "/jɯ/",
-                      "translation": "Laut <b>yu</b> – wie „<i>Urlaub</i>“ (mit j)<br>Die Form sieht aus wie ein <span class=\"hl\">Fisch</span>, der schwimmt.",
-                      "mnemonic": "ゆ sieht aus wie ein Fisch – „yu“ wie „Urlaub“ am Meer.",
-                      "examples": [
-                          {
-                              "t": "ゆ – ein Zeichen mit <b>einer Kurve</b> nach unten",
-                              "n": "Form: wie ein umgedrehtes J"
-                          },
-                          {
-                              "t": "ゆき – <b>ゆ</b> + き",
-                              "n": "Schnee – beginnt mit ゆ"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_yo",
-                      "isLetter": true,
-                      "letter": "よ",
-                      "word": "よ",
-                      "emoji": "🔤",
-                      "phonetic": "/jo/",
-                      "translation": "Laut <b>yo</b> – wie „<i>Joghurt</i>“<br>Die Form ist wie ゆ, aber mit <span class=\"hl\">einem Strich</span> oben.",
-                      "mnemonic": "よ = ゆ mit Strich oben – „yo“ wie „Joghurt“ mit Sahnehaube.",
-                      "examples": [
-                          {
-                              "t": "よ – wie ゆ, aber mit <b>Strich oben</b>",
-                              "n": "Vergleich: ゆ vs. よ"
-                          },
-                          {
-                              "t": "よる – <b>よ</b> + る",
-                              "n": "Nacht – beginnt mit よ"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_ra",
-                      "isLetter": true,
-                      "letter": "ら",
-                      "word": "ら",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾa/",
-                      "translation": "Laut <b>ra</b> – ein <i>Zungenschlag</i> (zwischen R und L)<br>Die Form sieht aus wie eine <span class=\"hl\">Blume</span> mit Stiel.",
-                      "mnemonic": "ら sieht aus wie eine Blume – sag „ra“ mit einem schnellen Zungenschlag.",
-                      "examples": [
-                          {
-                              "t": "ら – der Zungenschlag-Laut",
-                              "n": "Besonderheit: /ɾ/ wie im Spanischen"
-                          },
-                          {
-                              "t": "らくだ – <b>ら</b> + く + だ",
-                              "n": "Kamel – beginnt mit ら"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_ri",
-                      "isLetter": true,
-                      "letter": "り",
-                      "word": "り",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾi/",
-                      "translation": "Laut <b>ri</b> – wie „<i>Riese</i>“ mit Zungenschlag<br>Die Form sieht aus wie <span class=\"hl\">zwei Stäbe</span> mit Haken.",
-                      "mnemonic": "り sieht aus wie zwei Stäbe – „ri“ wie „Riese“ mit Stab.",
-                      "examples": [
-                          {
-                              "t": "り – zwei Striche, die sich <b>nicht berühren</b>",
-                              "n": "Form: wie ein kleines n"
-                          },
-                          {
-                              "t": "りんご – <b>り</b> + ん + ご",
-                              "n": "Apfel – beginnt mit り"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_ru",
-                      "isLetter": true,
-                      "letter": "る",
-                      "word": "る",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾɯ/",
-                      "translation": "Laut <b>ru</b> – wie „<i>Ruder</i>“<br>Die Form hat eine <span class=\"hl\">Schleife</span> am Ende (wie ろ mit Schleife).",
-                      "mnemonic": "る = ろ mit Schleife – „ru“ wie „Ruder“ mit einer Schlaufe.",
-                      "examples": [
-                          {
-                              "t": "る – ähnlich wie ろ, aber mit <b>Schleife</b>",
-                              "n": "Vergleich: る vs. ろ"
-                          },
-                          {
-                              "t": "る – Verben enden oft auf る",
-                              "n": "Grammatik: z.B. たべる (essen)"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_re",
-                      "isLetter": true,
-                      "letter": "れ",
-                      "word": "れ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾe/",
-                      "translation": "Laut <b>re</b> – wie „<i>Regen</i>“<br>Die Form sieht aus wie <span class=\"hl\">わ</span> mit einem extra Haken.",
-                      "mnemonic": "れ ist wie わ mit Haken – „re“ wie „Regen“ mit Tropfen.",
-                      "examples": [
-                          {
-                              "t": "れ – ähnlich wie わ, aber mit <b>Haken</b>",
-                              "n": "Vergleich: れ vs. わ"
-                          },
-                          {
-                              "t": "れきし – <b>れ</b> + き + し",
-                              "n": "Geschichte – beginnt mit れ"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_ro",
-                      "isLetter": true,
-                      "letter": "ろ",
-                      "word": "ろ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾo/",
-                      "translation": "Laut <b>ro</b> – wie „<i>Rose</i>“<br>Die Form ist wie る, aber <span class=\"hl\">ohne Schleife</span>.",
-                      "mnemonic": "ろ = る ohne Schleife – „ro“ wie „Rose“ ohne Dornen.",
-                      "examples": [
-                          {
-                              "t": "ろ – wie る, aber <b>ohne Schleife</b>",
-                              "n": "Vergleich: ろ vs. る"
-                          },
-                          {
-                              "t": "ろく – <b>ろ</b> + く",
-                              "n": "sechs – beginnt mit ろ"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_wa",
-                      "isLetter": true,
-                      "letter": "わ",
-                      "word": "わ",
-                      "emoji": "🔤",
-                      "phonetic": "/wa/",
-                      "translation": "Laut <b>wa</b> – wie „<i>Wasser</i>“<br>Die Form sieht aus wie <span class=\"hl\">れ</span> ohne Haken – oder eine Welle.",
-                      "mnemonic": "わ sieht aus wie eine Welle – „wa“ wie „Wasser“ im Meer.",
-                      "examples": [
-                          {
-                              "t": "わ – wie れ, aber <b>ohne Haken</b>",
-                              "n": "Vergleich: わ vs. れ"
-                          },
-                          {
-                              "t": "わたし – <b>わ</b> + た + し",
-                              "n": "Ich – beginnt mit わ"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g2_L_wo",
-                      "isLetter": true,
-                      "letter": "を",
-                      "word": "を",
+                      "letter": "О",
+                      "word": "О",
                       "emoji": "🔤",
                       "phonetic": "/o/",
-                      "translation": "Laut <b>o</b> – wird nur als <i>Partikel</i> verwendet<br>Die Form ist wie お mit <span class=\"hl\">einem Strich mehr</span>.",
-                      "mnemonic": "を = お mit extra Strich – wird nur als Partikel benutzt (wie ein „o“ mit Zusatz).",
+                      "translation": "Letra <b>О</b> — idéntica a la <i>O</i> latina, suena como <i>o</i>.",
+                      "mnemonic": "Un círculo perfecto, igual que la O latina.",
                       "examples": [
                           {
-                              "t": "を – Akkusativ-Partikel<br>Beispiel: 本<b>を</b>読む",
-                              "n": "を als Objekt-Partikel: „ein Buch lesen“"
+                              "t": "<b>О</b>н — él",
+                              "n": "Palabra corta con O"
                           },
                           {
-                              "t": "を wird <b>wie お</b> ausgesprochen",
-                              "n": "Aussprache: /o/ nicht /wo/"
+                              "t": "<b>О</b>на — ella",
+                              "n": "La O inicial"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g2_L_n",
+                      "id": "ru_a0_g1_L_m",
                       "isLetter": true,
-                      "letter": "ん",
-                      "word": "ん",
+                      "letter": "М",
+                      "word": "М",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Letra <b>М</b> — idéntica a la <i>M</i> latina, suena <i>m</i>.",
+                      "mnemonic": "Misma M que en español, sin trucos.",
+                      "examples": [
+                          {
+                              "t": "<b>М</b>ир — mundo/paz",
+                              "n": "Palabra famosa"
+                          },
+                          {
+                              "t": "<b>М</b>ой — mi/mío",
+                              "n": "M inicial"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_t",
+                      "isLetter": true,
+                      "letter": "Т",
+                      "word": "Т",
+                      "emoji": "🔤",
+                      "phonetic": "/t/",
+                      "translation": "Letra <b>Т</b> — idéntica a la <i>T</i> latina, suena <i>t</i>.",
+                      "mnemonic": "Es la T latina sin cambios.",
+                      "examples": [
+                          {
+                              "t": "<b>Т</b>ы — tú",
+                              "n": "T inicial"
+                          },
+                          {
+                              "t": "<b>Т</b>ам — allí",
+                              "n": "T inicial"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_k",
+                      "isLetter": true,
+                      "letter": "К",
+                      "word": "К",
+                      "emoji": "🔤",
+                      "phonetic": "/k/",
+                      "translation": "Letra <b>К</b> — idéntica a la <i>K</i> latina, suena <i>k</i>.",
+                      "mnemonic": "Es la K latina, pero sin la cola extra.",
+                      "examples": [
+                          {
+                              "t": "<b>К</b>ак — cómo",
+                              "n": "K inicial"
+                          },
+                          {
+                              "t": "<b>К</b>то — quién",
+                              "n": "K inicial"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_v",
+                      "isLetter": true,
+                      "letter": "В",
+                      "word": "В",
+                      "emoji": "🔤",
+                      "phonetic": "/v/",
+                      "translation": "Letra <b>В</b> — parece una <i>B</i> latina, pero suena <b>V</b> como en <i>vino</i>.",
+                      "mnemonic": "Parece una B, pero es una V: <span class=\"hl\">B</span> disfrazada de <span class=\"hl\">V</span>.",
+                      "examples": [
+                          {
+                              "t": "<b>В</b>ода — agua",
+                              "n": "V inicial"
+                          },
+                          {
+                              "t": "<b>В</b>от — aquí está",
+                              "n": "V inicial"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_L_n",
+                      "isLetter": true,
+                      "letter": "Н",
+                      "word": "Н",
                       "emoji": "🔤",
                       "phonetic": "/n/",
-                      "translation": "Laut <b>n</b> – ein <i>nasaler</i> Konsonant<br>Die Form sieht aus wie eine <span class=\"hl\">Schlange</span>, die sich windet.",
-                      "mnemonic": "ん sieht aus wie eine Schlange – zisch „nnn“ wie eine Schlange.",
+                      "translation": "Letra <b>Н</b> — parece una <i>H</i> latina, pero suena <b>N</b> como en <i>nube</i>.",
+                      "mnemonic": "La H latina se convirtió en N: <span class=\"hl\">H</span> → <span class=\"hl\">N</span>.",
                       "examples": [
                           {
-                              "t": "ん – der einzige <b>eigenständige Nasal</b>",
-                              "n": "Besonderheit: kann allein stehen"
+                              "t": "<b>Н</b>о — pero",
+                              "n": "N inicial"
                           },
                           {
-                              "t": "にほん – に + ほ + <b>ん</b>",
-                              "n": "Japan – endet mit ん"
+                              "t": "<b>Н</b>ет — no",
+                              "n": "N inicial"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g2_L_dakuten",
+                      "id": "ru_a0_g1_L_r",
                       "isLetter": true,
-                      "letter": "゛",
-                      "word": "゛",
+                      "letter": "Р",
+                      "word": "Р",
                       "emoji": "🔤",
-                      "phonetic": "/◌ˡ/",
-                      "translation": "Dakuten: <b>Stimmhaftmachung</b><br>Zwei kleine Striche oben rechts – wie ein <span class=\"hl\">Stimmband</span>.",
-                      "mnemonic": "゛ sind zwei Striche = „Stimme an“ – macht k→g, s→z, t→d, h→b.",
+                      "phonetic": "/r/",
+                      "translation": "Letra <b>Р</b> — parece una <i>P</i> latina, pero suena <b>R</b> fuerte (vibrante).",
+                      "mnemonic": "La P latina perdió su palito y se volvió R: <span class=\"hl\">P</span> → <span class=\"hl\">R</span>.",
                       "examples": [
                           {
-                              "t": "か → <b>が</b> (ga)",
-                              "n": "k wird zu g"
+                              "t": "<b>Р</b>оссия — Rusia",
+                              "n": "R inicial"
                           },
                           {
-                              "t": "さ → <b>ざ</b> (za)",
-                              "n": "s wird zu z"
-                          },
-                          {
-                              "t": "た → <b>だ</b> (da)",
-                              "n": "t wird zu d"
-                          },
-                          {
-                              "t": "は → <b>ば</b> (ba)",
-                              "n": "h wird zu b"
+                              "t": "<b>Р</b>ад — contento",
+                              "n": "R inicial"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g2_L_handakuten",
+                      "id": "ru_a0_g1_L_s",
                       "isLetter": true,
-                      "letter": "゜",
-                      "word": "゜",
+                      "letter": "С",
+                      "word": "С",
                       "emoji": "🔤",
-                      "phonetic": "/◌ʰ/",
-                      "translation": "Handakuten: <b>p-Laut</b><br>Ein kleiner Kreis – wie ein <span class=\"hl\">Luftballon</span>, der platzt (p!).",
-                      "mnemonic": "゜ ist ein Kreis = „p“ wie „Pop!“ – nur bei は行.",
+                      "phonetic": "/s/",
+                      "translation": "Letra <b>С</b> — parece una <i>C</i> latina, pero suena <b>S</b> como en <i>sol</i>.",
+                      "mnemonic": "La C latina se volvió S: <span class=\"hl\">C</span> → <span class=\"hl\">S</span>.",
                       "examples": [
                           {
-                              "t": "は → <b>ぱ</b> (pa)",
-                              "n": "h wird zu p"
+                              "t": "<b>С</b>он — sueño",
+                              "n": "S inicial"
                           },
                           {
-                              "t": "ひ → <b>ぴ</b> (pi)",
-                              "n": "hi wird zu pi"
-                          },
-                          {
-                              "t": "ふ → <b>ぷ</b> (pu)",
-                              "n": "fu wird zu pu"
+                              "t": "<b>С</b>ок — zumo",
+                              "n": "S inicial"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g2_01",
+                      "id": "ru_a0_g1_01",
                       "isLetter": false,
-                      "letter": "は",
-                      "word": "はな",
-                      "emoji": "🌸",
-                      "phonetic": "/hana/",
-                      "translation": "Blume – <b>はな</b>",
+                      "letter": "А",
+                      "word": "мама",
+                      "emoji": "👩",
+                      "phonetic": "/ˈmamə/",
+                      "translation": "<b>Мама</b> — mamá",
                       "translations": {
-                          "ja": "はな",
-                          "de": "Blume",
-                          "en": "flower"
+                          "ru": "мама",
+                          "en": "mom"
                       },
                       "examples": [
                           {
-                              "t": "これは<b>はな</b>です。",
-                              "n": "Das ist eine Blume."
+                              "t": "<b>Мама</b> дома.",
+                              "n": "Mamá está en casa."
                           },
                           {
-                              "t": "はなはきれいです。",
-                              "n": "Die Blume ist schön."
+                              "t": "Это <b>мама</b>.",
+                              "n": "Esta es mamá."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g2_02",
+                      "id": "ru_a0_g1_02",
                       "isLetter": false,
-                      "letter": "み",
-                      "word": "みず",
-                      "emoji": "💧",
-                      "phonetic": "/mizɯ/",
-                      "translation": "Wasser – <b>みず</b>",
+                      "letter": "А",
+                      "word": "папа",
+                      "emoji": "👨",
+                      "phonetic": "/ˈpapə/",
+                      "translation": "<b>Папа</b> — papá",
                       "translations": {
-                          "ja": "みず",
-                          "de": "Wasser",
+                          "ru": "папа",
+                          "en": "dad"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Папа</b> тут.",
+                              "n": "Papá está aquí."
+                          },
+                          {
+                              "t": "Это <b>папа</b>.",
+                              "n": "Este es papá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "нет",
+                      "emoji": "❌",
+                      "phonetic": "/nʲet/",
+                      "translation": "<b>Нет</b> — no",
+                      "translations": {
+                          "ru": "нет",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, gracias."
+                          },
+                          {
+                              "t": "Это <b>нет</b>.",
+                              "n": "No es esto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "Е",
+                      "word": "где",
+                      "emoji": "📍",
+                      "phonetic": "/ɡdʲe/",
+                      "translation": "<b>Где</b> — dónde",
+                      "translations": {
+                          "ru": "где",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> мама?",
+                              "n": "¿Dónde está mamá?"
+                          },
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "¿Dónde está el baño?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "<b>Он</b> — él",
+                      "translations": {
+                          "ru": "он",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Он</b> дома.",
+                              "n": "Él está en casa."
+                          },
+                          {
+                              "t": "<b>Он</b> тут.",
+                              "n": "Él está aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "О",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "/ɐˈna/",
+                      "translation": "<b>Она</b> — ella",
+                      "translations": {
+                          "ru": "она",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Она</b> там.",
+                              "n": "Ella está allí."
+                          },
+                          {
+                              "t": "<b>Она</b> мама.",
+                              "n": "Ella es mamá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мир",
+                      "emoji": "🌍",
+                      "phonetic": "/mʲir/",
+                      "translation": "<b>Мир</b> — mundo / paz",
+                      "translations": {
+                          "ru": "мир",
+                          "en": "world/peace"
+                      },
+                      "examples": [
+                          {
+                              "t": "Весь <b>мир</b>.",
+                              "n": "Todo el mundo."
+                          },
+                          {
+                              "t": "Мир и <b>мир</b>.",
+                              "n": "Paz y mundo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "М",
+                      "word": "мой",
+                      "emoji": "💼",
+                      "phonetic": "/moj/",
+                      "translation": "<b>Мой</b> — mi (masc.)",
+                      "translations": {
+                          "ru": "мой",
+                          "en": "my"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мой</b> папа.",
+                              "n": "Mi papá."
+                          },
+                          {
+                              "t": "<b>Мой</b> дом.",
+                              "n": "Mi casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/",
+                      "translation": "<b>Ты</b> — tú",
+                      "translations": {
+                          "ru": "ты",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> тут.",
+                              "n": "Tú estás aquí."
+                          },
+                          {
+                              "t": "<b>Ты</b> кто?",
+                              "n": "¿Quién eres tú?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "Т",
+                      "word": "там",
+                      "emoji": "📍",
+                      "phonetic": "/tam/",
+                      "translation": "<b>Там</b> — allí",
+                      "translations": {
+                          "ru": "там",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Она <b>там</b>.",
+                              "n": "Ella está allí."
+                          },
+                          {
+                              "t": "<b>Там</b> мама.",
+                              "n": "Allí está mamá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_11",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "как",
+                      "emoji": "❓",
+                      "phonetic": "/kak/",
+                      "translation": "<b>Как</b> — cómo",
+                      "translations": {
+                          "ru": "как",
+                          "en": "how"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Как</b> ты?",
+                              "n": "¿Cómo estás?"
+                          },
+                          {
+                              "t": "<b>Как</b> дела?",
+                              "n": "¿Cómo van las cosas?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_12",
+                      "isLetter": false,
+                      "letter": "К",
+                      "word": "кто",
+                      "emoji": "❓",
+                      "phonetic": "/kto/",
+                      "translation": "<b>Кто</b> — quién",
+                      "translations": {
+                          "ru": "кто",
+                          "en": "who"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Кто</b> это?",
+                              "n": "¿Quién es?"
+                          },
+                          {
+                              "t": "<b>Кто</b> там?",
+                              "n": "¿Quién está allí?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_13",
+                      "isLetter": false,
+                      "letter": "В",
+                      "word": "вода",
+                      "emoji": "💧",
+                      "phonetic": "/vɐˈda/",
+                      "translation": "<b>Вода</b> — agua",
+                      "translations": {
+                          "ru": "вода",
                           "en": "water"
                       },
                       "examples": [
                           {
-                              "t": "みずを飲みます。",
-                              "n": "Ich trinke Wasser."
+                              "t": "Это <b>вода</b>.",
+                              "n": "Esto es agua."
                           },
                           {
-                              "t": "みずは冷たいです。",
-                              "n": "Das Wasser ist kalt."
+                              "t": "<b>Вода</b> тут.",
+                              "n": "El agua está aquí."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g2_03",
+                      "id": "ru_a0_g1_14",
                       "isLetter": false,
-                      "letter": "や",
-                      "word": "やま",
-                      "emoji": "⛰️",
-                      "phonetic": "/jama/",
-                      "translation": "Berg – <b>やま</b>",
+                      "letter": "В",
+                      "word": "вот",
+                      "emoji": "👉",
+                      "phonetic": "/vot/",
+                      "translation": "<b>Вот</b> — aquí está",
                       "translations": {
-                          "ja": "やま",
-                          "de": "Berg",
-                          "en": "mountain"
+                          "ru": "вот",
+                          "en": "here is"
                       },
                       "examples": [
                           {
-                              "t": "やまが高いです。",
-                              "n": "Der Berg ist hoch."
+                              "t": "<b>Вот</b> мама.",
+                              "n": "Aquí está mamá."
                           },
                           {
-                              "t": "やまに登ります。",
-                              "n": "Ich besteige den Berg."
+                              "t": "<b>Вот</b> вода.",
+                              "n": "Aquí está el agua."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g2_04",
+                      "id": "ru_a0_g1_15",
                       "isLetter": false,
-                      "letter": "ら",
-                      "word": "られる",
-                      "emoji": "💪",
-                      "phonetic": "/raɾeɾɯ/",
-                      "translation": "können / möglich sein – <b>られる</b>",
+                      "letter": "Н",
+                      "word": "но",
+                      "emoji": "🔄",
+                      "phonetic": "/no/",
+                      "translation": "<b>Но</b> — pero",
                       "translations": {
-                          "ja": "られる",
-                          "de": "können / möglich sein",
-                          "en": "can do / to be able to"
+                          "ru": "но",
+                          "en": "but"
                       },
                       "examples": [
                           {
-                              "t": "日本語が話せます。",
-                              "n": "Ich kann Japanisch sprechen."
+                              "t": "Мама тут, <b>но</b> папа там.",
+                              "n": "Mamá está aquí, pero papá está allí."
                           },
                           {
-                              "t": "これは食べ<b>られる</b>。",
-                              "n": "Das kann man essen."
+                              "t": "Я хочу, <b>но</b> нет.",
+                              "n": "Quiero, pero no."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g2_05",
+                      "id": "ru_a0_g1_16",
                       "isLetter": false,
-                      "letter": "わ",
-                      "word": "わたし",
+                      "letter": "Н",
+                      "word": "нет",
+                      "emoji": "❌",
+                      "phonetic": "/nʲet/",
+                      "translation": "<b>Нет</b> — no (repaso)",
+                      "translations": {
+                          "ru": "нет",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>нет</b>.",
+                              "n": "Esto no es."
+                          },
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, gracias."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_17",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "Россия",
+                      "emoji": "🇷🇺",
+                      "phonetic": "/rɐˈsʲijə/",
+                      "translation": "<b>Россия</b> — Rusia",
+                      "translations": {
+                          "ru": "Россия",
+                          "en": "Russia"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я в <b>России</b>.",
+                              "n": "Estoy en Rusia."
+                          },
+                          {
+                              "t": "<b>Россия</b> большая.",
+                              "n": "Rusia es grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_18",
+                      "isLetter": false,
+                      "letter": "Р",
+                      "word": "рад",
+                      "emoji": "😊",
+                      "phonetic": "/rat/",
+                      "translation": "<b>Рад</b> — contento (masc.)",
+                      "translations": {
+                          "ru": "рад",
+                          "en": "glad"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>рад</b>.",
+                              "n": "Estoy contento."
+                          },
+                          {
+                              "t": "Он <b>рад</b>.",
+                              "n": "Él está contento."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_19",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сон",
+                      "emoji": "😴",
+                      "phonetic": "/son/",
+                      "translation": "<b>Сон</b> — sueño",
+                      "translations": {
+                          "ru": "сон",
+                          "en": "dream/sleep"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>сон</b>.",
+                              "n": "Esto es un sueño."
+                          },
+                          {
+                              "t": "Мой <b>сон</b>.",
+                              "n": "Mi sueño."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g1_20",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "сок",
+                      "emoji": "🧃",
+                      "phonetic": "/sok/",
+                      "translation": "<b>Сок</b> — zumo",
+                      "translations": {
+                          "ru": "сок",
+                          "en": "juice"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>сок</b>.",
+                              "n": "Esto es zumo."
+                          },
+                          {
+                              "t": "Я хочу <b>сок</b>.",
+                              "n": "Quiero zumo."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g2",
+              "name": "Letras nuevas — sonidos conocidos",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "Б Г Д З И Л П Ф Э Ю Я — formas nuevas, sonidos familiares",
+              "reviewFrom": [
+                  "ru_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "Б",
+                      "word": "Б",
+                      "emoji": "🔤",
+                      "phonetic": "/b/",
+                      "translation": "Be (бэ) — suena como la <b>B</b> española en «<span class=\"hl\">beso</span>».",
+                      "mnemonic": "La Б mayúscula parece una B con una barriga extra: ¡una B que comió mucho!",
+                      "examples": [
+                          {
+                              "t": "<b>Б</b> como en <b>брат</b> (hermano).<br>La forma es como una B con un vientre.",
+                              "n": "Б = B"
+                          },
+                          {
+                              "t": "En cursiva, la б minúscula se parece a una «b» con una cola hacia abajo.",
+                              "n": "Cursiva"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "Г",
+                      "word": "Г",
+                      "emoji": "🔤",
+                      "phonetic": "/g/",
+                      "translation": "Ge (гэ) — suena como la <b>G</b> dura española en «<span class=\"hl\">gato</span>».",
+                      "mnemonic": "La Г es una «G» sin la curva inferior: una G que perdió el pie.",
+                      "examples": [
+                          {
+                              "t": "<b>Г</b> como en <b>год</b> (año).<br>Parece una «G» recortada.",
+                              "n": "Г = G"
+                          },
+                          {
+                              "t": "La г minúscula es casi igual, un poco más pequeña.",
+                              "n": "Cursiva"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "Д",
+                      "word": "Д",
+                      "emoji": "🔤",
+                      "phonetic": "/d/",
+                      "translation": "De (дэ) — suena como la <b>D</b> española en «<span class=\"hl\">dedo</span>».",
+                      "mnemonic": "La Д mayúscula parece una casa: ¡una D con techo!",
+                      "examples": [
+                          {
+                              "t": "<b>Д</b> como en <b>дом</b> (casa).<br>La forma se parece a una casa con techo.",
+                              "n": "Д = D"
+                          },
+                          {
+                              "t": "En cursiva, la д minúscula se escribe como una «g» con cola.",
+                              "n": "Cursiva"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "З",
+                      "word": "З",
+                      "emoji": "🔤",
+                      "phonetic": "/z/",
+                      "translation": "Ze (зэ) — suena como la <b>S</b> sonora en inglés «<span class=\"hl\">zoo</span>» o como una S con vibración.",
+                      "mnemonic": "La З es como un tres (3) acostado: ¡el número 3!",
+                      "examples": [
+                          {
+                              "t": "<b>З</b> como en <b>зима</b> (invierno).<br>Parece un 3 en espejo.",
+                              "n": "З = Z"
+                          },
+                          {
+                              "t": "Recuerda: la З suena como la S en «misma» (pero sonora).",
+                              "n": "Sonido"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_i",
+                      "isLetter": true,
+                      "letter": "И",
+                      "word": "И",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "I (и) — suena como la <b>I</b> española en «<span class=\"hl\">isla</span>».",
+                      "mnemonic": "La И mayúscula parece una «N» al revés: ¡una N que se cayó!",
+                      "examples": [
+                          {
+                              "t": "<b>И</b> como en <b>имя</b> (nombre).<br>Es como una N invertida.",
+                              "n": "И = I"
+                          },
+                          {
+                              "t": "En cursiva, la и minúscula se parece a una «u» con un gancho.",
+                              "n": "Cursiva"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "Л",
+                      "word": "Л",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "El (эл) — suena como la <b>L</b> española en «<span class=\"hl\">luna</span>».",
+                      "mnemonic": "La Л mayúscula parece una pierna con un pie: ¡una L que camina!",
+                      "examples": [
+                          {
+                              "t": "<b>Л</b> como en <b>лес</b> (bosque).<br>La forma es como una «L» con un pico.",
+                              "n": "Л = L"
+                          },
+                          {
+                              "t": "La л minúscula es igual pero más pequeña.",
+                              "n": "Cursiva"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "П",
+                      "word": "П",
+                      "emoji": "🔤",
+                      "phonetic": "/p/",
+                      "translation": "Pe (пэ) — suena como la <b>P</b> española en «<span class=\"hl\">padre</span>».",
+                      "mnemonic": "La П mayúscula parece una pi (π) con las patas rectas: ¡una puerta!",
+                      "examples": [
+                          {
+                              "t": "<b>П</b> como en <b>парк</b> (parque).<br>Parece una π sin curva.",
+                              "n": "П = P"
+                          },
+                          {
+                              "t": "La п minúscula es igual pero más pequeña.",
+                              "n": "Cursiva"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "Ф",
+                      "word": "Ф",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Ef (эф) — suena como la <b>F</b> española en «<span class=\"hl\">faro</span>».",
+                      "mnemonic": "La Ф parece una flor con un tallo: ¡una F con dos pétalos!",
+                      "examples": [
+                          {
+                              "t": "<b>Ф</b> como en <b>фото</b> (foto).<br>Es una «F» con un círculo en el centro.",
+                              "n": "Ф = F"
+                          },
+                          {
+                              "t": "La ф minúscula es igual pero más pequeña.",
+                              "n": "Cursiva"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_e",
+                      "isLetter": true,
+                      "letter": "Э",
+                      "word": "Э",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "E (э) — suena como la <b>E</b> abierta española en «<span class=\"hl\">perro</span>» (sin deslizamiento).",
+                      "mnemonic": "La Э es una «E» al revés: ¡una E que mira hacia atrás!",
+                      "examples": [
+                          {
+                              "t": "<b>Э</b> como en <b>это</b> (esto).<br>Es una E invertida.",
+                              "n": "Э = E"
+                          },
+                          {
+                              "t": "La э minúscula es igual pero más pequeña.",
+                              "n": "Cursiva"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_yu",
+                      "isLetter": true,
+                      "letter": "Ю",
+                      "word": "Ю",
+                      "emoji": "🔤",
+                      "phonetic": "/ju/",
+                      "translation": "Yu (ю) — suena como «<span class=\"hl\">you</span>» en inglés, es decir «iu».",
+                      "mnemonic": "La Ю parece una «O» con una cola: ¡una O que camina!",
+                      "examples": [
+                          {
+                              "t": "<b>Ю</b> como en <b>юг</b> (sur).<br>Es una O con una patita.",
+                              "n": "Ю = Yu"
+                          },
+                          {
+                              "t": "La ю minúscula es igual pero más pequeña.",
+                              "n": "Cursiva"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_L_ya",
+                      "isLetter": true,
+                      "letter": "Я",
+                      "word": "Я",
+                      "emoji": "🔤",
+                      "phonetic": "/ja/",
+                      "translation": "Ya (я) — suena como «<span class=\"hl\">ya</span>» en español, como en «yate».",
+                      "mnemonic": "La Я parece una «R» al revés: ¡una R que se mira en el espejo!",
+                      "examples": [
+                          {
+                              "t": "<b>Я</b> como en <b>я</b> (yo).<br>Es una R invertida.",
+                              "n": "Я = Ya"
+                          },
+                          {
+                              "t": "La я minúscula es igual pero más pequeña.",
+                              "n": "Cursiva"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "Б",
+                      "word": "брат",
+                      "emoji": "👬",
+                      "phonetic": "/brat/",
+                      "translation": "hermano",
+                      "translations": {
+                          "ru": "брат",
+                          "es": "hermano",
+                          "en": "brother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>брат</b> дома.",
+                              "n": "Mi hermano está en casa."
+                          },
+                          {
+                              "t": "У меня есть <b>брат</b>.",
+                              "n": "Tengo un hermano."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "Б",
+                      "word": "банк",
+                      "emoji": "🏦",
+                      "phonetic": "/bank/",
+                      "translation": "banco (entidad)",
+                      "translations": {
+                          "ru": "банк",
+                          "es": "banco",
+                          "en": "bank"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я иду в <b>банк</b>.",
+                              "n": "Voy al banco."
+                          },
+                          {
+                              "t": "Где <b>банк</b>?",
+                              "n": "¿Dónde está el banco?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "Г",
+                      "word": "где",
+                      "emoji": "❓",
+                      "phonetic": "/gde/",
+                      "translation": "dónde",
+                      "translations": {
+                          "ru": "где",
+                          "es": "dónde",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Где</b> туалет?",
+                              "n": "¿Dónde está el baño?"
+                          },
+                          {
+                              "t": "<b>Где</b> ты?",
+                              "n": "¿Dónde estás?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "Г",
+                      "word": "год",
+                      "emoji": "📅",
+                      "phonetic": "/got/",
+                      "translation": "año",
+                      "translations": {
+                          "ru": "год",
+                          "es": "año",
+                          "en": "year"
+                      },
+                      "examples": [
+                          {
+                              "t": "Новый <b>год</b> скоро.",
+                              "n": "El Año Nuevo es pronto."
+                          },
+                          {
+                              "t": "Мне 20 лет. (aquí «лет» es plural de año)",
+                              "n": "Tengo 20 años."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "sí",
+                      "translations": {
+                          "ru": "да",
+                          "es": "sí",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я понимаю.",
+                              "n": "Sí, entiendo."
+                          },
+                          {
+                              "t": "Ты дома? — <b>Да</b>.",
+                              "n": "¿Estás en casa? — Sí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "дом",
+                      "emoji": "🏠",
+                      "phonetic": "/dom/",
+                      "translation": "casa",
+                      "translations": {
+                          "ru": "дом",
+                          "es": "casa",
+                          "en": "house"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это мой <b>дом</b>.",
+                              "n": "Esta es mi casa."
+                          },
+                          {
+                              "t": "Я люблю <b>дом</b>.",
+                              "n": "Amo mi casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "З",
+                      "word": "завтра",
+                      "emoji": "🌅",
+                      "phonetic": "/ˈzavtra/",
+                      "translation": "mañana (futuro)",
+                      "translations": {
+                          "ru": "завтра",
+                          "es": "mañana",
+                          "en": "tomorrow"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Завтра</b> будет хорошо.",
+                              "n": "Mañana estará bien."
+                          },
+                          {
+                              "t": "Увидимся <b>завтра</b>.",
+                              "n": "Nos vemos mañana."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "З",
+                      "word": "зима",
+                      "emoji": "❄️",
+                      "phonetic": "/zʲɪˈma/",
+                      "translation": "invierno",
+                      "translations": {
+                          "ru": "зима",
+                          "es": "invierno",
+                          "en": "winter"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я люблю <b>зиму</b>.",
+                              "n": "Amo el invierno."
+                          },
+                          {
+                              "t": "<b>Зима</b> холодная.",
+                              "n": "El invierno es frío."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "И",
+                      "word": "или",
+                      "emoji": "🔀",
+                      "phonetic": "/ˈilʲi/",
+                      "translation": "o (conjunción)",
+                      "translations": {
+                          "ru": "или",
+                          "es": "o",
+                          "en": "or"
+                      },
+                      "examples": [
+                          {
+                              "t": "Чай <b>или</b> кофе?",
+                              "n": "¿Té o café?"
+                          },
+                          {
+                              "t": "Да <b>или</b> нет?",
+                              "n": "¿Sí o no?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "И",
+                      "word": "имя",
+                      "emoji": "📛",
+                      "phonetic": "/ˈimʲə/",
+                      "translation": "nombre",
+                      "translations": {
+                          "ru": "имя",
+                          "es": "nombre",
+                          "en": "name"
+                      },
+                      "examples": [
+                          {
+                              "t": "Моё <b>имя</b> Анна.",
+                              "n": "Mi nombre es Anna."
+                          },
+                          {
+                              "t": "Какое твоё <b>имя</b>?",
+                              "n": "¿Cuál es tu nombre?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_11",
+                      "isLetter": false,
+                      "letter": "Л",
+                      "word": "лес",
+                      "emoji": "🌲",
+                      "phonetic": "/lʲes/",
+                      "translation": "bosque",
+                      "translations": {
+                          "ru": "лес",
+                          "es": "bosque",
+                          "en": "forest"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы идём в <b>лес</b>.",
+                              "n": "Vamos al bosque."
+                          },
+                          {
+                              "t": "<b>Лес</b> красивый.",
+                              "n": "El bosque es hermoso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_12",
+                      "isLetter": false,
+                      "letter": "Л",
+                      "word": "люди",
+                      "emoji": "👥",
+                      "phonetic": "/ˈlʲʉdʲi/",
+                      "translation": "gente, personas",
+                      "translations": {
+                          "ru": "люди",
+                          "es": "gente",
+                          "en": "people"
+                      },
+                      "examples": [
+                          {
+                              "t": "Многие <b>люди</b> любят музыку.",
+                              "n": "Mucha gente ama la música."
+                          },
+                          {
+                              "t": "Они хорошие <b>люди</b>.",
+                              "n": "Son buenas personas."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_13",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "парк",
+                      "emoji": "🌳",
+                      "phonetic": "/park/",
+                      "translation": "parque",
+                      "translations": {
+                          "ru": "парк",
+                          "es": "parque",
+                          "en": "park"
+                      },
+                      "examples": [
+                          {
+                              "t": "Дети играют в <b>парке</b>.",
+                              "n": "Los niños juegan en el parque."
+                          },
+                          {
+                              "t": "Это большой <b>парк</b>.",
+                              "n": "Es un parque grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_14",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/prʲɪˈvʲet/",
+                      "translation": "hola",
+                      "translations": {
+                          "ru": "привет",
+                          "es": "hola",
+                          "en": "hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>!",
+                              "n": "¡Hola!"
+                          },
+                          {
+                              "t": "<b>Привет</b>, как дела?",
+                              "n": "Hola, ¿cómo estás?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_15",
+                      "isLetter": false,
+                      "letter": "Ф",
+                      "word": "фото",
+                      "emoji": "📷",
+                      "phonetic": "/ˈfotə/",
+                      "translation": "foto",
+                      "translations": {
+                          "ru": "фото",
+                          "es": "foto",
+                          "en": "photo"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это моё <b>фото</b>.",
+                              "n": "Esta es mi foto."
+                          },
+                          {
+                              "t": "Сделай <b>фото</b>!",
+                              "n": "¡Toma una foto!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_16",
+                      "isLetter": false,
+                      "letter": "Ф",
+                      "word": "факт",
+                      "emoji": "💡",
+                      "phonetic": "/fakt/",
+                      "translation": "hecho (realidad)",
+                      "translations": {
+                          "ru": "факт",
+                          "es": "hecho",
+                          "en": "fact"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это <b>факт</b>.",
+                              "n": "Es un hecho."
+                          },
+                          {
+                              "t": "Интересный <b>факт</b>.",
+                              "n": "Dato interesante."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_17",
+                      "isLetter": false,
+                      "letter": "Э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/ˈetə/",
+                      "translation": "esto, esto es",
+                      "translations": {
+                          "ru": "это",
+                          "es": "esto",
+                          "en": "this"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Это</b> книга.",
+                              "n": "Esto es un libro."
+                          },
+                          {
+                              "t": "Что <b>это</b>?",
+                              "n": "¿Qué es esto?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_18",
+                      "isLetter": false,
+                      "letter": "Э",
+                      "word": "этаж",
+                      "emoji": "🏢",
+                      "phonetic": "/ɪˈtaʂ/",
+                      "translation": "planta, piso",
+                      "translations": {
+                          "ru": "этаж",
+                          "es": "planta",
+                          "en": "floor"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>этаж</b> третий.",
+                              "n": "Mi planta es la tercera."
+                          },
+                          {
+                              "t": "Он на втором <b>этаже</b>.",
+                              "n": "Él está en el segundo piso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_19",
+                      "isLetter": false,
+                      "letter": "Ю",
+                      "word": "юг",
+                      "emoji": "🧭",
+                      "phonetic": "/juk/",
+                      "translation": "sur",
+                      "translations": {
+                          "ru": "юг",
+                          "es": "sur",
+                          "en": "south"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мы едем на <b>юг</b>.",
+                              "n": "Vamos al sur."
+                          },
+                          {
+                              "t": "<b>Юг</b> тёплый.",
+                              "n": "El sur es cálido."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_20",
+                      "isLetter": false,
+                      "letter": "Ю",
+                      "word": "люблю",
+                      "emoji": "❤️",
+                      "phonetic": "/lʲʉˈblʲu/",
+                      "translation": "amo (yo amo)",
+                      "translations": {
+                          "ru": "люблю",
+                          "es": "amo",
+                          "en": "I love"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>люблю</b> тебя.",
+                              "n": "Te amo."
+                          },
+                          {
+                              "t": "Я <b>люблю</b> музыку.",
+                              "n": "Amo la música."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g2_21",
+                      "isLetter": false,
+                      "letter": "Я",
+                      "word": "я",
                       "emoji": "🙋",
-                      "phonetic": "/ɰataɕi/",
-                      "translation": "ich – <b>わたし</b>",
+                      "phonetic": "/ja/",
+                      "translation": "yo",
                       "translations": {
-                          "ja": "わたし",
-                          "de": "ich",
-                          "en": "I / me"
+                          "ru": "я",
+                          "es": "yo",
+                          "en": "I"
                       },
                       "examples": [
                           {
-                              "t": "<b>わたし</b>は学生です。",
-                              "n": "Ich bin Student."
+                              "t": "<b>Я</b> студент.",
+                              "n": "Soy estudiante."
                           },
                           {
-                              "t": "これはわたしの本です。",
-                              "n": "Das ist mein Buch."
+                              "t": "<b>Я</b> дома.",
+                              "n": "Estoy en casa."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g2_06",
+                      "id": "ru_a0_g2_22",
                       "isLetter": false,
-                      "letter": "あ",
-                      "word": "ありがとう",
-                      "emoji": "🙏",
-                      "phonetic": "/aɾiɡatoː/",
-                      "translation": "Danke – <b>ありがとう</b>",
+                      "letter": "Я",
+                      "word": "язык",
+                      "emoji": "👅",
+                      "phonetic": "/jɪˈzɨk/",
+                      "translation": "lengua, idioma",
                       "translations": {
-                          "ja": "ありがとう",
-                          "de": "Danke",
+                          "ru": "язык",
+                          "es": "lengua, idioma",
+                          "en": "tongue, language"
+                      },
+                      "examples": [
+                          {
+                              "t": "Русский <b>язык</b> сложный.",
+                              "n": "El ruso es difícil."
+                          },
+                          {
+                              "t": "Я учу испанский <b>язык</b>.",
+                              "n": "Estudio español."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g3",
+              "name": "Sonidos únicos del ruso",
+              "icon": "🔣",
+              "color": "#10b981",
+              "description": "Ж Ш Щ Ч Х Ц Ъ Ь Ы — los sonidos más difíciles",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g3_L_zh",
+                      "isLetter": true,
+                      "letter": "Ж",
+                      "word": "Ж",
+                      "emoji": "🔤",
+                      "phonetic": "/ʒ/",
+                      "translation": "Letra <b>Ж</b> — suena como la <i>J francesa</i> o la <i>s</i> de \"mea<b>s</b>ure\" en inglés.<br>Es un sonido <span class=\"hl\">vibrado</span> y sonoro.",
+                      "mnemonic": "Parece un escarabajo (жук) con patitas — ¡y el escarabajo hace \"jzhzhzh\"!",
+                      "examples": [
+                          {
+                              "t": "<b>Ж</b> es sonora: siente la vibración en la garganta.<br>Compárala con <span class=\"hl\">Ш</span> (sorda).",
+                              "n": "Contraste Ж/Ш"
+                          },
+                          {
+                              "t": "Como en <i>J</i>ean (francés) o <i>g</i>arage.",
+                              "n": "Referencia sonora"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_sh",
+                      "isLetter": true,
+                      "letter": "Ш",
+                      "word": "Ш",
+                      "emoji": "🔤",
+                      "phonetic": "/ʃ/",
+                      "translation": "Letra <b>Ш</b> — suena como <i>SH</i> en inglés (\"<b>sh</b>oe\").<br>Es un sonido <span class=\"hl\">sordo</span> y fuerte.",
+                      "mnemonic": "Parece una <span class=\"hl\">silla</span> (silla = Ш) con respaldo — ¡y te sientas a hacer 'shhh'!",
+                      "examples": [
+                          {
+                              "t": "<b>Ш</b> es sorda: sin vibración.<br>Compárala con <span class=\"hl\">Ж</span> (sonora).",
+                              "n": "Contraste Ш/Ж"
+                          },
+                          {
+                              "t": "Como <i>sh</i> en \"<b>sh</b>op\" o \"<b>sh</b>ip\".",
+                              "n": "Referencia sonora"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_shch",
+                      "isLetter": true,
+                      "letter": "Щ",
+                      "word": "Щ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕɕ/",
+                      "translation": "Letra <b>Щ</b> — <i>SH suave y largo</i>, como \"<b>sh</b>\" pero con la lengua más adelante.<br>Es como <span class=\"hl\">Ш pero más suave</span> y prolongado.",
+                      "mnemonic": "Tiene una <span class=\"hl\">colita</span> que Ш no tiene — ¡esa colita lo hace más suave!",
+                      "examples": [
+                          {
+                              "t": "<b>Щ</b> es como Ш pero <span class=\"hl\">más suave y largo</span>.<br>Imagina \"shhh\" para callar, pero más dulce.",
+                              "n": "Contraste Щ/Ш"
+                          },
+                          {
+                              "t": "Piensa en el sonido de un <i>susurro suave</i>.",
+                              "n": "Referencia sonora"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ch",
+                      "isLetter": true,
+                      "letter": "Ч",
+                      "word": "Ч",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/",
+                      "translation": "Letra <b>Ч</b> — suena como <i>CH</i> en inglés (\"<b>ch</b>eap\") pero <span class=\"hl\">más suave</span>.<br>Es un sonido corto y seco.",
+                      "mnemonic": "Parece una <span class=\"hl\">taza</span> de té (чай) — ¡y el té se sirve con 'ch'!",
+                      "examples": [
+                          {
+                              "t": "<b>Ч</b> es como \"ch\" pero con la lengua más atrás.<br>Es <span class=\"hl\">siempre suave</span>, nunca dura.",
+                              "n": "Característica del sonido"
+                          },
+                          {
+                              "t": "Como <i>ch</i> en \"<b>ch</b>eap\" o \"<b>ch</b>urch\".",
+                              "n": "Referencia sonora"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_kh",
+                      "isLetter": true,
+                      "letter": "Х",
+                      "word": "Х",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "Letra <b>Х</b> — suena como la <i>J española</i> (\"<b>j</b>amón\").<br>Es un sonido <span class=\"hl\">áspero</span> desde la garganta.",
+                      "mnemonic": "Es como una <span class=\"hl\">X</span> que respira — ¡hace 'hhhh' desde la garganta como cuando tienes flema!",
+                      "examples": [
+                          {
+                              "t": "<b>Х</b> es como la J española: <span class=\"hl\">áspera</span>.<br>No es como la H inglesa (más suave).",
+                              "n": "Referencia al español"
+                          },
+                          {
+                              "t": "Como <i>j</i> en \"<b>j</b>amón\" o \"<b>j</b>irafa\".",
+                              "n": "Referencia sonora"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_ts",
+                      "isLetter": true,
+                      "letter": "Ц",
+                      "word": "Ц",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/",
+                      "translation": "Letra <b>Ц</b> — suena como <i>TS</i> en \"pi<b>zz</b>a\" (italiano).<br>Es un sonido <span class=\"hl\">compuesto</span>: T + S.",
+                      "mnemonic": "Parece un <span class=\"hl\">candado</span> con colita — ¡y el candado hace 'tsk tsk' al cerrarse!",
+                      "examples": [
+                          {
+                              "t": "<b>Ц</b> es como \"ts\" — un solo sonido, no dos.<br>Piensa en <span class=\"hl\">pi</span>zza (italiano).",
+                              "n": "Referencia sonora"
+                          },
+                          {
+                              "t": "Como <i>ts</i> en \"ca<b>ts</b>\" pero más corto.",
+                              "n": "Referencia en inglés"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_har_sign",
+                      "isLetter": true,
+                      "letter": "Ъ",
+                      "word": "Ъ",
+                      "emoji": "🔤",
+                      "phonetic": "/—/",
+                      "translation": "Letra <b>Ъ</b> — <i>signo duro</i>: no tiene sonido propio.<br>Separa la <span class=\"hl\">consonante del prefijo</span> de la vocal siguiente.",
+                      "mnemonic": "Es un <span class=\"hl\">guardia</span> que se planta entre letras — ¡no deja que se junten!",
+                      "examples": [
+                          {
+                              "t": "<b>Ъ</b> no suena: solo separa.<br>Ej: <span class=\"hl\">объект</span> (ob-yekt) — la Ъ hace que la O y la E no se mezclen.",
+                              "n": "Función del signo duro"
+                          },
+                          {
+                              "t": "Es raro: solo aparece antes de Е, Ё, Ю, Я.",
+                              "n": "Regla de uso"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_soft_sign",
+                      "isLetter": true,
+                      "letter": "Ь",
+                      "word": "Ь",
+                      "emoji": "🔤",
+                      "phonetic": "/—/",
+                      "translation": "Letra <b>Ь</b> — <i>signo blando</i>: no tiene sonido propio.<br><span class=\"hl\">Suaviza</span> la consonante anterior.",
+                      "mnemonic": "Es una <span class=\"hl\">almohadita</span> que hace la letra anterior más suave — ¡como una caricia!",
+                      "examples": [
+                          {
+                              "t": "<b>Ь</b> suaviza: мать (mat') — la T se vuelve suave.<br>Compara con <span class=\"hl\">мат</span> (mat) — palabra grosera sin suavizar.",
+                              "n": "Contraste мать/мат"
+                          },
+                          {
+                              "t": "Piensa en la <i>ñ</i> española: cambia el sonido sin ser una letra independiente.",
+                              "n": "Analogía con español"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_L_y",
+                      "isLetter": true,
+                      "letter": "Ы",
+                      "word": "Ы",
+                      "emoji": "🔤",
+                      "phonetic": "/ɨ/",
+                      "translation": "Letra <b>Ы</b> — sonido <span class=\"hl\">único</span>: entre <i>I</i> y <i>U</i>, sin equivalente en español.<br>Es un sonido <span class=\"hl\">profundo</span> de garganta.",
+                      "mnemonic": "Parece una <span class=\"hl\">persona levantando los brazos</span> sorprendida — ¡y dice 'yyy'!",
+                      "examples": [
+                          {
+                              "t": "<b>Ы</b> no existe en español: es como una I pero <span class=\"hl\">más profunda</span>.<br>Imagina que te golpean y dices '¡Y!'.",
+                              "n": "Dificultad del sonido"
+                          },
+                          {
+                              "t": "Sonido entre <i>i</i> y <i>u</i>: lengua atrás, labios neutros.",
+                              "n": "Posición articulatoria"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "жить",
+                      "emoji": "🏠",
+                      "phonetic": "/ʐɨtʲ/ (zhit)",
+                      "translation": "<b>жить</b> — vivir",
+                      "translations": {
+                          "ru": "vivir",
+                          "en": "to live"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я хочу <b>жить</b> в Москве.",
+                              "n": "Quiero vivir en Moscú."
+                          },
+                          {
+                              "t": "Где ты <b>живёшь</b>?",
+                              "n": "¿Dónde vives?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "Ж",
+                      "word": "муж",
+                      "emoji": "💍",
+                      "phonetic": "/muʂ/ (muzh)",
+                      "translation": "<b>муж</b> — esposo, marido",
+                      "translations": {
+                          "ru": "esposo/marido",
+                          "en": "husband"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это мой <b>муж</b>.",
+                              "n": "Este es mi esposo."
+                          },
+                          {
+                              "t": "Её <b>муж</b> работает здесь.",
+                              "n": "Su marido trabaja aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "школа",
+                      "emoji": "🏫",
+                      "phonetic": "/ˈʂkoɫə/ (shkola)",
+                      "translation": "<b>школа</b> — escuela",
+                      "translations": {
+                          "ru": "escuela",
+                          "en": "school"
+                      },
+                      "examples": [
+                          {
+                              "t": "Дети идут в <b>школу</b>.",
+                              "n": "Los niños van a la escuela."
+                          },
+                          {
+                              "t": "Наша <b>школа</b> большая.",
+                              "n": "Nuestra escuela es grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "Ш",
+                      "word": "хорошо",
+                      "emoji": "👍",
+                      "phonetic": "/xərɐˈʂo/ (khorosho)",
+                      "translation": "<b>хорошо</b> — bien, bueno",
+                      "translations": {
+                          "ru": "bien/bueno",
+                          "en": "good, well, OK"
+                      },
+                      "examples": [
+                          {
+                              "t": "Всё <b>хорошо</b>!",
+                              "n": "¡Todo está bien!"
+                          },
+                          {
+                              "t": "Я <b>хорошо</b> говорю по-русски.",
+                              "n": "Hablo bien ruso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "щи",
+                      "emoji": "🍲",
+                      "phonetic": "/ɕɕi/ (shchi)",
+                      "translation": "<b>щи</b> — sopa de col (plato tradicional ruso)",
+                      "translations": {
+                          "ru": "sopa de col",
+                          "en": "cabbage soup (traditional Russian dish)"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я люблю <b>щи</b>.",
+                              "n": "Me encanta la sopa de col."
+                          },
+                          {
+                              "t": "<b>Щи</b> — это русское блюдо.",
+                              "n": "La sopa de col es un plato ruso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_06",
+                      "isLetter": false,
+                      "letter": "Щ",
+                      "word": "ещё",
+                      "emoji": "➕",
+                      "phonetic": "/jɪˈɕːɵ/ (yeshchyo)",
+                      "translation": "<b>ещё</b> — todavía, aún, más",
+                      "translations": {
+                          "ru": "todavía/aún/más",
+                          "en": "still, yet, more"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я <b>ещё</b> здесь.",
+                              "n": "Todavía estoy aquí."
+                          },
+                          {
+                              "t": "Дай мне <b>ещё</b> чай.",
+                              "n": "Dame más té."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_07",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "чай",
+                      "emoji": "🍵",
+                      "phonetic": "/tɕaj/ (chay)",
+                      "translation": "<b>чай</b> — té",
+                      "translations": {
+                          "ru": "té",
+                          "en": "tea"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я пью <b>чай</b>.",
+                              "n": "Bebo té."
+                          },
+                          {
+                              "t": "<b>Чай</b> горячий.",
+                              "n": "El té está caliente."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_08",
+                      "isLetter": false,
+                      "letter": "Ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/ʂto/ (shto)",
+                      "translation": "<b>что</b> — qué (¡se pronuncia <i>shto</i>, no <i>chto</i>!)",
+                      "translations": {
+                          "ru": "qué",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Что</b> это?",
+                              "n": "¿Qué es esto?"
+                          },
+                          {
+                              "t": "<b>Что</b> ты делаешь?",
+                              "n": "¿Qué haces?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_09",
+                      "isLetter": false,
+                      "letter": "Х",
+                      "word": "хлеб",
+                      "emoji": "🍞",
+                      "phonetic": "/xlʲep/ (khleb)",
+                      "translation": "<b>хлеб</b> — pan",
+                      "translations": {
+                          "ru": "pan",
+                          "en": "bread"
+                      },
+                      "examples": [
+                          {
+                              "t": "Я ем <b>хлеб</b>.",
+                              "n": "Como pan."
+                          },
+                          {
+                              "t": "Свежий <b>хлеб</b> вкусный.",
+                              "n": "El pan fresco está rico."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_10",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "цена",
+                      "emoji": "💲",
+                      "phonetic": "/tsɨˈna/ (tsena)",
+                      "translation": "<b>цена</b> — precio",
+                      "translations": {
+                          "ru": "precio",
+                          "en": "price"
+                      },
+                      "examples": [
+                          {
+                              "t": "Какая <b>цена</b>?",
+                              "n": "¿Cuál es el precio?"
+                          },
+                          {
+                              "t": "<b>Цена</b> высокая.",
+                              "n": "El precio es alto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_11",
+                      "isLetter": false,
+                      "letter": "Ц",
+                      "word": "отец",
+                      "emoji": "👨",
+                      "phonetic": "/ɐˈtʲets/ (otets)",
+                      "translation": "<b>отец</b> — padre",
+                      "translations": {
+                          "ru": "padre",
+                          "en": "father"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>отец</b> дома.",
+                              "n": "Mi padre está en casa."
+                          },
+                          {
+                              "t": "<b>Отец</b> любит читать.",
+                              "n": "A papá le gusta leer."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_12",
+                      "isLetter": false,
+                      "letter": "Ъ",
+                      "word": "объект",
+                      "emoji": "📦",
+                      "phonetic": "/ɐbˈjekt/ (ob'yekt)",
+                      "translation": "<b>объект</b> — objeto (la <b>Ъ</b> separa y crea un sonido <i>y</i> entre la B y la E)",
+                      "translations": {
+                          "ru": "objeto",
+                          "en": "object, facility"
+                      },
+                      "examples": [
+                          {
+                              "t": "Это новый <b>объект</b>.",
+                              "n": "Este es un objeto nuevo."
+                          },
+                          {
+                              "t": "<b>Объект</b> находится здесь.",
+                              "n": "La instalación está aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_13",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "мать",
+                      "emoji": "👩",
+                      "phonetic": "/matʲ/ (mat')",
+                      "translation": "<b>мать</b> — madre (la <b>Ь</b> suaviza la T final)",
+                      "translations": {
+                          "ru": "madre",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Моя <b>мать</b> здесь.",
+                              "n": "Mi madre está aquí."
+                          },
+                          {
+                              "t": "<b>Мать</b> готовит ужин.",
+                              "n": "Mamá prepara la cena."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_14",
+                      "isLetter": false,
+                      "letter": "Ь",
+                      "word": "пять",
+                      "emoji": "✋",
+                      "phonetic": "/pʲætʲ/ (pyat')",
+                      "translation": "<b>пять</b> — cinco (la <b>Ь</b> suaviza la T)",
+                      "translations": {
+                          "ru": "cinco",
+                          "en": "five"
+                      },
+                      "examples": [
+                          {
+                              "t": "У меня <b>пять</b> рублей.",
+                              "n": "Tengo cinco rublos."
+                          },
+                          {
+                              "t": "Сейчас <b>пять</b> часов.",
+                              "n": "Son las cinco."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_15",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/tɨ/ (ty)",
+                      "translation": "<b>ты</b> — tú (informal)",
+                      "translations": {
+                          "ru": "tú",
+                          "en": "you (informal singular)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ты</b> студент?",
+                              "n": "¿Eres estudiante?"
+                          },
+                          {
+                              "t": "Как <b>ты</b>?",
+                              "n": "¿Cómo estás?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_16",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/mɨ/ (my)",
+                      "translation": "<b>мы</b> — nosotros",
+                      "translations": {
+                          "ru": "nosotros",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Мы</b> дома.",
+                              "n": "Estamos en casa."
+                          },
+                          {
+                              "t": "<b>Мы</b> говорим по-русски.",
+                              "n": "Hablamos ruso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g3_17",
+                      "isLetter": false,
+                      "letter": "Ы",
+                      "word": "сын",
+                      "emoji": "👦",
+                      "phonetic": "/sɨn/ (syn)",
+                      "translation": "<b>сын</b> — hijo",
+                      "translations": {
+                          "ru": "hijo",
+                          "en": "son"
+                      },
+                      "examples": [
+                          {
+                              "t": "Мой <b>сын</b> маленький.",
+                              "n": "Mi hijo es pequeño."
+                          },
+                          {
+                              "t": "У неё есть <b>сын</b>.",
+                              "n": "Ella tiene un hijo."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ru_a0_g4",
+              "name": "Primeras palabras rusas",
+              "icon": "📖",
+              "color": "#ef4444",
+              "description": "Leer y entender 20 palabras rusas esenciales",
+              "reviewFrom": [
+                  "ru_a0_g1",
+                  "ru_a0_g2",
+                  "ru_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ru_a0_g4_v01",
+                      "isLetter": false,
+                      "letter": "Д",
+                      "word": "да",
+                      "emoji": "✅",
+                      "phonetic": "/da/",
+                      "translation": "sí",
+                      "translations": {
+                          "ru": "да",
+                          "es": "sí",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Да</b>, я русский.",
+                              "n": "Sí, soy ruso."
+                          },
+                          {
+                              "t": "Ты хочешь? – <b>Да</b>!",
+                              "n": "¿Quieres? – ¡Sí!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_v02",
+                      "isLetter": false,
+                      "letter": "Н",
+                      "word": "нет",
+                      "emoji": "❌",
+                      "phonetic": "/nyet/",
+                      "translation": "no",
+                      "translations": {
+                          "ru": "нет",
+                          "es": "no",
+                          "en": "no"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Нет</b>, спасибо.",
+                              "n": "No, gracias."
+                          },
+                          {
+                              "t": "Это <b>нет</b> трудно.",
+                              "n": "Esto no es difícil."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_v03",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "привет",
+                      "emoji": "👋",
+                      "phonetic": "/pree-vyet/",
+                      "translation": "hola",
+                      "translations": {
+                          "ru": "привет",
+                          "es": "hola",
+                          "en": "hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Привет</b>, как дела?",
+                              "n": "Hola, ¿cómo estás?"
+                          },
+                          {
+                              "t": "Скажи <b>привет</b> маме.",
+                              "n": "Dile hola a mamá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_v04",
+                      "isLetter": false,
+                      "letter": "П",
+                      "word": "пока",
+                      "emoji": "👋",
+                      "phonetic": "/pa-KA/",
+                      "translation": "adiós",
+                      "translations": {
+                          "ru": "пока",
+                          "es": "adiós",
+                          "en": "bye"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Пока</b>, до завтра!",
+                              "n": "¡Adiós, hasta mañana!"
+                          },
+                          {
+                              "t": "Ну всё, <b>пока</b>!",
+                              "n": "Bueno, ¡adiós!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ru_a0_g4_v05",
+                      "isLetter": false,
+                      "letter": "С",
+                      "word": "спасибо",
+                      "emoji": "🙏",
+                      "phonetic": "/spa-SEE-ba/",
+                      "translation": "gracias",
+                      "translations": {
+                          "ru": "спасибо",
+                          "es": "gracias",
                           "en": "thank you"
                       },
                       "examples": [
                           {
-                              "t": "<b>ありがとう</b>ございます。",
-                              "n": "Vielen Dank (formell)."
+                              "t": "<b>Спасибо</b> большое!",
+                              "n": "¡Muchas gracias!"
                           },
                           {
-                              "t": "ありがとう！",
-                              "n": "Danke! (informell)"
+                              "t": "Скажи <b>спасибо</b> бабушке.",
+                              "n": "Dale las gracias a la abuela."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g2_07",
+                      "id": "ru_a0_g4_v06",
                       "isLetter": false,
-                      "letter": "に",
-                      "word": "にほん",
-                      "emoji": "🇯🇵",
-                      "phonetic": "/ɲihoɴ/",
-                      "translation": "Japan – <b>にほん</b>",
+                      "letter": "П",
+                      "word": "пожалуйста",
+                      "emoji": "🙏",
+                      "phonetic": "/pa-ZHA-lus-ta/",
+                      "translation": "por favor / de nada",
                       "translations": {
-                          "ja": "にほん",
-                          "de": "Japan",
-                          "en": "Japan"
+                          "ru": "пожалуйста",
+                          "es": "por favor / de nada",
+                          "en": "please / you're welcome"
                       },
                       "examples": [
                           {
-                              "t": "<b>にほん</b>が好きです。",
-                              "n": "Ich mag Japan."
+                              "t": "Дай мне, <b>пожалуйста</b>, воду.",
+                              "n": "Dame agua, por favor."
                           },
                           {
-                              "t": "にほんに行きます。",
-                              "n": "Ich gehe nach Japan."
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "id": "ja_a0_g3",
-              "name": "Katakana — parte 1",
-              "icon": "🔠",
-              "color": "#10b981",
-              "description": "ア行 カ行 サ行 タ行 ナ行 — comparando con hiragana",
-              "reviewFrom": [
-                  "ja_a0_g1",
-                  "ja_a0_g2"
-              ],
-              "cards": [
-                  {
-                      "id": "ja_a0_g3_L_a",
-                      "isLetter": true,
-                      "letter": "ア",
-                      "word": "ア",
-                      "emoji": "🔤",
-                      "phonetic": "/a/",
-                      "translation": "ア = <b>a</b> (wie im Deutschen <i>Apfel</i>)<br>Hiragana: あ",
-                      "mnemonic": "Sieht aus wie ein umgedrehtes 'a' – einfach die obere Schleife wegdenken.",
-                      "examples": [
-                          {
-                              "t": "ア ist die Katakana-Form von <b>あ</b>.<br>Denk an <span class='hl'>Apfel</span> für den Laut.",
-                              "n": "ア ist wie あ, aber eckiger."
+                              "t": "– Спасибо! – <b>Пожалуйста</b>!",
+                              "n": "– ¡Gracias! – ¡De nada!"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g3_L_i",
-                      "isLetter": true,
-                      "letter": "イ",
-                      "word": "イ",
-                      "emoji": "🔤",
-                      "phonetic": "/i/",
-                      "translation": "イ = <b>i</b> (wie im Deutschen <i>Igel</i>)<br>Hiragana: い",
-                      "mnemonic": "Zwei Striche wie ein 'i' ohne Punkt – einfach die linke Linie als Punkt.",
-                      "examples": [
-                          {
-                              "t": "イ sieht aus wie ein <span class='hl'>I</span> ohne Punkt.<br>Denk an <i>Igel</i>.",
-                              "n": "イ ist wie い, aber mit geraden Linien."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_u",
-                      "isLetter": true,
-                      "letter": "ウ",
-                      "word": "ウ",
-                      "emoji": "🔤",
-                      "phonetic": "/u/",
-                      "translation": "ウ = <b>u</b> (wie im Deutschen <i>Uhr</i>)<br>Hiragana: う",
-                      "mnemonic": "Sieht aus wie ein umgedrehtes 'u' – der Haken ist oben.",
-                      "examples": [
-                          {
-                              "t": "ウ hat einen <span class='hl'>Haken</span> oben.<br>Denk an <i>Uhr</i>.",
-                              "n": "ウ ist wie う, aber mit scharfen Ecken."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_e",
-                      "isLetter": true,
-                      "letter": "エ",
-                      "word": "エ",
-                      "emoji": "🔤",
-                      "phonetic": "/e/",
-                      "translation": "エ = <b>e</b> (wie im Deutschen <i>Elefant</i>)<br>Hiragana: え",
-                      "mnemonic": "Sieht aus wie ein 'E' mit einem extra Strich – wie ein Regal.",
-                      "examples": [
-                          {
-                              "t": "エ sieht aus wie ein <span class='hl'>E</span> mit einem Strich.<br>Denk an <i>Elefant</i>.",
-                              "n": "エ ist wie え, aber mit geraden Linien."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_o",
-                      "isLetter": true,
-                      "letter": "オ",
-                      "word": "オ",
-                      "emoji": "🔤",
-                      "phonetic": "/o/",
-                      "translation": "オ = <b>o</b> (wie im Deutschen <i>Ohr</i>)<br>Hiragana: お",
-                      "mnemonic": "Sieht aus wie ein 'o' mit einem senkrechten Strich – wie ein Schlüssel.",
-                      "examples": [
-                          {
-                              "t": "オ hat einen <span class='hl'>Strich</span> durch.<br>Denk an <i>Ohr</i>.",
-                              "n": "オ ist wie お, aber ohne Schleife."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_ka",
-                      "isLetter": true,
-                      "letter": "カ",
-                      "word": "カ",
-                      "emoji": "🔤",
-                      "phonetic": "/ka/",
-                      "translation": "カ = <b>ka</b> (wie <i>Kaffee</i>)<br>Hiragana: か",
-                      "mnemonic": "Sieht aus wie ein 'k' mit einem Strich – wie ein umgedrehtes 'K'.",
-                      "examples": [
-                          {
-                              "t": "カ ist wie <b>か</b>, aber ohne den kleinen Kreis.<br>Denk an <span class='hl'>Kaffee</span>.",
-                              "n": "カ hat weniger Kurven als か."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_ki",
-                      "isLetter": true,
-                      "letter": "キ",
-                      "word": "キ",
-                      "emoji": "🔤",
-                      "phonetic": "/ki/",
-                      "translation": "キ = <b>ki</b> (wie <i>Kilo</i>)<br>Hiragana: き",
-                      "mnemonic": "Sieht aus wie ein 'k' mit einem langen Strich – wie ein Schlüssel.",
-                      "examples": [
-                          {
-                              "t": "キ hat zwei <span class='hl'>Kreuze</span>.<br>Denk an <i>Kilo</i>.",
-                              "n": "キ ist wie き, aber mit geraden Linien."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_ku",
-                      "isLetter": true,
-                      "letter": "ク",
-                      "word": "ク",
-                      "emoji": "🔤",
-                      "phonetic": "/ku/",
-                      "translation": "ク = <b>ku</b> (wie <i>Kuh</i>)<br>Hiragana: く",
-                      "mnemonic": "Sieht aus wie ein Winkel – wie ein 'v' mit einem Strich.",
-                      "examples": [
-                          {
-                              "t": "ク ist wie <b>く</b>, aber mit einem <span class='hl'>Haken</span>.<br>Denk an <i>Kuh</i>.",
-                              "n": "ク ist ähnlich zu く."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_ke",
-                      "isLetter": true,
-                      "letter": "ケ",
-                      "word": "ケ",
-                      "emoji": "🔤",
-                      "phonetic": "/ke/",
-                      "translation": "ケ = <b>ke</b> (wie <i>Keks</i>)<br>Hiragana: け",
-                      "mnemonic": "Sieht aus wie ein 'K' mit einem Strich – wie ein umgedrehtes 'K'.",
-                      "examples": [
-                          {
-                              "t": "ケ ist wie <b>け</b>, aber mit <span class='hl'>geraden Linien</span>.<br>Denk an <i>Keks</i>.",
-                              "n": "ケ hat weniger Kurven als け."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_ko",
-                      "isLetter": true,
-                      "letter": "コ",
-                      "word": "コ",
-                      "emoji": "🔤",
-                      "phonetic": "/ko/",
-                      "translation": "コ = <b>ko</b> (wie <i>Koffer</i>)<br>Hiragana: こ",
-                      "mnemonic": "Sieht aus wie ein umgedrehtes 'C' – wie ein Koffer.",
-                      "examples": [
-                          {
-                              "t": "コ ist wie <b>こ</b>, aber mit <span class='hl'>Ecken</span>.<br>Denk an <i>Koffer</i>.",
-                              "n": "コ ist ähnlich zu こ."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_sa",
-                      "isLetter": true,
-                      "letter": "サ",
-                      "word": "サ",
-                      "emoji": "🔤",
-                      "phonetic": "/sa/",
-                      "translation": "サ = <b>sa</b> (wie <i>Salat</i>)<br>Hiragana: さ",
-                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein schiefes Kreuz.",
-                      "examples": [
-                          {
-                              "t": "サ hat einen <span class='hl'>Strich</span> oben.<br>Denk an <i>Salat</i>.",
-                              "n": "サ ist wie さ, aber mit geraden Linien."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_shi",
-                      "isLetter": true,
-                      "letter": "シ",
-                      "word": "シ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɕi/",
-                      "translation": "シ = <b>shi</b> (wie <i>Schiff</i>)<br>Hiragana: し",
-                      "mnemonic": "Sieht aus wie ein 's' mit zwei Strichen – wie ein Schiff.",
-                      "examples": [
-                          {
-                              "t": "シ hat zwei <span class='hl'>Striche</span>.<br>Denk an <i>Schiff</i>.",
-                              "n": "シ ist wie し, aber mit zusätzlichen Strichen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_su",
-                      "isLetter": true,
-                      "letter": "ス",
-                      "word": "ス",
-                      "emoji": "🔤",
-                      "phonetic": "/su/",
-                      "translation": "ス = <b>su</b> (wie <i>Suppe</i>)<br>Hiragana: す",
-                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein Haken.",
-                      "examples": [
-                          {
-                              "t": "ス hat einen <span class='hl'>Haken</span>.<br>Denk an <i>Suppe</i>.",
-                              "n": "ス ist wie す, aber ohne Schleife."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_se",
-                      "isLetter": true,
-                      "letter": "セ",
-                      "word": "セ",
-                      "emoji": "🔤",
-                      "phonetic": "/se/",
-                      "translation": "セ = <b>se</b> (wie <i>See</i>)<br>Hiragana: せ",
-                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein Segel.",
-                      "examples": [
-                          {
-                              "t": "セ hat einen <span class='hl'>Strich</span> durch.<br>Denk an <i>See</i>.",
-                              "n": "セ ist wie せ, aber mit geraden Linien."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_so",
-                      "isLetter": true,
-                      "letter": "ソ",
-                      "word": "ソ",
-                      "emoji": "🔤",
-                      "phonetic": "/so/",
-                      "translation": "ソ = <b>so</b> (wie <i>Sonne</i>)<br>Hiragana: そ",
-                      "mnemonic": "Sieht aus wie ein 's' mit einem Strich – wie ein schiefes Kreuz.",
-                      "examples": [
-                          {
-                              "t": "ソ hat einen <span class='hl'>Strich</span> oben.<br>Denk an <i>Sonne</i>.",
-                              "n": "ソ ist wie そ, aber mit geraden Linien."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_ta",
-                      "isLetter": true,
-                      "letter": "タ",
-                      "word": "タ",
-                      "emoji": "🔤",
-                      "phonetic": "/ta/",
-                      "translation": "タ = <b>ta</b> (wie <i>Tasse</i>)<br>Hiragana: た",
-                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein Tisch.",
-                      "examples": [
-                          {
-                              "t": "タ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Tasse</i>.",
-                              "n": "タ ist wie た, aber ohne Schleifen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_chi",
-                      "isLetter": true,
-                      "letter": "チ",
-                      "word": "チ",
-                      "emoji": "🔤",
-                      "phonetic": "/tɕi/",
-                      "translation": "チ = <b>chi</b> (wie <i>China</i>)<br>Hiragana: ち",
-                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein umgedrehtes 't'.",
-                      "examples": [
-                          {
-                              "t": "チ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>China</i>.",
-                              "n": "チ ist wie ち, aber mit geraden Linien."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_tsu",
-                      "isLetter": true,
-                      "letter": "ツ",
-                      "word": "ツ",
-                      "emoji": "🔤",
-                      "phonetic": "/tsu/",
-                      "translation": "ツ = <b>tsu</b> (wie <i>Zug</i>)<br>Hiragana: つ",
-                      "mnemonic": "Sieht aus wie ein 't' mit zwei Strichen – wie ein Zug.",
-                      "examples": [
-                          {
-                              "t": "ツ hat zwei <span class='hl'>Striche</span>.<br>Denk an <i>Zug</i>.",
-                              "n": "ツ ist wie つ, aber mit zusätzlichen Strichen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_te",
-                      "isLetter": true,
-                      "letter": "テ",
-                      "word": "テ",
-                      "emoji": "🔤",
-                      "phonetic": "/te/",
-                      "translation": "テ = <b>te</b> (wie <i>Teppich</i>)<br>Hiragana: て",
-                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein T-Stück.",
-                      "examples": [
-                          {
-                              "t": "テ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Teppich</i>.",
-                              "n": "テ ist wie て, aber mit geraden Linien."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_to",
-                      "isLetter": true,
-                      "letter": "ト",
-                      "word": "ト",
-                      "emoji": "🔤",
-                      "phonetic": "/to/",
-                      "translation": "ト = <b>to</b> (wie <i>Tor</i>)<br>Hiragana: と",
-                      "mnemonic": "Sieht aus wie ein 't' mit einem Strich – wie ein Tor.",
-                      "examples": [
-                          {
-                              "t": "ト hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Tor</i>.",
-                              "n": "ト ist wie と, aber mit geraden Linien."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_na",
-                      "isLetter": true,
-                      "letter": "ナ",
-                      "word": "ナ",
-                      "emoji": "🔤",
-                      "phonetic": "/na/",
-                      "translation": "ナ = <b>na</b> (wie <i>Nase</i>)<br>Hiragana: な",
-                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie eine Nase.",
-                      "examples": [
-                          {
-                              "t": "ナ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Nase</i>.",
-                              "n": "ナ ist wie な, aber ohne Schleife."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_ni",
-                      "isLetter": true,
-                      "letter": "ニ",
-                      "word": "ニ",
-                      "emoji": "🔤",
-                      "phonetic": "/ni/",
-                      "translation": "ニ = <b>ni</b> (wie <i>Nil</i>)<br>Hiragana: に",
-                      "mnemonic": "Zwei Striche – wie ein 'n' mit zwei Strichen.",
-                      "examples": [
-                          {
-                              "t": "ニ hat zwei <span class='hl'>Striche</span>.<br>Denk an <i>Nil</i>.",
-                              "n": "ニ ist wie に, aber ohne Kurven."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_nu",
-                      "isLetter": true,
-                      "letter": "ヌ",
-                      "word": "ヌ",
-                      "emoji": "🔤",
-                      "phonetic": "/nu/",
-                      "translation": "ヌ = <b>nu</b> (wie <i>Null</i>)<br>Hiragana: ぬ",
-                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie ein Haken.",
-                      "examples": [
-                          {
-                              "t": "ヌ hat einen <span class='hl'>Haken</span>.<br>Denk an <i>Null</i>.",
-                              "n": "ヌ ist wie ぬ, aber ohne Schleife."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_ne",
-                      "isLetter": true,
-                      "letter": "ネ",
-                      "word": "ネ",
-                      "emoji": "🔤",
-                      "phonetic": "/ne/",
-                      "translation": "ネ = <b>ne</b> (wie <i>Nest</i>)<br>Hiragana: ね",
-                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie ein Nest.",
-                      "examples": [
-                          {
-                              "t": "ネ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Nest</i>.",
-                              "n": "ネ ist wie ね, aber mit geraden Linien."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_L_no",
-                      "isLetter": true,
-                      "letter": "ノ",
-                      "word": "ノ",
-                      "emoji": "🔤",
-                      "phonetic": "/no/",
-                      "translation": "ノ = <b>no</b> (wie <i>Nord</i>)<br>Hiragana: の",
-                      "mnemonic": "Sieht aus wie ein 'n' mit einem Strich – wie ein Haken.",
-                      "examples": [
-                          {
-                              "t": "ノ hat einen <span class='hl'>Strich</span>.<br>Denk an <i>Nord</i>.",
-                              "n": "ノ ist wie の, aber ohne Kreis."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g3_01",
+                      "id": "ru_a0_g4_v07",
                       "isLetter": false,
-                      "letter": "コ",
-                      "word": "コーヒー",
-                      "emoji": "☕",
-                      "phonetic": "/koːçiː/",
-                      "translation": "Kaffee – <b>コーヒー</b> (koohii), mit langem Vokal ー",
+                      "letter": "К",
+                      "word": "как дела?",
+                      "emoji": "❓",
+                      "phonetic": "/kak de-LA/",
+                      "translation": "¿cómo estás?",
                       "translations": {
-                          "ja": "コーヒー",
-                          "de": "Kaffee",
-                          "en": "coffee"
+                          "ru": "как дела?",
+                          "es": "¿cómo estás?",
+                          "en": "how are you?"
                       },
                       "examples": [
                           {
-                              "t": "コーヒーを飲みます。<br><b>コーヒー</b> ist ein Lehnwort.",
-                              "n": "Ich trinke Kaffee."
+                              "t": "<b>Как дела</b>?",
+                              "n": "¿Cómo estás?"
                           },
                           {
-                              "t": "このコーヒーはおいしいです。<br>Denk an <span class='hl'>Kaffee</span>.",
-                              "n": "Dieser Kaffee ist lecker."
+                              "t": "Привет, <b>как дела</b>?",
+                              "n": "Hola, ¿cómo estás?"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g3_02",
+                      "id": "ru_a0_g4_v08",
                       "isLetter": false,
-                      "letter": "テ",
-                      "word": "テレビ",
-                      "emoji": "📺",
-                      "phonetic": "/teɾeβi/",
-                      "translation": "Fernseher – <b>テレビ</b> (terebi), von <i>television</i>",
+                      "letter": "Х",
+                      "word": "хорошо",
+                      "emoji": "😊",
+                      "phonetic": "/ha-ra-SHO/",
+                      "translation": "bien",
                       "translations": {
-                          "ja": "テレビ",
-                          "de": "Fernseher",
-                          "en": "TV"
+                          "ru": "хорошо",
+                          "es": "bien",
+                          "en": "well, good"
                       },
                       "examples": [
                           {
-                              "t": "テレビを見ます。<br><b>テレビ</b> ist ein Lehnwort.",
-                              "n": "Ich schaue fern."
+                              "t": "Я чувствую себя <b>хорошо</b>.",
+                              "n": "Me siento bien."
                           },
                           {
-                              "t": "新しいテレビを買いました。<br>Denk an <span class='hl'>TV</span>.",
-                              "n": "Ich habe einen neuen Fernseher gekauft."
+                              "t": "Всё <b>хорошо</b>!",
+                              "n": "¡Todo está bien!"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g3_03",
+                      "id": "ru_a0_g4_v09",
                       "isLetter": false,
-                      "letter": "ア",
-                      "word": "アイスクリーム",
-                      "emoji": "🍦",
-                      "phonetic": "/aisɯkɯɾiːmɯ/",
-                      "translation": "Eiscreme – <b>アイスクリーム</b> (aisukuriimu), von <i>ice cream</i>",
+                      "letter": "Я",
+                      "word": "я",
+                      "emoji": "🙋",
+                      "phonetic": "/ya/",
+                      "translation": "yo",
                       "translations": {
-                          "ja": "アイスクリーム",
-                          "de": "Eiscreme",
-                          "en": "ice cream"
+                          "ru": "я",
+                          "es": "yo",
+                          "en": "I"
                       },
                       "examples": [
                           {
-                              "t": "アイスクリームが好きです。<br><b>アイスクリーム</b> ist ein Lehnwort.",
-                              "n": "Ich mag Eiscreme."
+                              "t": "<b>Я</b> студент.",
+                              "n": "Soy estudiante."
                           },
                           {
-                              "t": "夏はアイスクリームを食べます。<br>Denk an <span class='hl'>Eis</span>.",
-                              "n": "Im Sommer esse ich Eiscreme."
+                              "t": "<b>Я</b> люблю тебя.",
+                              "n": "Te quiero."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g3_04",
+                      "id": "ru_a0_g4_v10",
                       "isLetter": false,
-                      "letter": "タ",
-                      "word": "タクシー",
-                      "emoji": "🚕",
-                      "phonetic": "/takɯɕiː/",
-                      "translation": "Taxi – <b>タクシー</b> (takushii), von <i>taxi</i>",
+                      "letter": "Т",
+                      "word": "ты",
+                      "emoji": "👉",
+                      "phonetic": "/ty/",
+                      "translation": "tú",
                       "translations": {
-                          "ja": "タクシー",
-                          "de": "Taxi",
-                          "en": "taxi"
+                          "ru": "ты",
+                          "es": "tú",
+                          "en": "you (singular)"
                       },
                       "examples": [
                           {
-                              "t": "タクシーで行きます。<br><b>タクシー</b> ist ein Lehnwort.",
-                              "n": "Ich fahre mit dem Taxi."
+                              "t": "<b>Ты</b> мой друг.",
+                              "n": "Tú eres mi amigo."
                           },
                           {
-                              "t": "タクシーを呼びました。<br>Denk an <span class='hl'>Taxi</span>.",
-                              "n": "Ich habe ein Taxi gerufen."
+                              "t": "Как <b>ты</b>?",
+                              "n": "¿Cómo estás?"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g3_05",
+                      "id": "ru_a0_g4_v11",
                       "isLetter": false,
-                      "letter": "ニ",
-                      "word": "ニュース",
-                      "emoji": "📰",
-                      "phonetic": "/nʲɯːsɯ/",
-                      "translation": "Nachrichten – <b>ニュース</b> (nyuusu), von <i>news</i>",
+                      "letter": "О",
+                      "word": "он",
+                      "emoji": "👨",
+                      "phonetic": "/on/",
+                      "translation": "él",
                       "translations": {
-                          "ja": "ニュース",
-                          "de": "Nachrichten",
-                          "en": "news"
+                          "ru": "он",
+                          "es": "él",
+                          "en": "he"
                       },
                       "examples": [
                           {
-                              "t": "ニュースを見ます。<br><b>ニュース</b> ist ein Lehnwort.",
-                              "n": "Ich schaue die Nachrichten."
+                              "t": "<b>Он</b> дома.",
+                              "n": "Él está en casa."
                           },
                           {
-                              "t": "今日のニュースは何ですか。<br>Denk an <span class='hl'>News</span>.",
-                              "n": "Was sind die heutigen Nachrichten?"
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "id": "ja_a0_g4",
-              "name": "Katakana — parte 2",
-              "icon": "🔣",
-              "color": "#ef4444",
-              "description": "ハ行 マ行 ヤ行 ラ行 ワ行 + préstamos",
-              "reviewFrom": [
-                  "ja_a0_g1",
-                  "ja_a0_g2",
-                  "ja_a0_g3"
-              ],
-              "cards": [
-                  {
-                      "id": "ja_a0_g4_L_ha",
-                      "isLetter": true,
-                      "letter": "ハ",
-                      "word": "ハ",
-                      "emoji": "🔤",
-                      "phonetic": "/ha/",
-                      "translation": "Laut <b>ha</b> – wie <i>„haha“</i> im Deutschen.",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Hut</span> ohne Hutständer – der Laut ist ‚ha‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ハ</b> ist der erste Laut in <i>ハワイ</i> (Hawaii).",
-                              "n": "Hawaii"
-                          },
-                          {
-                              "t": "Denk an <b>ハ</b> wie ein <span class=\"hl\">Haus</span> ohne Dach.",
-                              "n": "Haus-Dach-Mnemonic"
+                              "t": "<b>Он</b> говорит по-русски.",
+                              "n": "Él habla ruso."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g4_L_hi",
-                      "isLetter": true,
-                      "letter": "ヒ",
-                      "word": "ヒ",
-                      "emoji": "🔤",
-                      "phonetic": "/çi/",
-                      "translation": "Laut <b>hi</b> – wie <i>„hi“</i> auf Englisch.",
-                      "mnemonic": "Ein <span class=\"hl\">Hügel</span> mit einem Weg – ‚hi‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ヒ</b> kommt in <i>ヒーター</i> (Heater) vor.",
-                              "n": "Heizung"
-                          },
-                          {
-                              "t": "Form ähnlich einem <span class=\"hl\">Hügel</span> mit einer Linie.",
-                              "n": "Hügel-Mnemonic"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_fu",
-                      "isLetter": true,
-                      "letter": "フ",
-                      "word": "フ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɸɯ/",
-                      "translation": "Laut <b>fu</b> – wie ein <i>„fu“</i> mit gehauchtem f.",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Finger</span>, der nach oben zeigt – ‚fu‘.",
-                      "examples": [
-                          {
-                              "t": "<b>フ</b> ist in <i>フランス</i> (Frankreich).",
-                              "n": "Frankreich"
-                          },
-                          {
-                              "t": "Ein <span class=\"hl\">Fächer</span> geöffnet – ‚fu‘.",
-                              "n": "Fächer-Mnemonic"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_he",
-                      "isLetter": true,
-                      "letter": "ヘ",
-                      "word": "ヘ",
-                      "emoji": "🔤",
-                      "phonetic": "/he/",
-                      "translation": "Laut <b>he</b> – wie <i>„he“</i> im Deutschen.",
-                      "mnemonic": "Ein <span class=\"hl\">Held</span> mit Umhang – ‚he‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ヘ</b> sieht aus wie ein <span class=\"hl\">Dach</span> ohne Haus.",
-                              "n": "Dach-Form"
-                          },
-                          {
-                              "t": "In <i>ヘリコプター</i> (Helikopter) steckt <b>ヘ</b>.",
-                              "n": "Helikopter"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_ho",
-                      "isLetter": true,
-                      "letter": "ホ",
-                      "word": "ホ",
-                      "emoji": "🔤",
-                      "phonetic": "/ho/",
-                      "translation": "Laut <b>ho</b> – wie <i>„ho“</i> in „hoch“.",
-                      "mnemonic": "Ein <span class=\"hl\">Haus</span> mit zwei Fenstern – ‚ho‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ホ</b> ist in <i>ホテル</i> (Hotel).",
-                              "n": "Hotel"
-                          },
-                          {
-                              "t": "Denk an ein <span class=\"hl\">Haus</span> mit Türen – ‚ho‘.",
-                              "n": "Haus-Mnemonic"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_ma",
-                      "isLetter": true,
-                      "letter": "マ",
-                      "word": "マ",
-                      "emoji": "🔤",
-                      "phonetic": "/ma/",
-                      "translation": "Laut <b>ma</b> – wie <i>„ma“</i> in „Mama“.",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Mund</span> mit einem Strich – ‚ma‘.",
-                      "examples": [
-                          {
-                              "t": "<b>マ</b> ist in <i>マンゴー</i> (Mango).",
-                              "n": "Mango"
-                          },
-                          {
-                              "t": "Zwei Striche wie ein <span class=\"hl\">Mund</span> – ‚ma‘.",
-                              "n": "Mund-Mnemonic"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_mi",
-                      "isLetter": true,
-                      "letter": "ミ",
-                      "word": "ミ",
-                      "emoji": "🔤",
-                      "phonetic": "/mi/",
-                      "translation": "Laut <b>mi</b> – wie <i>„mi“</i> in „Mitte“.",
-                      "mnemonic": "Drei Striche wie ein <span class=\"hl\">Mikrofon</span> – ‚mi‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ミ</b> ist in <i>ミルク</i> (Milch).",
-                              "n": "Milch"
-                          },
-                          {
-                              "t": "Drei Linien wie ein <span class=\"hl\">Mikrofon</span> – ‚mi‘.",
-                              "n": "Mikrofon-Mnemonic"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_mu",
-                      "isLetter": true,
-                      "letter": "ム",
-                      "word": "ム",
-                      "emoji": "🔤",
-                      "phonetic": "/mɯ/",
-                      "translation": "Laut <b>mu</b> – wie <i>„mu“</i> in „Muh“ (Kuh).",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Kuhhorn</span> – ‚mu‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ム</b> ist in <i>ムーン</i> (Mond) – aber auf Japanisch oft <i>ムーン</i>.",
-                              "n": "Mond"
-                          },
-                          {
-                              "t": "Ein <span class=\"hl\">Mund</span> offen – ‚mu‘.",
-                              "n": "Mund-Mnemonic"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_me",
-                      "isLetter": true,
-                      "letter": "メ",
-                      "word": "メ",
-                      "emoji": "🔤",
-                      "phonetic": "/me/",
-                      "translation": "Laut <b>me</b> – wie <i>„me“</i> in „Meer“.",
-                      "mnemonic": "Ein <span class=\"hl\">Meer</span> mit einer Welle – ‚me‘.",
-                      "examples": [
-                          {
-                              "t": "<b>メ</b> ist in <i>メール</i> (E-Mail).",
-                              "n": "E-Mail"
-                          },
-                          {
-                              "t": "Form wie ein <span class=\"hl\">Messer</span> – ‚me‘.",
-                              "n": "Messer-Mnemonic"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_mo",
-                      "isLetter": true,
-                      "letter": "モ",
-                      "word": "モ",
-                      "emoji": "🔤",
-                      "phonetic": "/mo/",
-                      "translation": "Laut <b>mo</b> – wie <i>„mo“</i> in „Motor“.",
-                      "mnemonic": "Ein <span class=\"hl\">Motor</span> mit einem Strich – ‚mo‘.",
-                      "examples": [
-                          {
-                              "t": "<b>モ</b> ist in <i>モデル</i> (Model).",
-                              "n": "Model"
-                          },
-                          {
-                              "t": "Sieht aus wie ein <span class=\"hl\">Mond</span> mit einem Strich – ‚mo‘.",
-                              "n": "Mond-Mnemonic"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_ya",
-                      "isLetter": true,
-                      "letter": "ヤ",
-                      "word": "ヤ",
-                      "emoji": "🔤",
-                      "phonetic": "/ja/",
-                      "translation": "Laut <b>ya</b> – wie <i>„ja“</i> auf Deutsch.",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">Y</span> mit einem Arm – ‚ya‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ヤ</b> ist in <i>ヤクルト</i> (Yakult).",
-                              "n": "Yakult"
-                          },
-                          {
-                              "t": "Denk an <span class=\"hl\">Y</span> – ‚ya‘.",
-                              "n": "Y-Form"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_yu",
-                      "isLetter": true,
-                      "letter": "ユ",
-                      "word": "ユ",
-                      "emoji": "🔤",
-                      "phonetic": "/jɯ/",
-                      "translation": "Laut <b>yu</b> – wie <i>„ju“</i> in „jung“.",
-                      "mnemonic": "Ein <span class=\"hl\">U</span> mit einem Strich – ‚yu‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ユ</b> ist in <i>ユーロ</i> (Euro).",
-                              "n": "Euro"
-                          },
-                          {
-                              "t": "Ein <span class=\"hl\">U</span> mit Dach – ‚yu‘.",
-                              "n": "U-Form"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_yo",
-                      "isLetter": true,
-                      "letter": "ヨ",
-                      "word": "ヨ",
-                      "emoji": "🔤",
-                      "phonetic": "/jo/",
-                      "translation": "Laut <b>yo</b> – wie <i>„jo“</i> in „Joghurt“.",
-                      "mnemonic": "Drei Striche wie ein <span class=\"hl\">Y</span> – ‚yo‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ヨ</b> ist in <i>ヨガ</i> (Yoga).",
-                              "n": "Yoga"
-                          },
-                          {
-                              "t": "Horizontal wie ein <span class=\"hl\">Y</span> – ‚yo‘.",
-                              "n": "Y-Form"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_ra",
-                      "isLetter": true,
-                      "letter": "ラ",
-                      "word": "ラ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾa/",
-                      "translation": "Laut <b>ra</b> – wie ein <i>„ra“</i> mit leichtem Zungenschlag.",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">R</span> mit einem Strich – ‚ra‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ラ</b> ist in <i>ラジオ</i> (Radio).",
-                              "n": "Radio"
-                          },
-                          {
-                              "t": "Ein <span class=\"hl\">R</span> mit Dach – ‚ra‘.",
-                              "n": "R-Form"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_ri",
-                      "isLetter": true,
-                      "letter": "リ",
-                      "word": "リ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾi/",
-                      "translation": "Laut <b>ri</b> – wie <i>„ri“</i> in „Ritze“.",
-                      "mnemonic": "Zwei Striche wie <span class=\"hl\">Reisstäbchen</span> – ‚ri‘.",
-                      "examples": [
-                          {
-                              "t": "<b>リ</b> ist in <i>リンゴ</i> (Apfel) – aber meist Kanji.",
-                              "n": "Apfel"
-                          },
-                          {
-                              "t": "Zwei Striche wie ein <span class=\"hl\">Riss</span> – ‚ri‘.",
-                              "n": "Riss-Mnemonic"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_ru",
-                      "isLetter": true,
-                      "letter": "ル",
-                      "word": "ル",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾɯ/",
-                      "translation": "Laut <b>ru</b> – wie <i>„ru“</i> in „Ruf“.",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">R</span> mit einer Schleife – ‚ru‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ル</b> ist in <i>ルーム</i> (Raum).",
-                              "n": "Raum"
-                          },
-                          {
-                              "t": "Ein <span class=\"hl\">R</span> mit Haken – ‚ru‘.",
-                              "n": "R-Form"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_re",
-                      "isLetter": true,
-                      "letter": "レ",
-                      "word": "レ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾe/",
-                      "translation": "Laut <b>re</b> – wie <i>„re“</i> in „Regen“.",
-                      "mnemonic": "Ein <span class=\"hl\">Regen</span>tropfen mit Strich – ‚re‘.",
-                      "examples": [
-                          {
-                              "t": "<b>レ</b> ist in <i>レモン</i> (Zitrone).",
-                              "n": "Zitrone"
-                          },
-                          {
-                              "t": "Ein <span class=\"hl\">R</span> mit einem Strich – ‚re‘.",
-                              "n": "R-Form"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_ro",
-                      "isLetter": true,
-                      "letter": "ロ",
-                      "word": "ロ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾo/",
-                      "translation": "Laut <b>ro</b> – wie <i>„ro“</i> in „rot“.",
-                      "mnemonic": "Ein <span class=\"hl\">Quadrat</span> wie ein Fenster – ‚ro‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ロ</b> ist in <i>ロボット</i> (Roboter).",
-                              "n": "Roboter"
-                          },
-                          {
-                              "t": "Ein <span class=\"hl\">Quadrat</span> – ‚ro‘.",
-                              "n": "Quadrat-Form"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_wa",
-                      "isLetter": true,
-                      "letter": "ワ",
-                      "word": "ワ",
-                      "emoji": "🔤",
-                      "phonetic": "/wa/",
-                      "translation": "Laut <b>wa</b> – wie <i>„wa“</i> in „Wasser“.",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">W</span> mit einem Strich – ‚wa‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ワ</b> ist in <i>ワイン</i> (Wein).",
-                              "n": "Wein"
-                          },
-                          {
-                              "t": "Ein <span class=\"hl\">W</span> – ‚wa‘.",
-                              "n": "W-Form"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_wo",
-                      "isLetter": true,
-                      "letter": "ヲ",
-                      "word": "ヲ",
-                      "emoji": "🔤",
-                      "phonetic": "/o/ (historisch /wo/)",
-                      "translation": "Laut <b>o</b> (wird wie <i>o</i> ausgesprochen) – Partikel.",
-                      "mnemonic": "Sieht aus wie ein <span class=\"hl\">W</span> mit einem Haken – ‚wo‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ヲ</b> wird meist als Partikel geschrieben, aber Laut ist <i>o</i>.",
-                              "n": "Partikel"
-                          },
-                          {
-                              "t": "Form wie ein <span class=\"hl\">W</span> mit Arm – ‚wo‘.",
-                              "n": "W-Form"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_n",
-                      "isLetter": true,
-                      "letter": "ン",
-                      "word": "ン",
-                      "emoji": "🔤",
-                      "phonetic": "/ɴ/ (nasal)",
-                      "translation": "Nasallaut <b>n</b> – wie <i>„n“</i> in „lang“.",
-                      "mnemonic": "Ein <span class=\"hl\">N</span> mit einem Strich – ‚n‘.",
-                      "examples": [
-                          {
-                              "t": "<b>ン</b> ist in <i>パン</i> (Brot).",
-                              "n": "Brot"
-                          },
-                          {
-                              "t": "Denk an <span class=\"hl\">N</span> – ‚n‘.",
-                              "n": "N-Form"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_L_long_vowel",
-                      "isLetter": true,
-                      "letter": "ー",
-                      "word": "ー",
-                      "emoji": "🔤",
-                      "phonetic": "/ː/ (Längung)",
-                      "translation": "Längungszeichen – verlängert den Vokal davor.",
-                      "mnemonic": "Ein <span class=\"hl\">Strich</span> wie ein langes Band – ‚verlängern‘.",
-                      "examples": [
-                          {
-                              "t": "In <i>コーヒー</i> (Kaffee) verlängert <b>ー</b> das <i>o</i> und <i>i</i>.",
-                              "n": "Kaffee"
-                          },
-                          {
-                              "t": "Es ist kein Buchstabe, sondern ein <span class=\"hl\">Dehnungszeichen</span>.",
-                              "n": "Dehnung"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g4_01",
+                      "id": "ru_a0_g4_v12",
                       "isLetter": false,
-                      "letter": "ホ",
-                      "word": "ホテル",
-                      "emoji": "🏨",
-                      "phonetic": "/hoteru/",
-                      "translation": "Hotel",
+                      "letter": "О",
+                      "word": "она",
+                      "emoji": "👩",
+                      "phonetic": "/a-NA/",
+                      "translation": "ella",
                       "translations": {
-                          "ja": "ホテル",
-                          "de": "Hotel",
-                          "en": "hotel"
+                          "ru": "она",
+                          "es": "ella",
+                          "en": "she"
                       },
                       "examples": [
                           {
-                              "t": "この<b>ホテル</b>は大きいです。",
-                              "n": "Dieses Hotel ist groß."
+                              "t": "<b>Она</b> здесь.",
+                              "n": "Ella está aquí."
                           },
                           {
-                              "t": "<b>ホテル</b>で朝ごはんを食べます。",
-                              "n": "Ich esse Frühstück im Hotel."
+                              "t": "<b>Она</b> красивая.",
+                              "n": "Ella es bonita."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g4_02",
+                      "id": "ru_a0_g4_v13",
                       "isLetter": false,
-                      "letter": "レ",
-                      "word": "レストラン",
-                      "emoji": "🍽️",
-                      "phonetic": "/resutoran/",
-                      "translation": "Restaurant",
+                      "letter": "М",
+                      "word": "мы",
+                      "emoji": "👥",
+                      "phonetic": "/my/",
+                      "translation": "nosotros",
                       "translations": {
-                          "ja": "レストラン",
-                          "de": "Restaurant",
-                          "en": "restaurant"
+                          "ru": "мы",
+                          "es": "nosotros",
+                          "en": "we"
                       },
                       "examples": [
                           {
-                              "t": "あの<b>レストラン</b>はおいしいです。",
-                              "n": "Dieses Restaurant ist lecker."
+                              "t": "<b>Мы</b> вместе.",
+                              "n": "Estamos juntos."
                           },
                           {
-                              "t": "<b>レストラン</b>で昼ごはんを食べます。",
-                              "n": "Ich esse Mittag im Restaurant."
+                              "t": "<b>Мы</b> из России.",
+                              "n": "Somos de Rusia."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g4_03",
+                      "id": "ru_a0_g4_v14",
                       "isLetter": false,
-                      "letter": "パ",
-                      "word": "パスポート",
-                      "emoji": "🛂",
-                      "phonetic": "/pasupoːto/",
-                      "translation": "Reisepass",
+                      "letter": "Ч",
+                      "word": "что",
+                      "emoji": "❓",
+                      "phonetic": "/shto/",
+                      "translation": "qué",
                       "translations": {
-                          "ja": "パスポート",
-                          "de": "Reisepass",
-                          "en": "passport"
+                          "ru": "что",
+                          "es": "qué",
+                          "en": "what"
                       },
                       "examples": [
                           {
-                              "t": "<b>パスポート</b>を忘れました。",
-                              "n": "Ich habe meinen Pass vergessen."
+                              "t": "<b>Что</b> это?",
+                              "n": "¿Qué es esto?"
                           },
                           {
-                              "t": "<b>パスポート</b>を見せてください。",
-                              "n": "Zeigen Sie mir bitte Ihren Pass."
+                              "t": "<b>Что</b> ты делаешь?",
+                              "n": "¿Qué haces?"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g4_04",
+                      "id": "ru_a0_g4_v15",
                       "isLetter": false,
-                      "letter": "ス",
-                      "word": "スマートフォン",
-                      "emoji": "📱",
-                      "phonetic": "/sumaːtofon/",
-                      "translation": "Smartphone",
+                      "letter": "Г",
+                      "word": "где",
+                      "emoji": "📍",
+                      "phonetic": "/gdye/",
+                      "translation": "dónde",
                       "translations": {
-                          "ja": "スマートフォン",
-                          "de": "Smartphone",
-                          "en": "smartphone"
+                          "ru": "где",
+                          "es": "dónde",
+                          "en": "where"
                       },
                       "examples": [
                           {
-                              "t": "<b>スマートフォン</b>を買いました。",
-                              "n": "Ich habe ein Smartphone gekauft."
+                              "t": "<b>Где</b> туалет?",
+                              "n": "¿Dónde está el baño?"
                           },
                           {
-                              "t": "<b>スマートフォン</b>で写真を撮ります。",
-                              "n": "Ich mache Fotos mit dem Smartphone."
+                              "t": "<b>Где</b> ты?",
+                              "n": "¿Dónde estás?"
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g4_05",
+                      "id": "ru_a0_g4_v16",
                       "isLetter": false,
-                      "letter": "コ",
-                      "word": "コンピューター",
-                      "emoji": "💻",
-                      "phonetic": "/konpjuːtaː/",
-                      "translation": "Computer",
+                      "letter": "З",
+                      "word": "здесь",
+                      "emoji": "👉",
+                      "phonetic": "/zdyes/",
+                      "translation": "aquí",
                       "translations": {
-                          "ja": "コンピューター",
-                          "de": "Computer",
-                          "en": "computer"
+                          "ru": "здесь",
+                          "es": "aquí",
+                          "en": "here"
                       },
                       "examples": [
                           {
-                              "t": "<b>コンピューター</b>で仕事をします。",
-                              "n": "Ich arbeite am Computer."
+                              "t": "Я <b>здесь</b>.",
+                              "n": "Estoy aquí."
                           },
                           {
-                              "t": "新しい<b>コンピューター</b>が欲しいです。",
-                              "n": "Ich möchte einen neuen Computer."
+                              "t": "<b>Здесь</b> хорошо.",
+                              "n": "Aquí se está bien."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g4_06",
+                      "id": "ru_a0_g4_v17",
                       "isLetter": false,
-                      "letter": "バ",
-                      "word": "バス",
-                      "emoji": "🚌",
-                      "phonetic": "/basu/",
-                      "translation": "Bus",
+                      "letter": "Т",
+                      "word": "там",
+                      "emoji": "👉",
+                      "phonetic": "/tam/",
+                      "translation": "allí",
                       "translations": {
-                          "ja": "バス",
-                          "de": "Bus",
-                          "en": "bus"
+                          "ru": "там",
+                          "es": "allí",
+                          "en": "there"
                       },
                       "examples": [
                           {
-                              "t": "<b>バス</b>で学校に行きます。",
-                              "n": "Ich fahre mit dem Bus zur Schule."
+                              "t": "Он <b>там</b>.",
+                              "n": "Él está allí."
                           },
                           {
-                              "t": "次の<b>バス</b>は何時ですか。",
-                              "n": "Wann fährt der nächste Bus?"
+                              "t": "<b>Там</b> метро.",
+                              "n": "Allí hay metro."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g4_07",
+                      "id": "ru_a0_g4_v18",
                       "isLetter": false,
-                      "letter": "ビ",
-                      "word": "ビール",
-                      "emoji": "🍺",
-                      "phonetic": "/biːru/",
-                      "translation": "Bier",
+                      "letter": "Э",
+                      "word": "это",
+                      "emoji": "👉",
+                      "phonetic": "/EH-ta/",
+                      "translation": "esto / este",
                       "translations": {
-                          "ja": "ビール",
-                          "de": "Bier",
-                          "en": "beer"
+                          "ru": "это",
+                          "es": "esto / este",
+                          "en": "this"
                       },
                       "examples": [
                           {
-                              "t": "<b>ビール</b>を一杯ください。",
-                              "n": "Ein Bier bitte."
+                              "t": "<b>Это</b> книга.",
+                              "n": "Esto es un libro."
                           },
                           {
-                              "t": "私は<b>ビール</b>が好きです。",
-                              "n": "Ich mag Bier."
+                              "t": "<b>Это</b> мой друг.",
+                              "n": "Este es mi amigo."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g4_08",
+                      "id": "ru_a0_g4_v19",
                       "isLetter": false,
-                      "letter": "チ",
-                      "word": "チョコレート",
-                      "emoji": "🍫",
-                      "phonetic": "/chokoreːto/",
-                      "translation": "Schokolade",
+                      "letter": "И",
+                      "word": "и",
+                      "emoji": "🔗",
+                      "phonetic": "/ee/",
+                      "translation": "y",
                       "translations": {
-                          "ja": "チョコレート",
-                          "de": "Schokolade",
-                          "en": "chocolate"
+                          "ru": "и",
+                          "es": "y",
+                          "en": "and"
                       },
                       "examples": [
                           {
-                              "t": "<b>チョコレート</b>を食べます。",
-                              "n": "Ich esse Schokolade."
+                              "t": "Я <b>и</b> ты.",
+                              "n": "Yo y tú."
                           },
                           {
-                              "t": "この<b>チョコレート</b>は甘いです。",
-                              "n": "Diese Schokolade ist süß."
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "id": "ja_a0_g5",
-              "name": "Primeros Kanji",
-              "icon": "漢",
-              "color": "#8b5cf6",
-              "description": "日 月 火 水 木 金 土 + números + personas",
-              "reviewFrom": [
-                  "ja_a0_g1",
-                  "ja_a0_g2",
-                  "ja_a0_g3",
-                  "ja_a0_g4"
-              ],
-              "cards": [
-                  {
-                      "id": "ja_a0_g5_L_ichi",
-                      "isLetter": true,
-                      "letter": "一",
-                      "word": "一",
-                      "emoji": "1️⃣",
-                      "phonetic": "/ichi/",
-                      "translation": "Eins — <b>一</b> ist ein einzelner horizontaler Strich. <i>ON: ichi</i>",
-                      "mnemonic": "Ein Strich = eine Eins.",
-                      "examples": [
-                          {
-                              "t": "<b>一</b> = ein Strich, wie eine liegende 1.",
-                              "n": "So bleibt es im Gedächtnis."
-                          },
-                          {
-                              "t": "ichi, ni, san…",
-                              "n": "Eins, zwei, drei…"
+                              "t": "Мама <b>и</b> папа.",
+                              "n": "Mamá y papá."
                           }
                       ]
                   },
                   {
-                      "id": "ja_a0_g5_L_ni",
-                      "isLetter": true,
-                      "letter": "二",
-                      "word": "二",
-                      "emoji": "2️⃣",
-                      "phonetic": "/ni/",
-                      "translation": "Zwei — <b>二</b> sind zwei parallele Striche. <i>ON: ni</i>",
-                      "mnemonic": "Zwei Striche = Zwei.",
-                      "examples": [
-                          {
-                              "t": "<b>二</b> sieht aus wie zwei nebeneinanderliegende Streichhölzer.",
-                              "n": "Merkhilfe."
-                          },
-                          {
-                              "t": "ni = 2",
-                              "n": "Kurz und einfach."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_san",
-                      "isLetter": true,
-                      "letter": "三",
-                      "word": "三",
-                      "emoji": "3️⃣",
-                      "phonetic": "/san/",
-                      "translation": "Drei — <b>三</b> hat drei Striche. <i>ON: san</i>",
-                      "mnemonic": "Drei Striche = Drei.",
-                      "examples": [
-                          {
-                              "t": "Eins, zwei, drei — <b>三</b> hat drei Striche.",
-                              "n": "Logisch, oder?"
-                          },
-                          {
-                              "t": "san = 3",
-                              "n": "Japanisch zählen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_shi_yon",
-                      "isLetter": true,
-                      "letter": "四",
-                      "word": "四",
-                      "emoji": "4️⃣",
-                      "phonetic": "/shi/ oder /yon/",
-                      "translation": "Vier — <b>四</b> sieht aus wie ein Fenster mit Vorhang. <i>ON: shi, KUN: yon</i>",
-                      "mnemonic": "Ein Fenster mit einem Vorhang in der Mitte = Vier.",
-                      "examples": [
-                          {
-                              "t": "<b>四</b> = ein Fenster mit Vorhang.",
-                              "n": "Bildliche Hilfe."
-                          },
-                          {
-                              "t": "shi (unglücklich) → yon ist üblicher.",
-                              "n": "shi klingt wie Tod (死)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_go",
-                      "isLetter": true,
-                      "letter": "五",
-                      "word": "五",
-                      "emoji": "5️⃣",
-                      "phonetic": "/go/",
-                      "translation": "Fünf — <b>五</b> sieht aus wie eine 5 mit Hut. <i>ON: go</i>",
-                      "mnemonic": "Oben ein Hut, unten ein Haken — wie eine 5.",
-                      "examples": [
-                          {
-                              "t": "<b>五</b> = 5 mit Hut.",
-                              "n": "Einfache Eselsbrücke."
-                          },
-                          {
-                              "t": "go = 5",
-                              "n": "Kurz und prägnant."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_roku",
-                      "isLetter": true,
-                      "letter": "六",
-                      "word": "六",
-                      "emoji": "6️⃣",
-                      "phonetic": "/roku/",
-                      "translation": "Sechs — <b>六</b> sieht aus wie zwei Beine, die nach unten zeigen. <i>ON: roku</i>",
-                      "mnemonic": "Zwei Beine (oben) und zwei Füße (unten) = Sechs.",
-                      "examples": [
-                          {
-                              "t": "<b>六</b> = zwei Beine.",
-                              "n": "Wie eine stehende Person."
-                          },
-                          {
-                              "t": "roku = 6",
-                              "n": "Roku ist leicht zu merken."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_shichi_nana",
-                      "isLetter": true,
-                      "letter": "七",
-                      "word": "七",
-                      "emoji": "7️⃣",
-                      "phonetic": "/shichi/ oder /nana/",
-                      "translation": "Sieben — <b>七</b> ist ein Strich mit einem Haken, wie eine 7. <i>ON: shichi, KUN: nana</i>",
-                      "mnemonic": "Ein langer Strich mit kurzem Haken = 7.",
-                      "examples": [
-                          {
-                              "t": "<b>七</b> sieht aus wie eine 7.",
-                              "n": "Fast identisch."
-                          },
-                          {
-                              "t": "shichi (formell) / nana (alltäglich)",
-                              "n": "Beides bedeutet 7."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_hachi",
-                      "isLetter": true,
-                      "letter": "八",
-                      "word": "八",
-                      "emoji": "8️⃣",
-                      "phonetic": "/hachi/",
-                      "translation": "Acht — <b>八</b> sieht aus wie zwei Beine, die auseinandergehen. <i>ON: hachi</i>",
-                      "mnemonic": "Zwei Beine, die sich öffnen = 8 (wie eine Acht, die aufbricht).",
-                      "examples": [
-                          {
-                              "t": "<b>八</b> = zwei Beine, die auseinandergehen.",
-                              "n": "Wie beim Spagat."
-                          },
-                          {
-                              "t": "hachi = 8",
-                              "n": "Hachi ist leicht zu merken."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_ku_kyuu",
-                      "isLetter": true,
-                      "letter": "九",
-                      "word": "九",
-                      "emoji": "9️⃣",
-                      "phonetic": "/ku/ oder /kyuu/",
-                      "translation": "Neun — <b>九</b> sieht aus wie eine 9 mit gebogenem Schwanz. <i>ON: ku/kyuu</i>",
-                      "mnemonic": "Eine 9, die sich umdreht.",
-                      "examples": [
-                          {
-                              "t": "<b>九</b> = 9 mit Schwanz.",
-                              "n": "Der Haken unten."
-                          },
-                          {
-                              "t": "kyuu = 9",
-                              "n": "Kyuu ist die übliche Lesung."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_juu",
-                      "isLetter": true,
-                      "letter": "十",
-                      "word": "十",
-                      "emoji": "🔟",
-                      "phonetic": "/juu/",
-                      "translation": "Zehn — <b>十</b> ist ein Kreuz, wie ein Pluszeichen. <i>ON: juu</i>",
-                      "mnemonic": "Ein Kreuz = zehn (römisch X ähnelt einem Kreuz).",
-                      "examples": [
-                          {
-                              "t": "<b>十</b> = Pluszeichen = 10.",
-                              "n": "Einfach und einprägsam."
-                          },
-                          {
-                              "t": "juu = 10",
-                              "n": "juu ist kurz."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_nichi_bi_hi",
-                      "isLetter": true,
-                      "letter": "日",
-                      "word": "日",
-                      "emoji": "☀️",
-                      "phonetic": "/nichi/ /bi/ /hi/",
-                      "translation": "Sonne / Tag — <b>日</b> ist ein Rechteck mit einem Strich in der Mitte, wie ein Fenster zur Sonne. <i>ON: nichi, KUN: hi/bi</i>",
-                      "mnemonic": "Ein Fenster, durch das die Sonne scheint.",
-                      "examples": [
-                          {
-                              "t": "<b>日</b> = Sonne im Fenster.",
-                              "n": "Bildliche Vorstellung."
-                          },
-                          {
-                              "t": "nichi = Tag, hi = Sonne",
-                              "n": "Zwei Lesungen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_gatsu_tsuki",
-                      "isLetter": true,
-                      "letter": "月",
-                      "word": "月",
-                      "emoji": "🌙",
-                      "phonetic": "/gatsu/ /tsuki/",
-                      "translation": "Mond / Monat — <b>月</b> sieht aus wie ein Halbmond. <i>ON: gatsu, KUN: tsuki</i>",
-                      "mnemonic": "Ein Halbmond mit zwei Strichen = Mond.",
-                      "examples": [
-                          {
-                              "t": "<b>月</b> = Halbmond.",
-                              "n": "Die Form erinnert an den Mond."
-                          },
-                          {
-                              "t": "tsuki = Mond, gatsu = Monat",
-                              "n": "Zwei Lesungen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_ka",
-                      "isLetter": true,
-                      "letter": "火",
-                      "word": "火",
-                      "emoji": "🔥",
-                      "phonetic": "/ka/",
-                      "translation": "Feuer — <b>火</b> sieht aus wie eine Flamme mit zwei Seitenarmen. <i>ON: ka</i>",
-                      "mnemonic": "Eine Flamme, die nach oben züngelt.",
-                      "examples": [
-                          {
-                              "t": "<b>火</b> = Flamme.",
-                              "n": "Die Striche sind die Flammen."
-                          },
-                          {
-                              "t": "ka = Feuer",
-                              "n": "Auch in 火曜日 (Dienstag)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_sui",
-                      "isLetter": true,
-                      "letter": "水",
-                      "word": "水",
-                      "emoji": "💧",
-                      "phonetic": "/sui/",
-                      "translation": "Wasser — <b>水</b> sieht aus wie ein Fluss mit Tropfen. <i>ON: sui</i>",
-                      "mnemonic": "Wasser tropft von einer Klippe.",
-                      "examples": [
-                          {
-                              "t": "<b>水</b> = Wasser, das tropft.",
-                              "n": "Die Striche sind Tropfen."
-                          },
-                          {
-                              "t": "sui = Wasser",
-                              "n": "Auch in 水曜日 (Mittwoch)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_moku",
-                      "isLetter": true,
-                      "letter": "木",
-                      "word": "木",
-                      "emoji": "🌳",
-                      "phonetic": "/moku/",
-                      "translation": "Baum — <b>木</b> sieht aus wie ein Baum mit Stamm und Ästen. <i>ON: moku, KUN: ki</i>",
-                      "mnemonic": "Ein Baum mit Wurzeln und Ästen.",
-                      "examples": [
-                          {
-                              "t": "<b>木</b> = Baum.",
-                              "n": "Mittelstrich ist der Stamm."
-                          },
-                          {
-                              "t": "ki = Baum",
-                              "n": "Auch in 木曜日 (Donnerstag)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_kin",
-                      "isLetter": true,
-                      "letter": "金",
-                      "word": "金",
-                      "emoji": "💰",
-                      "phonetic": "/kin/",
-                      "translation": "Gold — <b>金</b> sieht aus wie ein Schatz unter einem Dach. <i>ON: kin</i>",
-                      "mnemonic": "Gold unter einem Dach (Schatzkiste).",
-                      "examples": [
-                          {
-                              "t": "<b>金</b> = Gold im Haus.",
-                              "n": "Das Dach oben."
-                          },
-                          {
-                              "t": "kin = Gold",
-                              "n": "Auch in 金曜日 (Freitag)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_do",
-                      "isLetter": true,
-                      "letter": "土",
-                      "word": "土",
-                      "emoji": "🪨",
-                      "phonetic": "/do/",
-                      "translation": "Erde — <b>土</b> sieht aus wie ein Grab oder ein Hügel. <i>ON: do, KUN: tsuchi</i>",
-                      "mnemonic": "Ein Hügel mit einem Kreuz oben.",
-                      "examples": [
-                          {
-                              "t": "<b>土</b> = Erde.",
-                              "n": "Wie ein kleiner Hügel."
-                          },
-                          {
-                              "t": "tsuchi = Erde",
-                              "n": "Auch in 土曜日 (Samstag)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_hito_jin",
-                      "isLetter": true,
-                      "letter": "人",
-                      "word": "人",
-                      "emoji": "🚶",
-                      "phonetic": "/hito/ /jin/",
-                      "translation": "Person — <b>人</b> sieht aus wie eine Person mit zwei Beinen. <i>KUN: hito, ON: jin</i>",
-                      "mnemonic": "Zwei Beine, die gehen.",
-                      "examples": [
-                          {
-                              "t": "<b>人</b> = eine Person.",
-                              "n": "Die Striche sind Beine."
-                          },
-                          {
-                              "t": "hito = Person, jin = Mensch",
-                              "n": "Zwei Lesungen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_yama_san",
-                      "isLetter": true,
-                      "letter": "山",
-                      "word": "山",
-                      "emoji": "⛰️",
-                      "phonetic": "/yama/ /san/",
-                      "translation": "Berg — <b>山</b> sieht aus wie drei Berge. <i>KUN: yama, ON: san</i>",
-                      "mnemonic": "Drei Gipfel nebeneinander.",
-                      "examples": [
-                          {
-                              "t": "<b>山</b> = drei Berge.",
-                              "n": "Mittelgipfel ist höher."
-                          },
-                          {
-                              "t": "yama = Berg",
-                              "n": "Auch in 富士山 (Fuji)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_kawa",
-                      "isLetter": true,
-                      "letter": "川",
-                      "word": "川",
-                      "emoji": "🌊",
-                      "phonetic": "/kawa/",
-                      "translation": "Fluss — <b>川</b> sieht aus wie ein Fluss mit drei Armen. <i>KUN: kawa</i>",
-                      "mnemonic": "Drei Wellenlinien = Fluss.",
-                      "examples": [
-                          {
-                              "t": "<b>川</b> = Fluss.",
-                              "n": "Die Striche sind Wasser."
-                          },
-                          {
-                              "t": "kawa = Fluss",
-                              "n": "Wie in 川崎 (Kawasaki)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_dai_oo",
-                      "isLetter": true,
-                      "letter": "大",
-                      "word": "大",
-                      "emoji": "🐘",
-                      "phonetic": "/dai/ /oo/",
-                      "translation": "Groß — <b>大</b> sieht aus wie eine Person mit ausgestreckten Armen. <i>ON: dai, KUN: oo</i>",
-                      "mnemonic": "Eine Person, die die Arme weit ausstreckt = groß.",
-                      "examples": [
-                          {
-                              "t": "<b>大</b> = große Person.",
-                              "n": "Arme weit offen."
-                          },
-                          {
-                              "t": "ookii = groß",
-                              "n": "Adjektivform."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_L_shou_ko",
-                      "isLetter": true,
-                      "letter": "小",
-                      "word": "小",
-                      "emoji": "🐭",
-                      "phonetic": "/shou/ /ko/",
-                      "translation": "Klein — <b>小</b> sieht aus wie eine kleine Person mit gesenkten Armen. <i>ON: shou, KUN: ko</i>",
-                      "mnemonic": "Eine Person, die die Arme senkt = klein.",
-                      "examples": [
-                          {
-                              "t": "<b>小</b> = kleine Person.",
-                              "n": "Arme nach unten."
-                          },
-                          {
-                              "t": "chiisai = klein",
-                              "n": "Adjektivform."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_01",
+                      "id": "ru_a0_g4_v20",
                       "isLetter": false,
-                      "letter": "一",
-                      "word": "一人",
-                      "emoji": "🧍",
-                      "phonetic": "/hitori/",
-                      "translation": "eine Person / allein — <b>一人</b> (hitori)",
+                      "letter": "И",
+                      "word": "или",
+                      "emoji": "🔀",
+                      "phonetic": "/EE-lee/",
+                      "translation": "o",
                       "translations": {
-                          "ja": "一人",
-                          "de": "eine Person",
-                          "en": "one person"
+                          "ru": "или",
+                          "es": "o",
+                          "en": "or"
                       },
                       "examples": [
                           {
-                              "t": "<b>一人</b>で行きます。",
-                              "n": "Ich gehe allein."
+                              "t": "Чай <b>или</b> кофе?",
+                              "n": "¿Té o café?"
                           },
                           {
-                              "t": "一人は寂しいです。",
-                              "n": "Allein zu sein ist einsam."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_02",
-                      "isLetter": false,
-                      "letter": "日",
-                      "word": "日本",
-                      "emoji": "🇯🇵",
-                      "phonetic": "/nihon/",
-                      "translation": "Japan — <b>日本</b> (nihon)",
-                      "translations": {
-                          "ja": "日本",
-                          "de": "Japan",
-                          "en": "Japan"
-                      },
-                      "examples": [
-                          {
-                              "t": "私は<b>日本</b>人です。",
-                              "n": "Ich bin Japaner."
-                          },
-                          {
-                              "t": "<b>日本</b>が好きです。",
-                              "n": "Ich mag Japan."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_03",
-                      "isLetter": false,
-                      "letter": "月",
-                      "word": "月曜日",
-                      "emoji": "📅",
-                      "phonetic": "/getsuyoubi/",
-                      "translation": "Montag — <b>月曜日</b> (getsuyoubi)",
-                      "translations": {
-                          "ja": "月曜日",
-                          "de": "Montag",
-                          "en": "Monday"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>月曜日</b>に働きます。",
-                              "n": "Am Montag arbeite ich."
-                          },
-                          {
-                              "t": "今日は<b>月曜日</b>です。",
-                              "n": "Heute ist Montag."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_04",
-                      "isLetter": false,
-                      "letter": "火",
-                      "word": "火曜日",
-                      "emoji": "🔥",
-                      "phonetic": "/kayoubi/",
-                      "translation": "Dienstag — <b>火曜日</b> (kayoubi)",
-                      "translations": {
-                          "ja": "火曜日",
-                          "de": "Dienstag",
-                          "en": "Tuesday"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>火曜日</b>に会いましょう。",
-                              "n": "Treffen wir uns am Dienstag."
-                          },
-                          {
-                              "t": "火曜日は忙しいです。",
-                              "n": "Dienstag ist beschäftigt."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_05",
-                      "isLetter": false,
-                      "letter": "水",
-                      "word": "水曜日",
-                      "emoji": "💧",
-                      "phonetic": "/suiyoubi/",
-                      "translation": "Mittwoch — <b>水曜日</b> (suiyoubi)",
-                      "translations": {
-                          "ja": "水曜日",
-                          "de": "Mittwoch",
-                          "en": "Wednesday"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>水曜日</b>に休みます。",
-                              "n": "Am Mittwoch ruhe ich mich aus."
-                          },
-                          {
-                              "t": "水曜日はテストです。",
-                              "n": "Mittwoch ist der Test."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_06",
-                      "isLetter": false,
-                      "letter": "木",
-                      "word": "木曜日",
-                      "emoji": "🌳",
-                      "phonetic": "/mokuyoubi/",
-                      "translation": "Donnerstag — <b>木曜日</b> (mokuyoubi)",
-                      "translations": {
-                          "ja": "木曜日",
-                          "de": "Donnerstag",
-                          "en": "Thursday"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>木曜日</b>に勉強します。",
-                              "n": "Am Donnerstag lerne ich."
-                          },
-                          {
-                              "t": "木曜日は暇です。",
-                              "n": "Donnerstag bin ich frei."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_07",
-                      "isLetter": false,
-                      "letter": "金",
-                      "word": "金曜日",
-                      "emoji": "💰",
-                      "phonetic": "/kinyoubi/",
-                      "translation": "Freitag — <b>金曜日</b> (kinyoubi)",
-                      "translations": {
-                          "ja": "金曜日",
-                          "de": "Freitag",
-                          "en": "Friday"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>金曜日</b>にパーティーがあります。",
-                              "n": "Am Freitag ist eine Party."
-                          },
-                          {
-                              "t": "金曜日が楽しみです。",
-                              "n": "Ich freue mich auf Freitag."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_08",
-                      "isLetter": false,
-                      "letter": "土",
-                      "word": "土曜日",
-                      "emoji": "🪨",
-                      "phonetic": "/doyoubi/",
-                      "translation": "Samstag — <b>土曜日</b> (doyoubi)",
-                      "translations": {
-                          "ja": "土曜日",
-                          "de": "Samstag",
-                          "en": "Saturday"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>土曜日</b>に買い物に行きます。",
-                              "n": "Am Samstag gehe ich einkaufen."
-                          },
-                          {
-                              "t": "土曜日は休みです。",
-                              "n": "Samstag ist frei."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_09",
-                      "isLetter": false,
-                      "letter": "人",
-                      "word": "外国人",
-                      "emoji": "🌍",
-                      "phonetic": "/gaikokujin/",
-                      "translation": "Ausländer — <b>外国人</b> (gaikokujin)",
-                      "translations": {
-                          "ja": "外国人",
-                          "de": "Ausländer",
-                          "en": "foreigner"
-                      },
-                      "examples": [
-                          {
-                              "t": "私は<b>外国人</b>です。",
-                              "n": "Ich bin Ausländer."
-                          },
-                          {
-                              "t": "<b>外国人</b>が多いです。",
-                              "n": "Es gibt viele Ausländer."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_10",
-                      "isLetter": false,
-                      "letter": "山",
-                      "word": "富士山",
-                      "emoji": "🗻",
-                      "phonetic": "/fujisan/",
-                      "translation": "Fuji-Berg — <b>富士山</b> (fujisan)",
-                      "translations": {
-                          "ja": "富士山",
-                          "de": "Fuji-Berg",
-                          "en": "Mount Fuji"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>富士山</b>は高いです。",
-                              "n": "Der Fuji ist hoch."
-                          },
-                          {
-                              "t": "<b>富士山</b>を見たいです。",
-                              "n": "Ich möchte den Fuji sehen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_11",
-                      "isLetter": false,
-                      "letter": "川",
-                      "word": "川",
-                      "emoji": "🏞️",
-                      "phonetic": "/kawa/",
-                      "translation": "Fluss — <b>川</b> (kawa)",
-                      "translations": {
-                          "ja": "川",
-                          "de": "Fluss",
-                          "en": "river"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>川</b>で泳ぎます。",
-                              "n": "Ich schwimme im Fluss."
-                          },
-                          {
-                              "t": "この<b>川</b>は長いです。",
-                              "n": "Dieser Fluss ist lang."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_12",
-                      "isLetter": false,
-                      "letter": "大",
-                      "word": "大きい",
-                      "emoji": "🐘",
-                      "phonetic": "/ookii/",
-                      "translation": "groß — <b>大きい</b> (ookii)",
-                      "translations": {
-                          "ja": "大きい",
-                          "de": "groß",
-                          "en": "big"
-                      },
-                      "examples": [
-                          {
-                              "t": "この家は<b>大きい</b>です。",
-                              "n": "Dieses Haus ist groß."
-                          },
-                          {
-                              "t": "<b>大きい</b>犬がいます。",
-                              "n": "Ich habe einen großen Hund."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ja_a0_g5_13",
-                      "isLetter": false,
-                      "letter": "小",
-                      "word": "小さい",
-                      "emoji": "🐭",
-                      "phonetic": "/chiisai/",
-                      "translation": "klein — <b>小さい</b> (chiisai)",
-                      "translations": {
-                          "ja": "小さい",
-                          "de": "klein",
-                          "en": "small"
-                      },
-                      "examples": [
-                          {
-                              "t": "猫は<b>小さい</b>です。",
-                              "n": "Die Katze ist klein."
-                          },
-                          {
-                              "t": "<b>小さい</b>町に住んでいます。",
-                              "n": "Ich wohne in einer kleinen Stadt."
+                              "t": "Сегодня <b>или</b> завтра?",
+                              "n": "¿Hoy o mañana?"
                           }
                       ]
                   }
