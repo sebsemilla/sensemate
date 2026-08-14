@@ -68,7 +68,9 @@ function getLevelCurriculum(langCode, level) {
     if (level === 'A1' && typeof FLASHCARD_A1 !== 'undefined') {
         return FLASHCARD_A1[langCode] || FLASHCARD_A1['es'];
     }
-    return FLASHCARD_CURRICULUM[langCode] || FLASHCARD_CURRICULUM['es'];
+    // A0: try source-specific version first (e.g. 'ja_en'), then default (e.g. 'ja')
+    const srcKey = `${langCode}_${sourceLang}`;
+    return FLASHCARD_CURRICULUM[srcKey] || FLASHCARD_CURRICULUM[langCode] || FLASHCARD_CURRICULUM['es'];
 }
 
 function getAvailableLevels(langCode) {

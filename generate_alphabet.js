@@ -648,8 +648,8 @@ Then generate 10 vocabulary cards of essential Arabic words using all letters co
 const OUTPUT_FILE    = path.join(__dirname, 'flashcard_data_alpha.js');
 const PROGRESS_DIR   = path.join(__dirname, '.alpha_progress');
 
-function getProgressFile(target) {
-    return path.join(PROGRESS_DIR, `progress_${target}.json`);
+function getProgressFile(target, source = 'es') {
+    return path.join(PROGRESS_DIR, `progress_${target}_${source}.json`);
 }
 
 function loadJSON(file) {
@@ -765,7 +765,9 @@ async function generateGroup(target, source, groupCfg, groupIndex, totalGroups, 
 
     for (let attempt = 1; attempt <= retries; attempt++) {
         try {
-            const tokenLimit = groupCfg.scope.length > 800 ? 12000 : 7000;
+            const tokenLimit = groupCfg.scope.length > 1200 ? 16000
+                             : groupCfg.scope.length > 800  ? 12000
+                             : 7000;
             const resp = await client.chat.completions.create({
                 model:       'deepseek-chat',
                 temperature: 0.7,
@@ -850,7 +852,7 @@ function cmdList() {
 
 // ─── Comando --status ─────────────────────────────────────────
 
-function cmdStatus(target) {
+function cmdStatus(target, source = 'es') {
     const cfg = LANG_CONFIGS[target];
     if (!cfg) {
         console.error(`❌ Idioma no configurado: ${target}`);
@@ -858,8 +860,8 @@ function cmdStatus(target) {
         process.exit(1);
     }
 
-    const progressFile = getProgressFile(target);
-    const progress = loadJSON(progressFile) || { done: {}, target, source: 'es' };
+    const progressFile = getProgressFile(target, source);
+    const progress = loadJSON(progressFile) || { done: {}, target, source };
     const lang = LANGS[target] || { name: target };
 
     console.log(`\n📊 Estado: ${lang.name} (${target})`);
@@ -898,7 +900,7 @@ async function generate(target, source, maxGroups) {
     }
 
     const lang = LANGS[target];
-    const progressFile = getProgressFile(target);
+    const progressFile = getProgressFile(target, source);
     const progress = loadJSON(progressFile) || { done: {}, target, source };
 
     const groups = cfg.groups;
@@ -990,40 +992,36 @@ async function generate(target, source, maxGroups) {
         groups:    orderedGroups,
     };
 
-    // Read existing output file if it exists, merge this language
+    // Reconstruct full output from all progress files
+    // Key convention: 'ja' for default source (es), 'ja_en' for other sources
     let existingAlpha = {};
-    try {
-        // Read existing output and parse with a simple approach
-        const existing = fs.readFileSync(OUTPUT_FILE, 'utf8');
-        // Extract per-language data from progress files to reconstruct
-        const progressDir = PROGRESS_DIR;
-        if (fs.existsSync(progressDir)) {
-            for (const file of fs.readdirSync(progressDir)) {
-                if (!file.startsWith('progress_') || !file.endsWith('.json')) continue;
-                const langCode = file.replace('progress_', '').replace('.json', '');
-                if (langCode === target) continue; // will be overwritten below
-                const p = loadJSON(path.join(progressDir, file));
-                if (!p?.done) continue;
-                const langCfg = LANG_CONFIGS[langCode];
-                if (!langCfg) continue;
-                const groups = [];
-                for (const g of langCfg.groups) {
-                    if (p.done[g.slug]?.data) groups.push(p.done[g.slug].data);
-                }
-                if (groups.length > 0) {
-                    existingAlpha[langCode] = {
-                        level: 'A0',
-                        levelName: langCfg.levelName,
-                        groups,
-                    };
-                }
+    const currentKey = source === 'es' ? target : `${target}_${source}`;
+
+    if (fs.existsSync(PROGRESS_DIR)) {
+        for (const file of fs.readdirSync(PROGRESS_DIR)) {
+            if (!file.startsWith('progress_') || !file.endsWith('.json')) continue;
+            // filename: progress_{target}_{source}.json  (all codes are 2 chars)
+            const stem    = file.replace('progress_', '').replace('.json', '');
+            const tCode   = stem.slice(0, 2);
+            const sCode   = stem.slice(3) || 'es';
+            const outKey  = sCode === 'es' ? tCode : `${tCode}_${sCode}`;
+            if (outKey === currentKey) continue; // overwritten below
+
+            const p = loadJSON(path.join(PROGRESS_DIR, file));
+            if (!p?.done) continue;
+            const lCfg = LANG_CONFIGS[tCode];
+            if (!lCfg) continue;
+            const gs = [];
+            for (const g of lCfg.groups) {
+                if (p.done[g.slug]?.data) gs.push(p.done[g.slug].data);
+            }
+            if (gs.length > 0) {
+                existingAlpha[outKey] = { level: 'A0', levelName: lCfg.levelName, groups: gs };
             }
         }
-    } catch {
-        // Fresh start
     }
 
-    existingAlpha[target] = curriculumEntry;
+    existingAlpha[currentKey] = curriculumEntry;
     writeOutputFile(existingAlpha);
 
     const completedGroups = Object.keys(progress.done).length;
@@ -1040,13 +1038,13 @@ async function generate(target, source, maxGroups) {
 
 // ─── Reset de progreso ────────────────────────────────────────
 
-function cmdReset(target) {
-    const progressFile = getProgressFile(target);
+function cmdReset(target, source = 'es') {
+    const progressFile = getProgressFile(target, source);
     if (fs.existsSync(progressFile)) {
         fs.unlinkSync(progressFile);
-        console.log(`🗑  Progreso eliminado para: ${target}`);
+        console.log(`🗑  Progreso eliminado para: ${target} ← ${source}`);
     } else {
-        console.log(`ℹ️  No hay progreso guardado para: ${target}`);
+        console.log(`ℹ️  No hay progreso guardado para: ${target} ← ${source}`);
     }
 }
 
@@ -1062,9 +1060,9 @@ for (const arg of args) {
 if (flags.list) {
     cmdList();
 } else if (flags.status) {
-    cmdStatus(flags.target || 'ko');
+    cmdStatus(flags.target || 'ko', flags.source || 'es');
 } else if (flags.reset) {
-    cmdReset(flags.target || (() => { console.error('Requiere --target'); process.exit(1); })());
+    cmdReset(flags.target || (() => { console.error('Requiere --target'); process.exit(1); })(), flags.source || 'es');
 } else if (flags.target) {
     const source = flags.source || 'es';
     const count  = flags.count ? parseInt(flags.count) : undefined;
