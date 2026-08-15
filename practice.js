@@ -488,12 +488,28 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
     // ── Audio (deshabilitado para módulo PRON) ────────────────
     if (selectedLevel !== 'PRON') {
         function speak(word) {
-            const u   = new SpeechSynthesisUtterance(word);
-            const map = { es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT', pt:'pt-BR' };
-            u.lang    = map[targetLang] || 'es-ES';
-            u.rate    = 0.85;
+            const map  = { es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT', pt:'pt-BR', ja:'ja-JP', ko:'ko-KR', zh:'zh-CN' };
+            const lang = map[targetLang] || 'es-ES';
             window.speechSynthesis.cancel();
-            window.speechSynthesis.speak(u);
+            // Para grupos de kana (ej: "あいうえお"), hablar cada carácter por separado con pausa
+            const isKanaGroup = /^[\u3040-\u30FF]{2,}$/.test(word);
+            if (isKanaGroup) {
+                const chars = [...word];
+                const sayNext = i => {
+                    if (i >= chars.length) return;
+                    const u = new SpeechSynthesisUtterance(chars[i]);
+                    u.lang = lang;
+                    u.rate = 0.7;
+                    u.onend = () => setTimeout(() => sayNext(i + 1), 250);
+                    window.speechSynthesis.speak(u);
+                };
+                sayNext(0);
+            } else {
+                const u = new SpeechSynthesisUtterance(word);
+                u.lang  = lang;
+                u.rate  = 0.85;
+                window.speechSynthesis.speak(u);
+            }
         }
         document.getElementById('pracAudioFront')?.addEventListener('click', e => { e.stopPropagation(); speak(card.word); });
         document.getElementById('pracAudioBack')?.addEventListener('click',  e => { e.stopPropagation(); speak(card.word); });
@@ -550,11 +566,13 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
     const container = document.getElementById('pracCardContainer');
 
     container.addEventListener('touchstart', e => {
+        if (e.target.closest('.prac-audio-btn')) return;
         touchStartX = e.touches[0].clientX;
         touchStartY = e.touches[0].clientY;
     }, { passive: true });
 
     container.addEventListener('touchend', e => {
+        if (e.target.closest('.prac-audio-btn')) return;
         if (!isFlipped) { flipCard(); return; }
         const dx = e.changedTouches[0].clientX - touchStartX;
         const dy = e.changedTouches[0].clientY - touchStartY;
