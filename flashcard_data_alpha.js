@@ -20721,6 +20721,1741 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
+  // KO_DE
+  // ──────────────────────────────────────────────────────
+  ko_de: {
+      "level": "A0",
+      "levelName": "El Hangul",
+      "groups": [
+          {
+              "id": "ko_a0_g1",
+              "name": "Vocales básicas",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ ㅐ ㅔ — las 8 vocales simples",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ko_a0_g1_L_a",
+                      "isLetter": true,
+                      "letter": "ㅏ",
+                      "word": "ㅏ",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Vokal <b>ㅏ</b> — wie spanisches <i>a</i> in „casa“",
+                      "mnemonic": "Ein Strich nach rechts von der Mitte — wie ein kleiner Arm, der nach rechts zeigt, oder die rechte Hälfte eines „+“.",
+                      "examples": [
+                          {
+                              "t": "Mit stillem ㅇ: <b>아</b> (a) — <b>아버지</b> (Vater)",
+                              "n": "ㅇ ist stumm, ㅏ klingt wie „a“"
+                          },
+                          {
+                              "t": "<b>나</b> (na) — ich",
+                              "n": "Einfaches Wort mit ㅏ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_L_eo",
+                      "isLetter": true,
+                      "letter": "ㅓ",
+                      "word": "ㅓ",
+                      "emoji": "🔤",
+                      "phonetic": "/ʌ/",
+                      "translation": "Vokal <b>ㅓ</b> — wie das <i>a</i> in englisch „about“ oder deutschem „aber“ (dumpfes a)",
+                      "mnemonic": "Ein Strich nach links von der Mitte — wie ein Arm nach links, oder die linke Hälfte eines „+“. Es ist das Gegenteil von ㅏ.",
+                      "examples": [
+                          {
+                              "t": "Mit stillem ㅇ: <b>어</b> (eo) — <b>어머니</b> (Mutter)",
+                              "n": "ㅇ stumm, ㅓ klingt dumpf"
+                          },
+                          {
+                              "t": "<b>어디</b> (eodi) — wo",
+                              "n": "Häufige Frage"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_L_o",
+                      "isLetter": true,
+                      "letter": "ㅗ",
+                      "word": "ㅗ",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Vokal <b>ㅗ</b> — wie spanisches <i>o</i> in „sol“",
+                      "mnemonic": "Ein horizontaler Strich oben mit einem kleinen Strich nach oben — sieht aus wie eine Flagge oder ein „T“ ohne unteren Teil. Denk an „Oben“ (o = oben).",
+                      "examples": [
+                          {
+                              "t": "Mit stillem ㅇ: <b>오</b> (o) — <b>오다</b> (kommen)",
+                              "n": "ㅇ stumm"
+                          },
+                          {
+                              "t": "<b>소</b> (so) — Kuh",
+                              "n": "Kurzes Wort"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_L_u",
+                      "isLetter": true,
+                      "letter": "ㅜ",
+                      "word": "ㅜ",
+                      "emoji": "🔤",
+                      "phonetic": "/u/",
+                      "translation": "Vokal <b>ㅜ</b> — wie spanisches <i>u</i> in „luna“",
+                      "mnemonic": "Horizontaler Strich unten mit kleinem Strich nach unten — sieht aus wie ein „T“ auf dem Kopf oder ein Becher. Denk an „unten“ (u = unten).",
+                      "examples": [
+                          {
+                              "t": "Mit stillem ㅇ: <b>우</b> (u) — <b>우리</b> (wir/unser)",
+                              "n": "ㅇ stumm"
+                          },
+                          {
+                              "t": "<b>물</b> (mul) — Wasser",
+                              "n": "Häufiges Wort"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_L_eu",
+                      "isLetter": true,
+                      "letter": "ㅡ",
+                      "word": "ㅡ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɯ/",
+                      "translation": "Vokal <b>ㅡ</b> — kein deutsches Äquivalent, Zunge hinten und entspannt, wie ein <i>u</i> ohne Lippenrundung",
+                      "mnemonic": "Ein einziger horizontaler Strich — sieht aus wie ein langes, flaches „-“. Denk an „neutral“ — die Zunge liegt flach.",
+                      "examples": [
+                          {
+                              "t": "Mit stillem ㅇ: <b>으</b> (eu) — <b>으로</b> (in Richtung)",
+                              "n": "ㅇ stumm"
+                          },
+                          {
+                              "t": "<b>음식</b> (eumsik) — Essen",
+                              "n": "Alltagswort"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_L_i",
+                      "isLetter": true,
+                      "letter": "ㅣ",
+                      "word": "ㅣ",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "Vokal <b>ㅣ</b> — wie spanisches <i>i</i> in „vino“",
+                      "mnemonic": "Ein vertikaler Strich — wie ein gerader, dünner Strich. Denk an „ich“ (i = ich), ein einzelner Strich steht für dich.",
+                      "examples": [
+                          {
+                              "t": "Mit stillem ㅇ: <b>이</b> (i) — <b>이름</b> (Name)",
+                              "n": "ㅇ stumm"
+                          },
+                          {
+                              "t": "<b>시</b> (si) — Stadt oder Stunde",
+                              "n": "Wort mit ㅣ"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_L_ae",
+                      "isLetter": true,
+                      "letter": "ㅐ",
+                      "word": "ㅐ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɛ/",
+                      "translation": "Vokal <b>ㅐ</b> — wie <i>e</i> in „Bett“ (offenes e)",
+                      "mnemonic": "Es sieht aus wie ㅏ und ㅣ kombiniert — ein Strich nach rechts plus ein vertikaler Strich. Denk an „A + I“ = ㅐ. Klingt wie ein offenes „ä“.",
+                      "examples": [
+                          {
+                              "t": "Mit stillem ㅇ: <b>애</b> (ae) — <b>애기</b> (Baby)",
+                              "n": "ㅇ stumm"
+                          },
+                          {
+                              "t": "<b>개</b> (gae) — Hund",
+                              "n": "Häufiges Tier"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_L_e",
+                      "isLetter": true,
+                      "letter": "ㅔ",
+                      "word": "ㅔ",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "Vokal <b>ㅔ</b> — wie französisches <i>é</i> (geschlossenes e)",
+                      "mnemonic": "Sieht aus wie ㅓ und ㅣ kombiniert — Strich nach links plus vertikaler Strich. Denk an „E + I“ = ㅔ. Klingt wie ein geschlossenes „e“.",
+                      "examples": [
+                          {
+                              "t": "Mit stillem ㅇ: <b>에</b> (e) — <b>에서</b> (von/bei)",
+                              "n": "ㅇ stumm"
+                          },
+                          {
+                              "t": "<b>세</b> (se) — drei",
+                              "n": "Zahl"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "ㅏ",
+                      "word": "아버지",
+                      "emoji": "👨",
+                      "phonetic": "/abeoji/",
+                      "translation": "Vater",
+                      "translations": {
+                          "ko": "아버지",
+                          "de": "Vater",
+                          "en": "father"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>아버지</b>가 집에 있어요.",
+                              "n": "Der Vater ist zu Hause."
+                          },
+                          {
+                              "t": "제 <b>아버지</b>는 선생님입니다.",
+                              "n": "Mein Vater ist Lehrer."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "ㅏ",
+                      "word": "나",
+                      "emoji": "🙋",
+                      "phonetic": "/na/",
+                      "translation": "ich",
+                      "translations": {
+                          "ko": "나",
+                          "de": "ich",
+                          "en": "I/me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>나</b>는 학생이에요.",
+                              "n": "Ich bin Student."
+                          },
+                          {
+                              "t": "<b>나</b>도 좋아해요.",
+                              "n": "Ich mag es auch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "ㅓ",
+                      "word": "어머니",
+                      "emoji": "👩",
+                      "phonetic": "/eomeoni/",
+                      "translation": "Mutter",
+                      "translations": {
+                          "ko": "어머니",
+                          "de": "Mutter",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>어머니</b>가 요리해요.",
+                              "n": "Die Mutter kocht."
+                          },
+                          {
+                              "t": "제 <b>어머니</b>는 의사예요.",
+                              "n": "Meine Mutter ist Ärztin."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "ㅓ",
+                      "word": "어디",
+                      "emoji": "📍",
+                      "phonetic": "/eodi/",
+                      "translation": "wo",
+                      "translations": {
+                          "ko": "어디",
+                          "de": "wo",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>어디</b>에 가요?",
+                              "n": "Wohin gehst du?"
+                          },
+                          {
+                              "t": "화장실이 <b>어디</b>예요?",
+                              "n": "Wo ist die Toilette?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "ㅗ",
+                      "word": "오다",
+                      "emoji": "🚶",
+                      "phonetic": "/oda/",
+                      "translation": "kommen",
+                      "translations": {
+                          "ko": "오다",
+                          "de": "kommen",
+                          "en": "to come"
+                      },
+                      "examples": [
+                          {
+                              "t": "친구가 <b>와요</b>.",
+                              "n": "Der Freund kommt."
+                          },
+                          {
+                              "t": "내일 <b>오세요</b>.",
+                              "n": "Kommen Sie morgen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "ㅗ",
+                      "word": "소",
+                      "emoji": "🐄",
+                      "phonetic": "/so/",
+                      "translation": "Kuh",
+                      "translations": {
+                          "ko": "소",
+                          "de": "Kuh",
+                          "en": "cow"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>소</b>가 풀을 먹어요.",
+                              "n": "Die Kuh frisst Gras."
+                          },
+                          {
+                              "t": "이 <b>소</b>는 커요.",
+                              "n": "Diese Kuh ist groß."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "ㅜ",
+                      "word": "우리",
+                      "emoji": "👥",
+                      "phonetic": "/uri/",
+                      "translation": "wir/unser",
+                      "translations": {
+                          "ko": "우리",
+                          "de": "wir/unser",
+                          "en": "we/our"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>우리</b>는 가족이에요.",
+                              "n": "Wir sind eine Familie."
+                          },
+                          {
+                              "t": "<b>우리</b> 집에 오세요.",
+                              "n": "Komm zu unserem Haus."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "ㅜ",
+                      "word": "물",
+                      "emoji": "💧",
+                      "phonetic": "/mul/",
+                      "translation": "Wasser",
+                      "translations": {
+                          "ko": "물",
+                          "de": "Wasser",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>물</b>을 마셔요.",
+                              "n": "Ich trinke Wasser."
+                          },
+                          {
+                              "t": "<b>물</b>이 차가워요.",
+                              "n": "Das Wasser ist kalt."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "ㅡ",
+                      "word": "음식",
+                      "emoji": "🍚",
+                      "phonetic": "/eumsik/",
+                      "translation": "Essen",
+                      "translations": {
+                          "ko": "음식",
+                          "de": "Essen",
+                          "en": "food"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>음식</b>이 맛있어요.",
+                              "n": "Das Essen ist lecker."
+                          },
+                          {
+                              "t": "한국 <b>음식</b>을 좋아해요.",
+                              "n": "Ich mag koreanisches Essen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "ㅣ",
+                      "word": "이름",
+                      "emoji": "🏷️",
+                      "phonetic": "/ireum/",
+                      "translation": "Name",
+                      "translations": {
+                          "ko": "이름",
+                          "de": "Name",
+                          "en": "name"
+                      },
+                      "examples": [
+                          {
+                              "t": "제 <b>이름</b>은 민수예요.",
+                              "n": "Mein Name ist Minsu."
+                          },
+                          {
+                              "t": "<b>이름</b>이 뭐예요?",
+                              "n": "Wie heißt du?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_11",
+                      "isLetter": false,
+                      "letter": "ㅣ",
+                      "word": "시",
+                      "emoji": "🏙️",
+                      "phonetic": "/si/",
+                      "translation": "Stadt / Stunde",
+                      "translations": {
+                          "ko": "시",
+                          "de": "Stadt / Stunde",
+                          "en": "city / hour"
+                      },
+                      "examples": [
+                          {
+                              "t": "지금 몇 <b>시</b>예요?",
+                              "n": "Wie spät ist es jetzt?"
+                          },
+                          {
+                              "t": "서울은 큰 <b>시</b>예요.",
+                              "n": "Seoul ist eine große Stadt."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_12",
+                      "isLetter": false,
+                      "letter": "ㅐ",
+                      "word": "개",
+                      "emoji": "🐶",
+                      "phonetic": "/gae/",
+                      "translation": "Hund",
+                      "translations": {
+                          "ko": "개",
+                          "de": "Hund",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>개</b>가 짖어요.",
+                              "n": "Der Hund bellt."
+                          },
+                          {
+                              "t": "우리 <b>개</b>는 귀여워요.",
+                              "n": "Unser Hund ist süß."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g1_13",
+                      "isLetter": false,
+                      "letter": "ㅔ",
+                      "word": "네",
+                      "emoji": "✅",
+                      "phonetic": "/ne/",
+                      "translation": "ja / vier",
+                      "translations": {
+                          "ko": "네",
+                          "de": "ja / vier",
+                          "en": "yes / four"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>네</b>, 맞아요.",
+                              "n": "Ja, richtig."
+                          },
+                          {
+                              "t": "사과 <b>네</b> 개 주세요.",
+                              "n": "Bitte vier Äpfel."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ko_a0_g2",
+              "name": "Consonantes básicas",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅎ",
+              "reviewFrom": [
+                  "ko_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ko_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "ㄱ",
+                      "word": "ㄱ",
+                      "emoji": "🔤",
+                      "phonetic": "/g~k/",
+                      "translation": "Konsonant <b>ㄱ</b> – wie ein weiches <i>G</i> am Wortanfang, eher wie <i>K</i> am Wortende.",
+                      "mnemonic": "Sieht aus wie eine Pistole, die nach links zeigt – der Schuss klingt „k/g“.",
+                      "examples": [
+                          {
+                              "t": "Am Wortanfang: <b>가</b> (ga) – „gehen“",
+                              "n": "Anlaut: weiches G"
+                          },
+                          {
+                              "t": "Am Wortende: <b>국</b> (guk) – „Suppe“",
+                              "n": "Auslaut: eher K"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "ㄴ",
+                      "word": "ㄴ",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Konsonant <b>ㄴ</b> – wie das deutsche <i>N</i>.",
+                      "mnemonic": "Die Form erinnert an eine Nase im Profil – und „Nase“ beginnt mit N.",
+                      "examples": [
+                          {
+                              "t": "<b>나</b> (na) – „ich“",
+                              "n": "Siehst du die Nase?"
+                          },
+                          {
+                              "t": "<b>눈</b> (nun) – „Auge/Schnee“",
+                              "n": "Auch hier: N wie Nase."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "ㄷ",
+                      "word": "ㄷ",
+                      "emoji": "🔤",
+                      "phonetic": "/d~t/",
+                      "translation": "Konsonant <b>ㄷ</b> – wie ein weiches <i>D</i> am Anfang, eher wie <i>T</i> am Ende.",
+                      "mnemonic": "Sieht aus wie ein Dach über einem Zimmer – das Zimmer ist <span class='hl'>da</span> (da = dort).",
+                      "examples": [
+                          {
+                              "t": "<b>도</b> (do) – „auch“",
+                              "n": "Anlaut: D"
+                          },
+                          {
+                              "t": "<b>다</b> (da) – „alle“",
+                              "n": "Dach-Merkhilfe: das Dach steht über dem a."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_L_r",
+                      "isLetter": true,
+                      "letter": "ㄹ",
+                      "word": "ㄹ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɾ~l/",
+                      "translation": "Konsonant <b>ㄹ</b> – ein Zungen-Schlag zwischen <i>R</i> und <i>L</i> (wie spanisches „r“ kurz).",
+                      "mnemonic": "Sieht aus wie ein springender Pfeil – die Zunge „springt“ beim Aussprechen an den Zahndamm.",
+                      "examples": [
+                          {
+                              "t": "<b>라디오</b> (radio) – „Radio“",
+                              "n": "Lehnwort aus dem Englischen, hör das R."
+                          },
+                          {
+                              "t": "<b>물</b> (mul) – „Wasser“",
+                              "n": "Am Ende klingt es wie ein leichtes L."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_L_m",
+                      "isLetter": true,
+                      "letter": "ㅁ",
+                      "word": "ㅁ",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Konsonant <b>ㅁ</b> – wie das deutsche <i>M</i>.",
+                      "mnemonic": "Sieht aus wie ein geschlossener Mund – und beim M sind die Lippen geschlossen.",
+                      "examples": [
+                          {
+                              "t": "<b>마</b> (ma) – altertümliches „ja“",
+                              "n": "Mund zu!"
+                          },
+                          {
+                              "t": "<b>마음</b> (ma-eum) – „Herz/Gefühl“",
+                              "n": "M wie Mund."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "ㅂ",
+                      "word": "ㅂ",
+                      "emoji": "🔤",
+                      "phonetic": "/b~p/",
+                      "translation": "Konsonant <b>ㅂ</b> – wie ein weiches <i>B</i> am Anfang, eher wie <i>P</i> am Ende.",
+                      "mnemonic": "Sieht aus wie ein Becher – und <span class='hl'>Becher</span> beginnt mit B.",
+                      "examples": [
+                          {
+                              "t": "<b>바</b> (ba) – „Bar“",
+                              "n": "Anlaut: B"
+                          },
+                          {
+                              "t": "<b>밥</b> (bap) – „Reis/Essen“",
+                              "n": "Auslaut: P"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_L_s",
+                      "isLetter": true,
+                      "letter": "ㅅ",
+                      "word": "ㅅ",
+                      "emoji": "🔤",
+                      "phonetic": "/s~ɕ/",
+                      "translation": "Konsonant <b>ㅅ</b> – wie ein scharfes <i>S</i>, vor <i>i</i> wie ein weiches <i>Sch</i>.",
+                      "mnemonic": "Sieht aus wie eine Bergspitze – und „Spitze“ hat ein S.",
+                      "examples": [
+                          {
+                              "t": "<b>사람</b> (sa-ram) – „Person“",
+                              "n": "S wie Sonne."
+                          },
+                          {
+                              "t": "Vor <i>i</i>: <b>시</b> (si) – klingt wie „schi“",
+                              "n": "Achtung: weiches Sch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_L_ng",
+                      "isLetter": true,
+                      "letter": "ㅇ",
+                      "word": "ㅇ",
+                      "emoji": "🔤",
+                      "phonetic": "/∅/ (am Anfang), /ŋ/ (am Ende)",
+                      "translation": "Konsonant <b>ㅇ</b> – am Silbenanfang <i>stumm</i>, am Ende wie <i>ng</i> in „singen“.",
+                      "mnemonic": "Sieht aus wie ein Kreis – ein Kreis hat keinen Klang, also stumm am Anfang.",
+                      "examples": [
+                          {
+                              "t": "Am Anfang stumm: <b>아</b> (a) – „oh!“",
+                              "n": "Nur der Vokal wird gesprochen."
+                          },
+                          {
+                              "t": "Am Ende: <b>영어</b> (yeong-eo) – „Englisch“",
+                              "n": "Das ㅇ am Ende klingt wie ng."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_L_j",
+                      "isLetter": true,
+                      "letter": "ㅈ",
+                      "word": "ㅈ",
+                      "emoji": "🔤",
+                      "phonetic": "/dʑ~tɕ/",
+                      "translation": "Konsonant <b>ㅈ</b> – wie ein weiches <i>Dsch</i> in „Dschungel“, am Ende eher wie <i>tsch</i>.",
+                      "mnemonic": "Sieht aus wie ein Hut – und <span class='hl'>Hut</span> klingt ähnlich wie „dsch“? Nein, aber der Hut sitzt auf dem Kopf wie das J.",
+                      "examples": [
+                          {
+                              "t": "<b>자</b> (ja) – „Buchstabe“ oder „schlafen“",
+                              "n": "Anlaut: Dsch"
+                          },
+                          {
+                              "t": "<b>주다</b> (ju-da) – „geben“",
+                              "n": "Dsch wie in Dschungel."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_L_h",
+                      "isLetter": true,
+                      "letter": "ㅎ",
+                      "word": "ㅎ",
+                      "emoji": "🔤",
+                      "phonetic": "/h/",
+                      "translation": "Konsonant <b>ㅎ</b> – wie das deutsche <i>H</i>.",
+                      "mnemonic": "Sieht aus wie ein Hut mit einer Linie – und „Hut“ beginnt mit H.",
+                      "examples": [
+                          {
+                              "t": "<b>하다</b> (ha-da) – „tun/machen“",
+                              "n": "H wie Hut."
+                          },
+                          {
+                              "t": "<b>학교</b> (hak-gyo) – „Schule“",
+                              "n": "H wie Hallo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "ㄱ",
+                      "word": "가다",
+                      "emoji": "🚶",
+                      "phonetic": "/ka.da/",
+                      "translation": "gehen",
+                      "translations": {
+                          "ko": "가다",
+                          "de": "gehen",
+                          "en": "to go"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>가다</b> – ich gehe",
+                              "n": "Gehen"
+                          },
+                          {
+                              "t": "학교에 <b>가다</b> – zur Schule gehen",
+                              "n": "Schule + gehen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "ㄴ",
+                      "word": "나",
+                      "emoji": "🙋",
+                      "phonetic": "/na/",
+                      "translation": "ich",
+                      "translations": {
+                          "ko": "나",
+                          "de": "ich",
+                          "en": "I/me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>나</b>는 학생이에요 – Ich bin Schüler.",
+                              "n": "Ich + Schüler"
+                          },
+                          {
+                              "t": "<b>나</b>도 – ich auch",
+                              "n": "auch"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "ㄷ",
+                      "word": "도",
+                      "emoji": "➕",
+                      "phonetic": "/to/",
+                      "translation": "auch",
+                      "translations": {
+                          "ko": "도",
+                          "de": "auch",
+                          "en": "also"
+                      },
+                      "examples": [
+                          {
+                              "t": "나<b>도</b> – ich auch",
+                              "n": "Ich auch"
+                          },
+                          {
+                              "t": "이것<b>도</b> – das auch",
+                              "n": "Das auch"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "ㄹ",
+                      "word": "물",
+                      "emoji": "💧",
+                      "phonetic": "/mul/",
+                      "translation": "Wasser",
+                      "translations": {
+                          "ko": "물",
+                          "de": "Wasser",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>물</b>을 마셔요 – Ich trinke Wasser.",
+                              "n": "Wasser trinken"
+                          },
+                          {
+                              "t": "물이 많아요 – Es gibt viel Wasser.",
+                              "n": "Viel Wasser"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "ㅁ",
+                      "word": "마음",
+                      "emoji": "❤️",
+                      "phonetic": "/ma.ɯm/",
+                      "translation": "Herz/Gefühl",
+                      "translations": {
+                          "ko": "마음",
+                          "de": "Herz/Gefühl",
+                          "en": "heart/mind"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>마음</b>이 좋아요 – Er/Sie hat ein gutes Herz.",
+                              "n": "Gutes Herz"
+                          },
+                          {
+                              "t": "제 <b>마음</b> – mein Herz",
+                              "n": "Mein Herz"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "ㅂ",
+                      "word": "밥",
+                      "emoji": "🍚",
+                      "phonetic": "/pap/",
+                      "translation": "Reis/Essen",
+                      "translations": {
+                          "ko": "밥",
+                          "de": "Reis/Essen",
+                          "en": "rice/meal"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>밥</b>을 먹어요 – Ich esse (eine Mahlzeit).",
+                              "n": "Essen"
+                          },
+                          {
+                              "t": "아침 <b>밥</b> – Frühstück",
+                              "n": "Morgenessen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "ㅅ",
+                      "word": "사람",
+                      "emoji": "🧑",
+                      "phonetic": "/sa.ram/",
+                      "translation": "Person/Mensch",
+                      "translations": {
+                          "ko": "사람",
+                          "de": "Person/Mensch",
+                          "en": "person"
+                      },
+                      "examples": [
+                          {
+                              "t": "한 <b>사람</b> – eine Person",
+                              "n": "Eine Person"
+                          },
+                          {
+                              "t": "<b>사람</b>이 많아요 – Es sind viele Leute.",
+                              "n": "Viele Leute"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "ㅇ",
+                      "word": "아",
+                      "emoji": "😮",
+                      "phonetic": "/a/",
+                      "translation": "oh! (Ausruf)",
+                      "translations": {
+                          "ko": "아",
+                          "de": "oh!",
+                          "en": "oh!"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>아</b>, 그렇구나 – Oh, so ist das.",
+                              "n": "Aha"
+                          },
+                          {
+                              "t": "<b>아</b>! – Oh! (Überraschung)",
+                              "n": "Ausruf"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "ㅈ",
+                      "word": "저",
+                      "emoji": "🙇",
+                      "phonetic": "/dʑʌ/",
+                      "translation": "ich (formell)",
+                      "translations": {
+                          "ko": "저",
+                          "de": "ich (formell)",
+                          "en": "I (formal)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>저</b>는 학생이에요 – Ich bin Schüler (formell).",
+                              "n": "Formell"
+                          },
+                          {
+                              "t": "<b>저</b>도요 – Ich auch (formell).",
+                              "n": "Auch"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "ㅎ",
+                      "word": "하다",
+                      "emoji": "🛠️",
+                      "phonetic": "/ha.da/",
+                      "translation": "tun/machen",
+                      "translations": {
+                          "ko": "하다",
+                          "de": "tun/machen",
+                          "en": "to do"
+                      },
+                      "examples": [
+                          {
+                              "t": "공부를 <b>하다</b> – lernen (wörtl. Studium machen)",
+                              "n": "Lernen"
+                          },
+                          {
+                              "t": "일을 <b>하다</b> – arbeiten",
+                              "n": "Arbeiten"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ko_a0_g3",
+              "name": "Aspiradas y tensas",
+              "icon": "💨",
+              "color": "#10b981",
+              "description": "ㅋ ㅌ ㅍ ㅊ aspiradas · ㄲ ㄸ ㅃ ㅆ ㅉ tensas",
+              "reviewFrom": [
+                  "ko_a0_g1",
+                  "ko_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ko_a0_g3_L_ㅋ",
+                      "isLetter": true,
+                      "letter": "ㅋ",
+                      "word": "ㅋ",
+                      "emoji": "💨",
+                      "phonetic": "/kʰ/",
+                      "translation": "K aspirada — como <i>K</i> en <i>Kaffee</i> con un soplo de aire<br>Parece la <b>ㅋ</b> con una <span class=\"hl\">cola</span> extra",
+                      "mnemonic": "La línea horizontal extra parece una pequeña nube de aire que sale de la ㄱ — ¡sopla!",
+                      "examples": [
+                          {
+                              "t": "<b>ㅋ</b> es ㄱ + soplo de aire, como en <i>Kaffee</i>",
+                              "n": "La K alemana también es aspirada"
+                          },
+                          {
+                              "t": "커피 → <b>커</b>피 (Kaffee)",
+                              "n": "La primera sílaba suena como 'ko' aspirada"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_L_ㅌ",
+                      "isLetter": true,
+                      "letter": "ㅌ",
+                      "word": "ㅌ",
+                      "emoji": "💨",
+                      "phonetic": "/tʰ/",
+                      "translation": "T aspirada — como <i>T</i> en <i>Tea</i> con soplo<br>Es la <b>ㄷ</b> con un <span class=\"hl\">techo</span> adicional",
+                      "mnemonic": "La línea de arriba parece un techo — la T sube y suelta aire al pronunciarla.",
+                      "examples": [
+                          {
+                              "t": "<b>ㅌ</b> = ㄷ + techo, ¡la T sopla!",
+                              "n": "Compara con ㄷ (t normal)"
+                          },
+                          {
+                              "t": "택시 → <b>택</b>시 (Taxi)",
+                              "n": "Préstamo del inglés 'taxi'"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_L_ㅍ",
+                      "isLetter": true,
+                      "letter": "ㅍ",
+                      "word": "ㅍ",
+                      "emoji": "💨",
+                      "phonetic": "/pʰ/",
+                      "translation": "P aspirada — como <i>P</i> en <i>Party</i> con soplo<br>Es la <b>ㅂ</b> con un <span class=\"hl\">sombrero</span>",
+                      "mnemonic": "La línea extra encima parece un sombrero — la P se pone elegante y suelta aire.",
+                      "examples": [
+                          {
+                              "t": "<b>ㅍ</b> = ㅂ + sombrero, ¡sopla!",
+                              "n": "La P aspirada como en inglés"
+                          },
+                          {
+                              "t": "피 → <b>피</b> (Blut)",
+                              "n": "Suena como 'pi' aspirada"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_L_ㅊ",
+                      "isLetter": true,
+                      "letter": "ㅊ",
+                      "word": "ㅊ",
+                      "emoji": "💨",
+                      "phonetic": "/tɕʰ/",
+                      "translation": "CH aspirada — como <i>ch</i> en <i>China</i> con soplo<br>Es la <b>ㅈ</b> con un <span class=\"hl\">gancho</span> arriba",
+                      "mnemonic": "El gancho arriba parece una cucharita que recoge aire — ¡sopla al decir 'ch'!",
+                      "examples": [
+                          {
+                              "t": "<b>ㅊ</b> = ㅈ + gancho, ¡ch aspirada!",
+                              "n": "Suena como 'ch' con más aire"
+                          },
+                          {
+                              "t": "차 → <b>차</b> (Tee)",
+                              "n": "La misma palabra para 'té' y 'auto'"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_L_ㄲ",
+                      "isLetter": true,
+                      "letter": "ㄲ",
+                      "word": "ㄲ",
+                      "emoji": "🔒",
+                      "phonetic": "/k͈/",
+                      "translation": "K tensa — sin soplo, garganta apretada<br>Es la <b>ㄱ</b> <span class=\"hl\">duplicada</span>",
+                      "mnemonic": "Dos ㄱ juntas = doble fuerza, ¡aprieta la garganta!",
+                      "examples": [
+                          {
+                              "t": "ㄱ vs ㅋ vs <b>ㄲ</b>: suave, aspirada, tensa",
+                              "n": "La tensa se escribe con dos ㄱ"
+                          },
+                          {
+                              "t": "꽃 → <b>꽃</b> (Blume)",
+                              "n": "Suena apretada, sin aire"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_L_ㄸ",
+                      "isLetter": true,
+                      "letter": "ㄸ",
+                      "word": "ㄸ",
+                      "emoji": "🔒",
+                      "phonetic": "/t͈/",
+                      "translation": "T tensa — sin soplo, garganta apretada<br>Es la <b>ㄷ</b> <span class=\"hl\">duplicada</span>",
+                      "mnemonic": "Dos ㄷ = doble bloqueo, ¡aprieta!",
+                      "examples": [
+                          {
+                              "t": "ㄷ vs ㅌ vs <b>ㄸ</b>: suave, aspirada, tensa",
+                              "n": "La tensa se escribe con dos ㄷ"
+                          },
+                          {
+                              "t": "딸 → <b>딸</b> (Tochter)",
+                              "n": "Suena apretada"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_L_ㅃ",
+                      "isLetter": true,
+                      "letter": "ㅃ",
+                      "word": "ㅃ",
+                      "emoji": "🔒",
+                      "phonetic": "/p͈/",
+                      "translation": "P tensa — sin soplo, garganta apretada<br>Es la <b>ㅂ</b> <span class=\"hl\">duplicada</span>",
+                      "mnemonic": "Dos ㅂ = doble presión, ¡aprieta los labios!",
+                      "examples": [
+                          {
+                              "t": "ㅂ vs ㅍ vs <b>ㅃ</b>: suave, aspirada, tensa",
+                              "n": "La tensa se escribe con dos ㅂ"
+                          },
+                          {
+                              "t": "빨리 → <b>빨</b>리 (schnell)",
+                              "n": "Suena apretada"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_L_ㅆ",
+                      "isLetter": true,
+                      "letter": "ㅆ",
+                      "word": "ㅆ",
+                      "emoji": "🔒",
+                      "phonetic": "/s͈/",
+                      "translation": "S tensa — sin soplo, más fuerte<br>Es la <b>ㅅ</b> <span class=\"hl\">duplicada</span>",
+                      "mnemonic": "Dos ㅅ = doble silbido, ¡aprieta la lengua!",
+                      "examples": [
+                          {
+                              "t": "ㅅ vs <b>ㅆ</b>: suave vs tensa",
+                              "n": "La tensa se escribe con dos ㅅ"
+                          },
+                          {
+                              "t": "쓰다 → <b>쓰</b>다 (schreiben)",
+                              "n": "Suena apretada"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_L_ㅉ",
+                      "isLetter": true,
+                      "letter": "ㅉ",
+                      "word": "ㅉ",
+                      "emoji": "🔒",
+                      "phonetic": "/tɕ͈/",
+                      "translation": "CH tensa — sin soplo, garganta apretada<br>Es la <b>ㅈ</b> <span class=\"hl\">duplicada</span>",
+                      "mnemonic": "Dos ㅈ = doble fuerza, ¡aprieta!",
+                      "examples": [
+                          {
+                              "t": "ㅈ vs ㅊ vs <b>ㅉ</b>: suave, aspirada, tensa",
+                              "n": "La tensa se escribe con dos ㅈ"
+                          },
+                          {
+                              "t": "짜다 → <b>짜</b>다 (salzig)",
+                              "n": "Suena apretada"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "ㅋ",
+                      "word": "커피",
+                      "emoji": "☕",
+                      "phonetic": "/kʰʌ.pʰi/",
+                      "translation": "<b>Kaffee</b> — préstamo del inglés <i>coffee</i>",
+                      "translations": {
+                          "ko": "커피",
+                          "de": "Kaffee",
+                          "en": "coffee"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>커피</b> 마실래요?",
+                              "n": "Möchtest du Kaffee trinken?"
+                          },
+                          {
+                              "t": "커피가 <b>커피</b> 맛이에요",
+                              "n": "Der Kaffee schmeckt nach Kaffee (humorvoll)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "ㅌ",
+                      "word": "택시",
+                      "emoji": "🚕",
+                      "phonetic": "/tʰɛk.ɕi/",
+                      "translation": "<b>Taxi</b> — préstamo del inglés",
+                      "translations": {
+                          "ko": "택시",
+                          "de": "Taxi",
+                          "en": "taxi"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>택시</b> 타요",
+                              "n": "Ich nehme ein Taxi"
+                          },
+                          {
+                              "t": "택시가 빨라요",
+                              "n": "Das Taxi ist schnell"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "ㅍ",
+                      "word": "파",
+                      "emoji": "🧅",
+                      "phonetic": "/pʰa/",
+                      "translation": "<b>Lauchzwiebel</b> — también significa 'Welle'",
+                      "translations": {
+                          "ko": "파",
+                          "de": "Lauchzwiebel",
+                          "en": "green onion"
+                      },
+                      "examples": [
+                          {
+                              "t": "파를 <b>파</b>요",
+                              "n": "Ich schneide Lauchzwiebeln"
+                          },
+                          {
+                              "t": "파가 매워요",
+                              "n": "Die Zwiebel ist scharf"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "ㅊ",
+                      "word": "차",
+                      "emoji": "🍵",
+                      "phonetic": "/tɕʰa/",
+                      "translation": "<b>Tee</b> — la misma palabra significa 'Auto'",
+                      "translations": {
+                          "ko": "차",
+                          "de": "Tee",
+                          "en": "tea"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>차</b> 마셔요",
+                              "n": "Ich trinke Tee"
+                          },
+                          {
+                              "t": "차를 타요",
+                              "n": "Ich fahre mit dem Auto"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "ㄲ",
+                      "word": "꽃",
+                      "emoji": "🌸",
+                      "phonetic": "/k͈ot/",
+                      "translation": "<b>Blume</b> — tensa, sin soplo",
+                      "translations": {
+                          "ko": "꽃",
+                          "de": "Blume",
+                          "en": "flower"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>꽃</b>이 예뻐요",
+                              "n": "Die Blume ist schön"
+                          },
+                          {
+                              "t": "꽃을 사요",
+                              "n": "Ich kaufe eine Blume"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_06",
+                      "isLetter": false,
+                      "letter": "ㄸ",
+                      "word": "딸",
+                      "emoji": "👧",
+                      "phonetic": "/t͈al/",
+                      "translation": "<b>Tochter</b> — tensa, sin soplo",
+                      "translations": {
+                          "ko": "딸",
+                          "de": "Tochter",
+                          "en": "daughter"
+                      },
+                      "examples": [
+                          {
+                              "t": "제 <b>딸</b>이에요",
+                              "n": "Das ist meine Tochter"
+                          },
+                          {
+                              "t": "딸이 커요",
+                              "n": "Die Tochter ist groß"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_07",
+                      "isLetter": false,
+                      "letter": "ㅃ",
+                      "word": "빨리",
+                      "emoji": "⚡",
+                      "phonetic": "/p͈al.li/",
+                      "translation": "<b>Schnell</b> — tensa, sin soplo",
+                      "translations": {
+                          "ko": "빨리",
+                          "de": "schnell",
+                          "en": "quickly"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>빨리</b> 와요",
+                              "n": "Komm schnell"
+                          },
+                          {
+                              "t": "빨리 먹어요",
+                              "n": "Iss schnell"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_08",
+                      "isLetter": false,
+                      "letter": "ㅆ",
+                      "word": "쓰다",
+                      "emoji": "✍️",
+                      "phonetic": "/s͈ɯ.da/",
+                      "translation": "<b>Schreiben</b> — también significa 'bitter' y 'benutzen'",
+                      "translations": {
+                          "ko": "쓰다",
+                          "de": "schreiben",
+                          "en": "to write"
+                      },
+                      "examples": [
+                          {
+                              "t": "편지를 <b>쓰다</b>",
+                              "n": "Einen Brief schreiben"
+                          },
+                          {
+                              "t": "이 커피는 <b>써요</b>",
+                              "n": "Dieser Kaffee ist bitter"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g3_09",
+                      "isLetter": false,
+                      "letter": "ㅉ",
+                      "word": "짜다",
+                      "emoji": "🧂",
+                      "phonetic": "/tɕ͈a.da/",
+                      "translation": "<b>Salzig</b> — también significa 'weben'",
+                      "translations": {
+                          "ko": "짜다",
+                          "de": "salzig",
+                          "en": "salty"
+                      },
+                      "examples": [
+                          {
+                              "t": "이 국이 <b>짜요</b>",
+                              "n": "Diese Suppe ist salzig"
+                          },
+                          {
+                              "t": "옷을 <b>짜다</b>",
+                              "n": "Kleidung weben"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ko_a0_g4",
+              "name": "Bloques silábicos",
+              "icon": "🧩",
+              "color": "#ef4444",
+              "description": "Cómo se combinan letras en sílabas completas",
+              "reviewFrom": [
+                  "ko_a0_g1",
+                  "ko_a0_g2",
+                  "ko_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ko_a0_g4_L_ga",
+                      "isLetter": true,
+                      "letter": "가",
+                      "word": "가",
+                      "emoji": "🔤",
+                      "phonetic": "/ga/",
+                      "translation": "Silbe <b>가</b> (ga) – Konsonant ㄱ + Vokal ㅏ",
+                      "mnemonic": "Wie ein 'g' das nach vorne springt – die Linie oben ist der Arm.",
+                      "examples": [
+                          {
+                              "t": "<b>가</b> ist die erste Silbe in vielen Wörtern.",
+                              "n": "Beispiel: 가방 (Tasche)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_na",
+                      "isLetter": true,
+                      "letter": "나",
+                      "word": "나",
+                      "emoji": "🔤",
+                      "phonetic": "/na/",
+                      "translation": "Silbe <b>나</b> (na) – Konsonant ㄴ + Vokal ㅏ",
+                      "mnemonic": "Der obere Strich ist die Nase, der untere der Mund – 'na' wie 'naja'.",
+                      "examples": [
+                          {
+                              "t": "<b>나</b> bedeutet 'ich' – z.B. <b>나</b>는 학생이에요.",
+                              "n": "Ich bin Student."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_da",
+                      "isLetter": true,
+                      "letter": "다",
+                      "word": "다",
+                      "emoji": "🔤",
+                      "phonetic": "/da/",
+                      "translation": "Silbe <b>다</b> (da) – Konsonant ㄷ + Vokal ㅏ",
+                      "mnemonic": "Sieht aus wie ein 'd' mit einem Dach – 'da' wie 'dann'.",
+                      "examples": [
+                          {
+                              "t": "<b>다</b> ist oft in Verben – z.B. <b>하다</b> (tun).",
+                              "n": "하다 = machen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_bap",
+                      "isLetter": true,
+                      "letter": "밥",
+                      "word": "밥",
+                      "emoji": "🍚",
+                      "phonetic": "/bap/",
+                      "translation": "Silbe <b>밥</b> (bap) – Konsonant ㅂ + Vokal ㅏ + Endkonsonant ㅂ",
+                      "mnemonic": "Reis ist 'bap' – der untere ㅂ ist der geschlossene Topf.",
+                      "examples": [
+                          {
+                              "t": "<b>밥</b> 먹었어요?",
+                              "n": "Hast du gegessen?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_jip",
+                      "isLetter": true,
+                      "letter": "집",
+                      "word": "집",
+                      "emoji": "🏠",
+                      "phonetic": "/jip/",
+                      "translation": "Silbe <b>집</b> (jip) – Konsonant ㅈ + Vokal ㅣ + Endkonsonant ㅂ",
+                      "mnemonic": "Das ㅂ am Ende ist die Tür, die zugeht – 'jip' wie 'Haus'.",
+                      "examples": [
+                          {
+                              "t": "우리 <b>집</b>은 여기예요.",
+                              "n": "Unser Haus ist hier."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_guk",
+                      "isLetter": true,
+                      "letter": "국",
+                      "word": "국",
+                      "emoji": "🍜",
+                      "phonetic": "/guk/",
+                      "translation": "Silbe <b>국</b> (guk) – Konsonant ㄱ + Vokal ㅜ + Endkonsonant ㄱ",
+                      "mnemonic": "Der ㄱ am Ende ist die Suppenschüssel – 'guk' wie 'Gulasch' (Suppe).",
+                      "examples": [
+                          {
+                              "t": "미역<b>국</b>은 맛있어요.",
+                              "n": "Seetang-Suppe ist lecker."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_chaek",
+                      "isLetter": true,
+                      "letter": "책",
+                      "word": "책",
+                      "emoji": "📚",
+                      "phonetic": "/tɕʰɛk/",
+                      "translation": "Silbe <b>책</b> (chaek) – Konsonant ㅊ + Vokal ㅐ + Endkonsonant ㄱ",
+                      "mnemonic": "Das ㅊ sieht aus wie ein offenes Buch – 'chaek' wie 'check' (nachschlagen).",
+                      "examples": [
+                          {
+                              "t": "이 <b>책</b>은 재미있어요.",
+                              "n": "Dieses Buch ist interessant."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_wa",
+                      "isLetter": true,
+                      "letter": "와",
+                      "word": "와",
+                      "emoji": "🔤",
+                      "phonetic": "/wa/",
+                      "translation": "Silbe <b>와</b> (wa) – Konsonant ㅇ + Vokal ㅘ (ㅗ+ㅏ)",
+                      "mnemonic": "Zwei Vokale verschmelzen – 'wa' wie im Englischen 'what'.",
+                      "examples": [
+                          {
+                              "t": "<b>와</b>! 정말 예쁘다!",
+                              "n": "Wow! Wirklich hübsch!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_bwa",
+                      "isLetter": true,
+                      "letter": "봐",
+                      "word": "봐",
+                      "emoji": "👀",
+                      "phonetic": "/bwa/",
+                      "translation": "Silbe <b>봐</b> (bwa) – Konsonant ㅂ + Vokal ㅘ",
+                      "mnemonic": "Das ㅂ + ㅘ ergibt 'bwa' – wie 'schau' mit zusammengekniffenen Augen.",
+                      "examples": [
+                          {
+                              "t": "이거 <b>봐</b>!",
+                              "n": "Schau dir das an!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_dwae",
+                      "isLetter": true,
+                      "letter": "돼",
+                      "word": "돼",
+                      "emoji": "🔤",
+                      "phonetic": "/dwɛ/",
+                      "translation": "Silbe <b>돼</b> (dwae) – Konsonant ㄷ + Vokal ㅙ (ㅗ+ㅐ)",
+                      "mnemonic": "Kurzform von 되어 – 'dwae' wie 'werden' – das ㅙ sieht aus wie ein Smiley.",
+                      "examples": [
+                          {
+                              "t": "됐어요? <b>돼</b>요.",
+                              "n": "Ist es fertig? Ja, es wird."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_ikda",
+                      "isLetter": true,
+                      "letter": "읽",
+                      "word": "읽다",
+                      "emoji": "📖",
+                      "phonetic": "/ik.t͈a/",
+                      "translation": "Silbe <b>읽</b> (ik) – Konsonant ㅇ + Vokal ㅣ + Doppel-Endkonsonant ㄹㄱ",
+                      "mnemonic": "Doppelter Endkonsonant – der ㄹ wird nicht gesprochen, nur der ㄱ – 'lesen'.",
+                      "examples": [
+                          {
+                              "t": "책을 <b>읽</b>어요.",
+                              "n": "Ich lese ein Buch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_dak",
+                      "isLetter": true,
+                      "letter": "닭",
+                      "word": "닭",
+                      "emoji": "🐔",
+                      "phonetic": "/tak/",
+                      "translation": "Silbe <b>닭</b> (dak) – Konsonant ㄷ + Vokal ㅏ + Doppel-Endkonsonant ㄹㄱ",
+                      "mnemonic": "Das ㄹ ist stumm – wie ein Huhn, das nicht gackert – 'dak'.",
+                      "examples": [
+                          {
+                              "t": "<b>닭</b>고기 먹어요.",
+                              "n": "Ich esse Hühnerfleisch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_salm",
+                      "isLetter": true,
+                      "letter": "삶",
+                      "word": "삶",
+                      "emoji": "🌱",
+                      "phonetic": "/salm/",
+                      "translation": "Silbe <b>삶</b> (salm) – Konsonant ㅅ + Vokal ㅏ + Doppel-Endkonsonant ㄹㅁ",
+                      "mnemonic": "Das ㄹ wird stumm – das ㅁ ist der Mund, der atmet – 'Leben'.",
+                      "examples": [
+                          {
+                              "t": "<b>삶</b>은 아름다워요.",
+                              "n": "Das Leben ist schön."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_annyeonghaseyo",
+                      "isLetter": false,
+                      "letter": "안녕",
+                      "word": "안녕하세요",
+                      "emoji": "👋",
+                      "phonetic": "/an.ɲʌŋ.ha.se.jo/",
+                      "translation": "Hallo / Guten Tag – <b>안녕</b> (Frieden) + 하세요 (tun Sie)",
+                      "translations": {
+                          "ko": "안녕하세요",
+                          "de": "Hallo",
+                          "en": "Hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>안녕하세요</b>! 만나서 반가워요.",
+                              "n": "Hallo! Schön dich zu treffen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_gamsahamnida",
+                      "isLetter": false,
+                      "letter": "감사",
+                      "word": "감사합니다",
+                      "emoji": "🙏",
+                      "phonetic": "/kam.sa.ham.ni.da/",
+                      "translation": "Danke – <b>감사</b> (Dank) + 합니다 (mache)",
+                      "translations": {
+                          "ko": "감사합니다",
+                          "de": "Danke",
+                          "en": "Thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>감사합니다</b>! 도와주셔서.",
+                              "n": "Danke, dass Sie geholfen haben."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_saranghae",
+                      "isLetter": false,
+                      "letter": "사랑",
+                      "word": "사랑해",
+                      "emoji": "❤️",
+                      "phonetic": "/sa.raŋ.hɛ/",
+                      "translation": "Ich liebe dich – <b>사랑</b> (Liebe) + 해 (mache)",
+                      "translations": {
+                          "ko": "사랑해",
+                          "de": "Ich liebe dich",
+                          "en": "I love you"
+                      },
+                      "examples": [
+                          {
+                              "t": "나는 너를 <b>사랑해</b>.",
+                              "n": "Ich liebe dich."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_hangugeo",
+                      "isLetter": false,
+                      "letter": "한국",
+                      "word": "한국어",
+                      "emoji": "🇰🇷",
+                      "phonetic": "/han.ɡu.ɡʌ/",
+                      "translation": "Koreanische Sprache – <b>한국</b> (Korea) + 어 (Sprache)",
+                      "translations": {
+                          "ko": "한국어",
+                          "de": "Koreanisch",
+                          "en": "Korean language"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>한국어</b>를 배워요.",
+                              "n": "Ich lerne Koreanisch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_masisseoyo",
+                      "isLetter": false,
+                      "letter": "맛있",
+                      "word": "맛있어요",
+                      "emoji": "😋",
+                      "phonetic": "/ma.si.s͈ʌ.jo/",
+                      "translation": "Es ist lecker – <b>맛</b> (Geschmack) + 있어요 (es gibt)",
+                      "translations": {
+                          "ko": "맛있어요",
+                          "de": "Es ist lecker",
+                          "en": "It's delicious"
+                      },
+                      "examples": [
+                          {
+                              "t": "이 음식은 <b>맛있어요</b>.",
+                              "n": "Dieses Essen ist lecker."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_gwaenchanayo",
+                      "isLetter": false,
+                      "letter": "괜찮",
+                      "word": "괜찮아요",
+                      "emoji": "👍",
+                      "phonetic": "/kwɛn.tɕʰa.na.jo/",
+                      "translation": "Es ist okay / Es geht – <b>괜찮</b> (in Ordnung) + 아요",
+                      "translations": {
+                          "ko": "괜찮아요",
+                          "de": "Es ist okay",
+                          "en": "It's okay"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>괜찮아요</b>? – 네, 괜찮아요.",
+                              "n": "Ist es okay? – Ja, es ist okay."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_gongbuhada",
+                      "isLetter": false,
+                      "letter": "공부",
+                      "word": "공부하다",
+                      "emoji": "📘",
+                      "phonetic": "/koŋ.bu.ha.da/",
+                      "translation": "Lernen/Studieren – <b>공부</b> (Studium) + 하다 (machen)",
+                      "translations": {
+                          "ko": "공부하다",
+                          "de": "lernen/studieren",
+                          "en": "to study"
+                      },
+                      "examples": [
+                          {
+                              "t": "매일 한국어를 <b>공부해요</b>.",
+                              "n": "Ich lerne jeden Tag Koreanisch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ko_a0_g4_L_chingu",
+                      "isLetter": false,
+                      "letter": "친구",
+                      "word": "친구",
+                      "emoji": "🧑‍🤝‍🧑",
+                      "phonetic": "/tɕʰin.ɡu/",
+                      "translation": "Freund/Freundin – <b>친</b> (nah) + 구 (Person)",
+                      "translations": {
+                          "ko": "친구",
+                          "de": "Freund",
+                          "en": "friend"
+                      },
+                      "examples": [
+                          {
+                              "t": "내 <b>친구</b>를 소개할게요.",
+                              "n": "Ich stelle dir meinen Freund vor."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
   // KO_EN
   // ──────────────────────────────────────────────────────
   ko_en: {
@@ -49072,6 +50807,2148 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
+  // ZH_EN
+  // ──────────────────────────────────────────────────────
+  zh_en: {
+      "level": "A0",
+      "levelName": "Pinyin y tonos del chino mandarín",
+      "groups": [
+          {
+              "id": "zh_a0_g1",
+              "name": "Los 4 tonos",
+              "icon": "🎵",
+              "color": "#6366f1",
+              "description": "El tono cambia completamente el significado",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "zh_a0_g1_L_1st_tone",
+                      "isLetter": true,
+                      "letter": "ā",
+                      "word": "ā",
+                      "emoji": "📈",
+                      "phonetic": "/aː˥/",
+                      "translation": "First tone — <b>high and flat</b>, like singing a steady note<br><i>Think of a flat line on a graph</i>",
+                      "mnemonic": "Imagine a tightrope walker balancing perfectly on a high, straight line — no wobble, no dip.",
+                      "examples": [
+                          {
+                              "t": "<b>mā</b> (妈) = mother — high, calm, like a mother's steady voice",
+                              "n": "mā = mother"
+                          },
+                          {
+                              "t": "<b>bā</b> (八) = eight — say it like a flat 'baa' from a calm sheep",
+                              "n": "bā = eight"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_2nd_tone",
+                      "isLetter": true,
+                      "letter": "á",
+                      "word": "á",
+                      "emoji": "❓",
+                      "phonetic": "/aː˧˥/",
+                      "translation": "Second tone — <b>rising</b>, like asking <i>\"¿Cómo?\"</i> or <i>\"What?\"</i> in surprise",
+                      "mnemonic": "Picture someone leaning forward and asking '¿Eh?' — your voice goes up like a question mark.",
+                      "examples": [
+                          {
+                              "t": "<b>má</b> (麻) = hemp / numb — rising like a question about the plant",
+                              "n": "má = hemp"
+                          },
+                          {
+                              "t": "<b>lái</b> (来) = to come — 'Come here?' with a rising tone",
+                              "n": "lái = to come"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_3rd_tone",
+                      "isLetter": true,
+                      "letter": "ǎ",
+                      "word": "ǎ",
+                      "emoji": "🎢",
+                      "phonetic": "/aː˨˩˧/",
+                      "translation": "Third tone — <b>dip then rise</b>, like a thoughtful <i>\"hmm?\"</i> or a rollercoaster valley",
+                      "mnemonic": "Imagine a valley: your voice goes down into the dip, then climbs back up — like saying 'hmm... really?'",
+                      "examples": [
+                          {
+                              "t": "<b>mǎ</b> (马) = horse — the horse goes down into a valley and back up",
+                              "n": "mǎ = horse"
+                          },
+                          {
+                              "t": "<b>nǐ</b> (你) = you — 'you?' with a thoughtful dip",
+                              "n": "nǐ = you"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_4th_tone",
+                      "isLetter": true,
+                      "letter": "à",
+                      "word": "à",
+                      "emoji": "📉",
+                      "phonetic": "/aː˥˩/",
+                      "translation": "Fourth tone — <b>sharp falling</b>, like saying <i>\"¡No!\"</i> or <i>\"Stop!\"</i> firmly",
+                      "mnemonic": "Picture a hammer striking down — your voice slams from high to low like a decisive '¡No!'",
+                      "examples": [
+                          {
+                              "t": "<b>mà</b> (骂) = to scold — scolding with a sharp falling 'ma!'",
+                              "n": "mà = to scold"
+                          },
+                          {
+                              "t": "<b>shì</b> (是) = is/yes — a firm, falling 'yes'",
+                              "n": "shì = is/yes"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_neutral_tone",
+                      "isLetter": true,
+                      "letter": "ma",
+                      "word": "ma",
+                      "emoji": "⚖️",
+                      "phonetic": "/mɑ/",
+                      "translation": "Neutral tone — <b>light and unstressed</b>, like a soft <i>\"lah\"</i> at the end of a word",
+                      "mnemonic": "Think of a feather floating down gently — no emphasis, just a light touch at the end.",
+                      "examples": [
+                          {
+                              "t": "<b>ma</b> (吗) = question particle — 'Nǐ hǎo ma?' = 'How are you?'",
+                              "n": "ma = question marker"
+                          },
+                          {
+                              "t": "<b>le</b> (了) = completed action — 'Chī le' = 'I ate'",
+                              "n": "le = past marker"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_3rd_3rd_rule",
+                      "isLetter": true,
+                      "letter": "nǐ hǎo",
+                      "word": "nǐ hǎo",
+                      "emoji": "🔀",
+                      "phonetic": "/ni˨˩˧ xɑʊ̯˨˩˧/ → /ni˧˥ xɑʊ̯˨˩˧/",
+                      "translation": "Rule: <b>3rd + 3rd → 2nd + 3rd</b><br><i>When two third tones meet, the first one becomes second tone</i>",
+                      "mnemonic": "Two valleys in a row feel awkward — so the first valley flattens into a rising hill.",
+                      "examples": [
+                          {
+                              "t": "<b>nǐ hǎo</b> → <b>ní hǎo</b> (你好) — 'hello' — say 'nee how' not 'nee-ee how'",
+                              "n": "nǐ hǎo becomes ní hǎo"
+                          },
+                          {
+                              "t": "<b>wǒ</b> + <b>hǎo</b> → <b>wó hǎo</b> — 'I'm good'",
+                              "n": "wǒ hǎo becomes wó hǎo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_bu_rule",
+                      "isLetter": true,
+                      "letter": "bù",
+                      "word": "bù",
+                      "emoji": "🚫",
+                      "phonetic": "/pu˥˩/",
+                      "translation": "Rule: <b>bù</b> (不) is 4th tone, but <b>before another 4th tone it becomes 2nd tone</b>",
+                      "mnemonic": "The word 'no' softens before another strong 'no' — like saying 'no... no' more gently the second time.",
+                      "examples": [
+                          {
+                              "t": "<b>bù</b> hǎo (不好) = not good — bù stays 4th",
+                              "n": "bù hǎo = not good"
+                          },
+                          {
+                              "t": "<b>bú</b> shì (不是) = is not — becomes 2nd before shì (4th tone)",
+                              "n": "bú shì = is not"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_ma_ma_ma_ma",
+                      "isLetter": true,
+                      "letter": "mā má mǎ mà ma",
+                      "word": "mā má mǎ mà ma",
+                      "emoji": "🎭",
+                      "phonetic": "/mɑ˥ mɑ˧˥ mɑ˨˩˧ mɑ˥˩ mɑ/",
+                      "translation": "The famous example: <b>mā</b> (mother) <b>má</b> (hemp) <b>mǎ</b> (horse) <b>mà</b> (scold) <b>ma</b> (question)<br><i>Same sound, different tone = different meaning!</i>",
+                      "mnemonic": "Context is king — the same 'ma' can mean mother, horse, or scold, so listen to the tone AND the situation.",
+                      "examples": [
+                          {
+                              "t": "<b>mā</b> (妈) = mother — <b>mǎ</b> (马) = horse — <b>mà</b> (骂) = scold",
+                              "n": "The tones change everything"
+                          },
+                          {
+                              "t": "Nǐ de <b>mā</b> qí <b>mǎ</b> — 'Your mother rides a horse'",
+                              "n": "Context makes it clear"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "mā",
+                      "word": "妈妈",
+                      "emoji": "👩",
+                      "phonetic": "/mɑ˥ mɑ/",
+                      "translation": "<b>mother</b> — mom",
+                      "translations": {
+                          "zh": "妈妈",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ de <b>māma</b> hěn hǎo.",
+                              "n": "My mother is very good."
+                          },
+                          {
+                              "t": "<b>Māma</b> zài jiā.",
+                              "n": "Mom is at home."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "mǎ",
+                      "word": "马",
+                      "emoji": "🐴",
+                      "phonetic": "/mɑ˨˩˧/",
+                      "translation": "<b>horse</b>",
+                      "translations": {
+                          "zh": "马",
+                          "en": "horse"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè shì yī pǐ <b>mǎ</b>.",
+                              "n": "This is a horse."
+                          },
+                          {
+                              "t": "<b>Mǎ</b> hěn kuài.",
+                              "n": "The horse is fast."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "mà",
+                      "word": "骂",
+                      "emoji": "😠",
+                      "phonetic": "/mɑ˥˩/",
+                      "translation": "<b>to scold</b> — to yell at someone",
+                      "translations": {
+                          "zh": "骂",
+                          "en": "to scold"
+                      },
+                      "examples": [
+                          {
+                              "t": "Tā <b>mà</b> wǒ.",
+                              "n": "He scolded me."
+                          },
+                          {
+                              "t": "Bié <b>mà</b> rén.",
+                              "n": "Don't scold people."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "nǐ",
+                      "word": "你",
+                      "emoji": "👉",
+                      "phonetic": "/ni˨˩˧/",
+                      "translation": "<b>you</b>",
+                      "translations": {
+                          "zh": "你",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Nǐ</b> hǎo!",
+                              "n": "Hello! (literally 'you good')"
+                          },
+                          {
+                              "t": "<b>Nǐ</b> chī le ma?",
+                              "n": "Have you eaten?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "hǎo",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "/xɑʊ̯˨˩˧/",
+                      "translation": "<b>good</b> — fine, well",
+                      "translations": {
+                          "zh": "好",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nǐ <b>hǎo</b>!",
+                              "n": "Hello! (literally 'you good')"
+                          },
+                          {
+                              "t": "Hěn <b>hǎo</b>!",
+                              "n": "Very good!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "wǒ",
+                      "word": "我",
+                      "emoji": "🧑",
+                      "phonetic": "/uɔ˨˩˧/",
+                      "translation": "<b>I</b> — me",
+                      "translations": {
+                          "zh": "我",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Wǒ</b> hěn hǎo.",
+                              "n": "I'm very good."
+                          },
+                          {
+                              "t": "<b>Wǒ</b> ài nǐ.",
+                              "n": "I love you."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "shì",
+                      "word": "是",
+                      "emoji": "✅",
+                      "phonetic": "/ʂɻ˥˩/",
+                      "translation": "<b>is</b> — yes (to be)",
+                      "translations": {
+                          "zh": "是",
+                          "en": "is / yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè <b>shì</b> mā.",
+                              "n": "This is mom."
+                          },
+                          {
+                              "t": "<b>Shì</b>, wǒ shì xuésheng.",
+                              "n": "Yes, I am a student."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "bù",
+                      "word": "不",
+                      "emoji": "🚫",
+                      "phonetic": "/pu˥˩/",
+                      "translation": "<b>no</b> — not",
+                      "translations": {
+                          "zh": "不",
+                          "en": "no / not"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Bù</b> hǎo.",
+                              "n": "Not good."
+                          },
+                          {
+                              "t": "Wǒ <b>bù</b> shì xuésheng.",
+                              "n": "I am not a student."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "lái",
+                      "word": "来",
+                      "emoji": "🚶",
+                      "phonetic": "/laɪ̯˧˥/",
+                      "translation": "<b>to come</b>",
+                      "translations": {
+                          "zh": "来",
+                          "en": "to come"
+                      },
+                      "examples": [
+                          {
+                              "t": "Qǐng <b>lái</b> zhèlǐ.",
+                              "n": "Please come here."
+                          },
+                          {
+                              "t": "Nǐ <b>lái</b> ma?",
+                              "n": "Are you coming?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "ma",
+                      "word": "吗",
+                      "emoji": "❓",
+                      "phonetic": "/mɑ/",
+                      "translation": "question particle — <b>?</b> (turns a statement into a question)",
+                      "translations": {
+                          "zh": "吗",
+                          "en": "(question particle)"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nǐ hǎo <b>ma</b>?",
+                              "n": "How are you? (literally 'you good?')"
+                          },
+                          {
+                              "t": "Nǐ chī le <b>ma</b>?",
+                              "n": "Have you eaten?"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g2",
+              "name": "Iniciales (consonantes)",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "b p m f / d t n l / g k h / j q x / zh ch sh r / z c s",
+              "reviewFrom": [
+                  "zh_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "b",
+                      "word": "b",
+                      "emoji": "🔤",
+                      "phonetic": "/p/ (unaspirated)",
+                      "translation": "Like English <b>b</b> but without voice — <i>soft 'p'</i>",
+                      "mnemonic": "Think of 'b' as a <span class='hl'>ball</span> that bounces but doesn't pop — no puff of air.",
+                      "examples": [
+                          {
+                              "t": "<b>bā</b> (8) — lucky number",
+                              "n": "Eight"
+                          },
+                          {
+                              "t": "<b>bàba</b> — dad",
+                              "n": "Father"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "p",
+                      "word": "p",
+                      "emoji": "🔤",
+                      "phonetic": "/pʰ/ (aspirated)",
+                      "translation": "Like English <b>p</b> — with a <i>puff of air</i>",
+                      "mnemonic": "A <span class='hl'>puff</span> of air blows out a candle — that's 'p'.",
+                      "examples": [
+                          {
+                              "t": "<b>pà</b> — to fear",
+                              "n": "Fear"
+                          },
+                          {
+                              "t": "<b>píngguǒ</b> — apple",
+                              "n": "Apple"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_m",
+                      "isLetter": true,
+                      "letter": "m",
+                      "word": "m",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Same as English <b>m</b> — hummed with lips closed",
+                      "mnemonic": "Close your lips and hum — like a <span class='hl'>mmm</span> of yummy food.",
+                      "examples": [
+                          {
+                              "t": "<b>māo</b> — cat",
+                              "n": "Cat"
+                          },
+                          {
+                              "t": "<b>māma</b> — mom",
+                              "n": "Mother"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "f",
+                      "word": "f",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Same as English <b>f</b> — air through teeth",
+                      "mnemonic": "Blow air like <span class='hl'>ffff</span> — as if cooling soup.",
+                      "examples": [
+                          {
+                              "t": "<b>fēi</b> — to fly",
+                              "n": "Fly"
+                          },
+                          {
+                              "t": "<b>fàn</b> — rice/meal",
+                              "n": "Meal"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "d",
+                      "word": "d",
+                      "emoji": "🔤",
+                      "phonetic": "/t/ (unaspirated)",
+                      "translation": "Like English <b>d</b> but without voice — <i>soft 't'</i>",
+                      "mnemonic": "Tap your tongue behind teeth — <span class='hl'>d</span> is a gentle tap, no explosion.",
+                      "examples": [
+                          {
+                              "t": "<b>dà</b> — big",
+                              "n": "Big"
+                          },
+                          {
+                              "t": "<b>dìdi</b> — younger brother",
+                              "n": "Brother"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_t",
+                      "isLetter": true,
+                      "letter": "t",
+                      "word": "t",
+                      "emoji": "🔤",
+                      "phonetic": "/tʰ/ (aspirated)",
+                      "translation": "Like English <b>t</b> — with a <i>puff of air</i>",
+                      "mnemonic": "A <span class='hl'>t</span> explosion — like saying 't' with a burst of air.",
+                      "examples": [
+                          {
+                              "t": "<b>tā</b> — he/she",
+                              "n": "He/She"
+                          },
+                          {
+                              "t": "<b>tài</b> — too, very",
+                              "n": "Too"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "n",
+                      "word": "n",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Same as English <b>n</b> — tip of tongue on ridge",
+                      "mnemonic": "Hum through your nose — <span class='hl'>n</span> like 'n' in 'no'.",
+                      "examples": [
+                          {
+                              "t": "<b>nǐ</b> — you",
+                              "n": "You"
+                          },
+                          {
+                              "t": "<b>nǚ</b> — woman",
+                              "n": "Woman"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "l",
+                      "word": "l",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "Same as English <b>l</b> — tongue tip touches roof",
+                      "mnemonic": "Light <span class='hl'>l</span> — like 'l' in 'love'.",
+                      "examples": [
+                          {
+                              "t": "<b>lái</b> — to come",
+                              "n": "Come"
+                          },
+                          {
+                              "t": "<b>lǎo</b> — old",
+                              "n": "Old"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "g",
+                      "word": "g",
+                      "emoji": "🔤",
+                      "phonetic": "/k/ (unaspirated)",
+                      "translation": "Like English <b>g</b> but without voice — <i>soft 'k'</i>",
+                      "mnemonic": "G like <span class='hl'>go</span> — but no vibration in throat.",
+                      "examples": [
+                          {
+                              "t": "<b>gǒu</b> — dog",
+                              "n": "Dog"
+                          },
+                          {
+                              "t": "<b>gēge</b> — older brother",
+                              "n": "Brother"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_k",
+                      "isLetter": true,
+                      "letter": "k",
+                      "word": "k",
+                      "emoji": "🔤",
+                      "phonetic": "/kʰ/ (aspirated)",
+                      "translation": "Like English <b>k</b> — with a <i>puff of air</i>",
+                      "mnemonic": "A <span class='hl'>k</span> like 'k' in 'kite' — with a burst of air.",
+                      "examples": [
+                          {
+                              "t": "<b>kāi</b> — to open",
+                              "n": "Open"
+                          },
+                          {
+                              "t": "<b>kàn</b> — to see",
+                              "n": "See"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_h",
+                      "isLetter": true,
+                      "letter": "h",
+                      "word": "h",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "Like English <b>h</b> but deeper — <i>a breathy rasp</i>",
+                      "mnemonic": "Fog a window with your breath — <span class='hl'>h</span> like 'h' in 'hot'.",
+                      "examples": [
+                          {
+                              "t": "<b>hǎo</b> — good",
+                              "n": "Good"
+                          },
+                          {
+                              "t": "<b>hē</b> — to drink",
+                              "n": "Drink"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_j",
+                      "isLetter": true,
+                      "letter": "j",
+                      "word": "j",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/ (unaspirated)",
+                      "translation": "Like English <b>j</b> but softer — <i>no 'd' sound</i>",
+                      "mnemonic": "A <span class='hl'>jeep</span> starting — but with a soft 'j'.",
+                      "examples": [
+                          {
+                              "t": "<b>jiā</b> — home",
+                              "n": "Home"
+                          },
+                          {
+                              "t": "<b>jǐ</b> — how many",
+                              "n": "How many"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_q",
+                      "isLetter": true,
+                      "letter": "q",
+                      "word": "q",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕʰ/ (aspirated)",
+                      "translation": "Like English <b>ch</b> but with a <i>puff of air</i>",
+                      "mnemonic": "Say 'cheese' — but <span class='hl'>q</span> with a strong burst of air.",
+                      "examples": [
+                          {
+                              "t": "<b>qǐng</b> — please",
+                              "n": "Please"
+                          },
+                          {
+                              "t": "<b>qī</b> — seven",
+                              "n": "Seven"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_x",
+                      "isLetter": true,
+                      "letter": "x",
+                      "word": "x",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕ/",
+                      "translation": "Like English <b>sh</b> but with a <i>smile</i> — between 's' and 'sh'",
+                      "mnemonic": "A <span class='hl'>sh</span> with a smile — like saying 'she' but with a grin.",
+                      "examples": [
+                          {
+                              "t": "<b>xiǎo</b> — small",
+                              "n": "Small"
+                          },
+                          {
+                              "t": "<b>xǐ</b> — to like",
+                              "n": "Like"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_zh",
+                      "isLetter": true,
+                      "letter": "zh",
+                      "word": "zh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂ/ (unaspirated)",
+                      "translation": "Like English <b>j</b> but with tongue curled back — <i>retroflex</i>",
+                      "mnemonic": "Curl your tongue back like a <span class='hl'>snake</span> — 'zh' as in 'j' but with a twist.",
+                      "examples": [
+                          {
+                              "t": "<b>zhōng</b> — middle",
+                              "n": "Middle"
+                          },
+                          {
+                              "t": "<b>zhè</b> — this",
+                              "n": "This"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "ch",
+                      "word": "ch",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂʰ/ (aspirated)",
+                      "translation": "Like English <b>ch</b> but with tongue curled back and <i>puff of air</i>",
+                      "mnemonic": "A <span class='hl'>chug</span> of a train — with a burst of air.",
+                      "examples": [
+                          {
+                              "t": "<b>chī</b> — to eat",
+                              "n": "Eat"
+                          },
+                          {
+                              "t": "<b>chá</b> — tea",
+                              "n": "Tea"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_sh",
+                      "isLetter": true,
+                      "letter": "sh",
+                      "word": "sh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʂ/",
+                      "translation": "Like English <b>sh</b> but with tongue curled back",
+                      "mnemonic": "Curl your tongue back and say <span class='hl'>sh</span> — like 'shh' but deeper.",
+                      "examples": [
+                          {
+                              "t": "<b>shì</b> — to be",
+                              "n": "Is"
+                          },
+                          {
+                              "t": "<b>shū</b> — book",
+                              "n": "Book"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_r",
+                      "isLetter": true,
+                      "letter": "r",
+                      "word": "r",
+                      "emoji": "🔤",
+                      "phonetic": "/ʐ/",
+                      "translation": "Like English <b>r</b> but with a <i>buzzing</i> sound — tongue curled back",
+                      "mnemonic": "A <span class='hl'>buzz</span> like a bee — but with your tongue curled.",
+                      "examples": [
+                          {
+                              "t": "<b>rén</b> — person",
+                              "n": "Person"
+                          },
+                          {
+                              "t": "<b>rì</b> — sun",
+                              "n": "Sun"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "z",
+                      "word": "z",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/ (unaspirated)",
+                      "translation": "Like English <b>ds</b> in 'kids' — but without voice",
+                      "mnemonic": "A <span class='hl'>buzz</span> like a bee — but with a 'z' sound.",
+                      "examples": [
+                          {
+                              "t": "<b>zài</b> — again, at",
+                              "n": "Again"
+                          },
+                          {
+                              "t": "<b>zǎo</b> — early",
+                              "n": "Early"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_c",
+                      "isLetter": true,
+                      "letter": "c",
+                      "word": "c",
+                      "emoji": "🔤",
+                      "phonetic": "/tsʰ/ (aspirated)",
+                      "translation": "Like English <b>ts</b> in 'cats' — with a <i>puff of air</i>",
+                      "mnemonic": "A <span class='hl'>tsunami</span> — 'ts' with a burst of air.",
+                      "examples": [
+                          {
+                              "t": "<b>cài</b> — dish, vegetable",
+                              "n": "Dish"
+                          },
+                          {
+                              "t": "<b>cáng</b> — to hide",
+                              "n": "Hide"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_s",
+                      "isLetter": true,
+                      "letter": "s",
+                      "word": "s",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Same as English <b>s</b> — a hissing sound",
+                      "mnemonic": "A <span class='hl'>snake</span> hisses — 'sss'.",
+                      "examples": [
+                          {
+                              "t": "<b>sān</b> — three",
+                              "n": "Three"
+                          },
+                          {
+                              "t": "<b>sì</b> — four",
+                              "n": "Four"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "b",
+                      "word": "bā",
+                      "emoji": "8️⃣",
+                      "phonetic": "/pa˥/",
+                      "translation": "<b>Eight</b> — lucky number in Chinese",
+                      "translations": {
+                          "zh": "八",
+                          "en": "eight"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>bā</b> ge píngguǒ.",
+                              "n": "I have eight apples."
+                          },
+                          {
+                              "t": "<b>Bā</b> shì jí lì de shùzì.",
+                              "n": "Eight is a lucky number."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "t",
+                      "word": "tā",
+                      "emoji": "👤",
+                      "phonetic": "/tʰa˥/",
+                      "translation": "<b>He</b> or <b>she</b> — gender-neutral pronoun",
+                      "translations": {
+                          "zh": "他/她",
+                          "en": "he/she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Tā</b> shì lǎoshī.",
+                              "n": "He/She is a teacher."
+                          },
+                          {
+                              "t": "<b>Tā</b> hěn hǎo.",
+                              "n": "He/She is very good."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "h",
+                      "word": "hǎo",
+                      "emoji": "👍",
+                      "phonetic": "/xaʊ̯˨˩˦/",
+                      "translation": "<b>Good</b> — one of the most useful words",
+                      "translations": {
+                          "zh": "好",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Hǎo</b> de!",
+                              "n": "Okay!"
+                          },
+                          {
+                              "t": "Zhè ge hěn <b>hǎo</b>.",
+                              "n": "This is very good."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "q",
+                      "word": "qǐng",
+                      "emoji": "🙏",
+                      "phonetic": "/tɕʰiŋ˨˩˦/",
+                      "translation": "<b>Please</b> — polite request",
+                      "translations": {
+                          "zh": "请",
+                          "en": "please"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Qǐng</b> jìn.",
+                              "n": "Please come in."
+                          },
+                          {
+                              "t": "<b>Qǐng</b> wèn, nǐ jiào shénme míngzi?",
+                              "n": "May I ask, what's your name?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "ch",
+                      "word": "chī",
+                      "emoji": "🍽️",
+                      "phonetic": "/ʈʂʰɻ˥/",
+                      "translation": "<b>Eat</b> — essential verb",
+                      "translations": {
+                          "zh": "吃",
+                          "en": "eat"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yào <b>chī</b> fàn.",
+                              "n": "I want to eat food."
+                          },
+                          {
+                              "t": "Nǐ <b>chī</b> le ma?",
+                              "n": "Have you eaten?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "s",
+                      "word": "sān",
+                      "emoji": "3️⃣",
+                      "phonetic": "/san˥/",
+                      "translation": "<b>Three</b> — number",
+                      "translations": {
+                          "zh": "三",
+                          "en": "three"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>sān</b> ge péngyou.",
+                              "n": "I have three friends."
+                          },
+                          {
+                              "t": "<b>Sān</b> diǎn le.",
+                              "n": "It's three o'clock."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g3",
+              "name": "Finales (vocales y nasales)",
+              "icon": "🔤",
+              "color": "#10b981",
+              "description": "a o e i u ü — simples, diptongos y nasales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "a",
+                      "word": "a",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Vowel <b>a</b> — like <i>“ah”</i> in <span class=\"hl\">father</span>",
+                      "mnemonic": "A tall letter with a flat top — like a mountain peak, say 'ah' as if opening your mouth wide.",
+                      "examples": [
+                          {
+                              "t": "<b>a</b> is the basis for many finals: <b>ai</b>, <b>ao</b>, <b>an</b>",
+                              "n": "It appears in many combinations."
+                          },
+                          {
+                              "t": "Mā (妈) = mother, starts with <b>a</b>",
+                              "n": "Remember the tone: high and flat."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "o",
+                      "word": "o",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Vowel <b>o</b> — like <i>“aw”</i> in <span class=\"hl\">law</span> (but with rounded lips)",
+                      "mnemonic": "A circle — pucker your lips as if blowing a bubble, say 'oh'.",
+                      "examples": [
+                          {
+                              "t": "<b>o</b> appears in <b>ou</b> as in <b>gǒu</b> (dog)",
+                              "n": "Note: 'o' is often followed by 'u'."
+                          },
+                          {
+                              "t": "Mó (磨) = to grind, has <b>o</b>",
+                              "n": "Practice the rounded sound."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "e",
+                      "word": "e",
+                      "emoji": "🔤",
+                      "phonetic": "/ɤ/",
+                      "translation": "Vowel <b>e</b> — like <i>“uh”</i> in <span class=\"hl\">but</span>, but with a neutral tongue position",
+                      "mnemonic": "A flat line — keep your tongue flat and say 'uh' as if hesitating.",
+                      "examples": [
+                          {
+                              "t": "<b>e</b> alone is /ɤ/, as in <b>é</b> (goose)",
+                              "n": "Not the English 'ee' sound."
+                          },
+                          {
+                              "t": "In <b>en</b>, it sounds like 'un' as in <b>rén</b> (person)",
+                              "n": "Listen to the nasal ending."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "i",
+                      "word": "i",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "Vowel <b>i</b> — like <i>“ee”</i> in <span class=\"hl\">see</span>",
+                      "mnemonic": "A straight line with a dot — like a needle, say 'ee' with a smile.",
+                      "examples": [
+                          {
+                              "t": "<b>i</b> forms <b>ia</b>, <b>ie</b>, <b>in</b>, <b>ing</b>",
+                              "n": "It's a very common vowel."
+                          },
+                          {
+                              "t": "Yī (一) = one, starts with <b>i</b>",
+                              "n": "Remember the tone: high and level."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_u",
+                      "isLetter": true,
+                      "letter": "u",
+                      "word": "u",
+                      "emoji": "🔤",
+                      "phonetic": "/u/",
+                      "translation": "Vowel <b>u</b> — like <i>“oo”</i> in <span class=\"hl\">food</span>",
+                      "mnemonic": "A cup shape — like a cup, round your lips and say 'oo'.",
+                      "examples": [
+                          {
+                              "t": "<b>u</b> appears in <b>ua</b>, <b>uo</b>, <b>un</b>, <b>ong</b>",
+                              "n": "Often combined with other vowels."
+                          },
+                          {
+                              "t": "Bù (不) = not, has <b>u</b>",
+                              "n": "A very common word."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ue",
+                      "isLetter": true,
+                      "letter": "ü",
+                      "word": "ü",
+                      "emoji": "🔤",
+                      "phonetic": "/y/",
+                      "translation": "Vowel <b>ü</b> — like <i>“ü”</i> in German, or <i>“ee”</i> with rounded lips",
+                      "mnemonic": "A 'u' with two dots — like a surprised face, pucker your lips and say 'ee'.",
+                      "examples": [
+                          {
+                              "t": "After <b>j</b>, <b>q</b>, <b>x</b>, <b>y</b>, the dots are dropped: <b>ju</b> is actually <b>jü</b>",
+                              "n": "Important spelling rule."
+                          },
+                          {
+                              "t": "<b>üe</b> as in <b>yuè</b> (moon)",
+                              "n": "The dots are dropped after 'y'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ai",
+                      "isLetter": true,
+                      "letter": "ai",
+                      "word": "ai",
+                      "emoji": "🔤",
+                      "phonetic": "/ai/",
+                      "translation": "Compound final <b>ai</b> — like <i>“eye”</i> in <span class=\"hl\">time</span>",
+                      "mnemonic": "A + i — glide from 'ah' to 'ee', like saying 'eye' quickly.",
+                      "examples": [
+                          {
+                              "t": "Māi (买) = to buy, uses <b>ai</b>",
+                              "n": "Tone: third (falling-rising)."
+                          },
+                          {
+                              "t": "Hǎo (好) = good, but <b>ai</b> appears in <b>mǎi</b>",
+                              "n": "Contrast with 'ao'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ei",
+                      "isLetter": true,
+                      "letter": "ei",
+                      "word": "ei",
+                      "emoji": "🔤",
+                      "phonetic": "/ei/",
+                      "translation": "Compound final <b>ei</b> — like <i>“ay”</i> in <span class=\"hl\">say</span>",
+                      "mnemonic": "e + i — say 'eh' then 'ee', like the English word 'hey' without the 'h'.",
+                      "examples": [
+                          {
+                              "t": "Méi (没) = not have, uses <b>ei</b>",
+                              "n": "Common in negation."
+                          },
+                          {
+                              "t": "Bēi (杯) = cup, contains <b>ei</b>",
+                              "n": "Visualize a cup."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ao",
+                      "isLetter": true,
+                      "letter": "ao",
+                      "word": "ao",
+                      "emoji": "🔤",
+                      "phonetic": "/au/",
+                      "translation": "Compound final <b>ao</b> — like <i>“ow”</i> in <span class=\"hl\">cow</span>",
+                      "mnemonic": "a + o — from 'ah' to 'oh', like saying 'ow' when you bump your head.",
+                      "examples": [
+                          {
+                              "t": "<b>māo</b> (猫) = cat, uses <b>ao</b>",
+                              "n": "First tone."
+                          },
+                          {
+                              "t": "<b>hǎo</b> (好) = good, uses <b>ao</b>",
+                              "n": "Third tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ou",
+                      "isLetter": true,
+                      "letter": "ou",
+                      "word": "ou",
+                      "emoji": "🔤",
+                      "phonetic": "/ou/",
+                      "translation": "Compound final <b>ou</b> — like <i>“oh”</i> in <span class=\"hl\">go</span>",
+                      "mnemonic": "o + u — round your lips and say 'oh', like realizing something.",
+                      "examples": [
+                          {
+                              "t": "<b>gǒu</b> (狗) = dog, uses <b>ou</b>",
+                              "n": "Third tone."
+                          },
+                          {
+                              "t": "Shǒu (手) = hand, uses <b>ou</b>",
+                              "n": "A common body part."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ia",
+                      "isLetter": true,
+                      "letter": "ia",
+                      "word": "ia",
+                      "emoji": "🔤",
+                      "phonetic": "/ia/",
+                      "translation": "Compound final <b>ia</b> — like <i>“ya”</i> in <span class=\"hl\">yard</span>",
+                      "mnemonic": "i + a — glide from 'ee' to 'ah', like saying 'ya'.",
+                      "examples": [
+                          {
+                              "t": "<b>jiā</b> (家) = home, uses <b>ia</b>",
+                              "n": "First tone."
+                          },
+                          {
+                              "t": "Yā (鸭) = duck, uses <b>ia</b>",
+                              "n": "First tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ie",
+                      "isLetter": true,
+                      "letter": "ie",
+                      "word": "ie",
+                      "emoji": "🔤",
+                      "phonetic": "/ie/",
+                      "translation": "Compound final <b>ie</b> — like <i>“ye”</i> in <span class=\"hl\">yes</span>",
+                      "mnemonic": "i + e — say 'ee' then 'eh', like 'yeh'.",
+                      "examples": [
+                          {
+                              "t": "<b>xiè</b> (谢) = to thank, uses <b>ie</b>",
+                              "n": "Fourth tone."
+                          },
+                          {
+                              "t": "Jiě (姐) = older sister, uses <b>ie</b>",
+                              "n": "Third tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ua",
+                      "isLetter": true,
+                      "letter": "ua",
+                      "word": "ua",
+                      "emoji": "🔤",
+                      "phonetic": "/ua/",
+                      "translation": "Compound final <b>ua</b> — like <i>“wa”</i> in <span class=\"hl\">water</span>",
+                      "mnemonic": "u + a — round your lips and say 'wah'.",
+                      "examples": [
+                          {
+                              "t": "<b>huā</b> (花) = flower, uses <b>ua</b>",
+                              "n": "First tone."
+                          },
+                          {
+                              "t": "Guà (挂) = to hang, uses <b>ua</b>",
+                              "n": "Fourth tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_uo",
+                      "isLetter": true,
+                      "letter": "uo",
+                      "word": "uo",
+                      "emoji": "🔤",
+                      "phonetic": "/uo/",
+                      "translation": "Compound final <b>uo</b> — like <i>“wo”</i> in <span class=\"hl\">wonder</span>",
+                      "mnemonic": "u + o — glide from 'oo' to 'oh', like saying 'wo'.",
+                      "examples": [
+                          {
+                              "t": "<b>guó</b> (国) = country, uses <b>uo</b>",
+                              "n": "Second tone."
+                          },
+                          {
+                              "t": "Shuō (说) = to speak, uses <b>uo</b>",
+                              "n": "First tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ue",
+                      "isLetter": true,
+                      "letter": "üe",
+                      "word": "üe",
+                      "emoji": "🔤",
+                      "phonetic": "/yɛ/",
+                      "translation": "Compound final <b>üe</b> — like <i>“üe”</i> with rounded lips, similar to <i>“wet”</i> but with rounded lips",
+                      "mnemonic": "ü + e — pucker your lips and say 'yeh', like blowing a kiss.",
+                      "examples": [
+                          {
+                              "t": "<b>yuè</b> (月) = moon, uses <b>üe</b> (dots dropped after y)",
+                              "n": "Fourth tone."
+                          },
+                          {
+                              "t": "<b>xué</b> (学) = to study, uses <b>üe</b>",
+                              "n": "Second tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_an",
+                      "isLetter": true,
+                      "letter": "an",
+                      "word": "an",
+                      "emoji": "🔤",
+                      "phonetic": "/an/",
+                      "translation": "Nasal final <b>an</b> — like <i>“an”</i> in <span class=\"hl\">can</span>",
+                      "mnemonic": "a + n — say 'ah' and then let your tongue touch the roof for the 'n'.",
+                      "examples": [
+                          {
+                              "t": "<b>nán</b> (南) = south, uses <b>an</b>",
+                              "n": "Second tone."
+                          },
+                          {
+                              "t": "Fàn (饭) = rice/meal, uses <b>an</b>",
+                              "n": "Fourth tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_en",
+                      "isLetter": true,
+                      "letter": "en",
+                      "word": "en",
+                      "emoji": "🔤",
+                      "phonetic": "/ən/",
+                      "translation": "Nasal final <b>en</b> — like <i>“un”</i> in <span class=\"hl\">sun</span>",
+                      "mnemonic": "e + n — say 'uh' and then 'n', like the English word 'un' but shorter.",
+                      "examples": [
+                          {
+                              "t": "<b>rén</b> (人) = person, uses <b>en</b>",
+                              "n": "Second tone."
+                          },
+                          {
+                              "t": "Mén (门) = door, uses <b>en</b>",
+                              "n": "Second tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_in",
+                      "isLetter": true,
+                      "letter": "in",
+                      "word": "in",
+                      "emoji": "🔤",
+                      "phonetic": "/in/",
+                      "translation": "Nasal final <b>in</b> — like <i>“in”</i> in <span class=\"hl\">sin</span>",
+                      "mnemonic": "i + n — say 'ee' and then 'n', like the English word 'in'.",
+                      "examples": [
+                          {
+                              "t": "Jīn (金) = gold, uses <b>in</b>",
+                              "n": "First tone."
+                          },
+                          {
+                              "t": "Xīn (新) = new, uses <b>in</b>",
+                              "n": "First tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_un",
+                      "isLetter": true,
+                      "letter": "un",
+                      "word": "un",
+                      "emoji": "🔤",
+                      "phonetic": "/uən/",
+                      "translation": "Nasal final <b>un</b> — like <i>“wun”</i> in <span class=\"hl\">wonder</span> but shorter",
+                      "mnemonic": "u + n — say 'oo' then 'n', like 'wun'.",
+                      "examples": [
+                          {
+                              "t": "Hūn (婚) = marriage, uses <b>un</b>",
+                              "n": "First tone."
+                          },
+                          {
+                              "t": "Lún (轮) = wheel, uses <b>un</b>",
+                              "n": "Second tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ang",
+                      "isLetter": true,
+                      "letter": "ang",
+                      "word": "ang",
+                      "emoji": "🔤",
+                      "phonetic": "/ɑŋ/",
+                      "translation": "Nasal final <b>ang</b> — like <i>“ahng”</i> in <span class=\"hl\">long</span> (with a nasal 'ng')",
+                      "mnemonic": "a + ng — say 'ah' and then let the air come out your nose, like a humming sound.",
+                      "examples": [
+                          {
+                              "t": "<b>máng</b> (忙) = busy, uses <b>ang</b>",
+                              "n": "Second tone."
+                          },
+                          {
+                              "t": "Fáng (房) = house, uses <b>ang</b>",
+                              "n": "Second tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_eng",
+                      "isLetter": true,
+                      "letter": "eng",
+                      "word": "eng",
+                      "emoji": "🔤",
+                      "phonetic": "/ɤŋ/",
+                      "translation": "Nasal final <b>eng</b> — like <i>“ung”</i> in <span class=\"hl\">hung</span> but with a neutral vowel",
+                      "mnemonic": "e + ng — say 'uh' and then 'ng', like the end of 'song'.",
+                      "examples": [
+                          {
+                              "t": "Fēng (风) = wind, uses <b>eng</b>",
+                              "n": "First tone."
+                          },
+                          {
+                              "t": "Lěng (冷) = cold, uses <b>eng</b>",
+                              "n": "Third tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ing",
+                      "isLetter": true,
+                      "letter": "ing",
+                      "word": "ing",
+                      "emoji": "🔤",
+                      "phonetic": "/iŋ/",
+                      "translation": "Nasal final <b>ing</b> — like <i>“ing”</i> in <span class=\"hl\">sing</span>",
+                      "mnemonic": "i + ng — say 'ee' and then 'ng', like the English word 'sing'.",
+                      "examples": [
+                          {
+                              "t": "<b>míng</b> (明) = bright, uses <b>ing</b>",
+                              "n": "Second tone."
+                          },
+                          {
+                              "t": "Qǐng (请) = please, uses <b>ing</b>",
+                              "n": "Third tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ong",
+                      "isLetter": true,
+                      "letter": "ong",
+                      "word": "ong",
+                      "emoji": "🔤",
+                      "phonetic": "/ʊŋ/",
+                      "translation": "Nasal final <b>ong</b> — like <i>“ung”</i> in <span class=\"hl\">young</span>",
+                      "mnemonic": "o + ng — round your lips and say 'oh' then 'ng', like 'ong'.",
+                      "examples": [
+                          {
+                              "t": "Hóng (红) = red, uses <b>ong</b>",
+                              "n": "Second tone."
+                          },
+                          {
+                              "t": "Dōng (东) = east, uses <b>ong</b>",
+                              "n": "First tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_er",
+                      "isLetter": true,
+                      "letter": "er",
+                      "word": "er",
+                      "emoji": "🔤",
+                      "phonetic": "/ɚ/",
+                      "translation": "Special final <b>er</b> — like <i>“er”</i> in <span class=\"hl\">her</span> (American English)",
+                      "mnemonic": "e + r — curl your tongue back, like saying 'er' with a retroflex r.",
+                      "examples": [
+                          {
+                              "t": "<b>èr</b> (二) = two, uses <b>er</b>",
+                              "n": "Fourth tone."
+                          },
+                          {
+                              "t": "<b>ěr</b> (耳) = ear, uses <b>er</b>",
+                              "n": "Third tone."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "ao",
+                      "word": "māo",
+                      "emoji": "🐱",
+                      "phonetic": "/mau/",
+                      "translation": "cat — <b>māo</b> uses the final <b>ao</b>",
+                      "translations": {
+                          "zh": "猫",
+                          "en": "cat"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu yī zhī <b>māo</b>.",
+                              "n": "I have a cat."
+                          },
+                          {
+                              "t": "<b>Māo</b> hěn kě'ài.",
+                              "n": "The cat is very cute."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "ao",
+                      "word": "hǎo",
+                      "emoji": "👍",
+                      "phonetic": "/xau/",
+                      "translation": "good, well — <b>hǎo</b> uses the final <b>ao</b>",
+                      "translations": {
+                          "zh": "好",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nǐ <b>hǎo</b>!",
+                              "n": "Hello! (literally: you good)"
+                          },
+                          {
+                              "t": "Zhège hěn <b>hǎo</b>.",
+                              "n": "This is very good."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "ou",
+                      "word": "gǒu",
+                      "emoji": "🐶",
+                      "phonetic": "/kou/",
+                      "translation": "dog — <b>gǒu</b> uses the final <b>ou</b>",
+                      "translations": {
+                          "zh": "狗",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ jiā yǒu yī zhī <b>gǒu</b>.",
+                              "n": "My family has a dog."
+                          },
+                          {
+                              "t": "<b>Gǒu</b> jiào le.",
+                              "n": "The dog barked."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "ia",
+                      "word": "jiā",
+                      "emoji": "🏠",
+                      "phonetic": "/tɕia/",
+                      "translation": "home, family — <b>jiā</b> uses the final <b>ia</b>",
+                      "translations": {
+                          "zh": "家",
+                          "en": "home"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ huí <b>jiā</b> le.",
+                              "n": "I went back home."
+                          },
+                          {
+                              "t": "Nǐ de <b>jiā</b> hěn dà.",
+                              "n": "Your home is very big."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g4",
+              "name": "Primeras palabras en pinyin",
+              "icon": "🧩",
+              "color": "#ef4444",
+              "description": "Leer y pronunciar 20 palabras esenciales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2",
+                  "zh_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g4_L_ni",
+                      "isLetter": true,
+                      "letter": "你",
+                      "word": "你",
+                      "emoji": "👤",
+                      "phonetic": "/nǐ/",
+                      "translation": "The character for <b>you</b> — left side is a person <i>(亻)</i>, right side is a hook. Pronounced with a <b>falling-rising tone</b> (third tone).",
+                      "mnemonic": "The right side looks like a person leaning forward to ask 'you?' with a rising question mark shape.",
+                      "examples": [
+                          {
+                              "t": "<b>你</b>好 — the most common greeting in Chinese.",
+                              "n": "Hello (lit. 'you good')"
+                          },
+                          {
+                              "t": "Tone tip: say 'nee' then drop and rise your voice like a question.",
+                              "n": "Third tone practice"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_wo",
+                      "isLetter": true,
+                      "letter": "我",
+                      "word": "我",
+                      "emoji": "🙋",
+                      "phonetic": "/wǒ/",
+                      "translation": "The character for <b>I/me</b> — the left side is a hand <i>(扌)</i>, the right side is a spear. Pronounced with a <b>falling-rising tone</b>.",
+                      "mnemonic": "A hand holding a spear — 'I' am the one holding the weapon.",
+                      "examples": [
+                          {
+                              "t": "<b>我</b>是学生 — I am a student.",
+                              "n": "Basic self-introduction"
+                          },
+                          {
+                              "t": "Tone tip: 'wo' starts low, dips lower, then rises.",
+                              "n": "Third tone practice"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_shi",
+                      "isLetter": true,
+                      "letter": "是",
+                      "word": "是",
+                      "emoji": "✅",
+                      "phonetic": "/shì/",
+                      "translation": "The character for <b>to be</b> (am/is/are) — the top looks like a sun <i>(日)</i>, bottom is a footprint. Pronounced with a <b>falling tone</b>.",
+                      "mnemonic": "The sun (日) stepping forward — 'is' = the sun IS there.",
+                      "examples": [
+                          {
+                              "t": "我<b>是</b>老师 — I am a teacher.",
+                              "n": "Using 是 to identify"
+                          },
+                          {
+                              "t": "Tone tip: 'shir' — say it flat and firm, like a command.",
+                              "n": "Fourth tone practice"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_hao",
+                      "isLetter": true,
+                      "letter": "好",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "/hǎo/",
+                      "translation": "The character for <b>good</b> — left is a woman <i>(女)</i>, right is a child <i>(子)</i>. Woman + child = good. Pronounced with a <b>falling-rising tone</b>.",
+                      "mnemonic": "A woman with her child — that's a good picture!",
+                      "examples": [
+                          {
+                              "t": "你<b>好</b> — hello (lit. 'you good').",
+                              "n": "The most useful word in Chinese"
+                          },
+                          {
+                              "t": "Tone tip: 'how' — start high, dip down, come back up.",
+                              "n": "Third tone practice"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_01",
+                      "isLetter": false,
+                      "letter": "你",
+                      "word": "你好",
+                      "emoji": "👋",
+                      "phonetic": "/nǐ hǎo/",
+                      "translation": "<b>Hello</b> — literally <i>'you good'</i>. The most essential greeting.",
+                      "translations": {
+                          "zh": "你好",
+                          "en": "Hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>你好</b>！我叫安娜。",
+                              "n": "Hello! My name is Anna."
+                          },
+                          {
+                              "t": "<b>你好</b>吗？ — How are you? (lit. 'you good?')",
+                              "n": "Common follow-up question"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_02",
+                      "isLetter": false,
+                      "letter": "谢",
+                      "word": "谢谢",
+                      "emoji": "🙏",
+                      "phonetic": "/xièxiè/",
+                      "translation": "<b>Thank you</b> — the character repeats for emphasis. Both syllables have a <b>falling tone</b>.",
+                      "translations": {
+                          "zh": "谢谢",
+                          "en": "Thanks"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>谢谢</b>你！ — Thank you!",
+                              "n": "Adding 你 makes it more personal"
+                          },
+                          {
+                              "t": "不<b>谢</b> — You're welcome (lit. 'no thanks').",
+                              "n": "Common response"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_03",
+                      "isLetter": false,
+                      "letter": "对",
+                      "word": "对不起",
+                      "emoji": "😔",
+                      "phonetic": "/duìbuqǐ/",
+                      "translation": "<b>Sorry</b> — literally <i>'not able to face you'</i>. The middle syllable is neutral tone.",
+                      "translations": {
+                          "zh": "对不起",
+                          "en": "Sorry"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>对不起</b>，我晚了。",
+                              "n": "Sorry, I'm late."
+                          },
+                          {
+                              "t": "<b>对不起</b>！ — Excuse me! (when bumping into someone)",
+                              "n": "Useful in crowded places"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_04",
+                      "isLetter": false,
+                      "letter": "我",
+                      "word": "我",
+                      "emoji": "🙋",
+                      "phonetic": "/wǒ/",
+                      "translation": "<b>I / me</b> — one of the first pronouns to learn.",
+                      "translations": {
+                          "zh": "我",
+                          "en": "I, me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>我</b>是学生。",
+                              "n": "I am a student."
+                          },
+                          {
+                              "t": "<b>我</b>喜欢茶。",
+                              "n": "I like tea."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_05",
+                      "isLetter": false,
+                      "letter": "你",
+                      "word": "你",
+                      "emoji": "👉",
+                      "phonetic": "/nǐ/",
+                      "translation": "<b>You</b> — essential for addressing someone directly.",
+                      "translations": {
+                          "zh": "你",
+                          "en": "You"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>你</b>好！",
+                              "n": "Hello!"
+                          },
+                          {
+                              "t": "<b>你</b>是老师吗？",
+                              "n": "Are you a teacher?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_06",
+                      "isLetter": false,
+                      "letter": "他",
+                      "word": "他",
+                      "emoji": "👨",
+                      "phonetic": "/tā/",
+                      "translation": "<b>He / him</b> — the person radical <i>(亻)</i> on the left. Same pronunciation as 她 (she).",
+                      "translations": {
+                          "zh": "他",
+                          "en": "He, him"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>他</b>是医生。",
+                              "n": "He is a doctor."
+                          },
+                          {
+                              "t": "<b>他</b>是我朋友。",
+                              "n": "He is my friend."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_07",
+                      "isLetter": false,
+                      "letter": "她",
+                      "word": "她",
+                      "emoji": "👩",
+                      "phonetic": "/tā/",
+                      "translation": "<b>She / her</b> — the woman radical <i>(女)</i> on the left. Same sound as 他 (he).",
+                      "translations": {
+                          "zh": "她",
+                          "en": "She, her"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>她</b>是老师。",
+                              "n": "She is a teacher."
+                          },
+                          {
+                              "t": "<b>她</b>很漂亮。",
+                              "n": "She is very pretty."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_08",
+                      "isLetter": false,
+                      "letter": "我",
+                      "word": "我们",
+                      "emoji": "👥",
+                      "phonetic": "/wǒmen/",
+                      "translation": "<b>We / us</b> — 我 (I) + 们 (plural marker). The 们 is neutral tone.",
+                      "translations": {
+                          "zh": "我们",
+                          "en": "We, us"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>我们</b>是朋友。",
+                              "n": "We are friends."
+                          },
+                          {
+                              "t": "<b>我们</b>走吧。",
+                              "n": "Let's go."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_09",
+                      "isLetter": false,
+                      "letter": "是",
+                      "word": "是",
+                      "emoji": "✅",
+                      "phonetic": "/shì/",
+                      "translation": "<b>To be</b> (am/is/are) — the linking verb. Falling tone.",
+                      "translations": {
+                          "zh": "是",
+                          "en": "To be"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>是</b>中国人。",
+                              "n": "I am Chinese."
+                          },
+                          {
+                              "t": "这<b>是</b>书。",
+                              "n": "This is a book."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_10",
+                      "isLetter": false,
+                      "letter": "不",
+                      "word": "不是",
+                      "emoji": "❌",
+                      "phonetic": "/bù shì/",
+                      "translation": "<b>Is not</b> — negation of 是. The 不 changes to second tone before a fourth tone.",
+                      "translations": {
+                          "zh": "不是",
+                          "en": "Is not"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>不是</b>老师。",
+                              "n": "I am not a teacher."
+                          },
+                          {
+                              "t": "这<b>不是</b>我的。",
+                              "n": "This is not mine."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_11",
+                      "isLetter": false,
+                      "letter": "有",
+                      "word": "有",
+                      "emoji": "✋",
+                      "phonetic": "/yǒu/",
+                      "translation": "<b>To have</b> — the character looks like a hand holding something. Third tone.",
+                      "translations": {
+                          "zh": "有",
+                          "en": "To have"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>有</b>一个弟弟。",
+                              "n": "I have a younger brother."
+                          },
+                          {
+                              "t": "你<b>有</b>钱吗？",
+                              "n": "Do you have money?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_12",
+                      "isLetter": false,
+                      "letter": "没",
+                      "word": "没有",
+                      "emoji": "🚫",
+                      "phonetic": "/méiyǒu/",
+                      "translation": "<b>Don't have</b> — negation of 有. Very common in everyday speech.",
+                      "translations": {
+                          "zh": "没有",
+                          "en": "Don't have"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>没有</b>车。",
+                              "n": "I don't have a car."
+                          },
+                          {
+                              "t": "我<b>没有</b>时间。",
+                              "n": "I don't have time."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_13",
+                      "isLetter": false,
+                      "letter": "好",
+                      "word": "好",
+                      "emoji": "😊",
+                      "phonetic": "/hǎo/",
+                      "translation": "<b>Good / well</b> — woman + child = good. Third tone.",
+                      "translations": {
+                          "zh": "好",
+                          "en": "Good"
+                      },
+                      "examples": [
+                          {
+                              "t": "很<b>好</b>！",
+                              "n": "Very good!"
+                          },
+                          {
+                              "t": "我<b>好</b>，你呢？",
+                              "n": "I'm good, and you?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_14",
+                      "isLetter": false,
+                      "letter": "不",
+                      "word": "不好",
+                      "emoji": "😞",
+                      "phonetic": "/bù hǎo/",
+                      "translation": "<b>Not good</b> — negation of 好. Simple and direct.",
+                      "translations": {
+                          "zh": "不好",
+                          "en": "Not good"
+                      },
+                      "examples": [
+                          {
+                              "t": "天气<b>不好</b>。",
+                              "n": "The weather is not good."
+                          },
+                          {
+                              "t": "我觉得<b>不好</b>。",
+                              "n": "I don't feel well."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_15",
+                      "isLetter": false,
+                      "letter": "大",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "/dà/",
+                      "translation": "<b>Big</b> — a person stretching their arms wide. Fourth tone.",
+                      "translations": {
+                          "zh": "大",
+                          "en": "Big"
+                      },
+                      "examples": [
+                          {
+                              "t": "这个苹果很<b>大</b>。",
+                              "n": "This apple is very big."
+                          },
+                          {
+                              "t": "北京很<b>大</b>。",
+                              "n": "Beijing is big."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_16",
+                      "isLetter": false,
+                      "letter": "小",
+                      "word": "小",
+                      "emoji": "🐭",
+                      "phonetic": "/xiǎo/",
+                      "translation": "<b>Small / little</b> — three small strokes. Third tone.",
+                      "translations": {
+                          "zh": "小",
+                          "en": "Small"
+                      },
+                      "examples": [
+                          {
+                              "t": "这只猫很<b>小</b>。",
+                              "n": "This cat is very small."
+                          },
+                          {
+                              "t": "我<b>小</b>的时候…",
+                              "n": "When I was little..."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_17",
+                      "isLetter": false,
+                      "letter": "来",
+                      "word": "来",
+                      "emoji": "🚶",
+                      "phonetic": "/lái/",
+                      "translation": "<b>To come</b> — the character shows a person arriving. Second tone.",
+                      "translations": {
+                          "zh": "来",
+                          "en": "To come"
+                      },
+                      "examples": [
+                          {
+                              "t": "请<b>来</b>这里。",
+                              "n": "Please come here."
+                          },
+                          {
+                              "t": "他<b>来</b>了。",
+                              "n": "He has come."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_18",
+                      "isLetter": false,
+                      "letter": "去",
+                      "word": "去",
+                      "emoji": "🏃",
+                      "phonetic": "/qù/",
+                      "translation": "<b>To go</b> — the character shows a person leaving. Fourth tone.",
+                      "translations": {
+                          "zh": "去",
+                          "en": "To go"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>去</b>学校。",
+                              "n": "I go to school."
+                          },
+                          {
+                              "t": "我们<b>去</b>公园吧。",
+                              "n": "Let's go to the park."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_19",
+                      "isLetter": false,
+                      "letter": "吃",
+                      "word": "吃",
+                      "emoji": "🍚",
+                      "phonetic": "/chī/",
+                      "translation": "<b>To eat</b> — the left radical means mouth <i>(口)</i>. First tone.",
+                      "translations": {
+                          "zh": "吃",
+                          "en": "To eat"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>吃</b>米饭。",
+                              "n": "I eat rice."
+                          },
+                          {
+                              "t": "你<b>吃</b>了吗？",
+                              "n": "Have you eaten? (common greeting)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_20",
+                      "isLetter": false,
+                      "letter": "喝",
+                      "word": "喝",
+                      "emoji": "🥤",
+                      "phonetic": "/hē/",
+                      "translation": "<b>To drink</b> — mouth radical <i>(口)</i> on the left. First tone.",
+                      "translations": {
+                          "zh": "喝",
+                          "en": "To drink"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>喝</b>水。",
+                              "n": "I drink water."
+                          },
+                          {
+                              "t": "你<b>喝</b>茶吗？",
+                              "n": "Do you drink tea?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_21",
+                      "isLetter": false,
+                      "letter": "说",
+                      "word": "说",
+                      "emoji": "💬",
+                      "phonetic": "/shuō/",
+                      "translation": "<b>To speak / to say</b> — the left radical means words/speech <i>(讠)</i>. First tone.",
+                      "translations": {
+                          "zh": "说",
+                          "en": "To speak"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>说</b>中文。",
+                              "n": "I speak Chinese."
+                          },
+                          {
+                              "t": "请<b>说</b>慢一点。",
+                              "n": "Please speak slower."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
   // CHINO
   // ──────────────────────────────────────────────────────
   zh: {
@@ -51415,1732 +55292,11160 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
-  // KO_DE
+  // ZH_FR
   // ──────────────────────────────────────────────────────
-  ko_de: {
+  zh_fr: {
       "level": "A0",
-      "levelName": "El Hangul",
+      "levelName": "Pinyin y tonos del chino mandarín",
       "groups": [
           {
-              "id": "ko_a0_g1",
-              "name": "Vocales básicas",
-              "icon": "🔤",
+              "id": "zh_a0_g1",
+              "name": "Los 4 tonos",
+              "icon": "🎵",
               "color": "#6366f1",
-              "description": "ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ ㅐ ㅔ — las 8 vocales simples",
+              "description": "El tono cambia completamente el significado",
               "reviewFrom": [],
               "cards": [
                   {
-                      "id": "ko_a0_g1_L_a",
+                      "id": "zh_a0_g1_L_a1",
                       "isLetter": true,
-                      "letter": "ㅏ",
-                      "word": "ㅏ",
-                      "emoji": "🔤",
-                      "phonetic": "/a/",
-                      "translation": "Vokal <b>ㅏ</b> — wie spanisches <i>a</i> in „casa“",
-                      "mnemonic": "Ein Strich nach rechts von der Mitte — wie ein kleiner Arm, der nach rechts zeigt, oder die rechte Hälfte eines „+“.",
+                      "letter": "ā",
+                      "word": "ā",
+                      "emoji": "📈",
+                      "phonetic": "/áː/",
+                      "translation": "Premier ton — <b>ā</b> : ton haut et plat, comme une note soutenue. <i>Pensez à un chanteur qui tient une note aiguë.</i>",
+                      "mnemonic": "Imaginez une ligne droite au-dessus d'une montagne : le ton reste parfaitement plat et élevé.",
                       "examples": [
                           {
-                              "t": "Mit stillem ㅇ: <b>아</b> (a) — <b>아버지</b> (Vater)",
-                              "n": "ㅇ ist stumm, ㅏ klingt wie „a“"
+                              "t": "<b>mā</b> (妈) = maman <br><b>bā</b> (八) = huit <br><b>tā</b> (他/她) = il/elle",
+                              "n": "Tous les exemples du premier ton sont prononcés avec une hauteur constante et élevée."
                           },
                           {
-                              "t": "<b>나</b> (na) — ich",
-                              "n": "Einfaches Wort mit ㅏ"
+                              "t": "Écoutez la différence : <b>mā</b> (maman) vs <b>mǎ</b> (cheval) — le ton change tout !",
+                              "n": "Le premier ton est plat, le troisième descend puis monte."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_L_eo",
+                      "id": "zh_a0_g1_L_a2",
                       "isLetter": true,
-                      "letter": "ㅓ",
-                      "word": "ㅓ",
-                      "emoji": "🔤",
-                      "phonetic": "/ʌ/",
-                      "translation": "Vokal <b>ㅓ</b> — wie das <i>a</i> in englisch „about“ oder deutschem „aber“ (dumpfes a)",
-                      "mnemonic": "Ein Strich nach links von der Mitte — wie ein Arm nach links, oder die linke Hälfte eines „+“. Es ist das Gegenteil von ㅏ.",
+                      "letter": "á",
+                      "word": "á",
+                      "emoji": "📈",
+                      "phonetic": "/ǎ/",
+                      "translation": "Deuxième ton — <b>á</b> : ton montant, comme si vous posiez une question surprise. <i>« Hein ? » en français.</i>",
+                      "mnemonic": "Imaginez une question : votre voix monte naturellement, comme pour dire « Quoi ? ».",
                       "examples": [
                           {
-                              "t": "Mit stillem ㅇ: <b>어</b> (eo) — <b>어머니</b> (Mutter)",
-                              "n": "ㅇ stumm, ㅓ klingt dumpf"
+                              "t": "<b>má</b> (麻) = chanvre / engourdi <br><b>lái</b> (来) = venir <br><b>nán</b> (难) = difficile",
+                              "n": "Le deuxième ton monte du medium vers le haut."
                           },
                           {
-                              "t": "<b>어디</b> (eodi) — wo",
-                              "n": "Häufige Frage"
+                              "t": "Comparez : <b>mā</b> (maman) vs <b>má</b> (chanvre) — la hauteur monte.",
+                              "n": "Pratiquez la montée avec un geste de la main vers le haut."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_L_o",
+                      "id": "zh_a0_g1_L_a3",
                       "isLetter": true,
-                      "letter": "ㅗ",
-                      "word": "ㅗ",
-                      "emoji": "🔤",
-                      "phonetic": "/o/",
-                      "translation": "Vokal <b>ㅗ</b> — wie spanisches <i>o</i> in „sol“",
-                      "mnemonic": "Ein horizontaler Strich oben mit einem kleinen Strich nach oben — sieht aus wie eine Flagge oder ein „T“ ohne unteren Teil. Denk an „Oben“ (o = oben).",
+                      "letter": "ǎ",
+                      "word": "ǎ",
+                      "emoji": "📉📈",
+                      "phonetic": "/à/",
+                      "translation": "Troisième ton — <b>ǎ</b> : ton descendant puis montant, comme un « hein ? » dubitatif. <i>Pensez à une vague.</i>",
+                      "mnemonic": "Visualisez un sourire : la voix descend puis remonte, comme si vous étiez perplexe.",
                       "examples": [
                           {
-                              "t": "Mit stillem ㅇ: <b>오</b> (o) — <b>오다</b> (kommen)",
-                              "n": "ㅇ stumm"
+                              "t": "<b>mǎ</b> (马) = cheval <br><b>nǐ</b> (你) = tu <br><b>hǎo</b> (好) = bien <br><b>wǒ</b> (我) = je",
+                              "n": "Le troisième ton est le plus dramatique : bas, puis remontée."
                           },
                           {
-                              "t": "<b>소</b> (so) — Kuh",
-                              "n": "Kurzes Wort"
+                              "t": "Règle spéciale : deux 3èmes tons se suivent → le premier devient 2ème ton. <br>Exemple : <b>nǐ hǎo</b> → <b>ní hǎo</b> (bonjour).",
+                              "n": "Cette règle rend la prononciation plus fluide."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_L_u",
+                      "id": "zh_a0_g1_L_a4",
                       "isLetter": true,
-                      "letter": "ㅜ",
-                      "word": "ㅜ",
-                      "emoji": "🔤",
-                      "phonetic": "/u/",
-                      "translation": "Vokal <b>ㅜ</b> — wie spanisches <i>u</i> in „luna“",
-                      "mnemonic": "Horizontaler Strich unten mit kleinem Strich nach unten — sieht aus wie ein „T“ auf dem Kopf oder ein Becher. Denk an „unten“ (u = unten).",
+                      "letter": "à",
+                      "word": "à",
+                      "emoji": "📉",
+                      "phonetic": "/â/",
+                      "translation": "Quatrième ton — <b>à</b> : ton descendant et sec, comme un ordre ferme. <i>« Non ! » en français.</i>",
+                      "mnemonic": "Imaginez un coup de poing sur une table : la voix tombe brusquement.",
                       "examples": [
                           {
-                              "t": "Mit stillem ㅇ: <b>우</b> (u) — <b>우리</b> (wir/unser)",
-                              "n": "ㅇ stumm"
+                              "t": "<b>mà</b> (骂) = gronder <br><b>shì</b> (是) = être / oui <br><b>bù</b> (不) = non / ne pas",
+                              "n": "Le quatrième ton est court et énergique."
                           },
                           {
-                              "t": "<b>물</b> (mul) — Wasser",
-                              "n": "Häufiges Wort"
+                              "t": "Règle pour <b>bù</b> : devant un 4ème ton, il devient 2ème ton. <br>Exemple : <b>bù shì</b> → <b>bú shì</b> (ne pas être).",
+                              "n": "Cette exception facilite la prononciation."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_L_eu",
+                      "id": "zh_a0_g1_L_neutral",
                       "isLetter": true,
-                      "letter": "ㅡ",
-                      "word": "ㅡ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɯ/",
-                      "translation": "Vokal <b>ㅡ</b> — kein deutsches Äquivalent, Zunge hinten und entspannt, wie ein <i>u</i> ohne Lippenrundung",
-                      "mnemonic": "Ein einziger horizontaler Strich — sieht aus wie ein langes, flaches „-“. Denk an „neutral“ — die Zunge liegt flach.",
+                      "letter": "ma",
+                      "word": "ma",
+                      "emoji": "⚖️",
+                      "phonetic": "/ma/",
+                      "translation": "Ton neutre — <b>ma</b> : syllabe légère et atone, sans ton marqué. <i>Comme une syllabe faible en français.</i>",
+                      "mnemonic": "Pensez à un murmure rapide et léger, sans hauteur fixe.",
                       "examples": [
                           {
-                              "t": "Mit stillem ㅇ: <b>으</b> (eu) — <b>으로</b> (in Richtung)",
-                              "n": "ㅇ stumm"
+                              "t": "Particules : <b>ma</b> (question), <b>ne</b> (et alors ?), <b>le</b> (changement), <b>ba</b> (suggestion), <b>de</b> (possession).",
+                              "n": "Le ton neutre est court et doux."
                           },
                           {
-                              "t": "<b>음식</b> (eumsik) — Essen",
-                              "n": "Alltagswort"
+                              "t": "Exemple classique : <b>mā má mǎ mà ma</b> — maman, chanvre, cheval, gronder, particule.",
+                              "n": "Le contexte est essentiel pour comprendre le sens."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_L_i",
+                      "id": "zh_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "mā",
+                      "word": "妈",
+                      "emoji": "👩",
+                      "phonetic": "/mā/",
+                      "translation": "<b>maman</b> — premier ton, plat et haut. <span class=\"hl\">Contraste avec mǎ (cheval)</span>.",
+                      "translations": {
+                          "zh": "妈",
+                          "fr": "maman",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>妈</b> 很忙。 (Mā hěn máng.)",
+                              "n": "Maman est très occupée."
+                          },
+                          {
+                              "t": "我 爱 <b>妈</b>。 (Wǒ ài mā.)",
+                              "n": "J'aime maman."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "mǎ",
+                      "word": "马",
+                      "emoji": "🐴",
+                      "phonetic": "/mǎ/",
+                      "translation": "<b>cheval</b> — troisième ton, descendant puis montant. <span class=\"hl\">Contraste avec mā (maman)</span>.",
+                      "translations": {
+                          "zh": "马",
+                          "fr": "cheval",
+                          "en": "horse"
+                      },
+                      "examples": [
+                          {
+                              "t": "一 匹 <b>马</b>。 (Yì pǐ mǎ.)",
+                              "n": "Un cheval."
+                          },
+                          {
+                              "t": "<b>马</b> 很 快。 (Mǎ hěn kuài.)",
+                              "n": "Le cheval est rapide."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "mà",
+                      "word": "骂",
+                      "emoji": "😠",
+                      "phonetic": "/mà/",
+                      "translation": "<b>gronder</b> — quatrième ton, chute brusque. <span class=\"hl\">Contraste avec mā et mǎ</span>.",
+                      "translations": {
+                          "zh": "骂",
+                          "fr": "gronder",
+                          "en": "to scold"
+                      },
+                      "examples": [
+                          {
+                              "t": "妈妈 <b>骂</b> 我。 (Māma mà wǒ.)",
+                              "n": "Maman me gronde."
+                          },
+                          {
+                              "t": "别 <b>骂</b> 他。 (Bié mà tā.)",
+                              "n": "Ne le gronde pas."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "nǐ",
+                      "word": "你",
+                      "emoji": "👉",
+                      "phonetic": "/nǐ/",
+                      "translation": "<b>tu / toi</b> — troisième ton. <span class=\"hl\">Mot essentiel pour « vous » (nǐ hǎo)</span>.",
+                      "translations": {
+                          "zh": "你",
+                          "fr": "tu / toi",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>你</b> 好！ (Nǐ hǎo !)",
+                              "n": "Bonjour ! (litt. toi bien)"
+                          },
+                          {
+                              "t": "<b>你</b> 是 谁？ (Nǐ shì shéi ?)",
+                              "n": "Qui es-tu ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "hǎo",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "/hǎo/",
+                      "translation": "<b>bien / bon</b> — troisième ton. <span class=\"hl\">Utilisé dans « nǐ hǎo » (bonjour)</span>.",
+                      "translations": {
+                          "zh": "好",
+                          "fr": "bien / bon",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "很 <b>好</b>。 (Hěn hǎo.)",
+                              "n": "Très bien."
+                          },
+                          {
+                              "t": "<b>好</b> 的。 (Hǎo de.)",
+                              "n": "D'accord."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "wǒ",
+                      "word": "我",
+                      "emoji": "🙋",
+                      "phonetic": "/wǒ/",
+                      "translation": "<b>je / moi</b> — troisième ton. <span class=\"hl\">Mot de base pour se présenter</span>.",
+                      "translations": {
+                          "zh": "我",
+                          "fr": "je / moi",
+                          "en": "I / me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>我</b> 是 法国人。 (Wǒ shì Fǎguó rén.)",
+                              "n": "Je suis français."
+                          },
+                          {
+                              "t": "<b>我</b> 爱 你。 (Wǒ ài nǐ.)",
+                              "n": "Je t'aime."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "shì",
+                      "word": "是",
+                      "emoji": "✅",
+                      "phonetic": "/shì/",
+                      "translation": "<b>être / oui</b> — quatrième ton. <span class=\"hl\">Verbe d'identification</span>.",
+                      "translations": {
+                          "zh": "是",
+                          "fr": "être / oui",
+                          "en": "to be / yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "我 <b>是</b> 老师。 (Wǒ shì lǎoshī.)",
+                              "n": "Je suis professeur."
+                          },
+                          {
+                              "t": "<b>是</b> 的。 (Shì de.)",
+                              "n": "Oui."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "bù",
+                      "word": "不",
+                      "emoji": "🚫",
+                      "phonetic": "/bù/",
+                      "translation": "<b>ne pas / non</b> — quatrième ton, mais devient deuxième ton devant un autre quatrième ton. <span class=\"hl\">Règle : bú + 4ème ton</span>.",
+                      "translations": {
+                          "zh": "不",
+                          "fr": "ne pas / non",
+                          "en": "not / no"
+                      },
+                      "examples": [
+                          {
+                              "t": "我 <b>不</b> 是 学生。 (Wǒ bú shì xuésheng.)",
+                              "n": "Je ne suis pas étudiant."
+                          },
+                          {
+                              "t": "<b>不</b> 好。 (Bù hǎo.)",
+                              "n": "Pas bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "lái",
+                      "word": "来",
+                      "emoji": "🚶",
+                      "phonetic": "/lái/",
+                      "translation": "<b>venir</b> — deuxième ton, montant.",
+                      "translations": {
+                          "zh": "来",
+                          "fr": "venir",
+                          "en": "to come"
+                      },
+                      "examples": [
+                          {
+                              "t": "请 <b>来</b>。 (Qǐng lái.)",
+                              "n": "Venez, s'il vous plaît."
+                          },
+                          {
+                              "t": "他 <b>来</b> 了。 (Tā lái le.)",
+                              "n": "Il est venu."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "nán",
+                      "word": "难",
+                      "emoji": "🧗",
+                      "phonetic": "/nán/",
+                      "translation": "<b>difficile</b> — deuxième ton.",
+                      "translations": {
+                          "zh": "难",
+                          "fr": "difficile",
+                          "en": "difficult"
+                      },
+                      "examples": [
+                          {
+                              "t": "中文 很 <b>难</b>。 (Zhōngwén hěn nán.)",
+                              "n": "Le chinois est très difficile."
+                          },
+                          {
+                              "t": "不 <b>难</b>。 (Bù nán.)",
+                              "n": "Pas difficile."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_11",
+                      "isLetter": false,
+                      "letter": "má",
+                      "word": "麻",
+                      "emoji": "🌿",
+                      "phonetic": "/má/",
+                      "translation": "<b>chanvre / engourdi</b> — deuxième ton. <span class=\"hl\">Mot classique pour distinguer des tons</span>.",
+                      "translations": {
+                          "zh": "麻",
+                          "fr": "chanvre / engourdi",
+                          "en": "hemp / numb"
+                      },
+                      "examples": [
+                          {
+                              "t": "这 是 <b>麻</b>。 (Zhè shì má.)",
+                              "n": "C'est du chanvre."
+                          },
+                          {
+                              "t": "手 <b>麻</b> 了。 (Shǒu má le.)",
+                              "n": "La main est engourdie."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_12",
+                      "isLetter": false,
+                      "letter": "tā",
+                      "word": "他/她",
+                      "emoji": "👤",
+                      "phonetic": "/tā/",
+                      "translation": "<b>il / elle</b> — premier ton. <span class=\"hl\">Même prononciation pour les deux genres</span>.",
+                      "translations": {
+                          "zh": "他/她",
+                          "fr": "il / elle",
+                          "en": "he / she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>他</b> 是 我 朋友。 (Tā shì wǒ péngyou.)",
+                              "n": "C'est mon ami."
+                          },
+                          {
+                              "t": "<b>她</b> 很 漂亮。 (Tā hěn piàoliang.)",
+                              "n": "Elle est très belle."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_13",
+                      "isLetter": false,
+                      "letter": "bā",
+                      "word": "八",
+                      "emoji": "8️⃣",
+                      "phonetic": "/bā/",
+                      "translation": "<b>huit</b> — premier ton.",
+                      "translations": {
+                          "zh": "八",
+                          "fr": "huit",
+                          "en": "eight"
+                      },
+                      "examples": [
+                          {
+                              "t": "我 有 <b>八</b> 个 苹果。 (Wǒ yǒu bā gè píngguǒ.)",
+                              "n": "J'ai huit pommes."
+                          },
+                          {
+                              "t": "<b>八</b> 点。 (Bā diǎn.)",
+                              "n": "Huit heures."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g2",
+              "name": "Iniciales (consonantes)",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "b p m f / d t n l / g k h / j q x / zh ch sh r / z c s",
+              "reviewFrom": [
+                  "zh_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g2_L_b",
                       "isLetter": true,
-                      "letter": "ㅣ",
-                      "word": "ㅣ",
+                      "letter": "b",
+                      "word": "b",
+                      "emoji": "🔤",
+                      "phonetic": "/b̥/",
+                      "translation": "Son <b>b</b> non aspiré, comme un <i>b</i> français mais plus doux.",
+                      "mnemonic": "Imaginez une bulle qui éclate : « b » comme « pop » sans souffle.",
+                      "examples": [
+                          {
+                              "t": "<b>b</b>ā = 8",
+                              "n": "huit"
+                          },
+                          {
+                              "t": "<b>b</b>àba = papa",
+                              "n": "papa"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "p",
+                      "word": "p",
+                      "emoji": "🔤",
+                      "phonetic": "/pʰ/",
+                      "translation": "Son <b>p</b> aspiré, comme un <i>p</i> anglais avec un souffle d'air.",
+                      "mnemonic": "Pensez à « p » comme « puff » — un petit souffle en disant le son.",
+                      "examples": [
+                          {
+                              "t": "<b>p</b>à = peur",
+                              "n": "avoir peur"
+                          },
+                          {
+                              "t": "<b>p</b>íngguǒ = pomme",
+                              "n": "pomme"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_m",
+                      "isLetter": true,
+                      "letter": "m",
+                      "word": "m",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Son <b>m</b> comme en français, nasal.",
+                      "mnemonic": "Comme « miam » — le son que fait un enfant en mangeant.",
+                      "examples": [
+                          {
+                              "t": "<b>m</b>āo = chat",
+                              "n": "chat"
+                          },
+                          {
+                              "t": "<b>m</b>āma = maman",
+                              "n": "maman"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "f",
+                      "word": "f",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Son <b>f</b> comme en français, souffle entre les dents.",
+                      "mnemonic": "Le « f » de « feuille » — soufflez doucement.",
+                      "examples": [
+                          {
+                              "t": "<b>f</b>ēi = voler",
+                              "n": "voler"
+                          },
+                          {
+                              "t": "<b>f</b>àn = riz",
+                              "n": "riz cuit"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "d",
+                      "word": "d",
+                      "emoji": "🔤",
+                      "phonetic": "/d̥/",
+                      "translation": "Son <b>d</b> non aspiré, comme un <i>d</i> français mais plus sec.",
+                      "mnemonic": "Le « d » de « dur » — la langue touche les dents.",
+                      "examples": [
+                          {
+                              "t": "<b>d</b>à = grand",
+                              "n": "grand"
+                          },
+                          {
+                              "t": "<b>d</b>ìdi = petit frère",
+                              "n": "petit frère"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_t",
+                      "isLetter": true,
+                      "letter": "t",
+                      "word": "t",
+                      "emoji": "🔤",
+                      "phonetic": "/tʰ/",
+                      "translation": "Son <b>t</b> aspiré, comme un <i>t</i> anglais avec un souffle.",
+                      "mnemonic": "Pensez à « t » comme « top » — un souffle net.",
+                      "examples": [
+                          {
+                              "t": "<b>t</b>ā = il/elle",
+                              "n": "il/elle"
+                          },
+                          {
+                              "t": "<b>t</b>ài = trop",
+                              "n": "trop"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "n",
+                      "word": "n",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Son <b>n</b> comme en français, nasal.",
+                      "mnemonic": "Le « n » de « non » — la langue touche le palais.",
+                      "examples": [
+                          {
+                              "t": "<b>n</b>ǐ = tu",
+                              "n": "tu"
+                          },
+                          {
+                              "t": "<b>n</b>à = cela",
+                              "n": "ça"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "l",
+                      "word": "l",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "Son <b>l</b> comme en français, mais la langue touche le palais.",
+                      "mnemonic": "Le « l » de « long » — la langue s'allonge.",
+                      "examples": [
+                          {
+                              "t": "<b>l</b>ái = venir",
+                              "n": "venir"
+                          },
+                          {
+                              "t": "<b>l</b>ǎo = vieux",
+                              "n": "vieux"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "g",
+                      "word": "g",
+                      "emoji": "🔤",
+                      "phonetic": "/k̚/",
+                      "translation": "Son <b>g</b> non aspiré, comme un <i>k</i> français mais plus dur.",
+                      "mnemonic": "Le « g » de « gâteau » — la gorge se ferme.",
+                      "examples": [
+                          {
+                              "t": "<b>g</b>ǒu = chien",
+                              "n": "chien"
+                          },
+                          {
+                              "t": "<b>g</b>āo = haut",
+                              "n": "haut"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_k",
+                      "isLetter": true,
+                      "letter": "k",
+                      "word": "k",
+                      "emoji": "🔤",
+                      "phonetic": "/kʰ/",
+                      "translation": "Son <b>k</b> aspiré, comme un <i>k</i> anglais avec un souffle.",
+                      "mnemonic": "Pensez à « k » comme « kick » — un souffle fort.",
+                      "examples": [
+                          {
+                              "t": "<b>k</b>āi = ouvrir",
+                              "n": "ouvrir"
+                          },
+                          {
+                              "t": "<b>k</b>àn = regarder",
+                              "n": "regarder"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_h",
+                      "isLetter": true,
+                      "letter": "h",
+                      "word": "h",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "Son <b>h</b> comme un <i>j</i> espagnol, mais plus doux.",
+                      "mnemonic": "Le « h » de « hola » — expiration douce.",
+                      "examples": [
+                          {
+                              "t": "<b>h</b>ǎo = bon",
+                              "n": "bon"
+                          },
+                          {
+                              "t": "<b>h</b>ē = boire",
+                              "n": "boire"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_j",
+                      "isLetter": true,
+                      "letter": "j",
+                      "word": "j",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/",
+                      "translation": "Son <b>j</b> non aspiré, comme un <i>j</i> anglais mais plus doux.",
+                      "mnemonic": "Le « j » de « je » — la langue touche le palais.",
+                      "examples": [
+                          {
+                              "t": "<b>j</b>iā = maison",
+                              "n": "maison"
+                          },
+                          {
+                              "t": "<b>j</b>ǐ = soi-même",
+                              "n": "soi-même"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_q",
+                      "isLetter": true,
+                      "letter": "q",
+                      "word": "q",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕʰ/",
+                      "translation": "Son <b>q</b> aspiré, comme un <i>ch</i> anglais avec un souffle.",
+                      "mnemonic": "Pensez à « q » comme « cheese » — soufflez.",
+                      "examples": [
+                          {
+                              "t": "<b>q</b>ǐng = s'il vous plaît",
+                              "n": "s'il vous plaît"
+                          },
+                          {
+                              "t": "<b>q</b>ī = sept",
+                              "n": "sept"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_x",
+                      "isLetter": true,
+                      "letter": "x",
+                      "word": "x",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕ/",
+                      "translation": "Son <b>x</b> comme un <i>sh</i> anglais mais plus doux, sourire.",
+                      "mnemonic": "Le « x » de « sourire » — les lèvres s'étirent.",
+                      "examples": [
+                          {
+                              "t": "<b>x</b>iǎo = petit",
+                              "n": "petit"
+                          },
+                          {
+                              "t": "<b>x</b>iè = merci",
+                              "n": "merci"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_zh",
+                      "isLetter": true,
+                      "letter": "zh",
+                      "word": "zh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂ/",
+                      "translation": "Son <b>zh</b> non aspiré, comme un <i>j</i> français mais avec la langue roulée en arrière.",
+                      "mnemonic": "Le « zh » de « je » — la langue se recourbe.",
+                      "examples": [
+                          {
+                              "t": "<b>zh</b>ōng = milieu",
+                              "n": "milieu"
+                          },
+                          {
+                              "t": "<b>zh</b>ǔ = maître",
+                              "n": "maître"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "ch",
+                      "word": "ch",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂʰ/",
+                      "translation": "Son <b>ch</b> aspiré, comme un <i>ch</i> anglais mais avec la langue roulée.",
+                      "mnemonic": "Le « ch » de « chat » — soufflez avec la langue roulée.",
+                      "examples": [
+                          {
+                              "t": "<b>ch</b>ī = manger",
+                              "n": "manger"
+                          },
+                          {
+                              "t": "<b>ch</b>á = thé",
+                              "n": "thé"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_sh",
+                      "isLetter": true,
+                      "letter": "sh",
+                      "word": "sh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʂ/",
+                      "translation": "Son <b>sh</b> comme un <i>ch</i> français, mais avec la langue roulée.",
+                      "mnemonic": "Le « sh » de « chut » — chut, la langue se recourbe.",
+                      "examples": [
+                          {
+                              "t": "<b>sh</b>ì = être",
+                              "n": "être"
+                          },
+                          {
+                              "t": "<b>sh</b>ū = livre",
+                              "n": "livre"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_r",
+                      "isLetter": true,
+                      "letter": "r",
+                      "word": "r",
+                      "emoji": "🔤",
+                      "phonetic": "/ʐ/",
+                      "translation": "Son <b>r</b> comme un <i>j</i> français, mais avec la langue roulée.",
+                      "mnemonic": "Le « r » de « rouge » — mais la langue recourbée.",
+                      "examples": [
+                          {
+                              "t": "<b>r</b>én = personne",
+                              "n": "personne"
+                          },
+                          {
+                              "t": "<b>r</b>ì = soleil",
+                              "n": "soleil"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "z",
+                      "word": "z",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/",
+                      "translation": "Son <b>z</b> non aspiré, comme un <i>ts</i> italien.",
+                      "mnemonic": "Le « z » de « pizza » — un son sec.",
+                      "examples": [
+                          {
+                              "t": "<b>z</b>ài = encore",
+                              "n": "encore"
+                          },
+                          {
+                              "t": "<b>z</b>ǎo = tôt",
+                              "n": "tôt"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_c",
+                      "isLetter": true,
+                      "letter": "c",
+                      "word": "c",
+                      "emoji": "🔤",
+                      "phonetic": "/tsʰ/",
+                      "translation": "Son <b>c</b> aspiré, comme un <i>ts</i> avec un souffle.",
+                      "mnemonic": "Pensez à « c » comme « tsar » — soufflez.",
+                      "examples": [
+                          {
+                              "t": "<b>c</b>ài = plat",
+                              "n": "plat"
+                          },
+                          {
+                              "t": "<b>c</b>āo = herbe",
+                              "n": "herbe"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_s",
+                      "isLetter": true,
+                      "letter": "s",
+                      "word": "s",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Son <b>s</b> comme en français, sifflant.",
+                      "mnemonic": "Le « s » de « serpent » — sifflez.",
+                      "examples": [
+                          {
+                              "t": "<b>s</b>ān = trois",
+                              "n": "trois"
+                          },
+                          {
+                              "t": "<b>s</b>ì = quatre",
+                              "n": "quatre"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "b",
+                      "word": "bā",
+                      "emoji": "8️⃣",
+                      "phonetic": "/pa˥/",
+                      "translation": "<b>bā</b> = huit",
+                      "translations": {
+                          "zh": "八",
+                          "fr": "huit",
+                          "en": "eight"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>bā</b> běn shū.",
+                              "n": "J'ai huit livres."
+                          },
+                          {
+                              "t": "<b>bā</b> diǎn le.",
+                              "n": "Il est huit heures."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "d",
+                      "word": "dà",
+                      "emoji": "🐘",
+                      "phonetic": "/ta˥˩/",
+                      "translation": "<b>dà</b> = grand",
+                      "translations": {
+                          "zh": "大",
+                          "fr": "grand",
+                          "en": "big"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè shì yī gè <b>dà</b> píngguǒ.",
+                              "n": "C'est une grande pomme."
+                          },
+                          {
+                              "t": "Tā hěn <b>dà</b>.",
+                              "n": "Il est très grand."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "g",
+                      "word": "gǒu",
+                      "emoji": "🐶",
+                      "phonetic": "/koʊ̯˨˩˦/",
+                      "translation": "<b>gǒu</b> = chien",
+                      "translations": {
+                          "zh": "狗",
+                          "fr": "chien",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu yī zhī <b>gǒu</b>.",
+                              "n": "J'ai un chien."
+                          },
+                          {
+                              "t": "<b>gǒu</b> hěn kě'ài.",
+                              "n": "Le chien est mignon."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "j",
+                      "word": "jiā",
+                      "emoji": "🏠",
+                      "phonetic": "/tɕja˥/",
+                      "translation": "<b>jiā</b> = maison",
+                      "translations": {
+                          "zh": "家",
+                          "fr": "maison",
+                          "en": "home"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ de <b>jiā</b> hěn xiǎo.",
+                              "n": "Ma maison est petite."
+                          },
+                          {
+                              "t": "Nǐ qù <b>jiā</b> ma?",
+                              "n": "Tu vas à la maison ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "zh",
+                      "word": "zhōng",
+                      "emoji": "🇨🇳",
+                      "phonetic": "/ʈʂʊŋ˥/",
+                      "translation": "<b>zhōng</b> = milieu",
+                      "translations": {
+                          "zh": "中",
+                          "fr": "milieu",
+                          "en": "middle"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhōngguó = Chine",
+                              "n": "Chine (pays du milieu)"
+                          },
+                          {
+                              "t": "Wǒ zài <b>zhōng</b>jiān.",
+                              "n": "Je suis au milieu."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "z",
+                      "word": "zài",
+                      "emoji": "🔄",
+                      "phonetic": "/tsaɪ̯˥˩/",
+                      "translation": "<b>zài</b> = encore / être à",
+                      "translations": {
+                          "zh": "再",
+                          "fr": "encore / être à",
+                          "en": "again / at"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>zài</b> jiàn = au revoir",
+                              "n": "au revoir (litt. encore voir)"
+                          },
+                          {
+                              "t": "Tā <b>zài</b> Běijīng.",
+                              "n": "Il est à Pékin."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g3",
+              "name": "Finales (vocales y nasales)",
+              "icon": "🔤",
+              "color": "#10b981",
+              "description": "a o e i u ü — simples, diptongos y nasales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "a",
+                      "word": "a",
+                      "emoji": "🔤",
+                      "phonetic": "/ɑ/",
+                      "translation": "A comme <b>a</b>mi — son ouvert et clair, comme en français « <i>pâte</i> ».",
+                      "mnemonic": "Imaginez un grand « A » ouvert, comme une bouche grande ouverte pour dire « ah ».",
+                      "examples": [
+                          {
+                              "t": "<b>a</b> — se prononce toujours « a » ouvert, jamais « è ».",
+                              "n": "Règle de base."
+                          },
+                          {
+                              "t": "mā (maman) — <b>a</b> avec ton haut.",
+                              "n": "Exemple avec ton."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "o",
+                      "word": "o",
+                      "emoji": "🔤",
+                      "phonetic": "/ɔ/",
+                      "translation": "O comme <b>o</b>ccident — son arrondi, proche du français « <i>eau</i> » mais plus bref.",
+                      "mnemonic": "Un rond parfait, comme la lettre elle-même : bouche arrondie.",
+                      "examples": [
+                          {
+                              "t": "<b>o</b> — toujours arrondi, jamais ouvert en « o » de « pomme ».",
+                              "n": "Règle."
+                          },
+                          {
+                              "t": "mó (champignon) — <b>o</b> avec ton montant.",
+                              "n": "Exemple avec ton."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "e",
+                      "word": "e",
+                      "emoji": "🔤",
+                      "phonetic": "/ɤ/",
+                      "translation": "E comme <b>e</b>uh — son guttural, comme un « e » très relâché, proche du « <i>eu</i> » français.",
+                      "mnemonic": "Pensez à un « e » qui se prononce du fond de la gorge, comme un « euh » hésitant.",
+                      "examples": [
+                          {
+                              "t": "<b>e</b> seul = /ɤ/ — ex. è (hein ?).",
+                              "n": "Attention au son."
+                          },
+                          {
+                              "t": "hē (boire) — <b>e</b> avec ton descendant-montant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "i",
+                      "word": "i",
                       "emoji": "🔤",
                       "phonetic": "/i/",
-                      "translation": "Vokal <b>ㅣ</b> — wie spanisches <i>i</i> in „vino“",
-                      "mnemonic": "Ein vertikaler Strich — wie ein gerader, dünner Strich. Denk an „ich“ (i = ich), ein einzelner Strich steht für dich.",
+                      "translation": "I comme <b>i</b>ci — son identique au français « <i>i</i> ».",
+                      "mnemonic": "Un point sur un bâton : simple et droit, comme le son.",
                       "examples": [
                           {
-                              "t": "Mit stillem ㅇ: <b>이</b> (i) — <b>이름</b> (Name)",
-                              "n": "ㅇ stumm"
+                              "t": "<b>i</b> — toujours clair, jamais mouillé.",
+                              "n": "Règle."
                           },
                           {
-                              "t": "<b>시</b> (si) — Stadt oder Stunde",
-                              "n": "Wort mit ㅣ"
+                              "t": "mǐ (riz) — <b>i</b> avec ton descendant-montant.",
+                              "n": "Exemple."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_L_ae",
+                      "id": "zh_a0_g3_L_u",
                       "isLetter": true,
-                      "letter": "ㅐ",
-                      "word": "ㅐ",
+                      "letter": "u",
+                      "word": "u",
                       "emoji": "🔤",
-                      "phonetic": "/ɛ/",
-                      "translation": "Vokal <b>ㅐ</b> — wie <i>e</i> in „Bett“ (offenes e)",
-                      "mnemonic": "Es sieht aus wie ㅏ und ㅣ kombiniert — ein Strich nach rechts plus ein vertikaler Strich. Denk an „A + I“ = ㅐ. Klingt wie ein offenes „ä“.",
+                      "phonetic": "/u/",
+                      "translation": "U comme <b>ou</b> — son comme « <i>ou</i> » français, jamais « u » français.",
+                      "mnemonic": "Un « u » qui se prononce « ou » : pensez à « <span class='hl'>ou</span> » en français.",
                       "examples": [
                           {
-                              "t": "Mit stillem ㅇ: <b>애</b> (ae) — <b>애기</b> (Baby)",
-                              "n": "ㅇ stumm"
+                              "t": "<b>u</b> = « ou » — ex. mù (bois).",
+                              "n": "Règle clé."
                           },
                           {
-                              "t": "<b>개</b> (gae) — Hund",
-                              "n": "Häufiges Tier"
+                              "t": "lù (route) — <b>u</b> avec ton descendant.",
+                              "n": "Exemple."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_L_e",
+                      "id": "zh_a0_g3_L_ü",
                       "isLetter": true,
-                      "letter": "ㅔ",
-                      "word": "ㅔ",
+                      "letter": "ü",
+                      "word": "ü",
                       "emoji": "🔤",
-                      "phonetic": "/e/",
-                      "translation": "Vokal <b>ㅔ</b> — wie französisches <i>é</i> (geschlossenes e)",
-                      "mnemonic": "Sieht aus wie ㅓ und ㅣ kombiniert — Strich nach links plus vertikaler Strich. Denk an „E + I“ = ㅔ. Klingt wie ein geschlossenes „e“.",
+                      "phonetic": "/y/",
+                      "translation": "Ü comme <b>u</b> français — son arrondi, comme « <i>rue</i> ».",
+                      "mnemonic": "Le « u » avec deux points : comme un « u » français, mais avec un tréma pour le distinguer.",
                       "examples": [
                           {
-                              "t": "Mit stillem ㅇ: <b>에</b> (e) — <b>에서</b> (von/bei)",
-                              "n": "ㅇ stumm"
+                              "t": "<b>ü</b> = « u » français — ex. lǜ (vert).",
+                              "n": "Règle."
                           },
                           {
-                              "t": "<b>세</b> (se) — drei",
-                              "n": "Zahl"
+                              "t": "Après j, q, x, y, <b>ü</b> s'écrit <b>u</b> mais se prononce /y/.",
+                              "n": "Règle d'orthographe."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_01",
+                      "id": "zh_a0_g3_L_ai",
+                      "isLetter": true,
+                      "letter": "ai",
+                      "word": "ai",
+                      "emoji": "🔤",
+                      "phonetic": "/aɪ/",
+                      "translation": "AI comme <b>aï</b> — son « a » + « i » rapide, comme dans « <i>aïe</i> ».",
+                      "mnemonic": "Comme le cri « aïe ! » : le son glisse de 'a' à 'i'.",
+                      "examples": [
+                          {
+                              "t": "<b>ai</b> — ex. mǎi (acheter).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "hǎo (bien) — contient <b>ao</b>, pas <b>ai</b>.",
+                              "n": "Contraste."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ei",
+                      "isLetter": true,
+                      "letter": "ei",
+                      "word": "ei",
+                      "emoji": "🔤",
+                      "phonetic": "/eɪ/",
+                      "translation": "EI comme <b>èi</b> — son « é » + « i », comme dans « <i>bei</i> » (verre).",
+                      "mnemonic": "Pensez à « <span class='hl'>ei</span> » comme un « é » qui se termine en « i ».",
+                      "examples": [
+                          {
+                              "t": "<b>ei</b> — ex. bēi (verre).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "Méfiez-vous de <b>ai</b> vs <b>ei</b> : le premier plus ouvert.",
+                              "n": "Contraste."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ao",
+                      "isLetter": true,
+                      "letter": "ao",
+                      "word": "ao",
+                      "emoji": "🔤",
+                      "phonetic": "/aʊ/",
+                      "translation": "AO comme <b>a</b> + <b>o</b> — son « a » puis « ou », comme dans « <i>ao</i> » (aïe).",
+                      "mnemonic": "Un « a » qui se transforme en « ou » : bouche qui se ferme.",
+                      "examples": [
+                          {
+                              "t": "<b>ao</b> — ex. māo (chat).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "hǎo (bien) — <b>ao</b> avec ton descendant-montant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ou",
+                      "isLetter": true,
+                      "letter": "ou",
+                      "word": "ou",
+                      "emoji": "🔤",
+                      "phonetic": "/oʊ/",
+                      "translation": "OU comme <b>ou</b> — son « o » + « ou », comme dans « <i>oh</i> » anglais.",
+                      "mnemonic": "Comme le « ou » français, mais précédé d'un « o ».",
+                      "examples": [
+                          {
+                              "t": "<b>ou</b> — ex. gǒu (chien).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "kǒu (bouche) — <b>ou</b> avec ton descendant-montant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ia",
+                      "isLetter": true,
+                      "letter": "ia",
+                      "word": "ia",
+                      "emoji": "🔤",
+                      "phonetic": "/i̯a/",
+                      "translation": "IA comme <b>i</b> + <b>a</b> — son « i » glissant vers « a », comme « <i>ia</i> ».",
+                      "mnemonic": "Un « i » qui se fond dans un « a » : comme « <span class='hl'>ia</span> » en espagnol.",
+                      "examples": [
+                          {
+                              "t": "<b>ia</b> — ex. jiā (maison).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "jiā (maison) — <b>ia</b> avec ton haut.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ie",
+                      "isLetter": true,
+                      "letter": "ie",
+                      "word": "ie",
+                      "emoji": "🔤",
+                      "phonetic": "/i̯ɛ/",
+                      "translation": "IE comme <b>i</b> + <b>è</b> — son « i » puis « è », comme dans « <i>iè</i> ».",
+                      "mnemonic": "Pensez à « <span class='hl'>ie</span> » comme un « i » suivi d'un « è » ouvert.",
+                      "examples": [
+                          {
+                              "t": "<b>ie</b> — ex. xiè (merci).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "jiě (sœur aînée) — <b>ie</b> avec ton descendant-montant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ua",
+                      "isLetter": true,
+                      "letter": "ua",
+                      "word": "ua",
+                      "emoji": "🔤",
+                      "phonetic": "/u̯ɑ/",
+                      "translation": "UA comme <b>ou</b> + <b>a</b> — son « ou » puis « a », comme « <i>oua</i> ».",
+                      "mnemonic": "Un « u » (ou) qui se termine en « a » : comme « <span class='hl'>oua</span> ».",
+                      "examples": [
+                          {
+                              "t": "<b>ua</b> — ex. huā (fleur).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "huà (parler) — <b>ua</b> avec ton descendant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_uo",
+                      "isLetter": true,
+                      "letter": "uo",
+                      "word": "uo",
+                      "emoji": "🔤",
+                      "phonetic": "/u̯ɔ/",
+                      "translation": "UO comme <b>ou</b> + <b>o</b> — son « ou » puis « o », comme « <i>ouo</i> ».",
+                      "mnemonic": "Un « u » qui se fond dans un « o » : comme « <span class='hl'>ouo</span> ».",
+                      "examples": [
+                          {
+                              "t": "<b>uo</b> — ex. guǒ (fruit).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "huǒ (feu) — <b>uo</b> avec ton descendant-montant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_üe",
+                      "isLetter": true,
+                      "letter": "üe",
+                      "word": "üe",
+                      "emoji": "🔤",
+                      "phonetic": "/y̯ɛ/",
+                      "translation": "ÜE comme <b>u</b> français + <b>è</b> — son « u » puis « è », comme « <i>uè</i> ».",
+                      "mnemonic": "Le « ü » français suivi d'un « è » ouvert : comme « <span class='hl'>uè</span> ».",
+                      "examples": [
+                          {
+                              "t": "<b>üe</b> — ex. yuè (lune).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "Après j, q, x, y, <b>üe</b> s'écrit <b>ue</b>.",
+                              "n": "Règle."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_an",
+                      "isLetter": true,
+                      "letter": "an",
+                      "word": "an",
+                      "emoji": "🔤",
+                      "phonetic": "/an/",
+                      "translation": "AN comme <b>an</b> — son « a » + n final, comme dans « <i>an</i> » (année) mais plus nasal.",
+                      "mnemonic": "Un « a » suivi d'un « n » : la langue touche le palais.",
+                      "examples": [
+                          {
+                              "t": "<b>an</b> — ex. nán (sud).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "fàn (repas) — <b>an</b> avec ton descendant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_en",
+                      "isLetter": true,
+                      "letter": "en",
+                      "word": "en",
+                      "emoji": "🔤",
+                      "phonetic": "/ən/",
+                      "translation": "EN comme <b>e</b> + <b>n</b> — son « euh » + n, comme « <i>en</i> » mais relâché.",
+                      "mnemonic": "Un « e » muet suivi d'un « n » : comme « <span class='hl'>en</span> » en français.",
+                      "examples": [
+                          {
+                              "t": "<b>en</b> — ex. rén (personne).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "hěn (très) — <b>en</b> avec ton descendant-montant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_in",
+                      "isLetter": true,
+                      "letter": "in",
+                      "word": "in",
+                      "emoji": "🔤",
+                      "phonetic": "/in/",
+                      "translation": "IN comme <b>in</b> — son « i » + n, comme dans « <i>in</i> » (fin).",
+                      "mnemonic": "Un « i » suivi d'un « n » : comme « <span class='hl'>in</span> » en français.",
+                      "examples": [
+                          {
+                              "t": "<b>in</b> — ex. yīn (son).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "pǐn (déguster) — <b>in</b> avec ton descendant-montant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_un",
+                      "isLetter": true,
+                      "letter": "un",
+                      "word": "un",
+                      "emoji": "🔤",
+                      "phonetic": "/uən/",
+                      "translation": "UN comme <b>ou</b> + <b>en</b> — son « ou » + « euh » + n, comme « <i>ouen</i> ».",
+                      "mnemonic": "Un « u » (ou) suivi d'un « en » : comme « <span class='hl'>ouen</span> ».",
+                      "examples": [
+                          {
+                              "t": "<b>un</b> — ex. hūn (se marier).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "lùn (discuter) — <b>un</b> avec ton descendant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ang",
+                      "isLetter": true,
+                      "letter": "ang",
+                      "word": "ang",
+                      "emoji": "🔤",
+                      "phonetic": "/ɑŋ/",
+                      "translation": "ANG comme <b>a</b> + <b>ng</b> — son « a » + ng nasal, comme « <i>ang</i> » en anglais.",
+                      "mnemonic": "Un « a » suivi d'un « ng » : le son passe par le nez.",
+                      "examples": [
+                          {
+                              "t": "<b>ang</b> — ex. máng (occupé).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "fáng (maison) — <b>ang</b> avec ton montant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_eng",
+                      "isLetter": true,
+                      "letter": "eng",
+                      "word": "eng",
+                      "emoji": "🔤",
+                      "phonetic": "/ɤŋ/",
+                      "translation": "ENG comme <b>e</b> + <b>ng</b> — son « euh » + ng nasal, comme « <i>eng</i> ».",
+                      "mnemonic": "Un « e » guttural suivi d'un « ng » : comme « <span class='hl'>eng</span> ».",
+                      "examples": [
+                          {
+                              "t": "<b>eng</b> — ex. péng (ami).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "fēng (vent) — <b>eng</b> avec ton haut.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ing",
+                      "isLetter": true,
+                      "letter": "ing",
+                      "word": "ing",
+                      "emoji": "🔤",
+                      "phonetic": "/iŋ/",
+                      "translation": "ING comme <b>i</b> + <b>ng</b> — son « i » + ng nasal, comme dans « <i>sing</i> » anglais.",
+                      "mnemonic": "Un « i » suivi d'un « ng » : comme « <span class='hl'>ing</span> » en anglais.",
+                      "examples": [
+                          {
+                              "t": "<b>ing</b> — ex. míng (brillant).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "qǐng (inviter) — <b>ing</b> avec ton descendant-montant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ong",
+                      "isLetter": true,
+                      "letter": "ong",
+                      "word": "ong",
+                      "emoji": "🔤",
+                      "phonetic": "/ʊŋ/",
+                      "translation": "ONG comme <b>ou</b> + <b>ng</b> — son « ou » + ng nasal, comme « <i>ong</i> ».",
+                      "mnemonic": "Un « ou » suivi d'un « ng » : comme « <span class='hl'>ong</span> ».",
+                      "examples": [
+                          {
+                              "t": "<b>ong</b> — ex. hóng (rouge).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "gōng (travail) — <b>ong</b> avec ton haut.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_er",
+                      "isLetter": true,
+                      "letter": "er",
+                      "word": "er",
+                      "emoji": "🔤",
+                      "phonetic": "/ɚ/",
+                      "translation": "ER comme <b>er</b> — son rétroflexe, comme « <i>er</i> » en anglais américain.",
+                      "mnemonic": "Un « e » avec la langue qui se replie : comme « <span class='hl'>er</span> » en anglais.",
+                      "examples": [
+                          {
+                              "t": "<b>er</b> — ex. èr (deux).",
+                              "n": "Exemple."
+                          },
+                          {
+                              "t": "ér (fils) — <b>er</b> avec ton montant.",
+                              "n": "Exemple."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_01",
                       "isLetter": false,
-                      "letter": "ㅏ",
-                      "word": "아버지",
-                      "emoji": "👨",
-                      "phonetic": "/abeoji/",
-                      "translation": "Vater",
+                      "letter": "ao",
+                      "word": "māo",
+                      "emoji": "🐱",
+                      "phonetic": "/maʊ/",
+                      "translation": "Chat — <b>māo</b> contient la finale <b>ao</b>.",
                       "translations": {
-                          "ko": "아버지",
-                          "de": "Vater",
+                          "zh": "猫",
+                          "fr": "chat",
+                          "en": "cat"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu yī zhī <b>māo</b>.",
+                              "n": "J'ai un chat."
+                          },
+                          {
+                              "t": "<b>Māo</b> hěn kě'ài.",
+                              "n": "Le chat est très mignon."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "ao",
+                      "word": "hǎo",
+                      "emoji": "👍",
+                      "phonetic": "/xaʊ/",
+                      "translation": "Bien, bon — <b>hǎo</b> contient la finale <b>ao</b>.",
+                      "translations": {
+                          "zh": "好",
+                          "fr": "bien, bon",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nǐ <b>hǎo</b> !",
+                              "n": "Bonjour !"
+                          },
+                          {
+                              "t": "Zhè ge hěn <b>hǎo</b>.",
+                              "n": "C'est très bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "ou",
+                      "word": "gǒu",
+                      "emoji": "🐶",
+                      "phonetic": "/koʊ/",
+                      "translation": "Chien — <b>gǒu</b> contient la finale <b>ou</b>.",
+                      "translations": {
+                          "zh": "狗",
+                          "fr": "chien",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ jiā yǒu yī zhī <b>gǒu</b>.",
+                              "n": "Ma famille a un chien."
+                          },
+                          {
+                              "t": "<b>Gǒu</b> hěn cōngmíng.",
+                              "n": "Le chien est très intelligent."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "ia",
+                      "word": "jiā",
+                      "emoji": "🏠",
+                      "phonetic": "/tɕi̯a/",
+                      "translation": "Maison, famille — <b>jiā</b> contient la finale <b>ia</b>.",
+                      "translations": {
+                          "zh": "家",
+                          "fr": "maison, famille",
+                          "en": "home, family"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ de <b>jiā</b> hěn dà.",
+                              "n": "Ma maison est grande."
+                          },
+                          {
+                              "t": "Nǐ <b>jiā</b> zài nǎr ?",
+                              "n": "Où est ta maison ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "an",
+                      "word": "nán",
+                      "emoji": "🧭",
+                      "phonetic": "/nan/",
+                      "translation": "Sud, masculin — <b>nán</b> contient la finale <b>an</b>.",
+                      "translations": {
+                          "zh": "南",
+                          "fr": "sud",
+                          "en": "south"
+                      },
+                      "examples": [
+                          {
+                              "t": "Běijīng zài <b>nán</b> ?",
+                              "n": "Pékin est au sud ?"
+                          },
+                          {
+                              "t": "Wǒ qù <b>nán</b>fāng.",
+                              "n": "Je vais vers le sud."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_06",
+                      "isLetter": false,
+                      "letter": "en",
+                      "word": "rén",
+                      "emoji": "👤",
+                      "phonetic": "/ʐən/",
+                      "translation": "Personne — <b>rén</b> contient la finale <b>en</b>.",
+                      "translations": {
+                          "zh": "人",
+                          "fr": "personne",
+                          "en": "person"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ shì <b>rén</b>.",
+                              "n": "Je suis une personne."
+                          },
+                          {
+                              "t": "Tā shì hǎo <b>rén</b>.",
+                              "n": "C'est une bonne personne."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_07",
+                      "isLetter": false,
+                      "letter": "ang",
+                      "word": "máng",
+                      "emoji": "⏰",
+                      "phonetic": "/mɑŋ/",
+                      "translation": "Occupé — <b>máng</b> contient la finale <b>ang</b>.",
+                      "translations": {
+                          "zh": "忙",
+                          "fr": "occupé, pressé",
+                          "en": "busy"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ hěn <b>máng</b>.",
+                              "n": "Je suis très occupé."
+                          },
+                          {
+                              "t": "Nǐ <b>máng</b> ma ?",
+                              "n": "Es-tu occupé ?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_08",
+                      "isLetter": false,
+                      "letter": "ing",
+                      "word": "míng",
+                      "emoji": "✨",
+                      "phonetic": "/miŋ/",
+                      "translation": "Brillant, clair — <b>míng</b> contient la finale <b>ing</b>.",
+                      "translations": {
+                          "zh": "明",
+                          "fr": "brillant, clair",
+                          "en": "bright"
+                      },
+                      "examples": [
+                          {
+                              "t": "Yuèliang hěn <b>míng</b>.",
+                              "n": "La lune est très brillante."
+                          },
+                          {
+                              "t": "<b>Míng</b>tiān wǒ lái.",
+                              "n": "Demain je viens."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_09",
+                      "isLetter": false,
+                      "letter": "er",
+                      "word": "èr",
+                      "emoji": "2️⃣",
+                      "phonetic": "/ɚ/",
+                      "translation": "Deux — <b>èr</b> contient la finale spéciale <b>er</b>.",
+                      "translations": {
+                          "zh": "二",
+                          "fr": "deux",
+                          "en": "two"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>èr</b> shǒu.",
+                              "n": "J'ai deux mains."
+                          },
+                          {
+                              "t": "<b>Èr</b> yuè shì èr yuè.",
+                              "n": "Février est le deuxième mois."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_10",
+                      "isLetter": false,
+                      "letter": "er",
+                      "word": "ěr",
+                      "emoji": "👂",
+                      "phonetic": "/ɚ/",
+                      "translation": "Oreille — <b>ěr</b> contient la finale spéciale <b>er</b>.",
+                      "translations": {
+                          "zh": "耳",
+                          "fr": "oreille",
+                          "en": "ear"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ de <b>ěr</b> duo hěn líng.",
+                              "n": "Mes oreilles sont très sensibles."
+                          },
+                          {
+                              "t": "Tā yǒu yī zhī <b>ěr</b> duo.",
+                              "n": "Il a une oreille."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g4",
+              "name": "Primeras palabras en pinyin",
+              "icon": "🧩",
+              "color": "#ef4444",
+              "description": "Leer y pronunciar 20 palabras esenciales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2",
+                  "zh_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g4_L_ni",
+                      "isLetter": true,
+                      "letter": "你",
+                      "word": "你",
+                      "emoji": "👤",
+                      "phonetic": "/nǐ/",
+                      "translation": "Pronombre <b>tú</b>. Tono 3 (descendente-ascendente). <i>El carácter combina 亻(persona) y 尔.</i>",
+                      "mnemonic": "Visual: una persona (亻) que se inclina hacia ti para saludarte. Acústico: suena como 'ni' en 'niño'.",
+                      "examples": [
+                          {
+                              "t": "<b>你</b>好。",
+                              "n": "Hola. (literal: tú bien)"
+                          },
+                          {
+                              "t": "<b>你</b>是老师。",
+                              "n": "Tú eres profesor/a."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_wo",
+                      "isLetter": true,
+                      "letter": "我",
+                      "word": "我",
+                      "emoji": "🙋",
+                      "phonetic": "/wǒ/",
+                      "translation": "Pronombre <b>yo</b>. Tono 3. <i>El carácter sugiere una mano (手) sosteniendo una lanza (戈).</i>",
+                      "mnemonic": "Visual: una mano (手) que se señala a sí misma. Acústico: 'wo' como 'wo' en 'wow'.",
+                      "examples": [
+                          {
+                              "t": "<b>我</b>好。",
+                              "n": "Yo estoy bien."
+                          },
+                          {
+                              "t": "<b>我</b>是学生。",
+                              "n": "Yo soy estudiante."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_ta",
+                      "isLetter": true,
+                      "letter": "他/她",
+                      "word": "他/她",
+                      "emoji": "🧑‍🤝‍🧑",
+                      "phonetic": "/tā/",
+                      "translation": "Pronombre <b>él</b> (他) y <b>ella</b> (她). Tono 1 (alto y plano). <i>Ambos usan el radical de persona (亻) o mujer (女).</i>",
+                      "mnemonic": "Visual: 他 tiene persona + también, 她 tiene mujer + también. Acústico: 'ta' como 'ta' en 'taco'.",
+                      "examples": [
+                          {
+                              "t": "<b>他</b>好。",
+                              "n": "Él está bien."
+                          },
+                          {
+                              "t": "<b>她</b>是老师。",
+                              "n": "Ella es profesora."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_women",
+                      "isLetter": true,
+                      "letter": "们",
+                      "word": "们",
+                      "emoji": "👥",
+                      "phonetic": "/men/",
+                      "translation": "Sufijo de <b>plural</b> para pronombres. Tono neutro (sin tono marcado). <i>Se añade a 我, 你, 他/她.</i>",
+                      "mnemonic": "Visual: la puerta (门) abierta para que entre más gente. Acústico: 'men' como 'men' en 'menú'.",
+                      "examples": [
+                          {
+                              "t": "我<b>们</b>。",
+                              "n": "Nosotros/as."
+                          },
+                          {
+                              "t": "你<b>们</b>好。",
+                              "n": "Hola (a un grupo)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_shi",
+                      "isLetter": true,
+                      "letter": "是",
+                      "word": "是",
+                      "emoji": "✅",
+                      "phonetic": "/shì/",
+                      "translation": "Verbo <b>ser/estar</b>. Tono 4 (descendente). <i>Carácter con sol (日) y correcto (正).</i>",
+                      "mnemonic": "Visual: el sol (日) brilla sobre lo correcto (正). Acústico: 'shi' como 'she' en inglés, pero con tono descendente.",
+                      "examples": [
+                          {
+                              "t": "我<b>是</b>学生。",
+                              "n": "Yo soy estudiante."
+                          },
+                          {
+                              "t": "这<b>是</b>书。",
+                              "n": "Esto es un libro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_bushi",
+                      "isLetter": true,
+                      "letter": "不是",
+                      "word": "不是",
+                      "emoji": "❌",
+                      "phonetic": "/bù shì/",
+                      "translation": "Negación de <b>ser</b>: <b>no es</b>. <i>不 + 是.</i> Tono 4 + tono 4.",
+                      "mnemonic": "Visual: 不 (no) + 是 (ser) = negación directa. Acústico: 'bu shi' suena como 'boo she'.",
+                      "examples": [
+                          {
+                              "t": "我<b>不是</b>老师。",
+                              "n": "Yo no soy profesor/a."
+                          },
+                          {
+                              "t": "这<b>不是</b>书。",
+                              "n": "Esto no es un libro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_you",
+                      "isLetter": true,
+                      "letter": "有",
+                      "word": "有",
+                      "emoji": "✋",
+                      "phonetic": "/yǒu/",
+                      "translation": "Verbo <b>tener/haber</b>. Tono 3. <i>El carácter muestra una mano (又) sosteniendo algo (月).</i>",
+                      "mnemonic": "Visual: una mano (又) que sostiene la luna (月). Acústico: 'yo' como 'yo' en español.",
+                      "examples": [
+                          {
+                              "t": "我<b>有</b>书。",
+                              "n": "Yo tengo un libro."
+                          },
+                          {
+                              "t": "你<b>有</b>钱吗？",
+                              "n": "¿Tienes dinero?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_meiyou",
+                      "isLetter": true,
+                      "letter": "没有",
+                      "word": "没有",
+                      "emoji": "🙅",
+                      "phonetic": "/méi yǒu/",
+                      "translation": "Negación de <b>tener</b>: <b>no tener</b>. <i>没 + 有.</i> Tono 2 + tono 3.",
+                      "mnemonic": "Visual: 没 (no) + 有 (tener) = no tener. Acústico: 'mei' suena como 'may' en inglés.",
+                      "examples": [
+                          {
+                              "t": "我<b>没有</b>钱。",
+                              "n": "Yo no tengo dinero."
+                          },
+                          {
+                              "t": "他<b>没有</b>书。",
+                              "n": "Él no tiene libro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_hao",
+                      "isLetter": true,
+                      "letter": "好",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "/hǎo/",
+                      "translation": "Adjetivo <b>bueno/bien</b>. Tono 3. <i>Compuesto de mujer (女) y niño (子).</i>",
+                      "mnemonic": "Visual: una mujer (女) con su hijo (子) = algo bueno. Acústico: 'hao' como 'how' en inglés.",
+                      "examples": [
+                          {
+                              "t": "你<b>好</b>。",
+                              "n": "Hola. (literal: tú bien)"
+                          },
+                          {
+                              "t": "很<b>好</b>。",
+                              "n": "Muy bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_buhao",
+                      "isLetter": true,
+                      "letter": "不好",
+                      "word": "不好",
+                      "emoji": "👎",
+                      "phonetic": "/bù hǎo/",
+                      "translation": "Negación de <b>bueno</b>: <b>no bueno/mal</b>. <i>不 + 好.</i> Tono 4 + tono 3.",
+                      "mnemonic": "Visual: 不 (no) + 好 (bueno) = malo. Acústico: 'bu hao' suena como 'boo how'.",
+                      "examples": [
+                          {
+                              "t": "这<b>不好</b>。",
+                              "n": "Esto no es bueno."
+                          },
+                          {
+                              "t": "天气<b>不好</b>。",
+                              "n": "El tiempo no es bueno."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_da",
+                      "isLetter": true,
+                      "letter": "大",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "/dà/",
+                      "translation": "Adjetivo <b>grande</b>. Tono 4. <i>El carácter parece una persona con los brazos abiertos.</i>",
+                      "mnemonic": "Visual: una persona (人) extendiendo los brazos para abarcar algo grande. Acústico: 'da' como 'da' en 'dado'.",
+                      "examples": [
+                          {
+                              "t": "很<b>大</b>。",
+                              "n": "Muy grande."
+                          },
+                          {
+                              "t": "这<b>大</b>。",
+                              "n": "Esto es grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_xiao",
+                      "isLetter": true,
+                      "letter": "小",
+                      "word": "小",
+                      "emoji": "🐭",
+                      "phonetic": "/xiǎo/",
+                      "translation": "Adjetivo <b>pequeño</b>. Tono 3. <i>El carácter sugiere algo pequeño con dos gotas.</i>",
+                      "mnemonic": "Visual: tres trazos pequeños que caen como gotas. Acústico: 'xiao' suena como 'shao' con tono descendente-ascendente.",
+                      "examples": [
+                          {
+                              "t": "很<b>小</b>。",
+                              "n": "Muy pequeño."
+                          },
+                          {
+                              "t": "这<b>小</b>。",
+                              "n": "Esto es pequeño."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_lai",
+                      "isLetter": true,
+                      "letter": "来",
+                      "word": "来",
+                      "emoji": "🚶",
+                      "phonetic": "/lái/",
+                      "translation": "Verbo <b>venir</b>. Tono 2 (ascendente). <i>El carácter muestra un árbol (木) con algo que viene hacia él.</i>",
+                      "mnemonic": "Visual: un árbol (木) que atrae algo hacia sí. Acústico: 'lai' como 'lie' en inglés, pero ascendente.",
+                      "examples": [
+                          {
+                              "t": "你<b>来</b>。",
+                              "n": "Tú vienes."
+                          },
+                          {
+                              "t": "请<b>来</b>。",
+                              "n": "Por favor, ven."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_qu",
+                      "isLetter": true,
+                      "letter": "去",
+                      "word": "去",
+                      "emoji": "🏃",
+                      "phonetic": "/qù/",
+                      "translation": "Verbo <b>ir</b>. Tono 4. <i>El carácter muestra una persona (土) que se aleja (厶).</i>",
+                      "mnemonic": "Visual: una persona (土) que se aleja (厶) hacia la distancia. Acústico: 'qu' como 'chu' en francés, pero descendente.",
+                      "examples": [
+                          {
+                              "t": "我<b>去</b>。",
+                              "n": "Yo voy."
+                          },
+                          {
+                              "t": "你<b>去</b>吗？",
+                              "n": "¿Vas tú?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_chi",
+                      "isLetter": true,
+                      "letter": "吃",
+                      "word": "吃",
+                      "emoji": "🍚",
+                      "phonetic": "/chī/",
+                      "translation": "Verbo <b>comer</b>. Tono 1. <i>El carácter combina boca (口) y un sonido (乞).</i>",
+                      "mnemonic": "Visual: una boca (口) abierta esperando comida. Acústico: 'chi' como 'chi' en 'chico'.",
+                      "examples": [
+                          {
+                              "t": "我<b>吃</b>饭。",
+                              "n": "Yo como arroz."
+                          },
+                          {
+                              "t": "你<b>吃</b>吗？",
+                              "n": "¿Comes?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_he",
+                      "isLetter": true,
+                      "letter": "喝",
+                      "word": "喝",
+                      "emoji": "🍵",
+                      "phonetic": "/hē/",
+                      "translation": "Verbo <b>beber</b>. Tono 1. <i>El carácter combina boca (口) y sed (曷).</i>",
+                      "mnemonic": "Visual: una boca (口) que pide líquido. Acústico: 'he' como 'je' en francés, pero plano.",
+                      "examples": [
+                          {
+                              "t": "我<b>喝</b>水。",
+                              "n": "Yo bebo agua."
+                          },
+                          {
+                              "t": "你<b>喝</b>茶吗？",
+                              "n": "¿Bebes té?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_shuo",
+                      "isLetter": true,
+                      "letter": "说",
+                      "word": "说",
+                      "emoji": "🗣️",
+                      "phonetic": "/shuō/",
+                      "translation": "Verbo <b>hablar/decir</b>. Tono 1. <i>El carácter combina palabras (讠) y un sonido (兑).</i>",
+                      "mnemonic": "Visual: palabras (讠) que salen de la boca. Acústico: 'shuo' suena como 'shuo' en 'champú'.",
+                      "examples": [
+                          {
+                              "t": "我<b>说</b>中文。",
+                              "n": "Yo hablo chino."
+                          },
+                          {
+                              "t": "你<b>说</b>什么？",
+                              "n": "¿Qué dices?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_01",
+                      "isLetter": false,
+                      "letter": "你",
+                      "word": "你好",
+                      "emoji": "👋",
+                      "phonetic": "/nǐ hǎo/",
+                      "translation": "<b>Hola</b> (saludo básico). <i>Literalmente: tú + bien.</i>",
+                      "translations": {
+                          "zh": "你好",
+                          "fr": "Bonjour / Salut",
+                          "en": "Hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>你好</b>！",
+                              "n": "¡Hola!"
+                          },
+                          {
+                              "t": "<b>你好</b>，老师。",
+                              "n": "Hola, profesor/a."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_02",
+                      "isLetter": false,
+                      "letter": "谢",
+                      "word": "谢谢",
+                      "emoji": "🙏",
+                      "phonetic": "/xièxie/",
+                      "translation": "<b>Gracias</b>. <i>Reduplicación para dar énfasis.</i>",
+                      "translations": {
+                          "zh": "谢谢",
+                          "fr": "Merci",
+                          "en": "Thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>谢谢</b>！",
+                              "n": "¡Gracias!"
+                          },
+                          {
+                              "t": "<b>谢谢</b>你。",
+                              "n": "Gracias a ti."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_03",
+                      "isLetter": false,
+                      "letter": "对",
+                      "word": "对不起",
+                      "emoji": "😔",
+                      "phonetic": "/duìbuqǐ/",
+                      "translation": "<b>Perdón / Lo siento</b>. <i>Literalmente: cara + no + levantar.</i>",
+                      "translations": {
+                          "zh": "对不起",
+                          "fr": "Pardon / Désolé",
+                          "en": "Sorry"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>对不起</b>！",
+                              "n": "¡Perdón!"
+                          },
+                          {
+                              "t": "<b>对不起</b>，老师。",
+                              "n": "Perdón, profesor/a."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_04",
+                      "isLetter": false,
+                      "letter": "们",
+                      "word": "我们",
+                      "emoji": "👨‍👩‍👧",
+                      "phonetic": "/wǒmen/",
+                      "translation": "<b>Nosotros/as</b>. <i>我 (yo) + 们 (sufijo plural).</i>",
+                      "translations": {
+                          "zh": "我们",
+                          "fr": "Nous",
+                          "en": "We / Us"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>我们</b>好。",
+                              "n": "Nosotros estamos bien."
+                          },
+                          {
+                              "t": "<b>我们</b>是学生。",
+                              "n": "Nosotros somos estudiantes."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // ZH_IT
+  // ──────────────────────────────────────────────────────
+  zh_it: {
+      "level": "A0",
+      "levelName": "Pinyin y tonos del chino mandarín",
+      "groups": [
+          {
+              "id": "zh_a0_g1",
+              "name": "Los 4 tonos",
+              "icon": "🎵",
+              "color": "#6366f1",
+              "description": "El tono cambia completamente el significado",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "zh_a0_g1_L_a1",
+                      "isLetter": true,
+                      "letter": "ā",
+                      "word": "ā",
+                      "emoji": "📈",
+                      "phonetic": "/ā/",
+                      "translation": "Primo tono: <b>alto e piatto</b> — come una nota sostenuta, la voce resta alta e costante.<br><i>Immagina di cantare 'la' in un coro.</i>",
+                      "mnemonic": "Immagina una linea retta sopra la vocale: la voce resta dritta come un soldato.",
+                      "examples": [
+                          {
+                              "t": "<b>mā</b> = mamma (con tono piatto)",
+                              "n": "mamma"
+                          },
+                          {
+                              "t": "<b>bā</b> = otto",
+                              "n": "otto"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a2",
+                      "isLetter": true,
+                      "letter": "á",
+                      "word": "á",
+                      "emoji": "❓",
+                      "phonetic": "/ǎ/",
+                      "translation": "Secondo tono: <b>ascendente</b> — come quando chiedi 'Come?' con sorpresa, la voce sale.<br><i>Simile all'intonazione di una domanda in italiano.</i>",
+                      "mnemonic": "Pensa a un punto interrogativo rovesciato: la voce sale come una domanda.",
+                      "examples": [
+                          {
+                              "t": "<b>má</b> = canapa (con tono ascendente)",
+                              "n": "canapa"
+                          },
+                          {
+                              "t": "<b>lái</b> = venire",
+                              "n": "venire"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a3",
+                      "isLetter": true,
+                      "letter": "ǎ",
+                      "word": "ǎ",
+                      "emoji": "🤔",
+                      "phonetic": "/ǎ/",
+                      "translation": "Terzo tono: <b>prima scende poi sale</b> — come un 'hmm?' dubbioso, la voce scende e poi risale.<br><i>Simile al suono italiano 'beh?'</i>",
+                      "mnemonic": "Immagina una montagna: scendi nella valle e poi risali.",
+                      "examples": [
+                          {
+                              "t": "<b>mǎ</b> = cavallo (con tono discendente-ascendente)",
+                              "n": "cavallo"
+                          },
+                          {
+                              "t": "<b>nǐ</b> = tu",
+                              "n": "tu"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a4",
+                      "isLetter": true,
+                      "letter": "à",
+                      "word": "à",
+                      "emoji": "🔻",
+                      "phonetic": "/â/",
+                      "translation": "Quarto tono: <b>discendente netto</b> — come un 'No!' deciso, la voce cade dall'alto in basso.<br><i>Simile a un comando perentorio.</i>",
+                      "mnemonic": "Immagina una freccia che cade: la voce scende come un fulmine.",
+                      "examples": [
+                          {
+                              "t": "<b>mà</b> = sgridare (con tono discendente)",
+                              "n": "sgridare"
+                          },
+                          {
+                              "t": "<b>shì</b> = essere / sì",
+                              "n": "essere / sì"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_neutral",
+                      "isLetter": true,
+                      "letter": "ma",
+                      "word": "ma",
+                      "emoji": "⚖️",
+                      "phonetic": "/ma/",
+                      "translation": "Tono neutro: <b>leggero e breve</b> — senza tono specifico, la voce resta rilassata e corta.<br><i>Come una sillaba atona in italiano.</i>",
+                      "mnemonic": "Pensa a una piuma che cade: leggera e senza peso.",
+                      "examples": [
+                          {
+                              "t": "<b>ma</b> (particella interrogativa) — Nǐ hǎo ma? = Come stai?",
+                              "n": "Come stai?"
+                          },
+                          {
+                              "t": "<b>ne</b>, <b>le</b>, <b>ba</b>, <b>de</b> — particelle comuni",
+                              "n": "particelle comuni"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_rule_tone3",
+                      "isLetter": true,
+                      "letter": "nǐ hǎo",
+                      "word": "nǐ hǎo",
+                      "emoji": "🔄",
+                      "phonetic": "/nǐ hǎo/ → /ní hǎo/",
+                      "translation": "Regola del terzo tono: quando due terzi toni sono consecutivi, il primo diventa secondo tono.<br>Esempio: <b>nǐ hǎo</b> si pronuncia <b>ní hǎo</b>.",
+                      "mnemonic": "Due montagne: la prima si appiattisce per far salire la seconda.",
+                      "examples": [
+                          {
+                              "t": "<b>nǐ hǎo</b> → <b>ní hǎo</b> = Ciao",
+                              "n": "Ciao"
+                          },
+                          {
+                              "t": "<b>wǒ hěn hǎo</b> → <b>wó hén hǎo</b> = Sto molto bene",
+                              "n": "Sto molto bene"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_rule_bu",
+                      "isLetter": true,
+                      "letter": "bù",
+                      "word": "bù",
+                      "emoji": "🚫",
+                      "phonetic": "/bù/",
+                      "translation": "Regola di <b>bù</b>: normalmente è quarto tono, ma prima di un altro quarto tono diventa secondo tono.<br>Esempio: <b>bú shì</b> (non è).",
+                      "mnemonic": "Il 'non' cambia tono per non scontrarsi con un altro tono discendente.",
+                      "examples": [
+                          {
+                              "t": "<b>bù</b> hǎo = non buono (quarto tono)",
+                              "n": "non buono"
+                          },
+                          {
+                              "t": "<b>bú</b> shì = non è (secondo tono prima di shì)",
+                              "n": "non è"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "mā",
+                      "word": "妈妈",
+                      "emoji": "👩‍👧",
+                      "phonetic": "/mā ma/",
+                      "translation": "<b>mamma</b>",
+                      "translations": {
+                          "zh": "妈妈",
+                          "it": "mamma",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>妈妈</b> hǎo. (Mamma è buona.)",
+                              "n": "La mamma è buona."
+                          },
+                          {
+                              "t": "Wǒ de <b>māma</b> hěn piàoliang. (La mia mamma è bella.)",
+                              "n": "La mia mamma è bella."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "bā",
+                      "word": "八",
+                      "emoji": "8️⃣",
+                      "phonetic": "/bā/",
+                      "translation": "<b>otto</b>",
+                      "translations": {
+                          "zh": "八",
+                          "it": "otto",
+                          "en": "eight"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>bā</b> ge píngguǒ. (Ho otto mele.)",
+                              "n": "Ho otto mele."
+                          },
+                          {
+                              "t": "<b>Bā</b> shì yī gè jílì shùzì. (Otto è un numero fortunato.)",
+                              "n": "Otto è un numero fortunato."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "tā",
+                      "word": "他",
+                      "emoji": "👨",
+                      "phonetic": "/tā/",
+                      "translation": "<b>lui</b> (per maschi)",
+                      "translations": {
+                          "zh": "他",
+                          "it": "lui",
+                          "en": "he/him"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Tā</b> shì wǒ de péngyou. (Lui è il mio amico.)",
+                              "n": "Lui è il mio amico."
+                          },
+                          {
+                              "t": "<b>Tā</b> hěn gāo. (Lui è molto alto.)",
+                              "n": "Lui è molto alto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "má",
+                      "word": "麻",
+                      "emoji": "🌿",
+                      "phonetic": "/má/",
+                      "translation": "<b>canapa</b> / <b>intorpidito</b>",
+                      "translations": {
+                          "zh": "麻",
+                          "it": "canapa / intorpidito",
+                          "en": "hemp / numb"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè zhǒng <b>má</b> hěn yǒuyòng. (Questo tipo di canapa è molto utile.)",
+                              "n": "Questo tipo di canapa è molto utile."
+                          },
+                          {
+                              "t": "Wǒ de jiǎo <b>má</b> le. (Il mio piede è intorpidito.)",
+                              "n": "Il mio piede è intorpidito."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "lái",
+                      "word": "来",
+                      "emoji": "🚶",
+                      "phonetic": "/lái/",
+                      "translation": "<b>venire</b>",
+                      "translations": {
+                          "zh": "来",
+                          "it": "venire",
+                          "en": "to come"
+                      },
+                      "examples": [
+                          {
+                              "t": "Qǐng <b>lái</b> zhèlǐ. (Per favore vieni qui.)",
+                              "n": "Per favore vieni qui."
+                          },
+                          {
+                              "t": "Tā míngtiān <b>lái</b>. (Lui viene domani.)",
+                              "n": "Lui viene domani."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "nán",
+                      "word": "难",
+                      "emoji": "😓",
+                      "phonetic": "/nán/",
+                      "translation": "<b>difficile</b>",
+                      "translations": {
+                          "zh": "难",
+                          "it": "difficile",
+                          "en": "difficult"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhège wèntí hěn <b>nán</b>. (Questo problema è molto difficile.)",
+                              "n": "Questo problema è molto difficile."
+                          },
+                          {
+                              "t": "Xué Hànyǔ yǒudiǎn <b>nán</b>. (Imparare il cinese è un po' difficile.)",
+                              "n": "Imparare il cinese è un po' difficile."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "mǎ",
+                      "word": "马",
+                      "emoji": "🐴",
+                      "phonetic": "/mǎ/",
+                      "translation": "<b>cavallo</b>",
+                      "translations": {
+                          "zh": "马",
+                          "it": "cavallo",
+                          "en": "horse"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ xǐhuān <b>mǎ</b>. (Mi piacciono i cavalli.)",
+                              "n": "Mi piacciono i cavalli."
+                          },
+                          {
+                              "t": "Nà pǐ <b>mǎ</b> hěn kuài. (Quel cavallo è molto veloce.)",
+                              "n": "Quel cavallo è molto veloce."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "nǐ",
+                      "word": "你",
+                      "emoji": "👉",
+                      "phonetic": "/nǐ/",
+                      "translation": "<b>tu</b>",
+                      "translations": {
+                          "zh": "你",
+                          "it": "tu",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Nǐ</b> hǎo ma? (Come stai?)",
+                              "n": "Come stai?"
+                          },
+                          {
+                              "t": "<b>Nǐ</b> shì lǎoshī ma? (Sei un insegnante?)",
+                              "n": "Sei un insegnante?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "hǎo",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "/hǎo/",
+                      "translation": "<b>buono</b> / <b>bene</b>",
+                      "translations": {
+                          "zh": "好",
+                          "it": "buono / bene",
+                          "en": "good / well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Hěn <b>hǎo</b>! (Molto bene!)",
+                              "n": "Molto bene!"
+                          },
+                          {
+                              "t": "Zhè ge diànyǐng hěn <b>hǎo</b>. (Questo film è molto buono.)",
+                              "n": "Questo film è molto buono."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "wǒ",
+                      "word": "我",
+                      "emoji": "🙋",
+                      "phonetic": "/wǒ/",
+                      "translation": "<b>io</b>",
+                      "translations": {
+                          "zh": "我",
+                          "it": "io",
+                          "en": "I / me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Wǒ</b> jiào Anna. (Mi chiamo Anna.)",
+                              "n": "Mi chiamo Anna."
+                          },
+                          {
+                              "t": "<b>Wǒ</b> xǐhuān yīnyuè. (Mi piace la musica.)",
+                              "n": "Mi piace la musica."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_11",
+                      "isLetter": false,
+                      "letter": "mà",
+                      "word": "骂",
+                      "emoji": "😠",
+                      "phonetic": "/mà/",
+                      "translation": "<b>sgridare</b> / <b>insultare</b>",
+                      "translations": {
+                          "zh": "骂",
+                          "it": "sgridare / insultare",
+                          "en": "to scold / to curse"
+                      },
+                      "examples": [
+                          {
+                              "t": "Māma <b>mà</b> wǒ. (La mamma mi sgrida.)",
+                              "n": "La mamma mi sgrida."
+                          },
+                          {
+                              "t": "Tā <b>mà</b> rén bù duì. (Lui sgridare le persone non è giusto.)",
+                              "n": "Lui sgridare le persone non è giusto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_12",
+                      "isLetter": false,
+                      "letter": "shì",
+                      "word": "是",
+                      "emoji": "✅",
+                      "phonetic": "/shì/",
+                      "translation": "<b>essere</b> / <b>sì</b>",
+                      "translations": {
+                          "zh": "是",
+                          "it": "essere / sì",
+                          "en": "to be / yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "Tā <b>shì</b> yīshēng. (Lui è un medico.)",
+                              "n": "Lui è un medico."
+                          },
+                          {
+                              "t": "<b>Shì</b>, wǒ míngbai. (Sì, capisco.)",
+                              "n": "Sì, capisco."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_13",
+                      "isLetter": false,
+                      "letter": "bù",
+                      "word": "不",
+                      "emoji": "❌",
+                      "phonetic": "/bù/",
+                      "translation": "<b>non</b> / <b>no</b>",
+                      "translations": {
+                          "zh": "不",
+                          "it": "non / no",
+                          "en": "not / no"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>bù</b> xǐhuān kāfēi. (Non mi piace il caffè.)",
+                              "n": "Non mi piace il caffè."
+                          },
+                          {
+                              "t": "<b>Bù</b>, xièxie. (No, grazie.)",
+                              "n": "No, grazie."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_14",
+                      "isLetter": false,
+                      "letter": "ma",
+                      "word": "吗",
+                      "emoji": "❓",
+                      "phonetic": "/ma/",
+                      "translation": "Particella interrogativa (tono neutro)",
+                      "translations": {
+                          "zh": "吗",
+                          "it": "particella interrogativa",
+                          "en": "question particle"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nǐ hǎo <b>ma</b>? (Come stai?)",
+                              "n": "Come stai?"
+                          },
+                          {
+                              "t": "Zhè shì nǐ de shū <b>ma</b>? (Questo è il tuo libro?)",
+                              "n": "Questo è il tuo libro?"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g2",
+              "name": "Iniciales (consonantes)",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "b p m f / d t n l / g k h / j q x / zh ch sh r / z c s",
+              "reviewFrom": [
+                  "zh_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "b",
+                      "word": "b",
+                      "emoji": "🔤",
+                      "phonetic": "/p/ (unaspirated)",
+                      "translation": "Lettera <b>b</b> — suono simile a una <i>p</i> italiana non aspirata, ma senza vibrazione delle corde vocali (sorda).<br>Come in <i>palla</i> ma più secca.",
+                      "mnemonic": "Immagina una 'b' che perde la voce: diventa una 'p' senza soffio.",
+                      "examples": [
+                          {
+                              "t": "<b>bā</b> (八) — otto",
+                              "n": "Numero fortunato in Cina."
+                          },
+                          {
+                              "t": "<b>bàba</b> (爸爸) — papà",
+                              "n": "Parola comune per 'papà'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "p",
+                      "word": "p",
+                      "emoji": "🔤",
+                      "phonetic": "/pʰ/ (aspirated)",
+                      "translation": "Lettera <b>p</b> — suono come la <i>p</i> italiana, ma con un forte soffio d'aria.<br>Immagina di spegnere una candela dicendo 'p'.",
+                      "mnemonic": "La 'p' ha un palloncino che scoppia: esce molta aria.",
+                      "examples": [
+                          {
+                              "t": "<b>pà</b> (怕) — avere paura",
+                              "n": "Verbo comune."
+                          },
+                          {
+                              "t": "<b>píngguǒ</b> (苹果) — mela",
+                              "n": "Frutta comune."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_m",
+                      "isLetter": true,
+                      "letter": "m",
+                      "word": "m",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Lettera <b>m</b> — suono come la <i>m</i> italiana, nasale e sonoro.",
+                      "mnemonic": "La 'm' è come una montagna: chiudi le labbra e senti il ronzio.",
+                      "examples": [
+                          {
+                              "t": "<b>māo</b> (猫) — gatto",
+                              "n": "Animale domestico."
+                          },
+                          {
+                              "t": "<b>māma</b> (妈妈) — mamma",
+                              "n": "Prima parola di molti bambini."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "f",
+                      "word": "f",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Lettera <b>f</b> — suono come la <i>f</i> italiana, con aria che esce tra labbro e denti.",
+                      "mnemonic": "La 'f' sembra una bandiera che sventola al vento.",
+                      "examples": [
+                          {
+                              "t": "<b>fēi</b> (飞) — volare",
+                              "n": "Verbo di movimento."
+                          },
+                          {
+                              "t": "<b>fàn</b> (饭) — riso/cibo",
+                              "n": "Pasto principale."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "d",
+                      "word": "d",
+                      "emoji": "🔤",
+                      "phonetic": "/t/ (unaspirated)",
+                      "translation": "Lettera <b>d</b> — suono simile a una <i>t</i> italiana non aspirata, ma sorda.<br>Come in <i>tavolo</i> ma senza vibrazione.",
+                      "mnemonic": "La 'd' è una 't' con la pancia: ma non vibra.",
+                      "examples": [
+                          {
+                              "t": "<b>dà</b> (大) — grande",
+                              "n": "Contrario di piccolo."
+                          },
+                          {
+                              "t": "<b>dìdi</b> (弟弟) — fratello minore",
+                              "n": "Parentela."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_t",
+                      "isLetter": true,
+                      "letter": "t",
+                      "word": "t",
+                      "emoji": "🔤",
+                      "phonetic": "/tʰ/ (aspirated)",
+                      "translation": "Lettera <b>t</b> — suono come la <i>t</i> italiana, ma con un soffio d'aria.<br>Immagina di dire 't' e spegnere una candela.",
+                      "mnemonic": "La 't' ha un cappello da cui esce un getto d'aria.",
+                      "examples": [
+                          {
+                              "t": "<b>tā</b> (他) — lui",
+                              "n": "Pronome maschile."
+                          },
+                          {
+                              "t": "<b>tài</b> (太) — troppo",
+                              "n": "Avverbio di grado."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "n",
+                      "word": "n",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Lettera <b>n</b> — suono come la <i>n</i> italiana, nasale.",
+                      "mnemonic": "La 'n' ha una porta: l'aria esce dal naso.",
+                      "examples": [
+                          {
+                              "t": "<b>nǐ</b> (你) — tu",
+                              "n": "Pronome personale."
+                          },
+                          {
+                              "t": "<b>nǚ</b> (女) — donna",
+                              "n": "Genere femminile."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "l",
+                      "word": "l",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "Lettera <b>l</b> — suono come la <i>l</i> italiana, laterale.",
+                      "mnemonic": "La 'l' è un bastone da passeggio: la lingua tocca il palato.",
+                      "examples": [
+                          {
+                              "t": "<b>lái</b> (来) — venire",
+                              "n": "Verbo di movimento."
+                          },
+                          {
+                              "t": "<b>lǎo</b> (老) — vecchio",
+                              "n": "Aggettivo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "g",
+                      "word": "g",
+                      "emoji": "🔤",
+                      "phonetic": "/k/ (unaspirated)",
+                      "translation": "Lettera <b>g</b> — suono simile a una <i>c</i> dura italiana (come in 'casa') ma non aspirata e sorda.",
+                      "mnemonic": "La 'g' è una 'c' con la coda: ma non vibra.",
+                      "examples": [
+                          {
+                              "t": "<b>gǒu</b> (狗) — cane",
+                              "n": "Animale comune."
+                          },
+                          {
+                              "t": "<b>gēge</b> (哥哥) — fratello maggiore",
+                              "n": "Parentela."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_k",
+                      "isLetter": true,
+                      "letter": "k",
+                      "word": "k",
+                      "emoji": "🔤",
+                      "phonetic": "/kʰ/ (aspirated)",
+                      "translation": "Lettera <b>k</b> — suono come la <i>c</i> dura italiana, ma con un forte soffio.<br>Immagina di tossire leggermente.",
+                      "mnemonic": "La 'k' ha un aquilone: il vento soffia forte.",
+                      "examples": [
+                          {
+                              "t": "<b>kāi</b> (开) — aprire",
+                              "n": "Verbo comune."
+                          },
+                          {
+                              "t": "<b>kàn</b> (看) — guardare",
+                              "n": "Verbo di percezione."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_h",
+                      "isLetter": true,
+                      "letter": "h",
+                      "word": "h",
+                      "emoji": "🔤",
+                      "phonetic": "/x/ (aspro)",
+                      "translation": "Lettera <b>h</b> — suono come la <i>j</i> spagnola (come in 'Juan') o la <i>ch</i> tedesca, ma più dolce.<br>Non esiste in italiano.",
+                      "mnemonic": "La 'h' è una montagna con un tunnel: l'aria passa e sibila.",
+                      "examples": [
+                          {
+                              "t": "<b>hǎo</b> (好) — buono/bene",
+                              "n": "Parola fondamentale."
+                          },
+                          {
+                              "t": "<b>hē</b> (喝) — bere",
+                              "n": "Verbo quotidiano."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_j",
+                      "isLetter": true,
+                      "letter": "j",
+                      "word": "j",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/ (unaspirated, palatale)",
+                      "translation": "Lettera <b>j</b> — suono simile a una <i>c</i> dolce italiana (come in 'ciao') ma con la lingua più alta, senza soffio.",
+                      "mnemonic": "La 'j' è un gancio che attira la lingua verso il palato.",
+                      "examples": [
+                          {
+                              "t": "<b>jiā</b> (家) — casa",
+                              "n": "Parola essenziale."
+                          },
+                          {
+                              "t": "<b>jǐ</b> (几) — quanto/alcuni",
+                              "n": "Usato per numeri."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_q",
+                      "isLetter": true,
+                      "letter": "q",
+                      "word": "q",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕʰ/ (aspirated, palatale)",
+                      "translation": "Lettera <b>q</b> — suono come la <i>c</i> dolce italiana ma con un forte soffio.<br>Immagina di dire 'ciao' con più aria.",
+                      "mnemonic": "La 'q' ha una pallina che esce con un soffio.",
+                      "examples": [
+                          {
+                              "t": "<b>qǐng</b> (请) — per favore",
+                              "n": "Parola di cortesia."
+                          },
+                          {
+                              "t": "<b>qī</b> (七) — sette",
+                              "n": "Numero."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_x",
+                      "isLetter": true,
+                      "letter": "x",
+                      "word": "x",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕ/ (sordo, palatale)",
+                      "translation": "Lettera <b>x</b> — suono simile a <i>sc</i> in 'scienza' ma con la lingua più alta e un sibilo dolce.",
+                      "mnemonic": "La 'x' è un incrocio: la lingua si avvicina al palato e sibila.",
+                      "examples": [
+                          {
+                              "t": "<b>xiǎo</b> (小) — piccolo",
+                              "n": "Aggettivo comune."
+                          },
+                          {
+                              "t": "<b>xī</b> (西) — ovest",
+                              "n": "Direzione."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_zh",
+                      "isLetter": true,
+                      "letter": "zh",
+                      "word": "zh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂ/ (unaspirated, retroflessa)",
+                      "translation": "Lettera <b>zh</b> — suono simile a una <i>g</i> dolce italiana (come in 'giro') ma con la lingua arrotolata all'indietro, senza soffio.",
+                      "mnemonic": "La 'zh' ha un gancio: la lingua si arrotola come una 'z' con la coda.",
+                      "examples": [
+                          {
+                              "t": "<b>zhōng</b> (中) — centro/mezzo",
+                              "n": "Parola chiave."
+                          },
+                          {
+                              "t": "<b>zhè</b> (这) — questo",
+                              "n": "Dimostrativo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "ch",
+                      "word": "ch",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂʰ/ (aspirated, retroflessa)",
+                      "translation": "Lettera <b>ch</b> — suono come la <i>c</i> dolce italiana ma con la lingua arrotolata e un forte soffio.",
+                      "mnemonic": "La 'ch' è come 'c' con un cappello: esce molta aria.",
+                      "examples": [
+                          {
+                              "t": "<b>chī</b> (吃) — mangiare",
+                              "n": "Verbo essenziale."
+                          },
+                          {
+                              "t": "<b>chá</b> (茶) — tè",
+                              "n": "Bevanda tipica."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_sh",
+                      "isLetter": true,
+                      "letter": "sh",
+                      "word": "sh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʂ/ (sordo, retroflessa)",
+                      "translation": "Lettera <b>sh</b> — suono come <i>sc</i> in 'sciarpa' ma con la lingua arrotolata all'indietro, sordo.",
+                      "mnemonic": "La 'sh' è un serpente che sibila con la lingua arrotolata.",
+                      "examples": [
+                          {
+                              "t": "<b>shū</b> (书) — libro",
+                              "n": "Oggetto comune."
+                          },
+                          {
+                              "t": "<b>shì</b> (是) — essere",
+                              "n": "Verbo fondamentale."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_r",
+                      "isLetter": true,
+                      "letter": "r",
+                      "word": "r",
+                      "emoji": "🔤",
+                      "phonetic": "/ʐ/ (sonoro, retroflesso)",
+                      "translation": "Lettera <b>r</b> — suono simile alla <i>j</i> francese (come in 'jour') ma con la lingua arrotolata e sonoro.",
+                      "mnemonic": "La 'r' è un ruscello: la lingua vibra dolcemente.",
+                      "examples": [
+                          {
+                              "t": "<b>rén</b> (人) — persona",
+                              "n": "Parola universale."
+                          },
+                          {
+                              "t": "<b>rì</b> (日) — sole/giorno",
+                              "n": "Tempo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "z",
+                      "word": "z",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/ (unaspirated)",
+                      "translation": "Lettera <b>z</b> — suono come la <i>z</i> italiana in 'pizza' (affricata) ma senza soffio, sorda.",
+                      "mnemonic": "La 'z' è una pizza: la lingua tocca i denti.",
+                      "examples": [
+                          {
+                              "t": "<b>zài</b> (在) — essere a / trovarsi",
+                              "n": "Verbo di stato."
+                          },
+                          {
+                              "t": "<b>zǎo</b> (早) — presto/mattina",
+                              "n": "Saluto mattutino."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_c",
+                      "isLetter": true,
+                      "letter": "c",
+                      "word": "c",
+                      "emoji": "🔤",
+                      "phonetic": "/tsʰ/ (aspirated)",
+                      "translation": "Lettera <b>c</b> — suono come la <i>z</i> italiana in 'pizza' ma con un forte soffio.<br>Immagina di dire 'zz' e soffiare.",
+                      "mnemonic": "La 'c' ha una coda che soffia aria.",
+                      "examples": [
+                          {
+                              "t": "<b>cài</b> (菜) — verdura/piatto",
+                              "n": "Cibo."
+                          },
+                          {
+                              "t": "<b>cóng</b> (从) — da",
+                              "n": "Preposizione."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_s",
+                      "isLetter": true,
+                      "letter": "s",
+                      "word": "s",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Lettera <b>s</b> — suono come la <i>s</i> italiana sorda (come in 'sole').",
+                      "mnemonic": "La 's' è un serpente che sibila.",
+                      "examples": [
+                          {
+                              "t": "<b>sān</b> (三) — tre",
+                              "n": "Numero."
+                          },
+                          {
+                              "t": "<b>sì</b> (四) — quattro",
+                              "n": "Numero."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "b",
+                      "word": "爸爸",
+                      "emoji": "👨",
+                      "phonetic": "bàba",
+                      "translation": "<b>Papà</b> (padre)",
+                      "translations": {
+                          "zh": "爸爸",
+                          "it": "papà",
+                          "en": "dad"
+                      },
+                      "examples": [
+                          {
+                              "t": "这是我的<b>爸爸</b>。",
+                              "n": "Questo è mio papà."
+                          },
+                          {
+                              "t": "<b>爸爸</b>很好。",
+                              "n": "Papà sta bene."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "m",
+                      "word": "猫",
+                      "emoji": "🐱",
+                      "phonetic": "māo",
+                      "translation": "<b>Gatto</b>",
+                      "translations": {
+                          "zh": "猫",
+                          "it": "gatto",
+                          "en": "cat"
+                      },
+                      "examples": [
+                          {
+                              "t": "我喜欢<b>猫</b>。",
+                              "n": "Mi piacciono i gatti."
+                          },
+                          {
+                              "t": "这是<b>猫</b>吗？",
+                              "n": "Questo è un gatto?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "d",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "dà",
+                      "translation": "<b>Grande</b>",
+                      "translations": {
+                          "zh": "大",
+                          "it": "grande",
+                          "en": "big"
+                      },
+                      "examples": [
+                          {
+                              "t": "这个苹果很<b>大</b>。",
+                              "n": "Questa mela è molto grande."
+                          },
+                          {
+                              "t": "北京很<b>大</b>。",
+                              "n": "Pechino è grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "n",
+                      "word": "你",
+                      "emoji": "🙋",
+                      "phonetic": "nǐ",
+                      "translation": "<b>Tu</b> (pronome personale)",
+                      "translations": {
+                          "zh": "你",
+                          "it": "tu",
+                          "en": "you (singular)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>你</b>好！",
+                              "n": "Ciao!"
+                          },
+                          {
+                              "t": "<b>你</b>是老师吗？",
+                              "n": "Sei un insegnante?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "g",
+                      "word": "狗",
+                      "emoji": "🐶",
+                      "phonetic": "gǒu",
+                      "translation": "<b>Cane</b>",
+                      "translations": {
+                          "zh": "狗",
+                          "it": "cane",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "我喜欢<b>狗</b>。",
+                              "n": "Mi piacciono i cani."
+                          },
+                          {
+                              "t": "这是<b>狗</b>。",
+                              "n": "Questo è un cane."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "h",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "hǎo",
+                      "translation": "<b>Buono</b> / bene",
+                      "translations": {
+                          "zh": "好",
+                          "it": "buono",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>好</b>吗？",
+                              "n": "Va bene?"
+                          },
+                          {
+                              "t": "我很好，谢谢。",
+                              "n": "Sto bene, grazie."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "j",
+                      "word": "家",
+                      "emoji": "🏠",
+                      "phonetic": "jiā",
+                      "translation": "<b>Casa</b> / famiglia",
+                      "translations": {
+                          "zh": "家",
+                          "it": "casa",
+                          "en": "home"
+                      },
+                      "examples": [
+                          {
+                              "t": "这是我的<b>家</b>。",
+                              "n": "Questa è la mia casa."
+                          },
+                          {
+                              "t": "我想回<b>家</b>。",
+                              "n": "Voglio tornare a casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "q",
+                      "word": "请",
+                      "emoji": "🙏",
+                      "phonetic": "qǐng",
+                      "translation": "<b>Per favore</b> / invitare",
+                      "translations": {
+                          "zh": "请",
+                          "it": "per favore",
+                          "en": "please"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>请</b>进！",
+                              "n": "Entra, prego!"
+                          },
+                          {
+                              "t": "<b>请</b>坐。",
+                              "n": "Si accomodi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "x",
+                      "word": "小",
+                      "emoji": "🐭",
+                      "phonetic": "xiǎo",
+                      "translation": "<b>Piccolo</b>",
+                      "translations": {
+                          "zh": "小",
+                          "it": "piccolo",
+                          "en": "small"
+                      },
+                      "examples": [
+                          {
+                              "t": "这是<b>小</b>猫。",
+                              "n": "Questo è un gattino."
+                          },
+                          {
+                              "t": "我很<b>小</b>。",
+                              "n": "Sono piccolo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "zh",
+                      "word": "中",
+                      "emoji": "🇨🇳",
+                      "phonetic": "zhōng",
+                      "translation": "<b>Centro</b> / mezzo / Cina",
+                      "translations": {
+                          "zh": "中",
+                          "it": "centro",
+                          "en": "middle"
+                      },
+                      "examples": [
+                          {
+                              "t": "我在<b>中</b>国。",
+                              "n": "Sono in Cina."
+                          },
+                          {
+                              "t": "这是<b>中</b>文。",
+                              "n": "Questo è cinese."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_11",
+                      "isLetter": false,
+                      "letter": "sh",
+                      "word": "书",
+                      "emoji": "📖",
+                      "phonetic": "shū",
+                      "translation": "<b>Libro</b>",
+                      "translations": {
+                          "zh": "书",
+                          "it": "libro",
+                          "en": "book"
+                      },
+                      "examples": [
+                          {
+                              "t": "这是<b>书</b>。",
+                              "n": "Questo è un libro."
+                          },
+                          {
+                              "t": "我喜欢读<b>书</b>。",
+                              "n": "Mi piace leggere libri."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_12",
+                      "isLetter": false,
+                      "letter": "c",
+                      "word": "菜",
+                      "emoji": "🥦",
+                      "phonetic": "cài",
+                      "translation": "<b>Verdura</b> / piatto (cibo)",
+                      "translations": {
+                          "zh": "菜",
+                          "it": "verdura",
+                          "en": "vegetable"
+                      },
+                      "examples": [
+                          {
+                              "t": "我喜欢吃<b>菜</b>。",
+                              "n": "Mi piace mangiare verdure."
+                          },
+                          {
+                              "t": "这是<b>菜</b>吗？",
+                              "n": "Questo è un piatto?"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g3",
+              "name": "Finales (vocales y nasales)",
+              "icon": "🔤",
+              "color": "#10b981",
+              "description": "a o e i u ü — simples, diptongos y nasales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "a",
+                      "word": "a",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "<b>a</b> — suona come la <i>a</i> italiana di <span class=\"hl\">casa</span>",
+                      "mnemonic": "Come la 'a' di 'amore'.",
+                      "examples": [
+                          {
+                              "t": "La <b>a</b> è sempre aperta, come in italiano.",
+                              "n": "La 'a' è sempre aperta, come in italiano."
+                          },
+                          {
+                              "t": "Māo (gatto) contiene <b>a</b> e <b>o</b>.",
+                              "n": "Māo (gatto) contiene a e o."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "o",
+                      "word": "o",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "<b>o</b> — suona come la <i>o</i> italiana di <span class=\"hl\">sole</span>",
+                      "mnemonic": "Rotonda come una bocca che dice 'o'.",
+                      "examples": [
+                          {
+                              "t": "La <b>o</b> è arrotondata, come la vocale italiana.",
+                              "n": "La 'o' è arrotondata."
+                          },
+                          {
+                              "t": "Hǎo (bene) contiene <b>a</b> e <b>o</b>.",
+                              "n": "Hǎo (bene) contiene a e o."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "e",
+                      "word": "e",
+                      "emoji": "🔤",
+                      "phonetic": "/ɤ/",
+                      "translation": "<b>e</b> — da sola suona come una <i>e</i> molto chiusa, quasi una <i>schwa</i>",
+                      "mnemonic": "Pensa alla 'e' di 'beh' con la bocca rilassata.",
+                      "examples": [
+                          {
+                              "t": "La <b>e</b> da sola è diversa dalla 'e' italiana.",
+                              "n": "La 'e' da sola è diversa dalla 'e' italiana."
+                          },
+                          {
+                              "t": "Èr (due) contiene <b>e</b> e <b>r</b>.",
+                              "n": "Èr (due) contiene e e r."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "i",
+                      "word": "i",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "<b>i</b> — come la <i>i</i> italiana di <span class=\"hl\">vino</span>",
+                      "mnemonic": "Sottile come un ago, come la 'i'.",
+                      "examples": [
+                          {
+                              "t": "La <b>i</b> è identica alla 'i' italiana.",
+                              "n": "La 'i' è identica alla 'i' italiana."
+                          },
+                          {
+                              "t": "Nǐ (tu) contiene <b>i</b>.",
+                              "n": "Nǐ (tu) contiene i."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_u",
+                      "isLetter": true,
+                      "letter": "u",
+                      "word": "u",
+                      "emoji": "🔤",
+                      "phonetic": "/u/",
+                      "translation": "<b>u</b> — come la <i>u</i> italiana di <span class=\"hl\">luna</span>",
+                      "mnemonic": "Rotonda come la luna piena.",
+                      "examples": [
+                          {
+                              "t": "La <b>u</b> è come quella italiana, ma più chiusa.",
+                              "n": "La 'u' è come quella italiana."
+                          },
+                          {
+                              "t": "Bù (no) contiene <b>u</b>.",
+                              "n": "Bù (no) contiene u."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_u_umlaut",
+                      "isLetter": true,
+                      "letter": "ü",
+                      "word": "ü",
+                      "emoji": "🔤",
+                      "phonetic": "/y/",
+                      "translation": "<b>ü</b> — suona come la <i>u</i> francese di <span class=\"hl\">rue</span> o la <i>ü</i> tedesca",
+                      "mnemonic": "Arrotonda le labbra come per 'u' ma pronuncia 'i'.",
+                      "examples": [
+                          {
+                              "t": "La <b>ü</b> si scrive con due puntini sopra la u.",
+                              "n": "La 'ü' ha due puntini."
+                          },
+                          {
+                              "t": "Dopo j, q, x, y, la <b>ü</b> perde i puntini ma suona uguale.",
+                              "n": "Dopo j, q, x, y, la 'ü' perde i puntini."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ai",
+                      "isLetter": true,
+                      "letter": "ai",
+                      "word": "ai",
+                      "emoji": "🔤",
+                      "phonetic": "/ai̯/",
+                      "translation": "<b>ai</b> — dittongo che suona come <i>ai</i> in italiano",
+                      "mnemonic": "Come 'ai' di 'aiuto'.",
+                      "examples": [
+                          {
+                              "t": "Māo (gatto) ha <b>ao</b>, non <b>ai</b>.",
+                              "n": "Māo ha 'ao', non 'ai'."
+                          },
+                          {
+                              "t": "Hǎo (bene) ha <b>ao</b>, non <b>ai</b>.",
+                              "n": "Hǎo ha 'ao'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ei",
+                      "isLetter": true,
+                      "letter": "ei",
+                      "word": "ei",
+                      "emoji": "🔤",
+                      "phonetic": "/ei̯/",
+                      "translation": "<b>ei</b> — dittongo che suona come <i>ei</i> in italiano",
+                      "mnemonic": "Come 'ei' di 'lei'.",
+                      "examples": [
+                          {
+                              "t": "Fēi (volare) contiene <b>ei</b>.",
+                              "n": "Fēi (volare) contiene 'ei'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ao",
+                      "isLetter": true,
+                      "letter": "ao",
+                      "word": "ao",
+                      "emoji": "🔤",
+                      "phonetic": "/au̯/",
+                      "translation": "<b>ao</b> — suona come <i>ao</i> in italiano, ma la o è più chiusa",
+                      "mnemonic": "Come 'ao' di 'caos'.",
+                      "examples": [
+                          {
+                              "t": "Māo (gatto) contiene <b>ao</b>.",
+                              "n": "Māo ha 'ao'."
+                          },
+                          {
+                              "t": "Hǎo (bene) contiene <b>ao</b>.",
+                              "n": "Hǎo ha 'ao'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ou",
+                      "isLetter": true,
+                      "letter": "ou",
+                      "word": "ou",
+                      "emoji": "🔤",
+                      "phonetic": "/ou̯/",
+                      "translation": "<b>ou</b> — dittongo che suona come <i>ou</i> in francese o come 'o' lunga",
+                      "mnemonic": "Come 'ou' di 'tour' francese.",
+                      "examples": [
+                          {
+                              "t": "Gǒu (cane) contiene <b>ou</b>.",
+                              "n": "Gǒu ha 'ou'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ia",
+                      "isLetter": true,
+                      "letter": "ia",
+                      "word": "ia",
+                      "emoji": "🔤",
+                      "phonetic": "/i̯a/",
+                      "translation": "<b>ia</b> — dittongo che suona come <i>ia</i> in italiano",
+                      "mnemonic": "Come 'ia' di 'piano'.",
+                      "examples": [
+                          {
+                              "t": "Jiā (casa) contiene <b>ia</b>.",
+                              "n": "Jiā ha 'ia'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ie",
+                      "isLetter": true,
+                      "letter": "ie",
+                      "word": "ie",
+                      "emoji": "🔤",
+                      "phonetic": "/i̯e/",
+                      "translation": "<b>ie</b> — dittongo che suona come <i>ie</i> in italiano",
+                      "mnemonic": "Come 'ie' di 'piede'.",
+                      "examples": [
+                          {
+                              "t": "Xiè (grazie) contiene <b>ie</b>.",
+                              "n": "Xiè ha 'ie'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ua",
+                      "isLetter": true,
+                      "letter": "ua",
+                      "word": "ua",
+                      "emoji": "🔤",
+                      "phonetic": "/u̯a/",
+                      "translation": "<b>ua</b> — dittongo che suona come <i>ua</i> in italiano",
+                      "mnemonic": "Come 'ua' di 'quando'.",
+                      "examples": [
+                          {
+                              "t": "Huā (fiore) contiene <b>ua</b>.",
+                              "n": "Huā ha 'ua'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_uo",
+                      "isLetter": true,
+                      "letter": "uo",
+                      "word": "uo",
+                      "emoji": "🔤",
+                      "phonetic": "/u̯o/",
+                      "translation": "<b>uo</b> — dittongo che suona come <i>uo</i> in italiano",
+                      "mnemonic": "Come 'uo' di 'buono'.",
+                      "examples": [
+                          {
+                              "t": "Duō (molto) contiene <b>uo</b>.",
+                              "n": "Duō ha 'uo'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ue",
+                      "isLetter": true,
+                      "letter": "üe",
+                      "word": "üe",
+                      "emoji": "🔤",
+                      "phonetic": "/y̯e/",
+                      "translation": "<b>üe</b> — dittongo con la vocale <i>ü</i> seguita da <i>e</i>",
+                      "mnemonic": "Inizia con la 'ü' tedesca e poi aggiungi 'e'.",
+                      "examples": [
+                          {
+                              "t": "Yuè (luna) contiene <b>üe</b> (ma si scrive <i>ue</i> dopo y).",
+                              "n": "Yuè ha 'üe' ma si scrive 'ue'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_an",
+                      "isLetter": true,
+                      "letter": "an",
+                      "word": "an",
+                      "emoji": "🔤",
+                      "phonetic": "/an/",
+                      "translation": "<b>an</b> — vocale <i>a</i> + nasale <i>n</i>, come in italiano",
+                      "mnemonic": "Come 'an' di 'canto'.",
+                      "examples": [
+                          {
+                              "t": "Nán (sud) contiene <b>an</b>.",
+                              "n": "Nán ha 'an'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_en",
+                      "isLetter": true,
+                      "letter": "en",
+                      "word": "en",
+                      "emoji": "🔤",
+                      "phonetic": "/ən/",
+                      "translation": "<b>en</b> — suona come una <i>e</i> molto chiusa + <i>n</i>",
+                      "mnemonic": "Pensa all'inglese 'en' ma con e più chiusa.",
+                      "examples": [
+                          {
+                              "t": "Rén (persona) contiene <b>en</b>.",
+                              "n": "Rén ha 'en'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_in",
+                      "isLetter": true,
+                      "letter": "in",
+                      "word": "in",
+                      "emoji": "🔤",
+                      "phonetic": "/in/",
+                      "translation": "<b>in</b> — vocale <i>i</i> + nasale <i>n</i>",
+                      "mnemonic": "Come 'in' di 'vino'.",
+                      "examples": [
+                          {
+                              "t": "Yīn (suono) contiene <b>in</b>.",
+                              "n": "Yīn ha 'in'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_un",
+                      "isLetter": true,
+                      "letter": "un",
+                      "word": "un",
+                      "emoji": "🔤",
+                      "phonetic": "/uən/",
+                      "translation": "<b>un</b> — suona come <i>uen</i> (con e breve)",
+                      "mnemonic": "Come 'un' ma con una e quasi impercettibile.",
+                      "examples": [
+                          {
+                              "t": "Lún (ruota) contiene <b>un</b>.",
+                              "n": "Lún ha 'un'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ang",
+                      "isLetter": true,
+                      "letter": "ang",
+                      "word": "ang",
+                      "emoji": "🔤",
+                      "phonetic": "/ɑŋ/",
+                      "translation": "<b>ang</b> — vocale <i>a</i> + nasale velare <i>ng</i> (come in inglese 'song')",
+                      "mnemonic": "Come 'ang' di 'sang' ma con la g muta.",
+                      "examples": [
+                          {
+                              "t": "Máng (occupato) contiene <b>ang</b>.",
+                              "n": "Máng ha 'ang'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_eng",
+                      "isLetter": true,
+                      "letter": "eng",
+                      "word": "eng",
+                      "emoji": "🔤",
+                      "phonetic": "/ɤŋ/",
+                      "translation": "<b>eng</b> — vocale <i>e</i> chiusa + nasale <i>ng</i>",
+                      "mnemonic": "Come 'eng' di 'leng' (freddo) ma con e più chiusa.",
+                      "examples": [
+                          {
+                              "t": "Lěng (freddo) contiene <b>eng</b>.",
+                              "n": "Lěng ha 'eng'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ing",
+                      "isLetter": true,
+                      "letter": "ing",
+                      "word": "ing",
+                      "emoji": "🔤",
+                      "phonetic": "/iŋ/",
+                      "translation": "<b>ing</b> — vocale <i>i</i> + nasale <i>ng</i>",
+                      "mnemonic": "Come 'ing' di 'sing' in inglese.",
+                      "examples": [
+                          {
+                              "t": "Míng (luminoso) contiene <b>ing</b>.",
+                              "n": "Míng ha 'ing'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ong",
+                      "isLetter": true,
+                      "letter": "ong",
+                      "word": "ong",
+                      "emoji": "🔤",
+                      "phonetic": "/ʊŋ/",
+                      "translation": "<b>ong</b> — vocale <i>o</i> chiusa + nasale <i>ng</i>",
+                      "mnemonic": "Come 'ong' di 'song' ma con o più chiusa.",
+                      "examples": [
+                          {
+                              "t": "Lóng (drago) contiene <b>ong</b>.",
+                              "n": "Lóng ha 'ong'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_er",
+                      "isLetter": true,
+                      "letter": "er",
+                      "word": "er",
+                      "emoji": "🔤",
+                      "phonetic": "/ɚ/",
+                      "translation": "<b>er</b> — vocale retroflessa, come la <i>r</i> americana in 'her'",
+                      "mnemonic": "Arriccia la lingua come per la 'r' inglese e pronuncia 'e'.",
+                      "examples": [
+                          {
+                              "t": "Èr (due) contiene <b>er</b>.",
+                              "n": "Èr ha 'er'."
+                          },
+                          {
+                              "t": "Ěr (orecchio) contiene <b>er</b>.",
+                              "n": "Ěr ha 'er'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "ao",
+                      "word": "māo",
+                      "emoji": "🐱",
+                      "phonetic": "/maʊ̯/",
+                      "translation": "<b>gatto</b> — contiene il dittongo <b>ao</b>",
+                      "translations": {
+                          "zh": "māo",
+                          "it": "gatto",
+                          "en": "cat"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè shì <b>māo</b>.",
+                              "n": "Questo è un gatto."
+                          },
+                          {
+                              "t": "Wǒ xǐhuān <b>māo</b>.",
+                              "n": "Mi piacciono i gatti."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "ao",
+                      "word": "hǎo",
+                      "emoji": "👍",
+                      "phonetic": "/xaʊ̯/",
+                      "translation": "<b>bene</b> — contiene <b>ao</b>",
+                      "translations": {
+                          "zh": "hǎo",
+                          "it": "bene",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nǐ <b>hǎo</b>!",
+                              "n": "Ciao!"
+                          },
+                          {
+                              "t": "Hěn <b>hǎo</b>.",
+                              "n": "Molto bene."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "ou",
+                      "word": "gǒu",
+                      "emoji": "🐶",
+                      "phonetic": "/koʊ̯/",
+                      "translation": "<b>cane</b> — contiene <b>ou</b>",
+                      "translations": {
+                          "zh": "gǒu",
+                          "it": "cane",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nà shì <b>gǒu</b>.",
+                              "n": "Quello è un cane."
+                          },
+                          {
+                              "t": "Wǒ yǒu <b>gǒu</b>.",
+                              "n": "Ho un cane."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "ia",
+                      "word": "jiā",
+                      "emoji": "🏠",
+                      "phonetic": "/tɕi̯a/",
+                      "translation": "<b>casa</b> — contiene <b>ia</b>",
+                      "translations": {
+                          "zh": "jiā",
+                          "it": "casa",
+                          "en": "home"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ zài <b>jiā</b>.",
+                              "n": "Sono a casa."
+                          },
+                          {
+                              "t": "Zhè shì wǒ de <b>jiā</b>.",
+                              "n": "Questa è la mia casa."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g4",
+              "name": "Primeras palabras en pinyin",
+              "icon": "🧩",
+              "color": "#ef4444",
+              "description": "Leer y pronunciar 20 palabras esenciales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2",
+                  "zh_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g4_L_ni",
+                      "isLetter": true,
+                      "letter": "你",
+                      "word": "你",
+                      "emoji": "🔤",
+                      "phonetic": "/nǐ/",
+                      "translation": "Carattere per <b>tu</b>. Suono: <i>nii</i> con terzo tono (voce che scende e sale).",
+                      "mnemonic": "Sembra una persona con un cappello: il tratto a sinistra è il corpo, il resto è il cappello.",
+                      "examples": [
+                          {
+                              "t": "Uso: <b>你</b> hǎo — ciao (a te).",
+                              "n": "Uso: <b>tu</b> hǎo — ciao (a te)."
+                          },
+                          {
+                              "t": "<b>你</b> shì shéi? — Chi sei?",
+                              "n": "<b>Tu</b> shì shéi? — Chi sei?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_wo",
+                      "isLetter": true,
+                      "letter": "我",
+                      "word": "我",
+                      "emoji": "🔤",
+                      "phonetic": "/wǒ/",
+                      "translation": "Carattere per <b>io</b>. Suono: <i>uo</i> con terzo tono.",
+                      "mnemonic": "Sembra una mano che tiene una lancia: la lancia è il tratto diagonale, la mano è il resto.",
+                      "examples": [
+                          {
+                              "t": "<b>我</b> hěn hǎo — Sto bene.",
+                              "n": "<b>Io</b> hěn hǎo — Sto bene."
+                          },
+                          {
+                              "t": "<b>我</b> ài nǐ — Ti amo.",
+                              "n": "<b>Io</b> ài nǐ — Ti amo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_ta",
+                      "isLetter": true,
+                      "letter": "他",
+                      "word": "他",
+                      "emoji": "🔤",
+                      "phonetic": "/tā/",
+                      "translation": "Carattere per <b>lui</b>. Suono: <i>taa</i> con primo tono (piatto).",
+                      "mnemonic": "Ha la radice di 'persona' (人) a sinistra: è una persona, un lui.",
+                      "examples": [
+                          {
+                              "t": "<b>他</b> shì wǒ péngyou — Lui è il mio amico.",
+                              "n": "<b>Lui</b> shì wǒ péngyou — Lui è il mio amico."
+                          },
+                          {
+                              "t": "<b>他</b> hěn hǎo — Lui sta bene.",
+                              "n": "<b>Lui</b> hěn hǎo — Lui sta bene."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_ta_fem",
+                      "isLetter": true,
+                      "letter": "她",
+                      "word": "她",
+                      "emoji": "🔤",
+                      "phonetic": "/tā/",
+                      "translation": "Carattere per <b>lei</b>. Suono: <i>taa</i> con primo tono, come 'lui'.",
+                      "mnemonic": "Ha la radice di 'donna' (女) a sinistra: è una persona femminile.",
+                      "examples": [
+                          {
+                              "t": "<b>她</b> shì wǒ māma — Lei è mia madre.",
+                              "n": "<b>Lei</b> shì wǒ māma — Lei è mia madre."
+                          },
+                          {
+                              "t": "<b>她</b> lái le — Lei è venuta.",
+                              "n": "<b>Lei</b> lái le — Lei è venuta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_shi",
+                      "isLetter": true,
+                      "letter": "是",
+                      "word": "是",
+                      "emoji": "🔤",
+                      "phonetic": "/shì/",
+                      "translation": "Carattere per <b>essere</b>. Suono: <i>shii</i> con quarto tono (discendente).",
+                      "mnemonic": "Sembra un sole (日) sotto un tetto: la verità è chiara come il sole.",
+                      "examples": [
+                          {
+                              "t": "Zhè <b>是</b> shū — Questo è un libro.",
+                              "n": "Zhè <b>è</b> shū — Questo è un libro."
+                          },
+                          {
+                              "t": "Wǒ <b>是</b> xuéshēng — Io sono studente.",
+                              "n": "Io <b>sono</b> xuéshēng — Io sono studente."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_you",
+                      "isLetter": true,
+                      "letter": "有",
+                      "word": "有",
+                      "emoji": "🔤",
+                      "phonetic": "/yǒu/",
+                      "translation": "Carattere per <b>avere</b>. Suono: <i>iou</i> con terzo tono.",
+                      "mnemonic": "Sembra una mano che tiene qualcosa: la parte in alto è la mano, quella in basso è l'oggetto.",
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>有</b> qián — Ho soldi.",
+                              "n": "Io <b>ho</b> qián — Ho soldi."
+                          },
+                          {
+                              "t": "Nǐ <b>有</b> péngyou ma? — Hai amici?",
+                              "n": "Tu <b>hai</b> péngyou ma? — Hai amici?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_hao",
+                      "isLetter": true,
+                      "letter": "好",
+                      "word": "好",
+                      "emoji": "🔤",
+                      "phonetic": "/hǎo/",
+                      "translation": "Carattere per <b>buono</b>. Suono: <i>haao</i> con terzo tono.",
+                      "mnemonic": "Composto da donna (女) e bambino (子): una donna con un bambino è una cosa buona.",
+                      "examples": [
+                          {
+                              "t": "Nǐ <b>好</b> — Ciao (letteralmente: tu buono).",
+                              "n": "Tu <b>buono</b> — Ciao."
+                          },
+                          {
+                              "t": "Zhè hěn <b>好</b> — Questo è molto buono.",
+                              "n": "Questo è molto <b>buono</b>."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_da",
+                      "isLetter": true,
+                      "letter": "大",
+                      "word": "大",
+                      "emoji": "🔤",
+                      "phonetic": "/dà/",
+                      "translation": "Carattere per <b>grande</b>. Suono: <i>daa</i> con quarto tono.",
+                      "mnemonic": "Sembra una persona con le braccia spalancate: grande, largo.",
+                      "examples": [
+                          {
+                              "t": "Zhè shì <b>大</b> shù — Questo è un grande albero.",
+                              "n": "Questo è un <b>grande</b> albero."
+                          },
+                          {
+                              "t": "Wǒ jiā hěn <b>大</b> — La mia casa è grande.",
+                              "n": "La mia casa è molto <b>grande</b>."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_xiao",
+                      "isLetter": true,
+                      "letter": "小",
+                      "word": "小",
+                      "emoji": "🔤",
+                      "phonetic": "/xiǎo/",
+                      "translation": "Carattere per <b>piccolo</b>. Suono: <i>siao</i> con terzo tono.",
+                      "mnemonic": "Sembra una persona con le braccia vicine al corpo: piccolo, raccolto.",
+                      "examples": [
+                          {
+                              "t": "Zhè shì <b>小</b> māo — Questo è un piccolo gatto.",
+                              "n": "Questo è un <b>piccolo</b> gatto."
+                          },
+                          {
+                              "t": "Wǒ de fángzi hěn <b>小</b> — La mia casa è piccola.",
+                              "n": "La mia casa è molto <b>piccola</b>."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_lai",
+                      "isLetter": true,
+                      "letter": "来",
+                      "word": "来",
+                      "emoji": "🔤",
+                      "phonetic": "/lái/",
+                      "translation": "Carattere per <b>venire</b>. Suono: <i>lai</i> con secondo tono (ascendente).",
+                      "mnemonic": "Sembra un albero con radici: qualcosa che viene verso di te, come un albero che cresce.",
+                      "examples": [
+                          {
+                              "t": "Nǐ <b>来</b> ma? — Vieni?",
+                              "n": "Tu <b>vieni</b> ma? — Vieni?"
+                          },
+                          {
+                              "t": "Wǒ <b>来</b> le — Sono venuto.",
+                              "n": "Io <b>vengo</b> le — Sono venuto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_qu",
+                      "isLetter": true,
+                      "letter": "去",
+                      "word": "去",
+                      "emoji": "🔤",
+                      "phonetic": "/qù/",
+                      "translation": "Carattere per <b>andare</b>. Suono: <i>chii</i> con quarto tono.",
+                      "mnemonic": "Sembra una persona che cammina via con un passo: il tratto in basso è il piede che si allontana.",
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>去</b> Běijīng — Vado a Pechino.",
+                              "n": "Io <b>vado</b> a Běijīng — Vado a Pechino."
+                          },
+                          {
+                              "t": "Nǐ <b>去</b> nǎr? — Dove vai?",
+                              "n": "Tu <b>vai</b> nǎr? — Dove vai?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_chi",
+                      "isLetter": true,
+                      "letter": "吃",
+                      "word": "吃",
+                      "emoji": "🔤",
+                      "phonetic": "/chī/",
+                      "translation": "Carattere per <b>mangiare</b>. Suono: <i>cii</i> con primo tono.",
+                      "mnemonic": "Ha la radice di 'bocca' (口) a sinistra: la bocca che mangia.",
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>吃</b> fàn — Mangio riso.",
+                              "n": "Io <b>mangio</b> fàn — Mangio riso."
+                          },
+                          {
+                              "t": "Nǐ <b>吃</b> le ma? — Hai mangiato?",
+                              "n": "Tu <b>mangi</b> le ma? — Hai mangiato?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_he",
+                      "isLetter": true,
+                      "letter": "喝",
+                      "word": "喝",
+                      "emoji": "🔤",
+                      "phonetic": "/hē/",
+                      "translation": "Carattere per <b>bere</b>. Suono: <i>hee</i> con primo tono.",
+                      "mnemonic": "Ha la radice di 'bocca' (口) a sinistra: la bocca che beve.",
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>喝</b> shuǐ — Bevo acqua.",
+                              "n": "Io <b>bevo</b> shuǐ — Bevo acqua."
+                          },
+                          {
+                              "t": "Nǐ <b>喝</b> chá ma? — Bevi tè?",
+                              "n": "Tu <b>bevi</b> chá ma? — Bevi tè?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_shuo",
+                      "isLetter": true,
+                      "letter": "说",
+                      "word": "说",
+                      "emoji": "🔤",
+                      "phonetic": "/shuō/",
+                      "translation": "Carattere per <b>parlare</b>. Suono: <i>shuo</i> con primo tono.",
+                      "mnemonic": "Ha la radice di 'parola' (讠) a sinistra: le parole che escono dalla bocca.",
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>说</b> Hànyǔ — Parlo cinese.",
+                              "n": "Io <b>parlo</b> Hànyǔ — Parlo cinese."
+                          },
+                          {
+                              "t": "Nǐ <b>说</b> shénme? — Cosa dici?",
+                              "n": "Tu <b>parli</b> shénme? — Cosa dici?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_01",
+                      "isLetter": false,
+                      "letter": "你",
+                      "word": "你好",
+                      "emoji": "👋",
+                      "phonetic": "/nǐ hǎo/",
+                      "translation": "<b>Ciao</b> (letteralmente: tu buono)",
+                      "translations": {
+                          "zh": "你好",
+                          "it": "Ciao",
+                          "en": "Hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>你好</b>! Wǒ jiào Marco.",
+                              "n": "Ciao! Mi chiamo Marco."
+                          },
+                          {
+                              "t": "<b>你好</b>, nǐ hǎo ma?",
+                              "n": "Ciao, come stai?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_02",
+                      "isLetter": false,
+                      "letter": "谢",
+                      "word": "谢谢",
+                      "emoji": "🙏",
+                      "phonetic": "/xièxiè/",
+                      "translation": "<b>Grazie</b>",
+                      "translations": {
+                          "zh": "谢谢",
+                          "it": "Grazie",
+                          "en": "Thanks"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>谢谢</b> nǐ de bāngzhù.",
+                              "n": "Grazie per il tuo aiuto."
+                          },
+                          {
+                              "t": "<b>谢谢</b>! Zàijiàn!",
+                              "n": "Grazie! Arrivederci!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_03",
+                      "isLetter": false,
+                      "letter": "对",
+                      "word": "对不起",
+                      "emoji": "😔",
+                      "phonetic": "/duìbuqǐ/",
+                      "translation": "<b>Scusa</b> / Mi dispiace",
+                      "translations": {
+                          "zh": "对不起",
+                          "it": "Scusa",
+                          "en": "Sorry"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>对不起</b>, wǒ chídào le.",
+                              "n": "Scusa, sono in ritardo."
+                          },
+                          {
+                              "t": "<b>对不起</b>! Wǒ bù shì gùyì de.",
+                              "n": "Scusa! Non l'ho fatto apposta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_04",
+                      "isLetter": false,
+                      "letter": "我",
+                      "word": "我们",
+                      "emoji": "👥",
+                      "phonetic": "/wǒmen/",
+                      "translation": "<b>Noi</b>",
+                      "translations": {
+                          "zh": "我们",
+                          "it": "Noi",
+                          "en": "We"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>我们</b> shì péngyou.",
+                              "n": "Noi siamo amici."
+                          },
+                          {
+                              "t": "<b>我们</b> qù Běijīng.",
+                              "n": "Noi andiamo a Pechino."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_05",
+                      "isLetter": false,
+                      "letter": "不",
+                      "word": "不是",
+                      "emoji": "🚫",
+                      "phonetic": "/bù shì/",
+                      "translation": "<b>Non essere</b> / non è",
+                      "translations": {
+                          "zh": "不是",
+                          "it": "Non essere",
+                          "en": "Is not"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>不是</b> lǎoshī.",
+                              "n": "Io non sono insegnante."
+                          },
+                          {
+                              "t": "Zhè <b>不是</b> wǒ de shū.",
+                              "n": "Questo non è il mio libro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_06",
+                      "isLetter": false,
+                      "letter": "没",
+                      "word": "没有",
+                      "emoji": "❌",
+                      "phonetic": "/méiyǒu/",
+                      "translation": "<b>Non avere</b> / non c'è",
+                      "translations": {
+                          "zh": "没有",
+                          "it": "Non avere",
+                          "en": "Don't have"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>没有</b> qián.",
+                              "n": "Non ho soldi."
+                          },
+                          {
+                              "t": "Tā <b>没有</b> shíjiān.",
+                              "n": "Lui/lei non ha tempo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_07",
+                      "isLetter": false,
+                      "letter": "不",
+                      "word": "不好",
+                      "emoji": "👎",
+                      "phonetic": "/bù hǎo/",
+                      "translation": "<b>Non buono</b> / male",
+                      "translations": {
+                          "zh": "不好",
+                          "it": "Non buono",
+                          "en": "Not good"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ juéde hěn <b>不好</b>.",
+                              "n": "Mi sento molto male."
+                          },
+                          {
+                              "t": "Zhè ge diànyǐng <b>不好</b>.",
+                              "n": "Questo film non è buono."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_08",
+                      "isLetter": false,
+                      "letter": "吃",
+                      "word": "吃饭",
+                      "emoji": "🍚",
+                      "phonetic": "/chī fàn/",
+                      "translation": "<b>Mangiare</b> (riso / pasto)",
+                      "translations": {
+                          "zh": "吃饭",
+                          "it": "Mangiare",
+                          "en": "Eat meal"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒmen <b>吃饭</b> ba!",
+                              "n": "Mangiamo!"
+                          },
+                          {
+                              "t": "Nǐ <b>吃饭</b> le ma?",
+                              "n": "Hai mangiato?"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // ZH_PT
+  // ──────────────────────────────────────────────────────
+  zh_pt: {
+      "level": "A0",
+      "levelName": "Pinyin y tonos del chino mandarín",
+      "groups": [
+          {
+              "id": "zh_a0_g1",
+              "name": "Los 4 tonos",
+              "icon": "🎵",
+              "color": "#6366f1",
+              "description": "El tono cambia completamente el significado",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "zh_a0_g1_L_a1",
+                      "isLetter": true,
+                      "letter": "ā",
+                      "word": "ā",
+                      "emoji": "📈",
+                      "phonetic": "/aː˥/",
+                      "translation": "Primer tono: <b>ā</b> — plano y alto, como un <i>sostenido</i>.",
+                      "mnemonic": "Imagina una línea recta en lo alto de una montaña, como el sonido de una flauta.",
+                      "examples": [
+                          {
+                              "t": "<b>mā</b> (妈) = madre<br><b>bā</b> (八) = ocho<br><b>tā</b> (他) = él/ella",
+                              "n": "Palabras con primer tono"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a2",
+                      "isLetter": true,
+                      "letter": "á",
+                      "word": "á",
+                      "emoji": "❓",
+                      "phonetic": "/a˧˥/",
+                      "translation": "Segundo tono: <b>á</b> — ascendente, como preguntar <i>¿Cómo?</i>",
+                      "mnemonic": "Tu voz sube como si no hubieras oído bien y preguntaras '¿qué?'.",
+                      "examples": [
+                          {
+                              "t": "<b>má</b> (麻) = cáñamo<br><b>lái</b> (来) = venir<br><b>nán</b> (难) = difícil",
+                              "n": "Palabras con segundo tono"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a3",
+                      "isLetter": true,
+                      "letter": "ǎ",
+                      "word": "ǎ",
+                      "emoji": "🎢",
+                      "phonetic": "/a˨˩˦/",
+                      "translation": "Tercer tono: <b>ǎ</b> — baja y luego sube, como un <i>¿hmm?</i>",
+                      "mnemonic": "Imagina una montaña rusa: baja profundo y luego sube.",
+                      "examples": [
+                          {
+                              "t": "<b>mǎ</b> (马) = caballo<br><b>nǐ</b> (你) = tú<br><b>hǎo</b> (好) = bueno<br><b>wǒ</b> (我) = yo",
+                              "n": "Palabras con tercer tono"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a4",
+                      "isLetter": true,
+                      "letter": "à",
+                      "word": "à",
+                      "emoji": "📉",
+                      "phonetic": "/a˥˩/",
+                      "translation": "Cuarto tono: <b>à</b> — caída abrupta, como un <i>¡No!</i> enfático.",
+                      "mnemonic": "Voz que cae como un martillo: contundente y rápido.",
+                      "examples": [
+                          {
+                              "t": "<b>mà</b> (骂) = regañar<br><b>shì</b> (是) = es/sí<br><b>bù</b> (不) = no",
+                              "n": "Palabras con cuarto tono"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a5",
+                      "isLetter": true,
+                      "letter": "a",
+                      "word": "a",
+                      "emoji": "⚖️",
+                      "phonetic": "/a/ (neutro)",
+                      "translation": "Tono neutro: <b>a</b> — corto y ligero, sin énfasis.",
+                      "mnemonic": "Como una sílaba débil al final: se dice rápido y sin tono.",
+                      "examples": [
+                          {
+                              "t": "<b>ma</b> (吗) = partícula de pregunta<br><b>ne</b> (呢) = partícula<br><b>le</b> (了) = partícula de cambio<br><b>ba</b> (吧) = partícula de sugerencia<br><b>de</b> (的) = partícula posesiva",
+                              "n": "Partículas comunes en tono neutro"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_mama",
+                      "isLetter": true,
+                      "letter": "mā má mǎ mà ma",
+                      "word": "mā má mǎ mà ma",
+                      "emoji": "🔀",
+                      "phonetic": "/ma˥ ma˧˥ ma˨˩˦ ma˥˩ ma/",
+                      "translation": "El ejemplo clásico: <b>mā</b> (mamá), <b>má</b> (cáñamo), <b>mǎ</b> (caballo), <b>mà</b> (regañar), <b>ma</b> (partícula). El contexto lo decide.",
+                      "mnemonic": "Una misma sílaba con cinco significados: ¡el tono lo es todo!",
+                      "examples": [
+                          {
+                              "t": "<b>mā</b> (妈) = madre<br><b>má</b> (麻) = cáñamo<br><b>mǎ</b> (马) = caballo<br><b>mà</b> (骂) = regañar<br><b>ma</b> (吗) = ¿verdad?",
+                              "n": "Contraste de tonos en la práctica"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_rule1",
+                      "isLetter": true,
+                      "letter": "nǐ hǎo",
+                      "word": "nǐ hǎo",
+                      "emoji": "📏",
+                      "phonetic": "/ni˨˩˦ xau˨˩˦/ → /ni˧˥ xau˨˩˦/",
+                      "translation": "Regla: dos terceros tonos seguidos — el primero se convierte en segundo. <b>nǐ hǎo</b> → <b>ní hǎo</b> (hola).",
+                      "mnemonic": "Cuando dos 'ǎ' se encuentran, el primero sube.",
+                      "examples": [
+                          {
+                              "t": "<b>nǐ hǎo</b> → <b>ní hǎo</b> = hola",
+                              "n": "Saludo común"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_rule2",
+                      "isLetter": true,
+                      "letter": "bù",
+                      "word": "bù",
+                      "emoji": "🚫",
+                      "phonetic": "/pu˥˩/",
+                      "translation": "Regla: <b>bù</b> (no) es cuarto tono, pero antes de otro cuarto tono se convierte en segundo. Ej: <b>bú shì</b> (no es).",
+                      "mnemonic": "Como en español 'no' cambia según el contexto, aquí también.",
+                      "examples": [
+                          {
+                              "t": "<b>bù</b> hǎo = no bueno<br><b>bú</b> shì = no es",
+                              "n": "Uso de bù"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "ā",
+                      "word": "mā",
+                      "emoji": "👩",
+                      "phonetic": "/ma˥/",
+                      "translation": "madre, mamá",
+                      "translations": {
+                          "zh": "妈",
+                          "pt": "mãe",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>mā</b> hěn hǎo.",
+                              "n": "Mamá está muy bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "ā",
+                      "word": "bā",
+                      "emoji": "8️⃣",
+                      "phonetic": "/pa˥/",
+                      "translation": "ocho",
+                      "translations": {
+                          "zh": "八",
+                          "pt": "oito",
+                          "en": "eight"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>bā</b> ge píngguǒ.",
+                              "n": "Tengo ocho manzanas."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "ā",
+                      "word": "tā",
+                      "emoji": "👤",
+                      "phonetic": "/tʰa˥/",
+                      "translation": "él / ella",
+                      "translations": {
+                          "zh": "他/她",
+                          "pt": "ele/ela",
+                          "en": "he/she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>tā</b> shì lǎoshī.",
+                              "n": "Ele/Ela é professor(a)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "á",
+                      "word": "lái",
+                      "emoji": "🚶",
+                      "phonetic": "/lai˧˥/",
+                      "translation": "venir",
+                      "translations": {
+                          "zh": "来",
+                          "pt": "vir",
+                          "en": "to come"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nǐ <b>lái</b> ma?",
+                              "n": "Você vem?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "á",
+                      "word": "nán",
+                      "emoji": "😓",
+                      "phonetic": "/nan˧˥/",
+                      "translation": "difícil",
+                      "translations": {
+                          "zh": "难",
+                          "pt": "difícil",
+                          "en": "difficult"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhège hěnnán.",
+                              "n": "Isto é muito difícil."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "ǎ",
+                      "word": "mǎ",
+                      "emoji": "🐴",
+                      "phonetic": "/ma˨˩˦/",
+                      "translation": "cavalo",
+                      "translations": {
+                          "zh": "马",
+                          "pt": "cavalo",
+                          "en": "horse"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nà shì yī pǐ <b>mǎ</b>.",
+                              "n": "Aquele é um cavalo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "ǎ",
+                      "word": "nǐ",
+                      "emoji": "👉",
+                      "phonetic": "/ni˨˩˦/",
+                      "translation": "você (tu)",
+                      "translations": {
+                          "zh": "你",
+                          "pt": "você",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>nǐ</b> hǎo ma?",
+                              "n": "Como você está?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "ǎ",
+                      "word": "hǎo",
+                      "emoji": "👍",
+                      "phonetic": "/xau˨˩˦/",
+                      "translation": "bom, bem",
+                      "translations": {
+                          "zh": "好",
+                          "pt": "bom",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "Hěn <b>hǎo</b>!",
+                              "n": "Muito bom!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "ǎ",
+                      "word": "wǒ",
+                      "emoji": "🙋",
+                      "phonetic": "/uɔ˨˩˦/",
+                      "translation": "eu",
+                      "translations": {
+                          "zh": "我",
+                          "pt": "eu",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>wǒ</b> shì xuéshēng.",
+                              "n": "Eu sou estudante."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "à",
+                      "word": "shì",
+                      "emoji": "✅",
+                      "phonetic": "/ʂɻ˥˩/",
+                      "translation": "ser, sim",
+                      "translations": {
+                          "zh": "是",
+                          "pt": "ser/sim",
+                          "en": "to be, yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "Tā <b>shì</b> yīshēng.",
+                              "n": "Ele/Ela é médico(a)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_11",
+                      "isLetter": false,
+                      "letter": "à",
+                      "word": "bù",
+                      "emoji": "🚫",
+                      "phonetic": "/pu˥˩/",
+                      "translation": "não, não (antes de 4º tom: bú)",
+                      "translations": {
+                          "zh": "不",
+                          "pt": "não",
+                          "en": "no, not"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>bù</b> zhīdào.",
+                              "n": "Eu não sei."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_12",
+                      "isLetter": false,
+                      "letter": "a",
+                      "word": "ma",
+                      "emoji": "❓",
+                      "phonetic": "/ma/ (neutro)",
+                      "translation": "partícula interrogativa (fim de frase)",
+                      "translations": {
+                          "zh": "吗",
+                          "pt": "partícula de pergunta",
+                          "en": "question particle"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nǐ hǎo <b>ma</b>?",
+                              "n": "Você está bem?"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g2",
+              "name": "Iniciales (consonantes)",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "b p m f / d t n l / g k h / j q x / zh ch sh r / z c s",
+              "reviewFrom": [
+                  "zh_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "b",
+                      "word": "b",
+                      "emoji": "🔤",
+                      "phonetic": "/b̥/",
+                      "translation": "Nome: <b>b</b> (não aspirado)<br>Sons como <b>p</b> em português, mas sem vibração das cordas vocais (surdo).",
+                      "mnemonic": "Pense em 'b de bola' mas fale como um 'p' suave, sem soltar ar.",
+                      "examples": [
+                          {
+                              "t": "<b>b</b>ā = oito (数字 8)",
+                              "n": "Oito em chinês."
+                          },
+                          {
+                              "t": "<b>b</b>à = papai (pai)",
+                              "n": "Pai."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "p",
+                      "word": "p",
+                      "emoji": "🔤",
+                      "phonetic": "/pʰ/",
+                      "translation": "Nome: <b>p</b> (aspirado)<br>Sons como <b>p</b> em português, mas com uma explosão de ar (aspirado).",
+                      "mnemonic": "Imagine <b>p</b> de 'pum' soltando ar com força.",
+                      "examples": [
+                          {
+                              "t": "<b>p</b>à = temer (medo)",
+                              "n": "Ter medo."
+                          },
+                          {
+                              "t": "<b>p</b>íngguǒ = maçã",
+                              "n": "Maçã."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_m",
+                      "isLetter": true,
+                      "letter": "m",
+                      "word": "m",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Nome: <b>m</b> (nasal)<br>Igual ao <b>m</b> do português.",
+                      "mnemonic": "Mesmo som do <b>m</b> de 'mamãe'.",
+                      "examples": [
+                          {
+                              "t": "<b>m</b>āo = gato",
+                              "n": "Gato."
+                          },
+                          {
+                              "t": "<b>m</b>ā = mãe",
+                              "n": "Mãe."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "f",
+                      "word": "f",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Nome: <b>f</b> (fricativo)<br>Igual ao <b>f</b> do português.",
+                      "mnemonic": "Mesmo som de <b>f</b> de 'faca'.",
+                      "examples": [
+                          {
+                              "t": "<b>f</b>ēi = voar",
+                              "n": "Voar."
+                          },
+                          {
+                              "t": "<b>f</b>àn = arroz cozido / refeição",
+                              "n": "Comida."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "d",
+                      "word": "d",
+                      "emoji": "🔤",
+                      "phonetic": "/d̥/",
+                      "translation": "Nome: <b>d</b> (não aspirado)<br>Sons como <b>t</b> em português, mas sem vibração (surdo).",
+                      "mnemonic": "Pense em <b>d</b> de 'dedo' mas fale como um 't' suave.",
+                      "examples": [
+                          {
+                              "t": "<b>d</b>à = grande",
+                              "n": "Grande."
+                          },
+                          {
+                              "t": "<b>d</b>ìdi = irmão mais novo",
+                              "n": "Irmão mais novo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_t",
+                      "isLetter": true,
+                      "letter": "t",
+                      "word": "t",
+                      "emoji": "🔤",
+                      "phonetic": "/tʰ/",
+                      "translation": "Nome: <b>t</b> (aspirado)<br>Sons como <b>t</b> em português, mas com explosão de ar.",
+                      "mnemonic": "Imagine <b>t</b> de 'tchau' soltando ar.",
+                      "examples": [
+                          {
+                              "t": "<b>t</b>ā = ele/ela",
+                              "n": "Ele/ela."
+                          },
+                          {
+                              "t": "<b>t</b>ài = muito (demais)",
+                              "n": "Muito."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "n",
+                      "word": "n",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Nome: <b>n</b> (nasal)<br>Igual ao <b>n</b> do português.",
+                      "mnemonic": "Mesmo som de <b>n</b> de 'não'.",
+                      "examples": [
+                          {
+                              "t": "<b>n</b>ǐ = você",
+                              "n": "Você."
+                          },
+                          {
+                              "t": "<b>n</b>à = aquilo (lá)",
+                              "n": "Aquilo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "l",
+                      "word": "l",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "Nome: <b>l</b> (líquido)<br>Igual ao <b>l</b> do português.",
+                      "mnemonic": "Mesmo som de <b>l</b> de 'lua'.",
+                      "examples": [
+                          {
+                              "t": "<b>l</b>ái = vir",
+                              "n": "Vir."
+                          },
+                          {
+                              "t": "<b>l</b>ǎo = velho (prefixo de respeito)",
+                              "n": "Velho."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "g",
+                      "word": "g",
+                      "emoji": "🔤",
+                      "phonetic": "/k̚/",
+                      "translation": "Nome: <b>g</b> (não aspirado)<br>Sons como <b>g</b> de 'gato', mas sem vibração (surdo) e com fechamento glotal.",
+                      "mnemonic": "Pense em <b>g</b> de 'gato' mas fale como um 'k' suave.",
+                      "examples": [
+                          {
+                              "t": "<b>g</b>ǒu = cachorro",
+                              "n": "Cachorro."
+                          },
+                          {
+                              "t": "<b>g</b>ē = irmão mais velho",
+                              "n": "Irmão mais velho."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_k",
+                      "isLetter": true,
+                      "letter": "k",
+                      "word": "k",
+                      "emoji": "🔤",
+                      "phonetic": "/kʰ/",
+                      "translation": "Nome: <b>k</b> (aspirado)<br>Igual ao <b>k</b> do português, mas com explosão de ar.",
+                      "mnemonic": "Imagine <b>k</b> de 'ketchup' soltando ar.",
+                      "examples": [
+                          {
+                              "t": "<b>k</b>āi = abrir",
+                              "n": "Abrir."
+                          },
+                          {
+                              "t": "<b>k</b>ě = poder (pode)",
+                              "n": "Poder."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_h",
+                      "isLetter": true,
+                      "letter": "h",
+                      "word": "h",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "Nome: <b>h</b> (fricativo velar)<br>Som como <b>r</b> do português (como em 'rio'), mas mais suave.",
+                      "mnemonic": "Pense no <b>r</b> de 'rio' (no Brasil) ou no <b>j</b> espanhol suave.",
+                      "examples": [
+                          {
+                              "t": "<b>h</b>ǎo = bom",
+                              "n": "Bom."
+                          },
+                          {
+                              "t": "<b>h</b>ē = beber",
+                              "n": "Beber."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_j",
+                      "isLetter": true,
+                      "letter": "j",
+                      "word": "j",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/",
+                      "translation": "Nome: <b>j</b> (não aspirado)<br>Som parecido com <b>tch</b> de 'tchau' mas sem aspiração.",
+                      "mnemonic": "Pense em 'tchau' sem sopro.",
+                      "examples": [
+                          {
+                              "t": "<b>j</b>iā = casa",
+                              "n": "Casa."
+                          },
+                          {
+                              "t": "<b>j</b>ǐ = próprio (eu mesmo)",
+                              "n": "Próprio."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_q",
+                      "isLetter": true,
+                      "letter": "q",
+                      "word": "q",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕʰ/",
+                      "translation": "Nome: <b>q</b> (aspirado)<br>Som parecido com <b>tch</b> de 'tchau' mas com forte sopro.",
+                      "mnemonic": "Pense em 'tchau' com sopro forte.",
+                      "examples": [
+                          {
+                              "t": "<b>q</b>ǐng = por favor / convidar",
+                              "n": "Por favor."
+                          },
+                          {
+                              "t": "<b>q</b>ī = sete (7)",
+                              "n": "Sete."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_x",
+                      "isLetter": true,
+                      "letter": "x",
+                      "word": "x",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕ/",
+                      "translation": "Nome: <b>x</b> (fricativo palatal)<br>Som parecido com <b>ch</b> de 'chave' (no Brasil), mas com a língua mais próxima do céu da boca.",
+                      "mnemonic": "Pense no 'ch' de 'xícara' (no Brasil).",
+                      "examples": [
+                          {
+                              "t": "<b>x</b>iǎo = pequeno",
+                              "n": "Pequeno."
+                          },
+                          {
+                              "t": "<b>x</b>iè = agradecer",
+                              "n": "Agradecer."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_zh",
+                      "isLetter": true,
+                      "letter": "zh",
+                      "word": "zh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂ/",
+                      "translation": "Nome: <b>zh</b> (retroflexo não aspirado)<br>Som parecido com <b>j</b> de 'já' (no Brasil), mas com a língua curvada para trás.",
+                      "mnemonic": "Pense em 'já' com a língua enrolada.",
+                      "examples": [
+                          {
+                              "t": "<b>zh</b>ōng = meio / centro",
+                              "n": "Centro."
+                          },
+                          {
+                              "t": "<b>zh</b>ī = saber (conhecer)",
+                              "n": "Saber."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "ch",
+                      "word": "ch",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂʰ/",
+                      "translation": "Nome: <b>ch</b> (retroflexo aspirado)<br>Som parecido com <b>tch</b> de 'tchau' (no Brasil) com a língua enrolada e sopro forte.",
+                      "mnemonic": "Pense em 'tchau' com a língua enrolada e sopro.",
+                      "examples": [
+                          {
+                              "t": "<b>ch</b>ī = comer",
+                              "n": "Comer."
+                          },
+                          {
+                              "t": "<b>ch</b>á = chá",
+                              "n": "Chá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_sh",
+                      "isLetter": true,
+                      "letter": "sh",
+                      "word": "sh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʂ/",
+                      "translation": "Nome: <b>sh</b> (retroflexo fricativo)<br>Som parecido com <b>ch</b> de 'chave' (no Brasil), mas com a língua enrolada.",
+                      "mnemonic": "Pense em 'ch' com a língua enrolada.",
+                      "examples": [
+                          {
+                              "t": "<b>sh</b>ū = livro",
+                              "n": "Livro."
+                          },
+                          {
+                              "t": "<b>sh</b>ì = ser (é)",
+                              "n": "Ser."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_r",
+                      "isLetter": true,
+                      "letter": "r",
+                      "word": "r",
+                      "emoji": "🔤",
+                      "phonetic": "/ʐ/",
+                      "translation": "Nome: <b>r</b> (retroflexo sonoro)<br>Som parecido com <b>r</b> de 'caro' (no Brasil) ou 'r' do inglês, mas com a língua enrolada.",
+                      "mnemonic": "Pense no 'r' de 'caro' (no Brasil) com a língua enrolada.",
+                      "examples": [
+                          {
+                              "t": "<b>r</b>én = pessoa",
+                              "n": "Pessoa."
+                          },
+                          {
+                              "t": "<b>r</b>ì = sol / dia",
+                              "n": "Dia."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "z",
+                      "word": "z",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/",
+                      "translation": "Nome: <b>z</b> (não aspirado)<br>Som parecido com <b>ts</b> de 'pizza' (em italiano) mas sem aspiração.",
+                      "mnemonic": "Pense em 'pizza' sem sopro.",
+                      "examples": [
+                          {
+                              "t": "<b>z</b>ài = estar em / novamente",
+                              "n": "Estar em."
+                          },
+                          {
+                              "t": "<b>z</b>ǎo = cedo",
+                              "n": "Cedo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_c",
+                      "isLetter": true,
+                      "letter": "c",
+                      "word": "c",
+                      "emoji": "🔤",
+                      "phonetic": "/tsʰ/",
+                      "translation": "Nome: <b>c</b> (aspirado)<br>Som parecido com <b>ts</b> de 'pizza' (em italiano) mas com sopro forte.",
+                      "mnemonic": "Pense em 'pizza' com sopro forte.",
+                      "examples": [
+                          {
+                              "t": "<b>c</b>ài = prato (comida) / verdura",
+                              "n": "Prato."
+                          },
+                          {
+                              "t": "<b>c</b>óng = de (desde)",
+                              "n": "De (desde)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_s",
+                      "isLetter": true,
+                      "letter": "s",
+                      "word": "s",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Nome: <b>s</b> (fricativo alveolar)<br>Igual ao <b>s</b> do português.",
+                      "mnemonic": "Mesmo som de <b>s</b> de 'sapo'.",
+                      "examples": [
+                          {
+                              "t": "<b>s</b>ān = três (3)",
+                              "n": "Três."
+                          },
+                          {
+                              "t": "<b>s</b>ì = quatro (4)",
+                              "n": "Quatro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "b",
+                      "word": "bā",
+                      "emoji": "8️⃣",
+                      "phonetic": "/paː/",
+                      "translation": "<b>oito</b> (数字 8)",
+                      "translations": {
+                          "zh": "八",
+                          "pt": "oito",
+                          "en": "eight"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>bā</b> ge píngguǒ.",
+                              "n": "Eu tenho oito maçãs."
+                          },
+                          {
+                              "t": "Xiànzài <b>bā</b> diǎn.",
+                              "n": "Agora são oito horas."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "m",
+                      "word": "māo",
+                      "emoji": "🐱",
+                      "phonetic": "/maʊ̯/",
+                      "translation": "<b>gato</b>",
+                      "translations": {
+                          "zh": "猫",
+                          "pt": "gato",
+                          "en": "cat"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè shì wǒ de <b>māo</b>.",
+                              "n": "Este é o meu gato."
+                          },
+                          {
+                              "t": "<b>Māo</b> hěn kě'ài.",
+                              "n": "O gato é muito fofo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "d",
+                      "word": "dà",
+                      "emoji": "🐘",
+                      "phonetic": "/ta/",
+                      "translation": "<b>grande</b>",
+                      "translations": {
+                          "zh": "大",
+                          "pt": "grande",
+                          "en": "big"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè shì yīgè <b>dà</b> píngguǒ.",
+                              "n": "Esta é uma maçã grande."
+                          },
+                          {
+                              "t": "Tā hěn <b>dà</b>.",
+                              "n": "Ele/Ela é muito grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "n",
+                      "word": "nǐ",
+                      "emoji": "🙋",
+                      "phonetic": "/ni/",
+                      "translation": "<b>você</b>",
+                      "translations": {
+                          "zh": "你",
+                          "pt": "você",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Nǐ</b> hǎo!",
+                              "n": "Olá! (literalmente: você bom)"
+                          },
+                          {
+                              "t": "<b>Nǐ</b> chī le ma?",
+                              "n": "Você já comeu?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "g",
+                      "word": "gǒu",
+                      "emoji": "🐶",
+                      "phonetic": "/koʊ̯/",
+                      "translation": "<b>cachorro</b>",
+                      "translations": {
+                          "zh": "狗",
+                          "pt": "cachorro",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu yī zhī <b>gǒu</b>.",
+                              "n": "Eu tenho um cachorro."
+                          },
+                          {
+                              "t": "<b>Gǒu</b> hěn zhōngchéng.",
+                              "n": "O cachorro é muito leal."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "h",
+                      "word": "hǎo",
+                      "emoji": "👍",
+                      "phonetic": "/xaʊ̯/",
+                      "translation": "<b>bom</b>",
+                      "translations": {
+                          "zh": "好",
+                          "pt": "bom",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhège hěn <b>hǎo</b>.",
+                              "n": "Isto é muito bom."
+                          },
+                          {
+                              "t": "<b>Hǎo</b> ba!",
+                              "n": "Está bem!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "j",
+                      "word": "jiā",
+                      "emoji": "🏠",
+                      "phonetic": "/tɕja/",
+                      "translation": "<b>casa</b>",
+                      "translations": {
+                          "zh": "家",
+                          "pt": "casa",
+                          "en": "home"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ de <b>jiā</b> hěn dà.",
+                              "n": "Minha casa é grande."
+                          },
+                          {
+                              "t": "Nǐ zài <b>jiā</b> ma?",
+                              "n": "Você está em casa?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "q",
+                      "word": "qǐng",
+                      "emoji": "🙏",
+                      "phonetic": "/tɕʰiŋ/",
+                      "translation": "<b>por favor</b>",
+                      "translations": {
+                          "zh": "请",
+                          "pt": "por favor",
+                          "en": "please"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Qǐng</b> zuò.",
+                              "n": "Por favor, sente-se."
+                          },
+                          {
+                              "t": "<b>Qǐng</b> wèn...",
+                              "n": "Por favor, perguntar..."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "x",
+                      "word": "xiǎo",
+                      "emoji": "🐭",
+                      "phonetic": "/ɕjaʊ̯/",
+                      "translation": "<b>pequeno</b>",
+                      "translations": {
+                          "zh": "小",
+                          "pt": "pequeno",
+                          "en": "small"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè shì yīgè <b>xiǎo</b> māo.",
+                              "n": "Este é um gato pequeno."
+                          },
+                          {
+                              "t": "Wǒ shì <b>xiǎo</b> xuéshēng.",
+                              "n": "Eu sou um estudante pequeno (criança)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "zh",
+                      "word": "zhōng",
+                      "emoji": "🕐",
+                      "phonetic": "/ʈʂʊŋ/",
+                      "translation": "<b>meio / centro</b>",
+                      "translations": {
+                          "zh": "中",
+                          "pt": "meio / centro",
+                          "en": "middle"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ zài <b>zhōng</b>guó.",
+                              "n": "Eu estou na China (país do meio)."
+                          },
+                          {
+                              "t": "Zhège píngguǒ hěn <b>zhōng</b>yào.",
+                              "n": "Esta maçã é muito importante (não é comum)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_11",
+                      "isLetter": false,
+                      "letter": "ch",
+                      "word": "chī",
+                      "emoji": "🍽️",
+                      "phonetic": "/ʈʂʰɻ̩/",
+                      "translation": "<b>comer</b>",
+                      "translations": {
+                          "zh": "吃",
+                          "pt": "comer",
+                          "en": "eat"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yào <b>chī</b> fàn.",
+                              "n": "Eu quero comer arroz (refeição)."
+                          },
+                          {
+                              "t": "Nǐ <b>chī</b> le ma?",
+                              "n": "Você comeu?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_12",
+                      "isLetter": false,
+                      "letter": "s",
+                      "word": "sān",
+                      "emoji": "3️⃣",
+                      "phonetic": "/san/",
+                      "translation": "<b>três</b> (数字 3)",
+                      "translations": {
+                          "zh": "三",
+                          "pt": "três",
+                          "en": "three"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>sān</b> ge píngguǒ.",
+                              "n": "Eu tenho três maçãs."
+                          },
+                          {
+                              "t": "Xiànzài <b>sān</b> diǎn.",
+                              "n": "Agora são três horas."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_13",
+                      "isLetter": false,
+                      "letter": "z",
+                      "word": "zài",
+                      "emoji": "📍",
+                      "phonetic": "/tsaɪ̯/",
+                      "translation": "<b>estar em / novamente</b>",
+                      "translations": {
+                          "zh": "在",
+                          "pt": "estar em / novamente",
+                          "en": "at / again"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>zài</b> jiā.",
+                              "n": "Eu estou em casa."
+                          },
+                          {
+                              "t": "Zài jiàn!",
+                              "n": "Até logo (novamente ver)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_14",
+                      "isLetter": false,
+                      "letter": "c",
+                      "word": "cài",
+                      "emoji": "🥦",
+                      "phonetic": "/tsʰaɪ̯/",
+                      "translation": "<b>prato (comida) / verdura</b>",
+                      "translations": {
+                          "zh": "菜",
+                          "pt": "prato / verdura",
+                          "en": "dish / vegetable"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhège <b>cài</b> hěn hǎochī.",
+                              "n": "Este prato é muito gostoso."
+                          },
+                          {
+                              "t": "Wǒ xǐhuān chī <b>cài</b>.",
+                              "n": "Eu gosto de comer verdura."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g3",
+              "name": "Finales (vocales y nasales)",
+              "icon": "🔤",
+              "color": "#10b981",
+              "description": "a o e i u ü — simples, diptongos y nasales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "a",
+                      "word": "a",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Vocal <b>a</b> — como en <i>casa</i>",
+                      "mnemonic": "Suena igual que la 'a' del portugués, como en 'pai'.",
+                      "examples": [
+                          {
+                              "t": "<b>a</b> — boca bien abierta, sonido claro",
+                              "n": "Pronunciación: /a/"
+                          },
+                          {
+                              "t": "mā — <b>a</b> con tono alto",
+                              "n": "mãe (ma1)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "o",
+                      "word": "o",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Vocal <b>o</b> — como en <i>avó</i>",
+                      "mnemonic": "Redondea los labios como para decir 'ó' en portugués.",
+                      "examples": [
+                          {
+                              "t": "<b>o</b> — labios redondeados, sonido estable",
+                              "n": "Pronunciación: /o/"
+                          },
+                          {
+                              "t": "mō — <b>o</b> con tono alto",
+                              "n": "tocar (mo1)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "e",
+                      "word": "e",
+                      "emoji": "🔤",
+                      "phonetic": "/ɤ/",
+                      "translation": "Vocal <b>e</b> — sonido <i>ɤ</i> (como una 'e' gutural)",
+                      "mnemonic": "Piensa en el sonido de una 'e' pero con la lengua más atrás, como un 'err' sin vibración.",
+                      "examples": [
+                          {
+                              "t": "<b>e</b> — lengua atrás, boca semiabierta",
+                              "n": "Pronunciación: /ɤ/"
+                          },
+                          {
+                              "t": "hē — <b>e</b> con tono alto",
+                              "n": "beber (he1)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "i",
+                      "word": "i",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "Vocal <b>i</b> — como en <i>sii</i>",
+                      "mnemonic": "Sonido de 'i' similar al portugués, pero más tenso y corto.",
+                      "examples": [
+                          {
+                              "t": "<b>i</b> — sonrisa ligera, lengua adelante",
+                              "n": "Pronunciación: /i/"
+                          },
+                          {
+                              "t": "mī — <b>i</b> con tono alto",
+                              "n": "arroz (mi3)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_u",
+                      "isLetter": true,
+                      "letter": "u",
+                      "word": "u",
+                      "emoji": "🔤",
+                      "phonetic": "/u/",
+                      "translation": "Vocal <b>u</b> — como en <i>fui</i>",
+                      "mnemonic": "Labios bien redondeados, como para decir 'u' en portugués.",
+                      "examples": [
+                          {
+                              "t": "<b>u</b> — labios protruidos, sonido profundo",
+                              "n": "Pronunciación: /u/"
+                          },
+                          {
+                              "t": "mù — <b>u</b> con tono descendente",
+                              "n": "árbol (mu4)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ue",
+                      "isLetter": true,
+                      "letter": "ü",
+                      "word": "ü",
+                      "emoji": "🔤",
+                      "phonetic": "/y/",
+                      "translation": "Vocal <b>ü</b> — como <i>u</i> francesa o <i>ü</i> alemana",
+                      "mnemonic": "Di 'i' pero con los labios redondeados como para 'u'. Es como un 'i' con 'u'.",
+                      "examples": [
+                          {
+                              "t": "<b>ü</b> — lengua de 'i', labios de 'u'",
+                              "n": "Pronunciación: /y/"
+                          },
+                          {
+                              "t": "lǜ — <b>ü</b> con tono descendente",
+                              "n": "verde (lü4)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ai",
+                      "isLetter": true,
+                      "letter": "ai",
+                      "word": "ai",
+                      "emoji": "🔤",
+                      "phonetic": "/ai̯/",
+                      "translation": "Diptongo <b>ai</b> — como en <i>pai</i>",
+                      "mnemonic": "Suena como 'ai' en portugués, como en 'pai'.",
+                      "examples": [
+                          {
+                              "t": "<b>ai</b> — de 'a' a 'i' rápidamente",
+                              "n": "Pronunciación: /ai/"
+                          },
+                          {
+                              "t": "māi — <b>ai</b> con tono alto",
+                              "n": "comprar (mai3)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ei",
+                      "isLetter": true,
+                      "letter": "ei",
+                      "word": "ei",
+                      "emoji": "🔤",
+                      "phonetic": "/ei̯/",
+                      "translation": "Diptongo <b>ei</b> — como en <i>lei</i>",
+                      "mnemonic": "Suena como 'ei' en portugués, como en 'lei'.",
+                      "examples": [
+                          {
+                              "t": "<b>ei</b> — de 'e' a 'i' suavemente",
+                              "n": "Pronunciación: /ei/"
+                          },
+                          {
+                              "t": "bēi — <b>ei</b> con tono alto",
+                              "n": "taza (bei1)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ao",
+                      "isLetter": true,
+                      "letter": "ao",
+                      "word": "ao",
+                      "emoji": "🔤",
+                      "phonetic": "/au̯/",
+                      "translation": "Diptongo <b>ao</b> — como en <i>pau</i>",
+                      "mnemonic": "Suena como 'au' en portugués, como en 'pau'.",
+                      "examples": [
+                          {
+                              "t": "<b>ao</b> — de 'a' a 'o' con labios redondeados",
+                              "n": "Pronunciación: /au/"
+                          },
+                          {
+                              "t": "māo — <b>ao</b> con tono alto",
+                              "n": "gato (mao1)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ou",
+                      "isLetter": true,
+                      "letter": "ou",
+                      "word": "ou",
+                      "emoji": "🔤",
+                      "phonetic": "/ou̯/",
+                      "translation": "Diptongo <b>ou</b> — como en <i>sou</i>",
+                      "mnemonic": "Suena como 'ou' en portugués, como en 'sou'.",
+                      "examples": [
+                          {
+                              "t": "<b>ou</b> — de 'o' a 'u' con labios redondeados",
+                              "n": "Pronunciación: /ou/"
+                          },
+                          {
+                              "t": "gǒu — <b>ou</b> con tono descendente",
+                              "n": "perro (gou3)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ia",
+                      "isLetter": true,
+                      "letter": "ia",
+                      "word": "ia",
+                      "emoji": "🔤",
+                      "phonetic": "/i̯a/",
+                      "translation": "Diptongo <b>ia</b> — como <i>ia</i> en 'fiar'",
+                      "mnemonic": "Comienza con 'i' y desliza a 'a', como en 'fiar'.",
+                      "examples": [
+                          {
+                              "t": "<b>ia</b> — de 'i' a 'a' rápidamente",
+                              "n": "Pronunciación: /ia/"
+                          },
+                          {
+                              "t": "jiā — <b>ia</b> con tono alto",
+                              "n": "casa (jia1)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ie",
+                      "isLetter": true,
+                      "letter": "ie",
+                      "word": "ie",
+                      "emoji": "🔤",
+                      "phonetic": "/i̯e/",
+                      "translation": "Diptongo <b>ie</b> — como <i>ie</i> en 'pé'",
+                      "mnemonic": "Comienza con 'i' y termina en 'e' cerrada, como en 'pé'.",
+                      "examples": [
+                          {
+                              "t": "<b>ie</b> — de 'i' a 'e' suavemente",
+                              "n": "Pronunciación: /ie/"
+                          },
+                          {
+                              "t": "xiè — <b>ie</b> con tono descendente",
+                              "n": "gracias (xie4)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ua",
+                      "isLetter": true,
+                      "letter": "ua",
+                      "word": "ua",
+                      "emoji": "🔤",
+                      "phonetic": "/u̯a/",
+                      "translation": "Diptongo <b>ua</b> — como <i>ua</i> en 'quase'",
+                      "mnemonic": "Comienza con 'u' y desliza a 'a', como en 'quase'.",
+                      "examples": [
+                          {
+                              "t": "<b>ua</b> — de 'u' a 'a' con labios redondeados",
+                              "n": "Pronunciación: /ua/"
+                          },
+                          {
+                              "t": "guā — <b>ua</b> con tono alto",
+                              "n": "melón (gua1)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_uo",
+                      "isLetter": true,
+                      "letter": "uo",
+                      "word": "uo",
+                      "emoji": "🔤",
+                      "phonetic": "/u̯o/",
+                      "translation": "Diptongo <b>uo</b> — como <i>uo</i> en 'cuota'",
+                      "mnemonic": "Comienza con 'u' y termina en 'o', como en 'cuota'.",
+                      "examples": [
+                          {
+                              "t": "<b>uo</b> — de 'u' a 'o' con labios redondeados",
+                              "n": "Pronunciación: /uo/"
+                          },
+                          {
+                              "t": "guǒ — <b>uo</b> con tono descendente",
+                              "n": "fruta (guo3)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ue",
+                      "isLetter": true,
+                      "letter": "üe",
+                      "word": "üe",
+                      "emoji": "🔤",
+                      "phonetic": "/y̯e/",
+                      "translation": "Diptongo <b>üe</b> — como <i>üe</i> en alemán",
+                      "mnemonic": "Empieza con ü y termina en e, manteniendo los labios redondeados.",
+                      "examples": [
+                          {
+                              "t": "<b>üe</b> — de 'ü' a 'e' con labios redondeados",
+                              "n": "Pronunciación: /ye/"
+                          },
+                          {
+                              "t": "xué — <b>üe</b> con tono ascendente",
+                              "n": "estudiar (xue2)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_an",
+                      "isLetter": true,
+                      "letter": "an",
+                      "word": "an",
+                      "emoji": "🔤",
+                      "phonetic": "/an/",
+                      "translation": "Vocal nasal <b>an</b> — como en <i>pão</i>",
+                      "mnemonic": "Suena como 'an' en portugués, como en 'pão'.",
+                      "examples": [
+                          {
+                              "t": "<b>an</b> — 'a' + nasal final",
+                              "n": "Pronunciación: /an/"
+                          },
+                          {
+                              "t": "mán — <b>an</b> con tono ascendente",
+                              "n": "lento (man4)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_en",
+                      "isLetter": true,
+                      "letter": "en",
+                      "word": "en",
+                      "emoji": "🔤",
+                      "phonetic": "/ən/",
+                      "translation": "Vocal nasal <b>en</b> — como en <i>então</i>",
+                      "mnemonic": "Suena como 'en' en portugués, como en 'então'.",
+                      "examples": [
+                          {
+                              "t": "<b>en</b> — 'e' + nasal final",
+                              "n": "Pronunciación: /ən/"
+                          },
+                          {
+                              "t": "rén — <b>en</b> con tono ascendente",
+                              "n": "persona (ren2)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_in",
+                      "isLetter": true,
+                      "letter": "in",
+                      "word": "in",
+                      "emoji": "🔤",
+                      "phonetic": "/in/",
+                      "translation": "Vocal nasal <b>in</b> — como en <i>fim</i>",
+                      "mnemonic": "Suena como 'in' en portugués, como en 'fim'.",
+                      "examples": [
+                          {
+                              "t": "<b>in</b> — 'i' + nasal final",
+                              "n": "Pronunciación: /in/"
+                          },
+                          {
+                              "t": "yīn — <b>in</b> con tono alto",
+                              "n": "sonido (yin1)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_un",
+                      "isLetter": true,
+                      "letter": "un",
+                      "word": "un",
+                      "emoji": "🔤",
+                      "phonetic": "/uən/",
+                      "translation": "Vocal nasal <b>un</b> — como en <i>um</i>",
+                      "mnemonic": "Suena como 'un' en portugués, como en 'um'.",
+                      "examples": [
+                          {
+                              "t": "<b>un</b> — 'u' + nasal final",
+                              "n": "Pronunciación: /uən/"
+                          },
+                          {
+                              "t": "lùn — <b>un</b> con tono descendente",
+                              "n": "discutir (lun4)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ang",
+                      "isLetter": true,
+                      "letter": "ang",
+                      "word": "ang",
+                      "emoji": "🔤",
+                      "phonetic": "/ɑŋ/",
+                      "translation": "Vocal nasal <b>ang</b> — como en <i>banco</i>",
+                      "mnemonic": "Suena como 'an' pero con la lengua más atrás, como 'ang' en 'banco'.",
+                      "examples": [
+                          {
+                              "t": "<b>ang</b> — 'a' + nasal velar",
+                              "n": "Pronunciación: /ɑŋ/"
+                          },
+                          {
+                              "t": "máng — <b>ang</b> con tono ascendente",
+                              "n": "ocupado (mang2)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_eng",
+                      "isLetter": true,
+                      "letter": "eng",
+                      "word": "eng",
+                      "emoji": "🔤",
+                      "phonetic": "/əŋ/",
+                      "translation": "Vocal nasal <b>eng</b> — como en <i>engano</i>",
+                      "mnemonic": "Suena como 'eng' en portugués, como en 'engano'.",
+                      "examples": [
+                          {
+                              "t": "<b>eng</b> — 'e' + nasal velar",
+                              "n": "Pronunciación: /əŋ/"
+                          },
+                          {
+                              "t": "fēng — <b>eng</b> con tono alto",
+                              "n": "viento (feng1)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ing",
+                      "isLetter": true,
+                      "letter": "ing",
+                      "word": "ing",
+                      "emoji": "🔤",
+                      "phonetic": "/iŋ/",
+                      "translation": "Vocal nasal <b>ing</b> — como en <i>ding</i>",
+                      "mnemonic": "Suena como 'ing' en inglés, como en 'sing'.",
+                      "examples": [
+                          {
+                              "t": "<b>ing</b> — 'i' + nasal velar",
+                              "n": "Pronunciación: /iŋ/"
+                          },
+                          {
+                              "t": "míng — <b>ing</b> con tono ascendente",
+                              "n": "brillante (ming2)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ong",
+                      "isLetter": true,
+                      "letter": "ong",
+                      "word": "ong",
+                      "emoji": "🔤",
+                      "phonetic": "/ʊŋ/",
+                      "translation": "Vocal nasal <b>ong</b> — como en <i>fundo</i>",
+                      "mnemonic": "Suena como 'ong' en portugués, como en 'fundo'.",
+                      "examples": [
+                          {
+                              "t": "<b>ong</b> — 'o' + nasal velar",
+                              "n": "Pronunciación: /ʊŋ/"
+                          },
+                          {
+                              "t": "hóng — <b>ong</b> con tono ascendente",
+                              "n": "rojo (hong2)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_er",
+                      "isLetter": true,
+                      "letter": "er",
+                      "word": "er",
+                      "emoji": "🔤",
+                      "phonetic": "/ɚ/",
+                      "translation": "Vocal retrofleja <b>er</b> — sonido con la lengua curvada hacia atrás",
+                      "mnemonic": "Imagina decir 'er' con la lengua hacia atrás, como un 'r' suave.",
+                      "examples": [
+                          {
+                              "t": "<b>er</b> — lengua curvada hacia atrás",
+                              "n": "Pronunciación: /ɚ/"
+                          },
+                          {
+                              "t": "èr — <b>er</b> con tono descendente",
+                              "n": "dos (er4)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "ao",
+                      "word": "māo",
+                      "emoji": "🐱",
+                      "phonetic": "/mɑu̯/",
+                      "translation": "<b>māo</b> — gato",
+                      "translations": {
+                          "zh": "māo",
+                          "pt": "gato",
+                          "en": "cat"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè shì wǒ de <b>māo</b>.",
+                              "n": "Este é o meu gato."
+                          },
+                          {
+                              "t": "<b>Māo</b> hěn kě'ài.",
+                              "n": "O gato é muito fofo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "ou",
+                      "word": "gǒu",
+                      "emoji": "🐶",
+                      "phonetic": "/koʊ̯/",
+                      "translation": "<b>gǒu</b> — cachorro",
+                      "translations": {
+                          "zh": "gǒu",
+                          "pt": "cachorro",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu yī zhī <b>gǒu</b>.",
+                              "n": "Eu tenho um cachorro."
+                          },
+                          {
+                              "t": "<b>Gǒu</b> zài pǎo.",
+                              "n": "O cachorro está correndo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "an",
+                      "word": "nán",
+                      "emoji": "🧭",
+                      "phonetic": "/nan/",
+                      "translation": "<b>nán</b> — sul; também significa 'difícil'",
+                      "translations": {
+                          "zh": "nán",
+                          "pt": "sul",
+                          "en": "south"
+                      },
+                      "examples": [
+                          {
+                              "t": "Běijīng zài <b>nán</b> fāng.",
+                              "n": "Pequim fica ao sul."
+                          },
+                          {
+                              "t": "Zhège wèntí hěn <b>nán</b>.",
+                              "n": "Este problema é muito difícil."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "er",
+                      "word": "èr",
+                      "emoji": "2️⃣",
+                      "phonetic": "/ɚ/",
+                      "translation": "<b>èr</b> — dois",
+                      "translations": {
+                          "zh": "èr",
+                          "pt": "dois",
+                          "en": "two"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>èr</b> gè píngguǒ.",
+                              "n": "Eu tenho duas maçãs."
+                          },
+                          {
+                              "t": "<b>Èr</b> jiā yī děng yú sān.",
+                              "n": "Dois mais um é igual a três."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g4",
+              "name": "Primeras palabras en pinyin",
+              "icon": "🧩",
+              "color": "#ef4444",
+              "description": "Leer y pronunciar 20 palabras esenciales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2",
+                  "zh_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g4_01",
+                      "letter": "nǐ",
+                      "word": "你好",
+                      "emoji": "👋",
+                      "phonetic": "/ni˧˩ xɑʊ˨˩˦/",
+                      "translation": "<b>Olá</b> / <b>Oi</b> — literalmente <i>“você bom”</i>",
+                      "translations": {
+                          "zh": "你好",
+                          "pt": "Olá",
+                          "en": "Hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>你好</b>！我是安娜。",
+                              "n": "Olá! Eu sou a Ana."
+                          },
+                          {
+                              "t": "<b>你好</b>，老师！",
+                              "n": "Olá, professor(a)!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_02",
+                      "letter": "xiè",
+                      "word": "谢谢",
+                      "emoji": "🙏",
+                      "phonetic": "/ɕjɛ˥˩ ɕjɛ˥˩/",
+                      "translation": "<b>Obrigado(a)</b> — repete-se para reforçar",
+                      "translations": {
+                          "zh": "谢谢",
+                          "pt": "Obrigado(a)",
+                          "en": "Thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>谢谢</b>你的帮助！",
+                              "n": "Obrigado pela sua ajuda!"
+                          },
+                          {
+                              "t": "妈妈，<b>谢谢</b>！",
+                              "n": "Mãe, obrigado!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_03",
+                      "letter": "duì",
+                      "word": "对不起",
+                      "emoji": "😔",
+                      "phonetic": "/tu̯eɪ˥˩ pu˥˩ tɕʰi˨˩˦/",
+                      "translation": "<b>Desculpa</b> / <b>Sinto muito</b> — <i>“face” + “não” + “subir”</i>",
+                      "translations": {
+                          "zh": "对不起",
+                          "pt": "Desculpa",
+                          "en": "Sorry"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>对不起</b>，我晚了。",
+                              "n": "Desculpa, estou atrasado."
+                          },
+                          {
+                              "t": "<b>对不起</b>，我不懂。",
+                              "n": "Desculpa, não entendi."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_04",
+                      "letter": "wǒ",
+                      "word": "我",
+                      "emoji": "🙋",
+                      "phonetic": "/u̯ɔ˨˩˦/",
+                      "translation": "<b>Eu</b> — o som é como <i>“uó”</i> em português, com tom descendente-subida",
+                      "translations": {
+                          "zh": "我",
+                          "pt": "Eu",
+                          "en": "I / me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>我</b>是学生。",
+                              "n": "Eu sou estudante."
+                          },
+                          {
+                              "t": "<b>我</b>喜欢咖啡。",
+                              "n": "Eu gosto de café."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_05",
+                      "letter": "nǐ",
+                      "word": "你",
+                      "emoji": "👉",
+                      "phonetic": "/ni˧˩/",
+                      "translation": "<b>Você</b> — a pessoa com quem fala",
+                      "translations": {
+                          "zh": "你",
+                          "pt": "Você",
+                          "en": "You"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>你</b>好吗？",
+                              "n": "Você está bem?"
+                          },
+                          {
+                              "t": "<b>你</b>是巴西人吗？",
+                              "n": "Você é brasileiro(a)?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_06",
+                      "letter": "tā",
+                      "word": "他/她",
+                      "emoji": "🧑‍🤝‍🧑",
+                      "phonetic": "/tʰɑ˥/",
+                      "translation": "<b>Ele</b> (他) / <b>Ela</b> (她) — mesmo som, escrita diferente",
+                      "translations": {
+                          "zh": "他/她",
+                          "pt": "Ele / Ela",
+                          "en": "He / She"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>他</b>是医生。",
+                              "n": "Ele é médico."
+                          },
+                          {
+                              "t": "<b>她</b>是老师。",
+                              "n": "Ela é professora."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_07",
+                      "letter": "men",
+                      "word": "我们",
+                      "emoji": "👥",
+                      "phonetic": "/u̯ɔ˨˩˦ mən˧˥/",
+                      "translation": "<b>Nós</b> — <i>“eu” + sufixo plural</i>",
+                      "translations": {
+                          "zh": "我们",
+                          "pt": "Nós",
+                          "en": "We / us"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>我们</b>是朋友。",
+                              "n": "Nós somos amigos."
+                          },
+                          {
+                              "t": "<b>我们</b>去北京。",
+                              "n": "Nós vamos para Pequim."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_08",
+                      "letter": "shì",
+                      "word": "是",
+                      "emoji": "✅",
+                      "phonetic": "/ʂɻ˥˩/",
+                      "translation": "<b>Ser</b> / <b>estar</b> — verbo de ligação essencial",
+                      "translations": {
+                          "zh": "是",
+                          "pt": "Ser / estar",
+                          "en": "To be"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>是</b>中国人。",
+                              "n": "Eu sou chinês(a)."
+                          },
+                          {
+                              "t": "这<b>是</b>书。",
+                              "n": "Isto é um livro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_09",
+                      "letter": "bù",
+                      "word": "不是",
+                      "emoji": "❌",
+                      "phonetic": "/pu˥˩ ʂɻ˥˩/",
+                      "translation": "<b>Não ser</b> — negação de <span class=\"hl\">是</span>",
+                      "translations": {
+                          "zh": "不是",
+                          "pt": "Não ser",
+                          "en": "To not be"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>不是</b>老师。",
+                              "n": "Eu não sou professor."
+                          },
+                          {
+                              "t": "这<b>不是</b>咖啡。",
+                              "n": "Isto não é café."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_10",
+                      "letter": "yǒu",
+                      "word": "有",
+                      "emoji": "✋",
+                      "phonetic": "/joʊ˨˩˦/",
+                      "translation": "<b>Ter</b> / <b>haver</b> — indica posse ou existência",
+                      "translations": {
+                          "zh": "有",
+                          "pt": "Ter / haver",
+                          "en": "To have"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>有</b>一个哥哥。",
+                              "n": "Eu tenho um irmão mais velho."
+                          },
+                          {
+                              "t": "你<b>有</b>钱吗？",
+                              "n": "Você tem dinheiro?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_11",
+                      "letter": "méi",
+                      "word": "没有",
+                      "emoji": "🚫",
+                      "phonetic": "/meɪ˧˥ joʊ˨˩˦/",
+                      "translation": "<b>Não ter</b> — negação de <span class=\"hl\">有</span>",
+                      "translations": {
+                          "zh": "没有",
+                          "pt": "Não ter",
+                          "en": "To not have"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>没有</b>车。",
+                              "n": "Eu não tenho carro."
+                          },
+                          {
+                              "t": "这里<b>没有</b>人。",
+                              "n": "Aqui não há ninguém."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_12",
+                      "letter": "hǎo",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "/xɑʊ˨˩˦/",
+                      "translation": "<b>Bom</b> / <b>bem</b> — já viu em <i>你好</i>",
+                      "translations": {
+                          "zh": "好",
+                          "pt": "Bom / bem",
+                          "en": "Good"
+                      },
+                      "examples": [
+                          {
+                              "t": "很<b>好</b>！",
+                              "n": "Muito bom!"
+                          },
+                          {
+                              "t": "天气很<b>好</b>。",
+                              "n": "O tempo está bom."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_13",
+                      "letter": "bù",
+                      "word": "不好",
+                      "emoji": "👎",
+                      "phonetic": "/pu˥˩ xɑʊ˨˩˦/",
+                      "translation": "<b>Não bom</b> / <b>mal</b> — negação de <span class=\"hl\">好</span>",
+                      "translations": {
+                          "zh": "不好",
+                          "pt": "Não bom / mal",
+                          "en": "Not good"
+                      },
+                      "examples": [
+                          {
+                              "t": "我心情<b>不好</b>。",
+                              "n": "Meu humor não está bom."
+                          },
+                          {
+                              "t": "这个<b>不好</b>吃。",
+                              "n": "Isto não é gostoso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_14",
+                      "letter": "dà",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "/tɑ˥˩/",
+                      "translation": "<b>Grande</b> — visualmente parece uma pessoa de braços abertos",
+                      "translations": {
+                          "zh": "大",
+                          "pt": "Grande",
+                          "en": "Big"
+                      },
+                      "examples": [
+                          {
+                              "t": "这是<b>大</b>房子。",
+                              "n": "Esta é uma casa grande."
+                          },
+                          {
+                              "t": "狗很<b>大</b>。",
+                              "n": "O cachorro é grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_15",
+                      "letter": "xiǎo",
+                      "word": "小",
+                      "emoji": "🐭",
+                      "phonetic": "/ɕjɑʊ˨˩˦/",
+                      "translation": "<b>Pequeno</b> — três traços pequenos, como gotas minúsculas",
+                      "translations": {
+                          "zh": "小",
+                          "pt": "Pequeno",
+                          "en": "Small"
+                      },
+                      "examples": [
+                          {
+                              "t": "猫很<b>小</b>。",
+                              "n": "O gato é pequeno."
+                          },
+                          {
+                              "t": "我住<b>小</b>房子。",
+                              "n": "Eu moro numa casa pequena."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_16",
+                      "letter": "lái",
+                      "word": "来",
+                      "emoji": "🏃",
+                      "phonetic": "/laɪ˧˥/",
+                      "translation": "<b>Vir</b> — movimento em direção a quem fala",
+                      "translations": {
+                          "zh": "来",
+                          "pt": "Vir",
+                          "en": "To come"
+                      },
+                      "examples": [
+                          {
+                              "t": "请<b>来</b>这里！",
+                              "n": "Por favor, venha aqui!"
+                          },
+                          {
+                              "t": "他明天<b>来</b>。",
+                              "n": "Ele vem amanhã."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_17",
+                      "letter": "qù",
+                      "word": "去",
+                      "emoji": "🚶",
+                      "phonetic": "/tɕʰy˥˩/",
+                      "translation": "<b>Ir</b> — movimento para longe de quem fala",
+                      "translations": {
+                          "zh": "去",
+                          "pt": "Ir",
+                          "en": "To go"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>去</b>学校。",
+                              "n": "Eu vou para a escola."
+                          },
+                          {
+                              "t": "你<b>去</b>哪儿？",
+                              "n": "Onde você vai?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_18",
+                      "letter": "chī",
+                      "word": "吃",
+                      "emoji": "🍚",
+                      "phonetic": "/ʈʂʰɻ˥/",
+                      "translation": "<b>Comer</b> — a boca (口) à esquerda, como um “k” de <i>“kome”</i> (arroz em japonês)",
+                      "translations": {
+                          "zh": "吃",
+                          "pt": "Comer",
+                          "en": "To eat"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>吃</b>米饭。",
+                              "n": "Eu como arroz."
+                          },
+                          {
+                              "t": "你想<b>吃</b>什么？",
+                              "n": "O que você quer comer?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_19",
+                      "letter": "hē",
+                      "word": "喝",
+                      "emoji": "🥤",
+                      "phonetic": "/xɤ˥/",
+                      "translation": "<b>Beber</b> — também tem a boca (口) à esquerda, como <span class=\"hl\">吃</span>",
+                      "translations": {
+                          "zh": "喝",
+                          "pt": "Beber",
+                          "en": "To drink"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>喝</b>水。",
+                              "n": "Eu bebo água."
+                          },
+                          {
+                              "t": "你<b>喝</b>茶吗？",
+                              "n": "Você bebe chá?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_20",
+                      "letter": "shuō",
+                      "word": "说",
+                      "emoji": "💬",
+                      "phonetic": "/ʂu̯ɔ˥/",
+                      "translation": "<b>Falar</b> / <b>dizer</b> — língua (舌) + fala (讠)",
+                      "translations": {
+                          "zh": "说",
+                          "pt": "Falar / dizer",
+                          "en": "To speak"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>说</b>中文。",
+                              "n": "Eu falo chinês."
+                          },
+                          {
+                              "t": "请<b>说</b>慢一点。",
+                              "n": "Por favor, fale mais devagar."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // ZH_RU
+  // ──────────────────────────────────────────────────────
+  zh_ru: {
+      "level": "A0",
+      "levelName": "Pinyin y tonos del chino mandarín",
+      "groups": [
+          {
+              "id": "zh_a0_g1",
+              "name": "Los 4 tonos",
+              "icon": "🎵",
+              "color": "#6366f1",
+              "description": "El tono cambia completamente el significado",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "zh_a0_g1_L_a1",
+                      "isLetter": true,
+                      "letter": "ā",
+                      "word": "ā",
+                      "emoji": "📏",
+                      "phonetic": "/aː˥/",
+                      "translation": "Первый тон — <b>ровный и высокий</b>, как будто вы поёте ноту. <i>Представьте, что вы держите линейку горизонтально.</i>",
+                      "mnemonic": "Представьте, что вы держите линейку горизонтально — голос остаётся на одной высоте, как ровная линия.",
+                      "examples": [
+                          {
+                              "t": "<b>mā</b> — мама (妈). <br>«Мама» звучит ровно и спокойно.",
+                              "n": "mā = мама"
+                          },
+                          {
+                              "t": "<b>bā</b> — восемь (八). <br>«Восемь» тоже произносится ровно.",
+                              "n": "bā = восемь"
+                          },
+                          {
+                              "t": "<b>tā</b> — он/она (他/她). <br>«Он/она» — ровный тон.",
+                              "n": "tā = он/она"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a2",
+                      "isLetter": true,
+                      "letter": "á",
+                      "word": "á",
+                      "emoji": "❓",
+                      "phonetic": "/a˧˥/",
+                      "translation": "Второй тон — <b>восходящий</b>, как интонация вопроса «<i>Что?</i>» или «<i>Как?</i>» по-русски.",
+                      "mnemonic": "Представьте, что вы удивлённо переспрашиваете «Что?» — голос идёт вверх.",
+                      "examples": [
+                          {
+                              "t": "<b>má</b> — конопля (麻). <br>Голос поднимается вверх.",
+                              "n": "má = конопля / онемение"
+                          },
+                          {
+                              "t": "<b>lái</b> — приходить (来). <br>«Приходи!» — голос идёт вверх.",
+                              "n": "lái = приходить"
+                          },
+                          {
+                              "t": "<b>nán</b> — трудный (难). <br>«Трудно?» — голос поднимается.",
+                              "n": "nán = трудный"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a3",
+                      "isLetter": true,
+                      "letter": "ǎ",
+                      "word": "ǎ",
+                      "emoji": "🤔",
+                      "phonetic": "/a˨˩˦/",
+                      "translation": "Третий тон — <b>нисходяще-восходящий</b>: сначала вниз, потом вверх. Как задумчивое «<i>Хм-м?</i>»",
+                      "mnemonic": "Представьте, что вы рисуете галочку: голос идёт вниз, потом вверх.",
+                      "examples": [
+                          {
+                              "t": "<b>mǎ</b> — лошадь (马). <br>«Лошадь» — голос делает «галочку».",
+                              "n": "mǎ = лошадь"
+                          },
+                          {
+                              "t": "<b>nǐ</b> — ты (你). <br>«Ты» — тон с «галочкой».",
+                              "n": "nǐ = ты"
+                          },
+                          {
+                              "t": "<b>hǎo</b> — хорошо (好). <br>«Хорошо» — нисходяще-восходящий.",
+                              "n": "hǎo = хорошо"
+                          },
+                          {
+                              "t": "<b>wǒ</b> — я (我). <br>«Я» — третий тон.",
+                              "n": "wǒ = я"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a4",
+                      "isLetter": true,
+                      "letter": "à",
+                      "word": "à",
+                      "emoji": "⬇️",
+                      "phonetic": "/a˥˩/",
+                      "translation": "Четвёртый тон — <b>резко нисходящий</b>, как строгое «<i>Нет!</i>» или «<i>Стоп!</i>»",
+                      "mnemonic": "Представьте, что вы резко рубите рукой воздух сверху вниз — голос падает резко.",
+                      "examples": [
+                          {
+                              "t": "<b>mà</b> — ругать (骂). <br>«Ругать!» — голос резко падает.",
+                              "n": "mà = ругать"
+                          },
+                          {
+                              "t": "<b>shì</b> — быть/да (是). <br>«Да!» — резкое падение.",
+                              "n": "shì = быть, является, да"
+                          },
+                          {
+                              "t": "<b>bù</b> — нет/не (不). <br>«Нет!» — резкое падение.",
+                              "n": "bù = нет, не"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a5",
+                      "isLetter": true,
+                      "letter": "a",
+                      "word": "a",
+                      "emoji": "🪶",
+                      "phonetic": "/a/",
+                      "translation": "Нейтральный тон — <b>лёгкий и короткий</b>, без ударения. Как русская безударная «а» в слове «молоко».",
+                      "mnemonic": "Представьте пёрышко, которое падает легко и без усилий — голос почти исчезает.",
+                      "examples": [
+                          {
+                              "t": "<b>ma</b> — вопросительная частица (吗). <br>В конце вопроса: «Nǐ hǎo ma?» — «Ты хорошо?»",
+                              "n": "ma = вопросительная частица"
+                          },
+                          {
+                              "t": "<b>ne</b> — частица (呢). <br>«А ты?» — «Nǐ ne?»",
+                              "n": "ne = частица (ну, а)"
+                          },
+                          {
+                              "t": "<b>le</b> — частица завершённости (了). <br>«Я поел» — «Wǒ chī le»",
+                              "n": "le = частица завершённости"
+                          },
+                          {
+                              "t": "<b>ba</b> — частица предложения (吧). <br>«Пойдём!» — «Wǒmen zǒu ba!»",
+                              "n": "ba = частица предложения"
+                          },
+                          {
+                              "t": "<b>de</b> — частица принадлежности (的). <br>«Моя мама» — «Wǒ de māma»",
+                              "n": "de = частица принадлежности"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_rule",
+                      "isLetter": true,
+                      "letter": "nǐ hǎo",
+                      "word": "nǐ hǎo",
+                      "emoji": "📖",
+                      "phonetic": "/ni˨˩˦ xaʊ˨˩˦/ → /ni˧˥ xaʊ˨˩˦/",
+                      "translation": "Правило: <b>3-й + 3-й → 2-й + 3-й</b>.<br>Когда два третьих тона идут подряд, первый становится вторым.<br><i>nǐ hǎo</i> → произносится <b>ní hǎo</b>",
+                      "mnemonic": "Два «галочки» подряд неудобно произносить — первая превращается в «вопросительный» второй тон.",
+                      "examples": [
+                          {
+                              "t": "<b>nǐ hǎo</b> → <b>ní hǎo</b> — «Привет!» (你好). <br>Оба тона третьи, но первый звучит как второй.",
+                              "n": "nǐ hǎo = привет"
+                          },
+                          {
+                              "t": "<b>wǒ hěn hǎo</b> → <b>wó hěn hǎo</b> — «Я очень хорошо» (我很好).",
+                              "n": "wǒ hěn hǎo = я очень хорошо"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_rule_bu",
+                      "isLetter": true,
+                      "letter": "bù",
+                      "word": "bù",
+                      "emoji": "🚫",
+                      "phonetic": "/pu˥˩/",
+                      "translation": "Правило для <b>bù</b> (не):<br>Перед 4-м тоном произносится как <b>bú</b> (2-й тон).<br>В остальных случаях — <b>bù</b> (4-й тон).",
+                      "mnemonic": "Перед «резким» 4-м тоном «нет» смягчается и становится восходящим, чтобы не было двух резких падений подряд.",
+                      "examples": [
+                          {
+                              "t": "<b>bù</b> hǎo — не хорошо (不好). <br>Перед 3-м тоном — 4-й.",
+                              "n": "bù hǎo = не хорошо"
+                          },
+                          {
+                              "t": "<b>bú</b> shì — не является (不是). <br>Перед 4-м тоном — 2-й.",
+                              "n": "bú shì = не является"
+                          },
+                          {
+                              "t": "<b>bù</b> máng — не занят (不忙). <br>Перед 2-м тоном — 4-й.",
+                              "n": "bù máng = не занят"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "ā",
+                      "word": "māma",
+                      "emoji": "👩",
+                      "phonetic": "/ma˥˥ ma/",
+                      "translation": "<b>Мама</b> (мать)",
+                      "translations": {
+                          "zh": "妈妈",
+                          "ru": "мама",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ de <b>māma</b> hěn hǎo.",
+                              "n": "Моя мама очень хорошая."
+                          },
+                          {
+                              "t": "<b>Māma</b> zài jiā.",
+                              "n": "Мама дома."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "ǎ",
+                      "word": "mǎ",
+                      "emoji": "🐴",
+                      "phonetic": "/ma˨˩˦/",
+                      "translation": "<b>Лошадь</b> — смотрите, как отличается от «mā» (мама) только тоном!",
+                      "translations": {
+                          "zh": "马",
+                          "ru": "лошадь",
+                          "en": "horse"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè shì yī pǐ <b>mǎ</b>.",
+                              "n": "Это лошадь."
+                          },
+                          {
+                              "t": "<b>Mǎ</b> hěn kuài.",
+                              "n": "Лошадь очень быстрая."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "à",
+                      "word": "mà",
+                      "emoji": "😠",
+                      "phonetic": "/ma˥˩/",
+                      "translation": "<b>Ругать</b> — тот же звук «ma», но резкое падение меняет смысл!",
+                      "translations": {
+                          "zh": "骂",
+                          "ru": "ругать",
+                          "en": "to scold"
+                      },
+                      "examples": [
+                          {
+                              "t": "Tā <b>mà</b> wǒ.",
+                              "n": "Он ругает меня."
+                          },
+                          {
+                              "t": "Bù yào <b>mà</b> rén.",
+                              "n": "Не ругай людей."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "ǐ",
+                      "word": "nǐ",
+                      "emoji": "👉",
+                      "phonetic": "/ni˨˩˦/",
+                      "translation": "<b>Ты</b> — один из самых важных слов для начала разговора.",
+                      "translations": {
+                          "zh": "你",
+                          "ru": "ты",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Nǐ</b> hǎo!",
+                              "n": "Привет! (досл. «ты хорошо»)"
+                          },
+                          {
+                              "t": "<b>Nǐ</b> shì lǎoshī ma?",
+                              "n": "Ты учитель?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "ǎo",
+                      "word": "hǎo",
+                      "emoji": "👍",
+                      "phonetic": "/xaʊ˨˩˦/",
+                      "translation": "<b>Хорошо</b> / <b>хороший</b> — базовое слово для оценки.",
+                      "translations": {
+                          "zh": "好",
+                          "ru": "хорошо, хороший",
+                          "en": "good, well"
+                      },
+                      "examples": [
+                          {
+                              "t": "Hěn <b>hǎo</b>!",
+                              "n": "Очень хорошо!"
+                          },
+                          {
+                              "t": "<b>Hǎo</b> ma?",
+                              "n": "Хорошо?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "ǒ",
+                      "word": "wǒ",
+                      "emoji": "🙋",
+                      "phonetic": "/wɔ˨˩˦/",
+                      "translation": "<b>Я</b> — первое слово, которое нужно знать.",
+                      "translations": {
+                          "zh": "我",
+                          "ru": "я",
+                          "en": "I, me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Wǒ</b> shì xuésheng.",
+                              "n": "Я студент."
+                          },
+                          {
+                              "t": "<b>Wǒ</b> ài nǐ.",
+                              "n": "Я люблю тебя."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "ài",
+                      "word": "lái",
+                      "emoji": "🚶",
+                      "phonetic": "/laɪ˧˥/",
+                      "translation": "<b>Приходить</b> — второй тон, голос идёт вверх, как приглашение «приходи!»",
+                      "translations": {
+                          "zh": "来",
+                          "ru": "приходить",
+                          "en": "to come"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nǐ <b>lái</b> ma?",
+                              "n": "Ты придёшь?"
+                          },
+                          {
+                              "t": "Qǐng <b>lái</b> zhèlǐ.",
+                              "n": "Пожалуйста, иди сюда."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "án",
+                      "word": "nán",
+                      "emoji": "🧗",
+                      "phonetic": "/nan˧˥/",
+                      "translation": "<b>Трудный</b> — второй тон, как будто вы удивляетесь «Трудно?»",
+                      "translations": {
+                          "zh": "难",
+                          "ru": "трудный, сложный",
+                          "en": "difficult"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhège hěn <b>nán</b>.",
+                              "n": "Это очень трудно."
+                          },
+                          {
+                              "t": "Bù <b>nán</b>.",
+                              "n": "Не трудно."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "ì",
+                      "word": "shì",
+                      "emoji": "✅",
+                      "phonetic": "/ʂɨ˥˩/",
+                      "translation": "<b>Быть</b> / <b>являться</b> — слово-связка, как «is» в английском.",
+                      "translations": {
+                          "zh": "是",
+                          "ru": "быть, являться, да",
+                          "en": "to be, yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ <b>shì</b> lǎoshī.",
+                              "n": "Я учитель."
+                          },
+                          {
+                              "t": "<b>Shì</b>, wǒ míngbai.",
+                              "n": "Да, я понимаю."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "à",
+                      "word": "bàba",
+                      "emoji": "👨",
+                      "phonetic": "/pa˥˩ pa/",
+                      "translation": "<b>Папа</b> — первый слог с 4-м тоном, второй — нейтральный.",
+                      "translations": {
+                          "zh": "爸爸",
+                          "ru": "папа",
                           "en": "father"
                       },
                       "examples": [
                           {
-                              "t": "<b>아버지</b>가 집에 있어요.",
-                              "n": "Der Vater ist zu Hause."
+                              "t": "Wǒ de <b>bàba</b> hěn máng.",
+                              "n": "Мой папа очень занят."
                           },
                           {
-                              "t": "제 <b>아버지</b>는 선생님입니다.",
-                              "n": "Mein Vater ist Lehrer."
+                              "t": "<b>Bàba</b> zài nǎr?",
+                              "n": "Где папа?"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g2",
+              "name": "Iniciales (consonantes)",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "b p m f / d t n l / g k h / j q x / zh ch sh r / z c s",
+              "reviewFrom": [
+                  "zh_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "b",
+                      "word": "b",
+                      "emoji": "🔤",
+                      "phonetic": "/p/ (unaspirated)",
+                      "translation": "Губной <b>b</b> — звучит как русский <b>«п»</b>, но без придыхания. <br> <i>Не путать с английским звонким «b»!</i>",
+                      "mnemonic": "Представь, что ты задуваешь свечу: губы сомкнуты, лёгкий выдох — «б» без голоса.",
+                      "examples": [
+                          {
+                              "t": "<b>b</b>ā — восемь (число 8)",
+                              "n": "Число 8 — bā."
+                          },
+                          {
+                              "t": "Слог <b>b</b>a — как «па» в слове «папа», но без взрыва.",
+                              "n": "Запомни: «б» — это «п» без выдоха."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_02",
+                      "id": "zh_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "p",
+                      "word": "p",
+                      "emoji": "🔤",
+                      "phonetic": "/pʰ/ (aspirated)",
+                      "translation": "Губной <b>p</b> — русский <b>«п»</b> с сильным придыханием, как будто ты дуешь на горячий чай.",
+                      "mnemonic": "Представь, что ты дуешь на свечу — сильный выдох «п-х-х».",
+                      "examples": [
+                          {
+                              "t": "<b>p</b>à — бояться",
+                              "n": "Глагол «бояться» — pà."
+                          },
+                          {
+                              "t": "Сравни: <b>b</b>ā (8) vs <b>p</b>ā (папа) — только придыхание различает.",
+                              "n": "Ключевое различие: придыхание."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_m",
+                      "isLetter": true,
+                      "letter": "m",
+                      "word": "m",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Губной <b>m</b> — как русский <b>«м»</b>. Просто и знакомо.",
+                      "mnemonic": "Губы сомкнуты, звук идёт через нос — как мычание «м-м-м».",
+                      "examples": [
+                          {
+                              "t": "<b>m</b>āo — кошка",
+                              "n": "Кошка — māo."
+                          },
+                          {
+                              "t": "<b>m</b>ā — мама (разговорное)",
+                              "n": "Мама — mā."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "f",
+                      "word": "f",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Губно-зубной <b>f</b> — как русский <b>«ф»</b>. Верхние зубы касаются нижней губы.",
+                      "mnemonic": "Звук «ф» — как будто ты сдуваешь пылинку с руки.",
+                      "examples": [
+                          {
+                              "t": "<b>f</b>ēi — летать",
+                              "n": "Летать — fēi."
+                          },
+                          {
+                              "t": "<b>f</b>àn — рис (еда)",
+                              "n": "Рис — fàn."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "d",
+                      "word": "d",
+                      "emoji": "🔤",
+                      "phonetic": "/d̥/ (unaspirated)",
+                      "translation": "Зубной <b>d</b> — как русский <b>«т»</b>, но без придыхания. Язык у верхних зубов.",
+                      "mnemonic": "Скажи «т» без выдоха — получится «д» (но глухой).",
+                      "examples": [
+                          {
+                              "t": "<b>d</b>à — большой",
+                              "n": "Большой — dà."
+                          },
+                          {
+                              "t": "<b>d</b>ì — земля, место",
+                              "n": "Земля — dì."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_t",
+                      "isLetter": true,
+                      "letter": "t",
+                      "word": "t",
+                      "emoji": "🔤",
+                      "phonetic": "/tʰ/ (aspirated)",
+                      "translation": "Зубной <b>t</b> — русский <b>«т»</b> с сильным придыханием, как «т-х-х».",
+                      "mnemonic": "Представь, что ты выдыхаешь воздух со звуком «т» — как плевок.",
+                      "examples": [
+                          {
+                              "t": "<b>t</b>ā — он/она",
+                              "n": "Он/она — tā."
+                          },
+                          {
+                              "t": "Сравни: <b>d</b>à (большой) vs <b>t</b>ā (он) — придыхание решает.",
+                              "n": "Контраст по придыханию."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "n",
+                      "word": "n",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Зубной <b>n</b> — как русский <b>«н»</b>. Кончик языка у верхних зубов.",
+                      "mnemonic": "Звук «н» — как мычание с закрытым ртом, но язык у зубов.",
+                      "examples": [
+                          {
+                              "t": "<b>n</b>ǐ — ты",
+                              "n": "Ты — nǐ."
+                          },
+                          {
+                              "t": "<b>n</b>à — тот, та",
+                              "n": "Тот — nà."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "l",
+                      "word": "l",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "Зубной <b>l</b> — как русский <b>«л»</b>, но язык у альвеол (бугорков за зубами).",
+                      "mnemonic": "Скажи «л» и почувствуй, как язык ударяет в бугорки.",
+                      "examples": [
+                          {
+                              "t": "<b>l</b>ái — приходить",
+                              "n": "Приходить — lái."
+                          },
+                          {
+                              "t": "<b>l</b>ǎo — старый (в обращениях)",
+                              "n": "Старый — lǎo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "g",
+                      "word": "g",
+                      "emoji": "🔤",
+                      "phonetic": "/k/ (unaspirated)",
+                      "translation": "Заднеязычный <b>g</b> — как русский <b>«к»</b> без придыхания. Задняя часть языка касается мягкого нёба.",
+                      "mnemonic": "Скажи «к» без выдоха — как будто лёгкий щелчок в горле.",
+                      "examples": [
+                          {
+                              "t": "<b>g</b>ǒu — собака",
+                              "n": "Собака — gǒu."
+                          },
+                          {
+                              "t": "<b>g</b>ē — старший брат",
+                              "n": "Старший брат — gē."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_k",
+                      "isLetter": true,
+                      "letter": "k",
+                      "word": "k",
+                      "emoji": "🔤",
+                      "phonetic": "/kʰ/ (aspirated)",
+                      "translation": "Заднеязычный <b>k</b> — русский <b>«к»</b> с сильным придыханием, как «к-х-х».",
+                      "mnemonic": "Представь, что ты кашляешь: «к-х-х» — это k.",
+                      "examples": [
+                          {
+                              "t": "<b>k</b>āi — открывать",
+                              "n": "Открывать — kāi."
+                          },
+                          {
+                              "t": "Сравни: <b>g</b>ǒu (собака) vs <b>k</b>ǒu (рот) — придыхание.",
+                              "n": "Контраст: g vs k."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_h",
+                      "isLetter": true,
+                      "letter": "h",
+                      "word": "h",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "Заднеязычный <b>h</b> — как русский <b>«х»</b>, но более глубокий, как в слове «хлеб».",
+                      "mnemonic": "Представь, что ты греешь руки дыханием: «х-х-х».",
+                      "examples": [
+                          {
+                              "t": "<b>h</b>ǎo — хорошо",
+                              "n": "Хорошо — hǎo."
+                          },
+                          {
+                              "t": "<b>h</b>ē — пить",
+                              "n": "Пить — hē."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_j",
+                      "isLetter": true,
+                      "letter": "j",
+                      "word": "j",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/ (unaspirated)",
+                      "translation": "Палатальный <b>j</b> — звучит как <b>«ть»</b> в «тянуть», но без придыхания. Язык у твёрдого нёба.",
+                      "mnemonic": "Скажи «ть» и почувствуй, как язык прижимается к нёбу — это j.",
+                      "examples": [
+                          {
+                              "t": "<b>j</b>iā — дом, семья",
+                              "n": "Дом — jiā."
+                          },
+                          {
+                              "t": "<b>j</b>ǐ — себя (в слове «сам»)",
+                              "n": "Себя — jǐ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_q",
+                      "isLetter": true,
+                      "letter": "q",
+                      "word": "q",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕʰ/ (aspirated)",
+                      "translation": "Палатальный <b>q</b> — как <b>«ть»</b> с сильным придыханием, почти «ть-х-х».",
+                      "mnemonic": "Представь, что ты выдыхаешь воздух со звуком «ть» — как чихание.",
+                      "examples": [
+                          {
+                              "t": "<b>q</b>ǐng — пожалуйста",
+                              "n": "Пожалуйста — qǐng."
+                          },
+                          {
+                              "t": "Сравни: <b>j</b>iā (дом) vs <b>q</b>iā (кусать) — придыхание.",
+                              "n": "Контраст: j vs q."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_x",
+                      "isLetter": true,
+                      "letter": "x",
+                      "word": "x",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕ/",
+                      "translation": "Палатальный <b>x</b> — как русский <b>«сь»</b> в слове «сюда», но мягче. Язык у нёба.",
+                      "mnemonic": "Скажи «сь» и почувствуй, как воздух проходит между языком и нёбом.",
+                      "examples": [
+                          {
+                              "t": "<b>x</b>iǎo — маленький",
+                              "n": "Маленький — xiǎo."
+                          },
+                          {
+                              "t": "<b>x</b>iè — спасибо",
+                              "n": "Спасибо — xiè."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_zh",
+                      "isLetter": true,
+                      "letter": "zh",
+                      "word": "zh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂ/ (unaspirated)",
+                      "translation": "Ретрофлексный <b>zh</b> — как русский <b>«дж»</b> в «джем», но глухой и без придыхания. Язык загнут назад.",
+                      "mnemonic": "Представь, что ты говоришь «дж» без голоса — получится zh.",
+                      "examples": [
+                          {
+                              "t": "<b>zh</b>ōng — середина, центр",
+                              "n": "Середина — zhōng."
+                          },
+                          {
+                              "t": "<b>zh</b>ī — (частица принадлежности)",
+                              "n": "Частица — zhī."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "ch",
+                      "word": "ch",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂʰ/ (aspirated)",
+                      "translation": "Ретрофлексный <b>ch</b> — как русский <b>«ч»</b> с сильным придыханием, как «ч-х-х».",
+                      "mnemonic": "Скажи «ч» с выдохом, как будто чихаешь — это ch.",
+                      "examples": [
+                          {
+                              "t": "<b>ch</b>ī — есть",
+                              "n": "Есть — chī."
+                          },
+                          {
+                              "t": "Сравни: <b>zh</b>ōng (центр) vs <b>ch</b>ōng (устремляться) — придыхание.",
+                              "n": "Контраст: zh vs ch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_sh",
+                      "isLetter": true,
+                      "letter": "sh",
+                      "word": "sh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʂ/",
+                      "translation": "Ретрофлексный <b>sh</b> — как русский <b>«ш»</b>, но с языком загнутым назад, более твёрдый.",
+                      "mnemonic": "Представь, что ты шипишь как змея: «ш-ш-ш».",
+                      "examples": [
+                          {
+                              "t": "<b>sh</b>ū — книга",
+                              "n": "Книга — shū."
+                          },
+                          {
+                              "t": "<b>sh</b>ì — быть (глагол-связка)",
+                              "n": "Быть — shì."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_r",
+                      "isLetter": true,
+                      "letter": "r",
+                      "word": "r",
+                      "emoji": "🔤",
+                      "phonetic": "/ʐ/",
+                      "translation": "Ретрофлексный <b>r</b> — как русский <b>«ж»</b>, но с языком загнутым назад и лёгкой вибрацией.",
+                      "mnemonic": "Скажи «ж» и загни язык назад — получится r.",
+                      "examples": [
+                          {
+                              "t": "<b>r</b>én — человек",
+                              "n": "Человек — rén."
+                          },
+                          {
+                              "t": "<b>r</b>ì — солнце, день",
+                              "n": "Солнце — rì."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "z",
+                      "word": "z",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/ (unaspirated)",
+                      "translation": "Свистящий <b>z</b> — как русский <b>«ц»</b> в слове «цапля», но без придыхания и звонкости.",
+                      "mnemonic": "Скажи «ц» без выдоха — получится z.",
+                      "examples": [
+                          {
+                              "t": "<b>z</b>ài — находиться, в",
+                              "n": "Находиться — zài."
+                          },
+                          {
+                              "t": "<b>z</b>ǎo — рано, утро",
+                              "n": "Рано — zǎo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_c",
+                      "isLetter": true,
+                      "letter": "c",
+                      "word": "c",
+                      "emoji": "🔤",
+                      "phonetic": "/tsʰ/ (aspirated)",
+                      "translation": "Свистящий <b>c</b> — как русский <b>«ц»</b> с сильным придыханием, «ц-х-х».",
+                      "mnemonic": "Представь, что ты выдыхаешь воздух со звуком «ц» — как будто зовёшь кошку.",
+                      "examples": [
+                          {
+                              "t": "<b>c</b>ài — овощи, блюдо",
+                              "n": "Овощи — cài."
+                          },
+                          {
+                              "t": "Сравни: <b>z</b>ài (находиться) vs <b>c</b>ài (блюдо) — придыхание.",
+                              "n": "Контраст: z vs c."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_s",
+                      "isLetter": true,
+                      "letter": "s",
+                      "word": "s",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Свистящий <b>s</b> — как русский <b>«с»</b>. Просто и знакомо.",
+                      "mnemonic": "Скажи «с» как змея: «с-с-с».",
+                      "examples": [
+                          {
+                              "t": "<b>s</b>ān — три (число 3)",
+                              "n": "Три — sān."
+                          },
+                          {
+                              "t": "<b>s</b>ì — четыре (число 4)",
+                              "n": "Четыре — sì."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_01",
                       "isLetter": false,
-                      "letter": "ㅏ",
-                      "word": "나",
-                      "emoji": "🙋",
-                      "phonetic": "/na/",
-                      "translation": "ich",
+                      "letter": "b",
+                      "word": "八",
+                      "emoji": "8️⃣",
+                      "phonetic": "bā",
+                      "translation": "<b>八</b> (bā) — восемь",
                       "translations": {
-                          "ko": "나",
-                          "de": "ich",
-                          "en": "I/me"
+                          "zh": "八",
+                          "ru": "восемь",
+                          "en": "eight"
                       },
                       "examples": [
                           {
-                              "t": "<b>나</b>는 학생이에요.",
-                              "n": "Ich bin Student."
+                              "t": "我有<b>八</b>本书。",
+                              "n": "У меня восемь книг."
                           },
                           {
-                              "t": "<b>나</b>도 좋아해요.",
-                              "n": "Ich mag es auch."
+                              "t": "<b>八</b>是幸运数字。",
+                              "n": "Восемь — счастливое число."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_03",
+                      "id": "zh_a0_g2_02",
                       "isLetter": false,
-                      "letter": "ㅓ",
-                      "word": "어머니",
-                      "emoji": "👩",
-                      "phonetic": "/eomeoni/",
-                      "translation": "Mutter",
+                      "letter": "p",
+                      "word": "怕",
+                      "emoji": "😨",
+                      "phonetic": "pà",
+                      "translation": "<b>怕</b> (pà) — бояться",
                       "translations": {
-                          "ko": "어머니",
+                          "zh": "怕",
+                          "ru": "бояться",
+                          "en": "to fear"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>怕</b>狗。",
+                              "n": "Я боюсь собак."
+                          },
+                          {
+                              "t": "别<b>怕</b>！",
+                              "n": "Не бойся!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "m",
+                      "word": "猫",
+                      "emoji": "🐱",
+                      "phonetic": "māo",
+                      "translation": "<b>猫</b> (māo) — кошка",
+                      "translations": {
+                          "zh": "猫",
+                          "ru": "кошка",
+                          "en": "cat"
+                      },
+                      "examples": [
+                          {
+                              "t": "我的<b>猫</b>很可爱。",
+                              "n": "Моя кошка очень милая."
+                          },
+                          {
+                              "t": "<b>猫</b>喜欢鱼。",
+                              "n": "Кошки любят рыбу."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "f",
+                      "word": "飞",
+                      "emoji": "✈️",
+                      "phonetic": "fēi",
+                      "translation": "<b>飞</b> (fēi) — летать",
+                      "translations": {
+                          "zh": "飞",
+                          "ru": "летать",
+                          "en": "to fly"
+                      },
+                      "examples": [
+                          {
+                              "t": "鸟会<b>飞</b>。",
+                              "n": "Птицы умеют летать."
+                          },
+                          {
+                              "t": "飞机在<b>飞</b>。",
+                              "n": "Самолёт летит."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "d",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "dà",
+                      "translation": "<b>大</b> (dà) — большой",
+                      "translations": {
+                          "zh": "大",
+                          "ru": "большой",
+                          "en": "big"
+                      },
+                      "examples": [
+                          {
+                              "t": "这个苹果很<b>大</b>。",
+                              "n": "Это яблоко очень большое."
+                          },
+                          {
+                              "t": "我住在一个<b>大</b>城市。",
+                              "n": "Я живу в большом городе."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "t",
+                      "word": "他",
+                      "emoji": "👨",
+                      "phonetic": "tā",
+                      "translation": "<b>他</b> (tā) — он",
+                      "translations": {
+                          "zh": "他",
+                          "ru": "он",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>他</b>是我的朋友。",
+                              "n": "Он мой друг."
+                          },
+                          {
+                              "t": "<b>他</b>在看书。",
+                              "n": "Он читает книгу."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "n",
+                      "word": "你",
+                      "emoji": "👉",
+                      "phonetic": "nǐ",
+                      "translation": "<b>你</b> (nǐ) — ты",
+                      "translations": {
+                          "zh": "你",
+                          "ru": "ты",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>你</b>好！",
+                              "n": "Привет!"
+                          },
+                          {
+                              "t": "<b>你</b>叫什么名字？",
+                              "n": "Как тебя зовут?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "l",
+                      "word": "来",
+                      "emoji": "🚶",
+                      "phonetic": "lái",
+                      "translation": "<b>来</b> (lái) — приходить",
+                      "translations": {
+                          "zh": "来",
+                          "ru": "приходить",
+                          "en": "to come"
+                      },
+                      "examples": [
+                          {
+                              "t": "请<b>来</b>我家。",
+                              "n": "Приходи ко мне домой."
+                          },
+                          {
+                              "t": "他明天<b>来</b>。",
+                              "n": "Он придёт завтра."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "g",
+                      "word": "狗",
+                      "emoji": "🐶",
+                      "phonetic": "gǒu",
+                      "translation": "<b>狗</b> (gǒu) — собака",
+                      "translations": {
+                          "zh": "狗",
+                          "ru": "собака",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "我的<b>狗</b>很乖。",
+                              "n": "Моя собака очень послушная."
+                          },
+                          {
+                              "t": "<b>狗</b>是人类的朋友。",
+                              "n": "Собака — друг человека."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "k",
+                      "word": "开",
+                      "emoji": "🔓",
+                      "phonetic": "kāi",
+                      "translation": "<b>开</b> (kāi) — открывать",
+                      "translations": {
+                          "zh": "开",
+                          "ru": "открывать",
+                          "en": "to open"
+                      },
+                      "examples": [
+                          {
+                              "t": "请<b>开</b>门。",
+                              "n": "Открой дверь, пожалуйста."
+                          },
+                          {
+                              "t": "商店九点<b>开</b>门。",
+                              "n": "Магазин открывается в девять."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_11",
+                      "isLetter": false,
+                      "letter": "h",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "hǎo",
+                      "translation": "<b>好</b> (hǎo) — хорошо, хороший",
+                      "translations": {
+                          "zh": "好",
+                          "ru": "хорошо",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>好</b>。",
+                              "n": "Я в порядке."
+                          },
+                          {
+                              "t": "这是<b>好</b>书。",
+                              "n": "Это хорошая книга."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_12",
+                      "isLetter": false,
+                      "letter": "j",
+                      "word": "家",
+                      "emoji": "🏠",
+                      "phonetic": "jiā",
+                      "translation": "<b>家</b> (jiā) — дом, семья",
+                      "translations": {
+                          "zh": "家",
+                          "ru": "дом, семья",
+                          "en": "home/family"
+                      },
+                      "examples": [
+                          {
+                              "t": "我的<b>家</b>在北京。",
+                              "n": "Мой дом в Пекине."
+                          },
+                          {
+                              "t": "我爱我的<b>家</b>。",
+                              "n": "Я люблю свою семью."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g3",
+              "name": "Finales (vocales y nasales)",
+              "icon": "🔤",
+              "color": "#10b981",
+              "description": "a o e i u ü — simples, diptongos y nasales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "a",
+                      "word": "a",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Звук <b>а</b> — как русское «а» в слове «мама».",
+                      "mnemonic": "Круглый рот, как буква «а» в слове «арбуз».",
+                      "examples": [
+                          {
+                              "t": "<b>a</b> — основа многих слогов.<br>Например: <b>mā</b> (мама)",
+                              "n": "Произносится с ровным тоном."
+                          },
+                          {
+                              "t": "В сочетании: <b>ai</b> — как «ай» в «ай»",
+                              "n": "Дифтонг."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "o",
+                      "word": "o",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "Звук <b>о</b> — как русское «о» в слове «окно».",
+                      "mnemonic": "Круглый рот, как буква «о» в слове «облако».",
+                      "examples": [
+                          {
+                              "t": "<b>o</b> — в слоге <b>bo</b> (волна)",
+                              "n": "Пример: bō (волна)"
+                          },
+                          {
+                              "t": "В сочетании: <b>ou</b> — как «оу» в «оу!»",
+                              "n": "Дифтонг."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "e",
+                      "word": "e",
+                      "emoji": "🔤",
+                      "phonetic": "/ɤ/",
+                      "translation": "Звук <b>э</b> (но глубже) — как в английском «bird» без «r».",
+                      "mnemonic": "Нейтральный звук, как «э» в слове «это».",
+                      "examples": [
+                          {
+                              "t": "<b>e</b> — в слоге <b>de</b> (получить)",
+                              "n": "Пример: dé (получить)"
+                          },
+                          {
+                              "t": "В сочетании: <b>ei</b> — как «эй» в «эй!»",
+                              "n": "Дифтонг."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "i",
+                      "word": "i",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "Звук <b>и</b> — как русское «и» в слове «мир».",
+                      "mnemonic": "Улыбка, как буква «и» в слове «ирис».",
+                      "examples": [
+                          {
+                              "t": "<b>i</b> — в слоге <b>mǐ</b> (рис)",
+                              "n": "Пример: mǐ (рис)"
+                          },
+                          {
+                              "t": "В сочетании: <b>ia</b> — как «я» в слове «яблоко»",
+                              "n": "Дифтонг."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_u",
+                      "isLetter": true,
+                      "letter": "u",
+                      "word": "u",
+                      "emoji": "🔤",
+                      "phonetic": "/u/",
+                      "translation": "Звук <b>у</b> — как русское «у» в слове «ухо».",
+                      "mnemonic": "Вытяни губы трубочкой, как буква «у».",
+                      "examples": [
+                          {
+                              "t": "<b>u</b> — в слоге <b>mù</b> (дерево)",
+                              "n": "Пример: mù (дерево)"
+                          },
+                          {
+                              "t": "В сочетании: <b>uo</b> — как «уо» в «уо»",
+                              "n": "Дифтонг."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_u_umlaut",
+                      "isLetter": true,
+                      "letter": "ü",
+                      "word": "ü",
+                      "emoji": "🔤",
+                      "phonetic": "/y/",
+                      "translation": "Звук <b>ю</b> (французское «u») — как в немецком «über».",
+                      "mnemonic": "Сложи губы для «у», но скажи «и».",
+                      "examples": [
+                          {
+                              "t": "<b>ü</b> — в слоге <b>lǜ</b> (зелёный)",
+                              "n": "Пример: lǜ (зелёный)"
+                          },
+                          {
+                              "t": "После <b>j</b>, <b>q</b>, <b>x</b>, <b>y</b> пишется как <b>u</b>",
+                              "n": "Например: ju, qu, xu, yu"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ai",
+                      "isLetter": true,
+                      "letter": "ai",
+                      "word": "ai",
+                      "emoji": "🔤",
+                      "phonetic": "/ai̯/",
+                      "translation": "Дифтонг <b>ай</b> — как в русском «ай».",
+                      "mnemonic": "Скажи «а» и переходи к «и».",
+                      "examples": [
+                          {
+                              "t": "<b>ai</b> — в слове <b>māi</b> (покупать)",
+                              "n": "Пример: mǎi (покупать)"
+                          },
+                          {
+                              "t": "В сочетании: <b>hǎo</b> (хорошо) — но это <b>ao</b>, не ai",
+                              "n": "Обрати внимание на разницу."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ei",
+                      "isLetter": true,
+                      "letter": "ei",
+                      "word": "ei",
+                      "emoji": "🔤",
+                      "phonetic": "/ei̯/",
+                      "translation": "Дифтонг <b>эй</b> — как в английском «say».",
+                      "mnemonic": "Скажи «э» и переходи к «и».",
+                      "examples": [
+                          {
+                              "t": "<b>ei</b> — в слове <b>mèi</b> (младшая сестра)",
+                              "n": "Пример: mèi (сестра)"
+                          },
+                          {
+                              "t": "В сочетании: <b>fēi</b> (летать)",
+                              "n": "Пример: fēi (летать)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ao",
+                      "isLetter": true,
+                      "letter": "ao",
+                      "word": "ao",
+                      "emoji": "🔤",
+                      "phonetic": "/au̯/",
+                      "translation": "Дифтонг <b>ао</b> — как в русском «ау».",
+                      "mnemonic": "Скажи «а» и переходи к «о».",
+                      "examples": [
+                          {
+                              "t": "<b>ao</b> — в слове <b>māo</b> (кошка)",
+                              "n": "Пример: māo (кошка)"
+                          },
+                          {
+                              "t": "В сочетании: <b>hǎo</b> (хорошо)",
+                              "n": "Пример: hǎo (хорошо)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ou",
+                      "isLetter": true,
+                      "letter": "ou",
+                      "word": "ou",
+                      "emoji": "🔤",
+                      "phonetic": "/ou̯/",
+                      "translation": "Дифтонг <b>оу</b> — как в русском «оу».",
+                      "mnemonic": "Скажи «о» и переходи к «у».",
+                      "examples": [
+                          {
+                              "t": "<b>ou</b> — в слове <b>gǒu</b> (собака)",
+                              "n": "Пример: gǒu (собака)"
+                          },
+                          {
+                              "t": "В сочетании: <b>yǒu</b> (иметь)",
+                              "n": "Пример: yǒu (иметь)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ia",
+                      "isLetter": true,
+                      "letter": "ia",
+                      "word": "ia",
+                      "emoji": "🔤",
+                      "phonetic": "/i̯a/",
+                      "translation": "Дифтонг <b>я</b> — как в русском «я».",
+                      "mnemonic": "Скажи «и» и переходи к «а».",
+                      "examples": [
+                          {
+                              "t": "<b>ia</b> — в слове <b>jiā</b> (дом)",
+                              "n": "Пример: jiā (дом)"
+                          },
+                          {
+                              "t": "В сочетании: <b>xià</b> (лето)",
+                              "n": "Пример: xià (лето)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ie",
+                      "isLetter": true,
+                      "letter": "ie",
+                      "word": "ie",
+                      "emoji": "🔤",
+                      "phonetic": "/i̯ɛ/",
+                      "translation": "Дифтонг <b>ие</b> — как «йе» в слове «йена».",
+                      "mnemonic": "Скажи «и» и переходи к «э».",
+                      "examples": [
+                          {
+                              "t": "<b>ie</b> — в слове <b>xiè</b> (спасибо)",
+                              "n": "Пример: xiè (спасибо)"
+                          },
+                          {
+                              "t": "В сочетании: <b>bié</b> (не)",
+                              "n": "Пример: bié (не)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ua",
+                      "isLetter": true,
+                      "letter": "ua",
+                      "word": "ua",
+                      "emoji": "🔤",
+                      "phonetic": "/u̯a/",
+                      "translation": "Дифтонг <b>уа</b> — как в слове «уа» (звук младенца).",
+                      "mnemonic": "Скажи «у» и переходи к «а».",
+                      "examples": [
+                          {
+                              "t": "<b>ua</b> — в слове <b>huā</b> (цветок)",
+                              "n": "Пример: huā (цветок)"
+                          },
+                          {
+                              "t": "В сочетании: <b>guà</b> (вешать)",
+                              "n": "Пример: guà (вешать)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_uo",
+                      "isLetter": true,
+                      "letter": "uo",
+                      "word": "uo",
+                      "emoji": "🔤",
+                      "phonetic": "/u̯o/",
+                      "translation": "Дифтонг <b>уо</b> — как «уо» в слове «уо».",
+                      "mnemonic": "Скажи «у» и переходи к «о».",
+                      "examples": [
+                          {
+                              "t": "<b>uo</b> — в слове <b>guó</b> (страна)",
+                              "n": "Пример: guó (страна)"
+                          },
+                          {
+                              "t": "В сочетании: <b>shuō</b> (говорить)",
+                              "n": "Пример: shuō (говорить)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ue",
+                      "isLetter": true,
+                      "letter": "üe",
+                      "word": "üe",
+                      "emoji": "🔤",
+                      "phonetic": "/y̯ɛ/",
+                      "translation": "Дифтонг <b>юэ</b> — как «юэ» в слове «юэ».",
+                      "mnemonic": "Скажи «ü» и переходи к «э».",
+                      "examples": [
+                          {
+                              "t": "<b>üe</b> — в слове <b>xué</b> (учиться)",
+                              "n": "Пример: xué (учиться)"
+                          },
+                          {
+                              "t": "После <b>j</b>, <b>q</b>, <b>x</b>, <b>y</b> пишется как <b>ue</b>",
+                              "n": "Например: jue, que, xue"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_an",
+                      "isLetter": true,
+                      "letter": "an",
+                      "word": "an",
+                      "emoji": "🔤",
+                      "phonetic": "/an/",
+                      "translation": "Носовой <b>ань</b> — как в слове «банк».",
+                      "mnemonic": "Скажи «а» и добавь носовой звук «н».",
+                      "examples": [
+                          {
+                              "t": "<b>an</b> — в слове <b>nán</b> (юг)",
+                              "n": "Пример: nán (юг)"
+                          },
+                          {
+                              "t": "В сочетании: <b>fàn</b> (рис, еда)",
+                              "n": "Пример: fàn (еда)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_en",
+                      "isLetter": true,
+                      "letter": "en",
+                      "word": "en",
+                      "emoji": "🔤",
+                      "phonetic": "/ən/",
+                      "translation": "Носовой <b>энь</b> — как в слове «тень».",
+                      "mnemonic": "Скажи «э» и добавь носовой звук «н».",
+                      "examples": [
+                          {
+                              "t": "<b>en</b> — в слове <b>rén</b> (человек)",
+                              "n": "Пример: rén (человек)"
+                          },
+                          {
+                              "t": "В сочетании: <b>hěn</b> (очень)",
+                              "n": "Пример: hěn (очень)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_in",
+                      "isLetter": true,
+                      "letter": "in",
+                      "word": "in",
+                      "emoji": "🔤",
+                      "phonetic": "/in/",
+                      "translation": "Носовой <b>инь</b> — как в слове «кино».",
+                      "mnemonic": "Скажи «и» и добавь носовой звук «н».",
+                      "examples": [
+                          {
+                              "t": "<b>in</b> — в слове <b>jīn</b> (золото)",
+                              "n": "Пример: jīn (золото)"
+                          },
+                          {
+                              "t": "В сочетании: <b>xīn</b> (сердце)",
+                              "n": "Пример: xīn (сердце)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_un",
+                      "isLetter": true,
+                      "letter": "un",
+                      "word": "un",
+                      "emoji": "🔤",
+                      "phonetic": "/uən/",
+                      "translation": "Носовой <b>уэнь</b> — как в слове «уэнь».",
+                      "mnemonic": "Скажи «у» и добавь носовой звук «эн».",
+                      "examples": [
+                          {
+                              "t": "<b>un</b> — в слове <b>hūn</b> (жениться)",
+                              "n": "Пример: hūn (жениться)"
+                          },
+                          {
+                              "t": "В сочетании: <b>wēn</b> (тёплый)",
+                              "n": "Пример: wēn (тёплый)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ang",
+                      "isLetter": true,
+                      "letter": "ang",
+                      "word": "ang",
+                      "emoji": "🔤",
+                      "phonetic": "/ɑŋ/",
+                      "translation": "Носовой <b>ан</b> (заднеязычный) — как в слове «англ».",
+                      "mnemonic": "Скажи «а» и добавь носовой звук «нг» (как в английском «long»).",
+                      "examples": [
+                          {
+                              "t": "<b>ang</b> — в слове <b>máng</b> (занятой)",
+                              "n": "Пример: máng (занятой)"
+                          },
+                          {
+                              "t": "В сочетании: <b>fáng</b> (дом)",
+                              "n": "Пример: fáng (дом)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_eng",
+                      "isLetter": true,
+                      "letter": "eng",
+                      "word": "eng",
+                      "emoji": "🔤",
+                      "phonetic": "/ɤŋ/",
+                      "translation": "Носовой <b>эн</b> (заднеязычный) — как в слове «энг».",
+                      "mnemonic": "Скажи «э» и добавь носовой звук «нг».",
+                      "examples": [
+                          {
+                              "t": "<b>eng</b> — в слове <b>fēng</b> (ветер)",
+                              "n": "Пример: fēng (ветер)"
+                          },
+                          {
+                              "t": "В сочетании: <b>lěng</b> (холодный)",
+                              "n": "Пример: lěng (холодный)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ing",
+                      "isLetter": true,
+                      "letter": "ing",
+                      "word": "ing",
+                      "emoji": "🔤",
+                      "phonetic": "/iŋ/",
+                      "translation": "Носовой <b>ин</b> (заднеязычный) — как в слове «инг».",
+                      "mnemonic": "Скажи «и» и добавь носовой звук «нг».",
+                      "examples": [
+                          {
+                              "t": "<b>ing</b> — в слове <b>míng</b> (яркий)",
+                              "n": "Пример: míng (яркий)"
+                          },
+                          {
+                              "t": "В сочетании: <b>qǐng</b> (пожалуйста)",
+                              "n": "Пример: qǐng (пожалуйста)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ong",
+                      "isLetter": true,
+                      "letter": "ong",
+                      "word": "ong",
+                      "emoji": "🔤",
+                      "phonetic": "/ʊŋ/",
+                      "translation": "Носовой <b>ун</b> (заднеязычный) — как в слове «унг».",
+                      "mnemonic": "Скажи «у» и добавь носовой звук «нг».",
+                      "examples": [
+                          {
+                              "t": "<b>ong</b> — в слове <b>hóng</b> (красный)",
+                              "n": "Пример: hóng (красный)"
+                          },
+                          {
+                              "t": "В сочетании: <b>dōng</b> (восток)",
+                              "n": "Пример: dōng (восток)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_er",
+                      "isLetter": true,
+                      "letter": "er",
+                      "word": "er",
+                      "emoji": "🔤",
+                      "phonetic": "/ɚ/",
+                      "translation": "Особый <b>эр</b> — как русское «эр» с загнутым языком.",
+                      "mnemonic": "Загни язык назад, как для русского «р».",
+                      "examples": [
+                          {
+                              "t": "<b>er</b> — в слове <b>èr</b> (два)",
+                              "n": "Пример: èr (два)"
+                          },
+                          {
+                              "t": "В сочетании: <b>ěr</b> (ухо)",
+                              "n": "Пример: ěr (ухо)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "ao",
+                      "word": "māo",
+                      "emoji": "🐱",
+                      "phonetic": "/mau̯/",
+                      "translation": "<b>Кошка</b> — <i>māo</i>",
+                      "translations": {
+                          "zh": "猫",
+                          "ru": "кошка",
+                          "en": "cat"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu yī zhī <b>māo</b>.",
+                              "n": "У меня есть кошка."
+                          },
+                          {
+                              "t": "<b>Māo</b> hěn kě'ài.",
+                              "n": "Кошка очень милая."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "ou",
+                      "word": "gǒu",
+                      "emoji": "🐶",
+                      "phonetic": "/kou̯/",
+                      "translation": "<b>Собака</b> — <i>gǒu</i>",
+                      "translations": {
+                          "zh": "狗",
+                          "ru": "собака",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "Nà zhī <b>gǒu</b> hěn dà.",
+                              "n": "Та собака очень большая."
+                          },
+                          {
+                              "t": "Wǒ xǐhuān <b>gǒu</b>.",
+                              "n": "Я люблю собак."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "ia",
+                      "word": "jiā",
+                      "emoji": "🏠",
+                      "phonetic": "/tɕi̯a/",
+                      "translation": "<b>Дом</b> — <i>jiā</i>",
+                      "translations": {
+                          "zh": "家",
+                          "ru": "дом",
+                          "en": "home"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ de <b>jiā</b> hěn xiǎo.",
+                              "n": "Мой дом очень маленький."
+                          },
+                          {
+                              "t": "Huí <b>jiā</b> ba.",
+                              "n": "Пойдём домой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "an",
+                      "word": "nán",
+                      "emoji": "🧭",
+                      "phonetic": "/nan/",
+                      "translation": "<b>Юг</b> — <i>nán</i>",
+                      "translations": {
+                          "zh": "南",
+                          "ru": "юг",
+                          "en": "south"
+                      },
+                      "examples": [
+                          {
+                              "t": "Běijīng zài <b>nán</b> fāng.",
+                              "n": "Пекин на юге."
+                          },
+                          {
+                              "t": "Tā qù <b>nán</b> fāng.",
+                              "n": "Он едет на юг."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g4",
+              "name": "Primeras palabras en pinyin",
+              "icon": "🧩",
+              "color": "#ef4444",
+              "description": "Leer y pronunciar 20 palabras esenciales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2",
+                  "zh_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g4_L_ni_hao",
+                      "isLetter": true,
+                      "letter": "你好",
+                      "word": "你好",
+                      "emoji": "👋",
+                      "phonetic": "/ni˧˥ haʊ˨˩˦/",
+                      "translation": "Привет / Здравствуйте — <b>nǐ hǎo</b> буквально «ты + хорошо»",
+                      "mnemonic": "Представь, что ты говоришь «ни хао» и машешь рукой — как будто зовешь «ни» (тебя) и желаешь «хао» (хорошего).",
+                      "examples": [
+                          {
+                              "t": "<b>你好</b>，我叫安娜。 (Nǐ hǎo, wǒ jiào Anna.)",
+                              "n": "Привет, меня зовут Анна."
+                          },
+                          {
+                              "t": "<b>你好</b>吗？ (Nǐ hǎo ma?)",
+                              "n": "Как дела? (дословно: ты хорошо?)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_xiexie",
+                      "isLetter": true,
+                      "letter": "谢谢",
+                      "word": "谢谢",
+                      "emoji": "🙏",
+                      "phonetic": "/ɕjɛ˥˩ ɕjɛ˥˩/",
+                      "translation": "Спасибо — <b>xièxiè</b> (оба слога с падающим тоном)",
+                      "mnemonic": "Звучит как «сье-сье» — представь, что ты «сьешь» (ешь) благодарность.",
+                      "examples": [
+                          {
+                              "t": "<b>谢谢</b>你！ (Xièxiè nǐ!)",
+                              "n": "Спасибо тебе!"
+                          },
+                          {
+                              "t": "不用<b>谢</b>。 (Bú yòng xiè.)",
+                              "n": "Не за что."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_duibuqi",
+                      "isLetter": true,
+                      "letter": "对不起",
+                      "word": "对不起",
+                      "emoji": "😔",
+                      "phonetic": "/tu̯eɪ̯˥˩ pu˥˩ tɕʰi˨˩˦/",
+                      "translation": "Извините / простите — <b>duìbuqǐ</b> (три слога)",
+                      "mnemonic": "«Дуй бу чи» — как будто ты «дуешь» на ошибку и говоришь «бу» (не) «чи» (ешь) — извиняешься.",
+                      "examples": [
+                          {
+                              "t": "<b>对不起</b>，我迟到了。 (Duìbuqǐ, wǒ chídào le.)",
+                              "n": "Извините, я опоздал."
+                          },
+                          {
+                              "t": "<b>对不起</b>，请再说一遍。 (Duìbuqǐ, qǐng zài shuō yí biàn.)",
+                              "n": "Простите, повторите ещё раз."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_wo",
+                      "isLetter": true,
+                      "letter": "我",
+                      "word": "我",
+                      "emoji": "🙋",
+                      "phonetic": "/u̯ɔ˨˩˦/",
+                      "translation": "Я — <b>wǒ</b> (третий тон, падающий-восходящий)",
+                      "mnemonic": "Иероглиф похож на человека с рукой, указывающей на себя. Звучит как «во» — «во»т я.",
+                      "examples": [
+                          {
+                              "t": "<b>我</b>是学生。 (Wǒ shì xuéshēng.)",
+                              "n": "Я студент."
+                          },
+                          {
+                              "t": "<b>我</b>爱你。 (Wǒ ài nǐ.)",
+                              "n": "Я тебя люблю."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_ni",
+                      "isLetter": true,
+                      "letter": "你",
+                      "word": "你",
+                      "emoji": "👉",
+                      "phonetic": "/ni˧˥/",
+                      "translation": "Ты — <b>nǐ</b> (третий тон)",
+                      "mnemonic": "Слева человек (亻), справа «эр» — представь, что ты указываешь на человека: «ни» (ты).",
+                      "examples": [
+                          {
+                              "t": "<b>你</b>好。 (Nǐ hǎo.)",
+                              "n": "Привет (тебе хорошо)."
+                          },
+                          {
+                              "t": "<b>你</b>叫什么？ (Nǐ jiào shénme?)",
+                              "n": "Как тебя зовут?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_ta",
+                      "isLetter": true,
+                      "letter": "他/她",
+                      "word": "他/她",
+                      "emoji": "👤",
+                      "phonetic": "/tʰa˥/",
+                      "translation": "Он / она — <b>tā</b> (первый тон, одинаковое произношение)",
+                      "mnemonic": "Оба иероглифа содержат элемент «也» (тоже) — «он» с человеком, «она» с женщиной. Звук «та» — как «та» сторона.",
+                      "examples": [
+                          {
+                              "t": "<b>他</b>是老师。 (Tā shì lǎoshī.)",
+                              "n": "Он учитель."
+                          },
+                          {
+                              "t": "<b>她</b>是医生。 (Tā shì yīshēng.)",
+                              "n": "Она врач."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_women",
+                      "isLetter": true,
+                      "letter": "我们",
+                      "word": "我们",
+                      "emoji": "👥",
+                      "phonetic": "/u̯ɔ˨˩˦ mən˧˥/",
+                      "translation": "Мы — <b>wǒmen</b> (я + множественное число)",
+                      "mnemonic": "«我» (я) + «们» (суффикс множественного числа). «Мэн» — как «мен» в «мен»я много.",
+                      "examples": [
+                          {
+                              "t": "<b>我们</b>是朋友。 (Wǒmen shì péngyǒu.)",
+                              "n": "Мы друзья."
+                          },
+                          {
+                              "t": "<b>我们</b>走吧。 (Wǒmen zǒu ba.)",
+                              "n": "Пойдём."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_shi",
+                      "isLetter": true,
+                      "letter": "是",
+                      "word": "是",
+                      "emoji": "✅",
+                      "phonetic": "/ʂɻ̩˥˩/",
+                      "translation": "Быть, являться — <b>shì</b> (четвёртый тон)",
+                      "mnemonic": "Иероглиф похож на солнце (日) и правильный знак (正) — «это есть так».",
+                      "examples": [
+                          {
+                              "t": "我<b>是</b>学生。 (Wǒ shì xuéshēng.)",
+                              "n": "Я студент."
+                          },
+                          {
+                              "t": "这<b>是</b>书。 (Zhè shì shū.)",
+                              "n": "Это книга."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_bushi",
+                      "isLetter": true,
+                      "letter": "不是",
+                      "word": "不是",
+                      "emoji": "❌",
+                      "phonetic": "/pu˥˩ ʂɻ̩˥˩/",
+                      "translation": "Не быть, не являться — <b>bù shì</b> (отрицание + быть)",
+                      "mnemonic": "«不» (не) + «是» (быть) — «бу ши» — как «бу»ква «не».",
+                      "examples": [
+                          {
+                              "t": "我<b>不是</b>老师。 (Wǒ bú shì lǎoshī.)",
+                              "n": "Я не учитель."
+                          },
+                          {
+                              "t": "这<b>不是</b>我的书。 (Zhè bú shì wǒ de shū.)",
+                              "n": "Это не моя книга."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_you",
+                      "isLetter": true,
+                      "letter": "有",
+                      "word": "有",
+                      "emoji": "✋",
+                      "phonetic": "/i̯oʊ̯˨˩˦/",
+                      "translation": "Иметь — <b>yǒu</b> (третий тон)",
+                      "mnemonic": "Иероглиф похож на руку, держащую луну (月) — «иметь» в руке.",
+                      "examples": [
+                          {
+                              "t": "我<b>有</b>一个弟弟。 (Wǒ yǒu yí gè dìdi.)",
+                              "n": "У меня есть младший брат."
+                          },
+                          {
+                              "t": "你<b>有</b>钱吗？ (Nǐ yǒu qián ma?)",
+                              "n": "У тебя есть деньги?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_meiyou",
+                      "isLetter": true,
+                      "letter": "没有",
+                      "word": "没有",
+                      "emoji": "🙅",
+                      "phonetic": "/meɪ̯˧˥ i̯oʊ̯˨˩˦/",
+                      "translation": "Не иметь — <b>méiyǒu</b> (отрицание + иметь)",
+                      "mnemonic": "«没» (не) + «有» (иметь) — «мэй ю» — как «мей» (нет) + «ю» (иметь).",
+                      "examples": [
+                          {
+                              "t": "我<b>没有</b>车。 (Wǒ méiyǒu chē.)",
+                              "n": "У меня нет машины."
+                          },
+                          {
+                              "t": "他<b>没有</b>时间。 (Tā méiyǒu shíjiān.)",
+                              "n": "У него нет времени."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_hao",
+                      "isLetter": true,
+                      "letter": "好",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "/xaʊ̯˨˩˦/",
+                      "translation": "Хороший, хорошо — <b>hǎo</b> (третий тон)",
+                      "mnemonic": "Слева женщина (女), справа ребёнок (子) — женщина с ребёнком — это хорошо.",
+                      "examples": [
+                          {
+                              "t": "很<b>好</b>！ (Hěn hǎo!)",
+                              "n": "Очень хорошо!"
+                          },
+                          {
+                              "t": "天気很<b>好</b>。 (Tiānqì hěn hǎo.)",
+                              "n": "Погода хорошая."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_buhao",
+                      "isLetter": true,
+                      "letter": "不好",
+                      "word": "不好",
+                      "emoji": "👎",
+                      "phonetic": "/pu˥˩ xaʊ̯˨˩˦/",
+                      "translation": "Плохой, нехороший — <b>bù hǎo</b> (не + хорошо)",
+                      "mnemonic": "«不» (не) + «好» (хорошо) — «бу хао» — как «бу»ква «не» + «хао».",
+                      "examples": [
+                          {
+                              "t": "这<b>不好</b>。 (Zhè bù hǎo.)",
+                              "n": "Это плохо."
+                          },
+                          {
+                              "t": "我心情<b>不好</b>。 (Wǒ xīnqíng bù hǎo.)",
+                              "n": "У меня плохое настроение."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_da",
+                      "isLetter": true,
+                      "letter": "大",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "/ta˥˩/",
+                      "translation": "Большой — <b>dà</b> (четвёртый тон)",
+                      "mnemonic": "Иероглиф похож на человека с раскинутыми руками — «большой».",
+                      "examples": [
+                          {
+                              "t": "很<b>大</b>的苹果。 (Hěn dà de píngguǒ.)",
+                              "n": "Большое яблоко."
+                          },
+                          {
+                              "t": "这个房子很<b>大</b>。 (Zhège fángzi hěn dà.)",
+                              "n": "Этот дом большой."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_xiao",
+                      "isLetter": true,
+                      "letter": "小",
+                      "word": "小",
+                      "emoji": "🐭",
+                      "phonetic": "/ɕjaʊ̯˨˩˦/",
+                      "translation": "Маленький — <b>xiǎo</b> (третий тон)",
+                      "mnemonic": "Иероглиф похож на человека с опущенными руками — «маленький».",
+                      "examples": [
+                          {
+                              "t": "一只<b>小</b>猫。 (Yì zhī xiǎo māo.)",
+                              "n": "Маленькая кошка."
+                          },
+                          {
+                              "t": "这个杯子很<b>小</b>。 (Zhège bēizi hěn xiǎo.)",
+                              "n": "Эта чашка маленькая."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_lai",
+                      "isLetter": true,
+                      "letter": "来",
+                      "word": "来",
+                      "emoji": "🚶",
+                      "phonetic": "/laɪ̯˧˥/",
+                      "translation": "Приходить — <b>lái</b> (второй тон)",
+                      "mnemonic": "Иероглиф похож на дерево (木) с дополнительной чертой — как будто кто-то приходит к дереву.",
+                      "examples": [
+                          {
+                              "t": "请<b>来</b>这里。 (Qǐng lái zhèlǐ.)",
+                              "n": "Идите сюда."
+                          },
+                          {
+                              "t": "他明天<b>来</b>。 (Tā míngtiān lái.)",
+                              "n": "Он придёт завтра."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_qu",
+                      "isLetter": true,
+                      "letter": "去",
+                      "word": "去",
+                      "emoji": "🏃",
+                      "phonetic": "/tɕʰy˥˩/",
+                      "translation": "Идти, уходить — <b>qù</b> (четвёртый тон)",
+                      "mnemonic": "Иероглиф похож на человека, уходящего вдаль (верхняя часть — человек, нижняя — рот, как будто говорит «ухожу»).",
+                      "examples": [
+                          {
+                              "t": "我<b>去</b>学校。 (Wǒ qù xuéxiào.)",
+                              "n": "Я иду в школу."
+                          },
+                          {
+                              "t": "我们<b>去</b>公园吧。 (Wǒmen qù gōngyuán ba.)",
+                              "n": "Давай пойдём в парк."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_chi",
+                      "isLetter": true,
+                      "letter": "吃",
+                      "word": "吃",
+                      "emoji": "🍽️",
+                      "phonetic": "/ʈʂʰɻ̩˥/",
+                      "translation": "Есть, кушать — <b>chī</b> (первый тон)",
+                      "mnemonic": "Слева рот (口), справа «契» — представь, что рот ест что-то.",
+                      "examples": [
+                          {
+                              "t": "我<b>吃</b>米饭。 (Wǒ chī mǐfàn.)",
+                              "n": "Я ем рис."
+                          },
+                          {
+                              "t": "你想<b>吃</b>什么？ (Nǐ xiǎng chī shénme?)",
+                              "n": "Что ты хочешь съесть?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_he",
+                      "isLetter": true,
+                      "letter": "喝",
+                      "word": "喝",
+                      "emoji": "🥤",
+                      "phonetic": "/xɤ˥/",
+                      "translation": "Пить — <b>hē</b> (первый тон)",
+                      "mnemonic": "Слева рот (口), справа «曷» — как будто рот пьёт из чашки.",
+                      "examples": [
+                          {
+                              "t": "我<b>喝</b>水。 (Wǒ hē shuǐ.)",
+                              "n": "Я пью воду."
+                          },
+                          {
+                              "t": "你<b>喝</b>茶吗？ (Nǐ hē chá ma?)",
+                              "n": "Ты пьёшь чай?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_shuo",
+                      "isLetter": true,
+                      "letter": "说",
+                      "word": "说",
+                      "emoji": "💬",
+                      "phonetic": "/ʂu̯ɔ˥/",
+                      "translation": "Говорить — <b>shuō</b> (первый тон)",
+                      "mnemonic": "Слева слова (言), справа «兑» — как будто слова обмениваются.",
+                      "examples": [
+                          {
+                              "t": "我<b>说</b>中文。 (Wǒ shuō Zhōngwén.)",
+                              "n": "Я говорю по-китайски."
+                          },
+                          {
+                              "t": "请<b>说</b>慢一点。 (Qǐng shuō màn yìdiǎn.)",
+                              "n": "Говорите медленнее."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // ZH_DE
+  // ──────────────────────────────────────────────────────
+  zh_de: {
+      "level": "A0",
+      "levelName": "Pinyin y tonos del chino mandarín",
+      "groups": [
+          {
+              "id": "zh_a0_g1",
+              "name": "Los 4 tonos",
+              "icon": "🎵",
+              "color": "#6366f1",
+              "description": "El tono cambia completamente el significado",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "zh_a0_g1_L_a1",
+                      "isLetter": true,
+                      "letter": "ā",
+                      "word": "ā",
+                      "emoji": "📈",
+                      "phonetic": "/aː˥/",
+                      "translation": "1. Ton – <b>hoch und flach</b> wie eine <i>gleichmäßige Sirene</i>",
+                      "mnemonic": "Stell dir einen Mönch vor, der auf einem Berg meditiert und ein langes, hohes 'aaah' von sich gibt – die Stimme bleibt auf einer Höhe.",
+                      "examples": [
+                          {
+                              "t": "<b>mā</b> = Mutter – der Ton ist ruhig und warm, wie eine Mutter, die ihr Kind beruhigt.",
+                              "n": "Die hohe, flache Stimme wirkt sanft und stabil."
+                          },
+                          {
+                              "t": "<b>bā</b> = acht – wie die flache Linie einer Torte, die in 8 Stücke geschnitten wird.",
+                              "n": "8 Stücke, alle gleich hoch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a2",
+                      "isLetter": true,
+                      "letter": "á",
+                      "word": "á",
+                      "emoji": "❓",
+                      "phonetic": "/aː˧˥/",
+                      "translation": "2. Ton – <b>steigend</b> wie eine <i>überraschte Frage</i> „Wie bitte?“",
+                      "mnemonic": "Stell dir vor, du verstehst etwas nicht und fragst auf Deutsch: „Wie?“ – die Stimme geht nach oben.",
+                      "examples": [
+                          {
+                              "t": "<b>má</b> = Hanf – die steigende Stimme klingt wie ein neugieriges Nachfragen.",
+                              "n": "Hanf? Was ist das?"
+                          },
+                          {
+                              "t": "<b>lái</b> = kommen – die Stimme steigt, als würdest du jemanden zu dir rufen.",
+                              "n": "Komm her! – mit steigender Intonation."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a3",
+                      "isLetter": true,
+                      "letter": "ǎ",
+                      "word": "ǎ",
+                      "emoji": "🎢",
+                      "phonetic": "/aː˨˩˧/",
+                      "translation": "3. Ton – <b>tief, dann steigend</b> wie ein <i>nachdenkliches „Hmm?“</i>",
+                      "mnemonic": "Stell dir vor, du überlegst: „Hmm, ist das wirklich so?“ – die Stimme geht erst runter, dann wieder hoch.",
+                      "examples": [
+                          {
+                              "t": "<b>nǐ</b> = du – die Stimme taucht kurz unter und kommt wieder hoch, wie ein U-Boot.",
+                              "n": "Du? Hmm, ich überlege."
+                          },
+                          {
+                              "t": "<b>hǎo</b> = gut – das tiefe Tauchen und Wiederauftauchen klingt wie ein zufriedenes Nicken.",
+                              "n": "Gut! – mit einem tiefen, dann steigenden Klang."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a4",
+                      "isLetter": true,
+                      "letter": "à",
+                      "word": "à",
+                      "emoji": "📉",
+                      "phonetic": "/aː˥˩/",
+                      "translation": "4. Ton – <b>scharf fallend</b> wie ein <i>energisches „Nein!“</i>",
+                      "mnemonic": "Stell dir vor, jemand ruft dir streng zu: „Nein!“ – die Stimme fällt abrupt nach unten.",
+                      "examples": [
+                          {
+                              "t": "<b>mà</b> = schimpfen – die fallende Stimme klingt wie ein wütender Befehl.",
+                              "n": "Schimpfen – kurz und scharf."
+                          },
+                          {
+                              "t": "<b>bù</b> = nein – ein klares, fallendes „Nein“ wie ein Stempel auf Papier.",
+                              "n": "Nein – endgültig und bestimmt."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_a0",
+                      "isLetter": true,
+                      "letter": "ma",
+                      "word": "ma",
+                      "emoji": "🎈",
+                      "phonetic": "/ma/ (leicht, unbetont)",
+                      "translation": "Neutraler Ton – <b>leicht und unbetont</b>, wie ein <i>kleines Federgewicht</i>",
+                      "mnemonic": "Stell dir eine Feder vor, die langsam zu Boden schwebt – leicht, ohne Anstrengung, fast unhörbar.",
+                      "examples": [
+                          {
+                              "t": "<b>ma</b> am Satzende = Fragepartikel – „Nǐ hǎo ma?“ = „Geht es dir gut?“",
+                              "n": "Der neutrale Ton macht aus einer Aussage eine Frage."
+                          },
+                          {
+                              "t": "Andere neutrale Partikeln: <b>ne</b>, <b>le</b>, <b>ba</b>, <b>de</b> – sie sind immer leicht und kurz.",
+                              "n": "Sie hängen sich an das vorherige Wort an."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_3rdrule",
+                      "isLetter": true,
+                      "letter": "nǐ hǎo",
+                      "word": "nǐ hǎo",
+                      "emoji": "🤝",
+                      "phonetic": "/ni˨˩˧ haʊ˨˩˧/ → /ni˧˥ haʊ˨˩˧/",
+                      "translation": "Wichtige Regel: <b>3. Ton + 3. Ton → 2. Ton + 3. Ton</b><br><i>nǐ hǎo</i> wird zu <i>ní hǎo</i> gesprochen",
+                      "mnemonic": "Wenn zwei tiefe Stimmen aufeinandertreffen, wird die erste zum Aufsteiger – wie bei einem Staffellauf, wo der erste Läufer dem zweiten den Stab übergibt.",
+                      "examples": [
+                          {
+                              "t": "<b>nǐ hǎo</b> – geschrieben „nǐ hǎo“, gesprochen „ní hǎo“ – die erste Silbe steigt, weil die zweite tief ist.",
+                              "n": "Die Schrift bleibt gleich, nur die Aussprache ändert sich."
+                          },
+                          {
+                              "t": "Weitere Beispiele: <b>nǐ</b> (du) + <b>hǎo</b> (gut) = „Hallo“ – aber gesprochen mit steigendem „ni“.",
+                              "n": "Diese Regel gilt für alle Kombinationen aus zwei 3. Tönen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_L_burule",
+                      "isLetter": true,
+                      "letter": "bù",
+                      "word": "bù",
+                      "emoji": "🚫",
+                      "phonetic": "/pu˥˩/ → /pu˧˥/ vor 4. Ton",
+                      "translation": "Wichtige Regel: <b>bù</b> (nicht) – 4. Ton, aber <b>vor einem 4. Ton wird es zum 2. Ton</b>",
+                      "mnemonic": "Das „Nein“ wird freundlicher, wenn es vor einem anderen „Nein“ steht – es will nicht doppelt hart klingen.",
+                      "examples": [
+                          {
+                              "t": "<b>bù</b> shì = „nicht sein“ – hier bleibt der 4. Ton.",
+                              "n": "bù (4.) + shì (4.) → bù shì"
+                          },
+                          {
+                              "t": "<b>bù</b> duì = „nicht richtig“ – hier wird bù zu „bú“ (2. Ton).",
+                              "n": "bù (4.) + duì (4.) → bú duì"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "mā",
+                      "word": "妈妈",
+                      "emoji": "👩",
+                      "phonetic": "/mā mā/",
+                      "translation": "<b>Mutter</b> (māma)",
+                      "translations": {
+                          "zh": "妈妈",
                           "de": "Mutter",
                           "en": "mother"
                       },
                       "examples": [
                           {
-                              "t": "<b>어머니</b>가 요리해요.",
-                              "n": "Die Mutter kocht."
+                              "t": "<b>妈妈</b> 很忙。 (Māma hěn máng.)",
+                              "n": "Mutter ist sehr beschäftigt."
                           },
                           {
-                              "t": "제 <b>어머니</b>는 의사예요.",
-                              "n": "Meine Mutter ist Ärztin."
+                              "t": "我 爱 <b>妈妈</b>。 (Wǒ ài māma.)",
+                              "n": "Ich liebe Mama."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_04",
+                      "id": "zh_a0_g1_02",
                       "isLetter": false,
-                      "letter": "ㅓ",
-                      "word": "어디",
-                      "emoji": "📍",
-                      "phonetic": "/eodi/",
-                      "translation": "wo",
+                      "letter": "mǎ",
+                      "word": "马",
+                      "emoji": "🐴",
+                      "phonetic": "/mǎ/",
+                      "translation": "<b>Pferd</b> (mǎ)",
                       "translations": {
-                          "ko": "어디",
-                          "de": "wo",
-                          "en": "where"
+                          "zh": "马",
+                          "de": "Pferd",
+                          "en": "horse"
                       },
                       "examples": [
                           {
-                              "t": "<b>어디</b>에 가요?",
-                              "n": "Wohin gehst du?"
+                              "t": "这 是 一 匹 <b>马</b>。 (Zhè shì yī pǐ mǎ.)",
+                              "n": "Das ist ein Pferd."
                           },
                           {
-                              "t": "화장실이 <b>어디</b>예요?",
-                              "n": "Wo ist die Toilette?"
+                              "t": "<b>马</b> 很 快。 (Mǎ hěn kuài.)",
+                              "n": "Das Pferd ist schnell."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_05",
+                      "id": "zh_a0_g1_03",
                       "isLetter": false,
-                      "letter": "ㅗ",
-                      "word": "오다",
-                      "emoji": "🚶",
-                      "phonetic": "/oda/",
-                      "translation": "kommen",
+                      "letter": "mà",
+                      "word": "骂",
+                      "emoji": "😠",
+                      "phonetic": "/mà/",
+                      "translation": "<b>schimpfen</b> (mà)",
                       "translations": {
-                          "ko": "오다",
-                          "de": "kommen",
-                          "en": "to come"
+                          "zh": "骂",
+                          "de": "schimpfen",
+                          "en": "to scold"
                       },
                       "examples": [
                           {
-                              "t": "친구가 <b>와요</b>.",
-                              "n": "Der Freund kommt."
+                              "t": "别 <b>骂</b> 我。 (Bié mà wǒ.)",
+                              "n": "Schimpf nicht mit mir."
                           },
                           {
-                              "t": "내일 <b>오세요</b>.",
-                              "n": "Kommen Sie morgen."
+                              "t": "他 在 <b>骂</b> 人。 (Tā zài mà rén.)",
+                              "n": "Er schimpft gerade mit jemandem."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_06",
+                      "id": "zh_a0_g1_04",
                       "isLetter": false,
-                      "letter": "ㅗ",
-                      "word": "소",
-                      "emoji": "🐄",
-                      "phonetic": "/so/",
-                      "translation": "Kuh",
+                      "letter": "nǐ",
+                      "word": "你",
+                      "emoji": "👉",
+                      "phonetic": "/nǐ/",
+                      "translation": "<b>du</b> (nǐ)",
                       "translations": {
-                          "ko": "소",
-                          "de": "Kuh",
-                          "en": "cow"
+                          "zh": "你",
+                          "de": "du",
+                          "en": "you"
                       },
                       "examples": [
                           {
-                              "t": "<b>소</b>가 풀을 먹어요.",
-                              "n": "Die Kuh frisst Gras."
+                              "t": "<b>你</b> 好。 (Nǐ hǎo.)",
+                              "n": "Hallo. (wörtl.: du gut)"
                           },
                           {
-                              "t": "이 <b>소</b>는 커요.",
-                              "n": "Diese Kuh ist groß."
+                              "t": "<b>你</b> 是 谁？ (Nǐ shì shéi?)",
+                              "n": "Wer bist du?"
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_07",
+                      "id": "zh_a0_g1_05",
                       "isLetter": false,
-                      "letter": "ㅜ",
-                      "word": "우리",
-                      "emoji": "👥",
-                      "phonetic": "/uri/",
-                      "translation": "wir/unser",
+                      "letter": "hǎo",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "/hǎo/",
+                      "translation": "<b>gut</b> (hǎo)",
                       "translations": {
-                          "ko": "우리",
-                          "de": "wir/unser",
-                          "en": "we/our"
+                          "zh": "好",
+                          "de": "gut",
+                          "en": "good"
                       },
                       "examples": [
                           {
-                              "t": "<b>우리</b>는 가족이에요.",
-                              "n": "Wir sind eine Familie."
+                              "t": "很 <b>好</b>。 (Hěn hǎo.)",
+                              "n": "Sehr gut."
                           },
                           {
-                              "t": "<b>우리</b> 집에 오세요.",
-                              "n": "Komm zu unserem Haus."
+                              "t": "<b>好</b> 吗？ (Hǎo ma?)",
+                              "n": "Ist es gut? / Geht es?"
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g1_08",
+                      "id": "zh_a0_g1_06",
                       "isLetter": false,
-                      "letter": "ㅜ",
-                      "word": "물",
-                      "emoji": "💧",
-                      "phonetic": "/mul/",
-                      "translation": "Wasser",
-                      "translations": {
-                          "ko": "물",
-                          "de": "Wasser",
-                          "en": "water"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>물</b>을 마셔요.",
-                              "n": "Ich trinke Wasser."
-                          },
-                          {
-                              "t": "<b>물</b>이 차가워요.",
-                              "n": "Das Wasser ist kalt."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g1_09",
-                      "isLetter": false,
-                      "letter": "ㅡ",
-                      "word": "음식",
-                      "emoji": "🍚",
-                      "phonetic": "/eumsik/",
-                      "translation": "Essen",
-                      "translations": {
-                          "ko": "음식",
-                          "de": "Essen",
-                          "en": "food"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>음식</b>이 맛있어요.",
-                              "n": "Das Essen ist lecker."
-                          },
-                          {
-                              "t": "한국 <b>음식</b>을 좋아해요.",
-                              "n": "Ich mag koreanisches Essen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g1_10",
-                      "isLetter": false,
-                      "letter": "ㅣ",
-                      "word": "이름",
-                      "emoji": "🏷️",
-                      "phonetic": "/ireum/",
-                      "translation": "Name",
-                      "translations": {
-                          "ko": "이름",
-                          "de": "Name",
-                          "en": "name"
-                      },
-                      "examples": [
-                          {
-                              "t": "제 <b>이름</b>은 민수예요.",
-                              "n": "Mein Name ist Minsu."
-                          },
-                          {
-                              "t": "<b>이름</b>이 뭐예요?",
-                              "n": "Wie heißt du?"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g1_11",
-                      "isLetter": false,
-                      "letter": "ㅣ",
-                      "word": "시",
-                      "emoji": "🏙️",
-                      "phonetic": "/si/",
-                      "translation": "Stadt / Stunde",
-                      "translations": {
-                          "ko": "시",
-                          "de": "Stadt / Stunde",
-                          "en": "city / hour"
-                      },
-                      "examples": [
-                          {
-                              "t": "지금 몇 <b>시</b>예요?",
-                              "n": "Wie spät ist es jetzt?"
-                          },
-                          {
-                              "t": "서울은 큰 <b>시</b>예요.",
-                              "n": "Seoul ist eine große Stadt."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g1_12",
-                      "isLetter": false,
-                      "letter": "ㅐ",
-                      "word": "개",
-                      "emoji": "🐶",
-                      "phonetic": "/gae/",
-                      "translation": "Hund",
-                      "translations": {
-                          "ko": "개",
-                          "de": "Hund",
-                          "en": "dog"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>개</b>가 짖어요.",
-                              "n": "Der Hund bellt."
-                          },
-                          {
-                              "t": "우리 <b>개</b>는 귀여워요.",
-                              "n": "Unser Hund ist süß."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g1_13",
-                      "isLetter": false,
-                      "letter": "ㅔ",
-                      "word": "네",
-                      "emoji": "✅",
-                      "phonetic": "/ne/",
-                      "translation": "ja / vier",
-                      "translations": {
-                          "ko": "네",
-                          "de": "ja / vier",
-                          "en": "yes / four"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>네</b>, 맞아요.",
-                              "n": "Ja, richtig."
-                          },
-                          {
-                              "t": "사과 <b>네</b> 개 주세요.",
-                              "n": "Bitte vier Äpfel."
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "id": "ko_a0_g2",
-              "name": "Consonantes básicas",
-              "icon": "🔡",
-              "color": "#f59e0b",
-              "description": "ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅎ",
-              "reviewFrom": [
-                  "ko_a0_g1"
-              ],
-              "cards": [
-                  {
-                      "id": "ko_a0_g2_L_g",
-                      "isLetter": true,
-                      "letter": "ㄱ",
-                      "word": "ㄱ",
-                      "emoji": "🔤",
-                      "phonetic": "/g~k/",
-                      "translation": "Konsonant <b>ㄱ</b> – wie ein weiches <i>G</i> am Wortanfang, eher wie <i>K</i> am Wortende.",
-                      "mnemonic": "Sieht aus wie eine Pistole, die nach links zeigt – der Schuss klingt „k/g“.",
-                      "examples": [
-                          {
-                              "t": "Am Wortanfang: <b>가</b> (ga) – „gehen“",
-                              "n": "Anlaut: weiches G"
-                          },
-                          {
-                              "t": "Am Wortende: <b>국</b> (guk) – „Suppe“",
-                              "n": "Auslaut: eher K"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_L_n",
-                      "isLetter": true,
-                      "letter": "ㄴ",
-                      "word": "ㄴ",
-                      "emoji": "🔤",
-                      "phonetic": "/n/",
-                      "translation": "Konsonant <b>ㄴ</b> – wie das deutsche <i>N</i>.",
-                      "mnemonic": "Die Form erinnert an eine Nase im Profil – und „Nase“ beginnt mit N.",
-                      "examples": [
-                          {
-                              "t": "<b>나</b> (na) – „ich“",
-                              "n": "Siehst du die Nase?"
-                          },
-                          {
-                              "t": "<b>눈</b> (nun) – „Auge/Schnee“",
-                              "n": "Auch hier: N wie Nase."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_L_d",
-                      "isLetter": true,
-                      "letter": "ㄷ",
-                      "word": "ㄷ",
-                      "emoji": "🔤",
-                      "phonetic": "/d~t/",
-                      "translation": "Konsonant <b>ㄷ</b> – wie ein weiches <i>D</i> am Anfang, eher wie <i>T</i> am Ende.",
-                      "mnemonic": "Sieht aus wie ein Dach über einem Zimmer – das Zimmer ist <span class='hl'>da</span> (da = dort).",
-                      "examples": [
-                          {
-                              "t": "<b>도</b> (do) – „auch“",
-                              "n": "Anlaut: D"
-                          },
-                          {
-                              "t": "<b>다</b> (da) – „alle“",
-                              "n": "Dach-Merkhilfe: das Dach steht über dem a."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_L_r",
-                      "isLetter": true,
-                      "letter": "ㄹ",
-                      "word": "ㄹ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɾ~l/",
-                      "translation": "Konsonant <b>ㄹ</b> – ein Zungen-Schlag zwischen <i>R</i> und <i>L</i> (wie spanisches „r“ kurz).",
-                      "mnemonic": "Sieht aus wie ein springender Pfeil – die Zunge „springt“ beim Aussprechen an den Zahndamm.",
-                      "examples": [
-                          {
-                              "t": "<b>라디오</b> (radio) – „Radio“",
-                              "n": "Lehnwort aus dem Englischen, hör das R."
-                          },
-                          {
-                              "t": "<b>물</b> (mul) – „Wasser“",
-                              "n": "Am Ende klingt es wie ein leichtes L."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_L_m",
-                      "isLetter": true,
-                      "letter": "ㅁ",
-                      "word": "ㅁ",
-                      "emoji": "🔤",
-                      "phonetic": "/m/",
-                      "translation": "Konsonant <b>ㅁ</b> – wie das deutsche <i>M</i>.",
-                      "mnemonic": "Sieht aus wie ein geschlossener Mund – und beim M sind die Lippen geschlossen.",
-                      "examples": [
-                          {
-                              "t": "<b>마</b> (ma) – altertümliches „ja“",
-                              "n": "Mund zu!"
-                          },
-                          {
-                              "t": "<b>마음</b> (ma-eum) – „Herz/Gefühl“",
-                              "n": "M wie Mund."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_L_b",
-                      "isLetter": true,
-                      "letter": "ㅂ",
-                      "word": "ㅂ",
-                      "emoji": "🔤",
-                      "phonetic": "/b~p/",
-                      "translation": "Konsonant <b>ㅂ</b> – wie ein weiches <i>B</i> am Anfang, eher wie <i>P</i> am Ende.",
-                      "mnemonic": "Sieht aus wie ein Becher – und <span class='hl'>Becher</span> beginnt mit B.",
-                      "examples": [
-                          {
-                              "t": "<b>바</b> (ba) – „Bar“",
-                              "n": "Anlaut: B"
-                          },
-                          {
-                              "t": "<b>밥</b> (bap) – „Reis/Essen“",
-                              "n": "Auslaut: P"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_L_s",
-                      "isLetter": true,
-                      "letter": "ㅅ",
-                      "word": "ㅅ",
-                      "emoji": "🔤",
-                      "phonetic": "/s~ɕ/",
-                      "translation": "Konsonant <b>ㅅ</b> – wie ein scharfes <i>S</i>, vor <i>i</i> wie ein weiches <i>Sch</i>.",
-                      "mnemonic": "Sieht aus wie eine Bergspitze – und „Spitze“ hat ein S.",
-                      "examples": [
-                          {
-                              "t": "<b>사람</b> (sa-ram) – „Person“",
-                              "n": "S wie Sonne."
-                          },
-                          {
-                              "t": "Vor <i>i</i>: <b>시</b> (si) – klingt wie „schi“",
-                              "n": "Achtung: weiches Sch."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_L_ng",
-                      "isLetter": true,
-                      "letter": "ㅇ",
-                      "word": "ㅇ",
-                      "emoji": "🔤",
-                      "phonetic": "/∅/ (am Anfang), /ŋ/ (am Ende)",
-                      "translation": "Konsonant <b>ㅇ</b> – am Silbenanfang <i>stumm</i>, am Ende wie <i>ng</i> in „singen“.",
-                      "mnemonic": "Sieht aus wie ein Kreis – ein Kreis hat keinen Klang, also stumm am Anfang.",
-                      "examples": [
-                          {
-                              "t": "Am Anfang stumm: <b>아</b> (a) – „oh!“",
-                              "n": "Nur der Vokal wird gesprochen."
-                          },
-                          {
-                              "t": "Am Ende: <b>영어</b> (yeong-eo) – „Englisch“",
-                              "n": "Das ㅇ am Ende klingt wie ng."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_L_j",
-                      "isLetter": true,
-                      "letter": "ㅈ",
-                      "word": "ㅈ",
-                      "emoji": "🔤",
-                      "phonetic": "/dʑ~tɕ/",
-                      "translation": "Konsonant <b>ㅈ</b> – wie ein weiches <i>Dsch</i> in „Dschungel“, am Ende eher wie <i>tsch</i>.",
-                      "mnemonic": "Sieht aus wie ein Hut – und <span class='hl'>Hut</span> klingt ähnlich wie „dsch“? Nein, aber der Hut sitzt auf dem Kopf wie das J.",
-                      "examples": [
-                          {
-                              "t": "<b>자</b> (ja) – „Buchstabe“ oder „schlafen“",
-                              "n": "Anlaut: Dsch"
-                          },
-                          {
-                              "t": "<b>주다</b> (ju-da) – „geben“",
-                              "n": "Dsch wie in Dschungel."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_L_h",
-                      "isLetter": true,
-                      "letter": "ㅎ",
-                      "word": "ㅎ",
-                      "emoji": "🔤",
-                      "phonetic": "/h/",
-                      "translation": "Konsonant <b>ㅎ</b> – wie das deutsche <i>H</i>.",
-                      "mnemonic": "Sieht aus wie ein Hut mit einer Linie – und „Hut“ beginnt mit H.",
-                      "examples": [
-                          {
-                              "t": "<b>하다</b> (ha-da) – „tun/machen“",
-                              "n": "H wie Hut."
-                          },
-                          {
-                              "t": "<b>학교</b> (hak-gyo) – „Schule“",
-                              "n": "H wie Hallo."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_01",
-                      "isLetter": false,
-                      "letter": "ㄱ",
-                      "word": "가다",
-                      "emoji": "🚶",
-                      "phonetic": "/ka.da/",
-                      "translation": "gehen",
-                      "translations": {
-                          "ko": "가다",
-                          "de": "gehen",
-                          "en": "to go"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>가다</b> – ich gehe",
-                              "n": "Gehen"
-                          },
-                          {
-                              "t": "학교에 <b>가다</b> – zur Schule gehen",
-                              "n": "Schule + gehen"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_02",
-                      "isLetter": false,
-                      "letter": "ㄴ",
-                      "word": "나",
+                      "letter": "wǒ",
+                      "word": "我",
                       "emoji": "🙋",
-                      "phonetic": "/na/",
-                      "translation": "ich",
+                      "phonetic": "/wǒ/",
+                      "translation": "<b>ich</b> (wǒ)",
                       "translations": {
-                          "ko": "나",
+                          "zh": "我",
                           "de": "ich",
-                          "en": "I/me"
+                          "en": "I"
                       },
                       "examples": [
                           {
-                              "t": "<b>나</b>는 학생이에요 – Ich bin Schüler.",
-                              "n": "Ich + Schüler"
+                              "t": "<b>我</b> 是 学生。 (Wǒ shì xuéshēng.)",
+                              "n": "Ich bin Schüler/Student."
                           },
                           {
-                              "t": "<b>나</b>도 – ich auch",
-                              "n": "auch"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_03",
-                      "isLetter": false,
-                      "letter": "ㄷ",
-                      "word": "도",
-                      "emoji": "➕",
-                      "phonetic": "/to/",
-                      "translation": "auch",
-                      "translations": {
-                          "ko": "도",
-                          "de": "auch",
-                          "en": "also"
-                      },
-                      "examples": [
-                          {
-                              "t": "나<b>도</b> – ich auch",
-                              "n": "Ich auch"
-                          },
-                          {
-                              "t": "이것<b>도</b> – das auch",
-                              "n": "Das auch"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_04",
-                      "isLetter": false,
-                      "letter": "ㄹ",
-                      "word": "물",
-                      "emoji": "💧",
-                      "phonetic": "/mul/",
-                      "translation": "Wasser",
-                      "translations": {
-                          "ko": "물",
-                          "de": "Wasser",
-                          "en": "water"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>물</b>을 마셔요 – Ich trinke Wasser.",
-                              "n": "Wasser trinken"
-                          },
-                          {
-                              "t": "물이 많아요 – Es gibt viel Wasser.",
-                              "n": "Viel Wasser"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_05",
-                      "isLetter": false,
-                      "letter": "ㅁ",
-                      "word": "마음",
-                      "emoji": "❤️",
-                      "phonetic": "/ma.ɯm/",
-                      "translation": "Herz/Gefühl",
-                      "translations": {
-                          "ko": "마음",
-                          "de": "Herz/Gefühl",
-                          "en": "heart/mind"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>마음</b>이 좋아요 – Er/Sie hat ein gutes Herz.",
-                              "n": "Gutes Herz"
-                          },
-                          {
-                              "t": "제 <b>마음</b> – mein Herz",
-                              "n": "Mein Herz"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_06",
-                      "isLetter": false,
-                      "letter": "ㅂ",
-                      "word": "밥",
-                      "emoji": "🍚",
-                      "phonetic": "/pap/",
-                      "translation": "Reis/Essen",
-                      "translations": {
-                          "ko": "밥",
-                          "de": "Reis/Essen",
-                          "en": "rice/meal"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>밥</b>을 먹어요 – Ich esse (eine Mahlzeit).",
-                              "n": "Essen"
-                          },
-                          {
-                              "t": "아침 <b>밥</b> – Frühstück",
-                              "n": "Morgenessen"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_07",
-                      "isLetter": false,
-                      "letter": "ㅅ",
-                      "word": "사람",
-                      "emoji": "🧑",
-                      "phonetic": "/sa.ram/",
-                      "translation": "Person/Mensch",
-                      "translations": {
-                          "ko": "사람",
-                          "de": "Person/Mensch",
-                          "en": "person"
-                      },
-                      "examples": [
-                          {
-                              "t": "한 <b>사람</b> – eine Person",
-                              "n": "Eine Person"
-                          },
-                          {
-                              "t": "<b>사람</b>이 많아요 – Es sind viele Leute.",
-                              "n": "Viele Leute"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_08",
-                      "isLetter": false,
-                      "letter": "ㅇ",
-                      "word": "아",
-                      "emoji": "😮",
-                      "phonetic": "/a/",
-                      "translation": "oh! (Ausruf)",
-                      "translations": {
-                          "ko": "아",
-                          "de": "oh!",
-                          "en": "oh!"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>아</b>, 그렇구나 – Oh, so ist das.",
-                              "n": "Aha"
-                          },
-                          {
-                              "t": "<b>아</b>! – Oh! (Überraschung)",
-                              "n": "Ausruf"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_09",
-                      "isLetter": false,
-                      "letter": "ㅈ",
-                      "word": "저",
-                      "emoji": "🙇",
-                      "phonetic": "/dʑʌ/",
-                      "translation": "ich (formell)",
-                      "translations": {
-                          "ko": "저",
-                          "de": "ich (formell)",
-                          "en": "I (formal)"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>저</b>는 학생이에요 – Ich bin Schüler (formell).",
-                              "n": "Formell"
-                          },
-                          {
-                              "t": "<b>저</b>도요 – Ich auch (formell).",
-                              "n": "Auch"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g2_10",
-                      "isLetter": false,
-                      "letter": "ㅎ",
-                      "word": "하다",
-                      "emoji": "🛠️",
-                      "phonetic": "/ha.da/",
-                      "translation": "tun/machen",
-                      "translations": {
-                          "ko": "하다",
-                          "de": "tun/machen",
-                          "en": "to do"
-                      },
-                      "examples": [
-                          {
-                              "t": "공부를 <b>하다</b> – lernen (wörtl. Studium machen)",
-                              "n": "Lernen"
-                          },
-                          {
-                              "t": "일을 <b>하다</b> – arbeiten",
-                              "n": "Arbeiten"
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "id": "ko_a0_g3",
-              "name": "Aspiradas y tensas",
-              "icon": "💨",
-              "color": "#10b981",
-              "description": "ㅋ ㅌ ㅍ ㅊ aspiradas · ㄲ ㄸ ㅃ ㅆ ㅉ tensas",
-              "reviewFrom": [
-                  "ko_a0_g1",
-                  "ko_a0_g2"
-              ],
-              "cards": [
-                  {
-                      "id": "ko_a0_g3_L_ㅋ",
-                      "isLetter": true,
-                      "letter": "ㅋ",
-                      "word": "ㅋ",
-                      "emoji": "💨",
-                      "phonetic": "/kʰ/",
-                      "translation": "K aspirada — como <i>K</i> en <i>Kaffee</i> con un soplo de aire<br>Parece la <b>ㅋ</b> con una <span class=\"hl\">cola</span> extra",
-                      "mnemonic": "La línea horizontal extra parece una pequeña nube de aire que sale de la ㄱ — ¡sopla!",
-                      "examples": [
-                          {
-                              "t": "<b>ㅋ</b> es ㄱ + soplo de aire, como en <i>Kaffee</i>",
-                              "n": "La K alemana también es aspirada"
-                          },
-                          {
-                              "t": "커피 → <b>커</b>피 (Kaffee)",
-                              "n": "La primera sílaba suena como 'ko' aspirada"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_L_ㅌ",
-                      "isLetter": true,
-                      "letter": "ㅌ",
-                      "word": "ㅌ",
-                      "emoji": "💨",
-                      "phonetic": "/tʰ/",
-                      "translation": "T aspirada — como <i>T</i> en <i>Tea</i> con soplo<br>Es la <b>ㄷ</b> con un <span class=\"hl\">techo</span> adicional",
-                      "mnemonic": "La línea de arriba parece un techo — la T sube y suelta aire al pronunciarla.",
-                      "examples": [
-                          {
-                              "t": "<b>ㅌ</b> = ㄷ + techo, ¡la T sopla!",
-                              "n": "Compara con ㄷ (t normal)"
-                          },
-                          {
-                              "t": "택시 → <b>택</b>시 (Taxi)",
-                              "n": "Préstamo del inglés 'taxi'"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_L_ㅍ",
-                      "isLetter": true,
-                      "letter": "ㅍ",
-                      "word": "ㅍ",
-                      "emoji": "💨",
-                      "phonetic": "/pʰ/",
-                      "translation": "P aspirada — como <i>P</i> en <i>Party</i> con soplo<br>Es la <b>ㅂ</b> con un <span class=\"hl\">sombrero</span>",
-                      "mnemonic": "La línea extra encima parece un sombrero — la P se pone elegante y suelta aire.",
-                      "examples": [
-                          {
-                              "t": "<b>ㅍ</b> = ㅂ + sombrero, ¡sopla!",
-                              "n": "La P aspirada como en inglés"
-                          },
-                          {
-                              "t": "피 → <b>피</b> (Blut)",
-                              "n": "Suena como 'pi' aspirada"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_L_ㅊ",
-                      "isLetter": true,
-                      "letter": "ㅊ",
-                      "word": "ㅊ",
-                      "emoji": "💨",
-                      "phonetic": "/tɕʰ/",
-                      "translation": "CH aspirada — como <i>ch</i> en <i>China</i> con soplo<br>Es la <b>ㅈ</b> con un <span class=\"hl\">gancho</span> arriba",
-                      "mnemonic": "El gancho arriba parece una cucharita que recoge aire — ¡sopla al decir 'ch'!",
-                      "examples": [
-                          {
-                              "t": "<b>ㅊ</b> = ㅈ + gancho, ¡ch aspirada!",
-                              "n": "Suena como 'ch' con más aire"
-                          },
-                          {
-                              "t": "차 → <b>차</b> (Tee)",
-                              "n": "La misma palabra para 'té' y 'auto'"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_L_ㄲ",
-                      "isLetter": true,
-                      "letter": "ㄲ",
-                      "word": "ㄲ",
-                      "emoji": "🔒",
-                      "phonetic": "/k͈/",
-                      "translation": "K tensa — sin soplo, garganta apretada<br>Es la <b>ㄱ</b> <span class=\"hl\">duplicada</span>",
-                      "mnemonic": "Dos ㄱ juntas = doble fuerza, ¡aprieta la garganta!",
-                      "examples": [
-                          {
-                              "t": "ㄱ vs ㅋ vs <b>ㄲ</b>: suave, aspirada, tensa",
-                              "n": "La tensa se escribe con dos ㄱ"
-                          },
-                          {
-                              "t": "꽃 → <b>꽃</b> (Blume)",
-                              "n": "Suena apretada, sin aire"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_L_ㄸ",
-                      "isLetter": true,
-                      "letter": "ㄸ",
-                      "word": "ㄸ",
-                      "emoji": "🔒",
-                      "phonetic": "/t͈/",
-                      "translation": "T tensa — sin soplo, garganta apretada<br>Es la <b>ㄷ</b> <span class=\"hl\">duplicada</span>",
-                      "mnemonic": "Dos ㄷ = doble bloqueo, ¡aprieta!",
-                      "examples": [
-                          {
-                              "t": "ㄷ vs ㅌ vs <b>ㄸ</b>: suave, aspirada, tensa",
-                              "n": "La tensa se escribe con dos ㄷ"
-                          },
-                          {
-                              "t": "딸 → <b>딸</b> (Tochter)",
-                              "n": "Suena apretada"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_L_ㅃ",
-                      "isLetter": true,
-                      "letter": "ㅃ",
-                      "word": "ㅃ",
-                      "emoji": "🔒",
-                      "phonetic": "/p͈/",
-                      "translation": "P tensa — sin soplo, garganta apretada<br>Es la <b>ㅂ</b> <span class=\"hl\">duplicada</span>",
-                      "mnemonic": "Dos ㅂ = doble presión, ¡aprieta los labios!",
-                      "examples": [
-                          {
-                              "t": "ㅂ vs ㅍ vs <b>ㅃ</b>: suave, aspirada, tensa",
-                              "n": "La tensa se escribe con dos ㅂ"
-                          },
-                          {
-                              "t": "빨리 → <b>빨</b>리 (schnell)",
-                              "n": "Suena apretada"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_L_ㅆ",
-                      "isLetter": true,
-                      "letter": "ㅆ",
-                      "word": "ㅆ",
-                      "emoji": "🔒",
-                      "phonetic": "/s͈/",
-                      "translation": "S tensa — sin soplo, más fuerte<br>Es la <b>ㅅ</b> <span class=\"hl\">duplicada</span>",
-                      "mnemonic": "Dos ㅅ = doble silbido, ¡aprieta la lengua!",
-                      "examples": [
-                          {
-                              "t": "ㅅ vs <b>ㅆ</b>: suave vs tensa",
-                              "n": "La tensa se escribe con dos ㅅ"
-                          },
-                          {
-                              "t": "쓰다 → <b>쓰</b>다 (schreiben)",
-                              "n": "Suena apretada"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_L_ㅉ",
-                      "isLetter": true,
-                      "letter": "ㅉ",
-                      "word": "ㅉ",
-                      "emoji": "🔒",
-                      "phonetic": "/tɕ͈/",
-                      "translation": "CH tensa — sin soplo, garganta apretada<br>Es la <b>ㅈ</b> <span class=\"hl\">duplicada</span>",
-                      "mnemonic": "Dos ㅈ = doble fuerza, ¡aprieta!",
-                      "examples": [
-                          {
-                              "t": "ㅈ vs ㅊ vs <b>ㅉ</b>: suave, aspirada, tensa",
-                              "n": "La tensa se escribe con dos ㅈ"
-                          },
-                          {
-                              "t": "짜다 → <b>짜</b>다 (salzig)",
-                              "n": "Suena apretada"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_01",
-                      "isLetter": false,
-                      "letter": "ㅋ",
-                      "word": "커피",
-                      "emoji": "☕",
-                      "phonetic": "/kʰʌ.pʰi/",
-                      "translation": "<b>Kaffee</b> — préstamo del inglés <i>coffee</i>",
-                      "translations": {
-                          "ko": "커피",
-                          "de": "Kaffee",
-                          "en": "coffee"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>커피</b> 마실래요?",
-                              "n": "Möchtest du Kaffee trinken?"
-                          },
-                          {
-                              "t": "커피가 <b>커피</b> 맛이에요",
-                              "n": "Der Kaffee schmeckt nach Kaffee (humorvoll)"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_02",
-                      "isLetter": false,
-                      "letter": "ㅌ",
-                      "word": "택시",
-                      "emoji": "🚕",
-                      "phonetic": "/tʰɛk.ɕi/",
-                      "translation": "<b>Taxi</b> — préstamo del inglés",
-                      "translations": {
-                          "ko": "택시",
-                          "de": "Taxi",
-                          "en": "taxi"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>택시</b> 타요",
-                              "n": "Ich nehme ein Taxi"
-                          },
-                          {
-                              "t": "택시가 빨라요",
-                              "n": "Das Taxi ist schnell"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_03",
-                      "isLetter": false,
-                      "letter": "ㅍ",
-                      "word": "파",
-                      "emoji": "🧅",
-                      "phonetic": "/pʰa/",
-                      "translation": "<b>Lauchzwiebel</b> — también significa 'Welle'",
-                      "translations": {
-                          "ko": "파",
-                          "de": "Lauchzwiebel",
-                          "en": "green onion"
-                      },
-                      "examples": [
-                          {
-                              "t": "파를 <b>파</b>요",
-                              "n": "Ich schneide Lauchzwiebeln"
-                          },
-                          {
-                              "t": "파가 매워요",
-                              "n": "Die Zwiebel ist scharf"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_04",
-                      "isLetter": false,
-                      "letter": "ㅊ",
-                      "word": "차",
-                      "emoji": "🍵",
-                      "phonetic": "/tɕʰa/",
-                      "translation": "<b>Tee</b> — la misma palabra significa 'Auto'",
-                      "translations": {
-                          "ko": "차",
-                          "de": "Tee",
-                          "en": "tea"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>차</b> 마셔요",
-                              "n": "Ich trinke Tee"
-                          },
-                          {
-                              "t": "차를 타요",
-                              "n": "Ich fahre mit dem Auto"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_05",
-                      "isLetter": false,
-                      "letter": "ㄲ",
-                      "word": "꽃",
-                      "emoji": "🌸",
-                      "phonetic": "/k͈ot/",
-                      "translation": "<b>Blume</b> — tensa, sin soplo",
-                      "translations": {
-                          "ko": "꽃",
-                          "de": "Blume",
-                          "en": "flower"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>꽃</b>이 예뻐요",
-                              "n": "Die Blume ist schön"
-                          },
-                          {
-                              "t": "꽃을 사요",
-                              "n": "Ich kaufe eine Blume"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_06",
-                      "isLetter": false,
-                      "letter": "ㄸ",
-                      "word": "딸",
-                      "emoji": "👧",
-                      "phonetic": "/t͈al/",
-                      "translation": "<b>Tochter</b> — tensa, sin soplo",
-                      "translations": {
-                          "ko": "딸",
-                          "de": "Tochter",
-                          "en": "daughter"
-                      },
-                      "examples": [
-                          {
-                              "t": "제 <b>딸</b>이에요",
-                              "n": "Das ist meine Tochter"
-                          },
-                          {
-                              "t": "딸이 커요",
-                              "n": "Die Tochter ist groß"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_07",
-                      "isLetter": false,
-                      "letter": "ㅃ",
-                      "word": "빨리",
-                      "emoji": "⚡",
-                      "phonetic": "/p͈al.li/",
-                      "translation": "<b>Schnell</b> — tensa, sin soplo",
-                      "translations": {
-                          "ko": "빨리",
-                          "de": "schnell",
-                          "en": "quickly"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>빨리</b> 와요",
-                              "n": "Komm schnell"
-                          },
-                          {
-                              "t": "빨리 먹어요",
-                              "n": "Iss schnell"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_08",
-                      "isLetter": false,
-                      "letter": "ㅆ",
-                      "word": "쓰다",
-                      "emoji": "✍️",
-                      "phonetic": "/s͈ɯ.da/",
-                      "translation": "<b>Schreiben</b> — también significa 'bitter' y 'benutzen'",
-                      "translations": {
-                          "ko": "쓰다",
-                          "de": "schreiben",
-                          "en": "to write"
-                      },
-                      "examples": [
-                          {
-                              "t": "편지를 <b>쓰다</b>",
-                              "n": "Einen Brief schreiben"
-                          },
-                          {
-                              "t": "이 커피는 <b>써요</b>",
-                              "n": "Dieser Kaffee ist bitter"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g3_09",
-                      "isLetter": false,
-                      "letter": "ㅉ",
-                      "word": "짜다",
-                      "emoji": "🧂",
-                      "phonetic": "/tɕ͈a.da/",
-                      "translation": "<b>Salzig</b> — también significa 'weben'",
-                      "translations": {
-                          "ko": "짜다",
-                          "de": "salzig",
-                          "en": "salty"
-                      },
-                      "examples": [
-                          {
-                              "t": "이 국이 <b>짜요</b>",
-                              "n": "Diese Suppe ist salzig"
-                          },
-                          {
-                              "t": "옷을 <b>짜다</b>",
-                              "n": "Kleidung weben"
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "id": "ko_a0_g4",
-              "name": "Bloques silábicos",
-              "icon": "🧩",
-              "color": "#ef4444",
-              "description": "Cómo se combinan letras en sílabas completas",
-              "reviewFrom": [
-                  "ko_a0_g1",
-                  "ko_a0_g2",
-                  "ko_a0_g3"
-              ],
-              "cards": [
-                  {
-                      "id": "ko_a0_g4_L_ga",
-                      "isLetter": true,
-                      "letter": "가",
-                      "word": "가",
-                      "emoji": "🔤",
-                      "phonetic": "/ga/",
-                      "translation": "Silbe <b>가</b> (ga) – Konsonant ㄱ + Vokal ㅏ",
-                      "mnemonic": "Wie ein 'g' das nach vorne springt – die Linie oben ist der Arm.",
-                      "examples": [
-                          {
-                              "t": "<b>가</b> ist die erste Silbe in vielen Wörtern.",
-                              "n": "Beispiel: 가방 (Tasche)"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_na",
-                      "isLetter": true,
-                      "letter": "나",
-                      "word": "나",
-                      "emoji": "🔤",
-                      "phonetic": "/na/",
-                      "translation": "Silbe <b>나</b> (na) – Konsonant ㄴ + Vokal ㅏ",
-                      "mnemonic": "Der obere Strich ist die Nase, der untere der Mund – 'na' wie 'naja'.",
-                      "examples": [
-                          {
-                              "t": "<b>나</b> bedeutet 'ich' – z.B. <b>나</b>는 학생이에요.",
-                              "n": "Ich bin Student."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_da",
-                      "isLetter": true,
-                      "letter": "다",
-                      "word": "다",
-                      "emoji": "🔤",
-                      "phonetic": "/da/",
-                      "translation": "Silbe <b>다</b> (da) – Konsonant ㄷ + Vokal ㅏ",
-                      "mnemonic": "Sieht aus wie ein 'd' mit einem Dach – 'da' wie 'dann'.",
-                      "examples": [
-                          {
-                              "t": "<b>다</b> ist oft in Verben – z.B. <b>하다</b> (tun).",
-                              "n": "하다 = machen"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_bap",
-                      "isLetter": true,
-                      "letter": "밥",
-                      "word": "밥",
-                      "emoji": "🍚",
-                      "phonetic": "/bap/",
-                      "translation": "Silbe <b>밥</b> (bap) – Konsonant ㅂ + Vokal ㅏ + Endkonsonant ㅂ",
-                      "mnemonic": "Reis ist 'bap' – der untere ㅂ ist der geschlossene Topf.",
-                      "examples": [
-                          {
-                              "t": "<b>밥</b> 먹었어요?",
-                              "n": "Hast du gegessen?"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_jip",
-                      "isLetter": true,
-                      "letter": "집",
-                      "word": "집",
-                      "emoji": "🏠",
-                      "phonetic": "/jip/",
-                      "translation": "Silbe <b>집</b> (jip) – Konsonant ㅈ + Vokal ㅣ + Endkonsonant ㅂ",
-                      "mnemonic": "Das ㅂ am Ende ist die Tür, die zugeht – 'jip' wie 'Haus'.",
-                      "examples": [
-                          {
-                              "t": "우리 <b>집</b>은 여기예요.",
-                              "n": "Unser Haus ist hier."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_guk",
-                      "isLetter": true,
-                      "letter": "국",
-                      "word": "국",
-                      "emoji": "🍜",
-                      "phonetic": "/guk/",
-                      "translation": "Silbe <b>국</b> (guk) – Konsonant ㄱ + Vokal ㅜ + Endkonsonant ㄱ",
-                      "mnemonic": "Der ㄱ am Ende ist die Suppenschüssel – 'guk' wie 'Gulasch' (Suppe).",
-                      "examples": [
-                          {
-                              "t": "미역<b>국</b>은 맛있어요.",
-                              "n": "Seetang-Suppe ist lecker."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_chaek",
-                      "isLetter": true,
-                      "letter": "책",
-                      "word": "책",
-                      "emoji": "📚",
-                      "phonetic": "/tɕʰɛk/",
-                      "translation": "Silbe <b>책</b> (chaek) – Konsonant ㅊ + Vokal ㅐ + Endkonsonant ㄱ",
-                      "mnemonic": "Das ㅊ sieht aus wie ein offenes Buch – 'chaek' wie 'check' (nachschlagen).",
-                      "examples": [
-                          {
-                              "t": "이 <b>책</b>은 재미있어요.",
-                              "n": "Dieses Buch ist interessant."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_wa",
-                      "isLetter": true,
-                      "letter": "와",
-                      "word": "와",
-                      "emoji": "🔤",
-                      "phonetic": "/wa/",
-                      "translation": "Silbe <b>와</b> (wa) – Konsonant ㅇ + Vokal ㅘ (ㅗ+ㅏ)",
-                      "mnemonic": "Zwei Vokale verschmelzen – 'wa' wie im Englischen 'what'.",
-                      "examples": [
-                          {
-                              "t": "<b>와</b>! 정말 예쁘다!",
-                              "n": "Wow! Wirklich hübsch!"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_bwa",
-                      "isLetter": true,
-                      "letter": "봐",
-                      "word": "봐",
-                      "emoji": "👀",
-                      "phonetic": "/bwa/",
-                      "translation": "Silbe <b>봐</b> (bwa) – Konsonant ㅂ + Vokal ㅘ",
-                      "mnemonic": "Das ㅂ + ㅘ ergibt 'bwa' – wie 'schau' mit zusammengekniffenen Augen.",
-                      "examples": [
-                          {
-                              "t": "이거 <b>봐</b>!",
-                              "n": "Schau dir das an!"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_dwae",
-                      "isLetter": true,
-                      "letter": "돼",
-                      "word": "돼",
-                      "emoji": "🔤",
-                      "phonetic": "/dwɛ/",
-                      "translation": "Silbe <b>돼</b> (dwae) – Konsonant ㄷ + Vokal ㅙ (ㅗ+ㅐ)",
-                      "mnemonic": "Kurzform von 되어 – 'dwae' wie 'werden' – das ㅙ sieht aus wie ein Smiley.",
-                      "examples": [
-                          {
-                              "t": "됐어요? <b>돼</b>요.",
-                              "n": "Ist es fertig? Ja, es wird."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_ikda",
-                      "isLetter": true,
-                      "letter": "읽",
-                      "word": "읽다",
-                      "emoji": "📖",
-                      "phonetic": "/ik.t͈a/",
-                      "translation": "Silbe <b>읽</b> (ik) – Konsonant ㅇ + Vokal ㅣ + Doppel-Endkonsonant ㄹㄱ",
-                      "mnemonic": "Doppelter Endkonsonant – der ㄹ wird nicht gesprochen, nur der ㄱ – 'lesen'.",
-                      "examples": [
-                          {
-                              "t": "책을 <b>읽</b>어요.",
-                              "n": "Ich lese ein Buch."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_dak",
-                      "isLetter": true,
-                      "letter": "닭",
-                      "word": "닭",
-                      "emoji": "🐔",
-                      "phonetic": "/tak/",
-                      "translation": "Silbe <b>닭</b> (dak) – Konsonant ㄷ + Vokal ㅏ + Doppel-Endkonsonant ㄹㄱ",
-                      "mnemonic": "Das ㄹ ist stumm – wie ein Huhn, das nicht gackert – 'dak'.",
-                      "examples": [
-                          {
-                              "t": "<b>닭</b>고기 먹어요.",
-                              "n": "Ich esse Hühnerfleisch."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_salm",
-                      "isLetter": true,
-                      "letter": "삶",
-                      "word": "삶",
-                      "emoji": "🌱",
-                      "phonetic": "/salm/",
-                      "translation": "Silbe <b>삶</b> (salm) – Konsonant ㅅ + Vokal ㅏ + Doppel-Endkonsonant ㄹㅁ",
-                      "mnemonic": "Das ㄹ wird stumm – das ㅁ ist der Mund, der atmet – 'Leben'.",
-                      "examples": [
-                          {
-                              "t": "<b>삶</b>은 아름다워요.",
-                              "n": "Das Leben ist schön."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_annyeonghaseyo",
-                      "isLetter": false,
-                      "letter": "안녕",
-                      "word": "안녕하세요",
-                      "emoji": "👋",
-                      "phonetic": "/an.ɲʌŋ.ha.se.jo/",
-                      "translation": "Hallo / Guten Tag – <b>안녕</b> (Frieden) + 하세요 (tun Sie)",
-                      "translations": {
-                          "ko": "안녕하세요",
-                          "de": "Hallo",
-                          "en": "Hello"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>안녕하세요</b>! 만나서 반가워요.",
-                              "n": "Hallo! Schön dich zu treffen."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_gamsahamnida",
-                      "isLetter": false,
-                      "letter": "감사",
-                      "word": "감사합니다",
-                      "emoji": "🙏",
-                      "phonetic": "/kam.sa.ham.ni.da/",
-                      "translation": "Danke – <b>감사</b> (Dank) + 합니다 (mache)",
-                      "translations": {
-                          "ko": "감사합니다",
-                          "de": "Danke",
-                          "en": "Thank you"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>감사합니다</b>! 도와주셔서.",
-                              "n": "Danke, dass Sie geholfen haben."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ko_a0_g4_L_saranghae",
-                      "isLetter": false,
-                      "letter": "사랑",
-                      "word": "사랑해",
-                      "emoji": "❤️",
-                      "phonetic": "/sa.raŋ.hɛ/",
-                      "translation": "Ich liebe dich – <b>사랑</b> (Liebe) + 해 (mache)",
-                      "translations": {
-                          "ko": "사랑해",
-                          "de": "Ich liebe dich",
-                          "en": "I love you"
-                      },
-                      "examples": [
-                          {
-                              "t": "나는 너를 <b>사랑해</b>.",
+                              "t": "<b>我</b> 爱 你。 (Wǒ ài nǐ.)",
                               "n": "Ich liebe dich."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g4_L_hangugeo",
+                      "id": "zh_a0_g1_07",
                       "isLetter": false,
-                      "letter": "한국",
-                      "word": "한국어",
-                      "emoji": "🇰🇷",
-                      "phonetic": "/han.ɡu.ɡʌ/",
-                      "translation": "Koreanische Sprache – <b>한국</b> (Korea) + 어 (Sprache)",
+                      "letter": "shì",
+                      "word": "是",
+                      "emoji": "✅",
+                      "phonetic": "/shì/",
+                      "translation": "<b>sein</b> / <b>ja</b> (shì)",
                       "translations": {
-                          "ko": "한국어",
-                          "de": "Koreanisch",
-                          "en": "Korean language"
+                          "zh": "是",
+                          "de": "sein / ja",
+                          "en": "to be / yes"
                       },
                       "examples": [
                           {
-                              "t": "<b>한국어</b>를 배워요.",
-                              "n": "Ich lerne Koreanisch."
+                              "t": "这 <b>是</b> 书。 (Zhè shì shū.)",
+                              "n": "Das ist ein Buch."
+                          },
+                          {
+                              "t": "<b>是</b>，我 是。 (Shì, wǒ shì.)",
+                              "n": "Ja, das bin ich."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g4_L_masisseoyo",
+                      "id": "zh_a0_g1_08",
                       "isLetter": false,
-                      "letter": "맛있",
-                      "word": "맛있어요",
-                      "emoji": "😋",
-                      "phonetic": "/ma.si.s͈ʌ.jo/",
-                      "translation": "Es ist lecker – <b>맛</b> (Geschmack) + 있어요 (es gibt)",
+                      "letter": "bù",
+                      "word": "不",
+                      "emoji": "🚫",
+                      "phonetic": "/bù/",
+                      "translation": "<b>nicht</b> / <b>nein</b> (bù)",
                       "translations": {
-                          "ko": "맛있어요",
-                          "de": "Es ist lecker",
-                          "en": "It's delicious"
+                          "zh": "不",
+                          "de": "nicht / nein",
+                          "en": "not / no"
                       },
                       "examples": [
                           {
-                              "t": "이 음식은 <b>맛있어요</b>.",
-                              "n": "Dieses Essen ist lecker."
+                              "t": "我 <b>不</b> 是。 (Wǒ bù shì.)",
+                              "n": "Ich bin es nicht."
+                          },
+                          {
+                              "t": "<b>不</b> 好。 (Bù hǎo.)",
+                              "n": "Nicht gut."
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g4_L_gwaenchanayo",
+                      "id": "zh_a0_g1_09",
                       "isLetter": false,
-                      "letter": "괜찮",
-                      "word": "괜찮아요",
+                      "letter": "mā",
+                      "word": "妈",
+                      "emoji": "👩",
+                      "phonetic": "/mā/",
+                      "translation": "<b>Mutter</b> (Kurzform, in Zusammensetzungen)",
+                      "translations": {
+                          "zh": "妈",
+                          "de": "Mutter",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>妈</b>，我 回 来 了。 (Mā, wǒ huílái le.)",
+                              "n": "Mama, ich bin zurück."
+                          },
+                          {
+                              "t": "她 是 我 <b>妈</b>。 (Tā shì wǒ mā.)",
+                              "n": "Sie ist meine Mutter."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "lái",
+                      "word": "来",
+                      "emoji": "🚶",
+                      "phonetic": "/lái/",
+                      "translation": "<b>kommen</b> (lái)",
+                      "translations": {
+                          "zh": "来",
+                          "de": "kommen",
+                          "en": "to come"
+                      },
+                      "examples": [
+                          {
+                              "t": "请 <b>来</b>。 (Qǐng lái.)",
+                              "n": "Bitte komm."
+                          },
+                          {
+                              "t": "他 <b>来</b> 了。 (Tā lái le.)",
+                              "n": "Er ist gekommen."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g2",
+              "name": "Iniciales (consonantes)",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "b p m f / d t n l / g k h / j q x / zh ch sh r / z c s",
+              "reviewFrom": [
+                  "zh_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g2_L_b",
+                      "isLetter": true,
+                      "letter": "b",
+                      "word": "b",
+                      "emoji": "🔤",
+                      "phonetic": "/b̥/",
+                      "translation": "B (stimmhaft, aber schwach) — wie im Deutschen <b>b</b>, aber ohne starke Stimmhaftigkeit.",
+                      "mnemonic": "Sieht aus wie ein Ball, der auf dem Boden liegt: <b>b</b> wie Ball.",
+                      "examples": [
+                          {
+                              "t": "<b>bā</b> (8) — Zahl <b>8</b>",
+                              "n": "Acht"
+                          },
+                          {
+                              "t": "<b>bà</b> (Papa) — <span class='hl'>Vater</span>",
+                              "n": "Papa"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_p",
+                      "isLetter": true,
+                      "letter": "p",
+                      "word": "p",
+                      "emoji": "🔤",
+                      "phonetic": "/pʰ/",
+                      "translation": "P (behaucht) — wie im Deutschen <b>p</b> mit einem deutlichen Hauch.",
+                      "mnemonic": "Denk an ein <i>Puste</i>-Geräusch: <b>p</b> wie Puste.",
+                      "examples": [
+                          {
+                              "t": "<b>pà</b> (fürchten) — <span class='hl'>Angst</span> haben",
+                              "n": "fürchten"
+                          },
+                          {
+                              "t": "<b>píng</b> (Apfel) — <i>ping</i> wie im Englischen",
+                              "n": "Apfel"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_m",
+                      "isLetter": true,
+                      "letter": "m",
+                      "word": "m",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "M — wie im Deutschen <b>m</b>.",
+                      "mnemonic": "Zwei Hügel wie ein <i>Berg</i>: <b>m</b> wie Berg.",
+                      "examples": [
+                          {
+                              "t": "<b>māo</b> (Katze) — <span class='hl'>Miau</span>",
+                              "n": "Katze"
+                          },
+                          {
+                              "t": "<b>mā</b> (Mama) — <i>ma</i> mit hohem Ton",
+                              "n": "Mama"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_f",
+                      "isLetter": true,
+                      "letter": "f",
+                      "word": "f",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "F — wie im Deutschen <b>f</b>.",
+                      "mnemonic": "Ein <i>Fächer</i>, der sich öffnet: <b>f</b> wie Fächer.",
+                      "examples": [
+                          {
+                              "t": "<b>fēi</b> (fliegen) — <span class='hl'>Vogel</span> fliegt",
+                              "n": "fliegen"
+                          },
+                          {
+                              "t": "<b>fàn</b> (Reis) — <i>fan</i> wie im Englischen",
+                              "n": "Reis"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_d",
+                      "isLetter": true,
+                      "letter": "d",
+                      "word": "d",
+                      "emoji": "🔤",
+                      "phonetic": "/d̥/",
+                      "translation": "D (stimmhaft, aber schwach) — wie im Deutschen <b>d</b>.",
+                      "mnemonic": "Ein <i>Dach</i> über einem Haus: <b>d</b> wie Dach.",
+                      "examples": [
+                          {
+                              "t": "<b>dà</b> (groß) — <span class='hl'>groß</span>",
+                              "n": "groß"
+                          },
+                          {
+                              "t": "<b>dì</b> (Erde) — <i>di</i> wie in <i>digital</i>",
+                              "n": "Erde"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_t",
+                      "isLetter": true,
+                      "letter": "t",
+                      "word": "t",
+                      "emoji": "🔤",
+                      "phonetic": "/tʰ/",
+                      "translation": "T (behaucht) — wie im Deutschen <b>t</b> mit Hauch.",
+                      "mnemonic": "Ein <i>Topf</i> mit Deckel: <b>t</b> wie Topf.",
+                      "examples": [
+                          {
+                              "t": "<b>tā</b> (er/sie) — <span class='hl'>er</span>",
+                              "n": "er/sie"
+                          },
+                          {
+                              "t": "<b>tài</b> (zu) — <i>tai</i> wie in <i>Taiwan</i>",
+                              "n": "zu"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_n",
+                      "isLetter": true,
+                      "letter": "n",
+                      "word": "n",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "N — wie im Deutschen <b>n</b>.",
+                      "mnemonic": "Ein <i>Nest</i> in einem Baum: <b>n</b> wie Nest.",
+                      "examples": [
+                          {
+                              "t": "<b>nǐ</b> (du) — <span class='hl'>du</span>",
+                              "n": "du"
+                          },
+                          {
+                              "t": "<b>nǚ</b> (Frau) — <i>nü</i> mit ü",
+                              "n": "Frau"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_l",
+                      "isLetter": true,
+                      "letter": "l",
+                      "word": "l",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "L — wie im Deutschen <b>l</b>.",
+                      "mnemonic": "Ein <i>langer</i> Stock: <b>l</b> wie lang.",
+                      "examples": [
+                          {
+                              "t": "<b>lái</b> (kommen) — <span class='hl'>komm</span>",
+                              "n": "kommen"
+                          },
+                          {
+                              "t": "<b>lǎo</b> (alt) — <i>lao</i> wie in <i>Laos</i>",
+                              "n": "alt"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_g",
+                      "isLetter": true,
+                      "letter": "g",
+                      "word": "g",
+                      "emoji": "🔤",
+                      "phonetic": "/k̚/",
+                      "translation": "G (stimmlos, nicht behaucht) — wie <b>g</b> im Deutschen, aber ohne Stimmbandvibration.",
+                      "mnemonic": "Ein <i>Gipfel</i> eines Berges: <b>g</b> wie Gipfel.",
+                      "examples": [
+                          {
+                              "t": "<b>gǒu</b> (Hund) — <span class='hl'>Wau</span>",
+                              "n": "Hund"
+                          },
+                          {
+                              "t": "<b>gāo</b> (hoch) — <i>gao</i> wie in <i>Gao</i>",
+                              "n": "hoch"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_k",
+                      "isLetter": true,
+                      "letter": "k",
+                      "word": "k",
+                      "emoji": "🔤",
+                      "phonetic": "/kʰ/",
+                      "translation": "K (behaucht) — wie im Deutschen <b>k</b> mit Hauch.",
+                      "mnemonic": "Ein <i>Keks</i>, der bricht: <b>k</b> wie Keks.",
+                      "examples": [
+                          {
+                              "t": "<b>kāi</b> (öffnen) — <span class='hl'>öffne</span>",
+                              "n": "öffnen"
+                          },
+                          {
+                              "t": "<b>kàn</b> (sehen) — <i>kan</i> wie in <i>Kanal</i>",
+                              "n": "sehen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_h",
+                      "isLetter": true,
+                      "letter": "h",
+                      "word": "h",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "H (wie ein starkes <i>ch</i> in <i>Bach</i>) — nicht wie im Deutschen <b>h</b>.",
+                      "mnemonic": "Ein <i>Hals</i>, der kratzt: <b>h</b> wie Husten.",
+                      "examples": [
+                          {
+                              "t": "<b>hǎo</b> (gut) — <span class='hl'>gut</span>",
+                              "n": "gut"
+                          },
+                          {
+                              "t": "<b>hē</b> (trinken) — <i>he</i> wie in <i>Herd</i>",
+                              "n": "trinken"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_j",
+                      "isLetter": true,
+                      "letter": "j",
+                      "word": "j",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕ/",
+                      "translation": "J (stimmlos, nicht behaucht) — wie ein weiches <b>j</b> in <i>Jeans</i>, aber ohne Stimmhaftigkeit.",
+                      "mnemonic": "Ein <i>Joch</i> wie ein Bogen: <b>j</b> wie Joch.",
+                      "examples": [
+                          {
+                              "t": "<b>jiā</b> (Zuhause) — <span class='hl'>Familie</span>",
+                              "n": "Zuhause"
+                          },
+                          {
+                              "t": "<b>jǐ</b> (wie viel) — <i>ji</i> wie in <i>Journal</i>",
+                              "n": "wie viel"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_q",
+                      "isLetter": true,
+                      "letter": "q",
+                      "word": "q",
+                      "emoji": "🔤",
+                      "phonetic": "/tɕʰ/",
+                      "translation": "Q (behaucht) — wie <b>j</b>, aber mit starkem Hauch.",
+                      "mnemonic": "Ein <i>Quirl</i>, der sich dreht: <b>q</b> wie Quirl.",
+                      "examples": [
+                          {
+                              "t": "<b>qǐng</b> (bitte) — <span class='hl'>bitte</span>",
+                              "n": "bitte"
+                          },
+                          {
+                              "t": "<b>qù</b> (gehen) — <i>qu</i> wie in <i>Quiz</i>",
+                              "n": "gehen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_x",
+                      "isLetter": true,
+                      "letter": "x",
+                      "word": "x",
+                      "emoji": "🔤",
+                      "phonetic": "/ɕ/",
+                      "translation": "X (stimmlos) — wie ein <i>ch</i> in <i>ich</i>, aber mit gespreizten Lippen.",
+                      "mnemonic": "Ein <i>Xylophon</i>: <b>x</b> wie Xylophon.",
+                      "examples": [
+                          {
+                              "t": "<b>xiǎo</b> (klein) — <span class='hl'>klein</span>",
+                              "n": "klein"
+                          },
+                          {
+                              "t": "<b>xiè</b> (danken) — <i>xie</i> wie in <i>Xie</i>",
+                              "n": "danken"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_zh",
+                      "isLetter": true,
+                      "letter": "zh",
+                      "word": "zh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂ/",
+                      "translation": "ZH (stimmlos, nicht behaucht) — wie ein <b>dsch</b> in <i>Dschungel</i>, aber ohne Stimmhaftigkeit.",
+                      "mnemonic": "Ein <i>Zahn</i> mit einer Zunge: <b>zh</b> wie Zahn.",
+                      "examples": [
+                          {
+                              "t": "<b>zhōng</b> (Mitte) — <span class='hl'>Mitte</span>",
+                              "n": "Mitte"
+                          },
+                          {
+                              "t": "<b>zhù</b> (wohnen) — <i>zhu</i> wie in <i>Zhu</i>",
+                              "n": "wohnen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "ch",
+                      "word": "ch",
+                      "emoji": "🔤",
+                      "phonetic": "/ʈʂʰ/",
+                      "translation": "CH (behaucht) — wie <b>zh</b>, aber mit starkem Hauch.",
+                      "mnemonic": "Ein <i>Chef</i> mit einem Hauch: <b>ch</b> wie Chef.",
+                      "examples": [
+                          {
+                              "t": "<b>chī</b> (essen) — <span class='hl'>essen</span>",
+                              "n": "essen"
+                          },
+                          {
+                              "t": "<b>chá</b> (Tee) — <i>cha</i> wie in <i>Chalet</i>",
+                              "n": "Tee"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_sh",
+                      "isLetter": true,
+                      "letter": "sh",
+                      "word": "sh",
+                      "emoji": "🔤",
+                      "phonetic": "/ʂ/",
+                      "translation": "SH (stimmlos) — wie ein <b>sch</b> im Deutschen, aber mit zurückgerollter Zunge.",
+                      "mnemonic": "Ein <i>Schal</i> um den Hals: <b>sh</b> wie Schal.",
+                      "examples": [
+                          {
+                              "t": "<b>shì</b> (sein) — <span class='hl'>sein</span>",
+                              "n": "sein"
+                          },
+                          {
+                              "t": "<b>shū</b> (Buch) — <i>shu</i> wie in <i>Shu</i>",
+                              "n": "Buch"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_r",
+                      "isLetter": true,
+                      "letter": "r",
+                      "word": "r",
+                      "emoji": "🔤",
+                      "phonetic": "/ʐ/",
+                      "translation": "R (stimmhaft) — wie ein <b>r</b> im Französischen, aber mit zurückgerollter Zunge.",
+                      "mnemonic": "Ein <i>Regen</i> tropft: <b>r</b> wie Regen.",
+                      "examples": [
+                          {
+                              "t": "<b>rén</b> (Person) — <span class='hl'>Mensch</span>",
+                              "n": "Person"
+                          },
+                          {
+                              "t": "<b>rì</b> (Sonne) — <i>ri</i> wie in <i>Risiko</i>",
+                              "n": "Sonne"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "z",
+                      "word": "z",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/",
+                      "translation": "Z (stimmlos, nicht behaucht) — wie <b>z</b> in <i>Zeit</i>.",
+                      "mnemonic": "Ein <i>Zebra</i> mit Streifen: <b>z</b> wie Zebra.",
+                      "examples": [
+                          {
+                              "t": "<b>zài</b> (wieder) — <span class='hl'>wieder</span>",
+                              "n": "wieder"
+                          },
+                          {
+                              "t": "<b>zǎo</b> (früh) — <i>zao</i> wie in <i>Zauber</i>",
+                              "n": "früh"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_c",
+                      "isLetter": true,
+                      "letter": "c",
+                      "word": "c",
+                      "emoji": "🔤",
+                      "phonetic": "/tsʰ/",
+                      "translation": "C (behaucht) — wie <b>z</b> in <i>Zeit</i>, aber mit starkem Hauch.",
+                      "mnemonic": "Ein <i>Café</i> mit Dampf: <b>c</b> wie Café.",
+                      "examples": [
+                          {
+                              "t": "<b>cài</b> (Gericht) — <span class='hl'>Essen</span>",
+                              "n": "Gericht"
+                          },
+                          {
+                              "t": "<b>cóng</b> (von) — <i>cong</i> wie in <i>Cong</i>",
+                              "n": "von"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_L_s",
+                      "isLetter": true,
+                      "letter": "s",
+                      "word": "s",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "S — wie im Deutschen <b>s</b> in <i>Wasser</i>.",
+                      "mnemonic": "Eine <i>Schlange</i> zischt: <b>s</b> wie Schlange.",
+                      "examples": [
+                          {
+                              "t": "<b>sān</b> (3) — <span class='hl'>drei</span>",
+                              "n": "drei"
+                          },
+                          {
+                              "t": "<b>sì</b> (4) — <i>si</i> wie in <i>sieben</i>",
+                              "n": "vier"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "b",
+                      "word": "bā",
+                      "emoji": "8️⃣",
+                      "phonetic": "/pɑː/",
+                      "translation": "acht",
+                      "translations": {
+                          "zh": "八",
+                          "de": "acht",
+                          "en": "eight"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>bā</b> píngguǒ.",
+                              "n": "Ich habe acht Äpfel."
+                          },
+                          {
+                              "t": "<b>bā</b> shì yīgè hǎo shùzì.",
+                              "n": "Acht ist eine gute Zahl."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "m",
+                      "word": "māo",
+                      "emoji": "🐱",
+                      "phonetic": "/maʊ̯/",
+                      "translation": "Katze",
+                      "translations": {
+                          "zh": "猫",
+                          "de": "Katze",
+                          "en": "cat"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ xǐhuān <b>māo</b>.",
+                              "n": "Ich mag Katzen."
+                          },
+                          {
+                              "t": "Nà zhī <b>māo</b> hěn kě'ài.",
+                              "n": "Diese Katze ist sehr süß."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "d",
+                      "word": "dà",
+                      "emoji": "🐘",
+                      "phonetic": "/tɑː/",
+                      "translation": "groß",
+                      "translations": {
+                          "zh": "大",
+                          "de": "groß",
+                          "en": "big"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhè shì yīgè <b>dà</b> píngguǒ.",
+                              "n": "Das ist ein großer Apfel."
+                          },
+                          {
+                              "t": "Wǒ de jiā hěn <b>dà</b>.",
+                              "n": "Mein Zuhause ist groß."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "g",
+                      "word": "gǒu",
+                      "emoji": "🐶",
+                      "phonetic": "/koʊ̯/",
+                      "translation": "Hund",
+                      "translations": {
+                          "zh": "狗",
+                          "de": "Hund",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǎng le yī zhī <b>gǒu</b>.",
+                              "n": "Ich habe einen Hund."
+                          },
+                          {
+                              "t": "Nà zhī <b>gǒu</b> hěn cōngmíng.",
+                              "n": "Dieser Hund ist sehr klug."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "j",
+                      "word": "jiā",
+                      "emoji": "🏠",
+                      "phonetic": "/tɕjɑː/",
+                      "translation": "Zuhause, Familie",
+                      "translations": {
+                          "zh": "家",
+                          "de": "Zuhause",
+                          "en": "home"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ ài wǒ de <b>jiā</b>.",
+                              "n": "Ich liebe mein Zuhause."
+                          },
+                          {
+                              "t": "Nǐ jiā zài nǎlǐ?",
+                              "n": "Wo ist dein Zuhause?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "zh",
+                      "word": "zhōng",
+                      "emoji": "⏰",
+                      "phonetic": "/ʈʂʊŋ/",
+                      "translation": "Mitte, Zentrum",
+                      "translations": {
+                          "zh": "中",
+                          "de": "Mitte",
+                          "en": "middle"
+                      },
+                      "examples": [
+                          {
+                              "t": "Zhōngguó zài <b>zhōng</b>yāng.",
+                              "n": "China liegt in der Mitte."
+                          },
+                          {
+                              "t": "Zhè shì <b>zhōng</b>xīn.",
+                              "n": "Das ist das Zentrum."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g3",
+              "name": "Finales (vocales y nasales)",
+              "icon": "🔤",
+              "color": "#10b981",
+              "description": "a o e i u ü — simples, diptongos y nasales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "a",
+                      "word": "a",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "a — <b>a</b> como en <i>“Mann”</i> o <i>“Vater”</i>",
+                      "mnemonic": "Un niño abre la boca y dice «aaa» — como cuando el médico dice «di A».",
+                      "examples": [
+                          {
+                              "t": "<b>a</b> suena como la <b>a</b> en <i>“Mann”</i>",
+                              "n": "a klingt wie das a in „Mann“"
+                          },
+                          {
+                              "t": "Māo — <span class=\"hl\">māo</span> (Katze) tiene la <b>a</b> larga",
+                              "n": "Māo — Katze hat das lange a"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "o",
+                      "word": "o",
+                      "emoji": "🔤",
+                      "phonetic": "/o/",
+                      "translation": "o — <b>o</b> como en <i>“Sohn”</i>, con los labios redondeados",
+                      "mnemonic": "Haz un círculo con la boca como una «O» sorprendida.",
+                      "examples": [
+                          {
+                              "t": "<b>o</b> suena como la <b>o</b> en <i>“Sohn”</i>",
+                              "n": "o klingt wie das o in „Sohn“"
+                          },
+                          {
+                              "t": "Hǎo — <span class=\"hl\">hǎo</span> (gut) tiene la <b>o</b> con tono bajo",
+                              "n": "Hǎo — gut hat das o mit tiefem Ton"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "e",
+                      "word": "e",
+                      "emoji": "🔤",
+                      "phonetic": "/ɤ/",
+                      "translation": "e — <b>e</b> como una <i>“e”</i> alemana pero más profunda, casi gutural",
+                      "mnemonic": "Imagina que te quedas sin voz y dices «e» desde la garganta — como un «äh» pensativo.",
+                      "examples": [
+                          {
+                              "t": "<b>e</b> sola suena como un <i>“äh”</i> alemán",
+                              "n": "e allein klingt wie ein deutsches „äh“"
+                          },
+                          {
+                              "t": "Rén — <span class=\"hl\">rén</span> (Person) lleva la <b>e</b> central",
+                              "n": "Rén — Person hat das zentrale e"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "i",
+                      "word": "i",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "i — <b>i</b> como en <i>“wie”</i>, pero más corta y tensa",
+                      "mnemonic": "Sonríe mostrando los dientes y di «i» — como cuando te hacen una foto.",
+                      "examples": [
+                          {
+                              "t": "<b>i</b> suena como la <b>i</b> en <i>“wie”</i>",
+                              "n": "i klingt wie das i in „wie“"
+                          },
+                          {
+                              "t": "Yī — <span class=\"hl\">yī</span> (eins) es solo <b>i</b> con y- inicial",
+                              "n": "Yī — eins ist nur i mit y-Anlaut"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_u",
+                      "isLetter": true,
+                      "letter": "u",
+                      "word": "u",
+                      "emoji": "🔤",
+                      "phonetic": "/u/",
+                      "translation": "u — <b>u</b> como en <i>“gut”</i>, con los labios bien redondeados",
+                      "mnemonic": "Silba como si llamaras a alguien: «uuu» con los labios en círculo.",
+                      "examples": [
+                          {
+                              "t": "<b>u</b> suena como la <b>u</b> en <i>“gut”</i>",
+                              "n": "u klingt wie das u in „gut“"
+                          },
+                          {
+                              "t": "Gǒu — <span class=\"hl\">gǒu</span> (Hund) tiene la <b>u</b> con tono bajo",
+                              "n": "Gǒu — Hund hat das u mit tiefem Ton"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ue",
+                      "isLetter": true,
+                      "letter": "ü",
+                      "word": "ü",
+                      "emoji": "🔤",
+                      "phonetic": "/y/",
+                      "translation": "ü — <b>ü</b> como en <i>“über”</i>, pero con los labios más apretados",
+                      "mnemonic": "Di «i» pero mantén los labios redondeados como para «u» — así sale la ü.",
+                      "examples": [
+                          {
+                              "t": "<b>ü</b> suena como la <b>ü</b> en <i>“über”</i>",
+                              "n": "ü klingt wie das ü in „über“"
+                          },
+                          {
+                              "t": "Después de j, q, x, y se escribe <b>u</b> pero se lee <b>ü</b>",
+                              "n": "Nach j, q, x, y schreibt man u, liest aber ü"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ai",
+                      "isLetter": true,
+                      "letter": "ai",
+                      "word": "ai",
+                      "emoji": "🔤",
+                      "phonetic": "/ai/",
+                      "translation": "ai — <b>ai</b> como <i>“eye”</i> en inglés o <i>“Ei”</i> en alemán",
+                      "mnemonic": "Imagina un huevo (<i>Ei</i>) cayendo: «ai!» — igual que el diptongo.",
+                      "examples": [
+                          {
+                              "t": "<b>ai</b> suena como <i>“Ei”</i> en alemán",
+                              "n": "ai klingt wie „Ei“ im Deutschen"
+                          },
+                          {
+                              "t": "Hǎo — <span class=\"hl\">hǎo</span> no tiene <b>ai</b>, pero <b>mǎi</b> (kaufen) sí",
+                              "n": "Hǎo hat kein ai, aber mǎi (kaufen) schon"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ei",
+                      "isLetter": true,
+                      "letter": "ei",
+                      "word": "ei",
+                      "emoji": "🔤",
+                      "phonetic": "/ei/",
+                      "translation": "ei — <b>ei</b> como en <i>“bei”</i> o <i>“mein”</i> en alemán",
+                      "mnemonic": "Es exactamente el «ei» alemán — no hay que aprender nada nuevo.",
+                      "examples": [
+                          {
+                              "t": "<b>ei</b> suena como <i>“bei”</i> en alemán",
+                              "n": "ei klingt wie „bei“ im Deutschen"
+                          },
+                          {
+                              "t": "Méi — <span class=\"hl\">méi</span> (nicht haben) lleva <b>ei</b>",
+                              "n": "Méi — nicht haben enthält ei"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ao",
+                      "isLetter": true,
+                      "letter": "ao",
+                      "word": "ao",
+                      "emoji": "🔤",
+                      "phonetic": "/au/",
+                      "translation": "ao — <b>ao</b> como <i>“au”</i> en <i>“Haus”</i>, pero con la boca más abierta",
+                      "mnemonic": "Di «a» y luego desliza hacia «o» — como un «au» exagerado.",
+                      "examples": [
+                          {
+                              "t": "<b>ao</b> suena como <i>“au”</i> en <i>“Haus”</i>",
+                              "n": "ao klingt wie „au“ in „Haus“"
+                          },
+                          {
+                              "t": "Māo — <span class=\"hl\">māo</span> (Katze) tiene <b>ao</b>",
+                              "n": "Māo — Katze hat ao"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ou",
+                      "isLetter": true,
+                      "letter": "ou",
+                      "word": "ou",
+                      "emoji": "🔤",
+                      "phonetic": "/ou/",
+                      "translation": "ou — <b>ou</b> como en <i>“so”</i> pero con los labios más cerrados al final",
+                      "mnemonic": "Empieza con «o» y termina con «u» — como un «ou» que se apaga.",
+                      "examples": [
+                          {
+                              "t": "<b>ou</b> suena como <i>“ou”</i> en francés",
+                              "n": "ou klingt wie „ou“ im Französischen"
+                          },
+                          {
+                              "t": "Gǒu — <span class=\"hl\">gǒu</span> (Hund) lleva <b>ou</b>",
+                              "n": "Gǒu — Hund enthält ou"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ia",
+                      "isLetter": true,
+                      "letter": "ia",
+                      "word": "ia",
+                      "emoji": "🔤",
+                      "phonetic": "/ia/",
+                      "translation": "ia — <b>ia</b> como <i>“ia”</i> en <i>“piano”</i>, rápida y ligera",
+                      "mnemonic": "Piensa en «ia» como una «i» que salta a la «a» — como en «piano».",
+                      "examples": [
+                          {
+                              "t": "<b>ia</b> suena como <i>“ia”</i> en <i>“piano”</i>",
+                              "n": "ia klingt wie „ia“ in „piano“"
+                          },
+                          {
+                              "t": "Jiā — <span class=\"hl\">jiā</span> (Zuhause) lleva <b>ia</b>",
+                              "n": "Jiā — Zuhause enthält ia"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ie",
+                      "isLetter": true,
+                      "letter": "ie",
+                      "word": "ie",
+                      "emoji": "🔤",
+                      "phonetic": "/iɛ/",
+                      "translation": "ie — <b>ie</b> como <i>“ie”</i> en <i>“wie”</i>, pero con la e más abierta",
+                      "mnemonic": "Es como el «ie» alemán pero la «e» se abre más — casi como «iä».",
+                      "examples": [
+                          {
+                              "t": "<b>ie</b> suena como <i>“ie”</i> en <i>“wie”</i>",
+                              "n": "ie klingt wie „ie“ in „wie“"
+                          },
+                          {
+                              "t": "Xiè — <span class=\"hl\">xiè</span> (danke) lleva <b>ie</b>",
+                              "n": "Xiè — danke enthält ie"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ua",
+                      "isLetter": true,
+                      "letter": "ua",
+                      "word": "ua",
+                      "emoji": "🔤",
+                      "phonetic": "/ua/",
+                      "translation": "ua — <b>ua</b> como <i>“ua”</i> en <i>“quatsch”</i>",
+                      "mnemonic": "Di «u» y luego «a» — como un «ua» sorprendido.",
+                      "examples": [
+                          {
+                              "t": "<b>ua</b> suena como <i>“ua”</i> en <i>“quatsch”</i>",
+                              "n": "ua klingt wie „ua“ in „quatsch“"
+                          },
+                          {
+                              "t": "Huā — <span class=\"hl\">huā</span> (Blume) lleva <b>ua</b>",
+                              "n": "Huā — Blume enthält ua"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_uo",
+                      "isLetter": true,
+                      "letter": "uo",
+                      "word": "uo",
+                      "emoji": "🔤",
+                      "phonetic": "/uo/",
+                      "translation": "uo — <b>uo</b> como <i>“uo”</i> pero con la o más abierta al final",
+                      "mnemonic": "Empieza con «u» y termina con «o» — como un «wo» sin la w.",
+                      "examples": [
+                          {
+                              "t": "<b>uo</b> suena como <i>“uo”</i> en <i>“Wort”</i> sin la r",
+                              "n": "uo klingt wie „uo“ in „Wort“ ohne r"
+                          },
+                          {
+                              "t": "Guó — <span class=\"hl\">guó</span> (Land) lleva <b>uo</b>",
+                              "n": "Guó — Land enthält uo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ue",
+                      "isLetter": true,
+                      "letter": "üe",
+                      "word": "üe",
+                      "emoji": "🔤",
+                      "phonetic": "/yɛ/",
+                      "translation": "üe — <b>üe</b> como <i>“üe”</i> pero con la e más abierta, casi como «üä»",
+                      "mnemonic": "Di «ü» y luego abre la boca hacia «e» — como un «üä» sorprendido.",
+                      "examples": [
+                          {
+                              "t": "<b>üe</b> suena como <i>“üe”</i> con la e abierta",
+                              "n": "üe klingt wie „üe“ mit offenem e"
+                          },
+                          {
+                              "t": "Yuè — <span class=\"hl\">yuè</span> (Monat) lleva <b>üe</b>",
+                              "n": "Yuè — Monat enthält üe"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_an",
+                      "isLetter": true,
+                      "letter": "an",
+                      "word": "an",
+                      "emoji": "🔤",
+                      "phonetic": "/an/",
+                      "translation": "an — <b>an</b> como <i>“an”</i> en <i>“Mann”</i> pero con la a más abierta",
+                      "mnemonic": "Es como «an» en alemán pero la «a» es más profunda — como «ann» con acento.",
+                      "examples": [
+                          {
+                              "t": "<b>an</b> suena como <i>“an”</i> en <i>“Mann”</i>",
+                              "n": "an klingt wie „an“ in „Mann“"
+                          },
+                          {
+                              "t": "Nán — <span class=\"hl\">nán</span> (Süden) lleva <b>an</b>",
+                              "n": "Nán — Süden enthält an"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_en",
+                      "isLetter": true,
+                      "letter": "en",
+                      "word": "en",
+                      "emoji": "🔤",
+                      "phonetic": "/ən/",
+                      "translation": "en — <b>en</b> como <i>“en”</i> en <i>“geben”</i> pero más corto y neutro",
+                      "mnemonic": "Es como el «en» átono alemán — piensa en «haben» y di solo «en».",
+                      "examples": [
+                          {
+                              "t": "<b>en</b> suena como <i>“en”</i> en <i>“geben”</i>",
+                              "n": "en klingt wie „en“ in „geben“"
+                          },
+                          {
+                              "t": "Rén — <span class=\"hl\">rén</span> (Person) lleva <b>en</b>",
+                              "n": "Rén — Person enthält en"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_in",
+                      "isLetter": true,
+                      "letter": "in",
+                      "word": "in",
+                      "emoji": "🔤",
+                      "phonetic": "/in/",
+                      "translation": "in — <b>in</b> como <i>“in”</i> en <i>“bin”</i> pero más tenso",
+                      "mnemonic": "Es el «in» alemán pero con la lengua más adelante — como «inn».",
+                      "examples": [
+                          {
+                              "t": "<b>in</b> suena como <i>“in”</i> en <i>“bin”</i>",
+                              "n": "in klingt wie „in“ in „bin“"
+                          },
+                          {
+                              "t": "Yīn — <span class=\"hl\">yīn</span> (Ton) lleva <b>in</b>",
+                              "n": "Yīn — Ton enthält in"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_un",
+                      "isLetter": true,
+                      "letter": "un",
+                      "word": "un",
+                      "emoji": "🔤",
+                      "phonetic": "/un/",
+                      "translation": "un — <b>un</b> como <i>“un”</i> en <i>“bunt”</i> pero con la u más redondeada",
+                      "mnemonic": "Es «un» como en alemán pero con la u más cerrada — como «unn».",
+                      "examples": [
+                          {
+                              "t": "<b>un</b> suena como <i>“un”</i> en <i>“bunt”</i>",
+                              "n": "un klingt wie „un“ in „bunt“"
+                          },
+                          {
+                              "t": "Lún — <span class=\"hl\">lún</span> (Rad) lleva <b>un</b>",
+                              "n": "Lún — Rad enthält un"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ang",
+                      "isLetter": true,
+                      "letter": "ang",
+                      "word": "ang",
+                      "emoji": "🔤",
+                      "phonetic": "/ɑŋ/",
+                      "translation": "ang — <b>ang</b> como <i>“ang”</i> en <i>“Angst”</i> pero con la a más profunda",
+                      "mnemonic": "Piensa en «Angst» en alemán — la a es más oscura y la ng es nasal.",
+                      "examples": [
+                          {
+                              "t": "<b>ang</b> suena como <i>“ang”</i> en <i>“Angst”</i>",
+                              "n": "ang klingt wie „ang“ in „Angst“"
+                          },
+                          {
+                              "t": "Máng — <span class=\"hl\">máng</span> (beschäftigt) lleva <b>ang</b>",
+                              "n": "Máng — beschäftigt enthält ang"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_eng",
+                      "isLetter": true,
+                      "letter": "eng",
+                      "word": "eng",
+                      "emoji": "🔤",
+                      "phonetic": "/əŋ/",
+                      "translation": "eng — <b>eng</b> como <i>“eng”</i> en <i>“eng”</i> pero con la e más neutra",
+                      "mnemonic": "Es como «eng» en alemán pero la e es más corta y neutra — como «äng».",
+                      "examples": [
+                          {
+                              "t": "<b>eng</b> suena como <i>“eng”</i> en <i>“eng”</i>",
+                              "n": "eng klingt wie „eng“ im Deutschen"
+                          },
+                          {
+                              "t": "Fēng — <span class=\"hl\">fēng</span> (Wind) lleva <b>eng</b>",
+                              "n": "Fēng — Wind enthält eng"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ing",
+                      "isLetter": true,
+                      "letter": "ing",
+                      "word": "ing",
+                      "emoji": "🔤",
+                      "phonetic": "/iŋ/",
+                      "translation": "ing — <b>ing</b> como <i>“ing”</i> en <i>“Ring”</i> pero más tenso",
+                      "mnemonic": "Es como «ing» en alemán pero con la i más corta — como «ing» en «Ring».",
+                      "examples": [
+                          {
+                              "t": "<b>ing</b> suena como <i>“ing”</i> en <i>“Ring”</i>",
+                              "n": "ing klingt wie „ing“ in „Ring“"
+                          },
+                          {
+                              "t": "Míng — <span class=\"hl\">míng</span> (hell) lleva <b>ing</b>",
+                              "n": "Míng — hell enthält ing"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_ong",
+                      "isLetter": true,
+                      "letter": "ong",
+                      "word": "ong",
+                      "emoji": "🔤",
+                      "phonetic": "/ʊŋ/",
+                      "translation": "ong — <b>ong</b> como <i>“ong”</i> en <i>“Jong”</i> pero con la o más cerrada",
+                      "mnemonic": "Piensa en «Jong» (Junge auf Plattdeutsch) — la o es corta y nasal.",
+                      "examples": [
+                          {
+                              "t": "<b>ong</b> suena como <i>“ong”</i> en <i>“Jong”</i>",
+                              "n": "ong klingt wie „ong“ in „Jong“"
+                          },
+                          {
+                              "t": "Zhōng — <span class=\"hl\">zhōng</span> (Mitte) lleva <b>ong</b>",
+                              "n": "Zhōng — Mitte enthält ong"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_L_er",
+                      "isLetter": true,
+                      "letter": "er",
+                      "word": "er",
+                      "emoji": "🔤",
+                      "phonetic": "/ɚ/",
+                      "translation": "er — <b>er</b> como <i>“er”</i> en <i>“Mutter”</i> pero con la lengua enrollada hacia atrás",
+                      "mnemonic": "Imagina un «er» alemán pero con la punta de la lengua hacia atrás — como un «r» americano.",
+                      "examples": [
+                          {
+                              "t": "<b>er</b> suena como <i>“er”</i> con la lengua hacia atrás",
+                              "n": "er klingt wie „er“ mit zurückgerollter Zunge"
+                          },
+                          {
+                              "t": "Èr — <span class=\"hl\">èr</span> (zwei) lleva <b>er</b>",
+                              "n": "Èr — zwei enthält er"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "ao",
+                      "word": "māo",
+                      "emoji": "🐱",
+                      "phonetic": "/mɑu/",
+                      "translation": "<b>māo</b> — Katze",
+                      "translations": {
+                          "zh": "猫",
+                          "de": "Katze",
+                          "en": "cat"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu yī zhī <b>māo</b>.",
+                              "n": "Ich habe eine Katze."
+                          },
+                          {
+                              "t": "Zhè zhī <b>māo</b> hěn kě'ài.",
+                              "n": "Diese Katze ist sehr süß."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "ou",
+                      "word": "gǒu",
+                      "emoji": "🐶",
+                      "phonetic": "/kou/",
+                      "translation": "<b>gǒu</b> — Hund",
+                      "translations": {
+                          "zh": "狗",
+                          "de": "Hund",
+                          "en": "dog"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ xǐhuān <b>gǒu</b>.",
+                              "n": "Ich mag Hunde."
+                          },
+                          {
+                              "t": "Tā yǒu yī zhī <b>gǒu</b>.",
+                              "n": "Er/Sie hat einen Hund."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "an",
+                      "word": "nán",
+                      "emoji": "🧭",
+                      "phonetic": "/nan/",
+                      "translation": "<b>nán</b> — Süden",
+                      "translations": {
+                          "zh": "南",
+                          "de": "Süden",
+                          "en": "south"
+                      },
+                      "examples": [
+                          {
+                              "t": "Běijīng zài Zhōngguó de <b>nán</b> fāng.",
+                              "n": "Peking liegt im Süden Chinas."
+                          },
+                          {
+                              "t": "Wǒ qù <b>nán</b> fāng.",
+                              "n": "Ich gehe in den Süden."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "er",
+                      "word": "èr",
+                      "emoji": "✌️",
+                      "phonetic": "/ɚ/",
+                      "translation": "<b>èr</b> — zwei",
+                      "translations": {
+                          "zh": "二",
+                          "de": "zwei",
+                          "en": "two"
+                      },
+                      "examples": [
+                          {
+                              "t": "Wǒ yǒu <b>èr</b> gè píngguǒ.",
+                              "n": "Ich habe zwei Äpfel."
+                          },
+                          {
+                              "t": "Zhè shì dì <b>èr</b> cì.",
+                              "n": "Dies ist das zweite Mal."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "zh_a0_g4",
+              "name": "Primeras palabras en pinyin",
+              "icon": "🧩",
+              "color": "#ef4444",
+              "description": "Leer y pronunciar 20 palabras esenciales",
+              "reviewFrom": [
+                  "zh_a0_g1",
+                  "zh_a0_g2",
+                  "zh_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "zh_a0_g4_L_ni-hao",
+                      "isLetter": true,
+                      "letter": "你",
+                      "word": "你",
+                      "emoji": "👤",
+                      "phonetic": "/ni˨˩˦/",
+                      "translation": "Das Zeichen für „du“ – <b>你</b> mit fallend-steigendem Ton (3. Ton).",
+                      "mnemonic": "Stell dir eine Person vor, die sich nach rechts lehnt (der linke Teil ist ein Mensch mit Hut).",
+                      "examples": [
+                          {
+                              "t": "你好 – <b>你</b> + 好 (gut) = „Hallo“",
+                              "n": "wörtlich: „du gut“"
+                          },
+                          {
+                              "t": "<b>你</b>是老师 – Du bist Lehrer.",
+                              "n": "Du bist Lehrer."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_hao",
+                      "isLetter": true,
+                      "letter": "好",
+                      "word": "好",
                       "emoji": "👍",
-                      "phonetic": "/kwɛn.tɕʰa.na.jo/",
-                      "translation": "Es ist okay / Es geht – <b>괜찮</b> (in Ordnung) + 아요",
-                      "translations": {
-                          "ko": "괜찮아요",
-                          "de": "Es ist okay",
-                          "en": "It's okay"
-                      },
+                      "phonetic": "/xaʊ˨˩˦/",
+                      "translation": "Das Zeichen für „gut“ – <b>好</b> mit fallend-steigendem Ton (3. Ton).",
+                      "mnemonic": "Links eine Frau (女), rechts ein Kind (子) – Frau mit Kind ist gut.",
                       "examples": [
                           {
-                              "t": "<b>괜찮아요</b>? – 네, 괜찮아요.",
-                              "n": "Ist es okay? – Ja, es ist okay."
+                              "t": "你好 – <b>好</b> als Teil von „Hallo“",
+                              "n": "Hallo"
+                          },
+                          {
+                              "t": "很好 – <b>好</b> mit „sehr“ (很) = „sehr gut“",
+                              "n": "sehr gut"
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g4_L_gongbuhada",
-                      "isLetter": false,
-                      "letter": "공부",
-                      "word": "공부하다",
-                      "emoji": "📘",
-                      "phonetic": "/koŋ.bu.ha.da/",
-                      "translation": "Lernen/Studieren – <b>공부</b> (Studium) + 하다 (machen)",
-                      "translations": {
-                          "ko": "공부하다",
-                          "de": "lernen/studieren",
-                          "en": "to study"
-                      },
+                      "id": "zh_a0_g4_L_xie",
+                      "isLetter": true,
+                      "letter": "谢",
+                      "word": "谢",
+                      "emoji": "🙏",
+                      "phonetic": "/ɕjɛ˥˩/",
+                      "translation": "Das Zeichen für „danken“ – <b>谢</b> mit fallendem Ton (4. Ton).",
+                      "mnemonic": "Sieh die Worte (言) und einen Körper, der sich verbeugt – wie beim Danken.",
                       "examples": [
                           {
-                              "t": "매일 한국어를 <b>공부해요</b>.",
-                              "n": "Ich lerne jeden Tag Koreanisch."
+                              "t": "谢谢 – <b>谢</b> doppelt = „Danke“",
+                              "n": "Danke"
+                          },
+                          {
+                              "t": "感谢 – <b>谢</b> mit „fühlen“ (感) = „dankbar sein“",
+                              "n": "dankbar"
                           }
                       ]
                   },
                   {
-                      "id": "ko_a0_g4_L_chingu",
+                      "id": "zh_a0_g4_L_dui",
+                      "isLetter": true,
+                      "letter": "对",
+                      "word": "对",
+                      "emoji": "✔️",
+                      "phonetic": "/tweɪ˥˩/",
+                      "translation": "Das Zeichen für „richtig/gegenüber“ – <b>对</b> mit fallendem Ton (4. Ton).",
+                      "mnemonic": "Rechts ein „Maß“ (寸) – etwas richtig messen.",
+                      "examples": [
+                          {
+                              "t": "对不起 – <b>对</b> + 不 (nicht) + 起 (aufstehen) = „Entschuldigung“",
+                              "n": "wörtl.: „nicht richtig aufstehen“"
+                          },
+                          {
+                              "t": "对 – richtig",
+                              "n": "richtig"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_bu",
+                      "isLetter": true,
+                      "letter": "不",
+                      "word": "不",
+                      "emoji": "🚫",
+                      "phonetic": "/pu˥˩/ (4. Ton, aber vor 4. Ton wird es 2. Ton)",
+                      "translation": "Das Zeichen für „nicht“ – <b>不</b> mit fallendem Ton (4. Ton), aber Tonwechsel bei 4. Ton.",
+                      "mnemonic": "Ein Strich nach unten – wie ein „Nein“ mit dem Finger.",
+                      "examples": [
+                          {
+                              "t": "不是 – <b>不</b> + 是 (sein) = „nicht sein“",
+                              "n": "nicht sein"
+                          },
+                          {
+                              "t": "不好 – <b>不</b> + 好 (gut) = „nicht gut“",
+                              "n": "nicht gut"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_you",
+                      "isLetter": true,
+                      "letter": "有",
+                      "word": "有",
+                      "emoji": "✋",
+                      "phonetic": "/joʊ˨˩˦/",
+                      "translation": "Das Zeichen für „haben“ – <b>有</b> mit fallend-steigendem Ton (3. Ton).",
+                      "mnemonic": "Sieht aus wie eine Hand, die etwas hält – du hast etwas.",
+                      "examples": [
+                          {
+                              "t": "我有 – Ich habe",
+                              "n": "Ich habe"
+                          },
+                          {
+                              "t": "没有 – <b>有</b> mit 没 (nicht) = „nicht haben“",
+                              "n": "nicht haben"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_mei",
+                      "isLetter": true,
+                      "letter": "没",
+                      "word": "没",
+                      "emoji": "❌",
+                      "phonetic": "/meɪ˧˥/",
+                      "translation": "Das Zeichen für „nicht haben/nicht“ – <b>没</b> mit steigendem Ton (2. Ton).",
+                      "mnemonic": "Wasser (氵) und eine Hand, die etwas wegwischt – nichts ist da.",
+                      "examples": [
+                          {
+                              "t": "没有 – <b>没</b> + 有 = „nicht haben“",
+                              "n": "nicht haben"
+                          },
+                          {
+                              "t": "没事 – <b>没</b> + Sache = „macht nichts“",
+                              "n": "macht nichts"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_da",
+                      "isLetter": true,
+                      "letter": "大",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "/ta˥˩/",
+                      "translation": "Das Zeichen für „groß“ – <b>大</b> mit fallendem Ton (4. Ton).",
+                      "mnemonic": "Ein Mensch mit ausgestreckten Armen – groß.",
+                      "examples": [
+                          {
+                              "t": "很大 – <b>大</b> mit „sehr“ = „sehr groß“",
+                              "n": "sehr groß"
+                          },
+                          {
+                              "t": "大人 – <b>大</b> + Person = „Erwachsener“",
+                              "n": "Erwachsener"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_xiao",
+                      "isLetter": true,
+                      "letter": "小",
+                      "word": "小",
+                      "emoji": "🐜",
+                      "phonetic": "/ɕjaʊ˨˩˦/",
+                      "translation": "Das Zeichen für „klein“ – <b>小</b> mit fallend-steigendem Ton (3. Ton).",
+                      "mnemonic": "Drei kleine Striche – wie kleine Tröpfchen.",
+                      "examples": [
+                          {
+                              "t": "很小 – <b>小</b> mit „sehr“ = „sehr klein“",
+                              "n": "sehr klein"
+                          },
+                          {
+                              "t": "小孩 – <b>小</b> + Kind = „Kind“",
+                              "n": "Kind"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_lai",
+                      "isLetter": true,
+                      "letter": "来",
+                      "word": "来",
+                      "emoji": "🚶",
+                      "phonetic": "/laɪ˧˥/",
+                      "translation": "Das Zeichen für „kommen“ – <b>来</b> mit steigendem Ton (2. Ton).",
+                      "mnemonic": "Sieht aus wie ein Baum mit Wurzeln – etwas kommt aus der Erde.",
+                      "examples": [
+                          {
+                              "t": "来 – komm",
+                              "n": "komm"
+                          },
+                          {
+                              "t": "回来 – <b>来</b> mit „zurück“ = „zurückkommen“",
+                              "n": "zurückkommen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_qu",
+                      "isLetter": true,
+                      "letter": "去",
+                      "word": "去",
+                      "emoji": "🏃",
+                      "phonetic": "/tɕʰy˥˩/",
+                      "translation": "Das Zeichen für „gehen“ – <b>去</b> mit fallendem Ton (4. Ton).",
+                      "mnemonic": "Oben ein Mensch, unten eine Höhle – er geht hinein.",
+                      "examples": [
+                          {
+                              "t": "我去 – Ich gehe",
+                              "n": "Ich gehe"
+                          },
+                          {
+                              "t": "出去 – <b>去</b> mit „hinaus“ = „hinausgehen“",
+                              "n": "hinausgehen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_chi",
+                      "isLetter": true,
+                      "letter": "吃",
+                      "word": "吃",
+                      "emoji": "🍽️",
+                      "phonetic": "/ʈʂʰɨ˥˥/",
+                      "translation": "Das Zeichen für „essen“ – <b>吃</b> mit hohem Ton (1. Ton).",
+                      "mnemonic": "Links ein Mund (口), rechts ein Gerücht – der Mund isst.",
+                      "examples": [
+                          {
+                              "t": "吃饭 – <b>吃</b> + Reis = „essen“",
+                              "n": "essen"
+                          },
+                          {
+                              "t": "好吃 – gut + <b>吃</b> = „lecker“",
+                              "n": "lecker"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_he",
+                      "isLetter": true,
+                      "letter": "喝",
+                      "word": "喝",
+                      "emoji": "🥤",
+                      "phonetic": "/xɤ˥˥/",
+                      "translation": "Das Zeichen für „trinken“ – <b>喝</b> mit hohem Ton (1. Ton).",
+                      "mnemonic": "Links ein Mund (口), rechts ein Mann mit offenem Mund – er trinkt.",
+                      "examples": [
+                          {
+                              "t": "喝水 – <b>喝</b> + Wasser = „Wasser trinken“",
+                              "n": "Wasser trinken"
+                          },
+                          {
+                              "t": "喝茶 – <b>喝</b> + Tee = „Tee trinken“",
+                              "n": "Tee trinken"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_L_shuo",
+                      "isLetter": true,
+                      "letter": "说",
+                      "word": "说",
+                      "emoji": "💬",
+                      "phonetic": "/ʂwo˥˥/",
+                      "translation": "Das Zeichen für „sprechen“ – <b>说</b> mit hohem Ton (1. Ton).",
+                      "mnemonic": "Links Worte (言), rechts ein Gesicht mit offenem Mund – sprechen.",
+                      "examples": [
+                          {
+                              "t": "说话 – <b>说</b> + Worte = „sprechen“",
+                              "n": "sprechen"
+                          },
+                          {
+                              "t": "说中文 – <b>说</b> + Chinesisch = „Chinesisch sprechen“",
+                              "n": "Chinesisch sprechen"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_01",
                       "isLetter": false,
-                      "letter": "친구",
-                      "word": "친구",
-                      "emoji": "🧑‍🤝‍🧑",
-                      "phonetic": "/tɕʰin.ɡu/",
-                      "translation": "Freund/Freundin – <b>친</b> (nah) + 구 (Person)",
+                      "letter": "你",
+                      "word": "你好",
+                      "emoji": "👋",
+                      "phonetic": "/ni˨˩˦ xaʊ˨˩˦/",
+                      "translation": "<b>Hallo</b> – wörtlich „du gut“ (3. Ton + 3. Ton → erster wird 2. Ton)",
                       "translations": {
-                          "ko": "친구",
-                          "de": "Freund",
-                          "en": "friend"
+                          "zh": "你好",
+                          "de": "Hallo",
+                          "en": "Hello"
                       },
                       "examples": [
                           {
-                              "t": "내 <b>친구</b>를 소개할게요.",
-                              "n": "Ich stelle dir meinen Freund vor."
+                              "t": "<b>你好</b>，我叫安娜。",
+                              "n": "Hallo, ich heiße Anna."
+                          },
+                          {
+                              "t": "<b>你好</b>吗？",
+                              "n": "Wie geht es dir?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_02",
+                      "isLetter": false,
+                      "letter": "谢",
+                      "word": "谢谢",
+                      "emoji": "🙏",
+                      "phonetic": "/ɕjɛ˥˩ ɕjɛ˥˩/",
+                      "translation": "<b>Danke</b> – doppeltes „谢“ (4. Ton)",
+                      "translations": {
+                          "zh": "谢谢",
+                          "de": "Danke",
+                          "en": "Thanks"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>谢谢</b>你。",
+                              "n": "Danke dir."
+                          },
+                          {
+                              "t": "非常感谢<b>谢谢</b>！",
+                              "n": "Vielen Dank!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_03",
+                      "isLetter": false,
+                      "letter": "对",
+                      "word": "对不起",
+                      "emoji": "🙇",
+                      "phonetic": "/tweɪ˥˩ pu˥˩ tɕʰi˨˩˦/",
+                      "translation": "<b>Entschuldigung</b> – wörtlich „nicht richtig aufstehen“",
+                      "translations": {
+                          "zh": "对不起",
+                          "de": "Entschuldigung",
+                          "en": "Sorry"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>对不起</b>！",
+                              "n": "Entschuldigung!"
+                          },
+                          {
+                              "t": "<b>对不起</b>，我迟到了。",
+                              "n": "Entschuldigung, ich bin zu spät."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_04",
+                      "isLetter": false,
+                      "letter": "我",
+                      "word": "我",
+                      "emoji": "🙋",
+                      "phonetic": "/wo˨˩˦/",
+                      "translation": "<b>ich</b> – 3. Ton",
+                      "translations": {
+                          "zh": "我",
+                          "de": "ich",
+                          "en": "I/me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>我</b>是学生。",
+                              "n": "Ich bin Student."
+                          },
+                          {
+                              "t": "<b>我</b>喜欢你。",
+                              "n": "Ich mag dich."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_05",
+                      "isLetter": false,
+                      "letter": "你",
+                      "word": "你",
+                      "emoji": "👉",
+                      "phonetic": "/ni˨˩˦/",
+                      "translation": "<b>du</b> – 3. Ton",
+                      "translations": {
+                          "zh": "你",
+                          "de": "du",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>你</b>好。",
+                              "n": "Hallo."
+                          },
+                          {
+                              "t": "<b>你</b>是老师吗？",
+                              "n": "Bist du Lehrer?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_06",
+                      "isLetter": false,
+                      "letter": "他",
+                      "word": "他",
+                      "emoji": "👨",
+                      "phonetic": "/tʰa˥˥/",
+                      "translation": "<b>er</b> – 1. Ton (mit 亻=Person)",
+                      "translations": {
+                          "zh": "他",
+                          "de": "er",
+                          "en": "he"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>他</b>是医生。",
+                              "n": "Er ist Arzt."
+                          },
+                          {
+                              "t": "<b>他</b>去学校。",
+                              "n": "Er geht zur Schule."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_07",
+                      "isLetter": false,
+                      "letter": "她",
+                      "word": "她",
+                      "emoji": "👩",
+                      "phonetic": "/tʰa˥˥/",
+                      "translation": "<b>sie</b> (weiblich) – 1. Ton (mit 女=Frau)",
+                      "translations": {
+                          "zh": "她",
+                          "de": "sie",
+                          "en": "she"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>她</b>是老师。",
+                              "n": "Sie ist Lehrerin."
+                          },
+                          {
+                              "t": "<b>她</b>喝咖啡。",
+                              "n": "Sie trinkt Kaffee."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_08",
+                      "isLetter": false,
+                      "letter": "我",
+                      "word": "我们",
+                      "emoji": "👥",
+                      "phonetic": "/wo˨˩˦ mən˧˥/",
+                      "translation": "<b>wir</b> – 我 + 们 (Plural)",
+                      "translations": {
+                          "zh": "我们",
+                          "de": "wir",
+                          "en": "we"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>我们</b>是朋友。",
+                              "n": "Wir sind Freunde."
+                          },
+                          {
+                              "t": "<b>我们</b>去北京。",
+                              "n": "Wir gehen nach Peking."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_09",
+                      "isLetter": false,
+                      "letter": "是",
+                      "word": "是",
+                      "emoji": "✅",
+                      "phonetic": "/ʂɨ˥˩/",
+                      "translation": "<b>sein</b> (ist) – 4. Ton",
+                      "translations": {
+                          "zh": "是",
+                          "de": "sein (ist)",
+                          "en": "is/are"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>是</b>学生。",
+                              "n": "Ich bin Student."
+                          },
+                          {
+                              "t": "这<b>是</b>书。",
+                              "n": "Das ist ein Buch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_10",
+                      "isLetter": false,
+                      "letter": "不",
+                      "word": "不是",
+                      "emoji": "❌",
+                      "phonetic": "/pu˥˩ ʂɨ˥˩/",
+                      "translation": "<b>nicht sein</b> – Verneinung von 是",
+                      "translations": {
+                          "zh": "不是",
+                          "de": "nicht sein",
+                          "en": "is not"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>不是</b>老师。",
+                              "n": "Ich bin kein Lehrer."
+                          },
+                          {
+                              "t": "这<b>不是</b>我的。",
+                              "n": "Das ist nicht meins."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_11",
+                      "isLetter": false,
+                      "letter": "有",
+                      "word": "有",
+                      "emoji": "✋",
+                      "phonetic": "/joʊ˨˩˦/",
+                      "translation": "<b>haben</b> – 3. Ton",
+                      "translations": {
+                          "zh": "有",
+                          "de": "haben",
+                          "en": "have"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>有</b>一个弟弟。",
+                              "n": "Ich habe einen jüngeren Bruder."
+                          },
+                          {
+                              "t": "你<b>有</b>钱吗？",
+                              "n": "Hast du Geld?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_12",
+                      "isLetter": false,
+                      "letter": "没",
+                      "word": "没有",
+                      "emoji": "🚫",
+                      "phonetic": "/meɪ˧˥ joʊ˨˩˦/",
+                      "translation": "<b>nicht haben</b> – Verneinung von 有",
+                      "translations": {
+                          "zh": "没有",
+                          "de": "nicht haben",
+                          "en": "don't have"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>没有</b>车。",
+                              "n": "Ich habe kein Auto."
+                          },
+                          {
+                              "t": "他<b>没有</b>时间。",
+                              "n": "Er hat keine Zeit."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_13",
+                      "isLetter": false,
+                      "letter": "好",
+                      "word": "好",
+                      "emoji": "👍",
+                      "phonetic": "/xaʊ˨˩˦/",
+                      "translation": "<b>gut</b> – 3. Ton",
+                      "translations": {
+                          "zh": "好",
+                          "de": "gut",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "很<b>好</b>！",
+                              "n": "Sehr gut!"
+                          },
+                          {
+                              "t": "天气很<b>好</b>。",
+                              "n": "Das Wetter ist gut."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_14",
+                      "isLetter": false,
+                      "letter": "不",
+                      "word": "不好",
+                      "emoji": "👎",
+                      "phonetic": "/pu˥˩ xaʊ˨˩˦/",
+                      "translation": "<b>nicht gut</b> – 不 + 好",
+                      "translations": {
+                          "zh": "不好",
+                          "de": "nicht gut",
+                          "en": "not good"
+                      },
+                      "examples": [
+                          {
+                              "t": "这个<b>不好</b>。",
+                              "n": "Das ist nicht gut."
+                          },
+                          {
+                              "t": "我心情<b>不好</b>。",
+                              "n": "Mir geht es nicht gut."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_15",
+                      "isLetter": false,
+                      "letter": "大",
+                      "word": "大",
+                      "emoji": "🐘",
+                      "phonetic": "/ta˥˩/",
+                      "translation": "<b>groß</b> – 4. Ton",
+                      "translations": {
+                          "zh": "大",
+                          "de": "groß",
+                          "en": "big"
+                      },
+                      "examples": [
+                          {
+                              "t": "这个苹果很<b>大</b>。",
+                              "n": "Dieser Apfel ist groß."
+                          },
+                          {
+                              "t": "北京很<b>大</b>。",
+                              "n": "Peking ist groß."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_16",
+                      "isLetter": false,
+                      "letter": "小",
+                      "word": "小",
+                      "emoji": "🐜",
+                      "phonetic": "/ɕjaʊ˨˩˦/",
+                      "translation": "<b>klein</b> – 3. Ton",
+                      "translations": {
+                          "zh": "小",
+                          "de": "klein",
+                          "en": "small"
+                      },
+                      "examples": [
+                          {
+                              "t": "这只猫很<b>小</b>。",
+                              "n": "Diese Katze ist klein."
+                          },
+                          {
+                              "t": "我住在一个<b>小</b>城市。",
+                              "n": "Ich wohne in einer kleinen Stadt."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_17",
+                      "isLetter": false,
+                      "letter": "来",
+                      "word": "来",
+                      "emoji": "🚶",
+                      "phonetic": "/laɪ˧˥/",
+                      "translation": "<b>kommen</b> – 2. Ton",
+                      "translations": {
+                          "zh": "来",
+                          "de": "kommen",
+                          "en": "come"
+                      },
+                      "examples": [
+                          {
+                              "t": "请<b>来</b>这里。",
+                              "n": "Bitte komm hierher."
+                          },
+                          {
+                              "t": "他<b>来</b>德国。",
+                              "n": "Er kommt nach Deutschland."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_18",
+                      "isLetter": false,
+                      "letter": "去",
+                      "word": "去",
+                      "emoji": "🏃",
+                      "phonetic": "/tɕʰy˥˩/",
+                      "translation": "<b>gehen</b> – 4. Ton",
+                      "translations": {
+                          "zh": "去",
+                          "de": "gehen",
+                          "en": "go"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>去</b>超市。",
+                              "n": "Ich gehe zum Supermarkt."
+                          },
+                          {
+                              "t": "我们<b>去</b>公园吧。",
+                              "n": "Lass uns in den Park gehen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_19",
+                      "isLetter": false,
+                      "letter": "吃",
+                      "word": "吃",
+                      "emoji": "🍽️",
+                      "phonetic": "/ʈʂʰɨ˥˥/",
+                      "translation": "<b>essen</b> – 1. Ton",
+                      "translations": {
+                          "zh": "吃",
+                          "de": "essen",
+                          "en": "eat"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>吃</b>米饭。",
+                              "n": "Ich esse Reis."
+                          },
+                          {
+                              "t": "你<b>吃</b>了吗？",
+                              "n": "Hast du gegessen?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_20",
+                      "isLetter": false,
+                      "letter": "喝",
+                      "word": "喝",
+                      "emoji": "🥤",
+                      "phonetic": "/xɤ˥˥/",
+                      "translation": "<b>trinken</b> – 1. Ton",
+                      "translations": {
+                          "zh": "喝",
+                          "de": "trinken",
+                          "en": "drink"
+                      },
+                      "examples": [
+                          {
+                              "t": "我<b>喝</b>水。",
+                              "n": "Ich trinke Wasser."
+                          },
+                          {
+                              "t": "他<b>喝</b>啤酒。",
+                              "n": "Er trinkt Bier."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "zh_a0_g4_21",
+                      "isLetter": false,
+                      "letter": "说",
+                      "word": "说",
+                      "emoji": "💬",
+                      "phonetic": "/ʂwo˥˥/",
+                      "translation": "<b>sprechen</b> – 1. Ton",
+                      "translations": {
+                          "zh": "说",
+                          "de": "sprechen",
+                          "en": "speak"
+                      },
+                      "examples": [
+                          {
+                              "t": "我会<b>说</b>中文。",
+                              "n": "Ich kann Chinesisch sprechen."
+                          },
+                          {
+                              "t": "请<b>说</b>慢一点。",
+                              "n": "Bitte sprich langsamer."
                           }
                       ]
                   }

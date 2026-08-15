@@ -518,33 +518,26 @@ Generate 10 vocabulary cards covering the most common words per tone.`,
                 slug: 'initials', name: 'Iniciales (consonantes)', icon: '🔡', color: '#f59e0b',
                 description: 'b p m f / d t n l / g k h / j q x / zh ch sh r / z c s',
                 letterCards: ['BP','DT','GK','JQX','ZHCHSH','ZCS'],
-                scope: `Mandarin initials (声母) grouped by articulation — 1 isLetter card per GROUP:
-- Labials b(/b̥/ unaspirated) p(/pʰ/ aspirated) m(/m/) f(/f/):
-  bā(8) pà(fear) māo(cat) fēi(fly)
+                scope: `Mandarin initials (声母) — 1 isLetter card per GROUP (keep each card concise: max 2 examples):
+- Labials b(/b̥/) p(/pʰ/) m(/m/) f(/f/): bā(8) pà(fear) māo(cat) fēi(fly)
 - Dentals d(/d̥/) t(/tʰ/) n(/n/) l(/l/): dà(big) tā(he) nǐ(you) lái(come)
 - Velars g(/k̚/) k(/kʰ/) h(/x/): gǒu(dog) kāi(open) hǎo(good)
 - Palatals j(/tɕ/) q(/tɕʰ/) x(/ɕ/) — ONLY before i/ü: jiā(home) qǐng(please) xiǎo(small)
-- Retroflexes zh(/ʈʂ/) ch(/ʈʂʰ/) sh(/ʂ/) r(/ʐ/): zhōng(middle) chī(eat) shū(book) rén(person)
-- Sibilants z(/ts/) c(/tsʰ/) s(/s/): zài(at/again) cài(dish) sān(3)
-KEY: aspirated vs unaspirated is the main contrast (not voiced/voiceless like Spanish).
-2 vocabulary cards per group (12 total).`,
+- Retroflexes zh(/ʈʂ/) ch(/ʈʂʰ/) sh(/ʂ/) r(/ʐ/): zhōng(middle) chī(eat) rén(person)
+- Sibilants z(/ts/) c(/tsʰ/) s(/s/): zài(again) cài(dish) sān(3)
+KEY: aspirated vs unaspirated is the main contrast.
+1 vocabulary card per group (6 total). Keep examples brief.`,
             },
             {
                 slug: 'finals', name: 'Finales (vocales y nasales)', icon: '🔤', color: '#10b981',
                 description: 'a o e i u ü — simples, diptongos y nasales',
                 letterCards: ['SIMPLE_V','COMPOUND_V','NASAL_V'],
-                scope: `Mandarin finals (韵母) — 1 isLetter card per group:
-- Simple finals: a(/a/) o(/o/) e(/ɤ/) i(/i/) u(/u/) ü(/y/ — round lips for i)
-  Note: e alone = /ɤ/ (no Spanish equiv); ü written u after j/q/x/y
-- Compound finals: ai(/aɪ/) ei(/eɪ/) ao(/ɑʊ/) ou(/oʊ/) ia(/ia/) ie(/ie/) ua(/ua/) uo(/uo/) üe(/ye/)
-  Words: māo(cat) bèi(back) hǎo(good) gǒu(dog) jiā(home) qié(eggplant)
-- Nasal finals: -n endings: an en in un ün (tongue touches teeth)
-                -ng endings: ang eng ing ong (back of throat)
-  Note: ing = /iŋ/ not "ing", ong = /ʊŋ/ not "ong"
-  Words: nán(south/man) rén(person) lín(forest) wèn(ask)
-         máng(busy) néng(can) míng(bright) tóng(same)
-- Special: er(/ɚ/ retroflex) — èr(2) ér(son) ěr(ear) érqiě(moreover)
-2 vocabulary cards per group.`,
+                scope: `Mandarin finals (韵母) — 1 isLetter card per group (max 2 examples per card):
+- Simple: a(/a/) o(/o/) e(/ɤ/) i(/i/) u(/u/) ü(/y/). Note: e alone = /ɤ/; ü→u after j/q/x/y
+- Compound: ai ei ao ou ia ie ua uo üe — words: māo(cat) hǎo(good) gǒu(dog) jiā(home)
+- Nasal -n: an en in un — nán(south) rén(person). Nasal -ng: ang eng ing ong — máng(busy) míng(bright)
+- Special: er(/ɚ/ retroflex) — èr(2) ěr(ear)
+1 vocabulary card per group (4 total). Keep cards concise.`,
             },
             {
                 slug: 'reading_words', name: 'Primeras palabras en pinyin', icon: '🧩', color: '#ef4444',
