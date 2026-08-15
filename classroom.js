@@ -1429,13 +1429,29 @@ function _clNotifIcon(type) {
     const icons = {
         student_request: '👋', student_added: '🏫', request_approved: '✅', request_rejected: '❌', new_message: '💬',
         contributor_pending: '📨', classroom_invite: '🏫',
+        welcome: '🎉', subscription_reminder: '⭐',
+        daily_tip: { misionmate: '🎯', flashcards: '🃏', traductor: '🌐', famosos: '🎭' },
     };
+    if (type === 'daily_tip') return '💡';
     return icons[type] || '🔔';
 }
+
+const _DAILY_TIP_TEXTS = {
+    misionmate: `🎯 <strong>¿Ya exploraste MisionMate?</strong> [descripción pendiente]`,
+    flashcards:  `🃏 <strong>¿Probaste los Flashcards?</strong> [descripción pendiente]`,
+    traductor:   `🌐 <strong>Nuestro Traductor hace más que traducir.</strong> [descripción pendiente]`,
+    famosos:     `🎭 <strong>¿Chateaste con un Famoso?</strong> [descripción pendiente]`,
+};
 
 function _clNotifText(n) {
     const p = n.payload || {};
     switch (n.type) {
+        case 'welcome':
+            return `¡Bienvenido/a a SenseMate${p.name ? `, <strong>${escapeHtml(p.name)}</strong>` : ''}! 🎉 Estamos muy contentos de tenerte aquí. Explorá todo lo que tenemos para vos.`;
+        case 'daily_tip':
+            return _DAILY_TIP_TEXTS[p.area] || `💡 Hay nuevas áreas para explorar en SenseMate.`;
+        case 'subscription_reminder':
+            return `⭐ ¿Todavía en el plan gratuito? Suscribite y desbloqueá todas las funciones premium de SenseMate.`;
         case 'student_request':   return `Un alumno solicitó unirse a tu clase.`;
         case 'student_added':     return `Fuiste agregado a la clase <strong>${escapeHtml(p.className || '—')}</strong>.`;
         case 'request_approved':  return `Tu solicitud para la clase <strong>${escapeHtml(p.className || '—')}</strong> fue aprobada.`;

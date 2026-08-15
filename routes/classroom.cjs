@@ -163,6 +163,12 @@ module.exports = function registerClassroomRoutes(app, { authDb }) {
         res.json(result);
     });
 
+    // ── Notificaciones programadas (daily tip, subscription reminder) ──
+    app.post('/notifications/check', authDb.verifyToken, (req, res) => {
+        authDb.checkScheduledNotifications(req.jwtUser.id);
+        res.json({ ok: true });
+    });
+
     // ── Unread count (badge) ─────────────────────────────────────
     app.get('/classroom/unread', authDb.verifyToken, (req, res) => {
         res.json({ unread: authDb.getUnreadCount(req.jwtUser.id) });

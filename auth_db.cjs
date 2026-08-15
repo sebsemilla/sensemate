@@ -164,6 +164,8 @@ async function register({ name, username, email, password, preferredLang }) {
     const pub   = _makePublicUser(row);
     const token = _signToken(row);
 
+    createNotification(id, 'welcome', { name: name.trim() });
+
     return { ok: true, token, user: { ...pub, isNew: true }, verifyToken };
 }
 
@@ -652,6 +654,43 @@ function getUnreadCount(userId) {
     return db.prepare('SELECT COUNT(*) AS cnt FROM classroom_notifications WHERE user_id = ? AND is_read = 0').get(userId)?.cnt || 0;
 }
 
+function _getLastNotifOfType(userId, type) {
+    return db.prepare(
+        'SELECT created_at FROM classroom_notifications WHERE user_id = ? AND type = ? ORDER BY created_at DESC LIMIT 1'
+    ).get(userId, type);
+}
+
+const _DAILY_TIP_AREAS = ['misionmate', 'flashcards', 'traductor', 'famosos'];
+
+function checkScheduledNotifications(userId) {
+    const user = db.prepare('SELECT created_at, plan FROM users WHERE id = ?').get(userId);
+    if (!user) return;
+    const now         = new Date();
+    const userCreated = new Date(user.created_at);
+    const msSinceReg  = now - userCreated;
+
+    // Daily tip: después de 24h del registro, luego cada 24h
+    const lastTip = _getLastNotifOfType(userId, 'daily_tip');
+    const tipDue  = lastTip
+        ? (now - new Date(lastTip.created_at)) >= 24 * 60 * 60 * 1000
+        : msSinceReg >= 24 * 60 * 60 * 1000;
+    if (tipDue) {
+        const cnt = db.prepare(
+            'SELECT COUNT(*) AS c FROM classroom_notifications WHERE user_id = ? AND type = ?'
+        ).get(userId, 'daily_tip')?.c || 0;
+        createNotification(userId, 'daily_tip', { area: _DAILY_TIP_AREAS[cnt % 4] });
+    }
+
+    // Recordatorio de suscripción: cada 3 días, solo usuarios free
+    if ((user.plan || 'free') === 'free') {
+        const lastRem = _getLastNotifOfType(userId, 'subscription_reminder');
+        const remDue  = lastRem
+            ? (now - new Date(lastRem.created_at)) >= 3 * 24 * 60 * 60 * 1000
+            : msSinceReg >= 3 * 24 * 60 * 60 * 1000;
+        if (remDue) createNotification(userId, 'subscription_reminder', {});
+    }
+}
+
 function rateTeacher(teacherId, studentId, score, comment) {
     const existing = db.prepare('SELECT * FROM teacher_ratings WHERE teacher_id = ? AND student_id = ?').get(teacherId, studentId);
     const now = new Date().toISOString();
@@ -947,7 +986,7 @@ module.exports = {
     addStudentByUsername, removeStudentFromClass,
     requestJoinClass, respondToRequest, getStudentEnrollment,
     getClassMessages, getDMMessages, sendMessage,
-    getUserNotifications, markNotifRead, getUnreadCount, createNotification,
+    getUserNotifications, markNotifRead, getUnreadCount, createNotification, checkScheduledNotifications,
     rateTeacher, getUserByUsername,
     createAnnouncement, getAnnouncements, deleteAnnouncement,
     // Bots + Feed (SQLite)

@@ -14,6 +14,33 @@
 
 const _FC_COLORS = ['#6366f1', '#ec4899', '#10b981', '#f59e0b', '#3b82f6', '#8b5cf6', '#ef4444', '#14b8a6'];
 
+// ─── El Cajón ──────────────────────────────────────────────────
+// Staging area donde van las palabras guardadas desde el Traductor
+// antes de ser asignadas a un grupo de flashcards.
+
+const _LS_CAJON = 'ls_cajon';
+
+function loadCajon() {
+    try { return JSON.parse(localStorage.getItem(_LS_CAJON) || '[]'); }
+    catch { return []; }
+}
+function saveCajon(arr) {
+    localStorage.setItem(_LS_CAJON, JSON.stringify(arr || []));
+}
+function addToCajon(word, translation, srcLang, tgtLang) {
+    const cajon = loadCajon();
+    cajon.push({
+        id:          `cj_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+        word,
+        translation,
+        sourceLang:  srcLang || 'en',
+        targetLang:  tgtLang || 'es',
+        dateAdded:   new Date().toISOString(),
+        source:      'translator',
+    });
+    saveCajon(cajon);
+}
+
 function _fcVisibilityBadge(visibility) {
     if (visibility === 'public')  return `<span class="fc-badge fc-badge--public">🌐 Público</span>`;
     if (visibility === 'pending') return `<span class="fc-badge fc-badge--pending">⏳ En revisión</span>`;
@@ -146,6 +173,25 @@ function _showAddCardsFlow(groupId, isNewGroup = false) {
                 <div class="fc-cap-note">🔒 Llegaste al máximo de tarjetas del plan gratuito para este grupo.</div>
                 `}
 
+                ${(() => {
+                    const cajonItems = loadCajon();
+                    if (!cajonItems.length) return '';
+                    return `
+                    <details class="cajon-from-drawer" ${cards.length === 0 ? 'open' : ''}>
+                        <summary class="cajon-drawer-summary">📥 Desde el Cajón <span class="cajon-drawer-count">${cajonItems.length}</span></summary>
+                        <div class="cajon-drawer-list">
+                            ${cajonItems.map(item => `
+                                <div class="cajon-drawer-item">
+                                    <span class="cajon-drawer-word">${escapeHtml(item.word)}</span>
+                                    <span class="cajon-item-sep">→</span>
+                                    <span class="cajon-drawer-trans">${escapeHtml(item.translation)}</span>
+                                    <button class="cajon-drawer-add" data-id="${escapeHtml(item.id)}">+ Agregar</button>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </details>`;
+                })()}
+
                 ${cards.length ? `
                 <div class="fc-added-list">
                     ${cards.map(c => `
@@ -207,6 +253,26 @@ function _showAddCardsFlow(groupId, isNewGroup = false) {
             btn.addEventListener('click', () => {
                 loadFlashcardData();
                 flashcards = flashcards.filter(c => c.id !== btn.dataset.cardId);
+                saveFlashcardData();
+                render();
+            });
+        });
+
+        // Agregar desde el Cajón
+        document.querySelectorAll('.cajon-drawer-add').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const cajon = loadCajon();
+                const item  = cajon.find(i => i.id === btn.dataset.id);
+                if (!item) return;
+                loadFlashcardData();
+                flashcards.push({
+                    id:          `cf_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`,
+                    groupId,
+                    word:        item.word,
+                    translation: item.translation,
+                    source:      'cajon',
+                    dateAdded:   new Date().toISOString(),
+                });
                 saveFlashcardData();
                 render();
             });
@@ -308,4 +374,126 @@ async function _fcSyncSubmissionStatus() {
 
     if (changed) saveFlashcardData();
     return changed;
+}
+
+// ─── Panel principal del Cajón ─────────────────────────────────
+
+function _showCajonPanel() {
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+    loadFlashcardData();
+    const cajon  = loadCajon();
+    const groups = flashcardGroups || [];
+
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="prac-wrap">
+            <div class="prac-header">
+                <button class="school-back-btn" id="cajonBackBtn">← Mis Tarjetas</button>
+            </div>
+            <div class="prac-level-tabs-centered">
+                <button class="prac-level-tab" data-mainnav="nivel">Tarjetas por nivel</button>
+                <button class="prac-level-tab active" data-mainnav="mis">Mis Tarjetas</button>
+            </div>
+            <div style="text-align:center;margin:1rem 0 .25rem">
+                <span style="font-size:1.6rem">📥</span>
+                <h2 class="prac-title-centered" style="margin:.25rem 0 .1rem">El Cajón</h2>
+                <p style="font-size:.8rem;color:var(--text-muted);margin:0">${cajon.length} palabra${cajon.length !== 1 ? 's' : ''} guardada${cajon.length !== 1 ? 's' : ''}</p>
+            </div>
+            ${cajon.length === 0 ? `
+                <div class="prac-custom-empty">
+                    <div class="prac-custom-empty-icon">📭</div>
+                    <p>El Cajón está vacío.</p>
+                    <p class="prac-custom-empty-hint">Guardá palabras desde el Traductor para que aparezcan aquí.</p>
+                </div>
+            ` : `
+                <div class="cajon-list">
+                    ${cajon.map(item => `
+                        <div class="cajon-item" data-id="${escapeHtml(item.id)}">
+                            <div class="cajon-item-words">
+                                <span class="cajon-item-word">${escapeHtml(item.word)}</span>
+                                <span class="cajon-item-sep">→</span>
+                                <span class="cajon-item-trans">${escapeHtml(item.translation)}</span>
+                            </div>
+                            <div class="cajon-item-actions">
+                                <button class="cajon-move-btn" data-id="${escapeHtml(item.id)}">→ Grupo</button>
+                                <button class="cajon-del-btn" data-id="${escapeHtml(item.id)}">✕</button>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `}
+        </div>
+    `);
+
+    document.getElementById('cajonBackBtn').addEventListener('click', showCustomGroupsPanel);
+
+    document.querySelectorAll('[data-mainnav]').forEach(tab => {
+        tab.addEventListener('click', () => {
+            if (tab.dataset.mainnav === 'nivel') showVocabCtxPanel();
+            else showCustomGroupsPanel();
+        });
+    });
+
+    document.querySelectorAll('.cajon-del-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            saveCajon(loadCajon().filter(i => i.id !== btn.dataset.id));
+            _showCajonPanel();
+        });
+    });
+
+    document.querySelectorAll('.cajon-move-btn').forEach(btn => {
+        btn.addEventListener('click', () => _showCajonGroupPicker(btn.dataset.id, btn, groups));
+    });
+}
+
+// ─── Picker de grupo para mover un ítem del Cajón ──────────────
+
+function _showCajonGroupPicker(cajonItemId, anchorBtn, groups) {
+    document.getElementById('cajonGroupPicker')?.remove();
+
+    const picker = document.createElement('div');
+    picker.id        = 'cajonGroupPicker';
+    picker.className = 'cajon-group-picker';
+    picker.innerHTML = groups.length === 0
+        ? `<div class="cajon-picker-empty">No tenés grupos creados aún.<br><small>Creá uno desde "Mis Tarjetas".</small></div>`
+        : groups.map(g => `
+            <button class="cajon-picker-group" data-group-id="${escapeHtml(g.id)}">
+                <span class="cajon-picker-dot" style="background:${escapeHtml(g.color || '#6366f1')}"></span>
+                ${escapeHtml(g.name)}
+            </button>
+          `).join('');
+    document.body.appendChild(picker);
+
+    const rect = anchorBtn.getBoundingClientRect();
+    picker.style.top  = `${rect.bottom + window.scrollY + 6}px`;
+    picker.style.left = `${Math.max(8, Math.min(rect.left, window.innerWidth - 230))}px`;
+
+    picker.querySelectorAll('.cajon-picker-group').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const cajon = loadCajon();
+            const item  = cajon.find(i => i.id === cajonItemId);
+            if (!item) { picker.remove(); return; }
+            loadFlashcardData();
+            flashcards.push({
+                id:          `cf_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`,
+                groupId:     btn.dataset.groupId,
+                word:        item.word,
+                translation: item.translation,
+                source:      'cajon',
+                dateAdded:   new Date().toISOString(),
+            });
+            saveFlashcardData();
+            picker.remove();
+            showToast('✅ Tarjeta agregada al grupo');
+            _showCajonPanel();
+        });
+    });
+
+    const close = e => {
+        if (!picker.contains(e.target) && e.target !== anchorBtn) {
+            picker.remove();
+            document.removeEventListener('click', close, true);
+        }
+    };
+    setTimeout(() => document.addEventListener('click', close, true), 0);
 }
