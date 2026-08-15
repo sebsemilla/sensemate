@@ -97,7 +97,7 @@ function showPracticeOverview(selectedLevel = 'A0') {
         <div class="prac-wrap">
 
             <div class="prac-header">
-                <button class="school-back-btn" id="pracBackBtn">← Menú</button>
+                <button class="school-back-btn" id="pracBackBtn">${typeof appMode !== 'undefined' && appMode === 'mision' ? '← Curso' : '← Menú'}</button>
             </div>
             <h2 class="prac-title-centered">${curriculum.levelName || curriculum.level}</h2>
             <div class="prac-level-tabs-centered">

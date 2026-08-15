@@ -4796,7 +4796,7 @@ function _showVocabCtxModule(group, key) {
                 <button class="ma1-quiz-start-btn" id="vctxQuizBtn">${done ? '✓ Practicado — Repetir' : '🎯 Practicar vocabulario'}</button>
             </div>
         </div>`);
-    document.getElementById('vctxBackBtn').addEventListener('click', () => showVocabCtxPanel());
+    document.getElementById('vctxBackBtn').addEventListener('click', () => appMode === 'mision' ? showMainMenu() : showVocabCtxPanel());
     document.getElementById('vctxQuizBtn').addEventListener('click', () => _runVocabCtxQuiz(group, key));
 }
 
