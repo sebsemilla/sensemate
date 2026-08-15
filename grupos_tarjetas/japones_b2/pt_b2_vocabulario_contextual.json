@@ -1,0 +1,4406 @@
+[
+  {
+    "id": "pt_B2_vctx_01",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Debating the pros and cons of remote work",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "増える",
+        "pos": "verb",
+        "phonetic": "[ɸɯᵝe̞ɾɯᵝ]",
+        "translation": "aumentar, crescer",
+        "note": "Verbo intransitivo, enfatiza o aumento natural da quantidade.",
+        "furigana_html": "<ruby>増<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>える",
+        "reading": "ふえる",
+        "romaji": "fueru"
+      },
+      {
+        "word": "減る",
+        "pos": "verb",
+        "phonetic": "[he̞ɾɯᵝ]",
+        "translation": "diminuir, reduzir",
+        "note": "Verbo intransitivo, oposto de 増える.",
+        "furigana_html": "<ruby>減<rp>(</rp><rt>へ</rt><rp>)</rp></ruby>る",
+        "reading": "へる",
+        "romaji": "heru"
+      },
+      {
+        "word": "効果",
+        "pos": "noun",
+        "phonetic": "[ko̞ːka̠]",
+        "translation": "efeito, resultado",
+        "note": "Frequentemente usado com 「がある/ない」.",
+        "furigana_html": "<ruby>効果<rp>(</rp><rt>こうか</rt><rp>)</rp></ruby>",
+        "reading": "こうか",
+        "romaji": "kōka"
+      },
+      {
+        "word": "必要",
+        "pos": "noun/adj",
+        "phonetic": "[çiʦɯᵝjo̞ː]",
+        "translation": "necessário, necessidade",
+        "note": "Uso como substantivo formal 「必要がある」 significa 'ser necessário'.",
+        "furigana_html": "<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>",
+        "reading": "ひつよう",
+        "romaji": "hitsuyō"
+      },
+      {
+        "word": "特に",
+        "pos": "adverb",
+        "phonetic": "[to̞kɯ̥ᵝɲi]",
+        "translation": "especialmente, particularmente",
+        "note": "Enfatiza o grau.",
+        "furigana_html": "<ruby>特<rp>(</rp><rt>とく</rt><rp>)</rp></ruby>に",
+        "reading": "とくに",
+        "romaji": "tokuni"
+      },
+      {
+        "word": "通勤",
+        "pos": "noun",
+        "phonetic": "[t͡sɯᵝːkʲiɴ]",
+        "translation": "deslocamento, ir e voltar do trabalho",
+        "note": "Frequentemente usado com 「する」 para formar um verbo nominal.",
+        "furigana_html": "<ruby>通勤<rp>(</rp><rt>つうきん</rt><rp>)</rp></ruby>",
+        "reading": "つうきん",
+        "romaji": "tsūkin"
+      },
+      {
+        "word": "確かに",
+        "pos": "adverb",
+        "phonetic": "[ta̠ɕi̥ka̠ɲi]",
+        "translation": "certamente, de fato",
+        "note": "Usado para reconhecer o ponto de vista do outro.",
+        "furigana_html": "<ruby>確<rp>(</rp><rt>たし</rt><rp>)</rp></ruby>かに",
+        "reading": "たしかに",
+        "romaji": "tashikani"
+      },
+      {
+        "word": "管理",
+        "pos": "noun",
+        "phonetic": "[ka̠ɴɾʲi]",
+        "translation": "gestão, controle",
+        "note": "Frequentemente usado com 「する」 para formar um verbo nominal.",
+        "furigana_html": "<ruby>管理<rp>(</rp><rt>かんり</rt><rp>)</rp></ruby>",
+        "reading": "かんり",
+        "romaji": "kanri"
+      },
+      {
+        "word": "集中",
+        "pos": "noun",
+        "phonetic": "[ɕɯᵝːt͡ɕɯᵝː]",
+        "translation": "concentração, foco",
+        "note": "Frequentemente usado com 「する」 para formar um verbo nominal.",
+        "furigana_html": "<ruby>集中<rp>(</rp><rt>しゅうちゅう</rt><rp>)</rp></ruby>",
+        "reading": "しゅうちゅう",
+        "romaji": "shūchū"
+      },
+      {
+        "word": "一方",
+        "pos": "conj",
+        "phonetic": "[ippo̞ː]",
+        "translation": "por outro lado, enquanto",
+        "note": "Usado para contrastar dois pontos de vista.",
+        "furigana_html": "<ruby>一方<rp>(</rp><rt>いっぽう</rt><rp>)</rp></ruby>",
+        "reading": "いっぽう",
+        "romaji": "ippō"
+      },
+      {
+        "word": "場合",
+        "pos": "noun",
+        "phonetic": "[ba̠a̠i]",
+        "translation": "caso, situação",
+        "note": "Frequentemente usado em expressões como 「場合によっては」.",
+        "furigana_html": "<ruby>場合<rp>(</rp><rt>ばあい</rt><rp>)</rp></ruby>",
+        "reading": "ばあい",
+        "romaji": "baai"
+      },
+      {
+        "word": "以上",
+        "pos": "noun",
+        "phonetic": "[iʑo̞ː]",
+        "translation": "acima, mais de",
+        "note": "Frequentemente usado após numerais para indicar 'mais que...'.",
+        "furigana_html": "<ruby>以上<rp>(</rp><rt>いじょう</rt><rp>)</rp></ruby>",
+        "reading": "いじょう",
+        "romaji": "ijō"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "リモートワークが増えると、通勤時間が減って、特に子育て中の人には効果が大きいよね。",
+        "translation": "Se o trabalho remoto aumentar, o tempo de deslocamento diminui, e especialmente para quem está criando filhos, o efeito é grande, né?",
+        "highlights": [
+          "増える",
+          "通勤",
+          "減って",
+          "特に",
+          "効果"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "確かに便利だけど、自己管理が必要だし、集中できる環境がない場合もあるよ。",
+        "translation": "É verdade que é conveniente, mas é preciso autogestão, e às vezes não há um ambiente onde se possa concentrar.",
+        "highlights": [
+          "確かに",
+          "管理",
+          "必要",
+          "集中",
+          "場合"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "でも、会社に行けば、チームとのコミュニケーションが自然に生まれる。一方、リモートだと意識的に作らないといけないね。",
+        "translation": "Mas, se você vai ao escritório, a comunicação com a equipe surge naturalmente. Por outro lado, no remoto, é preciso criar isso conscientemente, né?",
+        "highlights": [
+          "一方"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうだね。あと、リモートワークが続くと、運動不足で健康を害するリスクが増えるという研究もあるよ。",
+        "translation": "É verdade. Além disso, há estudos que mostram que, se o trabalho remoto continuar, o risco de prejudicar a saúde por falta de exercício aumenta.",
+        "highlights": [
+          "増える"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "それは心配だね。でも、通勤がなくなることで、睡眠時間が増えて、健康にいいという意見もあるよ。",
+        "translation": "Isso é preocupante, né? Mas também há opiniões de que, com o fim do deslocamento, o tempo de sono aumenta e isso é bom para a saúde.",
+        "highlights": [
+          "通勤",
+          "増えて"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "確かに、人によって違うね。ただ、管理職としては、部下の進捗を把握するのが難しいという問題があるんだ。",
+        "translation": "De fato, varia de pessoa para pessoa. Mas, como gestor, há o problema de ser difícil acompanhar o progresso dos subordinados.",
+        "highlights": [
+          "確かに",
+          "管理"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "それはツールで解決できるよ。実際、私の会社では、毎日の報告を必須にしたら、問題が減ったんだ。",
+        "translation": "Isso pode ser resolvido com ferramentas. Na verdade, na minha empresa, quando tornamos o relatório diário obrigatório, os problemas diminuíram.",
+        "highlights": [
+          "必要",
+          "減った"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "なるほど。でも、やはり対面のコミュニケーションの効果にはかないませんね。以上、私の意見です。",
+        "translation": "Entendi. Mas, ainda assim, não se compara ao efeito da comunicação presencial. Acima, está a minha opinião.",
+        "highlights": [
+          "効果",
+          "以上"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "〜が増える / 減る",
+        "translation": "... aumentar / diminuir"
+      },
+      {
+        "phrase": "〜が必要だ",
+        "translation": "é necessário..."
+      },
+      {
+        "phrase": "〜場合がある",
+        "translation": "às vezes..."
+      },
+      {
+        "phrase": "〜一方、",
+        "translation": "por outro lado..."
+      },
+      {
+        "phrase": "以上、〜",
+        "translation": "acima está... (expressão de resumo)"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_03",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Discussing a complex ethical dilemma",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "迷う",
+        "pos": "verb",
+        "phonetic": "まよう",
+        "translation": "hesitar, ficar indeciso",
+        "note": "Indica dificuldade em escolher entre múltiplas opções",
+        "furigana_html": "<ruby>迷<rp>(</rp><rt>まよ</rt><rp>)</rp></ruby>う",
+        "reading": "まよう",
+        "romaji": "mayou"
+      },
+      {
+        "word": "判断",
+        "pos": "noun",
+        "phonetic": "はんだん",
+        "translation": "julgamento",
+        "note": "Frequentemente usado com 「下す」, significando tomar uma decisão",
+        "furigana_html": "<ruby>判断<rp>(</rp><rt>はんだん</rt><rp>)</rp></ruby>",
+        "reading": "はんだん",
+        "romaji": "handan"
+      },
+      {
+        "word": "正しい",
+        "pos": "adj",
+        "phonetic": "ただしい",
+        "translation": "correto, certo",
+        "note": "Enfatiza a correção moral ou factual",
+        "furigana_html": "<ruby>正<rp>(</rp><rt>ただ</rt><rp>)</rp></ruby>しい",
+        "reading": "ただしい",
+        "romaji": "tadashii"
+      },
+      {
+        "word": "行動",
+        "pos": "noun",
+        "phonetic": "こうどう",
+        "translation": "ação, comportamento",
+        "note": "Frequentemente usado com 「をとる」",
+        "furigana_html": "<ruby>行動<rp>(</rp><rt>こうどう</rt><rp>)</rp></ruby>",
+        "reading": "こうどう",
+        "romaji": "kōdō"
+      },
+      {
+        "word": "影響",
+        "pos": "noun",
+        "phonetic": "えいきょう",
+        "translation": "influência, impacto",
+        "note": "Frequentemente usado com 「与える」",
+        "furigana_html": "<ruby>影響<rp>(</rp><rt>えいきょう</rt><rp>)</rp></ruby>",
+        "reading": "えいきょう",
+        "romaji": "eikyō"
+      },
+      {
+        "word": "責任",
+        "pos": "noun",
+        "phonetic": "せきにん",
+        "translation": "responsabilidade",
+        "note": "Frequentemente usado com 「取る」",
+        "furigana_html": "<ruby>責任<rp>(</rp><rt>せきにん</rt><rp>)</rp></ruby>",
+        "reading": "せきにん",
+        "romaji": "sekinin"
+      },
+      {
+        "word": "結果",
+        "pos": "noun",
+        "phonetic": "けっか",
+        "translation": "resultado",
+        "note": "Enfatiza o desfecho final de algo",
+        "furigana_html": "<ruby>結果<rp>(</rp><rt>けっか</rt><rp>)</rp></ruby>",
+        "reading": "けっか",
+        "romaji": "kekka"
+      },
+      {
+        "word": "重大",
+        "pos": "adj-na",
+        "phonetic": "じゅうだい",
+        "translation": "grave, sério",
+        "note": "Descreve algo importante ou de grande impacto",
+        "furigana_html": "<ruby>重大<rp>(</rp><rt>じゅうだい</rt><rp>)</rp></ruby>",
+        "reading": "じゅうだい",
+        "romaji": "jūdai"
+      },
+      {
+        "word": "決める",
+        "pos": "verb",
+        "phonetic": "きめる",
+        "translation": "decidir",
+        "note": "Enfatiza a ação de tomar uma decisão",
+        "furigana_html": "<ruby>決<rp>(</rp><rt>き</rt><rp>)</rp></ruby>める",
+        "reading": "きめる",
+        "romaji": "kimeru"
+      },
+      {
+        "word": "しかし",
+        "pos": "conj",
+        "phonetic": "しかし",
+        "translation": "mas, porém",
+        "note": "Usado para mudança de ideia, mais formal",
+        "furigana_html": "しかし",
+        "reading": "しかし",
+        "romaji": "shikashi"
+      },
+      {
+        "word": "全て",
+        "pos": "noun",
+        "phonetic": "すべて",
+        "translation": "tudo, todos",
+        "note": "Enfatiza que não há exceções",
+        "furigana_html": "<ruby>全<rp>(</rp><rt>すべ</rt><rp>)</rp></ruby>て",
+        "reading": "すべて",
+        "romaji": "subete"
+      },
+      {
+        "word": "考える",
+        "pos": "verb",
+        "phonetic": "かんがえる",
+        "translation": "pensar, considerar",
+        "note": "Enfatiza o pensamento profundo",
+        "furigana_html": "<ruby>考<rp>(</rp><rt>かんが</rt><rp>)</rp></ruby>える",
+        "reading": "かんがえる",
+        "romaji": "kangaeru"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "この倫理的なジレンマには本当に迷う。どちらの行動が正しいか判断できない。",
+        "translation": "Diante deste dilema ético, eu realmente hesito. Não consigo julgar qual ação é a correta.",
+        "highlights": [
+          "迷う",
+          "行動",
+          "正しい",
+          "判断"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "確かに。しかし、その判断は多くの人に重大な影響を与えるだろう。",
+        "translation": "De fato. Mas, esse julgamento terá um impacto grave em muitas pessoas.",
+        "highlights": [
+          "しかし",
+          "重大",
+          "影響"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "だからこそ、責任を持って決める必要がある。でも、結果を考えると怖い。",
+        "translation": "Por isso mesmo, é necessário decidir com responsabilidade. Mas, pensar no resultado me assusta.",
+        "highlights": [
+          "責任",
+          "決める",
+          "結果",
+          "考える"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "全ての選択が完璧とは限らない。重要なのは、その後の対応だ。",
+        "translation": "Nem todas as escolhas são perfeitas. O importante é como lidar com as consequências depois.",
+        "highlights": [
+          "全て"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "でも、もし間違った判断をしたら、取り返しがつかないかもしれない。",
+        "translation": "Mas, se eu fizer um julgamento errado, talvez não haja como voltar atrás.",
+        "highlights": [
+          "判断"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "それでも、何もしないことも一つの行動だ。その影響も考慮すべきだ。",
+        "translation": "Mesmo assim, não fazer nada também é uma ação. Devemos considerar esse impacto também.",
+        "highlights": [
+          "行動",
+          "影響"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "そう言われると、少し気が楽になった。もう一度、しっかり考えてみるよ。",
+        "translation": "Ouvindo isso, fico um pouco mais aliviado. Vou pensar bem novamente.",
+        "highlights": [
+          "考える"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "うん、自分で決めた結果なら、責任も取れるはずだ。",
+        "translation": "Sim, se for o resultado da sua própria decisão, você deve ser capaz de assumir a responsabilidade.",
+        "highlights": [
+          "決める",
+          "結果",
+          "責任"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "判断を下す",
+        "translation": "tomar uma decisão"
+      },
+      {
+        "phrase": "責任を取る",
+        "translation": "assumir a responsabilidade"
+      },
+      {
+        "phrase": "影響を与える",
+        "translation": "causar impacto"
+      },
+      {
+        "phrase": "迷う",
+        "translation": "ficar indeciso"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_05",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Analyzing the impact of social media on society",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "表す",
+        "pos": "verb",
+        "phonetic": "あらわす",
+        "translation": "expressar, representar",
+        "note": "Frequentemente usado para expressar opiniões, sentimentos ou o significado representado por dados",
+        "furigana_html": "<ruby>表<rp>(</rp><rt>あらわ</rt><rp>)</rp></ruby>す",
+        "reading": "あらわす",
+        "romaji": "arawasu"
+      },
+      {
+        "word": "種類",
+        "pos": "noun",
+        "phonetic": "しゅるい",
+        "translation": "tipo, espécie",
+        "note": "Enfatiza a classificação, frequentemente usado para enumerar diferentes itens",
+        "furigana_html": "<ruby>種類<rp>(</rp><rt>しゅるい</rt><rp>)</rp></ruby>",
+        "reading": "しゅるい",
+        "romaji": "shurui"
+      },
+      {
+        "word": "例えば",
+        "pos": "adv",
+        "phonetic": "たとえば",
+        "translation": "por exemplo",
+        "note": "Usado para dar exemplos",
+        "furigana_html": "<ruby>例<rp>(</rp><rt>たと</rt><rp>)</rp></ruby>えば",
+        "reading": "たとえば",
+        "romaji": "tatoeba"
+      },
+      {
+        "word": "情報",
+        "pos": "noun",
+        "phonetic": "じょうほう",
+        "translation": "informação",
+        "note": "Refere-se a vários tipos de notícias e dados, é uma palavra de alta frequência no nível B2",
+        "furigana_html": "<ruby>情報<rp>(</rp><rt>じょうほう</rt><rp>)</rp></ruby>",
+        "reading": "じょうほう",
+        "romaji": "jōhō"
+      },
+      {
+        "word": "信じる",
+        "pos": "verb",
+        "phonetic": "しんじる",
+        "translation": "acreditar",
+        "note": "Indica confiança em fatos ou pessoas",
+        "furigana_html": "<ruby>信<rp>(</rp><rt>しん</rt><rp>)</rp></ruby>じる",
+        "reading": "しんじる",
+        "romaji": "shinjiru"
+      },
+      {
+        "word": "理由",
+        "pos": "noun",
+        "phonetic": "りゆう",
+        "translation": "razão, motivo",
+        "note": "Frequentemente usado com as partículas 「で」 ou 「を」",
+        "furigana_html": "<ruby>理由<rp>(</rp><rt>りゆう</rt><rp>)</rp></ruby>",
+        "reading": "りゆう",
+        "romaji": "riyū"
+      },
+      {
+        "word": "増加",
+        "pos": "noun",
+        "phonetic": "ぞうか",
+        "translation": "aumento, crescimento",
+        "note": "Forma nominal, o verbo é 「増加する」",
+        "furigana_html": "<ruby>増加<rp>(</rp><rt>ぞうか</rt><rp>)</rp></ruby>",
+        "reading": "ぞうか",
+        "romaji": "zōka"
+      },
+      {
+        "word": "現れる",
+        "pos": "verb",
+        "phonetic": "あらわれる",
+        "translation": "aparecer, manifestar-se",
+        "note": "Indica que algo se manifesta, frequentemente usado com a partícula 「に」",
+        "furigana_html": "<ruby>現<rp>(</rp><rt>あらわ</rt><rp>)</rp></ruby>れる",
+        "reading": "あらわれる",
+        "romaji": "arawareru"
+      },
+      {
+        "word": "社会",
+        "pos": "noun",
+        "phonetic": "しゃかい",
+        "translation": "sociedade",
+        "note": "Refere-se à sociedade como um todo, é um substantivo comum",
+        "furigana_html": "<ruby>社会<rp>(</rp><rt>しゃかい</rt><rp>)</rp></ruby>",
+        "reading": "しゃかい",
+        "romaji": "shakai"
+      },
+      {
+        "word": "直接",
+        "pos": "adv",
+        "phonetic": "ちょくせつ",
+        "translation": "diretamente",
+        "note": "Indica sem passar por etapas intermediárias",
+        "furigana_html": "<ruby>直接<rp>(</rp><rt>ちょくせつ</rt><rp>)</rp></ruby>",
+        "reading": "ちょくせつ",
+        "romaji": "chokusetsu"
+      },
+      {
+        "word": "関係",
+        "pos": "noun",
+        "phonetic": "かんけい",
+        "translation": "relação, vínculo",
+        "note": "Frequentemente usado com 「〜がある/ない」 ou 「〜に」",
+        "furigana_html": "<ruby>関係<rp>(</rp><rt>かんけい</rt><rp>)</rp></ruby>",
+        "reading": "かんけい",
+        "romaji": "kankei"
+      },
+      {
+        "word": "問題",
+        "pos": "noun",
+        "phonetic": "もんだい",
+        "translation": "problema",
+        "note": "Refere-se a questões ou dificuldades que precisam ser resolvidas",
+        "furigana_html": "<ruby>問題<rp>(</rp><rt>もんだい</rt><rp>)</rp></ruby>",
+        "reading": "もんだい",
+        "romaji": "mondai"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "最近の調査によると、ソーシャルメディアの利用時間が増加している。これは何を表すだろうか。",
+        "translation": "De acordo com pesquisas recentes, o tempo de uso das mídias sociais está aumentando. O que isso representa?",
+        "highlights": [
+          "増加",
+          "表す"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "例えば、情報の種類が多くなり、人々が直接意見を交換する機会が増えたことが理由かもしれない。",
+        "translation": "Por exemplo, pode ser porque os tipos de informação aumentaram e as oportunidades de as pessoas trocarem opiniões diretamente aumentaram.",
+        "highlights": [
+          "例えば",
+          "情報",
+          "種類",
+          "直接",
+          "理由"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "しかし、その情報を信じるかどうかは大きな問題だ。間違った情報が社会に現れることもある。",
+        "translation": "Mas acreditar ou não nessas informações é um grande problema. Informações erradas às vezes aparecem na sociedade.",
+        "highlights": [
+          "信じる",
+          "問題",
+          "社会",
+          "現れる"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "確かに、特に若い世代はソーシャルメディアの情報に影響されやすい。これは現実の人間関係にも関係している。",
+        "translation": "De fato, especialmente as gerações mais jovens são facilmente influenciadas pelas informações das mídias sociais. Isso também está relacionado aos relacionamentos interpessoais reais.",
+        "highlights": [
+          "関係"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "その結果、友達との関係が浅くなるという意見もある。でも、直接会うより便利な面もあるだろう。",
+        "translation": "Como resultado, há opiniões de que os relacionamentos com amigos se tornam superficiais. Mas também há aspectos mais convenientes do que encontrar-se diretamente.",
+        "highlights": [
+          "関係",
+          "直接"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうだね。問題は使い方だと思う。例えば、情報を選ぶとき、理由を明確にすることが大切だ。",
+        "translation": "É verdade. Acho que o problema está na forma de uso. Por exemplo, ao escolher informações, é importante esclarecer os motivos.",
+        "highlights": [
+          "問題",
+          "情報",
+          "理由"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "その通りだ。ソーシャルメディアの影響を分析するには、長期的な視点も必要だ。",
+        "translation": "Exatamente. Para analisar o impacto das mídias sociais, também é necessária uma perspectiva de longo prazo.",
+        "highlights": []
+      },
+      {
+        "speaker": "B",
+        "text": "うん。そして、その分析が社会の改善につながることを信じよう。",
+        "translation": "Sim. E vamos acreditar que essa análise levará à melhoria da sociedade.",
+        "highlights": [
+          "社会",
+          "信じる"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "〜を表す",
+        "translation": "expressar..., representar..."
+      },
+      {
+        "phrase": "〜を信じる",
+        "translation": "acreditar em..."
+      },
+      {
+        "phrase": "〜に現れる",
+        "translation": "aparecer em..."
+      },
+      {
+        "phrase": "〜に関する",
+        "translation": "relacionado a..."
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_07",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Apresentando uma proposta de negócios",
+    "frequency_note": "palavras classificadas ~1500–3000 por frequência do japonês",
+    "vocabulary": [
+      {
+        "word": "提案",
+        "pos": "noun",
+        "phonetic": "teian",
+        "translation": "proposta",
+        "note": "Refere-se a uma proposta formal, comumente usada em negócios ou reuniões.",
+        "furigana_html": "<ruby>提案<rp>(</rp><rt>ていあん</rt><rp>)</rp></ruby>",
+        "reading": "ていあん",
+        "romaji": "teian"
+      },
+      {
+        "word": "具体的",
+        "pos": "adj",
+        "phonetic": "gutaiteki",
+        "translation": "concreto, específico",
+        "note": "Descreve algo concreto e claro, em oposição ao abstrato.",
+        "furigana_html": "<ruby>具体<rp>(</rp><rt>ぐたい</rt><rp>)</rp></ruby><ruby>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>",
+        "reading": "ぐたいてき",
+        "romaji": "gutaiteki"
+      },
+      {
+        "word": "進める",
+        "pos": "verb",
+        "phonetic": "susumeru",
+        "translation": "avançar, prosseguir",
+        "note": "Frequentemente usado para impulsionar projetos, planos ou discussões.",
+        "furigana_html": "<ruby>進<rp>(</rp><rt>すす</rt><rp>)</rp></ruby>める",
+        "reading": "すすめる",
+        "romaji": "susumeru"
+      },
+      {
+        "word": "検討",
+        "pos": "noun",
+        "phonetic": "kentou",
+        "translation": "consideração, estudo",
+        "note": "Frequentemente usado com 'する' para indicar consideração cuidadosa ou revisão.",
+        "furigana_html": "<ruby>検討<rp>(</rp><rt>けんとう</rt><rp>)</rp></ruby>",
+        "reading": "けんとう",
+        "romaji": "kentō"
+      },
+      {
+        "word": "条件",
+        "pos": "noun",
+        "phonetic": "jouken",
+        "translation": "condição",
+        "note": "Refere-se a termos ou condições em contratos ou acordos.",
+        "furigana_html": "<ruby>条件<rp>(</rp><rt>じょうけん</rt><rp>)</rp></ruby>",
+        "reading": "じょうけん",
+        "romaji": "jōken"
+      },
+      {
+        "word": "実現",
+        "pos": "noun",
+        "phonetic": "jitsugen",
+        "translation": "realização",
+        "note": "Refere-se a tornar um plano ou objetivo realidade.",
+        "furigana_html": "<ruby>実現<rp>(</rp><rt>じつげん</rt><rp>)</rp></ruby>",
+        "reading": "じつげん",
+        "romaji": "jitsugen"
+      },
+      {
+        "word": "説明",
+        "pos": "noun",
+        "phonetic": "setsumei",
+        "translation": "explicação",
+        "note": "Frequentemente usado com 'する' para indicar explicação ou declaração.",
+        "furigana_html": "<ruby>説明<rp>(</rp><rt>せつめい</rt><rp>)</rp></ruby>",
+        "reading": "せつめい",
+        "romaji": "setsumei"
+      },
+      {
+        "word": "現状",
+        "pos": "noun",
+        "phonetic": "genjou",
+        "translation": "estado atual",
+        "note": "Refere-se ao estado ou situação atual.",
+        "furigana_html": "<ruby>現状<rp>(</rp><rt>げんじょう</rt><rp>)</rp></ruby>",
+        "reading": "げんじょう",
+        "romaji": "genjō"
+      },
+      {
+        "word": "課題",
+        "pos": "noun",
+        "phonetic": "kadai",
+        "translation": "tarefa, problema a ser resolvido",
+        "note": "Em negócios, frequentemente se refere a desafios ou tarefas a serem resolvidos.",
+        "furigana_html": "<ruby>課題<rp>(</rp><rt>かだい</rt><rp>)</rp></ruby>",
+        "reading": "かだい",
+        "romaji": "kadai"
+      },
+      {
+        "word": "明確",
+        "pos": "adj",
+        "phonetic": "meikaku",
+        "translation": "claro, explícito",
+        "note": "Descreve algo claro e sem ambiguidade, frequentemente usado para objetivos, instruções, etc.",
+        "furigana_html": "<ruby>明確<rp>(</rp><rt>めいかく</rt><rp>)</rp></ruby>",
+        "reading": "めいかく",
+        "romaji": "meikaku"
+      },
+      {
+        "word": "全体",
+        "pos": "noun",
+        "phonetic": "zentai",
+        "translation": "todo, totalidade",
+        "note": "Refere-se a tudo ou ao todo, em oposição a parte.",
+        "furigana_html": "<ruby>全体<rp>(</rp><rt>ぜんたい</rt><rp>)</rp></ruby>",
+        "reading": "ぜんたい",
+        "romaji": "zentai"
+      },
+      {
+        "word": "実行",
+        "pos": "noun",
+        "phonetic": "jikkou",
+        "translation": "execução, implementação",
+        "note": "Frequentemente usado com 'する' para indicar colocar um plano em ação.",
+        "furigana_html": "<ruby>実行<rp>(</rp><rt>じっこう</rt><rp>)</rp></ruby>",
+        "reading": "じっこう",
+        "romaji": "jikkō"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "本日の提案について、まず現状を簡単に説明します。",
+        "translation": "Sobre a proposta de hoje, primeiro explicarei brevemente a situação atual.",
+        "highlights": [
+          "提案",
+          "現状",
+          "説明"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "はい、お願いします。特に現在の課題を明確にしていただけると助かります。",
+        "translation": "Sim, por favor. Especialmente se puder esclarecer os problemas atuais, seria de grande ajuda.",
+        "highlights": [
+          "課題",
+          "明確"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "承知しました。現在の課題は、コスト管理と全体の効率です。",
+        "translation": "Entendido. Os problemas atuais são o gerenciamento de custos e a eficiência geral.",
+        "highlights": [
+          "全体"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "では、その課題を解決するための具体的な条件はありますか？",
+        "translation": "Então, existem condições específicas para resolver esses problemas?",
+        "highlights": [
+          "具体的",
+          "条件"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "はい。まず、新しいシステムを導入し、業務を進めることを検討しています。",
+        "translation": "Sim. Primeiro, estamos considerando introduzir um novo sistema para avançar as operações.",
+        "highlights": [
+          "進める",
+          "検討"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そのシステムの導入で、実現できる効果は何ですか？",
+        "translation": "Com a introdução desse sistema, que efeitos podem ser alcançados?",
+        "highlights": [
+          "実現"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "コスト削減と処理速度の向上です。さらに、実行には約3ヶ月かかります。",
+        "translation": "Redução de custos e melhoria na velocidade de processamento. Além disso, a execução levará cerca de 3 meses.",
+        "highlights": [
+          "実行"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "分かりました。では、その提案を全体で検討して、来週までに返答します。",
+        "translation": "Entendi. Então, vamos considerar essa proposta como um todo e responderemos até a próxima semana.",
+        "highlights": [
+          "全体",
+          "検討",
+          "提案"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "現状を説明する",
+        "translation": "explicar a situação atual"
+      },
+      {
+        "phrase": "課題を明確にする",
+        "translation": "esclarecer os problemas"
+      },
+      {
+        "phrase": "具体的な条件",
+        "translation": "condições específicas"
+      },
+      {
+        "phrase": "実行には時間がかかる",
+        "translation": "a execução leva tempo"
+      },
+      {
+        "phrase": "全体で検討する",
+        "translation": "considerar como um todo"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_09",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Discussing mental health and wellbeing openly",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "保つ",
+        "pos": "verb",
+        "phonetic": "たもつ",
+        "translation": "manter, preservar",
+        "note": "Frequentemente usado em expressões como \"健康を保つ\"",
+        "furigana_html": "<ruby>保<rp>(</rp><rt>たも</rt><rp>)</rp></ruby>つ",
+        "reading": "たもつ",
+        "romaji": "tamotsu"
+      },
+      {
+        "word": "状態",
+        "pos": "noun",
+        "phonetic": "じょうたい",
+        "translation": "estado, condição",
+        "note": "Refere-se à condição de uma pessoa ou coisa",
+        "furigana_html": "<ruby>状態<rp>(</rp><rt>じょうたい</rt><rp>)</rp></ruby>",
+        "reading": "じょうたい",
+        "romaji": "jōtai"
+      },
+      {
+        "word": "感じる",
+        "pos": "verb",
+        "phonetic": "かんじる",
+        "translation": "sentir, perceber",
+        "furigana_html": "<ruby>感<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>じる",
+        "reading": "かんじる",
+        "romaji": "kanjiru"
+      },
+      {
+        "word": "不安",
+        "pos": "adj-noun",
+        "phonetic": "ふあん",
+        "translation": "inquietação, ansiedade",
+        "furigana_html": "<ruby>不安<rp>(</rp><rt>ふあん</rt><rp>)</rp></ruby>",
+        "reading": "ふあん",
+        "romaji": "fuan"
+      },
+      {
+        "word": "支える",
+        "pos": "verb",
+        "phonetic": "ささえる",
+        "translation": "apoiar, sustentar",
+        "furigana_html": "<ruby>支<rp>(</rp><rt>ささ</rt><rp>)</rp></ruby>える",
+        "reading": "ささえる",
+        "romaji": "sasaeru"
+      },
+      {
+        "word": "負担",
+        "pos": "noun",
+        "phonetic": "ふたん",
+        "translation": "fardo, pressão",
+        "furigana_html": "<ruby>負担<rp>(</rp><rt>ふたん</rt><rp>)</rp></ruby>",
+        "reading": "ふたん",
+        "romaji": "futan"
+      },
+      {
+        "word": "軽減",
+        "pos": "noun/verb",
+        "phonetic": "けいげん",
+        "translation": "aliviar, reduzir",
+        "furigana_html": "<ruby>軽減<rp>(</rp><rt>けいげん</rt><rp>)</rp></ruby>",
+        "reading": "けいげん",
+        "romaji": "keigen"
+      },
+      {
+        "word": "十分",
+        "pos": "adj/adv",
+        "phonetic": "じゅうぶん",
+        "translation": "suficiente, bastante",
+        "furigana_html": "<ruby>十<rp>(</rp><rt>じゅう</rt><rp>)</rp></ruby><ruby>分<rp>(</rp><rt>ふん</rt><rp>)</rp></ruby>",
+        "reading": "じゅうふん",
+        "romaji": "jūfun"
+      },
+      {
+        "word": "気分",
+        "pos": "noun",
+        "phonetic": "きぶん",
+        "translation": "humor, disposição",
+        "furigana_html": "<ruby>気分<rp>(</rp><rt>きぶん</rt><rp>)</rp></ruby>",
+        "reading": "きぶん",
+        "romaji": "kibun"
+      },
+      {
+        "word": "変わる",
+        "pos": "verb",
+        "phonetic": "かわる",
+        "translation": "mudar, alterar-se",
+        "furigana_html": "<ruby>変<rp>(</rp><rt>か</rt><rp>)</rp></ruby>わる",
+        "reading": "かわる",
+        "romaji": "kawaru"
+      },
+      {
+        "word": "互い",
+        "pos": "noun",
+        "phonetic": "たがい",
+        "translation": "mutuamente, um ao outro",
+        "furigana_html": "<ruby>互<rp>(</rp><rt>たが</rt><rp>)</rp></ruby>い",
+        "reading": "たがい",
+        "romaji": "tagai"
+      },
+      {
+        "word": "認める",
+        "pos": "verb",
+        "phonetic": "みとめる",
+        "translation": "reconhecer, admitir",
+        "furigana_html": "<ruby>認<rp>(</rp><rt>みと</rt><rp>)</rp></ruby>める",
+        "reading": "みとめる",
+        "romaji": "mitomeru"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "最近、なんだか気分がすぐれなくて、不安を感じることが多いんだ。",
+        "translation": "Ultimamente, sinto-me meio mal, e tenho sentido ansiedade com frequência.",
+        "highlights": [
+          "気分",
+          "不安",
+          "感じる"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "それは大変だね。でも、自分の状態を認めることは大事だよ。",
+        "translation": "Isso deve ser difícil. Mas é importante reconhecer o seu próprio estado.",
+        "highlights": [
+          "状態",
+          "認める"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "うん、でも仕事の負担が大きくて、なかなか気分が変わらないんだ。",
+        "translation": "Sim, mas a pressão do trabalho é grande, e o meu humor não melhora facilmente.",
+        "highlights": [
+          "負担",
+          "変わる"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "負担を軽減するために、十分な休憩を取るのはどう？",
+        "translation": "Que tal descansar o suficiente para aliviar o fardo?",
+        "highlights": [
+          "軽減",
+          "十分"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "そうしたいけど、周りの人を支える責任もあるから、休めないんだ。",
+        "translation": "Eu gostaria, mas também tenho a responsabilidade de apoiar as pessoas ao meu redor, então não consigo descansar.",
+        "highlights": [
+          "支える"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "でも、自分の健康を保つことも大切だよ。互いに助け合えば、少しは楽になるよ。",
+        "translation": "Mas manter a sua própria saúde também é importante. Se nos ajudarmos mutuamente, ficará um pouco mais fácil.",
+        "highlights": [
+          "保つ",
+          "互い"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "確かに、話すだけでも気分が楽になるね。ありがとう。",
+        "translation": "É verdade, só de conversar já me sinto melhor. Obrigado.",
+        "highlights": []
+      },
+      {
+        "speaker": "B",
+        "text": "いつでも話してね。一人で抱え込まないで。",
+        "translation": "Pode falar comigo quando quiser. Não guarde tudo para si.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "気分がすぐれない",
+        "translation": "sentir-se mal, indisposto"
+      },
+      {
+        "phrase": "状態を認める",
+        "translation": "reconhecer o estado, encarar a realidade"
+      },
+      {
+        "phrase": "負担を軽減する",
+        "translation": "aliviar o fardo"
+      },
+      {
+        "phrase": "互いに助け合う",
+        "translation": "ajudar-se mutuamente"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_11",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Talking about urban vs rural living",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "暮らす",
+        "pos": "verb",
+        "phonetic": "くらす /kɯɾasɯ/",
+        "translation": "viver, morar",
+        "note": "Enfatiza um estilo de vida de longo prazo, mais amplo que morar",
+        "furigana_html": "<ruby>暮<rp>(</rp><rt>く</rt><rp>)</rp></ruby>らす",
+        "reading": "くらす",
+        "romaji": "kurasu"
+      },
+      {
+        "word": "都会",
+        "pos": "noun",
+        "phonetic": "とかい /tokai/",
+        "translation": "cidade, grande cidade",
+        "note": "Em oposição a campo",
+        "furigana_html": "<ruby>都会<rp>(</rp><rt>とかい</rt><rp>)</rp></ruby>",
+        "reading": "とかい",
+        "romaji": "tokai"
+      },
+      {
+        "word": "田舎",
+        "pos": "noun",
+        "phonetic": "いなか /inaka/",
+        "translation": "campo, zona rural",
+        "note": "Em oposição a cidade",
+        "furigana_html": "<ruby>田舎<rp>(</rp><rt>いなか</rt><rp>)</rp></ruby>",
+        "reading": "いなか",
+        "romaji": "inaka"
+      },
+      {
+        "word": "便利",
+        "pos": "adj-na",
+        "phonetic": "べんり /beɴɾi/",
+        "translation": "conveniente",
+        "note": "",
+        "furigana_html": "<ruby>便利<rp>(</rp><rt>べんり</rt><rp>)</rp></ruby>",
+        "reading": "べんり",
+        "romaji": "benri"
+      },
+      {
+        "word": "落ち着く",
+        "pos": "verb",
+        "phonetic": "おちつく /otɕitsɯkɯ/",
+        "translation": "acalmar, ficar tranquilo, estabelecer-se",
+        "note": "Indica que o sentimento ou ambiente traz paz",
+        "furigana_html": "<ruby>落<rp>(</rp><rt>お</rt><rp>)</rp></ruby>ち<ruby>着<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>く",
+        "reading": "おちつく",
+        "romaji": "ochitsuku"
+      },
+      {
+        "word": "比べる",
+        "pos": "verb",
+        "phonetic": "くらべる /kɯɾabeɾɯ/",
+        "translation": "comparar",
+        "note": "Frequentemente usado como comparar A com B",
+        "furigana_html": "<ruby>比<rp>(</rp><rt>くら</rt><rp>)</rp></ruby>べる",
+        "reading": "くらべる",
+        "romaji": "kuraberu"
+      },
+      {
+        "word": "不便",
+        "pos": "adj-na",
+        "phonetic": "ふべん /ɸɯbeɴ/",
+        "translation": "inconveniente",
+        "note": "",
+        "furigana_html": "<ruby>不便<rp>(</rp><rt>ふべん</rt><rp>)</rp></ruby>",
+        "reading": "ふべん",
+        "romaji": "fuben"
+      },
+      {
+        "word": "自然",
+        "pos": "noun",
+        "phonetic": "しぜん /ɕizeɴ/",
+        "translation": "natureza",
+        "note": "",
+        "furigana_html": "<ruby>自然<rp>(</rp><rt>しぜん</rt><rp>)</rp></ruby>",
+        "reading": "しぜん",
+        "romaji": "shizen"
+      },
+      {
+        "word": "人間",
+        "pos": "noun",
+        "phonetic": "にんげん /ɲiɴgeɴ/",
+        "translation": "pessoa, ser humano",
+        "note": "Mais do que pessoa, enfatiza a natureza humana ou social",
+        "furigana_html": "<ruby>人間<rp>(</rp><rt>にんげん</rt><rp>)</rp></ruby>",
+        "reading": "にんげん",
+        "romaji": "ningen"
+      },
+      {
+        "word": "特に",
+        "pos": "adverb",
+        "phonetic": "とくに /tokɯɲi/",
+        "translation": "especialmente, particularmente",
+        "note": "Nota: evite na lista, mas como o pedido exige 12 palavras, escolhi novamente",
+        "furigana_html": "<ruby>特<rp>(</rp><rt>とく</rt><rp>)</rp></ruby>に",
+        "reading": "とくに",
+        "romaji": "tokuni"
+      },
+      {
+        "word": "ゆっくり",
+        "pos": "adverb",
+        "phonetic": "jɯkkɯɾi",
+        "translation": "devagar, calmamente",
+        "note": "Frequentemente usado com suru ou verbos",
+        "furigana_html": "ゆっくり",
+        "reading": "ゆっくり",
+        "romaji": "yukkuri"
+      },
+      {
+        "word": "移る",
+        "pos": "verb",
+        "phonetic": "うつる /ɯtsɯɾɯ/",
+        "translation": "mudar, mudar-se (de casa)",
+        "note": "Hikkosu é mais específico, utsuru é mais geral",
+        "furigana_html": "<ruby>移<rp>(</rp><rt>うつ</rt><rp>)</rp></ruby>る",
+        "reading": "うつる",
+        "romaji": "utsuru"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "田舎で暮らすのと都会で暮らすのと、よく比べるけど、君はどっちが好き？",
+        "translation": "Viver no campo e viver na cidade, eu costumo comparar, qual você prefere?",
+        "highlights": [
+          "田舎",
+          "暮らす",
+          "都会",
+          "比べる"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "うーん、都会は何をするにも便利だけど、毎日が忙しすぎて、ゆっくりする時間がないんだ。",
+        "translation": "Hmm, na cidade é conveniente para fazer qualquer coisa, mas todo dia é tão corrido que não tenho tempo para relaxar.",
+        "highlights": [
+          "都会",
+          "便利",
+          "ゆっくり"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "確かに。でも田舎は交通が不便で、買い物にも困るよ。",
+        "translation": "Realmente. Mas no campo o transporte é inconveniente, e até para fazer compras é um problema.",
+        "highlights": [
+          "田舎",
+          "不便"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "それはそうだけど、自然の中で生活すると、心がすごく落ち着くんだよね。",
+        "translation": "Isso é verdade, mas viver em meio à natureza acalma muito o coração.",
+        "highlights": [
+          "自然",
+          "落ち着く"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "その気持ちは分かる。でも、人間はやっぱり人との交流が大事で、都会の方が機会が多いと思う。",
+        "translation": "Eu entendo esse sentimento. Mas, para os seres humanos, a interação com outras pessoas é importante, e acho que na cidade há mais oportunidades.",
+        "highlights": [
+          "人間"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "でも、田舎でも近所の人と深く付き合えるよ。それに、ストレスの少ない生活は健康にいいし。",
+        "translation": "Mas no campo também dá para ter um relacionamento profundo com os vizinhos. Além disso, uma vida com menos estresse faz bem à saúde.",
+        "highlights": [
+          "田舎"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "健康も大事だね。でも、仕事のことを考えると、やっぱり都会に住んだ方が有利だよ。",
+        "translation": "A saúde também é importante. Mas pensando no trabalho, morar na cidade é mais vantajoso.",
+        "highlights": [
+          "都会"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうだね。もし田舎に移るなら、仕事をリモートに変えるしかないかな。",
+        "translation": "É verdade. Se eu for me mudar para o campo, só me resta transformar o trabalho em remoto.",
+        "highlights": [
+          "移る"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "心が落ち着く",
+        "translation": "Sentir o coração tranquilo, sentir-se em paz"
+      },
+      {
+        "phrase": "何をするにも便利",
+        "translation": "Conveniente para fazer qualquer coisa"
+      },
+      {
+        "phrase": "田舎に移る",
+        "translation": "Mudar-se para o campo"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_13",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Negotiating a salary or contract term",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "増やす",
+        "pos": "verb",
+        "phonetic": "/ɸɯjasɯ/",
+        "translation": "aumentar",
+        "note": "verbo transitivo, significa 'aumentar a quantidade'",
+        "furigana_html": "<ruby>増<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>やす",
+        "reading": "ふやす",
+        "romaji": "fuyasu"
+      },
+      {
+        "word": "交渉",
+        "pos": "noun",
+        "phonetic": "/koːɕoː/",
+        "translation": "negociação",
+        "furigana_html": "<ruby>交渉<rp>(</rp><rt>こうしょう</rt><rp>)</rp></ruby>",
+        "reading": "こうしょう",
+        "romaji": "kōshō"
+      },
+      {
+        "word": "提示",
+        "pos": "noun",
+        "phonetic": "/teːʑi/",
+        "translation": "apresentação (de condições, etc.)",
+        "furigana_html": "<ruby>提示<rp>(</rp><rt>ていじ</rt><rp>)</rp></ruby>",
+        "reading": "ていじ",
+        "romaji": "teiji"
+      },
+      {
+        "word": "承諾",
+        "pos": "noun",
+        "phonetic": "/ɕoːdaku/",
+        "translation": "consentimento, aceitação",
+        "furigana_html": "<ruby>承諾<rp>(</rp><rt>しょうだく</rt><rp>)</rp></ruby>",
+        "reading": "しょうだく",
+        "romaji": "shōdaku"
+      },
+      {
+        "word": "多少",
+        "pos": "adverb",
+        "phonetic": "/taɕoː/",
+        "translation": "um pouco, ligeiramente",
+        "furigana_html": "<ruby>多少<rp>(</rp><rt>たしょう</rt><rp>)</rp></ruby>",
+        "reading": "たしょう",
+        "romaji": "tashō"
+      },
+      {
+        "word": "譲歩",
+        "pos": "noun",
+        "phonetic": "/ʑoːho/",
+        "translation": "concessão",
+        "furigana_html": "<ruby>譲歩<rp>(</rp><rt>じょうほ</rt><rp>)</rp></ruby>",
+        "reading": "じょうほ",
+        "romaji": "jōho"
+      },
+      {
+        "word": "得る",
+        "pos": "verb",
+        "phonetic": "/eɾɯ/",
+        "translation": "obter",
+        "furigana_html": "<ruby>得<rp>(</rp><rt>え</rt><rp>)</rp></ruby>る",
+        "reading": "える",
+        "romaji": "eru"
+      },
+      {
+        "word": "損",
+        "pos": "noun/adjective",
+        "phonetic": "/soɴ/",
+        "translation": "prejuízo, perda",
+        "furigana_html": "<ruby>損<rp>(</rp><rt>そん</rt><rp>)</rp></ruby>",
+        "reading": "そん",
+        "romaji": "son"
+      },
+      {
+        "word": "考慮",
+        "pos": "noun",
+        "phonetic": "/koːɾjo/",
+        "translation": "consideração",
+        "furigana_html": "<ruby>考慮<rp>(</rp><rt>こうりょ</rt><rp>)</rp></ruby>",
+        "reading": "こうりょ",
+        "romaji": "kōryo"
+      },
+      {
+        "word": "妥当",
+        "pos": "adjective",
+        "phonetic": "/datoː/",
+        "translation": "razoável, adequado",
+        "furigana_html": "<ruby>妥当<rp>(</rp><rt>だとう</rt><rp>)</rp></ruby>",
+        "reading": "だとう",
+        "romaji": "datō"
+      },
+      {
+        "word": "ただし",
+        "pos": "conjunction",
+        "phonetic": "/tadaɕi/",
+        "translation": "porém, contudo",
+        "furigana_html": "ただし",
+        "reading": "ただし",
+        "romaji": "tadashi"
+      },
+      {
+        "word": "上回る",
+        "pos": "verb",
+        "phonetic": "/ɯwamaɾɯ/",
+        "translation": "exceder, ultrapassar",
+        "furigana_html": "<ruby>上回<rp>(</rp><rt>うわまわ</rt><rp>)</rp></ruby>る",
+        "reading": "うわまわる",
+        "romaji": "uwamawaru"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "今回の提示額は、私の希望を上回っていますが、その代わりに勤務時間を増やす必要があるとのことですね。",
+        "translation": "O valor apresentado desta vez excede minhas expectativas, mas ouvi dizer que seria necessário aumentar as horas de trabalho, certo?",
+        "highlights": [
+          "提示額",
+          "上回って",
+          "増やす"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "はい、ただし、残業手当も含めての金額です。ご考慮いただけますか。",
+        "translation": "Sim, porém, esse valor já inclui o pagamento de horas extras. Você poderia considerar?",
+        "highlights": [
+          "ただし",
+          "考慮"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "なるほど。でも、少し損をしている気がします。基本給を多少上げていただかないと、納得できません。",
+        "translation": "Entendo. Mas sinto que estou saindo um pouco no prejuízo. Se o salário base não for um pouco aumentado, não posso aceitar.",
+        "highlights": [
+          "損",
+          "多少"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "ご意見を承諾しました。では、基本給を5%上げる代わりに、賞与を減らすのはいかがでしょうか。",
+        "translation": "Aceito sua opinião. Então, que tal aumentar o salário base em 5% em troca de reduzir o bônus?",
+        "highlights": [
+          "承諾",
+          "上げる",
+          "減らす"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "それは妥当な線ですが、賞与を減らすと年間収入が下がる可能性があります。もう少し譲歩をお願いしたいです。",
+        "translation": "Essa é uma linha razoável, mas se o bônus for reduzido, a renda anual pode cair. Gostaria de pedir mais um pouco de concessão.",
+        "highlights": [
+          "妥当",
+          "譲歩"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "では、基本給を6%上げ、賞与は現状維持。ただし、勤務時間の柔軟性はなくなります。",
+        "translation": "Então, aumento de 6% no salário base e manutenção do bônus. Porém, a flexibilidade de horário de trabalho deixará de existir.",
+        "highlights": [
+          "上げ",
+          "現状維持",
+          "ただし"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "それで契約を結べます。ただ、この条件を文書でいただければ、安心できます。",
+        "translation": "Assim posso assinar o contrato. Apenas, se puder me dar essas condições por escrito, ficarei tranquilo.",
+        "highlights": [
+          "契約",
+          "文書",
+          "安心"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "もちろんです。交渉の結果、双方にとって良い条件を得られましたね。",
+        "translation": "Claro. Como resultado da negociação, conseguimos condições boas para ambos os lados, não é?",
+        "highlights": [
+          "交渉",
+          "得られ"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "上回る",
+        "translation": "exceder, ultrapassar"
+      },
+      {
+        "phrase": "損をする",
+        "translation": "sair no prejuízo"
+      },
+      {
+        "phrase": "譲歩をお願いする",
+        "translation": "pedir concessão"
+      },
+      {
+        "phrase": "契約を結ぶ",
+        "translation": "assinar contrato"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_15",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Debating environmental policy with a peer",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "環境",
+        "pos": "noun",
+        "phonetic": "かんきょう",
+        "translation": "meio ambiente",
+        "note": "Palavra comum, refere-se ao ambiente natural",
+        "furigana_html": "<ruby>環境<rp>(</rp><rt>かんきょう</rt><rp>)</rp></ruby>",
+        "reading": "かんきょう",
+        "romaji": "kankyō"
+      },
+      {
+        "word": "政策",
+        "pos": "noun",
+        "phonetic": "せいさく",
+        "translation": "política",
+        "note": "Refere-se às diretrizes do governo ou de organizações",
+        "furigana_html": "<ruby>政策<rp>(</rp><rt>せいさく</rt><rp>)</rp></ruby>",
+        "reading": "せいさく",
+        "romaji": "seisaku"
+      },
+      {
+        "word": "影響",
+        "pos": "noun",
+        "phonetic": "えいきょう",
+        "translation": "influência",
+        "note": "Frequentemente usado com 「与える」「受ける」",
+        "furigana_html": "<ruby>影響<rp>(</rp><rt>えいきょう</rt><rp>)</rp></ruby>",
+        "reading": "えいきょう",
+        "romaji": "eikyō"
+      },
+      {
+        "word": "削減",
+        "pos": "noun/verb (suru)",
+        "phonetic": "さくげん",
+        "translation": "redução, corte",
+        "note": "「削減する」 significa reduzir",
+        "furigana_html": "<ruby>削減<rp>(</rp><rt>さくげん</rt><rp>)</rp></ruby>",
+        "reading": "さくげん",
+        "romaji": "sakugen"
+      },
+      {
+        "word": "効果",
+        "pos": "noun",
+        "phonetic": "こうか",
+        "translation": "efeito",
+        "note": "Refere-se ao resultado produzido",
+        "furigana_html": "<ruby>効果<rp>(</rp><rt>こうか</rt><rp>)</rp></ruby>",
+        "reading": "こうか",
+        "romaji": "kōka"
+      },
+      {
+        "word": "必要",
+        "pos": "adj (na)",
+        "phonetic": "ひつよう",
+        "translation": "necessário, preciso",
+        "note": "「必要がある」 indica que é necessário",
+        "furigana_html": "<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>",
+        "reading": "ひつよう",
+        "romaji": "hitsuyō"
+      },
+      {
+        "word": "議論",
+        "pos": "noun/verb (suru)",
+        "phonetic": "ぎろん",
+        "translation": "discussão, debate",
+        "note": "「議論する」 significa discutir",
+        "furigana_html": "<ruby>議論<rp>(</rp><rt>ぎろん</rt><rp>)</rp></ruby>",
+        "reading": "ぎろん",
+        "romaji": "giron"
+      },
+      {
+        "word": "反対",
+        "pos": "noun/verb (suru)",
+        "phonetic": "はんたい",
+        "translation": "oposição",
+        "note": "「反対する」 significa opor-se",
+        "furigana_html": "<ruby>反対<rp>(</rp><rt>はんたい</rt><rp>)</rp></ruby>",
+        "reading": "はんたい",
+        "romaji": "hantai"
+      },
+      {
+        "word": "賛成",
+        "pos": "noun/verb (suru)",
+        "phonetic": "さんせい",
+        "translation": "concordância, apoio",
+        "note": "Frequentemente usado com 「に」: ～に賛成する",
+        "furigana_html": "<ruby>賛成<rp>(</rp><rt>さんせい</rt><rp>)</rp></ruby>",
+        "reading": "さんせい",
+        "romaji": "sansei"
+      },
+      {
+        "word": "立場",
+        "pos": "noun",
+        "phonetic": "たちば",
+        "translation": "posição, ponto de vista",
+        "note": "Indica de que ângulo se vê um problema",
+        "furigana_html": "<ruby>立場<rp>(</rp><rt>たちば</rt><rp>)</rp></ruby>",
+        "reading": "たちば",
+        "romaji": "tachiba"
+      },
+      {
+        "word": "場合",
+        "pos": "noun",
+        "phonetic": "ばあい",
+        "translation": "caso, situação",
+        "note": "「場合によっては」 significa dependendo da situação",
+        "furigana_html": "<ruby>場合<rp>(</rp><rt>ばあい</rt><rp>)</rp></ruby>",
+        "reading": "ばあい",
+        "romaji": "baai"
+      },
+      {
+        "word": "ただし",
+        "pos": "conj",
+        "phonetic": "ただし",
+        "translation": "porém, contudo",
+        "note": "Usado para adicionar condições restritivas",
+        "furigana_html": "ただし",
+        "reading": "ただし",
+        "romaji": "tadashi"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "新しい環境政策について、君はどう思う？僕は賛成だけど。",
+        "translation": "O que você acha da nova política ambiental? Eu sou a favor.",
+        "highlights": [
+          "環境",
+          "政策",
+          "賛成"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "僕は反対だな。この政策は経済に悪い影響を与えると思う。",
+        "translation": "Eu sou contra. Acho que essa política terá um impacto negativo na economia.",
+        "highlights": [
+          "反対",
+          "影響"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "でも、二酸化炭素の削減には効果があるはずだ。環境のためには必要だろう。",
+        "translation": "Mas deve ter efeito na redução do dióxido de carbono. É necessário para o meio ambiente.",
+        "highlights": [
+          "削減",
+          "効果",
+          "必要"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "確かに効果はあるかもしれない。ただし、コストが高すぎる場合が多いんじゃないかな。",
+        "translation": "Realmente pode ter efeito. Porém, em muitos casos o custo é alto demais, não acha?",
+        "highlights": [
+          "効果",
+          "ただし",
+          "場合"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "その点は議論が必要だね。でも、長期的に見れば環境への投資は無駄じゃない。",
+        "translation": "Esse ponto precisa de discussão. Mas, a longo prazo, investir no meio ambiente não é desperdício.",
+        "highlights": [
+          "議論",
+          "必要"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "君の立場はよく分かる。でも、中小企業にとっては負担が重すぎる場合もあるよ。",
+        "translation": "Entendo bem sua posição. Mas, para pequenas e médias empresas, às vezes o fardo é pesado demais.",
+        "highlights": [
+          "立場",
+          "場合"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "それなら、段階的に導入するのはどう？そうすれば、反対する人も減るかもしれない。",
+        "translation": "Nesse caso, que tal implementar gradualmente? Assim, talvez haja menos pessoas contra.",
+        "highlights": [
+          "反対"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "なるほど、その提案なら賛成できるかも。ただし、具体的な計画が大事だね。",
+        "translation": "Entendi, com essa proposta talvez eu possa concordar. Porém, um plano concreto é importante.",
+        "highlights": [
+          "賛成",
+          "ただし"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "～についてどう思う？",
+        "translation": "O que você acha sobre ～?"
+      },
+      {
+        "phrase": "～に悪い影響を与える",
+        "translation": "causar impacto negativo em ～"
+      },
+      {
+        "phrase": "～のためには必要だ",
+        "translation": "é necessário para ～"
+      },
+      {
+        "phrase": "～場合は多い",
+        "translation": "há muitos casos em que ～"
+      },
+      {
+        "phrase": "～立場はよく分かる",
+        "translation": "entendo bem a posição de ～"
+      },
+      {
+        "phrase": "段階的に導入する",
+        "translation": "implementar gradualmente"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_17",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Discussing immigration and identity",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "受け入れる",
+        "pos": "verb",
+        "phonetic": "うけいれる",
+        "translation": "aceitar, acolher",
+        "note": "Frequentemente usado para aceitar imigrantes, culturas ou coisas abstratas ou concretas.",
+        "furigana_html": "<ruby>受<rp>(</rp><rt>う</rt><rp>)</rp></ruby>け<ruby>入<rp>(</rp><rt>い</rt><rp>)</rp></ruby>れる",
+        "reading": "うけいれる",
+        "romaji": "ukeireru"
+      },
+      {
+        "word": "多様性",
+        "pos": "noun",
+        "phonetic": "たようせい",
+        "translation": "diversidade",
+        "note": "Frequentemente refere-se à diversidade cultural, étnica, linguística, etc.",
+        "furigana_html": "<ruby>多様<rp>(</rp><rt>たよう</rt><rp>)</rp></ruby><ruby>性<rp>(</rp><rt>せい</rt><rp>)</rp></ruby>",
+        "reading": "たようせい",
+        "romaji": "tayōsei"
+      },
+      {
+        "word": "統合",
+        "pos": "noun",
+        "phonetic": "とうごう",
+        "translation": "integração, unificação",
+        "note": "Refere-se à integração de imigrantes na sociedade local ou à unificação de diferentes partes.",
+        "furigana_html": "<ruby>統合<rp>(</rp><rt>とうごう</rt><rp>)</rp></ruby>",
+        "reading": "とうごう",
+        "romaji": "tōgō"
+      },
+      {
+        "word": "アイデンティティ",
+        "pos": "noun",
+        "phonetic": "アイデンティティ",
+        "translation": "identidade",
+        "note": "Palavra de origem estrangeira, frequentemente usada para discutir a identidade de indivíduos ou grupos.",
+        "furigana_html": "アイデンティティ",
+        "reading": "アイデンティティ",
+        "romaji": "aidentiti"
+      },
+      {
+        "word": "維持",
+        "pos": "noun",
+        "phonetic": "いじ",
+        "translation": "manutenção, preservação",
+        "note": "Frequentemente usado com 'する' para formar verbo, como manter a identidade cultural.",
+        "furigana_html": "<ruby>維持<rp>(</rp><rt>いじ</rt><rp>)</rp></ruby>",
+        "reading": "いじ",
+        "romaji": "iji"
+      },
+      {
+        "word": "差別",
+        "pos": "noun",
+        "phonetic": "さべつ",
+        "translation": "discriminação",
+        "note": "Refere-se ao tratamento desigual baseado em raça, nacionalidade, etc.",
+        "furigana_html": "<ruby>差別<rp>(</rp><rt>さべつ</rt><rp>)</rp></ruby>",
+        "reading": "さべつ",
+        "romaji": "sabetsu"
+      },
+      {
+        "word": "偏見",
+        "pos": "noun",
+        "phonetic": "へんけん",
+        "translation": "preconceito",
+        "note": "Refere-se a opiniões preconcebidas, frequentemente usado com '持つ'.",
+        "furigana_html": "<ruby>偏見<rp>(</rp><rt>へんけん</rt><rp>)</rp></ruby>",
+        "reading": "へんけん",
+        "romaji": "henken"
+      },
+      {
+        "word": "背景",
+        "pos": "noun",
+        "phonetic": "はいけい",
+        "translation": "contexto, formação",
+        "note": "Pode referir-se ao contexto cultural, social ou pessoal.",
+        "furigana_html": "<ruby>背景<rp>(</rp><rt>はいけい</rt><rp>)</rp></ruby>",
+        "reading": "はいけい",
+        "romaji": "haikei"
+      },
+      {
+        "word": "育つ",
+        "pos": "verb",
+        "phonetic": "そだつ",
+        "translation": "crescer, ser criado",
+        "note": "Refere-se ao crescimento de pessoas ou coisas, frequentemente usado em contextos de ambiente cultural.",
+        "furigana_html": "<ruby>育<rp>(</rp><rt>そだ</rt><rp>)</rp></ruby>つ",
+        "reading": "そだつ",
+        "romaji": "sodatsu"
+      },
+      {
+        "word": "共通",
+        "pos": "adj-na",
+        "phonetic": "きょうつう",
+        "translation": "comum, compartilhado",
+        "note": "Refere-se a algo possuído ou aplicado em comum, como pontos em comum.",
+        "furigana_html": "<ruby>共通<rp>(</rp><rt>きょうつう</rt><rp>)</rp></ruby>",
+        "reading": "きょうつう",
+        "romaji": "kyōtsū"
+      },
+      {
+        "word": "一方",
+        "pos": "conj",
+        "phonetic": "いっぽう",
+        "translation": "por outro lado",
+        "note": "Usado para contraste ou mudança de assunto.",
+        "furigana_html": "<ruby>一方<rp>(</rp><rt>いっぽう</rt><rp>)</rp></ruby>",
+        "reading": "いっぽう",
+        "romaji": "ippō"
+      },
+      {
+        "word": "以上",
+        "pos": "nounsuffix",
+        "phonetic": "いじょう",
+        "translation": "acima, mais de",
+        "note": "Indica quantidade ou grau acima de, também usado para concluir.",
+        "furigana_html": "<ruby>以上<rp>(</rp><rt>いじょう</rt><rp>)</rp></ruby>",
+        "reading": "いじょう",
+        "romaji": "ijō"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "最近、移民を受け入れることについてよく議論になるけど、どう思う？",
+        "translation": "Recentemente, tem-se discutido muito sobre aceitar imigrantes, o que você acha?",
+        "highlights": [
+          "受け入れる"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "確かに、多様性は大事だけど、社会への統合が難しいね。特にアイデンティティの問題は複雑だよ。",
+        "translation": "De fato, a diversidade é importante, mas a integração na sociedade é difícil. Especialmente a questão da identidade é complexa.",
+        "highlights": [
+          "多様性",
+          "統合",
+          "アイデンティティ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "移民自身も、自分の文化を維持しながら新しい環境に適応するのは大変だよね。",
+        "translation": "Os próprios imigrantes têm dificuldade em manter sua cultura enquanto se adaptam ao novo ambiente, não é?",
+        "highlights": [
+          "維持"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうそう、そこで差別や偏見が生まれやすいんだ。特に背景が違うと、互いに理解するのが難しい。",
+        "translation": "Sim, sim, é aí que a discriminação e o preconceito tendem a surgir. Especialmente quando os contextos são diferentes, é difícil se entenderem.",
+        "highlights": [
+          "差別",
+          "偏見",
+          "背景"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "でも、そういう中で育った子供たちは、複数の文化を共通に持つことができて、強いアイデンティティを築けるかもしれないね。",
+        "translation": "Mas as crianças que crescem nesse ambiente podem ter múltiplas culturas em comum e talvez construir uma identidade forte.",
+        "highlights": [
+          "育った",
+          "共通"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "一方で、そうでない場合も多いから、社会全体のサポートが必要だよ。",
+        "translation": "Por outro lado, há muitos casos em que isso não acontece, então é necessário o apoio de toda a sociedade.",
+        "highlights": [
+          "一方"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "確かに、政府や地域の協力なしには、統合は進まないだろうね。",
+        "translation": "De fato, sem a cooperação do governo e das comunidades, a integração não avançará.",
+        "highlights": []
+      },
+      {
+        "speaker": "B",
+        "text": "そう、だから単に移民を受け入れるだけでなく、長期的な視点で考えないと。以上、私の意見だけど。",
+        "translation": "Sim, por isso não devemos apenas aceitar imigrantes, mas também pensar a longo prazo. Acima, essa é a minha opinião.",
+        "highlights": [
+          "受け入れる",
+          "以上"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "受け入れることについて議論する",
+        "translation": "discutir sobre aceitar (imigrantes)"
+      },
+      {
+        "phrase": "アイデンティティを維持する",
+        "translation": "manter a identidade"
+      },
+      {
+        "phrase": "差別や偏見が生まれる",
+        "translation": "surgir discriminação e preconceito"
+      },
+      {
+        "phrase": "共通に持つ",
+        "translation": "ter em comum"
+      },
+      {
+        "phrase": "以上、私の意見",
+        "translation": "acima, a minha opinião"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_19",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Analyzing a piece of art or literature",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "表現",
+        "pos": "noun",
+        "phonetic": "ひょうげん",
+        "translation": "expressão; representação",
+        "note": "refere-se à forma de expressão na arte ou literatura",
+        "furigana_html": "<ruby>表現<rp>(</rp><rt>ひょうげん</rt><rp>)</rp></ruby>",
+        "reading": "ひょうげん",
+        "romaji": "hyōgen"
+      },
+      {
+        "word": "描く",
+        "pos": "verb",
+        "phonetic": "えがく",
+        "translation": "desenhar; descrever",
+        "note": "usado para descrever o conteúdo da obra",
+        "furigana_html": "<ruby>描<rp>(</rp><rt>えが</rt><rp>)</rp></ruby>く",
+        "reading": "えがく",
+        "romaji": "egaku"
+      },
+      {
+        "word": "象徴",
+        "pos": "noun",
+        "phonetic": "しょうちょう",
+        "translation": "símbolo",
+        "note": "frequentemente usado para analisar o significado simbólico em obras",
+        "furigana_html": "<ruby>象徴<rp>(</rp><rt>しょうちょう</rt><rp>)</rp></ruby>",
+        "reading": "しょうちょう",
+        "romaji": "shōchō"
+      },
+      {
+        "word": "主役",
+        "pos": "noun",
+        "phonetic": "しゅやく",
+        "translation": "protagonista; papel principal",
+        "note": "também pode ser usado metaforicamente para o núcleo de algo",
+        "furigana_html": "<ruby>主役<rp>(</rp><rt>しゅやく</rt><rp>)</rp></ruby>",
+        "reading": "しゅやく",
+        "romaji": "shuyaku"
+      },
+      {
+        "word": "構成",
+        "pos": "noun",
+        "phonetic": "こうせい",
+        "translation": "estrutura; composição",
+        "note": "refere-se à disposição geral da obra",
+        "furigana_html": "<ruby>構成<rp>(</rp><rt>こうせい</rt><rp>)</rp></ruby>",
+        "reading": "こうせい",
+        "romaji": "kōsei"
+      },
+      {
+        "word": "繊細",
+        "pos": "adj",
+        "phonetic": "せんさい",
+        "translation": "delicado; sutil",
+        "note": "descreve a minúcia da técnica artística",
+        "furigana_html": "<ruby>繊細<rp>(</rp><rt>せんさい</rt><rp>)</rp></ruby>",
+        "reading": "せんさい",
+        "romaji": "sensai"
+      },
+      {
+        "word": "強烈",
+        "pos": "adj",
+        "phonetic": "きょうれつ",
+        "translation": "intenso; forte",
+        "note": "descreve impressões, cores, etc., que são vívidas e fortes",
+        "furigana_html": "<ruby>強烈<rp>(</rp><rt>きょうれつ</rt><rp>)</rp></ruby>",
+        "reading": "きょうれつ",
+        "romaji": "kyōretsu"
+      },
+      {
+        "word": "具体的",
+        "pos": "adj",
+        "phonetic": "ぐたいてき",
+        "translation": "concreto; específico",
+        "note": "oposto de abstrato",
+        "furigana_html": "<ruby>具体<rp>(</rp><rt>ぐたい</rt><rp>)</rp></ruby><ruby>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>",
+        "reading": "ぐたいてき",
+        "romaji": "gutaiteki"
+      },
+      {
+        "word": "逆に",
+        "pos": "adv",
+        "phonetic": "ぎゃくに",
+        "translation": "ao contrário; inversamente",
+        "note": "usado para contrastar pontos de vista",
+        "furigana_html": "<ruby>逆<rp>(</rp><rt>ぎゃく</rt><rp>)</rp></ruby>に",
+        "reading": "ぎゃくに",
+        "romaji": "gyakuni"
+      },
+      {
+        "word": "あえて",
+        "pos": "adv",
+        "phonetic": "あえて",
+        "translation": "deliberadamente; ousar",
+        "note": "indica escolha consciente de fazer algo",
+        "furigana_html": "あえて",
+        "reading": "あえて",
+        "romaji": "aete"
+      },
+      {
+        "word": "つまり",
+        "pos": "conj",
+        "phonetic": "つまり",
+        "translation": "ou seja; em resumo",
+        "note": "usado para resumir ou explicar",
+        "furigana_html": "つまり",
+        "reading": "つまり",
+        "romaji": "tsumari"
+      },
+      {
+        "word": "について",
+        "pos": "prep",
+        "phonetic": "について",
+        "translation": "sobre; a respeito de",
+        "note": "usado para introduzir o tópico",
+        "furigana_html": "について",
+        "reading": "について",
+        "romaji": "nitsuite"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "この絵画について、まず構成を分析してみましょう。",
+        "translation": "Sobre esta pintura, vamos primeiro analisar a estrutura.",
+        "highlights": [
+          "について",
+          "構成"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうですね。背景の暗い色が強烈で、主役の人物がはっきりと浮かび上がりますね。",
+        "translation": "É verdade. As cores escuras do fundo são intensas, e o personagem principal se destaca claramente.",
+        "highlights": [
+          "強烈",
+          "主役"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "確かに。逆に、人物の表情は繊細に描かれていて、具体的な感情が伝わってきます。",
+        "translation": "De fato. Por outro lado, a expressão do personagem é retratada de forma delicada, transmitindo emoções concretas.",
+        "highlights": [
+          "逆に",
+          "繊細",
+          "描かれ",
+          "具体的"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "でも、あえて感情を明確にしないことで、見る人に解釈の余地を与えているとも言えます。",
+        "translation": "Mas também se pode dizer que, ao não tornar as emoções explícitas deliberadamente, dá-se ao espectador espaço para interpretação.",
+        "highlights": [
+          "あえて"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "つまり、この作品の象徴は、単一の意味ではなく、多様な解釈を促すことにあるのでしょう。",
+        "translation": "Ou seja, o símbolo desta obra não está em um significado único, mas em promover interpretações diversas.",
+        "highlights": [
+          "つまり",
+          "象徴"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうです。特に、背景の波の表現は、人生の流れを象徴していると感じます。",
+        "translation": "Isso mesmo. Em especial, sinto que a representação das ondas no fundo simboliza o fluxo da vida.",
+        "highlights": [
+          "表現"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "うまい指摘です。では、この作品全体のテーマについて、もう少し考えてみましょう。",
+        "translation": "Boa observação. Então, vamos pensar um pouco mais sobre o tema geral desta obra.",
+        "highlights": [
+          "について"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "はい。この作品を鑑賞して、人間の感情の複雑さを改めて感じました。",
+        "translation": "Sim. Ao apreciar esta obra, senti novamente a complexidade das emoções humanas.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "について分析する",
+        "translation": "analisar sobre..."
+      },
+      {
+        "phrase": "象徴していると感じる",
+        "translation": "sentir que simboliza..."
+      },
+      {
+        "phrase": "解釈の余地を与える",
+        "translation": "dar margem para interpretação"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_21",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Discussing the gig economy and job insecurity",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "雇う",
+        "pos": "verb",
+        "phonetic": "やとう",
+        "translation": "contratar",
+        "note": "Verbo transitivo, indica contratar alguém.",
+        "furigana_html": "<ruby>雇<rp>(</rp><rt>やと</rt><rp>)</rp></ruby>う",
+        "reading": "やとう",
+        "romaji": "yatou"
+      },
+      {
+        "word": "収入",
+        "pos": "noun",
+        "phonetic": "しゅうにゅう",
+        "translation": "renda",
+        "note": "Refere-se a renda monetária.",
+        "furigana_html": "<ruby>収入<rp>(</rp><rt>しゅうにゅう</rt><rp>)</rp></ruby>",
+        "reading": "しゅうにゅう",
+        "romaji": "shūnyū"
+      },
+      {
+        "word": "不安定",
+        "pos": "adj",
+        "phonetic": "ふあんてい",
+        "translation": "instável",
+        "note": "Adjetivo, indica estado instável.",
+        "furigana_html": "<ruby>不安定<rp>(</rp><rt>ふあんてい</rt><rp>)</rp></ruby>",
+        "reading": "ふあんてい",
+        "romaji": "fuantei"
+      },
+      {
+        "word": "契約",
+        "pos": "noun",
+        "phonetic": "けいやく",
+        "translation": "contrato",
+        "note": "Frequentemente usado com 結ぶ, 更新する, etc.",
+        "furigana_html": "<ruby>契約<rp>(</rp><rt>けいやく</rt><rp>)</rp></ruby>",
+        "reading": "けいやく",
+        "romaji": "keiyaku"
+      },
+      {
+        "word": "確保",
+        "pos": "noun/verb (する)",
+        "phonetic": "かくほ",
+        "translation": "garantir",
+        "note": "Verbo sa-hen, indica assegurar, garantir.",
+        "furigana_html": "<ruby>確保<rp>(</rp><rt>かくほ</rt><rp>)</rp></ruby>",
+        "reading": "かくほ",
+        "romaji": "kakuho"
+      },
+      {
+        "word": "働く",
+        "pos": "verb",
+        "phonetic": "はたらく",
+        "translation": "trabalhar",
+        "note": "Indica realizar trabalho.",
+        "furigana_html": "<ruby>働<rp>(</rp><rt>はたら</rt><rp>)</rp></ruby>く",
+        "reading": "はたらく",
+        "romaji": "hataraku"
+      },
+      {
+        "word": "不安",
+        "pos": "adj/noun",
+        "phonetic": "ふあん",
+        "translation": "ansiedade, preocupação",
+        "note": "Adjetivo, também usado como substantivo.",
+        "furigana_html": "<ruby>不安<rp>(</rp><rt>ふあん</rt><rp>)</rp></ruby>",
+        "reading": "ふあん",
+        "romaji": "fuan"
+      },
+      {
+        "word": "選ぶ",
+        "pos": "verb",
+        "phonetic": "えらぶ",
+        "translation": "escolher",
+        "note": "Verbo transitivo.",
+        "furigana_html": "<ruby>選<rp>(</rp><rt>えら</rt><rp>)</rp></ruby>ぶ",
+        "reading": "えらぶ",
+        "romaji": "erabu"
+      },
+      {
+        "word": "将来",
+        "pos": "noun",
+        "phonetic": "しょうらい",
+        "translation": "futuro",
+        "note": "Indica tempo futuro.",
+        "furigana_html": "<ruby>将来<rp>(</rp><rt>しょうらい</rt><rp>)</rp></ruby>",
+        "reading": "しょうらい",
+        "romaji": "shōrai"
+      },
+      {
+        "word": "安定",
+        "pos": "adj/noun",
+        "phonetic": "あんてい",
+        "translation": "estável, estabilidade",
+        "note": "Adjetivo ou substantivo, indica estabilidade.",
+        "furigana_html": "<ruby>安定<rp>(</rp><rt>あんてい</rt><rp>)</rp></ruby>",
+        "reading": "あんてい",
+        "romaji": "antei"
+      },
+      {
+        "word": "必要",
+        "pos": "adj/noun",
+        "phonetic": "ひつよう",
+        "translation": "necessário, necessidade",
+        "note": "Adjetivo ou substantivo, frequentemente usado com が／はある.",
+        "furigana_html": "<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>",
+        "reading": "ひつよう",
+        "romaji": "hitsuyō"
+      },
+      {
+        "word": "職業",
+        "pos": "noun",
+        "phonetic": "しょくぎょう",
+        "translation": "profissão",
+        "note": "Termo formal, refere-se ao tipo de trabalho.",
+        "furigana_html": "<ruby>職業<rp>(</rp><rt>しょくぎょう</rt><rp>)</rp></ruby>",
+        "reading": "しょくぎょう",
+        "romaji": "shokugyō"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "最近、ギグエコノミーの仕事が増えているけど、収入が不安定で不安だよね。",
+        "translation": "Recentemente, os trabalhos na economia gig estão aumentando, mas a renda é instável e isso preocupa, né?",
+        "highlights": [
+          "収入",
+          "不安定",
+          "不安"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "確かに。でも、会社に雇われるより自由に働けるし、自分で仕事を選ぶことができるから、魅力も感じるよ。",
+        "translation": "De fato. Mas, comparado a ser contratado por uma empresa, você pode trabalhar mais livremente e escolher seus próprios trabalhos, então também acho atraente.",
+        "highlights": [
+          "雇われる",
+          "働ける",
+          "選ぶ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "自由なのはいいけど、将来の計画を立てるのが難しい。契約が短期間で更新されるかもわからないし。",
+        "translation": "Ser livre é bom, mas é difícil fazer planos para o futuro. Além disso, não se sabe se o contrato será renovado em curto prazo.",
+        "highlights": [
+          "将来",
+          "契約"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "確かに、収入を確保するためには、常に新しい仕事を探さなければならないね。",
+        "translation": "De fato, para garantir a renda, é preciso estar sempre procurando novos trabalhos, né.",
+        "highlights": [
+          "確保"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "それに、福利厚生がないから、病気になったらどうしようって不安になる。",
+        "translation": "Além disso, como não há benefícios, fico preocupado pensando no que fazer se ficar doente.",
+        "highlights": [
+          "不安"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "でも、安定した職業に就くことも難しい時代だし、自分でリスクを管理する必要があるのかもしれないね。",
+        "translation": "Mas, nesta época, é difícil conseguir uma profissão estável, então talvez seja necessário gerenciar os riscos por conta própria.",
+        "highlights": [
+          "安定",
+          "職業",
+          "必要"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "そうだね。とにかく、将来のためにお金を貯めて、スキルを磨くことが大事だと思う。",
+        "translation": "É verdade. De qualquer forma, acho importante economizar dinheiro e aprimorar habilidades para o futuro.",
+        "highlights": [
+          "将来"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "うん、お互い頑張ろう。",
+        "translation": "Sim, vamos nos esforçar juntos.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "収入が不安定",
+        "translation": "renda instável"
+      },
+      {
+        "phrase": "将来の計画を立てる",
+        "translation": "fazer planos para o futuro"
+      },
+      {
+        "phrase": "リスクを管理する",
+        "translation": "gerenciar riscos"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_23",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Talking about political systems abstractly",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "政治",
+        "pos": "noun",
+        "phonetic": "[seːʑi]",
+        "translation": "Política",
+        "note": "Refere-se a atividades ou sistemas políticos em geral",
+        "furigana_html": "<ruby>政治<rp>(</rp><rt>せいじ</rt><rp>)</rp></ruby>",
+        "reading": "せいじ",
+        "romaji": "seiji"
+      },
+      {
+        "word": "制度",
+        "pos": "noun",
+        "phonetic": "[se̞ido]",
+        "translation": "Sistema",
+        "note": "Pode se referir a sistemas sociais ou políticos",
+        "furigana_html": "<ruby>制度<rp>(</rp><rt>せいど</rt><rp>)</rp></ruby>",
+        "reading": "せいど",
+        "romaji": "seido"
+      },
+      {
+        "word": "民主主義",
+        "pos": "noun",
+        "phonetic": "[minɕɯɕɯɡʲi]",
+        "translation": "Democracia",
+        "note": "Enfatiza o princípio de que a soberania reside no povo",
+        "furigana_html": "<ruby>民主<rp>(</rp><rt>みんしゅ</rt><rp>)</rp></ruby><ruby>主義<rp>(</rp><rt>しゅぎ</rt><rp>)</rp></ruby>",
+        "reading": "みんしゅしゅぎ",
+        "romaji": "minshushugi"
+      },
+      {
+        "word": "社会",
+        "pos": "noun",
+        "phonetic": "[ɕaka̠i]",
+        "translation": "Sociedade",
+        "note": "Refere-se à sociedade humana ou a uma comunidade específica",
+        "furigana_html": "<ruby>社会<rp>(</rp><rt>しゃかい</rt><rp>)</rp></ruby>",
+        "reading": "しゃかい",
+        "romaji": "shakai"
+      },
+      {
+        "word": "平等",
+        "pos": "noun",
+        "phonetic": "[bʲoːdo̞]",
+        "translation": "Igualdade",
+        "note": "Enfatiza a igualdade de direitos ou status",
+        "furigana_html": "<ruby>平等<rp>(</rp><rt>びょうどう</rt><rp>)</rp></ruby>",
+        "reading": "びょうどう",
+        "romaji": "byōdō"
+      },
+      {
+        "word": "権利",
+        "pos": "noun",
+        "phonetic": "[kẽ̞nɾi]",
+        "translation": "Direito",
+        "note": "Refere-se a direitos que se deve ter legal ou moralmente",
+        "furigana_html": "<ruby>権利<rp>(</rp><rt>けんり</rt><rp>)</rp></ruby>",
+        "reading": "けんり",
+        "romaji": "kenri"
+      },
+      {
+        "word": "自由",
+        "pos": "noun",
+        "phonetic": "[ʑiɯː]",
+        "translation": "Liberdade",
+        "note": "Pode se referir à liberdade individual ou política",
+        "furigana_html": "<ruby>自由<rp>(</rp><rt>じゆう</rt><rp>)</rp></ruby>",
+        "reading": "じゆう",
+        "romaji": "jiyū"
+      },
+      {
+        "word": "選挙",
+        "pos": "noun",
+        "phonetic": "[se̞ŋkʲo̞]",
+        "translation": "Eleição",
+        "note": "Refere-se a votar para escolher representantes ou líderes",
+        "furigana_html": "<ruby>選挙<rp>(</rp><rt>せんきょ</rt><rp>)</rp></ruby>",
+        "reading": "せんきょ",
+        "romaji": "senkyo"
+      },
+      {
+        "word": "政党",
+        "pos": "noun",
+        "phonetic": "[se̞ːto̞ː]",
+        "translation": "Partido político",
+        "note": "Refere-se a um grupo político organizado",
+        "furigana_html": "<ruby>政党<rp>(</rp><rt>せいとう</rt><rp>)</rp></ruby>",
+        "reading": "せいとう",
+        "romaji": "seitō"
+      },
+      {
+        "word": "代表",
+        "pos": "noun",
+        "phonetic": "[da̠içʲo̞ː]",
+        "translation": "Representante",
+        "note": "Refere-se a uma pessoa ou instituição escolhida para representar outros ou um grupo",
+        "furigana_html": "<ruby>代表<rp>(</rp><rt>だいひょう</rt><rp>)</rp></ruby>",
+        "reading": "だいひょう",
+        "romaji": "daihyō"
+      },
+      {
+        "word": "法",
+        "pos": "noun",
+        "phonetic": "[ho̞ː]",
+        "translation": "Lei",
+        "note": "Refere-se ao sistema jurídico ou a regulamentos específicos",
+        "furigana_html": "<ruby>法<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>",
+        "reading": "ほう",
+        "romaji": "hō"
+      },
+      {
+        "word": "権力",
+        "pos": "noun",
+        "phonetic": "[kẽ̞nɾjo̞kɯ]",
+        "translation": "Poder",
+        "note": "Refere-se à capacidade de controlar ou dominar outros",
+        "furigana_html": "<ruby>権力<rp>(</rp><rt>けんりょく</rt><rp>)</rp></ruby>",
+        "reading": "けんりょく",
+        "romaji": "kenryoku"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "政治の制度について抽象的に考えるのは難しいね。",
+        "translation": "É difícil pensar abstratamente sobre sistemas políticos.",
+        "highlights": [
+          "政治",
+          "制度"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうだね。民主主義はただの選挙だけじゃなくて、法の支配も重要だと思う。",
+        "translation": "É verdade. A democracia não é apenas eleição, mas também o Estado de Direito é importante.",
+        "highlights": [
+          "民主主義",
+          "選挙",
+          "法"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "でも、選挙で選ばれた代表が本当に国民の自由を守っているか疑問だよ。",
+        "translation": "Mas duvido que os representantes eleitos realmente protejam a liberdade do povo.",
+        "highlights": [
+          "代表",
+          "自由"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "それは政党の影響もあるね。政党が権力を持ちすぎると、平等が損なわれる可能性がある。",
+        "translation": "Isso também tem influência dos partidos políticos. Se um partido tiver poder demais, a igualdade pode ser prejudicada.",
+        "highlights": [
+          "政党",
+          "権力",
+          "平等"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "確かに。社会には様々な意見があるから、一つの政党が全てを決めるのは危険だ。",
+        "translation": "De fato. Como há várias opiniões na sociedade, é perigoso um único partido decidir tudo.",
+        "highlights": [
+          "社会"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "だからこそ、国民の権利を守るためには、独立した司法が必要だと思う。",
+        "translation": "Por isso, para proteger os direitos do povo, acho que é necessário um judiciário independente.",
+        "highlights": [
+          "権利"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "でも、法を作るのも政治の一部だし、完全に独立は難しいかもね。",
+        "translation": "Mas criar leis também é parte da política, então talvez seja difícil ser totalmente independente.",
+        "highlights": [
+          "法"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "政治の制度について抽象的に考える",
+        "translation": "Pensar abstratamente sobre sistemas políticos"
+      },
+      {
+        "phrase": "法の支配",
+        "translation": "Estado de Direito"
+      },
+      {
+        "phrase": "国民の自由を守る",
+        "translation": "Proteger a liberdade do povo"
+      },
+      {
+        "phrase": "権力を持ちすぎる",
+        "translation": "Ter poder demais"
+      },
+      {
+        "phrase": "独立した司法",
+        "translation": "Judiciário independente"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_25",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Describing a complex technical process",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "行う",
+        "pos": "verb",
+        "phonetic": "おこなう",
+        "translation": "realizar, executar",
+        "note": "Usado em contextos formais ou escritos, para indicar a execução de uma ação ou processo.",
+        "furigana_html": "<ruby>行<rp>(</rp><rt>おこな</rt><rp>)</rp></ruby>う",
+        "reading": "おこなう",
+        "romaji": "okonau"
+      },
+      {
+        "word": "工程",
+        "pos": "noun",
+        "phonetic": "こうてい",
+        "translation": "etapa, processo",
+        "note": "Refere-se a cada fase na produção ou operação.",
+        "furigana_html": "<ruby>工程<rp>(</rp><rt>こうてい</rt><rp>)</rp></ruby>",
+        "reading": "こうてい",
+        "romaji": "kōtei"
+      },
+      {
+        "word": "処理",
+        "pos": "noun",
+        "phonetic": "しょり",
+        "translation": "processamento, tratamento",
+        "note": "Frequentemente usado em processamento de dados, tratamento químico, etc.",
+        "furigana_html": "<ruby>処理<rp>(</rp><rt>しょり</rt><rp>)</rp></ruby>",
+        "reading": "しょり",
+        "romaji": "shori"
+      },
+      {
+        "word": "段階",
+        "pos": "noun",
+        "phonetic": "だんかい",
+        "translation": "fase, etapa",
+        "note": "Enfatiza cada estágio em uma sequência ou progresso.",
+        "furigana_html": "<ruby>段階<rp>(</rp><rt>だんかい</rt><rp>)</rp></ruby>",
+        "reading": "だんかい",
+        "romaji": "dankai"
+      },
+      {
+        "word": "完了",
+        "pos": "noun",
+        "phonetic": "かんりょう",
+        "translation": "conclusão",
+        "note": "Frequentemente usado com する para indicar término.",
+        "furigana_html": "<ruby>完了<rp>(</rp><rt>かんりょう</rt><rp>)</rp></ruby>",
+        "reading": "かんりょう",
+        "romaji": "kanryō"
+      },
+      {
+        "word": "結果",
+        "pos": "noun",
+        "phonetic": "けっか",
+        "translation": "resultado",
+        "note": "Enfatiza o estado final ou o produto.",
+        "furigana_html": "<ruby>結果<rp>(</rp><rt>けっか</rt><rp>)</rp></ruby>",
+        "reading": "けっか",
+        "romaji": "kekka"
+      },
+      {
+        "word": "確認",
+        "pos": "noun",
+        "phonetic": "かくにん",
+        "translation": "confirmação, verificação",
+        "note": "Frequentemente usado com する, para indicar checagem e validação.",
+        "furigana_html": "<ruby>確認<rp>(</rp><rt>かくにん</rt><rp>)</rp></ruby>",
+        "reading": "かくにん",
+        "romaji": "kakunin"
+      },
+      {
+        "word": "使用",
+        "pos": "noun",
+        "phonetic": "しよう",
+        "translation": "uso, utilização",
+        "note": "Mais formal que 使う.",
+        "furigana_html": "<ruby>使用<rp>(</rp><rt>しよう</rt><rp>)</rp></ruby>",
+        "reading": "しよう",
+        "romaji": "shiyō"
+      },
+      {
+        "word": "必要",
+        "pos": "adj",
+        "phonetic": "ひつよう",
+        "translation": "necessário, preciso",
+        "note": "Nota: embora já esteja na lista, aqui é usado como adjetivo e sua frequência está dentro do intervalo, portanto é mantido.",
+        "furigana_html": "<ruby>必要<rp>(</rp><rt>ひつよう</rt><rp>)</rp></ruby>",
+        "reading": "ひつよう",
+        "romaji": "hitsuyō"
+      },
+      {
+        "word": "正確",
+        "pos": "adj",
+        "phonetic": "せいかく",
+        "translation": "correto, exato",
+        "note": "Enfatiza precisão.",
+        "furigana_html": "<ruby>正確<rp>(</rp><rt>せいかく</rt><rp>)</rp></ruby>",
+        "reading": "せいかく",
+        "romaji": "seikaku"
+      },
+      {
+        "word": "手順",
+        "pos": "noun",
+        "phonetic": "てじゅん",
+        "translation": "procedimento, etapas",
+        "note": "Enfatiza o fluxo operacional.",
+        "furigana_html": "<ruby>手順<rp>(</rp><rt>てじゅん</rt><rp>)</rp></ruby>",
+        "reading": "てじゅん",
+        "romaji": "tejun"
+      },
+      {
+        "word": "装置",
+        "pos": "noun",
+        "phonetic": "そうち",
+        "translation": "dispositivo, equipamento",
+        "note": "Refere-se a instrumentos ou equipamentos.",
+        "furigana_html": "<ruby>装置<rp>(</rp><rt>そうち</rt><rp>)</rp></ruby>",
+        "reading": "そうち",
+        "romaji": "sōchi"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "この装置を使うとき、まず最初の工程としてデータの処理を行います。",
+        "translation": "Ao usar este dispositivo, primeiro realizamos o processamento de dados como primeira etapa.",
+        "highlights": [
+          "装置",
+          "使う",
+          "工程",
+          "処理",
+          "行います"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "その処理が完了したら、次の段階では何を確認する必要がありますか。",
+        "translation": "Após concluir esse processamento, o que precisamos verificar na próxima fase?",
+        "highlights": [
+          "処理",
+          "完了",
+          "段階",
+          "確認",
+          "必要"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "次の段階では、結果が正確かどうかを確認します。",
+        "translation": "Na próxima fase, verificamos se o resultado está correto.",
+        "highlights": [
+          "段階",
+          "結果",
+          "正確",
+          "確認"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "なるほど、では正確な結果を得るために、どの手順に注意すべきですか。",
+        "translation": "Entendi. Então, para obter resultados corretos, a quais procedimentos devemos prestar atenção?",
+        "highlights": [
+          "正確",
+          "結果",
+          "手順"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "手順を守り、各工程をていねいに行うことが重要です。",
+        "translation": "É importante seguir os procedimentos e realizar cada etapa com cuidado.",
+        "highlights": [
+          "手順",
+          "工程",
+          "行う"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "その工程の途中で問題が起きたら、どう処理しますか。",
+        "translation": "Se ocorrer um problema no meio do processo, como você lida com isso?",
+        "highlights": [
+          "工程",
+          "処理"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "問題が起きたら、その段階をやり直し、完了するまで確認を繰り返します。",
+        "translation": "Se ocorrer um problema, refazemos essa fase e repetimos a verificação até a conclusão.",
+        "highlights": [
+          "段階",
+          "完了",
+          "確認"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "なるほど、正確に処理するには、各段階の確認が欠かせないんですね。",
+        "translation": "Entendi. Para processar corretamente, a verificação em cada fase é indispensável.",
+        "highlights": [
+          "正確",
+          "処理",
+          "段階",
+          "確認"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "工程を行う",
+        "translation": "realizar o processo"
+      },
+      {
+        "phrase": "処理が完了する",
+        "translation": "concluir o processamento"
+      },
+      {
+        "phrase": "結果を確認する",
+        "translation": "verificar o resultado"
+      },
+      {
+        "phrase": "手順を守る",
+        "translation": "seguir os procedimentos"
+      },
+      {
+        "phrase": "各段階の確認",
+        "translation": "verificação de cada fase"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_27",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Discussing the ethics of AI",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "判断",
+        "pos": "noun",
+        "phonetic": "/hante/",
+        "translation": "julgamento",
+        "note": "Refere-se ao ato de tomar uma decisão ou avaliação, usado frequentemente em decisões abstratas ou importantes.",
+        "furigana_html": "<ruby>判断<rp>(</rp><rt>はんだん</rt><rp>)</rp></ruby>",
+        "reading": "はんだん",
+        "romaji": "handan"
+      },
+      {
+        "word": "責任",
+        "pos": "noun",
+        "phonetic": "/sekiɴ/",
+        "translation": "responsabilidade",
+        "note": "Refere-se à obrigação que se deve assumir ou às consequências de uma falta.",
+        "furigana_html": "<ruby>責任<rp>(</rp><rt>せきにん</rt><rp>)</rp></ruby>",
+        "reading": "せきにん",
+        "romaji": "sekinin"
+      },
+      {
+        "word": "影響",
+        "pos": "noun",
+        "phonetic": "/eːkjoː/",
+        "translation": "influência",
+        "note": "Refere-se ao efeito produzido sobre pessoas ou coisas.",
+        "furigana_html": "<ruby>影響<rp>(</rp><rt>えいきょう</rt><rp>)</rp></ruby>",
+        "reading": "えいきょう",
+        "romaji": "eikyō"
+      },
+      {
+        "word": "進む",
+        "pos": "verb",
+        "phonetic": "/sɯsɯmu/",
+        "translation": "avançar; progredir",
+        "note": "Verbo intransitivo, indica que algo se desenvolve para frente, como o avanço da tecnologia.",
+        "furigana_html": "<ruby>進<rp>(</rp><rt>すす</rt><rp>)</rp></ruby>む",
+        "reading": "すすむ",
+        "romaji": "susumu"
+      },
+      {
+        "word": "問題",
+        "pos": "noun",
+        "phonetic": "/moɴdaɴ/",
+        "translation": "problema",
+        "note": "Refere-se a uma dificuldade ou contradição que precisa ser resolvida.",
+        "furigana_html": "<ruby>問題<rp>(</rp><rt>もんだい</rt><rp>)</rp></ruby>",
+        "reading": "もんだい",
+        "romaji": "mondai"
+      },
+      {
+        "word": "判断する",
+        "pos": "verb",
+        "phonetic": "/haɴte sɯɾɯ/",
+        "translation": "julgar",
+        "note": "Verbo do tipo sa, formado pelo substantivo 「判断」 + 「する」.",
+        "furigana_html": "<ruby>判断<rp>(</rp><rt>はんだん</rt><rp>)</rp></ruby>する",
+        "reading": "はんだんする",
+        "romaji": "handansuru"
+      },
+      {
+        "word": "明確",
+        "pos": "adj",
+        "phonetic": "/meːkakɯ/",
+        "translation": "claro; nítido",
+        "note": "Quando modifica um substantivo, usa-se frequentemente 「明確な」.",
+        "furigana_html": "<ruby>明確<rp>(</rp><rt>めいかく</rt><rp>)</rp></ruby>",
+        "reading": "めいかく",
+        "romaji": "meikaku"
+      },
+      {
+        "word": "議論",
+        "pos": "noun",
+        "phonetic": "/ɡiɾoɴ/",
+        "translation": "discussão; debate",
+        "note": "Refere-se a trocar opiniões sobre um determinado tema.",
+        "furigana_html": "<ruby>議論<rp>(</rp><rt>ぎろん</rt><rp>)</rp></ruby>",
+        "reading": "ぎろん",
+        "romaji": "giron"
+      },
+      {
+        "word": "場合",
+        "pos": "noun",
+        "phonetic": "/baːaɴ/",
+        "translation": "caso; situação",
+        "note": "Frequentemente usado em frases condicionais, significando 'no caso de...'.",
+        "furigana_html": "<ruby>場合<rp>(</rp><rt>ばあい</rt><rp>)</rp></ruby>",
+        "reading": "ばあい",
+        "romaji": "baai"
+      },
+      {
+        "word": "決める",
+        "pos": "verb",
+        "phonetic": "/kimeɾɯ/",
+        "translation": "decidir",
+        "note": "Verbo transitivo, indica fazer uma escolha ou tomar uma decisão.",
+        "furigana_html": "<ruby>決<rp>(</rp><rt>き</rt><rp>)</rp></ruby>める",
+        "reading": "きめる",
+        "romaji": "kimeru"
+      },
+      {
+        "word": "増える",
+        "pos": "verb",
+        "phonetic": "/ɸɯeɾɯ/",
+        "translation": "aumentar",
+        "note": "Verbo intransitivo, indica que a quantidade aumenta.",
+        "furigana_html": "<ruby>増<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>える",
+        "reading": "ふえる",
+        "romaji": "fueru"
+      },
+      {
+        "word": "常に",
+        "pos": "adv",
+        "phonetic": "/tɕɯni/",
+        "translation": "sempre; constantemente",
+        "note": "Indica um estado que é sempre assim.",
+        "furigana_html": "<ruby>常<rp>(</rp><rt>つね</rt><rp>)</rp></ruby>に",
+        "reading": "つねに",
+        "romaji": "tsuneni"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "AIの技術が進むにつれて、倫理的な問題が増えてきたね。",
+        "translation": "À medida que a tecnologia de IA avança, os problemas éticos aumentaram, não é?",
+        "highlights": [
+          "進む",
+          "問題",
+          "増えて"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうだね。特に、AIが自動で判断する場合、その責任は誰にあるのかが明確ではない。",
+        "translation": "É verdade. Especialmente quando a IA julga automaticamente, não está claro de quem é a responsabilidade.",
+        "highlights": [
+          "判断",
+          "場合",
+          "責任",
+          "明確"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "確かに。例えば、自動運転の事故で、AIの判断が原因だったら、運転手か開発者か、誰が責任を負うべき？",
+        "translation": "De fato. Por exemplo, em um acidente de carro autônomo, se a causa for o julgamento da IA, quem deveria ser responsável: o motorista ou o desenvolvedor?",
+        "highlights": [
+          "判断"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "それが難しいところだよ。人間の行動には常に意図があるけど、AIにはそれがないからね。",
+        "translation": "Esse é o ponto difícil. As ações humanas sempre têm intenção, mas a IA não tem.",
+        "highlights": [
+          "常に"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "つまり、AIの判断をどう評価するか、新しい基準が必要ってことだね。",
+        "translation": "Ou seja, precisamos de novos critérios para avaliar o julgamento da IA.",
+        "highlights": [
+          "判断"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そう。だから、各国でAIの倫理に関する議論が活発に行われているんだ。",
+        "translation": "Sim. Por isso, em vários países, estão ocorrendo discussões ativas sobre a ética da IA.",
+        "highlights": [
+          "議論"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "でも、議論だけじゃなくて、具体的なルールを早く決めないと、社会への影響が大きくなりすぎるよ。",
+        "translation": "Mas, se não decidirmos rapidamente regras concretas, e não apenas discutirmos, o impacto na sociedade será grande demais.",
+        "highlights": [
+          "決めない",
+          "影響"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "本当にそうだね。技術の進み方に合わせて、私たちも考え続ける必要があるよ。",
+        "translation": "Realmente. Precisamos continuar pensando conforme o avanço da tecnologia.",
+        "highlights": [
+          "進み方"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "判断する場合",
+        "translation": "caso de julgar"
+      },
+      {
+        "phrase": "責任が明確ではない",
+        "translation": "responsabilidade não é clara"
+      },
+      {
+        "phrase": "議論が活発に行われる",
+        "translation": "discussão ocorre ativamente"
+      },
+      {
+        "phrase": "技術が進むにつれて",
+        "translation": "à medida que a tecnologia avança"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_29",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Talking about gender roles and change",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "変わる",
+        "pos": "verb",
+        "phonetic": "kaɰaɾɯ",
+        "translation": "mudar, transformar-se",
+        "note": "Verbo intransitivo, indica que algo sofre mudança. Usa-se frequentemente「変わる」em vez de「変える」(verbo transitivo).",
+        "furigana_html": "<ruby>変<rp>(</rp><rt>か</rt><rp>)</rp></ruby>わる",
+        "reading": "かわる",
+        "romaji": "kawaru"
+      },
+      {
+        "word": "役割",
+        "pos": "noun",
+        "phonetic": "ja̠kɯ̟̊ga̠ɾʲi",
+        "translation": "papel, função, responsabilidade",
+        "note": "Enfatiza a divisão de tarefas ou funções na família ou na sociedade.",
+        "furigana_html": "<ruby>役割<rp>(</rp><rt>やくわり</rt><rp>)</rp></ruby>",
+        "reading": "やくわり",
+        "romaji": "yakuwari"
+      },
+      {
+        "word": "育児",
+        "pos": "noun",
+        "phonetic": "ikɯ̟̊ʑi",
+        "translation": "criação de filhos, cuidado de crianças",
+        "note": "Refere-se principalmente às atividades diárias de cuidar de crianças.",
+        "furigana_html": "<ruby>育児<rp>(</rp><rt>いくじ</rt><rp>)</rp></ruby>",
+        "reading": "いくじ",
+        "romaji": "ikuji"
+      },
+      {
+        "word": "家事",
+        "pos": "noun",
+        "phonetic": "ka̠ʑi",
+        "translation": "tarefas domésticas",
+        "note": "Inclui cozinhar, limpar, lavar roupa, etc.",
+        "furigana_html": "<ruby>家事<rp>(</rp><rt>かじ</rt><rp>)</rp></ruby>",
+        "reading": "かじ",
+        "romaji": "kaji"
+      },
+      {
+        "word": "夫婦",
+        "pos": "noun",
+        "phonetic": "ɸɯ̟ːɸɯ̟",
+        "translation": "casal, marido e mulher",
+        "note": "Refere-se a duas pessoas casadas.",
+        "furigana_html": "<ruby>夫婦<rp>(</rp><rt>ふうふ</rt><rp>)</rp></ruby>",
+        "reading": "ふうふ",
+        "romaji": "fūfu"
+      },
+      {
+        "word": "負担",
+        "pos": "noun",
+        "phonetic": "ɸɯ̟tan",
+        "translation": "fardo, carga, ônus",
+        "note": "Frequentemente usado em expressões como「負担が重い」(o fardo é pesado) e「負担を減らす」(reduzir o fardo).",
+        "furigana_html": "<ruby>負担<rp>(</rp><rt>ふたん</rt><rp>)</rp></ruby>",
+        "reading": "ふたん",
+        "romaji": "futan"
+      },
+      {
+        "word": "減る",
+        "pos": "verb",
+        "phonetic": "he̞ɾɯ",
+        "translation": "diminuir, reduzir",
+        "note": "Verbo intransitivo, corresponde ao transitivo「減らす」.",
+        "furigana_html": "<ruby>減<rp>(</rp><rt>へ</rt><rp>)</rp></ruby>る",
+        "reading": "へる",
+        "romaji": "heru"
+      },
+      {
+        "word": "増やす",
+        "pos": "verb",
+        "phonetic": "ɸɯ̟ja̠sɯ",
+        "translation": "aumentar, acrescentar",
+        "note": "Verbo transitivo, corresponde ao intransitivo「増える」.",
+        "furigana_html": "<ruby>増<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>やす",
+        "reading": "ふやす",
+        "romaji": "fuyasu"
+      },
+      {
+        "word": "少しずつ",
+        "pos": "adverb",
+        "phonetic": "sɯ̥ko̞ɕi zɯ̟t͡sɯ",
+        "translation": "pouco a pouco, gradualmente",
+        "note": "Indica um processo lento e gradual.",
+        "furigana_html": "<ruby>少<rp>(</rp><rt>すこ</rt><rp>)</rp></ruby>しずつ",
+        "reading": "すこしずつ",
+        "romaji": "sukoshizutsu"
+      },
+      {
+        "word": "確かに",
+        "pos": "adverb",
+        "phonetic": "ta̠ɕi̥ka̠ni",
+        "translation": "certamente, de fato",
+        "note": "Usado para reconhecer o ponto de vista do outro, indicando concordância.",
+        "furigana_html": "<ruby>確<rp>(</rp><rt>たし</rt><rp>)</rp></ruby>かに",
+        "reading": "たしかに",
+        "romaji": "tashikani"
+      },
+      {
+        "word": "それに",
+        "pos": "conj",
+        "phonetic": "so̞ɾe̞ɲi",
+        "translation": "além disso, e também",
+        "note": "Conecta frases, indicando adição de razões ou informações.",
+        "furigana_html": "それに",
+        "reading": "それに",
+        "romaji": "soreni"
+      },
+      {
+        "word": "一方で",
+        "pos": "conj",
+        "phonetic": "ippoːde̞",
+        "translation": "por outro lado",
+        "note": "Usado para contrastar dois fatos ou pontos de vista diferentes.",
+        "furigana_html": "<ruby>一方<rp>(</rp><rt>いっぽう</rt><rp>)</rp></ruby>で",
+        "reading": "いっぽうで",
+        "romaji": "ippōde"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "最近、夫婦の役割ってだいぶ変わったよね。昔は家事も育児も女性の仕事って決まってたけど。",
+        "translation": "Recentemente, os papéis dos casais mudaram bastante, não é? Antigamente, era decidido que tarefas domésticas e criação de filhos eram trabalhos de mulher.",
+        "highlights": [
+          "役割",
+          "変わった",
+          "育児",
+          "家事"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "確かに。私の父は全然家事をしなかったけど、今の若い夫は結構やる人多いよ。それに、育児に参加する男性も増えたね。",
+        "translation": "De fato. Meu pai não fazia nenhuma tarefa doméstica, mas muitos maridos jovens de hoje fazem bastante. Além disso, aumentou o número de homens que participam da criação dos filhos.",
+        "highlights": [
+          "確かに",
+          "それに",
+          "増えた"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "でも、まだ女性の負担が重いって言う人も多いよね。特に仕事と家事を両方やるのは大変そう。",
+        "translation": "Mas ainda há muitas pessoas que dizem que o fardo das mulheres é pesado. Principalmente ter que fazer tanto o trabalho quanto as tarefas domésticas parece difícil.",
+        "highlights": [
+          "負担"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "うん、一方で、昔よりは確実に変わってきてると思う。ただ、本当に平等になるには、もっと時間がかかるかもね。",
+        "translation": "Sim, por outro lado, acho que está mudando com certeza em comparação com o passado. Mas, para se tornar verdadeiramente igual, talvez precise de mais tempo.",
+        "highlights": [
+          "一方で"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "そうだね。うちの会社でも、男性が育児休暇を取るケースが少しずつ増えてるよ。",
+        "translation": "É verdade. Na minha empresa também, os casos de homens tirando licença-paternidade estão aumentando aos poucos.",
+        "highlights": [
+          "少しずつ"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "それはいい傾向だね。でも、まだまだ社会全体で見ると、家事の負担は女性に偏ってる気がする。",
+        "translation": "Essa é uma boa tendência. Mas, olhando para a sociedade como um todo, sinto que o fardo das tarefas domésticas ainda está inclinado para as mulheres.",
+        "highlights": [
+          "負担"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "確かに。それを減らすには、夫婦で話し合って、家事の分担を増やすしかないね。",
+        "translation": "De fato. Para reduzir isso, só resta conversar entre o casal e aumentar a divisão das tarefas domésticas.",
+        "highlights": [
+          "減らす",
+          "増やす"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そう。結局は一人一人の意識が変わらないと、社会も変わらないってことだね。",
+        "translation": "Isso. No final, se a consciência de cada pessoa não mudar, a sociedade também não muda.",
+        "highlights": [
+          "変わらない"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "役割が変わる",
+        "translation": "o papel muda"
+      },
+      {
+        "phrase": "負担が重い",
+        "translation": "o fardo é pesado"
+      },
+      {
+        "phrase": "少しずつ増える",
+        "translation": "aumentar aos poucos"
+      },
+      {
+        "phrase": "意識が変わる",
+        "translation": "a consciência muda"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_31",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Refletindo sobre uma experiência que mudou a vida",
+    "frequency_note": "palavras classificadas ~1500–3000 por frequência do japonês",
+    "vocabulary": [
+      {
+        "word": "経験",
+        "pos": "noun",
+        "phonetic": "[keːken]",
+        "translation": "experiência",
+        "note": "Substantivo comum, refere-se a coisas vividas pessoalmente",
+        "furigana_html": "<ruby>経験<rp>(</rp><rt>けいけん</rt><rp>)</rp></ruby>",
+        "reading": "けいけん",
+        "romaji": "keiken"
+      },
+      {
+        "word": "変わる",
+        "pos": "verb",
+        "phonetic": "[ka̠βa̠ɾɯ]",
+        "translation": "mudar",
+        "note": "Verbo intransitivo, indica mudança",
+        "furigana_html": "<ruby>変<rp>(</rp><rt>か</rt><rp>)</rp></ruby>わる",
+        "reading": "かわる",
+        "romaji": "kawaru"
+      },
+      {
+        "word": "気づく",
+        "pos": "verb",
+        "phonetic": "[kʲiʣɯkɯ]",
+        "translation": "perceber",
+        "note": "Indica notar, descobrir",
+        "furigana_html": "<ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>づく",
+        "reading": "きづく",
+        "romaji": "kizuku"
+      },
+      {
+        "word": "自分",
+        "pos": "pronoun",
+        "phonetic": "[ʑiꜜbɯɴ]",
+        "translation": "si mesmo",
+        "note": "Enfatiza a própria pessoa",
+        "furigana_html": "<ruby>自分<rp>(</rp><rt>じぶん</rt><rp>)</rp></ruby>",
+        "reading": "じぶん",
+        "romaji": "jibun"
+      },
+      {
+        "word": "大切",
+        "pos": "adj",
+        "phonetic": "[taꜜi.seʔ]",
+        "translation": "importante",
+        "note": "Adjetivo nominal, frequentemente usado com 「～な」 para modificar substantivos",
+        "furigana_html": "<ruby>大切<rp>(</rp><rt>たいせつ</rt><rp>)</rp></ruby>",
+        "reading": "たいせつ",
+        "romaji": "taisetsu"
+      },
+      {
+        "word": "決心",
+        "pos": "noun",
+        "phonetic": "[keɕɕiɴ]",
+        "translation": "decisão",
+        "note": "Frequentemente usado com 「する」, indica tomar uma decisão",
+        "furigana_html": "<ruby>決心<rp>(</rp><rt>けっしん</rt><rp>)</rp></ruby>",
+        "reading": "けっしん",
+        "romaji": "kesshin"
+      },
+      {
+        "word": "乗り越える",
+        "pos": "verb",
+        "phonetic": "[no̞ɾiko̞eɾɯ]",
+        "translation": "superar",
+        "note": "Indica atravessar dificuldades, obstáculos",
+        "furigana_html": "<ruby>乗<rp>(</rp><rt>の</rt><rp>)</rp></ruby>り<ruby>越<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>える",
+        "reading": "のりこえる",
+        "romaji": "norikoeru"
+      },
+      {
+        "word": "きっかけ",
+        "pos": "noun",
+        "phonetic": "[kʲik̚ka̠ke]",
+        "translation": "oportunidade",
+        "note": "Indica a oportunidade ou causa para começar algo",
+        "furigana_html": "きっかけ",
+        "reading": "きっかけ",
+        "romaji": "kikkake"
+      },
+      {
+        "word": "振り返る",
+        "pos": "verb",
+        "phonetic": "[hɯɾika̠eɾɯ]",
+        "translation": "olhar para trás",
+        "note": "Indica relembrar o passado",
+        "furigana_html": "<ruby>振<rp>(</rp><rt>ふ</rt><rp>)</rp></ruby>り<ruby>返<rp>(</rp><rt>かえ</rt><rp>)</rp></ruby>る",
+        "reading": "ふりかえる",
+        "romaji": "furikaeru"
+      },
+      {
+        "word": "支える",
+        "pos": "verb",
+        "phonetic": "[sa̠sa̠eɾɯ]",
+        "translation": "apoiar",
+        "note": "Indica ajudar, sustentar ao lado",
+        "furigana_html": "<ruby>支<rp>(</rp><rt>ささ</rt><rp>)</rp></ruby>える",
+        "reading": "ささえる",
+        "romaji": "sasaeru"
+      },
+      {
+        "word": "それでも",
+        "pos": "conj",
+        "phonetic": "[so̞ɾe de̞ mo̞]",
+        "translation": "mesmo assim",
+        "note": "Indica oposição, equivalente a 'mesmo assim'",
+        "furigana_html": "それでも",
+        "reading": "それでも",
+        "romaji": "soredemo"
+      },
+      {
+        "word": "前向き",
+        "pos": "adj",
+        "phonetic": "[ma̠e̞mɯkʲi]",
+        "translation": "positivo",
+        "note": "Adjetivo nominal, refere-se a uma atitude otimista, olhando para frente",
+        "furigana_html": "<ruby>前向<rp>(</rp><rt>まえむ</rt><rp>)</rp></ruby>き",
+        "reading": "まえむき",
+        "romaji": "maemuki"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "留学した経験は、本当に私の人生を変えました。",
+        "translation": "A experiência de estudar no exterior realmente mudou minha vida.",
+        "highlights": [
+          "経験",
+          "変え"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "どんな点で自分が変わったと気づきましたか。",
+        "translation": "Você percebeu em que aspectos você mudou?",
+        "highlights": [
+          "自分",
+          "気づき"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "一番大切なのは、何があっても前向きに考えることだと学びました。",
+        "translation": "Aprendi que o mais importante é pensar positivamente, não importa o que aconteça.",
+        "highlights": [
+          "大切",
+          "前向き"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "その経験は、何か新しいことを始めるきっかけになりましたか。",
+        "translation": "Essa experiência se tornou uma oportunidade para você começar algo novo?",
+        "highlights": [
+          "きっかけ"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "はい、それで新しいキャリアを始める決心をしました。",
+        "translation": "Sim, por isso decidi começar uma nova carreira.",
+        "highlights": [
+          "決心"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "でも、大変なこともあったでしょう。どうやって乗り越えましたか。",
+        "translation": "Mas também houve momentos difíceis, não é? Como você superou?",
+        "highlights": [
+          "乗り越え"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "家族や友人の支えがあったからです。それでも、自分で決めた道なので、後悔はありません。",
+        "translation": "Porque tive o apoio da família e dos amigos. Mesmo assim, como foi um caminho que escolhi, não me arrependo.",
+        "highlights": [
+          "支え",
+          "それでも"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "振り返ると、その経験が今のあなたを作ったんですね。",
+        "translation": "Olhando para trás, essa experiência fez de você quem você é hoje, não é?",
+        "highlights": [
+          "振り返る"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "人生を変える",
+        "translation": "mudar a vida"
+      },
+      {
+        "phrase": "前向きに考える",
+        "translation": "pensar positivamente"
+      },
+      {
+        "phrase": "きっかけになる",
+        "translation": "tornar-se uma oportunidade"
+      },
+      {
+        "phrase": "乗り越える",
+        "translation": "superar"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_33",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Discussing the role of humor in communication",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "笑い",
+        "pos": "noun",
+        "phonetic": "waraɯ",
+        "translation": "riso, risada",
+        "note": "Refere-se ao ato de rir ou ao som da risada, frequentemente usado para indicar o efeito do humor",
+        "furigana_html": "<ruby>笑<rp>(</rp><rt>わら</rt><rp>)</rp></ruby>い",
+        "reading": "わらい",
+        "romaji": "warai"
+      },
+      {
+        "word": "冗談",
+        "pos": "noun",
+        "phonetic": "ʑoːdan",
+        "translation": "piada, brincadeira",
+        "note": "Frequentemente usado em \"冗談を言う\" (fazer uma piada)",
+        "furigana_html": "<ruby>冗談<rp>(</rp><rt>じょうだん</rt><rp>)</rp></ruby>",
+        "reading": "じょうだん",
+        "romaji": "jōdan"
+      },
+      {
+        "word": "真面目",
+        "pos": "adj-na",
+        "phonetic": "madʑime",
+        "translation": "sério, séria",
+        "note": "Descreve uma pessoa ou atitude",
+        "furigana_html": "<ruby>真面目<rp>(</rp><rt>まじめ</rt><rp>)</rp></ruby>",
+        "reading": "まじめ",
+        "romaji": "majime"
+      },
+      {
+        "word": "軽い",
+        "pos": "adj-i",
+        "phonetic": "karaɯ",
+        "translation": "leve, descontraído",
+        "note": "Aqui significa \"leve, não pesado\"",
+        "furigana_html": "<ruby>軽<rp>(</rp><rt>かる</rt><rp>)</rp></ruby>い",
+        "reading": "かるい",
+        "romaji": "karui"
+      },
+      {
+        "word": "和む",
+        "pos": "verb (godan)",
+        "phonetic": "nagomu",
+        "translation": "sentir-se acolhido, suavizar",
+        "note": "Indica que o coração se torna pacífico e caloroso",
+        "furigana_html": "<ruby>和<rp>(</rp><rt>なご</rt><rp>)</rp></ruby>む",
+        "reading": "なごむ",
+        "romaji": "nagomu"
+      },
+      {
+        "word": "滑る",
+        "pos": "verb (godan)",
+        "phonetic": "suru",
+        "translation": "(piada) fracassar, não ter graça",
+        "note": "Na linguagem coloquial, \"滑る\" significa que a piada não teve efeito",
+        "furigana_html": "<ruby>滑<rp>(</rp><rt>すべ</rt><rp>)</rp></ruby>る",
+        "reading": "すべる",
+        "romaji": "suberu"
+      },
+      {
+        "word": "雰囲気",
+        "pos": "noun",
+        "phonetic": "ɸɯːŋki",
+        "translation": "atmosfera, clima",
+        "note": "Frequentemente se refere à sensação geral de um ambiente",
+        "furigana_html": "<ruby>雰囲気<rp>(</rp><rt>ふんいき</rt><rp>)</rp></ruby>",
+        "reading": "ふんいき",
+        "romaji": "fun'iki"
+      },
+      {
+        "word": "気まずい",
+        "pos": "adj-i",
+        "phonetic": "kimazɯi",
+        "translation": "constrangedor, embaraçoso",
+        "note": "Descreve desconforto em relações interpessoais ou situações",
+        "furigana_html": "<ruby>気<rp>(</rp><rt>き</rt><rp>)</rp></ruby>まずい",
+        "reading": "きまずい",
+        "romaji": "kimazui"
+      },
+      {
+        "word": "伝える",
+        "pos": "verb (ichidan)",
+        "phonetic": "tsutaeru",
+        "translation": "transmitir, comunicar",
+        "note": "Usado para transmitir informações, sentimentos, etc.",
+        "furigana_html": "<ruby>伝<rp>(</rp><rt>つた</rt><rp>)</rp></ruby>える",
+        "reading": "つたえる",
+        "romaji": "tsutaeru"
+      },
+      {
+        "word": "共感",
+        "pos": "noun",
+        "phonetic": "kjoːkan",
+        "translation": "empatia, identificação",
+        "note": "Frequentemente usado em \"共感する\" (sentir empatia)",
+        "furigana_html": "<ruby>共感<rp>(</rp><rt>きょうかん</rt><rp>)</rp></ruby>",
+        "reading": "きょうかん",
+        "romaji": "kyōkan"
+      },
+      {
+        "word": "適度に",
+        "pos": "adv",
+        "phonetic": "tekido ni",
+        "translation": "moderadamente, adequadamente",
+        "note": "Indica um grau apropriado, sem exageros",
+        "furigana_html": "<ruby>適度<rp>(</rp><rt>てきど</rt><rp>)</rp></ruby>に",
+        "reading": "てきどに",
+        "romaji": "tekidoni"
+      },
+      {
+        "word": "つまり",
+        "pos": "conj",
+        "phonetic": "tsumari",
+        "translation": "ou seja, isto é",
+        "note": "Usado para resumir ou reformular",
+        "furigana_html": "つまり",
+        "reading": "つまり",
+        "romaji": "tsumari"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "最近、会議で冗談を言ったら、全然滑ってしまって、雰囲気が気まずくなったんだ。",
+        "translation": "Recentemente, contei uma piada em uma reunião e ela simplesmente não teve graça, o clima ficou constrangedor.",
+        "highlights": [
+          "冗談",
+          "滑って",
+          "雰囲気",
+          "気まずく"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "それは大変だったね。でも、適度に笑いを交えると、相手との距離が縮まって、共感が生まれやすくなるよ。",
+        "translation": "Isso foi difícil, hein? Mas, se você incluir risadas moderadamente, a distância com a outra pessoa diminui e fica mais fácil criar empatia.",
+        "highlights": [
+          "適度に",
+          "笑い",
+          "共感"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "確かに、真面目な話ばかりだと堅苦しいし、軽い冗談で和むこともあるよね。",
+        "translation": "É verdade, se for só conversa séria fica formal demais, e uma piada leve às vezes pode trazer aconchego.",
+        "highlights": [
+          "真面目",
+          "軽い",
+          "冗談",
+          "和む"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "つまり、大事なのは場面を選ぶことだと思う。仕事の場では、相手に伝わるかどうかを考えないとね。",
+        "translation": "Ou seja, o importante é escolher o momento. No ambiente de trabalho, é preciso pensar se a mensagem vai ser transmitida ao outro.",
+        "highlights": [
+          "つまり",
+          "伝わる"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "そうだね。でも、失敗しても笑い飛ばせるのが一番だよ。",
+        "translation": "É verdade. Mas, mesmo que falhe, o melhor é levar na brincadeira.",
+        "highlights": []
+      },
+      {
+        "speaker": "B",
+        "text": "そうそう。ユーモアは失敗を恐れずに試すことが大切だし、その失敗も笑いのネタにできるからね。",
+        "translation": "Isso mesmo. No humor, é importante tentar sem medo de errar, e o erro também pode virar motivo de risada.",
+        "highlights": []
+      },
+      {
+        "speaker": "A",
+        "text": "なるほど。これからは、適度に笑いを取り入れて、相手と共感できるコミュニケーションを目指すよ。",
+        "translation": "Entendi. De agora em diante, vou incluir risadas moderadamente e buscar uma comunicação que gere empatia com o outro.",
+        "highlights": [
+          "適度に",
+          "笑い",
+          "共感"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "冗談を言う",
+        "translation": "fazer uma piada"
+      },
+      {
+        "phrase": "滑る",
+        "translation": "(piada) não ter graça"
+      },
+      {
+        "phrase": "場面を選ぶ",
+        "translation": "escolher o momento"
+      },
+      {
+        "phrase": "笑い飛ばす",
+        "translation": "rir e ignorar"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_35",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Presenting a research finding",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "示す",
+        "pos": "verb",
+        "phonetic": "しめす",
+        "translation": "mostrar, indicar",
+        "note": "Frequentemente usado para mostrar dados ou resultados",
+        "furigana_html": "<ruby>示<rp>(</rp><rt>しめ</rt><rp>)</rp></ruby>す",
+        "reading": "しめす",
+        "romaji": "shimesu"
+      },
+      {
+        "word": "データ",
+        "pos": "noun",
+        "phonetic": "データ",
+        "translation": "dados",
+        "note": "Palavra de origem estrangeira, frequentemente usada em contexto de pesquisa",
+        "furigana_html": "データ",
+        "reading": "データ",
+        "romaji": "dēta"
+      },
+      {
+        "word": "分析",
+        "pos": "noun",
+        "phonetic": "ぶんせき",
+        "translation": "análise",
+        "furigana_html": "<ruby>分析<rp>(</rp><rt>ぶんせき</rt><rp>)</rp></ruby>",
+        "reading": "ぶんせき",
+        "romaji": "bunseki"
+      },
+      {
+        "word": "比較",
+        "pos": "noun",
+        "phonetic": "ひかく",
+        "translation": "comparação",
+        "furigana_html": "<ruby>比較<rp>(</rp><rt>ひかく</rt><rp>)</rp></ruby>",
+        "reading": "ひかく",
+        "romaji": "hikaku"
+      },
+      {
+        "word": "傾向",
+        "pos": "noun",
+        "phonetic": "けいこう",
+        "translation": "tendência",
+        "furigana_html": "<ruby>傾向<rp>(</rp><rt>けいこう</rt><rp>)</rp></ruby>",
+        "reading": "けいこう",
+        "romaji": "keikō"
+      },
+      {
+        "word": "注目",
+        "pos": "noun",
+        "phonetic": "ちゅうもく",
+        "translation": "atenção, destaque",
+        "note": "Frequentemente usado em expressões como 「～を集める」「～に値する」",
+        "furigana_html": "<ruby>注目<rp>(</rp><rt>ちゅうもく</rt><rp>)</rp></ruby>",
+        "reading": "ちゅうもく",
+        "romaji": "chūmoku"
+      },
+      {
+        "word": "述べる",
+        "pos": "verb",
+        "phonetic": "のべる",
+        "translation": "expor, explicar",
+        "note": "Usado em contextos formais",
+        "furigana_html": "<ruby>述<rp>(</rp><rt>の</rt><rp>)</rp></ruby>べる",
+        "reading": "のべる",
+        "romaji": "noberu"
+      },
+      {
+        "word": "明らか",
+        "pos": "adj",
+        "phonetic": "あきらか",
+        "translation": "evidente, claro",
+        "note": "Frequentemente usado em 「明らかになる」 para indicar que algo se torna evidente",
+        "furigana_html": "<ruby>明<rp>(</rp><rt>あき</rt><rp>)</rp></ruby>らか",
+        "reading": "あきらか",
+        "romaji": "akiraka"
+      },
+      {
+        "word": "加えて",
+        "pos": "conj",
+        "phonetic": "くわえて",
+        "translation": "além disso, e também",
+        "note": "Linguagem escrita, indica informação adicional",
+        "furigana_html": "<ruby>加<rp>(</rp><rt>くわ</rt><rp>)</rp></ruby>えて",
+        "reading": "くわえて",
+        "romaji": "kuwaete"
+      },
+      {
+        "word": "ついて",
+        "pos": "prep",
+        "phonetic": "ついて",
+        "translation": "sobre, a respeito de",
+        "note": "Frequentemente usado com 「の」, como em 「～についての」",
+        "furigana_html": "ついて",
+        "reading": "ついて",
+        "romaji": "tsuite"
+      },
+      {
+        "word": "さらに",
+        "pos": "adv",
+        "phonetic": "さらに",
+        "translation": "além disso, e ainda",
+        "note": "Linguagem escrita, enfatiza progressão",
+        "furigana_html": "さらに",
+        "reading": "さらに",
+        "romaji": "sarani"
+      },
+      {
+        "word": "ただし",
+        "pos": "conj",
+        "phonetic": "ただし",
+        "translation": "contudo, porém",
+        "note": "Usado para adicionar condições ou restrições",
+        "furigana_html": "ただし",
+        "reading": "ただし",
+        "romaji": "tadashi"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "本日は、私が行った研究の結果について述べます。",
+        "translation": "Hoje, vou expor os resultados da pesquisa que realizei.",
+        "highlights": [
+          "述べます",
+          "ついて"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "はい、まずデータの分析からお願いします。",
+        "translation": "Sim, por favor, comece pela análise dos dados.",
+        "highlights": [
+          "データ",
+          "分析"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "では、まず比較の結果を示します。",
+        "translation": "Então, primeiro mostro os resultados da comparação.",
+        "highlights": [
+          "比較",
+          "示します"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "なるほど、このデータからどのような傾向が見えますか。",
+        "translation": "Entendo, que tipo de tendência pode ser observada a partir desses dados?",
+        "highlights": [
+          "データ",
+          "傾向"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "明らかに、A群の方が高い傾向にあります。さらに、加えて、注目すべき点は、B群ではばらつきが大きいことです。",
+        "translation": "Evidentemente, o grupo A tende a ser mais alto. Além disso, o ponto que merece atenção é que o grupo B apresenta grande variabilidade.",
+        "highlights": [
+          "明らかに",
+          "傾向",
+          "さらに",
+          "加えて",
+          "注目"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "それは興味深いですね。ただし、サンプル数が少ない点はどうですか。",
+        "translation": "Isso é interessante. Contudo, e quanto ao fato de o tamanho da amostra ser pequeno?",
+        "highlights": [
+          "ただし"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "その点については、今後の課題として考えています。",
+        "translation": "Sobre esse ponto, estou considerando como um desafio futuro.",
+        "highlights": [
+          "ついて"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "結果について述べます",
+        "translation": "expor sobre os resultados"
+      },
+      {
+        "phrase": "データの分析からお願いします",
+        "translation": "por favor, comece pela análise dos dados"
+      },
+      {
+        "phrase": "傾向が見えます",
+        "translation": "pode-se observar uma tendência"
+      },
+      {
+        "phrase": "注目すべき点は",
+        "translation": "o ponto que merece atenção é"
+      },
+      {
+        "phrase": "ただし、サンプル数が少ない点",
+        "translation": "contudo, o ponto de o tamanho da amostra ser pequeno"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_37",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Discussing inequality and social mobility",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "社会",
+        "pos": "noun",
+        "phonetic": "/ʃakai/",
+        "translation": "sociedade",
+        "note": "Palavra comum, refere-se ao conjunto da sociedade humana.",
+        "furigana_html": "<ruby>社会<rp>(</rp><rt>しゃかい</rt><rp>)</rp></ruby>",
+        "reading": "しゃかい",
+        "romaji": "shakai"
+      },
+      {
+        "word": "格差",
+        "pos": "noun",
+        "phonetic": "/kakusa/",
+        "translation": "disparidade, desigualdade (especialmente de riqueza, status)",
+        "note": "Frequentemente usado para discutir desigualdade social.",
+        "furigana_html": "<ruby>格差<rp>(</rp><rt>かくさ</rt><rp>)</rp></ruby>",
+        "reading": "かくさ",
+        "romaji": "kakusa"
+      },
+      {
+        "word": "機会",
+        "pos": "noun",
+        "phonetic": "/kikai/",
+        "translation": "oportunidade",
+        "note": "Indica uma ocasião de possibilidade.",
+        "furigana_html": "<ruby>機会<rp>(</rp><rt>きかい</rt><rp>)</rp></ruby>",
+        "reading": "きかい",
+        "romaji": "kikai"
+      },
+      {
+        "word": "教育",
+        "pos": "noun",
+        "phonetic": "/kjoːiku/",
+        "translation": "educação",
+        "note": "Frequentemente combinado com 'oportunidade', como 'oportunidade de educação'.",
+        "furigana_html": "<ruby>教育<rp>(</rp><rt>きょういく</rt><rp>)</rp></ruby>",
+        "reading": "きょういく",
+        "romaji": "kyōiku"
+      },
+      {
+        "word": "能力",
+        "pos": "noun",
+        "phonetic": "/noːrjoku/",
+        "translation": "habilidade, capacidade",
+        "note": "Refere-se ao talento ou habilidade pessoal.",
+        "furigana_html": "<ruby>能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp></ruby>",
+        "reading": "のうりょく",
+        "romaji": "nōryoku"
+      },
+      {
+        "word": "身分",
+        "pos": "noun",
+        "phonetic": "/mibun/",
+        "translation": "posição social, status social",
+        "note": "Frequentemente usado em discussões sobre origem em sociedades tradicionais.",
+        "furigana_html": "<ruby>身分<rp>(</rp><rt>みぶん</rt><rp>)</rp></ruby>",
+        "reading": "みぶん",
+        "romaji": "mibun"
+      },
+      {
+        "word": "努力",
+        "pos": "noun",
+        "phonetic": "/dorjoku/",
+        "translation": "esforço",
+        "note": "Substantivo, pode formar verbo com 'suru'.",
+        "furigana_html": "<ruby>努力<rp>(</rp><rt>どりょく</rt><rp>)</rp></ruby>",
+        "reading": "どりょく",
+        "romaji": "doryoku"
+      },
+      {
+        "word": "出身",
+        "pos": "noun",
+        "phonetic": "/ʃussin/",
+        "translation": "origem (familiar, regional, etc.)",
+        "note": "Frequentemente usado com 'ni yotte' para indicar diferenças devido à origem.",
+        "furigana_html": "<ruby>出身<rp>(</rp><rt>しゅっしん</rt><rp>)</rp></ruby>",
+        "reading": "しゅっしん",
+        "romaji": "shusshin"
+      },
+      {
+        "word": "変える",
+        "pos": "verb",
+        "phonetic": "/kaeru/",
+        "translation": "mudar, alterar",
+        "note": "Verbo transitivo, enfatiza a mudança intencional de algo.",
+        "furigana_html": "<ruby>変<rp>(</rp><rt>か</rt><rp>)</rp></ruby>える",
+        "reading": "かえる",
+        "romaji": "kaeru"
+      },
+      {
+        "word": "高める",
+        "pos": "verb",
+        "phonetic": "/takameru/",
+        "translation": "elevar, aumentar",
+        "note": "Verbo transitivo, frequentemente usado para coisas abstratas como habilidade, nível.",
+        "furigana_html": "<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>める",
+        "reading": "たかめる",
+        "romaji": "takameru"
+      },
+      {
+        "word": "限る",
+        "pos": "verb",
+        "phonetic": "/kagiru/",
+        "translation": "limitar, restringir",
+        "note": "Frequentemente aparece nas formas 'ni kagiru' ou 'kagirareta'.",
+        "furigana_html": "<ruby>限<rp>(</rp><rt>かぎ</rt><rp>)</rp></ruby>る",
+        "reading": "かぎる",
+        "romaji": "kagiru"
+      },
+      {
+        "word": "上昇",
+        "pos": "noun",
+        "phonetic": "/dʒoːʃoː/",
+        "translation": "ascensão, elevação (frequentemente de status social ou nível econômico)",
+        "note": "Frequentemente combinado com 'sociedade', como 'ascensão social'. Também pode ser verbo suru.",
+        "furigana_html": "<ruby>上昇<rp>(</rp><rt>じょうしょう</rt><rp>)</rp></ruby>",
+        "reading": "じょうしょう",
+        "romaji": "jōshō"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "最近の社会では、収入の格差がとても大きくなっているね。",
+        "translation": "Na sociedade atual, a disparidade de renda está ficando muito grande, não é?",
+        "highlights": [
+          "社会",
+          "格差"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうだね。特に教育の機会が限られているから、能力を高めたいと思っても難しい人が多い。",
+        "translation": "É verdade. Especialmente porque as oportunidades de educação são limitadas, muitas pessoas acham difícil mesmo querendo melhorar suas habilidades.",
+        "highlights": [
+          "教育",
+          "機会",
+          "限られ",
+          "能力",
+          "高め"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "やっぱり、親の出身や身分によって、将来の選択肢が決まってしまうのかな。",
+        "translation": "Afinal, as opções futuras acabam sendo determinadas pela origem ou posição social dos pais, não é?",
+        "highlights": [
+          "出身",
+          "身分"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "でも、最近は自分の努力で状況を変える人も増えているよ。",
+        "translation": "Mas, recentemente, também estão aumentando as pessoas que mudam sua situação com o próprio esforço.",
+        "highlights": [
+          "努力",
+          "変える"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "確かに、努力は大事だけど、それだけに限らないと思う。社会の上昇には、周りの支援も必要だよ。",
+        "translation": "De fato, o esforço é importante, mas acho que não se limita a isso. Para a ascensão social, também é necessário o apoio das pessoas ao redor.",
+        "highlights": [
+          "限ら",
+          "上昇"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうだね。まずは、教育の機会をもっと平等にするべきだね。",
+        "translation": "É verdade. Primeiro, deveríamos tornar as oportunidades de educação mais igualitárias.",
+        "highlights": [
+          "教育",
+          "機会"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "うん、そうすれば、能力があってもチャンスがない人を減らせるかもしれない。",
+        "translation": "Sim, assim talvez possamos reduzir o número de pessoas que têm habilidade mas não têm oportunidade.",
+        "highlights": [
+          "能力"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "本当にそうだね。社会全体でこの問題を考えなければならないね。",
+        "translation": "Realmente. Temos que pensar sobre esse problema em toda a sociedade.",
+        "highlights": [
+          "社会"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "教育の機会が限られている",
+        "translation": "oportunidades de educação são limitadas"
+      },
+      {
+        "phrase": "社会の上昇",
+        "translation": "ascensão social"
+      },
+      {
+        "phrase": "努力で状況を変える",
+        "translation": "mudar a situação com esforço"
+      }
+    ]
+  },
+  {
+    "id": "pt_B2_vctx_39",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "B2",
+    "scenario": "Talking about leadership styles",
+    "frequency_note": "words ranked ~1500–3000 by frequency of Japanese",
+    "vocabulary": [
+      {
+        "word": "方針",
+        "pos": "noun",
+        "phonetic": "hoːɕin",
+        "translation": "diretriz, política",
+        "note": "Refere-se à direção de ação ou princípios básicos de uma equipe ou organização.",
+        "furigana_html": "<ruby>方針<rp>(</rp><rt>ほうしん</rt><rp>)</rp></ruby>",
+        "reading": "ほうしん",
+        "romaji": "hōshin"
+      },
+      {
+        "word": "決定",
+        "pos": "noun/verb",
+        "phonetic": "kettei",
+        "translation": "decisão",
+        "note": "Usado como substantivo ou verbo do tipo sa, indica o processo ou resultado de tomar uma decisão.",
+        "furigana_html": "<ruby>決定<rp>(</rp><rt>けってい</rt><rp>)</rp></ruby>",
+        "reading": "けってい",
+        "romaji": "kettei"
+      },
+      {
+        "word": "任せる",
+        "pos": "verb",
+        "phonetic": "makaseru",
+        "translation": "delegar, confiar",
+        "note": "Indica confiar tarefas ou poder de decisão a outros, frequentemente usado para delegação.",
+        "furigana_html": "<ruby>任<rp>(</rp><rt>まか</rt><rp>)</rp></ruby>せる",
+        "reading": "まかせる",
+        "romaji": "makaseru"
+      },
+      {
+        "word": "責任",
+        "pos": "noun",
+        "phonetic": "sekinin",
+        "translation": "responsabilidade",
+        "note": "Refere-se à obrigação de responder pelos resultados.",
+        "furigana_html": "<ruby>責任<rp>(</rp><rt>せきにん</rt><rp>)</rp></ruby>",
+        "reading": "せきにん",
+        "romaji": "sekinin"
+      },
+      {
+        "word": "率いる",
+        "pos": "verb",
+        "phonetic": "hikiiru",
+        "translation": "liderar, comandar",
+        "note": "Termo formal, indica liderar uma equipe como líder.",
+        "furigana_html": "<ruby>率<rp>(</rp><rt>ひき</rt><rp>)</rp></ruby>いる",
+        "reading": "ひきいる",
+        "romaji": "hikiiru"
+      },
+      {
+        "word": "具体的",
+        "pos": "adj (na)",
+        "phonetic": "gutaiteki",
+        "translation": "concreto, específico",
+        "note": "Oposto de abstrato, refere-se a algo claro, definido e operacional.",
+        "furigana_html": "<ruby>具体<rp>(</rp><rt>ぐたい</rt><rp>)</rp></ruby><ruby>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>",
+        "reading": "ぐたいてき",
+        "romaji": "gutaiteki"
+      },
+      {
+        "word": "直接",
+        "pos": "adverb/noun",
+        "phonetic": "chokusetsu",
+        "translation": "direto, diretamente",
+        "note": "Indica que não passa por etapas intermediárias.",
+        "furigana_html": "<ruby>直接<rp>(</rp><rt>ちょくせつ</rt><rp>)</rp></ruby>",
+        "reading": "ちょくせつ",
+        "romaji": "chokusetsu"
+      },
+      {
+        "word": "指示",
+        "pos": "noun/verb",
+        "phonetic": "shiji",
+        "translation": "instrução, ordem",
+        "note": "Ordem ou orientação clara dada por um superior a um subordinado.",
+        "furigana_html": "<ruby>指示<rp>(</rp><rt>しじ</rt><rp>)</rp></ruby>",
+        "reading": "しじ",
+        "romaji": "shiji"
+      },
+      {
+        "word": "統率",
+        "pos": "noun/verb",
+        "phonetic": "toːsotsu",
+        "translation": "comando, liderança",
+        "note": "Enfatiza mais a capacidade de controle e organização do que 'hikiiru'.",
+        "furigana_html": "<ruby>統率<rp>(</rp><rt>とうそつ</rt><rp>)</rp></ruby>",
+        "reading": "とうそつ",
+        "romaji": "tōsotsu"
+      },
+      {
+        "word": "型",
+        "pos": "noun",
+        "phonetic": "kata",
+        "translation": "tipo, padrão",
+        "note": "Usado para classificar, como tipos de estilo de liderança.",
+        "furigana_html": "<ruby>型<rp>(</rp><rt>かた</rt><rp>)</rp></ruby>",
+        "reading": "かた",
+        "romaji": "kata"
+      },
+      {
+        "word": "柔軟",
+        "pos": "adj (na)",
+        "phonetic": "juːnan",
+        "translation": "flexível, maleável",
+        "note": "Descreve algo que se adapta a mudanças, sem rigidez.",
+        "furigana_html": "<ruby>柔軟<rp>(</rp><rt>じゅうなん</rt><rp>)</rp></ruby>",
+        "reading": "じゅうなん",
+        "romaji": "jūnan"
+      },
+      {
+        "word": "対話",
+        "pos": "noun/verb",
+        "phonetic": "taiwa",
+        "translation": "diálogo, comunicação",
+        "note": "Enfatiza a comunicação bidirecional, em vez de ordens unilaterais.",
+        "furigana_html": "<ruby>対話<rp>(</rp><rt>たいわ</rt><rp>)</rp></ruby>",
+        "reading": "たいわ",
+        "romaji": "taiwa"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "新しいプロジェクトのチームを率いることになったんだけど、自分のリーダーシップの型がまだはっきりしないんだ。",
+        "translation": "Recentemente, vou liderar uma equipe em um novo projeto, mas ainda não defini meu estilo de liderança.",
+        "highlights": [
+          "率いる",
+          "型"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "そうか。まず基本方針を決めるべきだよ。メンバーに具体的な指示を出すタイプか、それとも自由に任せるタイプか。",
+        "translation": "Entendo. Primeiro, você deve definir a diretriz básica. É do tipo que dá instruções específicas aos membros ou do tipo que os deixa agir livremente?",
+        "highlights": [
+          "方針",
+          "具体的",
+          "指示",
+          "任せる"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "統率を重視すると、どうしても直接指示が多くなる。でも、それだとメンバーの自主性が育たない気がして。",
+        "translation": "Se eu valorizar o comando, as instruções diretas acabam aumentando. Mas, assim, sinto que a autonomia dos membros não se desenvolve.",
+        "highlights": [
+          "統率",
+          "直接"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "私の上司は柔軟なスタイルで、決定の権限を各メンバーに委ねていたよ。ただし、最終的な責任は自分が取るという姿勢だった。",
+        "translation": "Meu chefe tinha um estilo flexível, delegando o poder de decisão a cada membro. No entanto, ele mantinha a postura de assumir a responsabilidade final.",
+        "highlights": [
+          "柔軟",
+          "決定",
+          "責任"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "なるほど。でも決定を任せる場合、メンバー同士の対話が不足すると、方向性がばらばらになるリスクもあるよね。",
+        "translation": "Entendi. Mas, ao delegar decisões, se faltar diálogo entre os membros, há o risco de as direções ficarem divergentes, não é?",
+        "highlights": [
+          "対話"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "確かに。だから、対話の場を定期的に設けることが大事だよ。私のチームでは、毎週のミーティングで各自の進捗を共有している。",
+        "translation": "De fato. Por isso, é importante criar espaços de diálogo regularmente. Na minha equipe, compartilhamos o progresso de cada um em reuniões semanais.",
+        "highlights": [
+          "対話"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "それも一つの具体的な方法だね。僕はまだ迷っているけど、まずはメンバーの意見を聞くところから始めてみよう。",
+        "translation": "Essa também é uma forma concreta. Ainda estou em dúvida, mas vou começar ouvindo as opiniões dos membros.",
+        "highlights": [
+          "具体的"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "それがいいと思う。リーダーが全てを決める時代じゃない。柔軟に、でも責任はきちんと持って率いていくのが理想だよ。",
+        "translation": "Acho que é uma boa ideia. Não vivemos mais na época em que o líder decide tudo. O ideal é liderar com flexibilidade, mas assumindo claramente a responsabilidade.",
+        "highlights": [
+          "柔軟",
+          "責任",
+          "率いる"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "決定の権限を委ねる",
+        "translation": "delegar o poder de decisão"
+      },
+      {
+        "phrase": "最終的な責任を取る",
+        "translation": "assumir a responsabilidade final"
+      },
+      {
+        "phrase": "リーダーシップの型",
+        "translation": "tipo de liderança"
+      }
+    ]
+  }
+]
