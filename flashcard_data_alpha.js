@@ -7,6 +7,1221 @@
 
 const FLASHCARD_ALPHA = {
   // ──────────────────────────────────────────────────────
+  // AR_DE
+  // ──────────────────────────────────────────────────────
+  ar_de: {
+      "level": "A0",
+      "levelName": "El alfabeto árabe",
+      "groups": [
+          {
+              "id": "ar_a0_g1",
+              "name": "Introducción al árabe",
+              "icon": "📖",
+              "color": "#6366f1",
+              "description": "Script RTL · abjad · vocales · conexión de letras",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "ar_a0_g1_L_rtl",
+                      "isLetter": true,
+                      "letter": "→",
+                      "word": "RTL",
+                      "emoji": "➡️",
+                      "phonetic": "/min al-yamīn ilā al-shimāl/",
+                      "translation": "Arabisch wird <b>von rechts nach links</b> geschrieben und gelesen.<br><i>Wie bei einer umgekehrten Zeile in einem Buch.</i>",
+                      "mnemonic": "Stell dir vor, die Buchstaben laufen nach links, wie beim Zurückblättern eines Buches.",
+                      "examples": [
+                          {
+                              "t": "مرحبا ← <b>مرحبا</b>",
+                              "n": "Das Wort <i>marhaba</i> (Hallo) beginnt rechts und endet links."
+                          },
+                          {
+                              "t": "Starte rechts 👈<br>Lies nach links 👉",
+                              "n": "Richtungspfeil: Der Anfang ist immer auf der rechten Seite."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_L_abjad",
+                      "isLetter": true,
+                      "letter": "ا",
+                      "word": "Abjad",
+                      "emoji": "🔤",
+                      "phonetic": "/ʔalif/",
+                      "translation": "Das arabische Alphabet ist ein <b>Abjad</b> – es schreibt hauptsächlich Konsonanten.<br>Kurze Vokale (a, i, u) werden meist <i>weggelassen</i>, außer in Lehrbüchern oder im Koran.",
+                      "mnemonic": "Denk an ein Skelett: Die Konsonanten sind die Knochen, die Vokale nur das Fleisch – oft nicht sichtbar.",
+                      "examples": [
+                          {
+                              "t": "كِتَابٌ (mit Vokalen) → كتاب (ohne Vokale)",
+                              "n": "Dasselbe Wort <i>kitāb</i> (Buch) – einmal betont, einmal nackt."
+                          },
+                          {
+                              "t": "Ohne Vokale muss man den Kontext kennen.",
+                              "n": "Erfahrene Leser ergänzen die Vokale automatisch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_L_fatha",
+                      "isLetter": true,
+                      "letter": "ـَ",
+                      "word": "Fatha",
+                      "emoji": "🔺",
+                      "phonetic": "/a/",
+                      "translation": "<b>Fatha</b> ـَ ist ein kleiner Schrägstrich <b>über</b> dem Buchstaben – er klingt wie <i>a</i> in „Apfel“.",
+                      "mnemonic": "Ein Strich nach oben = ein offenes <i>a</i>, als würde der Mund weit geöffnet.",
+                      "examples": [
+                          {
+                              "t": "بَ = <b>ba</b>",
+                              "n": "Fatha über <i>bāʼ</i> ergibt /ba/."
+                          },
+                          {
+                              "t": "كِتَابٌ – das erste <b>ـَ</b> macht das <i>a</i> in „ki<b>tāb</b>“.",
+                              "n": "Fatha erscheint oft in geschriebenen Vokalen."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_L_kasra",
+                      "isLetter": true,
+                      "letter": "ـِ",
+                      "word": "Kasra",
+                      "emoji": "🔻",
+                      "phonetic": "/i/",
+                      "translation": "<b>Kasra</b> ـِ ist ein kleiner Schrägstrich <b>unter</b> dem Buchstaben – klingt wie <i>i</i> in „Kiste“.",
+                      "mnemonic": "Der Strich nach unten = ein geschlossenes <i>i</i>, wie ein Lächeln, das nach unten zieht.",
+                      "examples": [
+                          {
+                              "t": "بِ = <b>bi</b>",
+                              "n": "Kasra unter <i>bāʼ</i> ergibt /bi/."
+                          },
+                          {
+                              "t": "كِتَابٌ – das <b>ـِ</b> macht das <i>i</i> in „k<b>i</b>tāb“.",
+                              "n": "Kasra sitzt unter dem Konsonanten."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_L_damma",
+                      "isLetter": true,
+                      "letter": "ـُ",
+                      "word": "Damma",
+                      "emoji": "🌀",
+                      "phonetic": "/u/",
+                      "translation": "<b>Damma</b> ـُ ist eine kleine Locke <b>über</b> dem Buchstaben – klingt wie <i>u</i> in „Bus“.",
+                      "mnemonic": "Die Locke sieht aus wie ein kleines <i>u</i>, das nach oben schaut.",
+                      "examples": [
+                          {
+                              "t": "بُ = <b>bu</b>",
+                              "n": "Damma über <i>bāʼ</i> ergibt /bu/."
+                          },
+                          {
+                              "t": "كُتُبٌ – das <b>ـُ</b> macht das <i>u</i> in „k<b>u</b>tub“ (Bücher).",
+                              "n": "Damma wird wie ein kleines Wölkchen geschrieben."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_L_sukun",
+                      "isLetter": true,
+                      "letter": "ـْ",
+                      "word": "Sukun",
+                      "emoji": "⭕",
+                      "phonetic": "/∅/",
+                      "translation": "<b>Sukun</b> ـْ ist ein kleiner Kreis <b>über</b> dem Buchstaben – er bedeutet <b>kein Vokal</b> (stiller Konsonant).",
+                      "mnemonic": "Ein Kreis wie ein „Stopp-Schild“ – hier kommt kein Vokal.",
+                      "examples": [
+                          {
+                              "t": "بْ = <b>b</b> (nur der Konsonant)",
+                              "n": "Sukun zeigt: kein a, i, u danach."
+                          },
+                          {
+                              "t": "بَيْتٌ – das <b>ـْ</b> nach <i>yāʼ</i> macht das <i>y</i> stumm.",
+                              "n": "Sukun hilft, die Aussprache zu präzisieren."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_L_shadda",
+                      "isLetter": true,
+                      "letter": "ـّ",
+                      "word": "Schadda",
+                      "emoji": "💥",
+                      "phonetic": "/doubled consonant/",
+                      "translation": "<b>Schadda</b> ـّ ist ein kleines <b>w</b> über dem Buchstaben – es verdoppelt den Konsonanten.<br><i>Wie „bb“ in „Hobby“.</i>",
+                      "mnemonic": "Das Zeichen sieht aus wie ein kleines <i>w</i> – doppelt so stark!",
+                      "examples": [
+                          {
+                              "t": "بَّ = <b>bba</b>",
+                              "n": "Der Konsonant wird länger gehalten."
+                          },
+                          {
+                              "t": "بَيْتٌ – kein Schadda hier, aber in „دَرَّسَ“ (darasa) verdoppelt es das <b>ر</b>.",
+                              "n": "Schadda ist wie ein Energieschub für den Buchstaben."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_L_connectors",
+                      "isLetter": true,
+                      "letter": "ك",
+                      "word": "Verbindung",
+                      "emoji": "🔗",
+                      "phonetic": "/kāf/",
+                      "translation": "Die meisten arabischen Buchstaben <b>verbinden sich</b> mit dem nächsten Buchstaben.<br>Aber <b>6 Buchstaben</b> verbinden sich nur nach rechts: <i>ا د ذ ر ز و</i>.",
+                      "mnemonic": "Denk an eine Kette: Die 6 Ausreißer sind wie einzelne Perlen, die keine Kette nach links bilden.",
+                      "examples": [
+                          {
+                              "t": "ك + ت + ب → <b>كتب</b> (kataba = schrieb)",
+                              "n": "Alle drei Buchstaben verbinden sich zu einer durchgehenden Linie."
+                          },
+                          {
+                              "t": "م + ر + ح + ب + ا → <b>مرحبا</b>",
+                              "n": "Das <i>ا</i> (Alif) am Ende bricht die Kette – es verbindet sich nicht nach links."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_L_nonconnectors",
+                      "isLetter": true,
+                      "letter": "ا",
+                      "word": "Nicht-Verbinder",
+                      "emoji": "🚫",
+                      "phonetic": "/ʔalif/",
+                      "translation": "Die Buchstaben <b>ا د ذ ر ز و</b> verbinden sich <b>nur nach rechts</b> – sie lassen die Kette abbrechen.",
+                      "mnemonic": "Stell sie dir als einsame Inseln vor, die keine Brücke zum linken Ufer bauen.",
+                      "examples": [
+                          {
+                              "t": "د + ا + ر → <b>دار</b> (dār = Haus)",
+                              "n": "Das <i>د</i> und <i>ا</i> verbinden sich nicht mit dem nächsten Buchstaben."
+                          },
+                          {
+                              "t": "ك + ت + ا + ب → <b>كتاب</b>",
+                              "n": "Das <i>ا</i> bricht die Verbindung – es bleibt allein."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "ب",
+                      "word": "بَيْتٌ",
+                      "emoji": "🏠",
+                      "phonetic": "/bayt/",
+                      "translation": "<b>Haus</b> – mit allen Vokalen geschrieben: <i>b</i> + <i>a</i> + <i>y</i> + <i>t</i>",
+                      "translations": {
+                          "ar": "بَيْتٌ",
+                          "de": "Haus",
+                          "en": "house"
+                      },
+                      "examples": [
+                          {
+                              "t": "هَذَا <b>بَيْتٌ</b> كَبِيرٌ",
+                              "n": "Das ist ein großes Haus."
+                          },
+                          {
+                              "t": "أَنَا فِي <b>بَيْتٍ</b>",
+                              "n": "Ich bin in einem Haus."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "ك",
+                      "word": "كِتَابٌ",
+                      "emoji": "📖",
+                      "phonetic": "/kitāb/",
+                      "translation": "<b>Buch</b> – mit Vokalen: <i>k</i> + <i>i</i> + <i>t</i> + <i>ā</i> + <i>b</i>",
+                      "translations": {
+                          "ar": "كِتَابٌ",
+                          "de": "Buch",
+                          "en": "book"
+                      },
+                      "examples": [
+                          {
+                              "t": "هَذَا <b>كِتَابٌ</b> جَدِيدٌ",
+                              "n": "Das ist ein neues Buch."
+                          },
+                          {
+                              "t": "أَقْرَأُ <b>كِتَابًا</b>",
+                              "n": "Ich lese ein Buch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "م",
+                      "word": "مَاءٌ",
+                      "emoji": "💧",
+                      "phonetic": "/māʼ/",
+                      "translation": "<b>Wasser</b> – das Alif (ا) wird hier wie ein langes <i>ā</i> gesprochen.",
+                      "translations": {
+                          "ar": "مَاءٌ",
+                          "de": "Wasser",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "أَشْرَبُ <b>مَاءً</b>",
+                              "n": "Ich trinke Wasser."
+                          },
+                          {
+                              "t": "هَذَا <b>مَاءٌ</b> بَارِدٌ",
+                              "n": "Das ist kaltes Wasser."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ar_a0_g2",
+              "name": "Letras — grupo A",
+              "icon": "🔤",
+              "color": "#f59e0b",
+              "description": "أ ب ت ث ج ح خ د ذ ر ز",
+              "reviewFrom": [
+                  "ar_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "ar_a0_g2_L_alif",
+                      "isLetter": true,
+                      "letter": "أ/ا",
+                      "word": "أ/ا",
+                      "emoji": "🔤",
+                      "phonetic": "/ʔa/",
+                      "translation": "Alif – kurzer Stimmabsatz + 'a'<br><b>ا</b> ist ein gerader Strich, der nicht verbunden wird.<br>Wie ein <span class='hl'>stockgerader</span> Buchstabe.",
+                      "mnemonic": "Stell dir einen geraden Stock vor, der einfach stehen bleibt.",
+                      "examples": [
+                          {
+                              "t": "<b>أنا</b> (ana) = ich",
+                              "n": "Ich"
+                          },
+                          {
+                              "t": "ماء (maa) = Wasser – das <b>ا</b> am Ende verlängert das 'a'.",
+                              "n": "Wasser"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_L_ba",
+                      "isLetter": true,
+                      "letter": "ب",
+                      "word": "ب",
+                      "emoji": "🔤",
+                      "phonetic": "/b/",
+                      "translation": "Ba – wie deutsches 'b'<br>Ein Teller mit einem <b>Punkt darunter</b>.",
+                      "mnemonic": "Ein Teller mit einem Punkt darunter – der Punkt ist das 'b'.",
+                      "examples": [
+                          {
+                              "t": "<b>بيت</b> (bayt) = Haus",
+                              "n": "Haus"
+                          },
+                          {
+                              "t": "<b>كتاب</b> (kitaab) = Buch",
+                              "n": "Buch"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_L_ta",
+                      "isLetter": true,
+                      "letter": "ت",
+                      "word": "ت",
+                      "emoji": "🔤",
+                      "phonetic": "/t/",
+                      "translation": "Ta – wie deutsches 't'<br>Ein Teller mit <b>zwei Punkten darüber</b>.",
+                      "mnemonic": "Zwei Punkte oben wie zwei kleine Augen.",
+                      "examples": [
+                          {
+                              "t": "<b>تمر</b> (tamr) = Datteln",
+                              "n": "Datteln"
+                          },
+                          {
+                              "t": "<b>أنت</b> (anta) = du (männlich)",
+                              "n": "Du"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_L_tha",
+                      "isLetter": true,
+                      "letter": "ث",
+                      "word": "ث",
+                      "emoji": "🔤",
+                      "phonetic": "/θ/",
+                      "translation": "Tha – wie englisch 'th' in 'think'<br>Ein Teller mit <b>drei Punkten darüber</b>.",
+                      "mnemonic": "Drei Punkte wie ein kleines Dreieck – 'th' wie in 'three'.",
+                      "examples": [
+                          {
+                              "t": "<b>ثلاثة</b> (thalaatha) = drei",
+                              "n": "Drei"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_L_jim",
+                      "isLetter": true,
+                      "letter": "ج",
+                      "word": "ج",
+                      "emoji": "🔤",
+                      "phonetic": "/dʒ/",
+                      "translation": "Jim – wie englisch 'j' in 'jungle'<br>Eine <b>Zange</b> mit einem Punkt in der Mitte.",
+                      "mnemonic": "Sieht aus wie eine Zange, die etwas festhält.",
+                      "examples": [
+                          {
+                              "t": "<b>جميل</b> (jameel) = schön",
+                              "n": "Schön"
+                          },
+                          {
+                              "t": "<b>جدة</b> (Jidda) = Stadt in Saudi-Arabien",
+                              "n": "Jidda"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_L_ha",
+                      "isLetter": true,
+                      "letter": "ح",
+                      "word": "ح",
+                      "emoji": "🔤",
+                      "phonetic": "/ħ/",
+                      "translation": "Ha – tiefer Kehlkopf-Laut (kein deutsches Äquivalent)<br>Wie ein <b>offenes Auge</b> mit einem Strich.",
+                      "mnemonic": "Stell dir vor, du hauchst gegen eine Fensterscheibe – der Laut kommt aus dem Rachen.",
+                      "examples": [
+                          {
+                              "t": "<b>حب</b> (hub) = Liebe",
+                              "n": "Liebe"
+                          },
+                          {
+                              "t": "<b>أحمد</b> (Ahmad) = männlicher Name",
+                              "n": "Ahmad"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_L_kha",
+                      "isLetter": true,
+                      "letter": "خ",
+                      "word": "خ",
+                      "emoji": "🔤",
+                      "phonetic": "/x/",
+                      "translation": "Kha – wie spanisches 'j' (Bach-Laut)<br>Ein <b>Punkt oben</b> auf einem Bogen.",
+                      "mnemonic": "Stell dir vor, du machst den Laut beim Räuspern – wie 'ch' in 'Bach'.",
+                      "examples": [
+                          {
+                              "t": "<b>خبز</b> (khubz) = Brot",
+                              "n": "Brot"
+                          },
+                          {
+                              "t": "<b>أخ</b> (akh) = Bruder",
+                              "n": "Bruder"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_L_dal",
+                      "isLetter": true,
+                      "letter": "د",
+                      "word": "د",
+                      "emoji": "🔤",
+                      "phonetic": "/d/",
+                      "translation": "Dal – wie deutsches 'd'<br>Ein <b>Bogen</b>, der nicht verbunden wird.",
+                      "mnemonic": "Sieht aus wie ein Halbkreis – wie ein 'd' ohne Stiel.",
+                      "examples": [
+                          {
+                              "t": "<b>درس</b> (darasa) = er lernte",
+                              "n": "Er lernte"
+                          },
+                          {
+                              "t": "<b>يد</b> (yad) = Hand",
+                              "n": "Hand"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_L_dhal",
+                      "isLetter": true,
+                      "letter": "ذ",
+                      "word": "ذ",
+                      "emoji": "🔤",
+                      "phonetic": "/ð/",
+                      "translation": "Dhal – wie englisch 'th' in 'the'<br>Ein Bogen mit <b>einem Punkt oben</b>.",
+                      "mnemonic": "Der Punkt oben macht aus 'd' ein 'th' – wie in 'this'.",
+                      "examples": [
+                          {
+                              "t": "<b>ذهب</b> (dhahab) = Gold",
+                              "n": "Gold"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_L_ra",
+                      "isLetter": true,
+                      "letter": "ر",
+                      "word": "ر",
+                      "emoji": "🔤",
+                      "phonetic": "/r/",
+                      "translation": "Ra – gerolltes 'r' (wie spanisch)<br>Ein <b>kleiner Bogen</b>, der nicht verbunden wird.",
+                      "mnemonic": "Wie ein kleines Häkchen – roll das 'r' wie im Spanischen.",
+                      "examples": [
+                          {
+                              "t": "<b>رجل</b> (rajul) = Mann",
+                              "n": "Mann"
+                          },
+                          {
+                              "t": "<b>مرحبا</b> (marhaba) = Hallo",
+                              "n": "Hallo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_L_zayn",
+                      "isLetter": true,
+                      "letter": "ز",
+                      "word": "ز",
+                      "emoji": "🔤",
+                      "phonetic": "/z/",
+                      "translation": "Zayn – wie deutsches 'z' (stimmlos)<br>Ein Bogen mit <b>einem Punkt oben</b> – wie ein 'r' mit Punkt.",
+                      "mnemonic": "Der Punkt macht aus 'r' ein 'z' – wie in 'Zebra'.",
+                      "examples": [
+                          {
+                              "t": "<b>زيت</b> (zayt) = Öl",
+                              "n": "Öl"
+                          },
+                          {
+                              "t": "<b>زهرة</b> (zahra) = Blume",
+                              "n": "Blume"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "ب",
+                      "word": "بيت",
+                      "emoji": "🏠",
+                      "phonetic": "/bayt/",
+                      "translation": "Haus",
+                      "translations": {
+                          "ar": "بيت",
+                          "de": "Haus",
+                          "en": "house"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>بيت</b> كبير (bayt kabiir) = ein großes Haus",
+                              "n": "Ein großes Haus"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "ك",
+                      "word": "كتاب",
+                      "emoji": "📖",
+                      "phonetic": "/kitaab/",
+                      "translation": "Buch",
+                      "translations": {
+                          "ar": "كتاب",
+                          "de": "Buch",
+                          "en": "book"
+                      },
+                      "examples": [
+                          {
+                              "t": "هذا <b>كتاب</b> (haadha kitaab) = Das ist ein Buch.",
+                              "n": "Das ist ein Buch."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ar_a0_g3",
+              "name": "Letras — grupo B",
+              "icon": "🔡",
+              "color": "#10b981",
+              "description": "س ش ص ض ط ظ ع غ ف ق ك ل",
+              "reviewFrom": [
+                  "ar_a0_g1",
+                  "ar_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "ar_a0_g3_L_sin",
+                      "isLetter": true,
+                      "letter": "س",
+                      "word": "س",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Sin — wie ein <b>s</b> im Deutschen. <i>Zischlaut</i>",
+                      "mnemonic": "Stell dir eine Schlange vor, die zischt — die Form von س sieht aus wie eine kleine Zunge mit drei Zähnen.",
+                      "examples": [
+                          {
+                              "t": "<b>س</b>لام (salam) — Frieden",
+                              "n": "Das Wort beginnt mit Sin."
+                          },
+                          {
+                              "t": "رأ<b>س</b> (raas) — Kopf",
+                              "n": "Am Ende des Wortes."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_shin",
+                      "isLetter": true,
+                      "letter": "ش",
+                      "word": "ش",
+                      "emoji": "🔤",
+                      "phonetic": "/ʃ/",
+                      "translation": "Schin — wie <b>sch</b> im Deutschen. <i>Zischlaut</i>",
+                      "mnemonic": "Schin hat drei Punkte darüber — wie drei kleine Schlangen, die zischen.",
+                      "examples": [
+                          {
+                              "t": "<b>ش</b>مس (shams) — Sonne",
+                              "n": "Die Sonne scheint."
+                          },
+                          {
+                              "t": "<b>ش</b>كراً (shukran) — Danke",
+                              "n": "Höflichkeitsformel."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_sad",
+                      "isLetter": true,
+                      "letter": "ص",
+                      "word": "ص",
+                      "emoji": "🔤",
+                      "phonetic": "/sˤ/",
+                      "translation": "Sad — emphatisches <b>s</b> (Zunge zurück). <i>Dunkler Klang</i>",
+                      "mnemonic": "Sad sieht aus wie ein Kreis mit einem Schwanz — denk an eine Schale, die du zurückziehst.",
+                      "examples": [
+                          {
+                              "t": "<b>ص</b>باح (sabah) — Morgen",
+                              "n": "Guten Morgen."
+                          },
+                          {
+                              "t": "<b>ص</b>ديق (sadeeq) — Freund",
+                              "n": "Ein Freund."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_dad",
+                      "isLetter": true,
+                      "letter": "ض",
+                      "word": "ض",
+                      "emoji": "🔤",
+                      "phonetic": "/dˤ/",
+                      "translation": "Dad — emphatisches <b>d</b>. <i>Dunkler Klang</i>",
+                      "mnemonic": "Dad hat einen Punkt oben — wie ein Punkt auf einem Dach.",
+                      "examples": [
+                          {
+                              "t": "رم<b>ض</b>ان (Ramadan) — Fastenmonat",
+                              "n": "Der heilige Monat."
+                          },
+                          {
+                              "t": "بي<b>ض</b> (bayd) — Eier",
+                              "n": "Zum Frühstück."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_ta",
+                      "isLetter": true,
+                      "letter": "ط",
+                      "word": "ط",
+                      "emoji": "🔤",
+                      "phonetic": "/tˤ/",
+                      "translation": "Ta — emphatisches <b>t</b>. <i>Dunkler Klang</i>",
+                      "mnemonic": "Ta sieht aus wie ein Topf mit einem Deckel — der Deckel ist die Linie oben.",
+                      "examples": [
+                          {
+                              "t": "<b>ط</b>الب (talib) — Student",
+                              "n": "Jemand, der lernt."
+                          },
+                          {
+                              "t": "<b>ط</b>ريق (tareeq) — Straße",
+                              "n": "Der Weg."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_dha",
+                      "isLetter": true,
+                      "letter": "ظ",
+                      "word": "ظ",
+                      "emoji": "🔤",
+                      "phonetic": "/ðˤ/",
+                      "translation": "Dha — emphatisches <b>dh</b> (wie im Englischen 'this'). <i>Dunkler Klang</i>",
+                      "mnemonic": "Dha hat einen Punkt oben und einen Bauch — wie ein dicker Punkt.",
+                      "examples": [
+                          {
+                              "t": "<b>ظ</b>هر (duhr) — Mittag",
+                              "n": "Mittagsgebet."
+                          },
+                          {
+                              "t": "ح<b>ظ</b> (hadh) — Glück",
+                              "n": "Viel Glück!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_ayn",
+                      "isLetter": true,
+                      "letter": "ع",
+                      "word": "ع",
+                      "emoji": "🔤",
+                      "phonetic": "/ʕ/",
+                      "translation": "Ayn — stimmhafter Rachenlaut. <i>Einzigartig im Arabischen</i>",
+                      "mnemonic": "Ayn sieht aus wie ein Auge — und du sprichst es aus, als ob du ein Auge zukneifst.",
+                      "examples": [
+                          {
+                              "t": "<b>ع</b>ربي (arabi) — Araber/Arabisch",
+                              "n": "Die Sprache."
+                          },
+                          {
+                              "t": "<b>ع</b>لي (Ali) — männlicher Name",
+                              "n": "Ein häufiger Name."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_ghayn",
+                      "isLetter": true,
+                      "letter": "غ",
+                      "word": "غ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɣ/",
+                      "translation": "Ghain — wie ein <b>französisches R</b> oder Gurgeln. <i>Rachenlaut</i>",
+                      "mnemonic": "Ghain hat einen Punkt oben — denk an einen Punkt auf einem Berg, und du gurgelst.",
+                      "examples": [
+                          {
+                              "t": "<b>غ</b>داء (ghadaa) — Mittagessen",
+                              "n": "Das Essen am Mittag."
+                          },
+                          {
+                              "t": "ب<b>غ</b>داد (Baghdad) — Hauptstadt des Irak",
+                              "n": "Eine Stadt."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_fa",
+                      "isLetter": true,
+                      "letter": "ف",
+                      "word": "ف",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Fa — wie ein <b>f</b> im Deutschen. <i>Lippenlaut</i>",
+                      "mnemonic": "Fa hat einen Punkt oben und einen Bogen unten — wie eine Feder.",
+                      "examples": [
+                          {
+                              "t": "<b>ف</b>تح (fatah) — öffnen",
+                              "n": "Die Tür öffnen."
+                          },
+                          {
+                              "t": "كي<b>ف</b> (kayfa) — wie",
+                              "n": "Wie geht's?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_qaf",
+                      "isLetter": true,
+                      "letter": "ق",
+                      "word": "ق",
+                      "emoji": "🔤",
+                      "phonetic": "/q/",
+                      "translation": "Qaf — tiefes <b>k</b> (hinten im Rachen). <i>Uvularer Verschlusslaut</i>",
+                      "mnemonic": "Qaf hat zwei Punkte oben und einen Ring — wie ein Q mit Punkten.",
+                      "examples": [
+                          {
+                              "t": "<b>ق</b>لب (qalb) — Herz",
+                              "n": "Das Herz."
+                          },
+                          {
+                              "t": "<b>ق</b>رآن (Quran) — heiliges Buch",
+                              "n": "Der Koran."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_kaf",
+                      "isLetter": true,
+                      "letter": "ك",
+                      "word": "ك",
+                      "emoji": "🔤",
+                      "phonetic": "/k/",
+                      "translation": "Kaf — wie ein <b>k</b> im Deutschen. <i>Vorderer Laut</i>",
+                      "mnemonic": "Kaf sieht aus wie ein K mit einem Schwanz nach unten.",
+                      "examples": [
+                          {
+                              "t": "<b>ك</b>تاب (kitaab) — Buch",
+                              "n": "Ein Buch."
+                          },
+                          {
+                              "t": "كي<b>ف</b> (kayfa) — wie",
+                              "n": "Wie geht's?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_L_lam",
+                      "isLetter": true,
+                      "letter": "ل",
+                      "word": "ل",
+                      "emoji": "🔤",
+                      "phonetic": "/l/",
+                      "translation": "Lam — wie ein <b>l</b> im Deutschen. <i>Zungenlaut</i>",
+                      "mnemonic": "Lam sieht aus wie ein L mit einem Haken.",
+                      "examples": [
+                          {
+                              "t": "<b>ل</b>ا (la) — nein",
+                              "n": "Verneinung."
+                          },
+                          {
+                              "t": "ا<b>لل</b>ه (Allah) — Gott",
+                              "n": "Der Name Gottes."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_v01",
+                      "isLetter": false,
+                      "letter": "س",
+                      "word": "سلام",
+                      "emoji": "🕊️",
+                      "phonetic": "/salaam/",
+                      "translation": "Frieden",
+                      "translations": {
+                          "ar": "سلام",
+                          "de": "Frieden",
+                          "en": "peace"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>سلام</b> عليكم (salam alaykum) — Friede sei mit dir",
+                              "n": "Begrüßung."
+                          },
+                          {
+                              "t": "أنا أريد <b>السلام</b> (ana ureed as-salam) — Ich will Frieden.",
+                              "n": "Wunsch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_v02",
+                      "isLetter": false,
+                      "letter": "ش",
+                      "word": "شمس",
+                      "emoji": "☀️",
+                      "phonetic": "/shams/",
+                      "translation": "Sonne",
+                      "translations": {
+                          "ar": "شمس",
+                          "de": "Sonne",
+                          "en": "sun"
+                      },
+                      "examples": [
+                          {
+                              "t": "الش<b>مس</b> مشرقة (ash-shams mushriqa) — Die Sonne scheint.",
+                              "n": "Wetter."
+                          },
+                          {
+                              "t": "أحب <b>الشمس</b> (uhibb ash-shams) — Ich liebe die Sonne.",
+                              "n": "Vorliebe."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g3_v03",
+                      "isLetter": false,
+                      "letter": "ق",
+                      "word": "قلب",
+                      "emoji": "❤️",
+                      "phonetic": "/qalb/",
+                      "translation": "Herz",
+                      "translations": {
+                          "ar": "قلب",
+                          "de": "Herz",
+                          "en": "heart"
+                      },
+                      "examples": [
+                          {
+                              "t": "قلبي <b>قلب</b> (qalbi qalb) — Mein Herz ist ein Herz.",
+                              "n": "Wortwörtlich."
+                          },
+                          {
+                              "t": "هذا <b>القلب</b> (hadha al-qalb) — Dieses Herz.",
+                              "n": "Zeigen."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "ar_a0_g4",
+              "name": "Letras — grupo C + palabras",
+              "icon": "🔣",
+              "color": "#ef4444",
+              "description": "م ن ه و ي + primeras palabras completas",
+              "reviewFrom": [
+                  "ar_a0_g1",
+                  "ar_a0_g2",
+                  "ar_a0_g3"
+              ],
+              "cards": [
+                  {
+                      "id": "ar_a0_g4_L_mim",
+                      "isLetter": true,
+                      "letter": "م",
+                      "word": "م",
+                      "emoji": "🔤",
+                      "phonetic": "/m/",
+                      "translation": "Mim — klingt wie das deutsche <b>M</b> in <i>Mama</i>",
+                      "mnemonic": "Ein Kreis mit einem Schwanz nach unten – wie ein Mund, der sich zum ‚Mmm‘ schließt.",
+                      "examples": [
+                          {
+                              "t": "<b>م</b> wie <b>مرحبا</b> (marhaba) – Hallo",
+                              "n": "Das erste Zeichen in ‚Hallo‘"
+                          },
+                          {
+                              "t": "<b>م</b> wie <b>أم</b> (umm) – Mutter",
+                              "n": "Kurzes Wort mit M am Ende"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_L_nun",
+                      "isLetter": true,
+                      "letter": "ن",
+                      "word": "ن",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "Nun — klingt wie das deutsche <b>N</b> in <i>Nase</i>",
+                      "mnemonic": "Eine Schale mit einem Punkt darüber – wie eine Nase mit einem Punkt als Nasenspitze.",
+                      "examples": [
+                          {
+                              "t": "<b>ن</b> wie <b>نعم</b> (naam) – Ja",
+                              "n": "Das erste Zeichen in ‚Ja‘"
+                          },
+                          {
+                              "t": "<b>ن</b> wie <b>نور</b> (nour) – Licht",
+                              "n": "Licht beginnt mit N"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_L_ha",
+                      "isLetter": true,
+                      "letter": "ه",
+                      "word": "ه",
+                      "emoji": "🔤",
+                      "phonetic": "/h/",
+                      "translation": "Ha — ein leichtes <b>H</b>, wie in <i>Haus</i>, aber weicher",
+                      "mnemonic": "Zwei kleine Kreise übereinander – wie ein offener Mund, der ‚ha‘ haucht.",
+                      "examples": [
+                          {
+                              "t": "<b>ه</b> wie <b>هو</b> (huwa) – er",
+                              "n": "Das erste Zeichen in ‚er‘"
+                          },
+                          {
+                              "t": "<b>ه</b> wie <b>هنا</b> (huna) – hier",
+                              "n": "Hier beginnt mit H"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_L_waw",
+                      "isLetter": true,
+                      "letter": "و",
+                      "word": "و",
+                      "emoji": "🔤",
+                      "phonetic": "/w/ oder /uː/",
+                      "translation": "Waw — klingt wie <b>W</b> in <i>Wasser</i> oder langes <b>U</b> in <i>gut</i>",
+                      "mnemonic": "Ein Haken nach rechts – wie ein kleines ‚w‘, das sich umdreht.",
+                      "examples": [
+                          {
+                              "t": "<b>و</b> wie <b>وقت</b> (waqt) – Zeit",
+                              "n": "Das erste Zeichen in ‚Zeit‘"
+                          },
+                          {
+                              "t": "<b>و</b> in <b>يوم</b> (yawm) – Tag",
+                              "n": "Hier klingt es wie ein langes U"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_L_ya",
+                      "isLetter": true,
+                      "letter": "ي",
+                      "word": "ي",
+                      "emoji": "🔤",
+                      "phonetic": "/j/ oder /iː/",
+                      "translation": "Ya — klingt wie <b>J</b> in <i>Jahr</i> oder langes <b>I</b> in <i>Liebe</i>",
+                      "mnemonic": "Zwei Punkte unter einer Linie – wie ein Gesicht mit zwei Augen, das ‚juhu‘ ruft.",
+                      "examples": [
+                          {
+                              "t": "<b>ي</b> wie <b>يوم</b> (yawm) – Tag",
+                              "n": "Das erste Zeichen in ‚Tag‘"
+                          },
+                          {
+                              "t": "<b>ي</b> in <b>في</b> (fi) – in",
+                              "n": "Hier klingt es wie ein langes I"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_01",
+                      "isLetter": false,
+                      "letter": "م",
+                      "word": "مرحبا",
+                      "emoji": "👋",
+                      "phonetic": "/marhaba/",
+                      "translation": "Hallo",
+                      "translations": {
+                          "ar": "مرحبا",
+                          "de": "Hallo",
+                          "en": "Hello"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>مرحبا</b> كيف حالك؟",
+                              "n": "Hallo, wie geht es dir?"
+                          },
+                          {
+                              "t": "<b>مرحبا</b> بك",
+                              "n": "Willkommen (wörtlich: Hallo mit dir)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_02",
+                      "isLetter": false,
+                      "letter": "ش",
+                      "word": "شكراً",
+                      "emoji": "🙏",
+                      "phonetic": "/ʃukran/",
+                      "translation": "Danke",
+                      "translations": {
+                          "ar": "شكراً",
+                          "de": "Danke",
+                          "en": "Thanks"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>شكراً</b> جزيلاً",
+                              "n": "Vielen Dank"
+                          },
+                          {
+                              "t": "قل <b>شكراً</b>",
+                              "n": "Sag Danke"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_03",
+                      "isLetter": false,
+                      "letter": "ن",
+                      "word": "نعم",
+                      "emoji": "✅",
+                      "phonetic": "/naam/",
+                      "translation": "Ja",
+                      "translations": {
+                          "ar": "نعم",
+                          "de": "Ja",
+                          "en": "Yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>نعم</b>، أنا جاهز",
+                              "n": "Ja, ich bin bereit"
+                          },
+                          {
+                              "t": "أجبت <b>نعم</b>",
+                              "n": "Du hast Ja geantwortet"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_04",
+                      "isLetter": false,
+                      "letter": "ل",
+                      "word": "لا",
+                      "emoji": "❌",
+                      "phonetic": "/laː/",
+                      "translation": "Nein",
+                      "translations": {
+                          "ar": "لا",
+                          "de": "Nein",
+                          "en": "No"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>لا</b>، شكراً",
+                              "n": "Nein, danke"
+                          },
+                          {
+                              "t": "<b>لا</b> مشكلة",
+                              "n": "Kein Problem"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_05",
+                      "isLetter": false,
+                      "letter": "م",
+                      "word": "من",
+                      "emoji": "❓",
+                      "phonetic": "/man/",
+                      "translation": "wer / von",
+                      "translations": {
+                          "ar": "من",
+                          "de": "wer / von",
+                          "en": "who / from"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>من</b> أنت؟",
+                              "n": "Wer bist du?"
+                          },
+                          {
+                              "t": "أنا <b>من</b> ألمانيا",
+                              "n": "Ich bin aus Deutschland"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_06",
+                      "isLetter": false,
+                      "letter": "م",
+                      "word": "ماذا",
+                      "emoji": "❓",
+                      "phonetic": "/maːða/",
+                      "translation": "was",
+                      "translations": {
+                          "ar": "ماذا",
+                          "de": "was",
+                          "en": "what"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>ماذا</b> تريد؟",
+                              "n": "Was willst du?"
+                          },
+                          {
+                              "t": "<b>ماذا</b> تفعل؟",
+                              "n": "Was machst du?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_07",
+                      "isLetter": false,
+                      "letter": "أ",
+                      "word": "أين",
+                      "emoji": "📍",
+                      "phonetic": "/ajna/",
+                      "translation": "wo",
+                      "translations": {
+                          "ar": "أين",
+                          "de": "wo",
+                          "en": "where"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>أين</b> أنت؟",
+                              "n": "Wo bist du?"
+                          },
+                          {
+                              "t": "<b>أين</b> المطار؟",
+                              "n": "Wo ist der Flughafen?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_08",
+                      "isLetter": false,
+                      "letter": "م",
+                      "word": "متى",
+                      "emoji": "🕐",
+                      "phonetic": "/mataː/",
+                      "translation": "wann",
+                      "translations": {
+                          "ar": "متى",
+                          "de": "wann",
+                          "en": "when"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>متى</b> تصل؟",
+                              "n": "Wann kommst du an?"
+                          },
+                          {
+                              "t": "<b>متى</b> نلتقي؟",
+                              "n": "Wann treffen wir uns?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_09",
+                      "isLetter": false,
+                      "letter": "ك",
+                      "word": "كيف",
+                      "emoji": "🤔",
+                      "phonetic": "/kajfa/",
+                      "translation": "wie",
+                      "translations": {
+                          "ar": "كيف",
+                          "de": "wie",
+                          "en": "how"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>كيف</b> حالك؟",
+                              "n": "Wie geht es dir?"
+                          },
+                          {
+                              "t": "<b>كيف</b> أصل إلى هناك؟",
+                              "n": "Wie komme ich dahin?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "ar_a0_g4_10",
+                      "isLetter": false,
+                      "letter": "ل",
+                      "word": "لماذا",
+                      "emoji": "❓",
+                      "phonetic": "/limaːða/",
+                      "translation": "warum",
+                      "translations": {
+                          "ar": "لماذا",
+                          "de": "warum",
+                          "en": "why"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>لماذا</b> تبكي؟",
+                              "n": "Warum weinst du?"
+                          },
+                          {
+                              "t": "<b>لماذا</b> هنا؟",
+                              "n": "Warum hier?"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
   // AR_EN
   // ──────────────────────────────────────────────────────
   ar_en: {
@@ -7003,6 +8218,2583 @@ const FLASHCARD_ALPHA = {
                           {
                               "t": "<b>لماذا</b> تأخرت؟",
                               "n": "Почему ты опоздал?"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // ALEMÁN
+  // ──────────────────────────────────────────────────────
+  de: {
+      "level": "A0",
+      "levelName": "El alemán — caracteres y pronunciación",
+      "groups": [
+          {
+              "id": "de_a0_g1",
+              "name": "Umlauts y ß",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "ä · ö · ü · ß — los caracteres únicos del alemán",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "de_a0_g1_L_a",
+                      "isLetter": true,
+                      "letter": "Ä",
+                      "word": "Ä",
+                      "emoji": "🔤",
+                      "phonetic": "/ɛ/",
+                      "translation": "Se pronuncia como la <b>e</b> en “bed” (inglés) o la <i>e</i> española pero más abierta, como en “p<b>e</b>rro” pero más corta. <br> No es una “a” con dos puntos, es una letra aparte.",
+                      "mnemonic": "Imagina una “A” que se estira y se abre como un oso (<i>Bär</i>) abriendo la boca.",
+                      "examples": [
+                          {
+                              "t": "Der <b>Bär</b> ist braun.",
+                              "n": "El oso es marrón."
+                          },
+                          {
+                              "t": "Ich esse <b>Käse</b> gern.",
+                              "n": "Me gusta comer queso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_L_o",
+                      "isLetter": true,
+                      "letter": "Ö",
+                      "word": "Ö",
+                      "emoji": "🔤",
+                      "phonetic": "/ø/",
+                      "translation": "No existe en español. Redondea los labios como para decir <b>o</b>, pero pronuncia una <b>e</b>. Suena entre “e” y “o”. <br> Es como el sonido del francés <i>“peu”</i>.",
+                      "mnemonic": "Piensa en un pez que hace “o” con la boca pero dice “e”. ¡Labios redondos, lengua de “e”!",
+                      "examples": [
+                          {
+                              "t": "Das <b>Öl</b> ist teuer.",
+                              "n": "El aceite es caro."
+                          },
+                          {
+                              "t": "Ich <b>höre</b> Musik.",
+                              "n": "Yo escucho música."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_L_u",
+                      "isLetter": true,
+                      "letter": "Ü",
+                      "word": "Ü",
+                      "emoji": "🔤",
+                      "phonetic": "/y/",
+                      "translation": "No existe en español. Redondea los labios como para decir <b>u</b>, pero pronuncia una <b>i</b>. Suena entre “i” y “u”. <br> Como el sonido del francés <i>“tu”</i>.",
+                      "mnemonic": "Silba como para decir “u” pero di “i” — es como un silbido con los labios fruncidos.",
+                      "examples": [
+                          {
+                              "t": "Das Buch liegt <b>über</b> dem Tisch.",
+                              "n": "El libro está sobre la mesa."
+                          },
+                          {
+                              "t": "Die <b>Tür</b> ist offen.",
+                              "n": "La puerta está abierta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_L_ss",
+                      "isLetter": true,
+                      "letter": "ß",
+                      "word": "ß",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "Es una <b>s</b> fuerte y sorda, como la <b>s</b> española, pero después de vocales largas. <br> Si no puedes escribirla, usa <b>ss</b>. Ejemplo: <i>Straße</i> = <i>Strasse</i>.",
+                      "mnemonic": "Parece una “B” con cola, pero suena como una “s” que silba fuerte, como una serpiente.",
+                      "examples": [
+                          {
+                              "t": "Die <b>Straße</b> ist lang.",
+                              "n": "La calle es larga."
+                          },
+                          {
+                              "t": "Ich bin <b>groß</b>.",
+                              "n": "Soy grande/alto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "Ä",
+                      "word": "Bär",
+                      "emoji": "🐻",
+                      "phonetic": "/bɛːɐ̯/",
+                      "translation": "Oso",
+                      "translations": {
+                          "de": "Bär",
+                          "es": "oso",
+                          "en": "bear"
+                      },
+                      "examples": [
+                          {
+                              "t": "Der <b>Bär</b> schläft.",
+                              "n": "El oso duerme."
+                          },
+                          {
+                              "t": "Ich sehe einen <b>Bär</b>en.",
+                              "n": "Veo un oso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "Ä",
+                      "word": "Käse",
+                      "emoji": "🧀",
+                      "phonetic": "/ˈkɛːzə/",
+                      "translation": "Queso",
+                      "translations": {
+                          "de": "Käse",
+                          "es": "queso",
+                          "en": "cheese"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ich esse <b>Käse</b> zum Frühstück.",
+                              "n": "Como queso en el desayuno."
+                          },
+                          {
+                              "t": "Der <b>Käse</b> ist lecker.",
+                              "n": "El queso está delicioso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "Ö",
+                      "word": "Öl",
+                      "emoji": "🛢️",
+                      "phonetic": "/øːl/",
+                      "translation": "Aceite",
+                      "translations": {
+                          "de": "Öl",
+                          "es": "aceite",
+                          "en": "oil"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ich brauche <b>Öl</b> zum Kochen.",
+                              "n": "Necesito aceite para cocinar."
+                          },
+                          {
+                              "t": "Das <b>Öl</b> ist teuer.",
+                              "n": "El aceite es caro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "Ö",
+                      "word": "hören",
+                      "emoji": "👂",
+                      "phonetic": "/ˈhøːʁən/",
+                      "translation": "Escuchar, oír",
+                      "translations": {
+                          "de": "hören",
+                          "es": "escuchar",
+                          "en": "to hear/listen"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ich <b>höre</b> Musik.",
+                              "n": "Escucho música."
+                          },
+                          {
+                              "t": "Kannst du mich <b>hören</b>?",
+                              "n": "¿Puedes oírme?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "Ü",
+                      "word": "über",
+                      "emoji": "↗️",
+                      "phonetic": "/ˈyːbɐ/",
+                      "translation": "Sobre, por encima de, acerca de",
+                      "translations": {
+                          "de": "über",
+                          "es": "sobre, por encima de, acerca de",
+                          "en": "over, about"
+                      },
+                      "examples": [
+                          {
+                              "t": "Das Bild hängt <b>über</b> dem Sofa.",
+                              "n": "El cuadro cuelga sobre el sofá."
+                          },
+                          {
+                              "t": "Wir sprechen <b>über</b> das Wetter.",
+                              "n": "Hablamos sobre el clima."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "Ü",
+                      "word": "Tür",
+                      "emoji": "🚪",
+                      "phonetic": "/tyːɐ̯/",
+                      "translation": "Puerta",
+                      "translations": {
+                          "de": "Tür",
+                          "es": "puerta",
+                          "en": "door"
+                      },
+                      "examples": [
+                          {
+                              "t": "Die <b>Tür</b> ist zu.",
+                              "n": "La puerta está cerrada."
+                          },
+                          {
+                              "t": "Bitte mach die <b>Tür</b> auf.",
+                              "n": "Por favor, abre la puerta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "ß",
+                      "word": "Straße",
+                      "emoji": "🛣️",
+                      "phonetic": "/ˈʃtʁaːsə/",
+                      "translation": "Calle, carretera",
+                      "translations": {
+                          "de": "Straße",
+                          "es": "calle, carretera",
+                          "en": "street, road"
+                      },
+                      "examples": [
+                          {
+                              "t": "Die <b>Straße</b> ist breit.",
+                              "n": "La calle es ancha."
+                          },
+                          {
+                              "t": "Ich wohne in der <b>Straße</b>.",
+                              "n": "Vivo en la calle."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "ß",
+                      "word": "groß",
+                      "emoji": "🐘",
+                      "phonetic": "/ɡʁoːs/",
+                      "translation": "Grande, alto (persona)",
+                      "translations": {
+                          "de": "groß",
+                          "es": "grande, alto",
+                          "en": "big, tall"
+                      },
+                      "examples": [
+                          {
+                              "t": "Der Elefant ist <b>groß</b>.",
+                              "n": "El elefante es grande."
+                          },
+                          {
+                              "t": "Mein Bruder ist <b>groß</b>.",
+                              "n": "Mi hermano es alto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "ß",
+                      "word": "heißen",
+                      "emoji": "📛",
+                      "phonetic": "/ˈhaɪ̯sən/",
+                      "translation": "Llamarse (nombre)",
+                      "translations": {
+                          "de": "heißen",
+                          "es": "llamarse",
+                          "en": "to be called"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ich <b>heiße</b> Anna.",
+                              "n": "Me llamo Anna."
+                          },
+                          {
+                              "t": "Wie <b>heißt</b> du?",
+                              "n": "¿Cómo te llamas?"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "de_a0_g2",
+              "name": "Consonantes alemanas",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "J · W · V · Z · CH · SP/ST — sonidos propios",
+              "reviewFrom": [
+                  "de_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "de_a0_g2_L_j",
+                      "isLetter": true,
+                      "letter": "J",
+                      "word": "J",
+                      "emoji": "🔤",
+                      "phonetic": "/j/",
+                      "translation": "Se pronuncia como la <b>Y</b> española en 'yo' — <i>no como la J española</i>",
+                      "mnemonic": "Piensa en la 'y' de 'yo' pero escrita con una J.",
+                      "examples": [
+                          {
+                              "t": "<b>J</b>a — sí",
+                              "n": "Suena como 'ya' en español."
+                          },
+                          {
+                              "t": "<b>J</b>ahr — año",
+                              "n": "Suena 'yaa'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_L_w",
+                      "isLetter": true,
+                      "letter": "W",
+                      "word": "W",
+                      "emoji": "🔤",
+                      "phonetic": "/v/",
+                      "translation": "Se pronuncia como la <b>V</b> o <b>B</b> española — <i>no como la W inglesa</i>",
+                      "mnemonic": "La W alemana 'vibra' como una V en español.",
+                      "examples": [
+                          {
+                              "t": "<b>W</b>asser — agua",
+                              "n": "Suena 'vása'."
+                          },
+                          {
+                              "t": "<b>W</b>o — dónde",
+                              "n": "Suena 'vo'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_L_v",
+                      "isLetter": true,
+                      "letter": "V",
+                      "word": "V",
+                      "emoji": "🔤",
+                      "phonetic": "/f/ o /v/",
+                      "translation": "En palabras alemanas suena <b>/f/</b> (como la F), pero en extranjerismos suena <b>/v/</b> (como la V española)",
+                      "mnemonic": "La V alemana es una 'F' disfrazada — piensa en 'Vater' como 'Fater'.",
+                      "examples": [
+                          {
+                              "t": "<b>V</b>ater — padre (suena 'fáta')",
+                              "n": "La V se pronuncia como F."
+                          },
+                          {
+                              "t": "<b>V</b>isum — visado (suena 'vízum')",
+                              "n": "En préstamos, la V suena como V española."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_L_z",
+                      "isLetter": true,
+                      "letter": "Z",
+                      "word": "Z",
+                      "emoji": "🔤",
+                      "phonetic": "/ts/",
+                      "translation": "Se pronuncia <b>TS</b> como en 'pizza' — <i>nunca como la Z española</i>",
+                      "mnemonic": "La Z alemana 'zumba' como una abeja: ts-ts-ts.",
+                      "examples": [
+                          {
+                              "t": "<b>Z</b>eit — tiempo",
+                              "n": "Suena 'tsait'."
+                          },
+                          {
+                              "t": "<b>Z</b>ug — tren",
+                              "n": "Suena 'tsuk'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "CH",
+                      "word": "CH",
+                      "emoji": "🔤",
+                      "phonetic": "/x/ o /ç/",
+                      "translation": "Dos sonidos: <b>/x/</b> como la J española (tras a, o, u) y <b>/ç/</b> como un 'sh' suave (tras e, i, ei, eu)",
+                      "mnemonic": "La CH alemana 'exhala' — áspera como J, o suave como un susurro.",
+                      "examples": [
+                          {
+                              "t": "Ba<b>ch</b> — arroyo (suena 'baj')",
+                              "n": "CH tras a: sonido áspero."
+                          },
+                          {
+                              "t": "i<b>ch</b> — yo (suena 'ish')",
+                              "n": "CH tras i: sonido suave."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_L_sp_st",
+                      "isLetter": true,
+                      "letter": "SP/ST",
+                      "word": "SP/ST",
+                      "emoji": "🔤",
+                      "phonetic": "/ʃp/ y /ʃt/",
+                      "translation": "Al inicio de palabra, <b>SP</b> suena <b>SCHP</b> y <b>ST</b> suena <b>SCHT</b> — como una 'sh' seguida de p o t",
+                      "mnemonic": "La S se 'shhh' como pidiendo silencio antes de la P o T.",
+                      "examples": [
+                          {
+                              "t": "<b>Sp</b>rechen — hablar",
+                              "n": "Suena 'shprejen'."
+                          },
+                          {
+                              "t": "<b>St</b>adt — ciudad",
+                              "n": "Suena 'shtat'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_01",
+                      "letter": "J",
+                      "word": "ja",
+                      "emoji": "👍",
+                      "phonetic": "/jaː/",
+                      "translation": "sí",
+                      "translations": {
+                          "de": "ja",
+                          "es": "sí",
+                          "en": "yes"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ja</b>, ich bin hier.",
+                              "n": "Sí, estoy aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_02",
+                      "letter": "W",
+                      "word": "Wasser",
+                      "emoji": "💧",
+                      "phonetic": "/ˈvasɐ/",
+                      "translation": "agua",
+                      "translations": {
+                          "de": "Wasser",
+                          "es": "agua",
+                          "en": "water"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ich trinke <b>Wasser</b>.",
+                              "n": "Bebo agua."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_03",
+                      "letter": "V",
+                      "word": "Vater",
+                      "emoji": "👨",
+                      "phonetic": "/ˈfaːtɐ/",
+                      "translation": "padre",
+                      "translations": {
+                          "de": "Vater",
+                          "es": "padre",
+                          "en": "father"
+                      },
+                      "examples": [
+                          {
+                              "t": "Mein <b>Vater</b> ist hier.",
+                              "n": "Mi padre está aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_04",
+                      "letter": "Z",
+                      "word": "Zeit",
+                      "emoji": "⏰",
+                      "phonetic": "/tsaɪt/",
+                      "translation": "tiempo",
+                      "translations": {
+                          "de": "Zeit",
+                          "es": "tiempo",
+                          "en": "time"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ich habe keine <b>Zeit</b>.",
+                              "n": "No tengo tiempo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_05",
+                      "letter": "CH",
+                      "word": "ich",
+                      "emoji": "🙋",
+                      "phonetic": "/ɪç/",
+                      "translation": "yo",
+                      "translations": {
+                          "de": "ich",
+                          "es": "yo",
+                          "en": "I"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ich</b> bin müde.",
+                              "n": "Estoy cansado."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g2_06",
+                      "letter": "SP",
+                      "word": "sprechen",
+                      "emoji": "🗣️",
+                      "phonetic": "/ˈʃpʁɛçən/",
+                      "translation": "hablar",
+                      "translations": {
+                          "de": "sprechen",
+                          "es": "hablar",
+                          "en": "to speak"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ich <b>spreche</b> Spanisch.",
+                              "n": "Hablo español."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "de_a0_g3",
+              "name": "Vocales largas y cortas",
+              "icon": "⏱️",
+              "color": "#10b981",
+              "description": "La duración de la vocal cambia el significado",
+              "reviewFrom": [
+                  "de_a0_g1",
+                  "de_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "de_a0_g3_L_a",
+                      "isLetter": true,
+                      "letter": "A",
+                      "word": "A",
+                      "emoji": "🔤",
+                      "phonetic": "/aː/ vs /a/",
+                      "translation": "Letra <b>A</b> — <i>larga /aː/</i> como en «padre» pero más sostenida, <br> <i>corta /a/</i> como en «casa» pero más breve y tensa.",
+                      "mnemonic": "Imagina un tren: la A larga es el silbido que se estira (Bahn), la A corta es el golpe seco de las ruedas (Mann).",
+                      "examples": [
+                          {
+                              "t": "<b>Bahn</b> — tren → <i>aː</i> larga <br> <b>Mann</b> — hombre → <i>a</i> corta",
+                              "n": "La doble n acorta la vocal; la h la alarga."
+                          },
+                          {
+                              "t": "<b>Staat</b> — estado → <i>aː</i> <br> <b>Rand</b> — borde → <i>a</i>",
+                              "n": "Dos vocales = largo; consonante doble = corto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_L_e",
+                      "isLetter": true,
+                      "letter": "E",
+                      "word": "E",
+                      "emoji": "🔤",
+                      "phonetic": "/eː/ vs /ɛ/",
+                      "translation": "Letra <b>E</b> — <i>larga /eː/</i> como «de» en español pero cerrada y larga, <br> <i>corta /ɛ/</i> como «e» en «perro» pero más abierta.",
+                      "mnemonic": "La E larga es la e de «ver» estirada; la E corta es la de «qué» cuando te sorprendes: ¡eh!",
+                      "examples": [
+                          {
+                              "t": "<b>See</b> — lago → <i>eː</i> larga <br> <b>Bett</b> — cama → <i>ɛ</i> corta",
+                              "n": "Doble vocal = largo; doble consonante = corto."
+                          },
+                          {
+                              "t": "<b>Tee</b> — té → <i>eː</i> <br> <b>kennen</b> — conocer → <i>ɛ</i>",
+                              "n": "La h tras vocal también alarga: <b>gehen</b>."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_L_i",
+                      "isLetter": true,
+                      "letter": "I",
+                      "word": "I",
+                      "emoji": "🔤",
+                      "phonetic": "/iː/ vs /ɪ/",
+                      "translation": "Letra <b>I</b> — <i>larga /iː/</i> como «si» en español pero más larga, <br> <i>corta /ɪ/</i> como «i» en «inglés» pero más relajada y breve.",
+                      "mnemonic": "La I larga se escribe con <i>ie</i> o <i>ih</i>: piensa en «¡ie!» de alegría alargada; la I corta es un «i» rápido como un latido.",
+                      "examples": [
+                          {
+                              "t": "<b>ihn</b> — a él → <i>iː</i> <br> <b>mit</b> — con → <i>ɪ</i>",
+                              "n": "La h marca la vocal larga."
+                          },
+                          {
+                              "t": "<b>Dieb</b> — ladrón → <i>iː</i> <br> <b>Kind</b> — niño → <i>ɪ</i>",
+                              "n": "La combinación ie siempre es larga."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_L_o",
+                      "isLetter": true,
+                      "letter": "O",
+                      "word": "O",
+                      "emoji": "🔤",
+                      "phonetic": "/oː/ vs /ɔ/",
+                      "translation": "Letra <b>O</b> — <i>larga /oː/</i> como «sol» en español pero cerrada y larga, <br> <i>corta /ɔ/</i> como «o» en «doctor» pero más abierta y breve.",
+                      "mnemonic": "La O larga es una «o» redonda que se infla como un globo; la O corta es una «o» que se desinfla rápido: ¡op!",
+                      "examples": [
+                          {
+                              "t": "<b>Sohn</b> — hijo → <i>oː</i> <br> <b>von</b> — de → <i>ɔ</i>",
+                              "n": "La h alarga; la consonante simple no."
+                          },
+                          {
+                              "t": "<b>Boot</b> — barco → <i>oː</i> <br> <b>Gott</b> — dios → <i>ɔ</i>",
+                              "n": "Doble vocal = largo; doble consonante = corto."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_L_u",
+                      "isLetter": true,
+                      "letter": "U",
+                      "word": "U",
+                      "emoji": "🔤",
+                      "phonetic": "/uː/ vs /ʊ/",
+                      "translation": "Letra <b>U</b> — <i>larga /uː/</i> como «luna» en español pero más larga, <br> <i>corta /ʊ/</i> como «u» en «put» en inglés pero más breve.",
+                      "mnemonic": "La U larga es un «uuu» de asombro; la U corta es un «uh» rápido como cuando dudas.",
+                      "examples": [
+                          {
+                              "t": "<b>gut</b> — bueno → <i>uː</i> <br> <b>und</b> — y → <i>ʊ</i>",
+                              "n": "La consonante final simple permite vocal larga."
+                          },
+                          {
+                              "t": "<b>Stuhl</b> — silla → <i>uː</i> <br> <b>Mutter</b> — madre → <i>ʊ</i>",
+                              "n": "La h alarga; la doble consonante acorta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_01",
+                      "letter": "A",
+                      "word": "Bahn",
+                      "emoji": "🚆",
+                      "phonetic": "/baːn/",
+                      "translation": "<b>Bahn</b> — tren (vía)",
+                      "translations": {
+                          "de": "Bahn",
+                          "es": "tren (vía)",
+                          "en": "train (track)"
+                      },
+                      "examples": [
+                          {
+                              "t": "Die <b>Bahn</b> kommt.</tren>",
+                              "n": "El tren viene."
+                          },
+                          {
+                              "t": "Ich fahre mit der <b>Bahn</b>.",
+                              "n": "Viajo en tren."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_02",
+                      "letter": "A",
+                      "word": "Mann",
+                      "emoji": "👨",
+                      "phonetic": "/man/",
+                      "translation": "<b>Mann</b> — hombre",
+                      "translations": {
+                          "de": "Mann",
+                          "es": "hombre",
+                          "en": "man"
+                      },
+                      "examples": [
+                          {
+                              "t": "Der <b>Mann</b> ist hier.",
+                              "n": "El hombre está aquí."
+                          },
+                          {
+                              "t": "Ein <b>Mann</b> und eine Frau.",
+                              "n": "Un hombre y una mujer."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_03",
+                      "letter": "E",
+                      "word": "See",
+                      "emoji": "🌊",
+                      "phonetic": "/zeː/",
+                      "translation": "<b>See</b> — lago",
+                      "translations": {
+                          "de": "See",
+                          "es": "lago",
+                          "en": "lake"
+                      },
+                      "examples": [
+                          {
+                              "t": "Der <b>See</b> ist schön.",
+                              "n": "El lago es bonito."
+                          },
+                          {
+                              "t": "Wir gehen zum <b>See</b>.",
+                              "n": "Vamos al lago."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_04",
+                      "letter": "E",
+                      "word": "Bett",
+                      "emoji": "🛏️",
+                      "phonetic": "/bɛt/",
+                      "translation": "<b>Bett</b> — cama",
+                      "translations": {
+                          "de": "Bett",
+                          "es": "cama",
+                          "en": "bed"
+                      },
+                      "examples": [
+                          {
+                              "t": "Das <b>Bett</b> ist weich.",
+                              "n": "La cama es suave."
+                          },
+                          {
+                              "t": "Ich gehe ins <b>Bett</b>.",
+                              "n": "Me voy a la cama."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_05",
+                      "letter": "I",
+                      "word": "viel",
+                      "emoji": "📚",
+                      "phonetic": "/fiːl/",
+                      "translation": "<b>viel</b> — mucho",
+                      "translations": {
+                          "de": "viel",
+                          "es": "mucho",
+                          "en": "much"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ich habe <b>viel</b> Zeit.",
+                              "n": "Tengo mucho tiempo."
+                          },
+                          {
+                              "t": "Das ist zu <b>viel</b>.",
+                              "n": "Eso es demasiado."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_06",
+                      "letter": "I",
+                      "word": "mit",
+                      "emoji": "🤝",
+                      "phonetic": "/mɪt/",
+                      "translation": "<b>mit</b> — con",
+                      "translations": {
+                          "de": "mit",
+                          "es": "con",
+                          "en": "with"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ich komme <b>mit</b> dir.",
+                              "n": "Vengo contigo."
+                          },
+                          {
+                              "t": "Kaffee <b>mit</b> Milch.",
+                              "n": "Café con leche."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_07",
+                      "letter": "O",
+                      "word": "Sohn",
+                      "emoji": "👦",
+                      "phonetic": "/zoːn/",
+                      "translation": "<b>Sohn</b> — hijo",
+                      "translations": {
+                          "de": "Sohn",
+                          "es": "hijo",
+                          "en": "son"
+                      },
+                      "examples": [
+                          {
+                              "t": "Mein <b>Sohn</b> ist klein.",
+                              "n": "Mi hijo es pequeño."
+                          },
+                          {
+                              "t": "Der <b>Sohn</b> lernt Deutsch.",
+                              "n": "El hijo aprende alemán."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_08",
+                      "letter": "O",
+                      "word": "Gott",
+                      "emoji": "⛪",
+                      "phonetic": "/ɡɔt/",
+                      "translation": "<b>Gott</b> — dios",
+                      "translations": {
+                          "de": "Gott",
+                          "es": "dios",
+                          "en": "God"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Gott</b> ist gut.",
+                              "n": "Dios es bueno."
+                          },
+                          {
+                              "t": "Mein <b>Gott</b>!",
+                              "n": "¡Dios mío!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_09",
+                      "letter": "U",
+                      "word": "gut",
+                      "emoji": "👍",
+                      "phonetic": "/ɡuːt/",
+                      "translation": "<b>gut</b> — bueno/bien",
+                      "translations": {
+                          "de": "gut",
+                          "es": "bueno/bien",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "Das ist sehr <b>gut</b>.",
+                              "n": "Eso es muy bueno."
+                          },
+                          {
+                              "t": "Mir geht es <b>gut</b>.",
+                              "n": "Estoy bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "de_a0_g3_10",
+                      "letter": "U",
+                      "word": "Mutter",
+                      "emoji": "👩",
+                      "phonetic": "/ˈmʊtɐ/",
+                      "translation": "<b>Mutter</b> — madre",
+                      "translations": {
+                          "de": "Mutter",
+                          "es": "madre",
+                          "en": "mother"
+                      },
+                      "examples": [
+                          {
+                              "t": "Meine <b>Mutter</b> kocht.",
+                              "n": "Mi madre cocina."
+                          },
+                          {
+                              "t": "Die <b>Mutter</b> ist da.",
+                              "n": "La madre está aquí."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // INGLÉS
+  // ──────────────────────────────────────────────────────
+  en: {
+      "level": "A0",
+      "levelName": "El inglés — pronunciación",
+      "groups": [
+          {
+              "id": "en_a0_g1",
+              "name": "Sonidos vocálicos",
+              "icon": "🔊",
+              "color": "#6366f1",
+              "description": "Las vocales en inglés tienen múltiples sonidos",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "en_a0_g1_L_a",
+                      "isLetter": true,
+                      "letter": "A",
+                      "word": "A",
+                      "emoji": "🔤",
+                      "phonetic": "/eɪ/ y /æ/",
+                      "translation": "Letra <b>A</b> — suena <i>/eɪ/</i> como «<span class=\"hl\">ei</span>» en «reina»<br>o <i>/æ/</i> como una «a» más abierta y corta",
+                      "mnemonic": "Imagina una A que abre la boca como un cocodrilo: /æ/ para 'cat' y /eɪ/ para 'name'.",
+                      "examples": [
+                          {
+                              "t": "<b>A</b> in <span class=\"hl\">name</span> sounds like <i>ei</i>.<br>In <span class=\"hl\">cat</span> it sounds like <i>a</i> abierta.",
+                              "n": "La A en 'name' suena ei; en 'cat' suena a abierta."
+                          },
+                          {
+                              "t": "My <b>a</b>pple is red.",
+                              "n": "Mi manzana es roja."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "A",
+                      "word": "cat",
+                      "emoji": "🐱",
+                      "phonetic": "/kæt/",
+                      "translation": "<b>gato</b> — la <b>a</b> suena <i>/æ/</i>",
+                      "translations": {
+                          "en": "cat",
+                          "es": "gato"
+                      },
+                      "examples": [
+                          {
+                              "t": "The <b>cat</b> is black.",
+                              "n": "El gato es negro."
+                          },
+                          {
+                              "t": "I have a <b>cat</b>.",
+                              "n": "Tengo un gato."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "A",
+                      "word": "name",
+                      "emoji": "📛",
+                      "phonetic": "/neɪm/",
+                      "translation": "<b>nombre</b> — la <b>a</b> suena <i>/eɪ/</i>",
+                      "translations": {
+                          "en": "name",
+                          "es": "nombre"
+                      },
+                      "examples": [
+                          {
+                              "t": "My <b>name</b> is Ana.",
+                              "n": "Mi nombre es Ana."
+                          },
+                          {
+                              "t": "What is your <b>name</b>?",
+                              "n": "¿Cuál es tu nombre?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_L_e",
+                      "isLetter": true,
+                      "letter": "E",
+                      "word": "E",
+                      "emoji": "🔤",
+                      "phonetic": "/iː/ y /ɛ/",
+                      "translation": "Letra <b>E</b> — suena <i>/iː/</i> como «<span class=\"hl\">i</span>» larga en «mi»<br>o <i>/ɛ/</i> como «e» abierta en «perro»",
+                      "mnemonic": "La E inglesa tiene dos caras: una sonríe (i larga) y otra abre la boca (e abierta).",
+                      "examples": [
+                          {
+                              "t": "<b>E</b> in <span class=\"hl\">he</span> sounds like <i>i</i>.<br>In <span class=\"hl\">bed</span> it sounds like <i>e</i> abierta.",
+                              "n": "La E en 'he' suena i; en 'bed' suena e abierta."
+                          },
+                          {
+                              "t": "The <b>e</b>lephant is big.",
+                              "n": "El elefante es grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_03",
+                      "isLetter": false,
+                      "letter": "E",
+                      "word": "bed",
+                      "emoji": "🛏️",
+                      "phonetic": "/bɛd/",
+                      "translation": "<b>cama</b> — la <b>e</b> suena <i>/ɛ/</i>",
+                      "translations": {
+                          "en": "bed",
+                          "es": "cama"
+                      },
+                      "examples": [
+                          {
+                              "t": "The <b>bed</b> is soft.",
+                              "n": "La cama es suave."
+                          },
+                          {
+                              "t": "I sleep in my <b>bed</b>.",
+                              "n": "Duermo en mi cama."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "E",
+                      "word": "he",
+                      "emoji": "👨",
+                      "phonetic": "/hiː/",
+                      "translation": "<b>él</b> — la <b>e</b> suena <i>/iː/</i>",
+                      "translations": {
+                          "en": "he",
+                          "es": "él"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>He</b> is my friend.",
+                              "n": "Él es mi amigo."
+                          },
+                          {
+                              "t": "<b>He</b> likes music.",
+                              "n": "A él le gusta la música."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_L_i",
+                      "isLetter": true,
+                      "letter": "I",
+                      "word": "I",
+                      "emoji": "🔤",
+                      "phonetic": "/aɪ/ y /ɪ/",
+                      "translation": "Letra <b>I</b> — suena <i>/aɪ/</i> como «<span class=\"hl\">ai</span>» en «aire»<br>o <i>/ɪ/</i> como una «i» corta y relajada",
+                      "mnemonic": "La I se estira para decir 'like' (ai) y se encoge para decir 'sit' (i corta).",
+                      "examples": [
+                          {
+                              "t": "<b>I</b> in <span class=\"hl\">like</span> sounds like <i>ai</i>.<br>In <span class=\"hl\">sit</span> it sounds like <i>i</i> corta.",
+                              "n": "La I en 'like' suena ai; en 'sit' suena i corta."
+                          },
+                          {
+                              "t": "<b>I</b> am here.",
+                              "n": "Yo estoy aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "I",
+                      "word": "sit",
+                      "emoji": "🪑",
+                      "phonetic": "/sɪt/",
+                      "translation": "<b>sentarse</b> — la <b>i</b> suena <i>/ɪ/</i>",
+                      "translations": {
+                          "en": "sit",
+                          "es": "sentarse"
+                      },
+                      "examples": [
+                          {
+                              "t": "Please <b>sit</b> down.",
+                              "n": "Por favor, siéntate."
+                          },
+                          {
+                              "t": "I <b>sit</b> here.",
+                              "n": "Me siento aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "I",
+                      "word": "like",
+                      "emoji": "❤️",
+                      "phonetic": "/laɪk/",
+                      "translation": "<b>gustar</b> — la <b>i</b> suena <i>/aɪ/</i>",
+                      "translations": {
+                          "en": "like",
+                          "es": "gustar"
+                      },
+                      "examples": [
+                          {
+                              "t": "I <b>like</b> coffee.",
+                              "n": "Me gusta el café."
+                          },
+                          {
+                              "t": "Do you <b>like</b> this?",
+                              "n": "¿Te gusta esto?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_L_o",
+                      "isLetter": true,
+                      "letter": "O",
+                      "word": "O",
+                      "emoji": "🔤",
+                      "phonetic": "/oʊ/ y /ɒ/",
+                      "translation": "Letra <b>O</b> — suena <i>/oʊ/</i> como «<span class=\"hl\">ou</span>» en «boutique»<br>o <i>/ɒ/</i> como una «o» corta y redonda",
+                      "mnemonic": "La O redondea los labios para 'go' (ou) y los abre para 'hot' (o corta).",
+                      "examples": [
+                          {
+                              "t": "<b>O</b> in <span class=\"hl\">go</span> sounds like <i>ou</i>.<br>In <span class=\"hl\">hot</span> it sounds like <i>o</i> corta.",
+                              "n": "La O en 'go' suena ou; en 'hot' suena o corta."
+                          },
+                          {
+                              "t": "<b>O</b>pen the door.",
+                              "n": "Abre la puerta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "O",
+                      "word": "go",
+                      "emoji": "🚶",
+                      "phonetic": "/ɡoʊ/",
+                      "translation": "<b>ir</b> — la <b>o</b> suena <i>/oʊ/</i>",
+                      "translations": {
+                          "en": "go",
+                          "es": "ir"
+                      },
+                      "examples": [
+                          {
+                              "t": "Let's <b>go</b> home.",
+                              "n": "Vamos a casa."
+                          },
+                          {
+                              "t": "I <b>go</b> to school.",
+                              "n": "Voy a la escuela."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "O",
+                      "word": "hot",
+                      "emoji": "🌡️",
+                      "phonetic": "/hɒt/",
+                      "translation": "<b>caliente</b> — la <b>o</b> suena <i>/ɒ/</i>",
+                      "translations": {
+                          "en": "hot",
+                          "es": "caliente"
+                      },
+                      "examples": [
+                          {
+                              "t": "The soup is <b>hot</b>.",
+                              "n": "La sopa está caliente."
+                          },
+                          {
+                              "t": "It's very <b>hot</b> today.",
+                              "n": "Hace mucho calor hoy."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_L_u",
+                      "isLetter": true,
+                      "letter": "U",
+                      "word": "U",
+                      "emoji": "🔤",
+                      "phonetic": "/juː/, /ʌ/ y /ʊ/",
+                      "translation": "Letra <b>U</b> — suena <i>/juː/</i> como «<span class=\"hl\">iu</span>» en «ciudad»<br>o <i>/ʌ/</i> como una «a» corta<br>o <i>/ʊ/</i> como una «u» corta",
+                      "mnemonic": "La U tiene tres voces: dice 'iu' (use), 'a' corta (cup) y 'u' corta (put).",
+                      "examples": [
+                          {
+                              "t": "<b>U</b> in <span class=\"hl\">use</span> sounds like <i>iu</i>.<br>In <span class=\"hl\">cup</span> it sounds like <i>a</i>.<br>In <span class=\"hl\">put</span> it sounds like <i>u</i>.",
+                              "n": "La U en 'use' suena iu; en 'cup' suena a; en 'put' suena u."
+                          },
+                          {
+                              "t": "<b>U</b>nder the table.",
+                              "n": "Debajo de la mesa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "U",
+                      "word": "cup",
+                      "emoji": "☕",
+                      "phonetic": "/kʌp/",
+                      "translation": "<b>taza</b> — la <b>u</b> suena <i>/ʌ/</i>",
+                      "translations": {
+                          "en": "cup",
+                          "es": "taza"
+                      },
+                      "examples": [
+                          {
+                              "t": "A <b>cup</b> of tea.",
+                              "n": "Una taza de té."
+                          },
+                          {
+                              "t": "This <b>cup</b> is full.",
+                              "n": "Esta taza está llena."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "U",
+                      "word": "use",
+                      "emoji": "🛠️",
+                      "phonetic": "/juːz/",
+                      "translation": "<b>usar</b> — la <b>u</b> suena <i>/juː/</i>",
+                      "translations": {
+                          "en": "use",
+                          "es": "usar"
+                      },
+                      "examples": [
+                          {
+                              "t": "I <b>use</b> my phone.",
+                              "n": "Uso mi teléfono."
+                          },
+                          {
+                              "t": "Can I <b>use</b> this?",
+                              "n": "¿Puedo usar esto?"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "en_a0_g2",
+              "name": "Consonantes especiales",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "Consonantes que suenan diferente al español",
+              "reviewFrom": [
+                  "en_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "en_a0_g2_L_h",
+                      "isLetter": true,
+                      "letter": "H",
+                      "word": "H",
+                      "emoji": "🏠",
+                      "phonetic": "/h/",
+                      "translation": "Suena como una <b>H</b> aspirada, similar a la <i>j</i> suave del español. Nunca es muda.",
+                      "mnemonic": "Imagina que empañas un espejo con tu aliento: un soplo suave.",
+                      "examples": [
+                          {
+                              "t": "<b>H</b>ello, how are you?<br><i>Hola, ¿cómo estás?</i>",
+                              "n": "Saludo común"
+                          },
+                          {
+                              "t": "The <b>h</b>ouse is big.<br><i>La casa es grande.</i>",
+                              "n": "Casa con H sonora"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_j",
+                      "isLetter": true,
+                      "letter": "J",
+                      "word": "J",
+                      "emoji": "🤸",
+                      "phonetic": "/dʒ/",
+                      "translation": "Suena como la <b>J</b> en inglés: una <i>ch</i> del español pero con vibración de voz. Ej: <span class=\"hl\">jump</span>.",
+                      "mnemonic": "El sonido de un motor encendiéndose: 'yerrr'.",
+                      "examples": [
+                          {
+                              "t": "I <b>j</b>ump high.<br><i>Salto alto.</i>",
+                              "n": "Verbo saltar"
+                          },
+                          {
+                              "t": "He has a <b>j</b>ob.<br><i>Él tiene un trabajo.</i>",
+                              "n": "Trabajo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_w",
+                      "isLetter": true,
+                      "letter": "W",
+                      "word": "W",
+                      "emoji": "💧",
+                      "phonetic": "/w/",
+                      "translation": "Suena como una <b>W</b> doble: una <i>u</i> muy rápida, sin tocar los labios. Ej: <span class=\"hl\">water</span>.",
+                      "mnemonic": "Di 'u' en español y redondea los labios como para silbar.",
+                      "examples": [
+                          {
+                              "t": "I drink <b>w</b>ater.<br><i>Bebo agua.</i>",
+                              "n": "Agua"
+                          },
+                          {
+                              "t": "I go to <b>w</b>ork.<br><i>Voy al trabajo.</i>",
+                              "n": "Trabajo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_y",
+                      "isLetter": true,
+                      "letter": "Y",
+                      "word": "Y",
+                      "emoji": "✅",
+                      "phonetic": "/j/",
+                      "translation": "Suena como la <b>Y</b> española en 'yo' o 'playa'. Es una consonante suave.",
+                      "mnemonic": "Piensa en la 'y' de 'yo' pero más corta y rápida.",
+                      "examples": [
+                          {
+                              "t": "<b>Y</b>es, I do.<br><i>Sí, acepto.</i>",
+                              "n": "Afirmación"
+                          },
+                          {
+                              "t": "This <b>y</b>ear is new.<br><i>Este año es nuevo.</i>",
+                              "n": "Año"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_th",
+                      "isLetter": true,
+                      "letter": "TH",
+                      "word": "TH",
+                      "emoji": "🗣️",
+                      "phonetic": "/θ/ /ð/",
+                      "translation": "Dos sonidos: <b>TH</b> sordo (como 'z' en España) en <span class=\"hl\">think</span> y <b>TH</b> sonoro (como 'd' suave) en <span class=\"hl\">the</span>.",
+                      "mnemonic": "Saca la punta de la lengua entre los dientes y sopla (sordo) o vibra (sonoro).",
+                      "examples": [
+                          {
+                              "t": "I <b>th</b>ink so.<br><i>Creo que sí.</i>",
+                              "n": "Pensar (sordo)"
+                          },
+                          {
+                              "t": "<b>Th</b>is is my dog.<br><i>Este es mi perro.</i>",
+                              "n": "Este (sonoro)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_sh",
+                      "isLetter": true,
+                      "letter": "SH",
+                      "word": "SH",
+                      "emoji": "🤫",
+                      "phonetic": "/ʃ/",
+                      "translation": "Suena como la <b>SH</b> en inglés: un 'shhh' para pedir silencio. No existe en español.",
+                      "mnemonic": "Pide silencio: 'shhh', como en una biblioteca.",
+                      "examples": [
+                          {
+                              "t": "<b>Sh</b>e is my friend.<br><i>Ella es mi amiga.</i>",
+                              "n": "Ella"
+                          },
+                          {
+                              "t": "I like the <b>sh</b>ow.<br><i>Me gusta el espectáculo.</i>",
+                              "n": "Espectáculo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "CH",
+                      "word": "CH",
+                      "emoji": "🪑",
+                      "phonetic": "/tʃ/",
+                      "translation": "Suena como la <b>CH</b> española en 'mucho'. Es un sonido fuerte y corto.",
+                      "mnemonic": "Igual que en español: 'ch' como en 'chico'.",
+                      "examples": [
+                          {
+                              "t": "Sit on the <b>ch</b>air.<br><i>Siéntate en la silla.</i>",
+                              "n": "Silla"
+                          },
+                          {
+                              "t": "The <b>ch</b>ild plays.<br><i>El niño juega.</i>",
+                              "n": "Niño"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "H",
+                      "word": "house",
+                      "emoji": "🏠",
+                      "phonetic": "/haʊs/",
+                      "translation": "casa",
+                      "translations": {
+                          "en": "house",
+                          "es": "casa"
+                      },
+                      "examples": [
+                          {
+                              "t": "My <b>house</b> is small.",
+                              "n": "Mi casa es pequeña."
+                          },
+                          {
+                              "t": "I live in a <b>house</b>.",
+                              "n": "Vivo en una casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "J",
+                      "word": "job",
+                      "emoji": "💼",
+                      "phonetic": "/dʒɑːb/",
+                      "translation": "trabajo (empleo)",
+                      "translations": {
+                          "en": "job",
+                          "es": "trabajo (empleo)"
+                      },
+                      "examples": [
+                          {
+                              "t": "I have a <b>job</b>.",
+                              "n": "Tengo un trabajo."
+                          },
+                          {
+                              "t": "She likes her <b>job</b>.",
+                              "n": "A ella le gusta su trabajo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "W",
+                      "word": "water",
+                      "emoji": "💧",
+                      "phonetic": "/ˈwɔːtər/",
+                      "translation": "agua",
+                      "translations": {
+                          "en": "water",
+                          "es": "agua"
+                      },
+                      "examples": [
+                          {
+                              "t": "I drink <b>water</b>.",
+                              "n": "Bebo agua."
+                          },
+                          {
+                              "t": "The <b>water</b> is cold.",
+                              "n": "El agua está fría."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_11",
+                      "isLetter": false,
+                      "letter": "Y",
+                      "word": "yes",
+                      "emoji": "👍",
+                      "phonetic": "/jɛs/",
+                      "translation": "sí",
+                      "translations": {
+                          "en": "yes",
+                          "es": "sí"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Yes</b>, please.",
+                              "n": "Sí, por favor."
+                          },
+                          {
+                              "t": "He said <b>yes</b>.",
+                              "n": "Él dijo sí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_12",
+                      "isLetter": false,
+                      "letter": "TH",
+                      "word": "think",
+                      "emoji": "🤔",
+                      "phonetic": "/θɪŋk/",
+                      "translation": "pensar",
+                      "translations": {
+                          "en": "think",
+                          "es": "pensar"
+                      },
+                      "examples": [
+                          {
+                              "t": "I <b>think</b> so.",
+                              "n": "Creo que sí."
+                          },
+                          {
+                              "t": "What do you <b>think</b>?",
+                              "n": "¿Qué piensas?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_13",
+                      "isLetter": false,
+                      "letter": "SH",
+                      "word": "she",
+                      "emoji": "👩",
+                      "phonetic": "/ʃiː/",
+                      "translation": "ella",
+                      "translations": {
+                          "en": "she",
+                          "es": "ella"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>She</b> is my sister.",
+                              "n": "Ella es mi hermana."
+                          },
+                          {
+                              "t": "<b>She</b> likes music.",
+                              "n": "A ella le gusta la música."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_14",
+                      "isLetter": false,
+                      "letter": "CH",
+                      "word": "chair",
+                      "emoji": "🪑",
+                      "phonetic": "/tʃɛr/",
+                      "translation": "silla",
+                      "translations": {
+                          "en": "chair",
+                          "es": "silla"
+                      },
+                      "examples": [
+                          {
+                              "t": "Sit on the <b>chair</b>.",
+                              "n": "Siéntate en la silla."
+                          },
+                          {
+                              "t": "The <b>chair</b> is red.",
+                              "n": "La silla es roja."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "en_a0_g3",
+              "name": "Combinaciones clave",
+              "icon": "🔀",
+              "color": "#10b981",
+              "description": "Grupos de letras con un solo sonido en inglés",
+              "reviewFrom": [
+                  "en_a0_g1",
+                  "en_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "en_a0_g3_L_ph",
+                      "isLetter": true,
+                      "letter": "PH",
+                      "word": "PH",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "Se pronuncia <b>f</b> como en <i>foto</i> en español.<br>Nunca como <span class=\"hl\">p</span> + <span class=\"hl\">j</span>.",
+                      "mnemonic": "Imagina una 'f' escondida dentro de la 'P' y la 'H' juntas.",
+                      "examples": [
+                          {
+                              "t": "<b>PH</b> suena como <b>f</b> en <i>foto</i>.<br>Ejemplo: <b>phone</b> = teléfono.",
+                              "n": "PH sounds like F."
+                          },
+                          {
+                              "t": "El elefante tiene una <b>ph</b> en inglés: <b>elephant</b>.",
+                              "n": "Elephant has PH."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_L_gh",
+                      "isLetter": true,
+                      "letter": "GH",
+                      "word": "GH",
+                      "emoji": "🔤",
+                      "phonetic": "/silent/ or /f/",
+                      "translation": "A veces es <b>mudo</b> (como en <i>night</i>) y a veces suena <b>f</b> (como en <i>laugh</i>).<br>¡Cuidado! No es <span class=\"hl\">g</span> + <span class=\"hl\">j</span>.",
+                      "mnemonic": "La <b>GH</b> es un fantasma: a veces se ve pero no se oye.",
+                      "examples": [
+                          {
+                              "t": "En <b>night</b>, la <b>gh</b> no se pronuncia: <i>nait</i>.",
+                              "n": "GH is silent."
+                          },
+                          {
+                              "t": "En <b>laugh</b>, la <b>gh</b> suena <b>f</b>: <i>laf</i>.",
+                              "n": "GH sounds like F."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_L_wr",
+                      "isLetter": true,
+                      "letter": "WR",
+                      "word": "WR",
+                      "emoji": "🔤",
+                      "phonetic": "/r/",
+                      "translation": "La <b>W</b> es <b>muda</b>; solo se pronuncia la <b>r</b>.<br>Suena como la <b>r</b> en <i>pero</i>.",
+                      "mnemonic": "La <b>W</b> se esconde: piensa en un <i>w</i> que no habla.",
+                      "examples": [
+                          {
+                              "t": "Escribe con <b>wr</b>: <b>write</b> se dice <i>rait</i>.",
+                              "n": "Write sounds like R."
+                          },
+                          {
+                              "t": "No digas la <b>w</b> en <b>wrong</b>: <i>rong</i>.",
+                              "n": "Wrong sounds like R."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_L_kn",
+                      "isLetter": true,
+                      "letter": "KN",
+                      "word": "KN",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "La <b>K</b> es <b>muda</b>; solo se pronuncia la <b>n</b>.<br>Suena como la <b>n</b> en <i>nada</i>.",
+                      "mnemonic": "La <b>K</b> está dormida: no la despiertes.",
+                      "examples": [
+                          {
+                              "t": "Saber se dice <b>know</b>: <i>nou</i>.",
+                              "n": "Know sounds like N."
+                          },
+                          {
+                              "t": "El cuchillo es <b>knife</b>: <i>naif</i>.",
+                              "n": "Knife sounds like N."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_L_qu",
+                      "isLetter": true,
+                      "letter": "QU",
+                      "word": "QU",
+                      "emoji": "🔤",
+                      "phonetic": "/kw/",
+                      "translation": "Se pronuncia <b>cu</b> + <b>u</b> rápida: <i>cu</i>.<br>Como en <i>cuando</i> pero más corto.",
+                      "mnemonic": "La <b>Q</b> siempre va con <b>U</b> y juntas hacen <i>cu</i>.",
+                      "examples": [
+                          {
+                              "t": "La reina es <b>queen</b>: <i>cuín</i>.",
+                              "n": "Queen sounds like KW."
+                          },
+                          {
+                              "t": "Pregunta es <b>question</b>: <i>cués-chon</i>.",
+                              "n": "Question starts with QU."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_L_ck",
+                      "isLetter": true,
+                      "letter": "CK",
+                      "word": "CK",
+                      "emoji": "🔤",
+                      "phonetic": "/k/",
+                      "translation": "Al final de sílaba, <b>ck</b> suena como <b>k</b>.<br>Como la <b>c</b> en <i>casa</i>.",
+                      "mnemonic": "La <b>C</b> y la <b>K</b> se abrazan y hacen el mismo sonido.",
+                      "examples": [
+                          {
+                              "t": "La espalda es <b>back</b>: <i>bak</i>.",
+                              "n": "Back ends with CK."
+                          },
+                          {
+                              "t": "Patear es <b>kick</b>: <i>kik</i>.",
+                              "n": "Kick ends with CK."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "PH",
+                      "word": "phone",
+                      "emoji": "📱",
+                      "phonetic": "/foʊn/",
+                      "translation": "teléfono",
+                      "translations": {
+                          "en": "phone",
+                          "es": "teléfono"
+                      },
+                      "examples": [
+                          {
+                              "t": "My <b>phone</b> is new.",
+                              "n": "Mi teléfono es nuevo."
+                          },
+                          {
+                              "t": "I call on the <b>phone</b>.",
+                              "n": "Llamo por teléfono."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "GH",
+                      "word": "night",
+                      "emoji": "🌙",
+                      "phonetic": "/naɪt/",
+                      "translation": "noche",
+                      "translations": {
+                          "en": "night",
+                          "es": "noche"
+                      },
+                      "examples": [
+                          {
+                              "t": "Good <b>night</b>!",
+                              "n": "¡Buenas noches!"
+                          },
+                          {
+                              "t": "The <b>night</b> is dark.",
+                              "n": "La noche es oscura."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "WR",
+                      "word": "write",
+                      "emoji": "✍️",
+                      "phonetic": "/raɪt/",
+                      "translation": "escribir",
+                      "translations": {
+                          "en": "write",
+                          "es": "escribir"
+                      },
+                      "examples": [
+                          {
+                              "t": "I <b>write</b> a letter.",
+                              "n": "Escribo una carta."
+                          },
+                          {
+                              "t": "Please <b>write</b> your name.",
+                              "n": "Por favor escribe tu nombre."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "KN",
+                      "word": "know",
+                      "emoji": "🧠",
+                      "phonetic": "/noʊ/",
+                      "translation": "saber / conocer",
+                      "translations": {
+                          "en": "know",
+                          "es": "saber / conocer"
+                      },
+                      "examples": [
+                          {
+                              "t": "I <b>know</b> you.",
+                              "n": "Te conozco."
+                          },
+                          {
+                              "t": "Do you <b>know</b> the answer?",
+                              "n": "¿Sabes la respuesta?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "QU",
+                      "word": "queen",
+                      "emoji": "👑",
+                      "phonetic": "/kwiːn/",
+                      "translation": "reina",
+                      "translations": {
+                          "en": "queen",
+                          "es": "reina"
+                      },
+                      "examples": [
+                          {
+                              "t": "The <b>queen</b> is here.",
+                              "n": "La reina está aquí."
+                          },
+                          {
+                              "t": "She is a <b>queen</b>.",
+                              "n": "Ella es una reina."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_06",
+                      "isLetter": false,
+                      "letter": "CK",
+                      "word": "back",
+                      "emoji": "🔙",
+                      "phonetic": "/bæk/",
+                      "translation": "espalda / de vuelta",
+                      "translations": {
+                          "en": "back",
+                          "es": "espalda / de vuelta"
+                      },
+                      "examples": [
+                          {
+                              "t": "My <b>back</b> hurts.",
+                              "n": "Me duele la espalda."
+                          },
+                          {
+                              "t": "Come <b>back</b> soon.",
+                              "n": "Vuelve pronto."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // ITALIANO
+  // ──────────────────────────────────────────────────────
+  it: {
+      "level": "A0",
+      "levelName": "El italiano — sonidos especiales",
+      "groups": [
+          {
+              "id": "it_a0_g1",
+              "name": "Vocales y acentos",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "è vs é · à · ì · ò · ù y las vocales abiertas/cerradas",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "it_a0_g1_L_e_grave",
+                      "isLetter": true,
+                      "letter": "È",
+                      "word": "È",
+                      "emoji": "🔤",
+                      "phonetic": "/ɛ/",
+                      "translation": "Nombre: <b>E</b> con acento grave<br>Sonido: <b>e abierta</b>, como la <i>e</i> en español en <span class=\"hl\">“perro”</span> (pero más abierta, similar a la <i>e</i> del inglés <i>“bed”</i>)",
+                      "mnemonic": "Visualiza una boca bien abierta pronunciando 'eh' — la línea grave (\\\") indica apertura.",
+                      "examples": [
+                          {
+                              "t": "<b>È</b> vero. (Es verdad.)",
+                              "n": "La <b>è</b> suena abierta, como una 'e' clara."
+                          },
+                          {
+                              "t": "Caff<b>è</b> (café)<br>Perch<b>è</b> (por qué/porque)",
+                              "n": "Palabras comunes con <b>è</b> abierta."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_L_e_acute",
+                      "isLetter": true,
+                      "letter": "É",
+                      "word": "É",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "Nombre: <b>E</b> con acento agudo<br>Sonido: <b>e cerrada</b>, como la <i>e</i> del español en <span class=\"hl\">“mesa”</span> pero más tensa y sin diptongo.",
+                      "mnemonic": "El acento agudo (´) es como una flecha hacia arriba: lengua más alta y cerrada.",
+                      "examples": [
+                          {
+                              "t": "Perch<b>é</b> (por qué/porque)",
+                              "n": "Aquí la <b>é</b> es cerrada."
+                          },
+                          {
+                              "t": "N<b>é</b> ... n<b>é</b> (ni...ni)<br>S<b>é</b> (sí mismo)",
+                              "n": "Otras palabras con <b>é</b> cerrada."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_L_a_grave",
+                      "isLetter": true,
+                      "letter": "À",
+                      "word": "À",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "Nombre: <b>A</b> con acento grave<br>Sonido: <b>a</b> siempre clara y abierta, como en español <span class=\"hl\">“casa”</span> — nunca nasalizada.",
+                      "mnemonic": "La <b>à</b> es una 'a' con un pequeño sombrero que indica que es la vocal tónica de la palabra.",
+                      "examples": [
+                          {
+                              "t": "L<b>à</b> (allí)<br>Gi<b>à</b> (ya)",
+                              "n": "La <b>à</b> indica sílaba tónica."
+                          },
+                          {
+                              "t": "Più e può llevan acento pero no siempre se marcan.",
+                              "n": "En italiano la <b>a</b> siempre es pura."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_L_i_grave",
+                      "isLetter": true,
+                      "letter": "Ì",
+                      "word": "Ì",
+                      "emoji": "🔤",
+                      "phonetic": "/i/",
+                      "translation": "Nombre: <b>I</b> con acento grave<br>Sonido: <b>i</b> como en español <span class=\"hl\">“mira”</span> pero más corta y sin diptongar.",
+                      "mnemonic": "La <b>ì</b> parece una 'i' con un puntito extra — recuerda que es una vocal tónica.",
+                      "examples": [
+                          {
+                              "t": "L<b>ì</b> (allí)<br>Cos<b>ì</b> (así)",
+                              "n": "La <b>ì</b> se usa en palabras como 'lì'."
+                          },
+                          {
+                              "t": "Tass<b>ì</b> (taxi)",
+                              "n": "Préstamo del francés con <b>ì</b> final."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_L_o_grave",
+                      "isLetter": true,
+                      "letter": "Ò",
+                      "word": "Ò",
+                      "emoji": "🔤",
+                      "phonetic": "/ɔ/",
+                      "translation": "Nombre: <b>O</b> con acento grave<br>Sonido: <b>o abierta</b>, como la <i>o</i> del inglés <i>“dog”</i> o la <i>o</i> del español cuando es enfática.",
+                      "mnemonic": "La <b>ò</b> tiene una boca más redonda y abierta que la <b>ó</b> cerrada.",
+                      "examples": [
+                          {
+                              "t": "Per<b>ò</b> (pero)<br>Ci<b>ò</b> (esto)",
+                              "n": "La <b>ò</b> suena abierta."
+                          },
+                          {
+                              "t": "Po' (un poco) — sin acento en la o.",
+                              "n": "Apócope de 'poco'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_L_u_grave",
+                      "isLetter": true,
+                      "letter": "Ù",
+                      "word": "Ù",
+                      "emoji": "🔤",
+                      "phonetic": "/u/",
+                      "translation": "Nombre: <b>U</b> con acento grave<br>Sonido: <b>u</b> como en español <span class=\"hl\">“luna”</span> pero más redondeada y pura.",
+                      "mnemonic": "La <b>ù</b> es una 'u' con un acento que indica que es la vocal fuerte de la palabra.",
+                      "examples": [
+                          {
+                              "t": "Pi<b>ù</b> (más)<br>Gi<b>ù</b> (abajo)",
+                              "n": "La <b>ù</b> es tónica."
+                          },
+                          {
+                              "t": "Virt<b>ù</b> (virtud)",
+                              "n": "Palabras agudas con <b>ù</b> final."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_01",
+                      "letter": "È",
+                      "word": "è",
+                      "emoji": "✅",
+                      "phonetic": "/ɛ/",
+                      "translation": "es (verbo ser/estar)",
+                      "translations": {
+                          "it": "è",
+                          "es": "es",
+                          "en": "is"
+                      },
+                      "examples": [
+                          {
+                              "t": "Lui <b>è</b> italiano.",
+                              "n": "Él es italiano."
+                          },
+                          {
+                              "t": "<b>È</b> tardi.",
+                              "n": "Es tarde."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_02",
+                      "letter": "É",
+                      "word": "perché",
+                      "emoji": "❓",
+                      "phonetic": "/perˈke/",
+                      "translation": "por qué / porque",
+                      "translations": {
+                          "it": "perché",
+                          "es": "por qué / porque",
+                          "en": "why / because"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Perché</b> sei qui?",
+                              "n": "¿Por qué estás aquí?"
+                          },
+                          {
+                              "t": "Sono qui <b>perché</b> voglio imparare.",
+                              "n": "Estoy aquí porque quiero aprender."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_03",
+                      "letter": "À",
+                      "word": "là",
+                      "emoji": "📍",
+                      "phonetic": "/la/",
+                      "translation": "allí (lugar)",
+                      "translations": {
+                          "it": "là",
+                          "es": "allí",
+                          "en": "there"
+                      },
+                      "examples": [
+                          {
+                              "t": "Il libro è <b>là</b>.",
+                              "n": "El libro está allí."
+                          },
+                          {
+                              "t": "Vieni <b>là</b>!",
+                              "n": "¡Ven allí!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_04",
+                      "letter": "Ì",
+                      "word": "così",
+                      "emoji": "👉",
+                      "phonetic": "/koˈzi/",
+                      "translation": "así",
+                      "translations": {
+                          "it": "così",
+                          "es": "así",
+                          "en": "so / like this"
+                      },
+                      "examples": [
+                          {
+                              "t": "Fai <b>così</b>.",
+                              "n": "Haz así."
+                          },
+                          {
+                              "t": "È <b>così</b> facile.",
+                              "n": "Es así de fácil."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_05",
+                      "letter": "Ò",
+                      "word": "però",
+                      "emoji": "🔄",
+                      "phonetic": "/peˈrɔ/",
+                      "translation": "pero (sin embargo)",
+                      "translations": {
+                          "it": "però",
+                          "es": "pero",
+                          "en": "but"
+                      },
+                      "examples": [
+                          {
+                              "t": "Voglio uscire, <b>però</b> piove.",
+                              "n": "Quiero salir, pero llueve."
+                          },
+                          {
+                              "t": "È caro, <b>però</b> buono.",
+                              "n": "Es caro, pero bueno."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g1_06",
+                      "letter": "Ù",
+                      "word": "più",
+                      "emoji": "➕",
+                      "phonetic": "/pju/",
+                      "translation": "más",
+                      "translations": {
+                          "it": "più",
+                          "es": "más",
+                          "en": "more"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ne voglio di <b>più</b>.",
+                              "n": "Quiero más."
+                          },
+                          {
+                              "t": "È <b>più</b> grande.",
+                              "n": "Es más grande."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "it_a0_g2",
+              "name": "Consonantes especiales y geminadas",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "gn · gl · sc · ci/ce · ch/gh · dobles",
+              "reviewFrom": [
+                  "it_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "it_a0_g2_L_gn",
+                      "isLetter": true,
+                      "letter": "GN",
+                      "word": "GN",
+                      "emoji": "🔤",
+                      "phonetic": "/ɲ/",
+                      "translation": "Se pronuncia como la <b>Ñ</b> del español: <i>gnocchi</i> se escucha “ñóki”.",
+                      "mnemonic": "Piensa en la ñ: la G es muda y la N suena como la ñ de 'niño'.",
+                      "examples": [
+                          {
+                              "t": "<b>Gn</b>occhi: ño-ki",
+                              "n": "Tipo de pasta"
+                          },
+                          {
+                              "t": "Og<b>n</b>i giorno. (Cada día)",
+                              "n": "La palabra 'ogni' usa gn."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_L_gli",
+                      "isLetter": true,
+                      "letter": "GLI",
+                      "word": "GLI",
+                      "emoji": "🔤",
+                      "phonetic": "/ʎ/",
+                      "translation": "Suena como la <b>LL</b> del español (en 'millón'): <i>figlio</i> se escucha “fíllo”.",
+                      "mnemonic": "Imagina la 'll' en 'llave' y recuerda: GLI = LL.",
+                      "examples": [
+                          {
+                              "t": "<b>Gli</b> occhi. (Los ojos)",
+                              "n": "Artículo plural 'gli'."
+                          },
+                          {
+                              "t": "Il fi<b>gli</b>o. (El hijo)",
+                              "n": "La palabra 'figlio' usa gli."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_L_sc",
+                      "isLetter": true,
+                      "letter": "SC",
+                      "word": "SC",
+                      "emoji": "🔤",
+                      "phonetic": "/ʃ/",
+                      "translation": "Ante <b>e</b> o <b>i</b> suena como la <b>SH</b> del inglés: <i>pesce</i> se escucha “péshe”.",
+                      "mnemonic": "La SC suena como el sonido de pedir silencio: 'shhh'.",
+                      "examples": [
+                          {
+                              "t": "Pe<b>sc</b>e: péshe",
+                              "n": "Pescado"
+                          },
+                          {
+                              "t": "<b>Sc</b>iare: esquiar",
+                              "n": "Deporte de nieve."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_L_ci",
+                      "isLetter": true,
+                      "letter": "CI",
+                      "word": "CI",
+                      "emoji": "🔤",
+                      "phonetic": "/tʃ/",
+                      "translation": "Ante <b>e</b> o <b>i</b> suena como la <b>CH</b> del español: <i>ciao</i> se escucha “chao”.",
+                      "mnemonic": "La C se vuelve 'ch' cuando le sigue i o e, como en 'chico'.",
+                      "examples": [
+                          {
+                              "t": "<b>Ci</b>ao: chao",
+                              "n": "Hola/adiós"
+                          },
+                          {
+                              "t": "La <b>ce</b>na: cena",
+                              "n": "La C suena como ch."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "CH",
+                      "word": "CH",
+                      "emoji": "🔤",
+                      "phonetic": "/k/",
+                      "translation": "Suena como la <b>K</b> o la C fuerte del español: <i>chi</i> se escucha “ki”.",
+                      "mnemonic": "La H 'apaga' la C y la hace fuerte, como en 'kilo'.",
+                      "examples": [
+                          {
+                              "t": "<b>Ch</b>i: quién",
+                              "n": "Pronombre interrogativo."
+                          },
+                          {
+                              "t": "An<b>ch</b>e: también",
+                              "n": "La CH suena como k."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_L_g_soft",
+                      "isLetter": true,
+                      "letter": "G",
+                      "word": "G",
+                      "emoji": "🔤",
+                      "phonetic": "/dʒ/",
+                      "translation": "Ante <b>e</b> o <b>i</b> suena como la <b>Y</b> del español rioplatense (o la J del inglés): <i>gelato</i> se escucha “yelato”.",
+                      "mnemonic": "La G se vuelve suave como una gelatina que tiembla.",
+                      "examples": [
+                          {
+                              "t": "Il <b>ge</b>lato: el helado",
+                              "n": "La G suave."
+                          },
+                          {
+                              "t": "<b>Gi</b>orno: día",
+                              "n": "La G suave."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_L_gh",
+                      "isLetter": true,
+                      "letter": "GH",
+                      "word": "GH",
+                      "emoji": "🔤",
+                      "phonetic": "/g/",
+                      "translation": "Suena como la <b>G</b> fuerte del español (como en 'gato'): <i>ghiaccio</i> se escucha “giácho”.",
+                      "mnemonic": "La H 'endurece' la G y suena como 'gato'.",
+                      "examples": [
+                          {
+                              "t": "Il <b>gh</b>iaccio: el hielo",
+                              "n": "La G fuerte."
+                          },
+                          {
+                              "t": "<b>Gh</b>iro: lirón",
+                              "n": "Animal pequeño."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_L_doppie",
+                      "isLetter": true,
+                      "letter": "DOUBLE",
+                      "word": "Consonantes dobles",
+                      "emoji": "🔤",
+                      "phonetic": "/:/",
+                      "translation": "Las consonantes dobles se pronuncian <b>más largas</b> que las simples: <i>nonna</i> (abuela) vs <i>nona</i> (novena).",
+                      "mnemonic": "Imagina que la consonante doble es como un eco que se alarga.",
+                      "examples": [
+                          {
+                              "t": "La no<b>nn</b>a: la abuela",
+                              "n": "Doble n."
+                          },
+                          {
+                              "t": "La ca<b>ss</b>a: la caja",
+                              "n": "Doble s."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "GN",
+                      "word": "gnocchi",
+                      "emoji": "🥟",
+                      "phonetic": "/ˈɲɔkki/",
+                      "translation": "<b>Ñoquis</b> (tipo de pasta)",
+                      "translations": {
+                          "it": "gnocchi",
+                          "es": "ñoquis",
+                          "en": "gnocchi"
+                      },
+                      "examples": [
+                          {
+                              "t": "Mi piacciono gli <b>gnocchi</b>.",
+                              "n": "Me gustan los ñoquis."
+                          },
+                          {
+                              "t": "Mangio <b>gnocchi</b> il venerdì.",
+                              "n": "Como ñoquis los viernes."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "GN",
+                      "word": "signore",
+                      "emoji": "👨",
+                      "phonetic": "/siɲˈɲoːre/",
+                      "translation": "<b>Señor</b> (tratamiento de cortesía)",
+                      "translations": {
+                          "it": "signore",
+                          "es": "señor",
+                          "en": "sir/mister"
+                      },
+                      "examples": [
+                          {
+                              "t": "Buongiorno, <b>signore</b>.",
+                              "n": "Buenos días, señor."
+                          },
+                          {
+                              "t": "Il <b>signore</b> è italiano.",
+                              "n": "El señor es italiano."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "GLI",
+                      "word": "figlio",
+                      "emoji": "👦",
+                      "phonetic": "/ˈfiʎʎo/",
+                      "translation": "<b>Hijo</b>",
+                      "translations": {
+                          "it": "figlio",
+                          "es": "hijo",
+                          "en": "son"
+                      },
+                      "examples": [
+                          {
+                              "t": "Mio <b>figlio</b> ha cinque anni.",
+                              "n": "Mi hijo tiene cinco años."
+                          },
+                          {
+                              "t": "Il <b>figlio</b> gioca.",
+                              "n": "El hijo juega."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "GLI",
+                      "word": "voglio",
+                      "emoji": "💭",
+                      "phonetic": "/ˈvɔʎʎo/",
+                      "translation": "<b>Quiero</b> (del verbo volere)",
+                      "translations": {
+                          "it": "voglio",
+                          "es": "quiero",
+                          "en": "I want"
+                      },
+                      "examples": [
+                          {
+                              "t": "Io <b>voglio</b> un caffè.",
+                              "n": "Yo quiero un café."
+                          },
+                          {
+                              "t": "<b>Voglio</b> andare a casa.",
+                              "n": "Quiero ir a casa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "SC",
+                      "word": "pesce",
+                      "emoji": "🐟",
+                      "phonetic": "/ˈpeʃʃe/",
+                      "translation": "<b>Pescado</b>",
+                      "translations": {
+                          "it": "pesce",
+                          "es": "pescado",
+                          "en": "fish"
+                      },
+                      "examples": [
+                          {
+                              "t": "Il <b>pesce</b> è buono.",
+                              "n": "El pescado es bueno."
+                          },
+                          {
+                              "t": "Mangio <b>pesce</b> il venerdì.",
+                              "n": "Como pescado el viernes."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "SC",
+                      "word": "sciare",
+                      "emoji": "⛷️",
+                      "phonetic": "/ʃiˈaːre/",
+                      "translation": "<b>Esquiar</b>",
+                      "translations": {
+                          "it": "sciare",
+                          "es": "esquiar",
+                          "en": "to ski"
+                      },
+                      "examples": [
+                          {
+                              "t": "Mi piace <b>sciare</b> in montagna.",
+                              "n": "Me gusta esquiar en la montaña."
+                          },
+                          {
+                              "t": "Vogliamo <b>sciare</b> domani.",
+                              "n": "Queremos esquiar mañana."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "CI",
+                      "word": "ciao",
+                      "emoji": "👋",
+                      "phonetic": "/ˈtʃaːo/",
+                      "translation": "<b>Hola</b> / <b>Adiós</b> (saludo informal)",
+                      "translations": {
+                          "it": "ciao",
+                          "es": "hola/adiós",
+                          "en": "hello/goodbye"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ciao</b>, come stai?",
+                              "n": "Hola, ¿cómo estás?"
+                          },
+                          {
+                              "t": "Allora, <b>ciao</b>!",
+                              "n": "¡Entonces, adiós!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "CE",
+                      "word": "cena",
+                      "emoji": "🍽️",
+                      "phonetic": "/ˈtʃeːna/",
+                      "translation": "<b>Cena</b> (comida nocturna)",
+                      "translations": {
+                          "it": "cena",
+                          "es": "cena",
+                          "en": "dinner"
+                      },
+                      "examples": [
+                          {
+                              "t": "La <b>cena</b> è pronta.",
+                              "n": "La cena está lista."
+                          },
+                          {
+                              "t": "Andiamo a <b>cena</b> fuori.",
+                              "n": "Vamos a cenar fuera."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_09",
+                      "isLetter": false,
+                      "letter": "CH",
+                      "word": "perché",
+                      "emoji": "❓",
+                      "phonetic": "/perˈke/",
+                      "translation": "<b>Porque</b> / <b>¿Por qué?</b>",
+                      "translations": {
+                          "it": "perché",
+                          "es": "porque / por qué",
+                          "en": "because / why"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Perché</b> sei stanco?",
+                              "n": "¿Por qué estás cansado?"
+                          },
+                          {
+                              "t": "Non vado, <b>perché</b> piove.",
+                              "n": "No voy porque llueve."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_10",
+                      "isLetter": false,
+                      "letter": "GH",
+                      "word": "ghiaccio",
+                      "emoji": "🧊",
+                      "phonetic": "/ˈɡjat.tʃo/",
+                      "translation": "<b>Hielo</b>",
+                      "translations": {
+                          "it": "ghiaccio",
+                          "es": "hielo",
+                          "en": "ice"
+                      },
+                      "examples": [
+                          {
+                              "t": "Vorrei del <b>ghiaccio</b>.",
+                              "n": "Quisiera algo de hielo."
+                          },
+                          {
+                              "t": "Il <b>ghiaccio</b> è freddo.",
+                              "n": "El hielo está frío."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_11",
+                      "isLetter": false,
+                      "letter": "G",
+                      "word": "gelato",
+                      "emoji": "🍦",
+                      "phonetic": "/dʒeˈlaːto/",
+                      "translation": "<b>Helado</b>",
+                      "translations": {
+                          "it": "gelato",
+                          "es": "helado",
+                          "en": "ice cream"
+                      },
+                      "examples": [
+                          {
+                              "t": "Il <b>gelato</b> è buonissimo.",
+                              "n": "El helado está riquísimo."
+                          },
+                          {
+                              "t": "Mangio un <b>gelato</b> al limone.",
+                              "n": "Como un helado de limón."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "it_a0_g2_12",
+                      "isLetter": false,
+                      "letter": "DOUBLE",
+                      "word": "nonna",
+                      "emoji": "👵",
+                      "phonetic": "/ˈnɔnna/",
+                      "translation": "<b>Abuela</b> (con doble n, se alarga)",
+                      "translations": {
+                          "it": "nonna",
+                          "es": "abuela",
+                          "en": "grandmother"
+                      },
+                      "examples": [
+                          {
+                              "t": "La mia <b>nonna</b> è dolce.",
+                              "n": "Mi abuela es dulce."
+                          },
+                          {
+                              "t": "<b>Nonna</b> cucina bene.",
+                              "n": "La abuela cocina bien."
                           }
                       ]
                   }
@@ -39491,6 +43283,726 @@ const FLASHCARD_ALPHA = {
                           {
                               "t": "<b>친구</b>를 만나요. (chingureul mannayo)",
                               "n": "Встречаюсь с другом."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // PORTUGUÉS
+  // ──────────────────────────────────────────────────────
+  pt: {
+      "level": "A0",
+      "levelName": "El portugués — sonidos y acentos",
+      "groups": [
+          {
+              "id": "pt_a0_g1",
+              "name": "Nasales y acentos",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "ã · õ · â · ê · à · ç y las vocales nasales",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "pt_a0_g1_L_a_til",
+                      "isLetter": true,
+                      "letter": "ã",
+                      "word": "ã",
+                      "emoji": "🔤",
+                      "phonetic": "/ɐ̃/",
+                      "translation": "La <b>a</b> nasal — suena como una <i>a</i> española pero <b>saliendo por la nariz</b>",
+                      "mnemonic": "Imagina decir 'a' mientras te suenas la nariz con un pañuelo.",
+                      "examples": [
+                          {
+                              "t": "<b>ã</b> aparece en <b>irmã</b> (hermana)",
+                              "n": "La tilde (~) es la marca nasal"
+                          },
+                          {
+                              "t": "Ma<b>çã</b> — la manzana lleva <b>ã</b>",
+                              "n": "La fruta más nasal del mercado"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_L_o_til",
+                      "isLetter": true,
+                      "letter": "õ",
+                      "word": "õ",
+                      "emoji": "🔤",
+                      "phonetic": "/õ/",
+                      "translation": "La <b>o</b> nasal — como una <i>o</i> española pero <b>resonando en la nariz</b>",
+                      "mnemonic": "Piensa en el sonido de un fantasma: 'õõõ' mientras flotas.",
+                      "examples": [
+                          {
+                              "t": "Le<b>õ</b>es — los leones llevan <b>õ</b>",
+                              "n": "Plural de leão"
+                          },
+                          {
+                              "t": "Na<b>çõ</b>es — las naciones",
+                              "n": "Palabra con sonido nasal fuerte"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_L_a_circ",
+                      "isLetter": true,
+                      "letter": "â",
+                      "word": "â",
+                      "emoji": "🔤",
+                      "phonetic": "/ɐ/",
+                      "translation": "La <b>a</b> cerrada y nasalizada — entre <i>a</i> y <i>o</i> españolas, más <b>atrás</b>",
+                      "mnemonic": "El acento ^ es una 'a' que se esconde hacia atrás en la boca.",
+                      "examples": [
+                          {
+                              "t": "C<b>â</b>mera — la cámara",
+                              "n": "Mismo origen que en español"
+                          },
+                          {
+                              "t": "L<b>â</b>mpada — la lámpara",
+                              "n": "El acento cambia el sonido"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_L_e_circ",
+                      "isLetter": true,
+                      "letter": "ê",
+                      "word": "ê",
+                      "emoji": "🔤",
+                      "phonetic": "/e/",
+                      "translation": "La <b>e</b> cerrada — como una <i>e</i> española pero <b>más tensa y corta</b>",
+                      "mnemonic": "El ^ es una 'e' que se aprieta el cinturón.",
+                      "examples": [
+                          {
+                              "t": "Voc<b>ê</b> — tú/usted",
+                              "n": "La palabra más usada en Brasil"
+                          },
+                          {
+                              "t": "M<b>ê</b>s — el mes",
+                              "n": "Igual que en español pero con sonido cerrado"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_L_a_grave",
+                      "isLetter": true,
+                      "letter": "à",
+                      "word": "à",
+                      "emoji": "🔤",
+                      "phonetic": "/a/",
+                      "translation": "La <b>a</b> con acento grave — indica <b>contracción</b> de <i>a + a</i>",
+                      "mnemonic": "El acento ` es una 'a' que se fusiona con otra 'a'.",
+                      "examples": [
+                          {
+                              "t": "Vou <b>à</b> praia",
+                              "n": "Voy a la playa (a+a)"
+                          },
+                          {
+                              "t": "<b>À</b>s cinco",
+                              "n": "A las cinco (hora)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_L_cedilha",
+                      "isLetter": true,
+                      "letter": "ç",
+                      "word": "ç",
+                      "emoji": "🔤",
+                      "phonetic": "/s/",
+                      "translation": "La <b>c</b> con cedilla — suena como <b>/s/</b> española, nunca /k/",
+                      "mnemonic": "El ganchito debajo es una 's' que se cuelga de la 'c'.",
+                      "examples": [
+                          {
+                              "t": "A<b>ç</b>úcar — el azúcar",
+                              "n": "Misma palabra que en español"
+                          },
+                          {
+                              "t": "Ca<b>ç</b>a — caza (con ç)",
+                              "n": "No confundir con 'casa' (hogar)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_L_nasal_mn",
+                      "isLetter": true,
+                      "letter": "m/n",
+                      "word": "m/n",
+                      "emoji": "🔤",
+                      "phonetic": "/̃/",
+                      "translation": "Vocales <b>nasales antes de m/n</b> — la m/n no se pronuncia, <b>nasaliza</b> la vocal",
+                      "mnemonic": "La m/n es un letrero que dice: 'la vocal anterior es nasal'.",
+                      "examples": [
+                          {
+                              "t": "Ca<b>m</b>po — campo",
+                              "n": "La 'm' nasaliza la 'a'"
+                          },
+                          {
+                              "t": "Si<b>n</b>to — siento",
+                              "n": "La 'n' nasaliza la 'i'"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "ã",
+                      "word": "irmã",
+                      "emoji": "👩‍👧",
+                      "phonetic": "/iʁˈmɐ̃/",
+                      "translation": "hermana — con <b>ã</b> nasal",
+                      "translations": {
+                          "pt": "irmã",
+                          "es": "hermana",
+                          "en": "sister"
+                      },
+                      "examples": [
+                          {
+                              "t": "Minha <b>irmã</b> é linda.",
+                              "n": "Mi hermana es linda."
+                          },
+                          {
+                              "t": "A <b>irmã</b> dele mora aqui.",
+                              "n": "La hermana de él vive aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "ã",
+                      "word": "maçã",
+                      "emoji": "🍎",
+                      "phonetic": "/maˈsɐ̃/",
+                      "translation": "manzana — con <b>ç</b> y <b>ã</b>",
+                      "translations": {
+                          "pt": "maçã",
+                          "es": "manzana",
+                          "en": "apple"
+                      },
+                      "examples": [
+                          {
+                              "t": "Eu como uma <b>maçã</b>.",
+                              "n": "Yo como una manzana."
+                          },
+                          {
+                              "t": "A <b>maçã</b> é vermelha.",
+                              "n": "La manzana es roja."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "õ",
+                      "word": "leões",
+                      "emoji": "🦁",
+                      "phonetic": "/leˈõjʃ/",
+                      "translation": "leones — plural de <b>leão</b> con <b>õ</b>",
+                      "translations": {
+                          "pt": "leões",
+                          "es": "leones",
+                          "en": "lions"
+                      },
+                      "examples": [
+                          {
+                              "t": "Os <b>leões</b> são fortes.",
+                              "n": "Los leones son fuertes."
+                          },
+                          {
+                              "t": "Vejo dois <b>leões</b>.",
+                              "n": "Veo dos leones."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_10",
+                      "isLetter": false,
+                      "letter": "õ",
+                      "word": "põe",
+                      "emoji": "👋",
+                      "phonetic": "/ˈpõj/",
+                      "translation": "pone (él/ella) — con <b>õ</b> nasal",
+                      "translations": {
+                          "pt": "põe",
+                          "es": "pone",
+                          "en": "puts"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ela <b>põe</b> a mesa.",
+                              "n": "Ella pone la mesa."
+                          },
+                          {
+                              "t": "Ele <b>põe</b> o livro aqui.",
+                              "n": "Él pone el libro aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_11",
+                      "isLetter": false,
+                      "letter": "â",
+                      "word": "câmara",
+                      "emoji": "📷",
+                      "phonetic": "/ˈkɐmɐɾɐ/",
+                      "translation": "cámara — con <b>â</b> cerrada",
+                      "translations": {
+                          "pt": "câmara",
+                          "es": "cámara",
+                          "en": "camera"
+                      },
+                      "examples": [
+                          {
+                              "t": "A <b>câmara</b> é nova.",
+                              "n": "La cámara es nueva."
+                          },
+                          {
+                              "t": "Comprei uma <b>câmara</b>.",
+                              "n": "Compré una cámara."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_12",
+                      "isLetter": false,
+                      "letter": "â",
+                      "word": "lâmpada",
+                      "emoji": "💡",
+                      "phonetic": "/ˈlɐ̃pɐdɐ/",
+                      "translation": "lámpara — con <b>â</b> y nasal antes de <b>m</b>",
+                      "translations": {
+                          "pt": "lâmpada",
+                          "es": "lámpara",
+                          "en": "lamp"
+                      },
+                      "examples": [
+                          {
+                              "t": "A <b>lâmpada</b> está acesa.",
+                              "n": "La lámpara está encendida."
+                          },
+                          {
+                              "t": "Preciso de uma <b>lâmpada</b>.",
+                              "n": "Necesito una lámpara."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_13",
+                      "isLetter": false,
+                      "letter": "ê",
+                      "word": "você",
+                      "emoji": "🙋",
+                      "phonetic": "/voˈse/",
+                      "translation": "tú/usted — con <b>ê</b> cerrada final",
+                      "translations": {
+                          "pt": "você",
+                          "es": "tú/usted",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Você</b> fala português?",
+                              "n": "¿Tú hablas portugués?"
+                          },
+                          {
+                              "t": "Eu te amo, <b>você</b>.",
+                              "n": "Te amo, tú."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_14",
+                      "isLetter": false,
+                      "letter": "ê",
+                      "word": "mês",
+                      "emoji": "📅",
+                      "phonetic": "/meʃ/",
+                      "translation": "mes — con <b>ê</b> cerrada",
+                      "translations": {
+                          "pt": "mês",
+                          "es": "mes",
+                          "en": "month"
+                      },
+                      "examples": [
+                          {
+                              "t": "Este <b>mês</b> é bom.",
+                              "n": "Este mes es bueno."
+                          },
+                          {
+                              "t": "O <b>mês</b> de maio.",
+                              "n": "El mes de mayo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_15",
+                      "isLetter": false,
+                      "letter": "à",
+                      "word": "à",
+                      "emoji": "➡️",
+                      "phonetic": "/a/",
+                      "translation": "a la (contracción a+a) — con acento grave",
+                      "translations": {
+                          "pt": "à",
+                          "es": "a la",
+                          "en": "to the (fem.)"
+                      },
+                      "examples": [
+                          {
+                              "t": "Vou <b>à</b> escola.",
+                              "n": "Voy a la escuela."
+                          },
+                          {
+                              "t": "Ela vai <b>à</b> praia.",
+                              "n": "Ella va a la playa."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_16",
+                      "isLetter": false,
+                      "letter": "à",
+                      "word": "às",
+                      "emoji": "🕐",
+                      "phonetic": "/aʃ/",
+                      "translation": "a las (hora) — contracción <b>à</b> + plural",
+                      "translations": {
+                          "pt": "às",
+                          "es": "a las",
+                          "en": "at (time)"
+                      },
+                      "examples": [
+                          {
+                              "t": "Chego <b>às</b> cinco.",
+                              "n": "Llego a las cinco."
+                          },
+                          {
+                              "t": "A aula é <b>às</b> nove.",
+                              "n": "La clase es a las nueve."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_17",
+                      "isLetter": false,
+                      "letter": "ç",
+                      "word": "açúcar",
+                      "emoji": "🍬",
+                      "phonetic": "/aˈsukaʁ/",
+                      "translation": "azúcar — con <b>ç</b> que suena /s/",
+                      "translations": {
+                          "pt": "açúcar",
+                          "es": "azúcar",
+                          "en": "sugar"
+                      },
+                      "examples": [
+                          {
+                              "t": "O <b>açúcar</b> é doce.",
+                              "n": "El azúcar es dulce."
+                          },
+                          {
+                              "t": "Quero <b>açúcar</b> no café.",
+                              "n": "Quiero azúcar en el café."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g1_18",
+                      "isLetter": false,
+                      "letter": "ç",
+                      "word": "caça",
+                      "emoji": "🏹",
+                      "phonetic": "/ˈkasɐ/",
+                      "translation": "caza — con <b>ç</b> /s/, distinto de <i>casa</i>",
+                      "translations": {
+                          "pt": "caça",
+                          "es": "caza",
+                          "en": "hunt"
+                      },
+                      "examples": [
+                          {
+                              "t": "A <b>caça</b> é proibida.",
+                              "n": "La caza está prohibida."
+                          },
+                          {
+                              "t": "Ele gosta de <b>caça</b>.",
+                              "n": "Él gusta de caza."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "pt_a0_g2",
+              "name": "Consonantes del portugués",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "lh · nh · rr · x · s entre vocales · j/g",
+              "reviewFrom": [
+                  "pt_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "pt_a0_g2_L_lh",
+                      "isLetter": true,
+                      "letter": "lh",
+                      "word": "LH",
+                      "emoji": "👨‍👦",
+                      "phonetic": "/ʎ/",
+                      "translation": "Dígrafo <b>LH</b> — suena como la <b>LL</b> española (yeísmo).<br><i>Ej: filho = hijo</i>",
+                      "mnemonic": "Ve una 'L' y una 'H' abrazadas — juntas hacen el mismo sonido que la LL española.",
+                      "examples": [
+                          {
+                              "t": "O <b>fi<b>lho</b></b> é pequeno.",
+                              "n": "El hijo es pequeño."
+                          },
+                          {
+                              "t": "A <b>fo<b>lha</b></b> caiu no chão.",
+                              "n": "La hoja cayó al suelo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_L_nh",
+                      "isLetter": true,
+                      "letter": "nh",
+                      "word": "NH",
+                      "emoji": "🍷",
+                      "phonetic": "/ɲ/",
+                      "translation": "Dígrafo <b>NH</b> — exactamente como la <b>Ñ</b> española.<br><i>Ej: vinho = vino</i>",
+                      "mnemonic": "La 'N' se encuentra con la 'H' y juntas hacen la 'Ñ' que ya conoces.",
+                      "examples": [
+                          {
+                              "t": "Eu gosto de vi<b>nho</b>.",
+                              "n": "Me gusta el vino."
+                          },
+                          {
+                              "t": "A ma<b>nhã</b> está fria.",
+                              "n": "La mañana está fría."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_L_rr",
+                      "isLetter": true,
+                      "letter": "rr",
+                      "word": "RR",
+                      "emoji": "🚗",
+                      "phonetic": "/ʁ/",
+                      "translation": "Doble <b>RR</b> — sonido gutural, como la J española o la R francesa.<br><i>NO es la RR vibrante española</i>",
+                      "mnemonic": "Imagina que te aclaras la garganta — ese sonido rasposo es la RR portuguesa.",
+                      "examples": [
+                          {
+                              "t": "O <b>ca<b>rro</b></b> é vermelho.",
+                              "n": "El coche es rojo."
+                          },
+                          {
+                              "t": "A <b>te<b>rra</b></b> é fértil.",
+                              "n": "La tierra es fértil."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_L_r_inicio",
+                      "isLetter": true,
+                      "letter": "r (inicial)",
+                      "word": "R inicial",
+                      "emoji": "🐭",
+                      "phonetic": "/ʁ/",
+                      "translation": "<b>R</b> al inicio de palabra — mismo sonido gutural que <b>RR</b>.<br><i>Ej: rato = ratón</i>",
+                      "mnemonic": "Al inicio, la R suena como si estuviera sola pero con actitud de doble R.",
+                      "examples": [
+                          {
+                              "t": "O <b>ra<b>to</b></b> come queijo.",
+                              "n": "El ratón come queso."
+                          },
+                          {
+                              "t": "O <b>ri<b>o</b></b> é muito longo.",
+                              "n": "El río es muy largo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_L_x",
+                      "isLetter": true,
+                      "letter": "x",
+                      "word": "X",
+                      "emoji": "📦",
+                      "phonetic": "/ʃ/ /ks/ /s/ /z/",
+                      "translation": "Letra <b>X</b> — camaleónica, tiene 4 sonidos:<br>1. <b>/ʃ/</b> como SH (caixa)<br>2. <b>/ks/</b> como en español (táxi)<br>3. <b>/s/</b> (próximo)<br>4. <b>/z/</b> (exame)",
+                      "mnemonic": "La X es una caja de sorpresas — nunca sabes qué sonido va a salir de ella.",
+                      "examples": [
+                          {
+                              "t": "A <b>ca<b>ixa</b></b> é grande.",
+                              "n": "La caja es grande."
+                          },
+                          {
+                              "t": "O tá<b>x</b>i está aqui.",
+                              "n": "El taxi está aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_L_s_entre_vocales",
+                      "isLetter": true,
+                      "letter": "s (entre vocales)",
+                      "word": "S entre vocales",
+                      "emoji": "🏠",
+                      "phonetic": "/z/",
+                      "translation": "<b>S</b> entre vocales — suena como <b>Z</b> española (sonido zumbido).<br><i>Ej: casa = /kaza/</i><br><span class='hl'>¡Cuidado! No es /s/ como en español</span>",
+                      "mnemonic": "Cuando la S se siente entre vocales, se relaja y zumba como una abeja (Z).",
+                      "examples": [
+                          {
+                              "t": "A <b>ca<b>sa</b></b> é bonita.",
+                              "n": "La casa es bonita."
+                          },
+                          {
+                              "t": "A <b>ro<b>sa</b></b> é vermelha.",
+                              "n": "La rosa es roja."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_L_s_inicio",
+                      "isLetter": true,
+                      "letter": "s (inicio)",
+                      "word": "S inicial",
+                      "emoji": "☀️",
+                      "phonetic": "/s/",
+                      "translation": "<b>S</b> al inicio — suena como la <b>S</b> española normal.<br><i>Ej: sol = sol</i>",
+                      "mnemonic": "Al inicio, la S se comporta igual que en español — sin sorpresas.",
+                      "examples": [
+                          {
+                              "t": "O <b>so<b>l</b></b> está quente.",
+                              "n": "El sol está caliente."
+                          },
+                          {
+                              "t": "A <b>sa<b>la</b></b> é clara.",
+                              "n": "La sala es clara."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "lh",
+                      "word": "filho",
+                      "emoji": "👶",
+                      "phonetic": "/ˈfiʎu/",
+                      "translation": "hijo — con <b>LH</b> como LL española",
+                      "translations": {
+                          "pt": "filho",
+                          "es": "hijo",
+                          "en": "son"
+                      },
+                      "examples": [
+                          {
+                              "t": "Meu <b>filho</b> estuda muito.",
+                              "n": "Mi hijo estudia mucho."
+                          },
+                          {
+                              "t": "O <b>filho</b> dela é médico.",
+                              "n": "El hijo de ella es médico."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "nh",
+                      "word": "vinho",
+                      "emoji": "🍷",
+                      "phonetic": "/ˈviɲu/",
+                      "translation": "vino — con <b>NH</b> como Ñ española",
+                      "translations": {
+                          "pt": "vinho",
+                          "es": "vino",
+                          "en": "wine"
+                      },
+                      "examples": [
+                          {
+                              "t": "Eu bebo <b>vinho</b> no jantar.",
+                              "n": "Yo bebo vino en la cena."
+                          },
+                          {
+                              "t": "O <b>vinho</b> português é famoso.",
+                              "n": "El vino portugués es famoso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "rr",
+                      "word": "carro",
+                      "emoji": "🚗",
+                      "phonetic": "/ˈkaʁu/",
+                      "translation": "coche — con <b>RR</b> gutural, no vibrante",
+                      "translations": {
+                          "pt": "carro",
+                          "es": "coche",
+                          "en": "car"
+                      },
+                      "examples": [
+                          {
+                              "t": "O <b>carro</b> é rápido.",
+                              "n": "El coche es rápido."
+                          },
+                          {
+                              "t": "Ela comprou um <b>carro</b> novo.",
+                              "n": "Ella compró un coche nuevo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "x",
+                      "word": "caixa",
+                      "emoji": "📦",
+                      "phonetic": "/ˈkajʃa/",
+                      "translation": "caja — con <b>X</b> sonando como SH",
+                      "translations": {
+                          "pt": "caixa",
+                          "es": "caja",
+                          "en": "box"
+                      },
+                      "examples": [
+                          {
+                              "t": "A <b>caixa</b> é pesada.",
+                              "n": "La caja es pesada."
+                          },
+                          {
+                              "t": "Onde está a <b>caixa</b> de ferramentas?",
+                              "n": "¿Dónde está la caja de herramientas?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "pt_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "s (entre vocales)",
+                      "word": "casa",
+                      "emoji": "🏠",
+                      "phonetic": "/ˈkazɐ/",
+                      "translation": "casa — con <b>S</b> sonando como Z",
+                      "translations": {
+                          "pt": "casa",
+                          "es": "casa",
+                          "en": "house"
+                      },
+                      "examples": [
+                          {
+                              "t": "Minha <b>casa</b> é pequena.",
+                              "n": "Mi casa es pequeña."
+                          },
+                          {
+                              "t": "A <b>casa</b> tem três quartos.",
+                              "n": "La casa tiene tres habitaciones."
                           }
                       ]
                   }
@@ -72285,1212 +76797,982 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
-  // AR_DE
+  // FRANCÉS
   // ──────────────────────────────────────────────────────
-  ar_de: {
+  fr: {
       "level": "A0",
-      "levelName": "El alfabeto árabe",
+      "levelName": "El francés — acentos y sonidos",
       "groups": [
           {
-              "id": "ar_a0_g1",
-              "name": "Introducción al árabe",
-              "icon": "📖",
+              "id": "fr_a0_g1",
+              "name": "Acentos y cedilla",
+              "icon": "🔤",
               "color": "#6366f1",
-              "description": "Script RTL · abjad · vocales · conexión de letras",
+              "description": "é · è · ê · ë · â · î · ô · û · ç",
               "reviewFrom": [],
               "cards": [
                   {
-                      "id": "ar_a0_g1_L_rtl",
+                      "id": "fr_a0_g1_L_e_acute",
                       "isLetter": true,
-                      "letter": "→",
-                      "word": "RTL",
-                      "emoji": "➡️",
-                      "phonetic": "/min al-yamīn ilā al-shimāl/",
-                      "translation": "Arabisch wird <b>von rechts nach links</b> geschrieben und gelesen.<br><i>Wie bei einer umgekehrten Zeile in einem Buch.</i>",
-                      "mnemonic": "Stell dir vor, die Buchstaben laufen nach links, wie beim Zurückblättern eines Buches.",
-                      "examples": [
-                          {
-                              "t": "مرحبا ← <b>مرحبا</b>",
-                              "n": "Das Wort <i>marhaba</i> (Hallo) beginnt rechts und endet links."
-                          },
-                          {
-                              "t": "Starte rechts 👈<br>Lies nach links 👉",
-                              "n": "Richtungspfeil: Der Anfang ist immer auf der rechten Seite."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g1_L_abjad",
-                      "isLetter": true,
-                      "letter": "ا",
-                      "word": "Abjad",
+                      "letter": "é",
+                      "word": "é",
                       "emoji": "🔤",
-                      "phonetic": "/ʔalif/",
-                      "translation": "Das arabische Alphabet ist ein <b>Abjad</b> – es schreibt hauptsächlich Konsonanten.<br>Kurze Vokale (a, i, u) werden meist <i>weggelassen</i>, außer in Lehrbüchern oder im Koran.",
-                      "mnemonic": "Denk an ein Skelett: Die Konsonanten sind die Knochen, die Vokale nur das Fleisch – oft nicht sichtbar.",
+                      "phonetic": "/e/",
+                      "translation": "Nombre: <b>e</b> con acento agudo. Suena como la <b>e</b> española cerrada, como en <i>café</i>.",
+                      "mnemonic": "Imagina una 'e' que se estira hacia arriba a la derecha, como si sonriera con los labios estirados.",
                       "examples": [
                           {
-                              "t": "كِتَابٌ (mit Vokalen) → كتاب (ohne Vokale)",
-                              "n": "Dasselbe Wort <i>kitāb</i> (Buch) – einmal betont, einmal nackt."
+                              "t": "<b>é</b> en <b>café</b> suena como 'e' cerrada.",
+                              "n": "La e con acento agudo siempre tiene sonido cerrado."
                           },
                           {
-                              "t": "Ohne Vokale muss man den Kontext kennen.",
-                              "n": "Erfahrene Leser ergänzen die Vokale automatisch."
+                              "t": "El acento agudo solo aparece sobre la <b>e</b> en francés.",
+                              "n": "No hay á, í, ó, ú con acento agudo en francés."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g1_L_fatha",
+                      "id": "fr_a0_g1_L_e_grave",
                       "isLetter": true,
-                      "letter": "ـَ",
-                      "word": "Fatha",
-                      "emoji": "🔺",
-                      "phonetic": "/a/",
-                      "translation": "<b>Fatha</b> ـَ ist ein kleiner Schrägstrich <b>über</b> dem Buchstaben – er klingt wie <i>a</i> in „Apfel“.",
-                      "mnemonic": "Ein Strich nach oben = ein offenes <i>a</i>, als würde der Mund weit geöffnet.",
+                      "letter": "è",
+                      "word": "è",
+                      "emoji": "🔤",
+                      "phonetic": "/ɛ/",
+                      "translation": "Nombre: <b>e</b> con acento grave. Suena como una <b>e</b> más abierta, parecida a la <b>e</b> en inglés de 'bed'.",
+                      "mnemonic": "La <b>è</b> tiene el acento hacia la izquierda, como si abriera la boca más para dejar salir el sonido.",
                       "examples": [
                           {
-                              "t": "بَ = <b>ba</b>",
-                              "n": "Fatha über <i>bāʼ</i> ergibt /ba/."
+                              "t": "<b>è</b> en <b>père</b> (padre) suena abierta.",
+                              "n": "Se pronuncia /pɛʁ/."
                           },
                           {
-                              "t": "كِتَابٌ – das erste <b>ـَ</b> macht das <i>a</i> in „ki<b>tāb</b>“.",
-                              "n": "Fatha erscheint oft in geschriebenen Vokalen."
+                              "t": "La <b>è</b> se usa antes de sílaba con 'e' muda.",
+                              "n": "Ejemplo: <b>mère</b> (madre)."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g1_L_kasra",
+                      "id": "fr_a0_g1_L_e_circumflex",
                       "isLetter": true,
-                      "letter": "ـِ",
-                      "word": "Kasra",
-                      "emoji": "🔻",
+                      "letter": "ê",
+                      "word": "ê",
+                      "emoji": "🔤",
+                      "phonetic": "/ɛ/",
+                      "translation": "Nombre: <b>e</b> con acento circunflejo. Mismo sonido que <b>è</b> (/ɛ/), pero de origen histórico.",
+                      "mnemonic": "El circunflejo es como un sombrerito que recuerda que antes había una 's' que desapareció (ej. <span class='hl'>fête</span> viene de 'festa').",
+                      "examples": [
+                          {
+                              "t": "<b>ê</b> en <b>fête</b> (fiesta) suena igual que <b>è</b>.",
+                              "n": "Históricamente se escribía 'feste'."
+                          },
+                          {
+                              "t": "La <b>ê</b> se encuentra en palabras como <b>tête</b> (cabeza).",
+                              "n": "También en <b>être</b> (ser)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g1_L_e_trema",
+                      "isLetter": true,
+                      "letter": "ë",
+                      "word": "ë",
+                      "emoji": "🔤",
+                      "phonetic": "/ɛ/ o /e/ (según contexto)",
+                      "translation": "Nombre: <b>e</b> con diéresis (trema). Indica que la <b>e</b> se pronuncia separada de la vocal anterior.",
+                      "mnemonic": "Los dos puntitos son como dos ojos que separan las vocales para que no se mezclen.",
+                      "examples": [
+                          {
+                              "t": "<b>ë</b> en <b>Noël</b> (Navidad) se pronuncia /ɔɛl/.",
+                              "n": "Sin diéresis, 'Noel' se leería como /nɔl/."
+                          },
+                          {
+                              "t": "La <b>ë</b> también aparece en <b>naïf</b> (ingenuo).",
+                              "n": "Aquí la i lleva diéresis, pero la e también se ve."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g1_L_a_circumflex",
+                      "isLetter": true,
+                      "letter": "â",
+                      "word": "â",
+                      "emoji": "🔤",
+                      "phonetic": "/ɑ/",
+                      "translation": "Nombre: <b>a</b> con acento circunflejo. Sonido de <b>a</b> más profundo y posterior, como la <b>a</b> en inglés de 'father'.",
+                      "mnemonic": "El sombrerito sobre la <b>a</b> la hace sonar más grave, como si viniera del fondo de la garganta.",
+                      "examples": [
+                          {
+                              "t": "<b>â</b> en <b>château</b> (castillo) suena más abierta.",
+                              "n": "Se pronuncia /ʃɑto/."
+                          },
+                          {
+                              "t": "En <b>pâte</b> (pasta) la <b>â</b> es larga.",
+                              "n": "Se distingue de 'patte' (pata)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g1_L_i_circumflex",
+                      "isLetter": true,
+                      "letter": "î",
+                      "word": "î",
+                      "emoji": "🔤",
                       "phonetic": "/i/",
-                      "translation": "<b>Kasra</b> ـِ ist ein kleiner Schrägstrich <b>unter</b> dem Buchstaben – klingt wie <i>i</i> in „Kiste“.",
-                      "mnemonic": "Der Strich nach unten = ein geschlossenes <i>i</i>, wie ein Lächeln, das nach unten zieht.",
+                      "translation": "Nombre: <b>i</b> con acento circunflejo. Se pronuncia igual que la <b>i</b> normal, pero históricamente reemplaza una 's'.",
+                      "mnemonic": "El sombrerito sobre la <b>i</b> es solo un adorno; no cambia el sonido.",
                       "examples": [
                           {
-                              "t": "بِ = <b>bi</b>",
-                              "n": "Kasra unter <i>bāʼ</i> ergibt /bi/."
+                              "t": "<b>î</b> en <b>île</b> (isla) suena como <b>i</b> normal.",
+                              "n": "Viene del latín 'insula'."
                           },
                           {
-                              "t": "كِتَابٌ – das <b>ـِ</b> macht das <i>i</i> in „k<b>i</b>tāb“.",
-                              "n": "Kasra sitzt unter dem Konsonanten."
+                              "t": "En <b>boîte</b> (caja) la <b>î</b> también es /i/.",
+                              "n": "Históricamente 'boiste'."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g1_L_damma",
+                      "id": "fr_a0_g1_L_o_circumflex",
                       "isLetter": true,
-                      "letter": "ـُ",
-                      "word": "Damma",
-                      "emoji": "🌀",
-                      "phonetic": "/u/",
-                      "translation": "<b>Damma</b> ـُ ist eine kleine Locke <b>über</b> dem Buchstaben – klingt wie <i>u</i> in „Bus“.",
-                      "mnemonic": "Die Locke sieht aus wie ein kleines <i>u</i>, das nach oben schaut.",
-                      "examples": [
-                          {
-                              "t": "بُ = <b>bu</b>",
-                              "n": "Damma über <i>bāʼ</i> ergibt /bu/."
-                          },
-                          {
-                              "t": "كُتُبٌ – das <b>ـُ</b> macht das <i>u</i> in „k<b>u</b>tub“ (Bücher).",
-                              "n": "Damma wird wie ein kleines Wölkchen geschrieben."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g1_L_sukun",
-                      "isLetter": true,
-                      "letter": "ـْ",
-                      "word": "Sukun",
-                      "emoji": "⭕",
-                      "phonetic": "/∅/",
-                      "translation": "<b>Sukun</b> ـْ ist ein kleiner Kreis <b>über</b> dem Buchstaben – er bedeutet <b>kein Vokal</b> (stiller Konsonant).",
-                      "mnemonic": "Ein Kreis wie ein „Stopp-Schild“ – hier kommt kein Vokal.",
-                      "examples": [
-                          {
-                              "t": "بْ = <b>b</b> (nur der Konsonant)",
-                              "n": "Sukun zeigt: kein a, i, u danach."
-                          },
-                          {
-                              "t": "بَيْتٌ – das <b>ـْ</b> nach <i>yāʼ</i> macht das <i>y</i> stumm.",
-                              "n": "Sukun hilft, die Aussprache zu präzisieren."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g1_L_shadda",
-                      "isLetter": true,
-                      "letter": "ـّ",
-                      "word": "Schadda",
-                      "emoji": "💥",
-                      "phonetic": "/doubled consonant/",
-                      "translation": "<b>Schadda</b> ـّ ist ein kleines <b>w</b> über dem Buchstaben – es verdoppelt den Konsonanten.<br><i>Wie „bb“ in „Hobby“.</i>",
-                      "mnemonic": "Das Zeichen sieht aus wie ein kleines <i>w</i> – doppelt so stark!",
-                      "examples": [
-                          {
-                              "t": "بَّ = <b>bba</b>",
-                              "n": "Der Konsonant wird länger gehalten."
-                          },
-                          {
-                              "t": "بَيْتٌ – kein Schadda hier, aber in „دَرَّسَ“ (darasa) verdoppelt es das <b>ر</b>.",
-                              "n": "Schadda ist wie ein Energieschub für den Buchstaben."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g1_L_connectors",
-                      "isLetter": true,
-                      "letter": "ك",
-                      "word": "Verbindung",
-                      "emoji": "🔗",
-                      "phonetic": "/kāf/",
-                      "translation": "Die meisten arabischen Buchstaben <b>verbinden sich</b> mit dem nächsten Buchstaben.<br>Aber <b>6 Buchstaben</b> verbinden sich nur nach rechts: <i>ا د ذ ر ز و</i>.",
-                      "mnemonic": "Denk an eine Kette: Die 6 Ausreißer sind wie einzelne Perlen, die keine Kette nach links bilden.",
-                      "examples": [
-                          {
-                              "t": "ك + ت + ب → <b>كتب</b> (kataba = schrieb)",
-                              "n": "Alle drei Buchstaben verbinden sich zu einer durchgehenden Linie."
-                          },
-                          {
-                              "t": "م + ر + ح + ب + ا → <b>مرحبا</b>",
-                              "n": "Das <i>ا</i> (Alif) am Ende bricht die Kette – es verbindet sich nicht nach links."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g1_L_nonconnectors",
-                      "isLetter": true,
-                      "letter": "ا",
-                      "word": "Nicht-Verbinder",
-                      "emoji": "🚫",
-                      "phonetic": "/ʔalif/",
-                      "translation": "Die Buchstaben <b>ا د ذ ر ز و</b> verbinden sich <b>nur nach rechts</b> – sie lassen die Kette abbrechen.",
-                      "mnemonic": "Stell sie dir als einsame Inseln vor, die keine Brücke zum linken Ufer bauen.",
-                      "examples": [
-                          {
-                              "t": "د + ا + ر → <b>دار</b> (dār = Haus)",
-                              "n": "Das <i>د</i> und <i>ا</i> verbinden sich nicht mit dem nächsten Buchstaben."
-                          },
-                          {
-                              "t": "ك + ت + ا + ب → <b>كتاب</b>",
-                              "n": "Das <i>ا</i> bricht die Verbindung – es bleibt allein."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g1_01",
-                      "isLetter": false,
-                      "letter": "ب",
-                      "word": "بَيْتٌ",
-                      "emoji": "🏠",
-                      "phonetic": "/bayt/",
-                      "translation": "<b>Haus</b> – mit allen Vokalen geschrieben: <i>b</i> + <i>a</i> + <i>y</i> + <i>t</i>",
-                      "translations": {
-                          "ar": "بَيْتٌ",
-                          "de": "Haus",
-                          "en": "house"
-                      },
-                      "examples": [
-                          {
-                              "t": "هَذَا <b>بَيْتٌ</b> كَبِيرٌ",
-                              "n": "Das ist ein großes Haus."
-                          },
-                          {
-                              "t": "أَنَا فِي <b>بَيْتٍ</b>",
-                              "n": "Ich bin in einem Haus."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g1_02",
-                      "isLetter": false,
-                      "letter": "ك",
-                      "word": "كِتَابٌ",
-                      "emoji": "📖",
-                      "phonetic": "/kitāb/",
-                      "translation": "<b>Buch</b> – mit Vokalen: <i>k</i> + <i>i</i> + <i>t</i> + <i>ā</i> + <i>b</i>",
-                      "translations": {
-                          "ar": "كِتَابٌ",
-                          "de": "Buch",
-                          "en": "book"
-                      },
-                      "examples": [
-                          {
-                              "t": "هَذَا <b>كِتَابٌ</b> جَدِيدٌ",
-                              "n": "Das ist ein neues Buch."
-                          },
-                          {
-                              "t": "أَقْرَأُ <b>كِتَابًا</b>",
-                              "n": "Ich lese ein Buch."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g1_03",
-                      "isLetter": false,
-                      "letter": "م",
-                      "word": "مَاءٌ",
-                      "emoji": "💧",
-                      "phonetic": "/māʼ/",
-                      "translation": "<b>Wasser</b> – das Alif (ا) wird hier wie ein langes <i>ā</i> gesprochen.",
-                      "translations": {
-                          "ar": "مَاءٌ",
-                          "de": "Wasser",
-                          "en": "water"
-                      },
-                      "examples": [
-                          {
-                              "t": "أَشْرَبُ <b>مَاءً</b>",
-                              "n": "Ich trinke Wasser."
-                          },
-                          {
-                              "t": "هَذَا <b>مَاءٌ</b> بَارِدٌ",
-                              "n": "Das ist kaltes Wasser."
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "id": "ar_a0_g2",
-              "name": "Letras — grupo A",
-              "icon": "🔤",
-              "color": "#f59e0b",
-              "description": "أ ب ت ث ج ح خ د ذ ر ز",
-              "reviewFrom": [
-                  "ar_a0_g1"
-              ],
-              "cards": [
-                  {
-                      "id": "ar_a0_g2_L_alif",
-                      "isLetter": true,
-                      "letter": "أ/ا",
-                      "word": "أ/ا",
+                      "letter": "ô",
+                      "word": "ô",
                       "emoji": "🔤",
-                      "phonetic": "/ʔa/",
-                      "translation": "Alif – kurzer Stimmabsatz + 'a'<br><b>ا</b> ist ein gerader Strich, der nicht verbunden wird.<br>Wie ein <span class='hl'>stockgerader</span> Buchstabe.",
-                      "mnemonic": "Stell dir einen geraden Stock vor, der einfach stehen bleibt.",
+                      "phonetic": "/o/",
+                      "translation": "Nombre: <b>o</b> con acento circunflejo. Sonido de <b>o</b> cerrada, como en español 'sol' pero más redondeada.",
+                      "mnemonic": "El sombrerito sobre la <b>o</b> la hace más cerrada, como si los labios formaran un círculo pequeño.",
                       "examples": [
                           {
-                              "t": "<b>أنا</b> (ana) = ich",
-                              "n": "Ich"
+                              "t": "<b>ô</b> en <b>hôtel</b> suena como /o/ cerrada.",
+                              "n": "Se pronuncia /ɔtɛl/ en francés, pero con o cerrada."
                           },
                           {
-                              "t": "ماء (maa) = Wasser – das <b>ا</b> am Ende verlängert das 'a'.",
-                              "n": "Wasser"
+                              "t": "En <b>côté</b> (lado) la <b>ô</b> es cerrada.",
+                              "n": "También en <b>tôt</b> (temprano)."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g2_L_ba",
+                      "id": "fr_a0_g1_L_u_circumflex",
                       "isLetter": true,
-                      "letter": "ب",
-                      "word": "ب",
+                      "letter": "û",
+                      "word": "û",
                       "emoji": "🔤",
-                      "phonetic": "/b/",
-                      "translation": "Ba – wie deutsches 'b'<br>Ein Teller mit einem <b>Punkt darunter</b>.",
-                      "mnemonic": "Ein Teller mit einem Punkt darunter – der Punkt ist das 'b'.",
+                      "phonetic": "/y/",
+                      "translation": "Nombre: <b>u</b> con acento circunflejo. Se pronuncia como la <b>u</b> francesa (redondeada, como decir 'i' con los labios en 'u').",
+                      "mnemonic": "El sombrerito sobre la <b>u</b> no cambia el sonido; es un vestigio histórico.",
                       "examples": [
                           {
-                              "t": "<b>بيت</b> (bayt) = Haus",
-                              "n": "Haus"
+                              "t": "<b>û</b> en <b>sûr</b> (seguro) suena igual que <b>u</b> normal.",
+                              "n": "Se pronuncia /syʁ/."
                           },
                           {
-                              "t": "<b>كتاب</b> (kitaab) = Buch",
-                              "n": "Buch"
+                              "t": "En <b>dû</b> (debido) la <b>û</b> es histórica.",
+                              "n": "Viene de 'deu'."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g2_L_ta",
+                      "id": "fr_a0_g1_L_c_cedilla",
                       "isLetter": true,
-                      "letter": "ت",
-                      "word": "ت",
-                      "emoji": "🔤",
-                      "phonetic": "/t/",
-                      "translation": "Ta – wie deutsches 't'<br>Ein Teller mit <b>zwei Punkten darüber</b>.",
-                      "mnemonic": "Zwei Punkte oben wie zwei kleine Augen.",
-                      "examples": [
-                          {
-                              "t": "<b>تمر</b> (tamr) = Datteln",
-                              "n": "Datteln"
-                          },
-                          {
-                              "t": "<b>أنت</b> (anta) = du (männlich)",
-                              "n": "Du"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g2_L_tha",
-                      "isLetter": true,
-                      "letter": "ث",
-                      "word": "ث",
-                      "emoji": "🔤",
-                      "phonetic": "/θ/",
-                      "translation": "Tha – wie englisch 'th' in 'think'<br>Ein Teller mit <b>drei Punkten darüber</b>.",
-                      "mnemonic": "Drei Punkte wie ein kleines Dreieck – 'th' wie in 'three'.",
-                      "examples": [
-                          {
-                              "t": "<b>ثلاثة</b> (thalaatha) = drei",
-                              "n": "Drei"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g2_L_jim",
-                      "isLetter": true,
-                      "letter": "ج",
-                      "word": "ج",
-                      "emoji": "🔤",
-                      "phonetic": "/dʒ/",
-                      "translation": "Jim – wie englisch 'j' in 'jungle'<br>Eine <b>Zange</b> mit einem Punkt in der Mitte.",
-                      "mnemonic": "Sieht aus wie eine Zange, die etwas festhält.",
-                      "examples": [
-                          {
-                              "t": "<b>جميل</b> (jameel) = schön",
-                              "n": "Schön"
-                          },
-                          {
-                              "t": "<b>جدة</b> (Jidda) = Stadt in Saudi-Arabien",
-                              "n": "Jidda"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g2_L_ha",
-                      "isLetter": true,
-                      "letter": "ح",
-                      "word": "ح",
-                      "emoji": "🔤",
-                      "phonetic": "/ħ/",
-                      "translation": "Ha – tiefer Kehlkopf-Laut (kein deutsches Äquivalent)<br>Wie ein <b>offenes Auge</b> mit einem Strich.",
-                      "mnemonic": "Stell dir vor, du hauchst gegen eine Fensterscheibe – der Laut kommt aus dem Rachen.",
-                      "examples": [
-                          {
-                              "t": "<b>حب</b> (hub) = Liebe",
-                              "n": "Liebe"
-                          },
-                          {
-                              "t": "<b>أحمد</b> (Ahmad) = männlicher Name",
-                              "n": "Ahmad"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g2_L_kha",
-                      "isLetter": true,
-                      "letter": "خ",
-                      "word": "خ",
-                      "emoji": "🔤",
-                      "phonetic": "/x/",
-                      "translation": "Kha – wie spanisches 'j' (Bach-Laut)<br>Ein <b>Punkt oben</b> auf einem Bogen.",
-                      "mnemonic": "Stell dir vor, du machst den Laut beim Räuspern – wie 'ch' in 'Bach'.",
-                      "examples": [
-                          {
-                              "t": "<b>خبز</b> (khubz) = Brot",
-                              "n": "Brot"
-                          },
-                          {
-                              "t": "<b>أخ</b> (akh) = Bruder",
-                              "n": "Bruder"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g2_L_dal",
-                      "isLetter": true,
-                      "letter": "د",
-                      "word": "د",
-                      "emoji": "🔤",
-                      "phonetic": "/d/",
-                      "translation": "Dal – wie deutsches 'd'<br>Ein <b>Bogen</b>, der nicht verbunden wird.",
-                      "mnemonic": "Sieht aus wie ein Halbkreis – wie ein 'd' ohne Stiel.",
-                      "examples": [
-                          {
-                              "t": "<b>درس</b> (darasa) = er lernte",
-                              "n": "Er lernte"
-                          },
-                          {
-                              "t": "<b>يد</b> (yad) = Hand",
-                              "n": "Hand"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g2_L_dhal",
-                      "isLetter": true,
-                      "letter": "ذ",
-                      "word": "ذ",
-                      "emoji": "🔤",
-                      "phonetic": "/ð/",
-                      "translation": "Dhal – wie englisch 'th' in 'the'<br>Ein Bogen mit <b>einem Punkt oben</b>.",
-                      "mnemonic": "Der Punkt oben macht aus 'd' ein 'th' – wie in 'this'.",
-                      "examples": [
-                          {
-                              "t": "<b>ذهب</b> (dhahab) = Gold",
-                              "n": "Gold"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g2_L_ra",
-                      "isLetter": true,
-                      "letter": "ر",
-                      "word": "ر",
-                      "emoji": "🔤",
-                      "phonetic": "/r/",
-                      "translation": "Ra – gerolltes 'r' (wie spanisch)<br>Ein <b>kleiner Bogen</b>, der nicht verbunden wird.",
-                      "mnemonic": "Wie ein kleines Häkchen – roll das 'r' wie im Spanischen.",
-                      "examples": [
-                          {
-                              "t": "<b>رجل</b> (rajul) = Mann",
-                              "n": "Mann"
-                          },
-                          {
-                              "t": "<b>مرحبا</b> (marhaba) = Hallo",
-                              "n": "Hallo"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g2_L_zayn",
-                      "isLetter": true,
-                      "letter": "ز",
-                      "word": "ز",
-                      "emoji": "🔤",
-                      "phonetic": "/z/",
-                      "translation": "Zayn – wie deutsches 'z' (stimmlos)<br>Ein Bogen mit <b>einem Punkt oben</b> – wie ein 'r' mit Punkt.",
-                      "mnemonic": "Der Punkt macht aus 'r' ein 'z' – wie in 'Zebra'.",
-                      "examples": [
-                          {
-                              "t": "<b>زيت</b> (zayt) = Öl",
-                              "n": "Öl"
-                          },
-                          {
-                              "t": "<b>زهرة</b> (zahra) = Blume",
-                              "n": "Blume"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g2_01",
-                      "isLetter": false,
-                      "letter": "ب",
-                      "word": "بيت",
-                      "emoji": "🏠",
-                      "phonetic": "/bayt/",
-                      "translation": "Haus",
-                      "translations": {
-                          "ar": "بيت",
-                          "de": "Haus",
-                          "en": "house"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>بيت</b> كبير (bayt kabiir) = ein großes Haus",
-                              "n": "Ein großes Haus"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g2_02",
-                      "isLetter": false,
-                      "letter": "ك",
-                      "word": "كتاب",
-                      "emoji": "📖",
-                      "phonetic": "/kitaab/",
-                      "translation": "Buch",
-                      "translations": {
-                          "ar": "كتاب",
-                          "de": "Buch",
-                          "en": "book"
-                      },
-                      "examples": [
-                          {
-                              "t": "هذا <b>كتاب</b> (haadha kitaab) = Das ist ein Buch.",
-                              "n": "Das ist ein Buch."
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "id": "ar_a0_g3",
-              "name": "Letras — grupo B",
-              "icon": "🔡",
-              "color": "#10b981",
-              "description": "س ش ص ض ط ظ ع غ ف ق ك ل",
-              "reviewFrom": [
-                  "ar_a0_g1",
-                  "ar_a0_g2"
-              ],
-              "cards": [
-                  {
-                      "id": "ar_a0_g3_L_sin",
-                      "isLetter": true,
-                      "letter": "س",
-                      "word": "س",
+                      "letter": "ç",
+                      "word": "ç",
                       "emoji": "🔤",
                       "phonetic": "/s/",
-                      "translation": "Sin — wie ein <b>s</b> im Deutschen. <i>Zischlaut</i>",
-                      "mnemonic": "Stell dir eine Schlange vor, die zischt — die Form von س sieht aus wie eine kleine Zunge mit drei Zähnen.",
+                      "translation": "Nombre: <b>c</b> con cedilla. Suena siempre como <b>s</b> ( /s/ ) antes de a, o, u.",
+                      "mnemonic": "La cedilla es como una cola que convierte la 'c' en 's'.",
                       "examples": [
                           {
-                              "t": "<b>س</b>لام (salam) — Frieden",
-                              "n": "Das Wort beginnt mit Sin."
+                              "t": "<b>ç</b> en <b>français</b> (francés) suena como <b>s</b>.",
+                              "n": "Se pronuncia /fʁɑ̃sɛ/."
                           },
                           {
-                              "t": "رأ<b>س</b> (raas) — Kopf",
-                              "n": "Am Ende des Wortes."
+                              "t": "En <b>garçon</b> (chico) la <b>ç</b> suena /s/.",
+                              "n": "Sin cedilla, 'garcon' se leería /gaʁkɔ̃/."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g3_L_shin",
-                      "isLetter": true,
-                      "letter": "ش",
-                      "word": "ش",
-                      "emoji": "🔤",
-                      "phonetic": "/ʃ/",
-                      "translation": "Schin — wie <b>sch</b> im Deutschen. <i>Zischlaut</i>",
-                      "mnemonic": "Schin hat drei Punkte darüber — wie drei kleine Schlangen, die zischen.",
-                      "examples": [
-                          {
-                              "t": "<b>ش</b>مس (shams) — Sonne",
-                              "n": "Die Sonne scheint."
-                          },
-                          {
-                              "t": "<b>ش</b>كراً (shukran) — Danke",
-                              "n": "Höflichkeitsformel."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_L_sad",
-                      "isLetter": true,
-                      "letter": "ص",
-                      "word": "ص",
-                      "emoji": "🔤",
-                      "phonetic": "/sˤ/",
-                      "translation": "Sad — emphatisches <b>s</b> (Zunge zurück). <i>Dunkler Klang</i>",
-                      "mnemonic": "Sad sieht aus wie ein Kreis mit einem Schwanz — denk an eine Schale, die du zurückziehst.",
-                      "examples": [
-                          {
-                              "t": "<b>ص</b>باح (sabah) — Morgen",
-                              "n": "Guten Morgen."
-                          },
-                          {
-                              "t": "<b>ص</b>ديق (sadeeq) — Freund",
-                              "n": "Ein Freund."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_L_dad",
-                      "isLetter": true,
-                      "letter": "ض",
-                      "word": "ض",
-                      "emoji": "🔤",
-                      "phonetic": "/dˤ/",
-                      "translation": "Dad — emphatisches <b>d</b>. <i>Dunkler Klang</i>",
-                      "mnemonic": "Dad hat einen Punkt oben — wie ein Punkt auf einem Dach.",
-                      "examples": [
-                          {
-                              "t": "رم<b>ض</b>ان (Ramadan) — Fastenmonat",
-                              "n": "Der heilige Monat."
-                          },
-                          {
-                              "t": "بي<b>ض</b> (bayd) — Eier",
-                              "n": "Zum Frühstück."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_L_ta",
-                      "isLetter": true,
-                      "letter": "ط",
-                      "word": "ط",
-                      "emoji": "🔤",
-                      "phonetic": "/tˤ/",
-                      "translation": "Ta — emphatisches <b>t</b>. <i>Dunkler Klang</i>",
-                      "mnemonic": "Ta sieht aus wie ein Topf mit einem Deckel — der Deckel ist die Linie oben.",
-                      "examples": [
-                          {
-                              "t": "<b>ط</b>الب (talib) — Student",
-                              "n": "Jemand, der lernt."
-                          },
-                          {
-                              "t": "<b>ط</b>ريق (tareeq) — Straße",
-                              "n": "Der Weg."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_L_dha",
-                      "isLetter": true,
-                      "letter": "ظ",
-                      "word": "ظ",
-                      "emoji": "🔤",
-                      "phonetic": "/ðˤ/",
-                      "translation": "Dha — emphatisches <b>dh</b> (wie im Englischen 'this'). <i>Dunkler Klang</i>",
-                      "mnemonic": "Dha hat einen Punkt oben und einen Bauch — wie ein dicker Punkt.",
-                      "examples": [
-                          {
-                              "t": "<b>ظ</b>هر (duhr) — Mittag",
-                              "n": "Mittagsgebet."
-                          },
-                          {
-                              "t": "ح<b>ظ</b> (hadh) — Glück",
-                              "n": "Viel Glück!"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_L_ayn",
-                      "isLetter": true,
-                      "letter": "ع",
-                      "word": "ع",
-                      "emoji": "🔤",
-                      "phonetic": "/ʕ/",
-                      "translation": "Ayn — stimmhafter Rachenlaut. <i>Einzigartig im Arabischen</i>",
-                      "mnemonic": "Ayn sieht aus wie ein Auge — und du sprichst es aus, als ob du ein Auge zukneifst.",
-                      "examples": [
-                          {
-                              "t": "<b>ع</b>ربي (arabi) — Araber/Arabisch",
-                              "n": "Die Sprache."
-                          },
-                          {
-                              "t": "<b>ع</b>لي (Ali) — männlicher Name",
-                              "n": "Ein häufiger Name."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_L_ghayn",
-                      "isLetter": true,
-                      "letter": "غ",
-                      "word": "غ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɣ/",
-                      "translation": "Ghain — wie ein <b>französisches R</b> oder Gurgeln. <i>Rachenlaut</i>",
-                      "mnemonic": "Ghain hat einen Punkt oben — denk an einen Punkt auf einem Berg, und du gurgelst.",
-                      "examples": [
-                          {
-                              "t": "<b>غ</b>داء (ghadaa) — Mittagessen",
-                              "n": "Das Essen am Mittag."
-                          },
-                          {
-                              "t": "ب<b>غ</b>داد (Baghdad) — Hauptstadt des Irak",
-                              "n": "Eine Stadt."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_L_fa",
-                      "isLetter": true,
-                      "letter": "ف",
-                      "word": "ف",
-                      "emoji": "🔤",
-                      "phonetic": "/f/",
-                      "translation": "Fa — wie ein <b>f</b> im Deutschen. <i>Lippenlaut</i>",
-                      "mnemonic": "Fa hat einen Punkt oben und einen Bogen unten — wie eine Feder.",
-                      "examples": [
-                          {
-                              "t": "<b>ف</b>تح (fatah) — öffnen",
-                              "n": "Die Tür öffnen."
-                          },
-                          {
-                              "t": "كي<b>ف</b> (kayfa) — wie",
-                              "n": "Wie geht's?"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_L_qaf",
-                      "isLetter": true,
-                      "letter": "ق",
-                      "word": "ق",
-                      "emoji": "🔤",
-                      "phonetic": "/q/",
-                      "translation": "Qaf — tiefes <b>k</b> (hinten im Rachen). <i>Uvularer Verschlusslaut</i>",
-                      "mnemonic": "Qaf hat zwei Punkte oben und einen Ring — wie ein Q mit Punkten.",
-                      "examples": [
-                          {
-                              "t": "<b>ق</b>لب (qalb) — Herz",
-                              "n": "Das Herz."
-                          },
-                          {
-                              "t": "<b>ق</b>رآن (Quran) — heiliges Buch",
-                              "n": "Der Koran."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_L_kaf",
-                      "isLetter": true,
-                      "letter": "ك",
-                      "word": "ك",
-                      "emoji": "🔤",
-                      "phonetic": "/k/",
-                      "translation": "Kaf — wie ein <b>k</b> im Deutschen. <i>Vorderer Laut</i>",
-                      "mnemonic": "Kaf sieht aus wie ein K mit einem Schwanz nach unten.",
-                      "examples": [
-                          {
-                              "t": "<b>ك</b>تاب (kitaab) — Buch",
-                              "n": "Ein Buch."
-                          },
-                          {
-                              "t": "كي<b>ف</b> (kayfa) — wie",
-                              "n": "Wie geht's?"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_L_lam",
-                      "isLetter": true,
-                      "letter": "ل",
-                      "word": "ل",
-                      "emoji": "🔤",
-                      "phonetic": "/l/",
-                      "translation": "Lam — wie ein <b>l</b> im Deutschen. <i>Zungenlaut</i>",
-                      "mnemonic": "Lam sieht aus wie ein L mit einem Haken.",
-                      "examples": [
-                          {
-                              "t": "<b>ل</b>ا (la) — nein",
-                              "n": "Verneinung."
-                          },
-                          {
-                              "t": "ا<b>لل</b>ه (Allah) — Gott",
-                              "n": "Der Name Gottes."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "ar_a0_g3_v01",
+                      "id": "fr_a0_g1_01",
                       "isLetter": false,
-                      "letter": "س",
-                      "word": "سلام",
-                      "emoji": "🕊️",
-                      "phonetic": "/salaam/",
-                      "translation": "Frieden",
+                      "letter": "é",
+                      "word": "café",
+                      "emoji": "☕",
+                      "phonetic": "/ka.fe/",
+                      "translation": "café (bebida) — <b>café</b>",
                       "translations": {
-                          "ar": "سلام",
-                          "de": "Frieden",
-                          "en": "peace"
+                          "fr": "café",
+                          "es": "café",
+                          "en": "coffee"
                       },
                       "examples": [
                           {
-                              "t": "<b>سلام</b> عليكم (salam alaykum) — Friede sei mit dir",
-                              "n": "Begrüßung."
+                              "t": "Je bois un <b>café</b>.",
+                              "n": "Tomo un café."
                           },
                           {
-                              "t": "أنا أريد <b>السلام</b> (ana ureed as-salam) — Ich will Frieden.",
-                              "n": "Wunsch."
+                              "t": "Le café est chaud.",
+                              "n": "El café está caliente."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g3_v02",
+                      "id": "fr_a0_g1_02",
                       "isLetter": false,
-                      "letter": "ش",
-                      "word": "شمس",
-                      "emoji": "☀️",
-                      "phonetic": "/shams/",
-                      "translation": "Sonne",
+                      "letter": "è",
+                      "word": "père",
+                      "emoji": "👨",
+                      "phonetic": "/pɛʁ/",
+                      "translation": "padre — <b>père</b>",
                       "translations": {
-                          "ar": "شمس",
-                          "de": "Sonne",
-                          "en": "sun"
+                          "fr": "père",
+                          "es": "padre",
+                          "en": "father"
                       },
                       "examples": [
                           {
-                              "t": "الش<b>مس</b> مشرقة (ash-shams mushriqa) — Die Sonne scheint.",
-                              "n": "Wetter."
+                              "t": "Mon <b>père</b> est grand.",
+                              "n": "Mi padre es alto."
                           },
                           {
-                              "t": "أحب <b>الشمس</b> (uhibb ash-shams) — Ich liebe die Sonne.",
-                              "n": "Vorliebe."
+                              "t": "Le <b>père</b> de Marie est ici.",
+                              "n": "El padre de María está aquí."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g3_v03",
+                      "id": "fr_a0_g1_03",
                       "isLetter": false,
-                      "letter": "ق",
-                      "word": "قلب",
-                      "emoji": "❤️",
-                      "phonetic": "/qalb/",
-                      "translation": "Herz",
+                      "letter": "ê",
+                      "word": "fête",
+                      "emoji": "🎉",
+                      "phonetic": "/fɛt/",
+                      "translation": "fiesta, celebración — <b>fête</b>",
                       "translations": {
-                          "ar": "قلب",
-                          "de": "Herz",
-                          "en": "heart"
+                          "fr": "fête",
+                          "es": "fiesta",
+                          "en": "party"
                       },
                       "examples": [
                           {
-                              "t": "قلبي <b>قلب</b> (qalbi qalb) — Mein Herz ist ein Herz.",
-                              "n": "Wortwörtlich."
+                              "t": "C'est la <b>fête</b> aujourd'hui.",
+                              "n": "Hoy es la fiesta."
                           },
                           {
-                              "t": "هذا <b>القلب</b> (hadha al-qalb) — Dieses Herz.",
-                              "n": "Zeigen."
+                              "t": "J'aime les <b>fêtes</b>.",
+                              "n": "Me gustan las fiestas."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g1_04",
+                      "isLetter": false,
+                      "letter": "ë",
+                      "word": "Noël",
+                      "emoji": "🎄",
+                      "phonetic": "/nɔ.ɛl/",
+                      "translation": "Navidad — <b>Noël</b>",
+                      "translations": {
+                          "fr": "Noël",
+                          "es": "Navidad",
+                          "en": "Christmas"
+                      },
+                      "examples": [
+                          {
+                              "t": "Joyeux <b>Noël</b> !",
+                              "n": "¡Feliz Navidad!"
+                          },
+                          {
+                              "t": "Noël est en décembre.",
+                              "n": "La Navidad es en diciembre."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g1_05",
+                      "isLetter": false,
+                      "letter": "â",
+                      "word": "château",
+                      "emoji": "🏰",
+                      "phonetic": "/ʃɑ.to/",
+                      "translation": "castillo — <b>château</b>",
+                      "translations": {
+                          "fr": "château",
+                          "es": "castillo",
+                          "en": "castle"
+                      },
+                      "examples": [
+                          {
+                              "t": "Le <b>château</b> est vieux.",
+                              "n": "El castillo es antiguo."
+                          },
+                          {
+                              "t": "Visitez le <b>château</b>.",
+                              "n": "Visita el castillo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g1_06",
+                      "isLetter": false,
+                      "letter": "î",
+                      "word": "île",
+                      "emoji": "🏝️",
+                      "phonetic": "/il/",
+                      "translation": "isla — <b>île</b>",
+                      "translations": {
+                          "fr": "île",
+                          "es": "isla",
+                          "en": "island"
+                      },
+                      "examples": [
+                          {
+                              "t": "La Corse est une <b>île</b>.",
+                              "n": "Córcega es una isla."
+                          },
+                          {
+                              "t": "L'<b>île</b> est petite.",
+                              "n": "La isla es pequeña."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g1_07",
+                      "isLetter": false,
+                      "letter": "ô",
+                      "word": "hôtel",
+                      "emoji": "🏨",
+                      "phonetic": "/ɔ.tɛl/",
+                      "translation": "hotel — <b>hôtel</b>",
+                      "translations": {
+                          "fr": "hôtel",
+                          "es": "hotel",
+                          "en": "hotel"
+                      },
+                      "examples": [
+                          {
+                              "t": "Je suis à l'<b>hôtel</b>.",
+                              "n": "Estoy en el hotel."
+                          },
+                          {
+                              "t": "L'<b>hôtel</b> est confortable.",
+                              "n": "El hotel es cómodo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g1_08",
+                      "isLetter": false,
+                      "letter": "û",
+                      "word": "sûr",
+                      "emoji": "✔️",
+                      "phonetic": "/syʁ/",
+                      "translation": "seguro, ciertamente — <b>sûr</b>",
+                      "translations": {
+                          "fr": "sûr",
+                          "es": "seguro",
+                          "en": "sure"
+                      },
+                      "examples": [
+                          {
+                              "t": "Je suis <b>sûr</b> de moi.",
+                              "n": "Estoy seguro de mí mismo."
+                          },
+                          {
+                              "t": "C'est <b>sûr</b> ?",
+                              "n": "¿Es seguro?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g1_09",
+                      "isLetter": false,
+                      "letter": "ç",
+                      "word": "garçon",
+                      "emoji": "👦",
+                      "phonetic": "/ɡaʁ.sɔ̃/",
+                      "translation": "chico, muchacho — <b>garçon</b>",
+                      "translations": {
+                          "fr": "garçon",
+                          "es": "chico, muchacho",
+                          "en": "boy"
+                      },
+                      "examples": [
+                          {
+                              "t": "Le <b>garçon</b> joue au foot.",
+                              "n": "El chico juega al fútbol."
+                          },
+                          {
+                              "t": "C'est un bon <b>garçon</b>.",
+                              "n": "Es un buen chico."
                           }
                       ]
                   }
               ]
           },
           {
-              "id": "ar_a0_g4",
-              "name": "Letras — grupo C + palabras",
-              "icon": "🔣",
-              "color": "#ef4444",
-              "description": "م ن ه و ي + primeras palabras completas",
+              "id": "fr_a0_g2",
+              "name": "Vocales nasales",
+              "icon": "👃",
+              "color": "#f59e0b",
+              "description": "an/en · in/ain · on · un — sonidos que no existen en español",
               "reviewFrom": [
-                  "ar_a0_g1",
-                  "ar_a0_g2",
-                  "ar_a0_g3"
+                  "fr_a0_g1"
               ],
               "cards": [
                   {
-                      "id": "ar_a0_g4_L_mim",
+                      "id": "fr_a0_g2_L_an_en",
                       "isLetter": true,
-                      "letter": "م",
-                      "word": "م",
+                      "letter": "AN/EN",
+                      "word": "AN/EN",
                       "emoji": "🔤",
-                      "phonetic": "/m/",
-                      "translation": "Mim — klingt wie das deutsche <b>M</b> in <i>Mama</i>",
-                      "mnemonic": "Ein Kreis mit einem Schwanz nach unten – wie ein Mund, der sich zum ‚Mmm‘ schließt.",
+                      "phonetic": "/ɑ̃/",
+                      "translation": "Sonido nasal <b>an</b> — como una <i>'a'</i> que se escucha por la nariz.<br>No existe en español.",
+                      "mnemonic": "Imagina que te resfrías y dices 'A' con la nariz tapada: suena grave y resonante.",
                       "examples": [
                           {
-                              "t": "<b>م</b> wie <b>مرحبا</b> (marhaba) – Hallo",
-                              "n": "Das erste Zeichen in ‚Hallo‘"
+                              "t": "<b>En</b>fant — el niño dice 'a' por la nariz.",
+                              "n": "Enfant = niño"
                           },
                           {
-                              "t": "<b>م</b> wie <b>أم</b> (umm) – Mutter",
-                              "n": "Kurzes Wort mit M am Ende"
+                              "t": "Contraste: <b>an</b>e (burra, con 'a' normal) vs <b>an</b> (año, nasal).",
+                              "n": "Ane ≠ nasal; la n se pronuncia solo si hay vocal después."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_L_nun",
+                      "id": "fr_a0_g2_L_in_ain_ein",
                       "isLetter": true,
-                      "letter": "ن",
-                      "word": "ن",
+                      "letter": "IN/AIN/EIN",
+                      "word": "IN/AIN/EIN",
                       "emoji": "🔤",
-                      "phonetic": "/n/",
-                      "translation": "Nun — klingt wie das deutsche <b>N</b> in <i>Nase</i>",
-                      "mnemonic": "Eine Schale mit einem Punkt darüber – wie eine Nase mit einem Punkt als Nasenspitze.",
+                      "phonetic": "/ɛ̃/",
+                      "translation": "Sonido nasal <b>in</b> — como una <i>'e'</i> nasalizada, entre 'a' y 'e'.<br>No existe en español.",
+                      "mnemonic": "Piensa en el sonido de un mosquito: 'ñiiii' pero con la boca más abierta, como 'ain'.",
                       "examples": [
                           {
-                              "t": "<b>ن</b> wie <b>نعم</b> (naam) – Ja",
-                              "n": "Das erste Zeichen in ‚Ja‘"
+                              "t": "<b>Pain</b> — el pan se dice con 'ain' nasal.",
+                              "n": "Pain = pan"
                           },
                           {
-                              "t": "<b>ن</b> wie <b>نور</b> (nour) – Licht",
-                              "n": "Licht beginnt mit N"
+                              "t": "Contraste: <b>in</b>de (India) vs <b>in</b> (fino, nasal).",
+                              "n": "La n se pronuncia si hay vocal después."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_L_ha",
+                      "id": "fr_a0_g2_L_on",
                       "isLetter": true,
-                      "letter": "ه",
-                      "word": "ه",
+                      "letter": "ON",
+                      "word": "ON",
                       "emoji": "🔤",
-                      "phonetic": "/h/",
-                      "translation": "Ha — ein leichtes <b>H</b>, wie in <i>Haus</i>, aber weicher",
-                      "mnemonic": "Zwei kleine Kreise übereinander – wie ein offener Mund, der ‚ha‘ haucht.",
+                      "phonetic": "/ɔ̃/",
+                      "translation": "Sonido nasal <b>on</b> — como una <i>'o'</i> que sale por la nariz, redondeando los labios.<br>No existe en español.",
+                      "mnemonic": "Di 'o' y luego cierra un poco la boca como si dijeras 'om' pero sin cerrar los labios del todo.",
                       "examples": [
                           {
-                              "t": "<b>ه</b> wie <b>هو</b> (huwa) – er",
-                              "n": "Das erste Zeichen in ‚er‘"
+                              "t": "<b>Bon</b> — bueno, se dice con 'on' nasal.",
+                              "n": "Bon = bueno"
                           },
                           {
-                              "t": "<b>ه</b> wie <b>هنا</b> (huna) – hier",
-                              "n": "Hier beginnt mit H"
+                              "t": "Contraste: <b>on</b>ze (once, con 'o' normal) vs <b>on</b> (se, nasal).",
+                              "n": "La n se pronuncia si hay vocal después."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_L_waw",
+                      "id": "fr_a0_g2_L_un_um",
                       "isLetter": true,
-                      "letter": "و",
-                      "word": "و",
+                      "letter": "UN/UM",
+                      "word": "UN/UM",
                       "emoji": "🔤",
-                      "phonetic": "/w/ oder /uː/",
-                      "translation": "Waw — klingt wie <b>W</b> in <i>Wasser</i> oder langes <b>U</b> in <i>gut</i>",
-                      "mnemonic": "Ein Haken nach rechts – wie ein kleines ‚w‘, das sich umdreht.",
+                      "phonetic": "/œ̃/",
+                      "translation": "Sonido nasal <b>un</b> — como una <i>'e'</i> redondeada y nasal, entre 'e' y 'o'.<br>No existe en español.",
+                      "mnemonic": "Imagina que hueles algo y dices 'œ' con la nariz: 'un' como en 'uno' pero nasal.",
                       "examples": [
                           {
-                              "t": "<b>و</b> wie <b>وقت</b> (waqt) – Zeit",
-                              "n": "Das erste Zeichen in ‚Zeit‘"
+                              "t": "<b>Un</b> — el artículo 'un/uno' es completamente nasal.",
+                              "n": "Un = un/uno"
                           },
                           {
-                              "t": "<b>و</b> in <b>يوم</b> (yawm) – Tag",
-                              "n": "Hier klingt es wie ein langes U"
+                              "t": "Contraste: <b>un</b>e (una, con 'u' normal) vs <b>un</b> (nasal).",
+                              "n": "La n se pronuncia si hay vocal después."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_L_ya",
+                      "id": "fr_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "AN/EN",
+                      "word": "enfant",
+                      "emoji": "👶",
+                      "phonetic": "/ɑ̃.fɑ̃/",
+                      "translation": "<b>en</b>fant — niño/niña",
+                      "translations": {
+                          "fr": "enfant",
+                          "es": "niño/niña",
+                          "en": "child"
+                      },
+                      "examples": [
+                          {
+                              "t": "L'<b>enfant</b> joue dans le parc.",
+                              "n": "El niño juega en el parque."
+                          },
+                          {
+                              "t": "C'est un <b>enfant</b> sage.",
+                              "n": "Es un niño bueno."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "AN/EN",
+                      "word": "temps",
+                      "emoji": "⏰",
+                      "phonetic": "/tɑ̃/",
+                      "translation": "<b>temps</b> — tiempo (clima o tiempo)",
+                      "translations": {
+                          "fr": "temps",
+                          "es": "tiempo",
+                          "en": "time/weather"
+                      },
+                      "examples": [
+                          {
+                              "t": "Quel <b>temps</b> fait-il ?",
+                              "n": "¿Qué tiempo hace?"
+                          },
+                          {
+                              "t": "Je n'ai pas le <b>temps</b>.",
+                              "n": "No tengo tiempo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "IN/AIN/EIN",
+                      "word": "vin",
+                      "emoji": "🍷",
+                      "phonetic": "/vɛ̃/",
+                      "translation": "<b>vin</b> — vino",
+                      "translations": {
+                          "fr": "vin",
+                          "es": "vino",
+                          "en": "wine"
+                      },
+                      "examples": [
+                          {
+                              "t": "J'aime le <b>vin</b> rouge.",
+                              "n": "Me gusta el vino tinto."
+                          },
+                          {
+                              "t": "Un verre de <b>vin</b>, s'il vous plaît.",
+                              "n": "Una copa de vino, por favor."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "IN/AIN/EIN",
+                      "word": "pain",
+                      "emoji": "🍞",
+                      "phonetic": "/pɛ̃/",
+                      "translation": "<b>pain</b> — pan",
+                      "translations": {
+                          "fr": "pain",
+                          "es": "pan",
+                          "en": "bread"
+                      },
+                      "examples": [
+                          {
+                              "t": "Je mange du <b>pain</b> au petit-déjeuner.",
+                              "n": "Como pan en el desayuno."
+                          },
+                          {
+                              "t": "La boulangerie vend du bon <b>pain</b>.",
+                              "n": "La panadería vende buen pan."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "ON",
+                      "word": "bon",
+                      "emoji": "👍",
+                      "phonetic": "/bɔ̃/",
+                      "translation": "<b>bon</b> — bueno",
+                      "translations": {
+                          "fr": "bon",
+                          "es": "bueno",
+                          "en": "good"
+                      },
+                      "examples": [
+                          {
+                              "t": "C'est un <b>bon</b> restaurant.",
+                              "n": "Es un buen restaurante."
+                          },
+                          {
+                              "t": "Très <b>bon</b> !",
+                              "n": "¡Muy bueno!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "ON",
+                      "word": "monde",
+                      "emoji": "🌍",
+                      "phonetic": "/mɔ̃d/",
+                      "translation": "<b>mon</b>de — mundo",
+                      "translations": {
+                          "fr": "monde",
+                          "es": "mundo",
+                          "en": "world"
+                      },
+                      "examples": [
+                          {
+                              "t": "Le <b>monde</b> est grand.",
+                              "n": "El mundo es grande."
+                          },
+                          {
+                              "t": "Il y a du <b>monde</b> ici.",
+                              "n": "Hay mucha gente aquí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g2_07",
+                      "isLetter": false,
+                      "letter": "UN/UM",
+                      "word": "un",
+                      "emoji": "1️⃣",
+                      "phonetic": "/œ̃/",
+                      "translation": "<b>un</b> — un/uno (artículo y número)",
+                      "translations": {
+                          "fr": "un",
+                          "es": "un/uno",
+                          "en": "a/one"
+                      },
+                      "examples": [
+                          {
+                              "t": "J'ai <b>un</b> chat.",
+                              "n": "Tengo un gato."
+                          },
+                          {
+                              "t": "<b>Un</b>, deux, trois.",
+                              "n": "Uno, dos, tres."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g2_08",
+                      "isLetter": false,
+                      "letter": "UN/UM",
+                      "word": "lundi",
+                      "emoji": "📅",
+                      "phonetic": "/lœ̃.di/",
+                      "translation": "<b>lun</b>di — lunes",
+                      "translations": {
+                          "fr": "lundi",
+                          "es": "lunes",
+                          "en": "Monday"
+                      },
+                      "examples": [
+                          {
+                              "t": "On se voit <b>lundi</b>.",
+                              "n": "Nos vemos el lunes."
+                          },
+                          {
+                              "t": "<b>Lundi</b>, je travaille.",
+                              "n": "El lunes trabajo."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "fr_a0_g3",
+              "name": "Letras mudas y liaison",
+              "icon": "🤫",
+              "color": "#10b981",
+              "description": "Las letras que no se pronuncian — y cuándo sí",
+              "reviewFrom": [
+                  "fr_a0_g1",
+                  "fr_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "fr_a0_g3_L_h_muet",
                       "isLetter": true,
-                      "letter": "ي",
-                      "word": "ي",
-                      "emoji": "🔤",
-                      "phonetic": "/j/ oder /iː/",
-                      "translation": "Ya — klingt wie <b>J</b> in <i>Jahr</i> oder langes <b>I</b> in <i>Liebe</i>",
-                      "mnemonic": "Zwei Punkte unter einer Linie – wie ein Gesicht mit zwei Augen, das ‚juhu‘ ruft.",
+                      "letter": "h",
+                      "word": "h",
+                      "emoji": "😶",
+                      "phonetic": "/mɥɛ/",
+                      "translation": "Hache <b>muda</b> — no se pronuncia, pero <i>permite la liaison</i>",
+                      "mnemonic": "Imagina la h como un fantasma que no hace ruido pero 'sopla' las vocales para que se unan.",
                       "examples": [
                           {
-                              "t": "<b>ي</b> wie <b>يوم</b> (yawm) – Tag",
-                              "n": "Das erste Zeichen in ‚Tag‘"
+                              "t": "<b>l'heure</b> — la hora<br>la liaison: les <b>heure</b>s → /lez‿œʁ/",
+                              "n": "La h es invisible, las vocales se juntan."
                           },
                           {
-                              "t": "<b>ي</b> in <b>في</b> (fi) – in",
-                              "n": "Hier klingt es wie ein langes I"
+                              "t": "<b>l'homme</b> — el hombre<br>les <b>homme</b>s → /lez‿ɔm/",
+                              "n": "Contracción con l' y liaison con les."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_01",
-                      "isLetter": false,
-                      "letter": "م",
-                      "word": "مرحبا",
-                      "emoji": "👋",
-                      "phonetic": "/marhaba/",
-                      "translation": "Hallo",
-                      "translations": {
-                          "ar": "مرحبا",
-                          "de": "Hallo",
-                          "en": "Hello"
-                      },
+                      "id": "fr_a0_g3_L_h_aspire",
+                      "isLetter": true,
+                      "letter": "h",
+                      "word": "h",
+                      "emoji": "🚧",
+                      "phonetic": "/aspire/",
+                      "translation": "Hache <b>aspirada</b> — no se pronuncia, pero <span class='hl'>impide la liaison</span> y la contracción",
+                      "mnemonic": "Como un 'stop' en la carretera: la h aspirada pone una barrera invisible entre palabras.",
                       "examples": [
                           {
-                              "t": "<b>مرحبا</b> كيف حالك؟",
-                              "n": "Hallo, wie geht es dir?"
+                              "t": "le <b>haricot</b> — el frijol<br>NO se dice 'l'haricot'",
+                              "n": "La h aspirada bloquea la contracción."
                           },
                           {
-                              "t": "<b>مرحبا</b> بك",
-                              "n": "Willkommen (wörtlich: Hallo mit dir)"
+                              "t": "la <b>honte</b> — la vergüenza<br>NO se dice 'l'honte'",
+                              "n": "Se usa 'la' en lugar de 'l''."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_02",
-                      "isLetter": false,
-                      "letter": "ش",
-                      "word": "شكراً",
-                      "emoji": "🙏",
-                      "phonetic": "/ʃukran/",
-                      "translation": "Danke",
-                      "translations": {
-                          "ar": "شكراً",
-                          "de": "Danke",
-                          "en": "Thanks"
-                      },
+                      "id": "fr_a0_g3_L_consonante_final",
+                      "isLetter": true,
+                      "letter": "consonante final",
+                      "word": "consonante final",
+                      "emoji": "🔇",
+                      "phonetic": "/kɔ̃sɔ̃nɑ̃t final/",
+                      "translation": "Consonantes finales <b>mudas</b> — normalmente no se pronuncian",
+                      "mnemonic": "Como en español 'hablar' la 'r' no se pronuncia en infinitivo, pero en francés muchas consonantes finales son invisibles.",
                       "examples": [
                           {
-                              "t": "<b>شكراً</b> جزيلاً",
-                              "n": "Vielen Dank"
+                              "t": "<b>grand</b> → /ɡʁɑ̃/ (la d no se pronuncia)",
+                              "n": "La 'd' final es muda."
                           },
                           {
-                              "t": "قل <b>شكراً</b>",
-                              "n": "Sag Danke"
+                              "t": "<b>parlez</b> → /paʁle/ (la z no se pronuncia)",
+                              "n": "La 'z' final es muda."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_03",
-                      "isLetter": false,
-                      "letter": "ن",
-                      "word": "نعم",
-                      "emoji": "✅",
-                      "phonetic": "/naam/",
-                      "translation": "Ja",
-                      "translations": {
-                          "ar": "نعم",
-                          "de": "Ja",
-                          "en": "Yes"
-                      },
+                      "id": "fr_a0_g3_L_liaison",
+                      "isLetter": true,
+                      "letter": "liaison",
+                      "word": "liaison",
+                      "emoji": "🔗",
+                      "phonetic": "/ljɛzɔ̃/",
+                      "translation": "Liaison — la consonante final <b>sí se pronuncia</b> ante vocal",
+                      "mnemonic": "Es como un 'puente' que une dos palabras: la consonante dormida se despierta para conectar.",
                       "examples": [
                           {
-                              "t": "<b>نعم</b>، أنا جاهز",
-                              "n": "Ja, ich bin bereit"
+                              "t": "les <b>amis</b> → /lez‿ami/ (la s suena como z)",
+                              "n": "La 's' se pronuncia como 'z'."
                           },
                           {
-                              "t": "أجبت <b>نعم</b>",
-                              "n": "Du hast Ja geantwortet"
+                              "t": "vous <b>avez</b> → /vuz‿ave/ (la s suena como z)",
+                              "n": "La 's' se pronuncia como 'z'."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_04",
+                      "id": "fr_a0_g3_01",
                       "isLetter": false,
-                      "letter": "ل",
-                      "word": "لا",
-                      "emoji": "❌",
-                      "phonetic": "/laː/",
-                      "translation": "Nein",
+                      "letter": "h",
+                      "word": "heure",
+                      "emoji": "⏰",
+                      "phonetic": "/œʁ/",
+                      "translation": "hora",
                       "translations": {
-                          "ar": "لا",
-                          "de": "Nein",
-                          "en": "No"
+                          "fr": "heure",
+                          "es": "hora",
+                          "en": "hour/time"
                       },
                       "examples": [
                           {
-                              "t": "<b>لا</b>، شكراً",
-                              "n": "Nein, danke"
+                              "t": "Il est une <b>heure</b>.",
+                              "n": "Es la una."
                           },
                           {
-                              "t": "<b>لا</b> مشكلة",
-                              "n": "Kein Problem"
+                              "t": "À quelle <b>heure</b> ?",
+                              "n": "¿A qué hora?"
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_05",
+                      "id": "fr_a0_g3_02",
                       "isLetter": false,
-                      "letter": "م",
-                      "word": "من",
-                      "emoji": "❓",
-                      "phonetic": "/man/",
-                      "translation": "wer / von",
+                      "letter": "h",
+                      "word": "homme",
+                      "emoji": "👨",
+                      "phonetic": "/ɔm/",
+                      "translation": "hombre",
                       "translations": {
-                          "ar": "من",
-                          "de": "wer / von",
-                          "en": "who / from"
+                          "fr": "homme",
+                          "es": "hombre",
+                          "en": "man"
                       },
                       "examples": [
                           {
-                              "t": "<b>من</b> أنت؟",
-                              "n": "Wer bist du?"
+                              "t": "C'est un <b>homme</b>.",
+                              "n": "Es un hombre."
                           },
                           {
-                              "t": "أنا <b>من</b> ألمانيا",
-                              "n": "Ich bin aus Deutschland"
+                              "t": "Les <b>hommes</b> sont ici.",
+                              "n": "Los hombres están aquí."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_06",
+                      "id": "fr_a0_g3_03",
                       "isLetter": false,
-                      "letter": "م",
-                      "word": "ماذا",
-                      "emoji": "❓",
-                      "phonetic": "/maːða/",
-                      "translation": "was",
+                      "letter": "h",
+                      "word": "haricot",
+                      "emoji": "🫘",
+                      "phonetic": "/aʁiko/",
+                      "translation": "frijol",
                       "translations": {
-                          "ar": "ماذا",
-                          "de": "was",
-                          "en": "what"
+                          "fr": "haricot",
+                          "es": "frijol",
+                          "en": "bean"
                       },
                       "examples": [
                           {
-                              "t": "<b>ماذا</b> تريد؟",
-                              "n": "Was willst du?"
+                              "t": "Je mange des <b>haricots</b>.",
+                              "n": "Como frijoles."
                           },
                           {
-                              "t": "<b>ماذا</b> تفعل؟",
-                              "n": "Was machst du?"
+                              "t": "Le <b>haricot</b> est vert.",
+                              "n": "El frijol es verde."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_07",
+                      "id": "fr_a0_g3_04",
                       "isLetter": false,
-                      "letter": "أ",
-                      "word": "أين",
-                      "emoji": "📍",
-                      "phonetic": "/ajna/",
-                      "translation": "wo",
+                      "letter": "h",
+                      "word": "honte",
+                      "emoji": "😳",
+                      "phonetic": "/ɔ̃t/",
+                      "translation": "vergüenza",
                       "translations": {
-                          "ar": "أين",
-                          "de": "wo",
-                          "en": "where"
+                          "fr": "honte",
+                          "es": "vergüenza",
+                          "en": "shame"
                       },
                       "examples": [
                           {
-                              "t": "<b>أين</b> أنت؟",
-                              "n": "Wo bist du?"
+                              "t": "Quelle <b>honte</b> !",
+                              "n": "¡Qué vergüenza!"
                           },
                           {
-                              "t": "<b>أين</b> المطار؟",
-                              "n": "Wo ist der Flughafen?"
+                              "t": "Il a <b>honte</b>.",
+                              "n": "Él tiene vergüenza."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_08",
+                      "id": "fr_a0_g3_05",
                       "isLetter": false,
-                      "letter": "م",
-                      "word": "متى",
-                      "emoji": "🕐",
-                      "phonetic": "/mataː/",
-                      "translation": "wann",
+                      "letter": "d",
+                      "word": "grand",
+                      "emoji": "📏",
+                      "phonetic": "/ɡʁɑ̃/",
+                      "translation": "grande",
                       "translations": {
-                          "ar": "متى",
-                          "de": "wann",
-                          "en": "when"
+                          "fr": "grand",
+                          "es": "grande",
+                          "en": "big/tall"
                       },
                       "examples": [
                           {
-                              "t": "<b>متى</b> تصل؟",
-                              "n": "Wann kommst du an?"
+                              "t": "Un <b>grand</b> arbre.",
+                              "n": "Un árbol grande."
                           },
                           {
-                              "t": "<b>متى</b> نلتقي؟",
-                              "n": "Wann treffen wir uns?"
+                              "t": "Il est très <b>grand</b>.",
+                              "n": "Él es muy alto."
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_09",
+                      "id": "fr_a0_g3_06",
                       "isLetter": false,
-                      "letter": "ك",
-                      "word": "كيف",
-                      "emoji": "🤔",
-                      "phonetic": "/kajfa/",
-                      "translation": "wie",
+                      "letter": "s",
+                      "word": "parlez",
+                      "emoji": "🗣️",
+                      "phonetic": "/paʁle/",
+                      "translation": "hablan / hablad (vosotros)",
                       "translations": {
-                          "ar": "كيف",
-                          "de": "wie",
-                          "en": "how"
+                          "fr": "parlez",
+                          "es": "hablan / hablad",
+                          "en": "speak (you/they)"
                       },
                       "examples": [
                           {
-                              "t": "<b>كيف</b> حالك؟",
-                              "n": "Wie geht es dir?"
+                              "t": "Vous <b>parlez</b> français.",
+                              "n": "Ustedes hablan francés."
                           },
                           {
-                              "t": "<b>كيف</b> أصل إلى هناك؟",
-                              "n": "Wie komme ich dahin?"
+                              "t": "<b>Parlez</b> plus fort !",
+                              "n": "¡Hablen más fuerte!"
                           }
                       ]
                   },
                   {
-                      "id": "ar_a0_g4_10",
+                      "id": "fr_a0_g3_07",
                       "isLetter": false,
-                      "letter": "ل",
-                      "word": "لماذا",
-                      "emoji": "❓",
-                      "phonetic": "/limaːða/",
-                      "translation": "warum",
+                      "letter": "s",
+                      "word": "amis",
+                      "emoji": "👫",
+                      "phonetic": "/ami/",
+                      "translation": "amigos",
                       "translations": {
-                          "ar": "لماذا",
-                          "de": "warum",
-                          "en": "why"
+                          "fr": "amis",
+                          "es": "amigos",
+                          "en": "friends"
                       },
                       "examples": [
                           {
-                              "t": "<b>لماذا</b> تبكي؟",
-                              "n": "Warum weinst du?"
+                              "t": "Les <b>amis</b> sont là.",
+                              "n": "Los amigos están aquí."
                           },
                           {
-                              "t": "<b>لماذا</b> هنا؟",
-                              "n": "Warum hier?"
+                              "t": "Ce sont mes <b>amis</b>.",
+                              "n": "Son mis amigos."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "fr_a0_g3_08",
+                      "isLetter": false,
+                      "letter": "s",
+                      "word": "avez",
+                      "emoji": "🙋",
+                      "phonetic": "/ave/",
+                      "translation": "tenéis / tienen",
+                      "translations": {
+                          "fr": "avez",
+                          "es": "tenéis / tienen",
+                          "en": "have (you/they)"
+                      },
+                      "examples": [
+                          {
+                              "t": "Vous <b>avez</b> raison.",
+                              "n": "Ustedes tienen razón."
+                          },
+                          {
+                              "t": "Ils <b>ont</b> un chien. (sin liaison)",
+                              "n": "Ellos tienen un perro."
                           }
                       ]
                   }
