@@ -1,0 +1,1230 @@
+[
+  {
+    "id": "pt_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الجمل الشرطية المركّبة (Orações Condicionais Complexas)",
+    "bridge": "No português, as orações condicionais são geralmente construídas com 'se' + presente do subjuntivo ou pretérito imperfeito do subjuntivo, como em 'Se eu tivesse tempo, viajaria'. No árabe, a estrutura é diferente: a condição é introduzida por 'إذا' (idhā) ou 'لو' (law), e a apódose (a cláusula principal) frequentemente começa com 'فـ' (fa-) antes de verbos no pretérito ou no modo indicativo. Uma das principais armadilhas para falantes de português é que o árabe não usa o equivalente ao futuro do subjuntivo, e a concordância temporal é muito mais flexível, dependendo do contexto e da partícula condicional. Além disso, 'لو' é usada para condições irreais ou contrafactuals, enquanto 'إذا' para condições reais ou prováveis, o que nem sempre tem correspondência direta no português.",
+    "rule": "No árabe, as orações condicionais complexas são formadas com a partícula condicional (إذا / لو) seguida da prótase (condição) e da apódose (resultado). A partícula 'إذا' é usada para condições reais ou prováveis no futuro ou presente, e a prótase pode ser um verbo no passado (الماضي) ou no presente (المضارع), com o resultado frequentemente iniciado por 'فـ' (fa) antes de um verbo no presente ou no imperativo. Já 'لو' é usada para condições irreais ou contrafactuals, e a prótase e apódose geralmente usam o verbo no passado, mas com valores aspectuais diferentes (perfeito vs. imperfeito). Além disso, é comum usar 'إنْ' (in) para condições hipotéticas gerais. Em contextos formais ou literários, a partícula 'إذا' pode ser seguida por 'لمّا' (lammā) para indicar tempo, mas no nível C1 espera-se o uso de estruturas mais sofisticadas, como a inversão da ordem canônica para ênfase, a omissão do verbo 'ser' em certas construções, e o uso de 'لو لا' (law lā) para condições negativas. É importante notar que o árabe não tem o modo subjuntivo como no português; a distinção entre real e irreal é feita principalmente pela partícula e pela seleção do tempo verbal.",
+    "concept_examples": [
+      {
+        "text": "إذا درستَ بجدٍّ، ستنجح في الامتحان.",
+        "translation": "Se você estudar com afinco, passará no exame.",
+        "phonetic": "ʔiðā darasta bi-jiddin, sa-tanjaḥu fī l-imtiḥān."
+      },
+      {
+        "text": "لو كنتَ ذهبتَ معنا، لرأيتَ المناظر الخلابة.",
+        "translation": "Se você tivesse ido conosco, você teria visto as paisagens deslumbrantes.",
+        "phonetic": "law kunta ðahabta maʕanā, la-raʔayta l-manāẓira l-xallāba."
+      },
+      {
+        "text": "إن تدرسْ جيدًا، تتفوقْ في دراستك.",
+        "translation": "Se você estudar bem, você se destacará em seus estudos.",
+        "phonetic": "ʔin tadrus jayyidan, tatafawwaq fī dirāsatik."
+      },
+      {
+        "text": "لو لا الماء، لهلكت الكائنات الحية.",
+        "translation": "Se não fosse a água, os seres vivos pereceriam.",
+        "phonetic": "law lā l-māʔ, la-halakat al-kāʔināt al-ḥayya."
+      }
+    ],
+    "common_error": {
+      "wrong": "لو أكون غنيًا، سأسافر حول العالم.",
+      "correct": "لو كنت غنيًا، لسافرت حول العالم.",
+      "correct_alt": "إذا كنت غنيًا، سأسافر حول العالم.",
+      "explanation": "O erro ocorre porque falantes de português tendem a usar o presente do subjuntivo ('se eu for') de forma literal em árabe, mas com 'لو' (condição irreal), o árabe exige o uso do pretérito (كنت) na prótase e o pretérito com 'لـ' na apódose (لسافرت). O uso do presente 'أكون' é gramaticalmente incorreto nesse contexto. Para condições reais, use 'إذا' com o presente ou futuro, mas nunca 'لو' com o presente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الشرط الحقيقي مع إذا",
+        "translation": "Condição real com 'idhā'",
+        "examples": [
+          {
+            "original": "إذا أتيتَ إلى الحفلة، ستقابل أصدقاءك.",
+            "phonetic": "ʔiðā ʔatayta ʔilā l-ḥafla, sa-tuqābil ʔaṣdiqāʔak.",
+            "translation": "Se você vier à festa, encontrará seus amigos.",
+            "note": "Aqui, 'إذا' é usada para uma condição provável; o verbo na prótase está no passado, mas o sentido é futuro. A apódose é introduzida por 'سـ' (futuro)."
+          },
+          {
+            "original": "إذا نجحت في الاختبار، سأشتري لك هدية.",
+            "phonetic": "ʔiðā naǧaḥta fī l-ixtibār, sa-ʔaštarī laka hadiyya.",
+            "translation": "Se você passar no teste, comprarei um presente para você.",
+            "note": "Note que o passado 'نجحت' é usado na prótase para um evento futuro; isso é comum em árabe para indicar certeza."
+          },
+          {
+            "original": "إذا كانت السماء صافية، نذهب إلى الشاطئ.",
+            "phonetic": "ʔiðā kānat as-samāʔ ṣāfiya, naðhab ʔilā š-šāṭiʔ.",
+            "translation": "Se o céu estiver claro, vamos à praia.",
+            "note": "A prótase usa 'كانت' (pretérito de 'ser') e a apódose está no presente, indicando uma ação habitual ou futura."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الشرط غير الواقعي مع لو",
+        "translation": "Condição irreal com 'law'",
+        "examples": [
+          {
+            "original": "لو كان عندي مالٌ، لاشترت سيارة فاخرة.",
+            "phonetic": "law kāna ʕindī mālun, la-štaraytu sayyāratan fāxira.",
+            "translation": "Se eu tivesse dinheiro, compraria um carro de luxo.",
+            "note": "Aqui, 'لو' indica uma condição contrafactual no presente. A prótase usa 'كان' no pretérito, e a apódose usa 'لـ' + pretérito."
+          },
+          {
+            "original": "لو كنت تدري بالخطر، لما خاطرت بحياتك.",
+            "phonetic": "law kunta tadrī bi-l-xaṭar, la-mā xāṭarta bi-ḥayātik.",
+            "translation": "Se você soubesse do perigo, não teria arriscado sua vida.",
+            "note": "A partícula 'لو' é usada para uma condição passada hipotética; o verbo 'كنت' está no pretérito e 'تدري' no presente indicando um estado contínuo no passado."
+          },
+          {
+            "original": "لو لم تكن المطر غزيرًا، لخرجنا للتنزه.",
+            "phonetic": "law lam takun al-maṭar ġazīran, la-xaraǧnā li-tanazzuh.",
+            "translation": "Se não estivesse chovendo forte, teríamos saído para passear.",
+            "note": "O uso de 'لم' (negação) com o verbo no presente (takun) é típico para expressar negação em contextos condicionais irreais."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "الشرط العام مع إنْ والتعليق بالفاء",
+        "translation": "Condição geral com 'in' e a partícula 'fa'",
+        "examples": [
+          {
+            "original": "إنْ تدرسْ جيدًا، فستنجح في حياتك.",
+            "phonetic": "ʔin tadrus jayyidan, fa-sa-tanjaḥ fī ḥayātik.",
+            "translation": "Se você estudar bem, terá sucesso em sua vida.",
+            "note": "'إنْ' é usada para condições gerais e neutras; a apódose é introduzida por 'فـ' seguida de um verbo no futuro para dar ênfase."
+          },
+          {
+            "original": "إنْ تزرعْ خيرًا، تحصدْ خيرًا.",
+            "phonetic": "ʔin tazraʕ xayran, taḥṣud xayran.",
+            "translation": "Se você plantar o bem, colherá o bem.",
+            "note": "Aqui, a apódose é um verbo no presente sem 'فـ', o que é comum em provérbios e sentenças gnômicas."
+          },
+          {
+            "original": "إنْ كانت الوجهة بعيدة، فسنصل متأخرين.",
+            "phonetic": "ʔin kānat al-wiǧha baʕīda, fa-sa-naṣil mutaʔaxxirīn.",
+            "translation": "Se o destino for longe, chegaremos atrasados.",
+            "note": "A prótase usa 'كانت' com valor de futuro, e a apódose usa 'فـ' + futuro para indicar consequência lógica."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Orações Condicionais Complexas"
+    }
+  },
+  {
+    "id": "pt_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "التفاوت بين الفصحى والعامية في الأسلوب / Registro: formal, informal e neutro",
+    "bridge": "Em português, a distinção entre registro formal e informal é geralmente marcada por escolhas lexicais e pela conjugação verbal (tu vs. você, por exemplo). No árabe, essa diferença é muito mais profunda: envolve uma diglossia - o árabe padrão moderno (fuṣḥā) para contextos formais e escritos, e dialetos regionais (como o egípcio ou o levantino) para a fala cotidiana. Além disso, o árabe formal usa estruturas sintáticas e vocabulário que desaparecem na fala coloquial. Para o falante de português, é crucial perceber que não se trata de 'estilos' do mesmo idioma, mas de dois registros com gramáticas e léxicos parcialmente distintos, exigindo uma escolha consciente de acordo com a situação.",
+    "rule": "No árabe, o registro determina a variedade linguística usada. 1) O árabe padrão moderno (اللغة العربية الفصحى) é usado em textos escritos, notícias, discursos oficiais, e na maioria das produções acadêmicas. 2) Os dialetos árabes (العاميات) são usados na conversação cotidiana, em mídias sociais informais, novelas e músicas. As principais diferenças incluem: - Sintaxe: no árabe padrão, a frase nominal pode começar com um sujeito (sujeito + predicado) e o verbo frequentemente aparece no início da oração (VSO). Nos dialetos, a ordem é mais flexível e a estrutura SVO é comum. - Morfologia verbal: o árabe padrão marca o tempo e o modo através de sufixos e prefixos completos, com o modo subjuntivo e o jussivo (apenas apresentado aqui como referência). Nos dialetos, os prefixos e sufixos são simplificados; por exemplo, o marcador de futuro é 'sa-' no padrão, enquanto no egípcio é 'ḥa-' e no levantine 'raḥ-'. - Negação: no padrão, usa-se 'lā' com o verbo no jussivo (ex.: 'lam yaktub' - não escreveu), enquanto nos dialetos, usa-se a partícula 'mā' com o verbo no presente ou no passado, como 'mā katab' (não escreveu) no egípcio. - Vocabulário: muitos termos formais têm equivalentes coloquiais diferentes. Por exemplo, 'agora' é 'al-āna' no padrão, 'dilwa'ti' no egípcio e 'halla' no levantino. É essencial para o aprendiz avançado dominar a alternância de código e as normas de adequação situacional. O registro neutro, comum na mídia e na literatura, usa o árabe padrão com algumas simplificações, servindo como ponte.",
+    "concept_examples": [
+      {
+        "text": "يَجِبُ عَلَى الْطَّالِبِ أَنْ يَحْضُرَ الْمُحَاضَرَةَ.",
+        "translation": "O estudante deve assistir à palestra.",
+        "phonetic": "ˈjaʒibu ˈʕalā ṭ-ˈṭālibi ʔan ˈjaḥḍura l-muḥāḍarah"
+      },
+      {
+        "text": "الْإِنْسَانُ مَدَنِيٌّ بِالطَّبْعِ.",
+        "translation": "O ser humano é civilizado por natureza.",
+        "phonetic": "al-ʔinsānu madaniyyun bi-ṭ-ṭabʕi"
+      },
+      {
+        "text": "شُفْتُهُ إِمْبَارِحْ فِي الْقَهْوَةِ.",
+        "translation": "Eu o vi ontem no café.",
+        "phonetic": "ʃuftuhu ʔimbāriḥ fi l-ʔahwah"
+      },
+      {
+        "text": "الْحُكُومَةُ تُعْلِنُ عَنْ إِصْلاحَاتٍ جَدِيدَةٍ.",
+        "translation": "O governo anuncia novas reformas.",
+        "phonetic": "al-ḥukūmatu tuʕlinu ʕan ʔiṣlāḥātin ḥadīdah"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا ذهبت إلى السوق أمس في اللهجة المصرية (misturando padrão com dialeto de forma inadequada).",
+      "correct": "أنا رُحْتُ السُّوق إمْبَارِح (em dialeto egípcio) ou ذَهَبْتُ إِلَى السُّوقِ أَمْسِ (em árabe padrão).",
+      "correct_alt": "",
+      "explanation": "O erro típico do falante de português é misturar as variedades: usar uma palavra formal em um contexto informal ou vice-versa. Em português, não há uma barreira tão rígida, mas no árabe, essa mistura soa artificial e até cômica. Para evitar, o aluno deve observar o contexto e manter-se consistente: escolher um registro e usá-lo coerentemente. Uma dica: em situações formais, nunca use 'أنا' antes de um verbo conjugado (desnecessário), e em situações informais, evite a estrutura padrão VSO."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "النَّمَطُ الرَّسْمِيُّ",
+        "translation": "Registro formal",
+        "examples": [
+          {
+            "original": "يُسَرُّنِي أَنْ أُرَحِّبَ بِكُمْ فِي مُؤْتَمَرِنَا.",
+            "phonetic": "jusarrunī ʔan ʔuraḥḥiba bikum fī muʔtamarinā",
+            "translation": "Tenho prazer em recebê-los em nossa conferência.",
+            "note": "O uso de يسرني (é agradável para mim) é típico do registro formal, equivalente a 'tenho o prazer de' em português formal."
+          },
+          {
+            "original": "تَتَطَلَّبُ الْوَظِيفَةُ خُبْرَةً وَاسِعَةً.",
+            "phonetic": "tataṭallabu l-waẓīfatu xibratan wāsiʕah",
+            "translation": "O emprego exige ampla experiência.",
+            "note": "Na forma padrão, o verbo vem no início (estrutura VSO), e o possessivo é implícito no contexto."
+          },
+          {
+            "original": "قَدَّمَ الْبَاحِثُ نَتِيجَةَ الدِّرَاسَةِ فِي مُحَاضَرَتِهِ.",
+            "phonetic": "qaddama l-bāḥiṯu natījata d-dirāsati fī muḥāḍaratihi",
+            "translation": "O pesquisador apresentou o resultado do estudo em sua palestra.",
+            "note": "O particípio ativo 'قَدَّمَ' é uma forma comum de narrar eventos no padrão, semelhante ao pretérito perfeito do português."
+          },
+          {
+            "original": "إِنَّ الْعِلْمَ نُورٌ.",
+            "phonetic": "ʔinna l-ʕilma nūrun",
+            "translation": "A ciência é luz.",
+            "note": "A partícula 'إنَّ' é usada para ênfase e é típica do árabe formal, sem equivalente direto em português."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "النَّمَطُ الْمُحَايِدُ",
+        "translation": "Registro neutro",
+        "examples": [
+          {
+            "original": "الْجَوُّ الْيَوْمَ مُمْتِعٌ.",
+            "phonetic": "al-ǧawwu l-yawma mumtiʕun",
+            "translation": "O clima hoje está agradável.",
+            "note": "Uso do árabe padrão simplificado, comum na mídia e em conversas educadas. Aqui, o sujeito vem primeiro (SVO) para dar clareza."
+          },
+          {
+            "original": "رَأَيْتُهُ فِي الْحَفْلَةِ أَمْسِ.",
+            "phonetic": "raʔaytuhu fī l-ḥaflati ʔamsi",
+            "translation": "Eu o vi na festa ontem.",
+            "note": "Na linguagem neutra, é comum usar o verbo padrão com pronome sufixado, mas sem a ênfase formal de 'حقًا' ou 'بالتأكيد'."
+          },
+          {
+            "original": "هُوَ يَكْتُبُ رِوَايَةً عَنْ رِحْلَتِهِ.",
+            "phonetic": "huwa yaktubu riwāyatan ʕan riḥlatihi",
+            "translation": "Ele escreve um romance sobre sua viagem.",
+            "note": "O uso de 'هُوَ' como sujeito explícito é uma característica do registro neutro, evitando a ambiguidade do padrão VSO em algumas construções."
+          },
+          {
+            "original": "ليْسَ لَدَيَّ وَقْتٌ كَافٍ.",
+            "phonetic": "laysa ladayya waqtun kāfin",
+            "translation": "Não tenho tempo suficiente.",
+            "note": "A negação com 'لَيْسَ' é formal, mas em contexto neutro é aceitável, enquanto nos dialetos usa-se 'مَا عِنْدِيْ'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "النَّمَطُ الْعَامِّيُّ (اللهْجَةُ الْمِصْرِيَّةُ)",
+        "translation": "Registro informal (dialeto egípcio)",
+        "examples": [
+          {
+            "original": "إِحْنَا رُحْنَا السِّينِما مِنْ بَرَّه.",
+            "phonetic": "ʔiḥnā ruḥnā s-sīnimā min barra",
+            "translation": "Nós fomos ao cinema do lado de fora (ou 'lá em cima', dependendo do contexto).",
+            "note": "No egípcio, 'رُحْنَا' substitui 'ذَهَبْنَا' do padrão. 'مِنْ بَرَّه' significa 'por fora' e é típico do coloquial."
+          },
+          {
+            "original": "مَا عِنْدِيْش فِلُّوس النَّهَارْدَه.",
+            "phonetic": "mā ʕindīš fillūs in-nahārda",
+            "translation": "Não tenho dinheiro hoje.",
+            "note": "A negação no egípcio é com 'مَا ... شْ' (مَاعِنْدِيش), diferente do padrão 'لَيْسَ عِنْدِي'. 'النَّهَارْدَه' é o equivalente coloquial de 'hoje'."
+          },
+          {
+            "original": "عَاجِبْنِي الْحَالَة دِي.",
+            "phonetic": "ʕāgibnī l-ḥālah dī",
+            "translation": "Gosto dessa situação.",
+            "note": "O verbo 'عَاجِبْنِي' (me agrada) é egípcio. No padrão seria 'يُعْجِبُنِي هَذَا الْوَضْعُ'."
+          },
+          {
+            "original": "هَيِّا نِتْكَلِّم فِي الْمَوْضُوع.",
+            "phonetic": "hayyā nitkallim fi l-mawḍūʕ",
+            "translation": "Vamos falar sobre o assunto.",
+            "note": "A partícula 'هَيِّا' é coloquial para 'vamos'. 'نِتْكَلِّم' é a forma egípcia de 'nós falamos'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎗️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Registro, estilo formal, informal e neutro"
+    }
+  },
+  {
+    "id": "pt_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الإبدال والتقديم المتقدم / Inversão e Frontalização Avançadas",
+    "bridge": "No português, a inversão (ex.: 'Raramente vejo isso') é opcional e estilística. No árabe, a frontalização de constituintes (especialmente o objeto ou o predicado) é uma estratégia gramaticalizada que afeta diretamente a concordância e o caso (الرفع/النصب). Enquanto em português a ordem SVO é dominante e a inversão apenas enfatiza, em árabe a antecedência de um elemento pode alterar a estrutura da frase nominal (جملة اسمية) ou verbal (جملة فعلية), exigindo que você ajuste o verbo para singular ou plural de acordo com o sujeito posposto, um trap típico para falantes de português.",
+    "rule": "No árabe C1, a frontalização (التقديم) e a inversão (الإبدال) envolvem mover um constituinte (objeto, circunstancial, predicado) para o início da frase por razões pragmáticas (foco, contraste, ênfase) ou estilísticas. Regras-chave: 1) Se um objeto precede o verbo, o verbo deve permanecer na forma singular masculina (não concorda com o sujeito posposto em número, apenas em gênero, em frases verbais), e o objeto assume a posição de 'sujeito aparente' com caso nominativo (الرفع) se for um substantivo indefinido em posição inicial. 2) Em frases nominais (جملة اسمية), o sujeito (المبتدأ) pode ser posposto e o predicado (الخبر) anteposto se o predicado for uma frase preposicional ou adverbial (ظرف) — ex.: 'في البيتِ الرجلُ' (em vez de 'الرجلُ في البيتِ'), sem exigir mudaça de caso. 3) A inversão obrigatória ocorre com certos advérbios negativos ou restritivos (إنما، ما يفعل إلا، ليس) em que o verbo vem após o sujeito para ênfase. 4) Para expressar foco, pode usar 'إلا' ou 'إنما' com frontalização, mas não duplique o sujeito pronominal, algo que português faz. Exceções: com verbos que exigem objeto direto (مفعول به), a frontalização do objeto torna o verbo intransitivo? Não — o verbo mantém a transitividade, mas o objeto anteposto não recebe marca de acusativo (الفتحة) em todos os dialetos, embora no MSA (árabe padrão) exija o caso acusativo (النصب) se a frase for completo. Em contexto C1, domine a inversão de circunstanciais (ظروف) e frases preposicionais, pois são os mais frequentes em textos formais.",
+    "concept_examples": [
+      {
+        "text": "في المكتبِ كتبٌ كثيرةٌ.",
+        "translation": "No escritório, há muitos livros.",
+        "phonetic": "fī l-maktabi kutubun kaṯīratun"
+      },
+      {
+        "text": "المسافرَ رأيتُ في المطار.",
+        "translation": "O viajante, eu o vi no aeroporto.",
+        "phonetic": "al-musāfira raʼaytu fī l-maṭār"
+      },
+      {
+        "text": "إنما يخشى اللهَ من عباده العلماءُ.",
+        "translation": "Somente os sábios entre Seus servos temem a Deus.",
+        "phonetic": "innamā yakhšā llāha min ʻibādihi l-ʻulamāʼu"
+      },
+      {
+        "text": "ما فعلَ ذلك إلا نادرًا.",
+        "translation": "Ele não fez isso senão raramente.",
+        "phonetic": "mā faʻala ḏālika illā nādiran"
+      }
+    ],
+    "common_error": {
+      "wrong": "في المكتب يوجد كتب كثيرة.",
+      "correct": "في المكتبِ كتبٌ كثيرةٌ.",
+      "correct_alt": "كتبٌ كثيرةٌ في المكتبِ.",
+      "explanation": "Falantes de português tendem a copiar a estrutura 'há/existe' (يوجد) quando fazem inversão locativa. No MSA, a frontalização de circunstancial (في المكتب) transforma a frase em nominal, dispensando o verbo 'يوجد'. Use um substantivo como predicado (كتب كثيرة) diretamente, sem verbo. Outro erro frequente: concordar o verbo com o objeto anteposto, mas o verbo deve ficar no singular masculino se o sujeito vier depois."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الخبر المتقدم",
+        "translation": "Predicado Anteposto",
+        "examples": [
+          {
+            "original": "في الحديقةِ أطفالٌ يلعبون.",
+            "phonetic": "fī l-ḥadīqati ʼaṭfālun yalʻabūna",
+            "translation": "No jardim, crianças brincam.",
+            "note": "A frontalização do predicado preposicional (في الحديقة) torna a frase nominal; o sujeito (أطفال) vem depois e recebe caso nominativo (الضمّة)."
+          },
+          {
+            "original": "على الطاولةِ كتابٌ مفتوحٌ.",
+            "phonetic": "ʻalā ṭ-ṭāwilati kitābun maftūḥun",
+            "translation": "Sobre a mesa, há um livro aberto.",
+            "note": "Construção clássica de inversão locativa: o advérbio/preposição começa a frase, seguido do sujeito indefinido. Não use 'يوجد'."
+          },
+          {
+            "original": "في التقريرِ أخطاءٌ واضحةٌ.",
+            "phonetic": "fī t-taqrīri ʼaḵṭāʼun wāḍiḥatun",
+            "translation": "No relatório, há erros claros.",
+            "note": "Quando o predicado anteposto é uma frase preposicional, o sujeito posposto deve ser indefinido para foco."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "تقديم المفعول به",
+        "translation": "Frontalização do Objeto Direto",
+        "examples": [
+          {
+            "original": "الرّسالةَ كتبتُ البارحةَ.",
+            "phonetic": "ar-risālata katabtu al-bāriḥa",
+            "translation": "A carta, eu escrevi ontem.",
+            "note": "O objeto anteposto recebe caso acusativo (فتحة) e o verbo concorda com o sujeito oculto (eu). O objeto não é retomado por pronome."
+          },
+          {
+            "original": "هٰذا الكتابَ قرأتُ في الجامعةِ.",
+            "phonetic": "hāḏā l-kitāba qaraʼtu fī l-ǧāmiʻati",
+            "translation": "Este livro, eu li na universidade.",
+            "note": "Com demonstrativo, a frontalização é contrastiva, enfatizando o objeto."
+          },
+          {
+            "original": "إيّاكَ نعبدُ.",
+            "phonetic": "ʼiyyāka naʻbudu",
+            "translation": "A Ti adoramos.",
+            "note": "Uso obrigatório de 'إيّا' antes do pronome oblíquo em inversão enfática (comum em textos corânicos e formais)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "توكيد أمامي مع أدوات الحصر",
+        "translation": "Ênfase Frontal com Partículas de Restrição",
+        "examples": [
+          {
+            "original": "إنما المؤمنونَ إخوةٌ.",
+            "phonetic": "innamā al-muʼminūna ʼiḵwatun",
+            "translation": "Os crentes são irmãos (somente isso).",
+            "note": "A partícula 'إنما' restringe o sujeito, criando ênfase sem inversão de ordem, mas com estilística frontal."
+          },
+          {
+            "original": "ما ينجحُ في الامتحانِ إلا المجتهدُ.",
+            "phonetic": "mā yanǧaḥu fī l-imtiḥāni illā l-muǧtahidu",
+            "translation": "Somente o esforçado passa no exame.",
+            "note": "Inversão obrigatória com 'ما...إلا': o verbo fica antes do sujeito restrito, e o sujeito toma caso nominativo."
+          },
+          {
+            "original": "ليس في الدّارِ أحدٌ.",
+            "phonetic": "laysa fī d-dāri ʼaḥadun",
+            "translation": "Não há ninguém na casa.",
+            "note": "Com 'ليس', a frontalização do predicado preposicional é comum; o sujeito (أحد) fica indefinido no nominativo."
+          },
+          {
+            "original": "فقط بالصّبرِ تتحقّقُ الأهدافُ.",
+            "phonetic": "faqaṭ bi-ṣ-ṣabri tataḥaqqaqu al-ʼahdāfu",
+            "translation": "Somente com paciência os objetivos se realizam.",
+            "note": "Uso de 'فقط' (mais coloquial mas aceito em MSA) com inversão de circunstancial para foco."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Inversão e Frontalização Avançadas"
+    }
+  },
+  {
+    "id": "pt_C1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الاسمية المعقدة (التحويل من عملية إلى معالجة) / Nominalização complexa",
+    "bridge": "Em português, nominalizações como 'processamento' são formadas adicionando sufixos a verbos (processar -> processamento). Em árabe, a nominalização (مَصْدَر) é uma categoria morfológica intrínseca, com padrões vocálicos que indicam o tipo de ação, e frequentemente a distinção entre 'ação' (مَرَّةً) e 'processo' (هَيْئَةً) é marcada por nuances de forma e uso. Diferente do português, onde a nominalização é produtiva e regular, em árabe cada verbo tem um masdar próprio, que deve ser memorizado. Além disso, o árabe usa frequentemente estruturas sintáticas com o masdar + pronome sufixo (عَمَلِيَّةُ التَّعَلُّمِ) onde o português usa um substantivo seguido de preposição e gerúndio (o processo de aprender). Preste atenção à mudança de ordem dos elementos e à necessidade de concordância.",
+    "rule": "A nominalização complexa em árabe (C1) envolve principalmente o uso do مَصْدَر (masdar) e do إسْم المَفْعُول (particípio passivo) para expressar processos, em níveis mais abstratos e técnicos. Para C1, você deve dominar: (1) Masdar de verbos triliteros e quadrilíteros, com padrões como فَعْل، فِعَال، فُعُول، تَفْعِيل، إفْعَال، اِسْتِفْعَال. (2) Uso de مَصْدَر مُؤَوَّل (masdar com أنْ + verbo) para evitar repetição de uma oração. (3) Construções nominais de processo: مَصْدَر + حرف جر + اسم/ضمير، ou مَصْدَر + مضاف إليه. (4) Uso de إسْم المَرَّة (nominalização de instância) e إسْم الهَيْئَة (nominalização de modo) para nuances de sentido, por exemplo: قَتْل (ação) vs. قِتْلَة (modo de matar). Erros comuns: usar a forma errada do masdar, confundir com o particípio ativo (فاعِل), ou nominalizar verbos que não têm masdar lexicalizado, preferindo estruturas verbais.",
+    "concept_examples": [
+      {
+        "text": "عَمَلِيَّةُ التَّعَلُّمِ عَمَلِيَّةٌ مُعَقَّدَةٌ.",
+        "translation": "O processo de aprendizagem é um processo complexo.",
+        "phonetic": "/ʕama.liy.ja.tu‿t.ta.ʕal.lu.mi ʕa.ma.liy.ya.tun mu.ʕaq.qa.da/"
+      },
+      {
+        "text": "تَطْوِيرُ الذَّاتِ يَتَطَلَّبُ صَبْرًا طَوِيلًا.",
+        "translation": "O desenvolvimento pessoal requer muita paciência.",
+        "phonetic": "/tatˤ.wiː.ru‿ð.ðaː.ti ja.ta.tˤal.la.bu sˤab.ran tˤa.wiː.lan/"
+      },
+      {
+        "text": "إِنْجَازُ المَشْرُوعِ تَوَقَّفَ بِسَبَبِ النَّقْدِ.",
+        "translation": "A realização do projeto parou por causa das críticas.",
+        "phonetic": "/ʔin.d͡ʒaː.zu‿l.maʃ.ruː.ʕi ta.waq.qa.fa bi.sa.bab.in naq.di/"
+      },
+      {
+        "text": "اَلسُّؤَالُ عَنِ الكَيْنُونَةِ فَلْسَفَةٌ وَجُودِيَّةٌ.",
+        "translation": "A pergunta sobre o ser é filosofia existencial.",
+        "phonetic": "/as.su.ʔaː.lu ʕa.ni‿l.kaj.nuː.na fal.sa.fa(tun) wa.d͡ʒuː.diy.ya/"
+      }
+    ],
+    "common_error": {
+      "wrong": "أَنَا أُحِبُّ التَّعَلُّمُ بِشَكْلٍ كَبِيرٍ.",
+      "correct": "أَنَا أُحِبُّ التَّعَلُّمَ بِشَكْلٍ كَبِيرٍ.",
+      "correct_alt": "أُحِبُّ التَّعَلُّمَ كَثِيرًا.",
+      "explanation": "Em árabe, o masdar (التَّعَلُّم) quando é objeto direto de um verbo (como أُحِبُّ) deve estar no caso acusativo (منصوب) com a terminação -a, não nominativo (-u). Falantes de português tendem a usar o substantivo no nominativo porque em português não há casos. Lembre-se: o objeto direto é sempre marcado com فَتْحَة (a)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الْمَصْدَرُ وَأَوْزَانُهُ",
+        "translation": "O masdar e seus padrões",
+        "examples": [
+          {
+            "original": "فَهْمٌ",
+            "phonetic": "/fah.mun/",
+            "translation": "compreensão",
+            "note": "Masdar de فَهِمَ (entender), padrão فَعْل."
+          },
+          {
+            "original": "تَعْلِيمٌ",
+            "phonetic": "/taʕ.liː.mun/",
+            "translation": "ensino",
+            "note": "Masdar de عَلَّمَ (ensinar), padrão تَفْعِيل."
+          },
+          {
+            "original": "اِنْتِقَالٌ",
+            "phonetic": "/in.ti.qaː.lun/",
+            "translation": "transição",
+            "note": "Masdar de اِنْتَقَلَ (mover-se), padrão اِفْتِعَال."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "المَصْدَرُ الْمُؤَوَّلُ",
+        "translation": "O masdar com أو muda de oração",
+        "examples": [
+          {
+            "original": "أَعْجَبَنِي أَنْ تَنْجَحَ.",
+            "phonetic": "/ʔaʕ.d͡ʒa.ba.niː ʔan tan.d͡ʒa.ħa/",
+            "translation": "Agradou-me que tenhas sucesso.",
+            "note": "أَنْ تَنْجَحَ equivale ao masdar نَجَاحُكَ (teu sucesso)."
+          },
+          {
+            "original": "يَسُرُّنِي أَنْ تَتَعَلَّمَ العَرَبِيَّةَ.",
+            "phonetic": "/ja.sur.ru.niː ʔan ta.ta.ʕal.la.ma‿l.ʕa.ra.bij.ja/",
+            "translation": "Aprecio que aprendas árabe.",
+            "note": "A construção evita a repetição e substantiva a oração."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "إِسْم الْمَرَّةِ وَالْهَيْئَةِ",
+        "translation": "Nominalização de instância e de modo",
+        "examples": [
+          {
+            "original": "ضَرْبَةٌ",
+            "phonetic": "/dˤar.ba(t)/",
+            "translation": "uma pancada (instância)",
+            "note": "إِسْم المَرَّة de ضَرَبَ, indica uma única ocorrência."
+          },
+          {
+            "original": "جِلْسَةٌ",
+            "phonetic": "/d͡ʒil.sa(t)/",
+            "translation": "sessão, modo de sentar",
+            "note": "إِسْم الهَيْئَة de جَلَسَ, indica o modo como se sentou."
+          },
+          {
+            "original": "مَشْيَةٌ",
+            "phonetic": "/maʃ.ja(t)/",
+            "translation": "modo de andar",
+            "note": "إِسْم الهَيْئَة de مَشَى, ex: مَشْيَتُهُ سَرِيعَةٌ (seu andar é rápido)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "pt": "Nominalização complexa"
+    }
+  },
+  {
+    "id": "pt_C1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الإِلْيَاسْ وَالإِحْلَالْ (Elipsis e Substituição)",
+    "bridge": "No português, usamos 'também' e 'nem eu' para evitar repetição (ex.: 'Eu gosto de café' – 'Eu também' / 'Eu não gosto' – 'Nem eu'). No árabe, a elipse (حذف) é muito mais frequente e estrutural: o sujeito ou objeto pode ser omitido quando o contexto é claro, e a substituição é feita por pronomes e partículas específicas. Fique atento: enquanto o português usa 'so do I' em respostas curtas, o árabe muitas vezes simplesmente repete o verbo ou usa a partícula 'و' (wa) seguida do pronome, sem equivalente direto para 'também'.",
+    "rule": "Em árabe, a elipse (حذف) ocorre principalmente em três casos: 1) omissão do sujeito (ضمير مستتر) quando o verbo já indica a pessoa, comum em respostas; 2) omissão do objeto direto em contextos claros; 3) omissão de palavras repetidas em estruturas coordenadas. Para substituição, usamos pronomes pessoais (هو، هي، نحن) e a partícula 'أيضًا' (ayḍan) para 'também', mas em respostas curtas é mais comum usar a estrutura 'و + pronome' (ex.: وأنا = 'e eu também') ou simplesmente repetir o verbo com a partícula 'نعم' (sim) ou 'لا' (não). Para 'nem eu', usa-se 'ولا أنا' (wa-lā anā) após uma negação. Cuidado: não existe correspondente direto para 'so do I' – em vez de usar um verbo auxiliar, o árabe repete o verbo principal ou usa o pronome isolado. Em nível C1, você deve dominar a omissão do sujeito em respostas (ex.: 'أحب القهوة' – 'أنا أيضًا' ou simplesmente 'وأنا') e a elipse em frases coordenadas, como 'أكلت خبزًا وشربت ماءً' (omite-se o sujeito do segundo verbo).",
+    "concept_examples": [
+      {
+        "text": "أُحِبُّ القَهْوَةَ. وَأَنَا.",
+        "translation": "Eu gosto de café. – Eu também.",
+        "phonetic": "ʔuħibbu l-qahwa. wa-ʔanā."
+      },
+      {
+        "text": "لَمْ أَذْهَبْ إِلَى السُّوقِ. وَلَا أَنَا.",
+        "translation": "Eu não fui ao mercado. – Nem eu.",
+        "phonetic": "lam ʔaðhab ʔilā s-sūq. wa-lā ʔanā."
+      },
+      {
+        "text": "هَلْ تَدْرُسُ اللُّغَةَ العَرَبِيَّةَ؟ نَعَمْ، أَدْرُسُهَا.",
+        "translation": "Você estuda árabe? Sim, estudo (a estou estudando).",
+        "phonetic": "hal tadrusu l-luġa l-ʕarabiyya? naʕam, ʔadrusuhā."
+      },
+      {
+        "text": "قَرَأْتُ الكِتَابَ وَشَرِبْتُ الشَّايَ.",
+        "translation": "Li o livro e bebi o chá.",
+        "phonetic": "qaraʔtu l-kitāba wa-šaribtu š-šāy."
+      }
+    ],
+    "common_error": {
+      "wrong": "أُحِبُّ القَهْوَةَ. أَيْضًا أَنَا.",
+      "correct": "أُحِبُّ القَهْوَةَ. وَأَنَا.",
+      "correct_alt": "أُحِبُّ القَهْوَةَ. أَنَا أَيْضًا.",
+      "explanation": "O erro é usar 'أيضًا' (ayḍan) diretamente após o pronome 'أنا' como em português 'eu também'. Em árabe, a construção idiomática para 'eu também' em resposta é 'وأنَا' (wa-ʔanā) – a partícula 'و' (e) antes do pronome é essencial. Você pode usar 'أنا أيضًا' mas é mais formal e menos comum em fala. Evite a ordem 'أيضًا أنا', que é estranha."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "حَذْفُ الفَاعِلِ",
+        "translation": "Omissão do sujeito",
+        "examples": [
+          {
+            "original": "ذَهَبَ إِلَى العَمَلِ. (هو)",
+            "phonetic": "ðahaba ʔilā l-ʕamal. (huwa)",
+            "translation": "Ele foi ao trabalho.",
+            "note": "O sujeito 'هو' é omitido quando o contexto já indica de quem se fala; o verbo no passado masculino já sinaliza a pessoa."
+          },
+          {
+            "original": "فَعَلْنَا ذَلِكَ. (نحن)",
+            "phonetic": "faʕalnā ðālik. (naḥnu)",
+            "translation": "Nós fizemos isso.",
+            "note": "A desinência verbal 'ـنا' já indica 'nós', então o pronome é redundante."
+          },
+          {
+            "original": "هَلْ أَكَلْتَ؟ – أَكَلْتُ.",
+            "phonetic": "hal ʔakalta? – ʔakaltu.",
+            "translation": "Você comeu? – Comi.",
+            "note": "Em respostas, o sujeito 'أنا' é omitido porque o verbo já carrega a informação."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الِاسْتِبْدَالُ بِضَمَائِرَ وَأَدَوَاتٍ",
+        "translation": "Substituição por pronomes e partículas",
+        "examples": [
+          {
+            "original": "أَيْنَ الكِتَابُ؟ – هُوَ عَلَى الطَّاوِلَةِ.",
+            "phonetic": "ʔayna l-kitāb? – huwa ʕalā ṭ-ṭāwila.",
+            "translation": "Onde está o livro? – Ele está sobre a mesa.",
+            "note": "Usa-se o pronome 'هو' para substituir o nome mencionado, como 'ele' em português."
+          },
+          {
+            "original": "أَقْرَأُ كَثِيرًا. وَأَنْتَ؟",
+            "phonetic": "ʔaqraʔu kaṯīran. wa-ʔanta?",
+            "translation": "Eu leio muito. E você?",
+            "note": "A partícula 'و' + pronome funciona para 'e você?', substituindo a ideia de leitura."
+          },
+          {
+            "original": "لَا أُحِبُّ السَّفَرَ. – وَلَا أَنَا.",
+            "phonetic": "lā ʔuħibbu s-safar. – wa-lā ʔanā.",
+            "translation": "Eu não gosto de viajar. – Nem eu.",
+            "note": "Para 'nem eu', usa-se 'ولا أنا' após uma negação; essa é a estrutura fixa."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "الحَذْفُ فِي الجُمْلَةِ المُرَكَّبَةِ",
+        "translation": "Elipse em orações coordenadas",
+        "examples": [
+          {
+            "original": "اشْتَرَيْتُ خُبْزًا وَجُبْنًا, وَأَكَلْتُ.",
+            "phonetic": "ištaraytu ḫubzan wa-ǧubnan, wa-ʔakaltu.",
+            "translation": "Comprei pão e queijo, e comi.",
+            "note": "O objeto direto da segunda oração (o pão e o queijo) é omitido por estar implícito."
+          },
+          {
+            "original": "هِيَ تَكْتُبُ رِسَالَةً وَتُرْسِلُهَا.",
+            "phonetic": "hiya taktubu risālatan wa-tursiluhā.",
+            "translation": "Ela escreve uma carta e a envia.",
+            "note": "O pronome 'ـها' (ela) substitui 'a carta' na segunda oração, evitando repetição."
+          },
+          {
+            "original": "أَحْمَدُ يَلْعَبُ كُرَةَ القَدَمِ, وَخَالِدٌ يَلْعَبُ كُرَةَ السَّلَّةِ. هُمَا يَلْعَبَانِ.",
+            "phonetic": "ʔaḥmadu yalʕabu kurat l-qadam, wa-ḫālidun yalʕabu kurat s-salla. humā yalʕabāni.",
+            "translation": "Ahmed joga futebol, e Khalid joga basquete. Eles jogam.",
+            "note": "Aqui, o verbo 'jogam' é suficiente no final; mas note que a elipse não ocorre dentro da primeira parte."
+          }
+        ]
+      }
+    ],
+    "emoji": "✂️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Elipse e Substituição"
+    }
+  },
+  {
+    "id": "pt_C1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "أدوات الربط المتقدمة (Marcadores discursivos avançados)",
+    "bridge": "Em português, usamos conectores como 'portanto', 'no entanto', 'além disso' para criar coesão. Em árabe, esses marcadores são frequentemente expressos por partículas como 'لِذٰلِكَ' (por isso), 'بِالإضافَةِ إِلىٰ' (além de), e 'بِالرَّغْمِ مِنْ' (apesar de), que muitas vezes são colocadas no início da frase e podem ser combinadas com o caso genitivo. Uma diferença crucial: em árabe, a conjunção 'وَ' (e) precede frequentemente esses marcadores, o que não tem paralelo direto em português. Além disso, alguns marcadores como 'إِذًا' (então) aparecem após a primeira palavra da oração, o que pode confundir falantes de português que esperam uma posição fixa.",
+    "rule": "Os marcadores discursivos em árabe (C1) incluem:\n1) Conjunções causais: 'لِذٰلِكَ' (por isso), 'لِأَنَّ' (porque), 'بِسَبَبِ' (devido a). Exigem a preposição 'بِ' seguida de substantivo ou 'أَنَّ' + oração.\n2) Conectores adversativos: 'بِالرَّغْمِ مِنْ' (apesar de) + substantivo/oração com 'أَنَّ', 'غَيْرَ أَنَّ' (contudo), 'لٰكِنَّ' (mas). 'غَيْرَ أَنَّ' é formal, usado em registo elevado.\n3) Marcadores de adição: 'بِالإضافَةِ إِلىٰ' (além de) + genitivo, 'كَذٰلِكَ' (também), 'عَلاوَةً عَلىٰ' (além disso).\n4) Conclusivos: 'إِذًا' (então), 'خُلاصَةُ القَوْلِ' (em resumo), 'بِاخْتِصارٍ' (em suma).\n5) Reformuladores: 'بِعِبارَةٍ أُخْرىٰ' (por outras palavras), 'مِمّا يَعْني' (o que significa).\nAtenção: Em árabe, a coordenação com 'وَ' antes de muitos marcadores é opcional mas comum. A posição varia: alguns vão no início absoluto, outros após o sujeito. A pontuação é diferente – em árabe, a vírgula é menos frequente, e o ponto final é obrigatório. É preciso dominar o uso do caso genitivo após preposições (ex.: 'بِالرَّغْمِ مِنْ' + substantivo genitivo).",
+    "concept_examples": [
+      {
+        "text": "لِذٰلِكَ، قَرَّرْتُ السَّفَرَ إِلىٰ القاهِرَةِ.",
+        "translation": "Por isso, decidi viajar para o Cairo.",
+        "phonetic": "/li.ðaː.li.ka, qar.rartu‿s.sa.fa.ra ʔi.laː l.qaː.hi.ra/"
+      },
+      {
+        "text": "بِالرَّغْمِ مِنْ صِعوبَةِ الاِمْتِحانِ، نَجَحْتُ بِتَفَوُّقٍ.",
+        "translation": "Apesar da dificuldade do exame, passei com distinção.",
+        "phonetic": "/bi‿r.raɣ.mi min sˤu.ʕuː.ba.ti‿l.im.ti.ħaː.ni, na.d͡ʒaħ.tu bi.ta.faw.wuqin/"
+      },
+      {
+        "text": "إِذًا، سَنَبْدَأُ المَشْروعَ غَدًا.",
+        "translation": "Então, começaremos o projeto amanhã.",
+        "phonetic": "/ʔi.ðan, sa.nab.da.ʔu‿l.maʃ.ruː.ʕa ɣa.dan/"
+      },
+      {
+        "text": "بِالإضافَةِ إِلىٰ ذٰلِكَ، يَجِبُ عَلَيْنا مُراعاةُ الوَقْتِ.",
+        "translation": "Além disso, devemos respeitar o tempo.",
+        "phonetic": "/bi‿l.ʔi.dˤaː.fa.ti ʔi.laː ðaː.li.ka, ja.d͡ʒi.bu ʕa.laj.naː mu.raː.ʕaː.tu‿l.waq.ti/"
+      }
+    ],
+    "common_error": {
+      "wrong": "*إِذًا نَحْنُ نَذْهَبُ إِلى السُّوقِ.",
+      "correct": "إِذًا، نَحْنُ نَذْهَبُ إِلى السُّوقِ.",
+      "correct_alt": "نَحْنُ إِذًا نَذْهَبُ إِلى السُّوقِ.",
+      "explanation": "Em português, 'então' costuma iniciar a frase. Em árabe, 'إِذًا' pode vir no início, mas é mais natural após o sujeito (posposição) ou com vírgula após ele. A falta de vírgula e a posição fixa são erros comuns. Evite: coloque 'إِذًا' após o sujeito ou use vírgula para pausa. Além disso, não use 'إِذًا' no início de uma oração subordinada, apenas como conclusivo independente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الرَّبْطُ السَّبَبِيُّ",
+        "translation": "Conexão causal",
+        "examples": [
+          {
+            "original": "لِأَنَّ الجَوَّ ماطِرٌ، أَخَّرْنا الرِّحْلَةَ.",
+            "phonetic": "/li.ʔan.na‿l.d͡ʒaw.wa mˤaː.tˤi.run, ʔax.xar.naː‿r.riħ.la.ta/",
+            "translation": "Porque o tempo está chuvoso, adiamos a viagem.",
+            "note": "Uso de 'لِأَنَّ' + oração nominal. Note que em árabe, a oração após 'لِأَنَّ' é nominal, com sujeito no nominativo."
+          },
+          {
+            "original": "بِسَبَبِ الزِّحامِ، وَصَلْنا مُتَأَخِّرينَ.",
+            "phonetic": "/bi.sa.ba.bi‿z.zi.ħaː.mi, wa.sˤal.naː mu.ta.ʔax.xi.riːn/",
+            "translation": "Por causa do trânsito, chegamos atrasados.",
+            "note": "Preposição 'بِسَبَبِ' exige genitivo. Em português, 'por causa de' também exige preposição, mas não há caso."
+          },
+          {
+            "original": "مِنْ ثَمَّ، تَمَّ تَغْييرُ الخُطَّةِ.",
+            "phonetic": "/min θam.ma, tamma taɣ.jiː.ru‿l.xutˤ.tˤa/",
+            "translation": "Portanto, o plano foi mudado.",
+            "note": "Formal, equivalente a 'portanto'. Usado em discurso académico."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الرَّبْطُ التَّضادِّيُّ",
+        "translation": "Conexão contrastiva",
+        "examples": [
+          {
+            "original": "غَيْرَ أَنَّ النَّتائِجَ كانَتْ مُخَيِّبَةً.",
+            "phonetic": "/ɣaj.ra ʔan.na‿n.na.taː.ʔi.d͡ʒa kaː.nat mu.xaj.ji.ba/",
+            "translation": "Contudo, os resultados foram decepcionantes.",
+            "note": "Uso formal de contraste. Não confundir com 'لٰكِنَّ' que é mais informal."
+          },
+          {
+            "original": "بِالرَّغْمِ مِنْ تَعَبِهِ، تابَعَ العَمَلَ.",
+            "phonetic": "/bi‿r.raɣ.mi min ta.ʕa.bi.hi, taː.ba.ʕa‿l.ʕa.mal/",
+            "translation": "Apesar do cansaço, ele continuou o trabalho.",
+            "note": "'بِالرَّغْمِ مِنْ' + substantivo genitivo. Em português, usamos 'apesar de' + infinitivo, mas aqui é substantivo."
+          },
+          {
+            "original": "في المُقابِلِ، يَرْغَبُ الآخَرونَ في التَّعاوُنِ.",
+            "phonetic": "/fi‿l.mu.qaː.bi.li, jar.ɣa.bu‿l.ʔaː.xa.ruː.na fi‿t.ta.ʕaː.wu.ni/",
+            "translation": "Por outro lado, os outros desejam cooperar.",
+            "note": "Expressão fixa 'في المُقابِلِ' usada para contraste entre duas ideias."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "الرَّبْطُ الاسْتِنْتاجِيُّ",
+        "translation": "Conexão conclusiva",
+        "examples": [
+          {
+            "original": "خُلاصَةُ القَوْلِ، إِنَّ التَّعْليمَ أَساسُ التَّقَدُّمِ.",
+            "phonetic": "/xu.laː.sˤa.tu‿l.qaw.li, ʔin.na‿t.taʕ.liː.ma ʔa.saː.su‿t.ta.qad.dum/",
+            "translation": "Em resumo, a educação é a base do progresso.",
+            "note": "Introduz uma conclusão geral. Equivalente a 'em suma'."
+          },
+          {
+            "original": "بِاخْتِصارٍ، نَحْنُ بِحاجَةٍ إِلىٰ حَلٍّ جَذْرِيٍّ.",
+            "phonetic": "/bi‿x.ti.sˤaː.rin, naħ.nu bi.ħaː.d͡ʒa.tin ʔi.laː ħal.lin d͡ʒað.rij.jin/",
+            "translation": "Em suma, precisamos de uma solução radical.",
+            "note": "Usado para resumir rapidamente. Colocado no início."
+          },
+          {
+            "original": "مِمّا يَعْني أَنَّهُ يَجِبُ تَغْييرُ السِّياسَةِ.",
+            "phonetic": "/mim.maː jaʕ.niː ʔan.na.huː ja.d͡ʒi.bu taɣ.jiː.ru‿s.si.jaː.sa/",
+            "translation": "O que significa que a política deve ser mudada.",
+            "note": "Reformulador que explica uma implicação. Estrutura relativa + 'أَنَّ'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Marcadores discursivos avançados"
+    }
+  },
+  {
+    "id": "pt_C1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "التلطيف والتشكيك (Matização e Distanciamento)",
+    "bridge": "Em português, usamos tempos verbais como o futuro do pretérito ('eu diria') e locuções como 'talvez', 'provavelmente' para suavizar afirmações. Em árabe, o mecanismo é diferente: recorre-se a partículas modais (قد، ربما، لعل) e à estrutura إِنَّ + verbos no subjuntivo, além de construções com كادَ. Uma armadilha comum para lusófonos é traduzir literalmente 'talvez' como 'رُبَّمَا' ignorando que esta exige o verbo no presente ou passado, nunca no subjuntivo, e que a partícula 'لعلّ' pode expressar esperança e não apenas probabilidade. Outro ponto crítico é que em árabe o modal 'قد' antes do perfeito (قد فعل) indica possibilidade no passado, enquanto antes do imperfeito (قد يفعل) indica probabilidade presente — nuance que não tem paralelo direto em português.",
+    "rule": "No árabe C1, a matização fina é feita por quatro grupos de elementos: 1) Partículas modais: رُبَّمَا (talvez) exige verbo no passado ou presente, mas nunca no subjuntivo; قَدْ (pode ser que) + perfeito = possibilidade passada, قَدْ + imperfeito = probabilidade futura; لَعَلَّ (tomara que, talvez) rege o subjuntivo (المضارع المنصوب) e expressa esperança; 2) Os verbos defectivos كَادَ (estar prestes a), أَوْشَكَ (quase), كَرَبَ (quase) que indicam iminência: كَادَ يَفْعَلُ (ele quase fez), mas com отрицаção ما كادَ يَفْعَلُ (ele custou a fazer). 3) O verbo صَارَ + لَ + مصدر para indicar início de ação (começou a). 4) As estruturas de opinião pessoal com لَعَلِّي (é possível que eu), رُبَمَا أَنَا (talvez eu) que frequentemente são mal traduzidas do português. Além disso, o uso de أَحْسَبُ (penso), أَظُنُّ (acho), أَشُكُّ (duvido) com a partícula أَنَّ antes de oração subordinada, que exige o verbo no subjuntivo ou indicativo, requer atenção. Para distanciamento formal, usa-se مِنَ الْمُمْكِنِ (é possível), مِنَ الْجَائِزِ (é admissível), يُمْكِنُ أَنْ (pode ser que). No nível C1, deve-se evitar o uso excessivo de رُبَّمَا e variar com locuções como لا أَعْلَمُ إِنْ (não sei se) ou قَدْ لَا (pode não ser). A negação de possibilidade é feita com لَا يُمْكِنُ أَنْ (não é possível que) ou مُسْتَحِيلٌ أَنْ (é impossível que).",
+    "concept_examples": [
+      {
+        "text": "رُبَّمَا تَأَخَّرَ الْقِطَارُ",
+        "translation": "Talvez o trem tenha atrasado.",
+        "phonetic": "rubbamā taʔaχχara l-qitˤaːru"
+      },
+      {
+        "text": "قَدْ يَكُونُ الْجَوُّ بَارِدًا غَدًا",
+        "translation": "Pode ser que o tempo esteja frio amanhã.",
+        "phonetic": "qad jakuːnu l-dʒawwu baːridan ɣadan"
+      },
+      {
+        "text": "لَعَلَّهُ يَنْجَحُ فِي الْاِمْتِحَانِ",
+        "translation": "Tomara que ele passe no exame.",
+        "phonetic": "laʕallahu janǧaḥu fiː l-imtiħaːni"
+      },
+      {
+        "text": "كَادَ الْمَاءُ أَنْ يَغْرَقَ السَّفِينَةَ",
+        "translation": "A água quase afundou o navio.",
+        "phonetic": "kaːda l-maːʔu ʔan jaɣriqa s-safiːnata"
+      }
+    ],
+    "common_error": {
+      "wrong": "رُبَّمَا يُمْكِنُ أَنْ نَذْهَبَ",
+      "correct": "رُبَّمَا نَذْهَبُ",
+      "correct_alt": "لَعَلَّنَا نَذْهَبُ",
+      "explanation": "Em português, 'talvez possamos ir' combina dois modais, mas em árabe, رُبَّمَا já impõe a incerteza, e a duplicação com يُمْكِنُ أَنْ é considerada excessiva (redundante) e agramatical. O correto é usar apenas رُبَّمَا seguido do verbo no presente (نَذْهَبُ), ou trocar por لَعَلَّ + pronome + verbo no subjuntivo, que expressa uma esperança mais atenuada."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "أَدَوَاتُ التَّقْلِيلِ",
+        "translation": "Partículas modais de probabilidade",
+        "examples": [
+          {
+            "original": "قَدْ تُسَافِرُ إِلَى لَنْدَنَ",
+            "phonetic": "qad tusāfiru ʔilā landana",
+            "translation": "Talvez viajes para Londres (probabilidade presente-futuro).",
+            "note": "قَدْ + presente indica probabilidade. Para probabilidade passada, usa-se قَدْ + passado."
+          },
+          {
+            "original": "قَدْ كَانَ صَدِيقًا لِي",
+            "phonetic": "qad kaːna sˤadiiqan lī",
+            "translation": "Ele pode ter sido meu amigo (possibilidade passada).",
+            "note": "Aqui قَدْ antes do passado (كَانَ) expressa possibilidade no passado, nuance nova para o lusófono."
+          },
+          {
+            "original": "رُبَّمَا لَا أُحِبُّ السَّفَرَ",
+            "phonetic": "rubbamā lā ʔuħibbu s-safara",
+            "translation": "Talvez eu não goste de viajar.",
+            "note": "A negação com لَا vem depois de رُبَّمَا, não antes."
+          },
+          {
+            "original": "لَعَلَّ الْحَقِيبَةَ كَبِيرَةٌ جِدًّا",
+            "phonetic": "laʕalla l-ħaqiːbata kabiːratun dʒiddan",
+            "translation": "Talvez a mala seja muito grande.",
+            "note": "لَعَلَّ exige que o predicado venha no nominativo, mas o sujeito (الحَقِيبَةَ) fica no acusativo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "أَفْعَالُ الْمُقَارَبَةِ",
+        "translation": "Verbos de aproximação",
+        "examples": [
+          {
+            "original": "كَادَتِ الشَّمْسُ أَنْ تَغْرُبَ",
+            "phonetic": "kaːdati š-šamsu ʔan taɣrub",
+            "translation": "O sol quase se pôs.",
+            "note": "كَادَ + أَنْ + subjuntivo. O verbo كَادَ concorda com o sujeito em género."
+          },
+          {
+            "original": "أَوْشَكَ الْفَرِيقُ أَنْ يَخْسَرَ",
+            "phonetic": "ʔawšaka l-fariːqu ʔan jaχsara",
+            "translation": "O time quase perdeu.",
+            "note": "أَوْشَكَ tem o sentido de 'estar prestes a'. Também pode ser usado sem أَنْ: أَوْشَكَ يَخْسَرُ."
+          },
+          {
+            "original": "مَا كَادَ يَصْدُقُ الْخَبَرَ",
+            "phonetic": "maː kaːda jasˤduqu l-χabara",
+            "translation": "Ele quase não acreditou na notícia.",
+            "note": "Com a negação مَا كَادَ significa 'custar a fazer algo', nuance de dificuldade."
+          },
+          {
+            "original": "كَرَبَ يَمُوتُ مِنَ السَّعَادَةِ",
+            "phonetic": "karaba jamuːtu mina s-saʕaːdati",
+            "translation": "Ele quase morreu de alegria.",
+            "note": "كَرَبَ é menos comum, usado em contextos eloquentes."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "مَزِيدٌ مِنَ التَّأَكِيدِ وَالشَّكِّ",
+        "translation": "Expressões de opinião e dúvida",
+        "examples": [
+          {
+            "original": "أَظُنُّ أَنَّهُ سَيُحَافِظُ عَلَى وَعْدِهِ",
+            "phonetic": "ʔazˤunnu ʔannahu sajuħāfizˤu ʕalā waʕdihi",
+            "translation": "Acho que ele manterá a sua promessa.",
+            "note": "أَظُنُّ + أَنَّ + frase nominal. Cuidado: o sujeito de أَنَّ fica no acusativo (الضمير المتصل)."
+          },
+          {
+            "original": "مِنَ الْجَائِزِ أَنَّ النَّتِيجَةَ كَانَتْ خَاطِئَةً",
+            "phonetic": "mina l-dʒaːʔizi ʔanna n-natiːdʒata kaːnat χaːtˤiʔatan",
+            "translation": "É admissível que o resultado tenha sido errado.",
+            "note": "مِنَ الْجَائِزِ + أَنَّ + passado. Alternativa mais formal que رُبَّمَا."
+          },
+          {
+            "original": "لَا أَعْلَمُ إِنْ كَانَ صَادِقًا",
+            "phonetic": "laː ʔaʕlamu ʔin kaːna sˤaːdiqan",
+            "translation": "Não sei se ele era sincero.",
+            "note": "إِنْ (se) introduz uma dúvida indireta, equivalente ao 'se' do português."
+          },
+          {
+            "original": "قَدْ لَا يُوَافِقُ الْمُدِيرُ عَلَى الْخُطَّةِ",
+            "phonetic": "qad laː juwaːfiq al-mudiːru ʕalā l-χutˤtˤati",
+            "translation": "Pode ser que o diretor não concorde com o plano.",
+            "note": "قَدْ + لَا + presente: negação de probabilidade, nuance mais forte que 'talvez não'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "pt": "Matização e distanciamento"
+    }
+  },
+  {
+    "id": "pt_C1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الأفعال المتعدية لمفعولين / Verbos com dois objetos",
+    "bridge": "No português, verbos como 'dar' e 'ensinar' usam preposições (dar algo a alguém, ensinar algo a alguém). No árabe, muitos desses verbos reagem diretamente com dois objetos acusativos, sem preposição. Por exemplo, 'dar' em árabe é 'أعطى' (aʿṭā) e ambos os objetos ficam no caso acusativo, mas o português usa 'a' para o objeto indireto. Isso causa uma tendência a inserir preposições onde o árabe não as tem, ou a confundir a ordem dos objetos.",
+    "rule": "Em árabe, verbos como أَعْطَى (dar), مَنَحَ (conceder), سَأَلَ (perguntar), عَلَّمَ (ensinar) e ظَنَّ (pensar que) podem ter dois objetos diretos (المفعول به الأول والثاني). O primeiro objeto é frequentemente uma pessoa, e o segundo, uma coisa. Ambos são marcados com a terminação -a no acusativo (فَتْحَة). A ordem pode ser VSO (verbo, sujeito, objeto1, objeto2) ou VOSO em algumas construções. Com verbos de 'transformação' como جَعَلَ (tornar-se) ou صَيَّرَ (fazer), o segundo objeto é um predicado. Com verbos de 'consideração' como رَأَى (ver/considerar) e ظَنَّ, o segundo objeto é um complemento predicativo. É crucial não usar preposições entre os dois objetos, exceto em dialetos ou com verbos específicos. No árabe clássico, a estrutura é direta: الفعل + الفاعل + المفعول الأول + المفعول الثاني.",
+    "concept_examples": [
+      {
+        "text": "أَعْطَى الْمُعَلِّمُ الطَّالِبَ كِتَابًا.",
+        "translation": "O professor deu ao aluno um livro.",
+        "phonetic": "ʾaʿṭā al-muʿallimu al-ṭāliba kitāban."
+      },
+      {
+        "text": "عَلَّمَتِ الْأُمُّ ابْنَتَهَا الْقِرَاءَةَ.",
+        "translation": "A mãe ensinou à sua filha a leitura.",
+        "phonetic": "ʿallamati al-ʾummu ibnatahā al-qirāʾata."
+      },
+      {
+        "text": "مَنَحَتِ الْجَامِعَةُ الْبَاحِثَ جَائِزَةً.",
+        "translation": "A universidade concedeu ao pesquisador um prêmio.",
+        "phonetic": "manaḥati al-jāmiʿatu al-bāḥitha jāʾizatan."
+      },
+      {
+        "text": "ظَنَنْتُ الطَّقْسَ جَمِيلًا.",
+        "translation": "Eu pensei que o tempo estava bonito.",
+        "phonetic": "ẓanantu al-ṭaqsa jamīlan."
+      }
+    ],
+    "common_error": {
+      "wrong": "أَعْطَيْتُ إِلَى أَخِي هَدِيَّةً.",
+      "correct": "أَعْطَيْتُ أَخِي هَدِيَّةً.",
+      "correct_alt": "أَعْطَيْتُ هَدِيَّةً لِأَخِي (aceitável em dialetos ou com inversão)",
+      "explanation": "O erro vem da transferência da preposição portuguesa 'a' para o árabe. Em árabe, o verbo أَعْطَى rege diretamente dois objetos em acusativo, sem preposição. A preposição 'إلى' (para) não é usada nesse contexto. A forma correta é colocar o objeto indireto (a pessoa) logo após o verbo, sem preposição. Para evitar o erro, lembre-se: verbos de 'dar' e 'ensinar' em árabe não usam preposição para o objeto pessoal."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الأَفْعَالُ الَّتِي تَأْخُذُ مَفْعُولَيْنِ (الْمَفْعُولُ بِهِ الثَّانِي شَيْءٌ)",
+        "translation": "Verbos que levam dois objetos (o segundo objeto é uma coisa)",
+        "examples": [
+          {
+            "original": "أَعْطَانِي الْمُدِيرُ رُتْبًا.",
+            "phonetic": "ʾaʿṭānī al-mudīru rutban.",
+            "translation": "O diretor me deu um salário.",
+            "note": "Note o uso do sufixo -nī (me) como primeiro objeto, que é uma contração comum."
+          },
+          {
+            "original": "مَنَحَ الْحَاكِمُ الْجُنْدِيَّ وِسَامًا.",
+            "phonetic": "manaḥa al-ḥākimu al-jundiyya wisāman.",
+            "translation": "O governador concedeu ao soldado uma medalha.",
+            "note": "Ambos os objetos são substantivos definidos/indefinidos com terminações de acusativo."
+          },
+          {
+            "original": "سَأَلَ الطَّالِبُ الْمُعَلِّمَ سُؤَالًا.",
+            "phonetic": "saʾala al-ṭālibu al-muʿallima suʾālan.",
+            "translation": "O aluno perguntou ao professor uma pergunta.",
+            "note": "Aqui, 'perguntar' é usado com dois objetos diretos, diferente do português."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "أَفْعَالُ التَّحْوِيلِ وَالتَّصْيِيرِ",
+        "translation": "Verbos de transformação e tornar-se",
+        "examples": [
+          {
+            "original": "جَعَلَ الْقَانُونُ السَّرِقَةَ جَرِيمَةً.",
+            "phonetic": "jaʿala al-qānūnu al-sariqata jarīmatan.",
+            "translation": "A lei tornou o roubo um crime.",
+            "note": "O segundo objeto (جَرِيمَةً) é o resultado da transformação."
+          },
+          {
+            "original": "صَيَّرَ الْحُزْنُ الْفَرَحَ أَلَمًا.",
+            "phonetic": "ṣayyara al-ḥuznu al-faraḥa ʾalaman.",
+            "translation": "A tristeza transformou a alegria em dor.",
+            "note": "Verbos como صَيَّرَ são menos comuns, mas típicos do MSA."
+          },
+          {
+            "original": "حَوَّلَ الْفَنَّانُ الْخَشَبَ تِمْثَالًا.",
+            "phonetic": "ḥawwala al-fannānu al-khashaba timthālan.",
+            "translation": "O artista transformou a madeira em uma estátua.",
+            "note": "Aqui, o primeiro objeto é a matéria-prima, o segundo é o produto."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "أَفْعَالُ الظَّنِّ وَالْيَقِينِ (الْقَلْبِيَّةُ)",
+        "translation": "Verbos de opinião e certeza (verbos de coração)",
+        "examples": [
+          {
+            "original": "حَسِبْتُ الْجَوَّ مُمْطِرًا.",
+            "phonetic": "ḥasibtu al-jawwa mumṭiran.",
+            "translation": "Eu pensei que o clima estava chuvoso.",
+            "note": "O segundo objeto descreve o primeiro, funcionando como um predicativo do objeto."
+          },
+          {
+            "original": "وَجَدْتُ الْقَاعَةَ وَاسِعَةً.",
+            "phonetic": "wajadtu al-qāʿata wāsiʿatan.",
+            "translation": "Achei a sala espaçosa.",
+            "note": "O verbo وَجَدَ aqui significa 'achar/considerar', não 'encontrar'."
+          },
+          {
+            "original": "رَأَى الْمُحَامِيُّ الدَّلِيلَ قَوِيًّا.",
+            "phonetic": "raʾā al-muḥāmī al-dalīla qawiyyan.",
+            "translation": "O advogado considerou a evidência forte.",
+            "note": "Este uso de رَأَى é diferente do sentido de 'ver' com um objeto."
+          },
+          {
+            "original": "اعْتَقَدْتُ النَّتِيجَةَ مُخَيِّبَةً.",
+            "phonetic": "iʿtaqadtu al-natījata mukhayyibatan.",
+            "translation": "Acreditei que o resultado era decepcionante.",
+            "note": "Verbos derivados como اعْتَقَدَ também seguem esse padrão."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "pt": "Padrões verbais complexos (dois objetos, etc.)"
+    }
+  },
+  {
+    "id": "pt_C1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "فروق دقيقة بين الأزمنة والوجوه (Matizes entre tempos e aspectos verbais)",
+    "bridge": "Em português, a distinção entre pretérito perfeito e imperfeito é clara, mas o árabe usa um sistema aspectual diferente, baseado em perfeito (فعل ماضٍ) e imperfeito (فعل مضارع), com modalidades adicionais marcadas por prefixos e partículas. O falante de português tende a transferir a ideia de tempo cronológico para o árabe, mas o árabe prioriza o aspecto (concluído vs. em curso) e o modo (real vs. irreal). Cuidado com o uso do imperfeito com 'لن' (não) versus 'لا' (não) para negação, pois isso altera o tempo e o aspecto.",
+    "rule": "No árabe, o sistema verbal distingue-se entre o perfeito (الماضي), que expressa ação concluída (geralmente passado), e o imperfeito (المضارع), que expressa ação incompleta ou em progresso (presente/futuro). O imperfeito assume diferentes modalidades com prefixos: 'سـ' ou 'سوف' para futuro, 'لن' para negação futura, 'لم' para negação passada (que converte o imperfeito em passado negado), e 'لا' para negação presente. Além disso, o imperfeito pode ser usado em contextos narrativos para dar vividez (presente histórico). A aspectualidade é realçada por 'قد' antes do perfeito para indicar certeza ou passado recente, e por 'كان' + imperfeito para passado contínuo ou habitual. Em C1, espera-se que o aluno domine essas combinações e as nuances entre ações pontuais (perfeito), durativas/habituals (imperfeito) e a expressão de irrealidade em construções condicionais.",
+    "concept_examples": [
+      {
+        "text": "كَانَ يَكْتُبُ الرِّسَالَةَ حِينَ اتَّصَلْتُ بِهِ.",
+        "translation": "Ele estava escrevendo a carta quando liguei para ele.",
+        "phonetic": "kaːna jaktubu ar-risaːla ħiːna ttaṣaltu bihiː."
+      },
+      {
+        "text": "لَنْ أُسَافِرَ هَذَا الصَّيْفَ.",
+        "translation": "Não viajarei neste verão.",
+        "phonetic": "lan ʔusaːfira haːðaː ṣ-ṣajf."
+      },
+      {
+        "text": "لَمْ أَفْهَمْ الدَّرْسَ.",
+        "translation": "Não entendi a lição.",
+        "phonetic": "lam ʔafham ad-darsa."
+      },
+      {
+        "text": "قَدْ وَصَلَ القِطَارُ.",
+        "translation": "O trem já chegou (ou certamente chegou).",
+        "phonetic": "qad waṣala al-qiṭaːru."
+      }
+    ],
+    "common_error": {
+      "wrong": "لَنْ ذَهَبْتُ إِلَى السُّوقِ.",
+      "correct": "لَنْ أَذْهَبَ إِلَى السُّوقِ.",
+      "correct_alt": "لَمْ أَذْهَبْ إِلَى السُّوقِ.",
+      "explanation": "O erro ocorre porque o falante de português usa o tempo passado após 'لن', que é uma partícula de negação futura. Em árabe, 'لن' deve ser seguida pelo imperfeito (subjuntivo) para expressar 'não vou fazer'. Para negar uma ação passada, deve-se usar 'لم' seguido do imperfeito (que assume valor de passado nesse contexto). A transferência do português (não + pretérito) causa essa confusão. Lembre-se: 'لن' + imperfeito = futuro negado; 'لم' + imperfeito = passado negado."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "المضارع مع لن ولم",
+        "translation": "Imperfeito com 'lan' e 'lam'",
+        "examples": [
+          {
+            "original": "لَنْ يَذْهَبَ إِلَى العَمَلِ غَدًا.",
+            "phonetic": "lan jaðhaba ʔilaː al-ʕamali ɣadan.",
+            "translation": "Ele não irá trabalhar amanhã.",
+            "note": "Uso de 'لن' com imperfeito subjuntivo para negar futuro."
+          },
+          {
+            "original": "لَمْ تَكْتُبِ الطَّالِبَةُ الوَاجِبَ.",
+            "phonetic": "lam taktubi aṭ-ṭaːlibatu al-waːjib.",
+            "translation": "A aluna não escreveu o dever de casa.",
+            "note": "Uso de 'لم' com imperfeito para negar ação passada."
+          },
+          {
+            "original": "لَمْ نَشْتَرِ الفَوَاكِهَ مِنَ السُّوقِ.",
+            "phonetic": "lam naʃtari al-fawaːkiha mina as-suːq.",
+            "translation": "Não compramos as frutas do mercado.",
+            "note": "A negação com 'لم' é específica para passado, mas com imperfeito."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "كان + المضارع للماضي المستمر",
+        "translation": "كان + imperfeito para passado contínuo/habitual",
+        "examples": [
+          {
+            "original": "كَانُوا يَلْعَبُونَ فِي الحَدِيقَةِ كُلَّ يَوْمٍ.",
+            "phonetic": "kaːnuː jalʕabuːna fiː al-ħadiːqati kulla jawm.",
+            "translation": "Eles costumavam brincar no jardim todos os dias.",
+            "note": "A construção 'كان' + imperfeito expressa hábito no passado, similar ao pretérito imperfeito em português."
+          },
+          {
+            "original": "كَانَتْ تَقْرَأُ الرِّوَايَةَ لَمَّا دَخَلْتُ.",
+            "phonetic": "kaːnat taqraʔu ar-riwaːyata lamma daχaltu.",
+            "translation": "Ela estava lendo o romance quando entrei.",
+            "note": "Aqui, 'كانت' + imperfeito indica ação em progresso interrompida por outra ação."
+          },
+          {
+            "original": "كُنَّا نَشْرَبُ الشَّايَ فِي المَقْهَى كُلَّ عَصْرٍ.",
+            "phonetic": "kunnaː naʃrabu aʃ-ʃaːja fiː al-maqhaː kulla ʕaṣr.",
+            "translation": "Nós costumávamos beber chá no café todas as tardes.",
+            "note": "Uso de 'كان' no plural para expressar rotina passada."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "قد مع الماضي والمضارع",
+        "translation": "قد com perfeito e imperfeito",
+        "examples": [
+          {
+            "original": "قَدْ أَفْلَسَتِ الشَّرِكَةُ.",
+            "phonetic": "qad ʔaflasati aʃ-ʃarikatu.",
+            "translation": "A empresa certamente faliu (ou já faliu).",
+            "note": "قد + perfeito reforça a certeza ou proximidade temporal."
+          },
+          {
+            "original": "قَدْ تَكُونُ المَشْكِلَةُ بَسِيطَةً.",
+            "phonetic": "qad takuːnu al-maʃkilatu basiːṭan.",
+            "translation": "O problema pode ser simples.",
+            "note": "قد + imperfeito expressa possibilidade, equivalente a 'pode ser' em português."
+          },
+          {
+            "original": "قَدْ قَرَأْتُ الكِتَابَ مِنْ قَبْلُ.",
+            "phonetic": "qad qaraʔtu al-kitaːba min qablu.",
+            "translation": "Já li o livro antes.",
+            "note": "Com perfeito, قد indica experiência passada, similar ao pretérito perfeito composto."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Matizes entre tempos e aspectos verbais"
+    }
+  },
+  {
+    "id": "pt_C1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "المبني للمجهول المتقدم / Passivas avançadas",
+    "bridge": "Em português, usamos estruturas como 'acredita-se que' ou 'diz-se que' para impessoalizar a informação. Em árabe, a passiva impessoal é formada principalmente pelo verbo na voz passiva (الفعل المبني للمجهول) sem agente, e com o sujeito lógico no caso nominativo. Diferente do português, o árabe não tem um pronome 'se' equivalente; a voz passiva é marcada por mudanças vocálicas internas. Além disso, em árabe, quando o verbo passivo é intransitivo, o sujeito pode ser um 'sujeito fictício' (نائب الفاعل) que concorda em gênero com o verbo. É importante não traduzir literalmente o 'se' português, pois isso causa erros.",
+    "rule": "No árabe, a voz passiva (المبني للمجهول) é formada alterando as vogais do verbo no pretérito (ex.: كَتَبَ → كُتِبَ) e no presente (ex.: يَكْتُبُ → يُكْتَبُ). Para verbos derivados (como os das formas II-X), a passiva é feita mudando a primeira vogal para damma (u) e a penúltima para kasra (i), com exceções. O agente (الفاعل) é omitido, e o objeto direto torna-se o 'nā'ib al-fā'il' (نائب الفاعل) no nominativo (marfū'), e o verbo concorda com ele em gênero e número, mas não em pessoa quando é terceira pessoa. Para passivas impessoais com verbos intransitivos (ex.: 'diz-se', 'acredita-se'), o árabe usa um pronome impessoal oculto (ضمير مستتر) ou uma construção com 'إنّ' + masdar, ex.: يُقَالُ إِنَّ... (diz-se que). Também se usa 'يُظَنُّ' (acredita-se) e 'يُعتَقَدُ أَنَّ' (é crido que). Nestas construções, a oração subordinada funciona como sujeito. Cuidado com a concordância de gênero: o verbo passivo impessoal geralmente fica no masculino singular, mas se o sujeito lógico for feminino, o verbo deve concordar. Exceções: verbos como 'كَانَ' (ser/estar) não têm forma passiva própria; usa-se 'يُقَالُ' com complementos.",
+    "concept_examples": [
+      {
+        "text": "يُقَالُ إِنَّ الْجَوَّ سَيَكُونُ جَمِيلًا غَدًا.",
+        "translation": "Diz-se que o tempo estará bonito amanhã.",
+        "phonetic": "ju'qaːlu ʔinna al-dʒawwa sajakunu dʒamiːlan ɣadan."
+      },
+      {
+        "text": "يُعْتَقَدُ أَنَّ الْقَرْيَةَ تَأَسَّسَتْ فِي الْقَرْنِ الثَّالِثِ.",
+        "translation": "Acredita-se que a vila foi fundada no século III.",
+        "phonetic": "juʕtaqadu ʔanna al-qarjata taʔassasat fiː al-qarni aθ-θaːliθi."
+      },
+      {
+        "text": "كُتِبَ الْكِتَابُ بِوَاسِطَةِ مُؤَلِّفٍ مَجْهُولٍ.",
+        "translation": "O livro foi escrito por um autor desconhecido.",
+        "phonetic": "kutiba al-kitaːbu biwaːsitˤati muʔallifin madʒhuːlin."
+      },
+      {
+        "text": "يُشَاهَدُ الْفِيْلْمُ فِي جَمِيعِ دُورِ السِّينَمَا.",
+        "translation": "O filme é visto em todos os cinemas.",
+        "phonetic": "juʃaːhadu al-fiːlmu fiː dʒamiːʕi duːri as-siːnamaː."
+      }
+    ],
+    "common_error": {
+      "wrong": "يُقَالُ أَنَّ الْجَوَّ جَمِيلٌ غَدًا.",
+      "correct": "يُقَالُ إِنَّ الْجَوَّ سَيَكُونُ جَمِيلًا غَدًا.",
+      "correct_alt": "يُقَالُ إِنَّ الْجَوَّ جَمِيلٌ غَدًا.",
+      "explanation": "O erro ocorre porque o aluno transfere a construção portuguesa 'diz-se que' diretamente para o árabe, usando 'أَنَّ' (que) em vez de 'إِنَّ' (que, mas com regras diferentes). Em árabe, após verbos de dizer/percepção, usa-se 'إِنَّ' (com acusativo no sujeito e nominativo no predicado) e não 'أَنَّ' (que é usado após verbos que não são de percepção). Além disso, o advérbio 'غدًا' (amanhã) exige futuro, então é comum usar a partícula 'سَ' para indicar futuro. Evite traduzir literalmente; memorize as partículas que regem 'إنَّ' e 'أنَّ'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "المبني للمجهول مع الأفعال المتعدية",
+        "translation": "Passiva com verbos transitivos",
+        "examples": [
+          {
+            "original": "فُتِحَ الْبَابُ.",
+            "phonetic": "futiħa al-baːbu.",
+            "translation": "A porta foi aberta.",
+            "note": "Verbo transitivo 'فتح' (abrir) no passivo: o objeto direto 'الباب' torna-se sujeito e concorda em gênero com o verbo (masculino)."
+          },
+          {
+            "original": "شُرِبَ الْعَصِيرُ مِنْ قِبَلِ الْأَطْفَالِ.",
+            "phonetic": "ʃuriba al-ʕasˤiːru min qibali al-ʔatˤfaːli.",
+            "translation": "O suco foi bebido pelas crianças.",
+            "note": "Em árabe, o agente pode ser introduzido com 'من قبل' (por), mas é opcional e menos comum."
+          },
+          {
+            "original": "رُسِمَتِ اللَّوْحَةُ بِدِقَّةٍ.",
+            "phonetic": "rusimat al-lawħatu bidiqqa.",
+            "translation": "O quadro foi pintado com precisão.",
+            "note": "Concordância de gênero: 'لوحة' é feminina, então o verbo passivo 'رسمت' termina com 'ت'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "المبني للمجهول مع الأفعال اللازمة",
+        "translation": "Passiva com verbos intransitivos",
+        "examples": [
+          {
+            "original": "ذُهِبَ إِلَى السُّوقِ.",
+            "phonetic": "ðuhiba ʔilaː as-suːqi.",
+            "translation": "Foi ao mercado (impessoal: 'foi-se ao mercado').",
+            "note": "Verbo intransitivo 'ذهب' (ir) no passivo: usa-se um sujeito fictício (implícito) e o verbo fica no masculino singular."
+          },
+          {
+            "original": "جُلِسَ فِي الْحَدِيقَةِ.",
+            "phonetic": "dʒulisa fiː al-ħadiːqati.",
+            "translation": "Sentou-se no jardim.",
+            "note": "Passiva impessoal com verbo intransitivo 'جلس' (sentar); não há objeto direto, então o verbo fica invariável."
+          },
+          {
+            "original": "مَرَّ بِالْمَدِينَةِ.",
+            "phonetic": "murra bi-al-madiːnati.",
+            "translation": "Passou-se pela cidade.",
+            "note": "Verbo 'مرّ' (passar) no passivo com preposição: o complemento preposicional permanece, e o verbo fica no masculino singular."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "الإنشاءات المتقدمة: يُقَالُ، يُعْتَقَدُ، يُظَنُّ",
+        "translation": "Construções avançadas: diz-se, acredita-se, pensa-se",
+        "examples": [
+          {
+            "original": "يُظَنُّ أَنَّهُ قَادِمٌ إِلَى الِاجْتِمَاعِ.",
+            "phonetic": "juðˤannu ʔannahu qaːdimun ʔilaː al-ʔidʒtimaːʕi.",
+            "translation": "Pensa-se que ele está vindo para a reunião.",
+            "note": "Uso de 'يُظَنُّ' seguido de 'أَنَّ' + sujeito no acusativo (هُ) e predicado no nominativo (قادم)."
+          },
+          {
+            "original": "يُعْتَقَدُ أَنَّ الْحُكُومَةَ سَتُصْدِرُ قَانُونًا جَدِيدًا.",
+            "phonetic": "juʕtaqadu ʔanna al-ħukuːmata satusˤdiru qaːnuːnan dʒadiːdan.",
+            "translation": "Acredita-se que o governo emitirá uma nova lei.",
+            "note": "Note o acusativo em 'الحكومةَ' (الفتحة) e o futuro com 'سَ'."
+          },
+          {
+            "original": "قِيلَ إِنَّ النَّتِيجَةَ كَانَتْ مُتَوَقَّعَةً.",
+            "phonetic": "qiːla ʔinna an-natiːdʒata kaːnat mutawaqqaʕatan.",
+            "translation": "Foi dito que o resultado era esperado.",
+            "note": "Passado da passiva impessoal: 'قيل' (foi dito), com 'إنَّ' e uma oração nominal."
+          },
+          {
+            "original": "لَا يُعْلَمُ مَا إِذَا كَانَ سَيَنْجَحُ.",
+            "phonetic": "laː juʕlamu maː ʔiðaː kaːna sajanʒaħu.",
+            "translation": "Não se sabe se ele terá sucesso.",
+            "note": "Uso de 'لا يُعْلَمُ' (não se sabe) com uma oração indireta encabeçada por 'مَا إِذَا'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔨",
+    "phonetic": "",
+    "translations": {
+      "pt": "Passivas avançadas"
+    }
+  }
+]

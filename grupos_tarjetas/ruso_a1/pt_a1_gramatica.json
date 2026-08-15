@@ -1,0 +1,492 @@
+[
+  {
+    "id": "pt_A1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Быть (ser/estar) и его формы",
+    "bridge": "Em português, usamos 'ser' e 'estar' para expressar identidade, estado e características (ex.: 'eu sou', 'eu estou'). Em russo, o verbo 'быть' (ser/estar) é usado no presente, mas quase sempre é omitido em frases afirmativas simples. Por exemplo, 'Я студент' significa literalmente 'Eu estudante', sem o 'sou'. Isso é um dos maiores desafios para falantes de português, que tendem a inserir o verbo onde os russos não o usam. Além disso, o russo tem um sistema de casos, e o verbo 'быть' no passado e no futuro apresenta formas específicas: 'был', 'была', 'было', 'были' para o passado, e 'буду', 'будешь', 'будет' etc. para o futuro.",
+    "rule": "No presente (по настоящему времени), o verbo 'быть' é normalmente omitido em frases como 'Я дома' (Estou em casa) ou 'Он врач' (Ele é médico). A forma 'есть' (pronuncia-se 'yest') existe e significa 'há' ou 'existe', mas não é usada como cópula com adjetivos ou substantivos no sentido de 'ser' no presente. No passado, 'быть' é conjugado de acordo com o gênero e o número do sujeito: 'я был' (eu fui/estive - masculino), 'я была' (eu fui/estive - feminino), 'оно было' (ele/ela/coisa foi/esteve - neutro), 'мы были' (nós fomos/estivemos). No futuro, usa-se 'буду', 'будешь', 'будет', 'будем', 'будете', 'будут' + infinitivo ou + substantivo/adjetivo no instrumental (para futuridade de estado). Em frases negativas no presente, usa-se 'не' antes do substantivo ou adjetivo, ex.: 'Я не студент' (Não sou estudante). No passado, a negação é 'не был', 'не была', etc. O uso de 'быть' no presente é obrigatório em algumas construções exclamativas ou para dar ênfase, ex.: 'Вот это да!' ou 'Кто есть кто?'",
+    "concept_examples": [
+      {
+        "text": "Я студент.",
+        "translation": "Eu sou estudante.",
+        "phonetic": "[ja stuˈdʲent]"
+      },
+      {
+        "text": "Он дома.",
+        "translation": "Ele está em casa.",
+        "phonetic": "[on ˈdomə]"
+      },
+      {
+        "text": "Вчера я был в кино.",
+        "translation": "Ontem eu fui/estive no cinema.",
+        "phonetic": "[ftɕɪˈra ja bɨl fkʲɪˈno]"
+      },
+      {
+        "text": "Завтра я буду дома.",
+        "translation": "Amanhã eu estarei em casa.",
+        "phonetic": "[ˈzaftrə ja ˈbudu ˈdomə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я есть студент.",
+      "correct": "Я студент.",
+      "correct_alt": "",
+      "explanation": "Em português, dizemos 'eu sou estudante', então é comum o aprendiz de russo colocar 'есть' (que é a forma do verbo ser/estar no presente, mas usada em contextos de existência) entre o sujeito e o predicado. No russo, o presente do verbo 'быть' é omitido em frases afirmativas simples. Para evitar esse erro, lembre-se de que, no presente, a estrutura é simplesmente 'sujeito + predicado nominal'. Você só usa 'есть' quando quer dizer 'há' ou 'existe', por exemplo: 'У меня есть книга' (Eu tenho um livro)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Настоящее время: отсутствие глагола",
+        "translation": "Presente: ausência do verbo",
+        "examples": [
+          {
+            "original": "Я учитель.",
+            "phonetic": "[ja uˈt͡ɕitʲɪlʲ]",
+            "translation": "Eu sou professor.",
+            "note": "Aqui, não há nenhum verbo. O substantivo 'учитель' (professor) é o predicado."
+          },
+          {
+            "original": "Она красивая.",
+            "phonetic": "[ɐˈna krɐˈsʲivəjə]",
+            "translation": "Ela é bonita.",
+            "note": "O adjetivo 'красивая' concorda em gênero (feminino) com o sujeito."
+          },
+          {
+            "original": "Мы из Бразилии.",
+            "phonetic": "[mɨ iz brɐˈzʲilʲɪi]",
+            "translation": "Nós somos do Brasil.",
+            "note": "A preposição 'из' é usada para indicar origem, e o verbo continua ausente."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Прошедшее время: был/была/было/были",
+        "translation": "Passado: был/была/было/были",
+        "examples": [
+          {
+            "original": "Вчера я был занят.",
+            "phonetic": "[ftɕɪˈra ja bɨl ˈzanʲət]",
+            "translation": "Ontem eu estava ocupado.",
+            "note": "Para sujeito masculino, usa-se 'был'."
+          },
+          {
+            "original": "Она была в школе.",
+            "phonetic": "[ɐˈna bɨˈla fˈʂkolʲe]",
+            "translation": "Ela foi/esteve na escola.",
+            "note": "Para sujeito feminino, usa-se 'была'."
+          },
+          {
+            "original": "Это было интересно.",
+            "phonetic": "[ˈɛtə bɨˈlə ɪnʲtʲɪˈrʲɛsnə]",
+            "translation": "Isso foi interessante.",
+            "note": "Para sujeito neutro (это), usa-se 'было'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Будущее время: буду, будешь, будет...",
+        "translation": "Futuro: futuro, será, será...",
+        "examples": [
+          {
+            "original": "Завтра я буду врачом.",
+            "phonetic": "[ˈzaftrə ja ˈbudu vrɐˈt͡ɕɵm]",
+            "translation": "Amanhã eu serei médico.",
+            "note": "No futuro, o complemento vai para o caso instrumental (врачом)."
+          },
+          {
+            "original": "Ты будешь дома?",
+            "phonetic": "[tɨ ˈbudʲɪʂ ˈdomə]",
+            "translation": "Você estará em casa?",
+            "note": "A forma 'будешь' é usada com o pronome 'ты' (você)."
+          },
+          {
+            "original": "Мы будем в Москве.",
+            "phonetic": "[mɨ ˈbudʲɪm v mɐskˈvʲe]",
+            "translation": "Nós estaremos em Moscou.",
+            "note": "A forma 'будем' é usada com 'мы' (nós)."
+          }
+        ]
+      }
+    ],
+    "emoji": "👤",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbo ser-estar equivalente e suas formas"
+    }
+  },
+  {
+    "id": "pt_A1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Личные местоимения / Pronomes pessoais",
+    "bridge": "Em português, os pronomes pessoais (eu, tu, ele, nós, vós, eles) são usados com frequência, mas em russo eles são opcionais porque a terminação do verbo já indica a pessoa. No entanto, você deve usá-los para dar ênfase ou evitar ambiguidade. Além disso, o russo tem uma forma específica para 'você' formal (вы) que também é usada para 'eles', o que pode confundir falantes de português. Outra diferença importante: o pronome 'он' pode referir-se a qualquer substantivo masculino, 'она' a qualquer feminino e 'оно' a qualquer neutro, algo que não existe em português.",
+    "rule": "Os pronomes pessoais em russo são: я (eu), ты (tu/você informal), он (ele), она (ela), оно (ele/ela para neutro), мы (nós), вы (vocês/você formal), они (eles/elas). Eles geralmente são omitidos porque a desinência verbal já indica a pessoa. Use-os para ênfase ou contraste: 'Я говорю' (eu falo) vs. 'Говорю' (falo). O pronome 'вы' é usado para tratamento formal (como 'você' em português em situações formais) e também para o plural 'vocês'. Não há distinção de gênero nos pronomes de primeira e segunda pessoa. Para terceira pessoa, o gênero é marcado (он, она, оно) e concorda com o gênero do substantivo referido. Na forma escrita, os pronomes são frequentemente omitidos, exceto em situações de ênfase ou quando o verbo não indica claramente a pessoa (ex.: no passado, que tem gênero, mas não pessoa).",
+    "concept_examples": [
+      {
+        "text": "Я студент.",
+        "translation": "Eu sou estudante.",
+        "phonetic": "[ja stu'dʲent]"
+      },
+      {
+        "text": "Ты говоришь по-русски?",
+        "translation": "Você fala russo?",
+        "phonetic": "[tɨ ɡəvɐ'rʲiʂ pə 'ruskʲɪ]"
+      },
+      {
+        "text": "Она работает здесь.",
+        "translation": "Ela trabalha aqui.",
+        "phonetic": "[ɐ'na rɐ'botəjt ʑdʲesʲ]"
+      },
+      {
+        "text": "Мы живём в Москве.",
+        "translation": "Nós moramos em Moscou.",
+        "phonetic": "[mɨ ʐɨ'vʲom v mɐ'skvʲe]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я есть студент.",
+      "correct": "Я студент.",
+      "correct_alt": "",
+      "explanation": "Em português, usamos o verbo 'ser' para identificar profissões ou características, mas em russo o verbo 'быть' (ser) é normalmente omitido no presente. Dizer 'я есть' soa artificial e é um erro comum para falantes de português. Para dizer 'eu sou estudante', simplesmente diga 'я студент'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Единственное число",
+        "translation": "Singular",
+        "examples": [
+          {
+            "original": "Я читаю.",
+            "phonetic": "[ja tɕi'taju]",
+            "translation": "Eu leio.",
+            "note": "Note que 'я' é usado, mas muitas vezes é omitido porque o verbo já indica a pessoa."
+          },
+          {
+            "original": "Ты говоришь.",
+            "phonetic": "[tɨ ɡəvɐ'rʲiʂ]",
+            "translation": "Tu falas / Você fala.",
+            "note": "O pronome 'ты' é informal e usado entre amigos, familiares e pessoas da mesma idade."
+          },
+          {
+            "original": "Он живёт.",
+            "phonetic": "[on ʐɨ'vʲot]",
+            "translation": "Ele mora.",
+            "note": "Use 'он' para substantivos masculinos e 'она' para femininos, ambos correspondem a 'ele/ela'."
+          },
+          {
+            "original": "Она работает.",
+            "phonetic": "[ɐ'na rɐ'botəjt]",
+            "translation": "Ela trabalha.",
+            "note": "'Она' é usada para qualquer substantivo feminino, mesmo coisas (ex.: книга - livro)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Множественное число",
+        "translation": "Plural",
+        "examples": [
+          {
+            "original": "Мы любим музыку.",
+            "phonetic": "[mɨ 'lʲubʲɪm 'muzɨku]",
+            "translation": "Nós amamos música.",
+            "note": "Use 'мы' para nós. Em russo, o pronome é opcional, então 'любим музыку' também é correto."
+          },
+          {
+            "original": "Вы говорите по-английски?",
+            "phonetic": "[vɨ ɡəvɐ'rʲitʲe pə ɐn'ɡlʲijskʲɪ]",
+            "translation": "Vocês falam inglês?",
+            "note": "'Вы' pode significar 'vocês' (plural) ou 'você' (formal, singular). Preste atenção ao contexto para distinguir."
+          },
+          {
+            "original": "Они здесь.",
+            "phonetic": "[ɐ'nʲi zʲdʲesʲ]",
+            "translation": "Eles/Elas estão aqui.",
+            "note": "'Они' é usado para 'eles' e 'elas', independentemente do gênero, e também para substantivos no plural."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Формальное вы",
+        "translation": "O você formal",
+        "examples": [
+          {
+            "original": "Вы хорошо говорите по-русски.",
+            "phonetic": "[vɨ xɐrɐ'ʂo ɡəvɐ'rʲitʲe pə 'ruskʲɪ]",
+            "translation": "O senhor/a senhora fala bem russo.",
+            "note": "Aqui 'вы' é usado como tratamento formal, equivalente a 'o senhor/a senhora' em português."
+          },
+          {
+            "original": "Как вас зовут?",
+            "phonetic": "[kak vas zɐ'vut]",
+            "translation": "Como você se chama? (formal)",
+            "note": "Na forma formal, usa-se 'вас' (acusativo/genitivo) e o verbo na 3ª pessoa do plural. Compare com 'как тебя зовут?' para informal."
+          },
+          {
+            "original": "Простите, вы не знаете?",
+            "phonetic": "[prɐ'sʲtʲitʲe, vɨ nʲe znɐ'jetʲe]",
+            "translation": "Desculpe, o senhor (a senhora) sabe?",
+            "note": "Use 'Простите' (desculpe) com 'вы' para ser educado. Em português, usamos 'o senhor' ou 'a senhora'."
+          }
+        ]
+      }
+    ],
+    "emoji": "👤",
+    "phonetic": "",
+    "translations": {
+      "pt": "Pronomes pessoais"
+    }
+  },
+  {
+    "id": "pt_A1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Отсутствие артиклей / Ausência de artigos",
+    "bridge": "Em português, usamos artigos definidos e indefinidos frequentemente (o, a, um, uma). No russo, não existe nenhum artigo. Isso significa que você não precisa de palavras como 'o' ou 'um' – a ideia de definido ou indefinido é transmitida pelo contexto, pela ordem das palavras ou pela entonação. Como falante de português, você deve resistir à tentação de traduzir artigos diretamente. Por exemplo, 'um livro' em russo é simplesmente 'книга' (kniga), e 'o livro' também é 'книга'.",
+    "rule": "Em russo, não há artigos definidos (o, a, os, as) nem indefinidos (um, uma, uns, umas). Para A1, você precisa saber que:\n- Substantivos são usados sozinhos: 'стол' (stol) significa 'mesa' ou 'uma mesa' dependendo do contexto.\n- Para indicar definido ou indefinido, os falantes usam:\n  - Ordem das palavras: sujeito antes do verbo geralmente indica informação nova (indefinido), enquanto a ênfase pode indicar definido.\n  - Pronomes demonstrativos: 'этот' (étot, este/esse) para 'este' ou 'esse' (definido), 'тот' (tot, aquele) para 'aquele' (definido).\n  - Palavras como 'один' (odín, um) às vezes são usadas para enfatizar 'um' (indefinido), mas não é obrigatório.\n  - Contexto e entonação.\nPara A1, foque em usar substantivos sem artigos e preste atenção ao contexto. Não tente traduzir 'um' ou 'o' literalmente.",
+    "concept_examples": [
+      {
+        "text": "Я вижу стол.",
+        "translation": "Eu vejo uma mesa. / Eu vejo a mesa.",
+        "phonetic": "[ja ˈvʲiʐu stol]"
+      },
+      {
+        "text": "Это книга.",
+        "translation": "Isto é um livro. / Isto é o livro.",
+        "phonetic": "[ˈɛtə ˈknʲiɡə]"
+      },
+      {
+        "text": "У меня есть собака.",
+        "translation": "Eu tenho um cachorro. (literalmente: Comigo há cachorro)",
+        "phonetic": "[u mʲɪˈnʲa jesʲtʲ sɐˈbakə]"
+      },
+      {
+        "text": "Где машина?",
+        "translation": "Onde está o carro? (indefinido: Onde está um carro?)",
+        "phonetic": "[ɡdʲe mɐˈʂɨnə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я вижу один стол. (usando один para 'um' em toda frase)",
+      "correct": "Я вижу стол.",
+      "correct_alt": "Я вижу один стол. (quando quer enfatizar que é exatamente um, mas não é necessário)",
+      "explanation": "Falantes de português frequentemente adicionam 'один' (um) ou 'этот' (este) quando querem dizer 'um' ou 'o', mas em russo isso é desnecessário e soa artificial. Use 'один' somente quando a quantidade é importante (ex: 'я хочу один, не два' – quero um, não dois). O contexto e a entonação já transmitem a ideia. Para evitar o erro, pratique falar frases sem artigos e confie no contexto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Существительные без артиклей",
+        "translation": "Substantivos sem artigos",
+        "examples": [
+          {
+            "original": "Это стол.",
+            "phonetic": "[ˈɛtə stol]",
+            "translation": "Isto é uma mesa / a mesa.",
+            "note": "Aqui 'стол' pode ser definido ou indefinido. Sem contexto, geralmente entendemos como 'uma mesa'."
+          },
+          {
+            "original": "Я вижу дом.",
+            "phonetic": "[ja ˈvʲiʐu dom]",
+            "translation": "Eu vejo uma casa / a casa.",
+            "note": "Dependendo da situação, 'дом' pode se referir a uma casa específica ou não."
+          },
+          {
+            "original": "У меня есть чай.",
+            "phonetic": "[u mʲɪˈnʲa jesʲtʲ t͡ɕaj]",
+            "translation": "Eu tenho chá / Eu tenho um chá.",
+            "note": "Em português, diríamos 'tenho chá' sem artigo, mas em contextos com 'um', lembre que não há equivalente."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Использование «один» для неопределённости",
+        "translation": "Uso de 'odin' para indefinição",
+        "examples": [
+          {
+            "original": "Я купил один хлеб.",
+            "phonetic": "[ja kuˈpʲil ˈodʲin xlʲep]",
+            "translation": "Eu comprei um pão (enfatizando que foi apenas um).",
+            "note": "Aqui 'один' enfatiza quantidade, não é um artigo obrigatório. Sem 'один', a frase seria 'я купил хлеб' – eu comprei pão."
+          },
+          {
+            "original": "Дай мне один карандаш.",
+            "phonetic": "[daj mʲnʲe ˈodʲin kərɐnˈdaʂ]",
+            "translation": "Me dá um lápis (um, não dois).",
+            "note": "Use 'один' quando a quantidade importa. Caso contrário, 'дай мне карандаш' é suficiente."
+          },
+          {
+            "original": "Один человек мне звонил.",
+            "phonetic": "[ˈodʲin t͡ɕɪˈlovʲɪk mʲnʲe ˈzvonʲɪl]",
+            "translation": "Uma pessoa me ligou (alguma pessoa).",
+            "note": "Aqui 'один' significa 'um certo', mas também pode-se dizer 'человек мне звонил' sem 'один', deixando indefinido pelo contexto."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Использование указательных местоимений для определённости",
+        "translation": "Uso de pronomes demonstrativos para definição",
+        "examples": [
+          {
+            "original": "Этот дом большой.",
+            "phonetic": "[ˈɛtət dom bɐlʲˈʂoj]",
+            "translation": "Esta casa é grande (definida, próxima).",
+            "note": "Use 'этот' (este/esse) para se referir a algo específico e próximo, semelhante a 'este' em português."
+          },
+          {
+            "original": "Тот человек там.",
+            "phonetic": "[tot t͡ɕɪˈlovʲɪk tam]",
+            "translation": "Aquele homem ali (definido, distante).",
+            "note": "Use 'тот' (aquele) para algo distante, como em português."
+          },
+          {
+            "original": "Дай мне эту книгу.",
+            "phonetic": "[daj mʲnʲe ˈɛtʊ ˈknʲiɡʊ]",
+            "translation": "Me dá este livro (aquele que você está segurando).",
+            "note": "Aqui 'эту' indica definido e próximo. Sem ele, 'дай мне книгу' seria 'me dá um livro'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚫",
+    "phonetic": "",
+    "translations": {
+      "pt": "Ausência de artigos definidos e indefinidos"
+    }
+  },
+  {
+    "id": "pt_A1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Род и число существительных / Gênero e número dos substantivos",
+    "bridge": "Em português, o gênero dos substantivos é frequentemente previsível pela terminação (-o/-a), e o plural é formado com -s. Em russo, o gênero é gramatical e nem sempre óbvio pela terminação (ex.: 'ночь' é feminino, embora termine em consoante mole). Além disso, o plural não usa apenas -s: há várias desinências (-ы, -и, -а, -я) e algumas palavras mudam a terminação de forma irregular. Preste atenção especial às palavras que terminam em 'ь' (sinal suave), que podem ser masculinas ou femininas.",
+    "rule": "Em russo, os substantivos têm três gêneros: masculino, feminino e neutro. A terminação no singular costuma indicar o gênero: masculino geralmente termina em consoante (ex.: стол), feminino em -а/-я (ex.: книга, земля) e neutro em -о/-е (ex.: окно, море). Palavras terminadas em 'ь' podem ser masculinas (ex.: день) ou femininas (ex.: ночь) - é necessário memorizar. O plural é formado com as seguintes desinências: masculino e feminino em -ы (após consoante dura) ou -и (após consoante mole, к, г, х, ж, ш, щ, ч); neutro geralmente em -а (ex.: окно -> окна) ou -я (ex.: море -> моря). Alguns substantivos têm plural irregular (ex.: друг -> друзья). Para A1, memorize os padrões comuns e as exceções mais frequentes.",
+    "concept_examples": [
+      {
+        "text": "Это стол.",
+        "translation": "Isto é uma mesa.",
+        "phonetic": "ˈɛtə stol"
+      },
+      {
+        "text": "Это книга.",
+        "translation": "Isto é um livro.",
+        "phonetic": "ˈɛtə ˈknʲiɡə"
+      },
+      {
+        "text": "Это окно.",
+        "translation": "Isto é uma janela.",
+        "phonetic": "ˈɛtə ɐkˈno"
+      },
+      {
+        "text": "Это ночь.",
+        "translation": "Isto é uma noite.",
+        "phonetic": "ˈɛtə not͡ɕ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Это столы (querendo dizer 'isto é uma mesa', mas no singular)",
+      "correct": "Это стол.",
+      "correct_alt": "Это столы (se quisesse dizer 'estas são mesas')",
+      "explanation": "O erro ocorre porque em português o 's' no final indica plural, mas em russo '-ы' é a desinência de plural para muitos substantivos masculinos. O estudante pode confundir a forma singular com a plural. Lembre-se: o singular masculino termina em consoante, sem desinência; o plural adiciona -ы ou -и. Sempre verifique se o verbo 'это' (isto) concorda com o singular quando usado para identificar algo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Род: мужской, женский, средний",
+        "translation": "Gênero: masculino, feminino, neutro",
+        "examples": [
+          {
+            "original": "дом",
+            "phonetic": "dom",
+            "translation": "casa (masculino)",
+            "note": "Termina em consoante, típico masculino."
+          },
+          {
+            "original": "мама",
+            "phonetic": "ˈmamə",
+            "translation": "mãe (feminino)",
+            "note": "Termina em -а, típico feminino."
+          },
+          {
+            "original": "молоко",
+            "phonetic": "məlɐˈko",
+            "translation": "leite (neutro)",
+            "note": "Termina em -о, típico neutro."
+          },
+          {
+            "original": "день",
+            "phonetic": "dʲenʲ",
+            "translation": "dia (masculino)",
+            "note": "Termina em 'ь', mas é masculino. Memorize!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Число: единственное и множественное",
+        "translation": "Número: singular e plural",
+        "examples": [
+          {
+            "original": "стол - столы",
+            "phonetic": "stol - staˈlɨ",
+            "translation": "mesa - mesas",
+            "note": "Plural masculino regular com -ы."
+          },
+          {
+            "original": "книга - книги",
+            "phonetic": "ˈknʲiɡə - ˈknʲiɡʲi",
+            "translation": "livro - livros",
+            "note": "Feminino em -а muda para -и no plural."
+          },
+          {
+            "original": "окно - окна",
+            "phonetic": "ɐkˈno - ˈoknə",
+            "translation": "janela - janelas",
+            "note": "Neutro em -о muda para -а no plural."
+          },
+          {
+            "original": "море - моря",
+            "phonetic": "ˈmorʲe - mɐˈrʲa",
+            "translation": "mar - mares",
+            "note": "Neutro em -е muda para -я no plural."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Особые случаи и исключения",
+        "translation": "Casos especiais e exceções",
+        "examples": [
+          {
+            "original": "ночь - ночи",
+            "phonetic": "not͡ɕ - ˈnot͡ɕɪ",
+            "translation": "noite - noites",
+            "note": "Feminina terminada em 'ь', plural em -и."
+          },
+          {
+            "original": "друг - друзья",
+            "phonetic": "druk - drʊˈzʲja",
+            "translation": "amigo - amigos",
+            "note": "Plural irregular: друзья."
+          },
+          {
+            "original": "мать - матери",
+            "phonetic": "matʲ - ˈmatʲɪrʲɪ",
+            "translation": "mãe - mães",
+            "note": "Plural irregular com mudança de radical."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚻",
+    "phonetic": "",
+    "translations": {
+      "pt": "Gênero e número dos substantivos"
+    }
+  }
+]

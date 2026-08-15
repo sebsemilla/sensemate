@@ -1,0 +1,250 @@
+[
+  {
+    "id": "pt_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Прошедшее время (глаголы) / Passado simples (verbos)",
+    "bridge": "Em português, o passado simples é marcado por terminações verbais regulares (falou, comeu, partiu) e por muitas formas irregulares que você já conhece (foi, fez, disse). Em russo, o passado é formado de maneira diferente: em vez de conjugar a pessoa (eu, tu, ele), você usa uma forma que concorda em gênero e número com o sujeito. Ou seja, não há terminações para 'eu' ou 'você', mas sim para 'masculino', 'feminino', 'neutro' e 'plural'. Isso é um desafio para falantes de português, pois você precisa prestar atenção ao gênero do sujeito, algo que no português não afeta a forma do verbo. Além disso, o verbo ser/estar no passado é especial (был, была, было, были) e frequentemente é omitido em frases com adjetivos ou advérbios, como 'Estava frio' → 'Было холодно' (literalmente: 'Era frio' sem sujeito).",
+    "rule": "O passado simples em russo forma-se a partir do radical do infinitivo (geralmente a forma de infinitivo sem -ть, por exemplo, читать → чита-). Adicionam-se as seguintes terminações: -л para sujeito masculino singular (читал), -ла para feminino singular (читала), -ло para neutro singular (читало), -ли para plural (читали). Para verbos regulares, basta usar o radical. Verbos irregulares comuns incluem: идти (foi) → шёл, шла, шло, шли; есть (comeu) → ел, ела, ело, ели; быть (foi/esteve) → был, была, было, были. O verbo de movimento também pode mudar o radical (ехать → ехал). Na negativa, usa-se не + forma do passado (не был). O uso é semelhante ao português: ações concluídas no passado. No entanto, não há distinção entre 'pretérito perfeito' (ele leu) e 'pretérito imperfeito' (ele lia); o contexto e os advérbios (часто, всегда) indicam habitualidade. A ordem das palavras é flexível, mas o verbo no passado muitas vezes aparece no final da frase.",
+    "concept_examples": [
+      {
+        "text": "Я читал книгу.",
+        "translation": "Eu li (um) livro. (masculino)",
+        "phonetic": "/ja ʧʲɪˈtal ˈknʲiɡu/"
+      },
+      {
+        "text": "Она читала книгу.",
+        "translation": "Ela leu (um) livro.",
+        "phonetic": "/ɐˈna ʧʲɪˈtalə ˈknʲiɡu/"
+      },
+      {
+        "text": "Мы были дома.",
+        "translation": "Nós estivemos em casa.",
+        "phonetic": "/mɨ ˈbɨlʲɪ ˈdomə/"
+      },
+      {
+        "text": "Ты пошёл в магазин.",
+        "translation": "Você foi (a pé) à loja. (masculino)",
+        "phonetic": "/tɨ pɐˈʂol v məɡɐˈzʲin/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я был читать книгу.",
+      "correct": "Я читал книгу.",
+      "correct_alt": "",
+      "explanation": "Em português, usamos 'eu fui ler' (ir + infinitivo) para expressar o passado, mas em russo isso não é correto. O passado é formado apenas com a forma verbal do passado, sem verbo auxiliar. A estrutura 'быть + infinitivo' não existe. Para evitar esse erro, lembre-se de que o passado russo é uma única palavra (lê, leu, leu). Pratique a formação a partir do infinitivo: ler = читать → leu = читал (masc.), e não 'был читать'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Правильные глаголы / Verbos regulares",
+        "translation": "Verbos regulares",
+        "examples": [
+          {
+            "original": "Он работал вчера.",
+            "phonetic": "/on rɐˈbotəl ˈvʧʲerə/",
+            "translation": "Ele trabalhou ontem.",
+            "note": "Verbo trabalhar (работать) no passado masculino: adiciona-se -л ao radical trabalha-."
+          },
+          {
+            "original": "Она смотрела фильм.",
+            "phonetic": "/ɐˈna smɐˈtrʲelə ˈfʲilʲm/",
+            "translation": "Ela assistiu a um filme.",
+            "note": "Feminino: terminação -ла. Note que o radical é сохранen (assistir → смотреть → смотрела)."
+          },
+          {
+            "original": "Мы слушали музыку.",
+            "phonetic": "/mɨ ˈsluʂəlʲɪ ˈmuzɨku/",
+            "translation": "Nós ouvimos música.",
+            "note": "Plural: terminação -ли. Para todos os sujeitos plurais (nós, vocês, eles/elas), a mesma forma."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Неправильные глаголы / Verbos irregulares",
+        "translation": "Verbos irregulares",
+        "examples": [
+          {
+            "original": "Я был в университете.",
+            "phonetic": "/ja bɨl v ʊnʲɪvʲɪrˈsʲitʲɪtʲe/",
+            "translation": "Eu estive na universidade. (masculino)",
+            "note": "O verbo ser/estar (быть) tem formas irregulares: был, была, было, были."
+          },
+          {
+            "original": "Она была дома.",
+            "phonetic": "/ɐˈna bɨˈla ˈdomə/",
+            "translation": "Ela esteve em casa.",
+            "note": "Feminino: была (com acento no final). Não diga 'была' com acento no primeiro 'а'."
+          },
+          {
+            "original": "Они шли в парк.",
+            "phonetic": "/ɐˈnʲi ʂlʲi v park/",
+            "translation": "Eles foram (a pé) para o parque.",
+            "note": "O verbo идти (ir a pé) no passado: шёл, шла, шло, шли. Note a mudança de radical."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Отрицание и практика / Negação e prática",
+        "translation": "Negação e prática",
+        "examples": [
+          {
+            "original": "Я не читал газету.",
+            "phonetic": "/ja nʲɪ ʧʲɪˈtal ɡɐˈzʲetʊ/",
+            "translation": "Eu não li o jornal.",
+            "note": "Para negar, coloque 'не' antes do verbo no passado. A forma verbal não muda com a negação."
+          },
+          {
+            "original": "Она не была на работе.",
+            "phonetic": "/ɐˈna nʲɪ bɨˈla nə rɐˈbotʲe/",
+            "translation": "Ela não esteve no trabalho.",
+            "note": "Com o verbo 'быть', a negação segue o mesmo padrão. Preste atenção ao gênero: foi = был (masc.), foi = была (fem.)"
+          },
+          {
+            "original": "Мы не смотрели телевизор.",
+            "phonetic": "/mɨ nʲɪ smɐˈtrʲelʲɪ tʲɪlʲɪˈvʲizər/",
+            "translation": "Nós não assistimos TV.",
+            "note": "Exemplo com verbo regular no plural. A negação não muda a forma."
+          },
+          {
+            "original": "Вы гуляли в парке?",
+            "phonetic": "/vɨ ɡʊˈlʲælʲɪ f ˈparkʲe/",
+            "translation": "Vocês/você (formal) passearam no parque?",
+            "note": "Pergunta: apenas entonação, sem inversão. O verbo no plural (вы) concorda em número."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Passado simples"
+    }
+  },
+  {
+    "id": "pt_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Настоящее продолженное время / Presente contínuo",
+    "bridge": "Em português, o presente contínuo é formado com o verbo 'estar' + gerúndio ('estou fazendo'). Em russo, não existe uma forma verbal equivalente. Para expressar uma ação em andamento no momento da fala, o russo usa o presente do verbo imperfectivo (sem auxiliar). Isso pode confundir, pois muitas vezes você vai traduzir 'estou fazendo' simplesmente como 'я делаю' ('eu faço' / 'eu estou fazendo'). A diferença crucial é que o russo não tem o auxiliar 'estar' — o aspecto imperfectivo já indica que a ação está em progresso.",
+    "rule": "No russo, o presente é usado para expressar tanto ações habituais quanto ações em andamento no momento da fala. O verbo imperfectivo (geralmente o infinitivo sem prefixo) é usado nesses casos. A forma verbal concorda com o sujeito em pessoa e número. Para dar ênfase à continuidade, pode-se usar a construção 'сейчас' (agora) ou expressões como 'в данный момент' (no momento). Não há necessidade de auxiliar. Exceções: verbos de movimento podem ter formas especiais (ex.: 'идти' vs 'ходить') para indicar direção e continuidade, mas para A2 focamos no presente simples/contínuo dos verbos comuns. Lembre-se de que o russo não tem distinção entre 'eu faço' e 'eu estou fazendo' — ambas são 'я делаю'. O contexto indica se é habitual ou contínuo.",
+    "concept_examples": [
+      {
+        "text": "Я читаю книгу.",
+        "translation": "Eu estou lendo um livro.",
+        "phonetic": "[ja t͡ɕiˈtaju ˈknʲigu]"
+      },
+      {
+        "text": "Она сейчас работает.",
+        "translation": "Ela está trabalhando agora.",
+        "phonetic": "[ɐˈna ˈsʲejt͡ɕas rɐˈbotəjɪt]"
+      },
+      {
+        "text": "Они играют в футбол.",
+        "translation": "Eles estão jogando futebol.",
+        "phonetic": "[ɐˈnʲi ɪˈɡrajut f fʊdˈbol]"
+      },
+      {
+        "text": "Мы готовим ужин.",
+        "translation": "Nós estamos preparando o jantar.",
+        "phonetic": "[mɨ gɐˈtovʲim ˈuʐɨn]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я есть читаю книгу.",
+      "correct": "Я читаю книгу.",
+      "correct_alt": "",
+      "explanation": "Este erro ocorre porque em português usamos o verbo 'estar' como auxiliar, e o aluno tenta traduzir literalmente usando 'есть' (que é o verbo 'ser/estar' em russo). No russo, 'есть' é usado principalmente no sentido de 'ter' (e geralmente é omitido nas formas presente de 'ser'). Para ações contínuas, não se usa nenhum auxiliar; o verbo principal no presente imperfectivo já carrega o sentido. Evite usar 'есть' com verbos no presente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Образование настоящего времени (глаголы I спряжения)",
+        "translation": "Formação do presente (verbos da 1ª conjugação)",
+        "examples": [
+          {
+            "original": "Я делаю уроки.",
+            "phonetic": "[ja ˈdʲelaju ˈurokʲi]",
+            "translation": "Eu estou fazendo a lição de casa.",
+            "note": "Verbo 'делать' (fazer) – 1ª conjugação. A terminação -ю para 'я' indica ação presente."
+          },
+          {
+            "original": "Ты читаешь текст.",
+            "phonetic": "[tɨ t͡ɕiˈtaɪʂ tʲekst]",
+            "translation": "Você está lendo o texto.",
+            "note": "No presente, o verbo 'читать' tem a terminação -ешь para 'ты'."
+          },
+          {
+            "original": "Мы слушаем музыку.",
+            "phonetic": "[mɨ ˈsluʂajem ˈmuzɨku]",
+            "translation": "Nós estamos ouvindo música.",
+            "note": "Note a terminação -ем para 'мы'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Образование настоящего времени (глаголы II спряжения)",
+        "translation": "Formação do presente (verbos da 2ª conjugação)",
+        "examples": [
+          {
+            "original": "Она говорит по телефону.",
+            "phonetic": "[ɐˈna ɡɐˈvorʲit pə tʲɪlʲɪˈfonu]",
+            "translation": "Ela está falando ao telefone.",
+            "note": "Verbo 'говорить' – 2ª conjugação, terminação -ит para 'она'."
+          },
+          {
+            "original": "Что ты делаешь? – Я смотрю телевизор.",
+            "phonetic": "[ʂto tɨ ˈdʲelaɪʂ? ja smɐˈtrʲu tʲɪlʲɪˈvʲizər]",
+            "translation": "O que você está fazendo? – Eu estou assistindo TV.",
+            "note": "Observe que 'смотреть' (assistir) – 2ª conjugação, terminação -ю para 'я'."
+          },
+          {
+            "original": "Они готовят ужин.",
+            "phonetic": "[ɐˈnʲi ˈɡotovʲət ˈuʐɨn]",
+            "translation": "Eles estão preparando o jantar.",
+            "note": "Terminação -ят para 'они' (другой варианте – -ат)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Использование контекста (сейчас, в данный момент)",
+        "translation": "Uso do contexto (agora, no momento)",
+        "examples": [
+          {
+            "original": "Сейчас я пью кофе.",
+            "phonetic": "[ˈsʲejt͡ɕas ja pʲju ˈkofʲe]",
+            "translation": "Agora eu estou bebendo café.",
+            "note": "A palavra 'сейчас' (agora) reforça que a ação está em andamento, mas o verbo já indica isso."
+          },
+          {
+            "original": "В данный момент дети спят.",
+            "phonetic": "[v ˈdanɨj mɐˈmʲent ˈdʲetʲi spʲat]",
+            "translation": "No momento, as crianças estão dormindo.",
+            "note": "A expressão 'в данный момент' é útil para enfatizar a simultaneidade."
+          },
+          {
+            "original": "Он пишет письмо другу.",
+            "phonetic": "[on ˈpʲiʂɨt pʲɪsʲˈmo ˈdruɡu]",
+            "translation": "Ele está escrevendo uma carta para o amigo.",
+            "note": "Sem advérbio de tempo, o contexto indica a ação contínua."
+          },
+          {
+            "original": "Я иду в магазин (сейчас).",
+            "phonetic": "[ja ˈi‿dʊ v məɡɐˈzʲin]",
+            "translation": "Eu estou indo à loja (agora).",
+            "note": "Com verbos de movimento, 'идти' já expressa movimento em direção, usado para ação em andamento."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Presente contínuo"
+    }
+  }
+]

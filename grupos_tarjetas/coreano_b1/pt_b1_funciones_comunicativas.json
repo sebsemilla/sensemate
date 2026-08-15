@@ -228,5 +228,341 @@
     "translations": {
       "pt": "Especular e fazer deduções"
     }
+  },
+  {
+    "id": "pt_B1_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "후회와 가정 표현 / Expressar arrependimento e hipóteses",
+    "bridge": "Em português, usamos o condicional ou o pretérito imperfeito do subjuntivo para expressar arrependimento e hipóteses (ex.: 'Se eu soubesse, teria ido'). Em coreano, essa ideia é construída principalmente com o sufixo '-았/었으면 좋겠다' para desejos e '-(으)ㄹ 걸 그랬다' para arrependimento sobre ações passadas. Um ponto crítico é que o coreano não tem um equivalente direto do subjuntivo português, então a hipótese é frequentemente expressa com o passado do verbo + '으면' (se) para situações irreais. Preste atenção: em coreano, a ordem das palavras é diferente, e o verbo vem no final da oração, o que pode confundir falantes de português que tentam traduzir literalmente.",
+    "rule": "**Arrependimento:**\n- Para expressar arrependimento sobre uma ação passada, use '-았/었으면 좋았을 텐데' ou '-았/었어야 했는데' (mas a forma mais comum é '-(으)ㄹ 걸 그랬어요' para se lamentar de uma escolha).\n- Ex.: '공부했으면 좋았을 텐데' (Eu deveria ter estudado).\n\n**Hipóteses:**\n- Use a construção '만약 ... -(으)면 ... -(으)ㄹ 텐데' para situações hipotéticas (irreais ou contrafactuais).\n- O verbo na condição vai no passado: '-(았/었)다면' (se tivesse feito).\n- O resultado é frequentemente expresso com '-(으)ㄹ 텐데' (teria/estaría) ou '-(으)ㄹ 뻔했다' (quase).\n- Para desejos, use '-았/었으면 좋겠다'.\n\n**Diferenças-chave:**\n- Em português, temos o futuro do pretérito (teria/haveria) e o pretérito imperfeito do subjuntivo, que não existem em coreano. O coreano usa o passado + '으면' para indicar irrealidade.\n- A ordem das palavras é SOV (Sujeito-Objeto-Verbo), diferente do português SVO.\n- Os verbos são invariáveis em pessoa e número, então não há concordância verbal.",
+    "concept_examples": [
+      {
+        "text": "공부를 더 열심히 했으면 좋았을 텐데.",
+        "translation": "Eu gostaria de ter estudado mais a sério.",
+        "phonetic": "[koŋbuɾɯ tʌ jʌlɕimɦi hɛssɯmjʌn tɕoassɯl tʰɛndɛ]"
+      },
+      {
+        "text": "그때 가지 말 걸 그랬어요.",
+        "translation": "Eu não deveria ter ido naquela época.",
+        "phonetic": "[kɯttɛ kaʤi mal kʌl kɯrɛssʌjo]"
+      },
+      {
+        "text": "만약 내가 너였다면, 그렇게 하지 않았을 텐데.",
+        "translation": "Se eu fosse você, eu não teria feito isso.",
+        "phonetic": "[manjak nɛga nʌjʌttʌmjʌn, kɯɾʌkʰɛ haʤi anassɯl tʰɛndɛ]"
+      },
+      {
+        "text": "시간이 더 있었다면 여행을 갔을 텐데.",
+        "translation": "Se eu tivesse mais tempo, eu teria viajado.",
+        "phonetic": "[ɕiɡani tʌ issʌttʌmjʌn jʌhɛŋɯl kassɯl tʰɛndɛ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "나는 늦게 일어났다면 버스를 놓쳤을 텐데.",
+      "correct": "내가 늦게 일어났다면 버스를 놓쳤을 텐데.",
+      "correct_alt": "늦게 일어났더라면 버스를 놓쳤을 텐데.",
+      "explanation": "Em português, usamos 'eu' como sujeito explícito, mas em coreano, o pronome sujeito é frequentemente omitido, e quando usado, deve ser '내가' (eu como sujeito agente) em vez de '나는' (eu como tópico) em contextos de hipótese. '나는' é usado para tópico/contraste, não para ação. Aqui, a condição é sobre ação, então '내가' é apropriado. Além disso, o verbo '일어나다' (levantar-se) no passado é '일어났다' (levantou-se), e a forma condicional é '일어났다면' (se tivesse se levantado). Evite usar '나는' para sujeito quando você quer focar na ação hipotética."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "후회 표현",
+        "translation": "Expressões de arrependimento",
+        "examples": [
+          {
+            "original": "그때 한국어를 배우지 않았으면 좋았을 텐데.",
+            "phonetic": "[kɯttɛ haːnɡuɡʌɾɯ pɛudʑi anassɯmjʌn tɕoassɯl tʰɛndɛ]",
+            "translation": "Eu gostaria de não ter aprendido coreano naquela época.",
+            "note": "Uso de '-지 않았으면 좋았을 텐데' para expressar arrependimento de ter feito algo (literalmente: 'se eu não tivesse feito, teria bom')."
+          },
+          {
+            "original": "미리 예약했어야 했는데.",
+            "phonetic": "[miɾi jejaɡhɛtɕʌjʌ hɛnnɛndɛ]",
+            "translation": "Eu deveria ter reservado com antecedência.",
+            "note": "'-았어야 하다' indica obrigação não cumprida, semelhante a 'deveria ter feito'."
+          },
+          {
+            "original": "좀 더 기다릴 걸 그랬어요.",
+            "phonetic": "[tɕom tʌ kidaliɭ kʌl kɯrɛssʌjo]",
+            "translation": "Eu deveria ter esperado um pouco mais.",
+            "note": "'-(으)ㄹ 걸 그랬다' é usado para arrependimento de uma escolha errada."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "가정문 (만약 ~ (으)면)",
+        "translation": "Frases condicionais (se...).",
+        "examples": [
+          {
+            "original": "만약 시간이 있다면, 같이 영화를 볼 텐데.",
+            "phonetic": "[manjak ɕiɡani issɯmjʌn, kaʨʰi jʌŋβwaɾɯ boɭ tʰɛndɛ]",
+            "translation": "Se eu tivesse tempo, assistiríamos a um filme juntos.",
+            "note": "Note que '있다면' é a forma condicional do verbo '있다' (ter/existir). Em hipóteses irreais, usamos o passado também."
+          },
+          {
+            "original": "네가 왔더라면, 파티가 더 재미있었을 텐데.",
+            "phonetic": "[neɡa wattʌɾamjʌn, pʰatʰiɡa tʌ tɕɛmiissʌssɯl tʰɛndɛ]",
+            "translation": "Se você tivesse vindo, a festa teria sido mais divertida.",
+            "note": "A forma '-더라면' é usada para hipóteses contrafactuais no passado."
+          },
+          {
+            "original": "돈이 많았다면, 세계 여행을 갔을 거예요.",
+            "phonetic": "[toni manattʌmjʌn, sɛɡje jʌhɛŋɯl kassɯl kʌjejo]",
+            "translation": "Se eu tivesse muito dinheiro, eu teria viajado pelo mundo.",
+            "note": "Uso de '-았었다면' para condições irreais no passado."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "소망 (가정 + 바람)",
+        "translation": "Desejos (hipótese + vontade)",
+        "examples": [
+          {
+            "original": "한국에 다시 갈 수 있으면 좋겠어요.",
+            "phonetic": "[haːnɡuɡe taɕi kaɭ su issɯmjʌn tɕo&ksʌjo]",
+            "translation": "Eu gostaria de poder ir à Coreia novamente.",
+            "note": "Use '-으면 좋겠다' para expressar desejo de uma ação futura."
+          },
+          {
+            "original": "내일 비가 오지 않았으면 좋겠어요.",
+            "phonetic": "[nɛiɭ piɡa oʥi anassɯmjʌn tɕo&ksʌjo]",
+            "translation": "Espero que não chova amanhã.",
+            "note": "'-지 않았으면 좋겠다' para desejar que algo não aconteça."
+          },
+          {
+            "original": "그때 더 잘했더라면 좋았을 텐데.",
+            "phonetic": "[kɯttɛ tʌ tɕalhɛttʌɾamjʌn tɕoassɯl tʰɛndɛ]",
+            "translation": "Se eu tivesse feito melhor naquela época, teria sido bom.",
+            "note": "Combinação de '-더라면' + '좋았을 텐데' para expressar um desejo irreal."
+          }
+        ]
+      }
+    ],
+    "emoji": "😔",
+    "phonetic": "",
+    "translations": {
+      "pt": "Expressar arrependimento e hipóteses"
+    }
+  },
+  {
+    "id": "pt_B1_func_04",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "장점과 단점 말하기 / Falar sobre vantagens e desvantagens",
+    "bridge": "Em português, usamos conectores como 'vantagem' e 'desvantagem' diretamente com substantivos ou verbos. Em coreano, essas noções são frequentemente expressas por estruturas nominais com '점' (ponto) e verbos como '있다/없다' (ter/não ter) ou '좋다/나쁘다' (ser bom/ruim). Uma armadilha comum: em português dizemos 'a vantagem de + verbo no infinitivo', mas em coreano o verbo deve ser nominalizado com '-는 것' ou usar formas como '-는 점'. Além disso, a ordem das palavras é diferente: em coreano, o verbo vem no final da frase, o que exige reorganizar a estrutura mental ao formular comparações.",
+    "rule": "Para discutir vantagens e desvantagens em coreano (nível B1), usamos padrões como:\n\n1. **-는 점이 좋다/나쁘다**: 'O ponto de ... é bom/ruim' - usado para avaliar características específicas. O verbo antes de '점' deve estar no presente ou passado: '-는 점' (presente), '-은/ㄴ 점' (passado).\n   Ex: 일찍 일어나는 점이 좋아요. (O ponto de acordar cedo é bom.)\n\n2. **장점/단점 + 이/가 있다/없다**: 'Ter vantagem/desvantagem' - mais direto, equivalente ao português. 장점 (vantagem), 단점 (desvantagem).\n   Ex: 이 계획은 장점이 있어요. (Este plano tem vantagens.)\n\n3. **-는 것이 좋다/나쁘다**: 'Fazer algo é bom/ruim' - usado para comparar ações ou ideias de forma mais geral.\n   Ex: 혼자 여행하는 것이 좋아요. (Viajar sozinho é bom.)\n\n4. **Comparação**: Para comparar vantagens e desvantagens, usamos '~에 비해서' (em comparação com) ou '~보다' (do que).\n   Ex: 장점보다 단점이 더 많아요. (As desvantagens são mais numerosas que as vantagens.)\n\nEstruturas básicas:\n- [A]는 점은 [B]다는 거예요. (O ponto de A é que B.)\n- [A]는 것이 [B]보다 좋아요. (Fazer A é melhor do que B.)\n\nAtenção: Em coreano, não usamos artigos, então 'a vantagem' e 'vantagem' são ambos '장점'. A partícula de tópico '은/는' pode enfatizar o contraste, o que é útil em discussões.",
+    "concept_examples": [
+      {
+        "text": "이 아이디어는 장점이 많아요.",
+        "translation": "Esta ideia tem muitas vantagens.",
+        "phonetic": "[i a.i.di.ʌ.nɨn tɕaŋ.dʒʌ.mi ma.nɐ.jo]"
+      },
+      {
+        "text": "비용이 비싼 점이 단점이에요.",
+        "translation": "O fato de o custo ser alto é uma desvantagem.",
+        "phonetic": "[pi.joŋ.i pi.s͈an tɕ͈ʌ.mi tan.dʑʌ.mi.e.jo]"
+      },
+      {
+        "text": "일찍 시작하는 것이 늦게 시작하는 것보다 좋아요.",
+        "translation": "Começar cedo é melhor do que começar tarde.",
+        "phonetic": "[il.tɕ͈ik ɕi.dʑa.kʰa.nɨn kʌ.ʃi nɨt.k͈e ɕi.dʑa.kʰa.nɨn kʌt.p͈o.da tɕ͈o.a.jo]"
+      },
+      {
+        "text": "장점보다 단점이 더 많을 수도 있어요.",
+        "translation": "Pode haver mais desvantagens do que vantagens.",
+        "phonetic": "[tɕaŋ.dʑʌm.p͈o.da tan.dʑʌ.mi tʌ ma.nɯl su.do i.s͈ʌ.jo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "이 계획의 장점은 싸요.",
+      "correct": "이 계획의 장점은 싼 점이에요.",
+      "correct_alt": "이 계획은 싼 것이 장점이에요.",
+      "explanation": "Em português, dizemos 'a vantagem é barato' (estrutura copulativa direta), mas em coreano, para descrever uma característica como um ponto, é necessário nominalizar o adjetivo com '-ㄴ 점' ou '-는 것' antes do verbo ser (이에요). '싸요' é a forma conjugada do adjetivo '싸다' (ser barato) e não pode ser usado diretamente após '장점은'. A estrutura correta usa '싼 점' (ponto de ser barato) ou '싼 것' (coisa de ser barata)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "장점과 단점 표현하기",
+        "translation": "Expressar vantagens e desvantagens",
+        "examples": [
+          {
+            "original": "이 방법은 장점이 있어요.",
+            "phonetic": "[i paŋ.bʌ.pɨn tɕaŋ.dʑʌ.mi i.s͈ʌ.jo]",
+            "translation": "Este método tem vantagens.",
+            "note": "Use '장점이 있다' para dizer que algo tem vantagens."
+          },
+          {
+            "original": "그 제안은 단점이 뭐예요?",
+            "phonetic": "[kɯ tɕe.a.nɨn tan.dʑʌ.mi mwʌ.je.jo]",
+            "translation": "Qual é a desvantagem dessa proposta?",
+            "note": "Perguntar sobre desvantagem usando '단점이 뭐예요?' é comum."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "좋은 점과 나쁜 점 비교하기",
+        "translation": "Comparar pontos bons e ruins",
+        "examples": [
+          {
+            "original": "빠른 점이 좋지만, 비싼 점이 나빠요.",
+            "phonetic": "[p͈a.rɯn tɕ͈ʌ.mi tɕ͈o.dʑi.man, pi.s͈an tɕ͈ʌ.mi na.p͈a.jo]",
+            "translation": "O ponto de ser rápido é bom, mas o ponto de ser caro é ruim.",
+            "note": "Use '-는 점이 좋다/나쁘다' para avaliar aspectos específicos. Observe a partícula '지만' para contraste."
+          },
+          {
+            "original": "장점보다 단점이 더 커요.",
+            "phonetic": "[tɕaŋ.dʑʌm.p͈o.da tan.dʑʌ.mi tʌ kʰʌ.jo]",
+            "translation": "As desvantagens são maiores do que as vantagens.",
+            "note": "Comparação com '보다'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "의견 제시하고 토론하기",
+        "translation": "Apresentar opiniões e discutir",
+        "examples": [
+          {
+            "original": "제 생각에는 이게 더 나은 것 같아요.",
+            "phonetic": "[tɕe sʰɛŋ.ga.kʰe.nɨn i.ke tʌ na.ɯn kʌt k͈a.tʰa.jo]",
+            "translation": "Na minha opinião, isto parece melhor.",
+            "note": "Use '제 생각에는' para dar opinião pessoal em discussões."
+          },
+          {
+            "original": "단점이 있지만, 장점이 더 중요해요.",
+            "phonetic": "[tan.dʑʌ.mi it̚.tɕ͈i.man, tɕaŋ.dʑʌ.mi tʌ tɕuŋ.jo.ɦɛ.jo]",
+            "translation": "Tem desvantagens, mas as vantagens são mais importantes.",
+            "note": "Estrutura de concessão com '-지만'."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Discutir vantagens e desvantagens de uma ideia"
+    }
+  },
+  {
+    "id": "pt_B1_func_05",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "이야기하기 / Contar uma história",
+    "bridge": "Em coreano, para narrar uma história, usamos terminações verbais que conectam ações em sequência, como -고서, -아서/어서, e -는데. Diferente do português, que usa conjunções como 'e então', o coreano usa sufixos verbais que também transmitem nuances de causa, contraste ou fundo. Um erro comum é traduzir diretamente 'e' por '그리고', que soa infantil e pouco natural em narrativas. Além disso, a ordem dos eventos é marcada pela terminação do verbo, não por advérbios, e a escolha entre passado simples e passado perfeito pode ser sutil.",
+    "rule": "Para narrar uma história em coreano, siga estas estruturas:\n1. **Sequência de ações**: Use -고서 (ou -고) para ações em sequência, mas -고서 é mais forte, indicando que a primeira ação foi concluída antes da segunda. Ex: 밥을 먹고서 나갔어요 (Comi e saí).\n2. **Causa e efeito**: Use -아서/어서 para indicar que uma ação causou a seguinte. Ex: 비가 와서 집에 있었어요 (Choveu, então fiquei em casa).\n3. **Contraste/Contexto**: Use -는데 para dar pano de fundo antes de continuar a história. Ex: 어제 시장에 갔는데, 친구를 만났어요 (Ontem fui ao mercado, e [então] encontrei um amigo).\n4. **Passado**: Use -았/었어요 para ações passadas, e -았/었었어요 para passado distante ou que não é mais verdadeiro.\n5. **Discurso indireto**: Para relatar falas, use -다고 하다, mas em narrativas informais, pode-se usar -대요.\n6. **Terminação final**: Use -아요/어요 (informal) ou -습니다/ㅂ니다 (formal) para fechar a narrativa.",
+    "concept_examples": [
+      {
+        "text": "어제 친구를 만나서 같이 영화를 봤어요.",
+        "translation": "Ontem encontrei um amigo e juntos assistimos a um filme.",
+        "phonetic": "[ʌdʑe tɕʰinɡuɾɯl mannaːsʰɔ kaʧʰi jʌŋʝwaɾɯl pwaːssʰʌjo]"
+      },
+      {
+        "text": "길을 걷고 있는데, 갑자기 비가 오기 시작했어요.",
+        "translation": "Estava andando na rua, e de repente começou a chover.",
+        "phonetic": "[kiɾɯl kʌt̚ko inɯnde, kap̚tɕʰaɡi piɡa oɡi ɕiʥaɡɛt̚ssʰʌjo]"
+      },
+      {
+        "text": "그날 밤에 잠을 못 자서, 다음 날 아주 피곤했어요.",
+        "translation": "Naquela noite não consegui dormir, então no dia seguinte estava muito cansado.",
+        "phonetic": "[kɯnaɭ paːme tɕʰaｍɯl mot̚ tɕʰaːsʰɔ, taɯm naːɾaʤu pʰiɡonɦɛt̚ssʰʌjo]"
+      },
+      {
+        "text": "할머니가 어렸을 때 이야기를 해 주셨어요.",
+        "translation": "Minha avó contou uma história de quando ela era pequena.",
+        "phonetic": "[haːɭmʌniɡa ʌɾjʌssɯɭ t͈ɛ ijaɡiɾɯl hɛ ʨuɕʰjʌssʰʌjo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "그리고 친구를 만나고 그리고 영화를 봤어요.",
+      "correct": "친구를 만나서 영화를 봤어요.",
+      "correct_alt": "친구를 만나고 영화를 봤어요.",
+      "explanation": "Aqui, o aluno usou '그리고' (e) repetidamente, que é comum em português, mas em coreano soa artificial. Prefira usar -서 ou -고 para conectar ações, mostrando a relação entre elas. O uso de -서 indica causa/sequência natural, e -고 apenas sequência, mas ambos são mais naturais que '그리고' nesse contexto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "시간 순서 표현하기",
+        "translation": "Expressando ordem temporal",
+        "examples": [
+          {
+            "original": "먼저 밥을 먹고, 그다음에 숙제를 했어요.",
+            "phonetic": "[mʌnʥʌ paːbɯɭ mʌk̚kʼo, kɯdaɯmɛ suk̚ʨeɾɯl hɛt̚ssʰʌjo]",
+            "translation": "Primeiro comi, e depois fiz o dever de casa.",
+            "note": "Use -고 para conectar ações em sequência, mas sem implicar causa."
+          },
+          {
+            "original": "샤워를 한 후에 잠을 자요.",
+            "phonetic": "[ɕʰaˈwʌɾɯɭ han ɦu.e tɕʰaːmɯɭ ʨaːjo]",
+            "translation": "Depois de tomar banho, durmo.",
+            "note": "A estrutura '-(으)ㄴ 후에' significa 'depois de', equivalente a 'depois que' em português."
+          },
+          {
+            "original": "학교에 가기 전에 커피를 마셨어요.",
+            "phonetic": "[haːk̚kʰo.e kaɡi ʥʌne kʰʌpʰiɾɯɭ maɕʰjʌssʰʌjo]",
+            "translation": "Antes de ir para a escola, bebi café.",
+            "note": "Use '-기 전에' para 'antes de', similar ao uso de 'antes de + infinitivo' em português."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "원인과 결과 연결하기",
+        "translation": "Conectando causa e efeito",
+        "examples": [
+          {
+            "original": "비가 와서 안 나갔어요.",
+            "phonetic": "[piɡa wasʰɔ aːn naɡat̚ssʰʌjo]",
+            "translation": "Choveu, então não saí.",
+            "note": "-아서/어서 indica causa natural e é mais comum que '그래서' no meio da frase."
+          },
+          {
+            "original": "시간이 없어서 택시를 탔어요.",
+            "phonetic": "[ɕʰiɡani ʌpsʰʌsʰɔ tʰɛk̚ɕʰiɾɯɭ tʰaːt̚ssʰʌjo]",
+            "translation": "Não tinha tempo, então peguei um táxi.",
+            "note": "Aqui -아서/어서 explica o motivo de uma ação no passado."
+          },
+          {
+            "original": "늦게 일어나서 지각했어요.",
+            "phonetic": "[nɯt̚k͈e iɾʌnasʰɔ ʨiɡakʰɛt̚ssʰʌjo]",
+            "translation": "Acordei tarde, então me atrasei.",
+            "note": "Cuidado: -아서/어서 não pode ser usado com imperativos ou sugestões, apenas em afirmativas."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "배경 설명하고 이야기 이어가기",
+        "translation": "Dando contexto e continuando a história",
+        "examples": [
+          {
+            "original": "어제는 날씨가 좋았는데, 그래서 공원에 가고 싶었어요.",
+            "phonetic": "[ʌʥenɯn naːɭɕ͈iɡa ʨoːat̚nɯnde, kɯɾɛsʰɔ koŋwʌne kaɡo ɕʰipʰʌssʰʌjo]",
+            "translation": "Ontem o tempo estava bom, e por isso queria ir ao parque.",
+            "note": "-는데 introduce um contexto ou fundo, e depois '그래서' explica a consequência."
+          },
+          {
+            "original": "친구한테 전화했는데 안 받았어요.",
+            "phonetic": "[tɕʰinɡuːhandɛ ʥʌnʝwa̠hɛt̚nɯnde aːn paːda̠t̚ssʰʌjo]",
+            "translation": "Liguei para um amigo, mas ele não atendeu.",
+            "note": "Aqui -는데 tem nuance de contraste ou surpresa, como 'mas' em português."
+          },
+          {
+            "original": "지갑을 잃어버렸는데, 경찰서에 가서 찾았어요.",
+            "phonetic": "[ʨiɡabɯɭ iɾʌbʌɾjʌnnɯnde, kjʌŋʨʰaɭsʰʌe kasʰɔ ʨʰaʥa̠t̚ssʰʌjo]",
+            "translation": "Perdi minha carteira, mas fui à delegacia e a encontrei.",
+            "note": "Use -는데 para criar suspense ou contraste antes de continuar a narrativa."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "pt": "Contar uma história ou anedota"
+    }
   }
 ]

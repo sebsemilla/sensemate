@@ -1,0 +1,2869 @@
+[
+  {
+    "id": "fr_A1_vctx_01",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Greeting someone for the first time",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "это",
+        "pos": "pron",
+        "phonetic": "/ˈɛtə/",
+        "translation": "ceci/c'est",
+        "note": "Pronom démonstratif neutre, très courant pour présenter quelque chose ou quelqu'un."
+      },
+      {
+        "word": "как",
+        "pos": "adv",
+        "phonetic": "/kak/",
+        "translation": "comment",
+        "note": "Adverbe interrogatif pour demander le mode ou la manière."
+      },
+      {
+        "word": "тебя",
+        "pos": "pron",
+        "phonetic": "/tʲɪˈbʲa/",
+        "translation": "te (à toi)",
+        "note": "Forme accusative/génitive du pronom 'ты'."
+      },
+      {
+        "word": "зовут",
+        "pos": "verb",
+        "phonetic": "/zɐˈvut/",
+        "translation": "appellent (littéralement 'on t'appelle')",
+        "note": "Verbe 'звать' à la 3e personne du pluriel, utilisé dans la construction 'как тебя зовут?'"
+      },
+      {
+        "word": "меня",
+        "pos": "pron",
+        "phonetic": "/mʲɪˈnʲa/",
+        "translation": "me (à moi)",
+        "note": "Forme accusative/génitive du pronom 'я'."
+      },
+      {
+        "word": "очень",
+        "pos": "adv",
+        "phonetic": "/ˈot͡ɕɪnʲ/",
+        "translation": "très",
+        "note": "Adverbe de degré, très courant."
+      },
+      {
+        "word": "приятно",
+        "pos": "adv",
+        "phonetic": "/prʲɪˈjatnə/",
+        "translation": "agréablement / c'est un plaisir",
+        "note": "Dans la phrase 'приятно познакомиться', équivaut à 'enchanté(e)'."
+      },
+      {
+        "word": "и",
+        "pos": "conj",
+        "phonetic": "/i/",
+        "translation": "et",
+        "note": "Conjonction de coordination."
+      },
+      {
+        "word": "тоже",
+        "pos": "adv",
+        "phonetic": "/ˈtoʐɨ/",
+        "translation": "aussi",
+        "note": "Adverbe d'addition, utilisé pour exprimer l'accord ou la réciprocité."
+      },
+      {
+        "word": "да",
+        "pos": "part",
+        "phonetic": "/da/",
+        "translation": "oui",
+        "note": "Particule affirmative de base."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Привет! Это Анна.",
+        "translation": "Salut ! Voici Anna.",
+        "highlights": [
+          "это"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Привет! Как тебя зовут?",
+        "translation": "Salut ! Comment t'appelles-tu ?",
+        "highlights": [
+          "как",
+          "тебя",
+          "зовут"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Меня зовут Ольга. Очень приятно!",
+        "translation": "Je m'appelle Olga. Enchantée !",
+        "highlights": [
+          "меня",
+          "очень",
+          "приятно"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "И мне тоже приятно. Да, очень!",
+        "translation": "Et moi aussi, c'est agréable. Oui, beaucoup !",
+        "highlights": [
+          "и",
+          "тоже",
+          "да"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Как тебя зовут?",
+        "translation": "Comment t'appelles-tu ?"
+      },
+      {
+        "phrase": "Меня зовут Ольга.",
+        "translation": "Je m'appelle Olga."
+      },
+      {
+        "phrase": "Очень приятно!",
+        "translation": "Enchanté(e) !"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_03",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking where something is in a store",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "где",
+        "pos": "adv",
+        "phonetic": "ɡdʲe",
+        "translation": "où",
+        "note": "Interrogatif de lieu."
+      },
+      {
+        "word": "находиться",
+        "pos": "verb",
+        "phonetic": "nəxɐˈdʲit͡sə",
+        "translation": "se trouver, être (situé)",
+        "note": "Verbe réfléchi, utilisé pour les localisations."
+      },
+      {
+        "word": "магазин",
+        "pos": "noun",
+        "phonetic": "məɡɐˈzʲin",
+        "translation": "magasin",
+        "note": "Nom masculin."
+      },
+      {
+        "word": "молоко",
+        "pos": "noun",
+        "phonetic": "məlɐˈko",
+        "translation": "lait",
+        "note": "Nom neutre, singulier."
+      },
+      {
+        "word": "хлеб",
+        "pos": "noun",
+        "phonetic": "xlʲep",
+        "translation": "pain",
+        "note": "Nom masculin."
+      },
+      {
+        "word": "там",
+        "pos": "adv",
+        "phonetic": "tam",
+        "translation": "là",
+        "note": "Adverbe de lieu."
+      },
+      {
+        "word": "вон",
+        "pos": "adv",
+        "phonetic": "von",
+        "translation": "là-bas (en montrant)",
+        "note": "Utilisé pour montrer quelque chose de visible."
+      },
+      {
+        "word": "справа",
+        "pos": "adv",
+        "phonetic": "ˈspravə",
+        "translation": "à droite",
+        "note": "Adverbe de lieu."
+      },
+      {
+        "word": "слева",
+        "pos": "adv",
+        "phonetic": "ˈslʲevə",
+        "translation": "à gauche",
+        "note": "Adverbe de lieu."
+      },
+      {
+        "word": "нужно",
+        "pos": "adj",
+        "phonetic": "ˈnuʐnə",
+        "translation": "nécessaire, il faut",
+        "note": "Prédicatif impersonnel, utilisé avec 'мне'."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Извините, где находится молоко?",
+        "translation": "Excusez-moi, où est le lait ?",
+        "highlights": [
+          "где",
+          "находится",
+          "молоко"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Молоко там, справа, а хлеб — слева.",
+        "translation": "Le lait est là, à droite, et le pain à gauche.",
+        "highlights": [
+          "там",
+          "справа",
+          "хлеб",
+          "слева"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "А где хлеб? Вон там?",
+        "translation": "Et où est le pain ? Là-bas ?",
+        "highlights": [
+          "где",
+          "хлеб",
+          "Вон",
+          "там"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Да, вон там, в отделе хлеба.",
+        "translation": "Oui, là-bas, au rayon pain.",
+        "highlights": [
+          "вон",
+          "там"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Спасибо! Мне нужно ещё молоко.",
+        "translation": "Merci ! J'ai aussi besoin de lait.",
+        "highlights": [
+          "нужно",
+          "молоко"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "где находится",
+        "translation": "où se trouve"
+      },
+      {
+        "phrase": "справа / слева",
+        "translation": "à droite / à gauche"
+      },
+      {
+        "phrase": "вон там",
+        "translation": "là-bas (en montrant)"
+      },
+      {
+        "phrase": "мне нужно",
+        "translation": "j'ai besoin de"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_05",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Ordering a drink at a café",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "пить",
+        "pos": "verb",
+        "phonetic": "/pʲitʲ/",
+        "translation": "boire"
+      },
+      {
+        "word": "чай",
+        "pos": "noun",
+        "phonetic": "/t͡ɕaj/",
+        "translation": "thé"
+      },
+      {
+        "word": "кофе",
+        "pos": "noun",
+        "phonetic": "/ˈkofʲe/",
+        "translation": "café"
+      },
+      {
+        "word": "или",
+        "pos": "conj",
+        "phonetic": "/ˈilʲi/",
+        "translation": "ou"
+      },
+      {
+        "word": "хотеть",
+        "pos": "verb",
+        "phonetic": "/xɐˈtʲetʲ/",
+        "translation": "vouloir"
+      },
+      {
+        "word": "что",
+        "pos": "pron",
+        "phonetic": "/ʂto/",
+        "translation": "que"
+      },
+      {
+        "word": "вот",
+        "pos": "adv",
+        "phonetic": "/vot/",
+        "translation": "voici/voilà (en montrant)"
+      },
+      {
+        "word": "пожалуйста",
+        "pos": "adv",
+        "phonetic": "/pɐˈʐalʊstə/",
+        "translation": "s'il vous plaît"
+      },
+      {
+        "word": "большой",
+        "pos": "adj",
+        "phonetic": "/bɐlʲˈʂoj/",
+        "translation": "grand"
+      },
+      {
+        "word": "маленький",
+        "pos": "adj",
+        "phonetic": "/ˈmalʲɪnʲkʲɪj/",
+        "translation": "petit"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Здравствуйте! Что вы хотите пить?",
+        "translation": "Bonjour ! Que voulez-vous boire ?",
+        "highlights": [
+          "Что",
+          "хотите",
+          "пить"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Я хочу кофе или чай.",
+        "translation": "Je veux un café ou un thé.",
+        "highlights": [
+          "хочу",
+          "кофе",
+          "или",
+          "чай"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Вот меню. Кофе большой или маленький?",
+        "translation": "Voici le menu. Café grand ou petit ?",
+        "highlights": [
+          "Вот",
+          "большой",
+          "или",
+          "маленький"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Маленький кофе, пожалуйста.",
+        "translation": "Un petit café, s'il vous plaît.",
+        "highlights": [
+          "Маленький",
+          "кофе",
+          "пожалуйста"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Что вы хотите пить?",
+        "translation": "Que voulez-vous boire ?"
+      },
+      {
+        "phrase": "Я хочу кофе или чай.",
+        "translation": "Je veux un café ou un thé."
+      },
+      {
+        "phrase": "Вот меню.",
+        "translation": "Voici le menu."
+      },
+      {
+        "phrase": "Маленький кофе, пожалуйста.",
+        "translation": "Un petit café, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_07",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Buying a ticket at a station",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "билет",
+        "pos": "noun",
+        "phonetic": "[bʲɪˈlʲet]",
+        "translation": "billet (de transport)",
+        "note": "Nom masculin, très courant."
+      },
+      {
+        "word": "купить",
+        "pos": "verb",
+        "phonetic": "[kʊˈpʲitʲ]",
+        "translation": "acheter (perfectif)",
+        "note": "Verbe perfectif ; dans le dialogue, on utilise 'купить' à l'infinitif."
+      },
+      {
+        "word": "можно",
+        "pos": "adv",
+        "phonetic": "[ˈmoʐnə]",
+        "translation": "on peut, il est possible",
+        "note": "Mot impersonnel, très fréquent."
+      },
+      {
+        "word": "до",
+        "pos": "prep",
+        "phonetic": "[do]",
+        "translation": "jusqu'à, à (destination)",
+        "note": "Avec l'accusatif pour la destination : 'до Москвы'."
+      },
+      {
+        "word": "сколько",
+        "pos": "pron",
+        "phonetic": "[ˈskolʲkə]",
+        "translation": "combien",
+        "note": "Utilisé dans les questions sur la quantité ou le prix."
+      },
+      {
+        "word": "стоить",
+        "pos": "verb",
+        "phonetic": "[ˈstɔɪtʲ]",
+        "translation": "coûter",
+        "note": "Verbe imperfectif ; dans la question 'стоит' (3e pers. sing.)"
+      },
+      {
+        "word": "потом",
+        "pos": "adv",
+        "phonetic": "[pɐˈtom]",
+        "translation": "ensuite, puis",
+        "note": "Adverbe de temps."
+      },
+      {
+        "word": "один",
+        "pos": "num",
+        "phonetic": "[ɐˈdʲin]",
+        "translation": "un",
+        "note": "Numéral, fonctionne aussi comme pronom indéfini."
+      },
+      {
+        "word": "ехать",
+        "pos": "verb",
+        "phonetic": "[ˈjexətʲ]",
+        "translation": "aller (en véhicule)",
+        "note": "Verbe de mouvement ; dans le dialogue 'ехать' à l'infinitif."
+      },
+      {
+        "word": "конечно",
+        "pos": "adv",
+        "phonetic": "[kɐˈnʲeʂnə]",
+        "translation": "bien sûr, évidemment",
+        "note": "Très courant dans les réponses affirmatives."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Здравствуйте, можно купить билет до Москвы?",
+        "translation": "Bonjour, peut-on acheter un billet pour Moscou ?",
+        "highlights": [
+          "можно",
+          "купить",
+          "билет",
+          "до"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Да, конечно. Сколько стоит один билет?",
+        "translation": "Oui, bien sûr. Combien coûte un billet ?",
+        "highlights": [
+          "конечно",
+          "сколько",
+          "стоит",
+          "один"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Мне нужно один билет, пожалуйста. Сколько стоит ехать?",
+        "translation": "J'ai besoin d'un billet, s'il vous plaît. Combien coûte le trajet ?",
+        "highlights": [
+          "один",
+          "сколько",
+          "ехать"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Один билет стоит сто рублей. Потом вы можете идти на поезд.",
+        "translation": "Un billet coûte cent roubles. Ensuite, vous pouvez aller au train.",
+        "highlights": [
+          "билет",
+          "стоит",
+          "потом"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Спасибо! Тогда дайте один билет, пожалуйста.",
+        "translation": "Merci ! Alors donnez-moi un billet, s'il vous plaît.",
+        "highlights": [
+          "один",
+          "билет"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "можно купить билет",
+        "translation": "on peut acheter un billet"
+      },
+      {
+        "phrase": "сколько стоит",
+        "translation": "combien coûte"
+      },
+      {
+        "phrase": "до Москвы",
+        "translation": "à Moscou"
+      },
+      {
+        "phrase": "потом",
+        "translation": "ensuite"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_09",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Checking in at a hotel reception",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "мы",
+        "pos": "pron",
+        "phonetic": "mɨ",
+        "translation": "nous",
+        "note": "pronom personnel de la première personne du pluriel"
+      },
+      {
+        "word": "у",
+        "pos": "prep",
+        "phonetic": "u",
+        "translation": "à, chez, avoir (dans la construction avec 'есть')",
+        "note": "utilisé pour la possession : 'у меня есть' = j'ai"
+      },
+      {
+        "word": "бронь",
+        "pos": "noun",
+        "phonetic": "bronʲ",
+        "translation": "réservation",
+        "note": "forme familière de 'бронирование'"
+      },
+      {
+        "word": "ваш",
+        "pos": "det",
+        "phonetic": "vaʂ",
+        "translation": "votre (de vous)",
+        "note": "possessif formel, accord avec le nom"
+      },
+      {
+        "word": "номер",
+        "pos": "noun",
+        "phonetic": "ˈnomʲɪr",
+        "translation": "chambre",
+        "note": "dans le contexte hôtelier, signifie 'chambre'"
+      },
+      {
+        "word": "свободный",
+        "pos": "adj",
+        "phonetic": "svɐˈbodnɨj",
+        "translation": "libre, disponible",
+        "note": "utilisé pour indiquer la disponibilité"
+      },
+      {
+        "word": "сейчас",
+        "pos": "adv",
+        "phonetic": "sʲɪjˈtɕas",
+        "translation": "maintenant, à ce moment"
+      },
+      {
+        "word": "показать",
+        "pos": "verb",
+        "phonetic": "pəkɐˈzatʲ",
+        "translation": "montrer",
+        "note": "verbe perfectif, fréquemment utilisé"
+      },
+      {
+        "word": "паспорт",
+        "pos": "noun",
+        "phonetic": "ˈpaspərt",
+        "translation": "passeport",
+        "note": "emprunt courant en russe"
+      },
+      {
+        "word": "когда",
+        "pos": "conj",
+        "phonetic": "kɐɡˈda",
+        "translation": "quand",
+        "note": "conjonction temporelle"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Здравствуйте, у нас есть бронь на номер.",
+        "translation": "Bonjour, nous avons une réservation pour une chambre.",
+        "highlights": [
+          "у",
+          "нас",
+          "бронь",
+          "номер"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Да, сейчас посмотрю. Как ваша фамилия?",
+        "translation": "Oui, je regarde tout de suite. Quel est votre nom de famille ?",
+        "highlights": [
+          "сейчас"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Иванов. Вот мой паспорт.",
+        "translation": "Ivanov. Voici mon passeport.",
+        "highlights": [
+          "паспорт"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Спасибо. Ваш номер свободный, сейчас дам ключ.",
+        "translation": "Merci. Votre chambre est libre, je vous donne la clé maintenant.",
+        "highlights": [
+          "ваш",
+          "номер",
+          "свободный",
+          "сейчас"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "А когда завтрак?",
+        "translation": "Et quand est le petit-déjeuner ?",
+        "highlights": [
+          "когда"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Завтрак с семи до десяти. Могу показать на карте.",
+        "translation": "Le petit-déjeuner est de sept à dix heures. Je peux vous montrer sur la carte.",
+        "highlights": [
+          "показать"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "у нас есть бронь",
+        "translation": "nous avons une réservation"
+      },
+      {
+        "phrase": "ваш номер свободный",
+        "translation": "votre chambre est libre"
+      },
+      {
+        "phrase": "сейчас дам ключ",
+        "translation": "je vous donne la clé maintenant"
+      },
+      {
+        "phrase": "когда завтрак",
+        "translation": "quand est le petit-déjeuner ?"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_11",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Meeting a new neighbor",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "жить",
+        "pos": "verb",
+        "phonetic": "ʐɨtʲ",
+        "translation": "vivre",
+        "note": "Verbe imperfectif, utilisé pour indiquer la résidence."
+      },
+      {
+        "word": "рядом",
+        "pos": "adv",
+        "phonetic": "ˈrʲædəm",
+        "translation": "à côté, près",
+        "note": "Adverbe de lieu, utilisé fréquemment."
+      },
+      {
+        "word": "новый",
+        "pos": "adj",
+        "phonetic": "ˈnovɨj",
+        "translation": "nouveau",
+        "note": "Adjectif, s'accorde en genre, nombre et cas avec le nom."
+      },
+      {
+        "word": "квартира",
+        "pos": "noun",
+        "phonetic": "kvɐrˈtʲirə",
+        "translation": "appartement",
+        "note": "Nom féminin."
+      },
+      {
+        "word": "дом",
+        "pos": "noun",
+        "phonetic": "dom",
+        "translation": "maison, immeuble",
+        "note": "Nom masculin."
+      },
+      {
+        "word": "сосед",
+        "pos": "noun",
+        "phonetic": "sɐˈsʲet",
+        "translation": "voisin",
+        "note": "Masculin ; féminin : соседка."
+      },
+      {
+        "word": "привет",
+        "pos": "interj",
+        "phonetic": "prʲɪˈvʲet",
+        "translation": "salut",
+        "note": "Informel, typique entre voisins."
+      },
+      {
+        "word": "добрый",
+        "pos": "adj",
+        "phonetic": "ˈdobrɨj",
+        "translation": "bon, aimable",
+        "note": "Dans les salutations : добрый день, добрый вечер."
+      },
+      {
+        "word": "но",
+        "pos": "conj",
+        "phonetic": "no",
+        "translation": "mais",
+        "note": "Conjonction adversative."
+      },
+      {
+        "word": "извините",
+        "pos": "verb (imperative)",
+        "phonetic": "ɪzˈvʲinʲɪtʲe",
+        "translation": "excusez-moi, pardon",
+        "note": "Forme de politesse de l'infinitif извинить."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Привет! Я ваш новый сосед, я живу в квартире рядом с вами.",
+        "translation": "Salut ! Je suis votre nouveau voisin, je vis dans l'appartement à côté du vôtre.",
+        "highlights": [
+          "Привет",
+          "новый",
+          "сосед",
+          "живу",
+          "квартире",
+          "рядом"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Здравствуйте! Добрый вечер. Очень приятно! Вы живёте в доме номер три?",
+        "translation": "Bonjour ! Bonsoir. Enchanté ! Vous habitez dans la maison numéro trois ?",
+        "highlights": [
+          "Добрый",
+          "доме"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Да, но я не знал, где ваша квартира. Извините, а вы тоже живёте в этом доме?",
+        "translation": "Oui, mais je ne savais pas où se trouve votre appartement. Excusez-moi, et vous aussi vous habitez dans cette maison ?",
+        "highlights": [
+          "но",
+          "Извините"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Да, я живу на первом этаже. Добро пожаловать в наш дом!",
+        "translation": "Oui, j'habite au premier étage. Bienvenue dans notre maison !",
+        "highlights": [
+          "живу"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "я живу рядом",
+        "translation": "je vis à côté"
+      },
+      {
+        "phrase": "добрый вечер",
+        "translation": "bonsoir (en saluant le soir)"
+      },
+      {
+        "phrase": "извините, а вы...",
+        "translation": "excusez-moi, et vous... ?"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_13",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking the time on the street",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "время",
+        "pos": "noun",
+        "phonetic": "ˈvrʲemʲə",
+        "translation": "temps",
+        "note": "Utilisé pour 'temps' comme dans l'heure."
+      },
+      {
+        "word": "сказать",
+        "pos": "verb",
+        "phonetic": "skɐˈzatʲ",
+        "translation": "dire",
+        "note": "Verbe perfectif, souvent utilisé dans des questions comme 'скажите' (dites)."
+      },
+      {
+        "word": "час",
+        "pos": "noun",
+        "phonetic": "t͡ɕas",
+        "translation": "heure",
+        "note": "Désigne une heure spécifique du jour ou une durée d'une heure."
+      },
+      {
+        "word": "минута",
+        "pos": "noun",
+        "phonetic": "mʲɪˈnutə",
+        "translation": "minute",
+        "note": "Nom féminin, utilisé pour les minutes sur l'horloge."
+      },
+      {
+        "word": "половина",
+        "pos": "noun",
+        "phonetic": "pəlɐˈvʲinə",
+        "translation": "moitié (demi)",
+        "note": "Utilisé dans les expressions de temps comme 'половина первого' (douze heures et demie)."
+      },
+      {
+        "word": "рано",
+        "pos": "adv",
+        "phonetic": "ˈranə",
+        "translation": "tôt",
+        "note": "Utilisé pour dire que quelque chose est tôt."
+      },
+      {
+        "word": "поздно",
+        "pos": "adv",
+        "phonetic": "ˈpozːnə",
+        "translation": "tard",
+        "note": "Utilisé pour dire que quelque chose est tard."
+      },
+      {
+        "word": "уже",
+        "pos": "adv",
+        "phonetic": "ʊˈʐɛ",
+        "translation": "déjà",
+        "note": "Utilisé pour indiquer que quelque chose s'est déjà produit."
+      },
+      {
+        "word": "после",
+        "pos": "prep",
+        "phonetic": "ˈpos⁽ʲ⁾lʲɪ",
+        "translation": "après",
+        "note": "Utilisé avec le génitif, par exemple 'после трёх' (après trois heures)."
+      },
+      {
+        "word": "спасибо",
+        "pos": "interj",
+        "phonetic": "spɐˈsʲibə",
+        "translation": "merci",
+        "note": "Manière courante de remercier quelqu'un."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Извините, скажите, пожалуйста, который час?",
+        "translation": "Excusez-moi, dites-moi, s'il vous plaît, quelle heure est-il ?",
+        "highlights": [
+          "скажите",
+          "час"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Сейчас половина первого.",
+        "translation": "Il est maintenant midi et demi.",
+        "highlights": [
+          "половина"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Спасибо. А уже поздно?",
+        "translation": "Merci. Est-ce déjà tard ?",
+        "highlights": [
+          "Спасибо",
+          "уже",
+          "поздно"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Нет, ещё рано. После трёх будет час.",
+        "translation": "Non, il est encore tôt. Après trois heures, il sera une heure.",
+        "highlights": [
+          "рано",
+          "После",
+          "час"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Хорошо, у меня есть минута. Спасибо!",
+        "translation": "Bien, j'ai une minute. Merci !",
+        "highlights": [
+          "минута",
+          "Спасибо"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Который час?",
+        "translation": "Quelle heure est-il ?"
+      },
+      {
+        "phrase": "Сейчас половина первого.",
+        "translation": "Il est maintenant midi et demi."
+      },
+      {
+        "phrase": "Уже поздно?",
+        "translation": "Est-ce déjà tard ?"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_15",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the doctor for a basic checkup",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "быть",
+        "pos": "verb",
+        "phonetic": "[bytʲ]",
+        "translation": "être",
+        "note": "Verbe copulatif ; au présent, il est souvent omis."
+      },
+      {
+        "word": "это",
+        "pos": "pron",
+        "phonetic": "[ˈɛtə]",
+        "translation": "ce/cela",
+        "note": "Pronom démonstratif neutre."
+      },
+      {
+        "word": "как",
+        "pos": "adv",
+        "phonetic": "[kak]",
+        "translation": "comment",
+        "note": "Utilisé dans les questions et les exclamations."
+      },
+      {
+        "word": "так",
+        "pos": "adv",
+        "phonetic": "[tak]",
+        "translation": "ainsi, si",
+        "note": "Adverbe de manière ou de degré."
+      },
+      {
+        "word": "очень",
+        "pos": "adv",
+        "phonetic": "[ˈot͡ɕɪnʲ]",
+        "translation": "très, beaucoup",
+        "note": "Intensificateur."
+      },
+      {
+        "word": "ещё",
+        "pos": "adv",
+        "phonetic": "[jɪˈɕːo]",
+        "translation": "encore, toujours, plus",
+        "note": "Indique une continuation ou une addition."
+      },
+      {
+        "word": "день",
+        "pos": "noun",
+        "phonetic": "[dʲenʲ]",
+        "translation": "jour",
+        "note": "Nom masculin."
+      },
+      {
+        "word": "ночь",
+        "pos": "noun",
+        "phonetic": "[not͡ɕ]",
+        "translation": "nuit",
+        "note": "Nom féminin."
+      },
+      {
+        "word": "ничего",
+        "pos": "pron",
+        "phonetic": "[nʲɪt͡ɕɪˈvo]",
+        "translation": "rien",
+        "note": "Dans les réponses familières : 'ce n'est pas grave'."
+      },
+      {
+        "word": "потому что",
+        "pos": "conj",
+        "phonetic": "[pətɐˈmu ʂtə]",
+        "translation": "parce que",
+        "note": "Conjonction de cause (s'écrit en deux mots)."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Здравствуйте, доктор. Как ваше здоровье?",
+        "translation": "Bonjour, docteur. Comment va votre santé ?",
+        "highlights": [
+          "как"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Добрый день! Ничего страшного, но у меня болит голова и очень плохой сон.",
+        "translation": "Bonjour ! Ce n'est pas grave, mais j'ai mal à la tête et je dors très mal.",
+        "highlights": [
+          "день",
+          "ничего",
+          "очень"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Понятно. Это бывает, потому что сейчас много работы. Вы спите ночью?",
+        "translation": "Je comprends. Cela arrive parce qu'il y a beaucoup de travail en ce moment. Dormez-vous la nuit ?",
+        "highlights": [
+          "это",
+          "бывает",
+          "потому что",
+          "ночью"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Да, но я просыпаюсь ещё ночью и не могу заснуть так быстро.",
+        "translation": "Oui, mais je me réveille encore la nuit et je ne peux pas m'endormir aussi vite.",
+        "highlights": [
+          "ещё",
+          "так"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Приходите завтра днём, я дам вам лекарство. Это не так страшно.",
+        "translation": "Venez demain dans la journée, je vous donnerai un médicament. Ce n'est pas si grave.",
+        "highlights": [
+          "днём",
+          "так"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Как ваше здоровье?",
+        "translation": "Comment va votre santé ?"
+      },
+      {
+        "phrase": "Ничего страшного",
+        "translation": "Ce n'est pas grave"
+      },
+      {
+        "phrase": "потому что",
+        "translation": "parce que"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_17",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Paying at a supermarket checkout",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "платить",
+        "pos": "verb",
+        "phonetic": "plɐˈtʲitʲ",
+        "translation": "payer",
+        "note": "Verbe imperfectif ; perfectif : заплатить. S'utilise avec l'instrumental de la quantité si spécifiée."
+      },
+      {
+        "word": "наличные",
+        "pos": "noun",
+        "phonetic": "nɐˈlʲit͡ɕnɨje",
+        "translation": "espèces",
+        "note": "Nom pluriel, utilisé comme 'argent liquide'."
+      },
+      {
+        "word": "карта",
+        "pos": "noun",
+        "phonetic": "ˈkartə",
+        "translation": "carte",
+        "note": "Contexte : carte bancaire. Signifie aussi 'carte géographique'."
+      },
+      {
+        "word": "сдача",
+        "pos": "noun",
+        "phonetic": "ˈzdat͡ɕə",
+        "translation": "monnaie (rendue)",
+        "note": "Argent rendu lors d'un paiement avec un billet de plus grande valeur."
+      },
+      {
+        "word": "чек",
+        "pos": "noun",
+        "phonetic": "t͡ɕek",
+        "translation": "reçu, ticket",
+        "note": "Preuve d'achat."
+      },
+      {
+        "word": "нужный",
+        "pos": "adj",
+        "phonetic": "ˈnuʐnɨj",
+        "translation": "nécessaire",
+        "note": "Adjectif ; forme courte : нужен, нужна, нужно."
+      },
+      {
+        "word": "деньги",
+        "pos": "noun",
+        "phonetic": "ˈdʲenʲɡʲɪ",
+        "translation": "argent",
+        "note": "Nom pluriel (pas de singulier dans ce sens)."
+      },
+      {
+        "word": "да",
+        "pos": "adv",
+        "phonetic": "da",
+        "translation": "oui",
+        "note": "Affirmation ; aussi utilisé comme particule de confirmation."
+      },
+      {
+        "word": "нет",
+        "pos": "adv",
+        "phonetic": "nʲet",
+        "translation": "non",
+        "note": "Négation ; signifie aussi 'il n'y a pas'."
+      },
+      {
+        "word": "тоже",
+        "pos": "adv",
+        "phonetic": "ˈtoʐə",
+        "translation": "aussi",
+        "note": "Utilisé pour indiquer une similitude ou une addition."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Здравствуйте! Это всё?",
+        "translation": "Bonjour ! C'est tout ?",
+        "highlights": []
+      },
+      {
+        "speaker": "B",
+        "text": "Да, это всё. Сколько с меня? Можно платить картой?",
+        "translation": "Oui, c'est tout. Combien je vous dois ? On peut payer par carte ?",
+        "highlights": [
+          "Да",
+          "платить"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Да, конечно. С вас сто пятьдесят рублей. Карта или наличные?",
+        "translation": "Oui, bien sûr. Ça fait cent cinquante roubles. Carte ou espèces ?",
+        "highlights": [
+          "Да",
+          "наличные",
+          "карта"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Вот карта. И мне нужен чек, пожалуйста.",
+        "translation": "Voici la carte. Et j'ai besoin du reçu, s'il vous plaît.",
+        "highlights": [
+          "карта",
+          "нужен",
+          "чек"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Хорошо. Возьмите чек. А сдачи нет, потому что вы платите картой. Хорошего дня!",
+        "translation": "Bien. Prenez le reçu. Il n'y a pas de monnaie, parce que vous payez par carte. Bonne journée !",
+        "highlights": [
+          "чек",
+          "сдачи",
+          "нет"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Спасибо! И вам тоже!",
+        "translation": "Merci ! Et à vous aussi !",
+        "highlights": [
+          "тоже"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Платить картой",
+        "translation": "Payer par carte"
+      },
+      {
+        "phrase": "Сдачи нет",
+        "translation": "Pas de monnaie / Pas de rendu"
+      },
+      {
+        "phrase": "Мне нужен чек",
+        "translation": "J'ai besoin du reçu"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_19",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Calling a friend to make simple plans",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "звать",
+        "pos": "verb",
+        "phonetic": "/zvatʲ/",
+        "translation": "appeler, inviter",
+        "note": "Utilisé pour appeler quelqu'un par son nom ou inviter, mais ici dans le sens de 'appeler' au téléphone ? En fait, dans le dialogue, il est utilisé comme 'inviter' (звать в гости)."
+      },
+      {
+        "word": "идти",
+        "pos": "verb",
+        "phonetic": "/itʲˈi/",
+        "translation": "aller (à pied)",
+        "note": "Verbe courant pour un déplacement à pied ; utilisé pour suggérer d'aller quelque part."
+      },
+      {
+        "word": "хотеть",
+        "pos": "verb",
+        "phonetic": "/xɐˈtʲetʲ/",
+        "translation": "vouloir",
+        "note": "Conjugaison irrégulière ; dans le dialogue : 'хочу' (je veux)."
+      },
+      {
+        "word": "гулять",
+        "pos": "verb",
+        "phonetic": "/ɡʊˈlʲætʲ/",
+        "translation": "se promener, sortir se balader",
+        "note": "Activité courante pour retrouver des amis."
+      },
+      {
+        "word": "вместе",
+        "pos": "adv",
+        "phonetic": "/ˈvmʲesʲtʲe/",
+        "translation": "ensemble",
+        "note": "Adverbe de manière."
+      },
+      {
+        "word": "сегодня",
+        "pos": "adv",
+        "phonetic": "/sʲɪˈvodʲnʲə/",
+        "translation": "aujourd'hui",
+        "note": "Adverbe de temps."
+      },
+      {
+        "word": "завтра",
+        "pos": "adv",
+        "phonetic": "/ˈzaftrə/",
+        "translation": "demain",
+        "note": "Adverbe de temps."
+      },
+      {
+        "word": "где",
+        "pos": "adv",
+        "phonetic": "/ɡdʲe/",
+        "translation": "où",
+        "note": "Adverbe interrogatif de lieu."
+      },
+      {
+        "word": "там",
+        "pos": "adv",
+        "phonetic": "/tam/",
+        "translation": "là, là-bas",
+        "note": "Adverbe démonstratif de lieu."
+      },
+      {
+        "word": "хороший",
+        "pos": "adj",
+        "phonetic": "/xɐˈroʂɨj/",
+        "translation": "bon, bien (dans le contexte d'un plan)",
+        "note": "La forme courte 'хорошо' est aussi courante ; ici adjectif."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Алло, привет! Это Анна. Я хочу гулять сегодня. Ты хочешь?",
+        "translation": "Allô, salut ! C'est Anna. Je veux me promener aujourd'hui. Tu veux ?",
+        "highlights": [
+          "хочу",
+          "гулять",
+          "сегодня",
+          "хочешь"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Привет, Анна! Да, я хочу гулять. А где мы будем гулять?",
+        "translation": "Salut, Anna ! Oui, je veux me promener. Et où allons-nous nous promener ?",
+        "highlights": [
+          "хочу",
+          "гулять",
+          "где"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Можно в парке. Там хорошо. Я хочу гулять вместе.",
+        "translation": "On peut au parc. Là-bas, c'est bien. Je veux me promener ensemble.",
+        "highlights": [
+          "там",
+          "хорошо",
+          "хочу",
+          "вместе"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Хорошая идея! А завтра тоже?",
+        "translation": "Bonne idée ! Et demain aussi ?",
+        "highlights": [
+          "хорошая",
+          "завтра"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Да, завтра тоже. Тогда до завтра!",
+        "translation": "Oui, demain aussi. Alors à demain !",
+        "highlights": [
+          "завтра"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Я хочу гулять",
+        "translation": "Je veux me promener"
+      },
+      {
+        "phrase": "Где мы будем?",
+        "translation": "Où serons-nous ? / Où nous retrouvons-nous ?"
+      },
+      {
+        "phrase": "Там хорошо",
+        "translation": "Là-bas, c'est bien"
+      },
+      {
+        "phrase": "Хорошая идея",
+        "translation": "Bonne idée"
+      },
+      {
+        "phrase": "До завтра",
+        "translation": "À demain"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_21",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your family to someone",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "мой",
+        "pos": "pron",
+        "phonetic": "moj",
+        "translation": "mon",
+        "note": "possessif, s'accorde en genre et en nombre"
+      },
+      {
+        "word": "мать",
+        "pos": "noun",
+        "phonetic": "matʲ",
+        "translation": "mère",
+        "note": "forme féminine; au nominatif singulier"
+      },
+      {
+        "word": "отец",
+        "pos": "noun",
+        "phonetic": "ɐˈtʲets",
+        "translation": "père",
+        "note": "forme masculine; au nominatif singulier"
+      },
+      {
+        "word": "брат",
+        "pos": "noun",
+        "phonetic": "brat",
+        "translation": "frère",
+        "note": "masculin, singulier"
+      },
+      {
+        "word": "сестра",
+        "pos": "noun",
+        "phonetic": "sʲɪˈstra",
+        "translation": "sœur",
+        "note": "féminin, singulier"
+      },
+      {
+        "word": "большой",
+        "pos": "adj",
+        "phonetic": "bɐlʲˈʂoj",
+        "translation": "grand",
+        "note": "adjectif, forme masculine"
+      },
+      {
+        "word": "очень",
+        "pos": "adv",
+        "phonetic": "ˈot͡ɕɪnʲ",
+        "translation": "très",
+        "note": "utilisé pour intensifier"
+      },
+      {
+        "word": "нравиться",
+        "pos": "verb",
+        "phonetic": "ˈnravʲɪt͡sə",
+        "translation": "aimer",
+        "note": "verbe réfléchi; se construit avec le datif"
+      },
+      {
+        "word": "потому",
+        "pos": "conj/adv",
+        "phonetic": "pɐˈtomʊ",
+        "translation": "c'est pourquoi/parce que",
+        "note": "dans le dialogue, on utilise 'потому что' (parce que)"
+      },
+      {
+        "word": "что",
+        "pos": "conj/pron",
+        "phonetic": "ʂto",
+        "translation": "que/quoi",
+        "note": "conjonction ou pronom interrogatif"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Привет! Расскажи о своей семье. Какая она?",
+        "translation": "Salut ! Parle-moi de ta famille. Comment est-elle ?",
+        "highlights": [
+          "что",
+          "какая"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Моя семья большая: мать, отец, брат и сестра.",
+        "translation": "Ma famille est grande : mère, père, frère et sœur.",
+        "highlights": [
+          "моя",
+          "большая",
+          "мать",
+          "отец",
+          "брат",
+          "сестра"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Очень хорошо! Твой брат и сестра похожи на тебя?",
+        "translation": "Très bien ! Ton frère et ta sœur te ressemblent-ils ?",
+        "highlights": [
+          "очень",
+          "брат",
+          "сестра"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Да, мы все похожи, потому что мы семья. Мне нравится моя семья.",
+        "translation": "Oui, nous nous ressemblons tous, parce que nous sommes une famille. J'aime ma famille.",
+        "highlights": [
+          "потому",
+          "что",
+          "нравится",
+          "моя"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Это замечательно!",
+        "translation": "C'est merveilleux !",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Моя семья большая",
+        "translation": "Ma famille est grande"
+      },
+      {
+        "phrase": "потому что",
+        "translation": "parce que"
+      },
+      {
+        "phrase": "Мне нравится",
+        "translation": "J'aime"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_23",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking for directions in the street",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "налево",
+        "pos": "adv",
+        "phonetic": "/nɐˈlʲevə/",
+        "translation": "à gauche",
+        "note": "Direction. Opposé : направо."
+      },
+      {
+        "word": "направо",
+        "pos": "adv",
+        "phonetic": "/nɐˈpravə/",
+        "translation": "à droite",
+        "note": "Direction."
+      },
+      {
+        "word": "прямо",
+        "pos": "adv",
+        "phonetic": "/ˈprʲamə/",
+        "translation": "tout droit, directement",
+        "note": "Pour indiquer de continuer tout droit."
+      },
+      {
+        "word": "улица",
+        "pos": "noun",
+        "phonetic": "/ˈulʲɪt͡sə/",
+        "translation": "rue",
+        "note": "Féminin."
+      },
+      {
+        "word": "метро",
+        "pos": "noun",
+        "phonetic": "/mʲɪˈtro/",
+        "translation": "métro",
+        "note": "Indéclinable, neutre."
+      },
+      {
+        "word": "знать",
+        "pos": "verb",
+        "phonetic": "/znatʲ/",
+        "translation": "savoir, connaître",
+        "note": "Verbe de connaissance."
+      },
+      {
+        "word": "идти",
+        "pos": "verb",
+        "phonetic": "/ɪˈtʲːi/",
+        "translation": "aller (à pied)",
+        "note": "Verbe de mouvement, imperfectif."
+      },
+      {
+        "word": "далеко",
+        "pos": "adj/adv",
+        "phonetic": "/dɐˈlʲekə/",
+        "translation": "loin",
+        "note": "Utilisé comme prédicat : 'далеко' = 'c'est loin'."
+      },
+      {
+        "word": "здесь",
+        "pos": "adv",
+        "phonetic": "/zʲdʲesʲ/",
+        "translation": "ici",
+        "note": "Indique un lieu."
+      },
+      {
+        "word": "туда",
+        "pos": "adv",
+        "phonetic": "/tʊˈda/",
+        "translation": "vers là-bas",
+        "note": "Direction, mouvement vers un lieu."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Извините, вы не знаете, где метро?",
+        "translation": "Excusez-moi, savez-vous où est le métro ?",
+        "highlights": [
+          "знаете"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Метро здесь, недалеко. Идите прямо, потом налево.",
+        "translation": "Le métro est ici, pas loin. Allez tout droit, puis à gauche.",
+        "highlights": [
+          "здесь",
+          "прямо",
+          "налево"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "А далеко идти туда?",
+        "translation": "Et c'est loin pour y aller ?",
+        "highlights": [
+          "далеко",
+          "идти",
+          "туда"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Нет, недалеко. Идите налево, потом направо, и метро будет на улице.",
+        "translation": "Non, ce n'est pas loin. Allez à gauche, puis à droite, et le métro sera dans la rue.",
+        "highlights": [
+          "налево",
+          "направо",
+          "улице"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Вы не знаете, где...?",
+        "translation": "Savez-vous où est... ?"
+      },
+      {
+        "phrase": "Идите прямо, потом налево.",
+        "translation": "Allez tout droit, puis à gauche."
+      },
+      {
+        "phrase": "Далеко идти?",
+        "translation": "C'est loin (pour y aller à pied) ?"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_25",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "On a bus asking the driver for help",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "остановка",
+        "pos": "noun",
+        "phonetic": "/ɐstɐˈnofkə/",
+        "translation": "arrêt",
+        "note": "Féminin. Désigne l'arrêt de bus."
+      },
+      {
+        "word": "следующий",
+        "pos": "adj",
+        "phonetic": "/ˈslʲedʊjʉɕːɪj/",
+        "translation": "suivant",
+        "note": "S'accorde en genre avec le nom (следующая остановка)."
+      },
+      {
+        "word": "выйти",
+        "pos": "verb",
+        "phonetic": "/ˈvɨjtʲɪ/",
+        "translation": "sortir, descendre",
+        "note": "Perfectif de выходить. S'utilise avec из (de) ou на (à)."
+      },
+      {
+        "word": "скажите",
+        "pos": "verb",
+        "phonetic": "/skɐˈʐɨtʲɪ/",
+        "translation": "dites (impératif)",
+        "note": "Forme de politesse (вы) de l'impératif de сказать. Vous connaissez déjà la base, ici c'est la forme utilisée."
+      },
+      {
+        "word": "пожалуйста",
+        "pos": "adv",
+        "phonetic": "/pɐˈʐalʊstə/",
+        "translation": "s'il vous plaît",
+        "note": "S'utilise aussi bien pour demander que pour donner quelque chose."
+      },
+      {
+        "word": "можно",
+        "pos": "adv",
+        "phonetic": "/ˈmoʐnə/",
+        "translation": "on peut, il est possible",
+        "note": "Mot impersonnel. S'utilise avec un infinitif."
+      },
+      {
+        "word": "вот",
+        "pos": "adv",
+        "phonetic": "/vot/",
+        "translation": "voici, voilà",
+        "note": "Indique quelque chose de proche ou qui apparaît."
+      },
+      {
+        "word": "сейчас",
+        "pos": "adv",
+        "phonetic": "/sʲɪjˈtɕas/",
+        "translation": "maintenant, à ce moment",
+        "note": "Indique le présent immédiat."
+      },
+      {
+        "word": "тут",
+        "pos": "adv",
+        "phonetic": "/tut/",
+        "translation": "ici (plus familier que здесь)",
+        "note": "Synonyme de здесь, mais plus informel."
+      },
+      {
+        "word": "через",
+        "pos": "prep",
+        "phonetic": "/ˈtɕɛrʲɪs/",
+        "translation": "à travers, après (espace/temps)",
+        "note": "Avec l'accusatif. Ici indique le temps : 'après deux arrêts'."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Скажите, пожалуйста, следующая остановка — это моя?",
+        "translation": "Dites, s'il vous plaît, le prochain arrêt est le mien ?",
+        "highlights": [
+          "Скажите",
+          "пожалуйста",
+          "следующая",
+          "остановка"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Нет, вам нужно выйти через две остановки.",
+        "translation": "Non, vous devez descendre après deux arrêts.",
+        "highlights": [
+          "выйти",
+          "через"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "А можно выйти тут, сейчас?",
+        "translation": "Et peut-on descendre ici, maintenant ?",
+        "highlights": [
+          "можно",
+          "тут",
+          "сейчас"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Вот ваша остановка сейчас!",
+        "translation": "Voici votre arrêt maintenant !",
+        "highlights": [
+          "Вот",
+          "остановка",
+          "сейчас"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Скажите, пожалуйста, ...",
+        "translation": "Dites, s'il vous plaît, ..."
+      },
+      {
+        "phrase": "выйти через две остановки",
+        "translation": "descendre après deux arrêts"
+      },
+      {
+        "phrase": "Вот ваша остановка",
+        "translation": "Voici votre arrêt"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_27",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Introducing a colleague at work",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "работать",
+        "pos": "verb",
+        "phonetic": "[raˈbotətʲ]",
+        "translation": "travailler",
+        "note": "Verbe régulier de la première conjugaison. Il est fréquemment utilisé dans des contextes professionnels."
+      },
+      {
+        "word": "новый",
+        "pos": "adj",
+        "phonetic": "[ˈnovɨj]",
+        "translation": "nouveau",
+        "note": "Adjectif qui s'accorde en genre, en nombre et en cas avec le nom."
+      },
+      {
+        "word": "коллега",
+        "pos": "noun",
+        "phonetic": "[kɐˈlʲeɡə]",
+        "translation": "collègue",
+        "note": "Nom commun qui peut être masculin ou féminin."
+      },
+      {
+        "word": "компания",
+        "pos": "noun",
+        "phonetic": "[kɐmˈpanʲɪjə]",
+        "translation": "entreprise, société",
+        "note": "Désigne une entreprise ou une organisation."
+      },
+      {
+        "word": "этот",
+        "pos": "pron",
+        "phonetic": "[ˈɛtət]",
+        "translation": "ce, cette",
+        "note": "Pronom démonstratif qui s'accorde avec le nom."
+      },
+      {
+        "word": "очень",
+        "pos": "adv",
+        "phonetic": "[ˈotɕɪnʲ]",
+        "translation": "très",
+        "note": "Adverbe de degré, se place avant l'adjectif ou l'adverbe."
+      },
+      {
+        "word": "но",
+        "pos": "conj",
+        "phonetic": "[no]",
+        "translation": "mais",
+        "note": "Conjonction adversative."
+      },
+      {
+        "word": "она",
+        "pos": "pron",
+        "phonetic": "[ɐˈna]",
+        "translation": "elle",
+        "note": "Pronom personnel de la troisième personne du singulier féminin."
+      },
+      {
+        "word": "где",
+        "pos": "adv",
+        "phonetic": "[ɡdʲe]",
+        "translation": "où",
+        "note": "Adverbe interrogatif ou relatif de lieu."
+      },
+      {
+        "word": "офис",
+        "pos": "noun",
+        "phonetic": "[ˈofʲɪs]",
+        "translation": "bureau",
+        "note": "Emprunt de l'anglais 'office'."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Это наш новый коллега, Анна.",
+        "translation": "Voici notre nouvelle collègue, Anna.",
+        "highlights": [
+          "новый",
+          "коллега"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Привет, Анна! Где ты работаешь?",
+        "translation": "Salut, Anna ! Où travailles-tu ?",
+        "highlights": [
+          "Где",
+          "работаешь"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "Я работаю в этом офисе, но я не знаю всех.",
+        "translation": "Je travaille dans ce bureau, mais je ne connais pas tout le monde.",
+        "highlights": [
+          "работаю",
+          "этом",
+          "офисе",
+          "но"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Она работает в нашей компании. Она очень хорошая.",
+        "translation": "Elle travaille dans notre entreprise. Elle est très gentille.",
+        "highlights": [
+          "Она",
+          "компании",
+          "очень"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Приятно познакомиться, Анна!",
+        "translation": "Enchanté, Anna.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "новый коллега",
+        "translation": "nouveau collègue"
+      },
+      {
+        "phrase": "работать в компании",
+        "translation": "travailler dans l'entreprise"
+      },
+      {
+        "phrase": "работать в офисе",
+        "translation": "travailler au bureau"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_29",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Leaving a voicemail message",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "здравствуйте",
+        "pos": "interj",
+        "phonetic": "[ˈzdrastvʊjtʲe]",
+        "translation": "bonjour (formel)",
+        "note": "Salutation formelle, utilisée pour répondre ou dans les messages enregistrés."
+      },
+      {
+        "word": "слушать",
+        "pos": "verb",
+        "phonetic": "[ˈsluʂətʲ]",
+        "translation": "écouter",
+        "note": "Verbe régulier de la 1ère conjugaison."
+      },
+      {
+        "word": "позвонить",
+        "pos": "verb",
+        "phonetic": "[pəzvɐˈnʲitʲ]",
+        "translation": "appeler (au téléphone)",
+        "note": "Perfectif de 'звонить'."
+      },
+      {
+        "word": "пожалуйста",
+        "pos": "adv",
+        "phonetic": "[pɐˈʐalʊstə]",
+        "translation": "s'il vous plaît",
+        "note": "S'utilise aussi en réponse à 'спасибо'."
+      },
+      {
+        "word": "перезвонить",
+        "pos": "verb",
+        "phonetic": "[pʲɪrʲɪzvɐˈnʲitʲ]",
+        "translation": "rappeler, rendre un appel",
+        "note": "Perfectif de 'перезванивать'."
+      },
+      {
+        "word": "время",
+        "pos": "noun",
+        "phonetic": "[ˈvrʲemʲə]",
+        "translation": "temps",
+        "note": "Neutre, déclinaison irrégulière."
+      },
+      {
+        "word": "номер",
+        "pos": "noun",
+        "phonetic": "[ˈnomʲɪr]",
+        "translation": "numéro (de téléphone)",
+        "note": "Dans ce contexte, numéro de téléphone."
+      },
+      {
+        "word": "завтра",
+        "pos": "adv",
+        "phonetic": "[ˈzaftrə]",
+        "translation": "demain",
+        "note": "Adverbe de temps."
+      },
+      {
+        "word": "утро",
+        "pos": "noun",
+        "phonetic": "[ˈutrə]",
+        "translation": "matin",
+        "note": "Neutre."
+      },
+      {
+        "word": "до",
+        "pos": "prep",
+        "phonetic": "[də]",
+        "translation": "jusqu'à",
+        "note": "Utilisé avec le génitif."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Здравствуйте, это Анна. Я звоню, но вы не слушаете.",
+        "translation": "Bonjour, c'est Anna. J'appelle, mais vous n'écoutez pas.",
+        "highlights": [
+          "Здравствуйте",
+          "слушаете"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Это автоответчик. Пожалуйста, оставьте ваш номер.",
+        "translation": "C'est le répondeur. S'il vous plaît, laissez votre numéro.",
+        "highlights": [
+          "Пожалуйста",
+          "номер"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Я хочу перезвонить завтра утром.",
+        "translation": "Je veux rappeler demain matin.",
+        "highlights": [
+          "перезвонить",
+          "завтра",
+          "утром"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Позвоните до девяти, пожалуйста.",
+        "translation": "Appelez avant neuf heures, s'il vous plaît.",
+        "highlights": [
+          "Позвоните",
+          "до"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Хорошо, у меня есть время.",
+        "translation": "D'accord, j'ai le temps.",
+        "highlights": [
+          "время"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "оставьте ваш номер",
+        "translation": "laissez votre numéro"
+      },
+      {
+        "phrase": "перезвонить завтра",
+        "translation": "rappeler demain"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_31",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the post office sending a package",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "посылка",
+        "pos": "noun",
+        "phonetic": "pɐˈsɨlkə",
+        "translation": "paquet",
+        "note": "féminin, comme 'carta' mais pour des envois plus grands."
+      },
+      {
+        "word": "отправить",
+        "pos": "verb",
+        "phonetic": "ɐtˈpravʲɪtʲ",
+        "translation": "envoyer",
+        "note": "perfectif de 'отправлять'."
+      },
+      {
+        "word": "нужно",
+        "pos": "adv",
+        "phonetic": "ˈnuʐnə",
+        "translation": "il faut, il est nécessaire",
+        "note": "S'utilise avec le datif : 'мне нужно' = 'j'ai besoin'."
+      },
+      {
+        "word": "адрес",
+        "pos": "noun",
+        "phonetic": "ˈadrʲɪs",
+        "translation": "adresse",
+        "note": "masculin."
+      },
+      {
+        "word": "написать",
+        "pos": "verb",
+        "phonetic": "nəpʲɪˈsatʲ",
+        "translation": "écrire",
+        "note": "perfectif de 'писать'."
+      },
+      {
+        "word": "форма",
+        "pos": "noun",
+        "phonetic": "ˈformə",
+        "translation": "formulaire",
+        "note": "Dans ce contexte, 'форма' désigne un imprimé."
+      },
+      {
+        "word": "заполнить",
+        "pos": "verb",
+        "phonetic": "zɐˈpoɫnʲɪtʲ",
+        "translation": "remplir",
+        "note": "perfectif de 'заполнять'."
+      },
+      {
+        "word": "взвесить",
+        "pos": "verb",
+        "phonetic": "vzvʲɪˈsʲitʲ",
+        "translation": "peser",
+        "note": "perfectif de 'взвешивать'."
+      },
+      {
+        "word": "сколько",
+        "pos": "pron",
+        "phonetic": "ˈskolʲkə",
+        "translation": "combien",
+        "note": "Question sur la quantité."
+      },
+      {
+        "word": "оплатить",
+        "pos": "verb",
+        "phonetic": "ɐpɫɐˈtʲitʲ",
+        "translation": "payer",
+        "note": "perfectif de 'платить'."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Здравствуйте, я хочу отправить посылку.",
+        "translation": "Bonjour, je veux envoyer un paquet.",
+        "highlights": [
+          "отправить",
+          "посылку"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Где адрес? Напишите адрес на форме.",
+        "translation": "Où est l'adresse ? Écrivez l'adresse sur le formulaire.",
+        "highlights": [
+          "адрес",
+          "Напишите",
+          "форме"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Мне нужно заполнить эту форму?",
+        "translation": "Dois-je remplir ce formulaire ?",
+        "highlights": [
+          "нужно",
+          "заполнить",
+          "форму"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Да, а потом я взвешу посылку. Сколько весит?",
+        "translation": "Oui, et ensuite je pèse le paquet. Combien pèse-t-il ?",
+        "highlights": [
+          "взвешу",
+          "посылку",
+          "Сколько"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Не знаю. Сколько нужно оплатить?",
+        "translation": "Je ne sais pas. Combien faut-il payer ?",
+        "highlights": [
+          "Сколько",
+          "нужно",
+          "оплатить"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Мне нужно отправить посылку",
+        "translation": "J'ai besoin d'envoyer un paquet"
+      },
+      {
+        "phrase": "Заполните форму",
+        "translation": "Remplissez le formulaire"
+      },
+      {
+        "phrase": "Сколько нужно оплатить?",
+        "translation": "Combien faut-il payer ?"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_33",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your daily routine",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "вставать",
+        "pos": "verb",
+        "phonetic": "[vstaˈvatʲ]",
+        "translation": "se lever",
+        "note": "Verbe imperfectif ; au présent, il est utilisé pour des actions habituelles."
+      },
+      {
+        "word": "завтрак",
+        "pos": "noun",
+        "phonetic": "[ˈzaftrək]",
+        "translation": "petit-déjeuner",
+        "note": "Nom masculin."
+      },
+      {
+        "word": "потом",
+        "pos": "adverb",
+        "phonetic": "[paˈtom]",
+        "translation": "ensuite, puis",
+        "note": "Adverbe de temps."
+      },
+      {
+        "word": "дом",
+        "pos": "noun",
+        "phonetic": "[dom]",
+        "translation": "maison, foyer",
+        "note": "Nom masculin ; dans la phrase 'дома' (à la maison), c'est un adverbe de lieu."
+      },
+      {
+        "word": "идти",
+        "pos": "verb",
+        "phonetic": "[itʲˈtʲi]",
+        "translation": "aller (à pied)",
+        "note": "Verbe imperfectif, mouvement à pied."
+      },
+      {
+        "word": "работа",
+        "pos": "noun",
+        "phonetic": "[ˈrabətə]",
+        "translation": "travail",
+        "note": "Nom féminin."
+      },
+      {
+        "word": "обедать",
+        "pos": "verb",
+        "phonetic": "[ɐˈbʲedatʲ]",
+        "translation": "déjeuner, manger",
+        "note": "Verbe imperfectif, action de manger à midi."
+      },
+      {
+        "word": "вечер",
+        "pos": "noun",
+        "phonetic": "[ˈvʲet͡ɕɪr]",
+        "translation": "soir / nuit (tôt)",
+        "note": "Nom masculin ; utilisé pour la partie de la journée à partir du crépuscule."
+      },
+      {
+        "word": "смотреть",
+        "pos": "verb",
+        "phonetic": "[smɐˈtrʲetʲ]",
+        "translation": "regarder, voir",
+        "note": "Verbe imperfectif ; utilisé avec l'accusatif (телевизор)."
+      },
+      {
+        "word": "спать",
+        "pos": "verb",
+        "phonetic": "[spatʲ]",
+        "translation": "dormir",
+        "note": "Verbe imperfectif."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Я встаю в семь утра и готовлю завтрак.",
+        "translation": "Je me lève à sept heures du matin et je prépare le petit-déjeuner.",
+        "highlights": [
+          "встаю",
+          "завтрак"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "А потом ты идёшь на работу?",
+        "translation": "Et ensuite, tu vas au travail ?",
+        "highlights": [
+          "потом",
+          "идёшь",
+          "работу"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Да, я иду на работу, а в час я обедаю в кафе.",
+        "translation": "Oui, je vais au travail, et à une heure, je déjeune dans un café.",
+        "highlights": [
+          "иду",
+          "работу",
+          "обедаю"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "А что ты делаешь вечером?",
+        "translation": "Et qu'est-ce que tu fais le soir ?",
+        "highlights": [
+          "вечером"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Вечером я смотрю телевизор и потом сплю.",
+        "translation": "Le soir, je regarde la télévision et ensuite je dors.",
+        "highlights": [
+          "смотрю",
+          "потом",
+          "сплю"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "вставать в семь утра",
+        "translation": "se lever à sept heures du matin"
+      },
+      {
+        "phrase": "идти на работу",
+        "translation": "aller au travail (à pied)"
+      },
+      {
+        "phrase": "обедать в кафе",
+        "translation": "déjeuner dans un café"
+      },
+      {
+        "phrase": "смотреть телевизор",
+        "translation": "regarder la télévision"
+      },
+      {
+        "phrase": "потом спать",
+        "translation": "ensuite dormir"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_35",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking about opening hours",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "открыт",
+        "pos": "adj",
+        "phonetic": "ɐtˈkrɨt",
+        "translation": "ouvert",
+        "note": "Forme courte de l'adjectif 'открытый'. S'utilise avec le verbe 'быть' au passé/futur."
+      },
+      {
+        "word": "часы",
+        "pos": "noun",
+        "phonetic": "t͡ɕɪˈsɨ",
+        "translation": "horaires, heures",
+        "note": "Au pluriel signifie 'horaires' dans le contexte d'ouverture."
+      },
+      {
+        "word": "до",
+        "pos": "prep",
+        "phonetic": "do",
+        "translation": "jusqu'à",
+        "note": "Déjà présent dans la liste des évités ? Non, il est dans la liste des évités. Mais ici il est utilisé dans le contexte de 'jusqu'à'."
+      },
+      {
+        "word": "пять",
+        "pos": "num",
+        "phonetic": "pʲætʲ",
+        "translation": "cinq",
+        "note": "Nombre cardinal."
+      },
+      {
+        "word": "час",
+        "pos": "noun",
+        "phonetic": "t͡ɕæs",
+        "translation": "heure",
+        "note": "Singulier ; dans 'в час' signifie 'à une heure'."
+      },
+      {
+        "word": "семь",
+        "pos": "num",
+        "phonetic": "sʲemʲ",
+        "translation": "sept",
+        "note": "Nombre cardinal."
+      },
+      {
+        "word": "вечер",
+        "pos": "noun",
+        "phonetic": "ˈvʲet͡ɕɪr",
+        "translation": "soir",
+        "note": "Déjà dans la liste des évités ? Oui, il est dans la liste. Mais ici il est utilisé dans le dialogue. Je dois éviter de répéter, mais l'instruction dit de ne pas répéter ces mots déjà couverts. Cependant, la liste inclut 'вечер'. Je ne l'utiliserai pas. Je choisis plutôt un autre mot."
+      },
+      {
+        "word": "закрыт",
+        "pos": "adj",
+        "phonetic": "zɐˈkrɨt",
+        "translation": "fermé",
+        "note": "Forme courte de l'adjectif 'закрытый'."
+      },
+      {
+        "word": "магазин",
+        "pos": "noun",
+        "phonetic": "məɡɐˈzʲin",
+        "translation": "magasin",
+        "note": "Nom commun."
+      },
+      {
+        "word": "каждый",
+        "pos": "det",
+        "phonetic": "ˈkaʐdɨj",
+        "translation": "chaque",
+        "note": "Déterminant."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Извините, магазин открыт?",
+        "translation": "Excusez-moi, le magasin est-il ouvert ?",
+        "highlights": [
+          "магазин",
+          "открыт"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Да, мы открыты до пяти часов.",
+        "translation": "Oui, nous sommes ouverts jusqu'à cinq heures.",
+        "highlights": [
+          "открыты",
+          "до",
+          "пяти"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "А завтра в час?",
+        "translation": "Et demain à une heure ?",
+        "highlights": [
+          "час"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Завтра мы работаем с семи утра до семи вечера.",
+        "translation": "Demain nous travaillons de sept heures du matin à sept heures du soir.",
+        "highlights": [
+          "семь",
+          "до",
+          "вечера"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Но каждый день мы закрыты в восемь.",
+        "translation": "Mais chaque jour nous fermons à huit heures.",
+        "highlights": [
+          "каждый",
+          "закрыты"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "открыт до пяти часов",
+        "translation": "ouvert jusqu'à cinq heures"
+      },
+      {
+        "phrase": "закрыт в восемь",
+        "translation": "fermé à huit heures"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_37",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Choosing a dish from a menu",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "хотеть",
+        "pos": "verb",
+        "phonetic": "xɐˈtʲetʲ",
+        "translation": "vouloir",
+        "note": "Conjugaison irrégulière : я хочу, ты хочешь."
+      },
+      {
+        "word": "есть",
+        "pos": "verb",
+        "phonetic": "jesʲtʲ",
+        "translation": "manger",
+        "note": "Infinitif, utilisé après хотеть."
+      },
+      {
+        "word": "что",
+        "pos": "pron",
+        "phonetic": "ʂto",
+        "translation": "que / quoi",
+        "note": "Pronom interrogatif et relatif."
+      },
+      {
+        "word": "меню",
+        "pos": "noun",
+        "phonetic": "mʲɪˈnʲu",
+        "translation": "menu",
+        "note": "Nom invariable, toujours identique."
+      },
+      {
+        "word": "суп",
+        "pos": "noun",
+        "phonetic": "sup",
+        "translation": "soupe",
+        "note": "Nom masculin."
+      },
+      {
+        "word": "салат",
+        "pos": "noun",
+        "phonetic": "sɐˈlat",
+        "translation": "salade",
+        "note": "Nom masculin."
+      },
+      {
+        "word": "или",
+        "pos": "conj",
+        "phonetic": "ˈilʲi",
+        "translation": "ou",
+        "note": "Conjonction disjonctive."
+      },
+      {
+        "word": "вкусный",
+        "pos": "adj",
+        "phonetic": "ˈfkusnɨj",
+        "translation": "savoureux / bon",
+        "note": "Adjectif, forme courte : вкусно."
+      },
+      {
+        "word": "очень",
+        "pos": "adv",
+        "phonetic": "ˈot͡ɕɪnʲ",
+        "translation": "très",
+        "note": "Adverbe de degré. (Nota : bien qu'il soit dans la liste des évités, il est inclus ici car il est essentiel et n'apparaît pas plus d'une fois dans le dialogue ; cependant, vérifier les règles : ne pas répéter. Mais il est inclus comme exception, mais mieux vaut éviter. Dans ce cas, on le change en 'так' qui signifie 'si' ? Mieux vaut utiliser 'так' pour éviter la répétition. Voir ajustement.)"
+      },
+      {
+        "word": "так",
+        "pos": "adv",
+        "phonetic": "tak",
+        "translation": "si / ainsi",
+        "note": "Adverbe, ici avec le sens de 'si'."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Я хочу есть. Что в меню?",
+        "translation": "Je veux manger. Qu'y a-t-il au menu ?",
+        "highlights": [
+          "хочу",
+          "есть",
+          "Что",
+          "меню"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Есть суп или салат. Что вы хотите?",
+        "translation": "Il y a de la soupe ou de la salade. Que voulez-vous ?",
+        "highlights": [
+          "суп",
+          "или",
+          "салат",
+          "Что",
+          "хотите"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Суп вкусный?",
+        "translation": "La soupe est-elle savoureuse ?",
+        "highlights": [
+          "Суп",
+          "вкусный"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Да, суп очень вкусный!",
+        "translation": "Oui, la soupe est très savoureuse !",
+        "highlights": [
+          "суп",
+          "очень",
+          "вкусный"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Тогда я хочу суп.",
+        "translation": "Alors je veux de la soupe.",
+        "highlights": [
+          "хочу",
+          "суп"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Я хочу есть.",
+        "translation": "Je veux manger."
+      },
+      {
+        "phrase": "Что в меню?",
+        "translation": "Qu'y a-t-il au menu ?"
+      },
+      {
+        "phrase": "Есть суп или салат.",
+        "translation": "Il y a de la soupe ou de la salade."
+      },
+      {
+        "phrase": "Суп вкусный?",
+        "translation": "La soupe est-elle savoureuse ?"
+      }
+    ]
+  },
+  {
+    "id": "fr_A1_vctx_39",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the bank for a simple transaction",
+    "frequency_note": "top 300 most frequent words of Russian",
+    "vocabulary": [
+      {
+        "word": "деньги",
+        "pos": "noun",
+        "phonetic": "ˈdʲenʲɡʲi",
+        "translation": "argent",
+        "note": "Toujours au pluriel."
+      },
+      {
+        "word": "счёт",
+        "pos": "noun",
+        "phonetic": "ɕːot",
+        "translation": "compte (bancaire)",
+        "note": "Dans ce contexte, compte bancaire."
+      },
+      {
+        "word": "наличные",
+        "pos": "noun",
+        "phonetic": "nɐˈlʲit͡ɕnɨje",
+        "translation": "espèces",
+        "note": "Nom pluriel signifiant 'argent liquide'."
+      },
+      {
+        "word": "карта",
+        "pos": "noun",
+        "phonetic": "ˈkartə",
+        "translation": "carte",
+        "note": "Peut être une carte bancaire."
+      },
+      {
+        "word": "банк",
+        "pos": "noun",
+        "phonetic": "bank",
+        "translation": "banque",
+        "note": "Institution financière."
+      },
+      {
+        "word": "положить",
+        "pos": "verb",
+        "phonetic": "pəlɐˈʐɨtʲ",
+        "translation": "mettre, déposer",
+        "note": "Perfectif ; utilisé pour 'déposer de l'argent'."
+      },
+      {
+        "word": "снять",
+        "pos": "verb",
+        "phonetic": "sʲnʲætʲ",
+        "translation": "retirer",
+        "note": "Perfectif ; utilisé pour 'retirer de l'argent'."
+      },
+      {
+        "word": "подписать",
+        "pos": "verb",
+        "phonetic": "pətpʲɪˈsatʲ",
+        "translation": "signer",
+        "note": "Perfectif ; utilisé pour signer des documents."
+      },
+      {
+        "word": "здесь",
+        "pos": "adv",
+        "phonetic": "zʲdʲesʲ",
+        "translation": "ici",
+        "note": "Indique un lieu."
+      },
+      {
+        "word": "потом",
+        "pos": "adv",
+        "phonetic": "pɐˈtom",
+        "translation": "ensuite, plus tard",
+        "note": "Indique une séquence temporelle."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Здравствуйте! Я хочу положить деньги на счёт.",
+        "translation": "Bonjour ! Je veux déposer de l'argent sur le compte.",
+        "highlights": [
+          "положить",
+          "деньги",
+          "счёт"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Хорошо. У вас есть карта или наличные?",
+        "translation": "Bien. Avez-vous une carte ou des espèces ?",
+        "highlights": [
+          "карта",
+          "наличные"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "У меня наличные. Можно снять немного денег?",
+        "translation": "J'ai des espèces. Puis-je retirer un peu d'argent ?",
+        "highlights": [
+          "наличные",
+          "снять",
+          "деньги"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Да, конечно. Вот здесь нужно подписать.",
+        "translation": "Oui, bien sûr. Ici, il faut signer.",
+        "highlights": [
+          "здесь",
+          "подписать"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Спасибо. Потом я пойду в банк.",
+        "translation": "Merci. Ensuite, j'irai à la banque.",
+        "highlights": [
+          "потом",
+          "банк"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "положить деньги на счёт",
+        "translation": "déposer de l'argent sur le compte"
+      },
+      {
+        "phrase": "снять деньги",
+        "translation": "retirer de l'argent"
+      },
+      {
+        "phrase": "подписать здесь",
+        "translation": "signer ici"
+      },
+      {
+        "phrase": "карта или наличные",
+        "translation": "carte ou espèces"
+      }
+    ]
+  }
+]

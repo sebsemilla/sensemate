@@ -700,5 +700,247 @@
     "translations": {
       "pt": "Nominalização"
     }
+  },
+  {
+    "id": "pt_B2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "고급 양태 표현 (Modais Avançados)",
+    "bridge": "Em português, usamos 'teria feito', 'deveria ter feito' para expressar hipóteses e arrependimentos. No coreano, essas ideias são construídas com sufixos verbais como -었을 것이다, -었어야 했다, e -ㄹ 수 있었을 텐데. Um desafio é que o coreano não tem equivalentes diretos dos verbos modais, então a ordem e a combinação de sufixos são cruciais. Além disso, o coreano usa o contexto e a entonação para nuances que em português são claras pela escolha do verbo.",
+    "rule": "Para expressar modais avançados em coreano (nível B2), use as seguintes formas verbais: (1) Suposição/Probabilidade no passado: V-았/었을 것이다 (equivalente a 'teria + particípio' em suposições). Também V-았/었을 텐데 para suposições com contexto (geralmente com tom de expectativa ou desapontamento). (2) Dever no passado (obrigação não cumprida): V-았/었어야 했다 (equivalent a 'deveria ter feito'). Variante negativa: V-지 말았어야 했다 ('não deveria ter feito'). (3) Capacidade/permissão no passado: V-ㄹ/을 수 있었을 텐데 (equivalente a 'poderia ter feito' em contextos hipotéticos). Para arrependimento, também se usa V-ㄹ 걸 그랬다 (informal) e V-ㄹ 걸 그랬어요 (polido). Exceções: verbos irregulares (ㅂ, ㄷ, ㅅ, etc.) afetam a forma antes dos sufixos. Em contextos formais, a partícula de citação (다고) pode ser usada em estruturas indiretas, mas não nesses modais. Típicos usos: conversas sobre eventos passados, conselhos não seguidos, arrependimentos, e suposições retrospectivas.",
+    "concept_examples": [
+      {
+        "text": "그때 공부했을 거예요.",
+        "translation": "Ele/A ela deve ter estudado naquela época.",
+        "phonetic": "/kɯ.ttɛ koŋ.bu.hɛssɯl kʌ.je.jo/"
+      },
+      {
+        "text": "지금 왔어야 했어요.",
+        "translation": "Você deveria ter vindo agora.",
+        "phonetic": "/tɕi.ɡɯm wa.ssʌ.ja hɛ.ssʌ.jo/"
+      },
+      {
+        "text": "사실을 말했을 텐데요.",
+        "translation": "Ele teria dito a verdade (em outras circunstâncias, mas não o fez).",
+        "phonetic": "/sa.ɕiɾɯɭ ma.ɾɛ.ssɯl tʰen.de.jo/"
+      },
+      {
+        "text": "그때 사지 말 걸 그랬어요.",
+        "translation": "Eu não deveria ter comprado aquilo naquela época.",
+        "phonetic": "/kɯ.ttɛ sa.dʑi mal kʌl kɯ.ɾɛ.ssʌ.jo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "그때 사랑했어야 했어요.",
+      "correct": "그때 사랑했어야 했어요.",
+      "correct_alt": "그때 사랑하지 말았어야 했어요.",
+      "explanation": "O erro comum para falantes de português é usar a estrutura -았어야 했다 diretamente com verbos como '사랑하다' sem considerar o significado. Muitas vezes, eles tentam traduzir 'deveria ter amado' mas podem confundir a natureza da obrigação (se foi não cumprida ou proibida). O exemplo '그때 사랑했어야 했어요' é gramaticalmente correto para 'deveria ter amado', mas se a intenção era 'não deveria ter amado', devem usar a forma negativa. Além disso, podem esquecer que com verbos de sentimento, o contexto pode exigir a forma -지 말았어야 했다. A dica: identifique se o sentido é 'deveria ter feito' ou 'não deveria ter feito' antes de escolher o sufixo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "추측 (Suposição)",
+        "translation": "Suposição",
+        "examples": [
+          {
+            "original": "어제 밤에 잠을 못 잤을 거예요.",
+            "phonetic": "/ʌ.dʑe pa.me tɕa.mɯn mot tɕa.ssɯl kʌ.je.jo/",
+            "translation": "Você provavelmente não dormiu bem ontem à noite.",
+            "note": "Use -았/었을 거예요 para suposição baseada em evidência ou conhecimento prévio."
+          },
+          {
+            "original": "그 영화를 봤을 텐데 재미있었을 거예요.",
+            "phonetic": "/kɯ jʌŋ.ɸwa.ɾɯɭ pwa.ssɯl tʰen.de tɕɛ.mi.i.ssɯl kʌ.je.jo/",
+            "translation": "Você deve ter visto o filme, então deve ter sido interessante.",
+            "note": "-았/었을 텐데 expressa suposição com contexto de expectativa (geralmente com justificativa)."
+          },
+          {
+            "original": "늦었을 거예요, 택시를 탔을 테니까.",
+            "phonetic": "/nɯ.dʑʌ.ssɯl kʌ.je.jo, tʰɛk.ɕi.ɾɯɭ tʰa.ssɯl tʰe.ni.k͈a/",
+            "translation": "Ele deve ter chegado atrasado, porque deve ter pego um táxi.",
+            "note": "Estrutura -을 테니까 dá razão para a suposição."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "의무 (Obrigação não cumprida)",
+        "translation": "Obrigação não cumprida",
+        "examples": [
+          {
+            "original": "약속을 지켰어야 했어요.",
+            "phonetic": "/jak.s͈o.ɡɯn tɕi.kjʌ.ssʌ.ja hɛ.ssʌ.jo/",
+            "translation": "Você deveria ter mantido a promessa.",
+            "note": "-았/었어야 했다 expressa dever passado não realizado."
+          },
+          {
+            "original": "그 말을 하지 말았어야 했어요.",
+            "phonetic": "/kɯ ma.ɾɯɭ ha.dʑi ma.ɾa.ssʌ.ja hɛ.ssʌ.jo/",
+            "translation": "Você não deveria ter dito aquilo.",
+            "note": "Forma negativa: -지 말았어야 했다."
+          },
+          {
+            "original": "일찍 일어났어야 했는데 늦잠을 잤어요.",
+            "phonetic": "/il.tɕ͈ik i.ɾʌ.na.ssʌ.ja hɛn.nɯn.de nɯt.tɕ͈a.mɯn tɕ͈a.ssʌ.jo/",
+            "translation": "Eu deveria ter acordado cedo, mas dormi até tarde.",
+            "note": "Geralmente vem acompanhado de um contraste ou desculpa."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "후회 (Arrependimento)",
+        "translation": "Arrependimento",
+        "examples": [
+          {
+            "original": "그때 떠나지 말 걸 그랬어요.",
+            "phonetic": "/kɯ.ttɛ t͈ʌ.na.dʑi mal kʌl kɯ.ɾɛ.ssʌ.jo/",
+            "translation": "Eu não deveria ter partido naquela época (me arrependo).",
+            "note": "Uso de -ㄹ 걸 그랬다 para arrependimento sobre uma ação realizada."
+          },
+          {
+            "original": "더 열심히 공부할 걸 그랬어요.",
+            "phonetic": "/tʌ jʌɭ.ɕim.ɦi koŋ.bu.ɦal kʌl kɯ.ɾɛ.ssʌ.jo/",
+            "translation": "Eu deveria ter estudado mais (agora me arrependo).",
+            "note": "Estrutura -ㄹ 걸 그랬다 para arrependimento sobre não ter feito algo."
+          },
+          {
+            "original": "사실을 말할 수 있었을 텐데.",
+            "phonetic": "/sa.ɕi.ɾɯɭ ma.ɾal s͈u i.ssʌ.ssɯl tʰen.de/",
+            "translation": "Eu poderia ter dito a verdade (mas não o fiz).",
+            "note": "Combina capacidade/possibilidade (-ㄹ 수 있었다) com -을 텐데 para arrependimento."
+          },
+          {
+            "original": "그녀를 만났을 텐데 왜 안 갔어?",
+            "phonetic": "/kɯ.ɲʌ.ɾɯɭ man.na.ssɯl tʰen.de wɛ an ka.ssʌ/",
+            "translation": "Você a teria conhecido, por que não foi?",
+            "note": "Uso de -았/었을 텐데 em pergunta retórica para expressar crítica ou arrependimento."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "pt": "Modais Avançados"
+    }
+  },
+  {
+    "id": "pt_B2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "분사 구문 (Cláusulas de particípio)",
+    "bridge": "Em português, usamos gerúndios ('andando pela rua, vi...') ou particípios para conectar ações simultâneas ou sequenciais. Em coreano, não há gerúndio; em vez disso, usa-se a forma conectiva -면서 (para ações simultâneas do mesmo sujeito) ou -고 (para sequência). A diferença crucial: em coreano, o sujeito da oração principal e o da subordinada devem ser o mesmo, e a forma verbal é invariável, sem conjugar por pessoa. Outro ponto: o particípio passado (-ㄴ/은) é usado para modificar substantivos, não para cláusulas adverbiais, então evite traduzir diretamente 'feito isso' como particípio.",
+    "rule": "Para expressar ações simultâneas (equivalente a 'enquanto fazia algo'), use a terminação -면서 (após vogal ou ㄹ) ou -으면서 (após consoante). Ex.: '걸으면서' (andando). Ação deve ser do mesmo sujeito. Para ações sequenciais (e depois), use -고 (ex.: '밥을 먹고' = comendo e depois). Para indicar causa ou razão, pode-se usar -아서/어서 (ex.: '늦어서' = porque está atrasado). Para modificar substantivos com particípio (ex.: 'o homem que está andando'), use -는 (presente) ou -ㄴ/은 (passado). Ex.: '걸는 남자' (o homem que anda), '먹은 음식' (a comida que foi comida). Cuidado com a posição do verbo: a forma conectiva fica no verbo da oração subordinada, e o verbo principal vem no final da frase. Não há variação de pessoa ou número.",
+    "concept_examples": [
+      {
+        "text": "길을 걸으면서 전화를 받았어요.",
+        "translation": "Andando pela rua, recebi uma ligação.",
+        "phonetic": "[kiɾɯɭ kʌɾɯmjʌnsʌ t͡ɕʌnβwaɾɯɭ pa̠da̠s͈ʌjo]"
+      },
+      {
+        "text": "숙제를 다 하고 나서 게임을 했어요.",
+        "translation": "Depois de terminar a lição de casa, joguei videogame.",
+        "phonetic": "[sʰuk̚t͡ɕ͈e̞ɾɯɭ ta̠ ha̠go̞ na̠sʰʌ ke̞imɯɭ he̞s͈ʌjo]"
+      },
+      {
+        "text": "늦게 일어나서 지각했어요.",
+        "translation": "Por ter acordado tarde, me atrasei.",
+        "phonetic": "[nɯt̚k͈e̞ iɾʌna̠sʰʌ t͡ɕiɡa̠kʰe̞s͈ʌjo]"
+      },
+      {
+        "text": "커피를 마시면서 책을 읽었어요.",
+        "translation": "Lendo livro enquanto bebia café.",
+        "phonetic": "[kʰʌpʰiɾɯɭ ma̠ɕimjʌnsʰʌ t͡ɕʰe̞ɡɯɾɯɭ iɭɡʌs͈ʌjo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "길을 걸어서 전화를 받았어요.",
+      "correct": "길을 걸으면서 전화를 받았어요.",
+      "correct_alt": "길을 걸으면서 전화를 받았어요.",
+      "explanation": "O erro comum é usar -아서/어서 (que indica causa ou método) para expressar ações simultâneas. Em português, 'andando' pode ser gerúndio, mas em coreano -면서 é a forma correta para simultaneidade. -아서/어서 é usado quando uma ação é a causa da outra (ex.: 'atrasei porque acordei tarde'), não quando as ações são simultâneas e independentes. Lembre: -면서 = 'enquanto', -아서/어서 = 'porque'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "동시 동작 (Ações simultâneas)",
+        "translation": "Ações simultâneas",
+        "examples": [
+          {
+            "original": "음악을 들으면서 운동해요.",
+            "phonetic": "[ɯma̠ɡɯɭ tɯɾɯmjʌnsʰʌ uɲdo̞ŋɦe̞jo]",
+            "translation": "Eu me exercito ouvindo música.",
+            "note": "Use -으면서 após consoante (들- → 들으면서). O sujeito é o mesmo para as duas ações."
+          },
+          {
+            "original": "텔레비전을 보면서 저녁을 먹었어요.",
+            "phonetic": "[tʰe̞ɭɭe̞bid͡ʑʌnɯɭ po̞mjʌnsʰʌ t͡ɕʌɲɲʌɡɯɭ mʌɡʌs͈ʌjo]",
+            "translation": "Jantei enquanto assistia TV.",
+            "note": "Verbo 보다 termina em vogal, então usa-se -면서 diretamente."
+          },
+          {
+            "original": "노래를 부르면서 샤워했어요.",
+            "phonetic": "[no̞ɾe̞ɾɯɭ puɾɯmjʌnsʰʌ ɕʰa̠wʌɦe̞s͈ʌjo]",
+            "translation": "Tomei banho cantando.",
+            "note": "부르다 é regular com batchim ㄹ? Não, ㄹ é considerado vogal, então -면서."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "순서 동작 (Ações sequenciais)",
+        "translation": "Ações sequenciais",
+        "examples": [
+          {
+            "original": "밥을 먹고 나서 약을 먹어요.",
+            "phonetic": "[pa̠bɯɭ mʌk̚k͈o̞ na̠sʰʌ ja̠ɡɯɭ mʌɡʌjo]",
+            "translation": "Tomo remédio depois de comer.",
+            "note": "-고 나서 é mais enfático que -고 sozinho, indicando conclusão da primeira ação."
+          },
+          {
+            "original": "일을 끝내고 쉬었어요.",
+            "phonetic": "[iɾɯɭ k͈ɯt̚nɛɡo̞ ɕʰɥiʌs͈ʌjo]",
+            "translation": "Terminei o trabalho e descansei.",
+            "note": "-고 indica sequência simples: 'fiz A e depois B'."
+          },
+          {
+            "original": "샤워를 하고 잠들었어요.",
+            "phonetic": "[ɕʰa̠wʌɾɯɭ ha̠ɡo̞ t͡ɕa̠mdɯɾʌs͈ʌjo]",
+            "translation": "Tomei banho e adormeci.",
+            "note": "Mesmo sujeito e ações consecutivas."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "이유 및 원인 (Causa e razão)",
+        "translation": "Causa e razão",
+        "examples": [
+          {
+            "original": "비가 와서 집에 있었어요.",
+            "phonetic": "[piɡa̠ wa̠sʰʌ t͡ɕibie̞ i̞ss͈ʌs͈ʌjo]",
+            "translation": "Fiquei em casa porque choveu.",
+            "note": "-아서/어서 é usado para causa, similar ao particípio passado em português: 'chovendo, fiquei em casa'."
+          },
+          {
+            "original": "피곤해서 일찍 잤어요.",
+            "phonetic": "[pʰiɡo̞nɦe̞sʰʌ i̞lt͡ɕ͈ik̚ t͡ɕa̠s͈ʌjo]",
+            "translation": "Dormi cedo porque estava cansado.",
+            "note": "Adjetivo 피곤하다 + -아서/어서 (aqui, 어서 após 하다 → 해서)."
+          },
+          {
+            "original": "길이 막혀서 지하철을 탔어요.",
+            "phonetic": "[kiɾi ma̠k̚çjʌsʰʌ t͡ɕiɦa̠t͡ɕʰʌɾɯɭ tʰa̠s͈ʌjo]",
+            "translation": "Peguei o metrô porque o trânsito estava congestionado.",
+            "note": "막히다 → 막혀서 (이다/아/어 regular)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚶",
+    "phonetic": "",
+    "translations": {
+      "pt": "Cláusulas de particípio"
+    }
   }
 ]

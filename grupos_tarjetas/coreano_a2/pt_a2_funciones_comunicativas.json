@@ -1,0 +1,368 @@
+[
+  {
+    "id": "pt_A2_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "지난 경험 말하기",
+    "bridge": "Em português, para falar de experiências passadas, usamos o pretérito perfeito ou o imperfeito, dependendo se a ação é concluída ou habitual. Em coreano, o passado é marcado pelo sufixo -았/었/였- no verbo, mas não há distinção entre perfeito e imperfeito; o contexto indica se é um fato pontual ou uma ação repetida. Uma pegadinha comum é que o coreano usa o mesmo tempo para 'eu fui' e 'eu costumava ir', então você deve prestar atenção às palavras que indicam frequência (예: 자주, 가끔).",
+    "rule": "No coreano, o passado é formado adicionando o sufixo -았/었/였- à raiz do verbo: ... . Para verbos terminados em ㅏ ou ㅗ, usa-se -았- (예: 가다 → 갔어요); para outros verbos, usa-se -었- (예: 먹다 → 먹었어요); para verbos terminados em 하다, usa-se -였- (que se torna -했-). O passado é o mesmo para todas as pessoas, não havendo conjugação por sujeito. Para negar, usa-se 안 + verbo no passado (예: 안 갔어요) ou -지 않았어요. Para perguntar, basta adicionar a partícula interrogativa -아요/어요? ao final (mas o verbo já está no passado). O nível de formalidade varia com o final: -았/었어요 (polido informal), -았/었습니다 (formal), -았/었어 (íntimo). É comum usar advérbios de tempo como 어제 (ontem), 지난 주 (semana passada), 작년 (ano passado) para clarificar o contexto.",
+    "concept_examples": [
+      {
+        "text": "어제 친구를 만났어요.",
+        "translation": "Ontem encontrei um amigo.",
+        "phonetic": "[ʌje tɕʰiŋɡuɾɯl mannas͈ʌjo]"
+      },
+      {
+        "text": "작년에 한국에 갔어요.",
+        "translation": "No ano passado fui à Coreia.",
+        "phonetic": "[tɕaŋnjʌne haŋɡuɡe kas͈ʌjo]"
+      },
+      {
+        "text": "저는 어렸을 때 축구를 했어요.",
+        "translation": "Quando eu era pequeno, jogava futebol.",
+        "phonetic": "[tɕʌnɯn ʌɾjʌs͈ɯl t͈ɛ tɕʰuk͈uɾɯl hɛs͈ʌjo]"
+      },
+      {
+        "text": "어제 뭐 했어요?",
+        "translation": "O que você fez ontem?",
+        "phonetic": "[ʌdʑe mwʌ hɛs͈ʌjo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "저는 내일 갔어요.",
+      "correct": "저는 내일 갈 거예요.",
+      "correct_alt": "저는 내일 가요.",
+      "explanation": "O erro ocorre porque o aluno usa o passado (-았/었-) para uma ação futura, influenciado pelo português 'eu fui' que pode ser usado em alguns contextos narativos. No coreano, o passado é estritamente para ações anteriores ao momento da fala. Para futuro, use -을 거예요 (vou fazer) ou o presente com advérbio de tempo (내일 가요). Evite confundir os tempos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "과거형 만들기",
+        "translation": "Formando o passado",
+        "examples": [
+          {
+            "original": "가다 → 갔어요",
+            "phonetic": "[kada → kas͈ʌjo]",
+            "translation": "ir → fui",
+            "note": "Verbo 가다 termina em ㅏ, então usa -았-."
+          },
+          {
+            "original": "먹다 → 먹었어요",
+            "phonetic": "[mʌk͈t͈a → mʌɡʌs͈ʌjo]",
+            "translation": "comer → comi",
+            "note": "Verbo 먹다 termina em ㅓ, então usa -었-."
+          },
+          {
+            "original": "하다 → 했어요",
+            "phonetic": "[hada → hɛs͈ʌjo]",
+            "translation": "fazer → fiz",
+            "note": "하다 usa -였- que vira -했-."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "시간 표현과 함께",
+        "translation": "Com expressões de tempo",
+        "examples": [
+          {
+            "original": "어제 영화를 봤어요.",
+            "phonetic": "[ʌdʑe jʌŋβwaɾɯl pwʌs͈ʌjo]",
+            "translation": "Ontem vi um filme.",
+            "note": "어제 indica passado, o verbo 보다 → 봤어요."
+          },
+          {
+            "original": "지난 주에 여행을 갔어요.",
+            "phonetic": "[tɕinan tɕue jʌhɛŋɯl kas͈ʌjo]",
+            "translation": "Semana passada viajei.",
+            "note": "A partícula 에 marca o tempo."
+          },
+          {
+            "original": "어릴 때 자주 놀았어요.",
+            "phonetic": "[ʌɾil t͈ɛ tɕaʤu noɾas͈ʌjo]",
+            "translation": "Quando era pequeno, brincava frequentemente.",
+            "note": "자주 (frequentemente) indica habitualidade no passado."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "부정과 질문",
+        "translation": "Negação e perguntas",
+        "examples": [
+          {
+            "original": "안 갔어요.",
+            "phonetic": "[an kas͈ʌjo]",
+            "translation": "Não fui.",
+            "note": "안 + verbo no passado para negação."
+          },
+          {
+            "original": "어제 뭐 했어요?",
+            "phonetic": "[ʌdʑe mwʌ hɛs͈ʌjo]",
+            "translation": "O que você fez ontem?",
+            "note": "Pergunta no passado mantém o verbo no passado."
+          },
+          {
+            "original": "한국 음식을 먹어 봤어요?",
+            "phonetic": "[haŋɡuɡ ɯmʃiɡɯl mʌɡʌ pwʌs͈ʌjo]",
+            "translation": "Você já experimentou comida coreana?",
+            "note": "어 보다 expressa experiência; no passado, virou 봤어요."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕰️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Falar sobre experiências passadas"
+    }
+  },
+  {
+    "id": "pt_A2_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "약속 정하기 / Fazer planos e marcar encontros",
+    "bridge": "Em português, usamos o futuro do presente ou estruturas perifrásticas como 'vou fazer' para planos, e o imperativo para sugerir. Em coreano, a cortesia é essencial: o nível de fala '-아요/어요' é usado entre amigos e conhecidos, enquanto '-을까요?' é uma forma de sugerir algo de maneira educada e consultiva. Outro ponto importante é que o coreano usa partículas para marcar o papel das palavras na frase, e a ordem das palavras é diferente (SOV). Por exemplo, 'nós' é frequentemente omitido quando o contexto está claro, ao contrário do português que tende a explicitar o sujeito. Além disso, para perguntar sobre disponibilidade, usamos '시간 괜찮아요?' (literalmente 'tempo está bem?'), que não tem equivalente direto em português.",
+    "rule": "Para expressar planos e fazer convites em coreano no nível A2, usamos principalmente as seguintes estruturas:\n1. **Vamos fazer?** - Terminação verbal '-을까요?' (para verbos com consoante final) ou '-ㄹ까요?' (para verbos com vogal final) após o radical verbal. Ex.: '뭐 먹을까요?' (O que vamos comer?). Essa forma sugere uma ação conjunta e busca a opinião do ouvinte, sendo educada e comum.\n2. **Plano futuro** - Usa-se o futuro simples '-을 거예요' (para consoante final) ou '-ㄹ 거예요' (para vogal final) para expressar intenção ou plano. Ex.: '내일 영화를 볼 거예요' (Vou ver um filme amanhã).\n3. **Convite educado** - Usa-se 'verb + -을래요?' (para consoante final) ou '-ㄹ래요?' (para vogal final) para convidar informalmente, mas educado. Ex.: '같이 점심 먹을래요?' (Quer almoçar junto?).\n4. **Perguntar sobre disponibilidade** - Usa-se '시간 괜찮아요?' (O tempo está bom?) ou '시간 있어요?' (Tem tempo?). O verbo '괜찮다' (estar bem) é muito usado.\n5. **Responder a convites** - '좋아요' (Bom), '그래요' (Sim), '좋지요' (Claro), '미안해요' (Desculpe), '다음에요' (Outra hora).\n\nAtenção: O coreano usa o nível de fala informal cortês '-아요/어요' na maioria das situações entre adultos que não são íntimos. O nível formal '-습니다' é raro em conversas casuais. A ordem das palavras é Sujeito-Objeto-Verbo, mas o sujeito é frequentemente omitido quando o contexto é claro. Partículas como '은/는' (tópico) e '을/를' (objeto) são essenciais.",
+    "concept_examples": [
+      {
+        "text": "내일 같이 영화 볼까요?",
+        "translation": "Vamos ver um filme juntos amanhã?",
+        "phonetic": "[neil katši jonghwa polk͈ajo]"
+      },
+      {
+        "text": "오후에 시간 괜찮아요?",
+        "translation": "Você está livre à tarde?",
+        "phonetic": "[ohue šigan kwehnchanajo]"
+      },
+      {
+        "text": "주말에 친구를 만날 거예요.",
+        "translation": "Vou encontrar um amigo no fim de semana.",
+        "phonetic": "[jumale tšinkurɨl mannal kʌjejo]"
+      },
+      {
+        "text": "같이 저녁 먹을래요?",
+        "translation": "Quer jantar junto?",
+        "phonetic": "[katši tšʌnjʌk mʌgɨllɛjo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "내일 같이 영화 볼 거예요?",
+      "correct": "내일 같이 영화 볼까요?",
+      "correct_alt": "내일 같이 영화 볼래요?",
+      "explanation": "Em português, para convidar, costumamos usar 'Você vai...?' ou 'Vamos...?' (futuro). No coreano, a forma '-을 거예요' é usada para expressar intenção ou previsão, não para convites. Ao usar '-을 거예요?' em uma pergunta, soa como se você estivesse perguntando sobre a intenção da pessoa, não fazendo um convite. Para convidar, use '-을까요?' (sugestão conjunta) ou '-을래요?' (convite). Lembre-se: '-을 거예요' é para declarações sobre planos, não para perguntas de convite."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "제안하기 / Fazer sugestões",
+        "translation": "Fazer sugestões",
+        "examples": [
+          {
+            "original": "같이 커피 마실까요?",
+            "phonetic": "[katši kʰʌpʰi mašilk͈ajo]",
+            "translation": "Vamos tomar um café juntos?",
+            "note": "Use '-을까요?' para sugerir uma ação conjunta. É educado e aberto."
+          },
+          {
+            "original": "영화 볼까요?",
+            "phonetic": "[jʌŋhwa polk͈ajo]",
+            "translation": "Vamos ver um filme?",
+            "note": "A forma '-ㄹ까요?' é usada após vogal (보다 → 볼까요)."
+          },
+          {
+            "original": "산책할까요?",
+            "phonetic": "[santšʰɛkʰalk͈ajo]",
+            "translation": "Vamos dar uma caminhada?",
+            "note": "Verbos com radical terminando em consoante usam '-을까요?'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "약속 잡기 / Marcar encontros",
+        "translation": "Marcar encontros",
+        "examples": [
+          {
+            "original": "몇 시에 만날까요?",
+            "phonetic": "[mjʌtši e mannalk͈ajo]",
+            "translation": "A que horas nos encontramos?",
+            "note": "'몇 시' significa 'que horas'. Use '-을까요?' para decidir juntos."
+          },
+          {
+            "original": "내일 오후에 만나요.",
+            "phonetic": "[neil ohue mannajo]",
+            "translation": "Vamos nos encontrar amanhã à tarde.",
+            "note": "O presente '-아요/어요' pode ser usado para planos futuros quando o contexto temporal está claro."
+          },
+          {
+            "original": "시간 있어요?",
+            "phonetic": "[šigan ištšʌjo]",
+            "translation": "Você tem tempo?",
+            "note": "Literalmente: 'Tempo existe?'. Use para perguntar sobre disponibilidade."
+          },
+          {
+            "original": "어디에서 만날까요?",
+            "phonetic": "[ʌdi ešʌ mannalk͈ajo]",
+            "translation": "Onde vamos nos encontrar?",
+            "note": "'어디에서' significa 'onde'. A partícula '에서' indica local de ação."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "약속 변경 및 응답 / Mudar planos e responder",
+        "translation": "Mudar planos e responder",
+        "examples": [
+          {
+            "original": "미안하지만, 시간이 안 돼요.",
+            "phonetic": "[mianhadžiman, šigani an twejo]",
+            "translation": "Desculpe, mas não tenho tempo.",
+            "note": "'안 돼요' significa 'não dá'. É uma recusa educada."
+          },
+          {
+            "original": "다음에 만나요.",
+            "phonetic": "[taɯm e mannajo]",
+            "translation": "Vamos nos ver outra hora.",
+            "note": "'다음에' significa 'na próxima vez'. Use para adiar."
+          },
+          {
+            "original": "네, 좋아요.",
+            "phonetic": "[ne, tšoajo]",
+            "translation": "Sim, ótimo.",
+            "note": "'네' é 'sim', e '좋아요' significa 'é bom'. Resposta comum a convites."
+          },
+          {
+            "original": "그래요, 그때 만나요.",
+            "phonetic": "[kɯrɛjo, kɯttɛ mannajo]",
+            "translation": "Ok, vamos nos encontrar então.",
+            "note": "'그래요' significa 'sim/ok' em resposta, '그때' significa 'então/naquela hora'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "pt": "Fazer planos e marcar encontros"
+    }
+  },
+  {
+    "id": "pt_A2_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "조언과 추천하기 / Dar conselhos e recomendações",
+    "bridge": "Em português, usamos 'você deveria' ou 'eu recomendo' para dar conselhos. Em coreano, a estrutura é diferente: usamos a terminação '-아/어야 돼요' (deveria) ou o verbo '추천하다' (recomendar) com a partícula '-을/를'. Um ponto importante: em coreano, o sujeito muitas vezes é omitido, e o verbo vem no final da frase. Além disso, o coreano tem níveis de formalidade; no nível A2, usamos a forma polida '-아/어요' ou '-ㄹ게요' para ser educado, mas não formal demais. Cuidado com a tradução literal de 'deveria' – em coreano, '~야 되다' é mais comum que '~어야 하다' no dia a dia.",
+    "rule": "Para dar conselhos ou recomendações em coreano no nível A2, use as seguintes estruturas:\n\n1. **'-아/어야 돼요'** (deveria, tem que) – forma coloquial de obrigação/recomendação. Conjugação: pegue o radical do verbo, adicione '-아야' se a vogal final for ㅏ ou ㅗ, senão '-어야'. Depois acrescente '돼요' (forma polida de '되다'). Exemplo: 가다 (ir) → 가야 돼요 (deveria ir), 먹다 (comer) → 먹어야 돼요 (deveria comer).\n\n2. **'-지 마세요'** (não faça) – para recomendações negativas. Adicione '-지 마세요' ao radical do verbo. Exemplo: 늦다 (atrasar) → 늦지 마세요 (não se atrase).\n\n3. **'추천하다'** (recomendar) – usado com a partícula de objeto '-을/를': '뭐를 추천해요?' (o que você recomenda?). A forma polida é '추천해요'.\n\n4. **'-는 게 좋아요'** (é melhor fazer) – estrutura para dar conselhos suaves. Conjugue o verbo no presente do indicativo, adicione '-는 게 좋아요'. Exemplo: 쉬다 (descansar) → 쉬는 게 좋아요 (é melhor descansar).\n\nLembre-se: em coreano, a ordem das palavras é SOV (Sujeito-Objeto-Verbo), diferente do português. O verbo sempre fica no final. Além disso, para A2, use a forma polida com '요' no final, pois é educada e natural em conversas do dia a dia.\n\nExceções: verbos irregulares como '르' (ex: 부르다 → 불러야 돼요) e 'ㅂ' (ex: 돕다 → 도와야 돼요). Preste atenção a essas mudanças.",
+    "concept_examples": [
+      {
+        "text": "병원에 가야 돼요.",
+        "translation": "Você deveria ir ao hospital.",
+        "phonetic": "[pjʌŋwʌne kaja dwɛjo]"
+      },
+      {
+        "text": "이 영화를 추천해요.",
+        "translation": "Eu recomendo este filme.",
+        "phonetic": "[i jʌŋhwarɯl tɕʰutɕʰʌnhɛjo]"
+      },
+      {
+        "text": "너무 늦지 마세요.",
+        "translation": "Não se atrase demais.",
+        "phonetic": "[nʌmu nɯtɕi masʰejo]"
+      },
+      {
+        "text": "쉬는 게 좋아요.",
+        "translation": "É melhor descansar.",
+        "phonetic": "[ʃʰwinɯn ke tɕoajo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "너는 병원에 가야 해요.",
+      "correct": "병원에 가야 돼요.",
+      "correct_alt": "병원에 가는 게 좋아요.",
+      "explanation": "Em português, costumamos explicitar o sujeito ('você deveria ir'), mas em coreano, o sujeito frequentemente é omitido quando está claro pelo contexto. Além disso, '가야 해요' é mais formal e usado em situações de obrigação forte; para conselhos, '가야 돼요' é mais natural e comum. Evite a tradução literal de 'você' (너) em contextos formais, pois pode soar rude. Use apenas o verbo no final com a terminação adequada."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "기본 조언",
+        "translation": "Conselhos básicos",
+        "examples": [
+          {
+            "original": "이 책을 읽어 보세요.",
+            "phonetic": "[i tɕʰækɨl ilgʌ posʰejo]",
+            "translation": "Tente ler este livro.",
+            "note": "Use '-아/어 보세요' para sugerir experimentar algo, equivalente a 'tente' ou 'experimente'."
+          },
+          {
+            "original": "좀 쉬어야 돼요.",
+            "phonetic": "[tɕom ʃʰwiʌja dwɛjo]",
+            "translation": "Você deveria descansar um pouco.",
+            "note": "'-아/어야 돼요' é a forma mais comum de conselho, equivalente a 'deveria'."
+          },
+          {
+            "original": "매일 운동하는 게 좋아요.",
+            "phonetic": "[mɛil undonhanɯn ke tɕoajo]",
+            "translation": "É melhor fazer exercício todos os dias.",
+            "note": "A estrutura '-는 게 좋아요' expressa uma recomendação suave, como 'é melhor'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "추천하기",
+        "translation": "Fazer recomendações",
+        "examples": [
+          {
+            "original": "이 식당을 추천해요.",
+            "phonetic": "[i ɕikt'aŋɯl tɕʰutɕʰʌnhɛjo]",
+            "translation": "Eu recomendo este restaurante.",
+            "note": "Use '추천하다' com a partícula de objeto '-을/를'."
+          },
+          {
+            "original": "여행 가고 싶으면 부산에 가 보세요.",
+            "phonetic": "[jʌhɛŋ kago ʃʰipʰjʌmjʌn pusane ka posʰejo]",
+            "translation": "Se você quiser viajar, vá a Busan.",
+            "note": "Estrutura condicional '-으면' combinada com sugestão '-아/어 보세요'."
+          },
+          {
+            "original": "이 옷 어때요?",
+            "phonetic": "[i ot ɔttɛjo]",
+            "translation": "O que você acha desta roupa?",
+            "note": "Usado para pedir a opinião da outra pessoa, útil para recomendações."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "부정 조언",
+        "translation": "Conselhos negativos",
+        "examples": [
+          {
+            "original": "걱정하지 마세요.",
+            "phonetic": "[kʌkʲtɕʌŋhadʑi masʰejo]",
+            "translation": "Não se preocupe.",
+            "note": "Use '-지 마세요' para dizer o que não fazer."
+          },
+          {
+            "original": "너무 많이 먹지 마세요.",
+            "phonetic": "[nʌmu manʰi mʌkʲtɕi masʰejo]",
+            "translation": "Não coma demais.",
+            "note": "A mesma estrutura '-지 마세요' é usada com qualquer verbo."
+          },
+          {
+            "original": "늦게까지 자지 마세요.",
+            "phonetic": "[nɯtk͈ek͈atɕi tɕadʑi masʰejo]",
+            "translation": "Não durma até tarde.",
+            "note": "Lembre-se de colocar o verbo no radical antes de '-지 마세요'."
+          }
+        ]
+      }
+    ],
+    "emoji": "💡",
+    "phonetic": "",
+    "translations": {
+      "pt": "Dar conselhos e recomendações"
+    }
+  }
+]

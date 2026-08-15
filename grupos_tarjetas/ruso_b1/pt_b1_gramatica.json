@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "pt_B1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Прошедшее совершенное время (плюсквамперфект) — Pretérito mais-que-perfeito composto",
+    "bridge": "Em português, você expressa o passado do passado com o pretérito mais-que-perfeito composto: 'eu tinha feito'. Em russo, não existe um tempo verbal dedicado – usa-se o passado regular do verbo perfectivo (geralmente com prefixo), frequentemente acompanhado de advérbios como 'уже' (já) ou 'раньше' (antes). O contexto ou a ordem dos eventos indica a anterioridade. O maior desafio é escolher o aspecto correto: perfectivo para ações concluídas, imperfectivo para ações habituais ou em andamento. Você não vai conjugar um verbo auxiliar como 'ter'; o verbo russo já carrega a informação de conclusão.",
+    "rule": "Para expressar o passado do passado em russo, use o pretérito (forma em -л) de um verbo perfectivo. O aspecto perfectivo é formado geralmente adicionando um prefixo (например: делать → сделать) ou mudando o verbo (например: говорить → сказать). A forma do pretérito concorda com o sujeito em gênero e número: -л (masculino), -ла (feminino), -ло (neutro), -ли (plural). O auxiliar 'ter' não é usado. Exemplos: 'Я уже сделал' (já tinha feito), 'Она уже ушла' (ela já tinha saído). Use advérbios como 'уже', 'ещё не', 'раньше', 'до этого' para clarificar a anterioridade. Ação habitual ou repetida no passado do passado usa imperfectivo: 'Я часто читал' (eu costumava ter lido). Não existe variação de pessoa – apenas gênero e número. Cuidado com verbos de movimento: prefira os perfectivos com prefixo (пришёл, уехал) para indicar conclusão.",
+    "concept_examples": [
+      {
+        "text": "Когда я пришёл, она уже ушла.",
+        "translation": "Quando eu cheguei, ela já tinha saído.",
+        "phonetic": "[kɐg'd‿a ja prʲɪˈʂol, ɐˈna uˈʐɛ uˈʂla]"
+      },
+      {
+        "text": "Я уже пообедал, когда ты позвонил.",
+        "translation": "Eu já tinha almoçado quando você ligou.",
+        "phonetic": "[ja uˈʐɛ pɐɐˈbʲedəl, kɐgˈda tɨ pɐzvɐˈnʲil]"
+      },
+      {
+        "text": "Она не сделала домашнее задание, потому что забыла.",
+        "translation": "Ela não tinha feito a lição de casa porque tinha esquecido.",
+        "phonetic": "[ɐˈna nʲe ˈsʲdʲeɫ̺ə dɐˈmaʂnʲɪje zɐˈdanʲɪje, pɐˈtomʊ ʂtə zɐˈbɨɫə]"
+      },
+      {
+        "text": "Мы раньше никогда не видели такого красивого заката.",
+        "translation": "Nós nunca tínhamos visto um pôr do sol tão bonito antes.",
+        "phonetic": "[mɨ ˈranʲʂɨ nʲɪkɐˈgda nʲɪ ˈvʲidʲɪlʲɪ tɐˈkovə krɐˈsʲivəvə zɐˈkatə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я уже сделал, когда он пришёл.",
+      "correct": "Я уже сделал это, когда он пришёл.",
+      "correct_alt": "Я уже сделал это до того, как он пришёл.",
+      "explanation": "Em russo, o verbo 'сделать' é transitivo e exige um objeto direto. Sem o objeto 'это' (isso), a frase fica incompleta. Além disso, para deixar a anterioridade mais explícita, pode-se usar 'до того, как' (antes que). Lembre-se de que verbos perfectivos no pretérito indicam ação concluída, mas precisam de complemento se forem transitivos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Образование прошедшего времени (Formação do pretérito)",
+        "translation": "Formação do pretérito",
+        "examples": [
+          {
+            "original": "Я сделал.",
+            "phonetic": "[ja ˈsʲdʲeɫ]",
+            "translation": "Eu fiz (tinha feito).",
+            "note": "Verbo perfectivo 'сделать' no pretérito masculino."
+          },
+          {
+            "original": "Она прочитала.",
+            "phonetic": "[ɐˈna prət͡ɕɪˈtaɫə]",
+            "translation": "Ela leu (tinha lido).",
+            "note": "Feminino com -ла."
+          },
+          {
+            "original": "Мы написали.",
+            "phonetic": "[mɨ nəpʲɪˈsalʲɪ]",
+            "translation": "Nós escrevemos (tínhamos escrito).",
+            "note": "Plural com -ли."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Использование с наречиями (Uso com advérbios de tempo)",
+        "translation": "Uso com advérbios de tempo",
+        "examples": [
+          {
+            "original": "Я уже закончил работу, когда начался дождь.",
+            "phonetic": "[ja uˈʐɛ zɐˈkonʲt͡ɕɪl ˈrabətʊ, kɐgˈda nɐˈt͡ɕalsʲə doʂtʲ]",
+            "translation": "Eu já tinha terminado o trabalho quando começou a chover.",
+            "note": "Уже (já) reforça a conclusão antes de outro evento."
+          },
+          {
+            "original": "Она ещё не пришла, когда мы уехали.",
+            "phonetic": "[ɐˈna jɪˈɕːo nʲɛ prʲɪˈʂla, kɐgˈda mɨ uˈjɛxəlʲɪ]",
+            "translation": "Ela ainda não tinha chegado quando nós partimos.",
+            "note": "Ещё не = ainda não, usado com perfectivo."
+          },
+          {
+            "original": "До этого я никогда не видел море.",
+            "phonetic": "[də ɛtəvə ja nʲɪkɐˈgda nʲɪ ˈvʲidʲɪl ˈmorʲɪ]",
+            "translation": "Antes disso, eu nunca tinha visto o mar.",
+            "note": "Никогда = nunca, exige negação com 'не'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Различие аспектов (Distinção perfectivo vs. imperfectivo)",
+        "translation": "Distinção perfectivo vs. imperfectivo",
+        "examples": [
+          {
+            "original": "Я читал книгу, когда она вошла.",
+            "phonetic": "[ja t͡ɕɪˈtaɫ ˈknʲiɡʊ, kɐgˈda ɐˈna vɐˈʂla]",
+            "translation": "Eu estava lendo (tinha estado lendo) o livro quando ela entrou.",
+            "note": "Imperfectivo 'читал' indica ação em andamento no passado do passado."
+          },
+          {
+            "original": "Я прочитал книгу до того, как она пришла.",
+            "phonetic": "[ja prət͡ɕɪˈtaɫ ˈknʲiɡʊ də tɐˈvo, kak ɐˈna prʲɪˈʂla]",
+            "translation": "Eu tinha lido (terminado) o livro antes que ela chegasse.",
+            "note": "Perfectivo 'прочитал' indica ação concluída."
+          },
+          {
+            "original": "Он часто посещал этот музей раньше.",
+            "phonetic": "[on ˈt͡ɕastə pɐsʲɪˈɕːaɫ ˈɛtət mʊˈzʲej ˈranʲʂɨ]",
+            "translation": "Ele costumava visitar este museu antes.",
+            "note": "Imperfectivo habitual: 'посещал' = costumava visitar."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Passado do passado"
+    }
+  },
+  {
+    "id": "pt_B1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Условные предложения 1-го и 2-го типа / Condicionais tipo 1 e 2",
+    "bridge": "Em russo, os condicionais são formados de maneira diferente do português: não há conjugação específica para o subjuntivo, e a partícula 'бы' (by) é usada para expressar condições irreais ou hipotéticas. No tipo 1 (condição real), usa-se o presente ou futuro; no tipo 2 (condição irreal), a partícula 'бы' acompanha o verbo no passado ou no infinitivo, sem distinção de tempo. Cuidado: em russo, a oração condicional pode vir antes ou depois da principal, e o verbo na condicional do tipo 2 não concorda com o sujeito em pessoa, apenas em gênero e número no passado.",
+    "rule": "Em russo, existem dois tipos principais de condicionais: o tipo 1 (реальное условие) e o tipo 2 (ирреальное условие). No tipo 1, a condição é possível ou provável, e usa-se: se + presente/futuro (na condicional) + presente/futuro (na principal). Exemplo: Если будет хорошая погода, мы пойдём гулять. (Se o tempo estiver bom, vamos passear.) No tipo 2, a condição é improvável ou impossível, e usa-se a partícula бы (by) após o verbo na forma do passado (singular masculino/feminino/neutro ou plural) ou com o infinitivo em alguns casos. Exemplo: Если бы у меня было время, я бы пошёл на концерт. (Se eu tivesse tempo, iria ao concerto.) A partícula бы pode vir antes ou depois do verbo, mas geralmente segue o sujeito. Na condicional do tipo 2, o verbo no passado concorda em gênero e número com o sujeito, mas não há flexão de pessoa. Exceções: com verbos modais como 'мочь' (poder), o tipo 2 pode ser expresso com бы + infinitivo: Я бы мог помочь. (Eu poderia ajudar.) O uso de 'если' (se) é obrigatório; não se usa 'quando' (когда) para condicionais. Em perguntas indiretas, usa-se 'ли' (se) após o verbo: Я не знаю, придёт ли он. (Não sei se ele virá.)",
+    "concept_examples": [
+      {
+        "text": "Если будет дождь, мы останемся дома.",
+        "translation": "Se chover, ficaremos em casa.",
+        "phonetic": "[ˈjeslʲi ˈbudʲɪd doʂtʲ, mɨ ɐˈstanʲɪmsʲə ˈdomə]"
+      },
+      {
+        "text": "Если бы у меня было много денег, я бы купил машину.",
+        "translation": "Se eu tivesse muito dinheiro, compraria um carro.",
+        "phonetic": "[ˈjeslʲi bɨ u mʲɪˈnʲa ˈbɨlə ˈmnogə ˈdʲenʲɪk, ja bɨ kuˈpʲil mɐˈʂɨnʊ]"
+      },
+      {
+        "text": "Если ты придёшь завтра, мы обсудим планы.",
+        "translation": "Se você vier amanhã, discutiremos os planos.",
+        "phonetic": "[ˈjeslʲi tɨ prʲɪˈdʲɵʂ ˈzaftrə, mɨ ɐbˈsudʲɪm ˈplænɨ]"
+      },
+      {
+        "text": "Если бы она знала правду, она бы не злилась.",
+        "translation": "Se ela soubesse a verdade, ela não ficaria brava.",
+        "phonetic": "[ˈjeslʲi bɨ ɐˈna ˈznalə ˈpraʊdʊ, ɐˈna bɨ nʲɪ ˈzlʲiləsʲ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Если я имею время, я позвоню тебе.",
+      "correct": "Если у меня будет время, я позвоню тебе.",
+      "correct_alt": "Если у меня есть время, я звоню тебе.",
+      "explanation": "Em português, usamos o verbo 'ter' (ter tempo), mas em russo a posse é expressa com a construção 'у меня есть' (eu tenho). Além disso, no tipo 1, a condição futura exige o futuro (будет), e não o presente (есть), para indicar que a condição ainda não ocorreu. Outro erro comum é usar a forma do presente 'имею' – que não é idiomática para posse abstrata. Lembre-se: para condições futuras, use 'у меня будет' (eu terei)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Первый тип условия",
+        "translation": "Primeiro tipo de condição",
+        "examples": [
+          {
+            "original": "Если будет солнце, я пойду в парк.",
+            "phonetic": "[ˈjeslʲi ˈbudʲɪt ˈsontsə, ja pɐjˈdu f park]",
+            "translation": "Se fizer sol, eu irei ao parque.",
+            "note": "Use o futuro na condicional para indicar uma ação que ocorrerá no futuro."
+          },
+          {
+            "original": "Если ты будешь свободен, мы встретимся в кафе.",
+            "phonetic": "[ˈjeslʲi tɨ ˈbudʲɪʂ svɐˈbodʲɪn, mɨ ˈvstrʲetʲɪmsʲə f kɐˈfɛ]",
+            "translation": "Se você estiver livre, nos encontraremos no café.",
+            "note": "Aqui, 'будешь' é o futuro do verbo 'ser' ou 'estar'."
+          },
+          {
+            "original": "Если она позвонит, я скажу ей правду.",
+            "phonetic": "[ˈjeslʲi ɐˈna pɐzvɐˈnʲit, ja skɐˈʐu jɛj ˈpravdu]",
+            "translation": "Se ela ligar, eu direi a ela a verdade.",
+            "note": "O verbo 'позвонит' está no futuro perfeito; a principal também usa futuro."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Второй тип условия",
+        "translation": "Segundo tipo de condição",
+        "examples": [
+          {
+            "original": "Если бы я был на твоём месте, я бы сделал это.",
+            "phonetic": "[ˈjeslʲi bɨ ja bɨl nɐ tvɐˈjom ˈmʲestʲɪ, ja bɨ ˈzʲdʲeləɫ ˈɛtə]",
+            "translation": "Se eu estivesse no seu lugar, eu faria isso.",
+            "note": "Use 'бы' com o verbo no passado: 'был' concorda com o sujeito masculino."
+          },
+          {
+            "original": "Если бы мы жили в Москве, мы бы чаще виделись.",
+            "phonetic": "[ˈjeslʲi bɨ mɨ ˈʐɨlʲɪ v mɐˈskvʲɛ, mɨ bɨ ˈɕːæɕtʲɪ vʲɪˈdʲæsʲ]",
+            "translation": "Se morássemos em Moscou, nos veríamos com mais frequência.",
+            "note": "A forma plural do passado: 'жили' (morávamos)."
+          },
+          {
+            "original": "Если бы это было возможно, я бы пришёл раньше.",
+            "phonetic": "[ˈjeslʲi bɨ ˈɛtə ˈbɨlə vɐzˈmoʐnə, ja bɨ prʲɪˈʂol ˈranʲʂɨ]",
+            "translation": "Se fosse possível, eu teria vindo mais cedo.",
+            "note": "O verbo 'пришёл' concorda em gênero (masculino)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Выражение желаний и советов",
+        "translation": "Expressão de desejos e conselhos",
+        "examples": [
+          {
+            "original": "Я бы на твоём месте пошёл к врачу.",
+            "phonetic": "[ja bɨ nɐ tvɐˈjom ˈmʲestʲɪ pɐˈʂol v vɐˈt͡ɕu]",
+            "translation": "Eu, no seu lugar, iria ao médico.",
+            "note": "Usa-se 'бы' com o passado para dar conselhos."
+          },
+          {
+            "original": "Хотел бы я знать ответ!",
+            "phonetic": "[xɐˈtʲeɫ bɨ ja znatʲ ɐˈtvʲet]",
+            "translation": "Como eu gostaria de saber a resposta!",
+            "note": "A partícula 'бы' pode vir após o verbo no passado (хотел) para expressar desejo."
+          },
+          {
+            "original": "Если бы ты мог помочь мне, я был бы благодарен.",
+            "phonetic": "[ˈjeslʲi bɨ tɨ mok pɐˈmoʂt͡ɕ mʲnʲe, ja bɨl bɨ blɐˈɡodərʲɪn]",
+            "translation": "Se você pudesse me ajudar, eu seria grato.",
+            "note": "Aqui, a condicional usa 'можешь' (pode) no passado: 'мог'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "pt": "Condicionais tipo 1 e 2"
+    }
+  },
+  {
+    "id": "pt_B1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Страдательный залог (настоящее и прошедшее время) / Voz passiva (presente e passado)",
+    "bridge": "Em português, a voz passiva é formada com o auxiliar 'ser' + particípio passado (ex.: 'a carta é escrita'). Em russo, não existe um verbo auxiliar equivalente; a voz passiva é expressa principalmente por verbos com sufixo -ся/-сь ou por particípios passivos curtos (como 'написан'). Atenção: o agente da ação (quem faz) geralmente aparece no caso instrumental (творительный падеж), o que não tem correspondência direta em português – cuidado para não usar o caso nominativo como você faria com 'por' em português.",
+    "rule": "Em russo, a voz passiva no presente e no passado pode ser formada de duas maneiras principais: 1) Verbos reflexivos em -ся/-сь: presente – читается ('é lido'), строится ('é construído'); passado – читался/читалась/читалось (masculino/feminino/neutro, plural -читались), строился/строилась/строилось/строились. 2) Particípios passivos curtos: presente (raro) – e.g., 'письмо пишется' (normalmente se usa a forma reflexiva) ; passado – 'написан' (masc.), 'написана' (fem.), 'написано' (neutro), 'написаны' (plural), formados de verbos perfectivos (ex.: 'написать' – escrito). O agente (se mencionado) fica no instrumental: 'Письмо написано учителем' ('A carta foi escrita pelo professor'). Para verbos imperfectivos no passado, usa-se a forma reflexiva: 'Письмо писалось учителем' ('A carta era escrita pelo professor'). Presente passivo com particípios curtos é raro; prefere-se -ся. Regras de concordância: o particípio concorda em gênero, número e caso com o sujeito (que é o paciente). Tópicos que exigem o caso instrumental: nomes animados ou inanimados que indicam o agente; mas se o agente é desconhecido ou não importante, omite-se.",
+    "concept_examples": [
+      {
+        "text": "Этот фильм смотрится с интересом.",
+        "translation": "Este filme é assistido com interesse.",
+        "phonetic": "[ˈetət ˈfʲilʲm ˈsmotrʲɪt͡sə s‿ɪnʲtʲɪˈrʲesəm]"
+      },
+      {
+        "text": "Дом был построен в прошлом году.",
+        "translation": "A casa foi construída no ano passado.",
+        "phonetic": "[dom ˈbɨl pɐˈstrojɪn f‿ˈproʂləm ɡɐˈdu]"
+      },
+      {
+        "text": "Книга читается учениками.",
+        "translation": "O livro é lido pelos alunos.",
+        "phonetic": "[ˈknʲiɡə t͡ɕɪˈtaɪt͡sə ʊt͡ɕɪnʲɪˈkamʲi]"
+      },
+      {
+        "text": "Письмо было написано вчера.",
+        "translation": "A carta foi escrita ontem.",
+        "phonetic": "[pʲɪsʲˈmo ˈbɨlə nɐˈpʲisənə ft͡ɕɪˈra]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Письмо было написано учитель.",
+      "correct": "Письмо было написано учителем.",
+      "correct_alt": "Письмо написано учителем.",
+      "explanation": "Em português, 'pelo professor' usa a preposição 'por', que vem do latim 'pro' e não influencia o caso. Em russo, o agente da passiva exige o caso instrumental, então 'учитель' (nominativo) deve virar 'учителем' (instrumental). Isso ocorre porque o russo marca a função sintática com desinências, enquanto o português usa preposições."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Страдательный залог с -ся (настоящее время)",
+        "translation": "Voz passiva com -ся (presente)",
+        "examples": [
+          {
+            "original": "Газета читается каждый день.",
+            "phonetic": "[ɡɐˈzʲetə t͡ɕɪˈtaɪt͡sə ˈkaʐdɨj dʲenʲ]",
+            "translation": "O jornal é lido todos os dias.",
+            "note": "Observe que o verbo 'читать' (ler) ganha o sufixo -ся, e o sujeito 'газета' está no nominativo, pois é o paciente."
+          },
+          {
+            "original": "Двери открываются автоматически.",
+            "phonetic": "[ˈdvʲerʲɪ ɐtkrɨˈvajʊt͡sə ɐftɐˈmatʲɪt͡ɕɪskʲɪ]",
+            "translation": "As portas são abertas automaticamente.",
+            "note": "No plural, o verbo concorda com o sujeito: 'двери' (plural) -> 'открываются' (plural)."
+          },
+          {
+            "original": "Этот текст переводится студентами.",
+            "phonetic": "[ˈetət tʲekst pʲɪrʲɪˈvodʲɪt͡sə stʊˈdʲentəmʲɪ]",
+            "translation": "Este texto é traduzido pelos estudantes.",
+            "note": "O agente 'студентами' está no instrumental plural, equivalente a 'pelos estudantes'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Страдательный залог с -ся (прошедшее время)",
+        "translation": "Voz passiva com -ся (passado)",
+        "examples": [
+          {
+            "original": "Задача решалась вчера.",
+            "phonetic": "[zɐˈdat͡ɕə rʲɪˈʂaləsʲ ft͡ɕɪˈra]",
+            "translation": "O problema era resolvido ontem.",
+            "note": "O verbo no passado concorda com o sujeito: 'задача' (fem.) -> 'решалась' (feminino)."
+          },
+          {
+            "original": "Книги продавались в этом магазине.",
+            "phonetic": "[ˈknʲiɡʲɪ prədɐˈvalʲɪsʲ v‿ˈetəm məɡɐˈzʲinʲe]",
+            "translation": "Os livros eram vendidos nesta loja.",
+            "note": "Para plural, usa-se a forma plural: 'продавались'."
+          },
+          {
+            "original": "Письмо писалось бабушкой.",
+            "phonetic": "[pʲɪsʲˈmo pʲɪˈsaləsʲ ˈbabʊʂkəj]",
+            "translation": "A carta era escrita pela avó.",
+            "note": "O agente 'бабушкой' está no instrumental feminino singular."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Краткие страдательные причастия (прошедшее время)",
+        "translation": "Particípios passivos curtos (passado)",
+        "examples": [
+          {
+            "original": "Дом построен в 2000 году.",
+            "phonetic": "[dom pɐˈstrojɪn f‿ˈdʲvʲe ˈtɨsʲɪt͡ɕɪ ˈɡodʊ]",
+            "translation": "A casa foi construída no ano 2000.",
+            "note": "O particípio curto 'построен' concorda com 'дом' (masculino). Não se usa verbo 'быть' no presente, apenas no passado e futuro."
+          },
+          {
+            "original": "Дверь закрыта.",
+            "phonetic": "[ˈdvʲerʲ zɐˈkrɨtə]",
+            "translation": "A porta está fechada.",
+            "note": "No feminino, o particípio termina em -а: 'закрыта'."
+          },
+          {
+            "original": "Окна открыты.",
+            "phonetic": "[ˈoknə ɐtˈkrɨtɨ]",
+            "translation": "As janelas estão abertas.",
+            "note": "No plural, termina em -ы: 'открыты'. Esta forma é amplamente usada para indicar estado resultante."
+          },
+          {
+            "original": "Статья написана молодым журналистом.",
+            "phonetic": "[stɐˈtʲja nɐˈpʲisənə məɫɐˈdɨm ʐʊrnɐˈlʲistəm]",
+            "translation": "O artigo foi escrito por um jovem jornalista.",
+            "note": "O agente 'журналистом' está no instrumental, e o particípio concorda com 'статья' (feminino)."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚙️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Voz passiva (presente e passado)"
+    }
+  },
+  {
+    "id": "pt_B1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Косвенная речь / Estilo indirecto básico",
+    "bridge": "Em português, ao transformar uma fala direta em indireta, você ajusta os tempos verbais e pronomes (ex.: 'Eu vou' → 'Ele disse que ia'). Em russo, a estrutura é diferente: você não precisa mudar o tempo do verbo – você mantém o verbo no mesmo tempo que o original e usa a conjunção 'что' (que). O pronome também muda, mas sem a complexidade de concordância temporal. O grande desafio para falantes de português é lembrar de não 'voltar' o tempo verbal e de usar 'что' corretamente com a entonação adequada.",
+    "rule": "Para formar o discurso indireto em russo (указательная речь), use o verbo de introdução (como сказать, говорить, спросить) + conjunção 'что' (que) para afirmações, e 'чтобы' (para que) ou uma pergunta indireta com palavras interrogativas (где, когда, почему) para perguntas. O verbo na oração subordinada mantém o mesmo tempo do discurso direto, pois o russo não tem a sequência de tempos como o português. Por exemplo, 'Он сказал: «Я работаю»' (Ele disse: 'Eu trabalho') → 'Он сказал, что он работает' (Ele disse que trabalha). Os pronomes pessoais e possessivos mudam de primeira para terceira pessoa (ou de acordo com o sujeito). Em perguntas indiretas, não se usa inversão ou partícula interrogativa; a ordem é direta: 'Он спросил, где я работаю' (Ele perguntou onde eu trabalho). Lembre-se de que o tempo é preservado: se o original está no presente, o indireto continua no presente; se no passado, mantém-se no passado.",
+    "concept_examples": [
+      {
+        "text": "Она сказала: «Я устала».",
+        "translation": "Ela disse: 'Estou cansada'.",
+        "phonetic": "[ɐˈna skɐˈzalə ˈja ʊˈstalə]"
+      },
+      {
+        "text": "Она сказала, что она устала.",
+        "translation": "Ela disse que estava cansada.",
+        "phonetic": "[ɐˈna skɐˈzalə ˈʂto ˈɐnə ʊˈstalə]"
+      },
+      {
+        "text": "Он спросил: «Где ты живёшь?»",
+        "translation": "Ele perguntou: 'Onde você mora?'",
+        "phonetic": "[ˈon sprɐˈsʲil ˈɡdʲe ˈtɨ ʐɨˈvʲɵʂ]"
+      },
+      {
+        "text": "Он спросил, где я живу.",
+        "translation": "Ele perguntou onde eu moro.",
+        "phonetic": "[ˈon sprɐˈsʲil ˈɡdʲe ˈja ʐɨˈvu]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Он сказал, что он приехал завтра. (quando o original era 'Я приеду завтра')",
+      "correct": "Он сказал, что он приедет завтра.",
+      "correct_alt": "Он сказал, что приедет завтра.",
+      "explanation": "Falantes de português frequentemente aplicam a concordância temporal do português ao russo, mudando o futuro para o condicional ou passado. Em russo, o tempo do verbo na subordinada permanece o mesmo do discurso direto: se era futuro, continua futuro. Aqui, o correto é 'приедет' (futuro), não 'приехал' (passado). Além disso, o pronome 'он' pode ser omitido quando o sujeito é claro, mas manter é aceitável."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Утверждения",
+        "translation": "Afirmações",
+        "examples": [
+          {
+            "original": "Он говорит: «Я читаю книгу».",
+            "phonetic": "[ˈon ɡɐˈvo.rʲɪt ˈja t͡ɕɪˈta.ju ˈknʲi.ɡu]",
+            "translation": "Ele diz: 'Estou lendo um livro'.",
+            "note": "Discurso direto com o verbo 'говорить' no presente."
+          },
+          {
+            "original": "Он говорит, что читает книгу.",
+            "phonetic": "[ˈon ɡɐˈvo.rʲɪt ˈʂto t͡ɕɪˈta.jɪt ˈknʲi.ɡu]",
+            "translation": "Ele diz que lê um livro.",
+            "note": "Mantém o presente, mudando o pronome para terceira pessoa."
+          },
+          {
+            "original": "Мама сказала: «Мы едем в Москву».",
+            "phonetic": "[ˈma.mə skɐˈza.lə ˈmɨ ˈje.dʲɪm v‿mɐˈskvu]",
+            "translation": "Mamãe disse: 'Estamos indo para Moscou'.",
+            "note": "Verbo 'сказать' no passado, mas o tempo do discurso é preservado no indireto."
+          },
+          {
+            "original": "Мама сказала, что мы едем в Москву.",
+            "phonetic": "[ˈma.mə skɐˈza.lə ˈʂto ˈmɨ ˈje.dʲɪm v‿mɐˈskvu]",
+            "translation": "Mamãe disse que estamos indo para Moscou.",
+            "note": "A conjunção 'что' liga a oração, e o presente é mantido."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Вопросы",
+        "translation": "Perguntas",
+        "examples": [
+          {
+            "original": "Она спросила: «Ты придёшь завтра?»",
+            "phonetic": "[ɐˈna sprɐˈsʲi.lə ˈtɨ prʲɪˈdʲɵʂ ˈzaf.trə]",
+            "translation": "Ela perguntou: 'Você virá amanhã?'",
+            "note": "Pergunta direta com entonação interrogativa."
+          },
+          {
+            "original": "Она спросила, придёшь ли ты завтра.",
+            "phonetic": "[ɐˈna sprɐˈsʲi.lə prʲɪˈdʲɵʂ lʲi ˈtɨ ˈzaf.trə]",
+            "translation": "Ela perguntou se você virá amanhã.",
+            "note": "Para perguntas sim/não, usa-se a partícula 'ли' após o verbo."
+          },
+          {
+            "original": "Мой друг спросил: «Когда ты вернёшься?»",
+            "phonetic": "[moj d̪ruk sprɐˈsʲiɫ ˈkoɡ.də tɨ vʲɪrˈnʲɵʂ.sʲə]",
+            "translation": "Meu amigo perguntou: 'Quando você voltará?'",
+            "note": "Pergunta com palavra interrogativa 'когда'."
+          },
+          {
+            "original": "Мой друг спросил, когда я вернусь.",
+            "phonetic": "[moj d̪ruk sprɐˈsʲiɫ ˈkoɡ.də ˈja vʲɪrˈnusʲ]",
+            "translation": "Meu amigo perguntou quando eu voltarei.",
+            "note": "Ordem direta na pergunta indireta, sem inversão."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Просьбы и приказы",
+        "translation": "Pedidos e ordens",
+        "examples": [
+          {
+            "original": "Учитель сказал: «Откройте учебник».",
+            "phonetic": "[ʊˈt͡ɕi.tʲɪlʲ skɐˈzal ˈɐtˈkroʊ.tʲe ʊˈt͡ɕɛb.nʲɪk]",
+            "translation": "O professor disse: 'Abram o livro'.",
+            "note": "Imperativo direto."
+          },
+          {
+            "original": "Учитель попросил открыть учебник.",
+            "phonetic": "[ʊˈt͡ɕi.tʲɪlʲ pɐˈpro.sʲil ˈɐt.krɨtʲ ʊˈt͡ɕɛb.nʲɪk]",
+            "translation": "O professor pediu para abrir o livro.",
+            "note": "Com 'попросить' + infinitivo, equivalente a 'pedir que alguém faça algo'."
+          },
+          {
+            "original": "Мама велела мне убрать комнату.",
+            "phonetic": "[ˈma.mə vʲɪˈlʲe.lə mnʲe ʊˈbratʲ ˈkom.nə.tʊ]",
+            "translation": "Mamãe ordenou que eu arrumasse o quarto.",
+            "note": "'Велеть' + dativo + infinitivo expressa ordem."
+          },
+          {
+            "original": "Он попросил, чтобы я пришёл пораньше.",
+            "phonetic": "[ˈon pɐˈpro.sʲɪl ˈʂto.bɨ ˈja prʲɪˈʂol pɐˈranʲ.ʂɨ]",
+            "translation": "Ele pediu que eu viesse mais cedo.",
+            "note": "'Чтобы' introduz uma oração subordinada com sentido de pedido/objetivo; verbo no passado."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Discurso indireto básico"
+    }
+  },
+  {
+    "id": "pt_B1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Герундий и инфинитив как подлежащее и дополнение / Gerúndio e infinitivo como sujeito e objeto",
+    "bridge": "Em português, usamos frequentemente o infinitivo (ex.: 'Estudar é importante') e o gerúndio (ex.: 'Estou estudando') para expressar ações. No russo, não existe gerúndio como forma verbal pessoal — em vez disso, usamos o infinitivo ou substantivos verbais (como 'чтение' – leitura). Uma diferença crucial é que o russo não usa gerúndio para ações contínuas (como 'estou fazendo'); ele usa verbos no presente ou construções com o verbo 'быть' + particípio, mas isso é raro. Para sujeitos e objetos, o russo usa o infinitivo diretamente, sem preposição, enquanto em português muitas vezes precisamos de preposição. Cuidado: não confunda o gerúndio russo (деепричастие) que funciona como advérbio, não como sujeito.",
+    "rule": "Em russo, para expressar 'fazer algo' como sujeito ou objeto, usamos o infinitivo do verbo. O infinitivo é invariável e pode ser usado com verbos como 'любить' (amar), 'хотеть' (querer), 'нравиться' (gostar de), 'начать' (começar), 'продолжать' (continuar), 'закончить' (terminar). Ex.: 'Я люблю читать' (Eu amo ler). Para sujeito, o infinitivo funciona como substantivo neutro: 'Читать полезно' (Ler é útil). Uso comum com 'нужно', 'можно', 'нельзя' (é necessário, é possível, é proibido) seguidos de infinitivo. Não existe a forma de gerúndio para sujeito; o substantivo verbal (ex.: 'чтение') é usado em contextos mais formais. Exceção: verbos de movimento e aspecto são mais complexos, mas para B1, o infinitivo é a forma segura. Verbos que exigem 'о' + preposicional para objeto (ex.: 'мечтать о' – sonhar com) + infinitivo também são comuns.",
+    "concept_examples": [
+      {
+        "text": "Читать книги — полезно.",
+        "translation": "Ler livros é útil.",
+        "phonetic": "[t͡ɕɪˈtatʲ ˈknʲiɡʲɪ ˈpolʲɪznə]"
+      },
+      {
+        "text": "Я люблю готовить.",
+        "translation": "Eu amo cozinhar.",
+        "phonetic": "[ja lʲʊˈblʲu ɡɐˈtovʲɪtʲ]"
+      },
+      {
+        "text": "Мне нравится плавать.",
+        "translation": "Eu gosto de nadar.",
+        "phonetic": "[mnʲe ˈnravʲɪt͡sə ˈplavətʲ]"
+      },
+      {
+        "text": "Начать учить русский — трудно.",
+        "translation": "Começar a aprender russo é difícil.",
+        "phonetic": "[nɐˈt͡ɕatʲ ˈut͡ɕɪtʲ ˈruskʲɪj ˈtrudnə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я хочу плавать в бассейне. (Na verdade, esta frase está correta, mas vamos usar um erro típico: 'Я наслаждаюсь плавать' – errado porque 'наслаждаться' exige substantivo, não infinitivo)",
+      "correct": "Я наслаждаюсь плаванием.",
+      "correct_alt": "Мне нравится плавать.",
+      "explanation": "O erro ocorre porque em português usamos 'adorar + gerúndio' ou 'curtir + infinitivo', mas em russo verbos como 'наслаждаться' (apreciar) exigem o caso instrumental (substantivo), não infinitivo. É importante verificar se o verbo russo aceita infinitivo ou exige algum caso. Para evitar, aprenda verbos comuns que pedem infinitivo: 'хотеть' (querer), 'любить' (amar), 'начать' (começar). Use 'нравится' + infinitivo para gostos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Инфинитив как подлежащее",
+        "translation": "Infinitivo como sujeito",
+        "examples": [
+          {
+            "original": "Жить — значит бороться.",
+            "phonetic": "[ʐɨtʲ ˈznat͡ɕɪt bɐˈrot͡sə]",
+            "translation": "Viver significa lutar.",
+            "note": "Aqui 'жить' é sujeito, seguido de 'значит' (significa)."
+          },
+          {
+            "original": "Курить вредно.",
+            "phonetic": "[kʊˈrʲitʲ ˈvrʲednə]",
+            "translation": "Fumar é prejudicial.",
+            "note": "Infinitivo + adjetivo curto (вредно) – construção típica."
+          },
+          {
+            "original": "Путешествовать интересно.",
+            "phonetic": "[pʊtʲɪˈʂɛstvəvətʲ ɪnʲtʲɪˈrʲɛsnə]",
+            "translation": "Viajar é interessante.",
+            "note": "Para sujeito, o infinitivo funciona como substantivo neutro singular."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Инфинитив как дополнение",
+        "translation": "Infinitivo como objeto",
+        "examples": [
+          {
+            "original": "Я хочу спать.",
+            "phonetic": "[ja xɐˈt͡ɕu spɐtʲ]",
+            "translation": "Eu quero dormir.",
+            "note": "Verbo 'хотеть' + infinitivo direto, sem preposição."
+          },
+          {
+            "original": "Он начал работать.",
+            "phonetic": "[on ˈnat͡ɕɪl rɐˈbotətʲ]",
+            "translation": "Ele começou a trabalhar.",
+            "note": "'Начать' + infinitivo imperfeito para ação em curso."
+          },
+          {
+            "original": "Мы продолжаем говорить.",
+            "phonetic": "[mɨ prɐdɐlˈʐa(j)ɪm ɡɐvɐˈrʲitʲ]",
+            "translation": "Nós continuamos a falar.",
+            "note": "Verbos de fase (começar, continuar, terminar) + infinitivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Конструкции с «нужно», «можно», «нельзя»",
+        "translation": "Construções com 'нужно', 'можно', 'нельзя'",
+        "examples": [
+          {
+            "original": "Нужно учиться каждый день.",
+            "phonetic": "[ˈnuʐnə ˈut͡ɕɪt͡sə ˈkaʐdɨj dʲenʲ]",
+            "translation": "É preciso estudar todos os dias.",
+            "note": "'Нужно' + infinitivo é equivalente ao nosso 'é preciso/pode-se'."
+          },
+          {
+            "original": "Можно войти?",
+            "phonetic": "[ˈmoʐnə vɐjˈtʲi]",
+            "translation": "Pode-se entrar?",
+            "note": "Uso comum para permissão."
+          },
+          {
+            "original": "Нельзя курить здесь.",
+            "phonetic": "[nʲɪlʲˈzʲa kʊˈrʲitʲ zʲdʲesʲ]",
+            "translation": "É proibido fumar aqui.",
+            "note": "Negação de permissão; não confundir com 'не можно'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📘",
+    "phonetic": "",
+    "translations": {
+      "pt": "Gerúndios e infinitivos como sujeito e objeto"
+    }
+  },
+  {
+    "id": "pt_B1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Модальные слова для предположения (должно быть, может быть, возможно)",
+    "bridge": "Em português, expressamos dedução com verbos modais como 'deve', 'pode', 'talvez' e construções como 'é possível que'. Em russo, não existem verbos modais exatamente como no português; usam-se palavras adverbiais invariáveis como 'должно быть' (deve ser), 'может быть' (pode ser) e 'возможно' (possivelmente), frequentemente acompanhadas de verbos no infinitivo ou no passado. Um erro comum para falantes de português é usar o verbo 'быть' em pessoa, mas na verdade os equivalentes são impessoais e não variam com o sujeito.",
+    "rule": "Para exprimir dedução em russo, usam-se palavras modais seguidas de infinitivo ou de orações completivas. As principais são:\n- 'должно быть' (deve ser) – indica dedução forte, quase certeza.\n- 'может быть' (pode ser) – dedução média, possibilidade.\n- 'возможно' (possivelmente) – dedução fraca, menos provável.\nEstas palavras são invariáveis e não se conjugam. A construção típica: 'должно быть, + frase' ou 'может быть, + frase' (com vírgula). Em contexto informal, também se usam 'наверное' (provavelmente) e 'вряд ли' (improvável). Cuidado: 'мочь' (poder) existe como verbo, mas não se usa para dedução; diz-se 'не может быть' (não pode ser) como expressão fixa. Quando o verbo principal está no passado, a dedução refere-se ao passado: 'должно быть, он был дома' (deve ter estado em casa). Para o futuro, usa-se o infinitivo futuro: 'должно быть, он придёт' (deve vir).",
+    "concept_examples": [
+      {
+        "text": "Должно быть, он дома.",
+        "translation": "Ele deve estar em casa.",
+        "phonetic": "/dɐlʐnə bɨtʲ on ˈdomə/"
+      },
+      {
+        "text": "Может быть, она придёт завтра.",
+        "translation": "Pode ser que ela venha amanhã.",
+        "phonetic": "/ˈmoʐɨt bɨtʲ ɐˈna prʲɪˈdʲɵt ˈzaftrə/"
+      },
+      {
+        "text": "Возможно, мы опоздаем.",
+        "translation": "Possivelmente nós vamos nos atrasar.",
+        "phonetic": "/vɐzˈmoʐnə mɨ ɐpɐzˈdaɪm/"
+      },
+      {
+        "text": "Он не может быть здесь.",
+        "translation": "Ele não pode estar aqui.",
+        "phonetic": "/on nʲɪ ˈmoʐɨt bɨtʲ zʲdʲesʲ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Он должен быть дома. (usado erroneamente para dedução, quando se quer dizer 'deve estar em casa' mas o falante pensa no verbo 'dever' como obrigação)",
+      "correct": "Должно быть, он дома.",
+      "correct_alt": "Он, наверное, дома.",
+      "explanation": "O erro ocorre porque em português 'deve' pode expressar dedução ou obrigação. Em russo, 'должен' significa obrigação (ele deve [algo] a alguém ou é obrigado a algo). Para expressar dedução, é necessário usar 'должно быть' como expressão invariável seguida de vírgula, ou 'наверное' (provavelmente). Evite traduzir literalmente 'deve' como 'должен' quando o sentido é de suposição."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Должно быть vs. наверное",
+        "translation": "Deve ser vs. provavelmente",
+        "examples": [
+          {
+            "original": "Должно быть, это правда.",
+            "phonetic": "/ˈdolʐnə bɨtʲ ˈɛtə ˈpravdə/",
+            "translation": "Deve ser verdade.",
+            "note": "'должно быть' expressa uma dedução com alta probabilidade, mas não certeza absoluta."
+          },
+          {
+            "original": "Наверное, он устал.",
+            "phonetic": "/ˈnаvʲɪrnəje on ʊˈstal/",
+            "translation": "Provavelmente ele está cansado.",
+            "note": "'наверное' é informal e muito comum na fala cotidiana, equivalente a 'provavelmente'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Может быть и возможно",
+        "translation": "Pode ser e possivelmente",
+        "examples": [
+          {
+            "original": "Может быть, они заблудились.",
+            "phonetic": "/ˈmoʐɨt bɨtʲ ɐˈnʲi zəblʊˈdʲilʲɪsʲ/",
+            "translation": "Pode ser que eles se perderam.",
+            "note": "'может быть' é comum para possibilidade média; muitas vezes usado com vírgula."
+          },
+          {
+            "original": "Возможно, это ошибка.",
+            "phonetic": "/vɐzˈmoʐnə ˈɛtə ɐˈɕɨpkə/",
+            "translation": "Possivelmente é um erro.",
+            "note": "'возможно' é mais formal e denota menor probabilidade."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Не может быть и вряд ли",
+        "translation": "Não pode ser e improvável",
+        "examples": [
+          {
+            "original": "Не может быть, он сказал правду.",
+            "phonetic": "/nʲɪ ˈmoʐɨt bɨtʲ on skɐˈzaɫ ˈpravdʊ/",
+            "translation": "Não pode ser que ele tenha dito a verdade.",
+            "note": "Expressão fixa para impossibilidade."
+          },
+          {
+            "original": "Вряд ли он придёт.",
+            "phonetic": "/vˈrʲædʲ lʲi on prʲɪˈdʲɵt/",
+            "translation": "É improvável que ele venha.",
+            "note": "'вряд ли' expressa baixa probabilidade, quase certeza do contrário."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔍",
+    "phonetic": "",
+    "translations": {
+      "pt": "Modais para dedução"
+    }
+  },
+  {
+    "id": "pt_B1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Относительные предложения (определительные и пояснительные) / Orações relativas (restritivas e explicativas)",
+    "bridge": "Em português, usamos 'que', 'quem', 'cujo', 'onde' para introduzir orações relativas. Em russo, o principal pronome relativo é 'который', que concorda com o substantivo antecedente em gênero, número e caso, e não apenas em número e pessoa como 'que' em português. Além disso, a vírgula é usada nas orações explicativas, mas não nas restritivas — mesma regra do português, mas atenção: 'который' pode ser separado do substantivo por outras palavras, o que não acontece em português tão frequentemente. Cuidado para não usar 'что' como 'que' nesses contextos, pois isso é um erro comum para falantes de português.",
+    "rule": "Em russo, a oração relativa é introduzida principalmente pelo pronome 'который' (que, o qual). Ele concorda com o substantivo antecedente em gênero (masculino, feminino, neutro), número (singular/plural) e caso (nominativo, acusativo, genitivo, dativo, instrumental, preposicional). O caso de 'который' é determinado pela função que exerce na oração relativa (sujeito, objeto direto, etc.), não pelo caso do antecedente. Formas principais: nominativo: который (m), которая (f), которое (n), которые (pl); acusativo: который/которого (m animado/inanimado), которую (f), которое (n), которые/которых (pl animado); outros casos: которого (gen), которому (dat), которым (instr), о котором (prep), etc. Exemplos: 'который' como sujeito: 'Это книга, которая лежит на столе.' (Este é o livro que está na mesa). 'которую' como objeto direto: 'Я вижу девушку, которую ты знаешь.' (Vejo a moça que você conhece). 'с которым' (com quem): 'Это друг, с которым я работаю.' (Este é o amigo com quem trabalho). Uso de 'что' coloquial: em linguagem coloquial, 'что' pode substituir 'который' no nominativo e acusativo, mas apenas em orações restritivas e sem preposição: 'человек, что пришёл' (a pessoa que veio). Jamais use 'что' após preposição ('с чем' significa 'com o quê', não 'com quem'). Ordem das palavras: a oração relativa geralmente vem imediatamente após o antecedente, mas em russo pode haver inversão: 'Я прочитал книгу, которую ты мне дал.' é padrão. A vírgula: orações restritivas não levam vírgula em português? Na verdade, as restritivas não são separadas por vírgula, e as explicativas são. Em russo, a regra é a mesma: use vírgulas para explicativas e não use para restritivas. Exemplo restritiva: 'Студенты, которые учатся хорошо, получают стипендию.' (Os estudantes que estudam bem recebem bolsa) — restritiva, sem vírgulas? Na verdade, em russo, as orações relativas restritivas também não são separadas por vírgulas, mas as explicativas sim. No exemplo acima, se for restritiva, não há vírgulas: 'Студенты которые учатся хорошо получают стипендию.' Mas normalmente escrevemos com vírgulas em ambos os casos, pois a distinção é sutil. Na prática, em russo, sempre se usa vírgula para separar a oração relativa, independentemente de ser restritiva ou explicativa? Não, não é verdade. Em russo, a oração relativa é sempre separada por vírgulas? Sim, na ortografia russa, as orações subordinadas são sempre separadas por vírgulas, incluindo as relativas, tanto restritivas quanto explicativas. Essa é uma diferença do português, onde as restritivas não levam vírgula. Portanto, o aluno deve lembrar: em russo, sempre use vírgulas ao redor da oração relativa. Outro ponto: o pronome 'который' pode ser omitido? Não, em russo não se omite. Em português, às vezes omitimos: 'O homem que vi' vs 'O homem que eu vi' – mas em russo, o pronome é obrigatório. Por fim, a preposição em russo vem antes de 'который' na forma correta: 'дом, в котором я живу' (a casa em que moro).",
+    "concept_examples": [
+      {
+        "text": "Это книга, которую я читаю.",
+        "translation": "Este é o livro que estou lendo.",
+        "phonetic": "ˈɛtə ˈknʲiɡə | kɐˈtorʊjʊ ja tɕɪˈtajʊ"
+      },
+      {
+        "text": "Я знаю человека, который говорит по-португальски.",
+        "translation": "Conheço uma pessoa que fala português.",
+        "phonetic": "ja ˈznajʊ tɕɪlɐˈvʲɛkə | kɐˈtorɨj ɡɐˈvɐrʲɪt pə‿pərtʊˈɡalʲskʲɪ"
+      },
+      {
+        "text": "Это город, в котором я родился.",
+        "translation": "Esta é a cidade em que nasci.",
+        "phonetic": "ˈɛtə ˈɡorət | f‿kɐˈtorəm ja rɐˈdʲiɫsʲə"
+      },
+      {
+        "text": "Она показала мне фото, которое сделал её брат.",
+        "translation": "Ela me mostrou a foto que o irmão dela tirou.",
+        "phonetic": "ɐˈna pəkɐˈzaɫə mnʲe ˈfotə | kɐˈtorəjə ˈzʲdʲeɫɐj ˈjɵ‿brat"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я знаю человек что говорит по-русски.",
+      "correct": "Я знаю человека, который говорит по-русски.",
+      "correct_alt": "Я знаю человека, что говорит по-русски. (coloquial, apenas se for restritiva)",
+      "explanation": "Falantes de português tendem a usar 'что' como equivalente direto de 'que', mas em russo 'что' significa 'o que' ou é usado como conjunção em orações subordinadas substantivas. Para orações relativas, o pronome correto é 'который', que deve concordar em gênero, número e caso com o antecedente. No exemplo, 'человек' é masculino, singular, e como é objeto direto da oração principal, fica no acusativo: 'человека'. Na oração relativa, 'который' é sujeito, portanto nominativo. Além disso, é obrigatório usar vírgula antes da oração relativa em russo, mesmo em restritivas, ao contrário do português."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Который в именительном падеже (субъект) / Который no nominativo (sujeito)",
+        "translation": "Который no nominativo (sujeito)",
+        "examples": [
+          {
+            "original": "Это студент, который учит русский язык.",
+            "phonetic": "ˈɛtə stʊˈdʲɛnt | kɐˈtorɨj ˈut͡ɕɪt ˈruskʲɪj jɪˈzɨk",
+            "translation": "Este é um estudante que estuda russo.",
+            "note": "O pronome 'который' concorda com 'студент' (masculino singular) e é sujeito da oração relativa."
+          },
+          {
+            "original": "Она любит фильмы, которые рассказывают о любви.",
+            "phonetic": "ɐˈna ˈlʲubʲɪt ˈfʲilʲmɨ | kɐˈtorɨjə rəsˈkazɨvəjʊt ə‿lʲʊbˈvʲi",
+            "translation": "Ela ama filmes que falam sobre amor.",
+            "note": "No plural, usamos 'которые'."
+          },
+          {
+            "original": "Вот книга, которая интересная.",
+            "phonetic": "vot ˈknʲiɡə | kɐˈtorəjə ɪnʲtʲɪˈrʲɛsnəjə",
+            "translation": "Aí está um livro que é interessante.",
+            "note": "Feminino singular: 'которая'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Который в винительном и других падежах (объект) / Который no acusativo e outros casos (objeto)",
+        "translation": "Который no acusativo e outros casos (objeto)",
+        "examples": [
+          {
+            "original": "Я купил телефон, который ты хотел.",
+            "phonetic": "ja kʊˈpʲiɫ tʲɪlʲɪˈfon | kɐˈtorɨj tɨ xɐˈtʲeɫ",
+            "translation": "Comprei o celular que você queria.",
+            "note": "Aqui 'который' está no acusativo, mas como o substantivo é inanimado, é igual ao nominativo."
+          },
+          {
+            "original": "Я вижу женщину, которую ты знаешь.",
+            "phonetic": "ja ˈvʲiʐʊ ˈʐɛnʲɕːɪnʊ | kɐˈtorʊjʊ tɨ ˈznajɪʂ",
+            "translation": "Vejo a mulher que você conhece.",
+            "note": "Feminino acusativo: 'которую'."
+          },
+          {
+            "original": "Это человек, с которым я работаю.",
+            "phonetic": "ˈɛtə tɕɪlɐˈvʲek | s‿kɐˈtorɨm ja rɐˈbotəjʊ",
+            "translation": "Esta é a pessoa com quem trabalho.",
+            "note": "Preposição 'с' exige instrumental: 'с которым'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ограничительные и пояснительные придаточные / Orações restritivas e explicativas",
+        "translation": "Orações restritivas e explicativas",
+        "examples": [
+          {
+            "original": "Мой брат, который живёт в Москве, приехал в гости.",
+            "phonetic": "moj brat | kɐˈtorɨj ʐɨˈvʲot v‿mɐˈskvʲe | prʲɪˈjɛxəɫ v‿ˈɡosʲtʲɪ",
+            "translation": "Meu irmão, que mora em Moscou, veio nos visitar.",
+            "note": "Uso de vírgulas indica oração explicativa: todos os irmãos, e a informação é adicional."
+          },
+          {
+            "original": "Студенты, которые учатся старательно, сдают экзамены хорошо.",
+            "phonetic": "stʊˈdʲɛntɨ | kɐˈtorɨjə ˈut͡ɕɪt͡sə stɐˈratʲɪlʲnə | ˈzdajʊt ɪɡˈzamʲɪnɨ xɐˈrɐʂə",
+            "translation": "Os estudantes que estudam diligentemente passam bem nos exames.",
+            "note": "Sem vírgula seria restritiva, mas em russo as vírgulas são sempre usadas para separar orações relativas, indistintamente. A distinção é feita pelo contexto."
+          },
+          {
+            "original": "Я прочитал роман, который ты мне рекомендовал.",
+            "phonetic": "ja prətɕɪˈtaɫ rɐˈman | kɐˈtorɨj tɨ mnʲe rʲɪkəmʲɪndɐˈvaɫ",
+            "translation": "Li o romance que você me recomendou.",
+            "note": "Oração restritiva, mas mesmo assim usa vírgula em russo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Orações relativas (restritivas e explicativas)"
+    }
+  },
+  {
+    "id": "pt_B1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Желание + прошедшее время / Expressar desejos irreais",
+    "bridge": "Em português, usamos 'queria que' ou 'gostaria que' + subjuntivo imperfeito para desejos irreais (ex.: 'Queria que ele estivesse aqui'). Em russo, a construção é diferente: usamos 'Хотелось бы' ou 'Жаль, что' + passado do verbo, mas o passado não indica tempo passado, e sim irrealidade. Cuidado: em russo não existe subjuntivo; o passado com 'бы' expressa condicional, mas em desejos irreais 'бы' é frequentemente omitido, e o verbo no passado sozinho já carrega a ideia de irrealidade. Outro ponto: em português usamos 'que' para introduzir a oração; em russo, usamos 'чтобы' que exige o passado e não muda a forma verbal.",
+    "rule": "Para expressar desejos irreais (sobre situações presentes ou futuras não realizadas), o russo usa uma oração com 'чтобы' (ou 'чтоб') e o verbo no passado, muitas vezes sem conjunção de subordinação explícita ('Хотелось бы, чтобы...'). A partícula 'бы' pode aparecer em construções como 'хотел бы', 'я бы хотел', mas em desejos com 'чтобы', o verbo fica no passado, que indica irrealidade. Exemplos típicos: 'Хочу, чтобы ты был здесь' (quero que estejas aqui) – o passado 'был' expressa desejo irreal. Para desejos em relação a si mesmo, usa-se 'хотелось бы' + infinitivo ou 'жаль, что' + passado (para desejo de que algo não tenha acontecido). Em contextos coloquiais, pode-se usar 'если бы' (se ao menos) + passado, mas isso é mais condicional. Não existe correspondência direta com o subjuntivo português; a chave é reconhecer a função do passado russo como irreal.",
+    "concept_examples": [
+      {
+        "text": "Хочу, чтобы ты был здесь.",
+        "translation": "Quero que você estivesse aqui.",
+        "phonetic": "xoˈʨu | ˈʂtobɨ tɨ bɨl zʲdʲesʲ"
+      },
+      {
+        "text": "Жаль, что он не пришёл.",
+        "translation": "Pena que ele não veio. (Desejo que tivesse vindo)",
+        "phonetic": "ʐalʲ | ʂto on nʲɪ prʲɪˈʂol"
+      },
+      {
+        "text": "Хотелось бы, чтобы было лето.",
+        "translation": "Gostaria que fosse verão.",
+        "phonetic": "xɐˈtʲeləsʲ bɨ | ˈʂtobɨ ˈbɨlə ˈlʲetə"
+      },
+      {
+        "text": "Если бы я знал, я бы помог.",
+        "translation": "Se eu soubesse, eu teria ajudado.",
+        "phonetic": "ˈjeslʲɪ bɨ ja znal | ja bɨ pɐˈmok"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я хочу, чтобы ты будешь здесь.",
+      "correct": "Я хочу, чтобы ты был здесь.",
+      "correct_alt": "Я хотел бы, чтобы ты был здесь.",
+      "explanation": "O erro ocorre porque o aluno transfere a estrutura do português, usando o futuro após 'чтобы'. Em russo, após 'чтобы' o verbo deve estar no passado para expressar irrealidade/desejo, mesmo que a ação seja no presente ou futuro. O passado 'был' não indica tempo, mas sim modo irreal. Lembre-se: nunca use futuro ou presente depois de 'чтобы' em desejos que expressam irrealidade."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Хочу, чтобы + прошлое",
+        "translation": "Quero que + passado",
+        "examples": [
+          {
+            "original": "Хочу, чтобы ты позвонил.",
+            "phonetic": "xoˈʨu | ˈʂtobɨ tɨ pəzvɐˈnʲil",
+            "translation": "Quero que você ligue (desejo que ainda não aconteceu).",
+            "note": "Note que 'позвонил' está no passado, mas expressa um desejo futuro irreal."
+          },
+          {
+            "original": "Мама хочет, чтобы я сделал уроки.",
+            "phonetic": "ˈmamə ˈxoʨɪt | ˈʂtobɨ ja ˈzʲdʲeləf ʊˈrokʲɪ",
+            "translation": "Mamãe quer que eu faça a lição de casa.",
+            "note": "Aqui 'сделал' passado indica que a ação ainda não foi realizada."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Жаль, что / Хотелось бы",
+        "translation": "Pena que / Gostaria",
+        "examples": [
+          {
+            "original": "Жаль, что нет времени.",
+            "phonetic": "ʐalʲ | ʂto nʲɛt ˈvrʲemʲɪnʲɪ",
+            "translation": "Pena que não há tempo. (Gostaria que houvesse tempo)",
+            "note": "Aqui não usamos 'чтобы', mas o desejo de que algo fosse diferente é implícito."
+          },
+          {
+            "original": "Хотелось бы больше отдыхать.",
+            "phonetic": "xɐˈtʲeləsʲ bɨ ˈbolʲʂə ɐdːɨˈxatʲ",
+            "translation": "Gostaria de descansar mais.",
+            "note": "Use 'хотелось бы' + infinitivo para desejos pessoais irreais."
+          },
+          {
+            "original": "Жаль, что мы не встретились.",
+            "phonetic": "ʐalʲ | ʂto mɨ nʲɪ ˈfstrʲetʲɪlʲɪsʲ",
+            "translation": "Pena que não nos encontramos. (Gostaria que tivéssemos nos encontrado)",
+            "note": "O passado aqui indica um desejo sobre o passado não realizado."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Если бы / Сослагательное наклонение",
+        "translation": "Se ao menos / Condicional",
+        "examples": [
+          {
+            "original": "Если бы я был богатым, я купил бы дом.",
+            "phonetic": "ˈjeslʲɪ bɨ ja bɨl bɐˈɡatɨm | ja kʊˈpʲil bɨ dom",
+            "translation": "Se eu fosse rico, compraria uma casa.",
+            "note": "Aqui usamos 'если бы' + passado e repetimos 'бы' na oração principal para indicar condicional irreal."
+          },
+          {
+            "original": "Если бы она пришла, мы бы поговорили.",
+            "phonetic": "ˈjeslʲɪ bɨ ɐˈna prʲɪˈʂla | mɨ bɨ pəɡəvɐˈrʲilʲɪ",
+            "translation": "Se ela tivesse vindo, teríamos conversado.",
+            "note": "Em desejos irreais sobre o passado, o passado é usado em ambas as orações, com 'бы'."
+          },
+          {
+            "original": "Хотела бы я, чтобы было тепло.",
+            "phonetic": "xɐˈtʲelə bɨ ja | ˈʂtobɨ ˈbɨlə tʲɪˈplo",
+            "translation": "Eu gostaria que estivesse quente.",
+            "note": "Combine 'хотел бы' + 'чтобы' + passado para expressar um desejo específico."
+          }
+        ]
+      }
+    ],
+    "emoji": "💭",
+    "phonetic": "",
+    "translations": {
+      "pt": "Wish + passado / Expressar desejos irreais"
+    }
+  },
+  {
+    "id": "pt_B1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Конструкция «бывало» и глаголы несовершенного вида для выражения повторяющихся действий в прошлом / Expressão de hábitos passados",
+    "bridge": "Em português, usamos 'costumava + infinitivo' ou o pretérito imperfeito para falar de hábitos passados. Em russo, não existe um equivalente exato a 'used to'. Para expressar ações habituais no passado, o russo usa principalmente o pretérito de verbos imperfeitos (que já carrega a ideia de repetição ou duração) e, em contextos narrativos ou de ênfase, a palavra 'бывало' (que significa 'acontecia') seguida de verbo imperfeito no passado. Ao contrário do português, o aspecto do verbo é crucial: o perfeito indica uma ação única concluída, enquanto o imperfeito indica repetição, processo ou hábito. É comum que falantes de português usem erroneamente verbos perfeitos para hábitos, resultando em frases que significam 'fiz uma vez' em vez de 'costumava fazer'.",
+    "rule": "Para expressar hábitos passados em russo, utilize o pretérito de verbos imperfeitos (geralmente formados com o sufixo -ыва-/-ива- ou com verbos de movimento indeterminado). Exemplo: 'Я читал по вечерам' (Eu lia à noite / Eu costumava ler à noite). O aspecto perfeito (ex.: 'прочитал') indica uma ação única e concluída, não hábito. A partícula 'бывало' (do verbo 'бывать') é usada como um marcador opcional para enfatizar que a ação se repetia com frequência. Ela concorda com o tempo passado e é colocada geralmente no início ou após o sujeito. Ex.: 'Бывало, мы ходили в парк каждое воскресенье' (Costumávamos ir ao parque todos os domingos). Outra forma comum é usar construções com 'часто' (frequentemente), 'обычно' (geralmente), 'каждый день' (todos os dias) combinadas com verbos imperfeitos no passado. Não há uma forma composta com 'costumava' como em português; a repetição é expressa pelo aspecto imperfeito e por advérbios de frequência. Exceção: verbos de movimento terminados (ir, vir, levar, etc.) possuem formas indeterminadas específicas (ex.: 'ходил' – foi com frequência, 'ездил' – viajava regularmente) que indicam hábito, enquanto as formas determinadas ('шёл', 'ехал') indicam ação única em progresso.",
+    "concept_examples": [
+      {
+        "text": "Когда я был ребёнком, я часто гулял в парке.",
+        "translation": "Quando eu era criança, eu costumava passear no parque.",
+        "phonetic": "kagDA ja był riBʲONkam, ja TȿAsTO guLJAL v PARkʲe."
+      },
+      {
+        "text": "Бывало, мы каждое лето ездили на море.",
+        "translation": "Costumávamos ir ao mar todo verão.",
+        "phonetic": "BYwala, my KȂżdəje LʲETA JEZDʲili na MOre."
+      },
+      {
+        "text": "Раньше я вставал в семь часов каждый день.",
+        "translation": "Antes eu costumava me levantar às sete horas todos os dias.",
+        "phonetic": "RANʲʂy ja fstaVAL f sʲEMʹ tɕiSOF KȂżdyj dʲENʲ."
+      },
+      {
+        "text": "Обычно мы пили чай с вареньем по воскресеньям.",
+        "translation": "Geralmente, costumávamos tomar chá com geleia aos domingos.",
+        "phonetic": "ABɨʨnə my PʲILI tɕaj s vaRʲENʲjɪm pə vaskrʲiSʲENʲjəm."
+      }
+    ],
+    "common_error": {
+      "wrong": "Когда я был ребёнком, я часто пошёл в парк.",
+      "correct": "Когда я был ребёнком, я часто ходил в парк.",
+      "correct_alt": "Бывало, я часто ходил в парк.",
+      "explanation": "O erro ocorre porque o falante de português pode traduzir 'costumava ir' como 'ir' no passado, mas escolhe o aspecto perfeito 'пошёл' (fui uma vez, ação concluída). Para expressar hábito, é obrigatório usar o verbo imperfeito 'ходил' (que também é a forma indeterminada de movimento). Lembre-se: em russo, o aspecto perfeito nunca é usado para ações repetidas no passado, a menos que o número de vezes seja especificado (ex.: 'я сходил в парк три раза' – fui ao parque três vezes). Sempre verifique se o verbo está no imperfeito para descrever rotinas passadas."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Прошедшее время несовершенного вида для повторяющихся действий",
+        "translation": "Pretérito imperfeito para ações repetidas",
+        "examples": [
+          {
+            "original": "Я читал книги каждый вечер.",
+            "phonetic": "ja tɕiTAL KNʲigʲi KȂżdyj VʲETɕer.",
+            "translation": "Eu lia livros todas as noites.",
+            "note": "O verbo 'читать' (ler) no imperfeito passado 'читал' indica hábito. Note a terminação -л para masculino."
+          },
+          {
+            "original": "Она готовила ужин по субботам.",
+            "phonetic": "aNA gaTOvʲila Uʐɨn pə subBOTəm.",
+            "translation": "Ela costumava preparar o jantar aos sábados.",
+            "note": "Aqui 'готовила' (imperfeito feminino) expressa repetição. Em português usamos 'costumava preparar' ou o imperfeito 'preparava'."
+          },
+          {
+            "original": "Мы смотрели телевизор вечерами.",
+            "phonetic": "my smaTRʲElʲi tʲilʲiVʲIZər vʲitɕiRAmʲi.",
+            "translation": "Nós assistíamos TV à noite.",
+            "note": "O plural 'смотрели' concorda com 'мы'. A terminação -ли é típica do pretérito plural."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Конструкция с «бывало»",
+        "translation": "Construção com 'бывало'",
+        "examples": [
+          {
+            "original": "Бывало, он приходил к нам и рассказывал истории.",
+            "phonetic": "BYwala, on prʲixaDʲIL k nam i rasSKȂzyvaf iˈSTORʲijɪ.",
+            "translation": "Costumava vir até nós e contar histórias.",
+            "note": "'Бывало' enfatiza a repetição frequente. O verbo permanece no passado imperfeito."
+          },
+          {
+            "original": "Бывало, мы вставали рано и шли в лес за грибами.",
+            "phonetic": "BYwala, my fstaVALʲi RANə i ʃlʲi v lʲES z grʲiˈBAMʲi.",
+            "translation": "Costumávamos acordar cedo e ir à floresta colher cogumelos.",
+            "note": "Aqui 'шли' é a forma determinada de 'идти' (ir a pé) mas está no contexto habitual; em passado, o movimento indeterminado 'ходили' seria mais comum, mas 'шли' é aceitável em narrativas."
+          },
+          {
+            "original": "Бывало, бабушка пекла пирожки по праздникам.",
+            "phonetic": "BYwala, BABuʂkə pʲɪˈKLA pʲirɐʂˈKʲi pə PRAZʲnʲikəm.",
+            "translation": "A avó costumava fazer tortinhas nas festas.",
+            "note": "'Бывало' geralmente vem no início da frase ou depois do sujeito. Observe a entonação: a pausa após 'бывало' é comum."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Глаголы движения в значении привычных действий",
+        "translation": "Verbos de movimento para ações habituais",
+        "examples": [
+          {
+            "original": "В детстве я ходил в школу пешком.",
+            "phonetic": "v DJETstvʲe ja xaˈDʲIL f ˈʂkołu pʲɪˈʂKOM.",
+            "translation": "Na infância, eu costumava ir à escola a pé.",
+            "note": "O verbo 'ходить' (andar/ir com frequência) é a forma indeterminada, usada para hábitos. Não use 'идти' (determinada) aqui."
+          },
+          {
+            "original": "По выходным мы ездили на дачу.",
+            "phonetic": "pə vyˈxodnɨm my JEZDʲilʲi na DATɕu.",
+            "translation": "Aos fins de semana, costumávamos ir para a dacha (casa de campo).",
+            "note": "'Ездить' (viajar com frequência) é indeterminado. 'Поехать' seria perfeito e indicaria uma viagem única."
+          },
+          {
+            "original": "Она носила дочь в школу на машине.",
+            "phonetic": "aNA naˈSʲilə doʨʲ f ˈʂkołu nə mɐˈʂɨnʲe.",
+            "translation": "Ela costumava levar a filha à escola de carro.",
+            "note": "'Носить' é o indeterminado de 'нести' (carregar). Para hábitos passados, sempre use o indeterminado."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Hábitos passados (used to)"
+    }
+  },
+  {
+    "id": "pt_B1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Цель, причина и результат (Propósito, causa y resultado)",
+    "bridge": "Em português, usamos preposições e locuções como 'para', 'por causa de', 'por isso' para expressar propósito, causa e resultado. Em russo, a estrutura é diferente: o propósito é frequentemente expresso com a preposição 'для' + genitivo, ou com a conjunção 'чтобы' + infinitivo (ou passado). A causa é expressa com 'из-за' + genitivo para causas negativas, e 'благодаря' + dativo para causas positivas. O resultado é expresso com 'поэтому' ou 'так что'. O principal desafio para falantes de português é que o russo usa casos (genitivo, dativo) em vez de preposições equivalentes diretas, e a escolha entre 'из-за' e 'благодаря' depende do valor positivo/negativo da causa.",
+    "rule": "Para expressar propósito, usamos 'чтобы' + infinitivo (ou passado, se o sujeito é diferente). Exemplos: 'Я учусь, чтобы получить работу.' (Eu estudo para conseguir um emprego). Também usamos 'для' + genitivo: 'Это книга для чтения.' (É um livro para leitura). Para causa, usamos 'из-за' + genitivo (causa negativa ou neutra) e 'благодаря' + dativo (causa positiva). Ex.: 'Из-за дождя мы остались дома.' (Por causa da chuva, ficamos em casa); 'Благодаря помощи я справился.' (Graças à ajuda, eu consegui). Para resultado, usamos 'поэтому' (por isso) e 'так что' (então). Ex.: 'Он не пришёл, поэтому я ушёл.' (Ele não veio, por isso eu fui embora). Atenção: 'чтобы' exige infinitivo quando os sujeitos são iguais, mas se os sujeitos são diferentes, usa-se passado. Em português, a distinção é menos marcada.",
+    "concept_examples": [
+      {
+        "text": "Я учусь, чтобы получить хорошую работу.",
+        "translation": "Eu estudo para conseguir um bom emprego.",
+        "phonetic": "[ja uˈt͡ɕusʲ ˈʂtobɨ pəɫʊˈt͡ɕitʲ xɐˈroʂʊjʊ ˈrabətʊ]"
+      },
+      {
+        "text": "Из-за дождя мы не пошли гулять.",
+        "translation": "Por causa da chuva, não fomos passear.",
+        "phonetic": "[ɪz‿zə dɐˈʐdʲa mɨ nʲɪ pɐˈʂlʲi ɡʊˈlʲatʲ]"
+      },
+      {
+        "text": "Благодаря твоей помощи я сдал экзамен.",
+        "translation": "Graças à sua ajuda, eu passei no exame.",
+        "phonetic": "[bɫəɡədɐˈrʲa tvɐˈjɛj ˈpoməɕːɪ ja zdaɫ ɪɡˈzamʲɪn]"
+      },
+      {
+        "text": "Он плохо спал, поэтому он устал.",
+        "translation": "Ele dormiu mal, por isso ele está cansado.",
+        "phonetic": "[on ˈpɫoxə spaɫ ˈpoːtəmʊ on ʊˈstaɫ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я купил подарок для тебе.",
+      "correct": "Я купил подарок для тебя.",
+      "correct_alt": "Я купил тебе подарок.",
+      "explanation": "Em português, usamos 'para você' com o pronome oblíquo. Em russo, a preposição 'для' exige o genitivo, então 'тебе' (dativo) está errado. O correto é 'для тебя' (genitivo de 'ты'). Além disso, há uma alternativa com dativo sem preposição: 'купить тебе подарок'. Lembre-se de que 'для' sempre rege genitivo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Цель (Propósito)",
+        "translation": "Propósito",
+        "examples": [
+          {
+            "original": "Он пришёл, чтобы поговорить.",
+            "phonetic": "[on prʲɪˈʂoɫ ˈʂtobɨ pəɡəvɐˈrʲitʲ]",
+            "translation": "Ele veio para conversar.",
+            "note": "'чтобы' + infinitivo quando o sujeito é o mesmo."
+          },
+          {
+            "original": "Это средство для мытья посуды.",
+            "phonetic": "[ˈɛtə ˈsrʲɛt͡stvə dlə ˈmɨtʲjə pɐˈsudɨ]",
+            "translation": "Este é um produto para lavar louça.",
+            "note": "'для' + genitivo (мытья) para indica propósito."
+          },
+          {
+            "original": "Я читаю, чтобы узнавать новости.",
+            "phonetic": "[ja t͡ɕɪˈtaju ˈʂtobɨ ʊznɐˈvatʲ nɐˈvosʲtʲi]",
+            "translation": "Eu leio para saber as notícias.",
+            "note": "Infinitivo após 'чтобы' é usado em frases simples."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Причина (Causa)",
+        "translation": "Causa",
+        "examples": [
+          {
+            "original": "Из-за пробок я опоздал.",
+            "phonetic": "[ɪz‿zə ˈprobək ja ɐpɐˈzdaɫ]",
+            "translation": "Por causa do trânsito, eu me atrasei.",
+            "note": "'из-за' + genitivo para causa negativa."
+          },
+          {
+            "original": "Благодаря хорошей погоде мы поехали за город.",
+            "phonetic": "[bɫəɡədɐˈrʲa xɐˈroʂɨj pɐˈɡodʲɪ mɨ pɐˈjexəlʲɪ zə ˈɡorət]",
+            "translation": "Graças ao bom tempo, fomos para o campo.",
+            "note": "'благодаря' + dativo para causa positiva."
+          },
+          {
+            "original": "Он не спал, из-за чего был злым.",
+            "phonetic": "[on nʲɪ spaɫ ɪz‿zə t͡ɕɪˈvo bɨɫ ˈzɫɨm]",
+            "translation": "Ele não dormiu, por isso estava irritado.",
+            "note": "Use 'из-за чего' para conectar causa e resultado negativo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Результат (Resultado)",
+        "translation": "Resultado",
+        "examples": [
+          {
+            "original": "Он забыл ключи, поэтому не мог открыть дверь.",
+            "phonetic": "[on zɐˈbɨɫ klʲʉˈt͡ɕi ˈpoːtəmʊ nʲɪ mok ɐtˈkrɨtʲ dvʲerʲ]",
+            "translation": "Ele esqueceu as chaves, por isso não pôde abrir a porta.",
+            "note": "'поэтому' indica resultado lógico."
+          },
+          {
+            "original": "Шёл дождь, так что мы остались дома.",
+            "phonetic": "[ʂoɫ doʂtʲ ˈtak ʂto mɨ ɐˈstalʲɪsʲ ˈdomə]",
+            "translation": "Chovia, então ficamos em casa.",
+            "note": "'так что' introduz resultado casual."
+          },
+          {
+            "original": "Он много работал, поэтому устал.",
+            "phonetic": "[on ˈmnoɡə rɐˈbotəɫ ˈpoːtəmʊ ʊˈstaɫ]",
+            "translation": "Ele trabalhou muito, por isso ficou cansado.",
+            "note": "Use 'поэтому' para resultado de causa anterior."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧩",
+    "phonetic": "",
+    "translations": {
+      "pt": "Propósito, causa e resultado"
+    }
+  },
+  {
+    "id": "pt_B1_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Глаголы движения с приставками / Verbos de movimento com prefixos",
+    "bridge": "Em russo, muitos verbos de movimento (como идти/ходить) combinam-se com prefixos para expressar nuances de direção, aspecto e perfeição que em português geralmente são comunicadas por advérbios ou preposições (ex: 'entrar', 'sair', 'atravessar'). Diferente do português, onde usamos verbos distintos, em russo o mesmo verbo base ganha prefixos como в- (para dentro), вы- (para fora), пере- (atravessar). Além disso, o aspecto perfeito/imperfeito muda com o prefixo e o contexto: enquanto 'я шёл' é imperfeito (estava a andar), 'я вошёл' é perfeito (entrei). Atenção: muitos prefixos têm significados múltiplos e o uso depende do contexto e do caso do objeto.",
+    "rule": "Os verbos de movimento em russo têm duas formas básicas: unidirecional (идти/ехать – movimento em uma direção) e multidirecional (ходить/ездить – movimento habitual ou em várias direções). Quando prefixados, a forma unidirecional geralmente cria o aspecto perfeito (ex: войти – entrar), enquanto a multidirecional prefixada cria o imperfeito (ex: входить – estar a entrar, entrar repetidamente). Prefixos comuns: в- (para dentro), вы- (para fora), при- (chegar), у- (partir), пере- (atravessar), про- (passar por), под- (aproximar-se), от- (afastar-se). O objeto direto ou indireto rege casos específicos: com в- e на- usa-se acusativo (ex: войти в дом – entrar na casa), com вы- usa-se genitivo (ex: выйти из дома – sair da casa). Verbos que terminam em -ся podem adicionar reciprocidade ou intransitividade. Para B1, domine os prefixos mais comuns e suas combinações com идти/ходить e ехать/ездить.",
+    "concept_examples": [
+      {
+        "text": "Я вошёл в комнату.",
+        "translation": "Entrei no quarto.",
+        "phonetic": "[ja vaˈʂol v ˈkomnətʊ]"
+      },
+      {
+        "text": "Она вышла из магазина.",
+        "translation": "Ela saiu da loja.",
+        "phonetic": "[aˈna ˈvɨʂla iz məɡɐˈzʲinə]"
+      },
+      {
+        "text": "Мы перешли через улицу.",
+        "translation": "Atravessámos a rua.",
+        "phonetic": "[mɨ pʲɪrʲɪˈʂlʲi ˈt͡ɕerʲɪz ˈulʲɪt͡sʊ]"
+      },
+      {
+        "text": "Автобус подъехал к остановке.",
+        "translation": "O autocarro aproximou-se da paragem.",
+        "phonetic": "[ɐfˈtobʊs pɐdˈjexəl k ɐstɐˈnofkʲe]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я пришёл в дом и увидел мой друг.",
+      "correct": "Я пришёл в дом и увидел моего друга.",
+      "correct_alt": "Я пришёл домой и увидел моего друга.",
+      "explanation": "O erro ocorre porque em português 'uvisão' exige acusativo sem preposição, mas em russo o acusativo de 'друг' é 'друга' (animado). Além disso, 'мой друг' no acusativo fica 'моего друга'. Outro detalhe: usar 'в дом' é aceitável, mas 'домой' é mais natural para 'para casa'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Глаголы движения без приставок (идти/ходить)",
+        "translation": "Verbos de movimento sem prefixos (ir a pé / costumar ir)",
+        "examples": [
+          {
+            "original": "Я иду в школу.",
+            "phonetic": "[ja ˈidʊ ˈf‿ʂkəlʊ]",
+            "translation": "Vou para a escola (agora).",
+            "note": "Uso unidirecional: movimento em curso numa direção específica."
+          },
+          {
+            "original": "Он ходит в школу каждый день.",
+            "phonetic": "[on ˈxodʲɪt ˈf‿ʂkəlʊ ˈkaʐdɨj dʲenʲ]",
+            "translation": "Ele vai à escola todos os dias.",
+            "note": "Uso multidirecional: indica hábito ou movimento repetido."
+          },
+          {
+            "original": "Мы ходили в парк вчера.",
+            "phonetic": "[mɨ xɐˈdʲilʲɪ ˈf‿park ˈft͡ɕerə]",
+            "translation": "Fomos ao parque ontem.",
+            "note": "O passado de ходить indica ida e volta (movimento completo)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Приставки направления (в-, вы-, при-, у-)",
+        "translation": "Prefixos de direção (para dentro, para fora, chegada, partida)",
+        "examples": [
+          {
+            "original": "Она вошла в офис.",
+            "phonetic": "[ɐˈna vaˈʂla ˈv‿ofʲɪs]",
+            "translation": "Ela entrou no escritório.",
+            "note": "В- + acusativo (em direção a dentro)."
+          },
+          {
+            "original": "Ты вышел из автобуса?",
+            "phonetic": "[tɨ ˈvɨʂɨl iz ɐfˈtobʊsə]",
+            "translation": "Saíste do autocarro?",
+            "note": "Вы- + genitivo (de dentro para fora)."
+          },
+          {
+            "original": "Мы приехали в Лиссабон.",
+            "phonetic": "[mɨ prʲɪˈjexəlʲɪ v‿lʲɪsɐˈbon]",
+            "translation": "Chegámos a Lisboa.",
+            "note": "При- indica chegada; com ехать (veículo)."
+          },
+          {
+            "original": "Он ушёл с работы.",
+            "phonetic": "[on ʊˈʂol s rɐˈbotɨ]",
+            "translation": "Ele saiu do trabalho (partiu).",
+            "note": "У- indica partida; com генитив (с/из)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Приставки пере-, под-, от-",
+        "translation": "Prefixos através, aproximação, afastamento",
+        "examples": [
+          {
+            "original": "Мы переплыли реку.",
+            "phonetic": "[mɨ pʲɪrʲɪˈplɨlʲɪ ˈrʲekʊ]",
+            "translation": "Atravessámos o rio a nado.",
+            "note": "Пере- com acusativo (atravessar de lado a lado)."
+          },
+          {
+            "original": "Кот подошёл к двери.",
+            "phonetic": "[kot pədɐˈʂol ˈk‿dvʲerʲɪ]",
+            "translation": "O gato aproximou-se da porta.",
+            "note": "Под- + dativo (aproximação)."
+          },
+          {
+            "original": "Она отъехала от дома.",
+            "phonetic": "[ɐˈna ɐtˈjexələ ɐt‿ˈdomə]",
+            "translation": "Ela afastou-se de casa de carro.",
+            "note": "От- + genitivo (afastamento)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚶",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbos de movimento com prefixos"
+    }
+  },
+  {
+    "id": "pt_B1_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Cuantificadores avanzados / Cuantificadores avanzados",
+    "bridge": "Em português, usamos palavras como 'quase nenhum', 'muitos', 'bastante' antes de substantivos. Em russo, esses quantificadores mudam não só de forma, mas também afetam o caso do substantivo: alguns exigem genitivo plural, outros genitivo singular, e alguns até mudam de significado dependendo do caso. Além disso, a ordem das palavras e a entonação podem alterar a ênfase. Você já conhece 'много' (muito), mas agora vamos explorar nuances como 'почти нет' (quase nenhum) e 'предостаточно' (de sobra).",
+    "rule": "Na língua russa, os quantificadores avançados se dividem em grupos conforme o caso que exigem:\n1. **Genitivo plural**: 'почти нет' (quase nenhum), 'мало' (pouco), 'немало' (não pouco), 'много' (muito) – usados com substantivos no genitivo plural (ex: 'почти нет денег' – quase nenhum dinheiro).\n2. **Genitivo singular**: 'предостаточно' (de sobra), 'достаточно' (suficiente) – exigem genitivo singular de substantivos incontáveis (ex: 'достаточно времени' – tempo suficiente).\n3. **Acusativo ou nominativo**: 'каждый' (cada), 'любой' (qualquer) – concordam em gênero, número e caso com o substantivo, mas em B1 focamos no nominativo e acusativo (ex: 'каждый день' – cada dia).\n4. **Expressões com 'ни'**: 'ни один' (nenhum), 'ни разу' (nem uma vez) – usadas para enfatizar negação, exigem genitivo singular após 'ни' (ex: 'ни одного друга' – nenhum amigo).\nAtenção: 'почти нет' é usado apenas em contextos negativos (não há algo), enquanto 'мало' pode ser usado em frases afirmativas com sentido de 'pouco'. Também, 'предостаточно' tem nuance de 'mais que suficiente', diferente de 'достаточно' que é apenas 'suficiente'.",
+    "concept_examples": [
+      {
+        "text": "У меня почти нет денег.",
+        "translation": "Eu quase não tenho dinheiro.",
+        "phonetic": "[u mʲɪˈnʲa ˈpot͡ɕtʲi nʲet ˈdʲenʲɪk]"
+      },
+      {
+        "text": "У нас предостаточно времени.",
+        "translation": "Nós temos de sobra de tempo.",
+        "phonetic": "[u nas prʲɪdɐˈstatət͡ɕnə ˈvrʲemʲɪnʲɪ]"
+      },
+      {
+        "text": "Он задал мне немало вопросов.",
+        "translation": "Ele me fez não poucas perguntas.",
+        "phonetic": "[on ˈzadəl mnʲe nʲɪˈmalə vɐˈprosəf]"
+      },
+      {
+        "text": "Ни один студент не сдал экзамен.",
+        "translation": "Nenhum estudante passou no exame.",
+        "phonetic": "[nʲi ɐˈdʲin stʊˈdʲent nʲɪ zdal ɪɡˈzamʲɪn]"
+      }
+    ],
+    "common_error": {
+      "wrong": "У меня почти нет денега.",
+      "correct": "У меня почти нет денег.",
+      "correct_alt": "У меня почти нет денег.",
+      "explanation": "O erro é colocar 'денега' no nominativo singular (como em português 'dinheiro'). Em russo, 'почти нет' exige o genitivo plural, que de 'деньги' (dinheiro) é 'денег'. Falantes de português tendem a manter o substantivo no caso nominativo por analogia com o português, mas é crucial memorizar que esses quantificadores desencadeiam o genitivo. Dica: trate o quantificador como uma 'preposição' que sempre pede genitivo, e estude as formas irregulares de plural como 'денег'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Почти нет, мало",
+        "translation": "Quase nenhum, pouco",
+        "examples": [
+          {
+            "original": "В городе почти нет парков.",
+            "phonetic": "[v ˈɡorədʲɪ ˈpot͡ɕtʲi nʲet ˈparkəf]",
+            "translation": "Na cidade quase não há parques.",
+            "note": "Use 'почти нет' + genitivo plural para indicar ausência quase total (ex: парков – de парк)."
+          },
+          {
+            "original": "У меня мало свободного времени.",
+            "phonetic": "[u mʲɪˈnʲa ˈmalə svɐˈbodnəvə ˈvrʲemʲɪnʲɪ]",
+            "translation": "Eu tenho pouco tempo livre.",
+            "note": "'мало' + genitivo singular (времени) porque 'время' é incontável e singular."
+          },
+          {
+            "original": "Он почти не ест мяса.",
+            "phonetic": "[on ˈpot͡ɕtʲi nʲɪ jesʲtʲ ˈmʲæsə]",
+            "translation": "Ele quase não come carne.",
+            "note": "Com verbos, 'почти не' é usado em vez de 'почти нет' – 'нет' é apenas para existência."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Немало, достаточно",
+        "translation": "Não pouco, suficiente",
+        "examples": [
+          {
+            "original": "Она прочитала немало книг.",
+            "phonetic": "[ɐˈna prət͡ɕɪˈtalə nʲɪˈmalə knʲik]",
+            "translation": "Ela leu não poucos livros.",
+            "note": "'немало' é usado para enfatizar quantidade, mas exige genitivo plural (книг)."
+          },
+          {
+            "original": "У нас достаточно времени.",
+            "phonetic": "[u nas dɐˈstatət͡ɕnə ˈvrʲemʲɪnʲɪ]",
+            "translation": "Nós temos tempo suficiente.",
+            "note": "'достаточно' + genitivo singular – note que 'времени' é genitivo de 'время'."
+          },
+          {
+            "original": "В комнате достаточно света.",
+            "phonetic": "[v ˈkomnətʲɪ dɐˈstatət͡ɕnə ˈsvʲetə]",
+            "translation": "Na sala há luz suficiente.",
+            "note": "Usado com substantivos incontáveis no genitivo singular, como 'свет' (luz)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ни один, любой, каждый",
+        "translation": "Nenhum, qualquer, cada",
+        "examples": [
+          {
+            "original": "Ни один человек не пришёл.",
+            "phonetic": "[nʲi ɐˈdʲin t͡ɕɪˈlɐvʲek nʲɪ prʲɪˈʂol]",
+            "translation": "Nenhuma pessoa veio.",
+            "note": "'ни один' exige genitivo singular após 'ни' (человека? não, aqui é nominativo porque é sujeito, mas 'ни один' concorda com o sujeito; a negação é com 'не' no verbo)."
+          },
+          {
+            "original": "Ты можешь выбрать любой день.",
+            "phonetic": "[tɨ ˈmoʐɨʂ ˈvɨbratʲ lʲʊˈboj dʲenʲ]",
+            "translation": "Você pode escolher qualquer dia.",
+            "note": "'любой' concorda em gênero, número e caso – aqui acusativo (день)."
+          },
+          {
+            "original": "Каждый студент должен знать это правило.",
+            "phonetic": "[ˈkaʐdɨj stʊˈdʲent ˈdolʐɨn znatʲ ˈɛtə ˈpravʲɪlə]",
+            "translation": "Cada estudante deve saber essa regra.",
+            "note": "'каждый' + substantivo no nominativo singular, mas em contextos diferentes pode mudar de caso."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧮",
+    "phonetic": "",
+    "translations": {
+      "pt": "Cuantificadores avanzados"
+    }
+  },
+  {
+    "id": "pt_B1_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Глагол + инфинитив / герундий / Verbos + infinitivo / gerúndio",
+    "bridge": "Em português, usamos frequentemente o gerúndio (-ando, -endo, -indo) após certos verbos, como 'estou fazendo' ou 'continue estudando'. Em russo, não existe gerúndio nesse sentido; usa-se o infinitivo ou a construção 'preposição + substantivo verbal'. Por exemplo, 'eu continuo estudando' vira 'я продолжаю учиться' (verbo + infinitivo). Outra diferença: verbos como 'gostar de' (любить) exigem infinitivo ou substantivo, nunca gerúndio. Fique atento também aos aspectos perfeito/imperfeito: a escolha do infinitivo pode mudar o sentido.",
+    "rule": "Em russo, a combinação de verbos modais e de fase (começar, continuar, terminar, gostar, querer, poder) com outro verbo é feita com o infinitivo (форма инфинитива). Não existe gerúndio após esses verbos. Para expressar ações contínuas, usam-se construções com o verbo 'быть' no passado/futuro ou o aspecto imperfeito. Verbos que indicam preferência, obrigação ou capacidade também pedem infinitivo. Alguns verbos podem ser seguidos por um substantivo no caso instrumental ou acusativo, mas o infinitivo é a opção mais comum em B1. Exceções: 'начать' e 'кончить' também podem ser seguidos por substantivos no caso instrumental (начать с чего-то). Para ações simultâneas, usa-se o gerúndio russo (деепричастие), mas isso é tópico mais avançado.",
+    "concept_examples": [
+      {
+        "text": "Я хочу учить русский язык.",
+        "translation": "Eu quero aprender russo.",
+        "phonetic": "[ja xɐˈt͡ɕu ʊˈt͡ɕitʲ ˈruskʲɪj jɪˈzɨk]"
+      },
+      {
+        "text": "Он продолжает работать.",
+        "translation": "Ele continua trabalhando.",
+        "phonetic": "[on prɐdɐlˈʐa(j)ɪt rɐˈbotətʲ]"
+      },
+      {
+        "text": "Мы любим гулять в парке.",
+        "translation": "Nós gostamos de passear no parque.",
+        "phonetic": "[mɨ ˈlʲʉbʲɪm ɡʊˈlʲætʲ f ˈparkʲe]"
+      },
+      {
+        "text": "Ты можешь помочь мне?",
+        "translation": "Você pode me ajudar?",
+        "phonetic": "[tɨ ˈmoʐɨʂ pɐˈmot͡ɕ mnʲe]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я продолжаю изучая русский язык.",
+      "correct": "Я продолжаю изучать русский язык.",
+      "correct_alt": "Я продолжаю заниматься русским языком.",
+      "explanation": "O erro ocorre porque o falante de português transfere o gerúndio ('estudando') para o russo, criando 'изучая'. Em russo, após 'продолжать' (continuar) usa-se apenas o infinitivo (изучать). Para expressar continuidade, você pode usar a construção 'continue + infinitivo' ou, se necessário, o aspecto imperfeito, mas nunca o gerúndio nesse contexto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Модальные глаголы + инфинитив",
+        "translation": "Verbos modais + infinitivo",
+        "examples": [
+          {
+            "original": "Я могу плавать.",
+            "phonetic": "[ja mɐˈɡu ˈplavətʲ]",
+            "translation": "Eu sei nadar (posso nadar).",
+            "note": "Verbo modal 'мочь' (poder) é seguido de infinitivo."
+          },
+          {
+            "original": "Он должен прийти завтра.",
+            "phonetic": "[on ˈdolʐɨn prʲɪjˈtʲi ˈzaftrə]",
+            "translation": "Ele deve vir amanhã.",
+            "note": "'Должен' (dever) exige infinitivo, não gerúndio."
+          },
+          {
+            "original": "Мы хотим купить машину.",
+            "phonetic": "[mɨ xɐˈtʲim kʊˈpʲitʲ mɐˈʂɨnʊ]",
+            "translation": "Nós queremos comprar um carro.",
+            "note": "'Хотеть' (querer) + infinitivo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Фазовые глаголы + инфинитив",
+        "translation": "Verbos de fase + infinitivo",
+        "examples": [
+          {
+            "original": "Я начал читать книгу.",
+            "phonetic": "[ja ˈnat͡ɕɪl t͡ɕɪˈtatʲ ˈknʲiɡʊ]",
+            "translation": "Eu comecei a ler o livro.",
+            "note": "Verbos como 'начать' (começar) pedem infinitivo."
+          },
+          {
+            "original": "Она закончила работать в шесть.",
+            "phonetic": "[ɐnə zɐˈkonʲt͡ɕɪlə rɐˈbotətʲ f‿ʂɛsʲtʲ]",
+            "translation": "Ela terminou de trabalhar às seis.",
+            "note": "'Закончить' (terminar) + infinitivo."
+          },
+          {
+            "original": "Мы продолжаем заниматься каждый день.",
+            "phonetic": "[mɨ prɐdɐlˈʐa(j)ɪm zənʲɪˈmat͡sə ˈkaʐdɨj dʲenʲ]",
+            "translation": "Nós continuamos estudando todos os dias.",
+            "note": "'Продолжать' (continuar) + infinitivo, nunca gerúndio."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Глаголы предпочтения и желания + инфинитив",
+        "translation": "Verbos de preferência e desejo + infinitivo",
+        "examples": [
+          {
+            "original": "Я люблю готовить.",
+            "phonetic": "[ja lʲʊbˈlʲu ɡɐˈtovʲitʲ]",
+            "translation": "Eu gosto de cozinhar.",
+            "note": "'Любить' (gostar de) + infinitivo."
+          },
+          {
+            "original": "Он предпочитает пить чай.",
+            "phonetic": "[on prʲɪtpət͡ɕɪˈta(j)ɪt pʲitʲ t͡ɕæj]",
+            "translation": "Ele prefere beber chá.",
+            "note": "'Предпочитать' (preferir) + infinitivo."
+          },
+          {
+            "original": "Мне нравится путешествовать.",
+            "phonetic": "[mnʲe ˈnravʲɪt͡sə pʊtʲɪˈʂɛstvəvətʲ]",
+            "translation": "Eu gosto de viajar.",
+            "note": "Construção impessoal 'мне нравится' + infinitivo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Padrões verbais (verbo + infinitivo)"
+    }
+  },
+  {
+    "id": "pt_B1_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Нулевой артикль и обобщённое употребление / Artigo zero e uso genérico",
+    "bridge": "Em português, usamos artigos definidos e indefinidos com frequência (o, a, um, uma), mas em russo não existem artigos. Isso significa que quando você quer falar de algo de forma geral, como 'cachorros são leais', em russo basta usar o substantivo no plural ou singular sem nenhum artigo. O grande desafio para falantes de português é resistir à tentação de adicionar palavras como 'um' ou 'este' onde não são necessárias. Outra diferença: em russo, a ausência de artigo pode indicar tanto indefinido quanto genérico, dependendo do contexto.",
+    "rule": "Em russo, não há artigos. Para expressar sentido genérico (falando de uma classe inteira) ou indefinido, usa-se o substantivo sozinho, muitas vezes com a terminação adequada de caso. Para indicar indefinição, também se pode usar as palavras 'один' (um) ou 'какой-то' (algum), mas não são obrigatórias. Para generalizações, emprega-se frequentemente o plural (sem artigo) ou o singular com sentido coletivo. Exceções: quando o substantivo é usado com um determinante possessivo, demonstrativo ou numeral, esses elementos substituem o artigo. A ausência de artigo pode causar ambiguidade, mas o contexto resolve. Memorize: em russo, a falta de artigo é a norma, não uma exceção.",
+    "concept_examples": [
+      {
+        "text": "Собаки — верные друзья.",
+        "translation": "Cães são amigos leais.",
+        "phonetic": "/sɐˈbakʲɪ | ˈvʲernɨjə drʊˈzʲja/"
+      },
+      {
+        "text": "Я люблю музыку.",
+        "translation": "Eu amo música.",
+        "phonetic": "/ja lʲʊbˈlʲu ˈmuzɨkʊ/"
+      },
+      {
+        "text": "Вода необходима для жизни.",
+        "translation": "A água é necessária para a vida.",
+        "phonetic": "/vɐˈda nʲɪəbʲɪˈxodʲɪmə dlʲa ˈʐɨzʲnʲɪ/"
+      },
+      {
+        "text": "У неё есть дети.",
+        "translation": "Ela tem filhos.",
+        "phonetic": "/u nʲɪˈjɵ jesʲtʲ ˈdʲetʲɪ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я купил один книга.",
+      "correct": "Я купил книгу.",
+      "correct_alt": "Я купил одну книгу.",
+      "explanation": "Falantes de português tendem a traduzir 'um/uma' literalmente como 'один/одна/одно' em contextos onde não é necessário. Em russo, para indicar um objeto indefinido, o substantivo sozinho no caso acusativo já é suficiente. A palavra 'один' é opcional e só usada para ênfase ou para contrastar com 'vários'. O erro comum é usá-lo sempre. Lembre-se: em russo, a indefinição é marcada pelo contexto, não por uma palavra obrigatória."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Обобщение с существительными во множественном числе",
+        "translation": "Generalização com substantivos no plural",
+        "examples": [
+          {
+            "original": "Кошки — независимые животные.",
+            "phonetic": "/ˈkoʂkʲɪ | nʲɪzɐˈvʲisʲɪmɨjə ʐɨˈvotnɨjə/",
+            "translation": "Gatos são animais independentes.",
+            "note": "Aqui 'кошки' significa 'gatos em geral', sem artigo. Em português, você poderia dizer 'gatos' sem artigo, mas muitas vezes usa 'os gatos' com artigo definido – em russo, não."
+          },
+          {
+            "original": "Книги дают знания.",
+            "phonetic": "/ˈknʲiɡʲɪ dɐˈjut ˈznanʲɪjə/",
+            "translation": "Livros dão conhecimento.",
+            "note": "Plural genérico sem artigo. Perceba que o verbo 'дают' concorda com o plural, mas não há nenhum artigo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Обобщение с существительными в единственном числе",
+        "translation": "Generalização com substantivos no singular",
+        "examples": [
+          {
+            "original": "Человек — часть природы.",
+            "phonetic": "/tɕɪlɐˈvʲek | tɕæsʲtʲ prʲɪˈrodɨ/",
+            "translation": "O homem é parte da natureza.",
+            "note": "O singular 'человек' é usado de forma genérica para representar toda a humanidade. Em português, usa-se 'o homem' com artigo, mas em russo não."
+          },
+          {
+            "original": "Вода — источник жизни.",
+            "phonetic": "/vɐˈda | ɪˈstotɕnʲɪk ˈʐɨzʲnʲɪ/",
+            "translation": "A água é fonte de vida.",
+            "note": "Singular genérico. Em português, usamos 'a água' com artigo, mas em russo é desnecessário."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Отсутствие артикля для неопределённости",
+        "translation": "Ausência de artigo para indefinição",
+        "examples": [
+          {
+            "original": "Я вижу машину на улице.",
+            "phonetic": "/ja ˈvʲiʐʊ mɐˈʂɨnʊ nɐ ˈulʲɪtɕe/",
+            "translation": "Vejo um carro na rua.",
+            "note": "Aqui 'машину' é indefinido (um carro qualquer). Não se usa 'одну' porque não é necessário."
+          },
+          {
+            "original": "У меня есть вопрос.",
+            "phonetic": "/u mʲɪˈnʲæ jesʲtʲ vɐˈpros/",
+            "translation": "Tenho uma pergunta.",
+            "note": "O substantivo 'вопрос' no singular, sem artigo, indica indefinido. A construção 'у меня есть' também não exige artigo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚫",
+    "phonetic": "",
+    "translations": {
+      "pt": "Artigos avançados (ausência e uso genérico)"
+    }
+  }
+]

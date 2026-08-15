@@ -907,5 +907,259 @@
     "translations": {
       "pt": "Expressão sutil de atitude e avaliação"
     }
+  },
+  {
+    "id": "pt_C1_func_09",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "丁寧語・普通体の使い分け（ポルトガル語訳：Mudança de registro entre linguagem formal e informal）",
+    "bridge": "Em português, a distinção entre 'você' e 'tu' ou entre formas como 'gostaria' e 'quero' é uma questão de escolha, mas no japonês essa mudança é sistemática e obrigatória, afetando não apenas verbos, mas também partículas, pronomes e até mesmo o vocabulário. O maior desafio para falantes de português é que, no japonês, a escolha do registro não é apenas um reflexo do grau de intimidade, mas também da hierarquia social, do contexto (público vs. privado) e do canal (escrito vs. falado). Diferente do português, que tende a manter um certo nível de formalidade mesmo entre amigos, o japonês alterna radicalmente entre a forma despida (普通体, futsuu-tai) em situações informais e a forma polida (丁寧語, teinei-go) em situações formais, sendo que a não alternância pode soar rude ou excessivamente distante.",
+    "rule": "A distinção entre 普通体 (futsuu-tai, forma informal) e 丁寧語 (teinei-go, forma polida) é fundamental. A forma polida utiliza os sufixos -masu/-desu nos finais de oração, enquanto a forma informal usa formas curtas como だ, する, 行く, etc. A escolha depende principalmente da relação entre interlocutores (superior ou inferior hierárquico, idade, contexto social), do ambiente (trabalho vs. casa) e do grau de intimidade. É importante notar que essa mudança não é binária: existe um continuum que vai desde a forma polida padrão até a forma humilde (謙譲語) e a forma honorífica (尊敬語), mas este conceito se foca nas duas primeiras. No português, a alteração de registro é mais flexível e depende mais da situação do que da pessoa; por isso, os aprendizes tendem a usar a forma polida por padrão, o que pode soar distante ou até cômico em contextos informais. Para evitar isso, é preciso dominar quando é seguro usar a forma informal: com amigos próximos, familiares, ou quando o interlocutor já usou a forma informal. Além disso, no japonês, a frase inteira deve estar no mesmo registro: não se pode misturar a forma informal em uma oração e a formal na seguinte, a menos que haja uma mudança intencional de ênfase.",
+    "concept_examples": [
+      {
+        "text": "今日、何をしましたか。",
+        "translation": "O que você fez hoje? (formal)",
+        "phonetic": "kjou, nani o shimashita ka."
+      },
+      {
+        "text": "今日、何をしたの？",
+        "translation": "O que você fez hoje? (informal)",
+        "phonetic": "kjou, nani o shita no?"
+      },
+      {
+        "text": "この本を読んでください。",
+        "translation": "Por favor, leia este livro. (formal)",
+        "phonetic": "kono hon o yonde kudasai."
+      },
+      {
+        "text": "この本を読んで。",
+        "translation": "Lê este livro. (informal)",
+        "phonetic": "kono hon o yonde."
+      }
+    ],
+    "common_error": {
+      "wrong": "友達と話す時、行きますか？",
+      "correct": "友達と話す時、行く？",
+      "correct_alt": "友達と話す時、行くの？",
+      "explanation": "Erro típico: usar a forma polida (〜ます) em contextos informais com amigos. No português, não há uma divisão tão rígida, então o aprendiz tende a usar sempre a forma que aprendeu primeiro (a formal). No japonês, isso pode soar artificial e distante. Para evitar, é preciso identificar o contexto e a relação – se é um amigo próximo ou alguém da mesma idade, use a forma informal. Lembre-se de que a pergunta informal pode ser feita com a forma curta do verbo e, opcionalmente, com a partícula の (no) para dar suavidade."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "スピーチスタイル基本",
+        "translation": "Fundamentos do estilo de fala",
+        "examples": [
+          {
+            "original": "これは本です。",
+            "phonetic": "kore wa hon desu.",
+            "translation": "Isto é um livro. (formal)",
+            "note": "A forma copulativa polida -desu é usada em contextos formais ou com desconhecidos."
+          },
+          {
+            "original": "これは本だ。",
+            "phonetic": "kore wa hon da.",
+            "translation": "Isto é um livro. (informal)",
+            "note": "A forma copulativa informal -da é usada em conversas entre amigos, diários, ou quando se cita diretamente."
+          },
+          {
+            "original": "映画を見ます。",
+            "phonetic": "eiga o mimasu.",
+            "translation": "Eu vejo filme. (formal)",
+            "note": "O verbo com -masu indica cortesia e distância neutra."
+          },
+          {
+            "original": "映画を見る。",
+            "phonetic": "eiga o miru.",
+            "translation": "Eu vejo filme. (informal)",
+            "note": "A forma do dicionário (dictionary form) é usada em registro informal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "状況による切り替え",
+        "translation": "Alternância de acordo com a situação",
+        "examples": [
+          {
+            "original": "会議で、意見を述べます。",
+            "phonetic": "kaigi de, iken o nobe masu.",
+            "translation": "Em uma reunião, apresento minha opinião. (formal)",
+            "note": "Em situações profissionais ou formais, a forma -masu é obrigatória."
+          },
+          {
+            "original": "家で、弟と話す時は、普通体を使う。",
+            "phonetic": "ie de, otouto to hanasu toki wa, futsuu-tai o tsukau.",
+            "translation": "Em casa, quando falo com meu irmão mais novo, uso a forma informal. (informal)",
+            "note": "Em casa, com familiares, a forma informal é natural; note que a explicação em si está em registro formal, mas o exemplo ilustra a alternância."
+          },
+          {
+            "original": "先生には敬語を使います。",
+            "phonetic": "sensei ni wa keigo o tsukaimasu.",
+            "translation": "Para o professor, eu uso linguagem honorífica. (formal)",
+            "note": "Regra importante: com superiores ou pessoas mais velhas, a forma polida é exigida, e até mesmo keigo em alguns casos."
+          },
+          {
+            "original": "友達と話す時は、普通体を使う。",
+            "phonetic": "tomodachi to hanasu toki wa, futsuu-tai o tsukau.",
+            "translation": "Quando falo com amigos, uso a forma informal. (informal)",
+            "note": "A forma informal é a norma entre amigos; usar -masu soaria estranho."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "書く場面での選択",
+        "translation": "Escolha em contextos escritos",
+        "examples": [
+          {
+            "original": "このメールをお読みください。",
+            "phonetic": "kono meeru o o yomi kudasai.",
+            "translation": "Por favor, leia este e-mail. (formal)",
+            "note": "Em e-mails formais ou comerciais, é obrigatório o uso da forma polida e até honorífica."
+          },
+          {
+            "original": "日記には普通体を書く。",
+            "phonetic": "nikki ni wa futsuu-tai o kaku.",
+            "translation": "No diário, escreve-se na forma informal. (informal)",
+            "note": "O diário é um espaço privado; a forma informal é adequada."
+          },
+          {
+            "original": "小説では普通体が多いです。",
+            "phonetic": "shousetsu de wa futsuu-tai ga ooi desu.",
+            "translation": "Em romances, a forma informal é frequente. (formal)",
+            "note": "Em literatura, a forma informal é comum para criar proximidade com o leitor."
+          },
+          {
+            "original": "レポートには丁寧語を使わない。",
+            "phonetic": "repooto ni wa teinei-go o tsukawanai.",
+            "translation": "Em relatórios, não se usa a forma polida. (informal)",
+            "note": "Textos acadêmicos e relatórios geralmente usam a forma informal, mas isso é um registro específico; atenção à norma de cada gênero."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Mudança de registro"
+    }
+  },
+  {
+    "id": "pt_C1_func_10",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "間接表現と配慮のストラテジー / Estratégias de indireção e consideração",
+    "bridge": "Em japonês, a comunicação eficaz depende tanto do que é dito quanto do que é deliberadamente não dito. Diferente do português, onde a clareza e a assertividade são frequentemente valorizadas, o japonês prioriza a harmonia interpessoal (和, wa) e usa a ambiguidade como forma de polidez. Falantes de português tendem a traduzir suas respostas diretas, como 'não' ou 'não concordo', o que pode soar rude ou agressivo no contexto japonês. Em vez disso, o japonês emprega estratégias indiretas, como respostas vagas, hesitações, formas condicionais e expressões suavizadoras, para comunicar discordância ou recusa sem causar conflito. Compreender essas nuances é essencial para interações sociais e profissionais bem-sucedidas no Japão, especialmente em níveis avançados.",
+    "rule": "As estratégias de indireção em japonês são estruturadas por meio de vários recursos linguísticos: 1) Respostas vagas (曖昧な返事, aimai na henji): usar 'ちょっと…' (chotto…, 'um pouco…') ou '考えておきます' (kangaete okimasu, 'vou pensar') para responder a convites que não se deseja aceitar. 2) Formas condicionais (条件形, jōkenkei): usar '-ば' ou '-たら', como em '行けたら行きます' (iketara ikimasu, 'se eu puder, eu vou'), para expressar incerteza. 3) Expressões de hesitação (ためらい, tamerai): 'うーん', 'そうですね' (sō desu ne, 'deixe-me ver...') para iniciar respostas difíceis. 4) Suavizadores (クッション言葉, kusshon kotoba): '恐れ入りますが' (osoreirimasu ga, 'lamento incomodar, mas...'), '申し訳ないですが' (mōshiwakenai desu ga, 'sinto muito, mas...') antes de fazer um pedido ou recusar. 5) Uso de frases incompletas (言いさし, iisashi): terminar uma frase sem concluir, como 'ちょっと、その日は…' (chotto, sono hi wa…, 'bem, aquele dia...') deixando o resto subentendido. Em C1, espera-se usar essas estratégias em diversos registros, desde o casual até o formal, e adaptar o nível de indireção ao contexto e à relação de poder. Erros típicos de falantes de português incluem o uso de 'いいえ' (iie, 'não') de forma muito direta e a formulação de recusas sem suavizadores.",
+    "concept_examples": [
+      {
+        "text": "せっかくですが、今回は遠慮させていただきます。",
+        "translation": "Agradeço a gentileza, mas desta vez vou ter que declinar.",
+        "phonetic": "sekːakɯ desɯ ɡa, koŋkai wa eŋɾjo sase te itadakʲimasɯ"
+      },
+      {
+        "text": "ちょっと考えさせてください。",
+        "translation": "Deixe-me pensar um pouco (usado para recusar educadamente).",
+        "phonetic": "tɕotːo kaŋɡae sase te kudasai"
+      },
+      {
+        "text": "そうですね、難しいかもしれませんね。",
+        "translation": "Bem, talvez seja difícil.",
+        "phonetic": "soː desɯ ne, mɯzukaɕiː ka mo ɕiɾemasen ne"
+      },
+      {
+        "text": "お気持ちだけいただいておきます。",
+        "translation": "Agradeço sua intenção (recusando algo com delicadeza).",
+        "phonetic": "okimotɕi dake itadaite okʲimasɯ"
+      }
+    ],
+    "common_error": {
+      "wrong": "いいえ、できません。",
+      "correct": "すみません、ちょっと難しいです。",
+      "correct_alt": "申し訳ないですが、今回は見送らせていただきます。",
+      "explanation": "Falantes de português costumam usar 'いいえ' (não) de forma direta, seguido de uma negativa explícita, como 'できません'. Em japonês, isso é considerado rude e sem sutileza. A estratégia mais adequada é usar uma expressão de desculpa ('すみません' ou '申し訳ないですが'), seguida de uma resposta vaga ou com condicional, que deixa subentendida a recusa sem causar confronto. É essencial evitar a negação frontal e, em vez disso, usar expressões como '難しい' (difícil) ou '遠慮する' (fazer o favor de evitar)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "遠回しな表現",
+        "translation": "Expressões indiretas",
+        "examples": [
+          {
+            "original": "ちょっと、その日は都合が悪くて…",
+            "phonetic": "tɕotːo, sono hi wa tsuɡoː ɡa waɾɯkute…",
+            "translation": "Bem, aquele dia não vai dar...",
+            "note": "Frase incompleta (iisashi) que deixa o restante subentendido."
+          },
+          {
+            "original": "それはちょっと…",
+            "phonetic": "soɾe wa tɕotːo…",
+            "translation": "Isso é meio... (recusa vaga)",
+            "note": "'Chotto' é um dos suavizadores mais usados para indicar desconforto ou recusa."
+          },
+          {
+            "original": "難しいと言いますか、なんというか…",
+            "phonetic": "mɯzukaɕiː to iimásɯ ka, naŋ to iːka…",
+            "translation": "Como dizer, é difícil...",
+            "note": "Uso de 'to iimasu ka' para expressar hesitação."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "条件形式の使用",
+        "translation": "Uso de formas condicionais",
+        "examples": [
+          {
+            "original": "行けたら行きます。",
+            "phonetic": "iketara ikʲimasɯ",
+            "translation": "Se eu puder ir, eu vou.",
+            "note": "Forma condicional 'tara' indica incerteza sem recusar diretamente."
+          },
+          {
+            "original": "時間があれば、参加したいです。",
+            "phonetic": "dʑiŋkaɴ ɡa aɾeba, saŋka ɕitai desɯ",
+            "translation": "Se eu tiver tempo, gostaria de participar.",
+            "note": "Usa '-ba' para condicionar a participação a uma condição não confirmada."
+          },
+          {
+            "original": "できれば、別の日にしていただけると助かります。",
+            "phonetic": "dekʲiɾeba, betsu no hi ni ɕite itada keɾu to tasɯkaɾimasɯ",
+            "translation": "Se possível, eu agradeceria se fosse em outro dia.",
+            "note": "Forma 'dekiru' + 'ba' + expressão de benefício '~te itadaku'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "クッション言葉と詫び",
+        "translation": "Palavras de cortesia e desculpas",
+        "examples": [
+          {
+            "original": "恐れ入りますが、お手数をおかけして申し訳ございません。",
+            "phonetic": "osoɾe iɾimasɯ ɡa, otesɯː o okakeɕite mɯɕiɕi moːɕiɕi, ɡoza imasen",
+            "translation": "Sinto muito pelo incômodo, mas...",
+            "note": "Uso formal de 'osoreirimasu' e 'gozaimasen' para máxima polidez."
+          },
+          {
+            "original": "ご無理を申し上げて申し訳ないのですが、",
+            "phonetic": "ɡo mɯɾi o mɯɕiː aɡete mɯɕiːnani deɕoː ɡa",
+            "translation": "Peço desculpas por pedir algo impossível, mas...",
+            "note": "Usado para fazer um pedido considerado impositivo."
+          },
+          {
+            "original": "お手数ですが、よろしくお願いいたします。",
+            "phonetic": "otesɯː desɯ ɡa, joɾoɕikɯ o neɡai itasimasɯ",
+            "translation": "Lamento o incômodo, mas agradeço sua compreensão.",
+            "note": "Expressão típica em e-mails e comunicações formais."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙏",
+    "phonetic": "",
+    "translations": {
+      "pt": "Comunicação intercultural e estilo pragmático"
+    }
   }
 ]

@@ -1,0 +1,1209 @@
+[
+  {
+    "id": "pt_A2_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "عند الطبيب / No médico",
+    "bridge": "Em árabe, para dizer 'eu estou doente', usamos a estrutura 'أنا مريض' (ana marīḍ), que literalmente significa 'eu doente', sem o verbo 'ser/estar' como no português. Além disso, o gênero é marcado na palavra: مريض (marīḍ) para masculino e مريضة (marīḍa) para feminino, enquanto em português usamos 'doente' invariável. Outra diferença é que para expressar dor, usamos a preposição 'في' (fī) com a parte do corpo, como em 'عندي ألم في رأسي' (ʿindī alam fī raʾsī), que literalmente é 'tenho dor na minha cabeça', sem o verbo 'ter' conjugado como em português.",
+    "rule": "Para A2, foque em: 1) Usar 'عندي' (ʿindī) para 'eu tenho' (dor, sintomas) seguido do sintoma. 2) Usar 'أنا' + adjetivo para descrever estado (ex: أنا مريض). 3) O adjetivo concorda em gênero: مريض (masculino) / مريضة (feminino). 4) Para localizar a dor, use 'في' + parte do corpo com artigo definido (الرأس, البطن). 5) Perguntas com 'ما عندك؟' (mā ʿindak?) para 'o que você tem?'. Exceções: alguns sintomas têm formas fixas, por exemplo 'حرارة' (ḥarāra) para febre, 'زكام' (zukām) para resfriado. Use 'عندي' + substantivo (عندي حرارة).",
+    "concept_examples": [
+      {
+        "text": "أنا مريض.",
+        "translation": "Eu estou doente.",
+        "phonetic": "ʔana marīḍ"
+      },
+      {
+        "text": "عندي صداع.",
+        "translation": "Eu tenho dor de cabeça.",
+        "phonetic": "ʿindī ṣudāʿ"
+      },
+      {
+        "text": "أشعر بألم في بطني.",
+        "translation": "Eu sinto dor no meu estômago.",
+        "phonetic": "ʔašʿuru bi-ʾalam fī baṭnī"
+      },
+      {
+        "text": "هل عندك حرارة؟",
+        "translation": "Você tem febre?",
+        "phonetic": "hal ʿindak ḥarāra?"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا أكون مريض (Ana akūn marīḍ) - literalmente 'eu ser doente', tentando usar o verbo ser como em português.",
+      "correct": "أنا مريض (Ana marīḍ)",
+      "correct_alt": "عندي مرض (ʿindī maraḍ) - 'eu tenho doença' (mais coloquial)",
+      "explanation": "Falantes de português costumam incluir um verbo 'ser/estar' explícito em árabe, mas em frases nominais (sem verbo) o verbo é omitido. A frase 'أنا مريض' já é completa. Outro erro comum é usar 'عندي' com o verbo 'أشعر' (sentir) desnecessariamente. Para dor, use 'عندي' ou 'أشعر بألم في' + parte do corpo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "وصف الأعراض",
+        "translation": "Descrever sintomas",
+        "examples": [
+          {
+            "original": "عندي سعال.",
+            "phonetic": "ʿindī suʿāl",
+            "translation": "Eu tenho tosse.",
+            "note": "Use 'عندي' para posse de sintomas, como 'ter' em português."
+          },
+          {
+            "original": "أنا متعب.",
+            "phonetic": "ʔana mutʿab",
+            "translation": "Eu estou cansado.",
+            "note": "Adjetivo no masculino; para feminino: متعبة (mutʿaba)."
+          },
+          {
+            "original": "عندي زكام.",
+            "phonetic": "ʿindī zukām",
+            "translation": "Estou resfriado.",
+            "note": "Zukām é um substantivo fixo para resfriado."
+          },
+          {
+            "original": "أشعر بدوار.",
+            "phonetic": "ʔašʿuru bi-dawār",
+            "translation": "Eu sinto tontura.",
+            "note": "Use a expressão 'أشعر بـ' (sentir) para sensações."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "أجزاء الجسم",
+        "translation": "Partes do corpo",
+        "examples": [
+          {
+            "original": "رأسي يؤلمني.",
+            "phonetic": "raʾsī yuʾlimunī",
+            "translation": "Minha cabeça dói.",
+            "note": "Em árabe, também se pode dizer literalmente 'a minha cabeça está me doendo'."
+          },
+          {
+            "original": "عندي ألم في حلقي.",
+            "phonetic": "ʿindī ʾalam fī ḥalqī",
+            "translation": "Eu tenho dor de garganta.",
+            "note": "Use 'في' para localizar a dor."
+          },
+          {
+            "original": "بطني تؤلمني.",
+            "phonetic": "baṭnī tuʾlimunī",
+            "translation": "Minha barriga dói.",
+            "note": "Note que o verbo 'آلم' concorda com o sujeito (parte do corpo)."
+          },
+          {
+            "original": "ظهري يؤلمني.",
+            "phonetic": "ẓahrī yuʾlimunī",
+            "translation": "Minhas costas doem.",
+            "note": "Costas em árabe é singular (ẓahr) mas pode ser usado de forma similar."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "التحدث مع الطبيب",
+        "translation": "Falando com o médico",
+        "examples": [
+          {
+            "original": "كم عندك حرارة؟",
+            "phonetic": "kam ʿindak ḥarāra?",
+            "translation": "Quanto de febre você tem?",
+            "note": "Use 'كم' para perguntar quantidade ou medida."
+          },
+          {
+            "original": "منذ متى وأنت مريض؟",
+            "phonetic": "munḏu matā wa-ʾanta marīḍ?",
+            "translation": "Há quanto tempo você está doente?",
+            "note": "Expressão temporal: 'منذ متى' (desde quando)."
+          },
+          {
+            "original": "أنا آسف، لا أستطيع أن آتي اليوم.",
+            "phonetic": "ʔana ʾāsif, lā ʾastaṭīʿ ʾan ʾātī al-yawm",
+            "translation": "Sinto muito, não posso vir hoje.",
+            "note": "Use para justificar a consulta."
+          },
+          {
+            "original": "هل يمكن أن تحجز لي موعد؟",
+            "phonetic": "hal yumkin ʾan taḥjiz lī mawʿid?",
+            "translation": "Você pode marcar uma consulta para mim?",
+            "note": "Verbo 'حجز' significa marcar/reservar."
+          }
+        ]
+      }
+    ],
+    "emoji": "🩺",
+    "phonetic": "",
+    "translations": {
+      "pt": "No médico"
+    }
+  },
+  {
+    "id": "pt_A2_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "حجز مكان إقامة / Reservar alojamiento",
+    "bridge": "Em português, usamos estruturas como 'eu queria reservar' ou 'tem algum quarto livre?'. No árabe, a construção é diferente: usa-se frequentemente o presente do verbo 'querer' (أُريدُ) ou expressões como 'هل يوجد؟' (há?). Cuidado com a ordem das palavras e com o uso de preposições como 'في' (em) que nem sempre correspondem diretamente ao português. Além disso, o árabe tem formas de tratamento formais que mudam as terminações verbais, algo que não existe em português da mesma maneira.",
+    "rule": "Para reservar alojamento em árabe (nível A2), você pode usar:\n\n1. Verbo 'querer' no presente: أُريدُ (urīdu) + substantivo (ex: أُريدُ غُرْفَة - quero um quarto).\n2. Perguntas com 'هل' (hal) para sim/não: هل عِنْدَكُمْ غُرْفَةٌ؟ (Vocês têm um quarto?)\n3. Para pedir informações: كَمْ ثَمَنُ اللَّيْلَةِ؟ (Quanto custa a noite?).\n4. Concordância de gênero: os adjetivos e numerais devem concordar com o substantivo (ex: غُرْفَةٌ واحِدَة - um quarto, com 'واحدة' no feminino).\n5. Uso do genitivo (idafa) para expressar 'quarto de casal': غُرْفَةٌ لِشَخْصَيْنِ (literalmente 'quarto para duas pessoas').\n\nAtenção: a forma de tratamento 'vocês' (عندكم) é usada para formal e plural; para uma pessoa, use عِنْدَكَ (masculino) ou عِنْدَكِ (feminino).",
+    "concept_examples": [
+      {
+        "text": "أُريدُ حَجْزَ غُرْفَةٍ",
+        "translation": "Quero reservar um quarto.",
+        "phonetic": "ʾurīdu ḥajza ġurfat-in"
+      },
+      {
+        "text": "هَلْ عِنْدَكُمْ غُرْفَةٌ مُتَفَرِّدَةٌ؟",
+        "translation": "Vocês têm um quarto individual?",
+        "phonetic": "hal ʿindakum ġurfatun mutafarridatun?"
+      },
+      {
+        "text": "كَمْ ثَمَنُ اللَّيْلَةِ؟",
+        "translation": "Quanto custa a noite?",
+        "phonetic": "kam ṯamanu al-laylati?"
+      },
+      {
+        "text": "أُرِيدُ غُرْفَةً لِشَخْصَيْنِ",
+        "translation": "Quero um quarto para duas pessoas.",
+        "phonetic": "ʾurīdu ġurfatan li-šakhṣayni"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا أريد غرفة واحد",
+      "correct": "أُريدُ غُرْفَةً واحِدَةً",
+      "correct_alt": "أُرِيدُ غُرْفَةً وَاحِدَةً",
+      "explanation": "O erro comum é não concordar o numeral com o gênero do substantivo. Em árabe, 'um/uma' tem forma feminina (واحِدَة) para substantivos femininos como 'غرفة' (quarto). Em português, 'um' é invariável em gênero para 'um quarto', mas em árabe é necessário usar a forma feminina. Além disso, o verbo 'querer' já indica a pessoa, então o pronome 'أنا' (eu) é redundante em contextos normais."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "طلب غرفة",
+        "translation": "Pedir um quarto",
+        "examples": [
+          {
+            "original": "أُريدُ غُرْفَةً",
+            "phonetic": "ʾurīdu ġurfatan",
+            "translation": "Quero um quarto.",
+            "note": "Forma simples e direta. Note que 'غرفة' está no acusativo (com tanwin -an) porque é objeto do verbo."
+          },
+          {
+            "original": "هَلْ توجَدُ غُرْفَةٌ؟",
+            "phonetic": "hal tūǧadu ġurfah?",
+            "translation": "Existe um quarto?",
+            "note": "Uso de 'هل' para pergunta sim/não. O verbo 'existir' concorda com o sujeito."
+          },
+          {
+            "original": "أُرِيدُ غُرْفَةً لَيلَةً وَاحِدَةً",
+            "phonetic": "ʾurīdu ġurfatan laylatan wāḥidah",
+            "translation": "Quero um quarto por uma noite.",
+            "note": "Aqui 'ليلة' está no acusativo de tempo; note a concordância de 'واحدة'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "السؤال عن السعر",
+        "translation": "Perguntar sobre o preço",
+        "examples": [
+          {
+            "original": "كَمْ ثَمَنُ اللَّيْلَةِ؟",
+            "phonetic": "kam ṯamanu al-laylati?",
+            "translation": "Quanto custa a noite?",
+            "note": "Literalmente: 'Quanto o preço da noite?' – use a construção possessiva (idafa)."
+          },
+          {
+            "original": "هَلْ السِّعْرُ يَشْمَلُ الفُطورَ؟",
+            "phonetic": "hal as-siʿru yašmalu al-fuṭūr?",
+            "translation": "O preço inclui café da manhã?",
+            "note": "Verbo 'incluir' seguido de objeto direto. Lembre-se de que 'الفطور' é definido."
+          },
+          {
+            "original": "كَمْ سَعرُ الغُرْفَةِ لِثَلاثِ لَيالٍ؟",
+            "phonetic": "kam siʿru al-ġurfati li-ṯalāṯi layālin?",
+            "translation": "Quanto custa o quarto para três noites?",
+            "note": "Uso de 'لـ' (para) com plural de 'ليلة' (noites)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "حجوزات إضافية",
+        "translation": "Reservas adicionais",
+        "examples": [
+          {
+            "original": "هَلْ يوجَدُ مَوْقِفٌ لِلسَّيَّارَةِ؟",
+            "phonetic": "hal yūǧadu mawqifun lil-sayyārat?",
+            "translation": "Há estacionamento para o carro?",
+            "note": "Verbo 'existir' no masculino singular (يوجد) mesmo que o sujeito seja masculino."
+          },
+          {
+            "original": "أُرِيدُ إِلْغاءَ الحَجْزِ",
+            "phonetic": "ʾurīdu ʾilġāʾa al-ḥajzi",
+            "translation": "Quero cancelar a reserva.",
+            "note": "Use o infinitivo (مصدر) como objeto: 'cancelar' é إلغاء."
+          },
+          {
+            "original": "هَلْ يُمْكِنُ تَأْجيلُ الحَجْزِ؟",
+            "phonetic": "hal yumkinu taʾjīlu al-ḥajzi?",
+            "translation": "É possível adiar a reserva?",
+            "note": "Expressão 'يمكن' (é possível) seguida de infinitivo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "pt": "Reservar alojamento"
+    }
+  },
+  {
+    "id": "pt_A2_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "في البنك أو مكتب الصرافة / No banco ou casa de câmbio",
+    "bridge": "Em árabe, as perguntas de cortesia e as formas de pedir informações são diferentes do português. Enquanto em português usamos 'por favor' e 'poderia', em árabe usa-se 'min fadlik' (من فضلك) e o verbo no imperativo. Cuidado com a construção 'kam' (كم) para perguntar quantidades, que é semelhante ao 'quanto' português, mas exige a palavra no singular. Além disso, os números em árabe têm gênero, o que pode causar confusão.",
+    "rule": "Para pedir algo educadamente, use 'min fadlik' (من فضلك) no final ou início da frase. Para perguntar 'quanto custa', diga 'kam' (كم) + substantivo singular definido. Os numerais de 3 a 10 em árabe têm regras de gênero: o numeral concorda com o gênero do substantivo (ex: 'thalaathatu' (ثلاثة) para masculino, 'thalaathu' (ثلاث) para feminino). Para câmbio, usamos o verbo 'sarrafa' (صرّف) no passado ou presente. Não se esqueça de que em árabe as frases nominais não usam o verbo 'ser' no presente.",
+    "concept_examples": [
+      {
+        "text": "أريدُ أن أصرِفَ دولارات.",
+        "translation": "Quero trocar dólares.",
+        "phonetic": "ʔuriidu ʔan ʔusˤarrifa duulaaraat."
+      },
+      {
+        "text": "كم سعر الصرف اليوم؟",
+        "translation": "Qual é a taxa de câmbio hoje?",
+        "phonetic": "kam siʕru ṣ-ṣarfi al-yawm?"
+      },
+      {
+        "text": "هل تقبلون بطاقة الائتمان؟",
+        "translation": "Vocês aceitam cartão de crédito?",
+        "phonetic": "hal taqbaluun biṭaaqat al-ʔiʕtimaad?"
+      },
+      {
+        "text": "أريدُ تغييرَ خمسين يورو.",
+        "translation": "Quero trocar cinquenta euros.",
+        "phonetic": "ʔuriidu taɣyiiri xamsiina yuuruu."
+      }
+    ],
+    "common_error": {
+      "wrong": "كم سعر الصرف؟ أريد صرف دولار.",
+      "correct": "كم سعر الصرف اليوم؟ أريد أن أصرِفَ دولارات.",
+      "correct_alt": "كم سعر الصرف؟ أريد صرف دولارات.",
+      "explanation": "O erro mais comum é omitir a partícula 'an' (أن) antes do verbo subjuntivo e usar o singular em vez do plural. Em árabe, depois de 'arada' (أراد) + 'an' (أن), o verbo deve estar no subjuntivo. Além disso, 'dólares' é plural, não singular. Outra opção é usar o substantivo verbal 'sarf' (صرف) sem 'an', como na alternativa correta."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "طلبات بسيطة",
+        "translation": "Pedidos simples",
+        "examples": [
+          {
+            "original": "أريد صرف نقود.",
+            "phonetic": "ʔuriidu ṣarfa nuquud.",
+            "translation": "Quero trocar dinheiro.",
+            "note": "Use 'sarf' (صرف) como substantivo para troca."
+          },
+          {
+            "original": "هل يمكنني فتح حساب؟",
+            "phonetic": "hal yumkinunii fatḥ ḥisaab?",
+            "translation": "Posso abrir uma conta?",
+            "note": "A estrutura 'hal yumkinunii' corresponde a 'posso'."
+          },
+          {
+            "original": "أحتاج إلى مساعدة.",
+            "phonetic": "ʔaḥtaaju ʔilaa musaaʕadah.",
+            "translation": "Preciso de ajuda.",
+            "note": "'ihtaja ʔilaa' é usado para expressar necessidade."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "السؤال عن الأسعار",
+        "translation": "Perguntar sobre preços e taxas",
+        "examples": [
+          {
+            "original": "كم رسوم التحويل؟",
+            "phonetic": "kam rusuum at-taḥwiil?",
+            "translation": "Quais são as taxas de transferência?",
+            "note": "'kam' (كم) é invariável e seguido de substantivo definido."
+          },
+          {
+            "original": "هل سعر الصرف ثابت؟",
+            "phonetic": "hal siʕru ṣ-ṣarfi ṯaabit?",
+            "translation": "A taxa de câmbio é fixa?",
+            "note": "Em árabe, a frase nominal não usa 'ser' no presente: 'سعر الصرف ثابت'."
+          },
+          {
+            "original": "كم تبلغ عمولة التحويل؟",
+            "phonetic": "kam tabluɣu ʕumuułat at-taḥwiil?",
+            "translation": "Quanto é a comissão de transferência?",
+            "note": "O verbo 'balagha' (بلغ) é usado para alcançar um valor."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "إتمام العملية",
+        "translation": "Concluindo a transação",
+        "examples": [
+          {
+            "original": "أريد أن أوقّع هنا.",
+            "phonetic": "ʔuriidu ʔan ʔuwaqqiʕ huna.",
+            "translation": "Quero assinar aqui.",
+            "note": "Use 'an' + subjuntivo após 'arada'."
+          },
+          {
+            "original": "هل يمكنني أن أحصل على إيصال؟",
+            "phonetic": "hal yumkinunii ʔan ʔaḥṣula ʕalaa ʔiiṣaal?",
+            "translation": "Posso receber um recibo?",
+            "note": "A expressão 'ḥaṣala ʕalaa' significa 'obter'."
+          },
+          {
+            "original": "اشكرك على مساعدتك.",
+            "phonetic": "ʔaškuruka ʕalaa musaaʕadatik.",
+            "translation": "Agradeço pela sua ajuda.",
+            "note": "O verbo 'šakara' é agradecer, seguido de 'ʕalaa'."
+          }
+        ]
+      }
+    ],
+    "emoji": "💱",
+    "phonetic": "",
+    "translations": {
+      "pt": "No banco ou casa de câmbio"
+    }
+  },
+  {
+    "id": "pt_A2_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "أساسيات مقابلة العمل / Fundamentos da entrevista de emprego",
+    "bridge": "Em português, você usa verbos como 'ser' e 'ter' para se apresentar e falar de experiências. No árabe, a estrutura é diferente: o verbo 'ser' no presente é omitido (frases nominais), e você usa preposições + substantivos para expressar posse. Além disso, o árabe tem dual e plural, e os adjetivos concordam em gênero e número. Cuidado com a pronúncia de consoantes como ع (ayn) e h (هـ) - elas são essenciais para não confundir palavras. Aprender frases prontas para entrevistas ajuda a evitar erros comuns.",
+    "rule": "Para uma entrevista de trabalho em árabe (A2), foque em: 1) Saudações formais: 'السلام عليكم' (as-salāmu ʿalaykum) - que significa 'que a paz esteja com você'. 2) Apresentação pessoal: use 'أنا' (anā) + nome, e para profissão: 'أنا مُهندِس' (anā muhandis) - note que o verbo 'ser' não é usado no presente. 3) Para falar de experiência: use 'عندي' (ʿindī) que significa 'eu tenho' (literalmente: 'comigo'), ou 'لدي' (ladayya). Ex: 'عندي خبرة سنتين' (ʿindī khibra sanatayn) - 'eu tenho dois anos de experiência'. 4) Perguntas comuns: 'ما هي خبرتك؟' (mā hiya khibratuk?) - 'qual é a sua experiência?'. Lembre-se: adjetivos concordam em gênero (ex: 'خبرة كبيرة' - khibra kabīra, pois 'خبرة' é feminino). Para futuro, use 'سوف' (sawfa) ou prefixo 'سـ' (sa-). Ex: 'سأعمل بجد' (saʾaʿmalu bijidd).",
+    "concept_examples": [
+      {
+        "text": "أنا اسمي أحمد، وأنا مهندس.",
+        "translation": "Meu nome é Ahmed, e eu sou engenheiro.",
+        "phonetic": "ʔanā ismī ʾaḥmad, wa-ʔanā muhandis."
+      },
+      {
+        "text": "عندي خبرة سنتين في شركة كبيرة.",
+        "translation": "Eu tenho dois anos de experiência em uma empresa grande.",
+        "phonetic": "ʿindī khibra sanatayn fī šarika kabīra."
+      },
+      {
+        "text": "أنا أبحث عن عمل في مجال التسويق.",
+        "translation": "Eu procuro emprego na área de marketing.",
+        "phonetic": "ʔanā ʾabḥathu ʿan ʿamal fī majāl at-taswīq."
+      },
+      {
+        "text": "ما هي نقاط قوتك؟",
+        "translation": "Quais são os seus pontos fortes?",
+        "phonetic": "mā hiya nuqaṭ quwwatik?"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا مهندس هو أنا في شركة كبيرة.",
+      "correct": "أنا مهندس في شركة كبيرة.",
+      "correct_alt": "أعمل مهندسًا في شركة كبيرة.",
+      "explanation": "O erro ocorre porque em português tendemos a usar 'eu sou' e 'eu tenho' em sequência. No árabe, a frase nominal (أنا مهندس) já inclui o 'ser', e a preposição 'في' já estabelece a relação de lugar. Não se deve adicionar 'هو' (ele) ou repetir 'أنا' desnecessariamente. Para evitar, construa frases curtas: sujeito + predicado (substantivo/adjetivo) + complemento com preposição."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "التعريف بالنفس",
+        "translation": "Apresentar-se",
+        "examples": [
+          {
+            "original": "أنا اسمي محمد.",
+            "phonetic": "ʔanā ismī muḥammad.",
+            "translation": "Meu nome é Mohammed.",
+            "note": "Use 'أنا اسمي' (anā ismī) - literalmente 'eu meu nome' - é a forma padrão."
+          },
+          {
+            "original": "أنا أعمل في شركة صغيرة.",
+            "phonetic": "ʔanā ʾaʿmalu fī šarika ṣaġīra.",
+            "translation": "Eu trabalho em uma empresa pequena.",
+            "note": "Verbo 'أعمل' (ʾaʿmalu) - eu trabalho. Note a concordância de gênero em 'صغيرة' (pequena)."
+          },
+          {
+            "original": "تخرجت من الجامعة.",
+            "phonetic": "tajarrajtu min al-jāmiʿa.",
+            "translation": "Eu me formei na universidade.",
+            "note": "Verbo no passado: 'تخرجت' (tajarrajtu) - eu me formei."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الحديث عن الخبرة والمهارات",
+        "translation": "Falar sobre experiência e habilidades",
+        "examples": [
+          {
+            "original": "عندي خبرة ثلاث سنوات في المبيعات.",
+            "phonetic": "ʿindī khibra thalāth sanawāt fī al-mabīʿāt.",
+            "translation": "Tenho três anos de experiência em vendas.",
+            "note": "Use 'عندي' (ʿindī) para 'ter'. Lembre-se que após números 3-10, o substantivo fica no plural."
+          },
+          {
+            "original": "أجيد استخدام الحاسوب.",
+            "phonetic": "ʾujīdu istikhdām al-ḥāsūb.",
+            "translation": "Sou bom em usar o computador.",
+            "note": "O verbo 'أجيد' (ʾujīdu) - eu domino/sou bom em."
+          },
+          {
+            "original": "لدي شهادة في الإدارة.",
+            "phonetic": "ladayya šahāda fī al-ʾidāra.",
+            "translation": "Tenho um certificado em administração.",
+            "note": "Outra forma de 'ter': 'لدي' (ladayya) - é mais formal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "التعبير عن الأهداف والطموح",
+        "translation": "Expressar objetivos e ambições",
+        "examples": [
+          {
+            "original": "أريد أن أطور مهاراتي.",
+            "phonetic": "ʾurīdu ʾan ʾuṭawwira mahārātī.",
+            "translation": "Quero desenvolver minhas habilidades.",
+            "note": "Estrutura: أريد أن + verbo no subjuntivo (أطور)."
+          },
+          {
+            "original": "سأعمل بجد لتحقيق أهدافي.",
+            "phonetic": "sa-ʾaʿmalu bijidd li-taḥqīq ʾahdāfī.",
+            "translation": "Trabalharei duro para alcançar meus objetivos.",
+            "note": "Futuro com 'سـ' (sa-) + verbo no presente."
+          },
+          {
+            "original": "أطمح إلى منصب أعلى.",
+            "phonetic": "ʾaṭmaḥu ʾilā manṣib ʾaʿlā.",
+            "translation": "Aspiro a uma posição mais alta.",
+            "note": "Verbo 'أطمح' (ʾaṭmaḥu) - aspirar, seguido de 'إلى' (para)."
+          }
+        ]
+      }
+    ],
+    "emoji": "💼",
+    "phonetic": "",
+    "translations": {
+      "pt": "Entrevista de trabalho básica"
+    }
+  },
+  {
+    "id": "pt_A2_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "في مكتب البريد / No correio",
+    "bridge": "Em português, usamos verbos como 'enviar', 'receber' e 'comprar' de forma direta, mas em árabe, as expressões para serviços postais frequentemente usam construções com 'عندي' (eu tenho) ou 'أريد' (eu quero). Além disso, ao falar de 'para' (destinatário), o árabe usa a preposição 'إلى' (ila) que pode ser confundida com 'على' (ala). Preste atenção também à diferença entre 'طابع' (selo) e 'بريد' (correio), que são falsos cognatos com o português.",
+    "rule": "Para A2, foque em frases básicas para comprar selos, enviar cartas e encomendas. Use 'أريد' (uridu) para 'eu quero', seguido do substantivo. Para dizer 'para' (destino), use 'إلى' (ila). Os números ordinais (primeiro, segundo) são usados com meses, mas para pesos use 'كيلو' (kilo). O plural de 'طابع' (selo) é 'طوابع' (tawabiʿ). A estrutura típica é: Sujeito (opcional) + Verbo + Objeto. Exemplos: 'أريد طابعًا' (quero um selo), 'أرسل رسالة' (envio uma carta). Não se esqueça das terminações de caso (nominativo, acusativo, genitivo) que afetam a terminação do substantivo (ex: 'طابعًا' com tanwin acusativo).",
+    "concept_examples": [
+      {
+        "text": "أريد طابعًا واحدًا.",
+        "translation": "Eu quero um selo.",
+        "phonetic": "ʾurīdu ṭābiʿan wāḥidan"
+      },
+      {
+        "text": "أرسل رسالة إلى البرتغال.",
+        "translation": "Eu envio uma carta para Portugal.",
+        "phonetic": "ʾursilu risālatan ʾilā l-burtuġāl"
+      },
+      {
+        "text": "كم سعر الطوابع؟",
+        "translation": "Quanto custam os selos?",
+        "phonetic": "kam siʿru ṭ-ṭawābiʿ?"
+      }
+    ],
+    "common_error": {
+      "wrong": "أريد طابع إلى البرتغال.",
+      "correct": "أريد طابعًا إلى البرتغال.",
+      "correct_alt": "أريد طابعًا لأرسله إلى البرتغال.",
+      "explanation": "Em árabe, quando se pede um objeto específico, o substantivo deve estar no caso acusativo com tanwin (مفعول به). 'طابع' (tābiʿ) sem a terminação -an é nominativo, que é comum em frases nominais. Aqui, como é o objeto do verbo 'أريد' (quero), precisa de -an. Além disso, a preposição 'إلى' (ila) já indica direção, então não é necessário usar outra preposição. Evite a tradução literal do português 'para' que pode levar a usar 'لـ' (li) no lugar errado."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "شراء الطوابع",
+        "translation": "Comprar selos",
+        "examples": [
+          {
+            "original": "هل لديك طوابع؟",
+            "phonetic": "hal ladayka ṭawābiʿ?",
+            "translation": "Você tem selos?",
+            "note": "Use 'هل' para perguntas sim/não. 'لديك' (ladayka) indica posse, usado com 'عند' para 'ter'."
+          },
+          {
+            "original": "أريد ثلاث طوابع.",
+            "phonetic": "ʾurīdu ṯalāṯa ṭawābiʿ.",
+            "translation": "Quero três selos.",
+            "note": "O número 3 (ثلاث) concorda em gênero com o substantivo (طوابع é plural masculino, então usamos ثلاث, não ثلاثة)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "إرسال الرسائل والطرود",
+        "translation": "Enviar cartas e encomendas",
+        "examples": [
+          {
+            "original": "أريد أن أرسل طردًا.",
+            "phonetic": "ʾurīdu ʾan ʾursila ṭardan.",
+            "translation": "Eu quero enviar uma encomenda.",
+            "note": "Use 'أن' + subjuntivo para expressar 'quero fazer'. 'طرد' (ṭard) significa encomenda, mas cuidado com falso amigo: 'paco' em português tem outro significado."
+          },
+          {
+            "original": "إلى أين تريد أن ترسل؟",
+            "phonetic": "ʾilā ʾayna turīdu ʾan tursila?",
+            "translation": "Para onde você quer enviar?",
+            "note": "A preposição 'إلى' + 'أين' (onde) é usada para perguntar destino, semelhante a 'para onde'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "الاستفسار عن الأسعار والمدة",
+        "translation": "Perguntar sobre preços e prazos",
+        "examples": [
+          {
+            "original": "كم يكلف هذا؟",
+            "phonetic": "kam yukallifu hāḏā?",
+            "translation": "Quanto custa isso?",
+            "note": "Use 'كم' (kam) para perguntar quantidade/preço, seguido do verbo 'يكلف' (custar)."
+          },
+          {
+            "original": "كم يستغرق وصول الرسالة؟",
+            "phonetic": "kam yastaġriqu wuṣūlu r-risālah?",
+            "translation": "Quanto tempo leva para a carta chegar?",
+            "note": "O verbo 'يستغرق' (demorar) é usado com 'كم' para perguntar duração. 'وصول' (chegada) é um substantivo verbal."
+          }
+        ]
+      }
+    ],
+    "emoji": "📮",
+    "phonetic": "",
+    "translations": {
+      "pt": "No correio"
+    }
+  },
+  {
+    "id": "pt_A2_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "استئجار شقة / Alugar um apartamento",
+    "bridge": "Em árabe, a estrutura das frases sobre aluguel é semelhante ao português, mas há diferenças importantes: o verbo 'alugar' é 'أُجِّرَ' (no passado) ou 'يُؤَجِّرُ' (no presente), e o objeto direto vem depois do verbo, sem preposição. Cuidado com o uso do artigo definido 'ال' que é obrigatório em nomes de lugares específicos, como 'الشقة' (o apartamento). Além disso, em árabe, a preposição 'في' (em) é usada para indicar localização, mas não para o custo do aluguel – para isso, usa-se 'بـ' (por/com), o que pode confundir falantes de português que diriam 'por 500 euros'.",
+    "rule": "Para falar de aluguel em árabe no nível A2, use o verbo 'أجَّرَ' (alugar, na forma triliteral com intensificação) ou 'استأجر' (alugar para si, forma VIII) – ambos são comuns, mas 'استأجر' é mais usado quando o sujeito é o inquilino. A estrutura básica é: [sujeito] + [verbo no passado/presente] + [objeto direto (o imóvel)] + [complementos]. Exemplos: 'أنا أستأجر شقة' (Eu alugo um apartamento), 'هو يبحث عن شقة' (Ele procura um apartamento). O aluguel mensal é expresso com 'بـ' + valor + 'في الشهر' (por mês), ex: 'الشقة بـ 500 دولار في الشهر' (O apartamento por 500 dólares por mês). Para perguntar o preço: 'كم الإيجار؟' (Quanto é o aluguel?) – note que 'إيجار' significa aluguel (substantivo). Cuidado com a concordância de gênero: 'شقة' (apartamento) é feminino, então adjetivos e verbos no passado devem concordar, ex: 'الشقة كبيرة' (O apartamento é grande). Use 'هذه' (esta/esta) para indicar proximidade e 'تلك' (aquela) para distância. Para descrever características, use adjetivos como 'جديدة' (novo), 'قديمة' (velho), 'قريبة من' (perto de), 'بعيدة عن' (longe de).",
+    "concept_examples": [
+      {
+        "text": "أنا أستأجر شقة قريبة من الجامعة.",
+        "translation": "Eu alugo um apartamento perto da universidade.",
+        "phonetic": "ʔana ʔastaʔdʒiru ʃaqqah qarībah min al-ʒāmiʕah."
+      },
+      {
+        "text": "كم الإيجار في الشهر؟",
+        "translation": "Quanto é o aluguel por mês?",
+        "phonetic": "kam al-ʔiːdʒaːr fī aʃ-ʃahr?"
+      },
+      {
+        "text": "هل يمكنني رؤية الشقة؟",
+        "translation": "Posso ver o apartamento?",
+        "phonetic": "hal jumkinunī ruʔjat aʃ-ʃaqqah?"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا أريد شقة بجوار مترو.",
+      "correct": "أنا أريد شقة قريبة من المترو.",
+      "correct_alt": "أبحث عن شقة قريبة من المترو.",
+      "explanation": "O erro comum é usar 'بجوار' (ao lado de) em vez de 'قريبة من' (perto de), porque em português dizemos 'perto do metrô', mas em árabe, 'بجوار' é mais específico para 'ao lado de' e não é natural para 'perto'. Além disso, falta o artigo definido em 'مترو' – em árabe, lugares públicos geralmente usam artigo definido quando especificados. A forma mais natural é usar 'قريبة من' + artigo definido. Lembre-se: 'قريب' (perto) é adjetivo e deve concordar com o substantivo (شقة é feminino, então 'قريبة').",
+      "correct_alt_translation": "Eu procuro um apartamento perto do metrô."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "السؤال عن الشقة",
+        "translation": "Perguntar sobre o apartamento",
+        "examples": [
+          {
+            "original": "هل هذه الشقة مفروشة؟",
+            "phonetic": "hal haːdihi aʃ-ʃaqqah mafruːʃah?",
+            "translation": "Este apartamento é mobilhado?",
+            "note": "Use 'هل' para perguntas sim/não. 'مفروشة' significa mobilhado, feminino."
+          },
+          {
+            "original": "كم عدد الغرف؟",
+            "phonetic": "kam ʕadad al-ɣuraf?",
+            "translation": "Quantos quartos tem?",
+            "note": "'كم' é usado para perguntar quantidade, seguido de substantivo singular indefinido."
+          },
+          {
+            "original": "هل يوجد مطبخ؟",
+            "phonetic": "hal juːdʒad matˤbax?",
+            "translation": "Tem cozinha?",
+            "note": "'يوجد' (existe) é usado para indicar presença, comum em descrições."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "التفاوض على السعر",
+        "translation": "Negociar o preço",
+        "examples": [
+          {
+            "original": "هل يمكن أن يقلل الإيجار؟",
+            "phonetic": "hal jumkin ʔan juqallil al-ʔiːdʒaːr?",
+            "translation": "Pode reduzir o aluguel?",
+            "note": "O verbo 'يقلل' (reduzir) é derivado da forma II. Use 'هل يمكن' para pedir permissão."
+          },
+          {
+            "original": "الإيجار شامل للماء والكهرباء؟",
+            "phonetic": "al-ʔiːdʒaːr ʃaːmil lil-maːʔ wa-l-kahrabaːʔ?",
+            "translation": "O aluguel inclui água e eletricidade?",
+            "note": "'شامل' significa incluído, concorda com الإيجار (masculino). Lembre-se de usar 'لـ' para 'inclui'."
+          },
+          {
+            "original": "سأدفع 300 دولار شهرياً.",
+            "phonetic": "sa-ʔadfaʕ 300 duːlaːr ʃahriyyan.",
+            "translation": "Vou pagar 300 dólares por mês.",
+            "note": "Use 'سـ' para futuro próximo. 'شهرياً' é advérbio de tempo, vem depois do valor."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "توقيع العقد",
+        "translation": "Assinar o contrato",
+        "examples": [
+          {
+            "original": "أريد عقد إيجار لمدة سنة.",
+            "phonetic": "ʔuriːd ʕaqd ʔiːdʒaːr limuddat sanah.",
+            "translation": "Quero um contrato de aluguel por um ano.",
+            "note": "Para duração, use 'لمدة' (por um período de). 'سنة' significa ano."
+          },
+          {
+            "original": "هل يوجد عقد رسمي؟",
+            "phonetic": "hal juːdʒad ʕaqd rasmiy?",
+            "translation": "Existe um contrato oficial?",
+            "note": "'رسمي' significa oficial, importante para contratos. Note a posição do adjetivo após o substantivo."
+          },
+          {
+            "original": "أدفع دفعة أولى مقدارها 500 دولار.",
+            "phonetic": "ʔadfaʕ dafʕah ʔuːlaː miqdaːruhaː 500 duːlaːr.",
+            "translation": "Pago uma entrada de 500 dólares.",
+            "note": "'دفعة أولى' significa pagamento inicial. 'مقدارها' concorda com 'دفعة' (feminino)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "pt": "Alugar um apartamento"
+    }
+  },
+  {
+    "id": "pt_A2_conv_07",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "في الحفلة / Na festa",
+    "bridge": "Em português, usamos 'você' ou 'tu' para nos dirigirmos a alguém, mas em árabe há uma distinção clara entre masculino e feminino nos verbos e pronomes. Além disso, em árabe, não existe o verbo 'estar' no presente; usamos frases nominais (sem verbo) para descrever estados e situações. Cuidado com a concordância de gênero, que é mais rígida que em português.",
+    "rule": "Em árabe, para expressar 'estar' no presente, simplesmente colocamos o sujeito seguido do predicado, sem verbo. Por exemplo, 'أنا في الحفلة' (ana fi al-hafla) significa literalmente 'Eu na festa'. Para perguntar 'Como você está?', usamos 'كيف حالك؟' (kayfa haluka) para homem e 'كيف حالك؟' (kayfa haluki) para mulher, com terminações diferentes. Os verbos no presente para 'ser/estar' são implícitos, mas quando usamos verbos de ação, eles são conjugados conforme o gênero: 'أشرب' (ashrabu) para 'eu bebo' (masculino) e 'أشرب' (ashrabu) também para 'eu bebo' (feminino, mas a pronúncia muda ligeiramente no coloquial). Para A2, foque em frases curtas como 'هذا صديقي' (hadha sadiqi) 'este é meu amigo' e em usar o masculino/feminino corretamente em adjetivos e verbos.",
+    "concept_examples": [
+      {
+        "text": "أنا في الحفلة الآن.",
+        "translation": "Eu estou na festa agora.",
+        "phonetic": "ʾanā fī al-ḥafla al-ʾān."
+      },
+      {
+        "text": "هذا صديقي أحمد.",
+        "translation": "Este é meu amigo Ahmed.",
+        "phonetic": "hāḏā ṣadīqī ʾaḥmad."
+      },
+      {
+        "text": "هل تريد أن تشرب شيئًا؟",
+        "translation": "Você quer beber algo?",
+        "phonetic": "hal turīd ʾan tašrab šayʾan?"
+      },
+      {
+        "text": "أتمنى لك وقتًا ممتعًا!",
+        "translation": "Desejo a você um bom divertimento!",
+        "phonetic": "ʾatamannā laka waqtan mumtiʿan!"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا أكون في الحفلة (ana akun fi al-hafla)",
+      "correct": "أنا في الحفلة (ana fi al-hafla)",
+      "correct_alt": "أنا موجود في الحفلة (ana mawjud fi al-hafla)",
+      "explanation": "O erro ocorre porque o aluno transfere o verbo 'estar' do português para o árabe, usando 'أكون' (akun) que é o subjuntivo/imperfeito de 'ser/estar'. No presente afirmativo, o árabe não usa verbo copulativo. Para dizer 'eu estou', simplesmente se diz 'أنا' seguido do local ou estado. A alternativa 'موجود' (mawjud) significa 'presente', mas não é necessário. Evite usar 'أكون' em frases afirmativas simples."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "تحيات وتهاني",
+        "translation": "Saudações e cumprimentos",
+        "examples": [
+          {
+            "original": "مرحبًا! كيف حالك؟",
+            "phonetic": "marḥaban! kayfa ḥāluka?",
+            "translation": "Olá! Como você está? (para homem)",
+            "note": "Lembre-se de mudar a terminação para 'ki' se for com uma mulher: kayfa ḥāluki."
+          },
+          {
+            "original": "أهلًا وسهلًا!",
+            "phonetic": "ʾahlan wa-sahlan!",
+            "translation": "Bem-vindo!",
+            "note": "Expressão comum em eventos sociais, significa literalmente 'família e facilidade'."
+          },
+          {
+            "original": "صباح الخير!",
+            "phonetic": "ṣabāḥ al-ḫayr!",
+            "translation": "Bom dia!",
+            "note": "Usado até o meio-dia, depois use 'مساء الخير' (masa' al-khayr) para boa tarde/noite."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "التعريف بالناس",
+        "translation": "Apresentando pessoas",
+        "examples": [
+          {
+            "original": "هذه أختي، ليلى.",
+            "phonetic": "hāḏihi ʾuḫtī, laylā.",
+            "translation": "Esta é minha irmã, Laila.",
+            "note": "Use 'هذه' (hāḏihi) para feminino e 'هذا' (hāḏā) para masculino."
+          },
+          {
+            "original": "تشرفنا بمعرفتك.",
+            "phonetic": "tašarrafnā bi-maʿrifatik.",
+            "translation": "Prazer em conhecê-lo (literalmente: ficamos honrados).",
+            "note": "É uma expressão formal, mas comum em festas. A terminação 'ka' é masculina."
+          },
+          {
+            "original": "من أين أنت؟",
+            "phonetic": "min ʾayna ʾanta?",
+            "translation": "De onde você é? (masculino)",
+            "note": "Para feminino, use 'anti' (أنتِ) com pronúncia diferente."
+          },
+          {
+            "original": "أنا من البرتغال.",
+            "phonetic": "ʾanā min al-burtuġāl.",
+            "translation": "Eu sou de Portugal.",
+            "note": "Note que 'البرتغال' é o nome do país em árabe."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "عروض وكلمات لطيفة",
+        "translation": "Oferecimentos e gentilezas",
+        "examples": [
+          {
+            "original": "تفضل، خذ كأسًا من العصير.",
+            "phonetic": "tafaḍḍal, ḫuḏ kaʾsan min al-ʿaṣīr.",
+            "translation": "Por favor, pegue um copo de suco.",
+            "note": "'تفضل' (tafaḍḍal) é usado para oferecer algo a um homem; para mulher, 'تفضلي' (tafaḍḍalī)."
+          },
+          {
+            "original": "شكرًا جزيلًا!",
+            "phonetic": "šukran jazīlan!",
+            "translation": "Muito obrigado!",
+            "note": "Esta é uma forma enfática de agradecer."
+          },
+          {
+            "original": "على الرحب والسعة.",
+            "phonetic": "ʿalā ar-raḥb wa-s-saʿa.",
+            "translation": "De nada (literalmente: com toda a hospitalidade).",
+            "note": "Resposta comum a 'obrigado'."
+          },
+          {
+            "original": "هل تسمح لي بالرقص؟",
+            "phonetic": "hal tasmaḥ lī bi-ar-raqṣ?",
+            "translation": "Você me permite dançar? (para homem)",
+            "note": "Para mulher, 'تسمحين' (tasmaḥīn). É uma forma educada de convidar para dançar."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎉",
+    "phonetic": "",
+    "translations": {
+      "pt": "Em uma festa ou evento social"
+    }
+  },
+  {
+    "id": "pt_A2_conv_08",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "الاعتذار والشكوى / Desculpar-se e reclamar",
+    "bridge": "Em português, usamos frequentemente o pretérito perfeito para reclamar ('Eu pedi para não colocar cebola, mas...') e o subjuntivo para suavizar pedidos, como 'queria que você...'. No árabe, a reclamação costuma ser expressa com o presente ou com a estrutura 'mumkin' para cortesia, e o verbo 'desculpar-se' ('سامحني' - samiḥnī) é intransitivo, diferente do português onde usamos 'desculpe-me' de forma reflexiva. Outra diferença crucial é que, em árabe, ao reclamar de um serviço, é comum usar a forma dual ou plural para incluir a pessoa com quem se fala, o que não tem equivalente direto no português.",
+    "rule": "Para reclamar em árabe no nível A2, use o padrão 'في مشكلة' (fī mushkila) + complemento, ou 'أنا منزعج من' (anā munzaʿij min) para expressar aborrecimento. O presente do verbo indicativo é usado com frequência: 'لا يعمل' (lā yaʿmal) = 'não funciona'. Para suavizar a reclamação, anteceda com 'عفواً' (ʿafwan) ou 'لو سمحت' (law samaḥt).\n\nPara pedir desculpas, use o verbo 'سامح' (sāmaḥa) no imperativo: 'سامحني' (sāmiḥnī) = 'desculpe-me'. Para desculpas formais, use 'أعتذر' (aʿtadhir). A resposta a um pedido de desculpas é frequentemente 'لا عليك' (lā ʿalayka) = 'não tem problema'.\n\nExceções: ao reclamar de algo que não funcionou, use o passado: 'ما اشتغل' (mā ishtaghal, na dialeto) ou 'لم يعمل' (lam yaʿmal) no árabe padrão. Cuidado com a concordância de gênero: se o sujeito é feminino, adicione '-a' ao verbo (ex: 'الغرفة ما كانت نظيفة' = o quarto não estava limpo).",
+    "concept_examples": [
+      {
+        "text": "أنا منزعج من الخدمة، كانت بطيئة جداً.",
+        "translation": "Estou chateado com o serviço, estava muito lento.",
+        "phonetic": "ʔanā munzaʿij min al-khidma, kānat baṭīʾa jiddan."
+      },
+      {
+        "text": "هناك مشكلة في الغرفة: الحمام لا يعمل.",
+        "translation": "Há um problema no quarto: o banheiro não funciona.",
+        "phonetic": "hunāk mushkila fī al-ghurfa: al-ḥammām lā yaʿmal."
+      },
+      {
+        "text": "سامحني إني تأخرت، آسف.",
+        "translation": "Me desculpe por me atrasar, desculpa.",
+        "phonetic": "sāmiḥnī innī taʾakhkhart, āsif."
+      },
+      {
+        "text": "ممكن تصلحه اليوم، لو سمحت؟",
+        "translation": "Você pode consertar isso hoje, por favor?",
+        "phonetic": "mumkin tuṣliḥhu al-yawm, law samaḥt?"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا آسف لك",
+      "correct": "أنا آسف / أنا متأسف",
+      "correct_alt": "سامحني",
+      "explanation": "Em português, dizemos 'sinto muito por você' ou 'estou arrependido para você'. No árabe, a preposição 'لـ' (li) não é usada após 'آسف' (āsif). O correto é simplesmente 'أنا آسف' (anā āsif) sem complemento com preposição. Outra alternativa é usar 'سامحني' (sāmiḥnī) que significa literalmente 'perdoe-me'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "عبارات الشكوى",
+        "translation": "Frases de reclamação",
+        "examples": [
+          {
+            "original": "أنا سعيد بالخدمة؟",
+            "phonetic": "ʔanā saʿīd bil-khidma?",
+            "translation": "Estou feliz com o serviço? (irônico)",
+            "note": "Uso do irônico para reclamar indiretamente. O tom de voz é importante."
+          },
+          {
+            "original": "الطعام بارد.",
+            "phonetic": "al-ṭaʿām bārid.",
+            "translation": "A comida está fria.",
+            "note": "Uma reclamação simples e direta. Pode ser suavizada com 'عفواً' no início."
+          },
+          {
+            "original": "غرفتي ليست نظيفة.",
+            "phonetic": "ghurfatī laysat naẓīfa.",
+            "translation": "Meu quarto não está limpo.",
+            "note": "A negação com 'laysa' que concorda em gênero e número."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "طلب إصلاح",
+        "translation": "Pedir reparação",
+        "examples": [
+          {
+            "original": "ممكن تغير الغرفة؟",
+            "phonetic": "mumkin tughayyir al-ghurfa?",
+            "translation": "Poderia trocar o quarto?",
+            "note": "Uso de 'mumkin' para suavizar o pedido."
+          },
+          {
+            "original": "أريد استرداد نقودي.",
+            "phonetic": "urīd istirdād nuqūdī.",
+            "translation": "Quero meu dinheiro de volta.",
+            "note": "Expressão formal e direta. 'Nuqūd' é plural de 'naqd' (dinheiro)."
+          },
+          {
+            "original": "من فضلك، أعد حسابي.",
+            "phonetic": "min faḍlik, aʿid ḥisābī.",
+            "translation": "Por favor, refaça minha conta.",
+            "note": "Uso de 'min faḍlik' para polidez."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "تقديم الاعتذار",
+        "translation": "Como se desculpar",
+        "examples": [
+          {
+            "original": "اعذرني على هذا الخطأ.",
+            "phonetic": "iʿdhirnī ʿalā hādhā al-khaṭaʾ.",
+            "translation": "Perdoe-me por esse erro.",
+            "note": "Verbo 'aʿdhara' é mais formal que 'sāmaḥa'."
+          },
+          {
+            "original": "أعتذر عن التأخير.",
+            "phonetic": "aʿtadhir ʿan al-taʾkhīr.",
+            "translation": "Peço desculpas pelo atraso.",
+            "note": "Estrutura fixa com 'ʿan' para o motivo."
+          },
+          {
+            "original": "كان خطأي، سامحني.",
+            "phonetic": "kāna khaṭaʾī, sāmiḥnī.",
+            "translation": "Foi meu erro, me perdoe.",
+            "note": "Assumir responsabilidade antes de pedir desculpas."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤝",
+    "phonetic": "",
+    "translations": {
+      "pt": "Queixar-se e desculpar-se"
+    }
+  },
+  {
+    "id": "pt_A2_conv_09",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "وصف مدينتي / Descrever a minha cidade",
+    "bridge": "Em árabe, ao descrever a sua cidade, você vai usar o verbo 'كان' (ser/estar) no passado e no presente, e também a preposição 'في' (em) para localizar lugares. Diferente do português, o adjetivo em árabe concorda com o substantivo em gênero e número, e geralmente vem depois do substantivo. Cuidado com a ordem das palavras: em árabe, o verbo costuma vir antes do sujeito em frases verbais, e em frases nominais (sem verbo), o sujeito vem primeiro, seguido do predicado.",
+    "rule": "Para descrever sua cidade em árabe no nível A2, use estas estruturas:\n1. **Frases nominais** (presente, sem verbo): 'المدينة جميلة' (a cidade é bonita) - sujeito (المدينة) + predicado (جميلة). O adjetivo concorda em gênero (feminino: مدينة - جميلة; masculino: مكان - جميل) e número (plural: مدن جميلة).\n2. **Frases com verbo 'كان'** (passado): 'كانت المدينة هادئة' (a cidade era calma) - o verbo 'كان' concorda com o sujeito em gênero e número (كان/كانت/كانوا).\n3. **Preposição 'في'** para localização: 'في مدينتي حديقة كبيرة' (na minha cidade há um parque grande) - a preposição 'في' seguida de substantivo.\n4. **Existem/ há** para existência: 'هناك' (há/there is) - 'هناك مطعم جيد' (há um bom restaurante).\n5. **Adjetivos possessivos**: 'مدينتي' (minha cidade), 'مدينتك' (tua cidade) - anexados ao substantivo.\nUse vocabulário como: مدينة (cidade), قرية (aldeia), شارع (rua), سوق (mercado), مسجد (mesquita), حديقة (parque), كبير/كبيرة (grande), صغير/صغيرة (pequeno), جميل/جميلة (bonito/bonita), قديم/قديمة (antigo/antiga), هادئ/هادئة (calmo/calma).",
+    "concept_examples": [
+      {
+        "text": "مدينتي كبيرة وجميلة.",
+        "translation": "A minha cidade é grande e bonita.",
+        "phonetic": "madiːnatiː kabiːra wa ʒamiːla"
+      },
+      {
+        "text": "في مدينتي سوق قديم.",
+        "translation": "Na minha cidade há um mercado antigo.",
+        "phonetic": "fiː madiːnatiː suːq qadiːm"
+      },
+      {
+        "text": "كانت المدينة هادئة في الليل.",
+        "translation": "A cidade era calma à noite.",
+        "phonetic": "kaːnat al-madiːna haːdiʔa fiː al-lajl"
+      },
+      {
+        "text": "هناك مطعم جيد قرب البيت.",
+        "translation": "Há um bom restaurante perto de casa.",
+        "phonetic": "hunaːka matʕam ʒajjid qurb al-bajt"
+      }
+    ],
+    "common_error": {
+      "wrong": "مدينة كبيرة جميلة (ordem errada: adjetivo antes do substantivo)",
+      "correct": "مدينة جميلة كبيرة (adjetivo depois do substantivo)",
+      "correct_alt": "المدينة جميلة وكبيرة",
+      "explanation": "Em português, o adjetivo geralmente precede o substantivo (ex: 'bonita cidade'), mas em árabe o adjetivo deve vir depois do substantivo e concordar com ele em gênero, número, definição e caso. Portanto, 'مدينة جميلة' significa 'cidade bonita'. Colocar o adjetivo antes do substantivo soa completamente errado em árabe. Lembre-se sempre de seguir a ordem: substantivo + adjetivo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "مفردات المدينة",
+        "translation": "Vocabulário da cidade",
+        "examples": [
+          {
+            "original": "مدينة",
+            "phonetic": "madiːna",
+            "translation": "cidade",
+            "note": "Feminino, termina em 'ة' (ta marbuta)."
+          },
+          {
+            "original": "شارع",
+            "phonetic": "ʃaːriʕ",
+            "translation": "rua",
+            "note": "Masculino."
+          },
+          {
+            "original": "سوق",
+            "phonetic": "suːq",
+            "translation": "mercado",
+            "note": "Masculino, lembrando que em algumas regiões pode ser feminino, mas o comum é masculino."
+          },
+          {
+            "original": "حديقة",
+            "phonetic": "ħadiːqa",
+            "translation": "parque/jardim",
+            "note": "Feminino, com 'ة'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "أين يوجد؟",
+        "translation": "Onde fica?",
+        "examples": [
+          {
+            "original": "أين السوق؟",
+            "phonetic": "ʔajna as-suːq?",
+            "translation": "Onde fica o mercado?",
+            "note": "Use 'أين' para perguntar 'onde'."
+          },
+          {
+            "original": "السوق قرب المسجد.",
+            "phonetic": "as-suːq qurb al-masʒid",
+            "translation": "O mercado fica perto da mesquita.",
+            "note": "'قرب' = perto de."
+          },
+          {
+            "original": "في مدينتي بحيرة صغيرة.",
+            "phonetic": "fiː madiːnatiː buħajra saɣiːra",
+            "translation": "Na minha cidade há um lago pequeno.",
+            "note": "Use 'في' + 'مدينتي' + substantivo + adjetivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "صف المدينة",
+        "translation": "Descreva a cidade",
+        "examples": [
+          {
+            "original": "مدينتي قديمة ونظيفة.",
+            "phonetic": "madiːnatiː qadiːma wa naðiːfa",
+            "translation": "A minha cidade é antiga e limpa.",
+            "note": "Adjetivos coordenados com 'و' (e)."
+          },
+          {
+            "original": "كانت مدينة صغيرة قبل عشرين سنة.",
+            "phonetic": "kaːnat madiːna saɣiːra qabla ʕiʃriːn sana",
+            "translation": "Era uma cidade pequena há vinte anos.",
+            "note": "Uso de 'كانت' (era) no passado."
+          },
+          {
+            "original": "هناك الكثير من المطاعم في وسط المدينة.",
+            "phonetic": "hunaːka al-kaθiːr min al-mataːʕim fiː wasatˤ al-madiːna",
+            "translation": "Há muitos restaurantes no centro da cidade.",
+            "note": "Use 'هناك' + 'الكثير من' + substantivo plural."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏙️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Descrever sua cidade"
+    }
+  },
+  {
+    "id": "pt_A2_conv_10",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "الهِوايات / Tempo livre",
+    "bridge": "Em português, usamos o verbo 'gostar de' + infinitivo; em árabe, a estrutura é diferente: usamos a preposição 'عن' com o verbo 'hablar' (تَكَلَّمَ عَنْ) para falar sobre algo, ou 'يُحِبُّ' (gostar) que não exige preposição. Também, em árabe, o verbo concorda em gênero com o sujeito, então um homem diz 'أُحِبُّ' e uma mulher diz 'أُحِبُّ' igual, mas o verbo 'يَلْعَبُ' (jogar) muda para 'تَلْعَبُ' no feminino. Cuidado para não traduzir literalmente 'eu gosto de' como 'أنا أحب من' porque a preposição 'من' não é usada aqui.",
+    "rule": "Para falar de hobbies em árabe (nível A2), use as seguintes estruturas:\n\n1. Expressar gostos: 'أُحِبُّ' (eu gosto) + substantivo (ex.: أُحِبُّ القِراءَةَ - eu gosto de leitura) ou + verbo no presente (ex.: أُحِبُّ أَنْ أَقْرَأَ - eu gosto de ler, com 'أَنْ' + subjuntivo). Em árabe, o verbo 'أَحَبَّ' (gostar) rege objeto direto, sem preposição.\n\n2. Falar sobre hobby específico: 'هِوَايَتِي' (meu hobby) + substantivo (ex.: هِوَايَتِي الرَّسْمُ - meu hobby é desenho). Alternativamente: 'فِي وَقْتِ الفَرَاغِ' (no tempo livre) + verbo (ex.: فِي وَقْتِ الفَرَاغِ أَلْعَبُ كُرَةَ القَدَمِ - no tempo livre eu jogo futebol).\n\n3. Conjugação no presente (para A2): para homens: أَلْعَبُ (eu jogo), تَلْعَبُ (você joga - masculino), تَلْعَبِينَ (você joga - feminino). Para mulheres: أَلْعَبُ (eu jogo), تَلْعَبِينَ (você joga - feminino). O verbo concorda em gênero com o sujeito na segunda pessoa.\n\n4. Exceções: verbos como 'يَسْتَمِعُ إِلَى' (ouvir) exigem preposição 'إِلَى' (ex.: أُحِبُّ أَنْ أَسْتَمِعَ إِلَى المُوسِيقَى). 'يَذْهَبُ إِلَى' (ir a) também exige 'إِلَى'. Não use 'في' com 'يَلْعَبُ' para jogos (ex.: أَلْعَبُ كُرَةَ القَدَمِ - não أَلْعَبُ في كُرَةَ).\n\n5. Uso de 'أَيْضًا' (também) e 'لَكِنْ' (mas) para conectar ideias.",
+    "concept_examples": [
+      {
+        "text": "أُحِبُّ القِرَاءَةَ كَثِيرًا.",
+        "translation": "Eu gosto muito de leitura.",
+        "phonetic": "uħibbu l-qirāʔata kaθīran"
+      },
+      {
+        "text": "فِي وَقْتِ الفَرَاغِ أَلْعَبُ كُرَةَ القَدَمِ.",
+        "translation": "No tempo livre eu jogo futebol.",
+        "phonetic": "fī waqti l-farāɣi ʔalʕabu kurata l-qadami"
+      },
+      {
+        "text": "هِيَ تُحِبُّ الرَّسْمَ وَالمُوسِيقَى.",
+        "translation": "Ela gosta de desenho e música.",
+        "phonetic": "hiya tuħibbu r-rasma wa-l-mūsīqā"
+      },
+      {
+        "text": "مَا هِيَ هِوَايَتُكَ المُفَضَّلَةُ؟",
+        "translation": "Qual é o seu hobby favorito?",
+        "phonetic": "mā hiya hiwāyatuka l-mufaḍḍala"
+      }
+    ],
+    "common_error": {
+      "wrong": "أَنَا أُحِبُّ مِنَ القِرَاءَةِ",
+      "correct": "أُحِبُّ القِرَاءَةَ",
+      "correct_alt": "أَنَا أُحِبُّ القِرَاءَةَ",
+      "explanation": "Em português, dizemos 'gostar de' com a preposição 'de'. Em árabe, o verbo 'أَحَبَّ' não rege preposição; ele é transitivo direto, então o objeto vem sem preposição. O erro ocorre porque o aprendiz transfere a estrutura do português. Evite adicionar 'مِنَ' ou 'بِ' depois de 'أُحِبُّ'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "أَنْشِطَةٌ يَوْمِيَّةٌ",
+        "translation": "Atividades diárias",
+        "examples": [
+          {
+            "original": "أَقْرَأُ جَرِيدَةً كُلَّ صَبَاحٍ.",
+            "phonetic": "ʔaqraʔu ǧarīdatan kulla ṣabāḥin",
+            "translation": "Eu leio um jornal todas as manhãs.",
+            "note": "Note que o verbo 'أَقْرَأُ' é presente do indicativo. Use 'كُلَّ' para 'todos/todas'."
+          },
+          {
+            "original": "أَسْتَمِعُ إِلَى الرَّادْيُو فِي السَّيَّارَةِ.",
+            "phonetic": "ʔastamiʕu ʔilā r-radyū fī s-sayyāra",
+            "translation": "Eu ouço rádio no carro.",
+            "note": "O verbo 'يَسْتَمِعُ' exige a preposição 'إِلَى' antes do objeto. Não esqueça."
+          },
+          {
+            "original": "أَشْرَبُ قَهْوَةً مَعَ أَصْدِقَائِي.",
+            "phonetic": "ʔašrabu qahwatan maʕa ʔaṣdiqāʔī",
+            "translation": "Eu bebo café com meus amigos.",
+            "note": "A preposição 'مَعَ' significa 'com'. Em árabe, 'أَصْدِقَائِي' = meus amigos (plural de 'صَدِيق')."
+          },
+          {
+            "original": "أَتَمَشَّى فِي الحَدِيقَةِ بَعْدَ الغَدَاءِ.",
+            "phonetic": "ʔatamaššā fī l-ḥadīqati baʕda l-ġadāʔi",
+            "translation": "Eu caminho no parque depois do almoço.",
+            "note": "O verbo 'يَتَمَشَّى' é um verbo reflexivo; note a forma com 'أَ' para eu."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الرِّيَاضَةُ وَالأَلْعَابُ",
+        "translation": "Esportes e jogos",
+        "examples": [
+          {
+            "original": "أَلْعَبُ كُرَةَ السَّلَّةِ مَعَ أَصْدِقَائِي.",
+            "phonetic": "ʔalʕabu kurata s-salla maʕa ʔaṣdiqāʔī",
+            "translation": "Eu jogo basquete com meus amigos.",
+            "note": "O verbo 'يَلْعَبُ' é usado para jogos e esportes. Sem preposição antes do esporte."
+          },
+          {
+            "original": "أُحِبُّ السِّبَاحَةَ فِي البَحْرِ.",
+            "phonetic": "ʔuħibbu s-sibāḥata fī l-baḥri",
+            "translation": "Eu gosto de nadar no mar.",
+            "note": "Gostar + substantivo 'السِّبَاحَةَ' (natação). Alternativa: 'أُحِبُّ أَنْ أَسْبَحَ' (com verbo)."
+          },
+          {
+            "original": "نِلْعَبُ التِّنِسْ كُلَّ أُسْبُوعٍ.",
+            "phonetic": "nalʕabu t-tinis kulla ʔusbūʕin",
+            "translation": "Nós jogamos tênis toda semana.",
+            "note": "O verbo no plural 'نِلْعَبُ' concorda com 'نحن' (nós)."
+          },
+          {
+            "original": "مَاذَا تَفْعَلُ فِي عُطْلَةِ نِهَايَةِ الأُسْبُوعِ؟",
+            "phonetic": "māḏā tafʕalu fī ʕuṭlati nihāyati l-ʔusbūʕi",
+            "translation": "O que você faz no fim de semana?",
+            "note": "Pergunta comum para conversação. Note a forma masculina 'تَفْعَلُ'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "التَّعْبِيرُ عَنِ الهِوَايَاتِ",
+        "translation": "Expressar hobbies",
+        "examples": [
+          {
+            "original": "هِوَايَتِي المُفَضَّلَةُ هِيَ التَّصْوِيرُ.",
+            "phonetic": "hiwāyatī l-mufaḍḍala hiya t-taṣwīru",
+            "translation": "Meu hobby favorito é fotografia.",
+            "note": "Use 'هِوَايَتِي' (meu hobby) + adjetivo 'المُفَضَّلَةُ' (favorita)."
+          },
+          {
+            "original": "أَقْضِي وَقْتًا كَثِيرًا فِي الطَّبْخِ.",
+            "phonetic": "ʔaqḍī waqtan kaθīran fī ṭ-ṭabḫi",
+            "translation": "Eu passo muito tempo cozinhando.",
+            "note": "A estrutura 'فِي + substantivo' pode expressar 'fazendo algo'. Use 'الطَّبْخِ' (cozinhar)."
+          },
+          {
+            "original": "أَنَا لَسْتُ مُهْتَمًّا بِالرِّيَاضَةِ.",
+            "phonetic": "ʔanā lastu muhtamman bi-r-riyāḍa",
+            "translation": "Eu não sou interessado em esportes.",
+            "note": "Para negar 'ser interessado', use 'لَسْتُ' (não sou) e a preposição 'بِ'."
+          },
+          {
+            "original": "أَنْتَ تُحِبُّ السَّفَرَ، أَلَيْسَ كَذَلِكَ؟",
+            "phonetic": "ʔanta tuħibbu s-safara, ʔalaysa ka-ḏālika?",
+            "translation": "Você gosta de viajar, não é?",
+            "note": "Esta é uma tag question comum em árabe, equivalente a 'não é?'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "pt": "Falar sobre aficiones e tempo livre"
+    }
+  }
+]

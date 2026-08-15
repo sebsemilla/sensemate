@@ -1,0 +1,238 @@
+[
+  {
+    "id": "pt_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "고급 문장 구조와 복합문 (Estruturas de frases avançadas e orações complexas)",
+    "bridge": "Em português, usamos conjunções e pronomes relativos para conectar ideias, como 'que', 'porque', 'embora'. Em coreano, a conexão entre orações é feita principalmente por meio de terminações verbais (conectivos) e formas nominais, muitas vezes sem equivalentes diretos. Diferente do português, a ordem das palavras é SOV (Sujeito-Objeto-Verbo) e o verbo principal vem sempre no final, o que exige reorganizar o pensamento. Além disso, o coreano usa partículas para marcar o papel sintático, enquanto o português usa preposições e ordem. Cuidado com a tradução literal de 'que' ou 'porque', pois o coreano possui múltiplos equivalentes com nuances diferentes.",
+    "rule": "Em coreano, para formar frases complexas, usamos principalmente: (1) Terminações conjuntivas (e.g., -고, -서, -지만, -니까, -면서) que ligam orações coordenadas ou subordinadas, sendo que o tempo e o aspecto podem ser marcados apenas na oração final ou em ambas dependendo da terminação. (2) Formas nominais com -기, -(으)ㅁ, -는 것, que transformam verbos em substantivos para funcionarem como sujeito, objeto ou complemento. (3) Construções de relativa com -는, -은/ㄴ, -을/ㄹ que substituem os pronomes relativos 'que', 'quem', 'o qual'. Para C1, exige-se domínio de estruturas encaixadas, como: '-다고' para discurso indireto, '-도록' para finalidade, '-다가' para mudança de ação, e '-ㄹ수록' para correlação proporcional. Também é crucial o uso correto de partículas duplas (은/는, 이/가) em orações subordinadas para marcar tópico e sujeito com precisão. Exceções: algumas terminações não aceitam certas combinações de tempo ou exigem mudança de forma (e.g., -기 때문에 é neutro, mas -니까 exige que a oração principal seja imperativa ou propositiva).",
+    "concept_examples": [
+      {
+        "text": "그는 자신의 실수를 인정하지 않을 뿐만 아니라 오히려 남을 탓한다.",
+        "translation": "Ele não só não admite seus erros, mas também culpa os outros.",
+        "phonetic": "[kɯnɯn tɕasinɰi ɕilsurɯl indʑʌŋhadʑi anɯl p͈unman anira oʰirjʌ namɯl tʰatʰanda]"
+      },
+      {
+        "text": "시간이 지날수록 그리움은 더 깊어졌다.",
+        "translation": "Quanto mais o tempo passava, mais profunda ficava a saudade.",
+        "phonetic": "[ɕiganɯ tɕinarɯsʰurok kɯriumɯn tʌ kipʰʌdʑʌt͈a]"
+      },
+      {
+        "text": "그가 말한 대로 우리는 결과를 기다렸다.",
+        "translation": "Esperamos o resultado como ele tinha dito.",
+        "phonetic": "[kɯga maɾhan tɛɾo uri nɯn kjʌɾwaɾɯl kidarjʌt͈a]"
+      },
+      {
+        "text": "오늘은 비가 올지도 모르니 우산을 챙기는 것이 좋겠다.",
+        "translation": "Hoje pode chover, então seria bom levar um guarda-chuva.",
+        "phonetic": "[onɯrɯn piga olʥido morɯni usanɯl tɕʰɛŋginɯn kʌʧi tɕotʰek͈et͈a]"
+      }
+    ],
+    "common_error": {
+      "wrong": "그는 말했어요 그가 올 거예요.",
+      "correct": "그는 그가 올 거라고 말했어요.",
+      "correct_alt": "그는 자기가 올 거라고 말했어요.",
+      "explanation": "Em português, frequentemente usamos duas orações justapostas com 'que' ('ele disse que viria'), mas em coreano o discurso indireto exige a terminação -다고 (ou -라고 para citações com verbos de fala) no verbo da oração subordinada, antes do verbo principal. A simples justaposição é agramatical. Para evitar esse erro, memorize que 'dizer que' se traduz como '-다고 말하다', e preste atenção se o sujeito da subordinada é o mesmo do principal para usar '자기' em vez de '그'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "복합문의 기본 연결 (Conexões básicas de orações)",
+        "translation": "Conexões básicas de orações",
+        "examples": [
+          {
+            "original": "날씨가 춥지만 우리는 산책을 갔다.",
+            "phonetic": "[naʎɕiga tɕʰupʨiman uri nɯn santʰɛgɯl kat͈a]",
+            "translation": "Embora estivesse frio, fomos caminhar.",
+            "note": "Observe o uso de -지만 para 'mas/embora', equivalente ao contraste em português, mas sem conjunção no início."
+          },
+          {
+            "original": "숙제를 끝내고 나서 친구를 만났다.",
+            "phonetic": "[sukʰʨerɯl k͈ɯt̚nɛgo nasʌ tɕʰingurɯl mannat͈a]",
+            "translation": "Depois de terminar a lição de casa, encontrei um amigo.",
+            "note": "A terminação -고 나서 indica sequência temporal, similar a 'depois de', mas é anexada ao verbo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "명사절과 관형절 (Orações substantivas e relativas)",
+        "translation": "Orações substantivas e relativas",
+        "examples": [
+          {
+            "original": "내가 좋아하는 음악은 클래식이다.",
+            "phonetic": "[nɛga tɕoaɦanɯn ɯmagɯn kʰɯllɛɕigida]",
+            "translation": "A música que eu gosto é clássica.",
+            "note": "A forma relativa -는 (presente) substitui 'que eu gosto'. Note que o verbo vem antes do substantivo, diferente do português."
+          },
+          {
+            "original": "그가 합격했다는 소식을 들었다.",
+            "phonetic": "[kɯga hapkʰjʌkʰet͈anɯn soɕigɯl tɯɾʌt͈a]",
+            "translation": "Ouvi a notícia de que ele passou no exame.",
+            "note": "A construção -다는 (citado + relativo) funciona como 'de que', uma estrutura comum em textos formais."
+          },
+          {
+            "original": "늦게 오는 것이 문제가 아니다.",
+            "phonetic": "[nɯt̚k͈e onɯn kʌʧi mundʑega anida]",
+            "translation": "Chegar tarde não é o problema.",
+            "note": "-는 것 transforma o verbo em substantivo, equivalente a 'chegar' no gerúndio ou infinitivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "고급 연결 어미와 담화 전략 (Conectivos avançados e estratégias discursivas)",
+        "translation": "Conectivos avançados e estratégias discursivas",
+        "examples": [
+          {
+            "original": "노력할수록 성과가 나타난다.",
+            "phonetic": "[noɾjʌkʰaɭsʰurok sʌŋgwaɡa natʰanat͈a]",
+            "translation": "Quanto mais você se esforça, mais resultados aparecem.",
+            "note": "-ㄹ수록 expressa proporcionalidade, como 'quanto mais... mais', exigindo cuidado com a dupla de verbos."
+          },
+          {
+            "original": "비가 오다가 그쳤다.",
+            "phonetic": "[piga odaɡa kɯtɕʰʌt͈a]",
+            "translation": "Choveu e depois parou.",
+            "note": "-다가 indica mudança de ação ou interrupção, algo que não tem equivalência direta em português."
+          },
+          {
+            "original": "그는 성공하기 위해 밤낮으로 일했다.",
+            "phonetic": "[kɯnɯn sʌŋgoŋɦaɡi wihɛ pamnat͡ɕɯɾo iɾɦɛt͈a]",
+            "translation": "Ele trabalhou dia e noite para ter sucesso.",
+            "note": "A expressão -기 위해 significa 'para' (finalidade), mas note a ordem: o verbo no infinitivo com -기 antes de 위해."
+          },
+          {
+            "original": "아무리 바빠도 운동은 해야 한다.",
+            "phonetic": "[amuɾi pap͈ado undoŋɯn hɛja ɦanda]",
+            "translation": "Por mais ocupado que esteja, você deve se exercitar.",
+            "note": "아무리 + -도 expressa concessão, similar a 'por mais que', mas com ordem invertida."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Sintaxe avançada e estruturas complexas"
+    }
+  },
+  {
+    "id": "pt_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "격식체, 비격식체, 중립체 (Registro formal, informal e neutro)",
+    "bridge": "Em português, a formalidade é marcada principalmente pela escolha de pronomes (tu/você/o senhor) e conjugações verbais (tratamento por 'você' versus 'tu', por exemplo). No coreano, o registro é gramaticalizado nas terminações verbais e é obrigatório em todas as frases. Falantes de português frequentemente subestimam a complexidade dos níveis de fala coreanos, que variam não só com a hierarquia social, mas também com o contexto (público/privado, escrito/falado) e o grau de intimidade. A armadilha mais comum é usar o formal demais em situações cotidianas, soando robótico, ou o informal demais com superiores, causando ofensa.",
+    "rule": "O coreano possui um sistema de níveis de fala (speech levels) que se manifestam nas terminações verbais. Os principais para aprendizes de C1 são: 1) 하소체 (formal extremely polite, quase extinto, usado em documentos históricos); 2) 합쇼체 (formal polite, usado em apresentações, notícias, contextos oficiais) – terminação '-습니다/습니까'; 3) 해요체 (neutro polido, usado no cotidiano com estranhos, colegas, em lojas) – terminação '-아요/어요/여요'; 4) 해체 (informal, usado entre amigos, família, pessoas mais jovens) – terminação básica sem marcador de polidez (ex: 가, 봐); 5) 하오체 e 하게체 (formais arcaicos, raramente usados). Para C1, é essencial dominar a alternância entre 합쇼체, 해요체 e 해체, entendendo também o uso de formas honoríficas (존댓말) como 시 (주시다, 계시다, 드시다) e substantivos honoríficos (진지, 말씀). A escolha do nível depende de: relação de status (idade, posição), intimidade, contexto (formalidade da situação) e meio (fala vs. escrita). Em textos escritos formais (ensaios, notícias), usa-se frequentemente o estilo 해라체 (terminações como -다, -냐) que é impessoal e não tão polido, mas normativo em narrativas. Erros comuns incluem usar 해요체 em textos formais escritos, ou usar 합쇼체 com amigos, criando distanciamento.",
+    "concept_examples": [
+      {
+        "text": "지금 회의를 시작하겠습니다.",
+        "translation": "Agora vamos iniciar a reunião.",
+        "phonetic": "[tɕiɡɯm hweɰiɾɯɭ ɕidʑaɡaɡet̚s͈ɯmnida]"
+      },
+      {
+        "text": "커피 한 잔 주세요.",
+        "translation": "Uma xícara de café, por favor.",
+        "phonetic": "[kʰʌpʰi han tɕan tɕusʰejo]"
+      },
+      {
+        "text": "오늘 뭐 할 거야?",
+        "translation": "O que você vai fazer hoje? (informal entre amigos)",
+        "phonetic": "[onɯɭ mwʌ hal kʌja]"
+      },
+      {
+        "text": "그는 항상 말씀이 많으십니다.",
+        "translation": "Ele sempre fala muito (forma honorífica).",
+        "phonetic": "[kɯnɯn haŋsaŋ malss͈ɯmi manɯɕimnik͈a]"
+      }
+    ],
+    "common_error": {
+      "wrong": "어제 친구를 만났어요. 그런데 그 친구가 저에게 \"밥 먹었어?\"라고 했어요. (Uso de 해요체 em narrativa formal escrita)",
+      "correct": "어제 친구를 만났다. 그런데 그 친구가 저에게 \"밥 먹었느냐?\"라고 했다.",
+      "correct_alt": "어제 친구를 만났습니다. 그런데 그 친구가 저에게 \"밥 먹었어요?\"라고 했습니다.",
+      "explanation": "Em português, a formalidade é consistente em todo o texto, mas em coreano, a escolha do nível pode mudar dependendo do contexto narrativo. Em escrita formal (como ensaios, relatórios), o estilo 해라체 (terminação -다, -냐) é padrão, mesmo ao relatar diálogos informais. O erro de usar 해요체 em toda a narrativa é comum para falantes de português, que transferem a uniformidade do discurso indireto. Para evitar, lembre-se: em textos escritos impessoais, use o estilo narrativo (해라체) para a narração, e apenas as falas citadas podem usar o nível original."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "합쇼체 (formal polido)",
+        "translation": "Formal polido",
+        "examples": [
+          {
+            "original": "안녕하십니까?",
+            "phonetic": "[annjʌŋhaɕimnik͈a]",
+            "translation": "Como vai? (formal)",
+            "note": "Usado em saudações formais, apresentações, discursos."
+          },
+          {
+            "original": "저는 김민수입니다.",
+            "phonetic": "[tɕʌnɯn kimminʂuimnida]",
+            "translation": "Eu sou Kim Min-su.",
+            "note": "Terminação -입니다 para ser/estar em contexto formal."
+          },
+          {
+            "original": "이 서류를 확인해 주시겠습니까?",
+            "phonetic": "[i sʌɾjuɾɯɭ hwaɡinɦɛ tɕuɕiɡet̚s͈ɯmnik͈a]",
+            "translation": "Você poderia verificar este documento?",
+            "note": "Uso de 주시겠습니까 (honorífico + formal) para pedidos educados."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "해요체 (neutro polido)",
+        "translation": "Neutro polido",
+        "examples": [
+          {
+            "original": "이거 얼마예요?",
+            "phonetic": "[iɡʌ ʌɭma jejo]",
+            "translation": "Quanto custa isto?",
+            "note": "Usado em lojas, restaurantes, com estranhos ou conhecidos de forma educada."
+          },
+          {
+            "original": "내일 뭐 하세요?",
+            "phonetic": "[nɛil mwʌ haɕejo]",
+            "translation": "O que você vai fazer amanhã? (neutro polido)",
+            "note": "A forma -세요 é a combinação de honorífico 시 + 어요; comum em perguntas do dia a dia."
+          },
+          {
+            "original": "저는 한국어를 공부하고 있어요.",
+            "phonetic": "[tɕʌnɯn haŋɡuɡʌɾɯɭ koŋbuɦaɡo issʌjo]",
+            "translation": "Estou estudando coreano.",
+            "note": "A terminação -아요/어요 é a base do 해요체, usada em situações cotidianas."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "해체 (informal)",
+        "translation": "Informal",
+        "examples": [
+          {
+            "original": "밥 먹었어?",
+            "phonetic": "[pap̚ mʌɡʌssʌ]",
+            "translation": "Você comeu? (informal entre amigos)",
+            "note": "Forma casual de perguntar, sem terminação de polidez."
+          },
+          {
+            "original": "오늘 너무 피곤해.",
+            "phonetic": "[onɯɾ nʌmu pʰiɡonɦɛ]",
+            "translation": "Estou muito cansado hoje.",
+            "note": "Uso de 해 for verbos terminados em 하다 (피곤하다)."
+          },
+          {
+            "original": "같이 영화 볼래?",
+            "phonetic": "[kaʨʰi jʌŋβwa poɭlɛ]",
+            "translation": "Quer assistir a um filme juntos? (informal)",
+            "note": "A partícula ~ㄹ래 expressa convite/intenção informal."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "pt": "Registro e estilo: formal, informal e neutro"
+    }
+  }
+]
