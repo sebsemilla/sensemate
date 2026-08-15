@@ -1316,11 +1316,13 @@ function _initInglesHub(tab = 'curriculum') {
     }
 
     if (tab === 'contexto') {
+        document.getElementById('msnake-a0-section')?.remove();
         _initVocabCtxTab(grid, 'en', sourceLang);
         return;
     }
 
     if (tab === 'modismos') {
+        document.getElementById('msnake-a0-section')?.remove();
         grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1.5rem 0">Cargando módulos…</p>';
         const file = _INGLES_MODISMOS_LANGS[sourceLang];
         fetch(`${_API_HOST}/grupos_tarjetas/ingles_a1/${file}`)
@@ -1343,10 +1345,56 @@ function _initInglesHub(tab = 'curriculum') {
         fetch(base + files.func).then(r => r.json()),
         fetch(base + files.conv).then(r => r.json()),
     ])
-        .then(([gram, func, conv]) => _renderInglesA1Snake(grid, _interleaveInglesA1(gram, func, conv)))
+        .then(([gram, func, conv]) => {
+            _renderA0Section(grid, 'en', sourceLang);
+            _renderInglesA1Snake(grid, _interleaveInglesA1(gram, func, conv));
+        })
         .catch(() => {
             grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1rem 0">No se pudieron cargar los módulos.</p>';
         });
+}
+
+// ── A0 block — se inserta antes de la serpentina A1 en cada hub ───────────────────────────
+function _renderA0Section(grid, targetCode, src) {
+    document.getElementById('msnake-a0-section')?.remove();
+    if (typeof FLASHCARD_CURRICULUM === 'undefined') return;
+    const curr = FLASHCARD_CURRICULUM[`${targetCode}_${src}`] || FLASHCARD_CURRICULUM[targetCode];
+    if (!curr || !curr.groups || curr.level !== 'A0') return;
+
+    const states = JSON.parse(localStorage.getItem('ls_card_states') || '{}');
+    const groupsHtml = curr.groups.map(g => {
+        const total   = g.cards.length;
+        const learned = g.cards.filter(c => states[c.id] === 'learned').length;
+        const pct     = total ? Math.round(learned / total * 100) : 0;
+        return `
+            <div class="prac-group-card" data-complete="${pct === 100}">
+                <div class="prac-group-left">
+                    <div class="prac-group-icon">${g.icon}</div>
+                    <div class="prac-group-info">
+                        <div class="prac-group-name">${g.name}</div>
+                        <div class="prac-group-count">${total} tarjetas</div>
+                    </div>
+                </div>
+                <div class="prac-group-right">
+                    <div class="prac-group-pct">${pct === 100 ? '✓' : pct + '%'}</div>
+                    <div class="prac-group-bar"><div class="prac-group-fill" style="width:${pct}%"></div></div>
+                </div>
+            </div>`;
+    }).join('');
+
+    const section = document.createElement('div');
+    section.id = 'msnake-a0-section';
+    section.style.cssText = 'margin-bottom:1.25rem;cursor:pointer';
+    section.innerHTML = `
+        <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem">
+            <span style="background:#f97316;color:#fff;font-size:.7rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;letter-spacing:.04em">A0</span>
+            <span style="font-weight:600;font-size:.95rem">${curr.levelName || 'Abecedario'}</span>
+        </div>
+        <div class="prac-groups">${groupsHtml}</div>`;
+    section.addEventListener('click', () => {
+        if (typeof showPracticeOverview === 'function') showPracticeOverview('A0');
+    });
+    grid.insertAdjacentElement('beforebegin', section);
 }
 
 // ── Hub genérico para todos los idiomas generados por generate_missions.js ────────────────
@@ -1397,6 +1445,7 @@ function _initGenericLangHub(targetCode, tab = 'curriculum') {
     }
 
     if (tab === 'contexto') {
+        document.getElementById('msnake-a0-section')?.remove();
         _initVocabCtxTab(grid, targetCode, src);
         return;
     }
@@ -1410,6 +1459,7 @@ function _initGenericLangHub(targetCode, tab = 'curriculum') {
         safeJson(base + `${src}_a1_funciones_comunicativas.json`),
         safeJson(base + `${src}_a1_conversacion.json`),
     ]).then(([gram, func, conv]) => {
+        _renderA0Section(grid, targetCode, src);
         const mods = _interleaveInglesA1(gram, func, conv);
         if (!mods.length) {
             grid.innerHTML = `
