@@ -1,0 +1,1210 @@
+[
+  {
+    "id": "en_B1_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "変化を表す / Describing Changes Over Time",
+    "bridge": "In English, you often use 'become' + adjective or 'get' + comparative (e.g., 'It became cold', 'She got taller'). Japanese has a similar but distinct pattern: adjectives change their endings to indicate becoming. For i-adjectives (ending in -い), you drop the final い and add く, then attach なる (e.g., 寒い → 寒くなる). For na-adjectives (like 静か), you add に instead of く (e.g., 静かになる). The trap is that English speakers often forget to change the adjective form and just add なる to the plain form, producing errors like 寒いなる. Also, Japanese expresses changes in state with になる, but changes of habit or action use ようになる (e.g., 毎日走るようになった). This is a key difference: English uses 'become' for both, but Japanese distinguishes between resulting state and new habit.",
+    "rule": "To describe changes over time in Japanese, use the pattern: [Adjective/Verb] + なる. For i-adjectives, replace final い with く + なる (e.g., 高い → 高くなる, 暑い → 暑くなる). Exception: いい becomes よく (e.g., よくなる). For na-adjectives and nouns, add に + なる (e.g., 静かになる, 先生になる). For verbs, use the dictionary form + ようになる to indicate a change in habit or ability (e.g., 走るようになった - 'came to run'). Past tense is なった, negative is ならない. The basic structure is: [Topic]は [Adjective-stem/Verb] + なる. Use だんだん (gradually) or 次第に to emphasize gradual change. This structure is used for both physical and abstract changes, and is common in narratives about personal growth or societal trends.",
+    "concept_examples": [
+      {
+        "text": "寒くなりました。",
+        "translation": "It has become cold.",
+        "phonetic": "samuku narimashita"
+      },
+      {
+        "text": "日本語が上手になりました。",
+        "translation": "I have become good at Japanese.",
+        "phonetic": "nihongo ga jouzu ni narimashita"
+      },
+      {
+        "text": "最近、早く起きるようになりました。",
+        "translation": "Recently, I've come to wake up early.",
+        "phonetic": "saikin, hayaku okiru you ni narimashita"
+      },
+      {
+        "text": "子供は大きくなると、親の気持ちが分かります。",
+        "translation": "When children grow up, they understand their parents' feelings.",
+        "phonetic": "kodomo wa ookiku naru to, oya no kimochi ga wakarimasu"
+      }
+    ],
+    "common_error": {
+      "wrong": "寒いなりました。",
+      "correct": "寒くなりました。",
+      "correct_alt": "寒くなった。",
+      "explanation": "English speakers often directly translate 'become cold' as 寒いなる, forgetting to change the i-adjective to its adverbial form. For i-adjectives, the -い must be replaced with -く before adding なる. This is similar to how in English we change 'happy' to 'happily' for adverbs, but here it's a specific rule for なる. Always remember: 寒い → 寒く + なる, never 寒い + なる."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "い形容詞 + なる",
+        "translation": "i-adjective + なる",
+        "examples": [
+          {
+            "original": "暖かくなりました。",
+            "phonetic": "atatakaku narimashita",
+            "translation": "It has become warm.",
+            "note": "Basic pattern: drop い, add く, then なる. Past tense なりました."
+          },
+          {
+            "original": "料理が上手になりました。",
+            "phonetic": "ryouri ga jouzu ni narimashita",
+            "translation": "I have become good at cooking.",
+            "note": "Even though 上手 is a na-adjective, it's a common collocation. This example shows the pattern works for skills."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "な形容詞・名詞 + になる",
+        "translation": "na-adjective/noun + になる",
+        "examples": [
+          {
+            "original": "部屋が静かになりました。",
+            "phonetic": "heya ga shizuka ni narimashita",
+            "translation": "The room became quiet.",
+            "note": "Na-adjective + に + なる. Note the particle に is used, not く."
+          },
+          {
+            "original": "医者になりたいです。",
+            "phonetic": "isha ni naritai desu",
+            "translation": "I want to become a doctor.",
+            "note": "Nouns also use に + なる. Here with たい to express desire."
+          },
+          {
+            "original": "夜になると、星が見えます。",
+            "phonetic": "yoru ni naru to, hoshi ga miemasu",
+            "translation": "When night comes, you can see stars.",
+            "note": "This shows になる for time transitions, a common usage."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "動詞 + ようになる",
+        "translation": "verb + ようになる (habit/ability change)",
+        "examples": [
+          {
+            "original": "日本語の本が読めるようになりました。",
+            "phonetic": "nihongo no hon ga yomeru you ni narimashita",
+            "translation": "I've come to be able to read Japanese books.",
+            "note": "Potential form + ようになる indicates newfound ability."
+          },
+          {
+            "original": "毎日運動するようになりました。",
+            "phonetic": "mainichi undou suru you ni narimashita",
+            "translation": "I've started exercising every day.",
+            "note": "Dictionary form + ようになる for a new habit. Note the change from not doing to doing."
+          },
+          {
+            "original": "テレビを見ないようになりました。",
+            "phonetic": "terebi o minai you ni narimashita",
+            "translation": "I've stopped watching TV.",
+            "note": "Negative form + ようになる is used to indicate a habit that ceased."
+          }
+        ]
+      }
+    ],
+    "emoji": "📈",
+    "phonetic": "",
+    "translations": {
+      "en": "Describing Changes Over Time"
+    }
+  },
+  {
+    "id": "en_B1_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "推測と推定 (Speculating and making deductions)",
+    "bridge": "In English, you often use modal verbs like 'must', 'might', 'could', and 'can't' to express deduction (e.g., 'He must be tired'). Japanese does not use a single modal verb system for this. Instead, it uses sentence-final expressions like 〜だろう, 〜かもしれない, and 〜に違いない, combined with contextual clues. The big difference is that Japanese feelings of certainty are conveyed through the verb ending, not a separate modal verb, and the subject is often omitted. Also, you need to be careful with the politeness level: plain forms for casual speech, polite forms for formal situations.",
+    "rule": "To express speculation and deduction in Japanese at B1 level, use these patterns:\n\n1. **〜だろう / 〜でしょう** (probably, I think): Attach to the plain form of verbs (dictionary form or past tense) / adjectives (な-adj stem + だろう, い-adj plain form) / noun + だろう. 〜でしょう is the polite version.\n   - 动词: 行く → 行くだろう (probably go), 行っただろう (probably went)\n   - い-adj: 高い → 高いだろう (probably expensive)\n   - な-adj: 静か → 静かだろう (probably quiet)\n   - Noun: 学生 → 学生だろう (probably a student)\n\n2. **〜かもしれない** (might, may): Attach to the plain form of verbs / adjectives / noun + かもしれない. It expresses a 50% or lower possibility. Can be used in both casual and formal (sometimes かも知れません).\n\n3. **〜に違いない** (must be, certainly): Attach to the plain form of verbs / adjectives / noun + に違いない. Expresses strong conviction based on evidence.\n\n4. **〜はずだ** (should be, supposed to): Attach to plain form. Expresses logical expectation, not personal guess.\n\nImportant: For nouns and な-adjectives, in the present tense, you use だろう / かもしれない directly after the noun/adjective stem (e.g., 学生だろう, not 学生だだろう). In polite forms, use でしょう instead of だろう.\n\nFor negative forms, you can use the negative plain form (e.g., 行かないだろう) or for strong negative deduction, use 〜はずがない (there is no way that).",
+    "concept_examples": [
+      {
+        "text": "彼はもう帰っただろう。",
+        "translation": "He has probably already gone home.",
+        "phonetic": "kare wa mō kaetta darō."
+      },
+      {
+        "text": "明日は雨が降るかもしれません。",
+        "translation": "It might rain tomorrow.",
+        "phonetic": "ashita wa ame ga furu kamoshiremasen."
+      },
+      {
+        "text": "あの人は日本人に違いない。",
+        "translation": "That person must be Japanese.",
+        "phonetic": "ano hito wa nihonjin ni chigainai."
+      },
+      {
+        "text": "彼はまだ来ていないから、遅れるはずだ。",
+        "translation": "Since he hasn't come yet, he should be late.",
+        "phonetic": "kare wa mada kite inai kara, okureru hazu da."
+      }
+    ],
+    "common_error": {
+      "wrong": "彼は疲れたかもしれないです。",
+      "correct": "彼は疲れているかもしれない。",
+      "correct_alt": "彼は疲れたかもしれない。",
+      "explanation": "In Japanese, to express 'He might be tired' (state), you need to use the te-iru form (疲れている) to indicate a current state, not the past tense (疲れた) which would mean 'he got tired' (finish). English uses the past participle 'tired' as an adjective, but Japanese requires the continuous state form. Also, using かもしれませんです is overly polite but not standard; you can just use かもしれない or かもしれません."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "推測の基本形 (Basic speculation: だろう・でしょう)",
+        "translation": "Basic speculation: darou / deshou",
+        "examples": [
+          {
+            "original": "彼は学生だろう。",
+            "phonetic": "kare wa gakusei darō.",
+            "translation": "He is probably a student.",
+            "note": "Use だろう after a noun (no だ needed)."
+          },
+          {
+            "original": "明日は寒いでしょう。",
+            "phonetic": "ashita wa samui deshō.",
+            "translation": "It will probably be cold tomorrow.",
+            "note": "Polite form of だろう is でしょう. Attach to い-adjective plain form."
+          },
+          {
+            "original": "彼は来ないだろう。",
+            "phonetic": "kare wa konai darō.",
+            "translation": "He probably won't come.",
+            "note": "Negative plain form + だろう."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "可能性の表現 (Expressing possibility: かもしれない)",
+        "translation": "Expressing possibility: kamoshirenai",
+        "examples": [
+          {
+            "original": "電車が遅れるかもしれない。",
+            "phonetic": "densha ga okureru kamoshirenai.",
+            "translation": "The train might be delayed.",
+            "note": "Attach かもしれない to the plain form of the verb."
+          },
+          {
+            "original": "彼女は来られないかもしれません。",
+            "phonetic": "kanojo wa korarenai kamoshiremasen.",
+            "translation": "She might not be able to come.",
+            "note": "Polite form uses かもしれません."
+          },
+          {
+            "original": "あの店は高いかもしれない。",
+            "phonetic": "ano mise wa takai kamoshirenai.",
+            "translation": "That shop might be expensive.",
+            "note": "Attach to い-adjective plain form."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "強い確信と論理的推定 (Strong certainty and logical deduction: に違いない・はずだ)",
+        "translation": "Strong certainty and logical deduction: ni chigainai / hazu da",
+        "examples": [
+          {
+            "original": "彼は毎日練習しているから、上手に違いない。",
+            "phonetic": "kare wa mainichi renshū shite iru kara, jōzu ni chigainai.",
+            "translation": "Because he practices every day, he must be good.",
+            "note": "に違いない expresses strong conviction based on evidence."
+          },
+          {
+            "original": "約束したから、彼は来るはずだ。",
+            "phonetic": "yakusoku shita kara, kare wa kuru hazu da.",
+            "translation": "Because we promised, he should come.",
+            "note": "はずだ expresses logical expectation, not personal guess."
+          },
+          {
+            "original": "彼は知っているはずがない。",
+            "phonetic": "kare wa shitte iru hazu ga nai.",
+            "translation": "There is no way he knows.",
+            "note": "はずがない is the negative form: strong denial of a possibility."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "en": "Speculating and making deductions"
+    }
+  },
+  {
+    "id": "en_B1_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "後悔と仮定を表す (Expressing Regret and Hypotheticals)",
+    "bridge": "In English, we use 'if only' and 'should have' to express regret, and 'if' with past perfect for hypotheticals (e.g., 'If I had studied, I would have passed'). Japanese uses several distinct structures: ～ばよかった (I wish I had done...), ～なければよかった (I wish I hadn't done...), and ～たら for conditionals. A key trap is that Japanese conditionals with ～たら do not require the tense shift that English uses ('had studied') — the past meaning comes from context or the verb form itself. Also, unlike English's 'could have' as a single phrase, Japanese often splits ability (～られる) and conditionality (～たら) into separate constructions.",
+    "rule": "To express regret about a past action not taken, use ～ばよかった: verb (past tense conditional form) + よかった (literally 'was good'). For example, 行けばよかった (I wish I had gone). To express regret about an action taken (wishing it hadn't happened), use ～なければよかった: verb negative stem + ければよかった (e.g., 行かなければよかった — I wish I hadn't gone). For hypothetical situations, the most common pattern is ～たら + result clause: past/conditional form of verb + たら + would/will. The conditional ~たら can be used with both past and future contexts; the tense is indicated by the main clause. For 'I would have done' use ～ただろう or ～たのに (expressing regret that fact is contrary). Example: 日本に行ったら、富士山を見たかった (If I had gone to Japan, I would have wanted to see Mt. Fuji). More formally, もし...たら for 'if'. Note: The auxiliary ～た is part of the conditional; do not use 'would have' literally.",
+    "concept_examples": [
+      {
+        "text": "もっと勉強すればよかった。",
+        "translation": "I wish I had studied more.",
+        "phonetic": "/mot̚to beŋkʲoː sureba jokatta/",
+        "note": ""
+      },
+      {
+        "text": "あの時、行かなければよかった。",
+        "translation": "I wish I hadn't gone then.",
+        "phonetic": "/ano toki ikanakereba jokatta/",
+        "note": ""
+      },
+      {
+        "text": "もし時間があったら、旅行したのに。",
+        "translation": "If I had had time, I would have traveled.",
+        "phonetic": "/moʃi dʑikan ga attara, rjoːkoː ʃita noni/",
+        "note": ""
+      },
+      {
+        "text": "ちゃんと聞いていれば、間違えなかったのに。",
+        "translation": "If I had listened properly, I wouldn't have made a mistake.",
+        "phonetic": "/tɕanto kiite ireba, matɕigaenakatta noni/",
+        "note": ""
+      }
+    ],
+    "common_error": {
+      "wrong": "If I studied harder, I would have passed.",
+      "correct": "もっと勉強すればよかった。",
+      "correct_alt": "もっと勉強したら、合格したのに。",
+      "explanation": "English speakers often translate 'would have' directly using ～ただろう, but that sounds awkward in many contexts. The most natural way to express regret is to use ～ばよかった or ~たら + のに. Also, they may incorrectly use the past perfect in the conditional clause (e.g., 勉強したなら) but Japanese conditionals use present-like forms with ～ば, ～たら, etc. Remember that ～のに adds a sense of frustration or regret about the unrealized outcome."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "～ばよかった (I wish I had done)",
+        "translation": "～ばよかった (I wish I had done)",
+        "examples": [
+          {
+            "original": "もっと早く来ればよかった。",
+            "phonetic": "/mot̚to hajaku kureba jokatta/",
+            "translation": "I wish I had come earlier.",
+            "note": "Use the ば-form (conditional) of the verb, then add よかった."
+          },
+          {
+            "original": "あの映画を見ればよかった。",
+            "phonetic": "/ano eiga o mireba jokatta/",
+            "translation": "I wish I had watched that movie.",
+            "note": "For verbs ending in -る, change to -れば (e.g., 見る → 見れば)."
+          },
+          {
+            "original": "医者に行けばよかった。",
+            "phonetic": "/iʃa ni ikeba jokatta/",
+            "translation": "I wish I had gone to the doctor.",
+            "note": "Godan verbs: 行く → 行けば."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "～なければよかった (I wish I hadn't done)",
+        "translation": "～なければよかった (I wish I hadn't done)",
+        "examples": [
+          {
+            "original": "あんなことを言わなければよかった。",
+            "phonetic": "/an na koto o iwanakereba jokatta/",
+            "translation": "I wish I hadn't said that.",
+            "note": "Use negative stem + ければ + よかった. For 言う → 言わなければ."
+          },
+          {
+            "original": "あの服を買わなければよかった。",
+            "phonetic": "/ano huku o kawanakereba jokatta/",
+            "translation": "I wish I hadn't bought those clothes.",
+            "note": "Remember: 買う → 買わない → 買わなければ."
+          },
+          {
+            "original": "あのレストランに行かなければよかった。",
+            "phonetic": "/ano resutoran ni ikanakereba jokatta/",
+            "translation": "I wish I hadn't gone to that restaurant.",
+            "note": "Often used to express regret about an action you did."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "～たら... のに (If only... would have)",
+        "translation": "～たら... のに (If only... would have)",
+        "examples": [
+          {
+            "original": "あの時、彼に聞いたら、わかったのに。",
+            "phonetic": "/ano toki, kare ni kiitara, wakatta noni/",
+            "translation": "If I had asked him then, I would have understood.",
+            "note": "Use past/conditional form of verb + ら + のに. The のに signals 'but it didn't happen'."
+          },
+          {
+            "original": "もしお金があったら、買ったのに。",
+            "phonetic": "/moʃi okane ga attara, katta noni/",
+            "translation": "If I had had money, I would have bought it.",
+            "note": "Start with もし for clarity. Use たら for the condition, and のに to express regret."
+          },
+          {
+            "original": "もっと練習したら、試合に勝てたのに。",
+            "phonetic": "/mot̚to ɾenɕɯː ʃitara, ɕiai ni kateta noni/",
+            "translation": "If I had practiced more, I could have won the match.",
+            "note": "Use potential form (勝てる) to express ability in the result clause."
+          },
+          {
+            "original": "彼と話したら、問題を解決できたのに。",
+            "phonetic": "/kare to hanashitara, mondai o kaiketsu dekita noni/",
+            "translation": "If I had talked to him, I could have solved the problem.",
+            "note": "Combine ～たら with できる (can) to express 'could have'."
+          }
+        ]
+      }
+    ],
+    "emoji": "😔",
+    "phonetic": "",
+    "translations": {
+      "en": "Expressing regret and hypothetical situations"
+    }
+  },
+  {
+    "id": "en_B1_func_04",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "アイデアの利点と欠点を話す / Discussing Advantages and Disadvantages",
+    "bridge": "In English, we often use phrases like 'advantage' and 'disadvantage' directly. In Japanese, the concept is typically expressed with words like 利点 (りてん) for advantage and 欠点 (けってん) for disadvantage, but more natural conversation uses structures like いい点 (good point) and 悪い点 (bad point). Also, Japanese relies heavily on sentence-final particles (e.g., よ, ね) and conjunctions like けど (but) to soften or justify opinions. Unlike English, Japanese often omits the subject, so you don't always need to say 'I think' explicitly—the context and sentence structure convey it.",
+    "rule": "To state an advantage or disadvantage in Japanese, use the pattern: [noun] は [adjective] という利点があります (has the advantage of being...) or [noun] は [adjective] という欠点があります (has the disadvantage of being...). More colloquially, you can say いい点は... / 悪い点は... . When giving reasons, use から (because) or ので (since). To compare, you can use 一方 (on the other hand) or しかし (but). For B1 level, it's important to master the use of という to introduce a noun clause, and to appropriately use politeness levels (です/ます form) in most speaking situations. Also, remember that Japanese adjectives conjugate differently: い-adjectives (e.g., 便利だ) and な-adjectives (e.g., 便利な) – even in these patterns, the adjective stays in its dictionary form before という.",
+    "concept_examples": [
+      {
+        "text": "この計画は、時間を節約できるという利点があります。",
+        "translation": "This plan has the advantage that you can save time.",
+        "phonetic": "kono keikaku wa, jikan o setsuyaku dekiru to iu riten ga arimasu."
+      },
+      {
+        "text": "しかし、お金がかかるという欠点もあります。",
+        "translation": "However, it also has the disadvantage that it costs money.",
+        "phonetic": "shikashi, okane ga kakaru to iu ketten mo arimasu."
+      },
+      {
+        "text": "リモートワークのいい点は、通勤しなくて済むことです。",
+        "translation": "The good point of remote work is that you don't have to commute.",
+        "phonetic": "rimōto wāku no ii ten wa, tsūkin shinakute sumu koto desu."
+      },
+      {
+        "text": "悪い点は、同僚と直接話せないことです。",
+        "translation": "The bad point is that you can't talk to colleagues directly.",
+        "phonetic": "warui ten wa, dōryō to chokusetsu hanasenai koto desu."
+      }
+    ],
+    "common_error": {
+      "wrong": "このアイデアは利点がありますが、欠点があります。",
+      "correct": "このアイデアには利点がありますが、欠点もあります。",
+      "correct_alt": "このアイデアの利点は…で、欠点は…です。",
+      "explanation": "English speakers often use は to mark the topic when they mean to mark the existence of something. In Japanese, to say 'there is an advantage' or 'there is a disadvantage,' you should use に (or には) with あります/います, not は alone. は is for the topic, so using it can make the sentence grammatically incomplete. Also, using もあります (also have) instead of あります (have) is more natural when listing both pros and cons, as it implies 'also'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本的な利点と欠点の表現",
+        "translation": "Basic expressions for advantages and disadvantages",
+        "examples": [
+          {
+            "original": "この本は、安いという利点があります。",
+            "phonetic": "kono hon wa, yasui to iu riten ga arimasu.",
+            "translation": "This book has the advantage of being cheap.",
+            "note": "Using という before 利点 to nominalize the adjective phrase. Note that 安い is an い-adjective in its dictionary form."
+          },
+          {
+            "original": "あのレストランは、遠いという欠点があります。",
+            "phonetic": "ano resutoran wa, tōi to iu ketten ga arimasu.",
+            "translation": "That restaurant has the disadvantage of being far.",
+            "note": "Pattern: という + 欠点. The adjective is used as is before という."
+          },
+          {
+            "original": "電車のいい点は、時間が正確なことです。",
+            "phonetic": "densha no ii ten wa, jikan ga seikaku na koto desu.",
+            "translation": "The good point of trains is that they are punctual.",
+            "note": "Using いい点 plus こと to create a noun phrase. Here な-adjective 正確だ becomes 正確な before こと."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "比較と対比",
+        "translation": "Comparison and contrast",
+        "examples": [
+          {
+            "original": "一方、車のほうが便利ですが、駐車場がありません。",
+            "phonetic": "ippō, kuruma no hō ga benri desu ga, chūshajō ga arimasen.",
+            "translation": "On the other hand, cars are more convenient, but there's no parking.",
+            "note": "Using 一方 to introduce a contrasting point. The pattern 〜ほうが便利だ is common for comparisons."
+          },
+          {
+            "original": "この方法の利点は簡単なことですが、欠点は時間がかかることです。",
+            "phonetic": "kono hōhō no riten wa kantan na koto desu ga, ketten wa jikan ga kakaru koto desu.",
+            "translation": "The advantage of this method is that it's easy, but the disadvantage is that it takes time.",
+            "note": "Structuring both pros and cons in one sentence with が for contrast."
+          },
+          {
+            "original": "新しいシステムは効率的ですが、問題もあります。",
+            "phonetic": "atarashī shisutemu wa kōritsuteki desu ga, mondai mo arimasu.",
+            "translation": "The new system is efficient, but there are also problems.",
+            "note": "Using が to connect contrasting ideas, and も to indicate additional existence of problems."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "意見の表明と説得",
+        "translation": "Expressing opinions and persuading",
+        "examples": [
+          {
+            "original": "私はこの案に賛成です。なぜなら、コストが低いという利点があるからです。",
+            "phonetic": "watashi wa kono an ni sansei desu. naze nara, kosuto ga hikui to iu riten ga aru kara desu.",
+            "translation": "I agree with this proposal because it has the advantage of low cost.",
+            "note": "Using なぜなら〜からです to explain a reason for your opinion. This is a formal but natural pattern at B1."
+          },
+          {
+            "original": "確かに欠点もありますが、利点のほうが大きいと思います。",
+            "phonetic": "tashika ni ketten mo arimasu ga, riten no hō ga ōkii to omoimasu.",
+            "translation": "True, there are disadvantages, but I think the advantages are greater.",
+            "note": "Using 確かに to acknowledge a point, and と思います to express opinion. Note the comparison structure 〜のほうが大きい."
+          },
+          {
+            "original": "もし予算があれば、この計画を進めるべきだと思います。",
+            "phonetic": "moshi yosan ga areba, kono keikaku o susumeru beki da to omoimasu.",
+            "translation": "If there is a budget, I think we should proceed with this plan.",
+            "note": "Conditional 〜ば form to present a conditional opinion, and べきだ to express recommendation. This adds subtlety to arguing for a position."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "en": "Discussing advantages and disadvantages"
+    }
+  },
+  {
+    "id": "en_B1_func_05",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "物語を語る / Narrating a story",
+    "bridge": "In English, we often narrate past events using simple past and past continuous, with connectors like 'then', 'suddenly', and 'after that'. Japanese, on the other hand, relies heavily on the -た form (past) and -ていた (past continuous) to set the scene, and uses specific sentence-final particles like よ and ね to add nuance. A major contrast is that Japanese does not require a subject if it’s clear from context, whereas English almost always requires one. Also, Japanese uses 〜たり〜たりする to list representative actions, which has no direct equivalent in English—you might say 'I did things like...'.",
+    "rule": "To narrate a story in Japanese at B1 level, you use the past tense (-た form) as the main narrative tense. The -ていた form (past continuous) is used for background actions or states. Connect events with time expressions like そして (and then), それから (after that), 突然 (suddenly), and 結局 (in the end). To list actions as examples, use the 〜たり〜たりする pattern, placing the last verb in the appropriate tense (e.g., 遊んだり、食べたりした). When telling stories, the topic particle は is used to introduce the topic, but after that, the subject is often omitted if it's clear. Sentence-final particles よ (emphatic) and ね (seeking agreement or softening) can be used to involve the listener, but avoid overuse. For B1, focus on clear chronological order and simple background descriptions.",
+    "concept_examples": [
+      {
+        "text": "昨日、友達と公園に行って、ピクニックをしました。",
+        "translation": "Yesterday, I went to the park with a friend and had a picnic.",
+        "phonetic": "kinou, tomodachi to kouen ni itte, pikunikku o shimashita."
+      },
+      {
+        "text": "その時、突然雨が降り始めました。",
+        "translation": "At that moment, it suddenly started to rain.",
+        "phonetic": "sono toki, totsuzen ame ga furi hajimemashita."
+      },
+      {
+        "text": "走ったり、笑ったりして、楽しかったです。",
+        "translation": "We did things like running and laughing, and it was fun.",
+        "phonetic": "hashittari, warattari shite, tanoshikatta desu."
+      },
+      {
+        "text": "それから、家に帰って、ゆっくり休みました。",
+        "translation": "After that, I went home and rested slowly.",
+        "phonetic": "sorekara, ie ni kaette, yukkuri yasumimashita."
+      }
+    ],
+    "common_error": {
+      "wrong": "昨日、友達と公園に行きました。それから、ピクニックをしました。その時、突然雨が降りました。",
+      "correct": "昨日、友達と公園に行って、ピクニックをしました。その時、突然雨が降り始めました。",
+      "correct_alt": "昨日、友達と公園に行きました。そして、ピクニックをしました。突然、雨が降り始めました。",
+      "explanation": "English speakers often connect every clause with 'and then' (それから), which sounds choppy in Japanese. The te-form (行って) is more natural for sequential actions. Also, 'started to rain' is 降り始めました rather than just 降りました, which indicates a change. Practice combining actions with -て form and using 〜始める for sudden starts."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "過去形で順番に話す / Narrating in chronological order",
+        "translation": "Narrating in chronological order",
+        "examples": [
+          {
+            "original": "朝起きて、コーヒーを飲みました。",
+            "phonetic": "asa okite, koohii o nomimashita.",
+            "translation": "I woke up in the morning and drank coffee.",
+            "note": "Te-form (起きて) connects sequential actions naturally."
+          },
+          {
+            "original": "それから、仕事に行きました。",
+            "phonetic": "sorekara, shigoto ni ikimashita.",
+            "translation": "After that, I went to work.",
+            "note": "それから is a common connector for 'after that'."
+          },
+          {
+            "original": "夜、家で映画を見ました。",
+            "phonetic": "yoru, ie de eiga o mimashita.",
+            "translation": "At night, I watched a movie at home.",
+            "note": "Place particle で (location of action) is used here."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "背景や同時進行の描写 / Describing background and simultaneous actions",
+        "translation": "Describing background and simultaneous actions",
+        "examples": [
+          {
+            "original": "テレビを見ていた時、電話が鳴りました。",
+            "phonetic": "terebi o mite ita toki, denwa ga narimashita.",
+            "translation": "When I was watching TV, the phone rang.",
+            "note": "-ていた (past continuous) sets the background; 時 means 'when'."
+          },
+          {
+            "original": "外で雨が降っていて、寒かったです。",
+            "phonetic": "soto de ame ga futte ite, samukatta desu.",
+            "translation": "It was raining outside, and it was cold.",
+            "note": "Te-form of -ている (降っていて) connects to a state description."
+          },
+          {
+            "original": "友達と話しながら、歩きました。",
+            "phonetic": "tomodachi to hanashinagara, arukimashita.",
+            "translation": "While talking with a friend, I walked.",
+            "note": "〜ながら indicates two simultaneous actions by the same subject."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "感情や感想を加える / Adding emotions and reactions",
+        "translation": "Adding emotions and reactions",
+        "examples": [
+          {
+            "original": "びっくりして、飛び上がりました。",
+            "phonetic": "bikkuri shite, tobiagarimashita.",
+            "translation": "I was surprised and jumped up.",
+            "note": "びっくりする (to be surprised) + te-form connects to the reaction."
+          },
+          {
+            "original": "楽しかったけど、疲れましたね。",
+            "phonetic": "tanoshikatta kedo, tsukaremashita ne.",
+            "translation": "It was fun, but I got tired, right?",
+            "note": "けど (but) contrasts; ね invites agreement."
+          },
+          {
+            "original": "本当に面白かったですよ。",
+            "phonetic": "hontou ni omoshirokatta desu yo.",
+            "translation": "It was really interesting (I tell you).",
+            "note": "よ adds emphasis, like 'I assure you'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "en": "Narrating a story"
+    }
+  },
+  {
+    "id": "en_B1_func_06",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "自分の意見を主張する (Arguing a Point of View)",
+    "bridge": "In English, you often soften arguments with modals like 'might' or 'could,' and you use conjunctions like 'but' or 'although' to contrast. In Japanese, the sentence-final particle 'よ' adds assertive emphasis, while 'けど' (but) often appears at the end of a clause to create a softer, more polite contrast. A key trap is that Japanese does not always require an explicit subject; overusing 'わたしは' can sound unnatural and overly assertive. Also, Japanese word order is flexible but typically ends with the verb or copula, so your point lands differently than in English.",
+    "rule": "To argue a point of view in Japanese at B1 level, you can use: 1) '〜と思います' (I think) for opinions, often with the particle 'は' for topic. 2) '〜じゃないでしょうか' (Isn't it...?) to suggest a view politely. 3) '〜べきだ' (should) for strong recommendations. 4) 'でも' (but) or 'けど' (though) to present contrasts. 5) The particle 'よ' at the end of a sentence to add assertive nuance. Word order is subject-object-verb (SOV), and the verb always comes last. Negation is expressed at the end (e.g., 'ない' or 'ません'). Avoid direct translation of English 'I think that...' by using 'と' before '思います' (e.g., 〜と思います). For emphasis, you can place the topic at the beginning and the main point at the end. Remember that in formal speech, use 'です/ます' forms; in casual speech, use plain forms. Exceptions: 'べき' has a negative form 'べきではない', and 'と思います' can be softened with 'かもしれない' (might).",
+    "concept_examples": [
+      {
+        "text": "私はこの意見に反対です。",
+        "translation": "I disagree with this opinion.",
+        "phonetic": "watashi wa kono iken ni hantai desu."
+      },
+      {
+        "text": "でも、私はもっと大切なことがあると思います。",
+        "translation": "But I think there are more important things.",
+        "phonetic": "demo, watashi wa motto taisetsu na koto ga aru to omoimasu."
+      },
+      {
+        "text": "それは正しいべきだと思いますよ。",
+        "translation": "I think that should be correct.",
+        "phonetic": "sore wa tadashii beki da to omoimasu yo."
+      },
+      {
+        "text": "確かにそうかもしれませんが、しかし…",
+        "translation": "That might be true, but however...",
+        "phonetic": "tashika ni sou kamo shiremasen ga, shikashi..."
+      }
+    ],
+    "common_error": {
+      "wrong": "私は思いますそれは良いです。",
+      "correct": "それは良いと思います。",
+      "correct_alt": "私はそれが良いと思います。",
+      "explanation": "The error occurs because English speakers place 'I think' before the content clause ('I think that it is good'), but Japanese places the content first and ends with 'と思います'. Also, 'は' marks the topic, so '私は' is often omitted if the context is clear. The correct structure is: [content] + 'と' + '思います'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "意見を述べる (Stating an opinion)",
+        "translation": "Stating an opinion",
+        "examples": [
+          {
+            "original": "私はこの計画は良いと思います。",
+            "phonetic": "watashi wa kono keikaku wa yoi to omoimasu.",
+            "translation": "I think this plan is good.",
+            "note": "Use 〜と思います to express your opinion. The topic は is optional if context is clear."
+          },
+          {
+            "original": "それは間違っていると思います。",
+            "phonetic": "sore wa machigatte iru to omoimasu.",
+            "translation": "I think that is wrong.",
+            "note": "The verb 間違っている (to be wrong) is in te-form, showing ongoing state."
+          },
+          {
+            "original": "私はそうは思いません。",
+            "phonetic": "watashi wa sou wa omoimasen.",
+            "translation": "I don't think so.",
+            "note": "Negative form of 思います is 思いません. Note the particle は after そう for contrast."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "反論する (Countering an argument)",
+        "translation": "Countering an argument",
+        "examples": [
+          {
+            "original": "でも、それは現実的じゃないと思います。",
+            "phonetic": "demo, sore wa genjitsuteki ja nai to omoimasu.",
+            "translation": "But I think that is not realistic.",
+            "note": "Use でも to start a contrast. Negative of です is じゃない in casual speech."
+          },
+          {
+            "original": "確かにそうですが、別の見方もあります。",
+            "phonetic": "tashika ni sou desu ga, betsu no mikata mo arimasu.",
+            "translation": "That's true, but there is another perspective.",
+            "note": "〜が at the end of a clause means 'but' and softens the contrast."
+          },
+          {
+            "original": "あなたの言うことは分かりますが、私は違う意見です。",
+            "phonetic": "anata no iu koto wa wakarimasu ga, watashi wa chigau iken desu.",
+            "translation": "I understand what you say, but I have a different opinion.",
+            "note": "Use が to connect two contrasting clauses politely."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "強調して主張する (Asserting strongly)",
+        "translation": "Asserting strongly",
+        "examples": [
+          {
+            "original": "私は絶対にこれが正しいと思いますよ。",
+            "phonetic": "watashi wa zettai ni kore ga tadashii to omoimasu yo.",
+            "translation": "I absolutely think this is correct.",
+            "note": "Add よ at the end to assert your point strongly. 絶対に means 'absolutely'."
+          },
+          {
+            "original": "これはやるべきだと思います。",
+            "phonetic": "kore wa yaru beki da to omoimasu.",
+            "translation": "I think we should do this.",
+            "note": "〜べきだ expresses 'should'. Combine with と思います for politeness."
+          },
+          {
+            "original": "私はそうは思いませんよ。",
+            "phonetic": "watashi wa sou wa omoimasen yo.",
+            "translation": "I don't think so (emphatically).",
+            "note": "Using よ with negative form adds assertive disagreement."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "en": "Arguing a point of view"
+    }
+  },
+  {
+    "id": "en_B1_func_07",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "仕事とキャリアについて話す / Talking about work and career",
+    "bridge": "In Japanese, unlike Spanish, verbs are not conjugated according to the person; the subject is often omitted when it is obvious from context. Also, to express one's own job, the particle は is used to mark the topic, and it is common to use 会社員 (kaishain) for 'company employee' instead of a generic term like 'worker'. A typical mistake by Spanish speakers is saying 'watashi wa shigoto desu' (I am work) instead of using the appropriate verb like 働いています (hataraite imasu) 'I am working'. It is also important to note that the verb 'to do' (する) combines with nouns to form actions, such as 仕事をします (shigoto o shimasu), which has no direct equivalent in Spanish.",
+    "rule": "To talk about work and career in Japanese: 1) Use the structure [topic] は [noun] です to indicate the profession: 私は医者です (watashi wa isha desu) 'I am a doctor'. 2) To describe the type of work, use 働く (hataraku) 'to work' in the te-iru form for state: 銀行で働いています (ginkō de hataraite imasu) 'I work at a bank'. 3) The particle で indicates the place of work, and を indicates the direct object of the action: 日本語を教えています (Nihongo o oshiete imasu) 'I teach Japanese'. 4) To talk about changing jobs, use 転職します (tenshoku shimasu) 'to change jobs', and to look for a job 仕事を探しています (shigoto o sagashite imasu). 5) Expressions of opinion with と思います: 彼は仕事が好きだと思います (kare wa shigoto ga suki da to omoimasu) 'I think he loves his job'. Do not forget that the verb する is used with nouns like 仕事 (shigoto) and 勉強 (benkyō).",
+    "concept_examples": [
+      {
+        "text": "私は銀行で働いています。",
+        "translation": "I work at a bank.",
+        "phonetic": "[ɕi̥taɾɯ ɲi ɡ̟õ̞ɴɡo̞ː de ɕiɡo̞to o ɕi̥te ima̠sɯ̥]"
+      },
+      {
+        "text": "彼は医者です。",
+        "translation": "He is a doctor.",
+        "phonetic": "[ka̠ɾe ɰa iɕa de̞sɯ̥]"
+      },
+      {
+        "text": "仕事を探しています。",
+        "translation": "I am looking for a job.",
+        "phonetic": "[ɕiɡo̞to o̞ saɡaɕite ima̠sɯ̥]"
+      },
+      {
+        "text": "転職を考えています。",
+        "translation": "I am thinking of changing jobs.",
+        "phonetic": "[te̞ɰ̃ɕo̞kɯ o̞ ka̠ŋɡa̠e̞ te̞ ima̠sɯ̥]"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は仕事です。",
+      "correct": "私は働いています。",
+      "correct_alt": "私は仕事をしています。",
+      "explanation": "The error '私は仕事です' (watashi wa shigoto desu) occurs because the student literally translates from Spanish 'yo soy trabajo', but in Japanese 'trabajo' is a noun, not an adjective of identity. To say that one works, use the verb 働く (hataraku) or the structure 仕事をします (shigoto o shimasu). Also, in this context, the place or type of work is normally specified, such as '会社で働いています' (I work at a company). Avoid using です with nouns that are not professions."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "自分の仕事を紹介する",
+        "translation": "Introducing your job",
+        "examples": [
+          {
+            "original": "私は会社員です。",
+            "phonetic": "[ɕi̥taɾɯ ɰa ka̠iɕaĩɴ de̞sɯ̥]",
+            "translation": "I am an office worker.",
+            "note": "会社員 (kaishain) is the most common term to describe a company employee, equivalent to 'office worker'."
+          },
+          {
+            "original": "私はエンジニアです。",
+            "phonetic": "[ɕi̥taɾɯ ɰa e̞ɰ̃ʑiɲia de̞sɯ̥]",
+            "translation": "I am an engineer.",
+            "note": "The English loanword 'engineer' is used in katakana. Note that no article is needed."
+          },
+          {
+            "original": "私は教師です。",
+            "phonetic": "[ɕi̥taɾɯ ɰa kʲo̞ːɕi de̞sɯ̥]",
+            "translation": "I am a teacher.",
+            "note": "For professions, the structure is '[topic] は [profession] です'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "仕事の内容を話す",
+        "translation": "Talking about the content of the job",
+        "examples": [
+          {
+            "original": "私は日本語を教えています。",
+            "phonetic": "[ɕi̥taɾɯ ɰa ɲiho̞ɴɡo̞ o̞ o̞ɕi̥e̞te̞ ima̠sɯ̥]",
+            "translation": "I teach Japanese.",
+            "note": "The verb 教える (oshieru) is used with a direct object (を). The -て います form indicates an ongoing action, but also a permanent state."
+          },
+          {
+            "original": "私は書類を作っています。",
+            "phonetic": "[ɕi̥taɾɯ ɰa ɕjo̞ɾɯi o̞ t͡sɯ̥kɯ̥te̞ ima̠sɯ̥]",
+            "translation": "I am making documents.",
+            "note": "作る (tsukuru) means 'to create/make'. Here it is used to describe a habitual task."
+          },
+          {
+            "original": "営業をしています。",
+            "phonetic": "[e̞ːɡʲo̞ː o̞ ɕi̥te̞ ima̠sɯ̥]",
+            "translation": "I work in sales.",
+            "note": "営業 (eigyō) means 'sales' or 'business'. する is used to indicate the activity."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "仕事の好みや希望を話す",
+        "translation": "Talking about job preferences and aspirations",
+        "examples": [
+          {
+            "original": "私は仕事が好きです。",
+            "phonetic": "[ɕi̥taɾɯ ɰa ɕiɡo̞to̞ ɡã̠ sɯ̥kʲi de̞sɯ̥]",
+            "translation": "I like my job.",
+            "note": "The structure for likes is [topic] は [object] が 好きです."
+          },
+          {
+            "original": "将来は自分の会社を作りたいです。",
+            "phonetic": "[ɕoːɾa̠ː ɰa d͡ʑibɯ̃n no̞ ka̠iɕa o̞ t͡sɯ̥kɯ̥ɾita̠i de̞sɯ̥]",
+            "translation": "In the future, I want to create my own company.",
+            "note": "To express desires, the -たい form of the verb is used. 作る→作りたい."
+          },
+          {
+            "original": "今の仕事に満足しています。",
+            "phonetic": "[ima̠ no̞ ɕiɡo̞to̞ ɲi ma̠nso̞kɯ ɕi̥te̞ ima̠sɯ̥]",
+            "translation": "I am satisfied with my current job.",
+            "note": "満足する (manzoku suru) is a suru verb that requires the particle に to indicate the object."
+          }
+        ]
+      }
+    ],
+    "emoji": "💼",
+    "phonetic": "",
+    "translations": {
+      "en": "Talking about work and career"
+    }
+  },
+  {
+    "id": "en_B1_func_08",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "プロセスを説明する / Describing processes",
+    "bridge": "In Spanish, to describe a process we often use the passive voice ('se hace', 'se añade') or the impersonal. In Japanese, however, the passive form -れる/-られる is used less than one might think: it is much more natural to use the -て いく, -て くる forms, or simply connect actions with -て. Furthermore, the order of actions is strictly chronological and is marked with particles. The most common trap for Spanish speakers is trying to translate 'se' directly with the passive, which sounds artificial or confusing. Here you will learn to use the structures that Japanese people actually use.",
+    "rule": "To describe a process in Japanese (B1 level):\n\n1. Connect actions with the -て form (te-form): The -て form of a verb indicates temporal sequence: V1て, V2て, V3. The last action usually takes the final form (masu or plain form). Example: 水を入れて、火にかける。\n\n2. Express the previous step or origin: Use -てから to indicate 'after doing'. Example: 材料を切ってから、炒めます。\n\n3. Express the change of state or direction of the process: -てくる indicates that the process comes toward the speaker (or toward the present), while -ていく indicates that it advances toward the future or moves away. To describe how a process develops, -てきます is often used (in the present, -てきます is used, although in recipe descriptions -ていきます can be used).\n\n4. Use of order adverbs: 始めに (first), 次に (next), それから (then), 最後に (finally).\n\n5. The passive, -られる, is used for processes, but with the nuance that something is done without a specific agent, and often sounds formal or impersonal. E.g., 米は水に浸されます。 (literally: the rice is soaked in water). Although for B1 it is more natural and simple to use the active voice with a generic subject (one, you), or use the form 'ことにします'.\n\n6. The construction 'ようにする' (to make sure) or 'ようにしている' (to have the rule of doing) can appear in instructional processes.\n\n7. Do not use 'se' translated literally. Strategies to replace it: use the verb in -ます/-る form with the object as topic (particle は), or use the verb in passive form only if the focus is on the object.\n\nRemember: In Japanese, when describing a general process (like a manual), the present tense (dictionary form) or the -ます form is usually used. The past tense is not used unless you are describing a specific process already completed.",
+    "concept_examples": [
+      {
+        "text": "まず、お湯を沸かします。",
+        "translation": "First, boil the water.",
+        "phonetic": "mazu, oyu o wakashimasu"
+      },
+      {
+        "text": "次に、茶葉を入れます。",
+        "translation": "Next, add the tea leaves.",
+        "phonetic": "tsugi ni, chaba o iremasu"
+      },
+      {
+        "text": "そして、3分待ってから、飲みます。",
+        "translation": "Then, wait 3 minutes and drink.",
+        "phonetic": "soshite, sanpun matte kara, nomimasu"
+      },
+      {
+        "text": "最後に、カップに注いで、どうぞ。",
+        "translation": "Finally, pour into the cup and there you go.",
+        "phonetic": "saigo ni, kappu ni sosoid de, douzo"
+      }
+    ],
+    "common_error": {
+      "wrong": "お湯が沸かされます。それから、茶葉が入れられます。",
+      "correct": "まず、お湯を沸かします。それから、茶葉を入れます。",
+      "correct_alt": "お湯を沸かしてから、茶葉を入れます。",
+      "explanation": "The typical error is to directly translate the impersonal 'se' from Spanish into Japanese using the passive form (－られます). In Japanese, to describe a generic process, the active voice with a topic or object (often omitting the subject) and the verb in present / -ます is preferred. Excessive use of the passive sounds artificial and confusing. The natural structure is simply to connect actions with て or てから."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "順番を表す -て形",
+        "translation": "Expressing sequence with the -te form",
+        "examples": [
+          {
+            "original": "卵を割って、混ぜます。",
+            "phonetic": "tamago o watte, mazemasu",
+            "translation": "Break the eggs and mix them.",
+            "note": "The て form connects actions in chronological order. It is equivalent to 'and' in Spanish, but without an explicit conjunction."
+          },
+          {
+            "original": "野菜を洗って、切ります。",
+            "phonetic": "yasai o aratte, kirimasu",
+            "translation": "Wash the vegetables and cut them.",
+            "note": "Notice that there is no explicit 'subject'; it is natural. In Spanish we often say 'se lavan', but here the object is used as the topic."
+          },
+          {
+            "original": "塩を入れて、味をみます。",
+            "phonetic": "shio o irete, aji o mimasu",
+            "translation": "Add salt and taste it.",
+            "note": "Again the sequence with て. Tasting (味をみる) is an idiomatic expression."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "順序の副詞",
+        "translation": "Order adverbs",
+        "examples": [
+          {
+            "original": "始めに、材料をそろえます。",
+            "phonetic": "hajime ni, zairyou o soroemasu",
+            "translation": "First, gather the ingredients.",
+            "note": "始めに means 'first' and is placed at the beginning of the sentence, just like in Spanish."
+          },
+          {
+            "original": "次に、フライパンを熱します。",
+            "phonetic": "tsugi ni, furaipan o nesshimasu",
+            "translation": "Next, heat the frying pan.",
+            "note": "次に introduces the next step. It is common in instructions."
+          },
+          {
+            "original": "それから、具を炒めます。",
+            "phonetic": "sore kara, gu o itamemasu",
+            "translation": "Then, stir-fry the ingredients.",
+            "note": "それから is very used in processes. Unlike 次に, it is more conversational."
+          },
+          {
+            "original": "最後に、塩とこしょうで味を整えます。",
+            "phonetic": "saigo ni, shio to koshou de aji o totonoemasu",
+            "translation": "Finally, adjust the seasoning with salt and pepper.",
+            "note": "最後に indicates the last step. Note the use of で for the instrument (with salt and pepper)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "過程の方向 -てくる / -ていく",
+        "translation": "Direction of the process: -te kuru / -te iku",
+        "examples": [
+          {
+            "original": "だんだん色が変わってきます。",
+            "phonetic": "dandan iro ga kawatte kimasu",
+            "translation": "Little by little, the color changes.",
+            "note": "てくる indicates that the change approaches the present / the speaker. It is very used in descriptions of processes that develop."
+          },
+          {
+            "original": "これからも使っていきます。",
+            "phonetic": "kore kara mo tsukatte ikimasu",
+            "translation": "We will continue using it from now on.",
+            "note": "ていく indicates that the action continues toward the future. In a process, it can express that one continues with the steps."
+          },
+          {
+            "original": "水が沸騰してきます。",
+            "phonetic": "mizu ga futto shite kimasu",
+            "translation": "The water starts to boil.",
+            "note": "Here てくる indicates that the state of boiling is approaching. It is literally 'to come to boil'."
+          },
+          {
+            "original": "この手順で進めていきましょう。",
+            "phonetic": "kono tejun de susumete ikimashou",
+            "translation": "Let's proceed with this procedure.",
+            "note": "Inclusive voice -ましょう with ていく to suggest advancing in the process. Common in collaborative instructions."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚙️",
+    "phonetic": "",
+    "translations": {
+      "en": "Describing processes"
+    }
+  },
+  {
+    "id": "en_B1_func_09",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "かもしれない / はず / らしい (Expressing probability and uncertainty)",
+    "bridge": "In Spanish we use 'puede que', 'quizás', 'debe de' or 'parece que' to express probability or uncertainty. Japanese, on the other hand, uses modal suffixes added at the end of the sentence (かもしれない, はず, らしい) that nuance the degree of certainty. The trap for Spanish speakers is that these suffixes have no direct equivalent and their use depends on the evidence you have: かもしれない is like 'quizás', はず expresses a logical deduction (equivalent to 'debe de ser que'), and らしい indicates that you have learned something indirectly (like 'por lo visto'). You must be careful with the order and conjugation: they are added to the informal form of the verb/adjective, and they do not conjugate for tense or person, which is strange from the Spanish perspective.",
+    "rule": "To express uncertainty in Japanese (B1), use the following modal suffixes added at the end of the sentence (informal form):\n\n1. **かもしれない** (kamoshirenai) – 'maybe, might' (pure uncertainty, 50% or less).\n   - It is added to the plain form (dictionary/ta-form, also to adjectives and i-adj).\n   - Examples: 行くかもしれない (might go), 高いかもしれない (might be expensive).\n\n2. **はず** (hazu) – 'must be / is that / is supposed to' (high probability by logical deduction).\n   - Used with the ta-form (past) or dictionary form, but also with adjectives. The negative is formed as はずがない (it is not possible that).\n   - Example: もう着いたはずです (must have already arrived).\n\n3. **らしい** (rashii) – 'apparently, seems that' (based on indirect or heard information).\n   - Added to the dictionary form, ta-form, or to i-adj and na-adj (without the copula).\n   - Example: 彼は来るらしい (apparently he is coming).\n\n**Key rules:**\n- All go after the verb/adjective in its informal form (not -masu).\n- They do not conjugate for person (as in Spanish 'yo creo que...' vs 'él cree que...' does not affect).\n- The final particle is sometimes omitted in conversation.\n- かもしれない can be preceded by もしかしたら to emphasize doubt.\n- To express probability of a noun, use の + かもしれない, の + はず, の + らしい.\n\n**Common uses:**\n- To speculate, guess, apologize, or be polite by expressing doubt.\n- はず is used when you have a logical basis (schedules, predictions).\n- らしい is used to refer to rumors or what you have heard. If it is something you have seen directly, you must use another form (そう) or explain the evidence.",
+    "concept_examples": [
+      {
+        "text": "明日は雨が降るかもしれない。",
+        "translation": "It might rain tomorrow.",
+        "phonetic": "[aʃita wa ame ga ɸuɾɯ kamoɕiɾenai]"
+      },
+      {
+        "text": "彼はもう帰ったはずだ。",
+        "translation": "He must have already gone home.",
+        "phonetic": "[kaɾe wa moː kaetta hazɯ da]"
+      },
+      {
+        "text": "田中さんは新しい仕事を探しているらしい。",
+        "translation": "Apparently, Tanaka is looking for a new job.",
+        "phonetic": "[tanaka saɴ wa ataɾaɕii ɕiɡoto o saɡaɕite iɾɯ ɾaɕiː]"
+      },
+      {
+        "text": "もしかしたら電車が遅れるかもしれない。",
+        "translation": "Maybe the train will be delayed.",
+        "phonetic": "[moɕi kaɕitaɾa deɴɕa ɡa okɯɾeɾɯ kamoɕiɾenai]"
+      }
+    ],
+    "common_error": {
+      "wrong": "彼は来るはずかもしれません。",
+      "correct": "彼は来るかもしれません。",
+      "correct_alt": "彼は来るはずです。",
+      "explanation": "The common mistake is combining two expressions of uncertainty (はず and かもしれない) in the same sentence, thinking that this increases the probability. In Japanese, you cannot stack two modal suffixes of this type. You must choose one depending on the degree of certainty: かもしれない for doubt, はず for deduction. Remember that in Spanish we sometimes say 'puede que deba de...' but in Japanese it is redundant. To correct, either use かもしれない (doubt) or はず (logical probability)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "かもしれない (Duda simple)",
+        "translation": "Maybe, might",
+        "examples": [
+          {
+            "original": "明日は忙しいかもしれない。",
+            "phonetic": "[aʃita wa isoɡaɕii kamoɕiɾenai]",
+            "translation": "I might be busy tomorrow.",
+            "note": "い-adjective + かもしれない (without copula)."
+          },
+          {
+            "original": "その映画は面白いかもしれない。",
+            "phonetic": "[sono eːɡa wa omoɕiɾoi kamoɕiɾenai]",
+            "translation": "That movie might be interesting.",
+            "note": "Used directly with い-adjectives."
+          },
+          {
+            "original": "彼は来ないかもしれない。",
+            "phonetic": "[kaɾe wa konai kamoɕiɾenai]",
+            "translation": "He might not come.",
+            "note": "With negative verb, use ない + かもしれない."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "はず (Deducción lógica)",
+        "translation": "Must be, supposed to",
+        "examples": [
+          {
+            "original": "今頃、彼は家に着いたはずだ。",
+            "phonetic": "[imagoɾo, kaɾe wa ie ni tsuita hazɯ da]",
+            "translation": "By now, he must have arrived home.",
+            "note": "With past verb た + はず."
+          },
+          {
+            "original": "この説明書は簡単なはずです。",
+            "phonetic": "[kono setsɯmeiɕo wa kaɴtan na hazɯ desɯ]",
+            "translation": "This manual must be easy.",
+            "note": "With な-adjective + な + はず."
+          },
+          {
+            "original": "彼女は知っているはずがない。",
+            "phonetic": "[kanoʥo wa ɕitte iɾɯ hazɯ ɡa nai]",
+            "translation": "There is no way she knows.",
+            "note": "The negative is formed with はずがない (impossibility)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "らしい (Información indirecta)",
+        "translation": "Apparently, seems that",
+        "examples": [
+          {
+            "original": "明日は雨らしい。",
+            "phonetic": "[aʃita wa ame ɾaɕiː]",
+            "translation": "Apparently it will rain tomorrow.",
+            "note": "With noun + らしい."
+          },
+          {
+            "original": "その店は閉店したらしい。",
+            "phonetic": "[sono mise wa heːten ɕita ɾaɕiː]",
+            "translation": "It seems that store has closed.",
+            "note": "With past verb た + らしい."
+          },
+          {
+            "original": "彼は英語が上手ならしい。",
+            "phonetic": "[kaɾe wa eːɡo ɡa dʑoːzɯ na ɾaɕiː]",
+            "translation": "Apparently he is good at English.",
+            "note": "With な-adjective + ならしい (use な before らしい)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "en": "Expressing uncertainty and probability"
+    }
+  },
+  {
+    "id": "en_B1_func_10",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "丁寧な依頼・正式な書き方 / Formal requests and basic formal writing",
+    "bridge": "In Spanish, politeness is expressed with the subjunctive or the conditional (¿Podría...?, ¿Sería tan amable de...?). In Japanese, the way of asking depends on the level of formality: the ～てください (te kudasai) form is direct and for everyday situations, while ～ていただけませんか (te itadakemasen ka) is much more humble and formal. Another key point is that in Japanese the omission of the subject is almost total, whereas in Spanish we usually include 'usted'. Furthermore, the verb もらう (to receive) is used as an auxiliary to ask for favors, something that has no direct equivalent in Spanish.",
+    "rule": "To make formal requests in Japanese, several structures are used depending on the level of politeness. The basic form is ～てください (te kudasai), which is equivalent to a direct 'please' and is used with friends or in informal contexts. For more polite requests, ～てくださいませんか (te kudasaimasen ka) or ～ていただけませんか (te itadakemasen ka) are used, which literally means 'could I not receive from you...?' and is very formal. Also, お＋ます形＋ください (o + masu-stem + kudasai) is used for verbs like お待ちください (o-machi kudasai) 'please wait'. In formal writing (letters, emails), it is customary to begin with 拝啓 (haikei) and end with 敬具 (keigu). The direct imperative ～てくれ (te kure) or ～て (te) is not used in these contexts. Additionally, when asking for a favor, it is common to use the form ～てもらえますか (te moraemasu ka) with the verb もらう, which indicates receiving the favor.",
+    "concept_examples": [
+      {
+        "text": "すみません、窓を閉めていただけませんか。",
+        "translation": "Excuse me, could you close the window?",
+        "phonetic": "sɯmʲimasen, mado o ɕime̞te̞ itadakʲimasen ka"
+      },
+      {
+        "text": "お手数ですが、書類を送っていただけますか。",
+        "translation": "I'm sorry to trouble you, but could you send me the documents?",
+        "phonetic": "ote̞sɯː de̞sɯ ga, ɕo̞ɾɯi o okɯtte̞ itadakʲimasɯ ka"
+      },
+      {
+        "text": "恐れ入りますが、ここでお待ちください。",
+        "translation": "I apologize, but please wait here.",
+        "phonetic": "o̞so̞ɾe̞ iɾʲimasɯ ga, ko̞ko̞ de̞ o̞matɕi kɯdasai"
+      },
+      {
+        "text": "できれば、明日までにご連絡いただけますと幸いです。",
+        "translation": "If possible, I would appreciate it if you could contact me by tomorrow.",
+        "phonetic": "de̞kʲiɾe̞ba, aɕita made̞ ni ɡo̞ɾẽ̞nɾakɯ itadaki masɯ to̞ saʲɯai de̞sɯ"
+      }
+    ],
+    "common_error": {
+      "wrong": "窓を閉めてくださいませんか。 (en contexto formal con un superior) ",
+      "correct": "窓を閉めていただけませんか。",
+      "correct_alt": "窓を閉めてくださいませんか。 (menos formal, pero correcto en algunos casos) ",
+      "explanation": "The common mistake is using ～てくださいませんか instead of ～ていただけませんか. The first is a polite form but not as humble, while ～ていただけませんか uses the verb いただく, which is the humble version of もらう, showing greater respect toward the person being asked. In Spanish, we use 'podría' without changing the verb, but in Japanese humility is marked in the auxiliary. To avoid mistakes, remember that いただく is much more formal than ください."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "丁寧な依頼 (ていねいないらい) ",
+        "translation": "Polite requests",
+        "examples": [
+          {
+            "original": "すみません、水をください。",
+            "phonetic": "sɯmʲimasen, mizɯ o kɯdasai",
+            "translation": "Excuse me, please give me some water.",
+            "note": "Use of ください in a direct but polite request, common in shops or restaurants."
+          },
+          {
+            "original": "これを見てください。",
+            "phonetic": "ko̞ɾe̞ o̞ mi te̞ kɯdasai",
+            "translation": "Please look at this.",
+            "note": "Form ～てください to ask for an action."
+          },
+          {
+            "original": "少々お待ちください。",
+            "phonetic": "ɕo̞ːɕoː o̞matɕi kɯdasai",
+            "translation": "Please wait a moment.",
+            "note": "Use of お＋ます形＋ください in service contexts."
+          },
+          {
+            "original": "ここに書いてください。",
+            "phonetic": "ko̞ko̞ ni kaite̞ kɯdasai",
+            "translation": "Please write here.",
+            "note": "Simple request with てください."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "より丁寧な依頼 (よりていねいないらい) ",
+        "translation": "More formal requests",
+        "examples": [
+          {
+            "original": "お手数をおかけしますが、よろしくお願いいたします。",
+            "phonetic": "o̞te̞sɯː o̞ o̞kake̞ ɕimasɯ ga, jo̞ɾo̞ɕikɯ o̞ne̞ɡaʲi itaɕimasɯ",
+            "translation": "I apologize for the trouble, but I appreciate your help in advance.",
+            "note": "Fixed formula to apologize and thank in formal requests."
+          },
+          {
+            "original": "恐れ入りますが、お名前を教えていただけますか。",
+            "phonetic": "o̞so̞ɾe̞ iɾʲimasɯ ga, o̞na̠mae̞ o̞ o̞ɕie̞te̞ itadakʲimasɯ ka",
+            "translation": "Excuse me, could you tell me your name?",
+            "note": "Use of 恐れ入りますが to introduce a formal request."
+          },
+          {
+            "original": "ご都合の良い時間を教えていただけますか。",
+            "phonetic": "ɡo̞t͡sɯɡo̞ː no̞ jo̞i d͡ʑika̠n o̞ o̞ɕie̞te̞ itadakʲimasɯ ka",
+            "translation": "Could you let me know a convenient time for you?",
+            "note": "Formal request with いただけますか."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "正式な書き方 (せいしきなかきかた) ",
+        "translation": "Basic formal writing",
+        "examples": [
+          {
+            "original": "拝啓　時下ますますご清栄のこととお喜び申し上げます。",
+            "phonetic": "haike̞ː d͡ʑi ka̠ ma̠sɯmasɯ ɡo̞se̞ːe̞ː no̞ ko̞to̞ to̞ o̞jo̞ɾo̞ko̞bʲi mɯɕiaɡe̞masɯ",
+            "translation": "Dear Sir/Madam: I hope this letter finds you in good health.",
+            "note": "Standard opening of a formal letter."
+          },
+          {
+            "original": "つきましては、ご確認のほどよろしくお願い申し上げます。",
+            "phonetic": "tsɯkimaɕite̞ wa, ɡo̞kakɯnin no̞ ho̞do̞ jo̞ɾo̞ɕikɯ o̞ne̞ɡaʲi mɯɕiaɡe̞masɯ",
+            "translation": "Therefore, we kindly ask you to confirm it.",
+            "note": "Formula to request confirmation in written language."
+          },
+          {
+            "original": "ご返信いただけますようお願い申し上げます。",
+            "phonetic": "ɡo̞hẽ̞ɕĩn itadakʲimasɯ jo̞ː o̞ne̞ɡaʲi mɯɕiaɡe̞masɯ",
+            "translation": "We would appreciate your reply.",
+            "note": "Polite request with いただけますよう in a letter."
+          },
+          {
+            "original": "敬具",
+            "phonetic": "ke̞ːɡɯ",
+            "translation": "Sincerely (letter closing)",
+            "note": "Formal closing used in traditional letters and emails."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙇",
+    "phonetic": "",
+    "translations": {
+      "en": "Formal requests and basic formal writing"
+    }
+  }
+]

@@ -1,0 +1,2113 @@
+[
+  {
+    "id": "en_A1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "です (desu) / だ (da) — The Copula (to be)",
+    "bridge": "In English, the verb 'to be' changes its form (am, is, are) depending on the subject. Japanese uses a 'copula' — です (desu) in polite speech and だ (da) in casual speech — that does not conjugate for person or number; it's the same for I, you, he, she, we, they. However, the copula does conjugate for tense (past vs. non-past) and polarity (affirmative vs. negative), and it behaves differently with nouns, adjectives, and in questions. The biggest trap is that です is often omitted in casual speech (especially with だ), and the negative forms (じゃないです / ではありません) are quite different from what you might expect from English.",
+    "rule": "The Japanese copula (equivalent to 'to be') is です (desu) in polite speech and だ (da) in casual speech. It is used to link a subject with a noun or na-adjective predicate, similar to 'X is Y'. The copula does not inflect for person or number, but it does inflect for tense and Politeness. Forms:\\n- Non-past affirmative: です (polite) / だ (casual)\\n- Past affirmative: でした (polite) / だった (casual)\\n- Non-past negative: ではありません (polite) / じゃないです (polite casual) / じゃない (casual)\\n- Past negative: ではありませんでした (polite) / じゃなかったです (polite casual) / じゃなかった (casual)\\nIn sentences, the copula comes at the end. For questions, you simply add か to the copula (e.g., ですか). In casual speech, か is often omitted and question intonation is used. Unlike English, nouns and adjectives often require the copula only in certain cases; i-adjectives do not take です (except to make them polite).",
+    "concept_examples": [
+      {
+        "text": "私は学生です。",
+        "translation": "I am a student.",
+        "phonetic": "watashi wa gakusei desu."
+      },
+      {
+        "text": "彼は日本人です。",
+        "translation": "He is Japanese.",
+        "phonetic": "kare wa nihonjin desu."
+      },
+      {
+        "text": "これは本です。",
+        "translation": "This is a book.",
+        "phonetic": "kore wa hon desu."
+      },
+      {
+        "text": "私は学生じゃないです。",
+        "translation": "I am not a student.",
+        "phonetic": "watashi wa gakusei janai desu."
+      }
+    ],
+    "common_error": {
+      "wrong": "私は学生だです。",
+      "correct": "私は学生です。",
+      "correct_alt": "私は学生だ。 (casual)",
+      "explanation": "English speakers often mix casual and polite forms, using だです together because they think they need to make だ polite. However, だ is already the casual copula, and です is the polite copula; combining them is incorrect. Use one or the other depending on the context: polite with です, casual with だ."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "肯定形 (Polite affirmative)",
+        "translation": "Affirmative forms (polite)",
+        "examples": [
+          {
+            "original": "私は田中です。",
+            "phonetic": "watashi wa Tanaka desu.",
+            "translation": "I am Tanaka.",
+            "note": "Use です for polite self-introduction."
+          },
+          {
+            "original": "これは猫です。",
+            "phonetic": "kore wa neko desu.",
+            "translation": "This is a cat.",
+            "note": "です follows a noun to state what something is."
+          },
+          {
+            "original": "彼女は先生です。",
+            "phonetic": "kanojo wa sensei desu.",
+            "translation": "She is a teacher.",
+            "note": "The copula does not change for gender or number."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "否定形 (Negative)",
+        "translation": "Negative forms",
+        "examples": [
+          {
+            "original": "私は学生ではありません。",
+            "phonetic": "watashi wa gakusei dewa arimasen.",
+            "translation": "I am not a student.",
+            "note": "The formal negative uses ではありません."
+          },
+          {
+            "original": "私は学生じゃないです。",
+            "phonetic": "watashi wa gakusei janai desu.",
+            "translation": "I am not a student.",
+            "note": "じゃないです is less formal but commonly used in conversation."
+          },
+          {
+            "original": "これは本じゃない。",
+            "phonetic": "kore wa hon janai.",
+            "translation": "This is not a book.",
+            "note": "In casual speech, use じゃない alone without です."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "過去形 (Past tense)",
+        "translation": "Past tense forms",
+        "examples": [
+          {
+            "original": "昨日は雨でした。",
+            "phonetic": "kinou wa ame deshita.",
+            "translation": "Yesterday it was rainy.",
+            "note": "Past tense of です is でした."
+          },
+          {
+            "original": "昔は学生だった。",
+            "phonetic": "mukashi wa gakusei datta.",
+            "translation": "I was a student long ago.",
+            "note": "Casual past uses だった."
+          },
+          {
+            "original": "その映画は面白くなかったです。",
+            "phonetic": "sono eiga wa omoshirokunakatta desu.",
+            "translation": "That movie was not interesting.",
+            "note": "For adjectives, the copula may be dropped; here です adds politeness."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "en": "The verb 'to be' (copula) and its forms"
+    }
+  },
+  {
+    "id": "en_A1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "代名詞（わたし、あなた、かれ、かのじょ） / Personal Pronouns",
+    "bridge": "In English, pronouns like 'I', 'you', and 'she' are essential in almost every sentence. In Japanese, pronouns are often omitted when the subject is clear from context. When they are used, they carry nuances of politeness and gender. For example, 'わたし' is the standard 'I', but 'ぼく' is used mainly by males, and 'あたし' by females. Unlike English, there is no single equivalent for 'it' – instead, demonstratives like 'これ' or 'それ' are used. Also, Japanese has formal and informal 'you' (あなた vs. きみ), which English doesn't distinguish.",
+    "rule": "Japanese personal pronouns are used less frequently than in English. The most common are: わたし (I) – polite, used by all; ぼく (I, male informal) – used by boys/men; あたし (I, female informal) – used by girls/women; あなた (you) – singular, formal; きみ (you) – informal, often male to junior/peer; かれ (he) – male third person; かのじょ (she) – female third person; わたしたち (we); あなたたち (you plural); かれら (they – male/mixed); かのじょたち (they – female). For 'it', Japanese uses demonstratives: これ (this), それ (that), あれ (that over there). Pronouns are often replaced by names or omitted entirely. When subject is clear, drop the pronoun. Politeness level matters: using あなた too much can sound rude; using someone's name is more natural.",
+    "concept_examples": [
+      {
+        "text": "わたしはがくせいです。",
+        "translation": "I am a student.",
+        "phonetic": "watasi wa gakusei desu."
+      },
+      {
+        "text": "あなたはアメリカじんですか。",
+        "translation": "Are you American?",
+        "phonetic": "anata wa amerika-jin desu ka."
+      },
+      {
+        "text": "かれはせんせいです。",
+        "translation": "He is a teacher.",
+        "phonetic": "kare wa sensei desu."
+      },
+      {
+        "text": "それはほんです。",
+        "translation": "That is a book.",
+        "phonetic": "sore wa hon desu."
+      }
+    ],
+    "common_error": {
+      "wrong": "わたしはねむいです。あなたはねむいですか？",
+      "correct": "わたしはねむいです。ねむいですか？",
+      "correct_alt": "わたしはねむいです。あなたは？",
+      "explanation": "In English, you often say 'Are you sleepy?' after stating your own state. In Japanese, repeating 'あなた' is unnatural because the subject is clear from context. Dropping the pronoun is more natural. Also, using 'あなた' repeatedly can sound accusatory or overly direct. Use the listener's name or just omit the subject."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "わたし・あなた（I, you）",
+        "translation": "I and you",
+        "examples": [
+          {
+            "original": "わたしはたなかです。",
+            "phonetic": "watasi wa tanaka desu.",
+            "translation": "I am Tanaka.",
+            "note": "Used for self-introduction. 'わたし' is polite and safe for all."
+          },
+          {
+            "original": "あなたはげんきですか。",
+            "phonetic": "anata wa genki desu ka.",
+            "translation": "Are you well?",
+            "note": "'げんき' means healthy/energetic. This is a common greeting."
+          },
+          {
+            "original": "わたしはにほんじんです。",
+            "phonetic": "watasi wa nihon-jin desu.",
+            "translation": "I am Japanese.",
+            "note": "Nationality is expressed with '-じん' (person)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "かれ・かのじょ（He, she）",
+        "translation": "He and she",
+        "examples": [
+          {
+            "original": "かれはがくせいです。",
+            "phonetic": "kare wa gakusei desu.",
+            "translation": "He is a student.",
+            "note": "'かれ' is used for males. In casual speech, it can mean 'boyfriend'."
+          },
+          {
+            "original": "かのじょはかわいいです。",
+            "phonetic": "kanojo wa kawaii desu.",
+            "translation": "She is cute.",
+            "note": "'かのじょ' can also mean 'girlfriend' in some contexts."
+          },
+          {
+            "original": "かれらはせんせいです。",
+            "phonetic": "karera wa sensei desu.",
+            "translation": "They are teachers.",
+            "note": "'かれら' is the plural form of 'かれ'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "これ・それ・あれ（This, that, that over there）",
+        "translation": "This, that, that over there",
+        "examples": [
+          {
+            "original": "これはペンです。",
+            "phonetic": "kore wa pen desu.",
+            "translation": "This is a pen.",
+            "note": "'これ' is used for objects close to the speaker."
+          },
+          {
+            "original": "それはかばんです。",
+            "phonetic": "sore wa kaban desu.",
+            "translation": "That is a bag.",
+            "note": "'それ' is for objects close to the listener."
+          },
+          {
+            "original": "あれはでんしゃです。",
+            "phonetic": "are wa densha desu.",
+            "translation": "That (over there) is a train.",
+            "note": "'あれ' is for objects far from both speaker and listener."
+          }
+        ]
+      }
+    ],
+    "emoji": "👤",
+    "phonetic": "",
+    "translations": {
+      "en": "Personal Pronouns"
+    }
+  },
+  {
+    "id": "en_A1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "冠詞 (Articles)",
+    "bridge": "In English, we use 'a', 'an', and 'the' to indicate whether we're referring to something specific or general. Japanese does not have articles at all. Instead, Japanese uses context, word order, and particles like は (wa) and が (ga) to convey specificity. This can be challenging for English speakers because what feels like a grammatical necessity simply disappears. By learning when to use these particles, you'll convey the same meaning without any article words.",
+    "rule": "In Japanese, there are no articles like 'a', 'an', or 'the'. The distinction between definite and indefinite is often implied or indicated by particles. The particle は (wa) marks the topic, which is often definite or already known. The particle が (ga) marks the subject, which can be indefinite when introducing new information. For example, '犬がいます' (inu ga imasu) means 'There is a dog' (indefinite), while '犬はかわいいです' (inu wa kawaii desu) means 'The dog is cute' (definite). To ask for something, you might use を (wo) for the object without any article: '本を読みます' (hon wo yomimasu) means 'I read a book' or 'I read the book' depending on context. When counting, use counters like 一匹 (ippiki) for animals, 一つ (hitotsu) for objects, etc., but these are not articles. To make something definite, you can use demonstratives like この (kono, this), その (sono, that), or あの (ano, that over there), or the topic particle は.",
+    "concept_examples": [
+      {
+        "text": "猫がいます。",
+        "translation": "There is a cat.",
+        "phonetic": "/ne̞ko̞ ɡa ima̠sɯ̥/ Hiragana: ねこ が います"
+      },
+      {
+        "text": "猫はかわいいです。",
+        "translation": "The cat is cute.",
+        "phonetic": "/ne̞ko̞ ɰa ka̠ɰa̠iː de̞sɯ̥/ Hiragana: ねこ は かわいい です"
+      },
+      {
+        "text": "本を読みます。",
+        "translation": "I read a book / I read the book.",
+        "phonetic": "/ho̞ɴ o̞ jo̞mʲima̠sɯ̥/ Hiragana: ほん を よみます"
+      },
+      {
+        "text": "コーヒーをください。",
+        "translation": "Please give me coffee (a cup of coffee).",
+        "phonetic": "/ko̞ːçiː o̞ kɯ̥da̠sa̠i/ Katakana: コーヒー を ください"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は犬がかわいいです。",
+      "correct": "犬はかわいいです。",
+      "correct_alt": "その犬はかわいいです。",
+      "explanation": "The error occurs because English speakers often add 私 (I) explicitly when it's not needed, and also mix particles. In English, we say 'The dog is cute.' In Japanese, the subject 'dog' is marked with は (wa) to indicate it's the topic and definite. Saying 私は犬がかわいいです (watashi wa inu ga kawaii desu) would mean 'As for me, dogs are cute', which is a different meaning. To avoid this, use the topic particle は after the noun that is the definite subject."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本の冠詞なし",
+        "translation": "Basic absence of articles",
+        "examples": [
+          {
+            "original": "学校に行きます。",
+            "phonetic": "/ɡa̠kko̞ː nʲi ikʲima̠sɯ̥/",
+            "translation": "I go to school (the school).",
+            "note": "No article before 'school'. In context, it's definite."
+          },
+          {
+            "original": "水を飲みます。",
+            "phonetic": "/mʲizɯ o̞ no̞mʲima̠sɯ̥/",
+            "translation": "I drink water.",
+            "note": "No article for 'water' – indefinite or general."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "トピックと主語の区別",
+        "translation": "Distinguishing topic and subject",
+        "examples": [
+          {
+            "original": "庭に犬がいます。",
+            "phonetic": "/nʲiɰa nʲi inɯ̥ ɡa ima̠sɯ̥/",
+            "translation": "There is a dog in the garden.",
+            "note": "が (ga) marks the new, indefinite subject 'a dog'."
+          },
+          {
+            "original": "犬は庭にいます。",
+            "phonetic": "/inɯ̥ ɰa nʲiɰa nʲi ima̠sɯ̥/",
+            "translation": "The dog is in the garden.",
+            "note": "は (wa) marks the definite topic 'the dog'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "指示語で特定",
+        "translation": "Specifying with demonstratives",
+        "examples": [
+          {
+            "original": "この本は面白いです。",
+            "phonetic": "/ko̞no̞ ho̞ɴ ɰa o̞mo̞ɕiɾo̞i de̞sɯ̥/",
+            "translation": "This book is interesting.",
+            "note": "この (kono) specifies a definite book, similar to 'this book'."
+          },
+          {
+            "original": "その店はどこですか。",
+            "phonetic": "/so̞no̞ mʲise̞ ɰa do̞ko̞ de̞sɯ̥ ka̠/",
+            "translation": "Where is that store?",
+            "note": "その (sono) indicates a store known to the listener, like 'that store'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "en": "Definite and indefinite articles"
+    }
+  },
+  {
+    "id": "en_A1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "名詞の性と数 / Gender and number of nouns",
+    "bridge": "Japanese nouns are much simpler than English nouns because they have no gender (unlike Spanish or French) and generally no plural forms. In English, we add -s or -es to make plurals, but in Japanese, nouns stay the same regardless of number. To indicate plurality or specific counts, Japanese can add suffixes like -たち (tachi) for people or use counters. However, context and particles like は (wa) often make the number clear without changing the noun. This simplicity helps beginners, but it requires adjusting your thinking: you don't need to mark every noun for singular/plural.",
+    "rule": "In Japanese, nouns are generally invariable: they do not change form for singular or plural. For example, 本 (hon) can mean 'book' or 'books' depending on context. When necessary, plurality is expressed with suffixes or quantifiers: 人 (hito) 'person' vs. 人々 (hitobito) 'people' (reduplication), or 友達 (tomodachi) 'friends' (though it can also mean 'friend'). For people, たち (tachi) is added: 学生 (gakusei) 'student' → 学生たち (gakuseitachi) 'students'. No gender markers exist: 医者 (isha) is 'doctor' regardless of gender. Counters are used with numbers, e.g., 三冊 (sansatsu) for three books. The particle は (wa) can indicate number through context, e.g., 犬はいますか? (Is there a dog? / Are there dogs?).",
+    "concept_examples": [
+      {
+        "text": "本を読みます。",
+        "translation": "I read a book/books.",
+        "phonetic": "hõɴ o jomimasɯ"
+      },
+      {
+        "text": "学生が三人います。",
+        "translation": "There are three students.",
+        "phonetic": "gakɯseː ɡa saɴniɴ imasɯ"
+      },
+      {
+        "text": "女性の医者です。",
+        "translation": "She is a female doctor.",
+        "phonetic": "ɟoseː no iɕa desɯ"
+      },
+      {
+        "text": "子供たちは公園で遊びます。",
+        "translation": "The children play in the park.",
+        "phonetic": "kodomo tati va koːeɴ de asobimasɯ"
+      }
+    ],
+    "common_error": {
+      "wrong": "猫を一匹見ました。猫はかわいいです。 (assuming only one cat, but using unclear context)",
+      "correct": "猫を一匹見ました。その猫はかわいいです。",
+      "correct_alt": "猫を見ました。猫はかわいいです。",
+      "explanation": "The error shows confusion about plural vs. singular. Since Japanese nouns don't change, learners often overuse quantifiers or assume plural forms. The correction uses 'その猫' to specify a particular cat, or leaves it general. Avoid applying English plural rules; use context or counters as needed."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "単数と複数の基本",
+        "translation": "Basics of singular and plural",
+        "examples": [
+          {
+            "original": "犬がいます。",
+            "phonetic": "inɯ ɡa imasɯ",
+            "translation": "There is a dog / There are dogs.",
+            "note": "The sentence is ambiguous but context clarifies. No change in noun."
+          },
+          {
+            "original": "本を買いました。",
+            "phonetic": "hoɴ o kaimaɕita",
+            "translation": "I bought a book / books.",
+            "note": "The noun 'hon' stays the same regardless of number."
+          },
+          {
+            "original": "友達が来ました。",
+            "phonetic": "tomodati ɡa kimmaɕita",
+            "translation": "A friend came / Friends came.",
+            "note": "Context or additional words like '二人' can specify number."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "人数の表現",
+        "translation": "Expressing numbers of people",
+        "examples": [
+          {
+            "original": "学生が一人います。",
+            "phonetic": "gakɯseː ɡa hitori imasɯ",
+            "translation": "There is one student.",
+            "note": "Counter 'hitori' means one person."
+          },
+          {
+            "original": "先生が二人います。",
+            "phonetic": "seɴseː ɡa hutari imasɯ",
+            "translation": "There are two teachers.",
+            "note": "Counter 'futari' for two people."
+          },
+          {
+            "original": "子供たちが遊んでいます。",
+            "phonetic": "kodomo tati ɡa asonde imasɯ",
+            "translation": "Children are playing.",
+            "note": "The plural suffix 'tachi' indicates a group."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "性別は気にしない",
+        "translation": "No gender distinctions",
+        "examples": [
+          {
+            "original": "医者になりたいです。",
+            "phonetic": "iɕa ni naritai desɯ",
+            "translation": "I want to become a doctor.",
+            "note": "'Isha' is gender-neutral."
+          },
+          {
+            "original": "看護師が三人来ました。",
+            "phonetic": "kaɴɡoɕi ɡa saɴniɴ kimmaɕita",
+            "translation": "Three nurses came.",
+            "note": "Nurses can be male or female; no gender marker."
+          },
+          {
+            "original": "社長は女性です。",
+            "phonetic": "ɕatɕoː va ɟoseː desɯ",
+            "translation": "The company president is a woman.",
+            "note": "Gender is expressed through words like 'josei' (woman) if needed, but not grammatical gender."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "en": "Gender and number of nouns"
+    }
+  },
+  {
+    "id": "en_A1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "動詞の現在形（ます形） / Present Tense (masu form)",
+    "bridge": "In English, verbs change to show tense and subject (I eat, he eats). In Japanese, the verb does not change for person or number—the same form is used for I, you, he, she, we, and they. However, Japanese verbs change depending on politeness and the end of the sentence. In polite speech, all present-tense verbs take the ます (masu) ending, which is the default for beginners. The key trap for English speakers is that Japanese has no future tense—what's called 'present' can refer to both present and future actions. Also, the verb always goes at the end of the sentence, unlike in English where it follows the subject directly.",
+    "rule": "For A1, the polite present tense is formed by taking the verb's dictionary form and changing its ending to the ます form. There are three groups:\n\n1. **Godan verbs (Group 1):** The final -u syllable becomes -i, then add ます. E.g., 行く (いく, iku, to go) → 行きます (いきます, ikimasu).\n2. **Ichidan verbs (Group 2):** Drop the final -る and add ます. E.g., 食べる (たべる, taberu, to eat) → 食べます (たべます, tabemasu).\n3. **Irregular verbs:** する (suru, to do) → します (shimasu); 来る (くる, kuru, to come) → 来ます (きます, kimasu).\n\nThis form is used for both present and future actions, to express habits, and in polite conversation. The negative is made by changing ます to ません (e.g., 食べます → 食べません). Questions are formed simply by adding か at the end. The subject is often omitted if it's clear from context, unlike English where the subject is usually required.",
+    "concept_examples": [
+      {
+        "text": "私は毎日コーヒーを飲みます。",
+        "translation": "I drink coffee every day.",
+        "phonetic": "わたしは まいにち こーひーを のみます。"
+      },
+      {
+        "text": "あなたは日本語を勉強しますか。",
+        "translation": "Do you study Japanese?",
+        "phonetic": "あなたは にほんごを べんきょうしますか。"
+      },
+      {
+        "text": "彼は明日映画を見ます。",
+        "translation": "He will watch a movie tomorrow.",
+        "phonetic": "かれは あした えいがを みます。"
+      },
+      {
+        "text": "私は毎週図書館に行きます。",
+        "translation": "I go to the library every week.",
+        "phonetic": "わたしは まいしゅう としょかんに いきます。"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は毎日コーヒーを飲むます。",
+      "correct": "私は毎日コーヒーを飲みます。",
+      "correct_alt": "私は毎日コーヒーを飲みます。",
+      "explanation": "The error happens because the learner tries to combine the dictionary form 飲む (nomu) directly with ます. In Japanese, the ます form requires the verb stem (the part before the -u ending) plus ます. For godan verbs like 飲む, you must change the final -u to -i: 飲む → 飲み + ます = 飲みます. The correct stem is 飲み, not 飲む. To avoid this, memorize the pattern: change the last sound of the verb to the -i sound (e.g., む → み) before adding ます."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "動詞のグループ",
+        "translation": "Verb groups",
+        "examples": [
+          {
+            "original": "行く → 行きます",
+            "phonetic": "いく → いきます",
+            "translation": "to go → go (polite)",
+            "note": "Godan verb, the last sound -u becomes -i."
+          },
+          {
+            "original": "食べる → 食べます",
+            "phonetic": "たべる → たべます",
+            "translation": "to eat → eat (polite)",
+            "note": "Ichidan verb, drop -る and add ます."
+          },
+          {
+            "original": "する → します",
+            "phonetic": "する → します",
+            "translation": "to do → do (polite)",
+            "note": "Irregular verb, must memorize."
+          },
+          {
+            "original": "来る → 来ます",
+            "phonetic": "くる → きます",
+            "translation": "to come → come (polite)",
+            "note": "Irregular verb, note the pronunciation change."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "肯定文と否定文",
+        "translation": "Affirmative and negative sentences",
+        "examples": [
+          {
+            "original": "毎日働きます。",
+            "phonetic": "まいにち はたらきます。",
+            "translation": "I work every day.",
+            "note": "Affirmative form of 働く (work)."
+          },
+          {
+            "original": "毎日働きません。",
+            "phonetic": "まいにち はたらきません。",
+            "translation": "I do not work every day.",
+            "note": "Negative is formed by replacing ます with ません."
+          },
+          {
+            "original": "今日はテレビを見ません。",
+            "phonetic": "きょうは てれびを みません。",
+            "translation": "I don't watch TV today.",
+            "note": "Negative of 見る (to watch) is 見ません."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "質問文",
+        "translation": "Questions",
+        "examples": [
+          {
+            "original": "どこに住みますか。",
+            "phonetic": "どこに すみますか。",
+            "translation": "Where do you live?",
+            "note": "To form a question, just add か at the end of a polite sentence."
+          },
+          {
+            "original": "朝ご飯を食べますか。",
+            "phonetic": "あさごはんを たべますか。",
+            "translation": "Do you eat breakfast?",
+            "note": "Yes/no questions also use か; the intonation rises slightly."
+          },
+          {
+            "original": "いつ日本に行きますか。",
+            "phonetic": "いつ にほんに いきますか。",
+            "translation": "When will you go to Japan?",
+            "note": "Question word いつ (when) is used with the present/polite form for future too."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "en": "Regular verbs in present tense"
+    }
+  },
+  {
+    "id": "en_A1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "否定形 (Negation)",
+    "bridge": "In English, you simply put 'not' after a verb (e.g., 'I eat' → 'I do not eat'). Japanese works differently: you conjugate the verb itself to make it negative. For example, 食べます (tabemasu) 'eat' becomes 食べません (tabemasen) 'do not eat'. This is a key difference: Japanese negative forms are built into the verb, not separate words. Also, for adjectives, you change the ending: 大きい (ōkii) 'big' becomes 大きくない (ōkikunai) 'not big'. Watch out: the verb あります (arimasu) 'to exist (for inanimate things)' becomes ありません (arimasen), not あらません.",
+    "rule": "For Japanese verbs in the polite form (masu-form), the negative is formed by changing the final -masu to -masen. For example: 食べます (tabemasu) → 食べません (tabemasen). For い-adjectives, the negative is formed by dropping the final い (i) and adding くない (kunai). For example: 大きい (ōkii) → 大きくない (ōkikunai). For な-adjectives and nouns, the negative is formed by adding じゃない (janai) or ではない (dewa nai) after the word. For example: 元気 (genki) 'healthy' → 元気じゃない (genki janai). In informal speech, the negative of verbs is formed by changing the final -u to -anai (e.g., 食べる taberu → 食べない tabenai). Exceptions include the verb ある (aru) 'to exist' which becomes ない (nai) in the negative present tense (not あらない). This rule also applies to the polite form: あります → ありません.",
+    "concept_examples": [
+      {
+        "text": "私はコーヒーを飲みません。",
+        "translation": "I do not drink coffee.",
+        "phonetic": "watashi wa kōhī o nomimasen."
+      },
+      {
+        "text": "これは大きくないです。",
+        "translation": "This is not big.",
+        "phonetic": "kore wa ōkikunai desu."
+      },
+      {
+        "text": "彼は学生じゃないです。",
+        "translation": "He is not a student.",
+        "phonetic": "kare wa gakusei janai desu."
+      },
+      {
+        "text": "ここに本がありません。",
+        "translation": "There is no book here.",
+        "phonetic": "koko ni hon ga arimasen."
+      }
+    ],
+    "common_error": {
+      "wrong": "私はコーヒーを飲みない。",
+      "correct": "私はコーヒーを飲みません。",
+      "correct_alt": "私はコーヒーを飲まない。",
+      "explanation": "English speakers may try to use 'not' as a separate word or add '-nai' to the masu-form incorrectly. The correct negative of 飲みます (nomimasu) is 飲みません (nomimasen) in polite speech, or 飲まない (nomanai) in casual speech. The pattern is to change -masu to -masen, not to simply add -nai to the masu stem."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "動詞の否定（丁寧形）",
+        "translation": "Verb Negation (Polite Form)",
+        "examples": [
+          {
+            "original": "私はテレビを見ません。",
+            "phonetic": "watashi wa terebi o mimasen.",
+            "translation": "I do not watch TV.",
+            "note": "The verb 見ます (mimasu) becomes 見ません (mimasen) by replacing -masu with -masen."
+          },
+          {
+            "original": "彼は毎日働きません。",
+            "phonetic": "kare wa mainichi hatarakimasen.",
+            "translation": "He does not work every day.",
+            "note": "働きます (hatarakimasu) → 働きません (hatarakimasen)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "い形容詞の否定",
+        "translation": "Negation of い-Adjectives",
+        "examples": [
+          {
+            "original": "この映画は面白くないです。",
+            "phonetic": "kono eiga wa omoshirokunai desu.",
+            "translation": "This movie is not interesting.",
+            "note": "面白い (omoshiroi) → 面白くない (omoshirokunai) by dropping the final い and adding くない."
+          },
+          {
+            "original": "あの店は高くないです。",
+            "phonetic": "ano mise wa takakunai desu.",
+            "translation": "That store is not expensive.",
+            "note": "高い (takai) → 高くない (takakunai)."
+          },
+          {
+            "original": "今日は寒くないです。",
+            "phonetic": "kyō wa samukunai desu.",
+            "translation": "It is not cold today.",
+            "note": "寒い (samui) → 寒くない (samukunai)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "名詞・な形容詞の否定",
+        "translation": "Negation of Nouns and な-Adjectives",
+        "examples": [
+          {
+            "original": "私は先生じゃないです。",
+            "phonetic": "watashi wa sensei janai desu.",
+            "translation": "I am not a teacher.",
+            "note": "For nouns, add じゃない (janai) after the noun."
+          },
+          {
+            "original": "この部屋はきれいじゃないです。",
+            "phonetic": "kono heya wa kirei janai desu.",
+            "translation": "This room is not clean.",
+            "note": "きれい (kirei) is a な-adjective; its negative is じゃない (janai) attached."
+          },
+          {
+            "original": "彼は元気じゃないです。",
+            "phonetic": "kare wa genki janai desu.",
+            "translation": "He is not healthy/energetic.",
+            "note": "元気 (genki) is a な-adjective meaning 'healthy/energetic'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙅",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic Negation"
+    }
+  },
+  {
+    "id": "en_A1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "基本的な質問（疑問詞とYes/No質問）",
+    "bridge": "In English, questions are formed by inverting word order (e.g., 'Are you...?') or using question words at the start (e.g., 'What is...?'). Japanese keeps the same word order for statements and questions, and simply adds the particle か (ka) at the end to turn a statement into a yes/no question. For wh-questions, question words (like 何, どこ, 誰) replace the unknown element but stay in their original position, and the sentence still ends with か. A common trap is that Japanese question words cannot be moved to the front, and the particle は marks the topic, which may confuse English speakers who expect 'What is your name?' to follow English word order.",
+    "rule": "In Japanese, yes/no questions are formed by adding the sentence-final particle か to the end of a statement. There is no change in word order and no auxiliary verb like 'do' or 'does'. For example: あなたは学生です (You are a student) becomes あなたは学生ですか (Are you a student?). For wh-questions, the question word (e.g., なに/なん - what, どこ - where, だれ - who, いつ - when, なぜ - why, どうして - why, いくつ - how many, いくら - how much) stays in the same position as the answer would be, and the sentence still ends with か. The topic particle は marks the subject/topic, and when the question word is the topic, it is followed by は (e.g., だれが vs だれは is rarely used; typically use が for subject questions). For polite questions at A1 level, use the -ですか form for nouns/adjectives and -ますか for verbs. Short answers: はい (yes) or いいえ (no), often followed by the correct answer. Note: In casual speech, か can be omitted, but for A1, always include it in polite questions.",
+    "concept_examples": [
+      {
+        "text": "あなたは学生ですか。",
+        "translation": "Are you a student?",
+        "phonetic": "a.na.ta.wa ga.ku.seː.de.su.ka"
+      },
+      {
+        "text": "これは何ですか。",
+        "translation": "What is this?",
+        "phonetic": "ko.re.wa na.n de.su.ka"
+      },
+      {
+        "text": "トイレはどこですか。",
+        "translation": "Where is the restroom?",
+        "phonetic": "to.i.re.wa do.ko de.su.ka"
+      },
+      {
+        "text": "あなたの名前は何ですか。",
+        "translation": "What is your name?",
+        "phonetic": "a.na.ta.no na.ma.e.wa na.n de.su.ka"
+      }
+    ],
+    "common_error": {
+      "wrong": "何ですかあなたの名前。",
+      "correct": "あなたの名前は何ですか。",
+      "correct_alt": "お名前は何ですか。",
+      "explanation": "Japanese does not move question words to the front like English. 'What is your name?' in English puts 'what' first, but Japanese keeps the normal subject-topic-complement order and places the question word where the answer would go. Also, the topic particle は ('wa') must attach to the topic (your name), not to the question word. A common mistake is to directly translate English word order; instead, remember: topical information first, then the question word, and end with か."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Yes/No質問",
+        "translation": "Yes/No Questions",
+        "examples": [
+          {
+            "original": "あなたは日本人ですか。",
+            "phonetic": "a.na.ta.wa ni.hoɲ.dʑiɴ.de.su.ka",
+            "translation": "Are you Japanese?",
+            "note": "Polite yes/no question using ですか. Answer with はい or いいえ."
+          },
+          {
+            "original": "これは本ですか。",
+            "phonetic": "ko.re.wa hoɴ.de.su.ka",
+            "translation": "Is this a book?",
+            "note": "Yes/no question with a noun predicate. Note: は marks the topic 'this'."
+          },
+          {
+            "original": "毎日働きますか。",
+            "phonetic": "ma.i.n.ʨi ha.ta.ra.ki.ma.su.ka",
+            "translation": "Do you work every day?",
+            "note": "Verb question using -ますか. No auxiliary verb; just add か."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "何・どこ・誰",
+        "translation": "What, Where, Who",
+        "examples": [
+          {
+            "original": "それは何ですか。",
+            "phonetic": "so.re.wa na.n de.su.ka",
+            "translation": "What is that?",
+            "note": "何 (nani/なん) is used for 'what'. Here it's なん because the following で is a consonant."
+          },
+          {
+            "original": "あなたはどこに住んでいますか。",
+            "phonetic": "a.na.ta.wa do.ko.ni suɴ.de i.ma.su.ka",
+            "translation": "Where do you live?",
+            "note": "どこ means 'where'. The verb 住んでいます is a progressive form for 'living'."
+          },
+          {
+            "original": "あの人は誰ですか。",
+            "phonetic": "a.no.hi.to.wa da.re de.su.ka",
+            "translation": "Who is that person?",
+            "note": "誰 (dare) means 'who'. Note that the question word stays in place."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "いつ・なぜ・いくつ",
+        "translation": "When, Why, How Many",
+        "examples": [
+          {
+            "original": "誕生日はいつですか。",
+            "phonetic": "taɲ.dʑoː.bi.wa i.tsu de.su.ka",
+            "translation": "When is your birthday?",
+            "note": "いつ (itsu) means 'when'. The topic は follows 誕生日."
+          },
+          {
+            "original": "なぜ日本語を勉強しますか。",
+            "phonetic": "na.ze ni.hoɴ.go.wo beɴ.kjoː.ɕi.ma.su.ka",
+            "translation": "Why do you study Japanese?",
+            "note": "なぜ (naze) is formal 'why'. どうして (dou shite) is more casual."
+          },
+          {
+            "original": "兄弟は何人いますか。",
+            "phonetic": "kjoː.da.i.wa na.n.ɲiɴ i.ma.su.ka",
+            "translation": "How many siblings do you have?",
+            "note": "何人 (nan-nin) is used for counting people. いくつ (ikutsu) is for how many things (not people)."
+          }
+        ]
+      }
+    ],
+    "emoji": "❓",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic Questions (Wh-questions & Yes/No)"
+    }
+  },
+  {
+    "id": "en_A1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "数字1-100 Numbers 1-100",
+    "bridge": "In English, numbers are irregular up to 12 and then follow a pattern with '-teen' and '-ty'. Japanese numbers are more regular but have important irregularities at 4, 7, and 9, which change pronunciation depending on the counting context. Also, unlike English, Japanese doesn't use a word for 'and' when forming numbers like 21 (it's just 'twenty-one' → 'ni-juu-ichi'). The biggest trap for English speakers is the double-digit formation: 10 is 'juu', 20 is 'ni-juu' (literally '2-10'), not a new word like 'twenty'.",
+    "rule": "Japanese numbers are based on units: 1 (ichi), 2 (ni), 3 (san), 4 (shi/yon), 5 (go), 6 (roku), 7 (shichi/nana), 8 (hachi), 9 (kyuu/ku), 10 (juu). Compound numbers from 11 to 99 are formed by combining these: 11 = juu-ichi (10+1), 20 = ni-juu (2×10), 21 = ni-juu-ichi. There is no word for 'zero' in general counting (zero is used for phone numbers etc.), but 0 is 'rei' or 'zero'. The number 4 is often read as 'yon' and 7 as 'nana' in compound numbers to avoid the unlucky reading 'shi' (death) and 'shichi' (which is easy to confuse). When counting objects, there are additional counters (like '-ko', '-hon', '-mai'), but for pure numbers 1-100, these basic forms are used. In lists or when reciting numbers, 'shi' and 'shichi' are common, but in compound numbers, 'yon' and 'nana' are preferred.",
+    "concept_examples": [
+      {
+        "text": "いち、に、さん、し、ご、ろく、しち、はち、きゅう、じゅう。",
+        "translation": "One, two, three, four, five, six, seven, eight, nine, ten.",
+        "phonetic": "[it͡ɕi, ɲi, saɴ, ɕi, ɡo, ɾokɯ, ɕit͡ɕi, hat͡ɕi, kʲɯː, d͡ʑɯː]"
+      },
+      {
+        "text": "じゅういち、じゅうに、じゅうさん。",
+        "translation": "Eleven, twelve, thirteen.",
+        "phonetic": "[d͡ʑɯːit͡ɕi, d͡ʑɯːɲi, d͡ʑɯːsaɴ]"
+      },
+      {
+        "text": "にじゅう、にじゅういち、にじゅうに。",
+        "translation": "Twenty, twenty-one, twenty-two.",
+        "phonetic": "[ɲid͡ʑɯː, ɲid͡ʑɯːit͡ɕi, ɲid͡ʑɯːɲi]"
+      },
+      {
+        "text": "よんじゅう、ななじゅう、きゅうじゅう。",
+        "translation": "Forty, seventy, ninety.",
+        "phonetic": "[joɲd͡ʑɯː, nanad͡ʑɯː, kʲɯːd͡ʑɯː]"
+      }
+    ],
+    "common_error": {
+      "wrong": "しじゅうご (shi-juu-go) for 45",
+      "correct": "よんじゅうご (yon-juu-go)",
+      "correct_alt": "",
+      "explanation": "Many English speakers use 'shi' for 4 because they learn the basic count, but in compound numbers like 45, 'shi' is replaced by 'yon' to avoid the association with death and to be clearer. Always use 'yon' for 4 in numbers above 10 (and often in standalone counting). For 7, 'shichi' is common but 'nana' is preferred in compounds like 70 (nana-juu)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本の数字 (1-10)",
+        "translation": "Basic numbers (1-10)",
+        "examples": [
+          {
+            "original": "いち、に、さん、よん、ご、ろく、なな、はち、きゅう、じゅう。",
+            "phonetic": "[it͡ɕi, ɲi, saɴ, joɴ, ɡo, ɾokɯ, nana, hat͡ɕi, kʲɯː, d͡ʑɯː]",
+            "translation": "One, two, three, four, five, six, seven, eight, nine, ten.",
+            "note": "Note that 4 is 'yon' and 7 is 'nana' in this list; these are common in informal counting. In formal recitation, 'shi' and 'shichi' are also used."
+          },
+          {
+            "original": "りんごをよっつください。",
+            "phonetic": "[ɾiɴɡo o jott͡sɯ kɯdasai]",
+            "translation": "Please give me four apples.",
+            "note": "When counting objects, special counters are used; 'yottsu' is the counter for four items, showing that 4 has multiple forms."
+          },
+          {
+            "original": "じゅうはじゅうです。",
+            "phonetic": "[d͡ʑɯː wa d͡ʑɯː desɯ]",
+            "translation": "Ten is ten.",
+            "note": "Simple statement to reinforce the word for ten."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "十と二十 (10, 20, ... 90)",
+        "translation": "Tens (10, 20, ... 90)",
+        "examples": [
+          {
+            "original": "じゅう、にじゅう、さんじゅう、よんじゅう、ごじゅう、ろくじゅう、ななじゅう、はちじゅう、きゅうじゅう。",
+            "phonetic": "[d͡ʑɯː, ɲid͡ʑɯː, saɴd͡ʑɯː, joɲd͡ʑɯː, ɡod͡ʑɯː, ɾokɯd͡ʑɯː, nanad͡ʑɯː, hat͡ɕid͡ʑɯː, kʲɯːd͡ʑɯː]",
+            "translation": "Ten, twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety.",
+            "note": "Just like English 'twenty' is not 'two-ten', but Japanese is regular: 'ni-juu' (2-10)."
+          },
+          {
+            "original": "にじゅうにんのせんせいがいます。",
+            "phonetic": "[ɲid͡ʑɯːɲiɴ no seɴseː ɡa imasɯ]",
+            "translation": "There are twenty-two teachers.",
+            "note": "Using 'juu' in context; here 'ni-juu-ni' means 22."
+          },
+          {
+            "original": "さんじゅうごふんかかります。",
+            "phonetic": "[saɴd͡ʑɯːɡoɸɯɴ kakari masɯ]",
+            "translation": "It takes thirty-five minutes.",
+            "note": "Notice that 35 is 'san-juu-go' (3-10-5)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "つなげる数字 (11-99)",
+        "translation": "Combining numbers (11-99)",
+        "examples": [
+          {
+            "original": "じゅういち、じゅうに、じゅうさん、じゅうよん、じゅうご、じゅうろく、じゅうなな、じゅうはち、じゅうきゅう。",
+            "phonetic": "[d͡ʑɯːit͡ɕi, d͡ʑɯːɲi, d͡ʑɯːsaɴ, d͡ʑɯːjoɴ, d͡ʑɯːɡo, d͡ʑɯːɾokɯ, d͡ʑɯːnana, d͡ʑɯːhat͡ɕi, d͡ʑɯːkʲɯː]",
+            "translation": "Eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen.",
+            "note": "Notice how 11 is literally 'ten-one', 12 is 'ten-two', etc., unlike English irregular forms."
+          },
+          {
+            "original": "にじゅういち、にじゅうに、にじゅうさん…にじゅうきゅう。",
+            "phonetic": "[ɲid͡ʑɯːit͡ɕi, ɲid͡ʑɯːɲi, ɲid͡ʑɯːsaɴ…ɲid͡ʑɯːkʲɯː]",
+            "translation": "Twenty-one, twenty-two, twenty-three…twenty-nine.",
+            "note": "All numbers 21-29 are formed by 'ni-juu' plus the unit."
+          },
+          {
+            "original": "よんじゅうよん。",
+            "phonetic": "[joɲd͡ʑɯːjoɴ]",
+            "translation": "Forty-four.",
+            "note": "Here both 4s use 'yon', showing the preference for 'yon' in compounds."
+          },
+          {
+            "original": "ななじゅうなな。",
+            "phonetic": "[nanad͡ʑɯːnana]",
+            "translation": "Seventy-seven.",
+            "note": "Both 7s use 'nana'; using 'shichi' would be less common."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "en": "Numbers 1-100"
+    }
+  },
+  {
+    "id": "en_A1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "形容詞の基本 (Basic Adjectives)",
+    "bridge": "In English, adjectives are invariable: 'a red car' and 'red cars' use the same 'red'. In Japanese, adjectives come in two types — い-adjectives (like 赤い) and な-adjectives (like 静か) — and they can change form to indicate past tense, negation, and (for い-adjectives) sometimes intensity. The biggest trap for English speakers is that Japanese adjectives must be placed before the noun, just like in English, so that part is easy. However, い-adjectives drop their final い when used with certain structures (e.g., 赤くない for negation), while な-adjectives take な before a noun (静かな部屋). Also, when using them as predicates, い-adjectives don't need a copula (部屋は赤い), but な-adjectives do (部屋は静かだ).",
+    "rule": "In Japanese, adjectives are classified into two groups: い-adjectives (ending in -い) and な-adjectives (which do not end in -い, and require the attributive form な when modifying a noun). Both types appear before the noun they modify. For positive present tense statements with い-adjectives, the predicate form is simply the adjective itself (e.g., 部屋は大きい - 'the room is big'). For な-adjectives, you add the copula だ (or です for polite) after the adjective (e.g., 部屋は静かだ - 'the room is quiet'). Negation: for い-adjectives, replace the final い with くない (e.g., 大きくない - 'not big'); for な-adjectives, use ではない (or じゃない) after the adjective (e.g., 静かではない - 'not quiet'). Past tense: い-adjectives replace final い with かった (e.g., 大きかった - 'was big'); な-adjectives take だった (e.g., 静かだった - 'was quiet'). This concept covers the basic positive present forms for A1.",
+    "concept_examples": [
+      {
+        "text": "赤い車",
+        "translation": "Red car",
+        "phonetic": "/aka.i kuruma/"
+      },
+      {
+        "text": "大きい犬",
+        "translation": "Big dog",
+        "phonetic": "/oːkii inu/"
+      },
+      {
+        "text": "静かな部屋",
+        "translation": "Quiet room",
+        "phonetic": "/ɕizuka na heja/"
+      }
+    ],
+    "common_error": {
+      "wrong": "部屋は静かですです。",
+      "correct": "部屋は静かです。",
+      "correct_alt": "部屋は静か。",
+      "explanation": "This error occurs because learners sometimes carry over the English pattern 'is quiet' as two elements: the adjective + the copula. In Japanese, for な-adjectives, the copula (です) is added only once. For い-adjectives, the copula is not needed at all, so '部屋は大きいです' is correct, not '部屋は大きいだです'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "い形容詞 (い-adjectives)",
+        "translation": "i-adjectives",
+        "examples": [
+          {
+            "original": "高いビル",
+            "phonetic": "/takai biru/",
+            "translation": "Tall building",
+            "note": "い-adjective 高い ends in -い and directly modifies the noun."
+          },
+          {
+            "original": "新しい本",
+            "phonetic": "/atarasii hon/",
+            "translation": "New book",
+            "note": "Remember that い-adjectives always end in the hiragana い, but some kanji represent い sounds."
+          },
+          {
+            "original": "寒い日",
+            "phonetic": "/samui hi/",
+            "translation": "Cold day",
+            "note": "Use this adjective to describe weather, not objects."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "な形容詞 (な-adjectives)",
+        "translation": "na-adjectives",
+        "examples": [
+          {
+            "original": "静かな公園",
+            "phonetic": "/ɕizuka na kouen/",
+            "translation": "Quiet park",
+            "note": "な-adjectives require な before the noun. 静か does not end in -い."
+          },
+          {
+            "original": "有名な先生",
+            "phonetic": "/juːmeː na sensei/",
+            "translation": "Famous teacher",
+            "note": "有名な is a な-adjective meaning 'famous'."
+          },
+          {
+            "original": "元気な子供",
+            "phonetic": "/genki na kodomo/",
+            "translation": "Energetic child",
+            "note": "元気な often used to describe health or vitality."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "予測文 (Predicate sentences)",
+        "translation": "Predicate sentences",
+        "examples": [
+          {
+            "original": "この車は新しいです。",
+            "phonetic": "/kono kuruma wa atarasii desu/",
+            "translation": "This car is new.",
+            "note": "For い-adjectives in a predicate, you can add です for politeness, but it does not change the adjective."
+          },
+          {
+            "original": "あの部屋は静かです。",
+            "phonetic": "/ano heja wa ɕizuka desu/",
+            "translation": "That room is quiet.",
+            "note": "な-adjectives require です (or だ) as the copula in polite speech."
+          },
+          {
+            "original": "私の犬は小さいです。",
+            "phonetic": "/watashi no inu wa chiisai desu/",
+            "translation": "My dog is small.",
+            "note": "Remember the word order: subject + は + adjective + です."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic adjectives and agreement"
+    }
+  },
+  {
+    "id": "en_A1_gram_10",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "わたしの あなたの ～の (possessives)",
+    "bridge": "In Spanish, possessives change according to the person (mi, tu, su...) and the gender/number of the possessed object (mi libro, mis libros, mi casa). In Japanese, there is no gender or number for possessives: you only add the particle の to the personal pronoun. For example, わたし (I) → わたしの = my. Another key difference: in Spanish we use 'su' for he/she/you/they, but in Japanese each person has its own form (かれの, かのじょの, あなたの...). Be careful: do not omit the particle の, because without it the meaning changes.",
+    "rule": "Possession in Japanese is expressed by adding the particle の to the personal pronoun or the noun that indicates the possessor. The structure is: [possessor] + の + [possessed thing]. There is no gender or number agreement. The main forms for A1 are: わたしの (my), あなたの (your), かれの (his), かのじょの (her), わたしたちの (our), あなたたちの (your plural or your formal), かれらの (their), かのじょらの (their feminine). To ask 'whose?' you use だれの. The particle の can also join two nouns: にほんごのほん (a Japanese language book). There is no possessive article (el mío, la tuya); instead, の is used with the thing: わたしの です (it's mine).",
+    "concept_examples": [
+      {
+        "text": "これは わたしの ほんです。",
+        "translation": "This is my book.",
+        "phonetic": "kore wa watashi no hon desu."
+      },
+      {
+        "text": "あなたの ねこは かわいいですね。",
+        "translation": "Your cat is cute, isn't it?",
+        "phonetic": "anata no neko wa kawaii desu ne."
+      },
+      {
+        "text": "かれの くるまは あかいです。",
+        "translation": "His car is red.",
+        "phonetic": "kare no kuruma wa akai desu."
+      },
+      {
+        "text": "わたしたちの がっこうは おおきいです。",
+        "translation": "Our school is big.",
+        "phonetic": "watashitachi no gakkou wa ookii desu."
+      }
+    ],
+    "common_error": {
+      "wrong": "これは わたし ほんです。",
+      "correct": "これは わたしの ほんです。",
+      "correct_alt": "これは わたしの です。",
+      "explanation": "The error occurs because in Spanish we say 'mi libro' without needing a special particle, but in Japanese it is essential to include の between the possessor and the possessed. Omitting の makes the sentence incorrect. To avoid it, remember the formula: possessor + の + object. You can also note that the particle の works like 'of' in Spanish: わたしの = of me, that is, mine."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "わたしの / あなたの",
+        "translation": "My / Your",
+        "examples": [
+          {
+            "original": "これは わたしの ペンです。",
+            "phonetic": "kore wa watashi no pen desu.",
+            "translation": "This is my pen.",
+            "note": "Note that わたしの can be used for both masculine and feminine, and it does not change if the object is singular or plural."
+          },
+          {
+            "original": "あなたの かばんは どこですか。",
+            "phonetic": "anata no kaban wa doko desu ka.",
+            "translation": "Where is your bag?",
+            "note": "あなたの translates as 'your' in Spanish, but keep in mind that in Japanese using あなた can sound very direct in conversations; often the subject is omitted."
+          },
+          {
+            "original": "わたしの いえは ちいさいです。",
+            "phonetic": "watashi no ie wa chiisai desu.",
+            "translation": "My house is small.",
+            "note": "The particle の joins the possessor (わたし) with the thing (いえ). There is no special plural form: わたしの いえ can be 'my house' or 'my houses' depending on context."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "かれの / かのじょの",
+        "translation": "His / Her",
+        "examples": [
+          {
+            "original": "かれの なまえは たろうです。",
+            "phonetic": "kare no namae wa tarou desu.",
+            "translation": "His name is Tarō.",
+            "note": "かれの is used only for 'he'. It cannot be used for 'she'. Unlike Spanish, where 'su' is ambiguous, here it is explicit."
+          },
+          {
+            "original": "かのじょの でんわばんごうを しっていますか。",
+            "phonetic": "kanojo no denwabangou wo shitte imasu ka.",
+            "translation": "Do you know her phone number?",
+            "note": "かのじょの means 'her'. Remember that in Japanese, when the context is clear, possessive pronouns are often omitted."
+          },
+          {
+            "original": "これは かれの ほんです。わたしのではありません。",
+            "phonetic": "kore wa kare no hon desu. watashi no dewa arimasen.",
+            "translation": "This is his book. It is not mine.",
+            "note": "To say 'it is not mine' you use わたしのではありません. Here の functions as a possessive pronoun (mine)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "わたしたちの / あなたたちの / かれらの",
+        "translation": "Our / Your (plural) / Their",
+        "examples": [
+          {
+            "original": "わたしたちの せんせいは やさしいです。",
+            "phonetic": "watashitachi no sensei wa yasashii desu.",
+            "translation": "Our teacher is kind.",
+            "note": "わたしたち means 'we'. Adding の gives 'our'. There is no gender distinction: it can be 'our' for masculine, feminine, or plural."
+          },
+          {
+            "original": "あなたたちの りょこうは たのしかったですか。",
+            "phonetic": "anatatachi no ryokou wa tanoshikatta desu ka.",
+            "translation": "Was your trip fun?",
+            "note": "あなたたち is the plural form of 'you', but in Japanese it is used less than in Spanish; often the group's name is said or it is omitted."
+          },
+          {
+            "original": "かれらの こどもは げんきです。",
+            "phonetic": "karera no kodomo wa genki desu.",
+            "translation": "Their children are fine.",
+            "note": "かれら means 'they'. If the group is mixed or only girls, sometimes かのじょら (they, feminine) is used for emphasis."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔑",
+    "phonetic": "",
+    "translations": {
+      "en": "Possessives"
+    }
+  },
+  {
+    "id": "en_A1_gram_11",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "こそあど (Kosoado) / Demonstratives",
+    "bridge": "In Spanish, demonstratives (este, ese, aquel) vary according to distance relative to the speaker and listener. In Japanese, there is a system of four words: こ (ko) for near the speaker, そ (so) for near the listener, あ (a) for far from both, and ど (do) for questions. Unlike Spanish, there is no gender or number distinction in Japanese demonstratives, so you must pay attention to context and the position of the interlocutors.",
+    "rule": "Japanese demonstratives are formed by combining the prefixes こ, そ, あ, ど with suffixes like れ (thing), の (possessive adjective), こ (place), ちら (direction/option). For objects: これ (this), それ (that), あれ (that over there). For places: ここ (here), そこ (there), あそこ (over there). For adjectives: この + noun (this), その + noun (that), あの + noun (that over there). For questions: どれ (which one?), どこ (where?), どの + noun (which?). They do not change according to gender or number. They are used with particles like は (topic), が (subject), を (object). At A1, it is essential to master the basic forms with れ and の.",
+    "concept_examples": [
+      {
+        "text": "これは ほんです。",
+        "translation": "This is a book.",
+        "phonetic": "koɾe wa hoɴ desɯ"
+      },
+      {
+        "text": "それは あなたの ペンですか。",
+        "translation": "Is that your pen?",
+        "phonetic": "soɾe wa anata no peɴ desɯ ka"
+      },
+      {
+        "text": "あれは やまです。",
+        "translation": "That over there is a mountain.",
+        "phonetic": "aɾe wa jama desɯ"
+      },
+      {
+        "text": "この くつは あかいです。",
+        "translation": "These shoes are red.",
+        "phonetic": "kono kɯtsɯ wa akai desɯ"
+      }
+    ],
+    "common_error": {
+      "wrong": "これは ペン です。 (using これ to refer to something near the listener)",
+      "correct": "それは ペン です。",
+      "correct_alt": "その ペン です。",
+      "explanation": "In Spanish, 'eso' and 'esto' can be used flexibly, but in Japanese the difference between これ (near the speaker) and それ (near the listener) is crucial. If the object is near the person you are speaking with, use それ. You can also use その + noun to emphasize the specific object. Practice by visualizing the physical position in the dialogue."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "これ・それ・あれ",
+        "translation": "This, that, that over there (things)",
+        "examples": [
+          {
+            "original": "これは なにですか。",
+            "phonetic": "koɾe wa nani desɯ ka",
+            "translation": "What is this?",
+            "note": "Use これ when the object is near you (the speaker)."
+          },
+          {
+            "original": "それは かばんです。",
+            "phonetic": "soɾe wa kabaɴ desɯ",
+            "translation": "That is a bag.",
+            "note": "Use それ for something near the listener, not you."
+          },
+          {
+            "original": "あれは くるまです。",
+            "phonetic": "aɾe wa kɯɾɯma desɯ",
+            "translation": "That over there is a car.",
+            "note": "あれ is used for objects far from both, visible or known to both."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "この・その・あの",
+        "translation": "This, that, that over there (with noun)",
+        "examples": [
+          {
+            "original": "この ほんは おもしろいです。",
+            "phonetic": "kono hoɴ wa omoɕiɾoi desɯ",
+            "translation": "This book is interesting.",
+            "note": "この is always followed by a noun (この + book)."
+          },
+          {
+            "original": "その ねこは しろいです。",
+            "phonetic": "sono neko wa ɕiɾoi desɯ",
+            "translation": "That cat is white.",
+            "note": "その indicates the cat is near the listener or already mentioned."
+          },
+          {
+            "original": "あの たてものは ゆうめいです。",
+            "phonetic": "ano tatemono wa jɯːmeː desɯ",
+            "translation": "That building over there is famous.",
+            "note": "あの is used for something far from both, but known or visible."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "ここ・そこ・あそこ",
+        "translation": "Here, there, over there (places)",
+        "examples": [
+          {
+            "original": "ここは がっこうです。",
+            "phonetic": "koko wa gaQkoː desɯ",
+            "translation": "Here is the school.",
+            "note": "ここ indicates the place where the speaker is."
+          },
+          {
+            "original": "そこは としょかんですか。",
+            "phonetic": "soko wa toɕokaɴ desɯ ka",
+            "translation": "Is that the library?",
+            "note": "そこ refers to the place where the listener is."
+          },
+          {
+            "original": "あそこに こうえんが あります。",
+            "phonetic": "asoko ni koːeɴ ga aɾimasɯ",
+            "translation": "There is a park over there.",
+            "note": "あそこ is for places far from both. Remember the particle に to indicate existence."
+          }
+        ]
+      }
+    ],
+    "emoji": "👉",
+    "phonetic": "",
+    "translations": {
+      "en": "Demonstratives"
+    }
+  },
+  {
+    "id": "en_A1_gram_12",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "あります / います (There is / Existence)",
+    "bridge": "In Spanish, we use 'hay' to indicate existence of both objects and people, without distinguishing whether they are animate or inanimate. In Japanese, existence is expressed with two different verbs: あります (aru) for inanimate things (objects, plants, phenomena) and います (iru) for animate beings (people, animals). This distinction is essential and has no direct equivalent in Spanish, so you must pay attention to the subject of the sentence.",
+    "rule": "To express existence in Japanese, we use あります (aru) for inanimate objects (tables, books, buildings, etc.) and います (iru) for animate beings (people, animals, insects). The basic structure is: [Place] に [Subject] が あります/います. The place is marked with the particle に and the subject with が. In affirmative sentences, the particle が is obligatory to mark the subject of existence. For negation, use ありません (from あります) and いません (from います). To ask if something exists, add か at the end. Examples: 部屋にテレビがあります (There is a TV in the room), 公園に子供がいます (There is a child in the park). Remember that in Spanish we can omit the place, but in Japanese it is common to specify it with に.",
+    "concept_examples": [
+      {
+        "text": "部屋に机があります。",
+        "translation": "There is a desk in the room.",
+        "phonetic": "/heja ni tsukue ga aɾimasɯ/",
+        "note": "Use of あります with inanimate object (机)."
+      },
+      {
+        "text": "公園に猫がいます。",
+        "translation": "There is a cat in the park.",
+        "phonetic": "/koːen ni neko ga imasɯ/",
+        "note": "Use of います with animate being (猫)."
+      },
+      {
+        "text": "冷蔵庫に食べ物がありません。",
+        "translation": "There is no food in the refrigerator.",
+        "phonetic": "/reːzoːkoː ni tabemono ga aɾimasen/",
+        "note": "Negation with ありません (there is no for inanimates)."
+      },
+      {
+        "text": "学校に先生がいますか。",
+        "translation": "Is there a teacher at school?",
+        "phonetic": "/gakkoː ni senseː ga imasɯka/",
+        "note": "Question with います for a person."
+      }
+    ],
+    "common_error": {
+      "wrong": "部屋にテレビがいます。",
+      "correct": "部屋にテレビがあります。",
+      "correct_alt": "",
+      "explanation": "The most common error is using います with inanimate objects (like a TV) because in Spanish 'hay' does not distinguish. Remember that います is only for living beings (people, animals). For objects, use あります. To avoid this error, ask: 'Does it have its own life?' If the answer is no, use あります."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "あります (objetos inanimados)",
+        "translation": "あります (inanimate objects)",
+        "examples": [
+          {
+            "original": "本があります。",
+            "phonetic": "/hoɴ ga aɾimasɯ/",
+            "translation": "There is a book.",
+            "note": "Basic use of あります without a specific place."
+          },
+          {
+            "original": "机の上に本があります。",
+            "phonetic": "/tsɯke no ue ni hoɴ ga aɾimasɯ/",
+            "translation": "There is a book on the desk.",
+            "note": "The place is introduced with に: 机の上に."
+          },
+          {
+            "original": "庭に木があります。",
+            "phonetic": "/niwa ni ki ga aɾimasɯ/",
+            "translation": "There is a tree in the garden.",
+            "note": "Trees are considered inanimate in this structure; even though they have life, あります is used."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "います (seres animados)",
+        "translation": "います (animate beings)",
+        "examples": [
+          {
+            "original": "犬がいます。",
+            "phonetic": "/inɯ ga imasɯ/",
+            "translation": "There is a dog.",
+            "note": "Basic use of います with an animal."
+          },
+          {
+            "original": "教室に学生がいます。",
+            "phonetic": "/kjoːɕitsɯ ni gakɯseː ga imasɯ/",
+            "translation": "There are students in the classroom.",
+            "note": "Place marked with に and subject with が."
+          },
+          {
+            "original": "椅子の下に猫がいます。",
+            "phonetic": "/isɯ no ɕita ni neko ga imasɯ/",
+            "translation": "There is a cat under the chair.",
+            "note": "Position: の下に (under)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negación y preguntas",
+        "translation": "Negation and questions",
+        "examples": [
+          {
+            "original": "お金がありません。",
+            "phonetic": "/okane ga aɾimasen/",
+            "translation": "There is no money.",
+            "note": "Negation of あります: ありません."
+          },
+          {
+            "original": "友達がいません。",
+            "phonetic": "/tomodaʨi ga imasen/",
+            "translation": "There are no friends.",
+            "note": "Negation of います: いません."
+          },
+          {
+            "original": "スーパーにパンがありますか。",
+            "phonetic": "/sɯːpaː ni paɴ ga aɾimasɯka/",
+            "translation": "Is there bread at the supermarket?",
+            "note": "Question with あります + か."
+          },
+          {
+            "original": "駅にトイレがありますか。",
+            "phonetic": "/eki ni toire ga aɾimasɯka/",
+            "translation": "Is there a restroom at the station?",
+            "note": "Common question for travelers."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "en": "There is / Existence"
+    }
+  },
+  {
+    "id": "en_A1_gram_13",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "場所の ことば (Place words)",
+    "bridge": "In Spanish we use prepositions like \"en\", \"sobre\", \"debajo de\" followed by a noun (for example, \"el libro está en la mesa\"). In Japanese, these relationships are expressed with particles that are placed AFTER the noun, such as に (ni) to indicate existence or location, and の うえ (no ue) for \"on top of\". The structure is completely different: in Japanese the verb goes at the end, and the particle に indicates the location point, similar to \"en\" but more specific for existence.",
+    "rule": "To express place in Japanese at A1 level, the particle に (ni) is used after the place noun when combined with the verbs あります (aru, for inanimate objects) or います (iru, for animate beings). For example: 本は 机の うえに あります (the book is on top of the desk). The structure is: [place noun] + に + verb at the end. Additionally, compound prepositions are formed with の うえ (on top of), の した (under), の なか (inside), の そば (next to), の まえ (in front of), の うしろ (behind). These are placed after the reference object, before に. There is no change in gender or number. The verb is chosen according to the animacy of the subject: あります for things and plants, います for people and animals. In Spanish, you say \"el gato está debajo de la silla\" but in Japanese the order is reversed: 猫は いすの したに います.",
+    "concept_examples": [
+      {
+        "text": "本は 机の うえに あります。",
+        "translation": "The book is on top of the desk.",
+        "phonetic": "/hoɴ wa tsukue no ue ni aɾimasɯ/"
+      },
+      {
+        "text": "猫は いすの したに います。",
+        "translation": "The cat is under the chair.",
+        "phonetic": "/neko wa isɯ no ɕita ni imasɯ/"
+      },
+      {
+        "text": "りんごは かばんの なかに あります。",
+        "translation": "The apple is inside the bag.",
+        "phonetic": "/ɾiŋɡo wa kabaɴ no naka ni aɾimasɯ/"
+      },
+      {
+        "text": "先生は 学校に います。",
+        "translation": "The teacher is at school.",
+        "phonetic": "/senseː wa ɡakkoː ni imasɯ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "本は 机の うえ あります。",
+      "correct": "本は 机の うえに あります。",
+      "correct_alt": "本は 机に あります。",
+      "explanation": "The most common error among Spanish speakers is omitting the particle に because in Spanish the preposition \"en\" goes before the noun and no other marker is needed. In Japanese, に is essential to indicate location, and omitting it makes the sentence ungrammatical. Always remember to place に after the place or after the construction の うえ, の した, etc."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "場所の ことば (ことばの いみ)",
+        "translation": "Place words (meaning of words)",
+        "examples": [
+          {
+            "original": "うえ",
+            "phonetic": "/ɯe/",
+            "translation": "on top / above",
+            "note": "Used with the particle の to say \"on top of\" (e.g., 机の うえ = on top of the desk)."
+          },
+          {
+            "original": "した",
+            "phonetic": "/ɕita/",
+            "translation": "under / below",
+            "note": "Combines with の for \"under\" (e.g., いすの した = under the chair)."
+          },
+          {
+            "original": "なか",
+            "phonetic": "/naka/",
+            "translation": "inside / interior",
+            "note": "Used to indicate that something is inside a closed space (e.g., かばんの なか = inside the bag)."
+          },
+          {
+            "original": "となり",
+            "phonetic": "/tonaɾi/",
+            "translation": "next to (adjacent)",
+            "note": "Indicates that something is right next to, often something similar (e.g., 学校の となり = next to the school)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "場所を つたえる ぶん (Lugar+に+verbos)",
+        "translation": "Sentences to express place (place+に+verbs)",
+        "examples": [
+          {
+            "original": "本は つくえの うえに あります。",
+            "phonetic": "/hoɴ wa tsɯkɯe no ɯe ni aɾimasɯ/",
+            "translation": "The book is on top of the desk.",
+            "note": "We use あります because the book is an inanimate object. The structure is: topic + place + に + verb."
+          },
+          {
+            "original": "犬は いすの したに います。",
+            "phonetic": "/inɯ wa isɯ no ɕita ni imasɯ/",
+            "translation": "The dog is under the chair.",
+            "note": "We use います because the dog is a living being. The particle に goes after した."
+          },
+          {
+            "original": "りんごは はこの なかに あります。",
+            "phonetic": "/ɾiŋɡo wa hako no naka ni aɾimasɯ/",
+            "translation": "The apple is inside the box.",
+            "note": "Remember that に is used to indicate the point of existence, both for あります and います."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "もっと ばしょ (Más lugares: まえ、うしろ、そば)",
+        "translation": "More places (in front, behind, next to)",
+        "examples": [
+          {
+            "original": "車は 家の まえに あります。",
+            "phonetic": "/kɯɾɯma wa i.e no mae ni aɾimasɯ/",
+            "translation": "The car is in front of the house.",
+            "note": "まえ means \"in front\" and の is added to indicate \"in front of\"."
+          },
+          {
+            "original": "公園は 学校の うしろに あります。",
+            "phonetic": "/koːeɴ wa ɡakkoː no ɯɕiɾo ni aɾimasɯ/",
+            "translation": "The park is behind the school.",
+            "note": "うしろ (behind) combines with の and then に to indicate location."
+          },
+          {
+            "original": "銀行は 駅の そばに あります。",
+            "phonetic": "/ɡiŋkoː wa eki no soba ni aɾimasɯ/",
+            "translation": "The bank is next to the station.",
+            "note": "そば is used for \"near\" or \"next to\", similar to となり but more general."
+          }
+        ]
+      }
+    ],
+    "emoji": "📍",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic prepositions of place"
+    }
+  },
+  {
+    "id": "en_A1_gram_14",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "日付と季節の言い方（Days, months and seasons）",
+    "bridge": "In Spanish, we say 'lunes', 'enero' or 'primavera' as independent words. In Japanese, days of the week end in 曜日 (ようび), months are formed with 月 (がつ), and seasons have their own names. Also, in Japanese, prepositions like 'en' are not used to say 'on Monday' or 'in January'; the particle に is added, but only if there is a number (like 'on January 5th'), not with days of the week or months. Watch out for that!",
+    "rule": "In Japanese A1: The days of the week are: 月曜日 (げつようび, Monday), 火曜日 (かようび, Tuesday), 水曜日 (すいようび, Wednesday), 木曜日 (もくようび, Thursday), 金曜日 (きんようび, Friday), 土曜日 (どようび, Saturday), 日曜日 (にちようび, Sunday). Months are formed with the number + 月 (がつ): 一月 (いちがつ, January), 二月 (にがつ, February), etc. Exception: April is 四月 (しがつ) and July is 七月 (しちがつ). The seasons are: 春 (はる, spring), 夏 (なつ, summer), 秋 (あき, autumn), 冬 (ふゆ, winter). To express 'in [day/month/season]', に can be used only with numerical dates (e.g., 5月5日に), but with days of the week and months it can be omitted or used in specific contexts. With seasons, に is used (e.g., 春に). To ask 'what day is it today?' you say 今日は何曜日ですか。",
+    "concept_examples": [
+      {
+        "text": "今日は月曜日です。",
+        "translation": "Today is Monday.",
+        "phonetic": "[kjoː wa ɡeʦɯjoːbi desɯ]"
+      },
+      {
+        "text": "私の誕生日は五月五日です。",
+        "translation": "My birthday is May 5th.",
+        "phonetic": "[ʋataɕi no tanʥoːbi wa ɡoɡaʦɯ iʦɯka desɯ]"
+      },
+      {
+        "text": "春に桜が咲きます。",
+        "translation": "In spring, cherry blossoms bloom.",
+        "phonetic": "[haɾɯ ni saɡɯɾa ɡa sakimasɯ]"
+      },
+      {
+        "text": "七月は暑いです。",
+        "translation": "July is hot.",
+        "phonetic": "[ɕiʦiɡaʦɯ wa aʦɯi desɯ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "月曜日に私は学校へ行きます。",
+      "correct": "月曜日、私は学校へ行きます。",
+      "correct_alt": "月曜日は学校へ行きます。",
+      "explanation": "In Spanish we say 'on Monday', but in Japanese with days of the week the particle に is not necessary and sounds forced. It can be omitted or use は to mark the topic. With numerical dates, に is used (e.g., 5月5日に)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "曜日（ようび）",
+        "translation": "Days of the week",
+        "examples": [
+          {
+            "original": "月曜日",
+            "phonetic": "[ɡeʦɯjoːbi]",
+            "translation": "Monday",
+            "note": "Remember that 月 means 'moon' and 曜日 means 'day of the week'."
+          },
+          {
+            "original": "土曜日",
+            "phonetic": "[dojoːbi]",
+            "translation": "Saturday",
+            "note": "The kanji 土 means 'earth'."
+          },
+          {
+            "original": "日曜日",
+            "phonetic": "[niʨijoːbi]",
+            "translation": "Sunday",
+            "note": "日 means 'sun'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "月（がつ）",
+        "translation": "Months",
+        "examples": [
+          {
+            "original": "一月",
+            "phonetic": "[iʨiɡaʦɯ]",
+            "translation": "January",
+            "note": "It is formed with number + 月. Be careful: 一月 is not 'one month'."
+          },
+          {
+            "original": "四月",
+            "phonetic": "[ɕiɡaʦɯ]",
+            "translation": "April",
+            "note": "四月 is read 'shi-gatsu', not 'yon-gatsu'."
+          },
+          {
+            "original": "九月",
+            "phonetic": "[kʲɯːɡaʦɯ]",
+            "translation": "September",
+            "note": "九月 is read 'ku-gatsu', not 'kyuu-gatsu' (although sometimes you hear it)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "季節（きせつ）",
+        "translation": "Seasons",
+        "examples": [
+          {
+            "original": "春",
+            "phonetic": "[haɾɯ]",
+            "translation": "Spring",
+            "note": "With seasons, に is used: 春に (in spring)."
+          },
+          {
+            "original": "夏",
+            "phonetic": "[naʦɯ]",
+            "translation": "Summer",
+            "note": "夏は暑いです (summer is hot)."
+          },
+          {
+            "original": "冬",
+            "phonetic": "[hɯjɯ]",
+            "translation": "Winter",
+            "note": "冬に雪が降ります (in winter it snows)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "en": "Days, months and seasons"
+    }
+  },
+  {
+    "id": "en_A1_gram_15",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "ある / いる (tener) / To have (exist)",
+    "bridge": "In Spanish, we use the verb 'tener' both for possession ('I have a book') and existence ('there is a book'). In Japanese, two verbs are distinguished: ある (aru) for inanimate things and いる (iru) for animate beings (people, animals). Furthermore, the construction is different: you don't say 'I have', but 'in me exists'. The particle が marks what is possessed, and the possessor is indicated with に. Familiarize yourself with this logic: possession is expressed as existence with respect to a person.",
+    "rule": "To express possession in Japanese at the A1 level, use the structure: [possessor] に [thing] が ある/いる. Example: 私に本があります (watashi ni hon ga arimasu) = 'I have a book' (literally: 'In me exists a book'). The verb ある is used for inanimate objects (things, plants, ideas) and いる for animate beings (people, animals). In formal contexts, the forms あります (aru) and います (iru) are used in the affirmative present; in the negative, ありません and いません. The particle が marks the existing subject. When the possessor is obvious (like 'I'), it is often omitted: 本があります (I have a book), but in the full form に is used. To ask a question, か is added at the end: 本がありますか (Do you have a book?).",
+    "concept_examples": [
+      {
+        "text": "私に本があります。",
+        "translation": "I have a book.",
+        "phonetic": "/ɰatɕi ni hon ga aɺimasɯ/ (approximate: watashi ni hon ga arimasu)"
+      },
+      {
+        "text": "田中さんに犬がいます。",
+        "translation": "Mr. Tanaka has a dog.",
+        "phonetic": "/tana̠ka̠ saɴ ni inɯ̥ ga imasɯ/ (approximate: tanaka san ni inu ga imasu)"
+      },
+      {
+        "text": "私は車がありません。",
+        "translation": "I don't have a car.",
+        "phonetic": "/ɰatɕi ɰa kɯɽɯma̠ ga aɺima̠seɴ/ (approximate: watashi wa kuruma ga arimasen)"
+      },
+      {
+        "text": "あなたに時間がありますか。",
+        "translation": "Do you have time?",
+        "phonetic": "/ana̠ta̠ ni dʑika̠ɴ ga aɺima̠sɯ̥ ka̠/ (approximate: anata ni jikan ga arimasu ka)"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は本があります。",
+      "correct": "私に本があります。",
+      "correct_alt": "本があります。",
+      "explanation": "The common error is using は (wa) for the possessor, because in Spanish you say 'yo tengo'. In Japanese, the possessor is marked with に (ni) because the structure is existential: 'in me exists a book'. Using は (wa) makes the sentence mean 'as for me, a book exists', which is ambiguous. To avoid this error, remember that possession in Japanese is expressed as location: the possessor is a reference point with に (ni). If the context is clear, you can omit the possessor and just say 本があります (I have a book)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "ある (things)",
+        "translation": "Exist for inanimate objects (to have things)",
+        "examples": [
+          {
+            "original": "私にペンがあります。",
+            "phonetic": "/ɰatɕi ni peɴ ga aɺimasɯ/ (watashi ni pen ga arimasu)",
+            "translation": "I have a pen.",
+            "note": "We use ある for inanimate objects like pens, books, etc."
+          },
+          {
+            "original": "母に車があります。",
+            "phonetic": "/haha ni kɯɽɯma̠ ga aɺimasɯ/ (haha ni kuruma ga arimasu)",
+            "translation": "My mother has a car.",
+            "note": "The possessor is indicated with に, and the possessed object with が."
+          },
+          {
+            "original": "時間がありません。",
+            "phonetic": "/dʑika̠ɴ ga aɺima̠seɴ/ (jikan ga arimasen)",
+            "translation": "I don't have time.",
+            "note": "In the negative, あります becomes ありません. Here the possessor is omitted because it is understood."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "いる (living beings)",
+        "translation": "Exist for animate beings (to have people/animals)",
+        "examples": [
+          {
+            "original": "彼女に猫がいます。",
+            "phonetic": "/kanoʑo ni neko ga imasɯ/ (kanojo ni neko ga imasu)",
+            "translation": "She has a cat.",
+            "note": "We use いる for animals and people. A cat is animate, so we use います."
+          },
+          {
+            "original": "私に子供がいます。",
+            "phonetic": "/ɰatɕi ni kodomo ga imasɯ/ (watashi ni kodomo ga imasu)",
+            "translation": "I have children.",
+            "note": "People also use いる. Here, 'children' is an animate possession."
+          },
+          {
+            "original": "兄に友達がいます。",
+            "phonetic": "/ani ni tomoda̠tɕi ga imasɯ/ (ani ni tomodachi ga imasu)",
+            "translation": "My older brother has friends.",
+            "note": "Remember that いる is used for friends, because they are people."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Questions and negation",
+        "translation": "Asking and negating possession",
+        "examples": [
+          {
+            "original": "あなたに車がありますか。",
+            "phonetic": "/ana̠ta̠ ni kɯɽɯma̠ ga aɺimasɯ̥ ka̠/ (anata ni kuruma ga arimasu ka)",
+            "translation": "Do you have a car?",
+            "note": "The particle か at the end turns the sentence into a question."
+          },
+          {
+            "original": "はい、あります。",
+            "phonetic": "/hai, aɺimasɯ/ (hai, arimasu)",
+            "translation": "Yes, I do.",
+            "note": "Short affirmative answer for ある."
+          },
+          {
+            "original": "いいえ、ありません。",
+            "phonetic": "/iie, aɺima̠seɴ/ (iie, arimasen)",
+            "translation": "No, I don't.",
+            "note": "Short negative answer for ある."
+          },
+          {
+            "original": "彼に犬がいません。",
+            "phonetic": "/kaɽe ni inɯ̥ ga imaseɴ/ (kare ni inu ga imasen)",
+            "translation": "He doesn't have a dog.",
+            "note": "To negate the existence of animate beings, use いません."
+          }
+        ]
+      }
+    ],
+    "emoji": "📦",
+    "phonetic": "",
+    "translations": {
+      "en": "To have (existence)"
+    }
+  },
+  {
+    "id": "en_A1_gram_16",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "できる (dekiru) / Can (basic modal verb)",
+    "bridge": "In Japanese, the idea of 'being able to do something' is expressed with the verb できる (dekiru). Unlike Spanish, where we use a modal verb ('can') followed by an infinitive, Japanese uses a structure with the particle が and a noun or a verb in dictionary form followed by こと (koto). There is no personal conjugation for each subject; 'I can', 'you can', etc. use the same form. Additionally, there is a key difference: with できる, what you can do is marked with が (subject particle), not を (object particle). This is a common mistake for Spanish speakers.",
+    "rule": "To express ability or possibility in the present, できる (dekiru) is used as the verb. The construction is: [noun] + が + できます (dekimasu) for nouns, or [verb in dictionary form] + こと + が + できます for verbs. The negative form is できません (dekimasen) and the past form is できました (dekimashita) or its negative past できませんでした (dekimasen deshita). This structure is fixed for all subjects, as Japanese does not have conjugation by person. Examples: 日本語ができます (I can speak Japanese), 泳ぐことができます (I can swim). In formal contexts, できます is used; in informal conversation, できる is used. It is important to remember that できる expresses ability or possibility, but not permission (for permission, 〜てもいいです is used).",
+    "concept_examples": [
+      {
+        "text": "日本語ができます。",
+        "translation": "I can (speak) Japanese.",
+        "phonetic": "nihongo ga dekimasu"
+      },
+      {
+        "text": "泳ぐことができます。",
+        "translation": "I can swim.",
+        "phonetic": "oyogu koto ga dekimasu"
+      },
+      {
+        "text": "ピアノを弾くことができますか。",
+        "translation": "Can you play the piano?",
+        "phonetic": "piano o hiku koto ga dekimasu ka"
+      },
+      {
+        "text": "料理ができません。",
+        "translation": "I cannot cook.",
+        "phonetic": "ryouri ga dekimasen"
+      }
+    ],
+    "common_error": {
+      "wrong": "ピアノをできます。",
+      "correct": "ピアノができます。",
+      "correct_alt": "ピアノを弾くことができます。",
+      "explanation": "The common mistake is using the particle を with できる, because in Spanish 'puedo' takes direct objects with 'puedo tocar el piano', but in Japanese, when using できる directly with a noun, the correct particle is が. For verbs, ことを後 is used. Remember: できる is always accompanied by が, never を."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "できる (基本形)",
+        "translation": "Can (basic form)",
+        "examples": [
+          {
+            "original": "日本語ができます。",
+            "phonetic": "nihongo ga dekimasu",
+            "translation": "I can (speak) Japanese.",
+            "note": "Use with a noun: general ability. The particle が is mandatory."
+          },
+          {
+            "original": "車の運転ができます。",
+            "phonetic": "kuruma no unten ga dekimasu",
+            "translation": "I can drive a car.",
+            "note": "With a compound noun (運転), が is used."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "動詞の辞書形 + こと",
+        "translation": "Dictionary form of verb + こと",
+        "examples": [
+          {
+            "original": "泳ぐことができます。",
+            "phonetic": "oyogu koto ga dekimasu",
+            "translation": "I can swim.",
+            "note": "For verbs, use the dictionary form + こと to nominalize."
+          },
+          {
+            "original": "漢字を読むことができます。",
+            "phonetic": "kanji o yomu koto ga dekimasu",
+            "translation": "I can read kanji.",
+            "note": "The verb 'to read' (読む) is in dictionary form."
+          },
+          {
+            "original": "料理を作ることができます。",
+            "phonetic": "ryouri o tsukuru koto ga dekimasu",
+            "translation": "I can make food.",
+            "note": "Note that here the direct object (料理) takes を, because the verb is 'to make', but the whole phrase is followed by こと+が."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "否定形・過去形",
+        "translation": "Negative and past",
+        "examples": [
+          {
+            "original": "ピアノができません。",
+            "phonetic": "piano ga dekimasen",
+            "translation": "I cannot play the piano.",
+            "note": "The negative form is used to deny ability."
+          },
+          {
+            "original": "昨日、仕事ができませんでした。",
+            "phonetic": "kinou, shigoto ga dekimasen deshita",
+            "translation": "Yesterday I could not do the work.",
+            "note": "Negative past: できませんでした."
+          },
+          {
+            "original": "日本語ができました。",
+            "phonetic": "nihongo ga dekimashita",
+            "translation": "I could (speak) Japanese (on a past occasion).",
+            "note": "Affirmative past of できる."
+          }
+        ]
+      }
+    ],
+    "emoji": "💪",
+    "phonetic": "",
+    "translations": {
+      "en": "Can (basic modal verb)"
+    }
+  },
+  {
+    "id": "en_A1_gram_17",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "基本の不規則動詞 (Basic irregular verbs)",
+    "bridge": "In Spanish, verbs like 'ir', 'venir', 'hacer' change their root and ending according to person and tense. In Japanese, verbs do not conjugate by person, but they do by tense and politeness level. The verbs 'go' (行く), 'come' (来る), 'do' (する) are irregular in their dictionary form and in the polite form (-masu), which can be confusing at first. For example, 'do' is 'suru', but in polite present it is 'shimasu', not 'surimasu'. Remember that in Japanese there is no obligatory subject, so context is key.",
+    "rule": "In Japanese, verbs are divided into three groups: godan (u-verbs), ichidan (ru-verbs), and irregulars. The irregulars are only two: 'する' (suru, to do) and '来る' (kuru, to come). Additionally, the verb '行く' (iku, to go) is regular in its dictionary form but irregular in the -te form (行って, itte) and in the polite past form (行きました, ikimashita, not *iite). For the A1 level, you must memorize the polite forms (present and past) of these verbs, as well as their dictionary form and their basic use in phrases like 'I go to...', 'I come from...', 'I do...'.",
+    "concept_examples": [
+      {
+        "text": "日本へ行きます。",
+        "translation": "I go to Japan.",
+        "phonetic": "nihoɴ e ikimasɯ"
+      },
+      {
+        "text": "明日、友達が来ます。",
+        "translation": "Tomorrow a friend comes.",
+        "phonetic": "aɕita, tomodatɕi ga kimasɯ"
+      },
+      {
+        "text": "宿題をします。",
+        "translation": "I do homework.",
+        "phonetic": "ɕɯkɯdai o ɕimasɯ"
+      },
+      {
+        "text": "これは何ですか。",
+        "translation": "What is this? (lit. This, what is it?)",
+        "phonetic": "kore wa nan desɯ ka"
+      }
+    ],
+    "common_error": {
+      "wrong": "私が作る。 (Watashi ga tsukuru) to say 'I do'",
+      "correct": "私がします。 (Watashi ga shimasu)",
+      "correct_alt": "",
+      "explanation": "The verb 'to do' in Japanese is 'する' (suru), not '作る' (tsukuru) which means 'to make' or 'to create'. Spanish speakers often use '作る' because in Spanish 'hacer' and 'crear' are similar, but in Japanese they are different verbs. To express actions like 'do sports', 'do homework', use 'する'. Memorize that 'する' becomes 'します' in the polite form."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "行く (Ir)",
+        "translation": "Verb to go",
+        "examples": [
+          {
+            "original": "学校へ行きます。",
+            "phonetic": "gakkoː e ikimasɯ",
+            "translation": "I go to school.",
+            "note": "The particle 'へ' indicates direction. '行きます' is the polite form of '行く'."
+          },
+          {
+            "original": "友達と映画に行きます。",
+            "phonetic": "tomodatɕi to eiga ni ikimasɯ",
+            "translation": "I go to the movies with a friend.",
+            "note": "Use 'に' with activity destinations (movie theater, store). Here 'と' means 'with'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "来る (Venir)",
+        "translation": "Verb to come",
+        "examples": [
+          {
+            "original": "こちらへ来てください。",
+            "phonetic": "kotɕiɾa e kite kɯdasai",
+            "translation": "Please come here.",
+            "note": "'来て' is the -te form of '来る' (irregular). It is used with 'ください' to make a polite request."
+          },
+          {
+            "original": "昨日、彼が来ました。",
+            "phonetic": "kinoː, kaɾe ga kimɑɕita",
+            "translation": "Yesterday he came.",
+            "note": "The polite past of '来る' is '来ました' (kimashita). Note the irregularity: the root changes from 'ku' to 'ki'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "する (Hacer)",
+        "translation": "Verb to do",
+        "examples": [
+          {
+            "original": "日本語を勉強します。",
+            "phonetic": "nihoɴgo o benkyoː ɕimasɯ",
+            "translation": "I study Japanese (lit. I do study of Japanese).",
+            "note": "The verb 'する' combines with nouns like '勉強' to form verbs. It is very common."
+          },
+          {
+            "original": "散歩をします。",
+            "phonetic": "sɑmpo o ɕimasɯ",
+            "translation": "I take a walk (lit. I do a walk).",
+            "note": "Again, 'する' with '散歩' (walk). There is no simple verb for 'walk' in Japanese."
+          },
+          {
+            "original": "何をしていますか。",
+            "phonetic": "nani o ɕite imasɯ ka",
+            "translation": "What are you doing?",
+            "note": "The -te form + imasu indicates an action in progress. 'して' is the -te form of 'する'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic irregular verbs"
+    }
+  },
+  {
+    "id": "en_A1_gram_18",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "時間の言い方 / Telling Time",
+    "bridge": "In Spanish, to tell time we use the verb 'ser' (es/son) and cardinal numbers, sometimes with 'y' or 'menos'. In Japanese, no copular verb is used to tell time; you simply place the hour number followed by the suffix 時 (じ) and the minutes with 分 (ふん/ぷん). Be careful: the numbers for hours have special readings (4時 = よじ, 7時 = しちじ, 9時 = くじ). Also, Japanese uses morning hours (午前) and afternoon hours (午後) similarly to 'a.m.' and 'p.m.', but it does not say 'y media' or 'menos cuarto' the same way; it says 'hour 半' for half and 'hour 前' for 'to' the hour.",
+    "rule": "To tell time in Japanese: [number] + 時 (じ) + [number] + 分 (ふん/ぷん) + です (desu). Hours go from 1 to 12, and 午前 (ごぜん) is used for before noon and 午後 (ごご) for after. Examples: 1時 = いちじ, 2時 = にじ, 3時 = さんじ, 4時 = よじ, 5時 = ごじ, 6時 = ろくじ, 7時 = しちじ, 8時 = はちじ, 9時 = くじ, 10時 = じゅうじ, 11時 = じゅういちじ, 12時 = じゅうにじ. For minutes, the pronunciation changes: 1分 = いっぷん, 2分 = にふん, 3分 = さんぷん, 4分 = よんふん, 5分 = ごふん, 6分 = ろっぷん, 7分 = ななふん, 8分 = はっぷん, 9分 = きゅうふん, 10分 = じゅっぷん (or じっぷん). Half hour is said 半 (はん) after the hour: 3時半 = さんじはん. For 'quarter past', use 15分 (じゅうごふん), and for 'quarter to', use 15分前 (じゅうごふんまえ) or 45分 (よんじゅうごふん). 'Y' and 'menos' are not used as in Spanish; you state the hour and minutes directly. In informal conversation, です can be omitted, and ごろ is often added to express 'approximately'.",
+    "concept_examples": [
+      {
+        "text": "今、三時です。",
+        "translation": "It is three o'clock now.",
+        "phonetic": "ima, san-ji desu"
+      },
+      {
+        "text": "午前九時五分です。",
+        "translation": "It is nine five in the morning.",
+        "phonetic": "gozen kyuu-ji go-fun desu"
+      },
+      {
+        "text": "午後六時半です。",
+        "translation": "It is six thirty in the evening.",
+        "phonetic": "gogo roku-ji han desu"
+      },
+      {
+        "text": "七時十五分前です。",
+        "translation": "It is a quarter to seven.",
+        "phonetic": "shichi-ji juugo-fun mae desu"
+      }
+    ],
+    "common_error": {
+      "wrong": "四時ですか？ (yon-ji?)",
+      "correct": "四時です。 (yo-ji desu)",
+      "correct_alt": "四時 (よじ) です。",
+      "explanation": "The error occurs because Spanish speakers tend to use the standard reading of numbers (yon for 4) for hours, but in Japanese the hour 4 has a special reading: よじ (yo-ji). The same happens with 7 (しちじ, not nana-ji) and 9 (くじ, not kyuu-ji). To avoid this, memorize the hours with their special readings: 4時 = よじ, 7時 = しちじ, 9時 = くじ."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "時の基本",
+        "translation": "Basic Hours",
+        "examples": [
+          {
+            "original": "一時です。",
+            "phonetic": "ichi-ji desu",
+            "translation": "It is one o'clock.",
+            "note": "Here 一時 is used for one o'clock."
+          },
+          {
+            "original": "五時です。",
+            "phonetic": "go-ji desu",
+            "translation": "It is five o'clock.",
+            "note": "The reading of the hour is regular for 5 (ご)."
+          },
+          {
+            "original": "八時です。",
+            "phonetic": "hachi-ji desu",
+            "translation": "It is eight o'clock.",
+            "note": "Eight is はち, but it does not change in the hour."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "分の言い方",
+        "translation": "Expressing Minutes",
+        "examples": [
+          {
+            "original": "二時五分です。",
+            "phonetic": "ni-ji go-fun desu",
+            "translation": "It is two five.",
+            "note": "Minute 5 is pronounced ごふん (go-fun)."
+          },
+          {
+            "original": "三時十分です。",
+            "phonetic": "san-ji juppun desu",
+            "translation": "It is three ten.",
+            "note": "Ten minutes is said じゅっぷん (juppun), with a slight pause."
+          },
+          {
+            "original": "六時十五分です。",
+            "phonetic": "roku-ji juugo-fun desu",
+            "translation": "It is six fifteen.",
+            "note": "Fifteen minutes is said じゅうごふん (juugo-fun)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "午前・午後と半",
+        "translation": "A.M., P.M., and Half Hours",
+        "examples": [
+          {
+            "original": "午前十時です。",
+            "phonetic": "gozen juu-ji desu",
+            "translation": "It is ten in the morning.",
+            "note": "午前 is used for the morning, before noon."
+          },
+          {
+            "original": "午後三時半です。",
+            "phonetic": "gogo san-ji han desu",
+            "translation": "It is three thirty in the afternoon.",
+            "note": "Half is said 半 (はん) after the hour."
+          },
+          {
+            "original": "午後七時十五分前です。",
+            "phonetic": "gogo shichi-ji juugo-fun mae desu",
+            "translation": "It is a quarter to seven in the evening.",
+            "note": "For 'quarter to', you can use 15分前 (jūgo-fun mae) or 四十五分 (yonjuu-go-fun)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕐",
+    "phonetic": "",
+    "translations": {
+      "en": "Telling Time"
+    }
+  }
+]

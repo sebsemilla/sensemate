@@ -1,0 +1,1189 @@
+[
+  {
+    "id": "en_A2_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "医者で (At the doctor)",
+    "bridge": "In English, you might say 'I have a headache' or 'My head hurts.' In Japanese, the structure is reversed: you use the verb 'to be' (ある/いる) with a physical sensation or symptom, like 頭が痛い (atama ga itai) meaning 'head hurts' literally. Also, Japanese uses the particle が (ga) to mark the subject of the symptom, not は (wa), which is a common trap. Understanding this pattern is key to describing symptoms naturally.",
+    "rule": "To describe symptoms or pain in Japanese, use the pattern: [body part] が + [adjective/verb]. For example, 頭が痛い (atama ga itai) = 'head hurts' (literally 'head is painful'). Common symptoms: 熱がある (netsu ga aru) = 'have a fever', 咳が出る (seki ga deru) = 'cough comes out' (i.e., have a cough), 気分が悪い (kibun ga warui) = 'feel sick'. For headaches, stomachaches, etc., use the adjective form: 痛い (itai) for pain. The particle が is used because the symptom is the subject, not the topic. Also, when describing a body part that hurts, use 'が' to introduce the specific part.",
+    "concept_examples": [
+      {
+        "text": "頭が痛いです。",
+        "translation": "I have a headache.",
+        "phonetic": "atama ga itai desu"
+      },
+      {
+        "text": "熱があります。",
+        "translation": "I have a fever.",
+        "phonetic": "netsu ga arimasu"
+      },
+      {
+        "text": "咳が出ます。",
+        "translation": "I have a cough.",
+        "phonetic": "seki ga demasu"
+      },
+      {
+        "text": "気分が悪いです。",
+        "translation": "I feel sick.",
+        "phonetic": "kibun ga warui desu"
+      }
+    ],
+    "common_error": {
+      "wrong": "私は頭が痛いです。 (Watashi wa atama ga itai desu.)",
+      "correct": "頭が痛いです。 (Atama ga itai desu.)",
+      "correct_alt": "頭痛がします。 (Zutsū ga shimasu.)",
+      "explanation": "English speakers often add 私は (watashi wa) to specify 'I', but in Japanese, the subject is often omitted when it's clear from context. Also, using は (wa) to mark 'I' makes it sound like you're contrasting with someone else. Just say 頭が痛いです directly. Alternatively, you can use the verb します (suru) for certain symptoms like 頭痛がします (have a headache) for a more formal/medical expression."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "症状を言う (Describing symptoms)",
+        "translation": "Describing symptoms",
+        "examples": [
+          {
+            "original": "お腹が痛いです。",
+            "phonetic": "onaka ga itai desu",
+            "translation": "I have a stomachache.",
+            "note": "Use お腹 (onaka) = stomach, and same pattern as 頭が痛い."
+          },
+          {
+            "original": "喉が痛いです。",
+            "phonetic": "nodo ga itai desu",
+            "translation": "I have a sore throat.",
+            "note": "喉 (nodo) = throat, same pattern."
+          },
+          {
+            "original": "熱があります。",
+            "phonetic": "netsu ga arimasu",
+            "translation": "I have a fever.",
+            "note": "熱 (netsu) = fever, use あります to indicate existence (of the fever)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "体の調子 (Physical condition)",
+        "translation": "Physical condition",
+        "examples": [
+          {
+            "original": "気分が悪いです。",
+            "phonetic": "kibun ga warui desu",
+            "translation": "I feel sick (nauseous).",
+            "note": "気分 (kibun) = mood/feeling, 悪い (warui) = bad."
+          },
+          {
+            "original": "疲れました。",
+            "phonetic": "tsukaremashita",
+            "translation": "I'm tired.",
+            "note": "This is a verb in past tense but is used to express current state: 'I got tired.'"
+          },
+          {
+            "original": "めまいがします。",
+            "phonetic": "memai ga shimasu",
+            "translation": "I feel dizzy.",
+            "note": "Using します (suru) for symptoms that happen, like 'dizziness occurs'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "医者に伝える (Telling the doctor)",
+        "translation": "Telling the doctor",
+        "examples": [
+          {
+            "original": "昨日から熱があります。",
+            "phonetic": "kinō kara netsu ga arimasu",
+            "translation": "I've had a fever since yesterday.",
+            "note": "Use から to indicate starting point in time."
+          },
+          {
+            "original": "頭が痛くて、気分も悪いです。",
+            "phonetic": "atama ga itakute, kibun mo warui desu",
+            "translation": "I have a headache and feel sick too.",
+            "note": "Use て-form to connect multiple symptoms."
+          },
+          {
+            "original": "薬をもらえますか？",
+            "phonetic": "kusuri o moraemasu ka?",
+            "translation": "Can I get some medicine?",
+            "note": "Use もらえますか to ask 'can I receive?'"
+          }
+        ]
+      }
+    ],
+    "emoji": "🩺",
+    "phonetic": "",
+    "translations": {
+      "en": "At the doctor"
+    }
+  },
+  {
+    "id": "en_A2_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "宿泊施設を予約する (Reserving Accommodation)",
+    "bridge": "In English, when you book a room, you often use polite requests like 'I would like...' or 'Can I have...?'. Japanese has a similar concept but uses specific set phrases and verb conjugation (e.g., お願いします, ください) that change based on level of formality. Unlike English, Japanese word order is flexible, but particles like を and に are essential to mark roles, which English does with word order. The biggest trap is that Japanese uses counters for nights (泊) and people (名) that have no direct English equivalent, so you need to memorize them.",
+    "rule": "To reserve accommodation in Japanese at A2 level, you use polite forms with 〜ください (please give me) or お願いします (please). For example: 一室お願いします (one room, please) or 予約したいです (I want to reserve). The verb 予約する (to reserve) is often used in the たい form. Key expressions: - 予約はありますか? (Do you have a reservation?) - チェックインは何時ですか? (What time is check-in?) - 一泊いくらですか? (How much per night?) - 朝食付きですか? (Is breakfast included?) - 名前と電話番号をお願いします (Please give me your name and phone number). For counters, use 泊 (はく, nights) and 名 (めい, people): 一泊 (いっぱく, one night), 二泊 (にはく, two nights), 一人 (ひとり, one person), 二人 (ふたり, two people). Remember to use を for direct objects: 部屋を予約します (reserve a room). Negative requests use ないでください: スモーキングルームにしないでください (please don't make it a smoking room).",
+    "concept_examples": [
+      {
+        "text": "部屋を予約したいです。",
+        "translation": "I would like to reserve a room.",
+        "phonetic": "へやをよやくしたいです。"
+      },
+      {
+        "text": "一泊いくらですか。",
+        "translation": "How much is it per night?",
+        "phonetic": "いっぱくいくらですか。"
+      },
+      {
+        "text": "二人で一室お願いします。",
+        "translation": "One room for two people, please.",
+        "phonetic": "ふたりでいっしつおねがいします。"
+      },
+      {
+        "text": "チェックインは何時ですか。",
+        "translation": "What time is check-in?",
+        "phonetic": "ちぇっくいんはなんじですか。"
+      }
+    ],
+    "common_error": {
+      "wrong": "一部屋をお願いします。",
+      "correct": "一室お願いします。",
+      "correct_alt": "一部屋お願いします。",
+      "explanation": "English speakers often say '一部屋' (いちへや) which is not wrong but less natural. In hotel contexts, Japanese uses the counter '室' (しつ) for rooms, so '一室' (いっしつ) is preferred. Also, the particle を is often omitted in polite set phrases like this. Practice with common counters to sound more natural."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本表現 (Basic Expressions)",
+        "translation": "Basic Expressions",
+        "examples": [
+          {
+            "original": "予約したいです。",
+            "phonetic": "よやくしたいです。",
+            "translation": "I want to reserve.",
+            "note": "Use たい to express wanting to do something. 予約する (to reserve) is a common verb for bookings."
+          },
+          {
+            "original": "空きはありますか。",
+            "phonetic": "あきはありますか。",
+            "translation": "Do you have availability?",
+            "note": "空き (あき) means 'vacancy' or 'open slot'. This is used to ask if there's room."
+          },
+          {
+            "original": "一泊お願いします。",
+            "phonetic": "いっぱくおねがいします。",
+            "translation": "One night, please.",
+            "note": "一泊 (いっぱく) is the counter for one night. お願いします makes it polite."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "部屋の種類 (Types of Rooms)",
+        "translation": "Types of Rooms",
+        "examples": [
+          {
+            "original": "シングルルームをお願いします。",
+            "phonetic": "しんぐるるーむをおねがいします。",
+            "translation": "A single room, please.",
+            "note": "シングルルーム is borrowed from English. Note the particle を marks the object of request."
+          },
+          {
+            "original": "ダブルルームはありますか。",
+            "phonetic": "だぶるるーむはありますか。",
+            "translation": "Do you have a double room?",
+            "note": "Use は to mark the topic when asking about availability."
+          },
+          {
+            "original": "禁煙ルームにしてください。",
+            "phonetic": "きんえんるーむにしてください。",
+            "translation": "Please make it a non-smoking room.",
+            "note": "にする means 'to make it'. 禁煙 (きんえん) means non-smoking."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "確認と質問 (Confirmations and Questions)",
+        "translation": "Confirmations and Questions",
+        "examples": [
+          {
+            "original": "朝食は付いていますか。",
+            "phonetic": "ちょうしょくはついていますか。",
+            "translation": "Is breakfast included?",
+            "note": "付いています (ついています) means 'is included'. Use は for topic."
+          },
+          {
+            "original": "チェックアウトは何時ですか。",
+            "phonetic": "ちぇっくあうとはなんじですか。",
+            "translation": "What time is check-out?",
+            "note": "チェックアウト is another borrowed English term. Using は for topic is natural."
+          },
+          {
+            "original": "キャンセルは無料ですか。",
+            "phonetic": "きゃんせるはむりょうですか。",
+            "translation": "Is cancellation free?",
+            "note": "無料 (むりょう) means free of charge. For cancellations, you can also use キャンセル料 (りょう) meaning cancellation fee."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "en": "Booking Accommodation"
+    }
+  },
+  {
+    "id": "en_A2_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "銀行・両替で（At the bank or exchange office）",
+    "bridge": "In English, we simply say 'I want to exchange money' or 'Can I exchange dollars?'. Japanese uses the verb 両替する (ryōgae suru) for exchanging currency, but it often requires the particle を (o) to mark the object. Also, English speakers tend to forget that Japanese often omits the subject ('I'), so you can say just '両替したいです' without saying '私は'. Another key difference: Japanese has a polite form (-ください or -お願いします) for requests, which is essential in a bank setting.",
+    "rule": "To express a desire like 'I want to exchange', use the -たい form of the verb: 両替する → 両替したい (I want to exchange). Add です to make it polite: 両替したいです. For requests, use the て-form + ください: 両替してください (Please exchange). Use the particle を to mark what you exchange: ドルを円に両替する (exchange dollars into yen). To state the amount, use ～を　お願いします (I'd like ～, please). For example: 1万円をお願いします. For A2, also learn common currency names: ドル (doru, dollar), 円 (en, yen), ユーロ (yūro, euro).",
+    "concept_examples": [
+      {
+        "text": "両替したいです。",
+        "translation": "I want to exchange money.",
+        "phonetic": "ɾʲoːɡae ɕitai desɯ"
+      },
+      {
+        "text": "ドルを円に両替してください。",
+        "translation": "Please exchange dollars into yen.",
+        "phonetic": "doɾɯ o en ni ɾʲoːɡae ɕite kudasai"
+      },
+      {
+        "text": "1万円をお願いします。",
+        "translation": "I'd like 10,000 yen, please.",
+        "phonetic": "itɕimann en o oneɡai ɕimasɯ"
+      },
+      {
+        "text": "手数料はいくらですか。",
+        "translation": "How much is the fee?",
+        "phonetic": "tesɯɾʲoː ɕa ikɯɾa desɯ ka"
+      }
+    ],
+    "common_error": {
+      "wrong": "私が両替しますあなたのため",
+      "correct": "両替してください。",
+      "correct_alt": "両替をお願いします。",
+      "explanation": "English speakers often translate directly 'I exchange for you' or use 私 (watashi) excessively. In Japanese, the subject is often omitted, and requests are more natural with ～てください or ～お願いします. Also, 私が (I as subject) is too strong and not used in service contexts. Simply use the polite request form, which is more natural and avoids sounding overly assertive."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "両替の基本（Basic exchange）",
+        "translation": "Basics of exchange",
+        "examples": [
+          {
+            "original": "両替したいです。",
+            "phonetic": "ɾʲoːɡae ɕitai desɯ",
+            "translation": "I want to exchange money.",
+            "note": "Use -たい to express desire; omit 'I' as it's understood."
+          },
+          {
+            "original": "ドルを円に両替してください。",
+            "phonetic": "doɾɯ o en ni ɾʲoːɡae ɕite kudasai",
+            "translation": "Please exchange dollars to yen.",
+            "note": "Use を for the object and に for the target currency."
+          },
+          {
+            "original": "両替をお願いします。",
+            "phonetic": "ɾʲoːɡae o oneɡai ɕimasɯ",
+            "translation": "I'd like to exchange, please.",
+            "note": "Polite way to request a service; use お願いします for requests."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "金額を伝える（Saying amounts）",
+        "translation": "Stating amounts",
+        "examples": [
+          {
+            "original": "1万円をお願いします。",
+            "phonetic": "itɕimann en o oneɡai ɕimasɯ",
+            "translation": "10,000 yen, please.",
+            "note": "Use を before お願いします to indicate what you want."
+          },
+          {
+            "original": "100ドルを両替したいです。",
+            "phonetic": "hjakɯ doɾɯ o ɾʲoːɡae ɕitai desɯ",
+            "translation": "I want to exchange 100 dollars.",
+            "note": "Numbers for 100 is ひゃく (hyaku)."
+          },
+          {
+            "original": "5000円にしてください。",
+            "phonetic": "ɡosen en ni ɕite kudasai",
+            "translation": "Please make it 5,000 yen.",
+            "note": "Use にしてください to specify target amount."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "質問と手続き（Questions and procedures）",
+        "translation": "Questions and procedures",
+        "examples": [
+          {
+            "original": "手数料はいくらですか。",
+            "phonetic": "tesɯɾʲoː ɕa ikɯɾa desɯ ka",
+            "translation": "How much is the fee?",
+            "note": "Use いくら for asking price; that's a common A2 question."
+          },
+          {
+            "original": "パスポートを見せてください。",
+            "phonetic": "pasɯpoːto o mise te kudasai",
+            "translation": "Please show your passport.",
+            "note": "Use 見せてください for asking someone to show; here the bank staff says this."
+          },
+          {
+            "original": "ここにサインしてください。",
+            "phonetic": "koko ni saɯn ɕite kudasai",
+            "translation": "Please sign here.",
+            "note": "Use ここに for 'here' and サインする for 'sign'."
+          }
+        ]
+      }
+    ],
+    "emoji": "💱",
+    "phonetic": "",
+    "translations": {
+      "en": "At the bank or exchange office"
+    }
+  },
+  {
+    "id": "en_A2_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "基本的な面接の質問 / Basic Interview Questions",
+    "bridge": "In English job interviews, you often use 'I am' (e.g., 'I am a student') and 'I have' (e.g., 'I have two years of experience'). In Japanese, these ideas are expressed differently: 'I am' is often omitted when the meaning is clear, and 'I have' (for experience) is expressed with a verb meaning 'to do' (したことがある). Also, Japanese uses politeness levels (です/ます) in formal settings like interviews, which you don't have in English. One common trap is directly translating 'my strength is...' as 'わたしのちからは...' but Japanese typically uses a different structure: わたしのちょうしょは...です.",
+    "rule": "For A2 level, focus on these key patterns: 1) Self-introduction: わたしは [name] です (I am [name]). Use です/ます forms for politeness. 2) Talking about experience: [verb] た ことが あります (I have experience doing [verb]). For example, はたらいた ことが あります (I have worked). 3) Expressing strengths/weaknesses: わたしの ちょうしょ は [noun] です (My strength is [noun]). 4) Answering 'why do you want this job?': Use なぜなら (because) or ～からです. 5) For questions, use か at the end: しごとの けいけん が ありますか (Do you have work experience?). Remember that in formal Japanese, the subject 'I' (わたし) is often omitted when obvious, but included for clarity in interviews.",
+    "concept_examples": [
+      {
+        "text": "わたしは たなか です。",
+        "translation": "I am Tanaka.",
+        "phonetic": "watashi wa tanaka desu"
+      },
+      {
+        "text": "しごとの けいけん が あります。",
+        "translation": "I have work experience.",
+        "phonetic": "shigoto no keiken ga arimasu"
+      },
+      {
+        "text": "わたしの ちょうしょ は コミュニケーション です。",
+        "translation": "My strength is communication.",
+        "phonetic": "watashi no chousho wa komyunikeeshon desu"
+      },
+      {
+        "text": "なぜ この しごと を えらびましたか。",
+        "translation": "Why did you choose this job?",
+        "phonetic": "naze kono shigoto o erabimashita ka"
+      }
+    ],
+    "common_error": {
+      "wrong": "わたしの ちから は コミュニケーション です。",
+      "correct": "わたしの ちょうしょ は コミュニケーション です。",
+      "correct_alt": "わたしは コミュニケーション が とくい です。",
+      "explanation": "English speakers often translate 'my strength' literally as ちから (power/physical strength). In Japanese, ちょうしょ means 'strong point' or 'advantage' in a skills context. Alternatively, you can use とくい (good at) as in the alternative. Avoid using ちから for abstract strengths."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "じこしょうかい (自己紹介)",
+        "translation": "Self-introduction",
+        "examples": [
+          {
+            "original": "わたしは マイク です。",
+            "phonetic": "watashi wa maiku desu",
+            "translation": "I am Mike.",
+            "note": "Use this simple introduction. In formal interviews, use わたし (watashi) not ぼく (boku) or おれ (ore)."
+          },
+          {
+            "original": "だいがくで べんきょうしています。",
+            "phonetic": "daigaku de benkyou shiteimasu",
+            "translation": "I am studying at university.",
+            "note": "Use ～ています to show a current ongoing action or state."
+          },
+          {
+            "original": "せんこう は けいざいがく です。",
+            "phonetic": "senkou wa keizaigaku desu",
+            "translation": "My major is economics.",
+            "note": "せんこう means 'major' or 'field of study'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "けいけんを はなす (経験を話す)",
+        "translation": "Talking about experience",
+        "examples": [
+          {
+            "original": "アルバイトの けいけん が あります。",
+            "phonetic": "arubaito no keiken ga arimasu",
+            "translation": "I have part-time job experience.",
+            "note": "Use あります to express having experience. アルバイト is 'part-time job' from German."
+          },
+          {
+            "original": "レストランで はたらいた ことが あります。",
+            "phonetic": "resutoran de hataraita koto ga arimasu",
+            "translation": "I have worked at a restaurant.",
+            "note": "Use た form of verb + ことが あります to express past experience."
+          },
+          {
+            "original": "にほんごの べんきょう を しています。",
+            "phonetic": "nihongo no benkyou o shiteimasu",
+            "translation": "I am studying Japanese.",
+            "note": "Use をしています to describe an ongoing activity."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "しつもんに こたえる (質問に答える)",
+        "translation": "Answering questions",
+        "examples": [
+          {
+            "original": "なぜ この しごと を えらびましたか。",
+            "phonetic": "naze kono shigoto o erabimashita ka",
+            "translation": "Why did you choose this job?",
+            "note": "This is a common interview question. なぜ means 'why'."
+          },
+          {
+            "original": "しごと に きょうみ が ある からです。",
+            "phonetic": "shigoto ni kyoumi ga aru kara desu",
+            "translation": "Because I am interested in this job.",
+            "note": "Use からです to give a reason. きょうみが ある means 'to be interested in'."
+          },
+          {
+            "original": "いっしょうけんめい はたらきます。",
+            "phonetic": "isshoukenmei hatarakimasu",
+            "translation": "I will work hard.",
+            "note": "Use ます form to show future intention or determination."
+          }
+        ]
+      }
+    ],
+    "emoji": "💼",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic job interview"
+    }
+  },
+  {
+    "id": "en_A2_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "郵便局で / At the post office",
+    "bridge": "In English, we often use 'I want to send this' or 'How much is it?' directly. In Japanese, you need to use the polite form ください (kudasai) and おねがいします (onegaishimasu) to make requests, and the verb 送ります (okurimasu) changes with the particle を. Also, Japanese uses counters (like まい for flat objects) and specific words for mail types (e.g., はがき, ふうとう), which don't exist in English. Watch out for the polite request form ~てください, which is essential for A2 level.",
+    "rule": "When making requests at the post office, use the te-form of a verb plus ください (kudasai) to say 'please do ~' (e.g., 送ってください). For asking prices or methods, use '～はいくらですか' (How much is ~?) and '～でおねがいします' (by ~, please). Use を to mark the object being sent (e.g., はがきを送ります). For counting flat items like postcards, use まい (mai) – e.g., はがきを三まいください. For letters, use 通 (つう) – e.g., 手紙を一通送ります. Remember to use polite forms (-ます/です) in all customer interactions.",
+    "concept_examples": [
+      {
+        "text": "この手紙をエアメールで送ってください。",
+        "translation": "Please send this letter by airmail.",
+        "phonetic": "kono tegami o eamēru de okutte kudasai."
+      },
+      {
+        "text": "はがきを三まいください。",
+        "translation": "Please give me three postcards.",
+        "phonetic": "hagaki o san-mai kudasai."
+      },
+      {
+        "text": "切手はどこで買えますか。",
+        "translation": "Where can I buy stamps?",
+        "phonetic": "kitte wa doko de kaemasu ka."
+      },
+      {
+        "text": "これを船便でおねがいします。",
+        "translation": "I'd like this by sea mail, please.",
+        "phonetic": "kore o funabin de onegaishimasu."
+      }
+    ],
+    "common_error": {
+      "wrong": "この手紙をエアメールで送りください。",
+      "correct": "この手紙をエアメールで送ってください。",
+      "correct_alt": "この手紙をエアメールでおねがいします。",
+      "explanation": "The error happens because English speakers often use the dictionary form of the verb (送り) instead of the te-form (送って) when forming a request with ください. The te-form + ください is the standard polite request pattern. Alternatively, you can use おねがいします with the item and method, which is even more natural at a counter."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "郵便物の種類",
+        "translation": "Types of mail",
+        "examples": [
+          {
+            "original": "手紙",
+            "phonetic": "tegami",
+            "translation": "letter",
+            "note": "Common word for a letter. Use with を when sending."
+          },
+          {
+            "original": "はがき",
+            "phonetic": "hagaki",
+            "translation": "postcard",
+            "note": "A postcard. Count with まい (e.g., 二まい)."
+          },
+          {
+            "original": "小包",
+            "phonetic": "kozutsumi",
+            "translation": "parcel/package",
+            "note": "Use for packages. Count with つ or こ."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "送り方の選択",
+        "translation": "Choosing a sending method",
+        "examples": [
+          {
+            "original": "エアメールで送ってください。",
+            "phonetic": "eamēru de okutte kudasai.",
+            "translation": "Please send it by airmail.",
+            "note": "エアメール is a loanword from English. Use で to indicate method."
+          },
+          {
+            "original": "船便でおねがいします。",
+            "phonetic": "funabin de onegaishimasu.",
+            "translation": "By sea mail, please.",
+            "note": "船便 is slower but cheaper. おねがいします is very polite for requests."
+          },
+          {
+            "original": "速達で送りたいです。",
+            "phonetic": "sokutatsu de okuritai desu.",
+            "translation": "I want to send it by express mail.",
+            "note": "Use たい to express desire. 速達 means express mail."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "料金と支払い",
+        "translation": "Fees and payment",
+        "examples": [
+          {
+            "original": "料金はいくらですか。",
+            "phonetic": "ryōkin wa ikura desu ka.",
+            "translation": "How much is the fee?",
+            "note": "Use いくら for asking price. 料金 means fee/charge."
+          },
+          {
+            "original": "切手を五枚ください。",
+            "phonetic": "kitte o go-mai kudasai.",
+            "translation": "Please give me five stamps.",
+            "note": "Stamps are flat, so count with まい. 五枚 = go-mai."
+          },
+          {
+            "original": "カードで払えますか。",
+            "phonetic": "kādo de haraemasu ka.",
+            "translation": "Can I pay by card?",
+            "note": "Use で for payment method. 払えます is potential form of 払う."
+          }
+        ]
+      }
+    ],
+    "emoji": "📮",
+    "phonetic": "",
+    "translations": {
+      "en": "At the post office"
+    }
+  },
+  {
+    "id": "en_A2_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "アパートを借りる / Renting an Apartment",
+    "bridge": "In English, when talking about renting, you might say 'I'm looking for a 2-bedroom apartment' or 'The rent is 800 dollars a month.' In Japanese, the word order and particles (は, が, を, に) change the meaning, and counters like 部屋 (rooms) and 階 (floor) are used differently. Also, Japanese uses the verb 借りる (to rent) and the phrase ～を探しています (I'm looking for). A common trap is forgetting the particle を after the object, or using the incorrect counter for rooms. Be careful with the difference between い adjective and な adjective when describing the apartment.",
+    "rule": "To express renting an apartment, use the verb 借りる (kariru). To say you're looking for an apartment, use the te-form of 探す (sagasu) + います, i.e., 探しています (sagashite imasu). The object (apartment) is marked by the particle を. For example: アパートを探しています (I'm looking for an apartment). When specifying the type of apartment, use the counter 部屋 (heya) for rooms (e.g., 2DK, 1LDK), and 階 (kai) for floors (e.g., 3階にあります = on the 3rd floor). Adjectives come before the noun: 広いアパート (spacious apartment). The verb あります (aru) is used for existence of inanimate things like buildings. For rent, use 家賃 (やちん) and the expression は～です: 家賃は8万円です (The rent is 80,000 yen). Use ～に住みたいです (I want to live in...) for preferences. Remember, Japanese often omits the subject, so you can say アパートを借りたいです (I want to rent an apartment) without saying 'I'.",
+    "concept_examples": [
+      {
+        "text": "アパートを探しています。",
+        "translation": "I am looking for an apartment.",
+        "phonetic": "apāto o sagashite imasu."
+      },
+      {
+        "text": "家賃は8万円です。",
+        "translation": "The rent is 80,000 yen.",
+        "phonetic": "yachin wa hachiman-en desu."
+      },
+      {
+        "text": "2DKの部屋が欲しいです。",
+        "translation": "I want a 2DK room (two rooms plus dining-kitchen).",
+        "phonetic": "ni-dī-kei no heya ga hoshii desu."
+      },
+      {
+        "text": "駅の近くにありますか。",
+        "translation": "Is it near the station?",
+        "phonetic": "eki no chikaku ni arimasu ka."
+      }
+    ],
+    "common_error": {
+      "wrong": "アパートを借りています。",
+      "correct": "アパートを借りたいです。",
+      "correct_alt": "アパートを探しています。",
+      "explanation": "The error occurs because English speakers often confuse the te-iru form (借りています) meaning 'is renting' or 'has been renting' (ongoing state) with the desire to rent. In English, 'I rent an apartment' is common, but in Japanese, to express wanting to rent, you must use ～たいです (want to do). So, 借りたいです means 'I want to rent'. 借りています means 'I am renting' (as in, I have already rented it). To avoid this, remember that ～たいです attaches to the verb stem to express desire."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "物件を探す",
+        "translation": "Searching for a property",
+        "examples": [
+          {
+            "original": "アパートを探しています。",
+            "phonetic": "apāto o sagashite imasu.",
+            "translation": "I am looking for an apartment.",
+            "note": "Use '探しています' (te-form + います) to describe an ongoing action: 'I am looking now.'"
+          },
+          {
+            "original": "駅から近いですか。",
+            "phonetic": "eki kara chikai desu ka.",
+            "translation": "Is it close to the station?",
+            "note": "'近い' (chikai) is an い-adjective meaning 'close'. It comes before the noun, but here we use it with ですか to ask a question."
+          },
+          {
+            "original": "ペットはいいですか。",
+            "phonetic": "petto wa ii desu ka.",
+            "translation": "Are pets okay?",
+            "note": "'ペット' is a loanword; use 'は' as topic marker. 'いい' means good/okay. This is a common question when renting."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "条件を伝える",
+        "translation": "Stating conditions",
+        "examples": [
+          {
+            "original": "2LDKがいいです。",
+            "phonetic": "ni-eru-dī-kē ga ii desu.",
+            "translation": "A 2LDK (two rooms + living/dining/kitchen) is good.",
+            "note": "Use 'が' to mark the subject of the sentence: '2LDK' is the topic. Remember that '2LDK' is a common Japanese real estate abbreviation."
+          },
+          {
+            "original": "家賃は10万円までです。",
+            "phonetic": "yachin wa jūman-en made desu.",
+            "translation": "The rent is up to 100,000 yen.",
+            "note": "'まで' means 'up to'. Here, they express a budget limit."
+          },
+          {
+            "original": "バス・トイレ別がいいです。",
+            "phonetic": "basu toire betsu ga ii desu.",
+            "translation": "A separate bathroom and toilet is good.",
+            "note": "'別' (betsu) means 'separate'. This is a common preference Japanese apartments."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "質問する",
+        "translation": "Asking questions",
+        "examples": [
+          {
+            "original": "駐車場がありますか。",
+            "phonetic": "chūshajō ga arimasu ka.",
+            "translation": "Is there a parking lot?",
+            "note": "Use 'あります' for existence of inanimate objects like a parking lot. 'が' marks the subject."
+          },
+          {
+            "original": "敷金はどのくらいですか。",
+            "phonetic": "shikikin wa dono kurai desu ka.",
+            "translation": "How much is the security deposit?",
+            "note": "'敷金' is a deposit. 'どのくらい' means 'how much'."
+          },
+          {
+            "original": "契約期間はどれくらいですか。",
+            "phonetic": "keiyaku kikan wa dore kurai desu ka.",
+            "translation": "How long is the contract period?",
+            "note": "'期間' (kikan) means 'period'. 'どれくらい' is another way to ask 'how long'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "en": "Renting an apartment"
+    }
+  },
+  {
+    "id": "en_A2_conv_07",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "パーティーで (At a party)",
+    "bridge": "In English, you might say 'How's the party?' or 'I'm having a good time.' In Japanese, common phrases often use the te-form of verbs plus 'iru' to describe ongoing states, like 'tanoshinde iru' (having fun). Also, Japanese social conversations often use set expressions for politeness, such as 'otsukaresama' (thank you for your hard work) which doesn't have a direct English equivalent. Watch out for the difference between 'genki' (fine) and 'tanoshii' (fun), and remember that 'genki desu' usually answers 'how are you' rather than describing the party atmosphere.",
+    "rule": "To talk about activities at a social event in Japanese, use the te-form of a verb followed by 'iru' (or 'imasu' in polite speech) to express an ongoing action. For example, 'hanashite imasu' (are talking). To express that you are enjoying yourself, use 'tanoshinde imasu' (from 'tanoshimu' - to enjoy). For offering drinks or food, common phrases include 'douzo' (here you go) and 'mou ippai ikaga desu ka?' (how about another one?). Also, use the particle 'ga' when expressing likes or desires, like 'biiru ga hoshii' (I want a beer). In social contexts, use polite forms (ending in -masu or -desu) and avoid abrupt plain forms unless with close friends.",
+    "concept_examples": [
+      {
+        "text": "たのしいパーティーですね。",
+        "translation": "It's a fun party, isn't it?",
+        "phonetic": "[tanɕiː paːtiː desɯ ne]"
+      },
+      {
+        "text": "ビールをもういっぱいください。",
+        "translation": "One more beer, please.",
+        "phonetic": "[biːɾɯ o moː ippai kɯdasai]"
+      },
+      {
+        "text": "ともだちとはなしています。",
+        "translation": "I am talking with a friend.",
+        "phonetic": "[tomodatɕi to hanɕite imasɯ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "わたしはたのしいです。 (I am fun.)",
+      "correct": "たのしんでいます。 (I am enjoying myself.)",
+      "correct_alt": "たのしいです。 (It is fun.)",
+      "explanation": "In English, 'I am fun' is correct but means you are a fun person. In Japanese, 'tanoshii' is an adjective that usually describes the situation or thing, not the person's feeling. To say 'I am having fun,' use the verb 'tanoshimu' in the te-form with 'iru' to indicate an ongoing state. Alternatively, 'tanoshii' can be used with a subject like 'party' but not typically with 'I' as the subject."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "パーティーでよくつかうことば",
+        "translation": "Useful words at a party",
+        "examples": [
+          {
+            "original": "かんぱい！",
+            "phonetic": "[kampai]",
+            "translation": "Cheers!",
+            "note": "Standard toast when clinking glasses."
+          },
+          {
+            "original": "おかわりはいかがですか？",
+            "phonetic": "[okawari wa ikaɡa desɯ ka]",
+            "translation": "How about a refill?",
+            "note": "Polite offer for another drink or serving."
+          },
+          {
+            "original": "しつれいします。",
+            "phonetic": "[ɕiʦɯɾeː ɕimasɯ]",
+            "translation": "Excuse me (when leaving).",
+            "note": "Used to politely excuse yourself."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "かんじょうをあらわす",
+        "translation": "Expressing feelings",
+        "examples": [
+          {
+            "original": "とてもたのしかったです。",
+            "phonetic": "[totemo tanɕikaƚta desɯ]",
+            "translation": "It was very fun.",
+            "note": "Past tense of 'tanoshii' (fun)."
+          },
+          {
+            "original": "おなかがすきました。",
+            "phonetic": "[onaka ga sɯkimɑɕita]",
+            "translation": "I'm hungry.",
+            "note": "Literal meaning: stomach became empty."
+          },
+          {
+            "original": "つかれました。",
+            "phonetic": "[ʦɯkaɾemɑɕita]",
+            "translation": "I'm tired.",
+            "note": "Common after a long social event."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "しゃかいのことば",
+        "translation": "Social expressions",
+        "examples": [
+          {
+            "original": "おつかれさまでした。",
+            "phonetic": "[oʦɯkaɾe samɑdeɕita]",
+            "translation": "Thank you for your hard work (goodbye at social event).",
+            "note": "Used at the end of an event to acknowledge everyone's effort."
+          },
+          {
+            "original": "またあした。",
+            "phonetic": "[mata aɕita]",
+            "translation": "See you tomorrow.",
+            "note": "Informal but polite enough for friends."
+          },
+          {
+            "original": "こんどいっしょにごはんをたべましょう。",
+            "phonetic": "[kondo iɕːo ni ɡohan o tabemɑɕoː]",
+            "translation": "Let's eat together next time.",
+            "note": "Common way to express desire to meet again."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎉",
+    "phonetic": "",
+    "translations": {
+      "en": "At a party or social event"
+    }
+  },
+  {
+    "id": "en_A2_conv_08",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "文句と言い訳 (Complaining and Apologizing)",
+    "bridge": "In English, we often soften complaints with modals like 'could' or 'would' and apologize with 'I'm sorry' in many contexts. Japanese, however, uses fixed formulaic expressions such as すみません (sumimasen) for both apology and polite request, and 申し訳ない (moushiwakenai) for more serious apologies. A key trap is overusing ごめんなさい (gomen nasai) in formal situations where すみません is more appropriate. Also, Japanese complaints often rely on indirect phrasing with ちょっと (chotto) or ～んですが to soften the request, whereas English speakers tend to be more direct.",
+    "rule": "For A2 level, focus on polite apology and complaint phrases using ます-form verbs and common set expressions. Apologies: すみません (sumimasen) – general apology/polite, ごめんなさい (gomen nasai) – casual apology, 申し訳ございません (moushiwake gozaimasen) – very formal apology. Complaints: Use ～てください (te kudasai) for requests, ～ないでください (nai de kudasai) for prohibitions, and ～んですが (n desu ga) to soften a complaint or make a request. For example, ちょっとうるさいんですが (chotto urusai n desu ga) – 'It's a bit noisy' (lit. 'It's a bit noisy, but...'). Typical use: apologize after causing inconvenience, complain about noise, service, or errors. Avoid direct accusations; use passive forms like ～られる to sound polite.",
+    "concept_examples": [
+      {
+        "text": "すみません、遅れました。",
+        "translation": "I'm sorry, I'm late.",
+        "phonetic": "sɯmimasen, okuremashita."
+      },
+      {
+        "text": "ちょっと騒がしいんですが、静かにしてもらえますか。",
+        "translation": "It's a bit noisy, could you be quiet?",
+        "phonetic": "tɕotto sawagashii n desu ga, shizuka ni shite moraemasu ka."
+      },
+      {
+        "text": "すみません、注文と違うんですが。",
+        "translation": "Excuse me, this is different from my order.",
+        "phonetic": "sɯmimasen, tʉmon to tɕigau n desu ga."
+      },
+      {
+        "text": "本当に申し訳ございません。",
+        "translation": "I am truly sorry.",
+        "phonetic": "hontoː ni moːɕiwake gozaimasen."
+      }
+    ],
+    "common_error": {
+      "wrong": "すみませんが、あなたの店は悪いです。",
+      "correct": "すみません、店の対応が悪いんですが。",
+      "correct_alt": "すみません、サービスが悪いと思うんですが。",
+      "explanation": "The wrong sentence directly blames 'your store is bad' (あなたの店は悪いです) which is harsh and unnatural. In Japanese, complaints are indirect and often focus on the situation (対応・service) rather than the person/entity. Use ～んですが to soften and avoid direct accusation. Also, 悪い (warui) can mean 'bad' but is too strong; better to say ～が悪いんですが or use a specific noun."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "謝る・基礎",
+        "translation": "Apologizing – Basics",
+        "examples": [
+          {
+            "original": "ごめんなさい。",
+            "phonetic": "gomen nasai.",
+            "translation": "Sorry. (casual)",
+            "note": "Used among friends or for minor issues."
+          },
+          {
+            "original": "すみません、間違えました。",
+            "phonetic": "sɯmimasen, matɕigaemashita.",
+            "translation": "I'm sorry, I made a mistake.",
+            "note": "Polite apology with past tense of 'to make a mistake'."
+          },
+          {
+            "original": "申し訳ありません。",
+            "phonetic": "moːɕiwake arimasen.",
+            "translation": "I am very sorry. (formal)",
+            "note": "Use in business or formal settings."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "文句を言う",
+        "translation": "Complaining",
+        "examples": [
+          {
+            "original": "ちょっと高いんですが。",
+            "phonetic": "tɕotto takai n desu ga.",
+            "translation": "It's a bit expensive, you know.",
+            "note": "Using んですが softens the complaint to a polite hint."
+          },
+          {
+            "original": "遅いですね。",
+            "phonetic": "osoi desu ne.",
+            "translation": "It's slow, isn't it?",
+            "note": "Simple complaint with ね to seek agreement."
+          },
+          {
+            "original": "音がうるさいんですが、止めてください。",
+            "phonetic": "oto ga urusai n desu ga, tomete kudasai.",
+            "translation": "The noise is loud, please stop it.",
+            "note": "Combines complaint with a polite request."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "丁寧な対応",
+        "translation": "Polite responses",
+        "examples": [
+          {
+            "original": "どうもすみませんでした。",
+            "phonetic": "doːmo sɯmimasen deshita.",
+            "translation": "I am really sorry. (past form for emphasizing apology)",
+            "note": "Use to apologize for a past action or mistake."
+          },
+          {
+            "original": "また連絡します。",
+            "phonetic": "mata renraku shimasu.",
+            "translation": "I will contact you again.",
+            "note": "A useful phrase when dealing with complaints to offer resolution."
+          },
+          {
+            "original": "気をつけます。",
+            "phonetic": "ki o tsukemasu.",
+            "translation": "I will be careful.",
+            "note": "A polite response to apologize and promise improvement."
+          },
+          {
+            "original": "以後気をつけます。",
+            "phonetic": "igo ki o tsukemasu.",
+            "translation": "I will be careful from now on.",
+            "note": "Formal expression for acknowledging a mistake."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙇",
+    "phonetic": "",
+    "translations": {
+      "en": "Complaining and apologizing"
+    }
+  },
+  {
+    "id": "en_A2_conv_09",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "自分の町を説明する / Describing your hometown",
+    "bridge": "In English, we often use 'there is/are' and prepositions like 'in' or 'near' to describe places. Japanese instead uses the particles に (ni) for location and が (ga) as the subject marker in the pattern 『(place) に (thing) があります/います』. Also, Japanese adjectives come before nouns (e.g., 大きい町), and adjectives conjugate in the past tense, unlike English where 'was big' is the set phrase. Be careful: Japanese does not have an exact equivalent of 'there is' for people; it uses います for living things, not あります.",
+    "rule": "To describe your hometown, you use the structure: Topic + は + place description. For existence, use 『(place) に (object) があります』 for inanimate things and 『(place) に (person/animal) がいます』 for living things. Adjectives: い-adjectives (e.g., 大きい - big, 静か - quiet) and な-adjectives (e.g., 静かな - quiet) come before the noun. For past descriptions, change い-adjectives: 大きい → 大きかった, and な-adjectives: 静かだ → 静かだった. Common expressions: 〜があります (there is), 〜がいます (there is a person), 〜は〜です (topic is...). Use とても (very) and 少し (a little) to moderate. To say 'in my town', use 私の町には (watashi no machi ni wa) combining topic and location.",
+    "concept_examples": [
+      {
+        "text": "私の町には大きい公園があります。",
+        "translation": "There is a big park in my town.",
+        "phonetic": "watashi no machi ni wa ookii kouen ga arimasu"
+      },
+      {
+        "text": "駅の近くにレストランがたくさんあります。",
+        "translation": "There are many restaurants near the station.",
+        "phonetic": "eki no chikaku ni resutoran ga takusan arimasu"
+      },
+      {
+        "text": "私の町は静かで、きれいです。",
+        "translation": "My town is quiet and clean.",
+        "phonetic": "watashi no machi wa shizuka de, kirei desu"
+      },
+      {
+        "text": "子供が公園で遊んでいます。",
+        "translation": "Children are playing in the park.",
+        "phonetic": "kodomo ga kouen de asonde imasu"
+      }
+    ],
+    "common_error": {
+      "wrong": "私の町は大きい公園があります。",
+      "correct": "私の町には大きい公園があります。",
+      "correct_alt": "私の町に大きい公園があります。",
+      "explanation": "In English, you say 'My town has a big park' or 'There is a big park in my town.' In Japanese, when stating that something exists in a place, you use the particle に (ni) for location, and if you combine topic (は) with location, you must use には (ni wa) or just に, not は alone. Saying 私の町は... would mark the town as the subject doing something, not a location. Always use に to indicate where something exists."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "場所の表現",
+        "translation": "Location expressions",
+        "examples": [
+          {
+            "original": "町に公園があります。",
+            "phonetic": "machi ni kouen ga arimasu",
+            "translation": "There is a park in the town.",
+            "note": "Use あります for non-living things."
+          },
+          {
+            "original": "駅は町の中心にあります。",
+            "phonetic": "eki wa machi no chuushin ni arimasu",
+            "translation": "The station is in the center of the town.",
+            "note": "Here は marks the topic and に indicates location."
+          },
+          {
+            "original": "図書館の前にバス停があります。",
+            "phonetic": "toshokan no mae ni basutei ga arimasu",
+            "translation": "There is a bus stop in front of the library.",
+            "note": "Position words like 前 (mae) come after の."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "形容詞で描写",
+        "translation": "Describing with adjectives",
+        "examples": [
+          {
+            "original": "私の町は小さいです。",
+            "phonetic": "watashi no machi wa chiisai desu",
+            "translation": "My town is small.",
+            "note": "い-adjective ending in い stays the same before です."
+          },
+          {
+            "original": "町はとてもにぎやかでした。",
+            "phonetic": "machi wa totemo nigiyaka deshita",
+            "translation": "The town was very lively.",
+            "note": "な-adjective in past: でした."
+          },
+          {
+            "original": "古い建物がたくさんあります。",
+            "phonetic": "furui tatemono ga takusan arimasu",
+            "translation": "There are many old buildings.",
+            "note": "Adjective before noun: 古い建物."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "人や活動について話す",
+        "translation": "Talking about people and activities",
+        "examples": [
+          {
+            "original": "町には親切な人がいます。",
+            "phonetic": "machi ni wa shinsetsu na hito ga imasu",
+            "translation": "There are kind people in the town.",
+            "note": "Use います for people and animals."
+          },
+          {
+            "original": "毎週、市場で買い物をします。",
+            "phonetic": "maishuu, ichiba de kaimono wo shimasu",
+            "translation": "Every week, I go shopping at the market.",
+            "note": "Verb in present/future habitual tense."
+          },
+          {
+            "original": "夏は祭りがあります。",
+            "phonetic": "natsu wa matsuri ga arimasu",
+            "translation": "There is a festival in summer.",
+            "note": "Season as topic with は."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏘️",
+    "phonetic": "",
+    "translations": {
+      "en": "Describing your hometown"
+    }
+  },
+  {
+    "id": "en_A2_conv_10",
+    "type": "concept",
+    "category": "Conversation",
+    "title": "趣味について話す / Talking about hobbies",
+    "bridge": "In Spanish we say 'me gusta + infinitive' (e.g., 'me gusta leer'), but in Japanese the verb 'to like' does not exist as such: the construction 'X が好きです' (X ga suki desu) is used, where X is a noun or the nominalized verb form (verb + こと). Also, in Japanese the verb is not conjugated according to the person (I/you/he), so 'me gusta', 'te gusta', and 'le gusta' are expressed the same way, only changing the subject if necessary. Be careful with the particle: we use が with 好き, not を, even though in Spanish 'gustar' takes a direct object.",
+    "rule": "To talk about hobbies in Japanese (A2 level), we mainly use the structure 'dictionary form verb + こと + が好きです' to express likes. The verb is placed in its basic form followed by こと (nominalizer). Example: 本を読むことが好きです (hon o yomu koto ga suki desu) = I like reading books. You can also use a noun directly with が好きです (e.g., 音楽が好きです). To ask, use 趣味は何ですか (shumi wa nan desu ka) = What is your hobby? To talk about what you do in your free time, use the particle で with 時間 (time) and the verb 使う or 過ごす, for example 趣味で写真を撮ります (shumi de shashin o torimasu) = I take photos as a hobby. Remember that the particle を marks the direct object (with transitive verbs like 撮る, 読む), but with 好き we always use が. In affirmative sentences, the subject (watashi wa) can be omitted if it is obvious from context.",
+    "concept_examples": [
+      {
+        "text": "私の趣味は写真を撮ることです。",
+        "translation": "My hobby is taking photos.",
+        "phonetic": "watashi no shumi wa shashin o toru koto desu"
+      },
+      {
+        "text": "音楽を聞くことが好きです。",
+        "translation": "I like listening to music.",
+        "phonetic": "ongaku o kiku koto ga suki desu"
+      },
+      {
+        "text": "週末はよく映画を見ます。",
+        "translation": "On weekends I often watch movies.",
+        "phonetic": "shuumatsu wa yoku eiga o mimasu"
+      },
+      {
+        "text": "趣味は何ですか。",
+        "translation": "What is your hobby?",
+        "phonetic": "shumi wa nan desu ka"
+      }
+    ],
+    "common_error": {
+      "wrong": "*私は読むが好きです。",
+      "correct": "私は読むことが好きです。",
+      "correct_alt": "本を読むことが好きです。",
+      "explanation": "The error is using を with 好き (saying 読むが好き instead of 読むことが好き) or trying to use 'es' as in Spanish. In Japanese, to say 'I like + verb', you need to nominalize the verb with こと (or の, but こと is more formal and common). You cannot say 'Xが好きです' with a verb without turning it into a noun. Also, many Spanish speakers use を with 好き, but the correct particle is が. So remember: dictionary verb + こと + が好きです."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "好きなこと",
+        "translation": "Things you like",
+        "examples": [
+          {
+            "original": "私は音楽が好きです。",
+            "phonetic": "watashi wa ongaku ga suki desu",
+            "translation": "I like music.",
+            "note": "For likes with nouns, use が with 好き. Do not use を."
+          },
+          {
+            "original": "あなたは何が好きですか。",
+            "phonetic": "anata wa nani ga suki desu ka",
+            "translation": "What do you like?",
+            "note": "The question is formed with 何 (nani) + が + 好きですか. Although in Spanish we ask '¿Qué te gusta?', here the particle が is mandatory."
+          },
+          {
+            "original": "料理が大好きです。",
+            "phonetic": "ryouri ga daisuki desu",
+            "translation": "I love cooking (I love cooking).",
+            "note": "大好き (daisuki) means 'to love', it is stronger than 好き. Pay attention to the pronunciation: da-i-ski (not 'day-ski')."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "趣味を言う",
+        "translation": "Expressing your hobby",
+        "examples": [
+          {
+            "original": "私の趣味は読書です。",
+            "phonetic": "watashi no shumi wa dokusho desu",
+            "translation": "My hobby is reading.",
+            "note": "In Japanese, 'hobby' is said 趣味 (shumi). You can use a noun directly with は...です."
+          },
+          {
+            "original": "趣味は旅行することです。",
+            "phonetic": "shumi wa ryokou suru koto desu",
+            "translation": "My hobby is traveling.",
+            "note": "Use of the nominalized verb form with こと. 旅行する = to travel, becomes 旅行すること."
+          },
+          {
+            "original": "テニスをすることです。",
+            "phonetic": "tenisu o suru koto desu",
+            "translation": "It is playing tennis.",
+            "note": "When the hobby is an activity, we use を + verb する + こと. Note that here を is correct because it is the object of する, not of 好き."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "時間の使い方",
+        "translation": "How you spend your free time",
+        "examples": [
+          {
+            "original": "暇なときに本を読みます。",
+            "phonetic": "hima na toki ni hon o yomimasu",
+            "translation": "When I have free time, I read books.",
+            "note": "hima na toki = free time. The particle に is used with 'when', and を for the direct object of the verb 読む."
+          },
+          {
+            "original": "友達と話すのが好きです。",
+            "phonetic": "tomodachi to hanasu no ga suki desu",
+            "translation": "I like talking with friends.",
+            "note": "Here の is used instead of こと to nominalize; the particle と means 'with'. Both forms are valid, but の is more colloquial."
+          },
+          {
+            "original": "毎日ジョギングをしています。",
+            "phonetic": "mainichi jogingu o shite imasu",
+            "translation": "I jog every day.",
+            "note": "The form 〜ています expresses a habitual action. Here, 'jogging' is a loanword from English, and it is used with する."
+          },
+          {
+            "original": "散歩するのは楽しいです。",
+            "phonetic": "sanpo suru no wa tanoshii desu",
+            "translation": "Taking a walk is fun.",
+            "note": "To describe activities with adjectives (楽しい = fun), we use のは (from の + は). Do not confuse with が好き."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "en": "Talking about hobbies and free time"
+    }
+  }
+]

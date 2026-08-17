@@ -1,292 +1,130 @@
 [
   {
-    "id": "es_A1_func_01",
+    "id": "de_A1_func_01",
     "type": "concept",
     "category": "Funciones comunicativas",
-    "title": "Saludos básicos / Grundlegende Begrüßungen",
-    "bridge": "Im Deutschen verwenden wir 'Hallo', 'Guten Morgen', 'Guten Tag', 'Guten Abend'. Im Spanischen ist 'Hola' ähnlich wie 'Hallo', und 'Buenos días' entspricht 'Guten Morgen'. 'Buenas tardes' wird vom Mittag bis zum Abend verwendet, 'Buenas noches' ab der Nacht. Es gibt keine großen Schwierigkeiten, aber achte auf das Genus: 'días' ist maskulin (Buenos días), während 'tardes' und 'noches' feminin sind (Buenas tardes, Buenas noches). Deutsche neigen dazu, 'Buenas días' zu sagen, weil sie 'Tag' als maskulin kennen, aber im Spanischen ist 'días' maskulin Plural, also 'Buenos días'.",
-    "rule": "Verwende 'Buenos días' am Morgen (bis Mittag), 'Buenas tardes' am Nachmittag (bis zum Sonnenuntergang) und 'Buenas noches' in der Nacht. 'Hola' ist informell und kann jederzeit verwendet werden.",
+    "title": "Saludos y despedidas / Begrüßungen und Verabschiedungen",
+    "bridge": "Im Englischen werden 'good morning' und 'good night' sowohl als Begrüßung als auch als Verabschiedung verwendet, aber das Spanische unterscheidet klarer: 'buenos días' ist nur eine morgendliche Begrüßung, während 'buenas noches' eine abendliche Begrüßung oder eine Verabschiedung sein kann. Außerdem hat das Spanische ein besonderes informelles Plural 'vosotros' für Begrüßungen wie 'hola a todos', das das Englische nicht kennt. Achten Sie auf das Geschlecht der Adjektive wie 'buenos' vs. 'buenas' – es hängt von dem Nomen ab, das sie modifizieren (días, tardes, noches).",
+    "rule": "Begrüßungen: Verwenden Sie 'hola' (hallo) zu jeder Zeit. Für tageszeitabhängige Begrüßungen: 'buenos días' (guten Morgen) von der Morgendämmerung bis zum Mittag, 'buenas tardes' (guten Nachmittag) von Mittag bis Sonnenuntergang und 'buenas noches' (guten Abend/Nacht) nach Sonnenuntergang. Verabschiedungen: Verwenden Sie 'adiós' (auf Wiedersehen), 'hasta luego' (bis später), 'hasta mañana' (bis morgen), 'nos vemos' (wir sehen uns) und 'buenas noches' kann auch 'gute Nacht' bedeuten, wenn man geht. '¿Cómo estás?' (informell) und '¿Cómo está usted?' (formell) werden verwendet, um zu fragen, wie es jemandem geht. Häufige Antworten: 'bien', 'muy bien', 'así así', 'regular'. Im Spanischen müssen Adjektive wie 'buenos' in Geschlecht und Zahl mit dem Nomen übereinstimmen. Anders als im Englischen wird 'good morning' nicht als Verabschiedung verwendet.",
+    "concept_examples": [
+      {
+        "text": "¡Hola! ¿Cómo estás?",
+        "translation": "Hallo! Wie geht es dir? (informell)",
+        "phonetic": "/ˈola | ˈkomo esˈtas/"
+      },
+      {
+        "text": "Buenos días, señor García.",
+        "translation": "Guten Morgen, Herr García.",
+        "phonetic": "/ˈbwenos ˈdias | seˈɲoɾ ɡaɾˈsia/"
+      },
+      {
+        "text": "Hasta luego, nos vemos.",
+        "translation": "Bis später, wir sehen uns.",
+        "phonetic": "/ˈasta ˈlweɣo | nos ˈbemos/"
+      },
+      {
+        "text": "¡Buenas noches! Que descanses.",
+        "translation": "Gute Nacht! Schlaf gut.",
+        "phonetic": "/ˈbwenas ˈnotʃes | ke desˈkanses/"
+      }
+    ],
     "common_error": {
-      "wrong": "Buenas días, ¿cómo estás?",
-      "correct": "Buenos días, ¿cómo estás?",
-      "correct_alt": "Hola, ¿cómo estás?",
-      "explanation": "Der Fehler ist die Verwendung von 'Buenas' (weiblich) mit 'días' (männlich). Deutsche verwechseln das Genus, weil sie 'Tag' als maskulin kennen, aber im Spanischen ist 'días' maskulin, daher 'Buenos días'."
+      "wrong": "¿Cómo estás? Yo soy bien.",
+      "correct": "¿Cómo estás? Estoy bien.",
+      "correct_alt": "¿Cómo estás? Muy bien, gracias.",
+      "explanation": "Englischsprachige verwenden oft 'ser' (soy) für 'ich bin' bei vorübergehenden Zuständen, aber Spanisch verwendet 'estar' (estoy) für Gesundheit und Stimmung. 'Soy bien' ist falsch, weil 'bien' ein Adverb ist, das den Zustand beschreibt, nicht eine Identität. Verwenden Sie immer 'estar', um zu fragen, wie es jemandem geht."
     },
     "levels": [
       {
         "level": 1,
-        "label": "Saludos simples",
-        "translation": "Einfache Begrüßungen",
+        "label": "Saludos básicos",
+        "translation": "Grundlegende Begrüßungen",
         "examples": [
           {
-            "original": "Hola.",
-            "translation": "Hallo.",
-            "note": "Informell, wie 'Hallo'."
+            "original": "Hola",
+            "phonetic": "/ˈola/",
+            "translation": "Hallo",
+            "note": "Die häufigste Begrüßung, verwendet in formellen und informellen Situationen."
           },
           {
-            "original": "Buenos días.",
-            "translation": "Guten Morgen.",
-            "note": "Bis Mittag."
+            "original": "Buenos días",
+            "phonetic": "/ˈbwenos ˈdias/",
+            "translation": "Guten Morgen",
+            "note": "Nur am Morgen verwenden (bis etwa Mittag). Beachten Sie, dass 'buenos' maskulin Plural ist, weil 'días' maskulin ist."
           },
           {
-            "original": "Buenas tardes.",
-            "translation": "Guten Tag (nachmittags).",
-            "note": "Vom Mittag bis zum Abend."
+            "original": "Buenas tardes",
+            "phonetic": "/ˈbwenas ˈtaɾðes/",
+            "translation": "Guten Nachmittag",
+            "note": "Verwenden Sie von nachmittags bis zum Sonnenuntergang. 'Buenas' ist feminin Plural, weil 'tardes' feminin ist."
           },
           {
-            "original": "Buenas noches.",
-            "translation": "Guten Abend / Gute Nacht.",
-            "note": "Abends oder zur Nacht."
+            "original": "Buenas noches",
+            "phonetic": "/ˈbwenas ˈnotʃes/",
+            "translation": "Guten Abend / Gute Nacht",
+            "note": "Kann als abendliche Begrüßung oder als Verabschiedung beim Schlafengehen verwendet werden."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Saludos con preguntas",
-        "translation": "Begrüßungen mit Fragen",
-        "examples": [
-          {
-            "original": "Hola, ¿cómo estás?",
-            "translation": "Hallo, wie geht es dir?",
-            "note": "Informell."
-          },
-          {
-            "original": "Buenos días, ¿cómo está usted?",
-            "translation": "Guten Morgen, wie geht es Ihnen?",
-            "note": "Formell."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Saludos informales y regionales",
-        "translation": "Informelle und regionale Begrüßungen",
-        "examples": [
-          {
-            "original": "¡Hola! ¿Qué tal?",
-            "translation": "Hallo! Wie geht's?",
-            "note": "Sehr gebräuchlich, ähnlich wie '¿Cómo estás?'."
-          },
-          {
-            "original": "¿Cómo va todo?",
-            "translation": "Wie läuft alles?",
-            "note": "Umgangssprachlich."
-          }
-        ]
-      }
-    ],
-    "emoji": "👋",
-    "phonetic": "",
-    "translations": {
-      "de": "Grundlegende Begrüßungen"
-    }
-  },
-  {
-    "id": "es_A1_func_02",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Preguntar cómo estás / Fragen, wie es dir geht",
-    "bridge": "Im Deutschen fragen wir 'Wie geht es dir?' (informell) oder 'Wie geht es Ihnen?' (formell). Im Spanischen verwenden wir '¿Cómo estás?' (tú) und '¿Cómo está?' (usted). Die Struktur ist ähnlich. Der typische Fehler der Deutschen ist die Verwendung von 'ser' (sein) anstelle von 'estar' für Zustände, weil im Deutschen 'sein' für beides verwendet wird (z.B. 'Ich bin müde'). Sie sagen daher 'Soy cansado' anstelle von 'Estoy cansado'.",
-    "rule": "Verwende 'estar' für vorübergehende Zustände (Gesundheit, Stimmung, Position). '¿Cómo estás?' wird mit 'Estoy...' + Adjektiv (bien, mal, cansado, etc.) beantwortet.",
-    "common_error": {
-      "wrong": "Soy cansado.",
-      "correct": "Estoy cansado.",
-      "correct_alt": "",
-      "explanation": "Der Fehler ist die Verwendung von 'ser' (für dauerhafte Eigenschaften) anstelle von 'estar' (für vorübergehende Zustände). Im Deutschen wird 'sein' für beides verwendet, daher die Verwechslung."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Pregunta y respuesta básica",
-        "translation": "Frage und einfache Antwort",
+        "label": "Preguntar cómo estás",
+        "translation": "Fragen, wie es dir geht",
         "examples": [
           {
             "original": "¿Cómo estás?",
-            "translation": "Wie geht es dir?",
-            "note": "Informell."
-          },
-          {
-            "original": "Estoy bien.",
-            "translation": "Mir geht es gut.",
-            "note": "Positive Antwort."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Otras respuestas",
-        "translation": "Andere Antworten",
-        "examples": [
-          {
-            "original": "Estoy mal.",
-            "translation": "Mir geht es schlecht.",
-            "note": "Negative Antwort."
-          },
-          {
-            "original": "Estoy cansado.",
-            "translation": "Ich bin müde.",
-            "note": "Zustand (Achtung: 'estar', nicht 'ser')."
+            "phonetic": "/ˈkomo esˈtas/",
+            "translation": "Wie geht es dir? (informell)",
+            "note": "Verwenden Sie mit Freunden, Familie und Gleichaltrigen. Das 's' am Ende von 'estás' zeigt die informelle 'tú'-Form an."
           },
           {
             "original": "¿Cómo está usted?",
-            "translation": "Wie geht es Ihnen?",
-            "note": "Formell."
+            "phonetic": "/ˈkomo esˈta usˈteð/",
+            "translation": "Wie geht es Ihnen? (formell)",
+            "note": "Verwenden Sie mit älteren Menschen, Fremden oder im beruflichen Kontext. 'Usted' ist das formelle 'Sie'."
+          },
+          {
+            "original": "Estoy bien, gracias. ¿Y tú?",
+            "phonetic": "/esˈtoi bjen | ˈɡɾasjas | i ˈtu/",
+            "translation": "Mir geht es gut, danke. Und dir? (informell)",
+            "note": "Eine typische Antwort. Verwenden Sie '¿Y usted?' für formell."
+          },
+          {
+            "original": "Muy bien, ¿y usted?",
+            "phonetic": "/mwi bjen | i usˈteð/",
+            "translation": "Sehr gut, und Ihnen? (formell)",
+            "note": "Antworten Sie auf eine formelle Begrüßung damit. Beachten Sie die Betonung in 'usted'."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Variantes informales",
-        "translation": "Informelle Varianten",
+        "label": "Despedidas",
+        "translation": "Verabschiedungen",
         "examples": [
           {
-            "original": "¿Qué tal? - Regular.",
-            "translation": "Wie geht's? - So lala.",
-            "note": "'Regular' bedeutet 'mittel'."
+            "original": "Adiós",
+            "phonetic": "/aˈðjos/",
+            "translation": "Auf Wiedersehen",
+            "note": "Eine allgemeine Verabschiedung. Kann in jeder Situation verwendet werden."
           },
           {
-            "original": "¿Cómo andas? - Ando bien.",
-            "translation": "Wie läuft's? - Es läuft gut.",
-            "note": "Umgangssprachlich, verwendet 'andar' für Zustand."
-          }
-        ]
-      }
-    ],
-    "emoji": "😊",
-    "phonetic": "",
-    "translations": {
-      "de": "Fragen, wie es dir geht"
-    }
-  },
-  {
-    "id": "es_A1_func_03",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Presentarse / Sich vorstellen",
-    "bridge": "Im Deutschen sagen wir 'Ich heiße...' oder 'Ich bin...'. Im Spanischen ist es ähnlich: 'Me llamo...' oder 'Soy...'. Die Struktur ist fast identisch. Achtung: Das Verb 'llamar' (rufen) wird reflexiv verwendet ('me llamo'), anders als im Deutschen 'heißen' (nicht reflexiv). Deutsche neigen dazu, 'Yo llamo Ana' zu sagen (falsch) anstelle von 'Me llamo Ana'. Für Nationalität und Beruf verwenden wir 'ser' (wie 'sein' im Deutschen) ohne Artikel. Das ist im Deutschen genauso ('ich bin Lehrer'), also kein Problem. Der typische Fehler ist die Verwendung von 'ser' für Zustände, aber hier passt es. Ein weiterer Fehler ist die Wortstellung: Deutsche stellen das Verb oft ans Ende, z.B. 'Yo mañana a casa voy' (falsch). Bei der Vorstellung ist der häufigste Fehler jedoch das reflexive 'me llamo'.",
-    "rule": "Für den Namen: 'Me llamo + Name' oder 'Soy + Name' (weniger gebräuchlich). Für die Nationalität: 'Soy + Nationalität'. Für den Beruf: 'Soy + Beruf' (ohne Artikel).",
-    "common_error": {
-      "wrong": "Yo llamo Ana.",
-      "correct": "Me llamo Ana.",
-      "correct_alt": "Soy Ana.",
-      "explanation": "Der Fehler ist die Verwendung von 'llamar' ohne Reflexivpronomen, wie im Deutschen 'heißen' (nicht reflexiv). Im Spanischen muss man 'me llamo' (ich rufe mich) sagen, weil 'llamar' transitiv ist und das Objekt die Person ist."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Presentación básica",
-        "translation": "Einfache Vorstellung",
-        "examples": [
-          {
-            "original": "Me llamo Ana.",
-            "translation": "Ich heiße Ana.",
-            "note": "Name."
+            "original": "Hasta luego",
+            "phonetic": "/ˈasta ˈlweɣo/",
+            "translation": "Bis später",
+            "note": "Üblich und informell, impliziert, dass man die Person irgendwann wiedersehen wird."
           },
           {
-            "original": "Soy de Alemania.",
-            "translation": "Ich komme aus Deutschland.",
-            "note": "Nationalität."
+            "original": "Hasta mañana",
+            "phonetic": "/ˈasta maˈɲana/",
+            "translation": "Bis morgen",
+            "note": "Verwenden Sie, wenn Sie sich am nächsten Tag treffen."
           },
           {
-            "original": "Soy estudiante.",
-            "translation": "Ich bin Student.",
-            "note": "Beruf."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Presentación completa",
-        "translation": "Vollständige Vorstellung",
-        "examples": [
-          {
-            "original": "Hola, me llamo Carlos, soy de España y soy ingeniero.",
-            "translation": "Hallo, ich heiße Carlos, ich komme aus Spanien und bin Ingenieur.",
-            "note": "Kombination aus Name, Herkunft, Beruf."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Variantes y apodos",
-        "translation": "Varianten und Spitznamen",
-        "examples": [
-          {
-            "original": "¿Cómo te llamas? - Me llamo María, pero mis amigos me dicen Mari.",
-            "translation": "Wie heißt du? - Ich heiße María, aber meine Freunde nennen mich Mari.",
-            "note": "Verwendung von 'decir' für Spitznamen."
-          }
-        ]
-      }
-    ],
-    "emoji": "🙋",
-    "phonetic": "",
-    "translations": {
-      "de": "Sich vorstellen"
-    }
-  },
-  {
-    "id": "es_A1_func_04",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Despedidas / Verabschiedungen",
-    "bridge": "Im Deutschen sagen wir 'Auf Wiedersehen', 'Tschüss', 'Bis bald', 'Bis morgen'. Im Spanischen verwenden wir 'Adiós' (formell), 'Hasta luego' (üblich), 'Hasta mañana' (bis morgen). Der typische Fehler der Deutschen ist die Wortstellung: Sie neigen dazu, das Verb ans Ende zu stellen, z.B. 'Nos mañana vemos' (falsch) anstelle von 'Nos vemos mañana'. Auch die Verwendung von 'Adiós' für alle Situationen (auch wenn man sich bald wiedersieht) ist ein häufiger Fehler; besser 'Hasta luego'.",
-    "rule": "'Adiós' wird für einen endgültigen oder formellen Abschied verwendet. 'Hasta luego' bedeutet 'bis bald', 'Hasta mañana' 'bis morgen'. 'Nos vemos' ist 'wir sehen uns'.",
-    "common_error": {
-      "wrong": "Nos mañana vemos.",
-      "correct": "Nos vemos mañana.",
-      "correct_alt": "Hasta mañana.",
-      "explanation": "Der Fehler ist die falsche Wortstellung: Das Verb 'vemos' steht im Deutschen oft am Ende, aber im Spanischen muss es nach dem Subjekt (hier 'nos') kommen. Die korrekte Reihenfolge ist 'Nos vemos mañana'."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Despedidas simples",
-        "translation": "Einfache Verabschiedungen",
-        "examples": [
-          {
-            "original": "Adiós.",
-            "translation": "Auf Wiedersehen.",
-            "note": "Formell."
-          },
-          {
-            "original": "Hasta luego.",
-            "translation": "Bis bald.",
-            "note": "Informell."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Despedidas con tiempo",
-        "translation": "Verabschiedungen mit Zeitangabe",
-        "examples": [
-          {
-            "original": "Hasta mañana.",
-            "translation": "Bis morgen.",
-            "note": "Wenn man sich morgen sieht."
-          },
-          {
-            "original": "Nos vemos.",
-            "translation": "Wir sehen uns.",
-            "note": "Entspricht 'Bis dann'."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Despedidas con deseos",
-        "translation": "Verabschiedungen mit Wünschen",
-        "examples": [
-          {
-            "original": "¡Chao, que tengas buen día!",
-            "translation": "Tschüss, hab einen guten Tag!",
-            "note": "Verwendung von 'que tengas' (Subjunktiv) für einen Wunsch."
-          },
-          {
-            "original": "Hasta luego, cuídate.",
-            "translation": "Bis bald, pass auf dich auf.",
-            "note": "Verwendung des reflexiven Imperativs 'cuídate'."
+            "original": "Nos vemos",
+            "phonetic": "/nos ˈbemos/",
+            "translation": "Wir sehen uns",
+            "note": "Wörtlich 'wir sehen uns'. Sehr häufig unter Freunden."
           }
         ]
       }
@@ -294,816 +132,117 @@
     "emoji": "👋",
     "phonetic": "",
     "translations": {
-      "de": "Verabschiedungen"
+      "de": "Begrüßungen und Verabschiedungen"
     }
   },
   {
-    "id": "es_A1_func_05",
+    "id": "de_A1_func_02",
     "type": "concept",
     "category": "Funciones comunicativas",
-    "title": "Dar y pedir información personal / Persönliche Informationen geben und erfragen",
-    "bridge": "Im Deutschen fragen wir 'Wie heißt du?', 'Wie alt bist du?', 'Wo wohnst du?', 'Wie ist deine Telefonnummer?'. Im Spanischen ist es sehr ähnlich: '¿Cómo te llamas?', '¿Cuántos años tienes?', '¿Dónde vives?', '¿Cuál es tu número de teléfono?'. Das Alter wird mit 'tener' (haben) ausgedrückt, genau wie im Deutschen ('Ich habe 25 Jahre' – im Deutschen sagt man 'Ich bin 25 Jahre alt', aber 'haben' ist im Spanischen korrekt). Der typische Fehler der Deutschen ist die Verwendung von 'ser' anstelle von 'estar' für die Lokalisierung: '¿Dónde es tu casa?' (falsch) statt '¿Dónde está tu casa?'. Auch die Wortstellung kann Probleme bereiten: Deutsche neigen dazu, das Verb ans Ende zu stellen, z.B. '¿Dónde tu casa está?'.",
-    "rule": "Für den Namen: '¿Cómo te llamas?' (informell) oder '¿Cómo se llama?' (formell) → 'Me llamo...'. Für das Alter: '¿Cuántos años tienes?' → 'Tengo + Zahl + años'. Für die Nationalität: '¿De dónde eres?' → 'Soy de...' oder 'Soy + Nationalität'. Für den Beruf: '¿A qué te dedicas?' → 'Soy + Beruf' (ohne Artikel). Für die Adresse: '¿Dónde vives?' → 'Vivo en...' (mit 'estar' für die Lokalisierung). Für Telefon/E-Mail: '¿Cuál es tu teléfono/correo?' → 'Mi teléfono/correo es...'.",
-    "common_error": {
-      "wrong": "¿Dónde es tu casa? - Mi casa es en la calle Mayor.",
-      "correct": "¿Dónde está tu casa? - Mi casa está en la calle Mayor.",
-      "correct_alt": "",
-      "explanation": "Der Fehler ist die Verwendung von 'ser' (dauerhafte Eigenschaft) anstelle von 'estar' (Lokalisierung). Im Deutschen wird 'sein' für beides verwendet, daher die Verwechslung. Im Spanischen verwendet man für den Standort immer 'estar'."
-    },
-    "levels": [
+    "title": "Presentarse y presentar a otros / Sich vorstellen und andere vorstellen",
+    "bridge": "Im Englischen sagt man 'I am Maria' oder 'This is my friend Juan.' Im Spanischen verwendet man die Verben 'ser' (sein) und 'llamarse' (sich nennen). Eine häufige Falle ist, dass das Spanische das Subjektpronomen (yo, tú, etc.) oft weglässt, weil die Verbendung bereits angibt, wer das Subjekt ist. Denken Sie auch daran, dass das Spanische formelle und informelle Formen hat: 'tú' für Freunde und 'usted' für formelle Situationen. Wenn man jemanden vorstellt, verwendet man 'Te presento a...' (informell) oder 'Le presento a...' (formell), was sich vom englischen 'This is...' unterscheidet.",
+    "rule": "Um sich auf Spanisch vorzustellen, können Sie 'Me llamo [Name]' (Ich heiße...), 'Soy [Name]' (Ich bin...) oder 'Mi nombre es [Name]' (Mein Name ist...) verwenden. 'Me llamo' ist am gebräuchlichsten und verwendet das reflexive Verb 'llamarse' (sich nennen). Wenn Sie jemand anderen vorstellen, verwenden Sie 'Te presento a' (informell, zu einem Freund) oder 'Le presento a' (formell, zu einer älteren Person/Fremden). Zum Beispiel: 'Te presento a Ana'. Sie können auch einfach 'Él es...' (Er ist...) oder 'Ella es...' (Sie ist...) sagen. Das Verb 'ser' wird für die grundlegende Identifikation verwendet. Denken Sie daran, Subjektpronomen wegzulassen, wenn der Kontext klar ist: 'Soy María', nicht 'Yo soy María', es sei denn, Sie betonen etwas. Für formelle Situationen verwenden Sie die 'usted'-Formen: '¿Cómo se llama usted?' (Wie heißen Sie? formell). Antworten: 'Me llamo...' oder 'Soy...'. Um jemanden informell nach dem Namen zu fragen: '¿Cómo te llamas?' Formell: '¿Cómo se llama?'",
+    "concept_examples": [
       {
-        "level": 1,
-        "label": "Preguntas y respuestas básicas",
-        "translation": "Einfache Fragen und Antworten",
-        "examples": [
-          {
-            "original": "¿Cómo te llamas? - Me llamo Ana.",
-            "translation": "Wie heißt du? - Ich heiße Ana.",
-            "note": "Name."
-          },
-          {
-            "original": "¿Cuántos años tienes? - Tengo 25 años.",
-            "translation": "Wie alt bist du? - Ich bin 25 Jahre alt (wörtlich: Ich habe 25 Jahre).",
-            "note": "Alter (wie im Deutschen mit 'haben')."
-          },
-          {
-            "original": "¿De dónde eres? - Soy de Alemania.",
-            "translation": "Woher kommst du? - Ich komme aus Deutschland.",
-            "note": "Herkunft."
-          }
-        ]
+        "text": "Me llamo María.",
+        "translation": "Ich heiße María.",
+        "phonetic": "me ˈʝamo maˈɾia"
       },
       {
-        "level": 2,
-        "label": "Información completa",
-        "translation": "Vollständige Informationen",
-        "examples": [
-          {
-            "original": "Soy estudiante. Vivo en Madrid. Mi teléfono es 555-1234.",
-            "translation": "Ich bin Student. Ich wohne in Madrid. Meine Telefonnummer ist 555-1234.",
-            "note": "Kombination mehrerer Informationen."
-          },
-          {
-            "original": "¿Cuál es tu correo electrónico? - Mi correo es ana@gmail.com.",
-            "translation": "Wie lautet deine E-Mail-Adresse? - Meine E-Mail ist ana@gmail.com.",
-            "note": "E-Mail."
-          }
-        ]
+        "text": "Soy Carlos.",
+        "translation": "Ich bin Carlos.",
+        "phonetic": "soi ˈkaɾlos"
       },
       {
-        "level": 3,
-        "label": "Formal y con preposiciones",
-        "translation": "Formell und mit Präpositionen",
-        "examples": [
-          {
-            "original": "¿Cuál es su dirección? - Vivo en la calle San José, número 10, piso 2.",
-            "translation": "Wie lautet Ihre Adresse? - Ich wohne in der San-José-Straße, Nummer 10, 2. Stock.",
-            "note": "Vollständige Adresse mit 'vivo en' + Straße, número, piso."
-          },
-          {
-            "original": "¿A qué te dedicas? - Soy ingeniero y trabajo en una empresa.",
-            "translation": "Was machst du beruflich? - Ich bin Ingenieur und arbeite in einer Firma.",
-            "note": "Beruf und Arbeitsort mit Präposition 'en'."
-          }
-        ]
+        "text": "Te presento a mi amigo Juan.",
+        "translation": "Ich stelle dir meinen Freund Juan vor.",
+        "phonetic": "te pɾeˈsento a mi aˈmiɣo xwan"
+      },
+      {
+        "text": "Ella es mi hermana, Ana.",
+        "translation": "Sie ist meine Schwester, Ana.",
+        "phonetic": "ˈeʝa es mi eɾˈmana ˈana"
       }
     ],
-    "emoji": "📋",
-    "phonetic": "",
-    "translations": {
-      "de": "Persönliche Informationen geben und erfragen"
-    }
-  },
-  {
-    "id": "es_A1_func_06",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Describir personas, objetos y lugares / Personen, Objekte und Orte beschreiben",
-    "bridge": "Im Deutschen verwenden wir 'sein' für die Beschreibung von Eigenschaften (Größe, Farbe, Persönlichkeit) und für die Lokalisierung. Im Spanischen muss man zwischen 'ser' (dauerhafte Eigenschaften) und 'estar' (vorübergehende Zustände, Lokalisierung) unterscheiden. Deutsche verwenden oft 'ser' für alles, weil sie es von 'sein' gewohnt sind. Ein Beispiel: 'Das Haus ist groß' → 'La casa es grande' (richtig), aber 'Das Buch ist auf dem Tisch' → 'El libro es en la mesa' (falsch, richtig: 'está'). Auch die Stellung der Adjektive ist anders: Im Deutschen steht das Adjektiv vor dem Nomen ('ein großes Haus'), im Spanischen steht es normalerweise nach dem Nomen ('una casa grande'). Deutsche neigen dazu, Adjektive voranzustellen ('una grande casa'), was zwar manchmal möglich ist, aber dann die Apokope 'gran' erfordert.",
-    "rule": "Für dauerhafte Eigenschaften (Nationalität, Farbe, Größe, Material, Persönlichkeit): 'ser' verwenden. Für Lokalisierung und vorübergehende Zustände (Stimmung, Gesundheit, Position): 'estar' verwenden. Das Adjektiv wird in Geschlecht und Zahl an das Nomen angepasst (z.B. 'casa grande', 'casas grandes', 'hombre alto', 'mujer alta'). Das Adjektiv steht normalerweise nach dem Nomen.",
     "common_error": {
-      "wrong": "El libro es en la mesa.",
-      "correct": "El libro está en la mesa.",
-      "correct_alt": "",
-      "explanation": "Der Fehler ist die Verwendung von 'ser' (dauerhafte Eigenschaft) für die Lokalisierung. Im Spanischen wird für den Standort immer 'estar' verwendet. Deutsche verwenden 'sein' für beides, daher die Verwechslung."
+      "wrong": "Yo soy llamo María.",
+      "correct": "Me llamo María.",
+      "correct_alt": "Soy María.",
+      "explanation": "Englischsprachige versuchen oft, 'I am' mit 'call myself' zu kombinieren, was 'Yo soy llamo' ergibt. Im Spanischen enthält das reflexive Verb 'llamarse' bereits das 'me' (mich), daher sagt man nur 'Me llamo.' Auch Subjektpronomen wie 'yo' werden normalerweise weggelassen, also ist 'Me llamo María' ausreichend. Vermeiden Sie es, 'soy' und 'llamo' zusammen zu verwenden."
     },
     "levels": [
       {
         "level": 1,
-        "label": "Descripciones básicas",
-        "translation": "Einfache Beschreibungen",
+        "label": "Preguntar y decir el nombre",
+        "translation": "Nach dem Namen fragen und den Namen sagen",
         "examples": [
           {
-            "original": "La casa es grande.",
-            "translation": "Das Haus ist groß.",
-            "note": "Dauerhafte Eigenschaft (ser)."
+            "original": "¿Cómo te llamas?",
+            "phonetic": "ˈkomo te ˈʝamas",
+            "translation": "Wie heißt du? (informell)",
+            "note": "Verwende dies mit Freunden, Gleichaltrigen oder Kindern. Das Verb 'llamarse' ist reflexiv."
           },
           {
-            "original": "El perro está en el jardín.",
-            "translation": "Der Hund ist im Garten.",
-            "note": "Lokalisierung (estar)."
+            "original": "Me llamo Lucía.",
+            "phonetic": "me ˈʝamo luˈsia",
+            "translation": "Ich heiße Lucía.",
+            "note": "Die Antwort verwendet 'me llamo' (ich nenne mich). Beachten Sie den Akzent auf Lucía."
+          },
+          {
+            "original": "¿Y tú?",
+            "phonetic": "i tu",
+            "translation": "Und du? (informell)",
+            "note": "Eine häufige Anschlussfrage, um informell nach dem Namen des anderen zu fragen."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Descripciones con adjetivos",
-        "translation": "Beschreibungen mit Adjektiven",
+        "label": "Presentar a otra persona",
+        "translation": "Eine andere Person vorstellen",
         "examples": [
           {
-            "original": "María es alta y delgada.",
-            "translation": "Maria ist groß und dünn.",
-            "note": "Weibliche Einzahl: alta, delgada."
+            "original": "Te presento a mi padre.",
+            "phonetic": "te pɾeˈsento a mi ˈpaðɾe",
+            "translation": "Ich stelle dir meinen Vater vor.",
+            "note": "Verwenden Sie 'te presento a', wenn Sie jemanden einem Freund vorstellen. Das 'a' ist das persönliche 'a', das vor einer Person erforderlich ist."
           },
           {
-            "original": "El coche es rojo y nuevo.",
-            "translation": "Das Auto ist rot und neu.",
-            "note": "Männliche Einzahl: rojo, nuevo."
+            "original": "Le presento al señor García.",
+            "phonetic": "le pɾeˈsento al seˈɲoɾ ɡaɾˈsia",
+            "translation": "Ich stelle Ihnen Herrn García vor (formell).",
+            "note": "'Le' ist das formelle indirekte Objektpronomen (Sie, formell). 'Al' ist a + el (zu dem)."
+          },
+          {
+            "original": "Él es mi amigo Pedro.",
+            "phonetic": "el es mi aˈmiɣo ˈpeðɾo",
+            "translation": "Er ist mein Freund Pedro.",
+            "note": "Sie können auch einfach 'Él es...' oder 'Ella es...' sagen, um jemanden vorzustellen. Das ist einfacher und sehr verbreitet."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Descripciones con estado y ubicación",
-        "translation": "Beschreibungen mit Zustand und Standort",
+        "label": "Formal e informal",
+        "translation": "Formell und informell",
         "examples": [
           {
-            "original": "La sopa está fría.",
-            "translation": "Die Suppe ist kalt.",
-            "note": "Vorübergehender Zustand (estar)."
+            "original": "¿Cómo se llama usted?",
+            "phonetic": "ˈkomo se ˈʝama usˈteð",
+            "translation": "Wie heißen Sie? (formell)",
+            "note": "Verwenden Sie 'usted' bei Personen, die Sie nicht kennen, älteren Menschen oder im beruflichen Umfeld. Die Verbform ist 'se llama'."
           },
           {
-            "original": "El museo está cerca de la plaza.",
-            "translation": "Das Museum ist in der Nähe des Platzes.",
-            "note": "Lokalisierung mit Präposition."
+            "original": "Mucho gusto, señora.",
+            "phonetic": "ˈmutʃo ˈɣusto seˈɲoɾa",
+            "translation": "Freut mich, Sie kennenzulernen, gnädige Frau.",
+            "note": "'Mucho gusto' ist eine standardmäßige höfliche Phrase, wenn man jemanden trifft. Fügen Sie den Titel (señor/señora) für Formalität hinzu."
           },
           {
-            "original": "Estoy contento porque he encontrado el libro.",
-            "translation": "Ich bin glücklich, weil ich das Buch gefunden habe.",
-            "note": "Emotionaler Zustand (estar)."
-          }
-        ]
-      }
-    ],
-    "emoji": "🖼️",
-    "phonetic": "",
-    "translations": {
-      "de": "Personen, Objekte und Orte beschreiben"
-    }
-  },
-  {
-    "id": "es_A1_func_07",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Hablar de gustos e intereses / Über Vorlieben und Interessen sprechen",
-    "bridge": "Im Deutschen sagen wir 'Ich mag Kaffee' (Subjekt = ich, Objekt = Kaffee). Im Spanischen funktioniert das Verb 'gustar' wie 'gefallen' im Deutschen: 'Mir gefällt Kaffee' (Subjekt = Kaffee, indirektes Objekt = mir). Das ist eine große Erleichterung für Deutsche, weil 'gefallen' die gleiche Struktur hat (Dativ + gefallen). Der typische Fehler ist jedoch, dass Deutsche manchmal 'gustar' wie ein reguläres Verb verwenden (wie 'mögen') und 'Yo gusto el café' sagen (falsch). Sie können auch die Pluralform vergessen: 'Me gusta los perros' (falsch) statt 'Me gustan los perros'. Außerdem kann es zu Verwechslungen mit 'querer' (lieben/wollen) kommen: 'Quiero el café' (ich will den Kaffee) statt 'Me gusta el café' (ich mag Kaffee).",
-    "rule": "Für Vorlieben: 'Me gusta + Singular' (z.B. 'Me gusta el chocolate') oder 'Me gustan + Plural' (z.B. 'Me gustan los perros'). Die Person wird durch das indirekte Objektpronomen ausgedrückt: me, te, le, nos, os, les. Zur Betonung kann man 'A mí me gusta...' sagen. 'Encantar' (begeistern) hat die gleiche Struktur ('me encanta, me encantan'). 'Preferir' (bevorzugen) ist ein reguläres Verb (Subjekt = Person): 'Prefiero el té al café'.",
-    "common_error": {
-      "wrong": "Yo gusto el café.",
-      "correct": "Me gusta el café.",
-      "correct_alt": "A mí me gusta el café.",
-      "explanation": "Der Fehler ist die Verwendung von 'gustar' als reguläres Verb (wie 'mögen' im Deutschen) mit dem Subjekt 'yo'. Im Spanischen bedeutet 'gustar' 'gefallen' und hat die gleiche Struktur: das Subjekt ist die Sache, die gefällt, und die Person ist das indirekte Objekt. Also 'Me gusta el café' (Mir gefällt der Kaffee)."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Gustos simples",
-        "translation": "Einfache Vorlieben",
-        "examples": [
-          {
-            "original": "Me gusta el chocolate.",
-            "translation": "Ich mag Schokolade (Mir gefällt Schokolade).",
-            "note": "Einzahl."
-          },
-          {
-            "original": "Me gustan los perros.",
-            "translation": "Ich mag Hunde (Mir gefallen Hunde).",
-            "note": "Mehrzahl."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Negación y preguntas",
-        "translation": "Verneinung und Fragen",
-        "examples": [
-          {
-            "original": "No me gusta el pescado.",
-            "translation": "Ich mag keinen Fisch.",
-            "note": "Verneinung."
-          },
-          {
-            "original": "¿Te gusta la música?",
-            "translation": "Magst du Musik?",
-            "note": "Frage mit 'te'."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Otros verbos similares (encantar, preferir)",
-        "translation": "Ähnliche Verben (encantar, preferir)",
-        "examples": [
-          {
-            "original": "Me encanta el fútbol.",
-            "translation": "Ich liebe Fußball (Fußball begeistert mich).",
-            "note": "'Encantar' funktioniert wie 'gustar'."
-          },
-          {
-            "original": "Prefiero el té al café.",
-            "translation": "Ich bevorzuge Tee gegenüber Kaffee.",
-            "note": "'Preferir' ist regulär (Subjekt = Person)."
-          }
-        ]
-      }
-    ],
-    "emoji": "❤️",
-    "phonetic": "",
-    "translations": {
-      "de": "Über Vorlieben und Interessen sprechen"
-    }
-  },
-  {
-    "id": "es_A1_func_08",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Expresar obligación y necesidad / Verpflichtung und Notwendigkeit ausdrücken",
-    "bridge": "Im Deutschen verwenden wir 'müssen' für persönliche Verpflichtungen ('Ich muss arbeiten') und 'man muss' oder 'es ist nötig' für unpersönliche Verpflichtungen ('Man muss früh kommen'). Im Spanischen verwenden wir 'tener que + Infinitiv' für persönliche Verpflichtungen ('Tengo que trabajar') und 'hay que + Infinitiv' für unpersönliche Verpflichtungen ('Hay que llegar temprano'). 'Necesitar' (brauchen) drückt ein persönliches Bedürfnis aus, wie im Deutschen. Der typische Fehler der Deutschen ist die Verwendung von 'hay que' mit einem Subjekt ('Yo hay que ir'), weil sie 'man muss' mit einem impliziten Subjekt assoziieren. Auch die Wortstellung kann Probleme bereiten: Deutsche neigen dazu, das Verb ans Ende zu stellen ('Yo que trabajar tengo' statt 'Tengo que trabajar').",
-    "rule": "Für persönliche Verpflichtung: 'tener que + Infinitiv' (z.B. 'Tengo que estudiar'). Für unpersönliche Verpflichtung: 'hay que + Infinitiv' (z.B. 'Hay que estudiar' – ohne Subjekt). Für Bedürfnis: 'necesitar + Infinitiv' oder 'necesitar + Nomen' (z.B. 'Necesito agua'). Achtung: 'hay que' wird nie mit einem Subjekt verwendet.",
-    "common_error": {
-      "wrong": "Yo hay que ir al médico.",
-      "correct": "Tengo que ir al médico. (persönlich) / Hay que ir al médico. (unpersönlich)",
-      "correct_alt": "",
-      "explanation": "Der Fehler ist die Verwendung eines Subjekts ('yo') mit 'hay que', das im Spanischen unpersönlich ist. Im Deutschen kann man 'man muss' mit einem impliziten Subjekt verwenden, aber im Spanischen ist 'hay que' immer unpersönlich und nimmt kein explizites Subjekt. Für eine persönliche Verpflichtung verwendet man 'tener que'."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Obligación personal",
-        "translation": "Persönliche Verpflichtung",
-        "examples": [
-          {
-            "original": "Tengo que trabajar.",
-            "translation": "Ich muss arbeiten.",
-            "note": "Erste Person."
-          },
-          {
-            "original": "Tienes que estudiar.",
-            "translation": "Du musst lernen.",
-            "note": "Zweite Person (tú)."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Obligación impersonal",
-        "translation": "Unpersönliche Verpflichtung",
-        "examples": [
-          {
-            "original": "Hay que llegar temprano.",
-            "translation": "Man muss früh kommen.",
-            "note": "Ohne Subjekt."
-          },
-          {
-            "original": "Hay que comer fruta.",
-            "translation": "Man sollte Obst essen.",
-            "note": "Allgemeiner Rat."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Necesidad y combinación",
-        "translation": "Bedürfnis und Kombination",
-        "examples": [
-          {
-            "original": "Necesito descansar.",
-            "translation": "Ich brauche Ruhe / Ich muss mich ausruhen.",
-            "note": "Verb 'necesitar' (persönliches Bedürfnis)."
-          },
-          {
-            "original": "Tenemos que comprar pan. También hay que comprar leche.",
-            "translation": "Wir müssen Brot kaufen. Man muss auch Milch kaufen.",
-            "note": "Kombination aus persönlicher und unpersönlicher Verpflichtung."
-          }
-        ]
-      }
-    ],
-    "emoji": "⚠️",
-    "phonetic": "",
-    "translations": {
-      "de": "Verpflichtung und Notwendigkeit ausdrücken"
-    }
-  },
-  {
-    "id": "es_A1_func_09",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Preguntar y decir la hora, fechas y precios / Uhrzeit, Datum und Preise erfragen und nennen",
-    "bridge": "Im Deutschen fragen wir 'Wie spät ist es?' und antworten 'Es ist ein Uhr', 'Es ist zwei Uhr'. Im Spanischen ist die Frage '¿Qué hora es?' (Einzahl) und die Antworten sind 'Es la una' (für 1 Uhr) und 'Son las dos' (für 2 Uhr und mehr). Deutsche neigen dazu, '¿Qué horas son?' zu sagen (falsch), weil sie 'Wie spät ist es?' mit 'Stunden' assoziieren. Für Daten: 'Welcher Tag ist heute?' → '¿Qué día es hoy?' (ähnlich). Für Preise: '¿Cuánto cuesta?' (Einzahl) oder '¿Cuánto cuestan?' (Mehrzahl), wie im Deutschen 'Wie viel kostet?' Der typische Fehler ist die Verwendung von 'horas' im Plural in der Frage und die Verwendung von 'ser' anstelle von 'estar' für Preise (aber 'costar' ist ein eigenes Verb).",
-    "rule": "Uhrzeit: '¿Qué hora es?' → 'Es la una' (1 Uhr) / 'Son las dos/tres...' (2 Uhr und mehr). Für Minuten: 'y' (z.B. 'y media', 'y cuarto') oder 'menos' (z.B. 'menos cuarto' für 'Viertel vor'). Datum: '¿Qué fecha es?' oder '¿Qué día es?' → 'Hoy es 5 de mayo'. Preis: '¿Cuánto cuesta?' (Einzahl) / '¿Cuánto cuestan?' (Mehrzahl).",
-    "common_error": {
-      "wrong": "¿Qué horas son? - Son las dos horas.",
-      "correct": "¿Qué hora es? - Son las dos.",
-      "correct_alt": "Es la una (für 1 Uhr).",
-      "explanation": "Der Fehler ist die Verwendung von 'horas' im Plural in der Frage (falscher Calque vom Deutschen) und die Hinzufügung von 'horas' in der Antwort (überflüssig). Im Spanischen ist die Frage immer im Singular ('hora') und die Antwort enthält nur die Zahl (außer bei 'una', das mit 'es la' kommt)."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "La hora básica",
-        "translation": "Einfache Uhrzeit",
-        "examples": [
-          {
-            "original": "¿Qué hora es? - Es la una.",
-            "translation": "Wie spät ist es? - Es ist ein Uhr.",
-            "note": "1 Uhr (Einzahl)."
-          },
-          {
-            "original": "¿Qué hora es? - Son las tres.",
-            "translation": "Wie spät ist es? - Es ist drei Uhr.",
-            "note": "Mehrzahl (2 Uhr und mehr)."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Preguntar fecha y precio",
-        "translation": "Datum und Preis erfragen",
-        "examples": [
-          {
-            "original": "¿Qué día es hoy? - Hoy es lunes.",
-            "translation": "Welcher Tag ist heute? - Heute ist Montag.",
-            "note": "Wochentag."
-          },
-          {
-            "original": "¿Cuánto cuesta el pan? - Cuesta un euro.",
-            "translation": "Wie viel kostet das Brot? - Es kostet einen Euro.",
-            "note": "Preis."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Horas con minutos y precios plurales",
-        "translation": "Uhrzeit mit Minuten und Preise im Plural",
-        "examples": [
-          {
-            "original": "¿Qué hora es? - Son las dos y media.",
-            "translation": "Wie spät ist es? - Es ist halb drei (wörtlich: zwei Uhr dreißig).",
-            "note": "Minuten mit 'y'."
-          },
-          {
-            "original": "¿Cuánto cuestan estos zapatos? - Cuestan 50 euros.",
-            "translation": "Wie viel kosten diese Schuhe? - Sie kosten 50 Euro.",
-            "note": "Plural mit 'cuestan'."
-          },
-          {
-            "original": "Es el 15 de mayo.",
-            "translation": "Es ist der 15. Mai.",
-            "note": "Vollständiges Datum mit 'de' für den Monat."
-          }
-        ]
-      }
-    ],
-    "emoji": "🕐",
-    "phonetic": "",
-    "translations": {
-      "de": "Uhrzeit, Datum und Preise erfragen und nennen"
-    }
-  },
-  {
-    "id": "es_A1_func_10",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Hablar de rutinas diarias y acciones habituales / Über tägliche Routinen und gewohnheitsmäßige Handlungen sprechen",
-    "bridge": "Im Deutschen verwenden wir das Präsens für Gewohnheiten: 'Ich stehe um 7 Uhr auf', 'Ich dusche', 'Ich frühstücke'. Im Spanischen ist das genau gleich: 'Me levanto a las 7', 'Me ducho', 'Desayuno'. Die reflexiven Verben (sich aufstehen, sich duschen, sich waschen) funktionieren genauso wie im Deutschen: 'levantarse' = 'sich aufstehen'. Der typische Fehler der Deutschen ist die Verwendung des reflexiven Pronomens 'se' für alle Personen (sie denken an 'sich' im Deutschen). Sie sagen z.B. 'Yo se levanto' statt 'Yo me levanto'. Auch die Wortstellung kann Probleme bereiten: Deutsche neigen dazu, das Verb ans Ende zu stellen ('Yo mañana a las 7 me levanto' statt 'Yo me levanto a las 7'). Ein weiterer Fehler ist die Verwendung von 'sein' anstelle von 'haben' für das Alter ('Soy 25 años' statt 'Tengo 25 años'), aber das ist hier nicht relevant.",
-    "rule": "Wir verwenden das Präsens für gewohnheitsmäßige Handlungen. Reflexive Verben (levantarse, ducharse, acostarse) werden mit Pronomen (me, te, se, nos, os, se) vor dem Verb konjugiert. Beispiel: 'Yo me levanto a las 7'. Regelmäßige Verben folgen den Endungen -ar, -er, -ir. Unregelmäßige Verben (hacer, tener, ir, etc.) müssen auswendig gelernt werden.",
-    "common_error": {
-      "wrong": "Yo se levanta a las 8.",
-      "correct": "Yo me levanto a las 8.",
-      "correct_alt": "Tú te levantas a las 8.",
-      "explanation": "Der Fehler ist die Verwendung des reflexiven Pronomens 'se' (dritte Person) mit der ersten Person 'yo' und der falschen Konjugation 'levanta'. Deutsche denken an 'sich' (reflexiv) und verwenden oft 'se' für alle Personen. Im Spanischen muss das Pronomen mit der Person übereinstimmen: 'me' für 'yo', 'te' für 'tú', 'se' für 'él/ella/usted'."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Rutina simple",
-        "translation": "Einfache Routine",
-        "examples": [
-          {
-            "original": "Me levanto a las 7.",
-            "translation": "Ich stehe um 7 Uhr auf.",
-            "note": "Routine mit reflexivem Verb."
-          },
-          {
-            "original": "Desayuno café con leche.",
-            "translation": "Ich frühstücke Kaffee mit Milch.",
-            "note": "Regelmäßiges Verb -ar."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Rutina completa",
-        "translation": "Vollständige Routine",
-        "examples": [
-          {
-            "original": "Me ducho, desayuno y voy al trabajo.",
-            "translation": "Ich dusche, frühstücke und gehe zur Arbeit.",
-            "note": "Abfolge von Handlungen."
-          },
-          {
-            "original": "Todos los días estudio español.",
-            "translation": "Jeden Tag lerne ich Spanisch.",
-            "note": "Häufigkeit."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Verbos irregulares en rutina",
-        "translation": "Unregelmäßige Verben in der Routine",
-        "examples": [
-          {
-            "original": "Hago la cama y tengo que ir al supermercado.",
-            "translation": "Ich mache das Bett und muss zum Supermarkt gehen.",
-            "note": "Unregelmäßige Verben 'hacer' und 'tener'."
-          },
-          {
-            "original": "Me acuesto tarde los fines de semana.",
-            "translation": "Ich gehe am Wochenende spät ins Bett.",
-            "note": "Unregelmäßiges Verb 'acostarse' (o→ue)."
-          }
-        ]
-      }
-    ],
-    "emoji": "⏰",
-    "phonetic": "",
-    "translations": {
-      "de": "Über tägliche Routinen und gewohnheitsmäßige Handlungen sprechen"
-    }
-  },
-  {
-    "id": "es_A1_func_11",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Describir el tiempo atmosférico / Das Wetter beschreiben",
-    "bridge": "Im Deutschen sagen wir 'Es ist sonnig', 'Es ist warm', 'Es ist kalt', 'Es regnet', 'Es schneit', 'Es ist windig'. Im Spanischen ist die Struktur anders: Wir verwenden 'hacer' für allgemeine Wetterphänomene ('Hace sol', 'Hace calor', 'Hace frío', 'Hace viento') und 'estar' oder 'hay' für Zustände ('Está nublado', 'Está lloviendo', 'Hay niebla'). Deutsche neigen dazu, 'es ist' wörtlich zu übersetzen und sagen 'Es calor' (falsch) statt 'Hace calor'. Auch die Verwendung von 'estar' für 'está lloviendo' ist ähnlich wie im Deutschen 'es regnet' (mit 'ist'? Nein, im Deutschen sagt man 'es regnet' ohne Hilfsverb; aber die progressive Form 'está lloviendo' entspricht 'es regnet gerade'). Der häufigste Fehler ist die Verwendung von 'ser' oder 'estar' anstelle von 'hacer' für Temperatur und Sonne.",
-    "rule": "Für allgemeine Wetterphänomene (Temperatur, Sonne, Wind): 'hace + Nomen' (hace sol, hace calor, hace frío, hace viento). Für Zustände (Regen, Schnee, Wolken): 'está + Adjektiv/Gerundium' (está nublado, está lloviendo, está nevando) oder 'hay + Nomen' (hay niebla, hay nubes).",
-    "common_error": {
-      "wrong": "Está calor hoy.",
-      "correct": "Hace calor hoy.",
-      "correct_alt": "",
-      "explanation": "Der Fehler ist die Verwendung von 'estar' (für Zustände) anstelle von 'hacer' für allgemeine Wetterbedingungen. Im Deutschen sagt man 'es ist warm' (mit 'sein'), aber im Spanischen verwendet man für Temperatur und Sonne immer 'hacer' (hace calor, hace frío, hace sol)."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Tiempo básico",
-        "translation": "Einfaches Wetter",
-        "examples": [
-          {
-            "original": "Hace sol.",
-            "translation": "Es ist sonnig (wörtlich: Es macht Sonne).",
-            "note": "Allgemeines Phänomen (hacer)."
-          },
-          {
-            "original": "Hace frío.",
-            "translation": "Es ist kalt.",
-            "note": "Temperatur."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Estado del cielo",
-        "translation": "Zustand des Himmels",
-        "examples": [
-          {
-            "original": "Está nublado.",
-            "translation": "Es ist bewölkt.",
-            "note": "Zustand (estar + Adjektiv)."
-          },
-          {
-            "original": "Está lloviendo.",
-            "translation": "Es regnet (gerade).",
-            "note": "Gerundium für laufende Handlung."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Variantes y expresiones",
-        "translation": "Varianten und Ausdrücke",
-        "examples": [
-          {
-            "original": "Hace viento y está nublado.",
-            "translation": "Es ist windig und bewölkt.",
-            "note": "Kombination von 'hacer' und 'estar'."
-          },
-          {
-            "original": "Hay niebla en la mañana.",
-            "translation": "Am Morgen ist es neblig (Es gibt Nebel).",
-            "note": "Verwendung von 'hay' für die Anwesenheit."
-          },
-          {
-            "original": "¿Qué tiempo hace? - Hace buen tiempo.",
-            "translation": "Wie ist das Wetter? - Das Wetter ist gut.",
-            "note": "Feste Frage und Antwort."
-          }
-        ]
-      }
-    ],
-    "emoji": "☀️",
-    "phonetic": "",
-    "translations": {
-      "de": "Das Wetter beschreiben"
-    }
-  },
-  {
-    "id": "es_A1_func_12",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Pedir y dar direcciones / Nach dem Weg fragen und Anweisungen geben",
-    "bridge": "Im Deutschen fragen wir 'Wo ist...?' oder 'Wie komme ich zu...?' und antworten 'Gehen Sie geradeaus', 'Biegen Sie rechts/links ab', 'Nehmen Sie die erste Straße links'. Im Spanischen ist es ähnlich: '¿Dónde está...?' (für feste Orte), '¿Cómo llego a...?' (für den Weg). Wir verwenden 'estar' für die Lokalisierung (nie 'ser'). Der typische Fehler der Deutschen ist die Verwendung von 'ser' für die Lokalisierung ('¿Dónde es el banco?' statt '¿Dónde está el banco?'), weil sie 'sein' aus dem Deutschen gewohnt sind. Auch die Wortstellung kann Probleme bereiten: Deutsche neigen dazu, das Verb ans Ende zu stellen ('¿Dónde el banco está?' statt '¿Dónde está el banco?'). Bei Anweisungen verwenden wir den Imperativ (informell 'tú'): 'sigue', 'gira', 'toma'.",
-    "rule": "Fragen: '¿Dónde está + Ort?' oder '¿Cómo llego a + Ort?'. Anweisungen: 'Sigue recto' (geradeaus), 'Gira a la izquierda/derecha' (links/rechts abbiegen), 'Toma la primera calle' (nimm die erste Straße), 'Está en la calle...', 'Está cerca/lejos de...'. Verwende den informellen Imperativ 'tú' (sigue, gira, toma).",
-    "common_error": {
-      "wrong": "¿Dónde es el banco? - El banco es en la plaza.",
-      "correct": "¿Dónde está el banco? - El banco está en la plaza.",
-      "correct_alt": "¿Cómo llego al banco? - Está en la plaza.",
-      "explanation": "Der Fehler ist die Verwendung von 'ser' (dauerhafte Eigenschaft) für die Lokalisierung. Im Spanischen wird für den Standort immer 'estar' verwendet. Deutsche verwenden 'sein' für beides, daher die Verwechslung."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Preguntar ubicación básica",
-        "translation": "Einfache Standortfrage",
-        "examples": [
-          {
-            "original": "¿Dónde está el museo?",
-            "translation": "Wo ist das Museum?",
-            "note": "Frage mit 'estar'."
-          },
-          {
-            "original": "Está cerca de aquí.",
-            "translation": "Es ist in der Nähe.",
-            "note": "Antwort mit 'estar'."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Dar indicaciones simples",
-        "translation": "Einfache Anweisungen geben",
-        "examples": [
-          {
-            "original": "Sigue recto y gira a la derecha.",
-            "translation": "Gehen Sie geradeaus und biegen Sie rechts ab.",
-            "note": "Informeller Imperativ (tú)."
-          },
-          {
-            "original": "Toma la primera calle a la izquierda.",
-            "translation": "Nehmen Sie die erste Straße links.",
-            "note": "'Toma' wird in Spanien oft verwendet."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Indicaciones complejas",
-        "translation": "Komplexe Anweisungen",
-        "examples": [
-          {
-            "original": "Cruza la plaza y el banco está en la esquina.",
-            "translation": "Überqueren Sie den Platz, und die Bank ist an der Ecke.",
-            "note": "Mehr Details."
-          },
-          {
-            "original": "¿Cómo llego a la estación? - Ve todo recto y luego gira a la izquierda en el semáforo.",
-            "translation": "Wie komme ich zum Bahnhof? - Gehen Sie immer geradeaus und biegen Sie dann an der Ampel links ab.",
-            "note": "Verwendung von 've' (Imperativ von 'ir')."
-          }
-        ]
-      }
-    ],
-    "emoji": "🗺️",
-    "phonetic": "",
-    "translations": {
-      "de": "Nach dem Weg fragen und Anweisungen geben"
-    }
-  },
-  {
-    "id": "es_A1_func_13",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Realizar compras básicas / Grundlegende Einkäufe tätigen",
-    "bridge": "Im Deutschen fragen wir 'Wie viel kostet...?' und verwenden 'Ich möchte...', 'Ich nehme...', 'Ich hätte gern...' zum Kaufen. Im Spanischen verwenden wir '¿Cuánto cuesta?' (Einzahl) oder '¿Cuánto cuestan?' (Mehrzahl). Zum Bestellen sagen wir 'Quiero...' (ich will), 'Me gustaría...' (ich hätte gern) oder '¿Me puede dar...?' (können Sie mir geben?). Der typische Fehler der Deutschen ist die Verwendung von 'tomar' (nehmen) für den Kauf (wie im Deutschen 'ich nehme'), aber im Spanischen wird 'tomar' eher für Getränke oder Verkehrsmittel verwendet; für den Kauf ist 'quiero' oder 'me gustaría' besser. Auch die Verwendung des unbestimmten Artikels kann Probleme bereiten: Deutsche sagen oft 'eins' (einen) für Mengen, aber im Spanischen sagt man 'un', 'una' oder lässt den Artikel weg. Ein weiterer Fehler ist das Genus: 'un agua' (richtig, obwohl 'agua' feminin ist, aber man sagt 'un agua' wegen der Betonung).",
-    "rule": "Preis erfragen: '¿Cuánto cuesta?' (Einzahl) / '¿Cuánto cuestan?' (Mehrzahl). Kaufen: 'Quiero + Artikel + Produkt' (informell), 'Me gustaría + Artikel + Produkt' (höflicher), '¿Me puede dar...?' (formell). Bezahlen: '¿Cuánto es?' (Was macht das insgesamt?) oder 'Pago con tarjeta/efectivo' (ich bezahle mit Karte/bar).",
-    "common_error": {
-      "wrong": "Quiero tomar una agua.",
-      "correct": "Quiero un agua.",
-      "correct_alt": "Quiero agua. (ohne Artikel)",
-      "explanation": "Zwei mögliche Fehler: 1) Verwendung von 'tomar' für den Kauf (im Spanischen wird 'tomar' für Getränke oder Verkehrsmittel verwendet; für den Kauf sagt man 'quiero' oder 'me gustaría'). 2) Verwendung von 'una agua' (falscher Artikel) statt 'un agua' (weil 'agua' feminin ist, aber man den Artikel 'un' verwendet, um die Wiederholung des betonten 'a' zu vermeiden)."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Preguntar precio y pedir",
-        "translation": "Preis erfragen und bestellen",
-        "examples": [
-          {
-            "original": "¿Cuánto cuesta esta camisa?",
-            "translation": "Wie viel kostet dieses Hemd?",
-            "note": "Preisfrage."
-          },
-          {
-            "original": "Quiero un kilo de manzanas.",
-            "translation": "Ich möchte ein Kilo Äpfel.",
-            "note": "Einfache Bestellung."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Interacción en la tienda",
-        "translation": "Interaktion im Geschäft",
-        "examples": [
-          {
-            "original": "¿Cuánto cuestan estos zapatos? - Cuestan 40 euros.",
-            "translation": "Wie viel kosten diese Schuhe? - Sie kosten 40 Euro.",
-            "note": "Plural."
-          },
-          {
-            "original": "¿Me puede dar dos kilos de naranjas?",
-            "translation": "Können Sie mir zwei Kilo Orangen geben?",
-            "note": "Höfliche Bitte mit 'poder'."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Formas de pago y devolución",
-        "translation": "Zahlungsmethoden und Rückgabe",
-        "examples": [
-          {
-            "original": "¿Cuánto es en total? - Son 25 euros.",
-            "translation": "Was macht das insgesamt? - Das macht 25 Euro.",
-            "note": "'¿Cuánto es?' für den Gesamtbetrag."
-          },
-          {
-            "original": "Pago con tarjeta.",
-            "translation": "Ich bezahle mit Karte.",
-            "note": "Zahlungsmethode."
-          },
-          {
-            "original": "¿Puedo devolver esto?",
-            "translation": "Kann ich das zurückgeben?",
-            "note": "Rückgabe."
-          }
-        ]
-      }
-    ],
-    "emoji": "🛒",
-    "phonetic": "",
-    "translations": {
-      "de": "Grundlegende Einkäufe tätigen"
-    }
-  },
-  {
-    "id": "es_A1_func_14",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Ordenar en un bar o restaurante / In einer Bar oder einem Restaurant bestellen",
-    "bridge": "Im Deutschen sagen wir 'Ich möchte...', 'Ich nehme...', 'Ich hätte gern...' zum Bestellen und 'Die Rechnung, bitte' zum Bezahlen. Im Spanischen verwenden wir 'Quiero...' (informell), 'Me gustaría...' (höflicher), '¿Me trae...?' (formell) zum Bestellen und 'La cuenta, por favor' für die Rechnung. Der typische Fehler der Deutschen ist die Verwendung von 'tomar' (nehmen) für den Kauf, weil sie 'Ich nehme' aus dem Deutschen gewohnt sind. Im Spanischen wird 'tomar' eher für Getränke oder Verkehrsmittel verwendet; für das Bestellen von Speisen verwendet man 'querer' oder 'gustaría'. Auch die Verwendung des bestimmten Artikels kann Probleme bereiten: Deutsche sagen oft 'das Wasser' → 'el agua' (richtig, weil 'agua' maskulin ist trotz 'a'), aber sie können 'una agua' sagen (falsch, weil 'un agua' korrekt ist).",
-    "rule": "Bestellen: 'Quiero + Artikel + Essen/Getränk' (z.B. 'Quiero un café'), 'Me gustaría + Artikel + Essen/Getränk' (z.B. 'Me gustaría una ensalada'), '¿Me trae + Artikel + Essen/Getränk?' (z.B. '¿Me trae la cuenta?'). Für die Rechnung: 'La cuenta, por favor.' Man kann auch nach einer Empfehlung fragen: '¿Qué me recomienda?'.",
-    "common_error": {
-      "wrong": "Quiero tomar una agua.",
-      "correct": "Quiero un agua.",
-      "correct_alt": "Quiero agua. (ohne Artikel)",
-      "explanation": "Zwei Fehler: 1) Verwendung von 'tomar' für das Bestellen von Speisen (im Spanischen wird 'tomar' für Getränke oder Verkehrsmittel verwendet; für das Bestellen von Speisen sagt man 'quiero' oder 'me gustaría'). 2) Verwendung von 'una agua' statt 'un agua' (weil 'agua' feminin ist, aber man den Artikel 'un' verwendet, um die Wiederholung des betonten 'a' zu vermeiden)."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Pedir bebidas y comida simple",
-        "translation": "Getränke und einfache Speisen bestellen",
-        "examples": [
-          {
-            "original": "Quiero un café.",
-            "translation": "Ich möchte einen Kaffee.",
-            "note": "Einfache Bestellung."
-          },
-          {
-            "original": "¿Me trae una ensalada, por favor?",
-            "translation": "Bringen Sie mir einen Salat, bitte?",
-            "note": "Formell mit 'traer'."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Pedir con especificaciones",
-        "translation": "Mit Spezifikationen bestellen",
-        "examples": [
-          {
-            "original": "Quiero un bocadillo de jamón.",
-            "translation": "Ich möchte ein Schinkenbrötchen.",
-            "note": "Spezifikation des Inhalts."
-          },
-          {
-            "original": "Me gustaría una tortilla de patatas.",
-            "translation": "Ich hätte gern ein Kartoffelomelett.",
-            "note": "Höfliche Bestellung."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Interacción completa: pedir, preguntar y pagar",
-        "translation": "Vollständige Interaktion: bestellen, fragen und bezahlen",
-        "examples": [
-          {
-            "original": "¿Qué me recomienda? - La paella es muy buena. - Entonces, quiero una paella.",
-            "translation": "Was empfehlen Sie mir? - Die Paella ist sehr gut. - Dann möchte ich eine Paella.",
-            "note": "Nachfrage nach Empfehlung."
-          },
-          {
-            "original": "La cuenta, por favor. ¿Cuánto es? - Son 15 euros.",
-            "translation": "Die Rechnung, bitte. Wie viel macht das? - Das macht 15 Euro.",
-            "note": "Rechnung anfordern."
-          }
-        ]
-      }
-    ],
-    "emoji": "🍽️",
-    "phonetic": "",
-    "translations": {
-      "de": "In einer Bar oder einem Restaurant bestellen"
-    }
-  },
-  {
-    "id": "es_A1_func_15",
-    "type": "concept",
-    "category": "Funciones comunicativas",
-    "title": "Expresar acuerdo y desacuerdo simple / Einfache Zustimmung und Ablehnung ausdrücken",
-    "bridge": "Im Deutschen sagen wir 'Ich bin einverstanden', 'Ich bin nicht einverstanden' oder einfach 'Einverstanden' (zustimmend). Im Spanischen ist es ähnlich: 'Estoy de acuerdo', 'No estoy de acuerdo', 'De acuerdo' (informelle Antwort). Der typische Fehler der Deutschen ist die Verwendung von 'ser' anstelle von 'estar': 'Soy de acuerdo' (falsch) statt 'Estoy de acuerdo', weil im Deutschen 'sein' verwendet wird ('ich bin einverstanden'). Im Spanischen wird 'estar' für vorübergehende Zustände verwendet, und Zustimmung ist ein Zustand, daher 'estar de acuerdo'. Auch die Wortstellung kann Probleme bereiten: 'De acuerdo estoy' statt 'Estoy de acuerdo' (Verb am Ende).",
-    "rule": "Zustimmung: 'Estoy de acuerdo' (ich bin einverstanden). Ablehnung: 'No estoy de acuerdo' (ich bin nicht einverstanden). Man kann auch 'Sí, claro' oder 'Por supuesto' für starke Zustimmung verwenden, und 'No, no creo' oder 'No estoy tan seguro' für eine abgeschwächte Ablehnung.",
-    "common_error": {
-      "wrong": "Soy de acuerdo contigo.",
-      "correct": "Estoy de acuerdo contigo.",
-      "correct_alt": "Concuerdo contigo. (Verb 'concordar', weniger gebräuchlich)",
-      "explanation": "Der Fehler ist die Verwendung von 'ser' (dauerhafte Eigenschaft) anstelle von 'estar' (vorübergehender Zustand). Im Deutschen sagt man 'sein' ('ich bin einverstanden'), was die Deutschen in die Irre führt. Im Spanischen ist Zustimmung ein Zustand, daher verwendet man 'estar'."
-    },
-    "levels": [
-      {
-        "level": 1,
-        "label": "Acuerdo y desacuerdo simple",
-        "translation": "Einfache Zustimmung und Ablehnung",
-        "examples": [
-          {
-            "original": "Sí, estoy de acuerdo.",
-            "translation": "Ja, ich bin einverstanden.",
-            "note": "Zustimmung."
-          },
-          {
-            "original": "No, no estoy de acuerdo.",
-            "translation": "Nein, ich bin nicht einverstanden.",
-            "note": "Ablehnung."
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "label": "Expresiones de acuerdo fuerte",
-        "translation": "Starke Zustimmungsausdrücke",
-        "examples": [
-          {
-            "original": "Claro que sí.",
-            "translation": "Natürlich (ja).",
-            "note": "Nachdrückliche Zustimmung."
-          },
-          {
-            "original": "Por supuesto.",
-            "translation": "Selbstverständlich.",
-            "note": "Sehr gebräuchlich."
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "label": "Desacuerdo suave y duda",
-        "translation": "Abgeschwächte Ablehnung und Zweifel",
-        "examples": [
-          {
-            "original": "No estoy tan seguro.",
-            "translation": "Ich bin mir nicht so sicher.",
-            "note": "Zweifel."
-          },
-          {
-            "original": "No creo que sea así.",
-            "translation": "Ich glaube nicht, dass es so ist.",
-            "note": "Ablehnung mit Subjunktiv (Einführung)."
+            "original": "Encantado de conocerla.",
+            "phonetic": "eŋkanˈtaðo de konoˈseɾla",
+            "translation": "Sehr erfreut, Sie kennenzulernen (formell, weiblich).",
+            "note": "'Encantado' ändert sich zu 'encantada' für weibliche Sprecher. 'Conocerla' verwendet das formelle 'la' für Sie (weiblich)."
           }
         ]
       }
@@ -1111,94 +250,975 @@
     "emoji": "🤝",
     "phonetic": "",
     "translations": {
-      "de": "Einfache Zustimmung und Ablehnung ausdrücken"
+      "de": "Sich vorstellen und andere vorstellen"
     }
   },
   {
-    "id": "es_A1_func_16",
+    "id": "de_A1_func_03",
     "type": "concept",
     "category": "Funciones comunicativas",
-    "title": "Dar instrucciones sencillas (imperativo de tú) / Einfache Anweisungen geben (Imperativ von tú)",
-    "bridge": "Im Deutschen verwenden wir den Imperativ für Befehle oder Anweisungen: 'Sprich!', 'Iss!', 'Komm!', 'Mach!', 'Geh!', 'Sag!', 'Geh raus!', 'Stell!', 'Hab!'. Im Spanischen hat der affirmative Imperativ für 'tú' spezifische Formen. Für regelmäßige Verben: -a für Verben auf -ar (habla), -e für Verben auf -er (come) und -ir (escribe). Die unregelmäßigen Formen sind: 'di' (decir), 'haz' (hacer), 've' (ir), 'pon' (poner), 'sal' (salir), 'ten' (tener), 'ven' (venir). Der typische Fehler der Deutschen ist die Verwendung des Infinitivs (wie 'hablar' statt 'habla') oder die Verwechslung mit dem Imperativ von 'usted' (der die 3. Person des Subjunktivs ist: 'hable', 'coma', 'viva'). Auch die Wortstellung kann Probleme bereiten: Deutsche neigen dazu, das Verb ans Ende zu stellen ('Habla más despacio' → 'Más despacio habla'). Außerdem können sie die Enklise der Pronomen vergessen (im Deutschen stehen Pronomen vor dem Verb, im Spanischen werden sie angehängt: 'sag mir' → 'dime').",
-    "rule": "Für den affirmativen Imperativ von 'tú': regelmäßige Verben: -ar → -a (habla, escucha), -er → -e (come, bebe), -ir → -e (escribe, vive). Unregelmäßige: di (decir), haz (hacer), ve (ir), pon (poner), sal (salir), ten (tener), ven (venir). Mit Pronomen: sie werden an das Verb angehängt (Enklise): 'dime' (sag mir), 'hazlo' (mach es).",
+    "title": "¿De dónde eres? / Woher kommst du?",
+    "bridge": "Im Englischen verwendest du das Verb 'to be', um nach der Herkunft zu fragen: 'Where are you from?' und um sie anzugeben: 'I am from...'. Das Spanische verwendet das Verb 'ser' (sein) ähnlich, aber mit einem wichtigen Unterschied: Du brauchst kein Pronomen wie 'yo' oder 'tú', weil die Verbendung bereits angibt, wer gemeint ist. Außerdem verwendet das Spanische 'de' vor einem Ort, genau wie 'from' im Englischen, aber Vorsicht mit der Kontraktion 'del' für 'de + el', wenn der Ort maskulin und singular ist (z.B. 'del Reino Unido'). Eine weitere Falle: Das Spanische hat zwei Verben für 'sein' – 'ser' und 'estar' – und für die Herkunft musst du immer 'ser' verwenden, niemals 'estar'.",
+    "rule": "Um zu fragen, woher jemand kommt: Verwende '¿De dónde eres?' (informell, tú) oder '¿De dónde es usted?' (formell). Für Plural: '¿De dónde sois?' (informell, Spanien) oder '¿De dónde son?' (formell/Plural).\n\nZum Antworten: Verwende 'Soy de' + Ort (Land, Stadt usw.). Beispiel: 'Soy de México.' Wenn der Ort ein maskulines Nomen im Singular ist, das den Artikel 'el' erfordert, kontrahiere 'de + el' zu 'del': 'Soy del Reino Unido.' Bei femininen oder pluralen Orten verwende einfach 'de': 'Soy de España' (feminin), 'Soy de Estados Unidos' (Plural, also keine Kontraktion).\n\nNationalitäten sind im Spanischen Adjektive und passen sich in Geschlecht und Zahl an das Subjekt an. Zum Beispiel: 'Soy mexicano' (männlich), 'Soy mexicana' (weiblich). Anders als im Englischen werden Nationalitätswörter im Spanischen nicht großgeschrieben.\n\nHäufige Formen von 'ser' für A1: yo soy, tú eres, usted/él/ella es, nosotros/nosotras somos, vosotros/vosotras sois, ellos/ellas/ustedes son.",
+    "concept_examples": [
+      {
+        "text": "¿De dónde eres?",
+        "translation": "Woher kommst du?",
+        "phonetic": "de ˈdon.de ˈe.ɾes"
+      },
+      {
+        "text": "Soy de los Estados Unidos.",
+        "translation": "Ich komme aus den Vereinigten Staaten.",
+        "phonetic": "soi de los esˈta.ðos uˈni.ðos"
+      },
+      {
+        "text": "Ella es de España.",
+        "translation": "Sie kommt aus Spanien.",
+        "phonetic": "ˈe.ʎa es de esˈpa.ɲa"
+      },
+      {
+        "text": "Nosotros somos de México.",
+        "translation": "Wir kommen aus Mexiko.",
+        "phonetic": "noˈso.tɾos ˈso.mos de ˈme.xi.ko"
+      }
+    ],
     "common_error": {
-      "wrong": "Hablar más despacio, por favor.",
-      "correct": "Habla más despacio, por favor.",
-      "correct_alt": "Hable más despacio, por favor. (formell)",
-      "explanation": "Der Fehler ist die Verwendung des Infinitivs (wie im Deutschen für eine informelle Aufforderung) oder die Verwechslung mit dem Imperativ von 'usted'. Im Spanischen hat der Imperativ von 'tú' eine eigene Form: 'habla' und nicht 'hablar'. Auch die Verwendung von 'hable' (usted) mit einem Freund ist ein häufiger Fehler, weil Deutsche 'Sie' für die Höflichkeitsform verwenden, aber im Spanischen wird 'tú' für Freunde und 'usted' für formelle Situationen verwendet."
+      "wrong": "Soy de el Reino Unido.",
+      "correct": "Soy del Reino Unido.",
+      "correct_alt": "",
+      "explanation": "Im Spanischen müssen die Präposition 'de' (von/aus) und der maskuline Artikel 'el' (der) zu 'del' kontrahiert werden, wenn sie aufeinanderfolgen. Englischsprachige vergessen diese Kontraktion oft, weil es im Englischen kein Äquivalent gibt. Denk daran: 'de + el' = 'del'."
     },
     "levels": [
       {
         "level": 1,
-        "label": "Instrucciones con verbos regulares",
-        "translation": "Anweisungen mit regelmäßigen Verben",
+        "label": "Preguntar y decir el origen",
+        "translation": "Herkunft fragen und angeben",
         "examples": [
           {
-            "original": "Habla más despacio.",
-            "translation": "Sprich langsamer.",
-            "note": "Verb -ar: habla."
+            "original": "¿De dónde eres?",
+            "phonetic": "de ˈdon.de ˈe.ɾes",
+            "translation": "Woher kommst du?",
+            "note": "Informelle 'tú'-Form. Verwende sie mit Freunden, Gleichaltrigen oder in ungezwungenen Situationen."
           },
           {
-            "original": "Come la fruta.",
-            "translation": "Iss das Obst.",
-            "note": "Verb -er: come."
+            "original": "Soy de Colombia.",
+            "phonetic": "soi de koˈlom.bja",
+            "translation": "Ich komme aus Kolumbien.",
+            "note": "Antwortmuster: 'Soy de' + Ort. Kein Pronomen nötig, weil 'soy' bereits 'ich bin' angibt."
           },
           {
-            "original": "Escribe tu nombre.",
-            "translation": "Schreib deinen Namen.",
-            "note": "Verb -ir: escribe."
+            "original": "¿De dónde es usted?",
+            "phonetic": "de ˈdon.de es usˈteð",
+            "translation": "Woher kommen Sie? (formell)",
+            "note": "Verwende 'usted' in formellen Situationen, bei älteren Menschen oder im beruflichen Umfeld."
+          },
+          {
+            "original": "Soy de los Estados Unidos.",
+            "phonetic": "soi de los esˈta.ðos uˈni.ðos",
+            "translation": "Ich komme aus den Vereinigten Staaten.",
+            "note": "Beachte, dass 'Estados Unidos' Plural ist, also verwenden wir 'de los' und nicht 'del'."
           }
         ]
       },
       {
         "level": 2,
-        "label": "Instrucciones con verbos irregulares comunes",
-        "translation": "Anweisungen mit häufigen unregelmäßigen Verben",
+        "label": "Nacionalidades",
+        "translation": "Nationalitäten",
         "examples": [
           {
-            "original": "Ven aquí, por favor.",
-            "translation": "Komm hierher, bitte.",
-            "note": "Venir → ven."
+            "original": "Soy estadounidense.",
+            "phonetic": "soi esˈta.ðo.u.niˈðen.se",
+            "translation": "Ich bin Amerikaner (aus den USA).",
+            "note": "Dieses Nationalitätswort ist für männlich und weiblich gleich; es endet auf -e."
           },
           {
-            "original": "Haz la tarea.",
-            "translation": "Mach die Hausaufgaben.",
-            "note": "Hacer → haz."
+            "original": "Ella es española.",
+            "phonetic": "ˈe.ʎa es es.paˈɲo.la",
+            "translation": "Sie ist Spanierin.",
+            "note": "Nationalitätsadjektive ändern sich mit dem Geschlecht. 'Español' für einen Mann, 'española' für eine Frau."
           },
           {
-            "original": "Pon la mesa.",
-            "translation": "Deck den Tisch.",
-            "note": "Poner → pon."
+            "original": "Él es mexicano.",
+            "phonetic": "el es me.xiˈka.no",
+            "translation": "Er ist Mexikaner.",
+            "note": "Für Männer verwende die Endung -o. Für Frauen ändere zu -a: 'mexicana'."
+          },
+          {
+            "original": "Somos canadienses.",
+            "phonetic": "ˈso.mos ka.naˈðjen.ses",
+            "translation": "Wir sind Kanadier.",
+            "note": "Die Pluralform von 'canadiense' fügt -s hinzu. Das Wort ist für beide Geschlechter gleich."
           }
         ]
       },
       {
         "level": 3,
-        "label": "Instrucciones con pronombres y combinaciones",
-        "translation": "Anweisungen mit Pronomen und Kombinationen",
+        "label": "Usar 'del' y preposiciones",
+        "translation": "'del' und Präpositionen verwenden",
         "examples": [
           {
-            "original": "Dime la verdad.",
-            "translation": "Sag mir die Wahrheit.",
-            "note": "Decir + me → dime (Enklise)."
+            "original": "Soy del Reino Unido.",
+            "phonetic": "soi del ˈrei.no uˈni.ðo",
+            "translation": "Ich komme aus dem Vereinigten Königreich.",
+            "note": "'de + el' kontrahiert zu 'del', weil 'Reino Unido' maskulin singular ist (mit dem Artikel 'el')."
           },
           {
-            "original": "Sal de aquí ahora.",
-            "translation": "Geh jetzt hier raus.",
-            "note": "Salir → sal + de."
+            "original": "¿De dónde son tus amigos?",
+            "phonetic": "de ˈdon.de son tus aˈmi.ɣos",
+            "translation": "Woher kommen deine Freunde?",
+            "note": "Verwende 'son' (sie sind) für Subjekte im Plural. Das Fragewort 'de dónde' bleibt gleich."
           },
           {
-            "original": "Ten cuidado con el perro.",
-            "translation": "Pass auf den Hund auf.",
-            "note": "Tener → ten."
+            "original": "Mis padres son de Argentina.",
+            "phonetic": "mis ˈpa.ðɾes son de aɾ.xenˈti.na",
+            "translation": "Meine Eltern kommen aus Argentinien.",
+            "note": "Verwende 'son' für 'sie sind'. 'Argentina' ist feminin, also keine Kontraktion – nur 'de'."
           }
         ]
       }
     ],
-    "emoji": "📢",
+    "emoji": "🌍",
     "phonetic": "",
     "translations": {
-      "de": "Einfache Anweisungen geben (Imperativ von tú)"
+      "de": "Fragen und Angeben, woher man kommt / Herkunft und Nationalität"
+    }
+  },
+  {
+    "id": "de_A1_func_04",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Describir personas y objetos / Personen und Dinge beschreiben",
+    "bridge": "Im Englischen sagt man 'a tall man' oder 'a red car' – das Adjektiv steht vor dem Nomen. Im Spanischen steht das Adjektiv normalerweise NACH dem Nomen: 'un hombre alto' (ein Mann groß), 'un coche rojo' (ein Auto rot). Außerdem müssen spanische Adjektive in Geschlecht und Zahl mit dem Nomen übereinstimmen, das sie beschreiben. Zum Beispiel wird 'alto' zu 'alta' für eine Frau und 'altos' für mehrere Männer. Dies ist ein wichtiger Unterschied zum Englischen, wo das Adjektiv unverändert bleibt.",
+    "rule": "Um Personen und Dinge auf Spanisch auf A1-Niveau zu beschreiben, verwende die Verben 'ser' (sein) für dauerhafte oder wesentliche Eigenschaften (z. B. 'Él es alto' – Er ist groß) und 'tener' (haben) für körperliche Merkmale wie Alter oder Haarfarbe (z. B. 'Ella tiene ojos azules' – Sie hat blaue Augen). Adjektive müssen in Geschlecht (maskulin -o / feminin -a) und Zahl (Plural -s oder -es) übereinstimmen. Sie stehen normalerweise NACH dem Nomen, außer bei einigen gebräuchlichen wie 'bueno' (gut) und 'grande' (groß), die davor stehen können, mit einer leichten Bedeutungsänderung. Für Gegenstände verwende 'ser' mit Materialien oder Farben (z. B. 'La mesa es de madera' – Der Tisch ist aus Holz).",
+    "concept_examples": [
+      {
+        "text": "El hombre es alto y delgado.",
+        "translation": "Der Mann ist groß und schlank.",
+        "phonetic": "el ˈombɾe es ˈalto i ðelˈɣaðo"
+      },
+      {
+        "text": "La mujer tiene el pelo largo y rubio.",
+        "translation": "Die Frau hat langes blondes Haar.",
+        "phonetic": "la muˈxeɾ ˈtjene el ˈpelo ˈlaɾɣo i ˈruβjo"
+      },
+      {
+        "text": "El coche es rojo y pequeño.",
+        "translation": "Das Auto ist rot und klein.",
+        "phonetic": "el ˈkotʃe es ˈroxo i peˈkeɲo"
+      },
+      {
+        "text": "Las flores son bonitas.",
+        "translation": "Die Blumen sind hübsch.",
+        "phonetic": "las ˈfloɾes som boˈnitas"
+      }
+    ],
+    "common_error": {
+      "wrong": "El hombre es alto y delgado.",
+      "correct": "El hombre es alto y delgado.",
+      "correct_alt": "",
+      "explanation": "Das ist tatsächlich korrekt. Ein häufiger Fehler ist, das Adjektiv vor das Nomen zu setzen, wie 'El alto hombre' (der große Mann). Im Spanischen ist das Adjektiv nach dem Nomen die Standardposition für Beschreibungen. Auch das Vergessen der Geschlechtsangleichung, wie 'La mujer es alto' statt 'La mujer es alta', ist ein häufiger Fehler. Denke daran, die Adjektivendung an Geschlecht und Zahl des Nomens anzupassen."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ser con adjetivos de personalidad y físico",
+        "translation": "Ser mit Adjektiven für Persönlichkeit und körperliche Merkmale",
+        "examples": [
+          {
+            "original": "Él es simpático.",
+            "phonetic": "el es simˈpatiko",
+            "translation": "Er ist nett.",
+            "note": "Verwende 'ser' für Persönlichkeitsmerkmale. Beachte die maskuline Endung -o."
+          },
+          {
+            "original": "Ella es alta.",
+            "phonetic": "ˈeʝa es ˈalta",
+            "translation": "Sie ist groß.",
+            "note": "Ändere zu -a für feminin. Denke daran, das Adjektiv steht nach dem Nomen."
+          },
+          {
+            "original": "El libro es interesante.",
+            "phonetic": "el ˈliβɾo es inteɾeˈsante",
+            "translation": "Das Buch ist interessant.",
+            "note": "Adjektive, die auf -e oder Konsonant enden, sind für beide Geschlechter gleich."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Tener para edad y características físicas",
+        "translation": "Tener für Alter und körperliche Merkmale",
+        "examples": [
+          {
+            "original": "Yo tengo 25 años.",
+            "phonetic": "ʝo ˈteŋɡo ˈbeinti ˈsiŋko ˈaɲos",
+            "translation": "Ich bin 25 Jahre alt.",
+            "note": "Um das Alter anzugeben, verwende 'tener' und nicht 'ser'."
+          },
+          {
+            "original": "Mi hermano tiene ojos verdes.",
+            "phonetic": "mi eɾˈmano ˈtjene ˈoxos ˈbeɾðes",
+            "translation": "Mein Bruder hat grüne Augen.",
+            "note": "Verwende 'tener' für körperliche Merkmale. 'Verdes' stimmt mit maskulin Plural überein."
+          },
+          {
+            "original": "La chica tiene el pelo negro.",
+            "phonetic": "la ˈtʃika ˈtjene el ˈpelo ˈneɣɾo",
+            "translation": "Das Mädchen hat schwarzes Haar.",
+            "note": "Denke daran: 'el pelo' ist Singular, also ist das Adjektiv Singular."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Adjetivos para describir objetos y plural",
+        "translation": "Adjektive zur Beschreibung von Gegenständen und Plural",
+        "examples": [
+          {
+            "original": "Las casas son blancas.",
+            "phonetic": "las ˈkasas som ˈblaŋkas",
+            "translation": "Die Häuser sind weiß.",
+            "note": "Füge -s/-as für femininen Plural hinzu. Adjektiv steht nach dem Nomen."
+          },
+          {
+            "original": "Los coches son rápidos.",
+            "phonetic": "los ˈkotʃes som ˈrapiðos",
+            "translation": "Die Autos sind schnell.",
+            "note": "Maskuliner Plural: -os. Beachte, dass das Adjektiv nach dem Nomen steht."
+          },
+          {
+            "original": "La mesa es cuadrada.",
+            "phonetic": "la ˈmesa es kwaˈðɾaða",
+            "translation": "Der Tisch ist quadratisch.",
+            "note": "Für Gegenstände verwende 'ser', um Form oder Material zu beschreiben."
+          }
+        ]
+      }
+    ],
+    "emoji": "👤",
+    "phonetic": "",
+    "translations": {
+      "de": "Personen und Dinge beschreiben"
+    }
+  },
+  {
+    "id": "de_A1_func_05",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Expresar gustos y disgustos / Vorlieben und Abneigungen ausdrücken",
+    "bridge": "Im Englischen sagen wir „I like“ oder „I don't like“ mit einer Subjekt + Verb Struktur. Im Spanischen funktioniert das Verb „gustar“ anders: Das Gemochte ist das Subjekt, und die Person ist das indirekte Objekt. So wird aus „I like music“ „Me gusta la música“ (wörtlich: „Musik gefällt mir“). Außerdem verwendet man im Spanischen „gusta“ für Singular und Infinitive und „gustan“ für Plural. Achtung: Sag nicht „Yo gusto“ – das bedeutet „Ich gefalle“!",
+    "rule": "Verwende das Verb „gustar“, um Vorlieben und Abneigungen auszudrücken. Die Struktur ist: [Indirektes Objektpronomen] + gusta/gustan + [Subjekt]. Die indirekten Objektpronomen sind: me (mir), te (dir, informell), le (ihm/ihr/Ihnen), nos (uns), os (euch, informell in Spanien), les (ihnen/Ihnen). Verwende „gusta“, wenn das Subjekt Singular oder ein Infinitiv ist (z. B. „Me gusta bailar“ – Ich tanze gern). Verwende „gustan“, wenn das Subjekt Plural ist (z. B. „Me gustan los libros“ – Ich mag Bücher). Für die Verneinung setze „no“ vor das Pronomen: „No me gusta“ (Ich mag nicht). Für Fragen invertiere: „¿Te gusta...?“ (Magst du...?). Betone mit „a mí“, „a ti“ usw., besonders bei Kontrasten: „A mí me gusta el café, pero a ti te gusta el té.“",
+    "concept_examples": [
+      {
+        "text": "Me gusta la música.",
+        "translation": "Ich mag Musik.",
+        "phonetic": "me ˈɣusta la ˈmusika"
+      },
+      {
+        "text": "No me gustan los deportes.",
+        "translation": "Ich mag keinen Sport.",
+        "phonetic": "no me ˈɣustan los deˈpɔrtes"
+      },
+      {
+        "text": "¿Te gusta viajar?",
+        "translation": "Reist du gern?",
+        "phonetic": "ˈte ˈɣusta bjaˈxaɾ"
+      },
+      {
+        "text": "A ella le gusta el chocolate.",
+        "translation": "Sie mag Schokolade.",
+        "phonetic": "a ˈeʝa le ˈɣusta el tʃokoˈlate"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo gusto la música.",
+      "correct": "Me gusta la música.",
+      "correct_alt": "A mí me gusta la música.",
+      "explanation": "Englischsprachige übersetzen „I like“ oft direkt als „yo gusto“, aber „gustar“ bedeutet „gefallen“. Das Subjekt muss das Gemochte sein, nicht die Person. Verwende das indirekte Objektpronomen vor „gustar“."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Gustos positivos",
+        "translation": "Positive Vorlieben",
+        "examples": [
+          {
+            "original": "Me gusta el helado.",
+            "phonetic": "me ˈɣusta el eˈlaðo",
+            "translation": "Ich mag Eis.",
+            "note": "Verwende „gusta“ für Substantive im Singular."
+          },
+          {
+            "original": "Me gustan los perros.",
+            "phonetic": "me ˈɣustan los ˈperos",
+            "translation": "Ich mag Hunde.",
+            "note": "Verwende „gustan“ für Substantive im Plural."
+          },
+          {
+            "original": "Te gusta la playa.",
+            "phonetic": "te ˈɣusta la ˈplaʝa",
+            "translation": "Du magst den Strand.",
+            "note": "„Te“ bezieht sich auf „du“ informell."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Gustos negativos",
+        "translation": "Negative Vorlieben",
+        "examples": [
+          {
+            "original": "No me gusta el café.",
+            "phonetic": "no me ˈɣusta el kaˈfe",
+            "translation": "Ich mag keinen Kaffee.",
+            "note": "Setze „no“ vor das Pronomen."
+          },
+          {
+            "original": "No me gustan las verduras.",
+            "phonetic": "no me ˈɣustan las βeɾˈðuɾas",
+            "translation": "Ich mag kein Gemüse.",
+            "note": "Verwende „gustan“, weil „verduras“ Plural ist."
+          },
+          {
+            "original": "¿No te gusta bailar?",
+            "phonetic": "ˈno te ˈɣusta baiˈlaɾ",
+            "translation": "Tanzt du nicht gern?",
+            "note": "Bei negativen Fragen steht „no“ zuerst."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Preguntar por gustos",
+        "translation": "Nach Vorlieben fragen",
+        "examples": [
+          {
+            "original": "¿Te gusta la pizza?",
+            "phonetic": "ˈte ˈɣusta la ˈpitsa",
+            "translation": "Magst du Pizza?",
+            "note": "Invertiere Pronomen und Verb, um eine Frage zu stellen."
+          },
+          {
+            "original": "¿Le gustan los libros?",
+            "phonetic": "le ˈɣustan los ˈliβɾos",
+            "translation": "Mag er/sie Bücher?",
+            "note": "„Le“ kann er, sie oder Sie (formell) bedeuten."
+          },
+          {
+            "original": "A mí me gusta el té, ¿y a ti?",
+            "phonetic": "a mi me ˈɣusta el te, i a ti",
+            "translation": "Ich mag Tee, und du?",
+            "note": "Verwende „a mí“ zur Betonung und „a ti“, um zurückzufragen."
+          }
+        ]
+      }
+    ],
+    "emoji": "❤️",
+    "phonetic": "",
+    "translations": {
+      "de": "Vorlieben und Abneigungen ausdrücken"
+    }
+  },
+  {
+    "id": "de_A1_func_06",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Pedir comida y bebida / Essen und Getränke bestellen",
+    "bridge": "Im Englischen verwendet man oft 'I would like' oder 'Can I have', um höflich zu bestellen. Im Spanischen ist das Verb 'querer' (wollen) üblich und völlig höflich, wenn man es im Konditional 'me gustaría' oder einfach 'quiero' verwendet. Ein wichtiger Unterschied ist, dass Spanisch die Struktur 'para mí' (für mich) anstelle von 'I would like' verwendet und das Wort 'un/una' (ein/eine) unerlässlich ist. Beachte auch, dass 'por favor' (bitte) und 'gracias' (danke) häufiger verwendet werden als im Englischen. Achte auf falsche Freunde: 'pedir' bedeutet 'bestellen', nicht 'fragen' im Sinne von 'um Informationen bitten'.",
+    "rule": "Um Essen oder Getränke auf Spanisch zu bestellen, kannst du die Phrase 'Quiero' (ich will) + Nomen oder 'Me gustaría' (ich hätte gern) + Nomen verwenden. Für Höflichkeit ist 'Me gustaría' zu bevorzugen. Dem Nomen muss ein passender Artikel vorausgehen: 'un' (maskulin), 'una' (feminin) oder 'unos/unas' (einige) für den Plural. Du kannst auch 'Para mí' (für mich) + Nomen verwenden, was in Restaurants üblich ist. Um etwas Bestimmtes zu bitten, verwende '¿Me trae...?' (Können Sie mir bringen...?) oder '¿Puedo tener...?' (Kann ich haben...?) – obwohl '¿Puedo tener...?' weniger gebräuchlich ist. Füge immer 'por favor' (bitte) und 'gracias' (danke) hinzu. Denke daran, die formelle 'usted'-Form zu verwenden, wenn du mit dem Servicepersonal sprichst, es sei denn, sie duzen dich zuerst.",
+    "concept_examples": [
+      {
+        "text": "Quiero un café, por favor.",
+        "translation": "Ich möchte einen Kaffee, bitte.",
+        "phonetic": "/ˈkjeɾo un kaˈfe poɾ faˈβoɾ/"
+      },
+      {
+        "text": "Me gustaría una ensalada.",
+        "translation": "Ich hätte gern einen Salat.",
+        "phonetic": "/me ɣustaˈɾia una ensaˈlaða/"
+      },
+      {
+        "text": "Para mí, un agua mineral.",
+        "translation": "Für mich ein Mineralwasser.",
+        "phonetic": "/ˈpaɾa mi un ˈaɣwa mineˈɾal/"
+      },
+      {
+        "text": "¿Me trae la cuenta, por favor?",
+        "translation": "Können Sie mir bitte die Rechnung bringen?",
+        "phonetic": "/me ˈtɾae la ˈkwenta poɾ faˈβoɾ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quiero un café, por favor. (This is actually correct for informal settings, but a common error is using 'Puedo tener' incorrectly: 'Puedo tener un café?')",
+      "correct": "¿Me das un café, por favor?",
+      "correct_alt": "Quiero un café, por favor.",
+      "explanation": "Englischsprachige übertragen oft 'Can I have...' direkt zu '¿Puedo tener...?', was grammatikalisch korrekt, aber im Spanischen unnatürlich ist. Spanisch verwendet '¿Me das...?' (informell) oder '¿Me trae...?' (formell), um etwas zu bitten. Außerdem bedeutet 'puedo' 'ich kann' und impliziert Fähigkeit, nicht Erlaubnis. Verwende stattdessen 'me das' (du gibst mir) oder 'me trae' (Sie bringen mir)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Pedidos básicos / Grundbestellungen",
+        "translation": "Grundbestellungen",
+        "examples": [
+          {
+            "original": "Quiero una cerveza.",
+            "phonetic": "/ˈkjeɾo una seɾˈβesa/",
+            "translation": "Ich möchte ein Bier.",
+            "note": "Direkt und üblich in informellen Situationen. Verwende 'una' für feminine Nomen wie 'cerveza'."
+          },
+          {
+            "original": "Me gustaría un refresco.",
+            "phonetic": "/me ɣustaˈɾia un refˈɾesko/",
+            "translation": "Ich hätte gern ein Erfrischungsgetränk.",
+            "note": "'Me gustaría' ist höflich und in vielen Situationen sicher."
+          },
+          {
+            "original": "Un pan, por favor.",
+            "phonetic": "/un pan poɾ faˈβoɾ/",
+            "translation": "Ein Brot, bitte.",
+            "note": "In Spanien ist 'pan' maskulin, und du kannst bestellen, indem du einfach das Produkt mit 'un/una' nennst."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Preguntar por opciones / Nach Optionen fragen",
+        "translation": "Nach Optionen fragen",
+        "examples": [
+          {
+            "original": "¿Qué me recomienda?",
+            "phonetic": "/ke me rekomenˈda/",
+            "translation": "Was empfehlen Sie mir?",
+            "note": "Verwende 'recomienda' (formell) oder 'recomiendas' (informell)."
+          },
+          {
+            "original": "¿Tiene menú vegetariano?",
+            "phonetic": "/ˈtjene meˈnu βexetaˈɾjano/",
+            "translation": "Haben Sie ein vegetarisches Menü?",
+            "note": "'Tener' bedeutet 'haben'. Verwende dies, um nach Verfügbarkeit zu fragen."
+          },
+          {
+            "original": "¿Qué lleva esta sopa?",
+            "phonetic": "/ke ˈʎeβa ˈesta ˈsopa/",
+            "translation": "Was enthält diese Suppe?",
+            "note": "'Llevar' bedeutet hier 'enthalten' – eine häufige Verwendung beim Bestellen von Essen."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Pagar / Bezahlen",
+        "translation": "Bezahlen",
+        "examples": [
+          {
+            "original": "La cuenta, por favor.",
+            "phonetic": "/la ˈkwenta poɾ faˈβoɾ/",
+            "translation": "Die Rechnung, bitte.",
+            "note": "Fordere einfach 'la cuenta' an – es wird verstanden, dass du die Rechnung möchtest."
+          },
+          {
+            "original": "¿Puedo pagar con tarjeta?",
+            "phonetic": "/ˈpweðo paˈɣaɾ kon taɾˈxeta/",
+            "translation": "Kann ich mit Karte bezahlen?",
+            "note": "'Con tarjeta' (mit Karte) – hier ist kein 'la' nötig."
+          },
+          {
+            "original": "¿Me aceptan efectivo?",
+            "phonetic": "/me aθepˈtan efeˈktiβo/",
+            "translation": "Akzeptieren Sie Bargeld?",
+            "note": "'Efectivo' bedeutet Bargeld. Verwende 'aceptar' für 'akzeptieren'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🍽️",
+    "phonetic": "",
+    "translations": {
+      "de": "Essen und Getränke bestellen"
+    }
+  },
+  {
+    "id": "de_A1_func_07",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Compras básicas: precios y cantidades / Einkaufsgrundlagen: Preise und Mengen",
+    "bridge": "Im Englischen sagt man 'How much is it?' und 'It's five dollars.' Im Spanischen lautet die Frage '¿Cuánto cuesta?' und die Antwort verwendet das Verb 'costar' (kosten). Beachte, dass 'costar' ein stammveränderndes Verb ist (cuesto, cuesta), aber für A1 wirst du hauptsächlich 'cuesta' (es kostet) und 'cuestan' (sie kosten) verwenden. Außerdem verwendet das Spanische den Singular 'cuesta' für 'es' und 'cuestan' für 'sie', passend zur Anzahl der Dinge. Denke daran, dass im Spanischen Adjektive wie 'caro' (teuer) und 'barato' (billig) in Geschlecht und Zahl mit dem Nomen übereinstimmen, das sie modifizieren.",
+    "rule": "Um den Preis von etwas zu fragen, verwende '¿Cuánto cuesta...?' (Wie viel kostet es?) für einzelne Artikel und '¿Cuánto cuestan...?' (Wie viel kosten sie?) für mehrere Artikel. Das Verb 'costar' ist unregelmäßig im Präsens: yo cuesto, tú cuestas, él/ella/usted cuesta, nosotros/as costamos, vosotros/as costáis, ellos/ellas/ustedes cuestan. Um einen Preis anzugeben, verwende 'cuesta' + Zahl + Währung (z.B. 'cuesta cinco dólares'). Für Mengen verwende 'cuánto' (wie viel) mit unzählbaren Nomen (z.B. '¿cuánto café?') und 'cuántos/cuántas' (wie viele) mit zählbaren Nomen (z.B. '¿cuántas manzanas?'). Beachte, dass Spanisch ein Komma als Dezimaltrennzeichen verwendet (z.B. 2,50 €) und einen Punkt für Tausender (z.B. 1.000).",
+    "concept_examples": [
+      {
+        "text": "¿Cuánto cuesta este libro?",
+        "translation": "Wie viel kostet dieses Buch?",
+        "phonetic": "/ˈkwanto ˈkwesta ˈeste ˈliβɾo/"
+      },
+      {
+        "text": "Cuesta diez euros.",
+        "translation": "Es kostet zehn Euro.",
+        "phonetic": "/ˈkwesta ˈdjes ˈeuɾos/"
+      },
+      {
+        "text": "¿Cuánto cuestan esas manzanas?",
+        "translation": "Wie viel kosten diese Äpfel?",
+        "phonetic": "/ˈkwanto ˈkwestan ˈesas manˈsanas/"
+      },
+      {
+        "text": "Quiero dos kilos de naranjas, por favor.",
+        "translation": "Ich möchte bitte zwei Kilo Orangen.",
+        "phonetic": "/ˈkjeɾo dos ˈkilos de naˈɾanxas poɾ faˈβoɾ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "¿Cuánto es?",
+      "correct": "¿Cuánto cuesta?",
+      "correct_alt": "¿Cuánto es? (informal, aber weniger präzise)",
+      "explanation": "Im Englischen ist 'How much is it?' üblich, aber im Spanischen kann '¿Cuánto es?' für die Gesamtsumme in einem Restaurant verwendet werden, aber für den Preis eines Artikels ist '¿Cuánto cuesta?' präziser. Die Verwendung von 'es' (sein) anstelle von 'cuesta' (kosten) ist eine Übertragung aus dem Englischen 'is'. Übe die Verwendung von 'cuesta' und 'cuestan', um diese Verwechslung zu vermeiden."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Preguntar precios",
+        "translation": "Preise erfragen",
+        "examples": [
+          {
+            "original": "¿Cuánto cuesta?",
+            "phonetic": "/ˈkwanto ˈkwesta/",
+            "translation": "Wie viel kostet es?",
+            "note": "Verwende dies für einzelne Artikel. Denke an die Betonung auf 'cuesta'."
+          },
+          {
+            "original": "¿Cuánto cuestan?",
+            "phonetic": "/ˈkwanto ˈkwestan/",
+            "translation": "Wie viel kosten sie?",
+            "note": "Verwende dies für mehrere Artikel. Beachte die Verbendung -an."
+          },
+          {
+            "original": "¿Cuánto cuesta esta camisa?",
+            "phonetic": "/ˈkwanto ˈkwesta ˈesta kaˈmisa/",
+            "translation": "Wie viel kostet dieses Hemd?",
+            "note": "Das Demonstrativpronomen 'esta' (diese) stimmt mit dem femininen Nomen 'camisa' überein."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Decir precios",
+        "translation": "Preise nennen",
+        "examples": [
+          {
+            "original": "Cuesta cinco euros.",
+            "phonetic": "/ˈkwesta ˈsiŋko ˈeuɾos/",
+            "translation": "Es kostet fünf Euro.",
+            "note": "Verwende 'cuesta' für Singular. Preise werden mit Zahlen und Währung ausgedrückt."
+          },
+          {
+            "original": "Cuestan tres dólares.",
+            "phonetic": "/ˈkwestan tɾes ˈdolaɾes/",
+            "translation": "Sie kosten drei Dollar.",
+            "note": "Verwende 'cuestan' für Plural. Im Spanischen wird die Währung oft nach der Zahl platziert."
+          },
+          {
+            "original": "Es muy barato.",
+            "phonetic": "/es mwi βaˈɾato/",
+            "translation": "Es ist sehr billig.",
+            "note": "Das Adjektiv 'barato' stimmt in Geschlecht und Zahl mit dem Nomen überein. Hier maskulin Singular."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Cantidades y medidas",
+        "translation": "Mengen und Maße",
+        "examples": [
+          {
+            "original": "¿Cuánto cuesta un kilo de tomates?",
+            "phonetic": "/ˈkwanto ˈkwesta un ˈkilo de toˈmates/",
+            "translation": "Wie viel kostet ein Kilo Tomaten?",
+            "note": "Verwende 'un kilo de' für Mengen. Denke daran, dass 'tomates' Plural ist, aber 'cuesta' sich auf das singulare 'un kilo' bezieht."
+          },
+          {
+            "original": "Quiero medio kilo de queso.",
+            "phonetic": "/ˈkjeɾo ˈmeðjo ˈkilo de ˈkeso/",
+            "translation": "Ich möchte ein halbes Kilo Käse.",
+            "note": "'Medio' bedeutet halb. Beachte die Wortreihenfolge: Menge vor dem Nomen."
+          },
+          {
+            "original": "¿Cuántas botellas de agua necesita?",
+            "phonetic": "/ˈkwantas boˈteʝas de ˈaɣwa neθeˈsita/",
+            "translation": "Wie viele Flaschen Wasser brauchen Sie?",
+            "note": "Verwende 'cuántas' (feminin Plural), weil 'botellas' feminin Plural ist. Beachte, dass das Fragewort mit dem Nomen übereinstimmt."
+          }
+        ]
+      }
+    ],
+    "emoji": "🛒",
+    "phonetic": "",
+    "translations": {
+      "de": "Einkaufsgrundlagen: Preise und Mengen"
+    }
+  },
+  {
+    "id": "de_A1_func_08",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Pedir y dar indicaciones / Nach dem Weg fragen und Wege beschreiben",
+    "bridge": "Im Englischen verwenden wir oft 'turn left/right' und 'go straight.' Im Spanischen hören Sie auch 'gira' oder 'dobla' für 'turn' und 'sigue recto' für 'go straight.' Ein wichtiger Unterschied: Spanisch verwendet 'tomar' (nehmen) für Straßen, wie in 'toma la segunda calle' (nimm die zweite Straße). Achten Sie auch auf 'a la derecha' (rechts) vs. 'derecho' (geradeaus) – 'derecho' ist ein Adverb und bedeutet geradeaus, nicht 'rechts.' Die Imperativformen im Spanischen sind einfacher: Die 'tú'-Form verwendet 'toma, gira, dobla, sigue' – kein 'du' nötig.",
+    "rule": "Um nach dem Weg zu fragen, verwenden Sie '¿Dónde está...?' (Wo ist...?) oder '¿Cómo llego a...?' (Wie komme ich zu...?). Um Wege zu beschreiben, verwenden Sie die Imperativform (tú) der Verben: 'toma' (nimm), 'gira' (dreh), 'dobla' (bieg ab), 'sigue' (geh weiter), 'cruza' (überquer), 'pasa' (geh vorbei). Für Richtungen: 'recto' (geradeaus), 'a la izquierda' (links), 'a la derecha' (rechts), 'cerca' (nah), 'lejos' (weit). Verwenden Sie 'en' (an/auf) für Orte: 'está en la calle' (es ist auf der Straße). Für Entfernungen: 'a dos cuadras' (zwei Blocks entfernt). Verwenden Sie immer die 'tú'-Form für informelle Situationen; für formelle verwenden Sie 'usted' (tome, gire, doble, siga, cruce, pase). Präpositionen: 'al lado de' (neben), 'enfrente de' (gegenüber), 'detrás de' (hinter).",
+    "concept_examples": [
+      {
+        "text": "¿Dónde está la estación?",
+        "translation": "Wo ist der Bahnhof?",
+        "phonetic": "/ˈdonde esˈta la estaˈsjon/"
+      },
+      {
+        "text": "Toma la segunda calle a la derecha.",
+        "translation": "Nimm die zweite Straße rechts.",
+        "phonetic": "/ˈtoma la seˈɡunda ˈkaʝe a la ðeˈɾetʃa/"
+      },
+      {
+        "text": "Sigue recto hasta el semáforo.",
+        "translation": "Geh geradeaus bis zur Ampel.",
+        "phonetic": "/ˈsiɣe ˈrektɔ ˈasta el seˈmafoɾo/"
+      },
+      {
+        "text": "El banco está al lado del supermercado.",
+        "translation": "Die Bank ist neben dem Supermarkt.",
+        "phonetic": "/el ˈbaŋko esˈta al ˈlaðo ðel supermeɾˈkaðo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "¿Dónde es el banco?",
+      "correct": "¿Dónde está el banco?",
+      "correct_alt": "¿Cómo llego al banco?",
+      "explanation": "Im Englischen verwendet man 'Where is...?' mit dem Verb 'to be' (ser/estar). Im Spanischen muss man für Orte 'estar' (an einem Ort sein) verwenden, nicht 'ser' (im Wesen sein). Die Verwendung von 'ser' impliziert Identität oder Herkunft, nicht den Ort. Verwenden Sie also immer 'estar', wenn Sie nach dem Ort fragen."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Preguntar por un lugar",
+        "translation": "Nach einem Ort fragen",
+        "examples": [
+          {
+            "original": "¿Dónde está el museo?",
+            "phonetic": "/ˈdonde esˈta el muˈseo/",
+            "translation": "Wo ist das Museum?",
+            "note": "Verwenden Sie '¿Dónde está?' für jeden bestimmten Ort. Das Verb 'estar' wird für den Ort verwendet."
+          },
+          {
+            "original": "¿Cómo llego al centro?",
+            "phonetic": "/ˈkomo ˈʝeɣo al ˈsentɾo/",
+            "translation": "Wie komme ich ins Zentrum?",
+            "note": "Verwenden Sie '¿Cómo llego a...?', wenn Sie die Route wissen möchten, nicht nur den Ort."
+          },
+          {
+            "original": "¿Hay un restaurante cerca?",
+            "phonetic": "/ai̯ un restauˈɾante ˈseɾka/",
+            "translation": "Gibt es ein Restaurant in der Nähe?",
+            "note": "Verwenden Sie '¿Hay...?' für Existenz und 'cerca' (nah), um zu fragen, ob es in der Nähe ist."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Dar direcciones básicas",
+        "translation": "Einfache Wegbeschreibungen geben",
+        "examples": [
+          {
+            "original": "Toma la primera calle a la izquierda.",
+            "phonetic": "/ˈtoma la pɾiˈmeɾa ˈkaʝe a la iθˈkjeɾða/ (Spain) or /ˈtoma la pɾiˈmeɾa ˈkaʝe a la isˈkjeɾða/ (Latin America)",
+            "translation": "Nimm die erste Straße links.",
+            "note": "Verwenden Sie 'toma' (tú) oder 'tome' (usted) für 'nehmen' bei Wegbeschreibungen. 'Primera' bedeutet erste, 'segunda' zweite."
+          },
+          {
+            "original": "Gira a la derecha en el semáforo.",
+            "phonetic": "/ˈxiɾa a la ðeˈɾetʃa en el seˈmafoɾo/",
+            "translation": "Bieg an der Ampel rechts ab.",
+            "note": "'Gira' ist 'abbiegen' für tú. 'En' wird für 'an' einem bestimmten Punkt verwendet."
+          },
+          {
+            "original": "Cruza la plaza.",
+            "phonetic": "/ˈkɾuθa la ˈplasa/ (Spain) or /ˈkɾusa la ˈplasa/ (Latin America)",
+            "translation": "Überquere den Platz.",
+            "note": "'Cruza' ist eine Imperativform von 'cruzar' (überqueren)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ubicaciones y distancias",
+        "translation": "Orte und Entfernungen",
+        "examples": [
+          {
+            "original": "Está enfrente del parque.",
+            "phonetic": "/esˈta emˈfɾente ðel ˈpaɾke/",
+            "translation": "Es ist gegenüber dem Park.",
+            "note": "Verwenden Sie 'enfrente de' (gegenüber), um eine gegenüberliegende Position anzugeben."
+          },
+          {
+            "original": "El hotel está a diez minutos a pie.",
+            "phonetic": "/el oˈtel esˈta a ˈdjeθ miˈnutos a ˈpje/ (Spain) or /el oˈtel esˈta a ˈdjes miˈnutos a ˈpje/ (Latin America)",
+            "translation": "Das Hotel ist zehn Minuten zu Fuß entfernt.",
+            "note": "Verwenden Sie 'a + Zeit + a pie', um Gehwegdistanz auszudrücken. 'Está a dos cuadras' funktioniert auch in Lateinamerika."
+          },
+          {
+            "original": "Sigue recto hasta el final.",
+            "phonetic": "/ˈsiɣe ˈrektɔ ˈasta el fiˈnal/",
+            "translation": "Geh geradeaus bis zum Ende.",
+            "note": "'Sigue recto' bedeutet 'geradeaus gehen'. 'Hasta' bedeutet 'bis'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧭",
+    "phonetic": "",
+    "translations": {
+      "de": "Nach dem Weg fragen und Wege beschreiben"
+    }
+  },
+  {
+    "id": "de_A1_func_09",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Hablar de la familia / Über die Familie sprechen",
+    "bridge": "Im Englischen verwenden wir 'my' für alle Familienmitglieder (my mother, my father, my parents). Im Spanischen funktioniert der Possessiv 'mi' auch, aber es gibt einen häufigen Unterschied: Spanisch verwendet oft den bestimmten Artikel 'el/la', wenn klar ist, wessen Familie gemeint ist (z.B. 'tengo la madre' ist falsch, aber 'la madre de Juan' funktioniert). Außerdem unterscheidet Spanisch das Geschlecht bei Pluralformen von Familienbegriffen: 'los padres' bedeutet 'Eltern' (beide) oder 'Väter', während 'los hermanos' 'Geschwister' oder 'Brüder' bedeutet. Achten Sie darauf, 'hermano' (Bruder) nicht mit 'hermana' (Schwester) zu verwechseln – sie unterscheiden sich nur durch einen Buchstaben!",
+    "rule": "Wenn Sie im Spanischen über Familienmitglieder sprechen, verwenden Sie die Possessivbegleiter: mi (mein), tu (dein), su (sein/ihr/ihr), nuestro/nuestra (unser). Zum Beispiel: 'mi madre' (meine Mutter), 'tus padres' (deine Eltern). Das Geschlecht des Familienmitglieds stimmt mit dem Nomen überein: 'el padre' (Vater), 'la madre' (Mutter), 'el hermano' (Bruder), 'la hermana' (Schwester). Beachten Sie, dass 'padres' 'Eltern' bedeutet (sowohl Vater als auch Mutter), während 'madre' und 'padre' Singular sind. Um eine Familie zu beschreiben, verwenden Sie 'tener' (haben) und 'ser' (sein): 'Tengo una hermana' (Ich habe eine Schwester), 'Mi padre es alto' (Mein Vater ist groß). Denken Sie daran, dass 'mi' sich nicht nach dem Geschlecht richtet (mi hermano, mi hermana), aber 'nuestro/nuestra' schon (nuestro padre, nuestra madre).",
+    "concept_examples": [
+      {
+        "text": "Tengo una hermana mayor.",
+        "translation": "Ich habe eine ältere Schwester.",
+        "phonetic": "ˈteŋɡo ˈuna eɾˈmana maˈʝoɾ"
+      },
+      {
+        "text": "Mi padre se llama Juan.",
+        "translation": "Mein Vater heißt Juan.",
+        "phonetic": "mi paˈðɾe se ˈʝama ˈxwan"
+      },
+      {
+        "text": "Mis padres viven en Madrid.",
+        "translation": "Meine Eltern leben in Madrid.",
+        "phonetic": "mis ˈpaðɾes ˈbiβen em maˈðɾið"
+      },
+      {
+        "text": "¿Tienes hermanos?",
+        "translation": "Hast du Geschwister?",
+        "phonetic": "ˈtjenes eɾˈmanos"
+      }
+    ],
+    "common_error": {
+      "wrong": "Tengo madre bonita.",
+      "correct": "Tengo una madre bonita.",
+      "correct_alt": "Mi madre es bonita.",
+      "explanation": "Im Englischen sagen wir oft 'I have a nice mother' mit dem unbestimmten Artikel. Im Spanischen benötigen Sie den unbestimmten Artikel 'una' nach 'tener', wenn Sie sich auf ein nicht spezifisches oder einzigartiges Familienmitglied beziehen, oder Sie können den Possessiv 'mi' plus eine Beschreibung verwenden. Lassen Sie den Artikel auch nicht weg – er ist obligatorisch."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Miembros de la familia",
+        "translation": "Familienmitglieder",
+        "examples": [
+          {
+            "original": "madre",
+            "phonetic": "ˈmaðɾe",
+            "translation": "Mutter",
+            "note": "Beachten Sie, dass das 'd' weich klingt, wie 'th' in 'this'."
+          },
+          {
+            "original": "padre",
+            "phonetic": "ˈpaðɾe",
+            "translation": "Vater",
+            "note": "Ähnlich wie bei 'madre' ist das 'd' weich."
+          },
+          {
+            "original": "hermano",
+            "phonetic": "eɾˈmano",
+            "translation": "Bruder",
+            "note": "Endet mit 'o' für maskulin; 'hermana' für Schwester."
+          },
+          {
+            "original": "hermana",
+            "phonetic": "eɾˈmana",
+            "translation": "Schwester",
+            "note": "Endet mit 'a' für feminin."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Posesión",
+        "translation": "Besitz",
+        "examples": [
+          {
+            "original": "mi madre",
+            "phonetic": "mi ˈmaðɾe",
+            "translation": "meine Mutter",
+            "note": "'mi' wird für Singular verwendet; 'mis' für Plural."
+          },
+          {
+            "original": "mis padres",
+            "phonetic": "mis ˈpaðɾes",
+            "translation": "meine Eltern",
+            "note": "Denken Sie daran, dass 'padres' beide Elternteile zusammen bedeutet."
+          },
+          {
+            "original": "tu hermana",
+            "phonetic": "tu eɾˈmana",
+            "translation": "deine Schwester",
+            "note": "'tu' ist informell für 'dein'; 'su' ist formell oder für die dritte Person."
+          },
+          {
+            "original": "nuestro abuelo",
+            "phonetic": "ˈnwestɾo aˈβwelo",
+            "translation": "unser Großvater",
+            "note": "'nuestro' ändert sich zu 'nuestra' für feminine Nomen."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Describir la familia",
+        "translation": "Familie beschreiben",
+        "examples": [
+          {
+            "original": "Mi madre es alta.",
+            "phonetic": "mi ˈmaðɾe es ˈalta",
+            "translation": "Meine Mutter ist groß.",
+            "note": "Verwenden Sie 'ser' für die physische Beschreibung."
+          },
+          {
+            "original": "Tengo dos hermanos.",
+            "phonetic": "ˈteŋɡo dos eɾˈmanos",
+            "translation": "Ich habe zwei Brüder (oder zwei Geschwister).",
+            "note": "Im Spanischen kann 'hermanos' 'Brüder' oder 'Geschwister' bedeuten."
+          },
+          {
+            "original": "Mi padre trabaja en un banco.",
+            "phonetic": "mi ˈpaðɾe tɾaˈβaxa en um ˈbaŋko",
+            "translation": "Mein Vater arbeitet bei einer Bank.",
+            "note": "Verwenden Sie 'trabajar en' für 'arbeiten bei'."
+          },
+          {
+            "original": "Mi hermana es muy simpática.",
+            "phonetic": "mi eɾˈmana es ˈmui simˈpatika",
+            "translation": "Meine Schwester ist sehr nett.",
+            "note": "Die Adjektivendung passt sich dem Geschlecht an: 'simpática' für feminin."
+          }
+        ]
+      }
+    ],
+    "emoji": "👨‍👩‍👧‍👦",
+    "phonetic": "",
+    "translations": {
+      "de": "Über die Familie sprechen"
+    }
+  },
+  {
+    "id": "de_A1_func_10",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Expresar necesidad y deseo / Bedürfnis und Wunsch ausdrücken",
+    "bridge": "Im Englischen verwendet man oft 'I want' und 'I need' gefolgt von einem Infinitiv (z.B. 'I want to eat', 'I need to go'). Im Spanischen funktionieren die Verben 'querer' (wollen) und 'necesitar' (brauchen) ähnlich, aber ihnen folgt direkt ein Infinitiv ohne 'to'. Eine häufige Falle ist, 'para' (für) statt des Infinitivs zu verwenden oder zu vergessen, das Verb an das Subjekt anzupassen. Ein weiterer wichtiger Unterschied: 'querer' ist ein Verben mit Vokalwechsel (e-ie), also 'yo quiero' und nicht 'yo quero'.",
+    "rule": "Um auf Spanisch auf A1-Niveau Wunsch und Bedürfnis auszudrücken, verwende das Präsens von 'querer' (wollen) und 'necesitar' (brauchen), gefolgt von einem Infinitiv. 'Querer' ist ein Verb mit Vokalwechsel e-ie: yo quiero, tú quieres, él/ella/usted quiere, nosotros/nosotras queremos, vosotros/vosotras queréis, ellos/ellas/ustedes quieren. 'Necesitar' ist regelmäßig: -o, -as, -a, -amos, -áis, -an. Struktur: Subjekt (optional) + konjugiertes Verb + Infinitiv. Beispiele: 'Quiero comer' (Ich möchte essen), 'Necesito agua' (Ich brauche Wasser) – beachte, dass bei einem Nomen das Nomen direkt nach dem Verb steht, nicht mit 'of' wie im Englischen. Für höfliche Bitten kann man 'quisiera' oder 'me gustaría' verwenden, aber das ist fortgeschrittener; auf A1 sind 'quiero' und 'necesito' akzeptabel. Verneinung: no quiero + Infinitiv, no necesito + Nomen/Infinitiv.",
+    "concept_examples": [
+      {
+        "text": "Quiero comer una manzana.",
+        "translation": "Ich möchte einen Apfel essen.",
+        "phonetic": "ˈkjeɾo koˈmeɾ ˈuna manˈsana"
+      },
+      {
+        "text": "Necesito agua.",
+        "translation": "Ich brauche Wasser.",
+        "phonetic": "neˈsesito ˈaɣwa"
+      },
+      {
+        "text": "¿Quieres bailar?",
+        "translation": "Möchtest du tanzen?",
+        "phonetic": "ˈkjeɾes bajˈlaɾ"
+      },
+      {
+        "text": "No necesito ayuda.",
+        "translation": "Ich brauche keine Hilfe.",
+        "phonetic": "no neˈsesito aˈʝuða"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo quiero para comer.",
+      "correct": "Yo quiero comer.",
+      "correct_alt": "Quiero comer.",
+      "explanation": "Englischsprachige fügen oft 'para' (für/um zu) nach 'quiero' ein, weil sie an 'to' in 'I want to eat' denken. Im Spanischen folgt auf 'querer' direkt ein Infinitiv, keine Präposition. Außerdem wird 'para' für Zweck oder Ziel verwendet, nicht nach diesen Verben. Denke daran: querer + Infinitiv, necesitar + Infinitiv/Nomen."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Querer + infinitivo",
+        "translation": "Wollen + Infinitiv",
+        "examples": [
+          {
+            "original": "Quiero viajar a España.",
+            "phonetic": "ˈkjeɾo bjaˈxaɾ a esˈpaɲa",
+            "translation": "Ich möchte nach Spanien reisen.",
+            "note": "Beachte den Vokalwechsel e>ie: 'quiero' von 'querer'."
+          },
+          {
+            "original": "¿Quieres un café?",
+            "phonetic": "ˈkjeɾes un kaˈfe",
+            "translation": "Möchtest du einen Kaffee?",
+            "note": "Wenn das Objekt ein Nomen ist, wird kein Infinitiv verwendet."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Necesitar + sustantivo o infinitivo",
+        "translation": "Brauchen + Nomen oder Infinitiv",
+        "examples": [
+          {
+            "original": "Necesito estudiar más.",
+            "phonetic": "neˈsesito estuˈðjaɾ mas",
+            "translation": "Ich muss mehr lernen.",
+            "note": "Necesitar ist regelmäßig, also ist 'necesito' unkompliziert."
+          },
+          {
+            "original": "Necesita un bolígrafo.",
+            "phonetic": "neˈsesita un boˈliɣɾafo",
+            "translation": "Er/Sie braucht einen Kugelschreiber.",
+            "note": "Die Verbform ändert sich zu 'necesita' für él/ella/usted."
+          },
+          {
+            "original": "No necesito nada.",
+            "phonetic": "no neˈsesito ˈnaða",
+            "translation": "Ich brauche nichts.",
+            "note": "Verwende 'nada' (nichts) in negativen Sätzen."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Expresar deseos con querer",
+        "translation": "Wünsche mit querer ausdrücken",
+        "examples": [
+          {
+            "original": "Quiero ser médico.",
+            "phonetic": "ˈkjeɾo seɾ ˈmeðiko",
+            "translation": "Ich möchte Arzt sein.",
+            "note": "'Ser' wird für Berufe und dauerhafte Zustände verwendet."
+          },
+          {
+            "original": "Ellos quieren ir al cine.",
+            "phonetic": "ˈeʝos ˈkjeɾen iɾ al ˈsine",
+            "translation": "Sie möchten ins Kino gehen.",
+            "note": "Die Pluralform 'quieren' passt zu 'ellos'."
+          },
+          {
+            "original": "¿Qué quieres comer?",
+            "phonetic": "ke ˈkjeɾes koˈmeɾ",
+            "translation": "Was möchtest du essen?",
+            "note": "Fragewort 'qué' gefolgt vom konjugierten Verb."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙏",
+    "phonetic": "",
+    "translations": {
+      "de": "Bedürfnis und Wunsch ausdrücken"
     }
   }
 ]

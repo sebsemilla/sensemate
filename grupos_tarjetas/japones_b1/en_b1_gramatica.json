@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "en_B1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "過去完了（～た後で） / Past Perfect (the past of the past)",
+    "bridge": "In English, you use the past perfect (had + past participle) to show that one past event happened before another past event. Japanese doesn't have a dedicated tense for this; instead, it uses the te-form plus いた (past of いる) to express a state that existed before a later past action. The key trap is that English speakers often try to use the simple past for both actions, but Japanese requires the ている form in its past tense (～ていた) to convey the completed state. Also, note that Japanese often relies on sequence markers like てから or temporal clauses to clarify the order, so the past perfect is not always used.",
+    "rule": "The Japanese past perfect is typically formed using the te-form of a verb plus いた (the past form of いる). For example, 食べる (to eat) becomes 食べていた (had eaten). This structure expresses that an action or state was completed before a reference point in the past. It is used in narratives to set the background, to describe a state resulting from a previous action, or to emphasize the completion of an action prior to another past event. In B1-level usage, you will often see it in sentences like 着いたとき、彼はもう出かけていた (When I arrived, he had already left). There are no special conjugation changes for the te-form; it follows the standard rules. The negative form is ～ていなかった (had not …). In conversation, the past perfect is less common than in writing; Japanese speakers often use the simple past with temporal words (e.g., 前に) to indicate sequence.",
+    "concept_examples": [
+      {
+        "text": "電車が着いたとき、私は駅に着いていた。",
+        "translation": "When the train arrived, I had already arrived at the station.",
+        "phonetic": "densha ga tsuita toki, watashi wa eki ni tsuite ita."
+      },
+      {
+        "text": "彼女は食べ終わっていたので、コーヒーを注文した。",
+        "translation": "Since she had finished eating, she ordered coffee.",
+        "phonetic": "kanojo wa tabeowatte ita node, koohii o chuumon shita."
+      },
+      {
+        "text": "映画が始まる前に、私たちはチケットを買っていた。",
+        "translation": "Before the movie started, we had bought tickets.",
+        "phonetic": "eiga ga hajimaru mae ni, watashitachi wa chiketto o katte ita."
+      },
+      {
+        "text": "彼は日本に住んでいたことがあったので、日本語が上手だった。",
+        "translation": "Because he had lived in Japan, he was good at Japanese.",
+        "phonetic": "kare wa nihon ni sunde ita koto ga atta node, nihongo ga jouzu datta."
+      }
+    ],
+    "common_error": {
+      "wrong": "電車が着いたとき、私は駅に着いた。",
+      "correct": "電車が着いたとき、私は駅に着いていた。",
+      "correct_alt": "電車が着いたとき、私はすでに駅に着いていた。",
+      "explanation": "English speakers often use the simple past for both actions because that's how it's done in English. But in Japanese, using the simple past for both implies simultaneous actions or a simple sequence, not that one happened before the other. To convey the past perfect sense, you need the te-form + いた. Think of ～ていた as 'had done' when the context requires a clear prior action."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本形（テ形＋いた）",
+        "translation": "Basic form (te-form + ita)",
+        "examples": [
+          {
+            "original": "朝ごはんを食べていた。",
+            "phonetic": "asa gohan o tabete ita.",
+            "translation": "I had eaten breakfast.",
+            "note": "Simple past perfect with a transitive verb. The te-form of 食べる is 食べて, then add いた."
+          },
+          {
+            "original": "友達が来たとき、私は寝ていた。",
+            "phonetic": "tomodachi ga kita toki, watashi wa nete ita.",
+            "translation": "When my friend came, I had been sleeping (i.e., I was asleep).",
+            "note": "Here, 寝ていた can mean 'had been sleeping' or 'was sleeping' (state). The context shows it's the continuing state at that past time."
+          },
+          {
+            "original": "雨が降っていたので、濡れていた。",
+            "phonetic": "ame ga futte ita node, nurete ita.",
+            "translation": "Because it had been raining, (I) was wet.",
+            "note": "Two past perfects: 降っていた (had been raining) and 濡れていた (had become wet)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "完了の強調（すでに／もう）",
+        "translation": "Emphasizing completion (already / yet)",
+        "examples": [
+          {
+            "original": "彼が着いたとき、私はもう出かけていた。",
+            "phonetic": "kare ga tsuita toki, watashi wa mou dekakete ita.",
+            "translation": "When he arrived, I had already gone out.",
+            "note": "Using もう (already) with ～ていた emphasizes the prior completion."
+          },
+          {
+            "original": "宿題は全部終わっていた。",
+            "phonetic": "shukudai wa zenbu owatte ita.",
+            "translation": "The homework had all been finished.",
+            "note": "The subject is the homework; the structure ～ていた works with intransitive verbs like 終わる."
+          },
+          {
+            "original": "その本はもう読んでいた。",
+            "phonetic": "sono hon wa mou yonde ita.",
+            "translation": "I had already read that book.",
+            "note": "Here, 読んでいた means 'had read' (completed), but not 'was reading'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "経験の過去完了（～たことがあった）",
+        "translation": "Past perfect for experience (had the experience of ...)",
+        "examples": [
+          {
+            "original": "前に京都に行ったことがあった。",
+            "phonetic": "mae ni kyouto ni itta koto ga atta.",
+            "translation": "I had been to Kyoto before.",
+            "note": "This is the past form of ～たことがある (have done before). It expresses a prior experience."
+          },
+          {
+            "original": "彼はその映画を見たことがあった。",
+            "phonetic": "kare wa sono eiga o mita koto ga atta.",
+            "translation": "He had seen that movie before.",
+            "note": "The ～たことのある structure in the past tense (あった) indicates a past experience."
+          },
+          {
+            "original": "私はその話を聞いたことがなかった。",
+            "phonetic": "watashi wa sono hanashi o kiita koto ga nakatta.",
+            "translation": "I had never heard that story before.",
+            "note": "Negative form: ～たことがなかった."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏪",
+    "phonetic": "",
+    "translations": {
+      "en": "Past Perfect"
+    }
+  },
+  {
+    "id": "en_B1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "条件文（じょうけんぶん） / Conditionals",
+    "bridge": "In English, you use 'if' + present for real conditions (Type 1) and 'if' + past for unreal or hypothetical ones (Type 2). Japanese has multiple conditional markers (と, ば, たら, なら) that each carry nuance—there is no direct equivalent to the tense shift. For Type 1, たら or ば are common; for Type 2, たら or なら are used with past tense endings, but the verb form itself doesn't clearly indicate 'unreal' like English. The key trap is overusing と for hypotheticals—it only works for natural consequences, not imagined situations.",
+    "rule": "Conditional Structures in Japanese:\n\n1. **と** (natural consequence): Xと、Y. Used for inevitable results, habits, or facts. Not used for personal requests, suggestions, or hypotheticals.\n   - 春になると、花が咲きます。 (When spring comes, flowers bloom.)\n\n2. **ば** (general condition): Xば、Y. Used for general truths and hypotheticals, but the result cannot be a command, request, or invitation.\n   - お金があれば、海外に行けます。 (If I have money, I can go abroad.)\n\n3. **たら** (if/when, after): Xたら、Y. Most versatile; can be used for both real and unreal conditions, and the result can be any form (including commands, suggestions). The verb is in past tense (た-form) + ら.\n   - 時間があったら、映画を見ます。 (If I have time, I'll watch a movie.)\n   - もし宇宙に行けたら、星を見たいです。 (If I could go to space, I'd want to see the stars.)\n\n4. **なら** (if it's the case that): Xなら、Y. Used when the speaker assumes or is given a premise, often for advice or requests. Not used for generic cause-effect.\n   - 行くなら、早く行きなさい。 (If you're going, go early.)\n\nFor Type 2 unreal conditionals, add もし (if) for clarity and use past tense verb (た形) + たら, or なら with the plain form. There is no separate tense for hypotheticals; context and もし signal unreal.\n\nRemember: For real conditions (Type 1), present/future tense is used; for unreal (Type 2), past tense is used for たら, but not always for ば/なら.",
+    "concept_examples": [
+      {
+        "text": "もし時間があったら、映画を見ます。",
+        "translation": "If I have time, I'll watch a movie.",
+        "phonetic": "[moɕi dʑikaɴ ɡa attaɾa, eːɡa o mimasɯ]"
+      },
+      {
+        "text": "お金があれば、海外に行けます。",
+        "translation": "If I have money, I can go abroad.",
+        "phonetic": "[o̞kane ɡa aɾeba, kaikaʲi ɲi ikemasɯ]"
+      },
+      {
+        "text": "もし宇宙に行けたら、星を見たいです。",
+        "translation": "If I could go to space, I'd want to see the stars.",
+        "phonetic": "[moɕi ɯt͡ɕɯː ɲi iketaɾa, hoɕi o mitai desɯ]"
+      },
+      {
+        "text": "春になると、花が咲きます。",
+        "translation": "When spring comes, flowers bloom.",
+        "phonetic": "[haɾɯ ɲi naɾɯ to, hana ɡa sakimasɯ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "もし時間があったら、映画を見ます。 (actually this is correct, but let's use a typical error) もし時間があったら、映画を見る。",
+      "correct": "もし時間があったら、映画を見ます。",
+      "correct_alt": "時間があったら、映画を見ます。",
+      "explanation": "A common error is dropping the polite ending ます in the main clause when using たら, especially when translating from English 'I will watch' – but Japanese requires consistent politeness level. Another error is using と for hypotheticals: もし雨が降ると、家にいます is incorrect because と implies natural consequence, so 'if it rains' is better with たら or ば. Keep the main verb in ます form for polite speech."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "と (自然な結果) と ば (一般的条件)",
+        "translation": "と (natural result) and ば (general condition)",
+        "examples": [
+          {
+            "original": "春になると、花が咲きます。",
+            "phonetic": "[haɾɯ ɲi naɾɯ to, hana ɡa sakimasɯ]",
+            "translation": "When spring comes, flowers bloom.",
+            "note": "と is used for natural, inevitable results. No personal intention."
+          },
+          {
+            "original": "このボタンを押すと、ドアが開きます。",
+            "phonetic": "[ko̞no botãɴ o o̞sɯ to, doa ɡa hirakimasɯ]",
+            "translation": "If you press this button, the door opens.",
+            "note": "と shows a cause-effect relationship; typical for instructions."
+          },
+          {
+            "original": "時間があれば、勉強します。",
+            "phonetic": "[dʑikaɴ ɡa aɾeba, beŋʲkʲoː ɕimasɯ]",
+            "translation": "If I have time, I will study.",
+            "note": "ば is for general conditions, but the result cannot be a command or request."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "たら (条件・後で)",
+        "translation": "たら (conditional / after something)",
+        "examples": [
+          {
+            "original": "時間があったら、映画を見ます。",
+            "phonetic": "[dʑikaɴ ɡa attaɾa, eːɡa o mimasɯ]",
+            "translation": "If I have time, I'll watch a movie.",
+            "note": "たら is versatile; can be used for real conditions and the result can be any form."
+          },
+          {
+            "original": "日本に行ったら、寿司を食べたいです。",
+            "phonetic": "[ɲihoɴ ɲi ittaɾa, sɯɕi o tabetaɕi desɯ]",
+            "translation": "If I go to Japan, I want to eat sushi.",
+            "note": "たら works for future real conditions; note the past tense form of 行く (行った) + ら."
+          },
+          {
+            "original": "もし宇宙に行けたら、星を見たいです。",
+            "phonetic": "[moɕi ɯt͡ɕɯː ɲi iketaɾa, hoɕi o mitai desɯ]",
+            "translation": "If I could go to space, I'd want to see the stars.",
+            "note": "Past tense + たら used for unreal hypothetical (Type 2). もし clarifies."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "なら (前提条件) と もしの使い方",
+        "translation": "なら (premise condition) and the use of もし",
+        "examples": [
+          {
+            "original": "行くなら、早く行きなさい。",
+            "phonetic": "[ikɯ naɾa, hajakɯ ikʲinasai]",
+            "translation": "If you're going, go early.",
+            "note": "なら is used when the speaker responds to a premise or hearsay; often for advice."
+          },
+          {
+            "original": "もし雨が降ったら、家にいます。",
+            "phonetic": "[moɕi ame ɡa fɯttaɾa, ʔiɕi ɲi imasɯ]",
+            "translation": "If it rains, I'll stay home.",
+            "note": "もし adds emphasis to 'if', especially in hypothetical or less likely situations."
+          },
+          {
+            "original": "もしお金がなかったら、どうしますか。",
+            "phonetic": "[moɕi o̞kane ɡa nakattaɾa, doː ɕimasɯka]",
+            "translation": "If you didn't have money, what would you do?",
+            "note": "Past negative なかったら is used for unreal conditions; もし makes it clear."
+          }
+        ]
+      }
+    ],
+    "emoji": "🌦️",
+    "phonetic": "",
+    "translations": {
+      "en": "Conditionals"
+    }
+  },
+  {
+    "id": "en_B1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "受身形（現在・過去） / Passive Voice (Present & Past)",
+    "bridge": "In English, the passive voice uses 'be + past participle' (e.g., 'The cake was eaten'). In Japanese, the passive is formed by conjugating the verb itself, not by adding a helper verb before it. English speakers often try to use 'to be' equivalents, but Japanese uses suffixes like -られる or -れる directly on the verb stem. Also, Japanese passive sentences often mark the agent with に, not 'by', and there is no equivalent to 'by' that is always used.",
+    "rule": "To form the present passive in Japanese, take the verb in its negative present form (nai-form), drop the final ない, and add られる. For Group 1 (godan) verbs, use the -a stem + れる. For Group 2 (ichidan) verbs, replace the final る with られる. For irregular verbs: する → される, くる → こられる. For past passive, change the final る to られた (e.g., 食べられる → 食べられた). The agent (the doer) is marked with に, not によって (which is more formal/emphatic). The object that receives the action remains the subject marked with が or は. Unlike English, the passive can also express a sense of inconvenience or adversity (e.g., 雨に降られた = 'I was rained on'). In everyday speech, られる can be shortened to れる for group 2 verbs and する (e.g., 食べれる, 見れる), but this is considered nonstandard and often taught at higher levels.",
+    "concept_examples": [
+      {
+        "text": "この本は多くの人に読まれています。",
+        "translation": "This book is read by many people.",
+        "phonetic": "/kono hon wa ooku no hito ni yomarete imasu/"
+      },
+      {
+        "text": "そのケーキは食べられました。",
+        "translation": "That cake was eaten.",
+        "phonetic": "/sono keeki wa taberaremashita/"
+      },
+      {
+        "text": "新しい店が開かれました。",
+        "translation": "A new store was opened.",
+        "phonetic": "/atarashii mise ga hirakaremashita/"
+      },
+      {
+        "text": "彼は先生に褒められた。",
+        "translation": "He was praised by his teacher.",
+        "phonetic": "/kare wa sensei ni homerareta/"
+      }
+    ],
+    "common_error": {
+      "wrong": "そのケーキは食べました。",
+      "correct": "そのケーキは食べられました。",
+      "correct_alt": "そのケーキは食べられました。 (or そのケーキは食べられた。)",
+      "explanation": "English speakers often use the transitive verb in the active voice because they think of the subject as performing the action. In Japanese, when the object is the topic (ケーキ), it must be marked with は or が, and the verb must be in the passive form to show that it receives the action. Forgetting to change the verb to passive is a common trap."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "現在受身形の基本形",
+        "translation": "Basic Present Passive Form",
+        "examples": [
+          {
+            "original": "この映画はたくさんの人に見られています。",
+            "phonetic": "/kono eiga wa takusan no hito ni mirarete imasu/",
+            "translation": "This movie is being watched by many people.",
+            "note": "This shows the present passive with られる for ichidan verbs (見る → 見られる). Note the agent is marked with に."
+          },
+          {
+            "original": "日本語は世界中で話されています。",
+            "phonetic": "/nihongo wa sekaijuu de hanasarete imasu/",
+            "translation": "Japanese is spoken all over the world.",
+            "note": "Here, 話す (godan) changes to 話される. The place is marked with で, not に."
+          },
+          {
+            "original": "その本は若者に読まれています。",
+            "phonetic": "/sono hon wa wakamono ni yomarete imasu/",
+            "translation": "That book is read by young people.",
+            "note": "The passive of 読む (godan) becomes 読まれる. Note the に for the doer."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "過去受身形",
+        "translation": "Past Passive Form",
+        "examples": [
+          {
+            "original": "その手紙は昨日送られました。",
+            "phonetic": "/sono tegami wa kinou okuraremashita/",
+            "translation": "That letter was sent yesterday.",
+            "note": "Past passive of 送る (godan) is 送られた. Note the past tense ending -た."
+          },
+          {
+            "original": "この曲は昔に作られました。",
+            "phonetic": "/kono kyoku wa mukashi ni tsukuraremashita/",
+            "translation": "This song was composed a long time ago.",
+            "note": "Past passive of 作る (godan) is 作られた. に here shows time, not agent (but in context it's clear)."
+          },
+          {
+            "original": "彼は友達に呼ばれて、パーティーに行った。",
+            "phonetic": "/kare wa tomodachi ni yobarete, paatii ni itta/",
+            "translation": "He was called by his friend and went to the party.",
+            "note": "This shows the passive -られて as a conjunctive form to link actions."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "受身の使い方と注意点",
+        "translation": "Usage and Pitfalls of Passive",
+        "examples": [
+          {
+            "original": "私は妹にケーキを食べられた。",
+            "phonetic": "/watashi wa imouto ni keeki o taberareta/",
+            "translation": "My cake was eaten by my little sister. (I had my cake eaten.)",
+            "note": "This expresses adversity – the speaker is negatively affected. The agent is marked with に, and the direct object remains を."
+          },
+          {
+            "original": "この本は私に書かれました。",
+            "phonetic": "/kono hon wa watashi ni kakaremashita/",
+            "translation": "This book was written by me.",
+            "note": "With 私に, this is grammatical but sounds odd in natural speech; usually you'd say 私が書きました (active). Overusing passive in Japanese is unnatural, unlike English."
+          },
+          {
+            "original": "あの店は日本人にしか知られていません。",
+            "phonetic": "/ano mise wa nihonjin ni shika shirarete imasen/",
+            "translation": "That store is known only to Japanese people.",
+            "note": "Negative passive form 知られていません – shows how to negate the passive."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎌",
+    "phonetic": "",
+    "translations": {
+      "en": "Passive Voice (Present and Past)"
+    }
+  },
+  {
+    "id": "en_B1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Reported Speech (伝聞・引用)",
+    "bridge": "In English, when we report what someone said, we often shift the tense back (e.g., 'I am tired' becomes 'She said she was tired'). In Japanese, there is no tense shift in the quoted clause. Instead, you attach the quotative particle と (to) to the original statement and then add a reporting verb like 言う (iu) or 思う (omou). The biggest trap is that Japanese does not change pronouns or time expressions as systematically as English does; you must rely on context and often use そう (sō) for hearsay (e.g., 〜そうだ) to indicate the information is reported, not directly experienced.",
+    "rule": "To report speech or thoughts in Japanese:\n1. Place the original utterance (formal or informal) directly before the particle と (to).\n2. Follow with a verb like 言う (iu, to say), 思う (omou, to think), 聞く (kiku, to hear), 書く (kaku, to write), etc.\n3. The quoted clause remains unchanged in tense and politeness; there is no backshift like English.\n4. Use 〜と言う (to iu) for direct quoted speech; often used with 〜と言っていました (to itte imashita) for 'said' in a polite context.\n5. For reported hearsay without a specific speaker, use 〜そうです (sō desu) after the plain form of the verb or adjective. This means 'I heard that...' or 'It seems that...'.\n6. When reporting a question, use the question word plus か (ka) before と: e.g., 〜かと聞く. The answer particle か is used for yes/no questions.\n7. In casual speech, って (tte) is often used instead of と, but と is standard in formal writing.\n8. Note that Japanese does not automatically change time references like 'yesterday' to 'the day before'; you must add context or adjust based on the situation.",
+    "concept_examples": [
+      {
+        "text": "彼は「疲れた」と言いました。",
+        "translation": "He said, 'I am tired.' (Direct quote: He said 'tired.')",
+        "phonetic": "kare wa 'tsukareta' to iimashita"
+      },
+      {
+        "text": "彼女は明日来ると言っています。",
+        "translation": "She says she will come tomorrow.",
+        "phonetic": "kanojo wa ashita kuru to itte imasu"
+      },
+      {
+        "text": "田中さんは日本に行ったそうです。",
+        "translation": "I heard that Tanaka-san went to Japan.",
+        "phonetic": "tanaka-san wa nihon ni itta sō desu"
+      },
+      {
+        "text": "彼は何を言ったと思いますか。",
+        "translation": "What do you think he said? (Literally: What did he say, do you think?)",
+        "phonetic": "kare wa nani o itta to omoimasu ka"
+      }
+    ],
+    "common_error": {
+      "wrong": "彼は疲れていると言ったです。",
+      "correct": "彼は疲れていると言いました。",
+      "correct_alt": "彼は疲れたと言っていました。",
+      "explanation": "English speakers often try to use the polite form of 言う (i.e., 言ったです) but 言う is a godan verb and its polite past is 言いました, not 言ったです. Also, using 疲れている (present progressive) might be correct if the fatigue is ongoing, but 疲れた is more natural for a state. The error occurs because learners sometimes apply the polite pattern of adjectives to verbs. Remember: for verbs, the polite past is 〜ました (e.g., 言いました), and for adjectives, you can say 〜でした (e.g., 疲れていました)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "直接話法 (ちょくせつ わほう)",
+        "translation": "Direct Speech",
+        "examples": [
+          {
+            "original": "彼は「はい」と言った。",
+            "phonetic": "kare wa 'hai' to itta",
+            "translation": "He said, 'Yes.'",
+            "note": "Direct quotes are enclosed in 「」 and followed by と + 言う. No changes to the quote."
+          },
+          {
+            "original": "彼女は「行きます」と言いました。",
+            "phonetic": "kanojo wa 'ikimasu' to iimashita",
+            "translation": "She said, 'I will go.'",
+            "note": "Notice that the politeness of the quote (行きます) is kept inside the quotation marks."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "間接話法 (かんせつ わほう) ～と言う",
+        "translation": "Indirect Speech with ～と 言う",
+        "examples": [
+          {
+            "original": "彼は疲れていると言いました。",
+            "phonetic": "kare wa tsukarete iru to iimashita",
+            "translation": "He said he is tired.",
+            "note": "In indirect speech, the quote is not marked with 「」 but と is used. The verb tense remains the same as the original."
+          },
+          {
+            "original": "彼女は明日来ると言っています。",
+            "phonetic": "kanojo wa ashita kuru to itte imasu",
+            "translation": "She says she will come tomorrow.",
+            "note": "Even though the reporting verb is in present progressive (言っています), it often means 'she said' or 'she says' in English."
+          },
+          {
+            "original": "先生は宿題を出したと言いました。",
+            "phonetic": "sensei wa shukudai o dashita to iimashita",
+            "translation": "The teacher said that she assigned homework.",
+            "note": "The past tense of the original action (出した) is kept unchanged."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "伝聞 (でんぶん) ～そうです",
+        "translation": "Hearsay with ～そうです",
+        "examples": [
+          {
+            "original": "明日は雨が降るそうです。",
+            "phonetic": "ashita wa ame ga furu sō desu",
+            "translation": "I heard it will rain tomorrow.",
+            "note": "Used to report information heard from someone else, not a personal opinion."
+          },
+          {
+            "original": "そのレストランはとても美味しいそうです。",
+            "phonetic": "sono resutoran wa totemo oishii sō desu",
+            "translation": "I heard that restaurant is very delicious.",
+            "note": "For adjectives, the plain present form is used before そうです. Note: そうだ after a verb past tense (だった) is not used for hearsay; that's for appearance."
+          },
+          {
+            "original": "彼は来なかったそうです。",
+            "phonetic": "kare wa konakatta sō desu",
+            "translation": "I heard that he didn't come.",
+            "note": "Use past negative plain form (来なかった) before そうです."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "en": "Reported Speech (Basic)"
+    }
+  },
+  {
+    "id": "en_B1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "動詞の名詞化（こと・の） / Nominalization of Verbs (koto / no)",
+    "bridge": "In English, gerunds and infinitives (e.g., 'reading' and 'to read') act as nouns: 'Reading is fun' or 'I like to read'. Japanese has no such verb forms; instead, you attach こと (koto) or の (no) to the plain form of a verb to turn it into a noun phrase. The key trap: こと is more abstract and often used for the idea of doing something, while の is more concrete and used with verbs of perception (like seeing, hearing, knowing). Also, unlike English, Japanese does not change the verb form (no '-ing' suffix); the verb stays in its dictionary form.",
+    "rule": "To express a verb as a noun (equivalent to a gerund or infinitive), take the plain (dictionary) form of a verb and attach こと (koto) or の (no) to it. Both can be used as subjects or objects. こと is more common in formal writing and with abstract verbs (e.g., 好きです, 大切です). の is more conversational and used with verbs that involve direct perception or experience (e.g., 見る, 聞く, 知っている, 手伝う). Note: When a verb is followed by a noun, the attributive form is used; but for nominalization, just the dictionary form + こと/の is standard. Exception: For adjectives, nominalization works differently; this concept focuses on verbs.",
+    "concept_examples": [
+      {
+        "text": "本を読むことが好きです。",
+        "translation": "I like reading books / I like to read books.",
+        "phonetic": "hõɴ o jomu koto ga sukʲi desɯ"
+      },
+      {
+        "text": "毎朝走るのが大事です。",
+        "translation": "Running every morning is important.",
+        "phonetic": "maiasa hasʲirɯ no ga daidʑi desɯ"
+      },
+      {
+        "text": "彼は泳ぐのが上手です。",
+        "translation": "He is good at swimming.",
+        "phonetic": "kare wa ojogɯ no ga dʑoːzɯ desɯ"
+      },
+      {
+        "text": "日本語を勉強することが必要です。",
+        "translation": "Studying Japanese is necessary.",
+        "phonetic": "nʲihoŋɡo o bẽŋkʲoː sɯrɯ koto ga hitsɯjoː desɯ"
+      }
+    ],
+    "common_error": {
+      "wrong": "日本語を勉強が好きです。",
+      "correct": "日本語を勉強することが好きです。",
+      "correct_alt": "日本語を勉強するのが好きです。",
+      "explanation": "English speakers often directly translate 'I like studying Japanese' by putting the verb directly before が, but in Japanese a verb cannot act as a noun without a nominalizer (こと or の). Without it, the sentence is grammatically incomplete. Always add こと or の after the plain form of the verb."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "ことの使い方",
+        "translation": "Using こと",
+        "examples": [
+          {
+            "original": "日本語を話すことができます。",
+            "phonetic": "nʲihoŋɡo o hanasɯ koto ga dekimasɯ",
+            "translation": "I can speak Japanese.",
+            "note": "こと is used with できる (can do) to express ability, similar to an infinitive in English."
+          },
+          {
+            "original": "料理をすることが好きだ。",
+            "phonetic": "rʲoːɾʲi o sɯrɯ koto ga sʲkʲi da",
+            "translation": "I like cooking.",
+            "note": "こと with 好き (like) expresses a general liking for an activity."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "のの使い方",
+        "translation": "Using の",
+        "examples": [
+          {
+            "original": "彼が来るのを知っています。",
+            "phonetic": "kare ga kɯɾɯ no o ɕitte imasɯ",
+            "translation": "I know that he is coming (lit. I know the coming of him).",
+            "note": "の is used with verbs of knowledge like 知っています to refer to a concrete event."
+          },
+          {
+            "original": "音を聞くのが好きです。",
+            "phonetic": "oto o kʲikɯ no ga sɯkʲi desɯ",
+            "translation": "I like listening to sounds.",
+            "note": "の with perception verbs like 聞く (hear/listen) is natural and common."
+          },
+          {
+            "original": "手伝ってくれるのをありがとう。",
+            "phonetic": "tecɯdаɕte kɯɾeɾɯ no o aɾiɡatoː",
+            "translation": "Thank you for helping me.",
+            "note": "の can nominalize a whole clause, often in casual expressions of gratitude."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "こととのの違い",
+        "translation": "Difference between こと and の",
+        "examples": [
+          {
+            "original": "彼に会ったことを覚えています。",
+            "phonetic": "kare ni aɕta koto o oboete imasɯ",
+            "translation": "I remember meeting him.",
+            "note": "こと is used with 覚えている (remember) because it refers to an abstract memory of an event."
+          },
+          {
+            "original": "彼に会うのを忘れました。",
+            "phonetic": "kare ni aɯ no o wasɯɾemaɕita",
+            "translation": "I forgot to meet him.",
+            "note": "の is used with 忘れる (forget) when referring to a concrete action that was planned."
+          },
+          {
+            "original": "音楽を聞くことは楽しいです。",
+            "phonetic": "oŋɡakɯ o kʲikɯ koto wa tanosʲiː desɯ",
+            "translation": "Listening to music is fun.",
+            "note": "こと is often used in general statements about an activity, with a slightly formal tone."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "en": "Gerunds and infinitives (V + koto/no)"
+    }
+  },
+  {
+    "id": "en_B1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "推量の助動詞（must, might, could） / Modal verbs for deduction",
+    "bridge": "In English, you use modal verbs like 'must', 'might', and 'could' to express degrees of certainty about a situation. Japanese does not have direct equivalents; instead, it uses sentence-final expressions like 〜はずです (should be), 〜かもしれません (might be), and 〜に違いない (must be). A key trap is that Japanese often omits the subject and relies on context, while English requires explicit subjects. Also, Japanese grammatically marks certainty differently: 'must' is stronger (〜に違いない) than 'should' (〜はず), and 'might' is weaker (〜かもしれない). Avoid transferring English word order directly; these expressions attach to the verb or adjective at the end of the clause.",
+    "rule": "In Japanese, deduction is expressed using sentence-final constructions after the dictionary form of verbs or adjectives (or noun + だ/である). Common patterns: 1) Strong certainty (must): 〜に違いない (ni chigai nai) - expresses strong conviction based on evidence. 2) Logical expectation (should/be supposed to): 〜はず (hazu) - implies the speaker has reason to believe something is true. 3) Weak possibility (might/could): 〜かもしれません (kamoshiremasen) - expresses uncertainty. For negative deduction, use 〜ないはず (shouldn't) or 〜ないかもしれません (might not). Unlike English, these forms are not conjugated for tense; tense is indicated by context or by the preceding verb (e.g., past: だったかもしれません). Note that 〜に違いない is more formal and literary, while 〜かもしれません is common in everyday speech. Also, 〜はず can imply a strong expectation that may be contradicted by reality.",
+    "concept_examples": [
+      {
+        "text": "彼はもう寝ているかもしれません。",
+        "translation": "He might be sleeping already.",
+        "phonetic": "kare wa mō nete iru kamoshiremasen."
+      },
+      {
+        "text": "あの人は田中さんに違いない。",
+        "translation": "That person must be Tanaka-san.",
+        "phonetic": "ano hito wa Tanaka-san ni chigai nai."
+      },
+      {
+        "text": "会議は3時からのはずです。",
+        "translation": "The meeting should start at 3 o'clock.",
+        "phonetic": "kaigi wa san-ji kara no hazu desu."
+      },
+      {
+        "text": "彼女は来ないかもしれません。",
+        "translation": "She might not come.",
+        "phonetic": "kanojo wa konai kamoshiremasen."
+      }
+    ],
+    "common_error": {
+      "wrong": "彼は来るはずしなければならない。",
+      "correct": "彼は来るはずです。",
+      "correct_alt": "彼は来るに違いない。",
+      "explanation": "English speakers often try to translate 'must' as しなければならない (obligation) instead of using the deduction form. しなければならない means 'have to', not 'deduction'. For deduction with strong certainty, use 〜に違いない or 〜はずです. Also, avoid stacking expressions like はずしなければならない; Japanese uses only one final predicate for deduction."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "強い確信（must）",
+        "translation": "Strong certainty (must)",
+        "examples": [
+          {
+            "original": "彼は病気に違いない。",
+            "phonetic": "kare wa byōki ni chigai nai.",
+            "translation": "He must be sick.",
+            "note": "〜に違いない is used for strong conviction based on evidence, similar to 'must'."
+          },
+          {
+            "original": "それは本当に違いない。",
+            "phonetic": "sore wa hontō ni chigai nai.",
+            "translation": "That must be true.",
+            "note": "Here に違いない follows a noun (本当), but it can also follow verbs and adjectives."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "道理的な推量（should）",
+        "translation": "Logical expectation (should)",
+        "examples": [
+          {
+            "original": "彼女はもう着いているはずです。",
+            "phonetic": "kanojo wa mō tsuite iru hazu desu.",
+            "translation": "She should have arrived already.",
+            "note": "〜はずです implies a logical expectation based on information, similar to 'should'."
+          },
+          {
+            "original": "明日は晴れるはずです。",
+            "phonetic": "ashita wa hareru hazu desu.",
+            "translation": "It should be sunny tomorrow.",
+            "note": "Use はず for predictions based on schedule or previous knowledge."
+          },
+          {
+            "original": "彼は知っているはずがあります。",
+            "phonetic": "kare wa shitte iru hazu ga arimasu.",
+            "translation": "He should know.",
+            "note": "Not common; はずです is standard. はずがあります is rare but used for emphasis."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "弱い可能性（might/could）",
+        "translation": "Weak possibility (might/could)",
+        "examples": [
+          {
+            "original": "彼は来週来るかもしれません。",
+            "phonetic": "kare wa raishū kuru kamoshiremasen.",
+            "translation": "He might come next week.",
+            "note": "かもしれません is the standard weak possibility form, similar to 'might' or 'could'."
+          },
+          {
+            "original": "バスが遅れているかもしれません。",
+            "phonetic": "basu ga okurete iru kamoshiremasen.",
+            "translation": "The bus might be running late.",
+            "note": "Attach かもしれません to the te-form + iru for ongoing states."
+          },
+          {
+            "original": "それは高くないかもしれません。",
+            "phonetic": "sore wa takakunai kamoshiremasen.",
+            "translation": "It might not be expensive.",
+            "note": "Negative form: use ないかもしれません. Note the i-adjective negation ends in くない."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔮",
+    "phonetic": "",
+    "translations": {
+      "en": "Modal verbs for deduction (must, might, could)"
+    }
+  },
+  {
+    "id": "en_B1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "関係代名詞（連体修飾）",
+    "bridge": "In English, relative clauses are introduced by words like 'who', 'which', or 'that' (e.g., 'the book that I bought'). In Japanese, there is no relative pronoun. Instead, the modifying clause directly precedes the noun it describes, and the verb at the end of the clause takes a plain (non-polite) form. For example, 'the book I bought' becomes 私が買った本 (watashi ga katta hon), literally 'I bought book'. A key trap: in English, the relative pronoun can be the object of the clause, but in Japanese, the object is marked with を, and the verb remains in active form. Also, unlike English, Japanese relative clauses are always defining (restrictive) unless a special construction is used; non-defining relative clauses are typically expressed with appositive phrases or additional sentences.",
+    "rule": "In Japanese, relative clauses are formed by placing a clause that modifies a noun directly before it. The modifying clause ends with a plain form verb (dictionary form for present/future, ta-form for past, te-iru for progressive, etc.) or a plain adjective/noun + copula (e.g., だ for present, だった for past). The noun follows immediately. The grammatical relationship within the clause is indicated by particles: が for subject, を for object, に for location/indirect object, で for place of action, etc. For example: 私が読んだ本 (the book I read), 彼が作った料理 (the dish he made), 田中さんが住んでいる町 (the town where Tanaka lives). There is no relative pronoun; the noun is simply the modified element. The tense of the relative clause is marked on the final verb/adjective. In formal writing, the copula だ may be replaced by である. For non-defining relative clauses (which in English are set off by commas), Japanese often uses explanatory constructions like 〜が、～ (but) or separate sentences, or uses appositive phrases like 〜という (called/quoted). For B1 level, focus on mastering the basic patterns: modifying a noun with a verb clause, adjective clause, and noun+だ clause, ensuring correct particle usage in the modifying clause.",
+    "concept_examples": [
+      {
+        "text": "これは私が買った本です。",
+        "translation": "This is the book that I bought.",
+        "phonetic": "kore wa watashi ga katta hon desu"
+      },
+      {
+        "text": "彼が作った料理はおいしいです。",
+        "translation": "The dish that he made is delicious.",
+        "phonetic": "kare ga tsukutta ryouri wa oishii desu"
+      },
+      {
+        "text": "田中さんが住んでいる町は静かです。",
+        "translation": "The town where Mr. Tanaka lives is quiet.",
+        "phonetic": "tanaka san ga sunde iru machi wa shizuka desu"
+      },
+      {
+        "text": "あそこにいる人が先生です。",
+        "translation": "The person who is over there is the teacher.",
+        "phonetic": "asoko ni iru hito ga sensei desu"
+      }
+    ],
+    "common_error": {
+      "wrong": "私が買ったです本。",
+      "correct": "私が買った本です。",
+      "correct_alt": "本は私が買ったのです。",
+      "explanation": "This error occurs because English speakers often try to insert the copula 'desu' after the verb in the relative clause, thinking of 'is' as in 'the book that I bought is...' But in Japanese, the modifying clause ends with the plain form verb '買った' (katta), and the copula 'です' comes after the noun to complete the sentence. Another common error is placing the noun before the clause, but it must always come after the entire clause."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本の連体修飾（動詞）",
+        "translation": "Basic relative clauses with verbs",
+        "examples": [
+          {
+            "original": "昨日見た映画は面白かったです。",
+            "phonetic": "kinou mita eiga wa omoshirokatta desu",
+            "translation": "The movie I saw yesterday was interesting.",
+            "note": "The past tense verb '見た' (mita) modifies the noun '映画' (eiga)."
+          },
+          {
+            "original": "これは母が作ったケーキです。",
+            "phonetic": "kore wa haha ga tsukutta keeki desu",
+            "translation": "This is the cake my mother made.",
+            "note": "Subject particle 'が' marks '母' as the doer of the action in the relative clause."
+          },
+          {
+            "original": "日本語を勉強している人は多いです。",
+            "phonetic": "nihongo wo benkyou shite iru hito wa ooi desu",
+            "translation": "There are many people who are studying Japanese.",
+            "note": "The te-iru form indicates an ongoing action, modifying the noun."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "形容詞と名詞の連体修飾",
+        "translation": "Relative clauses with adjectives and nouns",
+        "examples": [
+          {
+            "original": "高いビルが見えます。",
+            "phonetic": "takai biru ga miemasu",
+            "translation": "I can see a tall building.",
+            "note": "The i-adjective '高い' directly modifies the noun 'ビル'."
+          },
+          {
+            "original": "静かな部屋が好きです。",
+            "phonetic": "shizuka na heya ga suki desu",
+            "translation": "I like a quiet room.",
+            "note": "Na-adjectives take 'な' before the noun."
+          },
+          {
+            "original": "これは日本語の本です。",
+            "phonetic": "kore wa nihongo no hon desu",
+            "translation": "This is a Japanese book.",
+            "note": "Noun '日本語' with particle 'の' modifies '本'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "複雑な関係節（場所・時・理由）",
+        "translation": "Complex relative clauses (place, time, reason)",
+        "examples": [
+          {
+            "original": "大阪で会った友達に会いました。",
+            "phonetic": "oosaka de atta tomodachi ni aimashita",
+            "translation": "I met a friend whom I had met in Osaka.",
+            "note": "The particle 'で' indicates the place of the action in the relative clause."
+          },
+          {
+            "original": "彼が来た時、私は外出していました。",
+            "phonetic": "kare ga kita toki, watashi wa gaishutsu shite imashita",
+            "translation": "When he came, I was out.",
+            "note": "The time noun '時' (toki) can be modified by a clause meaning 'the time when...'."
+          },
+          {
+            "original": "彼が遅刻した理由は分かりません。",
+            "phonetic": "kare ga chikoku shita riyuu wa wakarimasen",
+            "translation": "I don't know the reason why he was late.",
+            "note": "The noun '理由' (riyuu) can be modified by a clause meaning 'the reason that...'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "en": "Relative clauses (defining/non-defining)"
+    }
+  },
+  {
+    "id": "en_B1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "願望（過去の事実に反する願い） / Wish + Past (Wishes about Unreal Situations)",
+    "bridge": "In English, you use 'I wish' + past simple/past perfect to talk about unreal or regretted situations (e.g., 'I wish I had more time'). Japanese does not have a direct equivalent; instead, it uses the conditional form ～ばよかった or ～たらよかった to express regret or unreal desire. The key difference is that Japanese does not shift the tense of the verb in the subordinate clause, but instead adds a suffix to the verb stem. Also, Japanese often drops the subject, relying on context. Watch out for the particle が vs を – in Japanese, the thing you wish for is often marked with が if it's the subject of an adjective, or を if it's the direct object.",
+    "rule": "To express a wish about an unreal or regretted situation in Japanese, you typically use the past conditional form of the verb + よかった. For verbs: change to た-form, then add ら (e.g., 行ったら) or use ば-form (e.g., 行けば). Then add よかった (lit. 'was good'). So: 行ったらよかった (I wish I had gone) or 行けばよかった (I wish I had gone, more emphatic). For adjectives: use the past affirmative form + ら, e.g., 高かったらよかった (I wish it had been expensive). For nouns: use だったら, e.g., 学生だったらよかった (I wish I were a student). Note that よかった is the past form of いい (good), so it implies that the situation would have been good if it had been different. There is also ～ばいいのに (lit. 'if only it were') for wishes about present/future unreal situations, but for past regrets, use ～たらよかった/～ばよかった. In negative wishes, add なければよかった or なかったらよかった, e.g., 行かなければよかった (I wish I hadn't gone). Be careful: In English, 'I wish' can be followed by past continuous for annoying habits, but Japanese does not have an equivalent; use ～ばいいのに or ～てほしい for that.",
+    "concept_examples": [
+      {
+        "text": "あの時、もっと勉強したらよかった。",
+        "translation": "I wish I had studied more at that time.",
+        "phonetic": "/a.no to.ki mo.tto beɴ.kjoː ɕi.ta.ra jo.kat.ta/"
+      },
+      {
+        "text": "日本に行けたらよかったなあ。",
+        "translation": "I wish I could have gone to Japan.",
+        "phonetic": "/ni.hoɴ ni i.ke.ta.ra jo.kat.ta naː/"
+      },
+      {
+        "text": "あの映画を見なければよかった。",
+        "translation": "I wish I hadn't watched that movie.",
+        "phonetic": "/a.no eː.ga o mi.na.ke.re.ba jo.kat.ta/"
+      },
+      {
+        "text": "学生だったらよかったのに。",
+        "translation": "If only I had been a student.",
+        "phonetic": "/ɡa.ku.seː da.t.ta.ra jo.kat.ta no.ni/"
+      }
+    ],
+    "common_error": {
+      "wrong": "私はあの時もっと勉強することを願います。",
+      "correct": "あの時、もっと勉強したらよかった。",
+      "correct_alt": "あの時、もっと勉強すればよかった。",
+      "explanation": "English speakers often directly translate 'I wish' as 願う (negau), but 願う is used for prayers or formal wishes. For everyday regrets, Japanese uses the conditional + よかった. Also, they keep the tense as present (勉強する) instead of using the past conditional (したら). Remember: use the past form of the verb, add ら or ば, then よかった. And often you can drop the subject 'I' because it's understood from context."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "過去の後悔（〜たらよかった）",
+        "translation": "Past regrets (～たらよかった)",
+        "examples": [
+          {
+            "original": "あのレストランで食べたらよかった。",
+            "phonetic": "/a.no re.su.to.raɴ de ta.be.ta.ra jo.kat.ta/",
+            "translation": "I wish I had eaten at that restaurant.",
+            "note": "Uses verb 食べる (taberu) in た-form + ら + よかった. This is the most common pattern for past regret."
+          },
+          {
+            "original": "電話をしたらよかったのに。",
+            "phonetic": "/deɴ.wa o ɕi.ta.ra jo.kat.ta no.ni/",
+            "translation": "If only I had called (it would have been good).",
+            "note": "Adding のに (though) makes it sound more like 'it would have been better if...' – a mild complaint."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "バリエーション（〜ばよかった・否定）",
+        "translation": "Variations (～ばよかった and negatives)",
+        "examples": [
+          {
+            "original": "もっと早く起きればよかった。",
+            "phonetic": "/mot.to ha.ja.ku o.ki.re.ba jo.kat.ta/",
+            "translation": "I wish I had woken up earlier.",
+            "note": "Uses ば-form (起きれば) instead of たら. Both are acceptable; ば sounds slightly more formal or emphatic."
+          },
+          {
+            "original": "あの言葉を言わなければよかった。",
+            "phonetic": "/a.no ko.to.ba o i.wa.na.ke.re.ba jo.kat.ta/",
+            "translation": "I wish I hadn't said those words.",
+            "note": "Negative form: use the negative stem (言わない → 言わな) + ければよかった. This expresses regret about doing something."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "名詞・形容詞＋よかった",
+        "translation": "Nouns and adjectives + よかった",
+        "examples": [
+          {
+            "original": "先生だったらよかったのに。",
+            "phonetic": "/seɴ.seː da.t.ta.ra jo.kat.ta no.ni/",
+            "translation": "I wish I had been a teacher.",
+            "note": "For nouns, use だったら (past affirmative of copula). のに adds a nuance of 'but it's not so'."
+          },
+          {
+            "original": "その日は晴れだったらよかったな。",
+            "phonetic": "/so.no hi wa ha.re da.t.ta.ra jo.kat.ta na/",
+            "translation": "I wish it had been sunny that day.",
+            "note": "For na-adjectives/nouns, same pattern. The particle は marks the topic. な at the end is a colloquial softening."
+          }
+        ]
+      }
+    ],
+    "emoji": "😔",
+    "phonetic": "",
+    "translations": {
+      "en": "Wish + past (Wishes about unreal situations)"
+    }
+  },
+  {
+    "id": "en_B1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "過去の習慣（used to）",
+    "bridge": "In English, 'used to' expresses past habits or states that no longer occur, and its form stays the same for all subjects. Japanese has no direct equivalent, but it uses the past tense of verbs combined with ものだ or よく used in past sentences. A key trap is that English speakers often try to translate 'used to' as a specific word, but in Japanese you must rely on context and temporal expressions to show that the habit is no longer current.",
+    "rule": "To express past habits in Japanese, you typically use the past tense form of a verb, often accompanied by よく (often) or よく～したものだ (used to often do). The pattern ～たものだ is used to recall habitual actions or states in the past with a nostalgic nuance. Another pattern is ～ていたものだ, which emphasizes a repeated action over a period. For states (like 'used to be'), use ～だった (past of だ) or ～があった. To negate, use ～なかった and ～ものではなかった. Remember that Japanese does not inherently mark habitual vs. single past action; context and adverbs like よく, いつも, 毎日 provide the habitual meaning.",
+    "concept_examples": [
+      {
+        "text": "子供の頃、よく川で泳いだものだ。",
+        "translation": "When I was a child, I used to swim in the river often.",
+        "phonetic": "kodomo no koro, yoku kawa de oyoida mono da."
+      },
+      {
+        "text": "彼女は大学生の時、喫茶店でよく勉強していた。",
+        "translation": "When she was a university student, she used to study at cafes often.",
+        "phonetic": "kanojo wa daigakusei no toki, kissaten de yoku benkyou shiteita."
+      },
+      {
+        "text": "昔はここに大きな木があった。",
+        "translation": "There used to be a big tree here.",
+        "phonetic": "mukashi wa koko ni ookina ki ga atta."
+      },
+      {
+        "text": "若い頃は毎日ジョギングをしていたものだ。",
+        "translation": "When I was young, I used to go jogging every day.",
+        "phonetic": "wakai koro wa mainichi jogingu wo shiteita mono da."
+      }
+    ],
+    "common_error": {
+      "wrong": "子供の頃、泳ぎました。",
+      "correct": "子供の頃、よく泳いだものだ。",
+      "correct_alt": "子供の頃、よく泳いでいた。",
+      "explanation": "The error occurs because English speakers may use a simple past tense 'swam' (泳ぎました) to express a past habit, but without the habitual marker like よく or ものだ, it sounds like a single event, not a repeated past habit. Japanese uses the past tense with adverbs and ものだ to convey the 'used to' nuance. To avoid this, remember to add よく or いつも and use the past tense with ものだ for nostalgic recall."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本的な過去の習慣",
+        "translation": "Basic Past Habits",
+        "examples": [
+          {
+            "original": "毎朝コーヒーを飲んだ。",
+            "phonetic": "maiasa koohii wo nonda.",
+            "translation": "I drank coffee every morning. (past habit, context dependent)",
+            "note": "Simple past with 毎朝 (every morning) implies a habitual action, but without ものだ it's just a past routine."
+          },
+          {
+            "original": "よく友達と遊んだ。",
+            "phonetic": "yoku tomodachi to asonda.",
+            "translation": "I often played with friends.",
+            "note": "Using よく (often) signals habitual action in the past."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "～たものだ",
+        "translation": "Used to (Nostalgic)",
+        "examples": [
+          {
+            "original": "学生の頃、よく図書館で勉強したものだ。",
+            "phonetic": "gakusei no koro, yoku toshokan de benkyou shita mono da.",
+            "translation": "When I was a student, I used to study at the library often.",
+            "note": "Adding ものだ gives a nostalgic, reflective feel, similar to 'I used to...' in English."
+          },
+          {
+            "original": "昔はよく祖母の家に行ったものだ。",
+            "phonetic": "mukashi wa yoku sobo no ie ni itta mono da.",
+            "translation": "In the past, I used to go to my grandmother's house often.",
+            "note": "This pattern is often used for past memories that are no longer true."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "過去の状態と否定形",
+        "translation": "Past States and Negative Forms",
+        "examples": [
+          {
+            "original": "以前はここに公園があった。",
+            "phonetic": "izen wa koko ni kouen ga atta.",
+            "translation": "There used to be a park here.",
+            "note": "For past states, use あった (existed) to express 'there used to be'."
+          },
+          {
+            "original": "子供の頃はテレビを見なかった。",
+            "phonetic": "kodomo no koro wa terebi wo minakatta.",
+            "translation": "I didn't use to watch TV when I was a child.",
+            "note": "Negative past habit is formed with the past negative form of the verb, なかった."
+          },
+          {
+            "original": "昔はあまり肉を食べなかったものだ。",
+            "phonetic": "mukashi wa amari niku wo tabenakatta mono da.",
+            "translation": "In the past, I didn't use to eat much meat.",
+            "note": "Combining なかった with ものだ expresses a negative past habit with nostalgia."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕰️",
+    "phonetic": "",
+    "translations": {
+      "en": "Used to for past habits"
+    }
+  },
+  {
+    "id": "en_B1_gram_10",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "目的・原因・結果（para que, porque, así que） / Purpose, Cause, and Result",
+    "bridge": "In Spanish, we use conjunctions like 'para que', 'porque', and 'así que' to express purpose, cause, and result. In Japanese, these relationships are mainly marked with particles attached to the verb in te-form or dictionary form, and with the structure ～ので for cause and ～ように for purpose. The key difference is that Japanese does not use words equivalent to 'because' at the beginning of the sentence; instead, the particle goes at the end of the subordinate clause. Additionally, in Japanese, the verb expressing purpose must be in non-past (dictionary) or negative form, while for result, ～て is used. Be careful with the direct translation of 'because' → なぜなら, which is too formal and used only in written register or speeches.",
+    "rule": "To express purpose, use ように (so that, in order to) with verbs in dictionary or negative (ない形) form when the purpose is to avoid an action; ために (for, in order to) can also be used with nouns or verbs in dictionary form, but ために has a more concrete and less subjective nuance. For cause, use から (more subjective, emphasizes the reason) or ので (more objective, used in formal situations or to sound more polite). For result, use the て form (and so, therefore) or それで (that's why). In conversational register, から is also used after the て form to express colloquial cause: ～てから / ～から. The structures combine with the main clause at the end, following the SOV order. The particle から can be placed at the end of the sentence (～から) to give an explanation, equivalent to 'because' in Spanish. Common errors: using から in formal contexts where ので is expected, or literally translating 'para' as のため without a verb.",
+    "concept_examples": [
+      {
+        "text": "日本語が上手になるように、毎日勉強しています。",
+        "translation": "I study every day so that I can become good at Japanese.",
+        "phonetic": "[nʲihoŋɡo ɡa dʑoːzɯ ni naɾɯ joːnʲi, mainitɕi benkʲoː ɕite imasɯ]"
+      },
+      {
+        "text": "電車が遅れたので、遅刻しました。",
+        "translation": "I was late because the train was delayed.",
+        "phonetic": "[deɴɕa ɡa okɯɾeta no de, tɕikoɡɯ ɕimaɕita]"
+      },
+      {
+        "text": "この本はとても面白いから、読んでみてください。",
+        "translation": "This book is very interesting, so please read it.",
+        "phonetic": "[kono hon wa totemo omoɕiɾoi kaɾa, jonde mite kɯdasai]"
+      },
+      {
+        "text": "熱があるから、早く寝ます。",
+        "translation": "I have a fever, so I'll go to bed early.",
+        "phonetic": "[netsɯ ɡa aɾɯ kaɾa, hajakɯ nemasɯ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "熱があるのために、早く寝ます。",
+      "correct": "熱があるので、早く寝ます。",
+      "correct_alt": "熱があるから、早く寝ます。",
+      "explanation": "The error occurs because in Spanish we use 'porque' or 'debido a' interchangeably. In Japanese, ために is only used with nouns (e.g., 病気のために) or with verbs in dictionary form to express purpose, not for cause with a conjugated verb. For cause, use ので or から after the plain form of the verb. Avoid translating 'because' as ために; remember that ので is the safe option in formal contexts and から in casual conversation."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "原因・理由（から・ので）",
+        "translation": "Cause and reason (から・ので)",
+        "examples": [
+          {
+            "original": "雨が降っているから、傘を持って行きます。",
+            "phonetic": "[ame ɡa hutte iɾɯ kaɾa, kasa o motte ikimasɯ]",
+            "translation": "Since it's raining, I'll take an umbrella.",
+            "note": "から is used in colloquial language and emphasizes the speaker's personal reason."
+          },
+          {
+            "original": "時間がないので、急ぎましょう。",
+            "phonetic": "[ʑikaŋ ɡa nai no de, isogʲimaɕoː]",
+            "translation": "We don't have time, so let's hurry.",
+            "note": "ので is more objective and polite; it is preferable in formal situations or to give a reason without imposing one's opinion."
+          },
+          {
+            "original": "頭が痛いから、先に帰ってもいいですか？",
+            "phonetic": "[atama ɡa itai kaɾa, sakini kaetːe mo iː desɯ ka?]",
+            "translation": "Since I have a headache, may I go home early?",
+            "note": "から is also used to ask for permission by justifying the request."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "目的（ように・ために）",
+        "translation": "Purpose (ように・ために)",
+        "examples": [
+          {
+            "original": "漢字を覚えられるように、毎日練習します。",
+            "phonetic": "[kaɲdʑi o oboeɾaɾeɾɯ joːnʲi, mainitɕi ɾeɴɕɯː ɕimasɯ]",
+            "translation": "I practice every day so that I can remember the kanji.",
+            "note": "ように is used with potential verbs (～られる) or actions that do not depend entirely on will."
+          },
+          {
+            "original": "健康のために、毎日歩いています。",
+            "phonetic": "[kenkoː no tame nʲi, mainitɕi aɾuite imasɯ]",
+            "translation": "I walk every day for (my) health.",
+            "note": "ために is used with nouns (health) or verbs in dictionary form."
+          },
+          {
+            "original": "遅れないように、早めに家を出ます。",
+            "phonetic": "[okɯɾenai joːnʲi, hajame nʲi ie o demasɯ]",
+            "translation": "I leave home early so as not to be late.",
+            "note": "ように with negative form (ない形) indicates the purpose of avoiding something."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "結果（～て・それで）",
+        "translation": "Result (～て・それで)",
+        "examples": [
+          {
+            "original": "財布を忘れて、困りました。",
+            "phonetic": "[saipɯ o wasɯɾete, komarʲimaɕita]",
+            "translation": "I forgot my wallet, so I was in trouble.",
+            "note": "The て form connects two events; the second is the result of the first."
+          },
+          {
+            "original": "電車に乗り遅れて、遅刻した。",
+            "phonetic": "[deɴɕa nʲi noɾi okɯɾete, tɕikoɡɯ ɕita]",
+            "translation": "I missed the train, so I was late.",
+            "note": "In informal conversation, the particle に can be omitted after で in the second verb."
+          },
+          {
+            "original": "雨が降って、試合が中止になった。",
+            "phonetic": "[ame ɡa hutte, ɕiaːi ɡa tɕɯːɕi ni natːa]",
+            "translation": "It rained and the match was canceled.",
+            "note": "それで can be used at the beginning of the second sentence: 雨が降った。それで試合が中止になった。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🎯",
+    "phonetic": "",
+    "translations": {
+      "en": "Purpose, cause, and result"
+    }
+  },
+  {
+    "id": "en_B1_gram_11",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "動詞＋助詞の組み合わせ (Verb and particle combinations)",
+    "bridge": "In Spanish, phrasal verbs like 'dar cuenta de' or 'ponerse con' combine a verb with a preposition to change its meaning. In Japanese, this phenomenon is expressed through compound verbs: a verb in te-form followed by another auxiliary verb, or through the combination of a verb with particles that indicate direction, benefit, or aspect. The main difference is that in Spanish the preposition usually follows the verb, while in Japanese the elements that modify meaning are integrated into the structure of the compound verb itself. For a Spanish speaker, the challenge is to identify which particle or auxiliary verb is needed depending on the context, since there is not always a direct correspondence with Spanish prepositions.",
+    "rule": "In Japanese, the most common 'phrasal verbs' are formed in two main ways:\n\n1. **Verb in te-form + auxiliary verb**: This structure adds nuances of direction, benefit, emphasis, or aspect. The most frequent auxiliaries are:\n   - てみる (to try doing something)\n   - ておく (to do something in advance)\n   - てしまう (to express completion or regret)\n   - ていく (action that moves away or continues into the future)\n   - てくる (action that moves toward or continues up to now)\n   - てあげる/てくれる/てもらう (to indicate on whose behalf the action is performed)\n\n2. **Verb + particle (with extended meaning)**: Although particles like に, を, と, で have basic grammatical functions, when combined with certain verbs they create idiomatic meanings. For example, 気になる (to worry about something) cannot be deduced from 気 (spirit) + なる (to become). These combinations must be learned as complete lexical units.\n\n**Key rules:**\n- The te-form of the first verb is obtained through conjugation rules (te-form).\n- The auxiliary verb is conjugated according to tense, negation, or politeness, while the first verb remains in te-form.\n- Some combinations are so frequent that they are considered compound verbs and are sometimes written in kana (e.g., 食べてみる).\n- In colloquial speech, てしまう often contracts to ちゃう, and ておく to とく.\n\n**Special cases:**\n- With てあげる/くれる/もらう, the choice of auxiliary depends on who benefits whom and on the speaker's perspective, something that does not exist in Spanish.\n- With ていく/てくる, the direction can be literal (physical) or figurative (temporal).\n\n**Typical B1 usage:**\n- Expressing completed actions (てしまう), preparatory actions (ておく), trying something (てみる), and continuous actions over time (ていく/てくる).\n- Idiomatic combinations with 気 (気になる, 気をつける) and 手 (手に入れる, 手伝う) are common and should be memorized.",
+    "concept_examples": [
+      {
+        "text": "この本を読んでみます。",
+        "translation": "I'll try reading this book.",
+        "phonetic": "kono hon o yonde mimasu"
+      },
+      {
+        "text": "宿題をやってしまいました。",
+        "translation": "I finished my homework (and I feel a bit sorry that it's already done).",
+        "phonetic": "shukudai o yatte shimaimashita"
+      },
+      {
+        "text": "旅行の前に、チケットを予約しておきます。",
+        "translation": "Before the trip, I'll reserve the ticket in advance.",
+        "phonetic": "ryokou no mae ni, chiketto o yoyaku shite okimasu"
+      },
+      {
+        "text": "日本語の勉強を続けていきます。",
+        "translation": "I will continue studying Japanese (in the future).",
+        "phonetic": "nihongo no benkyou o tsuzukete ikimasu"
+      }
+    ],
+    "common_error": {
+      "wrong": "宿題をやってしまいました。",
+      "correct": "宿題をやってしまいました。",
+      "correct_alt": "宿題をやってしまいました。",
+      "explanation": "The typical error of a Spanish speaker is not in the formation of the structure, but in the excessive use of てしまう to simply indicate a completed action, without the nuance of regret or irreversibility. In Spanish, 'I finished my homework' is neutral, but in Japanese てしまう adds a nuance that can sound strange if there is no context. Another frequent confusion is using ておく when wanting to say 'do something in advance' but without understanding that it implies deliberate preparation. To avoid this, one must pay attention to the emotional and aspectual nuance that each auxiliary adds, and practice with contextualized examples."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "てみる (probar a hacer)",
+        "translation": "てみる (try doing)",
+        "examples": [
+          {
+            "original": "このケーキを食べてみてください。",
+            "phonetic": "kono keeki o tabete mite kudasai",
+            "translation": "Please try this cake.",
+            "note": "てみる is used to indicate doing something to see how it turns out."
+          },
+          {
+            "original": "京都に行ってみたいです。",
+            "phonetic": "kyouto ni itte mitai desu",
+            "translation": "I want to try going to Kyoto.",
+            "note": "The form てみたい expresses the desire to try something."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "てしまう (finalización o pesar)",
+        "translation": "てしまう (completion or regret)",
+        "examples": [
+          {
+            "original": "財布を忘れてしまいました。",
+            "phonetic": "saifu o wasurete shimaimashita",
+            "translation": "I forgot my wallet (I'm sorry).",
+            "note": "Expresses that an action has been completed with a nuance of lamentation."
+          },
+          {
+            "original": "この本を読んでしまった。",
+            "phonetic": "kono hon o yonde shimatta",
+            "translation": "I read the whole book (unintentionally, or all at once).",
+            "note": "In informal contexts, it can indicate that something was done in its entirety."
+          },
+          {
+            "original": "その問題はもう解決してしまったよ。",
+            "phonetic": "sono mondai wa mou kaiketsu shite shimatta yo",
+            "translation": "The problem has already been solved (and there's no going back).",
+            "note": "The use of よ adds emphasis."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "ておく / ていく・てくる (preparación y dirección)",
+        "translation": "ておく / ていく・てくる (preparation and direction)",
+        "examples": [
+          {
+            "original": "会議の前に資料をコピーしておきます。",
+            "phonetic": "kaigi no mae ni shiryou o kopii shite okimasu",
+            "translation": "Before the meeting, I'll make copies of the materials (in advance).",
+            "note": "ておく indicates doing something as preparation for the future."
+          },
+          {
+            "original": "日本で日本語を勉強していきます。",
+            "phonetic": "nihon de nihongo o benkyou shite ikimasu",
+            "translation": "I will study Japanese in Japan (and continue in the future).",
+            "note": "ていく indicates that the action continues toward the future."
+          },
+          {
+            "original": "段々と暖かくなってきました。",
+            "phonetic": "dandan to atatakaku natte kimashita",
+            "translation": "It has gradually become warmer (up to now).",
+            "note": "てくる indicates that the action has developed up to the present."
+          },
+          {
+            "original": "あしたまでにレポートを書いておきます。",
+            "phonetic": "ashita made ni repooto o kaite okimasu",
+            "translation": "I'll have the report written by tomorrow (as preparation).",
+            "note": "ておく is used for actions completed before a deadline."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "en": "Most common phrasal verbs"
+    }
+  },
+  {
+    "id": "en_B1_gram_12",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "数量詞の応用 / Advanced quantifiers",
+    "bridge": "In Spanish, we use quantifiers like 'casi nada', 'bastante' or 'un montón de' to express approximate quantities. In Japanese, the strategy is different: instead of independent words, nouns are combined with particles and adjectives/verbs that already imply quantity. For example, 'poco' is said 'sukoshi' but for 'casi nada' you use 'hotondo nai' (lit. 'there is almost none'), and for 'bastante' you use 'kanari' or 'zuibun'. A common mistake is to literally translate 'many books' as 'takusan hon', when the correct order is 'hon ga takusan' (the quantifier goes after the noun with the particle). Furthermore, in Japanese there is no direct equivalent to 'plenty of' or 'hardly any' with a single lexeme; constructions with adjectives and negative verbs are used.",
+    "rule": "In Japanese, advanced quantifiers are formed by combining adjectives (i-adjectives and na-adjectives), countable and uncountable nouns, and particles. The main ones are: 1) 'hotondo' (ほとんど) means 'almost' and is used with negation: 'hotondo nai' (there is almost none), 'hotondo shiranai' (I almost don't know). 2) 'kanari' (かなり) = 'quite', 'considerably', modifies verbs and adjectives: 'kanari takusan' (quite a lot), 'kanari ii' (quite good). 3) 'zuibun' (ずいぶん) = 'very much', often with a nuance of surprise: 'zuibun kakatte iru' (it takes a very long time). 4) 'tappuri' (たっぷり) = 'abundantly', 'plenty', used with time or physical quantity: 'tappuri aru' (there is plenty). 5) 'sukoshi dake' (少しだけ) = 'only a little' and 'sukoshi mo nai' (少しもない) = 'not at all'. For 'hardly any', use 'hotondo ... nai' with noun + particle ga/wa: 'hon ga hotondo nai' (there are hardly any books). For 'plenty of', use 'takusan aru' (there is a lot) or 'tappuri aru' (there is plenty). It is crucial to remember that the quantifier is placed after the noun it modifies when expressing quantity of something, and is accompanied by particles such as 'ga' (subject) or 'wa' (topic). In negative sentences, 'hotondo' reinforces the negation. For B1, master these structures and you will avoid transfer errors from Spanish.",
+    "concept_examples": [
+      {
+        "text": "時間はほとんどありません。",
+        "translation": "There is almost no time.",
+        "phonetic": "d͡ʑikaɴ wa hotondo aɾimasen."
+      },
+      {
+        "text": "彼はかなり日本語が上手です。",
+        "translation": "He is quite good at Japanese.",
+        "phonetic": "kaɾe wa kanaɾi nihongo ga d͡ʑoːzɯ desɯ."
+      },
+      {
+        "text": "お金はたっぷりあるよ。",
+        "translation": "There is plenty of money.",
+        "phonetic": "okane wa tapːɯɾi aɾɯ jo."
+      },
+      {
+        "text": "少しも眠れなかった。",
+        "translation": "I couldn't sleep at all.",
+        "phonetic": "sɯkoɕi mo nemɯɾe nakatta."
+      }
+    ],
+    "common_error": {
+      "wrong": "たくさん本を読みました。",
+      "correct": "本をたくさん読みました。",
+      "correct_alt": "本をたくさん読んだ。",
+      "explanation": "In Spanish, the quantifier usually goes before the noun ('many books'), but in Japanese, when expressing quantity of a direct object, the quantity word (like 'takusan') goes after the noun and before the verb. Saying 'たくさん本' sounds unnatural because 'takusan' functions as an adverb that modifies the action (read a lot) or as a predicate, not as a direct adjective. The correct structure is: object + particle (を) + quantity + verb. To avoid this, remember that in Japanese quantity is often expressed as an adverb or complement, not as a nominal modifier. On the other hand, if you say 'たくさんの本' (using の), it is correct, but it means 'many books' as a description, not as a quantity of reading."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "ほとんど (casi) ",
+        "translation": "Almost / hardly any",
+        "examples": [
+          {
+            "original": "ほとんどお金がない。",
+            "phonetic": "hotondo okane ga nai.",
+            "translation": "I have almost no money.",
+            "note": "Use 'hotondo' + noun + 'ga nai' to express 'almost no'. Remember that negation is necessary."
+          },
+          {
+            "original": "彼女はほとんど外国人に会ったことがない。",
+            "phonetic": "kanoʑo wa hotondo gaikokɯʑin ni atta koto ga nai.",
+            "translation": "She has almost never met foreigners.",
+            "note": "Here 'hotondo' modifies 'atta koto ga nai' (has not had the experience of meeting). It is a construction with 'koto ga aru' in negative."
+          },
+          {
+            "original": "ほとんど全部食べた。",
+            "phonetic": "hotondo zenbɯ tabeta.",
+            "translation": "I ate almost everything.",
+            "note": "Contrast: 'hotondo' can be used with 'zenbu' (all) to say 'almost all', but without negation. Pay attention to the nuance."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "かなり・ずいぶん (bastante)",
+        "translation": "Quite / considerably",
+        "examples": [
+          {
+            "original": "この本はかなり難しい。",
+            "phonetic": "kono hon wa kanaɾi muzɯkaɕiː.",
+            "translation": "This book is quite difficult.",
+            "note": "'Kanari' modifies adjectives. It is stronger than 'sukoshi' and a bit weaker than 'totemo' (very)."
+          },
+          {
+            "original": "ずいぶん待ったね。",
+            "phonetic": "d͡zɯibɯn matta ne.",
+            "translation": "We waited a very long time, didn't we?",
+            "note": "'Zuibun' has a nuance of exaggeration or surprise. It is often used in informal conversation."
+          },
+          {
+            "original": "かなりたくさん人が来た。",
+            "phonetic": "kanaɾi takɯsan hito ga kita.",
+            "translation": "Quite a lot of people came.",
+            "note": "Combine 'kanari' with 'takusan' to intensify the quantity. The order is: quantity adverb + quantity adjective."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "たっぷり・少しも (de sobra / nada en absoluto)",
+        "translation": "Plenty of / not at all",
+        "examples": [
+          {
+            "original": "時間はたっぷりあるから、急がなくていいよ。",
+            "phonetic": "d͡ʑikaɴ wa tapːɯɾi aɾɯ kaɾa, isoganakɯte ii jo.",
+            "translation": "There is plenty of time, so you don't have to hurry.",
+            "note": "'Tappuri' indicates physical or temporal abundance. It is used with 'aru' (to exist) and gives a sense of generosity."
+          },
+          {
+            "original": "彼は少しも謝らなかった。",
+            "phonetic": "kaɾe wa sɯkoɕi mo ajamɯɾa nakatta.",
+            "translation": "He didn't apologize at all.",
+            "note": "'Sukoshi mo + negative' is the way to express 'not at all'. It is emphatic and is placed before the negative form."
+          },
+          {
+            "original": "野菜をたっぷり食べてね。",
+            "phonetic": "jasai o tapːɯɾi tabete ne.",
+            "translation": "Eat plenty of vegetables, okay?",
+            "note": "Here 'tappuri' accompanies the verb 'taberu' (to eat) and means 'in large quantity'. It is common in advice."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced quantifiers"
+    }
+  },
+  {
+    "id": "en_B1_gram_13",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "動詞のパターン (Verb patterns: verb + infinitive / gerund)",
+    "bridge": "In Spanish we use infinitives and gerunds after certain verbs (for example, 'quiero comer', 'estoy comiendo'). In Japanese there is no infinitive or gerund; instead, conjugated verb forms are used that function similarly. For example, 'quiero comer' is expressed with the 'te' form + 'iru' (te-iru) for ongoing actions, or with the 'tai' form for desires. It is important to remember that Japanese has no direct equivalents to 'me gusta nadar' (verb + infinitive), but rather uses particles and specific structures such as 'koto' or 'no' to nominalize verbs, or conjugated forms like the 'te' form + 'miru' for 'to try to do'. The most common error is trying to literally translate the Spanish infinitive or gerund into Japanese, resulting in ungrammatical constructions.",
+    "rule": "In Japanese, verb patterns are divided into three main categories:\n1) Desire: To express 'want to do something', the 'tai' (たい) form is used on the verb stem in the masu form (e.g., 食べたい (tabetai) 'I want to eat'). You can also use 'tai to omou' (たいと思う) for 'I think I want'.\n2) Ongoing action: The 'te' form + 'iru' (ている) indicates an ongoing action or a resulting state (e.g., 食べている (tabete iru) 'I am eating'). This form is equivalent to the Spanish progressive gerund.\n3) Nominalization: To use a verb as a subject or object, it is nominalized with 'koto' (こと) or 'no' (の). For example, 'me gusta nadar' is said 泳ぐことが好きです (oyogu koto ga suki desu). Also, 'ni' + dictionary form verb is used to express purpose (e.g., 買いに行く (kai ni iku) 'to go shopping').\nAdditionally, there are patterns with the 'te' form + other auxiliary verbs like 'miru' (みる) for 'to try', 'oku' (おく) for 'to do something in advance', and 'aru' (ある) for resulting states. Unlike Spanish, there is no infinitive/gerund agreement; all verb subordinates require specific conjugations depending on their function.",
+    "concept_examples": [
+      {
+        "text": "週末は映画を見に行きます。",
+        "translation": "On the weekend I go to see a movie.",
+        "phonetic": "ʃɯːmatsɯ wa eiga o mi ni ikimasɯ. / shūmatsu wa eiga o mi ni ikimasu."
+      },
+      {
+        "text": "日本語を勉強することが好きです。",
+        "translation": "I like studying Japanese.",
+        "phonetic": "nihongo o benkyō sɯɾɯ koto ga sɯkʲi desɯ. / Nihongo o benkyō suru koto ga suki desu."
+      },
+      {
+        "text": "今、昼ご飯を食べています。",
+        "translation": "I am eating lunch now.",
+        "phonetic": "ima, hirugohan o tabete imasɯ. / Ima, hirugohan o tabete imasu."
+      },
+      {
+        "text": "日本に行きたかったら、パスポートを取ってください。",
+        "translation": "If you want to go to Japan, get a passport.",
+        "phonetic": "nihon ni ikitakattara, pasupōto o totte kudasai. / Nihon ni ikitakattara, pasupōto o totte kudasai."
+      }
+    ],
+    "common_error": {
+      "wrong": "私は食べるが好きです。",
+      "correct": "私は食べることが好きです。",
+      "correct_alt": "私は食べるのが好きです。",
+      "explanation": "The error comes from literally translating 'me gusta comer' using 'ga' directly after the dictionary form verb, but in Japanese you need to nominalize the verb with 'koto' or 'no' before using 'ga suki'. Without nominalization, the sentence is ungrammatical because 'suki' (like) requires a noun or a nominalized clause as the subject."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "動詞＋たい (Verbo + tai)",
+        "translation": "Verb + tai (desire)",
+        "examples": [
+          {
+            "original": "日本に行きたいです。",
+            "phonetic": "nihon ni ikitai desɯ. / Nihon ni ikitai desu.",
+            "translation": "I want to go to Japan.",
+            "note": "Use the 'masu' form of the verb 'iku' (行く) → 行き (iki) + 'tai' (たい). Omit the 'masu' and add 'tai'."
+          },
+          {
+            "original": "コーヒーを飲みたい。",
+            "phonetic": "kōhī o nomitai. / Kōhī o nomitai.",
+            "translation": "I want to drink coffee.",
+            "note": "It is informal. In formal contexts, 'desu' is added."
+          },
+          {
+            "original": "映画を見たくないです。",
+            "phonetic": "eiga o mitakunai desɯ. / Eiga o mitakunai desu.",
+            "translation": "I don't want to watch the movie.",
+            "note": "The negative of 'tai' is 'takunai' (たくない)."
+          },
+          {
+            "original": "何を食べたいですか。",
+            "phonetic": "nani o tabetai desɯka. / Nani o tabetai desu ka.",
+            "translation": "What do you want to eat?",
+            "note": "Use 'desu ka' to ask politely."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "動詞＋ている (Verbo + te iru)",
+        "translation": "Verb + te iru (progressive/state)",
+        "examples": [
+          {
+            "original": "今、手紙を書いています。",
+            "phonetic": "ima, tegami o kaite imasɯ. / Ima, tegami o kaite imasu.",
+            "translation": "I am writing a letter now.",
+            "note": "The 'te' form of 'kaku' (書く) is 'kaite' (書いて) + 'iru' (いる) → 'imasu' in polite form."
+          },
+          {
+            "original": "彼は結婚しています。",
+            "phonetic": "kare wa kekkon shite imasɯ. / Kare wa kekkon shite imasu.",
+            "translation": "He is married.",
+            "note": "Indicates a resulting state, not an ongoing action."
+          },
+          {
+            "original": "テレビを見ていますか。",
+            "phonetic": "terebi o mite imasɯka. / Terebi o mite imasu ka.",
+            "translation": "Are you watching TV?",
+            "note": "Interrogative use with 'ka'."
+          },
+          {
+            "original": "知っています。",
+            "phonetic": "shitte imasɯ. / Shitte imasu.",
+            "translation": "I know.",
+            "note": "The verb 'shiru' (to know) in 'te' form + 'iru' means 'to be in the state of knowing'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "動詞＋こと・の (Verbo + koto/no)",
+        "translation": "Verb + koto/no (nominalization)",
+        "examples": [
+          {
+            "original": "歌うことが好きです。",
+            "phonetic": "utau koto ga sɯkʲi desɯ. / Utau koto ga suki desu.",
+            "translation": "I like singing.",
+            "note": "'utau' (to sing) + 'koto' turns the action into a concept."
+          },
+          {
+            "original": "ピアノを弾くのが上手です。",
+            "phonetic": "piano o hiku no ga jōzɯ desɯ. / Piano o hiku no ga jōzu desu.",
+            "translation": "He is skillful at playing the piano.",
+            "note": "'no' is more colloquial than 'koto' and is also used for nominalization."
+          },
+          {
+            "original": "毎日勉強することが大切です。",
+            "phonetic": "mainichi benkyō sɯɾɯ koto ga taisetsɯ desɯ. / Mainichi benkyō suru koto ga taisetsu desu.",
+            "translation": "Studying every day is important.",
+            "note": "Use of 'koto' for the subject of the sentence."
+          },
+          {
+            "original": "私は走るのが速いです。",
+            "phonetic": "watashi wa hashiru no ga hayai desɯ. / Watashi wa hashiru no ga hayai desu.",
+            "translation": "I am fast at running.",
+            "note": "Use of 'no' to describe abilities."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "en": "Verb patterns: verb + infinitive / gerund"
+    }
+  },
+  {
+    "id": "en_B1_gram_14",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "冠詞の応用：無冠詞と総称 (Advanced use of articles: absence of article and generic use)",
+    "bridge": "In Spanish, articles (el, la, un, una) are mandatory in most cases, but in Japanese there are no definite or indefinite articles. This difference makes Spanish speakers tend to translate 'el', 'la', 'un', 'una' literally into Japanese, which is a mistake. In Japanese, the presence or absence of particles like は (wa) and が (ga) fulfills functions similar to articles, and context determines whether a noun is specific or generic. For example, 'the dog is an animal' is said 犬は動物です (Inu wa dōbutsu desu), where 犬 without an article refers to the class 'dog' in general.",
+    "rule": "In Japanese, there are no articles. To express the generic use of a noun (talking about the class or species in general), the noun is used without any determiner, followed by the topic particle は (wa). To indicate a specific object, context and the particles は/が determine it, but there is no direct equivalent of 'el/la' or 'un/una'. When in Spanish we use 'un/una' to introduce something new, in Japanese often only the noun with が (ga) is used in presentative sentences (e.g., 猫がいます - there is a cat). For the generic plural, the singular without an article is used (e.g., 犬は好き - I like dogs). Exception: suffixes like たち can indicate plural, but they are not necessary for generic use. The particle は introduces the topic, which can be specific (the dog we already know) or generic (dogs in general), depending on context.",
+    "concept_examples": [
+      {
+        "text": "犬は人間の友達です。",
+        "translation": "The dog (in general) is a friend of humans.",
+        "phonetic": "inu wa ningen no tomodachi desu"
+      },
+      {
+        "text": "猫が好きです。",
+        "translation": "I like cats (in general, not a specific one).",
+        "phonetic": "neko ga suki desu"
+      },
+      {
+        "text": "昨日、本を買いました。",
+        "translation": "Yesterday I bought a book (specific, but without needing an article).",
+        "phonetic": "kinō hon o kaimashita"
+      },
+      {
+        "text": "魚は泳ぎます。",
+        "translation": "Fish swim (using the singular without article for the class).",
+        "phonetic": "sakana wa oyogimasu"
+      }
+    ],
+    "common_error": {
+      "wrong": "*一匹の犬は動物です。",
+      "correct": "犬は動物です。",
+      "correct_alt": "",
+      "explanation": "The error comes from translating 'a dog' as 一匹の犬 (ippiki no inu), which indicates a specific or counted dog. For generic use, the counter and article must be omitted. Saying 'a dog is an animal' in Japanese requires simply 犬は動物です (Inu wa dōbutsu desu), where 犬 represents the class 'dog' in general. Avoid adding counters (一匹) or particles like の when the context is generic."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "無冠詞の基本",
+        "translation": "Basics of the absence of article",
+        "examples": [
+          {
+            "original": "これは本です。",
+            "phonetic": "kore wa hon desu",
+            "translation": "This is a book.",
+            "note": "In Japanese, 'a' or 'the' is not indicated; context and the particle は mark the topic."
+          },
+          {
+            "original": "水を飲みたい。",
+            "phonetic": "mizu o nomitai",
+            "translation": "I want to drink water (not 'a water').",
+            "note": "Uncountable nouns like 'water' do not take any article, just as in Spanish in some cases, but here it is mandatory to omit it."
+          },
+          {
+            "original": "学校に行きます。",
+            "phonetic": "gakkō ni ikimasu",
+            "translation": "I go to school (not 'to a school').",
+            "note": "Places like 'school' do not need an article; context decides whether it is specific or generic."
+          },
+          {
+            "original": "私は学生です。",
+            "phonetic": "watashi wa gakusei desu",
+            "translation": "I am a student (not 'a student').",
+            "note": "In nominal predicates, no indefinite article is used to describe professions or states."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "総称の使い方",
+        "translation": "Generic use",
+        "examples": [
+          {
+            "original": "鳥は空を飛びます。",
+            "phonetic": "tori wa sora o tobimasu",
+            "translation": "Birds fly in the sky (all birds, as a class).",
+            "note": "The construction [noun] + は is used to talk about the entire class, without an article."
+          },
+          {
+            "original": "車は便利です。",
+            "phonetic": "kuruma wa benri desu",
+            "translation": "Cars are useful (in general).",
+            "note": "Here 'cars' refers to the category, not a particular car; in Spanish we also sometimes use 'the' generically, but in Japanese it is always without an article."
+          },
+          {
+            "original": "花は美しいです。",
+            "phonetic": "hana wa utsukushii desu",
+            "translation": "Flowers are beautiful (as a class).",
+            "note": "The singular without an article is used to represent the whole group."
+          },
+          {
+            "original": "私はお茶が好きです。",
+            "phonetic": "watashi wa ocha ga suki desu",
+            "translation": "I like tea (in general).",
+            "note": "The verb 'to like' in Japanese uses the object with が, and the noun does not take an article."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "特定と総称の区別",
+        "translation": "Distinction between specific and generic",
+        "examples": [
+          {
+            "original": "犬は吠えます。",
+            "phonetic": "inu wa hoemasu",
+            "translation": "Dogs bark (in general).",
+            "note": "The use of は with a noun without an article indicates the general property of the class."
+          },
+          {
+            "original": "その犬は吠えます。",
+            "phonetic": "sono inu wa hoemasu",
+            "translation": "That dog (specific) barks.",
+            "note": "To specify, the demonstrative adjective その (that) is used before the noun, not an article."
+          },
+          {
+            "original": "本は面白いです。",
+            "phonetic": "hon wa omoshiroi desu",
+            "translation": "Books are interesting (general).",
+            "note": "Without context, this sentence is understood as generic; if specific is intended, この/その/あの is added."
+          },
+          {
+            "original": "この本は面白いです。",
+            "phonetic": "kono hon wa omoshiroi desu",
+            "translation": "This book (specific) is interesting.",
+            "note": "The use of この (this) + noun is the way to mark a concrete object, without needing an article."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced articles: absence of article and generic use"
+    }
+  }
+]

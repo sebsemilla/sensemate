@@ -1,0 +1,1389 @@
+[
+  {
+    "id": "ja_B2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Condicionales mixtos (混合条件文)",
+    "bridge": "英語とスペイン語の両方に、'if'節がある時制で、結果節が別の時制である混合条件文が存在します。しかし、スペイン語では'if'節に不完全接続法（-ra形）を使用しますが、英語ではしばしば過去完了形を使用します。重要な落とし穴は、スペイン語では非現実の現在の結果には単純条件法（例：'haría'）を使用し、非現実の過去の結果には条件完了法（例：'habría hecho'）を使用することです。英語ではこれらの区別が曖昧になることがあります。また、スペイン語では'si'を省略するために'if'節で主語と動詞を倒置することができますが、英語にはこの構造がありません。",
+    "rule": "スペイン語の混合条件文（B2）は、不完全接続法の'si'節（過去または現在を指す）と条件法の結果節（単純または完了）を組み合わせて、時間枠をまたぐ仮定の状況を表現します。形式：1) Si + 不完全接続法（過去の行動）→ 単純条件法（現在の結果）：'Si hubiera estudiado, estaría tranquilo.' 2) Si + 不完全接続法（現在の状態）→ 条件完了法（過去の結果）：'Si fuera listo, habría llamado.' 3) 'si'なしの倒置条件文：'Hubiera estudiado, estaría tranquilo'（形式的/文語的）。注意：-ra接続法が標準です；-se形も正しいですが文語的です。'como si'（まるで〜のように）と共に使う場合も接続法が必要です：'habla como si supiera todo.' 事実に反する場合、'si'節で直説法を使うのは避けてください。",
+    "concept_examples": [
+      {
+        "text": "Si hubiera venido, estaría contenta.",
+        "translation": "もし彼が来ていたら、彼女は幸せだろう。",
+        "phonetic": "/si uˈβjera ˈβenido esˈtarja konˈtenta/"
+      },
+      {
+        "text": "Si fuera rico, habría comprado un coche.",
+        "translation": "もし彼が金持ちだったら、車を買っていただろう。",
+        "phonetic": "/si ˈfweɾa ˈriko aˈβɾia komˈpɾado un ˈkotʃe/"
+      },
+      {
+        "text": "Habría venido, si me hubieras avisado.",
+        "translation": "もし彼に警告していたら、彼は来ていただろう。",
+        "phonetic": "/aˈβɾia βeˈnido si me uˈβjeɾas aβiˈsaðo/"
+      },
+      {
+        "text": "Si tuviera tiempo, lo haría mañana.",
+        "translation": "もし時間があれば、明日それをやるだろう。",
+        "phonetic": "/si tuˈβjeɾa ˈtjempo lo aˈɾia maˈɲana/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Si tendría tiempo, iría.",
+      "correct": "Si tuviera tiempo, iría.",
+      "correct_alt": "Si tuviese tiempo, iría.",
+      "explanation": "英語話者は、英語の非公式な会話で'if I would have...'が許容されるため、'if'節で条件法（'would'）を使うことがよくあります。スペイン語では、'si'節は不完全接続法（または過去完了接続法）を使わなければならず、決して条件法を使ってはいけません。仮定を表す'si'の後には常に接続法を使います。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Condicional mixto pasado → presente",
+        "translation": "混合条件文 過去 → 現在",
+        "examples": [
+          {
+            "original": "Si hubiera dormido más, tendría energía.",
+            "phonetic": "/si uˈβjeɾa doɾˈmiðo mas ˈtenðɾia eneɾˈxia/",
+            "translation": "もっと眠っていたら、エネルギーがあるだろう。",
+            "note": "過去の非現実条件（hubiera dormido）と現在の結果（tendría）。"
+          },
+          {
+            "original": "Si no hubiera llovido, estaríamos en la playa.",
+            "phonetic": "/si no uˈβjeɾa ʎoˈβiðo estaˈɾiamos en la ˈplaʝa/",
+            "translation": "雨が降っていなかったら、私たちはビーチにいるだろう。",
+            "note": "結果動詞はestaríamos（単純条件法）で、現在を指していることに注意。"
+          },
+          {
+            "original": "Si hubieras estudiado, sabrías la respuesta.",
+            "phonetic": "/si uˈβjeɾas estuˈðjaðo saˈβɾias la resˈpwesta/",
+            "translation": "もし勉強していたら、答えを知っているだろう。",
+            "note": "英語と対照的：英語では両方の節が過去完了形ですが、スペイン語では過去接続法＋単純条件法を使います。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Condicional mixto presente → pasado",
+        "translation": "混合条件文 現在 → 過去",
+        "examples": [
+          {
+            "original": "Si fuera más valiente, lo habría hecho.",
+            "phonetic": "/si ˈfweɾa mas βaˈljen.te lo aˈβɾia ˈetʃo/",
+            "translation": "もし彼がもっと勇敢だったら、それをしていただろう。",
+            "note": "'if'節は現在の状態を表す不完全接続法（fuera）を使い、結果節は過去の行動を表す条件完了法（habría hecho）を使います。"
+          },
+          {
+            "original": "Si no me gustara el café, no habría tomado uno.",
+            "phonetic": "/si no me ɣusˈtaɾa el kaˈfe no aˈβɾia toˈmaðo ˈuno/",
+            "translation": "もしコーヒーが好きでなかったら、一杯飲まなかっただろう。",
+            "note": "これは現在の状態が過去の決定に影響を与えることを表します。"
+          },
+          {
+            "original": "Si fuera tan inteligente, habría ganado el premio.",
+            "phonetic": "/si ˈfweɾa tan inteleˈxente aˈβɾia ɣaˈnaðo el ˈpɾemjo/",
+            "translation": "もし彼がそれほど賢かったら、賞を勝ち取っていただろう。",
+            "note": "語順に注意：'si'節では接続法、結果節では条件完了法。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Inversión sin 'si'",
+        "translation": "'si'なしの倒置",
+        "examples": [
+          {
+            "original": "Hubiera sabido, te habría llamado.",
+            "phonetic": "/uˈβjeɾa saˈβiðo te aˈβɾia ʎaˈmaðo/",
+            "translation": "知っていたら、あなたに電話していただろう。",
+            "note": "形式的/文語的なスペイン語では、'si'を省略して接続法で倒置することができます。英語の'had'を使った倒置と似ています。"
+          },
+          {
+            "original": "Tuviera dinero, viajaría más.",
+            "phonetic": "/tuˈβjeɾa diˈneɾo βjaxaˈɾia mas/",
+            "translation": "お金があったら、もっと旅行するだろう。",
+            "note": "この倒置は会話ではまれですが、文章では一般的で、条件を強調します。"
+          },
+          {
+            "original": "Hubieras venido, te habrías divertido.",
+            "phonetic": "/uˈβjeɾas βeˈnido te aˈβɾias dibeɾˈtiðo/",
+            "translation": "来ていたら、楽しんでいただろう。",
+            "note": "結果節も条件完了法を使っており、時間枠が一致していることに注意。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "ja": "高度な条件文（混合条件文）"
+    }
+  },
+  {
+    "id": "ja_B2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Voz pasiva avanzada / 高度な受動態",
+    "bridge": "英語では、モーダル動詞を使った受動態（例：「The report must be submitted」）や、動名詞・不定詞を使った受動態（例：「He avoids being seen」）をよく使います。スペイン語も同様ですが、重要な落とし穴は、スペイン語では特に無生物主語の場合、「ser + 過去分詞」よりも「se」を使った受動態（受動再帰構文）を好むことです。また、英語では動作主に「by」を使いますが、スペイン語では「por」を使います。ただし、動作主が人や動物の場合は「por」を使い、「de」は使いません。例：「He was loved by his mother」→「Fue amado por su madre」。もう一つの落とし穴：前置詞の後では、動名詞ではなく不定詞を使う必要があります。つまり、「He is interested in being invited」は「Él está interesado en ser invitado」となり、「en siendo invitado」とはなりません。",
+    "rule": "スペイン語の受動態には、ニュアンスの異なる2つの主要な形式があります。「ser + 過去分詞」の受動態（迂言受動態）は、すべての時制で使用でき、モーダル動詞（例：「debe ser hecho」=「must be done」、「puede ser visto」=「can be seen」）や助動詞の動名詞形（例：「está siendo construido」=「is being built」）を含めることができます。前置詞の後では、動名詞ではなく受動不定詞（例：「ser visto」、「ser hecho」）が使用されます。過去分詞は主語の性と数に一致させる必要があります。動作主は「por」で導入されます（人や動物の場合は「de」は使わない）。「de」は感情や描写を表す特定の動詞にのみ使用できます（例：「Era querido de todos」- あまり一般的ではない）。「se」を使った受動再帰構文は、無生物主語で非常に一般的であり、特に動作主を明示しない場合に使用されます（例：「Se habla español」=「Spanish is spoken」）。B2レベルでは、モーダル動詞の後には受動不定詞が続くことを理解してください：「debe ser」、「puede ser」、「tiene que ser」など。また、受動不定詞を含む従属節では、「ser + 過去分詞」を使用します。例：「El problema puede ser resuelto」（The problem can be solved）。",
+    "concept_examples": [
+      {
+        "text": "El proyecto debe ser terminado antes del lunes.",
+        "translation": "プロジェクトは月曜日までに終了しなければならない。",
+        "phonetic": "el pɾoˈxekto ˈdeβe seɾ teɾmiˈnaðo ˈantes ðel ˈlunes/"
+      },
+      {
+        "text": "Está siendo investigado por la policía.",
+        "translation": "彼は警察によって調査されている。",
+        "phonetic": "esˈta ˈsjendo iŋβestiˈɣaðo poɾ la poliˈsi.a/"
+      },
+      {
+        "text": "Los documentos pueden ser firmados digitalmente.",
+        "translation": "書類はデジタルで署名することができる。",
+        "phonetic": "los ðokuˈmentos ˈpweden seɾ fiɾˈmaðos ðiɣiˈtalmente/"
+      },
+      {
+        "text": "Ella está interesada en ser invitada a la boda.",
+        "translation": "彼女は結婚式に招待されることに興味がある。",
+        "phonetic": "ˈeʝa esˈta inteɾeˈsaða en seɾ imbiˈtaða a la ˈboða/"
+      }
+    ],
+    "common_error": {
+      "wrong": "El informe es siendo revisado por el jefe.",
+      "correct": "El informe está siendo revisado por el jefe.",
+      "correct_alt": "El informe es revisado por el jefe.",
+      "explanation": "英語話者は、現在進行形の受動態「is being + 過去分詞」をそのまま「es siendo」と移し替えることがよくありますが、スペイン語では進行形の受動態は「estar + siendo + 過去分詞」で形成され、「ser」ではありません。「Ser」は単純な状態を表すのに使われ、進行中の動作には使いません。進行中の動作を示すには常に「estar」を使用してください。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Pasiva con modales",
+        "translation": "モーダル動詞を伴う受動態",
+        "examples": [
+          {
+            "original": "La tarea debe ser entregada hoy.",
+            "phonetic": "la taˈɾea ˈdeβe seɾ entɾeˈɣaða ˈoi/",
+            "translation": "宿題は今日提出しなければならない。",
+            "note": "モーダル動詞「debe」+ 不定詞「ser」+ 過去分詞。過去分詞は主語「tarea」（女性）に一致します。"
+          },
+          {
+            "original": "Ese problema puede ser resuelto fácilmente.",
+            "phonetic": "ˈese pɾoˈβlema ˈpweðe seɾ reˈswelto faˈsilmente/",
+            "translation": "その問題は簡単に解決できます。",
+            "note": "モーダル動詞「puede」+ 受動不定詞。「Problema」は男性名詞なので、過去分詞は -o で終わります。"
+          },
+          {
+            "original": "Los resultados tienen que ser publicados en la web.",
+            "phonetic": "los resulˈtaðos ˈtjenen ke seɾ puβliˈkaðos en la ˈweβ/",
+            "translation": "結果はウェブに公開されなければならない。",
+            "note": "「tener que」+ 不定詞。複数男性の過去分詞「publicados」。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pasiva continua con 'estar'",
+        "translation": "「estar」を使った進行形の受動態",
+        "examples": [
+          {
+            "original": "El puente está siendo reparado.",
+            "phonetic": "el ˈpwente esˈta ˈsjendo repaˈɾaðo/",
+            "translation": "橋は修理されています。",
+            "note": "進行中の動作を表すには「estar」+「siendo」+ 過去分詞を使用します。「Ser」は完了した状態を意味します。"
+          },
+          {
+            "original": "Las casas están siendo construidas muy rápido.",
+            "phonetic": "las ˈkasas esˈtan ˈsjendo konsˈtɾwiðas ˈmui ˈrapiðo/",
+            "translation": "家々は非常に速く建設されています。",
+            "note": "複数女性名詞「casas」には過去分詞「construidas」が必要です。"
+          },
+          {
+            "original": "La película está siendo grabada en Madrid.",
+            "phonetic": "la peˈlikula esˈta ˈsjendo ɡɾaˈβaða en maˈðɾið/",
+            "translation": "映画はマドリードで撮影されています。",
+            "note": "「grabar」は「撮影する」という意味です。進行形の受動態はプロセスを強調します。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Infinitivo pasivo tras preposiciones",
+        "translation": "前置詞の後の受動不定詞",
+        "examples": [
+          {
+            "original": "Está cansado de ser criticado por su jefe.",
+            "phonetic": "esˈta kanˈsaðo de seɾ kɾitiˈkaðo poɾ su ˈxefe/",
+            "translation": "彼は上司から批判されることにうんざりしている。",
+            "note": "前置詞「de」の後は、不定詞「ser」+ 過去分詞を使用します。動名詞「siendo」は使わないでください。"
+          },
+          {
+            "original": "Me interesé en ser elegido para el puesto.",
+            "phonetic": "me inteɾeˈse en seɾ eleˈxiðo ˈpaɾa el ˈpwesto/",
+            "translation": "私はそのポジションに選ばれることに興味を持った。",
+            "note": "「en」の後は不定詞「ser」が必要です。英語では動名詞「being chosen」を使います。"
+          },
+          {
+            "original": "No hay razón para ser preocupado por eso.",
+            "phonetic": "no ai raˈson ˈpaɾa seɾ pɾeokuˈpaðo poɾ ˈeso/",
+            "translation": "そのことで心配する理由はありません。",
+            "note": "「para」の後の不定詞。スペイン語では「preocupado」は過去分詞としてここで機能します。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "ja": "高度な受動態"
+    }
+  },
+  {
+    "id": "ja_B2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Estilo indirecto avanzado / 高度な間接話法",
+    "bridge": "英語では、時制を一つ戻し（例：「I am」は「she was」になる）、代名詞や時間表現を調整します。スペイン語も同様ですが、追加の複雑さがあります：（1）特に「pedir」や「recomendar」のような動詞の後で接続法がよく使われますが、これは英語では稀です；（2）スペイン語では、報告動詞が現在形または未来形の場合、元の時制を保つことがあります。英語も同様ですが、制約が異なります；（3）語順と「que」の使用はスペイン語でより固定的であり、代名詞の配置（接語）は英語話者をつまずかせることがあります。最大の落とし穴は、単純過去で十分なところで過去完了条件法（「habría dicho」）を使いすぎること、または命令に対して「decir que」を「pedir que」＋接続法に変えるのを忘れることです。",
+    "rule": "高度な間接話法（estilo indirecto）では、誰かが言ったこと、尋ねたこと、命令したことを報告します。報告動詞が過去形（例：「dijo」、「preguntó」）の場合、通常、元の発言の動詞を一段階戻します：現在直説法→線過去、現在完了→大過去、未来→条件法、条件法→過去完了接続法。ただし、報告された情報がまだ真実であるか習慣的である場合、現在形を保つことができます（例：「Dijo que vive en Madrid」—彼はマドリードに住んでいると言った）。命令の場合、「pedir/decir que」＋接続法を使用します（例：「Me pidió que hablara más despacio」）。質問の場合、元のムードに応じて「preguntar si」＋直説法または接続法を使用します。時間と場所の表現はシフトします：「hoy」→「ese día」、「ayer」→「el día anterior」、「mañana」→「el día siguiente」、「aquí」→「allí」。直接目的語代名詞（me、te、le）は新しい主語と一致する必要があります。例外：報告動詞が現在形または未来形の場合、通常は元の時制が保たれます；元の動詞が接続法の場合、多くの場合接続法のままで、時制のみがシフトすることがあります。",
+    "concept_examples": [
+      {
+        "text": "Dijo que iba a llegar tarde.",
+        "translation": "彼は遅れて到着するつもりだと言った。",
+        "phonetic": "[ˈdi.xo ke ˈi.βa a ʝeˈɣar ˈtar.de]"
+      },
+      {
+        "text": "Me preguntó si había terminado el informe.",
+        "translation": "彼女は私にレポートを終えたかどうか尋ねた。",
+        "phonetic": "[me pɾe.ɣunˈto si aˈβi.a teɾ.miˈna.do el iɱˈfoɾ.me]"
+      },
+      {
+        "text": "El jefe pidió que todos vinieran a la reunión.",
+        "translation": "上司は全員が会議に来るように求めた。",
+        "phonetic": "[el ˈxe.fe piˈðjo ke ˈto.ðos biˈne.ɾan a la rewˈnjon]"
+      },
+      {
+        "text": "Comentó que hoy tenía que estudiar.",
+        "translation": "彼は今日勉強しなければならないとコメントした。",
+        "phonetic": "[ko.menˈto ke oj teˈni.a ke es.tuˈðjaɾ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Dijo que está cansado ayer.",
+      "correct": "Dijo que estaba cansado ayer.",
+      "correct_alt": "Dijo que había estado cansado ayer.",
+      "explanation": "英語では、「He said he is tired yesterday」と言うのは間違いで、「is」を「was」にシフトしなければなりません。スペイン語も、報告動詞が過去形（dijo）の場合、同じ規則に従います。「está」を保つことは過去の文脈と一致しません。正しい形「estaba」は現在形を線過去にシフトします。代替の「había estado」（大過去）は、疲れが話す時点より前に終わっていたことを意味し、典型的ではありません。このエラーを避けるには、常に報告動詞の時制を確認してください：それが過去形の場合、陳述が時代を超越していない限り（例：「Dijo que la tierra es redonda」）、報告された動詞をそれに応じてシフトします。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Cambios de tiempo verbal",
+        "translation": "動詞の時制のシフト",
+        "examples": [
+          {
+            "original": "Dijo: 'Voy al cine.' → Dijo que iba al cine.",
+            "phonetic": "[ˈdi.xo ke ˈi.βa al ˈsi.ne]",
+            "translation": "彼は「映画に行く」と言った。→ 彼は映画に行くと言った。",
+            "note": "報告動詞「dijo」が点過去なので、現在形「voy」は線過去「iba」にシフトします。"
+          },
+          {
+            "original": "Anunció: 'He terminado.' → Anunció que había terminado.",
+            "phonetic": "[a.nunˈsjo ke aˈβi.a teɾ.miˈna.ðo]",
+            "translation": "彼は「終わった」と発表した。→ 彼は終わったと発表した。",
+            "note": "現在完了「he terminado」は大過去「había terminado」になります。"
+          },
+          {
+            "original": "Prometió: 'Te llamaré.' → Prometió que me llamaría.",
+            "phonetic": "[pɾo.meˈtjo ke me ʝa.maˈɾi.a]",
+            "translation": "彼は「君に電話する」と約束した。→ 彼は私に電話すると約束した。",
+            "note": "未来形「llamaré」は条件法「llamaría」にシフトします。視点の変更により代名詞が「te」から「me」に変わることに注意。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Peticiones y mandatos",
+        "translation": "依頼と命令",
+        "examples": [
+          {
+            "original": "Me dijo: 'Abre la ventana.' → Me dijo que abriera la ventana.",
+            "phonetic": "[me ˈdi.xo ke aˈβɾje.ɾa la βenˈta.na]",
+            "translation": "彼は私に「窓を開けて」と言った。→ 彼は私に窓を開けるように言った。",
+            "note": "直接命令は命令法を使用しますが、間接話法では「que」＋線過去接続法（abriera）を使用します。"
+          },
+          {
+            "original": "El maestro pidió: 'Estudien para el examen.' → El maestro pidió que estudiaran para el examen.",
+            "phonetic": "[el maˈes.tɾo piˈðjo ke es.tuˈðja.ɾan pa.ɾa el ekˈsa.men]",
+            "translation": "先生は「試験のために勉強しなさい」と求めた。→ 先生は彼らが試験のために勉強するように求めた。",
+            "note": "動詞「pedir」は従属節で接続法を引き起こします。"
+          },
+          {
+            "original": "Su padre le recomendó: 'No conduzcas rápido.' → Su padre le recomendó que no condujera rápido.",
+            "phonetic": "[su ˈpa.ðɾe le re.ko.menˈdo ke no kon.duˈxe.ɾa ˈra.pi.ðo]",
+            "translation": "彼の父親は彼に「速く運転するな」と助言した。→ 彼の父親は彼に速く運転しないように助言した。",
+            "note": "間接話法での否定命令には「que no」＋線過去接続法を使用します。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Preguntas y expresiones de tiempo",
+        "translation": "質問と時間表現",
+        "examples": [
+          {
+            "original": "Preguntó: '¿Dónde está la estación?' → Preguntó dónde estaba la estación.",
+            "phonetic": "[pɾe.ɣunˈto ˈdon.de esˈta.βa la es.taˈsjon]",
+            "translation": "彼は「駅はどこですか？」と尋ねた。→ 彼は駅がどこにあるか尋ねた。",
+            "note": "疑問詞を使った質問は疑問詞を保持しますが、語順を平叙文に変え、時制をシフトします。"
+          },
+          {
+            "original": "Su madre le preguntó: '¿Has comido?' → Su madre le preguntó si había comido.",
+            "phonetic": "[su ˈma.ðɾe le pɾe.ɣunˈto si aˈβi.a koˈmi.ðo]",
+            "translation": "彼の母親は彼に「食べた？」と尋ねた。→ 彼の母親は彼に食べたかどうか尋ねた。",
+            "note": "はい・いいえの質問は「si」（かどうか）を使用し、現在完了から大過去にシフトします。"
+          },
+          {
+            "original": "Dijo: 'Vengo mañana.' → Dijo que vendría al día siguiente.",
+            "phonetic": "[ˈdi.xo ke βenˈdɾi.a al ˈdi.a siˈɣjen.te]",
+            "translation": "彼は「明日来る」と言った。→ 彼は翌日に来ると言った。",
+            "note": "時間表現がシフトします：「mañana」は「al día siguiente」（翌日）になります。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "ja": "高度な間接話法"
+    }
+  },
+  {
+    "id": "ja_B2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Inversión para énfasis (強調のための倒置)",
+    "bridge": "英語では、特定の否定副詞や制限副詞の後に倒置を使って強調します。「Not only did she apologize, but she also explained.」のように。スペイン語では構造が異なります。副詞を文頭に置き、動詞と主語を続けますが、スペイン語には助動詞「did」がありません。そのため、主語と活用動詞を直接倒置します。「No solo se disculpó, sino que también explicó.」のように。よくある間違いは、「not only」を文字通り「no solamente」と訳して活用を忘れたり、副詞の順序を間違えたりすることです。また、スペイン語では「rarely」（raramente）の後の倒置は英語ほど一般的ではなく、通常の語順でも構いませんが、倒置はより形式的になります。",
+    "rule": "スペイン語で否定副詞や制限副詞を強調するには、副詞を文頭に置き、その後に活用動詞、そして主語を続けます。複合時制や助動詞がある場合は、助動詞が最初に来ます。よく使われる副詞は、「no solo」（だけでなく）、「raramente」（めったに）、「apenas」（ほとんど〜ない）、「nunca」（決して〜ない）、「en ninguna parte」（どこにも〜ない）などです。構造は、副詞＋活用動詞＋主語＋（残り）です。例：「No solo llegó tarde, sino que también se fue temprano」（彼は遅れて来ただけでなく、早く去った）。「no solo... sino que」の後では、第二節は倒置しないことに注意してください。「nunca」や「jamás」のような否定表現では、倒置は任意ですが強調のために一般的です。「Nunca había visto algo así」（今までにそんなものを見たことがなかった）。「rarely」の場合、「raramente」または「casi nunca」を倒置で使えます。「Raramente encontramos una solución」（めったに解決策を見つけない）。話し言葉のスペイン語では、倒置は書き言葉の英語ほど形式的ではありませんが、B2レベルでは許容されます。",
+    "concept_examples": [
+      {
+        "text": "No solo habla español, sino que también estudia francés.",
+        "translation": "彼女はスペイン語を話すだけでなく、フランス語も勉強しています。",
+        "phonetic": "no ˈsolo ˈaβla espaˈɲol | ˈsino ke ˈtambjen estuˈðja fɾanˈθes"
+      },
+      {
+        "text": "Raramente veo televisión por la mañana.",
+        "translation": "私はめったに朝テレビを見ません。",
+        "phonetic": "raɾaˈmente ˈβeo teleβiˈsjon poɾ la maˈɲana"
+      },
+      {
+        "text": "Jamás había pensado en esa posibilidad.",
+        "translation": "私はその可能性について考えたことがなかった。",
+        "phonetic": "xaˈmas aˈβia penˈsado en ˈesa posiβiliˈðað"
+      },
+      {
+        "text": "Apenas tuvo tiempo para estudiar.",
+        "translation": "彼は勉強する時間がほとんどなかった。",
+        "phonetic": "aˈpenas ˈtuβo ˈtjempo paɾa estuˈðjaɾ"
+      }
+    ],
+    "common_error": {
+      "wrong": "No solo ella habla español, sino que también estudia francés.",
+      "correct": "No solo habla ella español, sino que también estudia francés.",
+      "correct_alt": "No solo habla español, sino que también estudia francés.",
+      "explanation": "この誤りは、英語話者が否定副詞の直後に主語を置く（「Not only she...」）ために起こりますが、スペイン語では倒置を作るために副詞の直後に動詞を置く必要があります。主語「ella」は省略するか、動詞の後に置くことができます。覚えておいてください：「no solo」の後は、主語と動詞を倒置するのが慣例ですが、話し言葉では非倒置形を聞くこともありますが、形式的な文脈では標準的ではありません。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "No solo... sino que",
+        "translation": "だけでなく...も",
+        "examples": [
+          {
+            "original": "No solo es inteligente, sino que también es trabajador.",
+            "phonetic": "no ˈsolo es inteliˈxente | ˈsino ke ˈtambjen es tɾaβaˈxaðoɾ",
+            "translation": "彼は賢いだけでなく、勤勉でもあります。",
+            "note": "倒置に注意：「no solo」の後で「es」が主語（暗黙の「él」）の前に来ます。"
+          },
+          {
+            "original": "No solo compró fruta, sino que también compró verduras.",
+            "phonetic": "no ˈsolo komˈpɾo ˈfɾuta | ˈsino ke ˈtambjen komˈpɾo βeɾˈðuɾas",
+            "translation": "彼は果物を買っただけでなく、野菜も買いました。",
+            "note": "点過去形「compró」が使われています。倒置は、動詞を暗黙の主語「él」の前に置くことで達成されます。"
+          },
+          {
+            "original": "No solo me dijiste la verdad, sino que me ayudaste.",
+            "phonetic": "no ˈsolo me ðiˈxiste la βeɾˈðað | ˈsino ke me aʝuˈðaste",
+            "translation": "あなたは私に真実を言っただけでなく、助けてくれました。",
+            "note": "目的格代名詞「me」はいつものように動詞の前に置かれます。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Raramente y apenas",
+        "translation": "めったに〜ない、ほとんど〜ない",
+        "examples": [
+          {
+            "original": "Raramente salimos de noche.",
+            "phonetic": "raɾaˈmente saˈlimos de ˈnotʃe",
+            "translation": "私たちはめったに夜出かけません。",
+            "note": "「raramente」での倒置は形式的です。カジュアルな会話では、倒置なしで「Casi nunca salimos de noche」と言うかもしれません。"
+          },
+          {
+            "original": "Apenas comía verduras cuando era niño.",
+            "phonetic": "aˈpenas koˈmia βeɾˈðuɾas ˈkwando ˈeɾa ˈniɲo",
+            "translation": "彼は子供の頃、ほとんど野菜を食べませんでした。",
+            "note": "「Apenas」は「ちょうど」や「するとすぐに」という意味もありますが、ここでは「ほとんど〜ない」という意味です。"
+          },
+          {
+            "original": "Apenas llegó, empezó a llover.",
+            "phonetic": "aˈpenas ʝeˈɣo | empeˈso a ʝoˈβeɾ",
+            "translation": "彼が到着するとすぐに、雨が降り始めた。",
+            "note": "ここでの「apenas」は「ちょうど〜したとき」または「するとすぐに」という意味で、過去時制の物語では倒置が自然です。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nunca y jamás",
+        "translation": "決して〜ない、決して〜ない（強調）",
+        "examples": [
+          {
+            "original": "Jamás había visto un paisaje tan hermoso.",
+            "phonetic": "xaˈmas aˈβia ˈβisto un paiˈsaxe tan eɾˈmoso",
+            "translation": "私はこれほど美しい風景を見たことがなかった。",
+            "note": "「jamás」での倒置は、文学的な文脈や形式的な文脈、特に複合時制で一般的です。"
+          },
+          {
+            "original": "Nunca pensé que llegaría tan lejos.",
+            "phonetic": "ˈnunka penˈse ke ʝeɣaˈɾia tan ˈlexos",
+            "translation": "私はそこまで遠くまで行くとは思っていなかった。",
+            "note": "助動詞「did」がなくても、倒置は「pensé」を主語「yo」（暗黙）の前に置くことで達成されます。"
+          },
+          {
+            "original": "En ninguna parte he visto algo igual.",
+            "phonetic": "en niŋˈɡuna ˈpaɾte e ˈβisto ˈalɣo iˈɣwal",
+            "translation": "どこにもそれに似たものを見たことがない。",
+            "note": "前置詞句「en ninguna parte」が倒置を引き起こし、助動詞「he」と過去分詞が続きます。"
+          }
+        ]
+      }
+    ],
+    "emoji": "⚡",
+    "phonetic": "",
+    "translations": {
+      "ja": "強調のための倒置"
+    }
+  },
+  {
+    "id": "ja_B2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Construcciones escindidas / 分裂文",
+    "bridge": "英語では、「It is/was... that」を使って文の特定の部分を強調します（例：「It was John who called」）。スペイン語も同様ですが、注意点があります。関係代名詞（que, quien, el queなど）を名詞の性と数に一致させる必要があり、関係節内の動詞はその名詞に一致します。また、スペイン語では代名詞を省略したり、語順を柔軟に変えたりすることが多いため、常に逐語訳できるわけではありません。「que」（物・人）と「quien」（人のみ）の違いに注意してください。",
+    "rule": "スペイン語の分裂文は、動詞「ser」（通常は現在形または過去形）の後に強調する要素を置き、その後に「que」、「quien」、「el/la que」、「los/las que」、「donde」（場所）で導入される関係節を続けて形成されます。関係代名詞は、それが指す名詞に一致する必要があります。「que」は不変で、人にも物にも使えます。「quien」（複数形「quienes」）は人のみに使います。「el que/la que/los que/las que」は性と数に一致します。関係節内の動詞は、その節の主語に一致します。前置詞句を強調する場合、前置詞は関係代名詞の前に繰り返す必要があります（例：「Fue a Juan a quien vi」）。くだけた会話では、「que」が汎用的な関係代名詞としてよく使われます。また、強調される要素が人称代名詞の場合、その前に前置詞「a」（人称のa）を置く必要があります（例：「Fue a mí a quien llamaron」）。",
+    "concept_examples": [
+      {
+        "text": "Fue Ana la que me llamó ayer.",
+        "translation": "昨日私に電話をかけてきたのはアナでした。",
+        "phonetic": "/fwe ˈana la ke me ʝaˈmo aˈʝeɾ/"
+      },
+      {
+        "text": "Es el dinero lo que importa.",
+        "translation": "重要なのはお金です。",
+        "phonetic": "/es el diˈneɾo lo ke imˈpoɾta/"
+      },
+      {
+        "text": "Fue ayer cuando lo vi.",
+        "translation": "私が彼を見たのは昨日でした。",
+        "phonetic": "/fwe aˈʝeɾ ˈkwando lo ˈbi/"
+      },
+      {
+        "text": "Son ellos quienes tienen la culpa.",
+        "translation": "責任があるのは彼らです。",
+        "phonetic": "/son ˈeʝos ˈkjenes ˈtjenen la ˈkulpa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Fue Juan que me dijo eso.",
+      "correct": "Fue Juan quien me dijo eso.",
+      "correct_alt": "Fue Juan el que me dijo eso.",
+      "explanation": "英語話者は、英語では「that」が人にも物にも使えるため、人の後に「que」を使うことがよくあります。しかしスペイン語では、人を主語として強調する場合、自然な表現にするには「quien」（複数形は「quienes」）または「el que/la que」を使うべきです。「que」だけを使うことは、くだけた文脈では文法的に認められますが、正確さに欠け、曖昧になる可能性があります。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Enfoque en el sujeto",
+        "translation": "主語に焦点を当てる",
+        "examples": [
+          {
+            "original": "Fue María quien ganó el premio.",
+            "phonetic": "/fwe maˈɾia ˈkjen ɡaˈno el ˈpɾemjo/",
+            "translation": "賞を獲得したのはマリアでした。",
+            "note": "単数の人には「quien」を使います。「la que」（女性形）や「el que」（男性形）も使えます。"
+          },
+          {
+            "original": "Son los niños los que hicieron el ruido.",
+            "phonetic": "/son los ˈniɲos los ke iˈsjeɾon el ˈrwiðo/",
+            "translation": "騒音を立てたのは子供たちです。",
+            "note": "「los que」が「niños」（男性複数形）に一致していることに注意。"
+          },
+          {
+            "original": "Es la música lo que me relaja.",
+            "phonetic": "/es la ˈmusika lo ke me reˈlaxa/",
+            "translation": "私をリラックスさせるのは音楽です。",
+            "note": "アイデアや抽象的なものを指す場合、「lo que」が使われます（中性形）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Enfoque en el objeto u otras frases",
+        "translation": "目的語や他の句に焦点を当てる",
+        "examples": [
+          {
+            "original": "Fue a Pedro a quien vi en el parque.",
+            "phonetic": "/fwe a ˈpeðɾo a ˈkjen bi en el ˈpaɾke/",
+            "translation": "公園で私が見たのはペドロでした。",
+            "note": "人の前と「quien」の前に「a」が繰り返されていることに注意（人称のa）。"
+          },
+          {
+            "original": "Es con ellos con quien quiero trabajar.",
+            "phonetic": "/es kon ˈeʝos kon ˈkjen ˈkjeɾo tɾaβaˈxaɾ/",
+            "translation": "私が一緒に働きたいのは彼らです。",
+            "note": "前置詞「con」は関係代名詞の前に繰り返す必要があります。"
+          },
+          {
+            "original": "Fue en Madrid donde nos conocimos.",
+            "phonetic": "/fwe en maˈðɾið ˈdonde nos konoˈθimos/",
+            "translation": "私たちが知り合ったのはマドリードでした。",
+            "note": "場所には「que」ではなく「donde」を使います。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Variantes informales y énfasis sin 'ser'",
+        "translation": "くだけた変形と「ser」を使わない強調",
+        "examples": [
+          {
+            "original": "Lo que necesito es un descanso.",
+            "phonetic": "/lo ke neθeˈsito es un desˈkanso/",
+            "translation": "私が必要なのは休憩です。",
+            "note": "これは強調する別の方法で、「Lo que」+ 動詞 + 「ser」で始まります。"
+          },
+          {
+            "original": "Lo hizo Juan, no Pedro.",
+            "phonetic": "/lo ˈiθo ˈxwan no ˈpeðɾo/",
+            "translation": "それをしたのはフアンで、ペドロではありません。",
+            "note": "くだけた会話では、「ser」を使わずに文の語順を変えるだけで強調することがよくあります。"
+          },
+          {
+            "original": "Quien viene es mi hermano.",
+            "phonetic": "/ˈkjen ˈbjene es mi eɾˈmano/",
+            "translation": "来るのは私の兄です。",
+            "note": "もう一つの一般的な構造：「Quien」で始めて「ser」を使います。"
+          },
+          {
+            "original": "Es que no tengo tiempo.",
+            "phonetic": "/es ke no ˈteŋɡo ˈtjempo/",
+            "translation": "ただ時間がないだけです。",
+            "note": "これは理由を説明するための定型表現で、典型的な分裂文ではありません。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🎯",
+    "phonetic": "",
+    "translations": {
+      "ja": "分裂文"
+    }
+  },
+  {
+    "id": "ja_B2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nominalización: de verbos y adjetivos a sustantivos / 名詞化：動詞と形容詞から名詞へ",
+    "bridge": "英語では、名詞化はしばしば -tion、-ness、-ment のような接尾辞に依存し、結果として得られる名詞は動詞とは大きく異なる場合があります（例：'decide' → 'decision'、'happy' → 'happiness'）。スペイン語でも同様ですが、接尾辞が異なり（-ción、-miento、-dad、-ura）、語幹の母音が変わることがあります（例：'elegir' → 'elección'）。英語話者にとっての一般的な落とし穴は、特定の名詞化された形が存在するのに不定詞を名詞として使うこと（例：'el decidir'）、または適切な名詞の代わりに動名詞を過度に使うこと（例：'el haciendo'）です。また、スペイン語ではフォーマルな文章や書き言葉で名詞化を強く好むため、これらの形を習得することで、スペイン語がより自然で洗練されたものになります。",
+    "rule": "スペイン語の名詞化は、動詞と形容詞を名詞に変換します。動詞の場合、一般的な接尾辞には以下があります：-ción/-sión（例：'decidir' → 'decisión'、'comprender' → 'comprensión'）、-miento（例：'pensar' → 'pensamiento'、'conocer' → 'conocimiento'）、-ura（例：'morder' → 'mordedura'）、-aje（例：'pelear' → 'pelea'、ただし 'aprender' から 'aprendizaje' も）、そして -ncia（例：'importar' → 'importancia'、ただし 'importancia' は形容詞 'importante' から派生した名詞です）。形容詞の場合、一般的な接尾辞は：-dad（例：'feliz' → 'felicidad'）、-ez/-eza（例：'triste' → 'tristeza'、'noble' → 'nobleza'）、-ía（例：'alegre' → 'alegría'）、-ura（例：'fresco' → 'frescura'）。一部の名詞化は不規則で、暗記する必要があります（例：'ir' → 'ida'、'decir' → 'dicho'、'hacer' → 'hecho'、'poner' → 'puesta'）。スペイン語では、動詞を名詞として使う場合（前置詞の後や主語として）、不定詞（例：'Fumar es malo' = '喫煙は悪い'）と名詞化された形（例：'El fumar es malo' だが、より一般的には 'El tabaquismo'）の両方が可能ですが、話し言葉では不定詞がより一般的で、フォーマルな書き言葉では名詞化が好まれます。また、スペイン語の多くの抽象名詞は形容詞から来ており、英語と偽の同族語であることがよくあります（例：'actualidad' = '時事問題'、'現実'ではない）。",
+    "concept_examples": [
+      {
+        "text": "La decisión del juez fue justa.",
+        "translation": "裁判官の決定は公正だった。",
+        "phonetic": "la ðeθiˈsjom del ˈxweθ fwe ˈxusta"
+      },
+      {
+        "text": "El conocimiento se adquiere con la práctica.",
+        "translation": "知識は実践によって得られる。",
+        "phonetic": "el komoθiˈmjento se aðˈkjere kon la ˈpɾaktika"
+      },
+      {
+        "text": "Su felicidad es contagiosa.",
+        "translation": "彼女の幸せは伝染する。",
+        "phonetic": "su feliθiˈðað es kontaˈxjosa"
+      },
+      {
+        "text": "La lectura es un hábito saludable.",
+        "translation": "読書は健康的な習慣です。",
+        "phonetic": "la lekˈtuɾa es un ˈabito saluˈðable"
+      }
+    ],
+    "common_error": {
+      "wrong": "El conocimiento de la verdad es importante.",
+      "correct": "El conocimiento de la verdad es importante.",
+      "correct_alt": "Saber la verdad es importante.",
+      "explanation": "これは実際には正しいです！示された誤りはよくある誤解です。実際の誤りを提供します：英語話者は名詞を意図するときに、'El pensamiento es necesario' の代わりに 'El pensar es necesario' と言うかもしれません。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Sufijos comunes para verbos / 動詞の一般的な接尾辞",
+        "translation": "動詞の一般的な接尾辞",
+        "examples": [
+          {
+            "original": "La creación de empleos es prioritaria.",
+            "phonetic": "la kɾeaˈθjon de emˈpleos es pɾjoɾiˈtaɾja",
+            "translation": "雇用創出は優先事項です。",
+            "note": "接尾辞 -ción は、-ar、-er、-ir で終わる動詞の最も一般的な名詞化です。'creación' は 'crear' から来ています。"
+          },
+          {
+            "original": "El entrenamiento requiere constancia.",
+            "phonetic": "el entɾenaˈmjento reˈkjeɾe konsˈtanθja",
+            "translation": "トレーニングには忍耐が必要です。",
+            "note": "-miento は 'entrenar'（訓練する）のような動詞に一般的です。英語の '-ment' に対応することが多いですが、常にそうとは限りません。"
+          },
+          {
+            "original": "La subida de precios afectó al mercado.",
+            "phonetic": "la suˈβiða de ˈpɾeθjos afekˈto al meˈkaðo",
+            "translation": "価格の上昇は市場に影響を与えた。",
+            "note": "一部の動詞には -ida のような名詞化があり、'subir' → 'subida' などがあります。これは不規則で暗記が必要です。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Sufijos para adjetivos / 形容詞の接尾辞",
+        "translation": "形容詞の接尾辞",
+        "examples": [
+          {
+            "original": "La belleza de la ciudad es impresionante.",
+            "phonetic": "la beˈʝeθa de la θjuˈðað es impɾesjoˈnante",
+            "translation": "街の美しさは印象的です。",
+            "note": "'bello'（美しい）→ 'belleza'（美）から。接尾辞 -eza は英語の '-ness' や '-ty' に対応することが多いです。"
+          },
+          {
+            "original": "Su sinceridad es admirable.",
+            "phonetic": "su sinθeɾiˈðað es admiˈɾaβle",
+            "translation": "彼の誠実さは立派です。",
+            "note": "'sincero'（誠実な）→ 'sinceridad'（誠実さ）から。接尾辞 -idad は英語の '-ity' に似ています。"
+          },
+          {
+            "original": "La tristeza de la noticia nos conmocionó.",
+            "phonetic": "la tɾisˈteθa de la noˈtiθja nos konmoθjoˈno",
+            "translation": "その知らせの悲しさに私たちは衝撃を受けた。",
+            "note": "'triste'（悲しい）→ 'tristeza'（悲しみ）から。強勢の移動に注意：triste (TREES-teh) 対 tristeza (trees-TEH-tha)。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nominalización de infinitivos y usos formales / 不定詞からの名詞化とフォーマルな用法",
+        "translation": "不定詞からの名詞化とフォーマルな用法",
+        "examples": [
+          {
+            "original": "El fumar está prohibido en este lugar.",
+            "phonetic": "el fuˈmaɾ esˈta pɾoiˈβiðo en ˈeste luˈɣaɾ",
+            "translation": "この場所での喫煙は禁止されています。",
+            "note": "不定詞 'fumar' が名詞として（冠詞 'el' を伴って）使われるのは、フォーマルな一般的な文で一般的です。ただし、特定の動詞の後では 'el' が省略されることがよくあります。"
+          },
+          {
+            "original": "Su saber es vasto.",
+            "phonetic": "su saˈβeɾ es ˈbasto",
+            "translation": "彼の知識は広大です。",
+            "note": "不定詞 'saber' は「知識」を意味する名詞として機能できますが、より標準的な名詞は 'sabiduría'（知恵）または 'conocimiento'（知識）です。"
+          },
+          {
+            "original": "La llegada del tren fue puntual.",
+            "phonetic": "la ʝeˈɣaða ðel tɾen fwe puntˈwal",
+            "translation": "列車の到着は定刻でした。",
+            "note": "'llegar'（到着する）→ 'llegada'（到着）から。これは -ar 動詞の過去分詞に一般的な -ada 接尾辞を持つ女性名詞です。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏛️",
+    "phonetic": "",
+    "translations": {
+      "ja": "名詞化"
+    }
+  },
+  {
+    "id": "ja_B2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Modales avanzados / 高度な法助動詞",
+    "bridge": "英語では、後悔や仮定の話をするときに「should have」「would have」「could have」に過去分詞を続けて表現します。スペイン語でも「debería haber」「habría」「podría haber」で同様のことを行いますが、重要な違いがあります。スペイン語では「would have」と「would have had」の両方に条件法完了形を使い、「if」節ではしばしば接続法が現れます。また、「should have」は「debería haber」またはより強い「debí haber」（単純過去）で表現できることに注意してください。英語の「might have」のような句動詞的モーダルを、別のモーダルが必要なのに「poder」で直接訳すのは避けてください。",
+    "rule": "B2レベルでは、スペイン語のモーダル完了構文は、モーダル助動詞の条件法（または単純過去）+「haber」+過去分詞を使用します。形式：\n- 「Debería haber」/「debí haber」+ 過去分詞 → should have（後悔や批判）\n- 「Habría」+ 過去分詞 → would have（仮定の結果）\n- 「Podría haber」→ could have（実現しなかった可能性）\n- 「Pudo haber」→ could have（特定の過去の可能性、しばしば実現しなかった）\n「if」節（si + 過去接続法、条件法完了）では、主節に条件法完了形を使用します：「Si hubiera sabido, habría venido.」\n注意：「would have」はスペイン語の「if」節では使用されません。条件法完了形は主節のみで使用します。また、「should have」は「deber」の不完了過去（「debía haber」）でより一般的な義務を表すことができますが、これはあまり一般的ではありません。\nよくある間違い：「si」節で「habría」を使用する（誤り）、「can」の完了形で「poder」をニュアンスなしに使用する、「hubiera」（接続法）と「habría」（条件法）を混同する。",
+    "concept_examples": [
+      {
+        "text": "Debería haber estudiado más para el examen.",
+        "translation": "試験のためにもっと勉強すべきだった。",
+        "phonetic": "/deˈβeɾia aˈβeɾ estuˈðjaðo mas ˈpaɾa el ekˈsamen/"
+      },
+      {
+        "text": "Habría venido si me hubieras llamado.",
+        "translation": "もし電話してくれていたら、来ていただろう。",
+        "phonetic": "/aˈβɾi.a beˈniðo si me uˈβjeɾas ʝaˈmaðo/"
+      },
+      {
+        "text": "Podríamos haber ganado el partido.",
+        "translation": "私たちは試合に勝てたかもしれない。",
+        "phonetic": "/poˈðɾiamos aˈβeɾ ɡaˈnaðo el paɾˈtiðo/"
+      },
+      {
+        "text": "Debí haberlo visto venir.",
+        "translation": "彼が来るのを見るべきだった（直訳：彼が来るのを見るべきだった）。",
+        "phonetic": "/deˈβi aˈβeɾlo ˈbisto beˈniɾ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Si habría sabido, habría ido.",
+      "correct": "Si hubiera sabido, habría ido.",
+      "correct_alt": "Si hubiese sabido, habría ido.",
+      "explanation": "英語話者は「if I had known」を「si había sabido」と訳したり、「if」節で誤って条件法「habría」を使用することがよくあります。スペイン語では、「if」節は過去接続法（hubiera/hubiese）を使用しなければならず、条件法は使用しません。「habría」は主節の結果節でのみ使用します。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Debería haber / Debí haber (should have)",
+        "translation": "すべきだった",
+        "examples": [
+          {
+            "original": "Deberías haber llamado antes.",
+            "phonetic": "/deˈβeɾias aˈβeɾ ʝaˈmaðo ˈantes/",
+            "translation": "もっと早く電話すべきだった。",
+            "note": "一般的なアドバイスには「debería」を使用し、「debí」はより強い批判や認識を意味します。"
+          },
+          {
+            "original": "Debí hacer caso a mis padres.",
+            "phonetic": "/deˈβi aˈseɾ ˈkaso a mis ˈpaðɾes/",
+            "translation": "両親の言うことを聞くべきだった。",
+            "note": "スペインでは、果たされなかった過去の義務を表すのに単純過去「debí」がよく使われます。"
+          },
+          {
+            "original": "No deberías haberle dicho eso.",
+            "phonetic": "/no deˈβeɾias aˈβeɾle ˈditʃo ˈeso/",
+            "translation": "彼にそんなことを言うべきではなかった。",
+            "note": "「deberías」の前に「no」を置く否定形。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Habría + participio (would have)",
+        "translation": "〜していただろう",
+        "examples": [
+          {
+            "original": "Habría venido antes, pero no pude.",
+            "phonetic": "/aˈβɾi.a beˈniðo ˈantes ˈpeɾo no ˈpuðe/",
+            "translation": "もっと早く来ていただろうが、できなかった。",
+            "note": "条件法完了形は過去の仮定の結果を表します。"
+          },
+          {
+            "original": "¿Qué habrías hecho en mi lugar?",
+            "phonetic": "/ˈke aˈβɾias ˈetʃo en mi luˈɣaɾ/",
+            "translation": "あなたが私の立場だったら、何をしていただろう？",
+            "note": "「hacer」の条件法完了形は「habrías hecho」です。"
+          },
+          {
+            "original": "Habría sido mejor no salir.",
+            "phonetic": "/aˈβɾi.a ˈsiðo meˈxoɾ no saˈliɾ/",
+            "translation": "出かけない方が良かっただろう。",
+            "note": "非人称の「haber」+「sido」を使用。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Podría haber / Poder en pasado (could have)",
+        "translation": "〜できたかもしれない",
+        "examples": [
+          {
+            "original": "Podrías haber estudiado más ayer.",
+            "phonetic": "/poˈðɾias aˈβeɾ estuˈðjaðo ˈmas aˈʝeɾ/",
+            "translation": "昨日もっと勉強できたかもしれない。",
+            "note": "条件法「podrías」は逃した機会を示唆します。"
+          },
+          {
+            "original": "Pudo haber un accidente, pero no pasó nada.",
+            "phonetic": "/ˈpuðo aˈβeɾ un akθiˈdente ˈpeɾo no paˈso ˈnaða/",
+            "translation": "事故があったかもしれないが、何も起こらなかった。",
+            "note": "単純過去「pudo」は実際の過去の可能性によく使われます。"
+          },
+          {
+            "original": "No pudimos haber llegado a tiempo.",
+            "phonetic": "/no puˈðimos aˈβeɾ ʝeˈɣaðo a ˈtjempo/",
+            "translation": "時間通りに到着できなかっただろう。",
+            "note": "否定の「poder」を点過去形で使用し、「haber」を伴うと不可能を表します。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🤷‍♂️",
+    "phonetic": "",
+    "translations": {
+      "ja": "高度な法助動詞"
+    }
+  },
+  {
+    "id": "ja_B2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Cláusulas de participio / 分詞構文",
+    "bridge": "英語では、「歩いていると、…を見た」のように、同時に起こる動作や理由を表すために分詞構文をよく使います。スペイン語にも似た構造（ジェロンディオ）がありますが、書面ではあまり使われず、制約も異なります。英語と違い、スペイン語では能動の分詞構文に過去分詞（-ed）を使いません。その代わり、同時動作にはジェロンディオを使い、完了した動作には他の構造を使います。また、スペイン語では分詞構文の主語が主節の主語と一致することがより厳格に求められ、形容詞的な用法や特定の位置でのジェロンディオの使用は避けられます。",
+    "rule": "スペイン語の現在分詞（ジェロンディオ）は、-ar動詞は-ando、-er/-ir動詞は-iendoで作られます（例：hablando, comiendo, viviendo）。これは、主動詞と同時に起こる動作や様態・副詞的用法を表すのに使われます。ジェロンディオの主語は主節の主語と同じ（または明確に暗示されている）でなければならず、そうでないと文が曖昧または不正確になります。英語と違い、スペイン語のジェロンディオは名詞として使えません（例：「Swimming is fun」は「Nadar es divertido」であり、「Nadando es divertido」ではありません）。また、形容詞としても使えません（例：「a waiting room」は「una sala de espera」であり、「una sala esperando」ではありません）。完了した動作（例：「Having finished, I left」）には、ジェロンディオではなく「después de + 不定詞」または「una vez + 過去分詞」を使います。正式な文章では、結果を表すジェロンディオの使用を避けるべきです（例：「He fell, breaking his leg」は「Se cayó y se rompió la pierna」とすべきで、「Se cayó, rompiéndose la pierna」とはしません）。",
+    "concept_examples": [
+      {
+        "text": "Caminando por la calle, vi a un amigo.",
+        "translation": "通りを歩いていると、友人に会った。",
+        "phonetic": "kamiˈnando poɾ la ˈkaʝe, bi a un aˈmiɣo"
+      },
+      {
+        "text": "Habiendo terminado el trabajo, salimos a cenar.",
+        "translation": "仕事を終えたので、夕食に出かけた。",
+        "phonetic": "aˈβjendo teɾmiˈnado el tɾaˈβaxo, saˈlimos a θeˈnaɾ"
+      },
+      {
+        "text": "Entrando en la sala, saludó a todos.",
+        "translation": "部屋に入ると、彼は皆に挨拶した。",
+        "phonetic": "enˈtɾando en la ˈsala, saluˈðo a ˈtoðos"
+      }
+    ],
+    "common_error": {
+      "wrong": "Caminando por la calle, el clima era frío.",
+      "correct": "Caminando por la calle, sentí frío.",
+      "correct_alt": "Mientras caminaba por la calle, el clima era frío.",
+      "explanation": "英語では、主語が明示されない「宙ぶらりんの分詞」が許容されることがあります（「歩いていると、天気は寒かった」は文法的には誤りですが一般的です）。しかしスペイン語では、ジェロンディオの主語が主節の主語と同じである必要があります。そのため、「Caminando por la calle, el clima era frío」とは言えません。「caminando」は人を暗示しますが、主語は「el clima」だからです。ジェロンディオは主語が共通する場合にのみ使うか、「mientras + 不完了過去」で言い換えて明確にします。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Participio presente (gerundio) para acciones simultáneas",
+        "translation": "同時動作を表す現在分詞（ジェロンディオ）",
+        "examples": [
+          {
+            "original": "Leyendo el periódico, desayuné.",
+            "phonetic": "leˈjendo el peˈɾjoðiko, desaˈʝune",
+            "translation": "新聞を読みながら朝食をとった。",
+            "note": "主動詞と同時に起こる動作にはジェロンディオを使います。"
+          },
+          {
+            "original": "Hablaban riendo.",
+            "phonetic": "aˈβlaβan ˈrjendo",
+            "translation": "彼らは笑いながら話していた。",
+            "note": "ジェロンディオは様態を表すために主動詞を修飾することもできます。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Participio pasado para acciones completadas",
+        "translation": "完了した動作を表す過去分詞",
+        "examples": [
+          {
+            "original": "Terminada la reunión, se fueron.",
+            "phonetic": "teɾmiˈnaða la rewˈnjon, se ˈfweɾon",
+            "translation": "会議が終わった後、彼らは去った。",
+            "note": "主節より前に完了した動作を表すには、過去分詞（性数一致）を使います。"
+          },
+          {
+            "original": "Una vez firmado el contrato, empezamos.",
+            "phonetic": "ˈuna ˈβeθ fiɾˈmaðo el konˈtɾato, eṃpeˈθamos",
+            "translation": "契約書に署名すると、私たちは始めた。",
+            "note": "「Una vez + 過去分詞」は時を表す節の一般的な代替表現です。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Cláusulas de participio con preposición",
+        "translation": "前置詞を伴う分詞構文",
+        "examples": [
+          {
+            "original": "Después de comer, salimos a pasear.",
+            "phonetic": "desˈpweθ de koˈmeɾ, saˈlimos a paseˈaɾ",
+            "translation": "食事の後、散歩に出かけた。",
+            "note": "ある動作の後に起こる動作には、ジェロンディオではなく「después de + 不定詞」を使います。"
+          },
+          {
+            "original": "Al llegar, me llamó.",
+            "phonetic": "al ʎeˈɣaɾ, me ʝaˈmo",
+            "translation": "到着すると、彼は私に電話をかけた。",
+            "note": "「Al + 不定詞」は「〜するとすぐに」を表し、一般的な構文です。"
+          },
+          {
+            "original": "En acabando, te aviso.",
+            "phonetic": "en akaˈβando, te aˈβiso",
+            "translation": "終わり次第、知らせるよ。",
+            "note": "これは「en + ジェロンディオ」で即時の連続動作を表す口語的な用法です（よりくだけた表現）。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏃",
+    "phonetic": "",
+    "translations": {
+      "ja": "分詞構文"
+    }
+  },
+  {
+    "id": "ja_B2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Subjuntivo formal (Es esencial que él sea...) / 形式接続法（彼が時間厳守であることが不可欠です...）",
+    "bridge": "英語では、形式接続法は「It is essential that he be」や「I demand that she go」のような固定表現にのみ残っており、まれで、しばしば「should」や直説法に置き換えられます。スペイン語では、接続法は生き生きとしており、「es esencial que」「es importante que」「es necesario que」のような非人称表現の後では必須です。落とし穴は、英語話者が「that he is」を事実として考えるため、直説法（「es esencial que él es」）を使いがちなことです。スペイン語では、これらの表現は確実性に関係なく接続法を引き起こします。",
+    "rule": "形式接続法（subjuntivo formal）は、「es esencial que」「es importante que」「es necesario que」「es mejor que」「es posible que」など、必要性、重要性、可能性、評価を伝える非人称表現の後に使用されます。従属節の動詞は現在接続法でなければなりません。規則動詞の場合、-ar動詞の語尾は -e, -es, -e, -emos, -éis, -en で、-er/-ir動詞の語尾は -a, -as, -a, -amos, -áis, -an です。不規則動詞には「ser」(sea)、「estar」(esté)、「ir」(vaya)、「saber」(sepa)、「tener」(tenga)、「haber」(haya) が含まれます。注意：主節が過去形の場合は、不完全接続法を使用します（例：「era esencial que él fuera」）。英語とは異なり、スペイン語の接続法はこれらの文脈では任意ではなく、文法的に必須です。",
+    "concept_examples": [
+      {
+        "text": "Es esencial que él sea puntual.",
+        "translation": "彼が時間厳守であることが不可欠です。",
+        "phonetic": "/es e.sen.ˈsjal ke el ˈse.a pun.ˈtwal/"
+      },
+      {
+        "text": "Es importante que estudies para el examen.",
+        "translation": "試験のために勉強することが重要です。",
+        "phonetic": "/es im.por.ˈtan.te ke es.ˈtu.djes pa.ɾa el ek.ˈsa.men/"
+      },
+      {
+        "text": "Es necesario que hablemos con el director.",
+        "translation": "私たちが部長と話すことが必要です。",
+        "phonetic": "/es ne.ˈse.sa.ɾjo ke a.ˈble.mos kon el di.ɾek.ˈtoɾ/"
+      },
+      {
+        "text": "Es mejor que no llegues tarde.",
+        "translation": "遅刻しない方が良いです。",
+        "phonetic": "/es me.ˈxoɾ ke no ˈʝe.ɣes ˈtaɾ.ðe/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Es esencial que él es puntual.",
+      "correct": "Es esencial que él sea puntual.",
+      "correct_alt": "Es esencial que él sea puntual.",
+      "explanation": "英語話者は、英語の翻訳「he is」が直説法であるため、直説法の「es」を使うことがよくあります。スペイン語では、「es esencial que」の後には接続法の「sea」が必要です。これを避けるには、「es + 形容詞 + que」のような非人称表現は常に接続法を引き起こすことを覚えてください。接続法を「確実性ではなく必要性を表す『法』」と考えてください。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Expresiones impersonales comunes",
+        "translation": "一般的な非人称表現",
+        "examples": [
+          {
+            "original": "Es importante que tú sepas la verdad.",
+            "phonetic": "/es im.por.ˈtan.te ke tu ˈse.pas la beɾ.ˈðað/",
+            "translation": "あなたが真実を知ることが重要です。",
+            "note": "動詞「saber」は接続法で不規則です：sepa, sepas, sepa。"
+          },
+          {
+            "original": "Es necesario que compremos pan.",
+            "phonetic": "/es ne.ˈse.sa.ɾjo ke kom.ˈpɾe.mos pan/",
+            "translation": "私たちがパンを買うことが必要です。",
+            "note": "-ar動詞の接続法語尾 -emos が「que」の後に使われます。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Evaluación y opinión",
+        "translation": "評価と意見",
+        "examples": [
+          {
+            "original": "Es mejor que ella venga mañana.",
+            "phonetic": "/es me.ˈxoɾ ke ˈe.ʝa ˈbeŋ.ɡa ma.ˈɲa.na/",
+            "translation": "彼女が明日来る方が良いです。",
+            "note": "動詞「venir」は不規則な接続法語幹「veng-」を持ちます。"
+          },
+          {
+            "original": "Es sorprendente que no lo sepas.",
+            "phonetic": "/es soɾ.pɾen.ˈden.te ke no lo ˈse.pas/",
+            "translation": "あなたがそれを知らないのは驚きです。",
+            "note": "驚きを表す表現も接続法を引き起こします。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Variaciones temporales y negativas",
+        "translation": "時制のバリエーションと否定形",
+        "examples": [
+          {
+            "original": "Era esencial que él fuera puntual.",
+            "phonetic": "/ˈe.ɾa e.sen.ˈsjal ke el ˈfwe.ɾa pun.ˈtwal/",
+            "translation": "彼が時間厳守であることが不可欠でした。",
+            "note": "過去形では、不完全接続法が使われます：「ser」の「fuera」。"
+          },
+          {
+            "original": "No es necesario que vengas.",
+            "phonetic": "/no es ne.ˈse.sa.ɾjo ke ˈbeŋ.ɡas/",
+            "translation": "あなたが来る必要はありません。",
+            "note": "非人称表現を否定しても、接続法が必要です。"
+          }
+        ]
+      }
+    ],
+    "emoji": "📘",
+    "phonetic": "",
+    "translations": {
+      "ja": "形式接続法（彼が時間厳守であることが不可欠です...）"
+    }
+  },
+  {
+    "id": "ja_B2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Futuro perfecto y continuo / 未来完了と未来進行",
+    "bridge": "英語では、未来完了は「will have + 過去分詞」、未来進行は「will be + -ing」を使います。スペイン語にも対応する構造があります：未来完了は「habré + 過去分詞」、未来進行は「estaré + 動名詞」です。難しいのは、スペイン語には単純未来形があり、両方の意味を表せること、また会話では未来完了の代わりに現在完了が使われることが多いことです。さらに、英語の未来完了進行（will have been + -ing）に相当する複合形はスペイン語ではほとんど使われず、より単純な構文が好まれます。似ているが意味が異なる語に注意：'estaré trabajando' は「私は働いているでしょう」という意味で、「私は働いていたでしょう」ではありません。",
+    "rule": "スペイン語の未来完了（futuro perfecto）は、'haber' の未来形（habré, habrás, habrá, habremos, habréis, habrán）に過去分詞（-ado/-ido）を続けて作ります。未来のある時点までに完了しているであろう動作を表します。未来進行（futuro continuo）は、'estar' の未来形（estaré, estarás, estará, estaremos, estaréis, estarán）に動名詞（-ando/-iendo）を続けて作ります。未来のある時点で進行中の動作を表します。英語とは異なり、一般的な未来完了進行は存在せず、代わりに未来完了か単純未来を使います。くだけた会話では、未来完了の代わりに現在完了（例：'ya he terminado'）や単純未来（例：'terminaré'）が使われることがあります。また、'para entonces'（その頃までに）のような時間表現では未来完了を、'a esta hora'（この時間に）では未来進行を使います。",
+    "concept_examples": [
+      {
+        "text": "Para el lunes, habré terminado el proyecto.",
+        "translation": "月曜日までに、私はプロジェクトを終えているでしょう。",
+        "phonetic": "ˈpaɾa el ˈlunes aˈβɾe teɾmiˈnaðo el pɾoˈxekto"
+      },
+      {
+        "text": "A las ocho, estará cenando con su familia.",
+        "translation": "8時に、彼は家族と夕食を食べているでしょう。",
+        "phonetic": "a las ˈotʃo estaˈɾa θeˈnando kon su faˈmilja"
+      },
+      {
+        "text": "Habréis vivido en España durante diez años en 2030.",
+        "translation": "2030年には、あなたたちはスペインに10年間住んでいるでしょう。",
+        "phonetic": "aˈβɾejs βiˈβiðo en esˈpaɲa duˈɾante ˈdjeθ ˈaɲos en dos mil ˈtɾenta"
+      },
+      {
+        "text": "Estaremos viajando por América cuando llegue el verano.",
+        "translation": "夏が来るとき、私たちはアメリカを旅行しているでしょう。",
+        "phonetic": "estaˈɾemos bjaˈxando poɾ aˈmeɾika ˈkwando ˈʝeɣe el βeˈɾano"
+      }
+    ],
+    "common_error": {
+      "wrong": "Para el próximo año, seré trabajando en la empresa.",
+      "correct": "Para el próximo año, estaré trabajando en la empresa.",
+      "correct_alt": "Para el próximo año, habré trabajado en la empresa.",
+      "explanation": "英語話者は進行形で 'ser' と 'estar' を混同しがちです。スペイン語では、進行形は常に 'estar' + 動名詞であり、'ser' は使いません。また、動作が完了していることを意味する場合は、未来進行ではなく未来完了（habré trabajado）を使います。覚えておいてください：'estaré trabajando' = 働いているでしょう（進行中）、'habré trabajado' = 働き終えているでしょう（完了）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Futuro perfecto (habré + participio)",
+        "translation": "未来完了（habré + 過去分詞）",
+        "examples": [
+          {
+            "original": "Habré comido antes de la reunión.",
+            "phonetic": "aˈβɾe koˈmiðo ˈantes de la reuˈnjon",
+            "translation": "私は会議の前に食べ終えているでしょう。",
+            "note": "未来のある時点（antes de）より前に完了している動作について話すには、未来完了を使います。"
+          },
+          {
+            "original": "¿Habrás terminado el informe para el viernes?",
+            "phonetic": "¿aˈβɾas teɾmiˈnaðo el inˈfoɾme ˈpaɾa el ˈbjeɾnes?",
+            "translation": "金曜日までにレポートを終えているでしょうか？",
+            "note": "未来完了の疑問文では、締め切りを示すために 'para'（までに）がよく使われます。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Futuro continuo (estaré + gerundio)",
+        "translation": "未来進行（estaré + 動名詞）",
+        "examples": [
+          {
+            "original": "Estaré durmiendo cuando vuelvas a casa.",
+            "phonetic": "estaˈɾe duɾˈmjendo ˈkwando ˈβwelβas a ˈkasa",
+            "translation": "あなたが家に帰るとき、私は眠っているでしょう。",
+            "note": "特定の未来の時点（cuando）で進行中の動作には未来進行を使います。"
+          },
+          {
+            "original": "¿Qué estarás haciendo a esta hora mañana?",
+            "phonetic": "¿ke estaˈɾas aˈsjendo a ˈesta ˈoɾa maˈɲana?",
+            "translation": "明日の今ごろ、あなたは何をしているでしょうか？",
+            "note": "'a esta hora'（この時間に）は未来進行でよく使われる時間表現です。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Alternativas y matices",
+        "translation": "代替表現とニュアンス",
+        "examples": [
+          {
+            "original": "Para cuando llegue, ya habré salido (o saldré).",
+            "phonetic": "ˈpaɾa ˈkwando ˈʝeɣe, ʝa aˈβɾe saˈliðo (o salˈdɾe)",
+            "translation": "彼が到着する頃には、私はすでに出発しているでしょう（または出発するでしょう）。",
+            "note": "くだけた会話では、単純未来が意味を大きく変えずに未来完了の代わりになることがあります。"
+          },
+          {
+            "original": "En verano, estaremos viviendo en la playa.",
+            "phonetic": "en beˈɾano, estaˈɾemos biˈβjendo en la ˈplaʝa",
+            "translation": "夏には、私たちはビーチに住んでいるでしょう。",
+            "note": "未来進行は、未来のある時点で進行中の一時的な状況を示すことがよくあります。"
+          },
+          {
+            "original": "No habré acabado el libro para entonces.",
+            "phonetic": "no aˈβɾe akaˈβaðo el ˈliβɾo ˈpaɾa enˈtonθes",
+            "translation": "その頃までに、私はその本を読み終えていないでしょう。",
+            "note": "否定形：'no habré + 過去分詞' は過去分詞の前に置きます。"
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "ja": "未来完了と未来進行"
+    }
+  },
+  {
+    "id": "ja_B2_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Marcadores del discurso para cohesión / 結束のための談話標識",
+    "bridge": "英語では、'however'、'therefore'、'moreover' のような談話標識は、文頭に置かれ、コンマが続くことがよくあります。スペイン語では、これらの標識の多くは同様に振る舞いますが、重要な違いがあります。いくつかは特定の語順を必要とし（例：'sin embargo' は動詞の後に置くことができます）、他は正式な文章でより厳密に使用されます。英語話者は、直接的な翻訳であるため 'pero'（しかし）と 'y'（そして）を過度に使用することがよくありますが、スペイン語には対比（例：'no obstante'）、追加（例：'además'）、結論（例：'en conclusión'）のためにより正確な標識があります。さらに、'por lo tanto' と 'por eso' はしばしば混同されます：'por eso' は前の文からの結果を示し、'por lo tanto' はより形式的で「それゆえに」を意味します。",
+    "rule": "談話標識（marcadores del discurso）は、アイデアを結び付け、談話を整理し、聞き手や読み手を導く単語やフレーズです。スペイン語では、機能によって分類されます：情報を追加する（aditivos）：y、además、también、encima、incluso；対比する（adversativos）：pero、sin embargo、no obstante、ahora bien、en cambio、por el contrario；原因と結果（causales y consecutivos）：porque、ya que、puesto que、por lo tanto、por consiguiente、de modo que、así que；そして談話を構造化する（estructuradores）：primero、en primer lugar、para empezar、finalmente、en conclusión、en resumen。B2レベルでは、学習者は繰り返しを避け、文章とスピーチの両方で結束を生み出すために、さまざまな標識を使用する必要があります。配置は異なります：多くの標識は文頭に置かれ、コンマが続くか、動詞の後に文中に置かれます。例：'No obstante, está claro.' または 'Está claro, no obstante.'。'pero'（しかし）のような一部の標識は接続詞であり、文を始めることもできますが、正式な文章では 'sin embargo' または 'no obstante' を使用することが好まれます。偽の友達に注意してください：'actualmente' は「現在」を意味し、「実際に」ではありません（「実際に」は 'en realidad' または 'de hecho'）。また、'por supuesto' は「もちろん」を意味し、「たぶん」ではありません。",
+    "concept_examples": [
+      {
+        "text": "No obstante, el proyecto fue un éxito.",
+        "translation": "それにもかかわらず、プロジェクトは成功しました。",
+        "phonetic": "no os.tanˈte | el pɾoˈxek.to fwe un ˈek.si.to"
+      },
+      {
+        "text": "Por lo tanto, debemos considerar otras opciones.",
+        "translation": "したがって、他の選択肢を検討しなければなりません。",
+        "phonetic": "poɾ lo ˈtan.to | deˈβe.mos kon.si.deˈɾaɾ ˈo.tɾas opˈθjo.nes"
+      },
+      {
+        "text": "Además, es importante recordar que la práctica hace al maestro.",
+        "translation": "さらに、練習が完璧を作ることを覚えておくことが重要です。",
+        "phonetic": "a.deˈmas | es im.poɾˈtan.te re.koɾˈdaɾ ke la ˈpɾak.ti.ka ˈa.se al maˈes.tɾo"
+      },
+      {
+        "text": "En conclusión, podemos afirmar que el cambio fue beneficioso.",
+        "translation": "結論として、その変化は有益だったと断言できます。",
+        "phonetic": "en kon.kluˈsjon | poˈde.mos afiɾˈmaɾ ke el ˈkam.bjo fwe be.ne.fiˈθjo.so"
+      }
+    ],
+    "common_error": {
+      "wrong": "He estudiado mucho, pero no aprobé el examen, por lo tanto estudiaré más.",
+      "correct": "He estudiado mucho, pero no aprobé el examen; por lo tanto, estudiaré más.",
+      "correct_alt": "He estudiado mucho, pero no aprobé el examen. Por lo tanto, estudiaré más.",
+      "explanation": "英語話者は、英語の 'therefore' と同様に、'por lo tanto' をコンマだけで2つの独立した節を結ぶ接続詞として誤って使用することがよくあります。しかし、スペイン語では、'por lo tanto' は談話標識であり、前のピリオドまたはセミコロンが必要で、通常はコンマが続きます。この誤りは、英語ではコンマの後に 'therefore' を置くことができますが、スペイン語ではより強い句読点を好むために生じます。これを避けるには、セミコロンを使用するか、'Por lo tanto,' で新しい文を始めてください。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Aditivos y de refuerzo",
+        "translation": "追加と強調の標識",
+        "examples": [
+          {
+            "original": "Además de ser inteligente, es muy trabajadora.",
+            "phonetic": "a.deˈmas de seɾ in.te.liˈxen.te | es ˈmwi tɾa.baˈxa.do.ɾa",
+            "translation": "賢いことに加えて、彼女はとても勤勉です。",
+            "note": "'además de' の後には不定詞または名詞が続き、活用された動詞は続かないことに注意してください。"
+          },
+          {
+            "original": "El restaurante es caro, pero la comida es excelente.",
+            "phonetic": "el res.tauˈɾan.te es ˈka.ɾo | ˈpe.ɾo la koˈmi.ða es ek.seˈlen.te",
+            "translation": "そのレストランは高いですが、料理は素晴らしいです。",
+            "note": "'pero' は最も一般的な対比の接続詞ですが、B2レベルではよりフォーマルなトーンで 'sin embargo' も使用すべきです。"
+          },
+          {
+            "original": "No solo es caro, sino que además es malo.",
+            "phonetic": "no ˈso.lo es ˈka.ɾo | ˈsi.no ke a.deˈmas es ˈma.lo",
+            "translation": "高いだけでなく、悪くもあります。",
+            "note": "'no solo... sino que además...' の構造は、情報を追加することを強調し、英語の 'not only... but also...' に似ています。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Adversativos y de contraste",
+        "translation": "逆接と対比の標識",
+        "examples": [
+          {
+            "original": "Sin embargo, no estoy de acuerdo con la decisión.",
+            "phonetic": "sin emˈbaɾ.ɣo | no esˈtoj de aˈkweɾ.ðo kon la de.θiˈsjon",
+            "translation": "しかし、私はその決定に同意しません。",
+            "note": "'Sin embargo' は 'however' のフォーマルな相当語で、書く際に好まれます。話し言葉では、'pero' がより一般的です。"
+          },
+          {
+            "original": "No obstante, la situación puede mejorar.",
+            "phonetic": "no os.tanˈte | la si.twaˈθjon ˈpwe.ðe me.xoˈɾaɾ",
+            "translation": "それにもかかわらず、状況は改善するかもしれません。",
+            "note": "'No obstante' は 'sin embargo' の同義語ですが、少しフォーマルです。動詞の後に置くこともできます：'La situación, no obstante, puede mejorar.'"
+          },
+          {
+            "original": "A diferencia de otros países, aquí la propina es opcional.",
+            "phonetic": "a di.feˈɾen.θja de ˈo.tɾos paˈi.ses | aˈki la pɾoˈpi.na es opˈθjo.nal",
+            "translation": "他の国々とは異なり、ここではチップは任意です。",
+            "note": "'A diferencia de' は名詞との対比を導入し、英語の 'unlike' に似ていますが、前置詞 'de' が続く必要があります。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Consecutivos y de conclusión",
+        "translation": "結果と結論の標識",
+        "examples": [
+          {
+            "original": "Por lo tanto, no podemos continuar con este plan.",
+            "phonetic": "poɾ lo ˈtan.to | no poˈde.mos kon.ti.nuˈaɾ kon ˈes.te plan",
+            "translation": "したがって、この計画を続けることはできません。",
+            "note": "フォーマルな文脈で論理的な結果を表現するには 'por lo tanto' を使用します。インフォーマルな会話では、'así que' または 'entonces' がより一般的です。"
+          },
+          {
+            "original": "En consecuencia, la empresa tuvo que cerrar.",
+            "phonetic": "en kon.seˈkwen.θja | la emˈpɾe.sa ˈtu.βo ke θeˈraɾ",
+            "translation": "その結果、会社は閉鎖しなければなりませんでした。",
+            "note": "'En consecuencia' は 'por lo tanto' と非常に似ていますが、結果をより明確に強調します。学術的な文章で一般的です。"
+          },
+          {
+            "original": "En resumen, el experimento confirmó las hipótesis.",
+            "phonetic": "en reˈsu.men | el eks.pe.ɾiˈmen.to kon.fiɾˈmo las iˈpo.te.sis",
+            "translation": "要約すると、実験は仮説を確認しました。",
+            "note": "'En resumen' は以前の議論を要約するために使用され、'in summary' または 'to sum up' に相当します。"
+          },
+          {
+            "original": "En definitiva, la educación es la clave del éxito.",
+            "phonetic": "en de.fi.niˈti.βa | la e.ðu.kaˈθjon es la ˈkla.βe del ˈek.si.to",
+            "translation": "結局のところ、教育は成功の鍵です。",
+            "note": "'En definitiva' は、しばしば議論の後に最終的な結論を示します。'in short' または 'all in all' に似ています。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "ja": "結束のための談話標識"
+    }
+  },
+  {
+    "id": "ja_B2_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Lenguaje de distanciamiento / ヘッジング言語",
+    "bridge": "英語では、モーダル動詞（'might'、'could'）や副詞（'possibly'、'apparently'）を使ってヘッジングを行うことがよくあります。スペイン語では、B2レベルの学習者は、不確実性や距離を表現するために、一連の非人称構文や'parecer'、'resultar'、'tender a'などの動詞を習得する必要があります。重要な落とし穴は、英語話者が'puede ser que'（接続法が必要）を過剰に使用したり、'I tend to'を'Yo tiendo a'と直接翻訳したりすることです。これは正しいですが、あまりに個人的に聞こえることがあります。もう一つの違いは、スペイン語ではヘッジングで非人称の'se'をより頻繁に使用するのに対し（'se dice que'、'se cree que'）、英語では'it is said that'や'people say'を使用します。また、'parece que'（直説法）と'parece que'（接続法）は意味が異なります。'parece que'の後の接続法は疑念を表しますが、多くの学習者はこの区別を忘れます。",
+    "rule": "スペイン語のヘッジング言語は、いくつかの構造で表現されます：(1) 'parecer'、'resultar'、'tender a'、'soler'（通常は現在形または点過去形のみ）などの動詞。'Parece que' + 直説法 = 「〜のように思われる」（可能性の高い事実を報告）、一方'parece que' + 接続法 = 「〜のように思われる」（疑念を表現）。'Tiendo a' + 不定詞 = 「〜する傾向がある」（習慣的な行動）。'Suelo' + 不定詞 = 「いつも〜する」。(2) 'se'を使った非人称構文：'se dice que'、'se cree que'、'se piensa que' + 直説法（一般的に）。(3) 副詞：'aparentemente'、'al parecer'、'según parece'、'posiblemente'、'quizás'、'tal vez'（quizás/tal vezは動詞の前に置かれると接続法を引き起こす）。(4) 推測のための条件法：'Sería posible que' + 接続法。また、'a lo mejor'（たぶん）は直説法を伴いますが、'quizás'は接続法を使用します。B2レベルでは、これらの構造を柔軟に使用して、発言にニュアンスを加えるべきです。",
+    "concept_examples": [
+      {
+        "text": "Parece que va a llover esta tarde.",
+        "translation": "今日の午後は雨が降りそうだ。",
+        "phonetic": "paˈɾeθe ke ˈβa a ʝoˈβeɾ ˈesta ˈtaɾðe"
+      },
+      {
+        "text": "Según parece, el proyecto se ha retrasado.",
+        "translation": "どうやら、プロジェクトは遅れているようだ。",
+        "phonetic": "seˈɣum paˈɾeθe el pɾoˈxekto se a retɾaˈsaðo"
+      },
+      {
+        "text": "Tiendo a llegar tarde los lunes.",
+        "translation": "私は月曜日に遅刻する傾向がある。",
+        "phonetic": "ˈtjen̪do a ʝeˈɣaɾ ˈtaɾðe los ˈlunes"
+      },
+      {
+        "text": "Quizás tenga que cancelar la cita.",
+        "translation": "たぶん、約束をキャンセルしなければならないだろう。",
+        "phonetic": "kiˈθas ˈteŋɡa ke kanθeˈlaɾ la ˈθita"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo tiendo a que soy muy perezoso.",
+      "correct": "Tiendo a ser muy perezoso.",
+      "correct_alt": "Suelo ser muy perezoso.",
+      "explanation": "英語の構造「I tend to be...」は、'to be'を不定詞として使用します。スペイン語では、'tender a'の後には不定詞が続きます（'que'を使った従属節ではありません）。学習者は「I tend to that I am」を誤って翻訳したり、英語のパターンを適用したりするかもしれません。また、スペイン語では主語代名詞の'yo'は任意であるため省略されることが多く、使用すると過度に強調された印象を与えることがあります。覚えておいてください：'tender a' + 不定詞、'soler' + 不定詞。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbos de tendencia (tender a, soler)",
+        "translation": "傾向を表す動詞（tender a、soler）",
+        "examples": [
+          {
+            "original": "Suelo desayunar café con leche.",
+            "phonetic": "ˈswelo ðesaʝuˈnaɾ kaˈfe kon ˈletʃe",
+            "translation": "私はいつも朝食にミルク入りコーヒーを飲みます。",
+            "note": "'Soler'は現在形と未完了過去（点過去）でのみ使用されます。「いつも〜する」という意味です。"
+          },
+          {
+            "original": "Tiendo a preocuparme demasiado.",
+            "phonetic": "ˈtjen̪do a pɾekupaɾˈme ðemaˈsjaðo",
+            "translation": "私は心配しすぎる傾向があります。",
+            "note": "'tiendo'は'tender'の不規則なyo形（e→ie）です。'a' + 不定詞が続きます。"
+          },
+          {
+            "original": "Mi jefe suele llegar tarde a las reuniones.",
+            "phonetic": "mi ˈxefe ˈswele ʝeˈɣaɾ ˈtaɾðe a las reuˈniones",
+            "translation": "私の上司は会議に遅れて到着することがよくあります。",
+            "note": "'soler'と'tender a'は両方とも習慣を表しますが、'soler'は頻度を暗示し、'tender a'は傾向を暗示します。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Impersonalidad con 'se' (se dice, se cree)",
+        "translation": "'se'を使った非人称構文（se dice、se cree）",
+        "examples": [
+          {
+            "original": "Se dice que el nuevo restaurante es muy bueno.",
+            "phonetic": "se ˈðiθe ke el ˈnweβo restauˈɾante es ˈmui ˈβweno",
+            "translation": "新しいレストランはとても良いと言われています。",
+            "note": "これは非人称の'se'構文です。情報源から距離を置くために使用されます。"
+          },
+          {
+            "original": "Se cree que el cambio climático afecta a toda la región.",
+            "phonetic": "se ˈkɾeθe ke el ˈkambjo kliˈmatiko aˈfekta a ˈtoða la reˈxjon",
+            "translation": "気候変動が地域全体に影響を与えていると考えられています。",
+            "note": "'que'の後の動詞は、一般的な信念を表現するときは通常直説法です。"
+          },
+          {
+            "original": "Se pensaba que el dinero no era suficiente.",
+            "phonetic": "se penˈsaβa ke el diˈneɾo no ˈeɾa sufiˈθjente",
+            "translation": "お金は十分ではないと思われていました。",
+            "note": "過去時制では、'se pensaba'は未完了過去を使用して、継続的な信念を説明します。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Adverbios y expresiones (quizás, al parecer, a lo mejor)",
+        "translation": "副詞と表現（quizás、al parecer、a lo mejor）",
+        "examples": [
+          {
+            "original": "Quizás venga mañana por la mañana.",
+            "phonetic": "kiˈθas ˈbeŋɡa maˈɲana poɾ la maˈɲana",
+            "translation": "たぶん、彼は明日の朝来るでしょう。",
+            "note": "'Quizás'（または'quizá'）は動詞の前に置かれると接続法を引き起こします。ここでは'venga'が接続法です。"
+          },
+          {
+            "original": "A lo mejor viene mañana por la tarde.",
+            "phonetic": "a lo meˈxoɾ ˈbjen maˈɲana poɾ la ˈtaɾðe",
+            "translation": "たぶん、彼は明日の午後来るでしょう。",
+            "note": "'A lo mejor'は常に直説法（viene）を伴います。これは一般的な落とし穴で、'quizás'の同義語ですが直説法を使用します。"
+          },
+          {
+            "original": "Al parecer, el examen será fácil.",
+            "phonetic": "al paˈɾeθeɾ el ekˈsamen seˈɾa ˈfaθil",
+            "translation": "どうやら、試験は簡単だろう。",
+            "note": "'Al parecer'は「どうやら」または「〜のように思われる」という意味の定型句です。'según parece'とも言えます。"
+          },
+          {
+            "original": "Tal vez necesites descansar un poco.",
+            "phonetic": "tal βes neθeˈsites deskansaɾ um ˈpoko",
+            "translation": "たぶん、あなたは少し休む必要があるでしょう。",
+            "note": "'Tal vez'（'quizás'と同様）は接続法または直説法を伴うことができますが、正式な文脈では接続法がより一般的です。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🤷‍♂️",
+    "phonetic": "",
+    "translations": {
+      "ja": "ヘッジング言語"
+    }
+  }
+]
