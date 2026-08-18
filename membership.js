@@ -54,7 +54,7 @@ const MembershipPlan = {
 
     startTrial() {
         const expiry = new Date();
-        expiry.setDate(expiry.getDate() + 30);
+        expiry.setDate(expiry.getDate() + 15);
         localStorage.setItem(this._PLAN_KEY, 'trial');
         localStorage.setItem(this._EXPIRY_KEY, expiry.toISOString());
         localStorage.setItem(this._PERIOD_KEY, 'trial');
@@ -191,7 +191,7 @@ async function loadMembershipSection() {
     renderLanguageBar();
 
     // Load config from server
-    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 19.99, badge: '🔥 Precio de lanzamiento', urgencyText: { es: 'Solo para los primeros 250 usuarios', en: 'Only for the first 250 users' } }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' }, limits: { translationsPerDay: 50, schoolMessages: 10, famousMessages: 5 } };
+    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 19.99, badge: '🔥 Precio de lanzamiento', urgencyText: { es: 'Solo para los primeros 250 usuarios', en: 'Only for the first 250 users' } }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 15, planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' }, limits: { translationsPerDay: 50, schoolMessages: 10, famousMessages: 5 } };
     let counter = { current: 0, max: 250, remaining: 250 };
 
     try {
@@ -213,7 +213,7 @@ async function loadMembershipSection() {
     _membershipConfig = config;
 
     // Fetch dynamic geo-pricing
-    let pricing = { currency: 'ARS', symbol: '$', annual: 19990, monthly: 1666, countryCode: 'AR', countryName: 'Argentina' };
+    let pricing = { currency: 'ARS', symbol: '$', annual: 20000, monthly: 2500, countryCode: 'AR', countryName: 'Argentina' };
     try {
         const pr = await fetch(_API_HOST + '/api/pricing');
         if (pr.ok) pricing = await pr.json();
@@ -410,7 +410,7 @@ async function loadMembershipSection() {
                         <li>✅ ${isES ? 'Aprender idiomas: todo — 2 idiomas/año' : 'Language learning: all — 2 lang/year'}</li>
                     </ul>
                     <button class="plan-trial-btn" id="planTrialBtn">
-                        🎁 ${isES ? '1 mes gratis — Probar ahora' : '1 month free — Try now'}
+                        🎁 ${isES ? '15 días gratis — Probar ahora' : '15 days free — Try now'}
                     </button>
                     <button class="plan-cta-btn plan-cta-btn--premium" id="planSubscribeBtn">
                         ${isES ? 'Suscribirme →' : 'Subscribe →'}
@@ -535,7 +535,7 @@ async function loadMembershipSection() {
                     <span>🔒 GDPR compliant</span>
                     <span>Your data is never sold</span>
                     <span>✓ Cancel anytime</span>
-                    <span>30-day free trial</span>
+                    <span>15-day free trial</span>
                 `}
             </div>` : ''}
 
@@ -585,7 +585,7 @@ async function _loadMembershipLite() {
     mainContainer.innerHTML = '';
     renderLanguageBar();
 
-    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 19.99, badge: '🔥 Precio de lanzamiento' }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 30, planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' } };
+    let config = { promo: { active: true, maxSubscribers: 250, monthlyPrice: 2.00, annualPrice: 19.99, badge: '🔥 Precio de lanzamiento' }, regular: { monthlyPrice: 4.99, annualPrice: 34.99 }, trialDays: 15, planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' } };
     try {
         const r = await fetch(_API_HOST + '/membership/config');
         if (r.ok) { const d = await r.json(); config = d.config || config; }
@@ -593,7 +593,7 @@ async function _loadMembershipLite() {
     _membershipConfig = config;
 
     // Fetch dynamic geo-pricing
-    let pricing = { currency: 'ARS', symbol: '$', annual: 19990, monthly: 1666, countryCode: 'AR', countryName: 'Argentina' };
+    let pricing = { currency: 'ARS', symbol: '$', annual: 20000, monthly: 2500, countryCode: 'AR', countryName: 'Argentina' };
     try {
         const pr = await fetch(_API_HOST + '/api/pricing');
         if (pr.ok) pricing = await pr.json();
@@ -699,7 +699,7 @@ async function _loadMembershipLite() {
                         <li>✅ ${isES ? 'Creación de flashcards' : 'Flashcard creation'}</li>
                     </ul>
                     <button class="plan-trial-btn" id="liteTrialBtn">
-                        🎁 ${isES ? '1 mes gratis — Probar ahora' : '1 month free — Try now'}
+                        🎁 ${isES ? '15 días gratis — Probar ahora' : '15 days free — Try now'}
                     </button>
                     <button class="plan-cta-btn plan-cta-btn--premium" id="liteSubscribeBtn">
                         ${isES ? 'Suscribirme →' : 'Subscribe →'}
@@ -741,7 +741,7 @@ async function _loadMembershipLite() {
                 ` : `
                     <span>🔒 GDPR compliant</span>
                     <span>✓ Cancel anytime</span>
-                    <span>30-day free trial</span>
+                    <span>15-day free trial</span>
                 `}
             </div>
 
@@ -788,7 +788,7 @@ function _startTrialFlow() {
 
     if (region === 'latam') {
         MembershipPlan.startTrial();
-        if (typeof showToast === 'function') showToast('✅ ' + (isES ? '¡1 mes gratis activado! Bienvenido/a a Premium 250X' : '1 free month activated! Welcome to STARTUP FOR 250X'));
+        if (typeof showToast === 'function') showToast('✅ ' + (isES ? '¡15 días gratis activados! Bienvenido/a a Premium 250X' : '15 free days activated! Welcome to STARTUP FOR 250X'));
         setTimeout(() => showMainMenu(), 800);
     } else {
         // EU: show a modal placeholder
@@ -797,12 +797,12 @@ function _startTrialFlow() {
         modal.innerHTML = `
             <div class="payment-modal">
                 <div class="payment-modal-header">
-                    <h3>🎁 ${isES ? 'Trial gratuito — 1 mes' : 'Free trial — 1 month'}</h3>
+                    <h3>🎁 ${isES ? 'Trial gratuito — 15 días' : 'Free trial — 15 days'}</h3>
                     <button class="payment-modal-close" id="trialModalClose">×</button>
                 </div>
                 <div class="payment-modal-body">
                     <p style="margin-bottom:1rem; color: var(--text-muted); font-size:.9rem">
-                        ${isES ? 'Ingresá tu tarjeta para activar el trial gratuito de 30 días. No se realizará ningún cobro hasta que finalice el período de prueba.' : 'Enter your card to activate the 30-day free trial. You will not be charged until the trial period ends.'}
+                        ${isES ? 'Ingresá tu tarjeta para activar el trial gratuito de 15 días. No se realizará ningún cobro hasta que finalice el período de prueba.' : 'Enter your card to activate the 15-day free trial. You will not be charged until the trial period ends.'}
                     </p>
                     <div class="payment-card-placeholder">
                         <div class="payment-card-field">

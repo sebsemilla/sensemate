@@ -284,9 +284,9 @@ function _roundPrice(amount, currency) {
 }
 
 app.get('/api/pricing', async (req, res) => {
-    const FALLBACK = { currency: 'ARS', symbol: '$', monthly: 20000, annual: 180000, countryCode: 'AR', countryName: 'Argentina' };
-    const monthlyARS = 20000;
-    const annualARS  = 180000;
+    const FALLBACK = { currency: 'ARS', symbol: '$', monthly: 2500, annual: 20000, countryCode: 'AR', countryName: 'Argentina' };
+    const monthlyARS = 2500;
+    const annualARS  = 20000;
 
     try {
         // 1. Detect country
@@ -377,7 +377,7 @@ registerCameraRoutes(app);
 
     // Precios fijos por moneda (anuales)
     const FIXED_PRICES = {
-        ARS: 19990,
+        ARS: 20000,
         USD: 19.99,
         BRL: 100,
     };

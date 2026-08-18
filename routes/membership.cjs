@@ -20,7 +20,7 @@ const DEFAULT_MEMBERSHIP_CONFIG = {
         }
     },
     regular: { monthlyPrice: 4.99, annualPrice: 34.99 },
-    trialDays: 30,
+    trialDays: 15,
     planName: { es: 'Premium 250X', en: 'STARTUP FOR 250X' },
     limits: { translationsPerDay: 50, schoolMessages: 10, famousMessages: 5 }
 };
