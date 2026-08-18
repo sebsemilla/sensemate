@@ -344,6 +344,17 @@ async function loadMembershipSection() {
 
 `}
 
+            <!-- Billing toggle (only in region tab) -->
+            ${_plansTab !== 'contributors' ? `
+            <div class="plans-billing-toggle">
+                <button class="plans-toggle-btn ${_billingToggle === 'annual' ? 'active' : ''}" id="billingAnnualBtn">
+                    ${isES ? 'Anual' : 'Annual'} <span class="plans-save-badge">${isES ? 'Ahorrá' : 'Save'}</span>
+                </button>
+                <button class="plans-toggle-btn ${_billingToggle === 'monthly' ? 'active' : ''}" id="billingMonthlyBtn">
+                    ${isES ? 'Mensual' : 'Monthly'}
+                </button>
+            </div>` : ''}
+
             <!-- Plan cards + table + trust (only in region tab) -->
             ${_plansTab !== 'contributors' ? `<div class="plans-cards-row plans-cards-row--3">
 
@@ -552,6 +563,14 @@ async function loadMembershipSection() {
     document.getElementById('planContribMonthlyBtn')?.addEventListener('click', () => _showPaymentFlow('monthly', 'contributor'));
     document.getElementById('planContribQuarterlyBtn')?.addEventListener('click', () => _showPaymentFlow('quarterly', 'contributor'));
 
+    // Billing toggle
+    document.getElementById('billingAnnualBtn')?.addEventListener('click', () => {
+        if (_billingToggle !== 'annual') { _billingToggle = 'annual'; loadMembershipSection(); }
+    });
+    document.getElementById('billingMonthlyBtn')?.addEventListener('click', () => {
+        if (_billingToggle !== 'monthly') { _billingToggle = 'monthly'; loadMembershipSection(); }
+    });
+
     // Tab / Region buttons
     document.querySelectorAll('.plans-region-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -636,6 +655,16 @@ async function _loadMembershipLite() {
             </div>
 
 
+
+            <!-- Billing toggle -->
+            <div class="plans-billing-toggle">
+                <button class="plans-toggle-btn ${_billingToggle === 'annual' ? 'active' : ''}" id="liteBillingAnnualBtn">
+                    ${isES ? 'Anual' : 'Annual'} <span class="plans-save-badge">${isES ? 'Ahorrá' : 'Save'}</span>
+                </button>
+                <button class="plans-toggle-btn ${_billingToggle === 'monthly' ? 'active' : ''}" id="liteBillingMonthlyBtn">
+                    ${isES ? 'Mensual' : 'Monthly'}
+                </button>
+            </div>
 
             <!-- 2 plan cards -->
             <div class="plans-cards-row plans-cards-row--2">
@@ -763,6 +792,12 @@ async function _loadMembershipLite() {
     document.getElementById('liteFreeCta')?.addEventListener('click', () => showMainMenu());
     document.getElementById('liteTrialBtn')?.addEventListener('click', () => _startTrialFlow());
     document.getElementById('liteSubscribeBtn')?.addEventListener('click', () => _showPaymentFlow(_billingToggle, 'premium'));
+    document.getElementById('liteBillingAnnualBtn')?.addEventListener('click', () => {
+        if (_billingToggle !== 'annual') { _billingToggle = 'annual'; _loadMembershipLite(); }
+    });
+    document.getElementById('liteBillingMonthlyBtn')?.addEventListener('click', () => {
+        if (_billingToggle !== 'monthly') { _billingToggle = 'monthly'; _loadMembershipLite(); }
+    });
 }
 
 function _animateCounter(elId, from, to, duration) {
