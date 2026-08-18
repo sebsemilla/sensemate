@@ -1,0 +1,1237 @@
+[
+  {
+    "id": "fr_A1_gram_01",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "이다 (ser/estar) / Copule",
+    "bridge": "En espagnol, on utilise 'ser' et 'estar' comme verbes séparés, mais en coréen, il existe une seule copule : 이다. Cette particule s'ajoute à la fin du nom et change de forme selon la terminaison (예요/이에요). Contrairement à l'espagnol, il n'y a pas de conjugaison selon la personne : 'je suis', 'tu es' et 'il est' utilisent la même forme. De plus, en coréen, elle est souvent omise dans les conversations informelles, ce qui peut sembler étrange pour les hispanophones.",
+    "rule": "La copule coréenne 이다 sert à affirmer qu'une chose existe ou est. Elle se conjugue de manière formelle et informelle. Au niveau A1, les principales formes sont : 1) Présent informel : -이에요 / -예요 (après une consonne : -이에요 ; après une voyelle : -예요). Exemple : 책이에요 (c'est un livre), 의자예요 (c'est une chaise). 2) Présent formel : -입니다 (après consonne et voyelle). Exemple : 학생입니다 (je suis un étudiant). 3) Passé informel : -였어요 / -이었어요 (après une voyelle : -였어요 ; après une consonne : -이었어요). Exemple : 의사였어요 (j'étais médecin). 4) Négation : on n'utilise pas 'no es' avec une copule négative, mais avec 아니다 (ne pas être). Exemple : 아니에요 (ce n'est pas). Pour les questions, l'intonation monte ou on utilise la forme interrogative : -이에요? / -예요?. La copule est souvent omise dans les phrases complètes lorsque le contexte est clair, surtout dans un registre informel : '나 학생' au lieu de '나는 학생이에요'.",
+    "concept_examples": [
+      {
+        "text": "저는 학생이에요.",
+        "translation": "Je suis étudiant(e).",
+        "phonetic": "[dʑʌnɯn hak̚s͈ɛŋiejo]"
+      },
+      {
+        "text": "이것은 책이에요.",
+        "translation": "C'est un livre.",
+        "phonetic": "[iɡʌsʰɯn tɕʰɛk̚iejo]"
+      },
+      {
+        "text": "그분은 선생님이에요.",
+        "translation": "C'est une enseignante.",
+        "phonetic": "[kɯbunɯn sʰʌnsʰɛŋnimiejo]"
+      },
+      {
+        "text": "우리는 친구예요.",
+        "translation": "Nous sommes amis.",
+        "phonetic": "[uɾinɯn tɕʰinɡujejo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "나는 의사예요.",
+      "correct": "나는 의사예요.",
+      "correct_alt": "저는 의사예요.",
+      "explanation": "L'erreur ici consiste à utiliser '나는' au lieu de '저는' dans des situations formelles. '나' est la forme informelle de 'je', tandis que '저' est la forme formelle et polie. Comme la copule -예요 est déjà formelle, '저는' doit être utilisé pour maintenir la cohérence du registre. Les hispanophones ont tendance à toujours utiliser '나' car ils ne distinguent pas les niveaux de politesse dans le pronom personnel."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "현재 긍정 (Presente afirmativo)",
+        "translation": "Présent affirmatif",
+        "examples": [
+          {
+            "original": "저는 학생이에요.",
+            "phonetic": "[dʑʌnɯn hak̚s͈ɛŋiejo]",
+            "translation": "Je suis étudiant(e).",
+            "note": "Utilisez -이에요 après une consonne finale (학생)."
+          },
+          {
+            "original": "그것은 의자예요.",
+            "phonetic": "[kɯɡʌsʰɯn ɰidʑajejo]",
+            "translation": "C'est une chaise.",
+            "note": "Utilisez -예요 après une voyelle (의자, se termine par 'a')."
+          },
+          {
+            "original": "우리는 가족이에요.",
+            "phonetic": "[uɾinɯn kadʑoɡiejo]",
+            "translation": "Nous sommes une famille.",
+            "note": "La copule ne change pas selon la personne, contrairement à l'espagnol."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "부정 (Negación)",
+        "translation": "Négation",
+        "examples": [
+          {
+            "original": "저는 학생이 아니에요.",
+            "phonetic": "[dʑʌnɯn hak̚s͈ɛŋi aniejo]",
+            "translation": "Je ne suis pas étudiant(e).",
+            "note": "La négation utilise 아니다, pas une copule négative."
+          },
+          {
+            "original": "그것은 책이 아니에요.",
+            "phonetic": "[kɯɡʌsʰɯn tɕʰɛk̚i aniejo]",
+            "translation": "Ce n'est pas un livre.",
+            "note": "Ajoutez -이 (particule sujet) avant 아니에요."
+          },
+          {
+            "original": "저는 의사가 아니에요.",
+            "phonetic": "[dʑʌnɯn ɰisʰaɡa aniejo]",
+            "translation": "Je ne suis pas médecin.",
+            "note": "Avec une voyelle finale, la particule est -가."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "의문문과 과거 (Preguntas y pasado)",
+        "translation": "Questions et passé",
+        "examples": [
+          {
+            "original": "이것이 뭐예요?",
+            "phonetic": "[iɡʌɕi mwʌjejo]",
+            "translation": "Qu'est-ce que c'est ?",
+            "note": "Dans les questions, la même terminaison est utilisée mais avec une intonation montante."
+          },
+          {
+            "original": "저는 학생이었어요.",
+            "phonetic": "[dʑʌnɯn hak̚s͈ɛŋiʌs͈ʌjo]",
+            "translation": "J'étais étudiant(e).",
+            "note": "Passé informel : -이었어요 (après une consonne)."
+          },
+          {
+            "original": "그것은 빵이었어요.",
+            "phonetic": "[kɯɡʌsʰɯn p͈aŋiʌs͈ʌjo]",
+            "translation": "C'était du pain.",
+            "note": "Au passé, la voyelle finale ne change pas la terminaison : toujours -이었어요."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "fr": "Copule"
+    }
+  },
+  {
+    "id": "fr_A1_gram_02",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "인칭 대명사 / Pronoms personnels",
+    "bridge": "En coréen, les pronoms personnels (저, 나, 너, 그, 그녀, 우리, etc.) sont souvent omis car le contexte suffit généralement à identifier la personne dont on parle. Contrairement à l'espagnol, le coréen distingue le « nous » inclusif (우리) du « nous » exclusif (저희), et utilise différentes formes de « tu/vous » selon le niveau de politesse. De plus, le pronom « vous » formel (당신) est rarement utilisé à l'oral.",
+    "rule": "Les pronoms personnels coréens sont : 저 (jeo) = je (formel), 나 (na) = je (informel), 너 (neo) = tu (informel), 당신 (dangsin) = vous (formel, mais rarement utilisé), 그 (geu) = il, 그녀 (geunyeo) = elle, 저희 (jeohui) = nous (exclusif, formel), 우리 (uri) = nous (inclusif, aussi utilisé comme « notre »), 너희 (neohui) = vous (pluriel informel), 그들 (geudeul) = ils/elles. En coréen, les pronoms sont souvent omis quand le sujet est évident. Le pronom « tu » (너) ne s'emploie qu'avec des amis proches ou des personnes plus jeunes ; avec des inconnus ou des personnes âgées, on utilise le nom ou le titre de la personne, ou on omet simplement le pronom. « Il » et « elle » (그, 그녀) s'emploient surtout pour éviter les ambiguïtés.",
+    "concept_examples": [
+      {
+        "text": "저는 학생이에요.",
+        "translation": "Je suis étudiant(e).",
+        "phonetic": "[dʑʌnɯn haksɛŋiejo]"
+      },
+      {
+        "text": "너는 뭐 해?",
+        "translation": "Qu'est-ce que tu fais ? (informel)",
+        "phonetic": "[nʌnɯn mwʌ hɛ]"
+      },
+      {
+        "text": "그는 선생님이에요.",
+        "translation": "Il est professeur.",
+        "phonetic": "[kɯnɯn sʌnsɛŋnimiejo]"
+      },
+      {
+        "text": "우리는 가족이에요.",
+        "translation": "Nous sommes en famille.",
+        "phonetic": "[uɾinɯn kadʑogiejo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "나는 마리아예요. 너는 학생이에요?",
+      "correct": "저는 마리아예요. (Il/Elle) 학생이에요? (ou simplement : 학생이에요?)",
+      "correct_alt": "저는 마리아예요. 학생이에요?",
+      "explanation": "Une erreur courante consiste à utiliser « 너 » (tu) dans des situations formelles ou avec des inconnus, ainsi qu'à surutiliser les pronoms. En coréen, pour parler poliment, on utilise « 저 » pour « je » et on évite « 너 » avec des personnes plus âgées ou des inconnus : on préfère utiliser leur nom ou leur titre, ou omettre simplement le sujet. De plus, lorsque l'on demande « Tu es étudiant(e) ? », le pronom « tu » peut être omis car le contexte le rend évident."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "기본 인칭 대명사 / Pronoms de base",
+        "translation": "Pronoms de base (je, tu, nous)",
+        "examples": [
+          {
+            "original": "저는 김민수예요.",
+            "phonetic": "[dʑʌnɨn kim minsujɛjo]",
+            "translation": "Je suis Kim Min-su.",
+            "note": "'저' est la forme polie de 'je', utilisée avec des inconnus ou dans des situations formelles."
+          },
+          {
+            "original": "나는 학생이야.",
+            "phonetic": "[na nɨn haksɛŋija]",
+            "translation": "Je suis étudiant(e). (informel)",
+            "note": "'나' est la forme informelle de 'je', utilisée avec des amis ou des personnes de confiance."
+          },
+          {
+            "original": "우리는 친구예요.",
+            "phonetic": "[uɾinɨn tɕʰiŋu jɛjo]",
+            "translation": "Nous sommes amis.",
+            "note": "'우리' signifie 'nous' de manière inclusive et peut inclure la personne à qui l'on parle."
+          },
+          {
+            "original": "너는 뭐 먹어?",
+            "phonetic": "[nʌnɨn mwʌ mʌgʌ]",
+            "translation": "Qu'est-ce que tu manges ? (informel)",
+            "note": "'너' ne s'emploie qu'avec des amis proches ou des personnes plus jeunes. Dans les autres cas, il vaut mieux l'omettre ou utiliser le nom de la personne."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "3인칭 대명사 / Pronoms de la 3e personne",
+        "translation": "Pronoms de la 3e personne (il, elle, ils/elles)",
+        "examples": [
+          {
+            "original": "그는 의사예요.",
+            "phonetic": "[kɯnɨn ɰi sa jɛjo]",
+            "translation": "Il est médecin.",
+            "note": "'그' signifie 'il', mais peut aussi signifier 'ce' comme déterminant."
+          },
+          {
+            "original": "그녀는 예뻐요.",
+            "phonetic": "[kɯn jʌnɨn jɛ ppɔjo]",
+            "translation": "Elle est belle.",
+            "note": "'그녀' s'emploie surtout à l'écrit ; à l'oral, on l'omet généralement ou on utilise le nom de la personne."
+          },
+          {
+            "original": "그들은 한국 사람이에요.",
+            "phonetic": "[kɯdɯlɨn hanɡuk saram iejo]",
+            "translation": "Ils sont coréens.",
+            "note": "'그들' signifie 'ils/elles', mais s'emploie moins qu'en espagnol ; il est souvent omis."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "소유격과 생략 / Possessifs et omission",
+        "translation": "Possessifs et omission des pronoms",
+        "examples": [
+          {
+            "original": "우리 집",
+            "phonetic": "[uɾi tɕip]",
+            "translation": "Notre maison",
+            "note": "'우리' s'emploie comme possessif inclusif : 'notre maison'."
+          },
+          {
+            "original": "제 책이에요.",
+            "phonetic": "[tɕe tɕʰɛɡiejo]",
+            "translation": "C'est mon livre.",
+            "note": "'제' est la forme possessive polie de 'je', au lieu de '나의'."
+          },
+          {
+            "original": "지금 뭐 해요?",
+            "phonetic": "[tɕiɡɯm mwʌ hɛjo]",
+            "translation": "Qu'est-ce que tu fais maintenant ? (sans pronom)",
+            "note": "En coréen, le sujet est souvent omis quand il est évident d'après le contexte. Ici, 'tu' n'est pas exprimé."
+          }
+        ]
+      }
+    ],
+    "emoji": "👤",
+    "phonetic": "",
+    "translations": {
+      "fr": "Pronoms personnels"
+    }
+  },
+  {
+    "id": "fr_A1_gram_03",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "관사 없음 (Absence d'articles)",
+    "bridge": "En espagnol, on utilise toujours des articles définis et indéfinis (el, la, un, una) devant les noms. En coréen, en revanche, il n'y a pas d'articles ! Cela signifie que vous n'avez pas à choisir entre 'el' et 'un' en parlant. À la place, le coréen utilise des particules (이/가, 은/는) pour indiquer la fonction du mot dans la phrase, ce qui peut sembler inhabituel au début. L'important est que le contexte et l'ordre des mots fournissent les informations que les articles donnent en espagnol.",
+    "rule": "En coréen, les noms s'emploient sans article. Il n'y a pas d'équivalent à 'el', 'la', 'un' ou 'una'. La spécificité ou la généralité est comprise grâce au contexte ou indiquée avec des particules de thème comme 은/는 (thème) ou 이/가 (sujet). Par exemple, '사과' (pomme) peut signifier 'une pomme', 'la pomme' ou 'des pommes' selon le contexte. Pour parler d'une chose spécifique, des démonstratifs comme '이' (ce), '그' (ce) ou '저' (ce là-bas) peuvent être utilisés avant le nom, mais ils ne sont pas obligatoires comme ils le sont en espagnol.",
+    "concept_examples": [
+      {
+        "text": "사과를 먹어요.",
+        "translation": "Je mange une pomme / Je mange la pomme.",
+        "phonetic": "[sa.gwa.reul meo.geo.yo]"
+      },
+      {
+        "text": "물을 마셔요.",
+        "translation": "Je bois de l'eau.",
+        "phonetic": "[mu.reul ma.syeo.yo]"
+      },
+      {
+        "text": "이 책은 재미있어요.",
+        "translation": "Ce livre est intéressant.",
+        "phonetic": "[i chae.geun jae.mi.i.sseo.yo]"
+      },
+      {
+        "text": "나는 학생이에요.",
+        "translation": "Je suis un étudiant / Je suis étudiant.",
+        "phonetic": "[na.neun hak.saeng.i.e.yo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "저는 하나 사과를 먹어요.",
+      "correct": "저는 사과를 먹어요.",
+      "correct_alt": "",
+      "explanation": "Les hispanophones ont souvent tendance à utiliser '하나' (un) comme article indéfini, mais en coréen, il ne s'emploie que pour compter explicitement (un, pas deux). Dire '하나 사과' est incorrect ; il suffit de dire '사과' sans article."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "기본 명사 (Sustantivos básicos)",
+        "translation": "Noms de base",
+        "examples": [
+          {
+            "original": "책",
+            "phonetic": "[chaek]",
+            "translation": "livre / un livre / le livre",
+            "note": "Le nom seul, sans article, peut avoir n'importe quel sens selon le contexte."
+          },
+          {
+            "original": "물",
+            "phonetic": "[mul]",
+            "translation": "eau",
+            "note": "En coréen, les noms massifs comme 'eau' ne prennent pas d'articles."
+          },
+          {
+            "original": "의자",
+            "phonetic": "[ui.ja]",
+            "translation": "chaise / une chaise",
+            "note": "Observez qu'il n'y a pas de différence entre défini et indéfini."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "지시 대명사 (Pronombres demostrativos)",
+        "translation": "Pronoms démonstratifs",
+        "examples": [
+          {
+            "original": "이 사과",
+            "phonetic": "[i sa.gwa]",
+            "translation": "cette pomme",
+            "note": "'이' s'emploie pour quelque chose de proche du locuteur."
+          },
+          {
+            "original": "그 사과",
+            "phonetic": "[geu sa.gwa]",
+            "translation": "cette pomme (près de l'interlocuteur)",
+            "note": "'그' s'emploie pour quelque chose près de l'interlocuteur ou déjà mentionné."
+          },
+          {
+            "original": "저 사과",
+            "phonetic": "[jeo sa.gwa]",
+            "translation": "cette pomme là-bas (loin des deux)",
+            "note": "'저' s'emploie pour quelque chose de loin des deux."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "수와 양 표현 (Expresiones de cantidad)",
+        "translation": "Expressions de quantité",
+        "examples": [
+          {
+            "original": "사과 한 개",
+            "phonetic": "[sa.gwa han gae]",
+            "translation": "une pomme (une unité)",
+            "note": "Pour compter, on utilise un numéral plus un classificateur (ici 개 pour les objets)."
+          },
+          {
+            "original": "물 한 잔",
+            "phonetic": "[mul han jan]",
+            "translation": "un verre d'eau",
+            "note": "Pour les noms massifs, on utilise un classificateur de mesure (잔 = verre)."
+          },
+          {
+            "original": "사람들이 많아요.",
+            "phonetic": "[sa.ram.deu.ri ma.na.yo]",
+            "translation": "Il y a beaucoup de gens.",
+            "note": "'들' indique le pluriel, mais il n'est pas toujours nécessaire de l'utiliser."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚫",
+    "phonetic": "",
+    "translations": {
+      "fr": "Absence d'articles en coréen"
+    }
+  },
+  {
+    "id": "fr_A1_gram_04",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "명사의 성과 수 / Genre et nombre des noms",
+    "bridge": "En espagnol, les noms ont un genre (masculin/féminin) et un nombre (singulier/pluriel), ce qui influence les articles et les adjectifs. En coréen, les noms n'ont pas de genre grammatical : il n'y a pas de différence entre « el » et « la », ni entre masculin et féminin. De plus, le pluriel est marqué par la particule « 들 » (deul), mais son utilisation est bien moins fréquente qu'en espagnol. Les hispanophones ont tendance à ajouter « 들 » à tous les noms pluriels, mais en coréen, cela est souvent omis car le contexte ou les nombres indiquent déjà le pluriel. Il est aussi courant d'essayer d'utiliser des articles ou des marqueurs de genre, mais ceux-ci n'existent pas en coréen. L'essentiel est de comprendre que le coréen est plus flexible et s'appuie sur le contexte.",
+    "rule": "En coréen, le genre des noms n'est pas exprimé grammaticalement. Le même mot est utilisé pour « el », « la », « los » ou « las ». Pour indiquer le pluriel, on ajoute la particule « 들 » (deul) au nom, mais son utilisation est facultative et dépend du contexte. « 들 » est principalement employé lorsqu'il est nécessaire de préciser qu'il y a plus d'une personne ou d'un objet, en particulier avec des personnes ou lorsque le nombre n'est pas spécifié. Si un nombre est mentionné (par exemple, « 두 명 » = deux personnes) ou qu'un quantificateur est utilisé, « 들 » est généralement omis. Exemples de pluriels : « 사람들 » (saramdeul - personnes), « 친구들 » (chingudeul - amis). Il existe également des mots qui indiquent intrinsèquement le pluriel, comme « 우리 » (nous/nos) ou « 여러분 » (vous tous). Pour le niveau A1, il est important de savoir qu'il n'y a pas d'accord en genre ou en nombre pour les adjectifs ou les verbes, car ceux-ci ne changent pas selon le nom. Les noms peuvent être utilisés seuls, sans article, et le nombre se déduit du contexte ou de mots comme « 하나 » (un), « 둘 » (deux), etc.",
+    "concept_examples": [
+      {
+        "text": "사람이 있어요.",
+        "translation": "Il y a une personne.",
+        "phonetic": "[saram-i isseoyo]"
+      },
+      {
+        "text": "친구가 많아요.",
+        "translation": "J'ai beaucoup d'amis.",
+        "phonetic": "[chingu-ga manayo]"
+      },
+      {
+        "text": "이것은 책이에요.",
+        "translation": "Ceci est un livre.",
+        "phonetic": "[igeoteun chaeg-ieyo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "저는 친구들 두 명이 있어요.",
+      "correct": "저는 친구 두 명이 있어요.",
+      "correct_alt": "저는 친구가 두 명 있어요.",
+      "explanation": "En coréen, lorsqu'un nombre précis comme « 두 명 » (deux personnes) est utilisé, on n'ajoute pas « 들 », car le nombre indique déjà le pluriel. De plus, « 친구들 » serait redondant dans cette phrase. La structure correcte est « 친구 두 명 » ou « 친구가 두 명 » (sujet avec particule). Les hispanophones ont tendance à ajouter « 들 » par analogie avec les pluriels espagnols, mais en coréen, cela est inutile et sonne peu naturel."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "명사의 기본 (기본 명사)",
+        "translation": "Noms de base",
+        "examples": [
+          {
+            "original": "사람",
+            "phonetic": "[saram]",
+            "translation": "personne",
+            "note": "En coréen, ce mot peut signifier « personne » ou « personnes » selon le contexte. Il n'y a pas de différence de genre."
+          },
+          {
+            "original": "책",
+            "phonetic": "[chaek]",
+            "translation": "livre",
+            "note": "Les noms n'ont pas d'articles. On ne dit pas « un livre » ou « le livre » ; on utilise simplement « 책 »."
+          },
+          {
+            "original": "집",
+            "phonetic": "[jip]",
+            "translation": "maison",
+            "note": "Le pluriel se forme en ajoutant « 들 » (집들 = maisons), mais ce n'est pas toujours nécessaire."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "복수 표현 (들)",
+        "translation": "Expression du pluriel (들)",
+        "examples": [
+          {
+            "original": "사람들이 많아요.",
+            "phonetic": "[saramdeuri manayo]",
+            "translation": "Il y a beaucoup de gens.",
+            "note": "Ici, « 들 » est utilisé pour insister sur le fait qu'il y a plusieurs personnes, mais on pourrait aussi dire « 사람이 많아요 » et cela serait compris de la même manière."
+          },
+          {
+            "original": "친구들과 같이 영화를 봐요.",
+            "phonetic": "[chingudeulgwa gachi yeonghwareul bwayo]",
+            "translation": "Je regarde un film avec mes amis.",
+            "note": "« 친구들 » (amis) est un exemple courant où « 들 » est généralement utilisé."
+          },
+          {
+            "original": "사과 두 개 주세요.",
+            "phonetic": "[sagwa du gae juseyo]",
+            "translation": "Donnez-moi deux pommes, s'il vous plaît.",
+            "note": "Lorsqu'un nombre et un compteur sont utilisés, « 들 » n'est pas nécessaire."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "수사와 양사 (숫자와 셀 때)",
+        "translation": "Nombres et compteurs (quand on compte)",
+        "examples": [
+          {
+            "original": "한 명",
+            "phonetic": "[han myeong]",
+            "translation": "une personne",
+            "note": "« 명 » est un compteur pour les personnes. « 들 » n'est pas utilisé car « 한 명 » indique déjà le singulier."
+          },
+          {
+            "original": "두 개",
+            "phonetic": "[du gae]",
+            "translation": "deux choses (unités)",
+            "note": "« 개 » est un compteur général pour les objets. Le pluriel n'est pas ajouté avec les nombres."
+          },
+          {
+            "original": "세 마리",
+            "phonetic": "[se mari]",
+            "translation": "trois animaux",
+            "note": "« 마리 » est le compteur pour les animaux. Notez qu'il n'y a ni genre ni article."
+          }
+        ]
+      }
+    ],
+    "emoji": "👥",
+    "phonetic": "",
+    "translations": {
+      "fr": "Genre et nombre des noms"
+    }
+  },
+  {
+    "id": "fr_A1_gram_05",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "규칙 동사의 현재 시제 / Présent des verbes réguliers",
+    "bridge": "En espagnol, les verbes réguliers se terminent par -ar, -er, -ir et nous les conjuguons en modifiant la terminaison selon le sujet (hablo, hablas, habla...). En coréen, les verbes se terminent toujours par -다 (par exemple, 가다 = aller) et se conjuguent en ajoutant une terminaison au radical après avoir retiré -다. Contrairement à l'espagnol, le verbe en coréen ne change pas selon la personne ; la même terminaison fonctionne pour je, tu, il/elle, nous, vous, et ils/elles. De plus, le verbe se place toujours à la fin de la phrase, alors qu'en espagnol il vient généralement après le sujet. Les hispanophones ont du mal à choisir entre -아요, -어요 et -여요 en fonction de la voyelle du radical, ainsi qu'avec les contractions qui surviennent dans certains cas.",
+    "rule": "En coréen, les verbes réguliers au présent se forment comme suit : 1) Prenez le verbe sous sa forme de dictionnaire (se termine par -다). 2) Retirez -다 pour obtenir le radical. 3) Ajoutez la terminaison appropriée selon la voyelle du radical : - Si le radical se termine par la voyelle ㅏ (a) ou ㅗ (o), ajoutez -아요. (par exemple, 가다 → 가 + 아요 → 가요, car il y a contraction) - Si le radical se termine par toute autre voyelle (ㅓ, ㅜ, ㅣ, ㅔ, ㅐ, ㅡ, etc.), ajoutez -어요. (par exemple, 먹다 → 먹 + 어요 → 먹어요 ; 기다리다 → 기다리 + 어요 → 기다려요, contraction) - Si le radical se termine par 하 (hada), ajoutez -여요 (souvent contracté en 해요). (par exemple, 공부하다 → 공부하여요 → 공부해요). De plus, il existe des règles de contraction : - 가 + 아요 → 가요 (ㅏ n'est pas doublé) - 오 + 아요 → 와요 (오 + 아 = 와) - ㅣ + 어요 → 여요 (기다리 + 어요 → 기다려요) - 우 + 어요 → 워요 (배우 + 어요 → 배워요) - ㅜ + 어요 → 워요 (주 + 어요 → 줘요) - ㅡ + 어요 → ㅓ (크다 + 어요 → 커요) - 하 + 여요 → 해요. Les verbes sont invariables pour toutes les personnes ; il n'y a pas de distinction de conjugaison selon le sujet. Le verbe se place toujours à la fin de la phrase. Dans un registre formel, -습니다 / -ㅂ니다 est également utilisé, mais au niveau A1, on enseigne d'abord les formes polies informelles avec -아요/어요, car ce sont les plus courantes dans les conversations quotidiennes.",
+    "concept_examples": [
+      {
+        "text": "저는 매일 한국어를 공부해요.",
+        "translation": "J'étudie le coréen tous les jours.",
+        "phonetic": "[d͡ʑʌnɯn mɛil haŋɡuɡʌɾɯl koŋbuhejo]"
+      },
+      {
+        "text": "우리는 커피를 마셔요.",
+        "translation": "Nous buvons du café.",
+        "phonetic": "[uɾinɯn kʰʌpʰiɾɯl maɕjʌjo]"
+      },
+      {
+        "text": "친구가 학교에 가요.",
+        "translation": "L'ami va à l'école.",
+        "phonetic": "[tɕʰinɡuɡa haɡjoɛ ka jo]"
+      },
+      {
+        "text": "저는 음악을 들어요.",
+        "translation": "J'écoute de la musique.",
+        "phonetic": "[d͡ʑʌnɯn ɯmaɡɯl tɯɾʌjo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "저는 학교에 갔어요.",
+      "correct": "저는 학교에 가요.",
+      "correct_alt": "저는 학교에 갑니다.",
+      "explanation": "L'erreur consiste à utiliser 갔어요, qui est la forme du passé (je suis allé(e)), pour exprimer le présent. Cela arrive parce que certains étudiants confondent la terminaison -아요 avec le passé -았어요. Rappelez-vous que pour le présent, on utilise -아요/-어요 ; le passé se forme avec -았/었어요. De plus, il est courant d'omettre les contractions : au lieu de dire '가아요', vous devez dire '가요'. Entraînez-vous à identifier les voyelles et à appliquer correctement les contractions."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "규칙 동사의 기본 형태",
+        "translation": "Forme de base des verbes réguliers",
+        "examples": [
+          {
+            "original": "가다 (ir)",
+            "phonetic": "[kada]",
+            "translation": "aller",
+            "note": "En coréen, les verbes sont présentés à l'infinitif avec la terminaison -다."
+          },
+          {
+            "original": "먹다 (comer)",
+            "phonetic": "[mʌk̚t͈a]",
+            "translation": "manger",
+            "note": "Le radical est '먹' (obtenu en retirant -다)."
+          },
+          {
+            "original": "배우다 (aprender)",
+            "phonetic": "[pɛuda]",
+            "translation": "apprendre",
+            "note": "Notez que '배우다' a le radical '배우' se terminant par la voyelle 'ㅜ'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "-아요/-어요 형태 만들기",
+        "translation": "Former les terminaisons -아요/-어요",
+        "examples": [
+          {
+            "original": "가요.",
+            "phonetic": "[kajo]",
+            "translation": "Je vais / Tu vas / Il/Elle va, etc.",
+            "note": "Contraction de 가 + 아요 → 가요. La personne est déterminée par le contexte."
+          },
+          {
+            "original": "먹어요.",
+            "phonetic": "[mʌɡʌjo]",
+            "translation": "Je mange / Tu manges / Il/Elle mange",
+            "note": "Le radical '먹' se termine par une consonne, donc on utilise -어요."
+          },
+          {
+            "original": "배워요.",
+            "phonetic": "[pɛwʌjo]",
+            "translation": "J'apprends / Tu apprends / Il/Elle apprend",
+            "note": "Contraction de 배우 + 어요 → 배워요. La voyelle 'ㅜ' se combine avec 'ㅓ' pour former 'ㅝ'."
+          },
+          {
+            "original": "공부해요.",
+            "phonetic": "[koŋbuhejo]",
+            "translation": "J'étudie / Tu étudies / Il/Elle étudie",
+            "note": "Les verbes se terminant par '하다' deviennent '해요' (하 + 여 → 해)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "부정문과 의문문",
+        "translation": "Phrases négatives et interrogatives",
+        "examples": [
+          {
+            "original": "안 가요.",
+            "phonetic": "[an kajo]",
+            "translation": "Je ne vais pas / Tu ne vas pas / Il/Elle ne va pas",
+            "note": "Pour nier, placez '안' avant le verbe conjugué."
+          },
+          {
+            "original": "학교에 가요?",
+            "phonetic": "[haɡjoɛ kajo]",
+            "translation": "Tu vas à l'école ?",
+            "note": "En coréen, l'intonation montante transforme la phrase en question. L'ordre des mots ne change pas."
+          },
+          {
+            "original": "안 먹어요.",
+            "phonetic": "[an mʌɡʌjo]",
+            "translation": "Je ne mange pas / Tu ne manges pas / Il/Elle ne mange pas",
+            "note": "La négation avec '안' s'utilise pour les verbes d'action et les adjectifs."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "fr": "Présent des verbes réguliers"
+    }
+  },
+  {
+    "id": "fr_A1_gram_06",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "부정 (Négation de base)",
+    "bridge": "En espagnol, on utilise 'no' avant le verbe, mais en coréen, la négation se structure différemment : on peut utiliser '안' + verbe (pour les verbes d'action) ou ne pas utiliser '안' avec le verbe '있어요' (avoir/exister), qui devient alors '없어요'. De plus, en coréen, le verbe se place à la fin de la phrase, donc 'no' se place juste avant le verbe, et non au début de la phrase comme en espagnol. Par ailleurs, '못' est souvent utilisé pour exprimer l'incapacité ou l'impossibilité, comme 'ne pas pouvoir' en espagnol.",
+    "rule": "En coréen, la négation de base se forme principalement de deux manières : avec '안' + verbe (ou adjectif) pour nier une action ou un état, et avec '못' + verbe pour exprimer qu'une action ne peut pas être réalisée (par manque d'aptitude ou de circonstances). Exemples : '안 가요' (Je ne vais pas), '못 가요' (Je ne peux pas y aller). Pour le verbe '있다' (avoir/exister), la forme négative est '없다' (ne pas avoir/ne pas exister) et '없어요' (il n'y a pas). Il existe aussi la forme '지 않다' (plus formelle et emphatique), qui s'ajoute après le radical du verbe : '가지 않아요' (Je ne vais pas). Au niveau A1, on se concentre sur '안' et '없어요'. Pour les adjectifs, on utilise aussi '안' + adjectif : '안 커요' (ce n'est pas grand). Dans les phrases avec '있어요' (il y a), la négation est '없어요' (il n'y a pas). La particule du sujet '이/가' change en '이/가' avec '없어요' comme avec '있다', mais attention : la particule de l'objet direct '을/를' reste inchangée.",
+    "concept_examples": [
+      {
+        "text": "안 가요.",
+        "translation": "Je ne vais pas.",
+        "phonetic": "[an ka.jo]"
+      },
+      {
+        "text": "물이 없어요.",
+        "translation": "Il n'y a pas d'eau.",
+        "phonetic": "[mu.ri əp.sʰʌ.jo]"
+      },
+      {
+        "text": "못 먹어요.",
+        "translation": "Je ne peux pas manger.",
+        "phonetic": "[mot̚ mʌ.gʌ.jo]"
+      },
+      {
+        "text": "안 커요.",
+        "translation": "Ce n'est pas grand.",
+        "phonetic": "[an kʰʌ.jo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "안 있어요.",
+      "correct": "없어요.",
+      "correct_alt": "안 있어요 (dans certains contextes, mais non standard ; '없어요' est préférable)",
+      "explanation": "Les hispanophones ont tendance à traduire littéralement 'no hay' par '안 있어요', mais en coréen, la forme négative de '있어요' est '없어요'. '안 있어요' peut sembler étrange ou ne pas être accepté dans la plupart des contextes. Il est plus naturel et correct d'utiliser directement '없어요'. N'oubliez pas que '있다' a sa propre forme négative irrégulière."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "안 + 동사",
+        "translation": "안 + verbe (négation générale)",
+        "examples": [
+          {
+            "original": "안 먹어요.",
+            "phonetic": "[an mʌ.gʌ.jo]",
+            "translation": "Je ne mange pas.",
+            "note": "On utilise '안' avant le verbe pour nier une action."
+          },
+          {
+            "original": "안 자요.",
+            "phonetic": "[an tɕa.jo]",
+            "translation": "Je ne dors pas.",
+            "note": "Ça fonctionne de la même manière avec les verbes d'action."
+          },
+          {
+            "original": "안 배고파요.",
+            "phonetic": "[an pɛ.go.pʰa.jo]",
+            "translation": "Je n'ai pas faim.",
+            "note": "S'utilise aussi avec des adjectifs comme '배고프다'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "없어요",
+        "translation": "Ne pas avoir / ne pas exister (négation d'existence)",
+        "examples": [
+          {
+            "original": "시간이 없어요.",
+            "phonetic": "[ɕi.ga.ni əp.sʰʌ.jo]",
+            "translation": "Je n'ai pas le temps.",
+            "note": "'없어요' est la forme négative de '있어요' (avoir)."
+          },
+          {
+            "original": "친구가 없어요.",
+            "phonetic": "[tɕʰin.ɡu.ɡa əp.sʰʌ.jo]",
+            "translation": "Je n'ai pas d'amis.",
+            "note": "S'utilise avec la particule du sujet '가' comme avec '있다'."
+          },
+          {
+            "original": "돈이 없어요.",
+            "phonetic": "[to.ni əp.sʰʌ.jo]",
+            "translation": "Il n'y a pas d'argent / Je n'ai pas d'argent.",
+            "note": "Peut signifier à la fois 'il n'y a pas' et 'je n'ai pas' selon le contexte."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "못 + 동사",
+        "translation": "못 + verbe (impossibilité)",
+        "examples": [
+          {
+            "original": "못 가요.",
+            "phonetic": "[mot̚ ka.jo]",
+            "translation": "Je ne peux pas y aller.",
+            "note": "Exprime qu'on ne peut pas faire quelque chose pour une raison quelconque."
+          },
+          {
+            "original": "못 읽어요.",
+            "phonetic": "[mo.dil.gʌ.jo]",
+            "translation": "Je ne peux pas lire.",
+            "note": "Quand le verbe commence par une voyelle, '못' se prononce comme faisant partie de la syllabe suivante."
+          },
+          {
+            "original": "못 해요.",
+            "phonetic": "[mo.te.jo]",
+            "translation": "Je ne peux pas le faire.",
+            "note": "Faites attention à la prononciation : '못 해요' devient [mo.te.jo]."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚫",
+    "phonetic": "",
+    "translations": {
+      "fr": "Négation de base"
+    }
+  },
+  {
+    "id": "fr_A1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "기본 질문 / Questions de base",
+    "bridge": "En espagnol, les questions se forment souvent en inversant l'ordre des mots ou en ajoutant des points d'interrogation, et l'intonation permet de les distinguer des affirmations. En coréen, en revanche, l'ordre des mots ne change pas : on ajoute simplement une particule interrogative à la fin (par exemple, ~까? ou ~요?) et on conserve l'ordre Sujet-Objet-Verbe. Une autre différence importante est que les questions avec mots interrogatifs (quoi, qui, où, etc.) placent ces mots au même endroit que dans une phrase affirmative, mais avec des mots spécifiques comme 뭐 (quoi), 누구 (qui), 어디 (où). Pour les hispanophones, la difficulté principale est de se souvenir que la particule interrogative se place à la fin, et non au début, et que le verbe termine toujours la phrase.",
+    "rule": "En coréen niveau A1, les questions de base se forment de deux manières principales :\n1. **Questions fermées (oui/non)** : Ajoutez la terminaison -아요/~어요 (poli informel) ou -까? (formel) au verbe ou à l'adjectif. Exemples : 가요? (Vous y allez ?), 먹어요? (Vous mangez ?), 좋아요? (C'est bien ?). En registre formel : 갑니까? (Vous y allez ?), 먹습니까? (Vous mangez ?).\n2. **Questions ouvertes (avec mots interrogatifs)** : Utilisez des mots interrogatifs (의문사) et la particule interrogative à la fin, comme pour les questions fermées. Les mots courants sont : 뭐 (quoi), 누구 (qui), 어디 (où), 언제 (quand), 왜 (pourquoi), 어떻게 (comment), 몇 (combien). Ils se placent à l'endroit de l'élément interrogé, et le verbe termine la phrase. Exemples : 뭐 해요? (Qu'est-ce que vous faites ?), 누구예요? (Qui est-ce ?), 어디 가요? (Où allez-vous ?).\n3. **Particule de thème/emphasis** : Dans les questions avec 'quoi' ou 'qui', la particule -은/는 est souvent utilisée pour le thème, mais ce n'est pas obligatoire. Exemple : 이거 뭐예요? (Qu'est-ce que c'est ? littéralement 'ceci quoi est ?').\n4. **Utilisation de '이에요/예요'** : Pour les questions d'identité (Qui est ? Qu'est-ce que c'est ?), on utilise le copule 이에요/예요 (être). Exemple : 누구예요? (Qui est-ce ?), 뭐예요? (Qu'est-ce que c'est ?).\n5. **Intonation** : En coréen, l'intonation montante n'est pas nécessaire pour les questions fermées ; la particule finale indique déjà qu'il s'agit d'une question. Cependant, une intonation montante peut être utilisée dans des contextes informels.\n6. **Erreurs courantes des hispanophones** : Ne pas omettre la particule interrogative ; dire '뭐 해' sans la terminaison polie sonne trop abrupt. Évitez aussi de traduire littéralement '¿Qué es?' par '뭐 이다' (quoi être) sans utiliser le copule correct.",
+    "concept_examples": [
+      {
+        "text": "이거 뭐예요?",
+        "translation": "Qu'est-ce que c'est ?",
+        "phonetic": "[i.gʌ mu.je.jo]"
+      },
+      {
+        "text": "친구가 있어요?",
+        "translation": "Tu as des amis ?",
+        "phonetic": "[tɕʰin.ɡu.ɡa i.sʌ.jo]"
+      },
+      {
+        "text": "어디 가요?",
+        "translation": "Où vas-tu ?",
+        "phonetic": "[ʌ.di ka.jo]"
+      },
+      {
+        "text": "한국어를 공부해요?",
+        "translation": "Tu étudies le coréen ?",
+        "phonetic": "[han.ɡu.ɡʌ.lɯl koŋ.bu.hɛ.jo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "뭐 해? (sans terminaison polie, trop abrupt)",
+      "correct": "뭐 해요?",
+      "correct_alt": "무엇을 해요? (plus formel)",
+      "explanation": "L'erreur courante consiste à omettre la particule interrogative ou la terminaison polie, surtout en transférant directement la structure espagnole de '¿Qué haces?'. En coréen, les questions se forment en ajoutant -요 (ou -까 à l'écrit formel) au verbe ou à l'adjectif, ce qui est essentiel pour la politesse et le naturel. Ainsi, '뭐 해' sonne comme un cri ou un langage enfantin ; la forme correcte est '뭐 해요?'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "의문사 연습",
+        "translation": "Pratique avec les mots interrogatifs",
+        "examples": [
+          {
+            "original": "뭐 먹어요?",
+            "phonetic": "[mʷʌ mʌ.ɡʌ.jo]",
+            "translation": "Qu'est-ce que tu manges ?",
+            "note": "Le mot '뭐' (quoi) sert à demander des choses. Le verbe '먹다' (manger) est conjugué au présent poli."
+          },
+          {
+            "original": "누구예요?",
+            "phonetic": "[nu.ɡu.je.jo]",
+            "translation": "Qui est-ce ?",
+            "note": "'누구' signifie 'qui'. Il est utilisé avec le copule '이에요/예요' pour demander une identité."
+          },
+          {
+            "original": "어디에 살아요?",
+            "phonetic": "[ʌ.di.e sa.ɾa.jo]",
+            "translation": "Où habites-tu ?",
+            "note": "'어디' signifie 'où'. La particule de lieu '-에' et le verbe '살다' (habiter) sont ajoutés."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "예/아니오 질문",
+        "translation": "Questions fermées (oui/non)",
+        "examples": [
+          {
+            "original": "학생이에요?",
+            "phonetic": "[hak.sɛŋ.i.e.jo]",
+            "translation": "Tu es étudiant(e) ?",
+            "note": "Le copule '이에요' (être) est utilisé pour demander une identité ou un état. L'intonation peut être plate ou montante."
+          },
+          {
+            "original": "한국 음식을 좋아해요?",
+            "phonetic": "[han.ɡuk ɯm.ɕi.ɡɯl tɕo.a.hɛ.jo]",
+            "translation": "Tu aimes la nourriture coréenne ?",
+            "note": "Le verbe '좋아하다' (aimer) est conjugué avec -아/어요. La particule d'objet '-을/를' est utilisée avant lui."
+          },
+          {
+            "original": "내일 만나요?",
+            "phonetic": "[nɛ.il man.na.jo]",
+            "translation": "On se voit demain ?",
+            "note": "La terminaison -아/어요 est utilisée pour le présent/futur proche. Dans le contexte, cela peut signifier 'Tu me vois demain ?'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "종합 연습",
+        "translation": "Pratique globale",
+        "examples": [
+          {
+            "original": "어디에서 한국어를 배워요?",
+            "phonetic": "[ʌ.di.e.sʌ han.ɡu.ɡʌ.lɯl pɛ.wʌ.jo]",
+            "translation": "Où apprends-tu le coréen ?",
+            "note": "Combine '어디' (où) + '에서' (particule de lieu) et le verbe '배우다' (apprendre). Notez l'ordre : adverbe de lieu + objet + verbe."
+          },
+          {
+            "original": "언제 한국에 왔어요?",
+            "phonetic": "[ʌn.dʑe han.ɡu.ge wa.ssʌ.jo]",
+            "translation": "Quand es-tu venu(e) en Corée ?",
+            "note": "'언제' signifie 'quand'. Il est utilisé avec le passé -았/었어요. Ici, '왔어요' est la forme passée de '오다' (venir)."
+          },
+          {
+            "original": "친구가 몇 명 있어요?",
+            "phonetic": "[tɕʰin.ɡu.ɡa mjʌt mjʌŋ i.sʌ.jo]",
+            "translation": "Combien d'amis as-tu ?",
+            "note": "'몇' est utilisé pour les nombres, et '명' est le classificateur pour les personnes. Cela demande littéralement 'combien de personnes ?'."
+          }
+        ]
+      }
+    ],
+    "emoji": "❓",
+    "phonetic": "",
+    "translations": {
+      "fr": "Questions de base"
+    }
+  },
+  {
+    "id": "fr_A1_gram_08",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "숫자 1-100 / Nombres de 1 à 100",
+    "bridge": "En espagnol, les nombres ont un genre et des variations (uno/una, veintiuno/veintiuna), mais en coréen, les nombres sont invariables et ne changent pas selon le genre. De plus, le coréen possède deux systèmes de numération : le système coréen natif (하나, 둘, 셋...) et le système sino-coréen (일, 이, 삼...). Pour compter de 1 à 100, il faut maîtriser les deux, car ils sont utilisés dans des contextes différents. Une erreur fréquente consiste à les mélanger : par exemple, pour dire l'heure, on utilise le système natif, mais pour compter de l'argent, on utilise le système sino-coréen.",
+    "rule": "En coréen, il existe deux systèmes de numération : le système coréen natif (하나, 둘, 셋, 넷, 다섯, 여섯, 일곱, 여덟, 아홉, 열) et le système sino-coréen (일, 이, 삼, 사, 오, 육, 칠, 팔, 구, 십). Pour les nombres de 1 à 10, il faut mémoriser les deux formes. Tous les nombres composés se forment en combinant les dizaines et les unités : dans le système natif, on dit « vingt + cinq » (스물다섯) sans conjonction ; dans le système sino-coréen, « deux + dix + cinq » (이십오). Le système natif s'utilise pour compter des objets (avec des classificateurs), l'âge, les heures et le nombre de personnes. Le système sino-coréen s'utilise pour les numéros de téléphone, les prix, les dates, les minutes, les étages et les opérations mathématiques. Pour le nombre 100, « 백 » (sino-coréen) est utilisé, et « 온 » (natif, mais archaïque) est rarement employé ; en pratique, seul 백 est utilisé. Pour les nombres comme 20, 30, 40... dans le système natif, ils se forment ainsi : 스물 (20), 서른 (30), 마흔 (40), 쉰 (50), 예순 (60), 일흔 (70), 여든 (80), 아흔 (90). Dans le système sino-coréen : 이십, 삼십, 사십, 오십, 육십, 칠십, 팔십, 구십. Il est important de ne pas omettre le zéro lorsque l'on prononce des nombres comme 101, mais pour les nombres de 1 à 100, il n'y a pas de zéros intermédiaires.",
+    "concept_examples": [
+      {
+        "text": "하나, 둘, 셋, 넷, 다섯",
+        "translation": "Un, deux, trois, quatre, cinq (coréen natif)",
+        "phonetic": "/ha.na/ /tul/ /set/ /net/ /ta.sʌt/"
+      },
+      {
+        "text": "일, 이, 삼, 사, 오",
+        "translation": "Un, deux, trois, quatre, cinq (sino-coréen)",
+        "phonetic": "/il/ /i/ /sam/ /sa/ /o/"
+      },
+      {
+        "text": "열 + 하나 = 열하나",
+        "translation": "Dix + un = onze (coréen natif, combiné sans espace)",
+        "phonetic": "/jʌl.ha.na/"
+      },
+      {
+        "text": "이십 + 오 = 이십오",
+        "translation": "Vingt + cinq = vingt-cinq (sino-coréen)",
+        "phonetic": "/i.ɕip.o/"
+      }
+    ],
+    "common_error": {
+      "wrong": "나는 스물오 살이에요.",
+      "correct": "나는 스물다섯 살이에요.",
+      "correct_alt": "나는 25살이에요.",
+      "explanation": "En espagnol, on dit « veinticinco años », mais en coréen, pour l'âge, on utilise le système natif. Ainsi, « vingt-cinq » se dit « 스물다섯 ». Utiliser « 스물오 » est incorrect car « 오 » est sino-coréen. Mélanger les deux systèmes est une erreur typique des hispanophones. Rappelez-vous : l'âge, les heures et le comptage d'objets utilisent le système natif ; les prix, les dates et les numéros de téléphone utilisent le système sino-coréen."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "기본 숫자 (1-10)",
+        "translation": "Nombres de base (1-10)",
+        "examples": [
+          {
+            "original": "하나",
+            "phonetic": "/ha.na/",
+            "translation": "un (coréen natif)",
+            "note": "Le système natif s'utilise pour compter des objets et l'âge. Mémorisez cette forme."
+          },
+          {
+            "original": "둘",
+            "phonetic": "/tul/",
+            "translation": "deux (coréen natif)",
+            "note": "Lorsqu'il est utilisé avec des classificateurs, il devient parfois « 두 » (par exemple « 두 명 » = deux personnes), mais cela sera abordé dans un niveau plus avancé."
+          },
+          {
+            "original": "일",
+            "phonetic": "/il/",
+            "translation": "un (sino-coréen)",
+            "note": "Utilisé pour les numéros de téléphone, les prix, etc. Il est important de le distinguer du « 하나 » natif."
+          },
+          {
+            "original": "십",
+            "phonetic": "/ɕip/",
+            "translation": "dix (sino-coréen)",
+            "note": "En sino-coréen, dix se dit « 십 ». Il se combine avec les unités : 십일 = 11, 십이 = 12, etc."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "십 단위 (10-90)",
+        "translation": "Dizaines (10-90)",
+        "examples": [
+          {
+            "original": "스물",
+            "phonetic": "/sɯ.mul/",
+            "translation": "vingt (coréen natif)",
+            "note": "La forme native de 20 est irrégulière : ce n'est pas « 두십 » mais « 스물 »."
+          },
+          {
+            "original": "이십",
+            "phonetic": "/i.ɕip/",
+            "translation": "vingt (sino-coréen)",
+            "note": "Littéralement « deux dizaines ». Combine le chiffre avec « 십 »."
+          },
+          {
+            "original": "서른",
+            "phonetic": "/sʌ.rɯn/",
+            "translation": "trente (coréen natif)",
+            "note": "Comme 20, 30 dans le système natif est irrégulier : « 서른 ». On ne dit pas « 삼십 » dans un contexte natif."
+          },
+          {
+            "original": "오십",
+            "phonetic": "/o.ɕip/",
+            "translation": "cinquante (sino-coréen)",
+            "note": "Pour les nombres sino-coréens, la formation est régulière : chiffre + 십. Ici, « 오 » = 5."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "복합 숫자 (1-100)",
+        "translation": "Nombres composés (1-100)",
+        "examples": [
+          {
+            "original": "열하나",
+            "phonetic": "/jʌl.ha.na/",
+            "translation": "onze (coréen natif)",
+            "note": "Formé avec 열 (10) + 하나 (1) sans espace. Dans le système natif, les unités s'ajoutent directement."
+          },
+          {
+            "original": "스물다섯",
+            "phonetic": "/sɯ.mul.da.sʌt/",
+            "translation": "vingt-cinq (coréen natif)",
+            "note": "Utilisé pour l'âge ou le comptage. Combine 스물 (20) + 다섯 (5)."
+          },
+          {
+            "original": "삼십오",
+            "phonetic": "/sam.ɕip.o/",
+            "translation": "trente-cinq (sino-coréen)",
+            "note": "Pour les prix ou les numéros de téléphone : 삼 (3) + 십 (10) + 오 (5)."
+          },
+          {
+            "original": "백",
+            "phonetic": "/pɛk/",
+            "translation": "cent",
+            "note": "Le nombre 100 se dit « 백 » en sino-coréen. Il n'existe pas de forme native courante ; « 백 » est toujours utilisé."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "fr": "Nombres de 1 à 100"
+    }
+  },
+  {
+    "id": "fr_A1_gram_09",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "기본 형용사와 어순 / Adjectifs de base et ordre des mots",
+    "bridge": "En espagnol, les adjectifs s'accordent en genre et en nombre (bonito/bonita/bonitos/bonitas), mais en coréen, les adjectifs sont invariables et fonctionnent comme des prédicats. De plus, en coréen, l'adjectif se place avant le nom sans accord, mais lorsqu'il est utilisé comme attribut (pour être), il se conjugue comme un verbe et apparaît à la fin de la phrase. Attention : il n'existe pas de mots séparés pour 'ser' et 'estar' ; la forme de l'adjectif elle-même l'indique.",
+    "rule": "En coréen, les adjectifs (형용사) sont divisés en deux types : \n1) Les adjectifs prédicatifs : ils se conjuguent comme des verbes et se placent à la fin de la phrase. La forme de base est la racine + -다 (ex. : 크다, 작다, 좋다). Pour les utiliser dans une phrase, remplacez -다 par la terminaison appropriée (présent : -아요 / -어요). \n2) Les adjectifs attributifs : ils modifient un nom en se plaçant devant lui, avec la forme -은/는 (si la racine se termine par une voyelle, ajoutez -ㄴ). Exemple : 작은 (petit) + 집 (maison) = 작은 집. \nIl n'y a pas d'accord en genre ou en nombre, mais il existe des formes de politesse et de temps. Au niveau A1, les principales formes utilisées sont les terminaisons du présent -아요/-어요 et la forme attributive -은/는. Pour la négation, utilisez 안 + adjectif (ex. : 안 커요 = ce n'est pas grand) ou la forme -지 않아요 (moins courante au niveau A1).",
+    "concept_examples": [
+      {
+        "text": "이 집은 커요.",
+        "translation": "Cette maison est grande.",
+        "phonetic": "[i tɕibeun kʰʌjo]"
+      },
+      {
+        "text": "그 영화는 좋아요.",
+        "translation": "Ce film est bon.",
+        "phonetic": "[kɯ jʌŋhwanɯn tɕoajo]"
+      },
+      {
+        "text": "작은 고양이를 봤어요.",
+        "translation": "J'ai vu un petit chat.",
+        "phonetic": "[tɕaɡɯn kojaŋirɯl pwasʌjo]"
+      },
+      {
+        "text": "음식이 맛있어요.",
+        "translation": "La nourriture est délicieuse.",
+        "phonetic": "[ɯmɕiɡi maɕissʌjo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "이 집은 크다요.",
+      "correct": "이 집은 커요.",
+      "correct_alt": "이 집이 커요.",
+      "explanation": "Une erreur courante consiste à utiliser la forme de base de l'adjectif (크다) directement avec la terminaison -요, car en espagnol, on pense que l'adjectif est invariable et qu'on ajoute simplement un suffixe. En coréen, lorsque l'on utilise des adjectifs prédicatifs, il faut modifier la racine selon la terminaison. Pour 크다, la racine est 크- et comme elle se termine par une voyelle positive (ㅡ), elle se contracte en 커- + -요. On dit donc 커요, et non 크다요. Rappelez-vous : la forme -다 ne s'utilise que dans les dictionnaires ou dans des registres très formels."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "기본 형용사",
+        "translation": "Adjectifs de base",
+        "examples": [
+          {
+            "original": "커요",
+            "phonetic": "[kʰʌjo]",
+            "translation": "C'est grand",
+            "note": "On utilise 커요 pour dire 'c'est grand'. Cela vient de 크다."
+          },
+          {
+            "original": "작아요",
+            "phonetic": "[tɕaɡajo]",
+            "translation": "C'est petit",
+            "note": "Vient de 작다. Remarquez que la voyelle ㅏ (positive) prend la terminaison -아요."
+          },
+          {
+            "original": "좋아요",
+            "phonetic": "[tɕoajo]",
+            "translation": "C'est bien",
+            "note": "Vient de 좋다. La voyelle ㅗ est positive, donc elle prend -아요."
+          },
+          {
+            "original": "나빠요",
+            "phonetic": "[nappajo]",
+            "translation": "C'est mauvais",
+            "note": "Vient de 나쁘다 ; il se contracte en 나빠- + -요."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "형용사 + 명사",
+        "translation": "Adjectif + nom (modificateur)",
+        "examples": [
+          {
+            "original": "큰 집",
+            "phonetic": "[kʰɯn tɕip]",
+            "translation": "grande maison",
+            "note": "Pour utiliser 크다 comme modificateur, ajoutez -ㄴ : 큰 (grand) + 집 (maison)."
+          },
+          {
+            "original": "작은 고양이",
+            "phonetic": "[tɕaɡɯn kojaŋi]",
+            "translation": "petit chat",
+            "note": "Vient de 작다, ajoutez -은 car la racine se termine par une consonne : 작-은."
+          },
+          {
+            "original": "좋은 사람",
+            "phonetic": "[tɕoɯn saram]",
+            "translation": "bonne personne",
+            "note": "Vient de 좋다, racine 좋- + -은 = 좋은."
+          },
+          {
+            "original": "맛있는 음식",
+            "phonetic": "[maɕinnɯn ɯmɕik]",
+            "translation": "nourriture délicieuse",
+            "note": "맛있다 devient 맛있는 (délicieux) avant le nom."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "부정문",
+        "translation": "Négation avec les adjectifs",
+        "examples": [
+          {
+            "original": "안 커요",
+            "phonetic": "[an kʰʌjo]",
+            "translation": "Ce n'est pas grand",
+            "note": "Pour nier un adjectif prédicatif, placez 안 avant la forme conjuguée."
+          },
+          {
+            "original": "안 작아요",
+            "phonetic": "[an tɕaɡajo]",
+            "translation": "Ce n'est pas petit",
+            "note": "Même structure : 안 + 작아요."
+          },
+          {
+            "original": "안 좋아요",
+            "phonetic": "[an tɕoajo]",
+            "translation": "Ce n'est pas bien",
+            "note": "Attention : 안 좋아요 signifie 'ce n'est pas bien', et non 'c'est mauvais' (qui serait 나빠요)."
+          },
+          {
+            "original": "이 책은 안 재미있어요.",
+            "phonetic": "[i tɕʰaɡɯn an tɕɛmiissʌjo]",
+            "translation": "Ce livre n'est pas intéressant.",
+            "note": "Exemple complet : 재미있다 (être intéressant) est nié avec 안."
+          }
+        ]
+      }
+    ],
+    "emoji": "📏",
+    "phonetic": "",
+    "translations": {
+      "fr": "Adjectifs de base et ordre des mots"
+    }
+  },
+  {
+    "id": "fr_A1_gram_10",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "소유격 (Possessifs)",
+    "bridge": "En espagnol, on utilise des adjectifs possessifs comme 'mi', 'tu', 'su' qui s'accordent avec le propriétaire et parfois avec l'objet possédé. En coréen, les possessifs se forment avec les particules 의 (de) et les formes contractées 내/제 (mon), 네 (ton), 우리 (notre). Contrairement à l'espagnol, le coréen ne distingue pas le genre ou le nombre dans les possessifs, et le possessif précède toujours le nom. Une erreur courante est que 'su' en espagnol peut signifier 'son', 'sa', 'leur' ou 'votre', mais en coréen, il faut préciser clairement le sujet.",
+    "rule": "En coréen, les possessifs se forment principalement de deux manières : 1) avec la particule 의 (de) après un pronom ou un nom : 나의 (mon), 너의 (ton), 우리의 (notre), et 2) avec des formes contractées : 내 (mon, informel), 제 (mon, formel), 네 (ton), 우리 (notre). Il n'y a pas de distinction de genre (il/elle) ni de nombre (singulier/pluriel) dans les adjectifs possessifs ; le contexte et le nom indiquent la possession. Pour 'son/sa/leur', on utilise 그/그녀/그들의, ou on omet simplement le possessif si le propriétaire est évident. Les possessifs précèdent toujours le nom. Dans des situations formelles, 제 (mon) et 우리 (notre) sont utilisés pour parler de soi avec humilité. Exemples : 내 책 (mon livre), 네 가방 (ton sac), 선생님의 차 (la voiture du professeur).",
+    "concept_examples": [
+      {
+        "text": "이것은 내 책이에요.",
+        "translation": "C'est mon livre.",
+        "phonetic": "[iɡʌtɯn nɛ tɕʰɛɡiejo]"
+      },
+      {
+        "text": "네 이름이 뭐예요?",
+        "translation": "Quel est ton nom ?",
+        "phonetic": "[ne iɾɯmi mʷojejo]"
+      },
+      {
+        "text": "우리 집은 여기예요.",
+        "translation": "Notre maison est ici.",
+        "phonetic": "[uɾi tɕibiɯn jʌɡijejo]"
+      },
+      {
+        "text": "그 사람의 친구예요.",
+        "translation": "C'est son/leur ami(e).",
+        "phonetic": "[kɯ sʰaɾamɯi tɕʰinɡujejo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "나의는 책이에요.",
+      "correct": "내 책이에요.",
+      "correct_alt": "나의 책이에요.",
+      "explanation": "L'erreur vient du fait que les hispanophones ont tendance à utiliser la forme longue '나의' (mon) dans des contextes informels, mais en coréen parlé, la forme contractée '내' est préférée. Utiliser '나의' dans une conversation semble très formel ou littéraire, bien que ce ne soit pas incorrect. Pour éviter cette erreur, retenez qu'en situation quotidienne, '내' est utilisé à la place de '나의'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "기본 소유격 (Possessifs de base)",
+        "translation": "Possessifs de base",
+        "examples": [
+          {
+            "original": "내 가방이에요.",
+            "phonetic": "[nɛ kaBaŋiejo]",
+            "translation": "C'est mon sac.",
+            "note": "내 est la forme contractée de 나의 (mon). Elle est informelle et s'utilise avec des amis ou des personnes plus jeunes que soi."
+          },
+          {
+            "original": "네 연필이에요.",
+            "phonetic": "[ne jʌnpʰiɾiejo]",
+            "translation": "C'est ton crayon.",
+            "note": "네 se prononce comme 'ne' pour le distinguer de 내 (mon). Faites attention à la prononciation."
+          },
+          {
+            "original": "우리 학교예요.",
+            "phonetic": "[uɾi hak̚k͈jojejo]",
+            "translation": "C'est notre école.",
+            "note": "우리 est aussi utilisé pour dire 'mon' dans des contextes de groupe, comme 'notre famille'."
+          },
+          {
+            "original": "제 이름은 김민수예요.",
+            "phonetic": "[tɕe iɾɯmɯn kim minsujejo]",
+            "translation": "Je m'appelle Kim Min-su.",
+            "note": "제 est la forme polie de 'mon', utilisée dans des situations formelles."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "소유격 의 (La particule '의')",
+        "translation": "La particule possessive '의'",
+        "examples": [
+          {
+            "original": "선생님의 책이에요.",
+            "phonetic": "[sʰʌnsʰɛŋnimɯi tɕʰɛɡiejo]",
+            "translation": "C'est le livre du professeur.",
+            "note": "La particule 의 s'utilise avec des noms et pronoms pour indiquer la possession. Elle peut être omise à l'oral dans un langage informel."
+          },
+          {
+            "original": "친구의 집이에요.",
+            "phonetic": "[tɕʰinɡuɰi tɕipiejo]",
+            "translation": "C'est la maison de l'ami.",
+            "note": "À l'oral, on dit souvent '친구 집이에요' sans 의, mais à l'écrit, l'utilisation de 의 est plus correcte."
+          },
+          {
+            "original": "나의 꿈은 의사예요.",
+            "phonetic": "[naɰi k͈umɯn ɰisajejo]",
+            "translation": "Mon rêve est de devenir médecin.",
+            "note": "Forme longue de 내. Plus courante dans les chansons ou les discours formels."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "소유격과 생략 (Possessifs et omission)",
+        "translation": "Possessifs et omission",
+        "examples": [
+          {
+            "original": "이거 내 거예요.",
+            "phonetic": "[iɡʌ nɛ kʌjejo]",
+            "translation": "C'est à moi.",
+            "note": "내 것 (le mien) s'utilise pour désigner une possession sans répéter le nom."
+          },
+          {
+            "original": "그거 네 거야?",
+            "phonetic": "[kɯɡʌ ne kʌja]",
+            "translation": "C'est à toi ?",
+            "note": "Dans un langage informel, le nom est souvent omis et 거 (chose) est utilisé."
+          },
+          {
+            "original": "우리 엄마예요.",
+            "phonetic": "[uɾi ʌmːajejo]",
+            "translation": "C'est ma mère.",
+            "note": "Parfois 우리 est utilisé même pour dire 'ma' quand il s'agit de la famille ou des proches."
+          },
+          {
+            "original": "그들의 차예요.",
+            "phonetic": "[kɯdɯɾɯi tɕʰajejo]",
+            "translation": "C'est leur voiture.",
+            "note": "Pour 'leur', leur est utilisé, bien qu'il puisse être omis selon le contexte."
+          }
+        ]
+      }
+    ],
+    "emoji": "📦",
+    "phonetic": "",
+    "translations": {
+      "fr": "Possessifs"
+    }
+  }
+]

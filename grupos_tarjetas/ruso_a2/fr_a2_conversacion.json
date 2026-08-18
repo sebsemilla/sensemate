@@ -1,0 +1,132 @@
+[
+  {
+    "id": "fr_A2_conv_01",
+    "type": "concept",
+    "category": "Conversation",
+    "title": "У врача / Chez le médecin",
+    "bridge": "En espagnol, on utilise 'me duele + partie du corps' avec le verbe 'doler' pour exprimer une douleur. En russe, en revanche, on utilise une construction impersonnelle avec le datif : 'у меня болит + nominatif'. Autrement dit, littéralement 'ça fait mal en moi', mais avec 'у меня' (en moi). Le verbe 'болеть' s'accorde avec la partie du corps et non avec la personne. De plus, le russe n'utilise pas d'articles, et les noms de parties du corps prennent le cas nominatif dans cette construction. Il est fréquent d'oublier que le verbe est au singulier ou au pluriel selon la partie du corps, et que la personne est au génitif avec 'у'.",
+    "rule": "Pour exprimer une douleur ou un malaise en russe, utilisez la construction : У + [personne au génitif] + болит (singulier) / болят (pluriel) + [partie du corps au nominatif]. Le verbe 'болеть' se conjugue selon le nombre de la partie du corps : s'il est singulier (голова, живот), utilisez 'болит' ; s'il est pluriel (глаза, зубы), utilisez 'болят'. Exemples : У меня болит голова (J'ai mal à la tête). У тебя болят зубы (Tu as mal aux dents). Pour demander, inversez l'ordre : Что у вас болит ? (Qu'est-ce qui vous fait mal ?) ou Что у тебя болит ? (Qu'est-ce qui te fait mal ?, familier). Vous pouvez aussi utiliser 'Я заболел/заболела' pour dire que vous êtes tombé malade, avec accord selon le genre du locuteur. Pour des symptômes généraux comme la fièvre : У меня температура (J'ai de la fièvre) ou У меня жар (J'ai de la fièvre). Il est important de ne pas utiliser 'меня' sans 'у' dans cette construction, et de ne pas utiliser le verbe 'иметь' (avoir) qui est plus formel.",
+    "concept_examples": [
+      {
+        "text": "У меня болит голова.",
+        "translation": "J'ai mal à la tête.",
+        "phonetic": "[u mʲɪˈnʲa bɐˈlʲit ɡəɫɐˈva]"
+      },
+      {
+        "text": "У вас болит горло?",
+        "translation": "Vous avez mal à la gorge ? (formel)",
+        "phonetic": "[u vas ˈbolʲɪt ˈɡorlə]"
+      },
+      {
+        "text": "У него болят зубы.",
+        "translation": "Il a mal aux dents.",
+        "phonetic": "[u nʲɪˈvo bɐˈlʲat ˈzubɨ]"
+      },
+      {
+        "text": "Мне нужен врач.",
+        "translation": "J'ai besoin d'un médecin.",
+        "phonetic": "[mnʲe ˈnuʐɨn vrat͡ɕ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "У меня болит зубы.",
+      "correct": "У меня болят зубы.",
+      "correct_alt": "У меня болит зуб.",
+      "explanation": "L'erreur typique consiste à utiliser 'болит' (singulier) avec un nom pluriel. En espagnol, 'me duele' ne distingue pas le nombre dans le verbe car 'doler' se conjugue en 'duele' au singulier et 'duelen' au pluriel, mais de nombreux hispanophones ont tendance à toujours utiliser 'болит'. Rappelez-vous : si la partie du corps est plurielle (зубы, глаза), le verbe doit être au pluriel 'болят'. Si vous dites 'У меня болит зуб' (une seule dent), c'est correct, mais pour plusieurs dents, on utilise 'болят'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Основные жалобы",
+        "translation": "Plaintes principales",
+        "examples": [
+          {
+            "original": "У меня болит живот.",
+            "phonetic": "[u mʲɪˈnʲa ˈbolʲɪt ʐɨˈvot]",
+            "translation": "J'ai mal au ventre.",
+            "note": "Utilisation de 'болит' avec un nom masculin singulier."
+          },
+          {
+            "original": "У меня болит ухо.",
+            "phonetic": "[u mʲɪˈnʲa ˈbolʲɪt ˈuxə]",
+            "translation": "J'ai mal à l'oreille.",
+            "note": "Rappelez-vous que 'ухо' est neutre, mais le verbe ne change pas au-delà du nombre."
+          },
+          {
+            "original": "У меня болит спина.",
+            "phonetic": "[u mʲɪˈnʲa ˈbolʲɪt spʲɪˈna]",
+            "translation": "J'ai mal au dos.",
+            "note": "La construction est fixe : 'у меня' + 'болит' + partie du corps au nominatif."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Симптомы и их описание",
+        "translation": "Symptômes et leur description",
+        "examples": [
+          {
+            "original": "У меня температура.",
+            "phonetic": "[u mʲɪˈnʲa tʲɪmʲpʲɪrɐˈturə]",
+            "translation": "J'ai de la fièvre.",
+            "note": "En russe, on dit 'у меня температура' (littéralement 'en moi température') sans verbe. C'est similaire à 'tengo' mais avec une structure possessive."
+          },
+          {
+            "original": "Я кашляю.",
+            "phonetic": "[ja ˈkaʂlʲɪjʊ]",
+            "translation": "Je tousse.",
+            "note": "Le verbe 'кашлять' (tousser) se conjugue en 'я кашляю' (je tousse). Il ne nécessite pas 'у меня'."
+          },
+          {
+            "original": "У меня насморк.",
+            "phonetic": "[u mʲɪˈnʲa ˈnasmərk]",
+            "translation": "J'ai le nez qui coule / un rhume.",
+            "note": "'Насморк' est un nom masculin. Il est utilisé avec 'у меня' pour indiquer la possession d'un symptôme."
+          },
+          {
+            "original": "Мне плохо.",
+            "phonetic": "[mnʲe ˈploxə]",
+            "translation": "Je me sens mal.",
+            "note": "Utilisation du datif 'мне' + adverbe 'плохо' (mal). Similaire à 'me siento mal' mais sans verbe."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "У врача",
+        "translation": "Chez le médecin",
+        "examples": [
+          {
+            "original": "Мне нужен врач.",
+            "phonetic": "[mnʲe ˈnuʐɨn vrat͡ɕ]",
+            "translation": "J'ai besoin d'un médecin.",
+            "note": "Construction 'мне нужен' (à moi nécessaire) + nom au nominatif. 'Врач' est masculin."
+          },
+          {
+            "original": "Что у вас болит?",
+            "phonetic": "[ʂto u vas ˈbolʲit]",
+            "translation": "Qu'est-ce qui vous fait mal ? (formel)",
+            "note": "Question typique du médecin. 'У вас' (à vous) et le verbe 'болит' au singulier sont utilisés, mais si on attend une réponse plurielle, 'болят' est employé. Ici, c'est au singulier car c'est une question générale."
+          },
+          {
+            "original": "Мне нужно лекарство.",
+            "phonetic": "[mnʲe ˈnuʐnə lʲɪˈkarstvə]",
+            "translation": "J'ai besoin de médicaments.",
+            "note": "Avec le nom neutre 'лекарство', 'нужно' (neutre) est utilisé, pas 'нужен'."
+          },
+          {
+            "original": "Запишите меня к врачу, пожалуйста.",
+            "phonetic": "[zɐˈpʲiʂɨtʲe mʲɪˈnʲa k vrɐˈt͡ɕu, pɐˈʐalʊstə]",
+            "translation": "Veuillez me donner rendez-vous chez le médecin, s'il vous plaît.",
+            "note": "Impératif formel 'запишите' (vous). 'К врачу' est au prépositionnel avec direction. Notez le cas prépositionnel de 'врач'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🩺",
+    "phonetic": "",
+    "translations": {
+      "fr": "Chez le médecin"
+    }
+  }
+]

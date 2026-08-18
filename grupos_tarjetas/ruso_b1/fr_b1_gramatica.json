@@ -1,0 +1,1666 @@
+[
+  {
+    "id": "fr_B1_gram_01",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Прошедшее совершенное время (предпрошедшее) / Passé antérieur (passé du passé)",
+    "bridge": "En espagnol, le passé antérieur (había hecho) exprime une action qui s'est produite avant une autre action passée. En russe, il n'existe pas de temps composé équivalent ; on utilise plutôt l'aspect perfectif du verbe au passé (сделал) pour indiquer que l'action est achevée, et des connecteurs temporels (уже, когда, после того как) pour clarifier la séquence. La différence majeure est que le russe ne conjugue pas de verbe auxiliaire comme 'haber' : il utilise le passé simple avec l'aspect perfectif, et la relation temporelle est déduite du contexte plutôt que de la forme verbale.",
+    "rule": "Le russe ne possède pas de passé antérieur sous forme composée. Pour exprimer une action antérieure à une autre action passée : 1) Utilisez le passé des verbes perfectifs (avec des préfixes comme с-, по-, про-, etc.) pour les deux actions, ou seulement pour la première, tandis que la deuxième action peut être perfective ou imperfective selon sa nature. 2) Marquez la séquence avec des adverbes ou des connecteurs : уже (déjà), когда (quand), после того как (après que), как только (dès que), раньше (plus tôt). 3) Le passé se forme avec le suffixe -л- (masculin -л, féminin -ла, neutre -ло, pluriel -ли). Les verbes perfectifs au passé indiquent des actions achevées ; les verbes imperfectifs (sans préfixe ou avec les suffixes -ыва-/-ива-) indiquent des actions en cours ou habituelles. Pour exprimer 'avait déjà fait', utilisez 'уже + passé perfectif'. Pour exprimer une action en cours interrompue par une autre, utilisez l'imperfectif pour la première action et le perfectif pour l'action interrompue. Exemple : Когда я пришёл, она уже приготовила ужин (Quand je suis arrivé, elle avait déjà préparé le dîner). Il n'y a pas de verbe auxiliaire à conjuguer ; seul le passé perfectif avec le contexte approprié est nécessaire.",
+    "concept_examples": [
+      {
+        "text": "Я уже пообедал, когда ты позвонил.",
+        "translation": "J’avais déjà déjeuné quand tu as appelé.",
+        "phonetic": "[ja uˈʐɨ pɐɐˈbʲedəl kɐgˈda tɨ pɐzˈvanʲil]"
+      },
+      {
+        "text": "Она сказала, что она купила билеты.",
+        "translation": "Elle a dit qu’elle avait acheté les billets.",
+        "phonetic": "[ɐna skɐˈzaɫə ʂto ɐna kuˈpʲiɫə bʲɪˈlʲetɨ]"
+      },
+      {
+        "text": "После того как он приехал, мы начали ужинать.",
+        "translation": "Après qu’il était arrivé, nous avons commencé à dîner.",
+        "phonetic": "[ˈposʲlʲe tɐˈvo kak on prʲɪˈjexəl mɨ ˈnat͡ɕɪlʲɪ ˈuʐɨnətʲ]"
+      },
+      {
+        "text": "Я надеялся, что ты уже ушла.",
+        "translation": "J’espérais que tu étais déjà partie.",
+        "phonetic": "[ja nɐˈdʲeɪ̯lʲɪsə ʂto tɨ uˈʐɨ uˈʂla]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я уже пообедал когда ты позвонил (sin coma o sin conector)",
+      "correct": "Я уже пообедал, когда ты позвонил.",
+      "correct_alt": "Когда ты позвонил, я уже пообедал.",
+      "explanation": "Une erreur courante consiste à omettre la virgule avant 'когда' ou à inverser l’ordre des propositions (placer l’action antérieure après l’action postérieure). En espagnol, le passé antérieur permet une certaine flexibilité, mais en russe, le connecteur 'когда' introduit l’action postérieure et exige une virgule. Par ailleurs, certains étudiants utilisent l’imperfectif 'обедал' au lieu du perfectif 'пообедал', ce qui change le sens de 'avoir déjà mangé' à 'être en train de déjeuner'. Rappelez-vous : pour une action antérieure achevée, utilisez toujours l’aspect perfectif."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Уже + прошедшее время (ya + pasado)",
+        "translation": "Déjà + passé",
+        "examples": [
+          {
+            "original": "Он уже ушёл, когда я пришёл.",
+            "phonetic": "[on uˈʐɨ uˈʂol kɐgˈda ja prʲɪˈʂol]",
+            "translation": "Il était déjà parti quand je suis arrivé.",
+            "note": "Utilisez 'уже' pour marquer l’action antérieure. Le verbe 'ушёл' est perfectif (départ achevé)."
+          },
+          {
+            "original": "Мы уже видели этот фильм.",
+            "phonetic": "[mɨ uˈʐɨ ˈvʲidʲɪlʲɪ ˈɛtət ˈfʲilʲm]",
+            "translation": "Nous avions déjà vu ce film.",
+            "note": "Le passé perfectif 'видели' (vision achevée) sans contexte supplémentaire, mais avec 'уже' indique une action antérieure à un moment passé implicite."
+          },
+          {
+            "original": "Ты уже позавтракал?",
+            "phonetic": "[tɨ uˈʐɨ pɐˈzavtrəkəɫ]",
+            "translation": "Avais-tu déjà pris ton petit-déjeuner ?",
+            "note": "Dans les questions, 'уже' avec le perfectif suggère une action achevée avant un moment passé connu."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Когда / после того как (cuando / después de que)",
+        "translation": "Quand / après que",
+        "examples": [
+          {
+            "original": "Когда я пришёл, она уже приготовила ужин.",
+            "phonetic": "[kɐgˈda ja prʲɪˈʂol ɐˈna uˈʐɨ prʲɪɡɐˈtovʲɪɫə ˈuʐɨn]",
+            "translation": "Quand je suis arrivé, elle avait déjà préparé le dîner.",
+            "note": "L’action antérieure (préparer) est perfective, celle postérieure (arriver) aussi. L’ordre des propositions peut être inversé."
+          },
+          {
+            "original": "После того как мы закончили работу, мы пошли домой.",
+            "phonetic": "[ˈposʲlʲe tɐˈvo kak mɨ zɐˈkonʲt͡ɕɪlʲɪ rɐˈbotʊ mɨ pɐˈʂlʲi dɐˈmoj]",
+            "translation": "Après que nous avions terminé le travail, nous sommes rentrés à la maison.",
+            "note": "'После того как' introduit l’action antérieure. Les deux verbes au perfectif indiquent des actions achevées en séquence."
+          },
+          {
+            "original": "Как только он увидел её, он улыбнулся.",
+            "phonetic": "[kak ˈtolʲkə on uˈvʲidʲɪl jɪˈjo on ʊɫɨbˈnulsʲə]",
+            "translation": "Dès qu’il l’a vue, il a souri.",
+            "note": "'Как только' souligne l’immédiateté entre deux actions perfectives au passé."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Прошедшее несовершенное для фона (pasado imperfectivo para el fondo)",
+        "translation": "Imparfait pour le contexte",
+        "examples": [
+          {
+            "original": "Когда я читал, он вошёл.",
+            "phonetic": "[kɐgˈda ja t͡ɕiˈtaɫ on vɐˈʂol]",
+            "translation": "Quand je lisais, il est entré.",
+            "note": "L’imperfectif 'читал' exprime une action en cours (contexte), le perfectif 'вошёл' exprime l’action ponctuelle qui l’interrompt."
+          },
+          {
+            "original": "Пока она готовила, я убирал.",
+            "phonetic": "[pɐˈka ɐˈna ɡɐˈtovʲɪɫə ja uˈbʲirəɫ]",
+            "translation": "Pendant qu’elle cuisinait, je rangeais.",
+            "note": "Deux imperfectifs en parallèle indiquent des actions simultanées au passé, et non une séquence."
+          },
+          {
+            "original": "Я работал там, когда произошла авария.",
+            "phonetic": "[ja rɐˈbotəɫ tam kɐgˈda prɐɪˈzɨʂɫə ɐˈvarʲɪjə]",
+            "translation": "Je travaillais là-bas quand l’accident s’est produit.",
+            "note": "L’imperfectif 'работал' décrit le contexte, le perfectif 'произошла' l’événement ponctuel."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "fr": "Passé antérieur (passé du passé)"
+    }
+  },
+  {
+    "id": "fr_B1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Условные предложения 1-го и 2-го типа / Phrases conditionnelles du premier et du deuxième type",
+    "bridge": "En espagnol, on utilise 'si' avec l'indicatif ou le subjonctif pour exprimer des conditions réelles ou irréelles. En russe, la construction est plus simple : on utilise 'если' (si) et le verbe au présent ou au passé, sans avoir besoin d'un mode spécial. Pour les conditions irréelles (type 2), le passé du verbe (qui fonctionne comme le subjonctif) est essentiel. Attention : le russe n'a pas d'équivalent direct de 'would', il utilise à la place la particule 'бы' avec le passé du verbe. De plus, dans les phrases conditionnelles, le verbe peut venir avant ou après 'если' sans changer le sens, mais une virgule sépare les deux propositions.",
+    "rule": "En russe, les phrases conditionnelles de premier type (conditions réelles) utilisent 'если' + verbe au présent ou au futur (dans la proposition subordonnée) et le verbe au présent ou au futur (dans la proposition principale). Exemple : 'Если ты придёшь, мы пойдём в кино' (Si tu viens, nous irons au cinéma). Pour les phrases conditionnelles de deuxième type (conditions irréelles ou hypothétiques), on utilise 'если бы' + verbe au passé (dans la proposition subordonnée) et verbe au passé + 'бы' (dans la proposition principale). Exemple : 'Если бы я был богатым, я купил бы машину' (Si j'étais riche, j'achèterais une voiture). Notez que le verbe 'быть' au passé se conjugue 'был', 'была', 'были'. La particule 'бы' peut être placée après le verbe ou au début de la proposition. À l'oral, 'если' est souvent omis, utilisant uniquement 'бы' pour exprimer une condition ou un souhait implicite. Pour le niveau B1, maîtrisez la structure : 'Если + présent/futur' pour les conditions réelles, 'Если бы + passé, ... + бы' pour les conditions irréelles.",
+    "concept_examples": [
+      {
+        "text": "Если будет хорошая погода, мы пойдём гулять.",
+        "translation": "S'il fait beau, nous irons nous promener.",
+        "phonetic": "ˈjeslʲi ˈbudʲɪt xɐˈroʂəjə pɐˈɡodə, mɨ pɐjˈdʲɵm ɡʊˈlʲætʲ"
+      },
+      {
+        "text": "Если бы я знал ответ, я бы сказал тебе.",
+        "translation": "Si je connaissais la réponse, je te la dirais.",
+        "phonetic": "ˈjeslʲi bɨ ja znal ɐtˈvʲet, ja bɨ skɐˈzal tʲɪˈbʲe"
+      },
+      {
+        "text": "Если ты позвонишь мне, я помогу тебе.",
+        "translation": "Si tu m'appelles, je t'aiderai.",
+        "phonetic": "ˈjeslʲi tɨ pəzvɐˈnʲiʂ mnʲe, ja pəmɐˈɡu tʲɪˈbʲe"
+      },
+      {
+        "text": "Если бы у меня было время, я бы почитал книгу.",
+        "translation": "Si j'avais le temps, je lirais un livre.",
+        "phonetic": "ˈjeslʲi bɨ u mʲɪˈnʲa ˈbɨlə ˈvrʲemʲə, ja bɨ pət͡ɕɪˈtal ˈknʲiɡʊ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Если я буду богатым, я куплю бы машину.",
+      "correct": "Если я буду богатым, я куплю машину.",
+      "correct_alt": "Если бы я был богатым, я бы купил машину.",
+      "explanation": "Une erreur courante consiste à utiliser 'бы' dans la proposition principale d'une phrase conditionnelle réelle (type 1). 'Бы' ne s'emploie que dans les conditionnelles irréelles (type 2) ou avec des souhaits. Dans les conditionnelles réelles, le futur se forme sans 'бы'. Pour exprimer une condition irréelle, il faut utiliser le passé dans les deux propositions et ajouter 'бы' (dans la proposition principale et souvent dans la subordonnée avec 'если бы'). En espagnol, les deux types peuvent parfois se traduire par 'si', mais en russe la structure est différente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Первый тип: реальные условия",
+        "translation": "Premier type : conditions réelles",
+        "examples": [
+          {
+            "original": "Если я приду, я тебе позвоню.",
+            "phonetic": "ˈjeslʲi ja prʲɪˈdu, ja tʲɪˈbʲe pəzˈvonʲʉ",
+            "translation": "Si je viens, je t'appellerai.",
+            "note": "On utilise le présent ou le futur dans les deux parties. Ici 'приду' est le futur perfectif, 'позвоню' est aussi au futur."
+          },
+          {
+            "original": "Если ты учишься, ты знаешь.",
+            "phonetic": "ˈjeslʲi tɨ ˈut͡ɕɪʂsʲa, tɨ ˈzna(j)ɪʂ",
+            "translation": "Si tu étudies, tu sais.",
+            "note": "Présent dans les deux propositions pour des conditions générales."
+          },
+          {
+            "original": "Если будет дождь, мы останемся дома.",
+            "phonetic": "ˈjeslʲi ˈbudʲɪt doʂtʲ, mɨ ɐˈstanʲɪmsʲə ˈdomə",
+            "translation": "S'il pleut, nous resterons à la maison.",
+            "note": "'Будет' + infinitif forme le futur de 'быть', mais ici il est utilisé comme un futur impersonnel."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Второй тип: нереальные условия в настоящем/будущем",
+        "translation": "Deuxième type : conditions irréelles au présent/futur",
+        "examples": [
+          {
+            "original": "Если бы я был на твоём месте, я бы согласился.",
+            "phonetic": "ˈjeslʲi bɨ ja bɨl nə tvɐˈjɵm ˈmʲestʲə, ja bɨ səɡlɐˈsʲilsʲə",
+            "translation": "Si j'étais à ta place, j'accepterais.",
+            "note": "Passé 'был' + 'бы' et dans la proposition principale passé 'согласился' + 'бы'."
+          },
+          {
+            "original": "Если бы у меня была возможность, я бы поехал в Россию.",
+            "phonetic": "ˈjeslʲi bɨ u mʲɪˈnʲa ˈbɨlə vɐzˈmoʐnəsʲtʲ, ja bɨ pɐˈjexəl v rɐˈsʲijʊ",
+            "translation": "Si j'avais l'opportunité, j'irais en Russie.",
+            "note": "Le passé 'была' s'accorde avec 'возможность' (féminin)."
+          },
+          {
+            "original": "Если бы вы пришли раньше, вы бы успели.",
+            "phonetic": "ˈjeslʲi bɨ vɨ prʲɪˈʂlʲi ˈranʲʂə, vɨ bɨ ʊˈspʲelʲi",
+            "translation": "Si vous étiez arrivés plus tôt, vous auriez réussi.",
+            "note": "Ici, le passé sert aussi pour les conditions irréelles passées (type 3)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Союзы и частица бы",
+        "translation": "Conjonctions et particule бы",
+        "examples": [
+          {
+            "original": "Если бы не дождь, мы бы пошли гулять.",
+            "phonetic": "ˈjeslʲi bɨ nʲe doʂtʲ, mɨ bɨ pɐˈʂlʲi ɡʊˈlʲætʲ",
+            "translation": "S'il n'y avait pas la pluie, nous irions nous promener.",
+            "note": "L'expression 'если бы не' signifie 's'il n'y avait pas'."
+          },
+          {
+            "original": "Я бы купил эту книгу, если бы она была дешевле.",
+            "phonetic": "ja bɨ kuˈpʲil ˈɛtʊ ˈknʲiɡʊ, ˈjeslʲi bɨ ɐˈna ˈbɨlə dʲɪˈʂɛvlʲɪ",
+            "translation": "J'achèterais ce livre s'il était moins cher.",
+            "note": "La particule 'бы' peut venir au début de la proposition principale ou après le verbe."
+          },
+          {
+            "original": "Если бы ты позвонил мне, я бы пришёл.",
+            "phonetic": "ˈjeslʲi bɨ tɨ pəzvɐˈnʲil mnʲe, ja bɨ prʲɪˈʂɵl",
+            "translation": "Si tu m'avais appelé, je serais venu.",
+            "note": "Utilisation du passé pour les conditions irréelles passées (type 3), bien qu'au niveau B1 cela soit parfois simplifié."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "fr": "Phrases conditionnelles du premier et du deuxième type"
+    }
+  },
+  {
+    "id": "fr_B1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Страдательный залог (настоящее и прошедшее время) / Voix passive (présent et passé)",
+    "bridge": "En espagnol, la voix passive se forme avec 'ser' + participe passé (par exemple, 'la carta es escrita'), et l'agent est introduit avec 'por'. En russe, la voix passive est plus fréquente avec les verbes imperfectifs (aspect imperfectif) et se construit avec le suffixe -ся/-сь sur le verbe (par exemple, 'письмо пишется' – 'la lettre est en train d'être écrite'), tandis qu'avec les verbes perfectifs, le participe passé court est utilisé (par exemple, 'письмо написано' – 'la lettre est écrite'). Une erreur typique consiste à traduire littéralement 'ser' + participe, ce qui sonne de manière peu naturelle ; en russe, la voix passive impersonnelle avec la 3e personne du pluriel (par exemple, 'пишут' – 'on écrit') est très courante pour exprimer des actions sans agent. Notez que l'agent est marqué par le cas instrumental (par exemple, 'мной' – 'par moi'), et non par 'por' comme en espagnol.",
+    "rule": "En russe, la voix passive se forme de deux manières principales selon l'aspect du verbe : 1) Avec les verbes imperfectifs (processus, action habituelle) : on ajoute le suffixe -ся/-сь à la forme de la 3e personne du singulier ou du pluriel au présent (par exemple, 'дом строится' – 'la maison est en train d'être construite' ; 'письма пишутся' – 'les lettres sont en train d'être écrites') ou au passé (par exemple, 'дом строился' – 'la maison était en train d'être construite'). Cette utilisation équivaut au 'se' impersonnel en espagnol. 2) Avec les verbes perfectifs (action achevée) : on utilise le participe passé court (forme courte du participe passé passif) avec le verbe 'быть' au passé (par exemple, 'дом построен' – 'la maison a été construite' ; 'письмо написано' – 'la lettre a été écrite'). Le participe passé court s'accorde en genre et en nombre avec le sujet : -н/-ен/-т (masculin), -на/-ена/-та (féminin), -но/-ено/-то (neutre), -ны/-ены/-ты (pluriel). L'agent (s'il est mentionné) s'exprime au cas instrumental (par exemple, 'письмо написано мной' – 'la lettre a été écrite par moi'), et est généralement omis s'il est inconnu ou non pertinent. Pour exprimer des actions sans agent spécifique, il est plus naturel d'utiliser la construction impersonnelle avec le verbe à la 3e personne du pluriel (par exemple, 'мне сказали' – 'on m'a dit'). Il n'existe pas d'équivalent direct de la voix passive avec 'ser' + participe au présent (par exemple, 'es escrito') ; au présent, on préfère la forme avec -ся. N'oubliez pas que les verbes se terminant par -ся sont toujours intransitifs et ne prennent pas d'objet direct.",
+    "concept_examples": [
+      {
+        "text": "Письмо пишется учеником.",
+        "translation": "La lettre est en train d'être écrite par l'élève.",
+        "phonetic": "[pʲɪsˈmo ˈpʲiʂɨt͡sə ʊt͡ɕɪnʲɪˈkom]"
+      },
+      {
+        "text": "Дом был построен в 2000 году.",
+        "translation": "La maison a été construite en l'an 2000.",
+        "phonetic": "[dom bɨl pɐˈstroɪn v ˈdve ˈtɨsʲɪt͡ɕɪ ˈɡodʊ]"
+      },
+      {
+        "text": "Книга читается с интересом.",
+        "translation": "Le livre est lu avec intérêt.",
+        "phonetic": "[ˈknʲiɡə t͡ɕɪˈtaɪt͡sə s‿ɪnʲtʲɪˈrʲesəm]"
+      },
+      {
+        "text": "Задача решена учителем.",
+        "translation": "Le problème a été résolu par le professeur.",
+        "phonetic": "[zɐˈdat͡ɕə rʲɪˈʂɛnə ʊˈt͡ɕitʲɪlʲɪm]"
+      }
+    ],
+    "common_error": {
+      "wrong": "дом есть построен (littéralement : 'la maison est construite')",
+      "correct": "дом построен",
+      "correct_alt": "дом был построен",
+      "explanation": "L'erreur survient parce que les hispanophones ont tendance à traduire littéralement la structure 'ser + participe' en ajoutant le verbe 'быть' au présent ('есть'), ce qui est omis en russe. En russe, le participe passé court exprime déjà l'état résultant, et 'быть' n'est utilisé qu'au passé ('был') ou au futur ('будет'), jamais au présent. Pour exprimer une action en cours, on utilise la forme avec -ся (par exemple, 'дом строится'), et non le participe passé court. Évitez d'utiliser 'есть' dans ce contexte ; la construction correcte au présent est simplement le participe passé court sans verbe auxiliaire."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Пассив с глаголами на -ся (настоящее время)",
+        "translation": "Voix passive avec les verbes en -ся (présent)",
+        "examples": [
+          {
+            "original": "Здесь строится новый театр.",
+            "phonetic": "[zʲdʲesʲ ˈstroɪt͡sə ˈnovɨj tʲɪˈatr]",
+            "translation": "Un nouveau théâtre est en train d'être construit ici.",
+            "note": "Le verbe imperfectif 'строиться' (être en train d'être construit) est utilisé pour indiquer un processus en cours, et non un résultat achevé."
+          },
+          {
+            "original": "Газеты продаются в киоске.",
+            "phonetic": "[ɡɐˈzʲetɨ prɐˈdajʊt͡sə v‿kʲiˈosʲkʲɪ]",
+            "translation": "Les journaux sont vendus au kiosque.",
+            "note": "Équivalent au 'se' impersonnel en espagnol ; le sujet est l'objet recevant l'action."
+          },
+          {
+            "original": "Это слово часто используется.",
+            "phonetic": "[ˈɛtə ˈslovə ˈt͡ɕastə ɪspɐlʲˈzujɪt͡sə]",
+            "translation": "Ce mot est souvent utilisé.",
+            "note": "Le verbe réfléchi en -ся est utilisé pour des actions habituelles ou générales."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Пассив с глаголами на -ся (прошедшее время)",
+        "translation": "Voix passive avec les verbes en -ся (passé)",
+        "examples": [
+          {
+            "original": "Вчера здесь строился стадион.",
+            "phonetic": "[ˈft͡ɕerə zʲdʲesʲ ˈstroɪl͡sə stɐˈdʲiən]",
+            "translation": "Hier, le stade était en train d'être construit ici.",
+            "note": "Au passé imperfectif, la forme en -ся décrit une action en développement dans le passé, similaire au pretérito imperfecto en espagnol."
+          },
+          {
+            "original": "Письма отправлялись по почте.",
+            "phonetic": "[ˈpʲisʲmə ɐtprɐˈvlʲælʲɪsʲ pɐ‿ˈpot͡ɕtʲɪ]",
+            "translation": "Les lettres étaient envoyées par courrier.",
+            "note": "La forme passée en -ся est utilisée pour des processus habituels ou répétés dans le passé."
+          },
+          {
+            "original": "Билеты продавались у входа.",
+            "phonetic": "[bʲɪˈlʲetɨ prɐˈdavəlʲɪsʲ u ˈfxdə]",
+            "translation": "Les billets étaient vendus à l'entrée.",
+            "note": "Observez l'accord du verbe au pluriel avec le sujet 'билеты'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Пассив с краткими причастиями (прошедшее время)",
+        "translation": "Voix passive avec les participes courts (passé)",
+        "examples": [
+          {
+            "original": "Задача решена.",
+            "phonetic": "[zɐˈdat͡ɕə rʲɪˈʂɛnə]",
+            "translation": "Le problème est résolu.",
+            "note": "Le participe court 'решена' s'accorde au féminin avec 'задача'. Aucun 'быть' n'est nécessaire au présent."
+          },
+          {
+            "original": "Окно было открыто.",
+            "phonetic": "[ɐkˈno ˈbɨlə ɐtˈkrɨtə]",
+            "translation": "La fenêtre a été ouverte.",
+            "note": "'Было' (passé de 'быть') est utilisé avec le participe court neutre 'открыто' pour indiquer une action achevée."
+          },
+          {
+            "original": "Книги были написаны известным автором.",
+            "phonetic": "[ˈknʲiɡʲɪ ˈbɨlʲɪ nɐˈpʲisənɨ ɪzˈvʲesnɨm ˈaftərəm]",
+            "translation": "Les livres ont été écrits par un auteur célèbre.",
+            "note": "L'agent s'exprime au cas instrumental ('автором'). Le participe court pluriel 'написаны' s'accorde avec 'книги'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "fr": "Voix passive (présent et passé)"
+    }
+  },
+  {
+    "id": "fr_B1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Косвенная речь / Discours indirect",
+    "bridge": "En espagnol, lorsque l'on passe au discours indirect, on modifie les temps des verbes (dijo que venía, dirá que viene). En russe, en revanche, le verbe de la proposition subordonnée conserve son temps et sa personne d'origine, et le changement principal porte sur la conjonction : «что» est utilisé pour les déclarations et «чтобы» pour les ordres/demandes. De plus, les pronoms personnels et démonstratifs doivent s'adapter au contexte, mais sans la logique d'accord temporel que vous connaissez. Attention : il n'existe pas d'équivalent direct de «decir que + subjuntivo», et les questions indirectes introduites par «si» se forment avec la particule «ли».",
+    "rule": "En russe, le discours indirect se construit avec une proposition principale (сказать, спросить, ответить) suivie d'une subordonnée introduite par : 1) «что» pour les déclarations et les nouvelles (Он сказал, что работает). 2) «чтобы» pour les ordres, demandes ou souhaits (Он попросил, чтобы я пришёл). 3) «ли» pour les questions indirectes fermées (Он спросил, приду ли я). 4) Les pronoms interrogatifs (где, когда, почему, как) pour les questions avec une particule interrogative (Она спросила, где я работаю). Le temps et l'aspect du verbe de la subordonnée restent identiques à ceux du discours direct, sauf pour les impératifs qui se transforment au passé ou en «чтобы + passé/infinitif». Les pronoms personnels et possessifs changent selon la perspective du locuteur, comme en espagnol. Rappelez-vous que le russe ne connaît pas l'accord des temps : si la proposition principale est au passé, la subordonnée conserve le présent ou le futur selon le contexte d'origine.",
+    "concept_examples": [
+      {
+        "text": "Он сказал, что работает в банке.",
+        "translation": "Il a dit qu'il travaille dans une banque.",
+        "phonetic": "[on skɐˈzal | ʂto rɐˈbotəɪt v ˈbankʲe]"
+      },
+      {
+        "text": "Она сказала, что придёт завтра.",
+        "translation": "Elle a dit qu'elle viendrait demain.",
+        "phonetic": "[ɐˈna skɐˈzalə | ʂto prʲɪˈdʲɵt ˈzaftrə]"
+      },
+      {
+        "text": "Мама попросила, чтобы я помыл посуду.",
+        "translation": "Maman m'a demandé de laver la vaisselle.",
+        "phonetic": "[ˈmamə pəprɐˈsʲilə | ˈʂtobɨ ja pɐˈmɨl pɐˈsudʊ]"
+      },
+      {
+        "text": "Он спросил, где я живу.",
+        "translation": "Il a demandé où j'habite.",
+        "phonetic": "[on sprɐˈsʲil | ˈɡdʲe ja ʐɨˈvu]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Он сказал, что он работает в банке. (utilisation de «что» après un ordre)",
+      "correct": "Он сказал, чтобы я работал в банке. (mais cela change le sens ; mieux : Он попросил, чтобы я работал в банке.)",
+      "correct_alt": "Он сказал, что я работаю в банке. (si l'on rapporte un fait, et non un ordre)",
+      "explanation": "L'erreur la plus fréquente consiste à utiliser «что» au lieu de «чтобы» lorsque l'on rapporte des ordres ou des demandes. En espagnol, «dijo que» peut introduire aussi bien un fait qu'un ordre («dijo que viniera»), mais en russe, la conjonction distingue clairement les deux : «что» pour les faits, «чтобы» pour les souhaits/ordres. Pour éviter cette confusion, il faut se demander si le verbe principal exprime une obligation (попросить, приказать, велеть) et utiliser alors «чтобы» + verbe au passé (qui correspond à l'impératif)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Утверждения",
+        "translation": "Déclarations",
+        "examples": [
+          {
+            "original": "Она говорит, что любит музыку.",
+            "phonetic": "[ɐˈna ɡəvɐˈrʲit | ʂto ˈlʲubʲɪt ˈmuzɨkʊ]",
+            "translation": "Elle dit qu'elle aime la musique.",
+            "note": "La conjonction «что» est utilisée pour rapporter des faits. Le verbe de la subordonnée conserve le temps de l'énoncé d'origine."
+          },
+          {
+            "original": "Мы знаем, что он приедет летом.",
+            "phonetic": "[mɨ ˈznajɪm | ʂto on prʲɪˈjedʲɪt ˈlʲetəm]",
+            "translation": "Nous savons qu'il viendra en été.",
+            "note": "Contrairement à l'espagnol, le futur n'est pas transformé en conditionnel («vendría»). «Приедет» est maintenu."
+          },
+          {
+            "original": "Он ответил, что уже всё сделал.",
+            "phonetic": "[on ɐtˈvʲetʲɪl | ʂto uˈʐɛ fsʲo ˈzʲdʲeləɫ]",
+            "translation": "Il a répondu qu'il avait déjà tout fait.",
+            "note": "En russe, le passé simple («сделал») est utilisé là où l'espagnol emploierait le plus-que-parfait."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Приказы и просьбы",
+        "translation": "Ordres et demandes",
+        "examples": [
+          {
+            "original": "Учитель сказал, чтобы мы читали громко.",
+            "phonetic": "[ʊˈt͡ɕitʲɪlʲ skɐˈzaɫ | ˈʂtobɨ mɨ t͡ɕɪˈtalʲɪ ˈɡromkə]",
+            "translation": "Le professeur a dit que nous devions lire à voix haute.",
+            "note": "«Чтобы» + passé (читали) = équivalent du subjonctif espagnol."
+          },
+          {
+            "original": "Она попросила, чтобы я позвонил ей.",
+            "phonetic": "[ɐˈna pəprɐˈsʲilə | ˈʂtobɨ ja pəzvɐˈnʲilʲ jej]",
+            "translation": "Elle m'a demandé de l'appeler.",
+            "note": "«Попросить» exige l'emploi de «чтобы»; jamais «что»."
+          },
+          {
+            "original": "Врач велел, чтобы пациент не курил.",
+            "phonetic": "[vrat͡ɕ vʲɪˈlʲeɫ | ˈʂtobɨ pət͡sɨˈɛnt nʲɪ kʊˈrʲiɫ]",
+            "translation": "Le médecin a ordonné au patient de ne pas fumer.",
+            "note": "Pour les ordres négatifs, on utilise «чтобы не» + passé."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Вопросы",
+        "translation": "Questions",
+        "examples": [
+          {
+            "original": "Он спросил, приду ли я завтра.",
+            "phonetic": "[on sprɐˈsʲiɫ | prʲɪˈdu lʲi ja ˈzaftrə]",
+            "translation": "Il a demandé si je viendrais demain.",
+            "note": "«Ли» se place après le verbe, et la phrase conserve le futur."
+          },
+          {
+            "original": "Она спросила, где мы были вчера.",
+            "phonetic": "[ɐˈna sprɐˈsʲilə | ˈɡdʲe mɨ ˈbɨlʲɪ ft͡ɕɪˈra]",
+            "translation": "Elle a demandé où nous étions hier.",
+            "note": "Avec les pronoms interrogatifs (где, когда, почему), on n'utilise pas «ли»."
+          },
+          {
+            "original": "Я не знаю, почему он опаздывает.",
+            "phonetic": "[ja nʲɪ ˈznajʊ | pɐˈt͡ɕemu on ɐˈpazdɨvəɪt]",
+            "translation": "Je ne sais pas pourquoi il est en retard.",
+            "note": "Le verbe de la subordonnée conserve le présent de l'énoncé direct."
+          },
+          {
+            "original": "Он спросил, хочу ли я чай.",
+            "phonetic": "[on sprɐˈsʲiɫ | xɐˈt͡ɕu lʲi ja t͡ɕæj]",
+            "translation": "Il a demandé si je voulais du thé.",
+            "note": "Ici, «ли» équivaut à l'espagnol «si», mais il se place après le verbe, et non au début."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "fr": "Discours indirect"
+    }
+  },
+  {
+    "id": "fr_B1_gram_05",
+    "type": "concept",
+    "category": "Grammaire",
+    "title": "Инфинитив и герундий как подлежащее и дополнение / Infinitif et gérondif comme sujet et objet",
+    "bridge": "En espagnol, l'infinitif et le gérondif peuvent tous deux fonctionner comme sujet ou objet, mais en russe seul l'infinitif (et parfois le nom verbal) remplit ce rôle. Le gérondif russe (деепричастие) exprime des actions simultanées ou antérieures, mais jamais comme sujet ou objet direct. Ainsi, lors de la traduction de 'nadar es divertido' ou 'me gusta nadar', il faut utiliser l'infinitif 'плавать' dans les deux cas, et non une forme équivalente au gérondif.",
+    "rule": "En russe, l'infinitif (-ть, -ти, -чь) s'emploie comme sujet (Нравится плавать) et comme objet (Я люблю читать). L'infinitif est invariable et n'a pas d'aspect verbal fixe ; il est choisi en fonction de l'aspect (perfectif/imperfectif) selon le contexte. Pour exprimer 'me gusta + infinitif', on utilise 'нравится' + infinitif (ou 'любить' + infinitif). Il n'existe pas de gérondif comme en espagnol ; le 'деепричастие' russe sert à exprimer des actions simultanées ou antérieures (Читая, я пью чай – En lisant, je bois du thé) et ne peut être ni sujet ni objet direct. Pour des actions préférées ou habituelles, on utilise l'infinitif. Pour exprimer 'caminar es bueno', on emploie l'infinitif 'ходить'. Dans des contextes impersonnels avec 'нужно', 'можно', 'нельзя', l'infinitif est également utilisé. L'aspect (imperfectif/perfectif) est choisi selon que l'action est habituelle ou accomplie.",
+    "concept_examples": [
+      {
+        "text": "Курить вредно.",
+        "translation": "Fumer est nocif.",
+        "phonetic": "kʊˈrʲitʲ ˈvrʲednə"
+      },
+      {
+        "text": "Мне нравится читать.",
+        "translation": "J'aime lire.",
+        "phonetic": "mʲnʲe ˈnravʲɪt͡sə t͡ɕɪˈtatʲ"
+      },
+      {
+        "text": "Бегать утром полезно.",
+        "translation": "Courir le matin est sain.",
+        "phonetic": "ˈbʲeɡətʲ ˈutrəm ˈpolʲɪznə"
+      },
+      {
+        "text": "Он начал работать вчера.",
+        "translation": "Il a commencé à travailler hier.",
+        "phonetic": "on ˈnat͡ɕɪl rɐˈbotətʲ ft͡ɕɪˈra"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я люблю плавая (taking the Spanish gerund) / I like swimming.",
+      "correct": "Я люблю плавать.",
+      "correct_alt": "Мне нравится плавать.",
+      "explanation": "Les hispanophones ont tendance à utiliser le gérondif (плавая) comme objet direct, car en espagnol 'nadando' peut remplir cette fonction dans certaines constructions familières. En russe, seul l'infinitif (плавать) est valide pour exprimer 'me gusta nadar' ou 'amo nadar'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Инфинитив как подлежащее",
+        "translation": "L'infinitif comme sujet",
+        "examples": [
+          {
+            "original": "Учиться интересно.",
+            "phonetic": "ʊˈt͡ɕit͡sə ɪnʲtʲɪˈrʲesnə",
+            "translation": "Apprendre est intéressant.",
+            "note": "L'infinitif 'учиться' fonctionne comme sujet, tout comme l'infinitif espagnol. Il est utilisé avec un prédicat neutre."
+          },
+          {
+            "original": "Ходить пешком полезно.",
+            "phonetic": "xɐˈdʲitʲ pʲɪˈʂkom ˈpolʲɪznə",
+            "translation": "Marcher est sain.",
+            "note": "Notez que 'ходить' est imperfectif et exprime une action habituelle."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Инфинитив как дополнение",
+        "translation": "L'infinitif comme objet direct",
+        "examples": [
+          {
+            "original": "Я хочу купить машину.",
+            "phonetic": "ja xɐˈt͡ɕu kʊˈpʲitʲ mɐˈʂɨnʊ",
+            "translation": "Je veux acheter une voiture.",
+            "note": "Après les verbes modaux comme 'хотеть', l'infinitif perfectif est utilisé si l'action est ponctuelle."
+          },
+          {
+            "original": "Он любит слушать музыку.",
+            "phonetic": "on ˈlʲubʲɪt ˈsluʂətʲ ˈmuzɨkʊ",
+            "translation": "Il aime écouter de la musique.",
+            "note": "Le verbe 'любить' + infinitif imperfectif pour des actions habituelles."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Инфинитив после безличных слов",
+        "translation": "L'infinitif après des mots impersonnels",
+        "examples": [
+          {
+            "original": "Здесь опасно купаться.",
+            "phonetic": "zdʲesʲ ɐˈpasnə kʊˈpat͡sə",
+            "translation": "Il est dangereux de nager ici.",
+            "note": "L'infinitif réfléchi 'купаться' est utilisé avec l'adverbe impersonnel 'опасно'."
+          },
+          {
+            "original": "Можно войти?",
+            "phonetic": "ˈmoʐnə vɐjˈtʲi",
+            "translation": "Puis-je entrer ?",
+            "note": "'Можно' + infinitif perfectif exprime une permission."
+          },
+          {
+            "original": "надо помочь маме.",
+            "phonetic": "ˈnadə pɐˈmot͡ɕ ˈmamʲe",
+            "translation": "Il faut aider maman.",
+            "note": "'Надо' (nécessité) + infinitif perfectif ou imperfectif selon le contexte."
+          }
+        ]
+      }
+    ],
+    "emoji": "📘",
+    "phonetic": "",
+    "translations": {
+      "fr": "Infinitif et gérondif comme sujet et objet"
+    }
+  },
+  {
+    "id": "fr_B1_gram_06",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Модальные глаголы для выражения предположения / Verbes modaux pour exprimer une déduction",
+    "bridge": "En espagnol, on utilise 'debe de', 'puede que', 'quizás' pour exprimer une déduction. En russe, il n'existe pas de verbes modaux équivalents à 'must' ou 'might', mais on utilise des constructions impersonnelles avec 'должно быть' (doit être), 'может быть' (peut-être) et des adverbes comme 'наверное' (probablement) ou 'вряд ли' (peu probable). Contrairement à l'espagnol, en russe, le verbe principal est à l'infinitif ou au passé, et la construction ne varie pas selon la personne. Une autre différence importante : en espagnol, 'must' implique une certitude forte, tandis qu'en russe, 'должно быть' est plus familier et atténué.",
+    "rule": "Pour exprimer une déduction en russe, trois constructions principales sont utilisées : 1) 'должно быть' + verbe à l'infinitif ou au passé (déduction probable), 2) 'может быть' + verbe à l'infinitif ou au passé (possibilité faible), 3) des adverbes modaux tels que 'наверное' (probablement), 'возможно' (éventuellement), 'вряд ли' (peu probable), qui se combinent avec le verbe à la forme personnelle ou impersonnelle. La construction 'должно быть' est invariable et se place au début ou au milieu de la phrase. Pour la négation, on utilise 'не должен' (ne doit pas être) ou 'вряд ли' (peu probable). Au niveau B1, il est courant d'utiliser 'должно быть' avec le passé pour des déductions sur des événements passés, et avec l'infinitif pour le présent. Exemple : 'Он должно быть дома' (Il doit être à la maison). Il n'y a pas d'accord en genre ou en nombre dans ces constructions impersonnelles.",
+    "concept_examples": [
+      {
+        "text": "Он должно быть дома.",
+        "translation": "Il doit être à la maison.",
+        "phonetic": "[on dɐlʐnə bɨtʲ ˈdomə]"
+      },
+      {
+        "text": "Она может быть занята.",
+        "translation": "Elle est peut-être occupée.",
+        "phonetic": "[ɐˈna ˈmoʐɨt bɨtʲ zɐˈnʲatə]"
+      },
+      {
+        "text": "Наверное, они уже уехали.",
+        "translation": "Ils sont probablement déjà partis.",
+        "phonetic": "[ˈnavʲɪrnə, ɐˈnʲi ʊˈʐɛ ʊˈjexəlʲɪ]"
+      },
+      {
+        "text": "Вряд ли он придёт.",
+        "translation": "Il viendra peu probablement.",
+        "phonetic": "[vrʲæd lʲi on prʲɪˈdʲot]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Он должен быть дома. (utilisation de 'должен' conjugué comme un verbe modal)",
+      "correct": "Он, должно быть, дома.",
+      "correct_alt": "Он, наверное, дома.",
+      "explanation": "Les hispanophones traduisent souvent 'debe de' littéralement par 'должен' et le conjuguent selon la personne, mais en russe 'должен' exprime une obligation (devoir), et non une déduction. Pour exprimer une déduction, on utilise la construction impersonnelle et invariable 'должно быть'. Il est important de retenir que 'должен' sert à exprimer l'obligation (Я должен работать – Je dois travailler), tandis que 'должно быть' indique une probabilité. Pour éviter cette erreur, mémorisez la locution fixe 'должно быть' et ne la confondez pas avec 'должен'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Должно быть",
+        "translation": "Doit être",
+        "examples": [
+          {
+            "original": "Он должно быть врач.",
+            "phonetic": "[on dɐlʐnə bɨtʲ vrat͡ɕ]",
+            "translation": "Il doit être médecin.",
+            "note": "Utilisez 'должно быть' avec un nom au nominatif pour déduire une identité ou une profession."
+          },
+          {
+            "original": "Она должно быть устала.",
+            "phonetic": "[ɐˈna dɐlʐnə bɨtʲ ʊˈstaɫə]",
+            "translation": "Elle doit être fatiguée.",
+            "note": "Avec un adjectif au court (устала) pour déduire un état."
+          },
+          {
+            "original": "Это должно быть трудно.",
+            "phonetic": "[ˈɛtə dɐlʐnə bɨtʲ ˈtrudnə]",
+            "translation": "Cela doit être difficile.",
+            "note": "Avec un adverbe prédicatif (трудно) pour déduire une qualité."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Может быть",
+        "translation": "Peut-être / éventuellement",
+        "examples": [
+          {
+            "original": "Может быть, он опаздывает.",
+            "phonetic": "[ˈmoʐɨt bɨtʲ, on ɐˈpazdɨvəɪt]",
+            "translation": "Peut-être qu'il est en retard.",
+            "note": "'Может быть' est séparé par une virgule lorsqu'il est placé en début de phrase, indiquant une possibilité faible."
+          },
+          {
+            "original": "Он может быть не знает.",
+            "phonetic": "[on ˈmoʐɨt bɨtʲ nʲɪ ˈznaɪt]",
+            "translation": "Il se peut qu'il ne sache pas.",
+            "note": "Avec la négation 'не' avant le verbe pour exprimer une incertitude."
+          },
+          {
+            "original": "Мы может быть пойдём завтра.",
+            "phonetic": "[mɨ ˈmoʐɨt bɨtʲ pɐjˈdʲom ˈzaftrə]",
+            "translation": "Nous irons peut-être demain.",
+            "note": "Dans un contexte futur, 'может быть' équivaut à 'peut-être' et s'utilise avec un verbe au futur."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Наверное и вряд ли",
+        "translation": "Probablement et peu probablement",
+        "examples": [
+          {
+            "original": "Наверное, он уже дома.",
+            "phonetic": "[ˈnavʲɪrnə, on ʊˈʐɛ ˈdomə]",
+            "translation": "Il est probablement déjà à la maison.",
+            "note": "L'adverbe 'наверное' exprime une forte probabilité et s'utilise avec des verbes au présent ou au passé."
+          },
+          {
+            "original": "Вряд ли она придёт сегодня.",
+            "phonetic": "[vrʲæd lʲi ɐˈna prʲɪˈdʲot sʲɪˈvodʲnʲə]",
+            "translation": "Elle viendra peu probablement aujourd'hui.",
+            "note": "'Вряд ли' exprime une faible probabilité et se place avant le verbe, sans négation supplémentaire."
+          },
+          {
+            "original": "Возможно, они опоздают.",
+            "phonetic": "[vɐzˈmoʐnə, ɐˈnʲi ɐpɐzˈdajʊt]",
+            "translation": "Ils risquent d'être en retard.",
+            "note": "'Возможно' est un adverbe formel pour exprimer une possibilité, similaire à 'peut-être'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "fr": "Verbes modaux pour exprimer une déduction"
+    }
+  },
+  {
+    "id": "fr_B1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Относительные предложения (определительные и пояснительные) / Clauses relatives (restrictives et non restrictives)",
+    "bridge": "En espagnol, les propositions subordonnées relatives sont introduites par 'que', 'quien', 'cual', etc., et peuvent être restrictives (sans virgules) ou non restrictives (avec virgules). En russe, la principale différence réside dans le fait que le pronom relatif 'который' s'accorde en genre, en nombre et en cas avec le nom auquel il se rapporte, et non avec le verbe de la proposition subordonnée. De plus, le cas de 'который' dépend de sa fonction dans la proposition relative (sujet, complément d'objet direct, etc.), ce qui n'a pas d'équivalent direct en espagnol. Attention : les hispanophones ont tendance à utiliser 'который' toujours au nominatif, oubliant de l'accorder lorsqu'il est complément d'objet.",
+    "rule": "En russe, les propositions subordonnées relatives se construisent avec le pronom 'который', qui s'accorde avec l'antécédent (nom ou pronom) en genre (masculin, féminin, neutre), en nombre (singulier/pluriel) et en cas (nominatif, accusatif, génitif, datif, instrumental, prépositionnel). Le cas dépend de la fonction qu'il remplit dans la proposition subordonnée : sujet (nominatif), complément d'objet direct (accusatif), possession (génitif), etc. Lorsque l'antécédent est animé et est l'objet de l'action, l'accusatif est utilisé, identique au génitif (pour le masculin singulier). Les propositions non restrictives sont séparées par des virgules, tout comme en espagnol. N'oubliez pas que le verbe de la proposition subordonnée se place à la fin ou dans une position logique finale, bien que cela ne soit pas toujours strictement respecté.",
+    "concept_examples": [
+      {
+        "text": "Вот книга, которую я купил вчера.",
+        "translation": "Este es el libro que compré ayer.",
+        "phonetic": "[vot ˈknʲiɡə, kɐˈtorʊjʊ ja kʊˈpʲil ftʲɪˈra]"
+      },
+      {
+        "text": "Мой брат, который живёт в Москве, приехал в гости.",
+        "translation": "Mi hermano, que vive en Moscú, vino de visita.",
+        "phonetic": "[moj brat, kɐˈtorɨj ʐɨˈvʲot v mɐskˈvʲe, prʲɪˈjxal v ˈɡosʲtʲi]"
+      },
+      {
+        "text": "Я знаю студента, у которого есть словарь.",
+        "translation": "Conozco al estudiante que tiene un diccionario.",
+        "phonetic": "[ja ˈznaju stʊˈdʲentə, u kɐˈtorəvə jesʲtʲ slɐˈvarʲ]"
+      },
+      {
+        "text": "Это фильм, о котором мы говорили.",
+        "translation": "Esta es la película de la que hablamos.",
+        "phonetic": "[ˈɛtə fʲilʲm, ə kɐˈtorəm mɨ ɡəvɐˈrʲilʲi]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Вот книга, который я купил вчера.",
+      "correct": "Вот книга, которую я купил вчера.",
+      "correct_alt": "Вот книга, что я купил вчера.",
+      "explanation": "L'erreur provient du fait qu'en espagnol, le relatif 'que' est invariable et ne change pas selon le genre ou la fonction. En russe, 'который' doit s'accorder avec 'книга' (féminin) et, étant donné qu'il s'agit d'un complément d'objet direct, il doit être au féminin accusatif 'которую'. Utiliser 'который' (nominatif masculin) est une erreur typique des hispanophones. Rappelez-vous : identifiez le genre et le nombre de l'antécédent, puis déterminez le cas en fonction de la fonction du relatif dans la proposition subordonnée."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Основы: nominativo",
+        "translation": "Bases : nominatif",
+        "examples": [
+          {
+            "original": "Я вижу дом, который стоит на углу.",
+            "phonetic": "[ja ˈvʲiʐu dom, kɐˈtorɨj stɐˈit nɐ ʊˈɡlu]",
+            "translation": "Veo la casa que está en la esquina.",
+            "note": "Ici, 'который' est au nominatif car il est le sujet de la proposition subordonnée (la maison est en train de se tenir). L'antécédent 'дом' est masculin singulier."
+          },
+          {
+            "original": "Женщина, которая работает в банке, моя соседка.",
+            "phonetic": "[ˈʐɛnʲɕːɪnə, kɐˈtorəjə rɐˈbotəjɪt v ˈbankʲe, mɐˈja sɐˈsʲɛtkə]",
+            "translation": "La mujer que trabaja en el banco es mi vecina.",
+            "note": "Accord féminin : 'которая' (féminin singulier). Le verbe de la proposition subordonnée s'accorde avec le sujet de cette proposition."
+          },
+          {
+            "original": "У меня есть друг, который говорит по-испански.",
+            "phonetic": "[u‿mʲɪˈnʲæ jesʲtʲ druk, kɐˈtorɨj ɡəvɐˈrʲit pə‿ɪˈspanskʲɪ]",
+            "translation": "Tengo un amigo que habla español.",
+            "note": "À nouveau au nominatif, car 'который' est le sujet de la proposition subordonnée."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Acusativo y genitivo",
+        "translation": "Accusatif et génitif",
+        "examples": [
+          {
+            "original": "Фильм, который мы смотрели, был скучным.",
+            "phonetic": "[fʲilʲm, kɐˈtorɨj mɨ smɐˈtrʲelʲi, bɨl ˈskut͡ɕnɨm]",
+            "translation": "La película que vimos fue aburrida.",
+            "note": "Ici, 'который' est à l'accusatif (masculin singulier) car il est le complément d'objet direct de 'смотрели'. N'oubliez pas que l'accusatif pour les noms inanimés masculins est identique au nominatif."
+          },
+          {
+            "original": "Я купил книгу, которую ты советовал.",
+            "phonetic": "[ja kʊˈpʲil ˈknʲiɡʊ, kɐˈtorʊjʊ tɨ sɐˈvʲetəvəl]",
+            "translation": "Compré el libro que me recomendaste.",
+            "note": "Accusatif féminin : 'которую'. L'antécédent 'книгу' est féminin et est à l'accusatif en tant que complément d'objet de 'купил'."
+          },
+          {
+            "original": "Это человек, которого я вчера встретил.",
+            "phonetic": "[ˈɛtə t͡ɕɪˈlɐˈvʲek, kɐˈtorəvə ja ft͡ɕɪˈra ˈfstrʲetʲɪl]",
+            "translation": "Esta es la persona que encontré ayer.",
+            "note": "Ici, 'которого' est à l'accusatif (identique au génitif) car il se réfère à une personne (animée) qui est le complément d'objet direct. Les noms animés masculins à l'accusatif utilisent la forme du génitif."
+          },
+          {
+            "original": "Дом, окна которого выходят на море, очень дорогой.",
+            "phonetic": "[dom, ˈoknə kɐˈtorəvə ˈvɨxədʲɪt nɐ ˈmorʲe, ˈoʊʲɪnʲ dərɐˈɡoj]",
+            "translation": "La casa cuyas ventanas dan al mar es muy cara.",
+            "note": "Génitif : 'которого' indique la possession (les fenêtres de la maison). Il s'accorde avec 'дом' (masculin singulier), mais fonctionne comme complément du nom."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Caso preposicional y oraciones explicativas",
+        "translation": "Cas prépositionnel et propositions non restrictives",
+        "examples": [
+          {
+            "original": "Это статья, в которой говорится о новых технологиях.",
+            "phonetic": "[ˈɛtə stɐˈtʲja, f kɐˈtorəj ɡɐˈvɐrʲɪt͡sə ə ˈnovɨx tʲɪxˈnoləɡʲɪjəx]",
+            "translation": "Este es el artículo en el que se habla de nuevas tecnologías.",
+            "note": "Cas prépositionnel : après la préposition 'в', le cas prépositionnel est utilisé. Le relatif se décline en 'которой' (féminin singulier) car il s'accorde avec 'статья'."
+          },
+          {
+            "original": "Мой друг, который живёт в Испании, приедет летом.",
+            "phonetic": "[moj druk, kɐˈtorɨj ʐɨˈvʲot f‿ɪˈspanʲɪɪ, prʲɪˈjɛdʲɪt ˈlʲetəm]",
+            "translation": "Mi amigo, que vive en España, vendrá en verano.",
+            "note": "Proposition non restrictive : séparée par des virgules, elle ajoute une information supplémentaire. Elle ne modifie pas le sens essentiel de la proposition principale. Le relatif suit les mêmes règles d'accord."
+          },
+          {
+            "original": "Город, в котором я родился, очень красивый.",
+            "phonetic": "[ˈɡorət, f kɐˈtorəm ja rɐˈdʲiɫsʲə, ˈoʊʲɪnʲ krɐˈsʲivɨj]",
+            "translation": "La ciudad en la que nací es muy bonita.",
+            "note": "Ici, 'в котором' utilise le cas prépositionnel avec le relatif masculin singulier. La proposition est non restrictive (séparée par des virgules), comme l'utilisation des virgules en espagnol."
+          }
+        ]
+      }
+    ],
+    "emoji": "📎",
+    "phonetic": "",
+    "translations": {
+      "fr": "Clauses relatives (restrictives et non restrictives)"
+    }
+  },
+  {
+    "id": "fr_B1_gram_08",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Выражение нереальных желаний (Wish + past) / Exprimer des souhaits irréels (Wish + past)",
+    "bridge": "En espagnol, on utilise 'ojalá' ou 'me gustaría' pour exprimer des souhaits irréels, souvent accompagnés du subjonctif. En russe, il n'existe pas de subjonctif en tant que tel, mais une construction avec 'чтобы' (pour que) et le verbe au passé, qui sert à exprimer à la fois le désir et l'impossibilité. Une erreur courante consiste à vouloir utiliser le conditionnel russe (бы) de la même manière que le conditionnel espagnol, alors qu'en russe, le passé + 'бы' est la forme standard pour ces souhaits.",
+    "rule": "En russe, pour exprimer des souhaits irréels, on utilise la structure suivante : 'Хотелось бы' ou 'Хочу' + 'чтобы' + sujet + verbe au passé. 'Вот бы' + verbe au passé est également utilisé, ce qui équivaut à 'Ojalá'. Le verbe au passé s'accorde en genre et en nombre avec le sujet. Pour les souhaits concernant le présent ou le futur, on utilise le passé car l'action est hypothétique. Exemple : 'Хотелось бы, чтобы ты был здесь' (Je voudrais que tu sois ici). Une autre forme est 'Если бы' + passé, pour les conditions irréelles. Important : le verbe après 'чтобы' est toujours au passé, sans marqueurs de futur ou de présent.",
+    "concept_examples": [
+      {
+        "text": "Хотелось бы, чтобы вы пришли завтра.",
+        "translation": "J'aimerais que vous veniez demain.",
+        "phonetic": "[xɐˈtʲeɫəsʲ ˈbɨ | ˈʂtobɨ vɨ prʲɪˈʂlʲi ˈzaftrə]"
+      },
+      {
+        "text": "Вот бы у меня было больше времени!",
+        "translation": "Si seulement j'avais plus de temps !",
+        "phonetic": "[vot bɨ u mʲɪˈnʲa ˈbɨɫə ˈbolʲʂɨ ˈvrʲemʲɪnʲi]"
+      },
+      {
+        "text": "Если бы я знал, я бы пришёл.",
+        "translation": "Si j'avais su, je serais venu.",
+        "phonetic": "[ˈjɛslʲɪ bɨ ja znal | ja bɨ prʲɪˈʂoɫ]"
+      },
+      {
+        "text": "Жаль, что мы не встретились вчера.",
+        "translation": "C'est dommage que nous ne nous soyons pas rencontrés hier.",
+        "phonetic": "[ʐalʲ ʂto mɨ nʲɪ ˈftrʲetʲɪlʲɪsʲ ˈft͡ɕɛrə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я хочу, чтобы ты придёшь завтра.",
+      "correct": "Я хочу, чтобы ты пришёл завтра.",
+      "correct_alt": "Хотелось бы, чтобы ты пришёл завтра.",
+      "explanation": "L'erreur vient du fait qu'en espagnol, on utilise le subjonctif ou le futur dans la subordonnée, alors qu'en russe, après 'чтобы', le verbe est toujours au passé, quel que soit le temps du verbe principal. 'Придёшь' est au futur, mais il doit être remplacé par 'пришёл' (passé). Cela évite l'interférence avec l'espagnol."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Хотелось бы + чтобы (Me gustaría que)",
+        "translation": "J'aimerais que",
+        "examples": [
+          {
+            "original": "Хотелось бы, чтобы ты помог мне.",
+            "phonetic": "[xɐˈtʲeɫəsʲ ˈbɨ | ˈʂtobɨ tɨ pɐˈmoʊk mnʲe]",
+            "translation": "J'aimerais que tu m'aides.",
+            "note": "Le verbe 'помог' est au passé masculin avec une consonne finale."
+          },
+          {
+            "original": "Хотелось бы, чтобы погода была хорошей.",
+            "phonetic": "[xɐˈtʲeɫəsʲ ˈbɨ | ˈʂtobɨ pɐˈɡodə ˈbɨɫə xɐˈroʂɨj]",
+            "translation": "J'aimerais que le temps soit beau.",
+            "note": "Accord en genre : 'погода' est féminin, 'была' est féminin."
+          },
+          {
+            "original": "Хотелось бы, чтобы вы приехали в Москву.",
+            "phonetic": "[xɐˈtʲeɫəsʲ ˈbɨ | ˈʂtobɨ vɨ prʲɪˈjexəlʲɪ v mɐˈskvu]",
+            "translation": "J'aimerais que vous veniez à Moscou.",
+            "note": "Pour le pluriel, on utilise 'приехали'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Вот бы + прошедшее время (Ojalá)",
+        "translation": "Si seulement / Je voudrais (souhait exclamatif)",
+        "examples": [
+          {
+            "original": "Вот бы поехать в Париж!",
+            "phonetic": "[vot bɨ pɐˈjexətʲ f pɐˈrʲiʂ]",
+            "translation": "Si seulement je pouvais aller à Paris !",
+            "note": "L'infinitif avec 'бы' est utilisé pour des souhaits généraux."
+          },
+          {
+            "original": "Вот бы он позвонил!",
+            "phonetic": "[vot bɨ on pəzvɐˈnʲiɫ]",
+            "translation": "Si seulement il appelait !",
+            "note": "Le verbe 'позвонил' est au passé masculin singulier."
+          },
+          {
+            "original": "Вот бы не было дождя!",
+            "phonetic": "[vot bɨ ˈnʲe ˈbɨɫə dɐˈʐdʲa]",
+            "translation": "Si seulement il ne pleuvait pas !",
+            "note": "Négation avec 'не' et génitif pour 'дождь'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Если бы + прошедшее (Si + subjuntivo)",
+        "translation": "Si + imparfait du subjonctif / conditionnel",
+        "examples": [
+          {
+            "original": "Если бы я был богатым, я бы купил дом.",
+            "phonetic": "[ˈjɛslʲɪ bɨ ja bɨɫ bɐˈɡatɨm | ja bɨ kuˈpʲiɫ dom]",
+            "translation": "Si j'étais riche, j'achèterais une maison.",
+            "note": "La protase et l'apodose utilisent toutes deux 'бы'."
+          },
+          {
+            "original": "Если бы ты пришёл, мы бы поговорили.",
+            "phonetic": "[ˈjɛslʲɪ bɨ tɨ prʲɪˈʂoɫ | mɨ bɨ pəɡəvɐˈrʲilʲɪ]",
+            "translation": "Si tu étais venu, nous aurions parlé.",
+            "note": "Le verbe 'пришёл' est au passé, et 'поговорили' est au pluriel."
+          },
+          {
+            "original": "Если бы было тепло, мы бы гуляли.",
+            "phonetic": "[ˈjɛslʲɪ bɨ ˈbɨlə tʲɪˈpɫo | mɨ bɨ ɡʊˈlʲælʲɪ]",
+            "translation": "S'il faisait chaud, nous nous promènerions.",
+            "note": "Dans les phrases impersonnelles, on utilise l'adverbe + 'было'."
+          }
+        ]
+      }
+    ],
+    "emoji": "💭",
+    "phonetic": "",
+    "translations": {
+      "fr": "Exprimer des souhaits irréels (Wish + past)"
+    }
+  },
+  {
+    "id": "fr_B1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Конструкция «бывало» и глаголы несовершенного вида для выражения привычных действий в прошлом / Construction 'бывало' et verbes imperfectifs pour exprimer des habitudes passées",
+    "bridge": "En espagnol, pour exprimer des habitudes passées, on utilise 'used to + infinitif' ou l'imparfait ('iba', 'compraba'). En russe, il n'y a pas d'équivalent direct de 'used to'. Pour cette signification, on utilise les verbes imperfectifs au passé, souvent accompagnés de la particule 'быва́ло' (buvála), qui indique une répétition habituelle dans le passé. L'aspect verbal est crucial : le perfectif indiquerait une action ponctuelle achevée, et non une habitude. De plus, le russe ne distingue pas entre l'imparfait et le passé simple comme l'espagnol ; le contexte et les marqueurs temporels (ча́сто, всегда́, ка́ждый день) indiquent l'habitude.",
+    "rule": "Pour exprimer des habitudes passées en russe, on utilise le passé des verbes imperfectifs (souvent avec le suffixe -ыва-/-ива- pour les verbes dérivés, mais aussi les verbes imperfectifs de base). La forme du passé se forme avec le suffixe -л- plus les terminaisons de genre/nombre : -л, -ла, -ло, -ли. Exemples : 'я чита́л' (je lisais / j'avais l'habitude de lire), 'она́ покупа́ла' (elle achetait / elle avait l'habitude d'acheter). Pour souligner la répétition habituelle dans le passé, on peut ajouter la particule 'быва́ло' (buvála), qui agit comme marqueur d'habitude et se place généralement au début ou au milieu de la phrase : 'Быва́ло, мы гуля́ли в парке' (Nous avions l'habitude de nous promener dans le parc). Les adverbes comme 'ча́сто' (souvent), 'всегда́' (toujours), 'обы́чно' (habituellement), 'ка́ждый день' (chaque jour) renforcent également l'idée d'habitude. L'aspect perfectif (par exemple, 'прочита́л', 'купи́ла') indique une action achevée et n'est pas utilisé pour les habitudes. Il n'y a pas de différence de conjugaison pour différents passés comme en espagnol ; le passé est unique. Pour nier une habitude passée, on utilise 'не' + verbe imperfectif au passé : 'Я не чита́л по утра́м' (Je n'avais pas l'habitude de lire le matin).",
+    "concept_examples": [
+      {
+        "text": "Когда́ я был ребёнком, я ча́сто гуля́л в па́рке.",
+        "translation": "Quand j'étais enfant, j'avais l'habitude de me promener souvent dans le parc.",
+        "phonetic": "kagDÁ ja byl rebjÓNkam, ja CHÁsta gulJÁL v PÁRke"
+      },
+      {
+        "text": "Быва́ло, мы ка́ждое ле́то е́здили к ба́бушке в дере́вню.",
+        "translation": "Nous avions l'habitude d'aller chez notre grand-mère au village chaque été.",
+        "phonetic": "byVÁla, my KÁZHdaje LJÉta YÉZdili k BAbushke v deRÉVnyu"
+      },
+      {
+        "text": "Она́ всегда́ покупа́ла хлеб в э́том магази́не.",
+        "translation": "Elle avait toujours l'habitude d'acheter du pain dans ce magasin.",
+        "phonetic": "aNÁ fsagDÁ pakuPÁla khlep v Étam magaZÍne"
+      },
+      {
+        "text": "Раньше мы не смотре́ли телеви́зор по вечера́м.",
+        "translation": "Avant, nous n'avions pas l'habitude de regarder la télévision le soir.",
+        "phonetic": "RÁNshe my nye smaTRÉli teleVÍzar pa vecheRÁM"
+      }
+    ],
+    "common_error": {
+      "wrong": "Когда́ я был ребёнком, я ча́сто почита́л в па́рке.",
+      "correct": "Когда́ я был ребёнком, я ча́сто чита́л в па́рке.",
+      "correct_alt": "Когда́ я был ребёнком, я име́л привы́чку чита́ть в па́рке.",
+      "explanation": "L'erreur vient du fait que les hispanophones peuvent confondre l'aspect perfectif (почита́л - 'j'ai lu pendant un moment' ou 'j'ai fini de lire') avec l'imperfectif pour exprimer des habitudes. En espagnol, le préterit ('leí') et l'imparfait ('leía') sont clairement distincts, mais en russe c'est l'opposition aspectuelle qui est essentielle. Pour exprimer des habitudes passées, il faut utiliser l'imperfectif (чита́л), et non le perfectif. Rappelez-vous : le perfectif indique une action achevée et ponctuelle, tandis que l'imperfectif exprime une durée ou une répétition. Pour éviter cette erreur, réfléchissez au contexte : si l'action était répétée, utilisez l'imperfectif."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Imperfectivo en pasado para hábitos",
+        "translation": "Imparfait au passé pour les habitudes",
+        "examples": [
+          {
+            "original": "В де́тстве я игра́л в футбо́л ка́ждую суббо́ту.",
+            "phonetic": "v DYETstve ya igRÁL v futBÓL KÁZHduyu subBÓtu",
+            "translation": "Dans mon enfance, j'avais l'habitude de jouer au football chaque samedi.",
+            "note": "Le verbe 'игра́л' est à l'imparfait au passé. La fréquence est indiquée par 'ка́ждую суббо́ту' (chaque samedi). Le perfectif n'est pas utilisé."
+          },
+          {
+            "original": "Моя́ ба́бушка пе́ла нам пе́сни ка́ждый ве́чер.",
+            "phonetic": "maYÁ BAbushka PJÉla nam PJÉsni KÁZHdyj VYÉcher",
+            "translation": "Ma grand-mère avait l'habitude de nous chanter des chansons chaque soir.",
+            "note": "'пе́ла' est à l'imparfait au passé. L'habitude est exprimée par 'ка́ждый ве́чер'. En espagnol, on utiliserait 'cantaba' (imparfait) - en russe, c'est l'imperfectif qui remplit cette fonction."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Partícula «быва́ло»",
+        "translation": "Particule «быва́ло»",
+        "examples": [
+          {
+            "original": "Быва́ло, ле́том мы ходи́ли на ре́чку купа́ться.",
+            "phonetic": "byVÁla, LJÉtom my khaDÍli na RYÉchku kuPÁtsa",
+            "translation": "Nous avions l'habitude d'aller nager à la rivière en été.",
+            "note": "La particule 'быва́ло' en début de phrase marque une répétition habituelle dans le passé. Elle équivaut à 'used to' en anglais."
+          },
+          {
+            "original": "Он, быва́ло, приходи́л домо́й по́здно и молча́л.",
+            "phonetic": "on, byVÁla, prikhaDÍL daMÓJ PÓZna i malCHÁL",
+            "translation": "Il avait l'habitude de rentrer tard à la maison et de rester silencieux.",
+            "note": "Ici, 'быва́ло' vient après le sujet. Les verbes 'приходи́л' et 'молча́л' sont à l'imperfectif, indiquant des actions habituelles."
+          },
+          {
+            "original": "Быва́ло, мы сиде́ли допо́зна и говори́ли о жи́зни.",
+            "phonetic": "byVÁla, my siDÉli daPÓZna i gavaRÍli o ZHÝZni",
+            "translation": "Nous avions l'habitude de veiller tard à parler de la vie.",
+            "note": "La combinaison de 'быва́ло' avec des imperfectifs ('сиде́ли', 'говори́ли') exprime une habitude passée avec une nuance narrative."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Adverbios de frecuencia y contraste con el perfectivo",
+        "translation": "Adverbes de fréquence et contraste avec le perfectif",
+        "examples": [
+          {
+            "original": "Раньше он всегда́ за́втракал до́ма, но сего́дня позавтра́кал в кафе́.",
+            "phonetic": "RÁNshe on fsagDÁ ZÁVtrakal DÓma, no seVÓDnya pazafTRÁkal v kaFÉ",
+            "translation": "Avant, il avait toujours l'habitude de prendre son petit-déjeuner à la maison, mais aujourd'hui il a pris son petit-déjeuner dans un café.",
+            "note": "Observez le contraste : 'за́втракал' (imperfectif, habitude) vs. 'позавтра́кал' (perfectif, action ponctuelle aujourd'hui)."
+          },
+          {
+            "original": "Обы́чно мы встреча́лись у метро́, но вчера́ встре́тились у теа́тра.",
+            "phonetic": "aBÝCHna my vstreCHÁlis' u meTRÓ, no vcheRÁ vstreTIlis' u teÁtra",
+            "translation": "Nous avions l'habitude de nous retrouver au métro, mais hier nous nous sommes retrouvés au théâtre.",
+            "note": "'встреча́лись' (imperfectif) exprime une habitude, tandis que 'встре́тились' (perfectif) indique une action spécifique. En espagnol, on utilise des temps différents ; en russe, c'est l'aspect qui est clé."
+          },
+          {
+            "original": "Ка́ждую зи́му мы е́здили ката́ться на лы́жах.",
+            "phonetic": "KÁZHduyu ZÍmu my YÉZdili kaTÁtsa na LÝzhakh",
+            "translation": "Chaque hiver, nous avions l'habitude d'aller skier.",
+            "note": "'е́здили' est l'imperfectif de 'е́здить' (aller en véhicule) utilisé de manière habituelle. Avec 'ка́ждую зи́му', il est clair qu'il s'agit d'une coutume."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕰️",
+    "phonetic": "",
+    "translations": {
+      "fr": "Habitudes passées"
+    }
+  },
+  {
+    "id": "fr_B1_gram_10",
+    "type": "concept",
+    "category": "Grammaire",
+    "title": "Цель, причина и результат / But, cause et résultat",
+    "bridge": "En espagnol, on utilise 'para que', 'porque', 'así que', etc. En russe, ces relations s'expriment avec des conjonctions comme 'чтобы' (pour que), 'потому что' (parce que) et 'так что' (donc). Une différence clé : 'чтобы' s'utilise avec le verbe au passé (ou à l'infinitif) et indique toujours une intention, alors qu'en espagnol on utilise le subjonctif. De plus, en russe, il n'y a pas de mot unique pour 'por' dans les expressions causales ; 'из-за' + génitif s'emploie pour des causes négatives et 'благодаря' + datif pour des causes positives.",
+    "rule": "Pour exprimer un but en russe, on utilise la conjonction 'чтобы' (pour que) + verbe au passé (si le sujet est différent) ou à l'infinitif (si le sujet est le même). Exemple : 'Я учусь, чтобы получить работу' (J'étudie pour obtenir un travail). Pour exprimer une cause, on utilise 'потому что' (parce que) ou 'так как' (puisque) suivis d'une phrase complète. Pour exprimer un résultat, on utilise 'так что' (donc). Les prépositions causales s'emploient aussi : 'из-за' + génitif (à cause de) et 'благодаря' + datif (grâce à). Note : 'из-за' a une connotation négative, 'благодаря' une connotation positive.",
+    "concept_examples": [
+      {
+        "text": "Он взял зонт, чтобы не промокнуть.",
+        "translation": "Il a pris un parapluie pour ne pas se mouiller.",
+        "phonetic": "/on vzyal zont, shtoby ne promoknutʲ/"
+      },
+      {
+        "text": "Мы опоздали, потому что была пробка.",
+        "translation": "Nous sommes arrivés en retard parce qu'il y avait des bouchons.",
+        "phonetic": "/my opozdali, potomu shto byla probka/"
+      },
+      {
+        "text": "Она устала, так что легла спать.",
+        "translation": "Elle était fatiguée, donc elle est allée se coucher.",
+        "phonetic": "/ona ustala, tak shto legla spatʲ/"
+      },
+      {
+        "text": "Из-за дождя матч отменили.",
+        "translation": "Le match a été annulé à cause de la pluie.",
+        "phonetic": "/iz-za dozhdya match otmenili/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я работаю, чтобы купить машину. (emploi incorrect de 'чтобы' avec l'infinitif lorsque le sujet est le même, mais le contexte est ambigu)",
+      "correct": "Я работаю, чтобы купить машину.",
+      "correct_alt": "Я работаю, потому что хочу купить машину.",
+      "explanation": "Une erreur courante consiste à utiliser 'чтобы' avec l'infinitif sans indiquer clairement une intention, mais c'est en réalité correct si le sujet est le même. Le problème se pose lorsque les étudiants utilisent 'чтобы' avec des verbes au présent (comme 'работаю, чтобы куплю'), ce qui est incorrect. En russe, après 'чтобы', on utilise toujours l'infinitif ou le passé, jamais le présent ou le futur. Les étudiants confondent aussi 'из-за' et 'благодаря' : rappelez-vous que 'из-за' s'emploie pour des causes négatives et 'благодаря' pour des causes positives."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Цель с 'чтобы'",
+        "translation": "But avec 'чтобы'",
+        "examples": [
+          {
+            "original": "Я учу русский, чтобы говорить с друзьями.",
+            "phonetic": "/ya uchu russkiy, shtoby govoritʲ s druzʲyami/",
+            "translation": "J'apprends le russe pour parler avec des amis.",
+            "note": "Utilisez l'infinitif après 'чтобы' lorsque le sujet est le même."
+          },
+          {
+            "original": "Она купила книгу, чтобы читать в поездке.",
+            "phonetic": "/ona kupila knigu, shtoby chitatʲ v poyezdke/",
+            "translation": "Elle a acheté un livre pour lire pendant le voyage.",
+            "note": "Même structure : infinitif."
+          },
+          {
+            "original": "Мы открыли окно, чтобы проветрить комнату.",
+            "phonetic": "/my otkryli okno, shtoby provetritʲ komnatu/",
+            "translation": "Nous avons ouvert la fenêtre pour aérer la pièce.",
+            "note": "Observez que 'чтобы' est suivi de l'infinitif."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Причина: 'потому что' и 'так как'",
+        "translation": "Cause : 'potomu chto' et 'tak kak'",
+        "examples": [
+          {
+            "original": "Я не пришёл, потому что был болен.",
+            "phonetic": "/ya ne prishol, potomu shto byl bolen/",
+            "translation": "Je ne suis pas venu parce que j'étais malade.",
+            "note": "'Потому что' s'utilise en réponse à 'почему?' (pourquoi ?)."
+          },
+          {
+            "original": "Так как шёл дождь, мы остались дома.",
+            "phonetic": "/tak kak shyol dozhdʲ, my ostalisʲ doma/",
+            "translation": "Comme il pleuvait, nous sommes restés à la maison.",
+            "note": "'Так как' est plus formel et peut être placé en début de phrase."
+          },
+          {
+            "original": "Он опоздал, потому что проспал.",
+            "phonetic": "/on opozdal, potomu shto prospal/",
+            "translation": "Il est arrivé en retard parce qu'il a dormi trop longtemps.",
+            "note": "À l'oral, 'потому что' est souvent raccourci en 'потому'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Результат и причинные предлоги",
+        "translation": "Résultat et prépositions causales",
+        "examples": [
+          {
+            "original": "Он долго работал, так что устал.",
+            "phonetic": "/on dolgo rabotal, tak shto ustal/",
+            "translation": "Il a travaillé longtemps, donc il est fatigué.",
+            "note": "'Так что' introduit une conséquence logique."
+          },
+          {
+            "original": "Из-за плохой погоды мы не поехали на пляж.",
+            "phonetic": "/iz-za plokhoy pogody my ne poyekhali na plyazh/",
+            "translation": "À cause du mauvais temps, nous ne sommes pas allés à la plage.",
+            "note": "'Из-за' + génitif indique une cause négative."
+          },
+          {
+            "original": "Благодаря помощи друзей я сдал экзамен.",
+            "phonetic": "/blagodarya pomoshchi druzey ya sdal ekzamen/",
+            "translation": "Grâce à l'aide de mes amis, j'ai réussi l'examen.",
+            "note": "'Благодаря' + datif indique une cause positive."
+          },
+          {
+            "original": "Она так устала, что заснула на диване.",
+            "phonetic": "/ona tak ustala, shto zasnula na divane/",
+            "translation": "Elle était tellement fatiguée qu'elle s'est endormie sur le canapé.",
+            "note": "Structure 'так... что' (si... que) pour exprimer un résultat."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎯",
+    "phonetic": "",
+    "translations": {
+      "fr": "But, cause et résultat"
+    }
+  },
+  {
+    "id": "fr_B1_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Глаголы движения и их употребление / Verbes de mouvement et leur utilisation",
+    "bridge": "En espagnol, les verbes de mouvement comme 'ir' ou 'venir' ne distinguent pas systématiquement les actions uniques des actions habituelles ou répétées. En russe, en revanche, la plupart des verbes de mouvement ont deux formes : l'une pour le mouvement déterminé (vers une destination précise) et l'autre pour le mouvement indéterminé (sans destination fixe ou répété). Cette distinction est essentielle et n'a pas d'équivalent direct en espagnol, ce qui nécessite de s'entraîner pour l'intérioriser.",
+    "rule": "En russe, les verbes de mouvement se divisent en deux groupes principaux : unidirectionnels (déterminés) et multidirectionnels (indéterminés). Les verbes unidirectionnels indiquent un mouvement dans une seule direction vers une destination précise, tandis que les verbes multidirectionnels expriment un mouvement dans plusieurs directions, un mouvement habituel ou des allers-retours. Les paires les plus courantes sont : идти (aller à pied, unidirectionnel) vs. ходить (aller à pied, multidirectionnel) ; ехать (aller en véhicule, unidirectionnel) vs. ездить (aller en véhicule, multidirectionnel) ; бежать (courir, unidirectionnel) vs. бегать (courir, multidirectionnel). De plus, les verbes préfixés (comme прийти, уйти, войти, выйти) ajoutent des nuances de direction par rapport au locuteur. Au niveau B1, il faut maîtriser les paires de base et leur utilisation au présent, au passé et au futur.",
+    "concept_examples": [
+      {
+        "text": "Я иду в магазин.",
+        "translation": "Je vais au magasin (à pied, maintenant).",
+        "phonetic": "ja idú v magazín"
+      },
+      {
+        "text": "Я хожу в магазин каждый день.",
+        "translation": "Je vais au magasin tous les jours (habituel).",
+        "phonetic": "ja jažú v magazín káždyj den'"
+      },
+      {
+        "text": "Он едет в Москву на поезде.",
+        "translation": "Il va à Moscou en train (maintenant, en véhicule).",
+        "phonetic": "on jédit v Maskvú na pójezde"
+      },
+      {
+        "text": "Мы ездили в Париж прошлым летом.",
+        "translation": "Nous sommes allés à Paris l'été dernier (aller-retour).",
+        "phonetic": "my jézdyli v Paríž próšlym létom"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я иду в школу каждый день.",
+      "correct": "Я хожу в школу каждый день.",
+      "correct_alt": "",
+      "explanation": "L'erreur vient du fait qu'en espagnol, on utilise 'voy' pour les actions présentes et les habitudes, mais en russe, 'идти' ne s'emploie que pour un mouvement unidirectionnel en cours. Pour les actions habituelles ou répétées, il faut utiliser 'ходить'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Основные пары (идти/ходить, ехать/ездить)",
+        "translation": "Paires principales (aller à pied, aller en véhicule)",
+        "examples": [
+          {
+            "original": "Я иду в парк.",
+            "phonetic": "ja idú v park",
+            "translation": "Je vais au parc (à pied, maintenant).",
+            "note": "Utilisation de 'идти' pour un mouvement actuel dans une seule direction."
+          },
+          {
+            "original": "Я хожу в парк по утрам.",
+            "phonetic": "ja jažú v park po utrám",
+            "translation": "Je vais au parc le matin (habituel).",
+            "note": "Utilisation de 'ходить' pour une action habituelle."
+          },
+          {
+            "original": "Она едет на дачу.",
+            "phonetic": "aná jédit na dáču",
+            "translation": "Elle va à la datcha (en véhicule, maintenant).",
+            "note": "Utilisation de 'ехать' pour un mouvement actuel en véhicule."
+          },
+          {
+            "original": "Она ездит на дачу каждое лето.",
+            "phonetic": "aná jézdit na dáču káždoje léta",
+            "translation": "Elle va à la datcha chaque été (habituel).",
+            "note": "Utilisation de 'ездить' pour les habitudes."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Значение направления (приставки)",
+        "translation": "Préfixes de direction (arriver, partir, entrer)",
+        "examples": [
+          {
+            "original": "Он пришёл домой в 8 часов.",
+            "phonetic": "on prišól domój v vósem' časóv",
+            "translation": "Il est arrivé à la maison à 8 heures.",
+            "note": "Le préfixe 'при-' indique une arrivée à destination."
+          },
+          {
+            "original": "Мы вышли из музея.",
+            "phonetic": "my vyšli iz muzéja",
+            "translation": "Nous sommes sortis du musée.",
+            "note": "Le préfixe 'вы-' indique un départ d'un lieu."
+          },
+          {
+            "original": "Она вошла в комнату.",
+            "phonetic": "aná vašlá v kómnatu",
+            "translation": "Elle est entrée dans la pièce.",
+            "note": "Le préfixe 'во-' indique une entrée."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Другие глаголы движения (бежать/бегать, плыть/плавать, лететь/летать)",
+        "translation": "Autres verbes de mouvement (courir, nager, voler)",
+        "examples": [
+          {
+            "original": "Мальчик бежит в школу.",
+            "phonetic": "mál'čik bižýt v škólu",
+            "translation": "Le garçon court à l'école (maintenant).",
+            "note": "Verbe unidirectionnel 'бежать' pour une action en cours."
+          },
+          {
+            "original": "Он бегает по утрам.",
+            "phonetic": "on bégajet po utrám",
+            "translation": "Il court le matin (habituel).",
+            "note": "Verbe multidirectionnel 'бегать' pour les habitudes."
+          },
+          {
+            "original": "Рыба плывёт по реке.",
+            "phonetic": "rýba plyv'ót pa rik'é",
+            "translation": "Le poisson nage dans la rivière (maintenant).",
+            "note": "Verbe unidirectionnel 'плыть' pour un mouvement actuel."
+          },
+          {
+            "original": "Самолёт летит в Нью-Йорк.",
+            "phonetic": "samol'ót litít v N'ju-Jórk",
+            "translation": "L'avion vole vers New York (maintenant).",
+            "note": "Verbe unidirectionnel 'лететь' pour un mouvement actuel."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚶",
+    "phonetic": "",
+    "translations": {
+      "fr": "Verbes de mouvement et leur utilisation"
+    }
+  },
+  {
+    "id": "fr_B1_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Количественные слова (продвинутый уровень) / Quantificateurs avancés",
+    "bridge": "En espagnol, on utilise des quantificateurs comme 'casi nada', 'bastante', 'un montón de', etc. En russe, ces concepts s'expriment avec des mots tels que 'почти нет' (presque rien), 'немало' (pas mal de), 'много' (beaucoup), 'мало' (peu). La différence clé réside dans le fait que le russe utilise le génitif après ces quantificateurs et distingue également entre les noms dénombrables et indénombrables (déclinaisons des noms). De plus, certains quantificateurs comme 'много' et 'мало' peuvent avoir des formes comparatives qui n'existent pas en espagnol (par exemple, 'больше', 'меньше'), et nécessitent une attention particulière quant au cas des noms qui les suivent. Une erreur courante consiste à utiliser le nominatif ou l'accusatif au lieu du génitif.",
+    "rule": "En russe, les quantificateurs avancés sont utilisés avec le génitif (génitif pluriel pour les noms dénombrables, génitif singulier pour les noms indénombrables). Les principaux sont : \n- Почти нет (presque rien) : + génitif pluriel ou singulier (selon le nom), par exemple 'почти нет времени' (presque pas de temps). \n- Немало (pas mal de) : + génitif pluriel, par exemple 'немало друзей' (pas mal d'amis). \n- Достаточно (assez) : + génitif singulier ou pluriel, par exemple 'достаточно воды' (assez d'eau). \n- Много, мало, несколько, столько, сколько : + génitif pluriel (pour les dénombrables) ou génitif singulier (pour les indénombrables). \n- 'Больше', 'меньше' (plus, moins) sont utilisés avec le génitif, par exemple 'больше времени' (plus de temps). \n- 'Пара' (une paire de) est utilisé avec le génitif singulier, par exemple 'пара минут' (quelques minutes). \nExceptions : avec les nombres 2, 3, 4, le génitif singulier est utilisé (et non pluriel), mais cela relève d'un niveau plus basique. Ici, nous nous concentrons sur les quantificateurs avancés. Il existe également des expressions comme 'множество' (une multitude) qui nécessitent le génitif pluriel. La négation avec 'нет' (il n'y a pas) exige le génitif singulier pour les noms indénombrables et le génitif pluriel pour les noms dénombrables.",
+    "concept_examples": [
+      {
+        "text": "У меня почти нет свободного времени.",
+        "translation": "J'ai presque pas de temps libre.",
+        "phonetic": "[u mʲɪˈnʲa ˈpot͡ɕtʲi nʲet svɐˈbodnəvə ˈvrʲemʲɪnʲɪ]"
+      },
+      {
+        "text": "У неё немало друзей в Москве.",
+        "translation": "Elle a pas mal d'amis à Moscou.",
+        "phonetic": "[u nʲɪˈjɵ nʲɪˈmalə drʊˈzʲej v mɐˈskvʲe]"
+      },
+      {
+        "text": "Мы купили достаточно продуктов на неделю.",
+        "translation": "Nous avons acheté assez de produits pour une semaine.",
+        "phonetic": "[mɨ kʊˈpʲilʲɪ dɐˈstatəʨnə prɐˈduktəf nə nʲɪˈdʲelʲʊ]"
+      },
+      {
+        "text": "В этом городе больше парков, чем у нас.",
+        "translation": "Dans cette ville, il y a plus de parcs que chez nous.",
+        "phonetic": "[f ˈɛtəm ˈɡorədʲɪ ˈbolʲʂə ˈparkəf t͡ɕem u nas]"
+      }
+    ],
+    "common_error": {
+      "wrong": "У меня есть почти нет время.",
+      "correct": "У меня почти нет времени.",
+      "correct_alt": "У меня почти нет свободного времени.",
+      "explanation": "L'erreur vient d'une traduction littérale de 'I don't have almost time' en utilisant 'есть' (avoir) puis 'нет' (il n'y a pas). En russe, pour exprimer une possession négative, il suffit d'utiliser 'у меня нет' + génitif sans le verbe 'есть'. De plus, 'время' doit être au génitif singulier (времени). Le cas accusatif ou nominatif ne doit pas être utilisé. Rappelez-vous : 'нет' est toujours suivi du génitif."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Почти нет, немного, немало",
+        "translation": "Presque rien, un peu, pas mal de",
+        "examples": [
+          {
+            "original": "В холодильнике почти нет молока.",
+            "phonetic": "[v xəlɐˈdʲilʲnʲɪkʲe ˈpot͡ɕtʲi nʲet məlɐˈka]",
+            "translation": "Il n'y a presque pas de lait dans le réfrigérateur.",
+            "note": "'Молока' est le génitif singulier de 'молоко' (indénombrable)."
+          },
+          {
+            "original": "У меня немного денег, но хватит.",
+            "phonetic": "[u mʲɪˈnʲa nʲɪˈmnogə ˈdʲenʲɪk, no xˈvatʲɪt]",
+            "translation": "J'ai un peu d'argent, mais ça suffira.",
+            "note": "'Денег' est le génitif pluriel de 'деньги' (uniquement pluriel)."
+          },
+          {
+            "original": "Он прочитал немало книг.",
+            "phonetic": "[on prət͡ɕɪˈtal nʲɪˈmalə knʲik]",
+            "translation": "Il a lu pas mal de livres.",
+            "note": "'Книг' est le génitif pluriel irrégulier de 'книга'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Больше, меньше, достаточно",
+        "translation": "Plus, moins, assez",
+        "examples": [
+          {
+            "original": "Мне нужно больше времени, чтобы закончить.",
+            "phonetic": "[mnʲe ˈnuʐnə ˈbolʲʂə ˈvrʲemʲɪnʲɪ, ˈʂtobɨ zɐˈkonʲt͡ɕɪtʲ]",
+            "translation": "J'ai besoin de plus de temps pour finir.",
+            "note": "'Больше' suivi du génitif singulier 'времени'."
+          },
+          {
+            "original": "В этой комнате меньше света.",
+            "phonetic": "[f ˈɛtəj ˈkomnətʲe ˈmʲenʲʂə ˈsvʲetə]",
+            "translation": "Il y a moins de lumière dans cette pièce.",
+            "note": "'Света' est le génitif singulier de 'свет'."
+          },
+          {
+            "original": "У нас достаточно еды для всех.",
+            "phonetic": "[u nas dɐˈstatəʨnə jɪˈdɨ dlʲa fsʲex]",
+            "translation": "Nous avons assez de nourriture pour tout le monde.",
+            "note": "'Еды' est le génitif singulier de 'еда'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Несколько, столько, сколько",
+        "translation": "Quelques, tant de, combien de",
+        "examples": [
+          {
+            "original": "Он принёс несколько яблок.",
+            "phonetic": "[on prʲɪˈnʲɵs ˈnʲeskəlʲkə ˈjæblək]",
+            "translation": "Il a apporté quelques pommes.",
+            "note": "'Несколько' est utilisé avec le génitif pluriel, mais si le nom est animé, le génitif pluriel est parfois aussi utilisé."
+          },
+          {
+            "original": "Сколько времени тебе нужно?",
+            "phonetic": "[ˈskolʲkə ˈvrʲemʲɪnʲɪ tʲɪˈbʲe ˈnuʐnə]",
+            "translation": "Combien de temps te faut-il ?",
+            "note": "'Сколько' + génitif singulier (temps indénombrable)."
+          },
+          {
+            "original": "В мире столько языков!",
+            "phonetic": "[v ˈmʲirʲe ˈstolʲkə jɪˈzɨkəf]",
+            "translation": "Il y a tant de langues dans le monde !",
+            "note": "'Столько' + génitif pluriel (dénombrable)."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "fr": "Quantificateurs avancés"
+    }
+  },
+  {
+    "id": "fr_B1_gram_13",
+    "type": "concept",
+    "category": "Grammaire",
+    "title": "Глагол + инфинитив / герундий / Modèles de verbes",
+    "bridge": "En espagnol, après un verbe conjugué, on utilise souvent l'infinitif (quiero comer) ou le gérondif (estoy comiendo). En russe, la structure est similaire mais avec des différences clés : l'infinitif s'utilise pour exprimer des désirs, des projets et des obligations (хочу есть – Je veux manger), tandis que le gérondif russe (деепричастие) sert pour des actions simultanées ou secondaires, et non comme en espagnol pour former des temps progressifs. De plus, le russe utilise l'aspect (perfectif/imperfectif) pour indiquer si l'action est terminée ou en cours, ce qui influence le choix du verbe à l'infinitif. Une erreur courante consiste à traduire littéralement « estoy hablando » par « я есть говорю » au lieu d'utiliser le verbe au présent (я говорю).",
+    "rule": "En russe, les verbes modaux et de phase (vouloir, pouvoir, devoir, commencer, finir) se combinent avec l'infinitif du verbe principal, qui peut être imperfectif (action en cours ou répétée) ou perfectif (action terminée). Il n'existe pas d'équivalent du gérondif pour les formes progressives ; à la place, on utilise le présent ou le passé du verbe, souvent avec des adverbes de temps. L'infinitif russe se termine par -ть, -ти ou -чь. Par exemple : хотеть (vouloir) + infinitif : Я хочу пить (Je veux boire). Pour exprimer « être en train de faire quelque chose », on utilise l'aspect imperfectif du verbe au présent : Я читаю (Je lis / Je suis en train de lire). Le gérondif russe (деепричастие) s'emploie dans des propositions subordonnées adverbiales pour des actions simultanées ou antérieures, par exemple : Читая, я слушаю музыку (En lisant, j'écoute de la musique). Il est important de noter qu'après certains verbes comme любить (aimer), l'infinitif imperfectif s'utilise pour des actions habituelles, tandis que le perfectif est employé pour des actions spécifiques. De plus, des verbes comme начать (commencer) nécessitent généralement l'infinitif imperfectif, bien que le perfectif puisse parfois être utilisé pour souligner le début d'une action terminée.",
+    "concept_examples": [
+      {
+        "text": "Я хочу пить.",
+        "translation": "Quiero beber.",
+        "phonetic": "[ja xɐˈt͡ɕu pʲitʲ]"
+      },
+      {
+        "text": "Мы начинаем работать.",
+        "translation": "Empezamos a trabajar.",
+        "phonetic": "[mɨ nət͡ɕɪˈna(j)ɪm rɐˈbotətʲ]"
+      },
+      {
+        "text": "Она любит читать.",
+        "translation": "A ella le gusta leer.",
+        "phonetic": "[ɐˈna lʲˈubʲɪt͡ɕ t͡ɕɪˈtatʲ]"
+      },
+      {
+        "text": "Он продолжает говорить.",
+        "translation": "Él continúa hablando.",
+        "phonetic": "[on prɐdɐlˈʐa(j)ɪt ɡɐvɐˈrʲitʲ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я есть говорю.",
+      "correct": "Я говорю.",
+      "correct_alt": "",
+      "explanation": "Les hispanophones ont tendance à traduire littéralement le gérondif progressif espagnol « estoy hablando » en utilisant le verbe быть (être) + le gérondif russe. Cependant, le russe ne forme pas de temps progressifs périphrastiques avec le verbe быть ; à la place, on utilise le présent du verbe imperfectif. Ainsi, « Я говорю » signifie à la fois « Je parle » et « Je suis en train de parler » selon le contexte. Il est crucial de se rappeler que le russe n'a pas de forme continue équivalente à l'espagnol, et que l'aspect imperfectif du verbe suffit déjà à exprimer une action en cours."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Модальные глаголы + инфинитив",
+        "translation": "Verbes modaux + infinitif",
+        "examples": [
+          {
+            "original": "Я могу помочь.",
+            "phonetic": "[ja mɐˈɡu pɐˈmot͡ɕ]",
+            "translation": "Puedo ayudar.",
+            "note": "Le verbe мочь (pouvoir) est suivi d'un infinitif. Ici, la forme perfective помочь est utilisée pour indiquer une action spécifique."
+          },
+          {
+            "original": "Ты должен учиться.",
+            "phonetic": "[tɨ ˈdolʐɨn ʊˈt͡ɕit͡sə]",
+            "translation": "Debes estudiar.",
+            "note": "Должен est un prédicat qui nécessite un infinitif. L'imperfectif учиться est utilisé pour des actions habituelles ou générales."
+          },
+          {
+            "original": "Мы хотим купить машину.",
+            "phonetic": "[mɨ xɐˈtʲim kʊˈpʲitʲ mɐˈʂɨnʊ]",
+            "translation": "Queremos comprar un coche.",
+            "note": "L'infinitif perfectif купить indique une action future terminée, tandis que покупать serait l'imperfectif pour une action répétée ou en cours."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Глаголы фазы + инфинитив",
+        "translation": "Verbes de phase + infinitif",
+        "examples": [
+          {
+            "original": "Она начала готовить ужин.",
+            "phonetic": "[ɐˈna nɐˈt͡ɕaˈla ɡɐˈtoˈvʲitʲ ˈuʐɨn]",
+            "translation": "Ella empezó a preparar la cena.",
+            "note": "Начала (a commencé) nécessite l'infinitif imperfectif готовить pour indiquer le début d'une action continue."
+          },
+          {
+            "original": "Мы закончили работать.",
+            "phonetic": "[mɨ zɐˈkonʲt͡ɕɪlʲɪ rɐˈbotətʲ]",
+            "translation": "Terminamos de trabajar.",
+            "note": "Закончили (a terminé) se combine avec l'infinitif imperfectif, bien que le perfectif поработать puisse aussi être utilisé pour une action spécifique."
+          },
+          {
+            "original": "Он продолжает заниматься спортом.",
+            "phonetic": "[on prɐdɐlˈʐa(j)ɪt zənʲɪˈmat͡sə ˈsporˈtəm]",
+            "translation": "Él continúa haciendo deporte.",
+            "note": "Продолжает + infinitif imperfectif pour indiquer que l'action continue."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Глаголы предпочтения и чувств + инфинитив",
+        "translation": "Verbes de préférence et de sentiment + infinitif",
+        "examples": [
+          {
+            "original": "Мне нравится петь.",
+            "phonetic": "[mʲnʲe ˈnravʲɪt͡sə pʲetʲ]",
+            "translation": "Me gusta cantar.",
+            "note": "La construction мне нравится (j'aime) utilise le datif et un verbe pronominal, suivi d'un infinitif. L'imperfectif est généralement utilisé."
+          },
+          {
+            "original": "Он боится летать на самолёте.",
+            "phonetic": "[on bɐˈit͡sə lʲɪˈtatʲ nə səmɐˈlʲɵtʲe]",
+            "translation": "Él tiene miedo de volar en avión.",
+            "note": "Боится + infinitif imperfectif pour une action redoutée en général."
+          },
+          {
+            "original": "Я люблю смотреть фильмы.",
+            "phonetic": "[ja lʲˈublʲʊ smɐˈtrʲetʲ ˈfʲilʲmɨ]",
+            "translation": "Me encanta ver películas.",
+            "note": "Люблю + infinitif imperfectif pour des actions habituelles. Si l'on utilise le perfectif посмотреть, cela implique une occasion spécifique."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "fr": "Modèles de verbes (verbe + infinitif / gérondif)"
+    }
+  },
+  {
+    "id": "fr_B1_gram_14",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Отсутствие артикля и обобщённое значение / Absence d'articles et valeur générique",
+    "bridge": "En espagnol, l'article défini ou indéfini est presque obligatoire, mais en russe il n'y a pas d'articles. Cela signifie qu'un nom en russe peut apparaître seul, et sa signification dépend du contexte et du cas. Les hispanophones ont tendance à traduire inconsciemment 'el' ou 'un', mais en russe, cette information s'exprime par l'ordre des mots et, surtout, par les cas. Par exemple, 'Я люблю музыку' peut signifier à la fois 'J'aime la musique' et 'J'aime la musique' (générique), sans qu'il soit nécessaire d'ajouter un article. Le principal défi consiste à comprendre qu'il est normal d'utiliser des noms sans articles pour exprimer des généralités et qu'aucune particule ne doit être ajoutée.",
+    "rule": "En russe, il n'y a pas d'articles, donc un nom sans déterminant peut avoir trois valeurs : indéfini ('un/une'), défini ('le/la') ou générique ('le' au sens général). Pour exprimer une quantité indéfinie, on peut utiliser 'один' (un) au nominatif, mais son emploi est emphatique : 'Дай мне одну книгу' (Donne-moi un livre, un livre précis). La valeur générique s'exprime généralement par le nom au pluriel sans article : 'Собаки — друзья человека' (Les chiens sont les meilleurs amis de l'homme) ou au singulier avec un sens de classe : 'Человек смертен' (L'homme est mortel). En russe, l'absence d'article est la norme ; ajouter un mot comme 'этот' (ce) ou 'какой-то' (un certain) indique une nuance d'emphase ou de spécificité. Pour le niveau B1, il est essentiel de maîtriser l'utilisation du nom sans article dans les phrases attributives (Мой отец — врач), dans les expressions générales (Мне нравится чай) et avec les verbes de préférence (Я люблю читать). Exceptions : si le nom est déterminé par un démonstratif, un possessif ou un numéral, il prend ce mot à la place de l'article : 'эта книга' (ce livre), 'моя машина' (ma voiture). Rappelez-vous que l'ordre des mots ne marque pas l'article, mais met en valeur le sujet ou l'objet.",
+    "concept_examples": [
+      {
+        "text": "Я люблю музыку.",
+        "translation": "J'aime la musique / J'aime la musique (en général).",
+        "phonetic": "[ja lʲʉˈblʲu ˈmuzɨkʊ]"
+      },
+      {
+        "text": "Собаки — друзья человека.",
+        "translation": "Les chiens sont les meilleurs amis de l'homme.",
+        "phonetic": "[sɐˈbakʲɪ ˈdruʐjə tɕɪlɐˈvʲekə]"
+      },
+      {
+        "text": "Он врач.",
+        "translation": "Il est médecin (un médecin en général).",
+        "phonetic": "[on vratɕ]"
+      },
+      {
+        "text": "Мне нужна книга.",
+        "translation": "J'ai besoin d'un livre (n'importe lequel).",
+        "phonetic": "[mnʲe nʊʐˈna ˈknʲiɡə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я люблю эту музыку.",
+      "correct": "Я люблю музыку.",
+      "correct_alt": "Я люблю эту музыку (si vous parlez d'une musique spécifique).",
+      "explanation": "L'erreur vient du fait qu'en espagnol on dit 'J'aime cette musique' ou 'J'aime la musique' avec un article défini. En russe, s'il n'y a pas de contexte préalable indiquant une musique précise, il est naturel d'utiliser le nom sans démonstratif pour exprimer un goût général. 'Эту' (cette) ne s'ajoute que lorsqu'on parle d'une chose spécifique déjà mentionnée. Pour éviter l'erreur, demandez-vous : est-ce que je parle de quelque chose de général ou de quelque chose de particulier ? Si c'est général, ne rien ajouter."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Обобщённое значение (sustantivos sin artículo)",
+        "translation": "Valeur générique",
+        "examples": [
+          {
+            "original": "Люди любят музыку.",
+            "phonetic": "[ˈlʲʉdʲɪ ˈlʲʉbʲət ˈmuzɨkʊ]",
+            "translation": "Les gens (en général) aiment la musique.",
+            "note": "Le pluriel sans article sert à parler d'un groupe de manière générale."
+          },
+          {
+            "original": "Хлеб — это жизнь.",
+            "phonetic": "[xlʲep ˈɛtə ʐɨzʲnʲ]",
+            "translation": "Le pain, c'est la vie (sens figuré).",
+            "note": "Dans les phrases attributives avec 'это', le nom s'emploie sans article."
+          },
+          {
+            "original": "Я не люблю кофе.",
+            "phonetic": "[ja nʲe lʲʉˈblʲu ˈkofʲɪ]",
+            "translation": "Je n'aime pas le café (en tant que catégorie).",
+            "note": "Le nom à l'accusatif sans article exprime une généralité."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Неопределённость (artículo indefinido ausente)",
+        "translation": "Indéfini",
+        "examples": [
+          {
+            "original": "Дай мне книгу.",
+            "phonetic": "[daj mnʲe ˈknʲiɡʊ]",
+            "translation": "Donne-moi un livre (n'importe lequel).",
+            "note": "L'absence d'article donne une valeur indéfinie ; si vous dites 'дай мне эту книгу', ce serait spécifique."
+          },
+          {
+            "original": "У меня есть собака.",
+            "phonetic": "[u mʲɪˈnʲa ˈjesʲtʲ sɐˈbakə]",
+            "translation": "J'ai un chien (un chien quelconque).",
+            "note": "Dans les constructions existentielles avec 'есть', le nom indéfini ne prend pas d'article."
+          },
+          {
+            "original": "На столе лежит яблоко.",
+            "phonetic": "[nə stɐˈlʲe lʲɪˈʐɨt ˈjæbləkə]",
+            "translation": "Il y a une pomme (indéfinie) sur la table.",
+            "note": "L'ordre des mots (verbe avant sujet) indique souvent l'indéfinitude."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Определённость (artículo definido ausente)",
+        "translation": "Défini",
+        "examples": [
+          {
+            "original": "Где книга?",
+            "phonetic": "[ɡdʲe ˈknʲiɡə]",
+            "translation": "Où est le livre ? (le livre précis dont on parle).",
+            "note": "Le contexte détermine qu'il s'agit d'un livre spécifique ; aucun article n'est ajouté."
+          },
+          {
+            "original": "Я вижу кота.",
+            "phonetic": "[ja ˈvʲiʐʊ kɐˈta]",
+            "translation": "Je vois le chat (celui qu'on connaît).",
+            "note": "S'il est connu, il est omis ; s'il s'agissait d'un chat quelconque, on dirait 'какого-то кота' ou ce serait compris par le contexte."
+          },
+          {
+            "original": "Солнце встаёт на востоке.",
+            "phonetic": "[ˈsontsə fstɐˈjot nə vɐˈstokʲɪ]",
+            "translation": "Le soleil se lève à l'est.",
+            "note": "Les éléments uniques (soleil, lune) s'emploient sans article en russe ; en espagnol, ils nécessitent un article défini."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "fr": "Articles avancés : absence d'articles et valeur générique"
+    }
+  }
+]

@@ -1,0 +1,2032 @@
+[
+  {
+    "id": "it_A2_gram_01",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Прошедшее время (простое) / Passato semplice",
+    "bridge": "In spagnolo il passato semplice ha coniugazioni diverse per ogni persona (hablé, hablaste, habló...). In russo il passato si forma in modo molto più semplice: cambia solo in base al genere e al numero del soggetto, non alla persona. Quindi dimentica di memorizzare le desinenze per io, tu, lui... Ti bastano quattro forme per ogni verbo: maschile (che termina in -л), femminile (-ла), neutro (-ло) e plurale (-ли). Molto più facile! Ma attenzione: il verbo 'быть' (essere) ha una particolarità nel passato: spesso viene omesso al presente, ma al passato compare solo in forme come 'был', 'была', ecc.",
+    "rule": "In russo il passato semplice si forma dall'infinito rimuovendo la desinenza -ть e aggiungendo il suffisso -л seguito dalla desinenza di genere/numero: maschile: -л (zero), femminile: -ла, neutro: -ло, plurale: -ли. Per i verbi regolari (come 'делать' - fare) e la maggior parte di quelli irregolari, il modello è lo stesso. Esempi: делать → делал, делала, делало, делали. Tuttavia, alcuni verbi irregolari cambiano la radice al passato, come 'идти' (andare) → шёл, шла, шло, шли; 'есть' (mangiare) → ел, ела, ело, ели. Ci sono anche verbi il cui passato si forma senza il suffisso -л, come 'мочь' (potere) → мог, могла, могло, могли. L'uso è simile al preterito spagnolo: azioni completate nel passato. Per la negazione si usa 'не' prima del verbo. Non c'è differenza di aspetto imperativo; l'aspetto perfettivo/imperfettivo si gestisce con i prefissi. Al livello A2 ci concentriamo sull'aspetto imperfettivo per azioni abituali passate e su quello perfettivo per azioni puntuali.",
+    "concept_examples": [
+      {
+        "text": "Я читал книгу.",
+        "translation": "Ho letto un libro.",
+        "phonetic": "ja t͡ɕiˈtal ˈknʲiɡu"
+      },
+      {
+        "text": "Она написала письмо.",
+        "translation": "Ha scritto una lettera.",
+        "phonetic": "ɐˈna nəpʲɪˈsaɫə pʲɪsʲˈmo"
+      },
+      {
+        "text": "Мы были в кино.",
+        "translation": "Eravamo al cinema.",
+        "phonetic": "mɨ ˈbɨlʲɪ v kʲɪˈno"
+      },
+      {
+        "text": "Ты делал уроки?",
+        "translation": "Hai fatto i compiti?",
+        "phonetic": "tɨ ˈdʲeɫəɫ ʊˈroɡʲɪ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Она читал книгу.",
+      "correct": "Она читала книгу.",
+      "correct_alt": "Она прочитала книгу.",
+      "explanation": "In spagnolo il verbo si coniuga in base alla persona, ma in russo il passato concorda con il genere del soggetto. Poiché 'она' è femminile, il verbo deve prendere la desinenza -ла. Un errore tipico è usare la forma maschile come default. Ricorda: guarda il genere e il numero del soggetto, non la persona grammaticale."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Правильные глаголы",
+        "translation": "Verbi regolari",
+        "examples": [
+          {
+            "original": "Я работал вчера.",
+            "phonetic": "ja rɐˈbotəɫ ft͡ɕɪˈra",
+            "translation": "Ho lavorato ieri.",
+            "note": "Verbo 'работать' - lavorare. Forma maschile con -л."
+          },
+          {
+            "original": "Она смотрела фильм.",
+            "phonetic": "ɐˈna smɐˈtrʲeɫə fʲilʲm",
+            "translation": "Ha guardato un film.",
+            "note": "Femminile con -ла."
+          },
+          {
+            "original": "Дети играли на улице.",
+            "phonetic": "ˈdʲetʲɪ ɪˈɡralʲɪ nɐ‿ˈulʲɪt͡sɨ",
+            "translation": "I bambini giocavano fuori.",
+            "note": "Plurale con desinenza -ли."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Неправильные глаголы",
+        "translation": "Verbi irregolari",
+        "examples": [
+          {
+            "original": "Он был дома.",
+            "phonetic": "on bɨɫ ˈdomə",
+            "translation": "Era a casa.",
+            "note": "Verbo 'быть' - essere. Irregolare: был."
+          },
+          {
+            "original": "Мы шли в парк.",
+            "phonetic": "mɨ ʂlʲi f park",
+            "translation": "Andavamo/Andammo al parco.",
+            "note": "Verbo 'идти' - andare. Irregolare: шли."
+          },
+          {
+            "original": "Она ела яблоко.",
+            "phonetic": "ɐˈna ˈjeɫə ˈjabɫəkə",
+            "translation": "Mangiava/Mangiò una mela.",
+            "note": "Verbo 'есть' - mangiare. Irregolare: ела."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Отрицание и вопросы",
+        "translation": "Negazione e domande",
+        "examples": [
+          {
+            "original": "Я не знал ответа.",
+            "phonetic": "ja nʲe znal ɐˈtvʲetə",
+            "translation": "Non conoscevo la risposta.",
+            "note": "Negazione con 'не' prima del verbo."
+          },
+          {
+            "original": "Ты видел мою сестру?",
+            "phonetic": "tɨ ˈvʲidʲɪɫ mɐˈju sʲɪˈstru",
+            "translation": "Hai visto mia sorella?",
+            "note": "Domanda con intonazione ascendente."
+          },
+          {
+            "original": "Мы не были в Москве.",
+            "phonetic": "mɨ nʲe ˈbɨlʲɪ v mɐˈskvʲe",
+            "translation": "Non eravamo a Mosca.",
+            "note": "Negazione con il verbo 'быть'."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "it": "Passato semplice"
+    }
+  },
+  {
+    "id": "it_A2_gram_02",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Настоящее продолженное время / Tempo presente continuo",
+    "bridge": "In spagnolo si usa il presente continuo (estar + gerundio) per azioni in corso. In russo non esiste una forma continua separata; si usa il presente semplice (imperfettivo) con lo stesso significato. La differenza chiave è che il russo marca l'aspetto: l'imperfettivo esprime un'azione in corso, mentre il perfettivo (di solito con un prefisso) indica un'azione completata. Non esiste il verbo ausiliare 'essere', quindi non dire 'я есть делаю' — un errore comune influenzato dallo spagnolo.",
+    "rule": "In russo, per esprimere un'azione in corso al presente, si usa il verbo imperfettivo al presente (1ª coniugazione: -ю/-ю, -ешь/-ёшь, -ет/-ёт...; 2ª: -ю/-у, -ишь, -ит...). Non si usa il verbo ausiliare 'essere'. Il contesto (ora, in questo momento) o la scelta dell'aspetto imperfettivo indica la continuità. Esempio: Я читаю (Sto leggendo). Per le azioni abituali si usa anche l'imperfettivo, ma il contesto chiarisce il significato. L'aspetto perfettivo (con prefissi come про-, с-, на-) si usa per azioni completate e non si usa al presente per indicare un'azione in corso. Per il livello A2, concentrarsi sui verbi imperfettivi comuni e sulle loro coniugazioni regolari.",
+    "concept_examples": [
+      {
+        "text": "Я читаю книгу.",
+        "translation": "Sto leggendo un libro.",
+        "phonetic": "[ja tɕiˈtaju ˈkniɡu]"
+      },
+      {
+        "text": "Она сейчас готовит ужин.",
+        "translation": "Sta cucinando la cena ora.",
+        "phonetic": "[ɐˈna ˈsʲejtɕəs ɡɐˈtovʲɪt ˈuʐɨn]"
+      },
+      {
+        "text": "Мы работаем в офисе.",
+        "translation": "Stiamo lavorando in ufficio.",
+        "phonetic": "[mɨ rɐˈbotəjɪm ˈv‿ofʲɪsʲe]"
+      },
+      {
+        "text": "Что ты делаешь?",
+        "translation": "Cosa stai facendo?",
+        "phonetic": "[ʂto tɨ ˈdʲeɫəjɪʂ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я есть делаю сейчас.",
+      "correct": "Я делаю сейчас.",
+      "correct_alt": "Сейчас я делаю.",
+      "explanation": "Gli spagnoli tendono a tradurre letteralmente 'estar' con 'есть' (essere). In russo, il presente del verbo 'быть' (essere) viene omesso. Per esprimere un'azione in corso, basta usare il verbo imperfettivo al presente. 'Есть' si usa solo nelle frasi esistenziali (У меня есть...) o per enfasi. Evitare di usare 'есть' come ausiliare. Posizionare l'avverbio 'сейчас' (ora) per rafforzare la continuità se necessario."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Первое спряжение",
+        "translation": "Prima coniugazione",
+        "examples": [
+          {
+            "original": "Я читаю.",
+            "phonetic": "[ja tɕiˈtaju]",
+            "translation": "Sto leggendo.",
+            "note": "Verbo 'читать' (leggere) — 1ª coniugazione, desinenza -ю per 'я'."
+          },
+          {
+            "original": "Ты читаешь.",
+            "phonetic": "[tɨ tɕiˈtaɪʂ]",
+            "translation": "Stai leggendo.",
+            "note": "Desinenza -ешь per 'ты'."
+          },
+          {
+            "original": "Он читает.",
+            "phonetic": "[on tɕiˈtaɪt]",
+            "translation": "Sta leggendo.",
+            "note": "Desinenza -ет per 'он/она/оно'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Второе спряжение",
+        "translation": "Seconda coniugazione",
+        "examples": [
+          {
+            "original": "Я говорю по-русски.",
+            "phonetic": "[ja ɡəvɐˈrʲu pɐ‿ˈruskʲɪ]",
+            "translation": "Sto parlando russo.",
+            "note": "Verbo 'говорить' (parlare) — 2ª coniugazione, desinenza -ю per 'я'."
+          },
+          {
+            "original": "Она говорит с подругой.",
+            "phonetic": "[ɐˈna ɡəvɐˈrʲit s pɐˈdruɡəj]",
+            "translation": "Sta parlando con la sua amica.",
+            "note": "Desinenza -ит per 'она'."
+          },
+          {
+            "original": "Мы готовим обед.",
+            "phonetic": "[mɨ ɡɐˈtovʲɪm ɐˈbʲet]",
+            "translation": "Stiamo preparando il pranzo.",
+            "note": "Desinenza -им per 'мы'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Глаголы движения",
+        "translation": "Verbi di movimento",
+        "examples": [
+          {
+            "original": "Я иду в парк.",
+            "phonetic": "[ja ɪˈdu v‿park]",
+            "translation": "Sto andando al parco (a piedi).",
+            "note": "Verbo 'идти' (andare a piedi) esprime movimento unidirezionale in corso."
+          },
+          {
+            "original": "Он едет в Москву.",
+            "phonetic": "[on ˈjedʲɪt v‿mɐˈskvu]",
+            "translation": "Sta viaggiando verso Mosca (con un mezzo).",
+            "note": "Verbo 'ехать' (andare con un mezzo) indica movimento in corso."
+          },
+          {
+            "original": "Дети бегают во дворе.",
+            "phonetic": "[ˈdʲetʲɪ ˈbʲeɡəjʊt vɐ‿dvɐˈrʲe]",
+            "translation": "I bambini stanno correndo nel cortile.",
+            "note": "Verbo 'бегать' (correre, multidirezionale) per azioni ripetute o senza direzione specifica."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "it": "Tempo presente continuo"
+    }
+  },
+  {
+    "id": "it_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Будущее время (глагол идти + инфинитив) / Futuro con 'andare a' + infinito",
+    "bridge": "In spagnolo, per esprimere un futuro prossimo o un'intenzione, si usa la costruzione 'ir a + infinito' (voy a comer). In russo esiste una costruzione molto simile: il verbo 'идти' (andare) al presente + l'infinito del verbo principale, ma con una differenza fondamentale: 'идти' non si coniuga come verbo ausiliare, bensì viene usato nella sua forma impersonale come 'я иду', 'ты идёшь', ecc. Tuttavia, nel linguaggio colloquiale si preferisce usare la forma del presente perfettivo o del futuro semplice. Per il livello A2 ci concentriamo sulla costruzione comune: 'я пойду' (andrò) o 'я буду' + infinito, che equivale a 'voy a + verbo'. L'errore tipico è tradurre letteralmente 'voy a comer' come 'я иду есть', che suona come un movimento fisico piuttosto che un'intenzione futura.",
+    "rule": "In russo esistono due principali modi per esprimere il futuro: il futuro semplice (verbi perfettivi) e il futuro composto (verbo 'быть' al futuro + infinito del verbo imperfettivo). Per il livello A2 si insegna il futuro composto con 'быть' (я буду, ты будешь, он/она будет, мы будем, вы будете, они будут) + l'infinito del verbo imperfettivo, che equivale a 'going to + infinito' in spagnolo. Esempio: 'Я буду читать' (Ho intenzione di leggere). Il futuro semplice con verbi perfettivi viene usato anche per indicare un'azione futura completata: 'Я прочитаю' (Leggerò). La costruzione con 'идти + infinito' (я иду есть) esiste ma esprime movimento fisico e azioni immediate, come 'Sto andando (ora) a mangiare', e non è il modo standard per esprimere un'intenzione futura generale.",
+    "concept_examples": [
+      {
+        "text": "Я буду читать книгу завтра.",
+        "translation": "Leggerò un libro domani.",
+        "phonetic": "[ja ˈbudʊ tɕɪˈtatʲ ˈknʲiɡʊ ˈzaftrə]"
+      },
+      {
+        "text": "Мы будем работать в субботу.",
+        "translation": "Lavoreremo sabato.",
+        "phonetic": "[mɨ ˈbudʲɪm rɐˈbotətʲ f sʊˈbotʊ]"
+      },
+      {
+        "text": "Она будет готовить ужин.",
+        "translation": "Preparerà la cena.",
+        "phonetic": "[ɐˈna ˈbudʲɪt ɡɐˈtovʲɪtʲ ˈuʐɨn]"
+      },
+      {
+        "text": "Ты будешь смотреть телевизор?",
+        "translation": "Guardarai la TV?",
+        "phonetic": "[tɨ ˈbudʲɪʂ smɐˈtrʲetʲ tʲɪlʲɪˈvʲizər]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я иду есть пиццу завтра.",
+      "correct": "Я буду есть пиццу завтра.",
+      "correct_alt": "Я поем пиццу завтра.",
+      "explanation": "L'errore deriva dalla traduzione letterale di 'going to + infinito' come 'я иду + infinito'. In russo, 'я иду есть' significa 'Sto andando a mangiare', implicando un movimento fisico. Per esprimere un'intenzione futura, si deve usare 'я буду есть' (forma futura di 'быть' + infinito) per azioni abituali o 'я поем' (verbo perfettivo) per azioni specifiche. Ricorda: 'идти' si usa solo per movimento fisico, non come ausiliare del futuro."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Будущее время с 'быть' + инфинитив",
+        "translation": "Futuro con 'быть' + infinito",
+        "examples": [
+          {
+            "original": "Я буду пить кофе.",
+            "phonetic": "[ja ˈbudʊ pʲitʲ ˈkofʲɪ]",
+            "translation": "Berrò un caffè.",
+            "note": "Il verbo 'быть' (radice буд- + desinenza) è l'ausiliare coniugato; il verbo principale rimane all'infinito."
+          },
+          {
+            "original": "Ты будешь учиться завтра.",
+            "phonetic": "[tɨ ˈbudʲɪʂ ʊˈtɕit͡sə ˈzaftrə]",
+            "translation": "Studierai domani.",
+            "note": "Nota: 'учиться' è riflessivo, ma l'ausiliare non cambia."
+          },
+          {
+            "original": "Он будет ждать нас.",
+            "phonetic": "[on ˈbudʲɪt ʐdatʲ nas]",
+            "translation": "Ci aspetterà.",
+            "note": "La forma 'будет' si usa per 'lui/lei/esso'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Глагол 'идти' для движения",
+        "translation": "Il verbo 'andare' per il movimento",
+        "examples": [
+          {
+            "original": "Я иду в парк гулять.",
+            "phonetic": "[ja ˈidu f park ɡʊˈlʲatʲ]",
+            "translation": "Vado al parco a passeggiare.",
+            "note": "Qui 'идти' esprime un movimento fisico reale; l'infinito indica lo scopo."
+          },
+          {
+            "original": "Он идёт покупать хлеб.",
+            "phonetic": "[on ɪˈdʲɵt pəkʊˈpatʲ xlʲep]",
+            "translation": "Sta andando (a piedi) a comprare il pane.",
+            "note": "Questa costruzione non si usa per esprimere un'intenzione futura, ma per azioni in corso con movimento."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Сравнение: будущее и настоящее",
+        "translation": "Confronto: futuro e presente",
+        "examples": [
+          {
+            "original": "Сейчас я читаю, а завтра буду читать.",
+            "phonetic": "[sʲɪjˈtɕas ja tɕɪˈtaju | ɐ ˈzaftrə ˈbudʊ tɕɪˈtatʲ]",
+            "translation": "Ora sto leggendo, e domani leggerò.",
+            "note": "Il presente (читаю) è contrapposto al futuro composto (буду читать)."
+          },
+          {
+            "original": "Завтра я пойду в кино.",
+            "phonetic": "[ˈzaftrə ja pɐjˈdu f kʲɪˈno]",
+            "translation": "Domani andrò al cinema.",
+            "note": "Il verbo perfettivo 'пойти' (futuro) indica un'azione futura specifica; qui 'пойду' è il futuro semplice di 'идти'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔮",
+    "phonetic": "",
+    "translations": {
+      "it": "Futuro con 'andare a' + infinito"
+    }
+  },
+  {
+    "id": "it_A2_gram_04",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Будущее простое время / Tempo futuro semplice",
+    "bridge": "In russo non esiste un verbo ausiliare equivalente a \"will\" in inglese o \"ir a + infinito\" in spagnolo. Per esprimere il futuro si usa una forma verbale sintetica, ottenuta aggiungendo le desinenze all'infinito del verbo. A differenza dello spagnolo, dove si usano \"voy a hablar\" o \"hablaré\", i verbi russi hanno due aspetti: imperfettivo (azioni in corso o abituali) e perfettivo (azioni completate). Il futuro semplice si forma principalmente con i verbi perfettivi. È importante non tradurre letteralmente \"voy a\" perché in russo esiste una costruzione simile (\"собираться + infinito\") che indica un'intenzione, ma non è il futuro grammaticale.",
+    "rule": "In russo, il futuro semplice si forma con i verbi perfettivi (aspetto perfettivo). Per la maggior parte dei verbi, il perfettivo si ottiene aggiungendo un prefisso (ad esempio, делать → сделать). Le desinenze sono le stesse del presente dei verbi di prima coniugazione (-ю, -ешь, -ет, -ем, -ете, -ут) o di seconda coniugazione (-ю, -ишь, -ит, -им, -ите, -ат). Per i verbi imperfettivi, il futuro si esprime con il verbo \"быть\" (essere) al futuro + infinito imperfettivo: я буду делать, ты будешь делать, ecc. È fondamentale distinguere tra gli aspetti: perfettivo (futuro semplice) per azioni puntuali o completate, e imperfettivo (futuro composto) per azioni abituali o in corso. Esempi di formazione con prefissi: читать (leggere) → прочитать; писать (scrivere) → написать; делать (fare) → сделать. Alcuni verbi hanno forme irregolari, come \"есть\" (mangiare) → \"съесть\".",
+    "concept_examples": [
+      {
+        "text": "Я напишу письмо завтра.",
+        "translation": "Scriverò una lettera domani.",
+        "phonetic": "[ja nəpʲɪˈʂu pʲɪsʲˈmo ˈzaftrə]"
+      },
+      {
+        "text": "Она прочитает эту книгу.",
+        "translation": "Leggerà questo libro.",
+        "phonetic": "[ɐnə prətɕɪˈta(j)ɪt ˈɛtʊ ˈknʲiɡʊ]"
+      },
+      {
+        "text": "Мы будем работать в субботу.",
+        "translation": "Lavoreremo sabato.",
+        "phonetic": "[mɨ ˈbudʲɪm rɐˈbotətʲ f sʊˈbotʊ]"
+      },
+      {
+        "text": "Ты сделаешь домашнее задание?",
+        "translation": "Farai i compiti?",
+        "phonetic": "[tɨ ˈsʲdʲelə(j)ɪʂ dɐˈmaʂnʲɪje zɐˈdanʲɪje]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я буду писать письмо завтра.",
+      "correct": "Я напишу письмо завтра.",
+      "correct_alt": "Я буду писать письмо завтра (se vuoi enfatizzare il processo).",
+      "explanation": "Gli studenti di spagnolo tendono a usare la costruzione con \"буду + infinito\" per tutti i contesti futuri perché la imparano come equivalente a \"ir a + infinito\". Tuttavia, in russo, per un'azione puntuale e completata (come scrivere una lettera), si deve usare un verbo perfettivo al futuro semplice. Usare \"буду писать\" implica che l'azione sarà lunga o abituale, non un'azione specifica. Per evitare questo errore, identifica se l'azione è completata (perfettivo) o no (imperfettivo)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Будущее время с глаголами движения",
+        "translation": "Futuro con verbi di movimento",
+        "examples": [
+          {
+            "original": "Завтра я пойду в парк.",
+            "phonetic": "[ˈzaftrə ja pɐjˈdu f park]",
+            "translation": "Domani andrò al parco.",
+            "note": "Il verbo \"идти\" (andare a piedi) ha la forma perfettiva \"пойти\" (iniziare ad andare). Per il futuro si usa la forma perfettiva."
+          },
+          {
+            "original": "Мы поедем в Москву летом.",
+            "phonetic": "[mɨ pɐˈjedʲɪm v mɐˈskvu ˈlʲetəm]",
+            "translation": "Andremo a Mosca d'estate.",
+            "note": "Il verbo \"ехать\" (andare con un veicolo) diventa \"поехать\" al perfettivo. Nota la desinenza \"-ем\" per la prima persona plurale."
+          },
+          {
+            "original": "Он принесёт книгу завтра.",
+            "phonetic": "[on prʲɪnʲɪˈsʲot ˈknʲiɡʊ ˈzaftrə]",
+            "translation": "Porta il libro domani.",
+            "note": "Il verbo \"нести\" (portare) ha il perfettivo \"принести\" (portare). La desinenza \"-ёт\" è caratteristica della prima coniugazione."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Будущее время с глаголами действия",
+        "translation": "Futuro con verbi d'azione",
+        "examples": [
+          {
+            "original": "Я выпью кофе утром.",
+            "phonetic": "[ja ˈvɨpʲju ˈkofʲɪ ˈutrəm]",
+            "translation": "Berrò il caffè la mattina.",
+            "note": "Il verbo \"пить\" (bere) ha il perfettivo \"выпить\" (bere completamente). La forma \"выпью\" è irregolare."
+          },
+          {
+            "original": "Они построят новый дом.",
+            "phonetic": "[ɐˈnʲi pɐˈstrojət ˈnovɨj dom]",
+            "translation": "Costruiranno una casa nuova.",
+            "note": "Il verbo \"строить\" (costruire) ha il perfettivo \"построить\". Nota che la desinenza \"-ят\" corrisponde alla seconda coniugazione."
+          },
+          {
+            "original": "Ты купишь хлеб?",
+            "phonetic": "[tɨ ˈkupʲɪʂ xlʲep]",
+            "translation": "Comprerai il pane?",
+            "note": "Il verbo \"покупать\" (comprare) ha il perfettivo \"купить\". La desinenza \"-ишь\" appartiene alla seconda coniugazione."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Будущее время с глаголами состояния",
+        "translation": "Futuro con verbi di stato",
+        "examples": [
+          {
+            "original": "Я буду счастлив.",
+            "phonetic": "[ja ˈbudʲɪm ˈɕːæslʲɪf]",
+            "translation": "Sarò felice.",
+            "note": "Con aggettivi brevi o stati si usa \"буду\" + forma breve dell'aggettivo. Non esiste un verbo perfettivo."
+          },
+          {
+            "original": "Она будет дома вечером.",
+            "phonetic": "[ɐˈna ˈbudʲɪt ˈdomə ˈvʲetɕɪrəm]",
+            "translation": "Stasera sarà a casa.",
+            "note": "Il verbo \"быть\" è irregolare ed è usato come ausiliare per il futuro imperfettivo e gli stati."
+          },
+          {
+            "original": "Мы будем готовы к пяти часам.",
+            "phonetic": "[mɨ ˈbudʲɪm ɡɐˈtovɨ k pʲɪˈtʲi tɕɪˈsam]",
+            "translation": "Saremo pronti per le cinque.",
+            "note": "In russo, il futuro di stato si forma sempre con \"быть\" + forma breve dell'aggettivo, mentre in spagnolo si usa \"ser/estar\" a seconda del contesto."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔮",
+    "phonetic": "",
+    "translations": {
+      "it": "Tempo futuro semplice"
+    }
+  },
+  {
+    "id": "it_A2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Степени сравнения прилагательных / Comparativi e superlativi",
+    "bridge": "In italiano, formiamo i comparativi con 'più... di' o 'così... come', e i superlativi con 'il/la più...'. In russo, i comparativi si formano con 'чем' (di) o il genitivo, e spesso si usa l'avverbio 'более' (più) o il suffisso '-ее/-ей'. Un errore comune è usare 'чем' in modo errato con il genitivo: in russo, dopo 'чем' si usa il nominativo, non il genitivo. Inoltre, il superlativo relativo si forma con 'самый' (il più), che concorda in genere, numero e caso con il sostantivo.",
+    "rule": "Per formare il comparativo di maggioranza in russo, puoi usare la forma sintetica: aggiungendo '-ее' (o '-ей') alla radice dell'aggettivo (ad esempio, 'большой' -> 'больше' - più grande, 'красивый' -> 'красивее' - più bello). Esiste anche la forma analitica con 'более' + aggettivo (ad esempio, 'более красивый' - più bello). Il confronto si esprime con la congiunzione 'чем' seguita dal nominativo (ad esempio, 'Он выше, чем я' - Lui è più alto di me) o con il genitivo senza 'чем' (ad esempio, 'Он выше меня' - Lui è più alto di me). Per il superlativo, usa 'самый' (maschile), 'самая' (femminile), 'самое' (neutro), 'самые' (plurale) + aggettivo al grado positivo (ad esempio, 'самый большой' - il più grande). Esiste anche un superlativo con il suffisso '-ейший' (ad esempio, 'важнейший' - il più importante), ma è più formale e meno comune al livello A2. Per i confronti di uguaglianza, usa 'так же... как' (così... come) o 'такой же... как' (uguale a). Per i confronti di minoranza, usa 'менее' (meno) + aggettivo (ad esempio, 'менее дорогой' - meno costoso). Nota: alcuni aggettivi hanno forme irregolari: 'хороший' -> 'лучше' (migliore), 'плохой' -> 'хуже' (peggiore), 'маленький' -> 'меньше' (più piccolo), 'большой' -> 'больше' (più grande).",
+    "concept_examples": [
+      {
+        "text": "Мой дом больше, чем твой.",
+        "translation": "La mia casa è più grande della tua.",
+        "phonetic": "[moj dom 'bolʲʂə, t͡ɕem tvoj]"
+      },
+      {
+        "text": "Она красивее своей сестры.",
+        "translation": "Lei è più bella di sua sorella.",
+        "phonetic": "[aˈna krɐˈsʲivʲɪje svɐˈjej sʲɪˈstrɨ]"
+      },
+      {
+        "text": "Это самая интересная книга.",
+        "translation": "Questo è il libro più interessante.",
+        "phonetic": "[ˈɛtə ˈsaməjə ɪnʲtʲɪˈrʲesnəjə ˈknʲiɡə]"
+      },
+      {
+        "text": "Он выше меня.",
+        "translation": "Lui è più alto di me.",
+        "phonetic": "[on ˈvɨʂɨ mʲɪˈnʲa]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Он более выше, чем я.",
+      "correct": "Он выше меня.",
+      "correct_alt": "Он выше, чем я.",
+      "explanation": "In italiano, a volte si usano espressioni come 'più più alto' o si combina 'più' con un comparativo già formato. In russo, non puoi combinare 'более' con la forma sintetica del comparativo (выше è già comparativo). Inoltre, molti studenti usano erroneamente il genitivo dopo 'чем', ma in russo 'чем' è seguito dal nominativo. Per evitare questo errore, ricorda che se usi la forma sintetica del comparativo, non hai bisogno di 'более', e il confronto può essere fatto con 'чем' + nominativo o con il genitivo senza 'чем'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Сравнительная степень: синтетическая и аналитическая",
+        "translation": "Grado comparativo: forme sintetiche e analitiche",
+        "examples": [
+          {
+            "original": "Новый дом больше старого.",
+            "phonetic": "[ˈnovɨj dom ˈbolʲʂə ˈstarəvə]",
+            "translation": "La casa nuova è più grande di quella vecchia.",
+            "note": "Il genitivo (старого) viene usato per esprimere il confronto, senza 'чем'."
+          },
+          {
+            "original": "Этот фильм более интересный, чем тот.",
+            "phonetic": "[ˈɛtət ˈfʲilʲm ˈbolʲɪje ɪnʲtʲɪˈrʲesnɨj, t͡ɕem tot]",
+            "translation": "Questo film è più interessante di quello.",
+            "note": "Forma analitica con 'более' + aggettivo. Nota che 'чем' è seguito dal nominativo (тот)."
+          },
+          {
+            "original": "Лето теплее зимы.",
+            "phonetic": "[ˈlʲetə tʲɪˈplʲeje zʲɪˈmɨ]",
+            "translation": "L'estate è più calda dell'inverno.",
+            "note": "L'aggettivo 'тёплый' diventa 'теплее' (più caldo). Il genitivo 'зимы' è usato."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Превосходная степень: самый + прилагательное",
+        "translation": "Grado superlativo: самый + aggettivo",
+        "examples": [
+          {
+            "original": "Это самая большая комната в доме.",
+            "phonetic": "[ˈɛtə ˈsaməjə bɐlʲˈʂajə ˈkomnətə v ˈdomʲe]",
+            "translation": "Questa è la stanza più grande della casa.",
+            "note": "'самая' concorda con 'комната' (femminile)."
+          },
+          {
+            "original": "Он самый умный студент в классе.",
+            "phonetic": "[on ˈsamɨj ˈumnɨj stʊˈdʲent f ˈklasʲe]",
+            "translation": "Lui è lo studente più intelligente della classe.",
+            "note": "'самый' per il maschile singolare."
+          },
+          {
+            "original": "Это самое вкусное блюдо в меню.",
+            "phonetic": "[ˈɛtə ˈsaməjə ˈfkusnəjə ˈblʲudə v mʲɪˈnʲu]",
+            "translation": "Questo è il piatto più gustoso del menu.",
+            "note": "'самое' per il neutro."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Сравнение с помощью 'так же' и 'менее'",
+        "translation": "Confronti di uguaglianza e minoranza",
+        "examples": [
+          {
+            "original": "Он такой же высокий, как я.",
+            "phonetic": "[on tɐˈkoj ʐɨ ˈvɨsokʲɪj, kak ja]",
+            "translation": "Lui è alto come me.",
+            "note": "Per l'uguaglianza, usa 'такой же... как' (uguale a)."
+          },
+          {
+            "original": "Этот город такой же красивый, как Москва.",
+            "phonetic": "[ˈɛtət ˈɡorət tɐˈkoj ʐɨ krɐˈsʲivɨj, kak mɐˈskva]",
+            "translation": "Questa città è bella come Mosca.",
+            "note": "'такой же' si adatta al genere (такая же per il femminile)."
+          },
+          {
+            "original": "Эта задача менее сложная, чем та.",
+            "phonetic": "[ˈɛtə zɐˈdat͡ɕə ˈmʲenʲe ˈsloʐnəjə, t͡ɕem ta]",
+            "translation": "Questo compito è meno difficile di quello.",
+            "note": "Per la minoranza, usa 'менее' + aggettivo, e il confronto con 'чем' + nominativo."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "it": "Comparativi e superlativi"
+    }
+  },
+  {
+    "id": "it_A2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Модальные глаголы: должен, нужно, можно / Verbi modali",
+    "bridge": "In russo, i verbi modali non si coniugano come in spagnolo. Al posto di un verbo coniugato, si usano parole speciali (должен, нужно, можно) come predicati. Inoltre, il russo non ha un verbo generale 'poder' per esprimere la capacità generale; si usa invece мочь, che è coniugato. È importante ricordare che il soggetto in russo è di solito al nominativo con 'должен', ma con 'нужно' e 'можно' il soggetto è al caso dativo. Questa è una differenza strutturale che gli studenti di spagnolo devono interiorizzare.",
+    "rule": "In russo, i verbi modali si esprimono principalmente in tre modi: 1) **должен** (dovere, essere obbligato) - un aggettivo breve che concorda in genere e numero con il soggetto (должен, должна, должно, должны) e si usa con l'infinito. 2) **нужно** (è necessario, si deve) - un predicato impersonale; il soggetto logico è al caso dativo (мне нужно, тебе нужно). 3) **можно** (si può, è permesso) - anch'esso impersonale; il soggetto è al caso dativo (мне можно, тебе можно). Per esprimere divieto, si usa **нельзя** (non si può). Il verbo мочь (potere) si coniuga come un verbo regolare e esprime capacità o permesso: я могу, ты можешь, он может. Per chiedere un permesso, si usa **можно** + infinito. A livello A2, è fondamentale conoscere questi tre verbi modali e la loro costruzione con gli infiniti. Ricorda: con 'должен' il soggetto è al nominativo; con 'нужно' e 'можно' è al dativo.",
+    "concept_examples": [
+      {
+        "text": "Я должен работать.",
+        "translation": "Yo debo trabajar.",
+        "phonetic": "ja ˈdolʐɨn rɐˈbotətʲ"
+      },
+      {
+        "text": "Мне нужно купить хлеб.",
+        "translation": "Necesito comprar pan (a mí me es necesario comprar pan).",
+        "phonetic": "mnʲe ˈnuʐnə kuˈpʲitʲ xlʲep"
+      },
+      {
+        "text": "Можно войти?",
+        "translation": "¿Se puede entrar? / ¿Puedo entrar?",
+        "phonetic": "ˈmoʐnə vɐjˈtʲi"
+      },
+      {
+        "text": "Он не может прийти сегодня.",
+        "translation": "Él no puede venir hoy.",
+        "phonetic": "on nʲɪ ˈmoʐɨt prʲɪjˈtʲi sʲɪˈvodʲnʲə"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я нужно работать.",
+      "correct": "Мне нужно работать.",
+      "correct_alt": "Я должен работать.",
+      "explanation": "In spagnolo si dice 'yo necesito', ma in russo 'нужно' è impersonale e il soggetto logico è al caso dativo (мне). Dire 'я нужно' è un errore tipico degli studenti di spagnolo perché trasferiscono la struttura dallo spagnolo. Per evitarlo, ricorda che con 'нужно' si usa sempre la forma del pronome al dativo (мне, тебе, ему, ей, нам, вам, им). In alternativa, puoi usare 'должен' (con il nominativo) per esprimere un obbligo personale."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Должен",
+        "translation": "Deber / Tener que",
+        "examples": [
+          {
+            "original": "Ты должен учиться.",
+            "phonetic": "tɨ ˈdolʐɨn ʊˈt͡ɕit͡sə",
+            "translation": "Tú debes estudiar.",
+            "note": "For the masculine, we use 'должен'."
+          },
+          {
+            "original": "Она должна работать.",
+            "phonetic": "ɐˈna dɐlˈʐna rɐˈbotətʲ",
+            "translation": "Ella debe trabajar.",
+            "note": "For the feminine, it changes to 'должна'."
+          },
+          {
+            "original": "Мы должны помочь.",
+            "phonetic": "mɨ dɐlˈʐnɨ pɐˈmot͡ɕ",
+            "translation": "Nosotros debemos ayudar.",
+            "note": "In the plural, we use 'должны'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Нужно",
+        "translation": "È necessario / Bisogna",
+        "examples": [
+          {
+            "original": "Мне нужно спать.",
+            "phonetic": "mnʲe ˈnuʐnə spatʲ",
+            "translation": "Necesito dormir.",
+            "note": "Observe the use of the dative 'мне'."
+          },
+          {
+            "original": "Тебе нужно отдохнуть.",
+            "phonetic": "tʲɪˈbʲe ˈnuʐnə ɐdːɐxˈnutʲ",
+            "translation": "Tú necesitas descansar.",
+            "note": "The dative 'тебе' indicates who needs it."
+          },
+          {
+            "original": "Нам нужно поговорить.",
+            "phonetic": "nam ˈnuʐnə pəɡəvɐˈrʲitʲ",
+            "translation": "Nosotros necesitamos hablar.",
+            "note": "In the plural, we use 'нам'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Можно и нельзя",
+        "translation": "Si può / Non si può",
+        "examples": [
+          {
+            "original": "Можно открыть окно?",
+            "phonetic": "ˈmoʐnə ɐtˈkrɨtʲ ˈoknə",
+            "translation": "¿Se puede abrir la ventana?",
+            "note": "To ask for permission, 'можно' + infinitive is used."
+          },
+          {
+            "original": "Здесь нельзя курить.",
+            "phonetic": "zʲdʲesʲ nʲɪlʲˈzʲa kʊˈrʲitʲ",
+            "translation": "Aquí no se puede fumar.",
+            "note": "'Нельзя' expresses prohibition."
+          },
+          {
+            "original": "Мне можно помочь?",
+            "phonetic": "mnʲe ˈmoʐnə pɐˈmot͡ɕ",
+            "translation": "¿Puedo ayudar? (literal: ¿A mí se me permite ayudar?)",
+            "note": "The dative 'мне' indicates who has the permission."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧾",
+    "phonetic": "",
+    "translations": {
+      "it": "Verbi modali"
+    }
+  },
+  {
+    "id": "it_A2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Возвратные глаголы / Verbi riflessivi",
+    "bridge": "In spagnolo usiamo i pronomi riflessivi come 'me', 'te', 'se' (ad esempio 'lavarsi'), mentre in russo si usa la particella -ся/-сь alla fine del verbo. Tuttavia, in russo questa particella non cambia a seconda della persona: è sempre -ся dopo consonanti e -сь dopo vocali. Inoltre, alcuni verbi che sono riflessivi in spagnolo (ad esempio 'vestirse') potrebbero non esserlo in russo, e viceversa. Fai attenzione ai verbi il cui significato cambia quando viene aggiunta la particella riflessiva!",
+    "rule": "In russo, i verbi riflessivi si formano aggiungendo la particella -ся (dopo consonanti) o -сь (dopo vocali) al verbo. Questa particella viene posta alla fine dell'infinito e si aggiunge anche alle forme coniugate. La particella non varia in base alla persona, ma il verbo si coniuga come un verbo regolare della sua coniugazione (1ª o 2ª). Per gli spagnoli, è importante ricordare che il russo non ha un pronome riflessivo separato per ogni persona: la particella è invariabile. Esempi: я умываюсь (io mi lavo il viso), ты умываешься (tu ti lavi il viso). Esistono anche verbi riflessivi che esprimono azioni reciproche (они встречаются 'si incontrano'), azioni passive (книга читается 'il libro viene letto') o cambiamenti di stato (я просыпаюсь 'mi sveglio'). Alcuni verbi cambiano significato quando sono riflessivi: ad esempio, 'договорить' (finire di parlare) e 'договориться' (mettersi d'accordo). Al livello A2, ci concentriamo sugli usi più comuni: azioni quotidiane (lavarsi, pettinarsi, vestirsi), emozioni o stati (rallegrarsi, arrabbiarsi, sentirsi) e verbi reciproci con 'друг друга' o con -ся.",
+    "concept_examples": [
+      {
+        "text": "Я просыпаюсь в семь часов.",
+        "translation": "Mi sveglio alle sette.",
+        "phonetic": "ja prɐˈsɨpəjʉsʲ f ˈsʲemʲ tɕɐˈsof"
+      },
+      {
+        "text": "Мы встречаемся в парке.",
+        "translation": "Ci incontriamo nel parco.",
+        "phonetic": "mɨ vstrʲɪˈtɕæjɪmsʲə f ˈparkʲe"
+      },
+      {
+        "text": "Она одевается быстро.",
+        "translation": "Si veste in fretta.",
+        "phonetic": "ɐˈna ɐdʲɪˈvaɪʦə ˈbɨstrə"
+      },
+      {
+        "text": "Ты умываешься холодной водой.",
+        "translation": "Ti lavi il viso con l'acqua fredda.",
+        "phonetic": "tɨ ʊmɨˈvaɪʂə ˈxolədnəj vəˈdoj"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я одеваю меня быстро.",
+      "correct": "Я одеваюсь быстро.",
+      "correct_alt": "",
+      "explanation": "In spagnolo si dice 'me visto' usando il pronome riflessivo 'me'. In russo, invece, non si usa il pronome riflessivo; si aggiunge semplicemente la particella -сь al verbo coniugato. Dire 'меня' (me, accusativo) è un errore tipico perché gli spagnoli trasferiscono direttamente il pronome riflessivo. Ricorda: per le azioni riflessive, il verbo russo prende -ся/-сь e non usa un pronome. Quindi, 'я одеваюсь' significa 'mi vesto' (mi metto i vestiti)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Возвратные глаголы повседневных действий",
+        "translation": "Verbi riflessivi di azioni quotidiane",
+        "examples": [
+          {
+            "original": "Я просыпаюсь.",
+            "phonetic": "ja prɐˈsɨpəjʉsʲ",
+            "translation": "Mi sveglio.",
+            "note": "Il verbo 'просыпаться' è riflessivo e indica svegliarsi da soli. La particella -сь compare dopo una vocale."
+          },
+          {
+            "original": "Я умываюсь.",
+            "phonetic": "ja ʊmɨˈvajʉsʲ",
+            "translation": "Mi lavo il viso.",
+            "note": "In spagnolo, 'lavarse la cara' richiede un oggetto; in russo, 'умываться' è riflessivo e non prende un oggetto."
+          },
+          {
+            "original": "Мы одеваемся.",
+            "phonetic": "mɨ ɐdʲɪˈvajɪmsʲə",
+            "translation": "Ci vestiamo.",
+            "note": "La particella -ся viene dopo la desinenza -ем, ma il verbo si coniuga regolarmente."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Возвратные глаголы чувств и состояний",
+        "translation": "Verbi riflessivi di sentimenti e stati",
+        "examples": [
+          {
+            "original": "Я радуюсь.",
+            "phonetic": "ja ˈradujʉsʲ",
+            "translation": "Mi rallegro.",
+            "note": "Il verbo 'радоваться' esprime un sentimento. In spagnolo si usa 'alegrarse', ma senza la particella -ся sarebbe scorretto in russo."
+          },
+          {
+            "original": "Он сердится.",
+            "phonetic": "on ˈsʲerdʲɪtsə",
+            "translation": "Si arrabbia.",
+            "note": "Nota che dopo -т si scrive -ся, non -сь. La pronuncia è 'tsa'."
+          },
+          {
+            "original": "Мы чувствуем себя хорошо.",
+            "phonetic": "mɨ ˈt͡ɕustvujɪm sʲɪˈbʲa xɐˈroʂə",
+            "translation": "Ci sentiamo bene.",
+            "note": "Con 'чувствовать себя', si usa il pronome riflessivo 'себя', che è invariabile. A differenza dei verbi riflessivi con -ся, qui si usa effettivamente un pronome."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Возвратные глаголы взаимного действия",
+        "translation": "Verbi riflessivi di azione reciproca",
+        "examples": [
+          {
+            "original": "Они встречаются каждый день.",
+            "phonetic": "ɐˈnʲi vstrʲɪˈtɕæjʊʦə ˈkaʐdɨj dʲenʲ",
+            "translation": "Si incontrano ogni giorno.",
+            "note": "L'azione è reciproca: si incontrano a vicenda. In spagnolo, 'encontrarse' ha diversi usi."
+          },
+          {
+            "original": "Мы обнимаемся при встрече.",
+            "phonetic": "mɨ ɐbnʲɪˈmajɪmsʲə prʲi ˈvstrʲet͡ɕe",
+            "translation": "Ci abbracciamo quando ci incontriamo.",
+            "note": "Il verbo 'обниматься' esprime reciprocità: ci abbracciamo a vicenda."
+          },
+          {
+            "original": "Они ссорятся из-за пустяков.",
+            "phonetic": "ɐˈnʲi ˈsorʲɪʦə iz ˈza pustʲɪˈkof",
+            "translation": "Litigano per delle sciocchezze.",
+            "note": "Con -ся indica che l'azione è reciproca. In spagnolo, 'pelearse' è anch'esso pronominale."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "it": "Verbi riflessivi"
+    }
+  },
+  {
+    "id": "it_A2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Местоимения-дополнения / Pronomi oggetto diretto e indiretto",
+    "bridge": "In spagnolo, i pronomi oggetto diretto e indiretto (me, te, lo, le, nos, ecc.) vengono prima del verbo o si attaccano all’infinito. In russo, questi pronomi hanno forme diverse dai pronomi personali (меня, тебя, его, её, нас, вас, их) e vengono generalmente posti dopo il verbo o prima di esso a seconda dell’enfasi. A differenza dello spagnolo, non esiste una distinzione tra 'lo/la' e 'le'; il caso accusativo viene usato per l’oggetto diretto e il dativo per quello indiretto, ma la forma è spesso la stessa per entrambi i generi. Attenzione: il russo non ha un equivalente diretto di 'se' per l’oggetto indiretto (come in 'se lo di'), ma usa invece la forma dativa corrispondente.",
+    "rule": "In russo, i pronomi oggetto diretto (accusativo) e indiretto (dativo) hanno le proprie forme:\n- Accusativo (oggetto diretto): меня (me), тебя (te), его (lui/esso), её (lei/esso), нас (noi), вас (voi/loro), их (loro).\n- Dativo (oggetto indiretto): мне (a me), тебе (a te), ему (a lui), ей (a lei), нам (a noi), вам (a voi/loro), им (a loro).\n- Normalmente vengono posti dopo il verbo, ma possono andare prima per enfasi. Nelle frasi negative, il pronome di solito viene prima del verbo con 'не'.\n- Quando si usano due pronomi (indiretto + diretto), quello indiretto viene prima (ad esempio, 'дай мне его' — dammi quello).\n- Non cambiano in base al genere del nome a cui si riferiscono (a differenza dello spagnolo 'lo/la').\n- Con le preposizioni, i pronomi assumono forme preposizionali (ad esempio, 'у меня', 'ко мне', 'с тобой').",
+    "concept_examples": [
+      {
+        "text": "Я вижу тебя.",
+        "translation": "Ti vedo.",
+        "phonetic": "[ja ˈviʐu tʲɪˈbʲa]"
+      },
+      {
+        "text": "Она даёт мне книгу.",
+        "translation": "Lei mi dà il libro.",
+        "phonetic": "[ɐˈna dɐˈjɵt mnʲe ˈknʲiɡʊ]"
+      },
+      {
+        "text": "Мы поможем вам.",
+        "translation": "Noi ti aiuteremo / vi aiuteremo / Le aiuteremo.",
+        "phonetic": "[mɨ pɐˈmoʐɨm vam]"
+      },
+      {
+        "text": "Ты любишь её?",
+        "translation": "La ami (lei)?",
+        "phonetic": "[tɨ ˈlʲubʲɪʂ jʲɪˈjɵ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я вижу tú (usando il pronome spagnolo invece della forma russa)",
+      "correct": "Я вижу тебя.",
+      "correct_alt": "",
+      "explanation": "L’errore più comune è tradurre direttamente i pronomi spagnoli come 'me, te, lo, le' e usare le forme nominative russe (я, ты, он). Devi usare le forme accusative e dative: тебя, меня, его, ecc. Ricorda che il russo non ha pronomi atoni (come 'se' o 'lo' separato) e la forma dipende dal caso."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Винительный падеж (Objeto directo)",
+        "translation": "Caso accusativo (oggetto diretto)",
+        "examples": [
+          {
+            "original": "Я знаю его.",
+            "phonetic": "[ja ˈznaju jɪˈvo]",
+            "translation": "Lo conosco (lui).",
+            "note": "'его' viene usato per 'lui' o 'esso', indipendentemente dal genere."
+          },
+          {
+            "original": "Она любит меня.",
+            "phonetic": "[ɐˈna ˈlʲubʲɪt mʲɪˈnʲa]",
+            "translation": "Lei mi ama (me).",
+            "note": "'меня' è la forma accusativa di 'я'."
+          },
+          {
+            "original": "Мы приглашаем вас.",
+            "phonetic": "[mɨ prʲɪɡlɐˈʂajɪm vas]",
+            "translation": "La invitiamo (formale) / Vi invitiamo (informale).",
+            "note": "'вас' serve sia per 'os' che per 'le/les' in un contesto formale."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Дательный падеж (Objeto indirecto)",
+        "translation": "Caso dativo (oggetto indiretto)",
+        "examples": [
+          {
+            "original": "Дай мне ручку.",
+            "phonetic": "[daj mnʲe ˈrut͡ɕkʊ]",
+            "translation": "Dammi la penna.",
+            "note": "'мне' è la forma dativa di 'я', equivalente a 'mi' come oggetto indiretto."
+          },
+          {
+            "original": "Мы пишем ей письмо.",
+            "phonetic": "[mɨ ˈpʲiʂɨm jɪj pʲɪsʲˈmo]",
+            "translation": "Le scriviamo una lettera (a lei).",
+            "note": "'ей' (dativo di 'она') si traduce con 'le'."
+          },
+          {
+            "original": "Он сказал нам правду.",
+            "phonetic": "[on skɐˈzaɫ nam ˈpravdʊ]",
+            "translation": "Ci ha detto la verità.",
+            "note": "'нам' (dativo di 'мы') corrisponde a 'nos'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Порядок слов и отрицание",
+        "translation": "Ordine delle parole e negazione",
+        "examples": [
+          {
+            "original": "Я не вижу его.",
+            "phonetic": "[ja nʲɪ ˈvʲiʐʊ jɪˈvo]",
+            "translation": "Non lo vedo.",
+            "note": "Nella negazione, 'не' viene prima del verbo; il pronome può andare prima o dopo."
+          },
+          {
+            "original": "Дай мне её, пожалуйста.",
+            "phonetic": "[daj mnʲe jɪˈjɵ, pɐˈʐaɫʊstə]",
+            "translation": "Dammi quella, per favore.",
+            "note": "L’oggetto indiretto (мне) viene prima, poi quello diretto (её). In spagnolo sarebbe 'dámela' con 'se' fuso, ma in russo entrambi vengono usati."
+          },
+          {
+            "original": "Я вас люблю.",
+            "phonetic": "[ja vas lʲʊbˈlʲu]",
+            "translation": "Ti amo / Vi amo / La amo (Lei).",
+            "note": "Il contesto determina il significato di 'вас'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "it": "Pronomi oggetto diretto e indiretto"
+    }
+  },
+  {
+    "id": "it_A2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Наречия частотности / Avverbi di frequenza",
+    "bridge": "In spagnolo, gli avverbi di frequenza (siempre, nunca, a menudo) di solito si collocano prima del verbo o alla fine della frase, e spesso si usa 'soler' per esprimere azioni abituali. In russo, questi avverbi si mettono generalmente prima del verbo, ma non esiste un verbo equivalente a 'soler'; si usa l'aspetto imperfettivo del verbo per indicare azioni abituali. Inoltre, in russo la doppia negazione è obbligatoria: se si usa 'никогда' (mai), il verbo deve essere alla forma negativa con 'не'. In spagnolo, 'nunca' implica già una negazione, ma in russo è necessario aggiungere 'не'.",
+    "rule": "Gli avverbi di frequenza più comuni in russo sono: всегда (sempre), обычно (di solito), часто (spesso), иногда (a volte), редко (raramente), никогда (mai). Di solito si collocano prima del verbo coniugato, ma possono essere messi all'inizio o alla fine della frase per dare enfasi. Con l'avverbio 'никогда', il verbo deve essere preceduto dalla particella negativa 'не' (doppia negazione). Per esprimere azioni abituali, si usa l'aspetto imperfettivo del verbo (presente o passato). Esempi: Я всегда пью кофе утром (Bevo sempre il caffè al mattino). Обычно мы гуляем в парке (Di solito passeggiamo nel parco). Никогда не опаздывай (Non arrivare mai in ritardo).",
+    "concept_examples": [
+      {
+        "text": "Я всегда завтракаю дома.",
+        "translation": "Faccio sempre colazione a casa.",
+        "phonetic": "[ja fsʲɪɡˈda zɐftrɐˈkajʊ ˈdomə]"
+      },
+      {
+        "text": "Мы часто ходим в кино.",
+        "translation": "Andiamo spesso al cinema.",
+        "phonetic": "[mɨ ˈt͡ɕæstə ˈxodʲɪm v ˈkʲinə]"
+      },
+      {
+        "text": "Он редко смотрит телевизор.",
+        "translation": "Guarda raramente la televisione.",
+        "phonetic": "[on ˈrʲɛtkə ˈsmotrʲɪt tʲɪlʲɪˈvʲizər]"
+      },
+      {
+        "text": "Она никогда не опаздывает.",
+        "translation": "Non arriva mai in ritardo.",
+        "phonetic": "[ɐˈna nʲɪkɐɡˈda nʲɪ ɐˈpazdɨvəjɪt]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я никогда опаздываю.",
+      "correct": "Я никогда не опаздываю.",
+      "correct_alt": "",
+      "explanation": "L'errore si verifica perché in spagnolo si dice 'nunca llego tarde' senza bisogno di un'altra negazione. In russo, l'avverbio 'никогда' (mai) richiede che il verbo sia anch'esso negato con 'не'. Quindi si deve dire 'не опаздываю' (non arrivo in ritardo). Ricorda: usa sempre 'не' con 'никогда'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Основные наречия",
+        "translation": "Avverbi di base",
+        "examples": [
+          {
+            "original": "всегда",
+            "phonetic": "[fsʲɪɡˈda]",
+            "translation": "sempre",
+            "note": "Avverbio invariabile, si colloca prima del verbo."
+          },
+          {
+            "original": "часто",
+            "phonetic": "[ˈt͡ɕæstə]",
+            "translation": "spesso",
+            "note": "Si usa con verbi imperfettivi per indicare frequenza."
+          },
+          {
+            "original": "иногда",
+            "phonetic": "[ɪnɐɡˈda]",
+            "translation": "a volte",
+            "note": "Può essere collocato all'inizio o prima del verbo."
+          },
+          {
+            "original": "никогда",
+            "phonetic": "[nʲɪkɐɡˈda]",
+            "translation": "mai",
+            "note": "Richiede doppia negazione: mai + non + verbo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Порядок слов",
+        "translation": "Ordine delle parole",
+        "examples": [
+          {
+            "original": "Я обычно встаю в семь часов.",
+            "phonetic": "[ja ˈobɨt͡ɕnə fstɐˈju f sʲemʲ t͡ɕɪˈsof]",
+            "translation": "Di solito mi alzo alle sette.",
+            "note": "L'avverbio 'обычно' si colloca prima del verbo."
+          },
+          {
+            "original": "Иногда мы ездим за город.",
+            "phonetic": "[ɪnɐɡˈda mɨ ˈjezʲdʲɪm zɐ ˈɡorət]",
+            "translation": "A volte andiamo in campagna.",
+            "note": "Quando l'avverbio è all'inizio, l'ordine è SVO come di consueto."
+          },
+          {
+            "original": "Она всегда готовит сама.",
+            "phonetic": "[ɐˈna fsʲɪɡˈda ɡɐˈtovʲɪt sɐˈma]",
+            "translation": "Lei cucina sempre da sola.",
+            "note": "L'avverbio si colloca prima del verbo, anche con un soggetto esplicito."
+          },
+          {
+            "original": "Мы никогда не смотрим сериалы.",
+            "phonetic": "[mɨ nʲɪkɐɡˈda nʲɪ ˈsmotrʲɪm sʲɪˈrʲiəlɨ]",
+            "translation": "Non guardiamo mai le serie TV.",
+            "note": "Osserva la doppia negazione: никогда + не."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Частотность в вопросах и ответах",
+        "translation": "Frequenza nelle domande e risposte",
+        "examples": [
+          {
+            "original": "Как часто ты ходишь в спортзал?",
+            "phonetic": "[kak ˈt͡ɕæstə tɨ ˈxodʲɪʂ f spɐrtˈzaɫ]",
+            "translation": "Quanto spesso vai in palestra?",
+            "note": "Usa 'как часто' per chiedere della frequenza."
+          },
+          {
+            "original": "Я хожу туда три раза в неделю.",
+            "phonetic": "[ja xɐˈʐu tʊˈda trʲi ˈrazə v nʲɪˈdʲelʲʊ]",
+            "translation": "Ci vado tre volte alla settimana.",
+            "note": "Rispondi con un'espressione di frequenza (tre volte alla settimana)."
+          },
+          {
+            "original": "Он никогда не пьёт кофе.",
+            "phonetic": "[on nʲɪkɐɡˈda nʲɪ pʲjɵt ˈkofʲɪ]",
+            "translation": "Lui non beve mai caffè.",
+            "note": "Esempio di risposta con 'никогда' e doppia negazione."
+          },
+          {
+            "original": "Ты часто готовишь?",
+            "phonetic": "[tɨ ˈt͡ɕæstə ɡɐˈtovʲɪʂ]",
+            "translation": "Cucini spesso?",
+            "note": "Domanda semplice con un avverbio di frequenza."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕐",
+    "phonetic": "",
+    "translations": {
+      "it": "Avverbi di frequenza"
+    }
+  },
+  {
+    "id": "it_A2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Предлоги времени / Preposizioni di tempo",
+    "bridge": "In spagnolo si usano preposizioni come 'en', 'a', 'por' per indicare il tempo (en marzo, a las cinco, por la mañana). In russo, le preposizioni cambiano a seconda del caso grammaticale del sostantivo (preposizionale, accusativo, genitivo) e spesso indicano durata o momenti specifici in modo diverso. Ad esempio, 'в' con il caso preposizionale si usa per mesi e anni, ma con l'accusativo per i giorni della settimana. Attenzione: non esiste un equivalente diretto di 'por' in espressioni come 'por la mañana' — si usa 'утром' (strumentale) senza preposizione.",
+    "rule": "Le preposizioni di tempo in russo si usano con casi specifici: 'в' + preposizionale per mesi, anni, secoli (в январе, в 2023 году); 'в' + accusativo per giorni della settimana (в понедельник) e momenti specifici (в 5 часов); 'на' + preposizionale per settimane (на этой неделе) e espressioni come 'на завтрак' (a colazione); 'через' + accusativo per 'tra/dopo' (через час); 'после' + genitivo per 'dopo' (после работы); 'до' + genitivo per 'prima di' (до обеда). Per ore e parti della giornata si usa il caso strumentale senza preposizione: утром (di mattina), днём (di pomeriggio), вечером (di sera), ночью (di notte). Inoltre, 'зимой', 'летом' (in inverno, in estate) si usano con lo strumentale.",
+    "concept_examples": [
+      {
+        "text": "Я встаю в семь часов.",
+        "translation": "Mi alzo alle sette.",
+        "phonetic": "ja fstaju f sɛmʲ t͡ɕɪˈsof"
+      },
+      {
+        "text": "Мы едем в Москву в июне.",
+        "translation": "Andiamo a Mosca a giugno.",
+        "phonetic": "mɨ ˈjɛdʲɪm v mɐskˈvu v ˈiʉnʲə"
+      },
+      {
+        "text": "В понедельник я работаю.",
+        "translation": "Lunedì lavoro.",
+        "phonetic": "f pənʲɪˈdʲɛlʲnʲɪk ja rɐˈbotəjʉ"
+      },
+      {
+        "text": "Она спит ночью.",
+        "translation": "Dorme di notte.",
+        "phonetic": "ɐˈna spʲit ˈnot͡ɕʉ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я встаю в утро.",
+      "correct": "Я встаю утром.",
+      "correct_alt": "Я встаю по утрам.",
+      "explanation": "L'errore deriva dalla traduzione letterale di 'in the morning' come 'в утро'. In russo, per le parti della giornata si usa il caso strumentale senza preposizione (утром, днём, вечером, ночью). Dire 'в утро' è scorretto perché 'в' con accusativo si usa per momenti specifici come giorni o ore, non per le parti della giornata. Per esprimere 'di mattina' in modo abituale, si usa 'по утрам' (dativo plurale). Impara queste espressioni come formule fisse."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Время суток",
+        "translation": "Parti della giornata",
+        "examples": [
+          {
+            "original": "утром",
+            "phonetic": "ˈutrəm",
+            "translation": "di mattina",
+            "note": "Lo strumentale senza preposizione si usa per 'di mattina'."
+          },
+          {
+            "original": "днём",
+            "phonetic": "dnʲɵm",
+            "translation": "di pomeriggio / durante il giorno",
+            "note": "Lo strumentale di 'день' (giorno) significa 'durante il giorno' o 'di pomeriggio'."
+          },
+          {
+            "original": "вечером",
+            "phonetic": "ˈvʲet͡ɕɪrəm",
+            "translation": "di sera",
+            "note": "Si usa per il tempo serale, dalle 18 circa fino al momento di andare a letto."
+          },
+          {
+            "original": "ночью",
+            "phonetic": "ˈnot͡ɕʉ",
+            "translation": "di notte",
+            "note": "Strumentale di 'ночь' (notte). Attenzione alla desinenza -ью."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Дни недели",
+        "translation": "Giorni della settimana",
+        "examples": [
+          {
+            "original": "в понедельник",
+            "phonetic": "f pənʲɪˈdʲɛlʲnʲɪk",
+            "translation": "lunedì",
+            "note": "Usa 'в' + accusativo per i giorni della settimana, a differenza dello spagnolo che non usa preposizioni."
+          },
+          {
+            "original": "в среду",
+            "phonetic": "f ˈsrʲɛdʊ",
+            "translation": "mercoledì",
+            "note": "Accusativo di 'среда'. Nota il cambio della desinenza."
+          },
+          {
+            "original": "в субботу",
+            "phonetic": "f sʊˈbotʊ",
+            "translation": "sabato",
+            "note": "Accusativo femminile di 'суббота'."
+          },
+          {
+            "original": "по воскресеньям",
+            "phonetic": "pə vəskrʲɪˈsʲɛnʲjəm",
+            "translation": "la domenica (abitualmente)",
+            "note": "Per azioni abituali, usa 'по' + dativo plurale."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Месяцы и годы",
+        "translation": "Mesi e anni",
+        "examples": [
+          {
+            "original": "в январе",
+            "phonetic": "v jɪnvɐˈrʲɛ",
+            "translation": "a gennaio",
+            "note": "Preposizionale di 'январь'. Tutti i mesi al preposizionale terminano in -e (tranne alcuni con -у)."
+          },
+          {
+            "original": "в марте",
+            "phonetic": "v ˈmartʲɪ",
+            "translation": "a marzo",
+            "note": "Preposizionale di 'март'."
+          },
+          {
+            "original": "в 2023 году",
+            "phonetic": "f dˈvʲe ˈtɨsʲɪt͡ɕɪ ˈdvətsətʲ ˈtrʲi ɡɐˈdu",
+            "translation": "nel 2023",
+            "note": "Usa 'в' + preposizionale dell'anno (году). Gli anni si leggono come numeri ordinali."
+          },
+          {
+            "original": "в прошлом году",
+            "phonetic": "f ˈproʂləm ɡɐˈdu",
+            "translation": "l'anno scorso",
+            "note": "Espressione fissa con il preposizionale di 'прошлый год'."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏰",
+    "phonetic": "",
+    "translations": {
+      "it": "Preposizioni di tempo"
+    }
+  },
+  {
+    "id": "it_A2_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Союзы (и, но, или, потому что, когда, если) / Congiunzioni",
+    "bridge": "In italiano, le congiunzioni funzionano in modo simile, ma in russo ci sono differenze importanti: 'и' si usa per 'e', ma anche per 'e' prima di alcune vocali; 'но' significa 'ma', e non c'è distinzione tra 'pero' e 'sino' come in spagnolo (in russo si usa 'а' per il contrasto). 'Потому что' (perché) risponde a 'почему' (perché), e 'если' (se) per le condizioni non si confonde con lo spagnolo 'si' (che in russo è 'да'). Inoltre, in russo la virgola prima di 'что' in 'потому что' è obbligatoria, come in spagnolo.",
+    "rule": "Al livello A2, le principali congiunzioni in russo sono:\n- 'и' (e): collega elementi o frasi. 'И' si usa anche prima delle vocali, senza cambiamenti (a differenza dello spagnolo 'e'). Esempio: 'мама и папа' (mamma e papà).\n- 'но' (ma): esprime contrasto o opposizione. Esempio: 'Я устал, но я пойду' (Sono stanco, ma andrò). 'Но' non si usa per contraddire due idee opposte come 'sino' in spagnolo; in russo si usa 'а' in quel caso (es.: 'не я, а ты' - non io, ma te).\n- 'или' (o): per le opzioni. Esempio: 'Чай или кофе?' (Tè o caffè?)\n- 'потому что' (perché): introduce una causa. Si scrive con una virgola prima. Esempio: 'Я не пришёл, потому что был болен' (Non sono venuto perché ero malato).\n- 'когда' (quando): introduce un tempo. Esempio: 'Когда я был ребёнком, я любил мороженое' (Quando ero bambino, amavo il gelato). Può stare all'inizio o in mezzo.\n- 'если' (se): introduce una condizione. Esempio: 'Если будет дождь, мы останемся дома' (Se pioverà, resteremo a casa). Non confonderlo con 'ли' (se, domanda indiretta).\n- 'а' (e/mentre): contrasto tra due idee, spesso tradotto come 'e' in spagnolo, ma con una sfumatura di opposizione. Esempio: 'Я люблю чай, а она любит кофе' (A me piace il tè, e a lei piace il caffè).",
+    "concept_examples": [
+      {
+        "text": "Я хочу чай и кофе.",
+        "translation": "Voglio tè e caffè.",
+        "phonetic": "[ja xɐˈt͡ɕu t͡ɕaj i ˈkofʲe]"
+      },
+      {
+        "text": "Он богатый, но несчастливый.",
+        "translation": "È ricco, ma infelice.",
+        "phonetic": "[on bɐˈɡatɨj, no nʲɪɕːɪsˈlʲivɨj]"
+      },
+      {
+        "text": "Мы пойдём в кино или в парк?",
+        "translation": "Andremo al cinema o al parco?",
+        "phonetic": "[mɨ pɐjˈdʲɵm f‿kʲɪˈno ˈilʲi f‿park]"
+      },
+      {
+        "text": "Я не сплю, потому что работаю.",
+        "translation": "Non riesco a dormire perché sto lavorando.",
+        "phonetic": "[ja nʲe splʲu, pɐˈtomʊ ʂtə rɐˈbotəjʊ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я пришёл, но я устал, а я лёг спать.",
+      "correct": "Я пришёл, но я устал, и я лёг спать.",
+      "correct_alt": "Я пришёл, но устал, поэтому лёг спать.",
+      "explanation": "L'errore si verifica perché in spagnolo 'pero' può unire frasi consecutive, ma in russo 'но' indica solo un contrasto. Per aggiungere informazioni aggiuntive o una conseguenza, si usano 'и' (e) o 'поэтому' (quindi). Inoltre, l'uso di 'а' per contraddire due soggetti o azioni è diverso: 'а' si usa per il confronto (es.: 'я устал, а она нет'). Ricorda che 'но' stabilisce un'opposizione diretta, mentre 'и' semplicemente collega."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "И и Но",
+        "translation": "E e Ma",
+        "examples": [
+          {
+            "original": "Мама и папа дома.",
+            "phonetic": "[ˈmamə i ˈpapə ˈdomə]",
+            "translation": "Mamma e papà sono a casa.",
+            "note": "'и' collega due soggetti, proprio come 'e' in spagnolo."
+          },
+          {
+            "original": "Он умный, но ленивый.",
+            "phonetic": "[on ˈumnɨj, no lʲɪˈnʲivɨj]",
+            "translation": "È intelligente, ma pigro.",
+            "note": "'но' esprime contrasto: è intelligente, ma ha un difetto."
+          },
+          {
+            "original": "Я люблю яблоки и апельсины.",
+            "phonetic": "[ja lʲʊbˈlʲu ˈjæbləkʲɪ i ɐpʲɪlʲˈsʲinɨ]",
+            "translation": "Mi piacciono le mele e le arance.",
+            "note": "Nota che 'и' si usa anche prima di una vocale, a differenza dello spagnolo che cambia in 'e'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Или и Потому что",
+        "translation": "O e Perché",
+        "examples": [
+          {
+            "original": "Ты будешь чай или кофе?",
+            "phonetic": "[tɨ ˈbudʲɪʂ t͡ɕæj ˈilʲi ˈkofʲe]",
+            "translation": "Prenderai tè o caffè?",
+            "note": "'или' per le opzioni, proprio come 'o' in spagnolo."
+          },
+          {
+            "original": "Я не пошёл на работу, потому что болел.",
+            "phonetic": "[ja nʲe pɐˈʂol nə rɐˈbotʊ, pɐˈtomʊ ʂtə bɐˈlʲel]",
+            "translation": "Non sono andato al lavoro perché ero malato.",
+            "note": "'потому что' ha sempre una virgola prima. In spagnolo si usa anche, ma in russo è obbligatoria."
+          },
+          {
+            "original": "Возьми зонт, потому что идёт дождь.",
+            "phonetic": "[vɐzʲˈmʲi zont, pɐˈtomʊ ʂtə ɪˈdʲɵt doʂtʲ]",
+            "translation": "Prendi l'ombrello perché sta piovendo.",
+            "note": "La congiunzione 'потому что' può essere posta alla fine, ma in quel caso la virgola va prima."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Когда и Если",
+        "translation": "Quando e Se",
+        "examples": [
+          {
+            "original": "Когда я ем, я смотрю телевизор.",
+            "phonetic": "[kɐɡˈda ja jem, ja smɐˈtrʲu tʲɪlʲɪˈvʲizər]",
+            "translation": "Quando mangio, guardo la TV.",
+            "note": "'когда' introduce un'azione simultanea, simile allo spagnolo."
+          },
+          {
+            "original": "Если будет хорошая погода, мы пойдём гулять.",
+            "phonetic": "[ˈjeslʲɪ ˈbudʲɪt xɐˈroʂəjə pɐˈɡodə, mɨ pɐjˈdʲɵm ɡʊˈlʲætʲ]",
+            "translation": "Se farà bel tempo, andremo a passeggiare.",
+            "note": "'если' per le condizioni. In russo, la virgola si mette prima di 'если' quando la subordinata viene dopo."
+          },
+          {
+            "original": "Я позвоню тебе, когда приду домой.",
+            "phonetic": "[ja pɐzˈvɐnʲʊ tʲɪˈbʲe, kɐɡˈda prʲɪˈdu dɐˈmoj]",
+            "translation": "Ti chiamerò quando arriverò a casa.",
+            "note": "Qui 'когда' è nella subordinata e ha una virgola prima, proprio come in spagnolo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "it": "Congiunzioni"
+    }
+  },
+  {
+    "id": "it_A2_gram_12",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Прошедшее совершенное (основы) / Passato perfettivo di base",
+    "bridge": "In spagnolo si usa il presente perfetto (he comido) per azioni recenti o con rilevanza nel presente. In russo non esiste un tempo equivalente; il passato semplice (я поел) viene usato sia per azioni recenti che per quelle lontane. La differenza principale è che il russo non ha un verbo ausiliare come 'aver'; usa solo una forma verbale che cambia in base al genere e al numero del soggetto. Inoltre, il russo distingue tra verbi perfettivi (azione completata) e imperfettivi (processo o durata), una distinzione che in spagnolo non esiste con la stessa chiarezza.",
+    "rule": "Il 'passato perfettivo' in russo si forma dai verbi perfettivi (spesso con prefissi come 'с-', 'на-', 'про-') ed è usato per indicare azioni completate. La forma passata si costruisce con il suffisso '-л' per il maschile, '-ла' per il femminile, '-ло' per il neutro e '-ли' per il plurale. Esempio: 'сделать' (fare) → сделал, сделала, сделало, сделали. Il verbo 'быть' (essere) può anche fungere da ausiliare al passato: 'я был' (ero), ma non si combina con i participi come in spagnolo. Il significato perfettivo (rilevanza nel presente) si esprime con il perfettivo, mentre l'imperfettivo viene usato per azioni abituali o in corso nel passato.",
+    "concept_examples": [
+      {
+        "text": "Я уже сделал домашнее задание.",
+        "translation": "Ho già fatto i compiti.",
+        "phonetic": "[ja uˈʐɛ ˈzʲdʲeɫəɫ dɐˈmaʂnʲɪje zɐˈdanʲɪje]"
+      },
+      {
+        "text": "Она написала письмо.",
+        "translation": "Lei ha scritto una lettera.",
+        "phonetic": "[ɐˈna nəpʲɪˈsaɫə pʲɪsʲˈmo]"
+      },
+      {
+        "text": "Мы посмотрели фильм.",
+        "translation": "Abbiamo visto il film.",
+        "phonetic": "[mɨ pəsmɐˈtrʲelʲɪ ˈfʲilʲm]"
+      },
+      {
+        "text": "Ты уже пообедал?",
+        "translation": "Hai già pranzato?",
+        "phonetic": "[tɨ uˈʐɛ pɐɐˈbʲɛdəɫ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я уже сделал домашнее задание.",
+      "correct": "Я уже сделал домашнее задание.",
+      "correct_alt": "",
+      "explanation": "Sebbene questo esempio sembri corretto, un errore tipico fatto dagli spagnoli è omettere l'ausiliare 'быть' quando è necessario per esprimere uno stato o una posizione nel passato. Ad esempio, dire 'я дома' (sono a casa) al passato sarebbe 'я был дома', non 'я дома был'. Un'altra confusione comune è mescolare gli aspetti perfettivo e imperfettivo: usare l'imperfettivo quando dovrebbe essere usato il perfettivo. Ad esempio, dire 'я делал домашнее задание' (stavo facendo i compiti) invece di 'я сделал домашнее задание' (ho fatto i compiti) quando l'azione è completata."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Прошедшее время совершенного вида",
+        "translation": "Passato perfettivo",
+        "examples": [
+          {
+            "original": "Я написал письмо.",
+            "phonetic": "[ja nəpʲɪˈsaɫ pʲɪsʲˈmo]",
+            "translation": "Ho scritto una lettera.",
+            "note": "Verbo 'написать' (perfettivo) – azione completata."
+          },
+          {
+            "original": "Она купила хлеб.",
+            "phonetic": "[ɐˈna kuˈpʲiɫə xlʲep]",
+            "translation": "Lei ha comprato il pane.",
+            "note": "Femminile con suffisso -ла."
+          },
+          {
+            "original": "Мы сделали уроки.",
+            "phonetic": "[mɨ ˈzʲdʲeɫəlʲɪ ʊˈro.kʲɪ]",
+            "translation": "Abbiamo fatto i compiti.",
+            "note": "Plurale -ли."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Выражение результатов",
+        "translation": "Espressione dei risultati",
+        "examples": [
+          {
+            "original": "Я уже прочитал книгу.",
+            "phonetic": "[ja uˈʐɛ prət͡ɕɪˈtaɫ ˈknʲiɡʊ]",
+            "translation": "Ho già letto il libro.",
+            "note": "Usa 'уже' (già) per enfatizzare il risultato."
+          },
+          {
+            "original": "Он потерял ключи.",
+            "phonetic": "[on pətʲɪˈrʲaɫ klʲʉˈt͡ɕi]",
+            "translation": "Ha perso le chiavi.",
+            "note": "Azione con rilevanza nel presente."
+          },
+          {
+            "original": "Она приготовила ужин.",
+            "phonetic": "[ɐˈna prʲɪɡɐˈto.vʲɪɫə ˈuʐɨn]",
+            "translation": "Ha preparato la cena.",
+            "note": "Esempio con suffisso -ла."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Вопросы и отрицание",
+        "translation": "Domande e negazione",
+        "examples": [
+          {
+            "original": "Ты купил билеты?",
+            "phonetic": "[tɨ kuˈpʲiɫ bʲɪˈlʲetɨ]",
+            "translation": "Hai comprato i biglietti?",
+            "note": "Domanda diretta senza inversione."
+          },
+          {
+            "original": "Нет, я не купил билеты.",
+            "phonetic": "[nʲet, ja nʲe kuˈpʲiɫ bʲɪˈlʲetɨ]",
+            "translation": "No, non ho comprato i biglietti.",
+            "note": "Negazione con 'не' prima del verbo."
+          },
+          {
+            "original": "Она ещё не пришла.",
+            "phonetic": "[ɐˈna jɪˈɕːo nʲe prʲɪˈʂɫa]",
+            "translation": "Non è ancora arrivata.",
+            "note": "Uso di 'ещё не' (non ancora)."
+          }
+        ]
+      }
+    ],
+    "emoji": "✔️",
+    "phonetic": "",
+    "translations": {
+      "it": "Passato perfettivo di base"
+    }
+  },
+  {
+    "id": "it_A2_gram_13",
+    "type": "concept",
+    "category": "Grammatica",
+    "title": "Императив: команды и просьбы / Imperativo: ordini e richieste",
+    "bridge": "In spagnolo, l'imperativo ha forme diverse per 'tú', 'usted', 'nosotros', ecc., e di solito si usa il pronome. In russo, l'imperativo si forma in modo più semplice: esistono solo le forme per 'tú' (ты), 'usted/ustedes' (вы) e 'nosotros' (мы). Inoltre, in russo non si usa il pronome nell'imperativo; la forma del verbo stesso indica a chi ci si sta rivolgendo. Un errore comune tra gli spagnoli è usare la forma del presente di 'tú' per dare ordini (ad esempio, 'читаешь' invece di 'читай').",
+    "rule": "In russo, l'imperativo si forma dalla terza persona plurale del presente (per i verbi imperfettivi) o del futuro (per quelli perfettivi). Per la forma 'tú' (ты), si rimuove la desinenza -ют/-ут e si aggiunge -й (se la radice termina in vocale) o -и (se termina in consonante). Per la forma 'usted/ustedes' (вы), si aggiunge -те alla forma di 'tú'. Per 'nosotros' (мы), si usa 'давай(те)' + infinito (imperfettivo) o la prima persona plurale del futuro (perfettivo). L'imperativo negativo si forma con 'не' + imperativo imperfettivo (per proibire azioni generiche) o 'не' + imperativo perfettivo (per divieti specifici). Esempi: 'Читай!' (Leggi!), 'Читайте!' (Leggete! [plurale/formale]), 'Давай читать!' (Leggiamo!), 'Не читай!' (Non leggere! [divieto generale]) vs 'Не прочитай!' (Non finirlo di leggere! [divieto specifico]).",
+    "concept_examples": [
+      {
+        "text": "Читай книгу!",
+        "translation": "Leggi il libro!",
+        "phonetic": "[t͡ɕɪˈtaj ˈknʲiɡu]"
+      },
+      {
+        "text": "Не говори по-испански!",
+        "translation": "Non parlare in spagnolo!",
+        "phonetic": "[nʲɪ ɡəvɐˈrʲi pə‿ɪˈspanskʲɪ]"
+      },
+      {
+        "text": "Давайте пойдём в парк!",
+        "translation": "Andiamo al parco!",
+        "phonetic": "[dɐˈvajtʲɪ pɐjˈdʲɵm f‿park]"
+      },
+      {
+        "text": "Смотрите фильм!",
+        "translation": "Guardate il film!",
+        "phonetic": "[smɐˈtrʲitʲɪ ˈfʲilʲm]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ты читаешь книгу! (usando la forma del presente per dare un ordine)",
+      "correct": "Читай книгу!",
+      "correct_alt": "Прочитай книгу! (se vuoi indicare 'leggilo tutto')",
+      "explanation": "Gli spagnoli spesso usano la forma coniugata del presente (come 'ты читаешь') per dare ordini perché in spagnolo a volte si usa il presente con valore imperativo (ad esempio, '¡Te sientas!'). In russo, invece, l'imperativo ha una forma specifica: 'читай' (tú), 'читайте' (ustedes). Inoltre, bisogna scegliere tra aspetto imperfettivo (per un'azione generale o in corso) e perfettivo (per un'azione completata). La forma 'прочитай' significa 'leggilo fino alla fine'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Императив 2-го лица (ты/вы)",
+        "translation": "Imperativo della seconda persona (tú/ustedes)",
+        "examples": [
+          {
+            "original": "Открой окно!",
+            "phonetic": "[ɐtˈkroj ɐkˈno]",
+            "translation": "Apri la finestra!",
+            "note": "Forma perfettiva 'открой' (da 'открыть') per un'azione specifica."
+          },
+          {
+            "original": "Говорите медленнее!",
+            "phonetic": "[ɡəvɐˈrʲitʲɪ ˈmʲedlʲɪnʲːɪjɪ]",
+            "translation": "Parlate più lentamente!",
+            "note": "Forma di 'ustedes' (вы): si aggiunge -те alla forma di 'tú'."
+          },
+          {
+            "original": "Не опаздывай!",
+            "phonetic": "[nʲɪ ɐˈpazdɨvaj]",
+            "translation": "Non fare tardi!",
+            "note": "Imperativo negativo con aspetto imperfettivo per un divieto generale."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Императив с 'давай(те)'",
+        "translation": "Imperativo con 'давай(те)' (facciamo...)",
+        "examples": [
+          {
+            "original": "Давай играть в футбол!",
+            "phonetic": "[dɐˈvaj ɪˈɡratʲ f‿fʊdˈbol]",
+            "translation": "Giochiamo a calcio! (con un amico)",
+            "note": "'давай' + infinito imperfettivo per invitare qualcuno a fare qualcosa insieme."
+          },
+          {
+            "original": "Давайте посмотрим фильм!",
+            "phonetic": "[dɐˈvajtʲɪ pɐsˈmotrʲɪm ˈfʲilʲm]",
+            "translation": "Guardiamo un film! (con un gruppo)",
+            "note": "Con 'давайте' e futuro perfettivo (1ª persona plurale) per un'azione specifica."
+          },
+          {
+            "original": "Давай не будем ссориться!",
+            "phonetic": "[dɐˈvaj nʲɪ ˈbudʲɪm ˈsːorʲɪt͡sə]",
+            "translation": "Non litighiamo!",
+            "note": "Negazione con 'давай не' + infinito imperfettivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Совершенный и несовершенный вид в императиве",
+        "translation": "Aspetto perfettivo e imperfettivo nell'imperativo",
+        "examples": [
+          {
+            "original": "Пиши письмо!",
+            "phonetic": "[pʲɪˈʂɨ ˈpʲisʲmə]",
+            "translation": "Scrivi la lettera! (azione generale, senza specificare se sarà completata)",
+            "note": "Imperfettivo: usato per ordini generici o azioni ripetute."
+          },
+          {
+            "original": "Напиши письмо!",
+            "phonetic": "[nɐpʲɪˈʂɨ ˈpʲisʲmə]",
+            "translation": "Scrivi la lettera! (implica che debba essere finita)",
+            "note": "Perfettivo: usato per ordini specifici che devono essere completati."
+          },
+          {
+            "original": "Не забудь позвонить!",
+            "phonetic": "[nʲɪ‿zɐˈbutʲ pəzvɐˈnʲitʲ]",
+            "translation": "Non dimenticare di chiamare!",
+            "note": "Imperativo perfettivo con 'не' per un divieto specifico (non dimenticare di farlo)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📣",
+    "phonetic": "",
+    "translations": {
+      "it": "Imperativo (affermativo e negativo)"
+    }
+  },
+  {
+    "id": "it_A2_gram_14",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Исчисляемые и неисчисляемые существительные / Sostantivi numerabili e non numerabili",
+    "bridge": "In russo, come in spagnolo, i sostantivi sono numerabili o non numerabili, ma ci sono differenze importanti. In spagnolo, di solito usiamo gli articoli (un, una, unos, unas) per indicare la quantità, ma il russo non ha articoli. Al contrario, la quantità si esprime attraverso il caso genitivo: per contare o quantificare, si usano numeri o parole come 'много' (molto) e 'мало' (poco), che richiedono il genitivo singolare o plurale. Inoltre, il russo non distingue tra 'some' e 'any' (come in inglese), ma ci sono sfumature con le forme del genitivo per esprimere una quantità indefinita.",
+    "rule": "In russo, i sostantivi numerabili (ad esempio, 'стол' – tavolo, 'книга' – libro) hanno forme singolari e plurali. I sostantivi non numerabili (ad esempio, 'вода' – acqua, 'хлеб' – pane) di solito hanno solo una forma singolare (anche se alcuni hanno un plurale con un significato diverso). Per esprimere una quantità indefinita (un po', alcuni, troppo), si usa il genitivo singolare (per i sostantivi non numerabili) o il genitivo plurale (per quelli numerabili) dopo parole come 'много' (molto), 'мало' (poco), 'сколько' (quanto) e 'несколько' (alcuni). Esempi: 'много воды' (molta acqua) – 'вода' al genitivo singolare (воды); 'много книг' (molti libri) – 'книга' al genitivo plurale (книг). Inoltre, dopo i numeri 2, 3, 4 si usa il genitivo singolare, mentre dopo 5+ si usa il genitivo plurale (per i sostantivi numerabili). Per i sostantivi non numerabili, si usano spesso unità di misura come 'килограмм', 'литр' o 'кусок' + genitivo: 'килограмм сахара' (un chilo di zucchero).",
+    "concept_examples": [
+      {
+        "text": "У меня есть вода.",
+        "translation": "Ho dell'acqua.",
+        "phonetic": "[ʊ mʲɪˈnʲa ˈjɛstʲ ˈvodə]"
+      },
+      {
+        "text": "Я купил много книг.",
+        "translation": "Ho comprato molti libri.",
+        "phonetic": "[ja kuˈpʲil ˈmnogə knʲik]"
+      },
+      {
+        "text": "Сколько сахара?",
+        "translation": "Quanto zucchero?",
+        "phonetic": "[ˈskolʲkə ˈsaxərə]"
+      },
+      {
+        "text": "На столе два яблока.",
+        "translation": "Sul tavolo ci sono due mele.",
+        "phonetic": "[nə stɐˈlʲe dva ˈjabləkə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "У меня есть много вода.",
+      "correct": "У меня есть много воды.",
+      "correct_alt": "У меня есть вода.",
+      "explanation": "L'errore si verifica perché chi parla spagnolo tende a usare il caso nominativo ('вода') dopo 'много', proprio come in spagnolo diremmo 'mucha agua' senza cambiare la forma. Tuttavia, in russo 'много' richiede il genitivo singolare (per i sostantivi non numerabili) o il genitivo plurale (per quelli numerabili). Per evitarlo, ricordate: dopo le parole che indicano quantità, il sostantivo che segue deve essere al caso genitivo. In questo caso, 'вода' (nominativo) diventa 'воды' (genitivo singolare)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Intuitive distinction",
+        "translation": "Distinzione intuitiva",
+        "examples": [
+          {
+            "original": "Это книга.",
+            "phonetic": "[ˈɛtə ˈknʲiɡə]",
+            "translation": "Questo è un libro.",
+            "note": "I sostantivi numerabili hanno forme singolari e plurali. 'Книга' è numerabile."
+          },
+          {
+            "original": "Это молоко.",
+            "phonetic": "[ˈɛtə məlɐˈko]",
+            "translation": "Questo è latte.",
+            "note": "I sostantivi non numerabili come 'молоко' di solito non hanno forma plurale."
+          },
+          {
+            "original": "Мне нужна вода.",
+            "phonetic": "[mnʲe nuʐˈna ˈvodə]",
+            "translation": "Mi serve dell'acqua.",
+            "note": "In contesti generali, non si usano articoli e il sostantivo è al nominativo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Genitive after quantifiers",
+        "translation": "Genitivo dopo i quantificatori",
+        "examples": [
+          {
+            "original": "Много времени.",
+            "phonetic": "[ˈmnogə ˈvrʲemʲɪnʲə]",
+            "translation": "Molto tempo.",
+            "note": "'Много' + genitivo singolare (da 'время' → времени)."
+          },
+          {
+            "original": "Мало денег.",
+            "phonetic": "[ˈmalə ˈdʲenʲɪk]",
+            "translation": "Pochi soldi.",
+            "note": "'Мало' richiede anch'esso il genitivo. 'Деньги' è plurale, quindi si usa il genitivo plurale."
+          },
+          {
+            "original": "Сколько яблок?",
+            "phonetic": "[ˈskolʲkə ˈjablək]",
+            "translation": "Quante mele?",
+            "note": "'Сколько' richiede il genitivo plurale per i sostantivi numerabili. 'Яблок' è il genitivo plurale di 'яблоко'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Numbers and units of measure",
+        "translation": "Numeri e unità di misura",
+        "examples": [
+          {
+            "original": "Два стола.",
+            "phonetic": "[dva stɐˈla]",
+            "translation": "Due tavoli.",
+            "note": "Dopo 2, 3, 4 si usa il genitivo singolare (стола)."
+          },
+          {
+            "original": "Пять столов.",
+            "phonetic": "[pʲætʲ stɐˈlof]",
+            "translation": "Cinque tavoli.",
+            "note": "Dopo 5+ si usa il genitivo plurale (столов)."
+          },
+          {
+            "original": "Килограмм сахара.",
+            "phonetic": "[kʲɪlɐˈɡram ˈsaxərə]",
+            "translation": "Un chilo di zucchero.",
+            "note": "Per i sostantivi non numerabili si usa un'unità di misura + genitivo singolare."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "it": "Sostantivi numerabili e non numerabili"
+    }
+  },
+  {
+    "id": "it_A2_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Неопределённые местоимения и наречия / Pronomi e avverbi indefiniti",
+    "bridge": "In spagnolo usiamo 'algún', 'ningún', 'algo', 'nada', ecc. per parlare di quantità o esistenza indeterminate. In russo, sebbene non esista una parola esatta per 'some' o 'any', si usano costruzioni con il caso genitivo (per la negazione o l'assenza) o prefissi come -то, -нибудь, -либо per esprimere l'indeterminatezza. La chiave è distinguere tra affermazioni (usiamo 'несколько', 'какой-то'), domande ('какой-нибудь') e negazioni ('никакой', 'ничего') — un errore comune è tradurre direttamente le strutture spagnole, ma in russo la negazione richiede il genitivo e non si verifica la duplicazione.",
+    "rule": "In russo non esiste una singola parola per 'some/any'. Per esprimere quantità indeterminate, si usano le seguenti forme:\n\n1. **Affermazioni**: 'несколько' (parecchi/alcuni), 'какой-то' (un certo/alcuni), 'что-то' (qualcosa), 'кто-то' (qualcuno), 'кое-кто' (alcune persone, non specificate).\n   - Es.: 'У меня есть несколько книг.' (Ho alcuni libri).\n\n2. **Domande e offerte**: 'какой-нибудь' (un qualche/alcuno), 'что-нибудь' (qualcosa/qualunque cosa), 'кто-нибудь' (qualcuno/chiunque) vengono usati.\n   - Es.: 'Есть ли у тебя какая-нибудь книга?' (Hai qualche libro?).\n\n3. **Negazioni**: 'никакой' (nessun/alcuno), 'ничто' / 'ничего' (niente), 'никто' (nessuno) vengono usati, e il verbo deve essere alla forma negativa (con 'не'). Inoltre, il complemento oggetto in una frase negativa va al **caso genitivo**.\n   - Es.: 'У меня нет никаких книг.' (Non ho nessun libro). Qui 'книг' è genitivo plurale.\n\n4. **Forme con -то e -нибудь**: '-то' indica qualcosa di specifico ma sconosciuto (qualcosa che esiste), '-нибудь' indica qualcosa di indefinito e non specifico (qualunque cosa). Es.: 'Он что-то сказал' (Ha detto qualcosa, qualcosa di concreto), 'Скажи что-нибудь' (Di qualcosa, qualsiasi cosa).\n\n5. **Caso speciale con 'не'**: nelle negazioni, se il sostantivo è singolare e numerabile, spesso si usa 'ни одного' (nemmeno uno), e il sostantivo va al genitivo singolare. Es.: 'У меня нет ни одного рубля.' (Non ho nemmeno un rublo).",
+    "concept_examples": [
+      {
+        "text": "У меня есть несколько вопросов.",
+        "translation": "Tengo algunas preguntas.",
+        "phonetic": "/ʊ mʲɪˈnʲæ jesʲtʲ ˈnʲɛskəlʲkə vɐˈprosəf/"
+      },
+      {
+        "text": "Ты хочешь что-нибудь выпить?",
+        "translation": "¿Quieres algo de beber?",
+        "phonetic": "/tɨ ˈxot͡ɕɪʂ ˈʂto nʲɪbʊtʲ ˈvɨpʲɪtʲ/"
+      },
+      {
+        "text": "У нас нет никаких проблем.",
+        "translation": "No tenemos ningún problema.",
+        "phonetic": "/ʊ nas nʲɛt nʲɪˈkakʲɪx prɐˈblʲɛm/"
+      },
+      {
+        "text": "Он рассказал мне что-то интересное.",
+        "translation": "Me contó algo interesante.",
+        "phonetic": "/on rɐsːkɐˈzal mnʲe ˈʂto tə ɪnʲtʲɪˈrʲɛsnəɪə/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я не имею никаких проблемы. (literal del español: no tengo ningún problema)",
+      "correct": "У меня нет никаких проблем.",
+      "correct_alt": "У меня нет проблем.",
+      "explanation": "L'errore si verifica perché in spagnolo usiamo il verbo 'tener' (avere problemi), ma in russo per esprimere possesso in forma negativa si usa la costruzione impersonale 'у + genitivo' con 'нет' (non c'è). Inoltre, 'проблемы' al genitivo plurale si scrive 'проблем' (senza la desinenza -ы). Evita di tradurre parola per parola; pensa in termini di costruzioni russe: 'у меня нет' + genitivo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Утвердительные предложения",
+        "translation": "Frasi affermative",
+        "examples": [
+          {
+            "original": "Я видел несколько интересных фильмов.",
+            "phonetic": "/ja ˈvʲidʲɪl ˈnʲɛskəlʲkə ɪnʲtʲɪˈrʲɛsnɨx ˈfʲilʲməf/",
+            "translation": "Vi alcune películas interesantes.",
+            "note": "Si usa 'несколько' con genitivo plurale."
+          },
+          {
+            "original": "Он купил какой-то подарок.",
+            "phonetic": "/on kuˈpʲil kɐˈkoj tə pɐˈdarək/",
+            "translation": "Compró algún regalo.",
+            "note": "'какой-то' indica un regalo specifico ma non rivelato."
+          },
+          {
+            "original": "Кто-то звонил тебе утром.",
+            "phonetic": "/ˈkto tə zvɐˈnʲil tʲɪˈbʲe ˈutrəm/",
+            "translation": "Alguien te llamó por la mañana.",
+            "note": "'кто-то' = alguien, persona desconocida."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Вопросы и предложения",
+        "translation": "Domande e offerte",
+        "examples": [
+          {
+            "original": "Есть ли у тебя какие-нибудь вопросы?",
+            "phonetic": "/ˈjesʲtʲ lʲi u tʲɪˈbʲa kɐˈkʲije nʲɪbʊtʲ vɐˈprosɨ/",
+            "translation": "¿Tienes alguna pregunta? (cualquier pregunta)",
+            "note": "Nelle domande si usa '-нибудь' per indicare 'qualsiasi'."
+          },
+          {
+            "original": "Дайте мне что-нибудь поесть, пожалуйста.",
+            "phonetic": "/ˈdajtʲe mnʲe ˈʂto nʲɪbʊtʲ pɐˈjesʲtʲ, pɐˈʐalʊjstə/",
+            "translation": "Dame algo de comer, por favor.",
+            "note": "Offerta o richiesta: si usa '-нибудь'."
+          },
+          {
+            "original": "Ты знаешь кого-нибудь в этом городе?",
+            "phonetic": "/tɨ ˈznajɪʂ kɐˈvo nʲɪbʊtʲ v ˈɛtəm ˈɡorədʲe/",
+            "translation": "¿Conoces a alguien en questa città?",
+            "note": "Nelle domande, 'alguien' si traduce con 'кто-нибудь' (non 'кто-то')."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Отрицательные предложения",
+        "translation": "Frasi negative",
+        "examples": [
+          {
+            "original": "У меня нет никакого времени.",
+            "phonetic": "/u mʲɪˈnʲa nʲet nʲɪkɐˈkovə ˈvrʲemʲɪnʲɪ/",
+            "translation": "Non ho tempo (nessun tempo).",
+            "note": "Con 'нет' si usa il genitivo: 'времени'."
+          },
+          {
+            "original": "Он никому не сказал правду.",
+            "phonetic": "/on nʲɪkɐˈmu nʲɪ skɐˈzal ˈpravdu/",
+            "translation": "Non disse la verità a nessuno.",
+            "note": "Nelle negazioni si duplica la negazione: 'никому' + 'не' (nessuno + non)."
+          },
+          {
+            "original": "Мы ничего не купили в магазине.",
+            "phonetic": "/mɨ nʲɪt͡ɕɪˈvo nʲɪ kuˈpʲilʲi v məɡɐˈzʲinʲe/",
+            "translation": "Non abbiamo comprato nulla nel negozio.",
+            "note": "Il complemento oggetto 'ничего' si usa con verbo negativo e non richiede preposizioni."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎲",
+    "phonetic": "",
+    "translations": {
+      "it": "Pronomi e avverbi indefiniti"
+    }
+  },
+  {
+    "id": "it_A2_gram_16",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Много / немного / несколько (Molto, poco, diversi)",
+    "bridge": "In spagnolo usiamo 'mucho', 'poco' e 'varios' in modo simile al russo, ma attenzione: in russo i quantificatori cambiano a seconda del caso del sostantivo. Qui imparerai a usare 'много' (molto), 'мало' (poco) e 'несколько' (diversi) con il genitivo (plurale o singolare). Non è la stessa cosa dire 'много друзей' che 'много времени'.",
+    "rule": "In russo, per esprimere quantità si usano principalmente: много (molto), мало (poco), несколько (diversi). Questi si usano con il genitivo.\n- Con sostantivi numerabili al plurale: много + genitivo plurale (es.: много книг, много друзей).\n- Con sostantivi non numerabili al singolare (maschile/neutro): много + genitivo singolare (es.: много времени, много сахара).\n- Poco: мало + genitivo (come много).\n- Diversi: несколько + genitivo plurale (solo per sostantivi numerabili) (es.: несколько дней, несколько столов).\nEccezioni: con numeri come 2, 3, 4 si usa il nominativo/accusativo singolare (два стола), ma con 5+ il genitivo plurale (пять столов). A livello A2 non è necessario padroneggiare tutti i casi, ma si deve sapere che dopo много, мало e несколько il sostantivo va al genitivo.",
+    "concept_examples": [
+      {
+        "text": "У меня много книг.",
+        "translation": "Ho molti libri.",
+        "phonetic": "u mʲɪˈnʲa ˈmnogə knʲik"
+      },
+      {
+        "text": "В стакане мало воды.",
+        "translation": "Nel bicchiere c'è poca acqua.",
+        "phonetic": "f stɐˈkanʲe ˈmalə vɐˈdɨ"
+      },
+      {
+        "text": "Я знаю несколько слов.",
+        "translation": "Conosco diverse parole.",
+        "phonetic": "jæ ˈznajʊ ˈnʲeskəlʲkə slof"
+      },
+      {
+        "text": "У нас много времени.",
+        "translation": "Abbiamo molto tempo.",
+        "phonetic": "u nas ˈmnogə ˈvrʲemʲɪnʲɪ"
+      }
+    ],
+    "common_error": {
+      "wrong": "У меня много книги.",
+      "correct": "У меня много книг.",
+      "correct_alt": "У меня есть много книг.",
+      "explanation": "In spagnolo si dice 'molti libri' con il sostantivo al plurale, ma in russo dopo 'много' il sostantivo deve essere al genitivo plurale, non al nominativo plurale. 'книги' è il nominativo plurale; la forma corretta del genitivo plurale è 'книг'. Questo errore avviene perché lo studente applica la logica spagnola."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Много + существительное (Much + noun)",
+        "translation": "Molto + sostantivo",
+        "examples": [
+          {
+            "original": "У меня много друзей.",
+            "phonetic": "u mʲɪˈnʲa ˈmnogə drʊˈzʲej",
+            "translation": "Ho molti amici.",
+            "note": "Usa много con il genitivo plurale per sostantivi numerabili."
+          },
+          {
+            "original": "Он пьёт много воды.",
+            "phonetic": "on pʲjot ˈmnogə vɐˈdɨ",
+            "translation": "Beve molta acqua.",
+            "note": "L'acqua è un sostantivo non numerabile, quindi usiamo il genitivo singolare: воды."
+          },
+          {
+            "original": "В городе много машин.",
+            "phonetic": "v ˈɡorədʲe ˈmnogə mɐˈʂɨn",
+            "translation": "In città ci sono molte macchine.",
+            "note": "Ricorda che il genitivo plurale di машина è машин."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Мало + существительное (Little + noun)",
+        "translation": "Poco + sostantivo",
+        "examples": [
+          {
+            "original": "У меня мало денег.",
+            "phonetic": "u mʲɪˈnʲa ˈmalə ˈdʲenʲɪk",
+            "translation": "Ho poco denaro.",
+            "note": "Деньги si usa solo al plurale e 'poco' si esprime con мало + genitivo plurale."
+          },
+          {
+            "original": "В кафе мало людей.",
+            "phonetic": "f kɐˈfɛ ˈmalə lʲʊˈdʲej",
+            "translation": "Nel caffè ci sono poche persone.",
+            "note": "Людей è il genitivo plurale di люди (persone)."
+          },
+          {
+            "original": "У нас мало времени.",
+            "phonetic": "u nas ˈmalə ˈvrʲemʲɪnʲɪ",
+            "translation": "Abbiamo poco tempo.",
+            "note": "Время al genitivo singolare è времени, una forma irregolare."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Несколько + существительное (Several + noun)",
+        "translation": "Diversi + sostantivo",
+        "examples": [
+          {
+            "original": "Он купил несколько яблок.",
+            "phonetic": "on kʊˈpʲil ˈnʲeskəlʲkə ˈjæblək",
+            "translation": "Ha comprato diverse mele.",
+            "note": "Dopo несколько usa sempre il genitivo plurale (sostantivi numerabili)."
+          },
+          {
+            "original": "Я видел несколько фильмов.",
+            "phonetic": "jæ ˈvʲidʲɪl ˈnʲeskəlʲkə ˈfʲilʲməf",
+            "translation": "Ho visto diversi film.",
+            "note": "Фильм al genitivo plurale è фильмов."
+          },
+          {
+            "original": "Прошло несколько дней.",
+            "phonetic": "prɐˈʂlo ˈnʲeskəlʲkə dʲnʲej",
+            "translation": "Sono passati diversi giorni.",
+            "note": "Дней è il genitivo plurale di день (giorno)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "it": "Molto, poco, diversi / Quantificatori"
+    }
+  },
+  {
+    "id": "it_A2_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Относительные предложения (кто, который, что) / Proposizioni relative (chi, che, il quale)",
+    "bridge": "In spagnolo si usano 'que', 'quien', 'cual' per collegare le frasi, e il pronome relativo è quasi sempre preceduto da un articolo o da una preposizione. In russo, il principale pronome relativo è 'который', che funziona come un aggettivo: deve concordare in genere, numero e caso con il nome a cui si riferisce, ma il caso dipende dalla sua funzione nella frase subordinata. A differenza dello spagnolo, il russo non ha un pronome relativo neutro invariabile come 'que'; declina sempre. Un'altra differenza chiave: in russo, il pronome relativo può essere preceduto da una preposizione, che viene posta prima del relativo e non può essere omessa, come invece a volte avviene in spagnolo ('el chico que hablé' → scorretto in russo).",
+    "rule": "Nel russo di livello A2, le proposizioni relative si formano principalmente con 'который' (che), che declina come un aggettivo. Deve concordare in genere (maschile, femminile, neutro) e numero con il nome a cui si riferisce, ma il suo caso (nominativo, accusativo, genitivo, ecc.) dipende dalla sua funzione nella frase subordinata. Per il livello A2, ci concentriamo sul nominativo (soggetto: который/которая/которое/которые) e sull'accusativo (oggetto diretto: который/которую/которое/которые). Il pronome relativo viene posto immediatamente dopo il nome che modifica o dopo la preposizione se presente. Esempio: 'Я вижу девушку, которая поёт' (soggetto) vs 'Я вижу девушку, которую ты знаешь' (oggetto). 'Что' non viene usato come relativo per le persone in stile formale; 'что' si usa per le cose, ma è invariabile e meno comune; a volte 'что' viene usato colloquialmente al posto di 'который' per il neutro, ma non è corretto nella scrittura. Le preposizioni vanno prima del relativo: 'дом, в котором я живу' (la casa nella quale vivo).",
+    "concept_examples": [
+      {
+        "text": "Это книга, которая лежит на столе.",
+        "translation": "Questo è il libro che si trova sul tavolo.",
+        "phonetic": "ˈɛtə ˈknʲiɡə kɐˈtorəjə ˈlʲeʐɨt nə stɐˈlʲe"
+      },
+      {
+        "text": "Я знаю человека, который говорит по-испански.",
+        "translation": "Conosco un uomo che parla spagnolo.",
+        "phonetic": "ja ˈznaju tɕɪlɐˈvʲekə kɐˈtorɨj ɡɐˈvɐrʲɪt pə‿ɪˈspanskʲɪ"
+      },
+      {
+        "text": "Она купила платье, которое ей очень нравится.",
+        "translation": "Ha comprato un vestito che le piace molto.",
+        "phonetic": "ɐˈna kʊˈpʲilə ˈplætʲjə kɐˈtorəjə jej ˈoʨɪnʲ ˈnravʲɪtsə"
+      },
+      {
+        "text": "Мы живём в доме, который построил мой дед.",
+        "translation": "Viviamo in una casa che mio nonno ha costruito.",
+        "phonetic": "mɨ ʐɨˈvʲɵm v ˈdomʲe kɐˈtorɨj pɐˈstroɪl moj dʲet"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я знаю девушку, кто поёт.",
+      "correct": "Я знаю девушку, которая поёт.",
+      "correct_alt": "Я знаю девушку, что поёт (colloquiale, meno formale).",
+      "explanation": "In spagnolo 'que' o 'quien' sono usati in modo intercambiabile, ma in russo 'кто' si usa solo come pronome interrogativo o relativo senza antecedente (chi = colui che), e non può essere usato come pronome relativo con un antecedente nominale. Per i nomi, si deve usare 'который' concordando in genere e numero. Questa confusione deriva dalla traduzione letterale dello spagnolo 'quien'. Ricorda: 'кто' = chi senza antecedente; 'который' = che/il quale con antecedente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Который в именительном падеже (субъект)",
+        "translation": "Который al nominativo (soggetto)",
+        "examples": [
+          {
+            "original": "Мужчина, который читает газету, мой отец.",
+            "phonetic": "mʊˈʂːɨnə kɐˈtorɨj tɕɪˈtaɪt gɐˈzʲetʊ moj ɐˈtʲets",
+            "translation": "L'uomo che legge il giornale è mio padre.",
+            "note": "Usiamo 'который' al nominativo perché è il soggetto della frase subordinata."
+          },
+          {
+            "original": "Женщина, которая работает в банке, моя соседка.",
+            "phonetic": "ˈʐɛnʲɕːɪnə kɐˈtorəjə rɐˈbotəɪt v ˈbankʲe mɐˈja sɐˈsʲetkə",
+            "translation": "La donna che lavora in banca è la mia vicina.",
+            "note": "Concordanza: femminile singolare nominativo → 'которая'."
+          },
+          {
+            "original": "Дети, которые играют во дворе, весёлые.",
+            "phonetic": "ˈdʲetʲɪ kɐˈtorɨjə ɪˈɡrajʊt vɐ‿dvɐˈrʲe vʲɪˈsʲɵlɨjə",
+            "translation": "I bambini che giocano in cortile sono allegri.",
+            "note": "Plurale: 'которые' per tutti i generi."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Который в винительном падеже (объект)",
+        "translation": "Который all'accusativo (oggetto diretto)",
+        "examples": [
+          {
+            "original": "Я вижу фильм, который ты рекомендовал.",
+            "phonetic": "ja ˈvʲiʐu fʲilʲm kɐˈtorɨj tɨ rʲɪkəmʲɪndɐˈval",
+            "translation": "Vedo il film che hai consigliato.",
+            "note": "Il relativo è un oggetto diretto → accusativo, ma poiché è un nome maschile inanimato, coincide con la forma del nominativo."
+          },
+          {
+            "original": "Она читает книгу, которую я купил.",
+            "phonetic": "ɐˈna tɕɪˈtaɪt ˈknʲiɡʊ kɐˈtorʊjʊ ja kʊˈpʲil",
+            "translation": "Lei legge il libro che ho comprato.",
+            "note": "Accusativo femminile: 'которую' (cambia la desinenza)."
+          },
+          {
+            "original": "Мы едим яблоки, которые ты принёс.",
+            "phonetic": "mɨ ˈjedʲɪm ˈjæbləkʲɪ kɐˈtorɨjə tɨ prʲɪˈnʲɵs",
+            "translation": "Mangiamo le mele che hai portato.",
+            "note": "L'accusativo plurale è uguale al nominativo per i nomi inanimati."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Предлоги с который",
+        "translation": "Preposizioni con который",
+        "examples": [
+          {
+            "original": "Город, в котором я родился, очень красивый.",
+            "phonetic": "ˈɡorət v kɐˈtorəm ja rɐˈdʲilsʲə ˈoʨɪnʲ krɐˈsʲivɨj",
+            "translation": "La città nella quale sono nato è molto bella.",
+            "note": "La preposizione 'в' viene prima del relativo, e 'котором' è al caso prepositivo."
+          },
+          {
+            "original": "Человек, с которым я говорю, мой друг.",
+            "phonetic": "tɕɪlɐˈvʲek s kɐˈtorɨm ja ɡɐˈvɐrʲu moj druk",
+            "translation": "La persona con cui sto parlando è il mio amico.",
+            "note": "Preposizione 'с' + strumentale 'которым'."
+          },
+          {
+            "original": "Стол, на котором лежит книга, старый.",
+            "phonetic": "stol nə kɐˈtorəm ˈlʲeʐɨt ˈknʲiɡə ˈstarɨj",
+            "translation": "Il tavolo sul quale si trova il libro è vecchio.",
+            "note": "Nota: 'на' + prepositivo 'котором' (maschile singolare)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "it": "Proposizioni relative di base (chi, che, il quale)"
+    }
+  }
+]

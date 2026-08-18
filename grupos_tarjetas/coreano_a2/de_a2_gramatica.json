@@ -1,0 +1,1196 @@
+[
+  {
+    "id": "de_A2_gram_01",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "과거 시제 / Einfache Vergangenheit",
+    "bridge": "Im Spanischen wird die einfache Vergangenheit durch die Veränderung der Verbendung (-ar, -er, -ir) gebildet und unterscheidet nicht systematisch zwischen regelmäßigen und unregelmäßigen Verben. Im Koreanischen wird die Vergangenheit durch das Anhängen eines festen Suffixes an das Verb gebildet, wobei man jedoch auf Kontraktionen und den Unterschied zwischen Tätigkeitsverben und beschreibenden Verben (Adjektiven) achten muss. Im Gegensatz zum Spanischen wird im Koreanischen nicht nach Personen konjugiert, sodass die Vergangenheitsform für ich, du, er usw. gleich bleibt. Zusätzlich gibt es im Koreanischen zwei Höflichkeitsformen: die formelle (습니다) und die informelle (어/아요), was die Vergangenheitsendung beeinflusst.",
+    "rule": "Im Koreanischen wird die einfache Vergangenheit durch Anhängen des Suffixes -았/었- (abhängig vom letzten Vokal des Verbstamms) gefolgt von der Höflichkeitsendung -어요/아요 (informell) oder -습니다 (formell) gebildet. Bei Stämmen, die auf ㅏ oder ㅗ enden, wird -았- verwendet; bei allen anderen Vokalen -었-. Verben, die auf 하다 enden, werden zu 했어요/했습니다, und einige unregelmäßige Verben wie 듣다 (hören) ändern ihren Stamm: 들었어요. Beispiele: 가다 (gehen) → 갔어요 (ging), 먹다 (essen) → 먹었어요 (aß), 공부하다 (lernen) → 공부했어요 (lernte). Für die formelle Form wird -습니다 an die Vergangenheit angehängt: 갔습니다, 먹었습니다, 공부했습니다. Bei unregelmäßigen Verben müssen Kontraktionen berücksichtigt werden: z. B. 보다 (sehen) → 봤어요, 쓰다 (schreiben) → 썼어요. Es gibt auch Verben wie 돕다 (helfen), bei denen ㅂ zu 우 wird: 도왔어요.",
+    "concept_examples": [
+      {
+        "text": "어제 학교에 갔어요.",
+        "translation": "Ich bin gestern zur Schule gegangen.",
+        "phonetic": "[ʌje hak͈jo.e kass͈ʌjo]"
+      },
+      {
+        "text": "아침에 밥을 먹었어요.",
+        "translation": "Ich habe morgens Reis gegessen.",
+        "phonetic": "[atɕʰime papɨl mʌgʌss͈ʌjo]"
+      },
+      {
+        "text": "어제 한국어를 공부했어요.",
+        "translation": "Ich habe gestern Koreanisch gelernt.",
+        "phonetic": "[ʌje hanɡuɡʌɾɨl koŋbu hɛss͈ʌjo]"
+      },
+      {
+        "text": "친구를 만났어요.",
+        "translation": "Ich habe einen Freund getroffen.",
+        "phonetic": "[tɕʰinɡuɾɨl mannass͈ʌjo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "어제 학교에 갔어.",
+      "correct": "어제 학교에 갔어요.",
+      "correct_alt": "어제 학교에 갔습니다.",
+      "explanation": "Der häufigste Fehler bei spanischen Muttersprachlern ist das Weglassen der Höflichkeitsendung '-요' oder die Verwendung der einfachen Form ('반말') in formellen Kontexten. Im Spanischen wird Höflichkeit durch 'usted' oder den Tonfall ausgedrückt, und die Verbendung zeigt keine Höflichkeit an. Im Koreanischen ist es jedoch essenziell, '-요' oder '-습니다' anzuhängen, um einen höflichen Register zu wahren, besonders gegenüber Fremden oder Älteren. Um diesen Fehler zu vermeiden, sollte man sich immer daran erinnern, den Satz mit '-요' zu beenden, wenn man die informelle Höflichkeitsform lernt."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "규칙 동사 과거형",
+        "translation": "Vergangenheit regelmäßiger Verben",
+        "examples": [
+          {
+            "original": "어제 영화를 봤어요.",
+            "phonetic": "[ʌje jʌŋhwaɾɨl pwass͈ʌjo]",
+            "translation": "Ich habe gestern einen Film gesehen.",
+            "note": "Das Verb 보다 (sehen) wird im Präteritum zu 봤어요 kontrahiert."
+          },
+          {
+            "original": "사과를 먹었어요.",
+            "phonetic": "[saɡwaɾɨl mʌgʌss͈ʌjo]",
+            "translation": "Ich habe einen Apfel gegessen."
+          },
+          {
+            "original": "책을 읽었어요.",
+            "phonetic": "[tɕʰɛɡɨl ilgʌss͈ʌjo]",
+            "translation": "Ich habe ein Buch gelesen."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "불규칙 동사 과거형",
+        "translation": "Vergangenheit unregelmäßiger Verben",
+        "examples": [
+          {
+            "original": "음악을 들었어요.",
+            "phonetic": "[ɯmaɡɨl tɯɾʌss͈ʌjo]",
+            "translation": "Ich habe Musik gehört.",
+            "note": "듣다 (hören) wird zu 들었어요 mit dem Stamm 들."
+          },
+          {
+            "original": "편지를 썼어요.",
+            "phonetic": "[pʰjʌndʑiɾɨl ss͈ʌss͈ʌjo]",
+            "translation": "Ich habe einen Brief geschrieben.",
+            "note": "쓰다 (schreiben) wird zu 썼어요, nicht 쓰었어요."
+          },
+          {
+            "original": "친구를 도왔어요.",
+            "phonetic": "[tɕʰinɡuɾɨl towass͈ʌjo]",
+            "translation": "Ich habe einem Freund geholfen.",
+            "note": "돕다 (helfen) hat die Unregelmäßigkeit ㅂ → 우, was zu 도왔어요 führt."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "의문문과 부정문 (pasado en preguntas y negaciones)",
+        "translation": "Vergangenheit in Fragen und Verneinungen",
+        "examples": [
+          {
+            "original": "어제 무엇을 했어요?",
+            "phonetic": "[ʌje muʌtɕʰɨl hɛss͈ʌjo]",
+            "translation": "Was hast du gestern gemacht?",
+            "note": "Das Verb 하다 (tun) wird in der Vergangenheit zu 했어요, und die Fragepartikel ist -요? mit steigender Intonation."
+          },
+          {
+            "original": "어제 밥을 안 먹었어요.",
+            "phonetic": "[ʌje papɨl an mʌgʌss͈ʌjo]",
+            "translation": "Ich habe gestern keinen Reis gegessen."
+          },
+          {
+            "original": "영화를 봤어요?",
+            "phonetic": "[jʌŋhwaɾɨl pwass͈ʌjo]",
+            "translation": "Hast du den Film gesehen?",
+            "note": "In Fragen ändert sich nur die Intonation; die Struktur bleibt gleich."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏪",
+    "phonetic": "",
+    "translations": {
+      "de": "Einfache Vergangenheit"
+    }
+  },
+  {
+    "id": "de_A2_gram_02",
+    "type": "concept",
+    "category": "Grammatik",
+    "title": "~고 있다 (Progresivo / Präsens kontinuierlich)",
+    "bridge": "Im Spanischen verwenden wir das Präsens kontinuierlich (estar + Gerundium) für laufende Handlungen, aber im Koreanischen wird dies mit dem Hilfsverb ~고 있다 gebildet. Im Gegensatz zum Spanischen gibt es im Koreanischen keine Konjugationen, die sich je nach Person ändern, sodass die Form für alle Subjekte gleich bleibt. Während im Spanischen das einfache Präsens für laufende Handlungen verwendet werden kann (\"ahora como\"), ist es im Koreanischen zwingend erforderlich, ~고 있다 zu verwenden, um diese Bedeutung auszudrücken. Ein häufiger Fehler besteht darin, das Subjektpartikel zu vergessen oder das Hauptverb in seiner Grundform ohne das Hilfsverb zu verwenden.",
+    "rule": "Um das Präsens kontinuierlich im Koreanischen zu bilden, nimmt man den Verbstamm (ohne 다) und fügt ~고 있다 hinzu. Die Struktur lautet: [Verbstamm] + 고 있다. Dieses Hilfsverb wird wie ein reguläres Verb konjugiert: 있어요 (höfliche Form), 있습니다 (formell höflich) usw. Zum Beispiel: 먹다 (essen) → 먹고 있어요 (Ich esse gerade). Es wird für laufende Handlungen im Moment des Sprechens verwendet (ähnlich wie \"estar + Gerundium\" im Spanischen). Es wird nicht für gewohnheitsmäßige Handlungen oder allgemeine Wahrheiten verwendet. Es wird auch mit Bewegungsverben wie 가다 (gehen) und 오다 (kommen) verwendet, um anzuzeigen, dass die Handlung im Gange ist. Um eine Frage zu stellen, fügt man das Fragepartikel hinzu: 뭐 하고 있어요? (Was machst du gerade?). Das Hilfsverb kann in abgekürzter Form als ~고 있~ erscheinen, aber die volle Form ist in der Schriftsprache häufiger. Um zu verneinen, verwendet man 안 + Verb + 고 있다 oder verneint einfach das Hauptverb.",
+    "concept_examples": [
+      {
+        "text": "저는 지금 한국어를 공부하고 있어요.",
+        "translation": "Ich lerne gerade Koreanisch.",
+        "phonetic": "tɕʌnɯn tɕiɡɯm haŋɡuɡʌɾɯl koŋbuhaɡo itɕ͈ʌjo"
+      },
+      {
+        "text": "친구가 저를 기다리고 있습니다.",
+        "translation": "Mein Freund wartet auf mich.",
+        "phonetic": "tɕʰinɡuɡa tɕʌɾɯl kidariɡo it͈s͈ɯmnida"
+      },
+      {
+        "text": "지금 비가 오고 있어요.",
+        "translation": "Es regnet gerade.",
+        "phonetic": "tɕiɡɯm piɡa oɡo it͈s͈ʌjo"
+      },
+      {
+        "text": "우리는 이야기하고 있었어요.",
+        "translation": "Wir haben uns unterhalten.",
+        "phonetic": "uɾinɯn ijaɡihaɡo it͈s͈ʌt͈s͈ʌjo"
+      }
+    ],
+    "common_error": {
+      "wrong": "나는 지금 먹어요.",
+      "correct": "나는 지금 먹고 있어요.",
+      "correct_alt": "저는 지금 먹고 있어요.",
+      "explanation": "Im Spanischen kann das einfache Präsens \"como\" mit \"ahora\" verwendet werden, um eine laufende Handlung auszudrücken, aber im Koreanischen ist es bei der Angabe von \"지금\" (jetzt) und einer klar progressiven Handlung zwingend erforderlich, ~고 있다 zu verwenden. Alleiniges Verwenden von 먹어요 kann eine gewohnheitsmäßige oder zukünftige Handlung implizieren (wie \"como\" im Sinne von \"ich esse normalerweise\"), was zu Verwirrung führt. Um diesen Fehler zu vermeiden, denken Sie daran, dass im Koreanischen die progressive Form explizit mit dem Hilfsverb markiert wird."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "~고 있어요 (Grundform)",
+        "translation": "~고 있어요 (Grundform)",
+        "examples": [
+          {
+            "original": "책을 읽고 있어요.",
+            "phonetic": "tɕʰɛɡɯɭ ik͈go it͈s͈ʌjo",
+            "translation": "Ich lese gerade ein Buch.",
+            "note": "Grundlegende Verwendung des Progressivs mit dem Verb 읽다 (lesen)."
+          },
+          {
+            "original": "음악을 듣고 있어요.",
+            "phonetic": "ɯmaɡɯɭ tɯt̚k͈o it͈s͈ʌjo",
+            "translation": "Ich höre gerade Musik.",
+            "note": "Beachten Sie, dass 듣다 (hören) einen unregelmäßigen Stamm hat (듣 → 들), aber in diesem Fall bleibt der Stamm 듣 vor 고 erhalten."
+          },
+          {
+            "original": "무엇을 하고 있어요?",
+            "phonetic": "muʌs͈ɯɭ haɡo it͈s͈ʌjo",
+            "translation": "Was machst du gerade?",
+            "note": "Häufige Frage, um ein Gespräch zu beginnen."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "~고 있습니다 (Formelle Form)",
+        "translation": "~고 있습니다 (Formelle Form)",
+        "examples": [
+          {
+            "original": "회의 중입니다. 지금 이야기하고 있습니다.",
+            "phonetic": "høɰi tɕuŋimnida. tɕiɡɯm ijaɡihaɡo it͈s͈ɯmnida",
+            "translation": "Wir sind in einer Besprechung. Wir reden gerade.",
+            "note": "In formellen Situationen wird die Endung -습니다 verwendet."
+          },
+          {
+            "original": "사장님이 손님을 기다리고 계십니다.",
+            "phonetic": "sat͈ɕaŋnimi sonnimɯɭ kidariɡo k͈jeɕimnida",
+            "translation": "Der Chef wartet auf den Kunden.",
+            "note": "Bei Personen mit höherem Status wird ~고 계시다 (höfliche Form) verwendet."
+          },
+          {
+            "original": "지금 점심을 먹고 있습니다.",
+            "phonetic": "tɕiɡɯm tɕʌmɕimɯɭ mʌk͈ko it͈s͈ɯmnida",
+            "translation": "Ich esse gerade zu Mittag.",
+            "note": "Beispiel für das Präsens Progressiv mit dem Verb 먹다 (essen)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "~고 있다 (Verwendung mit Bewegungs- und Zustandsverben)",
+        "translation": "~고 있다 (Verwendung mit Bewegungs- und Zustandsverben)",
+        "examples": [
+          {
+            "original": "지금 집에 가고 있어요.",
+            "phonetic": "tɕiɡɯm tɕibe kaɡo it͈s͈ʌjo",
+            "translation": "Ich gehe gerade nach Hause.",
+            "note": "Das Verb 가다 (gehen) wird mit ~고 있다 verwendet, um anzuzeigen, dass die Handlung des Gehens im Gange ist."
+          },
+          {
+            "original": "기차가 역에 들어오고 있어요.",
+            "phonetic": "kitɕʰaɡa jʌɡe tɯɾʌoɡo it͈s͈ʌjo",
+            "translation": "Der Zug fährt gerade in den Bahnhof ein.",
+            "note": "Bei zusammengesetzten Bewegungsverben wie 들어오다 (hineingehen) wird dieselbe Struktur verwendet."
+          },
+          {
+            "original": "그 사람은 지금 자고 있어요.",
+            "phonetic": "kɯ sʰaɾamɯn tɕiɡɯm tɕaɡo it͈s͈ʌjo",
+            "translation": "Diese Person schläft gerade.",
+            "note": "Bei Zustandsverben wie 자다 (schlafen) zeigt das Progressiv an, dass die Handlung andauert."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "de": "Präsens kontinuierlich"
+    }
+  },
+  {
+    "id": "de_A2_gram_03",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "미래 계획: -(으)ㄹ 거예요 / Zukunftspläne mit Absicht",
+    "bridge": "Im Spanischen drücken wir nahe Zukunft oder Absichten mit 'ir a + Infinitiv' aus (voy a comer, vas a estudiar). Im Koreanischen ist die häufigste Entsprechung auf A2-Niveau die Konstruktion -(으)ㄹ 거예요, die an den Verbstamm im Infinitiv (die Form ohne 다) angehängt wird und Pläne oder Vorhersagen ausdrückt. Im Gegensatz zum Spanischen gibt es im Koreanischen keine Verbkonjugationen, die sich nach der Person ändern: dieselbe Endung funktioniert für ich, du, er usw., und das Subjekt wird oft weggelassen, wenn es offensichtlich ist. Achtung: Verwende nicht '-겠어요' (formeller/unsicherer) oder verwechsle es mit der Gegenwart '-아요/어요', wenn es um klare Pläne geht.",
+    "rule": "Um die Zukunft mit '-(으)ㄹ 거예요' zu bilden:\n- Endet der Verbstamm auf einen Vokal oder ㄹ, füge '-ㄹ 거예요' hinzu (z. B.: 가다 → 갈 거예요; 살다 → 살 거예요).\n- Endet er auf einen Konsonanten (außer ㄹ), füge '-을 거예요' hinzu (z. B.: 먹다 → 먹을 거예요; 받다 → 받을 거예요).\n- Es handelt sich um eine Kontraktion von '-(으)ㄹ 것이에요' und wird in halbformeller/ höflicher Sprache (해요체) verwendet.\n- Wird verwendet, um Absichten oder Zukunftspläne (wie 'going to' im Spanischen) auszudrücken, sowie Vorhersagen basierend auf Anzeichen (z. B.: 비가 올 거예요 – es wird regnen).\n- Für die verneinte Zukunft: '안 + Verb + -(으)ㄹ 거예요' oder 'Verb + -지 않을 거예요'.\n- Denke daran, dass in koreanischen Sätzen mit 'wenn' (때) kein Futur verwendet wird; stattdessen steht die Gegenwart.",
+    "concept_examples": [
+      {
+        "text": "저는 내일 서울에 갈 거예요.",
+        "translation": "Ich werde morgen nach Seoul fahren.",
+        "phonetic": "ˈt͡ɕʌ.nɯn ˈnɛ.iɫ sʰʌ.uɾ.e̞ kʰa̠ɭ ˈkʌ.je̞.jo̞"
+      },
+      {
+        "text": "친구를 만날 거예요.",
+        "translation": "Ich werde einen Freund treffen.",
+        "phonetic": "ˈt͡ɕʰi.n.ɡu.ɾɯɭ ˈma̠n.na̠ɭ ˈkʌ.je̞.jo̞"
+      },
+      {
+        "text": "한국어를 공부할 거예요.",
+        "translation": "Ich werde Koreanisch lernen.",
+        "phonetic": "ˈha̠n.ɡu.ɡʌ.ɾɯɭ ko̞ŋ.bu.ha̠ɭ ˈkʌ.je̞.jo̞"
+      },
+      {
+        "text": "내일은 비가 올 거예요.",
+        "translation": "Morgen wird es regnen.",
+        "phonetic": "ˈnɛ.iɾ.ɯn ˈpi.ɡa̠ o̞ɭ ˈkʌ.je̞.jo̞"
+      }
+    ],
+    "common_error": {
+      "wrong": "나는 내일 영화를 볼 거예요.",
+      "correct": "나는 내일 영화를 볼 거예요.",
+      "correct_alt": "저는 내일 영화를 볼 거예요.",
+      "explanation": "Die Form '나는' ist informell und kann in unbekannten Kontexten zu direkt wirken. Im Koreanischen ist es üblich, in formellen Situationen oder mit Fremden '저는' zu verwenden. Zudem verwechseln manche Lernende die Wortstellung: Im Spanischen sagen wir 'voy a ver una película', aber im Koreanischen steht das Verb am Satzende (영화를 보다 → 영화를 볼 거예요)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "의도/계획 표현",
+        "translation": "Absichten/Pläne ausdrücken",
+        "examples": [
+          {
+            "original": "집에 갈 거예요.",
+            "phonetic": "ˈt͡ɕi.be̞ ka̠ɭ ˈkʌ.je̞.jo̞",
+            "translation": "Ich werde nach Hause gehen.",
+            "note": "Verb 가다 (gehen) + -ㄹ 거예요. Merke: Der Stamm 가 endet auf einen Vokal, daher wird -ㄹ angehängt. Das Subjekt wird weggelassen, da es aus dem Kontext klar ist."
+          },
+          {
+            "original": "밥을 먹을 거예요.",
+            "phonetic": "ˈpa̠.bɯɭ mʌ.ɡɯɭ ˈkʌ.je̞.jo̞",
+            "translation": "Ich werde essen.",
+            "note": "Verb 먹다 (essen) + -을 거예요 (Stamm endet auf einen Konsonanten). Im Koreanischen steht das Objekt (밥을) vor dem Verb."
+          },
+          {
+            "original": "뭐 할 거예요?",
+            "phonetic": "ˈmʷʌ̹ ha̠ɭ ˈkʌ.je̞.jo̞",
+            "translation": "Was wirst du tun?",
+            "note": "Frage nach der Absicht. Verb 하다 (tun) + -ㄹ 거예요. Eine häufige Frage in informellen Kontexten."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "예측/추측",
+        "translation": "Vorhersagen/Vermutungen",
+        "examples": [
+          {
+            "original": "날씨가 추울 거예요.",
+            "phonetic": "ˈna̠ɭ.ɕ͈i.ɡa̠ ˈt͡ɕʰu.ɯɭ ˈkʌ.je̞.jo̞",
+            "translation": "Es wird kalt werden.",
+            "note": "Wird für Vorhersagen basierend auf der aktuellen Situation verwendet (z. B. bei Wolken am Himmel). Es handelt sich nicht um eine Absicht."
+          },
+          {
+            "original": "그 영화는 재미있을 거예요.",
+            "phonetic": "kɯ ˈjʌŋ.ɦwa̠.nɯn ˈt͡ɕɛ̝.mi.i.s’ɯɭ ˈkʌ.je̞.jo̞",
+            "translation": "Dieser Film wird interessant sein.",
+            "note": "Adjektiv 재미있다 (interessant sein) + -을 거예요. Im Koreanischen verwenden auch Adjektive diese Zukunftsform."
+          },
+          {
+            "original": "아마 늦을 거예요.",
+            "phonetic": "ˈa̠.ma̠ nɯ.ɡɯɭ ˈkʌ.je̞.jo̞",
+            "translation": "Sie werden wahrscheinlich zu spät kommen.",
+            "note": "Mit Adverbien wie 아마 (vielleicht) wird die Annahme verstärkt. Verb 늦다 (zu spät sein) + -을 거예요."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "부정 표현",
+        "translation": "Verneinung",
+        "examples": [
+          {
+            "original": "오늘은 안 갈 거예요.",
+            "phonetic": "ˈo̞.nɯ.ɾɯn a̠n ka̠ɭ ˈkʌ.je̞.jo̞",
+            "translation": "Ich werde heute nicht gehen.",
+            "note": "Verneinung mit 안 + Verb + -(으)ㄹ 거예요. Das Partikel 안 steht vor dem Verb."
+          },
+          {
+            "original": "술을 마시지 않을 거예요.",
+            "phonetic": "sʰu.ɾɯɭ ˈma̠.ɕi.d͡ʑi a̠.nɯɭ ˈkʌ.je̞.jo̞",
+            "translation": "Ich werde keinen Alkohol trinken.",
+            "note": "Lange Verneinung: Verb + -지 않다 + -을 거예요. Wird in betonteren oder formelleren Kontexten verwendet."
+          },
+          {
+            "original": "아마 안 올 거예요.",
+            "phonetic": "ˈa̠.ma̠ a̠n o̞ɭ ˈkʌ.je̞.jo̞",
+            "translation": "Sie werden wahrscheinlich nicht kommen.",
+            "note": "Kombination aus Vermutung (아마) und Verneinung. Verb 오다 (kommen) + -ㄹ 거예요 mit 안 davor."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔮",
+    "phonetic": "",
+    "translations": {
+      "de": "Zukunftspläne mit Absicht (entspricht 'going to')"
+    }
+  },
+  {
+    "id": "de_A2_gram_04",
+    "type": "concept",
+    "category": "Grammatik",
+    "title": "미래 시제 / Zukunftsform",
+    "bridge": "Im Spanischen wird die einfache Zukunft mit Endungen (-é, -ás, -á...) gebildet, während im Koreanischen die Konstruktionen '-겠어요' oder '-을 거예요' verwendet werden. Der Hauptunterschied besteht darin, dass '-겠어요' eine persönliche Absicht oder Annahme ausdrückt, während '-을 거예요' für Pläne oder Vorhersagen verwendet wird, ähnlich wie der Unterschied zwischen 'voy a' und 'será'. Vorsicht: Im Koreanischen steht das Verb immer am Ende und wird nicht nach der Person konjugiert, daher gibt es keine Änderungen für ich/du/er.",
+    "rule": "Um die Zukunft im Koreanischen auf A2-Niveau zu bilden, werden zwei Hauptstrukturen verwendet: 1) Verb + -을 거예요 (für Pläne und Vorhersagen): Füge -을 거예요 an den Verbstamm an, wenn dieser auf einen Konsonanten endet, und -ㄹ 거예요, wenn er auf einen Vokal endet. Beispiel: 가다 (gehen) → 갈 거예요 (Ich werde gehen). 2) Verb + -겠어요 (für Absicht oder Annahme): Füge -겠어요 direkt an den Stamm an. Beispiel: 가겠어요 (Ich beabsichtige zu gehen). In beiden Fällen ändert sich das Verb nicht nach der Person (ich, du, er). Du kannst auch die Gegenwart mit Zeitadverbien (z. B. 내일, 다음 주) verwenden, um die nahe Zukunft auszudrücken. Ausnahme: Bei Verben mit einem Stamm, der auf ㄹ endet, wird das ㄹ vor -을 거예요 weggelassen (z. B. 만들다 → 만들 거예요).",
+    "concept_examples": [
+      {
+        "text": "내일 영화를 볼 거예요.",
+        "translation": "Morgen werde ich einen Film schauen.",
+        "phonetic": "[ne.il jʌŋ.ɦwa.reul bol kʌ.je.jo]"
+      },
+      {
+        "text": "저는 한국에 갈 거예요.",
+        "translation": "Ich werde nach Korea gehen.",
+        "phonetic": "[tɕʌ.neun ɦan.ɡu.ɡe kal kʌ.je.jo]"
+      },
+      {
+        "text": "내일 비가 올 거예요.",
+        "translation": "Morgen wird es regnen.",
+        "phonetic": "[ne.il bi.ɡa ol kʌ.je.jo]"
+      },
+      {
+        "text": "나는 커피를 마시겠어요.",
+        "translation": "Ich werde Kaffee trinken (ich beabsichtige es).",
+        "phonetic": "[na.neun kʰʌ.fi.reul ma.ɕi.ɡe.sʌ.jo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "나는 내일 한국에 갈 거예요.",
+      "correct": "나는 내일 한국에 갈 거예요.",
+      "correct_alt": "저는 내일 한국에 갈 거예요.",
+      "explanation": "Obwohl die Verbform korrekt ist, ist ein häufiger Fehler die Verwendung von '나는' (informell) in formellen Kontexten. Spanischsprachige neigen dazu, '나는' mit der formellen Endung '-요' zu verwenden, aber im Koreanischen sollte man bei der formellen Endung '-요' das formelle Pronomen '저는' verwenden. Außerdem wird das Subjekt im Koreanischen oft weggelassen, um Kürze zu erreichen, aber Klarheit ist vorzuziehen. Vermeide es, '-겠어요' für bestimmte Pläne zu verwenden, da es unsicherer klingt."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "미래 계획 (-을 거예요)",
+        "translation": "Zukunftspläne (-을 거예요)",
+        "examples": [
+          {
+            "original": "다음 주에 여행을 갈 거예요.",
+            "phonetic": "[ta.ɯm tɕu.e jʌ.ɦɛŋ.ɯl kal kʌ.je.jo]",
+            "translation": "Ich werde nächste Woche reisen.",
+            "note": "Diese Struktur wird für feststehende Pläne verwendet. Im Spanischen entspricht dies 'voy a viajar'."
+          },
+          {
+            "original": "친구를 만날 거예요.",
+            "phonetic": "[tɕʰin.ɡu.reul man.nal kʌ.je.jo]",
+            "translation": "Ich werde einen Freund treffen.",
+            "note": "Beachte, dass '만나다' (treffen) auf einen Vokal endet, daher wird -ㄹ 거예요 angehängt."
+          },
+          {
+            "original": "한국어를 공부할 거예요.",
+            "phonetic": "[han.ɡu.ɡʌ.reul koŋ.bu.hal kʌ.je.jo]",
+            "translation": "Ich werde Koreanisch lernen.",
+            "note": "Verb '공부하다' → Stamm '공부하' + ㄹ 거예요. Es wird zu '공부할' vereinfacht."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "의향과 추측 (-겠어요)",
+        "translation": "Absicht und Vermutung (-겠어요)",
+        "examples": [
+          {
+            "original": "내일 좀 쉬겠어요.",
+            "phonetic": "[ne.il tɕom ɕɥi.ɡe.sʌ.jo]",
+            "translation": "Ich werde mich morgen etwas ausruhen (ich beabsichtige es).",
+            "note": "Hier wird eine persönliche Absicht ausgedrückt, kein fester Plan."
+          },
+          {
+            "original": "그 영화가 재미있겠어요.",
+            "phonetic": "[kɯ jʌŋ.ɦwa.ɡa tɕɛ.mi.it.k͈e.sʌ.jo]",
+            "translation": "Dieser Film muss interessant sein (Vermutung).",
+            "note": "Bei Adjektiven deutet -겠어요 auf eine vernünftige Vermutung hin."
+          },
+          {
+            "original": "아마 늦겠어요.",
+            "phonetic": "[a.ma nɯt.k͈e.sʌ.jo]",
+            "translation": "Sie werden wahrscheinlich zu spät kommen.",
+            "note": "Wird mit '아마' (vielleicht) verwendet, um eine Wahrscheinlichkeit auszudrücken."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "미래 시제와 시간 표현",
+        "translation": "Zukunftsform und Zeitangaben",
+        "examples": [
+          {
+            "original": "내일 도서관에서 공부할 거예요.",
+            "phonetic": "[ne.il to.sʰʌ.ɡwan.e.sʰʌ koŋ.bu.hal kʌ.je.jo]",
+            "translation": "Ich werde morgen in der Bibliothek lernen.",
+            "note": "Mit Zeitangaben wie '내일' (morgen) kann auch die Gegenwart verwendet werden, aber die Zukunftsform ist klarer."
+          },
+          {
+            "original": "다음 달에 한국에 올 거예요.",
+            "phonetic": "[ta.ɯm tal.e han.ɡu.ɡe ol kʌ.je.jo]",
+            "translation": "Ich werde nächsten Monat nach Korea kommen.",
+            "note": "Verb '오다' (kommen) → '올 거예요'. Merke dir die Stammverkürzung."
+          },
+          {
+            "original": "내일 뭐 할 거예요?",
+            "phonetic": "[ne.il mʷʌ hal kʌ.je.jo]",
+            "translation": "Was wirst du morgen machen?",
+            "note": "In Fragen wird dieselbe Form verwendet; der Kontext zeigt die Person an."
+          },
+          {
+            "original": "저는 아마 일찍 자겠어요.",
+            "phonetic": "[tɕʌ.neun a.ma il.tɕ͈ik tɕa.k͈e.sʌ.jo]",
+            "translation": "Ich werde wahrscheinlich früh ins Bett gehen.",
+            "note": "Kombination aus '아마' (vielleicht) und -겠어요 für eine Vermutung."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔮",
+    "phonetic": "",
+    "translations": {
+      "de": "Zukunftsform"
+    }
+  },
+  {
+    "id": "de_A2_gram_05",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "비교급과 최상급 / Komparative und Superlative",
+    "bridge": "Im Koreanischen werden Komparative und Superlative nicht mit separaten Wörtern wie 'más' oder 'el más' gebildet, sondern mit spezifischen Partikeln und Strukturen. Im Gegensatz zu Spanisch, wo sich die Adjektivform bei 'más alto' ändert, bleibt das Adjektiv im Koreanischen unverändert und Elemente wie '-보다' (als) und '-보다 더' (mehr als) werden hinzugefügt. Für den Superlativ werden Ausdrücke wie '제일' oder '가장' vor dem Adjektiv verwendet, ähnlich wie 'el más' im Spanischen. Ein häufiger Fehler ist das Auslassen der Partikel '-보다' oder die falsche Wortstellung.",
+    "rule": "Um zwei Dinge im Koreanischen zu vergleichen, verwenden Sie die Struktur: [A] + 는/은 + [B] + 보다 + (더) + Adjektiv. Hier bedeutet '보다' 'als' und '더' 'mehr' (optional). Beispiel: 'A가 B보다 커요' (A ist größer als B). Für den Superlativ setzen Sie '제일' oder '가장' vor das Adjektiv: '[A]가 제일 [Adjektiv]' (A ist am meisten...). '제일' und '가장' sind austauschbar, wobei '제일' etwas formeller ist. Verwenden Sie nicht 'muy' (아주) für Komparative. Denken Sie daran, dass koreanische Adjektive in der Grundform auf '-다' enden, aber in der Gegenwart je nach Höflichkeitsstufe konjugiert werden (formell -ㅂ니다/습니다, informell -아요/어요). Auf A2-Ebene konzentrieren wir uns auf die informelle höfliche Form (-아요/어요).",
+    "concept_examples": [
+      {
+        "text": "A가 B보다 커요.",
+        "translation": "A ist größer als B.",
+        "phonetic": "[a-ga bi-bo-da keo-yo]"
+      },
+      {
+        "text": "이 책이 저 책보다 더 재미있어요.",
+        "translation": "Dieses Buch ist interessanter als jenes Buch.",
+        "phonetic": "[i chaek-i jeo chaek-bo-da deo jae-mi-i-sseo-yo]"
+      },
+      {
+        "text": "한국어가 영어보다 어려워요?",
+        "translation": "Ist Koreanisch schwieriger als Englisch?",
+        "phonetic": "[han-gu-geo-ga yeong-eo-bo-da eo-ryeo-wo-yo]"
+      },
+      {
+        "text": "이거 제일 좋아요.",
+        "translation": "Das ist das beste.",
+        "phonetic": "[i-geo je-il jo-a-yo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "A가 B보다 더 좋아요. (in einem Kontext, in dem B weggelassen wird)",
+      "correct": "A가 제일 좋아요.",
+      "correct_alt": "A가 가장 좋아요.",
+      "explanation": "Spanischsprachige neigen dazu, '보다 더' zu verwenden, um 'das Beste' auszudrücken, ohne ein explizites zweites Vergleichselement. Im Koreanischen muss jedoch bei fehlendem explizitem Vergleichspunkt '제일' oder '가장' für den Superlativ verwendet werden. '보다' erfordert ein Vergleichsobjekt. Wenn Sie also sagen möchten 'Es ist das beste', sagen Sie nicht 'Es ist mehr gut als', sondern 'Es ist am meisten gut'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "비교급 (보다)",
+        "translation": "Komparativ mit '보다'",
+        "examples": [
+          {
+            "original": "사과가 바나나보다 비싸요.",
+            "phonetic": "[sa-gwa-ga ba-na-na-bo-da bi-ssa-yo]",
+            "translation": "Der Apfel ist teurer als die Banane.",
+            "note": "Beachten Sie, dass '보다' nach dem Vergleichselement (바나나보다) steht."
+          },
+          {
+            "original": "저는 형보다 키가 작아요.",
+            "phonetic": "[jeo-neun hyeong-bo-da ki-ga ja-ga-yo]",
+            "translation": "Ich bin kleiner als mein älterer Bruder."
+          },
+          {
+            "original": "지하철이 버스보다 빨라요.",
+            "phonetic": "[ji-ha-cheo-i beo-seu-bo-da ppal-la-yo]",
+            "translation": "Die U-Bahn ist schneller als der Bus.",
+            "note": "Die Partikel '-이' nach '지하철' kennzeichnet das Subjekt des Satzes."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "더 (más)",
+        "translation": "Verwendung von '더' zur Betonung",
+        "examples": [
+          {
+            "original": "이거 더 커요.",
+            "phonetic": "[i-geo deo keo-yo]",
+            "translation": "Das ist größer.",
+            "note": "'더' kann ohne '보다' verwendet werden, wenn der Kontext klar ist."
+          },
+          {
+            "original": "더 맛있는 거 없어요?",
+            "phonetic": "[deo ma-si-nneun geo eop-seo-yo]",
+            "translation": "Gibt es nichts Leckereres?",
+            "note": "Beachten Sie, dass '더' dem modifizierten Adjektiv vorausgeht."
+          },
+          {
+            "original": "내일은 더 추워요.",
+            "phonetic": "[nae-il-eun deo chu-wo-yo]",
+            "translation": "Morgen wird es kälter sein.",
+            "note": "Bei impliziten Vergleichen reicht '더' aus."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "최상급 (제일/가장)",
+        "translation": "Superlativ mit '제일' und '가장'",
+        "examples": [
+          {
+            "original": "이게 제일 맛있어요.",
+            "phonetic": "[i-ge je-il ma-si-sseo-yo]",
+            "translation": "Das ist am leckersten.",
+            "note": "'제일' wird häufig in Alltagsgesprächen verwendet."
+          },
+          {
+            "original": "가장 좋아하는 과일이 뭐예요?",
+            "phonetic": "[ga-jang jo-a-ha-neun gwa-il-i mwo-ye-yo]",
+            "translation": "Welche ist deine Lieblingsfrucht?",
+            "note": "'가장' wird ebenfalls als Superlativ verwendet und ist gleichbedeutend mit '제일'."
+          },
+          {
+            "original": "제 친구 중에서 민수가 제일 키가 커요.",
+            "phonetic": "[je chin-gu jung-e-seo min-su-ga je-il ki-ga keo-yo]",
+            "translation": "Von meinen Freunden ist Minsu am größten.",
+            "note": "In diesem Beispiel wird die Gruppe mit '중에서' (unter) spezifiziert."
+          }
+        ]
+      }
+    ],
+    "emoji": "📊",
+    "phonetic": "",
+    "translations": {
+      "de": "Komparative und Superlative"
+    }
+  },
+  {
+    "id": "de_A2_gram_06",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "의무와 필요 표현 (Pflicht und Notwendigkeit)",
+    "bridge": "Im Spanischen werden Modalverben wie 'deber', 'tener que' oder 'necesitar' konjugiert und vom Infinitiv gefolgt. Im Koreanischen werden diese Bedeutungen durch feste Konstruktionen ausgedrückt, die an den Verbstamm angehängt werden, wie z. B. '-아/어야 하다', '-면 안 되다' und '-도 되다'. Der entscheidende Punkt ist, dass sich das Hilfsverb je nach Grad der Verpflichtung oder Erlaubnis ändert, während das Hauptverb nicht konjugiert wird. Hinweis: Das Koreanische unterscheidet nicht so klar zwischen 'deber' und 'tener que' wie das Spanische; Nuancen werden mit '하다' oder '되다' ausgedrückt. Zusätzlich ändert sich die Verneinung vollständig: '-면 안 되다' bedeutet 'nicht erlaubt', nicht 'sollte nicht'.",
+    "rule": "Im Koreanischen werden Pflicht und Notwendigkeit mit folgenden Strukturen ausgedrückt:\n\n1. **Starke Pflicht / müssen**: Verbstamm + -아/어야 하다 (a/eoya hada). Wird verwendet, um auszudrücken, dass etwas notwendig ist oder getan werden muss. Beispiel: 가다 (gehen) → 가야 해요 (Ich muss gehen).\n\n2. **Schwache Pflicht / sollte**: Verbstamm + -아/어야 되다 (a/eoya doeda). Ähnlich wie die vorherige Form, wird aber oft in informelleren Kontexten verwendet. Es kann auch Notwendigkeit ausdrücken. Beispiel: 공부하다 (lernen) → 공부해야 돼요 (Ich sollte lernen).\n\n3. **Verbot / nicht erlaubt**: Verbstamm + -면 안 되다 (myeon an doeda). Wörtlich 'wenn du es tust, ist es nicht in Ordnung'. Wird für Verbote verwendet. Beispiel: 여기서 담배를 피우면 안 돼요 (Hier darfst du nicht rauchen).\n\n4. **Erlaubnis**: Verbstamm + -아/어도 되다 (a/eodo doeda). Zeigt an, dass etwas erlaubt ist. Beispiel: 들어가도 돼요 (Du darfst eintreten).\n\nVerben werden in der höflichen Gegenwart (해요체) durch Anhängen von -요 konjugiert. Für die Vergangenheit wird -았/었어야 하다 verwendet, aber auf A2-Niveau konzentrieren wir uns auf Gegenwart und nahe Zukunft. Zusätzlich werden Objektpartikeln (을/를) mit transitiven Verben verwendet.\n\n**Ausnahmen**: Bei Verbstämmen, die auf positive Vokale enden (ㅏ, ㅗ), wird -아야 하다 verwendet; bei anderen -어야 하다. Bei Verben, die auf 하다 enden, wird daraus 해야 하다 (Pflicht) oder 해도 되다 (Erlaubnis). Es gibt keine unregelmäßigen Verben in diesen Konstruktionen, aber beachte die Kontraktion: -아야 하다 kann in einigen informellen Fällen zu -야 하다 verkürzt werden.",
+    "concept_examples": [
+      {
+        "text": "저는 학교에 가야 해요.",
+        "translation": "Ich muss zur Schule gehen.",
+        "phonetic": "tɕʌnɯn hak̚k͈jo.e kaja hɛjo"
+      },
+      {
+        "text": "약을 먹어야 돼요.",
+        "translation": "Du solltest die Medizin einnehmen.",
+        "phonetic": "jaɡɯl mʌɡʌja twɛjo"
+      },
+      {
+        "text": "여기에서 사진을 찍으면 안 돼요.",
+        "translation": "Hier darf man keine Fotos machen.",
+        "phonetic": "jʌɡie.sʌ sadʑinɯl tɕ͈iɡɯmjʌn an twɛjo"
+      },
+      {
+        "text": "이 책을 읽어도 돼요?",
+        "translation": "Darf ich dieses Buch lesen?",
+        "phonetic": "i tɕʰɛɡɯl ilɡʌdo twɛjo"
+      }
+    ],
+    "common_error": {
+      "wrong": "저는 학교에 가야 돼요.",
+      "correct": "저는 학교에 가야 해요.",
+      "correct_alt": "저는 학교에 가야 돼요.",
+      "explanation": "Dieser Fehler ist verbreitet, weil '해야 하다' und '해야 되다' in vielen Kontexten austauschbar sind. Allerdings ist '해야 해요' natürlicher, um eine persönliche Verpflichtung auszudrücken, während '해야 돼요' oft auf äußere oder situative Notwendigkeiten verweist. Für Lernende auf A2-Niveau reicht es zu wissen, dass beide Formen korrekt sind, aber '해야 해요' im Alltag häufiger vorkommt. Die Verwirrung entsteht, weil im Spanischen 'tener que' für beide Fälle verwendet wird, im Koreanischen aber eine subtile Nuance besteht."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "의무 표현 (Obligación)",
+        "translation": "Pflicht",
+        "examples": [
+          {
+            "original": "숙제를 해야 해요.",
+            "phonetic": "suk̚tɕ͈eɾɯl hɛja hɛjo",
+            "translation": "Ich muss die Hausaufgaben machen.",
+            "note": "Verwende -아야 하다, um eine persönliche Verpflichtung auszudrücken."
+          },
+          {
+            "original": "일찍 자야 돼요.",
+            "phonetic": "iltɕ͈ik̚ tɕ͈aja twɛjo",
+            "translation": "Ich sollte früh ins Bett gehen.",
+            "note": "Hier drückt -아야 되다 Notwendigkeit oder Pflicht aus, oft aufgrund von Gesundheit oder Routine."
+          },
+          {
+            "original": "한국어를 배워야 해요.",
+            "phonetic": "hanɡuɡʌɾɯl pɛwʌja hɛjo",
+            "translation": "Ich muss Koreanisch lernen.",
+            "note": "Erinnere dich, dass bei Stämmen, die auf ㅗ oder ㅏ enden, -아야 verwendet wird, wie hier bei 배우다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "금지 표현 (Prohibición)",
+        "translation": "Verbot",
+        "examples": [
+          {
+            "original": "수업 중에 휴대폰을 쓰면 안 돼요.",
+            "phonetic": "suʌp̚ tɕuŋe çudɛpʰonɯl s͈ɯmjʌn an twɛjo",
+            "translation": "Man darf während des Unterrichts nicht das Handy benutzen.",
+            "note": "Die Struktur -면 안 되다 ist die Standardmethode, um ein Verbot auszudrücken."
+          },
+          {
+            "original": "여기서 떠들면 안 돼요.",
+            "phonetic": "jʌk͈isɔ t͈ʌdɯɾmjʌn an twɛjo",
+            "translation": "Hier darf man nicht lärm machen.",
+            "note": "Wird für Regeln oder soziale Normen verwendet."
+          },
+          {
+            "original": "늦게 오면 안 돼요.",
+            "phonetic": "nɯt̚k͈e omjʌn an twɛjo",
+            "translation": "Man sollte nicht zu spät kommen.",
+            "note": "Diese Form kann auch verwendet werden, um negative Ratschläge zu geben."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "허가 표현 (Permiso)",
+        "translation": "Erlaubnis",
+        "examples": [
+          {
+            "original": "여기에 앉아도 돼요?",
+            "phonetic": "jʌɡie andʑa do twɛjo",
+            "translation": "Darf ich mich hier hinsetzen?",
+            "note": "Die Form -아도 돼요 wird verwendet, um zu fragen, ob etwas erlaubt ist."
+          },
+          {
+            "original": "이 문을 열어도 돼요.",
+            "phonetic": "i munɯl jʌɾʌdo twɛjo",
+            "translation": "Du darfst diese Tür öffnen.",
+            "note": "Bei bejahenden Antworten auf eine Erlaubnisfrage wird diese Form verwendet."
+          },
+          {
+            "original": "질문해도 돼요?",
+            "phonetic": "tɕilmunhɛdo twɛjo",
+            "translation": "Darf ich eine Frage stellen?",
+            "note": "Bei Verben, die auf 하다 enden, wird daraus 해."
+          }
+        ]
+      }
+    ],
+    "emoji": "📌",
+    "phonetic": "",
+    "translations": {
+      "de": "Modalverben"
+    }
+  },
+  {
+    "id": "de_A2_gram_07",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "재귀동사 (Reflexive Verben)",
+    "bridge": "Im Spanischen verwenden reflexive Verben Pronomen wie 'me', 'te', 'se' und zeigen normalerweise an, dass die Handlung auf das Subjekt zurückfällt. Im Koreanischen gibt es keine direkte Entsprechung; stattdessen werden Verben wie '하다' (machen) mit Substantiven kombiniert oder Partikel wie '-에게' und '-를' verwendet, um Handlungen auszudrücken, die man an sich selbst vornimmt. Die Hauptschwierigkeit besteht darin, dass das Koreanische Reflexivität nicht mit einem separaten Pronomen markiert, sondern dies aus dem Kontext hervorgeht oder das Adverb '스스로' (selbst) verwendet wird.",
+    "rule": "Im Koreanischen werden reflexive Verben nicht mit reflexiven Pronomen gebildet wie im Spanischen. Um reflexive Handlungen auszudrücken, werden verschiedene Strategien verwendet:\n1. Verben, die bereits Reflexivität implizieren, wie z. B. '씻다' (sich waschen) oder '입다' (sich anziehen), werden ohne reflexives Pronomen verwendet.\n2. Das Adverb '스스로' (selbst) wird hinzugefügt, um zu betonen, dass die Handlung von einem selbst ausgeführt wird.\n3. In manchen Fällen wird '자기' (selbst) als Objekt verwendet, ist aber auf A2-Niveau weniger gebräuchlich.\n4. Auch zusammengesetzte Verben mit '하다' (machen) können Reflexivität anzeigen, wie z. B. '결심하다' (entscheiden) oder '준비하다' (vorbereiten).\nBeispiel: '나는 씻어요' (Ich wasche mich), '그는 스스로 옷을 입어요' (Er zieht sich selbst an). Es ist nicht korrekt zu sagen '나를 씻어요' (wörtlich: Ich wasche mich), da dies implizieren würde, etwas anderes zu waschen.",
+    "concept_examples": [
+      {
+        "text": "나는 매일 아침에 씻어요.",
+        "translation": "Ich wasche mich jeden Morgen.",
+        "phonetic": "[na.nɯn mɛ.il a.tɕʰi.mɛ ɕ͈i.ɕʰʌ.jo]"
+      },
+      {
+        "text": "그녀는 거울을 보면서 화장해요.",
+        "translation": "Sie schminkt sich, während sie in den Spiegel schaut.",
+        "phonetic": "[kɯ.ɲʌ.nɯn kʌ.ul.ɯl bo.mjʌn.sʌ hwa.dʒaŋ.hɛ.jo]"
+      },
+      {
+        "text": "우리는 스스로 준비해야 해요.",
+        "translation": "Wir müssen uns selbst vorbereiten.",
+        "phonetic": "[u.ɾi.nɯn sɯ.sɯ.ɾo t͡ɕun.bi.hɛ.ja hɛ.jo]"
+      },
+      {
+        "text": "아이가 스스로 옷을 입어요.",
+        "translation": "Das Kind zieht sich selbst an.",
+        "phonetic": "[a.i.ɡa sɯ.sɯ.ɾo o.sɯl i.bʌ.jo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "나는 나를 씻어요.",
+      "correct": "나는 씻어요.",
+      "correct_alt": "나는 스스로 씻어요.",
+      "explanation": "Im Spanischen enthält 'me lavo' das Pronomen 'me', aber im Koreanischen ist '나를' (mich) unnötig und klingt unnatürlich. Das Verb '씻다' impliziert bereits, dass die Handlung an einem selbst ausgeführt wird. Wenn du die Betonung verstärken möchtest, kannst du '스스로' (selbst) verwenden, aber füge niemals '나를' als direktes Objekt hinzu."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "기본 재귀 표현",
+        "translation": "Grundlegende reflexive Ausdrücke",
+        "examples": [
+          {
+            "original": "나는 일찍 일어나서 세수해요.",
+            "phonetic": "[na.nɯn il.t͡ɕ͈i.k i.ɾʌ.na.sʌ se.su.hɛ.jo]",
+            "translation": "Ich stehe früh auf und wasche mir das Gesicht.",
+            "note": "Das Verb '세수하다' bedeutet 'sich das Gesicht waschen' und erfordert kein reflexives Pronomen."
+          },
+          {
+            "original": "그는 아침에 운동하고 샤워해요.",
+            "phonetic": "[kɯ.nɯn a.tɕʰi.mɛ un.doŋ.ha.ɡo ɕʰa.wʌ.hɛ.jo]",
+            "translation": "Er macht morgens Sport und duscht.",
+            "note": "'샤워하다' stammt aus dem Englischen 'shower' und wird als reflexives Verb ohne zusätzliche Markierung verwendet."
+          },
+          {
+            "original": "우리는 잠들기 전에 양치질해요.",
+            "phonetic": "[u.ɾi.nɯn t͡ɕam.tɯl.ɡi t͡ɕʌ.nɛ jaŋ.t͡ɕʰi.t͡ɕil.hɛ.jo]",
+            "translation": "Wir putzen uns vor dem Schlafengehen die Zähne.",
+            "note": "'양치질하다' ist eine häufige reflexive Handlung."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "'스스로' 강조",
+        "translation": "Betonung mit '스스로' (selbst)",
+        "examples": [
+          {
+            "original": "저는 스스로 한국어를 공부해요.",
+            "phonetic": "[t͡ɕʌ.nɯn sɯ.sɯ.ɾo han.ɡu.ɡʌ.ɾɯl koŋ.bu.hɛ.jo]",
+            "translation": "Ich lerne Koreanisch selbstständig.",
+            "note": "'스스로' zeigt an, dass du keine Hilfe von anderen erhältst."
+          },
+          {
+            "original": "그녀는 스스로 문제를 해결했어요.",
+            "phonetic": "[kɯ.ɲʌ.nɯn sɯ.sɯ.ɾo mun.d͡ʑe.ɾɯl hɛ.ɡjʌɾ.hɛ.s͈ʌ.jo]",
+            "translation": "Sie hat das Problem selbst gelöst.",
+            "note": "Das Adverb '스스로' steht vor dem Verb, um die Selbstständigkeit zu betonen."
+          },
+          {
+            "original": "우리는 스스로 식사 준비를 해요.",
+            "phonetic": "[u.ɾi.nɯn sɯ.sɯ.ɾo ɕik.s͈a t͡ɕun.bi.ɾɯl hɛ.jo]",
+            "translation": "Wir bereiten das Essen selbst zu.",
+            "note": "In diesem Fall kann '스스로' auch am Satzanfang stehen."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "재귀 의미를 가진 동사",
+        "translation": "Verben mit reflexiver Bedeutung",
+        "examples": [
+          {
+            "original": "그는 매일 아침 면도해요.",
+            "phonetic": "[kɯ.nɯn mɛ.il a.tɕʰim mjʌn.do.hɛ.jo]",
+            "translation": "Er rasiert sich jeden Morgen.",
+            "note": "'면도하다' bedeutet 'sich rasieren' und wird ohne reflexives Pronomen verwendet."
+          },
+          {
+            "original": "아이들은 학교에서 공부해요.",
+            "phonetic": "[a.i.dɯ.ɾɯn hak.ɡjo.e.s͈ʌ koŋ.bu.hɛ.jo]",
+            "translation": "Die Kinder lernen in der Schule (sie widmen sich dem Lernen).",
+            "note": "Hier ist '공부하다' im Koreanischen nicht reflexiv, aber im Spanischen könnte man 'se dedican a estudiar' sagen."
+          },
+          {
+            "original": "저는 스트레스를 받으면 혼자 이야기해요.",
+            "phonetic": "[t͡ɕʌ.nɯn sɯ.tʰɯ.ɾe.s͈ɯ.ɾɯl pa.dɯ.mjʌn hon.d͡ʑa i.ja.ɡi.hɛ.jo]",
+            "translation": "Wenn ich gestresst bin, rede ich mit mir selbst.",
+            "note": "Reflexivität wird mit '혼자' (allein) ausgedrückt, was ähnlich wie 'me' im Spanischen funktioniert."
+          }
+        ]
+      }
+    ],
+    "emoji": "🪞",
+    "phonetic": "",
+    "translations": {
+      "de": "Reflexive Verben"
+    }
+  },
+  {
+    "id": "de_A2_gram_08",
+    "type": "concept",
+    "category": "Grammatik",
+    "title": "목적격 조사 (을/를) / Direkte Objektpartikel",
+    "bridge": "Im Spanischen gibt es direkte und indirekte Objektpronomen als separate Wörter, die sich je nach Person ändern (me, te, lo/la, le, nos, os, les). Im Koreanischen gibt es keine Objektpronomen als solche; stattdessen werden Partikel an das Nomen angehängt: '을/를' kennzeichnet das direkte Objekt und '에게/한테' das indirekte Objekt. Der entscheidende Unterschied ist, dass im Koreanischen die Wortstellung flexibel ist und das Verb immer am Satzende steht, während im Spanischen die Reihenfolge stärker festgelegt ist. Zudem kann das Objekt im Koreanischen weggelassen werden, wenn es aus dem Kontext klar ist, die Partikel muss aber gesetzt werden, wenn das Objekt genannt wird. Ein häufiger Fehler ist das Auslassen dieser Partikel oder die Verwechslung mit Subjektpartikeln (이/가).",
+    "rule": "Im Koreanischen wird das direkte Objekt mit der Partikel '을' (wenn das Wort auf einen Konsonanten endet) oder '를' (wenn es auf einen Vokal endet) markiert. Beispiel: '밥을' (Reis), '사과를' (Apfel). Das indirekte Objekt wird mit '에게' (für Personen, formell) oder '한테' (für Personen, informell) sowie mit '에' für Orte oder unbelebte Dinge markiert. Die Grundstruktur lautet: Subjekt + Indirektes Objekt + Direktes Objekt + Verb. Die Partikel werden ohne Leerzeichen an das Nomen angehängt. Das Verb steht immer am Satzende. Wenn das Objekt aus dem Kontext klar ist, kann es weggelassen werden, muss aber bei Erwähnung die Partikel tragen. In Sätzen mit Verben wie '주다' (geben), '보내다' (schicken), '말하다' (sagen) wird das indirekte Objekt verwendet. Im Gegensatz zum Spanischen gibt es keine Änderung des Pronomens nach Geschlecht oder Zahl; die Partikel bleibt für alle Personen und Zahlen gleich.",
+    "concept_examples": [
+      {
+        "text": "저는 사과를 먹어요.",
+        "translation": "Ich esse einen Apfel.",
+        "phonetic": "[tɕʌnɯn saɡwaɾɯl mʌɡʌjo]"
+      },
+      {
+        "text": "나는 친구에게 선물을 줬어요.",
+        "translation": "Ich habe meinem Freund ein Geschenk gegeben.",
+        "phonetic": "[nanɯn tɕʰinɡueɡe sʌnmulɯl tɕwʌs͈ʌjo]"
+      },
+      {
+        "text": "엄마가 나한테 전화를 했어요.",
+        "translation": "Mama hat mich angerufen.",
+        "phonetic": "[ʌmmaɡa naɦantʰe tɕʌnɦwaɾɯl hɛs͈ʌjo]"
+      },
+      {
+        "text": "우리는 한국어를 공부해요.",
+        "translation": "Wir lernen Koreanisch.",
+        "phonetic": "[uɾinɯn ɦaŋɡuɡʌɾɯl koŋbuɦɛjo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "저는 사과 먹어요.",
+      "correct": "저는 사과를 먹어요.",
+      "correct_alt": "",
+      "explanation": "Spanischsprachige lassen oft die Partikel '을/를' weg, weil es im Spanischen keine solche Markierung gibt; das Objekt wird durch die Wortstellung identifiziert. Im Koreanischen klingt der Satz ohne Partikel jedoch unvollständig und kann mit dem Subjekt verwechselt werden. Um diesen Fehler zu vermeiden, merken Sie sich: Jedes Nomen, das als direktes Objekt fungiert, muss die Partikel '을' oder '를' tragen – je nach Endung (Konsonant → 을, Vokal → 를)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "직접 목적격 조사 (을/를)",
+        "translation": "Direkte Objektpartikel (을/를)",
+        "examples": [
+          {
+            "original": "나는 책을 읽어요.",
+            "phonetic": "[nanɯn tɕʰɛɡɯɾɯk̚ iɾɡʌjo]",
+            "translation": "Ich lese ein Buch.",
+            "note": "'책' endet auf einen Konsonanten, daher wird '을' verwendet."
+          },
+          {
+            "original": "우리는 음악을 들어요.",
+            "phonetic": "[uɾinɯn ɯmaɡɯɾɯl tɯɾʌjo]",
+            "translation": "Wir hören Musik.",
+            "note": "'음악' endet auf einen Konsonanten (ㄱ), daher wird '을' angehängt."
+          },
+          {
+            "original": "제가 커피를 마셔요.",
+            "phonetic": "[tɕeɡa kʰʌpʰiɾɯl maɕʰʌjo]",
+            "translation": "Ich trinke Kaffee.",
+            "note": "'커피' endet auf einen Vokal, daher wird '를' verwendet."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "간접 목적격 조사 (에게/한테)",
+        "translation": "Indirekte Objektpartikel (에게/한테)",
+        "examples": [
+          {
+            "original": "아버지가 아들에게 용돈을 줘요.",
+            "phonetic": "[abʌdʑiɡa adɯɾeɡe joŋdonɯl tɕwʌjo]",
+            "translation": "Der Vater gibt seinem Sohn Taschengeld.",
+            "note": "'에게' wird für Personen in formellen oder schriftlichen Kontexten verwendet."
+          },
+          {
+            "original": "친구한테 편지를 보냈어요.",
+            "phonetic": "[tɕʰinɡuɦantʰe pʰjʌntɕiɾɯl ponɛs͈ʌjo]",
+            "translation": "Ich habe meinem Freund einen Brief geschickt.",
+            "note": "'한테' ist informeller und wird häufig in Gesprächen verwendet."
+          },
+          {
+            "original": "선생님께 편지를 드렸어요.",
+            "phonetic": "[sʰʌnsʰɛŋnimk͈e pʰjʌntɕiɾɯl tɯɾjʌs͈ʌjo]",
+            "translation": "Ich habe dem Lehrer einen Brief gegeben (mit Respekt).",
+            "note": "'께' ist die höfliche Version von '에게'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "목적어 생략과 조사의 중요성",
+        "translation": "Auslassung des Objekts und Bedeutung der Partikel",
+        "examples": [
+          {
+            "original": "사과를 샀어요.",
+            "phonetic": "[saɡwaɾɯl s͈as͈ʌjo]",
+            "translation": "(Ich) habe einen Apfel gekauft.",
+            "note": "Das Subjekt wird weggelassen, aber das Objekt trägt eine Partikel."
+          },
+          {
+            "original": "나는 물을 마셔요. (kein: 나는 물 마셔요)",
+            "phonetic": "[nanɯn muɾɯl maɕʰʌjo]",
+            "translation": "Ich trinke Wasser.",
+            "note": "Ohne '을' ist der Satz grammatikalisch falsch."
+          },
+          {
+            "original": "엄마가 나에게 전화를 했어요.",
+            "phonetic": "[ʌmmaɡa naeɡe tɕʌnɦwaɾɯl hɛs͈ʌjo]",
+            "translation": "Mama hat mich angerufen.",
+            "note": "Das indirekte Objekt '나에게' kann ebenfalls weggelassen werden, wenn es aus dem Kontext klar ist, muss aber bei Erwähnung die Partikel tragen."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎯",
+    "phonetic": "",
+    "translations": {
+      "de": "Direkte und indirekte Objektpartikel"
+    }
+  },
+  {
+    "id": "de_A2_gram_09",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "빈도 부사 (Häufigkeitsadverbien)",
+    "bridge": "Im Spanischen werden Häufigkeitsadverbien wie 'siempre', 'a veces' oder 'nunca' normalerweise vor dem Verb oder am Satzende platziert. Im Koreanischen stehen diese Adverbien (항상, 가끔, 전혀) meist vor dem Verb, können aber auch am Satzanfang zur Betonung stehen. Im Gegensatz zum Spanischen verändern koreanische Adverbien nie ihre Form und stimmen nicht mit dem Verb überein. Vorsicht: Während 'nunca' im Spanischen mit doppelter Verneinung ('no... nunca') verwendet wird, kombiniert man im Koreanischen '전혀' mit der negativen Endung '-지 않다' oder '-없다', aber die Verneinung wird nicht verdoppelt.",
+    "rule": "Häufigkeitsadverbien im Koreanischen stehen typischerweise nach dem Subjekt und vor dem Verb (S + Adv + V). Die häufigsten sind: 항상 (immer), 보통 (gewöhnlich), 자주 (oft), 가끔 (manchmal), 거의 (fast), 전혀 (nie, wird mit Verneinung verwendet). Um '전혀' zu verneinen, verwendet man '전혀 + Verb + -지 않다' oder '전혀 + Adjektiv + -지 않다'. Zum Beispiel: '나는 전혀 안 자요' (Ich schlafe überhaupt nicht) oder '그는 전혀 안 와요' (Er kommt nie). Denke daran, dass im Koreanischen keine doppelte Verneinung verwendet wird; '전혀' wird nur mit der negativen Form des Verbs kombiniert. Auf A2-Niveau reicht es aus, die grundlegenden Adverbien und ihre Position zu beherrschen.",
+    "concept_examples": [
+      {
+        "text": "나는 항상 아침을 먹어요.",
+        "translation": "Ich esse immer Frühstück.",
+        "phonetic": "na-neun hang-sang a-chim-eul meo-geo-yo"
+      },
+      {
+        "text": "우리는 가끔 영화를 봐요.",
+        "translation": "Wir schauen manchmal Filme.",
+        "phonetic": "u-ri-neun ga-kkeum yeong-hwa-reul bwa-yo"
+      },
+      {
+        "text": "그는 거의 운동을 안 해요.",
+        "translation": "Er macht fast nie Sport.",
+        "phonetic": "geu-neun geo-ui un-dong-eul an hae-yo"
+      },
+      {
+        "text": "저는 전혀 술을 마시지 않아요.",
+        "translation": "Ich trinke nie Alkohol.",
+        "phonetic": "jeo-neun jeon-hyeo sul-eul ma-si-ji a-na-yo"
+      }
+    ],
+    "common_error": {
+      "wrong": "저는 전혀 술을 안 마시지 않아요.",
+      "correct": "저는 전혀 술을 마시지 않아요.",
+      "correct_alt": "저는 술을 전혀 안 마셔요.",
+      "explanation": "Ein häufiger Fehler ist die doppelte Verneinung, wie im Spanischen ('no... nunca'). Im Koreanischen zeigt '전혀' bereits eine Verneinung an und wird mit einer einzigen negativen Form kombiniert (마시지 않아요 oder 안 마셔요). '안 마시지 않아요' zu sagen, ist redundant und grammatikalisch falsch. Merke dir: Verwende '전혀 + Verb + -지 않다' oder '전혀 + 안 + Verb'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "기본 빈도 부사",
+        "translation": "Grundlegende Häufigkeitsadverbien",
+        "examples": [
+          {
+            "original": "나는 항상 커피를 마셔요.",
+            "phonetic": "na-neun hang-sang keo-pi-reul ma-syeo-yo",
+            "translation": "Ich trinke immer Kaffee.",
+            "note": "항상 bedeutet 'immer' und steht nach dem Subjekt."
+          },
+          {
+            "original": "우리는 보통 집에서 식사해요.",
+            "phonetic": "u-ri-neun bo-tong ji-be-seo sik-sa-hae-yo",
+            "translation": "Wir essen normalerweise zu Hause.",
+            "note": "보통 bedeutet 'gewöhnlich' oder 'normalerweise'."
+          },
+          {
+            "original": "그는 자주 친구를 만나요.",
+            "phonetic": "geu-neun ja-ju chin-gu-reul man-na-yo",
+            "translation": "Er trifft sich oft mit Freunden.",
+            "note": "자주 bedeutet 'oft'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "빈도 묻기와 답하기",
+        "translation": "Nach Häufigkeit fragen und antworten",
+        "examples": [
+          {
+            "original": "얼마나 자주 운동해요?",
+            "phonetic": "eol-ma-na ja-ju un-dong-hae-yo?",
+            "translation": "Wie oft machst du Sport?",
+            "note": "얼마나 자주? wird verwendet, um nach der Häufigkeit zu fragen."
+          },
+          {
+            "original": "나는 일주일에 두 번 운동해요.",
+            "phonetic": "na-neun il-ju-i-re du beon un-dong-hae-yo",
+            "translation": "Ich mache zweimal pro Woche Sport.",
+            "note": "Zur Antwort verwende '일주일에 + Zahl + 번' (Mal pro Woche)."
+          },
+          {
+            "original": "가끔 친구랑 영화를 봐요.",
+            "phonetic": "ga-kkeum chin-gu-rang yeong-hwa-reul bwa-yo",
+            "translation": "Manchmal schaue ich mit Freunden Filme.",
+            "note": "가끔 kann am Satzanfang zur Betonung stehen, steht aber auch vor dem Verb."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "부정 표현과 함께 쓰는 빈도 부사",
+        "translation": "Häufigkeitsadverbien mit Verneinung",
+        "examples": [
+          {
+            "original": "그는 거의 안 와요.",
+            "phonetic": "geu-neun geo-ui an wa-yo",
+            "translation": "Er kommt fast nie.",
+            "note": "거의 + 안 + Verb bedeutet 'fast nie'."
+          },
+          {
+            "original": "나는 전혀 매운 음식을 못 먹어요.",
+            "phonetic": "na-neun jeon-hyeo mae-un eum-sik-eul mot meo-geo-yo",
+            "translation": "Ich kann überhaupt keine scharfen Speisen essen.",
+            "note": "전혀 mit 못 (können nicht) drückt 'überhaupt nicht' aus."
+          },
+          {
+            "original": "우리는 전혀 안 피곤해요.",
+            "phonetic": "u-ri-neun jeon-hyeo an pi-gon-hae-yo",
+            "translation": "Wir sind überhaupt nicht müde.",
+            "note": "전혀 + 안 + Adjektiv: 'überhaupt nicht'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕒",
+    "phonetic": "",
+    "translations": {
+      "de": "Häufigkeitsadverbien"
+    }
+  },
+  {
+    "id": "de_A2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "시간 전치사 (Zeitpartikeln)",
+    "bridge": "Im Spanischen verwenden wir Präpositionen wie 'en', 'a', 'durante' und 'desde', um Zeit auszudrücken (z. B. 'en mayo', 'a las tres'). Im Koreanischen gibt es keine Zeitpräpositionen im eigentlichen Sinne; stattdessen werden Partikeln an Zeitwörter angehängt. Zum Beispiel wird 'en mayo' als '오월에' (owore) ausgedrückt, wobei '에' den genauen Zeitpunkt angibt. Im Gegensatz zum Spanischen ändert sich die koreanische Partikel nicht, je nachdem, ob die Zeit in der Zukunft oder Vergangenheit liegt, und es gibt keinen Unterschied zwischen 'en' und 'a'. Es gibt auch spezielle Partikeln wie '부터' (von) und '까지' (bis), die ähnlich wie spanische Präpositionen verwendet werden, aber immer nach dem Nomen stehen, nie davor.",
+    "rule": "Im Koreanischen wird die Zeit mit nachgestellten Partikeln an Zeitwörter angehängt. Die wichtigsten sind: 1) '-에' (e) gibt einen genauen Zeitpunkt an: Stunden, Tage, Monate, Jahreszeiten, Jahre (z. B. 세 시에 – um 3 Uhr, 월요일에 – am Montag, 5월에 – im Mai). Es wird auch mit '언제' (wann) und Ausdrücken wie '지금' (jetzt) und '오늘' (heute) verwendet, wenn eine Betonung erforderlich ist. Es wird nicht mit '어제' (gestern), '오늘' (heute), '내일' (morgen), '지난주' (letzte Woche), '다음 주' (nächste Woche) verwendet, es sei denn, es ist eine Betonung erforderlich. 2) '-부터' (buteo) gibt den Anfang an: '언제부터' (seit wann), '아침부터' (seit dem Morgen). 3) '-까지' (kkaji) gibt die Endgrenze an: '몇 시까지' (bis wann), '저녁까지' (bis zum Abend). 4) '-동안' (dongan) gibt die Dauer an: '두 시간 동안' (für zwei Stunden), '일주일 동안' (für eine Woche). 5) Um 'en' für zukünftige Zeit (z. B. 'in zwei Tagen') auszudrücken, verwendet man '후에' (hue) oder '뒤에' (dwie), was 'nach' bedeutet. Für die A2-Stufe ist es wichtig, '-에', '-부터', '-까지' und '-동안' zu beherrschen.",
+    "concept_examples": [
+      {
+        "text": "저는 아침에 커피를 마셔요.",
+        "translation": "Ich trinke morgens Kaffee.",
+        "phonetic": "[tɕʌnɯn a̠tɕʰime̞ kʰʌpʰiɾɯl ma̠ɕʌjo]"
+      },
+      {
+        "text": "수업은 9시부터 1시까지예요.",
+        "translation": "Der Unterricht ist von 9 bis 1 Uhr.",
+        "phonetic": "[sʰuʌbɯn ahopɕʰip̚pʰutʰʌ ilɕʰik͈a̠d͡ʑijejo]"
+      },
+      {
+        "text": "한국어를 일 년 동안 공부했어요.",
+        "translation": "Ich habe ein Jahr lang Koreanisch gelernt.",
+        "phonetic": "[ha̠nɡuɡʌɾɯl il ɲʌn to̞ŋa̠n ko̞ŋbuɦe̞s͈ʌjo]"
+      },
+      {
+        "text": "다음 주에 시험이 있어요.",
+        "translation": "Nächste Woche habe ich eine Prüfung.",
+        "phonetic": "[ta̠ɯm t͡ɕue̞ ɕiɦʌmi i̞s͈ʌjo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "저는 오늘에 학교에 가요.",
+      "correct": "저는 오늘 학교에 가요.",
+      "correct_alt": "저는 오늘은 학교에 가요.",
+      "explanation": "Der Fehler entsteht, weil spanische Muttersprachler dazu neigen, die Partikel '에' zu allen Zeitangaben hinzuzufügen, so wie sie im Spanischen die Präposition 'en' verwenden würden (z. B. 'en hoy'). Im Koreanischen werden Wörter wie '오늘' (heute), '어제' (gestern), '내일' (morgen) jedoch in der allgemeinen Verwendung nicht mit '에' verwendet. Die Partikel wird weggelassen, da sie bereits eine bestimmte Zeit angeben. Man kann '에는' oder '에' zur Betonung verwenden, aber es ist nicht notwendig. Um den Fehler zu vermeiden, merke dir: Verwende '에' nicht mit '오늘', '어제', '내일', '지금', '이번 주', '다음 주', es sei denn, du möchtest etwas betonen. In diesen Fällen ist es besser, die Partikel wegzulassen."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "-에",
+        "translation": "Partikel für einen bestimmten Zeitpunkt",
+        "examples": [
+          {
+            "original": "3시에 만나요.",
+            "phonetic": "[se̞ ɕie̞ ma̠nna̠jo]",
+            "translation": "Treffen wir uns um 3 Uhr.",
+            "note": "Verwende '에', um die genaue Uhrzeit anzugeben. Im Spanischen verwenden wir 'a', aber im Koreanischen steht die Partikel nach der Zahl und dem Wort '시'."
+          },
+          {
+            "original": "월요일에 일해요.",
+            "phonetic": "[wʌɾjoiɾe̞ iɾɦe̞jo]",
+            "translation": "Ich arbeite montags.",
+            "note": "Bei Wochentagen wird '에' am Ende des Tages angehängt. Im Spanischen sagen wir 'el lunes' ohne Präposition, aber im Koreanischen ist sie obligatorisch."
+          },
+          {
+            "original": "5월에 한국에 가요.",
+            "phonetic": "[o̞wʌɾe̞ ha̠nɡuɡe̞ ka̠jo]",
+            "translation": "Ich fahre im Mai nach Korea.",
+            "note": "Bei Monaten und Jahren wird '에' nach dem Monat verwendet. Im Spanischen sagen wir 'en mayo', hier übernimmt '에' diese Funktion."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "-부터 / -까지",
+        "translation": "Von / Bis",
+        "examples": [
+          {
+            "original": "아침부터 저녁까지 일해요.",
+            "phonetic": "[a̠tɕʰim pʰutʰʌ t͡ɕʌɲʌk͈a̠d͡ʑi iɾɦe̞jo]",
+            "translation": "Ich arbeite von morgens bis abends.",
+            "note": "'부터' gibt den Anfang an und '까지' das Ende, ähnlich wie 'desde' und 'hasta' im Spanischen. Sie stehen immer nach den Nomen."
+          },
+          {
+            "original": "몇 시부터 시작해요?",
+            "phonetic": "[mjʌt̚ ɕip̚pʰutʰʌ ɕit͡ɕa̠kʰe̞jo]",
+            "translation": "Um wie viel Uhr fängt es an?",
+            "note": "In Fragen wird '몇 시부터' verwendet, um nach der Startzeit zu fragen. Vor '몇 시' ist keine Präposition nötig."
+          },
+          {
+            "original": "오늘부터 다이어트 할 거예요.",
+            "phonetic": "[o̞nɯɭpʰutʰʌ ta̠iʌtʰɯ ha̠ɭ kʌje̞jo]",
+            "translation": "Ab heute mache ich eine Diät.",
+            "note": "'부터' wird mit '오늘' verwendet, um den Anfang zu markieren, und hier wird es an '오늘' angehängt, weil es sich nicht um eine allgemeine Zeitangabe, sondern um einen Startpunkt handelt."
+          },
+          {
+            "original": "도서관은 9시부터 6시까지예요.",
+            "phonetic": "[to̞sʰʌɡwa̠nɯn ahopɕʰip̚pʰutʰʌ jʌs͈ʌɕik͈a̠d͡ʑijejo]",
+            "translation": "Die Bibliothek ist von 9 bis 6 Uhr geöffnet.",
+            "note": "Bei Zeitplänen werden '부터' und '까지' verwendet, um den gesamten Zeitraum anzugeben. Sie können zusammen oder einzeln verwendet werden."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "-동안",
+        "translation": "Für / Während",
+        "examples": [
+          {
+            "original": "두 시간 동안 공부했어요.",
+            "phonetic": "[tu ɕiɡa̠n to̞ŋa̠n ko̞ŋbuɦe̞s͈ʌjo]",
+            "translation": "Ich habe zwei Stunden lang gelernt.",
+            "note": "'동안' wird verwendet, um eine Dauer auszudrücken. Im Spanischen verwenden wir 'durante' oder manchmal 'por'. Denke daran, dass es nach der Zeitangabe steht."
+          },
+          {
+            "original": "일주일 동안 여행했어요.",
+            "phonetic": "[iʎt͡ɕuwiɭ to̞ŋa̠n jʌɦe̞ŋɦe̞s͈ʌjo]",
+            "translation": "Ich bin eine Woche lang gereist.",
+            "note": "'일주일' (eine Woche) plus '동안' gibt die gesamte Dauer der Reise an. Man kann '동안' weglassen, wenn der Kontext klar ist, aber es ist besser, es zu verwenden."
+          },
+          {
+            "original": "방학 동안 뭐 했어요?",
+            "phonetic": "[pa̠ŋɦa̠k̚ to̞ŋa̠n mwʌ he̞s͈ʌjo]",
+            "translation": "Was hast du in den Ferien gemacht?",
+            "note": "In Fragen ist '동안' üblich. Es wird mit Nomen wie '방학' (Ferien) verwendet, um den Zeitraum anzugeben."
+          },
+          {
+            "original": "1년 동안 한국에서 살았어요.",
+            "phonetic": "[iɭ ɲʌn to̞ŋa̠n ha̠nɡuɡe̞sʰʌ sa̠ɭa̠s͈ʌjo]",
+            "translation": "Ich habe ein Jahr lang in Korea gelebt.",
+            "note": "'1년 동안' ist ein häufiger Ausdruck. Er kombiniert Zahl + Jahr + 동안. Beachte, dass '동안' nicht mit '에' verwendet wird."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏰",
+    "phonetic": "",
+    "translations": {
+      "de": "Zeitpartikeln"
+    }
+  }
+]

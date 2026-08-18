@@ -488,5 +488,1706 @@
     "translations": {
       "pt": "Gênero e número dos substantivos"
     }
+  },
+  {
+    "id": "pt_A1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Глаголы I спряжения в настоящем времени / Verbos regulares da primeira conjugação no presente",
+    "bridge": "No russo, não há equivalentes diretos aos verbos em espanhol terminados em -ar, -er, -ir, mas existe um sistema de conjugação baseado na terminação do infinitivo. Os verbos regulares são divididos em duas conjugações principais, e aqui focamos na primeira (com terminações -ать/-ять). Diferentemente do espanhol, onde as terminações dos verbos mudam por pessoa sem alterar a raiz, no russo a raiz pode sofrer mudanças sonoras (por exemplo, 'писать' se torna 'пишу' com 'ш' em vez de 'с'). Além disso, o russo não usa pronomes pessoais com tanta frequência quanto o espanhol, já que a terminação já indica a pessoa, mas no nível A1 é útil usá-los para maior clareza.",
+    "rule": "No russo, os verbos regulares da primeira conjugação (também chamados de I спряжение) são reconhecidos porque, no infinitivo, terminam em -ать ou -ять. Para conjugá-los no presente, remova a terminação -ть do infinitivo e adicione as seguintes terminações de acordo com a pessoa:\n\n- я (eu): -ю (após vogal) ou -у (após consoante)\n- ты (tu/você): -ешь\n- он/она/оно (ele/ela/isso): -ет\n- мы (nós): -ем\n- вы (vós/vocês): -ете\n- они (eles/elas): -ют (após vogal) ou -ут (após consoante)\n\nExemplo com 'читать' (ler):\n- я читаю\n- ты читаешь\n- он читает\n- мы читаем\n- вы читаете\n- они читают\n\nExceção: Alguns verbos, como 'писать' (escrever), sofrem uma alternância consonantal na raiz: 'писать' → 'я пишу' (a letra 'с' muda para 'ш' na primeira pessoa do singular). Isso ocorre com verbos cujas raízes terminam em 'с', 'з', 'х', etc., mas é um fenômeno aprendido com a prática. Outros verbos, como 'жить' (viver), são irregulares e não seguem esse padrão, mas não fazem parte desta lição.",
+    "concept_examples": [
+      {
+        "text": "Я читаю книгу.",
+        "translation": "Eu leio um livro.",
+        "phonetic": "ja tʃiˈtaju ˈknʲigu"
+      },
+      {
+        "text": "Ты говоришь по-русски?",
+        "translation": "Você fala russo?",
+        "phonetic": "tɨ ɡəvɐˈrʲiʂ pɐ ˈruskʲi"
+      },
+      {
+        "text": "Мы работаем в офисе.",
+        "translation": "Nós trabalhamos no escritório.",
+        "phonetic": "mɨ rɐˈbotəjɪm v ˈofʲɪsʲe"
+      },
+      {
+        "text": "Они гуляют в парке.",
+        "translation": "Eles passeiam no parque.",
+        "phonetic": "ɐˈnʲi ɡʊˈlʲæjʊt v ˈparkʲe"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я читають",
+      "correct": "Я читаю",
+      "correct_alt": "",
+      "explanation": "Este erro ocorre porque falantes de espanhol muitas vezes aplicam a terminação da terceira pessoa do plural (-ют) à primeira pessoa do singular, influenciados pelo espanhol, onde às vezes as terminações são confundidas. No russo, a terminação para 'я' (eu) é -ю (ou -у), não -ют. Para evitar esse erro, é essencial memorizar as terminações de cada pessoa e praticar com verbos comuns."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Основа: инфинитив и окончания / Base: infinitivo e terminações",
+        "translation": "Base: infinitivo e terminações",
+        "examples": [
+          {
+            "original": "читать",
+            "phonetic": "tɕɪˈtatʲ",
+            "translation": "ler",
+            "note": "Infinitivo de um verbo regular da primeira conjugação. Termina em -ать."
+          },
+          {
+            "original": "Я читаю",
+            "phonetic": "ja tɕɪˈtaju",
+            "translation": "Eu leio",
+            "note": "Terminação -ю para a primeira pessoa do singular."
+          },
+          {
+            "original": "Ты читаешь",
+            "phonetic": "tɨ tɕɪˈtaɪʂ",
+            "translation": "Você lê",
+            "note": "Terminação -ешь para a segunda pessoa do singular."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Спряжение в единственном числе / Conjugação no singular",
+        "translation": "Conjugação no singular",
+        "examples": [
+          {
+            "original": "Он читает",
+            "phonetic": "on tɕɪˈtaɪt",
+            "translation": "Ele lê",
+            "note": "Terminação -ет para a terceira pessoa do singular."
+          },
+          {
+            "original": "Я знаю",
+            "phonetic": "ja ˈznaju",
+            "translation": "Eu sei",
+            "note": "O verbo 'знать' (saber) também é da primeira conjugação e segue o mesmo padrão."
+          },
+          {
+            "original": "Она говорит?",
+            "phonetic": "ɐˈna ɡəvɐˈrʲit",
+            "translation": "Ela fala?",
+            "note": "Embora 'говорить' pertença à segunda conjugação, aqui mostramos um exemplo comum; no entanto, note que não segue o padrão -ать. Para o nível A1, é útil comparar."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Множественное число и исключения / Plural e exceções",
+        "translation": "Plural e exceções",
+        "examples": [
+          {
+            "original": "Мы читаем",
+            "phonetic": "mɨ tɕɪˈtaɪm",
+            "translation": "Nós lemos",
+            "note": "Terminação -ем para a primeira pessoa do plural."
+          },
+          {
+            "original": "Вы читаете",
+            "phonetic": "vɨ tɕɪˈtaɪtʲe",
+            "translation": "Vocês leem",
+            "note": "Terminação -ете para a segunda pessoa do plural (formal ou informal, dependendo do contexto)."
+          },
+          {
+            "original": "Они читают",
+            "phonetic": "ɐˈnʲi tɕɪˈtajʊt",
+            "translation": "Eles leem",
+            "note": "Terminação -ют para a terceira pessoa do plural."
+          },
+          {
+            "original": "Я пишу",
+            "phonetic": "ja pʲɪˈʂu",
+            "translation": "Eu escrevo",
+            "note": "Exceção: o verbo 'писать' muda 'с' para 'ш' na primeira pessoa do singular, um fenômeno de alternância consonantal."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbos regulares no presente"
+    }
+  },
+  {
+    "id": "pt_A1_gram_06",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Отрицание / Negação",
+    "bridge": "Em espanhol, para simplesmente negar, colocamos 'no' antes do verbo. Em russo, a partícula 'не' também existe, mas há uma nuance importante: ao negar a existência de algo (equivalente a 'não há' ou 'eu não tenho'), o objeto geralmente assume o caso genitivo. Além disso, o russo não usa dupla negação: se houver uma palavra negativa como 'никогда' (nunca) ou 'ничего' (nada), a partícula 'не' também aparece, mas não é duplicada como em espanhol ('no... nada' é dito como 'ничего не').",
+    "rule": "Para formar negação em russo, coloque a partícula 'не' antes do verbo: 'Я не говорю по-испански' (Eu não falo espanhol). Para negar existência ou posse, use 'нет' com o sujeito no caso genitivo: 'У меня нет времени' (Eu não tenho tempo). No presente, o verbo 'быть' (ser/estar) é omitido em frases afirmativas, mas na negação de existência usa-se 'нет'. Em frases com pronomes ou advérbios negativos (никто, ничто, никогда, etc.), o verbo também recebe 'не', por exemplo 'Он ничего не знает' (Ele não sabe nada). O russo não usa dupla negação como em espanhol; em vez disso, 'не' é obrigatório junto à palavra negativa.",
+    "concept_examples": [
+      {
+        "text": "Я не говорю по-русски.",
+        "translation": "Eu não falo russo.",
+        "phonetic": "[ja nʲɪ ɡɐvɐˈrʲu pə ˈruskʲɪ]"
+      },
+      {
+        "text": "У меня нет времени.",
+        "translation": "Eu não tenho tempo.",
+        "phonetic": "[u mʲɪˈnʲa nʲɛt ˈvrʲemʲɪnʲɪ]"
+      },
+      {
+        "text": "Он не знает ответа.",
+        "translation": "Ele não sabe a resposta.",
+        "phonetic": "[on nʲɪ ˈznajɪt ɐtˈvʲetə]"
+      },
+      {
+        "text": "Мы не говорим по-английски.",
+        "translation": "Nós não falamos inglês.",
+        "phonetic": "[mɨ nʲɪ ɡəvɐˈrʲim pə ɐnˈɡlʲijskʲɪ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я нет говорю по-русски.",
+      "correct": "Я не говорю по-русски.",
+      "correct_alt": "Я не говорю по-русски.",
+      "explanation": "O erro está em usar 'нет' para negar um verbo. Em russo, 'нет' só é usado para negar existência (equivalente a 'não há' ou 'eu não tenho'), enquanto para negar ações ou qualidades a partícula 'не' é colocada antes do verbo. Lembre-se: 'не' para verbos, 'нет' para existência/posse."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Не + глагол (Не + verbo)",
+        "translation": "Negação com verbos",
+        "examples": [
+          {
+            "original": "Она не работает.",
+            "phonetic": "[ɐˈna nʲɪ rɐˈbotəjɪt]",
+            "translation": "Ela não trabalha.",
+            "note": "A partícula 'не' é colocada diretamente antes do verbo."
+          },
+          {
+            "original": "Мы не понимаем.",
+            "phonetic": "[mɨ nʲɪ pənʲɪˈma(j)ɪm]",
+            "translation": "Nós não entendemos.",
+            "note": "A negação não altera a conjugação do verbo."
+          },
+          {
+            "original": "Ты не читаешь.",
+            "phonetic": "[tɨ nʲɪ t͡ɕɪˈta(j)ɪʂ]",
+            "translation": "Você não lê.",
+            "note": "Observe a ordem: sujeito + не + verbo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Нет + родительный падеж (No hay + genitivo)",
+        "translation": "Negação de existência/posse com genitivo",
+        "examples": [
+          {
+            "original": "У меня нет собаки.",
+            "phonetic": "[u mʲɪˈnʲa nʲɛt sɐˈbakʲɪ]",
+            "translation": "Eu não tenho um cachorro.",
+            "note": "Na negação de posse, o objeto assume o caso genitivo (cachorro → собаки)."
+          },
+          {
+            "original": "Здесь нет стула.",
+            "phonetic": "[zʲdʲesʲ nʲɛt ˈstulə]",
+            "translation": "Não há cadeira aqui.",
+            "note": "O genitivo de 'стул' (cadeira) é 'стула'."
+          },
+          {
+            "original": "В комнате нет окна.",
+            "phonetic": "[v ˈkomnətʲɪ nʲɛt ɐkˈna]",
+            "translation": "Não há janela no quarto.",
+            "note": "Substantivos neutros mudam -о para -а no caso genitivo."
+          },
+          {
+            "original": "У нас нет денег.",
+            "phonetic": "[u nas nʲɛt ˈdʲenʲɪk]",
+            "translation": "Nós não temos dinheiro.",
+            "note": "Preste atenção ao genitivo plural: 'деньги' → 'денег'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Отрицательные слова (Palavras negativas)",
+        "translation": "Palavras negativas: ninguém, nada, nunca",
+        "examples": [
+          {
+            "original": "Никто не пришёл.",
+            "phonetic": "[nʲɪkˈto nʲɪ prʲɪˈʂol]",
+            "translation": "Ninguém veio.",
+            "note": "Em russo, usa-se 'никто' + 'не' + verbo. Não é dupla negação; é padrão."
+          },
+          {
+            "original": "Я ничего не вижу.",
+            "phonetic": "[ja nʲɪt͡ɕɪˈvo nʲɪ ˈvʲiʐu]",
+            "translation": "Eu não vejo nada.",
+            "note": "Literalmente: 'Eu nada não vejo.' Diferente do espanhol, 'не' é obrigatório aqui."
+          },
+          {
+            "original": "Она никогда не опаздывает.",
+            "phonetic": "[ɐˈna nʲɪkɐɡˈda nʲɪ ɐˈpazdɨvəjɪt]",
+            "translation": "Ela nunca se atrasa.",
+            "note": "Com 'никогда' (nunca), 'не' também é usado antes do verbo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙅",
+    "phonetic": "",
+    "translations": {
+      "pt": "Negação básica"
+    }
+  },
+  {
+    "id": "pt_A1_gram_07",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Основные вопросы / Perguntas básicas",
+    "bridge": "Em russo, perguntas de sim/não não exigem inversão ou uma partícula interrogativa adicional; são simplesmente formadas com entonação ascendente. Ao contrário do espanhol, não é necessário colocar o verbo antes do sujeito. Para perguntas com 'o que', 'quem', 'onde', etc., uma palavra interrogativa é usada no início, mas a ordem das palavras permanece sujeito-verbo-objeto, o que pode parecer mais rígida do que em espanhol.",
+    "rule": "As perguntas de sim/não são formadas da mesma maneira que as frases declarativas, apenas com entonação ascendente. Perguntas com palavras interrogativas: кто (quem), что (o que), где (onde), когда (quando), почему (por que), как (como). A palavra interrogativa vai no início, seguida pela ordem normal das palavras (sujeito-verbo). O verbo 'ser' (быть) não é usado no presente; ele é omitido. Para perguntar 'Quem é?' você diz 'Кто это?' (literalmente: Quem isso?).",
+    "concept_examples": [
+      {
+        "text": "Ты говоришь по-русски?",
+        "translation": "Você fala russo?",
+        "phonetic": "[tɨ gəvɐˈrʲiʂ pɐ ˈruskʲɪ]"
+      },
+      {
+        "text": "Где ты живёшь?",
+        "translation": "Onde você mora?",
+        "phonetic": "[gdʲe tɨ ʐɨˈvʲɵʂ]"
+      },
+      {
+        "text": "Что это?",
+        "translation": "O que é isso?",
+        "phonetic": "[ʂto ˈɛtə]"
+      },
+      {
+        "text": "Почему он не здесь?",
+        "translation": "Por que ele não está aqui?",
+        "phonetic": "[pɐˈtɕʲimu on nʲɛ zdʲesʲ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ты говоришь по-русски? (with flat intonation)",
+      "correct": "Ты говоришь по-русски? (with rising intonation)",
+      "correct_alt": "",
+      "explanation": "O erro mais comum é manter uma entonação declarativa ao fazer uma pergunta. Em espanhol, a entonação ascendente também marca uma pergunta, mas falantes de espanhol muitas vezes usam estruturas auxiliares (¿tú hablas?). Em russo, a entonação é crucial: se você não aumentar o tom no final da frase, não é uma pergunta. Pratique elevar o tom no final da frase."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Вопросы да/нет",
+        "translation": "Perguntas de sim/não",
+        "examples": [
+          {
+            "original": "Ты студент?",
+            "phonetic": "[tɨ stʊˈdʲɛnt]",
+            "translation": "Você é estudante?",
+            "note": "Observe que o verbo 'ser' não é usado no presente."
+          },
+          {
+            "original": "Она дома?",
+            "phonetic": "[ɐˈna ˈdomə]",
+            "translation": "Ela está em casa?",
+            "note": "A preposição 'em' é omitida; simplesmente use 'дома'."
+          },
+          {
+            "original": "Вы понимаете?",
+            "phonetic": "[vɨ pənʲɪˈmajɪtʲɛ]",
+            "translation": "Você entende?",
+            "note": "Use 'вы' (você formal/plural) para contextos formais ou plurais."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Кто и что",
+        "translation": "Quem e o que",
+        "examples": [
+          {
+            "original": "Кто это?",
+            "phonetic": "[kto ˈɛtə]",
+            "translation": "Quem é?",
+            "note": "'это' significa 'isso', mas é usado para 'é'."
+          },
+          {
+            "original": "Что ты делаешь?",
+            "phonetic": "[ʂto tɨ ˈdʲɛləjɪʂ]",
+            "translation": "O que você está fazendo?",
+            "note": "A forma 'делаешь' é o presente do verbo 'делать'."
+          },
+          {
+            "original": "Что это?",
+            "phonetic": "[ʂto ˈɛtə]",
+            "translation": "O que é isso?",
+            "note": "Usado para perguntar sobre objetos."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Где, когда, почему",
+        "translation": "Onde, quando, por que",
+        "examples": [
+          {
+            "original": "Где туалет?",
+            "phonetic": "[gdʲe tʊɐˈlʲɛt]",
+            "translation": "Onde fica o banheiro?",
+            "note": "O verbo 'ficar' não é usado."
+          },
+          {
+            "original": "Когда у тебя урок?",
+            "phonetic": "[kɐɡˈda u tʲɪˈbʲa ˈurək]",
+            "translation": "Quando você tem aula?",
+            "note": "'у тебя' literalmente significa 'você tem'."
+          },
+          {
+            "original": "Почему ты плачешь?",
+            "phonetic": "[pɐˈtɕʲimu tɨ ˈplatɕɪʂ]",
+            "translation": "Por que você está chorando?",
+            "note": "Use 'por que' para razões, não 'para que' (para qual propósito)."
+          }
+        ]
+      }
+    ],
+    "emoji": "❓",
+    "phonetic": "",
+    "translations": {
+      "pt": "Perguntas básicas"
+    }
+  },
+  {
+    "id": "pt_A1_gram_08",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Числа 1-100 / Números de 1 a 100",
+    "bridge": "Em espanhol, os números de 1 a 100 são formados de maneira bastante regular, mas em russo há algumas diferenças importantes: a pronúncia dos números muda ligeiramente quando combinados, e é necessário prestar atenção à ortografia dos números compostos. Além disso, os números em russo têm gênero (masculino, feminino, neutro) e são flexionados de acordo com o caso gramatical, embora no nível A1 nos concentremos na forma do nominativo. Outro aspecto importante é que o russo não usa a conjunção 'e' entre as dezenas e as unidades (em espanhol dizemos 'treinta y cinco', em russo é 'тридцать пять').",
+    "rule": "Para formar números de 1 a 100 em russo: os números de 1 a 10 são: один, два, три, четыре, пять, шесть, семь, восемь, девять, десять. De 11 a 19, são formados adicionando -надцать ao número base (одиннадцать, двенадцать, тринадцать, четырнадцать, пятнадцать, шестнадцать, семнадцать, восемнадцать, девятнадцать). As dezenas são: двадцать (20), тридцать (30), сорок (40), пятьдесят (50), шестьдесят (60), семьдесят (70), восемьдесят (80), девяносто (90). Para formar números compostos (21, 35, 48, etc.), escreva a dezena seguida da unidade sem 'e', por exemplo: двадцать один (21), тридцать пять (35). O número 'сто' é 100. Observação: os números 1 e 2 têm formas femininas (одна, две) e neutras (одно, два) para concordar com o substantivo.",
+    "concept_examples": [
+      {
+        "text": "У меня двадцать один год.",
+        "translation": "Eu tenho vinte e um anos.",
+        "phonetic": "[u mʲɪˈnʲa ˈdvat͡sɨtʲ ˈodʲin ˈɡot]"
+      },
+      {
+        "text": "В классе тридцать пять студентов.",
+        "translation": "Há trinta e cinco estudantes na sala.",
+        "phonetic": "[f ˈklasʲe ˈtrʲit͡sɨtʲ ˈpʲætʲ stʊˈdʲentəf]"
+      },
+      {
+        "text": "Книга стоит девяносто рублей.",
+        "translation": "O livro custa noventa rublos.",
+        "phonetic": "[ˈknʲiɡə ˈstoɪt dʲɪvʲɪˈnostə rʊˈblʲej]"
+      },
+      {
+        "text": "Мне сорок два года.",
+        "translation": "Eu tenho quarenta e dois anos.",
+        "phonetic": "[mnʲe ˈsorək ˈdva ˈɡodə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Мне тридцать и пять лет.",
+      "correct": "Мне тридцать пять лет.",
+      "correct_alt": "",
+      "explanation": "Em espanhol, os números compostos são formados com a conjunção 'e' (treinta y cinco). Em russo, não se deve usar 'и' para unir dezenas e unidades; elas são simplesmente escritas juntas, separadas por um espaço: тридцать пять. Esse erro é comum quando se transfere diretamente a estrutura do espanhol para o russo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "1-10",
+        "translation": "1-10",
+        "examples": [
+          {
+            "original": "один",
+            "phonetic": "[ɐˈdʲin]",
+            "translation": "um",
+            "note": "O número 'один' muda sua terminação dependendo do gênero: одна (fem.), одно (neutro)."
+          },
+          {
+            "original": "два",
+            "phonetic": "[dva]",
+            "translation": "dois",
+            "note": "'Два' tem forma feminina 'две'."
+          },
+          {
+            "original": "три",
+            "phonetic": "[trʲi]",
+            "translation": "três",
+            "note": "A letra 'р' é branda (palatalizada), o que não existe em espanhol; é pronunciada como 'ri', mas mais curta."
+          },
+          {
+            "original": "пять",
+            "phonetic": "[pʲætʲ]",
+            "translation": "cinco",
+            "note": "A vogal 'я' é pronunciada entre 'a' e 'e' (geralmente como um 'ia' suave)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "11-20",
+        "translation": "11-20",
+        "examples": [
+          {
+            "original": "одиннадцать",
+            "phonetic": "[ɐˈdʲinət͡sɨtʲ]",
+            "translation": "onze",
+            "note": "Formado com один + надцать (sufixo para 11-19)."
+          },
+          {
+            "original": "двенадцать",
+            "phonetic": "[dvʲɪˈnat͡sɨtʲ]",
+            "translation": "doze",
+            "note": "A raiz 'дв' muda para 'две-' nesta forma."
+          },
+          {
+            "original": "пятнадцать",
+            "phonetic": "[pʲɪtˈnat͡sɨtʲ]",
+            "translation": "quinze",
+            "note": "Diferentemente do espanhol, os números de 11 a 19 são escritos como uma só palavra."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "20-100",
+        "translation": "20-100",
+        "examples": [
+          {
+            "original": "двадцать",
+            "phonetic": "[ˈdvat͡sɨtʲ]",
+            "translation": "vinte",
+            "note": "A forma da dezena é invariável."
+          },
+          {
+            "original": "тридцать пять",
+            "phonetic": "[ˈtrʲit͡sɨtʲ ˈpʲætʲ]",
+            "translation": "trinta e cinco",
+            "note": "Escrito sem 'e', ao contrário do espanhol."
+          },
+          {
+            "original": "сорок",
+            "phonetic": "[ˈsorək]",
+            "translation": "quarenta",
+            "note": "O número 40 em russo é irregular; não é dito como 'четыредесят'."
+          },
+          {
+            "original": "сто",
+            "phonetic": "[sto]",
+            "translation": "cem",
+            "note": "'Сто' é o número 100."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "pt": "Números de 1 a 100"
+    }
+  },
+  {
+    "id": "pt_A1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Базовые прилагательные и согласование / Adjetivos Básicos e Concordância",
+    "bridge": "Em espanhol, os adjetivos concordam em gênero e número com o substantivo, mas em russo a concordância é mais complexa porque também é necessário considerar o caso gramatical (nominativo, acusativo, etc.). No nível A1, focamos no caso nominativo (sujeito). Outra diferença importante: o russo não tem artigos, então você dirá «большой дом» (casa grande) sem 'um' ou 'o'. Além disso, o adjetivo muda dependendo do gênero: masculino, feminino e neutro, além do plural. Preste atenção às terminações: -ый/-ой para masculino, -ая para feminino, -ое para neutro e -ые/-ие para plural.",
+    "rule": "Em russo, os adjetivos qualitativos (como большой 'grande', красивый 'bonito', новый 'novo') concordam com o substantivo em gênero, número e caso. No nível A1, dominamos o caso nominativo (sujeito da frase). As terminações típicas são: Masculino: -ый (após consoantes duras), -ий (após consoantes moles, como 'новый' vs 'синий') ou -ой (sob estresse, como 'большой'). Feminino: -ая (новая) ou -яя (синяя). Neutro: -ое (новое) ou -ее (синее). Plural: -ые (новые) ou -ие (синие) para todos os gêneros. A forma básica do adjetivo (masculino) é encontrada no dicionário. Para formar o feminino, substitua -ый/-ой por -ая. Para o neutro, substitua por -ое. Para o plural, substitua por -ые. Exemplos: новый (novo) -> новая (nova feminino), новое (novo neutro), новые (novos plural). Lembre-se de que, se o substantivo for inanimado e masculino, o caso acusativo coincide com o nominativo, mas isso é para depois. No nível A1, usamos frases simples: «Это большой дом» (Esta é uma casa grande).",
+    "concept_examples": [
+      {
+        "text": "Это большой дом.",
+        "translation": "Esta é uma casa grande.",
+        "phonetic": "[ˈɛtə bɐlʲˈʂoj dom]"
+      },
+      {
+        "text": "Это красивая женщина.",
+        "translation": "Esta é uma mulher bonita.",
+        "phonetic": "[ˈɛtə krɐˈsʲivəjə ˈʐɛnʲɕːɪnə]"
+      },
+      {
+        "text": "Это новое окно.",
+        "translation": "Esta é uma janela nova.",
+        "phonetic": "[ˈɛtə ˈnovəjə ɐkˈno]"
+      },
+      {
+        "text": "Это старые книги.",
+        "translation": "Estes são livros antigos.",
+        "phonetic": "[ˈɛtə ˈstarɨjə ˈknʲiɡʲɪ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Это большой книга.",
+      "correct": "Это большая книга.",
+      "correct_alt": "",
+      "explanation": "Um erro comum que falantes de espanhol cometem é esquecer a concordância de gênero. Por exemplo, podem dizer «Это большой книга» (misturando masculino com feminino). Em russo, o adjetivo deve corresponder ao gênero do substantivo: книга (feminino) requer красивая, não красивый. Para evitar isso, aprenda o gênero de cada substantivo junto com a palavra. Sempre memorize substantivos com seu artigo natural (mesmo que não haja artigo, pense em 'el' ou 'la'). Pratique com pares: дом (masculino) - большой, книга (feminino) - большая, окно (neutro) - большое, книги (plural) - большие."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Формы мужского и женского рода",
+        "translation": "Formas do masculino e do feminino",
+        "examples": [
+          {
+            "original": "новый стол",
+            "phonetic": "[ˈnovɨj stol]",
+            "translation": "mesa nova (masculino: стол)",
+            "note": "стол é masculino, então usamos новый. Observe que em espanhol 'mesa' é feminino, mas em russo é masculino."
+          },
+          {
+            "original": "новая книга",
+            "phonetic": "[ˈnovəjə ˈknʲiɡə]",
+            "translation": "livro novo (feminino: книга)",
+            "note": "книга é feminino, termina em -а, então o adjetivo recebe -ая."
+          },
+          {
+            "original": "красивый парк",
+            "phonetic": "[krɐˈsʲivɨj park]",
+            "translation": "parque bonito",
+            "note": "парк é masculino, então usamos красивый."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Форма среднего рода",
+        "translation": "Forma do neutro",
+        "examples": [
+          {
+            "original": "новое окно",
+            "phonetic": "[ˈnovəjə ɐkˈno]",
+            "translation": "janela nova (neutro)",
+            "note": "окно é neutro, então usamos новое. Lembre-se de que o espanhol não tem gênero neutro."
+          },
+          {
+            "original": "красивое море",
+            "phonetic": "[krɐˈsʲivəjə ˈmorʲe]",
+            "translation": "mar bonito",
+            "note": "море é neutro (termina em -е), então красивый vira красивое."
+          },
+          {
+            "original": "большое яблоко",
+            "phonetic": "[bɐlʲˈʂojə ˈjabɫəkə]",
+            "translation": "maçã grande",
+            "note": "яблоко é neutro, então usamos большое. Observe a terminação -ое."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Множественное число",
+        "translation": "Plural",
+        "examples": [
+          {
+            "original": "новые столы",
+            "phonetic": "[ˈnovɨjə stɐˈlʲi]",
+            "translation": "mesas novas",
+            "note": "O plural é igual para todos os gêneros: -ые. столы é plural masculino."
+          },
+          {
+            "original": "красивые женщины",
+            "phonetic": "[krɐˈsʲivɨjə ˈʐɛnʲɕːɪnɨ]",
+            "translation": "mulheres bonitas",
+            "note": "женщины é plural feminino, então usamos красивые."
+          },
+          {
+            "original": "большие окна",
+            "phonetic": "[bɐlʲˈʂɨjə ˈoknə]",
+            "translation": "janelas grandes",
+            "note": "окна é plural neutro (embora termine em -а), mas o adjetivo está na forma plural."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "pt": "Adjetivos Básicos e Concordância"
+    }
+  },
+  {
+    "id": "pt_A1_gram_10",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Притяжательные местоимения / Pronomes Possessivos",
+    "bridge": "Em espanhol, dizemos 'mi', 'tu', 'su' e essas palavras não mudam de acordo com o gênero ou número do substantivo. Em russo, os pronomes possessivos devem concordar em gênero, número e caso com o substantivo que acompanham. Além disso, os possessivos russos têm formas diferentes dependendo da pessoa (meu, teu, seu/dele/dela/deles, nosso, vosso), e enquanto 'seu' (dele) não muda, 'nosso' e 'vosso' mudam. Um erro comum é usar 'его' para 'dela' (deveria ser 'её') ou não alterar o possessivo quando o substantivo é feminino ou plural.",
+    "rule": "Em russo, os pronomes possessivos concordam com o substantivo em gênero (masculino, feminino, neutro), número (singular/plural) e caso (embora no nível A1 foquemos no caso nominativo). Os possessivos básicos são: мой (meu, masculino), моя (minha, feminino), моё (meu, neutro), мои (meus, plural). Para 'teu': твой/твоя/твоё/твои. Para 'dele': его (invariável); para 'dela': её (invariável); para 'deles': их (invariável). Para 'nosso': наш/наша/наше/наши. Para 'vosso' (plural/formal): ваш/ваша/ваше/ваши. Observação: o russo não distingue entre 'seu' (formal) e 'dele/dela/deles'; 'его', 'её' e 'их' são usados dependendo do possuidor. Para perguntar 'de quem?', use чей/чья/чьё/чьи. Os possessivos russos vêm antes do substantivo, assim como em espanhol. No nível A1, é fundamental dominar a concordância de gênero e número.",
+    "concept_examples": [
+      {
+        "text": "Это мой дом.",
+        "translation": "Esta é a minha casa.",
+        "phonetic": "[ˈɛtə moj dom]"
+      },
+      {
+        "text": "Это моя мама.",
+        "translation": "Esta é a minha mãe.",
+        "phonetic": "[ˈɛtə mɐˈja ˈmamə]"
+      },
+      {
+        "text": "Это моё окно.",
+        "translation": "Esta é a minha janela.",
+        "phonetic": "[ˈɛtə mɐˈjo ɐkˈno]"
+      },
+      {
+        "text": "Это мои книги.",
+        "translation": "Estes são os meus livros.",
+        "phonetic": "[ˈɛtə mɐˈi ˈknʲiɡʲɪ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Это моя дом.",
+      "correct": "Это мой дом.",
+      "correct_alt": "",
+      "explanation": "O erro ocorre porque, em espanhol, 'mi' não muda, mas em russo o possessivo deve concordar com o gênero do substantivo. 'Дом' (casa) é masculino, então se usa 'мой', e não 'моя' (que é para substantivos femininos). Para evitar esse erro, aprenda o gênero de cada substantivo junto com sua terminação (em russo não há artigos, mas você pode associar as terminações: -о/-е para neutro, -а/-я para feminino, consoante para masculino)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Мой / моя / моё / мои (mi/mis)",
+        "translation": "Meu / minha / meu / meus (possessivo da primeira pessoa do singular)",
+        "examples": [
+          {
+            "original": "Мой папа — врач.",
+            "phonetic": "[moj ˈpapə vrat͡ɕ]",
+            "translation": "Meu pai é médico.",
+            "note": "Com substantivos masculinos (que terminam em consoante), usa-se 'мой'."
+          },
+          {
+            "original": "Моя сестра — студентка.",
+            "phonetic": "[mɐˈja sʲɪˈstra ˈstudʲɪntkə]",
+            "translation": "Minha irmã é estudante.",
+            "note": "Com substantivos femininos (que terminam em -а/я), usa-se 'моя'."
+          },
+          {
+            "original": "Моё письмо.",
+            "phonetic": "[mɐˈjo pʲɪsʲˈmo]",
+            "translation": "Minha carta.",
+            "note": "Com substantivos neutros (que terminam em -о/е), usa-se 'моё'."
+          },
+          {
+            "original": "Мои друзья.",
+            "phonetic": "[mɐˈi drʊzʲˈja]",
+            "translation": "Meus amigos.",
+            "note": "No plural, sempre se usa 'мои', independentemente do gênero."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Твой / твоя / твоё / твои; ваш / ваша / ваше / ваши (tu, vuestro)",
+        "translation": "Teu / tua / teu / teus; vosso / vossa / vosso / vossos (possessivos da segunda pessoa)",
+        "examples": [
+          {
+            "original": "Твой брат дома.",
+            "phonetic": "[tvoj brat ˈdomə]",
+            "translation": "Teu irmão está em casa.",
+            "note": "'Твой' é usado para o singular masculino, assim como 'мо́й'."
+          },
+          {
+            "original": "Твоя книга на столе.",
+            "phonetic": [
+              "tvɐˈja ˈknʲiɡə nə stɐˈlʲe"
+            ],
+            "translation": "Teu livro está sobre a mesa.",
+            "note": "'Твоя' concorda com 'книга' (feminino)."
+          },
+          {
+            "original": "Ваш дом большой.",
+            "phonetic": "[vaʂ dom bɐlʲˈʂoj]",
+            "translation": "Sua casa (formal/plural) é grande.",
+            "note": "'Ваш' é usado para 'vosso' (formal/plural) e concorda como 'мо́й'."
+          },
+          {
+            "original": "Ваши дети умные.",
+            "phonetic": "[ˈvaʂɨ ˈdʲetʲɪ ˈumnɨje]",
+            "translation": "Vossos filhos (formal/plural) são inteligentes.",
+            "note": "No plural, sempre se usa 'ваши'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Его, её, их; наш / наша / наше / наши (su de él/ella/ellos, nuestro)",
+        "translation": "Dele / dela / deles / nosso (possessivos)",
+        "examples": [
+          {
+            "original": "Его машина красная.",
+            "phonetic": "[jɪˈvo mɐˈʂɨnə ˈkrasnəjə]",
+            "translation": "O carro dele é vermelho.",
+            "note": "'Его' não muda, mesmo se o substantivo for feminino."
+          },
+          {
+            "original": "Её сумка на стуле.",
+            "phonetic": "[jɪˈjo ˈsumkə nə ˈstulʲe]",
+            "translation": "A bolsa dela está na cadeira.",
+            "note": "'Её' é invariável; não confunda com 'его'."
+          },
+          {
+            "original": "Их дом в центре.",
+            "phonetic": "[ix dom ft͡sɛntrʲe]",
+            "translation": "A casa deles está no centro.",
+            "note": "'Их' também é invariável."
+          },
+          {
+            "original": "Наш учитель говорит по-русски.",
+            "phonetic": "[naʂ ʊˈt͡ɕitʲɪlʲ ɡɐˈvɐrʲit pɐˈruskʲɪ]",
+            "translation": "Nosso professor fala russo.",
+            "note": "'Наш' concorda com 'учитель' (masculino)."
+          }
+        ]
+      }
+    ],
+    "emoji": "👨‍👩‍👧‍👦",
+    "phonetic": "",
+    "translations": {
+      "pt": "Pronomes Possessivos"
+    }
+  },
+  {
+    "id": "pt_A1_gram_11",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Указательные местоимения / Pronomes demonstrativos",
+    "bridge": "Em espanhol, os demonstrativos (este, ese, aquel) mudam de acordo com gênero e número. Em russo, eles também mudam, mas de forma diferente: têm três gêneros (masculino, feminino, neutro) e dois números (singular e plural). Além disso, o russo não tem artigos, então muitas vezes usamos os demonstrativos para apontar algo específico. Um ponto-chave: o russo distingue entre 'этот' (perto do falante) e 'тот' (longe do falante e do ouvinte), semelhante a 'este' e 'ese/aquel' em espanhol, mas com nuances adicionais.",
+    "rule": "Em russo, os principais demonstrativos são: 'этот' (este, perto), 'тот' (aquele, longe) e 'это' (isto, neutro). Concordância: 'этот' para masculino, 'эта' para feminino, 'это' para neutro, 'эти' para plural. Para 'тот': 'тот' (masculino), 'та' (feminino), 'то' (neutro), 'те' (plural). Eles são usados antes do substantivo e concordam em gênero, número e caso (embora no nível A1 só vejamos o nominativo). Há também 'такой' (tal), mas não é necessário para o nível A1. É importante não confundir 'это' (pronome neutro) com 'это' do verbo 'быть' (ser).",
+    "concept_examples": [
+      {
+        "text": "Этот дом большой.",
+        "translation": "Esta casa é grande.",
+        "phonetic": "ˈɛtət dom bɐlʲˈʂoj"
+      },
+      {
+        "text": "Эта книга интересная.",
+        "translation": "Este livro é interessante.",
+        "phonetic": "ˈɛtə ˈknʲiɡə ɪnʲtʲɪˈrʲesnəjə"
+      },
+      {
+        "text": "Это окно открыто.",
+        "translation": "Esta janela está aberta.",
+        "phonetic": "ˈɛtə ˈaknə ɐtˈkrɨtə"
+      },
+      {
+        "text": "Те дома новые.",
+        "translation": "Aquelas casas são novas.",
+        "phonetic": "tʲe dɐˈma ˈnovɨje"
+      }
+    ],
+    "common_error": {
+      "wrong": "Этот книга хорошая.",
+      "correct": "Эта книга хорошая.",
+      "correct_alt": "Это книга хорошая.",
+      "explanation": "O erro ocorre porque em português dizemos 'este livro' sem distinguir o gênero do substantivo, mas em russo o demonstrativo deve concordar em gênero com o substantivo. 'Книга' é feminino, então 'эта' é necessário, não 'этот'. Para evitar isso, aprenda o gênero de cada substantivo junto com a palavra (mesmo que o russo não tenha artigos, ajuda memorizar 'книга' como feminino). Outra opção é usar 'это' como pronome neutro, que muitas vezes se traduz como 'isto' e pode ser mais seguro se você não souber o gênero."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Этот / Эта / Это (este, esta, isto)",
+        "translation": "Este / Esta / Isto",
+        "examples": [
+          {
+            "original": "Этот стол новый.",
+            "phonetic": "ˈɛtət stol ˈnovɨj",
+            "translation": "Esta mesa é nova.",
+            "note": "Стол é masculino, então usamos 'этот'."
+          },
+          {
+            "original": "Эта чашка моя.",
+            "phonetic": "ˈɛtə ˈt͡ɕaʂkə mɐˈja",
+            "translation": "Este copo é meu.",
+            "note": "Чашка é feminino, então usamos 'эта'."
+          },
+          {
+            "original": "Это яблоко вкусное.",
+            "phonetic": "ˈɛtə ˈjabɫəkə ˈfkusnəje",
+            "translation": "Esta maçã é saborosa."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Эти (estes, estas)",
+        "translation": "Estes / Estas",
+        "examples": [
+          {
+            "original": "Эти книги новые.",
+            "phonetic": "ˈɛtʲɪ ˈknʲiɡʲɪ ˈnovɨje",
+            "translation": "Estes livros são novos.",
+            "note": "O plural de 'этот/эта/это' é 'эти', e não muda de acordo com o gênero."
+          },
+          {
+            "original": "Эти окна большие.",
+            "phonetic": "ˈɛtʲɪ ˈoknə bɐlʲˈʂɨje",
+            "translation": "Estas janelas são grandes.",
+            "note": "Funciona da mesma forma para substantivos neutros no plural."
+          },
+          {
+            "original": "Эти студенты умные.",
+            "phonetic": "ˈɛtʲɪ stʊˈdʲentɨ ˈumnɨje",
+            "translation": "Estes estudantes são inteligentes.",
+            "note": "Em português, às vezes usamos 'estes' para o plural masculino, mas em russo é 'эти' sem distinção."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Тот / Та / То / Те (esse, aquele, essa, aqueles)",
+        "translation": "Aquele / Aquela / Aquilo / Aqueles",
+        "examples": [
+          {
+            "original": "Тот дом старый.",
+            "phonetic": "tot dom ˈstarɨj",
+            "translation": "Aquele prédio é velho.",
+            "note": "'Тот' é usado para algo longe, semelhante a 'aquele'."
+          },
+          {
+            "original": "Та улица широкая.",
+            "phonetic": "ta ˈulʲɪt͡sə ʂɨˈrokəjə",
+            "translation": "Aquela rua é larga.",
+            "note": "'Та' para feminino longe."
+          },
+          {
+            "original": "То море глубокое.",
+            "phonetic": "to ˈmorʲe ɡɫʊˈbokəje",
+            "translation": "Aquele mar é profundo.",
+            "note": "'То' para neutro longe."
+          },
+          {
+            "original": "Те города красивые.",
+            "phonetic": "tʲe ɡərɐˈda krɐˈsʲivɨje",
+            "translation": "Aqueles cidades são bonitas.",
+            "note": "'Те' é o plural de 'тот/та/то'."
+          }
+        ]
+      }
+    ],
+    "emoji": "👉",
+    "phonetic": "",
+    "translations": {
+      "pt": "Pronomes demonstrativos"
+    }
+  },
+  {
+    "id": "pt_A1_gram_12",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Есть / Нет / Hay / There is / There are",
+    "bridge": "Em espanhol, 'hay' é uma forma impessoal usada para afirmar ou perguntar sobre a existência de algo. Em russo, essa ideia é expressa de forma diferente: 'есть' (há) é usado para afirmações e 'нет' (não há) para negações, mas essas não são verbos conjugados, e sim formas especiais. Além disso, o russo diferencia 'hay' e 'ter' de modo distinto do espanhol: 'у меня есть' significa 'eu tenho' (literalmente 'há em mim'). Observe que o russo não usa o verbo 'ser' para expressar existência no presente; ele usa 'есть' ou o omite.",
+    "rule": "Em russo, para expressar existência no presente, usa-se a palavra 'есть' (/jɛsʲtʲ/, significando 'há'), e sua negação é 'нет' (/nʲɛt/, significando 'não há' ou 'eu não tenho'). Diferentemente do espanhol, 'есть' não é conjugado por pessoa ou número; ele sempre permanece o mesmo. Em frases afirmativas com 'есть', o sujeito (a coisa que existe) está no caso nominativo. Em frases negativas com 'нет', o sujeito (aquilo que não existe) está no caso genitivo (geralmente terminando em -а/-я para masculino e neutro, -ы/-и para feminino). Para perguntar se algo existe, use 'есть' no início: 'Есть ...?' (Há ...?). Respostas curtas: 'Да, есть' (Sim, há) ou 'Нет, нет' (Não, não há). Além disso, a estrutura 'у + genitivo + есть' expressa posse: 'у меня есть' (eu tenho), 'у тебя есть' (você tem), etc.",
+    "concept_examples": [
+      {
+        "text": "В комнате есть стул.",
+        "translation": "Há uma cadeira no quarto.",
+        "phonetic": "[v ˈkomnətʲe jɛsʲtʲ stul]"
+      },
+      {
+        "text": "В сумке нет ключей.",
+        "translation": "Não há chaves na bolsa.",
+        "phonetic": "[v ˈsumnkʲe nʲɛt klʲʉˈt͡ɕej]"
+      },
+      {
+        "text": "У меня есть брат.",
+        "translation": "Eu tenho um irmão.",
+        "phonetic": "[u mʲɪˈnʲa jɛsʲtʲ brat]"
+      },
+      {
+        "text": "Есть вопросы?",
+        "translation": "Há alguma pergunta?",
+        "phonetic": "[jɛsʲtʲ vɐˈprosɨ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "В комнате есть стул?",
+      "correct": "В комнате есть стул?",
+      "correct_alt": "Есть стул в комнате?",
+      "explanation": "Esse erro é sutil: em espanhol, as perguntas muitas vezes envolvem mudanças na ordem das palavras ou sinais de interrogação no início e no fim. Em russo, a entonação marca a pergunta, e a ordem das palavras permanece inalterada. A frase 'В комнате есть стул?' está correta como está; você só precisa elevar o tom no final. No entanto, falantes de espanhol às vezes omitem 'есть' em afirmações porque 'hay' é mais comumente usado em espanhol. Lembre-se de que 'есть' sempre é usado para afirmar existência, e 'нет' com o caso genitivo é usado para negação."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Есть (hay)",
+        "translation": "Há (afirmação)",
+        "examples": [
+          {
+            "original": "В городе есть парк.",
+            "phonetic": "[v ˈɡorədʲe jɛsʲtʲ park]",
+            "translation": "Há um parque na cidade.",
+            "note": "Use 'есть' para afirmar que algo existe em um lugar. O lugar está no caso preposicional (terminando em -е), e a coisa existente está no caso nominativo."
+          },
+          {
+            "original": "У меня есть собака.",
+            "phonetic": "[u mʲɪˈnʲa jɛsʲtʲ sɐˈbakə]",
+            "translation": "Eu tenho um cachorro.",
+            "note": "'У меня есть' é a forma de expressar posse. Aqui, 'собака' está no caso nominativo."
+          },
+          {
+            "original": "На столе есть книга.",
+            "phonetic": "[nə stɐˈlʲe jɛsʲtʲ ˈknʲiɡə]",
+            "translation": "Há um livro na mesa.",
+            "note": "Observe que 'на столе' usa a preposição 'на' + caso preposicional (стол -> столе)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Нет (no hay)",
+        "translation": "Não há (negação)",
+        "examples": [
+          {
+            "original": "В холодильнике нет молока.",
+            "phonetic": "[v xəlɐˈdʲilʲnʲɪkʲe nʲɛt məlɐˈka]",
+            "translation": "Não há leite na geladeira.",
+            "note": "Com 'нет', a coisa que não existe está no caso genitivo: 'молоко' (nominativo) muda para 'молока' (genitivo)."
+          },
+          {
+            "original": "У меня нет времени.",
+            "phonetic": "[u mʲɪˈnʲa nʲɛt ˈvrʲemʲɪnʲɪ]",
+            "translation": "Eu não tenho tempo.",
+            "note": "Uma expressão comum para posse negativa. 'Время' (nominativo) torna-se 'времени' (genitivo)."
+          },
+          {
+            "original": "Нет проблем.",
+            "phonetic": "[nʲɛt prɐˈblʲem]",
+            "translation": "Não há problemas.",
+            "note": "Uma frase fixa comumente usada. 'Проблема' (feminino) no genitivo plural é 'проблем' (sem terminação)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Вопросы с есть",
+        "translation": "Perguntas com 'há'",
+        "examples": [
+          {
+            "original": "Есть свободный стол?",
+            "phonetic": "[jɛsʲtʲ svɐˈbodnɨj stol]",
+            "translation": "Há uma mesa livre?",
+            "note": "Em perguntas, 'есть' vem no início. A entonação sobe no final."
+          },
+          {
+            "original": "В кафе есть Wi-Fi?",
+            "phonetic": "[f kɐˈfɛ jɛsʲtʲ vaj ˈfaj]",
+            "translation": "Há Wi-Fi no café?",
+            "note": "'Есть' pode vir depois do lugar. Ambas as formas estão corretas."
+          },
+          {
+            "original": "Сколько у тебя есть друзей?",
+            "phonetic": "[ˈskolʲkə u tʲɪˈbʲa jɛsʲtʲ druˈzʲej]",
+            "translation": "Quantos amigos você tem?",
+            "note": "Com 'сколько' (quantos), a coisa contada está no genitivo plural. 'Друзья' torna-se 'друзей'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "pt": "Há / Não há (existência)"
+    }
+  },
+  {
+    "id": "pt_A1_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Предлоги места / Preposições básicas de lugar",
+    "bridge": "Em espanhol, usamos preposições como 'en', 'sobre', 'debajo de' para indicar lugar. Em russo, as preposições funcionam de forma semelhante, mas são sempre seguidas por um caso gramatical (preposicional ou acusativo). O caso preposicional (depois de 'в' ou 'на') indica localização, enquanto o caso acusativo indica movimento em direção a um lugar. Essa é uma mudança importante para falantes de espanhol, porque em espanhol não alteramos a forma do substantivo de acordo com a preposição.",
+    "rule": "As preposições básicas de lugar em russo são: в (em, dentro) e на (em, sobre). Elas são usadas com o caso preposicional para indicar onde algo ou alguém está. Por exemplo: в столе (na gaveta), на столе (na mesa). Outras preposições comuns são: под (embaixo), над (acima), у (perto), за (atrás), около (ao redor). Com essas, também se usa o caso instrumental (под, над, за) ou genitivo (у, около). Para o nível A1, focamos em в e на com o caso preposicional. Lembre-se: o caso preposicional geralmente é formado adicionando -е ao substantivo (para masculino e neutro) ou -е/-и (para feminino). Exemplo: дом (casa) – в доме (na casa); комната (quarto) – в комнате (no quarto).",
+    "concept_examples": [
+      {
+        "text": "Книга на столе.",
+        "translation": "O livro está na mesa.",
+        "phonetic": "[ˈknʲiɡə nə stɐˈlʲe]"
+      },
+      {
+        "text": "Я живу в Москве.",
+        "translation": "Eu moro em Moscou.",
+        "phonetic": "[ja ʐɨˈvu v mɐˈskvʲe]"
+      },
+      {
+        "text": "Кот под стулом.",
+        "translation": "O gato está debaixo da cadeira.",
+        "phonetic": "[kot pɐt ˈstuləm]"
+      },
+      {
+        "text": "Школа около парка.",
+        "translation": "A escola fica perto do parque.",
+        "phonetic": "[ˈʂkolə ˈokələ ˈparkə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я в Москва.",
+      "correct": "Я в Москве.",
+      "correct_alt": "",
+      "explanation": "O erro típico é não alterar o substantivo após a preposição, porque em espanhol ele não muda. Em russo, depois de 'в' (em) para indicar localização, usa-se o caso preposicional, que exige a terminação -е em muitos substantivos. Assim, 'Москва' (Moscou) torna-se 'Москве'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "В и на с предложным падежом",
+        "translation": "В e на com caso preposicional",
+        "examples": [
+          {
+            "original": "Я в школе.",
+            "phonetic": "[ja ˈʂkolʲe]",
+            "translation": "Eu estou na escola.",
+            "note": "Uso de 'в' (em) com substantivo feminino terminado em -а, que muda para -е."
+          },
+          {
+            "original": "Он на работе.",
+            "phonetic": "[on nə rɐˈbotʲe]",
+            "translation": "Ele está no trabalho.",
+            "note": "Aqui 'на' é usado com 'работа' (trabalho) no caso preposicional."
+          },
+          {
+            "original": "Мы в парке.",
+            "phonetic": "[mɨ ˈparkʲe]",
+            "translation": "Nós estamos no parque.",
+            "note": "Substantivo masculino 'парк' termina em -е no caso preposicional."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Под, над, за",
+        "translation": "Debaixo, acima, atrás",
+        "examples": [
+          {
+            "original": "Мяч под столом.",
+            "phonetic": "[mʲætɕ pɐt stɐˈlom]",
+            "translation": "A bola está debaixo da mesa.",
+            "note": "Com 'под', usa-se o caso instrumental: 'стол' torna-se 'столом'."
+          },
+          {
+            "original": "Лампа над столом.",
+            "phonetic": "[ˈlampə nət stɐˈlom]",
+            "translation": "O abajur está acima da mesa.",
+            "note": "'над' também rege o caso instrumental: 'столом'."
+          },
+          {
+            "original": "Сад за домом.",
+            "phonetic": "[sat zə ˈdoməm]",
+            "translation": "O jardim fica atrás da casa.",
+            "note": "'за' (atrás) usa o caso instrumental: 'дом' → 'домом'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "У и около",
+        "translation": "Perto e ao redor",
+        "examples": [
+          {
+            "original": "Кот у окна.",
+            "phonetic": "[kot u ɐkˈna]",
+            "translation": "O gato está perto da janela.",
+            "note": "'у' (perto) é usado com o caso genitivo: 'окно' → 'окна'."
+          },
+          {
+            "original": "Дети около школы.",
+            "phonetic": "[ˈdʲetʲi ˈokələ ˈʂkolɨ]",
+            "translation": "As crianças estão perto da escola.",
+            "note": "'около' também usa o caso genitivo: 'школа' → 'школы'."
+          },
+          {
+            "original": "Магазин у дома.",
+            "phonetic": "[məɡɐˈzʲin u ˈdomə]",
+            "translation": "A loja fica perto da casa.",
+            "note": "Lembre-se: 'у' com o genitivo de 'дом' é 'дома'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📍",
+    "phonetic": "",
+    "translations": {
+      "pt": "Preposições básicas de lugar"
+    }
+  },
+  {
+    "id": "pt_A1_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Дни, месяцы и времена года / Dias, meses e estações",
+    "bridge": "Em espanhol, os dias e meses são escritos com letra minúscula e usados com preposições como 'en' ou 'el'. Em russo, todos os nomes de dias, meses e estações são escritos com letra minúscula e usam preposições diferentes: 'в' (em) para dias e meses, 'зимой' (no inverno) para estações. Além disso, o russo usa o caso preposicional para expressar tempo, o que altera as terminações das palavras. Cuidado: não se usa 'el' ou 'en' como em espanhol, mas preposições específicas do russo.",
+    "rule": "Em russo, os dias da semana, meses e estações são substantivos comuns e são escritos com letra minúscula. Para dizer 'na segunda-feira' usamos 'в понедельник' (v ponedel'nik) — o dia está no caso acusativo com a preposição 'в'. Para dizer 'em janeiro' dizemos 'в январе' (v yanvare) — o mês está no caso preposicional com 'в'. As estações usam o caso instrumental sem preposição: 'зимой' (zimoy) — no inverno, 'весной' (vesnoy), 'летом' (letom), 'осенью' (osen'yu). Exceção: para dizer 'no outono' também se pode usar 'осенью' e é a forma fixa. Meses: январь, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь. Dias: понедельник, вторник, среда, четверг, пятница, суббота, воскресенье.",
+    "concept_examples": [
+      {
+        "text": "Сегодня понедельник.",
+        "translation": "Hoje é segunda-feira.",
+        "phonetic": "sʲɪˈvodnʲə pənʲɪˈdʲelʲnʲɪk"
+      },
+      {
+        "text": "Мы встречаемся в январе.",
+        "translation": "Nós nos encontramos em janeiro.",
+        "phonetic": "mɨ fstrʲɪˈt͡ɕæjɪmsʲə v jɪnˈvarʲe"
+      },
+      {
+        "text": "Зимой холодно.",
+        "translation": "No inverno faz frio.",
+        "phonetic": "zʲɪˈmoj ˈxolədnə"
+      },
+      {
+        "text": "В субботу мы отдыхаем.",
+        "translation": "No sábado nós descansamos.",
+        "phonetic": "f sʊˈbotʊ mɨ ətdɨˈxajɪm"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я иду в понедельник.",
+      "correct": "Я иду в понедельник.",
+      "correct_alt": "",
+      "explanation": "Na verdade, a frase 'Я иду в понедельник' está correta, mas os alunos muitas vezes dizem 'Я иду en lunes', misturando com o espanhol. Um erro típico é usar preposições em espanhol ou colocar letra maiúscula, como 'В Понедельник'. Também é comum dizer 'в зиме' em vez de 'зимой' porque 'в' é usado com meses e dias, mas não com estações."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Дни недели",
+        "translation": "Dias da semana",
+        "examples": [
+          {
+            "original": "Понедельник",
+            "phonetic": "pənʲɪˈdʲelʲnʲɪk",
+            "translation": "Segunda-feira",
+            "note": "Lembre-se de que em russo não se usam letras maiúsculas para os dias. A preposição 'в' é usada com o dia no acusativo: 'в понедельник'."
+          },
+          {
+            "original": "Среда",
+            "phonetic": "srʲɪˈda",
+            "translation": "Quarta-feira",
+            "note": "Cuidado com a pronúncia: o 'е' é pronunciado como 'ye' e a sílaba tônica cai na última em alguns contextos."
+          },
+          {
+            "original": "Воскресенье",
+            "phonetic": "vəskrʲɪˈsʲenʲjə",
+            "translation": "Domingo",
+            "note": "É uma palavra longa; pratique a entonação. É usada com 'в' + acusativo: 'в воскресенье'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Месяцы",
+        "translation": "Meses",
+        "examples": [
+          {
+            "original": "Январь",
+            "phonetic": "jɪnˈvarʲ",
+            "translation": "Janeiro",
+            "note": "Em janeiro é 'в январе' (caso preposicional). A terminação muda de -арь para -аре."
+          },
+          {
+            "original": "Май",
+            "phonetic": "maj",
+            "translation": "Maio",
+            "note": "Em maio é 'в мае' (v maje). Observe a terminação -е."
+          },
+          {
+            "original": "Сентябрь",
+            "phonetic": "sʲɪnʲˈtʲæbrʲ",
+            "translation": "Setembro",
+            "note": "É usado 'в сентябре' (v sentyabre). O 'я' vira 'е' no caso preposicional."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Времена года",
+        "translation": "Estações do ano",
+        "examples": [
+          {
+            "original": "Весна",
+            "phonetic": "vʲɪsˈna",
+            "translation": "Primavera",
+            "note": "Na primavera é 'весной' (vesnoy) — forma instrumental fixa."
+          },
+          {
+            "original": "Лето",
+            "phonetic": "ˈlʲetə",
+            "translation": "Verão",
+            "note": "No verão é 'летом' (letom) — nenhuma preposição é usada."
+          },
+          {
+            "original": "Осень",
+            "phonetic": "ˈosʲɪnʲ",
+            "translation": "Outono",
+            "note": "No outono é 'осенью' (osen'yu) — termina em -ью. Cuidado com a pronúncia."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "pt": "Dias, meses e estações"
+    }
+  },
+  {
+    "id": "pt_A1_gram_15",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "У меня есть (Tener) / Ter",
+    "bridge": "O russo não tem um verbo equivalente a 'ter' (to have). Em vez disso, usa a construção 'У меня есть' (literalmente: 'por mim há'). Enquanto em português dizemos 'Eu tenho um livro', em russo é 'У меня есть книга' (literalmente: 'por mim há um livro'), onde 'у меня' significa 'comigo' ou 'para mim', e 'есть' é a forma de 'ser/estar' usada para expressar existência. Um detalhe muito importante: a coisa possuída vai para o caso nominativo (sujeito) e o possuidor vai para o caso genitivo depois de 'у'. Para negar, usa-se 'нет' em vez de 'есть', e o objeto muda para o caso genitivo: 'У меня нет книги' (Eu não tenho um livro). Não confunda isso com o verbo 'иметь' (ter), que é raro e literário.",
+    "rule": "Para expressar posse em russo no nível A1, use a construção: [У + pronome/pessoa no genitivo] + [есть] + [substantivo no nominativo]. Exemplo: У меня есть собака (Eu tenho um cachorro). Os pronomes no genitivo são: у меня (eu), у тебя (tu/você), у него/у неё (ele/ela), у нас (nós), у вас (vocês/vocês formais), у них (eles). Para perguntar: У тебя есть ...? (Você tem ...?). Para negar, substitua 'есть' por 'нет' e o objeto vai para o genitivo: У меня нет времени (Eu não tenho tempo). No passado, usa-se 'был/была/было', e no futuro 'будет', mas no A1 focamos no presente. Exceção: ao falar sobre partes do corpo ou relações familiares, 'есть' geralmente é omitido: У меня голова болит (Eu tenho dor de cabeça, literalmente: por mim a cabeça dói).",
+    "concept_examples": [
+      {
+        "text": "У меня есть книга.",
+        "translation": "Eu tenho um livro.",
+        "phonetic": "[ʊ mʲɪˈnʲa jesʲtʲ ˈknʲiɡə]"
+      },
+      {
+        "text": "У тебя есть машина?",
+        "translation": "Você tem um carro?",
+        "phonetic": "[ʊ tʲɪˈbʲa jesʲtʲ mɐˈʂɨnə]"
+      },
+      {
+        "text": "У нас нет денег.",
+        "translation": "Nós não temos dinheiro.",
+        "phonetic": "[ʊ nas nʲet ˈdʲenʲɪk]"
+      },
+      {
+        "text": "У неё есть сестра.",
+        "translation": "Ela tem uma irmã.",
+        "phonetic": "[ʊ nʲɪˈjɵ jesʲtʲ sʲɪˈstra]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я имею книгу.",
+      "correct": "У меня есть книга.",
+      "correct_alt": "У меня книга.",
+      "explanation": "Este erro ocorre porque em português usamos o verbo 'ter', e os alunos tentam traduzi-lo diretamente. Em russo, 'иметь' (ter) existe, mas é formal e não é usado no cotidiano para posse. A construção correta é 'у + genitivo + есть'. Lembre-se de que o objeto possuído age como sujeito da frase, então deve estar no caso nominativo. Para evitar esse erro, pense na estrutura em português 'para mim há' (mais do que 'eu tenho')."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "У меня есть (afirmación)",
+        "translation": "Eu tenho (afirmação)",
+        "examples": [
+          {
+            "original": "У меня есть кот.",
+            "phonetic": "[ʊ mʲɪˈnʲa jesʲtʲ kot]",
+            "translation": "Eu tenho um gato.",
+            "note": "Aqui 'кот' está no singular nominativo."
+          },
+          {
+            "original": "У тебя есть брат?",
+            "phonetic": "[ʊ tʲɪˈbʲa jesʲtʲ brat]",
+            "translation": "Você tem um irmão?",
+            "note": "Pergunta com entonação ascendente."
+          },
+          {
+            "original": "У нас есть дом.",
+            "phonetic": "[ʊ nas jesʲtʲ dom]",
+            "translation": "Nós temos uma casa.",
+            "note": "Usamos 'у нас' para 'nós'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "У меня нет (negación)",
+        "translation": "Eu não tenho (negação)",
+        "examples": [
+          {
+            "original": "У меня нет кота.",
+            "phonetic": "[ʊ mʲɪˈnʲa nʲet kɐˈta]",
+            "translation": "Eu não tenho um gato.",
+            "note": "O objeto 'кот' muda para o genitivo 'кота' depois de 'нет'."
+          },
+          {
+            "original": "У тебя нет машины?",
+            "phonetic": "[ʊ tʲɪˈbʲa nʲet mɐˈʂɨnɨ]",
+            "translation": "Você não tem um carro?",
+            "note": "A negação também pode formar perguntas."
+          },
+          {
+            "original": "У них нет детей.",
+            "phonetic": "[ʊ nʲix nʲet dʲɪˈtʲej]",
+            "translation": "Eles não têm filhos.",
+            "note": "'Детей' é o genitivo plural de 'дети'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "У кого есть? (preguntas con quién)",
+        "translation": "Quem tem? (perguntas com quem)",
+        "examples": [
+          {
+            "original": "У кого есть ручка?",
+            "phonetic": "[ʊ kɐˈvo jesʲtʲ ˈrut͡ɕkə]",
+            "translation": "Quem tem uma caneta?",
+            "note": "A palavra interrogativa 'кого' é o genitivo de 'кто'."
+          },
+          {
+            "original": "У меня есть ручка.",
+            "phonetic": "[ʊ mʲɪˈnʲa jesʲtʲ ˈrut͡ɕkə]",
+            "translation": "Eu tenho uma caneta.",
+            "note": "Respondemos com a construção afirmativa."
+          },
+          {
+            "original": "У кого нет телефона?",
+            "phonetic": "[ʊ kɐˈvo nʲet tʲɪlʲɪˈfonə]",
+            "translation": "Quem não tem um telefone?",
+            "note": "Combinação de pergunta com negação."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "pt": "Ter"
+    }
+  },
+  {
+    "id": "pt_A1_gram_16",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Мочь / Conseguir",
+    "bridge": "Em russo, o verbo 'мочь' (conseguir/poder) é conjugado de forma irregular e sempre é seguido por um infinitivo. Ao contrário do espanhol, onde 'poder' também pode ser um substantivo ('el poder'), em russo ele funciona apenas como verbo. Além disso, o russo não distingue entre 'poder' (habilidade) e 'poder' (permissão) como dois verbos separados, mas 'можно' é usado para permissão impessoal, enquanto 'мочь' é mais pessoal. Cuidado: no presente, a forma correta é 'могу', 'можешь', etc., e não confunda com 'можно'.",
+    "rule": "O verbo 'мочь' (conseguir/poder) é usado para expressar habilidade, capacidade ou permissão. Ele é conjugado no presente da seguinte forma: я могу (eu consigo), ты можешь (você consegue), он/она/оно может (ele/ela consegue), мы можем (nós conseguimos), вы можете (você/vocês consegue/conseguem), они могут (eles/elas conseguem). É seguido por um infinitivo: Я могу плавать (Eu consigo nadar). No passado, usa-se 'мог' (m.) / 'могла' (f.) / 'могли' (pl.): Я мог прийти (Eu consegui vir). O verbo é imperfeito; para ações pontuais no passado, o prefixo 'с-' (смог/смогла/смогли) é usado, significando 'conseguir fazer'. No futuro, a forma perfectiva 'смочь' é usada (я смогу, ты сможешь, etc.). A forma impessoal 'можно' + infinitivo significa 'é possível', para permissão geral, e 'нельзя' para proibição.",
+    "concept_examples": [
+      {
+        "text": "Я могу говорить по-русски.",
+        "translation": "Eu consigo falar russo.",
+        "phonetic": "[ja maˈɡu ɡəvɐˈrʲitʲ pə ˈruskʲɪ]"
+      },
+      {
+        "text": "Ты можешь помочь мне?",
+        "translation": "Você consegue me ajudar?",
+        "phonetic": "[tɨ ˈmoʐɨʂ pɐˈmot͡ɕ mʲnʲe]"
+      },
+      {
+        "text": "Мы можем пойти в кино.",
+        "translation": "Nós conseguimos ir ao cinema.",
+        "phonetic": "[mɨ ˈmoʐɨm pɐjˈtʲi v kʲɪˈno]"
+      },
+      {
+        "text": "Можно мне задать вопрос?",
+        "translation": "Posso fazer uma pergunta? (permissão)",
+        "phonetic": "[ˈmoʐnə mʲnʲe zɐˈdatʲ vɐˈpros]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я могу писать письмо, но я могу не писать его.",
+      "correct": "Я могу писать письмо, но я не могу его писать.",
+      "correct_alt": "Я могу писать письмо, но не хочу его писать.",
+      "explanation": "Um erro comum é colocar o 'не' incorretamente antes de 'мочь'. Em português, dizemos 'não posso' com 'não' antes do verbo, mas em russo a negação 'не' deve ir diretamente antes do infinitivo do verbo principal ou antes de 'мочь', dependendo do significado. A estrutura é: 'не + мочь + infinitivo' (não conseguir fazer algo) ou 'мочь + не + infinitivo' (poder escolher não fazer algo). A forma mais clara é colocar 'не' antes de 'мочь' para negar a habilidade: 'я не могу' (eu não consigo)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Настоящее время",
+        "translation": "Presente do indicativo",
+        "examples": [
+          {
+            "original": "Я могу читать.",
+            "phonetic": "[ja maˈɡu t͡ɕiˈtatʲ]",
+            "translation": "Eu consigo ler.",
+            "note": "Use 'могу' com a primeira pessoa do singular."
+          },
+          {
+            "original": "Ты можешь говорить по-английски?",
+            "phonetic": "[tɨ ˈmoʐɨʂ ɡəvɐˈrʲitʲ pə ɐnˈɡlʲijskʲɪ]",
+            "translation": "Você consegue falar inglês?",
+            "note": "Em perguntas, a entonação sobe no final."
+          },
+          {
+            "original": "Он может играть в футбол.",
+            "phonetic": "[on ˈmoʐɨt ɪˈɡratʲ f fʊdˈbol]",
+            "translation": "Ele consegue jogar futebol.",
+            "note": "A forma 'может' é para ele/ela/isso."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Прошедшее время",
+        "translation": "Pretérito perfeito",
+        "examples": [
+          {
+            "original": "Я мог прийти вчера.",
+            "phonetic": "[ja mok prʲɪjˈtʲi ft͡ɕɪˈra]",
+            "translation": "Eu consegui vir ontem.",
+            "note": "'Мог' é masculino, 'могла' é feminino."
+          },
+          {
+            "original": "Она могла петь.",
+            "phonetic": "[ɐˈna mɐɡˈla pʲetʲ]",
+            "translation": "Ela conseguiu cantar.",
+            "note": "A forma 'могла' concorda com o feminino."
+          },
+          {
+            "original": "Они могли работать.",
+            "phonetic": "[ɐˈnʲi mɐɡˈlʲi rɐˈbotətʲ]",
+            "translation": "Eles conseguiram trabalhar.",
+            "note": "Para todas as pessoas do plural, usa-se 'могли'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Будущее время и «можно»",
+        "translation": "Futuro do indicativo e 'можно'",
+        "examples": [
+          {
+            "original": "Я смогу сделать это завтра.",
+            "phonetic": "[ja smoˈɡu ˈzdʲelətʲ ˈɛtə ˈzaftrə]",
+            "translation": "Eu conseguirei fazer isso amanhã.",
+            "note": "O futuro é formado com o verbo perfectivo 'смочь'."
+          },
+          {
+            "original": "Можно войти?",
+            "phonetic": "[ˈmoʐnə vɐjˈtʲi]",
+            "translation": "Posso entrar?",
+            "note": "'Можно' + infinitivo para permissão impessoal."
+          },
+          {
+            "original": "Нельзя курить здесь.",
+            "phonetic": "[nʲɪlʲˈzʲa kʊˈrʲitʲ zʲdʲesʲ]",
+            "translation": "Não se pode fumar aqui (proibido).",
+            "note": "A forma negativa de 'можно' é 'нельзя'."
+          }
+        ]
+      }
+    ],
+    "emoji": "💪",
+    "phonetic": "",
+    "translations": {
+      "pt": "Conseguir (verbo modal básico)"
+    }
+  },
+  {
+    "id": "pt_A1_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Основные неправильные глаголы (идти, приходить, делать) / Verbos irregulares básicos",
+    "bridge": "No russo, verbos como 'идти' (ir) e 'делать' (fazer) têm formas irregulares que mudam de acordo com a pessoa, semelhante ao espanhol, onde 'ir' se transforma em 'voy', 'vas', 'va'. No entanto, no russo existem dois aspectos verbais: o imperfeito (ação em andamento) e o perfeito (ação concluída), que não têm um equivalente direto nos tempos simples do espanhol. Além disso, o verbo 'fazer' é traduzido como 'делать' (imperfeito) e 'сделать' (perfeito), o que pode causar confusão na escolha entre um e outro.",
+    "rule": "No nível A1, os verbos irregulares básicos que você precisa conhecer são: идти (ir a pé), ходить (ir habitualmente), приходить (chegar), прийти (chegar — ação concluída), делать (fazer — imperfeito) e сделать (fazer — perfeito). Suas conjugações no presente (para os imperfeitos) são: идти → я иду, ты идёшь, он/она идёт; делать → я делаю, ты делаешь, он/она делает. Os perfeitos (сделать, прийти) são usados apenas no passado ou futuro, mas no presente indicam ação futura (por exemplo: я сделаю — Eu farei). Preste atenção às mudanças de raiz: идти muda para ид- no presente, enquanto ходить usa хожу, ходишь. No passado, идти se torna шёл, шла, шло, шли (irregular), enquanto делать/сделать são regulares: делал, делала, делало, делали. Os verbos de movimento têm duas formas: unidirecional (идти) e multidirecional (ходить), algo que não existe em espanhol.",
+    "concept_examples": [
+      {
+        "text": "Я иду в школу.",
+        "translation": "Eu vou para a escola.",
+        "phonetic": "[ja ˈi.dʊ ˈf‿ʂkə.lʊ]"
+      },
+      {
+        "text": "Она делает уроки.",
+        "translation": "Ela faz a tarefa.",
+        "phonetic": "[ɐˈna ˈdʲe.lə.jɪt ˈu.rə.kʲɪ]"
+      },
+      {
+        "text": "Мы приходим домой вечером.",
+        "translation": "Nós chegamos em casa à noite.",
+        "phonetic": "[mɨ prʲɪˈxo.dʲɪm dɐˈmoj ˈvʲe.t͡ɕɪ.rəm]"
+      },
+      {
+        "text": "Я сделаю это завтра.",
+        "translation": "Eu farei isso amanhã.",
+        "phonetic": "[ja ˈzʲdʲe.lə.jʊ ˈɛ.tə ˈza.vtrə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я ходить в магазин.",
+      "correct": "Я иду в магазин.",
+      "correct_alt": "Я хожу в магазин (habitualmente).",
+      "explanation": "O erro ocorre porque falantes de espanhol usam o infinitivo 'ходить' como se fosse uma forma conjugada, semelhante ao espanhol 'yo caminar'. No russo, todo verbo deve ser conjugado de acordo com a pessoa e o aspecto. Para uma ação em andamento, use 'идти' (я иду); para uma ação habitual, use 'ходить' (я хожу). É importante distinguir entre movimento unidirecional (идти) e multidirecional (ходить)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Идти и ходить",
+        "translation": "Ir (a pé) unidirecional e habitual",
+        "examples": [
+          {
+            "original": "Я иду в парк.",
+            "phonetic": "[ja ˈi.dʊ ˈf‿park]",
+            "translation": "Eu vou ao parque.",
+            "note": "Usa-se 'идти' para uma ação em curso, como 'vou agora'."
+          },
+          {
+            "original": "Ты идёшь в кино?",
+            "phonetic": "[tɨ iˈdʲɵʂ f‿kʲɪˈno]",
+            "translation": "Você vai ao cinema?",
+            "note": "A forma 'идёшь' é a 2ª pessoa do singular do presente."
+          },
+          {
+            "original": "Мы ходим в бассейн каждую неделю.",
+            "phonetic": "[mɨ ˈxo.dʲɪm ˈv‿bɐˈsʲejn ˈka.ʐdʊ.jʊ nʲɪˈdʲe.lʲʊ]",
+            "translation": "Nós vamos à piscina toda semana.",
+            "note": "'Ходим' expressa uma ação habitual, como 'costumar ir'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Приходить и прийти",
+        "translation": "Chegar (imperfeito e perfeito)",
+        "examples": [
+          {
+            "original": "Она приходит на работу в 9 часов.",
+            "phonetic": "[ɐˈna prʲɪˈxo.dʲɪt nə‿rɐˈbo.tʊ ˈv‿dʲe.vʲɪtʲ ˈt͡ɕa.səf]",
+            "translation": "Ela chega ao trabalho às 9.",
+            "note": "'Приходит' é presente do imperfeito, indica ação habitual."
+          },
+          {
+            "original": "Он пришёл домой поздно.",
+            "phonetic": "[on prʲɪˈʂoɫ dɐˈmoj ˈpo.z.nə]",
+            "translation": "Ele chegou em casa tarde.",
+            "note": "'Пришёл' é passado do perfeito, indica ação concluída."
+          },
+          {
+            "original": "Я приду завтра.",
+            "phonetic": "[ja prʲɪˈdu ˈza.vtrə]",
+            "translation": "Virei amanhã (chegarei).",
+            "note": "O perfeito no presente é usado para futuro: 'приду' = chegarei."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Делать и сделать",
+        "translation": "Fazer (imperfeito e perfeito)",
+        "examples": [
+          {
+            "original": "Что ты делаешь?",
+            "phonetic": "[ʂto tɨ ˈdʲe.lə.jɪʂ]",
+            "translation": "O que você faz?",
+            "note": "'Делать' no presente, ação em curso ou geral."
+          },
+          {
+            "original": "Я делаю домашнее задание.",
+            "phonetic": "[ja ˈdʲe.lə.jʊ dɐˈmaʂ.nʲɪ.je zɐˈda.nʲɪ.je]",
+            "translation": "Eu faço a tarefa.",
+            "note": "Uso do imperfeito 'делать' para descrever uma atividade."
+          },
+          {
+            "original": "Мы сделали упражнение.",
+            "phonetic": "[mɨ ˈzʲdʲe.lʲɪlʲɪ ʊ.prɐʐˈnʲe.nʲɪ.je]",
+            "translation": "Nós fizemos o exercício.",
+            "note": "'Сделать' no passado, indica que a ação foi concluída."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚶",
+    "phonetic": "",
+    "translations": {
+      "pt": "Verbos irregulares básicos"
+    }
+  },
+  {
+    "id": "pt_A1_gram_18",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "Время / O tempo",
+    "bridge": "Em russo, ao contrário do português, o verbo 'быть' (ser/estar) no presente não é usado (geralmente omitido), e os números cardinais são seguidos por 'час' (hora) ou 'часа'/'часов', dependendo da quantidade. Além disso, expressões como 'y media' ou 'y cuarto' usam construções específicas: 'половина' (meia) e 'четверть' (quarto) com o número ordinal no caso genitivo, como 'первого', 'второго', etc. Tome cuidado com o caso genitivo: após 'половина' e 'четверть', o número ordinal deve estar no genitivo, não na forma cardinal.",
+    "rule": "Para dizer as horas em russo no nível A1, use a estrutura: [número] + час/часа/часов + (минуты, se necessário). O número 1 leva 'час' (один час), 2-4 levam 'часа' (два часа, три часа, четыре часа) e 5-20 levam 'часов' (пять часов, десять часов). Para 'meia hora' (meia), use 'половина' + o número ordinal da próxima hora no genitivo (ex.: половина первого = 12:30, literalmente 'metade da primeira'). Para 'um quarto' (quarto de hora), use 'четверть' + o ordinal (ex.: четверть первого = 12:15). Para 'menos um quarto' (quarto para), use 'без четверти' + o número cardinal (ex.: без четверти час = 12:45). As horas exatas são expressas com 'ровно' (em ponto) ou simplesmente o número e 'час'. Para perguntar as horas, use 'Который час?' (Que horas são?). Lembre-se de que o verbo 'быть' é omitido no presente.",
+    "concept_examples": [
+      {
+        "text": "Который час?",
+        "translation": "Que horas são?",
+        "phonetic": "kɐˈtorɨj t͡ɕas"
+      },
+      {
+        "text": "Сейчас два часа.",
+        "translation": "Agora são duas horas.",
+        "phonetic": "sʲɪjˈt͡ɕas dva t͡ɕɪˈsa"
+      },
+      {
+        "text": "Половина первого.",
+        "translation": "É meio-dia e meia.",
+        "phonetic": "pəlɐˈvʲinə ˈpʲɛrvəvə"
+      },
+      {
+        "text": "Без четверти три.",
+        "translation": "São quinze para as três.",
+        "phonetic": "bʲɛs t͡ɕɪtˈvʲertʲɪ trʲi"
+      }
+    ],
+    "common_error": {
+      "wrong": "Сейчас два час.",
+      "correct": "Сейчас два часа.",
+      "correct_alt": "",
+      "explanation": "Em russo, o substantivo 'час' (hora) muda de acordo com o número: com 1 é 'один час', com 2, 3 ou 4 usa-se 'часа' (genitivo singular), e com 5 ou mais usa-se 'часов' (genitivo plural). Falantes de português muitas vezes esquecem essa variação e usam 'час' na forma singular, o que é um erro gramatical significativo. Lembre-se: para os números 2-4, sempre use 'часа', e para 5-20, use 'часов'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Часы и минуты",
+        "translation": "Horas e minutos",
+        "examples": [
+          {
+            "original": "Сейчас один час.",
+            "phonetic": "sʲɪjˈt͡ɕas ˈodʲin t͡ɕas",
+            "translation": "Agora é uma hora.",
+            "note": "Com o número 1, 'час' é usado no nominativo singular."
+          },
+          {
+            "original": "Сейчас три часа.",
+            "phonetic": "sʲɪjˈt͡ɕas trʲi t͡ɕɪˈsa",
+            "translation": "Agora são três horas.",
+            "note": "Com 2, 3, 4, usa-se 'часа' (genitivo singular)."
+          },
+          {
+            "original": "Сейчас пять часов.",
+            "phonetic": "sʲɪjˈt͡ɕas pʲætʲ t͡ɕɪˈsof",
+            "translation": "Agora são cinco horas.",
+            "note": "Com 5-20, usa-se 'часов' (genitivo plural)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Половина и четверть",
+        "translation": "Metades e quartos",
+        "examples": [
+          {
+            "original": "Половина второго.",
+            "phonetic": "pəlɐˈvʲinə ftɐˈrovə",
+            "translation": "É uma e meia.",
+            "note": "Use 'половина' + o número ordinal da próxima hora no genitivo (второго = da segunda, significando a segunda hora)."
+          },
+          {
+            "original": "Четверть третьего.",
+            "phonetic": "t͡ɕɪtˈvʲertʲ ˈtrʲɛtʲɪvə",
+            "translation": "São duas e quinze.",
+            "note": "Use 'четверть' + o número ordinal da próxima hora no genitivo (третьего = da terceira)."
+          },
+          {
+            "original": "Без четверти четыре.",
+            "phonetic": "bʲɛz t͡ɕɪtˈvʲertʲɪ t͡ɕɪˈtɨrʲɪ",
+            "translation": "São quinze para as quatro.",
+            "note": "Use 'без четверти' + o número cardinal no nominativo (четыре)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Время суток",
+        "translation": "Horários do dia",
+        "examples": [
+          {
+            "original": "Утром в семь часов.",
+            "phonetic": "ˈutrəm f sʲemʲ t͡ɕɪˈsof",
+            "translation": "De manhã às sete horas.",
+            "note": "Para dizer 'às' uma determinada hora, use a preposição 'в' + acusativo (в семь часов)."
+          },
+          {
+            "original": "Днём в два часа.",
+            "phonetic": "dʲnʲɵm v dva t͡ɕɪˈsa",
+            "translation": "À tarde às duas horas.",
+            "note": "Para horários do dia, use o caso instrumental (утром, днём, вечером, ночью)."
+          },
+          {
+            "original": "Вечером в девять часов.",
+            "phonetic": "ˈvʲeʨɪrəm v ˈdʲevʲɪtʲ t͡ɕɪˈsof",
+            "translation": "À noite às nove horas.",
+            "note": "Note que 'вечером' significa 'à noite' e usa o caso instrumental."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕐",
+    "phonetic": "",
+    "translations": {
+      "pt": "Dizer as horas"
+    }
   }
 ]
