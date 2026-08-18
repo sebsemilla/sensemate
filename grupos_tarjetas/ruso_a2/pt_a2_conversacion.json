@@ -1,0 +1,1230 @@
+[
+  {
+    "id": "pt_A2_conv_01",
+    "type": "concept",
+    "category": "Conversação",
+    "title": "У врача / No médico",
+    "bridge": "Em espanhol, para expressar dor usamos 'me duele + parte do corpo' com o verbo 'doler'. Em russo, no entanto, usa-se uma construção impessoal com o dativo: 'у меня болит + nominativo'. Ou seja, literalmente 'em mim dói', mas com 'у меня' (em mim). O verbo 'болеть' concorda com a parte do corpo, não com a pessoa. Além disso, em russo não se usa artigo, e os nomes das partes do corpo vão para o caso nominativo nessa construção. É comum esquecer que o verbo vai na terceira pessoa do singular ou plural, dependendo da parte do corpo, e que a pessoa vai para o genitivo com 'у'.",
+    "rule": "Para expressar dor ou mal-estar em russo, usa-se a construção: У + [pessoa no genitivo] + болит (singular) / болят (plural) + [parte do corpo no nominativo]. O verbo 'болеть' conjuga-se de acordo com o número da parte do corpo: se for singular (голова, живот) usa-se 'болит'; se for plural (глаза, зубы) usa-se 'болят'. Exemplos: У меня болит голова (Me dói a cabeça). У тебя болят зубы (Te doem os dentes). Para perguntar, inverte-se a ordem: Что у вас болит? (O que lhe dói?) ou ¿Что у тебя болит? (informal). Também se pode usar 'Я заболел/заболела' para dizer que ficou doente, com gênero de acordo com o falante. Para sintomas gerais como febre: У меня температура (Tenho febre) ou У меня жар (Tenho calor febril). É importante não usar 'меня' sem 'у' nessa construção e não usar o verbo 'ter' (иметь), que é mais formal.",
+    "concept_examples": [
+      {
+        "text": "У меня болит голова.",
+        "translation": "Me dói a cabeça.",
+        "phonetic": "[u mʲɪˈnʲa bɐˈlʲit ɡəɫɐˈva]"
+      },
+      {
+        "text": "У вас болит горло?",
+        "translation": "O senhor/a senhora está com dor de garganta? (formal)",
+        "phonetic": "[u vas ˈbolʲɪt ˈɡorlə]"
+      },
+      {
+        "text": "У него болят зубы.",
+        "translation": "A ele doem os dentes.",
+        "phonetic": "[u nʲɪˈvo bɐˈlʲat ˈzubɨ]"
+      },
+      {
+        "text": "Мне нужен врач.",
+        "translation": "Preciso de um médico.",
+        "phonetic": "[mnʲe ˈnuʐɨn vrat͡ɕ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "У меня болит зубы.",
+      "correct": "У меня болят зубы.",
+      "correct_alt": "У меня болит зуб.",
+      "explanation": "O erro típico é usar 'болит' (singular) com um substantivo no plural. Em espanhol, 'me duele' não distingue número no verbo porque 'doler' se conjuga como 'duele' para singular e 'duelen' para plural, mas muitos falantes de espanhol tendem a usar sempre 'болит'. Lembre-se: se a parte do corpo for plural (зубы, глаза), o verbo deve estar no plural 'болят'. Se disser 'У меня болит зуб' (um único dente) está correto, mas para vários dentes é 'болят'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Основные жалобы",
+        "translation": "Queixas principais",
+        "examples": [
+          {
+            "original": "У меня болит живот.",
+            "phonetic": "[u mʲɪˈnʲa ˈbolʲɪt ʐɨˈvot]",
+            "translation": "Me dói a barriga.",
+            "note": "Uso de 'болит' com substantivo singular masculino."
+          },
+          {
+            "original": "У меня болит ухо.",
+            "phonetic": "[u mʲɪˈnʲa ˈbolʲɪt ˈuxə]",
+            "translation": "Me dói o ouvido.",
+            "note": "Lembre-se de que 'ухо' é neutro, mas o verbo não muda além do número."
+          },
+          {
+            "original": "У меня болит спина.",
+            "phonetic": "[u mʲɪˈnʲa ˈbolʲɪt spʲɪˈna]",
+            "translation": "Me dói as costas.",
+            "note": "A construção é fixa: 'у меня' + 'болит' + parte do corpo no nominativo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Симптомы и их описание",
+        "translation": "Sintomas e sua descrição",
+        "examples": [
+          {
+            "original": "У меня температура.",
+            "phonetic": "[u mʲɪˈnʲa tʲɪmʲpʲɪrɐˈturə]",
+            "translation": "Tenho febre.",
+            "note": "Em russo diz-se 'у меня температура' (literalmente 'em mim temperatura') sem verbo. É semelhante a 'tenho', mas com estrutura possessiva."
+          },
+          {
+            "original": "Я кашляю.",
+            "phonetic": "[ja ˈkaʂlʲɪjʊ]",
+            "translation": "Estou tossindo.",
+            "note": "Verbo 'кашлять' (tossir) conjuga-se como 'я кашляю' (eu tusso). Não requer 'у меня'."
+          },
+          {
+            "original": "У меня насморк.",
+            "phonetic": "[u mʲɪˈnʲa ˈnasmərk]",
+            "translation": "Estou com coriza/resfriado.",
+            "note": "'Насморк' é um substantivo masculino. Usa-se com 'у меня' para indicar posse do sintoma."
+          },
+          {
+            "original": "Мне плохо.",
+            "phonetic": "[mnʲe ˈploxə]",
+            "translation": "Estou me sentindo mal.",
+            "note": "Uso do dativo 'мне' + advérbio 'плохо' (mal). Semelhante a 'me sinto mal', mas sem verbo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "У врача",
+        "translation": "No médico",
+        "examples": [
+          {
+            "original": "Мне нужен врач.",
+            "phonetic": "[mnʲe ˈnuʐɨn vrat͡ɕ]",
+            "translation": "Preciso de um médico.",
+            "note": "Construção 'мне нужен' (para mim necessário) + substantivo no nominativo. 'Врач' é masculino."
+          },
+          {
+            "original": "Что у вас болит?",
+            "phonetic": "[ʂto u vas ˈbolʲit]",
+            "translation": "O que lhe dói? (formal)",
+            "note": "Pergunta típica do médico. Usa-se 'у вас' (ao senhor/a senhora) e o verbo 'болит' no singular, mas se espera plural diz-se 'болят'. Aqui usa-se singular porque é pergunta geral."
+          },
+          {
+            "original": "Мне нужно лекарство.",
+            "phonetic": "[mnʲe ˈnuʐnə lʲɪˈkarstvə]",
+            "translation": "Preciso de remédio.",
+            "note": "Com substantivo neutro 'лекарство' usa-se 'нужно' (neutro), não 'нужен'."
+          },
+          {
+            "original": "Запишите меня к врачу, пожалуйста.",
+            "phonetic": "[zɐˈpʲiʂɨtʲe mʲɪˈnʲa k vrɐˈt͡ɕu, pɐˈʐalʊstə]",
+            "translation": "Por favor, marque uma consulta com o médico.",
+            "note": "Imperativo formal 'запишите' (senhor/a senhora). 'К врачу' é preposicional com direção. Note o caso preposicional de 'врач'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🩺",
+    "phonetic": "",
+    "translations": {
+      "pt": "No médico"
+    }
+  },
+  {
+    "id": "pt_A2_conv_02",
+    "type": "concept",
+    "category": "Conversação",
+    "title": "Бронирование жилья / Reservar alojamento",
+    "bridge": "Em russo, os nomes dos meses e os números ordinais são usados em casos diferentes do nominativo quando se fala de datas, semelhante a como em português se diz \"dois de maio\", mas o russo usa o genitivo para o mês. Além disso, os verbos de movimento como 'ехать' e 'ездить' têm nuances de direção e frequência que não existem em português. Preste atenção ao uso dos casos preposicional e acusativo com preposições como 'в' e 'на', que mudam o significado.",
+    "rule": "Para reservar alojamento, você precisa usar o caso preposicional após 'в' ou 'на' para indicar lugar ('в отеле', 'на вокзале'). Para datas, o número ordinal é colocado no genitivo com o mês também no genitivo ('первого мая', 'пятого июня'). Os verbos de movimento: 'ехать' (ir de veículo, uma direção) e 'ездить' (ir e voltar, habitual). Perguntas comuns: 'Сколько стоит?' (Quanto custa?) e 'Есть ли свободные номера?' (Há quartos disponíveis?). No nível A2, você deve dominar as formas básicas dos casos e o vocabulário essencial.",
+    "concept_examples": [
+      {
+        "text": "Я хочу забронировать номер на два дня.",
+        "translation": "Quero reservar um quarto por dois dias.",
+        "phonetic": "ja xaˈt͡ɕu zabrɐˈnʲirəvətʲ ˈnomʲɪr nɐ dva dʲnʲa"
+      },
+      {
+        "text": "Сколько стоит ночь в этом отеле?",
+        "translation": "Quanto custa uma noite neste hotel?",
+        "phonetic": "ˈskolʲkə ˈstoɪt noʨ v ˈɛtəm ɐˈtʲelʲɪ"
+      },
+      {
+        "text": "У вас есть свободные номера?",
+        "translation": "Vocês têm quartos disponíveis?",
+        "phonetic": "u vas jesʲtʲ svɐˈbodnɨjə ˈnomʲɪrə"
+      },
+      {
+        "text": "Я приеду первого мая.",
+        "translation": "Chegarei no primeiro de maio.",
+        "phonetic": "ja prʲɪˈjedʊ ˈpʲɛrvəvə ˈmajə"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я хочу забронировать номер на два дни.",
+      "correct": "Я хочу забронировать номер на два дня.",
+      "correct_alt": "",
+      "explanation": "Em russo, após os numerais 2, 3 e 4, o substantivo vai no genitivo singular: 'два дня' (dois dias), não no nominativo plural. Os falantes de português tendem a usar o plural de forma literal, mas o russo exige o genitivo singular nesse contexto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Основные фразы",
+        "translation": "Frases básicas",
+        "examples": [
+          {
+            "original": "Здравствуйте, у вас есть свободные номера?",
+            "phonetic": "ˈzdrastvujtʲɪ, u vas jesʲtʲ svɐˈbodnɨjə ˈnomʲɪrə",
+            "translation": "Olá, vocês têm quartos disponíveis?",
+            "note": "Use 'у вас есть' para perguntar sobre disponibilidade."
+          },
+          {
+            "original": "Сколько стоит ночь?",
+            "phonetic": "ˈskolʲkə ˈstoɪt noʨ",
+            "translation": "Quanto custa a noite?",
+            "note": "'Сколько стоит' é a pergunta padrão para preço."
+          },
+          {
+            "original": "Мне нужен номер на одного.",
+            "phonetic": "mnʲe ˈnuʐɨn ˈnomʲɪr nɐ ɐdˈnɐvə",
+            "translation": "Preciso de um quarto para uma pessoa.",
+            "note": "'На одного' indica para uma pessoa."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Даты и сроки",
+        "translation": "Datas e duração",
+        "examples": [
+          {
+            "original": "Я остановлюсь на три ночи.",
+            "phonetic": "ja ɐstɐˈnofʲʉsʲ nɐ trʲi ˈnoʨɪ",
+            "translation": "Vou ficar três noites.",
+            "note": "'На' + acusativo para duração."
+          },
+          {
+            "original": "С какого по какое число вы будете?",
+            "phonetic": "s kɐˈkovə pə kɐˈkojə ˈt͡ɕislə vɨ ˈbudʲɪtʲɪ",
+            "translation": "De que data até que data você ficará?",
+            "note": "Pergunta comum na recepção."
+          },
+          {
+            "original": "Заезд после двух часов.",
+            "phonetic": "zɐˈjɛst ˈposʲlʲɪ dvux t͡ɕɪˈsof",
+            "translation": "O check-in é depois das duas.",
+            "note": "'Заезд' é o check-in."
+          },
+          {
+            "original": "Выезд до полудня.",
+            "phonetic": "vɨˈjɛst də pɐˈludʲnʲə",
+            "translation": "A saída é antes do meio-dia.",
+            "note": "'Выезд' é o check-out."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Проблемы и просьбы",
+        "translation": "Problemas e pedidos",
+        "examples": [
+          {
+            "original": "Можно мне другой номер?",
+            "phonetic": "ˈmoʐnə mnʲe drʊˈɡoj ˈnomʲɪr",
+            "translation": "Pode me dar outro quarto?",
+            "note": "'Можно' é 'pode?'. "
+          },
+          {
+            "original": "У меня проблема с душем.",
+            "phonetic": "u mʲɪˈnʲa prɐˈblʲɛmə z ˈduʂɨm",
+            "translation": "Tenho um problema com o chuveiro.",
+            "note": "Use 'с' + instrumental para 'com'."
+          },
+          {
+            "original": "Вы можете помочь мне?",
+            "phonetic": "vɨ ˈmoʐɨtʲɪ pɐˈmoʨ mnʲe",
+            "translation": "Pode me ajudar?",
+            "note": "Forma educada com 'вы'."
+          },
+          {
+            "original": "Мне нужен будильник на семь утра.",
+            "phonetic": "mnʲe ˈnuʐɨn bʊˈdʲilʲnʲɪk nɐ sʲemʲ ˈutrə",
+            "translation": "Preciso de um despertador às sete da manhã.",
+            "note": "'На' + acusativo para hora."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "pt": "Reservar alojamento"
+    }
+  },
+  {
+    "id": "pt_A2_conv_03",
+    "type": "concept",
+    "category": "Conversação",
+    "title": "В банке и в обмене валюты / No banco e na casa de câmbio",
+    "bridge": "Em português, para expressar a necessidade de trocar dinheiro, usamos verbos como 'trocar' ou 'precisar'. Em russo, frequentemente se emprega o verbo 'хотеть' (querer) no presente, seguido de um infinitivo, e a preposição 'в' com acusativo para indicar o lugar. Cuidado: em russo não se usa o subjuntivo nem o condicional para ser educado; usa-se o presente do indicativo. Além disso, os números e as quantidades em russo influenciam o caso dos substantivos, o que pode ser um desafio para os lusófonos.",
+    "rule": "Para trocar moeda em russo, usa-se a estrutura: 'я хочу' (eu quero) + infinitivo ('поменять' — trocar) ou 'мне нужно' (preciso) + infinitivo. O verbo 'поменять' (trocar) se conjuga: я поменяю, ты поменяешь, он/она/оно поменяет, мы поменяем, вы поменяете, они поменяют. Ao pedir uma quantia, usa-se o genitivo para os números 2-4 e também para 5-20, mas é mais comum usar a expressão 'на 100 долларов' (100 dólares) ou 'тысячу рублей'. Os substantivos 'рубль' (rublo) e 'доллар' (dólar) mudam a terminação conforme o número: para 2, 3, 4 — рубля, доллара; para 5-20 — рублей, долларов. Também é útil saber a frase 'какой курс?' (qual é a cotação?). Lembre-se de que, em russo, para indicar direção ou lugar para onde se vai, usa-se 'в' + acusativo (para destino) ou 'в' + preposicional (para localização). Por exemplo, 'в банк' (ao banco, destino), 'в банке' (no banco, localização).",
+    "concept_examples": [
+      {
+        "text": "Я хочу поменять доллары на рубли.",
+        "translation": "Quero trocar dólares por rublos.",
+        "phonetic": "[ja xɐˈt͡ɕu pəmʲɪˈnʲætʲ ˈdoɫːərɨ nɐ ˈrublʲɪ]"
+      },
+      {
+        "text": "Какой курс доллара сегодня?",
+        "translation": "Qual é a cotação do dólar hoje?",
+        "phonetic": "[kɐˈkoj kurs ˈdoɫːərə sʲɪvˈodʲnʲə]"
+      },
+      {
+        "text": "Мне нужно обменять пятьсот евро.",
+        "translation": "Preciso trocar quinhentos euros.",
+        "phonetic": "[mnʲe ˈnuʐnə ɐbmʲɪˈnʲætʲ pʲɪt͡ˈsot ˈjevrə]"
+      },
+      {
+        "text": "Возьмите, пожалуйста, чек.",
+        "translation": "Pegue, por favor, o recibo.",
+        "phonetic": "[vɐzʲˈmʲitʲɪ pɐˈʐalʊjstə t͡ɕek]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я хочу cambiar dólares en rublos.",
+      "correct": "Я хочу поменять доллары на рубли.",
+      "correct_alt": "",
+      "explanation": "O erro comum é usar a preposição 'en' (в) que, em português, indica a moeda na qual se troca. Em russo, deve-se usar a preposição 'на' (por/para) para indicar para qual moeda se troca. Também é necessário usar o verbo 'поменять' em vez de 'cambiar' (que é um falso cognato). É importante lembrar da estrutura 'менять X на Y' (trocar X por Y)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Основные фразы",
+        "translation": "Frases básicas",
+        "examples": [
+          {
+            "original": "Где находится обмен валюты?",
+            "phonetic": "[ɡdʲe nɐˈxodʲɪt͡sə ɐbˈmʲen vɐˈlʲutɨ]",
+            "translation": "Onde fica a casa de câmbio?",
+            "note": "A palavra 'обмен валюты' é comumente usada para se referir à casa de câmbio."
+          },
+          {
+            "original": "Я хочу поменять деньги.",
+            "phonetic": "[ja xɐˈt͡ɕu pəmʲɪˈnʲætʲ ˈdʲenʲɡʲɪ]",
+            "translation": "Quero trocar dinheiro.",
+            "note": "Usa-se 'хочу' + infinitivo para expressar desejo, semelhante a 'quero' em português."
+          },
+          {
+            "original": "Какой курс рубля?",
+            "phonetic": "[kɐˈkoj kurs ˈrublʲə]",
+            "translation": "Qual é a cotação do rublo?",
+            "note": "'Курс' significa cotação. Para perguntar, usa-se 'какой'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Сколько денег вы хотите поменять?",
+        "translation": "Quanto dinheiro você quer trocar?",
+        "examples": [
+          {
+            "original": "Я хочу поменять сто долларов.",
+            "phonetic": "[ja xɐˈt͡ɕu pəmʲɪˈnʲætʲ sto ˈdoɫːərəf]",
+            "translation": "Quero trocar cem dólares.",
+            "note": "Para 'cem', usa-se 'сто' e o substantivo vai no genitivo plural: 'долларов'."
+          },
+          {
+            "original": "Мне нужно двести евро.",
+            "phonetic": "[mnʲe ˈnuʐnə ˈdvʲesʲtʲɪ ˈjevrə]",
+            "translation": "Preciso de duzentos euros.",
+            "note": "Com números que terminam em 'двести' (200), o substantivo 'евро' é invariável, mas com 'доллары' diz-se 'двести долларов'."
+          },
+          {
+            "original": "Можно поменять пятьсот рублей на гривны?",
+            "phonetic": "[ˈmoʐnə pəmʲɪˈnʲætʲ pʲɪt͡ˈsot ˈrublʲɪj nɐ ˈɡrʲivnɨ]",
+            "translation": "Dá para trocar quinhentos rublos por grívnias?",
+            "note": "Uso de 'можно' para permissão impessoal, equivalente a 'dá para'."
+          },
+          {
+            "original": "У вас есть банкомат?",
+            "phonetic": "[u vas jesʲtʲ bənkɐˈmat]",
+            "translation": "Vocês têm caixa eletrônico?",
+            "note": "A palavra 'банкомат' é um cognato fácil para os lusófonos."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Завершение сделки",
+        "translation": "Concluir a transação",
+        "examples": [
+          {
+            "original": "Вот ваши деньги и чек.",
+            "phonetic": "[vot ˈvaʂɨ ˈdʲenʲɡʲɪ i t͡ɕek]",
+            "translation": "Aqui está o seu dinheiro e o recibo.",
+            "note": "'Вот' é usado para entregar algo, equivalente a 'aqui está'."
+          },
+          {
+            "original": "Спасибо за помощь!",
+            "phonetic": "[spɐˈsʲibə zɐ ˈpoɐʂt͡ɕ]",
+            "translation": "Obrigado pela ajuda!",
+            "note": "Expressão comum de agradecimento em situações de atendimento."
+          },
+          {
+            "original": "До свидания!",
+            "phonetic": "[də svʲɪˈdʲænʲə]",
+            "translation": "Tchau!",
+            "note": "Despedida formal."
+          }
+        ]
+      }
+    ],
+    "emoji": "💱",
+    "phonetic": "",
+    "translations": {
+      "pt": "No banco ou casa de câmbio"
+    }
+  },
+  {
+    "id": "pt_A2_conv_04",
+    "type": "concept",
+    "category": "Conversação",
+    "title": "Собеседование: основные вопросы и ответы / Entrevista de emprego: perguntas e respostas básicas",
+    "bridge": "Em português, as perguntas de entrevista geralmente usam o verbo 'ter' (Você tem experiência?) ou 'ser' (Qual é a sua experiência?). Em russo, é comum omitir o verbo 'ser' no presente: 'Я инженер' (sou engenheiro) não leva verbo. Além disso, o russo usa o caso preposicional após 'o' (sobre) para falar de experiência: 'расскажите о себе' (fale sobre você). Cuidado com a forma de tratamento 'senhor/senhora': em russo, usa-se 'вы' com maiúscula em correspondências, mas em conversação informal, 'ты' é comum para 'você', e o verbo vai na segunda pessoa do singular.",
+    "rule": "Para entrevistas básicas em russo A2, você deve saber: 1) Perguntas comuns: 'Как вас зовут?' (Como o senhor/senhora se chama?), 'Где вы работаете?' (Onde o senhor/senhora trabalha?), 'Что вы умеете делать?' (O que o senhor/senhora sabe fazer?). 2) Respostas com o verbo 'работать' (trabalhar) no presente: я работаю, вы работаете. 3) Para falar de experiência, usa-se 'у меня есть' (tenho) ou 'у меня нет' (não tenho) + substantivo no genitivo: 'У меня есть опыт работы' (Tenho experiência de trabalho), 'У меня нет опыта' (Não tenho experiência). 4) Verbos de habilidade: 'уметь' (saber fazer) + infinitivo: 'Я умею работать с компьютером' (Sei trabalhar com computador). 5) A partícula 'ли' para perguntas indiretas: 'Расскажите, где вы работали?' (Conte, onde o senhor/senhora trabalhou?) — a entonação é fundamental em perguntas diretas, mas 'ли' é usada em subordinadas.",
+    "concept_examples": [
+      {
+        "text": "Здравствуйте, меня зовут Анна.",
+        "translation": "Olá, eu me chamo Anna.",
+        "phonetic": "[zdra-stvuj-te, me-nʲa zo-vut an-na]"
+      },
+      {
+        "text": "Я работаю в компании.",
+        "translation": "Eu trabalho em uma empresa.",
+        "phonetic": "[ja ra-bo-ta-ju v kom-pa-ni-i]"
+      },
+      {
+        "text": "У меня есть опыт работы.",
+        "translation": "Eu tenho experiência de trabalho.",
+        "phonetic": "[u me-nʲa jestʹ o-pyt ra-bo-ty]"
+      },
+      {
+        "text": "Я умею работать с компьютером.",
+        "translation": "Eu sei trabalhar com computador.",
+        "phonetic": "[ja u-me-ju ra-bo-tatʹ s kom-pju-te-rom]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я есть инженер.",
+      "correct": "Я инженер.",
+      "correct_alt": "Я работаю инженером.",
+      "explanation": "Falantes de português tendem a traduzir 'sou' literalmente como 'есть' (быть). Em russo, no presente, o verbo 'быть' é omitido. 'Я есть' soa muito formal ou incorreto. Para dizer 'sou engenheiro', diz-se 'Я инженер' ou 'Я работаю инженером' (trabalho como engenheiro). Lembre-se: no presente, não use 'есть' com profissões ou características."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Приветствие и представление",
+        "translation": "Saudação e apresentação",
+        "examples": [
+          {
+            "original": "Здравствуйте, меня зовут Иван.",
+            "phonetic": "[zdra-stvuj-te, me-nʲa zo-vut i-van]",
+            "translation": "Olá, eu me chamo Ivan.",
+            "note": "Use 'здравствуйте' em contextos formais para entrevistas. 'Меня зовут' é a forma padrão de se apresentar."
+          },
+          {
+            "original": "Очень приятно познакомиться.",
+            "phonetic": "[o-t͡ɕenʲ pri-jat-na paz-na-ko-mit-sʲa]",
+            "translation": "Muito prazer em conhecê-lo.",
+            "note": "Frase formal típica após a apresentação."
+          },
+          {
+            "original": "Я из Испании.",
+            "phonetic": "[ja iz is-pa-ni-i]",
+            "translation": "Sou da Espanha.",
+            "note": "Com 'из' + genitivo para indicar origem."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Опыт и образование",
+        "translation": "Experiência e formação",
+        "examples": [
+          {
+            "original": "Я закончил университет в 2020 году.",
+            "phonetic": "[ja za-kon-t͡ɕil u-ni-ver-si-tet v dva-tɨ-sʲa-t͡ɕi dva-dt͡sa-tom go-du]",
+            "translation": "Eu me formei na universidade em 2020.",
+            "note": "Verbo 'закончить' (terminar/graduar-se) + acusativo. 'В году' é usado com o preposicional."
+          },
+          {
+            "original": "У меня есть три года опыта.",
+            "phonetic": "[u me-nʲa jestʹ trʲi go-da o-pɨ-ta]",
+            "translation": "Eu tenho três anos de experiência.",
+            "note": "'У меня есть' + número + anos + genitivo 'опыта'."
+          },
+          {
+            "original": "Я работал в банке два года.",
+            "phonetic": "[ja ra-bo-tal v ban-ke dva go-da]",
+            "translation": "Eu trabalhei em um banco por dois anos.",
+            "note": "Verbo 'работал' no passado (masculino). 'В банке' — preposicional."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Навыки и будущие планы",
+        "translation": "Habilidades e planos futuros",
+        "examples": [
+          {
+            "original": "Я говорю по-испански и немного по-русски.",
+            "phonetic": "[ja ga-vo-rʲu po-is-pan-ski i nʲe-mno-ga po-rus-ski]",
+            "translation": "Eu falo espanhol e um pouco de russo.",
+            "note": "'По-испански' — advérbio de idioma. 'Немного' — um pouco."
+          },
+          {
+            "original": "Я хочу работать в вашей компании.",
+            "phonetic": "[ja xa-t͡ɕu ra-bo-tatʲ v va-ʂej kom-pa-ni-i]",
+            "translation": "Eu quero trabalhar na sua empresa.",
+            "note": "'Хотеть' + infinitivo. 'В вашей' — preposicional de 'ваша'."
+          },
+          {
+            "original": "Я буду стараться.",
+            "phonetic": "[ja bu-du sta-rat-sʲa]",
+            "translation": "Eu vou me esforçar.",
+            "note": "Futuro com 'буду' + infinitivo. Útil para compromissos."
+          }
+        ]
+      }
+    ],
+    "emoji": "💼",
+    "phonetic": "",
+    "translations": {
+      "pt": "Entrevista de emprego básica"
+    }
+  },
+  {
+    "id": "pt_A2_conv_05",
+    "type": "concept",
+    "category": "Conversação",
+    "title": "На почте / Em correios",
+    "bridge": "Em espanhol, usamos 'enviar' e 'receber' com preposições semelhantes às do russo, mas o russo usa casos para indicar movimento e lugar. Para um falante de espanhol, a principal dificuldade está no uso do caso preposicional (где? / onde?) vs. o caso acusativo (куда? / para onde?) ao falar sobre ir ao correio. Além disso, os verbos de movimento têm prefixos que alteram o significado (прийти, уйти, отправить), algo que não existe de forma tão sistemática em espanhol.",
+    "rule": "Para expressar ações no correio, é necessário usar os casos corretos: 1) Direção (куда? / para onde?): usar acusativo com 'в' ou 'на' (por exemplo, 'в почтовое отделение'). 2) Lugar (где? / onde?): usar preposicional com 'в' ou 'на' (por exemplo, 'в почтовом отделении'). 3) Instrumento (чем? / com quê?): usar instrumental (por exemplo, 'письмом' – por carta). Os verbos principais são: 'отправить' (enviar) – perfectivo, 'отправлять' (enviar) – imperfeito; 'получить' (receber) – perfectivo, 'получать' (receber) – imperfeito; 'купить' (comprar) – perfectivo, 'покупать' (comprar) – imperfeito. Também se usa 'оплатить' (pagar) com acusativo. Lembre-se de que, em russo, não se usa o verbo 'ser' no presente, então frases como 'я на почте' significam 'estou no correio'.",
+    "concept_examples": [
+      {
+        "text": "Где находится почта?",
+        "translation": "Onde fica o correio?",
+        "phonetic": "[ɡdʲe nɐˈxodʲɪtsə ˈpot͡ɕtə]"
+      },
+      {
+        "text": "Мне нужно отправить письмо.",
+        "translation": "Preciso enviar uma carta.",
+        "phonetic": "[mnʲe ˈnuʐnə ɐtˈpravʲɪtʲ ˈpʲisʲmə]"
+      },
+      {
+        "text": "Сколько стоит марка?",
+        "translation": "Quanto custa um selo?",
+        "phonetic": "[ˈskolʲkə ˈstoɪt ˈmarkə]"
+      },
+      {
+        "text": "Я хочу получить посылку.",
+        "translation": "Quero receber um pacote.",
+        "phonetic": "[ja xɐˈt͡ɕu pəlʊˈt͡ɕitʲ pɐˈsɨlku]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я иду в почта.",
+      "correct": "Я иду на почту.",
+      "correct_alt": "Я иду в почтовое отделение.",
+      "explanation": "O erro ocorre porque, em espanhol, dizemos 'a correios', e o aluno traduz literalmente usando 'в' com a palavra 'почта' no nominativo. Em russo, usa-se 'на' com 'почта' para indicar direção (acusativo: 'на почту'). Além disso, deve-se alterar a terminação de 'почта' para 'у' (acusativo). Para evitar esse erro, é preciso memorizar que 'почта' rege a preposição 'на' (não 'в') e que o objeto direto vai no acusativo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Основные фразы",
+        "translation": "Frases básicas",
+        "examples": [
+          {
+            "original": "Где почта?",
+            "phonetic": "[ɡdʲe ˈpot͡ɕtə]",
+            "translation": "Onde fica o correio?",
+            "note": "Forma abreviada e comum em conversação."
+          },
+          {
+            "original": "Она работает на почте.",
+            "phonetic": "[ɐˈna rɐˈbotəɪt nɐ ˈpot͡ɕtʲe]",
+            "translation": "Ela trabalha no correio.",
+            "note": "Usa preposicional com 'на' para lugar."
+          },
+          {
+            "original": "Мне нужна марка.",
+            "phonetic": "[mnʲe nʊʐˈna ˈmarkə]",
+            "translation": "Preciso de um selo.",
+            "note": "A construção 'мне нужна' – 'eu preciso' (literal: para mim é necessário)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Отправка и получение",
+        "translation": "Envio e recebimento",
+        "examples": [
+          {
+            "original": "Я отправляю открытку.",
+            "phonetic": "[ja ɐtpravˈlʲæjʉ ɐtˈkrɨtkʊ]",
+            "translation": "Estou enviando um cartão postal.",
+            "note": "Verbo imperfeito para ação em andamento."
+          },
+          {
+            "original": "Ты получил посылку?",
+            "phonetic": "[tɨ pəlʊˈt͡ɕiɫ pɐˈsɨlkʊ]",
+            "translation": "Você recebeu o pacote?",
+            "note": "Verbo perfectivo no passado."
+          },
+          {
+            "original": "Сколько стоит отправить это в Испанию?",
+            "phonetic": "[ˈskolʲkə ˈstoɪt ɐtpravʲɪtʲ ˈɛtə v ɪˈspanʲɪjʉ]",
+            "translation": "Quanto custa enviar isso para a Espanha?",
+            "note": "Uso de acusativo com 'в' para destino ('в Испанию')."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "В отделении",
+        "translation": "Na agência",
+        "examples": [
+          {
+            "original": "Я хочу купить конверт.",
+            "phonetic": "[ja xɐˈt͡ɕu ˈkupʲɪtʲ kɐnˈvʲɛrt]",
+            "translation": "Quero comprar um envelope.",
+            "note": "Verbo perfectivo 'купить' – ação concluída."
+          },
+          {
+            "original": "Где я могу подписать?",
+            "phonetic": "[ɡdʲe ja mɐˈɡu pədʲpʲɪˈsatʲ]",
+            "translation": "Onde posso assinar?",
+            "note": "O verbo 'подписать' tem prefixo 'под-' que denota ação de baixo ou de modo."
+          },
+          {
+            "original": "Это письмо нужно отправить авиапочтой.",
+            "phonetic": "[ˈɛtə ˈpʲisʲmə ˈnuʐnə ɐtpravʲɪtʲ ɐvʲɪɐˈpot͡ɕtəj]",
+            "translation": "Esta carta precisa ser enviada pelo correio aéreo.",
+            "note": "Uso do instrumental para meio de transporte: 'авиапочтой'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📮",
+    "phonetic": "",
+    "translations": {
+      "pt": "Em correios"
+    }
+  },
+  {
+    "id": "pt_A2_conv_06",
+    "type": "concept",
+    "category": "Conversação",
+    "title": "Аренда квартиры / Alugar um apartamento",
+    "bridge": "Em russo, o verbo 'снимать' (alugar) é usado com o acusativo para o objeto direto (o apartamento), mas a forma de expressar localização ou direção muda dependendo se é estática (preposicional) ou movimento (acusativo). Diferentemente do português, em russo não se usa 'estar' para localizações temporárias; emprega-se a construção com o verbo 'жить' (viver) e o preposicional. Além disso, os casos gramaticais são essenciais: o preposicional é usado com 'в' (em) para indicar onde, enquanto o acusativo é usado com 'в' para indicar para onde. Isso pode confundir o falante de português porque, em nossa língua, não distinguimos movimento e localização com preposições de lugar de forma tão sistemática.",
+    "rule": "Para falar sobre alugar uma moradia em russo, usa-se o verbo 'снимать' (imperfectivo) ou 'снять' (perfectivo) + acusativo (o objeto direto). Para indicar o lugar onde se vive, usa-se a preposição 'в' + preposicional (para localização) ou a preposição 'на' + preposicional (para ruas, andares). Para expressar movimento em direção ao lugar, usa-se 'в' + acusativo. Os números ordinais e adjetivos concordam em gênero, número e caso com o substantivo. Os preços são expressos com o verbo 'стоить' (custar) e o nominativo para o preço, ou com 'за' + acusativo para indicar o preço por mês. O verbo 'платить' (pagar) requer o acusativo para a quantia e o dativo para a pessoa a quem se paga.",
+    "concept_examples": [
+      {
+        "text": "Я снимаю квартиру в центре.",
+        "translation": "Eu alugo um apartamento no centro.",
+        "phonetic": "[ja sʲnʲiˈmaju kvɐrˈtʲiru f ˈtsɛntrʲe]"
+      },
+      {
+        "text": "Сколько стоит аренда в месяц?",
+        "translation": "Quanto custa o aluguel por mês?",
+        "phonetic": "[ˈskolʲkə ˈstoit ɐˈrʲendə v ˈmʲesʲɪt͡s]"
+      },
+      {
+        "text": "Мы хотим снять двухкомнатную квартиру.",
+        "translation": "Nós queremos alugar um apartamento de dois quartos.",
+        "phonetic": "[mɨ xɐˈtʲim sʲnʲætʲ dvʊxˈkomnətnʊjʊ kvɐrˈtʲiru]"
+      },
+      {
+        "text": "Квартира находится на пятом этаже.",
+        "translation": "O apartamento fica no quinto andar.",
+        "phonetic": "[kvɐrˈtʲirə nɐˈxodʲɪt͡sə nə ˈpʲætəm ɪtɐˈʐɛ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я арендую квартира в центре.",
+      "correct": "Я арендую квартиру в центре.",
+      "correct_alt": "Я снимаю квартиру в центре.",
+      "explanation": "O erro ocorre porque, em português, o objeto direto não muda de forma, mas em russo deve estar no acusativo. O substantivo 'квартира' (fem.) muda sua terminação para '-у' no acusativo. Além disso, muitos falantes de português usam 'арендовать' (que é mais formal e menos comum na fala cotidiana) em vez de 'снимать', que é o verbo natural para alugar. Lembre-se: sempre que o verbo indicar uma ação sobre um objeto, esse objeto vai para o acusativo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Поиск квартиры",
+        "translation": "Busca de apartamento",
+        "examples": [
+          {
+            "original": "Я ищу квартиру в центре города.",
+            "phonetic": "[ja iˈɕːu kvɐrˈtʲiru f ˈt͡sɛntrʲe ˈɡorədə]",
+            "translation": "Eu procuro um apartamento no centro da cidade.",
+            "note": "O verbo 'искать' (procurar) é usado com acusativo: 'квартиру' (a квартира). Preste atenção à terminação -у."
+          },
+          {
+            "original": "Сколько комнат вам нужно?",
+            "phonetic": "[ˈskolʲkə ˈkomnət vam ˈnuʐnə]",
+            "translation": "Quantos quartos você precisa?",
+            "note": "A construção impessoal 'нужно' (é necessário) é comum. Ela se combina com o dativo (вам) e o genitivo plural (комнат) após 'сколько'."
+          },
+          {
+            "original": "У вас есть свободная квартира?",
+            "phonetic": "[u vas jesʲtʲ svɐˈbodnəjə kvɐrˈtʲirə]",
+            "translation": "Você tem um apartamento livre?",
+            "note": "A estrutura 'у + genitivo + есть' é a forma de expressar posse. 'свободная' é um adjetivo feminino no nominativo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Условия аренды",
+        "translation": "Condições do aluguel",
+        "examples": [
+          {
+            "original": "Аренда стоит 30000 рублей в месяц.",
+            "phonetic": "[ɐˈrʲendə ˈstoit ˈtrid͡zʲɪtʲ ˈtɨsʲɪt͡ɕ rʊˈblʲej v ˈmʲesʲɪt͡s]",
+            "translation": "O aluguel custa 30.000 rublos por mês.",
+            "note": "Os preços são expressos com o verbo 'стоить' (custar). O número 30.000 é 'тридцать тысяч' (trinta mil), e 'рублей' é o genitivo plural de 'рубль'."
+          },
+          {
+            "original": "Нужно заплатить за два месяца вперёд.",
+            "phonetic": "[ˈnuʐnə zəplɐˈtʲitʲ za dva ˈmʲesʲɪt͡sə fpʲɪˈrʲɵt]",
+            "translation": "É necessário pagar dois meses adiantado.",
+            "note": "A construção impessoal 'нужно' (é necessário) + infinitivo. A preposição 'за' + acusativo (два месяца) indica o período."
+          },
+          {
+            "original": "Коммунальные услуги не включены.",
+            "phonetic": "[kəmʊˈnalʲnɨʲe ʊsˈluɡʲɪ nʲe vklʲʊt͡ɕɪˈnɨ]",
+            "translation": "Os serviços públicos não estão incluídos.",
+            "note": "O particípio passado 'включены' (incluídos) concorda com 'услуги' (plural). A negação é feita com 'не' antes do verbo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Договор и заселение",
+        "translation": "Contrato e mudança",
+        "examples": [
+          {
+            "original": "Мы подписываем договор на год.",
+            "phonetic": "[mɨ pɐtˈpʲisɨvəjɪm dɐˈɡovər nə ɡot]",
+            "translation": "Nós assinamos o contrato por um ano.",
+            "note": "O verbo 'подписывать' (assinar) é usado com acusativo 'договор'. A preposição 'на' + acusativo indica duração."
+          },
+          {
+            "original": "Нужно внести залог.",
+            "phonetic": "[ˈnuʐnə vnʲɪˈsʲtʲi ˈzalək]",
+            "translation": "É necessário deixar um depósito.",
+            "note": "'залог' (depósito) vai para o acusativo. A construção impessoal 'нужно' + infinitivo é muito comum."
+          },
+          {
+            "original": "Мы переезжаем в субботу.",
+            "phonetic": "[mɨ pʲɪrʲɪˈʐːaɪm f ˈsubətʊ]",
+            "translation": "Nós nos mudamos no sábado.",
+            "note": "O verbo 'переезжать' (mudar-se) é imperfectivo. A preposição 'в' + acusativo (в субботу) indica tempo."
+          },
+          {
+            "original": "Квартира меблирована.",
+            "phonetic": "[kvɐrˈtʲirə mʲɪblʲɪˈrovənə]",
+            "translation": "O apartamento está mobiliado.",
+            "note": "O particípio curto 'меблирована' (mobiliado) é usado com o verbo 'быть' omitido, como é comum no presente."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "pt": "Alugar um apartamento"
+    }
+  },
+  {
+    "id": "pt_A2_conv_07",
+    "type": "concept",
+    "category": "Conversação",
+    "title": "На вечеринке / Em uma festa",
+    "bridge": "Em espanhol, usamos 'gostar' para expressar preferências e 'estar' para descrever estados temporários. Em russo, a construção é diferente: 'мне нравится' (literalmente 'a mim agrada') e 'я' + advérbio (como 'мне весело' = 'para mim é divertido'). Além disso, preste atenção aos casos: depois de 'у меня' (tenho) usa-se o nominativo para objetos, mas em negações usa-se o genitivo. Também notará que o russo usa verbos perfectivos/imperfectivos para ações terminadas vs. em andamento.",
+    "rule": "Para expressar gostos: 'мне нравится' + substantivo no nominativo (singular) ou 'мне нравятся' + substantivo no nominativo (plural). Exemplo: 'Мне нравится музыка' (Gosto de música). Para estados emocionais temporários: use 'мне' + advérbio predicativo (весело, грустно, интересно). Para posse: 'у меня есть' (tenho) + nominativo, na negação 'у меня нет' + genitivo. Para convidar: 'Давай' + infinitivo (Давай танцевать). Para ações completadas vs. em andamento: imperfectivo (танцевал) vs. perfectivo (потанцевал).",
+    "concept_examples": [
+      {
+        "text": "Мне нравится эта вечеринка.",
+        "translation": "Gosto desta festa.",
+        "phonetic": "[mnʲe ˈnravʲɪtsə ˈɛtə vʲɪt͡ɕɪˈrʲinkə]"
+      },
+      {
+        "text": "У меня есть подарок для тебя.",
+        "translation": "Tenho um presente para você.",
+        "phonetic": "[u mʲɪˈnʲa ˈjesʲtʲ pɐˈdarək dlʲa tʲɪˈbʲa]"
+      },
+      {
+        "text": "Давай потанцуем!",
+        "translation": "Vamos dançar!",
+        "phonetic": "[dɐˈvaj pə.tɐnˈt͡su.jɪm]"
+      },
+      {
+        "text": "Мне здесь очень весело.",
+        "translation": "Estou me divertindo muito aqui.",
+        "phonetic": "[mnʲe zʲdʲesʲ ˈot͡ɕɪnʲ ˈvʲesʲɪlə]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я весело на вечеринке.",
+      "correct": "Мне весело на вечеринке.",
+      "correct_alt": "Я веселюсь на вечеринке.",
+      "explanation": "Em espanhol dizemos 'estou divertido' (eu estou), mas em russo o estado emocional é expresso com o dativo 'мне' (para mim) + advérbio. Dizer 'я весело' está incorreto porque o advérbio não se combina com o sujeito no nominativo para estados. Alternativa: usar o verbo reflexivo 'веселиться' (divertir-se)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Приветствия и знакомство",
+        "translation": "Saudações e apresentações",
+        "examples": [
+          {
+            "original": "Привет! Меня зовут Анна.",
+            "phonetic": "[prʲɪˈvʲet | mʲɪˈnʲa zɐˈvut ˈanːə]",
+            "translation": "Olá! Me chamo Anna.",
+            "note": "Para se apresentar, usa-se 'меня зовут' (literalmente: a mim chamam)."
+          },
+          {
+            "original": "Очень приятно познакомиться!",
+            "phonetic": "[ˈot͡ɕɪnʲ prʲɪˈjatnə pə.znɐˈkomʲɪt͡sə]",
+            "translation": "Muito prazer!",
+            "note": "Frase fixa para responder a uma apresentação."
+          },
+          {
+            "original": "Это мой друг, Сергей.",
+            "phonetic": "[ˈɛtə moj druk | sʲɪrˈɡʲej]",
+            "translation": "Este é meu amigo, Serguéi.",
+            "note": "Uso do demonstrativo 'это' para apresentar alguém."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Предложения и приглашения",
+        "translation": "Ofertas e convites",
+        "examples": [
+          {
+            "original": "Хочешь выпить что-нибудь?",
+            "phonetic": "[ˈxot͡ɕɪʂ ˈvɨpʲɪtʲ ˈʂto.nʲɪ.bʊtʲ]",
+            "translation": "Quer beber algo?",
+            "note": "Verbo 'хотеть' (querer) + infinitivo."
+          },
+          {
+            "original": "Давай познакомлю тебя с моими друзьями.",
+            "phonetic": "[dɐˈvaj pə.z.nɐˈkomlʲʊ tʲɪˈbʲa z mɐˈimʲɪ ˈdruzʲjəmʲɪ]",
+            "translation": "Vou te apresentar aos meus amigos.",
+            "note": "Uso de 'давай' + futuro de perfectivo para propor."
+          },
+          {
+            "original": "Не хочешь потанцевать?",
+            "phonetic": "[nʲɪ ˈxot͡ɕɪʂ pə.tɐn.t͡sɨˈvatʲ]",
+            "translation": "Não quer dançar?",
+            "note": "Forma negativa de convite, muito comum."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Общение и реакции",
+        "translation": "Interação e reações",
+        "examples": [
+          {
+            "original": "Отличная музыка!",
+            "phonetic": "[ɐtˈlʲit͡ɕnəjə ˈmuzɨkə]",
+            "translation": "Música excelente!",
+            "note": "Adjetivo curto para expressar opinião."
+          },
+          {
+            "original": "Мне очень понравился твой тост.",
+            "phonetic": "[mnʲe ˈot͡ɕɪnʲ pɐˈnravʲɪlsʲə tvoj tost]",
+            "translation": "Gostei muito do seu brinde.",
+            "note": "Uso do passado de 'нравиться' (perfectivo)."
+          },
+          {
+            "original": "Как жаль, что тебе пора уходить.",
+            "phonetic": "[kak ʐalʲ | ʂto tʲɪˈbʲe pɐˈra u.xɐˈdʲitʲ]",
+            "translation": "Que pena que você tenha que ir.",
+            "note": "Expressão 'как жаль' para lamentar."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎉",
+    "phonetic": "",
+    "translations": {
+      "pt": "Em uma festa ou evento social"
+    }
+  },
+  {
+    "id": "pt_A2_conv_08",
+    "type": "concept",
+    "category": "Conversação",
+    "title": "Жаловаться и извиняться / Queixar-se e desculpar-se",
+    "bridge": "Em russo, para se queixar, usamos frequentemente o aspecto verbal imperfeito para expressar incômodo contínuo, e para se desculpar, estruturas como 'мне жаль' (sinto muito) ou o imperativo 'извини/извините'. O caso instrumental e construções impessoais são essenciais para expressar arrependimento, algo que não tem paralelo direto em português.",
+    "rule": "Para se queixar (жаловаться): use o verbo no presente imperfeito para expressar incômodo contínuo, como 'Я не могу спать' (Não consigo dormir). Para se desculpar (извиняться): use o imperativo de 'извини' (informal) ou 'извините' (formal), ou 'прости/простите' (perdoa/perdoem). Para expressar pesar, use a construção impessoal 'мне жаль' + infinitivo ou 'мне жаль, что...' (sinto que...). O verbo 'жаловаться' rege o caso preposicional com 'на' (на + acusativo) para o objeto da queixa. Nas desculpas, o aspecto perfeito 'извиниться' é usado para uma desculpa concreta, enquanto o imperfeito 'извиняться' é usado para desculpas repetidas ou gerais. Atenção: em russo não existe o verbo 'sentir' para desculpas; usam-se construções impessoais.",
+    "concept_examples": [
+      {
+        "text": "Извините, я опоздал.",
+        "translation": "Desculpe, cheguei tarde.",
+        "phonetic": "izviˈnʲitʲe, ja ɐpɐzˈdal."
+      },
+      {
+        "text": "Мне жаль, что так получилось.",
+        "translation": "Sinto que tenha acontecido assim.",
+        "phonetic": "mnʲe ʐalʲ, ʂto tak pɐˈlut͡ɕɪləsʲ."
+      },
+      {
+        "text": "Я хочу пожаловаться на шум.",
+        "translation": "Quero me queixar do barulho.",
+        "phonetic": "ja xɐˈt͡ɕu pəʐɐˈɫavət͡sʲə nə ʂum."
+      },
+      {
+        "text": "Прости, пожалуйста, я не хотел тебя обидеть.",
+        "translation": "Desculpa, por favor, não queria te ofender.",
+        "phonetic": "prɐˈsʲtʲi, pəʐɐˈɫustə, ja nʲe xɐˈtʲeɫ tʲɪˈbʲa ɐˈbʲidʲetʲ."
+      }
+    ],
+    "common_error": {
+      "wrong": "Мне сожалею, что опоздал.",
+      "correct": "Мне жаль, что я опоздал.",
+      "correct_alt": "Извините, что опоздал.",
+      "explanation": "O erro vem da tentativa de traduzir literalmente 'sinto muito' como 'me sinto' ou 'sinto'. Em russo, não se usa 'sentir' para desculpas; a construção impessoal 'мне жаль' (a mim é pena) seguida de 'что' + oração, ou diretamente o imperativo 'извините/простите', é a forma correta. Evite conjugações reflexivas como 'я сожалею' (que existe no russo formal, mas não é coloquial para desculpas). Prefira usar 'мне жаль' ou 'извините'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Основные извинения",
+        "translation": "Desculpas básicas",
+        "examples": [
+          {
+            "original": "Извини, пожалуйста!",
+            "phonetic": "izviˈnʲi, pəʐɐˈɫustə!",
+            "translation": "Desculpa, por favor!",
+            "note": "Uso informal, com 'ты' (tu). 'Извини' é a forma de imperativo singular informal."
+          },
+          {
+            "original": "Извините, можно войти?",
+            "phonetic": "izviˈnʲitʲe, ˈmoʐnə vɐjˈtʲi?",
+            "translation": "Desculpe, posso entrar?",
+            "note": "Forma formal de 'извините' usada com pessoas desconhecidas ou em situações formais."
+          },
+          {
+            "original": "Прости, я не хотел.",
+            "phonetic": "prɐˈsʲtʲi, ja nʲe xɐˈtʲeɫ.",
+            "translation": "Desculpa, não queria.",
+            "note": "'Прости' é mais forte que 'извини', expressa arrependimento mais profundo. Usado em contextos pessoais."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Выражение сожаления",
+        "translation": "Expressar pesar",
+        "examples": [
+          {
+            "original": "Мне очень жаль.",
+            "phonetic": "mnʲe ˈot͡ɕɪnʲ ʐalʲ.",
+            "translation": "Sinto muito.",
+            "note": "Uso impessoal: 'мне' é dativo, 'жаль' é uma palavra de estado. Não se conjuga de acordo com a pessoa."
+          },
+          {
+            "original": "Мне жаль, что я вас побеспокоил.",
+            "phonetic": "mnʲe ʐalʲ, ʂto ja vas pəbʲɪspɐˈkoɪl.",
+            "translation": "Sinto ter incomodado o senhor.",
+            "note": "A construção 'мне жаль, что...' é usada para desculpas formais. 'Вас' é a forma de tratamento formal para 'você'."
+          },
+          {
+            "original": "Извиняюсь за беспокойство.",
+            "phonetic": "izvʲɪˈnʲæjʉsʲ zə bʲɪspɐˈkojstvə.",
+            "translation": "Peço desculpas pelo incômodo.",
+            "note": "Expressão reflexiva 'извиняюсь' é coloquial e comum, embora alguns gramáticos a evitem. Usa-se com 'за' + acusativo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Жалобы",
+        "translation": "Queixas",
+        "examples": [
+          {
+            "original": "Я хочу пожаловаться на еду.",
+            "phonetic": "ja xɐˈt͡ɕu pəʐɐˈɫavət͡sʲə nə ˈjedu.",
+            "translation": "Quero me queixar da comida.",
+            "note": "O verbo 'жаловаться' exige a preposição 'на' + acusativo. Uso do aspecto imperfeito no infinitivo."
+          },
+          {
+            "original": "Это не работает, это брак.",
+            "phonetic": "ˈɛtə nʲɪ rɐˈbotəjt, ˈɛtə brak.",
+            "translation": "Isso não funciona, está defeituoso.",
+            "note": "Expressão comum de queixa em lojas ou serviços. 'Брак' significa defeito, não casamento, nesse contexto."
+          },
+          {
+            "original": "Мне не нравится этот отель, слишком шумно.",
+            "phonetic": "mnʲe nʲɪ ˈnravʲɪt͡sə ˈɛtət ɐˈtʲelʲ, ˈslʲiʂkəm ˈʂumnə.",
+            "translation": "Não gosto deste hotel, está muito barulhento.",
+            "note": "Uso de 'мне не нравится' + nominativo para expressar desagrado. É uma forma indireta de queixa."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙏",
+    "phonetic": "",
+    "translations": {
+      "pt": "Queixar-se e desculpar-se"
+    }
+  },
+  {
+    "id": "pt_A2_conv_09",
+    "type": "concept",
+    "category": "Conversação",
+    "title": "Мой родной город / Minha cidade natal",
+    "bridge": "Em russo, ao contrário do português, não se usa o verbo 'ser/estar' no presente para descrever características permanentes: ele é omitido. Por exemplo, 'minha cidade é grande' é dito diretamente 'мой город большой' (sem 'é'). Além disso, os adjetivos mudam de terminação de acordo com o gênero do substantivo: 'большой' (masculino), 'большая' (feminino), 'большое' (neutro). Também é preciso ter cuidado com o caso preposicional para indicar localização: usa-se a preposição 'в' (em) com a terminação -е ou -и.",
+    "rule": "Para descrever sua cidade ou povoado em russo, use a estrutura: [substantivo] + [adjetivo] (sem o verbo 'быть' no presente). Os adjetivos concordam em gênero, número e caso com o substantivo. Os gêneros são: masculino (terminação -ый/-ий/-ой), feminino (-ая/-яя), neutro (-ое/-ее), plural (-ые/-ие). Para dizer que algo está em um lugar, usa-se a preposição 'в' + caso preposicional: terminação -е (para a maioria dos substantivos) ou -и (para substantivos em -ия, -ие, -ь). Exemplos: 'Я живу в большом городе' (vivo em uma cidade grande) — 'большом' é adjetivo no preposicional masculino. Para falar do que existe, usa-se 'есть' (há) ou 'нет' (não há) com genitivo.",
+    "concept_examples": [
+      {
+        "text": "Мой город большой и красивый.",
+        "translation": "Minha cidade é grande e bonita.",
+        "phonetic": "[moj ˈɡorət bɐlʲˈʂoj i krɐˈsʲivɨj]"
+      },
+      {
+        "text": "Я живу в маленьком городе.",
+        "translation": "Vivo em uma cidade pequena.",
+        "phonetic": "[ja ʐɨˈvu v ˈmalʲɪnkəm ˈɡorədʲe]"
+      },
+      {
+        "text": "В моём городе есть парк и музей.",
+        "translation": "Na minha cidade há um parque e um museu.",
+        "phonetic": "[v mɐˈjɵm ˈɡorədʲe jesʲtʲ park i mʊˈzʲej]"
+      },
+      {
+        "text": "Мой город находится на юге России.",
+        "translation": "Minha cidade fica no sul da Rússia.",
+        "phonetic": "[moj ˈɡorət nɐˈxodʲɪtsə nɐ ˈjuɡʲe rɐˈsʲiɪ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Мой город есть большой.",
+      "correct": "Мой город большой.",
+      "correct_alt": "Мой город — большой.",
+      "explanation": "Os falantes de português tendem a usar 'есть' (é/está) como cópula, mas em russo o presente do verbo 'быть' é omitido em frases descritivas (é como o hífen ou nada). Usar 'есть' soa como 'existir' ou é enfático. Para dizer 'minha cidade é grande', simplesmente diga 'Мой город большой'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Мой город",
+        "translation": "Minha cidade",
+        "examples": [
+          {
+            "original": "Это мой город.",
+            "phonetic": "[ˈɛtə moj ˈɡorət]",
+            "translation": "Esta é minha cidade.",
+            "note": "Uso do demonstrativo 'это' para apresentar algo."
+          },
+          {
+            "original": "Мой город небольшой, но уютный.",
+            "phonetic": "[moj ˈɡorət nʲɪbɐlʲˈʂoj no ʊˈjutnɨj]",
+            "translation": "Minha cidade é pequena, mas acolhedora.",
+            "note": "Adjetivos coordenados com 'но' (mas) e concordância de gênero."
+          },
+          {
+            "original": "Мне нравится мой город.",
+            "phonetic": "[mnʲe ˈnravʲɪtsə moj ˈɡorət]",
+            "translation": "Eu gosto da minha cidade.",
+            "note": "Expressão 'мне нравится' + substantivo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Что есть в городе",
+        "translation": "O que há na cidade",
+        "examples": [
+          {
+            "original": "В моём городе есть кинотеатр.",
+            "phonetic": "[v mɐˈjɵm ˈɡorədʲe jesʲtʲ kʲɪnətʲɪˈatr]",
+            "translation": "Na minha cidade há um cinema.",
+            "note": "Uso de 'есть' para 'há'."
+          },
+          {
+            "original": "В городе нет метро.",
+            "phonetic": "[v ˈɡorədʲe nʲet mʲɪˈtro]",
+            "translation": "Na cidade não há metrô.",
+            "note": "Negação com 'нет' + genitivo do substantivo (метро é invariável)."
+          },
+          {
+            "original": "У нас есть большой парк.",
+            "phonetic": "[u nas jesʲtʲ bɐlʲˈʂoj park]",
+            "translation": "Nós temos um grande parque.",
+            "note": "Construção 'у нас есть' (nós temos)."
+          },
+          {
+            "original": "Тут есть музей и театр.",
+            "phonetic": "[tut jesʲtʲ mʊˈzʲej i tʲɪˈatr]",
+            "translation": "Aqui há um museu e um teatro.",
+            "note": "Advérbio 'тут' (aqui) informal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Где находится",
+        "translation": "Onde fica",
+        "examples": [
+          {
+            "original": "Мой город находится на севере.",
+            "phonetic": "[moj ˈɡorət nɐˈxodʲɪtsə nɐ ˈsʲevʲɪrʲe]",
+            "translation": "Minha cidade fica no norte.",
+            "note": "Preposicional com 'на' para pontos cardeais."
+          },
+          {
+            "original": "Я живу в центре города.",
+            "phonetic": "[ja ʐɨˈvu f ˈt͡sɛntrʲə ˈɡorədə]",
+            "translation": "Vivo no centro da cidade.",
+            "note": "Preposicional 'в центре' + genitivo do substantivo."
+          },
+          {
+            "original": "Мой дом рядом с парком.",
+            "phonetic": "[moj dom ˈrʲadəm s ˈparkəm]",
+            "translation": "Minha casa fica perto do parque.",
+            "note": "Preposição 'рядом с' + instrumental."
+          },
+          {
+            "original": "Город стоит на реке.",
+            "phonetic": "[ˈɡorət stoˈit nə rʲɪˈkʲe]",
+            "translation": "A cidade está localizada às margens do rio.",
+            "note": "Verbo 'стоять' (estar situado) + preposicional."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏙️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Descrever sua cidade ou povoado"
+    }
+  },
+  {
+    "id": "pt_A2_conv_10",
+    "type": "concept",
+    "category": "Conversação",
+    "title": "Мои увлечения / Minhas paixões",
+    "bridge": "Em português, para falar de paixões ou hobbies geralmente usamos o presente do indicativo e verbos como 'gostar' ou 'adorar', com a atividade como sujeito. Em russo, o verbo 'любить' (amar/gostar) é usado de forma mais direta: o sujeito é a pessoa e o complemento vai para o acusativo. Também é comum usar o aspecto imperfectivo para ações habituais, algo que em português se expressa com o presente simples. Atenção: em russo não há artigo, então não se diz 'o tênis', mas simplesmente 'теннис'.",
+    "rule": "Para falar de paixões em russo no nível A2, usa-se principalmente o verbo 'любить' (amar, gostar de) no presente: я люблю, ты любишь, он/она любит, мы любим, вы любите, они любят. Este verbo é construído com o acusativo (para substantivos inanimados, o acusativo é igual ao nominativo). Exemplo: 'Я люблю музыку' (música está no acusativo, igual ao nominativo). Também pode-se usar 'мне нравится' (eu gosto), que é construído com o dativo: мне нравится + nominativo singular ou plural. Para ações habituais, usa-se o verbo no aspecto imperfectivo: 'Я играю в теннис' (jogo tênis). Nota: os esportes são jogados com a preposição 'в' + acusativo: 'играть в футбол'. Atividades como ler, desenhar são usadas sem preposição: 'читать книги' (acusativo). Passatempos como 'cantar' são expressos com o infinitivo: 'Я люблю петь' (gosto de cantar).",
+    "concept_examples": [
+      {
+        "text": "Я люблю читать книги.",
+        "translation": "Eu gosto de ler livros.",
+        "phonetic": "[ja lʲʊˈblʲu t͡ɕɪˈtatʲ ˈknʲiɡʲɪ]"
+      },
+      {
+        "text": "Мне нравится играть в теннис.",
+        "translation": "Eu gosto de jogar tênis.",
+        "phonetic": "[mnʲe ˈnravʲɪt͡sə ɪˈɡratʲ ˈf‿tʲenʲɪs]"
+      },
+      {
+        "text": "Мы часто ходим в кино.",
+        "translation": "Nós vamos frequentemente ao cinema.",
+        "phonetic": "[mɨ ˈt͡ɕastə ˈxodʲɪm ˈf‿kʲɪˈno]"
+      },
+      {
+        "text": "Она любит рисовать.",
+        "translation": "Ela gosta de desenhar.",
+        "phonetic": "[ɐˈna ˈlʲʉbʲɪt rʲɪsɐˈvatʲ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Я густаю теннис.",
+      "correct": "Я люблю теннис.",
+      "correct_alt": "Мне нравится теннис.",
+      "explanation": "O erro vem da aplicação da estrutura portuguesa 'eu gosto' ao russo, criando um verbo 'густать' que não existe. Em russo, usa-se 'любить' ou 'нравиться' com a pessoa como sujeito (я люблю) ou dativo (мне нравится). Além disso, 'tênis' se diz 'теннис' (sem artigo)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Мои любимые занятия",
+        "translation": "Minhas atividades favoritas",
+        "examples": [
+          {
+            "original": "Я люблю музыку.",
+            "phonetic": "[ja lʲʊˈblʲu ˈmuzɨkʊ]",
+            "translation": "Eu gosto de música.",
+            "note": "O acusativo de 'музыка' é igual ao nominativo (não muda)."
+          },
+          {
+            "original": "Он любит футбол.",
+            "phonetic": "[on ˈlʲʉbʲɪt fʊdˈbol]",
+            "translation": "Ele gosta de futebol.",
+            "note": "Esportes são usados sem artigo e com 'любить' + acusativo."
+          },
+          {
+            "original": "Мы любим готовить.",
+            "phonetic": "[mɨ ˈlʲʉbʲim ɡɐˈtovʲɪtʲ]",
+            "translation": "Nós gostamos de cozinhar.",
+            "note": "Com verbos no infinitivo, usa-se 'любить' + infinitivo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Занятия в свободное время",
+        "translation": "Atividades no tempo livre",
+        "examples": [
+          {
+            "original": "Я играю в гитару.",
+            "phonetic": "[ja ɪˈɡrajʊ v‿ɡʲɪˈtarʊ]",
+            "translation": "Eu toco violão.",
+            "note": "Para instrumentos musicais usa-se 'играть на' + preposicional, mas aqui 'в' é um erro comum; dizemos 'играть на гитаре'."
+          },
+          {
+            "original": "Она смотрит сериалы.",
+            "phonetic": "[ɐˈna ˈsmotrʲɪt sʲɪˈrʲialɨ]",
+            "translation": "Ela assiste séries.",
+            "note": "O verbo 'смотреть' é usado com acusativo; 'сериалы' está no acusativo plural."
+          },
+          {
+            "original": "Мы ходим в спортзал.",
+            "phonetic": "[mɨ ˈxodʲɪm f‿spɐrdˈzaɫ]",
+            "translation": "Nós vamos à academia.",
+            "note": "Usa-se 'ходить в' + acusativo para lugares aos quais se vai com frequência."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Как часто?",
+        "translation": "Com que frequência?",
+        "examples": [
+          {
+            "original": "Я всегда читаю по вечерам.",
+            "phonetic": "[ja fsʲɪɡˈda t͡ɕɪˈtajʊ pə‿vʲɪˈt͡ɕerəm]",
+            "translation": "Eu sempre leio à noite.",
+            "note": "Usa-se 'по вечерам' (dativo plural) para expressar 'à noite'."
+          },
+          {
+            "original": "Он иногда играет в компьютерные игры.",
+            "phonetic": "[on ɪnɐˈɡda ɪˈɡrajɪt f‿kɐm⁽ʲ⁾ˈpʲjutʲɪrnɨje ˈiɡrɨ]",
+            "translation": "Ele às vezes joga videogames.",
+            "note": "'иногда' é um advérbio de frequência que se coloca antes do verbo."
+          },
+          {
+            "original": "Мы никогда не смотрим телевизор.",
+            "phonetic": "[mɨ nʲɪkɐɡˈda nʲɪ‿ˈsmotrʲɪm tʲɪlʲɪˈvʲizər]",
+            "translation": "Nós nunca assistimos televisão.",
+            "note": "Para 'nunca' usa-se 'никогда не' (dupla negação)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "pt": "Falar sobre paixões e tempo livre"
+    }
+  }
+]

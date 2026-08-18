@@ -1,0 +1,1227 @@
+{
+  "done": {
+    "intro_script": {
+      "cards": 12,
+      "data": {
+        "id": "ar_a0_g1",
+        "name": "Introducción al árabe",
+        "icon": "📖",
+        "color": "#6366f1",
+        "description": "Script RTL · abjad · vocales · conexión de letras",
+        "reviewFrom": [],
+        "cards": [
+          {
+            "id": "ar_a0_g1_L_rtl",
+            "isLetter": true,
+            "letter": "→",
+            "word": "RTL",
+            "emoji": "➡️",
+            "phonetic": "/min al-yamīn ilā al-shimāl/",
+            "translation": "Arabisch wird <b>von rechts nach links</b> geschrieben und gelesen.<br><i>Wie bei einer umgekehrten Zeile in einem Buch.</i>",
+            "mnemonic": "Stell dir vor, die Buchstaben laufen nach links, wie beim Zurückblättern eines Buches.",
+            "examples": [
+              {
+                "t": "مرحبا ← <b>مرحبا</b>",
+                "n": "Das Wort <i>marhaba</i> (Hallo) beginnt rechts und endet links."
+              },
+              {
+                "t": "Starte rechts 👈<br>Lies nach links 👉",
+                "n": "Richtungspfeil: Der Anfang ist immer auf der rechten Seite."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_L_abjad",
+            "isLetter": true,
+            "letter": "ا",
+            "word": "Abjad",
+            "emoji": "🔤",
+            "phonetic": "/ʔalif/",
+            "translation": "Das arabische Alphabet ist ein <b>Abjad</b> – es schreibt hauptsächlich Konsonanten.<br>Kurze Vokale (a, i, u) werden meist <i>weggelassen</i>, außer in Lehrbüchern oder im Koran.",
+            "mnemonic": "Denk an ein Skelett: Die Konsonanten sind die Knochen, die Vokale nur das Fleisch – oft nicht sichtbar.",
+            "examples": [
+              {
+                "t": "كِتَابٌ (mit Vokalen) → كتاب (ohne Vokale)",
+                "n": "Dasselbe Wort <i>kitāb</i> (Buch) – einmal betont, einmal nackt."
+              },
+              {
+                "t": "Ohne Vokale muss man den Kontext kennen.",
+                "n": "Erfahrene Leser ergänzen die Vokale automatisch."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_L_fatha",
+            "isLetter": true,
+            "letter": "ـَ",
+            "word": "Fatha",
+            "emoji": "🔺",
+            "phonetic": "/a/",
+            "translation": "<b>Fatha</b> ـَ ist ein kleiner Schrägstrich <b>über</b> dem Buchstaben – er klingt wie <i>a</i> in „Apfel“.",
+            "mnemonic": "Ein Strich nach oben = ein offenes <i>a</i>, als würde der Mund weit geöffnet.",
+            "examples": [
+              {
+                "t": "بَ = <b>ba</b>",
+                "n": "Fatha über <i>bāʼ</i> ergibt /ba/."
+              },
+              {
+                "t": "كِتَابٌ – das erste <b>ـَ</b> macht das <i>a</i> in „ki<b>tāb</b>“.",
+                "n": "Fatha erscheint oft in geschriebenen Vokalen."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_L_kasra",
+            "isLetter": true,
+            "letter": "ـِ",
+            "word": "Kasra",
+            "emoji": "🔻",
+            "phonetic": "/i/",
+            "translation": "<b>Kasra</b> ـِ ist ein kleiner Schrägstrich <b>unter</b> dem Buchstaben – klingt wie <i>i</i> in „Kiste“.",
+            "mnemonic": "Der Strich nach unten = ein geschlossenes <i>i</i>, wie ein Lächeln, das nach unten zieht.",
+            "examples": [
+              {
+                "t": "بِ = <b>bi</b>",
+                "n": "Kasra unter <i>bāʼ</i> ergibt /bi/."
+              },
+              {
+                "t": "كِتَابٌ – das <b>ـِ</b> macht das <i>i</i> in „k<b>i</b>tāb“.",
+                "n": "Kasra sitzt unter dem Konsonanten."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_L_damma",
+            "isLetter": true,
+            "letter": "ـُ",
+            "word": "Damma",
+            "emoji": "🌀",
+            "phonetic": "/u/",
+            "translation": "<b>Damma</b> ـُ ist eine kleine Locke <b>über</b> dem Buchstaben – klingt wie <i>u</i> in „Bus“.",
+            "mnemonic": "Die Locke sieht aus wie ein kleines <i>u</i>, das nach oben schaut.",
+            "examples": [
+              {
+                "t": "بُ = <b>bu</b>",
+                "n": "Damma über <i>bāʼ</i> ergibt /bu/."
+              },
+              {
+                "t": "كُتُبٌ – das <b>ـُ</b> macht das <i>u</i> in „k<b>u</b>tub“ (Bücher).",
+                "n": "Damma wird wie ein kleines Wölkchen geschrieben."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_L_sukun",
+            "isLetter": true,
+            "letter": "ـْ",
+            "word": "Sukun",
+            "emoji": "⭕",
+            "phonetic": "/∅/",
+            "translation": "<b>Sukun</b> ـْ ist ein kleiner Kreis <b>über</b> dem Buchstaben – er bedeutet <b>kein Vokal</b> (stiller Konsonant).",
+            "mnemonic": "Ein Kreis wie ein „Stopp-Schild“ – hier kommt kein Vokal.",
+            "examples": [
+              {
+                "t": "بْ = <b>b</b> (nur der Konsonant)",
+                "n": "Sukun zeigt: kein a, i, u danach."
+              },
+              {
+                "t": "بَيْتٌ – das <b>ـْ</b> nach <i>yāʼ</i> macht das <i>y</i> stumm.",
+                "n": "Sukun hilft, die Aussprache zu präzisieren."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_L_shadda",
+            "isLetter": true,
+            "letter": "ـّ",
+            "word": "Schadda",
+            "emoji": "💥",
+            "phonetic": "/doubled consonant/",
+            "translation": "<b>Schadda</b> ـّ ist ein kleines <b>w</b> über dem Buchstaben – es verdoppelt den Konsonanten.<br><i>Wie „bb“ in „Hobby“.</i>",
+            "mnemonic": "Das Zeichen sieht aus wie ein kleines <i>w</i> – doppelt so stark!",
+            "examples": [
+              {
+                "t": "بَّ = <b>bba</b>",
+                "n": "Der Konsonant wird länger gehalten."
+              },
+              {
+                "t": "بَيْتٌ – kein Schadda hier, aber in „دَرَّسَ“ (darasa) verdoppelt es das <b>ر</b>.",
+                "n": "Schadda ist wie ein Energieschub für den Buchstaben."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_L_connectors",
+            "isLetter": true,
+            "letter": "ك",
+            "word": "Verbindung",
+            "emoji": "🔗",
+            "phonetic": "/kāf/",
+            "translation": "Die meisten arabischen Buchstaben <b>verbinden sich</b> mit dem nächsten Buchstaben.<br>Aber <b>6 Buchstaben</b> verbinden sich nur nach rechts: <i>ا د ذ ر ز و</i>.",
+            "mnemonic": "Denk an eine Kette: Die 6 Ausreißer sind wie einzelne Perlen, die keine Kette nach links bilden.",
+            "examples": [
+              {
+                "t": "ك + ت + ب → <b>كتب</b> (kataba = schrieb)",
+                "n": "Alle drei Buchstaben verbinden sich zu einer durchgehenden Linie."
+              },
+              {
+                "t": "م + ر + ح + ب + ا → <b>مرحبا</b>",
+                "n": "Das <i>ا</i> (Alif) am Ende bricht die Kette – es verbindet sich nicht nach links."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_L_nonconnectors",
+            "isLetter": true,
+            "letter": "ا",
+            "word": "Nicht-Verbinder",
+            "emoji": "🚫",
+            "phonetic": "/ʔalif/",
+            "translation": "Die Buchstaben <b>ا د ذ ر ز و</b> verbinden sich <b>nur nach rechts</b> – sie lassen die Kette abbrechen.",
+            "mnemonic": "Stell sie dir als einsame Inseln vor, die keine Brücke zum linken Ufer bauen.",
+            "examples": [
+              {
+                "t": "د + ا + ر → <b>دار</b> (dār = Haus)",
+                "n": "Das <i>د</i> und <i>ا</i> verbinden sich nicht mit dem nächsten Buchstaben."
+              },
+              {
+                "t": "ك + ت + ا + ب → <b>كتاب</b>",
+                "n": "Das <i>ا</i> bricht die Verbindung – es bleibt allein."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_01",
+            "isLetter": false,
+            "letter": "ب",
+            "word": "بَيْتٌ",
+            "emoji": "🏠",
+            "phonetic": "/bayt/",
+            "translation": "<b>Haus</b> – mit allen Vokalen geschrieben: <i>b</i> + <i>a</i> + <i>y</i> + <i>t</i>",
+            "translations": {
+              "ar": "بَيْتٌ",
+              "de": "Haus",
+              "en": "house"
+            },
+            "examples": [
+              {
+                "t": "هَذَا <b>بَيْتٌ</b> كَبِيرٌ",
+                "n": "Das ist ein großes Haus."
+              },
+              {
+                "t": "أَنَا فِي <b>بَيْتٍ</b>",
+                "n": "Ich bin in einem Haus."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_02",
+            "isLetter": false,
+            "letter": "ك",
+            "word": "كِتَابٌ",
+            "emoji": "📖",
+            "phonetic": "/kitāb/",
+            "translation": "<b>Buch</b> – mit Vokalen: <i>k</i> + <i>i</i> + <i>t</i> + <i>ā</i> + <i>b</i>",
+            "translations": {
+              "ar": "كِتَابٌ",
+              "de": "Buch",
+              "en": "book"
+            },
+            "examples": [
+              {
+                "t": "هَذَا <b>كِتَابٌ</b> جَدِيدٌ",
+                "n": "Das ist ein neues Buch."
+              },
+              {
+                "t": "أَقْرَأُ <b>كِتَابًا</b>",
+                "n": "Ich lese ein Buch."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g1_03",
+            "isLetter": false,
+            "letter": "م",
+            "word": "مَاءٌ",
+            "emoji": "💧",
+            "phonetic": "/māʼ/",
+            "translation": "<b>Wasser</b> – das Alif (ا) wird hier wie ein langes <i>ā</i> gesprochen.",
+            "translations": {
+              "ar": "مَاءٌ",
+              "de": "Wasser",
+              "en": "water"
+            },
+            "examples": [
+              {
+                "t": "أَشْرَبُ <b>مَاءً</b>",
+                "n": "Ich trinke Wasser."
+              },
+              {
+                "t": "هَذَا <b>مَاءٌ</b> بَارِدٌ",
+                "n": "Das ist kaltes Wasser."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:05:58.364Z"
+    },
+    "letters_a": {
+      "cards": 13,
+      "data": {
+        "id": "ar_a0_g2",
+        "name": "Letras — grupo A",
+        "icon": "🔤",
+        "color": "#f59e0b",
+        "description": "أ ب ت ث ج ح خ د ذ ر ز",
+        "reviewFrom": [
+          "ar_a0_g1"
+        ],
+        "cards": [
+          {
+            "id": "ar_a0_g2_L_alif",
+            "isLetter": true,
+            "letter": "أ/ا",
+            "word": "أ/ا",
+            "emoji": "🔤",
+            "phonetic": "/ʔa/",
+            "translation": "Alif – kurzer Stimmabsatz + 'a'<br><b>ا</b> ist ein gerader Strich, der nicht verbunden wird.<br>Wie ein <span class='hl'>stockgerader</span> Buchstabe.",
+            "mnemonic": "Stell dir einen geraden Stock vor, der einfach stehen bleibt.",
+            "examples": [
+              {
+                "t": "<b>أنا</b> (ana) = ich",
+                "n": "Ich"
+              },
+              {
+                "t": "ماء (maa) = Wasser – das <b>ا</b> am Ende verlängert das 'a'.",
+                "n": "Wasser"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_L_ba",
+            "isLetter": true,
+            "letter": "ب",
+            "word": "ب",
+            "emoji": "🔤",
+            "phonetic": "/b/",
+            "translation": "Ba – wie deutsches 'b'<br>Ein Teller mit einem <b>Punkt darunter</b>.",
+            "mnemonic": "Ein Teller mit einem Punkt darunter – der Punkt ist das 'b'.",
+            "examples": [
+              {
+                "t": "<b>بيت</b> (bayt) = Haus",
+                "n": "Haus"
+              },
+              {
+                "t": "<b>كتاب</b> (kitaab) = Buch",
+                "n": "Buch"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_L_ta",
+            "isLetter": true,
+            "letter": "ت",
+            "word": "ت",
+            "emoji": "🔤",
+            "phonetic": "/t/",
+            "translation": "Ta – wie deutsches 't'<br>Ein Teller mit <b>zwei Punkten darüber</b>.",
+            "mnemonic": "Zwei Punkte oben wie zwei kleine Augen.",
+            "examples": [
+              {
+                "t": "<b>تمر</b> (tamr) = Datteln",
+                "n": "Datteln"
+              },
+              {
+                "t": "<b>أنت</b> (anta) = du (männlich)",
+                "n": "Du"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_L_tha",
+            "isLetter": true,
+            "letter": "ث",
+            "word": "ث",
+            "emoji": "🔤",
+            "phonetic": "/θ/",
+            "translation": "Tha – wie englisch 'th' in 'think'<br>Ein Teller mit <b>drei Punkten darüber</b>.",
+            "mnemonic": "Drei Punkte wie ein kleines Dreieck – 'th' wie in 'three'.",
+            "examples": [
+              {
+                "t": "<b>ثلاثة</b> (thalaatha) = drei",
+                "n": "Drei"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_L_jim",
+            "isLetter": true,
+            "letter": "ج",
+            "word": "ج",
+            "emoji": "🔤",
+            "phonetic": "/dʒ/",
+            "translation": "Jim – wie englisch 'j' in 'jungle'<br>Eine <b>Zange</b> mit einem Punkt in der Mitte.",
+            "mnemonic": "Sieht aus wie eine Zange, die etwas festhält.",
+            "examples": [
+              {
+                "t": "<b>جميل</b> (jameel) = schön",
+                "n": "Schön"
+              },
+              {
+                "t": "<b>جدة</b> (Jidda) = Stadt in Saudi-Arabien",
+                "n": "Jidda"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_L_ha",
+            "isLetter": true,
+            "letter": "ح",
+            "word": "ح",
+            "emoji": "🔤",
+            "phonetic": "/ħ/",
+            "translation": "Ha – tiefer Kehlkopf-Laut (kein deutsches Äquivalent)<br>Wie ein <b>offenes Auge</b> mit einem Strich.",
+            "mnemonic": "Stell dir vor, du hauchst gegen eine Fensterscheibe – der Laut kommt aus dem Rachen.",
+            "examples": [
+              {
+                "t": "<b>حب</b> (hub) = Liebe",
+                "n": "Liebe"
+              },
+              {
+                "t": "<b>أحمد</b> (Ahmad) = männlicher Name",
+                "n": "Ahmad"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_L_kha",
+            "isLetter": true,
+            "letter": "خ",
+            "word": "خ",
+            "emoji": "🔤",
+            "phonetic": "/x/",
+            "translation": "Kha – wie spanisches 'j' (Bach-Laut)<br>Ein <b>Punkt oben</b> auf einem Bogen.",
+            "mnemonic": "Stell dir vor, du machst den Laut beim Räuspern – wie 'ch' in 'Bach'.",
+            "examples": [
+              {
+                "t": "<b>خبز</b> (khubz) = Brot",
+                "n": "Brot"
+              },
+              {
+                "t": "<b>أخ</b> (akh) = Bruder",
+                "n": "Bruder"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_L_dal",
+            "isLetter": true,
+            "letter": "د",
+            "word": "د",
+            "emoji": "🔤",
+            "phonetic": "/d/",
+            "translation": "Dal – wie deutsches 'd'<br>Ein <b>Bogen</b>, der nicht verbunden wird.",
+            "mnemonic": "Sieht aus wie ein Halbkreis – wie ein 'd' ohne Stiel.",
+            "examples": [
+              {
+                "t": "<b>درس</b> (darasa) = er lernte",
+                "n": "Er lernte"
+              },
+              {
+                "t": "<b>يد</b> (yad) = Hand",
+                "n": "Hand"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_L_dhal",
+            "isLetter": true,
+            "letter": "ذ",
+            "word": "ذ",
+            "emoji": "🔤",
+            "phonetic": "/ð/",
+            "translation": "Dhal – wie englisch 'th' in 'the'<br>Ein Bogen mit <b>einem Punkt oben</b>.",
+            "mnemonic": "Der Punkt oben macht aus 'd' ein 'th' – wie in 'this'.",
+            "examples": [
+              {
+                "t": "<b>ذهب</b> (dhahab) = Gold",
+                "n": "Gold"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_L_ra",
+            "isLetter": true,
+            "letter": "ر",
+            "word": "ر",
+            "emoji": "🔤",
+            "phonetic": "/r/",
+            "translation": "Ra – gerolltes 'r' (wie spanisch)<br>Ein <b>kleiner Bogen</b>, der nicht verbunden wird.",
+            "mnemonic": "Wie ein kleines Häkchen – roll das 'r' wie im Spanischen.",
+            "examples": [
+              {
+                "t": "<b>رجل</b> (rajul) = Mann",
+                "n": "Mann"
+              },
+              {
+                "t": "<b>مرحبا</b> (marhaba) = Hallo",
+                "n": "Hallo"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_L_zayn",
+            "isLetter": true,
+            "letter": "ز",
+            "word": "ز",
+            "emoji": "🔤",
+            "phonetic": "/z/",
+            "translation": "Zayn – wie deutsches 'z' (stimmlos)<br>Ein Bogen mit <b>einem Punkt oben</b> – wie ein 'r' mit Punkt.",
+            "mnemonic": "Der Punkt macht aus 'r' ein 'z' – wie in 'Zebra'.",
+            "examples": [
+              {
+                "t": "<b>زيت</b> (zayt) = Öl",
+                "n": "Öl"
+              },
+              {
+                "t": "<b>زهرة</b> (zahra) = Blume",
+                "n": "Blume"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_01",
+            "isLetter": false,
+            "letter": "ب",
+            "word": "بيت",
+            "emoji": "🏠",
+            "phonetic": "/bayt/",
+            "translation": "Haus",
+            "translations": {
+              "ar": "بيت",
+              "de": "Haus",
+              "en": "house"
+            },
+            "examples": [
+              {
+                "t": "<b>بيت</b> كبير (bayt kabiir) = ein großes Haus",
+                "n": "Ein großes Haus"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g2_02",
+            "isLetter": false,
+            "letter": "ك",
+            "word": "كتاب",
+            "emoji": "📖",
+            "phonetic": "/kitaab/",
+            "translation": "Buch",
+            "translations": {
+              "ar": "كتاب",
+              "de": "Buch",
+              "en": "book"
+            },
+            "examples": [
+              {
+                "t": "هذا <b>كتاب</b> (haadha kitaab) = Das ist ein Buch.",
+                "n": "Das ist ein Buch."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:06:35.835Z"
+    },
+    "letters_b": {
+      "cards": 15,
+      "data": {
+        "id": "ar_a0_g3",
+        "name": "Letras — grupo B",
+        "icon": "🔡",
+        "color": "#10b981",
+        "description": "س ش ص ض ط ظ ع غ ف ق ك ل",
+        "reviewFrom": [
+          "ar_a0_g1",
+          "ar_a0_g2"
+        ],
+        "cards": [
+          {
+            "id": "ar_a0_g3_L_sin",
+            "isLetter": true,
+            "letter": "س",
+            "word": "س",
+            "emoji": "🔤",
+            "phonetic": "/s/",
+            "translation": "Sin — wie ein <b>s</b> im Deutschen. <i>Zischlaut</i>",
+            "mnemonic": "Stell dir eine Schlange vor, die zischt — die Form von س sieht aus wie eine kleine Zunge mit drei Zähnen.",
+            "examples": [
+              {
+                "t": "<b>س</b>لام (salam) — Frieden",
+                "n": "Das Wort beginnt mit Sin."
+              },
+              {
+                "t": "رأ<b>س</b> (raas) — Kopf",
+                "n": "Am Ende des Wortes."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_shin",
+            "isLetter": true,
+            "letter": "ش",
+            "word": "ش",
+            "emoji": "🔤",
+            "phonetic": "/ʃ/",
+            "translation": "Schin — wie <b>sch</b> im Deutschen. <i>Zischlaut</i>",
+            "mnemonic": "Schin hat drei Punkte darüber — wie drei kleine Schlangen, die zischen.",
+            "examples": [
+              {
+                "t": "<b>ش</b>مس (shams) — Sonne",
+                "n": "Die Sonne scheint."
+              },
+              {
+                "t": "<b>ش</b>كراً (shukran) — Danke",
+                "n": "Höflichkeitsformel."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_sad",
+            "isLetter": true,
+            "letter": "ص",
+            "word": "ص",
+            "emoji": "🔤",
+            "phonetic": "/sˤ/",
+            "translation": "Sad — emphatisches <b>s</b> (Zunge zurück). <i>Dunkler Klang</i>",
+            "mnemonic": "Sad sieht aus wie ein Kreis mit einem Schwanz — denk an eine Schale, die du zurückziehst.",
+            "examples": [
+              {
+                "t": "<b>ص</b>باح (sabah) — Morgen",
+                "n": "Guten Morgen."
+              },
+              {
+                "t": "<b>ص</b>ديق (sadeeq) — Freund",
+                "n": "Ein Freund."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_dad",
+            "isLetter": true,
+            "letter": "ض",
+            "word": "ض",
+            "emoji": "🔤",
+            "phonetic": "/dˤ/",
+            "translation": "Dad — emphatisches <b>d</b>. <i>Dunkler Klang</i>",
+            "mnemonic": "Dad hat einen Punkt oben — wie ein Punkt auf einem Dach.",
+            "examples": [
+              {
+                "t": "رم<b>ض</b>ان (Ramadan) — Fastenmonat",
+                "n": "Der heilige Monat."
+              },
+              {
+                "t": "بي<b>ض</b> (bayd) — Eier",
+                "n": "Zum Frühstück."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_ta",
+            "isLetter": true,
+            "letter": "ط",
+            "word": "ط",
+            "emoji": "🔤",
+            "phonetic": "/tˤ/",
+            "translation": "Ta — emphatisches <b>t</b>. <i>Dunkler Klang</i>",
+            "mnemonic": "Ta sieht aus wie ein Topf mit einem Deckel — der Deckel ist die Linie oben.",
+            "examples": [
+              {
+                "t": "<b>ط</b>الب (talib) — Student",
+                "n": "Jemand, der lernt."
+              },
+              {
+                "t": "<b>ط</b>ريق (tareeq) — Straße",
+                "n": "Der Weg."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_dha",
+            "isLetter": true,
+            "letter": "ظ",
+            "word": "ظ",
+            "emoji": "🔤",
+            "phonetic": "/ðˤ/",
+            "translation": "Dha — emphatisches <b>dh</b> (wie im Englischen 'this'). <i>Dunkler Klang</i>",
+            "mnemonic": "Dha hat einen Punkt oben und einen Bauch — wie ein dicker Punkt.",
+            "examples": [
+              {
+                "t": "<b>ظ</b>هر (duhr) — Mittag",
+                "n": "Mittagsgebet."
+              },
+              {
+                "t": "ح<b>ظ</b> (hadh) — Glück",
+                "n": "Viel Glück!"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_ayn",
+            "isLetter": true,
+            "letter": "ع",
+            "word": "ع",
+            "emoji": "🔤",
+            "phonetic": "/ʕ/",
+            "translation": "Ayn — stimmhafter Rachenlaut. <i>Einzigartig im Arabischen</i>",
+            "mnemonic": "Ayn sieht aus wie ein Auge — und du sprichst es aus, als ob du ein Auge zukneifst.",
+            "examples": [
+              {
+                "t": "<b>ع</b>ربي (arabi) — Araber/Arabisch",
+                "n": "Die Sprache."
+              },
+              {
+                "t": "<b>ع</b>لي (Ali) — männlicher Name",
+                "n": "Ein häufiger Name."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_ghayn",
+            "isLetter": true,
+            "letter": "غ",
+            "word": "غ",
+            "emoji": "🔤",
+            "phonetic": "/ɣ/",
+            "translation": "Ghain — wie ein <b>französisches R</b> oder Gurgeln. <i>Rachenlaut</i>",
+            "mnemonic": "Ghain hat einen Punkt oben — denk an einen Punkt auf einem Berg, und du gurgelst.",
+            "examples": [
+              {
+                "t": "<b>غ</b>داء (ghadaa) — Mittagessen",
+                "n": "Das Essen am Mittag."
+              },
+              {
+                "t": "ب<b>غ</b>داد (Baghdad) — Hauptstadt des Irak",
+                "n": "Eine Stadt."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_fa",
+            "isLetter": true,
+            "letter": "ف",
+            "word": "ف",
+            "emoji": "🔤",
+            "phonetic": "/f/",
+            "translation": "Fa — wie ein <b>f</b> im Deutschen. <i>Lippenlaut</i>",
+            "mnemonic": "Fa hat einen Punkt oben und einen Bogen unten — wie eine Feder.",
+            "examples": [
+              {
+                "t": "<b>ف</b>تح (fatah) — öffnen",
+                "n": "Die Tür öffnen."
+              },
+              {
+                "t": "كي<b>ف</b> (kayfa) — wie",
+                "n": "Wie geht's?"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_qaf",
+            "isLetter": true,
+            "letter": "ق",
+            "word": "ق",
+            "emoji": "🔤",
+            "phonetic": "/q/",
+            "translation": "Qaf — tiefes <b>k</b> (hinten im Rachen). <i>Uvularer Verschlusslaut</i>",
+            "mnemonic": "Qaf hat zwei Punkte oben und einen Ring — wie ein Q mit Punkten.",
+            "examples": [
+              {
+                "t": "<b>ق</b>لب (qalb) — Herz",
+                "n": "Das Herz."
+              },
+              {
+                "t": "<b>ق</b>رآن (Quran) — heiliges Buch",
+                "n": "Der Koran."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_kaf",
+            "isLetter": true,
+            "letter": "ك",
+            "word": "ك",
+            "emoji": "🔤",
+            "phonetic": "/k/",
+            "translation": "Kaf — wie ein <b>k</b> im Deutschen. <i>Vorderer Laut</i>",
+            "mnemonic": "Kaf sieht aus wie ein K mit einem Schwanz nach unten.",
+            "examples": [
+              {
+                "t": "<b>ك</b>تاب (kitaab) — Buch",
+                "n": "Ein Buch."
+              },
+              {
+                "t": "كي<b>ف</b> (kayfa) — wie",
+                "n": "Wie geht's?"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_L_lam",
+            "isLetter": true,
+            "letter": "ل",
+            "word": "ل",
+            "emoji": "🔤",
+            "phonetic": "/l/",
+            "translation": "Lam — wie ein <b>l</b> im Deutschen. <i>Zungenlaut</i>",
+            "mnemonic": "Lam sieht aus wie ein L mit einem Haken.",
+            "examples": [
+              {
+                "t": "<b>ل</b>ا (la) — nein",
+                "n": "Verneinung."
+              },
+              {
+                "t": "ا<b>لل</b>ه (Allah) — Gott",
+                "n": "Der Name Gottes."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_v01",
+            "isLetter": false,
+            "letter": "س",
+            "word": "سلام",
+            "emoji": "🕊️",
+            "phonetic": "/salaam/",
+            "translation": "Frieden",
+            "translations": {
+              "ar": "سلام",
+              "de": "Frieden",
+              "en": "peace"
+            },
+            "examples": [
+              {
+                "t": "<b>سلام</b> عليكم (salam alaykum) — Friede sei mit dir",
+                "n": "Begrüßung."
+              },
+              {
+                "t": "أنا أريد <b>السلام</b> (ana ureed as-salam) — Ich will Frieden.",
+                "n": "Wunsch."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_v02",
+            "isLetter": false,
+            "letter": "ش",
+            "word": "شمس",
+            "emoji": "☀️",
+            "phonetic": "/shams/",
+            "translation": "Sonne",
+            "translations": {
+              "ar": "شمس",
+              "de": "Sonne",
+              "en": "sun"
+            },
+            "examples": [
+              {
+                "t": "الش<b>مس</b> مشرقة (ash-shams mushriqa) — Die Sonne scheint.",
+                "n": "Wetter."
+              },
+              {
+                "t": "أحب <b>الشمس</b> (uhibb ash-shams) — Ich liebe die Sonne.",
+                "n": "Vorliebe."
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g3_v03",
+            "isLetter": false,
+            "letter": "ق",
+            "word": "قلب",
+            "emoji": "❤️",
+            "phonetic": "/qalb/",
+            "translation": "Herz",
+            "translations": {
+              "ar": "قلب",
+              "de": "Herz",
+              "en": "heart"
+            },
+            "examples": [
+              {
+                "t": "قلبي <b>قلب</b> (qalbi qalb) — Mein Herz ist ein Herz.",
+                "n": "Wortwörtlich."
+              },
+              {
+                "t": "هذا <b>القلب</b> (hadha al-qalb) — Dieses Herz.",
+                "n": "Zeigen."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:07:01.998Z"
+    },
+    "letters_c": {
+      "cards": 15,
+      "data": {
+        "id": "ar_a0_g4",
+        "name": "Letras — grupo C + palabras",
+        "icon": "🔣",
+        "color": "#ef4444",
+        "description": "م ن ه و ي + primeras palabras completas",
+        "reviewFrom": [
+          "ar_a0_g1",
+          "ar_a0_g2",
+          "ar_a0_g3"
+        ],
+        "cards": [
+          {
+            "id": "ar_a0_g4_L_mim",
+            "isLetter": true,
+            "letter": "م",
+            "word": "م",
+            "emoji": "🔤",
+            "phonetic": "/m/",
+            "translation": "Mim — klingt wie das deutsche <b>M</b> in <i>Mama</i>",
+            "mnemonic": "Ein Kreis mit einem Schwanz nach unten – wie ein Mund, der sich zum ‚Mmm‘ schließt.",
+            "examples": [
+              {
+                "t": "<b>م</b> wie <b>مرحبا</b> (marhaba) – Hallo",
+                "n": "Das erste Zeichen in ‚Hallo‘"
+              },
+              {
+                "t": "<b>م</b> wie <b>أم</b> (umm) – Mutter",
+                "n": "Kurzes Wort mit M am Ende"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_L_nun",
+            "isLetter": true,
+            "letter": "ن",
+            "word": "ن",
+            "emoji": "🔤",
+            "phonetic": "/n/",
+            "translation": "Nun — klingt wie das deutsche <b>N</b> in <i>Nase</i>",
+            "mnemonic": "Eine Schale mit einem Punkt darüber – wie eine Nase mit einem Punkt als Nasenspitze.",
+            "examples": [
+              {
+                "t": "<b>ن</b> wie <b>نعم</b> (naam) – Ja",
+                "n": "Das erste Zeichen in ‚Ja‘"
+              },
+              {
+                "t": "<b>ن</b> wie <b>نور</b> (nour) – Licht",
+                "n": "Licht beginnt mit N"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_L_ha",
+            "isLetter": true,
+            "letter": "ه",
+            "word": "ه",
+            "emoji": "🔤",
+            "phonetic": "/h/",
+            "translation": "Ha — ein leichtes <b>H</b>, wie in <i>Haus</i>, aber weicher",
+            "mnemonic": "Zwei kleine Kreise übereinander – wie ein offener Mund, der ‚ha‘ haucht.",
+            "examples": [
+              {
+                "t": "<b>ه</b> wie <b>هو</b> (huwa) – er",
+                "n": "Das erste Zeichen in ‚er‘"
+              },
+              {
+                "t": "<b>ه</b> wie <b>هنا</b> (huna) – hier",
+                "n": "Hier beginnt mit H"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_L_waw",
+            "isLetter": true,
+            "letter": "و",
+            "word": "و",
+            "emoji": "🔤",
+            "phonetic": "/w/ oder /uː/",
+            "translation": "Waw — klingt wie <b>W</b> in <i>Wasser</i> oder langes <b>U</b> in <i>gut</i>",
+            "mnemonic": "Ein Haken nach rechts – wie ein kleines ‚w‘, das sich umdreht.",
+            "examples": [
+              {
+                "t": "<b>و</b> wie <b>وقت</b> (waqt) – Zeit",
+                "n": "Das erste Zeichen in ‚Zeit‘"
+              },
+              {
+                "t": "<b>و</b> in <b>يوم</b> (yawm) – Tag",
+                "n": "Hier klingt es wie ein langes U"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_L_ya",
+            "isLetter": true,
+            "letter": "ي",
+            "word": "ي",
+            "emoji": "🔤",
+            "phonetic": "/j/ oder /iː/",
+            "translation": "Ya — klingt wie <b>J</b> in <i>Jahr</i> oder langes <b>I</b> in <i>Liebe</i>",
+            "mnemonic": "Zwei Punkte unter einer Linie – wie ein Gesicht mit zwei Augen, das ‚juhu‘ ruft.",
+            "examples": [
+              {
+                "t": "<b>ي</b> wie <b>يوم</b> (yawm) – Tag",
+                "n": "Das erste Zeichen in ‚Tag‘"
+              },
+              {
+                "t": "<b>ي</b> in <b>في</b> (fi) – in",
+                "n": "Hier klingt es wie ein langes I"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_01",
+            "isLetter": false,
+            "letter": "م",
+            "word": "مرحبا",
+            "emoji": "👋",
+            "phonetic": "/marhaba/",
+            "translation": "Hallo",
+            "translations": {
+              "ar": "مرحبا",
+              "de": "Hallo",
+              "en": "Hello"
+            },
+            "examples": [
+              {
+                "t": "<b>مرحبا</b> كيف حالك؟",
+                "n": "Hallo, wie geht es dir?"
+              },
+              {
+                "t": "<b>مرحبا</b> بك",
+                "n": "Willkommen (wörtlich: Hallo mit dir)"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_02",
+            "isLetter": false,
+            "letter": "ش",
+            "word": "شكراً",
+            "emoji": "🙏",
+            "phonetic": "/ʃukran/",
+            "translation": "Danke",
+            "translations": {
+              "ar": "شكراً",
+              "de": "Danke",
+              "en": "Thanks"
+            },
+            "examples": [
+              {
+                "t": "<b>شكراً</b> جزيلاً",
+                "n": "Vielen Dank"
+              },
+              {
+                "t": "قل <b>شكراً</b>",
+                "n": "Sag Danke"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_03",
+            "isLetter": false,
+            "letter": "ن",
+            "word": "نعم",
+            "emoji": "✅",
+            "phonetic": "/naam/",
+            "translation": "Ja",
+            "translations": {
+              "ar": "نعم",
+              "de": "Ja",
+              "en": "Yes"
+            },
+            "examples": [
+              {
+                "t": "<b>نعم</b>، أنا جاهز",
+                "n": "Ja, ich bin bereit"
+              },
+              {
+                "t": "أجبت <b>نعم</b>",
+                "n": "Du hast Ja geantwortet"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_04",
+            "isLetter": false,
+            "letter": "ل",
+            "word": "لا",
+            "emoji": "❌",
+            "phonetic": "/laː/",
+            "translation": "Nein",
+            "translations": {
+              "ar": "لا",
+              "de": "Nein",
+              "en": "No"
+            },
+            "examples": [
+              {
+                "t": "<b>لا</b>، شكراً",
+                "n": "Nein, danke"
+              },
+              {
+                "t": "<b>لا</b> مشكلة",
+                "n": "Kein Problem"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_05",
+            "isLetter": false,
+            "letter": "م",
+            "word": "من",
+            "emoji": "❓",
+            "phonetic": "/man/",
+            "translation": "wer / von",
+            "translations": {
+              "ar": "من",
+              "de": "wer / von",
+              "en": "who / from"
+            },
+            "examples": [
+              {
+                "t": "<b>من</b> أنت؟",
+                "n": "Wer bist du?"
+              },
+              {
+                "t": "أنا <b>من</b> ألمانيا",
+                "n": "Ich bin aus Deutschland"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_06",
+            "isLetter": false,
+            "letter": "م",
+            "word": "ماذا",
+            "emoji": "❓",
+            "phonetic": "/maːða/",
+            "translation": "was",
+            "translations": {
+              "ar": "ماذا",
+              "de": "was",
+              "en": "what"
+            },
+            "examples": [
+              {
+                "t": "<b>ماذا</b> تريد؟",
+                "n": "Was willst du?"
+              },
+              {
+                "t": "<b>ماذا</b> تفعل؟",
+                "n": "Was machst du?"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_07",
+            "isLetter": false,
+            "letter": "أ",
+            "word": "أين",
+            "emoji": "📍",
+            "phonetic": "/ajna/",
+            "translation": "wo",
+            "translations": {
+              "ar": "أين",
+              "de": "wo",
+              "en": "where"
+            },
+            "examples": [
+              {
+                "t": "<b>أين</b> أنت؟",
+                "n": "Wo bist du?"
+              },
+              {
+                "t": "<b>أين</b> المطار؟",
+                "n": "Wo ist der Flughafen?"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_08",
+            "isLetter": false,
+            "letter": "م",
+            "word": "متى",
+            "emoji": "🕐",
+            "phonetic": "/mataː/",
+            "translation": "wann",
+            "translations": {
+              "ar": "متى",
+              "de": "wann",
+              "en": "when"
+            },
+            "examples": [
+              {
+                "t": "<b>متى</b> تصل؟",
+                "n": "Wann kommst du an?"
+              },
+              {
+                "t": "<b>متى</b> نلتقي؟",
+                "n": "Wann treffen wir uns?"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_09",
+            "isLetter": false,
+            "letter": "ك",
+            "word": "كيف",
+            "emoji": "🤔",
+            "phonetic": "/kajfa/",
+            "translation": "wie",
+            "translations": {
+              "ar": "كيف",
+              "de": "wie",
+              "en": "how"
+            },
+            "examples": [
+              {
+                "t": "<b>كيف</b> حالك؟",
+                "n": "Wie geht es dir?"
+              },
+              {
+                "t": "<b>كيف</b> أصل إلى هناك؟",
+                "n": "Wie komme ich dahin?"
+              }
+            ]
+          },
+          {
+            "id": "ar_a0_g4_10",
+            "isLetter": false,
+            "letter": "ل",
+            "word": "لماذا",
+            "emoji": "❓",
+            "phonetic": "/limaːða/",
+            "translation": "warum",
+            "translations": {
+              "ar": "لماذا",
+              "de": "warum",
+              "en": "why"
+            },
+            "examples": [
+              {
+                "t": "<b>لماذا</b> تبكي؟",
+                "n": "Warum weinst du?"
+              },
+              {
+                "t": "<b>لماذا</b> هنا؟",
+                "n": "Warum hier?"
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:07:28.110Z"
+    }
+  },
+  "target": "ar",
+  "source": "de"
+}

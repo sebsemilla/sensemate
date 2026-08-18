@@ -1,0 +1,942 @@
+{
+  "done": {
+    "vowel_sounds": {
+      "cards": 15,
+      "data": {
+        "id": "en_a0_g1",
+        "name": "Sonidos vocálicos",
+        "icon": "🔊",
+        "color": "#6366f1",
+        "description": "Las vocales en inglés tienen múltiples sonidos",
+        "reviewFrom": [],
+        "cards": [
+          {
+            "id": "en_a0_g1_L_a",
+            "isLetter": true,
+            "letter": "A",
+            "word": "A",
+            "emoji": "🔤",
+            "phonetic": "/eɪ/ y /æ/",
+            "translation": "Buchstabe <b>A</b> – klingt wie <i>“ei”</i> (langes A) oder <i>“ä”</i> (kurzes A)<br>Hinweis: Das spanische A ist immer offen; Englisch hat zwei Klänge.",
+            "mnemonic": "Stell dir vor, du zeigst auf etwas und sagst „A“ – wie das spanische „a“.",
+            "examples": [
+              {
+                "t": "<b>A</b> wie in <span class=\"hl\">name</span> – <i>/eɪ/</i>",
+                "n": "A wie in „Name“ – langes A"
+              },
+              {
+                "t": "<b>A</b> wie in <span class=\"hl\">cat</span> – <i>/æ/</i>",
+                "n": "A wie in „Katze“ – kurzes A"
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_L_e",
+            "isLetter": true,
+            "letter": "E",
+            "word": "E",
+            "emoji": "🔤",
+            "phonetic": "/iː/ y /ɛ/",
+            "translation": "Buchstabe <b>E</b> – klingt wie <i>“i”</i> (langes E) oder <i>“e”</i> (kurzes E)<br>Hinweis: Das spanische E ist immer geschlossen; Englisch hat zwei Klänge.",
+            "mnemonic": "Stell dir vor, du sagst „E“ wie im Spanischen, aber länger und mit einem Lächeln.",
+            "examples": [
+              {
+                "t": "<b>E</b> wie in <span class=\"hl\">he</span> – <i>/iː/</i>",
+                "n": "E wie in „er“ – langes E"
+              },
+              {
+                "t": "<b>E</b> wie in <span class=\"hl\">bed</span> – <i>/ɛ/</i>",
+                "n": "E wie in „Bett“ – kurzes E"
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_L_i",
+            "isLetter": true,
+            "letter": "I",
+            "word": "I",
+            "emoji": "🔤",
+            "phonetic": "/aɪ/ y /ɪ/",
+            "translation": "Buchstabe <b>I</b> – klingt wie <i>“ai”</i> (langes I) oder <i>“i”</i> (kurzes I)<br>Hinweis: Das spanische I ist immer kurz; Englisch hat zwei Klänge.",
+            "mnemonic": "Stell dir vor, du sagst „I“ wie im Spanischen, aber mit einem „ai“-Laut am Ende.",
+            "examples": [
+              {
+                "t": "<b>I</b> wie in <span class=\"hl\">like</span> – <i>/aɪ/</i>",
+                "n": "I wie in „mögen“ – langes I"
+              },
+              {
+                "t": "<b>I</b> wie in <span class=\"hl\">sit</span> – <i>/ɪ/</i>",
+                "n": "I wie in „sitzen“ – kurzes I"
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_L_o",
+            "isLetter": true,
+            "letter": "O",
+            "word": "O",
+            "emoji": "🔤",
+            "phonetic": "/oʊ/ y /ɒ/",
+            "translation": "Buchstabe <b>O</b> – klingt wie <i>“ou”</i> (langes O) oder <i>“o”</i> (kurzes O)<br>Hinweis: Das spanische O ist immer rund; Englisch hat zwei Klänge.",
+            "mnemonic": "Stell dir vor, du sagst „O“ wie im Spanischen, aber mit einem „u“-Laut am Ende.",
+            "examples": [
+              {
+                "t": "<b>O</b> wie in <span class=\"hl\">go</span> – <i>/oʊ/</i>",
+                "n": "O wie in „gehen“ – langes O"
+              },
+              {
+                "t": "<b>O</b> wie in <span class=\"hl\">hot</span> – <i>/ɒ/</i>",
+                "n": "O wie in „heiß“ – kurzes O"
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_L_u",
+            "isLetter": true,
+            "letter": "U",
+            "word": "U",
+            "emoji": "🔤",
+            "phonetic": "/juː/ y /ʌ/ y /ʊ/",
+            "translation": "Buchstabe <b>U</b> – klingt wie <i>“ju”</i> (langes U) oder <i>“a”</i> (kurzes U) oder <i>“u”</i> (wie in put)<br>Hinweis: Das spanische U ist immer geschlossen; Englisch hat drei Klänge.",
+            "mnemonic": "Stell dir vor, du sagst „U“ wie im Spanischen, aber mit einem „j“ davor.",
+            "examples": [
+              {
+                "t": "<b>U</b> wie in <span class=\"hl\">use</span> – <i>/juː/</i>",
+                "n": "U wie in „benutzen“ – langes U"
+              },
+              {
+                "t": "<b>U</b> wie in <span class=\"hl\">cup</span> – <i>/ʌ/</i>",
+                "n": "U wie in „Tasse“ – kurzes U"
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_01",
+            "isLetter": false,
+            "letter": "A",
+            "word": "cat",
+            "emoji": "🐱",
+            "phonetic": "/kæt/",
+            "translation": "Katze",
+            "translations": {
+              "en": "cat",
+              "de": "Katze"
+            },
+            "examples": [
+              {
+                "t": "The <b>cat</b> is black.",
+                "n": "Die Katze ist schwarz."
+              },
+              {
+                "t": "I see a <b>cat</b>.",
+                "n": "Ich sehe eine Katze."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_02",
+            "isLetter": false,
+            "letter": "A",
+            "word": "name",
+            "emoji": "📛",
+            "phonetic": "/neɪm/",
+            "translation": "Name",
+            "translations": {
+              "en": "name",
+              "de": "Name"
+            },
+            "examples": [
+              {
+                "t": "My <b>name</b> is Anna.",
+                "n": "Mein Name ist Anna."
+              },
+              {
+                "t": "What is your <b>name</b>?",
+                "n": "Wie ist dein Name?"
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_03",
+            "isLetter": false,
+            "letter": "E",
+            "word": "bed",
+            "emoji": "🛏️",
+            "phonetic": "/bɛd/",
+            "translation": "Bett",
+            "translations": {
+              "en": "bed",
+              "de": "Bett"
+            },
+            "examples": [
+              {
+                "t": "I sleep in my <b>bed</b>.",
+                "n": "Ich schlafe in meinem Bett."
+              },
+              {
+                "t": "The <b>bed</b> is soft.",
+                "n": "Das Bett ist weich."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_04",
+            "isLetter": false,
+            "letter": "E",
+            "word": "he",
+            "emoji": "👨",
+            "phonetic": "/hiː/",
+            "translation": "er",
+            "translations": {
+              "en": "he",
+              "de": "er"
+            },
+            "examples": [
+              {
+                "t": "<b>He</b> is my friend.",
+                "n": "Er ist mein Freund."
+              },
+              {
+                "t": "<b>He</b> likes coffee.",
+                "n": "Er mag Kaffee."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_05",
+            "isLetter": false,
+            "letter": "I",
+            "word": "sit",
+            "emoji": "🪑",
+            "phonetic": "/sɪt/",
+            "translation": "sitzen",
+            "translations": {
+              "en": "sit",
+              "de": "sitzen"
+            },
+            "examples": [
+              {
+                "t": "Please <b>sit</b> here.",
+                "n": "Bitte setz dich hierher."
+              },
+              {
+                "t": "I <b>sit</b> on the chair.",
+                "n": "Ich sitze auf dem Stuhl."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_06",
+            "isLetter": false,
+            "letter": "I",
+            "word": "like",
+            "emoji": "❤️",
+            "phonetic": "/laɪk/",
+            "translation": "mögen",
+            "translations": {
+              "en": "like",
+              "de": "mögen"
+            },
+            "examples": [
+              {
+                "t": "I <b>like</b> pizza.",
+                "n": "Ich mag Pizza."
+              },
+              {
+                "t": "Do you <b>like</b> music?",
+                "n": "Magst du Musik?"
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_07",
+            "isLetter": false,
+            "letter": "O",
+            "word": "go",
+            "emoji": "🚶",
+            "phonetic": "/ɡoʊ/",
+            "translation": "gehen",
+            "translations": {
+              "en": "go",
+              "de": "gehen"
+            },
+            "examples": [
+              {
+                "t": "Let's <b>go</b> home.",
+                "n": "Lass uns nach Hause gehen."
+              },
+              {
+                "t": "I <b>go</b> to school.",
+                "n": "Ich gehe zur Schule."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_08",
+            "isLetter": false,
+            "letter": "O",
+            "word": "hot",
+            "emoji": "🌞",
+            "phonetic": "/hɒt/",
+            "translation": "heiß",
+            "translations": {
+              "en": "hot",
+              "de": "heiß"
+            },
+            "examples": [
+              {
+                "t": "The soup is <b>hot</b>.",
+                "n": "Die Suppe ist heiß."
+              },
+              {
+                "t": "It's very <b>hot</b> today.",
+                "n": "Es ist heute sehr heiß."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_09",
+            "isLetter": false,
+            "letter": "U",
+            "word": "cup",
+            "emoji": "☕",
+            "phonetic": "/kʌp/",
+            "translation": "Tasse",
+            "translations": {
+              "en": "cup",
+              "de": "Tasse"
+            },
+            "examples": [
+              {
+                "t": "I drink from a <b>cup</b>.",
+                "n": "Ich trinke aus einer Tasse."
+              },
+              {
+                "t": "This <b>cup</b> is full.",
+                "n": "Diese Tasse ist voll."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g1_10",
+            "isLetter": false,
+            "letter": "U",
+            "word": "use",
+            "emoji": "🔧",
+            "phonetic": "/juːz/",
+            "translation": "benutzen",
+            "translations": {
+              "en": "use",
+              "de": "benutzen"
+            },
+            "examples": [
+              {
+                "t": "I <b>use</b> a pen.",
+                "n": "Ich benutze einen Stift."
+              },
+              {
+                "t": "Can I <b>use</b> your phone?",
+                "n": "Kann ich dein Telefon benutzen?"
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:20:21.181Z"
+    },
+    "special_consonants": {
+      "cards": 14,
+      "data": {
+        "id": "en_a0_g2",
+        "name": "Consonantes especiales",
+        "icon": "🔡",
+        "color": "#f59e0b",
+        "description": "Consonantes que suenan diferente al español",
+        "reviewFrom": [
+          "en_a0_g1"
+        ],
+        "cards": [
+          {
+            "id": "en_a0_g2_L_h",
+            "isLetter": true,
+            "letter": "H",
+            "word": "H",
+            "emoji": "🏠",
+            "phonetic": "/h/",
+            "translation": "Buchstabe <b>H</b> – klingt immer wie ein <i>Hauch</i> (wie im Deutschen <i>Haus</i>)<br>NIE stumm wie im Spanischen",
+            "mnemonic": "Stell dir vor, du hauchst eine Fensterscheibe an, um sie zu putzen – das ist der H-Laut.",
+            "examples": [
+              {
+                "t": "<b>H</b>ello! <br> <b>H</b>ouse",
+                "n": "Hallo! / Haus"
+              },
+              {
+                "t": "The <b>h</b> is always pronounced.",
+                "n": "Das H wird immer ausgesprochen."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_L_j",
+            "isLetter": true,
+            "letter": "J",
+            "word": "J",
+            "emoji": "🦘",
+            "phonetic": "/dʒ/",
+            "translation": "Buchstabe <b>J</b> – klingt wie ein <i>stimmhaftes „dsch“</i><br>Wie spanisches <i>„ch“</i> in <i>mucho</i>, aber mit Stimme",
+            "mnemonic": "Denk an das Geräusch eines startenden Motorrads: „dsch-dsch-dsch“ – das ist das englische J.",
+            "examples": [
+              {
+                "t": "<b>J</b>ump! <br> <b>J</b>ob",
+                "n": "Spring! / Job"
+              },
+              {
+                "t": "I have a <b>j</b>ob.",
+                "n": "Ich habe einen Job."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_L_w",
+            "isLetter": true,
+            "letter": "W",
+            "word": "W",
+            "emoji": "💧",
+            "phonetic": "/w/",
+            "translation": "Buchstabe <b>W</b> – klingt wie ein <i>schnelles „u“</i><br>Lippen runden wie beim <i>Pfeifen</i>",
+            "mnemonic": "Stell dir vor, du bist überrascht und sagst „Uuuh!“ – aber ganz kurz und mit gerundeten Lippen.",
+            "examples": [
+              {
+                "t": "<b>W</b>ater <br> <b>W</b>ork",
+                "n": "Wasser / Arbeit"
+              },
+              {
+                "t": "I drink <b>w</b>ater.",
+                "n": "Ich trinke Wasser."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_L_y",
+            "isLetter": true,
+            "letter": "Y",
+            "word": "Y",
+            "emoji": "👍",
+            "phonetic": "/j/",
+            "translation": "Buchstabe <b>Y</b> – klingt wie spanisches <i>„y“</i> in <i>yo</i><br>Wie ein <i>deutsches „j“</i>",
+            "mnemonic": "Denk an das spanische Wort „yo“ – genau so klingt das englische Y am Wortanfang.",
+            "examples": [
+              {
+                "t": "<b>Y</b>es! <br> <b>Y</b>ear",
+                "n": "Ja! / Jahr"
+              },
+              {
+                "t": "<b>Y</b>es, I do.",
+                "n": "Ja, das tue ich."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_L_th",
+            "isLetter": true,
+            "letter": "TH",
+            "word": "TH",
+            "emoji": "👅",
+            "phonetic": "/θ/ und /ð/",
+            "translation": "Buchstabenpaar <b>TH</b> – zwei Laute:<br><i>/θ/</i> wie in <b>think</b> (Zunge zwischen Zähnen, ohne Stimme)<br><i>/ð/</i> wie in <b>the</b> (mit Stimme)",
+            "mnemonic": "Streck die Zungenspitze leicht zwischen die Zähne und puste – das ist TH. Bei „the“ kommt die Stimme dazu.",
+            "examples": [
+              {
+                "t": "<b>TH</b>ink <br> <b>TH</b>ree",
+                "n": "Denken / Drei"
+              },
+              {
+                "t": "<b>TH</b>is is my book.",
+                "n": "Das ist mein Buch."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_L_sh",
+            "isLetter": true,
+            "letter": "SH",
+            "word": "SH",
+            "emoji": "🤫",
+            "phonetic": "/ʃ/",
+            "translation": "Buchstabenpaar <b>SH</b> – klingt wie <i>„sch“</i> im Deutschen<br>Wie spanisches <i>„sh“</i> in <i>show</i>",
+            "mnemonic": "Mach „Schscht!“ wie wenn jemand leise sein soll – genau das ist SH.",
+            "examples": [
+              {
+                "t": "<b>SH</b>e <br> <b>SH</b>ow",
+                "n": "Sie / Show"
+              },
+              {
+                "t": "<b>SH</b>e is my friend.",
+                "n": "Sie ist meine Freundin."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_L_ch",
+            "isLetter": true,
+            "letter": "CH",
+            "word": "CH",
+            "emoji": "🪑",
+            "phonetic": "/tʃ/",
+            "translation": "Buchstabenpaar <b>CH</b> – klingt wie spanisches <i>„ch“</i> in <i>mucho</i><br>Wie deutsches <i>„tsch“</i>",
+            "mnemonic": "Denk an das deutsche Wort „Tschüss“ – der Anfang davon ist das englische CH.",
+            "examples": [
+              {
+                "t": "<b>CH</b>air <br> <b>CH</b>ild",
+                "n": "Stuhl / Kind"
+              },
+              {
+                "t": "I sit on the <b>ch</b>air.",
+                "n": "Ich sitze auf dem Stuhl."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_01",
+            "isLetter": false,
+            "letter": "H",
+            "word": "house",
+            "emoji": "🏠",
+            "phonetic": "/haʊs/",
+            "translation": "das <b>Haus</b>",
+            "translations": {
+              "en": "house",
+              "de": "Haus"
+            },
+            "examples": [
+              {
+                "t": "My <b>house</b> is big.",
+                "n": "Mein Haus ist groß."
+              },
+              {
+                "t": "I live in a <b>house</b>.",
+                "n": "Ich wohne in einem Haus."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_02",
+            "isLetter": false,
+            "letter": "J",
+            "word": "job",
+            "emoji": "💼",
+            "phonetic": "/dʒɒb/",
+            "translation": "der <b>Job</b>, die Arbeit",
+            "translations": {
+              "en": "job",
+              "de": "Job"
+            },
+            "examples": [
+              {
+                "t": "I have a <b>job</b>.",
+                "n": "Ich habe einen Job."
+              },
+              {
+                "t": "My <b>job</b> is fun.",
+                "n": "Mein Job macht Spaß."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_03",
+            "isLetter": false,
+            "letter": "W",
+            "word": "water",
+            "emoji": "💧",
+            "phonetic": "/ˈwɔːtər/",
+            "translation": "das <b>Wasser</b>",
+            "translations": {
+              "en": "water",
+              "de": "Wasser"
+            },
+            "examples": [
+              {
+                "t": "I drink <b>water</b>.",
+                "n": "Ich trinke Wasser."
+              },
+              {
+                "t": "The <b>water</b> is cold.",
+                "n": "Das Wasser ist kalt."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_04",
+            "isLetter": false,
+            "letter": "Y",
+            "word": "yes",
+            "emoji": "✅",
+            "phonetic": "/jes/",
+            "translation": "<b>ja</b>",
+            "translations": {
+              "en": "yes",
+              "de": "ja"
+            },
+            "examples": [
+              {
+                "t": "<b>Yes</b>, please.",
+                "n": "Ja, bitte."
+              },
+              {
+                "t": "She said <b>yes</b>.",
+                "n": "Sie sagte ja."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_05",
+            "isLetter": false,
+            "letter": "TH",
+            "word": "three",
+            "emoji": "3️⃣",
+            "phonetic": "/θriː/",
+            "translation": "<b>drei</b>",
+            "translations": {
+              "en": "three",
+              "de": "drei"
+            },
+            "examples": [
+              {
+                "t": "I have <b>three</b> cats.",
+                "n": "Ich habe drei Katzen."
+              },
+              {
+                "t": "<b>Three</b> and two is five.",
+                "n": "Drei und zwei ist fünf."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_06",
+            "isLetter": false,
+            "letter": "SH",
+            "word": "she",
+            "emoji": "👩",
+            "phonetic": "/ʃiː/",
+            "translation": "<b>sie</b> (weiblich)",
+            "translations": {
+              "en": "she",
+              "de": "sie"
+            },
+            "examples": [
+              {
+                "t": "<b>She</b> is my sister.",
+                "n": "Sie ist meine Schwester."
+              },
+              {
+                "t": "<b>She</b> likes music.",
+                "n": "Sie mag Musik."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g2_07",
+            "isLetter": false,
+            "letter": "CH",
+            "word": "chair",
+            "emoji": "🪑",
+            "phonetic": "/tʃeər/",
+            "translation": "der <b>Stuhl</b>",
+            "translations": {
+              "en": "chair",
+              "de": "Stuhl"
+            },
+            "examples": [
+              {
+                "t": "This is my <b>chair</b>.",
+                "n": "Das ist mein Stuhl."
+              },
+              {
+                "t": "Sit on the <b>chair</b>.",
+                "n": "Setz dich auf den Stuhl."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:20:40.789Z"
+    },
+    "key_combos": {
+      "cards": 12,
+      "data": {
+        "id": "en_a0_g3",
+        "name": "Combinaciones clave",
+        "icon": "🔀",
+        "color": "#10b981",
+        "description": "Grupos de letras con un solo sonido en inglés",
+        "reviewFrom": [
+          "en_a0_g1",
+          "en_a0_g2"
+        ],
+        "cards": [
+          {
+            "id": "en_a0_g3_L_ph",
+            "isLetter": true,
+            "letter": "PH",
+            "word": "PH",
+            "emoji": "🔤",
+            "phonetic": "/f/",
+            "translation": "Name: P + H, aber klingt wie <b>F</b> <i>(wie im Deutschen „Foto“)</i>",
+            "mnemonic": "Stell dir vor, P und H halten sich an den Händen und machen zusammen das F-Geräusch wie ein „F“-Lautsprecher.",
+            "examples": [
+              {
+                "t": "<b>PH</b> klingt wie <b>F</b> – <span class=\"hl\">phone</span> = Telefon.",
+                "n": "PH sounds like F – phone = Telefon."
+              },
+              {
+                "t": "Ein <b>PH</b>-Wort: <span class=\"hl\">photo</span> – Foto.",
+                "n": "A PH word: photo – Foto."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_L_gh",
+            "isLetter": true,
+            "letter": "GH",
+            "word": "GH",
+            "emoji": "🔤",
+            "phonetic": "/silent/ or /f/",
+            "translation": "Name: G + H, aber oft stumm <i>(wie in „night“)</i> oder wie <b>F</b> <i>(wie in „laugh“)</i>",
+            "mnemonic": "GH sind zwei stille Geister – manchmal verschwinden sie ganz, manchmal husten sie wie ein F.",
+            "examples": [
+              {
+                "t": "In <span class=\"hl\">night</span> ist das <b>GH</b> stumm – du hörst nur /n/ + /t/.",
+                "n": "In night, GH is silent – you only hear /n/ + /t/."
+              },
+              {
+                "t": "In <span class=\"hl\">laugh</span> klingt <b>GH</b> wie ein <b>F</b> – lachen.",
+                "n": "In laugh, GH sounds like F – to laugh."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_L_wr",
+            "isLetter": true,
+            "letter": "WR",
+            "word": "WR",
+            "emoji": "🔤",
+            "phonetic": "/r/",
+            "translation": "Name: W + R, aber das <b>W</b> ist stumm – nur das <b>R</b> wird gesprochen <i>(wie im Deutschen „rot“)</i>",
+            "mnemonic": "Das W ist ein stummer Wächter vor dem R – du siehst es, aber du hörst es nicht.",
+            "examples": [
+              {
+                "t": "Bei <b>WR</b> ist das <span class=\"hl\">W</span> stumm – <span class=\"hl\">write</span> = schreiben.",
+                "n": "In WR, the W is silent – write = schreiben."
+              },
+              {
+                "t": "Sprich nur das <b>R</b>: <span class=\"hl\">wrong</span> = falsch.",
+                "n": "Only pronounce the R: wrong = falsch."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_L_kn",
+            "isLetter": true,
+            "letter": "KN",
+            "word": "KN",
+            "emoji": "🔤",
+            "phonetic": "/n/",
+            "translation": "Name: K + N, aber das <b>K</b> ist stumm – nur das <b>N</b> wird gesprochen <i>(wie im Deutschen „Nase“)</i>",
+            "mnemonic": "Das K ist ein stummer König vor dem N – er winkt, aber spricht nicht.",
+            "examples": [
+              {
+                "t": "Bei <b>KN</b> ist das <span class=\"hl\">K</span> stumm – <span class=\"hl\">know</span> = wissen.",
+                "n": "In KN, the K is silent – know = wissen."
+              },
+              {
+                "t": "Höre nur das <b>N</b>: <span class=\"hl\">knife</span> = Messer.",
+                "n": "Hear only the N: knife = Messer."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_L_qu",
+            "isLetter": true,
+            "letter": "QU",
+            "word": "QU",
+            "emoji": "🔤",
+            "phonetic": "/kw/",
+            "translation": "Name: Q + U, klingt wie <b>KW</b> <i>(wie im Deutschen „Quelle“)</i>",
+            "mnemonic": "QU ist wie ein kleines „kw“ – denk an „Quelle“ und du hast es.",
+            "examples": [
+              {
+                "t": "<b>QU</b> klingt wie <b>KW</b> – <span class=\"hl\">queen</span> = Königin.",
+                "n": "QU sounds like KW – queen = Königin."
+              },
+              {
+                "t": "Ein anderes Wort: <span class=\"hl\">quiet</span> – leise.",
+                "n": "Another word: quiet – leise."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_L_ck",
+            "isLetter": true,
+            "letter": "CK",
+            "word": "CK",
+            "emoji": "🔤",
+            "phonetic": "/k/",
+            "translation": "Name: C + K, klingt wie ein einzelnes <b>K</b> <i>(wie im Deutschen „kalt“)</i> – kommt oft am Wortende vor",
+            "mnemonic": "CK sind zwei Buchstaben, die zusammen nur ein K-Geräusch machen – wie ein K mit einem Schatten.",
+            "examples": [
+              {
+                "t": "<b>CK</b> am Ende klingt wie <b>K</b> – <span class=\"hl\">back</span> = zurück.",
+                "n": "CK at the end sounds like K – back = zurück."
+              },
+              {
+                "t": "Noch ein Beispiel: <span class=\"hl\">duck</span> – Ente.",
+                "n": "Another example: duck – Ente."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_01",
+            "isLetter": false,
+            "letter": "PH",
+            "word": "phone",
+            "emoji": "📱",
+            "phonetic": "/fəʊn/",
+            "translation": "das Telefon – <b>PH</b> klingt wie <b>F</b>",
+            "translations": {
+              "en": "phone",
+              "de": "Telefon"
+            },
+            "examples": [
+              {
+                "t": "My <b>phone</b> is new.",
+                "n": "Mein Telefon ist neu."
+              },
+              {
+                "t": "I have a <b>phone</b>.",
+                "n": "Ich habe ein Telefon."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_02",
+            "isLetter": false,
+            "letter": "GH",
+            "word": "night",
+            "emoji": "🌙",
+            "phonetic": "/naɪt/",
+            "translation": "die Nacht – das <b>GH</b> ist stumm",
+            "translations": {
+              "en": "night",
+              "de": "Nacht"
+            },
+            "examples": [
+              {
+                "t": "Good <b>night</b>!",
+                "n": "Gute Nacht!"
+              },
+              {
+                "t": "The <b>night</b> is dark.",
+                "n": "Die Nacht ist dunkel."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_03",
+            "isLetter": false,
+            "letter": "WR",
+            "word": "write",
+            "emoji": "✍️",
+            "phonetic": "/raɪt/",
+            "translation": "schreiben – das <b>W</b> ist stumm",
+            "translations": {
+              "en": "write",
+              "de": "schreiben"
+            },
+            "examples": [
+              {
+                "t": "I <b>write</b> a letter.",
+                "n": "Ich schreibe einen Brief."
+              },
+              {
+                "t": "Please <b>write</b> your name.",
+                "n": "Bitte schreibe deinen Namen."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_04",
+            "isLetter": false,
+            "letter": "KN",
+            "word": "know",
+            "emoji": "🧠",
+            "phonetic": "/nəʊ/",
+            "translation": "wissen, kennen – das <b>K</b> ist stumm",
+            "translations": {
+              "en": "know",
+              "de": "wissen, kennen"
+            },
+            "examples": [
+              {
+                "t": "I <b>know</b> you.",
+                "n": "Ich kenne dich."
+              },
+              {
+                "t": "Do you <b>know</b> her?",
+                "n": "Kennst du sie?"
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_05",
+            "isLetter": false,
+            "letter": "QU",
+            "word": "queen",
+            "emoji": "👑",
+            "phonetic": "/kwiːn/",
+            "translation": "die Königin – <b>QU</b> klingt wie <b>KW</b>",
+            "translations": {
+              "en": "queen",
+              "de": "Königin"
+            },
+            "examples": [
+              {
+                "t": "The <b>queen</b> is here.",
+                "n": "Die Königin ist hier."
+              },
+              {
+                "t": "She is a <b>queen</b>.",
+                "n": "Sie ist eine Königin."
+              }
+            ]
+          },
+          {
+            "id": "en_a0_g3_06",
+            "isLetter": false,
+            "letter": "CK",
+            "word": "back",
+            "emoji": "🔙",
+            "phonetic": "/bæk/",
+            "translation": "zurück, der Rücken – <b>CK</b> klingt wie <b>K</b>",
+            "translations": {
+              "en": "back",
+              "de": "zurück, Rücken"
+            },
+            "examples": [
+              {
+                "t": "Come <b>back</b>!",
+                "n": "Komm zurück!"
+              },
+              {
+                "t": "My <b>back</b> hurts.",
+                "n": "Mein Rücken tut weh."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:20:59.167Z"
+    }
+  },
+  "target": "en",
+  "source": "de"
+}

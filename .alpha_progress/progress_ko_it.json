@@ -1,0 +1,2199 @@
+{
+  "done": {
+    "basic_vowels": {
+      "cards": 29,
+      "data": {
+        "id": "ko_a0_g1",
+        "name": "Vocales básicas",
+        "icon": "🔤",
+        "color": "#6366f1",
+        "description": "ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ ㅐ ㅔ — las 8 vocales simples",
+        "reviewFrom": [],
+        "cards": [
+          {
+            "id": "ko_a0_g1_L_a",
+            "isLetter": true,
+            "letter": "ㅏ",
+            "word": "ㅏ",
+            "emoji": "🔤",
+            "phonetic": "/a/",
+            "translation": "Vocale <b>ㅏ</b> — suono <i>/a/</i> come la A italiana.",
+            "mnemonic": "Un ramo che spunta a destra: immagina un albero (A) con un ramo laterale.",
+            "examples": [
+              {
+                "t": "아버지 → <b>아</b> + 버지<br>Significa 'padre'.",
+                "n": "Padre"
+              },
+              {
+                "t": "나 → <b>나</b> (io)",
+                "n": "Io"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_L_eo",
+            "isLetter": true,
+            "letter": "ㅓ",
+            "word": "ㅓ",
+            "emoji": "🔤",
+            "phonetic": "/ʌ/",
+            "translation": "Vocale <b>ㅓ</b> — suono <i>/ʌ/</i> come la A in inglese 'about' (neutra).",
+            "mnemonic": "Un ramo che spunta a sinistra: è il ramo di un albero caduto, suona 'eo' (come il verso del gatto spaventato).",
+            "examples": [
+              {
+                "t": "어머니 → <b>어</b> + 머니<br>Significa 'madre'.",
+                "n": "Madre"
+              },
+              {
+                "t": "어디 → <b>어</b> + 디<br>Significa 'dove'.",
+                "n": "Dove"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_L_o",
+            "isLetter": true,
+            "letter": "ㅗ",
+            "word": "ㅗ",
+            "emoji": "🔤",
+            "phonetic": "/o/",
+            "translation": "Vocale <b>ㅗ</b> — suono <i>/o/</i> come la O italiana.",
+            "mnemonic": "Un ramo che sale verso l'alto: sembra una O in cima a un bastone.",
+            "examples": [
+              {
+                "t": "오다 → <b>오</b> + 다<br>Significa 'venire'.",
+                "n": "Venire"
+              },
+              {
+                "t": "소 → <b>소</b> (mucca)",
+                "n": "Mucca"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_L_u",
+            "isLetter": true,
+            "letter": "ㅜ",
+            "word": "ㅜ",
+            "emoji": "🔤",
+            "phonetic": "/u/",
+            "translation": "Vocale <b>ㅜ</b> — suono <i>/u/</i> come la U italiana.",
+            "mnemonic": "Un ramo che scende verso il basso: sembra una U rovesciata, come il fondo di una tazza.",
+            "examples": [
+              {
+                "t": "우리 → <b>우</b> + 리<br>Significa 'noi/nostro'.",
+                "n": "Noi"
+              },
+              {
+                "t": "물 → <b>물</b> (acqua)",
+                "n": "Acqua"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_L_eu",
+            "isLetter": true,
+            "letter": "ㅡ",
+            "word": "ㅡ",
+            "emoji": "🔤",
+            "phonetic": "/ɯ/",
+            "translation": "Vocale <b>ㅡ</b> — suono <i>/ɯ/</i> (senza equivalente in italiano, lingua indietro e centrata).",
+            "mnemonic": "Una linea orizzontale: sembra il segno meno, ma pensa a 'eu' come a un suono neutro e piatto.",
+            "examples": [
+              {
+                "t": "으로 → <b>으</b> + 로<br>Particella che indica direzione 'verso'.",
+                "n": "Verso"
+              },
+              {
+                "t": "음식 → <b>음</b> + 식<br>Significa 'cibo'.",
+                "n": "Cibo"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_L_i",
+            "isLetter": true,
+            "letter": "ㅣ",
+            "word": "ㅣ",
+            "emoji": "🔤",
+            "phonetic": "/i/",
+            "translation": "Vocale <b>ㅣ</b> — suono <i>/i/</i> come la I italiana.",
+            "mnemonic": "Una linea verticale: sembra un dito che indica, pensa a 'i' come a un punto esclamativo.",
+            "examples": [
+              {
+                "t": "이름 → <b>이</b> + 름<br>Significa 'nome'.",
+                "n": "Nome"
+              },
+              {
+                "t": "시 → <b>시</b> (città/ora)",
+                "n": "Città/ora"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_L_ae",
+            "isLetter": true,
+            "letter": "ㅐ",
+            "word": "ㅐ",
+            "emoji": "🔤",
+            "phonetic": "/ɛ/",
+            "translation": "Vocale <b>ㅐ</b> — suono <i>/ɛ/</i> come la E aperta di 'bene'.",
+            "mnemonic": "Un ramo a destra e uno a sinistra: sembra una E aperta, pensa a 'a-e' come a un suono di sorpresa.",
+            "examples": [
+              {
+                "t": "애기 → <b>애</b> + 기<br>Significa 'bambino' (variante).",
+                "n": "Bambino"
+              },
+              {
+                "t": "개 → <b>개</b> (cane)",
+                "n": "Cane"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_L_e",
+            "isLetter": true,
+            "letter": "ㅔ",
+            "word": "ㅔ",
+            "emoji": "🔤",
+            "phonetic": "/e/",
+            "translation": "Vocale <b>ㅔ</b> — suono <i>/e/</i> come la E chiusa di 'perché'.",
+            "mnemonic": "Un ramo a destra e uno a sinistra, ma più stretti: sembra una E chiusa, pensa a 'e' come a 'e' con accento.",
+            "examples": [
+              {
+                "t": "에서 → <b>에</b> + 서<br>Particella di luogo 'da/a'.",
+                "n": "Da/a"
+              },
+              {
+                "t": "세 → <b>세</b> (tre)",
+                "n": "Tre"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_01",
+            "isLetter": false,
+            "letter": "ㅏ",
+            "word": "아버지",
+            "emoji": "👨",
+            "phonetic": "/a.bʌ.dʑi/",
+            "translation": "Padre",
+            "translations": {
+              "ko": "아버지",
+              "it": "padre",
+              "en": "father"
+            },
+            "examples": [
+              {
+                "t": "제 <b>아버지</b>는 선생님입니다.",
+                "n": "Mio padre è insegnante."
+              },
+              {
+                "t": "<b>아버지</b>가 좋아요.",
+                "n": "Mio padre è buono."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_02",
+            "isLetter": false,
+            "letter": "ㅏ",
+            "word": "나",
+            "emoji": "🙋",
+            "phonetic": "/na/",
+            "translation": "Io (informale)",
+            "translations": {
+              "ko": "나",
+              "it": "io",
+              "en": "I"
+            },
+            "examples": [
+              {
+                "t": "<b>나</b>는 학생이에요.",
+                "n": "Io sono studente."
+              },
+              {
+                "t": "<b>나</b>도 좋아해요.",
+                "n": "Anche a me piace."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_03",
+            "isLetter": false,
+            "letter": "ㅓ",
+            "word": "어머니",
+            "emoji": "👩",
+            "phonetic": "/ʌ.mʌ.ni/",
+            "translation": "Madre",
+            "translations": {
+              "ko": "어머니",
+              "it": "madre",
+              "en": "mother"
+            },
+            "examples": [
+              {
+                "t": "제 <b>어머니</b>는 요리사예요.",
+                "n": "Mia madre è cuoca."
+              },
+              {
+                "t": "<b>어머니</b>가 보고 싶어요.",
+                "n": "Mi manca mia madre."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_04",
+            "isLetter": false,
+            "letter": "ㅓ",
+            "word": "어디",
+            "emoji": "📍",
+            "phonetic": "/ʌ.di/",
+            "translation": "Dove",
+            "translations": {
+              "ko": "어디",
+              "it": "dove",
+              "en": "where"
+            },
+            "examples": [
+              {
+                "t": "<b>어디</b>에 가요?",
+                "n": "Dove vai?"
+              },
+              {
+                "t": "화장실이 <b>어디</b>예요?",
+                "n": "Dov'è il bagno?"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_05",
+            "isLetter": false,
+            "letter": "ㅗ",
+            "word": "오다",
+            "emoji": "🚶",
+            "phonetic": "/o.da/",
+            "translation": "Venire",
+            "translations": {
+              "ko": "오다",
+              "it": "venire",
+              "en": "to come"
+            },
+            "examples": [
+              {
+                "t": "내일 <b>오다</b>로 해요.",
+                "n": "Vieni domani."
+              },
+              {
+                "t": "친구가 집에 <b>와요</b>.",
+                "n": "L'amico viene a casa."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_06",
+            "isLetter": false,
+            "letter": "ㅗ",
+            "word": "소",
+            "emoji": "🐄",
+            "phonetic": "/so/",
+            "translation": "Mucca",
+            "translations": {
+              "ko": "소",
+              "it": "mucca",
+              "en": "cow"
+            },
+            "examples": [
+              {
+                "t": "이 <b>소</b>는 커요.",
+                "n": "Questa mucca è grande."
+              },
+              {
+                "t": "<b>소</b>가 풀을 먹어요.",
+                "n": "La mucca mangia l'erba."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_07",
+            "isLetter": false,
+            "letter": "ㅗ",
+            "word": "보다",
+            "emoji": "👀",
+            "phonetic": "/po.da/",
+            "translation": "Vedere, guardare",
+            "translations": {
+              "ko": "보다",
+              "it": "vedere/guardare",
+              "en": "to see/watch"
+            },
+            "examples": [
+              {
+                "t": "영화를 <b>봐요</b>.",
+                "n": "Guardo un film."
+              },
+              {
+                "t": "이것을 <b>보세요</b>.",
+                "n": "Guarda questo."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_08",
+            "isLetter": false,
+            "letter": "ㅜ",
+            "word": "우리",
+            "emoji": "👨‍👩‍👧‍👦",
+            "phonetic": "/u.ri/",
+            "translation": "Noi, nostro",
+            "translations": {
+              "ko": "우리",
+              "it": "noi/nostro",
+              "en": "we/our"
+            },
+            "examples": [
+              {
+                "t": "<b>우리</b>는 친구예요.",
+                "n": "Noi siamo amici."
+              },
+              {
+                "t": "<b>우리</b> 집에 와요.",
+                "n": "Vieni a casa nostra."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_09",
+            "isLetter": false,
+            "letter": "ㅜ",
+            "word": "물",
+            "emoji": "💧",
+            "phonetic": "/mul/",
+            "translation": "Acqua",
+            "translations": {
+              "ko": "물",
+              "it": "acqua",
+              "en": "water"
+            },
+            "examples": [
+              {
+                "t": "<b>물</b>을 마셔요.",
+                "n": "Bevo acqua."
+              },
+              {
+                "t": "<b>물</b>이 차가워요.",
+                "n": "L'acqua è fredda."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_10",
+            "isLetter": false,
+            "letter": "ㅜ",
+            "word": "두",
+            "emoji": "2️⃣",
+            "phonetic": "/tu/",
+            "translation": "Due",
+            "translations": {
+              "ko": "두",
+              "it": "due",
+              "en": "two"
+            },
+            "examples": [
+              {
+                "t": "사과 <b>두</b> 개 주세요.",
+                "n": "Due mele, per favore."
+              },
+              {
+                "t": "<b>두</b> 명이 왔어요.",
+                "n": "Sono arrivate due persone."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_11",
+            "isLetter": false,
+            "letter": "ㅡ",
+            "word": "으로",
+            "emoji": "➡️",
+            "phonetic": "/ɯ.ro/",
+            "translation": "Verso, in direzione di",
+            "translations": {
+              "ko": "으로",
+              "it": "verso",
+              "en": "towards"
+            },
+            "examples": [
+              {
+                "t": "학교<b>으로</b> 가요.",
+                "n": "Vado verso la scuola."
+              },
+              {
+                "t": "이 길<b>으로</b> 가세요.",
+                "n": "Vada per questa strada."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_12",
+            "isLetter": false,
+            "letter": "ㅡ",
+            "word": "음식",
+            "emoji": "🍜",
+            "phonetic": "/ɯm.ɕik/",
+            "translation": "Cibo",
+            "translations": {
+              "ko": "음식",
+              "it": "cibo",
+              "en": "food"
+            },
+            "examples": [
+              {
+                "t": "한국 <b>음식</b>이 맛있어요.",
+                "n": "Il cibo coreano è buono."
+              },
+              {
+                "t": "<b>음식</b>을 만들어요.",
+                "n": "Preparo il cibo."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_13",
+            "isLetter": false,
+            "letter": "ㅣ",
+            "word": "이름",
+            "emoji": "📛",
+            "phonetic": "/i.rɯm/",
+            "translation": "Nome",
+            "translations": {
+              "ko": "이름",
+              "it": "nome",
+              "en": "name"
+            },
+            "examples": [
+              {
+                "t": "제 <b>이름</b>은 민수예요.",
+                "n": "Il mio nome è Minsu."
+              },
+              {
+                "t": "<b>이름</b>이 뭐예요?",
+                "n": "Come ti chiami?"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_14",
+            "isLetter": false,
+            "letter": "ㅣ",
+            "word": "시",
+            "emoji": "🕐",
+            "phonetic": "/ɕi/",
+            "translation": "Ora, città",
+            "translations": {
+              "ko": "시",
+              "it": "ora/città",
+              "en": "hour/city"
+            },
+            "examples": [
+              {
+                "t": "지금 몇 <b>시</b>예요?",
+                "n": "Che ore sono?"
+              },
+              {
+                "t": "서울 <b>시</b>에 살아요.",
+                "n": "Vivo nella città di Seul."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_15",
+            "isLetter": false,
+            "letter": "ㅣ",
+            "word": "미",
+            "emoji": "🌸",
+            "phonetic": "/mi/",
+            "translation": "Bellezza",
+            "translations": {
+              "ko": "미",
+              "it": "bellezza",
+              "en": "beauty"
+            },
+            "examples": [
+              {
+                "t": "그 여자는 <b>미</b>가 있어요.",
+                "n": "Quella donna ha bellezza."
+              },
+              {
+                "t": "<b>미</b>를 추구해요.",
+                "n": "Perseguo la bellezza."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_16",
+            "isLetter": false,
+            "letter": "ㅐ",
+            "word": "애기",
+            "emoji": "👶",
+            "phonetic": "/ɛ.ɡi/",
+            "translation": "Bambino (variante di 아기)",
+            "translations": {
+              "ko": "애기",
+              "it": "bambino",
+              "en": "baby"
+            },
+            "examples": [
+              {
+                "t": "<b>애기</b>가 웃어요.",
+                "n": "Il bambino ride."
+              },
+              {
+                "t": "<b>애기</b>를 봐요.",
+                "n": "Guardo il bambino."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_17",
+            "isLetter": false,
+            "letter": "ㅐ",
+            "word": "개",
+            "emoji": "🐶",
+            "phonetic": "/kɛ/",
+            "translation": "Cane",
+            "translations": {
+              "ko": "개",
+              "it": "cane",
+              "en": "dog"
+            },
+            "examples": [
+              {
+                "t": "<b>개</b>가 짖어요.",
+                "n": "Il cane abbaia."
+              },
+              {
+                "t": "저 <b>개</b>는 귀여워요.",
+                "n": "Quel cane è carino."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_18",
+            "isLetter": false,
+            "letter": "ㅐ",
+            "word": "내",
+            "emoji": "🙋‍♂️",
+            "phonetic": "/nɛ/",
+            "translation": "Il mio/mia (forma contratta di 나의)",
+            "translations": {
+              "ko": "내",
+              "it": "il mio/la mia",
+              "en": "my"
+            },
+            "examples": [
+              {
+                "t": "<b>내</b> 친구예요.",
+                "n": "È il mio amico."
+              },
+              {
+                "t": "<b>내</b> 가방이에요.",
+                "n": "È la mia borsa."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_19",
+            "isLetter": false,
+            "letter": "ㅔ",
+            "word": "에서",
+            "emoji": "📍",
+            "phonetic": "/e.sʌ/",
+            "translation": "Da, in (particella di luogo)",
+            "translations": {
+              "ko": "에서",
+              "it": "da/in",
+              "en": "from/at"
+            },
+            "examples": [
+              {
+                "t": "집<b>에서</b> 쉬어요.",
+                "n": "Mi riposo a casa."
+              },
+              {
+                "t": "한국<b>에서</b> 왔어요.",
+                "n": "Vengo dalla Corea."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_20",
+            "isLetter": false,
+            "letter": "ㅔ",
+            "word": "세",
+            "emoji": "3️⃣",
+            "phonetic": "/se/",
+            "translation": "Tre",
+            "translations": {
+              "ko": "세",
+              "it": "tre",
+              "en": "three"
+            },
+            "examples": [
+              {
+                "t": "커피 <b>세</b> 잔 주세요.",
+                "n": "Tre caffè, per favore."
+              },
+              {
+                "t": "<b>세</b> 명이 왔어요.",
+                "n": "Sono arrivate tre persone."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g1_21",
+            "isLetter": false,
+            "letter": "ㅔ",
+            "word": "네",
+            "emoji": "✅",
+            "phonetic": "/ne/",
+            "translation": "Sì, quattro",
+            "translations": {
+              "ko": "네",
+              "it": "sì/quattro",
+              "en": "yes/four"
+            },
+            "examples": [
+              {
+                "t": "<b>네</b>, 알겠어요.",
+                "n": "Sì, ho capito."
+              },
+              {
+                "t": "사과 <b>네</b> 개 주세요.",
+                "n": "Quattro mele, per favore."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-14T21:47:09.753Z"
+    },
+    "basic_consonants": {
+      "cards": 20,
+      "data": {
+        "id": "ko_a0_g2",
+        "name": "Consonantes básicas",
+        "icon": "🔡",
+        "color": "#f59e0b",
+        "description": "ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅎ",
+        "reviewFrom": [
+          "ko_a0_g1"
+        ],
+        "cards": [
+          {
+            "id": "ko_a0_g2_L_g",
+            "isLetter": true,
+            "letter": "ㄱ",
+            "word": "ㄱ",
+            "emoji": "🔤",
+            "phonetic": "/g~k/",
+            "translation": "Suono <b>ㄱ</b> come <i>G</i> di <span class=\"hl\">gatto</span> (ma si avvicina a <i>K</i> in finale).",
+            "mnemonic": "Sembra una pistola o una L rovesciata: spara un suono deciso.",
+            "examples": [
+              {
+                "t": "<b>가</b> (ga) – andare<br>국 (guk) – zuppa",
+                "n": "La <b>ㄱ</b> all'inizio è dolce, in finale diventa più dura."
+              },
+              {
+                "t": "<b>고기</b> (gogi) – carne",
+                "n": "Parola comune con doppia <b>ㄱ</b>."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_L_n",
+            "isLetter": true,
+            "letter": "ㄴ",
+            "word": "ㄴ",
+            "emoji": "🔤",
+            "phonetic": "/n/",
+            "translation": "Suono <b>ㄴ</b> come <i>N</i> di <span class=\"hl\">naso</span>.",
+            "mnemonic": "La punta della lingua tocca il palato, come la lineetta in alto.",
+            "examples": [
+              {
+                "t": "<b>나</b> (na) – io<br>눈 (nun) – occhio/neve",
+                "n": "La <b>ㄴ</b> è chiara e nasale."
+              },
+              {
+                "t": "<b>나라</b> (nara) – paese",
+                "n": "Tre <b>ㄴ</b> in fila!"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_L_d",
+            "isLetter": true,
+            "letter": "ㄷ",
+            "word": "ㄷ",
+            "emoji": "🔤",
+            "phonetic": "/d~t/",
+            "translation": "Suono <b>ㄷ</b> come <i>D</i> di <span class=\"hl\">dado</span> (ma più duro in finale).",
+            "mnemonic": "Sembra una porta chiusa: blocca l'aria come una D.",
+            "examples": [
+              {
+                "t": "<b>도</b> (do) – anche<br>다 (da) – tutto",
+                "n": "La <b>ㄷ</b> è comune all'inizio di parola."
+              },
+              {
+                "t": "<b>단어</b> (daneo) – parola",
+                "n": "Parola utile per studiare!"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_L_r",
+            "isLetter": true,
+            "letter": "ㄹ",
+            "word": "ㄹ",
+            "emoji": "🔤",
+            "phonetic": "/ɾ~l/",
+            "translation": "Suono <b>ㄹ</b> tra <i>R</i> e <i>L</i> (come la R spagnola breve).",
+            "mnemonic": "Sembra una scala: la lingua sale e scende come un tappo.",
+            "examples": [
+              {
+                "t": "<b>라디오</b> (radio) – radio<br>물 (mul) – acqua",
+                "n": "In finale suona più come <i>L</i>."
+              },
+              {
+                "t": "<b>말</b> (mal) – parola/cavallo",
+                "n": "Attenzione al contesto!"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_L_m",
+            "isLetter": true,
+            "letter": "ㅁ",
+            "word": "ㅁ",
+            "emoji": "🔤",
+            "phonetic": "/m/",
+            "translation": "Suono <b>ㅁ</b> come <i>M</i> di <span class=\"hl\">mano</span>.",
+            "mnemonic": "Sembra una bocca chiusa: le labbra si uniscono.",
+            "examples": [
+              {
+                "t": "<b>마</b> (ma) – sì (arcaico)<br>물 (mul) – acqua",
+                "n": "La <b>ㅁ</b> è rotonda e chiusa."
+              },
+              {
+                "t": "<b>마음</b> (ma-eum) – cuore/mente",
+                "n": "Parola profonda e comune."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_L_b",
+            "isLetter": true,
+            "letter": "ㅂ",
+            "word": "ㅂ",
+            "emoji": "🔤",
+            "phonetic": "/b~p/",
+            "translation": "Suono <b>ㅂ</b> come <i>B</i> di <span class=\"hl\">bene</span> (ma in finale diventa <i>P</i>).",
+            "mnemonic": "Sembra un cappello con due alette: soffi per dire B.",
+            "examples": [
+              {
+                "t": "<b>바</b> (ba) – bar<br>밥 (bap) – riso/cibo",
+                "n": "La <b>ㅂ</b> è bilabiale."
+              },
+              {
+                "t": "<b>배</b> (bae) – stomaco/pera/barca",
+                "n": "Parola con tre significati!"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_L_s",
+            "isLetter": true,
+            "letter": "ㅅ",
+            "word": "ㅅ",
+            "emoji": "🔤",
+            "phonetic": "/s~ɕ/",
+            "translation": "Suono <b>ㅅ</b> come <i>S</i> di <span class=\"hl\">sole</span> (ma diventa <i>SC</i> davanti a 이).",
+            "mnemonic": "Sembra un dente: la lingua si avvicina ai denti.",
+            "examples": [
+              {
+                "t": "<b>사람</b> (saram) – persona<br>시간 (sigan) – tempo",
+                "n": "La <b>ㅅ</b> è sibilante."
+              },
+              {
+                "t": "<b>수</b> (su) – numero",
+                "n": "Semplice e utile."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_L_ng",
+            "isLetter": true,
+            "letter": "ㅇ",
+            "word": "ㅇ",
+            "emoji": "🔤",
+            "phonetic": "/∅/ inizio, /ŋ/ fine",
+            "translation": "All'inizio è <i>muto</i>, in finale suona come <i>NG</i> di <span class=\"hl\">bang</span>.",
+            "mnemonic": "Sembra un cerchio vuoto: nessun suono all'inizio, ma ronza in fondo.",
+            "examples": [
+              {
+                "t": "<b>아</b> (a) – oh!<br>방 (bang) – stanza",
+                "n": "La <b>ㅇ</b> è come un placeholder."
+              },
+              {
+                "t": "<b>영어</b> (yeong-eo) – inglese",
+                "n": "Parola con <b>ㅇ</b> in posizioni diverse."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_L_j",
+            "isLetter": true,
+            "letter": "ㅈ",
+            "word": "ㅈ",
+            "emoji": "🔤",
+            "phonetic": "/dʑ~tɕ/",
+            "translation": "Suono <b>ㅈ</b> come <i>G</i> di <span class=\"hl\">gelo</span> (ma più dolce).",
+            "mnemonic": "Sembra una sedia: ti siedi e pronunci una G dolce.",
+            "examples": [
+              {
+                "t": "<b>자</b> (ja) – lettera/dormire<br>저 (jeo) – io (formale)",
+                "n": "La <b>ㅈ</b> è affricata."
+              },
+              {
+                "t": "<b>주다</b> (juda) – dare",
+                "n": "Verbo fondamentale."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_L_h",
+            "isLetter": true,
+            "letter": "ㅎ",
+            "word": "ㅎ",
+            "emoji": "🔤",
+            "phonetic": "/h/",
+            "translation": "Suono <b>ㅎ</b> come <i>H</i> di <span class=\"hl\">hotel</span> (aspirata).",
+            "mnemonic": "Sembra un cappello con un cerchio: soffi aria come per H.",
+            "examples": [
+              {
+                "t": "<b>하다</b> (hada) – fare<br>학교 (hakgyo) – scuola",
+                "n": "La <b>ㅎ</b> è leggera."
+              },
+              {
+                "t": "<b>한국</b> (hanguk) – Corea",
+                "n": "Parola che devi sapere!"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_01",
+            "isLetter": false,
+            "letter": "ㄱ",
+            "word": "가",
+            "emoji": "🚶",
+            "phonetic": "/ga/",
+            "translation": "andare",
+            "translations": {
+              "ko": "가",
+              "it": "andare",
+              "en": "to go"
+            },
+            "examples": [
+              {
+                "t": "<b>가</b>요. (Gayo.) – Vado.",
+                "n": "Forma informale ma comune."
+              },
+              {
+                "t": "학교에 <b>가</b>요. (Hakgyoe gayo.) – Vado a scuola.",
+                "n": "Frase utile."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_02",
+            "isLetter": false,
+            "letter": "ㄴ",
+            "word": "나",
+            "emoji": "🙋",
+            "phonetic": "/na/",
+            "translation": "io",
+            "translations": {
+              "ko": "나",
+              "it": "io",
+              "en": "I/me"
+            },
+            "examples": [
+              {
+                "t": "<b>나</b>는 학생이에요. (Naneun haksaeng-ieyo.) – Io sono studente.",
+                "n": "Forma informale."
+              },
+              {
+                "t": "<b>나</b>도 좋아해요. (Nado joahaeyo.) – Anche a me piace.",
+                "n": "Esempio con 도."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_03",
+            "isLetter": false,
+            "letter": "ㄷ",
+            "word": "도",
+            "emoji": "➕",
+            "phonetic": "/do/",
+            "translation": "anche",
+            "translations": {
+              "ko": "도",
+              "it": "anche",
+              "en": "also, too"
+            },
+            "examples": [
+              {
+                "t": "저<B>도</B>요. (Jeo-do-yo.) – Anche io.",
+                "n": "Risposta comune."
+              },
+              {
+                "t": "이것<B>도</B> 주세요. (Igeot-do juseyo.) – Anche questo, per favore.",
+                "n": "In un negozio."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_04",
+            "isLetter": false,
+            "letter": "ㄹ",
+            "word": "물",
+            "emoji": "💧",
+            "phonetic": "/mul/",
+            "translation": "acqua",
+            "translations": {
+              "ko": "물",
+              "it": "acqua",
+              "en": "water"
+            },
+            "examples": [
+              {
+                "t": "<B>물</B> 주세요. (Mul juseyo.) – Acqua, per favore.",
+                "n": "Al ristorante."
+              },
+              {
+                "t": "<B>물</B>이 차가워요. (Muri chagawoyo.) – L'acqua è fredda.",
+                "n": "Descrizione."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_05",
+            "isLetter": false,
+            "letter": "ㅁ",
+            "word": "마음",
+            "emoji": "❤️",
+            "phonetic": "/ma-eum/",
+            "translation": "cuore, mente",
+            "translations": {
+              "ko": "마음",
+              "it": "cuore, mente",
+              "en": "heart, mind"
+            },
+            "examples": [
+              {
+                "t": "<B>마음</B>이 좋아요. (Ma-eumi joayo.) – Ha un buon cuore.",
+                "n": "Espressione idiomatica."
+              },
+              {
+                "t": "제 <B>마음</B>을 이해해요. (Je ma-eumeul ihaehaeyo.) – Capisci il mio cuore.",
+                "n": "Frase romantica."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_06",
+            "isLetter": false,
+            "letter": "ㅂ",
+            "word": "밥",
+            "emoji": "🍚",
+            "phonetic": "/bap/",
+            "translation": "riso, pasto",
+            "translations": {
+              "ko": "밥",
+              "it": "riso, pasto",
+              "en": "rice, meal"
+            },
+            "examples": [
+              {
+                "t": "<B>밥</B> 먹었어요? (Bap meogeosseoyo?) – Hai mangiato?",
+                "n": "Saluto comune."
+              },
+              {
+                "t": "<B>밥</B>이 맛있어요. (Babi masisseoyo.) – Il riso è buono.",
+                "n": "Al tavolo."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_07",
+            "isLetter": false,
+            "letter": "ㅅ",
+            "word": "사람",
+            "emoji": "🧑",
+            "phonetic": "/saram/",
+            "translation": "persona",
+            "translations": {
+              "ko": "사람",
+              "it": "persona",
+              "en": "person"
+            },
+            "examples": [
+              {
+                "t": "한국 <B>사람</B>이에요. (Hanguk saram-ieyo.) – Sono coreano.",
+                "n": "Nazionalità."
+              },
+              {
+                "t": "저 <B>사람</B>을 봐요. (Jeo sarameul bwayo.) – Guarda quella persona.",
+                "n": "Indicazione."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_08",
+            "isLetter": false,
+            "letter": "ㅇ",
+            "word": "방",
+            "emoji": "🚪",
+            "phonetic": "/bang/",
+            "translation": "stanza",
+            "translations": {
+              "ko": "방",
+              "it": "stanza",
+              "en": "room"
+            },
+            "examples": [
+              {
+                "t": "제 <B>방</B>이에요. (Je bang-ieyo.) – È la mia stanza.",
+                "n": "Presentazione."
+              },
+              {
+                "t": "<B>방</B>이 작아요. (Bangi jagayo.) – La stanza è piccola.",
+                "n": "Descrizione."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_09",
+            "isLetter": false,
+            "letter": "ㅈ",
+            "word": "저",
+            "emoji": "🙇",
+            "phonetic": "/jeo/",
+            "translation": "io (formale)",
+            "translations": {
+              "ko": "저",
+              "it": "io (formale)",
+              "en": "I (formal)"
+            },
+            "examples": [
+              {
+                "t": "<B>저</B>는 김민수예요. (Jeoneun Gim Minsu-yeyo.) – Io sono Kim Min-su.",
+                "n": "Presentazione formale."
+              },
+              {
+                "t": "<B>저</B>도요. (Jeo-do-yo.) – Anche io.",
+                "n": "Risposta formale."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g2_10",
+            "isLetter": false,
+            "letter": "ㅎ",
+            "word": "하다",
+            "emoji": "✍️",
+            "phonetic": "/hada/",
+            "translation": "fare",
+            "translations": {
+              "ko": "하다",
+              "it": "fare",
+              "en": "to do"
+            },
+            "examples": [
+              {
+                "t": "숙제를 <B>해요</B>. (Sukjereul haeyo.) – Faccio i compiti.",
+                "n": "Forma contratta."
+              },
+              {
+                "t": "운동을 <B>해요</B>. (Undongeul haeyo.) – Faccio esercizio.",
+                "n": "Abitudine."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-14T21:47:38.531Z"
+    },
+    "aspirated_tense": {
+      "cards": 18,
+      "data": {
+        "id": "ko_a0_g3",
+        "name": "Aspiradas y tensas",
+        "icon": "💨",
+        "color": "#10b981",
+        "description": "ㅋ ㅌ ㅍ ㅊ aspiradas · ㄲ ㄸ ㅃ ㅆ ㅉ tensas",
+        "reviewFrom": [
+          "ko_a0_g1",
+          "ko_a0_g2"
+        ],
+        "cards": [
+          {
+            "id": "ko_a0_g3_L_ㅋ",
+            "isLetter": true,
+            "letter": "ㅋ",
+            "word": "ㅋ",
+            "emoji": "🔤",
+            "phonetic": "/kʰ/",
+            "translation": "Suona come una <b>k</b> con un soffio d'aria, simile alla <i>c</i> dura in \"casa\" ma più aspirata.",
+            "mnemonic": "Immagina una persona che ride con la bocca aperta: <span class=\"hl\">ㅋ</span> sembra una bocca che ride e soffia aria.",
+            "examples": [
+              {
+                "t": "<b>ㅋ</b> è come ㄱ con un <i>soffio extra</i>.<br>Esempio: <b>커피</b> (coffee) inizia con questo suono.",
+                "n": "ㅋ è la consonante aspirata di ㄱ."
+              },
+              {
+                "t": "Prova a dire <b>카</b> e senti l'aria sulla mano.",
+                "n": "Metti la mano davanti alla bocca per sentire il soffio."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_L_ㅌ",
+            "isLetter": true,
+            "letter": "ㅌ",
+            "word": "ㅌ",
+            "emoji": "🔤",
+            "phonetic": "/tʰ/",
+            "translation": "Suona come una <b>t</b> con un soffio d'aria, simile alla <i>t</i> di \"tavolo\" ma più aspirata.",
+            "mnemonic": "ㅌ sembra una <span class=\"hl\">T</span> con un cappello in cima: soffia via il cappello!",
+            "examples": [
+              {
+                "t": "<b>ㅌ</b> è come ㄷ con un <i>soffio extra</i>.<br>Esempio: <b>택시</b> (taxi) inizia con questo suono.",
+                "n": "ㅌ è la consonante aspirata di ㄷ."
+              },
+              {
+                "t": "Prova a dire <b>타</b> e senti l'aria sulla mano.",
+                "n": "Esercitati con il soffio."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_L_ㅍ",
+            "isLetter": true,
+            "letter": "ㅍ",
+            "word": "ㅍ",
+            "emoji": "🔤",
+            "phonetic": "/pʰ/",
+            "translation": "Suona come una <b>p</b> con un soffio d'aria, simile alla <i>p</i> di \"pane\" ma più aspirata.",
+            "mnemonic": "ㅍ ha due linee orizzontali in cima, come un <span class=\"hl\">cappello</span> che vola via con il soffio.",
+            "examples": [
+              {
+                "t": "<b>ㅍ</b> è come ㅂ con un <i>soffio extra</i>.<br>Esempio: <b>피</b> (sangue) inizia con questo suono.",
+                "n": "ㅍ è la consonante aspirata di ㅂ."
+              },
+              {
+                "t": "Prova a dire <b>파</b> e senti l'aria sulla mano.",
+                "n": "Esercitati con il soffio."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_L_ㅊ",
+            "isLetter": true,
+            "letter": "ㅊ",
+            "word": "ㅊ",
+            "emoji": "🔤",
+            "phonetic": "/tɕʰ/",
+            "translation": "Suona come una <b>c</b> dolce (come in \"ciao\") con un soffio d'aria, più aspirata.",
+            "mnemonic": "ㅊ sembra una <span class=\"hl\">freccia</span> che punta in alto: soffia via la freccia!",
+            "examples": [
+              {
+                "t": "<b>ㅊ</b> è come ㅈ con un <i>soffio extra</i>.<br>Esempio: <b>차</b> (tè) inizia con questo suono.",
+                "n": "ㅊ è la consonante aspirata di ㅈ."
+              },
+              {
+                "t": "Prova a dire <b>차</b> e senti l'aria sulla mano.",
+                "n": "Esercitati con il soffio."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_L_ㄲ",
+            "isLetter": true,
+            "letter": "ㄲ",
+            "word": "ㄲ",
+            "emoji": "🔤",
+            "phonetic": "/k͈/",
+            "translation": "Suona come una <b>k</b> tesa, senza soffio, con la gola stretta. Simile a una <i>k</i> doppia.",
+            "mnemonic": "ㄲ è come <span class=\"hl\">ㄱ</span> ma con i muscoli della gola tesi, come quando fai un piccolo sforzo.",
+            "examples": [
+              {
+                "t": "<b>ㄲ</b> è una consonante <i>tesa</i>: non c'è soffio.<br>Esempio: <b>꽃</b> (fiore) inizia con questo suono.",
+                "n": "ㄲ è la versione tesa di ㄱ."
+              },
+              {
+                "t": "Confronta: <b>가</b> (ga) vs <b>까</b> (gga).",
+                "n": "La differenza è nella tensione della gola."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_L_ㄸ",
+            "isLetter": true,
+            "letter": "ㄸ",
+            "word": "ㄸ",
+            "emoji": "🔤",
+            "phonetic": "/t͈/",
+            "translation": "Suona come una <b>t</b> tesa, senza soffio, con la gola stretta. Simile a una <i>t</i> doppia.",
+            "mnemonic": "ㄸ è come <span class=\"hl\">ㄷ</span> ma con i muscoli della gola tesi, come quando trattieni il respiro.",
+            "examples": [
+              {
+                "t": "<b>ㄸ</b> è una consonante <i>tesa</i>: non c'è soffio.<br>Esempio: <b>딸</b> (figlia) inizia con questo suono.",
+                "n": "ㄸ è la versione tesa di ㄷ."
+              },
+              {
+                "t": "Confronta: <b>다</b> (da) vs <b>따</b> (dda).",
+                "n": "La differenza è nella tensione della gola."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_L_ㅃ",
+            "isLetter": true,
+            "letter": "ㅃ",
+            "word": "ㅃ",
+            "emoji": "🔤",
+            "phonetic": "/p͈/",
+            "translation": "Suona come una <b>p</b> tesa, senza soffio, con la gola stretta. Simile a una <i>p</i> doppia.",
+            "mnemonic": "ㅃ è come <span class=\"hl\">ㅂ</span> ma con i muscoli della gola tesi, come quando fai un piccolo sforzo.",
+            "examples": [
+              {
+                "t": "<b>ㅃ</b> è una consonante <i>tesa</i>: non c'è soffio.<br>Esempio: <b>빨리</b> (velocemente) inizia con questo suono.",
+                "n": "ㅃ è la versione tesa di ㅂ."
+              },
+              {
+                "t": "Confronta: <b>바</b> (ba) vs <b>빠</b> (ppa).",
+                "n": "La differenza è nella tensione della gola."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_L_ㅆ",
+            "isLetter": true,
+            "letter": "ㅆ",
+            "word": "ㅆ",
+            "emoji": "🔤",
+            "phonetic": "/s͈/",
+            "translation": "Suona come una <b>s</b> tesa, senza soffio, con la gola stretta. Simile a una <i>s</i> doppia.",
+            "mnemonic": "ㅆ è come <span class=\"hl\">ㅅ</span> ma con i muscoli della gola tesi, come quando sibili con forza.",
+            "examples": [
+              {
+                "t": "<b>ㅆ</b> è una consonante <i>tesa</i>: non c'è soffio.<br>Esempio: <b>쓰다</b> (scrivere) inizia con questo suono.",
+                "n": "ㅆ è la versione tesa di ㅅ."
+              },
+              {
+                "t": "Confronta: <b>사</b> (sa) vs <b>싸</b> (ssa).",
+                "n": "La differenza è nella tensione della gola."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_L_ㅉ",
+            "isLetter": true,
+            "letter": "ㅉ",
+            "word": "ㅉ",
+            "emoji": "🔤",
+            "phonetic": "/tɕ͈/",
+            "translation": "Suona come una <b>c</b> dolce tesa, senza soffio, con la gola stretta. Simile a una <i>c</i> doppia.",
+            "mnemonic": "ㅉ è come <span class=\"hl\">ㅈ</span> ma con i muscoli della gola tesi, come quando schiocchi la lingua.",
+            "examples": [
+              {
+                "t": "<b>ㅉ</b> è una consonante <i>tesa</i>: non c'è soffio.<br>Esempio: <b>찌다</b> (cuocere a vapore) inizia con questo suono.",
+                "n": "ㅉ è la versione tesa di ㅈ."
+              },
+              {
+                "t": "Confronta: <b>자</b> (ja) vs <b>짜</b> (jja).",
+                "n": "La differenza è nella tensione della gola."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_01",
+            "isLetter": false,
+            "letter": "ㅋ",
+            "word": "커피",
+            "emoji": "☕",
+            "phonetic": "/kʰʌ.pi/",
+            "translation": "caffè",
+            "translations": {
+              "ko": "커피",
+              "it": "caffè",
+              "en": "coffee"
+            },
+            "examples": [
+              {
+                "t": "저는 <b>커피</b>를 마셔요.",
+                "n": "Io bevo caffè."
+              },
+              {
+                "t": "<b>커피</b> 주세요.",
+                "n": "Mi dia un caffè, per favore."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_02",
+            "isLetter": false,
+            "letter": "ㅌ",
+            "word": "택시",
+            "emoji": "🚕",
+            "phonetic": "/tʰɛk.ɕi/",
+            "translation": "taxi",
+            "translations": {
+              "ko": "택시",
+              "it": "taxi",
+              "en": "taxi"
+            },
+            "examples": [
+              {
+                "t": "<b>택시</b>를 타요.",
+                "n": "Prendo un taxi."
+              },
+              {
+                "t": "<b>택시</b> 어디에 있어요?",
+                "n": "Dov'è il taxi?"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_03",
+            "isLetter": false,
+            "letter": "ㅍ",
+            "word": "피",
+            "emoji": "🩸",
+            "phonetic": "/pʰi/",
+            "translation": "sangue",
+            "translations": {
+              "ko": "피",
+              "it": "sangue",
+              "en": "blood"
+            },
+            "examples": [
+              {
+                "t": "<b>피</b>가 나요.",
+                "n": "Esce sangue."
+              },
+              {
+                "t": "헌혈로 <b>피</b>를 나눠요.",
+                "n": "Condivido il sangue con la donazione."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_04",
+            "isLetter": false,
+            "letter": "ㅊ",
+            "word": "차",
+            "emoji": "🍵",
+            "phonetic": "/tɕʰa/",
+            "translation": "tè (anche macchina, ma qui tè)",
+            "translations": {
+              "ko": "차",
+              "it": "tè",
+              "en": "tea"
+            },
+            "examples": [
+              {
+                "t": "<b>차</b>를 마셔요.",
+                "n": "Bevo il tè."
+              },
+              {
+                "t": "<b>차</b> 한 잔 주세요.",
+                "n": "Mi dia una tazza di tè."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_05",
+            "isLetter": false,
+            "letter": "ㄲ",
+            "word": "꽃",
+            "emoji": "🌸",
+            "phonetic": "/k͈ot/",
+            "translation": "fiore",
+            "translations": {
+              "ko": "꽃",
+              "it": "fiore",
+              "en": "flower"
+            },
+            "examples": [
+              {
+                "t": "<b>꽃</b>이 예뻐요.",
+                "n": "Il fiore è bello."
+              },
+              {
+                "t": "봄에 <b>꽃</b>이 피어요.",
+                "n": "In primavera i fiori sbocciano."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_06",
+            "isLetter": false,
+            "letter": "ㄸ",
+            "word": "딸",
+            "emoji": "👧",
+            "phonetic": "/t͈al/",
+            "translation": "figlia",
+            "translations": {
+              "ko": "딸",
+              "it": "figlia",
+              "en": "daughter"
+            },
+            "examples": [
+              {
+                "t": "제 <b>딸</b>이에요.",
+                "n": "È mia figlia."
+              },
+              {
+                "t": "<b>딸</b>과 아들이 있어요.",
+                "n": "Ho una figlia e un figlio."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_07",
+            "isLetter": false,
+            "letter": "ㅃ",
+            "word": "빨리",
+            "emoji": "⚡",
+            "phonetic": "/p͈al.li/",
+            "translation": "velocemente",
+            "translations": {
+              "ko": "빨리",
+              "it": "velocemente",
+              "en": "quickly"
+            },
+            "examples": [
+              {
+                "t": "<b>빨리</b> 가요.",
+                "n": "Andiamo velocemente."
+              },
+              {
+                "t": "<b>빨리</b> 먹어요.",
+                "n": "Mangia velocemente."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_08",
+            "isLetter": false,
+            "letter": "ㅆ",
+            "word": "쓰다",
+            "emoji": "✍️",
+            "phonetic": "/s͈ɯ.da/",
+            "translation": "scrivere (anche usare, amaro)",
+            "translations": {
+              "ko": "쓰다",
+              "it": "scrivere",
+              "en": "to write"
+            },
+            "examples": [
+              {
+                "t": "편지를 <b>쓰다</b>.",
+                "n": "Scrivere una lettera."
+              },
+              {
+                "t": "이것을 <b>써요</b>.",
+                "n": "Uso questo."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g3_09",
+            "isLetter": false,
+            "letter": "ㅉ",
+            "word": "짜다",
+            "emoji": "🧂",
+            "phonetic": "/tɕ͈a.da/",
+            "translation": "salato (anche tessere)",
+            "translations": {
+              "ko": "짜다",
+              "it": "salato",
+              "en": "salty"
+            },
+            "examples": [
+              {
+                "t": "이 음식은 <b>짜다</b>.",
+                "n": "Questo cibo è salato."
+              },
+              {
+                "t": "너무 <b>짜요</b>.",
+                "n": "È troppo salato."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-14T21:48:04.670Z"
+    },
+    "syllable_blocks": {
+      "cards": 29,
+      "data": {
+        "id": "ko_a0_g4",
+        "name": "Bloques silábicos",
+        "icon": "🧩",
+        "color": "#ef4444",
+        "description": "Cómo se combinan letras en sílabas completas",
+        "reviewFrom": [
+          "ko_a0_g1",
+          "ko_a0_g2",
+          "ko_a0_g3"
+        ],
+        "cards": [
+          {
+            "id": "ko_a0_g4_L_cv",
+            "isLetter": true,
+            "letter": "CV",
+            "word": "CV",
+            "emoji": "🔤",
+            "phonetic": "/consonante + vocal/",
+            "translation": "Struttura <b>consonante + vocale</b>: forma un blocco sillabico. Es. <b>가</b> (ga), <b>나</b> (na), <b>다</b> (da).",
+            "mnemonic": "Pensa a un mattone: metti una consonante a sinistra e una vocale a destra (o sotto) per formare una sillaba.",
+            "examples": [
+              {
+                "t": "가 + 나 + 다 → <b>가나다</b> (alfabeto coreano)",
+                "n": "Le prime tre sillabe come l'ABC."
+              },
+              {
+                "t": "Consonante + vocale verticale: <b>나</b> (na)",
+                "n": "ㄴ + ㅏ = 나"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_L_cvc",
+            "isLetter": true,
+            "letter": "CVC",
+            "word": "CVC",
+            "emoji": "🔤",
+            "phonetic": "/consonante + vocale + consonante finale/",
+            "translation": "Struttura <b>CVC</b> con <b>받침</b> (consonante finale). Es. <b>밥</b> (bap), <b>집</b> (jip).",
+            "mnemonic": "Immagina una sillaba con una 'chiusura' in basso: la consonante finale si appoggia sotto.",
+            "examples": [
+              {
+                "t": "<b>밥</b> (bap) = riso cotto",
+                "n": "La ㅂ finale si pronuncia come una p leggera."
+              },
+              {
+                "t": "<b>집</b> (jip) = casa",
+                "n": "La ㅂ finale si pronuncia come una p leggera."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_L_double_batchim",
+            "isLetter": true,
+            "letter": "ㄳ",
+            "word": "ㄳ",
+            "emoji": "🔤",
+            "phonetic": "/gs/ (ma si pronuncia solo ㄱ)",
+            "translation": "Doppia consonante finale <b>ㄳ</b>: si pronuncia solo la <b>ㄱ</b> (k/g). Es. <b>삯</b> (sak) = salario.",
+            "mnemonic": "Due consonanti in fondo: la prima 'vince' e l'altra tace.",
+            "examples": [
+              {
+                "t": "<b>삯</b> (sak) = salario (parola poco comune)",
+                "n": "Esempio tecnico per la doppia 받침."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_L_compound_vowel_wa",
+            "isLetter": true,
+            "letter": "ㅘ",
+            "word": "ㅘ",
+            "emoji": "🔤",
+            "phonetic": "/wa/",
+            "translation": "Vocale composta <b>ㅘ</b> = ㅗ + ㅏ. Suono <b>wa</b> come in 'guanto'.",
+            "mnemonic": "Unisci 'o' e 'a': il suono diventa 'wa'.",
+            "examples": [
+              {
+                "t": "<b>와</b> (wa) = vieni! (forma informale)",
+                "n": "Verbo 오다 (venire) al imperativo."
+              },
+              {
+                "t": "<b>봐</b> (bwa) = guarda! (forma informale)",
+                "n": "Verbo 보다 (guardare) al imperativo."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_L_compound_vowel_wo",
+            "isLetter": true,
+            "letter": "ㅝ",
+            "word": "ㅝ",
+            "emoji": "🔤",
+            "phonetic": "/wʌ/ (simile a 'wo' in 'wow')",
+            "translation": "Vocale composta <b>ㅝ</b> = ㅜ + ㅓ. Suono <b>wo</b> (come 'u-a' veloce).",
+            "mnemonic": "Unisci 'u' e 'eo': diventa 'wo'.",
+            "examples": [
+              {
+                "t": "<b>워</b> (wo) = (non usato da solo) ma in <b>뭐</b> (mwo) = che cosa?",
+                "n": "뭐 (mwo) è molto comune."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_L_compound_vowel_oe",
+            "isLetter": true,
+            "letter": "ㅚ",
+            "word": "ㅚ",
+            "emoji": "🔤",
+            "phonetic": "/we/ (o /ø/ in teoria, ma spesso 'we')",
+            "translation": "Vocale composta <b>ㅚ</b> = ㅗ + ㅣ. Suono <b>we</b> (come 'ue' veloce).",
+            "mnemonic": "Unisci 'o' e 'i': diventa 'we'.",
+            "examples": [
+              {
+                "t": "<b>돼</b> (dwae) = diventa! (da 되다)",
+                "n": "Forma contratta di 되어."
+              },
+              {
+                "t": "<b>왜</b> (wae) = perché? (ma è ㅙ, non ㅚ)",
+                "n": "Attenzione alla differenza."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_L_h_silent",
+            "isLetter": true,
+            "letter": "ㅎ",
+            "word": "ㅎ",
+            "emoji": "🔤",
+            "phonetic": "/h/ (ma spesso muta in finale)",
+            "translation": "Consonante <b>ㅎ</b> (h): in posizione finale spesso <b>non si pronuncia</b> o si indebolisce. Es. <b>좋다</b> si legge 'jota' (la ㅎ tace).",
+            "mnemonic": "La 'h' è un respiro: a volte sparisce.",
+            "examples": [
+              {
+                "t": "<b>좋아</b> (joa) = va bene! (la ㅎ non si sente, si collega la ㅗ con ㅏ)",
+                "n": "Pronuncia: 'joa'."
+              },
+              {
+                "t": "<b>많이</b> (mani) = molto (la ㅎ non si pronuncia)",
+                "n": "Si legge 'mani'."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_L_liaison_ng",
+            "isLetter": true,
+            "letter": "ㅇ",
+            "word": "ㅇ",
+            "emoji": "🔤",
+            "phonetic": "/ŋ/ (in finale), muta in inizio di sillaba",
+            "translation": "Consonante <b>ㅇ</b>: muta se inizia sillaba, ma se è in fondo (받침) si pronuncia <b>ng</b> come in 'bang'. Inoltre, se una parola finisce con consonante e la successiva inizia con ㅇ, la consonante si 'lega' (liaison).",
+            "mnemonic": "Un cerchio vuoto: all'inizio non suona, ma in fondo fa 'ng'.",
+            "examples": [
+              {
+                "t": "<b>강</b> (gang) = fiume",
+                "n": "ㅇ finale = ng."
+              },
+              {
+                "t": "<b>한국어</b> (han-gu-geo) → la ㄱ di 한국 si lega alla ㅇ di 어: '한구거'",
+                "n": "Liaison: 한국 + 어 = 한구거."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_01",
+            "isLetter": false,
+            "letter": "가",
+            "word": "가",
+            "emoji": "🍚",
+            "phonetic": "/ga/",
+            "translation": "Particella soggetto (dopo vocale). Es. <b>나</b> (io) + 가 → <b>내가</b> (io).",
+            "translations": {
+              "ko": "가",
+              "it": "particella soggetto",
+              "en": "subject particle"
+            },
+            "examples": [
+              {
+                "t": "<b>내가</b> 했어요. (nae-ga hae-sseo-yo)",
+                "n": "L'ho fatto io."
+              },
+              {
+                "t": "<b>가</b> è una sillaba base: ㄱ + ㅏ",
+                "n": "Suono 'ga'."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_02",
+            "isLetter": false,
+            "letter": "나",
+            "word": "나",
+            "emoji": "🙋‍♂️",
+            "phonetic": "/na/",
+            "translation": "Io (informale). Es. <b>나</b>는 학생이에요 (Io sono studente).",
+            "translations": {
+              "ko": "나",
+              "it": "io (informale)",
+              "en": "I (informal)"
+            },
+            "examples": [
+              {
+                "t": "<b>나</b>는 김치를 좋아해요. (na-neun gim-chi-reul jo-a-hae-yo)",
+                "n": "Io amo il kimchi."
+              },
+              {
+                "t": "<b>나</b> = ㄴ + ㅏ",
+                "n": "Suono 'na'."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_03",
+            "isLetter": false,
+            "letter": "다",
+            "word": "다",
+            "emoji": "🔚",
+            "phonetic": "/da/",
+            "translation": "Desinenza verbale (forma base). Es. <b>가다</b> (andare), <b>보다</b> (guardare).",
+            "translations": {
+              "ko": "다",
+              "it": "desinenza del dizionario",
+              "en": "dictionary ending"
+            },
+            "examples": [
+              {
+                "t": "가<b>다</b> (ga-da) = andare",
+                "n": "Verbo all'infinito."
+              },
+              {
+                "t": "먹<b>다</b> (meok-da) = mangiare",
+                "n": "Verbo all'infinito."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_04",
+            "isLetter": false,
+            "letter": "밥",
+            "word": "밥",
+            "emoji": "🍚",
+            "phonetic": "/bap/ (la ㅂ finale si pronuncia 'p')",
+            "translation": "Riso cotto, cibo. Es. <b>밥</b> 먹어요? (Mangi? / Hai mangiato?)",
+            "translations": {
+              "ko": "밥",
+              "it": "riso cotto, pasto",
+              "en": "rice, meal"
+            },
+            "examples": [
+              {
+                "t": "<b>밥</b>을 먹어요. (ba-beul meo-geo-yo)",
+                "n": "Mangio (il pasto)."
+              },
+              {
+                "t": "밥 + 을 → <b>바블</b> (liaison)",
+                "n": "La ㅂ si lega alla vocale successiva."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_05",
+            "isLetter": false,
+            "letter": "집",
+            "word": "집",
+            "emoji": "🏠",
+            "phonetic": "/jip/ (la ㅂ finale si pronuncia 'p')",
+            "translation": "Casa. Es. <b>집</b>에 가요 (Vado a casa).",
+            "translations": {
+              "ko": "집",
+              "it": "casa",
+              "en": "house, home"
+            },
+            "examples": [
+              {
+                "t": "<b>집</b>에 있어요. (ji-be i-sseo-yo)",
+                "n": "Sono a casa."
+              },
+              {
+                "t": "집 + 에 → <b>지베</b> (liaison)",
+                "n": "La ㅂ si lega alla vocale."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_06",
+            "isLetter": false,
+            "letter": "국",
+            "word": "국",
+            "emoji": "🍜",
+            "phonetic": "/guk/ (la ㄱ finale si pronuncia 'k')",
+            "translation": "Zuppa. Es. 미역<b>국</b> (zuppa di alghe).",
+            "translations": {
+              "ko": "국",
+              "it": "zuppa",
+              "en": "soup"
+            },
+            "examples": [
+              {
+                "t": "<b>국</b>을 끓여요. (gu-geul kkeu-ryeo-yo)",
+                "n": "Preparo la zuppa."
+              },
+              {
+                "t": "국 + 을 → <b>구글</b> (liaison)",
+                "n": "La ㄱ si lega alla vocale."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_07",
+            "isLetter": false,
+            "letter": "책",
+            "word": "책",
+            "emoji": "📚",
+            "phonetic": "/chaek/ (la ㄱ finale si pronuncia 'k')",
+            "translation": "Libro. Es. <b>책</b>을 읽어요 (Leggo un libro).",
+            "translations": {
+              "ko": "책",
+              "it": "libro",
+              "en": "book"
+            },
+            "examples": [
+              {
+                "t": "<b>책</b>이 재미있어요. (chae-gi jae-mi-i-sseo-yo)",
+                "n": "Il libro è interessante."
+              },
+              {
+                "t": "책 + 이 → <b>채기</b> (liaison)",
+                "n": "La ㄱ si lega alla vocale."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_08",
+            "isLetter": false,
+            "letter": "와",
+            "word": "와",
+            "emoji": "👋",
+            "phonetic": "/wa/",
+            "translation": "Vieni! (forma informale di 오다). Es. <b>와</b> 봐! (Vieni a vedere!)",
+            "translations": {
+              "ko": "와",
+              "it": "vieni!",
+              "en": "come!"
+            },
+            "examples": [
+              {
+                "t": "<b>와</b>! (wa!)",
+                "n": "Vieni!"
+              },
+              {
+                "t": "여기 <b>와</b> 봐. (yeo-gi wa bwa)",
+                "n": "Vieni qui a vedere."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_09",
+            "isLetter": false,
+            "letter": "봐",
+            "word": "봐",
+            "emoji": "👀",
+            "phonetic": "/bwa/",
+            "translation": "Guarda! (forma informale di 보다). Es. 이거 <b>봐</b> (Guarda questo).",
+            "translations": {
+              "ko": "봐",
+              "it": "guarda!",
+              "en": "look!"
+            },
+            "examples": [
+              {
+                "t": "<b>봐</b>! (bwa!)",
+                "n": "Guarda!"
+              },
+              {
+                "t": "사진 <b>봐</b>. (sa-jin bwa)",
+                "n": "Guarda la foto."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_10",
+            "isLetter": false,
+            "letter": "돼",
+            "word": "돼",
+            "emoji": "🔄",
+            "phonetic": "/dwae/",
+            "translation": "Diventa! / Va bene! (forma contratta di 되어). Es. 괜찮아<b>돼</b>? (Va bene?)",
+            "translations": {
+              "ko": "돼",
+              "it": "diventa! / va bene!",
+              "en": "become! / OK!"
+            },
+            "examples": [
+              {
+                "t": "됐<b>돼</b>? (dwae-sseo?)",
+                "n": "È andato bene?"
+              },
+              {
+                "t": "<b>돼</b>요. (dwae-yo)",
+                "n": "Va bene."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_11",
+            "isLetter": false,
+            "letter": "읽다",
+            "word": "읽다",
+            "emoji": "📖",
+            "phonetic": "/ik-da/ (la ㄹ non si pronuncia prima di ㄱ)",
+            "translation": "Leggere. Doppia 받침 <b>ㄹㄱ</b>: si pronuncia solo <b>ㄱ</b>.",
+            "translations": {
+              "ko": "읽다",
+              "it": "leggere",
+              "en": "to read"
+            },
+            "examples": [
+              {
+                "t": "책을 <b>읽</b>어요. (cha-geul il-geo-yo)",
+                "n": "Leggo un libro."
+              },
+              {
+                "t": "<b>읽</b>다 → 읽어요 (la ㄹ si pronuncia prima della vocale)",
+                "n": "La doppia 받침 si separa."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_12",
+            "isLetter": false,
+            "letter": "닭",
+            "word": "닭",
+            "emoji": "🐔",
+            "phonetic": "/dak/ (la ㄹ non si pronuncia)",
+            "translation": "Pollo (animale). Doppia 받침 <b>ㄹㄱ</b>: si pronuncia solo <b>ㄱ</b>.",
+            "translations": {
+              "ko": "닭",
+              "it": "pollo",
+              "en": "chicken"
+            },
+            "examples": [
+              {
+                "t": "<b>닭</b>고기 (dak-go-gi) = carne di pollo",
+                "n": "La ㄹ non si pronuncia."
+              },
+              {
+                "t": "닭 + 이 → <b>달기</b> (dal-gi) = il pollo (soggetto)",
+                "n": "Con vocale, la ㄹ si pronuncia."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_13",
+            "isLetter": false,
+            "letter": "삶",
+            "word": "삶",
+            "emoji": "🌱",
+            "phonetic": "/sam/ (la ㄹ non si pronuncia, ㅂ si pronuncia 'm')",
+            "translation": "Vita, esistenza. Doppia 받침 <b>ㄹㅁ</b>: si pronuncia <b>ㅁ</b> (m).",
+            "translations": {
+              "ko": "삶",
+              "it": "vita",
+              "en": "life"
+            },
+            "examples": [
+              {
+                "t": "<b>삶</b>의 의미 (sa-me ui-mi) = il senso della vita",
+                "n": "Si pronuncia 'sam'."
+              },
+              {
+                "t": "삶 + 이 → <b>살미</b> (sal-mi)",
+                "n": "Con vocale, la ㄹ si pronuncia."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_14",
+            "isLetter": false,
+            "letter": "안녕하세요",
+            "word": "안녕하세요",
+            "emoji": "👋",
+            "phonetic": "/an-nyeong-ha-se-yo/",
+            "translation": "Ciao (formale). Parola composta: <b>안녕</b> (pace) + 하세요 (fate).",
+            "translations": {
+              "ko": "안녕하세요",
+              "it": "ciao (formale)",
+              "en": "hello (formal)"
+            },
+            "examples": [
+              {
+                "t": "<b>안녕하세요</b>, 만나서 반갑습니다. (an-nyeong-ha-se-yo, man-na-seo ban-gap-seum-ni-da)",
+                "n": "Ciao, piacere di conoscerti."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_15",
+            "isLetter": false,
+            "letter": "감사합니다",
+            "word": "감사합니다",
+            "emoji": "🙏",
+            "phonetic": "/gam-sa-ham-ni-da/",
+            "translation": "Grazie (formale). Da <b>감사</b> (gratitudine) + 합니다 (faccio).",
+            "translations": {
+              "ko": "감사합니다",
+              "it": "grazie (formale)",
+              "en": "thank you (formal)"
+            },
+            "examples": [
+              {
+                "t": "<b>감사합니다</b>! (gam-sa-ham-ni-da!)",
+                "n": "Grazie!"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_16",
+            "isLetter": false,
+            "letter": "사랑해",
+            "word": "사랑해",
+            "emoji": "❤️",
+            "phonetic": "/sa-rang-hae/",
+            "translation": "Ti amo (informale). Da <b>사랑</b> (amore) + 해 (faccio).",
+            "translations": {
+              "ko": "사랑해",
+              "it": "ti amo (informale)",
+              "en": "I love you (informal)"
+            },
+            "examples": [
+              {
+                "t": "<b>사랑해</b>요. (sa-rang-hae-yo)",
+                "n": "Ti amo (formale)."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_17",
+            "isLetter": false,
+            "letter": "한국어",
+            "word": "한국어",
+            "emoji": "🇰🇷",
+            "phonetic": "/han-gu-geo/ (liaison: 한국 + 어 → 한구거)",
+            "translation": "Lingua coreana. <b>한국</b> (Corea) + <b>어</b> (lingua).",
+            "translations": {
+              "ko": "한국어",
+              "it": "lingua coreana",
+              "en": "Korean language"
+            },
+            "examples": [
+              {
+                "t": "<b>한국어</b>를 공부해요. (han-gu-geo-reul gong-bu-hae-yo)",
+                "n": "Studio il coreano."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_18",
+            "isLetter": false,
+            "letter": "맛있어요",
+            "word": "맛있어요",
+            "emoji": "😋",
+            "phonetic": "/ma-si-sseo-yo/ (맛 + 있어요 → 마시써요)",
+            "translation": "È delizioso. Da <b>맛</b> (gusto) + 있어요 (c'è).",
+            "translations": {
+              "ko": "맛있어요",
+              "it": "è delizioso",
+              "en": "it's delicious"
+            },
+            "examples": [
+              {
+                "t": "이 음식 <b>맛있어요</b>! (i eum-sik ma-si-sseo-yo!)",
+                "n": "Questo cibo è delizioso!"
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_19",
+            "isLetter": false,
+            "letter": "괜찮아요",
+            "word": "괜찮아요",
+            "emoji": "👍",
+            "phonetic": "/gwaen-chan-a-yo/ (la ㅎ non si pronuncia)",
+            "translation": "Va bene, non c'è problema. Da <b>괜찮다</b>.",
+            "translations": {
+              "ko": "괜찮아요",
+              "it": "va bene",
+              "en": "it's OK"
+            },
+            "examples": [
+              {
+                "t": "<b>괜찮아요</b>? (gwaen-chan-a-yo?)",
+                "n": "Va bene?"
+              },
+              {
+                "t": "<b>괜찮아요</b>, 감사합니다. (gwaen-chan-a-yo, gam-sa-ham-ni-da)",
+                "n": "Va bene, grazie."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_20",
+            "isLetter": false,
+            "letter": "공부하다",
+            "word": "공부하다",
+            "emoji": "📝",
+            "phonetic": "/gong-bu-ha-da/",
+            "translation": "Studiare. Da <b>공부</b> (studio) + 하다 (fare).",
+            "translations": {
+              "ko": "공부하다",
+              "it": "studiare",
+              "en": "to study"
+            },
+            "examples": [
+              {
+                "t": "한국어를 <b>공부해요</b>. (han-gu-geo-reul gong-bu-hae-yo)",
+                "n": "Studio il coreano."
+              }
+            ]
+          },
+          {
+            "id": "ko_a0_g4_21",
+            "isLetter": false,
+            "letter": "친구",
+            "word": "친구",
+            "emoji": "👫",
+            "phonetic": "/chin-gu/",
+            "translation": "Amico. Da <b>친</b> (prossimo) + 구 (amico).",
+            "translations": {
+              "ko": "친구",
+              "it": "amico",
+              "en": "friend"
+            },
+            "examples": [
+              {
+                "t": "제 <b>친구</b>예요. (je chin-gu-ye-yo)",
+                "n": "È il mio amico."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-14T21:48:49.181Z"
+    }
+  },
+  "target": "ko",
+  "source": "it"
+}

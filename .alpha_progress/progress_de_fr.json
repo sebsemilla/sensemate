@@ -1,0 +1,919 @@
+{
+  "done": {
+    "umlauts": {
+      "cards": 12,
+      "data": {
+        "id": "de_a0_g1",
+        "name": "Umlauts y ß",
+        "icon": "🔤",
+        "color": "#6366f1",
+        "description": "ä · ö · ü · ß — los caracteres únicos del alemán",
+        "reviewFrom": [],
+        "cards": [
+          {
+            "id": "de_a0_g1_L_ae",
+            "isLetter": true,
+            "letter": "Ä",
+            "word": "Ä",
+            "emoji": "🐻",
+            "phonetic": "/ɛː/",
+            "translation": "La <b>Ä</b> se pronuncia como la <i>“e”</i> de <span class=\"hl\">“bed”</span> en inglés o la <i>“è”</i> francesa abierta.<br>Es como una <b>A</b> con dos puntos que la hacen sonar más <i>“clara”</i>.",
+            "mnemonic": "Imagina un animal con orejas puntiagudas (Ä) que hace el sonido de una oveja: “èèè”.",
+            "examples": [
+              {
+                "t": "Der <b>Bär</b> ist braun.",
+                "n": "L’ours est brun. (Le mot <b>Bär</b> contient la Ä)"
+              },
+              {
+                "t": "Ich esse gerne <b>Käse</b>.<br>Mayúscula: <b>Ä</b> → se escribe <b>Ae</b> si no tienes el teclado alemán.",
+                "n": "J’aime manger du fromage. / Pour la majuscule, on écrit “Ae”."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_L_oe",
+            "isLetter": true,
+            "letter": "Ö",
+            "word": "Ö",
+            "emoji": "🛢️",
+            "phonetic": "/øː/",
+            "translation": "La <b>Ö</b> n’existe pas en espagnol : arrondis tes lèvres comme pour dire <i>“o”</i> mais prononce <i>“e”</i>.<br>C’est le son du français <span class=\"hl\">“peu”</span>.",
+            "mnemonic": "Fais un bisou (lèvres arrondies) et dis “e” en même temps : c’est le son <b>Ö</b>.",
+            "examples": [
+              {
+                "t": "Das <b>Öl</b> ist teuer.",
+                "n": "L’huile est chère."
+              },
+              {
+                "t": "Ich <b>höre</b> Musik.<br>Mayúscula: <b>Ö</b> → <b>Oe</b>",
+                "n": "J’écoute de la musique. / Majuscule : “Oe”."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_L_ue",
+            "isLetter": true,
+            "letter": "Ü",
+            "word": "Ü",
+            "emoji": "🚪",
+            "phonetic": "/yː/",
+            "translation": "La <b>Ü</b> n’existe pas non plus en espagnol : arrondis tes lèvres comme pour dire <i>“u”</i> mais prononce <i>“i”</i>.<br>C’est le son du français <span class=\"hl\">“tu”</span>.",
+            "mnemonic": "Comme pour Ö, fais un bisou, mais cette fois dis “i” : <b>Ü</b>.",
+            "examples": [
+              {
+                "t": "Das Buch liegt <b>über</b> dem Tisch.",
+                "n": "Le livre est au-dessus de la table."
+              },
+              {
+                "t": "Die <b>Tür</b> ist offen.<br>Mayúscula: <b>Ü</b> → <b>Ue</b>",
+                "n": "La porte est ouverte. / Majuscule : “Ue”."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_L_ss",
+            "isLetter": true,
+            "letter": "ß",
+            "word": "ß",
+            "emoji": "🛣️",
+            "phonetic": "/s/",
+            "translation": "Le <b>ß</b> (appelé <i>“Eszett”</i>) se prononce comme un <i>“s”</i> fort, après une voyelle longue.<br>Il ne s’écrit qu’en minuscule. Si tu n’as pas ce caractère, écris <span class=\"hl\">“ss”</span>.",
+            "mnemonic": "Il ressemble à un B et un S collés — c’est un “s” spécial qui marque une voyelle longue.",
+            "examples": [
+              {
+                "t": "Die <b>Straße</b> ist lang.",
+                "n": "La rue est longue. (On écrit “ss” si pas de ß)"
+              },
+              {
+                "t": "Der Hund ist <b>groß</b>.<br>Pas de majuscule pour ß — on écrit <b>SS</b> en capitales.",
+                "n": "Le chien est grand. / En capitales : “STRASSE”."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_05",
+            "isLetter": false,
+            "letter": "Ä",
+            "word": "Bär",
+            "emoji": "🐻",
+            "phonetic": "/bɛːɐ̯/",
+            "translation": "Ours (animal)",
+            "translations": {
+              "de": "Bär",
+              "fr": "Ours",
+              "en": "Bear"
+            },
+            "examples": [
+              {
+                "t": "Der <b>Bär</b> schläft im Winter.",
+                "n": "L’ours dort en hiver."
+              },
+              {
+                "t": "Ich habe einen kleinen <b>Bären</b> gesehen.",
+                "n": "J’ai vu un petit ours."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_06",
+            "isLetter": false,
+            "letter": "Ä",
+            "word": "Käse",
+            "emoji": "🧀",
+            "phonetic": "/ˈkɛːzə/",
+            "translation": "Fromage",
+            "translations": {
+              "de": "Käse",
+              "fr": "Fromage",
+              "en": "Cheese"
+            },
+            "examples": [
+              {
+                "t": "Ich esse gerne <b>Käse</b> zum Frühstück.",
+                "n": "J’aime manger du fromage au petit-déjeuner."
+              },
+              {
+                "t": "Der <b>Käse</b> ist sehr lecker.",
+                "n": "Le fromage est très bon."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_07",
+            "isLetter": false,
+            "letter": "Ö",
+            "word": "Öl",
+            "emoji": "🛢️",
+            "phonetic": "/øːl/",
+            "translation": "Huile",
+            "translations": {
+              "de": "Öl",
+              "fr": "Huile",
+              "en": "Oil"
+            },
+            "examples": [
+              {
+                "t": "Ich koche mit <b>Öl</b>.",
+                "n": "Je cuisine avec de l’huile."
+              },
+              {
+                "t": "Das <b>Öl</b> ist teuer geworden.",
+                "n": "L’huile est devenue chère."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_08",
+            "isLetter": false,
+            "letter": "Ö",
+            "word": "hören",
+            "emoji": "👂",
+            "phonetic": "/ˈhøːʁən/",
+            "translation": "Entendre / écouter",
+            "translations": {
+              "de": "hören",
+              "fr": "Entendre / écouter",
+              "en": "To hear / to listen"
+            },
+            "examples": [
+              {
+                "t": "Ich <b>höre</b> gerne Musik.",
+                "n": "J’aime écouter de la musique."
+              },
+              {
+                "t": "Kannst du mich <b>hören</b>?",
+                "n": "Peux-tu m’entendre ?"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_09",
+            "isLetter": false,
+            "letter": "Ü",
+            "word": "Tür",
+            "emoji": "🚪",
+            "phonetic": "/tyːɐ̯/",
+            "translation": "Porte",
+            "translations": {
+              "de": "Tür",
+              "fr": "Porte",
+              "en": "Door"
+            },
+            "examples": [
+              {
+                "t": "Die <b>Tür</b> ist zu.",
+                "n": "La porte est fermée."
+              },
+              {
+                "t": "Mach bitte die <b>Tür</b> auf.",
+                "n": "Ouvre la porte, s’il te plaît."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_10",
+            "isLetter": false,
+            "letter": "Ü",
+            "word": "über",
+            "emoji": "⬆️",
+            "phonetic": "/ˈyːbɐ/",
+            "translation": "Au-dessus de / sur (préposition)",
+            "translations": {
+              "de": "über",
+              "fr": "Au-dessus de / sur",
+              "en": "Over / above"
+            },
+            "examples": [
+              {
+                "t": "Das Bild hängt <b>über</b> dem Sofa.",
+                "n": "Le tableau est accroché au-dessus du canapé."
+              },
+              {
+                "t": "Wir sprechen <b>über</b> das Wetter.",
+                "n": "Nous parlons du temps (à propos du temps)."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_11",
+            "isLetter": false,
+            "letter": "ß",
+            "word": "Straße",
+            "emoji": "🛣️",
+            "phonetic": "/ˈʃtʁaːsə/",
+            "translation": "Rue / route",
+            "translations": {
+              "de": "Straße",
+              "fr": "Rue / route",
+              "en": "Street / road"
+            },
+            "examples": [
+              {
+                "t": "Die <b>Straße</b> ist sehr lang.",
+                "n": "La rue est très longue."
+              },
+              {
+                "t": "Ich wohne in der Hauptstraße.",
+                "n": "J’habite dans la rue principale."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_12",
+            "isLetter": false,
+            "letter": "ß",
+            "word": "groß",
+            "emoji": "🐘",
+            "phonetic": "/ɡʁoːs/",
+            "translation": "Grand (taille)",
+            "translations": {
+              "de": "groß",
+              "fr": "Grand",
+              "en": "Big / tall"
+            },
+            "examples": [
+              {
+                "t": "Das Haus ist sehr <b>groß</b>.",
+                "n": "La maison est très grande."
+              },
+              {
+                "t": "Mein Bruder ist <b>größer</b> als ich.",
+                "n": "Mon frère est plus grand que moi."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:23:18.706Z"
+    },
+    "consonant_sounds": {
+      "cards": 12,
+      "data": {
+        "id": "de_a0_g2",
+        "name": "Consonantes alemanas",
+        "icon": "🔡",
+        "color": "#f59e0b",
+        "description": "J · W · V · Z · CH · SP/ST — sonidos propios",
+        "reviewFrom": [
+          "de_a0_g1"
+        ],
+        "cards": [
+          {
+            "id": "de_a0_g2_L_j",
+            "isLetter": true,
+            "letter": "J",
+            "word": "J",
+            "emoji": "🔤",
+            "phonetic": "/j/",
+            "translation": "Se pronuncia como la <b>Y</b> española (no como la J española). <i>Ej: ja = ya</i>",
+            "mnemonic": "Piensa en la Y española: la J alemana suena igual.",
+            "examples": [
+              {
+                "t": "<b>J</b>a – sí (suena 'ya')",
+                "n": "La palabra más útil: ja."
+              },
+              {
+                "t": "<b>J</b>ahr – año (suena 'yaar')",
+                "n": "Recuerda: J = Y."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_L_w",
+            "isLetter": true,
+            "letter": "W",
+            "word": "W",
+            "emoji": "🔤",
+            "phonetic": "/v/",
+            "translation": "Suena como la <b>V</b> o <b>B</b> española (no como la W inglesa). <i>Ej: Wasser = vasa</i>",
+            "mnemonic": "La W alemana es una V 'vibrada'.",
+            "examples": [
+              {
+                "t": "<b>W</b>asser – agua (suena 'vasa')",
+                "n": "Agua: esencial."
+              },
+              {
+                "t": "<b>W</b>o – dónde (suena 'vo')",
+                "n": "Pregunta frecuente."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_L_v",
+            "isLetter": true,
+            "letter": "V",
+            "word": "V",
+            "emoji": "🔤",
+            "phonetic": "/f/ (general) o /v/ (extranjerismos)",
+            "translation": "Generalmente suena <b>F</b> (como en español). <i>Ej: Vater = fata</i>. En palabras extranjeras suena <b>V</b>.",
+            "mnemonic": "La V alemana es una F 'disfrazada'.",
+            "examples": [
+              {
+                "t": "<b>V</b>ater – padre (suena 'fata')",
+                "n": "La V suena F."
+              },
+              {
+                "t": "<b>V</b>isum – visado (suena 'vizu:m')",
+                "n": "Extranjerismo: suena V."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_L_z",
+            "isLetter": true,
+            "letter": "Z",
+            "word": "Z",
+            "emoji": "🔤",
+            "phonetic": "/ts/",
+            "translation": "Se pronuncia <b>TS</b> (como en 'pizza'). <i>Ej: Zeit = tsait</i>",
+            "mnemonic": "La Z alemana es una 'ts' explosiva.",
+            "examples": [
+              {
+                "t": "<b>Z</b>eit – tiempo (suena 'tsait')",
+                "n": "El tiempo es oro."
+              },
+              {
+                "t": "<b>Z</b>ug – tren (suena 'tsuk')",
+                "n": "Tren: muy común."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_L_ch",
+            "isLetter": true,
+            "letter": "CH",
+            "word": "CH",
+            "emoji": "🔤",
+            "phonetic": "/x/ o /ç/",
+            "translation": "Dos sonidos: <b>/x/</b> (como la J española) tras a, o, u – <i>Bach</i>; <b>/ç/</b> (como 'sh' suave) tras e, i – <i>ich</i>.",
+            "mnemonic": "CH es una J 'áspera' o una 'sh' susurrada.",
+            "examples": [
+              {
+                "t": "Ba<b>ch</b> – arroyo (suena 'baj')",
+                "n": "Sonido /x/."
+              },
+              {
+                "t": "i<b>ch</b> – yo (suena 'ish')",
+                "n": "Sonido /ç/."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_L_sp_st",
+            "isLetter": true,
+            "letter": "SP/ST",
+            "word": "SP/ST",
+            "emoji": "🔤",
+            "phonetic": "/ʃp/ y /ʃt/",
+            "translation": "Al inicio de palabra, <b>SP</b> suena <b>SCHP</b> y <b>ST</b> suena <b>SCHT</b>. <i>Ej: sprechen = schprejen, Stadt = schtat</i>",
+            "mnemonic": "Imagina una 'sch' antes de P o T.",
+            "examples": [
+              {
+                "t": "<b>Sp</b>rechen – hablar (suena 'schprejen')",
+                "n": "Hablar es clave."
+              },
+              {
+                "t": "<b>St</b>adt – ciudad (suena 'schtat')",
+                "n": "Ciudad: frecuente."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_01",
+            "isLetter": false,
+            "letter": "J",
+            "word": "ja",
+            "emoji": "✅",
+            "phonetic": "/jaː/",
+            "translation": "sí",
+            "translations": {
+              "de": "ja",
+              "fr": "oui",
+              "en": "yes"
+            },
+            "examples": [
+              {
+                "t": "<b>Ja</b>, das ist gut.",
+                "n": "Oui, c'est bon."
+              },
+              {
+                "t": "Sag <b>ja</b> oder nein.",
+                "n": "Dis oui ou non."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_02",
+            "isLetter": false,
+            "letter": "W",
+            "word": "Wasser",
+            "emoji": "💧",
+            "phonetic": "/ˈvasɐ/",
+            "translation": "eau",
+            "translations": {
+              "de": "Wasser",
+              "fr": "eau",
+              "en": "water"
+            },
+            "examples": [
+              {
+                "t": "Ich trinke <b>Wasser</b>.",
+                "n": "Je bois de l'eau."
+              },
+              {
+                "t": "Das <b>Wasser</b> ist kalt.",
+                "n": "L'eau est froide."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_03",
+            "isLetter": false,
+            "letter": "V",
+            "word": "Vater",
+            "emoji": "👨",
+            "phonetic": "/ˈfaːtɐ/",
+            "translation": "père",
+            "translations": {
+              "de": "Vater",
+              "fr": "père",
+              "en": "father"
+            },
+            "examples": [
+              {
+                "t": "Mein <b>Vater</b> ist hier.",
+                "n": "Mon père est ici."
+              },
+              {
+                "t": "Der <b>Vater</b> liest.",
+                "n": "Le père lit."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_04",
+            "isLetter": false,
+            "letter": "Z",
+            "word": "Zeit",
+            "emoji": "⏰",
+            "phonetic": "/tsaɪt/",
+            "translation": "temps",
+            "translations": {
+              "de": "Zeit",
+              "fr": "temps",
+              "en": "time"
+            },
+            "examples": [
+              {
+                "t": "Ich habe keine <b>Zeit</b>.",
+                "n": "Je n'ai pas le temps."
+              },
+              {
+                "t": "Die <b>Zeit</b> ist knapp.",
+                "n": "Le temps est court."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_05",
+            "isLetter": false,
+            "letter": "CH",
+            "word": "ich",
+            "emoji": "🙋",
+            "phonetic": "/ɪç/",
+            "translation": "je",
+            "translations": {
+              "de": "ich",
+              "fr": "je",
+              "en": "I"
+            },
+            "examples": [
+              {
+                "t": "<b>Ich</b> bin müde.",
+                "n": "Je suis fatigué."
+              },
+              {
+                "t": "<b>Ich</b> liebe dich.",
+                "n": "Je t'aime."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_06",
+            "isLetter": false,
+            "letter": "SP/ST",
+            "word": "sprechen",
+            "emoji": "🗣️",
+            "phonetic": "/ˈʃprɛçən/",
+            "translation": "parler",
+            "translations": {
+              "de": "sprechen",
+              "fr": "parler",
+              "en": "to speak"
+            },
+            "examples": [
+              {
+                "t": "Ich <b>spreche</b> Deutsch.",
+                "n": "Je parle allemand."
+              },
+              {
+                "t": "Kannst du langsam <b>sprechen</b>?",
+                "n": "Peux-tu parler lentement ?"
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:23:34.929Z"
+    },
+    "vowel_length": {
+      "cards": 15,
+      "data": {
+        "id": "de_a0_g3",
+        "name": "Vocales largas y cortas",
+        "icon": "⏱️",
+        "color": "#10b981",
+        "description": "La duración de la vocal cambia el significado",
+        "reviewFrom": [
+          "de_a0_g1",
+          "de_a0_g2"
+        ],
+        "cards": [
+          {
+            "id": "de_a0_g3_L_a",
+            "isLetter": true,
+            "letter": "A",
+            "word": "A",
+            "emoji": "🔤",
+            "phonetic": "/aː/ vs /a/",
+            "translation": "A longue /aː/ (comme dans <i>Bahnhof</i>) vs A brève /a/ (comme dans <i>Mann</i>)",
+            "mnemonic": "Imaginez un « a » qui s'étire comme un élastique pour le long, et un « a » qui rebondit vite pour le court.",
+            "examples": [
+              {
+                "t": "<b>A</b> longue : <span class=\"hl\">Bahn</span> (train) – le « a » est long.<br><b>A</b> brève : <span class=\"hl\">Mann</span> (homme) – le « a » est court.",
+                "n": "Comparez : Bahn (long) vs Mann (court)"
+              },
+              {
+                "t": "<b>A</b> longue : <span class=\"hl\">Staat</span> (État) – double voyelle = long.<br><b>A</b> brève : <span class=\"hl\">Rand</span> (bord) – consonne double = court.",
+                "n": "Astuce : double voyelle ou 'h' après = long ; double consonne après = court"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_L_e",
+            "isLetter": true,
+            "letter": "E",
+            "word": "E",
+            "emoji": "🔤",
+            "phonetic": "/eː/ vs /ɛ/",
+            "translation": "E long /eː/ (comme dans <i>See</i>) vs E bref /ɛ/ (comme dans <i>Bett</i>)",
+            "mnemonic": "Le E long est comme un « é » français, le E bref est plus ouvert comme dans « è ».",
+            "examples": [
+              {
+                "t": "<b>E</b> long : <span class=\"hl\">See</span> (lac) – double voyelle = long.<br><b>E</b> bref : <span class=\"hl\">Bett</span> (lit) – double consonne = court.",
+                "n": "Comparez : See (long) vs Bett (court)"
+              },
+              {
+                "t": "<b>E</b> long : <span class=\"hl\">gehen</span> (aller) – le « e » est long.<br><b>E</b> bref : <span class=\"hl\">kennen</span> (connaître) – le « e » est court.",
+                "n": "Attention : dans 'gehen', le 'e' est long, mais dans 'kennen', le premier 'e' est court"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_L_i",
+            "isLetter": true,
+            "letter": "I",
+            "word": "I",
+            "emoji": "🔤",
+            "phonetic": "/iː/ vs /ɪ/",
+            "translation": "I long /iː/ (comme dans <i>ihn</i>) vs I bref /ɪ/ (comme dans <i>mit</i>)",
+            "mnemonic": "Le I long est comme un « i » français, le I bref est plus relâché, comme un « i » espagnol court.",
+            "examples": [
+              {
+                "t": "<b>I</b> long : <span class=\"hl\">ihn</span> (lui) – le « i » est long.<br><b>I</b> bref : <span class=\"hl\">mit</span> (avec) – le « i » est court.",
+                "n": "Comparez : ihn (long) vs mit (court)"
+              },
+              {
+                "t": "<b>I</b> long : <span class=\"hl\">Dieb</span> (voleur) – le « ie » se prononce long.<br><b>I</b> bref : <span class=\"hl\">Kind</span> (enfant) – le « i » est court.",
+                "n": "Astuce : 'ie' = long, 'i' suivi de deux consonnes = court"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_L_o",
+            "isLetter": true,
+            "letter": "O",
+            "word": "O",
+            "emoji": "🔤",
+            "phonetic": "/oː/ vs /ɔ/",
+            "translation": "O long /oː/ (comme dans <i>Sohn</i>) vs O bref /ɔ/ (comme dans <i>von</i>)",
+            "mnemonic": "Le O long est comme un « o » fermé, le O bref est plus ouvert comme dans « pomme ».",
+            "examples": [
+              {
+                "t": "<b>O</b> long : <span class=\"hl\">Sohn</span> (fils) – le « o » est long.<br><b>O</b> bref : <span class=\"hl\">von</span> (de) – le « o » est court.",
+                "n": "Comparez : Sohn (long) vs von (court)"
+              },
+              {
+                "t": "<b>O</b> long : <span class=\"hl\">Boot</span> (bateau) – double voyelle = long.<br><b>O</b> bref : <span class=\"hl\">Gott</span> (Dieu) – double consonne = court.",
+                "n": "Astuce : double voyelle ou 'h' après = long ; double consonne après = court"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_L_u",
+            "isLetter": true,
+            "letter": "U",
+            "word": "U",
+            "emoji": "🔤",
+            "phonetic": "/uː/ vs /ʊ/",
+            "translation": "U long /uː/ (comme dans <i>gut</i>) vs U bref /ʊ/ (comme dans <i>und</i>)",
+            "mnemonic": "Le U long est comme un « ou » français, le U bref est plus relâché, comme dans « foot ».",
+            "examples": [
+              {
+                "t": "<b>U</b> long : <span class=\"hl\">gut</span> (bon) – le « u » est long.<br><b>U</b> bref : <span class=\"hl\">und</span> (et) – le « u » est court.",
+                "n": "Comparez : gut (long) vs und (court)"
+              },
+              {
+                "t": "<b>U</b> long : <span class=\"hl\">Stuhl</span> (chaise) – le « u » est long.<br><b>U</b> bref : <span class=\"hl\">Mutter</span> (mère) – le « u » est court.",
+                "n": "Astuce : double consonne après = court"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_01",
+            "letter": "A",
+            "word": "Bahn",
+            "emoji": "🚆",
+            "phonetic": "/baːn/",
+            "translation": "train (voie ferrée)",
+            "translations": {
+              "de": "Bahn",
+              "fr": "train",
+              "en": "train"
+            },
+            "examples": [
+              {
+                "t": "Die <b>Bahn</b> fährt schnell.",
+                "n": "Le train va vite."
+              },
+              {
+                "t": "Ich nehme die <b>Bahn</b>.",
+                "n": "Je prends le train."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_02",
+            "letter": "A",
+            "word": "Mann",
+            "emoji": "👨",
+            "phonetic": "/man/",
+            "translation": "homme",
+            "translations": {
+              "de": "Mann",
+              "fr": "homme",
+              "en": "man"
+            },
+            "examples": [
+              {
+                "t": "Der <b>Mann</b> ist groß.",
+                "n": "L'homme est grand."
+              },
+              {
+                "t": "Ein <b>Mann</b> und eine Frau.",
+                "n": "Un homme et une femme."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_03",
+            "letter": "E",
+            "word": "See",
+            "emoji": "🌊",
+            "phonetic": "/zeː/",
+            "translation": "lac (ou mer)",
+            "translations": {
+              "de": "See",
+              "fr": "lac (ou mer)",
+              "en": "lake (or sea)"
+            },
+            "examples": [
+              {
+                "t": "Der <b>See</b> ist tief.",
+                "n": "Le lac est profond."
+              },
+              {
+                "t": "Wir schwimmen im <b>See</b>.",
+                "n": "Nous nageons dans le lac."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_04",
+            "letter": "E",
+            "word": "Bett",
+            "emoji": "🛏️",
+            "phonetic": "/bɛt/",
+            "translation": "lit",
+            "translations": {
+              "de": "Bett",
+              "fr": "lit",
+              "en": "bed"
+            },
+            "examples": [
+              {
+                "t": "Das <b>Bett</b> ist weich.",
+                "n": "Le lit est doux."
+              },
+              {
+                "t": "Ich gehe ins <b>Bett</b>.",
+                "n": "Je vais au lit."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_05",
+            "letter": "I",
+            "word": "ihn",
+            "emoji": "👉",
+            "phonetic": "/iːn/",
+            "translation": "lui (accusatif)",
+            "translations": {
+              "de": "ihn",
+              "fr": "lui (accusatif)",
+              "en": "him"
+            },
+            "examples": [
+              {
+                "t": "Ich sehe <b>ihn</b>.",
+                "n": "Je le vois (lui)."
+              },
+              {
+                "t": "Kennst du <b>ihn</b>?",
+                "n": "Le connais-tu ?"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_06",
+            "letter": "I",
+            "word": "mit",
+            "emoji": "🤝",
+            "phonetic": "/mɪt/",
+            "translation": "avec",
+            "translations": {
+              "de": "mit",
+              "fr": "avec",
+              "en": "with"
+            },
+            "examples": [
+              {
+                "t": "Ich komme <b>mit</b>.",
+                "n": "Je viens avec."
+              },
+              {
+                "t": "Kaffee <b>mit</b> Milch.",
+                "n": "Café avec du lait."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_07",
+            "letter": "O",
+            "word": "Sohn",
+            "emoji": "👦",
+            "phonetic": "/zoːn/",
+            "translation": "fils",
+            "translations": {
+              "de": "Sohn",
+              "fr": "fils",
+              "en": "son"
+            },
+            "examples": [
+              {
+                "t": "Mein <b>Sohn</b> ist fünf.",
+                "n": "Mon fils a cinq ans."
+              },
+              {
+                "t": "Der <b>Sohn</b> der Familie.",
+                "n": "Le fils de la famille."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_08",
+            "letter": "O",
+            "word": "von",
+            "emoji": "📦",
+            "phonetic": "/fɔn/",
+            "translation": "de (provenance)",
+            "translations": {
+              "de": "von",
+              "fr": "de (provenance)",
+              "en": "from, of"
+            },
+            "examples": [
+              {
+                "t": "Das ist <b>von</b> mir.",
+                "n": "C'est de moi."
+              },
+              {
+                "t": "Ich komme <b>von</b> Berlin.",
+                "n": "Je viens de Berlin."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_09",
+            "letter": "U",
+            "word": "gut",
+            "emoji": "👍",
+            "phonetic": "/guːt/",
+            "translation": "bon, bien",
+            "translations": {
+              "de": "gut",
+              "fr": "bon, bien",
+              "en": "good"
+            },
+            "examples": [
+              {
+                "t": "Das ist <b>gut</b>.",
+                "n": "C'est bon."
+              },
+              {
+                "t": "Mir geht es <b>gut</b>.",
+                "n": "Je vais bien."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_10",
+            "letter": "U",
+            "word": "und",
+            "emoji": "➕",
+            "phonetic": "/ʊnt/",
+            "translation": "et",
+            "translations": {
+              "de": "und",
+              "fr": "et",
+              "en": "and"
+            },
+            "examples": [
+              {
+                "t": "Ich <b>und</b> du.",
+                "n": "Moi et toi."
+              },
+              {
+                "t": "Brot <b>und</b> Käse.",
+                "n": "Pain et fromage."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:23:54.818Z"
+    }
+  },
+  "target": "de",
+  "source": "fr"
+}

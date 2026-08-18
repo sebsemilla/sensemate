@@ -1,0 +1,993 @@
+{
+  "done": {
+    "accents": {
+      "cards": 18,
+      "data": {
+        "id": "fr_a0_g1",
+        "name": "Acentos y cedilla",
+        "icon": "🔤",
+        "color": "#6366f1",
+        "description": "é · è · ê · ë · â · î · ô · û · ç",
+        "reviewFrom": [],
+        "cards": [
+          {
+            "id": "fr_a0_g1_L_e_acute",
+            "isLetter": true,
+            "letter": "é",
+            "word": "é",
+            "emoji": "🔤",
+            "phonetic": "/e/",
+            "translation": "Akut-Akzent: geschlossenes <b>e</b> wie in <i>See</i> (kurz) – klingt wie im Deutschen <i>Beat</i> ohne i.",
+            "mnemonic": "Stell dir einen Berggipfel vor – der Akut zeigt nach oben, also klingt es hell und geschlossen.",
+            "examples": [
+              {
+                "t": "Le <b>café</b> est bon.",
+                "n": "Der Kaffee ist gut. – café: geschlossenes e am Ende."
+              },
+              {
+                "t": "L'<b>été</b> est chaud.",
+                "n": "Der Sommer ist heiß. – été: zwei geschlossene e."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_L_e_grave",
+            "isLetter": true,
+            "letter": "è",
+            "word": "è",
+            "emoji": "🔤",
+            "phonetic": "/ɛ/",
+            "translation": "Gravis-Akzent: offenes <b>e</b> wie in <i>Bett</i> oder <i>hätte</i>.",
+            "mnemonic": "Der Gravis zeigt nach unten – öffne den Mund für ein offenes 'e'.",
+            "examples": [
+              {
+                "t": "Le <b>père</b> et la <b>mère</b>.",
+                "n": "Der Vater und die Mutter. – è klingt wie in 'Bett'."
+              },
+              {
+                "t": "Après le travail.",
+                "n": "Nach der Arbeit. – après: offenes e am Ende."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_L_e_circumflex",
+            "isLetter": true,
+            "letter": "ê",
+            "word": "ê",
+            "emoji": "🔤",
+            "phonetic": "/ɛ/",
+            "translation": "Zirkumflex: offenes <b>e</b> – gleicher Klang wie <b>è</b>, aber historisch (zeigt oft ein verlorenes 's').",
+            "mnemonic": "Der Hut auf dem e: erinnert an ein Dach – und an den Buchstaben 's', der früher danach stand.",
+            "examples": [
+              {
+                "t": "La <b>fête</b> commence.",
+                "n": "Das Fest beginnt. – fête: historisch 'feste'."
+              },
+              {
+                "t": "La <b>tête</b> et le <b>cœur</b>.",
+                "n": "Der Kopf und das Herz. – tête: offenes e."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_L_e_trema",
+            "isLetter": true,
+            "letter": "ë",
+            "word": "ë",
+            "emoji": "🔤",
+            "phonetic": "/e/ oder /ɛ/",
+            "translation": "Trema (zwei Punkte): Das <b>e</b> wird getrennt ausgesprochen – nicht mit dem Vokal davor verschmolzen.",
+            "mnemonic": "Zwei Punkte wie Augen – das e schaut dich an und sagt: 'Ich werde extra ausgesprochen!'",
+            "examples": [
+              {
+                "t": "Noël, c'est en décembre.",
+                "n": "Weihnachten ist im Dezember. – Noël: o und e getrennt."
+              },
+              {
+                "t": "Il est <b>naïf</b>.",
+                "n": "Er ist naiv. – naïf: a und i getrennt."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_L_a_circumflex",
+            "isLetter": true,
+            "letter": "â",
+            "word": "â",
+            "emoji": "🔤",
+            "phonetic": "/ɑ/",
+            "translation": "Zirkumflex-<b>a</b>: etwas hinteres, offenes <b>a</b> – wie in <i>Vater</i> (lang) oder <i>Kahn</i>.",
+            "mnemonic": "Der Hut auf dem a: denk an ein Schloss (château) – klingt tief und rund.",
+            "examples": [
+              {
+                "t": "Le <b>château</b> est vieux.",
+                "n": "Das Schloss ist alt. – â wie in 'Vater'."
+              },
+              {
+                "t": "La <b>pâte</b> est fraîche.",
+                "n": "Der Teig ist frisch. – pâte: hinteres a."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_L_i_circumflex",
+            "isLetter": true,
+            "letter": "î",
+            "word": "î",
+            "emoji": "🔤",
+            "phonetic": "/i/",
+            "translation": "Zirkumflex-<b>i</b>: klingt wie normales <b>i</b> – /i/ wie in <i>Liebe</i> oder <i>Bio</i>.",
+            "mnemonic": "Der Hut ist nur historisch – das i klingt genau wie ohne Hut.",
+            "examples": [
+              {
+                "t": "L'<b>île</b> est petite.",
+                "n": "Die Insel ist klein. – île: langes i."
+              },
+              {
+                "t": "La <b>boîte</b> est lourde.",
+                "n": "Die Kiste ist schwer. – boîte: i wie in 'Bio'."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_L_o_circumflex",
+            "isLetter": true,
+            "letter": "ô",
+            "word": "ô",
+            "emoji": "🔤",
+            "phonetic": "/o/",
+            "translation": "Zirkumflex-<b>o</b>: geschlossenes <b>o</b> – wie in <i>Boot</i> oder <i>Ofen</i> (ohne Hauch).",
+            "mnemonic": "Der Hut auf dem o: denk an ein Hotel – das o klingt rund und geschlossen.",
+            "examples": [
+              {
+                "t": "Le <b>côté</b> droit.",
+                "n": "Die rechte Seite. – côté: geschlossenes o."
+              },
+              {
+                "t": "Il est <b>tôt</b>.",
+                "n": "Es ist früh. – tôt: geschlossenes o."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_L_u_circumflex",
+            "isLetter": true,
+            "letter": "û",
+            "word": "û",
+            "emoji": "🔤",
+            "phonetic": "/y/",
+            "translation": "Zirkumflex-<b>u</b>: klingt wie normales französisches <b>u</b> – /y/ wie in <i>über</i> oder <i>für</i>.",
+            "mnemonic": "Der Hut ist nur historisch – das u klingt wie ein deutsches 'ü'.",
+            "examples": [
+              {
+                "t": "Je suis <b>sûr</b> de moi.",
+                "n": "Ich bin mir sicher. – sûr: ü-Laut."
+              },
+              {
+                "t": "Le <b>dû</b> est payé.",
+                "n": "Die Schuld ist bezahlt. – dû: ü-Laut."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_L_c_cedilla",
+            "isLetter": true,
+            "letter": "ç",
+            "word": "ç",
+            "emoji": "🔤",
+            "phonetic": "/s/",
+            "translation": "Cedille: macht aus <b>c</b> ein <b>s</b> – vor a, o, u. Klingt wie deutsches <i>s</i> in <i>Wasser</i>.",
+            "mnemonic": "Der Haken unten: wie ein Angelhaken, der das c zu einem 's' macht.",
+            "examples": [
+              {
+                "t": "Le <b>garçon</b> danse.",
+                "n": "Der Junge tanzt. – ç wie 's'."
+              },
+              {
+                "t": "La <b>leçon</b> est facile.",
+                "n": "Die Lektion ist einfach. – ç wie 's'."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_10",
+            "isLetter": false,
+            "letter": "é",
+            "word": "café",
+            "emoji": "☕",
+            "phonetic": "/ka.fe/",
+            "translation": "das Café, der Kaffee – <b>café</b>",
+            "translations": {
+              "fr": "café",
+              "de": "Café, Kaffee",
+              "en": "coffee, café"
+            },
+            "examples": [
+              {
+                "t": "Je bois un <b>café</b>.",
+                "n": "Ich trinke einen Kaffee."
+              },
+              {
+                "t": "Le <b>café</b> est chaud.",
+                "n": "Der Kaffee ist heiß."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_11",
+            "isLetter": false,
+            "letter": "è",
+            "word": "père",
+            "emoji": "👨",
+            "phonetic": "/pɛʁ/",
+            "translation": "der Vater – <b>père</b>",
+            "translations": {
+              "fr": "père",
+              "de": "Vater",
+              "en": "father"
+            },
+            "examples": [
+              {
+                "t": "Mon <b>père</b> est ici.",
+                "n": "Mein Vater ist hier."
+              },
+              {
+                "t": "Le <b>père</b> de Marie.",
+                "n": "Maries Vater."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_12",
+            "isLetter": false,
+            "letter": "ê",
+            "word": "fête",
+            "emoji": "🎉",
+            "phonetic": "/fɛt/",
+            "translation": "das Fest, die Party – <b>fête</b>",
+            "translations": {
+              "fr": "fête",
+              "de": "Fest, Party",
+              "en": "party, celebration"
+            },
+            "examples": [
+              {
+                "t": "La <b>fête</b> est samedi.",
+                "n": "Das Fest ist am Samstag."
+              },
+              {
+                "t": "Bonne <b>fête</b> !",
+                "n": "Alles Gute zum Fest!"
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_13",
+            "isLetter": false,
+            "letter": "ë",
+            "word": "Noël",
+            "emoji": "🎄",
+            "phonetic": "/nɔ.ɛl/",
+            "translation": "Weihnachten – <b>Noël</b>",
+            "translations": {
+              "fr": "Noël",
+              "de": "Weihnachten",
+              "en": "Christmas"
+            },
+            "examples": [
+              {
+                "t": "<b>Noël</b> est en décembre.",
+                "n": "Weihnachten ist im Dezember."
+              },
+              {
+                "t": "Joyeux <b>Noël</b> !",
+                "n": "Frohe Weihnachten!"
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_14",
+            "isLetter": false,
+            "letter": "â",
+            "word": "château",
+            "emoji": "🏰",
+            "phonetic": "/ʃɑ.to/",
+            "translation": "das Schloss – <b>château</b>",
+            "translations": {
+              "fr": "château",
+              "de": "Schloss",
+              "en": "castle"
+            },
+            "examples": [
+              {
+                "t": "Le <b>château</b> est grand.",
+                "n": "Das Schloss ist groß."
+              },
+              {
+                "t": "Un vieux <b>château</b>.",
+                "n": "Ein altes Schloss."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_15",
+            "isLetter": false,
+            "letter": "î",
+            "word": "île",
+            "emoji": "🏝️",
+            "phonetic": "/il/",
+            "translation": "die Insel – <b>île</b>",
+            "translations": {
+              "fr": "île",
+              "de": "Insel",
+              "en": "island"
+            },
+            "examples": [
+              {
+                "t": "Une <b>île</b> déserte.",
+                "n": "Eine einsame Insel."
+              },
+              {
+                "t": "L'<b>île</b> est belle.",
+                "n": "Die Insel ist schön."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_16",
+            "isLetter": false,
+            "letter": "ô",
+            "word": "hôtel",
+            "emoji": "🏨",
+            "phonetic": "/o.tɛl/",
+            "translation": "das Hotel – <b>hôtel</b>",
+            "translations": {
+              "fr": "hôtel",
+              "de": "Hotel",
+              "en": "hotel"
+            },
+            "examples": [
+              {
+                "t": "L'<b>hôtel</b> est proche.",
+                "n": "Das Hotel ist in der Nähe."
+              },
+              {
+                "t": "Je cherche un <b>hôtel</b>.",
+                "n": "Ich suche ein Hotel."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_17",
+            "isLetter": false,
+            "letter": "û",
+            "word": "sûr",
+            "emoji": "✅",
+            "phonetic": "/syʁ/",
+            "translation": "sicher – <b>sûr</b>",
+            "translations": {
+              "fr": "sûr",
+              "de": "sicher",
+              "en": "sure, safe"
+            },
+            "examples": [
+              {
+                "t": "Je suis <b>sûr</b>.",
+                "n": "Ich bin sicher."
+              },
+              {
+                "t": "C'est <b>sûr</b> ?",
+                "n": "Ist das sicher?"
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g1_18",
+            "isLetter": false,
+            "letter": "ç",
+            "word": "garçon",
+            "emoji": "👦",
+            "phonetic": "/ɡaʁ.sɔ̃/",
+            "translation": "der Junge, der Kellner – <b>garçon</b>",
+            "translations": {
+              "fr": "garçon",
+              "de": "Junge, Kellner",
+              "en": "boy, waiter"
+            },
+            "examples": [
+              {
+                "t": "Le <b>garçon</b> court.",
+                "n": "Der Junge rennt."
+              },
+              {
+                "t": "<b>Garçon</b>, l'addition !",
+                "n": "Kellner, die Rechnung bitte!"
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:25:33.562Z"
+    },
+    "nasal_vowels": {
+      "cards": 12,
+      "data": {
+        "id": "fr_a0_g2",
+        "name": "Vocales nasales",
+        "icon": "👃",
+        "color": "#f59e0b",
+        "description": "an/en · in/ain · on · un — sonidos que no existen en español",
+        "reviewFrom": [
+          "fr_a0_g1"
+        ],
+        "cards": [
+          {
+            "id": "fr_a0_g2_L_an-en",
+            "isLetter": true,
+            "letter": "AN/EN",
+            "word": "AN/EN",
+            "emoji": "👃",
+            "phonetic": "/ɑ̃/",
+            "translation": "Nasaler <b>a</b>-Laut — wie <i>„en“ im Deutschen</i>, aber mit Nase",
+            "mnemonic": "Stell dir vor, du sagst „a“ und hältst dir gleichzeitig die Nase zu — der Klang wird dumpf und nasal.",
+            "examples": [
+              {
+                "t": "<b>enfant</b> — Kind<br><b>temps</b> — Zeit",
+                "n": "Beide Wörter haben den nasalen a-Laut"
+              },
+              {
+                "t": "Vorsicht: <b>ane</b> (Eselin) hat KEINEN Nasallaut, weil das n von einem e gefolgt wird.",
+                "n": "Regel: n/m nur nasal, wenn Konsonant folgt oder Wort endet"
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_L_in-ain-ein",
+            "isLetter": true,
+            "letter": "IN/AIN/EIN",
+            "word": "IN/AIN/EIN",
+            "emoji": "👃",
+            "phonetic": "/ɛ̃/",
+            "translation": "Nasaler <b>e</b>-Laut — wie <i>„in“ im Deutschen</i>, aber durch die Nase",
+            "mnemonic": "Denk an das deutsche Wort „in“ — aber sprich es mit zugehaltener Nase, dann hast du den französischen Laut.",
+            "examples": [
+              {
+                "t": "<b>vin</b> — Wein<br><b>pain</b> — Brot",
+                "n": "Beide enden auf den nasalen e-Laut"
+              },
+              {
+                "t": "<b>main</b> (Hand) — das i wird nasal, das n ist stumm",
+                "n": "Vergleich mit dem spanischen „mano“"
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_L_on",
+            "isLetter": true,
+            "letter": "ON",
+            "word": "ON",
+            "emoji": "👃",
+            "phonetic": "/ɔ̃/",
+            "translation": "Nasaler <b>o</b>-Laut — wie <i>„on“ im Englischen</i>, aber nasal",
+            "mnemonic": "Stell dir vor, du sagst „o“ und lässt den Klang durch die Nase gehen — wie beim Gähnen.",
+            "examples": [
+              {
+                "t": "<b>bon</b> — gut<br><b>monde</b> — Welt",
+                "n": "Beide haben den nasalen o-Laut"
+              },
+              {
+                "t": "<b>garçon</b> — Junge/Kellner — das ç zeigt an, dass es wie „s“ gesprochen wird",
+                "n": "ç = weiches s, nicht k"
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_L_un-um",
+            "isLetter": true,
+            "letter": "UN/UM",
+            "word": "UN/UM",
+            "emoji": "👃",
+            "phonetic": "/œ̃/",
+            "translation": "Nasaler <b>ü</b>-Laut — zwischen <i>„un“ und „ö“</i>, durch die Nase",
+            "mnemonic": "Denk an das deutsche „un“ in „unmöglich“ — aber sprich es mit Nase und rundem Mund.",
+            "examples": [
+              {
+                "t": "<b>un</b> — ein/eine<br><b>lundi</b> — Montag",
+                "n": "Beide enthalten den nasalen ü-Laut"
+              },
+              {
+                "t": "<b>parfum</b> — Parfüm — das m ist stumm, nur der Nasallaut bleibt",
+                "n": "Wort kommt aus dem Lateinischen"
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_01",
+            "isLetter": false,
+            "letter": "AN/EN",
+            "word": "enfant",
+            "emoji": "🧒",
+            "phonetic": "/ɑ̃.fɑ̃/",
+            "translation": "das Kind",
+            "translations": {
+              "fr": "enfant",
+              "de": "das Kind",
+              "en": "child"
+            },
+            "examples": [
+              {
+                "t": "L'<b>enfant</b> joue dans le parc.",
+                "n": "Das Kind spielt im Park."
+              },
+              {
+                "t": "C'est un <b>enfant</b> très sage.",
+                "n": "Es ist ein sehr braves Kind."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_02",
+            "isLetter": false,
+            "letter": "AN/EN",
+            "word": "français",
+            "emoji": "🇫🇷",
+            "phonetic": "/fʁɑ̃.sɛ/",
+            "translation": "französisch / Franzose",
+            "translations": {
+              "fr": "français",
+              "de": "französisch / Franzose",
+              "en": "French"
+            },
+            "examples": [
+              {
+                "t": "Je parle <b>français</b>.",
+                "n": "Ich spreche Französisch."
+              },
+              {
+                "t": "Le <b>français</b> est une belle langue.",
+                "n": "Französisch ist eine schöne Sprache."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_03",
+            "isLetter": false,
+            "letter": "IN/AIN/EIN",
+            "word": "vin",
+            "emoji": "🍷",
+            "phonetic": "/vɛ̃/",
+            "translation": "der Wein",
+            "translations": {
+              "fr": "vin",
+              "de": "der Wein",
+              "en": "wine"
+            },
+            "examples": [
+              {
+                "t": "J'aime le <b>vin</b> rouge.",
+                "n": "Ich mag Rotwein."
+              },
+              {
+                "t": "Un <b>vin</b> blanc, s'il vous plaît.",
+                "n": "Einen Weißwein, bitte."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_04",
+            "isLetter": false,
+            "letter": "IN/AIN/EIN",
+            "word": "main",
+            "emoji": "✋",
+            "phonetic": "/mɛ̃/",
+            "translation": "die Hand",
+            "translations": {
+              "fr": "main",
+              "de": "die Hand",
+              "en": "hand"
+            },
+            "examples": [
+              {
+                "t": "Lave-toi les <b>mains</b> !",
+                "n": "Wasch dir die Hände!"
+              },
+              {
+                "t": "Elle a la <b>main</b> dans sa poche.",
+                "n": "Sie hat die Hand in der Tasche."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_05",
+            "isLetter": false,
+            "letter": "ON",
+            "word": "bon",
+            "emoji": "👍",
+            "phonetic": "/bɔ̃/",
+            "translation": "gut",
+            "translations": {
+              "fr": "bon",
+              "de": "gut",
+              "en": "good"
+            },
+            "examples": [
+              {
+                "t": "C'est très <b>bon</b> !",
+                "n": "Das ist sehr gut!"
+              },
+              {
+                "t": "Bonjour, comment ça va ?",
+                "n": "Guten Tag, wie geht's?"
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_06",
+            "isLetter": false,
+            "letter": "ON",
+            "word": "garçon",
+            "emoji": "👦",
+            "phonetic": "/ɡaʁ.sɔ̃/",
+            "translation": "der Junge / der Kellner",
+            "translations": {
+              "fr": "garçon",
+              "de": "der Junge / der Kellner",
+              "en": "boy / waiter"
+            },
+            "examples": [
+              {
+                "t": "Le <b>garçon</b> a dix ans.",
+                "n": "Der Junge ist zehn Jahre alt."
+              },
+              {
+                "t": "Garçon, l'addition s'il vous plaît !",
+                "n": "Kellner, die Rechnung bitte!"
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_07",
+            "isLetter": false,
+            "letter": "UN/UM",
+            "word": "un",
+            "emoji": "1️⃣",
+            "phonetic": "/œ̃/",
+            "translation": "ein / eins",
+            "translations": {
+              "fr": "un",
+              "de": "ein / eins",
+              "en": "a / one"
+            },
+            "examples": [
+              {
+                "t": "J'ai <b>un</b> frère.",
+                "n": "Ich habe einen Bruder."
+              },
+              {
+                "t": "<b>Un</b>, deux, trois...",
+                "n": "Eins, zwei, drei..."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g2_08",
+            "isLetter": false,
+            "letter": "UN/UM",
+            "word": "lundi",
+            "emoji": "📅",
+            "phonetic": "/lœ̃.di/",
+            "translation": "der Montag",
+            "translations": {
+              "fr": "lundi",
+              "de": "der Montag",
+              "en": "Monday"
+            },
+            "examples": [
+              {
+                "t": "Je travaille <b>lundi</b>.",
+                "n": "Ich arbeite am Montag."
+              },
+              {
+                "t": "<b>Lundi</b>, je vais à Paris.",
+                "n": "Am Montag fahre ich nach Paris."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:25:51.559Z"
+    },
+    "silent_letters": {
+      "cards": 12,
+      "data": {
+        "id": "fr_a0_g3",
+        "name": "Letras mudas y liaison",
+        "icon": "🤫",
+        "color": "#10b981",
+        "description": "Las letras que no se pronuncian — y cuándo sí",
+        "reviewFrom": [
+          "fr_a0_g1",
+          "fr_a0_g2"
+        ],
+        "cards": [
+          {
+            "id": "fr_a0_g3_L_h_muet",
+            "isLetter": true,
+            "letter": "h",
+            "word": "h muet",
+            "emoji": "😶‍🌫️",
+            "phonetic": "/aʃ myɛ/",
+            "translation": "Stummes <b>h</b> — wird nie ausgesprochen, <i>erlaubt aber die liaison</i>",
+            "mnemonic": "Stell dir vor, das h ist unsichtbar — wie ein Geist, der durch Wörter schwebt.",
+            "examples": [
+              {
+                "t": "l'<b>h</b>omme — der Mann, <i>mit Apostroph</i>",
+                "n": "Das h ist stumm, also verschmilzt es mit dem Artikel."
+              },
+              {
+                "t": "l'<b>h</b>eure — die Stunde, <i>mit Apostroph</i>",
+                "n": "Auch hier: kein h-Laut, nur ein Vokal."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_L_h_aspire",
+            "isLetter": true,
+            "letter": "h",
+            "word": "h aspiré",
+            "emoji": "🚫",
+            "phonetic": "/aʃ aspiʁe/",
+            "translation": "Behauchtes <b>h</b> — <i>keine liaison, keine Elision</i>",
+            "mnemonic": "Stell dir vor, das h ist ein Wachhund, der den Kontakt verhindert.",
+            "examples": [
+              {
+                "t": "le <b>h</b>aricot — die Bohne, <i>ohne Apostroph</i>",
+                "n": "Man sagt NICHT l'haricot."
+              },
+              {
+                "t": "la <b>h</b>onte — die Scham, <i>ohne Apostroph</i>",
+                "n": "Auch hier: keine Verschmelzung."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_L_final_consonants",
+            "isLetter": true,
+            "letter": "d/t/s/x",
+            "word": "Finale Konsonanten",
+            "emoji": "🔇",
+            "phonetic": "/stumm/",
+            "translation": "Endkonsonanten sind meist <b>stumm</b> — <i>aber nicht immer!</i>",
+            "mnemonic": "Denk an das deutsche <i>stumm</i> — die Buchstaben sind da, aber still.",
+            "examples": [
+              {
+                "t": "gran<b>d</b> — groß, <i>das d ist stumm</i>",
+                "n": "Man spricht /ɡʁɑ̃/."
+              },
+              {
+                "t": "beaucou<b>p</b> — viel, <i>das p ist stumm</i>",
+                "n": "Man spricht /boku/."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_L_liaison",
+            "isLetter": true,
+            "letter": "s/x/t/d",
+            "word": "Liaison",
+            "emoji": "🔗",
+            "phonetic": "/ljɛzɔ̃/",
+            "translation": "<b>Liaison</b> — ein sonst stummer Konsonant wird <i>vor Vokal ausgesprochen</i>",
+            "mnemonic": "Wie eine Brücke: Der Konsonant wacht auf, wenn ein Vokal kommt.",
+            "examples": [
+              {
+                "t": "les ami<b>s</b> — die Freunde, <i>gesprochen /lezami/</i>",
+                "n": "Das s wird wie ein z ausgesprochen."
+              },
+              {
+                "t": "vous ave<b>z</b> — ihr habt, <i>gesprochen /vuzave/</i>",
+                "n": "Das z wird mit dem folgenden Vokal verbunden."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_01",
+            "isLetter": false,
+            "letter": "h muet",
+            "word": "heure",
+            "emoji": "⏰",
+            "phonetic": "/œʁ/",
+            "translation": "Stunde, Uhrzeit",
+            "translations": {
+              "fr": "heure",
+              "de": "Stunde",
+              "en": "hour"
+            },
+            "examples": [
+              {
+                "t": "Quelle <b>heure</b> est-il ?",
+                "n": "Wie spät ist es?"
+              },
+              {
+                "t": "C'est l'<b>heure</b> de partir.",
+                "n": "Es ist Zeit zu gehen."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_02",
+            "isLetter": false,
+            "letter": "h muet",
+            "word": "homme",
+            "emoji": "👨",
+            "phonetic": "/ɔm/",
+            "translation": "Mann",
+            "translations": {
+              "fr": "homme",
+              "de": "Mann",
+              "en": "man"
+            },
+            "examples": [
+              {
+                "t": "L'<b>homme</b> est là.",
+                "n": "Der Mann ist da."
+              },
+              {
+                "t": "C'est un <b>homme</b> gentil.",
+                "n": "Er ist ein netter Mann."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_03",
+            "isLetter": false,
+            "letter": "h aspiré",
+            "word": "haricot",
+            "emoji": "🫘",
+            "phonetic": "/aʁiko/",
+            "translation": "Bohne",
+            "translations": {
+              "fr": "haricot",
+              "de": "Bohne",
+              "en": "bean"
+            },
+            "examples": [
+              {
+                "t": "J'aime les <b>haricots</b> verts.",
+                "n": "Ich mag grüne Bohnen."
+              },
+              {
+                "t": "Le <b>haricot</b> est petit.",
+                "n": "Die Bohne ist klein."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_04",
+            "isLetter": false,
+            "letter": "h aspiré",
+            "word": "honte",
+            "emoji": "😳",
+            "phonetic": "/ɔ̃t/",
+            "translation": "Scham, Schande",
+            "translations": {
+              "fr": "honte",
+              "de": "Scham",
+              "en": "shame"
+            },
+            "examples": [
+              {
+                "t": "Quelle <b>honte</b> !",
+                "n": "So eine Schande!"
+              },
+              {
+                "t": "Il a la <b>honte</b>.",
+                "n": "Er schämt sich."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_05",
+            "isLetter": false,
+            "letter": "d",
+            "word": "grand",
+            "emoji": "📏",
+            "phonetic": "/ɡʁɑ̃/",
+            "translation": "groß",
+            "translations": {
+              "fr": "grand",
+              "de": "groß",
+              "en": "big"
+            },
+            "examples": [
+              {
+                "t": "Le <b>grand</b> arbre.",
+                "n": "Der große Baum."
+              },
+              {
+                "t": "Il est très <b>grand</b>.",
+                "n": "Er ist sehr groß."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_06",
+            "isLetter": false,
+            "letter": "p",
+            "word": "beaucoup",
+            "emoji": "📚",
+            "phonetic": "/boku/",
+            "translation": "viel",
+            "translations": {
+              "fr": "beaucoup",
+              "de": "viel",
+              "en": "a lot"
+            },
+            "examples": [
+              {
+                "t": "Merci <b>beaucoup</b> !",
+                "n": "Vielen Dank!"
+              },
+              {
+                "t": "Il y a <b>beaucoup</b> de monde.",
+                "n": "Es sind viele Leute da."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_07",
+            "isLetter": false,
+            "letter": "s",
+            "word": "les amis",
+            "emoji": "👥",
+            "phonetic": "/lez‿ami/",
+            "translation": "die Freunde",
+            "translations": {
+              "fr": "les amis",
+              "de": "die Freunde",
+              "en": "the friends"
+            },
+            "examples": [
+              {
+                "t": "Je vois <b>les amis</b>.",
+                "n": "Ich sehe die Freunde."
+              },
+              {
+                "t": "Les amis sont là.",
+                "n": "Die Freunde sind da."
+              }
+            ]
+          },
+          {
+            "id": "fr_a0_g3_08",
+            "isLetter": false,
+            "letter": "z",
+            "word": "vous avez",
+            "emoji": "🙋",
+            "phonetic": "/vuz‿ave/",
+            "translation": "ihr habt",
+            "translations": {
+              "fr": "vous avez",
+              "de": "ihr habt",
+              "en": "you have"
+            },
+            "examples": [
+              {
+                "t": "<b>Vous avez</b> un chat ?",
+                "n": "Habt ihr eine Katze?"
+              },
+              {
+                "t": "Vous avez raison.",
+                "n": "Ihr habt recht."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:26:08.850Z"
+    }
+  },
+  "target": "fr",
+  "source": "de"
+}

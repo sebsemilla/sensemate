@@ -942,5 +942,200 @@
     "translations": {
       "pt": "Cláusulas de particípio"
     }
+  },
+  {
+    "id": "pt_B2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "공손한 가정·요구 / Subjuntivo formal",
+    "bridge": "Em coreano, não existe o modo subjuntivo como em espanhol, mas a mesma necessidade ou propósito é expressa por meio de conectores como '-아/어야 하다' (dever, ter que) e estruturas finais como '-도록' (para que) ou '-게' (para que, de modo que). O falante de espanhol tende a traduzir literalmente 'que + subjuntivo' com '-라는', mas isso soa como citação indireta, não como necessidade. É crucial distinguir entre obrigação pessoal (-아/어야 하다) e propósito com sujeitos diferentes (-도록).",
+    "rule": "Em coreano, a noção de 'subjuntivo formal' (é essencial que, é importante que, para que) é expressa por sufixos verbais que indicam obrigação, intenção ou propósito.\n\n1. **Obrigação/necessidade** (equivalente a 'é necessário que...'): usa-se **-(아/어)야 하다** ou **-(아/어)야 되다** após a raiz do verbo. Exemplos: 가다 → 가야 해요 (é necessário que eu vá), 먹다 → 먹어야 해요.\n\n2. **Propósito com sujeitos diferentes** (para que + subjuntivo): usa-se **-도록** (para que, de modo que) ou **-게** (para que, de modo que) depois da raiz do verbo. Exemplo: 아이가 잠들도록 노래를 불렀어요 (cantei para que a criança dormisse). '도록' é mais usado em contextos escritos ou formais; '-게' é coloquial.\n\n3. **É essencial/importante que**: combina-se com adjetivos como '중요하다' (ser importante) e a oração subordinada com **-는 것이 중요하다** ou **-아/어야 한다**. Exemplo: 출근하기 전에 커피를 마시는 것이 중요해요 (é importante que eu tome café antes de ir trabalhar).\n\n4. **Exceção**: se a mesma pessoa realiza ambas as ações (sujeito idêntico), usa-se **-기 위해서** (para + infinitivo) em vez de -도록/-게. Exemplo: 한국어를 배우기 위해서 한국에 갔어요 (fui à Coreia para aprender coreano).\n\n5. **Registro formal**: em contexto escrito ou formal, usa-se **-도록 하다** (fazer com que, assegurar que) e **-아/어야 한다** (deve).\n\nErros comuns: usar '-라는' para expressar necessidade (isso é citação indireta) ou confundir -도록 com -기 위해서 em sujeitos diferentes.",
+    "concept_examples": [
+      {
+        "text": "모든 학생이 시험을 치르는 것이 중요합니다.",
+        "translation": "É importante que todos os estudantes façam o exame.",
+        "phonetic": "[mo.deun hak.sɛŋ.i ɕi.hʌm.ɯl t͡ɕʰi.rɯ.nɯn kʌt̚.i t͡ɕuŋ.jo.ham.ni.da]"
+      },
+      {
+        "text": "안전을 위해 헬멧을 착용해야 합니다.",
+        "translation": "É necessário que você use capacete por segurança.",
+        "phonetic": "[an.d͡ʑʌ.nɯl wi.hɛ hɛlmet̚.ɯl t͡ɕʰa.kʲoŋ.hɛ.ja ham.ni.da]"
+      },
+      {
+        "text": "아이가 잘 자도록 방을 어둡게 했어요.",
+        "translation": "Escureci o quarto para que a criança dormisse bem.",
+        "phonetic": "[a.i.ga t͡ɕal d͡ʑa.do.rok paŋ.ɯl ʌ.dɯp.k͈e hɛs.sʰʌ.jo]"
+      },
+      {
+        "text": "한국어가 늘도록 매일 연습해야 해요.",
+        "translation": "Devo praticar todos os dias para que meu coreano melhore.",
+        "phonetic": "[han.ɡu.ɡa nɯl.do.rok mɛ.il jʌn.sɯpʰ.hɛ.ja hɛ.jo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "공부하라는 것이 중요해요.",
+      "correct": "공부하는 것이 중요해요.",
+      "correct_alt": "공부를 해야 하는 것이 중요해요.",
+      "explanation": "O erro ocorre porque o estudante falante de espanhol traduz 'que estude' como '공부하라는', já que '라는' é uma marca de citação indireta ('que diga que estude'). Mas o subjuntivo espanhol deve ser expresso com o nominalizador '-는 것' mais o adjetivo, ou com '-아/어야 하다'. Para evitar esse erro, lembre-se de que quando se usa '중요하다' (importante), a oração subordinada deve ser um substantivo com '-는 것', não uma citação. Por outro lado, para necessidade, usa-se '-아/어야 하다' diretamente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "필요성 표현 / Expresar necesidad",
+        "translation": "Expresar necesidad",
+        "examples": [
+          {
+            "original": "약속 시간에 늦으면 사과해야 해요.",
+            "phonetic": "[jak.s͈ok ɕi.ɡan.e nɯ.d͡ʑɯ.mjʌn sa.ɡwa.hɛ.ja hɛ.jo]",
+            "translation": "Se você chegar atrasado ao compromisso, deve se desculpar.",
+            "note": "Usa-se '-아/어야 해요' para expressar obrigação, equivalente a 'ter que' ou 'dever' em espanhol."
+          },
+          {
+            "original": "건강을 위해 매일 운동해야 합니다.",
+            "phonetic": "[kʌn.ɡaŋ.ɯl wi.hɛ mɛ.il un.doŋ.hɛ.ja ham.ni.da]",
+            "translation": "É necessário fazer exercício todos os dias para a saúde.",
+            "note": "Em registro formal, usa-se '-아/어야 합니다' em vez de '-아/어야 해요'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "목적과 용도 / Propósito y finalidad",
+        "translation": "Propósito y finalidad",
+        "examples": [
+          {
+            "original": "모두가 이해할 수 있도록 설명해 주세요.",
+            "phonetic": "[mo.du.ɡa i.hɛ.hal s͈u it̚.do.rok sʰʌl.mjʌŋ.hɛ t͡ɕu.se.jo]",
+            "translation": "Explique de modo que todos possam entender.",
+            "note": "'도록' é usado quando o propósito tem sujeito diferente do verbo principal (neste caso, o sujeito de 'entender' é 'todos', e quem explica é 'senhor/senhora')."
+          },
+          {
+            "original": "음식이 식지 않게 빨리 먹어요.",
+            "phonetic": "[ɯm.ɕi.ɡi ɕik̚.t͡ɕi an.k͈e p͈al.li mʌ.ɡʌ.jo]",
+            "translation": "Como rápido para que a comida não esfrie.",
+            "note": "'-게' é mais coloquial que '-도록' e tem o mesmo uso final."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "중요성 강조 / Enfatizar importância",
+        "translation": "Enfatizar importância",
+        "examples": [
+          {
+            "original": "외국어를 배울 때 꾸준히 연습하는 것이 중요해요.",
+            "phonetic": "[wɛ.ɡu.ɡʌ.rɯl pɛ.ul t͈ɛ k͈u.d͡ʑun.hi jʌn.sɯpʰ.a.nɯn kʌ.tʰi t͡ɕuŋ.jo.hɛ.jo]",
+            "translation": "É importante praticar constantemente ao aprender um idioma estrangeiro.",
+            "note": "Usa-se '-(으)ㄴ/는 것이 중요하다' para expressar 'é importante que...'."
+          },
+          {
+            "original": "회의를 시작하기 전에 의제를 확인하는 것이 필요합니다.",
+            "phonetic": "[hø.i.rɯl ɕi.d͡ʑa.ka.gi d͡ʑʌn.e ʝi.d͡ʑe.rɯl hwa.k͈in.a.nɯn kʌ.tʰi pʰi.rjo.ham.ni.da]",
+            "translation": "É necessário que verifiquem a pauta antes de iniciar a reunião.",
+            "note": "Pode-se usar '-는 것이 필요하다' para 'é necessário que...', especialmente em contextos formais."
+          }
+        ]
+      }
+    ],
+    "emoji": "📝",
+    "phonetic": "",
+    "translations": {
+      "pt": "Subjuntivo formal"
+    }
+  },
+  {
+    "id": "pt_B2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "미래완료와 미래진행 / Futuro perfeito e contínuo",
+    "bridge": "Em espanhol, usamos o futuro perfeito ('habré terminado') e o futuro contínuo ('estarei trabalhando') para expressar ações que estarão concluídas ou em andamento em um momento futuro. O coreano, no entanto, não possui tempos verbais morfológicos equivalentes; em vez disso, utiliza construções com -(으)ㄹ 것이다 (para futuro) combinadas com aspectos como -아/어 있다 (resultado) e -고 있다 (progressivo). Para expressar o matiz de 'estará fazendo' em um momento futuro, usa-se -고 있을 것이다, e para 'terá feito', usa-se -아/어 있을 것이다. Um erro comum é tentar traduzir literalmente a estrutura espanhola, omitindo a partícula aspectual, o que altera o significado.",
+    "rule": "Em coreano, o futuro é marcado com -(으)ㄹ 것이다 (ou formas abreviadas como -ㄹ 거예요). Para expressar o futuro contínuo (ação em progresso em um momento futuro), combina-se o aspecto progressivo -고 있다 com o futuro: -고 있을 것이다. Para expressar o futuro perfeito (ação concluída em um momento futuro), combina-se o aspecto resultante -아/어 있다 (ou -아/어 있게 되다) com o futuro: -아/어 있을 것이다. Para verbos de movimento ou mudança, às vezes usa-se -아/어 버릴 것이다 para enfatizar a conclusão. Exemplos: '내일 이 시간에는 일하고 있을 거예요' (amanhã a esta hora estarei trabalhando), '내일까지 보고서를 다 써 놓을 거예요' (terei terminado o relatório até amanhã). É importante lembrar que o coreano não distingue entre futuro perfeito simples e composto como em espanhol; o contexto e as partículas temporais (ex.: 내일까지, 그때쯤) ajudam a precisar o matiz.",
+    "concept_examples": [
+      {
+        "text": "내일 이 시간에는 공부하고 있을 거예요.",
+        "translation": "Amanhã, a esta hora, estarei estudando.",
+        "phonetic": "[neːil i ɕiɡaneɨn kuŋbuhaɡo iɕɯl kʌjejo]"
+      },
+      {
+        "text": "우리가 도착할 때쯤 그는 이미 떠나 있을 거예요.",
+        "translation": "Quando chegarmos, ele já terá ido embora.",
+        "phonetic": "[uɾiga toʨʰakʰal t͈ɛʦ͈ɯm kɯnɨn imi t͈ʌna iɕɯl kʌjejo]"
+      },
+      {
+        "text": "한 시간 후에는 저녁을 다 만들고 있을 거예요.",
+        "translation": "Em uma hora, estarei terminando de preparar o jantar.",
+        "phonetic": "[han ɕiɡan hueneɨn ʨʌnjʌŋɨl ta mandɯlɡo iɕɯl kʌjejo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "내일 이 시간에는 일하고 거예요.",
+      "correct": "내일 이 시간에는 일하고 있을 거예요.",
+      "correct_alt": "",
+      "explanation": "O erro ocorre porque os falantes de espanhol omitem a partícula aspectual -고 있- ao traduzir o futuro contínuo, acreditando que o futuro -ㄹ 거예요 já expressa a ação em andamento. No entanto, em coreano, -ㄹ 거예요 indica apenas um futuro genérico; para expressar progressão, é necessário combinar o aspecto progressivo -고 있다. Da mesma forma, para o futuro perfeito, deve-se adicionar -아/어 있- (resultado) antes de -ㄹ 거예요. Lembre-se sempre: futuro contínuo = -고 있을 거예요; futuro perfeito = -아/어 있을 거예요."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "미래진행 (futuro progresivo)",
+        "translation": "Futuro progressivo",
+        "examples": [
+          {
+            "original": "다음 주에는 새 집에서 살고 있을 거예요.",
+            "phonetic": "[taɯm ʨueɨn sɛ ʨibeɕʰə salɡo iɕɯl kʌjejo]",
+            "translation": "Na próxima semana, estarei morando na nova casa.",
+            "note": "Usa-se -고 있을 거예요 para indicar uma ação em progresso em um momento futuro específico."
+          },
+          {
+            "original": "그때쯤에는 비가 오고 있을 거예요.",
+            "phonetic": "[kɯt͈ɛʦ͈ɯmeɨn piɡa oɡo iɕɯl kʌjejo]",
+            "translation": "Por essa hora, estará chovendo.",
+            "note": "Com verbos meteorológicos, o progressivo é usado da mesma forma que em português."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "미래완료 (futuro perfecto)",
+        "translation": "Futuro perfeito",
+        "examples": [
+          {
+            "original": "내일까지 프로젝트를 끝내 놓을 거예요.",
+            "phonetic": "[neːil k͈aʥi pʰɯɾoʥektʰɯɾɯl k͈ɯtnɛ noɯl kʌjejo]",
+            "translation": "Até amanhã, terei terminado o projeto.",
+            "note": "Aqui se usa -아/어 놓을 거예요, que implica concluir e deixar pronto. É comum no coreano para ações preparatórias."
+          },
+          {
+            "original": "우리가 도착하면 영화는 이미 시작됐을 거예요.",
+            "phonetic": "[uɾiga toʨʰakʰamjʌn jʌŋhwanɨn imi ɕiʥa̠k͈t͈ɛsɯl kʌjejo]",
+            "translation": "Quando chegarmos, o filme já terá começado.",
+            "note": "Para verbos de início, usa-se -았/었을 거예요 (passado + futuro) para expressar ação concluída antes de um momento futuro."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "강조와 뉘앙스 (énfasis y matices)",
+        "translation": "Ênfase e matizes",
+        "examples": [
+          {
+            "original": "그때쯤이면 모든 일이 다 해결되어 있을 거예요.",
+            "phonetic": "[kɯt͈ɛʦ͈ɯmjʌn modɯn iɾi ta hɛɡjʌɾɐt͈ʌ iɕɯl kʌjejo]",
+            "translation": "Por essa hora, todos os assuntos estarão resolvidos.",
+            "note": "A combinação -아/어 있어 있을 거예요 enfatiza um estado resultante duradouro no futuro."
+          },
+          {
+            "original": "다음 달에는 한국어를 아주 잘하고 있을 거예요.",
+            "phonetic": "[taɯm taɾeɨn hanɡuɡʌɾɯl aʥu ʥalɡo iɕɯl kʌjejo]",
+            "translation": "No próximo mês, estarei falando coreano muito bem.",
+            "note": "Pode-se usar -고 있을 거예요 com adjetivos de habilidade para expressar um estado progressivo futuro."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Futuro perfeito e contínuo"
+    }
   }
 ]

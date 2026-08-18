@@ -1,0 +1,692 @@
+{
+  "done": {
+    "nasals_accents": {
+      "cards": 19,
+      "data": {
+        "id": "pt_a0_g1",
+        "name": "Nasales y acentos",
+        "icon": "🔤",
+        "color": "#6366f1",
+        "description": "ã · õ · â · ê · à · ç y las vocales nasales",
+        "reviewFrom": [],
+        "cards": [
+          {
+            "id": "pt_a0_g1_L_a_til",
+            "isLetter": true,
+            "letter": "Ã",
+            "word": "Ã",
+            "emoji": "🔤",
+            "phonetic": "/ɐ̃/",
+            "translation": "A nasal — se pronuncia como un <b>a</b> pero dejando pasar el aire por la nariz, como en francés <i>pain</i> sin la i.",
+            "mnemonic": "Imagina la tilde como una ola que te empuja el sonido hacia la nariz.",
+            "examples": [
+              {
+                "t": "<b>ã</b> — irmã, maçã",
+                "n": "El sonido sale por la nariz, como decir 'am' en francés sin cerrar los labios."
+              },
+              {
+                "t": "<b>ã</b> — são (son/están)",
+                "n": "Contraste con 'são' (son) vs 'sao' (no existe)."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_L_o_til",
+            "isLetter": true,
+            "letter": "Õ",
+            "word": "Õ",
+            "emoji": "🔤",
+            "phonetic": "/õ/",
+            "translation": "O nasal — como <b>o</b> pero nasalizado, similar al sonido <i>on</i> en francés (bon).",
+            "mnemonic": "La tilde encima de la o es como una nariz dibujada — ¡huele el sonido!",
+            "examples": [
+              {
+                "t": "<b>õ</b> — leões (leones)",
+                "n": "El plural con ões es muy común."
+              },
+              {
+                "t": "<b>õ</b> — põe (pone)",
+                "n": "Verbo pôr: ele põe."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_L_a_circ",
+            "isLetter": true,
+            "letter": "Â",
+            "word": "Â",
+            "emoji": "🔤",
+            "phonetic": "/ɐ/",
+            "translation": "A cerrada y tensa — es una <b>a</b> más grave y profunda que la a normal, como en inglés <i>but</i>.",
+            "mnemonic": "El acento circunflejo es un sombrero que aplasta la a hacia atrás en la boca.",
+            "examples": [
+              {
+                "t": "<b>â</b> — câmara, lâmpada",
+                "n": "La a con ^ suena más oscura que la a sin acento."
+              },
+              {
+                "t": "<b>â</b> — câmbio (cambio)",
+                "n": "En Brasil, 'câmbio' = cambio de marchas."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_L_e_circ",
+            "isLetter": true,
+            "letter": "Ê",
+            "word": "Ê",
+            "emoji": "🔤",
+            "phonetic": "/e/",
+            "translation": "E cerrada — como la <b>e</b> en francés <i>été</i>, no como la e abierta de 'perro'.",
+            "mnemonic": "El ^ es una ceja levantada que cierra la boca para una e más tensa.",
+            "examples": [
+              {
+                "t": "<b>ê</b> — você (tú/usted)",
+                "n": "La palabra más usada en Brasil."
+              },
+              {
+                "t": "<b>ê</b> — mês (mes), três (tres)",
+                "n": "El acento distingue mês (mes) de mes (mismo)."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_L_a_grave",
+            "isLetter": true,
+            "letter": "À",
+            "word": "À",
+            "emoji": "🔤",
+            "phonetic": "/a/",
+            "translation": "Contracción de <b>a</b> + <b>a</b> — se usa solo antes de palabras femeninas para indicar 'a la'.",
+            "mnemonic": "El acento grave es como un abrazo: junta dos 'a' en una sola.",
+            "examples": [
+              {
+                "t": "<b>à</b> — Vou à praia (Voy a la playa)",
+                "n": "Femenino: à praia. Masculino: ao mar."
+              },
+              {
+                "t": "<b>à</b> — às cinco (a las cinco)",
+                "n": "Plural: às + hora."
+              }
+            ]
+          },
+          {
+            "isLetter": true,
+            "id": "pt_a0_g1_L_c_cedil",
+            "letter": "Ç",
+            "word": "Ç",
+            "emoji": "🔤",
+            "phonetic": "/s/",
+            "translation": "C con cedilla — suena como <b>s</b> (siempre /s/), nunca como /k/. Solo aparece antes de a, o, u.",
+            "mnemonic": "La colita de la ç es una serpiente que silba — ¡ssss!",
+            "examples": [
+              {
+                "t": "<b>ç</b> — açúcar (azúcar)",
+                "n": "En español es 'azúcar' con z; en portugués con ç."
+              },
+              {
+                "t": "<b>ç</b> — caça (caza/caza)",
+                "n": "Contraste: caça (caza) vs caca (caca)."
+              }
+            ]
+          },
+          {
+            "isLetter": true,
+            "id": "pt_a0_g1_L_nasal_mn",
+            "letter": "Vowel + m/n",
+            "word": "Vowel + m/n",
+            "emoji": "🔤",
+            "phonetic": "/ɐ̃/ /ẽ/ /ĩ/ /õ/ /ũ/",
+            "translation": "Vocales nasales ante <b>m</b> o <b>n</b> en la misma sílaba — no se pronuncian la m/n como consonante, solo nasalizan la vocal.",
+            "mnemonic": "La m/n es un tapón que cierra la boca y desvía el aire a la nariz.",
+            "examples": [
+              {
+                "t": "<b>campo</b> — /ˈkɐ̃pu/",
+                "n": "La m no se oye como m; nasaliza la a."
+              },
+              {
+                "t": "<b>canto</b> — /ˈkɐ̃tu/",
+                "n": "canto (canto) vs cato (no existe)."
+              },
+              {
+                "t": "<b>sinto</b> — /ˈsĩtu/",
+                "n": "sinto (siento) — la i se nasaliza."
+              },
+              {
+                "t": "<b>junto</b> — /ˈʒũtu/",
+                "n": "junto (junto) — la u se nasaliza."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_01",
+            "isLetter": false,
+            "letter": "Ã",
+            "word": "irmã",
+            "emoji": "👧",
+            "phonetic": "/iʁˈmɐ̃/",
+            "translation": "sœur — <b>irmã</b> (hermana)",
+            "translations": {
+              "pt": "irmã",
+              "fr": "sœur",
+              "en": "sister"
+            },
+            "examples": [
+              {
+                "t": "Minha <b>irmã</b> mora em Paris.",
+                "n": "Ma sœur habite à Paris."
+              },
+              {
+                "t": "Eu tenho uma <b>irmã</b>.",
+                "n": "J'ai une sœur."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_02",
+            "isLetter": false,
+            "letter": "Ã",
+            "word": "maçã",
+            "emoji": "🍎",
+            "phonetic": "/maˈsɐ̃/",
+            "translation": "pomme — <b>maçã</b> (manzana)",
+            "translations": {
+              "pt": "maçã",
+              "fr": "pomme",
+              "en": "apple"
+            },
+            "examples": [
+              {
+                "t": "Eu como uma <b>maçã</b> por dia.",
+                "n": "Je mange une pomme par jour."
+              },
+              {
+                "t": "A <b>maçã</b> é vermelha.",
+                "n": "La pomme est rouge."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_03",
+            "isLetter": false,
+            "letter": "Õ",
+            "word": "leões",
+            "emoji": "🦁",
+            "phonetic": "/liˈõjʃ/",
+            "translation": "lions — <b>leões</b> (leones)",
+            "translations": {
+              "pt": "leões",
+              "fr": "lions",
+              "en": "lions"
+            },
+            "examples": [
+              {
+                "t": "Os <b>leões</b> estão no zoológico.",
+                "n": "Les lions sont au zoo."
+              },
+              {
+                "t": "Vi dois <b>leões</b> na África.",
+                "n": "J'ai vu deux lions en Afrique."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_04",
+            "isLetter": false,
+            "letter": "Õ",
+            "word": "põe",
+            "emoji": "🙌",
+            "phonetic": "/põj/",
+            "translation": "il/elle met — <b>põe</b> (pone)",
+            "translations": {
+              "pt": "põe",
+              "fr": "il/elle met",
+              "en": "puts"
+            },
+            "examples": [
+              {
+                "t": "Ela <b>põe</b> açúcar no café.",
+                "n": "Elle met du sucre dans le café."
+              },
+              {
+                "t": "Ele <b>põe</b> os livros na mesa.",
+                "n": "Il met les livres sur la table."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_05",
+            "isLetter": false,
+            "letter": "Â",
+            "word": "lâmpada",
+            "emoji": "💡",
+            "phonetic": "/ˈlɐ̃padɐ/",
+            "translation": "lampe — <b>lâmpada</b> (lámpara)",
+            "translations": {
+              "pt": "lâmpada",
+              "fr": "lampe",
+              "en": "lamp"
+            },
+            "examples": [
+              {
+                "t": "A <b>lâmpada</b> está acesa.",
+                "n": "La lampe est allumée."
+              },
+              {
+                "t": "Preciso comprar uma <b>lâmpada</b>.",
+                "n": "Je dois acheter une lampe."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_06",
+            "isLetter": false,
+            "letter": "Â",
+            "word": "câmbio",
+            "emoji": "💱",
+            "phonetic": "/ˈkɐ̃bju/",
+            "translation": "change (monnaie) — <b>câmbio</b> (cambio/divisas)",
+            "translations": {
+              "pt": "câmbio",
+              "fr": "change",
+              "en": "exchange"
+            },
+            "examples": [
+              {
+                "t": "O <b>câmbio</b> está alto hoje.",
+                "n": "Le taux de change est élevé aujourd'hui."
+              },
+              {
+                "t": "Onde fica a casa de <b>câmbio</b>?",
+                "n": "Où est le bureau de change ?"
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_07",
+            "isLetter": false,
+            "letter": "Ê",
+            "word": "você",
+            "emoji": "🙋",
+            "phonetic": "/voˈse/",
+            "translation": "tu/vous — <b>você</b> (tú/usted)",
+            "translations": {
+              "pt": "você",
+              "fr": "tu/vous",
+              "en": "you"
+            },
+            "examples": [
+              {
+                "t": "<b>Você</b> fala português?",
+                "n": "Tu parles portugais ?"
+              },
+              {
+                "t": "Eu gosto de <b>você</b>.",
+                "n": "Je t'aime bien."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_08",
+            "isLetter": false,
+            "letter": "Ê",
+            "word": "três",
+            "emoji": "3️⃣",
+            "phonetic": "/tɾes/",
+            "translation": "trois — <b>três</b> (tres)",
+            "translations": {
+              "pt": "três",
+              "fr": "trois",
+              "en": "three"
+            },
+            "examples": [
+              {
+                "t": "Eu tenho <b>três</b> irmãos.",
+                "n": "J'ai trois frères."
+              },
+              {
+                "t": "São <b>três</b> horas.",
+                "n": "Il est trois heures."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_09",
+            "isLetter": false,
+            "letter": "À",
+            "word": "à",
+            "emoji": "➡️",
+            "phonetic": "/a/",
+            "translation": "à la (préposition + article féminin) — <b>à</b> (a la)",
+            "translations": {
+              "pt": "à",
+              "fr": "à la",
+              "en": "to the (fem.)"
+            },
+            "examples": [
+              {
+                "t": "Vou <b>à</b> escola.",
+                "n": "Je vais à l'école."
+              },
+              {
+                "t": "Ela chegou <b>à</b> festa.",
+                "n": "Elle est arrivée à la fête."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_10",
+            "isLetter": false,
+            "letter": "À",
+            "word": "às",
+            "emoji": "🕔",
+            "phonetic": "/as/",
+            "translation": "à (heures) — <b>às</b> (a las [hora])",
+            "translations": {
+              "pt": "às",
+              "fr": "à (heures)",
+              "en": "at (time)"
+            },
+            "examples": [
+              {
+                "t": "O filme começa <b>às</b> oito.",
+                "n": "Le film commence à huit heures."
+              },
+              {
+                "t": "Nos vemos <b>às</b> cinco.",
+                "n": "On se voit à cinq heures."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_11",
+            "isLetter": false,
+            "letter": "Ç",
+            "word": "açúcar",
+            "emoji": "🍬",
+            "phonetic": "/aˈsukaʁ/",
+            "translation": "sucre — <b>açúcar</b> (azúcar)",
+            "translations": {
+              "pt": "açúcar",
+              "fr": "sucre",
+              "en": "sugar"
+            },
+            "examples": [
+              {
+                "t": "O <b>açúcar</b> está na mesa.",
+                "n": "Le sucre est sur la table."
+              },
+              {
+                "t": "Eu não como <b>açúcar</b>.",
+                "n": "Je ne mange pas de sucre."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g1_12",
+            "isLetter": false,
+            "letter": "Ç",
+            "word": "força",
+            "emoji": "💪",
+            "phonetic": "/ˈfoʁsɐ/",
+            "translation": "force — <b>força</b> (fuerza)",
+            "translations": {
+              "pt": "força",
+              "fr": "force",
+              "en": "strength"
+            },
+            "examples": [
+              {
+                "t": "Tenha <b>força</b>!",
+                "n": "Aie du courage !"
+              },
+              {
+                "t": "A <b>força</b> do vento é grande.",
+                "n": "La force du vent est grande."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:28:10.753Z"
+    },
+    "consonant_sounds": {
+      "cards": 10,
+      "data": {
+        "id": "pt_a0_g2",
+        "name": "Consonantes del portugués",
+        "icon": "🔡",
+        "color": "#f59e0b",
+        "description": "lh · nh · rr · x · s entre vocales · j/g",
+        "reviewFrom": [
+          "pt_a0_g1"
+        ],
+        "cards": [
+          {
+            "id": "pt_a0_g2_L_lh",
+            "isLetter": true,
+            "letter": "LH",
+            "word": "LH",
+            "emoji": "👨‍👩‍👦",
+            "phonetic": "/ʎ/",
+            "translation": "Digramme <b>LH</b> = son <i>/ʎ/</i> (comme le <i>LL</i> espagnol dans « lluvia »).",
+            "mnemonic": "Pensez à « l + h » comme un LL espagnol caché — le H transforme le L en un son mouillé.",
+            "examples": [
+              {
+                "t": "O <b>fi</b><b>lh</b><b>o</b> brinca no parque.",
+                "n": "Le fils joue dans le parc."
+              },
+              {
+                "t": "A <b>fo</b><b>lh</b><b>a</b> caiu da árvore.",
+                "n": "La feuille est tombée de l'arbre."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g2_L_nh",
+            "isLetter": true,
+            "letter": "NH",
+            "word": "NH",
+            "emoji": "🍷",
+            "phonetic": "/ɲ/",
+            "translation": "Digramme <b>NH</b> = son <i>/ɲ/</i> (comme le <i>Ñ</i> espagnol dans « niño »).",
+            "mnemonic": "Le N + H = un Ñ espagnol déguisé — imaginez un N qui s'incline vers le H pour faire un son nasal.",
+            "examples": [
+              {
+                "t": "A <b>li</b><b>nh</b><b>a</b> é reta.",
+                "n": "La ligne est droite."
+              },
+              {
+                "t": "O <b>vi</b><b>nh</b><b>o</b> é tinto.",
+                "n": "Le vin est rouge."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g2_L_rr",
+            "isLetter": true,
+            "letter": "RR",
+            "word": "RR",
+            "emoji": "🚗",
+            "phonetic": "/ʁ/ ou /x/",
+            "translation": "Digramme <b>RR</b> = son guttural <i>/ʁ/</i> (comme le <i>R</i> français ou le <i>J</i> espagnol).<br>Le <b>R</b> en début de mot se prononce aussi comme ça.",
+            "mnemonic": "Pensez au R français de « Paris » — un son qui vient de la gorge, pas de la langue.",
+            "examples": [
+              {
+                "t": "O <b>ca</b><b>rr</b><b>o</b> é vermelho.",
+                "n": "La voiture est rouge."
+              },
+              {
+                "t": "O <b>ra</b><b>to</b> come queijo.",
+                "n": "La souris mange du fromage."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g2_L_x",
+            "isLetter": true,
+            "letter": "X",
+            "word": "X",
+            "emoji": "❌",
+            "phonetic": "/ʃ/ /ks/ /s/ /z/",
+            "translation": "La lettre <b>X</b> a 4 sons possibles :<br><i>/ʃ/</i> (ch français) — <b>caixa</b><br><i>/ks/</i> — <b>táxi</b><br><i>/s/</i> — <b>próximo</b><br><i>/z/</i> — <b>exame</b>",
+            "mnemonic": "Le X est un caméléon : il change de son selon le mot. Retenez les 4 sons avec 4 mots-clés : caixa, táxi, próximo, exame.",
+            "examples": [
+              {
+                "t": "A <b>cai</b><b>x</b><b>a</b> é grande.",
+                "n": "La boîte est grande."
+              },
+              {
+                "t": "O tá<b>x</b>i está aqui.",
+                "n": "Le taxi est là."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g2_L_s_intervocalico",
+            "isLetter": true,
+            "letter": "S",
+            "word": "S",
+            "emoji": "🏠",
+            "phonetic": "/z/",
+            "translation": "Le <b>S</b> entre deux voyelles se prononce <i>/z/</i> (comme le Z français).<br>En début de mot, il se prononce <i>/s/</i>.",
+            "mnemonic": "Le S est timide entre deux voyelles : il devient Z. Pensez à « casa » = /kaza/.",
+            "examples": [
+              {
+                "t": "A <b>ca</b><b>s</b><b>a</b> é bonita.",
+                "n": "La maison est jolie."
+              },
+              {
+                "t": "O <b>sol</b> brilha hoje.",
+                "n": "Le soleil brille aujourd'hui."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g2_01",
+            "isLetter": false,
+            "letter": "LH",
+            "word": "filho",
+            "emoji": "👦",
+            "phonetic": "/ˈfiʎu/",
+            "translation": "fils — <b>filho</b> (avec <b>lh</b> = /ʎ/)",
+            "translations": {
+              "pt": "filho",
+              "fr": "fils",
+              "en": "son"
+            },
+            "examples": [
+              {
+                "t": "Meu <b>filho</b> estuda português.",
+                "n": "Mon fils étudie le portugais."
+              },
+              {
+                "t": "O <b>filho</b> dela é médico.",
+                "n": "Son fils est médecin."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g2_02",
+            "isLetter": false,
+            "letter": "NH",
+            "word": "vinho",
+            "emoji": "🍷",
+            "phonetic": "/ˈviɲu/",
+            "translation": "vin — <b>vinho</b> (avec <b>nh</b> = /ɲ/)",
+            "translations": {
+              "pt": "vinho",
+              "fr": "vin",
+              "en": "wine"
+            },
+            "examples": [
+              {
+                "t": "Eu gosto de <b>vinho</b> tinto.",
+                "n": "J'aime le vin rouge."
+              },
+              {
+                "t": "O <b>vinho</b> está gelado.",
+                "n": "Le vin est frais."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g2_03",
+            "isLetter": false,
+            "letter": "RR",
+            "word": "carro",
+            "emoji": "🚗",
+            "phonetic": "/ˈkaʁu/",
+            "translation": "voiture — <b>carro</b> (avec <b>rr</b> = /ʁ/)",
+            "translations": {
+              "pt": "carro",
+              "fr": "voiture",
+              "en": "car"
+            },
+            "examples": [
+              {
+                "t": "O <b>carro</b> é novo.",
+                "n": "La voiture est neuve."
+              },
+              {
+                "t": "Ela vai de <b>carro</b> ao trabalho.",
+                "n": "Elle va au travail en voiture."
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g2_04",
+            "isLetter": false,
+            "letter": "X",
+            "word": "caixa",
+            "emoji": "📦",
+            "phonetic": "/ˈkajʃɐ/",
+            "translation": "boîte / caisse — <b>caixa</b> (avec <b>x</b> = /ʃ/)",
+            "translations": {
+              "pt": "caixa",
+              "fr": "boîte",
+              "en": "box"
+            },
+            "examples": [
+              {
+                "t": "A <b>caixa</b> é pesada.",
+                "n": "La boîte est lourde."
+              },
+              {
+                "t": "Onde está a <b>caixa</b>?",
+                "n": "Où est la boîte ?"
+              }
+            ]
+          },
+          {
+            "id": "pt_a0_g2_05",
+            "isLetter": false,
+            "letter": "S",
+            "word": "casa",
+            "emoji": "🏠",
+            "phonetic": "/ˈkazɐ/",
+            "translation": "maison — <b>casa</b> (avec <b>s</b> entre voyelles = /z/)",
+            "translations": {
+              "pt": "casa",
+              "fr": "maison",
+              "en": "house"
+            },
+            "examples": [
+              {
+                "t": "Minha <b>casa</b> é pequena.",
+                "n": "Ma maison est petite."
+              },
+              {
+                "t": "A <b>casa</b> fica perto da praia.",
+                "n": "La maison est près de la plage."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:28:27.013Z"
+    }
+  },
+  "target": "pt",
+  "source": "fr"
+}

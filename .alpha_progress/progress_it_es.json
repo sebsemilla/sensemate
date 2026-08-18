@@ -1,0 +1,742 @@
+{
+  "done": {
+    "vowels_accents": {
+      "cards": 12,
+      "data": {
+        "id": "it_a0_g1",
+        "name": "Vocales y acentos",
+        "icon": "🔤",
+        "color": "#6366f1",
+        "description": "è vs é · à · ì · ò · ù y las vocales abiertas/cerradas",
+        "reviewFrom": [],
+        "cards": [
+          {
+            "id": "it_a0_g1_L_e_grave",
+            "isLetter": true,
+            "letter": "È",
+            "word": "È",
+            "emoji": "🔤",
+            "phonetic": "/ɛ/",
+            "translation": "Nombre: <b>E</b> con acento grave<br>Sonido: <b>e abierta</b>, como la <i>e</i> en español en <span class=\"hl\">“perro”</span> (pero más abierta, similar a la <i>e</i> del inglés <i>“bed”</i>)",
+            "mnemonic": "Visualiza una boca bien abierta pronunciando 'eh' — la línea grave (\\\") indica apertura.",
+            "examples": [
+              {
+                "t": "<b>È</b> vero. (Es verdad.)",
+                "n": "La <b>è</b> suena abierta, como una 'e' clara."
+              },
+              {
+                "t": "Caff<b>è</b> (café)<br>Perch<b>è</b> (por qué/porque)",
+                "n": "Palabras comunes con <b>è</b> abierta."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_L_e_acute",
+            "isLetter": true,
+            "letter": "É",
+            "word": "É",
+            "emoji": "🔤",
+            "phonetic": "/e/",
+            "translation": "Nombre: <b>E</b> con acento agudo<br>Sonido: <b>e cerrada</b>, como la <i>e</i> del español en <span class=\"hl\">“mesa”</span> pero más tensa y sin diptongo.",
+            "mnemonic": "El acento agudo (´) es como una flecha hacia arriba: lengua más alta y cerrada.",
+            "examples": [
+              {
+                "t": "Perch<b>é</b> (por qué/porque)",
+                "n": "Aquí la <b>é</b> es cerrada."
+              },
+              {
+                "t": "N<b>é</b> ... n<b>é</b> (ni...ni)<br>S<b>é</b> (sí mismo)",
+                "n": "Otras palabras con <b>é</b> cerrada."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_L_a_grave",
+            "isLetter": true,
+            "letter": "À",
+            "word": "À",
+            "emoji": "🔤",
+            "phonetic": "/a/",
+            "translation": "Nombre: <b>A</b> con acento grave<br>Sonido: <b>a</b> siempre clara y abierta, como en español <span class=\"hl\">“casa”</span> — nunca nasalizada.",
+            "mnemonic": "La <b>à</b> es una 'a' con un pequeño sombrero que indica que es la vocal tónica de la palabra.",
+            "examples": [
+              {
+                "t": "L<b>à</b> (allí)<br>Gi<b>à</b> (ya)",
+                "n": "La <b>à</b> indica sílaba tónica."
+              },
+              {
+                "t": "Più e può llevan acento pero no siempre se marcan.",
+                "n": "En italiano la <b>a</b> siempre es pura."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_L_i_grave",
+            "isLetter": true,
+            "letter": "Ì",
+            "word": "Ì",
+            "emoji": "🔤",
+            "phonetic": "/i/",
+            "translation": "Nombre: <b>I</b> con acento grave<br>Sonido: <b>i</b> como en español <span class=\"hl\">“mira”</span> pero más corta y sin diptongar.",
+            "mnemonic": "La <b>ì</b> parece una 'i' con un puntito extra — recuerda que es una vocal tónica.",
+            "examples": [
+              {
+                "t": "L<b>ì</b> (allí)<br>Cos<b>ì</b> (así)",
+                "n": "La <b>ì</b> se usa en palabras como 'lì'."
+              },
+              {
+                "t": "Tass<b>ì</b> (taxi)",
+                "n": "Préstamo del francés con <b>ì</b> final."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_L_o_grave",
+            "isLetter": true,
+            "letter": "Ò",
+            "word": "Ò",
+            "emoji": "🔤",
+            "phonetic": "/ɔ/",
+            "translation": "Nombre: <b>O</b> con acento grave<br>Sonido: <b>o abierta</b>, como la <i>o</i> del inglés <i>“dog”</i> o la <i>o</i> del español cuando es enfática.",
+            "mnemonic": "La <b>ò</b> tiene una boca más redonda y abierta que la <b>ó</b> cerrada.",
+            "examples": [
+              {
+                "t": "Per<b>ò</b> (pero)<br>Ci<b>ò</b> (esto)",
+                "n": "La <b>ò</b> suena abierta."
+              },
+              {
+                "t": "Po' (un poco) — sin acento en la o.",
+                "n": "Apócope de 'poco'."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_L_u_grave",
+            "isLetter": true,
+            "letter": "Ù",
+            "word": "Ù",
+            "emoji": "🔤",
+            "phonetic": "/u/",
+            "translation": "Nombre: <b>U</b> con acento grave<br>Sonido: <b>u</b> como en español <span class=\"hl\">“luna”</span> pero más redondeada y pura.",
+            "mnemonic": "La <b>ù</b> es una 'u' con un acento que indica que es la vocal fuerte de la palabra.",
+            "examples": [
+              {
+                "t": "Pi<b>ù</b> (más)<br>Gi<b>ù</b> (abajo)",
+                "n": "La <b>ù</b> es tónica."
+              },
+              {
+                "t": "Virt<b>ù</b> (virtud)",
+                "n": "Palabras agudas con <b>ù</b> final."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_01",
+            "letter": "È",
+            "word": "è",
+            "emoji": "✅",
+            "phonetic": "/ɛ/",
+            "translation": "es (verbo ser/estar)",
+            "translations": {
+              "it": "è",
+              "es": "es",
+              "en": "is"
+            },
+            "examples": [
+              {
+                "t": "Lui <b>è</b> italiano.",
+                "n": "Él es italiano."
+              },
+              {
+                "t": "<b>È</b> tardi.",
+                "n": "Es tarde."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_02",
+            "letter": "É",
+            "word": "perché",
+            "emoji": "❓",
+            "phonetic": "/perˈke/",
+            "translation": "por qué / porque",
+            "translations": {
+              "it": "perché",
+              "es": "por qué / porque",
+              "en": "why / because"
+            },
+            "examples": [
+              {
+                "t": "<b>Perché</b> sei qui?",
+                "n": "¿Por qué estás aquí?"
+              },
+              {
+                "t": "Sono qui <b>perché</b> voglio imparare.",
+                "n": "Estoy aquí porque quiero aprender."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_03",
+            "letter": "À",
+            "word": "là",
+            "emoji": "📍",
+            "phonetic": "/la/",
+            "translation": "allí (lugar)",
+            "translations": {
+              "it": "là",
+              "es": "allí",
+              "en": "there"
+            },
+            "examples": [
+              {
+                "t": "Il libro è <b>là</b>.",
+                "n": "El libro está allí."
+              },
+              {
+                "t": "Vieni <b>là</b>!",
+                "n": "¡Ven allí!"
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_04",
+            "letter": "Ì",
+            "word": "così",
+            "emoji": "👉",
+            "phonetic": "/koˈzi/",
+            "translation": "así",
+            "translations": {
+              "it": "così",
+              "es": "así",
+              "en": "so / like this"
+            },
+            "examples": [
+              {
+                "t": "Fai <b>così</b>.",
+                "n": "Haz así."
+              },
+              {
+                "t": "È <b>così</b> facile.",
+                "n": "Es así de fácil."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_05",
+            "letter": "Ò",
+            "word": "però",
+            "emoji": "🔄",
+            "phonetic": "/peˈrɔ/",
+            "translation": "pero (sin embargo)",
+            "translations": {
+              "it": "però",
+              "es": "pero",
+              "en": "but"
+            },
+            "examples": [
+              {
+                "t": "Voglio uscire, <b>però</b> piove.",
+                "n": "Quiero salir, pero llueve."
+              },
+              {
+                "t": "È caro, <b>però</b> buono.",
+                "n": "Es caro, pero bueno."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g1_06",
+            "letter": "Ù",
+            "word": "più",
+            "emoji": "➕",
+            "phonetic": "/pju/",
+            "translation": "más",
+            "translations": {
+              "it": "più",
+              "es": "más",
+              "en": "more"
+            },
+            "examples": [
+              {
+                "t": "Ne voglio di <b>più</b>.",
+                "n": "Quiero más."
+              },
+              {
+                "t": "È <b>più</b> grande.",
+                "n": "Es más grande."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:08:16.046Z"
+    },
+    "special_consonants": {
+      "cards": 20,
+      "data": {
+        "id": "it_a0_g2",
+        "name": "Consonantes especiales y geminadas",
+        "icon": "🔡",
+        "color": "#f59e0b",
+        "description": "gn · gl · sc · ci/ce · ch/gh · dobles",
+        "reviewFrom": [
+          "it_a0_g1"
+        ],
+        "cards": [
+          {
+            "id": "it_a0_g2_L_gn",
+            "isLetter": true,
+            "letter": "GN",
+            "word": "GN",
+            "emoji": "🔤",
+            "phonetic": "/ɲ/",
+            "translation": "Se pronuncia como la <b>Ñ</b> del español: <i>gnocchi</i> se escucha “ñóki”.",
+            "mnemonic": "Piensa en la ñ: la G es muda y la N suena como la ñ de 'niño'.",
+            "examples": [
+              {
+                "t": "<b>Gn</b>occhi: ño-ki",
+                "n": "Tipo de pasta"
+              },
+              {
+                "t": "Og<b>n</b>i giorno. (Cada día)",
+                "n": "La palabra 'ogni' usa gn."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_L_gli",
+            "isLetter": true,
+            "letter": "GLI",
+            "word": "GLI",
+            "emoji": "🔤",
+            "phonetic": "/ʎ/",
+            "translation": "Suena como la <b>LL</b> del español (en 'millón'): <i>figlio</i> se escucha “fíllo”.",
+            "mnemonic": "Imagina la 'll' en 'llave' y recuerda: GLI = LL.",
+            "examples": [
+              {
+                "t": "<b>Gli</b> occhi. (Los ojos)",
+                "n": "Artículo plural 'gli'."
+              },
+              {
+                "t": "Il fi<b>gli</b>o. (El hijo)",
+                "n": "La palabra 'figlio' usa gli."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_L_sc",
+            "isLetter": true,
+            "letter": "SC",
+            "word": "SC",
+            "emoji": "🔤",
+            "phonetic": "/ʃ/",
+            "translation": "Ante <b>e</b> o <b>i</b> suena como la <b>SH</b> del inglés: <i>pesce</i> se escucha “péshe”.",
+            "mnemonic": "La SC suena como el sonido de pedir silencio: 'shhh'.",
+            "examples": [
+              {
+                "t": "Pe<b>sc</b>e: péshe",
+                "n": "Pescado"
+              },
+              {
+                "t": "<b>Sc</b>iare: esquiar",
+                "n": "Deporte de nieve."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_L_ci",
+            "isLetter": true,
+            "letter": "CI",
+            "word": "CI",
+            "emoji": "🔤",
+            "phonetic": "/tʃ/",
+            "translation": "Ante <b>e</b> o <b>i</b> suena como la <b>CH</b> del español: <i>ciao</i> se escucha “chao”.",
+            "mnemonic": "La C se vuelve 'ch' cuando le sigue i o e, como en 'chico'.",
+            "examples": [
+              {
+                "t": "<b>Ci</b>ao: chao",
+                "n": "Hola/adiós"
+              },
+              {
+                "t": "La <b>ce</b>na: cena",
+                "n": "La C suena como ch."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_L_ch",
+            "isLetter": true,
+            "letter": "CH",
+            "word": "CH",
+            "emoji": "🔤",
+            "phonetic": "/k/",
+            "translation": "Suena como la <b>K</b> o la C fuerte del español: <i>chi</i> se escucha “ki”.",
+            "mnemonic": "La H 'apaga' la C y la hace fuerte, como en 'kilo'.",
+            "examples": [
+              {
+                "t": "<b>Ch</b>i: quién",
+                "n": "Pronombre interrogativo."
+              },
+              {
+                "t": "An<b>ch</b>e: también",
+                "n": "La CH suena como k."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_L_g_soft",
+            "isLetter": true,
+            "letter": "G",
+            "word": "G",
+            "emoji": "🔤",
+            "phonetic": "/dʒ/",
+            "translation": "Ante <b>e</b> o <b>i</b> suena como la <b>Y</b> del español rioplatense (o la J del inglés): <i>gelato</i> se escucha “yelato”.",
+            "mnemonic": "La G se vuelve suave como una gelatina que tiembla.",
+            "examples": [
+              {
+                "t": "Il <b>ge</b>lato: el helado",
+                "n": "La G suave."
+              },
+              {
+                "t": "<b>Gi</b>orno: día",
+                "n": "La G suave."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_L_gh",
+            "isLetter": true,
+            "letter": "GH",
+            "word": "GH",
+            "emoji": "🔤",
+            "phonetic": "/g/",
+            "translation": "Suena como la <b>G</b> fuerte del español (como en 'gato'): <i>ghiaccio</i> se escucha “giácho”.",
+            "mnemonic": "La H 'endurece' la G y suena como 'gato'.",
+            "examples": [
+              {
+                "t": "Il <b>gh</b>iaccio: el hielo",
+                "n": "La G fuerte."
+              },
+              {
+                "t": "<b>Gh</b>iro: lirón",
+                "n": "Animal pequeño."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_L_doppie",
+            "isLetter": true,
+            "letter": "DOUBLE",
+            "word": "Consonantes dobles",
+            "emoji": "🔤",
+            "phonetic": "/:/",
+            "translation": "Las consonantes dobles se pronuncian <b>más largas</b> que las simples: <i>nonna</i> (abuela) vs <i>nona</i> (novena).",
+            "mnemonic": "Imagina que la consonante doble es como un eco que se alarga.",
+            "examples": [
+              {
+                "t": "La no<b>nn</b>a: la abuela",
+                "n": "Doble n."
+              },
+              {
+                "t": "La ca<b>ss</b>a: la caja",
+                "n": "Doble s."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_01",
+            "isLetter": false,
+            "letter": "GN",
+            "word": "gnocchi",
+            "emoji": "🥟",
+            "phonetic": "/ˈɲɔkki/",
+            "translation": "<b>Ñoquis</b> (tipo de pasta)",
+            "translations": {
+              "it": "gnocchi",
+              "es": "ñoquis",
+              "en": "gnocchi"
+            },
+            "examples": [
+              {
+                "t": "Mi piacciono gli <b>gnocchi</b>.",
+                "n": "Me gustan los ñoquis."
+              },
+              {
+                "t": "Mangio <b>gnocchi</b> il venerdì.",
+                "n": "Como ñoquis los viernes."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_02",
+            "isLetter": false,
+            "letter": "GN",
+            "word": "signore",
+            "emoji": "👨",
+            "phonetic": "/siɲˈɲoːre/",
+            "translation": "<b>Señor</b> (tratamiento de cortesía)",
+            "translations": {
+              "it": "signore",
+              "es": "señor",
+              "en": "sir/mister"
+            },
+            "examples": [
+              {
+                "t": "Buongiorno, <b>signore</b>.",
+                "n": "Buenos días, señor."
+              },
+              {
+                "t": "Il <b>signore</b> è italiano.",
+                "n": "El señor es italiano."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_03",
+            "isLetter": false,
+            "letter": "GLI",
+            "word": "figlio",
+            "emoji": "👦",
+            "phonetic": "/ˈfiʎʎo/",
+            "translation": "<b>Hijo</b>",
+            "translations": {
+              "it": "figlio",
+              "es": "hijo",
+              "en": "son"
+            },
+            "examples": [
+              {
+                "t": "Mio <b>figlio</b> ha cinque anni.",
+                "n": "Mi hijo tiene cinco años."
+              },
+              {
+                "t": "Il <b>figlio</b> gioca.",
+                "n": "El hijo juega."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_04",
+            "isLetter": false,
+            "letter": "GLI",
+            "word": "voglio",
+            "emoji": "💭",
+            "phonetic": "/ˈvɔʎʎo/",
+            "translation": "<b>Quiero</b> (del verbo volere)",
+            "translations": {
+              "it": "voglio",
+              "es": "quiero",
+              "en": "I want"
+            },
+            "examples": [
+              {
+                "t": "Io <b>voglio</b> un caffè.",
+                "n": "Yo quiero un café."
+              },
+              {
+                "t": "<b>Voglio</b> andare a casa.",
+                "n": "Quiero ir a casa."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_05",
+            "isLetter": false,
+            "letter": "SC",
+            "word": "pesce",
+            "emoji": "🐟",
+            "phonetic": "/ˈpeʃʃe/",
+            "translation": "<b>Pescado</b>",
+            "translations": {
+              "it": "pesce",
+              "es": "pescado",
+              "en": "fish"
+            },
+            "examples": [
+              {
+                "t": "Il <b>pesce</b> è buono.",
+                "n": "El pescado es bueno."
+              },
+              {
+                "t": "Mangio <b>pesce</b> il venerdì.",
+                "n": "Como pescado el viernes."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_06",
+            "isLetter": false,
+            "letter": "SC",
+            "word": "sciare",
+            "emoji": "⛷️",
+            "phonetic": "/ʃiˈaːre/",
+            "translation": "<b>Esquiar</b>",
+            "translations": {
+              "it": "sciare",
+              "es": "esquiar",
+              "en": "to ski"
+            },
+            "examples": [
+              {
+                "t": "Mi piace <b>sciare</b> in montagna.",
+                "n": "Me gusta esquiar en la montaña."
+              },
+              {
+                "t": "Vogliamo <b>sciare</b> domani.",
+                "n": "Queremos esquiar mañana."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_07",
+            "isLetter": false,
+            "letter": "CI",
+            "word": "ciao",
+            "emoji": "👋",
+            "phonetic": "/ˈtʃaːo/",
+            "translation": "<b>Hola</b> / <b>Adiós</b> (saludo informal)",
+            "translations": {
+              "it": "ciao",
+              "es": "hola/adiós",
+              "en": "hello/goodbye"
+            },
+            "examples": [
+              {
+                "t": "<b>Ciao</b>, come stai?",
+                "n": "Hola, ¿cómo estás?"
+              },
+              {
+                "t": "Allora, <b>ciao</b>!",
+                "n": "¡Entonces, adiós!"
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_08",
+            "isLetter": false,
+            "letter": "CE",
+            "word": "cena",
+            "emoji": "🍽️",
+            "phonetic": "/ˈtʃeːna/",
+            "translation": "<b>Cena</b> (comida nocturna)",
+            "translations": {
+              "it": "cena",
+              "es": "cena",
+              "en": "dinner"
+            },
+            "examples": [
+              {
+                "t": "La <b>cena</b> è pronta.",
+                "n": "La cena está lista."
+              },
+              {
+                "t": "Andiamo a <b>cena</b> fuori.",
+                "n": "Vamos a cenar fuera."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_09",
+            "isLetter": false,
+            "letter": "CH",
+            "word": "perché",
+            "emoji": "❓",
+            "phonetic": "/perˈke/",
+            "translation": "<b>Porque</b> / <b>¿Por qué?</b>",
+            "translations": {
+              "it": "perché",
+              "es": "porque / por qué",
+              "en": "because / why"
+            },
+            "examples": [
+              {
+                "t": "<b>Perché</b> sei stanco?",
+                "n": "¿Por qué estás cansado?"
+              },
+              {
+                "t": "Non vado, <b>perché</b> piove.",
+                "n": "No voy porque llueve."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_10",
+            "isLetter": false,
+            "letter": "GH",
+            "word": "ghiaccio",
+            "emoji": "🧊",
+            "phonetic": "/ˈɡjat.tʃo/",
+            "translation": "<b>Hielo</b>",
+            "translations": {
+              "it": "ghiaccio",
+              "es": "hielo",
+              "en": "ice"
+            },
+            "examples": [
+              {
+                "t": "Vorrei del <b>ghiaccio</b>.",
+                "n": "Quisiera algo de hielo."
+              },
+              {
+                "t": "Il <b>ghiaccio</b> è freddo.",
+                "n": "El hielo está frío."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_11",
+            "isLetter": false,
+            "letter": "G",
+            "word": "gelato",
+            "emoji": "🍦",
+            "phonetic": "/dʒeˈlaːto/",
+            "translation": "<b>Helado</b>",
+            "translations": {
+              "it": "gelato",
+              "es": "helado",
+              "en": "ice cream"
+            },
+            "examples": [
+              {
+                "t": "Il <b>gelato</b> è buonissimo.",
+                "n": "El helado está riquísimo."
+              },
+              {
+                "t": "Mangio un <b>gelato</b> al limone.",
+                "n": "Como un helado de limón."
+              }
+            ]
+          },
+          {
+            "id": "it_a0_g2_12",
+            "isLetter": false,
+            "letter": "DOUBLE",
+            "word": "nonna",
+            "emoji": "👵",
+            "phonetic": "/ˈnɔnna/",
+            "translation": "<b>Abuela</b> (con doble n, se alarga)",
+            "translations": {
+              "it": "nonna",
+              "es": "abuela",
+              "en": "grandmother"
+            },
+            "examples": [
+              {
+                "t": "La mia <b>nonna</b> è dolce.",
+                "n": "Mi abuela es dulce."
+              },
+              {
+                "t": "<b>Nonna</b> cucina bene.",
+                "n": "La abuela cocina bien."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:08:41.471Z"
+    }
+  },
+  "target": "it",
+  "source": "es"
+}

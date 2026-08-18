@@ -1,0 +1,913 @@
+{
+  "done": {
+    "umlauts": {
+      "cards": 12,
+      "data": {
+        "id": "de_a0_g1",
+        "name": "Umlauts y ß",
+        "icon": "🔤",
+        "color": "#6366f1",
+        "description": "ä · ö · ü · ß — los caracteres únicos del alemán",
+        "reviewFrom": [],
+        "cards": [
+          {
+            "id": "de_a0_g1_L_a-umlaut",
+            "isLetter": true,
+            "letter": "Ä",
+            "word": "Ä",
+            "emoji": "🔤",
+            "phonetic": "/ɛː/",
+            "translation": "Called 'A-Umlaut'. Sounds like the <b>e</b> in <i>bed</i> (but longer).",
+            "mnemonic": "Think of the two dots as 'e' eyes on the A — it turns 'ah' into 'eh'.",
+            "examples": [
+              {
+                "t": "Bär = bear — <b>ä</b> sounds like 'e' in <i>bed</i>",
+                "n": "Bär = bear"
+              },
+              {
+                "t": "Käse = cheese — <b>ä</b> is long",
+                "n": "Käse = cheese"
+              },
+              {
+                "t": "Capital: <b>Ä</b> is a separate letter; if no umlaut key, type <b>Ae</b>",
+                "n": "Capitalization rule"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_L_o-umlaut",
+            "isLetter": true,
+            "letter": "Ö",
+            "word": "Ö",
+            "emoji": "🔤",
+            "phonetic": "/øː/",
+            "translation": "Called 'O-Umlaut'. No English equivalent — round your lips for <b>e</b> and say <i>er</i>.",
+            "mnemonic": "Make a surprised 'oh' face, then try to say 'e' — that's Ö!",
+            "examples": [
+              {
+                "t": "Öl = oil — <b>ö</b> is a rounded 'e'",
+                "n": "Öl = oil"
+              },
+              {
+                "t": "hören = to hear — <b>ö</b> is long",
+                "n": "hören = to hear"
+              },
+              {
+                "t": "Capital: <b>Ö</b>; if no umlaut key, type <b>Oe</b>",
+                "n": "Capitalization rule"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_L_u-umlaut",
+            "isLetter": true,
+            "letter": "Ü",
+            "word": "Ü",
+            "emoji": "🔤",
+            "phonetic": "/yː/",
+            "translation": "Called 'U-Umlaut'. No English equivalent — round your lips for <b>i</b> and say <i>ee</i>.",
+            "mnemonic": "Pucker like you're about to whistle, then say 'ee' — that's Ü!",
+            "examples": [
+              {
+                "t": "über = over — <b>ü</b> is a rounded 'i'",
+                "n": "über = over"
+              },
+              {
+                "t": "Tür = door — <b>ü</b> is long",
+                "n": "Tür = door"
+              },
+              {
+                "t": "Capital: <b>Ü</b>; if no umlaut key, type <b>Ue</b>",
+                "n": "Capitalization rule"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_L_eszett",
+            "isLetter": true,
+            "letter": "ß",
+            "word": "ß",
+            "emoji": "🔤",
+            "phonetic": "/s/",
+            "translation": "Called 'Eszett' or 'sharp S'. Sounds like <b>ss</b> in <i>kiss</i>. Only after long vowels.",
+            "mnemonic": "Imagine a fancy 'B' that's really an 's' — it's the 'sharp s'.",
+            "examples": [
+              {
+                "t": "Straße = street — <b>ß</b> is a sharp 's'",
+                "n": "Straße = street"
+              },
+              {
+                "t": "groß = big — <b>ß</b> after long vowel",
+                "n": "groß = big"
+              },
+              {
+                "t": "If <b>ß</b> is unavailable, type <b>ss</b> (e.g., Strasse)",
+                "n": "Typing rule"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_01",
+            "letter": "Ä",
+            "word": "Bär",
+            "emoji": "🐻",
+            "phonetic": "/bɛːɐ̯/",
+            "translation": "bear",
+            "translations": {
+              "de": "Bär",
+              "en": "bear"
+            },
+            "examples": [
+              {
+                "t": "Der <b>Bär</b> ist groß.",
+                "n": "The bear is big."
+              },
+              {
+                "t": "Ich sehe einen <b>Bär</b>en im Wald.",
+                "n": "I see a bear in the forest."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_02",
+            "letter": "Ä",
+            "word": "Käse",
+            "emoji": "🧀",
+            "phonetic": "/ˈkɛːzə/",
+            "translation": "cheese",
+            "translations": {
+              "de": "Käse",
+              "en": "cheese"
+            },
+            "examples": [
+              {
+                "t": "Ich esse gern <b>Käse</b>.",
+                "n": "I like to eat cheese."
+              },
+              {
+                "t": "Der <b>Käse</b> ist lecker.",
+                "n": "The cheese is delicious."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_03",
+            "letter": "Ö",
+            "word": "Öl",
+            "emoji": "🛢️",
+            "phonetic": "/øːl/",
+            "translation": "oil",
+            "translations": {
+              "de": "Öl",
+              "en": "oil"
+            },
+            "examples": [
+              {
+                "t": "Das ist <b>Öl</b>.",
+                "n": "This is oil."
+              },
+              {
+                "t": "Ich koche mit <b>Öl</b>.",
+                "n": "I cook with oil."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_04",
+            "letter": "Ö",
+            "word": "hören",
+            "emoji": "👂",
+            "phonetic": "/ˈhøːʁən/",
+            "translation": "to hear / to listen",
+            "translations": {
+              "de": "hören",
+              "en": "to hear"
+            },
+            "examples": [
+              {
+                "t": "Ich <b>hör</b>e Musik.",
+                "n": "I listen to music."
+              },
+              {
+                "t": "Kannst du mich <b>hör</b>en?",
+                "n": "Can you hear me?"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_05",
+            "letter": "Ü",
+            "word": "über",
+            "emoji": "↗️",
+            "phonetic": "/ˈyːbɐ/",
+            "translation": "over / above / about",
+            "translations": {
+              "de": "über",
+              "en": "over"
+            },
+            "examples": [
+              {
+                "t": "Das Bild hängt <b>über</b> dem Tisch.",
+                "n": "The picture hangs over the table."
+              },
+              {
+                "t": "Wir sprechen <b>über</b> das Buch.",
+                "n": "We talk about the book."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_06",
+            "letter": "Ü",
+            "word": "Tür",
+            "emoji": "🚪",
+            "phonetic": "/tyːɐ̯/",
+            "translation": "door",
+            "translations": {
+              "de": "Tür",
+              "en": "door"
+            },
+            "examples": [
+              {
+                "t": "Die <b>Tür</b> ist offen.",
+                "n": "The door is open."
+              },
+              {
+                "t": "Bitte schließe die <b>Tür</b>.",
+                "n": "Please close the door."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_07",
+            "letter": "ß",
+            "word": "Straße",
+            "emoji": "🛣️",
+            "phonetic": "/ˈʃtʁaːsə/",
+            "translation": "street / road",
+            "translations": {
+              "de": "Straße",
+              "en": "street"
+            },
+            "examples": [
+              {
+                "t": "Die <b>Straße</b> ist lang.",
+                "n": "The street is long."
+              },
+              {
+                "t": "Ich wohne in der <b>Straße</b>.",
+                "n": "I live on the street."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g1_08",
+            "letter": "ß",
+            "word": "groß",
+            "emoji": "🐘",
+            "phonetic": "/ɡʁoːs/",
+            "translation": "big / tall",
+            "translations": {
+              "de": "groß",
+              "en": "big"
+            },
+            "examples": [
+              {
+                "t": "Der Elefant ist <b>groß</b>.",
+                "n": "The elephant is big."
+              },
+              {
+                "t": "Mein Bruder ist <b>groß</b>.",
+                "n": "My brother is tall."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:16:02.842Z"
+    },
+    "consonant_sounds": {
+      "cards": 12,
+      "data": {
+        "id": "de_a0_g2",
+        "name": "Consonantes alemanas",
+        "icon": "🔡",
+        "color": "#f59e0b",
+        "description": "J · W · V · Z · CH · SP/ST — sonidos propios",
+        "reviewFrom": [
+          "de_a0_g1"
+        ],
+        "cards": [
+          {
+            "id": "de_a0_g2_L_j",
+            "isLetter": true,
+            "letter": "J",
+            "word": "J",
+            "emoji": "🔤",
+            "phonetic": "/j/",
+            "translation": "Sounds like <b>y</b> in “<i>yes</i>” — not like English J. <br> In Spanish, like the <b>ll</b> in “<i>llamar</i>” (or <b>y</b> in “<i>yo</i>”).",
+            "mnemonic": "Imagine a Spanish speaker saying “yo” — that's the German J.",
+            "examples": [
+              {
+                "t": "<b>J</b>a — like “<i>ya</i>” in Spanish.",
+                "n": "Yes — same sound as Spanish 'ya'."
+              },
+              {
+                "t": "<b>J</b>ahr — starts like “<i>yar</i>”.",
+                "n": "Year — the J is soft, not harsh."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_L_w",
+            "isLetter": true,
+            "letter": "W",
+            "word": "W",
+            "emoji": "🔤",
+            "phonetic": "/v/",
+            "translation": "Sounds like <b>v</b> in “<i>vine</i>” — not like English W. <br> In Spanish, like the <b>b</b> or <b>v</b> in “<i>vaca</i>” (soft).",
+            "mnemonic": "Think of a German saying “<i>vater</i>” — but spelled with W.",
+            "examples": [
+              {
+                "t": "<b>W</b>asser — like “<i>vasser</i>”.",
+                "n": "Water — the W is pronounced like a V."
+              },
+              {
+                "t": "<b>W</b>o — like “<i>vo</i>”.",
+                "n": "Where — same V sound."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_L_v",
+            "isLetter": true,
+            "letter": "V",
+            "word": "V",
+            "emoji": "🔤",
+            "phonetic": "/f/ (most words) or /v/ (foreign words)",
+            "translation": "Usually sounds like <b>f</b> in “<i>father</i>” — not like English V. <br> In foreign words (like <i>Visum</i>), it sounds like <b>v</b>.",
+            "mnemonic": "German <b>V</b> is often a sneaky <b>F</b> — like “<i>Vater</i>” becomes “<i>fater</i>”.",
+            "examples": [
+              {
+                "t": "<b>V</b>ater — like “<i>fater</i>”.",
+                "n": "Father — V sounds like F."
+              },
+              {
+                "t": "<b>V</b>ier — like “<i>feer</i>”.",
+                "n": "Four — again F sound."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_L_z",
+            "isLetter": true,
+            "letter": "Z",
+            "word": "Z",
+            "emoji": "🔤",
+            "phonetic": "/ts/",
+            "translation": "Sounds like <b>ts</b> in “<i>pizza</i>” — not like English Z or Spanish Z. <br> Like the <b>tz</b> in “<i>quartz</i>”.",
+            "mnemonic": "Imagine a buzzing <b>ts</b> — like the sound of a sparkler.",
+            "examples": [
+              {
+                "t": "<b>Z</b>eit — like “<i>tsait</i>”.",
+                "n": "Time — the Z is a sharp TS."
+              },
+              {
+                "t": "<b>Z</b>ug — like “<i>tsoog</i>”.",
+                "n": "Train — same TS sound."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_L_ch",
+            "isLetter": true,
+            "letter": "CH",
+            "word": "CH",
+            "emoji": "🔤",
+            "phonetic": "/x/ or /ç/",
+            "translation": "Two sounds: <br> After <b>a, o, u</b> → like <b>j</b> in Spanish “<i>jamón</i>” (<i>Bach</i>). <br> After <b>e, i, ei, eu</b> → soft like <b>h</b> in “<i>huge</i>” (<i>ich</i>).",
+            "mnemonic": "Think of a cat hissing: after dark vowels (a,o,u) it's a hard hiss; after light vowels (e,i) it's a soft whisper.",
+            "examples": [
+              {
+                "t": "Noch — like “<i>nokh</i>” (hard CH).",
+                "n": "Still/yet — after 'o'."
+              },
+              {
+                "t": "Ich — like “<i>ish</i>” (soft CH).",
+                "n": "I — after 'i'."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_L_sp_st",
+            "isLetter": true,
+            "letter": "SP/ST",
+            "word": "SP/ST",
+            "emoji": "🔤",
+            "phonetic": "/ʃp/ and /ʃt/",
+            "translation": "At the start of a word, <b>SP</b> sounds like <b>shp</b> and <b>ST</b> sounds like <b>sht</b>. <br> Like “<i>sh</i>” + <b>p</b> or <b>t</b> — not “sp” or “st”.",
+            "mnemonic": "Imagine a German saying “<i>shtreet</i>” for “street” — that's the ST sound.",
+            "examples": [
+              {
+                "t": "<b>Sp</b>rechen — like “<i>shprechen</i>”.",
+                "n": "To speak — SP becomes SHP."
+              },
+              {
+                "t": "<b>St</b>adt — like “<i>shtat</i>”.",
+                "n": "City — ST becomes SHT."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_01",
+            "isLetter": false,
+            "letter": "J",
+            "word": "ja",
+            "emoji": "👍",
+            "phonetic": "/jaː/",
+            "translation": "yes",
+            "translations": {
+              "de": "ja",
+              "en": "yes"
+            },
+            "examples": [
+              {
+                "t": "<b>Ja</b>, das ist gut.",
+                "n": "Yes, that is good."
+              },
+              {
+                "t": "Sag <b>ja</b>!",
+                "n": "Say yes!"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_02",
+            "isLetter": false,
+            "letter": "W",
+            "word": "Wasser",
+            "emoji": "💧",
+            "phonetic": "/ˈvasɐ/",
+            "translation": "water",
+            "translations": {
+              "de": "Wasser",
+              "en": "water"
+            },
+            "examples": [
+              {
+                "t": "Ich trinke <b>Wasser</b>.",
+                "n": "I drink water."
+              },
+              {
+                "t": "Das <b>Wasser</b> ist kalt.",
+                "n": "The water is cold."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_03",
+            "isLetter": false,
+            "letter": "V",
+            "word": "Vater",
+            "emoji": "👨",
+            "phonetic": "/ˈfaːtɐ/",
+            "translation": "father",
+            "translations": {
+              "de": "Vater",
+              "en": "father"
+            },
+            "examples": [
+              {
+                "t": "Mein <b>Vater</b> ist hier.",
+                "n": "My father is here."
+              },
+              {
+                "t": "Der <b>Vater</b> liest.",
+                "n": "The father reads."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_04",
+            "isLetter": false,
+            "letter": "Z",
+            "word": "Zeit",
+            "emoji": "⏰",
+            "phonetic": "/tsaɪt/",
+            "translation": "time",
+            "translations": {
+              "de": "Zeit",
+              "en": "time"
+            },
+            "examples": [
+              {
+                "t": "Ich habe keine <b>Zeit</b>.",
+                "n": "I have no time."
+              },
+              {
+                "t": "Die <b>Zeit</b> ist knapp.",
+                "n": "Time is short."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_05",
+            "isLetter": false,
+            "letter": "CH",
+            "word": "ich",
+            "emoji": "🙋",
+            "phonetic": "/ɪç/",
+            "translation": "I",
+            "translations": {
+              "de": "ich",
+              "en": "I"
+            },
+            "examples": [
+              {
+                "t": "<b>Ich</b> bin müde.",
+                "n": "I am tired."
+              },
+              {
+                "t": "<b>Ich</b> komme.",
+                "n": "I am coming."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g2_06",
+            "isLetter": false,
+            "letter": "ST",
+            "word": "Stadt",
+            "emoji": "🏙️",
+            "phonetic": "/ʃtat/",
+            "translation": "city",
+            "translations": {
+              "de": "Stadt",
+              "en": "city"
+            },
+            "examples": [
+              {
+                "t": "Die <b>Stadt</b> ist groß.",
+                "n": "The city is big."
+              },
+              {
+                "t": "Ich lebe in der <b>Stadt</b>.",
+                "n": "I live in the city."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:16:19.730Z"
+    },
+    "vowel_length": {
+      "cards": 15,
+      "data": {
+        "id": "de_a0_g3",
+        "name": "Vocales largas y cortas",
+        "icon": "⏱️",
+        "color": "#10b981",
+        "description": "La duración de la vocal cambia el significado",
+        "reviewFrom": [
+          "de_a0_g1",
+          "de_a0_g2"
+        ],
+        "cards": [
+          {
+            "id": "de_a0_g3_L_a",
+            "isLetter": true,
+            "letter": "A",
+            "word": "A",
+            "emoji": "🔤",
+            "phonetic": "/aː/ vs /a/",
+            "translation": "Long A (as in <i>father</i>) vs short A (as in <i>cut</i>)<br><b>A</b> is the same letter, but the duration changes meaning.",
+            "mnemonic": "Think of the Spanish 'a' but stretch it like a yawn for the long version; the short one is like a quick tap.",
+            "examples": [
+              {
+                "t": "Long: <b>Bahn</b> (train) — stretch the <b>a</b> like a long track.<br>Short: <b>Mann</b> (man) — quick, like a tap on the shoulder.",
+                "n": "Long vs short A"
+              },
+              {
+                "t": "Long: <b>Staat</b> (state) — double vowel = long.<br>Short: <b>kann</b> (can) — double consonant = short.",
+                "n": "Double vowel vs double consonant"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_L_e",
+            "isLetter": true,
+            "letter": "E",
+            "word": "E",
+            "emoji": "🔤",
+            "phonetic": "/eː/ vs /ɛ/",
+            "translation": "Long E (as in <i>they</i>) vs short E (as in <i>bed</i>)<br><b>E</b> is like Spanish 'e' but longer or shorter.",
+            "mnemonic": "Long E is like saying 'eh' with a smile, holding it; short E is like the 'e' in 'pet'.",
+            "examples": [
+              {
+                "t": "Long: <b>See</b> (lake) — stretch the <b>e</b> like a calm lake.<br>Short: <b>Bett</b> (bed) — quick, like a jump into bed.",
+                "n": "Long vs short E"
+              },
+              {
+                "t": "Long: <b>Tee</b> (tea) — double vowel = long.<br>Short: <b>kennen</b> (to know) — double consonant = short.",
+                "n": "Double vowel vs double consonant"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_L_i",
+            "isLetter": true,
+            "letter": "I",
+            "word": "I",
+            "emoji": "🔤",
+            "phonetic": "/iː/ vs /ɪ/",
+            "translation": "Long I (as in <i>machine</i>) vs short I (as in <i>sit</i>)<br><b>I</b> is like Spanish 'i' but longer or shorter.",
+            "mnemonic": "Long I is like a long 'ee' in 'see'; short I is like the 'i' in 'bit'.",
+            "examples": [
+              {
+                "t": "Long: <b>ihn</b> (him) — 'h' after vowel makes it long.<br>Short: <b>mit</b> (with) — quick, like a quick 'it'.",
+                "n": "Long vs short I"
+              },
+              {
+                "t": "Long: <b>Dieb</b> (thief) — 'ie' makes it long.<br>Short: <b>Kind</b> (child) — short, like a quick 'kid'.",
+                "n": "ie vs short"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_L_o",
+            "isLetter": true,
+            "letter": "O",
+            "word": "O",
+            "emoji": "🔤",
+            "phonetic": "/oː/ vs /ɔ/",
+            "translation": "Long O (as in <i>so</i>) vs short O (as in <i>off</i>)<br><b>O</b> is like Spanish 'o' but longer or shorter.",
+            "mnemonic": "Long O is like a surprised 'oh!', short O is like the 'o' in 'hot'.",
+            "examples": [
+              {
+                "t": "Long: <b>Sohn</b> (son) — stretch the <b>o</b> like a proud 'oh'.<br>Short: <b>von</b> (from) — quick, like 'von' in 'von' (German).",
+                "n": "Long vs short O"
+              },
+              {
+                "t": "Long: <b>Boot</b> (boat) — double vowel = long.<br>Short: <b>Gott</b> (God) — double consonant = short.",
+                "n": "Double vowel vs double consonant"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_L_u",
+            "isLetter": true,
+            "letter": "U",
+            "word": "U",
+            "emoji": "🔤",
+            "phonetic": "/uː/ vs /ʊ/",
+            "translation": "Long U (as in <i>boot</i>) vs short U (as in <i>put</i>)<br><b>U</b> is like Spanish 'u' but longer or shorter.",
+            "mnemonic": "Long U is like a long 'oo' in 'moon', short U is like the 'u' in 'put'.",
+            "examples": [
+              {
+                "t": "Long: <b>gut</b> (good) — stretch the <b>u</b> like a satisfied 'oo'.<br>Short: <b>und</b> (and) — quick, like 'und' in 'under'.",
+                "n": "Long vs short U"
+              },
+              {
+                "t": "Long: <b>Stuhl</b> (chair) — 'h' after vowel makes it long.<br>Short: <b>Mutter</b> (mother) — double consonant = short.",
+                "n": "h vs double consonant"
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_01",
+            "isLetter": false,
+            "letter": "A",
+            "word": "Bahn",
+            "emoji": "🚆",
+            "phonetic": "/baːn/",
+            "translation": "<b>Bahn</b> (train) — long A, like a long track.",
+            "translations": {
+              "de": "Bahn",
+              "en": "train"
+            },
+            "examples": [
+              {
+                "t": "Die <b>Bahn</b> fährt schnell.",
+                "n": "The train goes fast."
+              },
+              {
+                "t": "Ich nehme die <b>Bahn</b> nach Berlin.",
+                "n": "I take the train to Berlin."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_02",
+            "isLetter": false,
+            "letter": "A",
+            "word": "Mann",
+            "emoji": "👨",
+            "phonetic": "/man/",
+            "translation": "<b>Mann</b> (man) — short A, like a quick tap.",
+            "translations": {
+              "de": "Mann",
+              "en": "man"
+            },
+            "examples": [
+              {
+                "t": "Der <b>Mann</b> ist alt.",
+                "n": "The man is old."
+              },
+              {
+                "t": "Ein <b>Mann</b> steht dort.",
+                "n": "A man stands there."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_03",
+            "isLetter": false,
+            "letter": "E",
+            "word": "See",
+            "emoji": "🌊",
+            "phonetic": "/zeː/",
+            "translation": "<b>See</b> (lake) — long E, like a calm lake.",
+            "translations": {
+              "de": "See",
+              "en": "lake"
+            },
+            "examples": [
+              {
+                "t": "Der <b>See</b> ist tief.",
+                "n": "The lake is deep."
+              },
+              {
+                "t": "Wir schwimmen im <b>See</b>.",
+                "n": "We swim in the lake."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_04",
+            "isLetter": false,
+            "letter": "E",
+            "word": "Bett",
+            "emoji": "🛏️",
+            "phonetic": "/bɛt/",
+            "translation": "<b>Bett</b> (bed) — short E, like a quick jump into bed.",
+            "translations": {
+              "de": "Bett",
+              "en": "bed"
+            },
+            "examples": [
+              {
+                "t": "Das <b>Bett</b> ist weich.",
+                "n": "The bed is soft."
+              },
+              {
+                "t": "Ich gehe ins <b>Bett</b>.",
+                "n": "I go to bed."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_05",
+            "isLetter": false,
+            "letter": "I",
+            "word": "Dieb",
+            "emoji": "🕵️",
+            "phonetic": "/diːp/",
+            "translation": "<b>Dieb</b> (thief) — long I via 'ie', like a sneaky 'ee'.",
+            "translations": {
+              "de": "Dieb",
+              "en": "thief"
+            },
+            "examples": [
+              {
+                "t": "Der <b>Dieb</b> läuft weg.",
+                "n": "The thief runs away."
+              },
+              {
+                "t": "Die Polizei fängt den <b>Dieb</b>.",
+                "n": "The police catch the thief."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_06",
+            "isLetter": false,
+            "letter": "I",
+            "word": "Kind",
+            "emoji": "🧒",
+            "phonetic": "/kɪnt/",
+            "translation": "<b>Kind</b> (child) — short I, like a quick 'kid'.",
+            "translations": {
+              "de": "Kind",
+              "en": "child"
+            },
+            "examples": [
+              {
+                "t": "Das <b>Kind</b> spielt.",
+                "n": "The child plays."
+              },
+              {
+                "t": "Ein <b>Kind</b> weint.",
+                "n": "A child cries."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_07",
+            "isLetter": false,
+            "letter": "O",
+            "word": "Boot",
+            "emoji": "⛵",
+            "phonetic": "/boːt/",
+            "translation": "<b>Boot</b> (boat) — long O via double vowel, like a long 'oh'.",
+            "translations": {
+              "de": "Boot",
+              "en": "boat"
+            },
+            "examples": [
+              {
+                "t": "Das <b>Boot</b> fährt auf dem Meer.",
+                "n": "The boat sails on the sea."
+              },
+              {
+                "t": "Wir kaufen ein <b>Boot</b>.",
+                "n": "We buy a boat."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_08",
+            "isLetter": false,
+            "letter": "O",
+            "word": "Gott",
+            "emoji": "⛪",
+            "phonetic": "/ɡɔt/",
+            "translation": "<b>Gott</b> (God) — short O, like 'got' but with a clear 'o'.",
+            "translations": {
+              "de": "Gott",
+              "en": "God"
+            },
+            "examples": [
+              {
+                "t": "Sie betet zu <b>Gott</b>.",
+                "n": "She prays to God."
+              },
+              {
+                "t": "<b>Gott</b> ist gut.",
+                "n": "God is good."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_09",
+            "isLetter": false,
+            "letter": "U",
+            "word": "gut",
+            "emoji": "👍",
+            "phonetic": "/ɡuːt/",
+            "translation": "<b>gut</b> (good) — long U, like a satisfied 'oo'.",
+            "translations": {
+              "de": "gut",
+              "en": "good"
+            },
+            "examples": [
+              {
+                "t": "Das Essen ist <b>gut</b>.",
+                "n": "The food is good."
+              },
+              {
+                "t": "Ich bin <b>gut</b> gelaunt.",
+                "n": "I am in a good mood."
+              }
+            ]
+          },
+          {
+            "id": "de_a0_g3_10",
+            "isLetter": false,
+            "letter": "U",
+            "word": "Mutter",
+            "emoji": "👩‍👧",
+            "phonetic": "/ˈmʊtɐ/",
+            "translation": "<b>Mutter</b> (mother) — short U, like 'muh' but quick.",
+            "translations": {
+              "de": "Mutter",
+              "en": "mother"
+            },
+            "examples": [
+              {
+                "t": "Meine <b>Mutter</b> kocht gut.",
+                "n": "My mother cooks well."
+              },
+              {
+                "t": "Die <b>Mutter</b> liest ein Buch.",
+                "n": "The mother reads a book."
+              }
+            ]
+          }
+        ]
+      },
+      "generatedAt": "2026-08-15T01:16:39.859Z"
+    }
+  },
+  "target": "de",
+  "source": "en"
+}

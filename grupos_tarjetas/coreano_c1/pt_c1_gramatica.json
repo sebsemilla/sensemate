@@ -234,5 +234,935 @@
     "translations": {
       "pt": "Registro e estilo: formal, informal e neutro"
     }
+  },
+  {
+    "id": "pt_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "주제 전치와 도치 / Inversão e topicalização avançadas",
+    "bridge": "No coreano, a ordem das palavras é flexível, mas não livre: o verbo sempre vem no final. Enquanto em português você pode antepor um constituinte para enfatizá-lo (por exemplo, 'Esse livro, eu também li'), no coreano a topicalização é feita movendo um sintagma para o início da oração sem alterar a posição do verbo, geralmente marcada por partículas como '은/는' ou '도'. O desafio para um falante de português é não traduzir literalmente a estrutura portuguesa de duplicação com pronomes, já que o coreano não precisa desse reforço.",
+    "rule": "A inversão ou topicalização em coreano consiste em mover um elemento (objeto, adjunto circunstancial ou até uma oração subordinada) para a posição inicial da frase, antes do sujeito, para dar ênfase ou estabelecer um tópico. Essa operação não altera a conjugação verbal nem requer mudanças morfológicas. Existem dois tipos principais: (1) a topicalização com 은/는, onde o elemento topicalizado é apresentado como o tema do discurso, e (2) a focalização com partículas como 도, 까지 ou 조차, que enfatizam inclusão ou extremo. Também é possível topicalizar uma oração inteira usando construções como -기는 하다 ou -다면/-면 para condições topicalizadas. É fundamental manter a ordem SOV (Sujeito-Objeto-Verbo) e não colocar o verbo antes do final. As partículas de caso são obrigatórias, ao contrário do português, onde algumas preposições podem ser omitidas. Para o nível C1, espera-se dominar a topicalização em contextos formais e literários, assim como em estruturas complexas com orações relativas.",
+    "concept_examples": [
+      {
+        "text": "그 책은 나도 읽었어요.",
+        "translation": "Esse livro, eu também li.",
+        "phonetic": "[kɯ tɕʰɛk̚ɯn na̠do̞ iɭɡʌ̹ss͈ʌ̹jo̞]"
+      },
+      {
+        "text": "아무리 어려워도, 포기하지 않겠다.",
+        "translation": "Por mais difícil que seja, não vou desistir.",
+        "phonetic": "[a̠muɾi ʌ̹ɾjʌ̹wʌ̹do̞, pʰo̞ɡidʑi a̠nkʰe̞t̚t͈a̠]"
+      },
+      {
+        "text": "그런 일은 절대 잊지 못해.",
+        "translation": "Coisas assim, jamais poderei esquecer.",
+        "phonetic": "[kɯɾʌ̹n iɾɯn tɕʌ̹ɭdɛ̝ iːt̚tɕi mo̞tʰɛ̝]"
+      },
+      {
+        "text": "비록 실패할지라도, 다시 도전할 거야.",
+        "translation": "Mesmo que eu fracasse, tentarei novamente.",
+        "phonetic": "[piɾok̚ ɕʰilpʰɛ̝ɦa̠ʎtɕiɾa̠do̞, ta̠ɕi to̞dʑʌ̹nɦa̠ɭ kʌ̹ja̠]"
+      }
+    ],
+    "common_error": {
+      "wrong": "그 책을 나는 읽었어요.",
+      "correct": "그 책은 나는 읽었어요.",
+      "correct_alt": "",
+      "explanation": "Falantes de português tendem a usar a partícula de objeto 을/를 ao topicalizar um objeto, copiando a estrutura portuguesa 'Esse livro, eu li ele'. Mas em coreano, quando se topicaliza para estabelecer o tema da oração, deve-se usar 은/는 em vez de 을/를. A partícula 은/는 indica que o elemento é o tópico da frase, não o objeto direto em si. Para evitar esse erro, lembre-se de que, ao topicalizar um sintagma para enfatizá-lo, ele se transforma em tópico e requer 은/는. Se quiser manter o foco no objeto como tal, pode-se usar a construção com '것은' ou mudar a ordem sem topicalização."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "주제화 (Topicalização)",
+        "translation": "Topicalização",
+        "examples": [
+          {
+            "original": "그 영화는 봤어?",
+            "phonetic": "[kɯ jʌ̹ŋɦwa̠nɯn pwa̠t̚s͈ʌ̹?]",
+            "translation": "E quanto a esse filme, você viu?",
+            "note": "A topicalização do objeto com 은/는 o torna o tópico da conversa, semelhante ao uso de 'em relação a' ou 'quanto a' em português."
+          },
+          {
+            "original": "한국어는 배우기가 어려워요.",
+            "phonetic": "[ha̠nɡuɡʌ̹nɯn pɛ̝uɡiɡa̠ ʌ̹ɾjʌ̹wʌ̹jo̞]",
+            "translation": "Quanto ao coreano, aprender é difícil.",
+            "note": "Aqui '한국어는' funciona como tópico geral, não como objeto direto. Pode ser parafraseado como 'falando do coreano'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "초점화 (Focalização)",
+        "translation": "Focalização",
+        "examples": [
+          {
+            "original": "그것까지도 알 필요 없어.",
+            "phonetic": "[kɯɡʌ̹t̚k͈a̠ʑido̞ a̠ɭ pʰiɾjo̞ ʌ̹p̚s͈ʌ̹]",
+            "translation": "Nem isso você precisa saber.",
+            "note": "A partícula '까지도' adiciona ênfase extrema, equivalente a 'até mesmo' ou 'nem' em português."
+          },
+          {
+            "original": "지금이 바로 그때야.",
+            "phonetic": "[tɕiɡɯmid͡ʑi pa̠ɾo̞ kɯt͈ɛ̝ja̠]",
+            "translation": "Agora é exatamente a hora.",
+            "note": "A topicalização do advérbio de tempo '지금' com '이' (cópula) enfatiza a imediatez, semelhante a 'é agora quando' em português."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "절 도치 (Inversão de orações)",
+        "translation": "Inversão de orações",
+        "examples": [
+          {
+            "original": "네가 오면, 나는 기쁠 거야.",
+            "phonetic": "[ne̞ɡa̠ o̞mjʌ̹n, na̠nɯn kip̚p͈ɯɭ kʌ̹ja̠]",
+            "translation": "Se você vier, ficarei feliz.",
+            "note": "A condição topicalizada com '-면' é destacada antes do resultado. Em português, pode-se usar 'se... então', mas o coreano não precisa de conectivo explícito."
+          },
+          {
+            "original": "성공하든 실패하든, 최선을 다했어.",
+            "phonetic": "[sʰʌ̹ŋɡo̞ŋɦa̠dɯn ɕʰiɭpʰɛ̝ɦa̠dɯn, tɕʰwe̞sʰʌ̹nɯɭ ta̠ɦɛ̝ss͈ʌ̹]",
+            "translation": "Tanto se você vencer quanto se perder, deu o seu melhor.",
+            "note": "A dupla condição com '-든' topicaliza duas opções, equivalente a 'quer... quer' ou 'seja... seja' em português."
+          },
+          {
+            "original": "아무리 바빠도, 잊지 마.",
+            "phonetic": "[a̠muɾi pa̠p͈a̠do̞, iːt̚tɕi ma̠]",
+            "translation": "Por mais ocupado que esteja, não esqueça.",
+            "note": "A construção '아무리 -아도' topicaliza uma concessão, semelhante a 'por mais que' em português."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Inversão e topicalização avançadas"
+    }
+  },
+  {
+    "id": "pt_C1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "복합 명사화 (명사화된 과정) / Nominalização complexa (processo → processamento)",
+    "bridge": "Em espanhol, para nominalizar um processo, usamos sufixos como -ção, -mento ou -agem (ex.: 'processar' → 'processamento'). Em coreano, a nominalização é feita por meio dos sufixos -기 (-gi) e -ㅁ (-m) unidos à raiz verbal. A diferença principal é que -기 tende a focar no ato ou na habilidade de fazer algo, enquanto -ㅁ cria um nome mais abstrato ou o resultado do processo. Além disso, em coreano, essas nominalizações podem se combinar com partículas (이/가, 을/를, 에) para funcionar como sujeito, objeto ou complemento, algo que nem sempre é intuitivo para falantes de espanhol, já que, em espanhol, o infinitivo nominalizado não requer tais partículas.",
+    "rule": "Em coreano, a nominalização complexa é formada adicionando -기 ou -ㅁ à raiz verbal ou adjetival. -기 é usado para expressar o ato de fazer algo, muitas vezes com uma nuance de habilidade ou processo em andamento (ex.: 요리하기 = cozinhar/cozimento, o ato de cozinhar). -ㅁ é usado para criar nomes abstratos que denotam o resultado, o fato ou a qualidade (ex.: 만듦 = a criação, o fato de fazer). Para verbos que terminam em consoante, -ㅁ é adicionado diretamente (읽음); para verbos com raiz terminada em vogal, -ㅁ é adicionado (가다 → 감). Para -기, sempre se adiciona -기 após a raiz, independentemente da terminação (가기, 읽기). Uma nominalização pode ser modificada por adjetivos, carregar partículas e ser usada com verbos como 좋다, 어렵다, 쉽다, 중요하다, etc. Em contextos formais ou escritos, -ㅁ é mais comum em títulos, documentos e provérbios; -기 é usado em conversas cotidianas, instruções e em expressões como -기 전에 (antes de), -기 때문에 (devido a), -기 위해서 (para). Para o nível C1, é crucial dominar a nominalização em construções complexas como '그가 실패함에도 불구하고' (apesar de ele ter falhado) e combinações com sufixos como -ㅁ에도, -기로는. Além disso, é necessário distinguir entre -기 e -는 것: -는 것 é mais coloquial e substituível em muitos contextos, mas -기 e -ㅁ são mais concisos e formais. Um erro comum é usar -기 quando se requer -ㅁ para um resultado abstrato, ou vice-versa. A regra prática: se puder ser traduzido como 'o fato de que' e for um resultado, use -ㅁ; se for o processo como atividade, use -기.",
+    "concept_examples": [
+      {
+        "text": "그 문제를 해결함이 우리의 목표입니다.",
+        "translation": "Resolver esse problema é nosso objetivo.",
+        "phonetic": "[kɯ mund͡ʑe̞ɾɯɭ hɛɡjʌɾɦa̠mɰi uɾiɰi mo̞kʰpʰjo̞imnida]"
+      },
+      {
+        "text": "요리하기는 어렵지만 재미있어요.",
+        "translation": "Cozinhar é difícil, mas divertido.",
+        "phonetic": "[joɾiɦa̠ɡiɾɯn ʌ̹ɾjʌ̹p̚t͡ɕima̠n t͡ɕɛ̝miis'ʌ̹jo]"
+      },
+      {
+        "text": "빠른 이해를 위해 예문을 준비했습니다.",
+        "translation": "Preparamos exemplos para uma compreensão rápida.",
+        "phonetic": "[p͈a̠ɾɯn iɦɛ̝ɾɯɭ ɥiɦɛ̝ je̞munɯn t͡ɕunbiɦɛ̝t̚s͈ɯmnida]"
+      },
+      {
+        "text": "그녀의 도착함이 모두를 놀라게 했어요.",
+        "translation": "O fato de ela ter chegado surpreendeu a todos.",
+        "phonetic": "[kɯɲʌ̹ɰi to̞t͡ɕʰa̠kʰa̠mi mo̞duɾɯɭ no̞ɭɭa̠ɡe̞ hɛ̝s͈ʌ̹jo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "그 문제를 해결하기이 우리의 목표입니다.",
+      "correct": "그 문제를 해결함이 우리의 목표입니다.",
+      "correct_alt": "그 문제를 해결하는 것이 우리의 목표입니다.",
+      "explanation": "O erro ocorre porque falantes de espanhol costumam usar -기 como equivalente geral do infinitivo espanhol. No entanto, quando se deseja expressar o resultado ou o fato abstrato (como 'o resolver' no sentido de meta), -ㅁ é mais apropriado, especialmente em contextos formais. -기 soa mais como a atividade em si. Para evitá-lo, pergunte-se se o nominalizado funciona como 'o ato de' (use -기) ou como 'o fato de que' (use -ㅁ). Neste caso, 'resolver' como objetivo é um fato abstrato, por isso -ㅁ (ou -는 것, mais coloquial) é correto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "-기 기본 (ação)",
+        "translation": "-기 básico (ação)",
+        "examples": [
+          {
+            "original": "수영하기는 건강에 좋아요.",
+            "phonetic": "[sujʌ̹ŋɦa̠ɡiɾɯn kʌ̹nɡa̠ŋe̞ t͡ɕo̞a̠jo]",
+            "translation": "Nadar faz bem à saúde.",
+            "note": "Aqui, -기 se refere à atividade de nadar em geral."
+          },
+          {
+            "original": "한국어를 배우기가 재미있어요.",
+            "phonetic": "[ha̠nɡuɡʌ̹ɾɯɭ pɛ̝uɡiɡa̠ t͡ɕɛ̝miis'ʌ̹jo]",
+            "translation": "Aprender coreano é divertido.",
+            "note": "-기가 aparece como sujeito (com partícula 가)."
+          },
+          {
+            "original": "일찍 일어나기가 힘들어요.",
+            "phonetic": "[iɭt͡ɕ͈ik̚ iɾʌ̹na̠ɡiɡa̠ çimdɯɾʌ̹jo]",
+            "translation": "Levantar cedo é difícil.",
+            "note": "-기 é usado com o adjetivo '힘들다' para expressar dificuldade."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "-ㅁ 기본 (resultado/abstração)",
+        "translation": "-ㅁ básico (resultado/abstração)",
+        "examples": [
+          {
+            "original": "그들의 만남은 우연이 아니었어요.",
+            "phonetic": "[kɯdɯɾɰi ma̠nna̠mɯn ujʌ̹ni a̠niʌ̹t̚s͈ʌ̹jo]",
+            "translation": "O encontro deles não foi uma coincidência.",
+            "note": "만남 vem de 만나다 (encontrar-se) + -ㅁ, expressando o resultado de se encontrar."
+          },
+          {
+            "original": "실패함은 성공의 어머니입니다.",
+            "phonetic": "[ɕʰiɭpʰɛ̝ɦa̠mɯn sʰʌ̹ŋɡo̞ŋɰi ʌ̹mʌ̹niimnida]",
+            "translation": "O fracasso é a mãe do sucesso.",
+            "note": "-ㅁ confere um tom abstrato e proverbial."
+          },
+          {
+            "original": "그의 죽음은 모두에게 충격이었어요.",
+            "phonetic": "[kɯɰi t͡ɕuɡɯmɯn mo̞duʌ̹ɡe̞ t͡ɕʰuŋɡjʌ̹ɡiʌ̹t̚s͈ʌ̹jo]",
+            "translation": "A morte dele foi um choque para todos.",
+            "note": "죽음 (morte) é uma nominalização irregular de 죽다 (morrer) com -ㅁ."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "-기 vs -ㅁ em construções complexas",
+        "translation": "-기 vs -ㅁ em construções complexas",
+        "examples": [
+          {
+            "original": "그는 실패함에도 불구하고 계속 도전했어요.",
+            "phonetic": "[kɯnɯn ɕʰiɭpʰɛ̝ɦa̠me̞do̞ puɭɡuɦa̠ɡo̞ kje̞sʰo̞k̚ to̞d͡ʑʌ̹nɦɛ̝t̚s͈ʌ̹jo]",
+            "translation": "Apesar de ter falhado, ele continuou a desafiar-se.",
+            "note": "A construção -ㅁ에도 불구하고 (apesar de) é típica do nível C1; aqui, -ㅁ cria o substantivo abstrato."
+          },
+          {
+            "original": "빨리 걷기보다는 천천히 걷는 것이 좋아요.",
+            "phonetic": "[p͈a̠ɭɭi kʌ̹t̚k͈i bo̞da̠nɯn t͡ɕʰʌ̹nt͡ɕʰʌ̹nɦi kʌ̹nnɯn kʌ̹ʃi t͡ɕo̞a̠jo]",
+            "translation": "É melhor caminhar devagar do que caminhar rápido.",
+            "note": "Compara-se -기보다는 com -는 것, mostrando a diferença de registro e uso."
+          },
+          {
+            "original": "그가 떠나기 전에 마지막 인사를 했어요.",
+            "phonetic": "[kɯɡa̠ t͈ʌ̹na̠ɡi t͡ɕʌ̹ne̞ ma̠d͡ʑima̠k̚ insʰa̠ɾɯɭ hɛ̝t̚s͈ʌ̹jo]",
+            "translation": "Ele se despediu antes de ir embora.",
+            "note": "A construção -기 전에 (antes de) é muito comum; -기 aqui é fixo."
+          },
+          {
+            "original": "이 일을 마침으로써 우리는 성과를 얻었어요.",
+            "phonetic": "[i iɾɯɭ ma̠t͡ɕʰimɯɾo̞s͈ʌ̹ uɾinɯn sʰʌ̹ŋɡwa̠ɾɯɭ ʌ̹dʌ̹t̚s͈ʌ̹jo]",
+            "translation": "Ao terminar este trabalho, obtivemos um resultado.",
+            "note": "A forma -ㅁ으로써 (por meio do fato de) é avançada e formal."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧩",
+    "phonetic": "",
+    "translations": {
+      "pt": "Nominalização complexa (processo → processamento)"
+    }
+  },
+  {
+    "id": "pt_C1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "생략과 대용 / Elipse e substituição",
+    "bridge": "Em coreano, a elipse é muito frequente e, muitas vezes, omite-se o sujeito, o objeto ou até mesmo o verbo quando o contexto os torna evidentes. Além disso, em vez de usar auxiliares como 'do' ou 'have', o coreano emprega partículas como '도' (também) e formas verbais como '-고요' ou '-거든요' para substituir informações já mencionadas. O erro típico do falante de espanhol é traduzir literalmente 'eu também' como '나도' em contextos onde o coreano preferiria uma construção mais elíptica ou até mesmo apenas uma partícula.",
+    "rule": "Em coreano, a elipse (생략) é um fenômeno gramatical e pragmático que permite omitir elementos recuperáveis pelo contexto: sujeito (주어), objeto (목적어) ou até mesmo o verbo principal. A substituição (대용) é feita por meio de partículas como '도' (também), '만' (somente), '밖에' (nada mais que), e por terminações verbais que conectam ao que foi dito anteriormente, como '-고요' (e além disso), '-거든요' (porque, já que), '-잖아요' (como você sabe). Para responder a afirmações ou negações de forma semelhante ao espanhol 'so do I' ou 'neither have we', usam-se padrões como '나도요' (eu também), '저도요' (eu também, formal), '나도 그렇게 생각해요' (eu também acho isso), mas no nível C1 espera-se que o estudante utilize estruturas mais avançadas: '저도 그렇습니다' (para mim também é assim), '저도 마찬가지예요' (para mim é igual). Na substituição verbal, pode-se usar '그렇다' (ser assim) para se referir a uma ação ou estado mencionado: '그래요' (é assim), '그럴 거예요' (será assim). Também é comum usar '-든지' ou '-거나' para substituir opções. A elipse do verbo é especialmente frequente em respostas: se a pergunta for '밥 먹었어요?' (você comeu?), pode-se responder '응, 먹었어' (sim, comi) ou simplesmente '응' (sim), omitindo o verbo. No nível C1, deve-se dominar a elipse em orações compostas, como '철수는 사과를 좋아하고, 영희는 배를 좋아해요', em que se pode omitir o verbo na primeira parte: '철수는 사과를, 영희는 배를 좋아해요'. Também se usa a substituição com '-는 것' (o fato de) para nominalizar ações já mencionadas.",
+    "concept_examples": [
+      {
+        "text": "저도 그렇게 생각해요.",
+        "translation": "Eu também penso assim.",
+        "phonetic": "[d͡ʑʌ.do kɯ.ɾɔ.kʰɛ sɛŋ.ɡɛ.ɦɛ.jo]"
+      },
+      {
+        "text": "저는 커피를, 그녀는 차를 마셨어요.",
+        "translation": "Eu tomei café, e ela, chá.",
+        "phonetic": "[d͡ʑɔ.nɨn kʰʌ.pʰi.lɯ kɯ.ɲjɔ.nɨn t͡ɕʰa.lɯ ma.ɕjʌ.ɕsʌ.jo]"
+      },
+      {
+        "text": "그것은 좋은 생각인 것 같아요.",
+        "translation": "Acho que é uma boa ideia.",
+        "phonetic": "[kɯ.ɡɔ.s'ɯn t͡ɕɔ.ɯn sɛŋ.ɡɛ.in kɔt ka.tʰa.jo]"
+      },
+      {
+        "text": "저도 마찬가지예요.",
+        "translation": "Para mim é igual (mesmo).",
+        "phonetic": "[d͡ʑɔ.do ma.t͡ɕʰan.ɡa.d͡ʑi.je.jo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "나도 커피를 마셨어요. (Resposta a '저는 커피를 마셨어요.')",
+      "correct": "저도 커피를 마셨어요.",
+      "correct_alt": "저도요.",
+      "explanation": "O erro mais comum é usar '나도' em vez de '저도' em contextos formais ou com desconhecidos, pois o espanhol não diferencia registro formal e informal nesse tipo de resposta. Em coreano, o uso de '나' vs '저' é crucial para a polidez. Além disso, em vez de repetir toda a frase, no nível C1 espera-se que você use simplesmente '저도요' ou '저도 그랬어요' para evitar repetição e demonstrar domínio da elipse."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "대용 표현: 도, 만, 밖에",
+        "translation": "Substituição com partículas: também, somente, nada mais que",
+        "examples": [
+          {
+            "original": "저도 한국어를 공부해요.",
+            "phonetic": "[d͡ʑɔ.do han.ɡu.ɡɔ.lɯ koŋ.bu.ɦɛ.jo]",
+            "translation": "Eu também estudo coreano.",
+            "note": "Uso de '도' para substituir a informação compartilhada e adicionar o mesmo predicado."
+          },
+          {
+            "original": "그분만 왔어요.",
+            "phonetic": "[kɯ.bun.man wa.ss'ɔ.jo]",
+            "translation": "Só aquela pessoa veio.",
+            "note": "'만' indica exclusividade e substitui outras opções possíveis."
+          },
+          {
+            "original": "이거밖에 없어요.",
+            "phonetic": "[i.ɡɔ.ba.k'ɛ ʌp.s'ɔ.jo]",
+            "translation": "Não tem nada além disso.",
+            "note": "Estrutura de negação com '밖에' e verbo negativo no final."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "응답에서의 생략",
+        "translation": "Elipse em respostas",
+        "examples": [
+          {
+            "original": "A: 영화 봤어요? B: 네, 봤어요.",
+            "phonetic": "A: [jɔŋ.ɦwa bwa.ss'ɔ.jo?] B: [ne bwa.ss'ɔ.jo]",
+            "translation": "A: Você viu o filme? B: Sim, vi.",
+            "note": "Na resposta, pode-se omitir o objeto '영화' porque já foi mencionado."
+          },
+          {
+            "original": "A: 어제 뭐 했어요? B: 친구 만났어요.",
+            "phonetic": "A: [ʌ.d͡ʑe mwɔ ɦɛ.ss'ɔ.jo?] B: [t͡ɕʰin.ɡu man.na.ss'ɔ.jo]",
+            "translation": "A: O que você fez ontem? B: Encontrei um amigo.",
+            "note": "Omite-se o sujeito porque é conhecido; o coreano permite essa omissão sem ambiguidade."
+          },
+          {
+            "original": "A: 김치 먹어요? B: 네, 먹어요.",
+            "phonetic": "A: [kim.t͡ɕʰi mʌ.ɡɔ.jo?] B: [ne mʌ.ɡɔ.jo]",
+            "translation": "A: Você come kimchi? B: Sim, como.",
+            "note": "O objeto é omitido na resposta porque está claro pelo contexto."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "그렇다와 마찬가지를 이용한 대용",
+        "translation": "Substituição usando 'ser assim' e 'igual'",
+        "examples": [
+          {
+            "original": "저도 그렇습니다.",
+            "phonetic": "[d͡ʑɔ.do kɯ.rɔ.s'ɯm.ni.da]",
+            "translation": "Para mim também é assim.",
+            "note": "Uso de '그렇다' para substituir toda uma situação ou estado mencionado anteriormente."
+          },
+          {
+            "original": "그것은 마찬가지예요.",
+            "phonetic": "[kɯ.ɡɔ.s'ɯn ma.t͡ɕʰan.ɡa.d͡ʑi.je.jo]",
+            "translation": "Isso é igual.",
+            "note": "Substituição de uma ação ou fato por '마찬가지' para evitar repetição."
+          },
+          {
+            "original": "저는 그렇게 생각하지 않아요.",
+            "phonetic": "[d͡ʑɔ.nɨn kɯ.rɔ.kʰɛ sɛŋ.ɡɛ.ɦa.d͡ʑi a.na.jo]",
+            "translation": "Eu não penso assim.",
+            "note": "Uso de '그렇게' como substituto de um advérbio ou maneira mencionada."
+          }
+        ]
+      }
+    ],
+    "emoji": "✂️",
+    "phonetic": "",
+    "translations": {
+      "pt": "Elipse e substituição"
+    }
+  },
+  {
+    "id": "pt_C1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "고급 담화 표지 / Marcadores discursivos avançados",
+    "bridge": "Em português, usamos conectores como 'entretanto', 'portanto' ou 'apesar de' para dar coesão ao discurso. Em coreano, esses marcadores funcionam de forma diferente: são colocados no final da primeira oração (antes da vírgula) e se conjugam de acordo com o verbo, não sendo palavras independentes. O erro típico do falante de português é traduzir esses marcadores literalmente como conectores independentes no início da frase, mas em coreano eles devem ser integrados à estrutura verbal. Além disso, alguns marcadores como '-느니' ou '-ㄹ지언정' não têm equivalente direto e expressam nuances retóricas que exigem compreender a intenção do falante.",
+    "rule": "Em coreano, os marcadores discursivos avançados são formados por terminações verbais que se acrescentam à raiz do verbo ou adjetivo, antes da vírgula. Os principais para coesão no nível C1 são:\n1. **-ㄴ/은 데다가** (além de, acrescentando): usado para acumular informações. Acrescenta-se à raiz verbal (se termina em consoante, usa-se '-은 데다가'; se em vogal, '-ㄴ 데다가').\n2. **-기에** (já que, porque): semelhante a '-기 때문에', mas com um matiz mais formal/retórico, frequentemente em escrita ou discurso preparado.\n3. **-느니** (antes que, melhor que): expressa preferência ou escolha entre duas opções negativas ou difíceis. Usado com verbos de ação.\n4. **-ㄹ지언정** (embora, mesmo que): concessivo enfático, semelhante a 'mesmo que seja...', mas com sentido de desafio ou resignação.\n5. **-ㄴ/는 한** (na medida em que, desde que): condicional de limite.\n6. **-던 차에** (justo quando, no momento em que): expressa uma ação que ocorre no instante de outra.\n\nEsses marcadores exigem atenção ao registro (formal/informal) e à estrutura da oração (ordem das orações). Em geral, a oração com o marcador vem primeiro, seguida da oração principal, separadas por vírgula ou pela conjunção adequada.",
+    "concept_examples": [
+      {
+        "text": "그는 능력이 뛰어난 데다가 성격도 좋다.",
+        "translation": "Além de ser muito competente, ele tem uma boa personalidade.",
+        "phonetic": "[kɯnɯn nɯŋɲjʌgi t͈ɥiʌnan tedaga sʰʌŋkjʌkto t͈ɕotʰa]"
+      },
+      {
+        "text": "날씨가 춥기에 우리는 집에 있었다.",
+        "translation": "Como fazia frio, nós ficamos em casa.",
+        "phonetic": "[nals͈iga tɕʰup̚k͈ie uɾinɯn tɕibe iss͈ʌtʰa]"
+      },
+      {
+        "text": "차라리 굶느니 라면을 먹겠다.",
+        "translation": "Prefiro comer ramen a passar fome.",
+        "phonetic": "[tɕʰaɾaɾi kumnɯni ɾamjʌnɯl mʌk͈et͈a]"
+      },
+      {
+        "text": "힘들지언정 포기하지 않겠다.",
+        "translation": "Embora seja difícil, não vou desistir.",
+        "phonetic": "[çimtɯɭtɕiʌndʑiŋ pʰoɡidʑi ankʰet͈a]"
+      }
+    ],
+    "common_error": {
+      "wrong": "그는 능력이 뛰어나다. 게다가 성격도 좋다.",
+      "correct": "그는 능력이 뛰어난 데다가 성격도 좋다.",
+      "correct_alt": "그는 능력이 뛰어날 뿐만 아니라 성격도 좋다.",
+      "explanation": "O erro vem de tratar '게다가' (além disso) como um conector independente, semelhante a 'además' em espanhol. Em coreano, para unir duas orações com um matiz de adição, deve-se usar a terminação '-ㄴ/은 데다가' sobre o verbo da primeira oração, não um advérbio solto. Embora '게다가' seja válido em registro oral informal, em escrita formal ou para coesão avançada, é preferível a forma verbal integrada. Lembre-se de que, em coreano, os conectores discursivos geralmente são terminações verbais, não palavras independentes."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "첨가 (Adição)",
+        "translation": "Adição",
+        "examples": [
+          {
+            "original": "이 제품은 디자인이 좋은 데다가 가격도 저렴하다.",
+            "phonetic": "[i tɕepʰɯmɨn tidʑainɨn tɕoɯn tedaga kaɡjʌk̚to tɕʌɾjʌmhada]",
+            "translation": "Este produto, além de ter um bom design, tem um preço baixo.",
+            "note": "Usa-se '-ㄴ 데다가' para acrescentar informação positiva. Observe que a oração acrescentada vem antes da principal."
+          },
+          {
+            "original": "비가 오는 데다가 바람도 불어서 산책을 못 했어요.",
+            "phonetic": "[piɡa onɯn tedaga paɾamdo puɾʌsʰʌ santɕʰɛɡɯl motʰe̞ss͈ɔjo]",
+            "translation": "Além de chover, fazia vento, por isso não pudemos passear.",
+            "note": "Em registro informal, usa-se '-는 데다가' com verbos de ação. Aqui, '비가 오는' é a base."
+          },
+          {
+            "original": "그는 경험이 많은 데다가 젊기까지 하다.",
+            "phonetic": "[kɯnɯn kjʌŋhʌmi manɯn tedaga tɕʌmk͈iɡit͈ɕi hada]",
+            "translation": "Ele, além de ter muita experiência, é jovem.",
+            "note": "Pode-se acrescentar '-기까지 하다' para enfatizar a adição, um matiz que não existe em português."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "원인과 이유 (Causa e razão)",
+        "translation": "Causa e razão",
+        "examples": [
+          {
+            "original": "시간이 없기에 서둘러야 한다.",
+            "phonetic": "[ɕʰiɡani ʌp̚k͈ie sʰʌdullʌja handa]",
+            "translation": "Como não há tempo, devemos nos apressar.",
+            "note": "'-기에' é formal e usado para expressar causa de forma retórica, diferente de '-기 때문에', que é neutro."
+          },
+          {
+            "original": "그는 성실하기에 모두가 신뢰한다.",
+            "phonetic": "[kɯnɯn sʰʌŋɕiɾʝaɡie moduɡa ɕinɭø̞handa]",
+            "translation": "Como ele é diligente, todos confiam nele.",
+            "note": "Com adjetivos, usa-se '-하기에'. Em português, o matiz é semelhante a 'visto que'."
+          },
+          {
+            "original": "날씨가 흐리기에 우산을 챙겼다.",
+            "phonetic": "[nals͈iga xɯɾiɡie usʰanɯl tɕʰɛŋɡjʌt̚t͈a]",
+            "translation": "Como o tempo estava nublado, levei um guarda-chuva.",
+            "note": "Em contextos formais, '-기에' pode substituir '-기 때문에' sem mudança de significado, mas soa mais literário."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "양보와 대조 (Concessão e contraste)",
+        "translation": "Concessão e contraste",
+        "examples": [
+          {
+            "original": "힘들지언정 끝까지 해내겠다.",
+            "phonetic": "[çimtɯɭtɕiʌndʑiŋ k͈ɯt͈k͈aɟi hɛnɛɡet͈a]",
+            "translation": "Embora seja difícil, vou até o fim.",
+            "note": "'-ㄹ지언정' expressa concessão enfática, semelhante a 'mesmo que' em português, mas com um matiz de desafio."
+          },
+          {
+            "original": "죽을지언정 굴복하지 않겠다.",
+            "phonetic": "[tɕuɡɯɭdʑiʌndʑiŋ kuɭbokʰadʑi ankʰet͈a]",
+            "translation": "Antes morrer que me render.",
+            "note": "Esse marcador pode ser usado para expressar uma escolha firme, um matiz que em português se transmite com 'antes... que'."
+          },
+          {
+            "original": "학생이기로서니 그런 나쁜 말을 하면 안 된다.",
+            "phonetic": "[hak̚s͈ɛŋɡiɡisʰʌni kɯɾʌn na̠p͈ɯn maɾɯɭ hamjʌn ant͈ɤnda]",
+            "translation": "Sendo estudante, você não deveria dizer essas coisas ruins.",
+            "note": "'-기로서니' é um marcador de concessão que implica um reproche, não tem equivalente direto em português."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "pt": "Marcadores discursivos avançados para coesão"
+    }
+  },
+  {
+    "id": "pt_C1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "완곡한 표현과 완충 언어 / Linguagem de atenuação e distanciamento",
+    "bridge": "Em português, para suavizar ou distanciar uma afirmação, você usa recursos como o subjuntivo, condicionais ou advérbios ('talvez', 'provavelmente'). Em coreano, essa função é alcançada principalmente por meio de terminações verbais e partículas que modificam o grau de certeza ou polidez, como '-겠-', '-ㄹ 거예요' ou '-지요'. O grande desafio para um falante de português é que essas marcas não são advérbios opcionais, mas parte obrigatória da conjugação verbal, e ainda transmitem nuances de evidencialidade (se você sabe por experiência direta ou por informações de terceiros) que, em português, não são marcadas de forma tão sistemática. Também é preciso ter cuidado com o registro: o uso excessivo de atenuadores pode soar inseguro, assim como em português, mas em coreano é mais comum em contextos formais.",
+    "rule": "O hedging em coreano é expresso por várias terminações e construções que se adicionam ao verbo ou adjetivo. As mais relevantes para um nível C1 são:\n1. **-겠-** (futuro/suposição): indica intenção, suposição baseada no contexto ou polidez indireta. Ex.: 가겠다 (irei / acho que irei), 비가 오겠다 (parece que vai chover).\n2. **-ㄹ/을 거예요** (futuro/suposição): forma coloquial de futuro e suposição, com maior incerteza que -겠- em alguns contextos. Ex.: 내일 올 거예요 (provavelmente venha amanhã).\n3. **-ㄹ/을 수도 있어요** (possibilidade): expressa possibilidade, equivalente a 'pode ser que' em português. Ex.: 늦을 수도 있어요 (pode ser que chegue tarde).\n4. **-지요?** (não é mesmo? / acho que): buscando confirmação, cria um tom de distanciamento e polidez. Ex.: 재미있지요? (É interessante, não é?).\n5. **-아/어 보이다** (parece que): evidência visual ou sensorial. Ex.: 피곤해 보여요 (parece que você está cansado).\n6. **-ㄴ/는 것 같다** (me parece que): suposição baseada em alguma evidência, muito comum. Ex.: 그 영화가 좋은 것 같아요 (me parece que esse filme é bom).\n7. **-ㄴ/는 탓에, -ㄴ/는 바람에** (devido a que): para suavizar causas, muitas vezes com conotação negativa.\n8. **-은/는지 알다/모르다** (não sei se...): para expressar incerteza indireta. Ex.: 그가 올는지 몰라요 (não sei se ele virá).\nDeve-se prestar atenção ao contexto: em situações formais, usam-se terminações mais indiretas como -습니다만, -는 것 같습니다, enquanto no falar cotidiano predominam as formas coloquiais. A escolha entre -겠- e -ㄹ 거예요 também depende do grau de certeza e se há evidências: -겠- costuma ser mais subjetivo, enquanto -ㄹ 거예요 pode se basear em planos ou inferências. Para C1, espera-se que você use esses recursos de forma natural e apropriada à situação, evitando tanto a afirmação categórica quanto a hesitação excessiva.",
+    "concept_examples": [
+      {
+        "text": "이렇게 하면 문제가 해결될 것 같아요.",
+        "translation": "Me parece que, se fizermos assim, o problema será resolvido.",
+        "phonetic": "[iɾʌkʰe hamjʌn mund͡ʑega hɛɡjʌɭdweːl kʌt̚ kʼaːjo]"
+      },
+      {
+        "text": "그는 지금쯤 집에 도착했겠지요.",
+        "translation": "Acho que ele já deve ter chegado em casa a esta hora.",
+        "phonetic": "[kɯnɯn t͡ɕigɯmt͡ɕ͈ɯm t͡ɕibe toʧʰakʰɛt̚k͈ed͡ʑijo]"
+      },
+      {
+        "text": "내일은 비가 올 수도 있어요.",
+        "translation": "Amanhã pode ser que chova.",
+        "phonetic": "[nɛiɾɯn piɡa ol sʼudo issɔjo]"
+      },
+      {
+        "text": "그 말이 맞는지 잘 모르겠네요.",
+        "translation": "Não sei bem se essa afirmação está correta.",
+        "phonetic": "[kɯ maɾi mannɯnd͡ʑi t͡ɕal moɾɯk͈enːejo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "아마도 그는 늦게 올 거예요. (literal: talvez ele chegue tarde)",
+      "correct": "그는 늦게 올 거예요. (sem '아마도' ou com matiz mais natural)",
+      "correct_alt": "그는 늦게 올 수도 있어요.",
+      "explanation": "O erro típico é usar '아마도' (talvez) junto com uma terminação de suposição, porque, em coreano, a terminação já expressa a incerteza, e adicionar o advérbio pode soar redundante ou excessivamente enfático. Em português, é natural dizer 'talvez ele chegue tarde', mas, em coreano, a terminação '-ㄹ 거예요' já implica uma suposição, e '아마도' é usado com moderação, muitas vezes com '-겠-' ou '-ㄹ 거예요', mas em situações informais pode soar forçado. É melhor confiar nas marcas verbais em vez de usar advérbios."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "확실성 완충 / Atenução de certeza",
+        "translation": "Atenução de certeza",
+        "examples": [
+          {
+            "original": "내일은 학교에 안 갈 것 같아요.",
+            "phonetic": "[nɛiɾɯn haɡjoɛ an kʼal kʌt̚ kʼaːjo]",
+            "translation": "Acho que amanhã não vou à escola.",
+            "note": "Usa-se '-ㄹ 것 같다' para expressar uma suposição pessoal, suavizando a afirmação."
+          },
+          {
+            "original": "그 사람은 아마 학생일 거예요.",
+            "phonetic": "[kɯ saɾamɯn ama haksɛŋil kʌːjeːjo]",
+            "translation": "Essa pessoa provavelmente é estudante.",
+            "note": "O advérbio '아마' (talvez) pode acompanhar '-ㄹ 거예요' para reforçar a suposição, mas não é obrigatório."
+          },
+          {
+            "original": "이 문제는 풀 수 있을지도 몰라요.",
+            "phonetic": "[i mund͡ʑenɯn pʰul sʼu isːɯʎd͡ʑido moːɾaːjo]",
+            "translation": "Pode ser que até consiga resolver este problema.",
+            "note": "A construção '-을지도 모르다' expressa incerteza sobre uma possibilidade, um matiz mais especulativo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "간접적 의견 / Opinião indireta",
+        "translation": "Opinião indireta",
+        "examples": [
+          {
+            "original": "그 의견이 더 나을 수도 있어요.",
+            "phonetic": "[kɯ ɰiɡjʌni tʌː naɯl sʼudo isʼɔjo]",
+            "translation": "Pode ser que essa opinião seja melhor.",
+            "note": "'-을 수도 있어요' sugere uma possibilidade entre outras, sem afirmar de forma categórica."
+          },
+          {
+            "original": "이렇게 하는 게 좋지 않을까요?",
+            "phonetic": "[iɾʌkʰe hanɯn ke t͡ɕoːt͡ɕʰi anɯlk͈aːjo]",
+            "translation": "Não seria melhor fazer assim?",
+            "note": "A terminação '-지 않을까요?' é uma forma de sugestão indireta, muito útil para propor sem impor."
+          },
+          {
+            "original": "제 생각에는 이 방법이 맞는 것 같습니다.",
+            "phonetic": "[t͡ɕe sɛŋaɡeːnɯn i paŋbʌːbi mannɯn kʌt̚ kʼaːsʼɯmnida]",
+            "translation": "Na minha opinião, acho que este método está correto.",
+            "note": "Combinar '제 생각에는' com '-ㄴ 것 같습니다' é uma forma formal e matizada de dar uma opinião."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "인식의 거리 두기 / Distanciamento epistêmico",
+        "translation": "Distanciamento epistêmico",
+        "examples": [
+          {
+            "original": "그 말을 들은 적이 있는 것 같아요.",
+            "phonetic": "[kɯ maɾɯl tɯɾɯn d͡ʑʌɡi inːɯn kʌt̚ kʼaːjo]",
+            "translation": "Acho que já ouvi essa afirmação antes.",
+            "note": "O uso de '-ㄴ 적이 있다' junto com '-ㄴ 것 같다' indica uma memória incerta, um distanciamento da certeza."
+          },
+          {
+            "original": "이 결과는 연구에 의하면 신뢰할 수 없는 것 같습니다.",
+            "phonetic": "[i kjʌɡwaːnɯn jʌnɡuɛ ɰihaːmjʌn ɕinːøːhaːl sʼuːʌmnɯn kʌt̚ kʼaːsʼɯmnida]",
+            "translation": "Segundo a pesquisa, este resultado parece pouco confiável.",
+            "note": "Combina-se a fonte ('에 의하면') com '-ㄴ 것 같습니다' para expressar uma conclusão baseada em evidências, mas com cautela."
+          },
+          {
+            "original": "그녀는 화가 났는지도 몰라요.",
+            "phonetic": "[kɯɲʌːnɯn hwaɡa nanːɯnd͡ʑido moːɾaːjo]",
+            "translation": "Pode ser que ela esteja com raiva.",
+            "note": "'-는지도 모르다' expressa uma suposição baseada em indícios não confirmados, típico do discurso especulativo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "pt": "Linguagem de atenuação e distanciamento"
+    }
+  },
+  {
+    "id": "pt_C1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "복합 동사 패턴 (이중 목적어 등) / Padrões verbais complexos (objeto duplo, etc.)",
+    "bridge": "Em coreano, ao contrário do português, os verbos que possuem objeto duplo (por exemplo, 'dar', 'enviar', 'ensinar') nem sempre são construídos da mesma forma. Enquanto em português usamos preposições ('a', 'de') ou complemento indireto (lhe/lhes), em coreano as funções gramaticais são marcadas com partículas: -을/를 para o objeto direto e -에게/한테 para o receptor. Além disso, alguns verbos que em português são transitivos diretos (como 'ajudar') em coreano requerem objeto indireto (com -에게) ou até mesmo são construídos com outras partículas. O erro típico é transferir a estrutura do português e omitir ou colocar mal essas partículas.",
+    "rule": "Em coreano, os verbos que implicam transferência ou comunicação (주다 'dar', 보내다 'enviar', 가르치다 'ensinar', 말하다 'dizer', 묻다 'perguntar', 약속하다 'prometer', etc.) exigem um objeto direto (marcado com -을/를) e um objeto indireto (receptor, marcado com -에게 se for animado, ou -에 se for inanimado ou destino). Diferentemente do português, onde o objeto indireto pode ser um pronome átono ('lhe', 'lhes') ou um sintagma preposicional com 'a', em coreano adiciona-se a partícula correspondente ao substantivo ou pronome. Além disso, há verbos que em português são transitivos (com objeto direto), mas em coreano são construídos com outro caso: por exemplo, 'ajudar' (돕다) leva objeto direto (을/를), mas também pode tomar -에게 em contextos de 'ajudar alguém' (embora seja menos comum; geralmente -을/를). Outros, como 'gostar' (좋아하다), são transitivos em coreano, enquanto em português são intransitivos com 'gosto'. Para o nível C1, é necessário dominar também os verbos que alternam entre -을/를 e -에게 de acordo com o significado, como '배우다' (aprender algo -을/를; aprender de alguém -에게서). Em estruturas passivas ou causativas, as partículas mudam, e em orações com objeto duplo, a ordem costuma ser: sujeito - objeto indireto - objeto direto - verbo. Não esquecer que o objeto indireto em coreano também pode ser -한테 (informal) ou -께 (honorífico).",
+    "concept_examples": [
+      {
+        "text": "저는 선생님께 한국어를 배워요.",
+        "translation": "Eu aprendo coreano com o professor.",
+        "phonetic": "dʑʌ.nɯn sʌn.sɛŋ.nim.k͈e haŋ.ɡu.ɡʌ.ɾɯl pɛ.wo.jo"
+      },
+      {
+        "text": "그는 나에게 편지를 보냈어요.",
+        "translation": "Ele me enviou uma carta.",
+        "phonetic": "kɯ.nɯn na.e.ɡe pʰjʌn.dʑi.ɾɯl po.nɛ.s͈ʌ.jo"
+      },
+      {
+        "text": "우리는 아이들에게 한국 역사를 가르칩니다.",
+        "translation": "Nós ensinamos história da Coreia às crianças.",
+        "phonetic": "u.ɾi.nɯn a.i.dɯ.ɾe.ɡe haŋ.ɡuk jʌk.s͈a.ɾɯl ka.ɾɯ.tɕʰim.ni.da"
+      },
+      {
+        "text": "그 여자가 나에게 전화번호를 물어봤어요.",
+        "translation": "Aquela mulher me perguntou o número de telefone.",
+        "phonetic": "kɯ jʌ.dʑa.ɡa na.e.ɡe dʑʌn.ɦwa.bʌn.ɦo.ɾɯl mu.ɾʌ.bwa.t͈ʌ.jo"
+      }
+    ],
+    "common_error": {
+      "wrong": "저는 그에게 한국어를 가르칩니다. (erro: '그에게' no lugar de '그에게서' para 'aprender de')",
+      "correct": "저는 그에게서 한국어를 배웁니다.",
+      "correct_alt": "저는 그에게 한국어를 배웁니다. (coloquial, embora menos correto)",
+      "explanation": "O erro ocorre porque, em português, 'aprender de alguém' é expresso com a preposição 'de', mas em coreano o verbo '배우다' (aprender) exige que a fonte seja marcada com -에게서 (de alguém), enquanto -에게 é usado para o receptor (aprender algo para alguém). Ao traduzir diretamente do português, tende-se a usar -에게, que é o marcador típico de objeto indireto de verbos como 'dar', 'enviar', etc. Para evitá-lo, é preciso memorizar os verbos que requerem -에게서 (aprender, receber, ouvir de alguém) e diferenciá-los dos que usam -에게."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "이중 목적어 동사",
+        "translation": "Verbos com objeto duplo",
+        "examples": [
+          {
+            "original": "할머니께서 아이에게 용돈을 주셨어요.",
+            "phonetic": "ɦal.mʌ.ni.k͈e.sʌ a.i.e.ɡe joŋ.don.ɯl dʑu.ɕjʌ.s͈ʌ.jo",
+            "translation": "A avó deu dinheiro de bolso à criança.",
+            "note": "Usa-se -께서 para sujeito honorífico e -에게 para o receptor."
+          },
+          {
+            "original": "저는 친구에게 생일 선물을 보냈어요.",
+            "phonetic": "dʑʌ.nɯn tɕʰin.ɡu.e.ɡe sɛŋ.il sʌn.mu.ɾɯl po.nɛ.s͈ʌ.jo",
+            "translation": "Enviei um presente de aniversário ao meu amigo.",
+            "note": "O objeto direto (선물) leva -을, o receptor (친구) leva -에게."
+          },
+          {
+            "original": "선생님이 학생들에게 숙제를 내주셨어요.",
+            "phonetic": "sʌn.sɛŋ.ni.mi ɦak.sɛŋ.dɯ.ɾe.ɡe suk̚.tɕ͈e.ɾɯl nɛ.dʑu.ɕjʌ.s͈ʌ.jo",
+            "translation": "O professor atribuiu tarefa aos alunos.",
+            "note": "O verbo '내주다' (atribuir) também segue o padrão de objeto duplo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "수여 동사의 다양한 의미",
+        "translation": "Diversos significados de verbos de dar",
+        "examples": [
+          {
+            "original": "그는 나에게 약속을 지키겠다고 말했어요.",
+            "phonetic": "kɯ.nɯn na.e.ɡe jak̚.s͈o.gɯl dʑi.kʰi.k͈e.t͈a.ɡo ma.ɾɛ.s͈ʌ.jo",
+            "translation": "Ele me disse que cumpriria sua promessa.",
+            "note": "O verbo '말하다' (dizer) é construído com -에게 (a quem) e o conteúdo em estilo indireto."
+          },
+          {
+            "original": "우리 할아버지는 나에게 옛날 이야기를 들려주셨어요.",
+            "phonetic": "u.ɾi ɦa.ɾa.bʌ.dʑi.nɯn na.e.ɡe jɛn.naɾ i.ja.ɡi.ɾɯl tɯɭ.ɾjʌ.dʑu.ɕjʌ.s͈ʌ.jo",
+            "translation": "Meu avô me contou histórias antigas.",
+            "note": "'들려주다' (contar, fazer ouvir) requer objeto indireto com -에게."
+          },
+          {
+            "original": "제가 어머니께 편지를 써 드렸어요.",
+            "phonetic": "dʑe.ɡa ʌ.mʌ.ni.k͈e pʰjʌn.dʑi.ɾɯl s͈ʌ dɯ.ɾjʌ.s͈ʌ.jo",
+            "translation": "Eu escrevi uma carta à minha mãe (com respeito).",
+            "note": "Usa-se -께 (forma honorífica de -에게) e o verbo auxiliar 드리다 para demonstrar respeito."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "특수 목적어 구조",
+        "translation": "Estruturas com objeto especial",
+        "examples": [
+          {
+            "original": "저는 그 사람에게서 한국어를 배웠어요.",
+            "phonetic": "dʑʌ.nɯn kɯ sa.ɾa.mɯ.e.ɡe.s͈ʌ haŋ.ɡu.ɡʌ.ɾɯl pɛ.wʌ.s͈ʌ.jo",
+            "translation": "Aprendi coreano com aquela pessoa.",
+            "note": "Para 'aprender de alguém', usa-se -에게서 (fonte), não -에게."
+          },
+          {
+            "original": "나는 친구에게 부탁을 했어요.",
+            "phonetic": "na.nɯn tɕʰin.ɡu.e.ɡe pu.tʰa.gɯl ɦɛ.s͈ʌ.jo",
+            "translation": "Pedi um favor ao meu amigo.",
+            "note": "O verbo '부탁하다' (pedir um favor) é construído com -에게 e objeto direto."
+          },
+          {
+            "original": "그녀가 나에게 한국 노래를 추천해 줬어요.",
+            "phonetic": "kɯ.ɲʌ.ɡa na.e.ɡe haŋ.ɡuk̚ no.ɾɛ.ɾɯl tɕʰu.tɕʰʌn.ɦɛ dʑwʌ.s͈ʌ.jo",
+            "translation": "Ela me recomendou uma canção coreana.",
+            "note": "Com verbos como '추천하다' (recomendar), pode-se usar -에게 (a quem) e também -에게서 se a recomendação vier de alguém."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "pt": "Padrões verbais complexos (objeto duplo, etc.)"
+    }
+  },
+  {
+    "id": "pt_C1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "시간과 상의 미묘한 차이 (Matizes entre tempo e aspecto)",
+    "bridge": "Em espanhol, os tempos verbais combinam tempo e aspecto de forma integrada (por exemplo, o pretérito perfeito simples vs. o imperfeito). Em coreano, o aspecto é expresso de maneira mais analítica por meio de partículas e construções auxiliares, como -고 있다 (progressivo), -아/어 있다 (resultativo), -었었- (mais-que-perfeito de experiência ou interrupção), entre outros. O falante de espanhol tende a transferir a distinção perfeito/imperfeito diretamente, mas o coreano usa marcadores explícitos que nem sempre coincidem com as categorias espanholas.",
+    "rule": "Em coreano, o tempo gramatical básico é passado (-았/었-), presente (-아/어요 ou forma base) e futuro (-겠-, -ㄹ 것이에요). No entanto, os matizes aspectuais são adicionados por meio de: 1) -고 있다 para ação em progresso (equivalente ao gerúndio em espanhol, mas mais restritivo: não é usado com verbos estativos); 2) -아/어 있다 para estado resultante de uma ação anterior (similar a 'estar + particípio'); 3) -었었- para um passado que já não é relevante no presente (como o mais-que-perfeito do espanhol em certos contextos); 4) -곤 하다 para hábitos passados (equivalente a 'costumava'); 5) -다가 para ação interrompida (similar a 'estava fazendo quando...'). A escolha depende do aspecto léxico do verbo (ex.: verbos de ação vs. verbos de mudança de estado) e do contexto discursivo. No nível C1, espera-se domínio de nuances como a diferença entre -았었다 e -았었었다 (embora esta última seja redundante e pouco usada), e a combinação de -고 있다 com verbos como 'saber' ou 'amar', que em espanhol não admitem progressivo, mas em coreano sim (사랑하고 있다).",
+    "concept_examples": [
+      {
+        "text": "그는 지금 책을 읽고 있어요.",
+        "translation": "Ele está lendo um livro agora.",
+        "phonetic": "[kɯ.nɯn tɕi.gɯm tɕʰɛ.kɯɭ iɾ.kʰo i.ssɔ.jo]"
+      },
+      {
+        "text": "문이 열려 있어요.",
+        "translation": "A porta está aberta (resultado de ter sido aberta).",
+        "phonetic": "[mun.i jʌʎ.ʎjɔ i.ssɔ.jo]"
+      },
+      {
+        "text": "어렸을 때는 매일 공원에 갔었어요.",
+        "translation": "Quando criança, costumava ir ao parque todos os dias (já não faço isso).",
+        "phonetic": "[ɔ.ɾjʌ.ssɯl t̚t͈ɛ.nɯn mɛ.iɭ koŋ.wɔ.nɛ ka.ssɔ.ssɔ.jo]"
+      },
+      {
+        "text": "집에 가다가 친구를 만났어요.",
+        "translation": "Estava indo para casa quando encontrei um amigo.",
+        "phonetic": "[tɕi.bɛ ka.da.ga tɕʰin.ɡu.ɾɯɭ man.na.ssɔ.jo]"
+      }
+    ],
+    "common_error": {
+      "wrong": "그는 아침 7시에 일어났었어요.",
+      "correct": "그는 아침 7시에 일어났어요.",
+      "correct_alt": "",
+      "explanation": "Os falantes de espanhol tendem a usar -었었- como equivalente direto do pretérito perfeito ou do pretérito indefinido em espanhol, mas em coreano esse marcador implica um passado que já não tem relação com o presente ou uma experiência passada que foi interrompida. Para um evento pontual no passado sem ênfase na ruptura com o presente, usa-se simplesmente -았/었-. Por exemplo, 'levantou-se às 7' é um fato pontual e não requer o duplo passado. Usar -었었- nesse contexto soa como se o fato fizesse parte de uma fase encerrada (por exemplo, 'costumava levantar-se às 7, mas não mais'). Para evitar esse erro, deve-se perguntar se o evento passado tem relevância no presente; se não tiver, usa-se o passado simples."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "진행상 ( -고 있다 )",
+        "translation": "Aspecto progressivo (-고 있다)",
+        "examples": [
+          {
+            "original": "나는 지금 공부하고 있어요.",
+            "phonetic": "[na.nɯn tɕi.gɯm koŋ.bu.ha.go i.ssɔ.jo]",
+            "translation": "Estou estudando agora.",
+            "note": "Lembre-se de que -고 있다 é usado com verbos de ação; com verbos estativos como '알다' (saber), muda o significado: '알고 있다' = 'sei' (estado de conhecimento)."
+          },
+          {
+            "original": "비가 오고 있어요.",
+            "phonetic": "[pi.ɡa o.go i.ssɔ.jo]",
+            "translation": "Está chovendo."
+          },
+          {
+            "original": "그 영화를 보고 있어요.",
+            "phonetic": "[kɯ jʌŋ.βwa.ɾɯɭ po.go i.ssɔ.jo]",
+            "translation": "Estou assistindo a esse filme."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "상태상 ( -아/어 있다 )",
+        "translation": "Aspecto resultativo (-아/어 있다)",
+        "examples": [
+          {
+            "original": "의자가 놓여 있어요.",
+            "phonetic": "[ɰi.dʑa.ɡa no.ʝjɔ i.ssɔ.jo]",
+            "translation": "A cadeira está colocada (resultado de ter sido colocada)."
+          },
+          {
+            "original": "그는 결혼해 있어요.",
+            "phonetic": "[kɯ.nɯn kjʌɾ.ɦon.hɛ i.ssɔ.jo]",
+            "translation": "Ele está casado (e continua casado)."
+          },
+          {
+            "original": "창문이 닫혀 있어요.",
+            "phonetic": "[tɕʰaŋ.mu.ni ta.tɕʰjɔ i.ssɔ.jo]",
+            "translation": "A janela está fechada."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "과거 경험과 중단 ( -었었-, -다가 )",
+        "translation": "Passado experiencial e ação interrompida (-었었-, -다가)",
+        "examples": [
+          {
+            "original": "한국에 살았었어요.",
+            "phonetic": "[han.ɡu.ge sa.ɾa.ssɔ.ssɔ.jo]",
+            "translation": "Vivi na Coreia (mas não moro mais lá)."
+          },
+          {
+            "original": "밥을 먹다가 전화를 받았어요.",
+            "phonetic": "[pa.bɯɭ mʌk̚.t͈a.ɡa tɕʌn.βwa.ɾɯɭ pa.da.ssɔ.jo]",
+            "translation": "Estava comendo quando atendi uma ligação."
+          },
+          {
+            "original": "어릴 때는 피아노를 쳤었어요.",
+            "phonetic": "[ɔ.ɾiɭ t͈ɛ.nɯn pʰi.a.no.ɾɯɭ tɕʰjʌ.ssɔ.ssɔ.jo]",
+            "translation": "Quando criança, tocava piano (mas não toco mais)."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "pt": "Matizes entre tempo e aspecto verbal"
+    }
+  },
+  {
+    "id": "pt_C1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "피동·사동의 고급 용법 / Uso avançado de voz passiva e causativa",
+    "bridge": "Em português, as construções passivas impessoais com 'se' ou estruturas como 'diz-se que' expressam informações sem um agente concreto. No entanto, o coreano utiliza construções como '-다고 하다' (dizem que) ou sufixos passivos como '-이/히/리/기-' que se anexam ao verbo, além de formas como '-아/어지다', que indicam mudança ou processo. Uma armadilha comum é usar a voz passiva coreana para traduzir literalmente 'se pensa', quando o coreano prefere construções com '것으로 알려지다' ou '-다고 여겨지다'. A diferença-chave: o coreano distingue entre voz passiva morfológica (mudança na forma do verbo) e voz passiva sintática (com '-이/히/리/기-' ou '-아/어지다'), enquanto o português costuma usar mais a voz passiva reflexa.",
+    "rule": "No coreano, as vozes passivas avançadas (nível C1) incluem: 1) Voz passiva morfológica: verbos com sufixos '-이-', '-히-', '-리-', '-기-' (ex.: 보다→보이다, 먹다→먹히다). 2) Voz passiva com '-아/어지다': indica processo ou resultado, frequentemente com verbos de percepção ou emoção (ex.: 알려지다, 느껴지다). 3) Construções impessoais: para expressar 'se diz' ou 'se acredita', usam-se '-(ㄴ/는)다고 하다', '-다고 알려지다', '-것으로 여겨지다'. Também existem formas passivas com '받다' (receber) para verbos como '영향을 받다' (ser afetado). A escolha depende do registro e da nuance: -이/히 é mais direto e físico, enquanto -어지다 é mais abstrato ou emocional. Para C1, é crucial dominar a voz passiva com verbos transitivos e intransitivos, e distinguir entre voz passiva e causativa. Exceção: nem todos os verbos têm forma passiva morfológica; alguns usam '-당하다' (sofrer) ou evitam a voz passiva.",
+    "concept_examples": [
+      {
+        "text": "그 사실은 널리 알려져 있다.",
+        "translation": "Esse fato é amplamente conhecido.",
+        "phonetic": "[ɡɯ sa̠ɕiɾɯn nʌ̹ʎʎi a̠ʎʎjʌ̹dʑja it̚t͈a̠]"
+      },
+      {
+        "text": "그가 범인이라고 여겨진다.",
+        "translation": "Ele é considerado culpado.",
+        "phonetic": "[kɯɡa̠ pʌ̹minira̠ɡo̞ jʌ̹ɡjʌ̹dʑinda̠]"
+      },
+      {
+        "text": "이 책은 많은 사람들에게 읽힌다.",
+        "translation": "Este livro é lido por muitas pessoas.",
+        "phonetic": "[i tɕʰɛ̝ɡɯn ma̠nɯn sa̠ɾa̠mdɯɾe̞ɡe̞ iɭʨʰinda̠]"
+      },
+      {
+        "text": "그 사건은 아직 조사되고 있다.",
+        "translation": "Esse caso ainda está sendo investigado.",
+        "phonetic": "[kɯ sa̠ɡʌ̹nɯn a̠dʑiɡ tɕo̞sa̠dwe̞ɡo̞ it̚t͈a̠]"
+      }
+    ],
+    "common_error": {
+      "wrong": "그가 착한 것이라고 믿어집니다.",
+      "correct": "그가 착한 것이라고 믿어집니다.",
+      "correct_alt": "그가 착하다고 믿어집니다.",
+      "explanation": "O erro aqui é a redundância: em coreano, '것이라고' já inclui a nominalização, e '믿다' na voz passiva ('믿어지다') não precisa de '것' extra. Falantes de espanhol tendem a traduzir 'se acredita que' como '것이라고 믿어지다', mas o natural é '다고 믿어지다' ou '것으로 믿어지다'. A forma correta é '다고 믿어지다' (sem '것') ou '것으로 여겨지다' (com '것으로'). Evite combinar ambas as estruturas."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "형태적 피동",
+        "translation": "Voz passiva morfológica",
+        "examples": [
+          {
+            "original": "문이 닫혔다.",
+            "phonetic": "[muni tʰa̠tʰjʌ̹t̚t͈a̠]",
+            "translation": "A porta foi fechada.",
+            "note": "Uso do sufixo '-히-' em '닫다' (fechar) → '닫히다' (ser fechado). É uma voz passiva física."
+          },
+          {
+            "original": "그 소식은 곧 알려졌다.",
+            "phonetic": "[kɯ sʰo̞ɕiɡɯn ko̞t̚ a̠ʎʎjʌ̹dʑʌ̹t̚t͈a̠]",
+            "translation": "Essa notícia logo foi divulgada.",
+            "note": "'알다' (saber) → '알리다' (informar) → '알려지다' (ser conhecido). Cadeia causativa-passiva."
+          },
+          {
+            "original": "이 문제는 쉽게 풀린다.",
+            "phonetic": "[i mund͡ʒe̞nɯn ʃʰip̚k͈e̞ pʰuɭʎinda̠]",
+            "translation": "Esse problema é resolvido facilmente.",
+            "note": "Verbo '풀다' (resolver) com sufixo '-리-' → '풀리다' (ser resolvido/afrouxar)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "사동·피동의 중의성",
+        "translation": "Ambiguidade causativa-passiva",
+        "examples": [
+          {
+            "original": "아이가 놀랐다.",
+            "phonetic": "[a̠iɡa̠ no̞ɭɭa̠t̚t͈a̠]",
+            "translation": "A criança se assustou.",
+            "note": "'놀라다' pode ser passiva (ser surpreendido) ou intransitiva (se assustar). Aqui é intransitiva, não passiva."
+          },
+          {
+            "original": "그는 선생님께 칭찬을 받았다.",
+            "phonetic": "[kɯnɯn sʰʌ̹nsʰɛ̝ŋnimk͈e̞ t͡ɕʰiŋt͡ɕʰa̠nɯl pa̠da̠t̚t͈a̠]",
+            "translation": "Ele recebeu elogios do professor.",
+            "note": "Uso de '받다' (receber) para expressar voz passiva com verbos de comunicação. Alternativa à morfológica."
+          },
+          {
+            "original": "그 계획은 실패할 수밖에 없었다.",
+            "phonetic": "[kɯ kje̞hwe̞ɡɯn ɕʰipʰɛ̝ɦa̠ɭ sʰubakk͈e̞ ʌ̹pʰs͈ʌ̹t̚t͈a̠]",
+            "translation": "Esse plano não teve outra opção senão falhar.",
+            "note": "A voz passiva com '-어지다' não é possível aqui; usa-se uma construção impessoal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "비인칭 피동과 보고",
+        "translation": "Voz passiva impessoal e de relato",
+        "examples": [
+          {
+            "original": "그가 무죄라고 판결되었다.",
+            "phonetic": "[kɯɡa̠ mud͡ʑwe̞ra̠ɡo̞ pʰa̠nɡjʌ̹ɾdwe̞ʌ̹t̚t͈a̠]",
+            "translation": "Ele foi julgado inocente.",
+            "note": "Construção com '-라고' + '판결되다' (ser julgado). Muito formal."
+          },
+          {
+            "original": "이 약은 식후에 복용되어야 한다.",
+            "phonetic": "[i ja̠ɡɯn ɕʰikʰue̞ po̞ɡjoŋdwe̞ʌ̹ja̠ ha̠nda̠]",
+            "translation": "Este medicamento deve ser tomado após as refeições.",
+            "note": "Uso de '-되어야 하다' para expressar obrigação passiva impessoal."
+          },
+          {
+            "original": "그 사건이 언론에 보도되었다.",
+            "phonetic": "[kɯ sa̠ɡʌ̹ni ʌ̹ɭɭo̞ne̞ po̞do̞dwe̞ʌ̹t̚t͈a̠]",
+            "translation": "O caso foi reportado pela mídia.",
+            "note": "'보도되다' (ser reportado) é um verbo passivo com '-되다', comum em notícias."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "pt": "Uso avançado de voz passiva e causativa"
+    }
   }
 ]
