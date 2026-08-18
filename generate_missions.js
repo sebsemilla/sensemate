@@ -61,7 +61,7 @@ function setGroq() {
         apiKey:  process.env.GROQ_API_KEY,
         baseURL: 'https://api.groq.com/openai/v1',
     });
-    activeModel        = 'qwen/qwen3.6-27b';
+    activeModel        = 'openai/gpt-oss-20b';
     activeProviderName = 'Groq';
 }
 
@@ -499,34 +499,65 @@ Requirements:
 
 // ─── Prompt de traducción (modo --from) ──────────────────────
 
+function _slimConcept(concept) {
+    // Returns only the fields that need translation (reduces prompt ~40%)
+    const s = { id: concept.id, title: concept.title };
+    if (concept.bridge)      s.bridge      = concept.bridge;
+    if (concept.rule)        s.rule        = concept.rule;
+    if (concept.translations) s.translations = concept.translations;
+    if (concept.concept_examples) s.concept_examples = concept.concept_examples.map(e => ({ translation: e.translation }));
+    if (concept.common_error)     s.common_error     = { explanation: concept.common_error.explanation };
+    if (concept.levels)           s.levels           = concept.levels.map(l => ({
+        translation: l.translation,
+        examples: (l.examples || []).map(e => ({ translation: e.translation, ...(e.note ? { note: e.note } : {}) }))
+    }));
+    return s;
+}
+
+function _mergeTranslated(original, translated, fromSource, newSource) {
+    // Deep-merge: apply translated fields onto a clone of the original
+    const result = JSON.parse(JSON.stringify(original));
+    if (translated.bridge)      result.bridge      = translated.bridge;
+    if (translated.rule)        result.rule        = translated.rule;
+    if (translated.title)       result.title       = translated.title;
+    if (translated.translations) {
+        result.translations = { ...original.translations, ...translated.translations };
+        delete result.translations[fromSource];
+    }
+    if (translated.concept_examples && result.concept_examples) {
+        translated.concept_examples.forEach((e, i) => { if (result.concept_examples[i]) result.concept_examples[i].translation = e.translation; });
+    }
+    if (translated.common_error?.explanation && result.common_error) {
+        result.common_error.explanation = translated.common_error.explanation;
+    }
+    if (translated.levels && result.levels) {
+        translated.levels.forEach((l, i) => {
+            if (!result.levels[i]) return;
+            if (l.translation) result.levels[i].translation = l.translation;
+            if (l.examples && result.levels[i].examples) {
+                l.examples.forEach((e, j) => {
+                    if (!result.levels[i].examples[j]) return;
+                    if (e.translation) result.levels[i].examples[j].translation = e.translation;
+                    if (e.note !== undefined) result.levels[i].examples[j].note = e.note;
+                });
+            }
+        });
+    }
+    result.id = original.id.replace(new RegExp(`^${fromSource}_`), `${newSource}_`);
+    return result;
+}
+
 function buildTranslatePrompt(concept, fromSource, newSource) {
     const fromLang = LANGS[fromSource] || { nameEn: fromSource };
     const newLang  = LANGS[newSource]  || { nameEn: newSource  };
+    const slim     = _slimConcept(concept);
 
-    return `You are a language translation assistant for educational content.
+    return `Translate the explanation fields from ${fromLang.nameEn} to ${newLang.nameEn}.
+Fields to translate: bridge, rule, title (only the part after " / "), concept_examples[].translation, common_error.explanation, levels[].translation, levels[].examples[].translation, levels[].examples[].note, translations value.
+id: change prefix "${fromSource}_" to "${newSource}_". translations: replace key "${fromSource}" with "${newSource}".
+Return ONLY valid JSON. No markdown.
 
-Below is a language learning concept card. The TARGET LANGUAGE content is fixed and must not change.
-Explanations are currently written in ${fromLang.nameEn}.
-
-Your task: translate ONLY the explanation fields from ${fromLang.nameEn} to ${newLang.nameEn}.
-
-STRICT RULES:
-- Keep ALL target-language content EXACTLY as-is: concept_examples[].text, concept_examples[].phonetic, common_error.wrong, common_error.correct, common_error.correct_alt, levels[].label, levels[].examples[].original, levels[].examples[].phonetic, type, category, emoji, phonetic
-- Translate ONLY these fields:
-    * bridge
-    * rule
-    * title: keep the target-language part before " / " unchanged; translate only the part after " / " to ${newLang.nameEn}
-    * concept_examples[].translation
-    * common_error.explanation
-    * levels[].translation
-    * levels[].examples[].translation
-    * levels[].examples[].note (if present; omit if absent in the original)
-    * translations: remove the "${fromSource}" key and add a "${newSource}" key with the topic name translated to ${newLang.nameEn}
-- Replace the "id" field: change the prefix "${fromSource}_" to "${newSource}_"
-- Respond ONLY with valid JSON, no markdown, no extra text
-
-INPUT CONCEPT:
-${JSON.stringify(concept, null, 2)}`;
+${JSON.stringify(slim)}`;
 }
 
 // ─── Llamada al modelo (modo --from) ─────────────────────────
@@ -548,15 +579,10 @@ async function translateConcept(concept, fromSource, newSource, retries = 3) {
             const end   = raw.lastIndexOf('}');
             if (start !== -1 && end !== -1) raw = raw.slice(start, end + 1);
             const parsed = JSON.parse(raw);
-            if (!parsed.bridge || !parsed.levels?.length) throw new Error('Missing bridge or levels');
-            // Enforce ID substitution programmatically — don't rely on the model
-            parsed.id = concept.id.replace(new RegExp(`^${fromSource}_`), `${newSource}_`);
-            if (parsed.translations?.[fromSource]) {
-                parsed.translations[newSource] = parsed.translations[fromSource];
-                delete parsed.translations[fromSource];
-            }
+            if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) throw new Error('Invalid JSON response');
+            const merged = _mergeTranslated(concept, parsed, fromSource, newSource);
             process.stdout.write(' ✓\n');
-            return parsed;
+            return merged;
         } catch (err) {
             process.stdout.write(` ✗ (${err.message})\n`);
             const isQuota = err.message.includes('402') || err.message.includes('RESOURCE_EXHAUSTED') || err.message.toLowerCase().includes('quota');
