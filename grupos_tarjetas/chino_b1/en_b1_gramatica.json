@@ -1,0 +1,1621 @@
+[
+  {
+    "id": "en_B1_gram_01",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "过去的过去 / Past Perfect Tense",
+    "bridge": "In Spanish, we use the past perfect (había + past participle) to express an action that occurred before another action in the past. In Mandarin Chinese, there is no verb conjugation or morphological tense; instead, aspect markers and time particles like 了, 过, and 已经, along with explicit time references (e.g., 以前, 昨天, 的时候), are used to indicate that something happened before another past event. The key difference is that Chinese does not mark anteriority in the verb itself but through context and time adverbs. For Spanish speakers, this requires a shift in focus: it’s not about a specific verb form but about organizing time using prepositional and aspect markers. Additionally, the use of 了 can be redundant if a time adverb is already present, which often leads to transfer errors.",
+    "rule": "In Mandarin, to express a past action that occurred before another past action, the following elements are used:\n- The time adverb 已经 (yǐjīng) 'already' is placed before the verb to indicate that the action had already been completed at a point in the past.\n- The aspect marker 了 (le) after the verb indicates the completion of the action, but it is not mandatory if the time context is already clear.\n- The particle 过 (guò) indicates past experience and is used for actions that have occurred at least once in life.\n- Time references such as 以前 (yǐqián) 'before', 昨天 (zuótiān) 'yesterday', or structures like 在...之前 (zài... zhīqián) 'before...' are often included.\n- The typical time structure is: [Time] + [Subject] + [已经 + Verb (+ 了)] + [Object].\n- Example: 昨天我到他家的时候，他已经离开了。 (Yesterday, when I arrived at his house, he had already left).\n- Important differences: there are no auxiliary verbs equivalent to 'haber', and word order is fixed: time adverbs usually appear at the beginning or before the verb, not at the end. Additionally, 了 is not equivalent to the past participle; it can be omitted if a clear time marker is present.",
+    "concept_examples": [
+      {
+        "text": "昨天我到他家的时候，他已经离开了。",
+        "translation": "Ayer cuando llegué a su casa, él ya se había ido.",
+        "phonetic": "zuótiān wǒ dào tā jiā de shíhou, tā yǐjīng líkāi le."
+      },
+      {
+        "text": "我原以为他已经做完作业了。",
+        "translation": "Yo originalmente pensaba que él ya había terminado la tarea.",
+        "phonetic": "wǒ yuán yǐwéi tā yǐjīng zuò wán zuòyè le."
+      },
+      {
+        "text": "她告诉我她以前去过中国。",
+        "translation": "Ella me dijo que antes había estado en China.",
+        "phonetic": "tā gàosu wǒ tā yǐqián qù guò zhōngguó."
+      },
+      {
+        "text": "在会议开始之前，我已经准备好了报告。",
+        "translation": "Antes de que empezara la reunión, ya había preparado el informe.",
+        "phonetic": "zài huìyì kāishǐ zhīqián, wǒ yǐjīng zhǔnbèi hǎo le bàogào."
+      }
+    ],
+    "common_error": {
+      "wrong": "昨天我去他家，他走了了。",
+      "correct": "昨天我去他家的时候，他已经走了。",
+      "correct_alt": "昨天我到他家时，他已经离开了。",
+      "explanation": "The most common error is omitting the time adverb 已经 and placing 了 twice (once in each clause) or using it as if it were a simple past tense. In Spanish, we tend to translate 'había + past participle' as a single verb form, but in Chinese, anteriority must be indicated with 已经 (already) and a time reference (when I arrived, before, etc.). Additionally, the first 了 in the first clause is unnecessary because the action 'arrive' serves as the reference point; the second 了 after 'leave' marks the completed action. The correct structure uses 已经 + verb + 了 in the second clause and a time conjunction like 的时候 or 时."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "已经 + 动词 + 了",
+        "translation": "Already + verb + le (completed action)",
+        "examples": [
+          {
+            "original": "他已经吃了饭。",
+            "phonetic": "tā yǐjīng chī le fàn.",
+            "translation": "Él ya había comido.",
+            "note": "Basic use of 已经 before the verb and 了 after the verb to indicate a completed past action."
+          },
+          {
+            "original": "我已经做了作业。",
+            "phonetic": "wǒ yǐjīng zuò le zuòyè.",
+            "translation": "Yo ya había hecho la tarea.",
+            "note": "Learn to place 已经 before the verb and 了 at the end of the verb (not the sentence)."
+          },
+          {
+            "original": "她到了的时候，电影已经开始了。",
+            "phonetic": "tā dào le de shíhou, diànyǐng yǐjīng kāishǐ le.",
+            "translation": "Cuando ella llegó, la película ya había comenzado.",
+            "note": "Use in time clauses to express anteriority."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "过 表示经历",
+        "translation": "Guò to express past experience",
+        "examples": [
+          {
+            "original": "我以前去过北京。",
+            "phonetic": "wǒ yǐqián qù guò běijīng.",
+            "translation": "Antes había estado en Beijing.",
+            "note": "过 indicates that the action occurred at least once in the past, not that it is inherently completed."
+          },
+          {
+            "original": "他告诉我他看过那部电影。",
+            "phonetic": "tā gàosu wǒ tā kàn guò nà bù diànyǐng.",
+            "translation": "Él me dijo que había visto esa película.",
+            "note": "In indirect speech, the past context (he told me) establishes that the event occurred earlier."
+          },
+          {
+            "original": "你以前学过中文吗？",
+            "phonetic": "nǐ yǐqián xué guò zhōngwén ma?",
+            "translation": "¿Habías estudiado chino antes?",
+            "note": "Used in questions to ask about prior experience, similar to the present perfect tense."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "时间顺序结构 在...之前 / 的时候",
+        "translation": "Time structures: before... / when",
+        "examples": [
+          {
+            "original": "在出门之前，我已经关了灯。",
+            "phonetic": "zài chūmén zhīqián, wǒ yǐjīng guān le dēng.",
+            "translation": "Antes de salir, ya había apagado la luz.",
+            "note": "Use of 在...之前 to indicate the earlier reference point."
+          },
+          {
+            "original": "我到的时候，他已经离开了。",
+            "phonetic": "wǒ dào de shíhou, tā yǐjīng líkāi le.",
+            "translation": "Cuando llegué, él ya se había ido.",
+            "note": "Use 的时候 to connect two past actions, with the first serving as the reference point."
+          },
+          {
+            "original": "他告诉我消息之前，我就已经听说了。",
+            "phonetic": "tā gàosu wǒ xiāoxi zhīqián, wǒ jiù yǐjīng tīngshuō le.",
+            "translation": "Antes de que él me diera la noticia, yo ya lo había oído.",
+            "note": "可以用就 to emphasize the time sequence."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏪",
+    "phonetic": "",
+    "translations": {
+      "en": "Past Perfect Tense (past of the past)"
+    }
+  },
+  {
+    "id": "en_B1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "条件句（第一类和第二类） / First and second conditional sentences",
+    "bridge": "In Spanish, first and second conditionals are clearly distinguished by verb mood: indicative for the first type (si + present, future) and subjunctive/conditional for the second (si + imperfect subjunctive, conditional). In Mandarin Chinese, there are no verb conjugations or tenses; conditionality is expressed through connectors like 如果 (rúguǒ) or 要是 (yàoshi), and context or modal particles (会, 就) indicate whether the condition is real or hypothetical. A common error for Spanish speakers is using 会 (huì) in both types without distinguishing probability. In Chinese, the difference between first and second type is mainly marked by context and particles like 的话 (de huà) to make the condition more hypothetical.",
+    "rule": "In Mandarin Chinese, conditional sentences follow the structure: 如果/要是 + condition + 就/会 + result. There is no verb conjugation; the verb remains in its base form. For the first type (real or probable condition), use 如果/要是 + verb + 就/会 + result. Example: 如果明天下雨，我就不去。 (If it rains tomorrow, I won’t go). For the second type (hypothetical or contrary-to-fact condition), use the same structure but add 的话 at the end of the condition or use 要是, and often include 会 or 可能 to indicate possibility. Example: 如果我是你，我会去。 (If I were you, I would go). 假如 (jiǎrú) can also be used for more formal hypotheses. There is no morphological difference in the verb, so context or modal particles indicate the nuance. For counterfactual conditions (type 2), it is common to use 的话 after the condition: 要是我是你的话，我会去。 (If I were you, I would go).",
+    "concept_examples": [
+      {
+        "text": "如果明天下雨，我就不去。",
+        "translation": "If it rains tomorrow, I won’t go.",
+        "phonetic": "rúguǒ míngtiān xiàyǔ, wǒ jiù bú qù."
+      },
+      {
+        "text": "要是我是你，我会努力学习。",
+        "translation": "If I were you, I would study hard.",
+        "phonetic": "yàoshi wǒ shì nǐ, wǒ huì nǔlì xuéxí."
+      },
+      {
+        "text": "如果你有时间，可以帮助我吗？",
+        "translation": "If you have time, can you help me?",
+        "phonetic": "rúguǒ nǐ yǒu shíjiān, kěyǐ bāngzhù wǒ ma?"
+      },
+      {
+        "text": "假如我有钱，我就去旅行。",
+        "translation": "If I had money, I would travel.",
+        "phonetic": "jiǎrú wǒ yǒu qián, wǒ jiù qù lǚxíng."
+      }
+    ],
+    "common_error": {
+      "wrong": "如果我是你，我去。",
+      "correct": "如果我是你，我会去。",
+      "correct_alt": "要是我是你的话，我就去。",
+      "explanation": "Typical error: Spanish speakers often omit the modal verb 会 (huì) in the result of a second conditional sentence, because in Spanish the simple conditional (iría) already carries the information of possibility. In Chinese, without 会 or 可能, the result sounds too definitive or indicative. Include 会 before the main verb to mark hypothesis or future possibility."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "条件从句（如果/要是）",
+        "translation": "Conditional sentences with 如果/要是",
+        "examples": [
+          {
+            "original": "如果我有时间，我就去看电影。",
+            "phonetic": "rúguǒ wǒ yǒu shíjiān, wǒ jiù qù kàn diànyǐng.",
+            "translation": "If I have time, I will go to see a movie.",
+            "note": "Use of 如果 (if) and 就 (then) for real or probable conditions."
+          },
+          {
+            "original": "要是你不舒服，就休息一下。",
+            "phonetic": "yàoshi nǐ bù shūfu, jiù xiūxi yíxià.",
+            "translation": "If you don’t feel well, rest a bit.",
+            "note": "要是 is more colloquial than 如果 but equally common."
+          },
+          {
+            "original": "如果你努力学习，就会通过考试。",
+            "phonetic": "rúguǒ nǐ nǔlì xuéxí, jiù huì tōngguò kǎoshì.",
+            "translation": "If you study hard, you will pass the exam.",
+            "note": "会 is used to express a probable future result."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "假设条件（的话）",
+        "translation": "Hypothetical conditions with 的话",
+        "examples": [
+          {
+            "original": "如果明天天气好的话，我们就去爬山。",
+            "phonetic": "rúguǒ míngtiān tiānqì hǎo de huà, wǒmen jiù qù páshān.",
+            "translation": "If the weather is good tomorrow, we will go hiking.",
+            "note": "的话 is added at the end of the condition to emphasize the assumption or frame of the condition."
+          },
+          {
+            "original": "要是你有钱的话，你会买什么？",
+            "phonetic": "yàoshi nǐ yǒu qián de huà, nǐ huì mǎi shénme?",
+            "translation": "If you had money, what would you buy?",
+            "note": "In this case, 的话 helps indicate a hypothesis rather than a reality."
+          },
+          {
+            "original": "假如我是老师的话，我会布置很多作业。",
+            "phonetic": "jiǎrú wǒ shì lǎoshī de huà, wǒ huì bùzhì hěn duō zuòyè.",
+            "translation": "If I were a teacher, I would assign a lot of homework.",
+            "note": "假如 is formal and equivalent to 'if' in counterfactual hypotheses."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "条件句中的特殊结构",
+        "translation": "Special structures in conditionals",
+        "examples": [
+          {
+            "original": "如果不是你帮我，我就不会成功。",
+            "phonetic": "rúguǒ bú shì nǐ bāng wǒ, wǒ jiù bú huì chénggōng.",
+            "translation": "If you hadn’t helped me, I wouldn’t have succeeded.",
+            "note": "Implied third conditional, though not formally studied at B1 level, it is useful to recognize."
+          },
+          {
+            "original": "要是我早点知道，我就会去参加。",
+            "phonetic": "yàoshi wǒ zǎodiǎn zhīdào, wǒ jiù huì qù cānjiā.",
+            "translation": "If I had known earlier, I would have gone.",
+            "note": "Use of 早点 (earlier) to express a past hypothetical."
+          },
+          {
+            "original": "如果我是老板，我会给大家涨工资。",
+            "phonetic": "rúguǒ wǒ shì lǎobǎn, wǒ huì gěi dàjiā zhǎng gōngzī.",
+            "translation": "If I were the boss, I would give everyone a raise.",
+            "note": "是 (to be) and 会 (would) are used for non-real hypotheses, equivalent to the simple conditional in Spanish."
+          }
+        ]
+      }
+    ],
+    "emoji": "🌦️",
+    "phonetic": "",
+    "translations": {
+      "en": "First and second conditional sentences"
+    }
+  },
+  {
+    "id": "en_B1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "被动语态（现在和过去） / Passive voice (present and past)",
+    "bridge": "In Spanish we use 'ser + participle' for the passive voice (e.g. 'la carta es escrita'). In Mandarin Chinese there is no equivalent verb conjugation; instead, markers like 被 (bèi), 给 (gěi), 叫 (jiào) or 让 (ràng) are used to indicate that the action falls on the subject. Unlike Spanish, in Chinese the passive voice is mainly used for unfavorable events or when the agent is important; in many cases the active construction or the passive without a marker (notional passive) such as '饭吃了' (the food was eaten) is preferred. In addition, time is not marked on the verb, but through adverbs or context, so the present/past distinction is contextual.",
+    "rule": "In Mandarin Chinese, the passive voice is formed by placing the object (which becomes the subject) at the beginning, followed by 被 (bèi) + agent + verb. The agent can be omitted if it is unknown or irrelevant. The verb does not change form; time is deduced through temporal adverbs (现在 xiànzài, 昨天 zuótiān) or context. The particle 了 indicates completed aspect (often past). Structure: [receiver subject] + 被 + (agent) + verb + (了). For present: 被 + verb (without 了) can indicate habitual or ongoing action. For past: 被 + verb + 了 indicates that the action already occurred. Exceptions: 被 is used with transitive verbs and generally expresses something negative or undesired (e.g. 他被打 - he was hit). For positive or neutral passives, 让/叫/给 (more colloquial) or the notional passive without a marker is preferred, where the subject-verb order suffices and context indicates passivity (e.g. 信寄了 - the letter was sent). 被 can also be used in formal contexts (reports, news) without negative connotation. At B1 level, it is essential to master the structure with and without an agent, and to differentiate 被 from notional passive.",
+    "concept_examples": [
+      {
+        "text": "这本书被老师拿走了。",
+        "translation": "This book was taken away by the teacher.",
+        "phonetic": "[ʈʂɤ⁵¹ pən⁵⁴ ɕu⁵⁵ peɪ̯⁵¹ lɑʊ̯²¹⁴ ʂɻ̩⁵⁵ nă²¹⁴ tsɑʊ̯²¹⁴ lɤə̯⁵]"
+      },
+      {
+        "text": "饭被吃完了。",
+        "translation": "The food was completely eaten.",
+        "phonetic": "[făn⁵¹ peɪ̯⁵¹ ʈʂʰɻ̩⁵⁵ u̯ăn³⁵ lɤə̯⁵]"
+      },
+      {
+        "text": "窗户被风吹开了。",
+        "translation": "The window was blown open by the wind.",
+        "phonetic": "[ʈʂʰu̯aŋ⁵⁵ xu⁵¹ peɪ̯⁵¹ fəŋ⁵⁵ ʈʂʰu̯eɪ̯⁵⁵ kʰaɪ̯⁵⁵ lɤə̯⁵]"
+      },
+      {
+        "text": "这个城市被很多人参观。",
+        "translation": "This city is visited by many people.",
+        "phonetic": "[ʈʂɤ⁵¹ kɤ⁵¹ ʈʂʰəŋ³⁵ ʂɻ̩⁵¹ peɪ̯⁵¹ xən²¹⁴ tɤʊ̯⁵¹ ʐən³⁵ tsʰăn⁵⁵ ku̯ăn⁵⁵]"
+      }
+    ],
+    "common_error": {
+      "wrong": "这本书被我读。",
+      "correct": "这本书被我读了。",
+      "correct_alt": "这本书我读了。",
+      "explanation": "The typical mistake is omitting the aspect marker 了 (le) in the past tense. In Chinese, the verb itself does not indicate time; without 了 the sentence sounds like a general present ('this book is read by me'), whereas to express 'was read' you need 了 to signal that the action is complete. You can also omit 被 and use the notional passive: '这本书我读了' (lit. 'this book I read'), which is more natural. Avoid using 被 without negative or formal context, as in everyday speech the active structure or notional passive is preferred."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "被动句基础 (基础) / Basic passive sentences",
+        "translation": "Basic passive sentences",
+        "examples": [
+          {
+            "original": "他被打了。",
+            "phonetic": "[tʰa⁵⁵ peɪ̯⁵¹ tă²¹⁴ lɤə̯⁵]",
+            "translation": "He was hit.",
+            "note": "Use of 被 + verb + 了 to indicate past tense. The agent is omitted because it is not important."
+          },
+          {
+            "original": "我的手机被偷了。",
+            "phonetic": "[u̯ŏ²¹⁴ tɤ⁵ ʂoʊ̯²¹⁴ t͡ɕi⁵⁵ peɪ̯⁵¹ tʰoʊ̯⁵⁵ lɤə̯⁵]",
+            "translation": "My phone was stolen.",
+            "note": "Typical negative event with 被. Observe that the object (my phone) becomes the subject."
+          },
+          {
+            "original": "垃圾被扔掉了。",
+            "phonetic": "[lɑ⁵⁵ t͡ɕi⁵⁵ peɪ̯⁵¹ ʐəŋ²¹⁴ ti̯ɑʊ̯⁵¹ lɤə̯⁵]",
+            "translation": "The trash was thrown away.",
+            "note": "被 is used for a completed and unfavorable action. Without an agent, the Spanish translation requires 'fue tirada'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "被动句中的施事者 / Passive sentences with explicit agent",
+        "translation": "Passive sentences with explicit agent",
+        "examples": [
+          {
+            "original": "这个蛋糕被妈妈做了。",
+            "phonetic": "[ʈʂɤ⁵¹ kɤ⁵¹ tăn⁵¹ kɑʊ̯⁵⁵ peɪ̯⁵¹ mɑ⁵⁵ mɤə̯⁵ tsɑʊ̯⁵¹ lɤə̯⁵]",
+            "translation": "This cake was made by mom.",
+            "note": "Agent 'mom' appears after 被. Although the action is positive, 被 is acceptable in a family context."
+          },
+          {
+            "original": "那封信被老师寄了。",
+            "phonetic": "[nɑ⁵¹ fəŋ⁵⁵ ɕin⁵¹ peɪ̯⁵¹ lɑʊ̯²¹⁴ ʂɻ̩⁵⁵ t͡ɕi⁵¹ lɤə̯⁵]",
+            "translation": "That letter was sent by the teacher.",
+            "note": "In the past with an agent. Note that the verb 寄 does not take a complement after 了."
+          },
+          {
+            "original": "这些书被学生借走了。",
+            "phonetic": "[ʈʂɤ⁵¹ ɕi̯ɛ⁵⁵ ʂu⁵⁵ peɪ̯⁵¹ ɕy̯ɛ³⁵ ʂəŋ⁵⁵ t͡ɕi̯ɛ⁵¹ tsɑʊ̯²¹⁴ lɤə̯⁵]",
+            "translation": "These books were borrowed by the students.",
+            "note": "Compound verb 借走 (borrow-take away) maintains its structure. The result indicates that the books were taken."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "被动与主动的转换 / Conversion between passive and active voice",
+        "translation": "Conversion between passive and active voice",
+        "examples": [
+          {
+            "original": "他被公司辞退了。",
+            "phonetic": "[tʰa⁵⁵ peɪ̯⁵¹ kuŋ⁵⁵ ʂɻ̩⁵¹ t͡sʰɻ̩³⁵ tʰu̯eɪ̯⁵¹ lɤə̯⁵]",
+            "translation": "He was fired by the company.",
+            "note": "Passive with agent (company). In Spanish we use 'por'. In Chinese, the agent comes after 被."
+          },
+          {
+            "original": "公司辞退了他。",
+            "phonetic": "[kuŋ⁵⁵ ʂɻ̩⁵¹ t͡sʰɻ̩³⁵ tʰu̯eɪ̯⁵¹ lɤə̯⁵ tʰa⁵⁵]",
+            "translation": "The company fired him.",
+            "note": "Same information in active voice. Observe that in Chinese the active is more common than the passive in neutral situations."
+          },
+          {
+            "original": "饭被吃了。",
+            "phonetic": "[făn⁵¹ peɪ̯⁵¹ ʈʂʰɻ̩⁵⁵ lɤə̯⁵]",
+            "translation": "The food was eaten.",
+            "note": "Passive without an agent. Compare with the active '我吃了饭' (I ate the food). In Chinese, the notional passive '饭吃了' is also valid and more colloquial."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙇",
+    "phonetic": "",
+    "translations": {
+      "en": "Passive voice (present and past)"
+    }
+  },
+  {
+    "id": "en_B1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "间接引语 / Indirect speech basics",
+    "bridge": "In Spanish, when reporting what someone said, we usually change verb tenses (for example, 'dijo que estaba cansado') and pronouns. In Chinese, the verb '说' (shuō, to say) introduces the quote without changing the tense, because Chinese has no verb conjugations. Additionally, the word order of the original statement is maintained in Chinese, but pronouns and time indicators are adjusted. Be careful: you must not change the verb tense (as in Spanish) nor use 'que' in the same way; in Chinese, simply use '说' followed by the quoted phrase.",
+    "rule": "In Chinese, basic indirect speech is formed by placing the verb '说' (shuō, to say) before the reported phrase. There is no change in verb tense, but pronouns (first person to third person, etc.) and time adverbs (for example, '今天' jīntiān, today, may change to '那天' nàtiān, that day) are adjusted as necessary. The structure is: Subject + 说 + (that) + quoted phrase. However, the particle 'que' is not required nor directly translated; in Chinese it can be omitted and the phrase is simply juxtaposed. You can also use '告诉' (gàosu, to tell someone) followed by the recipient: Subject + 告诉 + person + phrase. For indirect questions, use '问' (wèn, to ask) and maintain the question word order, often with interrogative particles.",
+    "concept_examples": [
+      {
+        "text": "他说他很忙。",
+        "translation": "He says he is very busy.",
+        "phonetic": "[tʰa˥ ʂu̯ɔ˥ tʰa˥ xən˨˩˦ maŋ˧˥]"
+      },
+      {
+        "text": "她告诉我她明天来。",
+        "translation": "She told me she will come tomorrow.",
+        "phonetic": "[tʰa˥ kɑu̯˥˩ su̯ɔ˥ tʰa˥ miŋ˧˥ tʰi̯ɛn˥ lai̯˧˥]"
+      },
+      {
+        "text": "他问我去不去。",
+        "translation": "He asked me whether I go or not.",
+        "phonetic": "[tʰa˥ u̯ən˥˩ u̯ɔ˨˩˦ t͡ɕʰy˥˩ pu˥˩ t͡ɕʰy˥˩]"
+      },
+      {
+        "text": "她说她已经吃过了。",
+        "translation": "She said she had already eaten.",
+        "phonetic": "[ʂu̯ɔ˥ tʰa˥ i˨˩˦ t͡ɕiŋ˥ ʈ͡ʂʅ˥ ku̯ɔ˥ lɤ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "他说了 que 他很忙。",
+      "correct": "他说他很忙。",
+      "correct_alt": "他说，他很忙。",
+      "explanation": "A common mistake is to transfer the word 'que' from Spanish into Chinese. In Chinese, no equivalent conjunction is needed; the phrase is directly juxtaposed after '说'. Although a comma can sometimes be added, 'que' is not used. Additionally, students often change the verb tense or misuse '了' incorrectly (for example, '他说了' implies that the speaking was completed, but it is unnecessary in indirect speech). Remember: use '说' + phrase, without a conjunction and without changing the tense."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "陈述句的间接引语",
+        "translation": "Indirect speech for statements",
+        "examples": [
+          {
+            "original": "他说他很累。",
+            "phonetic": "[tʰa˥ ʂu̯ɔ˥ tʰa˥ xən˨˩˦ lei̯˥˩]",
+            "translation": "He says he is tired.",
+            "note": "The verb '说' is kept and the subject is repeated if necessary."
+          },
+          {
+            "original": "她说她不喜欢咖啡。",
+            "phonetic": "[ʂu̯ɔ˥ tʰa˥ pu˥˩ ɕi˨˩˦ xu̯an˥ kʰɑ˥ fei̯˥]",
+            "translation": "She says she does not like coffee.",
+            "note": "Observe that 'que' is not used and the word order is identical to the direct quote."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "告诉 + 人 + 内容",
+        "translation": "Tell someone + content",
+        "examples": [
+          {
+            "original": "他告诉我他明天有空。",
+            "phonetic": "[tʰa˥ kɑu̯˥˩ su̯ɔ˥ tʰa˥ miŋ˧˥ tʰi̯ɛn˥ i̯ou˨˩˦ kʰuŋ˥˩]",
+            "translation": "He told me he is free tomorrow.",
+            "note": "We use '告诉' followed by the recipient (我) and then the phrase."
+          },
+          {
+            "original": "老师告诉我们考试很难。",
+            "phonetic": "[lɑu̯˨˩˦ ʂʅ˥ kɑu̯˥˩ su̯ɔ˥ u̯ɔ˨˩˦ mən kʰɑu̯˨˩˦ ʂʅ˥˩ xən˨˩˦ nɑn˧˥]",
+            "translation": "The teacher told us the exam was very difficult.",
+            "note": "Pay attention to the word order: subject + 告诉 + pronoun + phrase."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "疑问句的间接引语",
+        "translation": "Indirect speech for questions",
+        "examples": [
+          {
+            "original": "他问我住在哪里。",
+            "phonetic": "[tʰa˥ u̯ən˥˩ u̯ɔ˨˩˦ ʈ͡ʂu˥˩ t͡sɑi̯˥˩ nɑ˨˩˦ li˨˩˦]",
+            "translation": "He asked me where I live.",
+            "note": "Use '问' and the interrogative word is maintained in the second part."
+          },
+          {
+            "original": "她问我会不会说西班牙语。",
+            "phonetic": "[tʰa˥ u̯ən˥˩ u̯ɔ˨˩˦ xu̯ei̯˥˩ pu˥˩ xu̯ei̯˥˩ ʂu̯ɔ˥ ɕi˥ pʰɑn˥ i̯ɑ˨˩˦ y˨˩˦]",
+            "translation": "She asked me whether I could speak Spanish.",
+            "note": "For yes/no questions, use the structure verb + 不 + verb."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "en": "Indirect speech basics"
+    }
+  },
+  {
+    "id": "en_B1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "动词不定式作主语和宾语 / Verbs in base form as subject and object",
+    "bridge": "In Spanish, verbs in the infinitive form (like 'hablar', 'comer') naturally function as nouns: 'Hablar es difícil' or 'Quiero comer'. In Mandarin Chinese, there is no verb form equivalent to the infinitive; the verb is used in its base form without conjugation. However, the syntactic position is similar: the verb can appear at the beginning of the sentence as a subject, but often the particle '的' is added to nominalize it in specific contexts. A common mistake made by Spanish speakers is trying to use the verb with Spanish infinitive markers or resorting to the gerund (which in Spanish indicates ongoing actions, but in Chinese there is no such distinction).",
+    "rule": "In Mandarin Chinese, verbs are used in their base form without conjugation to express actions. When a verb acts as a subject, it can appear directly at the beginning of the sentence, especially in proverbs or general expressions. For example: 学习很重要 (Xuéxí hěn zhòngyào) 'Learning is important'. To emphasize or in formal contexts, 的 can be added at the end of the verb or verbal phrase to nominalize it, as in 开车的很危险 (Kāi chē de hěn wēixiǎn) 'Driving is dangerous' (literally: 'those who drive are dangerous', but in general context it is understood as 'driving'). As an object, the verb follows verbs like 喜欢 (xǐhuān 'to like'), 想 (xiǎng 'to want'), 希望 (xīwàng 'to hope'), 开始 (kāishǐ 'to start') without the need for a preposition. No equivalent to 'to' or '-ing' is used; the verb remains unchanged. Unlike Spanish, where we distinguish between infinitive and gerund, in Chinese both are expressed with the same verb form. For verbs like 'to like' (喜欢), the subject can be a person or an activity, and the word order is Subject + Verb + Object (which is another verb).",
+    "concept_examples": [
+      {
+        "text": "学习汉语很有趣。",
+        "translation": "Learning Chinese is very interesting.",
+        "phonetic": "xuéxí hànyǔ hěn yǒuqù"
+      },
+      {
+        "text": "我想去中国。",
+        "translation": "I want to go to China.",
+        "phonetic": "wǒ xiǎng qù zhōngguó"
+      },
+      {
+        "text": "开车的很危险。",
+        "translation": "Driving is dangerous.",
+        "phonetic": "kāi chē de hěn wēixiǎn"
+      },
+      {
+        "text": "他喜欢看书。",
+        "translation": "He likes to read.",
+        "phonetic": "tā xǐhuān kàn shū"
+      }
+    ],
+    "common_error": {
+      "wrong": "我喜欢跑步了。",
+      "correct": "我喜欢跑步。",
+      "correct_alt": "我爱跑步。",
+      "explanation": "The error is adding '了' after the object verb (跑步) thinking it marks the infinitive or a future action. In Chinese, the verb after 喜欢 (to like) does not take aspect or tense markers; it is used in its base form. '了' indicates a completed action, which changes the meaning: '我喜欢跑步了' sounds like 'Now I like running' (a change of state), not a habitual action. Spanish speakers tend to add aspect particles because in Spanish the infinitive can have temporal nuances (I like to run now, always, etc.), but in Chinese the verb form is neutral."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "动词作主语",
+        "translation": "The verb as subject",
+        "examples": [
+          {
+            "original": "学习很重要。",
+            "phonetic": "xuéxí hěn zhòngyào",
+            "translation": "Learning is very important.",
+            "note": "Here the verb '学习' (to learn) appears at the beginning of the sentence as a subject, with no special marker, similar to using the infinitive in Spanish."
+          },
+          {
+            "original": "跑步对健康好。",
+            "phonetic": "pǎobù duì jiànkāng hǎo",
+            "translation": "Running is good for health.",
+            "note": "The verb '跑步' (to run) acts as the subject. In Spanish we would say 'correr', not 'corriendo'."
+          },
+          {
+            "original": "看书让我开心。",
+            "phonetic": "kàn shū ràng wǒ kāixīn",
+            "translation": "Reading makes me happy.",
+            "note": "The construction '让' (to make) is common; the verb '看书' (to read) is the logical subject."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "动词作宾语",
+        "translation": "The verb as object",
+        "examples": [
+          {
+            "original": "我想喝咖啡。",
+            "phonetic": "wǒ xiǎng hē kāfēi",
+            "translation": "I want to drink coffee.",
+            "note": "The verb '喝' (to drink) follows '想' (to want) directly, without any preposition."
+          },
+          {
+            "original": "她喜欢唱歌。",
+            "phonetic": "tā xǐhuān chànggē",
+            "translation": "She likes to sing.",
+            "note": "'唱歌' (to sing) is the object of the verb '喜欢' (to like). There is no equivalent to 'singing' or 'to sing'."
+          },
+          {
+            "original": "我需要休息。",
+            "phonetic": "wǒ xūyào xiūxi",
+            "translation": "I need to rest.",
+            "note": "'休息' (to rest) as a direct object. Neither 'de' nor 'que' is used."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "动词短语作主语和宾语",
+        "translation": "Verbal phrases as subject and object",
+        "examples": [
+          {
+            "original": "每天锻炼身体很重要。",
+            "phonetic": "měitiān duànliàn shēntǐ hěn zhòngyào",
+            "translation": "Exercising every day is very important.",
+            "note": "The verbal phrase '每天锻炼身体' (to exercise every day) functions as a compound subject."
+          },
+          {
+            "original": "我决定明天去旅行。",
+            "phonetic": "wǒ juédìng míngtiān qù lǚxíng",
+            "translation": "I decided to travel tomorrow.",
+            "note": "'去旅行' (to travel) is the object of the verb '决定' (to decide). The phrase includes time and place."
+          },
+          {
+            "original": "他学会说中文了。",
+            "phonetic": "tā xuéhuì shuō zhōngwén le",
+            "translation": "He learned to speak Chinese.",
+            "note": "The verb '学会' (to learn how to) takes the object '说中文' (to speak Chinese). The '了' at the end indicates the action is completed."
+          },
+          {
+            "original": "开始工作很累。",
+            "phonetic": "kāishǐ gōngzuò hěn lèi",
+            "translation": "Starting to work is exhausting.",
+            "note": "Here '开始工作' (starting to work) is the subject. Note the contrast with Spanish, which uses a compound infinitive."
+          }
+        ]
+      }
+    ],
+    "emoji": "📘",
+    "phonetic": "",
+    "translations": {
+      "en": "Verbs in base form as subject and object"
+    }
+  },
+  {
+    "id": "en_B1_gram_06",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "表示推测的情态动词 / Modal verbs for deduction",
+    "bridge": "In Spanish, we use 'debe de', 'puede que', 'quizás' to express deduction. In Chinese, there are no equivalent modal verbs; instead, adverbs like 一定 (yídìng), 可能 (kěnéng), 也许 (yěxǔ) are used before the verb without changing form. Unlike Spanish, these adverbs do not conjugate, and the main verb always remains in its base form, simplifying the structure but making the choice and position of the adverb crucial depending on the degree of certainty.",
+    "rule": "In Chinese, to express deduction or probability, modal adverbs are generally placed before the verb or adjective. The main ones are: 一定 (yídìng) for certainty (equivalent to 'must' with strong certainty), 可能 (kěnéng) and 也许 (yěxǔ) for possibility (like 'may be' or 'perhaps'). 可能 is more formal and neutral, while 也许 is more colloquial and emphasizes uncertainty. 会 (huì) is also used in questions to ask about possibility. For negative deduction, 不可能 (bù kěnéng) means 'cannot be'. Example: 他一定在家 (tā yídìng zài jiā) - He must be at home. 吧 (ba) can be added at the end to soften the assertion. These adverbs work with any verb and do not depend on tense or aspect.",
+    "concept_examples": [
+      {
+        "text": "他一定很累了。",
+        "translation": "He must be very tired.",
+        "phonetic": "tā yídìng hěn lèi le."
+      },
+      {
+        "text": "她可能已经走了。",
+        "translation": "She may have already left.",
+        "phonetic": "tā kěnéng yǐjīng zǒu le."
+      },
+      {
+        "text": "明天也许会下雨。",
+        "translation": "Tomorrow might rain.",
+        "phonetic": "míngtiān yěxǔ huì xià yǔ."
+      },
+      {
+        "text": "这不可能是我丢的钥匙。",
+        "translation": "This cannot be the key I lost.",
+        "phonetic": "zhè bù kěnéng shì wǒ diū de yàoshi."
+      }
+    ],
+    "common_error": {
+      "wrong": "他应该是老师吗？",
+      "correct": "他可能是老师吗？",
+      "correct_alt": "他是老师吗？",
+      "explanation": "A common mistake is using 应该 (yīnggāi), which means 'should' in the sense of obligation, to ask or express deduction. In Chinese, 应该 can express possibility but is less natural in questions. To ask about possibility, use 可能 (kěnéng) or omit the modal and use intonation. Spanish speakers also tend to use 应该 for 'debe de' when 一定 (yídìng) expresses certainty and 可能 (kěnéng) expresses possibility. Avoid interference from Spanish."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "一定 yídìng",
+        "translation": "Certainty / Must",
+        "examples": [
+          {
+            "original": "他一定是个好学生。",
+            "phonetic": "tā yídìng shì gè hǎo xuéshēng.",
+            "translation": "He must be a good student.",
+            "note": "一定 is used when we have high confidence, similar to 'must' in English."
+          },
+          {
+            "original": "她一定已经吃过饭了。",
+            "phonetic": "tā yídìng yǐjīng chīguò fàn le.",
+            "translation": "She must have already eaten.",
+            "note": "Note that after 一定, the completive aspect structure with 了 is maintained."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "可能 kěnéng",
+        "translation": "Possibility / May be",
+        "examples": [
+          {
+            "original": "他可能不知道这件事。",
+            "phonetic": "tā kěnéng bù zhīdào zhè jiàn shì.",
+            "translation": "He may not know about this.",
+            "note": "可能 is placed before the verb, including negations."
+          },
+          {
+            "original": "这道题可能很难。",
+            "phonetic": "zhè dào tí kěnéng hěn nán.",
+            "translation": "This problem may be very difficult.",
+            "note": "可能 can also modify adjectives."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "也许 yěxǔ / 不可能 bù kěnéng",
+        "translation": "Perhaps / Cannot be",
+        "examples": [
+          {
+            "original": "也许他会来参加聚会。",
+            "phonetic": "yěxǔ tā huì lái cānjiā jùhuì.",
+            "translation": "Perhaps he will come to the party.",
+            "note": "也许 is more colloquial and expresses greater uncertainty than 可能."
+          },
+          {
+            "original": "这不可能发生。",
+            "phonetic": "zhè bù kěnéng fāshēng.",
+            "translation": "This cannot happen.",
+            "note": "The negation of 可能 is 不可能, used for negative deductions."
+          },
+          {
+            "original": "她也许已经知道了。",
+            "phonetic": "tā yěxǔ yǐjīng zhīdào le.",
+            "translation": "She may already know.",
+            "note": "Note that 也许 can combine with 已经 and 了 to talk about completed actions from a deductive perspective."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "en": "Modal verbs for deduction"
+    }
+  },
+  {
+    "id": "en_B1_gram_07",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "关系从句 (Relative clauses)",
+    "bridge": "In Spanish, relative clauses are formed using relative pronouns (que, quien, cuyo) and agree in gender and number. In Mandarin Chinese, there is no gender or number agreement, and relative pronouns are invariable. The key difference is that in Chinese, the relative clause is placed before the noun it modifies, unlike in Spanish. Additionally, unlike Spanish, which distinguishes between defining relative clauses (without commas) and non-defining ones (with commas), Chinese does not mark this difference with pauses but instead uses 的 or more complex structures.",
+    "rule": "In Mandarin Chinese, the relative clause is formed by placing the clause before the noun and connecting it with the particle 的. The structure is: [relative clause] + 的 + noun. For defining (specific) relative clauses, this structure is used directly. For non-defining (non-specific) relative clauses, 这/那 + noun or structures like 所...的 are often used to add emphasis or formality. The relative pronoun 'que' is not explicitly translated; the context indicates it. There is no agreement in gender, number, or case. At the B1 level, it is important to master the placement and learn to omit the relative pronoun when it is the direct object (though in Chinese, the object is usually repeated). Examples: 'The book that I bought' is said as 我买的书 (the book that I bought), literally 'I bought 的 book'.",
+    "concept_examples": [
+      {
+        "text": "我买的书很有名。",
+        "translation": "The book that I bought is very famous.",
+        "phonetic": "wǒ mǎi de shū hěn yǒumíng"
+      },
+      {
+        "text": "那个说英语的人是我的朋友。",
+        "translation": "That person who speaks English is my friend.",
+        "phonetic": "nà ge shuō Yīngyǔ de rén shì wǒ de péngyǒu"
+      },
+      {
+        "text": "我喜欢那个在公园里跑步的女人。",
+        "translation": "I like that woman who runs in the park.",
+        "phonetic": "wǒ xǐhuān nà ge zài gōngyuán lǐ pǎobù de nǚrén"
+      },
+      {
+        "text": "他送给我的礼物很漂亮。",
+        "translation": "The gift that he gave me is very beautiful.",
+        "phonetic": "tā sòng gěi wǒ de lǐwù hěn piàoliang"
+      }
+    ],
+    "common_error": {
+      "wrong": "书我买很有名。",
+      "correct": "我买的书很有名。",
+      "correct_alt": "我买的这本书很有名。",
+      "explanation": "A common mistake is placing the relative clause after the noun, as in Spanish ('the book that I bought' -> '书我买'). In Chinese, the clause must come before the noun and be connected with 的. Additionally, unlike Spanish, no explicit relative pronoun is used. Practice identifying the main noun and placing all additional information before it."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本关系从句",
+        "translation": "Basic relative clauses (defining)",
+        "examples": [
+          {
+            "original": "这是我看的电影。",
+            "phonetic": "zhè shì wǒ kàn de diànyǐng",
+            "translation": "This is the movie that I watched.",
+            "note": "的 is used to connect the clause '我看' with the noun '电影'. There is no equivalent word to 'that'."
+          },
+          {
+            "original": "她做的菜很好吃。",
+            "phonetic": "tā zuò de cài hěn hǎochī",
+            "translation": "The food that she makes is very tasty.",
+            "note": "The clause '她做' precedes the noun '菜'."
+          },
+          {
+            "original": "我喜欢住的房子。",
+            "phonetic": "wǒ xǐhuān zhù de fángzi",
+            "translation": "The house in which I like to live.",
+            "note": "In Spanish, a preposition is sometimes needed; in Chinese, it is not used."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "使用 所 的正式关系从句",
+        "translation": "Relative clauses with 所 (formal)",
+        "examples": [
+          {
+            "original": "我所说的话是真的。",
+            "phonetic": "wǒ suǒ shuō de huà shì zhēn de",
+            "translation": "What I said is true.",
+            "note": "The particle 所 adds a formal tone and is used with verbs to emphasize the object."
+          },
+          {
+            "original": "他所写的书很受欢迎。",
+            "phonetic": "tā suǒ xiě de shū hěn shòu huānyíng",
+            "translation": "The book that he wrote is very popular.",
+            "note": "所 can be omitted in informal language: 他写的书."
+          },
+          {
+            "original": "你所需要的东西都在这里。",
+            "phonetic": "nǐ suǒ xūyào de dōngxi dōu zài zhèlǐ",
+            "translation": "Everything that you need is here.",
+            "note": "The relative pronoun 'what' is expressed with the structure 所...的."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "解释性关系从句 (con comas)",
+        "translation": "Non-defining relative clauses (with commas)",
+        "examples": [
+          {
+            "original": "我的哥哥，他住在北京，是个医生。",
+            "phonetic": "wǒ de gēge, tā zhù zài Běijīng, shì gè yīshēng",
+            "translation": "My older brother, who lives in Beijing, is a doctor.",
+            "note": "A pause (comma) is used, and the subject is repeated with a pronoun for the non-defining clause."
+          },
+          {
+            "original": "那本书，我没看过，很贵。",
+            "phonetic": "nà běn shū, wǒ méi kànguò, hěn guì",
+            "translation": "That book, which I haven’t read, is very expensive.",
+            "note": "Similar to Spanish, the comma indicates added information."
+          },
+          {
+            "original": "我的老师，他很严格，教我们中文。",
+            "phonetic": "wǒ de lǎoshī, tā hěn yángé, jiāo wǒmen Zhōngwén",
+            "translation": "My teacher, who is very strict, teaches us Chinese.",
+            "note": "The structure (noun, pronoun + verb, ...) is common in non-defining clauses."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "en": "Relative clauses (defining and non-defining)"
+    }
+  },
+  {
+    "id": "en_B1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "用“要是”表达不现实的愿望 / Unrealistic wishes with “要是”",
+    "bridge": "In Spanish, to express an unrealistic wish we use the subjunctive with “ojalá” or “quisiera”. In Mandarin Chinese there are no verb conjugations or moods, so this nuance is conveyed through fixed particles and structures. The most common one is “要是…就好了” (yàoshi... jiù hǎo le), which is equivalent to “ojalá…”. Unlike Spanish, where the verb changes, in Chinese the verb remains the same and the unreal nature is marked by “要是” (if) and “就好了” (would be good).",
+    "rule": "To express an unreal wish or a hypothetical situation contrary to reality, use the structure: 要是 + subject + verb (with completed aspect if necessary) + 就好了. “要是” introduces the condition or wish, and “就好了” (literally: “then it would be good”) expresses that the outcome is desired. There is no change in tense or mood. For wishes about the past, “了” is added to the verb or a verb with perfective aspect is used. For wishes about the present or future, “了” is not needed. You can also use “真希望” (I really hope), but with a more realistic tone. Unlike Spanish, there is no distinction between “quisiera” and “ojalá” with subjunctive; “要是” is more colloquial and used in informal contexts. In more formal contexts you could use “希望” (to hope), but the unreal nature is weaker.",
+    "concept_examples": [
+      {
+        "text": "要是我有更多时间就好了。",
+        "translation": "I wish I had more time.",
+        "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ u̯ɔ˨˩˦ i̯oʊ̯˨˩˦ kɤŋ˥˩ tʰɻ̩˧˥ t͡ɕi̯oʊ̯˥˩ xɑʊ̯˨˩˦ lɤ˧"
+      },
+      {
+        "text": "要是昨天不下雨就好了。",
+        "translation": "I wish it hadn’t rained yesterday.",
+        "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ t͡ɕʰy̯ɛ˧˥ tʰi̯ɛn˥˥ pu˥˩ ɕi̯ɑ˥˩ y˨˩˦ t͡ɕi̯oʊ̯˥˩ xɑʊ̯˨˩˦ lɤ˧"
+      },
+      {
+        "text": "要是我会说英语就好了。",
+        "translation": "I wish I could speak English.",
+        "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ u̯ɔ˨˩˦ xu̯ɤɪ̯˥˩ ʂu̯ɔ˥˥ iŋ˥˥ y˨˩˦ t͡ɕi̯oʊ̯˥˩ xɑʊ̯˨˩˦ lɤ˧"
+      },
+      {
+        "text": "要是你在这里就好了。",
+        "translation": "I wish you were here.",
+        "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ ni˨˩˦ t͡sɑɪ̯˥˩ t͡ʂʰɻ̩˥˩ lɪ̯˨˩˦ t͡ɕi̯oʊ̯˥˩ xɑʊ̯˨˩˦ lɤ˧"
+      }
+    ],
+    "common_error": {
+      "wrong": "我希望我有更多时间。",
+      "correct": "要是我有更多时间就好了。",
+      "correct_alt": "我真希望我有更多时间。",
+      "explanation": "The common mistake is using “希望” (to hope/wish) which expresses a realistic wish, not an unreal one. To indicate that the wish is contrary to reality, you must use “要是…就好了”. In Spanish, “ojalá” can be used for both, but in Chinese the distinction is clear: “希望” is for possible wishes, “要是…就好了” for unreal wishes. To master this, remember that “要是” means “if” and “就好了” means “would be good”, so the structure is equivalent to “if... it would be good”."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本结构：要是…就好了",
+        "translation": "Basic structure: 要是...就好了",
+        "examples": [
+          {
+            "original": "要是我是你，我就去。",
+            "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ u̯ɔ˨˩˦ ʂɻ̩˥˩ ni˨˩˦ u̯ɔ˨˩˦ t͡ɕi̯oʊ̯˥˩ t͡ɕʰy˥˩",
+            "translation": "If I were you, I would go.",
+            "note": "“要是” introduces the unreal condition, and the second part expresses the hypothetical outcome. Here “就好了” is not used because it is not a direct wish but a condition."
+          },
+          {
+            "original": "要是我有车，我就接你。",
+            "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ u̯ɔ˨˩˦ i̯oʊ̯˨˩˦ t͡ʂʰɤ˥˥ u̯ɔ˨˩˦ t͡ɕi̯oʊ̯˥˩ t͡ɕi̯ɛ˥˥ ni˨˩˦",
+            "translation": "If I had a car, I would pick you up.",
+            "note": "In hypothetical conditions, the structure is “要是 + condition, + result”. “就好了” is not needed."
+          },
+          {
+            "original": "要是我知道，我就会告诉你。",
+            "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ u̯ɔ˨˩˦ t͡ʂɻ̩˥˥ tɑʊ̯˥˩ u̯ɔ˨˩˦ t͡ɕi̯oʊ̯˥˩ xu̯ɤɪ̯˥˩ kɑʊ̯˥˩ sɯ˥˩ ni˨˩˦",
+            "translation": "If I knew, I would tell you.",
+            "note": "The same pattern is used for past or present hypotheses."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "过去愿望：要是 + 动词 + 了 + 就好了",
+        "translation": "Wishes about the past: 要是 + verb + 了 + 就好了",
+        "examples": [
+          {
+            "original": "要是昨天早点睡觉就好了。",
+            "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ t͡ɕʰy̯ɛ˧˥ tʰi̯ɛn˥˥ t͡sɑʊ̯˨˩˦ ti̯ɛn˨˩˦ ʂu̯ɤɪ̯˥˩ t͡ɕɑʊ̯˥˩ t͡ɕi̯oʊ̯˥˩ xɑʊ̯˨˩˦ lɤ˧",
+            "translation": "I wish I had gone to bed earlier yesterday.",
+            "note": "For wishes about the past, “了” is added after the verb to indicate that the action did not happen."
+          },
+          {
+            "original": "要是上次没迟到就好了。",
+            "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ ʂɑŋ˥˩ t͡sʰɻ̩˥˩ mɛɪ̯˥˩ t͡ʂʰɻ̩˧˥ tɑʊ̯˥˩ t͡ɕi̯oʊ̯˥˩ xɑʊ̯˨˩˦ lɤ˧",
+            "translation": "I wish I hadn’t been late last time.",
+            "note": "In negations, “没” precedes the verb, and “了” is omitted after a negated verb."
+          },
+          {
+            "original": "要是那时候我学了中文就好了。",
+            "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ nɑ˥˩ ʂɻ̩˧˥ xoʊ̯˥˩ u̯ɔ˨˩˦ ɕy̯ɛ˧˥ lɤ˧ t͡ʂuŋ˥˥ u̯ən˧˥ t͡ɕi̯oʊ̯˥˩ xɑʊ̯˨˩˦ lɤ˧",
+            "translation": "I wish I had studied Chinese at that time.",
+            "note": "“了” is used after the verb to indicate the completed action that is wished for."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "变体：真希望 / 多么希望",
+        "translation": "Variants: 真希望 / 多么希望",
+        "examples": [
+          {
+            "original": "我真希望能再去一次。",
+            "phonetic": "u̯ɔ˨˩˦ tʂən˥˥ ɕi˥˥ u̯ɑŋ˥˩ nɤŋ˧˥ t͡sɑɪ̯˥˩ t͡ɕʰy˥˩ i˥˥ t͡sʰɻ̩˥˩",
+            "translation": "I really hope I can go again.",
+            "note": "“真希望” is used for wishes that could still come true, not necessarily unreal ones. Unlike “要是…就好了”, it has a more realistic tone."
+          },
+          {
+            "original": "多么希望能见到你。",
+            "phonetic": "tu̯ɔ˥˥ mɤ˧ ɕi˥˥ u̯ɑŋ˥˩ nɤŋ˧˥ t͡ɕi̯ɛn˥˩ tɑʊ̯˥˩ ni˨˩˦",
+            "translation": "How I wish I could see you.",
+            "note": "“多么希望” is a more emphatic and literary variant, used in formal or poetic contexts."
+          },
+          {
+            "original": "要是我没忘记带钥匙就好了。",
+            "phonetic": "jɑʊ̯˥˩ ʂɻ̩˥˩ u̯ɔ˨˩˦ mɛɪ̯˥˩ u̯ɑŋ˥˩ t͡ɕi˥˩ tɑɪ̯˥˩ iɑʊ̯˥˩ ʂɻ̩˥˩ t͡ɕi̯oʊ̯˥˩ xɑʊ̯˨˩˦ lɤ˧",
+            "translation": "I wish I hadn’t forgotten the keys.",
+            "note": "Combining the past with negation: “没” + verb, without “了” after the verb, but with “就好了” at the end."
+          }
+        ]
+      }
+    ],
+    "emoji": "🌠",
+    "phonetic": "",
+    "translations": {
+      "en": "Unrealistic wishes with '要是...就好了'"
+    }
+  },
+  {
+    "id": "en_B1_gram_09",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "过去常常 (guòqù chángcháng) / Used to",
+    "bridge": "In Spanish, to express past habits we use the imperfect tense ('solía', 'íbamos') or the construction 'solía + infinitive'. In Mandarin Chinese, there is no verb conjugation, so time adverbs like 以前 (yǐqián) or 过去 (guòqù) and frequency adverbs like 常常 (chángcháng) or 总是 (zǒngshì) are used to indicate that an action was habitual in the past. A common mistake is omitting the time marker, which makes the sentence be interpreted in the present. Additionally, Chinese does not distinguish between 'solía' and 'acostumbraba', so the same structure works for both.",
+    "rule": "To express past habits in Mandarin Chinese, time adverbs such as 以前 (yǐqián, 'before') or 过去 (guòqù, 'in the past') are used at the beginning of the sentence, along with frequency adverbs like 常常 (chángcháng, 'frequently'), 总是 (zǒngshì, 'always'), or 经常 (jīngcháng, 'often') before the verb. The basic structure is: [Past time] + [Subject] + [Frequency adverb] + [Verb] + (Object). There are no changes to the verb. 以前 + 常常 can also be used to emphasize the contrast with the present. To negate past habits, 不 (bù) is placed before the frequency adverb, or 很少 (hěnshǎo, 'rarely') is used instead of the positive adverb. Example: 以前我不常运动 (yǐqián wǒ bù cháng yùndòng) 'Before I didn’t usually exercise'. The particle 了 (le) is not used here because it indicates a change of state or completion of an action, not habits.",
+    "concept_examples": [
+      {
+        "text": "以前我常常去公园跑步。",
+        "translation": "Before I used to go to the park to run.",
+        "phonetic": "yǐqián wǒ chángcháng qù gōngyuán pǎobù"
+      },
+      {
+        "text": "她过去总是早起。",
+        "translation": "She used to always wake up early.",
+        "phonetic": "tā guòqù zǒngshì zǎoqǐ"
+      },
+      {
+        "text": "我们以前经常一起吃午饭。",
+        "translation": "We used to often have lunch together.",
+        "phonetic": "wǒmen yǐqián jīngcháng yīqǐ chī wǔfàn"
+      },
+      {
+        "text": "以前他很少看电视。",
+        "translation": "Before he rarely watched TV.",
+        "phonetic": "yǐqián tā hěnshǎo kàn diànshì"
+      }
+    ],
+    "common_error": {
+      "wrong": "我常常去公园跑步。",
+      "correct": "以前我常常去公园跑步。",
+      "correct_alt": "我过去常常去公园跑步。",
+      "explanation": "In Spanish, the verb tense (imperfect) already indicates the past, but in Chinese there is no conjugation. If the time marker (以前 or 过去) is omitted, the sentence is interpreted in the present: '我常常去公园跑步' means 'I often go to the park to run' (current habit). To talk about past habits, it is essential to include the time reference at the beginning of the sentence. Thus, the error is due to transferring the strategy from Spanish to Chinese."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "以前 + 常常",
+        "translation": "Before + often",
+        "examples": [
+          {
+            "original": "以前我常常看书。",
+            "phonetic": "yǐqián wǒ chángcháng kànshū",
+            "translation": "Before I used to read books.",
+            "note": "Use of 以前 at the beginning and 常常 before the verb to express a past habit."
+          },
+          {
+            "original": "以前她常常唱歌。",
+            "phonetic": "yǐqián tā chángcháng chànggē",
+            "translation": "Before she used to sing.",
+            "note": "Observe that the verb does not change; the time is indicated with 以前."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "过去 + 总是 / 经常",
+        "translation": "In the past + always / often",
+        "examples": [
+          {
+            "original": "过去他总是迟到。",
+            "phonetic": "guòqù tā zǒngshì chídào",
+            "translation": "In the past he always used to arrive late.",
+            "note": "Use of 总是 (zǒngshì) to emphasize frequency."
+          },
+          {
+            "original": "过去我们经常去旅行。",
+            "phonetic": "guòqù wǒmen jīngcháng qù lǚxíng",
+            "translation": "In the past we used to travel often.",
+            "note": "Use of 经常 (jīngcháng) as a synonym for 常常."
+          },
+          {
+            "original": "她过去经常喝咖啡。",
+            "phonetic": "tā guòqù jīngcháng hē kāfēi",
+            "translation": "She used to drink coffee often.",
+            "note": "The frequency adverb goes before the verb."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "否定 y 很少",
+        "translation": "Negation and 'rarely'",
+        "examples": [
+          {
+            "original": "以前我不常运动。",
+            "phonetic": "yǐqián wǒ bù cháng yùndòng",
+            "translation": "Before I didn’t usually exercise.",
+            "note": "The negation 不 (bù) is placed before the frequency adverb."
+          },
+          {
+            "original": "以前他很少看电视。",
+            "phonetic": "yǐqián tā hěnshǎo kàn diànshì",
+            "translation": "Before he rarely watched TV.",
+            "note": "Use of 很少 (hěnshǎo) to indicate low frequency in the past."
+          },
+          {
+            "original": "过去我们不怎么出去吃饭。",
+            "phonetic": "guòqù wǒmen bù zěnme chūqù chīfàn",
+            "translation": "In the past we didn’t usually go out to eat.",
+            "note": "The expression 不怎么 (bù zěnme) means 'not much' and is used to negate habits."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕰️",
+    "phonetic": "",
+    "translations": {
+      "en": "Used to / Past habits"
+    }
+  },
+  {
+    "id": "en_B1_gram_10",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "为了，因为，所以 / Purpose, cause and result",
+    "bridge": "In Spanish, we often use 'para que' or 'porque' with subjunctive or indicative, but in Chinese the order of clauses is stricter and there is no verb conjugation. The particle '因为...所以...' (because... therefore...) functions as a pair that frames the cause and the result, something that does not happen in Spanish. Additionally, to express purpose, '为了' (wèile) is placed at the beginning of the sentence or before the verb, without changing the verb form, which can be confusing for Spanish speakers used to changing the mood.",
+    "rule": "In Chinese, to express cause and result, the conjunctions '因为' (yīnwèi) for the cause and '所以' (suǒyǐ) for the result are used. The usual structure is: '因为 + cause，所以 + result'. It is also possible to omit '因为' or '所以' when the context is clear. To express purpose, '为了' (wèile) is used before the verb or at the beginning of the sentence, meaning 'in order to' or 'with the purpose of'. There are no verb changes (neither subjunctive nor conditional). The particle '为了' is not combined separately with '所以'; it is used with the structure '为了...，（subject）+ verb'.",
+    "concept_examples": [
+      {
+        "text": "因为下雨，所以我不去公园。",
+        "translation": "Because it's raining, I'm not going to the park.",
+        "phonetic": "yīnwèi xiàyǔ, suǒyǐ wǒ bù qù gōngyuán."
+      },
+      {
+        "text": "为了学中文，我每天练习。",
+        "translation": "To learn Chinese, I practice every day.",
+        "phonetic": "wèile xué zhōngwén, wǒ měitiān liànxí."
+      },
+      {
+        "text": "他没来，因为生病了。",
+        "translation": "He didn't come because he was sick.",
+        "phonetic": "tā méi lái, yīnwèi shēngbìng le."
+      },
+      {
+        "text": "她学习很努力，所以成绩很好。",
+        "translation": "She studies hard, so her grades are good.",
+        "phonetic": "tā xuéxí hěn nǔlì, suǒyǐ chéngjì hěn hǎo."
+      }
+    ],
+    "common_error": {
+      "wrong": "因为下雨所以我不去公园。",
+      "correct": "因为下雨，所以我不去公园。",
+      "correct_alt": "下雨，我不去公园。",
+      "explanation": "The most common mistake is forgetting the comma between the cause and the result. In Chinese, a comma is used to separate the two clauses when '因为' and '所以' are present. Additionally, some students tend to use '所以' alone as 'then' without '因为', but in formal Chinese it is common to use them together as a pair. You should also avoid translating 'porque' literally with '因为' at the end of the sentence, since in Chinese the cause comes first."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "因为...所以...",
+        "translation": "Because... therefore...",
+        "examples": [
+          {
+            "original": "因为我有事，所以我先走了。",
+            "phonetic": "yīnwèi wǒ yǒu shì, suǒyǐ wǒ xiān zǒu le.",
+            "translation": "Because I have something to do, I left first.",
+            "note": "Basic use of the causal pair: cause at the beginning, result after."
+          },
+          {
+            "original": "因为天气好，所以我们去爬山。",
+            "phonetic": "yīnwèi tiānqì hǎo, suǒyǐ wǒmen qù páshān.",
+            "translation": "Because the weather is nice, we are going to climb the mountain.",
+            "note": "'因为' can be omitted in context, but it is clearer to use it."
+          },
+          {
+            "original": "因为没时间，所以没吃饭。",
+            "phonetic": "yīnwèi méi shíjiān, suǒyǐ méi chīfàn.",
+            "translation": "Because I had no time, I didn't eat.",
+            "note": "The subject can be omitted if it is obvious, just like in Spanish."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "为了",
+        "translation": "In order to / With the purpose of",
+        "examples": [
+          {
+            "original": "为了健康，我不吃太多糖。",
+            "phonetic": "wèile jiànkāng, wǒ bù chī tài duō táng.",
+            "translation": "For the sake of health, I don't eat too much sugar.",
+            "note": "'为了' can be placed at the beginning of the sentence to emphasize the purpose."
+          },
+          {
+            "original": "我为了考试努力学习。",
+            "phonetic": "wǒ wèile kǎoshì nǔlì xuéxí.",
+            "translation": "I study hard in order to take the exam.",
+            "note": "Here '为了' comes after the subject, before the purpose."
+          },
+          {
+            "original": "为了省钱，她走路去上班。",
+            "phonetic": "wèile shěng qián, tā zǒulù qù shàngbān.",
+            "translation": "In order to save money, she walks to work.",
+            "note": "'为了' introduces the intention, the rest is the action."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "所以表达的用法",
+        "translation": "Use of 'so' for result",
+        "examples": [
+          {
+            "original": "他很累，所以早睡了。",
+            "phonetic": "tā hěn lèi, suǒyǐ zǎo shuì le.",
+            "translation": "He was very tired, so he went to bed early.",
+            "note": "'所以' can stand alone when the cause has already been mentioned or is easy to infer."
+          },
+          {
+            "original": "这个菜太辣，所以我没吃。",
+            "phonetic": "zhège cài tài là, suǒyǐ wǒ méi chī.",
+            "translation": "This dish is too spicy, so I didn't eat it.",
+            "note": "The cause is expressed without '因为', but it is understood."
+          },
+          {
+            "original": "她学了三年中文，所以说得很好。",
+            "phonetic": "tā xué le sān nián zhōngwén, suǒyǐ shuō de hěn hǎo.",
+            "translation": "She studied Chinese for three years, so she speaks very well.",
+            "note": "The result is presented with '所以' and the cause without '因为'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎯",
+    "phonetic": "",
+    "translations": {
+      "en": "Purpose, cause and result"
+    }
+  },
+  {
+    "id": "en_B1_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "常见动词短语 / Common phrasal verbs",
+    "bridge": "Unlike Spanish, where phrasal verbs (such as 'dar cuenta de' or 'ponerse de acuerdo') are often prepositional verbs, in Mandarin Chinese there are verb + directional complement (趋向补语) combinations that change the meaning of the base verb. For example, '来' (to come) and '去' (to go) are added to verbs to indicate direction or result, something that in Spanish is expressed with adverbs or prepositions. It is common for Spanish speakers to omit these complements, losing important nuances.",
+    "rule": "In Mandarin, phrasal verbs are formed by adding a directional complement (such as '来', '去', '上', '下', '进', '出', '回', '过', '起') or a resultative complement (such as '到', '完', '见') to a main verb. These complements can be simple directionals (来/去) or compound (上来, 下去, etc.). At the B1 level, the most frequent uses are expected to be mastered: '上来' (to come up toward the speaker), '下去' (to continue/go down), '出来' (to come out/to take out), '起来' (to stand up/to start), '到' (to arrive at/until), '完' (to finish completely). The position of the object is important: with definite objects, it usually goes between the verb and the complement (e.g., '拿出来' = to take something out), while with indefinite objects it can go after (e.g., '拿一本书出来' = to take a book out).",
+    "concept_examples": [
+      {
+        "text": "他把书拿出来。",
+        "translation": "He took the book out.",
+        "phonetic": "[tʰa˥˥ pa˨˩˦ ʂu˥˥ na˧˥ t͡ʂʰu˥˥ lai˧˥]"
+      },
+      {
+        "text": "我们继续学下去吧。",
+        "translation": "Let’s keep learning (until the end).",
+        "phonetic": "[u̯o˨˩˦ mən˧˥ t͡ɕi˥˩ t͡ɕy˥˩ ɕy̯ɛ˧˥ ɕi̯a˥˩ t͡ɕʰy˥˩ b̥a˥˥]"
+      },
+      {
+        "text": "我听见了。",
+        "translation": "I heard it (and caught it).",
+        "phonetic": "[u̯o˨˩˦ tʰiŋ˥˥ t͡ɕi̯ɛn˥˩ lə˧˥]"
+      },
+      {
+        "text": "你做完功课了吗？",
+        "translation": "Did you finish doing the homework?",
+        "phonetic": "[ni˨˩˦ t͡su̯ɔ˥˩ u̯an˧˥ kʰu̯ŋ˥˥ kʰɤ˥˩ lə˧˥ ma˧˥]"
+      }
+    ],
+    "common_error": {
+      "wrong": "他把书拿了。",
+      "correct": "他把书拿出来了。",
+      "correct_alt": "",
+      "explanation": "In Spanish, 'sacar' implies direction, but in Chinese the verb '拿' (to take) needs the directional complement '出来' (to come out) to express movement outward. Omitting it is a common error because Spanish does not require it explicitly. Remember: the directional complement is an essential part of the meaning."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "方向补语：来/去",
+        "translation": "Directional complements: 来/去",
+        "examples": [
+          {
+            "original": "上来吧。",
+            "phonetic": "[ʂɑŋ˥˩ lai˧˥ b̥a]",
+            "translation": "Come up (toward here).",
+            "note": "Use of '来' to indicate movement toward the speaker."
+          },
+          {
+            "original": "下去吧。",
+            "phonetic": "[ɕi̯a˥˩ t͡ɕʰy˥˩ b̥a]",
+            "translation": "Go down (away from here).",
+            "note": "Use of '去' to indicate movement away from the speaker."
+          },
+          {
+            "original": "进来了。",
+            "phonetic": "[t͡ɕin˥˩ lai˧˥ lə]",
+            "translation": "He came in (toward here).",
+            "note": "The complement '来' indicates that the movement is toward the speaker."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "结果补语：到/完",
+        "translation": "Resultative complements: 到/完",
+        "examples": [
+          {
+            "original": "我看到了。",
+            "phonetic": "[u̯o˨˩˦ kʰan˥˩ tau̯˥˩ lə]",
+            "translation": "I saw it (managed to see it).",
+            "note": "'到' indicates that the action was completed successfully."
+          },
+          {
+            "original": "我买到了票。",
+            "phonetic": "[u̯o˨˩˦ mai̯˨˩˦ tau̯˥˩ lə pʰi̯ɑu̯˥˩]",
+            "translation": "I managed to buy the ticket.",
+            "note": "'到' indicates that the goal was achieved."
+          },
+          {
+            "original": "我吃完了。",
+            "phonetic": "[u̯o˨˩˦ t͡ʂʰi˥˥ u̯an˧˥ lə]",
+            "translation": "I finished eating.",
+            "note": "'完' indicates that the action was completed fully."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "方向复合补语：起来/出来",
+        "translation": "Compound directional complements: 起来/出来",
+        "examples": [
+          {
+            "original": "站起来！",
+            "phonetic": "[t͡ʂan˥˩ t͡ɕʰi˨˩˦ lai˧˥]",
+            "translation": "Stand up!",
+            "note": "'起来' indicates upward movement or the start of a posture."
+          },
+          {
+            "original": "说出来吧。",
+            "phonetic": "[ʂu̯ɔ˥˥ t͡ʂʰu˥˥ lai˧˥ b̥a]",
+            "translation": "Say it (bring it out).",
+            "note": "'出来' indicates movement outward, here in a figurative sense."
+          },
+          {
+            "original": "他哭起来了。",
+            "phonetic": "[tʰa˥˥ kʰu˥˥ t͡ɕʰi˨˩˦ lai˧˥ lə]",
+            "translation": "He started to cry.",
+            "note": "'起来' is also used to indicate the beginning of an action."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "en": "Common phrasal verbs"
+    }
+  },
+  {
+    "id": "en_B1_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "高级量词 / Advanced quantifiers",
+    "bridge": "In Spanish, we use quantifiers like 'casi ningún', 'bastante' or 'un montón de' that agree in gender and number. In Chinese, however, quantity is expressed without inflection and often through adverbs that precede the verb or noun, such as 几乎 (jīhū) for 'almost', 很多 (hěnduō) for 'many', or 很少 (hěnshǎo) for 'few'. A key difference is that Chinese has no articles, and plurality is inferred from context or the quantifier itself. Additionally, certain quantifiers like 几乎 cannot be directly combined with nouns but instead require verbs or 没有 (méiyǒu) to express 'almost none'. Pay attention to word order: in Chinese, the quantifier comes before the verb or noun, not after.",
+    "rule": "In Chinese, advanced quantifiers are formed with adverbs or phrases that express quantity. The most common ones at B1 level are: 几乎 (jīhū) 'almost', 几乎不 (jīhū bù) 'almost not', 几乎没有 (jīhū méiyǒu) 'almost none', 很少 (hěnshǎo) 'rarely/little', 很多 (hěnduō) 'many', 不少 (bùshǎo) 'quite a few', 大量的 (dàliàng de) 'a large quantity of', and 许多 (xǔduō) 'many'. For countable and uncountable nouns, they are placed directly before the noun (often with 的 for adjectival quantity phrases, such as 大量的水). With verbs, they come before the verb to indicate frequency or degree: 我很少喝茶 (wǒ hěnshǎo hē chá) 'I rarely drink tea'. To express 'almost nothing', use 几乎没有 + object: 我几乎没有时间 (wǒ jīhū méiyǒu shíjiān) 'I almost have no time'. Be careful: 几乎 cannot stand alone with a noun; it requires a verb or 没有. Also, Chinese does not use plural forms, so the same quantifier serves for singular and plural.",
+    "concept_examples": [
+      {
+        "text": "我几乎不认识他。",
+        "translation": "I almost don’t know him.",
+        "phonetic": "wǒ jīhū bù rènshi tā."
+      },
+      {
+        "text": "这里几乎没有下雨。",
+        "translation": "It almost never rains here.",
+        "phonetic": "zhèlǐ jīhū méiyǒu xiàyǔ."
+      },
+      {
+        "text": "他有不少朋友，但很少联系他们。",
+        "translation": "He has quite a few friends, but rarely contacts them.",
+        "phonetic": "tā yǒu bùshǎo péngyou, dàn hěnshǎo liánxì tāmen."
+      },
+      {
+        "text": "我有很多工作要做。",
+        "translation": "I have a lot of work to do.",
+        "phonetic": "wǒ yǒu hěnduō gōngzuò yào zuò."
+      }
+    ],
+    "common_error": {
+      "wrong": "我几乎时间没有。",
+      "correct": "我几乎没有时间。",
+      "correct_alt": "我几乎没时间。",
+      "explanation": "In Spanish, we might say 'almost no time' and tend to place 'casi' before the verb or noun. In Chinese, the correct order is 'almost' + 'not have' + object. 几乎没有 (jīhū méiyǒu) is the standard form. Placing 几乎 directly before the noun 时间 is incorrect because 几乎 needs a verb or 没有 to function as a quantifier. Remember: 几乎 is an adverb, not an adjective."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "几乎 / 几乎不 (casi / casi no)",
+        "translation": "Almost / almost not",
+        "examples": [
+          {
+            "original": "他几乎每天都来。",
+            "phonetic": "tā jīhū měitiān dōu lái.",
+            "translation": "He comes almost every day.",
+            "note": "Use 几乎 with 都 to express 'almost all'."
+          },
+          {
+            "original": "我几乎不吃肉。",
+            "phonetic": "wǒ jīhū bù chī ròu.",
+            "translation": "I almost never eat meat.",
+            "note": "Before a verb, 几乎 combines with 不 to negate."
+          },
+          {
+            "original": "她几乎没有缺点。",
+            "phonetic": "tā jīhū méiyǒu quēdiǎn.",
+            "translation": "She almost has no flaws.",
+            "note": "With nouns, use 几乎没有 + noun."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "很少 / 不少 (poco/a menudo / bastantes)",
+        "translation": "Rarely / quite a few",
+        "examples": [
+          {
+            "original": "我很少去电影院。",
+            "phonetic": "wǒ hěnshǎo qù diànyǐngyuàn.",
+            "translation": "I rarely go to the cinema.",
+            "note": "Before a verb, 很少 indicates low frequency."
+          },
+          {
+            "original": "他喝不少啤酒。",
+            "phonetic": "tā hē bùshǎo píjiǔ.",
+            "translation": "He drinks quite a bit of beer.",
+            "note": "不少 can be used with verbs and nouns."
+          },
+          {
+            "original": "不少学生喜欢运动。",
+            "phonetic": "bùshǎo xuéshēng xǐhuan yùndòng.",
+            "translation": "Quite a few students like sports.",
+            "note": "When modifying a noun, it comes before it."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "许多 / 大量 (muchos / gran cantidad)",
+        "translation": "Many / a large quantity of",
+        "examples": [
+          {
+            "original": "他有许多书。",
+            "phonetic": "tā yǒu xǔduō shū.",
+            "translation": "He has many books.",
+            "note": "许多 is more formal than 很多, but both are used."
+          },
+          {
+            "original": "这里大量的水被污染了。",
+            "phonetic": "zhèlǐ dàliàng de shuǐ bèi wūrǎn le.",
+            "translation": "A large quantity of water here is polluted.",
+            "note": "大量的 is used with uncountable nouns like 'water'."
+          },
+          {
+            "original": "大量的工作让我们很累。",
+            "phonetic": "dàliàng de gōngzuò ràng wǒmen hěn lèi.",
+            "translation": "The large amount of work makes us tired.",
+            "note": "大量 can also be used with abstract nouns."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧮",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced quantifiers"
+    }
+  },
+  {
+    "id": "en_B1_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "动词结构 (Verb patterns: verb + infinitive / verb + gerund)",
+    "bridge": "In Spanish, we use infinitives and gerunds after certain verbs (e.g., 'quiero comer', 'estoy comiendo'). In Chinese, there are no conjugations or equivalent verb forms: the verb remains unchanged and combines with other verbs sequentially. The key difference is that in Chinese, the verb form does not change; instead, particles are added or a second verb is used directly. Pay attention to the position: in Chinese, the main verb comes first, and the secondary verb (which functions as a complement) follows without the need for prepositions like 'a', 'de', or 'que'.",
+    "rule": "In Chinese, verb patterns are formed by placing two verbs together without changing the form of the first one. The first verb (the main verb) indicates the action or attitude, and the second verb (the complement) describes the specific action. Common patterns include:\n\n1. Modal verb + verb: 想 (xiǎng, to want/desire), 会 (huì, to know how to/can), 能 (néng, to be able to), 应该 (yīnggāi, should), 喜欢 (xǐhuān, to like), 需要 (xūyào, to need) + base verb. No 'a', 'de', or 'que' is used.\n   - 我想吃 (wǒ xiǎng chī) - I want to eat.\n\n2. Attitude verb + verb: 开始 (kāishǐ, to start), 继续 (jìxù, to continue), 停止 (tíngzhǐ, to stop) + verb. There is no equivalent to the Spanish gerund ('comiendo'); instead, the base verb is used.\n   - 他开始学习 (tā kāishǐ xuéxí) - He starts to study.\n\n3. Verbs like 喜欢, 爱 (ài, to love), 讨厌 (tǎoyàn, to hate) can take verbs that function as nouns (equivalent to the infinitive or gerund in Spanish).\n   - 我喜欢跳舞 (wǒ xǐhuān tiàowǔ) - I like to dance (dancing).\n\n4. The progressive aspect is formed with 正在 (zhèngzài) or 在 (zài) before the verb, equivalent to the Spanish gerund (estar + gerund), but this is not a verb + verb pattern; it is a particle + verb structure.\n   - 我正在学习 (wǒ zhèngzài xuéxí) - I am studying.\n\nThere is no change in form as in Spanish (comer/comiendo), and verbs are not conjugated. The order is fixed: subject + main verb + complement verb. Pay attention to modal verbs, which may omit the second verb if it is clear from context.",
+    "concept_examples": [
+      {
+        "text": "我想学中文。",
+        "translation": "I want to learn Chinese.",
+        "phonetic": "wɔ˨˩˦ ɕjɛn˨˩˦ ɕɥɛ˧˥ ʈʂʊŋ˥˥ wən˧˥"
+      },
+      {
+        "text": "我会游泳。",
+        "translation": "I can swim.",
+        "phonetic": "wɔ˨˩˦ xwei˥˩ joʊ˧˥ jʊŋ˨˩˦"
+      },
+      {
+        "text": "他开始工作了。",
+        "translation": "He started to work.",
+        "phonetic": "tʰa˥˥ kʰaɪ̯˥˥ ʂɻ̩˥˩ kʊŋ˥˥ tswɔ˥˩ lə"
+      },
+      {
+        "text": "我喜欢听音乐。",
+        "translation": "I like listening to music.",
+        "phonetic": "wɔ˨˩˦ ɕi˨˩˦ xwan˥˥ tʰiŋ˥˥ in˥˥ ɥɛ˥˩"
+      }
+    ],
+    "common_error": {
+      "wrong": "我想去吃饭 (literal: I want to go to eat) - correct, but common error: *我想吃去 (wrong: I want to eat go)",
+      "correct": "我想去吃饭。",
+      "correct_alt": "我想吃饭。",
+      "explanation": "The typical error is reversing the order of the verbs, placing the complement verb before the main verb. In Chinese, the main verb (want, desire, can) always comes first, and the action verb (go, eat) follows. In Spanish, we say 'quiero ir a comer', but in Chinese, no preposition like 'a' is needed, and the order is fixed: 想 + 去 + 吃. If you say '想吃去', it would be like saying 'I want to eat go', which is incorrect. Practice memorizing the pattern: subject + modal verb + action verb + object."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "基本动词结构",
+        "translation": "Basic verb structures",
+        "examples": [
+          {
+            "original": "我想喝茶。",
+            "phonetic": "wɔ˨˩˦ ɕjɛn˨˩˦ xɤ˧˥ ʈʂʰa˧˥",
+            "translation": "I want to drink tea.",
+            "note": "Here, '想' (to want) + '喝' (to drink) + object. No 'a' is used as in Spanish."
+          },
+          {
+            "original": "他会说英语。",
+            "phonetic": "tʰa˥˥ xwei˥˩ ʂwɔ˥˥ iŋ˥˥ ɥ˧˥",
+            "translation": "He knows how to speak English."
+          },
+          {
+            "original": "我需要买书。",
+            "phonetic": "wɔ˨˩˦ ɕy˥˩ jɑʊ̯˥˩ maɪ̯˨˩˦ ʂu˥˥",
+            "translation": "I need to buy books."
+          },
+          {
+            "original": "我喜欢跑步。",
+            "phonetic": "wɔ˨˩˦ ɕi˨˩˦ xwan˥˥ pʰɑʊ̯˨˩˦ pu˥˩",
+            "translation": "I like running."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "表示开始和继续",
+        "translation": "Expressing start and continuation",
+        "examples": [
+          {
+            "original": "我们开始上课吧。",
+            "phonetic": "wɔ˨˩˦ mən kʰaɪ̯˥˥ ʂɻ̩˥˩ ʂɑŋ˥˩ kʰɤ˥˩ pɑ",
+            "translation": "Let's start the class (lit. start having class)."
+          },
+          {
+            "original": "你继续说吧。",
+            "phonetic": "ni˨˩˦ tɕi˥˩ tɕy˥˩ ʂwɔ˥˥ pɑ",
+            "translation": "Continue speaking."
+          },
+          {
+            "original": "他停下来休息。",
+            "phonetic": "tʰa˥˥ tʰiŋ˧˥ ɕjɑ˥˩ laɪ̯˧˥ ɕjoʊ˥˥ ɕi˧˥",
+            "translation": "He stops to rest."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "否定和疑问结构",
+        "translation": "Negative and interrogative structures",
+        "examples": [
+          {
+            "original": "我不想去看电影。",
+            "phonetic": "wɔ˨˩˦ pu˥˩ ɕjɛn˨˩˦ tɕʰy˥˩ kʰan˥˩ tjɛn˥˩ iŋ˨˩˦",
+            "translation": "I don't want to go to the movies."
+          },
+          {
+            "original": "你会不会做饭？",
+            "phonetic": "ni˨˩˦ xwei˥˩ pu˥˩ xwei˥˩ tswɔ˥˩ fan˥˩",
+            "translation": "Can you cook?"
+          },
+          {
+            "original": "他喜欢不喜欢运动？",
+            "phonetic": "tʰa˥˥ ɕi˨˩˦ xwan˥˥ pu˥˩ ɕi˨˩˦ xwan˥˥ yn˥˩ tʊŋ˥˩",
+            "translation": "Does he like to exercise?"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "en": "Verb patterns: verb + infinitive / verb + gerund"
+    }
+  },
+  {
+    "id": "en_B1_gram_14",
+    "type": "concept",
+    "category": "Grammar",
+    "title": "零冠词与泛指 / Zero article and generic use",
+    "bridge": "In Spanish, we almost always use an article (el, la, un, una) before a noun. In Mandarin Chinese, there are no definite or indefinite articles, so nouns appear alone without any equivalent word. This can feel strange at first, but you’ll get used to it. The key is to distinguish when the context makes the noun specific or general: in Chinese, if there’s no determiner (like 这, 那 or a classifier), the noun is usually understood as generic or indefinite. In Spanish, on the other hand, we often need an article to express the same idea.",
+    "rule": "In Mandarin, nouns do not require an article. To express a generic noun (for example, 'dogs are loyal'), the noun stands alone without any marker. To indicate a specific item, demonstratives (这, 那) or possessives (我的, 你的) are used. To indicate an indefinite quantity (one, some), the classifier 一 (one) + classifier + noun is used, but it is often omitted when the context is clear. There is no distinction between definite and indefinite articles as in Spanish. Therefore, when speaking or writing, you should avoid translating articles directly; instead, think about whether the noun is specific or not.",
+    "concept_examples": [
+      {
+        "text": "狗很忠诚。",
+        "translation": "Dogs are loyal.",
+        "phonetic": "kǒu hěn zhōngchéng"
+      },
+      {
+        "text": "我喜欢喝茶。",
+        "translation": "I like to drink tea (in general).",
+        "phonetic": "wǒ xǐhuān hē chá"
+      },
+      {
+        "text": "他买了一本书。",
+        "translation": "He bought a book (one, any).",
+        "phonetic": "tā mǎi le yī běn shū"
+      },
+      {
+        "text": "这本书很有意思。",
+        "translation": "This book is very interesting (specific).",
+        "phonetic": "zhè běn shū hěn yǒuyìsi"
+      }
+    ],
+    "common_error": {
+      "wrong": "El perro es fiel. (Direct translation with article)",
+      "correct": "狗很忠诚。",
+      "correct_alt": "狗是忠诚的。",
+      "explanation": "The typical mistake is translating Spanish articles directly into Chinese. Spanish speakers tend to think 'el perro' and want to say '那个狗' or use a determiner, but in Chinese, when talking about a class or species in general, the noun alone is sufficient. To avoid this error, ask yourself: am I talking about something specific that the listener knows? If not, use the noun alone."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "泛指名词",
+        "translation": "Generic nouns",
+        "examples": [
+          {
+            "original": "猫喜欢鱼。",
+            "phonetic": "māo xǐhuān yú",
+            "translation": "Cats like fish.",
+            "note": "Here '猫' and '鱼' are generic: they refer to all cats and all fish in general. No article is used."
+          },
+          {
+            "original": "保护环境很重要。",
+            "phonetic": "bǎohù huánjìng hěn zhòngyào",
+            "translation": "Protecting the environment is important.",
+            "note": "'环境' is used without an article because it refers to the environment in general."
+          },
+          {
+            "original": "时间是宝贵的。",
+            "phonetic": "shíjiān shì bǎoguì de",
+            "translation": "Time is valuable.",
+            "note": "The noun '时间' appears without an article, indicating the abstract concept of time."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "不定指",
+        "translation": "Indefinite",
+        "examples": [
+          {
+            "original": "我买了一杯咖啡。",
+            "phonetic": "wǒ mǎi le yī bēi kāfēi",
+            "translation": "I bought a coffee (one specific, but not important which one).",
+            "note": "The classifier '一杯' with '一' is used to indicate an indefinite quantity. If you say '我买了咖啡', it means you bought coffee in general."
+          },
+          {
+            "original": "他是一位老师。",
+            "phonetic": "tā shì yī wèi lǎoshī",
+            "translation": "He is a teacher (one of many).",
+            "note": "Generally, '一' is omitted in the structure '是...的' when describing a profession: '他是老师' is more common."
+          },
+          {
+            "original": "有个人在门口等你。",
+            "phonetic": "yǒu gè rén zài ménkǒu děng nǐ",
+            "translation": "There is a person waiting for you at the door (someone unspecified).",
+            "note": "The classifier '个' without '一' (which can be omitted) indicates an indefinite noun: any person."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "特定指代",
+        "translation": "Specificity and demonstratives",
+        "examples": [
+          {
+            "original": "那本书是我的。",
+            "phonetic": "nà běn shū shì wǒ de",
+            "translation": "That book is mine (the one you see there).",
+            "note": "The demonstrative '那' specifies exactly which book, equivalent to 'that' in Spanish."
+          },
+          {
+            "original": "这个人是谁？",
+            "phonetic": "zhè gè rén shì shéi",
+            "translation": "Who is this person?",
+            "note": "The demonstrative '这' indicates that the speaker is referring to a specific person known to them."
+          },
+          {
+            "original": "我的手机坏了。",
+            "phonetic": "wǒ de shǒujī huài le",
+            "translation": "My phone is broken.",
+            "note": "The possessive '我的' makes the noun specific, without needing an article."
+          }
+        ]
+      }
+    ],
+    "emoji": "📝",
+    "phonetic": "",
+    "translations": {
+      "en": "Zero article and generic use"
+    }
+  }
+]
