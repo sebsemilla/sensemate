@@ -1,0 +1,350 @@
+[
+  {
+    "id": "it_A2_gram_01",
+    "type": "concept",
+    "category": "Grammatica",
+    "title": "Pretérito Perfeito Simples / Passato semplice",
+    "bridge": "In portoghese, il pretérito perfeito simples si usa per azioni completate nel passato, simile al pretérito indefinido in spagnolo. La coniugazione è molto simile, ma con differenze chiave nelle desinenze della prima persona plurale (-mos in spagnolo vs. -mos in portoghese, ma con cambi vocalici) e nella seconda persona (tu/vós vs. tu/você). Inoltre, i verbi irregolari hanno forme che non sempre coincidono con quelle dello spagnolo. Attenzione alla nasalizzazione nella prima persona plurale e al cambio di 'e' in 'i' in alcuni verbi irregolari come 'fazer' -> 'fiz' (io feci). Non confondere il pretérito perfeito con l'imperfetto: il perfetto indica un'azione puntuale conclusa.",
+    "rule": "In portoghese, il pretérito perfeito semplice si usa per azioni passate puntuali e completate. Formazione dei verbi regolari: per verbi terminanti in -AR: radice + -ei, -aste, -ou, -amos, -astes, -aram (es. falar: falei, falaste, falou, falamos, falastes, falaram). Per verbi in -ER: radice + -i, -este, -eu, -emos, -estes, -eram (es. comer: comi, comeste, comeu, comemos, comestes, comeram). Per verbi in -IR: radice + -i, -iste, -iu, -imos, -istes, -iram (es. partir: parti, partiste, partiu, partimos, partistes, partiram). I verbi irregolari più comuni: ser (fui, foste, foi, fomos, fostes, foram), ir (fui, foste, foi, fomos, fostes, foram), ter (tive, tiveste, teve, tivemos, tivestes, tiveram), fazer (fiz, fizeste, fez, fizemos, fizestes, fizeram), dizer (disse, disseste, disse, dissemos, dissestes, disseram), estar (estive, estiveste, esteve, estivemos, estivestes, estiveram), poder (pude, pudeste, pôde, pudemos, pudestes, puderam), querer (quis, quiseste, quis, quisemos, quisestes, quiseram), vir (vim, vieste, veio, viemos, viestes, vieram). Nota: La prima persona plurale (-amos, -emos, -imos) porta l'accento sulla penultima sillaba e la vocale è nasale (marcata ortograficamente con accento in alcuni casi, ma non sempre). La seconda persona singolare 'tu' è comune in Portogallo, mentre in Brasile si usa 'você' con la forma di terza persona. Eccezioni: verbi come 'dar' -> dei, deste, deu, demos, destes, deram; 'ver' -> vi, viste, viu, vimos, vistes, viram. Uso tipico: azioni passate completate con marcatori temporali come 'ontem' (ieri), 'na semana passada' (la settimana scorsa).",
+    "concept_examples": [
+      {
+        "text": "Ontem falei com a Maria.",
+        "translation": "Ieri ho parlato con Maria.",
+        "phonetic": "/õˈtɐ̃j̃ fɐˈlej kõ ɐ mɐˈɾi.ɐ/"
+      },
+      {
+        "text": "Ela comeu o bolo todo.",
+        "translation": "Lei ha mangiato tutta la torta.",
+        "phonetic": "/ˈɛ.lɐ koˈmew u ˈbo.lu ˈto.du/"
+      },
+      {
+        "text": "Nós fomos ao cinema.",
+        "translation": "Noi siamo andati al cinema.",
+        "phonetic": "/nɔʃ ˈfõ.muʒ aw siˈne.mɐ/"
+      },
+      {
+        "text": "Ele fez um trabalho importante.",
+        "translation": "Lui ha fatto un lavoro importante.",
+        "phonetic": "/ˈɛ.li ˈfɛz ũ tɾɐˈba.ʎu ĩ.puɾˈtɐ̃.tɨ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ontem eu falou com ele.",
+      "correct": "Ontem eu falei com ele.",
+      "correct_alt": "",
+      "explanation": "L'errore avviene perché gli ispanofoni tendono a usare la forma di terza persona 'falou' per tutte le persone, poiché in spagnolo 'habló' è una forma chiara. Ma in portoghese, la prima persona singolare del pretérito si forma con '-ei' per i verbi -AR (falei), non con '-ou'. Presta attenzione alle desinenze verbali specifiche di ogni persona."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbos regulares -AR",
+        "translation": "Verbi regolari terminanti in -AR",
+        "examples": [
+          {
+            "original": "Falei com ela.",
+            "phonetic": "/fɐˈlej kõ ˈɛ.lɐ/",
+            "translation": "Ho parlato con lei.",
+            "note": "La prima persona singolare termina in -ei, non in -é né in -í."
+          },
+          {
+            "original": "Falaste com o professor?",
+            "phonetic": "/fɐˈlaʃ.tɨ kõ u pɾu.fɨˈsoɾ/",
+            "translation": "Hai parlato con il professore? (Tu)",
+            "note": "La seconda persona singolare (-aste) si usa con 'tu', comune in Portogallo."
+          },
+          {
+            "original": "Ela estudou ontem.",
+            "phonetic": "/ˈɛ.lɐ iʃ.tuˈdo ɐ̃ˈtɐ̃j̃/",
+            "translation": "Lei ha studiato ieri.",
+            "note": "La terza persona singolare termina in -ou come in spagnolo ma senza accento."
+          },
+          {
+            "original": "Nós falamos muito.",
+            "phonetic": "/nɔʃ fɐˈlɐ̃.muʃ ˈmũj̃.tu/",
+            "translation": "Noi parliamo molto.",
+            "note": "La prima persona plurale è uguale al presente: falamos. Il contesto chiarisce il tempo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbos regulares -ER e -IR",
+        "translation": "Verbi regolari terminanti in -ER e -IR",
+        "examples": [
+          {
+            "original": "Comi uma maçã.",
+            "phonetic": "/koˈmi ˈũ.mɐ mɐˈsɐ̃/",
+            "translation": "Ho mangiato una mela.",
+            "note": "La prima persona singolare di -ER e -IR termina in -i."
+          },
+          {
+            "original": "Você partiu cedo.",
+            "phonetic": "/voˈse pɐɾˈtiw ˈse.du/",
+            "translation": "Lei è partita presto.",
+            "note": "La terza persona singolare di -IR termina in -iu."
+          },
+          {
+            "original": "Elas venderam a casa.",
+            "phonetic": "/ˈɛ.lɐʃ vɐ̃ˈdɛ.ɾɐ̃w ɐ ˈka.zɐ/",
+            "translation": "Loro hanno venduto la casa.",
+            "note": "La terza persona plurale termina in -eram per -ER."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbos irregulares mais comuns",
+        "translation": "Verbi irregolari più comuni",
+        "examples": [
+          {
+            "original": "Eu fiz a lição.",
+            "phonetic": "/ew ˈfiz ɐ liˈsɐ̃w/",
+            "translation": "Io ho fatto il compito.",
+            "note": "'Fazer' diventa 'fiz' alla prima persona, con cambio di a/e in i."
+          },
+          {
+            "original": "Ele foi a Portugal.",
+            "phonetic": "/ˈɛ.li ˈfoj ɐ puɾ.tuˈɡaw/",
+            "translation": "Lui è andato in Portogallo.",
+            "note": "'Ser' e 'ir' hanno la stessa coniugazione al pretérito: foi per la terza persona."
+          },
+          {
+            "original": "Nós tivemos um problema.",
+            "phonetic": "/nɔʃ tʃiˈve.muʒ ũ pɾuˈble.mɐ/",
+            "translation": "Noi abbiamo avuto un problema.",
+            "note": "'Ter' ha un'irregolarità: tive, tiveste, teve, tivemos, ecc."
+          }
+        ]
+      }
+    ],
+    "emoji": "🕰️",
+    "phonetic": "",
+    "translations": {
+      "it": "Passato semplice"
+    }
+  },
+  {
+    "id": "it_A2_gram_02",
+    "type": "concept",
+    "category": "Grammatica",
+    "title": "Presente contínuo (estar + gerúndio) / Presente continuo",
+    "bridge": "In italiano si usa il presente continuo con 'stare + gerundio' (sto leggendo) per azioni in corso. In portoghese la struttura è molto simile: 'estar + gerúndio' (estou falando). Tuttavia, ci sono due differenze principali: 1) In portoghese i gerundi terminano in -ando, -endo, -indo (non in -ando/-iendo come in spagnolo). 2) In portoghese, a differenza dello spagnolo, non si usa 'estar + gerundio' per azioni future pianificate; si usa il presente semplice o 'ir + infinitivo'. Inoltre, in portoghese i pronomi soggetto spesso si omettono, come in spagnolo, ma quando si usa 'você' (tu/Lei) la coniugazione è alla terza persona.",
+    "rule": "Il presente continuo in portoghese si forma con il verbo 'estar' coniugato al presente indicativo più il gerundio del verbo principale. I gerundi regolari si formano così: verbi in -ar → -ando (falar → falando), -er → -endo (comer → comendo), -ir → -indo (partir → partindo). Esempio: 'Eu estou falando' (Io sto parlando). Per la seconda persona informale 'tu' si usa 'estás + gerúndio' (estás falando), ma con 'você' (più comune in Brasile) si usa 'está + gerúndio' (você está falando). Per 'nós' si usa 'estamos + gerúndio', per 'eles/elas' si usa 'estão + gerúndio'. Nota: Nel portoghese europeo a volte si usa la costruzione 'estar a + infinito' (estou a falar) invece del gerundio, ma per il livello A2 ci concentriamo sul gerundio, comune in Brasile. Il presente continuo si usa per: azioni in corso al momento (Estou estudando agora), azioni temporanee (Estou morando em Lisboa) e per azioni che si ripetono frequentemente (Estou sempre perdendo minhas chaves). Non si usa per azioni future pianificate; si dice 'Vou viajar amanhã' (Domani andrò in viaggio), non 'Estou viajando amanhã' (sarebbe scorretto).",
+    "concept_examples": [
+      {
+        "text": "Eu estou lendo um livro.",
+        "translation": "Sto leggendo un libro.",
+        "phonetic": "ew ɪʃˈtow ˈlẽdʊ ũ ˈlivʊ"
+      },
+      {
+        "text": "Ela está cozinhando o jantar.",
+        "translation": "Lei sta cucinando la cena.",
+        "phonetic": "ˈɛlɐ ɪʃˈta kozĩˈɲɐ̃dʊ u ʒɐ̃ˈtaʁ"
+      },
+      {
+        "text": "Nós estamos estudando para o exame.",
+        "translation": "Stiamo studiando per l'esame.",
+        "phonetic": "nɔjs ɪʃˈtɐ̃mʊz ɪʃtuˈdɐ̃dʊ ˈpaɾɐ u ɪˈzɐ̃mi"
+      },
+      {
+        "text": "Eles estão jogando futebol no parque.",
+        "translation": "Stanno giocando a calcio nel parco.",
+        "phonetic": "ˈelɪz ɪʃˈtɐ̃w ʒoˈɡɐ̃dʊ futʃiˈbɔw nu ˈpaʁki"
+      }
+    ],
+    "common_error": {
+      "wrong": "Eu estou trabalhando amanhã.",
+      "correct": "Eu vou trabalhar amanhã.",
+      "correct_alt": "Eu trabalho amanhã.",
+      "explanation": "In italiano, a volte si usa il presente continuo per esprimere un piano futuro (ad esempio, 'domani sto lavorando'). In portoghese questa costruzione non è possibile; il presente continuo indica solo azioni in corso al momento dell'enunciazione o situazioni temporanee. Per il futuro si usa 'ir + infinito' (vou trabalhar) o il presente semplice (trabalho). Evita di usare 'estar + gerúndio' con avverbi di tempo futuro."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formação do gerúndio (formación del gerundio)",
+        "translation": "Formazione del gerundio",
+        "examples": [
+          {
+            "original": "falando (falar)",
+            "phonetic": "faˈlɐ̃dʊ",
+            "translation": "parlando (parlare)",
+            "note": "I verbi terminanti in -ar formano il gerundio con la desinenza -ando."
+          },
+          {
+            "original": "comendo (comer)",
+            "phonetic": "koˈmẽdʊ",
+            "translation": "mangiando (mangiare)",
+            "note": "I verbi terminanti in -er formano il gerundio con -endo."
+          },
+          {
+            "original": "partindo (partir)",
+            "phonetic": "paʁˈtʃĩdʊ",
+            "translation": "partendo (partire)",
+            "note": "I verbi terminanti in -ir formano il gerundio con -indo. Nota la differenza con lo spagnolo: -ando/-iendo vs -ando/-endo/-indo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Conjugação de 'estar' no presente (conjugación de 'estar' en presente)",
+        "translation": "Coniugazione di 'estar' al presente",
+        "examples": [
+          {
+            "original": "Eu estou estudando.",
+            "phonetic": "ew ɪʃˈtow ɪʃtuˈdɐ̃dʊ",
+            "translation": "Sto studiando.",
+            "note": "Con 'eu' si usa 'estou'. Ricorda che in portoghese spesso si omette il pronome, ma la desinenza -o indica la persona."
+          },
+          {
+            "original": "Você está trabalhando muito.",
+            "phonetic": "voˈse ɪʃˈta tɾabaˈʎɐ̃dʊ ˈmũj̃tʊ",
+            "translation": "Stai lavorando molto.",
+            "note": "Con 'você' (trattamento informale in Brasile) si usa 'está' (terza persona). Al plurale è 'vocês estão'."
+          },
+          {
+            "original": "Nós estamos aprendendo português.",
+            "phonetic": "nɔjs ɪʃˈtɐ̃mʊz apɾẽˈdẽdʊ poʁtuˈɡejʃ",
+            "translation": "Stiamo imparando il portoghese.",
+            "note": "Con 'nós' si usa 'estamos'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Uso com pronomes oblíquos (uso con pronombres oblicuos)",
+        "translation": "Uso con pronomi obliqui",
+        "examples": [
+          {
+            "original": "Estou te esperando.",
+            "phonetic": "ɪʃˈtow tʃi ɪʃpeˈɾɐ̃dʊ",
+            "translation": "Ti sto aspettando.",
+            "note": "In portoghese, i pronomi oggetto (te, me, o, a) possono andare prima del verbo 'estar' (estou te esperando) o dopo il gerundio (estou esperando-te, più formale). A differenza dello spagnolo, non si usa 'lo/la' con la stessa frequenza."
+          },
+          {
+            "original": "Ela está me ajudando.",
+            "phonetic": "ˈɛlɐ ɪʃˈta mɪ aʒuˈdɐ̃dʊ",
+            "translation": "Lei mi sta aiutando.",
+            "note": "Qui 'me' va prima del gerundio, ma in italiano si direbbe 'mi sta aiutando' o 'sta aiutandomi'. In portoghese la posizione è flessibile, ma in Brasile è più comune prima del verbo principale."
+          },
+          {
+            "original": "Estamos nos preparando para a festa.",
+            "phonetic": "ɪʃˈtɐ̃mʊz nʊʃ pɾepaˈɾɐ̃dʊ ˈpaɾɐ ɐ ˈfɛʃtɐ",
+            "translation": "Ci stiamo preparando per la festa.",
+            "note": "Con verbi riflessivi, il pronome riflessivo 'nos' si posiziona prima del verbo 'estar' o dopo il gerundio (preparando-nos). In italiano sarebbe 'ci stiamo preparando' o 'stiamo preparandoci'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "it": "Presente continuo / progressivo"
+    }
+  },
+  {
+    "id": "it_A2_gram_03",
+    "type": "concept",
+    "category": "Grammatica",
+    "title": "Futuro com 'ir + infinitivo' / Futuro con 'ir + infinito'",
+    "bridge": "In italiano si usa 'stare per + infinito' (sto per mangiare). In portoghese è simile: 'ir + infinito' (vou comer), ma attento! In portoghese la preposizione 'a' si usa solo se il verbo principale la richiede (come 'começar a'), ma nel futuro immediato NON si usa. Quindi 'vou a comer' è un errore molto comune. Un'altra differenza: in portoghese puoi usare il presente indicativo per esprimere il futuro (Amanhã eu viajo), proprio come in italiano, ma è ancora più frequente in portoghese. Esiste anche il futuro semplice (comerei), ma è più formale e meno usato nel parlato quotidiano.",
+    "rule": "Per esprimere il futuro immediato o le intenzioni in portoghese, si usa il verbo 'ir' al presente + infinito del verbo principale, senza preposizione. Esempio: 'Eu vou viajar' (Sto per viaggiare / Andrò a viaggiare). Le forme del verbo 'ir' sono: eu vou, tu vais, você/ele/ela vai, nós vamos, vós ides, vocês/eles/elas vão. È importante non inserire 'a' tra 'ir' e l'infinito. Si può anche usare il presente indicativo con valore di futuro, soprattutto con espressioni temporali (amanhã, depois, na próxima semana). Il futuro semplice (cantarei, comerei) si usa in contesti formali o per esprimere probabilità. Per piani già stabiliti, si può usare la costruzione 'estar + a + infinito' (in Portogallo) o 'estar + gerundio' (in Brasile), ma per il livello A2 ci concentriamo su 'ir + infinito'.",
+    "concept_examples": [
+      {
+        "text": "Eu vou comer pizza amanhã.",
+        "translation": "Sto per mangiare pizza domani.",
+        "phonetic": "ew vow koˈmeʁ ˈpitsɐ ɐ̃ˈmɐ̃ɲɐ"
+      },
+      {
+        "text": "Nós vamos viajar para o Brasil no verão.",
+        "translation": "Stiamo per viaggiare in Brasile d'estate.",
+        "phonetic": "nɔjs ˈvɐ̃mus viɐˈʒaʁ ˈpaɾɐ u bɾɐˈziw nu veˈɾɐ̃w"
+      },
+      {
+        "text": "Ela vai estudar português na próxima semana.",
+        "translation": "Lei sta per studiare portoghese la prossima settimana.",
+        "phonetic": "ˈɛlɐ vaj ʃtuˈdaʁ poʁtuˈɡez na ˈpɾɔsimɐ seˈmɐ̃nɐ"
+      },
+      {
+        "text": "Vocês vão gostar do filme.",
+        "translation": "Voi starete per piacere il film.",
+        "phonetic": "voˈsejs vɐ̃w ɡosˈtaʁ du ˈfiwmi"
+      }
+    ],
+    "common_error": {
+      "wrong": "Eu vou a comer pizza amanhã.",
+      "correct": "Eu vou comer pizza amanhã.",
+      "correct_alt": "Eu vou vou comer pizza amanhã. (non è corretto, solo come esempio)",
+      "explanation": "Gli ispanofoni tendono a tradurre letteralmente 'voy a comer' come 'vou a comer', ma in portoghese il futuro con 'ir' non prevede la preposizione 'a'. La forma corretta è 'vou comer'. Questo calco dallo spagnolo è l'errore più comune. Per evitarlo, memorizza che 'ir + infinito' si usa senza connettore. Se vuoi usare una preposizione, puoi usare 'começar a' (iniziare a), ma non con 'ir'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formação do futuro com ir",
+        "translation": "Formazione del futuro con ir",
+        "examples": [
+          {
+            "original": "Eu vou falar com você.",
+            "phonetic": "ew vow faˈlaʁ kõ voˈse",
+            "translation": "Sto per parlare con te.",
+            "note": "Osserva che non c'è 'a' tra 'vou' e 'falar'."
+          },
+          {
+            "original": "Tu vais fazer o quê?",
+            "phonetic": "tu vajs faˈzeʁ u ke",
+            "translation": "Tu cosa stai per fare?",
+            "note": "In Brasile, 'tu' è comune, ma il verbo spesso si coniuga come 'vai' (você). Qui è mostrata la forma standard."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso em perguntas e negações",
+        "translation": "Uso in domande e negazioni",
+        "examples": [
+          {
+            "original": "Você vai viajar amanhã?",
+            "phonetic": "voˈse vaj viɐˈʒaʁ ɐ̃ˈmɐ̃ɲɐ",
+            "translation": "Stai per viaggiare domani?",
+            "note": "L'intonazione ascendente e la struttura della domanda sono simili all'italiano. Non è necessario un verbo ausiliare aggiuntivo."
+          },
+          {
+            "original": "Eles não vão chegar atrasados.",
+            "phonetic": "ˈelɐj̃ nɐ̃w vɐ̃w ʃeˈɡaʁ atɾɐˈzadus",
+            "translation": "Loro non stanno per arrivare tardi.",
+            "note": "La negazione 'não' si posiziona prima del verbo 'vão', proprio come 'non' in italiano."
+          },
+          {
+            "original": "Vamos comer juntos?",
+            "phonetic": "ˈvɐ̃mus koˈmeʁ ˈʒũtus",
+            "translation": "Stiamo per mangiare insieme?",
+            "note": "La forma 'vamos' si usa per proposte inclusive, simile a 'vamos a' in italiano."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Futuro com presente do indicativo",
+        "translation": "Futuro con presente indicativo",
+        "examples": [
+          {
+            "original": "Amanhã eu trabalho.",
+            "phonetic": "ɐ̃ˈmɐ̃ɲɐ ew tɾɐˈbaʎu",
+            "translation": "Domani lavoro.",
+            "note": "Sebbene sia al presente, il contesto temporale indica futuro. Questo è molto comune in portoghese."
+          },
+          {
+            "original": "Na próxima semana, ela chega.",
+            "phonetic": "na ˈpɾɔsimɐ seˈmɐ̃nɐ ˈɛlɐ ˈʃeɡɐ",
+            "translation": "La prossima settimana, lei arriva.",
+            "note": "Il presente si usa per eventi programmati con certezza. In italiano è possibile, ma in portoghese è ancora più frequente."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚀",
+    "phonetic": "",
+    "translations": {
+      "it": "Futuro con ir + infinito"
+    }
+  }
+]
