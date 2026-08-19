@@ -442,7 +442,13 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
                         <div class="prac-card-phonetic">${card.phonetic||''}</div>
                         <div class="prac-card-translation">${getCardTranslation(card)}</div>
                         <div class="prac-card-examples">
-                            ${(card.examples||[]).map(ex=>`<div class="prac-example"><div class="prac-ex-original">${ex.t}</div></div>`).join('')}
+                            ${(card.examples||[]).map((ex,i)=>`
+                            <div class="prac-example">
+                                <div class="prac-ex-original">${ex.t}</div>
+                                <button class="prac-ex-audio-btn" data-ex-idx="${i}" title="Escuchar ejemplo">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                                </button>
+                            </div>`).join('')}
                         </div>
                         <button class="prac-audio-btn" id="pracAudioBack" title="Escuchar">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
@@ -513,6 +519,13 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
         }
         document.getElementById('pracAudioFront')?.addEventListener('click', e => { e.stopPropagation(); speak(card.word); });
         document.getElementById('pracAudioBack')?.addEventListener('click',  e => { e.stopPropagation(); speak(card.word); });
+        document.querySelectorAll('.prac-ex-audio-btn').forEach(btn => {
+            btn.addEventListener('click', e => {
+                e.stopPropagation();
+                const ex = (card.examples || [])[parseInt(btn.dataset.exIdx)];
+                if (ex?.t) speak(ex.t);
+            });
+        });
     }
 
     // ── Avanzar con lógica de repetición ─────────────────────
