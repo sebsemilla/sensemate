@@ -1,0 +1,710 @@
+[
+  {
+    "id": "en_B2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Advanced conditionals / Mixed conditionals",
+    "bridge": "In Spanish, mixed conditionals combine verb tenses to express hypothetical situations with consequences in the present or past (e.g., 'Si hubiera estudiado, ahora tendría un mejor trabajo'). In Guaraní, the structure is different: there is no pure conditional tense as in Spanish, but rather particles and verbs in specific forms are used to mark the hypothesis. A common mistake is to translate Spanish structures literally, which leads to grammatically incorrect sentences in Guaraní. The key is to understand that Guaraní prioritizes the temporal relationship between actions through suffixes and particles, not through separate verb tenses.",
+    "rule": "In Guaraní, mixed conditionals are formed by combining:\n1. **Conditional particle**: 'ha' (if) or 'na' (if not) to introduce the hypothetical clause.\n2. **Verb in conditional form**: Uses the suffix '-ta' (for present/future) or '-katu' (for past) in the conditional clause.\n3. **Verb in resultative form**: Uses the suffix '-va' (for present) or '-hína' (for present continuous) in the main clause to express the current result of a past hypothesis.\n\nGeneral structure:\n*Conditional clause* (hypothesis) + *Main clause* (result).\n- **Past hypothesis + Present result**: 'Ha + verb + -katu' (past) + 'verb + -va' (present). Example: 'Ha che aipota umi mba'e, avei aha'eva' (If I had wanted those things, I would have them now).\n- **Present hypothesis + Past result**: 'Ha + verb + -ta' (present) + 'verb + -katu' (past). Example: 'Ha che aipota umi mba'e, avei aha'ekatu' (If I wanted those things, I would have had them).\n\nExceptions:\n- For negative hypotheses, use 'na' instead of 'ha'. Example: 'Na che aipota umi mba'e, avei aha'ekatu' (If I had not wanted those things, I would not have had them either).\n- The verb 'ser' (ha'e) in conditional form is conjugated as 'ha'eva' (I would have) or 'ha'ekatu' (I would have been).",
+    "concept_examples": [
+      {
+        "text": "Ha che aipota umi mba'e, avei aha'eva.",
+        "translation": "If I had wanted those things, I would have them now.",
+        "phonetic": "/ha t͡ʃe aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.βa/"
+      },
+      {
+        "text": "Ha nde rejapóta umi ñe'ẽ, avei rejapóva.",
+        "translation": "If you had done those jobs, you would have them now.",
+        "phonetic": "/ha nde re.ha.poˈta uˈmi ɲeˈʔẽ aˈβeɪ̯ re.haˈpo.βa/"
+      },
+      {
+        "text": "Na che aipota umi mba'e, avei aha'ekatu.",
+        "translation": "If I had not wanted those things, I would not have had them either.",
+        "phonetic": "/na t͡ʃe aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.ka.tu/"
+      },
+      {
+        "text": "Ha che aipóta umi tembi'u, avei aha'ekatu.",
+        "translation": "If I wanted that food, I would have eaten it.",
+        "phonetic": "/ha t͡ʃe aɪ̯ˈpo.ta uˈmi temˈbi.u aˈβeɪ̯ aˈha.e.ka.tu/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ha che aipota umi mba'e, avei aha'e.",
+      "correct": "Ha che aipota umi mba'e, avei aha'eva.",
+      "correct_alt": "",
+      "explanation": "The error occurs because Spanish uses the simple conditional ('tendría') to express the result in the present, but in Guaraní the suffix '-va' is required to mark that the consequence is current. The form 'aha'e' (I would be) is incorrect here because it does not reflect the temporal relationship between the past hypothesis and the present result."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Condicional pasado + resultado presente",
+        "translation": "Past conditional with present result",
+        "examples": [
+          {
+            "original": "Ha che aipota umi mba'e, avei aha'eva.",
+            "phonetic": "/ha t͡ʃe aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.βa/",
+            "translation": "If I had wanted those things, I would have them now.",
+            "note": "Emphasizes the relationship between a hypothetical past action and its current consequence. The suffix '-katu' in 'aipota' marks the past hypothesis, and '-va' in 'aha'eva' the present result."
+          },
+          {
+            "original": "Ha nde rejapóta umi ñe'ẽ, avei rejapóva.",
+            "phonetic": "/ha nde re.ha.poˈta uˈmi ɲeˈʔẽ aˈβeɪ̯ re.haˈpo.βa/",
+            "translation": "If you had done those jobs, you would have them now.",
+            "note": "Observe how the suffix '-ta' changes to '-va' depending on the grammatical person. The structure is identical to the previous example."
+          },
+          {
+            "original": "Ha ha'e ohecha umi kuña, avei ohecháva.",
+            "phonetic": "/ha aˈʔe oˈhe.t͡ʃa uˈmi kuˈɲa aˈβeɪ̯ o.heˈt͡ʃa.βa/",
+            "translation": "If he/she had seen it, they would see it now.",
+            "note": "The verb 'ohecha' (to see) follows the same rule: '-katu' for the hypothesis and '-va' for the result."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Condicional presente + resultado pasado",
+        "translation": "Present conditional with past result",
+        "examples": [
+          {
+            "original": "Ha che aipóta umi mba'e, avei aha'ekatu.",
+            "phonetic": "/ha t͡ʃe aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.ka.tu/",
+            "translation": "If I wanted those things, I would have had them.",
+            "note": "Here the hypothesis is in the present ('aipóta'), but the result is in the past ('aha'ekatu'). The suffix '-ta' marks the present hypothesis, and '-katu' the past result."
+          },
+          {
+            "original": "Ha nde rejapóta umi tembiapo, avei rejapókatu.",
+            "phonetic": "/ha nde re.ha.poˈta uˈmi temˈbi.a.po aˈβeɪ̯ re.ha.poˈka.tu/",
+            "translation": "If you had done that job, you would have finished it too.",
+            "note": "Note the change from '-ta' to '-katu' in the main verb. The structure is parallel to the previous example."
+          },
+          {
+            "original": "Ha ha'e ohechóta umi mba'e, avei ohechakatu.",
+            "phonetic": "/ha aˈʔe o.he.t͡ʃoˈta uˈmi mbaˈʔe aˈβeɪ̯ o.he.t͡ʃa.kaˈtu/",
+            "translation": "If he/she saw them, they would have seen them.",
+            "note": "The verb 'ohechóta' (to see) uses '-ta' for the present hypothesis and '-katu' for the past result."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Condicionales negativos y variantes",
+        "translation": "Negative conditionals and alternative structures",
+        "examples": [
+          {
+            "original": "Na che aipota umi mba'e, avei aha'ekatu.",
+            "phonetic": "/na t͡ʃe aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.ka.tu/",
+            "translation": "If I had not wanted those things, I would not have had them either.",
+            "note": "The particle 'na' introduces negation in the hypothesis. The structure is identical to the positive examples, but with 'na' instead of 'ha'."
+          },
+          {
+            "original": "Na nde rejapóta umi ñe'ẽ, avei rejapókatu.",
+            "phonetic": "/na nde re.ha.poˈta uˈmi ɲeˈʔẽ aˈβeɪ̯ re.ha.poˈka.tu/",
+            "translation": "If you had not done those jobs, you would not have finished them either.",
+            "note": "Observe how 'na' replaces 'ha' and the structure remains valid. The negation only affects the conditional clause."
+          },
+          {
+            "original": "Ha che na aipota umi mba'e, avei aha'ekatu.",
+            "phonetic": "/ha t͡ʃe na aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.ka.tu/",
+            "translation": "If I had not wanted those things, I would not have had them either.",
+            "note": "Variant where negation ('na') is placed within the conditional clause. Both structures ('Na che...' and 'Ha che na...') are correct."
+          },
+          {
+            "original": "Ha ha'e na ohecha umi kuña, avei ohechakatu.",
+            "phonetic": "/ha aˈʔe na oˈhe.t͡ʃa uˈmi kuˈɲa aˈβeɪ̯ o.he.t͡ʃa.kaˈtu/",
+            "translation": "If he/she had not seen it, they would not have seen it either.",
+            "note": "Example with negation in the conditional clause. The structure is consistent with the previous examples."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced conditionals (mixed)"
+    }
+  },
+  {
+    "id": "en_B2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Advanced passive voice in Guaraní / Advanced passive voice in Spanish",
+    "bridge": "In Spanish, the passive voice is formed with the verb 'ser' + past participle, but in Guaraní there is no direct equivalent. Spanish speakers often try to translate constructions like 'fue hecho' (was done) literally, using structures that do not exist in Guaraní. In Guaraní, the passive is expressed through verbal suffixes (-va, -ne, -hína) or impersonal constructions with 'ñande' or 'pe', which can be confusing since there is no passive participle as in Spanish. Additionally, Guaraní uses the active voice more frequently with indefinite subjects ('se hace' / 'it is done') or gerund constructions to express processes.",
+    "rule": "In Guaraní, advanced passive voice is constructed in three main ways:\n\n1. **With verbal suffixes**:\n   - **-va**: Indicates passive action or resulting state. Example: *Ñe’ẽva* (is said). Used with transitive verbs.\n   - **-ne**: Expresses passive action with emphasis on the result. Example: *Japone* (was done).\n   - **-hína**: Indicates action in progress or current state. Example: *Oikohína* (is being opened).\n\n2. **With impersonal constructions**:\n   - Using *ñande* (we) or *pe* (you all) + verb in active form to express generic passive. Example: *Ñande ojehechá* (we are seen, we are visible).\n   - With *ha’e* (he/she) for passive actions without a clear agent. Example: *Ha’e oñe’ẽ* (it is said, one says).\n\n3. **With gerunds or infinitives**:\n   - The gerund (-va) can be used to express passive actions in descriptive contexts. Example: *Oñe’ẽva* (being said, that is said).\n   - The infinitive (-rã) in modal constructions. Example: *Ojeporu rã* (to be used).\n\n**Exceptions and key notes**:\n- There is no passive participle as in Spanish (*hecho*, *dicho*).\n- Passive suffixes (-va, -ne) are not used with intransitive verbs.\n- In formal or written contexts, constructions with *ñande* or *ha’e* are preferred to avoid ambiguity.\n- Modal verbs (like *poder* / 'can', *deber* / 'must') combine with the passive infinitive. Example: *Ojeporu rã ikatu* (can be used).",
+    "concept_examples": [
+      {
+        "text": "Ñe’ẽva oikóva ojehecháicha",
+        "translation": "What is said is being heard.",
+        "phonetic": "/ɲeʔẽːva oiˈkoʋa oʒeheˈtʃaːitʃa/"
+      },
+      {
+        "text": "Japone peteĩ mba’e pyahu",
+        "translation": "Something new was done.",
+        "phonetic": "/haˈpone peˈteĩ mbaʔe pjaˈhu/"
+      },
+      {
+        "text": "Oñe’ẽva ñande rekávo",
+        "translation": "What is said is in our hearts.",
+        "phonetic": "/oɲeʔẽːva ɲande reˈkavo/"
+      },
+      {
+        "text": "Pe oñemoñe’ẽ hína ojehecháicha",
+        "translation": "You all are being heard while speaking.",
+        "phonetic": "/pe oɲemoɲeʔẽ ˈhina oʒeheˈtʃaːitʃa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ojehechá peteĩ mba’e pyahu",
+      "correct": "Oñe’ẽva peteĩ mba’e pyahu",
+      "correct_alt": "Ha’e oñe’ẽ peteĩ mba’e pyahu",
+      "explanation": "The error occurs because the Spanish speaker tries to use the Spanish passive structure 'fue hecho' (*ojehechá* means 'is seen', not 'was done'). In Guaraní, to express passivity, the suffix *-va* is required on the main verb (*ñe’ẽva* = 'said') or a construction with *ha’e* + verb. The correct form uses *ñe’ẽva* (said) to indicate something 'was done' in a passive sense, or *ha’e oñe’ẽ* for 'it is said'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Sufijos pasivos básicos (-va, -ne)",
+        "translation": "Basic passive suffixes",
+        "examples": [
+          {
+            "original": "Ñe’ẽva oikóva",
+            "phonetic": "/ɲeʔẽːva oiˈkoʋa/",
+            "translation": "What is said is present.",
+            "note": "Introduces the suffix *-va* to express the resulting state of a passive action."
+          },
+          {
+            "original": "Japone peteĩ mba’e",
+            "phonetic": "/haˈpone peˈteĩ mbaʔe/",
+            "translation": "Something was done.",
+            "note": "Presents the suffix *-ne* for passive actions with emphasis on the result."
+          },
+          {
+            "original": "Oñe’ẽva ñande rekávo",
+            "phonetic": "/oɲeʔẽːva ɲande reˈkavo/",
+            "translation": "What is said is in our hearts.",
+            "note": "Combines *-va* with possessives to express passive states in emotional contexts."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Construcciones impersonales (ñande, pe, ha’e)",
+        "translation": "Impersonal constructions",
+        "examples": [
+          {
+            "original": "Ñande ojehechá",
+            "phonetic": "/ɲande oʒeheˈtʃa/",
+            "translation": "We are seen (we are visible).",
+            "note": "Uses *ñande* + verb to express generic passive with an indefinite subject."
+          },
+          {
+            "original": "Pe oñemoñe’ẽ",
+            "phonetic": "/pe oɲemoɲeʔẽ/",
+            "translation": "You all are being heard while speaking.",
+            "note": "Combines *pe* with a verb in progress for passive actions in context."
+          },
+          {
+            "original": "Ha’e oñe’ẽ peteĩ mba’e",
+            "phonetic": "/haʔe oɲeʔẽ peˈteĩ mbaʔe/",
+            "translation": "Something is said (literally: 'he/she says it').",
+            "note": "Uses *ha’e* for passive actions without a clear agent, similar to 'it is said' in Spanish."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Gerundios, infinitivos y modales",
+        "translation": "Gerunds, infinitives, and modals",
+        "examples": [
+          {
+            "original": "Oñe’ẽva oikóva ojehecháicha",
+            "phonetic": "/oɲeʔẽːva oiˈkoʋa oʒeheˈtʃaːitʃa/",
+            "translation": "What is said is being heard.",
+            "note": "Combines the suffix *-va* with gerund to express passive actions in progress."
+          },
+          {
+            "original": "Ojeporu rã ikatu",
+            "phonetic": "/oʒepoˈɾu rã iˈkatu/",
+            "translation": "Can be used.",
+            "note": "Uses the infinitive *-rã* with modal verbs to express passive possibility."
+          },
+          {
+            "original": "Pe oñemoñe’ẽ hína ojehecháicha",
+            "phonetic": "/pe oɲemoɲeʔẽ ˈhina oʒeheˈtʃaːitʃa/",
+            "translation": "You all are being heard while speaking.",
+            "note": "Incorporates *-hína* to emphasize the progress of the passive action."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced passive voice in Guaraní"
+    }
+  },
+  {
+    "id": "en_B2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Advanced indirect speech / Reported speech advanced",
+    "bridge": "In Spanish, indirect speech often involves changes in verb tenses and pronouns depending on the context, but in Guaraní the structure is more flexible and depends on the temporal relationship between the original speech and the moment of enunciation. Unlike Spanish, where the imperfect preterite remains in indirect speech, in Guaraní temporal clarity is prioritized through particles or changes in the main verb. Common errors arise from mechanically applying Spanish rules, ignoring that Guaraní does not always require strict temporal agreement.",
+    "rule": "In Guaraní, indirect speech is constructed mainly through two strategies: 1) Use of temporal particles such as *-va’e* (for past) or *-ne* (for future) after the reported verb, and 2) Changes in the main verb to reflect relative temporality. There is no universal rule of agreement as in Spanish, but it is recommended: \n- For past speech: Add *-va’e* to the reported verb (e.g. *ha’e ohecha va’e* 'he/she said that he/she saw').\n- For future speech: Use *-ne* (e.g. *ha’e ohecha ne* 'he/she said that he/she will see').\n- For present or timeless speech: Keep the verb unchanged (e.g. *ha’e ohecha* 'he/she says that he/she sees').\nExceptions: Verbs like *ñe’ẽ* (to say) or *he’i* (to tell) can omit particles if the context is clear. In indirect questions, *mba’éichapa* (how) or *máva* (who) are used without time changes.",
+    "concept_examples": [
+      {
+        "text": "Che ha’e che sype: \"Aju ndeve\" → Che ha’e che sype oju va’e ndeve.",
+        "translation": "I told my mother: 'I'm going with you' → I told my mother that I would go with you.",
+        "phonetic": "/tʃe haˈʔe tʃe ˈsɨpe oˈʒu ˈvaʔe ndeˈβe/"
+      },
+      {
+        "text": "Pe kuimba’e ohe’i: \"Nde rejapóta peteĩ mba’e\" → Pe kuimba’e ohe’i ndépe rejapóta peteĩ mba’e va’e.",
+        "translation": "The man said: 'You will do something' → The man said that you would do something.",
+        "phonetic": "/pe kʷĩˈmbaʔe oheˈʔi ndeˈpe reʒaˈpota peteˈĩ mbaˈʔe ˈvaʔe/"
+      },
+      {
+        "text": "Nde rejapóta: \"Che aju\" → Nde rejapóta che aju ne.",
+        "translation": "You said: 'I'm going' → You said that I would go.",
+        "phonetic": "/nde reʒaˈpota tʃe aˈʒu ne/"
+      },
+      {
+        "text": "Ha’e ohe’i: \"Mba’éichapa reiko\" → Ha’e ohe’i mba’éichapa reiko.",
+        "translation": "He said: 'How are you?' → He asked how I was.",
+        "phonetic": "/haˈʔe oheˈʔi mbaˈʔeitʃapa reˈiko/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che ha’e che sype: \"Aju ndeve\" → *Che ha’e che sype oju.",
+      "correct": "Che ha’e che sype oju va’e ndeve.",
+      "correct_alt": "",
+      "explanation": "The error occurs when omitting the particle *-va’e* that marks past speech in Guaraní. In Spanish, the imperfect preterite ('would go') implies the change of tense, but in Guaraní the particle is mandatory to indicate that the action is reported and not current. Without *-va’e*, the phrase sounds like a direct statement ('I'm going with you'), not a report."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ojehechaukase mba’éichapa",
+        "translation": "Reporting direct questions",
+        "examples": [
+          {
+            "original": "Nde rejapóta: \"Mba’éichapa reiko?\"",
+            "phonetic": "/nde reʒaˈpota mbaˈʔeitʃapa reˈiko/",
+            "translation": "You said: 'How are you?'",
+            "note": "Use *mba’éichapa* for indirect questions. The main verb (*ohe’i*) does not change if the context is clear."
+          },
+          {
+            "original": "Ha’e ohe’i: \"Máva oiko?\"",
+            "phonetic": "/haˈʔe oheˈʔi ˈmava oˈiko/",
+            "translation": "He asked: 'Who is there?'",
+            "note": "For questions with *máva* (who), keep the verb in present tense if the context does not require a time change."
+          },
+          {
+            "original": "Che ha’e: \"Mba’épa rejapóta?\"",
+            "phonetic": "/tʃe haˈʔe mbaˈʔepa reʒaˈpota/",
+            "translation": "I said: 'What will you do?'",
+            "note": "The particle *-pa* in questions is maintained in indirect speech."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ojehechauka mba’éichapa ojehechaukase",
+        "translation": "Reporting with clear temporal changes",
+        "examples": [
+          {
+            "original": "Pe kuimba’e ohe’i: \"Che aju ndeve\"",
+            "phonetic": "/pe kʷĩˈmbaʔe oheˈʔi tʃe aˈʒu ndeˈβe/",
+            "translation": "The man said: 'I'm going with you'",
+            "note": "Use *-va’e* to mark reported past. The main verb (*ohe’i*) does not change."
+          },
+          {
+            "original": "Nde rejapóta: \"Che aju ne\"",
+            "phonetic": "/nde reʒaˈpota tʃe aˈʒu ne/",
+            "translation": "You said: 'I will go'",
+            "note": "For reported future, use *-ne* after the main verb."
+          },
+          {
+            "original": "Ha’e ohe’i: \"Nde rejapóta peteĩ mba’e\"",
+            "phonetic": "/haˈʔe oheˈʔi nde reʒaˈpota peteˈĩ mbaˈʔe/",
+            "translation": "He said: 'You will do something'",
+            "note": "If the main verb already implies future (*rejapóta*), *-ne* is optional."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ojehechauka mba’éichapa ojehechaukase oñembo’epyrũva’ekue",
+        "translation": "Reporting with complex verbs and ambiguous contexts",
+        "examples": [
+          {
+            "original": "Che ha’e che sype: \"Che aju ndeve ha che rejapóta peteĩ mba’e\"",
+            "phonetic": "/tʃe haˈʔe tʃe ˈsɨpe tʃe aˈʒu ndeˈβe ha tʃe reʒaˈpota peteˈĩ mbaˈʔe/",
+            "translation": "I told my mother: 'I will go with you and you will do something'",
+            "note": "Combine two actions in indirect speech. Use *-va’e* only on the first verb (*ohecha va’e*) if the context allows it."
+          },
+          {
+            "original": "Pe kuimba’e ohe’i: \"Che aju ndeve, ha che rejapóta peteĩ mba’e ne\"",
+            "phonetic": "/pe kʷĩˈmbaʔe oheˈʔi tʃe aˈʒu ndeˈβe ha tʃe reʒaˈpota peteˈĩ mbaˈʔe ne/",
+            "translation": "The man said: 'I will go with you, and you will do something'",
+            "note": "For future, *-ne* can be applied to both verbs if both are future."
+          },
+          {
+            "original": "Nde rejapóta: \"Che aju, ha che rejapóta peteĩ mba’e\"",
+            "phonetic": "/nde reʒaˈpota tʃe aˈʒu ha tʃe reʒaˈpota peteˈĩ mbaˈʔe/",
+            "translation": "You said: 'I will go, and you will do something'",
+            "note": "If the context is clear, omit particles in consecutive verbs."
+          },
+          {
+            "original": "Ha’e ohe’i: \"Mba’éichapa reiko? Ha mba’épa rejapóta?\"",
+            "phonetic": "/haˈʔe oheˈʔi mbaˈʔeitʃapa reˈiko ha mbaˈʔepa reʒaˈpota/",
+            "translation": "He asked: 'How are you? And what will you do?'",
+            "note": "For consecutive questions, use *ha* (and) and maintain the interrogative particles."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced indirect speech"
+    }
+  },
+  {
+    "id": "en_B2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Inversión para énfasis / Inversion for emphasis",
+    "bridge": "In Spanish, inversion for emphasis is uncommon and usually limited to structures like 'No solo... sino también' (Not only... but also) or 'Rara vez...' (Rarely...). In Guaraní, however, inversion is an active and frequent grammatical resource to highlight information. Spanish speakers tend to translate these structures literally, which results in ungrammatical or unnatural phrases in Guaraní. For example, while in Spanish we say 'No solo canta, sino que baila' (Not only does he/she sing, but also dances), in Guaraní the structure 'Ndahai... ha' with inversion is used to emphasize both elements.",
+    "rule": "In Guaraní, inversion for emphasis is achieved through the use of specific particles that alter the usual syntactic order (Subject-Verb-Object). The most common structures are:\n\n1. **Emphatic negation with inversion**: The 'Ndahai... ha' structure is used to emphasize that something is not just one thing, but another additional one. Example: 'Ndahai che korasó ha che jerovia' (Not only do I sing, but I also believe).\n   - 'Ndahai' negates the first element and 'ha' introduces the second.\n   - The usual order would be 'Che korasó ha che jerovia', but inversion emphasizes the negation of the first verb.\n\n2. **Inverted frequency adverbs**: Words like 'mbarete' (rarely), 'ndive' (sometimes) or 'ete' (very) can be inverted for emphasis. Example: 'Mbarete aju' (I rarely come) → 'Aju mbarete' (I come rarely, with emphasis on the rarity).\n   - Inversion places the adverb at the end of the phrase to highlight its meaning.\n\n3. **Rhetorical questions with inversion**: 'Mba’éichapa' (How?) or 'Mba’éichapa ndive' (In what way?) is used at the beginning to emphasize the question. Example: 'Mba’éichapa ndive nde rembiapo' (In what way is your work?).\n\nExceptions:\n- In affirmative structures, inversion is not mandatory but adds emphasis. Example: 'Che korasó ha' (I sing and) vs. 'Ha che korasó' (And I sing, with emphasis on the subject).\n- In negative sentences, inversion is almost mandatory to avoid ambiguity. Example: 'Ndahai che korasó' (I don’t sing) vs. 'Che ndahai korasó' (I don’t sing, with emphasis on the subject).",
+    "concept_examples": [
+      {
+        "text": "Ndahai che korasó ha che jerovia.",
+        "translation": "Not only do I sing, but I also believe.",
+        "phonetic": "/ndaˈai̯ t͡ʃe koɾaˈso ha t͡ʃe heɾoˈβia/"
+      },
+      {
+        "text": "Mbarete aju nde rú.",
+        "translation": "I rarely come to your house.",
+        "phonetic": "/mbaˈɾete aˈju nde ˈɾu/"
+      },
+      {
+        "text": "Ha nde ndive che korasó.",
+        "translation": "And with you, I sing.",
+        "phonetic": "/ha nde ˈndiβe t͡ʃe koɾaˈso/"
+      },
+      {
+        "text": "Mba’éichapa ndive nde rembiapo?",
+        "translation": "In what way is your work?",
+        "phonetic": "/mbaˈeit͡ʃapa ˈndiβe nde ɾemˈbja.po/"
+      }
+    ],
+    "common_error": {
+      "wrong": "No solo canto, sino que bailo.",
+      "correct": "Ndahai che korasó ha che jeroky.",
+      "correct_alt": "Che korasó ha che jeroky ndahai.",
+      "explanation": "The sentence in Spanish is correct, but its literal translation into Guaraní ('Ndahai che korasó ha che jeroky') is ungrammatical because the 'Ndahai... ha' structure requires both verbs to be in the same grammatical form. The correct version uses 'jeroky' (to dance) instead of 'jerovia' (to believe), which does not make sense in this context. Additionally, inversion in Guaraní must maintain semantic coherence between the contrasted elements."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ndahai... ha (No solo... sino)",
+        "translation": "Emphatic negation structure with inversion",
+        "examples": [
+          {
+            "original": "Ndahai che korasó ha che jeroky.",
+            "phonetic": "/ndaˈai̯ t͡ʃe koɾaˈso ha t͡ʃe heɾoˈki/",
+            "translation": "Not only do I sing, but I also dance.",
+            "note": "Emphasizes that the subject performs both actions. Inversion is mandatory to avoid ambiguity."
+          },
+          {
+            "original": "Ndahai nde nde’ẽ ha nde jerovia.",
+            "phonetic": "/ndaˈai̯ nde ndeˈʔẽ ha nde heɾoˈβia/",
+            "translation": "Not only do you speak, but you also believe.",
+            "note": "Uses 'ha' to connect two verbs in the same person. Avoid confusing 'jerovia' (to believe) with 'jeroky' (to dance)."
+          },
+          {
+            "original": "Ndahai aju ha ahecha.",
+            "phonetic": "/ndaˈai̯ aˈju ha aˈe.t͡ʃa/",
+            "translation": "Not only do I come, but I also see.",
+            "note": "Inversion works even with verbs of movement. The structure is flexible but always requires 'ha' to connect."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mbarete / Ndivé (Rara vez / A veces)",
+        "translation": "Inverted frequency adverbs for emphasis",
+        "examples": [
+          {
+            "original": "Mbarete aju nde rú.",
+            "phonetic": "/mbaˈɾete aˈju nde ˈɾu/",
+            "translation": "I rarely come to your house.",
+            "note": "Placing 'mbarete' at the end emphasizes the rarity of the action. In Spanish, the adverb goes at the beginning."
+          },
+          {
+            "original": "Ndivé ahecha che sy.",
+            "phonetic": "/ˈndiβe aˈe.t͡ʃa t͡ʃe sɨ/",
+            "translation": "Sometimes I see my mother.",
+            "note": "Inversion ('ahecha' + 'ndivé') sounds more natural in Guaraní than 'Ndivé ahecha che sy'."
+          },
+          {
+            "original": "Ete oñe’ẽ nde ñe’ẽ.",
+            "phonetic": "/ˈete oɲeˈʔẽ nde ɲeˈʔẽ/",
+            "translation": "You speak your language very well.",
+            "note": "Inversion of 'ete' (very) emphasizes the quality. Equivalent to 'You speak your language very well' with emphasis."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mba’éichapa... ndive (¿De qué manera?)",
+        "translation": "Rhetorical questions with inversion for emphasis",
+        "examples": [
+          {
+            "original": "Mba’éichapa ndive nde rembiapo?",
+            "phonetic": "/mbaˈeit͡ʃapa ˈndiβe nde ɾemˈbja.po/",
+            "translation": "In what way is your work?",
+            "note": "Inversion ('Mba’éichapa ndive') sounds more emphatic than 'How is your work?' in Spanish."
+          },
+          {
+            "original": "Mba’éichapa ndive nde ñe’ẽ?",
+            "phonetic": "/mbaˈeit͡ʃapa ˈndiβe nde ɲeˈʔẽ/",
+            "translation": "In what way do you speak?",
+            "note": "Focuses the question on the manner or style, not just the act of speaking."
+          },
+          {
+            "original": "Mba’éichapa ndive oñe’ẽ nde sy?",
+            "phonetic": "/mbaˈeit͡ʃapa ˈndiβe oɲeˈʔẽ nde sɨ/",
+            "translation": "In what way does your mother speak?",
+            "note": "Inversion works with any subject. Equivalent to 'How does your mother speak?' but with more emphasis."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "en": "Inversion for emphasis"
+    }
+  },
+  {
+    "id": "en_B2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Opa mba’éichapa... rehegua / Split constructions (it is... that)",
+    "bridge": "In Spanish, split constructions (e.g., 'Es María quien lo hizo') are formed with 'ser' + relative pronoun to emphasize an element. In Guaraní, there is no direct equivalent: the structure 'Opa mba’éichapa... rehegua' (literally 'it is of what way... that') is used to emphasize any component of the sentence, whether it is the subject, object, or circumstantial. The key is that Guaraní does not require a copulative verb like 'ser' in all constructions, and word order is more flexible. Spanish speakers may fall into the error of translating literally ('Es Juan que vino'), which sounds redundant in Guaraní.",
+    "rule": "In Guaraní, split constructions are formed with the structure: **Opa mba’éichapa [emphasized element] rehegua [rest of the sentence]**. The emphasized element can be the subject, direct object, indirect object, or circumstantial.\n\n1. **Basic structure**: Opa mba’éichapa + [element] + rehegua + [verb + complements]. Example: 'Opa mba’éichapa **che** rehegua ahechá' (It is **me** whom I see).\n2. **Variations**:\n   - To emphasize a verb: 'Opa mba’éichapa **ahechá** rehegua' (It is **seeing** what I do).\n   - To emphasize an indirect object: 'Opa mba’éichapa **pe mitã** rehegua ndohechái' (It is **the children** whom I do not see).\n3. **Exceptions**:\n   - If the emphasized element is a personal pronoun, the emphatic form is used: **che**, **nde**, **ñande**, etc. (e.g., 'Opa mba’éichapa **ñande** rehegua oñembo’ehára' = It is **we** who speak).\n   - In questions, 'Mba’éichapa' is used instead of 'Opa mba’éichapa': 'Mba’éichapa **pe mitã** rehegua oñe’ẽ?' (Is it **the children** to whom they speak?).\n4. **Use in the past**: The time suffix (-kue, -ra) is added to the main verb: 'Opa mba’éichapa **che** rehegua ahechá**kue**' (It was **me** whom I saw).",
+    "concept_examples": [
+      {
+        "text": "Opa mba’éichapa **pe mitã** rehegua oñe’ẽ haguã.",
+        "translation": "It is **the children** to whom they teach.",
+        "phonetic": "opa mbaˈeitʃapa pe miˈtã reheˈɣwa oɲeˈʔẽ hwaˈɣʷa"
+      },
+      {
+        "text": "Opa mba’éichapa **che** rehegua ahechá.",
+        "translation": "It is **me** whom I see.",
+        "phonetic": "opa mbaˈeitʃapa tʃe reheˈɣwa aheˈtʃa"
+      },
+      {
+        "text": "Opa mba’éichapa **ahechá** rehegua ndohechái.",
+        "translation": "It is **seeing** what I do not see.",
+        "phonetic": "opa mbaˈeitʃapa aheˈtʃa reheˈɣwa ndoheˈtʃai"
+      },
+      {
+        "text": "Mba’éichapa **pe kuimba’e** rehegua oñe’ẽ haguã?",
+        "translation": "Is it **the men** to whom they teach?",
+        "phonetic": "mbaˈeitʃapa pe kuimˈbaʔe reheˈɣwa oɲeˈʔẽ hwaˈɣʷa"
+      }
+    ],
+    "common_error": {
+      "wrong": "Es **Juan** que vino ayer.",
+      "correct": "Opa mba’éichapa **Juan** rehegua oho haguã.",
+      "correct_alt": "Oho haguã **Juan** rehegua.",
+      "explanation": "The error occurs because the Spanish speaker tries to translate the structure 'ser + que' literally. In Guaraní, there is no 'que' relative in this context, and the split construction requires 'rehegua' to mark the emphasized element. The correct form uses 'Opa mba’éichapa' + [element] + 'rehegua' + [verb in the past]. The alternative 'Oho haguã Juan rehegua' is more colloquial and omits the initial 'Opa mba’éichapa'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Opa mba’éichapa + sujeto",
+        "translation": "Emphasizing the subject of the sentence",
+        "examples": [
+          {
+            "original": "Opa mba’éichapa **che** rehegua ahechá.",
+            "phonetic": "opa mbaˈeitʃapa tʃe reheˈɣwa aheˈtʃa",
+            "translation": "It is **me** whom I see.",
+            "note": "The subject 'che' (I) is emphasized with 'rehegua'. Note that the verb 'ahechá' (I see) does not change."
+          },
+          {
+            "original": "Opa mba’éichapa **pe mitã** rehegua oñe’ẽ.",
+            "phonetic": "opa mbaˈeitʃapa pe miˈtã reheˈɣwa oɲeˈʔẽ",
+            "translation": "It is **the children** who speak.",
+            "note": "The plural subject 'pe mitã' (the children) requires 'rehegua' for emphasis."
+          },
+          {
+            "original": "Opa mba’éichapa **ha’e** rehegua oho.",
+            "phonetic": "opa mbaˈeitʃapa aˈe reheˈɣwa oˈo",
+            "translation": "It is **he** who leaves.",
+            "note": "The emphatic pronoun 'ha’e' (he) is used for non-personal subjects."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Opa mba’éichapa + objeto directo/indirecto",
+        "translation": "Emphasizing direct or indirect objects",
+        "examples": [
+          {
+            "original": "Opa mba’éichapa **che rembi’u** rehegua aju.",
+            "phonetic": "opa mbaˈeitʃapa tʃe remˈbiʔu reheˈɣwa aˈhu",
+            "translation": "It is **my food** that I bring.",
+            "note": "The direct object 'che rembi’u' (my food) is emphasized with 'rehegua'."
+          },
+          {
+            "original": "Opa mba’éichapa **pe tape** rehegua ndohechái.",
+            "phonetic": "opa mbaˈeitʃapa pe taˈpe reheˈɣwa ndoheˈtʃai",
+            "translation": "It is **the path** that I do not see.",
+            "note": "The direct object 'pe tape' (the path) requires 'rehegua' for emphasis."
+          },
+          {
+            "original": "Opa mba’éichapa **nde** rehegua ahechá.",
+            "phonetic": "opa mbaˈeitʃapa nde reheˈɣwa aheˈtʃa",
+            "translation": "It is **you** whom I see.",
+            "note": "The object pronoun 'nde' (you) is emphasized with 'rehegua'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Opa mba’éichapa + verbo o circunstancial",
+        "translation": "Emphasizing verbs or circumstances",
+        "examples": [
+          {
+            "original": "Opa mba’éichapa **ahechá** rehegua ndohechái.",
+            "phonetic": "opa mbaˈeitʃapa aheˈtʃa reheˈɣwa ndoheˈtʃai",
+            "translation": "It is **seeing** what I do not see.",
+            "note": "The verb 'ahechá' (to see) is emphasized as the core of the sentence."
+          },
+          {
+            "original": "Opa mba’éichapa **pe árape** rehegua oho.",
+            "phonetic": "opa mbaˈeitʃapa pe ˈaɾape reheˈɣwa oˈo",
+            "translation": "It is **today** when he leaves.",
+            "note": "The circumstantial 'pe árape' (today) is emphasized with 'rehegua'."
+          },
+          {
+            "original": "Opa mba’éichapa **ñande** rehegua oñembo’ehára.",
+            "phonetic": "opa mbaˈeitʃapa ɲande reheˈɣwa oɲemboʔeˈhara",
+            "translation": "It is **we** who speak.",
+            "note": "The inclusive pronoun 'ñande' (we) is emphasized in collective contexts."
+          },
+          {
+            "original": "Mba’éichapa **pe kuimba’e** rehegua oñe’ẽ haguã?",
+            "phonetic": "mbaˈeitʃapa pe kuimˈbaʔe reheˈɣwa oɲeˈʔẽ hwaˈɣʷa",
+            "translation": "Is it **the men** to whom they teach?",
+            "note": "In questions, 'Mba’éichapa' replaces 'Opa mba’éichapa' for emphasis."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔍",
+    "phonetic": "",
+    "translations": {
+      "en": "Split constructions (it is... that)"
+    }
+  },
+  {
+    "id": "en_B2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nominalization / Nominalization (verbs and adjectives converted into nouns)",
+    "bridge": "In Spanish, nominalization is common with suffixes like -ción, -miento, or -dad (e.g., 'caminar' → 'caminata'), but in Guaraní this process is more productive and flexible, using suffixes like -ha, -va, or -re. Unlike Spanish, where nominalization is usually a fixed derivational process, in Guaraní it can be more analytical and context-dependent. Spanish speakers tend to force nominal structures similar to those in Spanish, ignoring the morphological richness of Guaraní.",
+    "rule": "In Guaraní, verbs and adjectives are nominalized mainly through productive suffixes that turn the word into a noun. The most common suffixes are:\n1. **-ha**: Indicates action, result, or agent (e.g., 'ñe'ẽ' (to speak) → 'ñe'ẽha' (the speech)).\n2. **-va**: Marks the agent or the one performing the action (e.g., 'mba'e' (thing) + 'porã' (beautiful) → 'mba'e porãva' (the one who makes beautiful things)).\n3. **-re**: Used for states, qualities, or results (e.g., 'tavy' (stupid) → 'tavyre' (stupidity)).\n\nExceptions:\n- Some nominalized forms are irregular or require vowel changes (e.g., 'japo' (to do) → 'japoha' (the doer)).\n- In poetic or archaic contexts, suffixes like -kue or -kuera are used to emphasize possession or origin.\n\nTypical use:\n- To express actions as nouns: 'Che ha'eha' (my way of speaking).\n- To describe qualities: 'Ñande porãva' (our beauty).\n- In proverbs or sayings: 'Mba'e reko re' (how you are).",
+    "concept_examples": [
+      {
+        "text": "Che ha'eha oikóvaite.",
+        "translation": "My way of speaking is very clear.",
+        "phonetic": "/tʃe haˈʔe.ha o.iˈko.ʋai̯.te/"
+      },
+      {
+        "text": "Mba'e porãva ojehecháicha.",
+        "translation": "What is beautiful is admired as such.",
+        "phonetic": "/ᵐbaˈʔe poˈɾã.va o.he.tʃeˈtʃai̯.tʃa/"
+      },
+      {
+        "text": "Tavyre oñe'ẽ haguã.",
+        "translation": "Stupidity is spoken of to laugh.",
+        "phonetic": "/taˈʋɨ.ɾe o.ɲeˈʔẽ haˈɣʷã/"
+      },
+      {
+        "text": "Japoha ojeheja haguã.",
+        "translation": "The doer reveals himself.",
+        "phonetic": "/haˈpo.ha o.heˈhe.ha haˈɣʷã/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che ha'e oikóvaite.",
+      "correct": "Che ha'eha oikóvaite.",
+      "correct_alt": "",
+      "explanation": "The error occurs because in Spanish the verb is used directly ('mi hablar'), but in Guaraní the suffix -ha is mandatory to nominalize 'ha'e' (to speak). Without -ha, the phrase sounds incomplete or incorrect in Guaraní, as it is not recognized as a noun."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nominalización básica con -ha",
+        "translation": "Basic nominalization with suffix -ha",
+        "examples": [
+          {
+            "original": "Ñe'ẽha ojehecháicha.",
+            "phonetic": "/ɲeˈʔẽ.ha o.he.tʃeˈtʃai̯.tʃa/",
+            "translation": "The speech is admired as such.",
+            "note": "Introduces nominalization of verbs with -ha for actions."
+          },
+          {
+            "original": "Japo ha ojeheja.",
+            "phonetic": "/haˈpo ha o.heˈhe.ha/",
+            "translation": "To do and to reveal oneself.",
+            "note": "Shows how -ha turns verbs into abstract nouns."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nominalización con -va y -re",
+        "translation": "Nominalization with suffixes -va and -re",
+        "examples": [
+          {
+            "original": "Mba'e porãva ojehecháicha.",
+            "phonetic": "/ᵐbaˈʔe poˈɾã.va o.he.tʃeˈtʃai̯.tʃa/",
+            "translation": "What is beautiful is admired as such.",
+            "note": "Emphasizes the use of -va for qualities or agents."
+          },
+          {
+            "original": "Tavyre oñe'ẽ haguã.",
+            "phonetic": "/taˈʋɨ.ɾe o.ɲeˈʔẽ haˈɣʷã/",
+            "translation": "Stupidity is spoken of to laugh.",
+            "note": "Highlights -re for states or results."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nominalización en contextos complejos",
+        "translation": "Nominalization in complex contexts and idiomatic expressions",
+        "examples": [
+          {
+            "original": "Che ha'eha oikóvaite che ñe'ẽ.",
+            "phonetic": "/tʃe haˈʔe.ha o.iˈko.ʋai̯.te tʃe ɲeˈʔẽ/",
+            "translation": "My way of speaking is very clear to me.",
+            "note": "Combines nominalization with pronouns to express possession."
+          },
+          {
+            "original": "Japoha ojeheja haguã mba'e rehe.",
+            "phonetic": "/haˈpo.ha o.heˈhe.ha haˈɣʷã ᵐbaˈʔe ɾeˈhe/",
+            "translation": "The doer reveals himself through things.",
+            "note": "Uses nominalization in phrases with prepositions to express cause or purpose."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔤",
+    "phonetic": "",
+    "translations": {
+      "en": "Nominalization (verbs and adjectives converted into nouns)"
+    }
+  }
+]
