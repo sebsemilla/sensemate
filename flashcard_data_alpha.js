@@ -22591,6 +22591,1167 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
+  // GN_EN
+  // ──────────────────────────────────────────────────────
+  gn_en: {
+      "level": "A0",
+      "levelName": "El guaraní — sonidos únicos",
+      "groups": [
+          {
+              "id": "gn_a0_g1",
+              "name": "Vocales nasales",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "ã · ẽ · ĩ · õ · ũ · ỹ — las 6 vocales nasales del guaraní",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "gn_a0_g1_L_a-tilde",
+                      "isLetter": true,
+                      "letter": "Ã /ã",
+                      "word": "Ã",
+                      "emoji": "🔤",
+                      "phonetic": "/ã/",
+                      "translation": "Nasal <b>a</b> — like Spanish <i>a</i> but hummed through your nose, like <span class=\"hl\">\"ah\"</span> with a cold",
+                      "mnemonic": "Imagine a tilde (~ ) is a tiny hammock for your nose to vibrate while you say \"a\".",
+                      "examples": [
+                          {
+                              "t": "ã<b>g</b>a — your <b>ã</b> soul hums when you sing<br>á<b>r</b>a — the sky <b>ã</b> is vast and open",
+                              "n": "Nasal \"a\" spreads to the next consonant: <b>g</b> and <b>r</b> become nasal too."
+                          },
+                          {
+                              "t": "mba'ã — <b>ã</b> makes \"something\" feel mysterious and deep",
+                              "n": "Contrast: Spanish \"casa\" (oral) vs. Guaraní \"ãga\" (nasal)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_L_e-tilde",
+                      "isLetter": true,
+                      "letter": "Ẽ /ẽ",
+                      "word": "Ẽ",
+                      "emoji": "🔤",
+                      "phonetic": "/ẽ/",
+                      "translation": "Nasal <b>e</b> — like Spanish <i>e</i> but with a nasal buzz, like <span class=\"hl\">\"eh\"</span> while pinching your nose",
+                      "mnemonic": "The tilde (~) is a tiny nose plug: plug your nose and say \"e\".",
+                      "examples": [
+                          {
+                              "t": "ar<b>ẽ</b> — <b>ẽ</b> makes \"long time ago\" sound ancient<br><b>ẽ</b>me — <b>ẽ</b> adds force: \"don’t!\"",
+                              "n": "Nasal \"e\" spreads to nearby sounds: <b>m</b> in \"ẽme\" becomes nasal."
+                          },
+                          {
+                              "t": "Contrast: Spanish \"mesa\" (oral) vs. Guaraní \"ẽme\" (nasal).",
+                              "n": "Listen for the hum in your nose."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_L_i-tilde",
+                      "isLetter": true,
+                      "letter": "Ĩ /ĩ",
+                      "word": "Ĩ",
+                      "emoji": "🔤",
+                      "phonetic": "/ĩ/",
+                      "translation": "Nasal <b>i</b> — like Spanish <i>i</i> but with a nasal twang, like <span class=\"hl\">\"ee\"</span> while humming",
+                      "mnemonic": "The tilde (~) is a tiny bridge: cross your nose and say \"i\" to feel the vibration.",
+                      "examples": [
+                          {
+                              "t": "m<b>ĩ</b> — <b>ĩ</b> makes \"small\" feel tiny and light<br>añaretã — <b>ĩ</b> in \"devil’s land\" sounds spooky",
+                              "n": "Nasal \"i\" spreads to nearby consonants: <b>m</b> and <b>ñ</b> become nasal."
+                          },
+                          {
+                              "t": "Contrast: Spanish \"si\" (oral) vs. Guaraní \"mĩ\" (nasal).",
+                              "n": "Focus on the hum in your nose."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_L_o-tilde",
+                      "isLetter": true,
+                      "letter": "Õ /õ",
+                      "word": "Õ",
+                      "emoji": "🔤",
+                      "phonetic": "/õ/",
+                      "translation": "Nasal <b>o</b> — like Spanish <i>o</i> but with a nasal ring, like <span class=\"hl\">\"oh\"</span> while holding your nose",
+                      "mnemonic": "The tilde (~) is a tiny nose ring: wear it and say \"o\" to feel the buzz.",
+                      "examples": [
+                          {
+                              "t": "<b>õ</b>ga — <b>õ</b> makes \"house\" sound warm and cozy<br>av<b>õ</b> — <b>õ</b> in \"cotton\" feels soft and fluffy",
+                              "n": "Nasal \"o\" spreads to nearby sounds: <b>g</b> in \"õga\" becomes nasal."
+                          },
+                          {
+                              "t": "Contrast: Spanish \"oso\" (oral) vs. Guaraní \"õga\" (nasal).",
+                              "n": "Notice the nasal hum."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_L_u-tilde",
+                      "isLetter": true,
+                      "letter": "Ũ /ũ",
+                      "word": "Ũ",
+                      "emoji": "🔤",
+                      "phonetic": "/ũ/",
+                      "translation": "Nasal <b>u</b> — like Spanish <i>u</i> but with a nasal growl, like <span class=\"hl\">\"oo\"</span> while humming deeply",
+                      "mnemonic": "The tilde (~) is a tiny cave: step inside and say \"u\" to feel the echo.",
+                      "examples": [
+                          {
+                              "t": "t<b>ũ</b> — <b>ũ</b> in compounds means \"black\"<br>mb<b>ũ</b> — <b>ũ</b> makes \"sink\" sound heavy and deep",
+                              "n": "Nasal \"u\" spreads to nearby consonants: <b>m</b> and <b>b</b> become nasal."
+                          },
+                          {
+                              "t": "Contrast: Spanish \"luna\" (oral) vs. Guaraní \"mbũ\" (nasal).",
+                              "n": "Feel the vibration in your nose."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_L_y-tilde",
+                      "isLetter": true,
+                      "letter": "Ỹ /ɨ̃",
+                      "word": "Ỹ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɨ̃/",
+                      "translation": "Nasal <b>y</b> — a unique Guaraní vowel, like a mix of <i>i</i> and <i>u</i> with a nasal buzz, like <span class=\"hl\">\"uh\"</span> while humming",
+                      "mnemonic": "The tilde (~) is a tiny nose tunnel: say \"i\" and \"u\" at the same time, then hum through your nose.",
+                      "examples": [
+                          {
+                              "t": "<b>ỹ</b>kere — <b>ỹ</b> in \"snake\" sounds slithery<br><b>ỹ</b>pỹ — <b>ỹ</b> in \"first\" feels ancient",
+                              "n": "No Spanish equivalent: this sound is unique to Guaraní."
+                          },
+                          {
+                              "t": "Practice: say \"i\" and \"u\" together, then add a nasal hum.",
+                              "n": "Listen for the buzz in your nose."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "Ã",
+                      "word": "ára",
+                      "emoji": "☀️",
+                      "phonetic": "/ˈãɾa/",
+                      "translation": "<b>ára</b> — day or sky",
+                      "translations": {
+                          "gn": "ára",
+                          "en": "day, sky"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ko <b>ára</b> heta kuarahy.<br><i>(Today the <b>day</b> has much sun.)</i>",
+                              "n": "Use <b>ára</b> for both \"day\" and \"sky\" in Guaraní."
+                          },
+                          {
+                              "t": "<b>Ára</b> pyahu!<br><i>(New <b>day</b>!)</i>",
+                              "n": "Common greeting for \"good morning\" or \"new day.\""
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "Õ",
+                      "word": "ko'ẽ",
+                      "emoji": "🌅",
+                      "phonetic": "/koˈʔẽ/",
+                      "translation": "<b>ko'ẽ</b> — dawn or tomorrow morning",
+                      "translations": {
+                          "gn": "ko'ẽ",
+                          "en": "dawn, tomorrow morning"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ko'ẽ</b>me aha.<br><i>(I’m going at <b>dawn</b>.)</i>",
+                              "n": "<b>Ko'ẽ</b> refers to early morning light."
+                          },
+                          {
+                              "t": "<b>Ko'ẽ</b> porã!<br><i>(Good <b>morning</b>!)</i>",
+                              "n": "Common greeting for \"good morning.\""
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "gn_a0_g2",
+              "name": "Oclusiva glotal y Y especial",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "puso'o (') · Y como /ɨ/ · CH · MB · ND",
+              "reviewFrom": [
+                  "gn_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "gn_a0_g2_L_glottal_stop",
+                      "isLetter": true,
+                      "letter": "'",
+                      "word": "puso'o",
+                      "emoji": "🔤",
+                      "phonetic": "/ʔ/",
+                      "translation": "Glottal stop <b>'</b> — a sudden pause like the <i>middle of 'uh-oh'</i> in English",
+                      "mnemonic": "Imagine a tiny hiccup between syllables that can change the whole word meaning.",
+                      "examples": [
+                          {
+                              "t": "<b>'</b> in <span class=\"hl\">pe'a</span> (open it!) vs pea (without meaning)<br><b>'</b> in <span class=\"hl\">ta'ãnga</span> (image) vs taãnga (nonsense)",
+                              "n": "The glottal stop is critical for meaning."
+                          },
+                          {
+                              "t": "Che ha'u <b>'</b>akã. (I have a headache.)",
+                              "n": "The glottal stop separates 'ha'u' from 'akã'."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_L_y_central",
+                      "isLetter": true,
+                      "letter": "Y",
+                      "word": "Y",
+                      "emoji": "🔤",
+                      "phonetic": "/ɨ/",
+                      "translation": "Special vowel <b>Y</b> — a central unrounded vowel like Russian <i>ы</i> or the <i>'u' in 'ros<u>e</u>'</i> said quickly",
+                      "mnemonic": "Think of the sound you make when you’re unsure: 'uhhh' but with your tongue in the middle.",
+                      "examples": [
+                          {
+                              "t": "<b>Y</b> in <span class=\"hl\">yvoty</span> (flower)<br><b>Y</b> in <span class=\"hl\">yvy</span> (earth)",
+                              "n": "This sound is unique and not like Spanish Y."
+                          },
+                          {
+                              "t": "Amo <b>y</b>vaga. (That sky.)",
+                              "n": "The Y sound is soft and central."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "CH",
+                      "word": "CH",
+                      "emoji": "🔤",
+                      "phonetic": "/tʃ/",
+                      "translation": "Digraph <b>CH</b> — sounds like English <i>CH</i> in <i>'cheese'</i> or Spanish <i>CH</i> in <i>'chico'</i>",
+                      "mnemonic": "Just like Spanish CH, but remember it’s always pronounced the same way in Guaraní.",
+                      "examples": [
+                          {
+                              "t": "<b>CH</b> in <span class=\"hl\">che</span> (I/me)<br><b>CH</b> in <span class=\"hl\">chajá</span> (bird)",
+                              "n": "This sound is familiar from Spanish."
+                          },
+                          {
+                              "t": "<b>Che</b> aha. (I am going.)",
+                              "n": "CH is a common sound in Guaraní."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_L_mb",
+                      "isLetter": true,
+                      "letter": "MB",
+                      "word": "MB",
+                      "emoji": "🔤",
+                      "phonetic": "/ᵐb/",
+                      "translation": "Prenasalized <b>MB</b> — start with a nasal <i>m</i> and quickly follow with <i>b</i>, like <i>'embark'</i> in English",
+                      "mnemonic": "Say 'mmm' and then 'b' without stopping, like humming a tune and ending with a pop.",
+                      "examples": [
+                          {
+                              "t": "<b>MB</b> in <span class=\"hl\">mba'e</span> (thing/what)<br><b>MB</b> in <span class=\"hl\">mbói</span> (snake)",
+                              "n": "This sound is a single unit, not two separate letters."
+                          },
+                          {
+                              "t": "<b>Mbo'e</b> porã. (Teach well.)",
+                              "n": "MB blends smoothly into the word."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_L_nd",
+                      "isLetter": true,
+                      "letter": "ND",
+                      "word": "ND",
+                      "emoji": "🔤",
+                      "phonetic": "/ⁿd/",
+                      "translation": "Prenasalized <b>ND</b> — start with a nasal <i>n</i> and quickly follow with <i>d</i>, like <i>'endure'</i> in English",
+                      "mnemonic": "Say 'nnn' and then 'd' without pausing, like a hum that ends with a tap.",
+                      "examples": [
+                          {
+                              "t": "<b>ND</b> in <span class=\"hl\">nde</span> (you)<br><b>ND</b> in <span class=\"hl\">ndaje</span> (they say)",
+                              "n": "This sound is common in Guaraní pronouns."
+                          },
+                          {
+                              "t": "<b>Ndaipóri</b> mba'e. (There is nothing.)",
+                              "n": "ND blends into the word naturally."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "CH",
+                      "word": "che",
+                      "emoji": "👤",
+                      "phonetic": "/tʃe/",
+                      "translation": "<b>che</b> — I/me (the most common word in Guaraní!)",
+                      "translations": {
+                          "gn": "che",
+                          "en": "I/me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Che</b> aha. (I am going.)",
+                              "n": "Use 'che' to talk about yourself."
+                          },
+                          {
+                              "t": "<b>Che</b> ndaikuaái. (I don’t know.)",
+                              "n": "A very common phrase."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "ND",
+                      "word": "nde",
+                      "emoji": "👥",
+                      "phonetic": "/ⁿde/",
+                      "translation": "<b>nde</b> — you (singular, informal)",
+                      "translations": {
+                          "gn": "nde",
+                          "en": "you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Nde</b> reiko porã? (Are you doing well?)",
+                              "n": "Use 'nde' to talk to one person."
+                          },
+                          {
+                              "t": "<b>Nde</b> erehóta. (You will go.)",
+                              "n": "A simple future tense example."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "gn_a0_g3",
+              "name": "Primeras palabras",
+              "icon": "💬",
+              "color": "#10b981",
+              "description": "Saludos y palabras esenciales en guaraní",
+              "reviewFrom": [
+                  "gn_a0_g1",
+                  "gn_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "gn_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "mba'e",
+                      "word": "mba'éichapa",
+                      "emoji": "🤔",
+                      "phonetic": "/ᵐbaˈʔei̯ʃapa/",
+                      "translation": "How are you? — <i>lit.</i> “how is it?”",
+                      "translations": {
+                          "gn": "mba'éichapa",
+                          "en": "how are you?"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Mba'éichapa</b> nde?",
+                              "n": "How are you?"
+                          },
+                          {
+                              "t": "<b>Mba'éichapa</b> ko ára?",
+                              "n": "How is this day?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "i",
+                      "word": "iporã",
+                      "emoji": "😊",
+                      "phonetic": "/ipoˈɾã/",
+                      "translation": "good, fine, beautiful — <i>like Spanish</i> <span class=\"hl\">bueno</span>",
+                      "translations": {
+                          "gn": "iporã",
+                          "en": "good/fine/beautiful"
+                      },
+                      "examples": [
+                          {
+                              "t": "Che <b>iporã</b>.",
+                              "n": "I am fine."
+                          },
+                          {
+                              "t": "Ko tetã <b>iporã</b>.",
+                              "n": "This country is beautiful."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "a",
+                      "word": "aguyje",
+                      "emoji": "🙏",
+                      "phonetic": "/aɣuˈd͡ʒe/",
+                      "translation": "thank you — <i>similar to Spanish</i> <span class=\"hl\">gracias</span>",
+                      "translations": {
+                          "gn": "aguyje",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Aguyje</b> nde!",
+                              "n": "Thank you!"
+                          },
+                          {
+                              "t": "<b>Aguyje</b> porã.",
+                              "n": "Thank you very much."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "ñ",
+                      "word": "ñandejára",
+                      "emoji": "✝️",
+                      "phonetic": "/ɲãⁿdeˈxaɾa/",
+                      "translation": "God, lord — <i>lit.</i> “our owner” <br> <b>ñ</b> sounds like Spanish <span class=\"hl\">niño</span>",
+                      "translations": {
+                          "gn": "ñandejára",
+                          "en": "God/lord"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ñandejára</b> oipytyvõ.",
+                              "n": "God helps."
+                          },
+                          {
+                              "t": "<b>Ñandejára</b> pe mandu'a.",
+                              "n": "Remember God."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "ko'ẽ",
+                      "word": "ko'ẽmbota",
+                      "emoji": "🌅",
+                      "phonetic": "/koˈʔẽᵐbota/",
+                      "translation": "good morning — <i>lit.</i> “when it dawns”",
+                      "translations": {
+                          "gn": "ko'ẽmbota",
+                          "en": "good morning"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ko'ẽmbota</b>, che irũ!",
+                              "n": "Good morning, my friend!"
+                          },
+                          {
+                              "t": "<b>Ko'ẽmbota</b> porã.",
+                              "n": "Very good morning."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_06",
+                      "isLetter": false,
+                      "letter": "pytũ",
+                      "word": "pytũmba",
+                      "emoji": "🌙",
+                      "phonetic": "/pɨˈtũᵐba/",
+                      "translation": "good evening/night — <i>lit.</i> “when it is dark”",
+                      "translations": {
+                          "gn": "pytũmba",
+                          "en": "good evening/night"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Pytũmba</b>, che sy!",
+                              "n": "Good night, mom!"
+                          },
+                          {
+                              "t": "<b>Pytũmba</b> porã.",
+                              "n": "Very good night."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_07",
+                      "isLetter": false,
+                      "letter": "nda",
+                      "word": "ndaipóri mba'e",
+                      "emoji": "🤝",
+                      "phonetic": "/ⁿdaiˈpoɾi ᵐbaʔe/",
+                      "translation": "you're welcome — <i>lit.</i> “there is nothing”",
+                      "translations": {
+                          "gn": "ndaipóri mba'e",
+                          "en": "you're welcome"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ndaipóri mba'e</b>.",
+                              "n": "You're welcome."
+                          },
+                          {
+                              "t": "<b>Ndaipóri mba'e</b>, che irũ.",
+                              "n": "You're welcome, my friend."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_08",
+                      "isLetter": false,
+                      "letter": "ro",
+                      "word": "rohayhu",
+                      "emoji": "❤️",
+                      "phonetic": "/ɾoˈxai̯hu/",
+                      "translation": "I love you — <i>lit.</i> “I want you well”",
+                      "translations": {
+                          "gn": "rohayhu",
+                          "en": "I love you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Rohayhu</b> nde.",
+                              "n": "I love you."
+                          },
+                          {
+                              "t": "<b>Rohayhu</b> che irũ.",
+                              "n": "I love my friend."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_D_01",
+                      "isLetter": false,
+                      "letter": "dialogue",
+                      "word": "Primer encuentro",
+                      "emoji": "👋",
+                      "phonetic": "/dialogue/",
+                      "translation": "First meeting dialogue",
+                      "translations": {
+                          "gn": "Ñomongeta",
+                          "en": "Dialogue"
+                      },
+                      "examples": [
+                          {
+                              "t": "A: <b>Mba'éichapa</b> nde?<br>B: Che <b>iporã</b>, <b>aguyje</b>. Ha nde?<br>A: Che avei <b>iporã</b>.",
+                              "n": "A: How are you?<br>B: I'm fine, thank you. And you?<br>A: I'm fine too."
+                          },
+                          {
+                              "t": "B: <b>Ko'ẽmbota</b> porã!<br>A: <b>Ko'ẽmbota</b>. <b>Ñandejára</b> oipytyvõ.<br>B: <b>Ndaipóri mba'e</b>.",
+                              "n": "B: Very good morning!<br>A: Good morning. God helps.<br>B: You're welcome."
+                          },
+                          {
+                              "t": "A: Rohayhu che irũ.<br>B: <b>Rohayhu</b> avei.",
+                              "n": "A: I love my friend.<br>B: I love you too."
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
+  // GUARANÍ
+  // ──────────────────────────────────────────────────────
+  gn: {
+      "level": "A0",
+      "levelName": "El guaraní — sonidos únicos",
+      "groups": [
+          {
+              "id": "gn_a0_g1",
+              "name": "Vocales nasales",
+              "icon": "🔤",
+              "color": "#6366f1",
+              "description": "ã · ẽ · ĩ · õ · ũ · ỹ — las 6 vocales nasales del guaraní",
+              "reviewFrom": [],
+              "cards": [
+                  {
+                      "id": "gn_a0_g1_L_a_tilde",
+                      "isLetter": true,
+                      "letter": "Ã ã",
+                      "word": "Ã",
+                      "emoji": "🔤",
+                      "phonetic": "/ã/",
+                      "translation": "Vocal nasal <b>ã</b> — suena como la <i>a</i> española pero con la nariz tapada, como en <i>mañana</i> pero más nasal",
+                      "mnemonic": "Imagina que estás resfriado y dices <span class='hl'>'aaaa'</span> con la nariz tapada: así suena la ã.",
+                      "examples": [
+                          {
+                              "t": "<b>Ã</b>ga significa <i>alma</i> o <i>espíritu</i>.<br>El sonido nasal se extiende: <b>ã</b>ga suena como <i>ãŋga</i>.",
+                              "n": "Nota: La nasalidad afecta a las consonantes cercanas."
+                          },
+                          {
+                              "t": "Mba'<b>ã</b> es <i>algo</i> o <i>cosa</i>.",
+                              "n": "Ejemplo cotidiano: ¿Mba'ẽpa reiko? (¿Cómo estás?)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_L_e_tilde",
+                      "isLetter": true,
+                      "letter": "Ẽ ẽ",
+                      "word": "Ẽ",
+                      "emoji": "🔤",
+                      "phonetic": "/ẽ/",
+                      "translation": "Vocal nasal <b>ẽ</b> — como la <i>e</i> española pero con la nariz, como en <i>bien</i> pero más nasal",
+                      "mnemonic": "Piensa en un <span class='hl'>fantasma</span> diciendo <i>'eeee'</i> con voz nasal: así suena la ẽ.",
+                      "examples": [
+                          {
+                              "t": "Ar<b>ẽ</b> significa <i>hace mucho tiempo</i>.<br>La nasalidad se nota: ar<b>ẽ</b> suena como <i>arẽŋ</i>.",
+                              "n": "Contraste: No es como la <i>e</i> de <i>casa</i>."
+                          },
+                          {
+                              "t": "<b>Ẽ</b>me es <i>¡no!</i> (imperativo).",
+                              "n": "Ejemplo: Ẽme rehó! (¡No vayas!)"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_L_i_tilde",
+                      "isLetter": true,
+                      "letter": "Ĩ ĩ",
+                      "word": "Ĩ",
+                      "emoji": "🔤",
+                      "phonetic": "/ĩ/",
+                      "translation": "Vocal nasal <b>ĩ</b> — como la <i>i</i> española pero nasal, como en <i>niño</i> pero más nasal",
+                      "mnemonic": "Imagina un <span class='hl'>pájaro</span> cantando <i>'iiii'</i> con el pico tapado: así suena la ĩ.",
+                      "examples": [
+                          {
+                              "t": "M<b>ĩ</b> significa <i>pequeño</i> o <i>un poco</i>.<br>La nasalidad se extiende: m<b>ĩ</b> suena como <i>mĩŋ</i>.",
+                              "n": "Contraste: No es como la <i>i</i> de <i>luz</i>."
+                          },
+                          {
+                              "t": "Añaret<b>ã</b> es <i>infierno</i> (lit. <i>tierra del diablo</i>).",
+                              "n": "Ejemplo: Añaretãme ndaikatúi che rũ (No puedo ir al infierno)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_L_o_tilde",
+                      "isLetter": true,
+                      "letter": "Õ õ",
+                      "word": "Õ",
+                      "emoji": "🔤",
+                      "phonetic": "/õ/",
+                      "translation": "Vocal nasal <b>õ</b> — como la <i>o</i> española pero nasal, como en <i>mono</i> pero más nasal",
+                      "mnemonic": "Piensa en un <span class='hl'>oso</span> gruñendo <i>'oooo'</i> con la nariz tapada: así suena la õ.",
+                      "examples": [
+                          {
+                              "t": "<b>Õ</b>ga es una variante de <i>casa</i>.<br>La nasalidad se nota: <b>õ</b>ga suena como <i>õŋga</i>.",
+                              "n": "Contraste: No es como la <i>o</i> de <i>sol</i>."
+                          },
+                          {
+                              "t": "Av<b>õ</b> significa <i>algodón</i>.",
+                              "n": "Ejemplo: Avõ porã (Algodón bonito)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_L_u_tilde",
+                      "isLetter": true,
+                      "letter": "Ũ ũ",
+                      "word": "Ũ",
+                      "emoji": "🔤",
+                      "phonetic": "/ũ/",
+                      "translation": "Vocal nasal <b>ũ</b> — como la <i>u</i> española pero nasal, como en <i>luna</i> pero más nasal",
+                      "mnemonic": "Imagina que estás <span class='hl'>murmurando</span> <i>'uuuu'</i> con la boca casi cerrada: así suena la ũ.",
+                      "examples": [
+                          {
+                              "t": "T<b>ũ</b> significa <i>negro</i> en palabras compuestas.<br>La nasalidad se extiende: t<b>ũ</b> suena como <i>tũŋ</i>.",
+                              "n": "Ejemplo: Jaguarundy tũ (Jaguar negro)."
+                          },
+                          {
+                              "t": "Mb<b>ũ</b> es <i>hundirse</i> o <i>ahogarse</i>.",
+                              "n": "Ejemplo: Yvagape mbũ (Se hundió en el agua)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_L_y_tilde",
+                      "isLetter": true,
+                      "letter": "Ỹ ỹ",
+                      "word": "Ỹ",
+                      "emoji": "🔤",
+                      "phonetic": "/ɨ̃/",
+                      "translation": "Vocal nasal <b>ỹ</b> — sonido único del guaraní, entre <i>i</i> y <i>u</i>, pero nasal. <i>¡No existe en español!</i>",
+                      "mnemonic": "Imagina que estás <span class='hl'>sorprendido</span> y dices <i>'¿eh?'</i> con la nariz: así suena la ỹ.",
+                      "examples": [
+                          {
+                              "t": "<b>Ỹ</b>kere es un tipo de <i>serpiente</i>.<br>La nasalidad es clave: <b>ỹ</b>kere suena como <i>ɨ̃ŋkere</i>.",
+                              "n": "Contraste: No es como la <i>y</i> de <i>yo</i>."
+                          },
+                          {
+                              "t": "<b>Ỹ</b>pỹ significa <i>primero</i> u <i>origen</i>.",
+                              "n": "Ejemplo: Ỹpỹ guive (Desde el principio)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_01",
+                      "isLetter": false,
+                      "letter": "Ã",
+                      "word": "ára",
+                      "emoji": "☀️",
+                      "phonetic": "/ˈãɾa/",
+                      "translation": "<b>Ára</b> — <i>día</i> o <i>cielo</i>",
+                      "translations": {
+                          "gn": "ára",
+                          "es": "día / cielo",
+                          "en": "day / sky"
+                      },
+                      "examples": [
+                          {
+                              "t": "Ko <b>ára</b> porã.",
+                              "n": "Este día está bonito."
+                          },
+                          {
+                              "t": "<b>Ára</b> pyahu.",
+                              "n": "Día nuevo (Año Nuevo)."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g1_02",
+                      "isLetter": false,
+                      "letter": "Õ",
+                      "word": "ko'ẽ",
+                      "emoji": "🌅",
+                      "phonetic": "/koˈʔẽ/",
+                      "translation": "<b>Ko'ẽ</b> — <i>amanecer</i> o <i>mañana (día siguiente)</i>",
+                      "translations": {
+                          "gn": "ko'ẽ",
+                          "es": "amanecer / mañana",
+                          "en": "dawn / tomorrow morning"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ko'ẽ</b>me che aha.",
+                              "n": "Mañana me voy."
+                          },
+                          {
+                              "t": "<b>Ko'ẽ</b> porã.",
+                              "n": "Amaneció bonito."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "gn_a0_g2",
+              "name": "Oclusiva glotal y Y especial",
+              "icon": "🔡",
+              "color": "#f59e0b",
+              "description": "puso'o (') · Y como /ɨ/ · CH · MB · ND",
+              "reviewFrom": [
+                  "gn_a0_g1"
+              ],
+              "cards": [
+                  {
+                      "id": "gn_a0_g2_L_glottal_stop",
+                      "isLetter": true,
+                      "letter": "'",
+                      "word": "puso'o",
+                      "emoji": "🔤",
+                      "phonetic": "/ʔ/",
+                      "translation": "Oclusiva glotal <b>'</b> (puso'o): sonido de pausa como en <i>«eh'eh»</i> en español, pero escrito.<br>¡Cambia el significado de las palabras!",
+                      "mnemonic": "Imagina que cortas la palabra con un cuchillo: «ta<b>'</b>ãnga» (foto) vs «taãnga» (sin foto).",
+                      "examples": [
+                          {
+                              "t": "Pe<b>'</b>a la puerta.<br><span class=\"hl\">Abre</span> la puerta.",
+                              "n": "Abre la puerta."
+                          },
+                          {
+                              "t": "Ko<b>'</b>ã son estos.<br><span class=\"hl\">Estos</span> son estos.",
+                              "n": "Estos son estos."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_L_y_central",
+                      "isLetter": true,
+                      "letter": "Y",
+                      "word": "Y",
+                      "emoji": "🔤",
+                      "phonetic": "/ɨ/",
+                      "translation": "Vocal <b>Y</b>: sonido central como la <i>«ы» rusa</i> o el <i>«i» en «bird»</i> (inglés).<br>¡No es la <b>Y</b> española!",
+                      "mnemonic": "Piensa en un sonido entre «i» y «u», como si te doliera algo: «¡<span class=\"hl\">Yvoty</span>!» (flor).",
+                      "examples": [
+                          {
+                              "t": "<b>Y</b>voty es una flor.<br><span class=\"hl\">Flor</span> es yvoty.",
+                              "n": "La flor es yvoty."
+                          },
+                          {
+                              "t": "<b>Y</b>vy es la tierra.<br><span class=\"hl\">Tierra</span> es yvy.",
+                              "n": "La tierra es yvy."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_L_ch",
+                      "isLetter": true,
+                      "letter": "CH",
+                      "word": "CH",
+                      "emoji": "🔤",
+                      "phonetic": "/tʃ/",
+                      "translation": "Digrafo <b>CH</b>: como la <i>«ch» en «chico»</i> (español) o <i>«ch» en «church»</i> (inglés).",
+                      "mnemonic": "Suena igual que en español, pero es clave: «<span class=\"hl\">Che</span>» (yo) empieza con CH.",
+                      "examples": [
+                          {
+                              "t": "<b>Ch</b>e soy yo.<br><span class=\"hl\">Yo</span> soy che.",
+                              "n": "Yo soy che."
+                          },
+                          {
+                              "t": "<b>Ch</b>upe le dije.<br>Se lo dije a <span class=\"hl\">él/ella</span>.",
+                              "n": "Se lo dije a él/ella."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_L_mb",
+                      "isLetter": true,
+                      "letter": "MB",
+                      "word": "MB",
+                      "emoji": "🔤",
+                      "phonetic": "/mb/",
+                      "translation": "Digrafo <b>MB</b>: <i>«b» prenasalizada</i>, como si dijeras «m» + «b» muy rápido.<br>¡No es «m» + «b» separadas!",
+                      "mnemonic": "Imagina que aprietas la nariz antes de decir «b»: «<span class=\"hl\">Mba'e</span>» (qué/cosa).",
+                      "examples": [
+                          {
+                              "t": "<b>Mb</b>a'e es una cosa.<br><span class=\"hl\">Cosa</span> es mba'e.",
+                              "n": "Una cosa es mba'e."
+                          },
+                          {
+                              "t": "<b>Mb</b>ói es una serpiente.<br><span class=\"hl\">Serpiente</span> es mbói.",
+                              "n": "La serpiente es mbói."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_L_nd",
+                      "isLetter": true,
+                      "letter": "ND",
+                      "word": "ND",
+                      "emoji": "🔤",
+                      "phonetic": "/nd/",
+                      "translation": "Digrafo <b>ND</b>: <i>«d» prenasalizada</i>, como «n» + «d» muy rápido.<br>¡No es «n» + «d» separadas!",
+                      "mnemonic": "Piensa en «nd» como en «<span class=\"hl\">andar</span>» (español), pero sin la «a»: «<span class=\"hl\">Nde</span>» (tú).",
+                      "examples": [
+                          {
+                              "t": "<b>Nd</b>e eres tú.<br><span class=\"hl\">Tú</span> eres nde.",
+                              "n": "Tú eres nde."
+                          },
+                          {
+                              "t": "<b>Nd</b>aipóri no hay.<br><span class=\"hl\">No hay</span>.",
+                              "n": "No hay."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "CH",
+                      "word": "che",
+                      "emoji": "👤",
+                      "phonetic": "/tʃe/",
+                      "translation": "<b>Che</b>: yo, mí.<br>¡La palabra más común en guaraní!",
+                      "translations": {
+                          "gn": "che",
+                          "es": "yo/mí",
+                          "en": "I/me"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Che</b> aha.<br>Yo voy.",
+                              "n": "Yo voy."
+                          },
+                          {
+                              "t": "<b>Che</b> ndaikuaái.<br>Yo no sé.",
+                              "n": "Yo no sé."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "ND",
+                      "word": "nde",
+                      "emoji": "👥",
+                      "phonetic": "/ⁿde/",
+                      "translation": "<b>Nde</b>: tú, ti.<br>¡La forma singular de «tú»!",
+                      "translations": {
+                          "gn": "nde",
+                          "es": "tú/ti",
+                          "en": "you (singular)"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Nde</b> reju.<br>Tú vienes.",
+                              "n": "Tú vienes."
+                          },
+                          {
+                              "t": "<b>Nde</b> reikuaa.<br>Tú sabes.",
+                              "n": "Tú sabes."
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": "gn_a0_g3",
+              "name": "Primeras palabras",
+              "icon": "💬",
+              "color": "#10b981",
+              "description": "Saludos y palabras esenciales en guaraní",
+              "reviewFrom": [
+                  "gn_a0_g1",
+                  "gn_a0_g2"
+              ],
+              "cards": [
+                  {
+                      "id": "gn_a0_g3_01",
+                      "isLetter": false,
+                      "letter": "mba'e",
+                      "word": "mba'éichapa",
+                      "emoji": "🤔",
+                      "phonetic": "/ᵐbaˈɛjʃapa/",
+                      "translation": "¿Cómo estás? — <i>literalmente «¿cómo es?»</i>",
+                      "translations": {
+                          "gn": "mba'éichapa",
+                          "es": "¿cómo estás?",
+                          "en": "how are you?"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Mba'éichapa</b> nde?",
+                              "n": "¿Cómo estás?"
+                          },
+                          {
+                              "t": "<b>Mba'éichapa</b> ko ára?",
+                              "n": "¿Cómo está este día?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "porã",
+                      "word": "iporã",
+                      "emoji": "😊",
+                      "phonetic": "/ipoˈɾã/",
+                      "translation": "bien/bueno/hermoso — <i>respuesta a «mba'éichapa»</i>",
+                      "translations": {
+                          "gn": "iporã",
+                          "es": "bien/bueno",
+                          "en": "good/fine"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Iporã</b> che!",
+                              "n": "¡Estoy bien!"
+                          },
+                          {
+                              "t": "<b>Iporã</b> ko tetã.",
+                              "n": "Este país es hermoso."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_03",
+                      "isLetter": false,
+                      "letter": "guyje",
+                      "word": "aguyje",
+                      "emoji": "🙏",
+                      "phonetic": "/aɣuˈɟe/",
+                      "translation": "gracias — <i>similar a «agradezco» en español</i>",
+                      "translations": {
+                          "gn": "aguyje",
+                          "es": "gracias",
+                          "en": "thank you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Aguyje</b> nde!",
+                              "n": "¡Gracias!"
+                          },
+                          {
+                              "t": "<b>Aguyje</b> por tu ayuda.",
+                              "n": "Gracias por tu ayuda."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_04",
+                      "isLetter": false,
+                      "letter": "jára",
+                      "word": "ñandejára",
+                      "emoji": "✝️",
+                      "phonetic": "/ɲãⁿdeˈʒaɾa/",
+                      "translation": "Dios/señor — <i>literalmente «nuestro dueño»</i>",
+                      "translations": {
+                          "gn": "ñandejára",
+                          "es": "Dios/señor",
+                          "en": "God/lord"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ñandejára</b> oipytyvõ.",
+                              "n": "Dios ayuda."
+                          },
+                          {
+                              "t": "Che roguereko <b>ñandejára</b> rehe.",
+                              "n": "Yo creo en Dios."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_05",
+                      "isLetter": false,
+                      "letter": "ko'ẽ",
+                      "word": "ko'ẽmbota",
+                      "emoji": "🌅",
+                      "phonetic": "/koˈẽᵐbota/",
+                      "translation": "buenos días — <i>literalmente «cuando amanece»</i>",
+                      "translations": {
+                          "gn": "ko'ẽmbota",
+                          "es": "buenos días",
+                          "en": "good morning"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ko'ẽmbota</b> nde!",
+                              "n": "¡Buenos días!"
+                          },
+                          {
+                              "t": "<b>Ko'ẽmbota</b>, che sy.",
+                              "n": "Buenos días, mamá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_06",
+                      "isLetter": false,
+                      "letter": "pytũ",
+                      "word": "pytũmba",
+                      "emoji": "🌙",
+                      "phonetic": "/pɨˈtũᵐba/",
+                      "translation": "buenas noches — <i>literalmente «cuando oscurece»</i>",
+                      "translations": {
+                          "gn": "pytũmba",
+                          "es": "buenas noches",
+                          "en": "good evening/night"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Pytũmba</b> nde!",
+                              "n": "¡Buenas noches!"
+                          },
+                          {
+                              "t": "<b>Pytũmba</b>, che ru.",
+                              "n": "Buenas noches, papá."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_07",
+                      "isLetter": false,
+                      "letter": "ndaipóri",
+                      "word": "ndaipóri mba'e",
+                      "emoji": "🤝",
+                      "phonetic": "/ⁿdaiˈpoɾi ᵐbaˈe/",
+                      "translation": "de nada — <i>literalmente «no hay nada»</i>",
+                      "translations": {
+                          "gn": "ndaipóri mba'e",
+                          "es": "de nada",
+                          "en": "you're welcome"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Ndaipóri mba'e</b>!",
+                              "n": "¡De nada!"
+                          },
+                          {
+                              "t": "Aguyje. — <b>Ndaipóri mba'e</b>.",
+                              "n": "Gracias. — De nada."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_08",
+                      "isLetter": false,
+                      "letter": "hayhu",
+                      "word": "rohayhu",
+                      "emoji": "❤️",
+                      "phonetic": "/ɾoˈhajhu/",
+                      "translation": "te amo — <i>literalmente «te quiero bien»</i>",
+                      "translations": {
+                          "gn": "rohayhu",
+                          "es": "te amo",
+                          "en": "I love you"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Rohayhu</b> nde!",
+                              "n": "¡Te amo!"
+                          },
+                          {
+                              "t": "<b>Rohayhu</b>, che memby.",
+                              "n": "Te amo, hijo mío."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "gn_a0_g3_d01",
+                      "isLetter": false,
+                      "letter": "diálogo",
+                      "word": "Encuentro inicial",
+                      "emoji": "👋",
+                      "phonetic": "",
+                      "translation": "Diálogo: Dos personas se conocen por primera vez",
+                      "translations": {
+                          "gn": "Ñomongeta",
+                          "es": "Diálogo",
+                          "en": "Dialogue"
+                      },
+                      "examples": [
+                          {
+                              "t": "A: <b>Ko'ẽmbota</b>! Mba'éichapa nde?",
+                              "n": "A: ¡Buenos días! ¿Cómo estás?"
+                          },
+                          {
+                              "t": "B: <b>Iporã</b>, che. Ha nde?",
+                              "n": "B: Bien, yo. ¿Y tú?"
+                          },
+                          {
+                              "t": "A: <b>Iporã</b> avei. Aguyje!",
+                              "n": "A: Bien también. ¡Gracias!"
+                          },
+                          {
+                              "t": "B: <b>Ndaipóri mba'e</b>.",
+                              "n": "B: De nada."
+                          },
+                          {
+                              "t": "A: Ñandejára oipytyvõ!",
+                              "n": "A: ¡Que Dios te ayude!"
+                          },
+                          {
+                              "t": "B: <b>Pytũmba</b>!",
+                              "n": "B: ¡Buenas noches!"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+
+  // ──────────────────────────────────────────────────────
   // IT_DE
   // ──────────────────────────────────────────────────────
   it_de: {
@@ -95162,590 +96323,932 @@ const FLASHCARD_ALPHA = {
   },
 
   // ──────────────────────────────────────────────────────
-  // GUARANÍ
+  // EN_GN
   // ──────────────────────────────────────────────────────
-  gn: {
+  en_gn: {
       "level": "A0",
-      "levelName": "El guaraní — sonidos únicos",
+      "levelName": "El inglés — pronunciación",
       "groups": [
           {
-              "id": "gn_a0_g1",
-              "name": "Vocales nasales",
-              "icon": "🔤",
+              "id": "en_a0_g1",
+              "name": "Sonidos vocálicos",
+              "icon": "🔊",
               "color": "#6366f1",
-              "description": "ã · ẽ · ĩ · õ · ũ · ỹ — las 6 vocales nasales del guaraní",
+              "description": "Las vocales en inglés tienen múltiples sonidos",
               "reviewFrom": [],
               "cards": [
                   {
-                      "id": "gn_a0_g1_L_a_tilde",
+                      "id": "en_a0_g1_L_a",
                       "isLetter": true,
-                      "letter": "Ã ã",
-                      "word": "Ã",
+                      "letter": "A",
+                      "word": "A",
                       "emoji": "🔤",
-                      "phonetic": "/ã/",
-                      "translation": "Vocal nasal <b>ã</b> — suena como la <i>a</i> española pero con la nariz tapada, como en <i>mañana</i> pero más nasal",
-                      "mnemonic": "Imagina que estás resfriado y dices <span class='hl'>'aaaa'</span> con la nariz tapada: así suena la ã.",
+                      "phonetic": "/eɪ/, /æ/, /ə/",
+                      "translation": "La letra <b>A</b> en inglés suena como <i>/eɪ/</i> (ej. <span class=\"hl\">name</span>), <i>/æ/</i> (como en <span class=\"hl\">cat</span>, más abierto que en español) <br>o <i>/ə/</i> (sonido relajado, como en <span class=\"hl\">about</span>).",
+                      "mnemonic": "Imagina la <b>A</b> como una montaña: la punta es el sonido /eɪ/, el valle es /æ/, y la base es /ə/.",
                       "examples": [
                           {
-                              "t": "<b>Ã</b>ga significa <i>alma</i> o <i>espíritu</i>.<br>El sonido nasal se extiende: <b>ã</b>ga suena como <i>ãŋga</i>.",
-                              "n": "Nota: La nasalidad afecta a las consonantes cercanas."
+                              "t": "The <b>a</b> in <span class=\"hl\">name</span> sounds like /eɪ/.",
+                              "n": "La <b>A</b> en <i>name</i> suena como /eɪ/."
                           },
                           {
-                              "t": "Mba'<b>ã</b> es <i>algo</i> o <i>cosa</i>.",
-                              "n": "Ejemplo cotidiano: ¿Mba'ẽpa reiko? (¿Cómo estás?)"
+                              "t": "The <b>a</b> in <span class=\"hl\">cat</span> is short: /æ/.",
+                              "n": "La <b>A</b> en <i>cat</i> es corta: /æ/."
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g1_L_e_tilde",
-                      "isLetter": true,
-                      "letter": "Ẽ ẽ",
-                      "word": "Ẽ",
-                      "emoji": "🔤",
-                      "phonetic": "/ẽ/",
-                      "translation": "Vocal nasal <b>ẽ</b> — como la <i>e</i> española pero con la nariz, como en <i>bien</i> pero más nasal",
-                      "mnemonic": "Piensa en un <span class='hl'>fantasma</span> diciendo <i>'eeee'</i> con voz nasal: así suena la ẽ.",
-                      "examples": [
-                          {
-                              "t": "Ar<b>ẽ</b> significa <i>hace mucho tiempo</i>.<br>La nasalidad se nota: ar<b>ẽ</b> suena como <i>arẽŋ</i>.",
-                              "n": "Contraste: No es como la <i>e</i> de <i>casa</i>."
-                          },
-                          {
-                              "t": "<b>Ẽ</b>me es <i>¡no!</i> (imperativo).",
-                              "n": "Ejemplo: Ẽme rehó! (¡No vayas!)"
-                          }
-                      ]
-                  },
-                  {
-                      "id": "gn_a0_g1_L_i_tilde",
-                      "isLetter": true,
-                      "letter": "Ĩ ĩ",
-                      "word": "Ĩ",
-                      "emoji": "🔤",
-                      "phonetic": "/ĩ/",
-                      "translation": "Vocal nasal <b>ĩ</b> — como la <i>i</i> española pero nasal, como en <i>niño</i> pero más nasal",
-                      "mnemonic": "Imagina un <span class='hl'>pájaro</span> cantando <i>'iiii'</i> con el pico tapado: así suena la ĩ.",
-                      "examples": [
-                          {
-                              "t": "M<b>ĩ</b> significa <i>pequeño</i> o <i>un poco</i>.<br>La nasalidad se extiende: m<b>ĩ</b> suena como <i>mĩŋ</i>.",
-                              "n": "Contraste: No es como la <i>i</i> de <i>luz</i>."
-                          },
-                          {
-                              "t": "Añaret<b>ã</b> es <i>infierno</i> (lit. <i>tierra del diablo</i>).",
-                              "n": "Ejemplo: Añaretãme ndaikatúi che rũ (No puedo ir al infierno)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "gn_a0_g1_L_o_tilde",
-                      "isLetter": true,
-                      "letter": "Õ õ",
-                      "word": "Õ",
-                      "emoji": "🔤",
-                      "phonetic": "/õ/",
-                      "translation": "Vocal nasal <b>õ</b> — como la <i>o</i> española pero nasal, como en <i>mono</i> pero más nasal",
-                      "mnemonic": "Piensa en un <span class='hl'>oso</span> gruñendo <i>'oooo'</i> con la nariz tapada: así suena la õ.",
-                      "examples": [
-                          {
-                              "t": "<b>Õ</b>ga es una variante de <i>casa</i>.<br>La nasalidad se nota: <b>õ</b>ga suena como <i>õŋga</i>.",
-                              "n": "Contraste: No es como la <i>o</i> de <i>sol</i>."
-                          },
-                          {
-                              "t": "Av<b>õ</b> significa <i>algodón</i>.",
-                              "n": "Ejemplo: Avõ porã (Algodón bonito)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "gn_a0_g1_L_u_tilde",
-                      "isLetter": true,
-                      "letter": "Ũ ũ",
-                      "word": "Ũ",
-                      "emoji": "🔤",
-                      "phonetic": "/ũ/",
-                      "translation": "Vocal nasal <b>ũ</b> — como la <i>u</i> española pero nasal, como en <i>luna</i> pero más nasal",
-                      "mnemonic": "Imagina que estás <span class='hl'>murmurando</span> <i>'uuuu'</i> con la boca casi cerrada: así suena la ũ.",
-                      "examples": [
-                          {
-                              "t": "T<b>ũ</b> significa <i>negro</i> en palabras compuestas.<br>La nasalidad se extiende: t<b>ũ</b> suena como <i>tũŋ</i>.",
-                              "n": "Ejemplo: Jaguarundy tũ (Jaguar negro)."
-                          },
-                          {
-                              "t": "Mb<b>ũ</b> es <i>hundirse</i> o <i>ahogarse</i>.",
-                              "n": "Ejemplo: Yvagape mbũ (Se hundió en el agua)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "gn_a0_g1_L_y_tilde",
-                      "isLetter": true,
-                      "letter": "Ỹ ỹ",
-                      "word": "Ỹ",
-                      "emoji": "🔤",
-                      "phonetic": "/ɨ̃/",
-                      "translation": "Vocal nasal <b>ỹ</b> — sonido único del guaraní, entre <i>i</i> y <i>u</i>, pero nasal. <i>¡No existe en español!</i>",
-                      "mnemonic": "Imagina que estás <span class='hl'>sorprendido</span> y dices <i>'¿eh?'</i> con la nariz: así suena la ỹ.",
-                      "examples": [
-                          {
-                              "t": "<b>Ỹ</b>kere es un tipo de <i>serpiente</i>.<br>La nasalidad es clave: <b>ỹ</b>kere suena como <i>ɨ̃ŋkere</i>.",
-                              "n": "Contraste: No es como la <i>y</i> de <i>yo</i>."
-                          },
-                          {
-                              "t": "<b>Ỹ</b>pỹ significa <i>primero</i> u <i>origen</i>.",
-                              "n": "Ejemplo: Ỹpỹ guive (Desde el principio)."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "gn_a0_g1_01",
-                      "isLetter": false,
-                      "letter": "Ã",
-                      "word": "ára",
-                      "emoji": "☀️",
-                      "phonetic": "/ˈãɾa/",
-                      "translation": "<b>Ára</b> — <i>día</i> o <i>cielo</i>",
+                      "id": "en_a0_g1_01",
+                      "letter": "A",
+                      "word": "cat",
+                      "emoji": "🐱",
+                      "phonetic": "/kæt/",
+                      "translation": "<b>Mbarakaja</b> (sonido de <b>A</b> corto: /æ/)",
                       "translations": {
-                          "gn": "ára",
-                          "es": "día / cielo",
-                          "en": "day / sky"
+                          "en": "cat",
+                          "gn": "mbarakaja",
+                          "es": "gato"
                       },
                       "examples": [
                           {
-                              "t": "Ko <b>ára</b> porã.",
-                              "n": "Este día está bonito."
+                              "t": "The <b>cat</b> is black.",
+                              "n": "<b>Mbarakaja</b> hũ."
                           },
                           {
-                              "t": "<b>Ára</b> pyahu.",
-                              "n": "Día nuevo (Año Nuevo)."
+                              "t": "I see a <b>cat</b>.",
+                              "n": "Ahecha peteĩ <b>mbarakaja</b>."
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g1_02",
-                      "isLetter": false,
-                      "letter": "Õ",
-                      "word": "ko'ẽ",
-                      "emoji": "🌅",
-                      "phonetic": "/koˈʔẽ/",
-                      "translation": "<b>Ko'ẽ</b> — <i>amanecer</i> o <i>mañana (día siguiente)</i>",
+                      "id": "en_a0_g1_02",
+                      "letter": "A",
+                      "word": "name",
+                      "emoji": "📛",
+                      "phonetic": "/neɪm/",
+                      "translation": "<b>Téra</b> (sonido de <b>A</b> largo: /eɪ/)",
                       "translations": {
-                          "gn": "ko'ẽ",
-                          "es": "amanecer / mañana",
-                          "en": "dawn / tomorrow morning"
+                          "en": "name",
+                          "gn": "téra",
+                          "es": "nombre"
                       },
                       "examples": [
                           {
-                              "t": "<b>Ko'ẽ</b>me che aha.",
-                              "n": "Mañana me voy."
+                              "t": "What is your <b>name</b>?",
+                              "n": "Mba’épa nde <b>téra</b>?"
                           },
                           {
-                              "t": "<b>Ko'ẽ</b> porã.",
-                              "n": "Amaneció bonito."
+                              "t": "My <b>name</b> is Ana.",
+                              "n": "<b>Téra</b> che ñe’ẽ Ana."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_L_e",
+                      "isLetter": true,
+                      "letter": "E",
+                      "word": "E",
+                      "emoji": "🔤",
+                      "phonetic": "/iː/, /ɛ/",
+                      "translation": "La letra <b>E</b> en inglés suena como <i>/iː/</i> (ej. <span class=\"hl\">he</span>, largo y tenso) <br>o <i>/ɛ/</i> (como en <span class=\"hl\">bed</span>, similar a la <i>e</i> en español).",
+                      "mnemonic": "La <b>E</b> es como una sonrisa: estirada (/iː/) o relajada (/ɛ/).",
+                      "examples": [
+                          {
+                              "t": "The <b>e</b> in <span class=\"hl\">he</span> is long: /iː/.",
+                              "n": "La <b>E</b> en <i>he</i> es larga: /iː/."
+                          },
+                          {
+                              "t": "The <b>e</b> in <span class=\"hl\">bed</span> is short: /ɛ/.",
+                              "n": "La <b>E</b> en <i>bed</i> es corta: /ɛ/."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_03",
+                      "letter": "E",
+                      "word": "bed",
+                      "emoji": "🛏️",
+                      "phonetic": "/bɛd/",
+                      "translation": "<b>Tupa</b> (sonido de <b>E</b> corto: /ɛ/)",
+                      "translations": {
+                          "en": "bed",
+                          "gn": "tupa",
+                          "es": "cama"
+                      },
+                      "examples": [
+                          {
+                              "t": "I sleep in a <b>bed</b>.",
+                              "n": "Che ke <b>tupa</b> pe."
+                          },
+                          {
+                              "t": "The <b>bed</b> is soft.",
+                              "n": "<b>Tupa</b> ipy’ũ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_04",
+                      "letter": "E",
+                      "word": "he",
+                      "emoji": "👨",
+                      "phonetic": "/hiː/",
+                      "translation": "<b>Ha’e</b> (sonido de <b>E</b> largo: /iː/)",
+                      "translations": {
+                          "en": "he",
+                          "gn": "ha’e",
+                          "es": "él"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>He</b> is my friend.",
+                              "n": "<b>Ha’e</b> che angirũ."
+                          },
+                          {
+                              "t": "Where is <b>he</b>?",
+                              "n": "Moõpa <b>ha’e</b>?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_L_i",
+                      "isLetter": true,
+                      "letter": "I",
+                      "word": "I",
+                      "emoji": "🔤",
+                      "phonetic": "/aɪ/, /ɪ/",
+                      "translation": "La letra <b>I</b> en inglés suena como <i>/aɪ/</i> (ej. <span class=\"hl\">like</span>, como <i>ai</i> en guaraní) <br>o <i>/ɪ/</i> (como en <span class=\"hl\">sit</span>, más corto que en español).",
+                      "mnemonic": "La <b>I</b> es como un dedo apuntando: hacia arriba (/aɪ/) o hacia abajo (/ɪ/).",
+                      "examples": [
+                          {
+                              "t": "The <b>i</b> in <span class=\"hl\">like</span> sounds like /aɪ/.",
+                              "n": "La <b>I</b> en <i>like</i> suena como /aɪ/."
+                          },
+                          {
+                              "t": "The <b>i</b> in <span class=\"hl\">sit</span> is short: /ɪ/.",
+                              "n": "La <b>I</b> en <i>sit</i> es corta: /ɪ/."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_05",
+                      "letter": "I",
+                      "word": "sit",
+                      "emoji": "🪑",
+                      "phonetic": "/sɪt/",
+                      "translation": "<b>Guapy</b> (sonido de <b>I</b> corto: /ɪ/)",
+                      "translations": {
+                          "en": "sit",
+                          "gn": "guapy",
+                          "es": "sentarse"
+                      },
+                      "examples": [
+                          {
+                              "t": "Please <b>sit</b> down.",
+                              "n": "<b>Eguapy</b> ko’ág̃a."
+                          },
+                          {
+                              "t": "I want to <b>sit</b> here.",
+                              "n": "Aipota <b>aguapy</b> ko’ápe."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_06",
+                      "letter": "I",
+                      "word": "like",
+                      "emoji": "👍",
+                      "phonetic": "/laɪk/",
+                      "translation": "<b>Hory</b> (sonido de <b>I</b> largo: /aɪ/)",
+                      "translations": {
+                          "en": "like",
+                          "gn": "hory",
+                          "es": "gustar"
+                      },
+                      "examples": [
+                          {
+                              "t": "I <b>like</b> apples.",
+                              "n": "<b>Che hory</b> manzana."
+                          },
+                          {
+                              "t": "Do you <b>like</b> it?",
+                              "n": "¿<b>Rehory</b>pa?"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_L_o",
+                      "isLetter": true,
+                      "letter": "O",
+                      "word": "O",
+                      "emoji": "🔤",
+                      "phonetic": "/oʊ/, /ɒ/",
+                      "translation": "La letra <b>O</b> en inglés suena como <i>/oʊ/</i> (ej. <span class=\"hl\">go</span>, como <i>ou</i> en guaraní) <br>o <i>/ɒ/</i> (como en <span class=\"hl\">hot</span>, más abierto que en español).",
+                      "mnemonic": "La <b>O</b> es como un círculo: redondo (/oʊ/) o abierto (/ɒ/).",
+                      "examples": [
+                          {
+                              "t": "The <b>o</b> in <span class=\"hl\">go</span> sounds like /oʊ/.",
+                              "n": "La <b>O</b> en <i>go</i> suena como /oʊ/."
+                          },
+                          {
+                              "t": "The <b>o</b> in <span class=\"hl\">hot</span> is short: /ɒ/.",
+                              "n": "La <b>O</b> en <i>hot</i> es corta: /ɒ/."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_07",
+                      "letter": "O",
+                      "word": "hot",
+                      "emoji": "🔥",
+                      "phonetic": "/hɒt/",
+                      "translation": "<b>Hakú</b> (sonido de <b>O</b> corto: /ɒ/)",
+                      "translations": {
+                          "en": "hot",
+                          "gn": "hakú",
+                          "es": "caliente"
+                      },
+                      "examples": [
+                          {
+                              "t": "The coffee is <b>hot</b>.",
+                              "n": "<b>Kafe hakú</b>."
+                          },
+                          {
+                              "t": "Be careful, it's <b>hot</b>!",
+                              "n": "Eñangareko, <b>hakú</b>!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_08",
+                      "letter": "O",
+                      "word": "go",
+                      "emoji": "🚶",
+                      "phonetic": "/ɡoʊ/",
+                      "translation": "<b>Ha</b> (sonido de <b>O</b> largo: /oʊ/)",
+                      "translations": {
+                          "en": "go",
+                          "gn": "ha",
+                          "es": "ir"
+                      },
+                      "examples": [
+                          {
+                              "t": "Let's <b>go</b> home.",
+                              "n": "<b>Jaha</b> ógape."
+                          },
+                          {
+                              "t": "I want to <b>go</b> now.",
+                              "n": "Aipota <b>aha</b> ko’ág̃a."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_L_u",
+                      "isLetter": true,
+                      "letter": "U",
+                      "word": "U",
+                      "emoji": "🔤",
+                      "phonetic": "/juː/, /ʌ/, /ʊ/",
+                      "translation": "La letra <b>U</b> en inglés suena como <i>/juː/</i> (ej. <span class=\"hl\">use</span>, como <i>iu</i> en guaraní), <i>/ʌ/</i> (como en <span class=\"hl\">cup</span>, sonido relajado) <br>o <i>/ʊ/</i> (como en <span class=\"hl\">put</span>, similar a la <i>u</i> en español).",
+                      "mnemonic": "La <b>U</b> es como un túnel: largo (/juː/), corto (/ʌ/) o medio (/ʊ/).",
+                      "examples": [
+                          {
+                              "t": "The <b>u</b> in <span class=\"hl\">use</span> sounds like /juː/.",
+                              "n": "La <b>U</b> en <i>use</i> suena como /juː/."
+                          },
+                          {
+                              "t": "The <b>u</b> in <span class=\"hl\">cup</span> is short: /ʌ/.",
+                              "n": "La <b>U</b> en <i>cup</i> es corta: /ʌ/."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_09",
+                      "letter": "U",
+                      "word": "cup",
+                      "emoji": "☕",
+                      "phonetic": "/kʌp/",
+                      "translation": "<b>Y’uha</b> (sonido de <b>U</b> corto: /ʌ/)",
+                      "translations": {
+                          "en": "cup",
+                          "gn": "y’uha",
+                          "es": "taza"
+                      },
+                      "examples": [
+                          {
+                              "t": "I drink from a <b>cup</b>.",
+                              "n": "Che y’u <b>y’uha</b> gui."
+                          },
+                          {
+                              "t": "This <b>cup</b> is small.",
+                              "n": "<b>Y’uha</b> ko’ã michĩ."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g1_10",
+                      "letter": "U",
+                      "word": "use",
+                      "emoji": "🔧",
+                      "phonetic": "/juːz/",
+                      "translation": "<b>Porúvo</b> (sonido de <b>U</b> largo: /juː/)",
+                      "translations": {
+                          "en": "use",
+                          "gn": "porúvo",
+                          "es": "usar"
+                      },
+                      "examples": [
+                          {
+                              "t": "Can I <b>use</b> this?",
+                              "n": "¿Ikatu <b>aporúvo</b> ko’ã?"
+                          },
+                          {
+                              "t": "How do you <b>use</b> it?",
+                              "n": "Mba’éichapa <b>reporúvo</b>?"
                           }
                       ]
                   }
               ]
           },
           {
-              "id": "gn_a0_g2",
-              "name": "Oclusiva glotal y Y especial",
+              "id": "en_a0_g2",
+              "name": "Consonantes especiales",
               "icon": "🔡",
               "color": "#f59e0b",
-              "description": "puso'o (') · Y como /ɨ/ · CH · MB · ND",
+              "description": "Consonantes que suenan diferente al español",
               "reviewFrom": [
-                  "gn_a0_g1"
+                  "en_a0_g1"
               ],
               "cards": [
                   {
-                      "id": "gn_a0_g2_L_glottal_stop",
+                      "id": "en_a0_g2_L_h",
                       "isLetter": true,
-                      "letter": "'",
-                      "word": "puso'o",
+                      "letter": "H",
+                      "word": "H",
                       "emoji": "🔤",
-                      "phonetic": "/ʔ/",
-                      "translation": "Oclusiva glotal <b>'</b> (puso'o): sonido de pausa como en <i>«eh'eh»</i> en español, pero escrito.<br>¡Cambia el significado de las palabras!",
-                      "mnemonic": "Imagina que cortas la palabra con un cuchillo: «ta<b>'</b>ãnga» (foto) vs «taãnga» (sin foto).",
+                      "phonetic": "/h/",
+                      "translation": "La letra <b>H</b> siempre suena como el aire que sale al soplar una vela, <i>nunca es muda como en español</i>",
+                      "mnemonic": "Imagina que soplas una vela: «¡Hhhh!» como en «house».",
                       "examples": [
                           {
-                              "t": "Pe<b>'</b>a la puerta.<br><span class=\"hl\">Abre</span> la puerta.",
-                              "n": "Abre la puerta."
-                          },
-                          {
-                              "t": "Ko<b>'</b>ã son estos.<br><span class=\"hl\">Estos</span> son estos.",
-                              "n": "Estos son estos."
+                              "t": "Say <b>h</b>ello to your friend!<br>La <b>h</b>ouse is big.",
+                              "n": "¡Saluda a tu amigo!<br>La casa es grande."
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g2_L_y_central",
+                      "id": "en_a0_g2_L_j",
+                      "isLetter": true,
+                      "letter": "J",
+                      "word": "J",
+                      "emoji": "🔤",
+                      "phonetic": "/dʒ/",
+                      "translation": "La letra <b>J</b> suena como la «ch» en <i>mucho</i>, pero con voz (vibra la garganta)",
+                      "mnemonic": "Piensa en la «ch» de «muchacho», pero más fuerte: «¡Jjjjump!»",
+                      "examples": [
+                          {
+                              "t": "<b>J</b>ump high!<br>I have a <b>j</b>ob.",
+                              "n": "¡Salta alto!<br>Tengo un trabajo."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_w",
+                      "isLetter": true,
+                      "letter": "W",
+                      "word": "W",
+                      "emoji": "🔤",
+                      "phonetic": "/w/",
+                      "translation": "La letra <b>W</b> suena como una «u» rápida, <i>como en «agua» pero más corta</i>",
+                      "mnemonic": "Di «u» muy rápido: «¡Wwwater!» como si tuvieras sed.",
+                      "examples": [
+                          {
+                              "t": "Drink <b>w</b>ater.<br><b>W</b>ork hard!",
+                              "n": "Bebe agua.<br>¡Trabaja duro!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_y",
                       "isLetter": true,
                       "letter": "Y",
                       "word": "Y",
                       "emoji": "🔤",
-                      "phonetic": "/ɨ/",
-                      "translation": "Vocal <b>Y</b>: sonido central como la <i>«ы» rusa</i> o el <i>«i» en «bird»</i> (inglés).<br>¡No es la <b>Y</b> española!",
-                      "mnemonic": "Piensa en un sonido entre «i» y «u», como si te doliera algo: «¡<span class=\"hl\">Yvoty</span>!» (flor).",
+                      "phonetic": "/j/",
+                      "translation": "La letra <b>Y</b> suena como la «y» en español, <i>pero solo al inicio de palabra</i>",
+                      "mnemonic": "Es igual que en «yo»: «<span class=\"hl\">Yes</span>» empieza con <b>y</b> como «yo».",
                       "examples": [
                           {
-                              "t": "<b>Y</b>voty es una flor.<br><span class=\"hl\">Flor</span> es yvoty.",
-                              "n": "La flor es yvoty."
-                          },
-                          {
-                              "t": "<b>Y</b>vy es la tierra.<br><span class=\"hl\">Tierra</span> es yvy.",
-                              "n": "La tierra es yvy."
+                              "t": "Say <b>y</b>es!<br>It's a new <b>y</b>ear.",
+                              "n": "¡Di que sí!<br>Es un año nuevo."
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g2_L_ch",
+                      "id": "en_a0_g2_L_th_voiceless",
+                      "isLetter": true,
+                      "letter": "TH",
+                      "word": "TH",
+                      "emoji": "🔤",
+                      "phonetic": "/θ/",
+                      "translation": "El dígrafo <b>TH</b> (sin voz) suena como poner la lengua entre los dientes y soplar: <i>como en «think»</i>",
+                      "mnemonic": "Muerde tu lengua suavemente y sopla: «<span class=\"hl\">Think</span>» suena como un susurro.",
+                      "examples": [
+                          {
+                              "t": "<b>Th</b>ree cats.<br>I <b>th</b>ink so.",
+                              "n": "Tres gatos.<br>Creo que sí."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_th_voiced",
+                      "isLetter": true,
+                      "letter": "TH",
+                      "word": "TH",
+                      "emoji": "🔤",
+                      "phonetic": "/ð/",
+                      "translation": "El dígrafo <b>TH</b> (con voz) suena como el anterior, pero vibra la garganta: <i>como en «the»</i>",
+                      "mnemonic": "Muerde tu lengua y haz vibrar tu garganta: «<span class=\"hl\">The</span>» suena como un zumbido.",
+                      "examples": [
+                          {
+                              "t": "<b>Th</b>e dog.<br>This is <b>th</b>e book.",
+                              "n": "El perro.<br>Este es el libro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_sh",
+                      "isLetter": true,
+                      "letter": "SH",
+                      "word": "SH",
+                      "emoji": "🔤",
+                      "phonetic": "/ʃ/",
+                      "translation": "El dígrafo <b>SH</b> suena como «shhh» para pedir silencio, <i>como en «shoe»</i>",
+                      "mnemonic": "Pon el dedo en los labios y di «shhh»: «<span class=\"hl\">Shoe</span>» empieza así.",
+                      "examples": [
+                          {
+                              "t": "<b>Sh</b>ow me!<br>The <b>sh</b>ip is big.",
+                              "n": "¡Enséñame!<br>El barco es grande."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_L_ch",
                       "isLetter": true,
                       "letter": "CH",
                       "word": "CH",
                       "emoji": "🔤",
                       "phonetic": "/tʃ/",
-                      "translation": "Digrafo <b>CH</b>: como la <i>«ch» en «chico»</i> (español) o <i>«ch» en «church»</i> (inglés).",
-                      "mnemonic": "Suena igual que en español, pero es clave: «<span class=\"hl\">Che</span>» (yo) empieza con CH.",
+                      "translation": "El dígrafo <b>CH</b> suena como la «ch» en español, <i>como en «chair»</i>",
+                      "mnemonic": "Es igual que en «chico»: «<span class=\"hl\">Chair</span>» empieza con <b>ch</b> como «chico».",
                       "examples": [
                           {
-                              "t": "<b>Ch</b>e soy yo.<br><span class=\"hl\">Yo</span> soy che.",
-                              "n": "Yo soy che."
-                          },
-                          {
-                              "t": "<b>Ch</b>upe le dije.<br>Se lo dije a <span class=\"hl\">él/ella</span>.",
-                              "n": "Se lo dije a él/ella."
+                              "t": "<b>Ch</b>ildren play.<br>A <b>ch</b>air.",
+                              "n": "Los niños juegan.<br>Una silla."
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g2_L_mb",
-                      "isLetter": true,
-                      "letter": "MB",
-                      "word": "MB",
-                      "emoji": "🔤",
-                      "phonetic": "/mb/",
-                      "translation": "Digrafo <b>MB</b>: <i>«b» prenasalizada</i>, como si dijeras «m» + «b» muy rápido.<br>¡No es «m» + «b» separadas!",
-                      "mnemonic": "Imagina que aprietas la nariz antes de decir «b»: «<span class=\"hl\">Mba'e</span>» (qué/cosa).",
+                      "id": "en_a0_g2_01",
+                      "isLetter": false,
+                      "letter": "H",
+                      "word": "hello",
+                      "emoji": "👋",
+                      "phonetic": "/həˈloʊ/",
+                      "translation": "<b>Hello</b> — ¡Hola!",
+                      "translations": {
+                          "en": "hello",
+                          "gn": "mba'éichapa",
+                          "es": "hola"
+                      },
                       "examples": [
                           {
-                              "t": "<b>Mb</b>a'e es una cosa.<br><span class=\"hl\">Cosa</span> es mba'e.",
-                              "n": "Una cosa es mba'e."
+                              "t": "Say <b>hello</b> to your teacher.",
+                              "n": "Saluda a tu profesor."
                           },
                           {
-                              "t": "<b>Mb</b>ói es una serpiente.<br><span class=\"hl\">Serpiente</span> es mbói.",
-                              "n": "La serpiente es mbói."
+                              "t": "<b>Hello</b>, how are you?",
+                              "n": "Hola, ¿cómo estás?"
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g2_L_nd",
-                      "isLetter": true,
-                      "letter": "ND",
-                      "word": "ND",
-                      "emoji": "🔤",
-                      "phonetic": "/nd/",
-                      "translation": "Digrafo <b>ND</b>: <i>«d» prenasalizada</i>, como «n» + «d» muy rápido.<br>¡No es «n» + «d» separadas!",
-                      "mnemonic": "Piensa en «nd» como en «<span class=\"hl\">andar</span>» (español), pero sin la «a»: «<span class=\"hl\">Nde</span>» (tú).",
+                      "id": "en_a0_g2_02",
+                      "isLetter": false,
+                      "letter": "J",
+                      "word": "job",
+                      "emoji": "💼",
+                      "phonetic": "/dʒɑb/",
+                      "translation": "<b>Job</b> — Trabajo",
+                      "translations": {
+                          "en": "job",
+                          "gn": "tembiapo",
+                          "es": "trabajo"
+                      },
                       "examples": [
                           {
-                              "t": "<b>Nd</b>e eres tú.<br><span class=\"hl\">Tú</span> eres nde.",
-                              "n": "Tú eres nde."
+                              "t": "I have a new <b>job</b>.",
+                              "n": "Tengo un nuevo trabajo."
                           },
                           {
-                              "t": "<b>Nd</b>aipóri no hay.<br><span class=\"hl\">No hay</span>.",
-                              "n": "No hay."
+                              "t": "She likes her <b>job</b>!",
+                              "n": "¡A ella le gusta su trabajo!"
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g2_01",
+                      "id": "en_a0_g2_03",
+                      "isLetter": false,
+                      "letter": "W",
+                      "word": "water",
+                      "emoji": "💧",
+                      "phonetic": "/ˈwɔtər/",
+                      "translation": "<b>Water</b> — Y (agua)",
+                      "translations": {
+                          "en": "water",
+                          "gn": "y",
+                          "es": "agua"
+                      },
+                      "examples": [
+                          {
+                              "t": "Drink <b>water</b> every day.",
+                              "n": "Bebe agua todos los días."
+                          },
+                          {
+                              "t": "The <b>water</b> is cold.",
+                              "n": "El agua está fría."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_04",
+                      "isLetter": false,
+                      "letter": "Y",
+                      "word": "yes",
+                      "emoji": "✅",
+                      "phonetic": "/jɛs/",
+                      "translation": "<b>Yes</b> — Sí",
+                      "translations": {
+                          "en": "yes",
+                          "gn": "héẽ",
+                          "es": "sí"
+                      },
+                      "examples": [
+                          {
+                              "t": "Say <b>yes</b> if you agree.",
+                              "n": "Di sí si estás de acuerdo."
+                          },
+                          {
+                              "t": "<b>Yes</b>, I can!",
+                              "n": "¡Sí, puedo!"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_05",
+                      "isLetter": false,
+                      "letter": "TH",
+                      "word": "think",
+                      "emoji": "🤔",
+                      "phonetic": "/θɪŋk/",
+                      "translation": "<b>Think</b> — Pensar",
+                      "translations": {
+                          "en": "think",
+                          "gn": "japysaka",
+                          "es": "pensar"
+                      },
+                      "examples": [
+                          {
+                              "t": "<b>Think</b> before you speak.",
+                              "n": "Piensa antes de hablar."
+                          },
+                          {
+                              "t": "I <b>think</b> it's good.",
+                              "n": "Creo que está bien."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_06",
+                      "isLetter": false,
+                      "letter": "SH",
+                      "word": "shoe",
+                      "emoji": "👟",
+                      "phonetic": "/ʃu/",
+                      "translation": "<b>Shoe</b> — Sapatu",
+                      "translations": {
+                          "en": "shoe",
+                          "gn": "sapatu",
+                          "es": "zapato"
+                      },
+                      "examples": [
+                          {
+                              "t": "Put on your <b>shoe</b>!",
+                              "n": "¡Ponte el zapato!"
+                          },
+                          {
+                              "t": "The <b>shoe</b> is black.",
+                              "n": "El zapato es negro."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g2_07",
                       "isLetter": false,
                       "letter": "CH",
-                      "word": "che",
-                      "emoji": "👤",
-                      "phonetic": "/tʃe/",
-                      "translation": "<b>Che</b>: yo, mí.<br>¡La palabra más común en guaraní!",
+                      "word": "child",
+                      "emoji": "👶",
+                      "phonetic": "/tʃaɪld/",
+                      "translation": "<b>Child</b> — Mitã",
                       "translations": {
-                          "gn": "che",
-                          "es": "yo/mí",
-                          "en": "I/me"
+                          "en": "child",
+                          "gn": "mitã",
+                          "es": "niño"
                       },
                       "examples": [
                           {
-                              "t": "<b>Che</b> aha.<br>Yo voy.",
-                              "n": "Yo voy."
+                              "t": "The <b>child</b> is happy.",
+                              "n": "El niño está feliz."
                           },
                           {
-                              "t": "<b>Che</b> ndaikuaái.<br>Yo no sé.",
-                              "n": "Yo no sé."
-                          }
-                      ]
-                  },
-                  {
-                      "id": "gn_a0_g2_02",
-                      "isLetter": false,
-                      "letter": "ND",
-                      "word": "nde",
-                      "emoji": "👥",
-                      "phonetic": "/ⁿde/",
-                      "translation": "<b>Nde</b>: tú, ti.<br>¡La forma singular de «tú»!",
-                      "translations": {
-                          "gn": "nde",
-                          "es": "tú/ti",
-                          "en": "you (singular)"
-                      },
-                      "examples": [
-                          {
-                              "t": "<b>Nde</b> reju.<br>Tú vienes.",
-                              "n": "Tú vienes."
-                          },
-                          {
-                              "t": "<b>Nde</b> reikuaa.<br>Tú sabes.",
-                              "n": "Tú sabes."
+                              "t": "Every <b>child</b> loves toys.",
+                              "n": "A todo niño le gustan los juguetes."
                           }
                       ]
                   }
               ]
           },
           {
-              "id": "gn_a0_g3",
-              "name": "Primeras palabras",
-              "icon": "💬",
+              "id": "en_a0_g3",
+              "name": "Combinaciones clave",
+              "icon": "🔀",
               "color": "#10b981",
-              "description": "Saludos y palabras esenciales en guaraní",
+              "description": "Grupos de letras con un solo sonido en inglés",
               "reviewFrom": [
-                  "gn_a0_g1",
-                  "gn_a0_g2"
+                  "en_a0_g1",
+                  "en_a0_g2"
               ],
               "cards": [
                   {
-                      "id": "gn_a0_g3_01",
-                      "isLetter": false,
-                      "letter": "mba'e",
-                      "word": "mba'éichapa",
-                      "emoji": "🤔",
-                      "phonetic": "/ᵐbaˈɛjʃapa/",
-                      "translation": "¿Cómo estás? — <i>literalmente «¿cómo es?»</i>",
-                      "translations": {
-                          "gn": "mba'éichapa",
-                          "es": "¿cómo estás?",
-                          "en": "how are you?"
-                      },
+                      "id": "en_a0_g3_L_ph",
+                      "isLetter": true,
+                      "letter": "PH",
+                      "word": "PH",
+                      "emoji": "🔤",
+                      "phonetic": "/f/",
+                      "translation": "La combinación <b>PH</b> suena como la <i>f</i> en guaraní (por ejemplo, <i>fariña</i>). <br>No suena como <b>P</b> + <b>H</b>, ¡solo /f/!",
+                      "mnemonic": "Imagina un teléfono que hace 'ffff' como un susurro para recordar que PH suena como F.",
                       "examples": [
                           {
-                              "t": "<b>Mba'éichapa</b> nde?",
-                              "n": "¿Cómo estás?"
+                              "t": "<b>PH</b>one — El <b>ph</b>one hace 'ffff'. <br>¿Ves la foto en el <b>ph</b>oto?",
+                              "n": "Teléfono — Foto"
                           },
                           {
-                              "t": "<b>Mba'éichapa</b> ko ára?",
-                              "n": "¿Cómo está este día?"
+                              "t": "Ele<b>ph</b>ant — El elefante tiene una trompa larga.",
+                              "n": "Elefante"
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g3_02",
-                      "isLetter": false,
-                      "letter": "porã",
-                      "word": "iporã",
-                      "emoji": "😊",
-                      "phonetic": "/ipoˈɾã/",
-                      "translation": "bien/bueno/hermoso — <i>respuesta a «mba'éichapa»</i>",
-                      "translations": {
-                          "gn": "iporã",
-                          "es": "bien/bueno",
-                          "en": "good/fine"
-                      },
+                      "id": "en_a0_g3_L_gh",
+                      "isLetter": true,
+                      "letter": "GH",
+                      "word": "GH",
+                      "emoji": "🔤",
+                      "phonetic": "/f/ o silencioso",
+                      "translation": "La combinación <b>GH</b> puede ser <i>silenciosa</i> (como en <span class=\"hl\">night</span>) <br>o sonar como /f/ (como en <span class=\"hl\">laugh</span>).",
+                      "mnemonic": "Si GH está al final de una palabra, a veces suena como F, pero a veces no suena. ¡Piensa en un fantasma que a veces hace 'ffff' y a veces no hace ruido!",
                       "examples": [
                           {
-                              "t": "<b>Iporã</b> che!",
-                              "n": "¡Estoy bien!"
+                              "t": "<b>GH</b>ost — El <b>gh</b>ost es silencioso. <br><b>GH</b> = 0 sonido.",
+                              "n": "Fantasma — Silencioso"
                           },
                           {
-                              "t": "<b>Iporã</b> ko tetã.",
-                              "n": "Este país es hermoso."
+                              "t": "Laugh — Ella <b>gh</b> laughs como 'lafff'. <br><b>GH</b> = /f/",
+                              "n": "Reír — /f/"
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g3_03",
-                      "isLetter": false,
-                      "letter": "guyje",
-                      "word": "aguyje",
-                      "emoji": "🙏",
-                      "phonetic": "/aɣuˈɟe/",
-                      "translation": "gracias — <i>similar a «agradezco» en español</i>",
-                      "translations": {
-                          "gn": "aguyje",
-                          "es": "gracias",
-                          "en": "thank you"
-                      },
+                      "id": "en_a0_g3_L_wr",
+                      "isLetter": true,
+                      "letter": "WR",
+                      "word": "WR",
+                      "emoji": "🔤",
+                      "phonetic": "/r/",
+                      "translation": "En <b>WR</b>, la <b>W</b> es <i>silenciosa</i>. <br>Solo suena la <b>R</b>, como en guaraní (por ejemplo, <i>ryru</i>).",
+                      "mnemonic": "Imagina que la W es un niño tímido que se esconde detrás de la R. ¡Solo escuchas la R!",
                       "examples": [
                           {
-                              "t": "<b>Aguyje</b> nde!",
-                              "n": "¡Gracias!"
+                              "t": "<b>WR</b>ite — Yo <b>wr</b>ite con la mano derecha. <br>W = 0 sonido.",
+                              "n": "Escribir — Solo R"
                           },
                           {
-                              "t": "<b>Aguyje</b> por tu ayuda.",
-                              "n": "Gracias por tu ayuda."
+                              "t": "<b>WR</b>ong — Eso está <b>wr</b>ong.",
+                              "n": "Equivocado"
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g3_04",
-                      "isLetter": false,
-                      "letter": "jára",
-                      "word": "ñandejára",
-                      "emoji": "✝️",
-                      "phonetic": "/ɲãⁿdeˈʒaɾa/",
-                      "translation": "Dios/señor — <i>literalmente «nuestro dueño»</i>",
-                      "translations": {
-                          "gn": "ñandejára",
-                          "es": "Dios/señor",
-                          "en": "God/lord"
-                      },
+                      "id": "en_a0_g3_L_kn",
+                      "isLetter": true,
+                      "letter": "KN",
+                      "word": "KN",
+                      "emoji": "🔤",
+                      "phonetic": "/n/",
+                      "translation": "En <b>KN</b>, la <b>K</b> es <i>silenciosa</i>. <br>Solo suena la <b>N</b>, como en guaraní (por ejemplo, <i>ñande</i>).",
+                      "mnemonic": "Imagina que la K es un árbol que se cae y solo queda la N. ¡Solo escuchas la N!",
                       "examples": [
                           {
-                              "t": "<b>Ñandejára</b> oipytyvõ.",
-                              "n": "Dios ayuda."
+                              "t": "<b>KN</b>ow — Yo <b>kn</b>ow la respuesta. <br>K = 0 sonido.",
+                              "n": "Saber — Solo N"
                           },
                           {
-                              "t": "Che roguereko <b>ñandejára</b> rehe.",
-                              "n": "Yo creo en Dios."
+                              "t": "<b>KN</b>ife — El <b>kn</b>ife corta.",
+                              "n": "Cuchillo"
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g3_05",
-                      "isLetter": false,
-                      "letter": "ko'ẽ",
-                      "word": "ko'ẽmbota",
-                      "emoji": "🌅",
-                      "phonetic": "/koˈẽᵐbota/",
-                      "translation": "buenos días — <i>literalmente «cuando amanece»</i>",
-                      "translations": {
-                          "gn": "ko'ẽmbota",
-                          "es": "buenos días",
-                          "en": "good morning"
-                      },
+                      "id": "en_a0_g3_L_qu",
+                      "isLetter": true,
+                      "letter": "QU",
+                      "word": "QU",
+                      "emoji": "🔤",
+                      "phonetic": "/kw/",
+                      "translation": "La combinación <b>QU</b> suena como <i>ku</i> en guaraní (por ejemplo, <i>kue</i>). <br>Siempre suena /kw/, nunca /k/ sola.",
+                      "mnemonic": "Imagina que la Q es una reina que siempre lleva su U como corona. ¡Juntas suenan 'ku'!",
                       "examples": [
                           {
-                              "t": "<b>Ko'ẽmbota</b> nde!",
-                              "n": "¡Buenos días!"
+                              "t": "<b>QU</b>een — La <b>qu</b>een es una reina.",
+                              "n": "Reina — /kw/"
                           },
                           {
-                              "t": "<b>Ko'ẽmbota</b>, che sy.",
-                              "n": "Buenos días, mamá."
+                              "t": "<b>QU</b>ick — El perro es <b>qu</b>ick.",
+                              "n": "Rápido"
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g3_06",
+                      "id": "en_a0_g3_L_ck",
+                      "isLetter": true,
+                      "letter": "CK",
+                      "word": "CK",
+                      "emoji": "🔤",
+                      "phonetic": "/k/",
+                      "translation": "La combinación <b>CK</b> suena como <i>k</i> en guaraní (por ejemplo, <i>kapi'i</i>). <br>Siempre va al final de una sílaba.",
+                      "mnemonic": "Imagina que la C y la K son dos amigos que siempre van juntos y suenan como una sola K fuerte.",
+                      "examples": [
+                          {
+                              "t": "Ba<b>ck</b> — Mi ba<b>ck</b> duele.",
+                              "n": "Espalda — /k/"
+                          },
+                          {
+                              "t": "Ki<b>ck</b> — Él ki<b>ck</b>s la pelota.",
+                              "n": "Patear"
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_01",
                       "isLetter": false,
-                      "letter": "pytũ",
-                      "word": "pytũmba",
+                      "letter": "PH",
+                      "word": "phone",
+                      "emoji": "📞",
+                      "phonetic": "/foʊn/",
+                      "translation": "Teléfono — La <b>ph</b> suena como <i>f</i>.",
+                      "translations": {
+                          "en": "phone",
+                          "gn": "pumbyry",
+                          "es": "teléfono"
+                      },
+                      "examples": [
+                          {
+                              "t": "I talk on the <b>phone</b>.",
+                              "n": "Añe'ẽ pumbyry rehe."
+                          },
+                          {
+                              "t": "The <b>phone</b> is ringing.",
+                              "n": "Oñe'ẽ pumbyry."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_02",
+                      "isLetter": false,
+                      "letter": "GH",
+                      "word": "night",
                       "emoji": "🌙",
-                      "phonetic": "/pɨˈtũᵐba/",
-                      "translation": "buenas noches — <i>literalmente «cuando oscurece»</i>",
+                      "phonetic": "/naɪt/",
+                      "translation": "Noche — La <b>gh</b> es <i>silenciosa</i> aquí.",
                       "translations": {
-                          "gn": "pytũmba",
-                          "es": "buenas noches",
-                          "en": "good evening/night"
+                          "en": "night",
+                          "gn": "pyhare",
+                          "es": "noche"
                       },
                       "examples": [
                           {
-                              "t": "<b>Pytũmba</b> nde!",
-                              "n": "¡Buenas noches!"
+                              "t": "It is <b>night</b> time.",
+                              "n": "Ko pyhare."
                           },
                           {
-                              "t": "<b>Pytũmba</b>, che ru.",
-                              "n": "Buenas noches, papá."
+                              "t": "Good <b>night</b>!",
+                              "n": "Jajohecha pyhare!"
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g3_07",
+                      "id": "en_a0_g3_03",
                       "isLetter": false,
-                      "letter": "ndaipóri",
-                      "word": "ndaipóri mba'e",
-                      "emoji": "🤝",
-                      "phonetic": "/ⁿdaiˈpoɾi ᵐbaˈe/",
-                      "translation": "de nada — <i>literalmente «no hay nada»</i>",
+                      "letter": "WR",
+                      "word": "write",
+                      "emoji": "✍️",
+                      "phonetic": "/raɪt/",
+                      "translation": "Escribir — La <b>w</b> es <i>silenciosa</i> en <b>wr</b>ite.",
                       "translations": {
-                          "gn": "ndaipóri mba'e",
-                          "es": "de nada",
-                          "en": "you're welcome"
+                          "en": "write",
+                          "gn": "hai",
+                          "es": "escribir"
                       },
                       "examples": [
                           {
-                              "t": "<b>Ndaipóri mba'e</b>!",
-                              "n": "¡De nada!"
+                              "t": "I <b>write</b> a letter.",
+                              "n": "Ahai kuatia."
                           },
                           {
-                              "t": "Aguyje. — <b>Ndaipóri mba'e</b>.",
-                              "n": "Gracias. — De nada."
+                              "t": "She can <b>write</b> well.",
+                              "n": "Ha'e oikuaa hai porã."
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g3_08",
+                      "id": "en_a0_g3_04",
                       "isLetter": false,
-                      "letter": "hayhu",
-                      "word": "rohayhu",
-                      "emoji": "❤️",
-                      "phonetic": "/ɾoˈhajhu/",
-                      "translation": "te amo — <i>literalmente «te quiero bien»</i>",
+                      "letter": "KN",
+                      "word": "know",
+                      "emoji": "🧠",
+                      "phonetic": "/noʊ/",
+                      "translation": "Saber — La <b>k</b> es <i>silenciosa</i> en <b>kn</b>ow.",
                       "translations": {
-                          "gn": "rohayhu",
-                          "es": "te amo",
-                          "en": "I love you"
+                          "en": "know",
+                          "gn": "kuaa",
+                          "es": "saber"
                       },
                       "examples": [
                           {
-                              "t": "<b>Rohayhu</b> nde!",
-                              "n": "¡Te amo!"
+                              "t": "I <b>know</b> your name.",
+                              "n": "Aikuaa nderéra."
                           },
                           {
-                              "t": "<b>Rohayhu</b>, che memby.",
-                              "n": "Te amo, hijo mío."
+                              "t": "Do you <b>know</b> the answer?",
+                              "n": "Reikuaa peteĩ tembiapokue?"
                           }
                       ]
                   },
                   {
-                      "id": "gn_a0_g3_d01",
+                      "id": "en_a0_g3_05",
                       "isLetter": false,
-                      "letter": "diálogo",
-                      "word": "Encuentro inicial",
-                      "emoji": "👋",
-                      "phonetic": "",
-                      "translation": "Diálogo: Dos personas se conocen por primera vez",
+                      "letter": "QU",
+                      "word": "queen",
+                      "emoji": "👑",
+                      "phonetic": "/kwiːn/",
+                      "translation": "<b>QU</b>een — La <b>qu</b> suena como <i>ku</i> en guaraní.",
                       "translations": {
-                          "gn": "Ñomongeta",
-                          "es": "Diálogo",
-                          "en": "Dialogue"
+                          "en": "queen",
+                          "gn": "mburuvicha kuña",
+                          "es": "reina"
                       },
                       "examples": [
                           {
-                              "t": "A: <b>Ko'ẽmbota</b>! Mba'éichapa nde?",
-                              "n": "A: ¡Buenos días! ¿Cómo estás?"
+                              "t": "The <b>queen</b> is kind.",
+                              "n": "Mburuvicha kuña iporã."
                           },
                           {
-                              "t": "B: <b>Iporã</b>, che. Ha nde?",
-                              "n": "B: Bien, yo. ¿Y tú?"
+                              "t": "I see the <b>queen</b>.",
+                              "n": "Ahecha mburuvicha kuñáre."
+                          }
+                      ]
+                  },
+                  {
+                      "id": "en_a0_g3_06",
+                      "isLetter": false,
+                      "letter": "CK",
+                      "word": "back",
+                      "emoji": "🔙",
+                      "phonetic": "/bæk/",
+                      "translation": "Espalda — La <b>ck</b> suena como <i>k</i> al final.",
+                      "translations": {
+                          "en": "back",
+                          "gn": "apyka",
+                          "es": "espalda"
+                      },
+                      "examples": [
+                          {
+                              "t": "My <b>back</b> hurts.",
+                              "n": "Che apyka rasy."
                           },
                           {
-                              "t": "A: <b>Iporã</b> avei. Aguyje!",
-                              "n": "A: Bien también. ¡Gracias!"
-                          },
-                          {
-                              "t": "B: <b>Ndaipóri mba'e</b>.",
-                              "n": "B: De nada."
-                          },
-                          {
-                              "t": "A: Ñandejára oipytyvõ!",
-                              "n": "A: ¡Que Dios te ayude!"
-                          },
-                          {
-                              "t": "B: <b>Pytũmba</b>!",
-                              "n": "B: ¡Buenas noches!"
+                              "t": "Turn <b>back</b> now.",
+                              "n": "Ejevy ko'ág̃a."
                           }
                       ]
                   }
