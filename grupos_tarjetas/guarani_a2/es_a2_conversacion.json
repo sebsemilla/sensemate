@@ -1,0 +1,770 @@
+[
+  {
+    "id": "es_A2_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Mba’éichapa ndaipóri nderasy / Cómo te sientes",
+    "bridge": "En guaraní, a diferencia del español, no se usa el verbo 'tener' para expresar dolencias físicas o emocionales. En su lugar, se emplea el verbo 'ndaipóri' (no haber) junto a la parte del cuerpo afectada o la emoción, lo que puede confundir a los hispanohablantes acostumbrados a estructuras como 'tengo dolor de cabeza'. Además, el guaraní omite artículos y usa partículas como 'che' (yo) o 'nde' (tú) para marcar el sujeto, algo que no ocurre en español donde el sujeto suele ser explícito.",
+    "rule": "Para expresar dolencias o estados físicos/emocionales en guaraní, se sigue la estructura: [Pronombre + ndaipóri + parte del cuerpo/emoción]. Los pronombres personales son: che (yo), nde (tú), ha’e (él/ella), ñande (nosotros), ore (nosotros excl.), peẽ (ustedes), ha’ekuéra (ellos). Ejemplos: 'Che ndaipóri che py' (No tengo pie), 'Nde ndaipóri nderasy' (No tienes dolor). Para preguntar '¿Cómo estás?', se usa 'Mba’éichapa nde?'. En casos de dolor específico, se añade el sufijo '-mi' para enfatizar: 'Che pyami' (Me duele el pie).",
+    "concept_examples": [
+      {
+        "text": "Che ndaipóri che py.",
+        "translation": "No tengo pie / Me duele el pie.",
+        "phonetic": "/tʃe ndaɪˈpoɾi tʃe pɨ/"
+      },
+      {
+        "text": "Nde ndaipóri nderasy.",
+        "translation": "Tú no tienes dolor / Te duele algo.",
+        "phonetic": "/nde ndaɪˈpoɾi ndeɾaˈsɨ/"
+      },
+      {
+        "text": "Ha’e ndaipóri iñakã.",
+        "translation": "Él/Ella no tiene cabeza / Le duele la cabeza.",
+        "phonetic": "/haˈʔe ndaɪˈpoɾi iɲaˈkã/"
+      },
+      {
+        "text": "Peẽ ndaipóri pendeasy?",
+        "translation": "¿Ustedes no tienen dolor? / ¿Les duele algo?",
+        "phonetic": "/peˈʔẽ ndaɪˈpoɾi pendeaˈsɨ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che tengo che py.",
+      "correct": "Che ndaipóri che py.",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque el hispanohablante transfiere la estructura 'tener + sustantivo' del español ('tengo dolor de cabeza') al guaraní. En guaraní, se usa 'ndaipóri' (no haber) para expresar ausencia de algo, incluyendo dolencias. La frase correcta usa el pronombre 'che' + 'ndaipóri' + la parte del cuerpo afectada."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mba’éichapa nde?",
+        "translation": "¿Cómo estás?",
+        "examples": [
+          {
+            "original": "Mba’éichapa nde?",
+            "phonetic": "/mbaˈʔeɪtʃapa nde/",
+            "translation": "¿Cómo estás?",
+            "note": "Fórmula básica para preguntar por el estado de alguien. Respuesta típica: 'Che ndaipóri' (Estoy bien) o 'Che ndaipóri che py' (Me duele el pie)."
+          },
+          {
+            "original": "Che ndaipóri.",
+            "phonetic": "/tʃe ndaɪˈpoɾi/",
+            "translation": "Estoy bien / No tengo nada.",
+            "note": "Respuesta neutra para indicar que no hay dolencias. Equivalente a 'Estoy bien' en español."
+          },
+          {
+            "original": "Nde mba’éichapa?",
+            "phonetic": "/nde mbaˈʔeɪtʃapa/",
+            "translation": "¿Y tú cómo estás?",
+            "note": "Variante informal para preguntar a alguien después de que te pregunten a ti."
+          },
+          {
+            "original": "Che ndaipóri che pyami.",
+            "phonetic": "/tʃe ndaɪˈpoɾi tʃe pɨˈmi/",
+            "translation": "Me duele un poco el pie.",
+            "note": "Uso del sufijo '-mi' para indicar dolor leve. Comparar con 'Che pyami' (Me duele el pie) vs. 'Che ndaipóri che py' (No tengo pie)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nde asy ha’e?",
+        "translation": "¿Te duele algo?",
+        "examples": [
+          {
+            "original": "Nde asy?",
+            "phonetic": "/nde aˈsɨ/",
+            "translation": "¿Te duele?",
+            "note": "Pregunta directa para confirmar si hay dolor. Respuesta esperada: 'Ha’e' (Sí) o 'Ndaipóri' (No)."
+          },
+          {
+            "original": "Nde ndaipóri nderasy?",
+            "phonetic": "/nde ndaɪˈpoɾi ndeɾaˈsɨ/",
+            "translation": "¿No tienes dolor? / ¿No te duele nada?",
+            "note": "Negación de la pregunta anterior. Usa 'ndaipóri' para negar la existencia de dolor."
+          },
+          {
+            "original": "Che asy che akãngue.",
+            "phonetic": "/tʃe aˈsɨ tʃe aˈkãŋɡwe/",
+            "translation": "Me duelen los oídos.",
+            "note": "Uso de plural '-gue' para indicar que varios oídos están afectados. Comparar con 'Che akãngue' (mis oídos) vs. 'Che akã' (mi oído)."
+          },
+          {
+            "original": "Peẽ ndaipóri pendeasy pendeakãngue?",
+            "phonetic": "/peˈʔẽ ndaɪˈpoɾi pendeaˈsɨ pendeaˈkãŋɡwe/",
+            "translation": "¿Ustedes no tienen dolor en los oídos?",
+            "note": "Frase para preguntar en plural formal. Usa 'peẽ' (ustedes) + 'pende-' (pronombre posesivo) + 'asy' (dolor)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Aguata che sy ha nde?",
+        "translation": "Voy a llamar a mi mamá y a ti?",
+        "examples": [
+          {
+            "original": "Aguata che sy ha nde?",
+            "phonetic": "/aɣwaˈta tʃe sɨ ha nde/",
+            "translation": "Voy a llamar a mi mamá y a ti?",
+            "note": "Frase para expresar la intención de buscar ayuda. 'Aguata' (voy a llamar) + 'che sy' (mi mamá) + 'ha nde' (y a ti)."
+          },
+          {
+            "original": "Che ndaipóri che py ha che asy che akã.",
+            "phonetic": "/tʃe ndaɪˈpoɾi tʃe pɨ ha tʃe aˈsɨ tʃe aˈkã/",
+            "translation": "No tengo pie y me duele la cabeza.",
+            "note": "Frase para describir múltiples dolencias. Usa 'ha' (y) para conectar síntomas. Comparar con el español 'No tengo pie y me duele la cabeza'."
+          },
+          {
+            "original": "Nde mba’éichapa ndeasy? Aguata che sy ha nde.",
+            "phonetic": "/nde mbaˈʔeɪtʃapa ndeaˈsɨ aɣwaˈta tʃe sɨ ha nde/",
+            "translation": "¿Cómo está tu dolor? Voy a llamar a mi mamá y a ti.",
+            "note": "Frase para ofrecer ayuda. Combina pregunta sobre el dolor ('mba’éichapa ndeasy?') con una acción ('aguata che sy ha nde')."
+          },
+          {
+            "original": "Che ndaipóri che py ha che asy che akãngue.",
+            "phonetic": "/tʃe ndaɪˈpoɾi tʃe pɨ ha tʃe aˈsɨ tʃe aˈkãŋɡwe/",
+            "translation": "No tengo pie y me duelen los oídos.",
+            "note": "Variante de la frase anterior con plural en 'akãngue' (oídos). Destaca la concordancia entre sujeto y objeto."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏥",
+    "phonetic": "",
+    "translations": {
+      "es": "En el médico"
+    }
+  },
+  {
+    "id": "es_A2_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Mba’éichapa oñembo’ehárapa oñondive / Cómo reservar alojamiento",
+    "bridge": "En español, para reservar alojamiento solemos usar estructuras como 'Quiero reservar una habitación' o '¿Tienen habitaciones disponibles?'. En guaraní, la construcción es más directa y suele incluir verbos como 'ñembo’ehára' (reservar) o 'ñongatu' (alquilar), pero con un orden diferente. Además, el guaraní usa sufijos verbales para indicar tiempo y persona de manera más compacta que el español, lo que puede generar confusión si intentamos traducir literalmente. Por ejemplo, en español decimos 'Voy a reservar', pero en guaraní se dice 'Añembo’ehára' (yo reservo), sin necesidad de un verbo auxiliar.",
+    "rule": "Para reservar alojamiento en guaraní, se usan principalmente dos verbos: 'ñembo’ehára' (reservar) y 'ñongatu' (alquilar). La estructura básica es: [Pronombre + verbo en tiempo presente + objeto + complemento]. \n\n1. Verbos principales:\n   - 'Añembo’ehára' (yo reservo), 'Oñembo’ehára' (él/ella reserva), 'Jañembo’ehára' (nosotros reservamos).\n   - 'Añongatu' (yo alquilo), 'Oñongatu' (él/ella alquila), 'Jañongatu' (nosotros alquilamos).\n\n2. Preguntas comunes:\n   - '¿Mba’éichapa oñembo’ehárapa oñondive?' (¿Cómo se reserva alojamiento?)\n   - '¿Mba’éichapa oñongatúpa oñondive?' (¿Cómo se alquila alojamiento?)\n   - '¿Mba’épa oñondive oikóva?' (¿Qué alojamiento hay disponible?)\n\n3. Frases útiles:\n   - 'Añembo’ehára che roga' (Reservo mi casa).\n   - 'Oñongatu nde roga' (Alquilas tu casa).\n   - '¿Mba’éichapa oñembo’ehára oñondive?' (¿Cómo se hace la reserva?)\n\n4. Excepciones:\n   - Para preguntar por disponibilidad, se usa '¿Mba’épa oñondive oikóva?' (¿Qué alojamiento hay disponible?).\n   - Para indicar el tipo de alojamiento, se usa 'che roga' (mi casa), 'pe roga' (tu casa), 'ha’e roga' (su casa), 'ñande roga' (nuestra casa).",
+    "concept_examples": [
+      {
+        "text": "Añembo’ehára che roga 2025-pe mborayhu 15-pe.",
+        "translation": "Reservo mi casa para el 15 de febrero de 2025.",
+        "phonetic": "aˈɲẽmbo.eˈhaɾa t͡ʃe ˈɾoɣa 2025 pe mboɾaˈju 15 pe"
+      },
+      {
+        "text": "¿Mba’éichapa oñongatúpa oñondive pe roga?",
+        "translation": "¿Cómo se alquila esa casa?",
+        "phonetic": "maˈpe it͡ʃaˈpa oɲoŋaˈtu pa oɲonˈdi ve pe ˈɾoɣa"
+      },
+      {
+        "text": "Jañembo’ehára ñande roga 2025-pe mborayhu 10-pe.",
+        "translation": "Reservamos nuestra casa para el 10 de febrero de 2025.",
+        "phonetic": "haɲẽmbo.eˈhaɾa ɲanˈde ˈɾoɣa 2025 pe mboɾaˈju 10 pe"
+      },
+      {
+        "text": "Oñongatu nde roga 2025-pe mborayhu 20-pe.",
+        "translation": "Alquilas tu casa para el 20 de febrero de 2025.",
+        "phonetic": "oɲoŋaˈtu nde ˈɾoɣa 2025 pe mboɾaˈju 20 pe"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quiero reservar una casa para el 15 de febrero.",
+      "correct": "Añembo’ehára che roga 2025-pe mborayhu 15-pe.",
+      "correct_alt": "¿Mba’éichapa oñembo’ehára oñondive che roga 2025-pe mborayhu 15-pe?",
+      "explanation": "La frase en español usa una estructura con verbo auxiliar ('quiero') y artículo ('una casa'), mientras que en guaraní se omite el artículo y se usa el sufijo '-pe' para indicar el tiempo. Además, el guaraní no requiere un verbo auxiliar para expresar intención en este contexto, ya que el sufijo verbal '-ra' en 'añembo’ehára' ya indica acción futura o intención. La traducción literal de 'quiero reservar' sería redundante en guaraní."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mba’éichapa oñembo’ehára",
+        "translation": "Cómo reservar",
+        "examples": [
+          {
+            "original": "Añembo’ehára che roga.",
+            "phonetic": "aˈɲẽmbo.eˈhaɾa t͡ʃe ˈɾoɣa",
+            "translation": "Reservo mi casa.",
+            "note": "Introduce el verbo 'ñembo’ehára' (reservar) y la estructura básica con pronombre personal."
+          },
+          {
+            "original": "Oñembo’ehára nde roga.",
+            "phonetic": "oɲẽmbo.eˈhaɾa nde ˈɾoɣa",
+            "translation": "Reservas tu casa.",
+            "note": "Muestra la conjugación del verbo para 'tú' (nde) y refuerza el uso de pronombres."
+          },
+          {
+            "original": "¿Mba’éichapa oñembo’ehára oñondive?",
+            "phonetic": "maˈpe it͡ʃaˈpa oɲẽmbo.eˈhaɾa oɲonˈdi ve",
+            "translation": "¿Cómo se reserva alojamiento?",
+            "note": "Presenta la pregunta básica para iniciar una conversación sobre reservas."
+          },
+          {
+            "original": "Jañembo’ehára ñande roga.",
+            "phonetic": "haɲẽmbo.eˈhaɾa ɲanˈde ˈɾoɣa",
+            "translation": "Reservamos nuestra casa.",
+            "note": "Introduce la conjugación para 'nosotros' (ñande) y refuerza el uso de pronombres."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mba’éichapa oñongatu",
+        "translation": "Cómo alquilar",
+        "examples": [
+          {
+            "original": "Añongatu che roga.",
+            "phonetic": "aɲoŋaˈtu t͡ʃe ˈɾoɣa",
+            "translation": "Alquilo mi casa.",
+            "note": "Presenta el verbo 'ñongatu' (alquilar) y su conjugación para 'yo'."
+          },
+          {
+            "original": "Oñongatu pe roga.",
+            "phonetic": "oɲoŋaˈtu pe ˈɾoɣa",
+            "translation": "Alquila esa casa.",
+            "note": "Muestra la conjugación para 'él/ella' (ha’e) y el uso de 'pe' para indicar 'ese/esa'."
+          },
+          {
+            "original": "¿Mba’éichapa oñongatúpa oñondive?",
+            "phonetic": "maˈpe it͡ʃaˈpa oɲoŋaˈtu pa oɲonˈdi ve",
+            "translation": "¿Cómo se alquila alojamiento?",
+            "note": "Pregunta clave para iniciar una conversación sobre alquileres."
+          },
+          {
+            "original": "Jañongatu ñande roga.",
+            "phonetic": "haɲoŋaˈtu ɲanˈde ˈɾoɣa",
+            "translation": "Alquilamos nuestra casa.",
+            "note": "Conjuga el verbo para 'nosotros' (ñande) y refuerza el uso de pronombres."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mba’épa oñondive oikóva",
+        "translation": "Qué alojamiento hay disponible",
+        "examples": [
+          {
+            "original": "¿Mba’épa oñondive oikóva?",
+            "phonetic": "maˈpe pa oɲonˈdi ve oiˈkova",
+            "translation": "¿Qué alojamiento hay disponible?",
+            "note": "Pregunta básica para preguntar por disponibilidad de alojamiento."
+          },
+          {
+            "original": "Pe roga oikóva 2025-pe mborayhu 15-pe.",
+            "phonetic": "pe ˈɾoɣa oiˈkova 2025 pe mboɾaˈju 15 pe",
+            "translation": "Esa casa está disponible para el 15 de febrero de 2025.",
+            "note": "Respuesta afirmativa con estructura 'oikóva' (está disponible) y tiempo indicado con '-pe'."
+          },
+          {
+            "original": "¿Mba’éichapa oñembo’ehára oñondive pe roga?",
+            "phonetic": "maˈpe it͡ʃaˈpa oɲẽmbo.eˈhaɾa oɲonˈdi ve pe ˈɾoɣa",
+            "translation": "¿Cómo se reserva esa casa?",
+            "note": "Combina pregunta sobre disponibilidad con pregunta sobre el proceso de reserva."
+          },
+          {
+            "original": "Añembo’ehára che roga 2025-pe mborayhu 10-pe 2025-pe.",
+            "phonetic": "aˈɲẽmbo.eˈhaɾa t͡ʃe ˈɾoɣa 2025 pe mboɾaˈju 10 pe 2025 pe",
+            "translation": "Reservo mi casa para el 10 de febrero de 2025.",
+            "note": "Frase completa con verbo de reserva, pronombre y tiempo indicado con '-pe'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "es": "Reservar alojamiento"
+    }
+  },
+  {
+    "id": "es_A2_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Mba’éichapa ojejapo hérava kuéra / Cómo se hace para cambiar dinero",
+    "bridge": "En español, para pedir un servicio en el banco usamos estructuras como 'Quiero cambiar dinero' o 'Necesito hacer un depósito'. En guaraní, la construcción es más directa y suele omitir el verbo 'hacer' (héra). Los hablantes de español pueden caer en el error de traducir literalmente 'Quiero hacer un cambio' como *'Ahecháicha ojejapo hérava'*, pero en guaraní se usa *'Ahecháicha ojejapo hérava'* (incorrecto) en lugar de la forma natural *'Ahecháicha ojejapo hérava'* (correcto: 'Ahecháicha ojejapo hérava kuéra'). La clave está en usar el verbo 'jejapo' (hacer) de manera más flexible y entender que el guaraní prioriza la acción sobre la estructura gramatical rígida del español.",
+    "rule": "1. **Estructura básica para solicitar servicios en el banco**: Se usa el verbo 'jejapo' (hacer) seguido del objeto del servicio. La forma más común es: *'Ahecháicha ojejapo [objeto]'* (Quiero que se haga [objeto]). Ejemplos: \n   - *'Ahecháicha ojejapo hérava'* (Quiero que se haga un cambio).\n   - *'Ahecháicha ojejapo tembiapo'* (Quiero que se haga un trámite).\n   - *'Ahecháicha ojejapo tembiapo kuéra'* (Quiero que se hagan los trámites).\n\n2. **Uso de 'kuéra' para plural**: Cuando el objeto es plural, se añade 'kuéra' al final. Ejemplo: *'hérava kuéra'* (cambios) vs. *'hérava'* (cambio).\n\n3. **Alternativas sin 'jejapo'**: En contextos informales, se puede omitir 'jejapo' y usar directamente el verbo de acción. Ejemplo: *'Ahecháicha hérava'* (Quiero cambiar [dinero]).\n\n4. **Preguntas sobre servicios**: Para preguntar, se usa *'Mba’éichapa ojejapo [objeto]?'* (¿Cómo se hace [objeto]?). Ejemplo: *'Mba’éichapa ojejapo hérava?'* (¿Cómo se hace un cambio?).\n\n5. **Excepciones**: Algunos servicios tienen verbos específicos, como *'mboyke'* (depositar) o *'jogua'* (comprar). Ejemplo: *'Ahecháicha mboyke che pyahu'* (Quiero depositar mi sueldo).",
+    "concept_examples": [
+      {
+        "text": "Ahecháicha ojejapo hérava che pyahu.",
+        "translation": "Quiero que me cambien mi dinero.",
+        "phonetic": "a.he.ˈt͡ʃaː.i.t͡ʃa o.he.ˈha.po ˈhe.ɾa.βa t͡ʃe ˈpja.ʊ̯"
+      },
+      {
+        "text": "Mba’éichapa ojejapo tembiapo kuéra?",
+        "translation": "¿Cómo se hacen los trámites?",
+        "phonetic": "mba.ˈe.i.t͡ʃa.pa o.he.ˈha.po tem.bja.ˈpo ku.ˈe.ɾa"
+      },
+      {
+        "text": "Ahecháicha ojejapo che tembiapo rehe.",
+        "translation": "Quiero que se haga mi trámite.",
+        "phonetic": "a.he.ˈt͡ʃaː.i.t͡ʃa o.he.ˈha.po t͡ʃe tem.bja.ˈpo he.ˈhe"
+      },
+      {
+        "text": "Mba’éichapa ojejapo che pyahu che tembiapo rehe?",
+        "translation": "¿Cómo puedo hacer mi trámite con mi dinero?",
+        "phonetic": "mba.ˈe.i.t͡ʃa.pa o.he.ˈha.po t͡ʃe ˈpja.ʊ̯ t͡ʃe tem.bja.ˈpo he.ˈhe"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quiero hacer un cambio de dinero.",
+      "correct": "Ahecháicha ojejapo hérava che pyahu.",
+      "correct_alt": "Ahecháicha hérava che pyahu.",
+      "explanation": "La frase en español usa 'hacer' como verbo principal, lo que lleva a una traducción literal incorrecta como *'Ahecháicha ojejapo hérava che pyahu'*. En guaraní, 'jejapo' (hacer) es un verbo de apoyo que no siempre requiere traducción directa. La forma correcta omite 'jejapo' o lo usa de manera más flexible. Además, en guaraní se prioriza la acción ('cambiar') sobre la estructura gramatical rígida del español."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mba’éichapa ojejapo hérava",
+        "translation": "Cómo hacer un cambio de dinero",
+        "examples": [
+          {
+            "original": "Ahecháicha ojejapo hérava.",
+            "phonetic": "a.he.ˈt͡ʃaː.i.t͡ʃa o.he.ˈha.po ˈhe.ɾa.βa",
+            "translation": "Quiero que me cambien dinero.",
+            "note": "Frase básica para solicitar un cambio. Usa 'jejapo' como verbo de apoyo."
+          },
+          {
+            "original": "Mba’éichapa ojejapo hérava?",
+            "phonetic": "mba.ˈe.i.t͡ʃa.pa o.he.ˈha.po ˈhe.ɾa.βa",
+            "translation": "¿Cómo se hace un cambio?",
+            "note": "Pregunta estándar para pedir instrucciones."
+          },
+          {
+            "original": "Ahecháicha ojejapo hérava che pyahu.",
+            "phonetic": "a.he.ˈt͡ʃaː.i.t͡ʃa o.he.ˈha.po ˈhe.ɾa.βa t͡ʃe ˈpja.ʊ̯",
+            "translation": "Quiero que me cambien mi dinero.",
+            "note": "Incluye el posesivo 'che' para especificar 'mi dinero'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Tembiapo kuéra ojejapo",
+        "translation": "Hacer trámites bancarios",
+        "examples": [
+          {
+            "original": "Ahecháicha ojejapo tembiapo che rehe.",
+            "phonetic": "a.he.ˈt͡ʃaː.i.t͡ʃa o.he.ˈha.po tem.bja.ˈpo t͡ʃe he.ˈhe",
+            "translation": "Quiero que se haga mi trámite.",
+            "note": "Usa 'che rehe' para indicar 'a mi nombre' o 'para mí'."
+          },
+          {
+            "original": "Mba’éichapa ojejapo tembiapo kuéra?",
+            "phonetic": "mba.ˈe.i.t͡ʃa.pa o.he.ˈha.po tem.bja.ˈpo ku.ˈe.ɾa",
+            "translation": "¿Cómo se hacen los trámites?",
+            "note": "Pluraliza 'tembiapo' con 'kuéra' para referirse a múltiples trámites."
+          },
+          {
+            "original": "Ahecháicha ojejapo che tembiapo rehe che pyahu.",
+            "phonetic": "a.he.ˈt͡ʃaː.i.t͡ʃa o.he.ˈha.po t͡ʃe tem.bja.ˈpo he.ˈhe t͡ʃe ˈpja.ʊ̯",
+            "translation": "Quiero que se haga mi trámite con mi dinero.",
+            "note": "Combina posesivos y objetos para mayor precisión."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mba’éichapa ojejapo che tembiapo rehe che pyahu",
+        "translation": "Cómo hacer trámites con mi dinero",
+        "examples": [
+          {
+            "original": "Mba’éichapa ojejapo che tembiapo rehe che pyahu che pyahu?",
+            "phonetic": "mba.ˈe.i.t͡ʃa.pa o.he.ˈha.po t͡ʃe tem.bja.ˈpo he.ˈhe t͡ʃe ˈpja.ʊ̯ t͡ʃe ˈpja.ʊ̯",
+            "translation": "¿Cómo puedo hacer mi trámite con mi dinero?",
+            "note": "Repetición de 'che pyahu' para enfatizar 'mi dinero'."
+          },
+          {
+            "original": "Ahecháicha ojejapo che tembiapo rehe che pyahu, ha upeichaite.",
+            "phonetic": "a.he.ˈt͡ʃaː.i.t͡ʃa o.he.ˈha.po t͡ʃe tem.bja.ˈpo he.ˈhe t͡ʃe ˈpja.ʊ̯ a.u.pej.ˈt͡ʃaːi.te",
+            "translation": "Quiero que se haga mi trámite con mi dinero, así nomás.",
+            "note": "Usa 'ha upeichaite' para indicar 'así nomás' o 'sin complicaciones'."
+          },
+          {
+            "original": "Mba’éichapa ojejapo che tembiapo rehe che pyahu che tembiapo?",
+            "phonetic": "mba.ˈe.i.t͡ʃa.pa o.he.ˈha.po t͡ʃe tem.bja.ˈpo he.ˈhe t͡ʃe ˈpja.ʊ̯ t͡ʃe tem.bja.ˈpo",
+            "translation": "¿Cómo hago mi trámite con mi dinero?",
+            "note": "Omite 'jejapo' para mayor naturalidad en contextos informales."
+          },
+          {
+            "original": "Ahecháicha mboyke che pyahu che tembiapo rehe.",
+            "phonetic": "a.he.ˈt͡ʃaː.i.t͡ʃa mboj.ˈke t͡ʃe ˈpja.ʊ̯ t͡ʃe tem.bja.ˈpo he.ˈhe",
+            "translation": "Quiero depositar mi dinero en mi trámite.",
+            "note": "Usa 'mboyke' (depositar) como verbo específico para servicios bancarios."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏦",
+    "phonetic": "",
+    "translations": {
+      "es": "En el banco o cambio de moneda"
+    }
+  },
+  {
+    "id": "es_A2_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Ñe’ẽ ha mba’e oñeikotevẽ haguãicha mba’éichapa oñembo’e",
+    "bridge": "En español, las preguntas de entrevista suelen estructurarse con verbos conjugados en presente o pasado simple (ej. \"¿Qué experiencia tiene?\"). En guaraní, el tiempo verbal no se marca con conjugaciones complejas, sino con partículas como *-va’ekue* (pasado) o *-ta* (futuro) añadidas al verbo. Además, el guaraní omite el sujeto explícito cuando es claro por el contexto, lo que puede confundir a hispanohablantes acostumbrados a frases completas. Por ejemplo, en español diríamos \"Yo trabajo en una empresa\", pero en guaraní bastaría con \"Aiko empresa-pe\" (lit. \"Trabajo en empresa\"). La clave está en entender que el guaraní prioriza la economía lingüística y el contexto sobre la estructura rígida.",
+    "rule": "En guaraní, para formular preguntas en entrevistas de trabajo se usan estructuras interrogativas con partículas como *mba’éichapa* (cómo), *mba’éichapa rire* (cuándo), o *mba’éichapa oñeikotevẽ* (qué se necesita). Los verbos no se conjugan como en español; en su lugar, se añaden sufijos temporales o modales. Para el presente, se usa el verbo en infinitivo con el sujeto implícito (ej. *Aiko* = \"Yo trabajo\"). Para el pasado, se añade *-va’ekue* al verbo (ej. *Aikóva’ekue* = \"Yo trabajé\"). Para el futuro, se usa *-ta* (ej. *Aikóta* = \"Yo trabajaré\"). Las preguntas suelen comenzar con *Mba’éichapa* seguido del verbo en infinitivo o con sufijo temporal. Ejemplos clave: \n1. Presente: *Mba’éichapa nde reiko?* (¿Cómo trabajas?)\n2. Pasado: *Mba’éichapa nde reikóva’ekue?* (¿Cómo trabajaste?)\n3. Futuro: *Mba’éichapa nde reikóta?* (¿Cómo trabajarás?)\n\nExcepciones: \n- Para preguntas con \"¿Qué...?\", se usa *Mba’épa* + verbo (ej. *Mba’épa nde reikóva’ekue?* = ¿Qué hiciste?).\n- En contextos formales, se puede añadir *ha* (y) para unir ideas (ej. *Mba’éichapa nde reiko ha mba’éichapa nde reñe’ẽ?* = ¿Cómo trabajas y cómo te expresas?).",
+    "concept_examples": [
+      {
+        "text": "Mba’éichapa nde reiko?",
+        "translation": "¿Cómo trabajas?",
+        "phonetic": "ᵐbaˈʔeɪ̯tʃapa nde ɾeˈiko?"
+      },
+      {
+        "text": "Mba’éichapa nde reikóva’ekue empresa-pe?",
+        "translation": "¿Cómo trabajaste en la empresa?",
+        "phonetic": "ᵐbaˈʔeɪ̯tʃapa nde ɾeikoˈvaʔekwe emˈpɾesa pe?"
+      },
+      {
+        "text": "Mba’épa nde reñe’ẽ ha mba’éichapa nde reiko?",
+        "translation": "¿Qué sabes y cómo trabajas?",
+        "phonetic": "ᵐbaˈʔepa nde ɾeɲeˈʔẽ ha ᵐbaˈʔeɪ̯tʃapa nde ɾeˈiko?"
+      },
+      {
+        "text": "Mba’éichapa rire nde reikóta mba’apo?",
+        "translation": "¿Cuándo empezarás a trabajar?",
+        "phonetic": "ᵐbaˈʔeɪ̯tʃapa ˈɾiɾe nde ɾeikoˈta ᵐbaʔaˈpo?"
+      }
+    ],
+    "common_error": {
+      "wrong": "¿Qué experiencia tienes?",
+      "correct": "Mba’épa nde reñe’ẽ experiencia?",
+      "correct_alt": "Mba’éichapa nde reñe’ẽ experiencia?",
+      "explanation": "Los hispanohablantes suelen traducir literalmente \"¿Qué experiencia tienes?\" como *¿Mba’épa nde reñe’ẽ experiencia?* (correcto), pero muchos cometen el error de usar *¿Qué experiencia tienes?* en guaraní, lo que suena forzado y poco natural. En guaraní, la estructura interrogativa no incluye el verbo \"tener\" (*reiko* = tener) de forma explícita; en su lugar, se usa *Mba’épa* (qué) + verbo en infinitivo (*ñe’ẽ* = saber/experiencia). La alternativa *Mba’éichapa* (cómo) también es válida, pero menos común para preguntar sobre habilidades. La clave es evitar la estructura española de \"¿Qué... tienes?\" y adaptarse a la economía lingüística del guaraní."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mba’éichapa oñeikotevẽ",
+        "translation": "Cómo se necesita",
+        "examples": [
+          {
+            "original": "Mba’éichapa nde reiko?",
+            "phonetic": "ᵐbaˈʔeɪ̯tʃapa nde ɾeˈiko?",
+            "translation": "¿Cómo trabajas?",
+            "note": "Introduce la estructura básica de preguntas con *Mba’éichapa* para describir habilidades laborales."
+          },
+          {
+            "original": "Mba’éichapa nde reñe’ẽ?",
+            "phonetic": "ᵐbaˈʔeɪ̯tʃapa nde ɾeɲeˈʔẽ?",
+            "translation": "¿Cómo te expresas?",
+            "note": "Enfatiza el uso de *ñe’ẽ* (hablar/expresarse) para habilidades comunicativas."
+          },
+          {
+            "original": "Mba’éichapa nde reñe’ẽ experiencia?",
+            "phonetic": "ᵐbaˈʔeɪ̯tʃapa nde ɾeɲeˈʔẽ eksiˈpeɾja?",
+            "translation": "¿Cómo tienes experiencia?",
+            "note": "Combina *Mba’éichapa* con *ñe’ẽ* para preguntar sobre experiencia de forma natural."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mba’épa oñeikotevẽ",
+        "translation": "Qué se necesita",
+        "examples": [
+          {
+            "original": "Mba’épa nde reñe’ẽ?",
+            "phonetic": "ᵐbaˈʔepa nde ɾeɲeˈʔẽ?",
+            "translation": "¿Qué sabes?",
+            "note": "Introduce *Mba’épa* para preguntas sobre habilidades específicas."
+          },
+          {
+            "original": "Mba’épa nde reiko experiencia?",
+            "phonetic": "ᵐbaˈʔepa nde ɾeˈiko eksiˈpeɾja?",
+            "translation": "¿Qué experiencia tienes?",
+            "note": "Combina *Mba’épa* con *reiko* (tener) para preguntar sobre experiencia laboral."
+          },
+          {
+            "original": "Mba’épa nde reñe’ẽ mba’apo?",
+            "phonetic": "ᵐbaˈʔepa nde ɾeɲeˈʔẽ ᵐbaʔaˈpo?",
+            "translation": "¿Qué sabes hacer?",
+            "note": "Usa *mba’apo* (trabajo/hacer) para preguntar sobre habilidades técnicas."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mba’éichapa rire oñeikotevẽ",
+        "translation": "Cuándo se necesita",
+        "examples": [
+          {
+            "original": "Mba’éichapa rire nde reikóta?",
+            "phonetic": "ᵐbaˈʔeɪ̯tʃapa ˈɾiɾe nde ɾeikoˈta?",
+            "translation": "¿Cuándo empezarás?",
+            "note": "Introduce preguntas sobre tiempo futuro con *Mba’éichapa rire*."
+          },
+          {
+            "original": "Mba’éichapa rire nde reikóva’ekue?",
+            "phonetic": "ᵐbaˈʔeɪ̯tʃapa ˈɾiɾe nde ɾeikoˈvaʔekwe?",
+            "translation": "¿Cuándo trabajaste?",
+            "note": "Combina *Mba’éichapa rire* con el sufijo *-va’ekue* para preguntar sobre tiempo pasado."
+          },
+          {
+            "original": "Mba’éichapa rire nde reñe’ẽ experiencia?",
+            "phonetic": "ᵐbaˈʔeɪ̯tʃapa ˈɾiɾe nde ɾeɲeˈʔẽ eksiˈpeɾja?",
+            "translation": "¿Cuándo adquiriste experiencia?",
+            "note": "Usa *Mba’éichapa rire* para preguntar sobre el momento en que se obtuvo una habilidad."
+          }
+        ]
+      }
+    ],
+    "emoji": "💼",
+    "phonetic": "",
+    "translations": {
+      "es": "Entrevista de trabajo básica"
+    }
+  },
+  {
+    "id": "es_A2_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Mba’éichapa ojehechávo mba’eveve / Cómo enviar un paquete o carta",
+    "bridge": "En español, para preguntar por el peso o tamaño de un objeto usamos estructuras como '¿Cuánto pesa?' o '¿Qué tamaño tiene?'. En guaraní, en cambio, se emplea la estructura 'Mba’éicha oñembo’epyrũ?' (¿Cómo se envía?) para solicitar información sobre el envío, combinada con verbos específicos como 'japo' (hacer) o 'ñembo’epyrũ' (enviar). Un error común es traducir literalmente '¿Cuánto pesa?' como 'Mba’éicha oñembo’epyrũ?' sin incluir el objeto, lo que genera confusión. Además, en guaraní no se usa el artículo indefinido ('un/una') como en español, por lo que frases como 'un sobre' se dicen simplemente 'kuatia' (carta/sobre).",
+    "rule": "Para hablar sobre envíos en guaraní, se usan verbos como 'ñembo’epyrũ' (enviar), 'japo' (hacer) o 'mongu’e' (pesar). La estructura básica es: [Verbo + objeto + complemento]. \n\n1. Para preguntar por el peso: 'Mba’éicha oñembo’epyrũ [objeto]?' (¿Cómo se envía [objeto]?) o 'Mba’éicha omongu’e [objeto]?' (¿Cuánto pesa [objeto]?). Ejemplo: 'Mba’éicha oñembo’epyrũ kuatia?' (¿Cómo se envía una carta?). \n\n2. Para solicitar un servicio: 'Añembo’epyrũ [objeto] ko’ág̃a' (Voy a enviar [objeto] hoy) o 'Añembo’epyrũ kuatia kuatiape' (Voy a enviar una carta al correo). \n\n3. Para preguntar por el costo: 'Mba’éicha oñembo’epyrũ kuatia? Mba’éicha ojehecha mba’eveve?' (¿Cómo se envía una carta? ¿Cuánto cuesta el envío?). \n\nExcepción: Cuando el objeto es genérico (ej. 'una carta'), no se usa artículo. Si es específico (ej. 'esta carta'), se usa el demostrativo: 'kuatia ko' (esta carta).",
+    "concept_examples": [
+      {
+        "text": "Mba’éicha oñembo’epyrũ kuatia ko’ág̃a?",
+        "translation": "¿Cómo se envía esta carta hoy?",
+        "phonetic": "/mbaˈeit͡ʃa oɲemboʔepɨˈɾũ ˈkuatja koˈaɰa/"
+      },
+      {
+        "text": "Añembo’epyrũ mba’eveve ko’ág̃a.",
+        "translation": "Voy a enviar un paquete hoy.",
+        "phonetic": "/aɲemboʔepɨˈɾũ mbaˈeʋeve koˈaɰa/"
+      },
+      {
+        "text": "Mba’éicha omongu’e mba’eveve ko?",
+        "translation": "¿Cuánto pesa este paquete?",
+        "phonetic": "/mbaˈeit͡ʃa omoŋuˈe mbaˈeʋeve ko/"
+      },
+      {
+        "text": "Pe kuatia oñembo’epyrũ mba’evevepe.",
+        "translation": "Esa carta se envía por paquete.",
+        "phonetic": "/pe ˈkuatja oɲemboʔepɨˈɾũ mbaˈeʋevepe/"
+      }
+    ],
+    "common_error": {
+      "wrong": "¿Cuánto pesa un paquete?",
+      "correct": "Mba’éicha omongu’e mba’eveve?",
+      "correct_alt": "Mba’éicha omongu’e mba’eveve ko?",
+      "explanation": "La pregunta en español usa '¿Cuánto pesa?' con artículo indefinido ('un'), pero en guaraní no se usa artículo. La estructura correcta es 'Mba’éicha omongu’e [objeto]?' sin incluir 'un'. Además, si el objeto es específico (como 'este paquete'), se añade el demostrativo 'ko' al final."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mba’éicha oñembo’epyrũ?",
+        "translation": "¿Cómo se envía?",
+        "examples": [
+          {
+            "original": "Mba’éicha oñembo’epyrũ kuatia?",
+            "phonetic": "/mbaˈeit͡ʃa oɲemboʔepɨˈɾũ ˈkuatja/",
+            "translation": "¿Cómo se envía una carta?",
+            "note": "Estructura básica para preguntar por el envío de un objeto genérico."
+          },
+          {
+            "original": "Añembo’epyrũ kuatia kuatiape.",
+            "phonetic": "/aɲemboʔepɨˈɾũ ˈkuatja kuatjaˈpe/",
+            "translation": "Voy a enviar una carta al correo.",
+            "note": "Uso del verbo 'añembo’epyrũ' (voy a enviar) con destino específico."
+          },
+          {
+            "original": "Pe kuatia oñembo’epyrũ mba’evevepe.",
+            "phonetic": "/pe ˈkuatja oɲemboʔepɨˈɾũ mbaˈeʋeveˈpe/",
+            "translation": "Esa carta se envía por paquete.",
+            "note": "Uso de 'pe' (ese/esa) para objetos específicos y 'mba’evevepe' (por paquete)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mba’éicha omongu’e?",
+        "translation": "¿Cuánto pesa?",
+        "examples": [
+          {
+            "original": "Mba’éicha omongu’e mba’eveve?",
+            "phonetic": "/mbaˈeit͡ʃa omoŋuˈe mbaˈeʋeve/",
+            "translation": "¿Cuánto pesa un paquete?",
+            "note": "Pregunta por el peso de un objeto genérico."
+          },
+          {
+            "original": "Añembo’epyrũ mba’eveve ko’ág̃a. Mba’éicha omongu’e?",
+            "phonetic": "/aɲemboʔepɨˈɾũ mbaˈeʋeve koˈaɰa. mbaˈeit͡ʃa omoŋuˈe/",
+            "translation": "Voy a enviar un paquete hoy. ¿Cuánto pesa?",
+            "note": "Combinación de verbos para preguntar por el peso al momento de enviar."
+          },
+          {
+            "original": "Pe mba’eveve omongu’e 5 kilo.",
+            "phonetic": "/pe mbaˈeʋeve omoŋuˈe 5 ˈkilo/",
+            "translation": "Ese paquete pesa 5 kilos.",
+            "note": "Respuesta directa con el peso en números."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mba’éicha ojehecha mba’eveve?",
+        "translation": "¿Cuánto cuesta el envío?",
+        "examples": [
+          {
+            "original": "Mba’éicha ojehecha mba’eveve kuatiape?",
+            "phonetic": "/mbaˈeit͡ʃa oheˈt͡ʃa mbaˈeʋeve kuatjaˈpe/",
+            "translation": "¿Cuánto cuesta el envío de una carta?",
+            "note": "Pregunta por el costo del envío con objeto específico."
+          },
+          {
+            "original": "Pe mba’eveve ojehecha 10.000 guaraní.",
+            "phonetic": "/pe mbaˈeʋeve oheˈt͡ʃa 10.000 ɰwaˈɾani/",
+            "translation": "Ese paquete cuesta 10.000 guaraníes.",
+            "note": "Respuesta con el costo en guaraníes."
+          },
+          {
+            "original": "Añembo’epyrũ kuatia kuatiape. Mba’éicha ojehecha mba’eveve?",
+            "phonetic": "/aɲemboʔepɨˈɾũ ˈkuatja kuatjaˈpe. mbaˈeit͡ʃa oheˈt͡ʃa mbaˈeʋeve/",
+            "translation": "Voy a enviar una carta al correo. ¿Cuánto cuesta el envío?",
+            "note": "Pregunta completa incluyendo el objeto y el destino."
+          }
+        ]
+      }
+    ],
+    "emoji": "📦",
+    "phonetic": "",
+    "translations": {
+      "es": "En el correo o servicio postal"
+    }
+  },
+  {
+    "id": "es_A2_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Alquilar un peteĩ pytu / Alquilar un piso",
+    "bridge": "En español, para hablar de alquilar usamos verbos como 'alquilar', 'arrendar' o 'rentar', pero en guaraní el verbo más común es 'jogua' (comprar/alquilar), que puede generar confusión. Además, en guaraní no existe el verbo 'tener' para expresar posesión en contextos de alquiler, sino que se usa la estructura 'pe + pronombre + verbo' (ej. 'pe nde jogua' = 'tú alquilas'). También hay que tener cuidado con la preposición: en español decimos 'alquilar un piso a alguien', pero en guaraní se usa 'jogua pytu pe ...' (alquilar piso en...).",
+    "rule": "Para expresar alquiler en guaraní, se usa la estructura: [Pronombre + 'pe'] + verbo 'jogua' + objeto (pytu, peteĩ pytu, etc.) + [preposición 'pe' + lugar o persona]. \n\n1. Pronombres personales en guaraní para este contexto:\n   - Che pe jogua (yo alquilo)\n   - Nde pe jogua (tú alquilas)\n   - Ha’e pe jogua (él/ella alquilo)\n   - Ñande pe jogua (nosotros alquilamos)\n   - Ore pe jogua (nosotros alquilamos, excluyente)\n   - Peẽ pe jogua (ustedes alquilan)\n   - Ha’ekuéra pe jogua (ellos/as alquilan)\n\n2. Para preguntar por el alquiler:\n   - ¿Mba’éichapa pe jogua? (¿Cómo alquilas?)\n   - ¿Mba’éichapa pe pytu pe? (¿Cómo es el piso de alquiler?)\n\n3. Excepciones:\n   - Para 'alquilar a alguien', se usa 'jogua pytu pe [persona]' (ej. 'jogua pytu pe Juan' = 'alquilar el piso a Juan').\n   - Para 'alquilar en un lugar', se usa 'pe pytu pe [lugar]' (ej. 'pe pytu pe Asunción' = 'alquilar un piso en Asunción').\n\n4. Uso de 'pe' como marcador de posesión o contexto:\n   - 'Pe pytu' = 'el piso de alquiler' (no 'el piso que alquilo').\n   - 'Pe pytu pe' = 'en el piso de alquiler'.",
+    "concept_examples": [
+      {
+        "text": "Che pe jogua peteĩ pytu pe Asunción.",
+        "translation": "Yo alquilo un piso en Asunción.",
+        "phonetic": "tʃe pe ˈxoɣwa peˈteĩ ˈpytu pe asunˈsjon"
+      },
+      {
+        "text": "Nde pe jogua pytu ha’e mba’éichapa?",
+        "translation": "¿Cómo alquilas el piso?",
+        "phonetic": "nde pe ˈxoɣwa ˈpytu aˈe mbaˈeitʃapa"
+      },
+      {
+        "text": "Peẽ pe jogua pytu pe Encarnación ha’e mba’éichapa?",
+        "translation": "Ustedes alquilan un piso en Encarnación, ¿cómo es?",
+        "phonetic": "peẽ pe ˈxoɣwa ˈpytu pe enkaɾnaˈsjon aˈe mbaˈeitʃapa"
+      },
+      {
+        "text": "Ha’ekuéra pe jogua pytu pe San Lorenzo ha’e 200.000 guaraní.",
+        "translation": "Ellos alquilan un piso en San Lorenzo y cuesta 200.000 guaraníes.",
+        "phonetic": "aˈekuɾa pe ˈxoɣwa ˈpytu pe san loˈɾenso aˈe 200.000 ɣwaɾaˈni"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che alquilo peteĩ pytu pe Asunción.",
+      "correct": "Che pe jogua peteĩ pytu pe Asunción.",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque en español se usa el verbo 'alquilar' directamente, pero en guaraní se requiere el marcador 'pe' después del pronombre para indicar el contexto de alquiler. La estructura correcta es 'Che pe jogua' (yo alquilo), no 'Che alquilo'. Además, en guaraní no se usa el verbo 'alquilar' como en español, sino 'jogua' con el contexto marcado por 'pe'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mba’éichapa jogua pytu",
+        "translation": "Cómo alquilar un piso",
+        "examples": [
+          {
+            "original": "Che pe jogua peteĩ pytu.",
+            "phonetic": "tʃe pe ˈxoɣwa peˈteĩ ˈpytu",
+            "translation": "Yo alquilo un piso.",
+            "note": "Introduce la estructura básica 'pe + pronombre + jogua' para expresar alquiler."
+          },
+          {
+            "original": "Nde pe jogua pytu ha’e mba’éichapa?",
+            "phonetic": "nde pe ˈxoɣwa ˈpytu aˈe mbaˈeitʃapa",
+            "translation": "¿Cómo alquilas el piso?",
+            "note": "Pregunta básica sobre el proceso de alquiler, usando 'ha’e mba’éichapa' (¿cómo es?)."
+          },
+          {
+            "original": "Peẽ pe jogua pytu pe Asunción.",
+            "phonetic": "peẽ pe ˈxoɣwa ˈpytu pe asunˈsjon",
+            "translation": "Ustedes alquilan un piso en Asunción.",
+            "note": "Muestra el uso de 'pe' para indicar lugar (en Asunción)."
+          },
+          {
+            "original": "Ha’e pe jogua pytu pe Encarnación.",
+            "phonetic": "aˈe pe ˈxoɣwa ˈpytu pe enkaɾnaˈsjon",
+            "translation": "Él/ella alquila un piso en Encarnación.",
+            "note": "Ejemplo con tercera persona singular ('ha’e')."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mba’éichapa ñembohéra pytu",
+        "translation": "Cómo describir el piso",
+        "examples": [
+          {
+            "original": "Pe pytu pe ha’e peteĩ pytu guasu.",
+            "phonetic": "pe ˈpytu pe aˈe peˈteĩ ˈpytu ɣwaˈsu",
+            "translation": "El piso de alquiler es grande.",
+            "note": "Usa 'ha’e' para describir características del piso (tamaño, ubicación)."
+          },
+          {
+            "original": "Pe pytu pe oime peteĩ ñembo’e ha peteĩ kuartu.",
+            "phonetic": "pe ˈpytu pe oiˈme peˈteĩ ɲemboˈe a peteˈĩ kwaɾˈtu",
+            "translation": "El piso tiene un baño y un cuarto.",
+            "note": "Introduce 'oime' (hay/tiene) para describir instalaciones."
+          },
+          {
+            "original": "Pe pytu pe oñembohory mba’éichapa oñembo’ehára.",
+            "phonetic": "pe ˈpytu pe oɲemboˈhoɾi mbaˈeitʃapa oɲemboˈeˈhaɾa",
+            "translation": "El piso está amueblado, ¿cómo es?",
+            "note": "Pregunta sobre el estado del piso ('oñembohory' = amueblado)."
+          },
+          {
+            "original": "Pe pytu pe oñembo’ehára peteĩ cocina ha peteĩ kuartu guasu.",
+            "phonetic": "pe ˈpytu pe oɲemboˈeˈhaɾa peˈteĩ koˈsina a peteˈĩ kwaɾˈtu ɣwaˈsu",
+            "translation": "El piso tiene una cocina y un cuarto grande.",
+            "note": "Combina 'oñembo’ehára' (muebles) con descripciones de tamaño."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mba’éichapa ñe’ẽ pytu rehe",
+        "translation": "Cómo hablar sobre el alquiler",
+        "examples": [
+          {
+            "original": "Pe pytu pe jogua ha’e 150.000 guaraní pe mbohapy.",
+            "phonetic": "pe ˈpytu pe ˈxoɣwa aˈe 150.000 ɣwaɾaˈni pe mboˈhapi",
+            "translation": "El piso de alquiler cuesta 150.000 guaraníes por mes.",
+            "note": "Expresa el precio y el período ('pe mbohapy' = por mes)."
+          },
+          {
+            "original": "Pe pytu pe jogua pe Juan ha’e 200.000 guaraní pe mbohapy.",
+            "phonetic": "pe ˈpytu pe ˈxoɣwa pe ˈxwan aˈe 200.000 ɣwaɾaˈni pe mboˈhapi",
+            "translation": "Alquilo el piso a Juan por 200.000 guaraníes al mes.",
+            "note": "Indica al propietario ('pe Juan') y el precio."
+          },
+          {
+            "original": "Pe pytu pe oñembohory ha’e mba’éichapa oñembo’ehára.",
+            "phonetic": "pe ˈpytu pe oɲemboˈhoɾi aˈe mbaˈeitʃapa oɲemboˈeˈhaɾa",
+            "translation": "El piso está amueblado, ¿cómo son los muebles?",
+            "note": "Pregunta detallada sobre los muebles ('oñembo’ehára')."
+          },
+          {
+            "original": "Pe pytu pe jogua pe mba’éichapa oñembo’ehára ha oime peteĩ kuartu guasu.",
+            "phonetic": "pe ˈpytu pe ˈxoɣwa pe mbaˈeitʃapa oɲemboˈeˈhaɾa a oiˈme peˈteĩ kwaɾˈtu ɣwaˈsu",
+            "translation": "Alquilo el piso, ¿cómo son los muebles y tiene un cuarto grande?",
+            "note": "Combina preguntas sobre muebles y características del piso."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "es": "Alquilar un piso o apartamento"
+    }
+  }
+]

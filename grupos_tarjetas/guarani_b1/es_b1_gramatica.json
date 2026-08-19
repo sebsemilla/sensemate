@@ -1,0 +1,733 @@
+[
+  {
+    "id": "es_B1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Ñe’ẽ rehegua oñembyatyva’ỹ ha oñembyatyva’ỹva’ekue / Pluscuamperfecto (pasado del pasado)",
+    "bridge": "En español, el pluscuamperfecto (había + participio) se usa para acciones pasadas que ocurrieron antes de otra acción en el pasado. En guaraní, no existe una forma equivalente directa. En su lugar, se usa el pretérito imperfecto (oñembyatyva’ỹ) para acciones pasadas sin relación temporal específica, y el pretérito perfecto (oñembyatyva’ỹva’ekue) para acciones completadas antes de otra acción en el pasado. Un error común es intentar traducir literalmente el pluscuamperfecto español al guaraní, lo que lleva a estructuras incorrectas.",
+    "rule": "En guaraní, para expresar el concepto de 'pasado del pasado' (pluscuamperfecto), se combinan dos estrategias principales:\n1. **Uso del pretérito perfecto (oñembyatyva’ỹva’ekue)**: Se usa para acciones completadas antes de otra acción en el pasado. La estructura es: [verbo en pretérito perfecto] + [verbo principal en pretérito imperfecto o perfecto].\n   - Ejemplo: *Che aipota che rembi’u oñembyatyva’ekue ha aipota che ka’ay* (Quería mi comida ya preparada y quería mi té).\n2. **Uso de partículas temporales**: Se pueden usar partículas como *ño* (ya) o *hína* (en proceso) para marcar la secuencia temporal.\n   - Ejemplo: *Ñohecha che sy hína* (Ya vi a mi mamá [antes de otra acción]).\n3. **Contexto claro**: En muchos casos, el guaraní depende del contexto para indicar la secuencia temporal, especialmente en narrativas.\n\nExcepciones:\n- No existe un equivalente exacto al pluscuamperfecto español. La traducción depende del contexto.\n- En preguntas, se usa el pretérito perfecto para indicar acciones completadas antes del momento actual.\n\nUso típico:\n- Narrativas donde se describe una acción pasada que ocurrió antes de otra.\n- Descripciones de estados o situaciones pasadas que ya no son relevantes.",
+    "concept_examples": [
+      {
+        "text": "Che aipota che rembi’u oñembyatyva’ekue ha aipota che ka’ay.",
+        "translation": "Ya había querido mi comida y quería mi té.",
+        "phonetic": "tʃe aˈipota tʃe ɾemˈbiʔu oɲembjataˈiʔvaʔe.kue ha aˈipota tʃe kaˈaɟ"
+      },
+      {
+        "text": "Pe mitã oñembyatyva’ekue ohecha che kuñataĩ.",
+        "translation": "El niño ya había visto a la mujer antes.",
+        "phonetic": "pe miˈtã oɲembjataˈiʔvaʔe.kue oˈe.tʃa tʃe kuɲaˈtaĩ"
+      },
+      {
+        "text": "Ñohecha che sy hína ha aipota che ka’ay.",
+        "translation": "Ya había visto a mi mamá y quería mi té.",
+        "phonetic": "ɲoeˈtʃa tʃe sɨ ˈhĩ.na ha aˈipota tʃe kaˈaɟ"
+      },
+      {
+        "text": "Añe’ẽ hína che ñe’ẽ rehegua oñembyatyva’ekue.",
+        "translation": "Ya estaba hablando de mi idioma antes.",
+        "phonetic": "aɲeˈʔẽ ˈhĩ.na tʃe ɲeˈʔẽ ɾeˈeɣwa oɲembjataˈiʔvaʔe.kue"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che aipota che rembi’u ha aipota che ka’ay.",
+      "correct": "Che aipota che rembi’u oñembyatyva’ekue ha aipota che ka’ay.",
+      "correct_alt": "Ñohecha che sy hína ha aipota che ka’ay.",
+      "explanation": "El error ocurre porque se omite la marca de acción completada antes de otra (oñembyatyva’ekue). En guaraní, no basta con usar el pretérito imperfecto (aipota) para indicar secuencia temporal; se necesita el pretérito perfecto (oñembyatyva’ekue) o una partícula como ño para marcar que la acción ya estaba completada antes de otra."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Oñembyatyva’ekue rehegua",
+        "translation": "Uso del pretérito perfecto para pasado del pasado",
+        "examples": [
+          {
+            "original": "Che aipota che rembi’u oñembyatyva’ekue.",
+            "phonetic": "tʃe aˈipota tʃe ɾemˈbiʔu oɲembjataˈiʔvaʔe.kue",
+            "translation": "Ya había querido mi comida.",
+            "note": "Introduce la estructura básica con el pretérito perfecto (oñembyatyva’ekue) para acciones completadas antes de otra."
+          },
+          {
+            "original": "Pe mitã oñembyatyva’ekue ohecha che kuñataĩ.",
+            "phonetic": "pe miˈtã oɲembjataˈiʔvaʔe.kue oˈe.tʃa tʃe kuɲaˈtaĩ",
+            "translation": "El niño ya había visto a la mujer.",
+            "note": "Muestra el uso con verbos de percepción (ohecha)."
+          },
+          {
+            "original": "Añe’ẽ hína che ñe’ẽ rehegua oñembyatyva’ekue.",
+            "phonetic": "aɲeˈʔẽ ˈhĩ.na tʃe ɲeˈʔẽ ɾeˈeɣwa oɲembjataˈiʔvaʔe.kue",
+            "translation": "Ya estaba hablando de mi idioma antes.",
+            "note": "Combina el pretérito perfecto con el gerundio (hína) para acciones en progreso."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ño ha hína rehegua",
+        "translation": "Uso de partículas temporales (ño, hína)",
+        "examples": [
+          {
+            "original": "Ñohecha che sy hína.",
+            "phonetic": "ɲoeˈtʃa tʃe sɨ ˈhĩ.na",
+            "translation": "Ya había visto a mi mamá.",
+            "note": "Introduce la partícula ño para marcar acciones completadas antes de otra."
+          },
+          {
+            "original": "Ñoheja che mba’e oñembyatyva’ekue.",
+            "phonetic": "ɲoeˈxa tʃe mbaˈʔe oɲembjataˈiʔvaʔe.kue",
+            "translation": "Ya había dejado mis cosas.",
+            "note": "Muestra el uso de ño con verbos transitivos."
+          },
+          {
+            "original": "Che aipota che ka’ay hína oñembyatyva’ekue.",
+            "phonetic": "tʃe aˈipota tʃe kaˈaɟ ˈhĩ.na oɲembjataˈiʔvaʔe.kue",
+            "translation": "Ya quería mi té antes.",
+            "note": "Combina hína con oñembyatyva’ekue para acciones en progreso antes de otra."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ñe’ẽ rehegua oñembyatyva’ỹ ha oñembyatyva’ỹva’ekue",
+        "translation": "Diferenciación entre pretérito imperfecto y perfecto en contexto",
+        "examples": [
+          {
+            "original": "Che aipota che rembi’u ha aipota che ka’ay.",
+            "phonetic": "tʃe aˈipota tʃe ɾemˈbiʔu ha aˈipota tʃe kaˈaɟ",
+            "translation": "Quería mi comida y quería mi té.",
+            "note": "Contraste con el pretérito imperfecto (sin secuencia temporal marcada)."
+          },
+          {
+            "original": "Che aipota che rembi’u oñembyatyva’ekue ha aipota che ka’ay.",
+            "phonetic": "tʃe aˈipota tʃe ɾemˈbiʔu oɲembjataˈiʔvaʔe.kue ha aˈipota tʃe kaˈaɟ",
+            "translation": "Ya había querido mi comida y quería mi té.",
+            "note": "Muestra la diferencia clara entre imperfecto y perfecto para secuencia temporal."
+          },
+          {
+            "original": "Ñohecha che sy ha che sy ohecha che mitã.",
+            "phonetic": "ɲoeˈtʃa tʃe sɨ ha tʃe sɨ oˈe.tʃa tʃe miˈtã",
+            "translation": "Vi a mi mamá y mi mamá vio al niño.",
+            "note": "Contexto sin marca temporal: ambas acciones son simultáneas o sin orden claro."
+          },
+          {
+            "original": "Ñohecha che sy hína ha che sy ohecha che mitã.",
+            "phonetic": "ɲoeˈtʃa tʃe sɨ ˈhĩ.na ha tʃe sɨ oˈe.tʃa tʃe miˈtã",
+            "translation": "Ya había visto a mi mamá y mi mamá vio al niño.",
+            "note": "Contexto con ño: la primera acción (ver a la mamá) ocurrió antes de la segunda."
+          }
+        ]
+      }
+    ],
+    "emoji": "📜",
+    "phonetic": "",
+    "translations": {
+      "es": "Pluscuamperfecto (pasado del pasado)"
+    }
+  },
+  {
+    "id": "es_B1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Condicionales tipo 1 y 2 / Condicionales tipo 1 y 2",
+    "bridge": "En español, los condicionales tipo 1 y 2 se construyen con el presente de subjuntivo en la cláusula subordinada ('si estudio, aprobaré'), mientras que en guaraní no existe el subjuntivo como categoría gramatical independiente. En guaraní, el condicional se expresa mediante partículas modales como *-ta* (futuro) o *-va'erã* (debería), combinadas con verbos en formas no conjugadas. Un error común es aplicar la estructura española directamente en guaraní, generando frases como *'si estudio, aprobaré'* traducido literalmente como *'che estudio, che aprobaré'*, lo cual es incorrecto. La clave está en entender que el guaraní usa partículas modales para expresar condición y futuro, no conjugaciones verbales complejas.",
+    "rule": "En guaraní, los condicionales se forman con las siguientes estructuras:\n\n1. **Condicional tipo 1 (real o probable):** Se usa la partícula *-ta* (futuro) en la cláusula principal y el verbo en forma no conjugada (infinitivo o raíz) en la subordinada. La condición se introduce con *'ha'* (y) o *'pe'* (si).\n   - Estructura: [Condición] + *pe* + [verbo en raíz] + [sujeto] + *-ta* + [resultado].\n   - Ejemplo: *'Pe che estudio, che aprobaré'* (Si estudio, aprobaré).\n\n2. **Condicional tipo 2 (hipotético o improbable):** Se usa la partícula *-va'erã* (debería) en la cláusula principal y el verbo en forma no conjugada en la subordinada. La condición se introduce con *'ha'* o *'pe'*.\n   - Estructura: [Condición] + *pe* + [verbo en raíz] + [sujeto] + *-va'erã* + [resultado].\n   - Ejemplo: *'Pe che estudio, che aprobaréva'erã'* (Si estudiara, aprobaría).\n\nNotas importantes:\n- El guaraní no distingue entre presente, pasado o futuro en la cláusula subordinada; el tiempo se marca en la cláusula principal.\n- Las partículas *-ta* y *-va'erã* pueden variar según el sujeto (ej. *-ta* → *-rã* para tercera persona).\n- En condicionales tipo 2, el verbo principal puede omitirse si el contexto es claro.\n- No existe el subjuntivo en guaraní; las condiciones se expresan mediante partículas modales y verbos en raíz.",
+    "concept_examples": [
+      {
+        "text": "Pe che ñembo'e, che jajapo peteĩ mba'e porã",
+        "translation": "Si estudio, haré algo bueno",
+        "phonetic": "pe tʃe ɲemboˈʔe tʃe xaxaˈpo peteˈĩ mbaˈʔe poˈɾa"
+      },
+      {
+        "text": "Pe nde rekávo, nde jajapo peteĩ tembi'u",
+        "translation": "Si vas, harás comida",
+        "phonetic": "pe nde ɾeˈkavo nde xaxaˈpo peteˈĩ tembiˈʔu"
+      },
+      {
+        "text": "Pe che mba'apo, che jajapo peteĩ mba'e porãva'erã",
+        "translation": "Si trabajara, haría algo bueno",
+        "phonetic": "pe tʃe mbaˈapo tʃe xaxaˈpo peteˈĩ mbaˈʔe poˈɾaˈvaʔeɾa"
+      },
+      {
+        "text": "Pe nde mbo'e, nde jajapo peteĩ tembi'uva'erã",
+        "translation": "Si enseñaras, harías comida",
+        "phonetic": "pe nde mboˈʔe nde xaxaˈpo peteˈĩ tembiˈʔuˈvaʔeɾa"
+      }
+    ],
+    "common_error": {
+      "wrong": "Pe che estudio, che aprobaré",
+      "correct": "Pe che ñembo'e, che jajapo peteĩ mba'e porã",
+      "correct_alt": "Pe che ñembo'e, che aprobaré",
+      "explanation": "El error ocurre porque el hablante de español intenta traducir literalmente la estructura condicional española ('si estudio, aprobaré') al guaraní, usando conjugaciones verbales en ambas cláusulas. En guaraní, la condición se introduce con *'pe'* y el verbo en la cláusula subordinada debe estar en forma de raíz (infinitivo o no conjugado), no en presente. Además, el resultado en la cláusula principal debe usar la partícula *-ta* para expresar futuro real. La frase correcta usa *'ñembo'e'* (estudiar) en raíz y *'jajapo'* (haré) con *-ta* para indicar el resultado futuro."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Condicional tipo 1 (real)",
+        "translation": "Condicional tipo 1 (real o probable)",
+        "examples": [
+          {
+            "original": "Pe che mbo'e, che jajapo peteĩ mba'e porã",
+            "phonetic": "pe tʃe mboˈʔe tʃe xaxaˈpo peteˈĩ mbaˈʔe poˈɾa",
+            "translation": "Si estudio, haré algo bueno",
+            "note": "Ejemplo básico de condicional tipo 1. La partícula *-ta* en *'jajapo'* indica futuro real. La condición usa *'pe'* + verbo en raíz."
+          },
+          {
+            "original": "Pe nde rekávo, nde jajapo peteĩ tembi'u",
+            "phonetic": "pe nde ɾeˈkavo nde xaxaˈpo peteˈĩ tembiˈʔu",
+            "translation": "Si vas, harás comida",
+            "note": "Muestra el uso de *'pe'* + verbo en raíz (*'rekávo'*) y el resultado con *-ta* (*'jajapo'*)."
+          },
+          {
+            "original": "Pe nde mbo'e, nde jajapo peteĩ mba'e",
+            "phonetic": "pe nde mboˈʔe nde xaxaˈpo peteˈĩ mbaˈʔe",
+            "translation": "Si enseñas, harás algo",
+            "note": "Variante sin adjetivo en el resultado. Destaca que el verbo en la condición puede ser transitivo (*'mbo'e'*)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Condicional tipo 2 (hipotético)",
+        "translation": "Condicional tipo 2 (hipotético o improbable)",
+        "examples": [
+          {
+            "original": "Pe che mbo'e, che jajapo peteĩ mba'e porãva'erã",
+            "phonetic": "pe tʃe mboˈʔe tʃe xaxaˈpo peteˈĩ mbaˈʔe poˈɾaˈvaʔeɾa",
+            "translation": "Si estudiara, haría algo bueno",
+            "note": "Ejemplo de condicional tipo 2. La partícula *-va'erã* en *'jajapo'* indica hipotético. La condición sigue usando *'pe'* + verbo en raíz."
+          },
+          {
+            "original": "Pe nde rekávo, nde jajapo peteĩ tembi'uva'erã",
+            "phonetic": "pe nde ɾeˈkavo nde xaxaˈpo peteˈĩ tembiˈʔuˈvaʔeɾa",
+            "translation": "Si fueras, harías comida",
+            "note": "Muestra el uso de *-va'erã* en el resultado y la condición con *'pe'* + verbo en raíz (*'rekávo'*)."
+          },
+          {
+            "original": "Pe che mba'apo, che jajapo peteĩ mba'e porãva'erã",
+            "phonetic": "pe tʃe mbaˈapo tʃe xaxaˈpo peteˈĩ mbaˈʔe poˈɾaˈvaʔeɾa",
+            "translation": "Si trabajara, haría algo bueno",
+            "note": "Ejemplo con verbo transitivo (*'mba'apo'*). Destaca que *-va'erã* puede aparecer en verbos transitivos."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Condicionales con sujetos diferentes",
+        "translation": "Condicionales con sujetos distintos en cláusulas",
+        "examples": [
+          {
+            "original": "Pe che mbo'e, nde jajapo peteĩ mba'e porã",
+            "phonetic": "pe tʃe mboˈʔe nde xaxaˈpo peteˈĩ mbaˈʔe poˈɾa",
+            "translation": "Si yo enseño, tú harás algo bueno",
+            "note": "Ejemplo donde el sujeto de la condición (*'che'*) y el resultado (*'nde'*) son diferentes. Muestra que el guaraní permite cambiar sujetos entre cláusulas."
+          },
+          {
+            "original": "Pe nde rekávo, ha che jajapo peteĩ tembi'u",
+            "phonetic": "pe nde ɾeˈkavo ha tʃe xaxaˈpo peteˈĩ tembiˈʔu",
+            "translation": "Si tú vas, y yo haré comida",
+            "note": "Usa *'ha'* (y) para conectar cláusulas con sujetos distintos. La partícula *-ta* en *'jajapo'* indica futuro real."
+          },
+          {
+            "original": "Pe che mbo'e, nde jajapo peteĩ mba'e porãva'erã",
+            "phonetic": "pe tʃe mboˈʔe nde xaxaˈpo peteˈĩ mbaˈʔe poˈɾaˈvaʔeɾa",
+            "translation": "Si yo enseñara, tú harías algo bueno",
+            "note": "Condicional tipo 2 con sujetos distintos. La partícula *-va'erã* en *'jajapo'* indica hipotético."
+          },
+          {
+            "original": "Pe nde mbo'e, ha che jajapo peteĩ mba'e",
+            "phonetic": "pe nde mboˈʔe ha tʃe xaxaˈpo peteˈĩ mbaˈʔe",
+            "translation": "Si tú enseñas, y yo haré algo",
+            "note": "Ejemplo con *'ha'* para conectar cláusulas y sujetos distintos. La condición usa *'pe'* + verbo en raíz (*'mbo'e'*)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "es": "Condicionales tipo 1 y 2"
+    }
+  },
+  {
+    "id": "es_B1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Voz pasiva (presente y pasado) / Voz pasiva (presente y pasado)",
+    "bridge": "En español, la voz pasiva se forma con el verbo 'ser' + participio, pero en guaraní no existe una estructura equivalente directa. Los hablantes de español suelen intentar traducir literalmente frases como *'el libro es leído por Juan'* al guaraní, lo que resulta en construcciones agramaticales. En guaraní, la pasiva se expresa mediante sufijos verbales o construcciones impersonales, sin equivalente exacto al 'por' español. La clave está en entender que el guaraní prioriza la acción sobre el agente, usando más frecuentemente la voz activa o construcciones con sufijos como *-va* o *-hína*.",
+    "rule": "En guaraní, la voz pasiva se construye principalmente de dos formas:\n\n1. **Con sufijo *-va* (presente):** Se añade *-va* al verbo para indicar que la acción recae sobre el sujeto. El agente (quien realiza la acción) puede omitirse o incluirse con la posposición *ndive* (con).\n   - Estructura: [Sujeto] + [verbo + *-va*] (+ *ndive* + [agente]).\n   - Ejemplo: *Che ahecháva* (Yo soy visto) / *Che ahecháva ndive* (Yo soy visto por él).\n\n2. **Con sufijo *-kue* (pasado):** Similar a *-va*, pero indica una acción pasada. El agente también puede incluirse con *ndive*.\n   - Estructura: [Sujeto] + [verbo + *-kue*] (+ *ndive* + [agente]).\n   - Ejemplo: *Che ahechakue* (Yo fui visto) / *Che ahechakue ndive* (Yo fui visto por él).\n\n**Excepciones y notas:**\n- Algunos verbos tienen formas pasivas irregulares (ej. *japo* → *japo'ỹva* para 'no ser hecho').\n- En contextos informales, se prefiere la voz activa o construcciones con *hína* (estar) para enfatizar el estado (ej. *Che ahecha hína* = 'Yo estoy siendo visto').\n- La pasiva en guaraní es menos común que en español; suele usarse cuando el agente es desconocido o irrelevante.",
+    "concept_examples": [
+      {
+        "text": "Ñande jajuhúva nde rekávo",
+        "translation": "Nuestra casa es construida por ellos",
+        "phonetic": "/ɲande xa.ɟuˈhu.va nde reˈka.βo/"
+      },
+      {
+        "text": "Che ahecháva ndive María",
+        "translation": "Yo soy visto por María",
+        "phonetic": "/tʃe a.eˈtʃa.va ˈdi.βe maˈɾi.a/"
+      },
+      {
+        "text": "Ñande oñemongu'áva nde mba'e",
+        "translation": "Nuestras cosas son guardadas por ti",
+        "phonetic": "/ɲande o.ɲe.moŋuˈa.va nde mbaˈʔe/"
+      },
+      {
+        "text": "Che ahechakue ndive nde",
+        "translation": "Yo fui visto por ti",
+        "phonetic": "/tʃe a.eˈtʃa.kwe ˈdi.βe nde/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che ahecha por María",
+      "correct": "Che ahecháva ndive María",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque el hablante de español intenta traducir literalmente la estructura *'soy visto por María'* usando la preposición *por* (que en guaraní no existe en este contexto). En guaraní, el agente se introduce con *ndive* (con) y el verbo debe llevar el sufijo *-va* para marcar la pasiva. La frase correcta usa *'ahecháva'* (soy visto) + *'ndive María'* (con María), omitiendo el equivalente a 'por'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Voz pasiva con -va (presente)",
+        "translation": "Voz pasiva con -va (presente)",
+        "examples": [
+          {
+            "original": "Che ahecháva",
+            "phonetic": "/tʃe a.eˈtʃa.va/",
+            "translation": "Yo soy visto",
+            "note": "Introduce la estructura básica de pasiva con *-va* en presente. El sujeto es *che* (yo) y el verbo es *ahecha* (ver)."
+          },
+          {
+            "original": "Ñande oñemongu'áva",
+            "phonetic": "/ɲande o.ɲe.moŋuˈa.va/",
+            "translation": "Nosotros somos guardados",
+            "note": "Muestra la pasiva con verbo reflexivo (*ñemongu'a* = guardarse) y sujeto plural *ñande* (nosotros)."
+          },
+          {
+            "original": "Pe mitã oñe'ẽva",
+            "phonetic": "/pe miˈtã o.ɲeˈʔẽ.va/",
+            "translation": "Esos niños son escuchados",
+            "note": "Ejemplo con sujeto plural *pe mitã* (esos niños) y verbo *ñe'ẽ* (hablar/listener)."
+          },
+          {
+            "original": "Ha'e oñembo'eva",
+            "phonetic": "/aˈʔe o.ɲem.boˈʔe.va/",
+            "translation": "Él/ella es rezado/a",
+            "note": "Verbo *ñembo'e* (rezar) con sujeto *ha'e* (él/ella)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Voz pasiva con -kue (pasado)",
+        "translation": "Voz pasiva con -kue (pasado)",
+        "examples": [
+          {
+            "original": "Che ahechakue",
+            "phonetic": "/tʃe a.eˈtʃa.kwe/",
+            "translation": "Yo fui visto",
+            "note": "Introduce la pasiva en pasado con *-kue*. Comparar con *ahecháva* (presente) para notar el cambio."
+          },
+          {
+            "original": "Ñande oñemongu'akue nde rekávo",
+            "phonetic": "/ɲande o.ɲe.moŋuˈa.kwe nde reˈka.βo/",
+            "translation": "Nuestra casa fue guardada por ti",
+            "note": "Combinación de pasiva en pasado (*-kue*) con agente (*ndive* implícito como *nde*)."
+          },
+          {
+            "original": "Pe mitã oñe'ẽkue",
+            "phonetic": "/pe miˈtã o.ɲeˈʔẽ.kwe/",
+            "translation": "Esos niños fueron escuchados",
+            "note": "Pasiva en pasado con sujeto plural. Enfatizar que *-kue* reemplaza a *-va*."
+          },
+          {
+            "original": "Ha'e oñembo'ekue",
+            "phonetic": "/aˈʔe o.ɲem.boˈʔe.kwe/",
+            "translation": "Él/ella fue rezado/a",
+            "note": "Verbo *ñembo'e* en pasado. Recordar que *-kue* se añade directamente al verbo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Pasiva con agente explícito (ndive)",
+        "translation": "Pasiva con agente explícito (ndive)",
+        "examples": [
+          {
+            "original": "Che ahecháva ndive María",
+            "phonetic": "/tʃe a.eˈtʃa.va ˈdi.βe maˈɾi.a/",
+            "translation": "Yo soy visto por María",
+            "note": "Introduce el agente explícito con *ndive*. Comparar con ejemplos sin agente para notar la diferencia."
+          },
+          {
+            "original": "Ñande oñemongu'áva ndive nde",
+            "phonetic": "/ɲande o.ɲe.moŋuˈa.va ˈdi.βe nde/",
+            "translation": "Nosotros somos guardados por ti",
+            "note": "Agente en pasado (*-kue*) con *ndive* explícito. Enfatizar el orden: sujeto + verbo + *ndive* + agente."
+          },
+          {
+            "original": "Pe mitã oñe'ẽkue ndive kuimba'e",
+            "phonetic": "/pe miˈtã o.ɲeˈʔẽ.kwe ˈdi.βe kuiˈmba.e/",
+            "translation": "Esos niños fueron escuchados por el hombre",
+            "note": "Ejemplo con agente masculino (*kuimba'e* = hombre) en pasado. Mostrar flexibilidad en el tipo de agente."
+          },
+          {
+            "original": "Ha'e oñembo'ekue ndive ñande",
+            "phonetic": "/aˈʔe o.ɲem.boˈʔe.kwe ˈdi.βe ɲande/",
+            "translation": "Él/ella fue rezado/a por nosotros",
+            "note": "Agente plural (*ñande* = nosotros) en pasiva. Recordar que *ndive* siempre va después del verbo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏗️",
+    "phonetic": "",
+    "translations": {
+      "es": "Voz pasiva (presente y pasado)"
+    }
+  },
+  {
+    "id": "es_B1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Estilo indirecto básico / Discurso indirecto básico",
+    "bridge": "En español, el estilo indirecto suele requerir cambios en los tiempos verbales (ej. 'dijo que venía' en lugar de 'dijo que viene'). En guaraní, en cambio, el estilo indirecto se marca principalmente con partículas como *-va'e* o *-hína* y no siempre implica cambios de tiempo. Los hablantes de español pueden caer en el error de forzar cambios de tiempo innecesarios en guaraní, como si fuera una traducción literal del español.",
+    "rule": "En guaraní, el estilo indirecto se construye de dos formas principales:\n1. **Con la partícula *-va'e*** (para reportar información general o hechos):\n   - Se usa después del verbo principal (ej. *ha'e ohecha* → *ha'e ohecha-va'e*).\n   - No hay cambios de tiempo obligatorios; el tiempo depende del contexto.\n   - Ejemplo: *Che aipota che rembi'u* (Quiero comer) → *Ha'e oipota-va'e che rembi'u* (Él dijo que quiere comer).\n\n2. **Con la partícula *-hína*** (para acciones en progreso o habituales):\n   - Se añade al verbo principal (ej. *ojapohína* = 'está haciendo').\n   - Indica que la acción sigue vigente en el momento del reporte.\n   - Ejemplo: *Aha che róga* (Voy a mi casa) → *Ha'e ojahína che róga* (Él dijo que va a su casa [y sigue yendo]).\n\n**Excepciones y notas:**\n- Si el verbo principal está en pasado, el estilo indirecto puede usar *-va'e* o *-hína* sin cambios de tiempo.\n- Para órdenes o peticiones, se usa *ha'e oñe'ẽ* + verbo en infinitivo (ej. *Ha'e oñe'ẽ che aipota che rembi'u* = 'Él me pidió que coma').",
+    "concept_examples": [
+      {
+        "text": "Ha'e ohecha-va'e che ajapóta",
+        "translation": "Él dijo que lo haría",
+        "phonetic": "aˈʔe oeˈt͡ʃa ˈva.e t͡ʃe ahaˈpota"
+      },
+      {
+        "text": "Nde rejapó-va'e che mba'e",
+        "translation": "Tú dijiste que lo harías",
+        "phonetic": "nde rehaˈpo ˈva.e t͡ʃe mbaˈʔe"
+      },
+      {
+        "text": "Ha'e ojahína che róga",
+        "translation": "Él dijo que va a su casa [y sigue yendo]",
+        "phonetic": "aˈʔe ohaˈʒi.na t͡ʃe ˈɾo.ɣa"
+      },
+      {
+        "text": "Che aipota-va'e che rembi'u",
+        "translation": "Dijo que quiere comer",
+        "phonetic": "t͡ʃe aiˈpota ˈva.e t͡ʃe ɾemˈbi.ʔu"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ha'e ohecha que che ajapóta",
+      "correct": "Ha'e ohecha-va'e che ajapóta",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque el hablante de español intenta traducir literalmente 'dijo que lo haría' como *ohecha que...*, pero en guaraní no se usa *que* para el estilo indirecto. La partícula *-va'e* es obligatoria para marcar el discurso indirecto. Además, en guaraní no hay cambios de tiempo como en español (*haría* → *haría*), por lo que *ajapóta* (futuro) se mantiene igual."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ohecha-va'e",
+        "translation": "Dijo que... (hechos generales)",
+        "examples": [
+          {
+            "original": "Ha'e ohecha-va'e che ajapóta",
+            "phonetic": "aˈʔe oeˈt͡ʃa ˈva.e t͡ʃe ahaˈpota",
+            "translation": "Él dijo que lo haría",
+            "note": "Usa *-va'e* para reportar información general sin cambios de tiempo obligatorios."
+          },
+          {
+            "original": "Nde rejapó-va'e che mba'e",
+            "phonetic": "nde rehaˈpo ˈva.e t͡ʃe mbaˈʔe",
+            "translation": "Tú dijiste que lo harías",
+            "note": "El tiempo del verbo principal (pasado) no afecta al estilo indirecto en guaraní."
+          },
+          {
+            "original": "Ha'e ohecha-va'e che aipota che rembi'u",
+            "phonetic": "aˈʔe oeˈt͡ʃa ˈva.e t͡ʃe aiˈpota t͡ʃe ɾemˈbi.ʔu",
+            "translation": "Él dijo que quiere comer",
+            "note": "El verbo en presente (*aipota*) se mantiene igual en el estilo indirecto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ojahína",
+        "translation": "Dijo que está... (acciones en progreso)",
+        "examples": [
+          {
+            "original": "Ha'e ojahína che róga",
+            "phonetic": "aˈʔe ohaˈʒi.na t͡ʃe ˈɾo.ɣa",
+            "translation": "Él dijo que va a su casa [y sigue yendo]",
+            "note": "Usa *-hína* para acciones que siguen vigentes en el momento del reporte."
+          },
+          {
+            "original": "Nde rejahína che akã",
+            "phonetic": "nde rehaˈʒi.na t͡ʃe aˈkã",
+            "translation": "Tú dijiste que vas a tu casa [y sigues yendo]",
+            "note": "El verbo en presente (*jahína*) no cambia en el estilo indirecto."
+          },
+          {
+            "original": "Ha'e oñe'ẽ-va'e che aipota che rembi'u",
+            "phonetic": "aˈʔe oɲeˈʔe ˈva.e t͡ʃe aiˈpota t͡ʃe ɾemˈbi.ʔu",
+            "translation": "Él me pidió que coma",
+            "note": "Para órdenes, usa *oñe'ẽ-va'e* + verbo en infinitivo (*aipota*)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "es": "Estilo indirecto básico"
+    }
+  },
+  {
+    "id": "es_B1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Mba’éichapa oñemoñe’ẽ ha oñembo’o / Gerundios e infinitivos como sujeto y objeto",
+    "bridge": "En español, los gerundios (-ando/-iendo) y los infinitivos (terminar en -ar/-er/-ir) suelen usarse como sujetos u objetos de verbos, pero en guaraní no existen estas formas verbales como en español. En guaraní, se emplean construcciones con verbos en forma nominalizada (con sufijos como -va, -hína, -rã) o con verbos en infinitivo (terminación -rã) para cumplir funciones similares. Un error común es traducir literalmente el gerundio español como en guaraní, lo que lleva a frases incorrectas. Por ejemplo, en español decimos 'Me gusta correr', pero en guaraní se dice 'Aju che kororã' (literalmente 'me gusta que yo corra').",
+    "rule": "En guaraní, para expresar acciones como sujeto u objeto de verbos, se utilizan principalmente dos estrategias: 1) Verbos nominalizados con sufijos como -va (para acciones habituales o genéricas) o -hína (para acciones en progreso), y 2) Verbos en infinitivo con -rã (para acciones específicas o futuras). \n\n1. **Verbos nominalizados con -va**: Se añade -va al verbo para convertirlo en un sustantivo que puede funcionar como sujeto u objeto. Ejemplo: 'Che kororã' (yo corro) → 'Che kororãva' (mi correr). \n   - Ejemplo como sujeto: 'Che kororãva ndaha’éi' (Mi correr no es fácil). \n   - Ejemplo como objeto: 'Aju che kororãva' (Me gusta mi correr). \n\n2. **Verbos nominalizados con -hína**: Indica acciones en progreso y también puede funcionar como sujeto u objeto. Ejemplo: 'Che kororã hína' (yo estoy corriendo) → 'Che kororã hínava' (mi estar corriendo). \n   - Ejemplo como sujeto: 'Che kororã hínava ndaha’éi' (Mi estar corriendo no es fácil). \n   - Ejemplo como objeto: 'Aju che kororã hínava' (Me gusta mi estar corriendo). \n\n3. **Infinitivo con -rã**: El sufijo -rã convierte el verbo en un infinitivo que puede usarse como sujeto u objeto. Ejemplo: 'Che kororã' → 'Che kororãrã' (correr). \n   - Ejemplo como sujeto: 'Che kororãrã ndaha’éi' (Correr no es fácil). \n   - Ejemplo como objeto: 'Aju che kororãrã' (Me gusta correr). \n\nExcepciones: Algunos verbos como 'ajehecháva' (ver) o 'ajapóva' (hacer) ya incluyen la idea de acción nominalizada sin necesidad de sufijos adicionales en ciertos contextos.",
+    "concept_examples": [
+      {
+        "text": "Che kororãva ndaha’éi",
+        "translation": "Mi correr no es fácil.",
+        "phonetic": "/t͡ʃe ko.ɾo.ˈɾã.βa‿nda.a.ˈhe.i/"
+      },
+      {
+        "text": "Aju che kororã hínava",
+        "translation": "Me gusta mi estar corriendo.",
+        "phonetic": "/a.ˈhu t͡ʃe ko.ɾo.ˈɾã ˈhi.na.βa/"
+      },
+      {
+        "text": "Che kororãrã ndaha’éi",
+        "translation": "Correr no es fácil.",
+        "phonetic": "/t͡ʃe ko.ɾo.ˈɾã.ɾã‿nda.a.ˈhe.i/"
+      },
+      {
+        "text": "Aju che kororãrã",
+        "translation": "Me gusta correr.",
+        "phonetic": "/a.ˈhu t͡ʃe ko.ɾo.ˈɾã.ɾã/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che kororã ndaha’éi",
+      "correct": "Che kororãva ndaha’éi",
+      "correct_alt": "Che kororãrã ndaha’éi",
+      "explanation": "El error ocurre porque en español se usa el infinitivo ('correr') como sujeto, pero en guaraní no se puede usar el verbo en forma simple (-rã) sin un sufijo nominalizador (-va o -hína) cuando funciona como sujeto u objeto. La forma 'Che kororã' es incorrecta en este contexto porque no está nominalizada. Para corregirlo, se debe añadir -va para nominalizar la acción o usar -rã para el infinitivo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Oñemoñe’ẽ mba’éicha oñemoñe’ẽva",
+        "translation": "Cómo se usan los verbos nominalizados con -va",
+        "examples": [
+          {
+            "original": "Che kororãva ndaha’éi",
+            "phonetic": "/t͡ʃe ko.ɾo.ˈɾã.βa‿nda.a.ˈhe.i/",
+            "translation": "Mi correr no es fácil.",
+            "note": "Introduce la nominalización con -va para acciones como sujeto."
+          },
+          {
+            "original": "Aju che kororãva",
+            "phonetic": "/a.ˈhu t͡ʃe ko.ɾo.ˈɾã.βa/",
+            "translation": "Me gusta mi correr.",
+            "note": "Muestra el uso como objeto con verbos como 'aju' (gustar)."
+          },
+          {
+            "original": "Ñande jepokáva oikóva",
+            "phonetic": "/ɲan.de xe.po.ˈka.βa o.i.ˈko.βa/",
+            "translation": "Nuestra caminata es larga.",
+            "note": "Ejemplo con otro verbo para reforzar el patrón."
+          },
+          {
+            "original": "Pe mitã oñe’ẽva ndaha’éi",
+            "phonetic": "/pe mi.ˈtã o.ɲe.ˈʔẽ.βa‿nda.a.ˈhe.i/",
+            "translation": "El hablar de los niños no es fácil.",
+            "note": "Usa un verbo diferente para ampliar el vocabulario."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Oñemoñe’ẽ mba’éicha oñembo’ohína",
+        "translation": "Cómo se usan los verbos nominalizados con -hína",
+        "examples": [
+          {
+            "original": "Che kororã hínava ndaha’éi",
+            "phonetic": "/t͡ʃe ko.ɾo.ˈɾã ˈhi.na.βa‿nda.a.ˈhe.i/",
+            "translation": "Mi estar corriendo no es fácil.",
+            "note": "Introduce la nominalización con -hína para acciones en progreso."
+          },
+          {
+            "original": "Aju che kororã hínava",
+            "phonetic": "/a.ˈhu t͡ʃe ko.ɾo.ˈɾã ˈhi.na.βa/",
+            "translation": "Me gusta mi estar corriendo.",
+            "note": "Combina con verbos de gusto como 'aju'."
+          },
+          {
+            "original": "Ñande jepoká hínava oikóva",
+            "phonetic": "/ɲan.de xe.po.ˈka ˈhi.na.βa o.i.ˈko.βa/",
+            "translation": "Nuestra estar caminando es larga.",
+            "note": "Muestra la estructura con otro verbo."
+          },
+          {
+            "original": "Pe mitã oñe’ẽ hínava ndaha’éi",
+            "phonetic": "/pe mi.ˈtã o.ɲe.ˈʔẽ ˈhi.na.βa‿nda.a.ˈhe.i/",
+            "translation": "El estar hablando de los niños no es fácil.",
+            "note": "Refuerza con un verbo diferente para consolidar el aprendizaje."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Oñemoñe’ẽ mba’éicha oñembo’o rã",
+        "translation": "Cómo se usan los infinitivos con -rã",
+        "examples": [
+          {
+            "original": "Che kororãrã ndaha’éi",
+            "phonetic": "/t͡ʃe ko.ɾo.ˈɾã.ɾã‿nda.a.ˈhe.i/",
+            "translation": "Correr no es fácil.",
+            "note": "Introduce el infinitivo con -rã como sujeto."
+          },
+          {
+            "original": "Aju che kororãrã",
+            "phonetic": "/a.ˈhu t͡ʃe ko.ɾo.ˈɾã.ɾã/",
+            "translation": "Me gusta correr.",
+            "note": "Muestra el uso como objeto con verbos de gusto."
+          },
+          {
+            "original": "Ñande jepokárã oikóva",
+            "phonetic": "/ɲan.de xe.po.ˈka.ɾã o.i.ˈko.βa/",
+            "translation": "Caminar es largo.",
+            "note": "Ejemplo con otro verbo para practicar."
+          },
+          {
+            "original": "Pe mitã oñe’ẽrã ndaha’éi",
+            "phonetic": "/pe mi.ˈtã o.ɲe.ˈʔẽ.ɾã‿nda.a.ˈhe.i/",
+            "translation": "Hablar no es fácil.",
+            "note": "Usa un verbo diferente para ampliar el vocabulario y consolidar el patrón."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏃‍♂️",
+    "phonetic": "",
+    "translations": {
+      "es": "Gerundios e infinitivos como sujeto y objeto"
+    }
+  },
+  {
+    "id": "es_B1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Ñe’ẽ poravo’ỹ ha oikéva ojehecha haguã / Verbos modales para deducción (must, might, could)",
+    "bridge": "En español, los verbos modales como 'debe', 'podría' o 'puede' se usan para expresar deducción con matices de probabilidad. En guaraní, estos matices se expresan principalmente con el sufijo '-va'erã' (debería) y partículas como 'hína' (probablemente) o 'icha' (parece). A diferencia del español, donde el modo condicional ('podría') implica mayor incertidumbre, en guaraní la partícula 'icha' puede usarse en presente para expresar deducción inmediata, lo que genera confusión. Además, el guaraní no tiene un equivalente directo a 'must' en su forma modal pura; se recurre a construcciones con 'ñe’ẽ poravo’ỹ' (deber) o 'opáichagua' (seguro).",
+    "rule": "En guaraní, los verbos modales para deducción se forman con las siguientes estructuras:\n\n1. **Deducción alta (must / debe ser)**: Se usa 'ñe’ẽ poravo’ỹ' + verbo en infinitivo o 'opáichagua' + verbo conjugado. Ejemplo: 'Opáichagua oiko' (Debe estar). También se emplea 'ñe’ẽ poravo’ỹ' + 'hína' para enfatizar la certeza: 'Ñe’ẽ poravo’ỹ oiko hína' (Debe estar ahora).\n\n2. **Deducción media (might / podría)**: Se usa 'icha' + verbo conjugado en presente o futuro. Ejemplo: 'Icháma oiko' (Podría estar) o 'Icháma oikóne' (Podría estar mañana). También se usa 'hína' con 'icha' para probabilidad en el momento: 'Icháma oiko hína' (Parece que está).\n\n3. **Deducción baja (could / podría ser)**: Se usa 'icha' + verbo en subjuntivo o 'icha' + 'hína' + verbo. Ejemplo: 'Icháma oikóva' (Podría estar) o 'Icháma oiko hína' (Parece que está).\n\n4. **Negación**: Se añade 'ndi-' al verbo o se usa 'ñe’ẽ poravo’ỹ' con negación: 'Ñe’ẽ poravo’ỹ ndoiko' (No debe estar) o 'Ndaicha oiko' (No parece estar).\n\nExcepciones:\n- En preguntas, se usa 'ma' al final: 'Icháma oiko ma?' (¿Podría estar?).\n- Para deducción en pasado, se usa 'oiko' + 'hína' + 'kuéra' (para plural) o 'oiko' + 'hína' + 'va’ekue' (para pasado reciente): 'Icháma oiko hína kuéra' (Parece que estaban).",
+    "concept_examples": [
+      {
+        "text": "Opáichagua oiko hína che sy.",
+        "translation": "Debe estar mi mamá.",
+        "phonetic": "/o.pa.iˈʃa.ɰa o.iˈko ˈi.na che ˈsɨ/"
+      },
+      {
+        "text": "Icháma oikóne nde retãme.",
+        "translation": "Podría estar en tu país mañana.",
+        "phonetic": "/iˈʃa.ma o.iˈko.ne nde reˈtã.me/"
+      },
+      {
+        "text": "Ndaicha oiko hína nde mitãkuéra.",
+        "translation": "No parece que estén tus hijos.",
+        "phonetic": "/ˈnda.i.ʃa o.iˈko ˈi.na nde mi.taˈku.e.ɾa/"
+      },
+      {
+        "text": "Ñe’ẽ poravo’ỹ ndoiko nde kuimba’e.",
+        "translation": "Tu esposo no debe estar aquí.",
+        "phonetic": "/ɲe.ˈʔe po.ɾa.ˈʋo.ɰ̃a ˈndo.i.ko nde kuiˈma.be/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Debe estar mi papá → *Ñe’ẽ poravo’ỹ oiko che ru.* (incorrecto, falta 'hína' para contexto presente).",
+      "correct": "Ñe’ẽ poravo’ỹ oiko hína che ru.",
+      "correct_alt": "Opáichagua oiko che ru.",
+      "explanation": "En guaraní, para expresar deducción en presente se requiere 'hína' después del verbo para contextualizar la acción. Sin 'hína', la frase suena incompleta o ambigua. Los hablantes de español tienden a omitir esta partícula porque en español no es necesaria ('Debe estar mi papá' es correcto). Además, 'opáichagua' es una alternativa válida para deducción alta, pero menos común en contextos informales."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ñe’ẽ poravo’ỹ (Deducción alta)",
+        "translation": "Deducción alta (must / debe ser)",
+        "examples": [
+          {
+            "original": "Opáichagua oiko hína nde sy.",
+            "phonetic": "/o.pa.iˈʃa.ɰa o.iˈko ˈi.na nde ˈsɨ/",
+            "translation": "Debe estar tu mamá.",
+            "note": "Usa 'opáichagua' para certeza absoluta en presente."
+          },
+          {
+            "original": "Ñe’ẽ poravo’ỹ oñepyrũ hína nde ñe’ẽ.",
+            "phonetic": "/ɲe.ˈʔe po.ɾa.ˈʋo.ɰ̃a o.ɲe.pɨˈɾũ ˈi.na nde ɲe.ˈʔe/",
+            "translation": "Debe empezar a hablar.",
+            "note": "Combina 'ñe’ẽ poravo’ỹ' con 'hína' para acciones en progreso."
+          },
+          {
+            "original": "Ñe’ẽ poravo’ỹ ndohechái nde mitã.",
+            "phonetic": "/ɲe.ˈʔe po.ɾa.ˈʋo.ɰ̃a ˈndo.e.ˈtʃa.i nde miˈtã/",
+            "translation": "No debe ver a tu hijo.",
+            "note": "La negación se forma con 'ndi-' en el verbo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Icháma (Deducción media)",
+        "translation": "Deducción media (might / podría)",
+        "examples": [
+          {
+            "original": "Icháma oiko hína nde kuimba’e.",
+            "phonetic": "/iˈʃa.ma o.iˈko ˈi.na nde kuiˈma.be/",
+            "translation": "Podría estar tu esposo.",
+            "note": "Usa 'icha' + 'hína' para probabilidad en el momento."
+          },
+          {
+            "original": "Icháma oikóne nde retãme.",
+            "phonetic": "/iˈʃa.ma o.iˈko.ne nde reˈtã.me/",
+            "translation": "Podría estar en tu país mañana.",
+            "note": "Combina 'icha' con futuro para probabilidad futura."
+          },
+          {
+            "original": "Ndaicha oiko nde sy.",
+            "phonetic": "/ˈnda.i.ʃa o.iˈko nde ˈsɨ/",
+            "translation": "No parece estar tu mamá.",
+            "note": "La negación 'ndaicha' va al inicio de la frase."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Icháma oiko hína (Deducción baja)",
+        "translation": "Deducción baja (could / podría ser)",
+        "examples": [
+          {
+            "original": "Icháma oikóva nde sy ojehecha haguã.",
+            "phonetic": "/iˈʃa.ma o.iˈko.βa nde ˈsɨ o.he.ˈtʃa aˈɰ̃a/",
+            "translation": "Podría estar tu mamá para visitar.",
+            "note": "Usa 'oikóva' para deducción en contexto de propósito."
+          },
+          {
+            "original": "Icháma oiko hína nde mitãkuéra oñepyrũ haguã.",
+            "phonetic": "/iˈʃa.ma o.iˈko ˈi.na nde mi.taˈku.e.ɾa o.ɲe.pɨˈɾũ aˈɰ̃a/",
+            "translation": "Parece que están tus hijos para empezar.",
+            "note": "Combina 'icha' + 'hína' + verbo en subjuntivo para probabilidad."
+          },
+          {
+            "original": "Ndaicha oikóne nde sy oñe’ẽ haguã.",
+            "phonetic": "/ˈnda.i.ʃa o.iˈko.ne nde ˈsɨ o.ɲe.ˈʔe aˈɰ̃a/",
+            "translation": "No parece que tu mamá venga a hablar mañana.",
+            "note": "Para negación en futuro, usa 'ndaicha' + futuro del verbo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔍",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbos modales para deducción (must, might, could)"
+    }
+  }
+]

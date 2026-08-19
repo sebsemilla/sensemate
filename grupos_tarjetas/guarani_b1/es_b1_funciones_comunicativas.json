@@ -1,0 +1,740 @@
+[
+  {
+    "id": "es_B1_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Ñemohenda ha ñembohory rehegua / Describir cambios a lo largo del tiempo",
+    "bridge": "En español, para describir cambios usamos principalmente el pretérito imperfecto ('antes hacía calor, ahora hace frío') o estructuras con 'se ha vuelto' ('se ha vuelto más difícil'). En guaraní, en cambio, el cambio se expresa con verbos específicos como *ñemohenda* (cambiar) o *ñembohory* (transformarse), junto a adverbios de tiempo como *ñoite* (ahora) o *ñoitegua* (antes). Un error común es traducir literalmente 'antes hacía calor' como *'ñoite oikóva'*, cuando en realidad se dice *'ñoitegua oikóva'*. La clave está en usar los adverbios de tiempo en posición inicial y los verbos de cambio correctamente.",
+    "rule": "Para describir cambios en guaraní, se usan las siguientes estructuras:\n1. **Adverbio de tiempo + verbo de cambio**:\n   - *Ñoitegua* (antes) / *ñoite* (ahora) + verbo de cambio (*ñemohenda*, *ñembohory*, *ñembyaty*, etc.) + sujeto.\n   - Ejemplo: *Ñoitegua che sy oñemohenda* (Antes mi mamá cambiaba).\n\n2. **Verbo en tiempo compuesto con *ñemohenda* o *ñembohory**:\n   - *Añemohenda* (yo he cambiado) / *oñembohory* (él/ella se ha transformado).\n   - Ejemplo: *Añemohenda che ñe’ẽ* (He cambiado mi forma de hablar).\n\n3. **Estructura comparativa con *ha’eva’ekue* (solía ser) o *ha’eva’ekue’ỹ* (ya no es)**:\n   - *Che ha’eva’ekue mba’eve* (Yo solía ser algo).\n   - *Che ha’eva’ekue’ỹ mba’eve* (Yo ya no soy algo).\n\n4. **Uso de *ñembyaty* (juntarse) para cambios sociales o colectivos**:\n   - *Ñoite oñembyaty Paraguái* (Antes Paraguay se juntaba [en comunidad]).\n\nExcepciones:\n- Para cambios graduales, se usa *ñemohenda* en presente: *Oñemohenda che po’a* (Mi suerte está cambiando).\n- Para cambios abruptos, se prefiere *ñembohory*: *Oñembohory che py’a* (Mi corazón se transformó [de repente]).",
+    "concept_examples": [
+      {
+        "text": "Ñoitegua oñemohenda che sy ha che kuña.",
+        "translation": "Antes mi padre y mi madre cambiaron.",
+        "phonetic": "/ɲoiteɣwa oɲemoɦenda tʃe sɨ ha tʃe kuɲa/"
+      },
+      {
+        "text": "Añemohenda che ñe’ẽ ha che mba’e rehe.",
+        "translation": "He cambiado mi forma de hablar y mis cosas.",
+        "phonetic": "/aɲemoɦenda tʃe ɲeʔẽ ha tʃe mbaʔe ɾeɦe/"
+      },
+      {
+        "text": "Ñoite oñembohory Paraguái ha oñembyaty haguã.",
+        "translation": "Antes Paraguay se transformó y se reunió para [algo].",
+        "phonetic": "/ɲoite oɲemboɦoɾɨ paɾaɣwaj ha oɲembjatɨ aɣʷã/"
+      },
+      {
+        "text": "Che ha’eva’ekue’ỹ mba’eve, ha che ha’eva’ekue mba’e porã.",
+        "translation": "Ya no soy nada, pero antes era algo bueno.",
+        "phonetic": "/tʃe aʔevaʔekueɨ̃ mbaʔeve, ha tʃe aʔevaʔekue mbaʔe poɾã/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ñoite oikóva che sy ha che kuña.",
+      "correct": "Ñoitegua oñemohenda che sy ha che kuña.",
+      "correct_alt": "Che ha’eva’ekue che sy ha che kuña.",
+      "explanation": "El error ocurre porque se usa el verbo *oikó* (estar) en lugar de un verbo de cambio como *ñemohenda*. En guaraní, para expresar cambios en personas o situaciones, se requieren verbos específicos que indiquen transformación (*ñemohenda*, *ñembohory*). La estructura *'ñoite oikóva'* suena como una descripción estática ('antes estaba'), no como un cambio. La corrección usa *ñoitegua* (antes) + *ñemohenda* (cambiar) o *ha’eva’ekue* (solía ser) para transmitir el cambio."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ñemohenda",
+        "translation": "Cambios graduales o progresivos",
+        "examples": [
+          {
+            "original": "Ñoitegua oñemohenda che po’a.",
+            "phonetic": "/ɲoiteɣwa oɲemoɦenda tʃe poʔa/",
+            "translation": "Antes mi suerte estaba cambiando.",
+            "note": "Usa *ñemohenda* para cambios que ocurren lentamente o en proceso."
+          },
+          {
+            "original": "Añemohenda che ñe’ẽ ha che mba’e rehe.",
+            "phonetic": "/aɲemoɦenda tʃe ɲeʔẽ ha tʃe mbaʔe ɾeɦe/",
+            "translation": "He cambiado mi forma de hablar y mis pertenencias.",
+            "note": "El verbo *añemohenda* en presente indica un cambio reciente o en curso."
+          },
+          {
+            "original": "Ñoite oñembohory che py’a.",
+            "phonetic": "/ɲoite oɲemboɦoɾɨ tʃe pɨʔa/",
+            "translation": "Antes mi corazón se transformó.",
+            "note": "Aunque *ñembohory* puede indicar cambio abrupto, aquí se usa para enfatizar una transformación emocional."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ñembohory",
+        "translation": "Cambios abruptos o radicales",
+        "examples": [
+          {
+            "original": "Oñembohory che py’a ha che mba’e rehe.",
+            "phonetic": "/oɲemboɦoɾɨ tʃe pɨʔa ha tʃe mbaʔe ɾeɦe/",
+            "translation": "Mi corazón y mis cosas se transformaron de repente.",
+            "note": "Usa *ñembohory* para cambios drásticos o emocionales intensos."
+          },
+          {
+            "original": "Ñoite oñembohory Paraguái ha oñembyaty haguã.",
+            "phonetic": "/ɲoite oɲemboɦoɾɨ paɾaɣwaj ha oɲembjatɨ aɣʷã/",
+            "translation": "Antes Paraguay se transformó y se reunió para [un propósito].",
+            "note": "Aquí *ñembohory* y *ñembyaty* se usan juntos para cambios sociales o políticos."
+          },
+          {
+            "original": "Che ha’e oñembohory che mba’e rehe.",
+            "phonetic": "/tʃe aʔe oɲemboɦoɾɨ tʃe mbaʔe ɾeɦe/",
+            "translation": "Yo mismo me transformé en mis cosas.",
+            "note": "El sujeto (*che*) + *ha’e* (mismo) + *ñembohory* enfatiza una metamorfosis personal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ha’eva’ekue",
+        "translation": "Cambios en identidad o estado previo",
+        "examples": [
+          {
+            "original": "Che ha’eva’ekue mba’eve, ha che ha’eva’ekue’ỹ mba’e porã.",
+            "phonetic": "/tʃe aʔevaʔekue mbaʔeve, ha tʃe aʔevaʔekueɨ̃ mbaʔe poɾã/",
+            "translation": "Antes era nada, pero ya no soy algo bueno.",
+            "note": "Usa *ha’eva’ekue* para describir un estado anterior y *ha’eva’ekue’ỹ* para negar ese estado en el presente."
+          },
+          {
+            "original": "Ñoite che ha’eva’ekue mba’e rire.",
+            "phonetic": "/ɲoite tʃe aʔevaʔekue mbaʔe ɾiɾe/",
+            "translation": "Antes yo era algo después [de algo].",
+            "note": "La estructura *'mba’e rire'* (después de algo) especifica el contexto del cambio."
+          },
+          {
+            "original": "Ha’eva’ekue che sy oñemohenda ha ha’eva’ekue’ỹ che kuña.",
+            "phonetic": "/aʔevaʔekue tʃe sɨ oɲemoɦenda ha aʔevaʔekueɨ̃ tʃe kuɲa/",
+            "translation": "Antes mi mamá cambiaba y ya no soy mujer.",
+            "note": "Combina *ha’eva’ekue* con *ñemohenda* para cambios en terceras personas y en uno mismo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🌱",
+    "phonetic": "",
+    "translations": {
+      "es": "Describir cambios a lo largo del tiempo"
+    }
+  },
+  {
+    "id": "es_B1_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Ñe’ẽ ha mba’eichapa ojehecha / Especular y hacer deducciones",
+    "bridge": "En español, para expresar deducciones usamos estructuras como 'debe ser', 'seguro que', 'probablemente' o el futuro simple ('será'). En guaraní, no existe un equivalente directo al futuro simple para este propósito, sino que se usan partículas modales como '-va' o '-ra' unidas a verbos en presente para indicar probabilidad o suposición. Los hablantes de español suelen caer en el error de traducir literalmente 'debe ser' como 'ojepyta' (que significa 'debe estar'), lo que suena forzado en guaraní. Además, la partícula '-va' puede confundirse con el sufijo '-va' que indica 'el que hace la acción', por lo que es clave dominar el contexto para evitar malentendidos.",
+    "rule": "Para expresar especulación o deducción en guaraní (nivel B1), se utilizan principalmente dos estructuras:\n\n1. **Verbo + sufijo '-va' o '-ra'**:\n   - '-va' se usa para suposiciones más seguras o evidentes.\n   - '-ra' se usa para suposiciones menos seguras o hipotéticas.\n   - Se añade al verbo en presente, y el sujeto concuerda en persona.\n   - Ejemplo con 'ha' (ser/estar):\n     - *Che ha-va* (Debe ser yo / Seguro que soy yo).\n     - *Nde ha-ra* (Probablemente eres tú).\n   - Para otros verbos, se usa el infinitivo + '-va' o '-ra':\n     - *Ahechava* (Debo verlo / Seguro que lo veo).\n     - *Ndehecharara* (Probablemente lo ves).\n\n2. **Partícula 'mba’éichapa' (¿cómo?) + verbo en presente**:\n   - Se usa para preguntar por una deducción o suposición.\n   - Ejemplo: *Mba’éichapa ojehecha nde?* (¿Cómo será que te ven? / ¿Cómo te verán?).\n\n**Excepciones y notas:**\n- '-va' y '-ra' no se usan con verbos estativos como 'ha' (ser/estar) en todas las personas. Por ejemplo, *ha-va* suena más natural que *che ha-va* en algunos dialectos.\n- En preguntas, se puede usar 'mba’éichapa' + verbo en presente o futuro simple (menos común en B1): *Mba’éichapa ojehecha nde?* (¿Cómo te verán?).\n- Evitar el uso de 'ojepyta' (debe estar) para deducciones, ya que suena forzado y es más literal.",
+    "concept_examples": [
+      {
+        "text": "Ahechava nde kuñataĩ",
+        "translation": "Seguro que veo a tu hermana.",
+        "phonetic": "a.he.ˈtʃa.βa nde ku.ɲa.ˈtaĩ"
+      },
+      {
+        "text": "Ndehecharara nde rekávo",
+        "translation": "Probablemente ves tu casa.",
+        "phonetic": "nde.e.tʃa.ˈra.ɾa nde re.ˈka.βo"
+      },
+      {
+        "text": "Mba’éichapa ojehecha nde?",
+        "translation": "¿Cómo te verán?",
+        "phonetic": "mba.ˈe.i.tʃa.pa o.he.ˈe.tʃa nde"
+      },
+      {
+        "text": "Ha-va peteĩ mba’e oikóva ára",
+        "translation": "Debe ser algo que está pasando hoy.",
+        "phonetic": "a.ˈva pe.ˈteĩ mba.ˈe o.i.ˈko.βa ˈa.ɾa"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ojepyta peteĩ mba’e oikóva ára.",
+      "correct": "Ha-va peteĩ mba’e oikóva ára.",
+      "correct_alt": "Ahechava peteĩ mba’e oikóva ára.",
+      "explanation": "El error ocurre porque 'ojepyta' (debe estar) es una traducción literal del español 'debe ser', pero en guaraní suena forzado y no expresa deducción de manera natural. La estructura correcta usa '-va' o '-ra' con el verbo 'ha' (ser/estar) o el verbo principal en presente. 'Ha-va' es más conciso y natural para expresar suposiciones."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ha-va (seguro que)",
+        "translation": "Seguro que / Debe ser",
+        "examples": [
+          {
+            "original": "Ahechava nde",
+            "phonetic": "a.he.ˈtʃa.βa nde",
+            "translation": "Seguro que te veo.",
+            "note": "Usa '-va' con el verbo en presente para suposiciones seguras. Equivalente a 'debe ser que te veo'."
+          },
+          {
+            "original": "Ha-va peteĩ mba’e ojehecha",
+            "phonetic": "a.ˈva pe.ˈteĩ mba.ˈe o.he.ˈe.tʃa",
+            "translation": "Seguro que algo ven.",
+            "note": "El sufijo '-va' se añade al verbo 'ha' (ser) para expresar deducción sobre una acción."
+          },
+          {
+            "original": "Ndehecharara nde rekávo",
+            "phonetic": "nde.e.tʃa.ˈra.ɾa nde re.ˈka.βo",
+            "translation": "Probablemente ves tu casa.",
+            "note": "Usa '-ra' para suposiciones menos seguras. Compara con '-va' para notar la diferencia de certeza."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mba’éichapa (preguntas de deducción)",
+        "translation": "¿Cómo...? (para deducciones)",
+        "examples": [
+          {
+            "original": "Mba’éichapa ojehecha nde?",
+            "phonetic": "mba.ˈe.i.tʃa.pa o.he.ˈe.tʃa nde",
+            "translation": "¿Cómo te verán?",
+            "note": "Usa 'mba’éichapa' + verbo en presente para preguntar por una deducción. Equivalente a '¿cómo será que te ven?'."
+          },
+          {
+            "original": "Mba’éichapa oñe’ẽ nde?",
+            "phonetic": "mba.ˈe.i.tʃa.pa o.ɲe.ˈʔẽ nde",
+            "translation": "¿Cómo hablarán de ti?",
+            "note": "El verbo 'ñe’ẽ' (hablar) se usa en presente para preguntar por una acción futura hipotética."
+          },
+          {
+            "original": "Mba’éichapa ojehecha nde kuñataĩ?",
+            "phonetic": "mba.ˈe.i.tʃa.pa o.he.ˈe.tʃa nde ku.ɲa.ˈtaĩ",
+            "translation": "¿Cómo verán a tu hermana?",
+            "note": "La estructura es flexible: se puede usar con cualquier verbo de percepción o acción."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ojehecha ha oñe’ẽ (ver y hablar)",
+        "translation": "Ver y hablar (deducciones sobre acciones)",
+        "examples": [
+          {
+            "original": "Ojehechava peteĩ mba’e oikóva ára",
+            "phonetic": "o.he.ˈe.tʃa.βa pe.ˈteĩ mba.ˈe o.i.ˈko.βa ˈa.ɾa",
+            "translation": "Seguro que ven algo que está pasando hoy.",
+            "note": "Usa 'ojehecha' (ven) + '-va' para expresar una deducción sobre una acción observable."
+          },
+          {
+            "original": "Oñe’ẽva nde rekávo",
+            "phonetic": "o.ɲe.ˈʔẽ.βa nde re.ˈka.βo",
+            "translation": "Seguro que hablan de tu casa.",
+            "note": "El verbo 'oñe’ẽ' (hablan) + '-va' expresa una suposición sobre un tema de conversación."
+          },
+          {
+            "original": "Ojehecharara nde rekávo",
+            "phonetic": "o.he.ˈe.tʃa.ˈra.ɾa nde re.ˈka.βo",
+            "translation": "Probablemente ven tu casa.",
+            "note": "Combina 'ojehecha' (ven) + '-ra' para una suposición menos segura, similar a 'probablemente'."
+          },
+          {
+            "original": "Mba’éichapa oñe’ẽ nde rekávo?",
+            "phonetic": "mba.ˈe.i.tʃa.pa o.ɲe.ˈʔẽ nde re.ˈka.βo",
+            "translation": "¿Cómo hablarán de tu casa?",
+            "note": "Pregunta abierta para deducciones sobre conversaciones o rumores."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "es": "Especular y hacer deducciones"
+    }
+  },
+  {
+    "id": "es_B1_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Ñemombe’ú ha mba’éichapa oiko (Expresar arrepentimiento y situaciones hipotéticas)",
+    "bridge": "En español, para expresar arrepentimiento o hipótesis usamos estructuras como 'Ojalá + subjuntivo' o 'Si + imperfecto de subjuntivo + condicional'. En guaraní, en cambio, se emplea el sufijo '-va'erã' para marcar el deseo o arrepentimiento y '-rã' para hipótesis, sin necesidad de conjugaciones complejas. Un error común es traducir literalmente 'Si tuviera dinero, viajaría' como 'Che reikovei che remiandu, ajeikotevẽi' (incorrecto), cuando lo correcto es usar '-rã' en la primera parte: 'Che reikovei che remiandu, ajeikotevẽi' → 'Che reikovei che remiandu rã, ajeikotevẽi'. La clave está en entender que el guaraní simplifica estas estructuras mediante sufijos, no mediante tiempos verbales.",
+    "rule": "Para expresar arrepentimiento o deseos no cumplidos en guaraní, se usa la estructura: [Verbo en forma afirmativa] + '-va'erã' (sufijo de deseo/arrepentimiento). Ejemplo: 'Añemba’asy che rembi’u va’erã' (Me arrepiento de haber comido). Para hipótesis o situaciones hipotéticas, se emplea: [Verbo en forma afirmativa] + '-rã' (sufijo de hipótesis). Ejemplo: 'Che ajehechauka rã, ndaikuaái' (Si lo supiera, no preguntaría). \n\n1. **Estructura de arrepentimiento**:\n   - '-va'erã' se añade al verbo principal en tiempo afirmativo. No cambia según persona ni tiempo. Ejemplo: 'Ahecháicha che mba’e va’erã' (Ojalá no hubiera pasado eso).\n   - En negativo, se usa 'ndo...-i va’erã' (no + verbo + sufijo). Ejemplo: 'Ndohechái che mba’e va’erã' (Ojalá no hubiera visto eso).\n\n2. **Estructura de hipótesis**:\n   - '-rã' se añade al verbo en tiempo afirmativo. No requiere concordancia. Ejemplo: 'Che aju rã, ndaikuaái' (Si viniera, no sabría).\n   - En negativo, se usa 'ndo...-i rã'. Ejemplo: 'Ndohechái rã, ndaikuaái' (Si no lo hubiera visto, no sabría).\n\n3. **Combinación con otras partículas**:\n   - Para enfatizar, se puede usar 'ete' (muy) antes del sufijo: 'Añemba’asy ete che rembi’u va’erã' (Me arrepiento mucho de haber comido).\n   - Para hipótesis en pasado, se usa 'kue' (pasado) antes del sufijo: 'Che ahechá kue rã, ndaikuaái' (Si lo hubiera visto antes, no sabría).\n\nExcepciones: Algunos verbos irregulares en pasado (como 'ahecha' → 'ahechá') mantienen su forma base al añadir sufijos.",
+    "concept_examples": [
+      {
+        "text": "Añemba’asy che rembi’u va’erã.",
+        "translation": "Me arrepiento de haber comido.",
+        "phonetic": "aɲẽmbaʔaˈsɨ tʃe ɾẽmˈbɨʔu vaʔeˈɾã"
+      },
+      {
+        "text": "Che ajehechauka rã, ndaikuaái.",
+        "translation": "Si lo supiera, no preguntaría.",
+        "phonetic": "tʃe aheɟeˈtʃaʊka ɾã, ndaikwaˈai"
+      },
+      {
+        "text": "Ndohechái che mba’e va’erã.",
+        "translation": "Ojalá no hubiera visto eso.",
+        "phonetic": "ndoheˈtʃai tʃe mbaʔe vaʔeˈɾã"
+      },
+      {
+        "text": "Che aju rã, ndaikuaái.",
+        "translation": "Si viniera, no sabría qué hacer.",
+        "phonetic": "tʃe aˈju ɾã, ndaikwaˈai"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che reikovei che remiandu, ajeikotevẽi.",
+      "correct": "Che reikovei che remiandu rã, ajeikotevẽi.",
+      "correct_alt": "Che reikovei che remiandu, ajeikotevẽi rã.",
+      "explanation": "El error ocurre porque se intenta traducir literalmente la estructura española 'Si tuviera dinero, viajaría' usando el subjuntivo en guaraní. En realidad, el guaraní no requiere conjugaciones complejas para hipótesis. La partícula '-rã' debe añadirse al verbo en la primera parte de la oración (hipótesis) o al final de toda la frase. La forma correcta usa '-rã' en la cláusula hipotética, no en el verbo principal."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ñemombe’ú va’erã",
+        "translation": "Expresar arrepentimiento",
+        "examples": [
+          {
+            "original": "Añemba’asy che rembi’u va’erã.",
+            "phonetic": "aɲẽmbaʔaˈsɨ tʃe ɾẽmˈbɨʔu vaʔeˈɾã",
+            "translation": "Me arrepiento de haber comido.",
+            "note": "Ejemplo básico de arrepentimiento usando '-va'erã' con verbo en pasado."
+          },
+          {
+            "original": "Ndohechái che mba’e va’erã.",
+            "phonetic": "ndoheˈtʃai tʃe mbaʔe vaʔeˈɾã",
+            "translation": "Ojalá no hubiera visto eso.",
+            "note": "Uso de 'ndo...-i' para negar el arrepentimiento."
+          },
+          {
+            "original": "Añemba’asy ete che rembi’upy va’erã.",
+            "phonetic": "aɲẽmbaʔaˈsɨ ˈete tʃe ɾẽmˈbɨʔuˈpɨ vaʔeˈɾã",
+            "translation": "Me arrepiento mucho de haber bebido.",
+            "note": "Uso de 'ete' para enfatizar el arrepentimiento."
+          },
+          {
+            "original": "Ndohechái che mba’e ete va’erã.",
+            "phonetic": "ndoheˈtʃai tʃe mbaʔe ˈete vaʔeˈɾã",
+            "translation": "Ojalá no hubiera pasado eso de verdad.",
+            "note": "Combinación de 'ete' con negación para mayor énfasis."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mba’éichapa oiko rã",
+        "translation": "Expresar hipótesis",
+        "examples": [
+          {
+            "original": "Che ajehechauka rã, ndaikuaái.",
+            "phonetic": "tʃe aheɟeˈtʃaʊka ɾã, ndaikwaˈai",
+            "translation": "Si lo supiera, no preguntaría.",
+            "note": "Hipótesis en presente usando '-rã'."
+          },
+          {
+            "original": "Che aju rã, ndaikuaái.",
+            "phonetic": "tʃe aˈju ɾã, ndaikwaˈai",
+            "translation": "Si viniera, no sabría qué hacer.",
+            "note": "Hipótesis con verbo de movimiento."
+          },
+          {
+            "original": "Ndohechái rã, ndaikuaái.",
+            "phonetic": "ndoheˈtʃai ɾã, ndaikwaˈai",
+            "translation": "Si no lo hubiera visto, no sabría.",
+            "note": "Hipótesis negativa usando 'ndo...-i'."
+          },
+          {
+            "original": "Che ahechá kue rã, ndaikuaái.",
+            "phonetic": "tʃe aheˈtʃa kwe ɾã, ndaikwaˈai",
+            "translation": "Si lo hubiera visto antes, no sabría.",
+            "note": "Hipótesis en pasado usando 'kue'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ñemoañetéva ha mba’éichapa",
+        "translation": "Combinar arrepentimiento e hipótesis",
+        "examples": [
+          {
+            "original": "Añemba’asy che rembi’u va’erã, che aju rã.",
+            "phonetic": "aɲẽmbaʔaˈsɨ tʃe ɾẽmˈbɨʔu vaʔeˈɾã, tʃe aˈju ɾã",
+            "translation": "Me arrepiento de haber comido, si viniera ahora.",
+            "note": "Combinación de arrepentimiento y hipótesis en una sola frase."
+          },
+          {
+            "original": "Ndohechái che mba’e va’erã, che ahechá kue rã.",
+            "phonetic": "ndoheˈtʃai tʃe mbaʔe vaʔeˈɾã, tʃe aheˈtʃa kwe ɾã",
+            "translation": "Ojalá no hubiera visto eso, si lo hubiera visto antes.",
+            "note": "Uso de pasado en ambas partes de la oración."
+          },
+          {
+            "original": "Añemba’asy ete che rembi’upy va’erã, che aju rã ndaikuaái.",
+            "phonetic": "aɲẽmbaʔaˈsɨ ˈete tʃe ɾẽmˈbɨʔuˈpɨ vaʔeˈɾã, tʃe aˈju ɾã ndaikwaˈai",
+            "translation": "Me arrepiento mucho de haber bebido, si viniera ahora no sabría qué hacer.",
+            "note": "Frase compleja con énfasis y doble hipótesis."
+          },
+          {
+            "original": "Ndohechái che mba’e ete va’erã, che ahechá kue rã ndaikuaái.",
+            "phonetic": "ndoheˈtʃai tʃe mbaʔe ˈete vaʔeˈɾã, tʃe aheˈtʃa kwe ɾã ndaikwaˈai",
+            "translation": "Ojalá no hubiera pasado eso de verdad, si lo hubiera visto antes no sabría.",
+            "note": "Uso de 'ete' para enfatizar y pasado en ambas cláusulas."
+          }
+        ]
+      }
+    ],
+    "emoji": "😔",
+    "phonetic": "",
+    "translations": {
+      "es": "Expresar arrepentimiento e hipótesis"
+    }
+  },
+  {
+    "id": "es_B1_func_04",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Ñe’ẽmbohovái ha ñe’ẽmbojeroviá / Ventajas y desventajas de una idea",
+    "bridge": "En español, para expresar ventajas y desventajas se suelen usar estructuras como 'por un lado... por otro lado' o 'tiene la ventaja de... pero la desventaja es que...'. En guaraní, en cambio, se emplea el sufijo -va’e para marcar el contraste entre dos ideas opuestas dentro de una misma oración, lo que puede confundir a los hispanohablantes que esperan una estructura paralela. Además, el guaraní no usa conectores explícitos como 'pero' o 'sin embargo' en estos casos, sino que el contraste se marca mediante la entonación y la posición de las palabras. Otro punto clave es que el guaraní prefiere frases cortas y directas, mientras que en español se tiende a alargar las oraciones con subordinadas.",
+    "rule": "Para expresar ventajas y desventajas en guaraní, se utiliza la estructura: [idea] + -va’e (para la ventaja) / -’i (para la desventaja) + [explicación]. El sufijo -va’e indica 'aquello que es bueno' o 'lo positivo', mientras que -’i indica 'aquello que es malo' o 'lo negativo'. También se puede usar la partícula 'ha' (y) para unir dos ideas contrastantes. \n\nFormas:\n1. Para una sola ventaja/desventaja: [idea] + -va’e / -’i + [explicación]. Ejemplo: 'Ñande rekávo va’e oñembo’ehára' (Lo que nos gusta es divertido).\n2. Para contrastar dos ideas: [idea 1] + -va’e ha [idea 2] + -’i. Ejemplo: 'Ñande rekávo va’e oñembo’ehára ha ñande ndoikuaái’i' (Lo que nos gusta es divertido y lo que no sabemos es aburrido).\n3. Para enfatizar: se puede repetir la idea con -va’e y -’i. Ejemplo: 'Ñande rekávo va’e oñembo’ehára, ha ñande ndoikuaái’i oñembo’ehára' (Lo que nos gusta es divertido, y lo que no sabemos es aburrido).\n\nExcepciones:\n- Cuando la idea es un verbo, se usa el sufijo -hára para -va’e y -’i para -’i. Ejemplo: 'Ñande oñembo’ehára va’e' (Lo que nos gusta hacer).\n- En preguntas, se usa 'mba’éichapa' (cómo) para pedir opiniones. Ejemplo: 'Mba’éichapa oñembo’ehára va’e?' (¿Cómo es lo que nos gusta?).",
+    "concept_examples": [
+      {
+        "text": "Ñande rekávo va’e oñembo’ehára, ha ñande ndoikuaái’i oñembo’ehára.",
+        "translation": "Lo que nos gusta es divertido, pero lo que no sabemos es aburrido.",
+        "phonetic": "/ɲa.de re.ˈka.βo ˈva.e o.ɲe.mbo.eˈha.ɾa, a ˈɲa.de ndoi.kuaˈai̯ ˈʔi o.ɲe.mbo.eˈha.ɾa/"
+      },
+      {
+        "text": "Pe mba’e oñembo’ehára va’e oñepyrũ haguã ojehechaukávo.",
+        "translation": "La idea que nos gusta es buena para empezar, pero hay que analizarla bien.",
+        "phonetic": "/pe ˈmba.e o.ɲe.mbo.eˈha.ɾa ˈva.e o.ɲe.pɨ.ˈɾũ ha.ɣʷa o.he.che.tʃau̯ˈka.βo/"
+      },
+      {
+        "text": "Ñande oñembo’ehára va’e oñepyrũ haguã, ha ñande ndoikuaái’i oñepyrũ haguã ojehechaukávo.",
+        "translation": "Nos gusta la idea de empezar, pero no nos gusta analizarla antes de empezar.",
+        "phonetic": "/ˈɲa.de o.ɲe.mbo.eˈha.ɾa ˈva.e o.ɲe.pɨ.ˈɾũ ha.ɣʷa, a ˈɲa.de ndoi.kuaˈai̯ ˈʔi o.ɲe.pɨ.ˈɾũ ha.ɣʷa o.he.che.tʃau̯ˈka.βo/"
+      },
+      {
+        "text": "Pe mba’e oñembo’ehára va’e oñepyrũ haguã ojehechaukávo, ha pe mba’e ndoikuaái’i oñembo’ehára.",
+        "translation": "La idea que nos gusta es buena para empezar y analizar, pero la que no nos gusta no es divertida.",
+        "phonetic": "/pe ˈmba.e o.ɲe.mbo.eˈha.ɾa ˈva.e o.ɲe.pɨ.ˈɾũ ha.ɣʷa o.he.che.tʃau̯ˈka.βo, a pe ˈmba.e ndoi.kuaˈai̯ ˈʔi o.ɲe.mbo.eˈha.ɾa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Pe mba’e oñembo’ehára, pero ojehechaukávo ha ndoikuaái.",
+      "correct": "Pe mba’e oñembo’ehára va’e oñepyrũ haguã ojehechaukávo, ha pe mba’e ndoikuaái’i oñembo’ehára.",
+      "correct_alt": "Pe mba’e oñembo’ehára va’e, ha pe mba’e ndoikuaái’i oñembo’ehára ojehechaukávo.",
+      "explanation": "El error ocurre porque el hablante hispanohablante intenta traducir literalmente la estructura española 'pero' y usa 'pero' en guaraní, lo que no es necesario. En guaraní, el contraste se marca con los sufijos -va’e y -’i, y la partícula 'ha' (y) para unir las ideas. Además, la explicación debe ser clara y directa, sin conectores redundantes. La estructura correcta enfatiza la oposición mediante los sufijos y la posición de las palabras."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ñe’ẽmbohovái",
+        "translation": "Expresar ventajas",
+        "examples": [
+          {
+            "original": "Pe mba’e oñembo’ehára va’e oñepyrũ haguã.",
+            "phonetic": "/pe ˈmba.e o.ɲe.mbo.eˈha.ɾa ˈva.e o.ɲe.pɨ.ˈɾũ ha.ɣʷa./",
+            "translation": "La idea que nos gusta es buena para empezar.",
+            "note": "Introduce la estructura básica con -va’e para marcar la ventaja. Enfatiza que el sufijo va después del verbo o idea principal."
+          },
+          {
+            "original": "Ñande rekávo va’e oñembo’ehára.",
+            "phonetic": "/ˈɲa.de re.ˈka.βo ˈva.e o.ɲe.mbo.eˈha.ɾa./",
+            "translation": "Lo que nos gusta es divertido.",
+            "note": "Usa verbos en presente para expresar preferencias. El sufijo -va’e va después del verbo."
+          },
+          {
+            "original": "Pe mba’e oñembo’ehára va’e ojehechaukávo.",
+            "phonetic": "/pe ˈmba.e o.ɲe.mbo.eˈha.ɾa ˈva.e o.he.che.tʃau̯ˈka.βo./",
+            "translation": "La idea que nos gusta es buena para analizar.",
+            "note": "Combina el sufijo -va’e con una explicación adicional usando 'ojehechaukávo' (para analizar)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ñe’ẽmbojeroviá",
+        "translation": "Expresar desventajas",
+        "examples": [
+          {
+            "original": "Pe mba’e ndoikuaái’i oñembo’ehára.",
+            "phonetic": "/pe ˈmba.e ndoi.kuaˈai̯ ˈʔi o.ɲe.mbo.eˈha.ɾa./",
+            "translation": "La idea que no nos gusta no es divertida.",
+            "note": "Usa el sufijo -’i para marcar la desventaja. Enfatiza la negación 'nd-' antes del verbo."
+          },
+          {
+            "original": "Ñande ndoikuaái’i oñepyrũ haguã.",
+            "phonetic": "/ˈɲa.de ndoi.kuaˈai̯ ˈʔi o.ɲe.pɨ.ˈɾũ ha.ɣʷa./",
+            "translation": "No nos gusta empezar.",
+            "note": "Combina la negación 'nd-' con el sufijo -’i para expresar desinterés o rechazo."
+          },
+          {
+            "original": "Pe mba’e ndoikuaái’i ojehechaukávo.",
+            "phonetic": "/pe ˈmba.e ndoi.kuaˈai̯ ˈʔi o.he.che.tʃau̯ˈka.βo./",
+            "translation": "La idea que no nos gusta no es buena para analizar.",
+            "note": "Usa el sufijo -’i con una explicación adicional para expresar una desventaja concreta."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ñe’ẽmbohovái ha ñe’ẽmbojeroviá",
+        "translation": "Contrastar ventajas y desventajas",
+        "examples": [
+          {
+            "original": "Pe mba’e oñembo’ehára va’e oñepyrũ haguã, ha pe mba’e ndoikuaái’i oñembo’ehára.",
+            "phonetic": "/pe ˈmba.e o.ɲe.mbo.eˈha.ɾa ˈva.e o.ɲe.pɨ.ˈɾũ ha.ɣʷa, a pe ˈmba.e ndoi.kuaˈai̯ ˈʔi o.ɲe.mbo.eˈha.ɾa./",
+            "translation": "La idea que nos gusta es buena para empezar, pero la que no nos gusta no es divertida.",
+            "note": "Combina ambas estructuras con 'ha' (y) para contrastar. Enfatiza el uso de los sufijos -va’e y -’i en cada parte."
+          },
+          {
+            "original": "Ñande rekávo va’e oñembo’ehára, ha ñande ndoikuaái’i oñembo’ehára.",
+            "phonetic": "/ˈɲa.de re.ˈka.βo ˈva.e o.ɲe.mbo.eˈha.ɾa, a ˈɲa.de ndoi.kuaˈai̯ ˈʔi o.ɲe.mbo.eˈha.ɾa./",
+            "translation": "Lo que nos gusta es divertido, pero lo que no nos gusta no lo es.",
+            "note": "Usa frases cortas y directas para contrastar. El sufijo -va’e va en la primera parte, y -’i en la segunda."
+          },
+          {
+            "original": "Pe mba’e oñembo’ehára va’e ojehechaukávo, ha pe mba’e ndoikuaái’i oñepyrũ haguã.",
+            "phonetic": "/pe ˈmba.e o.ɲe.mbo.eˈha.ɾa ˈva.e o.he.che.tʃau̯ˈka.βo, a pe ˈmba.e ndoi.kuaˈai̯ ˈʔi o.ɲe.pɨ.ˈɾũ ha.ɣʷa./",
+            "translation": "La idea que nos gusta es buena para analizar, pero la que no nos gusta no es buena para empezar.",
+            "note": "Combina ambas estructuras con explicaciones diferentes para cada parte del contraste."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "es": "Ventajas y desventajas de una idea"
+    }
+  },
+  {
+    "id": "es_B1_func_05",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Ñemombe’upy / Narrar una historia o anécdota",
+    "bridge": "En español, para narrar historias usamos principalmente el pretérito indefinido o imperfecto, pero en guaraní el enfoque es distinto: se prioriza el uso de verbos en tiempo pasado con sufijos específicos (-kue, -rã, -ma) que indican aspecto y no tiempo absoluto. Los hablantes de español pueden caer en el error de traducir literalmente estructuras como 'yo fui' como 'ahé aha', cuando en realidad el guaraní requiere 'ahé aha kue' para expresar una acción completada. Además, el guaraní utiliza partículas como 'ño' o 'nte' para marcar énfasis o continuidad, algo que no tiene equivalente directo en español.",
+    "rule": "Para narrar historias en guaraní (B1), se emplean principalmente los siguientes recursos:\n\n1. **Verbos en pasado con sufijos aspectuales:**\n   - **-kue**: Indica acción completada en el pasado reciente o con relevancia actual. Ejemplo: 'ahá' (voy) → 'ahá kue' (fui).\n   - **-rã**: Expresa intención o futuro en contexto narrativo. Ejemplo: 'ahá rã' (iba a ir).\n   - **-ma**: Marca acción terminada con énfasis en el resultado. Ejemplo: 'ahá ma' (ya fui).\n\n2. **Partículas narrativas:**\n   - **Ño**: Se usa para enfatizar o introducir un cambio en la historia. Ejemplo: 'Ño, ha upéa...' (Pues, y entonces...).\n   - **Nte**: Indica continuidad o repetición. Ejemplo: 'Ha upéa nte...' (Y entonces, de nuevo...).\n\n3. **Estructura básica:**\n   - Se inicia con una partícula de transición (ej. 'Ha', 'Ño') seguida de la acción en pasado con sufijo.\n   - Para describir escenas, se usan verbos en imperfecto (sin sufijo) o con '-va' para acciones habituales.\n\n4. **Excepciones:**\n   - Verbos irregulares como 'aikuaa' (saber) → 'aikuaa kue' (supe).\n   - En diálogos directos, se omite el sufijo si el contexto es claro (ej. 'Che ha' en lugar de 'Che aha kue').",
+    "concept_examples": [
+      {
+        "text": "Ha upéa, che ha kue ogape, che rohecháma nde rekávo.",
+        "translation": "Y entonces, yo fui a la casa y te vi allí.",
+        "phonetic": "a uˈpe.a, t͡ʃe aˈha ˈkwe oˈɣape, t͡ʃe ro.eˈt͡ʃa.ma nde reˈka.βo."
+      },
+      {
+        "text": "Ño, ha upéa, ndaikuaái kue che sy rehe.",
+        "translation": "Pues, y entonces, no supe nada de mi madre.",
+        "phonetic": "ɲo, a uˈpe.a, ndai̯.kuˈa.i ˈkwe t͡ʃe sɨ ˈre.e."
+      },
+      {
+        "text": "Che aha rã ogape, pero che sy oñemondóma.",
+        "translation": "Iba a ir a la casa, pero mi madre ya se había ido.",
+        "phonetic": "t͡ʃe aˈha ˈrã oˈɣape, ˈpeɾo t͡ʃe sɨ o.ɲe.monˈdo.ma."
+      },
+      {
+        "text": "Ha upéa nte, che rohecháma nde rekávo ojehecháma ha oñe’ẽma.",
+        "translation": "Y entonces de nuevo, te vi allí y nos hablamos y nos despedimos.",
+        "phonetic": "a uˈpe.a ˈnte, t͡ʃe ro.eˈt͡ʃa.ma nde reˈka.βo o.heˈt͡ʃa.ma a o.ɲe.ʔẽ.ma."
+      }
+    ],
+    "common_error": {
+      "wrong": "Che aha ogape ha che rohecháma nde rekávo.",
+      "correct": "Ha upéa, che ha kue ogape, che rohecháma nde rekávo.",
+      "correct_alt": "Ño, che aha kue ogape, che rohecháma nde rekávo.",
+      "explanation": "El error ocurre porque en español se usa el pretérito perfecto simple ('fui') sin marcar aspecto, pero en guaraní es obligatorio usar el sufijo '-kue' para indicar que la acción está completada y tiene relevancia en el presente de la narración. La partícula 'ha' o 'ño' al inicio ayuda a estructurar la historia como en español se haría con 'y entonces' o 'pues'. Sin '-kue', la frase suena incompleta o ambigua en guaraní."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ñemombe’upy ñepyrũ",
+        "translation": "Introducción a la narración",
+        "examples": [
+          {
+            "original": "Ha upéa, che ha kue ogape.",
+            "phonetic": "a uˈpe.a, t͡ʃe aˈha ˈkwe oˈɣape.",
+            "translation": "Y entonces, yo fui a la casa.",
+            "note": "Ejemplo básico con partícula 'ha' y verbo en pasado con '-kue'. Ideal para iniciar una historia."
+          },
+          {
+            "original": "Ño, ha upéa, ndaikuaái kue che sy rehe.",
+            "phonetic": "ɲo, a uˈpe.a, ndai̯.kuˈa.i ˈkwe t͡ʃe sɨ ˈre.e.",
+            "translation": "Pues, y entonces, no supe nada de mi madre.",
+            "note": "Muestra el uso de 'ño' para énfasis y 'ndaikuaái kue' para acciones completadas."
+          },
+          {
+            "original": "Che aha rã ogape, pero...",
+            "phonetic": "t͡ʃe aˈha ˈrã oˈɣape, ˈpeɾo...",
+            "translation": "Iba a ir a la casa, pero...",
+            "note": "Introduce el sufijo '-rã' para expresar intención o futuro en contexto narrativo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ñemombe’upy oñembohasa",
+        "translation": "Desarrollo de la narración",
+        "examples": [
+          {
+            "original": "Ha upéa, che ha kue ogape, che rohecháma nde rekávo.",
+            "phonetic": "a uˈpe.a, t͡ʃe aˈha ˈkwe oˈɣape, t͡ʃe ro.eˈt͡ʃa.ma nde reˈka.βo.",
+            "translation": "Y entonces, yo fui a la casa y te vi allí.",
+            "note": "Combinación de dos acciones en pasado con '-kue' para mostrar secuencia."
+          },
+          {
+            "original": "Ño, ha upéa, che sy oñemondóma ha che rohecháma ha’e.",
+            "phonetic": "ɲo, a uˈpe.a, t͡ʃe sɨ o.ɲe.monˈdo.ma a t͡ʃe ro.eˈt͡ʃa.ma aˈe.",
+            "translation": "Pues, y entonces, mi madre ya se había ido y me encontró.",
+            "note": "Uso de '-ma' para acciones terminadas con énfasis en el resultado."
+          },
+          {
+            "original": "Che aha rã ogape, pero che sy oñemondóma.",
+            "phonetic": "t͡ʃe aˈha ˈrã oˈɣape, ˈpeɾo t͡ʃe sɨ o.ɲe.monˈdo.ma.",
+            "translation": "Iba a ir a la casa, pero mi madre ya se había ido.",
+            "note": "Contraste entre intención ('-rã') y acción completada ('-ma')."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ñemombe’upy oñemboaje",
+        "translation": "Cierre de la narración",
+        "examples": [
+          {
+            "original": "Ha upéa nte, che rohecháma nde rekávo ojehecháma ha oñe’ẽma.",
+            "phonetic": "a uˈpe.a ˈnte, t͡ʃe ro.eˈt͡ʃa.ma nde reˈka.βo o.heˈt͡ʃa.ma a o.ɲe.ʔẽ.ma.",
+            "translation": "Y entonces de nuevo, te vi allí, nos hablamos y nos despedimos.",
+            "note": "Uso de 'nte' para marcar continuidad y '-ma' para acciones terminadas en secuencia."
+          },
+          {
+            "original": "Ño, ha upéa, che sy oñemondóma ha che rohecháma ha’e, ha upéa che aha kue ogape.",
+            "phonetic": "ɲo, a uˈpe.a, t͡ʃe sɨ o.ɲe.monˈdo.ma a t͡ʃe ro.eˈt͡ʃa.ma aˈe, a uˈpe.a t͡ʃe aˈha ˈkwe oˈɣape.",
+            "translation": "Pues, y entonces, mi madre ya se había ido y me encontró, y entonces yo fui a la casa.",
+            "note": "Estructura compleja con múltiples acciones en pasado y cierre de la historia."
+          },
+          {
+            "original": "Che aha rã ogape, pero che sy oñemondóma, ha upéa che rohecháma nde rekávo.",
+            "phonetic": "t͡ʃe aˈha ˈrã oˈɣape, ˈpeɾo t͡ʃe sɨ o.ɲe.monˈdo.ma, a uˈpe.a t͡ʃe ro.eˈt͡ʃa.ma nde reˈka.βo.",
+            "translation": "Iba a ir a la casa, pero mi madre ya se había ido, y entonces te vi allí.",
+            "note": "Combinación de '-rã' para intención, '-ma' para acciones completadas y cierre con 'ha upéa'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "es": "Narrar una historia o anécdota"
+    }
+  },
+  {
+    "id": "es_B1_func_06",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Ñe’ẽ ha mba’eichaitéva / Expresar y defender un punto de vista",
+    "bridge": "En español, para argumentar un punto de vista se suelen usar conectores como 'porque', 'ya que' o 'por lo tanto', que son explícitos y estructuran el discurso de manera lógica. En guaraní, en cambio, la argumentación se basa más en la entonación, el uso de partículas enfáticas como '-mi' o '-pa' y estructuras sintácticas que priorizan el orden tema-rema. Los hispanohablantes pueden caer en el error de traducir literalmente 'porque' como 'porque' en guaraní, cuando en realidad se usa 'ápe' o 'upéi' para introducir razones, pero con un matiz distinto: no siempre es causal, sino que puede ser consecutivo o simplemente enfatizar. Además, la partícula '-mi' (que indica énfasis o confirmación) no tiene equivalente directo en español y es clave para dar fuerza al argumento.",
+    "rule": "Para argumentar un punto de vista en guaraní, se utilizan las siguientes estructuras y partículas:\n\n1. **Partículas enfáticas y organizadoras**:\n   - **-mi**: Partícula enclítica que enfatiza o confirma lo dicho. Va después del verbo o del elemento que se quiere destacar. Ejemplo: 'Che aipota ha che aipota-mi' (Yo quiero y yo quiero, ¡sí!).\n   - **-pa**: Partícula que indica énfasis o finalidad, similar a '¡pues!' en español. Va al final de la oración. Ejemplo: 'Aiko ha aipota ha aipota-pa' (Estoy aquí y quiero, ¡pues!).\n   - **ápe / upéi**: Conectores que introducen razones o consecuencias. 'Ápe' se usa para razones inmediatas ('por esto'), mientras que 'upéi' introduce consecuencias ('por lo tanto').\n\n2. **Estructura tema-rema**: En guaraní, el orden de la oración suele ser tema (lo conocido) + rema (lo nuevo o lo que se argumenta). Ejemplo: 'Che, che aipota' (Yo, yo quiero) vs. 'Che aipota' (Yo quiero). El primer caso enfatiza el sujeto.\n\n3. **Uso de verbos en primera persona**: Para defender un punto de vista, es común usar verbos en primera persona ('aipota' = quiero, 'ahecha' = veo) para personalizar el argumento.\n\n4. **Conectores para secuenciar argumentos**:\n   - 'Upéi' (luego, por lo tanto): 'Che aipota, upéi ndaipóri problema' (Yo quiero, por lo tanto no hay problema).\n   - 'Ápe' (por esto): 'Che aipota, ápe ndaipóri problema' (Yo quiero, por esto no hay problema).\n\nExcepciones:\n- En preguntas retóricas, se usa 'mba’éichapa' (¿cómo?) para desafiar un punto de vista: 'Mba’éichapa ndaha’éi nde mba’e?' (¿Cómo no dices nada?).\n- Para negar un argumento, se usa 'ndaha’éi' + verbo: 'Ndaha’éi che aipota' (No es que yo no quiera).",
+    "concept_examples": [
+      {
+        "text": "Che aipota ha che aipota-mi, upéi ndaipóri problema.",
+        "translation": "Yo quiero y quiero, ¡pues! no hay problema.",
+        "phonetic": "/tʃe aɪ̯ˈpo.ta ha tʃe aɪ̯ˈpo.ta mi uˈpeɪ̯ ˈndaɪ̯.po.ɾi proˈble.ma/"
+      },
+      {
+        "text": "Ñande reko ha ñande reko-pa, ápe ndaipóri mba’eve ojehechávo.",
+        "translation": "Nuestra forma de vivir y nuestra forma de vivir, ¡pues! no hay nada que nos detenga.",
+        "phonetic": "/ɲan.de ˈɾe.ko ha ɲan.de ˈɾe.ko pa ˈa.pe ˈndaɪ̯.po.ɾi mbaˈʔe.ve o.heˈtʃa.βo/"
+      },
+      {
+        "text": "Che ha’e che mba’e, upéi ndaipóri mba’éichapa oñeikotevẽva.",
+        "translation": "Yo digo lo mío, por lo tanto no importa cómo lo hagan.",
+        "phonetic": "/tʃe aˈhe tʃe mbaˈʔe uˈpeɪ̯ ˈndaɪ̯.po.ɾi mbaˈʔei̯.tʃa.pa o.ɲei̯.ko.teˈβe.βa/"
+      },
+      {
+        "text": "Ndaha’éi che aipota, ápe ojehechávo nde mba’e.",
+        "translation": "No es que yo no quiera, por esto se ve lo tuyo.",
+        "phonetic": "/ndaˈha.eɪ̯ tʃe aɪ̯ˈpo.ta ˈa.pe o.heˈtʃa.βo nde mbaˈʔe/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che no quiero porque no me gusta.",
+      "correct": "Che ndaipóri aipota, ápe ndaipóri mba’eve ojehechávo.",
+      "correct_alt": "Che ndaipóri aipota-pa, upéi ndaipóri mba’eve ojehechávo.",
+      "explanation": "El error ocurre porque se traduce literalmente la estructura causal española ('porque') al guaraní. En guaraní, 'porque' no se traduce como 'porque', sino que se usa 'ápe' o 'upéi' para introducir razones, pero con un matiz distinto: no siempre es causal, sino que enfatiza o conecta ideas. Además, en guaraní se niega el verbo ('ndaipóri aipota') en lugar de usar la negación del sustantivo ('no quiero'). La partícula '-pa' o '-mi' ayuda a enfatizar la negación. La estructura correcta refleja que la razón no es solo causal, sino que enfatiza la falta de interés o consecuencia."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ñe’ẽ ha mba’eichaitéva",
+        "translation": "Expresar y defender una opinión",
+        "examples": [
+          {
+            "original": "Che aipota ha che aipota-mi.",
+            "phonetic": "/tʃe aɪ̯ˈpo.ta ha tʃe aɪ̯ˈpo.ta mi/",
+            "translation": "Yo quiero y quiero, ¡sí!",
+            "note": "Muestra el uso de la partícula '-mi' para enfatizar la opinión personal."
+          },
+          {
+            "original": "Ñande reko ha ñande reko-pa.",
+            "phonetic": "/ɲan.de ˈɾe.ko ha ɲan.de ˈɾe.ko pa/",
+            "translation": "Nuestra forma de vivir y nuestra forma de vivir, ¡pues!",
+            "note": "Introduce la partícula '-pa' para dar énfasis a una afirmación."
+          },
+          {
+            "original": "Che ha’e che mba’e.",
+            "phonetic": "/tʃe aˈhe tʃe mbaˈʔe/",
+            "translation": "Yo digo lo mío.",
+            "note": "Ejemplo básico de defensa de un punto de vista personal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ñe’ẽ mba’e rehegua",
+        "translation": "Argumentar con razones",
+        "examples": [
+          {
+            "original": "Che aipota, ápe ndaipóri problema.",
+            "phonetic": "/tʃe aɪ̯ˈpo.ta ˈa.pe ˈndaɪ̯.po.ɾi proˈble.ma/",
+            "translation": "Yo quiero, por esto no hay problema.",
+            "note": "Muestra el uso de 'ápe' para introducir una razón que justifica la opinión."
+          },
+          {
+            "original": "Ñande reko, upéi ndaipóri mba’éichapa oñeikotevẽva.",
+            "phonetic": "/ɲan.de ˈɾe.ko uˈpeɪ̯ ˈndaɪ̯.po.ɾi mbaˈʔei̯.tʃa.pa o.ɲei̯.ko.teˈβe.βa/",
+            "translation": "Nuestra forma de vivir, por lo tanto no importa cómo lo hagan.",
+            "note": "Introduce 'upéi' para conectar la opinión con una consecuencia lógica."
+          },
+          {
+            "original": "Che ndaipóri aipota, ápe ojehechávo nde mba’e.",
+            "phonetic": "/tʃe ndaɪ̯ˈpo.ɾi aɪ̯ˈpo.ta ˈa.pe o.heˈtʃa.βo nde mbaˈʔe/",
+            "translation": "No es que yo no quiera, por esto se ve lo tuyo.",
+            "note": "Combina negación ('ndaipóri') con 'ápe' para argumentar en contra de un punto de vista."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ñe’ẽ mba’e rehegua oñondive",
+        "translation": "Argumentar en contra de un punto de vista",
+        "examples": [
+          {
+            "original": "Ndaha’éi che aipota, upéi ndaipóri mba’eve ojehechávo.",
+            "phonetic": "/ndaˈha.eɪ̯ tʃe aɪ̯ˈpo.ta uˈpeɪ̯ ˈndaɪ̯.po.ɾi mbaˈʔe.ve o.heˈtʃa.βo/",
+            "translation": "No es que yo no quiera, por lo tanto no hay nada que nos detenga.",
+            "note": "Usa 'ndaha’éi' para negar un argumento previo y 'upéi' para introducir una consecuencia."
+          },
+          {
+            "original": "Mba’éichapa ndaha’éi nde mba’e? Che ha’e che mba’e-pa.",
+            "phonetic": "/mbaˈʔei̯.tʃa.pa ndaˈha.eɪ̯ nde mbaˈʔe tʃe aˈhe tʃe mbaˈʔe pa/",
+            "translation": "¿Cómo que no dices nada? Yo digo lo mío, ¡pues!",
+            "note": "Ejemplo de pregunta retórica para desafiar un punto de vista, usando 'mba’éichapa' y '-pa'."
+          },
+          {
+            "original": "Che ndaipóri aipota, ápe ojehechávo nde mba’e rehegua.",
+            "phonetic": "/tʃe ndaɪ̯ˈpo.ɾi aɪ̯ˈpo.ta ˈa.pe o.heˈtʃa.βo nde mbaˈʔe ɾeˈwe.ɣwa/",
+            "translation": "No es que yo no quiera, por esto se ve tu argumento.",
+            "note": "Combina negación con 'ápe' para refutar un argumento ajeno."
+          },
+          {
+            "original": "Ñande reko ha ñande reko-pa, ápe ndaipóri mba’éichapa oñeikotevẽva.",
+            "phonetic": "/ɲan.de ˈɾe.ko ha ɲan.de ˈɾe.ko pa ˈa.pe ˈndaɪ̯.po.ɾi mbaˈʔei̯.tʃa.pa o.ɲei̯.ko.teˈβe.βa/",
+            "translation": "Nuestra forma de vivir y nuestra forma de vivir, ¡pues! no importa cómo lo hagan.",
+            "note": "Ejemplo avanzado que combina énfasis ('-pa') con argumentación ('ápe') para defender una postura."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "es": "Expresar y defender un punto de vista"
+    }
+  }
+]

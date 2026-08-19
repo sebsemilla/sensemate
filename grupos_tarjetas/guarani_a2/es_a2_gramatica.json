@@ -1,0 +1,740 @@
+[
+  {
+    "id": "es_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Ñe’ẽ ha’e peteĩ ñe’ẽpa / El verbo en pasado simple",
+    "bridge": "En español, el pasado simple se forma añadiendo terminaciones como -é, -aste, -ó, etc., a la raíz del verbo, pero en guaraní no hay conjugaciones verbales complejas. Los verbos en guaraní se modifican principalmente con partículas temporales como \"-kue\" para pasado o \"-ra\" para acciones completadas, lo que puede confundir a hispanohablantes acostumbrados a la flexión verbal. Además, los verbos irregulares en español no existen en guaraní para el pasado simple, ya que la estructura es más regular y basada en raíces estables.",
+    "rule": "En guaraní, el pasado simple de los verbos regulares e irregulares se forma añadiendo las partículas temporales \"-kue\" (para acciones terminadas) o \"-ra\" (para acciones completadas recientemente) al infinitivo del verbo. No hay conjugación por persona ni número, por lo que la estructura es: [verbo + -kue/-ra]. Para verbos irregulares, se usa la misma regla, pero la raíz puede variar ligeramente (ej: \"aipo\" → \"aipokue\"). Los verbos en guaraní no tienen formas distintas para cada pronombre, por lo que el contexto o el sujeto (ej: \"che\", \"nde\", \"ha’e\") determina quién realiza la acción. Ejemplos: \"che aiko\" (yo vivo) → \"che aikokue\" (yo viví); \"ha’e oho\" (él/ella va) → \"ha’e ohora\" (él/ella fue).",
+    "concept_examples": [
+      {
+        "text": "Che aikokue ko’ág̃a.",
+        "translation": "Yo trabajé hoy.",
+        "phonetic": "/tʃe a.iˈko.kʷe koˈa.ɣa/"
+      },
+      {
+        "text": "Nde rejogokue peteĩ mba’e.",
+        "translation": "Tú compraste algo.",
+        "phonetic": "/nde re.hoˈko.kʷe peˈteĩ mbaˈʔe/"
+      },
+      {
+        "text": "Ha’e ohora Paraguayme.",
+        "translation": "Él/ella fue a Paraguay.",
+        "phonetic": "/aˈʔe oˈho.ɾa pa.ɾaˈɣwaj.me/"
+      },
+      {
+        "text": "Ñande jajokokue yvyra.",
+        "translation": "Nosotros cortamos la madera.",
+        "phonetic": "/ɲan.de ha.hoˈko.kʷe ɨˈβɨ.ɾa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che aiko ayer.",
+      "correct": "Che aikokue ayer.",
+      "correct_alt": "",
+      "explanation": "Los hispanohablantes tienden a usar el infinitivo del verbo en guaraní como en español (\"aiko\" en lugar de \"aikokue\"), pero en guaraní es obligatorio añadir la partícula de pasado \"-kue\" para indicar que la acción ya ocurrió. La estructura en guaraní no permite omitir esta partícula, ya que no hay conjugación verbal que indique tiempo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ñe’ẽ regular kue",
+        "translation": "Verbos regulares con -kue",
+        "examples": [
+          {
+            "original": "Che aipoikue ko’ág̃a.",
+            "phonetic": "/tʃe a.i.poˈi.kʷe koˈa.ɣa/",
+            "translation": "Yo estudié hoy.",
+            "note": "Verbo regular: \"aipo\" (estudiar) + \"-kue\" para pasado."
+          },
+          {
+            "original": "Nde rejogokue peteĩ mba’e.",
+            "phonetic": "/nde re.hoˈko.kʷe peˈteĩ mbaˈʔe/",
+            "translation": "Tú compraste algo.",
+            "note": "Verbo regular: \"jog\" (comprar) + \"-kue\"."
+          },
+          {
+            "original": "Ha’e oñemokyre’ỹkue.",
+            "phonetic": "/aˈʔe o.ɲe.mo.keˈɾɨ.kʷe/",
+            "translation": "Él/ella se lavó las manos.",
+            "note": "Verbo regular reflexivo: \"ñemokyre’ỹ\" (lavarse) + \"-kue\"."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ñe’ẽ regular ra",
+        "translation": "Verbos regulares con -ra",
+        "examples": [
+          {
+            "original": "Che aipora pende ko’ág̃a.",
+            "phonetic": "/tʃe a.iˈpo.ɾa peˈnde koˈa.ɣa/",
+            "translation": "Yo estudié para ustedes hoy.",
+            "note": "Partícula \"-ra\" indica acción completada recientemente."
+          },
+          {
+            "original": "Nde rejogora peteĩ mba’e.",
+            "phonetic": "/nde re.hoˈgo.ɾa peˈteĩ mbaˈʔe/",
+            "translation": "Tú compraste algo hace poco.",
+            "note": "Uso de \"-ra\" para acciones recientes."
+          },
+          {
+            "original": "Ha’e ohora Paraguayme.",
+            "phonetic": "/aˈʔe oˈho.ɾa pa.ɾaˈɣwaj.me/",
+            "translation": "Él/ella fue a Paraguay hace un momento.",
+            "note": "Verbo de movimiento con \"-ra\" para pasado inmediato."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ñe’ẽ oĩva kue/ra",
+        "translation": "Verbos irregulares en pasado",
+        "examples": [
+          {
+            "original": "Che aipokue mba’e rehe.",
+            "phonetic": "/tʃe a.iˈpo.kʷe mbaˈʔe reˈhe/",
+            "translation": "Yo hice algo.",
+            "note": "Verbo irregular: \"aipo\" (hacer) + \"-kue\"."
+          },
+          {
+            "original": "Nde rejogokue peteĩ mba’e.",
+            "phonetic": "/nde re.hoˈko.kʷe peˈteĩ mbaˈʔe/",
+            "translation": "Tú compraste algo.",
+            "note": "Aunque \"jog\" (comprar) es regular, se incluye para contrastar con verbos como \"aipo\"."
+          },
+          {
+            "original": "Ha’e ohokue nde rógape.",
+            "phonetic": "/aˈʔe oˈho.kʷe nde ˈro.ɣa.pe/",
+            "translation": "Él/ella vino a tu casa.",
+            "note": "Verbo irregular: \"oho\" (ir/venir) + \"-kue\"."
+          }
+        ]
+      }
+    ],
+    "emoji": "📜",
+    "phonetic": "",
+    "translations": {
+      "es": "Pasado simple (verbos regulares e irregulares)"
+    }
+  },
+  {
+    "id": "es_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Presente progresivo en guaraní / Presente continuo en español",
+    "bridge": "En español, el presente progresivo se forma con el verbo 'estar' + gerundio (ej. 'estoy comiendo'), pero en guaraní no existe una construcción equivalente directa. En su lugar, se usa el sufijo verbal '-hína' para indicar acciones en progreso, que se añade al verbo principal. A diferencia del español, donde el gerundio es obligatorio, en guaraní el sufijo '-hína' puede omitirse en contextos informales, lo que puede confundir a los hispanohablantes que esperan una estructura similar. Además, el guaraní no distingue entre presente simple y progresivo en todos los casos, lo que requiere atención para no traducir literalmente.",
+    "rule": "En guaraní, el presente progresivo se forma añadiendo el sufijo '-hína' al verbo principal. Este sufijo indica que la acción está ocurriendo en el momento del habla. La estructura básica es: [verbo + '-hína']. \n\n1. **Formación del sufijo**: '-hína' se añade directamente al verbo en su forma base. Ejemplo: 'a-ju' (yo vengo) → 'a-ju-hína' (yo estoy viniendo).\n2. **Pronombres y conjugación**: Los pronombres personales (a-, re-, o-, ja-, pe-, o-) se mantienen antes del verbo. Ejemplo: 're-ñe'ñói-hína' (tú estás durmiendo).\n3. **Negación**: Se usa 'nd-' antes del pronombre y '-i' antes del sufijo. Ejemplo: 'nd-a-ju-i-hína' (yo no estoy viniendo).\n4. **Uso en preguntas**: Se invierte el orden del pronombre y el verbo. Ejemplo: '¿Re-ñe'ñói-hína?' (¿Estás durmiendo?).\n5. **Excepciones**: Algunos verbos como 'ajehecha' (ver) o 'aikuaa' (saber) no suelen usar '-hína' en contextos cotidianos, ya que su significado implica acción continua por defecto.\n6. **Contexto informal**: En conversaciones informales, '-hína' puede omitirse, pero en contextos formales o para enfatizar la acción en progreso, es obligatorio.",
+    "concept_examples": [
+      {
+        "text": "A-ju-hína.",
+        "translation": "Estoy viniendo.",
+        "phonetic": "a.ˈʒu.ˈi.na"
+      },
+      {
+        "text": "Re-ñe'ñói-hína.",
+        "translation": "Estás durmiendo.",
+        "phonetic": "re.ɲe.ˈɲoi̯.ˈi.na"
+      },
+      {
+        "text": "O-ñe'ẽ-hína nde ñe'ẽ rehe.",
+        "translation": "Estás hablando de eso.",
+        "phonetic": "o.ɲe.ˈʔẽ.ˈi.na nde ɲe.ˈʔẽ re.he"
+      },
+      {
+        "text": "Pe-mba'apo-hína nde tembiapo.",
+        "translation": "Están trabajando en tu trabajo.",
+        "phonetic": "pe.ᵐba.a.ˈpo.ˈi.na nde tem.bja.po"
+      }
+    ],
+    "common_error": {
+      "wrong": "A-ju hína.",
+      "correct": "A-ju-hína.",
+      "correct_alt": "",
+      "explanation": "En guaraní, el sufijo '-hína' se escribe unido al verbo sin espacio. Los hispanohablantes suelen separarlo por influencia del español, donde 'estoy' y 'yendo' son palabras separadas. Esto es incorrecto en guaraní, donde la estructura es una sola palabra."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbos básicos con '-hína'",
+        "translation": "Verbos básicos con '-hína'",
+        "examples": [
+          {
+            "original": "A-ju-hína.",
+            "phonetic": "a.ˈʒu.ˈi.na",
+            "translation": "Estoy viniendo.",
+            "note": "Introduce la estructura básica con verbos de movimiento como 'ju' (venir) o 'ho' (ir)."
+          },
+          {
+            "original": "Re-ñe'ẽ-hína.",
+            "phonetic": "re.ɲe.ˈʔẽ.ˈi.na",
+            "translation": "Estás hablando.",
+            "note": "Usa verbos comunes como 'ñe'ẽ' (hablar) para practicar la conjugación."
+          },
+          {
+            "original": "O-ñe'ẽ-hína nde ñe'ẽ rehe.",
+            "phonetic": "o.ɲe.ˈʔẽ.ˈi.na nde ɲe.ˈʔẽ re.he",
+            "translation": "Estás hablando de eso.",
+            "note": "Combina el verbo con objetos directos para ampliar el contexto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Negación y preguntas con '-hína'",
+        "translation": "Negación y preguntas con '-hína'",
+        "examples": [
+          {
+            "original": "Nd-a-ju-i-hína.",
+            "phonetic": "nda.ˈʒu.i.ˈi.na",
+            "translation": "No estoy viniendo.",
+            "note": "Practica la negación con 'nd-' y '-i-' antes del sufijo."
+          },
+          {
+            "original": "¿Re-ñe'ẽ-hína?",
+            "phonetic": "re.ɲe.ˈʔẽ.ˈi.na",
+            "translation": "¿Estás hablando?",
+            "note": "Introduce preguntas simples invirtiendo el orden del pronombre y el verbo."
+          },
+          {
+            "original": "Pe-mba'apo-i-hína.",
+            "phonetic": "pe.ᵐba.a.ˈpo.i.ˈi.na",
+            "translation": "No están trabajando.",
+            "note": "Usa verbos como 'mba'apo' (trabajar) para practicar la negación en plural."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbos con cambios vocálicos y '-hína' en contexto",
+        "translation": "Verbos con cambios vocálicos y '-hína' en contexto",
+        "examples": [
+          {
+            "original": "A-ñe'ẽ-hína che ñe'ẽ.",
+            "phonetic": "a.ɲe.ˈʔẽ.ˈi.na tʃe ɲe.ˈʔẽ",
+            "translation": "Estoy hablando mi idioma.",
+            "note": "Combina verbos con cambios vocálicos como 'ñe'ẽ' (hablar) y objetos directos."
+          },
+          {
+            "original": "O-ike-hína nde ógape.",
+            "phonetic": "o.i.ˈke.ˈi.na nde ˈo.ga.pe",
+            "translation": "Está entrando a tu casa.",
+            "note": "Usa verbos como 'ike' (entrar) para practicar contextos espaciales."
+          },
+          {
+            "original": "Ja-hecha-hína nde tape.",
+            "phonetic": "xa.he.ˈtʃa.ˈi.na nde ta.pe",
+            "translation": "Estamos viendo tu camino.",
+            "note": "Incluye verbos como 'hecha' (ver) para describir acciones en progreso con objetos."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "es": "Presente continuo"
+    }
+  },
+  {
+    "id": "es_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Futuro con \"vaha\" / Futuro con \"going to\" en español",
+    "bridge": "En español usas \"voy a + infinitivo\" para expresar planes o intenciones futuras cercanas, similar a \"going to\" en inglés. En guaraní, el futuro se forma con el prefijo verbal \"vaha-\" (o sus variantes según el sujeto) seguido del verbo en infinitivo, pero a diferencia del español, no existe una construcción equivalente a \"going to\". Los hablantes de español suelen confundir la estructura guaraní con el presente continuo (ej. \"voy a comer\" vs. \"aháta\" para \"voy a comer\"), ya que en guaraní el futuro es una sola forma verbal compacta.",
+    "rule": "En guaraní, el futuro se forma con el prefijo \"vaha-\" (para la primera persona del singular) + el verbo en infinitivo. Para otras personas, se usan los siguientes prefijos: \n- 1ª persona singular: vaha- (ej. vaha+ú -> vahaú \"voy a comer\")\n- 2ª persona singular: re- (ej. re+ú -> reú \"vas a comer\")\n- 3ª persona singular: o- (ej. o+ú -> oú \"va a comer\")\n- 1ª persona plural: ña- (ej. ña+ú -> ñaú \"vamos a comer\")\n- 2ª persona plural: pe- (ej. pe+ú -> peú \"van a comer\")\n- 3ª persona plural: o-...-kuéra (ej. o+ú+kuéra -> oúkuéra \"van a comer\").\n\nExcepciones comunes:\n- Verbos con vocal inicial (ej. \"e\" en \"erú\" -> \"vaha'erú\" \"voy a traer\")\n- Verbos con prefijos personales que se fusionan (ej. \"ahá\" + \"vaha\" -> \"aháta\" \"iré\", pero en futuro perifrástico se usa \"vaha+ahá\" -> \"vahaahá\" \"voy a ir\").\n\nUso típico: Expresa planes o intenciones futuras, similar a \"going to\" en español. No se usa para predicciones basadas en evidencia (para eso se usa el futuro simple con \"-ta\").",
+    "concept_examples": [
+      {
+        "text": "Vahaú chéve che sy rehe.",
+        "translation": "Voy a visitar a mi mamá.",
+        "phonetic": "/ˈβa.ha.ˈu ˈtʃe.βe ˈtʃe ˈsɨ ɾeˈhe/"
+      },
+      {
+        "text": "Reú ne pyahu ojehecháta nde tape.",
+        "translation": "Vas a ver tu pueblo nuevo pronto.",
+        "phonetic": "/ˈɾe.ˈu ne ˈpɨ.a.ˈu o.he.ˈtʃa.ta ˈnde ˈta.pe/"
+      },
+      {
+        "text": "Ñaú Paraguái pende mbo'ehao.",
+        "translation": "Vamos a ir al colegio de Paraguay.",
+        "phonetic": "/ˈɲa.ˈu pa.ɾa.ˈɣwaj ˈpen.de mbo.ʔe.ˈa.o/"
+      },
+      {
+        "text": "Oúkuéra nde rembiapo pyahu.",
+        "translation": "Ellos van a hacer tu trabajo nuevo.",
+        "phonetic": "/o.ˈu.ku.e.ɾa ˈnde ɾem.bi.a.ˈpo ˈpɨ.a.ˈu/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Voy a ir a Asunción mañana.",
+      "correct": "Aháta Asunción árape.",
+      "correct_alt": "Vahaahá Asunción árape.",
+      "explanation": "Los hispanohablantes suelen traducir literalmente \"voy a ir\" como \"vaha ahá\", pero en guaraní la forma correcta para \"iré\" es \"aháta\" (futuro simple). La construcción \"vaha ahá\" (voy a ir) es gramaticalmente correcta pero menos común; se prefiere \"aháta\" para intenciones futuras inmediatas. La confusión surge porque en español \"voy a + infinitivo\" es la estructura estándar, mientras que en guaraní el futuro puede expresarse de ambas formas según el contexto."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Vaha- + verbo",
+        "translation": "Futuro con prefijo \"vaha-\"",
+        "examples": [
+          {
+            "original": "Vahaú chéve che sy.",
+            "phonetic": "/ˈβa.ha.ˈu ˈtʃe.βe ˈtʃe ˈsɨ/",
+            "translation": "Voy a visitar a mi mamá.",
+            "note": "Introduce la estructura básica con verbos transitivos. Destacar que \"vahaú\" es la forma fusionada de \"vaha\" + \"ú\" (comer)."
+          },
+          {
+            "original": "Reú ne mba'e poráite.",
+            "phonetic": "/ˈɾe.ˈu ne ˈᵐba.ʔe po.ˈɾa.i.te/",
+            "translation": "Vas a comer algo rico.",
+            "note": "Muestra la segunda persona singular. Explicar que \"re-\" es el prefijo para \"tú\"."
+          },
+          {
+            "original": "Oú oñe'ẽ che mbo'ehao.",
+            "phonetic": "/o.ˈu o.ɲe.ʔẽ tʃe mbo.ʔe.ˈa.o/",
+            "translation": "Él/ella va a hablar en mi escuela.",
+            "note": "Tercera persona singular. Aclarar que \"o-\" es el prefijo para \"él/ella\"."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ña- / Pe- / O...kuéra",
+        "translation": "Futuro para nosotros, ustedes y ellos",
+        "examples": [
+          {
+            "original": "Ñaú Paraguái pende mbo'ehao.",
+            "phonetic": "/ˈɲa.ˈu pa.ɾa.ˈɣwaj ˈpen.de mbo.ʔe.ˈa.o/",
+            "translation": "Vamos a ir al colegio de Paraguay.",
+            "note": "Primera persona plural. Explicar que \"ña-\" es el prefijo para \"nosotros\". Comparar con \"vamos a ir\" en español."
+          },
+          {
+            "original": "Peú ne rembiapo pyahu.",
+            "phonetic": "/ˈpe.ˈu ne ɾem.bi.a.ˈpo ˈpɨ.a.ˈu/",
+            "translation": "Ustedes van a hacer su trabajo nuevo.",
+            "note": "Segunda persona plural. Destacar que \"pe-\" es el prefijo para \"ustedes\"."
+          },
+          {
+            "original": "Oúkuéra nde rembiapo.",
+            "phonetic": "/o.ˈu.ku.e.ɾa ˈnde ɾem.bi.a.ˈpo/",
+            "translation": "Ellos van a hacer tu trabajo.",
+            "note": "Tercera persona plural. Explicar el sufijo \"-kuéra\" para pluralizar sujetos."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbos especiales + excepciones",
+        "translation": "Futuro con verbos irregulares y casos especiales",
+        "examples": [
+          {
+            "original": "Vaha'erú che kavaju.",
+            "phonetic": "/ˈβa.ha.ʔe.ˈɾu tʃe ka.ˈβa.hu/",
+            "translation": "Voy a traer mi caballo.",
+            "note": "Verbos que empiezan con vocal (ej. \"erú\" -> \"vaha'erú\"). Explicar la elisión de la vocal inicial."
+          },
+          {
+            "original": "Aháta che sype.",
+            "phonetic": "/a.ˈha.ta tʃe ˈsɨ.pe/",
+            "translation": "Iré a casa de mi mamá.",
+            "note": "Futuro simple \"-ta\" vs. perifrástico \"vaha ahá\". Aclarar cuándo usar cada uno."
+          },
+          {
+            "original": "Vahaahá Asunción árape.",
+            "phonetic": "/ˈβa.ha.a.ˈha a.sun.ˈsjon ˈa.ɾa.pe/",
+            "translation": "Voy a ir a Asunción mañana.",
+            "note": "Construcción perifrástica \"vaha ahá\". Explicar que es menos común pero válida."
+          },
+          {
+            "original": "Oñe'ẽta nde rembiapo rehe.",
+            "phonetic": "/o.ɲe.ʔẽ.ˈta ˈnde ɾem.bi.a.ˈpo ɾeˈhe/",
+            "translation": "Él/ella hablará de tu trabajo.",
+            "note": "Futuro simple con \"-ta\" para predicciones. Comparar con \"going to\" en español."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚀",
+    "phonetic": "",
+    "translations": {
+      "es": "Futuro con \"going to\" en guaraní"
+    }
+  },
+  {
+    "id": "es_A2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Futuro simple / Futuro simple (mba’éichapa oiko)",
+    "bridge": "En español, el futuro simple se forma añadiendo terminaciones verbales (-é, -ás, -á, etc.) al infinitivo, mientras que en guaraní se usa una partícula invariante *ta* antes del verbo conjugado en presente. Un error común es intentar aplicar la estructura española directamente en guaraní, por ejemplo, diciendo *che aha* en lugar de *che ta aha* para 'iré'. Además, a diferencia del español, en guaraní el futuro no cambia la raíz del verbo, lo que simplifica su aprendizaje pero requiere prestar atención a la posición de *ta*.",
+    "rule": "En guaraní, el futuro simple se forma con la partícula *ta* (equivalente a 'will' en inglés) colocada antes del verbo conjugado en presente. No hay conjugación especial para el futuro; el verbo permanece en su forma base. La estructura es: [Pronombre + ta + verbo conjugado en presente]. \n\nPronombres personales y su forma con *ta*:\n- che (yo) → che ta\n- nde (tú) → nde ta\n- ha’e (él/ella) → ha’e ta\n- ñande (nosotros) → ñande ta\n- ore (nosotros excluyente) → ore ta\n- peẽ (ustedes) → peẽ ta\n- ha’ekuéra (ellos/ellas) → ha’ekuéra ta\n\nEjemplos de conjugación:\n- che ta aha (iré) → che aha (voy)\n- nde ta reho (irás) → nde reho (vas)\n- ha’e ta oho (irá) → ha’e oho (va)\n\nUso principal: Expresa acciones futuras inmediatas o planeadas. También puede usarse para expresar probabilidad o conjetura en presente (ej: *ha’e ta oho* puede significar 'él probablemente va' o 'él irá').",
+    "concept_examples": [
+      {
+        "text": "Che ta aha ko’ág̃a.",
+        "translation": "Iré hoy.",
+        "phonetic": "/tʃe ta aˈha koˈaɰa/"
+      },
+      {
+        "text": "Peẽ ta reñói peteĩ mitã.",
+        "translation": "Ustedes ayudarán a un niño.",
+        "phonetic": "/peˈẽ ta reˈɲoi peˈteĩ miˈtã/"
+      },
+      {
+        "text": "Ha’e ta oñe’ẽ peteĩ ñe’ẽ porã.",
+        "translation": "Él/ella hablará una palabra bonita.",
+        "phonetic": "/aˈe ta oɲeˈʔẽ peˈteĩ ɲeˈʔẽ poˈɾã/"
+      },
+      {
+        "text": "Ñande ta jajapo tembi’u.",
+        "translation": "Nosotros haremos comida.",
+        "phonetic": "/ɲanˈde ta haˈhapo temˈbju/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che aha ko’ág̃a.",
+      "correct": "Che ta aha ko’ág̃a.",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque el aprendiz intenta aplicar la estructura del futuro español directamente en guaraní. En español, 'iré' se forma con el infinitivo + terminación, pero en guaraní se requiere la partícula *ta* antes del verbo conjugado en presente. La oración sin *ta* suena como 'voy' en lugar de 'iré', lo que cambia completamente el sentido temporal."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Che ta aha",
+        "translation": "Yo iré",
+        "examples": [
+          {
+            "original": "Che ta aha asaje.",
+            "phonetic": "/tʃe ta aˈha aˈsaxe/",
+            "translation": "Iré a la escuela.",
+            "note": "Introduce la estructura básica con el verbo *aha* (ir). Destacar la partícula *ta* y su posición fija."
+          },
+          {
+            "original": "Che ta ajapó tembi’u.",
+            "phonetic": "/tʃe ta aˈhapo temˈbju/",
+            "translation": "Haré comida.",
+            "note": "Usa el verbo *ajapó* (hacer) para mostrar que la partícula *ta* no cambia según el verbo."
+          },
+          {
+            "original": "Che ta aju ko’ág̃a.",
+            "phonetic": "/tʃe ta aˈhu koˈaɰa/",
+            "translation": "Vendré hoy.",
+            "note": "Verbo *aju* (venir) para practicar otra acción común."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nde ta reho",
+        "translation": "Tú irás",
+        "examples": [
+          {
+            "original": "Nde ta reho peteĩ ñembo’e.",
+            "phonetic": "/nde ta reˈho peˈteĩ ɲemboˈʔe/",
+            "translation": "Asistirás a una reunión.",
+            "note": "Enfocar en el pronombre *nde* y su forma con *ta*. Introducir verbos como *reho* (ir a un lugar)."
+          },
+          {
+            "original": "Nde ta reñói nde sy.",
+            "phonetic": "/nde ta reˈɲoi nde sɨ/",
+            "translation": "Ayudarás a tu mamá.",
+            "note": "Verbo *reñói* (ayudar) para mostrar flexibilidad en el uso de *ta*."
+          },
+          {
+            "original": "Nde ta reñe’ẽ peteĩ ñe’ẽ.",
+            "phonetic": "/nde ta reɲeˈʔẽ peˈteĩ ɲeˈʔẽ/",
+            "translation": "Hablarás una palabra.",
+            "note": "Verbo *reñe’ẽ* (hablar) para practicar conjugaciones con *ta*."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ha’e ta oho",
+        "translation": "Él/ella irá",
+        "examples": [
+          {
+            "original": "Ha’e ta oho peteĩ ñembyaty.",
+            "phonetic": "/aˈe ta oˈho peˈteĩ ɲembjaˈtɨ/",
+            "translation": "Él/ella irá a una fiesta.",
+            "note": "Introducir el pronombre *ha’e* y su forma con *ta*. Usar verbos como *oho* (ir a un evento)."
+          },
+          {
+            "original": "Ha’e ta oñe’ẽ peteĩ ñe’ẽ porã.",
+            "phonetic": "/aˈe ta oɲeˈʔẽ peˈteĩ ɲeˈʔẽ poˈɾã/",
+            "translation": "Él/ella hablará una palabra bonita.",
+            "note": "Verbo *oñe’ẽ* (hablar) para mostrar que *ta* no afecta la conjugación del verbo."
+          },
+          {
+            "original": "Ha’e ta oñói peteĩ mitã.",
+            "phonetic": "/aˈe ta oˈɲoi peˈteĩ miˈtã/",
+            "translation": "Él/ella ayudará a un niño.",
+            "note": "Verbo *oñói* (ayudar) para consolidar el patrón."
+          },
+          {
+            "original": "Ha’e ta oikópa nde pyahu.",
+            "phonetic": "/aˈe ta oiˈkopa nde pjaˈhu/",
+            "translation": "Él/ella estará en tu casa.",
+            "note": "Verbo *oikó* (estar) para introducir el concepto de probabilidad o conjetura en presente."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚀",
+    "phonetic": "",
+    "translations": {
+      "es": "Futuro simple"
+    }
+  },
+  {
+    "id": "es_A2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Mba’éichapa oñembyaty ha oñembyatyvéva / Comparativos y superlativos",
+    "bridge": "En español, los comparativos y superlativos se forman principalmente con '-er/-est' (para adjetivos cortos) o 'más/el más' (para adjetivos largos), mientras que en guaraní no existen sufijos específicos para estos grados. En su lugar, se usan partículas como '-ve' para comparativos y '-ete' o '-véva' para superlativos, que se añaden directamente al adjetivo o sustantivo. Un error común es intentar traducir literalmente las estructuras españolas al guaraní, lo que lleva a frases como 'hóga guasu' (casa grande) en lugar de 'hóga guasuve' (casa más grande).",
+    "rule": "1. **Comparativos**: Para expresar 'más... que', se añade el sufijo '-ve' al adjetivo o sustantivo. Si el adjetivo termina en vocal, se elimina antes de añadir '-ve'. Ejemplos: 'guasu' (grande) → 'guasuve' (más grande); 'yva' (rojo) → 'yvave' (más rojo).\n2. **Superlativos**: Para expresar 'el más...', se usan los sufijos '-ete' (para adjetivos cortos) o '-véva' (para adjetivos largos o descriptivos). Ejemplos: 'guasu' (grande) → 'guasúete' (el más grande); 'yvate' (alto) → 'yvatévéva' (el más alto).\n3. **Excepciones**: Algunos adjetivos tienen formas irregulares o requieren partículas adicionales como 'ete' para énfasis. Ejemplo: 'porã' (bonito) → 'porãeté' (el más bonito).\n4. **Uso con sustantivos**: Para comparar sustantivos, se usa la estructura '[sustantivo] + -ve + [sustantivo de referencia]'. Ejemplo: 'che roga guasuve che kuimba’' (mi casa es más grande que la de mi marido).",
+    "concept_examples": [
+      {
+        "text": "Che ajapó asaje guasuve che kuñataĩ.",
+        "translation": "Yo hago más asado que mi esposa.",
+        "phonetic": "tʃe aˈhapo aˈsahe ɡwaˈsuβe tʃe kuɲaˈtaĩ"
+      },
+      {
+        "text": "Pe mitã oiko yvatevéva nde rógape.",
+        "translation": "Ese niño es el más alto de tu casa.",
+        "phonetic": "pe miˈtã oiˈko ɨβaˈteˈβeva nde ˈroɣape"
+      },
+      {
+        "text": "Che sy oñemombe’ú porãeté.",
+        "translation": "Mi madre es la más bonita.",
+        "phonetic": "tʃe sɨ oɲemboˈmbeʔu poˈɾaˈete"
+      },
+      {
+        "text": "Pe yvyra oñembyaty guasuete nde ka’atype.",
+        "translation": "Ese árbol es el más grande de tu jardín.",
+        "phonetic": "pe ɨβɨˈɾa oɲembaˈtɨ ɡwaˈsuete nde kaʔaˈtɨpe"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che ajapó asaje más guasu che kuñataĩ.",
+      "correct": "Che ajapó asaje guasuve che kuñataĩ.",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque el español usa 'más' como partícula comparativa, pero en guaraní no existe esta estructura. La partícula '-ve' es la única forma correcta para comparativos en guaraní. Usar 'más' suena redundante y antinatural para hablantes nativos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mba’éichapa oñembyaty",
+        "translation": "Formación de comparativos",
+        "examples": [
+          {
+            "original": "Che ajapó tembi’u guasuve nde.",
+            "phonetic": "tʃe aˈhapo tembiˈʔu ɡwaˈsuβe nde",
+            "translation": "Yo hago comida más que tú.",
+            "note": "Enfócate en la adición de '-ve' a adjetivos cortos como 'guasuve' (más grande)."
+          },
+          {
+            "original": "Pe mitã oiko porãve nde kuñataĩpe.",
+            "phonetic": "pe miˈtã oiˈko poˈɾaβe nde kuɲaˈtaĩpe",
+            "translation": "Ese niño está más bonito que tu esposa.",
+            "note": "Observa cómo '-ve' se añade a 'porã' (bonito) para formar 'porãve'."
+          },
+          {
+            "original": "Che kuimba’e oñemombe’ú yvave nde sy.",
+            "phonetic": "tʃe kuiˈmbaʔe oɲemboˈmbeʔu ɨˈβaβe nde sɨ",
+            "translation": "Mi marido es más rojo que tu madre.",
+            "note": "Recuerda eliminar la vocal final de 'yva' (rojo) antes de añadir '-ve'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mba’éichapa oñembyatyvéva",
+        "translation": "Formación de superlativos",
+        "examples": [
+          {
+            "original": "Pe yvyra oñembyaty guasuete.",
+            "phonetic": "pe ɨβɨˈɾa oɲembaˈtɨ ɡwaˈsuete",
+            "translation": "Ese árbol es el más grande.",
+            "note": "Usa '-ete' para superlativos de adjetivos cortos como 'guasúete'."
+          },
+          {
+            "original": "Che sy oñemombe’ú porãeté.",
+            "phonetic": "tʃe sɨ oɲemboˈmbeʔu poˈɾaˈete",
+            "translation": "Mi madre es la más bonita.",
+            "note": "Nota que '-ete' se añade directamente a 'porã' (bonito)."
+          },
+          {
+            "original": "Pe mitã oiko yvatevéva nde rógape.",
+            "phonetic": "pe miˈtã oiˈko ɨβaˈteˈβeva nde ˈroɣape",
+            "translation": "Ese niño es el más alto de tu casa.",
+            "note": "Para superlativos en contextos específicos, usa '-véva' como en 'yvatevéva'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mba’éichapa oñembyaty sustantivo-pe",
+        "translation": "Comparativos y superlativos con sustantivos",
+        "examples": [
+          {
+            "original": "Che roga oñembyaty guasuve che kuimba’",
+            "phonetic": "tʃe ˈɾoɣa oɲembaˈtɨ ɡwaˈsuβe tʃe kuiˈmbaʔ",
+            "translation": "Mi casa es más grande que la de mi marido.",
+            "note": "Usa la estructura '[sustantivo] + -ve + [sustantivo de referencia]' para comparar sustantivos."
+          },
+          {
+            "original": "Pe ka’aty oñembyaty porãvéva nde ka’atype.",
+            "phonetic": "pe kaʔaˈtɨ oɲembaˈtɨ poˈɾaˈβeva nde kaʔaˈtɨpe",
+            "translation": "Ese jardín es el más bonito de tu jardín.",
+            "note": "Observa cómo '-véva' se usa para superlativos en contextos específicos."
+          },
+          {
+            "original": "Che sy oñemombe’ú porãeté nde sykuérape.",
+            "phonetic": "tʃe sɨ oɲemboˈmbeʔu poˈɾaˈete nde sɨkuˈerape",
+            "translation": "Mi madre es la más bonita de todas las madres.",
+            "note": "Para superlativos absolutos, usa '-ete' o '-véva' según el contexto."
+          }
+        ]
+      }
+    ],
+    "emoji": "📊",
+    "phonetic": "",
+    "translations": {
+      "es": "Comparativos y superlativos"
+    }
+  },
+  {
+    "id": "es_A2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Ñe’ẽ mba’eve / Verbos modales (deber, tener que, etc.)",
+    "bridge": "En español, los verbos modales como 'deber', 'tener que' o 'poder' expresan obligación, necesidad o posibilidad, y su conjugación varía según el sujeto. En guaraní, los verbos modales no existen como categoría independiente: se usan partículas o verbos auxiliares que se posponen al verbo principal. Por ejemplo, en español decimos 'Debo estudiar', pero en guaraní se dice 'Che aipota ñe’ẽ' (literalmente 'yo quiero estudiar'), donde 'aipota' funciona como auxiliar modal. Los errores comunes surgen al intentar traducir directamente las estructuras españolas, ignorando que en guaraní la modalidad se expresa con verbos como 'aipota' (querer), 'aikuaa' (saber), 'aiporu' (poder) o partículas como '-va' (para obligación).",
+    "rule": "En guaraní, los verbos modales se expresan principalmente con los siguientes verbos auxiliares pospuestos al verbo principal (infinitivo):\n1. **aipota** (querer): Expresa deseo o voluntad. Se usa con el sujeto en forma conjugada (ej: 'Che aipota' = yo quiero).\n2. **aikuaa** (saber): Indica capacidad o habilidad (ej: 'Nde aikuaa' = tú sabes).\n3. **aiporu** (poder): Expresa posibilidad o permiso (ej: 'Ha’e aiporu' = él puede).\n4. **aikotevẽ** (necesitar): Equivale a 'tener que' o 'deber' (ej: 'Ñande aikotevẽ' = nosotros necesitamos).\n\n**Estructura básica:** [Sujeto + auxiliar modal conjugado] + [verbo principal en infinitivo].\n- **Negación:** Se añade 'ndi-' al auxiliar (ej: 'Ndaikuaái' = no sé).\n- **Preguntas:** Se invierte el orden (ej: '¿Piko aikuaa?' = ¿sabes?).\n\n**Excepciones:**\n- Para obligación fuerte, se usa '-va' como sufijo en el verbo principal (ej: 'Che ñe’ẽva' = debo hablar).\n- Algunos verbos modales como 'aipota' pueden usarse solos para expresar modalidad (ej: 'Aipota' = quiero).",
+    "concept_examples": [
+      {
+        "text": "Che aipota ñe’ẽ.",
+        "translation": "Yo debo hablar.",
+        "phonetic": "/tʃe aɪˈpo.ta ɲeˈʔẽ/"
+      },
+      {
+        "text": "Nde aikuaa oñe’ẽ.",
+        "translation": "Tú sabes hablar.",
+        "phonetic": "/nde aɪˈkwa a oɲeˈʔẽ/"
+      },
+      {
+        "text": "Ha’e aiporu oguata.",
+        "translation": "Él puede caminar.",
+        "phonetic": "/aˈe aɪˈpo.ɾu oˈɣwa.ta/"
+      },
+      {
+        "text": "Ñande aikotevẽ ojehecha.",
+        "translation": "Nosotros necesitamos ver.",
+        "phonetic": "/ɲan.de aɪ.koˈte.βẽ o.heˈtʃa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che debo ñe’ẽ.",
+      "correct": "Che aipota ñe’ẽ.",
+      "correct_alt": "Che ñe’ẽva.",
+      "explanation": "El error ocurre porque se intenta traducir directamente la estructura española 'deber + infinitivo' al guaraní. En guaraní, 'deber' no existe como verbo modal; se usa 'aipota' (querer) para obligación suave o 'aikotevẽ' (necesitar) para obligación fuerte. La alternativa 'ñe’ẽva' usa el sufijo '-va' para expresar obligación directa, pero es menos común en A2."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Aipota (querer)",
+        "translation": "Querer (deseo)",
+        "examples": [
+          {
+            "original": "Che aipota oguata.",
+            "phonetic": "/tʃe aɪˈpo.ta oˈɣwa.ta/",
+            "translation": "Yo quiero caminar.",
+            "note": "Introduce el verbo 'aipota' como auxiliar modal básico. Enfatizar que el verbo principal va en infinitivo."
+          },
+          {
+            "original": "Nde aipota oñe’ẽ.",
+            "phonetic": "/nde aɪˈpo.ta oɲeˈʔẽ/",
+            "translation": "Tú quieres hablar.",
+            "note": "Practicar la conjugación del sujeto con 'aipota'. Destacar que 'aipota' no cambia según el sujeto."
+          },
+          {
+            "original": "Ha’e ndaipota oikuaa.",
+            "phonetic": "/aˈe ndaɪˈpo.ta oɪˈkwa/",
+            "translation": "Él no quiere saber.",
+            "note": "Introducir la negación 'ndi-' en el auxiliar modal. Comparar con la negación española 'no quiero'."
+          },
+          {
+            "original": "¿Piko aipota oguata?",
+            "phonetic": "/ˈpi.ko aɪˈpo.ta oˈɣwa.ta/",
+            "translation": "¿Quieres caminar?",
+            "note": "Practicar preguntas con 'piko' (partícula interrogativa). Enfatizar el orden sujeto-auxiliar."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Aikuaa (saber/habilidad)",
+        "translation": "Saber (capacidad)",
+        "examples": [
+          {
+            "original": "Nde aikuaa oñe’ẽ.",
+            "phonetic": "/nde aɪˈkwa a oɲeˈʔẽ/",
+            "translation": "Tú sabes hablar.",
+            "note": "Diferenciar 'aikuaa' (saber hacer) de 'aikuaa' (saber información). En guaraní, el contexto aclara el significado."
+          },
+          {
+            "original": "Che ndaikuaái oñe’ẽ Paraguái ñe’ẽ.",
+            "phonetic": "/tʃe ndaɪˈkwa.aɪ oɲeˈʔẽ pa.ɾaˈɣwaj ɲeˈʔẽ/",
+            "translation": "Yo no sé hablar guaraní paraguayo.",
+            "note": "Combinar 'aikuaa' con negación y contexto específico. Enfatizar la pronunciación de 'ndi-' en negación."
+          },
+          {
+            "original": "Ha’e aikuaa oguata.",
+            "phonetic": "/aˈe aɪˈkwa a oˈɣwa.ta/",
+            "translation": "Él sabe caminar.",
+            "note": "Practicar el uso de 'aikuaa' para habilidades físicas. Comparar con el español 'sabe'."
+          },
+          {
+            "original": "¿Piko aikuaa oñe’ẽ?",
+            "phonetic": "/ˈpi.ko aɪˈkwa a oɲeˈʔẽ/",
+            "translation": "¿Sabes hablar?",
+            "note": "Reforzar preguntas con 'aikuaa'. Recordar que en guaraní no hay diferencia entre 'saber' y 'poder' para habilidades."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Aikotevẽ (necesitar/deber)",
+        "translation": "Necesitar (obligación)",
+        "examples": [
+          {
+            "original": "Ñande aikotevẽ ojehecha.",
+            "phonetic": "/ɲan.de aɪ.koˈte.βẽ o.heˈtʃa/",
+            "translation": "Nosotros necesitamos ver.",
+            "note": "Introducir 'aikotevẽ' como equivalente a 'tener que' o 'deber'. Enfatizar que expresa obligación fuerte."
+          },
+          {
+            "original": "Peẽ aikotevẽ oñe’ẽ.",
+            "phonetic": "/peˈʔẽ aɪ.koˈte.βẽ oɲeˈʔẽ/",
+            "translation": "Ustedes deben hablar.",
+            "note": "Practicar la conjugación de 'aikotevẽ' con sujetos plurales. Comparar con el español 'ustedes tienen que'."
+          },
+          {
+            "original": "Ha’e ndaikotevẽi oguata.",
+            "phonetic": "/aˈe ndaɪ.ko.teˈβẽɪ oˈɣwa.ta/",
+            "translation": "Él no necesita caminar.",
+            "note": "Combinar 'aikotevẽ' con negación. Enfatizar que la negación afecta al auxiliar, no al verbo principal."
+          },
+          {
+            "original": "¿Piko aikotevẽ oñe’ẽ?",
+            "phonetic": "/ˈpi.ko aɪ.koˈte.βẽ oɲeˈʔẽ/",
+            "translation": "¿Necesitas hablar?",
+            "note": "Practicar preguntas con 'aikotevẽ'. Recordar que en guaraní no hay distinción entre 'deber' y 'necesitar'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📜",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbos modales"
+    }
+  }
+]

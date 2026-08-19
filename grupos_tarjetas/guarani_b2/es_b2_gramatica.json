@@ -1,0 +1,710 @@
+[
+  {
+    "id": "es_B2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Condicionales mixtos / Condicionales avanzados",
+    "bridge": "En español, los condicionales mixtos combinan tiempos verbales para expresar situaciones hipotéticas con consecuencias en el presente o pasado (ej. 'Si hubiera estudiado, ahora tendría un mejor trabajo'). En guaraní, la estructura es distinta: no existe un tiempo condicional puro como en español, sino que se usan partículas y verbos en formas específicas para marcar la hipótesis. Un error común es traducir literalmente las estructuras españolas, lo que lleva a oraciones gramaticalmente incorrectas en guaraní. La clave está en entender que el guaraní prioriza la relación temporal entre acciones mediante sufijos y partículas, no mediante tiempos verbales separados.",
+    "rule": "En guaraní, los condicionales mixtos se forman combinando:\n1. **Partícula condicional**: 'ha' (si) o 'na' (si no) para introducir la cláusula hipotética.\n2. **Verbo en forma condicional**: Usa el sufijo '-ta' (para presente/futuro) o '-katu' (para pasado) en la cláusula condicional.\n3. **Verbo en forma resultativa**: Usa el sufijo '-va' (para presente) o '-hína' (para presente continuo) en la cláusula principal para expresar el resultado actual de una hipótesis pasada.\n\nEstructura general:\n*Cláusula condicional* (hipótesis) + *Cláusula principal* (resultado).\n- **Hipótesis en pasado + Resultado en presente**: 'Ha + verbo + -katu' (pasado) + 'verbo + -va' (presente). Ejemplo: 'Ha che aipota umi mba'e, avei aha'eva' (Si hubiera querido esas cosas, también las tendría ahora).\n- **Hipótesis en presente + Resultado en pasado**: 'Ha + verbo + -ta' (presente) + 'verbo + -katu' (pasado). Ejemplo: 'Ha che aipota umi mba'e, avei aha'ekatu' (Si quisiera esas cosas, también las habría tenido).\n\nExcepciones:\n- Para hipótesis negativas, usa 'na' en lugar de 'ha'. Ejemplo: 'Na che aipota umi mba'e, avei aha'ekatu' (Si no hubiera querido esas cosas, tampoco las habría tenido).\n- El verbo 'ser' (ha'e) en condicional se conjuga como 'ha'eva' (tendría) o 'ha'ekatu' (habría sido).",
+    "concept_examples": [
+      {
+        "text": "Ha che aipota umi mba'e, avei aha'eva.",
+        "translation": "Si hubiera querido esas cosas, también las tendría ahora.",
+        "phonetic": "/ha t͡ʃe aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.βa/"
+      },
+      {
+        "text": "Ha nde rejapóta umi ñe'ẽ, avei rejapóva.",
+        "translation": "Si hubieras hecho esos trabajos, también los tendrías ahora.",
+        "phonetic": "/ha nde re.ha.poˈta uˈmi ɲeˈʔẽ aˈβeɪ̯ re.haˈpo.βa/"
+      },
+      {
+        "text": "Na che aipota umi mba'e, avei aha'ekatu.",
+        "translation": "Si no hubiera querido esas cosas, tampoco las habría tenido.",
+        "phonetic": "/na t͡ʃe aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.ka.tu/"
+      },
+      {
+        "text": "Ha che aipóta umi tembi'u, avei aha'ekatu.",
+        "translation": "Si quisiera esa comida, también la habría comido.",
+        "phonetic": "/ha t͡ʃe aɪ̯ˈpo.ta uˈmi temˈbi.u aˈβeɪ̯ aˈha.e.ka.tu/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ha che aipota umi mba'e, avei aha'e.",
+      "correct": "Ha che aipota umi mba'e, avei aha'eva.",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque el español usa el condicional simple ('tendría') para expresar el resultado en presente, pero en guaraní se requiere el sufijo '-va' para marcar que la consecuencia es actual. La forma 'aha'e' (sería) es incorrecta aquí porque no refleja la relación temporal entre la hipótesis pasada y el resultado presente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Condicional pasado + resultado presente",
+        "translation": "Condicional pasado con resultado en el presente",
+        "examples": [
+          {
+            "original": "Ha che aipota umi mba'e, avei aha'eva.",
+            "phonetic": "/ha t͡ʃe aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.βa/",
+            "translation": "Si hubiera querido esas cosas, también las tendría ahora.",
+            "note": "Enfatiza la relación entre una acción pasada hipotética y su consecuencia actual. El sufijo '-katu' en 'aipota' marca la hipótesis en pasado, y '-va' en 'aha'eva' el resultado presente."
+          },
+          {
+            "original": "Ha nde rejapóta umi ñe'ẽ, avei rejapóva.",
+            "phonetic": "/ha nde re.ha.poˈta uˈmi ɲeˈʔẽ aˈβeɪ̯ re.haˈpo.βa/",
+            "translation": "Si hubieras hecho esos trabajos, también los tendrías ahora.",
+            "note": "Observa cómo cambia el sufijo '-ta' a '-va' según la persona gramatical. La estructura es idéntica al ejemplo anterior."
+          },
+          {
+            "original": "Ha ha'e ohecha umi kuña, avei ohecháva.",
+            "phonetic": "/ha aˈʔe oˈhe.t͡ʃa uˈmi kuˈɲa aˈβeɪ̯ o.heˈt͡ʃa.βa/",
+            "translation": "Si él/ella la hubiera visto, también la vería ahora.",
+            "note": "El verbo 'ohecha' (ver) sigue la misma regla: '-katu' para la hipótesis y '-va' para el resultado."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Condicional presente + resultado pasado",
+        "translation": "Condicional presente con resultado en el pasado",
+        "examples": [
+          {
+            "original": "Ha che aipóta umi mba'e, avei aha'ekatu.",
+            "phonetic": "/ha t͡ʃe aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.ka.tu/",
+            "translation": "Si quisiera esas cosas, también las habría tenido.",
+            "note": "Aquí la hipótesis es en presente ('aipóta'), pero el resultado es en pasado ('aha'ekatu'). El sufijo '-ta' marca la hipótesis presente, y '-katu' el resultado pasado."
+          },
+          {
+            "original": "Ha nde rejapóta umi tembiapo, avei rejapókatu.",
+            "phonetic": "/ha nde re.ha.poˈta uˈmi temˈbi.a.po aˈβeɪ̯ re.ha.poˈka.tu/",
+            "translation": "Si hubieras hecho ese trabajo, también lo habrías terminado.",
+            "note": "Nótese el cambio de '-ta' a '-katu' en el verbo principal. La estructura es paralela al ejemplo anterior."
+          },
+          {
+            "original": "Ha ha'e ohechóta umi mba'e, avei ohechakatu.",
+            "phonetic": "/ha aˈʔe o.he.t͡ʃoˈta uˈmi mbaˈʔe aˈβeɪ̯ o.he.t͡ʃa.kaˈtu/",
+            "translation": "Si él/ella los viera, también los habría visto.",
+            "note": "El verbo 'ohechóta' (ver) usa '-ta' para la hipótesis presente y '-katu' para el resultado pasado."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Condicionales negativos y variantes",
+        "translation": "Condicionales negativos y estructuras alternativas",
+        "examples": [
+          {
+            "original": "Na che aipota umi mba'e, avei aha'ekatu.",
+            "phonetic": "/na t͡ʃe aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.ka.tu/",
+            "translation": "Si no hubiera querido esas cosas, tampoco las habría tenido.",
+            "note": "La partícula 'na' introduce la negación en la hipótesis. La estructura es idéntica a los ejemplos positivos, pero con 'na' en lugar de 'ha'."
+          },
+          {
+            "original": "Na nde rejapóta umi ñe'ẽ, avei rejapókatu.",
+            "phonetic": "/na nde re.ha.poˈta uˈmi ɲeˈʔẽ aˈβeɪ̯ re.ha.poˈka.tu/",
+            "translation": "Si no hubieras hecho esos trabajos, tampoco los habrías terminado.",
+            "note": "Observa cómo 'na' reemplaza a 'ha' y la estructura sigue siendo válida. La negación afecta solo a la cláusula condicional."
+          },
+          {
+            "original": "Ha che na aipota umi mba'e, avei aha'ekatu.",
+            "phonetic": "/ha t͡ʃe na aɪ̯ˈpo.ta uˈmi mbaˈʔe aˈβeɪ̯ aˈha.e.ka.tu/",
+            "translation": "Si no hubiera querido esas cosas, tampoco las habría tenido.",
+            "note": "Variante donde la negación ('na') se coloca dentro de la cláusula condicional. Ambas estructuras ('Na che...' y 'Ha che na...') son correctas."
+          },
+          {
+            "original": "Ha ha'e na ohecha umi kuña, avei ohechakatu.",
+            "phonetic": "/ha aˈʔe na oˈhe.t͡ʃa uˈmi kuˈɲa aˈβeɪ̯ o.he.t͡ʃa.kaˈtu/",
+            "translation": "Si él/ella no la hubiera visto, tampoco la habría visto.",
+            "note": "Ejemplo con negación en la cláusula condicional. La estructura es consistente con los ejemplos anteriores."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "es": "Condicionales avanzados (mixtos)"
+    }
+  },
+  {
+    "id": "es_B2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Voz pasiva avanzada en guaraní / Voz pasiva avanzada en español",
+    "bridge": "En español, la voz pasiva se forma con el verbo 'ser' + participio, pero en guaraní no existe un equivalente directo. Los hablantes de español suelen intentar traducir literalmente construcciones como 'fue hecho' usando estructuras inexistentes en guaraní. En guaraní, la pasiva se expresa mediante sufijos verbales (-va, -ne, -hína) o construcciones impersonales con 'ñande' o 'pe', lo que puede generar confusión al no existir un participio pasivo como en español. Además, el guaraní usa más la voz activa con sujetos indefinidos ('se hace') o construcciones con gerundios para expresar procesos.",
+    "rule": "En guaraní, la voz pasiva avanzada se construye principalmente de tres formas:\n\n1. **Con sufijos verbales**:\n   - **-va**: Indica acción pasiva o estado resultante. Ejemplo: *Ñe’ẽva* (es dicho). Se usa con verbos transitivos.\n   - **-ne**: Expresa acción pasiva con énfasis en el resultado. Ejemplo: *Japone* (fue hecho).\n   - **-hína**: Indica acción en progreso o estado actual. Ejemplo: *Oikohína* (está siendo abierto).\n\n2. **Con construcciones impersonales**:\n   - Usando *ñande* (nosotros) o *pe* (ustedes) + verbo en forma activa para expresar pasiva genérica. Ejemplo: *Ñande ojehechá* (se nos ve, somos vistos).\n   - Con *ha’e* (él/ella) para acciones pasivas sin agente claro. Ejemplo: *Ha’e oñe’ẽ* (es dicho, se dice).\n\n3. **Con gerundios o infinitivos**:\n   - El gerundio (-va) puede usarse para expresar acciones pasivas en contextos descriptivos. Ejemplo: *Oñe’ẽva* (estando dicho, que se dice).\n   - El infinitivo (-rã) en construcciones modales. Ejemplo: *Ojeporu rã* (para ser usado).\n\n**Excepciones y notas clave**:\n- No existe un participio pasivo como en español (*hecho*, *dicho*).\n- Los sufijos pasivos (-va, -ne) no se usan con verbos intransitivos.\n- En contextos formales o escritos, se prefiere la construcción con *ñande* o *ha’e* para evitar ambigüedad.\n- Los verbos modales (como *poder*, *deber*) se combinan con el infinitivo pasivo. Ejemplo: *Ojeporu rã ikatu* (puede ser usado).",
+    "concept_examples": [
+      {
+        "text": "Ñe’ẽva oikóva ojehecháicha",
+        "translation": "Lo que se dice está siendo escuchado.",
+        "phonetic": "/ɲeʔẽːva oiˈkoʋa oʒeheˈtʃaːitʃa/"
+      },
+      {
+        "text": "Japone peteĩ mba’e pyahu",
+        "translation": "Fue hecho algo nuevo.",
+        "phonetic": "/haˈpone peˈteĩ mbaʔe pjaˈhu/"
+      },
+      {
+        "text": "Oñe’ẽva ñande rekávo",
+        "translation": "Lo que se dice está en nuestro corazón.",
+        "phonetic": "/oɲeʔẽːva ɲande reˈkavo/"
+      },
+      {
+        "text": "Pe oñemoñe’ẽ hína ojehecháicha",
+        "translation": "Ustedes están siendo escuchados mientras hablan.",
+        "phonetic": "/pe oɲemoɲeʔẽ ˈhina oʒeheˈtʃaːitʃa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ojehechá peteĩ mba’e pyahu",
+      "correct": "Oñe’ẽva peteĩ mba’e pyahu",
+      "correct_alt": "Ha’e oñe’ẽ peteĩ mba’e pyahu",
+      "explanation": "El error ocurre porque el hablante de español intenta usar la estructura pasiva española 'fue hecho' (*ojehechá* significa 'se ve', no 'fue hecho'). En guaraní, para expresar pasividad se requiere el sufijo *-va* en el verbo principal (*ñe’ẽva* = 'dicho') o una construcción con *ha’e* + verbo. La forma correcta usa *ñe’ẽva* (dicho) para indicar que algo 'fue hecho' en sentido pasivo, o *ha’e oñe’ẽ* para 'se dice'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Sufijos pasivos básicos (-va, -ne)",
+        "translation": "Sufijos pasivos básicos",
+        "examples": [
+          {
+            "original": "Ñe’ẽva oikóva",
+            "phonetic": "/ɲeʔẽːva oiˈkoʋa/",
+            "translation": "Lo que se dice está presente.",
+            "note": "Introduce el sufijo *-va* para expresar estado resultante de una acción pasiva."
+          },
+          {
+            "original": "Japone peteĩ mba’e",
+            "phonetic": "/haˈpone peˈteĩ mbaʔe/",
+            "translation": "Fue hecho algo.",
+            "note": "Presenta el sufijo *-ne* para acciones pasivas con énfasis en el resultado."
+          },
+          {
+            "original": "Oñe’ẽva ñande rekávo",
+            "phonetic": "/oɲeʔẽːva ɲande reˈkavo/",
+            "translation": "Lo que se dice está en nuestro corazón.",
+            "note": "Combina *-va* con posesivos para expresar estados pasivos en contextos emocionales."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Construcciones impersonales (ñande, pe, ha’e)",
+        "translation": "Construcciones impersonales",
+        "examples": [
+          {
+            "original": "Ñande ojehechá",
+            "phonetic": "/ɲande oʒeheˈtʃa/",
+            "translation": "Se nos ve (somos vistos).",
+            "note": "Usa *ñande* + verbo para expresar pasiva genérica con sujeto indefinido."
+          },
+          {
+            "original": "Pe oñemoñe’ẽ",
+            "phonetic": "/pe oɲemoɲeʔẽ/",
+            "translation": "Ustedes están siendo escuchados mientras hablan.",
+            "note": "Combina *pe* con verbo en progreso para acciones pasivas en contexto."
+          },
+          {
+            "original": "Ha’e oñe’ẽ peteĩ mba’e",
+            "phonetic": "/haʔe oɲeʔẽ peˈteĩ mbaʔe/",
+            "translation": "Se dice algo (literalmente: 'él/ella lo dice').",
+            "note": "Usa *ha’e* para acciones pasivas sin agente claro, similar a 'se dice' en español."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Gerundios, infinitivos y modales",
+        "translation": "Gerundios, infinitivos y modales",
+        "examples": [
+          {
+            "original": "Oñe’ẽva oikóva ojehecháicha",
+            "phonetic": "/oɲeʔẽːva oiˈkoʋa oʒeheˈtʃaːitʃa/",
+            "translation": "Lo que se dice está siendo escuchado.",
+            "note": "Combina el sufijo *-va* con gerundio para expresar acciones pasivas en progreso."
+          },
+          {
+            "original": "Ojeporu rã ikatu",
+            "phonetic": "/oʒepoˈɾu rã iˈkatu/",
+            "translation": "Puede ser usado.",
+            "note": "Usa el infinitivo *-rã* con verbos modales para expresar posibilidad pasiva."
+          },
+          {
+            "original": "Pe oñemoñe’ẽ hína ojehecháicha",
+            "phonetic": "/pe oɲemoɲeʔẽ ˈhina oʒeheˈtʃaːitʃa/",
+            "translation": "Ustedes están siendo escuchados mientras hablan.",
+            "note": "Incorpora *-hína* para enfatizar el progreso de la acción pasiva."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "es": "Voz pasiva avanzada en guaraní"
+    }
+  },
+  {
+    "id": "es_B2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Estilo indirecto avanzado / Discurso reportado avanzado",
+    "bridge": "En español, el estilo indirecto suele implicar cambios de tiempos verbales y pronombres según el contexto, pero en guaraní la estructura es más flexible y depende de la relación temporal entre el discurso original y el momento de la enunciación. A diferencia del español, donde el pretérito imperfecto se mantiene en estilo indirecto, en guaraní se prioriza la claridad temporal mediante partículas o cambios en el verbo principal. Los errores comunes surgen al aplicar mecánicamente las reglas del español, ignorando que el guaraní no siempre requiere concordancia temporal estricta.",
+    "rule": "En guaraní, el estilo indirecto se construye principalmente mediante dos estrategias: 1) Uso de partículas temporales como *-va’e* (para pasado) o *-ne* (para futuro) después del verbo reportado, y 2) Cambios en el verbo principal para reflejar la temporalidad relativa. No hay una regla universal de concordancia como en español, pero se recomienda: \n- Para discurso pasado: Añadir *-va’e* al verbo reportado (ej. *ha’e ohecha va’e* 'dijo que vio').\n- Para discurso futuro: Usar *-ne* (ej. *ha’e ohecha ne* 'dijo que verá').\n- Para discurso presente o atemporal: Mantener el verbo sin cambios (ej. *ha’e ohecha* 'dice que ve').\nExcepciones: Verbos como *ñe’ẽ* (decir) o *he’i* (contar) pueden omitir partículas si el contexto es claro. En preguntas indirectas, se usa *mba’éichapa* (cómo) o *máva* (quién) sin cambios de tiempo.",
+    "concept_examples": [
+      {
+        "text": "Che ha’e che sype: \"Aju ndeve\" → Che ha’e che sype oju va’e ndeve.",
+        "translation": "Le dije a mi madre: 'Voy contigo' → Le dije a mi madre que iría contigo.",
+        "phonetic": "/tʃe haˈʔe tʃe ˈsɨpe oˈʒu ˈvaʔe ndeˈβe/"
+      },
+      {
+        "text": "Pe kuimba’e ohe’i: \"Nde rejapóta peteĩ mba’e\" → Pe kuimba’e ohe’i ndépe rejapóta peteĩ mba’e va’e.",
+        "translation": "El hombre dijo: 'Tú harás algo' → El hombre dijo que tú harías algo.",
+        "phonetic": "/pe kʷĩˈmbaʔe oheˈʔi ndeˈpe reʒaˈpota peteˈĩ mbaˈʔe ˈvaʔe/"
+      },
+      {
+        "text": "Nde rejapóta: \"Che aju\" → Nde rejapóta che aju ne.",
+        "translation": "Dijiste: 'Yo voy' → Dijiste que yo iría.",
+        "phonetic": "/nde reʒaˈpota tʃe aˈʒu ne/"
+      },
+      {
+        "text": "Ha’e ohe’i: \"Mba’éichapa reiko\" → Ha’e ohe’i mba’éichapa reiko.",
+        "translation": "Él dijo: '¿Cómo estás?' → Él preguntó cómo estaba.",
+        "phonetic": "/haˈʔe oheˈʔi mbaˈʔeitʃapa reˈiko/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che ha’e che sype: \"Aju ndeve\" → *Che ha’e che sype oju.",
+      "correct": "Che ha’e che sype oju va’e ndeve.",
+      "correct_alt": "",
+      "explanation": "El error ocurre al omitir la partícula *-va’e* que marca el discurso pasado en guaraní. En español, el pretérito imperfecto ('iría') implica el cambio de tiempo, pero en guaraní la partícula es obligatoria para indicar que la acción es reportada y no actual. Sin *-va’e*, la frase suena como una afirmación directa ('voy contigo'), no como un reporte."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ojehechaukase mba’éichapa",
+        "translation": "Reportar preguntas directas",
+        "examples": [
+          {
+            "original": "Nde rejapóta: \"Mba’éichapa reiko?\"",
+            "phonetic": "/nde reʒaˈpota mbaˈʔeitʃapa reˈiko/",
+            "translation": "Dijiste: '¿Cómo estás?'",
+            "note": "Usa *mba’éichapa* para preguntas indirectas. El verbo principal (*ohe’i*) no cambia si el contexto es claro."
+          },
+          {
+            "original": "Ha’e ohe’i: \"Máva oiko?\"",
+            "phonetic": "/haˈʔe oheˈʔi ˈmava oˈiko/",
+            "translation": "Él preguntó: '¿Quién está?'",
+            "note": "Para preguntas con *máva* (quién), mantén el verbo en presente si el contexto no requiere cambio temporal."
+          },
+          {
+            "original": "Che ha’e: \"Mba’épa rejapóta?\"",
+            "phonetic": "/tʃe haˈʔe mbaˈʔepa reʒaˈpota/",
+            "translation": "Dije: '¿Qué harás?'",
+            "note": "La partícula *-pa* en preguntas se mantiene en estilo indirecto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ojehechauka mba’éichapa ojehechaukase",
+        "translation": "Reportar con cambios temporales claros",
+        "examples": [
+          {
+            "original": "Pe kuimba’e ohe’i: \"Che aju ndeve\"",
+            "phonetic": "/pe kʷĩˈmbaʔe oheˈʔi tʃe aˈʒu ndeˈβe/",
+            "translation": "El hombre dijo: 'Yo voy contigo'",
+            "note": "Usa *-va’e* para marcar pasado reportado. El verbo principal (*ohe’i*) no cambia."
+          },
+          {
+            "original": "Nde rejapóta: \"Che aju ne\"",
+            "phonetic": "/nde reʒaˈpota tʃe aˈʒu ne/",
+            "translation": "Dijiste: 'Yo iré'",
+            "note": "Para futuro reportado, usa *-ne* después del verbo principal."
+          },
+          {
+            "original": "Ha’e ohe’i: \"Nde rejapóta peteĩ mba’e\"",
+            "phonetic": "/haˈʔe oheˈʔi nde reʒaˈpota peteˈĩ mbaˈʔe/",
+            "translation": "Él dijo: 'Tú harás algo'",
+            "note": "Si el verbo principal ya implica futuro (*rejapóta*), *-ne* es opcional."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ojehechauka mba’éichapa ojehechaukase oñembo’epyrũva’ekue",
+        "translation": "Reportar con verbos complejos y contextos ambiguos",
+        "examples": [
+          {
+            "original": "Che ha’e che sype: \"Che aju ndeve ha che rejapóta peteĩ mba’e\"",
+            "phonetic": "/tʃe haˈʔe tʃe ˈsɨpe tʃe aˈʒu ndeˈβe ha tʃe reʒaˈpota peteˈĩ mbaˈʔe/",
+            "translation": "Le dije a mi madre: 'Yo iré contigo y tú harás algo'",
+            "note": "Combina dos acciones en estilo indirecto. Usa *-va’e* solo en el primer verbo (*ohecha va’e*) si el contexto lo permite."
+          },
+          {
+            "original": "Pe kuimba’e ohe’i: \"Che aju ndeve, ha che rejapóta peteĩ mba’e ne\"",
+            "phonetic": "/pe kʷĩˈmbaʔe oheˈʔi tʃe aˈʒu ndeˈβe ha tʃe reʒaˈpota peteˈĩ mbaˈʔe ne/",
+            "translation": "El hombre dijo: 'Yo iré contigo, y tú harás algo'",
+            "note": "Para futuro, *-ne* puede aplicarse a ambos verbos si ambos son futuros."
+          },
+          {
+            "original": "Nde rejapóta: \"Che aju, ha che rejapóta peteĩ mba’e\"",
+            "phonetic": "/nde reʒaˈpota tʃe aˈʒu ha tʃe reʒaˈpota peteˈĩ mbaˈʔe/",
+            "translation": "Dijiste: 'Yo iré, y tú harás algo'",
+            "note": "Si el contexto es claro, omite partículas en verbos consecutivos."
+          },
+          {
+            "original": "Ha’e ohe’i: \"Mba’éichapa reiko? Ha mba’épa rejapóta?\"",
+            "phonetic": "/haˈʔe oheˈʔi mbaˈʔeitʃapa reˈiko ha mbaˈʔepa reʒaˈpota/",
+            "translation": "Él preguntó: '¿Cómo estás? Y ¿qué harás?'",
+            "note": "Para preguntas consecutivas, usa *ha* (y) y mantén las partículas interrogativas."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "es": "Estilo indirecto avanzado"
+    }
+  },
+  {
+    "id": "es_B2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Inversión para énfasis / Inversión para énfasis",
+    "bridge": "En español, la inversión para énfasis es poco común y suele limitarse a estructuras como 'No solo... sino también' o 'Rara vez...'. En guaraní, en cambio, la inversión es un recurso gramatical activo y frecuente para destacar información. Los hablantes de español tienden a traducir literalmente estas estructuras, lo que genera frases agramaticales o poco naturales en guaraní. Por ejemplo, mientras en español decimos 'No solo canta, sino que baila', en guaraní se usa la estructura 'Ndahai... ha' con inversión para enfatizar ambos elementos.",
+    "rule": "En guaraní, la inversión para énfasis se logra mediante el uso de partículas específicas que alteran el orden sintáctico habitual (Sujeto-Verbo-Objeto). Las estructuras más comunes son:\n\n1. **Negación enfática con inversión**: Se usa 'Ndahai... ha' para enfatizar que algo no es solo una cosa, sino otra adicional. Ejemplo: 'Ndahai che korasó ha che jerovia' (No solo canto, sino que creo).\n   - 'Ndahai' niega el primer elemento y 'ha' introduce el segundo.\n   - El orden habitual sería 'Che korasó ha che jerovia', pero la inversión enfatiza la negación del primer verbo.\n\n2. **Adverbios de frecuencia invertidos**: Palabras como 'mbarete' (rara vez), 'ndive' (a veces) o 'ete' (muy) pueden invertirse para enfatizar. Ejemplo: 'Mbarete aju' (Rara vez vengo) → 'Aju mbarete' (Vengo rara vez, con énfasis en la rareza).\n   - La inversión coloca el adverbio al final de la frase para destacar su significado.\n\n3. **Preguntas retóricas con inversión**: Se usa 'Mba'éichapa' (¿Cómo?) o 'Mba'éichapa ndive' (¿De qué manera?) al inicio para enfatizar la pregunta. Ejemplo: 'Mba'éichapa ndive nde rembiapo' (¿De qué manera es tu trabajo?).\n\nExcepciones:\n- En estructuras afirmativas, la inversión no es obligatoria, pero añade énfasis. Ejemplo: 'Che korasó ha' (Yo canto y) vs. 'Ha che korasó' (Y yo canto, con énfasis en el sujeto).\n- En oraciones negativas, la inversión es casi obligatoria para evitar ambigüedad. Ejemplo: 'Ndahai che korasó' (No canto) vs. 'Che ndahai korasó' (Yo no canto, con énfasis en el sujeto).",
+    "concept_examples": [
+      {
+        "text": "Ndahai che korasó ha che jerovia.",
+        "translation": "No solo canto, sino que creo.",
+        "phonetic": "/ndaˈai̯ t͡ʃe koɾaˈso ha t͡ʃe heɾoˈβia/"
+      },
+      {
+        "text": "Mbarete aju nde rú.",
+        "translation": "Rara vez vengo a tu casa.",
+        "phonetic": "/mbaˈɾete aˈju nde ˈɾu/"
+      },
+      {
+        "text": "Ha nde ndive che korasó.",
+        "translation": "Y contigo, yo canto.",
+        "phonetic": "/ha nde ˈndiβe t͡ʃe koɾaˈso/"
+      },
+      {
+        "text": "Mba’éichapa ndive nde rembiapo?",
+        "translation": "¿De qué manera es tu trabajo?",
+        "phonetic": "/mbaˈeit͡ʃapa ˈndiβe nde ɾemˈbja.po/"
+      }
+    ],
+    "common_error": {
+      "wrong": "No solo canto, sino que bailo.",
+      "correct": "Ndahai che korasó ha che jeroky.",
+      "correct_alt": "Che korasó ha che jeroky ndahai.",
+      "explanation": "La frase en español es correcta, pero su traducción literal al guaraní ('Ndahai che korasó ha che jeroky') es agramatical porque la estructura 'Ndahai... ha' requiere que ambos verbos estén en la misma forma gramatical. La versión correcta usa 'jeroky' (bailar) en lugar de 'jerovia' (creer), que no tiene sentido en este contexto. Además, la inversión en guaraní debe mantener la coherencia semántica entre los elementos contrastados."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ndahai... ha (No solo... sino)",
+        "translation": "Estructura de negación enfática con inversión",
+        "examples": [
+          {
+            "original": "Ndahai che korasó ha che jeroky.",
+            "phonetic": "/ndaˈai̯ t͡ʃe koɾaˈso ha t͡ʃe heɾoˈki/",
+            "translation": "No solo canto, sino que bailo.",
+            "note": "Enfatiza que el sujeto realiza ambas acciones. La inversión es obligatoria para evitar ambigüedad."
+          },
+          {
+            "original": "Ndahai nde nde’ẽ ha nde jerovia.",
+            "phonetic": "/ndaˈai̯ nde ndeˈʔẽ ha nde heɾoˈβia/",
+            "translation": "No solo hablas, sino que crees.",
+            "note": "Usa 'ha' para conectar dos verbos en la misma persona. Evita confundir 'jerovia' (creer) con 'jeroky' (bailar)."
+          },
+          {
+            "original": "Ndahai aju ha ahecha.",
+            "phonetic": "/ndaˈai̯ aˈju ha aˈe.t͡ʃa/",
+            "translation": "No solo vengo, sino que veo.",
+            "note": "La inversión funciona incluso con verbos de movimiento. La estructura es flexible, pero siempre requiere 'ha' para conectar."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mbarete / Ndivé (Rara vez / A veces)",
+        "translation": "Adverbios de frecuencia invertidos para énfasis",
+        "examples": [
+          {
+            "original": "Mbarete aju nde rú.",
+            "phonetic": "/mbaˈɾete aˈju nde ˈɾu/",
+            "translation": "Rara vez vengo a tu casa.",
+            "note": "Colocar 'mbarete' al final enfatiza la rareza de la acción. En español, el adverbio va al inicio."
+          },
+          {
+            "original": "Ndivé ahecha che sy.",
+            "phonetic": "/ˈndiβe aˈe.t͡ʃa t͡ʃe sɨ/",
+            "translation": "A veces veo a mi madre.",
+            "note": "La inversión ('ahecha' + 'ndivé') suena más natural en guaraní que 'Ndivé ahecha che sy'."
+          },
+          {
+            "original": "Ete oñe’ẽ nde ñe’ẽ.",
+            "phonetic": "/ˈete oɲeˈʔẽ nde ɲeˈʔẽ/",
+            "translation": "Muy bien hablas tu idioma.",
+            "note": "La inversión de 'ete' (muy) enfatiza la cualidad. Equivalente a 'Hablas tu idioma muy bien' con énfasis."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mba’éichapa... ndive (¿De qué manera?)",
+        "translation": "Preguntas retóricas con inversión para énfasis",
+        "examples": [
+          {
+            "original": "Mba’éichapa ndive nde rembiapo?",
+            "phonetic": "/mbaˈeit͡ʃapa ˈndiβe nde ɾemˈbja.po/",
+            "translation": "¿De qué manera es tu trabajo?",
+            "note": "La inversión ('Mba’éichapa ndive') suena más enfática que '¿Cómo es tu trabajo?' en español."
+          },
+          {
+            "original": "Mba’éichapa ndive nde ñe’ẽ?",
+            "phonetic": "/mbaˈeit͡ʃapa ˈndiβe nde ɲeˈʔẽ/",
+            "translation": "¿De qué manera hablas?",
+            "note": "Enfoca la pregunta en la manera o estilo, no solo en el hecho de hablar."
+          },
+          {
+            "original": "Mba’éichapa ndive oñe’ẽ nde sy?",
+            "phonetic": "/mbaˈeit͡ʃapa ˈndiβe oɲeˈʔẽ nde sɨ/",
+            "translation": "¿De qué manera habla tu madre?",
+            "note": "La inversión funciona con cualquier sujeto. Equivale a '¿Cómo habla tu madre?' pero con más énfasis."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "es": "Inversión para énfasis"
+    }
+  },
+  {
+    "id": "es_B2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Opa mba’éichapa... rehegua / Construcciones escindidas (es... que)",
+    "bridge": "En español, las construcciones escindidas (ej. 'Es María quien lo hizo') se forman con 'ser' + pronombre relativo para enfatizar un elemento. En guaraní, no existe un equivalente directo: se usa la estructura 'Opa mba’éichapa... rehegua' (literalmente 'es de qué manera... que') para enfatizar cualquier componente de la oración, ya sea sujeto, objeto o circunstancial. La clave es que el guaraní no requiere un verbo copulativo como 'ser' en todas las construcciones, y el orden de palabras es más flexible. Los hispanohablantes pueden caer en el error de traducir literalmente ('Es Juan que vino'), lo que suena redundante en guaraní.",
+    "rule": "En guaraní, las construcciones escindidas se forman con la estructura: **Opa mba’éichapa [elemento enfatizado] rehegua [resto de la oración]**. El elemento enfatizado puede ser sujeto, objeto directo, objeto indirecto o circunstancial. \n\n1. **Estructura básica**: Opa mba’éichapa + [elemento] + rehegua + [verbo + complementos]. Ejemplo: 'Opa mba’éichapa **che** rehegua ahechá' (Es **a mí** a quien veo). \n2. **Variantes**: \n   - Para enfatizar un verbo: 'Opa mba’éichapa **ahechá** rehegua' (Es **ver** lo que hago). \n   - Para enfatizar un objeto indirecto: 'Opa mba’éichapa **pe mitã** rehegua ndohechái' (Es **a los niños** a quienes no veo). \n3. **Excepciones**: \n   - Si el elemento enfatizado es un pronombre personal, se usa la forma enfática: **che**, **nde**, **ñande**, etc. (ej. 'Opa mba’éichapa **ñande** rehegua oñembo’ehára' = Es **nosotros** quienes hablamos). \n   - En preguntas, se usa 'Mba’éichapa' en lugar de 'Opa mba’éichapa': 'Mba’éichapa **pe mitã** rehegua oñe’ẽ?' (¿Es **a los niños** a quienes hablan?). \n4. **Uso en pasado**: Se añade el sufijo de tiempo (-kue, -ra) al verbo principal: 'Opa mba’éichapa **che** rehegua ahechá**kue**' (Fue **a mí** a quien vi).",
+    "concept_examples": [
+      {
+        "text": "Opa mba’éichapa **pe mitã** rehegua oñe’ẽ haguã.",
+        "translation": "Es **a los niños** a quienes les enseñan.",
+        "phonetic": "opa mbaˈeitʃapa pe miˈtã reheˈɣwa oɲeˈʔẽ hwaˈɣʷa"
+      },
+      {
+        "text": "Opa mba’éichapa **che** rehegua ahechá.",
+        "translation": "Es **a mí** a quien veo.",
+        "phonetic": "opa mbaˈeitʃapa tʃe reheˈɣwa aheˈtʃa"
+      },
+      {
+        "text": "Opa mba’éichapa **ahechá** rehegua ndohechái.",
+        "translation": "Es **ver** lo que no veo.",
+        "phonetic": "opa mbaˈeitʃapa aheˈtʃa reheˈɣwa ndoheˈtʃai"
+      },
+      {
+        "text": "Mba’éichapa **pe kuimba’e** rehegua oñe’ẽ haguã?",
+        "translation": "¿Es **a los hombres** a quienes les enseñan?",
+        "phonetic": "mbaˈeitʃapa pe kuimˈbaʔe reheˈɣwa oɲeˈʔẽ hwaˈɣʷa"
+      }
+    ],
+    "common_error": {
+      "wrong": "Es **Juan** que vino ayer.",
+      "correct": "Opa mba’éichapa **Juan** rehegua oho haguã.",
+      "correct_alt": "Oho haguã **Juan** rehegua.",
+      "explanation": "El error ocurre porque el hispanohablante intenta traducir literalmente la estructura española 'ser + que'. En guaraní, no existe el 'que' relativo en este contexto, y la construcción escindida requiere 'rehegua' para marcar el elemento enfatizado. La forma correcta usa 'Opa mba’éichapa' + [elemento] + 'rehegua' + [verbo en pasado]. La alternativa 'Oho haguã Juan rehegua' es más coloquial y omite el 'Opa mba’éichapa' inicial."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Opa mba’éichapa + sujeto",
+        "translation": "Enfatizar el sujeto de la oración",
+        "examples": [
+          {
+            "original": "Opa mba’éichapa **che** rehegua ahechá.",
+            "phonetic": "opa mbaˈeitʃapa tʃe reheˈɣwa aheˈtʃa",
+            "translation": "Es **a mí** a quien veo.",
+            "note": "El sujeto 'che' (yo) se enfatiza con 'rehegua'. Observa que el verbo 'ahechá' (veo) no cambia."
+          },
+          {
+            "original": "Opa mba’éichapa **pe mitã** rehegua oñe’ẽ.",
+            "phonetic": "opa mbaˈeitʃapa pe miˈtã reheˈɣwa oɲeˈʔẽ",
+            "translation": "Es **a los niños** quienes hablan.",
+            "note": "El sujeto plural 'pe mitã' (los niños) requiere 'rehegua' para enfatizar."
+          },
+          {
+            "original": "Opa mba’éichapa **ha’e** rehegua oho.",
+            "phonetic": "opa mbaˈeitʃapa aˈe reheˈɣwa oˈo",
+            "translation": "Es **él** quien se va.",
+            "note": "El pronombre enfático 'ha’e' (él) se usa para sujetos no personales."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Opa mba’éichapa + objeto directo/indirecto",
+        "translation": "Enfatizar objetos directos o indirectos",
+        "examples": [
+          {
+            "original": "Opa mba’éichapa **che rembi’u** rehegua aju.",
+            "phonetic": "opa mbaˈeitʃapa tʃe remˈbiʔu reheˈɣwa aˈhu",
+            "translation": "Es **mi comida** lo que traigo.",
+            "note": "El objeto directo 'che rembi’u' (mi comida) se enfatiza con 'rehegua'."
+          },
+          {
+            "original": "Opa mba’éichapa **pe tape** rehegua ndohechái.",
+            "phonetic": "opa mbaˈeitʃapa pe taˈpe reheˈɣwa ndoheˈtʃai",
+            "translation": "Es **el camino** lo que no veo.",
+            "note": "El objeto directo 'pe tape' (el camino) requiere 'rehegua' para enfatizar."
+          },
+          {
+            "original": "Opa mba’éichapa **nde** rehegua ahechá.",
+            "phonetic": "opa mbaˈeitʃapa nde reheˈɣwa aheˈtʃa",
+            "translation": "Es **a ti** a quien veo.",
+            "note": "El pronombre objeto 'nde' (a ti) se enfatiza con 'rehegua'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Opa mba’éichapa + verbo o circunstancial",
+        "translation": "Enfatizar verbos o circunstancias",
+        "examples": [
+          {
+            "original": "Opa mba’éichapa **ahechá** rehegua ndohechái.",
+            "phonetic": "opa mbaˈeitʃapa aheˈtʃa reheˈɣwa ndoheˈtʃai",
+            "translation": "Es **ver** lo que no veo.",
+            "note": "El verbo 'ahechá' (ver) se enfatiza como núcleo de la oración."
+          },
+          {
+            "original": "Opa mba’éichapa **pe árape** rehegua oho.",
+            "phonetic": "opa mbaˈeitʃapa pe ˈaɾape reheˈɣwa oˈo",
+            "translation": "Es **hoy** cuando se va.",
+            "note": "El circunstancial 'pe árape' (hoy) se enfatiza con 'rehegua'."
+          },
+          {
+            "original": "Opa mba’éichapa **ñande** rehegua oñembo’ehára.",
+            "phonetic": "opa mbaˈeitʃapa ɲande reheˈɣwa oɲemboʔeˈhara",
+            "translation": "Es **nosotros** quienes hablamos.",
+            "note": "El pronombre inclusivo 'ñande' (nosotros) se enfatiza en contextos colectivos."
+          },
+          {
+            "original": "Mba’éichapa **pe kuimba’e** rehegua oñe’ẽ haguã?",
+            "phonetic": "mbaˈeitʃapa pe kuimˈbaʔe reheˈɣwa oɲeˈʔẽ hwaˈɣʷa",
+            "translation": "¿Es **a los hombres** a quienes les enseñan?",
+            "note": "En preguntas, 'Mba’éichapa' reemplaza a 'Opa mba’éichapa' para enfatizar."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔍",
+    "phonetic": "",
+    "translations": {
+      "es": "Construcciones escindidas (es... que)"
+    }
+  },
+  {
+    "id": "es_B2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nominalización / Nominalización (verbos y adjetivos convertidos en sustantivos)",
+    "bridge": "En español, la nominalización es común con sufijos como -ción, -miento o -dad (ej. 'caminar' → 'caminata'), pero en guaraní este proceso es más productivo y flexible, usando sufijos como -ha, -va o -re. A diferencia del español, donde la nominalización suele ser un proceso derivativo fijo, en guaraní puede ser más analítico y depender del contexto. Los hablantes de español tienden a forzar estructuras nominales similares a las del español, ignorando la riqueza morfológica del guaraní.",
+    "rule": "En guaraní, los verbos y adjetivos se nominalizan principalmente mediante sufijos productivos que transforman la palabra en un sustantivo. Los sufijos más comunes son:\n1. **-ha**: Indica acción, resultado o agente (ej. 'ñe'ẽ' (hablar) → 'ñe'ẽha' (el habla)).\n2. **-va**: Marca el agente o quien realiza la acción (ej. 'mba'e' (cosa) + 'porã' (bonito) → 'mba'e porãva' (el que hace cosas bonitas)).\n3. **-re**: Usado para estados, cualidades o resultados (ej. 'tavy' (tonto) → 'tavyre' (la tontería)).\n\nExcepciones:\n- Algunos nominalizados son irregulares o requieren cambios vocálicos (ej. 'japo' (hacer) → 'japoha' (el hacedor)).\n- En contextos poéticos o arcaicos, se usan sufijos como -kue o -kuera para enfatizar posesión o origen.\n\nUso típico:\n- Para expresar acciones como sustantivos: 'Che ha'eha' (mi forma de hablar).\n- Para describir cualidades: 'Ñande porãva' (nuestra belleza).\n- En proverbios o refranes: 'Mba'e reko re' (cómo eres).",
+    "concept_examples": [
+      {
+        "text": "Che ha'eha oikóvaite.",
+        "translation": "Mi forma de hablar es muy clara.",
+        "phonetic": "/tʃe haˈʔe.ha o.iˈko.ʋai̯.te/"
+      },
+      {
+        "text": "Mba'e porãva ojehecháicha.",
+        "translation": "Lo que es hermoso se admira así.",
+        "phonetic": "/ᵐbaˈʔe poˈɾã.va o.he.tʃeˈtʃai̯.tʃa/"
+      },
+      {
+        "text": "Tavyre oñe'ẽ haguã.",
+        "translation": "La tontería se dice para reír.",
+        "phonetic": "/taˈʋɨ.ɾe o.ɲeˈʔẽ haˈɣʷã/"
+      },
+      {
+        "text": "Japoha ojeheja haguã.",
+        "translation": "El hacedor se deja ver.",
+        "phonetic": "/haˈpo.ha o.heˈhe.ha haˈɣʷã/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che ha'e oikóvaite.",
+      "correct": "Che ha'eha oikóvaite.",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque en español se usa el verbo directamente ('mi hablar'), pero en guaraní el sufijo -ha es obligatorio para nominalizar 'ha'e' (hablar). Sin -ha, la frase suena incompleta o incorrecta en guaraní, ya que no se reconoce como sustantivo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nominalización básica con -ha",
+        "translation": "Nominalización básica con sufijo -ha",
+        "examples": [
+          {
+            "original": "Ñe'ẽha ojehecháicha.",
+            "phonetic": "/ɲeˈʔẽ.ha o.he.tʃeˈtʃai̯.tʃa/",
+            "translation": "El habla se admira así.",
+            "note": "Introduce la nominalización de verbos con -ha para acciones."
+          },
+          {
+            "original": "Japo ha ojeheja.",
+            "phonetic": "/haˈpo ha o.heˈhe.ha/",
+            "translation": "Hacer y dejar ver.",
+            "note": "Muestra cómo -ha convierte verbos en sustantivos abstractos."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nominalización con -va y -re",
+        "translation": "Nominalización con sufijos -va y -re",
+        "examples": [
+          {
+            "original": "Mba'e porãva ojehecháicha.",
+            "phonetic": "/ᵐbaˈʔe poˈɾã.va o.he.tʃeˈtʃai̯.tʃa/",
+            "translation": "Lo que es hermoso se admira así.",
+            "note": "Enfatiza el uso de -va para cualidades o agentes."
+          },
+          {
+            "original": "Tavyre oñe'ẽ haguã.",
+            "phonetic": "/taˈʋɨ.ɾe o.ɲeˈʔẽ haˈɣʷã/",
+            "translation": "La tontería se dice para reír.",
+            "note": "Destaca -re para estados o resultados."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nominalización en contextos complejos",
+        "translation": "Nominalización en contextos complejos y expresiones idiomáticas",
+        "examples": [
+          {
+            "original": "Che ha'eha oikóvaite che ñe'ẽ.",
+            "phonetic": "/tʃe haˈʔe.ha o.iˈko.ʋai̯.te tʃe ɲeˈʔẽ/",
+            "translation": "Mi forma de hablar es muy clara para mí.",
+            "note": "Combina nominalización con pronombres para expresar posesión."
+          },
+          {
+            "original": "Japoha ojeheja haguã mba'e rehe.",
+            "phonetic": "/haˈpo.ha o.heˈhe.ha haˈɣʷã ᵐbaˈʔe ɾeˈhe/",
+            "translation": "El hacedor se deja ver por las cosas.",
+            "note": "Usa nominalización en frases con preposiciones para expresar causa o propósito."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔤",
+    "phonetic": "",
+    "translations": {
+      "es": "Nominalización (verbos y adjetivos convertidos en sustantivos)"
+    }
+  }
+]

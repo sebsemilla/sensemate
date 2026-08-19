@@ -1,0 +1,716 @@
+[
+  {
+    "id": "es_B1_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Mba’éichapa ñeha’ã ha mba’éicha ojejapo umi tembiapo haicha oñe’ẽhaicha",
+    "bridge": "En español, al hablar de solicitudes de empleo, solemos usar estructuras como 'Me gustaría aplicar para este puesto' o 'Tengo experiencia en...'. En guaraní, en cambio, la expresión de intenciones y habilidades se construye con verbos en modo subjuntivo o con sufijos de propósito (-hína, -se), lo que puede confundir a hispanohablantes acostumbrados a la claridad de los infinitivos. Además, el guaraní omite artículos y usa posposiciones (como -pe) donde el español requiere preposiciones ('para' o 'en'), lo que genera errores comunes como mezclar 'ha' (y) con 'pe' (en/dentro de).",
+    "rule": "1. **Expresión de intenciones (solicitud de empleo)**:\n   - Se usa el sufijo **-hína** para indicar propósito o intención en presente: *Añe’ẽ-hína che rembiapo* (Estoy aplicando a mi trabajo).\n   - Para habilidades o experiencia, se emplea **-se** con verbos en infinitivo: *Che aipota-se che experiencia* (Yo quiero mostrar mi experiencia).\n   - **Excepción**: En contextos formales, se puede usar el verbo **ñeha’ã** (querer/desear) + infinitivo: *Che ñeha’ã che rembiapo* (Yo deseo mi trabajo).\n\n2. **Estructura del CV (mba’éicha ojejapo umi tembiapo)**:\n   - Los guaraníes organizan la información con posposiciones como **-pe** (en/dentro de) para indicar lugar o contexto: *Che experiencia-pe* (En mi experiencia).\n   - Para enumerar logros, se usa **-va’erã** (que debe ser) + verbo: *Che mba’éichapa ojejapo-va’erã* (Cómo debe ser hecho).\n   - **Nota**: No se usan artículos definidos (el/la) en guaraní; el contexto determina la referencia.\n\n3. **Formalidad**:\n   - En contextos profesionales, se añade **-ete** (muy/mucho) para enfatizar: *Che ñeha’ã-ete* (Yo deseo mucho).\n   - Para negar, se usa **ndi...i**: *Ndi aipota-i che experiencia* (No quiero mostrar mi experiencia).",
+    "concept_examples": [
+      {
+        "text": "Añe’ẽ-hína che rembiapo-pe ha che experiencia-pe.",
+        "translation": "Estoy aplicando a este puesto y mostrando mi experiencia.",
+        "phonetic": "/aˈɲeʔẽ ˈhĩna tʃe ɾeɨmˈbjaɾo pe ha tʃe eksiˈpeɾja pe/"
+      },
+      {
+        "text": "Che ñeha’ã che rembiapo-pe ha che mba’éichapa ojejapo-va’erã.",
+        "translation": "Deseo este puesto y cómo debe ser hecho.",
+        "phonetic": "/tʃe ɲeˈhaʔã tʃe ɾeɨmˈbjaɾo pe ha tʃe mbaˈeitʃa pa oheˈjapo βaˈeɾã/"
+      },
+      {
+        "text": "Che aipota-se che experiencia-pe ha che mba’éichapa ojejapo.",
+        "translation": "Quiero mostrar mi experiencia y cómo lo hice.",
+        "phonetic": "/tʃe aiˈpota se tʃe eksiˈpeɾja pe ha tʃe mbaˈeitʃa pa oheˈjapo/"
+      },
+      {
+        "text": "Ndi aipota-i che rembiapo-pe, ha upéi che ñeha’ã che mba’éichapa ojejapo-va’erã.",
+        "translation": "No quiero este puesto, pero deseo mostrar cómo debe ser hecho.",
+        "phonetic": "/ndi aiˈpota i tʃe ɾeɨmˈbjaɾo pe, ha uˈpei tʃe ɲeˈhaʔã tʃe mbaˈeitʃa pa oheˈjapo βaˈeɾã/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che quiero aplicar para este puesto porque tengo experiencia.",
+      "correct": "Añe’ẽ-hína che rembiapo-pe ha che experiencia-pe.",
+      "correct_alt": "Che ñeha’ã che rembiapo-pe ha che aipota-se che experiencia.",
+      "explanation": "El error ocurre porque en guaraní no se usa el verbo 'querer' (ñeha’ã) directamente con infinitivos como en español. Además, 'para' se traduce como **-pe** (posposición) y no como preposición. La estructura correcta requiere sufijos de propósito (-hína, -se) o verbos específicos como ñeha’ã."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ñeha’ã ha añe’ẽ",
+        "translation": "Deseos y aplicaciones",
+        "examples": [
+          {
+            "original": "Che ñeha’ã che rembiapo-pe.",
+            "phonetic": "/tʃe ɲeˈhaʔã tʃe ɾeɨmˈbjaɾo pe/",
+            "translation": "Deseo este puesto.",
+            "note": "Introduce la estructura básica de deseo con ñeha’ã + posposición -pe."
+          },
+          {
+            "original": "Añe’ẽ-hína che rembiapo-pe.",
+            "phonetic": "/aˈɲeʔẽ ˈhĩna tʃe ɾeɨmˈbjaɾo pe/",
+            "translation": "Estoy aplicando a este puesto.",
+            "note": "Presenta el sufijo -hína para expresar acción en progreso."
+          },
+          {
+            "original": "Che aipota che rembiapo-pe.",
+            "phonetic": "/tʃe aiˈpota tʃe ɾeɨmˈbjaɾo pe/",
+            "translation": "Yo quiero este puesto.",
+            "note": "Muestra el uso de aipota (querer) sin sufijo, pero menos formal que ñeha’ã."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Tembiapo ha experiencia",
+        "translation": "Trabajo y experiencia",
+        "examples": [
+          {
+            "original": "Che experiencia-pe ha che mba’éichapa ojejapo.",
+            "phonetic": "/tʃe eksiˈpeɾja pe ha tʃe mbaˈeitʃa pa oheˈjapo/",
+            "translation": "En mi experiencia y cómo lo hice.",
+            "note": "Enseña a usar posposiciones (-pe) para indicar contexto y verbos en pasado."
+          },
+          {
+            "original": "Che aipota-se che experiencia-pe.",
+            "phonetic": "/tʃe aiˈpota se tʃe eksiˈpeɾja pe/",
+            "translation": "Quiero mostrar mi experiencia.",
+            "note": "Introduce el sufijo -se para expresar intención con verbos."
+          },
+          {
+            "original": "Che mba’éichapa ojejapo-va’erã.",
+            "phonetic": "/tʃe mbaˈeitʃa pa oheˈjapo βaˈeɾã/",
+            "translation": "Cómo debe ser hecho.",
+            "note": "Presenta -va’erã para indicar obligación o propósito."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mba’éichapa oñe’ẽhaicha",
+        "translation": "Cómo expresarlo formalmente",
+        "examples": [
+          {
+            "original": "Che ñeha’ã-ete che rembiapo-pe ha che experiencia-pe ojejapo-va’erã.",
+            "phonetic": "/tʃe ɲeˈhaʔã ˈete tʃe ɾeɨmˈbjaɾo pe ha tʃe eksiˈpeɾja pe oheˈjapo βaˈeɾã/",
+            "translation": "Deseo mucho este puesto y mostrar mi experiencia como debe ser.",
+            "note": "Combina estructuras formales con énfasis (-ete) y propósito (-va’erã)."
+          },
+          {
+            "original": "Ndi aipota-i che rembiapo-pe, ha upéi che ñeha’ã che mba’éichapa ojejapo.",
+            "phonetic": "/ndi aiˈpota i tʃe ɾeɨmˈbjaɾo pe, ha uˈpei tʃe ɲeˈhaʔã tʃe mbaˈeitʃa pa oheˈjapo/",
+            "translation": "No quiero este puesto, pero deseo mostrar cómo lo hice.",
+            "note": "Presenta negación (ndi...i) y contraste con ha (y/pero)."
+          },
+          {
+            "original": "Añe’ẽ-hína che rembiapo-pe ha che mba’éichapa ojejapo-va’erã ha’eva’ekue.",
+            "phonetic": "/aˈɲeʔẽ ˈhĩna tʃe ɾeɨmˈbjaɾo pe ha tʃe mbaˈeitʃa pa oheˈjapo βaˈeɾã haˈeβaˈekwe/",
+            "translation": "Estoy aplicando a este puesto y cómo debe ser hecho, como corresponde.",
+            "note": "Usa -va’erã ha’eva’ekue para formalizar la estructura."
+          }
+        ]
+      }
+    ],
+    "emoji": "📝",
+    "phonetic": "",
+    "translations": {
+      "es": "Solicitud de empleo y CV"
+    }
+  },
+  {
+    "id": "es_B1_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Ñe’ẽmbohovái ha tembiapo oikóva ára - Hablar de noticias y eventos actuales",
+    "bridge": "En guaraní, la expresión de eventos actuales se estructura con verbos en tiempo presente o pasado reciente, pero a diferencia del español, no se usa el pretérito perfecto compuesto (ej. 'ha pasado') para noticias recientes. En su lugar, el guaraní prefiere el pretérito simple ('oiko') o perifrasis como 'oiko ha' para enfatizar actualidad. Además, el guaraní suele omitir el sujeto cuando está claro por el contexto, algo que puede confundir a hispanohablantes acostumbrados a sujetos explícitos en español.",
+    "rule": "Para discutir eventos actuales en guaraní (B1), se usan principalmente:\n1. **Presente simple** para eventos habituales o en progreso: 'Oiko' (está ocurriendo) + verbo en -va (participio activo). Ej: 'Oiko oñembo’ehára' (está hablando).\n2. **Pretérito simple** para eventos recientes o pasados: 'Oiko' (pasado) + verbo en -kuri. Ej: 'Oiko oñembo’ehára kuri' (habló hace poco).\n3. **Perífrasis de actualidad**: 'Oiko ha' + verbo en -va para enfatizar novedad. Ej: 'Oiko ha oñembo’ehára' (acaba de hablar).\n4. **Oraciones impersonales**: Usan 'ha' (y) o 'upe' (allí) para introducir noticias. Ej: 'Ha upe oñembo’ehára' (y allí está hablando).\nExcepción: Para eventos futuros, se usa 'oiko' + -ta (futuro). Ej: 'Oiko oñembo’ehára ta' (hablará pronto).",
+    "concept_examples": [
+      {
+        "text": "Oiko ha oñembo’ehára kuri ojehecha televisión-pe",
+        "translation": "Acaba de hablar porque lo vieron en la televisión.",
+        "phonetic": "oi̯.ko ha o.ɲẽm.bo.ʔe.ha.ɾa ku.ɾi o.he.ʃa te.le.βi.si̯on.pe"
+      },
+      {
+        "text": "Oñembo’ehára kuri ojehecha televisión-pe",
+        "translation": "Habló (hace poco) porque lo vieron en la televisión.",
+        "phonetic": "o.ɲẽm.bo.ʔe.ha.ɾa ku.ɾi o.he.ʃa te.le.βi.si̯on.pe"
+      },
+      {
+        "text": "Oiko oñembo’ehára ojehecha televisión-pe",
+        "translation": "Está hablando porque lo están viendo en la televisión.",
+        "phonetic": "oi̯.ko o.ɲẽm.bo.ʔe.ha.ɾa o.he.ʃa te.le.βi.si̯on.pe"
+      },
+      {
+        "text": "Ha upe oñembo’ehára ojehecha televisión-pe",
+        "translation": "Y allí está hablando porque lo ven en la televisión.",
+        "phonetic": "ha u.pe o.ɲẽm.bo.ʔe.ha.ɾa o.he.ʃa te.le.βi.si̯on.pe"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ha pasado que oñembo’ehára ojehecha televisión-pe",
+      "correct": "Oiko ha oñembo’ehára kuri ojehecha televisión-pe",
+      "correct_alt": "Oñembo’ehára kuri ojehecha televisión-pe",
+      "explanation": "El error ocurre porque en español se usa 'ha pasado' para noticias recientes, pero en guaraní se prefiere el pretérito simple ('oñembo’ehára kuri') o la perifrasis 'oiko ha' para enfatizar actualidad. La construcción 'ha pasado' es una calco del español que no existe en guaraní."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Oñembo’ehára oiko",
+        "translation": "Eventos en progreso",
+        "examples": [
+          {
+            "original": "Oiko oñembo’ehára ojehecha televisión-pe",
+            "phonetic": "oi̯.ko o.ɲẽm.bo.ʔe.ha.ɾa o.he.ʃa te.le.βi.si̯on.pe",
+            "translation": "Está hablando porque lo están viendo en la televisión.",
+            "note": "Usa 'oiko' + verbo en -va para eventos en curso. El sujeto 'ñande' (nosotros) se omite por contexto."
+          },
+          {
+            "original": "Oiko oñembo’ehára ojehecha ñane mba’e",
+            "phonetic": "oi̯.ko o.ɲẽm.bo.ʔe.ha.ɾa o.he.ʃa ɲa.ne mba.ʔe",
+            "translation": "Está hablando porque nos ven a nosotros.",
+            "note": "El pronombre 'ñande' (nosotros) se omite en guaraní cuando es claro por el contexto."
+          },
+          {
+            "original": "Oiko oñembo’ehára ojehecha nde",
+            "phonetic": "oi̯.ko o.ɲẽm.bo.ʔe.ha.ɾa o.he.ʃa nde",
+            "translation": "Está hablando porque te ven a ti.",
+            "note": "El pronombre 'nde' (tú) se omite si el contexto lo permite."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Oñembo’ehára kuri",
+        "translation": "Eventos recientes",
+        "examples": [
+          {
+            "original": "Oñembo’ehára kuri ojehecha televisión-pe",
+            "phonetic": "o.ɲẽm.bo.ʔe.ha.ɾa ku.ɾi o.he.ʃa te.le.βi.si̯on.pe",
+            "translation": "Habló (hace poco) porque lo vieron en la televisión.",
+            "note": "Usa '-kuri' para eventos recientes. Equivale al pretérito perfecto simple en español."
+          },
+          {
+            "original": "Oñembo’ehára kuri ojehecha ñane mba’e",
+            "phonetic": "o.ɲẽm.bo.ʔe.ha.ɾa ku.ɾi o.he.ʃa ɲa.ne mba.ʔe",
+            "translation": "Habló (hace poco) porque nos vieron a nosotros.",
+            "note": "El sujeto 'ñande' se omite, pero puede incluirse si se quiere enfatizar: 'Ñande oñembo’ehára kuri'."
+          },
+          {
+            "original": "Oñembo’ehára kuri ojehecha nde",
+            "phonetic": "o.ɲẽm.bo.ʔe.ha.ɾa ku.ɾi o.he.ʃa nde",
+            "translation": "Habló (hace poco) porque te vieron a ti.",
+            "note": "El pronombre 'nde' puede omitirse si el contexto es claro."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Oiko ha oñembo’ehára",
+        "translation": "Eventos con énfasis en actualidad",
+        "examples": [
+          {
+            "original": "Oiko ha oñembo’ehára kuri ojehecha televisión-pe",
+            "phonetic": "oi̯.ko ha o.ɲẽm.bo.ʔe.ha.ɾa ku.ɾi o.he.ʃa te.le.βi.si̯on.pe",
+            "translation": "Acaba de hablar porque lo vieron en la televisión.",
+            "note": "La perifrasis 'oiko ha' + '-kuri' enfatiza la inmediatez del evento."
+          },
+          {
+            "original": "Oiko ha oñembo’ehára kuri ojehecha ñane mba’e",
+            "phonetic": "oi̯.ko ha o.ɲẽm.bo.ʔe.ha.ɾa ku.ɾi o.he.ʃa ɲa.ne mba.ʔe",
+            "translation": "Acaba de hablar porque nos vieron a nosotros.",
+            "note": "El sujeto 'ñande' se omite, pero puede incluirse para claridad: 'Ñande oiko ha oñembo’ehára kuri'."
+          },
+          {
+            "original": "Oiko ha oñembo’ehára ojehecha nde",
+            "phonetic": "oi̯.ko ha o.ɲẽm.bo.ʔe.ha.ɾa o.he.ʃa nde",
+            "translation": "Acaba de hablar porque te vieron a ti.",
+            "note": "El pronombre 'nde' puede omitirse si el contexto es claro."
+          }
+        ]
+      }
+    ],
+    "emoji": "📰",
+    "phonetic": "",
+    "translations": {
+      "es": "Hablar de noticias y eventos actuales"
+    }
+  },
+  {
+    "id": "es_B1_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Ñe’ẽ ha mba’e rehegua ñembyaty / Malentendidos culturales en la comunicación",
+    "bridge": "En español, los malentendidos culturales suelen surgir por diferencias en el tono, el contexto o las normas de cortesía, pero en guaraní la comunicación está profundamente ligada a la oralidad y a la conexión emocional con el interlocutor. A diferencia del español, donde el silencio puede interpretarse como incomodidad, en guaraní el silencio prolongado puede ser señal de respeto o reflexión. Además, el uso de diminutivos en español (ej. \"un momentito\") no tiene equivalente directo en guaraní, donde la intensidad se expresa con otros recursos lingüísticos. Los guaraníhablantes suelen priorizar la armonía grupal sobre la claridad individual, lo que puede confundir a hispanohablantes acostumbrados a mensajes directos.",
+    "rule": "Para evitar malentendidos culturales en guaraní, es clave dominar estas estructuras: \n1. **Uso de \"ñe’ẽ\" (hablar) con sufijos de cortesía**: El guaraní emplea sufijos como -mi (atenuante) o -pa (énfasis) para suavizar o intensificar el mensaje. Ejemplo: \"Ha’e mitãmi\" (Él es niño, pero con tono afectuoso) vs. \"Ha’e mitã\" (Él es niño, neutro).\n2. **Preguntas indirectas**: En lugar de preguntar directamente \"¿Qué quieres comer?\", se usa \"Mba’éichapa ojeikuaa nde rekópe?\" (¿Cómo está tu situación?), donde el contexto cultural implica la intención.\n3. **Silencios y pausas**: No interrumpir al interlocutor, incluso en silencios, es señal de respeto. En español, esto podría interpretarse como desinterés, pero en guaraní es parte de la comunicación no verbal.\n4. **Uso de \"jajotopa\" (vamos a hacer) para propuestas grupales**: Refuerza la idea de acción colectiva, clave en culturas comunitarias. Ejemplo: \"Jajotopa ñande ñembo’e\" (Vamos a rezar juntos).",
+    "concept_examples": [
+      {
+        "text": "Nde py’aite ndaijavéi ha’e mitãmi.",
+        "translation": "No te preocupes, es solo un niño.",
+        "phonetic": "/nde pɨ.ˈa.i.te nda.i.ha.ˈve.i ha.ˈʔe mi.ˈtã.mi/"
+      },
+      {
+        "text": "Mba’éichapa ojeikuaa nde rekópe? ¿Nde py’aguapy porã?",
+        "translation": "¿Cómo estás? ¿Te sientes bien?",
+        "phonetic": "/mba.ˈʔe.i.tʃa.pa o.he.i.ˈkwa.a nde re.ˈko.pe ˈʔe nde pɨ.ˈa.ɡwa.pɨ po.ˈɾã/"
+      },
+      {
+        "text": "Jajotopa ñande ñembo’e ko’ág̃a.",
+        "translation": "Vamos a rezar juntos ahora.",
+        "phonetic": "/ha.ho.ˈto.pa ɲa.nde ɲem.bo.ˈʔe ko.ˈa.ɣa/"
+      },
+      {
+        "text": "Ha’e oñe’ẽ ha ndaipóri mba’éichapa oñemba’apo.",
+        "translation": "Él habla, pero no explica cómo hacerlo.",
+        "phonetic": "/ha.ˈʔe o.ɲe.ˈʔẽ ha nda.i.ˈpo.ɾi mba.ˈʔe.i.tʃa.pa o.ɲem.ba.a.ˈpo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "¿Qué quieres comer?",
+      "correct": "Mba’éichapa ojeikuaa nde rekópe? ¿Nde mba’apo porã?",
+      "correct_alt": "¿Nde mba’éichapa nde rekópe?",
+      "explanation": "La pregunta directa en español suena brusca en guaraní porque no considera el contexto cultural de armonía grupal. En guaraní, se prefiere una pregunta abierta que incluya al interlocutor en la decisión (\"¿Cómo está tu situación?\"). La versión correcta evita imponer una elección y refuerza la conexión emocional."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ñe’ẽ rehegua ñembyaty",
+        "translation": "Conflictos por el tono de voz",
+        "examples": [
+          {
+            "original": "¡Che, mba’éichapa nde rekópe!",
+            "phonetic": "/tʃe mba.ˈʔe.i.tʃa.pa nde re.ˈko.pe/",
+            "translation": "¡Oye, ¿cómo estás!?",
+            "note": "El tono exclamativo en español puede sonar agresivo en guaraní. En guaraní, se usa un tono más suave incluso en preguntas."
+          },
+          {
+            "original": "Nde ndaijavéi ha’e mitã.",
+            "phonetic": "/nde nda.i.ha.ˈve.i ha.ˈʔe mi.ˈtã/",
+            "translation": "No te preocupes, es solo un niño.",
+            "note": "El español usa \"no te preocupes\" como fórmula de consuelo, pero en guaraní se enfatiza la acción (\"ndaijavéi\") para transmitir tranquilidad."
+          },
+          {
+            "original": "¿Mba’éichapa oñe’ẽ nde?",
+            "phonetic": "/mba.ˈʔe.i.tʃa.pa o.ɲe.ˈʔẽ nde/",
+            "translation": "¿Cómo te sientes al hablar?",
+            "note": "En guaraní, se pregunta por el estado emocional asociado a la acción, no solo por la acción en sí."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Teko rehegua ñembyaty",
+        "translation": "Malentendidos por normas culturales",
+        "examples": [
+          {
+            "original": "Jajotopa ñande ñembo’e.",
+            "phonetic": "/ha.ho.ˈto.pa ɲa.nde ɲem.bo.ˈʔe/",
+            "translation": "Vamos a rezar juntos.",
+            "note": "En guaraní, las acciones grupales se expresan con \"jajotopa\" (vamos a hacer), reforzando la idea de comunidad."
+          },
+          {
+            "original": "Nde rekópe porãite.",
+            "phonetic": "/nde re.ˈko.pe po.ˈɾã.i.te/",
+            "translation": "Estás muy bien, de verdad.",
+            "note": "El sufijo -ite intensifica el cumplido, algo que en español suele omitirse en contextos informales."
+          },
+          {
+            "original": "Ha’e oñe’ẽ ha ndaipóri mba’éichapa oñemba’apo.",
+            "phonetic": "/ha.ˈʔe o.ɲe.ˈʔẽ ha nda.i.ˈpo.ɾi mba.ˈʔe.i.tʃa.pa o.ɲem.ba.a.ˈpo/",
+            "translation": "Él habla, pero no explica cómo hacerlo.",
+            "note": "En guaraní, se separa la acción de hablar de la de explicar, algo que en español suele confundirse."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ñe’ẽ ha mba’e rehegua ñembyaty",
+        "translation": "Interpretación de silencios y gestos",
+        "examples": [
+          {
+            "original": "— ¿Nde mba’éichapa?",
+            "phonetic": "/ˈʔe nde mba.ˈʔe.i.tʃa.pa/",
+            "translation": "—¿Cómo estás?",
+            "note": "El silencio posterior a la pregunta en guaraní no indica falta de respuesta, sino reflexión."
+          },
+          {
+            "original": "— Ha’e mitãmi.",
+            "phonetic": "/ha.ˈʔe mi.ˈtã.mi/",
+            "translation": "—Es solo un niño.",
+            "note": "El sufijo -mi suaviza la afirmación, algo que en español podría sonar condescendiente."
+          },
+          {
+            "original": "— Jajotopa ko’ág̃a.",
+            "phonetic": "/ha.ho.ˈto.pa ko.ˈa.ɣa/",
+            "translation": "—Vamos a hacerlo ahora.",
+            "note": "La frase implica acción inmediata y colectiva, clave en culturas comunitarias."
+          },
+          {
+            "original": "— Ndaipóri mba’éichapa oñemba’apo.",
+            "phonetic": "/nda.i.ˈpo.ɾi mba.ˈʔe.i.tʃa.pa o.ɲem.ba.a.ˈpo/",
+            "translation": "—No sé cómo hacerlo.",
+            "note": "En guaraní, se reconoce abiertamente la falta de conocimiento, algo que en español puede evitarse por vergüenza."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "es": "Diferencias culturales y malentendidos"
+    }
+  },
+  {
+    "id": "es_B1_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Ñemombe’úpe mba’eichagua oñemba’apo ha’eva’ekue / Cómo hablar sobre acciones que causan daño ambiental",
+    "bridge": "En español, usamos estructuras como 'hacer daño a' o 'contaminar' con verbos transitivos directos (ej. 'contaminar el río'), pero en guaraní el enfoque es más activo y descriptivo: se enfatiza la acción del agente ('ha’e oñemba’apo' = 'él/ella hace que se dañe'). Los hispanohablantes suelen caer en la trampa de traducir literalmente 'contaminar' como 'mba’e oñemba’apo' (que suena a 'algo se daña'), cuando en realidad se necesita especificar quién realiza la acción. Además, el guaraní usa sufijos como -va’ekue para marcar el resultado de la acción, algo inexistente en español.",
+    "rule": "Para expresar acciones que causan daño ambiental en guaraní, se sigue esta estructura:\n1. **Agente + oñemba’apo + objeto + -va’ekue** (para acciones que resultan en daño o cambio negativo):\n   - *oñemba’apo* (hacer que algo se dañe) + sufijo *-va’ekue* (resultado de la acción).\n   - Ejemplo: *Che oñemba’apo yvy ha’e va’ekue* (Yo contamino la tierra).\n\n2. **Verbos específicos para contaminación o daño:**\n   - *ñembyasy* (ensuciar, contaminar agua/aire): *Ha’e oñembyasy y’apy* (Él contamina el aire).\n   - *ñembogue* (deforestación): *Ñande oñembogue yvyra* (Nosotros deforestamos).\n   - *ñembyai* (envenenar): *Pe mba’e oñembyai y’apy* (Eso envenena el aire).\n\n3. **Negación:** Se usa *ndo…i* o *ndo…gui* para negar:\n   - *Ndoñemba’apo yvy va’ekue* (No contamino la tierra).\n   - *Ndoñembyasy y’apy* (No contamino el aire).\n\n4. **Preguntas:** Se invierte el orden o se usa *mba’e*:\n   - *Mba’éichapa oñemba’apo yvy va’ekue?* (¿Cómo se contamina la tierra?).\n\nExcepciones: Algunos verbos como *ñembyai* (envenenar) no llevan *-va’ekue* porque ya implican resultado.",
+    "concept_examples": [
+      {
+        "text": "Che oñemba’apo yvy ha’e va’ekue rehegua.",
+        "translation": "Yo contamino la tierra por eso.",
+        "phonetic": "/tʃe oɲẽmbaʔapo ɨʋɨ aɛ vaʔekwe ɾeɣwa/"
+      },
+      {
+        "text": "Ha’e oñembyasy y’apy oikóva’ekue.",
+        "translation": "Él contamina el aire con eso.",
+        "phonetic": "/aɛ oɲẽmbasɨ ɨʔapɨ oiko vaʔekwe/"
+      },
+      {
+        "text": "Ñande oñembogue yvyra rehegua.",
+        "translation": "Nosotros deforestamos por eso.",
+        "phonetic": "/ɲande oɲẽmboɣe ɨʋɨɾa ɾeɣwa/"
+      },
+      {
+        "text": "Mba’éichapa oñembyai y’apy?",
+        "translation": "¿Cómo envenenan el aire?",
+        "phonetic": "/mbaʔeitʃapa oɲẽmbjai ɨʔapɨ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che contaminar yvy.",
+      "correct": "Che oñemba’apo yvy va’ekue.",
+      "correct_alt": "Che oñembyasy yvy.",
+      "explanation": "El error ocurre porque en español se usa el verbo 'contaminar' como transitivo directo, pero en guaraní se necesita especificar la acción con *oñemba’apo* (hacer que algo se dañe) o un verbo específico como *ñembyasy* (ensuciar). La estructura *contaminar yvy* suena a 'algo se contamina' en guaraní, no a 'yo contamino la tierra'. El sufijo *-va’ekue* marca el resultado de la acción, clave para expresar daño ambiental."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ñemba’apo mba’e rehegua",
+        "translation": "Acciones que dañan el entorno",
+        "examples": [
+          {
+            "original": "Che oñemba’apo yvy ha’e va’ekue.",
+            "phonetic": "/tʃe oɲẽmbaʔapo ɨʋɨ aɛ vaʔekwe/",
+            "translation": "Yo contamino la tierra por eso.",
+            "note": "Introduce la estructura básica con *oñemba’apo* y *-va’ekue* para resultados negativos."
+          },
+          {
+            "original": "Ha’e oñembyasy y’apy oikóva’ekue.",
+            "phonetic": "/aɛ oɲẽmbasɨ ɨʔapɨ oiko vaʔekwe/",
+            "translation": "Él contamina el aire con eso.",
+            "note": "Presenta el verbo *ñembyasy* (ensuciar/contaminar) como alternativa a *oñemba’apo*."
+          },
+          {
+            "original": "Ndoñemba’apo yvy va’ekue.",
+            "phonetic": "/ndoɲẽmbaʔapo ɨʋɨ vaʔekwe/",
+            "translation": "No contamino la tierra.",
+            "note": "Enseña la negación con *ndo…i* para estructuras negativas."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mba’e oñembogue ha mba’e oñembyai",
+        "translation": "Deforestación y envenenamiento",
+        "examples": [
+          {
+            "original": "Ñande oñembogue yvyra rehegua.",
+            "phonetic": "/ɲande oɲẽmboɣe ɨʋɨɾa ɾeɣwa/",
+            "translation": "Nosotros deforestamos por eso.",
+            "note": "Introduce el verbo *ñembogue* (deforestación) y su uso con *rehegua* (por eso)."
+          },
+          {
+            "original": "Pe mba’e oñembyai y’apy.",
+            "phonetic": "/pe mbaʔe oɲẽmbjai ɨʔapɨ/",
+            "translation": "Eso envenena el aire.",
+            "note": "Presenta *ñembyai* (envenenar) como verbo específico para contaminación tóxica."
+          },
+          {
+            "original": "Mba’éichapa oñembogue yvyra?",
+            "phonetic": "/mbaʔeitʃapa oɲẽmboɣe ɨʋɨɾa/",
+            "translation": "¿Cómo deforestamos?",
+            "note": "Enseña preguntas con *mba’éichapa* para indagar sobre acciones dañinas."
+          },
+          {
+            "original": "Ndoñembyai y’apy.",
+            "phonetic": "/ndoɲẽmbjai ɨʔapɨ/",
+            "translation": "No envenenamos el aire.",
+            "note": "Refuerza la negación con verbos específicos como *ñembyai*."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ñemba’apo rehegua ha mba’éichapa oñemomba’eguasu",
+        "translation": "Causas del daño ambiental y soluciones",
+        "examples": [
+          {
+            "original": "Yvy oñemba’apo va’ekue rehegua, ha’e oñembyasy y’apy.",
+            "phonetic": "/ɨʋɨ oɲẽmbaʔapo vaʔekwe ɾeɣwa, aɛ oɲẽmbasɨ ɨʔapɨ/",
+            "translation": "La tierra se contamina por eso, y contamina el aire.",
+            "note": "Combina dos acciones dañinas en una sola oración para mostrar causalidad."
+          },
+          {
+            "original": "Mba’éichapa oñemomba’eguasu yvy ha y’apy?",
+            "phonetic": "/mbaʔeitʃapa oɲemombaʔeɣwasu ɨʋɨ a ɨʔapɨ/",
+            "translation": "¿Cómo cuidamos la tierra y el aire?",
+            "note": "Introduce el verbo *ñemomba’eguasu* (cuidar) para contrastar con las acciones dañinas."
+          },
+          {
+            "original": "Ndoñembogue yvyra rehegua, ha’e oñemomba’eguasu.",
+            "phonetic": "/ndoɲẽmboɣe ɨʋɨɾa ɾeɣwa, aɛ oɲemombaʔeɣwasu/",
+            "translation": "No deforestamos por eso, y cuidamos.",
+            "note": "Usa estructuras negativas para contrastar daño con cuidado ambiental."
+          },
+          {
+            "original": "Pe mba’e oñembyai y’apy, ha’e ndoñemomba’eguasu.",
+            "phonetic": "/pe mbaʔe oɲẽmbjai ɨʔapɨ, aɛ ndoɲemombaʔeɣwasu/",
+            "translation": "Eso envenena el aire, y no cuidamos.",
+            "note": "Muestra una consecuencia negativa y su impacto en el cuidado ambiental."
+          }
+        ]
+      }
+    ],
+    "emoji": "🌍",
+    "phonetic": "",
+    "translations": {
+      "es": "Cómo hablar sobre acciones que causan daño ambiental"
+    }
+  },
+  {
+    "id": "es_B1_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Mba’éichapa oikóva redes sociales ha tecnología / Cómo funcionan las redes sociales y la tecnología",
+    "bridge": "En guaraní, la estructura para expresar cómo funcionan cosas (como redes sociales) suele usar el verbo 'oiko' (funcionar) seguido de un complemento directo con el sufijo '-va' para indicar 'lo que...'. Esto difiere del español, donde usamos 'cómo' + verbo en infinitivo ('cómo funciona'). Los hispanohablantes pueden caer en la trampa de traducir literalmente 'cómo funciona' como 'mba’éichapa oiko', omitiendo el '-va' necesario para formar el sustantivo que completa la idea. Además, en guaraní se prioriza la economía de palabras, por lo que a veces se omite el sujeto cuando es claro por el contexto.",
+    "rule": "Para expresar 'cómo funciona X' en guaraní, se usa la estructura: [Mba’éichapa] + [oiko] + [complemento directo con sufijo '-va']. El sufijo '-va' convierte el verbo en un sustantivo que indica 'lo que...'. Ejemplos: 'Mba’éichapa oiko redes sociales?' (¿Cómo funcionan las redes sociales?), 'Mba’éichapa oiko nde teléfono?' (¿Cómo funciona tu teléfono?).\n\nExcepciones:\n- Si el sujeto es explícito, se puede omitir: 'Oiko redes sociales mba’éichapa?' (¿Cómo funcionan las redes sociales?).\n- Para preguntas negativas, se usa 'ndo' + verbo: 'Mba’éichapa ndoikói redes sociales?' (¿Cómo no funcionan las redes sociales?).\n\nCasos comunes:\n1. Para describir el funcionamiento de un dispositivo: 'Oiko nde computadora mba’éichapa?' (¿Cómo funciona tu computadora?).\n2. Para explicar procesos: 'Oiko WhatsApp mba’éichapa?' (¿Cómo funciona WhatsApp?).\n3. Para comparar: 'Oiko Facebook mba’éichapa nde país-pe?' (¿Cómo funciona Facebook en tu país?).",
+    "concept_examples": [
+      {
+        "text": "Mba’éichapa oiko redes sociales?",
+        "translation": "¿Cómo funcionan las redes sociales?",
+        "phonetic": "/mbaˈeit͡ʃapa oiˈko ˈɾeðes soˈsjaɫes/"
+      },
+      {
+        "text": "Oiko nde teléfono mba’éichapa?",
+        "translation": "¿Cómo funciona tu teléfono?",
+        "phonetic": "/oiˈko nde teˈlefono mbaˈeit͡ʃapa/"
+      },
+      {
+        "text": "Mba’éichapa oiko WhatsApp?",
+        "translation": "¿Cómo funciona WhatsApp?",
+        "phonetic": "/mbaˈeit͡ʃapa oiˈko ˈwatsap/"
+      },
+      {
+        "text": "Oiko redes sociales mba’éichapa nde país-pe?",
+        "translation": "¿Cómo funcionan las redes sociales en tu país?",
+        "phonetic": "/oiˈko ˈɾeðes soˈsjaɫes mbaˈeit͡ʃapa nde paˈis pe/"
+      }
+    ],
+    "common_error": {
+      "wrong": "¿Cómo funciona redes sociales?",
+      "correct": "Mba’éichapa oiko redes sociales?",
+      "correct_alt": "Oiko redes sociales mba’éichapa?",
+      "explanation": "El error ocurre porque en español se omite el verbo 'funcionar' en preguntas retóricas ('¿Cómo funciona...?'), pero en guaraní se requiere la estructura completa con el sufijo '-va' para formar el sustantivo que completa la idea. La traducción literal '¿Cómo funciona redes sociales?' suena incompleta en guaraní. La forma correcta usa 'mba’éichapa' para introducir la pregunta y 'oiko...-va' para estructurar la frase."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mba’éichapa oiko...",
+        "translation": "Cómo funciona...",
+        "examples": [
+          {
+            "original": "Mba’éichapa oiko nde teléfono?",
+            "phonetic": "/mbaˈeit͡ʃapa oiˈko nde teˈlefono/",
+            "translation": "¿Cómo funciona tu teléfono?",
+            "note": "Introduce la estructura básica con dispositivos cotidianos."
+          },
+          {
+            "original": "Oiko nde computadora mba’éichapa?",
+            "phonetic": "/oiˈko nde kompjuˈtaɾa mbaˈeit͡ʃapa/",
+            "translation": "¿Cómo funciona tu computadora?",
+            "note": "Refuerza el orden de palabras y el uso de 'oiko'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mba’éichapa oiko redes...",
+        "translation": "Cómo funcionan las redes...",
+        "examples": [
+          {
+            "original": "Mba’éichapa oiko redes sociales?",
+            "phonetic": "/mbaˈeit͡ʃapa oiˈko ˈɾeðes soˈsjaɫes/",
+            "translation": "¿Cómo funcionan las redes sociales?",
+            "note": "Amplía el vocabulario a contextos digitales."
+          },
+          {
+            "original": "Oiko WhatsApp mba’éichapa?",
+            "phonetic": "/oiˈko ˈwatsap mbaˈeit͡ʃapa/",
+            "translation": "¿Cómo funciona WhatsApp?",
+            "note": "Enfoca en aplicaciones específicas."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mba’éichapa oiko... país-pe",
+        "translation": "Cómo funciona... en tu país",
+        "examples": [
+          {
+            "original": "Oiko redes sociales mba’éichapa nde país-pe?",
+            "phonetic": "/oiˈko ˈɾeðes soˈsjaɫes mbaˈeit͡ʃapa nde paˈis pe/",
+            "translation": "¿Cómo funcionan las redes sociales en tu país?",
+            "note": "Combina la estructura con contextos culturales."
+          },
+          {
+            "original": "Mba’éichapa oiko tecnología nde comunidad-pe?",
+            "phonetic": "/mbaˈeit͡ʃapa oiˈko teɡnoˈloʒia nde komuˈniðað pe/",
+            "translation": "¿Cómo funciona la tecnología en tu comunidad?",
+            "note": "Introduce variaciones regionales."
+          }
+        ]
+      }
+    ],
+    "emoji": "📱",
+    "phonetic": "",
+    "translations": {
+      "es": "Tecnología y redes sociales"
+    }
+  },
+  {
+    "id": "es_B1_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Ñemombe’upy ha oñemba’epy ha’ehína cheko’ape / Educación y estudiar en el extranjero",
+    "bridge": "En español, para expresar planes futuros usamos 'voy a estudiar' o 'estoy estudiando', pero en guaraní el verbo 'ñemba’epy' (estudiar) se combina con prefijos personales y sufijos de tiempo. Los hispanohablantes suelen confundir el uso de 'che' (yo) con 'nde' (tú) o 'ha’e' (él/ella), especialmente al formar preguntas. Además, en guaraní no existe el gerundio como en español ('estudiando'), sino que se usan construcciones con sufijos temporales como '-ta' para futuro inmediato.",
+    "rule": "Para expresar planes de estudiar en el extranjero o actividades relacionadas con la educación en guaraní, se usan las siguientes estructuras:\n\n1. **Presente continuo (acción en progreso):**\n   - Forma: [Pronombre + ñemba’epy + sufijo -ta (futuro) o -hína (presente continuo)]\n   - Ejemplo: Che ñemba’epyta Paraguái (Voy a estudiar en Paraguay).\n   - Excepción: Para acciones habituales, se usa '-va' (ej: Che ñemba’epyva Paraguái, Estudio en Paraguay).\n\n2. **Futuro inmediato:**\n   - Forma: [Pronombre + ñemba’epy + -ta] (sin 'a' final como en español).\n   - Ejemplo: Nde ñemba’epyta ha Paraguái (Tú vas a estudiar en Paraguay).\n\n3. **Preguntas:**\n   - Forma: [Pronombre interrogativo + ñemba’epy + sufijo -ta/-hína + 'pa' al final].\n   - Ejemplo: Mba’eicha nde ñemba’epyta ha Paraguái? (¿Cómo vas a estudiar en Paraguay?).\n\n4. **Negación:**\n   - Forma: [Pronombre + 'ndi' + ñemba’epy + sufijo -ta/-hína].\n   - Ejemplo: Ha’e ndi ñemba’epyta ha Paraguái (Él/ella no va a estudiar en Paraguay).\n\nImportante: El sufijo '-ta' indica futuro inmediato, mientras que '-hína' indica acción en progreso. No se usa 'voy a' como en español, sino la combinación directa del verbo con el sufijo.",
+    "concept_examples": [
+      {
+        "text": "Che ñemba’epyta ha Paraguái ko árape",
+        "translation": "Voy a estudiar en Paraguay hoy mismo.",
+        "phonetic": "tʃe ɲembaʔepɨta a paɾaɡwaj ko aɾape"
+      },
+      {
+        "text": "Nde nda ñemba’epyta ha Europape?",
+        "translation": "¿No vas a estudiar en Europa?",
+        "phonetic": "nde nda ɲembaʔepɨta a ewɾopape"
+      },
+      {
+        "text": "Ha’e oñemba’epy hína ha Paraguái",
+        "translation": "Él/ella está estudiando en Paraguay.",
+        "phonetic": "aʔe oɲembaʔepɨ hina a paɾaɡwaj"
+      },
+      {
+        "text": "Pe ñemba’epyva ha Asunción-pe",
+        "translation": "Tú estudias en Asunción (habitual).",
+        "phonetic": "pe ɲembaʔepɨva a asunsjon pe"
+      }
+    ],
+    "common_error": {
+      "wrong": "Che voy a estudiar en Paraguay",
+      "correct": "Che ñemba’epyta ha Paraguái",
+      "correct_alt": "Che ñemba’epy hína ha Paraguái",
+      "explanation": "Los hispanohablantes tienden a traducir literalmente 'voy a estudiar' como 'voy a ñemba’epy', pero en guaraní no se usa el verbo 'ir' (voy) para expresar planes futuros con 'ñemba’epy'. El sufijo '-ta' ya indica futuro inmediato, por lo que no es necesario añadir 'voy'. Además, el verbo 'ñemba’epy' no se conjuga como en español, sino que se combina con prefijos personales."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Che ñemba’epyta",
+        "translation": "Yo voy a estudiar",
+        "examples": [
+          {
+            "original": "Che ñemba’epyta ha Asunción-pe",
+            "phonetic": "tʃe ɲembaʔepɨta a asunsjon pe",
+            "translation": "Voy a estudiar en Asunción.",
+            "note": "Introduce la estructura básica de futuro con '-ta' y el lugar."
+          },
+          {
+            "original": "Nde ñemba’epyta ha Madrid-pe?",
+            "phonetic": "nde ɲembaʔepɨta a madɾið pe",
+            "translation": "¿Vas a estudiar en Madrid?",
+            "note": "Practica la formación de preguntas con el sufijo '-ta' y el pronombre 'nde'."
+          },
+          {
+            "original": "Ha’e ndi ñemba’epyta ha Europape",
+            "phonetic": "aʔe ndi ɲembaʔepɨta a ewɾopape",
+            "translation": "Él/ella no va a estudiar en Europa.",
+            "note": "Refuerza la negación con 'ndi' antes del verbo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Oñemba’epy hína",
+        "translation": "Está estudiando (acción en progreso)",
+        "examples": [
+          {
+            "original": "Che oñemba’epy hína ha Asunción-pe",
+            "phonetic": "tʃe oɲembaʔepɨ hina a asunsjon pe",
+            "translation": "Estoy estudiando en Asunción.",
+            "note": "Contraste con '-ta' para futuro. '-hína' indica acción en curso."
+          },
+          {
+            "original": "Nde oñemba’epy hína ha Madrid-pe?",
+            "phonetic": "nde oɲembaʔepɨ hina a madɾið pe",
+            "translation": "¿Estás estudiando en Madrid?",
+            "note": "Preguntas con '-hína' para acciones actuales."
+          },
+          {
+            "original": "Ha’e oñemba’epy hína ha París-pe",
+            "phonetic": "aʔe oɲembaʔepɨ hina a paɾis pe",
+            "translation": "Él/ella está estudiando en París.",
+            "note": "Uso de 'ha’e' para tercera persona y '-hína' para presente continuo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ñemba’epyva ha’ehína",
+        "translation": "Estudiar (habitual)",
+        "examples": [
+          {
+            "original": "Che ñemba’epyva ha Asunción-pe",
+            "phonetic": "tʃe ɲembaʔepɨva a asunsjon pe",
+            "translation": "Estudio en Asunción (habitualmente).",
+            "note": "El sufijo '-va' indica acciones habituales o permanentes."
+          },
+          {
+            "original": "Nde ñemba’epyva ha Madrid-pe?",
+            "phonetic": "nde ɲembaʔepɨva a madɾið pe",
+            "translation": "¿Estudias en Madrid (habitualmente)?",
+            "note": "Preguntas con '-va' para rutinas."
+          },
+          {
+            "original": "Ha’e ndi ñemba’epyva ha París-pe",
+            "phonetic": "aʔe ndi ɲembaʔepɨva a paɾis pe",
+            "translation": "Él/ella no estudia en París (habitualmente).",
+            "note": "Negación con 'ndi' antes del verbo y '-va'."
+          },
+          {
+            "original": "Pe ñemba’epyva ha Asunción-pe ha ko’ág̃a",
+            "phonetic": "pe ɲembaʔepɨva a asunsjon pe a koˈaɰa",
+            "translation": "Ustedes estudian en Asunción ahora mismo.",
+            "note": "Uso de 'pe' para segunda persona plural y '-va' para habitual."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎓",
+    "phonetic": "",
+    "translations": {
+      "es": "Educación y estudiar en el extranjero"
+    }
+  }
+]
