@@ -1,0 +1,2198 @@
+[
+  {
+    "id": "zh_A1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbe être / 法语动词être（ser/estar）",
+    "bridge": "在西班牙语中，我们有两个不同的动词：‘ser’和‘estar’。而在法语中，两者合二为一，统一为‘être’。这意味着‘Je suis fatigué’既可以翻译为‘Estoy cansado’（我累了），也可以翻译为‘Soy cansado’（我很累），具体取决于语境。主要陷阱：你无法仅通过法语单词猜测是‘ser’还是‘estar’，必须先理解西班牙语的语境。",
+    "rule": "动词‘être’（相当于西班牙语的ser/estar）是完全不规则的。其现在时直陈式变位为：je suis（我是/在）、tu es（你是/在）、il/elle est（他/她是/在）、nous sommes（我们是/在）、vous êtes（你们是/在）、ils/elles sont（他们/她们是/在）。用法包括：身份（Je suis médecin，我是医生）、起源（Je suis espagnol，我是西班牙人）、状态（Je suis fatigué，我累了）、某些形容词的位置，以及用于复合时态的分词。",
+    "concept_examples": [
+      {
+        "text": "Je suis étudiant.",
+        "translation": "我是学生。",
+        "phonetic": "/ʒə sɥi zetydijɑ̃/"
+      },
+      {
+        "text": "Elle est fatiguée.",
+        "translation": "她累了。",
+        "phonetic": "/ɛl ɛ fatiɡe/"
+      },
+      {
+        "text": "Nous sommes en France.",
+        "translation": "我们在法国。",
+        "phonetic": "/nu sɔm ɑ̃ fʁɑ̃s/"
+      },
+      {
+        "text": "Vous êtes prêts?",
+        "translation": "他们准备好了吗？",
+        "phonetic": "/vuz‿ɛt pʁɛ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis avoir faim.",
+      "correct": "J'ai faim.",
+      "correct_alt": "",
+      "explanation": "在西班牙语中，我们用‘Estoy con hambre’（我饿了）表示饥饿，但法语中‘tener hambre’（饿了）要用动词‘avoir’（有）来表达，而不是‘être’。许多表示身体感觉的短语在西班牙语中用‘estar’，而在法语中则用‘avoir’。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Être avec je, tu, il/elle",
+        "translation": "être与je、tu、il/elle的用法",
+        "examples": [
+          {
+            "original": "Je suis Marie.",
+            "phonetic": "/ʒə sɥi maʁi/",
+            "translation": "我是玛丽。",
+            "note": "与‘je’搭配时，动词总是用‘suis’。"
+          },
+          {
+            "original": "Tu es français?",
+            "phonetic": "/ty ɛ fʁɑ̃sɛ/",
+            "translation": "你是法国人吗？",
+            "note": "与‘tu’搭配时，动词总是用‘es’。"
+          },
+          {
+            "original": "Il est médecin.",
+            "phonetic": "/il ɛ mɛdsɛ̃/",
+            "translation": "他是医生。",
+            "note": "与‘il/elle’搭配时，动词用‘est’。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Être avec nous, vous, ils/elles",
+        "translation": "être与nous、vous、ils/elles的用法",
+        "examples": [
+          {
+            "original": "Nous sommes amis.",
+            "phonetic": "/nu sɔm‿ami/",
+            "translation": "我们是朋友。",
+            "note": "‘Sommes’是最不规则的变位形式，需要单独记忆。"
+          },
+          {
+            "original": "Vous êtes à Paris?",
+            "phonetic": "/vuz‿ɛt a paʁi/",
+            "translation": "你们在巴黎吗？",
+            "note": "‘êtes’上的抑扬符号是必需的。"
+          },
+          {
+            "original": "Ils sont contents.",
+            "phonetic": "/il sɔ̃ kɔ̃tɑ̃/",
+            "translation": "他们很开心。",
+            "note": "与‘ils/elles’搭配时，动词用‘sont’。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Être dans des contextes variés",
+        "translation": "être在不同语境中的用法",
+        "examples": [
+          {
+            "original": "C'est une bonne idée.",
+            "phonetic": "/sɛ tyn bɔn‿ide/",
+            "translation": "这是个好主意。",
+            "note": "‘C'est’（这是）常用于描述事物。"
+          },
+          {
+            "original": "Elle est où?",
+            "phonetic": "/ɛl ɛ u/",
+            "translation": "她在哪里？",
+            "note": "询问人物位置时用‘être’。"
+          },
+          {
+            "original": "Nous ne sommes pas prêts.",
+            "phonetic": "/nu nə sɔm pa pʁɛ/",
+            "translation": "我们还没准备好。",
+            "note": "否定句将否定词放在动词变位两侧：ne...pas。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔵",
+    "phonetic": "/ɛtʁ/",
+    "translations": {
+      "zh": "动词être（相当于ser/estar）"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Pronoms personnels sujets / 主语人称代词",
+    "bridge": "法语中的主语人称代词与西班牙语类似，但存在关键差异。最显著的一点：法语中绝不能省略主语。在西班牙语中可以说‘Hablo francés’（我说法语），但在法语中必须说‘Je parle français’（我说法语）。此外，还有正式的‘vous’（如西班牙语的‘usted’），也可用于复数，‘on’则相当于西班牙语中的无人称‘se’或非正式的‘nous’（我们）。",
+    "rule": "法语中的主语人称代词包括：je（我）、tu（你，非正式）、il（他）、elle（她）、on（无人称/非正式‘我们’）、nous（我们）、vous（你们/您/您们，正式或复数）、ils（他们，阳性）、elles（她们，阴性）。注意：主语人称代词在法语中永远不能省略。‘on’在日常口语中常用作‘我们’的意思。",
+    "concept_examples": [
+      {
+        "text": "Je parle espagnol.",
+        "translation": "我说西班牙语。",
+        "phonetic": "/ʒə paʁl‿ɛspaɲɔl/"
+      },
+      {
+        "text": "On mange ensemble?",
+        "translation": "我们一起吃饭吗？",
+        "phonetic": "/ɔ̃ mɑ̃ʒ‿ɑ̃sɑ̃bl/"
+      },
+      {
+        "text": "Vous parlez anglais?",
+        "translation": "您说英语吗？/ 你们说英语吗？",
+        "phonetic": "/vu paʁle‿ɑ̃ɡlɛ/"
+      },
+      {
+        "text": "Ils sont là.",
+        "translation": "他们在那边。",
+        "phonetic": "/il sɔ̃ la/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Parle français.",
+      "correct": "Je parle français.",
+      "correct_alt": "Il parle français.",
+      "explanation": "在西班牙语中省略主语代词是完全正确的（如‘Hablo francés’）。但在法语中这是一个严重错误：主语人称代词在法语中永远是必不可少的。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Pronoms singuliers: je, tu, il, elle",
+        "translation": "单数主语代词：je、tu、il、elle",
+        "examples": [
+          {
+            "original": "Je m'appelle Lucas.",
+            "phonetic": "/ʒə mapɛl lyka/",
+            "translation": "我叫卢卡斯。",
+            "note": "‘Je’在元音前要省音为‘j’：j'aime（我喜欢）、j'habite（我居住）。"
+          },
+          {
+            "original": "Tu habites où?",
+            "phonetic": "/ty abit u/",
+            "translation": "你住在哪里？",
+            "note": "‘Tu’始终用于非正式场合，仅限与朋友和家人使用。"
+          },
+          {
+            "original": "Il travaille beaucoup.",
+            "phonetic": "/il tʁavaj boku/",
+            "translation": "他工作很努力。",
+            "note": "‘Il’用于阳性，‘elle’用于阴性。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pronoms pluriels: nous, vous, ils, elles",
+        "translation": "复数主语代词：nous、vous、ils、elles",
+        "examples": [
+          {
+            "original": "Nous habitons à Madrid.",
+            "phonetic": "/nuz‿abitɔ̃ a madʁid/",
+            "translation": "我们住在马德里。",
+            "note": "在口语中，‘on’几乎总是替代‘nous’使用。"
+          },
+          {
+            "original": "Vous êtes espagnols?",
+            "phonetic": "/vuz‿ɛt‿ɛspaɲɔl/",
+            "translation": "您们是西班牙人吗？",
+            "note": "‘Vous’在单数时用于正式场合，复数时可用于非正式或正式场合。"
+          },
+          {
+            "original": "Elles parlent vite.",
+            "phonetic": "/ɛl paʁl vit/",
+            "translation": "她们说话很快。",
+            "note": "‘Elles’为阴性复数，‘ils’为阳性或混合性别复数。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Le pronom 'on'",
+        "translation": "主语代词‘on’",
+        "examples": [
+          {
+            "original": "On va au cinéma?",
+            "phonetic": "/ɔ̃ va o sinema/",
+            "translation": "我们去看电影吗？",
+            "note": "‘On’作为‘我们’的意思在法语口语中非常常见。"
+          },
+          {
+            "original": "En France, on mange bien.",
+            "phonetic": "/ɑ̃ fʁɑ̃s ɔ̃ mɑ̃ʒ bjɛ̃/",
+            "translation": "在法国，吃得很好。",
+            "note": "‘On’作无人称代词时相当于西班牙语的无人称‘se’。"
+          },
+          {
+            "original": "On dit que Paris est beau.",
+            "phonetic": "/ɔ̃ di kə paʁi ɛ bo/",
+            "translation": "据说巴黎很美。",
+            "note": "使用‘on’时，动词始终用第三人称单数形式。"
+          }
+        ]
+      }
+    ],
+    "emoji": "👤",
+    "phonetic": "",
+    "translations": {
+      "zh": "主语人称代词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Articles définis et indéfinis / 定冠词和不定冠词",
+    "bridge": "在西班牙语中，你有el/la/los/las（定冠词）和un/una/unos/unas（不定冠词）。在法语中，系统类似，但有一个陷阱：复数定冠词始终为'les'，无论性别；复数不定冠词始终为'des'。此外，冠词与'de'和'à'缩合：'de + le = du'，'à + le = au'。绝对不能说'de le'或'à le'！",
+    "rule": "定冠词：le（阳性单数）、la（阴性单数）、l'（元音或哑音h前）、les（复数）。不定冠词：un（阳性单数）、une（阴性单数）、des（复数）。必用缩合：de + le = du，de + les = des，à + le = au，à + les = aux。'La'和'le'在元音前省音为'l'：l'ami（朋友）、l'école（学校）。",
+    "concept_examples": [
+      {
+        "text": "Le livre est sur la table.",
+        "translation": "这本书在桌子上。",
+        "phonetic": "/lə livʁ ɛ syʁ la tabl/"
+      },
+      {
+        "text": "J'ai un chat et une chienne.",
+        "translation": "我有一只猫和一只狗。",
+        "phonetic": "/ʒe œ̃ ʃa e yn ʃjɛn/"
+      },
+      {
+        "text": "Je vais au marché.",
+        "translation": "我去市场。",
+        "phonetic": "/ʒə vɛ o maʁʃe/"
+      },
+      {
+        "text": "Il parle des enfants.",
+        "translation": "他谈论那些孩子。",
+        "phonetic": "/il paʁl dez‿ɑ̃fɑ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je vais à le supermarché.",
+      "correct": "Je vais au supermarché.",
+      "correct_alt": "",
+      "explanation": "在法语中，'à + le'必须缩合为'au'，不存在'à le'的形式。同样，'de + le'总是变为'du'。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Articles définis: le, la, l', les",
+        "translation": "定冠词：le、la、l'、les",
+        "examples": [
+          {
+            "original": "Le café est chaud.",
+            "phonetic": "/lə kafe ɛ ʃo/",
+            "translation": "咖啡是热的。",
+            "note": "'le'用于阳性单数名词。"
+          },
+          {
+            "original": "La maison est grande.",
+            "phonetic": "/la mɛzɔ̃ ɛ ɡʁɑ̃d/",
+            "translation": "这房子很大。",
+            "note": "'la'用于阴性单数名词。"
+          },
+          {
+            "original": "L'ami de Paul est sympa.",
+            "phonetic": "/lami də pol ɛ sɛ̃pa/",
+            "translation": "保罗的朋友很友善。",
+            "note": "'l''用于元音或哑音h前，不分性别。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Articles indéfinis: un, une, des",
+        "translation": "不定冠词：un、une、des",
+        "examples": [
+          {
+            "original": "J'ai un vélo.",
+            "phonetic": "/ʒe œ̃ velo/",
+            "translation": "我有一辆自行车。",
+            "note": "'un'用于阳性单数。"
+          },
+          {
+            "original": "C'est une bonne idée.",
+            "phonetic": "/sɛ tyn bɔn‿ide/",
+            "translation": "这是个好主意。",
+            "note": "'une'用于阴性单数。"
+          },
+          {
+            "original": "Il y a des enfants dans le parc.",
+            "phonetic": "/il ja dez‿ɑ̃fɑ̃ dɑ̃ lə paʁk/",
+            "translation": "公园里有孩子们。",
+            "note": "'des'是两性复数形式，相当于'unos/unas'。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Contractions au, aux, du, des",
+        "translation": "缩合形式：au、aux、du、des",
+        "examples": [
+          {
+            "original": "Je parle au professeur.",
+            "phonetic": "/ʒə paʁl o pʁɔfɛsœʁ/",
+            "translation": "我和老师说话。",
+            "note": "à + le = au（必用，绝不说'à le'）。"
+          },
+          {
+            "original": "Je viens du bureau.",
+            "phonetic": "/ʒə vjɛ̃ dy byʁo/",
+            "translation": "我从办公室来。",
+            "note": "de + le = du（必用，绝不说'de le'）。"
+          },
+          {
+            "original": "Il parle aux étudiants.",
+            "phonetic": "/il paʁl oz‿etydijɑ̃/",
+            "translation": "他对学生们说话。",
+            "note": "à + les = aux；有连音：/oz/。"
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "zh": "定冠词和不定冠词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Genre et nombre des noms / 名词的性和数",
+    "bridge": "与西班牙语类似，法语中的名词都有性（阳性或阴性）。然而，性并不总是一致：“la table”（桌子，阴性）与西班牙语相同，但“le livre”（书，阳性）也一致。陷阱：许多词在两种语言之间的性不同，因此必须记住名词与冠词一起记忆。复数通常通过添加-s形成，与西班牙语相同。",
+    "rule": "性：所有名词都是阳性或阴性。没有中性。阴性的一般规则：在阳性词尾加-e（un ami → une amie）。非常常见的例外有特定词尾：-tion、-sion、-ure、-ette为阴性；-ment、-age、-eur通常为阳性。复数：一般规则是添加-s（不发音）。例外：-eau → -eaux（gâteau → gâteaux）、-al → -aux（animal → animaux）、-s/-x/-z在单数中已不变。",
+    "concept_examples": [
+      {
+        "text": "un garçon / une fille",
+        "translation": "一个男孩 / 一个女孩",
+        "phonetic": "/œ̃ ɡaʁsɔ̃ / yn fij/"
+      },
+      {
+        "text": "le gâteau / les gâteaux",
+        "translation": "蛋糕 / 蛋糕（复数）",
+        "phonetic": "/lə ɡato / le ɡato/"
+      },
+      {
+        "text": "un animal / des animaux",
+        "translation": "一个动物 / 一些动物",
+        "phonetic": "/œ̃ nanimal / dez‿animal/"
+      },
+      {
+        "text": "la liberté / les libertés",
+        "translation": "自由 / 自由（复数）",
+        "phonetic": "/la libɛʁte / le libɛʁte/"
+      }
+    ],
+    "common_error": {
+      "wrong": "le problème est difficile → les problèmes est difficile",
+      "correct": "les problèmes sont difficiles",
+      "correct_alt": "",
+      "explanation": "名词复数化时，动词和形容词也需要复数化。法语复数词尾-s不发音，但会改变冠词的发音并可能产生连音。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Masculin et féminin de base",
+        "translation": "基本阳性和阴性",
+        "examples": [
+          {
+            "original": "un ami / une amie",
+            "phonetic": "/œ̃ nami / yn ami/",
+            "translation": "一个朋友（男） / 一个朋友（女）",
+            "note": "阳性加-e变阴性；如果阳性词尾为不发音的辅音，发音会改变。"
+          },
+          {
+            "original": "un acteur / une actrice",
+            "phonetic": "/œ̃ naktœʁ / yn aktʁis/",
+            "translation": "一个演员（男） / 一个演员（女）",
+            "note": "部分阴性形式不规则：-eur → -rice或-euse。"
+          },
+          {
+            "original": "un étudiant / une étudiante",
+            "phonetic": "/œ̃ netydijɑ̃ / yn etydijɑ̃t/",
+            "translation": "一个学生（男） / 一个学生（女）",
+            "note": "词尾-e使原来不发音的辅音发音。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pluriel régulier en -s",
+        "translation": "规则复数-s",
+        "examples": [
+          {
+            "original": "un livre / des livres",
+            "phonetic": "/œ̃ livʁ / de livʁ/",
+            "translation": "一本书 / 几本书",
+            "note": "复数词尾-s不发音；变化体现在冠词上。"
+          },
+          {
+            "original": "une maison / des maisons",
+            "phonetic": "/yn mɛzɔ̃ / de mɛzɔ̃/",
+            "translation": "一间房子 / 几间房子",
+            "note": "阴性名词的复数也加-s（不发音）。"
+          },
+          {
+            "original": "un étudiant / des étudiants",
+            "phonetic": "/œ̃ netydijɑ̃ / dez‿etydijɑ̃/",
+            "translation": "一个学生 / 几个学生",
+            "note": "连音：'des étudiants'发音为/dez‿/"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Pluriels irréguliers: -eaux, -aux",
+        "translation": "不规则复数：-eaux、-aux",
+        "examples": [
+          {
+            "original": "un château / des châteaux",
+            "phonetic": "/œ̃ ʃato / de ʃato/",
+            "translation": "一座城堡 / 几座城堡",
+            "note": "以-eau结尾的名词复数为-eaux（不发音）。"
+          },
+          {
+            "original": "un animal / des animaux",
+            "phonetic": "/œ̃ nanimal / dez‿animal/",
+            "translation": "一个动物 / 一些动物",
+            "note": "以-al结尾的名词复数为-aux。"
+          },
+          {
+            "original": "une voix / des voix",
+            "phonetic": "/yn vwa / de vwa/",
+            "translation": "一个声音 / 几个声音",
+            "note": "以-s、-x或-z结尾的名词单复数同形。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏷️",
+    "phonetic": "",
+    "translations": {
+      "zh": "名词的性和数"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbes réguliers en -ER / 动词规则变位 -ER 现在时",
+    "bridge": "法语中最庞大的动词群以 -ER 结尾（如 parler、manger、habiter…）。好消息：变位非常规则。对西班牙语母语者的陷阱：法语中几乎所有单数形式听起来相同，尽管拼写不同（je parle、tu parles、il parle 发音均为 /paʁl/）。有用的技巧：许多 -ER 动词的词根与西班牙语动词（-ar）相似：parler/hablar、chanter/cantar、danser/danzar。",
+    "rule": "将动词 -ER 不定式的 -ER 结尾去掉，并添加：je → -e、tu → -es、il/elle/on → -e、nous → -ons、vous → -ez、ils/elles → -ent。结尾 -e、-es、-ent 为哑音，仅 -ons 与 -ez 发音清晰。拼写特例：以 -ger 结尾的动词在 -ons 前添加 'e' 以保持柔和发音：manger → nous mangeons。",
+    "concept_examples": [
+      {
+        "text": "Je parle français.",
+        "translation": "我说法语。",
+        "phonetic": "/ʒə paʁl fʁɑ̃sɛ/"
+      },
+      {
+        "text": "Nous habitons à Lyon.",
+        "translation": "我们住在里昂。",
+        "phonetic": "/nuz‿abitɔ̃ a ljɔ̃/"
+      },
+      {
+        "text": "Ils écoutent la radio.",
+        "translation": "他们听收音机。",
+        "phonetic": "/ilz‿ekut la ʁadjo/"
+      },
+      {
+        "text": "Vous aimez le sport?",
+        "translation": "你们喜欢运动吗？",
+        "phonetic": "/vuz‿eme lə spɔʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Nous parlons*ez le français.",
+      "correct": "Nous parlons le français.",
+      "correct_alt": "Vous parlez le français.",
+      "explanation": "在西班牙语中，‘nosotros’ 和 ‘vosotros’ 发音差异很大。法语中也同样如此，但学生常混淆 -ons（nous）与 -ez（vous）。记住：nous → -ons、vous → -ez。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Conjugaison de 'parler' au présent",
+        "translation": "‘parler’ 的现在时变位",
+        "examples": [
+          {
+            "original": "Je parle avec mon ami.",
+            "phonetic": "/ʒə paʁl avɛk mɔ̃ nami/",
+            "translation": "我和朋友说话。",
+            "note": "je/tu/il: 结尾 -e/-es/-e 均为哑音。"
+          },
+          {
+            "original": "Tu parles bien!",
+            "phonetic": "/ty paʁl bjɛ̃/",
+            "translation": "你说得真好！",
+            "note": "‘parles’ 的 -s 为哑音，发音与 ‘parle’ 相同。"
+          },
+          {
+            "original": "Nous parlons de tout.",
+            "phonetic": "/nu paʁlɔ̃ də tu/",
+            "translation": "我们无所不谈。",
+            "note": "结尾 -ons 是唯一清晰发音的。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Autres verbes en -ER courants",
+        "translation": "其他常见 -ER 动词",
+        "examples": [
+          {
+            "original": "J'aime le chocolat.",
+            "phonetic": "/ʒɛm lə ʃɔkɔla/",
+            "translation": "我喜欢巧克力。",
+            "note": "‘aimer’ = 喜欢（爱）。常用于表达偏好。"
+          },
+          {
+            "original": "Elle travaille au bureau.",
+            "phonetic": "/ɛl tʁavaj o byʁo/",
+            "translation": "她在办公室工作。",
+            "note": "‘travailler’ = 工作。ll 发音为 /j/。"
+          },
+          {
+            "original": "Vous habitez ici?",
+            "phonetic": "/vuz‿abite isi/",
+            "translation": "你们住在这里吗？",
+            "note": "‘habiter’ = 居住。vous 的 -ez 总是发音为 /e/。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Particularités orthographiques",
+        "translation": "拼写特殊情况",
+        "examples": [
+          {
+            "original": "Nous mangeons ensemble.",
+            "phonetic": "/nu mɑ̃ʒɔ̃ ɑ̃sɑ̃bl/",
+            "translation": "我们一起吃饭。",
+            "note": "manger → mangeons（添加 ‘e’ 保持 /ʒ/ 音）。"
+          },
+          {
+            "original": "Je commence à comprendre.",
+            "phonetic": "/ʒə kɔmɑ̃s a kɔ̃pʁɑ̃dʁ/",
+            "translation": "我开始理解了。",
+            "note": "‘commencer’ → je commence（c 在 a/o 前变为 ç）。"
+          },
+          {
+            "original": "J'appelle ma mère.",
+            "phonetic": "/ʒapɛl ma mɛʁ/",
+            "translation": "我给妈妈打电话。",
+            "note": "‘appeler’ 在 je/tu/il/ils 形式中双写 l：j'appelle。"
+          }
+        ]
+      }
+    ],
+    "emoji": "✏️",
+    "phonetic": "",
+    "translations": {
+      "zh": "规则动词 -ER"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "La négation / 基本否定结构ne...pas",
+    "bridge": "在西班牙语中，否定很简单：在动词前加上'no'即可。而在法语中，否定是一个‘夹子’结构，包围动词：'ne'放在动词前，'pas'放在动词后。陷阱：在口语中，‘ne’几乎总是消失，只剩下‘pas’。所以如果你听到‘Je sais pas’，这就是‘Je sais’（我知道）的否定形式。在书面语和正式法语中，始终使用完整的‘ne...pas’结构。",
+    "rule": "否定结构：主语 + ne + 动词变位 + pas。在元音或哑音h前，‘ne’会省音为‘n’：Je n'aime pas。在复合时态中，‘ne’包围助动词：Je n'ai pas mangé。其他常用否定结构：ne...jamais（从不）、ne...rien（无物）、ne...plus（不再）、ne...personne（无人）。在口语中省略‘ne’：'C'est pas vrai' = 'Ce n'est pas vrai'。",
+    "concept_examples": [
+      {
+        "text": "Je ne parle pas allemand.",
+        "translation": "我不说德语。",
+        "phonetic": "/ʒə nə paʁl pa almɑ̃/"
+      },
+      {
+        "text": "Elle n'aime pas le café.",
+        "translation": "她不喜欢咖啡。",
+        "phonetic": "/ɛl nɛm pa lə kafe/"
+      },
+      {
+        "text": "Nous ne sommes pas fatigués.",
+        "translation": "我们不累。",
+        "phonetic": "/nu nə sɔm pa fatiɡe/"
+      },
+      {
+        "text": "Je ne sais pas.",
+        "translation": "我不知道。",
+        "phonetic": "/ʒə nə sɛ pa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je pas parle français.",
+      "correct": "Je ne parle pas français.",
+      "correct_alt": "Je parle pas français. (coloquial)",
+      "explanation": "说西班牙语的人倾向于像在西班牙语中那样，只在动词前加‘no/pas’。而在法语中，否定结构包围动词：ne...pas，动词位于中间。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Négation simple ne...pas",
+        "translation": "简单否定ne...pas",
+        "examples": [
+          {
+            "original": "Je ne mange pas de viande.",
+            "phonetic": "/ʒə nə mɑ̃ʒ pa də vjɑ̃d/",
+            "translation": "我不吃肉。",
+            "note": "ne在动词前，pas在动词后。动词位于中间。"
+          },
+          {
+            "original": "Tu n'es pas espagnol?",
+            "phonetic": "/ty nɛ paz‿ɛspaɲɔl/",
+            "translation": "你不是西班牙人吗？",
+            "note": "ne + es → n'es。连音：pas espagnol /paz‿/。"
+          },
+          {
+            "original": "Il ne travaille pas le dimanche.",
+            "phonetic": "/il nə tʁavaj pa lə dimɑ̃ʃ/",
+            "translation": "他周日不工作。",
+            "note": "结构：il / ne / travaille / pas。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Élision de 'ne' devant voyelle",
+        "translation": "在元音前省音‘ne’",
+        "examples": [
+          {
+            "original": "Je n'aime pas les épinards.",
+            "phonetic": "/ʒə nɛm paz‿lez‿epinɑʁ/",
+            "translation": "我不喜欢菠菜。",
+            "note": "ne + aime → n'aime。在元音前总是省音。"
+          },
+          {
+            "original": "Elle n'habite pas ici.",
+            "phonetic": "/ɛl nabit paz‿isi/",
+            "translation": "她不住在这里。",
+            "note": "habite中的h是哑音，同样省音。"
+          },
+          {
+            "original": "Nous n'avons pas d'argent.",
+            "phonetic": "/nu navɔ̃ pa daʁʒɑ̃/",
+            "translation": "我们没有钱。",
+            "note": "与‘avoir’连用：ne + avons → n'avons。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Négation coloquiale et autres: jamais, rien, plus",
+        "translation": "口语否定及其他：jamais、rien、plus",
+        "examples": [
+          {
+            "original": "C'est pas grave!",
+            "phonetic": "/sɛ pa ɡʁav/",
+            "translation": "没事的！",
+            "note": "口语：省略‘ne’。法语口语中非常常见。"
+          },
+          {
+            "original": "Je ne vais jamais au théâtre.",
+            "phonetic": "/ʒə nə vɛ ʒamɛ o teatʁ/",
+            "translation": "我从不去剧院。",
+            "note": "ne...jamais = 从不。‘jamais’替换‘pas’。"
+          },
+          {
+            "original": "Il ne mange plus de sucre.",
+            "phonetic": "/il nə mɑ̃ʒ plys də sykʁ/",
+            "translation": "他不再吃糖了。",
+            "note": "ne...plus = 不再。‘plus’在此发音为/plys/（而非/ply/）。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🚫",
+    "phonetic": "",
+    "translations": {
+      "zh": "使用ne...pas的否定"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "基础疑问句 / Preguntas básicas",
+    "bridge": "在西班牙语中，我们只需通过上升语调或倒装主语-动词顺序来提问。而在法语中，提问有三种方式：1) 仅通过语调（如西班牙语口语中常见的方式），2) 用句首的'est-ce que'（最推荐给初学者的方式），3) 动词-主语倒装（更正式）。陷阱：倒装会产生连字符和有时不发音的连接字母（-t-）。",
+    "rule": "构成一般疑问句（是/否）的3种方式：1) 语调：Tu parles français?（句末语调上升）。2) est-ce que：Est-ce que tu parles français?（句首加'est-ce que'）。3) 倒装：Parles-tu français?（动词-主语用连字符连接）。带疑问词的疑问句：Où（哪里）、Quand（何时）、Comment（如何）、Pourquoi（为什么）、Qui（谁）、Qu'est-ce que（什么）、Combien（多少）。例如：Où habites-tu? / Où est-ce que tu habites? / Tu habites où?",
+    "concept_examples": [
+      {
+        "text": "Est-ce que tu parles espagnol?",
+        "translation": "你说西班牙语吗？",
+        "phonetic": "/ɛs kə ty paʁl‿ɛspaɲɔl/"
+      },
+      {
+        "text": "Où est la gare?",
+        "translation": "车站在哪里？",
+        "phonetic": "/u ɛ la ɡaʁ/"
+      },
+      {
+        "text": "Comment tu t'appelles?",
+        "translation": "你叫什么名字？",
+        "phonetic": "/kɔmɑ̃ ty tapɛl/"
+      },
+      {
+        "text": "Pourquoi tu ris?",
+        "translation": "你为什么笑？",
+        "phonetic": "/puʁkwa ty ʁi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Comment s'appelle tu?",
+      "correct": "Comment tu t'appelles? / Comment t'appelles-tu?",
+      "correct_alt": "",
+      "explanation": "反身动词的倒装较为复杂。对于初学者，最好使用'comment tu t'appelles'（语调）或'comment est-ce que tu t'appelles'（est-ce que）的形式，而非倒装。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Questions avec intonation et est-ce que",
+        "translation": "用语调和'est-ce que'提问",
+        "examples": [
+          {
+            "original": "Tu es étudiant?",
+            "phonetic": "/ty ɛ etydijɑ̃/",
+            "translation": "你是学生吗？",
+            "note": "句末语调上升：最简单、最口语化的形式。"
+          },
+          {
+            "original": "Est-ce que vous habitez ici?",
+            "phonetic": "/ɛs kə vuz‿abite isi/",
+            "translation": "他们住在这里吗？",
+            "note": "'Est-ce que'中性，适用于所有语境。"
+          },
+          {
+            "original": "Est-ce qu'il parle anglais?",
+            "phonetic": "/ɛs kil paʁl‿ɑ̃ɡlɛ/",
+            "translation": "您会说英语吗？",
+            "note": "'Est-ce que' + 元音 → 'est-ce qu''。必须省音。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mots interrogatifs: où, quand, comment, qui",
+        "translation": "疑问词：哪里、何时、如何、谁",
+        "examples": [
+          {
+            "original": "Où est le musée?",
+            "phonetic": "/u ɛ lə myze/",
+            "translation": "博物馆在哪里？",
+            "note": "'Où' = 哪里。直接与'est'连用，无需'est-ce que'。"
+          },
+          {
+            "original": "Quand est-ce que tu arrives?",
+            "phonetic": "/kɑ̃ ɛs kə ty aʁiv/",
+            "translation": "你什么时候到？",
+            "note": "'Quand' = 何时。与'est-ce que'搭配非常自然。"
+          },
+          {
+            "original": "Qui est cette femme?",
+            "phonetic": "/ki ɛ sɛt fam/",
+            "translation": "那个女人是谁？",
+            "note": "'Qui' = 谁。直接置于动词前。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Qu'est-ce que, combien, pourquoi",
+        "translation": "什么、多少、为什么",
+        "examples": [
+          {
+            "original": "Qu'est-ce que tu fais?",
+            "phonetic": "/kɛs kə ty fɛ/",
+            "translation": "你在做什么？",
+            "note": "'Qu'est-ce que' = 什么（事物）。询问动作或物品时的标准形式。"
+          },
+          {
+            "original": "Combien ça coûte?",
+            "phonetic": "/kɔ̃bjɛ̃ sa kut/",
+            "translation": "多少钱？",
+            "note": "'Combien' = 多少。与'ça coûte'搭配时无需'est-ce que'。"
+          },
+          {
+            "original": "Pourquoi tu es triste?",
+            "phonetic": "/puʁkwa ty ɛ tʁist/",
+            "translation": "你为什么伤心？",
+            "note": "'Pourquoi' = 为什么（连写，无重音）。回答时用'parce que'。"
+          }
+        ]
+      }
+    ],
+    "emoji": "❓",
+    "phonetic": "",
+    "translations": {
+      "zh": "基础疑问句"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les nombres de 1 à 100 / 数字1到100",
+    "bridge": "1到20的数字需要单独记忆（与西班牙语类似）。20到69的系统规则且与西班牙语相似（vingt et un = veintiuno）。但注意：70到99的法语系统完全改变，采用不同的逻辑：70 = 60+10（soixante-dix），80 = 4×20（quatre-vingts），90 = 80+10（quatre-vingt-dix）。这对西班牙语母语者来说是最难的部分！",
+    "rule": "1-19：un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix, onze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf。20-69：vingt, trente, quarante, cinquante, soixante + et un, deux, trois... 70-79：soixante-dix, soixante et onze... soixante-dix-neuf。80-89：quatre-vingts, quatre-vingt-un... quatre-vingt-neuf（当后面跟数字时，quatre-vingts不加s）。90-99：quatre-vingt-dix, quatre-vingt-onze... quatre-vingt-dix-neuf。",
+    "concept_examples": [
+      {
+        "text": "J'ai vingt-trois ans.",
+        "translation": "我二十三岁。",
+        "phonetic": "/ʒe vɛ̃t tʁwa ɑ̃/"
+      },
+      {
+        "text": "Il habite au soixante-quinze.",
+        "translation": "他住在七十五号。",
+        "phonetic": "/il abit o swasɑ̃t kɛ̃z/"
+      },
+      {
+        "text": "Ça coûte quatre-vingt euros.",
+        "translation": "这东西八十欧元。",
+        "phonetic": "/sa kut katʁə vɛ̃ øʁo/"
+      },
+      {
+        "text": "J'ai quatre-vingt-dix pages à lire.",
+        "translation": "我有九十页要读。",
+        "phonetic": "/ʒe katʁə vɛ̃ dis paʒ a liʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "quatre-vingts-un",
+      "correct": "quatre-vingt-un",
+      "correct_alt": "",
+      "explanation": "'Quatre-vingts' 仅在表示‘80’时加s。当后面跟其他数字时，不加s：quatre-vingt-un（81）、quatre-vingt-deux（82）等。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nombres de 1 à 20",
+        "translation": "数字1到20",
+        "examples": [
+          {
+            "original": "J'ai douze ans.",
+            "phonetic": "/ʒe duz‿ɑ̃/",
+            "translation": "我十二岁。",
+            "note": "一到十二：un deux trois quatre cinq six sept huit neuf dix onze douze。"
+          },
+          {
+            "original": "Il y a seize élèves.",
+            "phonetic": "/il ja sɛz‿elɛv/",
+            "translation": "有十六名学生。",
+            "note": "Seize（16）、dix-sept（17）、dix-huit（18）、dix-neuf（19）、vingt（20）。"
+          },
+          {
+            "original": "Mon numéro est le zéro six.",
+            "phonetic": "/mɔ̃ nymeʁo ɛ lə zeʁo sis/",
+            "translation": "我的号码是零六。",
+            "note": "法语中零读作'zéro'。6的结尾发音为/sis/。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nombres de 20 à 69",
+        "translation": "数字20到69",
+        "examples": [
+          {
+            "original": "Elle a trente et un ans.",
+            "phonetic": "/ɛl a tʁɑ̃t‿e œ̃ ɑ̃/",
+            "translation": "她三十一岁。",
+            "note": "个位数与'un'连用时加et：vingt et un、trente et un、quarante et un等。"
+          },
+          {
+            "original": "Il y a cinquante euros.",
+            "phonetic": "/il ja sɛ̃kɑ̃t øʁo/",
+            "translation": "有五十欧元。",
+            "note": "Cinquante（50）、soixante（60）。除1外，其他个位数不加et。"
+          },
+          {
+            "original": "Le bus part à soixante-six.",
+            "phonetic": "/lə bys paʁ a swasɑ̃t sis/",
+            "translation": "公交车六十六分出发。",
+            "note": "soixante（60）+个位数。除1外，其他不加et。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nombres de 70 à 100 (système particulier)",
+        "translation": "数字70到100（特殊系统）",
+        "examples": [
+          {
+            "original": "La chambre est au soixante-dix-sept.",
+            "phonetic": "/la ʃɑ̃bʁ ɛ o swasɑ̃t dis sɛt/",
+            "translation": "房间在七十七号。",
+            "note": "70=soixante-dix、71=soixante et onze、72=soixante-douze等。"
+          },
+          {
+            "original": "Il y a quatre-vingts personnes.",
+            "phonetic": "/il ja katʁ vɛ̃ pɛʁsɔn/",
+            "translation": "有八十人。",
+            "note": "quatre-vingts（80）仅在单独使用时加s。4×20=80。"
+          },
+          {
+            "original": "Ça coûte quatre-vingt-dix-neuf euros.",
+            "phonetic": "/sa kut katʁ vɛ̃ dis nœf øʁo/",
+            "translation": "这东西九十九欧元。",
+            "note": "90=quatre-vingt-dix、99=quatre-vingt-dix-neuf。100=cent。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "zh": "数字1到100"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "形容词与一致性 / 形容词的性数配合",
+    "bridge": "与西班牙语类似，法语中的形容词在性和数上与名词保持一致。主要区别在于：法语中的形容词通常放在名词后（un livre intéressant = 一本有趣的书），而不像西班牙语那样放在前面。但也有例外：一些常见的形容词放在名词前（bon/mauvais, grand/petit, beau/joli, vieux/jeune, nouveau）。这些放在前面的形容词有特殊形式。",
+    "rule": "一致性规则：阳性单数 = 基本形式。阴性单数：加-e（若词尾已为-e则不变）。阳性复数：加-s。阴性复数：加-es。特殊变化：-eux → -euse（heureux/heureuse）、-f → -ve（actif/active）、-er → -ère（premier/première）、-en → -enne（ancien/ancienne）。名词前的形容词（BAGS：美貌、年龄、善良、尺寸）：beau/belle、vieux/vieille、nouveau/nouvelle、bon/bonne、mauvais/mauvaise、grand/grande、petit/petite、jeune。",
+    "concept_examples": [
+      {
+        "text": "un livre intéressant / une histoire intéressante",
+        "translation": "一本有趣的书 / 一个有趣的故事",
+        "phonetic": "/œ̃ livʁ ɛ̃teʁesɑ̃ / yn istwaʁ ɛ̃teʁesɑ̃t/"
+      },
+      {
+        "text": "un beau garçon / une belle fille",
+        "translation": "一个帅气的男孩 / 一个漂亮的女孩",
+        "phonetic": "/œ̃ bo ɡaʁsɔ̃ / yn bɛl fij/"
+      },
+      {
+        "text": "des livres intéressants",
+        "translation": "几本有趣的书",
+        "phonetic": "/de livʁ‿ɛ̃teʁesɑ̃/"
+      },
+      {
+        "text": "Elle est très heureuse.",
+        "translation": "她非常开心。",
+        "phonetic": "/ɛl ɛ tʁɛz‿øʁøz/"
+      }
+    ],
+    "common_error": {
+      "wrong": "une intéressant livre",
+      "correct": "un livre intéressant",
+      "correct_alt": "une histoire intéressante",
+      "explanation": "在法语中，大多数形容词放在名词后，与西班牙语相反。只有少数常见形容词放在名词前。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Accord régulier: +e, +s, +es",
+        "translation": "常规一致性：+e、+s、+es",
+        "examples": [
+          {
+            "original": "un appartement grand / une maison grande",
+            "phonetic": "/œ̃ napaʁtəmɑ̃ ɡʁɑ̃ / yn mɛzɔ̃ ɡʁɑ̃d/",
+            "translation": "一间大公寓 / 一栋大房子",
+            "note": "阴性词尾的-e使原来不发音的辅音变得发音。"
+          },
+          {
+            "original": "un ami sympa / une amie sympa",
+            "phonetic": "/œ̃ nami sɛ̃pa / yn ami sɛ̃pa/",
+            "translation": "一个友好的朋友 / 一个友好的朋友（女）",
+            "note": "某些形容词如'sympa'是不变的（口语用法）。"
+          },
+          {
+            "original": "des étudiants sérieux",
+            "phonetic": "/dez‿etydijɑ̃ seʁjø/",
+            "translation": "几位认真的学生",
+            "note": "阳性复数仅加-s（此处词尾已为-x）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Accord irrégulier: -eux/-euse, -f/-ve, -er/-ère",
+        "translation": "不规则一致性：-eux/-euse、-f/-ve、-er/-ère",
+        "examples": [
+          {
+            "original": "Il est heureux. / Elle est heureuse.",
+            "phonetic": "/il ɛ øʁø / ɛl ɛ øʁøz/",
+            "translation": "他开心。/ 她开心。",
+            "note": "-eux → 阴性词尾为-euse。-se发音为/z/。"
+          },
+          {
+            "original": "un sport actif / une personne active",
+            "phonetic": "/œ̃ spɔʁ aktif / yn pɛʁsɔn aktiv/",
+            "translation": "一项活跃的运动 / 一个活跃的人",
+            "note": "-f → 阴性词尾为-ve。actif → active。"
+          },
+          {
+            "original": "le premier train / la première fois",
+            "phonetic": "/lə pʁəmje tʁɛ̃ / la pʁəmjɛʁ fwa/",
+            "translation": "第一班火车 / 第一次",
+            "note": "-er → 阴性词尾为-ère。需加重音符。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Adjectifs avant le nom: beau, vieux, nouveau",
+        "translation": "名词前的形容词：beau、vieux、nouveau",
+        "examples": [
+          {
+            "original": "un bel homme / une belle femme / de beaux enfants",
+            "phonetic": "/œ̃ bɛl‿ɔm / yn bɛl fam / də bo zɑ̃fɑ̃/",
+            "translation": "一个帅气的男人 / 一个漂亮的女人 / 几个帅气的孩子",
+            "note": "'beau'在阳性元音前有特殊形式'bel'：un bel homme。"
+          },
+          {
+            "original": "un vieil ami / une vieille amie",
+            "phonetic": "/œ̃ vjɛj‿ami / yn vjɛj‿ami/",
+            "translation": "一位老朋友 / 一位老朋友（女）",
+            "note": "'vieux'在阳性元音前为'vieil'，阴性为'vieille'。"
+          },
+          {
+            "original": "un nouvel appartement / une nouvelle maison",
+            "phonetic": "/œ̃ nuvɛl‿apaʁtəmɑ̃ / yn nuvɛl mɛzɔ̃/",
+            "translation": "一间新公寓 / 一栋新房子",
+            "note": "'nouveau'在阳性元音前为'nouvel'，阴性为'nouvelle'。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🎨",
+    "phonetic": "",
+    "translations": {
+      "zh": "形容词的性数配合"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Adjectifs possessifs / 物主形容词",
+    "bridge": "在西班牙语中，物主形容词与物主（即拥有者）保持一致：mi（我的）、tu（你的）、su（他的/她的）、nuestro（我们的）等。而在法语中，物主形容词与被拥有的物品（即名词）保持一致，而非拥有者。这是一个常见的陷阱：'su madre'（他/她的母亲）总是译为'sa mère'，因为'mère'是阴性名词。'son père'既可以表示'他（她）的父亲'，也可以表示'她的父亲'。拥有者的性别无关紧要。",
+    "rule": "法语中的物主形容词与其后面的名词保持一致：mon/ma/mes（我的）、ton/ta/tes（你的）、son/sa/ses（他的/她的单数）、notre/notre/nos（我们的）、votre/votre/vos（你们的/您的）、leur/leur/leurs（他们的/她们的/您们的复数）。注意：mon/ton/son也用于以元音或哑音h开头的阴性名词前：mon amie（不是ma amie）。",
+    "concept_examples": [
+      {
+        "text": "C'est mon frère et ma sœur.",
+        "translation": "这是我的哥哥和我的姐姐。",
+        "phonetic": "/sɛ mɔ̃ fʁɛʁ e ma sœʁ/"
+      },
+      {
+        "text": "Son père est médecin.",
+        "translation": "他/她的父亲是医生。",
+        "phonetic": "/sɔ̃ pɛʁ ɛ medsɛ̃/"
+      },
+      {
+        "text": "Nos parents habitent à Paris.",
+        "translation": "我们的父母住在巴黎。",
+        "phonetic": "/no paʁɑ̃ abit a paʁi/"
+      },
+      {
+        "text": "Mon amie est très sympa.",
+        "translation": "我的朋友很友善。",
+        "phonetic": "/mɔ̃ nami ɛ tʁɛ sɛ̃pa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ma amie est là.",
+      "correct": "Mon amie est là.",
+      "correct_alt": "",
+      "explanation": "在以元音或哑音h开头的阴性名词前，为避免元音连续，使用阳性形式的物主形容词mon/ton/son，而非阴性形式的ma/ta/sa：mon amie（我的朋友，阴性）、ton école（你的学校，阴性）、son histoire（他的故事，阴性）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mon/ma/mes, ton/ta/tes",
+        "translation": "Mon/ma/mes, ton/ta/tes",
+        "examples": [
+          {
+            "original": "Mon père s'appelle Pierre.",
+            "phonetic": "/mɔ̃ pɛʁ sapɛl pjɛʁ/",
+            "translation": "我的父亲叫皮埃尔。",
+            "note": "'Mon'用于阳性单数，'ma'用于阴性单数，'mes'用于复数。"
+          },
+          {
+            "original": "Ta voiture est belle.",
+            "phonetic": "/ta vwatyʁ ɛ bɛl/",
+            "translation": "你的车很漂亮。",
+            "note": "'Ta'用于以辅音开头的阴性单数名词。"
+          },
+          {
+            "original": "Tes amis sont sympa.",
+            "phonetic": "/tez‿ami sɔ̃ sɛ̃pa/",
+            "translation": "你的朋友们很友善。",
+            "note": "'Tes'是'ton'和'ta'的复数形式。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Son/sa/ses, notre/nos, votre/vos, leur/leurs",
+        "translation": "Son/sa/ses, notre/nos, votre/vos, leur/leurs",
+        "examples": [
+          {
+            "original": "Sa maison est grande, son bureau est petit.",
+            "phonetic": "/sa mɛzɔ̃ ɛ ɡʁɑ̃d sɔ̃ byʁo ɛ pəti/",
+            "translation": "他/她的房子很大，他/她的办公室很小。",
+            "note": "'Sa'=阴性，'son'=阳性。取决于被拥有的物品，而非拥有者。"
+          },
+          {
+            "original": "Notre professeur est sympa.",
+            "phonetic": "/nɔtʁ pʁɔfɛsœʁ ɛ sɛ̃pa/",
+            "translation": "我们的老师很友善。",
+            "note": "'Notre'在阳性和阴性单数名词前形式相同。"
+          },
+          {
+            "original": "Leur appartement est grand.",
+            "phonetic": "/lœʁ apaʁtəmɑ̃ ɛ ɡʁɑ̃/",
+            "translation": "他们的公寓很大。",
+            "note": "'Leur'用于单数，'leurs'用于复数。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mon/ton/son devant voyelle (féminin)",
+        "translation": "Mon/ton/son用于以元音开头的阴性名词前",
+        "examples": [
+          {
+            "original": "C'est mon amie Julia.",
+            "phonetic": "/sɛ mɔ̃ nami ʒylja/",
+            "translation": "我的朋友朱莉亚。",
+            "note": "尽管'amie'是阴性名词，但因以元音开头，使用'mon'（而非'ma amie'）。"
+          },
+          {
+            "original": "Ton école est loin?",
+            "phonetic": "/tɔ̃ nekɔl ɛ lwɛ̃/",
+            "translation": "你的学校远吗？",
+            "note": "'École'是阴性名词，但因以元音开头，使用'ton'（而非'ta école'）。"
+          },
+          {
+            "original": "Il aime son histoire préférée.",
+            "phonetic": "/il ɛm sɔ̃ nistwɑʁ pʁefeʁe/",
+            "translation": "他/她喜欢他/她最喜欢的故事。",
+            "note": "'Histoire'是阴性名词，但因'h'为哑音，使用'son histoire'（而非'sa histoire'）。"
+          }
+        ]
+      }
+    ],
+    "emoji": "👪",
+    "phonetic": "",
+    "translations": {
+      "zh": "物主形容词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "指示形容词 / Demostrativos",
+    "bridge": "在西班牙语中，我们用este/esta（表示近处的事物）和ese/aquel及其变体（表示远处的事物）。而在法语中，系统更简单：只有一组指示词（ce/cet/cette/ces），且不区分距离。若要明确距离，可在名词后添加后缀-ci（这里）和-là（那里）：ce livre-ci（这本书）vs ce livre-là（那本书）。陷阱：‘ce’在阳性单数且名词以元音或哑音h开头时变为‘cet’。",
+    "rule": "法语指示词：ce（阳性单数且名词以辅音开头）、cet（阳性单数且名词以元音或哑音h开头）、cette（阴性单数）、ces（阳性/阴性复数）。若要表示距离，可在名词后添加：-ci（近处）或-là（远处）：ce livre-ci（这本书）、ce livre-là（那本书）。注意：‘ce’也可作代词使用：c'est（这是）、ce sont（这些是）。",
+    "concept_examples": [
+      {
+        "text": "Ce restaurant est excellent.",
+        "translation": "这家餐厅很棒。",
+        "phonetic": "/sə ʁɛstoʁɑ̃ ɛ tɛksɛlɑ̃/"
+      },
+      {
+        "text": "Cet hôtel est cher.",
+        "translation": "这家酒店很贵。",
+        "phonetic": "/sɛt‿otɛl ɛ ʃɛʁ/"
+      },
+      {
+        "text": "Cette robe est jolie.",
+        "translation": "这条裙子很漂亮。",
+        "phonetic": "/sɛt ʁɔb ɛ ʒɔli/"
+      },
+      {
+        "text": "Ces enfants sont bruyants.",
+        "translation": "这些孩子很吵。",
+        "phonetic": "/sez‿ɑ̃fɑ̃ sɔ̃ bʁɥijɑ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ce hôtel est cher.",
+      "correct": "Cet hôtel est cher.",
+      "correct_alt": "",
+      "explanation": "阳性单数名词以元音或哑音h开头时，指示词‘ce’需改为‘cet’。这与‘mon/ton/son’在以元音开头的阴性名词前的变化规则相同。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ce, cette, ces: formes de base",
+        "translation": "Ce、cette、ces：基础形式",
+        "examples": [
+          {
+            "original": "Ce livre est intéressant.",
+            "phonetic": "/sə livʁ ɛ tɛ̃teʁesɑ̃/",
+            "translation": "这本书很有趣。",
+            "note": "‘Ce’用于阳性单数且名词以辅音开头。"
+          },
+          {
+            "original": "Cette ville est magnifique.",
+            "phonetic": "/sɛt vil ɛ maɲifik/",
+            "translation": "这座城市很壮丽。",
+            "note": "‘Cette’用于阴性单数。"
+          },
+          {
+            "original": "Ces films sont très bons.",
+            "phonetic": "/se film sɔ̃ tʁɛ bɔ̃/",
+            "translation": "这些电影都很好看。",
+            "note": "‘Ces’用于阳性/阴性复数。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Cet devant voyelle ou h muet",
+        "translation": "Cet：用于元音或哑音h开头",
+        "examples": [
+          {
+            "original": "Cet étudiant est brillant.",
+            "phonetic": "/sɛt‿etydijɑ̃ ɛ bʁijɑ̃/",
+            "translation": "这位学生很优秀。",
+            "note": "‘Cet’用于以元音开头的阳性名词。"
+          },
+          {
+            "original": "Cet homme est sympa.",
+            "phonetic": "/sɛt‿ɔm ɛ sɛ̃pa/",
+            "translation": "这位男士很和蔼。",
+            "note": "‘Cet’用于‘homme’前，因为h是哑音。"
+          },
+          {
+            "original": "Cet après-midi, je vais au parc.",
+            "phonetic": "/sɛt‿apʁɛ midi ʒə vɛ o paʁk/",
+            "translation": "今天下午我要去公园。",
+            "note": "‘Après-midi’可为阳性或阴性；以元音开头时用‘cet’。”"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Distinction -ci / -là",
+        "translation": "区分-ci / -là",
+        "examples": [
+          {
+            "original": "Je préfère ce livre-ci à ce livre-là.",
+            "phonetic": "/ʒə pʁefɛʁ sə livʁ si a sə livʁ la/",
+            "translation": "我更喜欢这本书而非那本书。",
+            "note": "-ci表示近处，-là表示远处。需用连字符与名词连接。"
+          },
+          {
+            "original": "Cette robe-ci ou cette robe-là?",
+            "phonetic": "/sɛt ʁɔb si u sɛt ʁɔb la/",
+            "translation": "这条裙子还是那条裙子？",
+            "note": "用于明确对比两个选项。"
+          },
+          {
+            "original": "Ces jours-ci, il fait très froid.",
+            "phonetic": "/se ʒuʁ si il fɛ tʁɛ fʁwa/",
+            "translation": "这些天很冷。",
+            "note": "‘Ces jours-ci’是固定表达，意为‘近来/这些天’。”"
+          }
+        ]
+      }
+    ],
+    "emoji": "👈",
+    "phonetic": "",
+    "translations": {
+      "zh": "指示词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Il y a / Hay / Existe",
+    "bridge": "在西班牙语中，我们用'hay'来表示存在，例如：'Hay un banco cerca'（附近有一家银行）。在法语中，对应的表达是'il y a'。这是一个固定的表达方式，字面意思是'它有'，但功能类似于西班牙语的'hay'。它的最大优点是不变化：无论单数还是复数，始终使用'il y a'。陷阱：在疑问句中，倒装形式为'y a-t-il?'，需加连音t。",
+    "rule": "'Il y a' + 名词 = 有某物。不变化：无论单数还是复数形式都相同。否定：il n'y a pas de...（没有...）。用'est-ce que'提问：Est-ce qu'il y a? 倒装疑问：Y a-t-il?（正式用法）。'Il y a'也可表示过去的时间：il y a deux ans = 两年前。自然发音：/il ja/，在非常口语化的语境中甚至发音为/ja/。",
+    "concept_examples": [
+      {
+        "text": "Il y a un problème.",
+        "translation": "有个问题。",
+        "phonetic": "/il ja œ̃ pʁɔblɛm/"
+      },
+      {
+        "text": "Il y a des gens dans la rue.",
+        "translation": "街上有人。",
+        "phonetic": "/il ja de ʒɑ̃ dɑ̃ la ʁy/"
+      },
+      {
+        "text": "Il n'y a pas de lait.",
+        "translation": "没有牛奶了。",
+        "phonetic": "/il nja pa də lɛ/"
+      },
+      {
+        "text": "Il y a deux ans, j'habitais en Espagne.",
+        "translation": "两年前，我住在西班牙。",
+        "phonetic": "/il ja dø zɑ̃ ʒabitɛ ɑ̃ ɛspaɲ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Il y a pas de pain. (escrito formal)",
+      "correct": "Il n'y a pas de pain.",
+      "correct_alt": "Y a pas de pain. (muy coloquial hablado)",
+      "explanation": "完整的否定形式是'il n'y a pas'。在口语中，非正式场合可以省略'ne'（变为y a pas），但在书面或正式语境中，'ne'必须保留。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Il y a affirmatif",
+        "translation": "Il y a 肯定句",
+        "examples": [
+          {
+            "original": "Il y a un café près d'ici.",
+            "phonetic": "/il ja œ̃ kafe pʁɛ disi/",
+            "translation": "这附近有一家咖啡馆。",
+            "note": "'Il y a'形式不变，无论单数还是复数。"
+          },
+          {
+            "original": "Il y a beaucoup de monde.",
+            "phonetic": "/il ja boku də mɔ̃d/",
+            "translation": "有很多人。",
+            "note": "'Beaucoup de' + 名词，不加冠词。"
+          },
+          {
+            "original": "Il y a trois chambres dans cet appartement.",
+            "phonetic": "/il ja tʁwa ʃɑ̃bʁ dɑ̃ sɛt‿apaʁtəmɑ̃/",
+            "translation": "这间公寓有三个房间。",
+            "note": "房间的数量不影响'il y a'的形式。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Il n'y a pas de... (négation)",
+        "translation": "Il n'y a pas de...（否定）",
+        "examples": [
+          {
+            "original": "Il n'y a pas de place.",
+            "phonetic": "/il nja pa də plas/",
+            "translation": "没有位置了。",
+            "note": "否定形式：il n'y a pas + de + 名词（不加冠词）。"
+          },
+          {
+            "original": "Il n'y a personne ici.",
+            "phonetic": "/il nja pɛʁsɔn isi/",
+            "translation": "这里没有人。",
+            "note": "'Personne'（没有人）代替'pas de + quelqu'un'。"
+          },
+          {
+            "original": "Il n'y a plus de pain.",
+            "phonetic": "/il nja plys də pɛ̃/",
+            "translation": "面包没有了。",
+            "note": "'Plus de' = 不再有。这里的'plus'发音为/plys/。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Il y a + temps (hace... tiempo)",
+        "translation": "Il y a + 时间（表示‘...前’）",
+        "examples": [
+          {
+            "original": "Il y a cinq minutes, il était ici.",
+            "phonetic": "/il ja sɛ̃k minyt il etɛ isi/",
+            "translation": "五分钟前，我还在这里。",
+            "note": "'Il y a' + 时间 + 过去时 = ...前。"
+          },
+          {
+            "original": "Elle est arrivée il y a une heure.",
+            "phonetic": "/ɛl ɛ aʁive il ja yn œʁ/",
+            "translation": "他一小时前到了。",
+            "note": "表示过去时间的'il y a'放在句末。"
+          },
+          {
+            "original": "Est-ce qu'il y a du parking ici?",
+            "phonetic": "/ɛs kil ja dy paʁkiŋ isi/",
+            "translation": "这里有停车位吗？",
+            "note": "用'est-ce que'提问：最简单自然的方式。"
+          }
+        ]
+      }
+    ],
+    "emoji": "📍",
+    "phonetic": "/il ja/",
+    "translations": {
+      "zh": "有 / 存在（il y a）"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "地点介词 / 基本地点介词",
+    "bridge": "法语中的地点介词与西班牙语非常相似，但也有一些重要的区别。其中一个显著的区别是：国家前使用'en'表示阴性国家，使用'au'表示阳性国家（且以元音开头的阳性国家也用'en'），使用'aux'表示复数国家。例如：'en France'（在法国），'en Espagne'（在西班牙），但'au Maroc'（在摩洛哥），'au Japon'（在日本），'aux États-Unis'（在美国）。城市前则总是使用'à'（à Paris，à Madrid）。",
+    "rule": "基本地点介词：à（在，到，用于城市），en（在，用于阴性国家或地区），dans（在...里面），sur（在...上面），sous（在...下面），devant（在...前面），derrière（在...后面），entre（在...之间），à côté de（在...旁边），en face de（在...对面），près de（在...附近），loin de（在...远处）。国家用法：en + 阴性国家（en France），au + 阳性国家（au Portugal），aux + 复数国家（aux États-Unis）。",
+    "concept_examples": [
+      {
+        "text": "Le chat est sous la table.",
+        "translation": "猫在桌子下面。",
+        "phonetic": "/lə ʃa ɛ su la tabl/"
+      },
+      {
+        "text": "La banque est en face de la poste.",
+        "translation": "银行在邮局对面。",
+        "phonetic": "/la bɑ̃k ɛ ɑ̃ fas də la pɔst/"
+      },
+      {
+        "text": "J'habite en Espagne, à Madrid.",
+        "translation": "我住在西班牙，在马德里。",
+        "phonetic": "/ʒabit ɑ̃ nɛspaɲ a madʁid/"
+      },
+      {
+        "text": "Il travaille au Japon.",
+        "translation": "他在日本工作。",
+        "phonetic": "/il tʁavaj o ʒapɔ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis à France.",
+      "correct": "Je suis en France.",
+      "correct_alt": "",
+      "explanation": "阴性国家（大多数国家都是阴性：France、Espagne、Italie、Allemagne等）前要用'en'，而不是'à'。只有城市前才用'à'：à Paris、à Lyon。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Prépositions de lieu basiques: sur, sous, dans, devant, derrière",
+        "translation": "基本介词：上、下、里、前、后",
+        "examples": [
+          {
+            "original": "Le livre est sur la table.",
+            "phonetic": "/lə livʁ ɛ syʁ la tabl/",
+            "translation": "书在桌子上。",
+            "note": "'Sur' = 在...上面。"
+          },
+          {
+            "original": "Le chien est sous le lit.",
+            "phonetic": "/lə ʃjɛ̃ ɛ su lə li/",
+            "translation": "狗在床下面。",
+            "note": "'Sous' = 在...下面。"
+          },
+          {
+            "original": "La voiture est devant la maison.",
+            "phonetic": "/la vwatyʁ ɛ dəvɑ̃ la mɛzɔ̃/",
+            "translation": "车在房子前面。",
+            "note": "'Devant' = 在...前面，'derrière' = 在...后面。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "À, près de, loin de, à côté de, en face de",
+        "translation": "在、附近、远离、旁边、对面",
+        "examples": [
+          {
+            "original": "La boulangerie est à côté de la pharmacie.",
+            "phonetic": "/la bulanʒʁi ɛ a kote də la faʁmasi/",
+            "translation": "面包店在药店旁边。",
+            "note": "'À côté de' = 在...旁边。"
+          },
+          {
+            "original": "L'hôtel est près de la gare.",
+            "phonetic": "/lotɛl ɛ pʁɛ də la ɡaʁ/",
+            "translation": "酒店在车站附近。",
+            "note": "'Près de' = 在...附近，'loin de' = 在...远处。"
+          },
+          {
+            "original": "Le café est en face de l'église.",
+            "phonetic": "/lə kafe ɛ ɑ̃ fas də leɡliz/",
+            "translation": "咖啡馆在教堂对面。",
+            "note": "'En face de' = 在...对面。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "En / au / aux avec les pays",
+        "translation": "在 / au / aux 与国家",
+        "examples": [
+          {
+            "original": "Je vais en France, en Italie et en Espagne.",
+            "phonetic": "/ʒə vɛ ɑ̃ fʁɑ̃s ɑ̃ nitali e ɑ̃ nɛspaɲ/",
+            "translation": "我去法国、意大利和西班牙。",
+            "note": "'En'用于阴性国家（大多数以-e结尾）。"
+          },
+          {
+            "original": "Il travaille au Maroc.",
+            "phonetic": "/il tʁavaj o maʁɔk/",
+            "translation": "他在摩洛哥工作。",
+            "note": "'Au'（= à + le）用于阳性国家：le Maroc、le Japon、le Brésil。"
+          },
+          {
+            "original": "Elle habite aux États-Unis.",
+            "phonetic": "/ɛl abit oz‿eta yni/",
+            "translation": "她住在美国。",
+            "note": "'Aux'（= à + les）用于复数国家：les États-Unis、les Pays-Bas。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🗺️",
+    "phonetic": "",
+    "translations": {
+      "zh": "地点介词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Jours, mois et saisons / 日子、月份和季节",
+    "bridge": "法语中的星期几比西班牙语更短且更简单。月份与西班牙语非常相似。主要区别在于：法语中的星期几和月份用小写字母书写（lundi, janvier），不像英语那样用大写字母。要表达“通常的周一”时用'le lundi'（带冠词），但指代“特定的这个周一”时只说'lundi'（不带冠词）。",
+    "rule": "星期（小写）：lundi（周一，L）、mardi（周二，M）、mercredi（周三，M）、jeudi（周四，J）、vendredi（周五，V）、samedi（周六，S）、dimanche（周日，D）。一周从周一开始。月份（小写）：janvier（一月）、février（二月）、mars（三月）、avril（四月）、mai（五月）、juin（六月）、juillet（七月）、août（八月）、septembre（九月）、octobre（十月）、novembre（十一月）、décembre（十二月）。季节：le printemps（春天）、l'été（夏天）、l'automne（秋天）、l'hiver（冬天）。日期表达：le + 数字 + 月份：le 14 juillet（7月14日）。第一天：le premier janvier（1月1日）。",
+    "concept_examples": [
+      {
+        "text": "Aujourd'hui c'est lundi.",
+        "translation": "今天是周一。",
+        "phonetic": "/oʒuʁdɥi sɛ lœ̃di/"
+      },
+      {
+        "text": "Je travaille le samedi.",
+        "translation": "我通常周六工作。",
+        "phonetic": "/ʒə tʁavaj lə samdi/"
+      },
+      {
+        "text": "Mon anniversaire est le 3 octobre.",
+        "translation": "我的生日是10月3日。",
+        "phonetic": "/mɔ̃ nanivɛʁsɛʁ ɛ lə tʁwa ɔktɔbʁ/"
+      },
+      {
+        "text": "En été, je vais à la plage.",
+        "translation": "夏天我会去海滩。",
+        "phonetic": "/ɑ̃ nete ʒə vɛ a la plaʒ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je vais au cinéma Lundi soir.",
+      "correct": "Je vais au cinéma lundi soir.",
+      "correct_alt": "",
+      "explanation": "法语中的星期几和月份用小写字母书写，与英语不同。只有在句首时才使用大写字母。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Les jours de la semaine",
+        "translation": "星期几",
+        "examples": [
+          {
+            "original": "Lundi, je vais au sport.",
+            "phonetic": "/lœ̃di ʒə vɛ o spɔʁ/",
+            "translation": "这个周一我要去运动。",
+            "note": "不带冠词=指特定的这一天。"
+          },
+          {
+            "original": "Le vendredi, je finis tôt.",
+            "phonetic": "/lə vɑ̃dʁədi ʒə fini to/",
+            "translation": "我每周五都早早结束。",
+            "note": "带'le' + 星期几=每个（星期几）。"
+          },
+          {
+            "original": "Le week-end, je me repose.",
+            "phonetic": "/lə wikɛnd ʒə mə ʁəpoz/",
+            "translation": "周末我休息。",
+            "note": "'Le week-end'源自英语，但在法语中使用。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Les mois de l'année",
+        "translation": "一年中的月份",
+        "examples": [
+          {
+            "original": "Je suis né en mars.",
+            "phonetic": "/ʒə sɥi ne ɑ̃ maʁs/",
+            "translation": "我出生于3月。",
+            "note": "'En' + 月份（不带冠词）：en janvier（一月）、en février（二月）、en mars（三月）..."
+          },
+          {
+            "original": "Mon anniversaire est le premier juin.",
+            "phonetic": "/mɔ̃ nanivɛʁsɛʁ ɛ lə pʁəmje ʒɥɛ̃/",
+            "translation": "我的生日是6月1日。",
+            "note": "只有第1天用'le premier'。其他日期：le deux（2日）、le trois（3日）..."
+          },
+          {
+            "original": "Nous partons en vacances en août.",
+            "phonetic": "/nu paʁtɔ̃ ɑ̃ vakɑ̃s ɑ̃ nu/",
+            "translation": "我们8月去度假。",
+            "note": "'Août'在不同地区发音为/u/或/ut/。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Les saisons et expressions temporelles",
+        "translation": "季节与时间表达",
+        "examples": [
+          {
+            "original": "Au printemps, il y a beaucoup de fleurs.",
+            "phonetic": "/o pʁɛ̃tɑ̃ il ja boku də flœʁ/",
+            "translation": "春天百花盛开。",
+            "note": "'Au printemps'（春天）、'en été'（夏天）、'en automne'（秋天）、'en hiver'（冬天）。"
+          },
+          {
+            "original": "Quelle est la date aujourd'hui?",
+            "phonetic": "/kɛl ɛ la dat oʒuʁdɥi/",
+            "translation": "今天几号？",
+            "note": "询问日期的表达。回答：Nous sommes le 15 juillet（今天是7月15日）。"
+          },
+          {
+            "original": "C'est le 14 juillet, la fête nationale.",
+            "phonetic": "/sɛ lə katɔʁz ʒɥijɛ la fɛt nasjɔnal/",
+            "translation": "今天是7月14日，国庆节。",
+            "note": "日期表达：le + 基数词 + 月份（数字与月份间无'de'）。"
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "zh": "日子、月份和季节"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbe avoir / 法语动词avoir（有）",
+    "bridge": "动词'avoir'（相当于西班牙语的'tener'）在法语中至关重要，原因有二：首先，如同在西班牙语中一样，它用于表达拥有。其次，也是陷阱所在，'avoir'还用于表达西班牙语中用'tener'表达的感觉：'tengo hambre' = 'j'ai faim'（而非'je suis faim'）。此外，它也是最常用的复合时态助动词（如passé composé）。这是一个完全不规则的动词，需要记住其变位。",
+    "rule": "动词'avoir'的变位（相当于'tener'/'haber'）：j'ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont。主要用法：1) 拥有：J'ai une voiture.（我有一辆车。）2) 年龄：J'ai 25 ans.（我25岁。）3) 感觉：avoir faim（饿），avoir soif（渴），avoir froid（冷），avoir chaud（热），avoir peur（害怕），avoir raison（有理），avoir tort（错误），avoir mal（疼痛）。4) 复合时态的助动词。",
+    "concept_examples": [
+      {
+        "text": "J'ai deux frères.",
+        "translation": "我有两个兄弟。",
+        "phonetic": "/ʒe dø fʁɛʁ/"
+      },
+      {
+        "text": "Tu as quel âge?",
+        "translation": "你多少岁了？",
+        "phonetic": "/ty a kɛl aʒ/"
+      },
+      {
+        "text": "Elle a faim.",
+        "translation": "她饿了。",
+        "phonetic": "/ɛl a fɛ̃/"
+      },
+      {
+        "text": "Nous avons froid.",
+        "translation": "我们冷。",
+        "phonetic": "/nuz‿avɔ̃ fʁwa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis faim. / J'ai 'year' ans.",
+      "correct": "J'ai faim. / J'ai 25 ans.",
+      "correct_alt": "",
+      "explanation": "在西班牙语中，我们用'estar/tener'表达身体感觉。而在法语中，所有身体感觉都用'avoir'：avoir faim（饿）、soif（渴）、froid（冷）、chaud（热）、peur（害怕）等。这些表达中绝不能用'être。年龄表达也是如此：j'ai 25 ans（我25岁），而非'je suis 25 ans'。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Avoir pour la possession et l'âge",
+        "translation": "用于拥有和年龄的avoir",
+        "examples": [
+          {
+            "original": "J'ai un appartement à Paris.",
+            "phonetic": "/ʒe œ̃ napaʁtəmɑ̃ a paʁi/",
+            "translation": "我在巴黎有一套公寓。",
+            "note": "用'avoir'表达基本拥有。"
+          },
+          {
+            "original": "Il a vingt ans.",
+            "phonetic": "/il a vɛ̃t‿ɑ̃/",
+            "translation": "他20岁。",
+            "note": "年龄总是用'avoir' + 数字 + 'ans'。"
+          },
+          {
+            "original": "Vous avez une voiture?",
+            "phonetic": "/vuz‿ave yn vwatyʁ/",
+            "translation": "你们有车吗？",
+            "note": "用'avoir'提问。'avez'的连音为/vuz‿ave/。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Avoir avec les sensations physiques",
+        "translation": "用于身体感觉的avoir",
+        "examples": [
+          {
+            "original": "J'ai très faim, tu as quelque chose à manger?",
+            "phonetic": "/ʒe tʁɛ fɛ̃ ty a kɛlkə ʃoz a mɑ̃ʒe/",
+            "translation": "我好饿，你有吃的吗？",
+            "note": "'Avoir faim' = 饿。'Très'用于加强语气。"
+          },
+          {
+            "original": "Elle a peur des araignées.",
+            "phonetic": "/ɛl a pœʁ dez‿aʁɛɲe/",
+            "translation": "她害怕蜘蛛。",
+            "note": "'Avoir peur de' = 害怕某物。"
+          },
+          {
+            "original": "Tu as chaud ou tu as froid?",
+            "phonetic": "/ty a ʃo u ty a fʁwa/",
+            "translation": "你热还是冷？",
+            "note": "'Avoir chaud/froid' = 热/冷。表达人的感觉时绝不能用'être chaud/froid。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Avoir raison/tort et autres expressions",
+        "translation": "用于avoir raison/tort等表达",
+        "examples": [
+          {
+            "original": "Tu as raison, c'est une bonne idée.",
+            "phonetic": "/ty a ʁɛzɔ̃ sɛt yn bɔn‿ide/",
+            "translation": "你说得对，这是个好主意。",
+            "note": "'Avoir raison' = 有理。'Avoir tort' = 错误。"
+          },
+          {
+            "original": "J'ai mal à la tête.",
+            "phonetic": "/ʒe mal a la tɛt/",
+            "translation": "我头疼。",
+            "note": "'Avoir mal à' = 疼痛。J'ai mal au dos（我背疼）。"
+          },
+          {
+            "original": "Elle a l'air fatiguée.",
+            "phonetic": "/ɛl a lɛʁ fatiɡe/",
+            "translation": "她看起来累了。",
+            "note": "'Avoir l'air + adj.' = 看起来。在法语中非常常见。"
+          }
+        ]
+      }
+    ],
+    "emoji": "✋",
+    "phonetic": "/avwaʁ/",
+    "translations": {
+      "zh": "动词avoir（有）"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbe pouvoir / 可以（基础情态动词）",
+    "bridge": "动词'pouvoir'相当于西班牙语的'poder'，用法类似：后面接动词不定式。不同之处在于'pouvoir'是完全不规则动词。一个有趣的陷阱：'puis-je?'（我可以吗？）是唯一使用'puis'而非'peux'的形式，用于正式疑问句且主谓倒装。在日常对话中，通常说'est-ce que je peux?'或简单说'je peux?'",
+    "rule": "'pouvoir'（可以）的变位：je peux, tu peux, il/elle/on peut, nous pouvons, vous pouvez, ils/elles peuvent。用法：pouvoir + 动词不定式。表达能力、许可或可能性。礼貌地请求许可：Est-ce que je peux...? / Puis-je...?（正式）。提供帮助：Je peux vous aider? 表达可能性：Il peut pleuvoir（可能会下雨）。",
+    "concept_examples": [
+      {
+        "text": "Je peux parler français!",
+        "translation": "我会说法语！",
+        "phonetic": "/ʒə pø paʁle fʁɑ̃sɛ/"
+      },
+      {
+        "text": "Est-ce que tu peux m'aider?",
+        "translation": "你能帮我吗？",
+        "phonetic": "/ɛs kə ty pø mede/"
+      },
+      {
+        "text": "On peut entrer?",
+        "translation": "我们可以进去吗？",
+        "phonetic": "/ɔ̃ pø ɑ̃tʁe/"
+      },
+      {
+        "text": "Il ne peut pas venir.",
+        "translation": "他不能来。",
+        "phonetic": "/il nə pø pa vəniʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je peux de parler français.",
+      "correct": "Je peux parler français.",
+      "correct_alt": "",
+      "explanation": "在'pouvoir'（以及所有法语情态动词）之后，动词不定式直接使用，不加介词。不能说'je peux de parler'或'je peux à parler'。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Pouvoir + infinitif: capacité et permission",
+        "translation": "Pouvoir + 动词不定式：能力与许可",
+        "examples": [
+          {
+            "original": "Je peux nager très bien.",
+            "phonetic": "/ʒə pø naʒe tʁɛ bjɛ̃/",
+            "translation": "我游泳游得很好（我能游泳）。",
+            "note": "能力：je peux + 动词不定式直接使用。"
+          },
+          {
+            "original": "Est-ce que je peux ouvrir la fenêtre?",
+            "phonetic": "/ɛs kə ʒə pø uvʁiʁ la fənɛtʁ/",
+            "translation": "我可以打开窗户吗？",
+            "note": "许可：'est-ce que je peux...?'是最自然的表达方式。"
+          },
+          {
+            "original": "Vous pouvez entrer.",
+            "phonetic": "/vu puve ɑ̃tʁe/",
+            "translation": "他们可以进来。",
+            "note": "授予许可。在商店、办公室等场所很常见。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pouvoir à la négation et pour offrir de l'aide",
+        "translation": "Pouvoir的否定与提供帮助",
+        "examples": [
+          {
+            "original": "Je ne peux pas venir ce soir.",
+            "phonetic": "/ʒə nə pø pa vəniʁ sə swaʁ/",
+            "translation": "今晚我不能来。",
+            "note": "否定：ne peux pas。否定词围绕动词变位形式。"
+          },
+          {
+            "original": "Je peux vous aider?",
+            "phonetic": "/ʒə pø vuz‿ede/",
+            "translation": "我可以帮您吗？",
+            "note": "在商店或服务场景中提供帮助。"
+          },
+          {
+            "original": "On ne peut pas fumer ici.",
+            "phonetic": "/ɔ̃ nə pø pa fyme isi/",
+            "translation": "这里不能吸烟。",
+            "note": "'On ne peut pas' = 不能（非人称）。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Pouvoir pour la possibilité et formes formelles",
+        "translation": "Pouvoir表达可能性与正式用法",
+        "examples": [
+          {
+            "original": "Il peut pleuvoir demain.",
+            "phonetic": "/il pø plœvwaʁ dəmɛ̃/",
+            "translation": "明天可能会下雨。",
+            "note": "可能性：il peut + 动词不定式。"
+          },
+          {
+            "original": "Puis-je vous poser une question?",
+            "phonetic": "/pɥiʒ vu poze yn kɛstjɔ̃/",
+            "translation": "我可以问您一个问题吗？",
+            "note": "'Puis-je'是'je peux'的正式倒装形式，非常礼貌。"
+          },
+          {
+            "original": "Vous pourriez répéter, s'il vous plaît?",
+            "phonetic": "/vu puʁije ʁepete sil vu plɛ/",
+            "translation": "请您重复一遍好吗？",
+            "note": "'Pourriez'是'pouvoir'的条件式，比'pouvez'更礼貌。"
+          }
+        ]
+      }
+    ],
+    "emoji": "💪",
+    "phonetic": "/puvwaʁ/",
+    "translations": {
+      "zh": "动词 pouvoir（可以）"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbes irréguliers: aller, venir, faire / 不规则动词：aller、venir、faire",
+    "bridge": "法语中最不规则且最常用的三个动词（与être和avoir并列）是aller（去）、venir（来）和faire（做）。Aller尤为重要，因为它像西班牙语一样构成近未来时：'voy a comer' = 'je vais manger'（我要吃饭）。Faire非常灵活：用于谈论天气（il fait beau = 天气好）、活动（faire du sport = 做运动）以及许多固定表达。",
+    "rule": "ALLER（去）：je vais, tu vas, il va, nous allons, vous allez, ils vont。近未来时：aller + 动词原形。VENIR（来）：je viens, tu viens, il vient, nous venons, vous venez, ils viennent。'Venir de + 动词原形' = 刚刚做过某事。FAIRE（做）：je fais, tu fais, il fait, nous faisons, vous faites, ils font。与faire搭配的常用表达：faire du sport（做运动）、faire la cuisine（做饭）、faire beau（天气好）、faire chaud/froid（天气热/冷）。",
+    "concept_examples": [
+      {
+        "text": "Je vais au cinéma ce soir.",
+        "translation": "我今晚要去看电影。",
+        "phonetic": "/ʒə vɛ o sinema sə swaʁ/"
+      },
+      {
+        "text": "Il vient de rentrer.",
+        "translation": "他刚刚到家。",
+        "phonetic": "/il vjɛ̃ də ʁɑ̃tʁe/"
+      },
+      {
+        "text": "Qu'est-ce que tu fais ce week-end?",
+        "translation": "这个周末你要做什么？",
+        "phonetic": "/kɛs kə ty fɛ sə wikɛnd/"
+      },
+      {
+        "text": "Nous allons manger au restaurant.",
+        "translation": "我们要去餐厅吃饭。",
+        "phonetic": "/nuz‿alɔ̃ mɑ̃ʒe o ʁɛstoʁɑ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Il fait du sport ce matin. → Nous faisons du sport... → Vous faites du sport...",
+      "correct": "Tous les formes: je fais, tu fais, il fait, nous faisons /fəzɔ̃/, vous faites /fɛt/, ils font",
+      "correct_alt": "",
+      "explanation": "'Faire'非常不规则：'nous faisons'发音为/fəzɔ̃/（而非/fɛzɔ̃/），'vous faites'以-tes结尾（唯一一个在-er动词中以-es结尾的形式）。这些形式需要全部记住。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Aller: présent et futur proche",
+        "translation": "Aller：现在时与近未来时",
+        "examples": [
+          {
+            "original": "Je vais à la bibliothèque.",
+            "phonetic": "/ʒə vɛ a la biblijotɛk/",
+            "translation": "我去图书馆。",
+            "note": "je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont。"
+          },
+          {
+            "original": "Nous allons visiter Paris demain.",
+            "phonetic": "/nuz‿alɔ̃ vizite paʁi dəmɛ̃/",
+            "translation": "我们明天要去巴黎参观。",
+            "note": "近未来时：aller + 动词原形 = voy a...（与西班牙语相同）。"
+          },
+          {
+            "original": "Comment vous allez?",
+            "phonetic": "/kɔmɑ̃ vuz‿ale/",
+            "translation": "你怎么样？",
+            "note": "询问某人状态的表达。回答：Je vais bien, merci。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Venir: présent et venir de + infinitif",
+        "translation": "Venir：现在时与venir de + 动词原形",
+        "examples": [
+          {
+            "original": "D'où viens-tu?",
+            "phonetic": "/du vjɛ̃ ty/",
+            "translation": "你从哪里来？",
+            "note": "je viens, tu viens, il vient, nous venons, vous venez, ils viennent。"
+          },
+          {
+            "original": "Je viens de manger.",
+            "phonetic": "/ʒə vjɛ̃ də mɑ̃ʒe/",
+            "translation": "我刚刚吃过饭。",
+            "note": "'Venir de + 动词原形' = 刚刚做过某事（最近过去时）。"
+          },
+          {
+            "original": "Ils viennent d'Espagne.",
+            "phonetic": "/il vjɛn‿dɛspaɲ/",
+            "translation": "他们来自西班牙。",
+            "note": "'Venir de'也可表示来源地。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Faire: présent et expressions courantes",
+        "translation": "Faire：现在时与常用表达",
+        "examples": [
+          {
+            "original": "Il fait beau aujourd'hui.",
+            "phonetic": "/il fɛ bo oʒuʁdɥi/",
+            "translation": "今天天气很好。",
+            "note": "'Il fait beau/mauvais/chaud/froid/du vent' = 天气相关表达。"
+          },
+          {
+            "original": "Je fais du sport trois fois par semaine.",
+            "phonetic": "/ʒə fɛ dy spɔʁ tʁwa fwa paʁ səmɛn/",
+            "translation": "我每周做三次运动。",
+            "note": "'Faire du/de la/de l' + 活动：faire du sport（做运动）、faire de la natation（游泳）。"
+          },
+          {
+            "original": "Qu'est-ce qu'on fait ce soir?",
+            "phonetic": "/kɛs kɔ̃ fɛ sə swaʁ/",
+            "translation": "我们今晚做什么？",
+            "note": "口语中'on'可表示'我们'。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏃",
+    "phonetic": "",
+    "translations": {
+      "zh": "不规则动词：aller、venir、faire"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_gram_18",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "L'heure / 说法法语时间",
+    "bridge": "法语表达时间与西班牙语有多处不同。首先，法语更常用24小时制（如下午两点说成'quatorze heures'而非'2 heures de l'après-midi'）。其次，整点与半点用'et'表示：'et demi'（半点），'et quart'（一刻钟）。但差一刻用'moins le quart'（如'il est trois heures moins le quart'表示2:45）。此外，'midi'（中午）和'minuit'（午夜）为阳性名词，且不加'heure'。",
+    "rule": "询问时间：Quelle heure est-il? / Il est quelle heure? 回答：Il est + 小时 + heure(s)。结构：Il est deux heures（2:00），deux heures dix（2:10），deux heures et quart（2:15），deux heures et demie（2:30），trois heures moins le quart（2:45），trois heures moins dix（2:50）。中午：midi。午夜：minuit。24小时制：Il est quatorze heures trente（14:30）。约会与交通时总用24小时制。",
+    "concept_examples": [
+      {
+        "text": "Il est huit heures et demie.",
+        "translation": "现在是八点半。",
+        "phonetic": "/il ɛ ɥit‿œʁ e dəmi/"
+      },
+      {
+        "text": "Le train part à quinze heures vingt.",
+        "translation": "火车15点20发车。",
+        "phonetic": "/lə tʁɛ̃ paʁ a kɛ̃z‿œʁ vɛ̃/"
+      },
+      {
+        "text": "Il est midi et quart.",
+        "translation": "现在是中午十二点一刻。",
+        "phonetic": "/il ɛ midi e kaʁ/"
+      },
+      {
+        "text": "À quelle heure on se retrouve?",
+        "translation": "我们几点见面？",
+        "phonetic": "/a kɛl‿œʁ ɔ̃ sə ʁətʁuv/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Il est demi après deux heures.",
+      "correct": "Il est deux heures et demie.",
+      "correct_alt": "",
+      "explanation": "法语中半点必须放在小时之后：'deux heures et demie'（两点半）。'Et demi/demie'总是放在句末。'Demie'加-e是因为与阴性名词'heure'一致，但'midi et demi'和'minuit et demi'不加-e（阳性名词）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Les heures exactes et les demies",
+        "translation": "整点与半点",
+        "examples": [
+          {
+            "original": "Il est dix heures.",
+            "phonetic": "/il ɛ diz‿œʁ/",
+            "translation": "现在是十点。",
+            "note": "'Heures'在整点后加-s，但'une heure'例外。连音：dix heures /diz‿/。"
+          },
+          {
+            "original": "Il est une heure et demie.",
+            "phonetic": "/il ɛ yn œʁ e dəmi/",
+            "translation": "现在是一点半。",
+            "note": "'Une heure'用单数。'Et demie'加-e是因为'heure为阴性。"
+          },
+          {
+            "original": "Il est minuit.",
+            "phonetic": "/il ɛ minɥi/",
+            "translation": "现在是午夜。",
+            "note": "'Midi'和'minuit'为阳性名词，不加'heure'。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Et quart, moins le quart, moins cinq...",
+        "translation": "一刻、差一刻、差五分等",
+        "examples": [
+          {
+            "original": "Il est sept heures et quart.",
+            "phonetic": "/il ɛ sɛt‿œʁ e kaʁ/",
+            "translation": "现在是七点一刻。",
+            "note": "'Et quart'=一刻钟（+15分钟）。"
+          },
+          {
+            "original": "Il est neuf heures moins le quart.",
+            "phonetic": "/il ɛ nœv‿œʁ mwɛ̃ lə kaʁ/",
+            "translation": "现在是九点差一刻（8:45）。",
+            "note": "'Moins le quart'=差一刻。说下一个小时减15分钟。"
+          },
+          {
+            "original": "Il est cinq heures moins dix.",
+            "phonetic": "/il ɛ sɛ̃k‿œʁ mwɛ̃ dis/",
+            "translation": "现在是五点差十分（4:50）。",
+            "note": "'Moins + 分钟'=差。总说下一个小时。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Format 24h et questions sur l'heure",
+        "translation": "24小时制与询问时间",
+        "examples": [
+          {
+            "original": "Le musée ouvre à neuf heures et ferme à dix-huit heures trente.",
+            "phonetic": "/lə myze uvʁ a nœv‿œʁ e fɛʁm a diz‿ɥit‿œʁ tʁɑ̃t/",
+            "translation": "博物馆9点开门，18点30关门。",
+            "note": "24小时制是法国官方时间表的标准格式。"
+          },
+          {
+            "original": "Quelle heure est-il, s'il vous plaît?",
+            "phonetic": "/kɛl‿œʁ ɛ til sil vu plɛ/",
+            "translation": "请问现在几点了？",
+            "note": "正式问法。也可用非正式：'Il est quelle heure?'。"
+          },
+          {
+            "original": "On se retrouve à vingt heures, d'accord?",
+            "phonetic": "/ɔ̃ sə ʁətʁuv a vɛ̃t‿œʁ dakɔʁ/",
+            "translation": "我们晚上8点见，好吗？",
+            "note": "'D'accord'=好的。'Se retrouver'=见面。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🕐",
+    "phonetic": "",
+    "translations": {
+      "zh": "说法语时间"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  }
+]

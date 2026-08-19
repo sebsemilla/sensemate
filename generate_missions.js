@@ -169,6 +169,8 @@ const LANGS = {
     wo: { name: 'Wolof',      nameEn: 'Wolof',      dir: 'wolof'     },
     ha: { name: 'Hausa',      nameEn: 'Hausa',      dir: 'hausa'     },
     yo: { name: 'Yoruba',     nameEn: 'Yoruba',     dir: 'yoruba'    },
+    ig: { name: 'Igbo',       nameEn: 'Igbo',       dir: 'igbo'      },
+    ary:{ name: 'Darija',     nameEn: 'Moroccan Arabic', dir: 'darija' },
 };
 
 const CATEGORIES = ['gramatica', 'funciones_comunicativas', 'conversacion'];
@@ -835,8 +837,8 @@ function showStatus(target, source) {
 // ─── Comando: --list ──────────────────────────────────────────
 
 function showList() {
-    const targets = ['en','fr','pt','de','it','zh','ja','ko','ru','ar','gn','qu','wo','ha','yo'];
-    const sources = ['es','en','fr','pt','de','it','gn','qu','wo','ha','yo'];
+    const targets = ['en','fr','pt','de','it','zh','ja','ko','ru','ar','gn','qu','wo','ha','yo','ig','ary'];
+    const sources = ['es','en','fr','pt','de','it','gn','qu','wo','ha','yo','ig','ary'];
 
     console.log('\n🗺️  Pares disponibles para generación:\n');
     console.log('  Target       Source       Para lanzar');

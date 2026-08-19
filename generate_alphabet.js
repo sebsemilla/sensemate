@@ -23,10 +23,17 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: path.join(__dirname, '.env') });
 
-const client = new OpenAI({
-    apiKey:  process.env.DEEPSEEK_API_KEY,
-    baseURL: 'https://api.deepseek.com',
-});
+// Provider seleccionado vía --provider=groq|deepseek (default: deepseek)
+const _providerArg = process.argv.find(a => a.startsWith('--provider='))?.split('=')[1] || 'deepseek';
+
+function _makeClient(provider) {
+    if (provider === 'groq') {
+        return { client: new OpenAI({ apiKey: process.env.GROQ_API_KEY, baseURL: 'https://api.groq.com/openai/v1' }), model: 'openai/gpt-oss-20b' };
+    }
+    return { client: new OpenAI({ apiKey: process.env.DEEPSEEK_API_KEY, baseURL: 'https://api.deepseek.com' }), model: 'deepseek-chat' };
+}
+
+const { client, model: _defaultModel } = _makeClient(_providerArg);
 
 // ─── Metadatos de idiomas ──────────────────────────────────────
 
@@ -47,6 +54,8 @@ const LANGS = {
     wo: { name: 'Wolof',      nameEn: 'Wolof'      },
     ha: { name: 'Hausa',      nameEn: 'Hausa'      },
     yo: { name: 'Yoruba',     nameEn: 'Yoruba'     },
+    ig: { name: 'Igbo',       nameEn: 'Igbo'       },
+    ary:{ name: 'Darija',     nameEn: 'Moroccan Arabic' },
 };
 
 // ─── Configuración de grupos por idioma ───────────────────────
@@ -634,6 +643,65 @@ Then generate 10 vocabulary cards of essential Arabic words using all letters co
             },
         ],
     },
+
+    ary: {
+        scriptType: 'arabic',
+        levelName:  'El Darija — árabe marroquí',
+        groups: [
+            {
+                slug: 'intro_darija', name: 'Introducción al Darija', icon: '🇲🇦', color: '#6366f1',
+                description: 'Script árabe · préstamos del francés · pronunciación única',
+                letterCards: ['RTL','SCRIPT','DARIJA','FRENCH'],
+                scope: `Darija (Moroccan Arabic) script fundamentals — 1 isLetter card per concept:
+- RTL: Written right-to-left like standard Arabic. Show: مرحبا (mrhba=hello in Darija).
+- Script: Uses Arabic alphabet but with many sounds unique to Moroccan dialect.
+  3 extra letters not in standard Arabic: گ /g/ (as in "go"), ڤ /v/ (as in "vine"), پ /p/ (as in "pen").
+  Show: گاطو (gateau=cake, from French), ڤيلا (villa), پوليس (police).
+- Darija sounds: Many standard Arabic sounds are reduced. The /q/ often becomes /g/ or drops.
+  Short vowels are often omitted entirely. كتب (ktb) not كَتَبَ — no diacritics in everyday writing.
+  Show: واش (wash=are you?/do you?), فين (fin=where), علاش (alash=why).
+- French influence: ~40% of everyday Darija vocabulary comes from French.
+  كاتابلي (katapli=in the table), بيكو (byco=bicycle), فورشيطة (fourchette=fork).
+Generate 4 vocabulary cards: مرحبا(mrhba=hello), لاباس(labas=fine/OK), شكرا(shukran=thanks), واخا(wakha=OK/alright).`,
+            },
+            {
+                slug: 'consonants_darija', name: 'Consonantes del Darija', icon: '🔤', color: '#f59e0b',
+                description: 'ب ت د ر ز س ش ك ل م ن ه',
+                letterCards: ['ب','ت','د','ر','ز','س','ش','ك','ل','م','ن','ه'],
+                scope: `Darija consonants (lighter group) — 1 isLetter card per letter, with Darija-specific usage:
+- ب ba /b/: like B — بابا(baba=dad), بزاف(bzaf=a lot/many)
+- ت ta /t/: like T — تاني(tani=also/again), تفاحة(tfahja=apple)
+- د dal /d/: like D — دار(dar=house), ديال(dyal=of/belonging to — key possessive marker)
+- ر ra /r/: rolled R — راك(rak=you are), رزق(rzq=livelihood/food)
+- ز zayn /z/: like Z — زوين(zwin=beautiful/nice), زيت(zit=oil)
+- س sin /s/: like S — سلام(salam=peace), سوق(suq=market)
+- ش shin /ʃ/: like SH — شنو(shnu=what?), شوية(shwiya=a little)
+- ك kaf /k/: like K (often /g/ in Darija) — كيفاش(kifash=how?), كلشي(klshi=everything)
+- ل lam /l/: like L — لا(la=no), لاباس(labas=OK/fine — greeting response)
+- م mim /m/: like M — مزيان(mzyan=good/nice), ما(ma=not — negation prefix)
+- ن nun /n/: like N — نتا/نتي(nta/nti=you masc/fem), نعم(naam=yes, formal)
+- ه ha /h/: like H — هنا(hna=here), هو(huwa=he)
+Then 3 vocabulary cards using key Darija daily words: كيفاش حالك؟(how are you?), بزاف(a lot), مزيان(good).`,
+            },
+            {
+                slug: 'special_sounds', name: 'Sonidos únicos + palabras esenciales', icon: '🎵', color: '#10b981',
+                description: 'ع خ ح غ + گ ڤ + 15 palabras clave del Darija',
+                letterCards: ['ع','خ','ح','غ','گ','ڤ'],
+                scope: `Darija unique sounds + essential vocabulary — 1 isLetter card per sound:
+- ع ayn /ʕ/: voiced pharyngeal — عندي(andi=I have), علاش(alash=why?)
+- خ kha /x/: like Spanish J — خويا(khwiya=my brother), خبز(khobz=bread)
+- ح ha /ħ/: deep H — حبيبي(hbiba=my love/darling — common term), حاجة(haja=thing/need)
+- غ ghayn /ɣ/: like French R — غير(ghir=only/just), غدا(ghda=tomorrow)
+- گ /g/ (Darija-only): hard G like English "go" — not in standard Arabic.
+  گاطو(gato=cake from French gâteau), گاراج(garaj=garage), فگوس(fgus=cucumber)
+- ڤ /v/ (Darija-only): V sound from French loanwords.
+  ڤيديو(video), ڤيلا(villa), ڤيتامين(vitamine)
+Then 6 essential Darija vocabulary cards:
+واش(wash=question marker: are you?/do you?), فين(fin=where?), شنو(shnu=what?),
+منين(mnin=from where?), علاش(alash=why?), كيفاش(kifash=how?).`,
+            },
+        ],
+    },
 };
 
 // ─── I/O helpers ──────────────────────────────────────────────
@@ -758,11 +826,13 @@ async function generateGroup(target, source, groupCfg, groupIndex, totalGroups, 
 
     for (let attempt = 1; attempt <= retries; attempt++) {
         try {
-            const tokenLimit = groupCfg.scope.length > 1200 ? 16000
+            const isGroq = _providerArg === 'groq';
+            const tokenLimit = isGroq ? 4000
+                             : groupCfg.scope.length > 1200 ? 16000
                              : groupCfg.scope.length > 800  ? 12000
                              : 7000;
             const resp = await client.chat.completions.create({
-                model:       'deepseek-chat',
+                model:       _defaultModel,
                 temperature: 0.7,
                 max_tokens:  tokenLimit,
                 messages: [{ role: 'user', content: prompt }],
@@ -887,8 +957,9 @@ async function generate(target, source, maxGroups) {
         process.exit(1);
     }
 
-    if (!process.env.DEEPSEEK_API_KEY) {
-        console.error('❌ DEEPSEEK_API_KEY no encontrada en .env');
+    const requiredKey = _providerArg === 'groq' ? 'GROQ_API_KEY' : 'DEEPSEEK_API_KEY';
+    if (!process.env[requiredKey]) {
+        console.error(`❌ ${requiredKey} no encontrada en .env`);
         process.exit(1);
     }
 

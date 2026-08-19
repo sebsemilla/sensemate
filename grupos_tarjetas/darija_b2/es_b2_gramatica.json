@@ -1,0 +1,357 @@
+[
+  {
+    "id": "es_B2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "جمل شرطية مختلطة / Condicionales mixtos",
+    "bridge": "En español, los condicionales mixtos suelen seguir estructuras como 'Si hubiera estudiado, ahora tendría un mejor trabajo', combinando pasado en la subordinada con presente en la principal. En darija, la estructura es similar pero con matices clave: el verbo en la subordinada puede usar el pasado simple (كان) o el subjuntivo (ماكانش), mientras que la principal suele llevar el condicional (كان + imperfecto) o el futuro hipotético. Un error común es usar el presente en ambas partes ('إذا درت، بغيتي تشتغل'), lo que suena extraño en darija porque ignora la necesidad de marcar la irrealidad en ambos tiempos.",
+    "rule": "En darija, los condicionales mixtos expresan una situación hipotética en el pasado con consecuencias en el presente o futuro. La estructura básica es:\n1. **Subordinada (condición irreal en pasado):** Usa el pasado simple (كان + verbo) o el subjuntivo negativo (ماكانش + verbo). Ejemplo: 'كان درت' (si hubiera estudiado) o 'ماكانش درت' (si no hubiera estudiado).\n2. **Principal (resultado en presente/futuro):** Usa el condicional compuesto (كان + imperfecto) o el futuro hipotético con 'غادي' o 'غادي + ما'. Ejemplo: 'كان غادي تشتغل' (ahora tendría trabajo) o 'غادي ما تشتغلش' (no trabajaría).\n\nExcepciones:\n- Para condiciones presentes con resultados pasados, se usa 'إذا' + presente + 'كان + pasado'. Ejemplo: 'إذا عندك فلوس، كان اشتريت البيت' (si tuvieras dinero, habrías comprado la casa).\n- El verbo 'كان' en la principal puede omitirse en contextos coloquiales, pero no en la subordinada. Ejemplo: 'إذا درت، غادي تشتغل' (si estudiaras, trabajarías).\n\nUso típico:\n- Situaciones hipotéticas pasadas con efectos actuales o futuros.\n- Consejos o reproches ('كان عندك ما تدرش، غادي تكون عندك وظيفة' / si no hubieras estudiado, no tendrías trabajo).",
+    "concept_examples": [
+      {
+        "text": "إذا كان درت المدرسة، كان غادي تكون عندك شهادة دلوقت.",
+        "translation": "Si hubieras ido a la escuela, ahora tendrías un título.",
+        "phonetic": "/ˈɪfä kän dɪrt lˈmädɾɪsä, kän ɣädi tˈkun ʕɪndɪk ʃˈhädä dəlˈmɔqt/"
+      },
+      {
+        "text": "ماكانش جات، غادي ما نكونش فرحانين.",
+        "translation": "Si no hubiera venido, no estaríamos contentos.",
+        "phonetic": "/mäˈkänʃ ʒät, ɣädi mä nkunʃ frˈħänin/"
+      },
+      {
+        "text": "إذا عندك فلوس، كان اشتريت البيت دلوقت.",
+        "translation": "Si tuvieras dinero, habrías comprado la casa ahora.",
+        "phonetic": "/ˈɪfä ʕɪndɪk flus, kän ʃtɪrt lˈbit dəlˈmɔqt/"
+      },
+      {
+        "text": "كان ما شفتش الفيلم، غادي ما نحبش نخرجو.",
+        "translation": "Si no hubiera visto la película, no nos gustaría salir.",
+        "phonetic": "/kän mä ʃfɪtʃ lˈfilm, ɣädi mä nħɪbʃ nuxrʒu/"
+      }
+    ],
+    "common_error": {
+      "wrong": "إذا درت، بغيتي تشتغل.",
+      "correct": "إذا درت، كان غادي تشتغل.",
+      "correct_alt": "إذا درت، غادي تشتغل.",
+      "explanation": "El error ocurre porque el español permite usar el presente en ambas partes ('Si estudias, trabajarías'), pero en darija la irrealidad del pasado requiere marcar el verbo en la principal con 'كان' o 'غادي' para indicar hipótesis. Sin 'كان', la frase suena como una condición real ('Si estudias, trabajarás'), no hipotética. La forma correcta usa 'كان' para enfatizar la irrealidad pasada o 'غادي' para un futuro hipotético."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "كان + الماضي في الشرط",
+        "translation": "Pasado simple en la condición",
+        "examples": [
+          {
+            "original": "إذا كان عندك سيارة، كان غادي تمشي بسرعة.",
+            "phonetic": "/ˈɪfä kän ʕɪndɪk sɪjäɾä, kän ɣädi tɪmʃi brˈsäʕä/",
+            "translation": "Si tuvieras un coche, irías más rápido.",
+            "note": "Introduce la estructura básica con 'كان' en la subordinada para condiciones pasadas irrealizables."
+          },
+          {
+            "original": "كان ما شفتش الفيلم، غادي ما نحبش نخرجو.",
+            "phonetic": "/kän mä ʃfɪtʃ lˈfilm, ɣädi mä nħɪbʃ nuxrʒu/",
+            "translation": "Si no hubiera visto la película, no nos gustaría salir.",
+            "note": "Destaca el uso de 'ما' para negar el pasado en la condición."
+          },
+          {
+            "original": "إذا كان عندك وقت، كان غادي تزورنا.",
+            "phonetic": "/ˈɪfä kän ʕɪndɪk wqt, kän ɣädi tzˈwrnä/",
+            "translation": "Si tuvieras tiempo, nos visitarías.",
+            "note": "Refuerza la estructura con verbos de visita o acción."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "ماكانش + الماضي في الشرط",
+        "translation": "Subjuntivo negativo en la condición",
+        "examples": [
+          {
+            "original": "ماكانش جات، غادي ما نكونش فرحانين.",
+            "phonetic": "/mäˈkänʃ ʒät, ɣädi mä nkunʃ frˈħänin/",
+            "translation": "Si no hubiera venido, no estaríamos contentos.",
+            "note": "Enseña a usar 'ماكانش' para condiciones negativas pasadas irrealizables."
+          },
+          {
+            "original": "ماكانش عندك فلوس، غادي ما تشتريش الحذاء.",
+            "phonetic": "/mäˈkänʃ ʕɪndɪk flus, ɣädi mä tʃtɪriʃ lħɪdäw/",
+            "translation": "Si no tuvieras dinero, no comprarías el zapato.",
+            "note": "Combina 'ماكانش' con verbos de posesión y compra."
+          },
+          {
+            "original": "ماكانش درت، كان غادي تكون عندك فرصة.",
+            "phonetic": "/mäˈkänʃ dɪrt, kän ɣädi tkun ʕɪndɪk frˈʃä/",
+            "translation": "Si no hubieras estudiado, no tendrías una oportunidad.",
+            "note": "Usa 'كان' en la principal para enfatizar el resultado hipotético."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "شرط حاضر بنتيجة ماضية",
+        "translation": "Condición presente con resultado pasado",
+        "examples": [
+          {
+            "original": "إذا عندك فلوس، كان اشتريت البيت دلوقت.",
+            "phonetic": "/ˈɪfä ʕɪndɪk flus, kän ʃtɪrt lˈbit dəlˈmɔqt/",
+            "translation": "Si tuvieras dinero, habrías comprado la casa ahora.",
+            "note": "Explica cómo expresar condiciones presentes con resultados pasados usando 'كان' en la principal."
+          },
+          {
+            "original": "إذا عندك ما تدرش، كان ما كاينش عندك وظيفة.",
+            "phonetic": "/ˈɪfä ʕɪndɪk mä tdrʃ, kän mä käjɪnʃ ʕɪndɪk wzdä/",
+            "translation": "Si no hubieras estudiado, no tendrías trabajo.",
+            "note": "Combina presente en la condición con pasado en el resultado."
+          },
+          {
+            "original": "إذا عندك ما تخدمش، كان غادي ما تديرش حاجة.",
+            "phonetic": "/ˈɪfä ʕɪndɪk mä txdɪmʃ, kän ɣädi mä tdɪrʃ hädä/",
+            "translation": "Si no hubieras trabajado, no habrías hecho nada.",
+            "note": "Usa 'غادي' en la principal para resultados hipotéticos futuros desde un pasado."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "es": "Condicionales mixtos"
+    }
+  },
+  {
+    "id": "es_B2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الحال والفعل المجهول المتقدم / Voz pasiva avanzada (gerundios, infinitivos, modales)",
+    "bridge": "En español, la voz pasiva con gerundios, infinitivos o modales (como 'puede ser hecho') es común y sigue estructuras claras. En darija, la pasiva avanzada es menos frecuente y suele construirse con verbos estativos o estructuras perifrásticas usando 'كان' (kān) + participio. Un error típico es traducir literalmente estructuras como 'está siendo hecho' como *كان يعمل* (kān ykammel) en lugar de usar el participio correcto. Además, los modales en darija suelen requerir verbos auxiliares como 'يمكن' (yemken) + infinitivo, donde el español usa 'puede ser + participio'.",
+    "rule": "En darija, la voz pasiva avanzada se construye principalmente de dos formas:\n1. **Con verbos estativos o de percepción** (como 'معلوم' - maʕlūm, 'مسموع' - msmaʕ): Se usa el participio pasado del verbo principal con un verbo estativo. Ejemplo: 'كان المعلوم' (kān l-maʕlūm) = 'era conocido'.\n2. **Con modales y gerundios/infinitivos**: Para expresar acciones en progreso o posibilidad, se combina 'كان' (kān) o 'يكون' (yikūn) con el participio pasado del verbo principal. Ejemplo: 'يمكن يكون كتب' (yemken ykūn ktəb) = 'puede ser escrito'.\n\n**Excepciones y notas clave**:\n- Los verbos intransitivos no suelen usarse en pasiva avanzada.\n- En contextos formales o escritos, se prefiere la estructura con 'يكون' (yikūn) + participio.\n- Los modales como 'يجب' (yebda) o 'لازم' (lāzem) requieren infinitivo: 'لازم يكون كتب' (lāzem ykūn ktəb) = 'tiene que ser escrito'.",
+    "concept_examples": [
+      {
+        "text": "كان المعلوم إنو الكتاب ضاع",
+        "translation": "Se sabía que el libro se perdió",
+        "phonetic": "kān l-maʕlūm inu l-ktāb ḍāʕ"
+      },
+      {
+        "text": "يمكن يكون جابوه من البارح",
+        "translation": "Puede que lo hayan traído desde ayer",
+        "phonetic": "yemken ykūn jābuh mn l-bāreḥ"
+      },
+      {
+        "text": "كان مسموع صوتو من بعيد",
+        "translation": "Se escuchaba su voz desde lejos",
+        "phonetic": "kān msmaʕ ṣawtu mn lbʕīd"
+      },
+      {
+        "text": "لازم يكون كتب الرسالة قبل الغدا",
+        "translation": "La carta tiene que ser escrita antes del mediodía",
+        "phonetic": "lāzem ykūn ktəb l-risāla qbl l-ḡdā"
+      }
+    ],
+    "common_error": {
+      "wrong": "كان يعمل الكتاب",
+      "translation": "Estaba haciendo el libro",
+      "correct": "كان مكتوب الكتاب",
+      "correct_alt": "يمكن يكون كتب الكتاب",
+      "explanation": "El error ocurre porque en darija no se usa el verbo en gerundio para la pasiva avanzada. La estructura correcta requiere el participio pasado ('مكتوب' - mktūb) combinado con 'كان' (kān) o un modal como 'يمكن' (yemken). La traducción literal del español 'está siendo hecho' no aplica en darija."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الحال مع كان",
+        "translation": "Gerundio con كان (kān)",
+        "examples": [
+          {
+            "original": "كان شارب القهوة",
+            "phonetic": "kān šāreb l-qahwa",
+            "translation": "Estaba bebiendo el café",
+            "note": "Ejemplo básico de 'كان' + verbo en pasado para acciones en progreso."
+          },
+          {
+            "original": "كان قاعد في البيت",
+            "phonetic": "kān qāʕed f l-bīt",
+            "translation": "Estaba sentado en la casa",
+            "note": "Uso de 'قاعد' (qāʕed) como gerundio de 'قعد' (qʕad) para acciones continuas."
+          },
+          {
+            "original": "كان يسمع الموسيقى",
+            "phonetic": "kān yismaʕ l-mūsīqā",
+            "translation": "Estaba escuchando música",
+            "note": "Verbo de percepción ('سمع' - smaʕ) en contexto de progreso."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الفاعل المجهول مع كان",
+        "translation": "Participio pasado con كان (kān)",
+        "examples": [
+          {
+            "original": "كان المعلوم إنو غادي يروح",
+            "phonetic": "kān l-maʕlūm inu ḡādi yrūḥ",
+            "translation": "Se sabía que se iba a ir",
+            "note": "Uso de participio pasado ('معلوم' - maʕlūm) con 'كان' para voz pasiva estativa."
+          },
+          {
+            "original": "كان المسموع صوتو",
+            "phonetic": "kān l-msmaʕ ṣawtu",
+            "translation": "Se escuchaba su voz",
+            "note": "Participio de percepción ('مسموع' - msmaʕ) para acciones pasivas."
+          },
+          {
+            "original": "كان المفقود الكتاب",
+            "phonetic": "kān l-mfqūd l-ktāb",
+            "translation": "El libro estaba perdido",
+            "note": "Participio de estado ('مفقود' - mfqūd) para describir situaciones."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "المداولات مع الأفعال الناقصة",
+        "translation": "Modales + infinitivo en voz pasiva",
+        "examples": [
+          {
+            "original": "يمكن يكون كتب الرسالة",
+            "phonetic": "yemken ykūn ktəb l-risāla",
+            "translation": "Puede ser escrita la carta",
+            "note": "Uso de 'يمكن' (yemken) + 'يكون' (ykūn) + participio para posibilidad."
+          },
+          {
+            "original": "لازم يكون جابوه البارح",
+            "phonetic": "lāzem ykūn jābuh l-bāreḥ",
+            "translation": "Tiene que haberlo traído ayer",
+            "note": "Modal 'لازم' (lāzem) + 'يكون' (ykūn) + participio para obligación."
+          },
+          {
+            "original": "يجب يكون فهمت الدرس",
+            "phonetic": "yebda ykūn fhmt l-dars",
+            "translation": "Debe ser entendida la lección",
+            "note": "Modal 'يجب' (yebda) + 'يكون' (ykūn) + participio para necesidad."
+          }
+        ]
+      }
+    ],
+    "emoji": "📜",
+    "phonetic": "",
+    "translations": {
+      "es": "Voz pasiva avanzada (gerundios, infinitivos, modales)"
+    }
+  },
+  {
+    "id": "es_B2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الكلام غير المباشر المتقدم / Estilo indirecto avanzado",
+    "bridge": "En español, el estilo indirecto suele requerir cambios de tiempos verbales (concordancia) y ajustes de pronombres y adverbios temporales. En darija, aunque también hay cambios en los tiempos, la estructura es más flexible y a menudo se omite el verbo introductorio (como قال). Además, los marcadores temporales no siempre se ajustan igual que en español, lo que puede generar confusión. Por ejemplo, en darija se usa frecuentemente el presente para referirse a eventos pasados en estilo indirecto, algo que en español sería incorrecto.",
+    "rule": "En darija, el estilo indirecto se forma principalmente con dos estructuras:\n\n1. **Con verbo introductorio (قال / قال لي / etc.)**:\n   - El verbo principal en estilo indirecto suele mantenerse en el mismo tiempo que en el discurso directo, especialmente si el evento sigue siendo relevante o si el hablante no quiere marcar distancia temporal.\n   - Ejemplo: قال: «بغيت نمشي» → قال بغي نمشي (dijo que quiere irse).\n   - Los pronombres y posesivos se ajustan según el contexto: «قال: «كتبي» → قال بكتبي (dijo que es mío).\n\n2. **Sin verbo introductorio (estilo indirecto implícito)**:\n   - Se usa cuando el contexto es claro y el hablante quiere transmitir información sin citar directamente.\n   - Ejemplo: «بغيت نمشي» → بغي نمشي (dijo que quiere irse).\n\n**Cambios clave en darija vs. español:**\n- **Tiempos verbales**: En darija, no siempre hay concordancia temporal estricta. Por ejemplo, el presente en estilo indirecto puede referirse a eventos pasados (بغي نمشي → dijo que quiere irse). En español, esto sería incorrecto (debería ser «dijo que quería irse»).\n- **Pronombres**: Los pronombres personales y posesivos se ajustan según la persona que habla en el discurso original. Ejemplo: «قال: «كتبي» → قال بكتبي (dijo que es mío).\n- **Adverbios temporales**: No siempre se ajustan como en español. Por ejemplo, «قال: «غادي غدا» → قال غادي غدا (dijo que va mañana), sin cambiar «غدا» a «ذلك اليوم».\n\n**Excepciones y casos especiales:**\n- Si el evento ya no es relevante, se puede usar el pasado: «قال: «بغيت نمشي» → قال بغى نمشي (dijo que quería irse).\n- En preguntas indirectas, se usa «سأل» + estructura interrogativa: «سألني: «شنو بغيت؟» → سألني شنو بغيت (me preguntó qué quiero).",
+    "concept_examples": [
+      {
+        "text": "قال: «غادي ناكلو بزااف»",
+        "translation": "Dijo que va a comer mucho.",
+        "phonetic": "/qɑːl ɣɑːdi nɑːklu bzɑːf/"
+      },
+      {
+        "text": "قال لي: «كنسافرو غدا»",
+        "translation": "Me dijo que viajará mañana.",
+        "phonetic": "/qɑːl li kənsɑːfru ɣɑdɑ/"
+      },
+      {
+        "text": "بغيت: «كنشوفك بكرة»",
+        "translation": "Dijo que te verá mañana.",
+        "phonetic": "/bɣiːt kənʃuːfk bkrɑ/"
+      },
+      {
+        "text": "سألني: «شنو كتحب؟»",
+        "translation": "Me preguntó qué te gusta.",
+        "phonetic": "/sɑːlnɪ ʃnu ktħɑb/"
+      }
+    ],
+    "common_error": {
+      "wrong": "قال: «غادي ناكلو بزااف» → tradujo como «Dijo que iba a comer mucho» (incorrecto en darija).",
+      "correct": "قال: «غادي ناكلو بزااف» → «Dijo que va a comer mucho» (correcto en darija).",
+      "correct_alt": "قال بغى ناكل بزااف (dijo que quería comer mucho) si el contexto es pasado.",
+      "explanation": "En darija, no siempre se usa el pretérito imperfecto para eventos pasados en estilo indirecto. La estructura más natural es mantener el presente («غادي ناكل») o usar el pasado («بغى ناكل») según el contexto. En español, la concordancia temporal es obligatoria («dijo que iba a comer»), lo que lleva a errores al traducir literalmente."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الكلام غير المباشر مع قال",
+        "translation": "Estilo indirecto con قال",
+        "examples": [
+          {
+            "original": "قال: «كنسافرو غدا»",
+            "phonetic": "/qɑːl kənsɑːfru ɣɑdɑ/",
+            "translation": "Dijo que viajará mañana.",
+            "note": "Se mantiene el tiempo verbal del discurso directo."
+          },
+          {
+            "original": "قال لي: «كنشوفك»",
+            "phonetic": "/qɑːl li kənʃuːfk/",
+            "translation": "Me dijo que te verá.",
+            "note": "El pronombre «لي» se ajusta según el contexto."
+          },
+          {
+            "original": "قالت: «كنحبو»",
+            "phonetic": "/qɑːlt kənħbu/",
+            "translation": "Dijo que lo ama.",
+            "note": "Los verbos en estilo indirecto no cambian de persona en darija."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الكلام غير المباشر بدون قال",
+        "translation": "Estilo indirecto sin قال",
+        "examples": [
+          {
+            "original": "بغيت: «كنسافرو»",
+            "phonetic": "/bɣiːt kənsɑːfru/",
+            "translation": "Dijo que viajará.",
+            "note": "El contexto implica que es un estilo indirecto implícito."
+          },
+          {
+            "original": "قال: «غادي ناكل»",
+            "phonetic": "/qɑːl ɣɑːdi nɑːkl/",
+            "translation": "Dijo que va a comer.",
+            "note": "Se omite el verbo introductorio en algunos contextos coloquiales."
+          },
+          {
+            "original": "كنشوفك بكرة",
+            "phonetic": "/kənʃuːfk bkrɑ/",
+            "translation": "Dijo que te verá mañana.",
+            "note": "El estilo indirecto se infiere del contexto."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "الأسئلة غير المباشرة",
+        "translation": "Preguntas indirectas",
+        "examples": [
+          {
+            "original": "سألني: «شنو بغيت؟»",
+            "phonetic": "/sɑːlnɪ ʃnu bɣiːt/",
+            "translation": "Me preguntó qué quieres.",
+            "note": "Se usa «سأل» + estructura interrogativa."
+          },
+          {
+            "original": "قال: «شنو كتحب؟»",
+            "phonetic": "/qɑːl ʃnu ktħɑb/",
+            "translation": "Dijo qué te gusta.",
+            "note": "La estructura interrogativa se mantiene en estilo indirecto."
+          },
+          {
+            "original": "سألوني: «فين غادي؟»",
+            "phonetic": "/sɑːlwni fiːn ɣɑːdi/",
+            "translation": "Me preguntaron adónde vas.",
+            "note": "Los pronombres se ajustan según el hablante original."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "es": "Estilo indirecto avanzado"
+    }
+  }
+]

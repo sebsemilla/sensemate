@@ -1,0 +1,386 @@
+[
+  {
+    "id": "es_A2_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "عند الطبيب / En el médico",
+    "bridge": "En español, para expresar dolor usamos estructuras como 'me duele la cabeza' o 'tengo dolor de cabeza', con verbos específicos ('doler', 'tener') y preposiciones claras ('de'). En darija, en cambio, se usa la estructura 'عند + pronombre posesivo + اسم الألم' (ej. عندي صداع) o directamente el verbo 'وجع' (وجعتني الرأس) sin preposiciones. Los hispanohablantes suelen confundirse porque en darija no hay un verbo equivalente a 'doler' y la posesión se marca con 'عند' en lugar de 'tener'. Además, en darija se omite el artículo definido en muchos casos ('وجعتني رأس' en lugar de 'وجعتني الرأس'), algo que puede sonar extraño al principio.",
+    "rule": "1. Para expresar dolor o malestar en darija, se usan dos estructuras principales:\n   a) 'عند + pronombre posesivo + اسم الألم': عندي صداع (Tengo dolor de cabeza), عندك ألم في البطن (Tienes dolor de estómago).\n   b) Verbo 'وجع' (doler) + pronombre objeto + parte del cuerpo: وجعتني الرأس (Me duele la cabeza), وجعته الأسنان (Le duelen los dientes).\n\n2. El verbo 'وجع' (doler) se conjuga como sigue en presente:\n   - وجعتني (me duele) / وجعتك (te duele) / وجعه (le duele) / وجعتنا (nos duele) / وجعتكم (os duele) / وجعوهم (les duele).\n\n3. Para preguntar por el dolor, se usa:\n   - عندك ألم في...؟ (¿Tienes dolor en...?)\n   - وين وجعتك؟ (¿Dónde te duele?)\n   - شو جعك؟ (¿Qué te duele?)\n\n4. Para negar, se añade 'ما' antes del verbo o estructura:\n   - ما عنديش صداع (No tengo dolor de cabeza)\n   - ما وجعتنيش البطن (No me duele el estómago)\n\n5. Excepciones comunes:\n   - Para 'tener fiebre' se dice 'عندك حمة' (no se usa 'وجع' aquí).\n   - Para 'estar mareado' se dice 'دوار' (no 'وجع').",
+    "concept_examples": [
+      {
+        "text": "عندك ألم في الرأس؟",
+        "translation": "¿Te duele la cabeza?",
+        "phonetic": "/ʕandək ʔalm fi rraʔs/"
+      },
+      {
+        "text": "وجعتني الأسنان البارح",
+        "translation": "Me dolieron los dientes ayer",
+        "phonetic": "/wʒaʕtni lʔasnaːn lbaːriħ/"
+      },
+      {
+        "text": "عندها حمة عالية",
+        "translation": "Ella tiene fiebre alta",
+        "phonetic": "/ʕandha ħamma ʕaliːja/"
+      },
+      {
+        "text": "وين وجعتك؟ في البطن أو في الظهر؟",
+        "translation": "¿Dónde te duele? ¿En el estómago o en la espalda?",
+        "phonetic": "/wiːn wʒaʕtak fi lbaṭn aw fi zzahr/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Me duele la cabeza → *Dolor me la cabeza*",
+      "correct": "عندك صداع؟ / وجعتني الرأس",
+      "correct_alt": "عندك ألم في الرأس؟",
+      "explanation": "Los hispanohablantes suelen traducir literalmente 'me duele' como '*dolor me*' en darija, pero en este idioma la posesión se marca con 'عند' o se usa el verbo 'وجع'. La estructura correcta requiere o bien el verbo 'وجع' con el pronombre objeto ('وجعتني') o la estructura posesiva 'عند + pronombre + ألم'. Además, en darija no se usa el artículo definido en preguntas como '¿Te duele la cabeza?' (عندك صداع؟), algo que puede generar confusión."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "شكاية الألم",
+        "translation": "Quejarse del dolor",
+        "examples": [
+          {
+            "original": "عندك ألم في...؟",
+            "phonetic": "/ʕandək ʔalm fi.../",
+            "translation": "¿Tienes dolor en...?",
+            "note": "Estructura básica para preguntar por el dolor. Usar 'في' para indicar la parte del cuerpo afectada."
+          },
+          {
+            "original": "عندك صداع؟",
+            "phonetic": "/ʕandək ṣdaːʕ/",
+            "translation": "¿Tienes dolor de cabeza?",
+            "note": "Para dolor de cabeza se usa 'صداع' (no 'وجع' en este caso)."
+          },
+          {
+            "original": "ما عنديش ألم",
+            "phonetic": "/ma ʕandɪʃ ʔalm/",
+            "translation": "No tengo dolor",
+            "note": "Negación con 'ما' antes de 'عند'. El pronombre 'يش' (no 'ني') se usa para 'yo' en negación."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "وصف الألم",
+        "translation": "Describir el dolor",
+        "examples": [
+          {
+            "original": "وجعتني الرأس من البارح",
+            "phonetic": "/wʒaʕtni rraʔs mən lbaːriħ/",
+            "translation": "Me duele la cabeza desde ayer",
+            "note": "Usar 'من' para indicar el inicio del dolor. 'وجعتني' es la forma correcta para 'me duele'."
+          },
+          {
+            "original": "عندها ألم في البطن من الصبح",
+            "phonetic": "/ʕandha ʔalm fi lbaṭn mən sˤbɑħ/",
+            "translation": "Ella tiene dolor de estómago desde la mañana",
+            "note": "Estructura 'عند + pronombre + ألم في' para describir dolor en una parte específica."
+          },
+          {
+            "original": "وجعته الأسنان البارح بليل",
+            "phonetic": "/wʒaʕtuh lʔasnaːn lbaːriħ blil/",
+            "translation": "Le dolieron los dientes anoche",
+            "note": "El verbo 'وجع' se usa con el pronombre objeto ('ته' para 'él') y la parte del cuerpo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "طلب المساعدة",
+        "translation": "Pedir ayuda o medicamentos",
+        "examples": [
+          {
+            "original": "عندك دواء للصداع؟",
+            "phonetic": "/ʕandək dwɑːʔ ləsˤdaːʕ/",
+            "translation": "¿Tienes medicina para el dolor de cabeza?",
+            "note": "Para pedir medicamentos se usa 'دواء' (medicina) seguido de 'لـ' para indicar el propósito."
+          },
+          {
+            "original": "ما عنديش دواء،ASHnu نعمل؟",
+            "phonetic": "/ma ʕandɪʃ dwɑːʔ, aʃnu nəʕmal/",
+            "translation": "No tengo medicina, ¿qué hacemos?",
+            "note": "En darija coloquial, 'ASHnu' es una contracción de 'asha nu' (¿qué hacemos?)."
+          },
+          {
+            "original": "عندك شي مسكن؟",
+            "phonetic": "/ʕandək ʃi mskn/",
+            "translation": "¿Tienes algún analgésico?",
+            "note": "'مسكن' es un término común para analgésico en darija."
+          },
+          {
+            "original": "وين نقدر نشتري الدواء؟",
+            "phonetic": "/wiːn nəqdər nəʃtri ddəwaː/",
+            "translation": "¿Dónde podemos comprar la medicina?",
+            "note": "Usar 'نقدر' (podemos) para preguntas formales o en plural."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏥",
+    "phonetic": "",
+    "translations": {
+      "es": "En el médico"
+    }
+  },
+  {
+    "id": "es_A2_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "حجز سكن / Reservar alojamiento",
+    "bridge": "En español, para reservar alojamiento usamos estructuras como 'Quiero reservar una habitación' o '¿Tienen habitaciones libres?'. En darija, la estructura es más directa y a veces omite el verbo 'querer' ('bghit' / 'bghit'), pero también se usan fórmulas de cortesía como 'labas' (¿está bien?) o 'kif dayer?' (¿cómo va?). Los hispanohablantes suelen traducir literalmente 'Quiero reservar' como 'bghit nhaz l'...', pero en darija se prefiere 'nhaz l...' o 'bghit nhaz l...' sin artículo en algunos contextos. Además, en darija se usa mucho el condicional ('kunt bghit...') para sonar más educado, algo que no existe en español en este contexto.",
+    "rule": "Para reservar alojamiento en darija, se usan principalmente los siguientes patrones:\n1. **Fórmula directa**: 'nhaz l...' (reservo el...) o 'bghit nhaz l...' (quiero reservar el...). El verbo 'nhaz' (reservar) se conjuga en presente: 'ana nhaz', 'nta tnhaz', 'nti tnhazi', 'huwa ynhaz', 'hiya tnhaz', 'hna nhazu', 'ntuma tnhazu', 'homa ynhazu'.\n2. **Preguntas sobre disponibilidad**: 'kayna shi khana mzyana?' (¿hay alguna habitación buena?), 'kayna shi khana fransiya?' (¿hay habitación individual?), 'kayna shi khana dyala shi yomayn?' (¿hay habitación para dos días?).\n3. **Condicional para cortesía**: 'kunt bghit nhaz khana...' (quisiera reservar una habitación...). El condicional se forma con 'kunt' + verbo en pasado: 'kunt bghit' (quisiera), 'kunt bghit tshuf' (quisiera ver).\n4. **Negación**: 'ma kaynach shi khana' (no hay ninguna habitación), 'ma bghitsh nhaz' (no quiero reservar).\nExcepciones: En contextos informales, se omite 'bghit' y se usa directamente el verbo: 'nhaz khana mzyana' (reservo una habitación buena).",
+    "concept_examples": [
+      {
+        "text": "بغيت نحاز غرفة مزيانة ل 3 ليالي",
+        "translation": "Quiero reservar una habitación buena para 3 noches.",
+        "phonetic": "bɣiːt nħaːz ɣurfɑ mziːjɑnɑ l 3 ljaːliː"
+      },
+      {
+        "text": "عندكم غرفة فردية ل 2 ليالي؟",
+        "translation": "¿Tienen habitación individual para 2 noches?",
+        "phonetic": "ʕndkum ɣurfɑ frɑdiːjɑ l 2 ljaːliː"
+      },
+      {
+        "text": "كنت بغيت نحاز غرفة ب 2 سرير",
+        "translation": "Quería reservar una habitación con 2 camas.",
+        "phonetic": "kunt bɣiːt nħaːz ɣurfɑ b 2 srɪːr"
+      },
+      {
+        "text": "كم سعر الغرفة ل 3 ليالي؟",
+        "translation": "¿Cuánto cuesta la habitación por 3 noches?",
+        "phonetic": "kəm sʕɑr lɣurfɑ l 3 ljaːliː"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quiero reservar una habitación para 2 noches.",
+      "correct": "بغيت نحاز غرفة ل 2 ليالي",
+      "correct_alt": "عندكم غرفة ل 2 ليالي؟",
+      "explanation": "Los hispanohablantes suelen traducir literalmente 'Quiero reservar' como 'بغيت أريد' (bɣiːt nriːd), pero en darija 'bghit' ya implica 'quiero', por lo que se omite 'nriːd'. Además, en contextos de reserva, se usa directamente 'nhaz' (reservo) o se pregunta por disponibilidad con 'عندكم' (¿tienen?). La estructura 'bghit nhaz' es correcta, pero en preguntas se prefiere omitir el verbo para sonar más natural."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "البحث عن سكن",
+        "translation": "Buscar alojamiento",
+        "examples": [
+          {
+            "original": "عندكم غرفة مزيانة؟",
+            "phonetic": "ʕndkum ɣurfɑ mziːjɑnɑ",
+            "translation": "¿Tienen habitación buena?",
+            "note": "Fórmula básica para preguntar por disponibilidad. Usa 'عندكم' (¿tienen?) y 'مزيانة' (buena)."
+          },
+          {
+            "original": "كم سعر الغرفة؟",
+            "phonetic": "kəm sʕɑr lɣurfɑ",
+            "translation": "¿Cuánto cuesta la habitación?",
+            "note": "Pregunta directa sobre el precio. En darija, 'كم' (¿cuánto?) se usa antes del sustantivo."
+          },
+          {
+            "original": "عندكم غرفة ب 2 سرير؟",
+            "phonetic": "ʕndkum ɣurfɑ b 2 srɪːr",
+            "translation": "¿Tienen habitación con 2 camas?",
+            "note": "Para preguntar por características específicas. Usa 'ب' (con) para indicar 'con'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "حجز الغرفة",
+        "translation": "Reservar la habitación",
+        "examples": [
+          {
+            "original": "بغيت نحاز الغرفة ل 3 ليالي",
+            "phonetic": "bɣiːt nħaːz lɣurfɑ l 3 ljaːliː",
+            "translation": "Quiero reservar la habitación por 3 noches.",
+            "note": "Usa 'بغيت' (quiero) + 'نحاز' (reservo) + artículo definido 'ال' (la)."
+          },
+          {
+            "original": "كنت بغيت نحاز غرفة مزيانة",
+            "phonetic": "kunt bɣiːt nħaːz ɣurfɑ mziːjɑnɑ",
+            "translation": "Quería reservar una habitación buena.",
+            "note": "El condicional 'كنت بغيت' (quisiera) suena más educado. Usa pasado del verbo 'bgha' (querer)."
+          },
+          {
+            "original": "عندكم غرفة خالية ل 2 ليالي؟",
+            "phonetic": "ʕndkum ɣurfɑ χɑliːjɑ l 2 ljaːliː",
+            "translation": "¿Tienen habitación libre para 2 noches?",
+            "note": "'خالية' (libre) es común en contextos de reserva. Usa 'ل' (para) para indicar duración."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "تفاصيل الحجز",
+        "translation": "Detalles de la reserva",
+        "examples": [
+          {
+            "original": "كم سعر الغرفة مع الإفطار؟",
+            "phonetic": "kəm sʕɑr lɣurfɑ mʕɑ l iftɑr",
+            "translation": "¿Cuánto cuesta la habitación con desayuno?",
+            "note": "Para preguntar por servicios adicionales. Usa 'مع' (con) para indicar 'con'."
+          },
+          {
+            "original": "عندكم غرفة ب تليفون و إنترنت؟",
+            "phonetic": "ʕndkum ɣurfɑ b tilifuːn w inːtɛrnɛt",
+            "translation": "¿Tienen habitación con teléfono e internet?",
+            "note": "Lista de servicios con 'و' (y). En darija, 'تليفون' (teléfono) es préstamo del francés."
+          },
+          {
+            "original": "كم الساعة الفاتورة؟",
+            "phonetic": "kəm sʕɑt lfaːtuːrɑ",
+            "translation": "¿A qué hora hay que dejar la habitación?",
+            "note": "Pregunta clave para evitar sorpresas. 'الساعة الفاتورة' (hora de la factura) es la hora de checkout."
+          },
+          {
+            "original": "عندكم مواصلات ل المطار؟",
+            "phonetic": "ʕndkum mwaːsɪlɑt l lmaːtˤɑr",
+            "translation": "¿Tienen transporte al aeropuerto?",
+            "note": "Para preguntar por servicios de transporte. Usa 'مواصلات' (transporte) y 'ل' (a) para indicar destino."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "es": "Reservar alojamiento"
+    }
+  },
+  {
+    "id": "es_A2_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "فوق المصرف / تبديل الفلوس",
+    "bridge": "En Darija, a diferencia del español, no se usa el verbo 'cambiar' de forma aislada para referirse a la acción de cambiar dinero en un banco o casa de cambio. En español decimos 'Voy a cambiar dinero', pero en Darija se emplea la estructura 'بدير فلوس' (hacer dinero) o 'بدير صرف' (hacer cambio) con el verbo 'بدير' (hacer) seguido de un sustantivo. Además, la preposición 'من' (de) se usa para indicar el origen del cambio ('صرف من دولار'), mientras que en español usamos 'a' ('cambiar de dólar a dirham'). También hay que tener cuidado con el orden de las palabras: en Darija el verbo suele ir al final de la frase, algo que puede confundir a los hispanohablantes acostumbrados a estructuras más flexibles en español.",
+    "rule": "1. Para expresar 'cambiar dinero' en Darija, se usa la estructura: [بدير + sustantivo] + [من + moneda origen] + [إلى + moneda destino]. Ejemplo: 'بدير صرف من دولار إلى درهم' (Voy a cambiar de dólar a dirham).\n\n2. El verbo 'بدير' (hacer) se conjuga según el sujeto:\n   - أنا بدير (ana bdir) - Yo hago\n   - أنت بدير (nta bdir) - Tú haces (masculino)\n   - أنت بديري (nti bdiri) - Tú haces (femenino)\n   - هو بدير (huwa bdir) - Él hace\n   - هي بدير (hiya bdir) - Ella hace\n   - احنا بديروا (hna bdiru) - Nosotros hacemos\n   - انتما بديروا (ntuma bdiru) - Vosotros hacéis\n   - هما بديروا (huma bdiru) - Ellos/as hacen\n\n3. Para preguntar por el tipo de cambio, se usa 'شحال في صرف 1 دولار؟' (¿Cuánto hay por cambiar 1 dólar?).\n\n4. Para pedir un servicio específico, se añade 'عندك...؟' (¿Tienes...?) antes de la estructura principal. Ejemplo: 'عندك صرف من يورو إلى درهم؟' (¿Tienes cambio de euro a dirham?).\n\n5. Excepción: Para decir 'Quiero cambiar dinero', se usa 'بدير صرف فلوس' (Voy a hacer cambio de dinero) o 'بدير صرف' (Voy a hacer cambio), omitiendo el verbo 'أريد' (quiero) que sí se usa en español.",
+    "concept_examples": [
+      {
+        "text": "بدير صرف من دولار إلى درهم",
+        "translation": "Voy a cambiar de dólar a dirham.",
+        "phonetic": "bdir ṣarf mən dūlār lə-drham"
+      },
+      {
+        "text": "عندك صرف من يورو إلى درهم؟",
+        "translation": "¿Tienes cambio de euro a dirham?",
+        "phonetic": "ʕndək ṣarf mən yūru lə-drham"
+      },
+      {
+        "text": "شحال في صرف 100 درهم؟",
+        "translation": "¿Cuánto cuesta cambiar 100 dirhams?",
+        "phonetic": "šḥāl fī ṣarf 100 drham"
+      },
+      {
+        "text": "بدير صرف فلوس من أورو",
+        "translation": "Voy a cambiar dinero de euro.",
+        "phonetic": "bdir ṣarf flūs mən ūru"
+      }
+    ],
+    "common_error": {
+      "wrong": "أريد تغيير دولار إلى درهم",
+      "correct": "بدير صرف من دولار إلى درهم",
+      "correct_alt": "عندك صرف من دولار إلى درهم؟",
+      "explanation": "El error ocurre porque en español se usa el verbo 'cambiar' directamente, pero en Darija se emplea la estructura 'بدير صرف' (hacer cambio) en lugar de 'أريد تغيير' (quiero cambiar). Además, en Darija no se usa el verbo 'تغيير' (cambiar) para este contexto, sino 'صرف' (cambio) como sustantivo. La preposición 'من' (de) es esencial para indicar el origen de la moneda a cambiar, algo que falta en la versión incorrecta."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "بداية: طلب صرف الفلوس",
+        "translation": "Inicio: Pedir cambiar dinero",
+        "examples": [
+          {
+            "original": "بدير صرف من دولار",
+            "phonetic": "bdir ṣarf mən dūlār",
+            "translation": "Voy a cambiar de dólar.",
+            "note": "Estructura básica para iniciar la conversación. Se omite la moneda destino para simplificar."
+          },
+          {
+            "original": "عندك صرف؟",
+            "phonetic": "ʕndək ṣarf",
+            "translation": "¿Tienes cambio?",
+            "note": "Pregunta directa para saber si el establecimiento ofrece el servicio."
+          },
+          {
+            "original": "شحال في صرف 1 دولار؟",
+            "phonetic": "šḥāl fī ṣarf 1 dūlār",
+            "translation": "¿Cuánto cuesta cambiar 1 dólar?",
+            "note": "Introduce la pregunta por el tipo de cambio, clave para entender el valor."
+          },
+          {
+            "original": "بدير صرف فلوس",
+            "phonetic": "bdir ṣarf flūs",
+            "translation": "Voy a cambiar dinero.",
+            "note": "Frase genérica para expresar la intención sin especificar monedas."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "تحديد العملات",
+        "translation": "Especificar monedas",
+        "examples": [
+          {
+            "original": "بدير صرف من يورو إلى درهم",
+            "phonetic": "bdir ṣarf mən yūru lə-drham",
+            "translation": "Voy a cambiar de euro a dirham.",
+            "note": "Combina el verbo 'بدير صرف' con las dos monedas usando 'من...إلى'."
+          },
+          {
+            "original": "عندك صرف من دولار إلى أورو؟",
+            "phonetic": "ʕndək ṣarf mən dūlār lə-ūru",
+            "translation": "¿Tienes cambio de dólar a euro?",
+            "note": "Pregunta específica sobre un par de monedas concreto."
+          },
+          {
+            "original": "بدير صرف 50 دولار إلى درهم",
+            "phonetic": "bdir ṣarf 50 dūlār lə-drham",
+            "translation": "Voy a cambiar 50 dólares a dirhams.",
+            "note": "Incluye la cantidad numérica para ser más preciso."
+          },
+          {
+            "original": "شحال صرف 100 درهم؟",
+            "phonetic": "šḥāl ṣarf 100 drham",
+            "translation": "¿Cuánto cuesta cambiar 100 dirhams?",
+            "note": "Pregunta directa sobre el coste del cambio para una cantidad específica."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "تأكيد و استفسارات",
+        "translation": "Confirmación y consultas",
+        "examples": [
+          {
+            "original": "بدير صرف من دولار إلى درهم، عندك؟",
+            "phonetic": "bdir ṣarf mən dūlār lə-drham, ʕndək",
+            "translation": "Voy a cambiar de dólar a dirham, ¿lo tienes?",
+            "note": "Combina la intención con una pregunta de confirmación sobre la disponibilidad."
+          },
+          {
+            "original": "شحال في صرف 200 درهم من دولار؟",
+            "phonetic": "šḥāl fī ṣarf 200 drham mən dūlār",
+            "translation": "¿Cuánto cuesta cambiar 200 dirhams de dólar?",
+            "note": "Pregunta detallada que incluye cantidad, moneda origen y destino."
+          },
+          {
+            "original": "عندك صرف من أورو إلى دولار، شحال؟",
+            "phonetic": "ʕndək ṣarf mən ūru lə-dūlār, šḥāl",
+            "translation": "¿Tienes cambio de euro a dólar? ¿Cuánto?",
+            "note": "Pregunta doble que combina disponibilidad y tipo de cambio en una sola frase."
+          },
+          {
+            "original": "بدير صرف فلوس من أورو، عندك 500 درهم؟",
+            "phonetic": "bdir ṣarf flūs mən ūru, ʕndək 500 drham",
+            "translation": "Voy a cambiar dinero de euro, ¿tienes 500 dirhams?",
+            "note": "Frase compleja que incluye la intención, moneda origen, cantidad deseada y pregunta de disponibilidad."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏦",
+    "phonetic": "",
+    "translations": {
+      "es": "En el banco o cambio de moneda"
+    }
+  }
+]

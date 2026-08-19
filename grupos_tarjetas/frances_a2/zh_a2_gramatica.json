@@ -1,0 +1,2324 @@
+[
+  {
+    "id": "zh_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Le passé composé / 现在完成时",
+    "bridge": "现在完成时相当于西班牙语的复合过去时（'he comido'、'has ido'）。在法语中，它由助动词（avoir或être）的现在时变位加上动词的过去分词构成。关键在于知道哪些动词使用être，哪些使用avoir。",
+    "rule": "构成方式：现在时助动词（avoir/être）+ 过去分词。\n\n使用avoir的动词（大多数动词）：\n- j'ai parlé（我说过），tu as mangé（你吃过），il/elle a fini（他/她完成了），nous avons pris（我们拿了），vous avez vu（你们看了），ils/elles ont fait（他们/她们做了）\n\n使用être的动词（表示运动/状态的动词 + 所有反身动词）：\nDR & MRS VANDERTRAMP：Devenir（变成）、Revenir（回来）、Monter（上去）、Rester（停留）、Sortir（出去）、Venir（来）、Aller（去）、Naître（出生）、Descendre（下去）、Entrer（进入）、Rentrer（返回）、Tomber（摔倒）、Retourner（返回）、Arriver（到达）、Mourir（死亡）、Partir（离开）\n- 使用être时，过去分词与主语的性数保持一致：\n  Il est allé（他去了）/ Elle est allée（她去了）/ Ils sont allés（他们去了）/ Elles sont allées（她们去了）\n\n常见不规则过去分词：\n- avoir → eu | être → été | faire → fait | prendre → pris | voir → vu | venir → venu | pouvoir → pu | vouloir → voulu | savoir → su | boire → bu | lire → lu | écrire → écrit | dire → dit | mettre → mis | ouvrir → ouvert | recevoir → reçu",
+    "concept_examples": [
+      {
+        "text": "J'ai mangé une pomme.",
+        "translation": "我吃了一个苹果。",
+        "phonetic": "/ʒe mɑ̃ʒe yn pɔm/"
+      },
+      {
+        "text": "Elle est arrivée hier.",
+        "translation": "她昨天到了。",
+        "phonetic": "/ɛl ɛt aʁive jɛʁ/"
+      },
+      {
+        "text": "Nous avons vu un film.",
+        "translation": "我们看了一部电影。",
+        "phonetic": "/nu zavɔ̃ vy œ̃ film/"
+      },
+      {
+        "text": "Ils se sont levés tôt.",
+        "translation": "他们早起了。",
+        "phonetic": "/il sə sɔ̃ ləve to/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Elle a allée au marché.",
+      "correct": "Elle est allée au marché.",
+      "correct_alt": "",
+      "explanation": "西班牙语母语者倾向于像西班牙语那样对所有动词使用'avoir'（如'he ido'）。在法语中，'aller'是一个表示运动的动词，应使用'être'作为助动词。此外，使用'être'时，过去分词需与主语性数一致：'allée'加-e是因为'elle'是阴性。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Passé composé avec avoir",
+        "translation": "使用avoir的现在完成时",
+        "examples": [
+          {
+            "original": "J'ai parlé avec mon ami.",
+            "phonetic": "/ʒe paʁle avɛk mɔ̃ nami/",
+            "translation": "我和朋友聊了天。",
+            "note": "规则动词-er：parler → parlé"
+          },
+          {
+            "original": "Tu as fini tes devoirs ?",
+            "phonetic": "/ty a fini te dəvwaʁ/",
+            "translation": "你做完作业了吗？",
+            "note": "规则动词-ir：finir → fini"
+          },
+          {
+            "original": "Il a pris le train.",
+            "phonetic": "/il a pʁi lə tʁɛ̃/",
+            "translation": "他乘火车去了。",
+            "note": "不规则动词：prendre → pris"
+          },
+          {
+            "original": "Nous avons fait la cuisine.",
+            "phonetic": "/nu zavɔ̃ fɛ la kɥizin/",
+            "translation": "我们做了饭。",
+            "note": "不规则动词：faire → fait"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Passé composé avec être",
+        "translation": "使用être的现在完成时",
+        "examples": [
+          {
+            "original": "Je suis allé(e) à Paris.",
+            "phonetic": "/ʒə sɥi zale a paʁi/",
+            "translation": "我去了巴黎。",
+            "note": "使用être时，过去分词与主语性数一致"
+          },
+          {
+            "original": "Elle est venue me voir.",
+            "phonetic": "/ɛl ɛ vəny mə vwaʁ/",
+            "translation": "她来看我了。",
+            "note": "venir → venu；阴性主语加-e"
+          },
+          {
+            "original": "Ils sont partis ce matin.",
+            "phonetic": "/il sɔ̃ paʁti sə matɛ̃/",
+            "translation": "他们今天早上离开了。",
+            "note": "partir → parti；阳性复数加-s"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Passé composé des verbes pronominaux",
+        "translation": "反身动词的现在完成时",
+        "examples": [
+          {
+            "original": "Je me suis réveillé(e) à sept heures.",
+            "phonetic": "/ʒə mə sɥi ʁevɛje a sɛt œʁ/",
+            "translation": "我七点醒了。",
+            "note": "所有反身动词都使用être"
+          },
+          {
+            "original": "Ils se sont disputés toute la nuit.",
+            "phonetic": "/il sə sɔ̃ dispyte tut la nɥi/",
+            "translation": "他们整晚吵架了。",
+            "note": "过去分词与主语性数一致：阳性复数加-s"
+          },
+          {
+            "original": "Elle s'est habillée rapidement.",
+            "phonetic": "/ɛl sɛ t‿abije ʁapidmɑ̃/",
+            "translation": "她很快穿好了衣服。",
+            "note": "s'habiller → habillée；阴性主语加-e"
+          }
+        ]
+      }
+    ],
+    "emoji": "⏮️",
+    "phonetic": "",
+    "translations": {
+      "zh": "现在完成时"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "/正在+动词不定式",
+    "bridge": "为了表达正在进行的动作（相当于西班牙语的\"estar + 现在分词\"：'estoy comiendo'、'está trabajando'），法语使用\"être en train de + 动词不定式\"结构。法语的现在分词（gérondif）存在但用途不同；该结构是西班牙语进行时的准确对应形式。",
+    "rule": "构成方式：être（变位）+ en train de + 动词不定式\n\nêtre的现在时变位：\n- je suis / tu es / il-elle est / nous sommes / vous êtes / ils-elles sont\n\n示例：\n- Je suis en train de manger.（我正在吃饭。）\n- Il est en train de travailler.（他正在工作。）\n- Nous sommes en train de regarder un film.（我们正在看电影。）\n\n注：在元音或哑音h前，'de'会缩合：'en train d'apprendre'、'en train d'habiller'。\n\n用法：用于强调动作正在此时此刻进行。若无此结构，一般现在时也可表达习惯性动作；'être en train de'则明确表示当前瞬间。",
+    "concept_examples": [
+      {
+        "text": "Je suis en train de lire.",
+        "translation": "我正在读书（此时此刻）。",
+        "phonetic": "/ʒə sɥi ɑ̃ tʁɛ̃ də liʁ/"
+      },
+      {
+        "text": "Elle est en train de cuisiner.",
+        "translation": "她正在做饭。",
+        "phonetic": "/ɛl ɛ ɑ̃ tʁɛ̃ də kɥizine/"
+      },
+      {
+        "text": "Nous sommes en train d'apprendre le français.",
+        "translation": "我们正在学法语。",
+        "phonetic": "/nu sɔm ɑ̃ tʁɛ̃ dapʁɑ̃dʁ lə fʁɑ̃sɛ/"
+      },
+      {
+        "text": "Ils sont en train de jouer dehors.",
+        "translation": "他们正在外面玩。",
+        "phonetic": "/il sɔ̃ ɑ̃ tʁɛ̃ də ʒwe dəɔʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis mangeant.",
+      "correct": "Je suis en train de manger.",
+      "correct_alt": "Je mange. (en contexto donde se sobreentiende)",
+      "explanation": "说西班牙语的人会试图直接套用西班牙语的\"estoy comiendo\"，用法语的现在分词（如mangeant）与être连用来表达进行时，但这种结构在法语中并不存在。正确的表达方式是\"être en train de + 动词不定式\"。法语的现在分词'en mangeant'存在，但意思是\"边吃边... / 当我在吃的时候\"。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Être en train de — présent",
+        "translation": "现在时的\"正在 + 现在分词\"",
+        "examples": [
+          {
+            "original": "Tu es en train de dormir ?",
+            "phonetic": "/ty ɛ ɑ̃ tʁɛ̃ də dɔʁmiʁ/",
+            "translation": "你在睡觉吗？",
+            "note": "直接疑问句，语调上扬"
+          },
+          {
+            "original": "Il est en train de téléphoner.",
+            "phonetic": "/il ɛ ɑ̃ tʁɛ̃ də telefɔne/",
+            "translation": "他正在打电话。",
+            "note": "日常用法，表示他正忙着"
+          },
+          {
+            "original": "Je suis en train d'écrire un message.",
+            "phonetic": "/ʒə sɥi ɑ̃ tʁɛ̃ dekʁiʁ œ̃ mesaʒ/",
+            "translation": "我正在写信。",
+            "note": "缩合：de + écrire → d'écrire"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Être en train de — au passé",
+        "translation": "过去进行时的\"正在 + 现在分词\"（被中断的动作）",
+        "examples": [
+          {
+            "original": "J'étais en train de manger quand il a appelé.",
+            "phonetic": "/ʒetɛ ɑ̃ tʁɛ̃ də mɑ̃ʒe kɑ̃ t‿il a aple/",
+            "translation": "他打电话时我正在吃饭。",
+            "note": "用être的未完成过去时（imparfait）表示过去正在进行的动作"
+          },
+          {
+            "original": "Nous étions en train de travailler.",
+            "phonetic": "/nu zetjɔ̃ ɑ̃ tʁɛ̃ də tʁavaje/",
+            "translation": "我们正在工作。",
+            "note": "être的未完成过去时：étions"
+          },
+          {
+            "original": "Elle était en train de se doucher.",
+            "phonetic": "/ɛl etɛ ɑ̃ tʁɛ̃ də sə duʃe/",
+            "translation": "她正在洗澡。",
+            "note": "也适用于自反动词"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Être en train de — contextes variés",
+        "translation": "多样化语境与相关表达",
+        "examples": [
+          {
+            "original": "Arrête ! Je suis en train de réfléchir.",
+            "phonetic": "/aʁɛt ʒə sɥi ɑ̃ tʁɛ̃ də ʁefleʃiʁ/",
+            "translation": "停！我正在思考。",
+            "note": "强调语气：表示打断令人不悦"
+          },
+          {
+            "original": "Qu'est-ce que tu es en train de faire ?",
+            "phonetic": "/kɛs kə ty ɛ ɑ̃ tʁɛ̃ də fɛʁ/",
+            "translation": "你在做什么？",
+            "note": "用'qu'est-ce que'开头的疑问句"
+          },
+          {
+            "original": "Ils sont en train de construire un pont.",
+            "phonetic": "/il sɔ̃ ɑ̃ tʁɛ̃ də kɔ̃stʁɥiʁ œ̃ pɔ̃/",
+            "translation": "他们正在建一座桥。",
+            "note": "长期进行中的过程"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "zh": "正在 + 现在分词（现在进行时）"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "近未来时",
+    "bridge": "近未来时相当于西班牙语的\"ir a + 动词原形\"（如 \"voy a comer\"、\"vas a salir\"）。用于表达即将发生的计划或短期内的意图。在法语中，它由动词aller的现在时变位 + 动词原形构成，与西班牙语的用法完全相同。",
+    "rule": "构成方式：aller（现在时）+ 动词原形\n\naller的现在时变位：\n- je vais / tu vas / il-elle va / nous allons / vous allez / ils-elles vont\n\n示例：\n- Je vais manger. （我要去吃饭。）\n- Tu vas partir ? （你要出发吗？）\n- Il va pleuvoir. （快要下雨了。）\n- Nous allons voyager. （我们要去旅行。）\n- Vous allez comprendre. （你们会理解的。）\n- Ils vont arriver bientôt. （他们很快就要到了。）\n\n否定形式：ne + aller + pas + 动词原形\n- Je ne vais pas sortir. （我不打算出去。）\n- Il ne va pas comprendre. （他不会理解的。）\n\n用法对比：近未来时表达具体的计划或即时意图；简单将来时则表达较远的预测或假设。",
+    "concept_examples": [
+      {
+        "text": "Je vais appeler ma mère.",
+        "translation": "我要给妈妈打电话。",
+        "phonetic": "/ʒə vɛ aple ma mɛʁ/"
+      },
+      {
+        "text": "Nous allons visiter le musée.",
+        "translation": "我们要去参观博物馆。",
+        "phonetic": "/nu zalɔ̃ vizite lə myze/"
+      },
+      {
+        "text": "Il va faire beau demain.",
+        "translation": "明天天气会很好。",
+        "phonetic": "/il va fɛʁ bo dəmɛ̃/"
+      },
+      {
+        "text": "Elles ne vont pas venir.",
+        "translation": "她们不会来了。",
+        "phonetic": "/ɛl nə vɔ̃ pa vəniʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je vais à manger maintenant.",
+      "correct": "Je vais manger maintenant.",
+      "correct_alt": "",
+      "explanation": "在西班牙语中，\"voy a comer\" 使用介词 \"a\"，因为动词 \"ir\" 要求接 \"a\"。而在法语中，构成近未来时的aller直接与动词原形连用，不需要任何介词。介词 \"à\" 仅在aller表示\"去往某地\"时使用（如 \"Je vais à Paris\"），而非构成近未来时。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Futur proche — affirmatif",
+        "translation": "近未来时肯定句",
+        "examples": [
+          {
+            "original": "Je vais acheter du pain.",
+            "phonetic": "/ʒə vɛ aʃte dy pɛ̃/",
+            "translation": "我要去买面包。",
+            "note": "即时计划；结构：je vais + 动词原形"
+          },
+          {
+            "original": "Tu vas regarder la télé ?",
+            "phonetic": "/ty va ʁəɡaʁde la tele/",
+            "translation": "你要看电视吗？",
+            "note": "疑问句使用升调"
+          },
+          {
+            "original": "Elle va commencer son travail.",
+            "phonetic": "/ɛl va kɔmɑ̃se sɔ̃ tʁavaj/",
+            "translation": "她要开始工作了。",
+            "note": "短期内的计划行动"
+          },
+          {
+            "original": "Ils vont partir en vacances.",
+            "phonetic": "/il vɔ̃ paʁtiʁ ɑ̃ vakɑ̃s/",
+            "translation": "他们要去度假。",
+            "note": "具体的近期计划"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Futur proche — négatif",
+        "translation": "近未来时否定句",
+        "examples": [
+          {
+            "original": "Je ne vais pas travailler demain.",
+            "phonetic": "/ʒə nə vɛ pa tʁavaje dəmɛ̃/",
+            "translation": "我明天不工作。",
+            "note": "否定结构仅围绕助动词aller：ne...pas"
+          },
+          {
+            "original": "Il ne va pas pleuvoir.",
+            "phonetic": "/il nə va pa plœvwaʁ/",
+            "translation": "不会下雨。",
+            "note": "天气预测的否定表达"
+          },
+          {
+            "original": "Nous n'allons pas rester longtemps.",
+            "phonetic": "/nu nalɔ̃ pa ʁɛste lɔ̃tɑ̃/",
+            "translation": "我们不会待太久。",
+            "note": "省音：ne + allons → n'allons"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Futur proche — avec pronoms et contextes",
+        "translation": "近未来时与代词及多样语境",
+        "examples": [
+          {
+            "original": "Je vais te montrer quelque chose.",
+            "phonetic": "/ʒə vɛ tə mɔ̃tʁe kɛlkə ʃoz/",
+            "translation": "我要给你看个东西。",
+            "note": "代词宾语位于aller和动词原形之间"
+          },
+          {
+            "original": "Qu'est-ce que vous allez faire ce soir ?",
+            "phonetic": "/kɛs kə vu zale fɛʁ sə swaʁ/",
+            "translation": "今晚他们要做什么？",
+            "note": "使用疑问句 \"qu'est-ce que\""
+          },
+          {
+            "original": "On va se retrouver à midi.",
+            "phonetic": "/ɔ̃ va sə ʁətʁuve a midi/",
+            "translation": "我们中午见。",
+            "note": "口语中 \"on\" 相当于 \"nous\""
+          }
+        ]
+      }
+    ],
+    "emoji": "🔜",
+    "phonetic": "",
+    "translations": {
+      "zh": "近未来时（aller + 动词原形）"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Le futur simple / 简单将来时",
+    "bridge": "简单将来时表达较远的未来动作或预测。在西班牙语中相当于简单将来时（如'comeré'、'vivirás'、'irá'）。与西班牙语不同，法语通过直接在动词不定式后添加词尾构成，且无需分离不定式，因此变位非常规则。所有动词组的词尾均相同。",
+    "rule": "构成方式：不定式 + 词尾\n\n词尾（所有动词通用）：\n-ai / -as / -a / -ons / -ez / -ont\n\n以-er和-ir结尾的动词：直接在完整不定式后添加词尾\n- parler → je parlerai, tu parleras, il parlera, nous parlerons, vous parlerez, ils parleront\n- finir → je finirai, tu finiras, il finira...\n\n以-re结尾的动词：先去掉词尾的-e，再添加词尾\n- prendre → je prendrai, tu prendras...\n- vendre → je vendrai...\n\n重要不规则动词（词干不规则，但词尾相同）：\n- être → ser-: je serai, tu seras...\n- avoir → aur-: j'aurai, tu auras...\n- aller → ir-: j'irai, tu iras...\n- faire → fer-: je ferai, tu feras...\n- venir → viendr-: je viendrai...\n- voir → verr-: je verrai...\n- pouvoir → pourr-: je pourrai...\n- vouloir → voudr-: je voudrai...\n- savoir → saur-: je saurai...\n- devoir → devr-: je devrai...",
+    "concept_examples": [
+      {
+        "text": "Je parlerai français couramment.",
+        "translation": "我将流利地说法语。",
+        "phonetic": "/ʒə paʁləʁɛ fʁɑ̃sɛ kuʁamɑ̃/"
+      },
+      {
+        "text": "Nous serons en retard.",
+        "translation": "我们会迟到。",
+        "phonetic": "/nu səʁɔ̃ ɑ̃ ʁətaʁ/"
+      },
+      {
+        "text": "Il fera beau ce week-end.",
+        "translation": "这个周末天气会很好。",
+        "phonetic": "/il fəʁa bo sə wikɛnd/"
+      },
+      {
+        "text": "Tu auras le temps demain.",
+        "translation": "你明天会有时间。",
+        "phonetic": "/ty oʁa lə tɑ̃ dəmɛ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je vais parlerai demain.",
+      "correct": "Je parlerai demain.",
+      "correct_alt": "Je vais parler demain. (futur proche, también válido)",
+      "explanation": "近未来时（aller + 不定式）与简单将来时不可混用。两者是互斥的结构：要么使用'je vais parler'（近未来时），要么使用'je parlerai'（简单将来时），切勿混合使用。简单将来时直接由不定式加词尾构成。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Futur simple — verbes réguliers",
+        "translation": "简单将来时——规则动词",
+        "examples": [
+          {
+            "original": "Je mangerai une salade.",
+            "phonetic": "/ʒə mɑ̃ʒəʁɛ yn salad/",
+            "translation": "我将吃一份沙拉。",
+            "note": "manger (-er): 不定式 + -ai"
+          },
+          {
+            "original": "Tu finiras tes études l'année prochaine.",
+            "phonetic": "/ty finiʁa te zety lane pʁɔʃɛn/",
+            "translation": "你明年将完成学业。",
+            "note": "finir (-ir): 不定式 + -as"
+          },
+          {
+            "original": "Nous vendrons notre maison.",
+            "phonetic": "/nu vɑ̃dʁɔ̃ nɔtʁə mɛzɔ̃/",
+            "translation": "我们将卖掉房子。",
+            "note": "vendre (-re): 去掉词尾-e → vendr + -ons"
+          },
+          {
+            "original": "Ils travailleront jusqu'à minuit.",
+            "phonetic": "/il tʁavajəʁɔ̃ ʒyska minɥi/",
+            "translation": "他们将工作到午夜。",
+            "note": "travailler: 第三人称复数词尾为-ont"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Futur simple — verbes irréguliers",
+        "translation": "简单将来时——不规则动词",
+        "examples": [
+          {
+            "original": "J'irai en France cet été.",
+            "phonetic": "/ʒiʁɛ ɑ̃ fʁɑ̃s sɛ t‿ete/",
+            "translation": "今年夏天我将去法国。",
+            "note": "aller → 词干ir- + 规则词尾"
+          },
+          {
+            "original": "Elle sera très heureuse.",
+            "phonetic": "/ɛl səʁa tʁɛ zøʁøz/",
+            "translation": "她将非常幸福。",
+            "note": "être → 词干ser-"
+          },
+          {
+            "original": "Nous pourrons visiter le château.",
+            "phonetic": "/nu puʁɔ̃ vizite lə ʃato/",
+            "translation": "我们将能参观城堡。",
+            "note": "pouvoir → 词干pourr-"
+          },
+          {
+            "original": "Vous aurez besoin d'un passeport.",
+            "phonetic": "/vu zoʁe bəzwɛ̃ dœ̃ paspɔʁ/",
+            "translation": "他们将需要护照。",
+            "note": "avoir → 词干aur-"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Futur simple — hypothèses et conditions",
+        "translation": "简单将来时——假设与条件句",
+        "examples": [
+          {
+            "original": "Si tu étudies, tu réussiras.",
+            "phonetic": "/si ty etydi ty ʁeysiʁa/",
+            "translation": "如果你学习，就会成功。",
+            "note": "si + 现在时 → 简单将来时（与西班牙语相同）"
+          },
+          {
+            "original": "Quand il arrivera, nous partirons.",
+            "phonetic": "/kɑ̃ t‿il aʁivəʁa nu paʁtiʁɔ̃/",
+            "translation": "他到达时，我们就离开。",
+            "note": "与'quand'连用时，两个从句均使用将来时（与西班牙语不同）"
+          },
+          {
+            "original": "Dans dix ans, les voitures seront électriques.",
+            "phonetic": "/dɑ̃ diz ɑ̃ le vwatуʁ səʁɔ̃ elɛktʁik/",
+            "translation": "十年后，汽车将是电动的。",
+            "note": "长期预测：优先使用简单将来时"
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "zh": "简单将来时"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "比较级和最高级",
+    "bridge": "法语中的比较与西班牙语非常相似。比较时使用 'plus'（更...）、'moins'（更不...）和 'aussi'（与...一样...），后接形容词和 'que'。最高级则在 plus/moins 前加定冠词（le/la/les）。有两个重要的不规则变化：bon → meilleur 和 mauvais → pire。",
+    "rule": "比较级：\n- 优等比较：plus + 形容词 + que → Elle est plus grande que lui.（她比他高。）\n- 劣等比较：moins + 形容词 + que → C'est moins cher que je pensais.（比我想的便宜。）\n- 同等比较：aussi + 形容词 + que → Il est aussi intelligent qu'elle.（他和她一样聪明。）\n\n最高级：\n- 优等最高级：le/la/les + plus + 形容词 (+ de) → C'est la plus belle ville du monde.（这是世界上最美的城市。）\n- 劣等最高级：le/la/les + moins + 形容词 (+ de) → C'est le moins cher de tous.（这是所有中最便宜的。）\n\n形容词位置：遵循法语形容词的常规位置\n- 后置形容词：la ville la plus belle（形容词在名词后）\n- 前置形容词：le plus grand problème（形容词在名词前）\n\n不规则变化：\n- bon/bonne → meilleur/meilleure（比较级）→ le meilleur / la meilleure（最高级）\n  ✗ plus bon ✓ meilleur\n- mauvais/mauvaise → pire（比较级）→ le pire / la pire（最高级）\n  ✗ plus mauvais ✓ pire（尽管在口语中 'plus mauvais' 也被使用）\n\n副词比较级：\n- vite → plus vite que / moins vite que / aussi vite que\n- bien → mieux（更好）——不规则\n  ✗ plus bien ✓ mieux",
+    "concept_examples": [
+      {
+        "text": "Paris est plus grand que Lyon.",
+        "translation": "巴黎比里昂更大。",
+        "phonetic": "/paʁi ɛ ply ɡʁɑ̃ kə ljɔ̃/"
+      },
+      {
+        "text": "Ce café est moins bon que l'autre.",
+        "translation": "这杯咖啡没有另一杯好。",
+        "phonetic": "/sə kafe ɛ mwɛ̃ bɔ̃ kə lotʁ/"
+      },
+      {
+        "text": "Elle chante aussi bien que lui.",
+        "translation": "她唱歌和他一样好。",
+        "phonetic": "/ɛl ʃɑ̃t osi bjɛ̃ kə lɥi/"
+      },
+      {
+        "text": "C'est le meilleur restaurant de la ville.",
+        "translation": "这是城里最好的餐厅。",
+        "phonetic": "/sɛ lə mɛjœʁ ʁɛstoʁɑ̃ də la vil/"
+      }
+    ],
+    "common_error": {
+      "wrong": "C'est le plus bon gâteau.",
+      "correct": "C'est le meilleur gâteau.",
+      "correct_alt": "",
+      "explanation": "'bon' 的比较级和最高级不规则，为 'meilleur/meilleure/meilleurs/meilleures'。标准法语中不能使用 'plus bon'（尽管在口语中存在）。这是由于受西班牙语 'más bueno' 的影响而产生的常见错误。记住：bon → meilleur → le meilleur。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Comparatifs de supériorité et d'infériorité",
+        "translation": "优等和劣等比较级",
+        "examples": [
+          {
+            "original": "Mon sac est plus lourd que le tien.",
+            "phonetic": "/mɔ̃ sak ɛ ply luʁ kə lə tjɛ̃/",
+            "translation": "我的包比你的重。",
+            "note": "plus + 形容词 + que；lourd 与 sac（阳性）一致"
+          },
+          {
+            "original": "Cette route est moins dangereuse que l'autoroute.",
+            "phonetic": "/sɛt ʁut ɛ mwɛ̃ dɑ̃ʒəʁøz kə lotoʁut/",
+            "translation": "这条路比高速公路危险性小。",
+            "note": "moins + 形容词 + que；dangereuse（阴性）"
+          },
+          {
+            "original": "Le train est plus rapide que le bus.",
+            "phonetic": "/lə tʁɛ̃ ɛ ply ʁapid kə lə bys/",
+            "translation": "火车比公共汽车快。",
+            "note": "比较交通工具"
+          },
+          {
+            "original": "Il travaille moins sérieusement qu'avant.",
+            "phonetic": "/il tʁavaj mwɛ̃ seʁjøzmɑ̃ k‿avɑ̃/",
+            "translation": "他工作得不如从前认真。",
+            "note": "副词比较级：moins + 副词"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Comparatif d'égalité et superlatifs",
+        "translation": "同等比较和最高级",
+        "examples": [
+          {
+            "original": "Il est aussi grand que son père.",
+            "phonetic": "/il ɛ t‿osi ɡʁɑ̃ kə sɔ̃ pɛʁ/",
+            "translation": "他和他父亲一样高。",
+            "note": "aussi + 形容词 + que 用于同等比较"
+          },
+          {
+            "original": "C'est la plus belle plage de France.",
+            "phonetic": "/sɛ la ply bɛl plaʒ də fʁɑ̃s/",
+            "translation": "这是法国最美的海滩。",
+            "note": "最高级：la + plus + 形容词（阴性）+ de"
+          },
+          {
+            "original": "C'est le moins cher du marché.",
+            "phonetic": "/sɛ lə mwɛ̃ ʃɛʁ dy maʁʃe/",
+            "translation": "这是市场上最便宜的。",
+            "note": "劣等最高级：le + moins + 形容词"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Comparatifs irréguliers et nuances",
+        "translation": "不规则比较级及细节",
+        "examples": [
+          {
+            "original": "Ce vin est meilleur que celui d'hier.",
+            "phonetic": "/sə vɛ̃ ɛ mɛjœʁ kə səlɥi djɛʁ/",
+            "translation": "这瓶酒比昨天的好。",
+            "note": "bon → meilleur（不规则比较级，阳性）"
+          },
+          {
+            "original": "C'est la pire décision de ma vie.",
+            "phonetic": "/sɛ la piʁ desizjɔ̃ də ma vi/",
+            "translation": "这是我人生中最糟糕的决定。",
+            "note": "mauvais → pire（不规则最高级）"
+          },
+          {
+            "original": "Elle parle mieux le français que moi.",
+            "phonetic": "/ɛl paʁl mjø lə fʁɑ̃sɛ kə mwa/",
+            "translation": "她的法语比我讲得好。",
+            "note": "bien → mieux（副词比较级，不规则）"
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "zh": "比较级和最高级"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les verbes modaux : devoir, pouvoir, vouloir, savoir / 情态动词：devoir（必须）、pouvoir（能够）、vouloir（想要）、savoir（会）",
+    "bridge": "法语中的情态动词用法与西班牙语类似：需要变位并后接动词原形。‘devoir’相当于‘deber/ tener que’（必须/不得不），‘pouvoir’相当于‘poder’（能够/可以），‘vouloir’相当于‘querer’（想要），‘savoir’相当于‘saber hacer algo’（会做某事）。与西班牙语的关键区别在于，‘savoir’仅表达习得的能力，而‘pouvoir’则表达可能性或许可。‘savoir’不能用于表达临时的可能性或许可（如‘pouvoir’）。",
+    "rule": "现在时变位规则：\n\nDEVOIR（必须、不得不——义务）：\n- je dois / tu dois / il-elle doit / nous devons / vous devez / ils-elles doivent\n\nPOUVOIR（能够、可以——能力、可能性、许可）：\n- je peux / tu peux / il-elle peut / nous pouvons / vous pouvez / ils-elles peuvent\n\nVOULOIR（想要——意愿、意图）：\n- je veux / tu veux / il-elle veut / nous voulons / vous voulez / ils-elles veulent\n\nSAVOIR（会——习得的能力）：\n- je sais / tu sais / il-elle sait / nous savons / vous savez / ils-elles savent\n\n所有情态动词后均直接接动词原形（无介词）：\n- Je dois partir. / Tu peux venir. / Elle veut danser. / Il sait nager.\n\n关键区分：pouvoir vs savoir\n- Je sais nager. （我会游泳——习得的能力）\n- Je peux nager ici. （我可以在这里游泳——允许/条件允许）\n\n礼貌表达形式：\n- Pourriez-vous m'aider ? （您能帮我吗？——pouvoir的条件式，最高礼貌）\n- Je voudrais un café. （我想要一杯咖啡。——vouloir的条件式，表达委婉愿望）",
+    "concept_examples": [
+      {
+        "text": "Tu dois finir tes devoirs avant de sortir.",
+        "translation": "你必须在出去之前完成作业。",
+        "phonetic": "/ty dwa finiʁ te dəvwaʁ avɑ̃ də soʁtiʁ/"
+      },
+      {
+        "text": "Je peux t'aider si tu veux.",
+        "translation": "如果你愿意，我可以帮你。",
+        "phonetic": "/ʒə pø tede si ty vø/"
+      },
+      {
+        "text": "Elle veut apprendre le piano.",
+        "translation": "她想学钢琴。",
+        "phonetic": "/ɛl vø apʁɑ̃dʁ lə pjano/"
+      },
+      {
+        "text": "Nous savons parler trois langues.",
+        "translation": "我们会说三种语言。",
+        "phonetic": "/nu savɔ̃ paʁle tʁwa lɑ̃ɡ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je sais parler avec lui demain.",
+      "correct": "Je peux parler avec lui demain.",
+      "correct_alt": "",
+      "explanation": "‘savoir’表达习得的、持久的能力（如‘savoir nager’‘savoir cuisiner’），而‘pouvoir’用于表达临时的可能性或许可（如‘可以做某事——此时此刻/在这种情况下’）。在西班牙语中，‘saber’和‘poder’有时在口语中混用，但在法语中区分非常严格。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Devoir et pouvoir",
+        "translation": "devoir（必须）与pouvoir（能够）",
+        "examples": [
+          {
+            "original": "Je dois me lever tôt demain.",
+            "phonetic": "/ʒə dwa mə ləve to dəmɛ̃/",
+            "translation": "我明天必须早起。",
+            "note": "devoir + 动词原形 = 义务"
+          },
+          {
+            "original": "Il doit prendre ses médicaments.",
+            "phonetic": "/il dwa pʁɑ̃dʁ se medikamɑ̃/",
+            "translation": "他必须服药。",
+            "note": "第三人称的义务"
+          },
+          {
+            "original": "Est-ce que tu peux m'appeler ce soir ?",
+            "phonetic": "/ɛs kə ty pø mapele sə swaʁ/",
+            "translation": "你今晚能给我打电话吗？",
+            "note": "用pouvoir表示请求帮助"
+          },
+          {
+            "original": "On ne peut pas entrer sans billet.",
+            "phonetic": "/ɔ̃ nə pø pa ɑ̃tʁe sɑ̃ bijɛ/",
+            "translation": "没有票不能进。",
+            "note": "pouvoir的否定形式表示不可能/禁止"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Vouloir et savoir",
+        "translation": "vouloir（想要）与savoir（会）",
+        "examples": [
+          {
+            "original": "Nous voulons voyager en Asie.",
+            "phonetic": "/nu vulɔ̃ vwajaʒe ɑ̃ nazi/",
+            "translation": "我们想去亚洲旅行。",
+            "note": "vouloir = 意愿或意图"
+          },
+          {
+            "original": "Est-ce que vous voulez un dessert ?",
+            "phonetic": "/ɛs kə vu vule œ̃ desɛʁ/",
+            "translation": "你们想要甜点吗？",
+            "note": "餐厅/礼貌语境下的用法"
+          },
+          {
+            "original": "Je sais jouer de la guitare.",
+            "phonetic": "/ʒə sɛ ʒwe də la ɡitaʁ/",
+            "translation": "我会弹吉他。",
+            "note": "savoir + 动词原形 = 习得的能力"
+          },
+          {
+            "original": "Il ne sait pas cuisiner.",
+            "phonetic": "/il nə sɛ pa kɥizine/",
+            "translation": "他不会做饭。",
+            "note": "savoir的否定形式；缺乏能力"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Modaux en contexte et formes de politesse",
+        "translation": "情态动词在语境中的应用与礼貌表达",
+        "examples": [
+          {
+            "original": "Je voudrais réserver une table pour deux.",
+            "phonetic": "/ʒə vudʁɛ ʁezɛʁve yn tabl puʁ dø/",
+            "translation": "我想预订一张两人桌。",
+            "note": "vouloir的条件式：基本礼貌表达"
+          },
+          {
+            "original": "Pourriez-vous répéter, s'il vous plaît ?",
+            "phonetic": "/puʁje vu ʁepete sil vu plɛ/",
+            "translation": "您能再说一遍吗？",
+            "note": "pouvoir的条件式：最高礼貌"
+          },
+          {
+            "original": "Tu dois savoir que c'est interdit ici.",
+            "phonetic": "/ty dwa savwaʁ kə sɛ t‿ɛ̃tɛʁdi isi/",
+            "translation": "你必须知道这里禁止那样做。",
+            "note": "devoir + savoir：两个情态动词的组合"
+          }
+        ]
+      }
+    ],
+    "emoji": "💡",
+    "phonetic": "",
+    "translations": {
+      "zh": "情态动词：devoir（必须）、pouvoir（能够）、vouloir（想要）、savoir（会）"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les verbes pronominaux / 动词的自反用法",
+    "bridge": "自反动词（也称为代词动词）在法语中的功能类似于西班牙语：它们带有自反代词（'se lever' = 起床，'se coucher' = 睡觉，'s'appeler' = 叫作）。主要区别在于复合过去时（passé composé）的用法：在法语中，所有自反动词都使用助动词 'être'，并且在大多数情况下，过去分词需要与主语在性和数上保持一致。",
+    "rule": "现在时变位（示例：se lever — 起床）：\n- je me lève / tu te lèves / il-elle se lève / nous nous levons / vous vous levez / ils-elles se lèvent\n\n自反代词：\n- me (m') / te (t') / se (s') / nous / vous / se (s')\n在元音或哑音h前：me → m', te → t', se → s'\n\n常见自反动词：\n- se lever (起床) | se coucher (睡觉) | se réveiller (醒来)\n- se laver (洗澡) | se doucher (淋浴) | s'habiller (穿衣)\n- s'appeler (名叫) | se sentir (感觉) | s'ennuyer (感到无聊)\n- se souvenir de (记得) | se dépêcher (赶紧) | se tromper (搞错)\n\n复合过去时（始终与 être 连用）：\n- Je me suis levé(e). / Tu t'es levé(e). / Il s'est levé. / Elle s'est levée.\n- Nous nous sommes levé(e)s. / Vous vous êtes levé(e)(s). / Ils se sont levés. / Elles se sont levées.\n\n过去分词一致性：\n- 当自反代词是直接宾语时（最常见情况），过去分词与主语一致。\n- 如果存在不同的直接宾语，则不一致：Elle s'est lavé les mains.（les mains = 直接宾语，'s'' = 间接宾语 → 无一致性）\n\n否定形式：ne 置于自反代词之前：\n- Je ne me lève pas tôt. / Il ne s'est pas rasé.",
+    "concept_examples": [
+      {
+        "text": "Je me réveille à sept heures.",
+        "translation": "我七点起床。",
+        "phonetic": "/ʒə mə ʁevɛj a sɛt œʁ/"
+      },
+      {
+        "text": "Comment tu t'appelles ?",
+        "translation": "你叫什么名字？",
+        "phonetic": "/kɔmɑ̃ ty tapɛl/"
+      },
+      {
+        "text": "Nous nous couchons tard le week-end.",
+        "translation": "我们周末睡得很晚。",
+        "phonetic": "/nu nu kuʃɔ̃ taʁ lə wikɛnd/"
+      },
+      {
+        "text": "Elle s'est dépêchée pour ne pas rater le bus.",
+        "translation": "她为了不误车赶紧出发。",
+        "phonetic": "/ɛl sɛ depeʃe puʁ nə pa ʁate lə bys/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ils ont levés à huit heures.",
+      "correct": "Ils se sont levés à huit heures.",
+      "correct_alt": "",
+      "explanation": "两个常见错误：（1）遗漏自反代词 'se' — 自反动词必须带有自反代词；（2）在复合过去时中使用 'avoir' 作为助动词。所有自反动词在复合过去时中都必须使用 'être'。此外，过去分词需要与主语保持一致：'levés' 因为 'ils' 是阳性复数，所以加 -s。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbes pronominaux au présent",
+        "translation": "现在时中的自反动词",
+        "examples": [
+          {
+            "original": "Je me douche tous les matins.",
+            "phonetic": "/ʒə mə duʃ tu le matɛ̃/",
+            "translation": "我每天早上洗澡。",
+            "note": "日常习惯；代词 me 置于动词前"
+          },
+          {
+            "original": "Il s'appelle Marc.",
+            "phonetic": "/il sapɛl maʁk/",
+            "translation": "他叫马克。",
+            "note": "s'appeler：在元音前省音为 s'"
+          },
+          {
+            "original": "Vous vous couchez à quelle heure ?",
+            "phonetic": "/vu vu kuʃe a kɛl œʁ/",
+            "translation": "你们几点睡觉？",
+            "note": "vous vous：主语代词 + 自反代词"
+          },
+          {
+            "original": "Elles se sentent fatiguées.",
+            "phonetic": "/ɛl sə sɑ̃t fatiɡe/",
+            "translation": "她们感到很累。",
+            "note": "se sentir：状态自反动词"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbes pronominaux au passé composé",
+        "translation": "复合过去时中的自反动词",
+        "examples": [
+          {
+            "original": "Je me suis réveillée à six heures.",
+            "phonetic": "/ʒə mə sɥi ʁevɛje a si zœʁ/",
+            "translation": "我六点醒来。",
+            "note": "阴性：过去分词加 -e（réveillée）"
+          },
+          {
+            "original": "Ils se sont habillés rapidement.",
+            "phonetic": "/il sə sɔ̃ t‿abije ʁapidmɑ̃/",
+            "translation": "他们很快穿好衣服。",
+            "note": "阳性复数：过去分词加 -s（habillés）"
+          },
+          {
+            "original": "Tu t'es trompé de route.",
+            "phonetic": "/ty tɛ tʁɔ̃pe də ʁut/",
+            "translation": "你走错路了。",
+            "note": "se tromper：过去分词与阳性主语一致"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Cas particuliers et négation",
+        "translation": "特殊情况与否定形式",
+        "examples": [
+          {
+            "original": "Elle ne s'est pas lavé les mains.",
+            "phonetic": "/ɛl nə sɛ pa lave le mɛ̃/",
+            "translation": "她没洗手。",
+            "note": "无一致性：'les mains' 是直接宾语，'s'' 是间接宾语 → 过去分词不变"
+          },
+          {
+            "original": "Nous ne nous sommes pas disputés.",
+            "phonetic": "/nu nə nu sɔm pa dispyte/",
+            "translation": "我们没吵架。",
+            "note": "复合过去时的否定：ne...pas 围绕助动词 être"
+          },
+          {
+            "original": "Ils se sont souvenus de leur promesse.",
+            "phonetic": "/il sə sɔ̃ suvəny də lœʁ pʁɔmɛs/",
+            "translation": "他们记得自己的承诺。",
+            "note": "se souvenir de：自反动词 + 介词 de"
+          }
+        ]
+      }
+    ],
+    "emoji": "🪞",
+    "phonetic": "",
+    "translations": {
+      "zh": "自反动词/代词动词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "/代词直接宾语和间接宾语",
+    "bridge": "在法语中，直接宾语代词（COD）和间接宾语代词（COI）用于替代补语，并放在动词变位形式之前，与西班牙语不同（西班牙语中可前可后）。COD替代无介词的直接宾语（人或物）；COI替代由介词'à'引导的人。区分le/lui和les/leur很关键：le/la/les用于COD；lui/leur用于COI。",
+    "rule": "直接宾语代词（无介词的直接宾语）：\n- me / te / le（阳性单数）/ la（阴性单数）/ nous / vous / les（复数）\n- Je le vois.（我看见他。）| Je la connais.（我认识她。）| Je les appelle.（我叫他们。）\n\n间接宾语代词（替代'à + 人'）：\n- me / te / lui（单数）/ nous / vous / leur（复数）\n- Je lui parle.（我对他说话。）| Je leur écris.（我给他们写信。）\n\n位置：始终在动词变位形式之前：\n- Je le mange.（我吃它。）/ Tu lui parles.（你对他说话。）/ Il nous aide.（他帮助我们。）\n\n与不定式连用：代词放在不定式之前：\n- Je vais le faire.（我将做它。）| Tu peux lui écrire.（你可以给他写信。）\n\n与复合过去时连用：代词放在助动词之前：\n- Je l'ai vu.（我看见了他。）| Tu lui as parlé.（你对他说话了。）\n\n否定句：ne + 代词 + 动词 + pas：\n- Je ne le vois pas.（我看不见他。）/ Il ne lui a pas répondu.（他没有回答他。）\n\n区分le/lui：\n- le = 阳性单数直接宾语（它）→ Je le vois.（我看见它。）\n- lui = 单数间接宾语（他/她）→ Je lui parle.（我对他说话。）",
+    "concept_examples": [
+      {
+        "text": "Je le connais bien.",
+        "translation": "我非常了解他。",
+        "phonetic": "/ʒə lə kɔnɛ bjɛ̃/"
+      },
+      {
+        "text": "Tu lui as téléphoné ?",
+        "translation": "你给他打电话了吗？",
+        "phonetic": "/ty lɥi a telefɔne/"
+      },
+      {
+        "text": "Elle les invite à dîner.",
+        "translation": "她邀请他们吃晚饭。",
+        "phonetic": "/ɛl le z‿ɛ̃vit a dine/"
+      },
+      {
+        "text": "Nous leur envoyons un message.",
+        "translation": "我们给他们发了一条消息。",
+        "phonetic": "/nu lœʁ ɑ̃vwajɔ̃ œ̃ mesaʒ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je parle le.",
+      "correct": "Je lui parle.",
+      "correct_alt": "",
+      "explanation": "动词'parler'在法语中要求间接宾语：'parler à quelqu'un'。因此只能用COI代词'lui'（或复数'leur'），绝不能用COD代词'le/la'。此外，代词始终放在动词之前，而不是之后。西班牙语母语者有时会受母语影响将代词置于动词之后（如'enclítico'形式的'hablarle'）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Pronoms COD : le, la, les",
+        "translation": "直接宾语代词：它、她、它们",
+        "examples": [
+          {
+            "original": "Tu vois ce livre ? Je le lis.",
+            "phonetic": "/ty vwa sə livʁ ʒə lə li/",
+            "translation": "你看见那本书了吗？我正在读它。",
+            "note": "le替代阳性单数名词'ce livre'"
+          },
+          {
+            "original": "J'aime cette chanson. Je la connais.",
+            "phonetic": "/ʒɛm sɛt ʃɑ̃sɔ̃ ʒə la kɔnɛ/",
+            "translation": "我喜欢那首歌。我了解它。",
+            "note": "la替代阴性单数名词'cette chanson'"
+          },
+          {
+            "original": "Mes clés ? Je les cherche partout.",
+            "phonetic": "/me kle ʒə le ʃɛʁʃ paʁtu/",
+            "translation": "我的钥匙呢？我到处找它们。",
+            "note": "les替代复数名词'mes clés'"
+          },
+          {
+            "original": "Je ne la vois pas.",
+            "phonetic": "/ʒə nə la vwa pa/",
+            "translation": "我看不见她。",
+            "note": "否定句：ne + 代词 + 动词 + pas"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pronoms COI : lui, leur",
+        "translation": "间接宾语代词：le/les（给他、给她、给他们）",
+        "examples": [
+          {
+            "original": "Je lui donne le livre.",
+            "phonetic": "/ʒə lɥi dɔn lə livʁ/",
+            "translation": "我把书给他/她。",
+            "note": "lui = 单数间接宾语，替代'à lui'或'à elle'"
+          },
+          {
+            "original": "Tu leur as expliqué la règle ?",
+            "phonetic": "/ty lœʁ a z‿ɛksplike la ʁɛɡl/",
+            "translation": "你给他们解释过规则吗？",
+            "note": "leur = 复数间接宾语；在复合过去时中放在助动词之前"
+          },
+          {
+            "original": "Elle ne lui répond jamais.",
+            "phonetic": "/ɛl nə lɥi ʁepɔ̃ ʒamɛ/",
+            "translation": "她从来不回答他。",
+            "note": "répondre à quelqu'un → 间接宾语代词lui"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "COD et COI avec infinitif et passé composé",
+        "translation": "直接宾语和间接宾语代词与不定式及复合过去时连用",
+        "examples": [
+          {
+            "original": "Je vais le rappeler demain.",
+            "phonetic": "/ʒə vɛ lə ʁapəle dəmɛ̃/",
+            "translation": "我明天会给他打电话。",
+            "note": "与最近将来时连用：代词放在不定式之前"
+          },
+          {
+            "original": "Il l'a regardée toute la soirée.",
+            "phonetic": "/il la ʁəɡaʁde tut la swaʁe/",
+            "translation": "他整个下午都在看她。",
+            "note": "阴性直接宾语在复合过去时中：过去分词需要配合→ regardée"
+          },
+          {
+            "original": "Nous leur avons envoyé les documents.",
+            "phonetic": "/nu lœʁ avɔ̃ z‿ɑ̃vwaje le dɔkymɑ̃/",
+            "translation": "我们已经把文件发给他们了。",
+            "note": "间接宾语代词leur在复合过去时中：过去分词不与之配合"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "zh": "直接宾语和间接宾语代词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "频率副词 / Les adverbes de fréquence",
+    "bridge": "法语中的频率副词与西班牙语类似（如‘siempre’、‘a veces’、‘nunca’）。主要区别在于它们的位置：在法语中，它们放在变位动词之后（不像西班牙语那样放在句首或句尾）。在复合时态中，它们位于助动词和过去分词之间。‘Jamais’在否定句中必须与‘ne’连用。",
+    "rule": "频率副词（按频率从高到低排列）：\n- toujours（总是）→ Je travaille toujours le lundi.\n- souvent（经常）→ Il sort souvent le soir.\n- parfois / quelquefois（有时）→ Elle mange parfois au restaurant.\n- rarement（很少）→ Nous voyageons rarement.\n- ne... jamais（从不）→ Je ne mange jamais de viande.\n\n位置规则：\n1. 在现在时/未完成过去时/简单将来时中：主语 + 动词 + 副词\n   - Elle mange souvent des pâtes.\n2. 在复合过去时中：助动词 + 副词 + 过去分词\n   - J'ai souvent visité ce musée. / Il n'a jamais mangé de sushi.\n3. ‘Toujours’和‘souvent’有时也可置于句末以示强调。\n\n‘Jamais’的特殊用法：\n- 在疑问句或假设句中，‘jamais’可单独使用，表示‘曾经’：\n  Tu as jamais essayé le sushi ?（你曾经尝过寿司吗？）— 口语用法\n\n其他有用的副词：\n- encore（仍然） | déjà（已经） | ne... plus（不再） | ne... pas encore（还没）",
+    "concept_examples": [
+      {
+        "text": "Je fais toujours du sport le matin.",
+        "translation": "我总是早上运动。",
+        "phonetic": "/ʒə fɛ tuʒuʁ dy spɔʁ lə matɛ̃/"
+      },
+      {
+        "text": "Elle va souvent au cinéma.",
+        "translation": "她经常去电影院。",
+        "phonetic": "/ɛl va suvɑ̃ o sinema/"
+      },
+      {
+        "text": "Il mange parfois de la pizza.",
+        "translation": "他有时吃比萨。",
+        "phonetic": "/il mɑ̃ʒ paʁfwa də la pitsa/"
+      },
+      {
+        "text": "Je n'ai jamais visité le Japon.",
+        "translation": "我从未去过日本。",
+        "phonetic": "/ʒə ne ʒamɛ vizite lə ʒapɔ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Souvent je mange au restaurant.",
+      "correct": "Je mange souvent au restaurant.",
+      "correct_alt": "Je vais souvent au restaurant.",
+      "explanation": "在西班牙语中，将频率副词放在句首很自然（如‘A menudo como en restaurantes’），但在法语中，副词必须放在变位动词之后。放在句首听起来会非常奇怪。在复合过去时中，副词必须位于助动词和过去分词之间：‘J'ai souvent mangé au restaurant’，而不是放在句末。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adverbes de fréquence au présent",
+        "translation": "现在时中的频率副词",
+        "examples": [
+          {
+            "original": "Je me lève toujours à la même heure.",
+            "phonetic": "/ʒə mə lɛv tuʒuʁ a la mɛm œʁ/",
+            "translation": "我总是同一时间起床。",
+            "note": "toujours放在变位动词之后"
+          },
+          {
+            "original": "Nous regardons souvent des séries le soir.",
+            "phonetic": "/nu ʁəɡaʁdɔ̃ suvɑ̃ de seʁi lə swaʁ/",
+            "translation": "我们晚上经常看电视剧。",
+            "note": "souvent位于动词和宾语之间"
+          },
+          {
+            "original": "Elle arrive rarement à l'heure.",
+            "phonetic": "/ɛl aʁiv ʁaʁəmɑ̃ a lœʁ/",
+            "translation": "她很少准时到达。",
+            "note": "rarement表示低频率"
+          },
+          {
+            "original": "Je ne bois jamais d'alcool.",
+            "phonetic": "/ʒə nə bwa ʒamɛ dalkɔl/",
+            "translation": "我从不喝酒。",
+            "note": "ne...jamais = 零频率的否定结构"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Adverbes au passé composé",
+        "translation": "复合过去时中的频率副词",
+        "examples": [
+          {
+            "original": "J'ai toujours aimé la musique classique.",
+            "phonetic": "/ʒe tuʒuʁ eme la myzik klasik/",
+            "translation": "我一直热爱古典音乐。",
+            "note": "toujours位于助动词（ai）和过去分词（aimé）之间"
+          },
+          {
+            "original": "Il n'a jamais vu la mer.",
+            "phonetic": "/il na ʒamɛ vy la mɛʁ/",
+            "translation": "她从未见过大海。",
+            "note": "ne...jamais在复合过去时中：ne + 助动词 + jamais + 过去分词"
+          },
+          {
+            "original": "Nous avons souvent mangé dans ce café.",
+            "phonetic": "/nu zavɔ̃ suvɑ̃ mɑ̃ʒe dɑ̃ sə kafe/",
+            "translation": "我们经常在这家咖啡馆吃饭。",
+            "note": "souvent插入在avons和mangé之间"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nuances et autres adverbes temporels",
+        "translation": "细微差别与其他时间副词",
+        "examples": [
+          {
+            "original": "Tu as déjà goûté les escargots ?",
+            "phonetic": "/ty a deʒa ɡute le z‿ɛskaʁɡo/",
+            "translation": "你已经尝过蜗牛了吗？",
+            "note": "déjà（已经）也位于助动词和过去分词之间"
+          },
+          {
+            "original": "Je ne mange plus de sucre.",
+            "phonetic": "/ʒə nə mɑ̃ʒ ply də sykʁ/",
+            "translation": "我不再吃糖了。",
+            "note": "ne...plus表示某事不再发生"
+          },
+          {
+            "original": "Il n'a pas encore répondu à mon message.",
+            "phonetic": "/il na pa z‿ɑ̃kɔʁ ʁepɔ̃dy a mɔ̃ mesaʒ/",
+            "translation": "她还没有回复我的消息。",
+            "note": "ne...pas encore = 还没有 / 尚未"
+          }
+        ]
+      }
+    ],
+    "emoji": "📊",
+    "phonetic": "",
+    "translations": {
+      "zh": "频率副词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les prépositions de temps / 时间介词",
+    "bridge": "法语中的时间介词对西班牙语母语者来说可能有些混淆，因为多个介词在西班牙语中根据语境可译为'en'或'hace'。最常见的问题介词包括：'depuis'（表示‘自…以来’，与现在时或未完成过去时连用）、'il y a'（表示‘（时间）之前’，指过去某时点发生的事）和'dans'（表示‘（未来）…之后’或‘在…时间内’）。掌握这些介词是准确表达时间的关键。",
+    "rule": "时间介词用法总结：\n\nÀ — 精确的时间点或特定时刻：\n- à midi（中午时），à trois heures（三点钟），à Noël（圣诞节），au printemps（春天）\n\nEN — 月份、年份、季节（春季除外）及动作持续时间：\n- en janvier（一月份），en 2024（2024年），en été（夏天），en automne（秋天），en hiver（冬天）\n- en deux heures（在两小时内——动作持续时间）\n\nDANS — 从现在起的未来时间，或某个时段/背景：\n- dans trois jours（三天后） | dans cinq minutes（五分钟后）\n\nPENDANT — 完整的动作持续时间（过去、现在或将来）：\n- pendant deux heures（持续两小时） | pendant les vacances（在假期期间）\n\nDEPUIS — 表示过去开始的动作持续至今：\n- Je vis ici depuis cinq ans.（我在这里住了五年了。——现在时）\n- Il attendait depuis une heure.（他已经等了一个小时了。——未完成过去时）\n- 与西班牙语的关键区别：法语中用présent / imparfait + depuis\n\nIL Y A — 表示某事发生在过去的某个时间点：\n- Il est arrivé il y a deux heures.（他两小时前到了。）\n- Je l'ai vu il y a une semaine.（我一周前见过他。）\n\nPOUR — 表示计划或预期的持续时间：\n- Je pars pour trois semaines.（我要离开三周——计划性用法）\n- Je suis venu pour une heure.（我来了一个小时。——预期的持续时间）",
+    "concept_examples": [
+      {
+        "text": "J'apprends le français depuis six mois.",
+        "translation": "我已经学了六个月的法语（现在还在学）。",
+        "phonetic": "/ʒapʁɑ̃ lə fʁɑ̃sɛ dəpɥi si mwa/"
+      },
+      {
+        "text": "Elle est arrivée il y a une heure.",
+        "translation": "她一个小时前到了。",
+        "phonetic": "/ɛl ɛ t‿aʁive il i a yn œʁ/"
+      },
+      {
+        "text": "Le film commence dans dix minutes.",
+        "translation": "电影十分钟后开始。",
+        "phonetic": "/lə film kɔmɑ̃s dɑ̃ di minyt/"
+      },
+      {
+        "text": "Il a travaillé pendant toute la nuit.",
+        "translation": "他工作了一整夜。",
+        "phonetic": "/il a tʁavaje pɑ̃dɑ̃ tut la nɥi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "J'apprends le français depuis six mois. (con passé composé: J'ai appris...)",
+      "correct": "J'apprends le français depuis six mois.",
+      "correct_alt": "J'apprenais le français depuis six mois. (si la acción ya terminó — imparfait)",
+      "explanation": "使用'depuis'表示过去开始且持续至今的动作时，法语必须用现在时（présent），而非复合过去时（passé composé）。这与西班牙语相似（如‘llevo seis meses aprendiendo’用现在时），但常见错误是学生受‘he estado aprendiendo’影响，误用过去时。法语规则：depuis + présent = 进行中的动作。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "À, en, dans — repères temporels",
+        "translation": "À、en、dans —— 基础时间参考",
+        "examples": [
+          {
+            "original": "Le cours commence à neuf heures.",
+            "phonetic": "/lə kuʁ kɔmɑ̃s a nœv œʁ/",
+            "translation": "课程九点开始。",
+            "note": "à + 精确时间点"
+          },
+          {
+            "original": "Elle est née en mars, en 1995.",
+            "phonetic": "/ɛl ɛ ne ɑ̃ maʁs ɑ̃ mil nœf sɑ̃ katʁəvɛ̃ kɛ̃z/",
+            "translation": "他于1995年3月出生。",
+            "note": "en + 月份 / en + 年份"
+          },
+          {
+            "original": "Je reviens dans une semaine.",
+            "phonetic": "/ʒə ʁəvjɛ̃ dɑ̃ z‿yn səmɛn/",
+            "translation": "我一周后回来。",
+            "note": "dans = 从现在起的未来时间（‘之后’）"
+          },
+          {
+            "original": "En été, nous allons à la plage.",
+            "phonetic": "/ɑ̃ nete nu zalɔ̃ a la plaʒ/",
+            "translation": "夏天我们去海滩。",
+            "note": "en + 季节（春季除外，用au printemps）"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pendant, pour et il y a",
+        "translation": "Pendant、pour 与 il y a —— 持续时间与过去时间",
+        "examples": [
+          {
+            "original": "J'ai étudié pendant trois heures.",
+            "phonetic": "/ʒe etydje pɑ̃dɑ̃ tʁwa zœʁ/",
+            "translation": "我学习了三个小时。",
+            "note": "pendant + 过去完成的持续时间"
+          },
+          {
+            "original": "Je suis parti en vacances pour deux semaines.",
+            "phonetic": "/ʒə sɥi paʁti ɑ̃ vakɑ̃s puʁ dø səmɛn/",
+            "translation": "我要去两周的假。",
+            "note": "pour + 计划/预期的持续时间"
+          },
+          {
+            "original": "Il a appelé il y a une demi-heure.",
+            "phonetic": "/il a aple il i a yn dəmi œʁ/",
+            "translation": "他半小时前打了电话。",
+            "note": "il y a + 时间 = （过去）…之前（指动作发生的时间点）"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Depuis — action en cours",
+        "translation": "Depuis —— 表示过去开始且持续的动作",
+        "examples": [
+          {
+            "original": "Nous habitons à Lyon depuis trois ans.",
+            "phonetic": "/nu zabitɔ̃ a ljɔ̃ dəpɥi tʁwa z‿ɑ̃/",
+            "translation": "我们在里昂住了三年了。",
+            "note": "depuis + 现在时：动作持续至今"
+          },
+          {
+            "original": "Elle apprend le piano depuis son enfance.",
+            "phonetic": "/ɛl apʁɑ̃ lə pjano dəpɥi sɔ̃ nɑ̃fɑ̃s/",
+            "translation": "他从小就学钢琴。",
+            "note": "depuis + 动作开始的时间点（非持续时间）"
+          },
+          {
+            "original": "Il attendait depuis deux heures quand elle est arrivée.",
+            "phonetic": "/il atɑ̃dɛ dəpɥi dø zœʁ kɑ̃ t‿ɛl ɛ t‿aʁive/",
+            "translation": "她到达时，他已经等了两个小时。",
+            "note": "depuis + 未完成过去时：过去进行中的动作被中断"
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "zh": "时间介词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "并列连词和从属连词",
+    "bridge": "法语中的连词在功能上与西班牙语非常相似，但某些连词有重要的细微差别。‘Et’（和）、‘mais’（但是）和‘ou’（或）用法直接。‘parce que’（因为——原因）与‘donc’（因此——结果）及‘pourtant/cependant’（然而——对比）的区分对西班牙语母语者尤为重要，这些词在西班牙语中有时会混淆。",
+    "rule": "并列连词：\n- et (和)：J'aime le café et le thé.\n- mais (但是)：Je veux venir, mais je suis fatigué.\n- ou (或)：Tu veux du pain ou des pâtes ?\n- donc (因此，所以——结果)：Il pleut, donc je prends un parapluie.\n- alors (那么，于是——结果/在这种情况下)：Tu n'es pas là ? Alors j'attends.\n\n从属连词：\n- parce que (因为——表原因)：Je reste à la maison parce qu'il pleut.\n  → 元音前：parce qu'\n- quand (当——时间)：Quand j'ai faim, je mange.\n  ⚠️ 与将来时连用：如果动作是将来的，两个从句都用将来时：Quand il arrivera, nous partirons.\n- si (如果——条件)：Si tu études, tu réussiras.\n  ⚠️ si + 现在时 → 将来时 | si + 未完成过去时 → 条件式\n\n对比连词：\n- pourtant (然而，尽管如此——与之前所述相反)：C'est difficile, pourtant j'essaie.\n- cependant (然而，不过——更正式的用法)：Le plan est bon ; cependant, il manque des ressources.\n\n关键区别：\n- parce que → 回答“为什么？”——表原因：Je pleure parce que je suis triste.\n- donc/alors → 表结果：Je suis triste, donc je pleure.",
+    "concept_examples": [
+      {
+        "text": "J'aime le français, mais c'est difficile.",
+        "translation": "我喜欢法语，但它很难。",
+        "phonetic": "/ʒɛm lə fʁɑ̃sɛ mɛ sɛ difisl/"
+      },
+      {
+        "text": "Il ne travaille pas, donc il n'a pas d'argent.",
+        "translation": "他不工作，所以没有钱。",
+        "phonetic": "/il nə tʁavaj pa dɔŋk il na pa daʁʒɑ̃/"
+      },
+      {
+        "text": "Je suis fatigué parce que j'ai mal dormi.",
+        "translation": "我累了，因为睡得不好。",
+        "phonetic": "/ʒə sɥi fatiɡe paʁs kə ʒe mal dɔʁmi/"
+      },
+      {
+        "text": "C'est cher, pourtant tout le monde l'achète.",
+        "translation": "虽然贵，但大家都买。",
+        "phonetic": "/sɛ ʃɛʁ puʁtɑ̃ tu lə mɔ̃d laʃɛt/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis triste donc je pleure parce que.",
+      "correct": "Je pleure parce que je suis triste.",
+      "correct_alt": "Je suis triste, donc je pleure.",
+      "explanation": "'Parce que' 表原因并回答‘为什么？’：后面必须接完整的从句。‘Donc' 表结果并按逻辑顺序连接两个句子（原因→结果）。不能用于同一关系的句子中同时使用。常见错误：受西班牙语口语影响，在句末用‘parce que’回答‘为什么？’而不完成从句（如‘¿por qué? — porque sí’）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Et, mais, ou — conjonctions de base",
+        "translation": "Et, mais, ou —— 基础连词",
+        "examples": [
+          {
+            "original": "Je parle français et espagnol.",
+            "phonetic": "/ʒə paʁl fʁɑ̃sɛ e ɛspaɲɔl/",
+            "translation": "我会说法语和西班牙语。",
+            "note": "et = 和；连接同类事物"
+          },
+          {
+            "original": "J'aime le cinéma, mais je préfère la lecture.",
+            "phonetic": "/ʒɛm lə sinema mɛ ʒə pʁefɛʁ la lɛktyʁ/",
+            "translation": "我喜欢电影，但更喜欢阅读。",
+            "note": "mais = 但是；引入对比或修正"
+          },
+          {
+            "original": "Tu veux du café ou du thé ?",
+            "phonetic": "/ty vø dy kafe u dy te/",
+            "translation": "你要咖啡还是茶？",
+            "note": "ou = 或；提供选择"
+          },
+          {
+            "original": "Il est intelligent et travailleur.",
+            "phonetic": "/il ɛ t‿ɛ̃teliʒɑ̃ e tʁavajœʁ/",
+            "translation": "他又聪明又勤奋。",
+            "note": "et 连接两个形容词描述主语"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Parce que, quand, si — subordination",
+        "translation": "Parce que, quand, si —— 从属连词",
+        "examples": [
+          {
+            "original": "Je porte un manteau parce qu'il fait froid.",
+            "phonetic": "/ʒə pɔʁt œ̃ mɑ̃to paʁs kil fɛ fʁwa/",
+            "translation": "因为冷，所以我穿了外套。",
+            "note": "parce que → 元音前用 parce qu'；表原因"
+          },
+          {
+            "original": "Quand je suis stressé, j'écoute de la musique.",
+            "phonetic": "/kɑ̃ ʒə sɥi stʁese ʒekut də la myzik/",
+            "translation": "当我有压力时，我听音乐。",
+            "note": "quand + 现在时 → 习惯或普遍真理"
+          },
+          {
+            "original": "Si tu viens, on ira au restaurant.",
+            "phonetic": "/si ty vjɛ̃ ɔ̃ niʁa o ʁɛstoʁɑ̃/",
+            "translation": "如果你来，我们就去餐厅。",
+            "note": "si + 现在时 → 简单将来时（真实条件）"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Donc, alors, pourtant, cependant — nuances",
+        "translation": "Donc, alors, pourtant, cependant —— 结果与对比的细微差别",
+        "examples": [
+          {
+            "original": "Il a étudié toute la nuit, donc il est épuisé.",
+            "phonetic": "/il a etydje tut la nɥi dɔŋk il ɛ t‿epɥize/",
+            "translation": "他学习了一整夜，因此累了。",
+            "note": "donc = 逻辑结果；比 alors 更正式"
+          },
+          {
+            "original": "Tu n'as pas de monnaie ? Alors je t'offre le café.",
+            "phonetic": "/ty na pa də mɔnɛ alɔʁ ʒə tɔfʁ lə kafe/",
+            "translation": "你没有零钱吗？那我请你咖啡。",
+            "note": "alors = 那么，在这种情况下；比 donc 更口语"
+          },
+          {
+            "original": "C'est une bonne idée ; cependant, il faut du temps.",
+            "phonetic": "/sɛ t‿yn bɔn ide səpɑ̃dɑ̃ il fo dy tɑ̃/",
+            "translation": "这是个好主意；不过，需要时间。",
+            "note": "cependant = 然而；正式用法，引入补充说明"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "zh": "并列连词和从属连词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "复合过去时 vs 未完成过去时",
+    "bridge": "这是法语中最重要的区分之一，也是西班牙语母语者最难掌握的部分。西班牙语中也存在简单过去时（'comí'、'llegó'）与过去未完成时（'comía'、'llegaba'）的区别，但在法语中这种区分更加系统化和严格。黄金法则：复合过去时 = 瞬时完成的动作；未完成过去时 = 过去的状态、描述、习惯或进行中的动作。",
+    "rule": "复合过去时 — 使用时机：\n1. 瞬时完成的动作：J'ai mangé une pizza. （我吃了一个披萨——一次性完成。）\n2. 动作的连续发生：Il est entré, a enlevé son manteau et s'est assis. （他进来，脱下外套并坐下。）\n3. 有明确次数的动作：J'ai visité Paris trois fois. （我去过巴黎三次。）\n4. 打断正在进行的动作：Il lisait quand le téléphone a sonné. （他正在看书，电话响了。）\n\n未完成过去时 — 使用时机：\n1. 对过去的描述（状态、外观、条件）：La maison était grande et calme. （房子又大又安静。）\n2. 过去的习惯或重复动作：Quand j'étais enfant, je jouais dehors chaque soir. （我小时候每天晚上在外面玩。）\n3. 被打断的进行动作：Je dormais quand tu as appelé. （我正在睡觉，你打电话来了。）\n4. 背景或叙事铺垫：Il faisait nuit et il pleuvait. （夜晚下着雨。）\n\n未完成过去时的构成：\n- 基础：现在时第一人称复数词干（如：nous mangeons → mange-）\n- 词尾：-ais / -ais / -ait / -ions / -iez / -aient\n- 例：parler → je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient\n- 唯一不规则动词：être → j'étais, tu étais, il était, nous étions, vous étiez, ils étaient\n\n记忆技巧：\n- 复合过去时 = 照片（瞬时动作，可被‘拍摄’）\n- 未完成过去时 = 电影/背景（背景、状态、进行动作）\n\n典型组合：\n- 未完成过去时（背景）+ 复合过去时（动作）：Je lisais quand il a sonné à la porte. （我正在看书，他按门铃了。）",
+    "concept_examples": [
+      {
+        "text": "Hier, j'ai vu un film. (PC)",
+        "translation": "我昨天看了一部电影。（瞬时动作）",
+        "phonetic": "/jɛʁ ʒe vy œ̃ film/"
+      },
+      {
+        "text": "Quand j'étais petit, je regardais des dessins animés. (Imp.)",
+        "translation": "我小时候常看动画片。（习惯）",
+        "phonetic": "/kɑ̃ ʒetɛ pəti ʒə ʁəɡaʁdɛ de desɛ̃ zanime/"
+      },
+      {
+        "text": "Elle lisait quand le téléphone a sonné.",
+        "translation": "她正在看书，电话响了。",
+        "phonetic": "/ɛl lizɛ kɑ̃ lə telefɔn a sɔne/"
+      },
+      {
+        "text": "Il faisait beau et les enfants jouaient dans le jardin.",
+        "translation": "天气很好，孩子们在花园里玩耍。",
+        "phonetic": "/il fəzɛ bo e le z‿ɑ̃fɑ̃ ʒwɛ dɑ̃ lə ʒaʁdɛ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quand j'étais enfant, j'ai joué tous les jours dehors.",
+      "correct": "Quand j'étais enfant, je jouais tous les jours dehors.",
+      "correct_alt": "",
+      "explanation": "短语‘tous les jours’（每天）表示过去的习惯性重复动作，法语中需要用未完成过去时，而非复合过去时。‘j'ai joué dehors dix fois’（我已经在外面玩了十次）这种情况下才用复合过去时。关键在于：过去的习惯/日常行为 = 未完成过去时。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Imparfait — description et habitude",
+        "translation": "未完成过去时 — 描述与过去习惯",
+        "examples": [
+          {
+            "original": "Quand j'étais enfant, j'habitais à Lyon.",
+            "phonetic": "/kɑ̃ ʒetɛ ɑ̃fɑ̃ ʒabitɛ a ljɔ̃/",
+            "translation": "我小时候住在里昂。",
+            "note": "过去的永久状态 → 未完成过去时"
+          },
+          {
+            "original": "Avant, elle travaillait dans un hôpital.",
+            "phonetic": "/avɑ̃ ɛl tʁavajɛ dɑ̃ z‿œ̃ nɔpital/",
+            "translation": "她之前在一家医院工作。",
+            "note": "avant（之前）= 过去习惯的标志 → 未完成过去时"
+          },
+          {
+            "original": "Il faisait toujours la vaisselle après le dîner.",
+            "phonetic": "/il fəzɛ tuʒuʁ la vɛsɛl apʁɛ lə dine/",
+            "translation": "我总是饭后洗碗。",
+            "note": "toujours（总是）+ 过去重复动作 → 未完成过去时"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Passé composé — actions ponctuelles",
+        "translation": "复合过去时 — 瞬时完成的动作",
+        "examples": [
+          {
+            "original": "Ce matin, j'ai bu un café et j'ai lu le journal.",
+            "phonetic": "/sə matɛ̃ ʒe by œ̃ kafe e ʒe ly lə ʒuʁnal/",
+            "translation": "今天早上我喝了咖啡，读了报纸。",
+            "note": "连续完成的动作 → 复合过去时"
+          },
+          {
+            "original": "Hier soir, il a appelé ses parents.",
+            "phonetic": "/jɛʁ swaʁ il a aple se paʁɑ̃/",
+            "translation": "昨晚他给父母打了电话。",
+            "note": "带有明确时间参考的瞬时动作 → 复合过去时"
+          },
+          {
+            "original": "J'ai visité la Tour Eiffel deux fois.",
+            "phonetic": "/ʒe vizite la tuʁ ɛfɛl dø fwa/",
+            "translation": "我去过埃菲尔铁塔两次。",
+            "note": "明确次数的动作 → 复合过去时"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "PC + Imparfait — récit au passé",
+        "translation": "复合过去时 + 未完成过去时 — 过去叙事",
+        "examples": [
+          {
+            "original": "Je dormais profondément quand l'alarme a sonné.",
+            "phonetic": "/ʒə dɔʁmɛ pʁɔfɔ̃demɑ̃ kɑ̃ laʁm a sɔne/",
+            "translation": "我睡得正香时闹钟响了。",
+            "note": "未完成过去时（进行动作）+ 复合过去时（打断的瞬时动作）"
+          },
+          {
+            "original": "Il faisait nuit quand nous sommes arrivés à Paris.",
+            "phonetic": "/il fəzɛ nɥi kɑ̃ nu sɔm zaʁive a paʁi/",
+            "translation": "我们到达巴黎时天已经黑了。",
+            "note": "未完成过去时（背景/铺垫）+ 复合过去时（新发生的事实）"
+          },
+          {
+            "original": "Elle attendait le bus depuis vingt minutes quand il a enfin arrêté.",
+            "phonetic": "/ɛl atɑ̃dɛ lə bys dəpɥi vɛ̃ minyt kɑ̃ il a ɑ̃fɛ̃ aʁɛte/",
+            "translation": "我等公交车等了二十分钟，它终于停了下来。",
+            "note": "未完成过去时 + depuis（持续时间）+ 复合过去时（等待的结果）"
+          }
+        ]
+      }
+    ],
+    "emoji": "📽️",
+    "phonetic": "",
+    "translations": {
+      "zh": "复合过去时 vs 未完成过去时：何时使用"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "命令式",
+    "bridge": "法语的命令式与西班牙语类似：用于发出命令、指示、建议或请求。它有三种形式：tu（第二人称单数非正式）、nous（第一人称复数）和vous（第二人称单数/复数正式）。与西班牙语的主要区别在于：-ER动词在tu形式中去掉最后的-s，且在肯定命令式中，宾语代词放在动词后（如西班牙语：‘¡dímelo!’），而在否定命令式中则放在动词前。",
+    "rule": "构成方式：\n- 使用直陈式现在时，但不带主语代词。\n- 形式：tu / nous / vous\n\n-ER动词（及aller）：在tu形式中去掉-s：\n- parler: Parle ! / Parlons ! / Parlez !\n- manger: Mange ! / Mangeons ! / Mangez !\n- 例外：若后接y或en，需保留-s以避免发音困难：Vas-y ! / Parles-en !\n\n-IR和-RE动词：保持正常形式：\n- finir: Finis ! / Finissons ! / Finissez !\n- prendre: Prends ! / Prenons ! / Prenez !\n\n重要不规则动词：\n- être → sois / soyons / soyez（相当于‘sé / seamos / sed’）\n- avoir → aie / ayons / ayez（相当于‘ten / tengamos / tened’）\n- savoir → sache / sachons / sachez（相当于‘sabe / sepamos / sabed’）\n- vouloir → veuille / veuillons / veuillez（仅用于正式场合：Veuillez vous asseoir.）\n\n否定命令式：\n- ne + 动词 + pas：Ne parle pas ! / Ne mange pas ça !\n\n命令式与宾语代词：\n肯定：代词用连字符连接动词后：\n- Mange-le !（吃了它！）| Dis-moi la vérité.（告诉我真相。）| Allez-y !（去吧！）\n- me/te → moi/toi：Donne-moi ça.（给我这个。）/ Assieds-toi.（坐下。）\n\n否定：代词放在动词前：\n- Ne le mange pas !（别吃它！）| Ne me dis pas ça.（别跟我说这个。）",
+    "concept_examples": [
+      {
+        "text": "Écoute bien !",
+        "translation": "仔细听！",
+        "phonetic": "/ekut bjɛ̃/"
+      },
+      {
+        "text": "Soyez patients, s'il vous plaît.",
+        "translation": "请耐心等待。",
+        "phonetic": "/swaje pasjɑ̃ sil vu plɛ/"
+      },
+      {
+        "text": "Ne lui dis pas la vérité.",
+        "translation": "别告诉他真相。",
+        "phonetic": "/nə lɥi di pa la veʁite/"
+      },
+      {
+        "text": "Donne-moi ton numéro de téléphone.",
+        "translation": "给我你的电话号码。",
+        "phonetic": "/dɔn mwa tɔ̃ nymeʁo də telefɔn/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Parles avec moi !",
+      "correct": "Parle avec moi !",
+      "correct_alt": "Parlez avec moi ! (forma usted)",
+      "explanation": "-ER动词在命令式tu形式中需去掉-s：parle、mange、écoute、regarde。许多西班牙语母语者会因类比直陈式现在时（tu parles）或西班牙语（habla无-s，但comes有-s）而误加-s。例外情况：若后接y或en，需保留-s以避免发音困难：Parles-en（说说这个）、Vas-y（去那里）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Impératif affirmatif — formes régulières",
+        "translation": "肯定命令式——规则动词",
+        "examples": [
+          {
+            "original": "Mange tes légumes !",
+            "phonetic": "/mɑ̃ʒ te leɡym/",
+            "translation": "把蔬菜吃了！",
+            "note": "manger（-ER）：tu形式去-s → mange（非manges）"
+          },
+          {
+            "original": "Finissez votre travail avant midi.",
+            "phonetic": "/finise vɔtʁ tʁavaj avɑ̃ midi/",
+            "translation": "在中午前完成你们的工作。",
+            "note": "finir（-IR）：vous形式 → finissez（规则形式）"
+          },
+          {
+            "original": "Prenons le bus, c'est plus rapide.",
+            "phonetic": "/pʁənɔ̃ lə bys sɛ ply ʁapid/",
+            "translation": "我们坐公交车吧，更快。",
+            "note": "prendre：nous形式 → prenons；表示共同行动"
+          },
+          {
+            "original": "Réponds à ses messages.",
+            "phonetic": "/ʁepɔ̃ a se mesaʒ/",
+            "translation": "回复他们的消息。",
+            "note": "répondre（-RE）：tu形式 → réponds（不额外加-s）"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Impératif négatif et irréguliers",
+        "translation": "否定命令式与不规则动词",
+        "examples": [
+          {
+            "original": "Ne sois pas en retard !",
+            "phonetic": "/nə swa pa ɑ̃ ʁətaʁ/",
+            "translation": "别迟到了！",
+            "note": "être → sois（不规则）；否定用ne...pas"
+          },
+          {
+            "original": "Aie confiance en toi.",
+            "phonetic": "/ɛ kɔ̃fjɑ̃s ɑ̃ twa/",
+            "translation": "要相信自己。",
+            "note": "avoir → aie（不规则）；相当于西班牙语‘ten’"
+          },
+          {
+            "original": "Ne parlez pas pendant l'examen.",
+            "phonetic": "/nə paʁle pa pɑ̃dɑ̃ lɛɡzamɛ̃/",
+            "translation": "考试时别说话。",
+            "note": "否定命令式vous：ne + 动词 + pas"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Impératif avec pronoms",
+        "translation": "命令式与宾语代词",
+        "examples": [
+          {
+            "original": "Appelle-moi ce soir !",
+            "phonetic": "/apɛl mwa sə swaʁ/",
+            "translation": "今晚给我打电话！",
+            "note": "肯定：代词用连字符连接动词后；me → moi"
+          },
+          {
+            "original": "Ne le fais pas sans moi !",
+            "phonetic": "/nə lə fɛ pa sɑ̃ mwa/",
+            "translation": "别不带我做这件事！",
+            "note": "否定：代词放在动词前：ne le fais pas"
+          },
+          {
+            "original": "Vas-y, tu vas réussir !",
+            "phonetic": "/va zi ty va ʁeysiʁ/",
+            "translation": "去那里，你会成功的！",
+            "note": "aller + y：恢复-s以便发音 → vas-y"
+          }
+        ]
+      }
+    ],
+    "emoji": "📢",
+    "phonetic": "",
+    "translations": {
+      "zh": "肯定与否定命令式"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les articles partitifs et les noms indénombrables / 部分冠词与不可数名词",
+    "bridge": "在西班牙语中，也存在可数（'un libro'、'dos libros'）与不可数（'agua'、'azúcar'、'música'）的区分。然而，法语要求使用特定的部分冠词（du、de la、de l'、des）来表达“某些”、“一部分”某物，相当于西班牙语中的“un poco de”或有时为零冠词。西班牙语中没有完全相同的系统，这导致了许多遗漏错误。",
+    "rule": "部分冠词（表达某物的不确定数量）：\n- du（de + le，阳性单数）：Je mange du pain.（我吃面包 / 一点面包。）\n- de la（阴性单数）：Elle boit de la limonade.（她喝柠檬水。）\n- de l'（用于元音或哑音h前）：Il boit de l'eau. / Tu veux de l'huile ?（他喝水。/ 你想要油吗？）\n- des（复数 — 不确定数量的可数名词）：J'achète des fruits.（我买水果。）\n\n何时使用部分冠词：\n- 不可数名词（物质、液体、抽象概念）：pain、eau、lait、musique、courage、temps\n- 无精确数量的食物或饮料：Je veux du café. / Il prend de la soupe.（我想要咖啡。/ 他喝汤。）\n\n何时使用不定冠词（un/une/des）：\n- 可数名词：Je mange une pomme. / Il lit un livre. / J'ai des amis.（我吃一个苹果。/ 他读一本书。/ 我有朋友。）\n\n何时使用定冠词（le/la/les）：\n- 表达一般性或类别：J'aime le café.（我喜欢咖啡 — 泛指。）/ Le courage est important.（勇气很重要。）\n- 在表示喜好的动词后（aimer、adorer、préférer、détester）：J'adore la musique.（我热爱音乐。）\n\n否定 — 关键规则：\n在否定句（ne...pas）后，du/de la/de l'/des → de（d'）：\n- Je mange du pain. → Je ne mange pas de pain.（我吃面包。→ 我不吃面包。）\n- Elle boit de la limonade. → Elle ne boit pas de limonade.（她喝柠檬水。→ 她不喝柠檬水。）\n- Il a des amis. → Il n'a pas d'amis.（他有朋友。→ 他没有朋友。）\n⚠️ 例外：与动词être连用时，冠词不变：\n- C'est du chocolat. → Ce n'est pas du chocolat.（这不是巧克力。不变为 ce n'est pas de chocolat）",
+    "concept_examples": [
+      {
+        "text": "Je bois du café chaque matin.",
+        "translation": "我每天早上喝咖啡。",
+        "phonetic": "/ʒə bwa dy kafe ʃak matɛ̃/"
+      },
+      {
+        "text": "Elle mange de la salade à midi.",
+        "translation": "她中午吃沙拉。",
+        "phonetic": "/ɛl mɑ̃ʒ də la salad a midi/"
+      },
+      {
+        "text": "Tu veux de l'eau ou du jus ?",
+        "translation": "你想要水还是果汁？",
+        "phonetic": "/ty vø də lo u dy ʒy/"
+      },
+      {
+        "text": "Il faut du courage pour faire ça.",
+        "translation": "做那件事需要勇气。",
+        "phonetic": "/il fo dy kuʁaʒ puʁ fɛʁ sa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je mange pain tous les matins.",
+      "correct": "Je mange du pain tous les matins.",
+      "correct_alt": "Je mange le pain que tu as acheté. (artículo definido — referencia específica)",
+      "explanation": "在西班牙语中，不可数名词在泛指语境下可以省略冠词（如“como pan”）。但在法语中，这属于错误用法：不可数名词前必须使用冠词。表达某物的不确定数量时，应使用部分冠词：'du pain'、'de la musique'、'de l'eau'。完全省略冠词仅出现在否定句后（ne...pas → de pain）或在表达数量的介词后（'un verre de vin'、'une tranche de pain'）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Articles partitifs — du, de la, de l'",
+        "translation": "部分冠词 — du、de la、de l'",
+        "examples": [
+          {
+            "original": "Je voudrais du riz, s'il vous plaît.",
+            "phonetic": "/ʒə vudʁɛ dy ʁi sil vu plɛ/",
+            "translation": "请给我米饭。",
+            "note": "du = de + le；riz为阳性不可数名词"
+          },
+          {
+            "original": "Tu veux de la soupe ou de la salade ?",
+            "phonetic": "/ty vø də la sup u də la salad/",
+            "translation": "你想要汤还是沙拉？",
+            "note": "de la用于阴性不可数名词"
+          },
+          {
+            "original": "Elle met de l'huile dans la poêle.",
+            "phonetic": "/ɛl mɛ də lɥil dɑ̃ la pwal/",
+            "translation": "她在平底锅里放油。",
+            "note": "de l'用于元音或哑音h前；huile为阴性"
+          },
+          {
+            "original": "Il faut de la patience pour apprendre une langue.",
+            "phonetic": "/il fo də la pasjɑ̃s puʁ apʁɑ̃dʁ yn lɑ̃ɡ/",
+            "translation": "学习一门语言需要耐心。",
+            "note": "抽象不可数名词也使用部分冠词"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Partitif vs article défini — généralité vs quantité",
+        "translation": "部分冠词 vs 定冠词 — 泛指 vs 数量",
+        "examples": [
+          {
+            "original": "J'aime le chocolat. / Je mange du chocolat.",
+            "phonetic": "/ʒɛm lə ʃɔkɔla / ʒə mɑ̃ʒ dy ʃɔkɔla/",
+            "translation": "我喜欢巧克力。/ 我现在吃巧克力。",
+            "note": "le = 泛指（动词aimer）；du = 不确定数量"
+          },
+          {
+            "original": "La musique est partout. / Il écoute de la musique.",
+            "phonetic": "/la myzik ɛ paʁtu / il ekut də la myzik/",
+            "translation": "音乐无处不在。/ 他听音乐。",
+            "note": "la musique（泛指类别）vs de la musique（具体行为）"
+          },
+          {
+            "original": "Le café me réveille. / Je prends du café le matin.",
+            "phonetic": "/lə kafe mə ʁevɛj / ʒə pʁɑ̃ dy kafe lə matɛ̃/",
+            "translation": "咖啡让我清醒。/ 我早上喝咖啡。",
+            "note": "le café（作为物质泛指）vs du café（具体份额）"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Partitif à la forme négative et expressions de quantité",
+        "translation": "部分冠词的否定形式与数量表达",
+        "examples": [
+          {
+            "original": "Je ne mange pas de viande.",
+            "phonetic": "/ʒə nə mɑ̃ʒ pa də vjɑ̃d/",
+            "translation": "我不吃肉。",
+            "note": "否定句：du/de la/des → de；viande为不可数名词"
+          },
+          {
+            "original": "Elle n'a pas d'argent pour partir en vacances.",
+            "phonetic": "/ɛl na pa daʁʒɑ̃ puʁ paʁtiʁ ɑ̃ vakɑ̃s/",
+            "translation": "她没有钱去度假。",
+            "note": "否定句中de l' → d'（省音）；argent为不可数名词"
+          },
+          {
+            "original": "Un verre de vin, un kilo de farine et une bouteille d'huile.",
+            "phonetic": "/œ̃ vɛʁ də vɛ̃ œ̃ kilo də faʁin e yn butɛj dɥil/",
+            "translation": "一杯酒、一公斤面粉和一瓶油。",
+            "note": "在表达数量的短语后：部分冠词 → 简单de"
+          }
+        ]
+      }
+    ],
+    "emoji": "🫙",
+    "phonetic": "",
+    "translations": {
+      "zh": "部分冠词与不可数名词"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les indéfinis : / 不定代词：quelque(s)、certain(s)、plusieurs、chaque、tout/toute/tous/toutes",
+    "bridge": "在西班牙语中，存在量词和不定代词，如'algún/alguna'、'cierto/cierta'、'varios/varias'、'cada'和'todo/toda/todos/todas'。法语也有对应的表达，但有特殊之处：'chaque'是不变词（无复数形式），'tout'在性和数上变化，而'quelque(s)'的用法比西班牙语的'alguno'更受限。",
+    "rule": "QUELQUE(S) — algún/alguna/algunos/algunas:\n- 单数：quelque（少见，多用于书面语）：quelque chose（某物）、quelque part（在某处）\n- 复数：quelques = algunos/as：J'ai quelques amis.（我有几个朋友。）\n- 注意：日常用语中，'quelques'比单数形式更常用。\n\nCERTAIN(S) / CERTAINE(S) — cierto/a/os/as, algún/alguna:\n- 阳性单数：certain | 阴性单数：certaine\n- 阳性复数：certains | 阴性复数：certaines\n- Certains étudiants travaillent beaucoup.（某些学生学习很努力。）\n- Dans certains cas, c'est difficile.（在某些情况下，这很困难。）\n\nPLUSIEURS — varios/varias（性不变）：\n- J'ai plusieurs questions.（我有好几个问题。）\n- Ils ont plusieurs enfants.（他们有好几个孩子。）\n- 注意：'plusieurs'总是复数，无单数形式。\n\nCHAQUE — cada（总是单数，不变词）：\n- chaque jour（每天）| chaque personne（每个人）\n- Chaque élève a un livre.（每个学生都有一本书。）\n- 切勿：~~chaques~~ — 无复数形式。\n\nTOUT / TOUTE / TOUS / TOUTES — todo/toda/todos/todas:\n- tout + 定冠词阳性单数：tout le monde（所有人）、tout le temps（总是）\n- toute + 定冠词阴性单数：toute la journée（整天）、toute la classe（全班）\n- tous + 定冠词阳性复数：tous les jours（每天）、tous les ans（每年）\n- toutes + 定冠词阴性复数：toutes les semaines（每周）\n- 注意：'tous'作为代词时，末尾的-s发音（/tus/）；作为限定词时不发音（/tu/）。",
+    "concept_examples": [
+      {
+        "text": "J'ai quelques questions à poser.",
+        "translation": "我有一些问题要问。",
+        "phonetic": "/ʒe kɛlkə kɛstjɔ̃ a poze/"
+      },
+      {
+        "text": "Certaines personnes préfèrent le silence.",
+        "translation": "某些人更喜欢安静。",
+        "phonetic": "/sɛʁtɛn pɛʁsɔn pʁefɛʁ lə silɑ̃s/"
+      },
+      {
+        "text": "Il vient ici plusieurs fois par semaine.",
+        "translation": "他一周来这里好几次。",
+        "phonetic": "/il vjɛ̃ isi plyzjœʁ fwa paʁ səmɛn/"
+      },
+      {
+        "text": "Chaque matin, je bois un café.",
+        "translation": "每天早上，我都喝一杯咖啡。",
+        "phonetic": "/ʃak matɛ̃ ʒə bwa œ̃ kafe/"
+      },
+      {
+        "text": "Tous les enfants aiment jouer.",
+        "translation": "所有的孩子都喜欢玩耍。",
+        "phonetic": "/tu le zɑ̃fɑ̃ ɛm ʒwe/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Chaques jours je fais du sport.",
+      "correct": "Chaque jour je fais du sport.",
+      "correct_alt": "Tous les jours je fais du sport.",
+      "explanation": "'Chaque'在法语中是不变词：永远不加-s表示复数，且后面总是跟单数名词（'chaque jour'、'chaque personne'）。常见错误是受西班牙语影响加上-s（'cada'也不变，但混淆源于'每天'也可用'tous les jours'表达，后者确实用复数）。若要表达习惯性频率，'chaque jour'和'tous les jours'均正确。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Quelques et plusieurs",
+        "translation": "一些/几个和多个",
+        "examples": [
+          {
+            "original": "J'ai quelques minutes pour toi.",
+            "phonetic": "/ʒe kɛlkə minyt puʁ twa/",
+            "translation": "我有几分钟时间给你。",
+            "note": "quelques = 数量少且不确定"
+          },
+          {
+            "original": "Elle a plusieurs robes pour la fête.",
+            "phonetic": "/ɛl a plyzjœʁ ʁɔb puʁ la fɛt/",
+            "translation": "她有好几件礼服参加派对。",
+            "note": "plusieurs = 多于一个，但不具体数量"
+          },
+          {
+            "original": "Il a lu quelques pages du livre.",
+            "phonetic": "/il a ly kɛlkə paʒ dy livʁ/",
+            "translation": "他读了这本书的几页。",
+            "note": "quelques总是修饰复数名词"
+          },
+          {
+            "original": "Nous avons visité plusieurs musées.",
+            "phonetic": "/nu zavɔ̃ vizite plyzjœʁ myze/",
+            "translation": "我们参观了多个博物馆。",
+            "note": "plusieurs性不变：阳性和阴性形式相同"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Certain(s)/certaine(s) et chaque",
+        "translation": "某些/每个",
+        "examples": [
+          {
+            "original": "Certains jours, je me sens fatigué.",
+            "phonetic": "/sɛʁtɛ̃ ʒuʁ ʒə mə sɑ̃ fatiɡe/",
+            "translation": "某些日子我感到很累。",
+            "note": "certains + 阳性复数名词"
+          },
+          {
+            "original": "Certaines questions sont très personnelles.",
+            "phonetic": "/sɛʁtɛn kɛstjɔ̃ sɔ̃ tʁɛ pɛʁsɔnɛl/",
+            "translation": "某些问题非常私人。",
+            "note": "certaines + 阴性复数名词；性数一致"
+          },
+          {
+            "original": "Chaque personne a ses propres opinions.",
+            "phonetic": "/ʃak pɛʁsɔn a se pʁɔpʁ ɔpinjɔ̃/",
+            "translation": "每个人都有自己的观点。",
+            "note": "chaque不变；动词用单数"
+          },
+          {
+            "original": "Il faut vérifier chaque détail.",
+            "phonetic": "/il fo veʁifje ʃak detaj/",
+            "translation": "每一个细节都要核对。",
+            "note": "chaque在名词前永远不加冠词"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Tout / toute / tous / toutes",
+        "translation": "全部/所有",
+        "examples": [
+          {
+            "original": "Tout le monde est invité.",
+            "phonetic": "/tu lə mɔ̃d ɛ t‿ɛ̃vite/",
+            "translation": "所有人都受到邀请。",
+            "note": "tout le monde = 固定表达；动词用单数"
+          },
+          {
+            "original": "Elle travaille toute la journée sans pause.",
+            "phonetic": "/ɛl tʁavaj tut la ʒuʁne sɑ̃ poz/",
+            "translation": "她整天不停地工作。",
+            "note": "toute + 阴性单数定冠词"
+          },
+          {
+            "original": "Tous les élèves ont réussi l'examen.",
+            "phonetic": "/tu le zelɛv ɔ̃ ʁeysi lɛɡzamɛ̃/",
+            "translation": "所有学生都通过了考试。",
+            "note": "tous + 阳性复数定冠词；此处tous发音为/tu/"
+          },
+          {
+            "original": "Je te souhaite toutes mes félicitations !",
+            "phonetic": "/ʒə tə sɥɛt tut me felisitasjɔ̃/",
+            "translation": "我祝你所有的祝福！",
+            "note": "toutes + 阴性复数名词（无中间定冠词）"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "zh": "不定代词：quelque(s)、certain(s)、plusieurs、chaque、tout/toute/tous/toutes"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "数量限定词：beaucoup de、trop de、assez de、peu de、un peu de",
+    "bridge": "在西班牙语中，我们使用诸如'mucho/a'、'demasiado/a'、'bastante'、'poco/a'、'un poco de'等表达方式，这些词需要与名词保持性数一致。而在法语中，这些表达数量的词总是跟在'de'后面（不加冠词），并且是不变的：它们不随后面名词的性数变化而变化。",
+    "rule": "基本规则：数量表达 + DE + 名词（无冠词）\n\nBEAUCOUP DE — 很多/许多（可数或不可数名词）：\n- beaucoup de temps（很多时间） | beaucoup de gens（很多人）\n- 绝对不能说：~~beaucoup du / beaucoup de la / beaucoup des~~\n\nTROP DE — 太多/过多（可数或不可数名词）：\n- trop de bruit（太吵） | trop de voitures（太多车）\n- 贬义：表示过量。\n\nASSEZ DE — 足够的/相当多（可数或不可数名词）：\n- assez de place（足够的空间） | assez d'argent（足够的钱）\n- 可以是肯定（'足够'）或否定（否定句中表示'不够'）。\n\nPEU DE — 很少/几乎没有（可数或不可数名词）：\n- peu de temps（很少时间） | peu d'amis（几乎没有朋友）\n- 贬义：表示不足。\n\nUN PEU DE — 一点点/少量（仅用于不可数名词或物质名词）：\n- un peu de sucre（一点糖） | un peu de patience（一点耐心）\n- 仅用于不可数名词或物质名词。\n- 对比：peu de = 负面（不足）；un peu de = 正面（少量）。\n\n否定句中：ne...pas + beaucoup/assez de + 名词：\n- Il n'a pas beaucoup de travail.（他工作不多。）\n- Elle n'a pas assez d'argent.（她钱不够。）\n\n形容词用法：beaucoup/trop/assez/peu 单独使用（不加'de'）：\n- C'est trop cher.（太贵了。）— 形容词\n- Il travaille beaucoup.（他工作很多。）— 副词",
+    "concept_examples": [
+      {
+        "text": "Il y a beaucoup de monde au marché.",
+        "translation": "市场里有很多人。",
+        "phonetic": "/il ja boku də mɔ̃d o maʁʃe/"
+      },
+      {
+        "text": "Tu manges trop de sucre !",
+        "translation": "你吃太多糖了！",
+        "phonetic": "/ty mɑ̃ʒ tʁo də sykʁ/"
+      },
+      {
+        "text": "J'ai assez de temps pour finir.",
+        "translation": "我有足够的时间完成。",
+        "phonetic": "/ʒe ase də tɑ̃ puʁ finiʁ/"
+      },
+      {
+        "text": "Il parle peu de ses problèmes.",
+        "translation": "他很少谈论自己的问题。",
+        "phonetic": "/il paʁl pø də se pʁɔblɛm/"
+      },
+      {
+        "text": "Ajoute un peu de sel dans la soupe.",
+        "translation": "在汤里加一点盐。",
+        "phonetic": "/aʒut œ̃ pø də sɛl dɑ̃ la sup/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Il boit beaucoup du café.",
+      "correct": "Il boit beaucoup de café.",
+      "correct_alt": "",
+      "explanation": "最常见的错误：西班牙语使用者倾向于在数量表达后加上部分冠词或定冠词（如'beaucoup du'、'trop de la'、'assez des'）。绝对规则是：在beaucoup、trop、assez、peu、un peu后面，只能用'de'（元音前用'd''），绝对不能用'du'、'de la'、'de l''或'des'。冠词必须完全省略。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Beaucoup de et trop de",
+        "translation": "很多/许多与太多/过多",
+        "examples": [
+          {
+            "original": "Il y a beaucoup de voitures en ville.",
+            "phonetic": "/il ja boku də vwatyr ɑ̃ vil/",
+            "translation": "城市里有很多车。",
+            "note": "beaucoup de + 复数名词；无冠词"
+          },
+          {
+            "original": "J'ai beaucoup d'amis à Paris.",
+            "phonetic": "/ʒe boku dami a paʁi/",
+            "translation": "我在巴黎有很多朋友。",
+            "note": "beaucoup d' + 元音；'de'省音"
+          },
+          {
+            "original": "Tu fais trop de bruit !",
+            "phonetic": "/ty fɛ tʁo də bʁɥi/",
+            "translation": "你太吵了！",
+            "note": "trop de = 过量；不可数名词单数"
+          },
+          {
+            "original": "Elle a trop de choses à faire aujourd'hui.",
+            "phonetic": "/ɛl a tʁo də ʃoz a fɛʁ oʒuʁdɥi/",
+            "translation": "她今天有太多事情要做。",
+            "note": "trop de + 复数名词；形式相同"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Assez de et peu de",
+        "translation": "足够的/相当多与很少/几乎没有",
+        "examples": [
+          {
+            "original": "Est-ce que tu as assez d'argent ?",
+            "phonetic": "/ɛs kə ty a ase daʁʒɑ̃/",
+            "translation": "你有足够的钱吗？",
+            "note": "assez d' + 元音；argent（钱）为阳性不可数名词"
+          },
+          {
+            "original": "Nous n'avons pas assez de chaises.",
+            "phonetic": "/nu navɔ̃ pa ase də ʃɛz/",
+            "translation": "我们椅子不够。",
+            "note": "否定句：ne...pas assez de + 名词"
+          },
+          {
+            "original": "Il y a peu de soleil en hiver.",
+            "phonetic": "/il ja pø də sɔlɛj ɑ̃ ivɛʁ/",
+            "translation": "冬天阳光很少。",
+            "note": "peu de = 不足，语气负面或中性"
+          },
+          {
+            "original": "Elle a peu d'expérience mais beaucoup de motivation.",
+            "phonetic": "/ɛl a pø dɛksperjɑ̃s mɛ boku də mɔtivasjɔ̃/",
+            "translation": "他经验很少，但动力很足。",
+            "note": "同一句中对比peu de / beaucoup de"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Un peu de et nuances d'usage",
+        "translation": "一点点与使用细节",
+        "examples": [
+          {
+            "original": "Tu veux un peu de lait dans ton thé ?",
+            "phonetic": "/ty vø œ̃ pø də lɛ dɑ̃ tɔ̃ te/",
+            "translation": "你想在茶里加点牛奶吗？",
+            "note": "un peu de = 少量，语气正面；仅用于不可数名词"
+          },
+          {
+            "original": "J'ai un peu de temps libre cet après-midi.",
+            "phonetic": "/ʒe œ̃ pø də tɑ̃ libʁ sɛt apʁɛmidi/",
+            "translation": "今天下午我有一点空闲时间。",
+            "note": "对比：peu de temps（很少时间，负面）vs un peu de temps（一点时间，正面）"
+          },
+          {
+            "original": "Il y a trop de pollution et pas assez de parcs.",
+            "phonetic": "/il ja tʁo də polysjɔ̃ e pa ase də paʁk/",
+            "translation": "污染太严重，公园也不够。",
+            "note": "数量限定词的对比使用"
+          },
+          {
+            "original": "Mange un peu de légumes, c'est bon pour la santé.",
+            "phonetic": "/mɑ̃ʒ œ̃ pø də leɡym sɛ bɔ̃ puʁ la sɑ̃te/",
+            "translation": "吃点蔬菜，对健康有好处。",
+            "note": "祈使句 + un peu de；蔬菜（复数）在此为口语用法"
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "zh": "数量限定词：beaucoup de、trop de、assez de、peu de、un peu de"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "关系从句：qui、que、où",
+    "bridge": "法语中的关系从句与西班牙语类似（使用‘que’、‘quien’、‘donde’），但有一个关键区别：法语需要根据关系代词在从句中的语法功能选择‘qui’或‘que’。‘qui’代替主语；‘que’代替直接宾语；‘où’代替地点或时间。",
+    "rule": "QUI — 主语关系代词（相当于‘que/quien’作主语）：\n- 代替关系从句中的主语（发出动作的人或事物）。\n- C'est l'homme qui parle. （就是那个说话的人。） → ‘qui’是‘parle’的主语\n- J'ai une amie qui habite à Lyon. （我有一个住在里昂的朋友。）\n- 绝对不能省略：不能像英语那样省略（如‘the man who speaks’ = ‘the man speaks’）。\n\nQUE (QU' 元音前) — 直接宾语关系代词：\n- 代替关系从句中的直接宾语（动作承受者）。\n- Le livre que je lis est intéressant. （我读的那本书很有趣。） → ‘que’是‘lis’的宾语\n- La fille que tu connais s'appelle Marie. （你认识的那个女孩叫玛丽。）\n- 过去分词一致：在复合过去时中，如果‘que’位于动词前，过去分词与‘que’保持一致：\n  La robe qu'elle a achetée est belle. （她买的那条裙子很漂亮。） → ‘achetée’与‘robe’（阴性）一致\n\nOÙ — 地点或时间关系代词：\n- 代替地点补语（‘donde’）或时间补语（‘cuando’、‘en que’）：\n  C'est la ville où je suis né. （这是我出生的城市。）\n  Le jour où je l'ai rencontré, il pleuvait. （我遇到他的那天，正在下雨。）\n- 相当于‘dans laquelle’、‘au moment où’等，但形式更简洁。\n\nQUI vs QUE 的小技巧：\n- 如果关系代词后面直接跟着一个**动词变位形式** → QUI（主语）\n- 如果关系代词后面跟着一个**主语（名词/代词）** → QUE（宾语）",
+    "concept_examples": [
+      {
+        "text": "J'ai un ami qui parle trois langues.",
+        "translation": "我有一个朋友，他会说三种语言。",
+        "phonetic": "/ʒe œ̃ nami ki paʁl tʁwa lɑ̃ɡ/"
+      },
+      {
+        "text": "Le film que nous regardons est génial.",
+        "translation": "我们正在看的电影很棒。",
+        "phonetic": "/lə film kə nu ʁəɡaʁdɔ̃ ɛ ʒenjal/"
+      },
+      {
+        "text": "C'est la maison où j'ai grandi.",
+        "translation": "这是我长大的房子。",
+        "phonetic": "/sɛ la mɛzɔ̃ u ʒe ɡʁɑ̃di/"
+      },
+      {
+        "text": "La femme qui chante est ma sœur.",
+        "translation": "唱歌的那个女人是我姐姐。",
+        "phonetic": "/la fam ki ʃɑ̃t ɛ ma sœʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Le livre que j'aime est sur la table. → Le livre qui j'aime...",
+      "correct": "Le livre que j'aime est sur la table.",
+      "correct_alt": "",
+      "explanation": "最常见的错误是将‘qui’和‘que’混用。关键在于分析功能：在‘Le livre que j'aime’中，‘livre’是‘j'aime’的**宾语**（我喜欢这本书），所以用‘que’。反之，如果是‘Le livre qui est sur la table’，‘livre’是‘est’的**主语**，所以用‘qui’。快速判断法：关系代词后面是否跟着明确的主语？→ 用‘que’。关系代词后面是否直接跟着动词（无主语）？→ 用‘qui’。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Qui — pronom relatif sujet",
+        "translation": "Qui — 主语关系代词",
+        "examples": [
+          {
+            "original": "C'est le professeur qui explique très bien.",
+            "phonetic": "/sɛ lə pʁɔfɛsœʁ ki ɛksplik tʁɛ bjɛ̃/",
+            "translation": "就是那位解释得很清楚的老师。",
+            "note": "qui + 直接动词；老师是解释的人"
+          },
+          {
+            "original": "J'ai un chien qui s'appelle Max.",
+            "phonetic": "/ʒe œ̃ ʃjɛ̃ ki sapɛl maks/",
+            "translation": "我有一只叫Max的狗。",
+            "note": "qui是s'appelle的主语；反身动词"
+          },
+          {
+            "original": "Les gens qui courent dans le parc sont en forme.",
+            "phonetic": "/le ʒɑ̃ ki kuʁ dɑ̃ lə paʁk sɔ̃ ɑ̃ fɔʁm/",
+            "translation": "在公园跑步的人很健康。",
+            "note": "qui可指人或物"
+          },
+          {
+            "original": "Il cherche une personne qui comprend le russe.",
+            "phonetic": "/il ʃɛʁʃ yn pɛʁsɔn ki kɔ̃pʁɑ̃ lə ʁys/",
+            "translation": "找一个懂俄语的人。",
+            "note": "西班牙语中隐含虚拟语气；法语用直陈式"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Que — pronom relatif objet",
+        "translation": "Que — 直接宾语关系代词",
+        "examples": [
+          {
+            "original": "Le café que tu m'as apporté est excellent.",
+            "phonetic": "/lə kafe kə ty ma apɔʁte ɛ t‿ɛksɛlɑ̃/",
+            "translation": "你给我带的咖啡很棒。",
+            "note": "que = ‘apporté’的宾语；从句主语是‘tu’"
+          },
+          {
+            "original": "La chanson qu'elle chante est magnifique.",
+            "phonetic": "/la ʃɑ̃sɔ̃ kɛl ʃɑ̃t ɛ maɲifik/",
+            "translation": "她唱的那首歌很美妙。",
+            "note": "qu' + 元音（省音）；歌曲是‘chante’的宾语"
+          },
+          {
+            "original": "C'est le cadeau que j'ai reçu pour mon anniversaire.",
+            "phonetic": "/sɛ lə kado kə ʒe ʁəsy puʁ mɔ̃ nanivɛʁsɛʁ/",
+            "translation": "这是我生日时收到的礼物。",
+            "note": "que + 复合过去时；此处无一致，因为‘que’在分词前 → reçu不变（阳性）"
+          },
+          {
+            "original": "Les photos qu'il a prises sont superbes.",
+            "phonetic": "/le foto kil a pʁiz sɔ̃ sypɛʁb/",
+            "translation": "他拍的照片很棒。",
+            "note": "一致：prises与‘photos’（阴性复数）一致，因为‘qu’宾语在分词前"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Où — pronom relatif de lieu et de temps",
+        "translation": "Où — 地点和时间关系代词",
+        "examples": [
+          {
+            "original": "Voilà le restaurant où nous nous sommes rencontrés.",
+            "phonetic": "/vwala lə ʁɛstoʁɑ̃ u nu nu sɔm ʁɑ̃kɔ̃tʁe/",
+            "translation": "那儿就是我们认识的餐厅。",
+            "note": "où = 地点；代替‘dans ce restaurant’"
+          },
+          {
+            "original": "Le pays où il est né s'appelle le Maroc.",
+            "phonetic": "/lə pei u il ɛ ne sapɛl lə maʁɔk/",
+            "translation": "他出生的那个国家叫摩洛哥。",
+            "note": "où与naître的复合过去时连用；出生地"
+          },
+          {
+            "original": "Je me souviens du jour où tu es arrivée.",
+            "phonetic": "/ʒə mə suvjɛ̃ dy ʒuʁ u ty ɛ aʁive/",
+            "translation": "我记得你到来的那天。",
+            "note": "où具有时间意义；相当于‘en que / cuando’"
+          },
+          {
+            "original": "C'est une époque où la vie était plus simple.",
+            "phonetic": "/sɛ t‿yn epɔk u la vi etɛ ply sɛ̃pl/",
+            "translation": "那是一个生活更简单的时代。",
+            "note": "où表示时间，与未完成过去时连用；‘époque’作为时间先行词"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "zh": "关系从句：qui（主语）、que（宾语）、où（地点/时间）"
+    },
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A2_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Beaucoup, très, trop / 很多、非常、太过",
+    "bridge": "在西班牙语中，'mucho'既可表示数量（'tengo mucho trabajo'），也可表示强度（'es muy bueno'）。而在法语中，需要区分'beaucoup'（数量）和'très'（强度）。此外，'trop'表示'太多'或'过于'，与西班牙语的'muy'容易混淆。需要注意的是，'beaucoup'不可用于修饰形容词，而'très'不可用于修饰名词。",
+    "rule": "在法语中，表示'很多/许多'时，名词前需用'beaucoup de'（如：'beaucoup de temps'）。修饰形容词或副词时用'très'（如：'très intéressant'）。'trop'表示'太多'或'过于'，既可用于名词（'trop de bruit'），也可用于形容词或副词（'trop cher'）表示过量。'beaucoup'不可修饰形容词，'très'不可修饰名词。此外，'beaucoup de'遇到元音或哑音h时需省略de变为'beaucoup d''。在否定句中，'beaucoup'变为'pas beaucoup'（不多），且不加'de'。",
+    "concept_examples": [
+      {
+        "text": "J'ai beaucoup de livres.",
+        "translation": "我有很多书。",
+        "phonetic": "/ʒ‿e bo.ku də livʁ/"
+      },
+      {
+        "text": "Il est très intelligent.",
+        "translation": "他非常聪明。",
+        "phonetic": "/il ɛ tʁɛ ɛ̃tɛliʒɑ̃/"
+      },
+      {
+        "text": "Elle mange trop de gâteaux.",
+        "translation": "她吃了太多蛋糕。",
+        "phonetic": "/ɛl mɑ̃ʒ tʁo də ɡɑto/"
+      },
+      {
+        "text": "Nous avons beaucoup d'amis.",
+        "translation": "我们有很多朋友。",
+        "phonetic": "/nu zavɔ̃ bo.ku d‿ami/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis beaucoup fatigué.",
+      "correct": "Je suis très fatigué.",
+      "correct_alt": "Je suis trop fatigué. (si exageras)",
+      "explanation": "西班牙语中可以说'estoy muy cansado'，但法语中'beaucoup'不可用于修饰形容词。修饰形容词时需用'très'（非常）。若要表达'太累了'，则用'trop'。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Beaucoup de (cantidad)",
+        "translation": "Mucho/a/os/as（数量）",
+        "examples": [
+          {
+            "original": "Je bois beaucoup d'eau.",
+            "phonetic": "/ʒə bwa bo.ku d‿o/",
+            "translation": "我喝了很多水。",
+            "note": "注意'beaucoup de'用于不可数名词，如'eau（水）。"
+          },
+          {
+            "original": "Tu as beaucoup de travail.",
+            "phonetic": "/ty a bo.ku də tʁavaj/",
+            "translation": "你有很多工作。",
+            "note": "'Beaucoup de'用于表达数量，此处'travail'（工作）为不可数名词。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Très (intensidad)",
+        "translation": "Muy（强度）",
+        "examples": [
+          {
+            "original": "Ce film est très intéressant.",
+            "phonetic": "/sə film ɛ tʁɛ ɛ̃teʁɛsɑ̃/",
+            "translation": "这部电影非常有趣。",
+            "note": "'Très'修饰形容词'intéressant'（有趣的）。"
+          },
+          {
+            "original": "Elle parle très vite.",
+            "phonetic": "/ɛl paʁl tʁɛ vit/",
+            "translation": "她说话非常快。",
+            "note": "'Très'也可修饰副词如'vite'（快地）。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Trop (exceso)",
+        "translation": "Demasiado（过量）",
+        "examples": [
+          {
+            "original": "Il y a trop de monde ici.",
+            "phonetic": "/il i a tʁo də mɔ̃d isi/",
+            "translation": "这里人太多了。",
+            "note": "'Trop de'用于名词前表示过量。"
+          },
+          {
+            "original": "Ce gâteau est trop sucré.",
+            "phonetic": "/sə ɡɑto ɛ tʁo sykʁe/",
+            "translation": "这个蛋糕太甜了。",
+            "note": "'Trop'修饰形容词表示品质过量。"
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "zh": "很多、非常、太过 / 数量词"
+    }
+  }
+]

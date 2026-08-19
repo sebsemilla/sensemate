@@ -1,0 +1,1395 @@
+[
+  {
+    "id": "fr_B2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Gemischte Konditionalsätze / Conditionnels mixtes",
+    "bridge": "En allemand, les conditionnels mixtes s'expriment généralement par des combinaisons de temps verbaux (par exemple, 'Si j'avais étudié, j'aurais maintenant le travail'). En français, la structure est similaire mais avec des différences clés : l'utilisation du conditionnel passé pour exprimer la conséquence et du plus-que-parfait pour la condition, tout en respectant l'ordre des propositions. Attention à ne pas confondre avec les conditionnels simples et à bien distinguer les situations irréelles dans le présent et dans le passé.",
+    "rule": "Les conditionnels mixtes en allemand combinent une condition irréelle dans le passé avec une conséquence irréelle dans le présent, ou inversement. Ils se construisent avec 'wenn' (si) + une proposition subordonnée où le verbe est placé à la fin, et la proposition principale avec le verbe conjugué en deuxième position. Pour exprimer le passé, on utilise le Konjunktiv II des verbes auxiliaires (hätte, wäre) + Partizip II ; pour le présent, on utilise 'würde' + infinitif ou le Konjunktiv II des verbes modaux (könnte, sollte, müsste). Exemple : 'Wenn ich gelernt hätte, wäre ich jetzt besser vorbereitet.' (Si j'avais étudié, je serais maintenant mieux préparé). Dans le cas inverse : 'Wenn ich Zeit hätte, würde ich gestern mitgekommen sein.' (Si j'avais le temps, je serais venu hier). Exception : les verbes modaux et certains verbes courants (haben, sein, wissen) forment le Konjunktiv II directement (hätte, wäre, wüsste) au lieu d'utiliser 'würde'. Dans la subordonnée, le verbe conjugué se place à la fin ; dans la principale, le verbe conjugué est en deuxième position. Au niveau B2, il est important de bien distinguer l'irréalité présente (impossible dans le présent) et l'irréalité passée (qui ne s'est pas produite).",
+    "concept_examples": [
+      {
+        "text": "Wenn ich mehr geschlafen hätte, wäre ich jetzt nicht so müde.",
+        "translation": "Si j'avais dormi plus, je ne serais pas aussi fatigué maintenant.",
+        "phonetic": "vɛn ɪç meːɐ̯ ɡəˈʃlaːfən ˈhɛtə, ˈvɛːʁə ɪç jɛtst nɪçt zoː myːdə"
+      },
+      {
+        "text": "Wenn du früher gekommen wärst, könntest du jetzt mit uns essen.",
+        "translation": "Si tu étais venu plus tôt, tu pourrais manger avec nous maintenant.",
+        "phonetic": "vɛn duː ˈfʁyːɐ̯ ɡəˈkɔmən ˈvɛːɐ̯st, ˈkœntəst duː jɛtst mɪt ʊns ˈɛsən"
+      },
+      {
+        "text": "Wenn ich reich wäre, hätte ich gestern das Haus gekauft.",
+        "translation": "Si j'étais riche, j'aurais acheté la maison hier.",
+        "phonetic": "vɛn ɪç ʁaɪ̯ç ˈvɛːʁə, ˈhɛtə ɪç ˈɡɛstɐn das haʊ̯s ɡəˈkaʊ̯ft"
+      },
+      {
+        "text": "Wenn sie Deutsch sprechen würde, hätte sie die Stelle bekommen.",
+        "translation": "Si je parlais allemand, j'aurais obtenu le poste.",
+        "phonetic": "vɛn ziː dɔʏ̯tʃ ˈʃpʁɛçən ˈvʏʁdə, ˈhɛtə ziː diː ˈʃtɛlə bəˈkɔmən"
+      }
+    ],
+    "common_error": {
+      "wrong": "Wenn ich hätte mehr Zeit, würde ich gestern gekommen.",
+      "correct": "Wenn ich mehr Zeit hätte, wäre ich gestern gekommen.",
+      "correct_alt": "Hätte ich mehr Zeit gehabt, wäre ich gestern gekommen.",
+      "explanation": "L'erreur typique consiste à placer le verbe dans une position incorrecte : dans la subordonnée introduite par 'wenn', le verbe conjugué doit se trouver à la fin. De plus, pour exprimer une condition passée non réalisée, il faut utiliser 'hätte + Partizip II' au lieu de 'würde + Infinitiv'. En français, on dirait 'Si j'avais plus de temps, je serais venu', mais en allemand, la condition se réfère au passé (je n'ai pas eu le temps), donc on utilise 'hätte gehabt' ou simplement 'gehabt hätte' dans la forme correcte. Il est également fréquent de confondre 'würde' avec 'wäre' : 'wäre' est le Konjunktiv II de 'sein' et 'hätte' celui de 'haben'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Bedingungssatz mit Konjunktiv II (Passiv)",
+        "translation": "Phrase conditionnelle avec Konjunktiv II (passé)",
+        "examples": [
+          {
+            "original": "Wenn ich das gewusst hätte, wäre ich nicht gekommen.",
+            "phonetic": "vɛn ɪç das ɡəˈvʊst ˈhɛtə, ˈvɛːʁə ɪç nɪçt ɡəˈkɔmən",
+            "translation": "Si je l'avais su, je ne serais pas venu.",
+            "note": "Dans la proposition subordonnée (si...), on utilise 'hätte' + Partizip II ; dans la principale, 'wäre' + Partizip II pour les verbes de mouvement."
+          },
+          {
+            "original": "Wenn wir früher losgefahren wären, hätten wir den Zug erreicht.",
+            "phonetic": "vɛn viːɐ̯ ˈfʁyːɐ̯ ˈloːsɡəfaːʁən ˈvɛːɐ̯n, ˈhɛtn viːɐ̯ deːn tsuːk ɛɐ̯ˈʁaɪ̯çt",
+            "translation": "Si nous étions partis plus tôt, nous aurions attrapé le train.",
+            "note": "Observez l'utilisation de 'wären' pour les verbes indiquant un changement d'état ou de mouvement."
+          },
+          {
+            "original": "Wenn du mir geholfen hättest, hätte ich früher fertig sein können.",
+            "phonetic": "vɛn duː miːɐ̯ ɡəˈhɔlfən ˈhɛtəst, ˈhɛtə ɪç ˈfʁyːɐ̯ ˈfɛʁtɪç zaɪ̯n ˈkœnən",
+            "translation": "Si tu m'avais aidé, j'aurais pu finir plus tôt.",
+            "note": "Les verbes modaux au passé se placent à la fin à l'infinitif."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Gemischte Bedingungen (Vergangenheit + Gegenwart)",
+        "translation": "Conditions mixtes (passé + présent)",
+        "examples": [
+          {
+            "original": "Wenn ich Medizin studiert hätte, wäre ich jetzt Arzt.",
+            "phonetic": "vɛn ɪç mediˈt͡siːn ʃtuˈdiːɐ̯t ˈhɛtə, ˈvɛːʁə ɪç jɛtst aːɐ̯t͡st",
+            "translation": "Si j'avais étudié la médecine, je serais médecin maintenant.",
+            "note": "Ici, la condition est au passé (je n'ai pas étudié) et la conséquence est au présent (je ne suis pas médecin)."
+          },
+          {
+            "original": "Wenn er den Wecker gestellt hätte, würde er jetzt nicht schlafen.",
+            "phonetic": "vɛn eːɐ̯ deːn ˈvɛkɐ ɡəˈʃtɛlt ˈhɛtə, ˈvʏʁdə eːɐ̯ jɛtst nɪçt ˈʃlaːfən",
+            "translation": "Si j'avais mis le réveil, je ne serais pas en train de dormir maintenant.",
+            "note": "On combine 'hätte' + Partizip II (passé) avec 'würde' + Infinitiv (présent)."
+          },
+          {
+            "original": "Wenn wir das Auto nicht verkauft hätten, könnten wir jetzt nach Italien fahren.",
+            "phonetic": "vɛn viːɐ̯ das ˈaʊ̯to nɪçt fɛɐ̯ˈkaʊ̯ft ˈhɛtn, ˈkœntn viːɐ̯ jɛtst naːx ʔitaˈli̯eːn ˈfaːʁən",
+            "translation": "Si nous n'avions pas vendu la voiture, nous pourrions aller en Italie maintenant.",
+            "note": "Au lieu de 'würde', on utilise le Konjunktiv II de 'können' (könnte) pour exprimer une possibilité."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Gemischte Bedingungen (Gegenwart + Vergangenheit)",
+        "translation": "Conditions mixtes (présent + passé)",
+        "examples": [
+          {
+            "original": "Wenn ich mehr Zeit hätte, wäre ich gestern ins Kino gegangen.",
+            "phonetic": "vɛn ɪç meːɐ̯ tsaɪ̯t ˈhɛtə, ˈvɛːʁə ɪç ˈɡɛstɐn ɪns ˈkiːnoː ɡəˈɡaŋən",
+            "translation": "Si j'avais plus de temps, je serais allé au cinéma hier.",
+            "note": "La condition est au présent (je n'ai pas le temps) et la conséquence est au passé (je ne suis pas allé)."
+          },
+          {
+            "original": "Wenn sie kein Heimweh hätte, wäre sie letzte Woche mitgekommen.",
+            "phonetic": "vɛn ziː kaɪ̯n ˈhaɪ̯mveː ˈhɛtə, ˈvɛːʁə ziː ˈlɛtstə ˈvɔxə ˈmɪtɡəˌkɔmən",
+            "translation": "Si je n'avais pas la nostalgie, je serais venu la semaine dernière.",
+            "note": "Dans la partie au passé, on utilise 'wäre' + Partizip II, tandis que la condition est au présent."
+          },
+          {
+            "original": "Wenn du gesund wärst, hättest du den Marathon laufen können.",
+            "phonetic": "vɛn duː ɡəˈzʊnt ˈvɛːɐ̯st, ˈhɛtəst duː deːn ˈmaʁatɔn ˈlaʊ̯fən ˈkœnən",
+            "translation": "Si tu étais en bonne santé, tu aurais pu courir le marathon.",
+            "note": "Ici, la condition est au présent (tu n'es pas en bonne santé) et la conséquence est au passé (tu n'as pas couru)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "fr": "Conditionnels mixtes"
+    }
+  },
+  {
+    "id": "fr_B2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Passif avec verbes modaux et infinitif / Voz pasiva con modales e infinitivos",
+    "bridge": "En espagnol, la voix passive avec des verbes modaux se forme avec 'se puede/pueden' ou 'ser + participe + modal' (par exemple, 'estos documentos pueden ser firmados'). En allemand, le verbe modal se conjugue et le verbe principal apparaît à l'infinitif à la fin, mais il existe deux constructions principales : 'Modalverb + Partizip II + werden' dans la forme de Zustandspassiv ou 'Modalverb + Infinitiv Passiv' (avec le participe + 'werden' à la fin). Une erreur typique consiste à traduire littéralement 'puede ser hecho' par 'es kann gemacht sein', au lieu de 'kann gemacht werden'.",
+    "rule": "En allemand, la voix passive avec des verbes modaux se forme avec le verbe modal à la position conjuguée (deuxième position) et l'infinitif du verbe principal combiné avec 'werden' (passif de processus) ou avec le participe + 'werden' dans la construction d'état. Les structures clés sont :\n\n1. **Passif de processus avec modal :** (Modalverb) + Partizip II + 'werden' (infinitif). Exemple : 'Das muss gemacht werden.' (Cela doit être fait).\n\n2. **Passif d'état avec modal :** (Modalverb) + Partizip II + 'sein' – mais cela exprime une nécessité ou une possibilité déjà accomplie, peu courante ; à la place, on utilise 'sein' + Partizip II + 'zu' pour exprimer une nécessité.\n\n3. **Passif avec infinitif et modal dans une subordonnée :** Le modal se place à la fin sous forme d'infinitif, et 'werden' apparaît également comme infinitif. Exemple : 'Ich weiß, dass das gemacht werden kann.' (Je sais que cela peut être fait).\n\nRègles essentielles :\n- Le verbe 'werden' à l'infinitif est obligatoire dans le passif de processus avec modal.\n- Le participe du verbe principal se place avant 'werden' à la fin.\n- Dans le passif avec modaux, on n'utilise pas 'von' (par) si l'agent est impersonnel ; on utilise 'von' si l'agent est explicite.\n- Les modaux : müssen (obligation), sollen (recommandation), wollen (intention), können (possibilité), dürfen (permission), mögen (goût).\n- L'ordre dans les phrases subordonnées : ... + Partizip II + Infinitif modal + werden.\n- Pour exprimer une nécessité passive avec 'sein', on utilise 'sein' + 'zu' + infinitif : 'Das ist zu machen' (Cela est à faire).",
+    "concept_examples": [
+      {
+        "text": "Das muss sofort gemacht werden.",
+        "translation": "Cela doit être fait immédiatement.",
+        "phonetic": "[das mʊs zoˈfɔʁt ɡəˈmaxt ˈveːɐ̯dn]"
+      },
+      {
+        "text": "Die Aufgabe kann heute nicht gelöst werden.",
+        "translation": "La tâche ne peut pas être résolue aujourd'hui.",
+        "phonetic": "[diː ˈaʊ̯fɡaːbə kan ˈhɔʏtə nɪçt ɡəˈløːst ˈveːɐ̯dn]"
+      },
+      {
+        "text": "Die Briefe sollen bis Freitag geschrieben werden.",
+        "translation": "Les lettres doivent être écrites d'ici vendredi.",
+        "phonetic": "[diː ˈbʁiːfə ˈzɔlən bɪs ˈfʁaɪ̯taːk ɡəˈʃʁiːbən ˈveːɐ̯dn]"
+      },
+      {
+        "text": "Es darf hier nicht geraucht werden.",
+        "translation": "Il n'est pas permis de fumer ici.",
+        "phonetic": "[ɛs daʁf hiːɐ̯ nɪçt ɡəˈʁaʊ̯xt ˈveːɐ̯dn]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Die Aufgabe kann heute nicht gelöst sein.",
+      "correct": "Die Aufgabe kann heute nicht gelöst werden.",
+      "correct_alt": "Die Aufgabe kann heute nicht gelöst werden können.",
+      "explanation": "L'erreur provient du fait qu'en espagnol on utilise 'ser + participe' avec le modal ('puede ser resuelta'), et les hispanophones ont tendance à utiliser 'sein' au lieu de 'werden' lors de la traduction. En allemand, pour le passif de processus (action en cours), il faut utiliser 'werden' + participe. 'Sein' s'utilise pour le passif d'état (résultat), mais avec les modaux c'est moins courant et change le sens. Rappel : si la phrase exprime une action qui se réalise, utilise 'werden'. Si elle exprime un état résultant, utilise 'sein', mais cela est rare avec les modaux. Pour éviter l'erreur, entraîne-toi à construire : Modal + Partizip II + 'werden'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Passiv mit Modalverben im Hauptsatz",
+        "translation": "Passif avec modaux dans une phrase principale",
+        "examples": [
+          {
+            "original": "Das muss gemacht werden.",
+            "phonetic": "[das mʊs ɡəˈmaxt ˈveːɐ̯dn]",
+            "translation": "Cela doit être fait.",
+            "note": "Structure : sujet (das) + modal conjugué (muss) + participe (gemacht) + werden à la fin."
+          },
+          {
+            "original": "Die Rechnung kann bezahlt werden.",
+            "phonetic": "[diː ˈʁɛçnʊŋ kan bəˈtsaːlt ˈveːɐ̯dn]",
+            "translation": "La facture peut être payée.",
+            "note": "Ici 'kann' exprime une possibilité ; le participe 'bezahlt' et 'werden' forment le passif."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Passiv mit Modalverben im Nebensatz",
+        "translation": "Passif avec modaux dans une phrase subordonnée",
+        "examples": [
+          {
+            "original": "Ich weiß, dass das gemacht werden muss.",
+            "phonetic": "[ɪç vaɪs das das ɡəˈmaxt ˈveːɐ̯dn mʊs]",
+            "translation": "Je sais que cela doit être fait.",
+            "note": "Dans la subordonnée, le modal se place à la fin, après l'infinitif 'werden'."
+          },
+          {
+            "original": "Es ist wichtig, dass die Patienten sofort behandelt werden können.",
+            "phonetic": "[ɛs ɪst ˈvɪçtɪç das diː patsiˈɛntən ˈzoːfɔʁt bəˈhandlt ˈveːɐ̯dn ˈkœnən]",
+            "translation": "Il est important que les patients puissent être soignés immédiatement.",
+            "note": "Remarque l'ordre : participe + werden + können à la fin."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Passiv mit modalen Ersatzformen",
+        "translation": "Passif avec formes substitutives de modaux ('sein + zu', 'sich lassen')",
+        "examples": [
+          {
+            "original": "Das Problem ist zu lösen.",
+            "phonetic": "[das pʁoˈbleːm ɪst tsuː ˈløːzn̩]",
+            "translation": "Le problème peut être résolu / doit être résolu.",
+            "note": "'sein + zu + infinitif' exprime une nécessité ou une possibilité, similaire à 'sich lassen'."
+          },
+          {
+            "original": "Das lässt sich leicht machen.",
+            "phonetic": "[das lɛst zɪç laɪ̯çt ˈmaxn̩]",
+            "translation": "Cela peut se faire facilement.",
+            "note": "'sich lassen' est une alternative pour 'können' au passif, très courante en allemand."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "fr": "Voix passive avancée (gérondifs, infinitifs, modaux)"
+    }
+  },
+  {
+    "id": "fr_B2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Indirekte Rede (Konjunktiv I) / Style indirect (Subjonctif I)",
+    "bridge": "En espagnol, le style indirect se marque principalement par des changements de temps verbaux (par exemple, du présent à l’imparfait) et par la conjonction 'que'. En allemand, en revanche, on utilise le mode subjonctif (Konjunktiv I) pour indiquer qu’on rapporte un discours étranger, sans dépendre autant de la séquence temporelle. Cela peut sembler étrange pour un hispanophone, qui doit apprendre à distinguer la forme de l’indicatif de celle du subjonctif, et à utiliser le Konjunktiv I non seulement au présent, mais aussi au passé et au futur. Il faut également faire attention à l’absence de la conjonction 'que' en allemand : on utilise une subordonnée avec 'dass' ou on conserve l’ordre de la phrase directe, mais avec le verbe au subjonctif.",
+    "rule": "Le style indirect en allemand (indirekte Rede) sert à transmettre ce que quelqu’un a dit, pensé, demandé ou écrit. La forme la plus caractéristique est le Konjunktiv I (Subjonctif I), utilisé dans le langage formel et journalistique. Pour former le Konjunktiv I : a) On prend le radical du verbe et on ajoute les terminaisons -e, -est, -e, -en, -et, -en (pour les verbes réguliers et irréguliers). Exemples : 'er sagt' → 'er sage' ; 'sie gehen' → 'sie gehen'. b) Pour les verbes dont la forme est identique à celle de l’indicatif (surtout à la 1ère et 3ème personne du pluriel), on recourt au Konjunktiv II (Subjonctif II) pour éviter toute ambiguïté, ou on utilise la forme 'würde + infinitif'. c) Le Konjunktiv I peut s’employer au présent (er sagt, er habe), au passé (er habe gesagt, avec le participe) et au futur (er werde sagen). d) À l’oral, on utilise souvent l’indicatif avec 'dass' ou la forme 'würde + infinitif', mais le Konjunktiv I est la norme dans la presse et la littérature. e) Pour les verbes modaux et auxiliaires, les formes de Konjunktiv I sont : sein → sei, haben → habe, werden → werde, können → könne, müssen → müsse, dürfen → dürfe, sollen → solle, wollen → wolle. f) Exceptions : la forme 'er sei' (de sein) est essentielle ; 'er habe' (haben), 'er werde' (werden). g) Dans les phrases interrogatives indirectes, on utilise la même structure avec 'ob' ou avec le mot interrogatif. h) Le style indirect peut aussi inclure la particule 'dass' comme en espagnol, mais si on l’omet, le verbe conjugué se place à la fin (comme dans toute subordonnée). i) Le décalage temporel qui existe en espagnol (par exemple, passé composé → plus-que-parfait) n’est pas obligatoire en allemand ; on conserve le temps relatif au moment original, ou on utilise le Konjunktiv I du temps correspondant. j) Pour l’impersonnalité, on utilise souvent 'man'. k) Ces formes sont courantes dans le langage journalistique : 'Der Minister sagte, er sei überzeugt...'.",
+    "concept_examples": [
+      {
+        "text": "Er sagte, er sei müde.",
+        "translation": "Il a dit qu’il était fatigué.",
+        "phonetic": "/eːɐ̯ ˈzaːktə eːɐ̯ zaɪ̯ ˈmyːdə/"
+      },
+      {
+        "text": "Sie meinte, sie habe das Buch gelesen.",
+        "translation": "Elle a pensé qu’elle avait lu le livre.",
+        "phonetic": "/ziː ˈmaɪ̯ntə ziː ˈhaːbə das buːx ˈɡeːleːzən/"
+      },
+      {
+        "text": "Er fragte, ob sie kommen könne.",
+        "translation": "Il a demandé si elle pouvait venir.",
+        "phonetic": "/eːɐ̯ ˈfʁaːktə ɔp ziː ˈkɔmən ˈkœnə/"
+      },
+      {
+        "text": "Man sagt, die Preise würden steigen.",
+        "translation": "On dit que les prix augmenteraient.",
+        "phonetic": "/man zaːkt diː ˈpʁaɪ̯zə ˈvʏʁdən ˈʃtaɪ̯ɡən/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Er sagte, dass er ist müde.",
+      "correct": "Er sagte, er sei müde.",
+      "correct_alt": "Er sagte, dass er müde sei.",
+      "explanation": "Cette erreur survient parce qu’en espagnol, on utilise la conjonction 'que' et on maintient le verbe à l’indicatif avec le changement temporel correspondant. En allemand, en utilisant 'dass' (que), le verbe doit être placé à la fin de la subordonnée et au mode subjonctif (Konjunktiv I) pour indiquer un discours indirect. Si on omet 'dass', on utilise la construction avec le verbe en deuxième position (comme dans la phrase directe), mais avec le verbe au Konjunktiv I. Il est important de ne pas utiliser l’indicatif 'ist' dans le style indirect formel ; à la place, on utilise 'sei'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Konjunktiv I: Präsens",
+        "translation": "Subjonctif I : Présent",
+        "examples": [
+          {
+            "original": "Er sagt, er habe einen Termin.",
+            "phonetic": "/eːɐ̯ zaːkt eːɐ̯ ˈhaːbə ˈaɪ̯nən tɛʁˈmiːn/",
+            "translation": "Il dit qu’il a un rendez-vous.",
+            "note": "Observe l’utilisation de 'habe' à la première personne du singulier, bien que le sujet soit 'er'. En allemand, le Konjunktiv I a une forme spécifique pour la troisième personne."
+          },
+          {
+            "original": "Sie glaubt, sie kenne ihn.",
+            "phonetic": "/ziː ɡlaʊ̯pt ziː ˈkɛnə iːn/",
+            "translation": "Elle croit qu’elle le connaît.",
+            "note": "Le verbe 'kennen' devient 'kenne' au Konjunktiv I. Remarque que la forme est identique à celle de la première personne du singulier de l’indicatif, mais ici elle est à la troisième personne."
+          },
+          {
+            "original": "Wir meinen, er komme später.",
+            "phonetic": "/viːɐ̯ ˈmaɪ̯nən eːɐ̯ ˈkɔmə ˈʃpɛːtɐ/",
+            "translation": "Nous pensons qu’il viendra plus tard.",
+            "note": "Dans ce cas, 'komme' est la forme de Konjunktiv I pour 'er' (3ème personne du singulier). Ne pas confondre avec le présent de l’indicatif 'kommt'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Konjunktiv I: Vergangenheit",
+        "translation": "Subjonctif I : Passé",
+        "examples": [
+          {
+            "original": "Er behauptete, er habe das Fenster geschlossen.",
+            "phonetic": "/eːɐ̯ bəˈhaʊ̯ptə tə eːɐ̯ ˈhaːbə das ˈfɛnstɐ ɡəˈʃlɔsən/",
+            "translation": "Il a affirmé qu’il avait fermé la fenêtre.",
+            "note": "Pour exprimer le passé dans le style indirect, on utilise le Konjunktiv I de 'haben' ou 'sein' plus le participe passé. Ici, 'habe ... geschlossen'."
+          },
+          {
+            "original": "Sie sagte, sie sei in Berlin gewesen.",
+            "phonetic": "/ziː ˈzaːktə ziː zaɪ̯ ɪn bɛʁˈliːn ɡəˈveːzən/",
+            "translation": "Elle a dit qu’elle avait été à Berlin.",
+            "note": "Pour les verbes qui utilisent 'sein' au parfait, on emploie 'sei' comme auxiliaire. 'Gewesen' est le participe de 'sein'."
+          },
+          {
+            "original": "Er wollte wissen, ob sie den Film gesehen habe.",
+            "phonetic": "/eːɐ̯ ˈvɔltə ˈvɪsən ɔp ziː deːn fɪlm ɡəˈzeːən ˈhaːbə/",
+            "translation": "Il voulait savoir si elle avait vu le film.",
+            "note": "La particule 'ob' (si) introduit une interrogative indirecte. Le verbe 'habe' se place à la fin de la subordonnée, comme c’est typique."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Konjunktiv I & II in der indirekten Rede",
+        "translation": "Subjonctif I et II dans le style indirect",
+        "examples": [
+          {
+            "original": "Man sagt, er würde bald ankommen.",
+            "phonetic": "/man zaːkt eːɐ̯ ˈvʏʁdə balt ˈankɔmən/",
+            "translation": "On dit qu’il arriverait bientôt.",
+            "note": "Lorsque le Konjunktiv I est identique à l’indicatif, on utilise le Konjunktiv II (ou 'würde + infinitif') pour le différencier. Ici, 'würde' au lieu de 'werde'."
+          },
+          {
+            "original": "Sie behauptete, sie hätte das nicht getan.",
+            "phonetic": "/ziː bəˈhaʊ̯ptətə ziː ˈhɛtə das nɪçt ɡəˈtaːn/",
+            "translation": "Elle a affirmé qu’elle n’avait pas fait cela.",
+            "note": "Dans ce cas, 'hätte' est le Konjunktiv II de 'haben', utilisé pour éviter la forme ambiguë 'haben' (1ère et 3ème personne du pluriel). C’est courant dans le style indirect informel."
+          },
+          {
+            "original": "Er erklärte, er müsse mehr arbeiten.",
+            "phonetic": "/eːɐ̯ ɛɐ̯ˈklɛːɐ̯tə eːɐ̯ ˈmʏsə meːɐ̯ ˈaʁbaɪ̯tən/",
+            "translation": "Il a expliqué qu’il devait travailler davantage.",
+            "note": "Le verbe modal 'müssen' a sa forme de Konjunktiv I 'müsse' (3ème personne du singulier). Ne pas le confondre avec le présent de l’indicatif 'muss'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "fr": "Style indirect avancé (Konjunktiv I)"
+    }
+  },
+  {
+    "id": "fr_B2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Inversion pour l'emphase (Nicht nur..., Selten...) / Inversion pour l'emphase (Non seulement..., Rarement...)",
+    "bridge": "En allemand, pour mettre l'accent sur une idée, on utilise souvent des structures comme 'Nicht nur... sondern auch' ou 'Selten' sans modifier l'ordre des mots : 'Selten habe ich so etwas gesehen'. Cependant, lorsque des expressions négatives ou restrictives (comme 'nicht nur', 'selten', 'kaum', 'nie') sont placées en début de phrase en allemand, le verbe conjugué doit précéder le sujet, ce qui entraîne une inversion totale. Cette inversion est obligatoire et non optionnelle. Les hispanophones ont tendance à oublier cette règle car, en espagnol, l'ordre sujet-verbe reste inchangé même avec ces adverbes en début de phrase. De plus, en allemand, l'inversion peut s'appliquer non seulement aux adverbes, mais aussi aux objets ou à d'autres groupes de mots pour les mettre en valeur, ce qui, en espagnol, se fait davantage par l'intonation ou des structures périphrastiques.",
+    "rule": "En allemand, la position initiale de la phrase (Vorfeld) peut être occupée par un élément mis en valeur (adverbe, objet, groupe prépositionnel) différent du sujet. Dans ce cas, le verbe conjugué (en deuxième position) précède le sujet, qui se place en troisième position. Cette inversion est obligatoire dans les phrases déclaratives. La règle générale est : [Élément mis en valeur] + Verbe conjugué + Sujet + Reste. Pour l'emphase négative, on utilise des adverbes comme 'nicht nur' (non seulement), 'selten' (rarement), 'kaum' (à peine), 'nie' (jamais), 'nirgends' (nulle part), etc. Avec des expressions comme 'nicht nur... sondern auch' (non seulement... mais aussi), le verbe suit la partie principale et le sujet est inversé. On peut également inverser avec des éléments comme 'nie' (jamais) ou 'nirgends' (nulle part), qui ont une connotation négative. Exemples : 'Nicht nur singt sie gut, sondern sie tanzt auch.' (Non seulement elle chante bien, mais elle danse aussi). 'Selten habe ich so etwas gesehen.' (J'ai rarement vu quelque chose comme ça). Dans ces cas, le verbe conjugué est en deuxième position et le sujet le suit. D'autres constructions d'inversion courantes : 'Kaum war er angekommen...' (À peine était-il arrivé...). Il est important de se rappeler que l'inversion ne change pas le sens de base, elle ajoute simplement de l'emphase. On peut aussi inverser avec des éléments non négatifs, comme : 'Im Park spielen die Kinder.' (Dans le parc jouent les enfants), pour mettre l'accent sur le lieu. Cette inversion est très courante à l'écrit et dans la langue littéraire, mais elle s'utilise aussi dans un registre formel à l'oral.",
+    "concept_examples": [
+      {
+        "text": "Nicht nur singt sie gut, sondern sie tanzt auch.",
+        "translation": "Non seulement elle chante bien, mais elle danse aussi.",
+        "phonetic": "/nɪçt ˈnuːɐ̯ zɪŋt ziː ɡuːt, ˈzʊndɐn ziː tantst aʊx/"
+      },
+      {
+        "text": "Selten habe ich so etwas gesehen.",
+        "translation": "J'ai rarement vu quelque chose comme ça.",
+        "phonetic": "/ˈzɛltn̩ ˈhaːbə ɪç zoː ˈɛtvas ɡəˈzeːən/"
+      },
+      {
+        "text": "Kaum war er angekommen, da begann es zu regnen.",
+        "translation": "À peine était-il arrivé, qu'il s'est mis à pleuvoir.",
+        "phonetic": "/kaʊ̯m vaːɐ̯ eːɐ̯ ˈanɡəˌkɔmən, daː bəˈɡan ɛs tsuː ˈʁeːɡnən/"
+      },
+      {
+        "text": "Im Park spielen die Kinder Fußball.",
+        "translation": "Dans le parc jouent les enfants au football.",
+        "phonetic": "/ɪm paʁk ˈʃpiːlən diː ˈkɪndɐ ˈfuːsbal/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Nicht nur sie singt gut, sondern sie tanzt auch.",
+      "correct": "Nicht nur singt sie gut, sondern sie tanzt auch.",
+      "correct_alt": "",
+      "explanation": "L'erreur vient du fait qu'en espagnol, l'ordre sujet-verbe reste le même même avec 'no solo' en début de phrase : 'No solo ella canta bien...'. En allemand, lorsque 'nicht nur' est placé en début de phrase, le verbe doit précéder le sujet. Ainsi, la forme correcte est 'singt sie', et non 'sie singt'. Pour éviter cette erreur, retiens que, en allemand, si le premier élément n'est pas le sujet, le verbe occupe la deuxième position et le sujet se place après. Entraîne-toi avec d'autres adverbes comme 'selten', 'kaum', 'nie' pour bien assimiler la règle."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Inversion mit Negativadverbien / Inversión con adverbios negativos",
+        "translation": "Inversion avec des adverbes négatifs",
+        "examples": [
+          {
+            "original": "Selten habe ich so etwas gesehen.",
+            "phonetic": "/ˈzɛltn̩ ˈhaːbə ɪç zoː ˈɛtvas ɡəˈzeːən/",
+            "translation": "J'ai rarement vu quelque chose comme ça.",
+            "note": "Ici, 'selten' en début de phrase impose l'inversion : le verbe 'habe' précède le sujet 'ich'."
+          },
+          {
+            "original": "Nie würde ich das vergessen.",
+            "phonetic": "/niː ˈvʏʁdə ɪç das fɛɐ̯ˈɡɛsn̩/",
+            "translation": "Je n'oublierais jamais cela.",
+            "note": "Avec 'nie' en début de phrase, le verbe modal 'würde' précède le sujet 'ich'."
+          },
+          {
+            "original": "Kaum hatte er die Tür geöffnet, da klingelte das Telefon.",
+            "phonetic": "/kaʊ̯m ˈhatə eːɐ̯ diː tyːɐ̯ ɡəˈœfnət, daː ˈklɪŋəltə das teˈleːfɔn/",
+            "translation": "À peine avait-il ouvert la porte, que le téléphone a sonné.",
+            "note": "L'inversion avec 'kaum' s'accompagne souvent de 'da' dans la deuxième proposition."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Inversion mit 'nicht nur' / Inversión con 'no solo'",
+        "translation": "Inversion avec 'non seulement'",
+        "examples": [
+          {
+            "original": "Nicht nur spricht er Deutsch, sondern auch Französisch.",
+            "phonetic": "/nɪçt ˈnuːɐ̯ ʃpʁɪçt eːɐ̯ dɔɪ̯tʃ, ˈzʊndɐn aʊ̯x fʁanˈtsøːzɪʃ/",
+            "translation": "Non seulement il parle allemand, mais aussi français.",
+            "note": "Remarque que le verbe 'spricht' précède le sujet 'er'."
+          },
+          {
+            "original": "Nicht nur hat sie den Job bekommen, sondern auch ein Gehalt erhöht.",
+            "phonetic": "/nɪçt ˈnuːɐ̯ hat ziː deːn dʒɔp bəˈkɔmən, ˈzʊndɐn aʊ̯x aɪ̯n ɡəˈhalt ɛɐ̯ˈhøːt/",
+            "translation": "Non seulement il a obtenu le poste, mais on lui a aussi augmenté son salaire.",
+            "note": "Dans la structure 'nicht nur... sondern auch', l'inversion s'applique dans la première partie."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Inversion mit anderen betonten Elementen / Inversión con otros elementos enfatizados",
+        "translation": "Inversion avec d'autres éléments mis en valeur",
+        "examples": [
+          {
+            "original": "Im Sommer reisen wir nach Spanien.",
+            "phonetic": "/ɪm ˈzɔmɐ ˈʁaɪ̯zn̩ viːɐ̯ naːx ˈʃpaːni̯ən/",
+            "translation": "En été, nous voyageons en Espagne.",
+            "note": "En plaçant le groupe temporel en début de phrase, le verbe 'reisen' précède le sujet 'wir'."
+          },
+          {
+            "original": "Dieses Buch habe ich schon gelesen.",
+            "phonetic": "/ˈdiːzəs buːx ˈhaːbə ɪç ʃoːn ɡəˈleːzn̩/",
+            "translation": "Ce livre, je l'ai déjà lu.",
+            "note": "L'objet direct mis en valeur en début de phrase produit l'inversion : 'habe' précède 'ich'."
+          },
+          {
+            "original": "Morgen werde ich dir helfen.",
+            "phonetic": "/ˈmɔʁɡn̩ ˈveːɐ̯də ɪç diːɐ̯ ˈhɛlfn̩/",
+            "translation": "Demain, je t'aiderai.",
+            "note": "L'adverbe temporel 'morgen' en première position impose l'inversion."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "fr": "Inversion pour l'emphase"
+    }
+  },
+  {
+    "id": "fr_B2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Cleft sentences – Es war…, das… / Phrases clivées",
+    "bridge": "En espagnol, on utilise 'es/era... lo que' ou 'fue... quien' pour mettre en avant un élément, par exemple : 'Fue Juan quien llegó tarde'. En allemand, la construction est similaire mais avec une syntaxe stricte : le verbe conjugué est en deuxième position et la particule 'es' est en début de phrase. Une erreur typique consiste à placer le verbe à la fin de la proposition relative, en oubliant que dans la principale, le verbe conjugué doit être en deuxième position et que la particule 'es' ne s'accorde pas avec le nom mis en avant (elle reste neutre). De plus, en allemand, la proposition relative suit généralement la phrase mise en avant, et non l'inverse comme cela peut parfois se faire en espagnol.",
+    "rule": "Les phrases clivées (Cleft sentences) se forment avec 'es' + forme conjuguée de 'sein' (ist, war, wird sein) + l'élément mis en avant + une proposition relative introduite par 'der/die/das' (selon le genre du nom) ou 'wer' (pour les personnes de manière générale), ou 'was' (pour les choses, les actions ou les informations). La structure de base est : Es + verbe 'sein' conjugué + [élément mis en avant] + [proposition relative]. Dans la proposition relative, le verbe conjugué se place à la fin. Pour mettre en avant une action ou une information, on utilise 'was' (par exemple : 'Es ist das Buch, das ich lese' vs. 'Es ist das Lesen, was mich entspannt'). On peut aussi mettre en avant un lieu avec 'wo' ou une raison avec 'warum'. Pour les personnes, on utilise 'der/die/das' ou 'wer' de manière générale (ex. 'Es ist er, der...'). Pour les objets, 'das' ou 'was'. Le 'es' initial est obligatoire mais ne se traduit pas ; c'est une exception à la règle de la deuxième position du verbe, car 'es' occupe la position 1 et le verbe la position 2. En cas de négation ou de question, l'ordre s'inverse. Exemple : 'War es gestern, dass du angerufen hast?' – ici, 'dass' est une alternative à la relative pour mettre en avant une circonstance temporelle. En allemand, contrairement à l'espagnol, on n'utilise pas 'fue... el que' pour mettre en avant le verbe (on le fait avec la construction 'tun'), mais pour mettre en avant des noms, des adverbes ou des groupes prépositionnels. Pour le niveau B2, il est important de maîtriser l'accord du relatif avec le genre du nom et la position finale du verbe.",
+    "concept_examples": [
+      {
+        "text": "Es war der Lehrer, der die Frage beantwortet hat.",
+        "translation": "C'est le professeur qui a répondu à la question.",
+        "phonetic": "ɛs vaːɐ̯ deːɐ̯ ˈleːʁɐ deːɐ̯ diː ˈfʁaːɡə bəˈʔantvɔɐ̯tət hat"
+      },
+      {
+        "text": "Es ist das Buch, das ich gestern gekauft habe.",
+        "translation": "C'est le livre que j'ai acheté hier.",
+        "phonetic": "ɛs ɪst das buːx das ɪç ˈɡɛstɐn ɡəˈkaʊ̯ft ˈhaːbə"
+      },
+      {
+        "text": "Es war gestern, dass wir uns zum ersten Mal getroffen haben.",
+        "translation": "C'est hier que nous nous sommes rencontrés pour la première fois.",
+        "phonetic": "ɛs vaːɐ̯ ˈɡɛstɐn das vɪɐ̯ ʊns tsuːm ˈeːɐ̯stn̩ maːl ɡəˈtʁɔfn̩ ˈhaːbən"
+      },
+      {
+        "text": "Es sind die Kinder, die im Garten spielen.",
+        "translation": "Ce sont les enfants qui jouent dans le jardin.",
+        "phonetic": "ɛs zɪnt diː ˈkɪndɐ diː ɪm ˈɡaʁtn̩ ˈʃpiːlən"
+      }
+    ],
+    "common_error": {
+      "wrong": "Es war der Lehrer, der hat die Frage beantwortet.",
+      "correct": "Es war der Lehrer, der die Frage beantwortet hat.",
+      "correct_alt": "Der Lehrer war es, der die Frage beantwortet hat.",
+      "explanation": "Cette erreur survient parce qu'en espagnol, on dit 'Fue el profesor quien respondió la pregunta' et on a tendance à conserver l'ordre sujet-verbe dans la proposition relative. En allemand, le verbe conjugué de la proposition relative doit être placé à la fin. De plus, dans la principale, le verbe 'sein' (war) est en deuxième position après 'es', mais dans la relative, le verbe principal (hat beantwortet) se place à la fin. Une alternative correcte consiste à déplacer 'es' après l'élément mis en avant : 'Der Lehrer war es, der...' où 'es' joue le rôle de remplissage et le verbe 'war' est en deuxième position."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Cleft-Sätze mit Substantiven",
+        "translation": "Phrases clivées avec des noms",
+        "examples": [
+          {
+            "original": "Es ist der Mann, der das Auto gekauft hat.",
+            "phonetic": "ɛs ɪst deːɐ̯ man deːɐ̯ das ˈaʊ̯toː ɡəˈkaʊ̯ft hat",
+            "translation": "C'est l'homme qui a acheté la voiture.",
+            "note": "On utilise 'der' car 'Mann' est masculin. Le verbe 'hat' est à la fin."
+          },
+          {
+            "original": "Es war die Frau, die uns geholfen hat.",
+            "phonetic": "ɛs vaːɐ̯ diː fʁaʊ̯ diː ʊns ɡəˈhɔlfn̩ hat",
+            "translation": "C'est la femme qui nous a aidés.",
+            "note": "Accord au féminin avec 'die'. L'action est au passé."
+          },
+          {
+            "original": "Es sind die Kinder, die Lärm machen.",
+            "phonetic": "ɛs zɪnt diː ˈkɪndɐ diː lɛʁm ˈmaxn̩",
+            "translation": "Ce sont les enfants qui font du bruit.",
+            "note": "Au pluriel, on utilise 'sind' et le relatif 'die'."
+          },
+          {
+            "original": "Es ist das Mädchen, das singt.",
+            "phonetic": "ɛs ɪst das ˈmɛːtçən das zɪŋt",
+            "translation": "C'est la petite fille qui chante.",
+            "note": "Article neutre 'das' pour 'Mädchen' (genre grammatical neutre)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Cleft-Sätze mit Adverbien und Präpositionalgefügen",
+        "translation": "Phrases clivées avec des adverbes et des groupes prépositionnels",
+        "examples": [
+          {
+            "original": "Es war gestern, dass wir angekommen sind.",
+            "phonetic": "ɛs vaːɐ̯ ˈɡɛstɐn das vɪɐ̯ ˈanɡəkɔmən zɪnt",
+            "translation": "C'est hier que nous sommes arrivés.",
+            "note": "Pour mettre en avant un adverbe de temps, on utilise 'dass' au lieu du relatif."
+          },
+          {
+            "original": "Es ist in Berlin, wo die Mauer stand.",
+            "phonetic": "ɛs ɪst ɪn bɛʁˈliːn voː diː ˈmaʊ̯ɐ ʃtant",
+            "translation": "C'est à Berlin que se trouvait le mur.",
+            "note": "Pour les lieux, on utilise 'wo'."
+          },
+          {
+            "original": "Es war wegen des Regens, dass das Spiel abgesagt wurde.",
+            "phonetic": "ɛs vaːɐ̯ ˈveːɡn̩ dɛs ˈʁeːɡn̩s das das ʃpiːl ˈapɡəzaːkt ˈvʊʁdə",
+            "translation": "C'est à cause de la pluie que le match a été annulé.",
+            "note": "Avec un groupe prépositionnel, on utilise aussi 'dass'."
+          },
+          {
+            "original": "Es ist deshalb, dass ich lerne.",
+            "phonetic": "ɛs ɪst ˈdɛsˈhalp das ɪç ˈlɛʁnə",
+            "translation": "C'est pour cela que j'apprends.",
+            "note": "Utilisation de 'deshalb' comme adverbe mis en avant."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Cleft-Sätze mit Verben und Nebensätzen",
+        "translation": "Phrases clivées avec des verbes et des propositions subordonnées",
+        "examples": [
+          {
+            "original": "Es ist das Schwimmen, was mich entspannt.",
+            "phonetic": "ɛs ɪst das ˈʃvɪmən vas mɪç ɛntˈʃpant",
+            "translation": "C'est nager qui me détend.",
+            "note": "On utilise 'was' pour mettre en avant une activité (infinitif nominalisé)."
+          },
+          {
+            "original": "Es war seine Rede, die alle beeindruckte.",
+            "phonetic": "ɛs vaːɐ̯ ˈzaɪ̯nə ˈʁeːdə diː ˈalə bəˈaɪ̯ndʁʊktə",
+            "translation": "C'est son discours qui a impressionné tout le monde.",
+            "note": "Accord avec 'Rede' (féminin)."
+          },
+          {
+            "original": "Es ist wichtig, dass du kommst.",
+            "phonetic": "ɛs ɪst ˈvɪçtɪç das duː kɔmst",
+            "translation": "C'est important que tu viennes.",
+            "note": "Ici, 'es' joue le rôle de sujet provisoire, ce n'est pas une phrase clivée ; mais cela est inclus pour la différencier."
+          },
+          {
+            "original": "Es war überraschend, was er sagte.",
+            "phonetic": "ɛs vaːɐ̯ ˌyːbɐˈʁaːʃn̩t vas eːɐ̯ ˈzaːktə",
+            "translation": "C'est surprenant ce qu'il a dit.",
+            "note": "Avec 'was' pour un pronom relatif qui se réfère à une idée entière."
+          }
+        ]
+      }
+    ],
+    "emoji": "✂️",
+    "phonetic": "",
+    "translations": {
+      "fr": "Phrases clivées (Cleft sentences)"
+    }
+  },
+  {
+    "id": "fr_B2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nominalisation (verbes et adjectifs convertis en noms)",
+    "bridge": "En allemand, la nominalisation est bien plus fréquente et productive qu'en espagnol. Alors qu'en espagnol on utilise souvent des phrases avec des verbes à l'infinitif (comme 'el nadar' ou 'el hecho de que'), l'allemand préfère le nom dérivé (par exemple, 'das Schwimmen' ou 'die Tatsache, dass'). De plus, l'allemand peut nominaliser des verbes à l'infinitif (das Lesen), des adjectifs (das Schöne) ainsi que des verbes à particules séparables, ce qui donne souvent lieu à des noms composés très longs. Il est crucial de se rappeler que les noms en allemand s'écrivent toujours avec une majuscule et ont un genre (article) : l'infinitif nominalisé est neutre (das), tandis que les adjectifs peuvent être neutres (das Gute) ou utilisés avec un article défini selon le genre. Une erreur typique consiste à conserver la structure verbale ou adjectivale au lieu de la nominaliser, ou à utiliser l'article incorrect.",
+    "rule": "En allemand, on peut convertir des verbes et des adjectifs en noms (nominalisation) grâce à différents mécanismes : 1) Infinitif nominalisé : le verbe à l'infinitif s'écrit avec une majuscule et se combine avec l'article neutre 'das' (ex. das Lesen, das Schwimmen). 2) Adjectifs nominalisés : les adjectifs s'écrivent avec une majuscule et se déclinent comme des noms, généralement avec un article (ex. das Schöne = le beau, der Alte = le vieux, die Reichen = les riches). Ils peuvent aussi apparaître sans article, tout en conservant la déclinaison de l'adjectif (ex. etwas Neues). 3) Noms dérivés de racines verbales : on ajoute souvent des suffixes comme '-ung', '-heit', '-keit', '-nis', '-schaft' (ex. die Handlung de handeln, die Möglichkeit de möglich, das Verständnis de verstehen). La nominalisation est très courante dans les registres formels et scientifiques. Pour le niveau B2, il est indispensable de reconnaître et de former des noms à partir de verbes et d'adjectifs, ainsi que d'utiliser la structure appropriée dans des contextes comme : 'beim Lesen' (en lisant), 'das Lernen' (l'apprentissage), 'die Verantwortung' (la responsabilité).",
+    "concept_examples": [
+      {
+        "text": "Das Lesen macht mir viel Spaß.",
+        "translation": "La lecture (le fait de lire) me procure beaucoup de plaisir.",
+        "phonetic": "/das ˈleːzən maxt miːɐ̯ fiːl ʃpaːs/"
+      },
+      {
+        "text": "Beim Kochen verwendet man frische Zutaten.",
+        "translation": "En cuisinant, on utilise des ingrédients frais.",
+        "phonetic": "/baɪ̯m ˈkɔxən fɛɐ̯ˈvɛndət man ˈfʁɪʃə tsuˈtaːtn/"
+      },
+      {
+        "text": "Das Schöne an der Reise war die Landschaft.",
+        "translation": "Ce qui était beau dans le voyage, c'était le paysage.",
+        "phonetic": "/das ˈʃøːnə an deːɐ̯ ˈʁaɪ̯zə vaːɐ̯ diː ˈlantʃaft/"
+      },
+      {
+        "text": "Die Regierung trägt die Verantwortung für die Entscheidung.",
+        "translation": "Le gouvernement a la responsabilité de cette décision.",
+        "phonetic": "/diː ʁeˈɡiːʁʊŋ tʁɛːkt diː fɛɐ̯ˈʔantvɔʁtʊŋ fyːɐ̯ diː ɛntˈʃaɪ̯dʊŋ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Das Lesen macht mir viel Spaß. (este es correcto) → Error: *Ich lese macht mir viel Spaß.",
+      "correct": "Das Lesen macht mir viel Spaß.",
+      "correct_alt": "Lesen macht mir viel Spaß.",
+      "explanation": "L'erreur consiste à utiliser la forme conjuguée du verbe ('lese') comme sujet au lieu du nom nominalisé. En espagnol, 'el leer' est une option, mais en allemand, il est obligatoire de nominaliser le verbe à l'infinitif et de l'écrire avec une majuscule lorsqu'il est utilisé comme nom. Pour l'éviter, retiens que l'infinitif en fonction de sujet devient un nom neutre, souvent avec l'article 'das'. On peut aussi l'utiliser sans article, mais toujours avec une majuscule (par exemple, 'Lesen macht Spaß'). Cette erreur provient d'un transfert de l'espagnol, où l'on utilise la forme verbale ('leer es divertido') sans nominalisation."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Infinitiv als Nomen",
+        "translation": "Infinitif comme nom",
+        "examples": [
+          {
+            "original": "Das Schwimmen ist gesund.",
+            "phonetic": "/das ˈʃvɪmən ɪst ɡəˈzʊnt/",
+            "translation": "La natation (le fait de nager) est bonne pour la santé.",
+            "note": "On utilise l'infinitif 'schwimmen' comme nom avec l'article neutre 'das' et une majuscule. Cela équivaut à 'el nadar' en espagnol."
+          },
+          {
+            "original": "Beim Lesen lernt man viel.",
+            "phonetic": "/baɪ̯m ˈleːzən lɛʁnt maːn fiːl/",
+            "translation": "En lisant, on apprend beaucoup.",
+            "note": "La préposition 'bei' + datif se combine avec le nom infinitif : 'beim Lesen' = 'en lisant'. C'est une forme très courante en allemand."
+          },
+          {
+            "original": "Das Arbeiten im Team macht Spaß.",
+            "phonetic": "/das ˈaʁbaɪ̯tn̩ ɪm tiːm maxt ʃpaːs/",
+            "translation": "Travailler en équipe est amusant.",
+            "note": "Le verbe 'arbeiten' est nominalisé à l'infinitif ; on remarque que le complément prépositionnel 'im Team' est conservé."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Adjektive als Nomen",
+        "translation": "Adjectifs comme noms",
+        "examples": [
+          {
+            "original": "Das Gute an der Stadt ist die Atmosphäre.",
+            "phonetic": "/das ˈɡuːtə an deːɐ̯ ʃtat ɪst diː ʔatˈmɔsfɛːʁə/",
+            "translation": "Ce qui est beau dans la ville, c'est l'ambiance.",
+            "note": "L'adjectif 'gut' est nominalisé en 'das Gute' (le beau). On utilise l'article neutre."
+          },
+          {
+            "original": "Die Reichen sollten mehr Steuern zahlen.",
+            "phonetic": "/diː ˈʁaɪ̯çən ˈzɔltən meːɐ̯ ˈʃtɔʏɐ̯n tsaːlən/",
+            "translation": "Les riches devraient payer plus d'impôts.",
+            "note": "L'adjectif 'reich' devient le nom pluriel 'die Reichen' (les riches)."
+          },
+          {
+            "original": "Ich möchte etwas Neues lernen.",
+            "phonetic": "/ɪç ˈmœçtə ˈɛtvas ˈnɔɪ̯əs ˈlɛʁnən/",
+            "translation": "Je veux apprendre quelque chose de nouveau.",
+            "note": "Après 'etwas', on utilise l'adjectif nominalisé au neutre et décliné fort : 'Neues'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Abgeleitete Substantive",
+        "translation": "Noms dérivés",
+        "examples": [
+          {
+            "original": "Die Handlung des Films war spannend.",
+            "phonetic": "/diː ˈhandlʊŋ dɛs fɪlms vaːɐ̯ ˈʃpanənt/",
+            "translation": "L'action du film était captivante.",
+            "note": "Du verbe 'handeln' est dérivé le nom féminin 'die Handlung' (action) avec le suffixe '-ung'."
+          },
+          {
+            "original": "Ihre Freundlichkeit hat mich beeindruckt.",
+            "phonetic": "/ˈiːʁə ˈfʁɔɪ̯ntlɪçkaɪ̯t hat mɪç bəˈaɪ̯ndʁʊkt/",
+            "translation": "Sa gentillesse m'a impressionné.",
+            "note": "De l'adjectif 'freundlich' est dérivé 'die Freundlichkeit' (gentillesse) avec le suffixe '-keit'."
+          },
+          {
+            "original": "Das Verständnis zwischen den Kulturen ist wichtig.",
+            "phonetic": "/das fɛɐ̯ˈʃtɛntnɪs tsvɪʃn̩ deːn kʊlˈtuːʁən ɪst ˈvɪçtɪç/",
+            "translation": "La compréhension entre les cultures est importante.",
+            "note": "Du verbe 'verstehen' est dérivé 'das Verständnis' (compréhension) avec le suffixe '-nis'."
+          },
+          {
+            "original": "Die Zusammenarbeit im Projekt war erfolgreich.",
+            "phonetic": "/diː tsuˈzamənˌʔaʁbaɪ̯t ɪm pʁoˈjɛkt vaːɐ̯ ɛɐ̯ˈfɔlkʁaɪ̯ç/",
+            "translation": "La coopération dans le projet a été un succès.",
+            "note": "Du verbe à particule séparable 'zusammenarbeiten' est dérivé le nom 'die Zusammenarbeit' (coopération)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "fr": "Nominalisation (verbes et adjectifs convertis en noms)"
+    }
+  },
+  {
+    "id": "fr_B2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Modalverben der Vergangenheit: hätte, wäre, würde / Modaux au passé : aurais, serais, voudrais",
+    "bridge": "En espagnol, on utilise 'habría' ou 'hubiera' pour exprimer des actions hypothétiques dans le passé, mais en allemand, on combine le subjonctif II (Konjunktiv II) avec les verbes modaux. Une erreur courante consiste à traduire directement 'habría podido' par 'hätte können', alors qu'en réalité, la structure est 'hätte ... können' (infinitif en fin de phrase). De plus, le verbe modal au passé s'utilise avec l'auxiliaire 'haben' et l'infinitif du modal à la fin, et non avec 'sein'.",
+    "rule": "Pour former le passé des modaux en allemand, on utilise le Konjunktiv II de l'auxiliaire 'haben' (hätte) suivi de l'infinitif du verbe modal et de l'infinitif du verbe principal, en fin de phrase. Les modaux sont : können (pouvoir), müssen (devoir/devoir faire), dürfen (pouvoir/avoir la permission), sollen (devoir/conseil), wollen (vouloir), mögen (aimer). Exemples : 'Ich hätte kommen können' (J'aurais pu venir). Pour exprimer des regrets ou des critiques, on utilise 'hätte ... sollen' (aurais dû) ou 'hätte ... können' (aurais pu). Pour des souhaits irréels, on utilise 'wäre' (être) au lieu de 'hätte' avec les verbes indiquant un mouvement ou un changement d'état, comme 'gehen', 'kommen', 'sein'. Structure : [hätte/wäre] + [participe II] + [infinitif modal] à la fin. Exceptions : 'wollen' et 'mögen' sont moins courants au passé hypothétique ; on préfère 'hätte ... gewollt', mais 'hätte ... wollen' est aussi possible.",
+    "concept_examples": [
+      {
+        "text": "Ich hätte früher anrufen sollen.",
+        "translation": "J'aurais dû appeler plus tôt.",
+        "phonetic": "ɪç ˈhɛtə ˈfʁyːɐ ˈanʁuːfən ˈzɔlən"
+      },
+      {
+        "text": "Er hätte das nicht tun dürfen.",
+        "translation": "Il n'aurait pas eu la permission de faire cela.",
+        "phonetic": "eːɐ̯ ˈhɛtə das nɪçt tuːn ˈdʏʁfən"
+      },
+      {
+        "text": "Wir wären gestern gekommen, wenn wir Zeit gehabt hätten.",
+        "translation": "Nous serions venus hier si nous avions eu le temps.",
+        "phonetic": "viːɐ̯ ˈvɛːʁən ˈɡɛstɐn ɡəˈkɔmən, vɛn viːɐ̯ tsaɪt ɡəˈhaːt ˈhɛtən"
+      },
+      {
+        "text": "Sie hätte die Prüfung bestehen können.",
+        "translation": "Elle aurait pu réussir l'examen.",
+        "phonetic": "ziː ˈhɛtə diː ˈpʁyːfʊŋ bəˈʃteːən ˈkœnən"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich hätte können kommen.",
+      "correct": "Ich hätte kommen können.",
+      "correct_alt": "",
+      "explanation": "En espagnol, 'habría podido venir' se structure comme 'habría' + 'podido' + 'venir', mais en allemand, l'infinitif du modal doit être placé à la fin de la phrase, après le verbe principal. Cette erreur provient de l'interférence de l'espagnol, où le participe et l'infinitif peuvent être placés ensemble."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Interferencia del español",
+        "translation": "Interférence de l'espagnol",
+        "examples": [
+          {
+            "original": "Ich hätte es tun können, aber ich wollte nicht.",
+            "phonetic": "ɪç ˈhɛtə ɛs tuːn ˈkœnən, ˈaːbɐ ɪç ˈvɔltə nɪçt",
+            "translation": "J'aurais pu le faire, mais je ne l'ai pas voulu.",
+            "note": "Remarque que 'hätte' est placé au début et 'können' à la fin."
+          },
+          {
+            "original": "Wir hätten mehr üben müssen.",
+            "phonetic": "viːɐ̯ ˈhɛtən meːɐ̯ ˈyːbən ˈmʏsən",
+            "translation": "Nous aurions dû pratiquer davantage.",
+            "note": "Pour 'aurais dû', on utilise 'hätte + verbe + müssen'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Wunsch und Kritik",
+        "translation": "Souhait et critique",
+        "examples": [
+          {
+            "original": "Ich hätte gern mehr Zeit gehabt.",
+            "phonetic": "ɪç ˈhɛtə ɡɛʁn meːɐ̯ tsaɪt ɡəˈhaːt",
+            "translation": "J'aurais aimé avoir plus de temps.",
+            "note": "Pour exprimer des souhaits, on utilise 'hätte gern' + participe."
+          },
+          {
+            "original": "Du hättest pünktlicher sein sollen.",
+            "phonetic": "duː ˈhɛtəst ˈpʏŋktlɪçɐ zaɪn ˈzɔlən",
+            "translation": "Tu aurais dû être plus ponctuel.",
+            "note": "Pour la critique, on utilise 'hätte ... sollen'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Irreale Bedingungen",
+        "translation": "Conditions irréelles",
+        "examples": [
+          {
+            "original": "Wenn ich Geld gehabt hätte, hätte ich das Auto gekauft.",
+            "phonetic": "vɛn ɪç ɡɛlt ɡəˈhaːt ˈhɛtə, ˈhɛtə ɪç das ˈaʊtoʊ ɡəˈkaʊft",
+            "translation": "Si j'avais eu de l'argent, j'aurais acheté la voiture.",
+            "note": "Dans les phrases conditionnelles, le Konjunktiv II est utilisé dans les deux propositions."
+          },
+          {
+            "original": "Er wäre gekommen, wenn er eingeladen worden wäre.",
+            "phonetic": "eːɐ̯ ˈvɛːʁə ɡəˈkɔmən, vɛn eːɐ̯ ˈaɪ̯nɡəlaːdən ˈvɔʁdən ˈvɛːʁə",
+            "translation": "Il serait venu s'il avait été invité.",
+            "note": "On utilise 'wäre' pour les verbes de mouvement et à la voix passive."
+          },
+          {
+            "original": "Sie hätte mehr lernen müssen, um zu bestehen.",
+            "phonetic": "ziː ˈhɛtə meːɐ̯ ˈlɛʁnən ˈmʏsən, ʊm tsuː bəˈʃteːən",
+            "translation": "Elle aurait dû étudier davantage pour réussir.",
+            "note": "'um zu' introduit le but."
+          }
+        ]
+      }
+    ],
+    "emoji": "🙏",
+    "phonetic": "",
+    "translations": {
+      "fr": "Modaux avancés au passé"
+    }
+  },
+  {
+    "id": "fr_B2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Partizipialsätze / Phrases participiales",
+    "bridge": "En allemand, pour exprimer des actions simultanées, on utilise souvent des constructions participiales (Partizip Präsens) ou des subordonnées avec \"während\". Le Partizip Präsens se forme en ajoutant -end à l'infinitif du verbe et se place généralement en début de phrase, suivi d'une virgule. Contrairement à l'espagnol, le participe allemand s'accorde en cas, genre et nombre avec le nom auquel il se rapporte. Il est souvent utilisé dans des contextes formels ou écrits. L'erreur la plus fréquente consiste à traduire littéralement le gérondif espagnol par \"gehend\", alors qu'en allemand, on préfère souvent le Partizip Präsens à valeur active et simultanée, mais avec une structure participiale qui n'a pas d'équivalent direct en gérondif espagnol.",
+    "rule": "En allemand, le Partizip Präsens se forme à partir de l'infinitif du verbe + -d (pour les verbes en -en ou -eln, on ajoute -end). Par exemple : gehen (aller) → gehend ; lächeln (sourire) → lächelnd. Ce participe peut fonctionner comme adjectif (décliné) ou comme adverbe (non décliné). Dans les phrases participiales, le participe présent est placé en début de subordonnée (souvent précédé de la préposition \"mit\" ou \"ohne\", ou simplement sans préposition), et la phrase principale est séparée par une virgule. Le sujet de la phrase participiale doit être le même que celui de la phrase principale. Exemple : \"Er saß am Tisch, ein Buch lesend\" (Il était assis à la table, lisant un livre). On peut également utiliser le Partizip II (participe passé) pour exprimer des actions passées : \"Angekommen in Berlin, meldete er sich\" (Une fois arrivé à Berlin, il se présenta). Au niveau B2, l'étudiant doit maîtriser ces constructions pour enrichir son expression écrite et formelle, en évitant l'usage excessif de \"und\" ou \"während\".",
+    "concept_examples": [
+      {
+        "text": "Die Straße entlanggehend, sah ich einen alten Freund.",
+        "translation": "En marchant dans la rue, j'ai vu un vieil ami.",
+        "phonetic": "diː ˈʃtʁaːsə ɛntˈlaŋˌɡeːənt, zaː ɪç aɪnən ˈaltən fʁɔʏnt"
+      },
+      {
+        "text": "Ein Buch lesend, saß sie im Park.",
+        "translation": "Assise dans le parc, elle lisait un livre.",
+        "phonetic": "aɪn buːx ˈleːzənt, zaːs ziː ɪm paʁk"
+      },
+      {
+        "text": "Angekommen am Bahnhof, rief er sofort an.",
+        "translation": "Une fois arrivé à la gare, il appela immédiatement un taxi.",
+        "phonetic": "ˈaŋɡəˌkɔmən am ˈbaːnhoːf, ʁiːf eːɐ̯ zoˈfɔʁt an"
+      },
+      {
+        "text": "Ohne ein Wort zu sagen, verließ sie den Raum.",
+        "translation": "Sans dire un mot, il sortit de la pièce.",
+        "phonetic": "ˈoːnə aɪn vɔʁt tsuː ˈzaːɡən, fɛɐ̯ˈliːs ziː deːn ʁaʊm"
+      }
+    ],
+    "common_error": {
+      "wrong": "Gehend die Straße, sah ich einen Freund.",
+      "correct": "Die Straße entlanggehend, sah ich einen Freund.",
+      "correct_alt": "Während ich die Straße entlangging, sah ich einen Freund.",
+      "explanation": "L'erreur consiste à traduire littéralement \"caminando la calle\" et à placer le participe à la fin sans respecter l'ordre des mots allemand. De plus, \"gehen\" ne prend pas de complément d'objet direct ; il faut utiliser la préposition \"entlang\" ou \"auf\". En allemand, la phrase participiale se place en début de phrase et exige que le verbe au participe soit correctement formé et placé, souvent avec une préposition de mouvement incluse."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Partizip Präsens als Adjektiv / Participio presente como adjetivo",
+        "translation": "Utilisation du participe présent comme adjectif, décliné selon le cas, le genre et le nombre.",
+        "examples": [
+          {
+            "original": "Der lachende Junge spielt im Garten.",
+            "phonetic": "deːɐ̯ ˈlaxəndə ˈjʊŋə ʃpiːlt ɪm ˈɡaʁtən",
+            "translation": "L'enfant qui rit joue dans le jardin.",
+            "note": "Ici, \"lachende\" est un participe présent utilisé comme adjectif, avec la terminaison -e (nominatif masculin). Il équivaut à une subordonnée relative en espagnol."
+          },
+          {
+            "original": "Die weinende Frau stand an der Tür.",
+            "phonetic": "diː ˈvaɪnəndə fʁaʊ ʃtant an deːɐ̯ tyːɐ̯",
+            "translation": "La femme qui pleurait se tenait à la porte.",
+            "note": "Le participe \"weinend\" se décline avec -e au féminin nominatif, comme un adjectif."
+          },
+          {
+            "original": "Ein interessiertes Publikum hörte zu.",
+            "phonetic": "aɪn ɪntəʁɛˈsiːɐ̯təs ˈpuːblikʊm ˈhøːɐ̯tə tsuː",
+            "translation": "Un public intéressé écoutait.",
+            "note": "Ici, on utilise le Partizip II (interessiert) comme adjectif, montrant qu'on peut aussi employer le participe passé avec une valeur passive ou d'état."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Partizipialsätze mit Präsenspartizip / Cláusulas de participio con participio presente",
+        "translation": "Constructions exprimant des actions simultanées, placées en début de phrase.",
+        "examples": [
+          {
+            "original": "Laut singend, ging er die Treppe hinauf.",
+            "phonetic": "laʊt ˈzɪŋənt, ɡɪŋ eːɐ̯ diː ˈtʁɛpə hɪˈnaʊf",
+            "translation": "Chantant à tue-tête, il monta les escaliers.",
+            "note": "La phrase participiale \"laut singend\" équivaut à \"während er sang\" et se place avant la phrase principale, avec une virgule."
+          },
+          {
+            "original": "Mit den Händen in den Taschen, blieb er stehen.",
+            "phonetic": "mɪt deːn ˈhɛndən ɪn deːn ˈtaʃən, bliːp eːɐ̯ ˈʃteːən",
+            "translation": "Les mains dans les poches, il resta planté là.",
+            "note": "La préposition \"mit\" peut introduire une phrase participiale avec une valeur de manière ou de circonstance."
+          },
+          {
+            "original": "Ein Lied pfeifend, näherte er sich dem Haus.",
+            "phonetic": "aɪn liːt ˈpfaɪfənt, ˈnɛːɐtə eːɐ̯ zɪç deːm haʊs",
+            "translation": "Sifflant une chanson, il s'approcha de la maison.",
+            "note": "Le participe s'accorde avec le sujet de la phrase principale (er) et n'est pas décliné car il fonctionne comme adverbe."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Partizipialsätze mit Partizip II / Cláusulas de participio con participio pasado",
+        "translation": "Constructions à valeur passive ou d'antériorité, fréquentes dans les registres formels.",
+        "examples": [
+          {
+            "original": "Angekommen am Flughafen, rief sie ein Taxi.",
+            "phonetic": "ˈaŋɡəˌkɔmən am ˈfluːkˌhaːfən, ʁiːf ziː aɪn ˈtaksi",
+            "translation": "Une fois arrivée à l'aéroport, elle appela un taxi.",
+            "note": "Le Partizip II de \"ankommen\" est utilisé pour indiquer l'antériorité, équivalent à \"après être arrivée\"."
+          },
+          {
+            "original": "Verlassen von allen Freunden, fühlte er sich einsam.",
+            "phonetic": "fɛɐ̯ˈlasən fɔn ˈalən ˈfʁɔʏndən, ˈfyːltə eːɐ̯ zɪç ˈaɪnzaːm",
+            "translation": "Abandonné par tous ses amis, il se sentait seul.",
+            "note": "Ici, le participe a une valeur passive (c'est lui qui est abandonné). En espagnol, on utilise la construction du participe passif."
+          },
+          {
+            "original": "Nachdem die Prüfung bestanden war, feierten sie alle.",
+            "phonetic": "ˈnaːxdeːm diː ˈpʁyːfʊŋ bəˈʃtandən vaːɐ̯, ˈfaɪ̯tɐtn ziː ˈalə",
+            "translation": "Après que l'examen fut réussi, tous célébrèrent.",
+            "note": "C'est une alternative avec une subordonnée temporelle, mais on peut l'exprimer avec un participe : \"Die Prüfung bestanden, feierten sie alle.\" Remarque : la forme avec \"nachdem\" est plus courante à l'oral."
+          }
+        ]
+      }
+    ],
+    "emoji": "🍃",
+    "phonetic": "",
+    "translations": {
+      "fr": "Phrases participiales"
+    }
+  },
+  {
+    "id": "fr_B2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Subjuntivo formel (Konjunktiv I) – il est essentiel qu’il soit",
+    "bridge": "En espagnol, le subjonctif s’emploie dans les propositions subordonnées après des expressions de nécessité, de doute ou de désir (comme « es esencial que »). En allemand, l’équivalent fonctionnel est le Konjunktiv I, mais son usage est bien plus restreint : il est surtout utilisé dans le style indirect et dans des formules fixes, tandis que pour exprimer une nécessité ou un désir, on préfère le Konjunktiv II ou des constructions avec « sollen ». De plus, la forme du Konjunktiv I coïncide souvent avec le présent de l’indicatif (sauf à la troisième personne), ce qui peut induire en erreur l’hispanophone, qui s’attend à une désinence claire de subjonctif.",
+    "rule": "Le Konjunktiv I se forme à partir du radical du présent et ajoute les terminaisons suivantes : -e, -est, -e, -en, -et, -en (pour les verbes réguliers et beaucoup d’irreguliers). Il s’emploie principalement dans le discours indirect (er sagte, er sei…) et dans des expressions fixes comme « es lebe… » (vive !) ou « er behauptet, es sei… ». Pour exprimer une nécessité ou un désir (équivalent au subjonctif espagnol), on utilise plus fréquemment le Konjunktiv II (wäre, hätte, würde) ou la construction avec « sollen » (es soll…). Au niveau B2, on attend de l’élève qu’il reconnaisse et utilise le Konjunktiv I dans le style indirect et dans les formules, mais pas comme équivalent exact du subjonctif espagnol. Les verbes auxiliaires (sein, haben, werden) et les modaux ont des formes propres : sei, habe, werde, könne, müsse, solle, wolle, dürfe, möge. À la troisième personne du singulier, le Konjunktiv I se distingue clairement de l’indicatif : er sei (et non « es »), sie habe (et non « hat »).",
+    "concept_examples": [
+      {
+        "text": "Es ist wichtig, dass er pünktlich sei.",
+        "translation": "Il est important qu’il soit à l’heure.",
+        "phonetic": "/ɛs ɪst ˈvɪçtɪç das eːɐ̯ ˈpʏŋktlɪç zaɪ̯/"
+      },
+      {
+        "text": "Er sagt, er habe keine Zeit.",
+        "translation": "Il dit qu’il n’a pas le temps.",
+        "phonetic": "/eːɐ̯ zaːkt eːɐ̯ ˈhaːbə ˈkaɪ̯nə tsaɪ̯t/"
+      },
+      {
+        "text": "Man nehme 100g Butter.",
+        "translation": "On prend 100 g de beurre (recette).",
+        "phonetic": "/man ˈneːmə hʊndɐt ɡʁam ˈbʊtɐ/"
+      },
+      {
+        "text": "Es lebe der König!",
+        "translation": "Vive le roi !",
+        "phonetic": "/ɛs ˈleːbə deːɐ̯ ˈkøːnɪç/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Es ist wichtig, dass er pünktlich ist.",
+      "correct": "Es ist wichtig, dass er pünktlich sei.",
+      "correct_alt": "Es ist wichtig, dass er pünktlich ist. (coloquial, aceptado en muchos contextos)",
+      "explanation": "L’erreur survient parce qu’en espagnol, on utilise toujours le subjonctif après « es importante que », et l’élève transpose cette structure en allemand en utilisant l’indicatif. Cependant, en allemand, après « dass », on utilise normalement l’indicatif ; le subjonctif (Konjunktiv I) est réservé au style indirect et aux formules. Pour exprimer une nécessité ou un désir, on préfère le Konjunktiv II. Ainsi, la phrase correcte serait « Es ist wichtig, dass er pünktlich ist » (indicatif) ou « Es wäre wichtig, dass er pünktlich käme » (Konjunktiv II). La version avec « sei » sonne très formelle et désuète dans ce contexte."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formen des Konjunktiv I",
+        "translation": "Formes du subjonctif I",
+        "examples": [
+          {
+            "original": "sein: er sei, sie seien",
+            "phonetic": "/zaɪ̯n eːɐ̯ zaɪ̯ ziː ˈzaɪ̯ən/",
+            "translation": "être : il soit, ils soient",
+            "note": "Apprends les formes des verbes auxiliaires : sein (sei), haben (habe), werden (werde). Ils sont irréguliers et très utilisés."
+          },
+          {
+            "original": "haben: du habest, ihr habet",
+            "phonetic": "/ˈhaːbən duː ˈhaːbəst iːɐ̯ ˈhaːbət/",
+            "translation": "avoir : tu aies, vous ayez",
+            "note": "À la 2e personne du singulier et du pluriel, les terminaisons sont -est et -et, mais en pratique moderne, elles sont peu utilisées."
+          },
+          {
+            "original": "machen: er mache, sie machen",
+            "phonetic": "/ˈmaxən eːɐ̯ ˈmaxə ziː ˈmaxən/",
+            "translation": "faire : il fasse, ils fassent",
+            "note": "Pour les verbes réguliers, le Konjunktiv I se forme avec le radical du présent + e, sauf à la 3e personne du singulier qui est toujours différente de l’indicatif."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Gebrauch in der indirekten Rede",
+        "translation": "Usage dans le style indirect",
+        "examples": [
+          {
+            "original": "Er sagt, er sei müde.",
+            "phonetic": "/eːɐ̯ zaːkt eːɐ̯ zaɪ̯ ˈmyːdə/",
+            "translation": "Il dit qu’il est fatigué.",
+            "note": "Dans le style indirect, le Konjunktiv I s’emploie pour rapporter les propos d’autrui sans les citer littéralement."
+          },
+          {
+            "original": "Sie behauptet, sie habe das Buch gelesen.",
+            "phonetic": "/ziː bəˈhaʊptət ziː ˈhaːbə das buːx ɡəˈleːzən/",
+            "translation": "Elle affirme qu’elle a lu le livre.",
+            "note": "Si la forme du Konjunktiv I coïncide avec l’indicatif, on utilise le Konjunktiv II pour éviter toute ambiguïté."
+          },
+          {
+            "original": "Der Chef sagt, wir sollen früher kommen.",
+            "phonetic": "/deːɐ̯ ʃɛf zaːkt viːɐ̯ ˈzɔlən ˈfʁyːɐ ˈkɔmən/",
+            "translation": "Le patron dit que nous devons venir plus tôt.",
+            "note": "Dans le style indirect, les verbes modaux s’emploient au Konjunktiv I : solle, wolle, müsse."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Feste Wendungen und Rezepte",
+        "translation": "Expressions fixes et recettes",
+        "examples": [
+          {
+            "original": "Man nehme zwei Eier und schlage sie schaumig.",
+            "phonetic": "/man ˈneːmə t͡svaɪ̯ ˈaɪ̯ɐ ʊnt ˈʃlaːɡə ziː ˈʃaʊ̯mɪç/",
+            "translation": "On prend deux œufs et on les monte en neige.",
+            "note": "Dans les recettes, le Konjunktiv I s’emploie comme un impératif impersonnel (man nehme)."
+          },
+          {
+            "original": "Es sei denn, du kommst früher.",
+            "phonetic": "/ɛs zaɪ̯ dɛn duː kɔmst ˈfʁyːɐ/",
+            "translation": "À moins que tu ne viennes plus tôt.",
+            "note": "L’expression « es sei denn » est une conjonction fixe qui signifie « à moins que »."
+          },
+          {
+            "original": "Lang lebe die Königin!",
+            "phonetic": "/laŋ ˈleːbə diː ˈkøːnɪɡɪn/",
+            "translation": "Longue vie à la reine !",
+            "note": "Formule de toast ou de célébration, similaire au subjonctif espagnol à valeur desiderative."
+          }
+        ]
+      }
+    ],
+    "emoji": "📜",
+    "phonetic": "",
+    "translations": {
+      "fr": "Subjuntivo formel (Konjunktiv I)"
+    }
+  },
+  {
+    "id": "fr_B2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Futur II et Futur I avec „werden“ / Futur antérieur et futur continu",
+    "bridge": "En allemand, le futur continu (être en train de faire quelque chose dans le futur) n'existe pas en tant que tel : il s'exprime au présent avec un adverbe de temps, ou avec le Futur I (werden + infinitif) pour insister. Le futur antérieur (avoir fait quelque chose dans le futur) se forme avec werden + participe passé + haben/sein à la fin. Contrairement à l'espagnol, où l'on utilise 'estaré haciendo' ou 'habré hecho', en allemand le choix entre 'haben' ou 'sein' pour le parfait dépend du verbe, un concept que tu connais déjà du présent parfait. Attention : dans la proposition principale, le verbe conjugué (werden) se place en deuxième position, et les autres verbes à la fin.",
+    "rule": "Le futur continu (Futur I) s'utilise pour exprimer une action future avec une insistance sur son déroulement, bien qu'en pratique on préfère le présent avec un adverbe de temps (p. ex. morgen, nächste Woche). La structure est : sujet + conjugaison de 'werden' (ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie werden) + infinitif du verbe principal à la fin. Pour le futur antérieur (Futur II), on utilise : sujet + conjugaison de 'werden' + participe passé du verbe principal + 'haben' ou 'sein' (à l'infinitif) à la fin. Le choix entre 'haben' et 'sein' suit les règles du Perfekt : 'sein' pour les verbes intransitifs de mouvement ou de changement d'état (gehen, kommen, werden, bleiben), 'haben' pour les autres. Exceptions : les verbes modaux au futur antérieur se construisent avec l'infinitif du verbe principal + infinitif du modal + 'haben' à la fin (p. ex. 'ich werde haben machen müssen'). Le Futur II s'utilise aussi pour des suppositions sur le passé (p. ex. 'Er wird es vergessen haben' – il l'a probablement oublié).",
+    "concept_examples": [
+      {
+        "text": "Nächstes Jahr werde ich in Berlin arbeiten.",
+        "translation": "L'année prochaine, je travaillerai à Berlin.",
+        "phonetic": "ˈnɛkstəs ˈjaːɐ̯ ˈveːɐ̯də ɪç ɪn bɛʁˈliːn ˈaʁbaɪtən"
+      },
+      {
+        "text": "Bis 2030 wird die Bevölkerung gewachsen sein.",
+        "translation": "En 2030, la population aura augmenté.",
+        "phonetic": "bɪs ˈt͡svaɪ̯taʊ̯zəntˈdʁaɪ̯sɪç vɪʁt diː bəˈvøːkəʁʊŋ ɡəˈvaksən zaɪ̯n"
+      },
+      {
+        "text": "Morgen um diese Zeit werden wir am Strand liegen.",
+        "translation": "Demain à cette heure, nous serons allongés sur la plage.",
+        "phonetic": "ˈmɔʁɡn̩ ʊm ˈdiːzə t͡saɪ̯t ˈveːɐ̯dn̩ viːɐ̯ am ʃtʁant ˈliːɡən"
+      }
+    ],
+    "common_error": {
+      "wrong": "Bis 2025 werde ich in Spanien gelebt haben.",
+      "correct": "Bis 2025 werde ich in Spanien gelebt haben.",
+      "correct_alt": "Bis 2025 werde ich in Spanien leben.",
+      "explanation": "L'erreur typique consiste à utiliser 'haben' avec des verbes de mouvement ou de changement d'état, comme 'leben' (qui, bien qu'intransitif, n'implique pas de mouvement et prend donc 'haben' – dans ce cas, c'est correct). Une erreur plus fréquente concerne 'gehen' ou 'kommen' : par exemple, dire 'ich werde nach Hause gegangen haben' au lieu de 'ich werde nach Hause gegangen sein'. Une autre confusion consiste à utiliser le futur continu (Futur I) pour des actions déjà planifiées, alors que le présent est plus naturel : 'Morgen fliege ich nach Madrid' au lieu de 'Morgen werde ich nach Madrid fliegen' (bien que cela soit acceptable, cela sonne plus emphatique). Évite de traduire littéralement 'estaré haciendo' par 'werde machend sein', qui n'existe pas en allemand. Utilise le présent ou le Futur I."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Futur I (Futuro continuo)",
+        "translation": "Futur I (Futur continu)",
+        "examples": [
+          {
+            "original": "Ich werde morgen früh aufstehen.",
+            "phonetic": "ɪç ˈveːɐ̯də ˈmɔʁɡn̩ fʁyː ˈaʊ̯fʃteːən",
+            "translation": "Demain, je me lèverai tôt.",
+            "note": "En espagnol, on utilise 'estaré levantándome', mais en allemand le Futur I implique une action future, pas nécessairement continue. On préfère le présent avec adverbe : 'Ich stehe morgen früh auf'."
+          },
+          {
+            "original": "Sie wird sicher die Prüfung bestehen.",
+            "phonetic": "ziː vɪʁt ˈzɪçɐ diː ˈpʁyːfʊŋ bəˈʃteːən",
+            "translation": "Elle devrait probablement réussir l'examen.",
+            "note": "Le Futur I exprime aussi une supposition sur le futur, similaire à 'deberá de aprobar' en espagnol."
+          },
+          {
+            "original": "Wir werden nächstes Wochenende wandern gehen.",
+            "phonetic": "viːɐ̯ ˈveːɐ̯dn̩ ˈnɛkstəs ˈvɔxənˌɛndə ˈvandɐn ˈɡeːən",
+            "translation": "Le week-end prochain, nous irons faire de la randonnée.",
+            "note": "Remarque que 'gehen' se place à la fin avec l'infinitif 'wandern' – c'est une structure à double infinitif."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Futur II mit „haben“ / Futuro perfecto con 'haben'",
+        "translation": "Futur II avec 'haben'",
+        "examples": [
+          {
+            "original": "Bis nächste Woche werde ich das Buch gelesen haben.",
+            "phonetic": "bɪs ˈnɛkstə ˈvɔxə ˈveːɐ̯də ɪç das buːx ɡəˈleːzən ˈhaːbən",
+            "translation": "D'ici la semaine prochaine, j'aurai lu le livre.",
+            "note": "Les verbes transitifs comme 'lesen' utilisent 'haben' au parfait et au futur antérieur."
+          },
+          {
+            "original": "Am Ende des Tages werden wir viel gearbeitet haben.",
+            "phonetic": "am ˈɛndə dɛs ˈtaːɡəs ˈveːɐ̯dn̩ viːɐ̯ fiːl ɡəˈaʁbaɪtət ˈhaːbən",
+            "translation": "À la fin de la journée, nous aurons beaucoup travaillé.",
+            "note": "Rappelle-toi que 'arbeiten' est intransitif mais pas de mouvement, c'est pourquoi il prend 'haben'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Futur II mit „sein“ und Modalverben / Futuro perfecto con 'sein' y verbos modales",
+        "translation": "Futur antérieur avec 'sein' et verbes modaux",
+        "examples": [
+          {
+            "original": "Bis morgen werden sie nach Berlin gefahren sein.",
+            "phonetic": "bɪs ˈmɔʁɡn̩ ˈveːɐ̯dn̩ ziː naːx bɛʁˈliːn ɡəˈfaːʁən zaɪ̯n",
+            "translation": "D'ici demain, ils seront allés à Berlin.",
+            "note": "Le verbe 'fahren' est un verbe de mouvement, c'est pourquoi il se conjugue avec 'sein'."
+          },
+          {
+            "original": "Er wird wohl den Schlüssel verloren haben.",
+            "phonetic": "eːɐ̯ vɪʁt voːl deːn ˈʃlʏsəl fɛɐ̯ˈloːʁən ˈhaːbən",
+            "translation": "Il aura probablement perdu ses clés.",
+            "note": "Cette utilisation exprime une supposition sur le passé, équivalente à 'habrá perdido' en espagnol."
+          },
+          {
+            "original": "Sie werden die Prüfung bestanden haben müssen.",
+            "phonetic": "ziː ˈveːɐ̯dn̩ diː ˈpʁyːfʊŋ bəˈʃtandn̩ ˈhaːbən ˈmʏsən",
+            "translation": "Ils auront dû réussir l'examen.",
+            "note": "Avec les verbes modaux, l'ordre est : participe + infinitif du verbe principal + 'haben' comme infinitif (pas 'gehabt')."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔮",
+    "phonetic": "",
+    "translations": {
+      "fr": "Futur antérieur et futur continu"
+    }
+  },
+  {
+    "id": "fr_B2_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Konjunktionen und Adverbien für Textkohäsion / Connecteurs et adverbes pour la cohésion textuelle",
+    "bridge": "En allemand, nous avons tendance à relier les idées avec des connecteurs comme 'sin embargo', 'además' ou 'por lo tanto', souvent en début de phrase. En allemand, beaucoup de ces marqueurs sont des adverbes occupant la position 1 de l'énoncé et **obligatoirement** inversent l'ordre sujet-verbe (structure V2). Cela contraste avec l'habitude des hispanophones de maintenir l'ordre sujet-verbe après le connecteur. Une autre différence : alors qu'en espagnol 'porque' et 'por eso' sont interchangeables dans certains contextes informels, en allemand **denn** (conjonction de coordination) n'inverse pas, mais **deshalb/deswegen** (adverbe) le fait. De plus, il existe des faux amis comme 'aunque' (obwohl) à ne pas confondre avec 'todavía' (noch).",
+    "rule": "En allemand, les marqueurs du discours se divisent en trois groupes selon leur syntaxe : 1) **Conjonctions de subordination** (par exemple, 'obwohl', 'weil', 'da', 'während') qui placent le verbe conjugué à la fin de la proposition subordonnée. 2) **Conjonctions de coordination** (comme 'denn', 'aber', 'oder', 'und') qui ne modifient pas l'ordre V2. 3) **Adverbes connecteurs** (comme 'trotzdem', 'deshalb', 'außerdem', 'jedoch', 'nämlich') qui fonctionnent comme élément initial (position 1) et exigent l'inversion du sujet et du verbe. Exemple : 'Trotzdem bin ich müde.' (sujet 'ich' après le verbe 'bin'). Pour le niveau B2, il est crucial de maîtriser les nuances : 'trotzdem' exprime une concession, 'deshalb' une conséquence, 'außerdem' une addition, 'jedoch' une opposition formelle, 'nämlich' une explication. Il faut aussi utiliser les binômes 'entweder... oder' (soit... soit), 'weder... noch' (ni... ni), et 'zwar... aber' (certes... mais). Exception : avec 'denn', il n'y a pas d'inversion, et avec 'weil' dans un registre familier, on utilise parfois l'ordre V2 (incorrect sur le plan normatif mais courant). Pour un niveau B2, on attend un usage normatif : subordonnées avec le verbe à la fin et adverbes avec inversion. La position de l'adverbe peut varier (en début ou au milieu de la phrase) sans changement sémantique, mais l'inversion n'a lieu que lorsqu'il est en début de phrase.",
+    "concept_examples": [
+      {
+        "text": "Obwohl es regnete, ging er spazieren.",
+        "translation": "Bien qu'il pleuve, il est sorti se promener.",
+        "phonetic": "ˈɔpvɔl ɛs ˈʁeːɡnətə, ɡɪŋ eːɐ̯ ʃpaˈtsiːʁən"
+      },
+      {
+        "text": "Er ist krank, deshalb bleibt er zu Hause.",
+        "translation": "Il est malade, c'est pourquoi il reste à la maison.",
+        "phonetic": "eːɐ̯ ɪst kʁaŋk, ˈdɛsˌhalp blaɪ̯pt eːɐ̯ t͡suː ˈhaʊ̯zə"
+      },
+      {
+        "text": "Sie hat viel gearbeitet; trotzdem fühlt sie sich energiegeladen.",
+        "translation": "Elle a beaucoup travaillé ; cependant, elle se sent pleine d'énergie.",
+        "phonetic": "ziː hat fiːl ɡəˈaʁbaɪ̯tət; ˈtʁɔt͡sdeːm fyːlt ziː zɪç ˌɛnɛʁˈɡiːɡəlaːdn̩"
+      },
+      {
+        "text": "Entweder du kommst jetzt, oder wir gehen ohne dich.",
+        "translation": "Soit tu viens maintenant, soit nous partons sans toi.",
+        "phonetic": "ɛntˈveːdɐ duː kɔmst jɛtst, ˈoːdɐ viːɐ̯ ˈɡeːən ˈoːnə dɪç"
+      }
+    ],
+    "common_error": {
+      "wrong": "Obwohl er ist müde, geht er ins Kino.",
+      "correct": "Obwohl er müde ist, geht er ins Kino.",
+      "correct_alt": "Er ist müde, trotzdem geht er ins Kino.",
+      "explanation": "L'erreur typique consiste à maintenir l'ordre sujet-verbe après 'obwohl', comme on le ferait en espagnol ('aunque él está cansado'). En allemand, les conjonctions de subordination exigent que le verbe conjugué ('ist') soit placé à la fin de la subordonnée. On peut corriger en changeant l'ordre dans la subordonnée ou, si l'on préfère un connecteur adversatif, utiliser 'trotzdem' qui exige une inversion dans la phrase principale."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Kausale und konsekutive Marker / Marcadores causales y consecutivos",
+        "translation": "Connecteurs causaux et consécutifs",
+        "examples": [
+          {
+            "original": "Weil es kalt ist, ziehe ich eine Jacke an.",
+            "phonetic": "vaɪ̯l ɛs kalt ɪst, ˈt͡siːə ɪç aɪ̯nə ˈjakə an",
+            "translation": "Comme il fait froid, je mets une veste.",
+            "note": "Subordonnée causale avec 'weil' + verbe à la fin. En espagnol, on utilise 'porque' sans modifier l'ordre."
+          },
+          {
+            "original": "Ich bin müde, denn ich habe viel gearbeitet.",
+            "phonetic": "ɪç bɪn ˈmyːdə, dɛn ɪç ˈhaːbə fiːl ɡəˈaʁbaɪ̯tət",
+            "translation": "Je suis fatigué, car j'ai beaucoup travaillé.",
+            "note": "'denn' est une conjonction de coordination, elle n'inverse pas l'ordre. C'est l'équivalent de 'pues' ou 'ya que'."
+          },
+          {
+            "original": "Es hat geschneit, daher bleiben wir zu Hause.",
+            "phonetic": "ɛs hat ɡəˈʃnaɪ̯t, daːˈheːɐ̯ ˈblaɪ̯bən viːɐ̯ t͡suː ˈhaʊ̯zə",
+            "translation": "Il a neigé, c'est pourquoi nous restons à la maison.",
+            "note": "'daher' est un adverbe consécutif : il exige une inversion (verbe avant le sujet)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Adversative und konzessive Marker / Marcadores adversativos y concesivos",
+        "translation": "Connecteurs adversatifs et concessifs",
+        "examples": [
+          {
+            "original": "Er ist intelligent, aber manchmal faul.",
+            "phonetic": "eːɐ̯ ɪst ɪntɛliˈɡɛnt, ˈaːbɐ ˈmançmaːl faʊ̯l",
+            "translation": "Il est intelligent, mais parfois paresseux.",
+            "note": "'aber' est une conjonction de coordination, elle ne modifie pas l'ordre. On l'utilise comme 'pero'."
+          },
+          {
+            "original": "Sie hat wenig Zeit; trotzdem hilft sie mir.",
+            "phonetic": "ziː hat ˈvɪçɪç t͡saɪ̯t; ˈtʁɔt͡sdeːm hɪlft ziː miːɐ̯",
+            "translation": "Elle a peu de temps ; cependant, elle m'aide.",
+            "note": "'trotzdem' est un adverbe adversatif concessif et exige une inversion. Remarquez : 'hilft sie' au lieu de 'sie hilft'."
+          },
+          {
+            "original": "Ich mag Kaffee, jedoch trinke ich abends Tee.",
+            "phonetic": "ɪç maːk ˈkafeː, ˈjeːdoχ ˈtʁɪŋkə ɪç ˈaːbənts teː",
+            "translation": "J'aime le café, mais le soir, je bois du thé.",
+            "note": "'jedoch' est formel, similaire à 'no obstante'. Il nécessite une inversion."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Aditive und alternative Marker / Marcadores aditivos y alternativos",
+        "translation": "Connecteurs additifs et alternatifs",
+        "examples": [
+          {
+            "original": "Außerdem möchte ich ein neues Buch kaufen.",
+            "phonetic": "ˈaʊ̯sɐdeːm ˈmœçtə ɪç aɪ̯n ˈnɔɪ̯əs buːχ ˈkaʊ̯fən",
+            "translation": "En outre, je veux acheter un nouveau livre.",
+            "note": "'außerdem' en début de phrase exige une inversion : 'möchte ich'."
+          },
+          {
+            "original": "Weder Peter noch Maria haben angerufen.",
+            "phonetic": "ˈveːdɐ ˈpeːtɐ noːχ maˈʁiːa ˈhaːbən ˈanɡəˌʁuːfən",
+            "translation": "Ni Pierre ni Marie n'ont appelé.",
+            "note": "La construction 'weder... noch' s'utilise avec un verbe au pluriel si les sujets sont au singulier."
+          },
+          {
+            "original": "Zwar ist die Aufgabe schwierig, aber wir schaffen es.",
+            "phonetic": "t͡svaːɐ̯ ɪst diː ˈaʊ̯fɡaːbə ˈʃviːʁɪç, ˈaːbɐ viːɐ̯ ˈʃafən ɛs",
+            "translation": "Certes, la tâche est difficile, mais nous y arrivons.",
+            "note": "'zwar' introduit une concession, souvent suivi de 'aber'. Ne pas confondre avec 'aunque'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "fr": "Connecteurs pour la cohésion textuelle"
+    }
+  },
+  {
+    "id": "fr_B2_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Hedging / Langage d'atténuation (Affaiblissement et imprécision)",
+    "bridge": "En espagnol, nous utilisons des constructions comme 'parece que', 'tiendo a pensar' ou 'aparentemente' pour adoucir des affirmations ou indiquer une incertitude. En allemand, cette nuance s'exprime à l'aide de verbes modaux (können, mögen), du subjonctif II (Konjunktiv II) comme 'würde' ou 'hätte', et de particules modales comme 'wohl' ou 'eigentlich'. Une erreur typique consiste à traduire littéralement 'parece que' par 'scheint' sans utiliser la structure correcte, ou à abuser de 'denken' au lieu des particules indiquant le doute. En outre, en allemand, la position du verbe et des particules est plus rigide, ce qui oblige à réorganiser la phrase.",
+    "rule": "En allemand, le langage d'atténuation (Hedging) s'exprime par plusieurs moyens : 1) Verbes modaux exprimant une supposition : 'können' (il se peut que), 'mögen' (peut-être), 'dürfen' (au Konjunktiv II : dürfte = devrait probablement). 2) Konjunktiv II des verbes auxiliaires et modaux : 'hätte', 'wäre', 'würde + infinitif' pour exprimer des hypothèses ou de la politesse. 3) Particules modales : 'wohl' (probablement), 'eigentlich' (en réalité), 'vielleicht' (peut-être), 'ja' (comme tu sais). 4) Verbes comme 'scheinen' (sembler) avec 'zu + infinitif' : 'Es scheint zu regnen'. 5) Adverbes : 'angeblich' (soi-disant), 'offenbar' (apparemment), 'offensichtlich' (de toute évidence). Pour le niveau B2, il est important de distinguer entre la probabilité (dürfte, könnte) et la possibilité (kann, mag) et d'utiliser correctement le Konjunktiv II. En espagnol, ces différences s'expriment par le subjonctif ou des périphrases verbales, mais l'allemand exige des structures spécifiques et un placement précis du verbe conjugué en deuxième position.",
+    "concept_examples": [
+      {
+        "text": "Es scheint zu regnen.",
+        "translation": "Il semble qu'il pleuve.",
+        "phonetic": "/ɛs ʃaɪnt tsuː ˈʁeːɡnən/"
+      },
+      {
+        "text": "Sie dürfte bald ankommen.",
+        "translation": "Elle devrait probablement arriver bientôt.",
+        "phonetic": "/ziː ˈdʏʁftə balt ˈanˌkɔmən/"
+      },
+      {
+        "text": "Das ist wohl richtig.",
+        "translation": "C'est probablement correct.",
+        "phonetic": "/das ɪst voːl ˈʁɪçtɪç/"
+      },
+      {
+        "text": "Ich würde sagen, es ist zu teuer.",
+        "translation": "Je dirais que c'est trop cher.",
+        "phonetic": "/ɪç ˈvʏʁdə ˈzaːɡn̩ ɛs ɪst tsuː ˈtɔʏɐ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich denke, dass es scheint, dass er krank ist.",
+      "correct": "Es scheint, dass er krank ist.",
+      "correct_alt": "Er scheint krank zu sein.",
+      "explanation": "L'erreur survient parce qu'en espagnol on dit de manière redondante 'Yo pienso que parece que...', et en traduisant littéralement, on empile 'denken' et 'scheinen'. En allemand, on préfère une seule construction exprimant le doute. De plus, 'scheinen' s'utilise avec 'zu + infinitif' lorsque le sujet est le même : 'Er scheint krank zu sein', ou avec une proposition 'dass' en cas de changement de sujet. Évitez de combiner 'denken' avec 'scheinen' dans la même phrase."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Partikel und Adverbien",
+        "translation": "Particules et adverbes de doute",
+        "examples": [
+          {
+            "original": "Er ist wohl krank.",
+            "phonetic": "/eːɐ̯ ɪst voːl kʁaŋk/",
+            "translation": "Il est probablement malade.",
+            "note": "'wohl' s'utilise pour exprimer une supposition, similaire à 'probablement'."
+          },
+          {
+            "original": "Sie ist angeblich sehr reich.",
+            "phonetic": "/ziː ɪst ˈanɡəˌblɪç zeːɐ̯ ʁaɪç/",
+            "translation": "Elle est soi-disant très riche.",
+            "note": "'angeblich' exprime que l'information n'est pas confirmée."
+          },
+          {
+            "original": "Das ist offenbar ein Missverständnis.",
+            "phonetic": "/das ɪst ˈɔfn̩baːɐ̯ aɪn ˈmɪsfɛɐ̯ˌʃtɛntnɪs/",
+            "translation": "C'est apparemment un malentendu.",
+            "note": "'offenbar' indique que quelque chose semble clair mais avec une certaine réserve."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Konjunktiv II und Modalverben",
+        "translation": "Subjonctif II et verbes modaux",
+        "examples": [
+          {
+            "original": "Er könnte heute kommen.",
+            "phonetic": "/eːɐ̯ ˈkœntə ˈhɔʏtə ˈkɔmən/",
+            "translation": "Il pourrait venir aujourd'hui.",
+            "note": "'könnte' (Konjunktiv II de können) exprime une possibilité, comme 'podría' en espagnol."
+          },
+          {
+            "original": "Das dürfte richtig sein.",
+            "phonetic": "/das ˈdʏʁftə ˈʁɪçtɪç zaɪn/",
+            "translation": "Cela devrait probablement être correct.",
+            "note": "'dürfte' indique une probabilité, similaire à 'debería de' en espagnol."
+          },
+          {
+            "original": "Ich hätte gern mehr Zeit.",
+            "phonetic": "/ɪç ˈhɛtə ɡeːɐ̯n meːɐ̯ tsaɪt/",
+            "translation": "J'aimerais avoir plus de temps.",
+            "note": "'hätte' (Konjunktiv II de haben) s'utilise pour exprimer des souhaits, équivalent à 'me gustaría'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Scheinen und unpersönliche Konstruktionen",
+        "translation": "Sembler et constructions impersonnelles",
+        "examples": [
+          {
+            "original": "Es scheint, dass es morgen regnet.",
+            "phonetic": "/ɛs ʃaɪnt das ɛs ˈmɔʁɡn̩ ˈʁeːɡnət/",
+            "translation": "Il semble qu'il pleuve demain.",
+            "note": "Avec 'scheinen' + 'dass-Satz' pour exprimer une apparence avec changement de sujet."
+          },
+          {
+            "original": "Die Lage scheint sich zu verbessern.",
+            "phonetic": "/diː ˈlaːɡə ʃaɪnt zɪç tsuː fɛɐ̯ˈbɛsɐn/",
+            "translation": "La situation semble s'améliorer.",
+            "note": "Avec 'scheinen' + 'zu + infinitif' lorsque le sujet est le même pour l'action."
+          },
+          {
+            "original": "Man könnte sagen, dass das Projekt erfolgreich war.",
+            "phonetic": "/maːn ˈkœntə ˈzaːɡn̩ das das pʁoˈjɛkt ɛɐ̯ˈfɔlkʁaɪç vaːɐ̯/",
+            "translation": "On pourrait dire que le projet a réussi.",
+            "note": "'man könnte' est une forme impersonnelle de hedging, équivalent à 'se podría'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "fr": "Langage d'atténuation"
+    }
+  }
+]

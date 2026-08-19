@@ -1,0 +1,1268 @@
+[
+  {
+    "id": "zh_A1_conv_01",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "在机场 / 在机场",
+    "bridge": "机场是你最先需要用到法语的场景之一。关键词与西班牙语相似：'le vol'（航班）、'la porte'（登机口）、'l'embarquement'（登机）、'les bagages'（行李）。最常见的情景：办理登机手续柜台（l'enregistrement）和安检（le contrôle de sécurité）。重要提醒：在法国，机场广播通常使用法语和英语，不会使用西班牙语。",
+    "rule": "核心词汇：l'aéroport（机场）、le vol（航班）、la porte d'embarquement（登机口）、l'enregistrement（办理登机手续）、les bagages（行李）、la carte d'embarquement（登机牌）、le passeport（护照）、la douane（海关）、le retard（延误）。常用句子：Où est le vol pour...?（去往……的航班在哪里？）、Mon vol est retardé（我的航班延误了）、J'ai perdu mes bagages（我的行李丢了）。",
+    "concept_examples": [
+      {
+        "text": "Où est le comptoir d'enregistrement Air France?",
+        "translation": "Air France的办理柜台在哪里？",
+        "phonetic": "/u ɛ lə kɔ̃twaʁ dɑ̃ʁeʒistʁəmɑ̃ ɛʁ fʁɑ̃s/"
+      },
+      {
+        "text": "Mon vol est retardé d'une heure.",
+        "translation": "我的航班延误了一个小时。",
+        "phonetic": "/mɔ̃ vɔl ɛ ʁətaʁde dyn œʁ/"
+      },
+      {
+        "text": "J'ai deux bagages à enregistrer.",
+        "translation": "我有两件行李要托运。",
+        "phonetic": "/ʒe dø baɡaʒ a ɑ̃ʁeʒistʁe/"
+      },
+      {
+        "text": "Quelle est la porte d'embarquement?",
+        "translation": "登机口是几号？",
+        "phonetic": "/kɛl ɛ la pɔʁt dɑ̃baʁkəmɑ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis retardé. (para decir que el vuelo se retrasa)",
+      "correct": "Mon vol est retardé.",
+      "correct_alt": "Il y a du retard sur mon vol.",
+      "explanation": "'Je suis retardé'意为'我迟到了'（指我个人迟到）。要表达航班延误，应说'mon vol est retardé'或'il y a du retard'。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "À l'enregistrement",
+        "translation": "在办理登机手续柜台",
+        "examples": [
+          {
+            "original": "— Bonjour, votre passeport et votre billet, s'il vous plaît.\n— Voilà. J'ai aussi un bagage à enregistrer.\n— Très bien. Avez-vous des objets dangereux dans vos bagages?\n— Non, rien du tout.",
+            "phonetic": "",
+            "translation": "——早上好，请出示您的护照和机票。\n——给您。我还有一件行李要托运。\n——好的。您的行李中有危险物品吗？\n——没有，一点都没有。",
+            "note": "'Voilà' = 给您（递东西时用）。'Rien du tout' = 一点都没有。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Au contrôle de sécurité",
+        "translation": "在安检处",
+        "examples": [
+          {
+            "original": "— Retirez vos chaussures et votre ceinture, s'il vous plaît.\n— D'accord. Est-ce que je peux garder mon ordinateur dans mon sac?\n— Non, mettez-le dans un bac séparé.\n— Très bien, merci.",
+            "phonetic": "",
+            "translation": "——请脱掉鞋子和腰带。\n——好的。我的笔记本电脑可以放在包里吗？\n——不行，请把它放在一个单独的托盘里。\n——好的，谢谢。",
+            "note": "'Retirer' = 脱掉、取下。'Un bac' = 托盘。祈使句：mettez（请放）。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Problème de bagages",
+        "translation": "行李问题",
+        "examples": [
+          {
+            "original": "— Excusez-moi, j'ai attendu mes bagages mais ils ne sont pas arrivés.\n— Votre nom et votre numéro de vol, s'il vous plaît?\n— García, vol AF1234 en provenance de Madrid.\n— Je vais vérifier. Pouvez-vous remplir ce formulaire?",
+            "phonetic": "",
+            "translation": "——抱歉，我等的行李还没到。\n——请问您的姓名和航班号？\n——加西亚，从马德里飞来的AF1234航班。\n——我来查一下。您能填一下这张表格吗？",
+            "note": "'En provenance de' = 从……来。'Remplir un formulaire' = 填写表格。"
+          }
+        ]
+      }
+    ],
+    "emoji": "✈️",
+    "phonetic": "",
+    "translations": {
+      "zh": "在机场"
+    },
+    "conversation": {
+      "vocabulary": [
+        {
+          "word": "le vol",
+          "translation": "el vuelo"
+        },
+        {
+          "word": "les bagages",
+          "translation": "el equipaje"
+        },
+        {
+          "word": "la carte d'embarquement",
+          "translation": "la tarjeta de embarque"
+        },
+        {
+          "word": "le passeport",
+          "translation": "el pasaporte"
+        },
+        {
+          "word": "la porte d'embarquement",
+          "translation": "la puerta de embarque"
+        },
+        {
+          "word": "le retard",
+          "translation": "el retraso"
+        },
+        {
+          "word": "enregistrer",
+          "translation": "facturar"
+        }
+      ],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_conv_02",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "À l'hôtel / 在酒店",
+    "bridge": "法国的酒店遵循与西班牙相同的惯例，但也有自己的特色。一个重要的区别：在法国，房间是'la chambre'（不是表示浴室的'la salle'）。'La salle de bains'才是浴室。到达时可以说'j'ai une réservation'（我有预订）。法国的早餐通常是欧陆式（法式长棍面包、牛角包、牛奶咖啡），可能包含在内也可能不包含。",
+    "rule": "酒店词汇：la réception（前台/接待处）、la chambre（房间）、la salle de bains（浴室）、le petit-déjeuner（早餐）、la clé/carte（钥匙/卡）、le service（服务）、l'ascenseur（电梯）。关键句型：J'ai une réservation au nom de...（我以...的名字预订了）、Je voudrais une chambre pour... nuits（我想要一间住...晚的房间）、Est-ce que le petit-déjeuner est inclus?（早餐包含在内吗？）、À quelle heure est le check-out?（退房时间是什么时候？）。",
+    "concept_examples": [
+      {
+        "text": "J'ai une réservation au nom de Martinez.",
+        "translation": "我以Martínez的名字预订了。",
+        "phonetic": "/ʒe yn ʁezɛʁvasjɔ̃ o nɔ̃ də maʁtinɛs/"
+      },
+      {
+        "text": "Est-ce que le petit-déjeuner est inclus?",
+        "translation": "早餐包含在内吗？",
+        "phonetic": "/ɛs kə lə pəti deʒøne ɛ tɛ̃kly/"
+      },
+      {
+        "text": "La climatisation ne fonctionne pas.",
+        "translation": "空调坏了。",
+        "phonetic": "/la klimatizasjɔ̃ nə fɔ̃ksjɔn pa/"
+      },
+      {
+        "text": "À quelle heure faut-il libérer la chambre?",
+        "translation": "什么时候必须退房？",
+        "phonetic": "/a kɛl‿œʁ fo til libeʁe la ʃɑ̃bʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je voudrais une salle.",
+      "correct": "Je voudrais une chambre.",
+      "correct_alt": "",
+      "explanation": "'La salle'在法语中指一个大厅（如客厅、教室）。酒店的房间是'la chambre'。'La salle de bains'才是浴室。不要混淆这些词汇。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Arriver à l'hôtel",
+        "translation": "到达酒店",
+        "examples": [
+          {
+            "original": "— Bonsoir! J'ai une réservation au nom de Lopez, pour trois nuits.\n— Oui, monsieur Lopez. Une chambre double avec vue sur le jardin.\n— Parfait. Est-ce que le petit-déjeuner est inclus?\n— Oui, il est servi de 7h à 10h.",
+            "phonetic": "",
+            "translation": "——晚上好！我以López的名字预订了，住三晚。\n——是的，López先生。一间面向花园的双人间。\n——太好了。早餐包含在内吗？\n——是的，供应时间是7点到10点。",
+            "note": "'Une chambre double' = 双人间。'Vue sur' = 面向..."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Signaler un problème",
+        "translation": "报告问题",
+        "examples": [
+          {
+            "original": "— Bonjour, je suis dans la chambre 215. Le chauffage ne marche pas.\n— Je suis désolé. Je vais envoyer quelqu'un tout de suite.\n— Merci. Est-ce que je peux avoir des serviettes supplémentaires aussi?\n— Bien sûr, pas de problème.",
+            "phonetic": "",
+            "translation": "——早上好，我在215号房。暖气坏了。\n——非常抱歉。我马上派人过去。\n——谢谢。可以多给我几条毛巾吗？\n——当然，没问题。",
+            "note": "'Ne marche pas' = 坏了。'Tout de suite' = 马上。'Bien sûr' = 当然。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Check-out et paiement",
+        "translation": "退房与付款",
+        "examples": [
+          {
+            "original": "— Bonjour, je voudrais régler ma chambre. Je suis dans le 308.\n— Très bien. Voici votre facture. Avez-vous consommé quelque chose du minibar?\n— Non, rien. Je peux payer par carte?\n— Oui, bien sûr. Insérez votre carte, s'il vous plaît.",
+            "phonetic": "",
+            "translation": "——早上好，我想结账。我在308号房。\n——好的。这是您的账单。您消费了迷你吧的东西吗？\n——没有，什么都没消费。可以刷卡吗？\n——可以，请插入您的卡。",
+            "note": "'Régler' = 结账。'La facture' = 账单。'Consommer' = 消费。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "zh": "在酒店"
+    },
+    "conversation": {
+      "vocabulary": [
+        {
+          "word": "la chambre",
+          "translation": "la habitación"
+        },
+        {
+          "word": "la réception",
+          "translation": "la recepción"
+        },
+        {
+          "word": "le petit-déjeuner",
+          "translation": "el desayuno"
+        },
+        {
+          "word": "la clé",
+          "translation": "la llave"
+        },
+        {
+          "word": "inclus/incluse",
+          "translation": "incluido/incluida"
+        },
+        {
+          "word": "régler",
+          "translation": "pagar, liquidar"
+        },
+        {
+          "word": "la facture",
+          "translation": "la factura"
+        }
+      ],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_conv_03",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Au restaurant / 在餐厅",
+    "bridge": "在法国餐厅用餐是一场文化体验。法国菜肴遵循正式的结构：entrée（前菜）、plat principal（主菜）和dessert（甜点）。'Le menu' 是固定价格的套餐，包含多道菜品；'La carte' 是完整的菜单。在传统法国餐厅，习惯上不会要求打包（'para llevar'）。结账需要主动要求：服务员不会主动送账单，除非你开口。",
+    "rule": "法国餐食结构：l'apéritif（开胃酒）、l'entrée（前菜）、le plat（主菜）、le fromage（奶酪，法国特色的甜点前菜）、le dessert（甜点）、le café（咖啡）。叫服务员：'Excusez-moi!' 或轻轻举手示意。结账用语：'L'addition, s'il vous plaît.' 词汇：la carte（菜单）、le menu（固定价格菜单）、le plat du jour（今日特色菜）、sans + 过敏原（不含+过敏原）、bien cuit/saignant（全熟/三分熟（肉类烹饪程度））。",
+    "concept_examples": [
+      {
+        "text": "Vous avez une table pour deux personnes?",
+        "translation": "请问有两人桌吗？",
+        "phonetic": "/vuz‿ave yn tabl puʁ dø pɛʁsɔn/"
+      },
+      {
+        "text": "Qu'est-ce que vous recommandez comme plat du jour?",
+        "translation": "今日特色菜有什么推荐？",
+        "phonetic": "/kɛs kə vu ʁəkɔmɑ̃de kɔm pla dy ʒuʁ/"
+      },
+      {
+        "text": "Je suis allergique aux noix.",
+        "translation": "我对坚果过敏。",
+        "phonetic": "/ʒə sɥiz‿alɛʁʒik o nwa/"
+      },
+      {
+        "text": "C'était délicieux! L'addition, s'il vous plaît.",
+        "translation": "太好吃了！请结账。",
+        "phonetic": "/setɛ delisjø ladisjɔ̃ sil vu plɛ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Garçon! (para llamar al camarero)",
+      "correct": "Excusez-moi, monsieur/madame!",
+      "correct_alt": "",
+      "explanation": "在现代法国，称呼服务员为'Garçon!' 被视为非常粗鲁且过时的行为。正确的方式是'Excusez-moi, monsieur/madame!' 并在开口前与对方有眼神接触。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Arriver et consulter la carte",
+        "translation": "表达满意并付款",
+        "examples": [
+          {
+            "original": "— Bonsoir! Vous avez une réservation?\n— Non, est-ce que vous avez une table pour deux?\n— Oui, par ici s'il vous plaît. Voici la carte.\n— Merci. Qu'est-ce que vous recommandez?",
+            "phonetic": "",
+            "translation": "— 请问一切都好吗？\n— 是的，非常好！三文鱼做得很完美。\n— 很高兴听到。请问要甜点吗？\n— 不用了，谢谢。请结账。可以分开付吗？",
+            "note": "'Tout s'est bien passé?' = 一切都好吗？这是服务员常用的结束询问语。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Commander et demander des informations",
+        "translation": "Pedir y solicitar información",
+        "examples": [
+          {
+            "original": "— Vous avez choisi?\n— Oui. Comme entrée, la salade César. Et comme plat, le saumon grillé.\n— Le saumon, c'est avec des pommes de terre ou du riz?\n— Avec du riz, s'il vous plaît. Et une bouteille d'eau minérale.",
+            "phonetic": "",
+            "translation": "— ¿Han elegido?\n— Sí. De entrante, la ensalada César. Y de plato, el salmón a la plancha.\n— ¿El salmón viene con patatas o con arroz?\n— Con arroz, por favor. Y una botella de agua mineral.",
+            "note": "'Grillé' = a la plancha/a la brasa. 'Pommes de terre' = patatas. 'Du riz' = arroz."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Exprimer satisfaction et payer",
+        "translation": "Expresar satisfacción y pagar",
+        "examples": [
+          {
+            "original": "— Tout s'est bien passé?\n— Oui, c'était excellent! Le saumon était parfait.\n— Je suis content. Vous prendrez un dessert?\n— Non merci, juste l'addition. On peut payer séparément?",
+            "phonetic": "",
+            "translation": "— ¿Todo ha ido bien?\n— Sí, ¡ha estado excelente! El salmón estaba perfecto.\n— Me alegra. ¿Van a tomar postre?\n— No gracias, solo la cuenta. ¿Podemos pagar por separado?",
+            "note": "'Tout s'est bien passé?' = ¿todo ha ido bien? Pregunta típica del camarero al final."
+          }
+        ]
+      }
+    ],
+    "emoji": "🍷",
+    "phonetic": "",
+    "translations": {
+      "zh": "在餐厅"
+    },
+    "conversation": {
+      "vocabulary": [
+        {
+          "word": "la carte",
+          "translation": "la carta"
+        },
+        {
+          "word": "le menu",
+          "translation": "el menú precio fijo"
+        },
+        {
+          "word": "l'entrée",
+          "translation": "el entrante"
+        },
+        {
+          "word": "le plat principal",
+          "translation": "el plato principal"
+        },
+        {
+          "word": "l'addition",
+          "translation": "la cuenta"
+        },
+        {
+          "word": "recommander",
+          "translation": "recomendar"
+        },
+        {
+          "word": "le plat du jour",
+          "translation": "el plato del día"
+        }
+      ],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_conv_04",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "À la pharmacie / 在药房",
+    "bridge": "在法国，药房很容易辨认，因为门面上有绿色的发光十字架。在法国，许多在西班牙可以自由购买的药品需要处方（ordonnance）。药剂师（le pharmacien/la pharmacienne）接受过严格的培训，可以提供基本的医疗建议。重要提醒：法国的医疗系统与西班牙大不相同，关键文件是‘carte Vitale’（健康卡）。",
+    "rule": "药房词汇：l'ordonnance（处方），le médicament（药品），la douleur（疼痛），la fièvre（发烧），le rhume（感冒），la toux（咳嗽），mal à la tête/au ventre/à la gorge（头部/腹部/喉咙疼痛），le comprimé/la gélule（药片/胶囊），l'aspirine（阿司匹林），l'ibuprofène（布洛芬），les gouttes（滴剂），le sirop（糖浆）。常用句子：J'ai mal à...（我...疼），Je tousse（我咳嗽），J'ai de la fièvre（我发烧）。",
+    "concept_examples": [
+      {
+        "text": "J'ai mal à la gorge depuis deux jours.",
+        "translation": "我嗓子疼两天了。",
+        "phonetic": "/ʒe mal a la ɡɔʁʒ dəpɥi dø ʒuʁ/"
+      },
+      {
+        "text": "Avez-vous quelque chose contre la toux?",
+        "translation": "有治咳嗽的药吗？",
+        "phonetic": "/ave vu kɛlkə ʃoz kɔ̃tʁ la tu/"
+      },
+      {
+        "text": "J'ai une ordonnance de mon médecin.",
+        "translation": "我有医生开的处方。",
+        "phonetic": "/ʒe yn ɔʁdɔnɑ̃s də mɔ̃ medsɛ̃/"
+      },
+      {
+        "text": "Ce médicament est-il sans ordonnance?",
+        "translation": "这个药不需要处方吗？",
+        "phonetic": "/sə medikamɑ̃ ɛ til sɑ̃ ɔʁdɔnɑ̃s/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis malade depuis hier. J'ai froid.",
+      "correct": "J'ai de la fièvre et je frissonne.",
+      "correct_alt": "J'ai froid et j'ai chaud à la fois.",
+      "explanation": "“Avoir froid”表示感到冷（天气冷或你觉得冷）。描述发烧症状时，说法是“j'ai de la fièvre”（我发烧）和“je frissonne”（我发抖）。“J'ai froid”仅表示对环境寒冷的感觉。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Décrire des symptômes",
+        "translation": "描述症状",
+        "examples": [
+          {
+            "original": "— Bonjour, je peux vous aider?\n— Oui, j'ai mal à la tête et de la fièvre depuis ce matin.\n— Quelle est votre température?\n— 38,5. Et j'ai aussi un peu mal à la gorge.",
+            "phonetic": "",
+            "translation": "——早上好，能帮您吗？\n——是的，我从今天早上开始头疼发烧。\n——您的体温是多少？\n——38.5度。而且嗓子也有点疼。",
+            "note": "在法国，体温用逗号表示：38,5 = trente-huit virgule cinq（38.5度）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Demander un médicament",
+        "translation": "购买药品",
+        "examples": [
+          {
+            "original": "— J'ai une ordonnance pour des antibiotiques.\n— Je vois. Avez-vous une allergie connue?\n— Non, aucune. C'est combien avec la carte Vitale?\n— Avec votre carte, ce sera deux euros cinquante.",
+            "phonetic": "",
+            "translation": "——我有抗生素的处方。\n——好的。您有已知的过敏吗？\n——没有。用健康卡多少钱？\n——用您的健康卡，两欧元五十生丁。",
+            "note": "“carte Vitale”是法国健康卡，能报销部分药品费用。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Demander des conseils",
+        "translation": "向药剂师咨询",
+        "examples": [
+          {
+            "original": "— Je tousse depuis une semaine. C'est grave?\n— Pas forcément. Vous avez de la fièvre?\n— Non, mais je me sens fatigué.\n— Je vous recommande ce sirop. Prenez-en trois fois par jour après les repas.",
+            "phonetic": "",
+            "translation": "——我咳嗽一个星期了，严重吗？\n——不一定。您发烧吗？\n——不发烧，但觉得很累。\n——我建议您这个糖浆。每天三次，饭后服用。",
+            "note": "“Pas forcément”=不一定。“Après les repas”=饭后。"
+          }
+        ]
+      }
+    ],
+    "emoji": "💊",
+    "phonetic": "",
+    "translations": {
+      "zh": "在药房"
+    },
+    "conversation": {
+      "vocabulary": [
+        {
+          "word": "l'ordonnance",
+          "translation": "la receta médica"
+        },
+        {
+          "word": "le médicament",
+          "translation": "el medicamento"
+        },
+        {
+          "word": "la fièvre",
+          "translation": "la fiebre"
+        },
+        {
+          "word": "la toux",
+          "translation": "la tos"
+        },
+        {
+          "word": "avoir mal à",
+          "translation": "doler, tener dolor de"
+        },
+        {
+          "word": "le sirop",
+          "translation": "el jarabe"
+        },
+        {
+          "word": "les comprimés",
+          "translation": "los comprimidos"
+        }
+      ],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_conv_05",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Au supermarché / 在超市",
+    "bridge": "法国的超市有自己的连锁品牌：家乐福（Carrefour）、乐购（Leclerc）、美仕客（Monoprix）、Intermarché等。水果和蔬菜的称重系统可能有所不同：有些超市在蔬果区称重并打印标签，有些则在收银台称重。一个文化特色：法国禁止使用塑料袋，顾客需要自带袋子或购买布袋/纸袋。此外，法国有‘收银小票’（ticket de caisse）制度，许多顾客会保留小票以便退货。",
+    "rule": "超市词汇：le rayon（区域）、les fruits et légumes（水果和蔬菜）、la viande（肉类）、le poisson（鱼类）、les produits laitiers（乳制品）、les céréales（谷物）、la caisse（收银台）、le ticket de caisse（收银小票）、le sac（袋子）、le caddie/chariot（购物车）、le panier（购物篮）、l'allée（走道）。常用句子：Où est le rayon...？（…区域在哪里？）、Vous avez...？（你们有…吗？）、Il me faut...（我需要…）。",
+    "concept_examples": [
+      {
+        "text": "Excusez-moi, où se trouve le rayon épicerie?",
+        "translation": "请问，水果区在哪里？",
+        "phonetic": "/ɛkskyze mwa u sə tʁuv lə ʁɛjɔ̃ episʁi/"
+      },
+      {
+        "text": "Est-ce que vous avez du pain sans gluten?",
+        "translation": "你们有无麸质面包吗？",
+        "phonetic": "/ɛs kə vuz‿ave dy pɛ̃ sɑ̃ ɡlytɛn/"
+      },
+      {
+        "text": "Je n'ai pas de sac, je peux en acheter un?",
+        "translation": "我没有袋子，可以买一个吗？",
+        "phonetic": "/ʒə nɛ pa də sak ʒə pø ɑ̃ naʃte œ̃/"
+      },
+      {
+        "text": "Vous pouvez vérifier le prix de cet article?",
+        "translation": "能帮我核对一下这个商品的价格吗？",
+        "phonetic": "/vu puve veʁifje lə pʁi də sɛt‿aʁtikl/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je cherche les pommes de terre frites. (buscando patatas fritas de bolsa)",
+      "correct": "Je cherche les chips / les frites surgelées.",
+      "correct_alt": "",
+      "explanation": "'Les pommes de terre frites'指的是在家或餐厅制作的炸薯条。袋装薯片是'les chips'。冷冻薯条是'les frites surgelées'。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Trouver un rayon",
+        "translation": "寻找区域",
+        "examples": [
+          {
+            "original": "— Excusez-moi, je cherche les yaourts.\n— C'est dans le rayon produits laitiers, allée numéro 4.\n— Merci. Et les céréales?\n— Elles sont juste en face, allée 5.",
+            "phonetic": "",
+            "translation": "— 请问，酸奶在哪里？\n— 在乳制品区，4号走道。\n— 谢谢。谷物呢？\n— 就在对面，5号走道。",
+            "note": "'Les yaourts' = 酸奶。'Juste en face' = 就在对面。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "À la caisse",
+        "translation": "在收银台",
+        "examples": [
+          {
+            "original": "— Bonjour! Avez-vous une carte de fidélité?\n— Non, je n'en ai pas. Je vais juste payer par carte.\n— D'accord. Vous voulez un sac?\n— Oui, un sac en tissu, s'il vous plaît.",
+            "phonetic": "",
+            "translation": "— 早上好！您有会员卡吗？\n— 没有。我只用卡支付。\n— 好的。您需要袋子吗？\n— 是的，请给我一个布袋。",
+            "note": "'Carte de fidélité' = 会员卡/积分卡。'Un sac en tissu' = 布袋。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Problème avec un article",
+        "translation": "商品问题",
+        "examples": [
+          {
+            "original": "— Bonjour, j'ai acheté ce fromage hier mais il est périmé.\n— Je suis désolé. Vous avez votre ticket de caisse?\n— Oui, voilà. Est-ce que je peux l'échanger?\n— Bien sûr, prenez-en un autre dans le rayon.",
+            "phonetic": "",
+            "translation": "— 早上好，我昨天买的奶酪已经过期了。\n— 对不起。您有收银小票吗？\n— 有，给您。可以换一个吗？\n— 当然，请到区域重新拿一个。",
+            "note": "'Périmé' = 过期。'Ticket de caisse' = 收银小票。'Échanger' = 换货/兑换。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🛒",
+    "phonetic": "",
+    "translations": {
+      "zh": "在超市"
+    },
+    "conversation": {
+      "vocabulary": [
+        {
+          "word": "le rayon",
+          "translation": "la sección (del supermercado)"
+        },
+        {
+          "word": "la caisse",
+          "translation": "la caja"
+        },
+        {
+          "word": "le caddie",
+          "translation": "el carrito"
+        },
+        {
+          "word": "le ticket de caisse",
+          "translation": "el tique de caja"
+        },
+        {
+          "word": "périmé/périmée",
+          "translation": "caducado/caducada"
+        },
+        {
+          "word": "la carte de fidélité",
+          "translation": "la tarjeta de fidelidad"
+        },
+        {
+          "word": "l'allée",
+          "translation": "el pasillo"
+        }
+      ],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_conv_06",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Transports en commun / 公共交通",
+    "bridge": "法国的公共交通非常发达。巴黎的地铁（le métro）是世界上最密集的地铁系统之一。长途列车是TGV（高速列车）。市内公交车称为'bus'，而长途或校车则称为'car'。常见误解：在法语中，'le car'指长途或校车，而'le bus'指市内公交车。地铁票称为'tickets'或现在的'passes Navigo'。",
+    "rule": "交通词汇：le métro（地铁）、le bus（市内公交车）、le car（长途/校车）、le tram（有轨电车）、le train（火车）、le TGV（法国高铁）、la gare（火车站）、la station de métro（地铁站）、l'arrêt de bus（公交车站）、le quai（站台）、le billet/le ticket（车票）、composter（验票——在法国强制要求）。常用句子：À quelle heure part le prochain train?（下一班火车几点发车？）、Un billet pour Paris, s'il vous plaît.（请给我一张去巴黎的票。）",
+    "concept_examples": [
+      {
+        "text": "Un billet aller-retour pour Marseille, s'il vous plaît.",
+        "translation": "请给我一张去马赛的往返票。",
+        "phonetic": "/œ̃ bije ale ʁətuʁ puʁ maʁsɛj sil vu plɛ/"
+      },
+      {
+        "text": "Le prochain train pour Lyon part à quelle heure?",
+        "translation": "下一班去里昂的火车几点发车？",
+        "phonetic": "/lə pʁɔʃɛ̃ tʁɛ̃ puʁ ljɔ̃ paʁ a kɛl‿œʁ/"
+      },
+      {
+        "text": "N'oubliez pas de composter votre billet!",
+        "translation": "别忘了验票！",
+        "phonetic": "/nublie pa də kɔ̃pɔste vɔtʁ bije/"
+      },
+      {
+        "text": "Quelle ligne de métro pour aller à l'Opéra?",
+        "translation": "哪条地铁线去歌剧院？",
+        "phonetic": "/kɛl liɲ də metʁo puʁ ale a lɔpeʁa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "J'ai oublié de composter. (consecuencia grave)",
+      "correct": "En France, il FAUT composter son billet avant de monter dans le train.",
+      "correct_alt": "",
+      "explanation": "在法国，乘坐火车时必须在橙色验票机上验票（'composter le billet'）。如果不验票，即使有有效车票也可能被罚款。这一点在西班牙使用现代Renfe列车时并不存在。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Acheter un billet",
+        "translation": "购买车票",
+        "examples": [
+          {
+            "original": "— Bonjour, je voudrais un billet pour Bordeaux, s'il vous plaît.\n— Aller simple ou aller-retour?\n— Aller-retour. Pour aujourd'hui à 14h.\n— Il reste des places en seconde classe. Ça fait 89 euros.",
+            "phonetic": "",
+            "translation": "——早上好，我想要一张去波尔多的票。\n——单程还是往返？\n——往返。今天14点的。\n——二等座还有位置。89欧元。",
+            "note": "'Aller simple' = 单程。'Aller-retour' = 往返。'Il reste des places' = 还有位置。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Dans le métro parisien",
+        "translation": "在巴黎地铁",
+        "examples": [
+          {
+            "original": "— Excusez-moi, pour aller à la Tour Eiffel, je prends quelle ligne?\n— Prenez la ligne 6 et descendez à Bir-Hakeim.\n— Merci. Je dois changer de ligne?\n— Non, c'est direct. C'est environ 20 minutes.",
+            "phonetic": "",
+            "translation": "——抱歉，去埃菲尔铁塔怎么走？\n——坐6号线，在Bir-Hakeim站下车。\n——谢谢。需要换乘吗？\n——不用，是直达。大约20分钟。",
+            "note": "'Changer de ligne' = 换乘。'C'est direct' = 直达。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Problème de transport",
+        "translation": "交通问题",
+        "examples": [
+          {
+            "original": "— Mon train est supprimé? Qu'est-ce que je peux faire?\n— Il y a une grève aujourd'hui. Le prochain train est dans deux heures.\n— Deux heures! C'est possible d'avoir un remboursement?\n— Oui, vous pouvez le demander en ligne ou à l'accueil.",
+            "phonetic": "",
+            "translation": "——我的火车被取消了吗？我该怎么办？\n——今天有罢工。下一班火车要等两小时后。\n——两小时！可以退款吗？\n——可以，您可以在线或在客服柜台申请退款。",
+            "note": "'Supprimé' = 取消（指火车）。'Une grève' = 罢工。'Le remboursement' = 退款。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🚉",
+    "phonetic": "",
+    "translations": {
+      "zh": "公共交通"
+    },
+    "conversation": {
+      "vocabulary": [
+        {
+          "word": "le billet",
+          "translation": "el billete"
+        },
+        {
+          "word": "composter",
+          "translation": "validar el billete"
+        },
+        {
+          "word": "aller-retour",
+          "translation": "ida y vuelta"
+        },
+        {
+          "word": "changer de ligne",
+          "translation": "hacer transbordo"
+        },
+        {
+          "word": "le quai",
+          "translation": "el andén"
+        },
+        {
+          "word": "supprimé",
+          "translation": "cancelado (tren)"
+        },
+        {
+          "word": "la grève",
+          "translation": "la huelga"
+        }
+      ],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_conv_07",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Rencontrer de nouvelles personnes / 认识新朋友",
+    "bridge": "在法国认识新朋友有其独特的习俗。最引人注目的是“bisou”或“bise”（脸颊之吻）。通常会亲两下，但不同地区也有差异（有些地方亲一下，有些地方则亲三四下）。在正式场合与陌生人见面时，则会握手。一个重要的文化差异是：法国人初次见面可能比西班牙人更显得拘谨，但一旦熟悉后会非常开放。选择用非正式的“tu”还是正式的“vous”称呼对方是一项重要的社交决定。",
+    "rule": "认识他人时常用句式：Comment tu t'appelles? / Comment vous appelez-vous?（你/您叫什么名字？）、Tu fais quoi dans la vie? / Vous faites quoi?（你/您做什么工作？）、Tu es d'où?（你从哪里来？）。表达兴趣时可以说：C'est intéressant!（真有趣！）、Ah bon?（是吗？）、Vraiment?（真的吗？）、Moi aussi/non plus（我也/也不）。交换联系方式时可以说：On peut s'échanger nos numéros?（我们交换电话号码吧？）、Tu as WhatsApp?（你有WhatsApp吗？）。",
+    "concept_examples": [
+      {
+        "text": "Enchanté(e) de faire votre connaissance.",
+        "translation": "很高兴认识您。",
+        "phonetic": "/ɑ̃ʃɑ̃te də fɛʁ vɔtʁ kɔnɛsɑ̃s/"
+      },
+      {
+        "text": "Tu fais quoi dans la vie?",
+        "translation": "你平时做什么工作？",
+        "phonetic": "/ty fɛ kwa dɑ̃ la vi/"
+      },
+      {
+        "text": "Moi aussi, j'adore voyager!",
+        "translation": "我也超喜欢旅行！",
+        "phonetic": "/mwa osi ʒadɔʁ vwajaʒe/"
+      },
+      {
+        "text": "On peut se revoir? Tu as un numéro?",
+        "translation": "我们可以再见面吗？你有电话号码吗？",
+        "phonetic": "/ɔ̃ pø sə ʁəvwaʁ ty a œ̃ nymeʁo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis enchanté. (forma masculina usada por todos)",
+      "correct": "Enchanté. (hombre) / Enchantée. (mujer)",
+      "correct_alt": "Ravi(e) de vous rencontrer.",
+      "explanation": "“Enchanté”和“enchantée”必须与说话者的性别保持一致。女性应说“enchantée”（以-e结尾）。在口语中发音相同，但在书面或刻意发音的情况下，不一致是错误的。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Première rencontre informelle",
+        "translation": "第一次非正式见面",
+        "examples": [
+          {
+            "original": "— Salut! Je m'appelle Léa. Et toi?\n— Bonjour, moi c'est Carlos. Tu es d'ici?\n— Non, je suis de Nice. Et toi?\n— Je suis espagnol, de Barcelone. Tu habites à Paris depuis longtemps?",
+            "phonetic": "",
+            "translation": "— 你好！我叫Léa。你呢？\n— 你好，我是Carlos。你是本地人吗？\n— 不，我来自尼斯。你呢？\n— 我是西班牙人，来自巴塞罗那。你在巴黎待了很久吗？",
+            "note": "“depuis longtemps” = 待了很久；“Tu es d'ici?” = 你是本地人吗？"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Parler de ses intérêts",
+        "translation": "谈论兴趣爱好",
+        "examples": [
+          {
+            "original": "— Qu'est-ce que tu fais comme travail?\n— Je suis graphiste. Et toi?\n— Je suis étudiant en langue française. C'est pour ça que je suis à Paris!\n— Ah, intéressant! Tu aimes la France?\n— J'adore! Surtout la cuisine.",
+            "phonetic": "",
+            "translation": "— 你做什么工作？\n— 我是平面设计师。你呢？\n— 我是法语专业的学生。所以才来巴黎！\n— 啊，真有意思！你喜欢法国吗？\n— 太喜欢了！尤其是法国的美食。",
+            "note": "“C'est pour ça que” = 所以；“surtout” = 尤其是；“comme travail” = 作为工作。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Échanger ses coordonnées",
+        "translation": "交换联系方式",
+        "examples": [
+          {
+            "original": "— On s'entend bien! On pourrait se revoir?\n— Oui, avec plaisir! Tu as les réseaux sociaux?\n— J'ai Instagram et WhatsApp. Je te donne mon numéro?\n— Super! Moi je t'envoie un message tout de suite.",
+            "phonetic": "",
+            "translation": "— 我们聊得很投机！可以再见面吗？\n— 好啊，很乐意！你有社交媒体吗？\n— 我有Instagram和WhatsApp。要不要给你我的电话？\n— 太好了！我现在就给你发消息。",
+            "note": "“On s'entend bien” = 我们聊得很投机（有默契）；“Avec plaisir” = 很乐意。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🤗",
+    "phonetic": "",
+    "translations": {
+      "zh": "认识新朋友"
+    },
+    "conversation": {
+      "vocabulary": [
+        {
+          "word": "enchanté(e)",
+          "translation": "encantado/a"
+        },
+        {
+          "word": "la bise",
+          "translation": "el beso (en la mejilla)"
+        },
+        {
+          "word": "faire connaissance",
+          "translation": "conocerse"
+        },
+        {
+          "word": "s'entendre",
+          "translation": "entenderse, llevarse bien"
+        },
+        {
+          "word": "les réseaux sociaux",
+          "translation": "las redes sociales"
+        },
+        {
+          "word": "se revoir",
+          "translation": "volver a verse"
+        }
+      ],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_conv_08",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "在咖啡馆 / 酒吧 / En una cafetería o brasserie",
+    "bridge": "咖啡馆或酒吧是法国社交生活的核心。'酒吧（brasserie）'比咖啡馆更大，全天供应食物；'咖啡馆（café）'则主要供应饮料，偶尔提供简单的小吃。与西班牙的重要区别在于：在法国，'咖啡（café）'指的是单份浓缩咖啡，而不是加奶的咖啡。若想点类似西班牙的'café con leche'，需说'un café au lait'或'un crème'。'café allongé'则是稀释的浓缩咖啡，类似美式咖啡。",
+    "rule": "法国咖啡馆的典型饮品：un café / un expresso（单份浓缩咖啡）、un café au lait（大杯加奶咖啡）、un crème（中杯加奶咖啡）、un café allongé（稀释的咖啡）、un thé（茶）、une tisane（花草茶）、une limonade（柠檬水）、un jus d'orange（橙汁）、une bière（啤酒）、un verre de vin（一杯葡萄酒）。咖啡馆小吃：un croissant（牛角包）、une tartine（涂黄油或果酱的烤面包）、un sandwich（三明治）、une quiche（咸派）。服务流程：招呼服务员、点单、最后付款。",
+    "concept_examples": [
+      {
+        "text": "Un café et un croissant, s'il vous plaît.",
+        "translation": "请来一杯咖啡和一个牛角包。",
+        "phonetic": "/œ̃ kafe e œ̃ kʁwasɑ̃ sil vu plɛ/"
+      },
+      {
+        "text": "Vous avez du thé vert?",
+        "translation": "请问有绿茶吗？",
+        "phonetic": "/vuz‿ave dy te vɛʁ/"
+      },
+      {
+        "text": "Je voudrais un crème et une tartine, s'il vous plaît.",
+        "translation": "我想要一杯加奶咖啡和一份烤面包。",
+        "phonetic": "/ʒə vudʁɛ œ̃ kʁɛm e yn taʁtin sil vu plɛ/"
+      },
+      {
+        "text": "C'est quelle heure de fermeture?",
+        "translation": "你们几点关门？",
+        "phonetic": "/sɛ kɛl‿œʁ də fɛʁmətyʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Un café avec lait, s'il vous plaît.",
+      "correct": "Un café au lait, s'il vous plaît.",
+      "correct_alt": "Un crème, s'il vous plaît.",
+      "explanation": "正确的说法是'café au lait'（不是'café avec lait'）。'un crème'是法国人点加奶咖啡的最地道说法（浓缩咖啡加热牛奶并打泡）。'un café au lait'通常指更大杯的咖啡，常见于家庭早餐。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Commander des boissons",
+        "translation": "在咖啡馆的对话",
+        "examples": [
+          {
+            "original": "— Bonjour, qu'est-ce que je vous sers?\n— Un café et un jus d'orange, s'il vous plaît.\n— Très bien. Vous voulez autre chose?\n— Non merci, c'est tout.",
+            "phonetic": "",
+            "translation": "——抱歉，这个位子有人吗？\n——没有，请坐。\n——谢谢！今天天气真好。\n——是啊，十一月能有这样的天气真少见！您是巴黎人吗？\n——不是，我正在游览这座城市。",
+            "note": "'Je vous en prie' = 不客气（在让座时使用）。'Être de passage' = 路过，正在游览。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Commander à manger",
+        "translation": "Pedir algo de comer",
+        "examples": [
+          {
+            "original": "— Je peux voir la carte des snacks?\n— Bien sûr. Nous avons des sandwichs, des quiches et des salades.\n— Je voudrais une quiche lorraine et un café allongé.\n— Vous voulez manger en terrasse ou à l'intérieur?\n— En terrasse, il fait beau!",
+            "phonetic": "",
+            "translation": "— ¿Puedo ver la carta de bocados?\n— Por supuesto. Tenemos sándwiches, quiches y ensaladas.\n— Quisiera una quiche lorraine y un café americano.\n— ¿Quiere comer en la terraza o dentro?\n— En la terraza, ¡hace buen tiempo!",
+            "note": "'Un café allongé' = un café más diluido, similar al americano. 'La quiche lorraine' es un plato típico francés."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Conversation dans le café",
+        "translation": "Conversación en el café",
+        "examples": [
+          {
+            "original": "— Pardon, cette place est libre?\n— Oui, je vous en prie, asseyez-vous.\n— Merci! Il fait un temps magnifique aujourd'hui.\n— Oui, c'est rare pour novembre! Vous êtes de Paris?\n— Non, je suis de passage, je visite la ville.",
+            "phonetic": "",
+            "translation": "— Perdone, ¿está libre este sitio?\n— Sí, por favor, siéntese.\n— ¡Gracias! Hoy hace un tiempo magnífico.\n— Sí, ¡es raro para noviembre! ¿Es usted de París?\n— No, estoy de paso, visito la ciudad.",
+            "note": "'Je vous en prie' = por favor (al ceder algo). 'Être de passage' = estar de paso, de visita."
+          }
+        ]
+      }
+    ],
+    "emoji": "☕",
+    "phonetic": "",
+    "translations": {
+      "zh": "在咖啡馆 / 酒吧"
+    },
+    "conversation": {
+      "vocabulary": [
+        {
+          "word": "un crème",
+          "translation": "café con leche"
+        },
+        {
+          "word": "un café allongé",
+          "translation": "café americano"
+        },
+        {
+          "word": "une tartine",
+          "translation": "tostada con mantequilla"
+        },
+        {
+          "word": "la terrasse",
+          "translation": "la terraza"
+        },
+        {
+          "word": "être de passage",
+          "translation": "estar de paso"
+        },
+        {
+          "word": "la carte",
+          "translation": "la carta"
+        }
+      ],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_conv_09",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Téléphone et messages / 电话和基本信息",
+    "bridge": "在法语中，电话交谈有其特定的表达方式。在法国接电话时，人们会说‘Allô？’（而不是像西班牙那样说‘Oui？’或直接报姓名）。在电话中自我介绍时，可以说‘C'est [nombre] à l'appareil’或简单说‘C'est [nombre]’。要找某人时，可以说‘Je voudrais parler à...’或‘Est-ce que je pourrais parler à...?’。若无法接听，可以说‘Je suis en réunion’（正在开会）、“Rappelle-moi plus tard”（请稍后再打）。",
+    "rule": "电话词汇：l'appel（电话）、rappeler（回电）、laisser un message（留言）、la messagerie vocale（语音信箱）、le répondeur（电话答录机）、raccrocher（挂断）、décrocher（接听）。电话用语：Allô？（请问是哪位？接电话时）、C'est [nombre] à l'appareil（我是[姓名]，请讲）、Je voudrais parler à...（我想找…）、Ne quittez pas（请稍等）、Il/elle n'est pas là（他/她不在）、Vous pouvez lui laisser un message?（可以给他/她留言吗？）。",
+    "concept_examples": [
+      {
+        "text": "Allô? C'est bien le 06 12 34 56 78?",
+        "translation": "请问是哪位？这里的号码是06 12 34 56 78吗？",
+        "phonetic": "/alo sɛ bjɛ̃ lə zeʁo sis duz tʁɑ̃t katʁ sɛ̃kɑ̃t sis swasɑ̃t dis ɥit/"
+      },
+      {
+        "text": "Je voudrais parler à Monsieur Dupont, s'il vous plaît.",
+        "translation": "我想找杜邦先生，麻烦您。",
+        "phonetic": "/ʒə vudʁɛ paʁle a məsjø dypɔ̃ sil vu plɛ/"
+      },
+      {
+        "text": "Pouvez-vous lui dire de me rappeler?",
+        "translation": "能请他给我回电吗？",
+        "phonetic": "/puve vu lɥi diʁ də mə ʁaplele/"
+      },
+      {
+        "text": "Je n'ai pas de réseau ici.",
+        "translation": "这里没有信号。",
+        "phonetic": "/ʒə nɛ pa də ʁezo isi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Sí, allô? / Oui, bonjour? (al coger el teléfono de forma no francesa)",
+      "correct": "Allô?",
+      "correct_alt": "Allô, c'est Carlos.",
+      "explanation": "在法国，接电话时的标准回答是‘Allô？’（发音为/alo/，重音在o上）。在正式场合只说‘Oui？’可能显得粗鲁。‘Allô？’是人人都能理解的通用说法。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Appel simple",
+        "translation": "简单通话",
+        "examples": [
+          {
+            "original": "— Allô?\n— Allô, bonjour! C'est Carlos à l'appareil. Est-ce que Marie est là?\n— Oui, une seconde, je vous la passe.\n— Merci beaucoup.",
+            "phonetic": "",
+            "translation": "— 请问是哪位？\n— 您好！我是卡洛斯。玛丽在吗？\n— 在，请稍等，我给您转接。\n— 非常感谢。",
+            "note": "'Je vous la passe' = 我给您转接（她）。若对方是男性，则用'Je vous le passe'。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Laisser un message",
+        "translation": "留言",
+        "examples": [
+          {
+            "original": "— Allô, bonjour. Je voudrais parler à Madame Bernard.\n— Je suis désolée, elle est en réunion. Vous voulez laisser un message?\n— Oui, pouvez-vous lui dire que Carlos Garcia a appelé et qu'il rappellera cet après-midi?\n— Bien sûr, je le lui transmets.",
+            "phonetic": "",
+            "translation": "— 您好！我想找贝尔纳女士。\n— 抱歉，她正在开会。您要留言吗？\n— 好的，请转告她卡洛斯·加西亚来过电话，今天下午会再打来。\n— 当然，我会转告她。",
+            "note": "'Je le lui transmets' = 我会转告她（正式说法）。'En réunion' = 正在开会。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Messages texte et réseaux",
+        "translation": "短信和社交媒体",
+        "examples": [
+          {
+            "original": "— Tu peux m'envoyer l'adresse par message?\n— Bien sûr. Tu préfères par SMS ou WhatsApp?\n— WhatsApp, c'est plus pratique. Mon numéro c'est le 06...\n— OK, je t'envoie ça maintenant. Tu l'auras dans deux minutes.",
+            "phonetic": "",
+            "translation": "— 你能把地址发我吗？\n— 当然。你要发短信还是用WhatsApp？\n— 用WhatsApp吧，更方便。我的号码是06…\n— 好的，我现在就发给你。两分钟后你就能收到了。",
+            "note": "'Tu l'auras' = 你会收到（将来时）。'Par message' = 通过信息。‘C'est plus pratique' = 这样更方便。"
+          }
+        ]
+      }
+    ],
+    "emoji": "📱",
+    "phonetic": "",
+    "translations": {
+      "zh": "电话和基本信息"
+    },
+    "conversation": {
+      "vocabulary": [
+        {
+          "word": "allô",
+          "translation": "dígame (al teléfono)"
+        },
+        {
+          "word": "rappeler",
+          "translation": "volver a llamar"
+        },
+        {
+          "word": "laisser un message",
+          "translation": "dejar un mensaje"
+        },
+        {
+          "word": "à l'appareil",
+          "translation": "al aparato, al teléfono"
+        },
+        {
+          "word": "ne quittez pas",
+          "translation": "no cuelgue"
+        },
+        {
+          "word": "le réseau",
+          "translation": "la cobertura/red"
+        }
+      ],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_conv_10",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Phrases d'urgence / 紧急用语",
+    "bridge": "在法语国家了解紧急用语可能至关重要。欧洲统一的紧急电话号码是112，但在法国还有：15（SAMU，救护车）、17（警察）、18（消防队）。一个重要的文化差异：在法国，‘消防队’（pompiers）不仅处理火灾，还负责医疗紧急情况。清楚地寻求帮助是一项基本技能。",
+    "rule": "紧急用语：Au secours!（救命！）、À l'aide!（救命！）、Appelez le 15/17/18!（请拨打15/17/18！）、Il y a eu un accident（发生事故了）、Quelqu'un est blessé（有人受伤了）、J'ai besoin d'un médecin（我需要医生）、Appelez une ambulance（请叫救护车）、Au feu!（着火了！）、Il y a un voleur!（有小偷！）、J'ai perdu（我丢了）、On m'a volé（我的东西被偷了）、Je me suis perdu(e)（我迷路了）。",
+    "concept_examples": [
+      {
+        "text": "Au secours! Appelez une ambulance!",
+        "translation": "救命！快叫救护车！",
+        "phonetic": "/o səkuʁ aple yn ɑ̃bylɑ̃s/"
+      },
+      {
+        "text": "On m'a volé mon portefeuille!",
+        "translation": "我的钱包被偷了！",
+        "phonetic": "/ɔ̃ ma vɔle mɔ̃ pɔʁtəfœj/"
+      },
+      {
+        "text": "Je me suis perdu(e), pouvez-vous m'aider?",
+        "translation": "我迷路了，能帮帮我吗？",
+        "phonetic": "/ʒə mə sɥi pɛʁdy puve vu mede/"
+      },
+      {
+        "text": "Il y a eu un accident grave.",
+        "translation": "发生了一起严重的事故。",
+        "phonetic": "/il ja y œ̃ naksidɑ̃ ɡʁav/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Aidez-moi s'il vous plaît! (sin contexto de urgencia)",
+      "correct": "Au secours! / À l'aide!",
+      "correct_alt": "Aidez-moi, c'est urgent!",
+      "explanation": "'Aidez-moi s'il vous plaît'是一句礼貌的求助用语。但在真正的紧急情况下，应使用‘¡Au secours!’或‘¡À l'aide!’来传达紧急需求。语气和紧急程度的差异对人们的正确反应至关重要。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Accidents et blessures",
+        "translation": "事故与伤害",
+        "examples": [
+          {
+            "original": "— À l'aide! Il y a un accident!\n— Du calme. Qu'est-ce qui s'est passé?\n— Quelqu'un est tombé et il est inconscient.\n— J'appelle le 15 tout de suite. Ne bougez pas la victime.",
+            "phonetic": "",
+            "translation": "——救命！发生事故了！\n——冷静。怎么了？\n——有人摔倒了，昏迷不醒。\n——我现在就拨打15。不要移动伤者。",
+            "note": "'Inconscient' = 昏迷。'Ne bougez pas' = 不要移动。15是医疗紧急电话号码（SAMU）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Vol et perte d'objets",
+        "translation": "偷窃与物品遗失",
+        "examples": [
+          {
+            "original": "— Excusez-moi, je viens de me faire voler mon sac!\n— Où ça s'est passé?\n— Dans le métro, il y a cinq minutes.\n— Vous devez aller au commissariat pour porter plainte.\n— Où est le commissariat le plus proche?",
+            "phonetic": "",
+            "translation": "——抱歉，我的包刚被偷了！\n——在哪里发生的？\n——在地铁里，五分钟前。\n——您需要去警察局报案。\n——最近的警察局在哪里？",
+            "note": "'Porter plainte' = 报案。'Le commissariat' = 警察局。'Le plus proche' = 最近的。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Se perdre et demander de l'aide",
+        "translation": "迷路与求助",
+        "examples": [
+          {
+            "original": "— Pardon, je suis perdu(e). Je cherche l'hôtel Mercure.\n— Vous êtes loin! C'est dans l'autre quartier.\n— Je ne parle pas très bien français... Vous pouvez m'écrire l'adresse?\n— Bien sûr. Attendez... voilà. Et prenez ce plan de la ville.\n— Merci infiniment! Vous êtes très gentil(le).",
+            "phonetic": "",
+            "translation": "——抱歉，我迷路了。我在找Mercure酒店。\n——很远！在另一个区。\n——我的法语不太好...能帮我写下地址吗？\n——当然。等一下...给您。这是城市地图。\n——太感谢了！您真好。",
+            "note": "'Merci infiniment' = 太感谢了（非常强调）。'Un plan de la ville' = 城市地图。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🚨",
+    "phonetic": "",
+    "translations": {
+      "zh": "紧急用语"
+    },
+    "conversation": {
+      "vocabulary": [
+        {
+          "word": "au secours!",
+          "translation": "¡socorro!"
+        },
+        {
+          "word": "à l'aide!",
+          "translation": "¡ayuda!"
+        },
+        {
+          "word": "les pompiers",
+          "translation": "los bomberos"
+        },
+        {
+          "word": "une ambulance",
+          "translation": "una ambulancia"
+        },
+        {
+          "word": "porter plainte",
+          "translation": "poner una denuncia"
+        },
+        {
+          "word": "le commissariat",
+          "translation": "la comisaría"
+        },
+        {
+          "word": "blessé/blessée",
+          "translation": "herido/herida"
+        },
+        {
+          "word": "voler",
+          "translation": "robar"
+        }
+      ],
+      "dialogue": []
+    }
+  },
+  {
+    "id": "zh_A1_conv_10",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Phrases d'urgence / 紧急用语",
+    "bridge": "在西班牙语中，我们通常直接说‘¡Ayuda!’（帮帮我！）或‘¡Socorro!’（救命！），但在法语中需注意性别和正式程度。例如，‘Au secours !’是最常见且中性的表达，而‘À l'aide !’同样有效。此外，法语用动词‘avoir’（有）表达需求，如‘J'ai besoin’（我需要），相当于西班牙语的‘tengo necesidad de’（我需要）。注意！不要说‘Je suis besoin’，因为这是错误的直译。",
+    "rule": "在法语中请求帮助时，使用固定表达：‘Au secours !’（救命！）、「À l'aide !’（帮帮我！）、「Aidez-moi !’（请帮助我！）。表达需求时，使用‘avoir besoin de’（需要）加名词或动词不定式：‘J'ai besoin d'un médecin’（我需要一位医生）、「J'ai besoin d'aide’（我需要帮助）。表示紧急情况时，用动词‘devoir’（必须）或‘il faut’（必须）：‘Je dois appeler’（我必须打电话）、「Il faut appeler’（必须打电话）。法国紧急电话号码为：15（医疗急救）、17（警察）、18（消防）、112（欧洲通用）。在危险情况下，可大喊‘Au feu !’（着火了！）或‘Voleur !’（抢劫了！）。",
+    "concept_examples": [
+      {
+        "text": "Au secours !",
+        "translation": "救命！",
+        "phonetic": "/o sə.kuʁ/"
+      },
+      {
+        "text": "J'ai besoin d'un médecin.",
+        "translation": "我需要一位医生。",
+        "phonetic": "/ʒɛ bə.zwɛ̃ dɛ̃ med.sɛ̃/"
+      },
+      {
+        "text": "Appelez la police !",
+        "translation": "请报警！",
+        "phonetic": "/a.pə.le la pɔ.lis/"
+      },
+      {
+        "text": "Où est l'hôpital ?",
+        "translation": "医院在哪里？",
+        "phonetic": "/u ɛ l‿ɔ.pi.tal/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis besoin d'aide.",
+      "correct": "J'ai besoin d'aide.",
+      "correct_alt": "J'ai besoin d'aide.",
+      "explanation": "这个错误源于西班牙语中常说‘soy necesitado’（我被需要）或‘estoy necesitado’（我需要），并直接直译。在法语中，需求用动词‘avoir’（有）表达，而非‘être’（是/在）。正确结构为‘avoir besoin de’（需要）。注意‘besoin’是名词，因此必须与动词‘avoir’搭配使用。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Demander de l'aide",
+        "translation": "请求帮助",
+        "examples": [
+          {
+            "original": "Au secours !",
+            "phonetic": "/o sə.kuʁ/",
+            "translation": "救命！",
+            "note": "最常见的紧急求救语。发音时‘u’需圆唇，与西班牙语的‘u’不同。"
+          },
+          {
+            "original": "À l'aide !",
+            "phonetic": "/a l‿ɛd/",
+            "translation": "帮帮我！",
+            "note": "与‘Au secours’类似，适用于危险情况。"
+          },
+          {
+            "original": "Aidez-moi, s'il vous plaît !",
+            "phonetic": "/e.de mwa sil vu plɛ/",
+            "translation": "请帮助我，拜托！",
+            "note": "正式用法（vous）。非正式场合用‘Aide-moi’（帮帮我）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Exprimer un besoin",
+        "translation": "表达需求",
+        "examples": [
+          {
+            "original": "J'ai besoin d'un médecin.",
+            "phonetic": "/ʒɛ bə.zwɛ̃ dɛ̃ med.sɛ̃/",
+            "translation": "我需要一位医生。",
+            "note": "结构：avoir besoin de + 名词。‘médecin’（医生）为阳性，即使指女性医生。"
+          },
+          {
+            "original": "J'ai besoin d'aide.",
+            "phonetic": "/ʒɛ bə.zwɛ̃ d‿ɛd/",
+            "translation": "我需要帮助。",
+            "note": "‘de’ + ‘aide’（帮助）需省音，写作‘d'aide’。"
+          },
+          {
+            "original": "J'ai besoin d'appeler.",
+            "phonetic": "/ʒɛ bə.zwɛ̃ d‿a.ple/",
+            "translation": "我需要打电话。",
+            "note": "后接动词时，使用动词不定式，无需额外介词。"
+          },
+          {
+            "original": "J'ai perdu mon passeport.",
+            "phonetic": "/ʒɛ pɛʁ.dy mɔ̃ pas.pɔʁ/",
+            "translation": "我把护照弄丢了。",
+            "note": "动词‘perdre’（丢失）在紧急情况下很有用。‘mon’（我的）因为‘passeport’（护照）为阳性。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "S'orienter en urgence",
+        "translation": "紧急情况下的方向指引",
+        "examples": [
+          {
+            "original": "Où est l'hôpital ?",
+            "phonetic": "/u ɛ l‿ɔ.pi.tal/",
+            "translation": "医院在哪里？",
+            "note": "‘hôpital’（医院）的‘h’不发音，因此需省音：l'hôpital。"
+          },
+          {
+            "original": "Appelez une ambulance !",
+            "phonetic": "/a.pə.le yn ɑ̃.by.lɑ̃s/",
+            "translation": "请叫一辆救护车！",
+            "note": "法国医疗急救用‘SAMU’（拨打15），但‘ambulance’（救护车）也可使用。"
+          },
+          {
+            "original": "Je me suis perdu(e).",
+            "phonetic": "/ʒə mə sɥi pɛʁ.dy/",
+            "translation": "我迷路了（男/女）。",
+            "note": "过去分词需与性别一致：‘perdu’（男性）或‘perdue’（女性）。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🚨",
+    "phonetic": "",
+    "translations": {
+      "zh": "紧急用语"
+    }
+  }
+]

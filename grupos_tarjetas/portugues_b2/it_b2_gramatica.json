@@ -240,5 +240,100 @@
     "translations": {
       "it": "Voce passiva avanzata (gerundi, infiniti, modali)"
     }
+  },
+  {
+    "id": "it_B2_gram_03",
+    "type": "concept",
+    "category": "Grammatica",
+    "title": "Discorso indiretto avanzato / Discorso indiretto avanzato",
+    "bridge": "In italiano, quando si passa al discorso indiretto, si modificano i tempi verbali e i pronomi, ma il portoghese aggiunge sfumature con il futuro del pretérito (condizionale) e il futuro semplice, che a volte si comportano diversamente. Inoltre, il portoghese utilizza più regolarmente il pretérito mais-que-perfeito composto (aveva + participio) rispetto allo spagnolo. Presta attenzione ai cambiamenti da 'se' a 'si' e alla posizione dei pronomi atoni, che in portoghese possono seguire il verbo in alcuni tempi.",
+    "rule": "In portoghese, il discorso indiretto avanzato segue schemi simili allo spagnolo, ma con particolarità: 1) Nel riportare affermazioni, i tempi verbali cambiano: presente → pretérito imperfeito, pretérito perfeito → pretérito mais-que-perfeito composto, futuro do presente → futuro do pretérito (condizionale). 2) Per riportare domande indirette, si usa 'se' (se) e si mantiene l'ordine soggetto-verbo. 3) I pronomi personali e possessivi cambiano secondo la prospettiva: 'eu' → 'ele/ela', 'meu' → 'seu'. 4) In portoghese, il futuro do pretérito si usa sia per condizioni che per riportare futuri dal passato. 5) Con verbi come 'dizer', 'perguntar', 'responder', si usa la congiunzione 'que' per affermazioni e 'se' per domande indirette di sì/no. Le esclamazioni si introducono con 'que' o 'como'. Ricorda che in portoghese i pronomi atoni nel discorso indiretto sono solitamente proclitici (prima del verbo) con verbi coniugati, ma possono essere enclitici all'infinito o con tempi composti.",
+    "concept_examples": [
+      {
+        "text": "Ela disse que tinha terminado o trabalho.",
+        "translation": "Lei disse che aveva finito il lavoro.",
+        "phonetic": "ˈɛlɐ ˈdisi ki ˈtĩɲɐ tɨɾmiˈnadʊ u tɾɐˈbaʎu"
+      },
+      {
+        "text": "Ele perguntou se nós iríamos à festa.",
+        "translation": "Lui chiese se noi saremmo andati alla festa.",
+        "phonetic": "ˈeli pɨɾɡũˈto si nɔjz iˈɾiɐ̃w a ˈfɛʃtɐ"
+      },
+      {
+        "text": "O professor explicou que o exame seria na próxima semana.",
+        "translation": "Il professore spiegò che l'esame sarebbe stato la settimana successiva.",
+        "phonetic": "u pɾufɨˈsoɾ ɐjʃpliˈko ki u ɨˈzɐmɨ sɨˈɾiɐ nɐ ˈpɾɔsimɐ sɨˈmɐnɐ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ela disse que está cansada.",
+      "correct": "Ela disse que estava cansada.",
+      "correct_alt": "Ela disse que andava cansada.",
+      "explanation": "In italiano, spesso si mantiene il presente nel discorso indiretto ('ha detto che è stanca') quando il fatto è ancora vero. In portoghese, invece, è più comune (e più corretto in un discorso indiretto formale) retrocedere il tempo verbale: il presente 'está' diventa il pretérito imperfeito 'estava'. Questa è una regola più rigida rispetto allo spagnolo, dove a volte è consentito mantenere il presente. Per evitare errori, ricordati sempre di applicare la concordanza dei tempi quando riporti un discorso in portoghese."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Dichiarazioni nel passato",
+        "translation": "Dichiarazioni nel passato",
+        "examples": [
+          {
+            "original": "Ele disse que estava doente.",
+            "phonetic": "ˈeli ˈdisi ki ɨʃˈtavɐ duˈẽtɨ",
+            "translation": "Lui disse che era malato.",
+            "note": "Il presente 'está' si trasforma in pretérito imperfeito 'estava' quando si riporta nel passato."
+          },
+          {
+            "original": "Nós explicámos que tínhamos chegado tarde.",
+            "phonetic": "nɔjz ɐjʃpliˈkamuz ki ˈtĩɲɐmuʃ ʃɨˈɡadu ˈtaɾdɨ",
+            "translation": "Noi spiegammo che eravamo arrivati tardi.",
+            "note": "Il pretérito perfeito semplice 'chegámos' diventa pretérito mais-que-perfeito composto 'tínhamos chegado'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Domande indirette",
+        "translation": "Domande indirette",
+        "examples": [
+          {
+            "original": "Ela perguntou se eu queria café.",
+            "phonetic": "ˈɛlɐ pɨɾɡũˈto si ew ˈkɛɾiɐ kɐˈfɛ",
+            "translation": "Lei chiese se volevo un caffè.",
+            "note": "Si usa 'se' (se) per domande indirette di sì/no, e il verbo al pretérito imperfeito."
+          },
+          {
+            "original": "O polícia perguntou onde estava o carro.",
+            "phonetic": "u puˈlisiɐ pɨɾɡũˈto ˈõdɨ ɨʃˈtavɐ u ˈkaʁu",
+            "translation": "Il poliziotto chiese dove si trovava la macchina.",
+            "note": "Le domande con parole interrogative (onde, como, quando) si mantengono senza inversione nel discorso indiretto."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Futuro e condizioni riportati",
+        "translation": "Futuro e condizioni riportati",
+        "examples": [
+          {
+            "original": "Ele disse que viria se tivesse tempo.",
+            "phonetic": "ˈeli ˈdisi ki viˈɾiɐ si tiˈvɛsɨ ˈtẽpu",
+            "translation": "Lui disse che sarebbe venuto se avesse avuto tempo.",
+            "note": "Il futuro do presente ('virá') si trasforma in futuro do pretérito ('viria') nel discorso indiretto, proprio come il condizionale in italiano."
+          },
+          {
+            "original": "A professora avisou que a prova seria difícil.",
+            "phonetic": "ɐ pɾufɨˈsoɾɐ ɐviˈzo ki ɐ ˈpɾɔvɐ sɨˈɾiɐ diˈfisiw",
+            "translation": "La professoressa avvisò che la prova sarebbe stata difficile.",
+            "note": "Il futuro do pretérito 'seria' si usa per riportare un futuro dal passato, simile al condizionale italiano."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "it": "Discorso indiretto avanzato"
+    }
   }
 ]

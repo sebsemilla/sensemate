@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "zh_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "La dislocation et les constructions clivées / 离合结构与分裂句",
+    "bridge": "在西班牙语中，为了强调某个成分，常通过词序或语调变化实现（如：‘Eso lo vi yo’）。而在法语中，离合结构（将成分与代词及逗号分隔）和分裂句（如‘c'est... qui/que’）则更为常见，甚至在正式语体中也属自然句法。注意：法语不允许西班牙语般无标记的自由词序——法语中主语通常不可省略，被强调成分需置于句首或句尾，并通过重复代词标明。",
+    "rule": "法语中的分裂句结构（C1级别）包括：1) ‘C'est + X + qui/que + 剩余句子’用于强调主语或宾语（如：‘C'est Marie qui a gagné’ —— 是玛丽赢了）。2) 左向离合（‘X, 代词 + 动词’）或右向离合（‘代词 + 动词, X’）用于强调或明确指代（如：‘Le prof, il est sympa’ 或 ‘Il est sympa, le prof’）。在正式语体中，右向离合较为显著，使用需谨慎。与西班牙语不同，法语中主语代词不可省略；离合结构必须包含代词。注意：‘c'est’在分裂句中与强调成分的数不保持一致（如：‘C'est eux qui...’而非正式语体下的‘Ce sont eux qui...’，但在书面正式语境中可出现‘ce sont’）。对于直接或间接宾语，需用‘que’或‘à qui’等引导。",
+    "concept_examples": [
+      {
+        "text": "C'est Marie qui a préparé le dîner.",
+        "translation": "是玛丽准备了晚餐。",
+        "phonetic": "/s‿ɛ ma.ʁi ki a pʁe.pa.ʁe lə di.ne/"
+      },
+      {
+        "text": "Le prof, il est vraiment exigeant.",
+        "translation": "老师，真的很严格。",
+        "phonetic": "/lə pʁɔf, il ɛ vʁɛ.mɑ̃ ɛɡ.zi.ʒɑ̃/"
+      },
+      {
+        "text": "Ce que je déteste, c'est l'hypocrisie.",
+        "translation": "我最讨厌的就是虚伪。",
+        "phonetic": "/sə kə ʒə de.tɛst, s‿ɛ l‿i.pɔ.kʁi.zi/"
+      },
+      {
+        "text": "Il est incroyable, ce film.",
+        "translation": "这部电影，真不可思议。",
+        "phonetic": "/il ɛ.t‿ɛ̃.kʁwa.jabl, sə film/"
+      }
+    ],
+    "common_error": {
+      "wrong": "C'est les enfants qui ont fait les devoirs.",
+      "correct": "Ce sont les enfants qui ont fait les devoirs.",
+      "correct_alt": "C'est les enfants qui ont fait les devoirs.",
+      "explanation": "在正式法语中，‘c'est’后接复数名词时，若强调成分为复数，应用‘ce sont’而非‘c'est’。但在口语非正式场合，‘c'est’+复数可被接受。西班牙语使用者常因母语影响而一律用‘c'est’，因西班牙语中系动词不与表语在该结构中保持一致（如不说‘Es los niños...’），但法语中此类一致性在正式语体中为强制要求。注意：在离合结构中，重复强调成分的代词为必备成分；若想强调‘老师’，不可仅说‘Le prof est sympa’，因这并非离合结构，而是未标记的普通句子。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "La dislocation à gauche",
+        "translation": "左向离合结构",
+        "examples": [
+          {
+            "original": "Moi, je ne suis pas d'accord.",
+            "phonetic": "/mwa, ʒə nə sɥi pa d‿akɔʁ/",
+            "translation": "我，不同意。",
+            "note": "将强调成分置于句首，并用代词（此处为‘je’）重复。在法语口语中极为常见。"
+          },
+          {
+            "original": "Cette idée, elle est géniale.",
+            "phonetic": "/sɛt i.de, ɛ.l‿ɛ ʒe.njal/",
+            "translation": "这个主意，真棒。",
+            "note": "用‘elle’回指阴性名词。西班牙语中常省略代词，但法语中为强制要求。"
+          },
+          {
+            "original": "Les vacances, on en parle demain.",
+            "phonetic": "/le va.kɑ̃s, ɔ̃ ɑ̃ paʁl də.mɛ̃/",
+            "translation": "假期，我们明天再谈。",
+            "note": "用副词代词‘en’回指‘de + les vacances’。注意一致性。"
+          },
+          {
+            "original": "Toi, tu devrais te taire.",
+            "phonetic": "/twa, ty də.vʁɛ tə tɛʁ/",
+            "translation": "你，应该闭嘴。",
+            "note": "左向离合中用重读人称代词（‘toi’）+ 主语代词（‘tu’）对比强调，典型用法。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "La dislocation à droite",
+        "translation": "右向离合结构",
+        "examples": [
+          {
+            "original": "Elle est très belle, ta maison.",
+            "phonetic": "/ɛ.l‿ɛ tʁɛ bɛl, ta mɛ.zɔ̃/",
+            "translation": "你的房子，真漂亮。",
+            "note": "强调成分置于句末，位于代词之后。西班牙语中更自然的说法是将其置于句首或不使用离合。"
+          },
+          {
+            "original": "Je le connais bien, ce quartier.",
+            "phonetic": "/ʒə lə kɔ.nɛ bjɛ̃, sə kaʁ.tje/",
+            "translation": "这条街，我很熟悉。",
+            "note": "代词‘le’指代后置的直接宾语。适合在后置补充信息时使用。"
+          },
+          {
+            "original": "Il faut qu'on y aille, à la plage.",
+            "phonetic": "/il fo k‿ɔ̃ n‿i aj, a la plaʒ/",
+            "translation": "海滩，我们得去。",
+            "note": "用代词‘y’回指地点补语。右向离合可明确指代。"
+          },
+          {
+            "original": "C'est bien fait, ton gâteau.",
+            "phonetic": "/s‿ɛ bjɛ̃ fɛ, tɔ̃ ɡa.to/",
+            "translation": "你的蛋糕，做得很好。",
+            "note": "右向离合有时与‘c'est’结合表达判断。西班牙语中会直接说‘Está bien hecho tu pastel’而不加小品词。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Les constructions clivées en c'est... qui/que",
+        "translation": "‘c'est... qui/que’分裂句结构",
+        "examples": [
+          {
+            "original": "C'est Paul qui m'a prêté ce livre.",
+            "phonetic": "/s‿ɛ pɔl ki m‿a pʁɛ.te sə livʁ/",
+            "translation": "是保罗把这本书借给我的。",
+            "note": "强调成分为主语时用‘qui’。西班牙语中也用‘quien’。"
+          },
+          {
+            "original": "C'est ce que je voulais dire.",
+            "phonetic": "/s‿ɛ sə kə ʒə vu.lɛ diʁ/",
+            "translation": "这正是我想说的。",
+            "note": "用‘ce que’（即‘lo que’）构成的分裂句常用于强调宾语或概念。"
+          },
+          {
+            "original": "C'est à toi que je parle.",
+            "phonetic": "/s‿ɛ.t‿a twa kə ʒə paʁl/",
+            "translation": "我是在跟你说话。",
+            "note": "强调带介词的补语时用‘que’而非‘qui’。注意介词位置。"
+          },
+          {
+            "original": "Ce n'est pas Marie qui a cassé le vase.",
+            "phonetic": "/sə n‿ɛ pa ma.ʁi ki a ka.se lə vaz/",
+            "translation": "不是玛丽打碎了花瓶。",
+            "note": "否定时，‘ne... pas’置于‘est’两侧。‘est’为动词‘être’的直陈式现在时。分裂句可对特定成分进行否定。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "zh": "高级句法与复杂结构"
+    }
+  },
+  {
+    "id": "zh_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "语言语体：正式、通用、口语化 / Registro, estilo formal, informal y neutro",
+    "bridge": "在西班牙语中，我们也使用不同的语体，但在法语中，语体的差异更为显著，不仅体现在词汇上，还体现在句法和特定结构上。例如，法语中否定句的‘ne’在口语中常被省略，而在西班牙语中这种系统性省略并不常见。此外，法语口语中的代词‘on’可替代‘nous’，而西班牙语在所有语体中均使用‘nosotros’。在正式疑问句中，法语要求主谓倒置，而西班牙语则更灵活，可通过语调表达疑问。",
+    "rule": "在法语中，语体主要分为三个层次：正式（soutenu）、标准/中性（courant）和口语化（familier）。每种语体在词汇（如‘voiture’与‘bagnole’）、形态（如正式否定句中的‘ne’，口语中常省略）和句法（如疑问句：正式用倒装，标准用‘est-ce que’，口语用语调或‘tu’）上均有变化。在C1水平，掌握正式语体对学术和职业场合至关重要，同时需了解其适用时机。此外，还需熟悉各语体中的习语及其对应表达。例如动词：‘se rendre’（正式）vs ‘aller’（标准）vs ‘se tirer’（口语）。在书面语中，正式语体更常见；而在口语中，标准和口语化语体则更普遍。",
+    "concept_examples": [
+      {
+        "text": "Je vous prie de bien vouloir agréer mes salutations distinguées.",
+        "translation": "恳请您接受我崇高的敬意。",
+        "phonetic": "/ʒə vu pʁi də bjɛ̃ vu lwaʁ aɡʁe me salytasjɔ̃ distɛ̃ɡe/"
+      },
+      {
+        "text": "Vous pouvez me passer le dossier, s'il vous plaît ?",
+        "translation": "请您把文件递给我，好吗？",
+        "phonetic": "/vu puve mə pase lə dosje sil vu plɛ/"
+      },
+      {
+        "text": "Tu peux me filer le truc ?",
+        "translation": "你把那玩意儿递给我一下？（口语化）",
+        "phonetic": "/ty pø mə file lə tʁyk/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis désolé, je ne peux pas venir à la réunion. (en contexto formal, poco problemático; mejor ejemplo: 'Je suis vachement content de vous rencontrer.' en contexto formal)",
+      "correct": "Je suis ravi de faire votre connaissance.",
+      "correct_alt": "Je suis enchanté de vous rencontrer.",
+      "explanation": "典型错误是在正式场合（如与上级交谈或官方信函中）使用过于口语化的语体。如‘vachement’、‘super’或‘truc’等词在正式语体中极不恰当。为避免此类错误，需学习正式同义词并练习语体转换。西班牙语中也存在正式语体，但其与口语的差距不如法语显著，因此西班牙语母语者往往低估了正式语体的要求。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Le registre soutenu (formal)",
+        "translation": "正式语体",
+        "examples": [
+          {
+            "original": "Veuillez agréer, Madame, l'expression de mes salutations respectueuses.",
+            "phonetic": "/vœjəz aɡʁe madam lɛkspʁɛsjɔ̃ də me salytasjɔ̃ ʁɛspɛktɥøz/",
+            "translation": "请您接受，女士，我恭敬的问候。",
+            "note": "正式信函中的礼貌用语。注意动词‘veuillez’（源自‘vouloir’）的虚拟式及无人称结构。"
+          },
+          {
+            "original": "Je vous saurais gré de bien vouloir examiner cette affaire.",
+            "phonetic": "/ʒə vu soʁɛ ɡʁe də bjɛ̃ vu lwaʁ ɛɡzamine sɛt afɛʁ/",
+            "translation": "如您能审阅此事，我将不胜感激。",
+            "note": "使用条件式表达礼貌。‘sauriez’是‘savoir’在固定句式中的条件式形式。"
+          },
+          {
+            "original": "Il conviendrait de différer notre décision jusqu'à nouvel ordre.",
+            "phonetic": "/il kɔ̃vjɛ̃dʁə də difeʁe nɔtʁ desizjɔ̃ ʒysk a nuvɛl ɔʁdʁ/",
+            "translation": "我们或许应推迟决定，静候后续通知。",
+            "note": "使用条件式委婉建议。‘convenir’一词属正式用语。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Le registre courant (neutro)",
+        "translation": "标准语体",
+        "examples": [
+          {
+            "original": "Est-ce que vous pouvez m'aider à porter ces cartons ?",
+            "phonetic": "/ɛs kə vu puve mɛde a pɔʁte se kaʁtɔ̃/",
+            "translation": "您能帮我搬这些箱子吗？",
+            "note": "使用‘est-ce que’构成疑问句，为标准语体的典型用法。"
+          },
+          {
+            "original": "On doit se dépêcher si on veut arriver à l'heure.",
+            "phonetic": "/ɔ̃ dwa sə depeʃe si ɔ̃ vø aʁive a lœʁ/",
+            "translation": "如果我们想按时到达，就得快点。",
+            "note": "在标准口语中用‘on’替代‘nous’。西班牙语中无直接对应，但可译为‘nosotros’。"
+          },
+          {
+            "original": "Je voudrais un café, s'il vous plaît.",
+            "phonetic": "/ʒə vudʁɛ œ̃ kafe sil vu plɛ/",
+            "translation": "我想要一杯咖啡，谢谢。",
+            "note": "使用条件式表达礼貌，在服务场合中常见。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Le registre familier (informal)",
+        "translation": "口语化语体",
+        "examples": [
+          {
+            "original": "On se tire ? J'en ai marre de ce bled.",
+            "phonetic": "/ɔ̃ sə tiʁ ʒɑ̃nɛ maʁ də sə blɛd/",
+            "translation": "我们走人？我受够这个鬼地方了。",
+            "note": "动词‘se tirer’（离开）、短语‘en avoir marre’（受够了）及‘bled’（偏远小镇，口语化）。"
+          },
+          {
+            "original": "T'as vu le nouveau prof ? Il est trop sympa !",
+            "phonetic": "/ta vy lə nuvo pʁɔf il ɛ tʁo sɛ̃pa/",
+            "translation": "你见到新老师了吗？人超好！",
+            "note": "否定句中省略‘ne’、‘t’as’代替‘tu as’、缩略语‘prof’及‘trop’作为积极强调语。"
+          },
+          {
+            "original": "J'ai la flemme de sortir ce soir.",
+            "phonetic": "/ʒɛ la flɛm də sɔʁtiʁ sə swaʁ/",
+            "translation": "今晚我不想出门，太懒了。",
+            "note": "习语‘avoir la flemme’（懒得动）。西班牙语中无直接对应表达。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "zh": "正式、通用、口语化"
+    }
+  },
+  {
+    "id": "zh_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Inversion et antéposition avancées / 倒装与前置高级用法",
+    "bridge": "在西班牙语中，疑问倒装是可选的，通常会避免使用（如‘¿Cuándo vendrás?’），而在法语中，疑问倒装在正式语体中是强制性的（如‘Quand viendrez-vous ?’）。此外，带有倒装的前置结构（如‘Peut-être viendra-t-il’）在法语中比在西班牙语中更常见，西班牙语更倾向于使用语调变化或无倒装的前置（如‘Quizá venga’）。对于西班牙语母语者来说，主要的挑战是记住在倒装时主语与动词的一致性，以及在以元音开头的主语后使用强调代词‘-t-’（如‘A-t-il’）。",
+    "rule": "法语C1级别的倒装包括：（1）简单疑问倒装（主语代词 + 动词，用连字符连接：如‘Où vas-tu ?’）和名词主语倒装（主语 + 动词 + 重复代词：如‘Pierre vient-il ?’）；（2）在某些副词或短语（如‘peut-être’、‘sans doute’、‘à peine’、‘aussi’、‘en vain’）后的倒装，在正式/书面语体中需要倒装（如‘À peine a-t-il fini qu'il est parti’）；（3）无倒装的成分前置（用于强调）或带有倒装的修辞结构（如‘Grande est sa surprise’）。例外：副词‘peut-être’和‘sans doute’在非正式语体中可变化，但在C1级别中需使用规范形式。注意：‘à peine’后需使用时态一致（常用‘ne ... que’）。在代词主语倒装中，不允许省音（必须写作‘a-t-il’，不可写作‘a-t'il’）。",
+    "concept_examples": [
+      {
+        "text": "Où sont mes clés ?",
+        "translation": "我的钥匙在哪里？（名词主语疑问倒装）",
+        "phonetic": "/u sɔ̃ me kle/"
+      },
+      {
+        "text": "Peut-être viendra-t-il demain.",
+        "translation": "也许他明天会来。（带强调-t-的前置倒装）",
+        "phonetic": "/pøt‿ɛtʁ vjɛ̃dʁa til dəmɛ̃/"
+      },
+      {
+        "text": "À peine avait-il commencé qu'il s'est arrêté.",
+        "translation": "他刚开始就停了下来。（‘à peine’引导的倒装结构）",
+        "phonetic": "/a pɛn avɛtil kɔmɑ̃se kil sɛt aʁete/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Peut-être il viendra demain.",
+      "correct": "Peut-être viendra-t-il demain.",
+      "correct_alt": "Il viendra peut-être demain.",
+      "explanation": "错误源于将西班牙语的‘Quizá él vendrá’直译为法语。在法语中，当‘peut-être’位于句首时，正式语体中需要倒装。在非正式语体中可以省略倒装（如‘Peut-être qu'il viendra’），但将‘peut-être’与未倒装的主语直接连用且不加‘que’是错误的。为避免此类错误，记住：若‘peut-être’在句首，必须倒装或使用‘que’。中性替代方案：将‘peut-être’置于动词后。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Inversion interrogative simple",
+        "translation": "简单疑问倒装",
+        "examples": [
+          {
+            "original": "Où vas-tu ?",
+            "phonetic": "/u va ty/",
+            "translation": "你要去哪里？",
+            "note": "代词主语倒装：动词 + 连字符 + 代词。西班牙语中倒装非强制。"
+          },
+          {
+            "original": "Pierre vient-il ?",
+            "phonetic": "/pjɛʁ vjɛ̃ til/",
+            "translation": "皮埃尔会来吗？",
+            "note": "名词主语倒装时，需重复主语并用代词倒装。西班牙语中仅为‘皮埃尔会来吗？’且不重复主语。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Inversion après certains adverbes",
+        "translation": "某些副词后的倒装",
+        "examples": [
+          {
+            "original": "Peut-être faudrait-il réessayer.",
+            "phonetic": "/pøt‿ɛtʁ fodʁɛtil ʁeesɛje/",
+            "translation": "也许应该再试一次。",
+            "note": "‘peut-être’位于句首时，正式语体中需倒装。注意正确结构中无‘que’。"
+          },
+          {
+            "original": "Sans doute a-t-elle raison.",
+            "phonetic": "/sɑ̃ dut a tɛl ʁɛzɔ̃/",
+            "translation": "毫无疑问他是对的。",
+            "note": "此处‘sans doute’表示‘毫无疑问’（表确定），需要倒装。西班牙语中无对应结构。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Antéposition stylistique",
+        "translation": "修辞性前置",
+        "examples": [
+          {
+            "original": "Grande est sa générosité.",
+            "phonetic": "/ɡʁɑ̃d‿ɛ sa ʒeneʁozite/",
+            "translation": "他的慷慨是如此之大。",
+            "note": "修辞性地将表语形容词前置。西班牙语中可用但日常口语中罕见。"
+          },
+          {
+            "original": "Aussi ai-je décidé de partir.",
+            "phonetic": "/osi ɛʒ deside də paʁtiʁ/",
+            "translation": "因此我决定离开。",
+            "note": "‘aussi’作‘因此’（表结果）时引发倒装，与其作比较义（‘也’）不同。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "zh": "倒装与前置高级用法"
+    }
+  },
+  {
+    "id": "zh_C1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nominalisation complexe / 复杂名词化（过程→处理）",
+    "bridge": "在西班牙语中，我们通常使用动词不定式或带有“el que”的结构来表达过程，而法语在正式和学术语体中倾向于使用从动词派生的名词（后缀 -tion、-ment、-age、-ure）。这使得句子更加简洁优雅，但需要掌握形态派生和拼写变化。注意避免假朋友（如 'procédure' 并非在所有语境下等同于西班牙语的 'procedura'）。",
+    "rule": "在C1法语中，复杂名词化是将动词或形容词转化为抽象名词以表达动作、过程或结果的过程。常见后缀包括：-tion/-sion（transformer → transformation, admettre → admission）、-ment（changer → changement, accomplir → accomplissement）、-age（nettoyer → nettoyage, abattre → abattage）、-ure（couvrir → couverture, ouvrir → ouverture）、-ance/-ence（paraître → apparence, dépendre → dépendance）。对于以 -ir 结尾的动词，常用 -issement（grandir → grandissement, embellir → embellissement）。存在拼写变化：ner→ration（coopérer → coopération）、ger→tion（naviguer → navigation）、yer→iement（nettoyer → nettoyage，但 payer → paiement）。在学术语体中，名词化可通过 'de' 连接补语（如 la transformation de l'énergie solaire en électricité）。这种结构在科学、政治和技术语言中广泛使用。注意：某些动词有两个名词化形式，含义不同（如 presser → pression ‘物理/政治压力’ vs. pressage ‘技术压制’）。在C1阶段，必须选择正确的后缀并避免西班牙语的直译（如不说 'la processus' 而说 'le processus'；'la procédure' 为阴性）。",
+    "concept_examples": [
+      {
+        "text": "La transformation numérique des entreprises est un enjeu majeur.",
+        "translation": "企业的数字化转型是一项重大挑战。",
+        "phonetic": "[la tʁɑ̃sfɔʁmasjɔ̃ nymeʁik de.z‿ɑ̃tʁəpʁiz ɛ.t‿ɛ̃ ɑ̃ʒø maʒœʁ]"
+      },
+      {
+        "text": "Le vieillissement de la population affecte l'économie mondiale.",
+        "translation": "人口老龄化影响全球经济。",
+        "phonetic": "[lə vjɛjismɑ̃ də la pɔpylasjɔ̃ afɛkt lekɔnɔmi mɔ̃djal]"
+      },
+      {
+        "text": "La mise en œuvre de ce plan nécessite une coordination étroite.",
+        "translation": "该计划的实施需要密切协调。",
+        "phonetic": "[la miz ɑ̃ œvʁ də sə plɑ̃ nesɛsit yn kɔɔʁdinasjɔ̃ etʁwat]"
+      },
+      {
+        "text": "L'embauche de nouveaux talents dépend de notre budget.",
+        "translation": "招聘新人才取决于我们的预算。",
+        "phonetic": "[lɑ̃boʃ də nuvo talɑ̃ depɑ̃ də nɔtʁ bydʒɛ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "La création d'emplois est nécessaire pour améliorer la vie des gens.",
+      "correct": "La création d'emplois est nécessaire pour améliorer la vie des citoyens.",
+      "correct_alt": "La création d'emplois est nécessaire à l'amélioration de la vie des citoyens.",
+      "explanation": "尽管原句在语法上并不错误，但 'gens' 在C1语境下过于口语化，应优先使用 'citoyens' 或 'individus'。此外，在学术法语中，第二个动词 'améliorer' 通常应名词化为 'amélioration' 以保持名词结构的一致性。典型错误是模仿西班牙语结构，在正式语境中仍使用动词而非名词。为避免此类问题，在正式文本中应优先考虑名词化。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Suffixes en -tion/-sion",
+        "translation": "以 -tion/-sion 结尾的名词化",
+        "examples": [
+          {
+            "original": "La décision du gouvernement a surpris tout le monde.",
+            "phonetic": "[la desizjɔ̃ dy ɡuvɛʁnəmɑ̃ a syʁpʁi tu lə mɔ̃d]",
+            "translation": "政府的决定让所有人感到意外。",
+            "note": "Décision 源自动词 'décider'（-er 变为 -sion）。西班牙语中 'decisión' 为同源词，但注意拼写差异。"
+          },
+          {
+            "original": "L'industrialisation rapide a transformé le paysage.",
+            "phonetic": "[lɛ̃dystʁijalizasjɔ̃ ʁapid a tʁɑ̃sfɔʁme lə peizaʒ]",
+            "translation": "快速的工业化改变了景观。",
+            "note": "Industrialisation：动词 'industrialiser' 的后缀 -ation。注意西班牙语为 'industrialización'，带 'z'。"
+          },
+          {
+            "original": "La communication non verbale est essentielle en réunion.",
+            "phonetic": "[la kɔmynikasjɔ̃ nɔ̃ vɛʁbal ɛ.t‿esɑ̃sjɛl ɑ̃ ʁeynjɔ̃]",
+            "translation": "非语言交流在会议中至关重要。",
+            "note": "Communication：后缀 -tion，但西班牙语为 'comunicación'。注意 'm'（非 'n'）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Suffixes en -ment et -age",
+        "translation": "以 -ment 和 -age 结尾的名词化",
+        "examples": [
+          {
+            "original": "Le déplacement des travailleurs quotidiens est un problème majeur.",
+            "phonetic": "[lə deplasmɑ̃ de tʁavajœʁ kɔtidjɛ̃ ɛ.t‿ɛ̃ pʁɔblɛm maʒœʁ]",
+            "translation": "工人的日常通勤是一个大问题。",
+            "note": "Déplacement：基于动词 'déplacer' 的后缀 -ment。西班牙语 'desplazamiento' 同根，但后缀不同。"
+          },
+          {
+            "original": "Le nettoyage du site a pris plus de temps que prévu.",
+            "phonetic": "[lə nɛtwajaʒ dy sit a pʁi ply də tɑ̃ kə pʁevy]",
+            "translation": "现场清理比预期花费了更多时间。",
+            "note": "Nettoyage：后缀 -age，但动词 'nettoyer' 在 -age 前将 'y' 变为 'i'。西班牙语 'limpieza' 为独立名词。"
+          },
+          {
+            "original": "L'embouteillage sur l'autoroute a causé des retards.",
+            "phonetic": "[lɑ̃butɛjaʒ syʁ lotoʁut a koze de ʁətaʁ]",
+            "translation": "高速公路上的交通堵塞导致延误。",
+            "note": "Embouteillage：后缀 -age 带双写 'l'。勿与 'bouteille'（瓶子）混淆。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nominalisations irrégulières et cas particuliers",
+        "translation": "不规则名词化及特殊情况",
+        "examples": [
+          {
+            "original": "La poursuite de ses études l'a conduit à l'étranger.",
+            "phonetic": "[la puʁsɥit də se.z‿etyd lɑ kɔ̃dɥi a letʁɑ̃ʒe]",
+            "translation": "继续深造让他去了国外。",
+            "note": "Poursuite 源自动词 'poursuivre'（不规则，非 'poursuivage'）。这是一个特例。"
+          },
+          {
+            "original": "La saisie des données doit être faite avant la réunion.",
+            "phonetic": "[la sezi de dɔne dwa ɛtʁ fɛt avɑ̃ la ʁeynjɔ̃]",
+            "translation": "数据采集必须在会议前完成。",
+            "note": "Saisie：源自动词 'saisir'，不遵循常规模式。西班牙语为 'captura' 或 'introducción'。"
+          },
+          {
+            "original": "L'accroissement des inégalités préoccupe les économistes.",
+            "phonetic": "[lakʁwasmɑ̃ de.z‿ineɡalite pʁeɔkyp le.z‿ekɔnɔmist]",
+            "translation": "不平等现象的增长令经济学家担忧。",
+            "note": "Accroissement：源自动词 'accroître'，带 'ss' 和 'ement'。注意双写 's'。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏗️",
+    "phonetic": "",
+    "translations": {
+      "zh": "复杂名词化（过程→处理）"
+    }
+  },
+  {
+    "id": "zh_C1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "L'ellipse et la substitution / 省略与替代",
+    "bridge": "在西班牙语中，为了避免重复，我们使用诸如‘yo también’、‘yo tampoco’、‘a mí también’或‘a mí tampoco’等结构，并与动词变位连用。而在法语中，虽然也使用‘aussi’和‘non plus’这样的代词，但最典型的结构是在‘croire’、‘penser’或‘espérer’等动词后使用‘si’和‘non’，并通过代词‘le’、‘la’、‘les’和‘en’进行替代。两者的主要区别在于，法语中常用中性代词‘le’来指代整个想法，而在西班牙语中则较少使用‘lo’来指代，且容易引起混淆，因为法语中的‘le’既可以指代阳性名词，也可以指代整个从句。此外，在简短回答中，‘oui’和‘non’在表达意见动词后常被‘si’和‘non’取代，这在西班牙语中没有直接对应的表达方式。",
+    "rule": "省略（重复成分的省去）和替代（用代词替换）在法语中是避免冗余的重要手段。对于简短回答：‘Oui, je pense’ → ‘Je pense que oui’ / ‘Je ne pense pas’ → ‘Je pense que non’。在否定疑问句中用‘si’进行反驳：‘Tu n'aimes pas ça ? – Si, j'aime ça.’ 表达同意时：‘Moi aussi’（肯定，‘我也一样’），‘Moi non plus’（否定，‘我也不’），但在正式语体中也可使用‘Aussi moi’或‘Non plus moi’（较少见）。替代名词短语时：‘le/la/les’需根据性数一致，过去分词也需配合：‘Tu as vu mes clés ? – Je les ai vues.’ 替代带‘de’的补语时用‘en’。替代已提及的表语或不定式时：‘Je le suis’（与‘être’连用，‘我是那样的’），‘Je le veux’（与‘vouloir’连用，‘我想要那样’）。替代带‘à’的地点补语时用‘y’。在比较结构和并列结构中，可省略共同成分：‘Pierre aime le vin, et Marie le fromage’（省略‘aime’）。在简短回答中动词也可省略（用‘oui/non/si’）。特殊情况：‘le’不可与某些动词（如‘être’）在特定语境下连用，可用‘l’'être’。‘en’和‘y’不可指代人（除固定表达外），需使用重读人称代词。对于C1水平，需掌握虚拟式和条件式中的替代，以及带‘que’的复杂句中的省略。",
+    "concept_examples": [
+      {
+        "text": "Je pense que oui, mais je ne suis pas sûr.",
+        "translation": "我相信是这样，但不太确定。",
+        "phonetic": "/ʒə pɑ̃s kə wi mɛ ʒə nə sɥi pa syʁ/"
+      },
+      {
+        "text": "Tu as fini tes devoirs ? – Oui, je les ai finis.",
+        "translation": "你完成作业了吗？—是的，我完成了。",
+        "phonetic": "/ty a fini te dəvwaʁ wi ʒə le ɛ fini/"
+      },
+      {
+        "text": "Elle aime le café, et moi aussi.",
+        "translation": "她喜欢咖啡，我也喜欢。",
+        "phonetic": "/ɛl ɛm lə kafe e mwa osi/"
+      },
+      {
+        "text": "Tu n'es pas venu ? – Si, je suis venu hier.",
+        "translation": "你没来吗？—不，我昨天来了。",
+        "phonetic": "/ty nɛ pa vəny si ʒə sɥi vəny jɛʁ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis d'accord aussi, mais je ne le pense pas.",
+      "correct": "Je suis d'accord, mais je ne le pense pas.",
+      "correct_alt": "Je suis d'accord, mais je ne pense pas.",
+      "explanation": "错误源于将‘yo también estoy de acuerdo, pero no lo pienso’直译为法语。‘aussi’不可与‘d'accord’在该位置连用；应说‘moi aussi’置于句首，或简单说‘je suis d'accord’。此外，‘je ne le pense pas’（用‘le’替代整个想法）是正确的，但加入‘aussi’会造成冗余。‘je suis d'accord, mais je ne pense pas ça’（较不正式）也是可行的。关键在于法语中用‘le’替代整个想法后，‘aussi’仅用于表达对前句的认同，不可重复替代。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Les réponses courtes : si, non, que oui, que non",
+        "translation": "简短回答：是、否、是的、不",
+        "examples": [
+          {
+            "original": "Tu viens ? – Oui, je viens.",
+            "phonetic": "/ty vjɛ̃ wi ʒə vjɛ̃/",
+            "translation": "你来吗？—来。",
+            "note": "用‘oui’对非否定疑问句作肯定回答的基础用法。"
+          },
+          {
+            "original": "Tu ne viens pas ? – Si, je viens !",
+            "phonetic": "/ty nə vjɛ̃ pa si ʒə vjɛ̃/",
+            "translation": "你不来吗？—不，我来！",
+            "note": "‘si’用于反驳否定疑问句。与西班牙语中的‘sí’并不完全对应，是法语特有用法。"
+          },
+          {
+            "original": "Je pense que oui, mais je ne suis pas certain.",
+            "phonetic": "/ʒə pɑ̃s kə wi mɛ ʒə nə sɥi pa sɛʁtɛ̃/",
+            "translation": "我相信是这样，但不太确定。",
+            "note": "在带有意见动词的从句中，用‘que oui’/‘que non’总结整个命题。"
+          },
+          {
+            "original": "Elle espère que non, car elle préfère rester.",
+            "phonetic": "/ɛl ɛspɛʁ kə nɔ̃ kaʁ ɛl pʁefɛʁ ʁɛste/",
+            "translation": "她希望不是那样，因为她更想留下来。",
+            "note": "与‘espérer’等思考动词使用相同结构。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "L'accord et le désaccord : aussi, non plus, moi si",
+        "translation": "同意与不同意：也、也不、我是的",
+        "examples": [
+          {
+            "original": "J'aime le jazz. – Moi aussi !",
+            "phonetic": "/ʒɛm lə dʒaz mwa osi/",
+            "translation": "我喜欢爵士乐。—我也喜欢！",
+            "note": "对肯定句表示同意时用‘moi aussi’。西班牙语中为‘yo también’，但法语中不直译主语代词，而是用重读形式。"
+          },
+          {
+            "original": "Je ne fume pas. – Moi non plus !",
+            "phonetic": "/ʒə nə fym pa mwa nɔ̃ plys/",
+            "translation": "我不抽烟。—我也不！",
+            "note": "对否定句表示同意时用‘non plus’。注意：不可与仅用于肯定句的‘aussi’混淆。"
+          },
+          {
+            "original": "Tu n'aimes pas le fromage ? – Si, j'adore ça !",
+            "phonetic": "/ty nɛm pa lə fʁɔmaʒ si ʒadɔʁ sa/",
+            "translation": "你不喜欢奶酪吗？—不，我很喜欢！",
+            "note": "‘si’在简短回答中用于反驳否定，与第一级相同，但此处用于表达对对方否定的不同意。"
+          },
+          {
+            "original": "Elle n'est pas partie, et moi non plus.",
+            "phonetic": "/ɛl nɛ pa paʁti e mwa nɔ̃ plys/",
+            "translation": "她没走，我也没走。",
+            "note": "可用‘moi non plus’作主语重读形式以示强调；西班牙语中为‘yo tampoco’。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "La substitution pronominale : le, en, y",
+        "translation": "代词替代：le、en、y",
+        "examples": [
+          {
+            "original": "Es-tu fatigué ? – Oui, je le suis.",
+            "phonetic": "/ɛty fatige wi ʒə lə sɥi/",
+            "translation": "你累了吗？—是的，我累了。",
+            "note": "‘le’替代表语形容词。‘lo’在西班牙语中也用于此处，但在法语中‘le’不变，无性数变化。"
+          },
+          {
+            "original": "Tu as des questions ? – Oui, j'en ai deux.",
+            "phonetic": "/ty a de kɛstjɔ̃ wi ʒɑ̃n e dø/",
+            "translation": "你有问题吗？—是的，我有两个。",
+            "note": "‘en’替代带‘de’的补语（des questions）。西班牙语中可省略或用‘de ellas’，但在法语中必用。"
+          },
+          {
+            "original": "Ils vont à Paris ? – Ils y vont demain.",
+            "phonetic": "/il vɔ̃ a paʁi il i vɔ̃ dəmɛ̃/",
+            "translation": "他们去巴黎吗？—他们明天去。",
+            "note": "‘y’替代带‘à’的地点补语。与其他代词相同，置于变位动词前。"
+          },
+          {
+            "original": "Cette idée, je la trouve excellente.",
+            "phonetic": "/sɛt ide ʒə la tʁuv ɛksɛlɑ̃t/",
+            "translation": "这个想法我觉得很棒。",
+            "note": "此处‘la’替代‘cette idée’（阴性单数），需配合性数。‘la’在西班牙语中也用，但需注意顺序与冗余。"
+          }
+        ]
+      }
+    ],
+    "emoji": "✂️",
+    "phonetic": "",
+    "translations": {
+      "zh": "省略与替代"
+    }
+  },
+  {
+    "id": "zh_C1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Marqueurs discursifs avancés / 衔接用高级话语标记语",
+    "bridge": "在法语中，我们使用连接词如‘no obstante’（不过）、“por consiguiente”（因此）或‘a saber’（即）来组织话语。这些标记语在法语中有类似的表达，但含义和搭配方式各有不同。例如，‘en effet’并不总是等同于西班牙语的‘en efecto’（确实），有时表示‘因为’；而‘certes’比‘ciertamente’更正式。请注意词序和语体：有些标记语仅用于正式或书面语境。",
+    "rule": "法语中的高级话语标记语可按其功能分类：对比（cependant、néanmoins、en revanche）、原因（en effet、car、étant donné que）、结果（par conséquent、de ce fait、ainsi）、重述（autrement dit、en d'autres termes、c'est-à-dire）、让步（certes... mais、bien que、quoique）以及话语组织（d'abord、ensuite、enfin、en somme）。在C1水平，应精确且多样化地使用这些标记语，避免重复。注意标点：许多标记语需用逗号隔开或置于句首。在法语中，‘en effet’用于确认之前所述内容，与西班牙语‘en efecto’（常带强调语气）不同。",
+    "concept_examples": [
+      {
+        "text": "Les résultats sont encourageants ; en effet, le taux de réussite a augmenté de 10 %.",
+        "translation": "Les résultats sont encourageants; en effet, le taux de réussite a augmenté de 10%.",
+        "phonetic": "/le ʁezylta sɔ̃t‿ɑ̃kuʁaʒɑ̃ ; ɑ̃n‿efɛ, lə ʁo də ʁɥesi a oɡmɑ̃te də dis puʁsɑ̃/"
+      },
+      {
+        "text": "Il est très compétent. Néanmoins, son manque d'expérience se fait sentir.",
+        "translation": "Il est très compétent. Toutefois, son manque d'expérience se remarque.",
+        "phonetic": "/il ɛ tʁe kɔ̃petɑ̃. neɑ̃mwɛ̃, sɔ̃ mɑ̃k d‿ɛkspeʁjɑ̃s sə fɛ sɑ̃tiʁ/"
+      },
+      {
+        "text": "Nous devons agir rapidement ; autrement dit, il n'y a pas de temps à perdre.",
+        "translation": "Nous devons agir rapidement; en d'autres termes, il n'y a pas de temps à perdre.",
+        "phonetic": "/nu dəvɔ̃ aʒiʁ ʁapidəmɑ̃ ; otʁəmɑ̃ di, il n‿j a pa də tɑ̃ a pɛʁd/"
+      },
+      {
+        "text": "Certes, le projet est ambitieux, mais il est réalisable.",
+        "translation": "Certes, le projet est ambitieux, mais il est réalisable.",
+        "phonetic": "/sɛʁt, lə pʁɔʒɛ ɛt‿ɑ̃bisjø, mɛ il ɛ ʁealizabl/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Il a plu toute la journée, en effet je suis resté chez moi.",
+      "correct": "Il a plu toute la journée ; par conséquent, je suis resté chez moi.",
+      "correct_alt": "Comme il a plu toute la journée, je suis resté chez moi.",
+      "explanation": "在西班牙语中，‘en efecto’可用于表达结果，但在法语中，‘en effet’仅引入对之前所述内容的解释或证明。‘en effet’不用于表达结果，表结果应使用‘par conséquent’（因此）、“donc”（所以）或‘de ce fait’（因此）。避免逐字翻译，应根据逻辑功能选择合适的表达。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Marqueurs d'opposition",
+        "translation": "对比标记语",
+        "examples": [
+          {
+            "original": "Ce produit est cher ; cependant, il est de très bonne qualité.",
+            "phonetic": "/sə pʁɔdy ɛ ʃɛʁ ; səpɑ̃dɑ̃, il ɛ də tʁɛ bɔn kalite/",
+            "translation": "Ce produit est cher; cependant, il est de très bonne qualité.",
+            "note": "‘Cependant’相当于‘sin embargo’（然而），但在法语中可置于从句句首或句中，此处置于第二分句句首，分号后。"
+          },
+          {
+            "original": "Je ne suis pas d'accord avec toi. En revanche, je respecte ton opinion.",
+            "phonetic": "/ʒə nə sɥi pa d‿akɔʁ avɛk twa. ɑ̃ ʁəvɑ̃ʃ, ʒə ʁɛspɛkt tɔ̃ ɔpinjɔ̃/",
+            "translation": "Je ne suis pas d'accord avec toi. En revanche, je respecte ton opinion.",
+            "note": "‘En revanche’在此语境中引入轻微对比，类似于西班牙语的‘en cambio’（相反）。"
+          },
+          {
+            "original": "Il aurait pu réussir ; or, il n'a pas travaillé.",
+            "phonetic": "/il ɔʁe py ʁeysiʁ ; ɔʁ, il n‿a pa tʁavaje/",
+            "translation": "Il aurait pu réussir; or, il n'a pas travaillé.",
+            "note": "‘Or’是正式论证中常用的对比标记语，不等同于‘o’（或）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Marqueurs de cause et de conséquence",
+        "translation": "原因与结果标记语",
+        "examples": [
+          {
+            "original": "Le trafic est dense ; par conséquent, nous arriverons en retard.",
+            "phonetic": "/lə tʁafik ɛ dɑ̃s ; paʁ kɔ̃sekɑ̃, nu aʁivʁɔ̃ ɑ̃ ʁətaʁ/",
+            "translation": "La circulation est dense; par conséquent, nous allons arriver en retard.",
+            "note": "‘Par conséquent’较正式；口语中更常用‘donc’（所以）。"
+          },
+          {
+            "original": "Étant donné les circonstances, nous avons reporté la réunion.",
+            "phonetic": "/etɑ̃ done le siʁkɔ̃stɑ̃s, nu avɔ̃ ʁəpɔʁte la ʁeynjɔ̃/",
+            "translation": "Étant donné les circonstances, nous avons reporté la réunion.",
+            "note": "‘Étant donné’后需接名词或代词，无动词变位。注意性数一致。"
+          },
+          {
+            "original": "Elle a réussi son examen grâce à son travail acharné.",
+            "phonetic": "/ɛl a ʁeysi sɔ̃n‿ɛgzamɛ̃ ɡʁas a sɔ̃ tʁavaj aʃaʁne/",
+            "translation": "Elle a réussi son examen grâce à son travail acharné.",
+            "note": "‘Grâce à’引入积极原因；消极原因用‘à cause de’（由于）。"
+          },
+          {
+            "original": "Nous avons dû annuler le vol ; en effet, la tempête était forte.",
+            "phonetic": "/nu avɔ̃ dy anyle lə vɔl ; ɑ̃n‿efɛ, la tɑ̃pɛt etɛ fɔʁt/",
+            "translation": "Nous avons dû annuler le vol; en effet, la tempête était violente.",
+            "note": "此处‘en effet’用于证明取消航班的理由，而非表达结果。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Marqueurs de reformulation et de concession",
+        "translation": "重述与让步标记语",
+        "examples": [
+          {
+            "original": "Le problème est complexe ; autrement dit, il nécessite une analyse approfondie.",
+            "phonetic": "/lə pʁɔblɛm ɛ kɔ̃plɛks ; otʁəmɑ̃ di, il nesesit yn‿analiz apʁɔfɔ̃di/",
+            "translation": "Le problème est complexe; autrement dit, il nécessite une analyse approfondie.",
+            "note": "‘Autrement dit’常用于重述观点；西班牙语中为‘en otras palabras’（换句话说）。"
+          },
+          {
+            "original": "Il a accepté l'offre, en d'autres termes, il est prêt à déménager.",
+            "phonetic": "/il a aksepte l‿ɔfʁ, ɑ̃ dotʁ tɛʁm, il ɛ pʁɛ a demenaʒe/",
+            "translation": "Il a accepté l'offre, en d'autres termes, il est prêt à déménager.",
+            "note": "比‘autrement dit’更正式的变体。"
+          },
+          {
+            "original": "Bien que le coût soit élevé, l'investissement en vaut la peine.",
+            "phonetic": "/bjɛ̃ kə lə ku swa elve, lɛ̃vɛstismɑ̃ ɑ̃ vo la pɛn/",
+            "translation": "Bien que le coût soit élevé, l'investissement en vaut la peine.",
+            "note": "‘Bien que’后需接虚拟式；常见错误是受西班牙语影响误用直陈式。"
+          },
+          {
+            "original": "Certes, les résultats sont satisfaisants, mais ils restent perfectibles.",
+            "phonetic": "/sɛʁt, le ʁezylta sɔ̃ satisfəzɑ̃, mɛ il ʁɛst pɛʁfɛktibl/",
+            "translation": "Certes, les résultats sont satisfaisants, mais ils restent perfectibles.",
+            "note": "‘Certes... mais’结构是典型的正式让步表达。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "zh": "衔接用高级话语标记语"
+    }
+  },
+  {
+    "id": "zh_C1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Atténuation et modalisation fine / 细致的缓和与弱化",
+    "bridge": "在西班牙语中，为了弱化陈述，我们使用虚拟式、条件式以及副词（如'quizás'或'posiblemente'）。在法语中，除了这些策略外，还频繁使用礼貌条件式和无人称结构（如'il semblerait que'或'il est possible que'），这些结构要求使用虚拟式。一个常见误区：西班牙语的'parece que'使用直陈式，但法语的'il semble que'根据语气（确定性vs.怀疑）可使用直陈式或虚拟式。",
+    "rule": "在C1水平表达法语中的弱化与细致缓和时，可使用以下策略：1) 在动词'pouvoir'、'devoir'、'vouloir'等后使用条件式现在时或过去时，表达假设或礼貌（如'Il aurait pu venir'——本可以来）。2) 使用无人称结构加虚拟式：'il est possible que'、'il semble que'（表怀疑时）、'il est peu probable que'。3) 使用情态副词：'peut-être'、'sans doute'、'apparemment'、'vraisemblablement'（在正式语体中需倒装或使用虚拟式）。4) 使用'条件式报道'表达未经证实的信息（如'Le président aurait signé'）。5) 使用弱化短语：'j'aurais tendance à penser'、'je dirais que'、'pour ainsi dire'、'en quelque sorte'。关键规则：表达怀疑或可能性时使用虚拟式，但'il me semble que'表确定性时用直陈式；'peut-être que'在口语中用直陈式，但在正式语体中需倒装：'Peut-être est-il…'。",
+    "concept_examples": [
+      {
+        "text": "Il semblerait que le projet soit déjà terminé.",
+        "translation": "在他看来，项目似乎已经完成了。",
+        "phonetic": "/il sɑ̃.bʁə.ʁɛ kə lə pʁɔ.ʒɛ swa de.ʒa tɛʁ.mi.ne/"
+      },
+      {
+        "text": "J'aurais tendance à penser qu'il vaut mieux attendre.",
+        "translation": "我倾向于认为更好等待。",
+        "phonetic": "/ʒ‿o.ʁɛ tɑ̃.dɑ̃s a pɑ̃.se k‿il vo mjø a.tɑ̃dʁ/"
+      },
+      {
+        "text": "Peut-être serait-il plus sage de reporter la réunion.",
+        "translation": "也许推迟会议会更谨慎。",
+        "phonetic": "/pø.t‿ɛt sə.ʁe.t‿il ply saʒ də ʁə.pɔʁ.te la ʁe.y.njɔ̃/"
+      },
+      {
+        "text": "Le directeur aurait accepté la proposition, selon certaines sources.",
+        "translation": "据某些消息来源，主任可能已经接受了提议。",
+        "phonetic": "/lə di.ʁɛk.tœʁ o.ʁe ak.sɛp.te la pʁɔ.po.zi.sjɔ̃ sə.lɔ̃ sɛʁ.tɛn suʁs/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Il semble que le problème est résolu.",
+      "correct": "Il semble que le problème soit résolu.",
+      "correct_alt": "Il me semble que le problème est résolu.",
+      "explanation": "错误的原因在于西班牙语中'parece que'使用直陈式（'Parece que el problema está resuelto'）。而在法语中，'il semble que'表达怀疑或弱化时必须使用虚拟式；只有表达确定性时（如'il me semble que'）才使用直陈式。为避免此类错误，需判断陈述是表达确定性还是怀疑：若表怀疑，则使用虚拟式。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Conditionnel de politesse et d'hypothèse",
+        "translation": "礼貌条件式与假设",
+        "examples": [
+          {
+            "original": "Je voudrais vous demander un conseil.",
+            "phonetic": "/ʒə vu.dʁɛ vu də.mɑ̃.de œ̃ kɔ̃.sɛj/",
+            "translation": "我想向您请教一个建议。",
+            "note": "礼貌条件式弱化了请求语气；在西班牙语中也使用条件式（'querría'）或'quisiera'。"
+          },
+          {
+            "original": "Tu pourrais m'aider à préparer cette présentation ?",
+            "phonetic": "/ty pu.ʁɛ m‿ɛ.de a pʁe.pa.ʁe sɛt pʁe.zɑ̃.ta.sjɔ̃/",
+            "translation": "您能帮我准备这份演示文稿吗？",
+            "note": "条件式'pourrais'比'peux'更礼貌。在西班牙语中也类似使用条件式，但有时用委婉过去式（'¿podías?'），在法语中较少见。"
+          },
+          {
+            "original": "Il aurait pu prendre un autre train.",
+            "phonetic": "/il o.ʁe py pʁɑ̃dʁ œ̃ o.tʁə tʁɛ̃/",
+            "translation": "他本来可以搭乘另一班火车。",
+            "note": "条件式过去时（aurait pu）表达过去未实现的假设，相当于西班牙语的条件式复合过去时。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Structures impersonnelles avec le subjonctif",
+        "translation": "带虚拟式的无人称结构",
+        "examples": [
+          {
+            "original": "Il est possible qu'elle vienne demain.",
+            "phonetic": "/il ɛ pɔ.sibl k‿ɛl vjɛn də.mɛ̃/",
+            "translation": "有可能她明天会来。",
+            "note": "在'il est possible que'后使用虚拟式，与西班牙语（'es posible que venga'）一致。"
+          },
+          {
+            "original": "Il semble que les négociations soient au point mort.",
+            "phonetic": "/il sɑ̃bl kə le ne.ɡɔ.sja.sjɔ̃ swa o pwɛ̃ mɔʁ/",
+            "translation": "看起来谈判陷入了僵局。",
+            "note": "当'il semble que'表达怀疑时，使用虚拟式；而'il me semble que'表达个人判断时使用直陈式。"
+          },
+          {
+            "original": "Il est peu probable que nous ayons le temps.",
+            "phonetic": "/il ɛ pø pʁɔ.babl kə nu.z‿ɛ.jɔ̃ lə tɑ̃/",
+            "translation": "我们不太可能有时间。",
+            "note": "注意'il est peu probable que'要求使用虚拟式，与西班牙语一致。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Adverbes et locutions de modalisation",
+        "translation": "弱化副词与短语",
+        "examples": [
+          {
+            "original": "Peut-être devrions-nous revoir notre stratégie.",
+            "phonetic": "/pø.t‿ɛt də.vʁi.jɔ̃ nu ʁə.vwaʁ nɔtʁ stʁa.te.ʒi/",
+            "translation": "也许我们应该重新审视策略。",
+            "note": "在正式语体中，'peut-être'需要主谓倒装。西班牙语中无需强制倒装。"
+          },
+          {
+            "original": "Apparemment, il n'y a plus aucun espoir.",
+            "phonetic": "/a.pa.ʁa.mɑ̃ il n‿j a ply o.kœ̃ ɛs.pwaʁ/",
+            "translation": "表面上，已经没有任何希望了。",
+            "note": "'Apparemment'可弱化陈述，类似于西班牙语的'al parecer'。"
+          },
+          {
+            "original": "Pour ainsi dire, ce projet est un échec.",
+            "phonetic": "/pu.ʁ‿ɛ̃.si diʁ sə pʁɔ.ʒɛ ɛ.t‿œ̃.n‿e.ʃɛk/",
+            "translation": "可以说，这个项目是个失败。",
+            "note": "该短语用于缓和强硬陈述，相当于西班牙语的'por así decirlo'。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "zh": "细致的缓和与弱化"
+    }
+  },
+  {
+    "id": "zh_C1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Patrones verbales complejos / 动词模式",
+    "bridge": "在西班牙语中，直接宾语和间接宾语代词通常可以相对自由地组合在同一动词上（例如，‘se lo di’ vs ‘le lo di’是错误的），但在法语中，非重读代词的顺序更加严格，并且会根据动词的语式（肯定、命令、否定）而变化。此外，在法语中，当直接宾语位于动词前时，过去分词会与之配合，这是西班牙语中不存在的现象。另一个关键对比是，像‘penser’或‘croire’这样的法语动词需要不同的结构（通常带‘à’ + 不定式或‘que’ + 虚拟式），而在西班牙语中，这些动词更直接地使用不定式或陈述式。",
+    "rule": "在法语中，直接宾语代词（me, te, le, la, nous, vous, les）和间接宾语代词（me, te, lui, nous, vous, leur）在大多数时态中位于动词前，遵循以下结构：主语 + (ne) + 代词 + 动词（在复合时态中：助动词 + 过去分词）。代词的顺序是：1. 直接宾语（me/te/se/nous/vous）和2. 间接宾语（lui/leur），但在肯定命令式中，它们位于动词后，且间接宾语代词使用‘moi/toi/lui’。在否定句中，代词位于动词前。当有两个代词时，直接宾语位于间接宾语前，除了‘lui’和‘leur’这两个代词总是位于直接宾语后（例如，‘le lui’、‘la leur’）。在肯定命令式中，顺序反转：动词 + 直接宾语代词 + 间接宾语代词，用连字符连接。当直接宾语位于复合时态动词前时，过去分词需要配合：‘Je les ai vus’（我看到了他们）vs. ‘Je leur ai parlé’（我和他们说话了）。典型用法包括支配‘à’的动词（parler à, téléphoner à, demander à）和支配‘de’的动词（avoir besoin de, se souvenir de, se méfier de）。在C1级别，掌握代词的组合（如‘se le’、‘le lui’、‘me le’等）以及与西班牙语的区别（西班牙语中‘se’用于避免拗口）至关重要。",
+    "concept_examples": [
+      {
+        "text": "Je le lui ai donné.",
+        "translation": "我把它给了他/她。",
+        "phonetic": "/ʒə lə lɥi e dɔne/"
+      },
+      {
+        "text": "Elle me l'a expliqué.",
+        "translation": "她给我解释了这件事。",
+        "phonetic": "/ɛl mə l‿a ɛksplike/"
+      },
+      {
+        "text": "Donne-le-lui !",
+        "translation": "把它给他！",
+        "phonetic": "/dɔn lə lɥi/"
+      },
+      {
+        "text": "J'y pense souvent.",
+        "translation": "我经常想到这件事。",
+        "phonetic": "/ʒ‿i pɑ̃s suvɑ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je lui le donne (para decir 'se lo doy' en lugar de 'je le lui donne')",
+      "correct": "Je le lui donne.",
+      "correct_alt": "Je le lui donne (sin alternativa alternativa, pero se puede enfatizar: 'C'est à lui que je le donne')",
+      "explanation": "这个错误的发生是因为西班牙语使用‘se lo’结构，其中‘se’是间接宾语代词，‘lo’是直接宾语代词，但法语的顺序总是直接宾语在前，间接宾语在后。西班牙语使用者倾向于将西班牙语的顺序迁移到法语中，但在法语中顺序相反：先直接宾语（le, la, les），再间接宾语（lui, leur）。为避免这个错误，请记住记忆法：‘直接在前，间接在后’，并练习使用‘donner’、‘envoyer’、‘montrer’等动词。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ordre des pronoms compléments",
+        "translation": "宾语代词的顺序",
+        "examples": [
+          {
+            "original": "Je te le montre.",
+            "phonetic": "/ʒə tə lə mɔ̃tʁ/",
+            "translation": "我给你看它。",
+            "note": "在法语中，间接宾语代词（te）在前，直接宾语代词（le）在后，与西班牙语‘te lo’的顺序不同，但有时可能会与‘se lo’混淆。"
+          },
+          {
+            "original": "Il nous la raconte.",
+            "phonetic": "/il nu la ʁakɔ̃t/",
+            "translation": "他给我们讲述了它。",
+            "note": "顺序：nos（OI）+ la（OD）+ 动词。在西班牙语中也是‘nos la cuenta’相同的顺序，但要注意复合时态中的过去分词配合。"
+          },
+          {
+            "original": "Tu me les prêtes ?",
+            "phonetic": "/ty mə le pʁɛt/",
+            "translation": "你能把它们借给我吗？",
+            "note": "这里‘me’是OI，‘les’是OD。在西班牙语中我们说‘me los prestas’顺序相同，但在法语中，如果是复合过去时，过去分词会配合。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pronoms combinés avec l'impératif",
+        "translation": "代词与命令式的组合",
+        "examples": [
+          {
+            "original": "Offre-le-moi !",
+            "phonetic": "/ɔfʁə lə mwa/",
+            "translation": "把它给我！",
+            "note": "在肯定命令式中，代词位于动词后，用连字符连接，顺序反转：OD + OI，这里‘le’（OD）在‘moi’（OI）前。"
+          },
+          {
+            "original": "Expliquez-la-leur !",
+            "phonetic": "/ɛksplike la lœʁ/",
+            "translation": "给他们解释它！",
+            "note": "这里顺序是OD（la）+ OI（leur）。在西班牙语中会说‘explíquensela’用一个代词，但在法语中会拆分。"
+          },
+          {
+            "original": "Ne me le dis pas !",
+            "phonetic": "/nə mə lə di pa/",
+            "translation": "别告诉我！",
+            "note": "在否定命令式中，代词像陈述式一样位于动词前，‘me’在‘le’（OI）前，尽管这里‘me’和‘le’分别是第一人称和第三人称代词，顺序仍遵循相同规则。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbes avec prépositions et pronoms y/en",
+        "translation": "带介词和代词的动词（à/en）",
+        "examples": [
+          {
+            "original": "J'y pense souvent.",
+            "phonetic": "/ʒ‿i pɑ̃s suvɑ̃/",
+            "translation": "我经常想到这件事。",
+            "note": "动词‘penser à’使用代词‘y’代替‘à + 某物’。在西班牙语中‘pensar en’可以用‘ello’，但没有直接对应。"
+          },
+          {
+            "original": "Il en parle beaucoup.",
+            "phonetic": "/il ɑ̃ paʁl boku/",
+            "translation": "他经常谈论那件事。",
+            "note": "动词‘parler de’使用代词‘en’代替‘de + 某物’。在西班牙语中，‘hablar de eso’可以说，但‘en’的使用更具体。"
+          },
+          {
+            "original": "Elle s'y est habituée.",
+            "phonetic": "/ɛl s‿i e ɛ̃te/",
+            "translation": "她已经习惯了那件事。",
+            "note": "这里‘y’代替‘à + 某物’，且过去分词‘habituée’与主语配合，因为没有明确的直接宾语。"
+          },
+          {
+            "original": "Nous en avons parlé.",
+            "phonetic": "/nu z‿ɑ̃ n‿avɔ̃ paʁle/",
+            "translation": "我们已经谈论过那件事。",
+            "note": "使用‘en’时，过去分词不配合，因为‘en’不是具体的直接宾语；被视为副词性代词。在西班牙语中，‘hablar de ello’。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "zh": "动词模式"
+    }
+  },
+  {
+    "id": "zh_C1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "动词时态与体貌的细微差别 / Matices entre tiempos y aspectos verbales",
+    "bridge": "在西班牙语中，简单过去时与过去未完成时的区分至关重要，法语中也有类似的对应关系，即‘复合过去时’（passé composé）与‘未完成过去时’（imparfait）。然而，在法语中，‘复合过去时’用于表达明确的、连续的动作，而‘未完成过去时’则用于描述过去的状态、习惯或进行中的动作。一个常见的陷阱是：西班牙语使用者往往在需要使用‘未完成过去时’描述背景时错误地使用‘复合过去时’，反之亦然。此外，‘过去先过去时’（plus-que-parfait，相当于西班牙语的过去完成时）和‘简单过去时’（passé simple，文学体）需要特别注意，因为它们在语域和使用频率上与西班牙语有所不同。",
+    "rule": "在法语中，过去时态的使用根据动作的体貌（aspect）进行区分：‘未完成过去时’（imparfait）用于表达无限定的动作（习惯、描述、状态），而‘复合过去时’（passé composé）用于表达有限定的、明确的和连续的动作。‘过去先过去时’（plus-que-parfait）表示相对于另一个过去动作的更早动作，相当于西班牙语的过去完成时。‘简单过去时’（passé simple）是文学叙事体的时态，在正式书面叙述中取代‘复合过去时’，但在口语中较少使用。此外，还需考虑极为书面化的‘先过去时’（passé antérieur）以及‘先将来时’（futur antérieur）和‘条件式过去时’（conditionnel passé）在表达假设时的细微差别。对于C1水平的学习者，必须能够在叙事和描述语境中区分完整体（动作已完成）与未完成体（动作进行中），并掌握间接引语中的时态使用。",
+    "concept_examples": [
+      {
+        "text": "Quand j'étais jeune, je jouais au tennis tous les étés.",
+        "translation": "当我年轻时，每年夏天都会去打网球。",
+        "phonetic": "/kɑ̃ ʒ‿etɛ ʒœn | ʒə ʒwɛ o tɛnis tu lez‿ɛte/"
+      },
+      {
+        "text": "Hier, j'ai rencontré Marie et nous avons parlé pendant des heures.",
+        "translation": "昨天，我遇到了玛丽亚，我们聊了好几个小时。",
+        "phonetic": "/jɛʁ | ʒ‿e ʁɑ̃kɔ̃tʁe maʁi e nu zavɔ̃ paʁle pɑ̃dɑ̃ dez‿œʁ/"
+      },
+      {
+        "text": "Il pleuvait quand je suis sorti de la maison.",
+        "translation": "我出门时正在下雨。",
+        "phonetic": "/il pløvɛ kɑ̃ ʒə sɥi sɔʁti də la mɛzɔ̃/"
+      },
+      {
+        "text": "Elle avait déjà fini son travail quand le chef est arrivé.",
+        "translation": "当老板到达时，她已经完成了工作。",
+        "phonetic": "/ɛl avɛ deʒa fini sɔ̃ tʁavaj kɑ̃ lə ʃɛf ɛt‿aʁive/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Je suis fatigué parce que je travaillais toute la journée.",
+      "correct": "Je suis fatigué parce que j'ai travaillé toute la journée.",
+      "correct_alt": "Je suis fatigué parce que j'avais travaillé toute la journée (implique une cause antérieure à un moment passé, moins naturel ici).",
+      "explanation": "错误产生的原因在于：在西班牙语中，表达持续一段时间的动作时会使用过去未完成时‘trabajaba’，但在法语中，当动作被明确限定（如‘整整一天’）时，其体貌为完成体，因此应使用‘复合过去时’。若要描述未限定的进行动作，则应使用‘未完成过去时’。关键在于区分全局体貌（动作完成）与进行体貌。此处，‘工作’这一动作是有限定且已完成的，因此‘passé composé’是正确的。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Imparfait vs. Passé composé",
+        "translation": "未完成过去时 vs. 复合过去时",
+        "examples": [
+          {
+            "original": "Quand j'étais enfant, je visitais souvent mes grands-parents.",
+            "phonetic": "/kɑ̃ ʒ‿etɛ ɑ̃fɑ̃ | ʒə vizitɛ suvɑ̃ me gʁɑ̃ paʁɑ̃/",
+            "translation": "当我还是孩子时，经常去看望祖父母。",
+            "note": "未完成过去时表达过去的习惯，与西班牙语用法相同。"
+          },
+          {
+            "original": "Hier, j'ai visité le musée du Louvre.",
+            "phonetic": "/jɛʁ | ʒ‿e vizite lə myze dy luvʁ/",
+            "translation": "昨天，我参观了卢浮宫。",
+            "note": "复合过去时表示明确且已完成的动作，并带有时间标记。"
+          },
+          {
+            "original": "Comme il faisait beau, nous avons décidé de marcher.",
+            "phonetic": "/kɔm il fəzɛ bo | nu zavɔ̃ deside də maʁʃe/",
+            "translation": "由于天气好，我们决定步行。",
+            "note": "未完成过去时建立背景（描述），而复合过去时表达主要动作。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Plus-que-parfait vs. Passé composé",
+        "translation": "过去完成时 vs. 复合过去时",
+        "examples": [
+          {
+            "original": "J'avais déjà mangé quand ils sont arrivés.",
+            "phonetic": "/ʒ‿avɛ deʒa mɑ̃ʒe kɑ̃ il sɔ̃t‿aʁive/",
+            "translation": "他们到达时，我已经吃过饭了。",
+            "note": "过去完成时表达相对于复合过去时的先时性，与西班牙语用法相同。"
+          },
+          {
+            "original": "Elle n'a pas pu venir parce qu'elle avait perdu la clé.",
+            "phonetic": "/ɛl n‿a pa py vəniʁ paʁsk‿ɛl avɛ pɛʁdy la kle/",
+            "translation": "她没能来，因为钥匙丢了。",
+            "note": "‘丢钥匙’这一动作先于‘没能来’，过去完成时对此进行明确。"
+          },
+          {
+            "original": "Quand je suis arrivé, le film avait déjà commencé.",
+            "phonetic": "/kɑ̃ ʒə sɥi zaʁive | lə film avɛ deʒa kɔmɑ̃se/",
+            "translation": "当我到达时，电影已经开始了。",
+            "note": "过去完成时将‘开始’这一动作置于‘到达’之前，而‘到达’使用复合过去时。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Passé simple et récit littéraire",
+        "translation": "简单过去时与文学叙事",
+        "examples": [
+          {
+            "original": "Il prit la lettre et la déchira sans un mot.",
+            "phonetic": "/il pʁi la lɛtʁ e la deʃiʁa sɑ̃z‿œ̃ mo/",
+            "translation": "他拿起信，一言不发地撕碎了。",
+            "note": "在文学作品中，简单过去时（相当于西班牙语的简单过去时）用于表达连续动作；口语中不使用。注意第三人称形式：prit（拿起）和déchira（撕碎）。"
+          },
+          {
+            "original": "Tout à coup, le ciel s'obscurcit et un vent violent se leva.",
+            "phonetic": "/tu ta ku | lə sjɛl s‿ɔpskyʁsi e œ̃ vɑ̃ vjɔlɑ̃ sə ləva/",
+            "translation": "突然间，天空变暗，一阵狂风刮起。",
+            "note": "简单过去时在叙事中描述明确事件，类似于西班牙语的简单过去时，但仅限于正式/文学语域。"
+          },
+          {
+            "original": "Pendant ce temps, les habitants de la ville dormaient paisiblement.",
+            "phonetic": "/pɑ̃dɑ̃ sə tɑ̃ | lez‿abitɑ̃ də la vil dɔʁmɛ pɛzibləmɑ̃/",
+            "translation": "与此同时，城市居民正在安睡。",
+            "note": "在叙事中，未完成过去时用于背景描述，而简单过去时用于主要事件。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "zh": "动词时态与体貌的细微差别"
+    }
+  },
+  {
+    "id": "zh_C1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Les passives avancées / 被动语态高级用法",
+    "bridge": "在西班牙语中，我们使用无人称结构（如‘se’）或‘se cree que’等句式来表达观点或传闻。而在法语中，这些结构通常由‘il est + participe passé’或‘on dit que’构成。两者的主要区别在于：法语使用无人称代词‘il’，并且过去分词需要与主语保持性数一致（这在西班牙语中并不存在）。注意区分‘il est’ + 形容词与‘il est’ + 过去分词，以避免混淆被动语态与表语结构。",
+    "rule": "法语中的高级被动语态用于表达观点、信念或传闻。主要结构包括：(1) ‘il est + participe passé + que’（例如：il est dit que），(2) ‘il est + 形容词 + de + 不定式’（例如：il est difficile de），(3) 无人称‘on’（例如：on dit que），以及(4) 表达观点的动词构成的无人称被动语态（例如：il est considéré comme）。当逻辑主语出现时，过去分词需与之保持性数一致（例如：elles sont dites intelligentes）。在含‘que’的句子中，若主句动词表达怀疑，则从句使用虚拟式；若表达确定性，则使用直陈式。使用‘on’时，动词始终为第三人称单数。避免将西班牙语的‘se cree’直译为‘se croit’，应使用‘on croit’或‘il est cru que’。",
+    "concept_examples": [
+      {
+        "text": "Il est dit que le président va démissionner.",
+        "translation": "据说总统将辞职。",
+        "phonetic": "/il‿e di kə lə pʁe.zi.dɑ̃ va de.mi.sjɔ.ne/"
+      },
+      {
+        "text": "On considère que cette décision est importante.",
+        "translation": "人们认为这个决定很重要。",
+        "phonetic": "/ɔ̃ kɔ̃.si.dɛʁ kə sɛt de.si.zjɔ̃ ɛt‿ɛ̃.pɔʁ.tɑ̃t/"
+      },
+      {
+        "text": "Il est difficile de comprendre cette théorie.",
+        "translation": "这个理论很难理解。",
+        "phonetic": "/il‿e di.fi.sil də kɔ̃.pʁɑ̃dʁ sɛt te.ɔ.ʁi/"
+      },
+      {
+        "text": "Les résultats sont dits satisfaisants.",
+        "translation": "结果据说令人满意。",
+        "phonetic": "/le ʁe.zyl.ta sɔ̃ di sa.tis.fə.zɑ̃/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Se croit que le changement est nécessaire.",
+      "correct": "On croit que le changement est nécessaire.",
+      "correct_alt": "Il est cru que le changement est nécessaire.",
+      "explanation": "在西班牙语中，‘se cree’由代词‘se’构成。而在法语中，没有直接对应的表达方式；应使用‘on’（意为‘人们’）或无人称结构‘il est + participe passé’。直接使用‘se croit’是西班牙语的直译，在法语中是错误的。‘on’是法语中最常见、最自然的表达无人称概念的方式。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Voice passive impersonnelle avec 'il est'",
+        "translation": "使用‘il est’的无人称被动语态",
+        "examples": [
+          {
+            "original": "Il est annoncé que les prix vont augmenter.",
+            "phonetic": "/il‿e.t‿a.nɔ̃.se kə le pʁi vɔ̃ oɡ.mɑ̃.te/",
+            "translation": "据宣布，物价将上涨。",
+            "note": "使用‘il est + participe passé’表达传闻或公告。"
+          },
+          {
+            "original": "Il est estimé que plus de mille personnes ont participé.",
+            "phonetic": "/il‿e.t‿ɛs.ti.me kə ply də mil pɛʁ.sɔn ɔ̃ paʁ.ti.si.pe/",
+            "translation": "据估计，超过一千人参与了活动。",
+            "note": "过去分词‘estimé’与‘il’（阳性单数）保持一致。"
+          },
+          {
+            "original": "Il est supposé que le projet sera terminé en juin.",
+            "phonetic": "/il‿e sy.po.ze kə lə pʁɔ.ʒɛ sə.ʁa tɛʁ.mi.ne ɑ̃ ʒɥɛ̃/",
+            "translation": "据推测，项目将在六月完成。",
+            "note": "根据语境，‘supposer’后可使用直陈式或虚拟式。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Voix passive avec 'on'",
+        "translation": "使用‘on’的被动语态",
+        "examples": [
+          {
+            "original": "On dit que la mer est belle aujourd'hui.",
+            "phonetic": "/ɔ̃ di kə la mɛʁ e bɛl o.ʒuʁ.dɥi/",
+            "translation": "据说今天大海很美。",
+            "note": "‘on’作为泛指主语，用于表达普遍观点。"
+          },
+          {
+            "original": "On croit que les extraterrestres existent.",
+            "phonetic": "/ɔ̃ kʁwa kə le ɛk.stʁa.tɛ.ʁɛs.tʁ‿ɛɡ.zist/",
+            "translation": "人们相信外星人存在。",
+            "note": "动词‘croire’后接‘que’和直陈式，因为表达的是信念。"
+          },
+          {
+            "original": "On raconte que ce château est hanté.",
+            "phonetic": "/ɔ̃ ʁa.kɔ̃t kə sə ʃa.to e ɑ̃.te/",
+            "translation": "据说这座城堡闹鬼。",
+            "note": "‘on raconte’用于叙述传说或故事。"
+          },
+          {
+            "original": "On prétend qu'il a gagné le prix.",
+            "phonetic": "/ɔ̃ pʁe.tɑ̃ kil‿a ɡa.ɲe lə pʁi/",
+            "translation": "据说他赢得了奖项。",
+            "note": "在法语中，‘prétendre’可以表示未经证实的断言。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Passive avec verbes de perception et d'opinion",
+        "translation": "使用表达感知和观点的动词构成的被动语态",
+        "examples": [
+          {
+            "original": "Cette théorie est considérée comme complexe.",
+            "phonetic": "/sɛt te.ɔ.ʁi e kɔ̃.si.de.ʁe kɔm kɔ̃.plɛks/",
+            "translation": "这个理论被认为很复杂。",
+            "note": "使用‘être considéré comme’ + 形容词；过去分词与主语保持一致。"
+          },
+          {
+            "original": "Les résultats sont jugés insuffisants.",
+            "phonetic": "/le ʁe.zyl.ta sɔ̃ ʒy.ʒe ɛ̃.sy.fi.zɑ̃/",
+            "translation": "结果被评定为不足。",
+            "note": "过去分词‘jugés’与‘résultats’（阳性复数）保持一致。"
+          },
+          {
+            "original": "Elle est reconnue comme une experte.",
+            "phonetic": "/ɛl e ʁə.kɔ.ny kɔm yn ɛk.spɛʁt/",
+            "translation": "她被公认为专家。",
+            "note": "过去分词‘reconnue’与阴性主语‘elle’保持一致。"
+          },
+          {
+            "original": "On a été surpris de l'annonce.",
+            "phonetic": "/ɔ̃ a e.te syʁ.pʁi də la.nɔ̃s/",
+            "translation": "这个公告让我们感到惊讶。",
+            "note": "注意：结构‘être surpris de’相当于西班牙语的‘sorprenderse de’。"
+          }
+        ]
+      }
+    ],
+    "emoji": "📣",
+    "phonetic": "",
+    "translations": {
+      "zh": "被动语态高级用法"
+    }
+  }
+]

@@ -1,0 +1,1319 @@
+[
+  {
+    "id": "ru_A1_conv_01",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": "Купить футболку в магазине",
+    "conversation": {
+      "vocabulary": [
+        {
+          "verb": "kaufen",
+          "form": "kaufe/kauft",
+          "meaning": "comprar"
+        },
+        {
+          "verb": "wollen",
+          "form": "will/willst",
+          "meaning": "querer"
+        },
+        {
+          "verb": "brauchen",
+          "form": "brauche/braucht",
+          "meaning": "necesitar"
+        },
+        {
+          "verb": "haben",
+          "form": "habe/hat",
+          "meaning": "tener"
+        },
+        {
+          "verb": "sehen",
+          "form": "sehe/sieht",
+          "meaning": "ver"
+        },
+        {
+          "verb": "anprobieren",
+          "form": "probiere an/probiert an",
+          "meaning": "probarse (ropa)"
+        },
+        {
+          "verb": "passen",
+          "form": "passt",
+          "meaning": "quedar bien (ropa)"
+        },
+        {
+          "verb": "gefallen",
+          "form": "gefällt",
+          "meaning": "gustar"
+        },
+        {
+          "verb": "kosten",
+          "form": "kostet",
+          "meaning": "costar"
+        },
+        {
+          "verb": "nehmen",
+          "form": "nehme/nimmt",
+          "meaning": "tomar / llevarse"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Verkäuferin",
+          "text": "Hallo. Kann ich Ihnen helfen?",
+          "translation": "Hola. ¿Puedo ayudarle?",
+          "note": "Ofrecimiento de ayuda en la tienda; forma formal 'Ihnen'."
+        },
+        {
+          "speaker": "Kunde",
+          "text": "Ja, ich möchte ein T-Shirt kaufen.",
+          "translation": "Sí, quisiera comprar una remera.",
+          "note": "'Möchte' es la forma cortés de 'querer', muy usada al pedir cosas."
+        },
+        {
+          "speaker": "Verkäuferin",
+          "text": "Welche Größe brauchen Sie?",
+          "translation": "¿Qué talle necesita?",
+          "note": "'Welche' (cuál/qué) concuerda en género con 'Größe' (femenino)."
+        },
+        {
+          "speaker": "Kunde",
+          "text": "Ich brauche Größe M. Darf ich es anprobieren?",
+          "translation": "Necesito el talle M. ¿Puedo probármela?",
+          "note": "'Darf ich...?' es la forma habitual para pedir permiso."
+        },
+        {
+          "speaker": "Verkäuferin",
+          "text": "Natürlich. Die Umkleidekabine ist dort.",
+          "translation": "Por supuesto. El probador está ahí.",
+          "note": "'Die Umkleidekabine' = el probador (palabra compuesta, típica del alemán)."
+        },
+        {
+          "speaker": "Kunde",
+          "text": "Es passt gut. Was kostet es?",
+          "translation": "Me queda bien. ¿Cuánto cuesta?",
+          "note": "'Es passt' (queda bien) se usa siempre en singular, sin importar la prenda."
+        },
+        {
+          "speaker": "Verkäuferin",
+          "text": "Es kostet zwanzig Euro.",
+          "translation": "Cuesta veinte euros.",
+          "note": "Los números en alemán van antes del sustantivo, como en español."
+        },
+        {
+          "speaker": "Kunde",
+          "text": "Gut, ich nehme es.",
+          "translation": "Bien, me la llevo.",
+          "note": "Frase típica para cerrar una compra."
+        }
+      ]
+    },
+    "translations": {
+      "ru": "Купить футболку в магазине"
+    }
+  },
+  {
+    "id": "ru_A1_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "В аэропорту / En el aeropuerto",
+    "bridge": "В испанском языке мы используем 'tener que' для выражения обязанности, но в немецком используется 'müssen' (должен) и спрягается оно по-другому. Кроме того, в немецком языке в повествовательных предложениях глагол стоит на втором месте, а в вопросах с 'wo' (где) — на первом. В аэропорту вам понадобятся фразы типа 'Ich muss' (я должен) и 'Wo ist' (где находится?). Также в немецком языке существительные имеют род (der, die, das), что влияет на артикли, — этого нет в испанском языке.",
+    "rule": "Для выражения необходимости или обязанности используется модальный глагол 'müssen'. Спряжение в настоящем времени: ich muss, du musst, er/sie/es muss, wir müssen, ihr müsst, sie müssen. В главном предложении он стоит на втором месте, а основной глагол — в конце в инфинитиве. Пример: 'Ich muss zum Flughafen gehen.' (Я должен поехать в аэропорт). Чтобы спросить о местонахождении, используем 'Wo ist...?' (Где находится...?) с глаголом на первом месте. В немецком языке у существительных есть артикли: der (мужской род), die (женский род), das (средний род). Примеры: der Flughafen, die Bordkarte, das Gepäck. В аэропорту часто используется формальный повелительный наклон 'Bitte' (пожалуйста) для вежливости.",
+    "concept_examples": [
+      {
+        "text": "Ich muss zum Flughafen.",
+        "translation": "Я должен поехать в аэропорт.",
+        "phonetic": "ɪç mʊs tsʊm ˈfluːkhaːfən"
+      },
+      {
+        "text": "Wo ist der Flughafen?",
+        "translation": "Где находится аэропорт?",
+        "phonetic": "voː ɪst deːɐ̯ ˈfluːkhaːfən"
+      },
+      {
+        "text": "Ich habe eine Bordkarte.",
+        "translation": "У меня есть посадочный талон.",
+        "phonetic": "ɪç ˈhaːbə ˈaɪnə ˈbɔʁtkaʁtə"
+      },
+      {
+        "text": "Das Gepäck ist schwer.",
+        "translation": "Багаж тяжёлый.",
+        "phonetic": "das ɡəˈpɛk ɪst ʃveːɐ̯"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo necesito ir al aeropuerto. (literal)",
+      "correct": "Ich muss zum Flughafen gehen.",
+      "correct_alt": "Ich muss zum Flughafen.",
+      "explanation": "В испанском языке часто используется 'necesitar' (нужно) для выражения обязанности, но в немецком 'müssen' — наиболее употребительный модальный глагол. Дословный перевод 'necesitar' как 'brauchen' (тоже означает 'нужно') может привести к неправильной фразе, так как 'brauchen' требует прямого дополнения и не используется как модальный глагол в этом контексте. Вместо этого используйте 'müssen' с инфинитивом основного глагола (ехать = gehen)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Am Schalter / En el mostrador",
+        "translation": "На стойке регистрации",
+        "examples": [
+          {
+            "original": "Ich muss einchecken.",
+            "phonetic": "ɪç mʊs ˈaɪnˌtʃɛkən",
+            "translation": "Я должен зарегистрироваться.",
+            "note": "Используйте 'müssen' для выражения необходимости. Глагол 'einchecken' отделяемый, в предложении он разделяется: 'Ich checke ein' в настоящем времени."
+          },
+          {
+            "original": "Wo ist der Schalter?",
+            "phonetic": "voː ɪst deːɐ̯ ˈʃaltɐ",
+            "translation": "Где находится стойка регистрации?",
+            "note": "Вопрос о местонахождении с 'wo' и глаголом на первом месте."
+          },
+          {
+            "original": "Ich habe eine Reservierung.",
+            "phonetic": "ɪç ˈhaːbə ˈaɪnə ʁezɛʁˈviːʁʊŋ",
+            "translation": "У меня есть бронь.",
+            "note": "Используйте 'haben' (иметь), как в испанском. Обратите внимание на артикль 'eine' (одна) для женского рода."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Sicherheitskontrolle / Control de seguridad",
+        "translation": "Контроль безопасности",
+        "examples": [
+          {
+            "original": "Mein Pass, bitte.",
+            "phonetic": "maɪn pas ˈbɪtə",
+            "translation": "Мой паспорт, пожалуйста.",
+            "note": "'Pass' — мужской род (der Pass), здесь используется 'mein' (мой). В коротких фразах порядок слов гибкий."
+          },
+          {
+            "original": "Wo ist die Sicherheitskontrolle?",
+            "phonetic": "voː ɪst diː ˈzɪçɐhaɪtskɔnˌtʁɔlə",
+            "translation": "Где находится контрольно-пропускной пункт?",
+            "note": "Слово 'Sicherheitskontrolle' составное (безопасность+контроль). Артикль — 'die' (женский род)."
+          },
+          {
+            "original": "Ich muss mein Gepäck öffnen.",
+            "phonetic": "ɪç mʊs maɪn ɡəˈpɛk ˈœfnən",
+            "translation": "Я должен открыть свой багаж.",
+            "note": "Помните, что 'müssen' + инфинитив в конце. 'öffnen' — правильный глагол."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Am Gate / En la puerta de embarque",
+        "translation": "У выхода на посадку",
+        "examples": [
+          {
+            "original": "Wann ist das Boarding?",
+            "phonetic": "van ɪst das ˈbɔʁdɪŋ",
+            "translation": "Когда посадка?",
+            "note": "Используйте 'wann' (когда) для вопросов о времени. 'Boarding' используется как заимствование из английского."
+          },
+          {
+            "original": "Ich muss einsteigen.",
+            "phonetic": "ɪç mʊs ˈaɪnˌʃtaɪɡən",
+            "translation": "Я должен сесть в самолёт.",
+            "note": "'einsteigen' — отделяемый глагол: 'Ich steige ein' в настоящем времени. Здесь с 'müssen' используется инфинитив."
+          },
+          {
+            "original": "Wo ist das Gate?",
+            "phonetic": "voː ɪst das ɡeːt",
+            "translation": "Где находится выход?",
+            "note": "'Gate' используется в немецком (средний род, das Gate). Учите международные слова."
+          }
+        ]
+      }
+    ],
+    "emoji": "✈️",
+    "phonetic": "",
+    "translations": {
+      "ru": "В аэропорту"
+    }
+  },
+  {
+    "id": "ru_A1_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "В отеле / En el hotel",
+    "bridge": "В испанском языке мы обычно используем глаголы 'tener' или 'estar' для выражения потребностей и местонахождения (например, 'tengo una reserva' — у меня есть бронь, 'estoy en la habitación' — я в номере). В немецком языке для выражения владения используется 'haben', а для состояния — 'sein', но также есть свои структуры, такие как 'Ich möchte' (я бы хотел) для вежливой просьбы. Важное отличие: в немецком языке есть формальное (Sie) и неформальное (du) обращение к собеседнику; в отеле всегда следует использовать 'Sie' для демонстрации уважения. Кроме того, в предложениях с модальными глаголами порядок слов меняется: спрягаемый глагол ставится на второе место, а инфинитив — в конец (например, 'Ich möchte ein Zimmer reservieren' — Я бы хотел забронировать номер). Обращай внимание на артикли: 'ein' (неопределённый артикль) и 'das' (нейтральный) для слова 'Zimmer' (номер), но 'der' для 'Rezeption' (ресепшн).",
+    "rule": "Для бронирования номера в немецком языке используй модальный глагол 'möchten' (я бы хотел) в настоящем времени: ich möchte, du möchtest, er/sie möchte и т.д. Структура предложения: 'Ich möchte' + дополнение + глагол в инфинитиве в конце (например, 'Ich möchte ein Zimmer reservieren' — Я бы хотел забронировать номер). Чтобы спросить о наличии, используй 'Haben Sie ...?' (У вас есть ...?) или 'Gibt es ...?' (Есть ли ...?). Чтобы представиться при регистрации: 'Ich heiße ...' (Меня зовут ...) и чтобы подтвердить бронь: 'Ich habe eine Reservierung' (У меня есть бронь). Важные слова: das Zimmer (номер), das Einzelzimmer (одноместный номер), das Doppelzimmer (двухместный номер), die Nacht (ночь), der Schlüssel (ключ). Помни, что в немецком языке существительные пишутся с заглавной буквы и имеют род: der (мужской), die (женский), das (средний). При вежливом обращении инвертируй глагол и подлежащее: 'Haben Sie' (У вас есть). Предлог для указания продолжительности — 'für' (на): 'für eine Nacht' (на одну ночь).",
+    "concept_examples": [
+      {
+        "text": "Ich möchte ein Zimmer reservieren.",
+        "translation": "Я бы хотел забронировать номер.",
+        "phonetic": "ɪç ˈmœçtə aɪn ˈtsɪmɐ ʀezɛʁˈviːʁən"
+      },
+      {
+        "text": "Haben Sie ein Doppelzimmer frei?",
+        "translation": "У вас есть свободный двухместный номер?",
+        "phonetic": "ˈhaːbən ziː aɪn ˈdɔpəlˌtsɪmɐ fʁaɪ"
+      },
+      {
+        "text": "Ich habe eine Reservierung unter dem Namen Müller.",
+        "translation": "У меня бронь на имя Мюллер.",
+        "phonetic": "ɪç ˈhaːbə ˈaɪnə ʀezɛʁˈviːʁʊŋ ˈʊntɐ deːm ˈnaːmən ˈmʏlɐ"
+      },
+      {
+        "text": "Wie viel kostet die Nacht?",
+        "translation": "Сколько стоит ночь?",
+        "phonetic": "viː fiːl ˈkɔstət diː naxt"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo quiero reservar una habitación.",
+      "correct": "Ich möchte ein Zimmer reservieren.",
+      "correct_alt": "Ich will ein Zimmer reservieren.",
+      "explanation": "Ошибка заключается в буквальном переводе 'я хочу' с использованием глагола 'querer' в прямой форме. В немецком языке личное местоимение 'ich' обычно опускается, так как глагол уже указывает на лицо, но его можно включить. Однако для вежливости в отеле следует использовать 'möchten' (я бы хотел) вместо 'wollen' (хотеть), которое звучит более категорично. Кроме того, в немецком языке порядок слов в предложениях с модальными глаголами требует, чтобы спрягаемый глагол стоял на втором месте, а инфинитив — в конце, как в 'reservieren' (забронировать). Помни, что артикль 'ein' склоняется: 'ein Zimmer' (винительный падеж мужского рода — 'einen', но 'Zimmer' — средний род и не изменяется)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "An der Rezeption",
+        "translation": "На ресепшене",
+        "examples": [
+          {
+            "original": "Guten Tag, ich hätte gern ein Zimmer.",
+            "phonetic": "ˈɡuːtən taːk, ɪç ˈhɛtə ɡɛʁn aɪn ˈtsɪmɐ",
+            "translation": "Доброе утро, я бы хотел номер.",
+            "note": "'hätte gern' — более вежливая форма просьбы, эквивалентна 'я бы хотел'."
+          },
+          {
+            "original": "Haben Sie ein Einzelzimmer?",
+            "phonetic": "ˈhaːbən ziː aɪn ˈaɪntsəlˌtsɪmɐ",
+            "translation": "У вас есть одноместный номер?",
+            "note": "Вежливый вопрос: инверсия глагола и подлежащего."
+          },
+          {
+            "original": "Ich brauche ein Zimmer für zwei Nächte.",
+            "phonetic": "ɪç ˈbʁaʊxə aɪn ˈtsɪmɐ fyːɐ tsvaɪ nɛçtə",
+            "translation": "Мне нужен номер на две ночи.",
+            "note": "Используй 'brauchen' (нуждаться) + 'für' + продолжительность."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Die Reservierung",
+        "translation": "Бронирование",
+        "examples": [
+          {
+            "original": "Ich habe eine Reservierung für heute Nacht.",
+            "phonetic": "ɪç ˈhaːbə ˈaɪnə ʀezɛʁˈviːʁʊŋ fyːɐ ˈhɔʏtə naxt",
+            "translation": "У меня бронь на сегодняшнюю ночь.",
+            "note": "Используется 'für' + винительный падеж (сегодня ночью)."
+          },
+          {
+            "original": "Auf welchen Namen läuft die Reservierung?",
+            "phonetic": "aʊf ˈvɛlçən ˈnaːmən lɔɪft diː ʀezɛʁˈviːʁʊŋ",
+            "translation": "На чьё имя забронировано?",
+            "note": "Вежливый вопрос: 'Auf welchen Namen' (на какое имя)."
+          },
+          {
+            "original": "Können Sie das bitte wiederholen?",
+            "phonetic": "ˈkœnən ziː das ˈbɪtə viːdɐˈhoːlən",
+            "translation": "Не могли бы вы повторить, пожалуйста?",
+            "note": "Полезно, когда не понимаешь. 'Können' — модальный глагол."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Im Zimmer",
+        "translation": "В номере",
+        "examples": [
+          {
+            "original": "Die Aussicht ist schön.",
+            "phonetic": "diː ˈaʊszɪçt ɪst ʃøːn",
+            "translation": "Вид прекрасный.",
+            "note": "Простое описание с глаголом 'sein'."
+          },
+          {
+            "original": "Wo ist der Fahrstuhl?",
+            "phonetic": "voː ɪst deːɐ ˈfaːɐ̯ʃtuːl",
+            "translation": "Где лифт?",
+            "note": "Вопрос о местонахождении с 'wo' и 'sein'."
+          },
+          {
+            "original": "Die Heizung funktioniert nicht.",
+            "phonetic": "diː ˈhaɪtsʊŋ fʊŋktsi̯oːˈniːɐ̯t nɪçt",
+            "translation": "Обогреватель не работает.",
+            "note": "Для сообщения о проблеме: существительное + 'funktioniert nicht'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "ru": "В отеле"
+    }
+  },
+  {
+    "id": "ru_A1_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "В ресторане",
+    "bridge": "В испанском языке, чтобы что-то заказать в ресторане, мы используем глагол 'querer' (хочу, хотел...) гибко. В немецком же вежливость выражается с помощью сослагательного наклонения глагола 'möchten' (я бы хотел), который является модальным. Кроме того, в немецком языке при заказе используется винительный падеж, и артикль меняется (суп → eine Suppe), тогда как в испанском он не изменяется. Обрати внимание на позицию глагола в вопросах и использование 'bitte' (пожалуйста), которое не всегда переводится дословно.",
+    "rule": "Чтобы заказать еду или сделать заказ в ресторане на немецком языке, часто используется форма 'Ich möchte...' (я бы хотел) + существительное в винительном падеже. 'Möchten' — это вежливая форма глагола 'wollen' (хотеть) и спрягается следующим образом: ich möchte, du möchtest, er/sie/es möchte, wir möchten, ihr möchtet, sie/Sie möchten. Следующее за ним существительное должно стоять в винительном падеже: для существительных мужского рода артикль 'der' меняется на 'den' (например, der Salat → den Salat). Также можно использовать 'Ich hätte gern...' (я бы хотел...), что звучит ещё более формально. Чтобы спросить, что хочет клиент, официант говорит: 'Was möchten Sie?' (Что бы вы хотели?). При заказе 'bitte' (пожалуйста) добавляется в конце или после заказа: 'Eine Suppe, bitte.' В повествовательных предложениях глагол стоит на втором месте; в вопросах да/нет — глагол перемещается в начало: 'Möchten Sie etwas trinken?' (Хотите что-нибудь выпить?). Важно не забывать, что 'Sie' (вы, вежливая форма) всегда пишется с заглавной буквы, чтобы отличать его от 'sie' (она/они).",
+    "concept_examples": [
+      {
+        "text": "Ich möchte einen Kaffee, bitte.",
+        "translation": "Я бы хотел кофе, пожалуйста.",
+        "phonetic": "ɪç ˈmœçtə ˈaɪnən ˈkafeː, ˈbɪtə"
+      },
+      {
+        "text": "Wir möchten zwei Salate.",
+        "translation": "Нам бы хотелось две салаты.",
+        "phonetic": "viːɐ̯ ˈmœçtn̩ t͡svaɪ̯ zaˈlaːtə"
+      },
+      {
+        "text": "Was möchten Sie?",
+        "translation": "Что бы вы хотели?",
+        "phonetic": "vas ˈmœçtn̩ ziː"
+      },
+      {
+        "text": "Ich hätte gern ein Glas Wasser.",
+        "translation": "Я бы хотел стакан воды.",
+        "phonetic": "ɪç ˈhɛtə ɡɛʁn aɪ̯n ɡlaːs ˈvasɐ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich möchte ein Kaffee.",
+      "correct": "Ich möchte einen Kaffee.",
+      "correct_alt": "Ich möchte einen Kaffee, bitte.",
+      "explanation": "Распространённая ошибка — не использовать винительный падеж после 'möchten'. 'Kaffee' — мужского рода (der Kaffee), поэтому неопределённый артикль 'ein' меняется на 'einen'. В испанском 'un café' не изменяется, но в немецком винительный падеж влияет на артикль мужского рода. Запомни: после 'möchten' всегда используй винительный падеж, и для существительных мужского рода артикль будет 'einen'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Bestellungen aufgeben",
+        "translation": "Делать заказы",
+        "examples": [
+          {
+            "original": "Ich möchte eine Pizza.",
+            "phonetic": "ɪç ˈmœçtə ˈaɪnə ˈpɪtsa",
+            "translation": "Я бы хотел пиццу.",
+            "note": "Использование 'möchten' с неопределённым артиклем женского рода (eine)."
+          },
+          {
+            "original": "Einen Tee, bitte.",
+            "phonetic": "ˈaɪnən teː, ˈbɪtə",
+            "translation": "Чай, пожалуйста.",
+            "note": "Глагол опускается, если контекст понятен; 'einen' всё равно остаётся в винительном падеже."
+          },
+          {
+            "original": "Wir nehmen zwei Wasser.",
+            "phonetic": "viːɐ̯ ˈneːmən t͡svaɪ̯ ˈvasɐ",
+            "translation": "Мы возьмём две воды.",
+            "note": "Глагол 'nehmen' (брать) часто используется при заказе."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Fragen im Restaurant",
+        "translation": "Вопросы в ресторане",
+        "examples": [
+          {
+            "original": "Was möchten Sie trinken?",
+            "phonetic": "vas ˈmœçtn̩ ziː ˈtʁɪŋkn̩",
+            "translation": "Что бы вы хотели выпить?",
+            "note": "Вопрос с 'was' + модальный глагол на втором месте."
+          },
+          {
+            "original": "Haben Sie vegetarische Gerichte?",
+            "phonetic": "ˈhaːbn̩ ziː veɡetaˈʁiːʃə ɡəˈʁɪçtə",
+            "translation": "У вас есть вегетарианские блюда?",
+            "note": "Использование 'haben' (иметь) для вопроса о наличии."
+          },
+          {
+            "original": "Kann ich die Speisekarte haben?",
+            "phonetic": "kan ɪç diː ˈʃpaɪzəˌkaʁtə ˈhaːbn̩",
+            "translation": "Можно мне меню?",
+            "note": "Модальный глагол 'können' для вежливой просьбы."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Bezahlen und gehen",
+        "translation": "Оплата и уход",
+        "examples": [
+          {
+            "original": "Die Rechnung, bitte.",
+            "phonetic": "diː ˈʁɛçnʊŋ, ˈbɪtə",
+            "translation": "Счёт, пожалуйста.",
+            "note": "Необходимая фраза для запроса счёта."
+          },
+          {
+            "original": "Ich möchte zahlen.",
+            "phonetic": "ɪç ˈmœçtə ˈt͡saːlən",
+            "translation": "Я бы хотел заплатить.",
+            "note": "Использование 'möchten' + инфинитив 'zahlen'."
+          },
+          {
+            "original": "Zusammen oder getrennt?",
+            "phonetic": "t͡suˈzamən ˈoːdɐ ɡəˈtʁɛnt",
+            "translation": "Вместе или отдельно?",
+            "note": "Распространённый вопрос официанта при подаче счёта."
+          },
+          {
+            "original": "Es hat gut geschmeckt.",
+            "phonetic": "ɛs hat ɡuːt ɡəˈʃmɛkt",
+            "translation": "Было очень вкусно.",
+            "note": "Фраза для похвалы еды при уходе."
+          }
+        ]
+      }
+    ],
+    "emoji": "🍽️",
+    "phonetic": "",
+    "translations": {
+      "ru": "В ресторане"
+    }
+  },
+  {
+    "id": "ru_A1_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "In der Apotheke / В аптеке",
+    "bridge": "В немецком языке для вежливого запроса в аптеке используется конструкция 'Ich hätte gern...' (Я бы хотел...), что звучит более вежливо, чем простое 'Ich möchte...' (я хочу). В отличие от испанского, где говорят 'Necesito' или 'Quiero', в немецком предпочитают вежливую форму с глаголом 'hätte' (сослагательное наклонение II от 'haben'). Кроме того, лекарства заказывают по их общему названию или по действующему веществу, и часто используют определённые артикли с названиями лекарств, что может показаться странным для испаноязычных.",
+    "rule": "В немецком языке для выражения желаний или просьб в формальном контексте (например, в аптеке) используется 'Ich hätte gern' + существительное в винительном падеже. 'Hätte' — это сослагательное наклонение II от 'haben'. Альтернативно можно использовать 'Ich brauche' (мне нужно) или 'Können Sie mir ... geben?' (Можете дать мне...?). Чтобы спросить о чём-то конкретном, используют 'Haben Sie ...?' (У вас есть...?). Определённые артикли (der, die, das) часто употребляются с названиями лекарств, когда речь идёт о конкретном типе, но при общем запросе артикль можно опустить. Помните, что в формальных вопросах с 'Sie' (Вы) глагол ставится на первое место, если это вопрос да/нет, или после вопросительного местоимения (Was, Wie и т.д.).",
+    "concept_examples": [
+      {
+        "text": "Ich hätte gern etwas gegen Kopfschmerzen.",
+        "translation": "Я бы хотел что-нибудь от головной боли.",
+        "phonetic": "ɪç ˈhɛtə ɡɛrn ˈɛtvas ɡeːɡn ˈkɔpʃmɛrtsən"
+      },
+      {
+        "text": "Haben Sie etwas gegen Husten?",
+        "translation": "У вас есть что-нибудь от кашля?",
+        "phonetic": "ˈhaːbən ziː ˈɛtvas ɡeːɡn ˈhuːstən"
+      },
+      {
+        "text": "Ich brauche ein Rezept.",
+        "translation": "Мне нужен рецепт.",
+        "phonetic": "ɪç ˈbraʊxə aɪn rɛˈtseːpt"
+      },
+      {
+        "text": "Können Sie mir etwas empfehlen?",
+        "translation": "Можете порекомендовать что-нибудь?",
+        "phonetic": "ˈkœnən ziː miːɐ̯ ˈɛtvas ɛmˈpfeːlən"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich möchte ein Aspirin.",
+      "correct": "Ich hätte gern ein Aspirin.",
+      "correct_alt": "Können Sie mir ein Aspirin geben?",
+      "explanation": "Многие испаноязычные используют 'Ich möchte' (я хочу) напрямую, но в немецком языке это звучит грубовато в формальных ситуациях. В аптеке лучше использовать 'Ich hätte gern' (я бы хотел) или вежливый вопрос с 'Können Sie...?'. Поэтому избегайте прямого использования 'möchte' при запросе в сервисном контексте."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Grundbedürfnisse äußern",
+        "translation": "Выражение базовых потребностей",
+        "examples": [
+          {
+            "original": "Ich brauche etwas gegen Schmerzen.",
+            "phonetic": "ɪç ˈbraʊxə ˈɛtvas ɡeːɡn ˈʃmɛrtsən",
+            "translation": "Мне нужно что-то от боли.",
+            "note": "Используйте 'brauchen' (нуждаться), когда у вас есть чёткая потребность."
+          },
+          {
+            "original": "Ich hätte gern ein Mittel gegen Erkältung.",
+            "phonetic": "ɪç ˈhɛtə ɡɛrn aɪn ˈmɪtəl ɡeːɡn ɛɐ̯ˈkɛltʊŋ",
+            "translation": "Я бы хотел средство от простуды.",
+            "note": "'Erkältung' — это простуда, а 'Mittel' — средство/лекарство."
+          },
+          {
+            "original": "Haben Sie ein Schmerzmittel?",
+            "phonetic": "ˈhaːbən ziː aɪn ˈʃmɛrtsˌmɪtəl",
+            "translation": "У вас есть обезболивающее?",
+            "note": "'Schmerzmittel' — это общее название для обезболивающего."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nach Produkten fragen",
+        "translation": "Спросить о товарах",
+        "examples": [
+          {
+            "original": "Haben Sie etwas gegen Allergien?",
+            "phonetic": "ˈhaːbən ziː ˈɛtvas ɡeːɡn alɛɐ̯ˈɡiːən",
+            "translation": "У вас есть что-нибудь от аллергии?",
+            "note": "Типичный вопрос в аптеке, используйте 'gegen' (против/для) с состоянием."
+          },
+          {
+            "original": "Was empfehlen Sie bei Halsschmerzen?",
+            "phonetic": "vas ɛmˈfeːlən ziː baɪ ˈhalsʃmɛrtsən",
+            "translation": "Что вы порекомендуете от боли в горле?",
+            "note": "Используйте 'bei' (в случае) для указания состояния."
+          },
+          {
+            "original": "Ich suche ein Medikament gegen Fieber.",
+            "phonetic": "ɪç ˈzuːxə aɪn mediˈkaːmɛnt ɡeːɡn ˈfiːbɐ",
+            "translation": "Я ищу лекарство от температуры.",
+            "note": "'Suchen' (искать) полезно, когда вы не знаете точное название."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Rezepte und Apothekenleistungen",
+        "translation": "Рецепты и услуги аптеки",
+        "examples": [
+          {
+            "original": "Kann ich das Rezept hier einlösen?",
+            "phonetic": "kan ɪç das rɛˈtseːpt hiːɐ̯ ˈaɪnˌløːzən",
+            "translation": "Могу ли я здесь получить лекарство по рецепту?",
+            "note": "Глагол 'einlösen' используется специально для получения лекарства по рецепту."
+          },
+          {
+            "original": "Ich hätte gern ein rezeptfreies Medikament.",
+            "phonetic": "ɪç ˈhɛtə ɡɛrn aɪn rɛˈtseːptˌfraɪəs mediˈkaːmɛnt",
+            "translation": "Я бы хотел безрецептурное лекарство.",
+            "note": "'Rezeptfrei' означает без рецепта, это полезное сложное слово."
+          },
+          {
+            "original": "Wie oft muss ich das einnehmen?",
+            "phonetic": "viː ɔft mʊs ɪç das ˈaɪnˌneːmən",
+            "translation": "Как часто мне его принимать?",
+            "note": "Важный вопрос о дозировке; глагол 'einnehmen' означает принимать (лекарство)."
+          },
+          {
+            "original": "Gibt es Nebenwirkungen?",
+            "phonetic": "ɡɪpt ɛs ˈneːbənvɪʁkʊŋən",
+            "translation": "Есть ли побочные эффекты?",
+            "note": "'Nebenwirkungen' — важное понятие для безопасности."
+          }
+        ]
+      }
+    ],
+    "emoji": "💊",
+    "phonetic": "",
+    "translations": {
+      "ru": "В аптеке"
+    }
+  },
+  {
+    "id": "ru_A1_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Im Supermarkt / В супермаркете",
+    "bridge": "В немецком языке вежливость и формальность выражаются с помощью местоимения 'Sie' (вы) вместо 'du' (ты), что влияет на форму глагола. Кроме того, артикли (der, die, das) не всегда совпадают с родом в испанском: 'die Milch' (молоко) — женского рода в обоих языках, но 'das Brot' (хлеб) — среднего рода в немецком и мужского в испанском. Обрати внимание на структуру вопросов: глагол ставится перед подлежащим, например, 'Haben Sie...?' (У вас есть...?). Не забывай, что существительные в немецком языке пишутся с заглавной буквы.",
+    "rule": "На уровне A1, чтобы попросить что-то в супермаркете, используется структура: 'Ich hätte gern...' (Я бы хотел...) + винительный падеж (артикль + существительное). Винительный падеж меняет артикль: 'der' → 'den', 'die' → 'die', 'das' → 'das' (без изменений для женского и среднего рода). Чтобы спросить о цене: 'Was kostet...?' (Сколько стоит...?) или 'Wie viel kostet...?'. Глагол 'kosten' спрягается: kostet (он/она) и kosten (они). Чтобы спросить, есть ли что-то: 'Haben Sie...?' (У вас есть...?), с глаголом во втором лице формального обращения. Неопределённые артикли: 'einen' (мужской род, винительный падеж), 'eine' (женский род), 'ein' (средний род). Пример: 'Ich hätte gern einen Apfel' (Я бы хотел яблоко).",
+    "concept_examples": [
+      {
+        "text": "Ich hätte gern ein Brot.",
+        "translation": "Я бы хотел хлеб.",
+        "phonetic": "[ɪç ˈhɛtə ɡɛrn aɪn broːt]"
+      },
+      {
+        "text": "Was kostet die Milch?",
+        "translation": "Сколько стоит молоко?",
+        "phonetic": "[vas ˈkɔstət diː mɪlç]"
+      },
+      {
+        "text": "Haben Sie Äpfel?",
+        "translation": "У вас есть яблоки?",
+        "phonetic": "[ˈhaːbən ziː ˈɛpfəl]"
+      },
+      {
+        "text": "Ich möchte ein Kilo Tomaten.",
+        "translation": "Я хочу килограмм помидоров.",
+        "phonetic": "[ɪç ˈmœçtə aɪn ˈkiːlo toˈmaːtən]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich möchte eine Brot.",
+      "correct": "Ich möchte ein Brot.",
+      "correct_alt": "Ich hätte gern ein Brot.",
+      "explanation": "Ошибка возникает, потому что в испанском 'pan' — мужского рода и используется 'un', но в немецком 'Brot' — среднего рода, поэтому неопределённый артикль в винительном падеже — 'ein', а не 'eine'. Чтобы избежать ошибки, запоминай род вместе с существительным: 'das Brot'. Помни, что средний род не меняется в винительном падеже."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Lebensmittel nennen",
+        "translation": "Называть продукты",
+        "examples": [
+          {
+            "original": "Das ist der Käse.",
+            "phonetic": "[das ɪst deːɐ̯ ˈkɛːzə]",
+            "translation": "Это сыр.",
+            "note": "Существительные в немецком всегда употребляются с артиклем. 'Der Käse' — мужского рода, как и в испанском 'el queso'."
+          },
+          {
+            "original": "Ich brauche die Butter.",
+            "phonetic": "[ɪç ˈbraʊxə diː ˈbʊtɐ]",
+            "translation": "Мне нужна сливочное масло.",
+            "note": "'Die Butter' — женского рода. В испанском 'la mantequilla' тоже женского рода, но это не всегда совпадает."
+          },
+          {
+            "original": "Das Wasser ist kalt.",
+            "phonetic": "[das ˈvasɐ ɪst kalt]",
+            "translation": "Вода холодная.",
+            "note": "'Das Wasser' — среднего рода, хотя в испанском 'agua' — женского рода. Обращай внимание на род."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mengen angeben",
+        "translation": "Указывать количество",
+        "examples": [
+          {
+            "original": "Ein Kilo Äpfel, bitte.",
+            "phonetic": "[aɪn ˈkiːlo ˈɛpfəl, ˈbɪtə]",
+            "translation": "Килограмм яблок, пожалуйста.",
+            "note": "Количество ставится перед существительным. 'Ein Kilo' — среднего рода и не изменяется."
+          },
+          {
+            "original": "Zwei Flaschen Wasser, bitte.",
+            "phonetic": "[tsvaɪ ˈflaʃən ˈvasɐ, ˈbɪtə]",
+            "translation": "Две бутылки воды, пожалуйста.",
+            "note": "Множественное число образуется с помощью '-n' в 'Flaschen'. Не используется 'de' как в испанском, слова просто ставятся рядом."
+          },
+          {
+            "original": "Ein halbes Brot, bitte.",
+            "phonetic": "[aɪn ˈhalbəs broːt, ˈbɪtə]",
+            "translation": "Половина хлеба, пожалуйста.",
+            "note": "'Halbes' — прилагательное, согласующееся с 'Brot' (средний род)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Bezahlen und Fragen",
+        "translation": "Платить и спрашивать",
+        "examples": [
+          {
+            "original": "Was kostet das zusammen?",
+            "phonetic": "[vas ˈkɔstət das tsuˈzamən]",
+            "translation": "Сколько это стоит вместе?",
+            "note": "Используется 'das zusammen' для обозначения итоговой суммы. Вопрос строится с 'was' + глагол."
+          },
+          {
+            "original": "Ich zahle bar.",
+            "phonetic": "[ɪç ˈtsaːlə baːɐ̯]",
+            "translation": "Я плачу наличными.",
+            "note": "Глагол 'zahlen' спрягается правильно: ich zahle, du zahlst, er zahlt."
+          },
+          {
+            "original": "Kann ich mit Karte zahlen?",
+            "phonetic": "[kan ɪç mɪt ˈkartə ˈtsaːlən]",
+            "translation": "Можно оплатить картой?",
+            "note": "Структура 'Kann ich...?' (Можно ли мне...?) полезна для просьбы. 'Mit' (с) + дательный падеж, но 'Karte' — женского рода и не изменяется."
+          }
+        ]
+      }
+    ],
+    "emoji": "🛒",
+    "phonetic": "",
+    "translations": {
+      "ru": "В супермаркете"
+    }
+  },
+  {
+    "id": "ru_A1_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Mit dem Bus fahren / Поездка на автобусе",
+    "bridge": "В немецком языке, в отличие от испанского, глаголы движения, такие как 'fahren' (ехать на транспорте) и 'gehen' (идти пешком), чётко различаются. Кроме того, предлоги 'mit' (с, на) и 'zu' (к) необходимы для указания средства передвижения и пункта назначения. Распространённая ошибка — буквально переводить 'voy en autobús' как 'ich gehe mit Bus', но на немецком это звучит как 'ich fahre mit dem Bus'. Также обрати внимание, что после 'mit' используются определённые артикли в дательном падеже (dem, der).",
+    "rule": "Для разговора о общественном транспорте на уровне A1 используй глагол 'fahren' (ехать) в настоящем времени: ich fahre, du fährst, er/sie/es fährt, wir fahren, ihr fahrt, sie fahren. Средство передвижения выражается с помощью 'mit' + определённый артикль в дательном падеже: mit dem Bus (на автобусе), mit der Bahn (на поезде), mit der U-Bahn (на метро), mit dem Taxi (на такси). Пункт назначения вводится с помощью 'zu' + дательный падеж (zum Bahnhof = на вокзал, zur Haltestelle = на остановку) или 'nach' для городов и стран (nach Berlin). Чтобы спросить о расписании, используй 'Wann fährt...?' (Когда отправляется...?), а чтобы указать на выход, 'aussteigen' (выходить) или 'umsteigen' (пересаживаться). Помни, что существительные в немецком языке пишутся с заглавной буквы (der Bus, die Bahn).",
+    "concept_examples": [
+      {
+        "text": "Ich fahre mit dem Bus.",
+        "translation": "Я еду на автобусе.",
+        "phonetic": "ɪç ˈfaːʁə mɪt deːm bʊs"
+      },
+      {
+        "text": "Wann fährt der nächste Zug?",
+        "translation": "Когда отправляется следующий поезд?",
+        "phonetic": "van fɛːɐ̯t deːɐ̯ ˈnɛːçstə tsuːk"
+      },
+      {
+        "text": "Ich muss am Bahnhof umsteigen.",
+        "translation": "Мне нужно пересесть на вокзале.",
+        "phonetic": "ɪç mʊs am ˈbaːnhoːf ˈʊmˌʃtaɪ̯ɡən"
+      },
+      {
+        "text": "Fahren Sie mit der U-Bahn?",
+        "translation": "Вы едете на метро?",
+        "phonetic": "ˈfaːʁən ziː mɪt deːɐ̯ ˈuːbaːn"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich gehe mit Bus.",
+      "correct": "Ich fahre mit dem Bus.",
+      "correct_alt": "Ich nehme den Bus.",
+      "explanation": "В испанском языке 'ir en autobús' часто переводят как 'gehen' (идти пешком), но в немецком 'gehen' означает движение пешком. Для транспорта используется 'fahren'. Кроме того, после 'mit' требуется определённый артикль в дательном падеже ('mit dem Bus'), артикль не опускается. Альтернативный вариант — 'nehmen' (брать) + винительный падеж: 'Ich nehme den Bus'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nach dem Weg fragen",
+        "translation": "Спросить дорогу",
+        "examples": [
+          {
+            "original": "Wo ist die Haltestelle?",
+            "phonetic": "voː ɪst diː ˈhaltəʃtɛlə",
+            "translation": "Где находится остановка?",
+            "note": "Используй 'Wo ist...?' чтобы спросить о местоположении."
+          },
+          {
+            "original": "Wie komme ich zum Bahnhof?",
+            "phonetic": "viː ˈkɔmə ɪç tsʊm ˈbaːnhoːf",
+            "translation": "Как мне добраться до вокзала?",
+            "note": "'Zum' — это сокращение от 'zu dem' (к, на)."
+          },
+          {
+            "original": "Entschuldigung, wo geht es zur U-Bahn?",
+            "phonetic": "ɛntˈʃʊldɪɡʊŋ, voː ɡeːt ɛs tsʊʁ ˈuːbaːn",
+            "translation": "Извините, как пройти к метро?",
+            "note": "'Zur' = 'zu der' (к, на). Используется при обращении к незнакомым людям."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Tickets kaufen",
+        "translation": "Покупка билетов",
+        "examples": [
+          {
+            "original": "Ein Ticket nach Berlin, bitte.",
+            "phonetic": "aɪ̯n ˈtɪkɛt naːx bɛʁˈliːn, ˈbɪtə",
+            "translation": "Билет до Берлина, пожалуйста.",
+            "note": "'Bitte' — вежливая форма просьбы."
+          },
+          {
+            "original": "Was kostet eine Fahrkarte?",
+            "phonetic": "vas ˈkɔstət ˈaɪ̯nə ˈfaːɐ̯kaʁtə",
+            "translation": "Сколько стоит билет?",
+            "note": "'Fahrkarte' — билет на общественный транспорт."
+          },
+          {
+            "original": "Ich möchte eine Einzelfahrt, bitte.",
+            "phonetic": "ɪç ˈmœçtə ˈaɪ̯nə ˈaɪ̯nt͡sl̩faːɐ̯t, ˈbɪtə",
+            "translation": "Я бы хотел один билет, пожалуйста.",
+            "note": "'Möchte' — вежливая форма 'хотеть'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Im Bus und in der Bahn",
+        "translation": "В автобусе и поезде",
+        "examples": [
+          {
+            "original": "Ich steige an der nächsten Haltestelle aus.",
+            "phonetic": "ɪç ˈʃtaɪ̯ɡə an deːɐ̯ ˈnɛːçstən ˈhaltəʃtɛlə aʊ̯s",
+            "translation": "Я выхожу на следующей остановке.",
+            "note": "'Aussteigen' — отделяемый глагол: 'steige...aus'. В главном предложении приставка ставится в конец."
+          },
+          {
+            "original": "Wo muss ich umsteigen?",
+            "phonetic": "voː mʊs ɪç ˈʊmˌʃtaɪ̯ɡən",
+            "translation": "Где мне нужно пересесть?",
+            "note": "'Umsteigen' означает пересадку."
+          },
+          {
+            "original": "Der Bus ist verspätet.",
+            "phonetic": "deːɐ̯ bʊs ɪst fɛɐ̯ˈʃpɛːtət",
+            "translation": "Автобус опаздывает.",
+            "note": "'Verspätet' — прилагательное 'опаздывающий'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚌",
+    "phonetic": "",
+    "translations": {
+      "ru": "Общественный транспорт"
+    }
+  },
+  {
+    "id": "ru_A1_conv_07",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Представление / Presentarse",
+    "bridge": "В испанском языке для представления себя используются глаголы 'ser' или 'llamarse' напрямую. В немецком языке глаголы 'sein' (быть) и 'heißen' (зваться) работают похожим образом, но есть важные отличия: глагол 'heißen' не требует артикля или 'me' перед ним, а вопросы строятся путём инверсии подлежащего и сказуемого без использования вопросительных знаков. Кроме того, в немецком языке различают 'du' (неформальное) и 'Sie' (формальное), тогда как в испанском это упрощается до 'tú' и 'usted'.",
+    "rule": "Чтобы представиться на немецком, используйте:\n- 'Ich heiße...' (Меня зовут...) с указанием вашего имени.\n- 'Ich bin...' (Я...) с указанием вашего имени или профессии.\n- 'Ich komme aus...' (Я из...) для указания вашего происхождения.\n- Чтобы спросить имя: 'Wie heißt du?' (неформально) или 'Wie heißen Sie?' (формально).\n- Чтобы спросить, откуда вы: 'Woher kommst du?' (неформально) / 'Woher kommen Sie?' (формально).\n- Глагол 'heißen' — неправильный: ich heiße, du heißt, er/sie/es heißt. Не путайте с 'sein': ich bin, du bist, er/sie/es ist.\n- В вопросах глагол ставится первым: 'Heißt du...?' 'Bist du...?' 'Kommst du...?'.\n- Используйте 'du' с друзьями, семьёй, молодыми людьми; 'Sie' — с незнакомыми или в формальных контекстах.",
+    "concept_examples": [
+      {
+        "text": "Ich heiße Anna.",
+        "translation": "Меня зовут Анна.",
+        "phonetic": "ɪç ˈhaɪsə ˈana"
+      },
+      {
+        "text": "Ich bin Juan.",
+        "translation": "Я Хуан.",
+        "phonetic": "ɪç bɪn ˈhuːan"
+      },
+      {
+        "text": "Woher kommst du?",
+        "translation": "Откуда ты?",
+        "phonetic": "ˈvoːhɐ kɔmst duː"
+      },
+      {
+        "text": "Ich komme aus Spanien.",
+        "translation": "Я из Испании.",
+        "phonetic": "ɪç ˈkɔmə aʊs ˈʃpaːniən"
+      }
+    ],
+    "common_error": {
+      "wrong": "Me llamo es Anna.",
+      "correct": "Ich heiße Anna.",
+      "correct_alt": "Ich bin Anna.",
+      "explanation": "Многие испаноязычные люди буквально переводят 'Me llamo es Anna' как 'Me llamo es Anna' на немецкий, но в немецком языке с глаголом 'heißen' не нужно использовать 'sein' для выражения имени. 'Heißen' уже означает 'зваться', поэтому достаточно 'Ich heiße Anna'. Также можно использовать 'Ich bin Anna', но с 'heißen' не добавляется 'es'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Wie heißt du?",
+        "translation": "Как тебя зовут?",
+        "examples": [
+          {
+            "original": "Wie heißt du?",
+            "phonetic": "viː haɪst duː",
+            "translation": "Как тебя зовут?",
+            "note": "Неформальный вариант, используется с людьми твоего возраста или детьми."
+          },
+          {
+            "original": "Ich heiße María.",
+            "phonetic": "ɪç ˈhaɪsə maˈʁiːa",
+            "translation": "Меня зовут Мария.",
+            "note": "Окончание '-e' в 'heiße' характерно для первого лица."
+          },
+          {
+            "original": "Und du?",
+            "phonetic": "ʊnt duː",
+            "translation": "А тебя?",
+            "note": "Обычно отвечают этим вопросом, чтобы продолжить разговор."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Woher kommst du?",
+        "translation": "Откуда ты?",
+        "examples": [
+          {
+            "original": "Woher kommst du?",
+            "phonetic": "ˈvoːhɐ kɔmst duː",
+            "translation": "Откуда ты?",
+            "note": "Используется, чтобы спросить о происхождении или национальности."
+          },
+          {
+            "original": "Ich komme aus Deutschland.",
+            "phonetic": "ɪç ˈkɔmə aʊs ˈdɔʏtʃlant",
+            "translation": "Я из Германии.",
+            "note": "Предлог 'aus' используется с названиями стран и городов."
+          },
+          {
+            "original": "Ich wohne in Spanien.",
+            "phonetic": "ɪç ˈvoːnə ɪn ˈʃpaːniən",
+            "translation": "Я живу в Испании.",
+            "note": "Для указания места жительства используется 'wohnen' с предлогом 'in'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Freut mich!",
+        "translation": "Очень приятно!",
+        "examples": [
+          {
+            "original": "Freut mich, dich kennenzulernen.",
+            "phonetic": "fʁɔʏt mɪç dɪç ˈkɛnənˌtsuːˌlɛʁnən",
+            "translation": "Очень приятно с вами познакомиться.",
+            "note": "Распространённая фраза при знакомстве."
+          },
+          {
+            "original": "Wo wohnst du?",
+            "phonetic": "voː vɔnst duː",
+            "translation": "Где ты живёшь?",
+            "note": "Ещё один распространённый вопрос при представлении."
+          },
+          {
+            "original": "Ich bin Student.",
+            "phonetic": "ɪç bɪn ʃtuˈdɛnt",
+            "translation": "Я студент.",
+            "note": "Помните, что в немецком языке артикль перед профессиями не ставится."
+          },
+          {
+            "original": "Ich komme aus Mexiko, aber lebe jetzt in Berlin.",
+            "phonetic": "ɪç ˈkɔmə aʊs ˈmɛksikoː ˈaːbɐ ˈleːbə jɛtst ɪn bɛʁˈliːn",
+            "translation": "Я из Мексики, но сейчас живу в Берлине.",
+            "note": "Используйте 'aber' для противопоставления информации."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤝",
+    "phonetic": "",
+    "translations": {
+      "ru": "Знакомство с новыми людьми"
+    }
+  },
+  {
+    "id": "ru_A1_conv_08",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "В кафе / Pedir en una cafetería",
+    "bridge": "В испанском языке для того, чтобы что-то заказать в кафе, мы используем глагол 'querer' (yo quiero un café) и часто добавляем 'por favor'. На немецком языке наиболее естественная форма — это глагол 'möchten' (вежливая форма от 'wollen'), который спрягается особым образом: ich möchte, du möchtest и т. д. Кроме того, в немецком существительное 'кафе' (Kaffee) мужского рода, и его артикль меняется в винительном падеже: 'einen Kaffee'. Испаноязычные часто забывают об этом склонении и говорят 'Ich möchte ein Kaffee' вместо 'einen Kaffee'. Ещё одно важное отличие: в немецком языке при заказе часто используется форма 'Ich hätte gern...' (я бы хотел), которая ещё более вежливая и очень распространена в повседневной жизни.",
+    "rule": "Чтобы заказать что-то в кафе на уровне A1, используются следующие основные структуры:\n\n1. **möchten + существительное в винительном падеже**: Это самая распространённая и вежливая форма. Спряжение 'möchten': ich möchte, du möchtest, er/sie/es möchte, wir möchten, ihr möchtet, sie/Sie möchten. Существительное, которое идёт за ним, должно быть в винительном падеже, что влияет на артикли: определённые артикли меняются следующим образом: der → den (муж. род), die → die (жен. род), das → das (ср. род), а неопределённые: ein → einen (муж. род), eine → eine (жен. род), ein → ein (ср. род). Пример: Ich möchte einen Kaffee. (Я хочу кофе).\n2. **Ich hätte gern + существительное в винительном падеже**: Это условная форма от 'haben' (hätte), которая переводится как 'я бы хотел' или 'мне бы хотелось'. Очень употребительная форма, также требующая винительного падежа: Ich hätte gern einen Tee. (Я бы хотел чай).\n3. **Вопросы и вежливые формулы**: Чтобы узнать цену или попросить счёт, используются устойчивые выражения: 'Was kostet...?' (Сколько стоит...?), 'Zahlen, bitte.' (Счёт, пожалуйста). Помните, что 'bitte' (пожалуйста) ставится в начале или в конце предложения, но не в середине, как в испанском.\n4. **Артикли и сокращения**: В повседневной речи немцы часто сокращают 'ein' с артиклем: 'einen' превращается в 'nen' в разговорной речи (но на уровне A1 лучше использовать полную форму). Также используется 'noch' для того, чтобы заказать ещё: 'Noch einen Kaffee, bitte.' (Ещё кофе, пожалуйста).\n5. **Распространённые исключения**: Некоторые существительные, такие как 'Wasser' (вода), среднего рода, поэтому в винительном падеже артикль не меняется: 'Ich möchte ein Wasser.' (Я хочу воды). Во множественном числе неопределённый артикль не используется: 'Ich möchte zwei Brötchen.' (Я хочу две булочки).",
+    "concept_examples": [
+      {
+        "text": "Ich möchte einen Kaffee, bitte.",
+        "translation": "Я хочу кофе, пожалуйста.",
+        "phonetic": "ɪç ˈmœçtə ˈaɪnən ˈkafeː | ˈbɪtə"
+      },
+      {
+        "text": "Ich hätte gern einen Tee.",
+        "translation": "Я бы хотел чай.",
+        "phonetic": "ɪç ˈhɛtə ɡɛrn ˈaɪnən teː"
+      },
+      {
+        "text": "Was kostet ein Stück Kuchen?",
+        "translation": "Сколько стоит кусок пирога?",
+        "phonetic": "vas ˈkɔstət aɪn ʃtʏk ˈkuːxən"
+      },
+      {
+        "text": "Zahlen, bitte.",
+        "translation": "Счёт, пожалуйста.",
+        "phonetic": "ˈtsaːlən ˈbɪtə"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich möchte ein Kaffee.",
+      "correct": "Ich möchte einen Kaffee.",
+      "correct_alt": "Ich hätte gern einen Kaffee.",
+      "explanation": "Наиболее распространённая ошибка — забыть изменить артикль в винительном падеже. В испанском 'un café' не меняется, но в немецком мужской род 'der Kaffee' превращается в 'den', а неопределённый артикль 'ein' — в 'einen'. Испаноязычные склонны использовать форму именительного падежа, так как не привыкли к склонению. Чтобы избежать этой ошибки, запомните фразу 'einen Kaffee' целиком и практикуйтесь с другими существительными мужского рода: einen Tee, einen Saft, einen Kuchen."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Bestellungen aufgeben",
+        "translation": "Делать заказы",
+        "examples": [
+          {
+            "original": "Ich möchte einen Kaffee.",
+            "phonetic": "ɪç ˈmœçtə ˈaɪnən ˈkafeː",
+            "translation": "Я хочу кофе.",
+            "note": "Используйте 'möchten' для вежливого заказа. Не забудьте про винительный падеж 'einen' для существительных мужского рода."
+          },
+          {
+            "original": "Ich möchte einen Tee, bitte.",
+            "phonetic": "ɪç ˈmœçtə ˈaɪnən teː | ˈbɪtə",
+            "translation": "Я хочу чай, пожалуйста.",
+            "note": "Добавьте 'bitte' в конце, чтобы быть вежливым. Обратите внимание, что 'Tee' тоже мужского рода, поэтому используется 'einen'."
+          },
+          {
+            "original": "Ein Wasser, bitte.",
+            "phonetic": "aɪn ˈvasɐ | ˈbɪtə",
+            "translation": "Воды, пожалуйста.",
+            "note": "С 'Wasser' (средний род) артикль не меняется: 'ein' в именительном и винительном падеже."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nach dem Preis fragen",
+        "translation": "Спрашивать цену",
+        "examples": [
+          {
+            "original": "Was kostet der Kaffee?",
+            "phonetic": "vas ˈkɔstət deːɐ̯ ˈkafeː",
+            "translation": "Сколько стоит кофе?",
+            "note": "Используйте 'Was kostet...?' чтобы спросить цену. Артикль 'der' стоит в именительном падеже, так как это подлежащее."
+          },
+          {
+            "original": "Was kostet ein Stück Kuchen?",
+            "phonetic": "vas ˈkɔstət aɪn ʃtʏk ˈkuːxən",
+            "translation": "Сколько стоит кусок пирога?",
+            "note": "Когда спрашиваете о неопределённом предмете, используется 'ein' в именительном падеже."
+          },
+          {
+            "original": "Wie viel kostet das?",
+            "phonetic": "viː fiːl ˈkɔstət das",
+            "translation": "Сколько это стоит?",
+            "note": "Также можно использовать 'Wie viel' (сколько) с 'kostet'. Очень полезная конструкция."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Höflich bestellen und zahlen",
+        "translation": "Вежливо просить и платить",
+        "examples": [
+          {
+            "original": "Ich hätte gern einen Kaffee.",
+            "phonetic": "ɪç ˈhɛtə ɡɛrn ˈaɪnən ˈkafeː",
+            "translation": "Я бы хотел кофе.",
+            "note": "Эта форма ещё более вежливая и очень распространена. Используйте 'gern' после 'hätte'."
+          },
+          {
+            "original": "Noch einen Kaffee, bitte.",
+            "phonetic": "nɔx ˈaɪnən ˈkafeː | ˈbɪtə",
+            "translation": "Ещё кофе, пожалуйста.",
+            "note": "Чтобы заказать ещё, используйте 'noch' + винительный падеж. Здесь 'einen', так как это существительное мужского рода."
+          },
+          {
+            "original": "Zahlen, bitte.",
+            "phonetic": "ˈtsaːlən ˈbɪtə",
+            "translation": "Счёт, пожалуйста.",
+            "note": "Самый распространённый способ попросить счёт. Можно добавить 'Ich möchte zahlen' (Я хочу заплатить)."
+          }
+        ]
+      }
+    ],
+    "emoji": "☕",
+    "phonetic": "",
+    "translations": {
+      "ru": "В кафе"
+    }
+  },
+  {
+    "id": "ru_A1_conv_09",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Telefonieren und Nachrichten / Телефон и основные сообщения",
+    "bridge": "В немецком языке глагол 'telefonieren' используется без предлога: 'ich telefoniere' (я звоню). В испанском мы говорим 'llamar a alguien' (звонить кому-то), но в немецком используется 'anrufen' с винительным падежом: 'ich rufe dich an' (я тебе звоню). Внимание: 'anrufen' — отделяемый глагол, поэтому в главном предложении приставка 'an-' перемещается в конец. Для сообщений немцы используют 'schreiben' (писать), как и в испанском, но помните, что приветствия и формулы вежливости различаются: 'Hallo' и 'Tschüss' — неформальные, а 'Guten Tag' и 'Auf Wiedersehen' — формальные. Также при произнесении номера телефона немцы группируют цифры парами или тройками и говорят 'null' вместо 'cero'.",
+    "rule": "В немецком языке для разговоров по телефону используются специальные глаголы: 'telefonieren' (без прямого дополнения, например, 'ich telefoniere mit dir' — я с тобой разговариваю по телефону) и 'anrufen' (с дополнением в винительном падеже, например, 'ich rufe dich an' — я тебе звоню). 'anrufen' — отделяемый глагол, поэтому в главном предложении приставка 'an-' отделяется и перемещается в конец: 'ich rufe dich an'. Для отправки сообщений используется 'schreiben' (писать) и 'eine Nachricht schicken' (отправлять сообщение). Полезные вопросы: 'Kann ich bitte mit ... sprechen?' (Могу я поговорить с ...?), 'Wer ist am Apparat?' (Кто на линии?) — но на уровне A1 достаточно 'Hallo, ich bin ...'. При диктовке номеров произносятся цифры по одной: 'eins, zwei, drei', а для 0 используется 'null'. Приветствия: формальные 'Guten Tag' и 'Auf Wiedersehen'; неформальные 'Hallo' и 'Tschüss'.",
+    "concept_examples": [
+      {
+        "text": "Hallo, ich bin Anna. Kann ich bitte mit Herrn Schmidt sprechen?",
+        "translation": "Привет, это Анна. Могу я поговорить с господином Шмидтом?",
+        "phonetic": "ˈhaloː, ɪç bɪn ˈana. kan ɪç ˈbɪtə mɪt ˈhɛrn ʃmɪt ˈʃprɛçən?"
+      },
+      {
+        "text": "Ich rufe dich später an.",
+        "translation": "Я позвоню тебе позже.",
+        "phonetic": "ɪç ˈruːfə dɪç ˈʃpɛtɐ an."
+      },
+      {
+        "text": "Kannst du mir eine Nachricht schicken?",
+        "translation": "Ты можешь отправить мне сообщение?",
+        "phonetic": "ˈkanst duː miːɐ̯ ˈaɪnə ˈnaːxˌrɪçt ˈʃɪkən?"
+      },
+      {
+        "text": "Meine Telefonnummer ist null eins fünf, zwei drei vier.",
+        "translation": "Мой номер телефона: ноль один пять, два три четыре.",
+        "phonetic": "ˈmaɪnə ˈteːləfoːnˌnʊmɐ ɪst nʊl aɪns fʏnf, tsvaɪ̯ draɪ̯ fiːɐ̯."
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo llamo a mi amigo. (Ich rufe zu meinem Freund.)",
+      "correct": "Ich rufe meinen Freund an.",
+      "correct_alt": "Ich telefoniere mit meinem Freund.",
+      "explanation": "Ошибка заключается в использовании предлога 'zu' после 'rufen' и неотделении глагола. В испанском 'llamar a alguien' требует предлога 'a', но в немецком 'anrufen' управляет винительным падежом без предлога: 'ich rufe meinen Freund an'. Помните, что 'anrufen' — отделяемый глагол, поэтому в главном предложении приставка перемещается в конец. Если вы используете 'telefonieren', то требуется предлог 'mit' (с) для указания собеседника."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Begrüßung am Telefon",
+        "translation": "Приветствие по телефону",
+        "examples": [
+          {
+            "original": "Hallo, hier ist Lisa.",
+            "phonetic": "ˈhaloː, hiːɐ̯ ɪst ˈliːza.",
+            "translation": "Привет, это Лиза.",
+            "note": "В немецком языке при ответе по телефону используется 'hier ist' вместо 'я есть'. Это ложный друг с испанским языком."
+          },
+          {
+            "original": "Guten Tag, mein Name ist Peter.",
+            "phonetic": "ˈɡuːtən taːk, maɪn ˈnaːmə ɪst ˈpeːtɐ.",
+            "translation": "Доброе утро, меня зовут Петер.",
+            "note": "Формальное обращение. В формальных контекстах используется 'mein Name ist' вместо 'ich bin'."
+          },
+          {
+            "original": "Wer spricht, bitte?",
+            "phonetic": "veːɐ̯ ʃprɪçt, ˈbɪtə?",
+            "translation": "Кто говорит, пожалуйста?",
+            "note": "Вежливая форма вопроса о том, кто звонит. Также можно сказать 'Wer ist da?'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nachrichten schreiben",
+        "translation": "Написание сообщений",
+        "examples": [
+          {
+            "original": "Schreib mir später eine SMS.",
+            "phonetic": "ʃraɪ̯p miːɐ̯ ˈʃpɛtɐ ˈaɪnə ɛːɛmˈɛs.",
+            "translation": "Напиши мне SMS позже.",
+            "note": "Глагол 'schreiben' с дательным (mir) и винительным (eine SMS) падежами. Помните, что косвенное дополнение ставится первым."
+          },
+          {
+            "original": "Ich schicke dir eine Nachricht.",
+            "phonetic": "ɪç ˈʃɪkə diːɐ̯ ˈaɪnə ˈnaːxˌrɪçt.",
+            "translation": "Я отправлю тебе сообщение.",
+            "note": "Глагол 'schicken' также используется с дательным и винительным падежами, как и 'enviar' в испанском."
+          },
+          {
+            "original": "Hast du meine Nachricht bekommen?",
+            "phonetic": "hast duː ˈmaɪnə ˈnaːxˌrɪçt bəˈkɔmən?",
+            "translation": "Ты получил мое сообщение?",
+            "note": "Перфект с 'haben' и причастием 'bekommen'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Rückruf und Nummern",
+        "translation": "Обратные звонки и номера",
+        "examples": [
+          {
+            "original": "Kannst du mich zurückrufen?",
+            "phonetic": "ˈkanst duː mɪç tsuˈrʏkˌruːfən?",
+            "translation": "Ты можешь мне перезвонить?",
+            "note": "'zurückrufen' — отделяемый глагол и означает 'перезвонить'."
+          },
+          {
+            "original": "Meine Handynummer ist eins fünf null, sieben acht.",
+            "phonetic": "ˈmaɪnə ˈhandiˌnʊmɐ ɪst aɪns fʏnf nʊl, ˈziːbən axt.",
+            "translation": "Мой номер мобильного телефона: один пять ноль, семь восемь.",
+            "note": "В немецком языке используется 'Handynummer' (от английского 'handy') вместо 'мобильный'. Цифры произносятся по одной."
+          },
+          {
+            "original": "Bitte rufen Sie später noch einmal an.",
+            "phonetic": "ˈbɪtə ˈruːfən ziː ˈʃpɛtɐ nɔx ˈaɪnmaːl an.",
+            "translation": "Пожалуйста, позвоните ещё раз позже.",
+            "note": "Формальное обращение с 'Sie' и отделяемым глаголом 'anrufen'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📞",
+    "phonetic": "",
+    "translations": {
+      "ru": "Телефон и основные сообщения"
+    }
+  },
+  {
+    "id": "ru_A1_conv_10",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Notruf & Hilfe / Вызов экстренных служб и помощь",
+    "bridge": "На испанском языке для того, чтобы попросить о помощи, мы обычно используем повелительное наклонение или прямые выражения, такие как '¡Ayuda!' или '¡Llama a la policía!'. В немецком языке официальный регистр (Sie) очень важен при общении с незнакомыми людьми, а официальное повелительное наклонение образуется с помощью инфинитива глагола + Sie (например, 'Rufen Sie'). Кроме того, в немецком языке все существительные пишутся с заглавной буквы, а глагол 'brauchen' (нуждаться) управляет винительным падежом, как и 'necesitar', но следует быть осторожным с устойчивыми выражениями, такими как 'Ich brauche Hilfe' (не говорят 'Ich brauche eine Hilfe'). Ещё одно отличие: на испанском мы обычно говорим 'Estoy perdido/a', а в немецком используется глагол 'sich verirren' (заблудиться) или прилагательное 'verlaufen', но для уровня A1 достаточно 'Ich habe mich verlaufen'.",
+    "rule": "Чтобы попросить о помощи на немецком языке на уровне A1, используйте устойчивые фразы с модальными глаголами или повелительным наклонением. Официальное повелительное наклонение образуется с помощью инфинитива глагола + 'Sie' (например, 'Rufen Sie!'), а неофициальное (du) — с помощью основы глагола (например, 'Ruf!'). Ключевые выражения: 'Hilfe!' (Помогите!), 'Ich brauche Hilfe' (Мне нужна помощь), 'Rufen Sie die Polizei!' (Вызовите полицию!), 'Ich habe mich verlaufen' (Я заблудился/заблудилась). Для экстренных номеров: 110 (полиция), 112 (скорая помощь/пожарные). Помните, что 'brauchen' управляет винительным падежом: 'Ich brauche einen Arzt' (Мне нужен врач). В официальных ситуациях всегда используйте 'Sie' и форму вежливости.",
+    "concept_examples": [
+      {
+        "text": "Hilfe!",
+        "translation": "Помогите!",
+        "phonetic": "[ˈhɪlfə]"
+      },
+      {
+        "text": "Ich brauche Hilfe.",
+        "translation": "Мне нужна помощь.",
+        "phonetic": "[ɪç ˈbʁaʊ̯xə ˈhɪlfə]"
+      },
+      {
+        "text": "Rufen Sie die Polizei!",
+        "translation": "Вызовите полицию!",
+        "phonetic": "[ˈʁuːfən ziː diː poliˈt͡saɪ̯]"
+      },
+      {
+        "text": "Ich habe mich verlaufen.",
+        "translation": "Я заблудился/заблудилась.",
+        "phonetic": "[ɪç ˈhaːbə mɪç fɛɐ̯ˈlaʊ̯fən]"
+      }
+    ],
+    "common_error": {
+      "wrong": "¡Ayuda! ¡Llama a la policía! (usando 'tú' con desconocidos)",
+      "correct": "Hilfe! Rufen Sie die Polizei!",
+      "correct_alt": "Hilfe! Ruf die Polizei! (solo si el contexto es informal, con amigos o familiares)",
+      "explanation": "На испанском языке обращение на «ты» распространено даже с незнакомыми людьми, но в немецком языке крайне важно использовать официальное обращение (Sie) с незнакомыми людьми, чтобы показать уважение. Использование 'Ruf' (ты) при обращении к полицейскому или незнакомцу может прозвучать грубо. Поэтому всегда изучайте и используйте официальную форму по умолчанию."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Notruf rufen",
+        "translation": "Вызов экстренных служб",
+        "examples": [
+          {
+            "original": "Rufen Sie den Notarzt!",
+            "phonetic": "[ˈʁuːfən ziː deːn ˈnoːtˌaʁt͡st]",
+            "translation": "Вызовите врача скорой помощи!",
+            "note": "'Notarzt' — это врач скорой помощи, в отличие от 'Arzt' (терапевт)."
+          },
+          {
+            "original": "Die Nummer ist 112.",
+            "phonetic": "[diː ˈnʊmɐ ɪst ˈhʊndɐtˌt͡svœlf]",
+            "translation": "Номер — 112.",
+            "note": "112 — это европейский номер экстренных служб, общий для всех стран ЕС. Запомните произношение 112: 'hundertzwölf'."
+          },
+          {
+            "original": "Ich rufe die Polizei.",
+            "phonetic": "[ɪç ˈʁuːfə diː poliˈt͡saɪ̯]",
+            "translation": "Я вызываю полицию.",
+            "note": "Глагол 'rufen' + винительный падеж. В данном случае 'die Polizei' — это прямое дополнение."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Hilfe brauchen",
+        "translation": "Нуждаться в помощи",
+        "examples": [
+          {
+            "original": "Ich brauche einen Arzt.",
+            "phonetic": "[ɪç ˈbʁaʊ̯xə ˈaɪ̯nən aːɐ̯t͡st]",
+            "translation": "Мне нужен врач.",
+            "note": "'Brauchen' управляет винительным падежом; 'einen Arzt' — мужской род, винительный падеж. Осторожно: не говорят 'eine Hilfe' (помощь), а только 'Hilfe' без артикля."
+          },
+          {
+            "original": "Brauchen Sie Hilfe?",
+            "phonetic": "[ˈbʁaʊ̯xən ziː ˈhɪlfə]",
+            "translation": "Вам нужна помощь?",
+            "note": "Вежливый вопрос с инверсией подлежащего и сказуемого. Полезно для предложения помощи."
+          },
+          {
+            "original": "Ich brauche Wasser.",
+            "phonetic": "[ɪç ˈbʁaʊ̯xə ˈvasɐ]",
+            "translation": "Мне нужна вода.",
+            "note": "Существительное без артикля (Wasser) в общем случае. Аналогично, 'Hilfe' не требует артикля."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Sich verlaufen und Notfall",
+        "translation": "Потеряться и ситуации, требующие экстренной помощи",
+        "examples": [
+          {
+            "original": "Ich habe mich verlaufen.",
+            "phonetic": "[ɪç ˈhaːbə mɪç fɛɐ̯ˈlaʊ̯fən]",
+            "translation": "Я заблудился/заблудилась (пешком).",
+            "note": "Используется 'sich verlaufen' для обозначения того, что заблудился пешком, и 'sich verfahren' — если заблудился за рулём. Здесь используется перфект."
+          },
+          {
+            "original": "Wo ist das Krankenhaus?",
+            "phonetic": "[voː ɪst das ˈkʁaŋkn̩ˌhaʊ̯s]",
+            "translation": "Где находится больница?",
+            "note": "Базовый вопрос о местоположении. 'Krankenhaus' — больница, составлено из 'Kranke' (больной) + 'Haus' (дом)."
+          },
+          {
+            "original": "Ich fühle mich nicht gut.",
+            "phonetic": "[ɪç ˈfyːlə mɪç nɪçt ɡuːt]",
+            "translation": "Мне нехорошо.",
+            "note": "Полезная фраза для указания на плохое самочувствие. Возвратный глагол 'sich fühlen' используется так же, как в испанском."
+          },
+          {
+            "original": "Rufen Sie einen Krankenwagen!",
+            "phonetic": "[ˈʁuːfən ziː ˈaɪ̯nən ˈkʁaŋkn̩ˌvaːɡn̩]",
+            "translation": "Вызовите скорую помощь!",
+            "note": "'Krankenwagen' — скорая помощь, буквально 'машина для больных'. Синоним: 'Rettungswagen'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚨",
+    "phonetic": "",
+    "translations": {
+      "ru": "Фразы для экстренных случаев"
+    }
+  }
+]

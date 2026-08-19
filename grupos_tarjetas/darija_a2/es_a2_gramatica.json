@@ -1,0 +1,779 @@
+[
+  {
+    "id": "es_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الماضي البسيط / Pasado simple (verbos regulares e irregulares)",
+    "bridge": "En español, el pasado simple (pretérito perfecto simple) se forma añadiendo terminaciones específicas a la raíz del verbo según la persona (ej. 'hablé', 'comiste'). En darija, el pasado simple es más sencillo en estructura pero tiene particularidades: los verbos regulares suelen añadir un prefijo 'k-' o '-t' y sufijos como '-t' o '-u' dependiendo del sujeto, mientras que los irregulares cambian completamente su raíz. Un error común es transferir la estructura española directamente, por ejemplo, diciendo '*ana ktklem' en lugar de 'ana klemt' (yo hablé). Además, en darija no existe el pretérito perfecto compuesto como en español ('he hablado'), por lo que el pasado simple es la única opción para acciones terminadas en el pasado.",
+    "rule": "En darija (árabe marroquí), el pasado simple se forma principalmente con los siguientes patrones:\n\n1. **Verbos regulares (trilíteros):**\n   - Se añade un prefijo 'k-' (para singular masculino/femenino y plural femenino) o '-t' (para singular femenino y plural masculino) a la raíz del verbo, seguido de la terminación del pasado.\n   - Ejemplos:\n     - **k- + raíz + -t** (para 'yo' en masculino): 'klemt' (yo hablé).\n     - **k- + raíz + -u** (para 'nosotros'): 'klemu' (nosotros hablamos).\n     - **t- + raíz + -t** (para 'tú' femenino o 'ellos'): 'tlemt' (tú hablaste femenino / ellos hablaron).\n   - Excepción: Para el verbo 'ser' (كان / kan), se usa 'kunt' (yo fui), 'kunti' (tú fuiste femenino), etc.\n\n2. **Verbos irregulares:**\n   - Cambian completamente su raíz en el pasado. Algunos ejemplos comunes:\n     - '去 / mshe' (ir) → 'mshet' (yo fui).\n     - 'أكل / kla' (comer) → 'klt' (yo comí).\n     - 'شوف / shuf' (ver) → 'shuft' (yo vi).\n   - No siguen un patrón fijo, por lo que deben memorizarse.\n\n3. **Negación:**\n   - Se añade 'ma...-sh' alrededor del verbo: 'ma klemt-sh' (yo no hablé).\n\n4. **Preguntas:**\n   - Se usa la partícula 'shhal' al inicio: 'Shhal klemt?' (¿Qué dijiste?).\n\nUso típico: Acciones completadas en el pasado sin relación con el presente. No se usa para acciones recientes o con marcadores como 'hoy' (اليوم / lyoum), donde se prefiere el pasado cercano (ej. 'ana mshet lyoum' / yo fui hoy).",
+    "concept_examples": [
+      {
+        "text": "أنا ككليت الدجاج",
+        "translation": "Yo comí el pollo.",
+        "phonetic": "Ana kklti d-djāj"
+      },
+      {
+        "text": "هو كتب الرسالة",
+        "translation": "Él escribió la carta.",
+        "phonetic": "Huwa ktb l-risāla"
+      },
+      {
+        "text": "همّ شافوا الفيلم",
+        "translation": "Ellos vieron la película.",
+        "phonetic": "Humm shāfu l-fīlm"
+      },
+      {
+        "text": "انتِ شربتي الشاي",
+        "translation": "Tú (femenino) tomaste el té.",
+        "phonetic": "Anti shribti sh-shāy"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا أكلت الدجاج (Ana aklit d-djāj)",
+      "correct": "أنا ككليت الدجاج (Ana kklti d-djāj)",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque se transfiere la estructura del pasado simple español ('yo comí') directamente al darija, añadiendo '-t' sin el prefijo 'k-'. En darija, el prefijo 'k-' es obligatorio para el pasado simple en la mayoría de los casos (excepto en verbos irregulares como 'mshe' → 'mshet'). La forma correcta es 'kklti' (yo comí), donde 'k-' marca el pasado y '-ti' la primera persona singular femenina. Para masculino, sería 'kklt' (sin '-i')."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "أفعال عادية (verbos regulares)",
+        "translation": "Verbos regulares",
+        "examples": [
+          {
+            "original": "أنا ككتبت الرسالة",
+            "phonetic": "Ana ktbti l-risāla",
+            "translation": "Yo escribí la carta.",
+            "note": "Verbo regular 'كتب / ktb' (escribir). Prefijo 'k-' + raíz 'ktb' + sufijo '-ti' para femenino."
+          },
+          {
+            "original": "هو كقرا الكتاب",
+            "phonetic": "Huwa kqrā l-ktāb",
+            "translation": "Él leyó el libro.",
+            "note": "Verbo regular 'قرأ / qrā' (leer). Prefijo 'k-' + raíz 'qrā' (sin sufijo adicional para masculino singular)."
+          },
+          {
+            "original": "همّ ككلوا الدجاج",
+            "phonetic": "Humm kklu d-djāj",
+            "translation": "Ellos comieron el pollo.",
+            "note": "Verbo regular 'أكل / kla' (comer). Prefijo 'k-' + raíz 'kla' + sufijo '-u' para plural."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "أفعال شاذة (verbos irregulares)",
+        "translation": "Verbos irregulares",
+        "examples": [
+          {
+            "original": "أنا شفت الفيلم",
+            "phonetic": "Ana shuft l-fīlm",
+            "translation": "Yo vi la película.",
+            "note": "Verbo irregular 'شوف / shuf' (ver). Raíz cambia a 'shuft' en pasado."
+          },
+          {
+            "original": "هو مسح من الدار",
+            "phonetic": "Huwa msāḥ mn d-dār",
+            "translation": "Él se fue de la casa.",
+            "note": "Verbo irregular 'مسح / msāḥ' (irse). Raíz cambia completamente a 'msāḥ'."
+          },
+          {
+            "original": "همّ كان عندهم مال",
+            "phonetic": "Humm kān ʕndhum māl",
+            "translation": "Ellos tenían dinero.",
+            "note": "Verbo irregular 'كان / kān' (ser/estar). Forma 'kān' en pasado para plural."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "نفي وسؤال (negación y preguntas)",
+        "translation": "Negación y preguntas",
+        "examples": [
+          {
+            "original": "ما ككليت-ش الدجاج",
+            "phonetic": "Ma kklti-sh d-djāj",
+            "translation": "Yo no comí el pollo.",
+            "note": "Negación con 'ma...-sh' alrededor del verbo pasado."
+          },
+          {
+            "original": "شحال كتبتي الرسالة؟",
+            "phonetic": "Shḥāl ktbti l-risāla?",
+            "translation": "¿Qué escribiste (tú femenino) en la carta?",
+            "note": "Pregunta con 'shḥāl' (¿qué?) al inicio."
+          },
+          {
+            "original": "هو ما شاف-ش الفيلم",
+            "phonetic": "Huwa ma shāf-sh l-fīlm",
+            "translation": "Él no vio la película.",
+            "note": "Negación con verbo irregular 'شاف / shāf'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "مقارنة مع الإسباني (comparación con español)",
+        "translation": "Comparación con español",
+        "examples": [
+          {
+            "original": "أنا كتبتو الرسالة (incorrecto)",
+            "phonetic": "Ana ktbto l-risāla",
+            "translation": "Yo escribí la carta (error típico).",
+            "note": "Error por transferencia directa del español: en darija no se usa '-o' para masculino singular en pasado simple regular."
+          },
+          {
+            "original": "أنا شفت الفيلم (correcto)",
+            "phonetic": "Ana shuft l-fīlm",
+            "translation": "Yo vi la película.",
+            "note": "Verbo irregular 'ver' en español vs. 'شاف / shuf' en darija, con cambio radical en pasado."
+          },
+          {
+            "original": "همّ كانو عندهم مال",
+            "phonetic": "Humm kānu ʕndhum māl",
+            "translation": "Ellos tenían dinero.",
+            "note": "En español se usa 'tenían' (imperfecto), pero en darija 'كان / kān' en pasado simple para expresar posesión en el pasado."
+          }
+        ]
+      }
+    ],
+    "emoji": "📜",
+    "phonetic": "",
+    "translations": {
+      "es": "Pasado simple (verbos regulares e irregulares)"
+    }
+  },
+  {
+    "id": "es_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "كن في حالة / Estar en progreso",
+    "bridge": "En español usas el presente continuo con 'estar' + gerundio (ej. 'estoy comiendo'), pero en darija no existe esta estructura. En su lugar, se usa el verbo principal en presente simple con un adverbio de tiempo como 'حال' (ahora) o 'دائما' (siempre) para indicar acción en progreso. Los estudiantes españoles suelen confundirse y añadir 'كان' (estaba) o 'كن' (estoy) como en español, pero en darija esto cambia el significado a pasado o futuro. La clave es entender que el contexto temporal se marca con palabras como 'حال' o 'دبا' (ahora) en lugar de cambiar la estructura verbal.",
+    "rule": "En darija, para expresar el presente continuo o progresivo se sigue esta estructura: [Verbo en presente simple] + [Adverbio de tiempo (opcional)]. Los adverbios más comunes son:\n1. 'حال' (ahora): Indica acción en curso en el momento del habla. Ejemplo: 'كن شارب قهوة حال' (Estoy tomando café ahora).\n2. 'دبا' (ahora): Similar a 'حال', pero más coloquial. Ejemplo: 'كن ناكل دبا' (Estamos comiendo ahora).\n3. 'دائما' (siempre): Indica acción habitual en progreso. Ejemplo: 'كن ندرس دائما' (Estudiamos siempre).\n\nExcepciones:\n- Para verbos de estado (ej. 'كنبغى' - querer, 'كنعرف' - saber), no se usa esta estructura. Se mantiene el presente simple: 'كنبغى ناكل' (Quiero comer).\n- En preguntas, se usa 'شحال' (¿cuánto tiempo?) o 'فين' (¿dónde?) para enfatizar el progreso: 'شحال كنضرب؟' (¿Cuánto tiempo llevas estudiando?).\n\nImportante: No confundir con el pasado ('كان' + verbo) o futuro ('غادي' + verbo). El presente continuo en darija siempre usa el verbo en presente simple con contexto temporal claro.",
+    "concept_examples": [
+      {
+        "text": "كن نقرأ كتاب حال",
+        "translation": "Estoy leyendo un libro ahora.",
+        "phonetic": "kən nqra ktab ḥāl"
+      },
+      {
+        "text": "كن ناكل دبا",
+        "translation": "Estamos comiendo ahora.",
+        "phonetic": "kən nākl dbā"
+      },
+      {
+        "text": "كن ندرس دائما",
+        "translation": "Estudiamos siempre (en este momento).",
+        "phonetic": "kən ndrs dāʾiman"
+      },
+      {
+        "text": "كن تشرب قهوة حال؟",
+        "translation": "¿Estás tomando café ahora?",
+        "phonetic": "kən tšrb qhwa ḥāl?"
+      }
+    ],
+    "common_error": {
+      "wrong": "كان نقرأ كتاب",
+      "correct": "كن نقرأ كتاب حال",
+      "correct_alt": "كن نقرأ كتاب دبا",
+      "explanation": "El error ocurre porque los estudiantes españoles traducen literalmente 'estoy leyendo' como 'كان نقرأ' (estaba leyendo), que en darija es pasado continuo. La clave es usar 'كن' (presente) + verbo + adverbio de tiempo ('حال' o 'دبا') para el presente continuo. 'كان' solo se usa para pasado: 'كان نقرأ كتاب' (Estaba leyendo un libro)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "كن + فعل + حال",
+        "translation": "Verbo en presente + 'حال' (ahora)",
+        "examples": [
+          {
+            "original": "كن نكتب رسالة حال",
+            "phonetic": "kən nktb rslā ḥāl",
+            "translation": "Estoy escribiendo un mensaje ahora.",
+            "note": "Introduce la estructura básica con 'حال' como adverbio de tiempo."
+          },
+          {
+            "original": "كن تمشي حال؟",
+            "phonetic": "kən tmšī ḥāl?",
+            "translation": "¿Estás caminando ahora?",
+            "note": "Practica preguntas simples con 'حال'."
+          },
+          {
+            "original": "كن نسمع موسيقى حال",
+            "phonetic": "kən nsma mūsīqā ḥāl",
+            "translation": "Estamos escuchando música ahora.",
+            "note": "Refuerza el uso con verbos comunes como 'سمع' (escuchar)."
+          },
+          {
+            "original": "كن نحب هاد الفيلم حال",
+            "phonetic": "kən nḥb hād lflm ḥāl",
+            "translation": "Me gusta esta película ahora (en este momento).",
+            "note": "Muestra que 'حال' también puede usarse con verbos de estado en contexto."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "كن + فعل + دبا",
+        "translation": "Verbo en presente + 'دبا' (ahora, coloquial)",
+        "examples": [
+          {
+            "original": "كن ناكل دبا",
+            "phonetic": "kən nākl dbā",
+            "translation": "Estamos comiendo ahora.",
+            "note": "Introduce 'دبا' como alternativa coloquial a 'حال'."
+          },
+          {
+            "original": "كن ندرس دبا؟",
+            "phonetic": "kən ndrs dbā?",
+            "translation": "¿Estás estudiando ahora?",
+            "note": "Practica preguntas con 'دبا' para familiarizarse con el registro informal."
+          },
+          {
+            "original": "كن نخدم فالمطبخ دبا",
+            "phonetic": "kən nḫdm f-lmṭbkh dbā",
+            "translation": "Estamos trabajando en la cocina ahora.",
+            "note": "Combina 'دبا' con verbos de acción cotidiana."
+          },
+          {
+            "original": "كن نحب هاد المكان دبا",
+            "phonetic": "kən nḥb hād l-mkān dbā",
+            "translation": "Me gusta este lugar ahora.",
+            "note": "Muestra que 'دبا' también funciona con verbos de estado en contexto coloquial."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "كن + فعل + دائما",
+        "translation": "Verbo en presente + 'دائما' (siempre en progreso)",
+        "examples": [
+          {
+            "original": "كن ندرس دائما",
+            "phonetic": "kən ndrs dāʾiman",
+            "translation": "Estudiamos siempre (en este momento).",
+            "note": "Introduce 'دائما' para acciones habituales en progreso."
+          },
+          {
+            "original": "كن نسمع الأخبار دائما",
+            "phonetic": "kən nsma l-ākhbār dāʾiman",
+            "translation": "Siempre escuchamos las noticias.",
+            "note": "Combina 'دائما' con verbos de acción frecuente."
+          },
+          {
+            "original": "كن نحب هاد النوع د música دائما",
+            "phonetic": "kən nḥb hād n-nwʿ d mūsīqā dāʾiman",
+            "translation": "Me gusta este tipo de música siempre.",
+            "note": "Muestra que 'دائما' también puede usarse con verbos de estado en contexto de preferencia."
+          },
+          {
+            "original": "شحال كنضرب دائما؟",
+            "phonetic": "šḥāl kntḍrb dāʾiman?",
+            "translation": "¿Cuánto tiempo llevas estudiando siempre?",
+            "note": "Practica preguntas con 'شحال' para enfatizar la duración de la acción."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "es": "Presente continuo en darija"
+    }
+  },
+  {
+    "id": "es_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "المستقبل بـ \"راد/غادي\" / Futuro con \"rad/gadi\"",
+    "bridge": "En español usas \"voy a + infinitivo\" para expresar planes futuros cercanos, pero en darija marroquí se usa principalmente \"راد/غادي + verbo en presente\" (con \"راد\" para primera persona y \"غادي\" para las demás). A diferencia del español, no se usa un infinitivo, sino la forma conjugada del verbo en presente. Además, en darija el verbo \"راد\" (querer) pierde su significado original y funciona como auxiliar de futuro, algo que puede confundir a los hispanohablantes acostumbrados a estructuras más literales como \"voy a comer\".",
+    "rule": "En darija marroquí, el futuro cercano se forma con:\n1. Para primera persona (yo): **راد + verbo en presente** (ej: راد ناكل = voy a comer).\n2. Para otras personas: **غادي + verbo en presente** (ej: غادي تاكل = vas a comer, غادي ياكُل = va a comer).\n\n- **Verbos irregulares**: Algunos verbos comunes tienen formas específicas en presente que deben memorizarse (ej: ياكُل/ياكلي = comer, ناكل/ناكلي = como).\n- **Negación**: Se usa **ما...ش** antes del auxiliar (راد/غادي) + verbo en presente (ej: ما غاديش تاكل = no vas a comer).\n- **Preguntas**: Se invierte el orden (¿غادي تاكل؟ = ¿vas a comer?).\n- **Excepciones**: Para expresar intenciones fuertes o decisiones tomadas, a veces se usa solo el verbo en presente con contexto (ej: غادي نروح = voy a ir, pero también puede ser \"voy\" si el contexto es claro).",
+    "concept_examples": [
+      {
+        "text": "راد ناكل معاك بكرة",
+        "translation": "Voy a comer contigo mañana",
+        "phonetic": "rād nākl mʕāk bġād"
+      },
+      {
+        "text": "غادي تاكل عندك؟",
+        "translation": "¿Vas a comer en tu casa?",
+        "phonetic": "ġādī tākəl ʕndk?"
+      },
+      {
+        "text": "غادي نروحMarket بليل",
+        "translation": "Voy a ir al mercado por la noche",
+        "phonetic": "ġādī nrūḥ l-mārkēt blīl"
+      },
+      {
+        "text": "ما غاديش نكتب الرسالة",
+        "translation": "No voy a escribir la carta",
+        "phonetic": "mā ġādīš nktəb l-risāla"
+      }
+    ],
+    "common_error": {
+      "wrong": "راد آكل معاك بكرة (usando infinitivo como en español)",
+      "correct": "راد ناكل معاك بكرة",
+      "correct_alt": "",
+      "explanation": "Los hispanohablantes suelen usar el infinitivo (آكل) porque en español se dice \"voy a comer\", pero en darija el verbo debe conjugarse en presente (ناكل). El auxiliar \"راد\" ya indica el futuro, por lo que no se necesita el infinitivo. La estructura correcta es siempre auxiliar + verbo conjugado."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "راد/غادي + فعل حاضر (أفعال عادية)",
+        "translation": "rad/gadi + verbo en presente (verbos regulares)",
+        "examples": [
+          {
+            "original": "راد نقرا الكتاب",
+            "phonetic": "rād nqrā l-ktāb",
+            "translation": "Voy a leer el libro",
+            "note": "Verbo regular: قرا (leer) → نقرا (leo). El auxiliar \"راد\" marca el futuro."
+          },
+          {
+            "original": "غادي تاكتب الرسالة",
+            "phonetic": "ġādī tākbt l-risāla",
+            "translation": "Vas a escribir la carta",
+            "note": "Verbo regular: كتب (escribir) → تاكتب (escribes). \"غادي\" se usa para segunda persona."
+          },
+          {
+            "original": "راد نروح عندك",
+            "phonetic": "rād nrūḥ ʕndk",
+            "translation": "Voy a ir a tu casa",
+            "note": "Verbo irregular: راحت (ir) → نروح (voy). Memorizar formas comunes."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "راد/غادي + أفعال شائعة (أكل، شرب، etc.)",
+        "translation": "rad/gadi + verbos comunes (comer, beber, etc.)",
+        "examples": [
+          {
+            "original": "غادي تاكل عند جدي",
+            "phonetic": "ġādī tākəl ʕnd jdī",
+            "translation": "Vas a comer en casa de mi abuelo",
+            "note": "Verbo común: اكل (comer) → تاكل (comes). Usar contexto para diferenciar \"comer\" de \"querer comer\"."
+          },
+          {
+            "original": "راد نشرب قهوة",
+            "phonetic": "rād nšrb qhwa",
+            "translation": "Voy a tomar un café",
+            "note": "Verbo regular: شرب (beber) → نشرب (bebo). En darija, \"قهوة\" (café) es femenino."
+          },
+          {
+            "original": "غادي ياكُل معاك",
+            "phonetic": "ġādī yākəl mʕāk",
+            "translation": "Él va a comer contigo",
+            "note": "Verbo irregular: اكل (comer) → ياكُل (come). Tercera persona usa \"غادي\" + verbo conjugado."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "راد/غادي + نفي وسؤال",
+        "translation": "rad/gadi + negación y preguntas",
+        "examples": [
+          {
+            "original": "ما غاديش نروحMarket اليوم",
+            "phonetic": "mā ġādīš nrūḥ l-mārkēt l-yūm",
+            "translation": "No voy a ir al mercado hoy",
+            "note": "Negación: ما...ش alrededor del auxiliar. \"غادي\" se convierte en \"غاديش\" en negación."
+          },
+          {
+            "original": "غادي تاكل عندنا؟",
+            "phonetic": "ġādī tākəl ʕndnā?",
+            "translation": "¿Vas a comer en nuestra casa?",
+            "note": "Pregunta directa: se invierte el orden sin verbo auxiliar extra. Tono ascendente al final."
+          },
+          {
+            "original": "راد نكتب الرسالة؟",
+            "phonetic": "rād nktəb l-risāla?",
+            "translation": "¿Voy a escribir la carta?",
+            "note": "Pregunta en primera persona: se usa el orden normal pero con entonación interrogativa."
+          },
+          {
+            "original": "ما غاديش ياكُل معاك",
+            "phonetic": "mā ġādīš yākəl mʕāk",
+            "translation": "Él no va a comer contigo",
+            "note": "Negación para tercera persona: \"ما غاديش\" + verbo conjugado."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚀",
+    "phonetic": "",
+    "translations": {
+      "es": "Futuro con \"rad/gadi\""
+    }
+  },
+  {
+    "id": "es_A2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "المستقبل البسيط / Futuro simple",
+    "bridge": "En español usas el futuro simple (ej. 'comeré') para hablar de acciones que ocurrirán más tarde, pero en darija no existe una forma verbal específica para el futuro. En su lugar, se usa el presente con partículas como 'غادي' (ga-di) o 'حتن' (ha-tn) para marcar el futuro, similar a cómo en español usas 'voy a' + infinitivo. La clave es que en darija no conjugas el verbo para el futuro, sino que añades estas partículas antes del verbo en presente. ¡Cuidado! No intentes traducir literalmente 'comeré' como 'أنا آكل' (ana akl) + futuro español, porque en darija suena incorrecto.",
+    "rule": "En darija, el futuro simple se forma con:\n1. La partícula 'غادي' (ga-di) para acciones inmediatas o cercanas: 'غادي ناكل' (ga-di n-akl) = 'Voy a comer'.\n2. La partícula 'حتن' (ha-tn) para acciones más lejanas o planeadas: 'حتن نروح' (ha-tn n-ruh) = 'Iré'.\n\nFormas:\n- Para todas las personas, la estructura es: [partícula] + [verbo en presente].\n- Ejemplos con 'ياكل' (yakl, 'comer'):\n  - أنا غادي ناكل (ana ga-di n-akl) = Yo voy a comer.\n  - انت غادي تاكل (nta ga-di ta-kl) = Tú (masc.) vas a comer.\n  - انتِ غادي تاكلي (nti ga-di ta-kl-i) = Tú (fem.) vas a comer.\n  - هو غادي ياكل (huwa ga-di ya-kl) = Él va a comer.\n  - هي غادي تاكل (hiya ga-di ta-kl) = Ella va a comer.\n  - احنا غادي ناكلو (hna ga-di n-aklu) = Nosotros vamos a comer.\n  - انتما غادي تاكلو (ntuma ga-di ta-klu) = Vosotros vais a comer.\n  - هما غادي ياكلو (huma ga-di ya-klu) = Ellos van a comer.\n\nExcepciones:\n- Con verbos que ya implican futuro (ej. 'يريد' yrid, 'querer'), no se usa 'غادي' ni 'حتن': 'بدي نروح' (bdi n-ruh) = 'Quiero ir'.\n- En preguntas, se usa 'واش' (was) al inicio: 'واش غادي تاكل؟' (was ga-di ta-kl?) = '¿Vas a comer?'.",
+    "concept_examples": [
+      {
+        "text": "غادي نروح للمدرسة غدا",
+        "translation": "Voy a ir a la escuela mañana.",
+        "phonetic": "ga-di n-ruh l-l-madrasa gda"
+      },
+      {
+        "text": "حتن نتفاهم بزااف",
+        "translation": "Voy a entender mucho.",
+        "phonetic": "ha-tn n-tfahm bzzaf"
+      },
+      {
+        "text": "هي غادي تشتري خبز",
+        "translation": "Ella va a comprar pan.",
+        "phonetic": "hiya ga-di t-štri xzubz"
+      },
+      {
+        "text": "انت غادي تدير الواجب",
+        "translation": "Tú vas a hacer la tarea.",
+        "phonetic": "nta ga-di t-dir l-wajib"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا آكل غدا (ana akl gda)",
+      "correct": "غادي ناكل غدا (ga-di n-akl gda)",
+      "correct_alt": "حتن ناكل غدا (ha-tn n-akl gda)",
+      "explanation": "El error ocurre porque el español usa el presente ('como') para hablar de futuro con marcadores temporales como 'mañana', pero en darija esto suena incorrecto. La partícula 'غادي' o 'حتن' es obligatoria para indicar futuro, incluso si el contexto temporal (ej. 'غدا') ya lo sugiere. La estructura correcta es: [partícula] + [verbo en presente]."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "غادي + فعل حاضر",
+        "translation": "Partícula 'غادي' + verbo en presente",
+        "examples": [
+          {
+            "original": "غادي نقرا الكتاب",
+            "phonetic": "ga-di n-qra l-ktab",
+            "translation": "Voy a leer el libro.",
+            "note": "Introduce la partícula 'غادي' para acciones inmediatas. Enfatiza que el verbo no cambia."
+          },
+          {
+            "original": "غادي تمشي معايا",
+            "phonetic": "ga-di t-mši m3aya",
+            "translation": "Vas a caminar conmigo.",
+            "note": "Usa 'غادي' con verbos de movimiento para acciones cercanas."
+          },
+          {
+            "original": "غادي نسمع الموسيقى",
+            "phonetic": "ga-di n-sm3 l-musiqa",
+            "translation": "Voy a escuchar música."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "حتن + فعل حاضر",
+        "translation": "Partícula 'حتن' + verbo en presente",
+        "examples": [
+          {
+            "original": "حتن نروح بزااف",
+            "phonetic": "ha-tn n-ruh bzzaf",
+            "translation": "Iré muy pronto.",
+            "note": "Introduce 'حتن' para acciones planeadas o lejanas. Compara con 'غادي' para acciones inmediatas."
+          },
+          {
+            "original": "حتن نتفاهم مع بعض",
+            "phonetic": "ha-tn n-tfahm m3a b3d",
+            "translation": "Vamos a entendernos entre nosotros.",
+            "note": "Usa 'حتن' con verbos de comprensión o interacción social."
+          },
+          {
+            "original": "حتن نخدمو بزااف",
+            "phonetic": "ha-tn n-xdmu bzzaf",
+            "translation": "Trabajaremos mucho."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "أسئلة و نفي المستقبل",
+        "translation": "Preguntas y negación en futuro",
+        "examples": [
+          {
+            "original": "واش غادي تاكل؟",
+            "phonetic": "was ga-di ta-kl?",
+            "translation": "¿Vas a comer?",
+            "note": "Enfatiza el uso de 'واش' al inicio para preguntas en futuro."
+          },
+          {
+            "original": "ما غاديش نروح",
+            "phonetic": "ma ga-di-š n-ruh",
+            "translation": "No voy a ir.",
+            "note": "Explica la negación con 'ما...ش' y la partícula 'غادي'."
+          },
+          {
+            "original": "واش حتن تدير الواجب؟",
+            "phonetic": "was ha-tn t-dir l-wajib?",
+            "translation": "¿Vas a hacer la tarea?"
+          },
+          {
+            "original": "ما حتنش نسمعوا",
+            "phonetic": "ma ha-tn-š n-sm3u",
+            "translation": "No vamos a escuchar."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚀",
+    "phonetic": "",
+    "translations": {
+      "es": "Futuro simple"
+    }
+  },
+  {
+    "id": "es_A2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "مقارنات و تفوّق / Comparativos y superlativos",
+    "bridge": "En español ya conoces los comparativos con '-er'/'más' y superlativos con '-ísimo' o 'el más'. En darija, la estructura es distinta: no usamos sufijos, sino partículas fijas como 'أكثر' (más) para comparativos y 'أكبر' (el más) para superlativos. Un error común es traducir literalmente 'más grande' como 'أكبر' en todos los contextos, pero en darija 'أكبر' solo se usa para tamaño físico o jerarquía, no para cualidades abstractas como 'más inteligente'. Además, la partícula 'من' (que) marca el segundo término de comparación, algo que no existe en español.",
+    "rule": "1. **Comparativos de igualdad**: Se forma con 'زي ما' (como) + adjetivo/adverbio. Ejemplo: 'زي ما طويل' (tan alto como).\n\n2. **Comparativos de superioridad/inferioridad**:\n   - Superioridad: 'أكثر' (más) + adjetivo/adverbio + 'من' (que) + término comparado. Ejemplo: 'أكثر جمال منك' (más bonito que tú).\n   - Inferioridad: 'أقل' (menos) + adjetivo/adverbio + 'من' (que) + término comparado. Ejemplo: 'أقل سرعة من السيارة' (menos rápido que el coche).\n\n3. **Superlativos relativos**:\n   - Se usa 'أكبر' (el más) + adjetivo para tamaño físico o jerarquía. Ejemplo: 'أكبر بيت في المدينة' (la casa más grande de la ciudad).\n   - Para cualidades abstractas, se usa 'أكثر' + adjetivo + 'في' (en) + contexto. Ejemplo: 'أكثر ذكاء في الفصل' (el más inteligente de la clase).\n\n4. **Superlativos absolutos**: Se forma con 'جدا' (muy) + adjetivo. Ejemplo: 'جميل جدا' (muy bonito).\n\n5. **Excepciones comunes**:\n   - Algunos adjetivos tienen formas irregulares: 'كبير' (grande) → 'أكبر' (el más grande), 'صغير' (pequeño) → 'أصغر' (el más pequeño).\n   - Para 'bueno/mejor' y 'malo/peor', se usan 'مزيان' (bueno) → 'أحسن' (mejor) y 'سيئ' (malo) → 'أسوأ' (peor).",
+    "concept_examples": [
+      {
+        "text": "زي ما غني زي محمد",
+        "translation": "Tan rico como Mohamed.",
+        "phonetic": "ziː maː ɣanniː ziː muħammad"
+      },
+      {
+        "text": "أكثر جمال من أختي",
+        "translation": "Más bonita que mi hermana.",
+        "phonetic": "akθar dʒamaːl min uxtiː"
+      },
+      {
+        "text": "أقل سرعة من الدراجة",
+        "translation": "Menos rápido que la bicicleta.",
+        "phonetic": "aql sarʕa min ad-draːdʒa"
+      },
+      {
+        "text": "أكبر بيت في الحي",
+        "translation": "La casa más grande del barrio.",
+        "phonetic": "akbar beːt fiː l-ħajj"
+      }
+    ],
+    "common_error": {
+      "wrong": "هذا الكتاب أكثر أجمل من ذاك",
+      "correct": "هذا الكتاب أكثر جمال من ذاك",
+      "correct_alt": "هذا الكتاب أجمل من ذاك",
+      "explanation": "El error ocurre porque se intenta traducir literalmente la estructura española 'más bonito' usando 'أكثر أجمل'. En darija, 'أكثر' ya implica 'más' en el adjetivo, por lo que no se duplica con '-er'. La forma correcta es 'أكثر جمال' (más bonito) o simplemente 'أجمل' (más bonito), que es la forma irregular de 'جميل' (bonito)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "مقارنات المساواة",
+        "translation": "Comparativos de igualdad",
+        "examples": [
+          {
+            "original": "زي ما سخون اليوم",
+            "phonetic": "ziː maː sχuːn al-jawm",
+            "translation": "Tan caliente como hoy.",
+            "note": "Introduce la partícula 'زي ما' para comparaciones de igualdad con adjetivos."
+          },
+          {
+            "original": "زي ما بطيء السيارة",
+            "phonetic": "ziː maː bətʕiː as-siːaːra",
+            "translation": "Tan lento como el coche.",
+            "note": "Practica con adjetivos comunes como 'بطيء' (lento) y 'سخون' (caliente)."
+          },
+          {
+            "original": "زي ما طويل أنت",
+            "phonetic": "ziː maː tawiːl int",
+            "translation": "Tan alto como tú.",
+            "note": "Enfócate en comparaciones personales con pronombres como 'أنت' (tú)."
+          },
+          {
+            "original": "زي ما نظيف الغرفة",
+            "phonetic": "ziː maː nəziːf al-ɣurfa",
+            "translation": "Tan limpia como la habitación.",
+            "note": "Usa sustantivos con adjetivos para ampliar el vocabulario."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "مقارنات التفوق",
+        "translation": "Comparativos de superioridad/inferioridad",
+        "examples": [
+          {
+            "original": "أكثر برودة من الأمس",
+            "phonetic": "akθar baruːda min al-ams",
+            "translation": "Más frío que ayer.",
+            "note": "Introduce 'أكثر' + adjetivo + 'من' para comparaciones de superioridad."
+          },
+          {
+            "original": "أقل ازدحام من السوق",
+            "phonetic": "aql izdɪħaːm min as-suq",
+            "translation": "Menos concurrido que el mercado.",
+            "note": "Practica con 'أقل' para comparaciones de inferioridad."
+          },
+          {
+            "original": "أكثر ذكاء من أخيه",
+            "phonetic": "akθar ðakaːʔ min uxiːh",
+            "translation": "Más inteligente que su hermano.",
+            "note": "Enfócate en adjetivos abstractos como 'ذكاء' (inteligencia)."
+          },
+          {
+            "original": "أقل ارتفاع من الجبل",
+            "phonetic": "aql irtafaːʕ min al-dʒabal",
+            "translation": "Menos alto que la montaña.",
+            "note": "Combina comparativos con sustantivos para describir dimensiones."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "تفوّق مطلق و نسبي",
+        "translation": "Superlativos absolutos y relativos",
+        "examples": [
+          {
+            "original": "جميل جدا هذا الفيلم",
+            "phonetic": "dʒamiːl dʒidan haːða l-fiːlm",
+            "translation": "Muy bonita esta película.",
+            "note": "Introduce 'جدا' para superlativos absolutos con adjetivos."
+          },
+          {
+            "original": "أكبر مدينة في المغرب",
+            "phonetic": "akbar madiːna fiː l-maɣrib",
+            "translation": "La ciudad más grande de Marruecos.",
+            "note": "Practica superlativos relativos con 'أكبر' para tamaño físico."
+          },
+          {
+            "original": "أكثر سرعة في الفريق",
+            "phonetic": "akθar sarʕa fiː l-fiːriq",
+            "translation": "El más rápido del equipo.",
+            "note": "Usa 'أكثر' + adjetivo + 'في' para cualidades abstractas en superlativos."
+          },
+          {
+            "original": "أحسن طالب في الفصل",
+            "phonetic": "aħsan tˤaːlib fiː l-faṣl",
+            "translation": "El mejor estudiante de la clase.",
+            "note": "Enseña formas irregulares como 'أحسن' (mejor) para 'مزيان' (bueno)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📊",
+    "phonetic": "",
+    "translations": {
+      "es": "Comparativos y superlativos"
+    }
+  },
+  {
+    "id": "es_A2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الأفعال المساعدة (يجب، لازم، عندك) / Verbos modales (deber, tener que, poder)",
+    "bridge": "En español, los verbos modales como 'deber', 'tener que' o 'poder' se conjugan según el sujeto y el tiempo verbal. En darija, los verbos modales más comunes ('لازم' / lazəm/, 'يجب' /yəjbə/, 'عندك' /ʕəndək/) no se conjugan en tiempo, pero sí varían en forma según el sujeto (pronombres independientes o sufijos). Un error típico es usar la forma del verbo modal en infinitivo como en español ('debo ir' → 'لازم تمشي' /lazəm təmši/ en lugar de 'لازم تمشي' /lazəm təmši/ que ya es correcto, pero muchos confunden con estructuras como 'debo de ir' que no existen en darija). Además, en darija, 'عندك' /ʕəndək/ puede significar tanto 'tener que' como 'poder' según el contexto, lo que genera confusión para hispanohablantes que asocian 'tener' solo con posesión.",
+    "rule": "En darija, los verbos modales principales son:\n1. **لازم** /lazəm/: Equivale a 'deber' o 'tener que' en español. No cambia de forma según el tiempo, pero sí según el sujeto:\n   - Forma base: لازم /lazəm/ + verbo en presente (sin conjugación).\n   - Para sujetos específicos, se usan pronombres independientes o sufijos:\n     - أنا لازم نمشي /ana lazəm nəmši/ (Yo debo ir)\n     - أنت لازم تمشي /nta lazəm təmši/ (Tú debes ir)\n     - هو لازم يمشي /huwa lazəm yəmši/ (Él debe ir)\n   - Excepción: En negativo, se usa 'ما' /ma/ + 'لازم' /lazəm/ + verbo:\n     - ما لازم نمشي /ma lazəm nəmši/ (No debo ir).\n\n2. **يجب** /yəjbə/: Más formal que 'لازم', equivale a 'deber' en contextos de obligación moral o recomendación. Se usa principalmente en frases como:\n   - يجب عليا نمشي /yəjbə ʕliya nəmši/ (Debo ir, literalmente 'es obligatorio sobre mí ir').\n   - يجب عليك تمشي /yəjbə ʕlik təmši/ (Debes ir).\n   - No se usa en negativo directo; se reemplaza por 'ما' /ma/ + 'يجب' /yəjbə/ + verbo:\n     - ما يجب عليا نمشي /ma yəjbə ʕliya nəmši/ (No debo ir).\n\n3. **عندك** /ʕəndək/: Puede significar 'tener que' (obligación) o 'poder' (capacidad), dependiendo del contexto. Se usa con pronombres sufijos:\n   - عندي لازم نمشي /ʕəndi lazəm nəmši/ (Tengo que ir, literalmente 'a mí es necesario ir').\n   - عندك تمشي /ʕəndək təmši/ (Puedes ir, literalmente 'a ti es posible ir').\n   - En negativo: ما عندي /ma ʕəndi/ + verbo:\n     - ما عندي نمشي /ma ʕəndi nəmši/ (No tengo que ir / No puedo ir, según contexto).\n\nNota: En darija, la negación de los verbos modales se forma con 'ما' /ma/ antes del modal, no después del verbo como en español ('no debo' → 'ما لازم نمشي' /ma lazəm nəmši/).",
+    "concept_examples": [
+      {
+        "text": "لازم نمشي باكر",
+        "translation": "Debo ir temprano.",
+        "phonetic": "/lazəm nəmši bakər/"
+      },
+      {
+        "text": "عندك تمشي معايا؟",
+        "translation": "¿Puedes ir conmigo?",
+        "phonetic": "/ʕəndək təmši mʕaja/"
+      },
+      {
+        "text": "يجب عليك تساعدني",
+        "translation": "Debes ayudarme.",
+        "phonetic": "/yəjbə ʕlik təsʕədni/"
+      },
+      {
+        "text": "ما لازم ناكل هنا",
+        "translation": "No debemos comer aquí.",
+        "phonetic": "/ma lazəm nəkl həna/"
+      }
+    ],
+    "common_error": {
+      "wrong": "يجب تمشي معايا؟",
+      "correct": "عندك تمشي معايا؟",
+      "correct_alt": "يمكن تمشي معايا؟",
+      "explanation": "El error ocurre porque 'يجب' /yəjbə/ no se usa para preguntar sobre capacidad o posibilidad en darija, sino para obligaciones formales o morales. Los hispanohablantes suelen transferir la estructura '¿Debes ir conmigo?' directamente, pero en darija se usa 'عندك' /ʕəndək/ (tener capacidad) o 'يمكن' /ykun/ (poder) para preguntas de posibilidad. 'يجب' suena demasiado formal o incorrecto en contextos cotidianos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "لازم (obligación)",
+        "translation": "Obligación con 'lazəm'",
+        "examples": [
+          {
+            "original": "لازم ناكل",
+            "phonetic": "/lazəm nəkl/",
+            "translation": "Debemos comer.",
+            "note": "Forma base del modal 'lazəm' con verbo en presente."
+          },
+          {
+            "original": "ما لازم ناكل هنا",
+            "phonetic": "/ma lazəm nəkl həna/",
+            "translation": "No debemos comer aquí.",
+            "note": "Negación con 'ما' antes del modal."
+          },
+          {
+            "original": "أنت لازم تمشي",
+            "phonetic": "/nta lazəm təmši/",
+            "translation": "Tú debes ir.",
+            "note": "Uso del pronombre independiente 'أنت' con 'lazəm'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "عندك (tener que / poder)",
+        "translation": "Obligación o capacidad con 'ʕəndək'",
+        "examples": [
+          {
+            "original": "عندك تمشي غدا؟",
+            "phonetic": "/ʕəndək təmši gəda/",
+            "translation": "¿Puedes ir mañana?",
+            "note": "'عندك' aquí significa 'poder' (capacidad)."
+          },
+          {
+            "original": "عندك لازم ندرس",
+            "phonetic": "/ʕəndək lazəm nədrəs/",
+            "translation": "Tengo que estudiar.",
+            "note": "'عندك' + 'لازم' para obligación con 'tener'."
+          },
+          {
+            "original": "ما عندي نمشي",
+            "phonetic": "/ma ʕəndi nəmši/",
+            "translation": "No puedo ir / No tengo que ir.",
+            "note": "Negación ambigua; el contexto aclara si es 'poder' o 'tener que'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "يجب (deber formal)",
+        "translation": "Obligación moral o recomendación con 'yəjbə'",
+        "examples": [
+          {
+            "original": "يجب عليك تساعد والدك",
+            "phonetic": "/yəjbə ʕlik təsʕəd waldək/",
+            "translation": "Debes ayudar a tu padre.",
+            "note": "Uso formal de 'يجب' con pronombre independiente."
+          },
+          {
+            "original": "ما يجب عليا نكذب",
+            "phonetic": "/ma yəjbə ʕliya nəkdəb/",
+            "translation": "No debo mentir.",
+            "note": "Negación con 'ما' antes de 'يجب'."
+          },
+          {
+            "original": "يجب نكون مستعدين",
+            "phonetic": "/yəjbə nəknun mustaʕdinn/",
+            "translation": "Debemos estar preparados.",
+            "note": "Forma impersonal con 'نكون' (ser/estar)."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔥",
+    "phonetic": "",
+    "translations": {
+      "es": "Verbos modales (deber, tener que, poder)"
+    }
+  }
+]

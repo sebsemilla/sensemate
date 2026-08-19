@@ -1,0 +1,374 @@
+[
+  {
+    "id": "zh_C1_gram_01",
+    "type": "concept",
+    "category": "语法",
+    "title": "Estruturas de subordinação complexas / 复杂从句结构",
+    "bridge": "尽管西班牙语和葡萄牙语在从属结构上有诸多共同点，但葡萄牙语存在关键差异：在时间和条件从句中使用将来虚拟式（在葡萄牙语中仍广泛使用，而西班牙语中已受限），以及不存在于西班牙语的动词不定式人称变化（动词不定式屈折变化），以及弱重音代词的位置，欧洲葡萄牙语倾向于在西班牙语更倾向于前置的语境中使用后置。此外，从属连词的使用可能会因动词语式而变化，且连接短语中存在一些假朋友。",
+    "rule": "在葡萄牙语中，副词性从属句受精确规则约束：1）在使用‘quando’、‘logo que’、‘assim que’等时间从句中，如果未来动作先于或同时发生，使用将来虚拟式（如：‘Quando eu chegar, ligamos’）；如果动作在后，则使用将来完成虚拟式（如：‘Quando eu tiver chegado, tudo estará pronto’）。2）在条件句中，‘se’引导的先行句式对可能在未来实现的条件要求使用将来虚拟式（如：‘Se você estudar, passará’），对不太可能的假设则使用过去未完成虚拟式（如：‘Se ele viesse, ficaríamos’）。3）人称不定式（屈折变化）用于从句主语明确且与主句主语不同的从句中（如：‘Espero eles chegarem antes’），在某些结构中（如‘para + 动词不定式屈折变化’）是强制性的。4）连词‘embora’（尽管）要求使用虚拟式（现在时或过去未完成时），其在欧洲葡萄牙语中的使用频率高于西班牙语中‘aunque + 虚拟式’。5）在关系从句中，关系代词‘cujo’在性和数上与被拥有的成分一致，且在表示所有关系时，其前不可加介词。",
+    "concept_examples": [
+      {
+        "text": "Quando você chegar, avise-me imediatamente.",
+        "translation": "当你到达时，请立即通知我。",
+        "phonetic": "ˈkwɐ̃du ˈvose ʃeˈɡaʁ, ɐˈvizɨ-mi imediɐˈtɐ̃ti"
+      },
+      {
+        "text": "Se eu tiver tempo, visitarei o museu.",
+        "translation": "如果我有时间，我会去参观博物馆。",
+        "phonetic": "si ew tiˈvɛɾ ˈtẽpu, vizitɐˈɾej u muˈzew"
+      },
+      {
+        "text": "É necessário eles estudarem mais.",
+        "translation": "有必要让他们多学习。",
+        "phonetic": "ˈɛ nɨsɨˈsaɾju ˈelɨʃ ʃtudˈaɾẽj majʃ"
+      },
+      {
+        "text": "Embora estivesse cansado, continuou trabalhando.",
+        "translation": "尽管很累，他还是继续工作。",
+        "phonetic": "ẽˈbɔɾɐ ʃtɨˈvɛsɨ kɐ̃ˈsadu, kõtiˈnow tɾɐbɐˈʎɐ̃du"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quando ele chegará, nós falaremos com ele.",
+      "correct": "Quando ele chegar, nós falaremos com ele.",
+      "correct_alt": "Quando ele tiver chegado, nós falaremos com ele.",
+      "explanation": "在西班牙语中，‘cuando llegará’是错误的；同理，在葡萄牙语中，‘quando + 陈述式将来时’是一个非常常见的错误。在时间从句中，葡萄牙语要求使用将来虚拟式（chegar）或将来完成虚拟式（tiver chegado）来表示后续动作。受西班牙语（有时使用现在虚拟式，但绝不使用陈述式将来时）的干扰，人们常会错误地套用结构。记住：在葡萄牙语中，将来虚拟式由简单过去时词干构成：‘chegou’ → ‘chegar’。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Subordinadas temporais com futuro do subjuntivo",
+        "translation": "使用将来虚拟式的时间从句",
+        "examples": [
+          {
+            "original": "Assim que eu puder, vou te visitar.",
+            "phonetic": "ɐˈsĩ ki ew puˈdɛɾ, vou tɨ vizitˈaɾ",
+            "translation": "一旦我能，我会去看你。",
+            "note": "使用‘puder’（将来虚拟式）是因为动作是未来且尚未完成的。"
+          },
+          {
+            "original": "Mal você sair, eu fecho a porta.",
+            "phonetic": "maw voˈse saˈiɾ, ew ˈfɛʃu ɐ ˈpɔɾtɐ",
+            "translation": "你一出去，我就关门。",
+            "note": "‘Mal’是一个时间连词，要求使用将来虚拟式，相当于‘apenas’（刚刚）。"
+          },
+          {
+            "original": "Depois que nós comermos, iremos ao cinema.",
+            "phonetic": "dɨˈpojʃ ki nɔʃ koˈmɛɾmuz, iˈɾemuʒ aw siˈnemɐ",
+            "translation": "我们吃完饭后，就去看电影。",
+            "note": "注意带有人称屈折变化的不定式‘comermos’，主语‘nós’明确且变位。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Condicionais com futuro e imperfeito do subjuntivo",
+        "translation": "使用将来虚拟式和过去未完成虚拟式的条件句",
+        "examples": [
+          {
+            "original": "Se você puder, traga um presente.",
+            "phonetic": "si voˈse puˈdɛɾ, ˈtɾagɐ ũ pɾɨˈzẽtɨ",
+            "translation": "如果你能，带个礼物来。",
+            "note": "将来虚拟式表示未来可能实现的条件。"
+          },
+          {
+            "original": "Caso ele falte, avisaremos a direção.",
+            "phonetic": "ˈkazu ˈelɨ ˈfaltɨ, ɐvizɐˈɾemuz ɐ diɾɛˈsɐ̃w",
+            "translation": "万一他缺席，我们会通知领导。",
+            "note": "‘Caso’ + 将来虚拟式是一种更口语化的条件表达方式。"
+          },
+          {
+            "original": "Se eu fosse rico, viajaria pelo mundo.",
+            "phonetic": "si ew ˈfɔsɨ ˈʁiku, viɐʒɐˈɾiɐ ˈpɛlu ˈmũdu",
+            "translation": "如果我有钱，我会周游世界。",
+            "note": "过去未完成虚拟式‘fosse’表示不现实或不太可能的假设。"
+          },
+          {
+            "original": "Caso tivesse sabido, teria avisado.",
+            "phonetic": "ˈkazu tʃiˈvɛsɨ sɐˈbidu, tɨˈɾiɐ ɐvizˈadu",
+            "translation": "如果早知道，我就会通知你了。",
+            "note": "过去完成虚拟式表示过去无法实现的假设。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Infinitivo pessoal e orações concessivas",
+        "translation": "人称不定式与让步从句",
+        "examples": [
+          {
+            "original": "É importante você estudar todos os dias.",
+            "phonetic": "ˈɛ ĩpuɾˈtɐ̃tɨ voˈse ʃtudˈaɾ ˈtoduʒ uʒ ˈdiɐʃ",
+            "translation": "你每天学习很重要。",
+            "note": "屈折变化的不定式‘estudar’（第三人称单数）与明确主语‘você’搭配。"
+          },
+          {
+            "original": "Para nós chegarmos no horário, precisamos sair já.",
+            "phonetic": "ˈpaɾɐ nɔʃ ʃeˈɡaɾmuʒ nu ɔˈɾaɾju, pɾɨsiˈzɐmuʒ sɐˈiɾ ʒa",
+            "translation": "为了我们能准时到达，我们得现在就出发。",
+            "note": "介词‘para’在主语明确时要求使用屈折变化的不定式。"
+          },
+          {
+            "original": "Embora chova, vamos à praia.",
+            "phonetic": "ẽˈbɔɾɐ ˈʃɔvɐ, ˈvɐmuz a ˈpɾajɐ",
+            "translation": "尽管下雨，我们还是去海滩。",
+            "note": "‘Embora’ + 现在虚拟式‘chova’表示可能的让步。"
+          },
+          {
+            "original": "Por mais que tente, não conseguirá.",
+            "phonetic": "puɾ majʃ kɨ ˈtẽtɨ, nɐ̃w kõsɨˈɡɨɾa",
+            "translation": "无论你多努力尝试，都无法成功。",
+            "note": "短语‘por mais que’要求使用虚拟式，相当于西班牙语中的‘por mucho que’（无论多么……）。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🧩",
+    "phonetic": "",
+    "translations": {
+      "zh": "高级句法与复杂结构"
+    }
+  },
+  {
+    "id": "zh_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Registro e estilo: formal, informal e neutro / 语体与风格：正式、非正式与中性",
+    "bridge": "在葡萄牙语中，'tu' 和 'você' 的使用在不同地区和语体中有所不同，与西班牙语中 'tú' 和 'usted' 较为严格的用法不同。此外，葡萄牙语通过 'o(s) senhor(es)/a(s) senhora(s)' 区分直接和间接称谓，类似于 'usted'，但动词需要使用第三人称一致。非重读代词的位置（前置与后置）也会因语体而异：在葡萄牙，正式语境中偏好后置（ênclise），而在巴西，前置（próclise）则是口语标准。这些差异对 C1 水平的掌握至关重要。",
+    "rule": "在葡萄牙语中，语体体现在多个维度：1) 称谓代词：巴西使用 'tu'（非正式，第二人称）和 'você'（中性/非正式，第三人称）；在葡萄牙，'tu' 是非正式用法，'você' 则作为中性称谓。'O senhor/A senhora' 是正式且礼貌的表达。在巴西，'você' 既可用于中性也可用于非正式语境，但在正式场合应避免并改用 'o senhor/a senhora'。2) 代词位置：在正式语境中，特别是欧洲葡萄牙语，肯定陈述句中使用后置（ênclise）：'Diga-me'。而在巴西非正式语境中，前置（próclise）更常见：'Me diz'。在否定句或带有副词时，前置是强制性的：'Não me diga'。3) 词汇与表达：非正式语体包含缩写如 'pra'（para）、'tá'（está）及俚语；正式语体则使用更精致的词汇和复杂结构。4) 虚拟式及某些复合时态（如虚拟式将来时）在正式语境中更为常见。必须根据交际语境调整语体。",
+    "concept_examples": [
+      {
+        "text": "Poderia informar-me sobre os horários dos comboios?",
+        "translation": "能否告知我火车时刻表？",
+        "phonetic": "poˈdɛɾjɐ ĩfuɾˈmaɾ mi ˈsɔbɾi uʃ oˈɾaɾjuʃ duʃ kõˈbojuʃ"
+      },
+      {
+        "text": "Me diz aí o que você fez ontem.",
+        "translation": "告诉我你昨天做了什么。",
+        "phonetic": "mi ˈdʒis aˈi u ki voˈse ˈfes ˈõtẽj"
+      },
+      {
+        "text": "O senhor poderia assinar o documento, por favor?",
+        "translation": "请问您能签署这份文件吗？",
+        "phonetic": "u sẽˈjoʁ podˈɾiɐ asiˈnaɾ u dokuˈmẽtu puɾ faˈvoʁ"
+      },
+      {
+        "text": "A gente vai no cinema hoje à noite, tá?",
+        "translation": "我们今晚去看电影，是吧？",
+        "phonetic": "ɐ ˈʒẽtʃi ˈvaj nu siˈnẽmɐ ˈɔʒi a ˈnojtʃi ˈta"
+      }
+    ],
+    "common_error": {
+      "wrong": "Eu não sei se você pode me ajudar, mas eu gostaria de te pedir um favor.",
+      "correct": "Eu não sei se você pode me ajudar, mas gostaria de lhe pedir um favor.",
+      "correct_alt": "Não sei se o senhor poderia me ajudar, mas gostaria de lhe pedir um favor.",
+      "explanation": "在西班牙语中，常用 'te' 作为间接宾语代词，但在葡萄牙语中，正式或中性语境下，当用 'você' 或 'o senhor' 称呼对方时，应使用 'lhe' 而非 'te'。在正式语境中使用 'te' 与 'você' 搭配属于巴西非正式语体，但在正式场合显得不恰当。为避免此类错误，请注意称谓代词的选择，并相应选择对应的宾语代词：'você' 可用于非正式语境的 'te'，但正式语境中应使用 'lhe' 或用 'senhor' 称谓。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Tratamento formal e informal",
+        "translation": "正式与非正式称谓",
+        "examples": [
+          {
+            "original": "Você pode me passar o sal, por favor?",
+            "phonetic": "voˈse ˈpɔdʒi mi paˈsaɾ u ˈsaw puɾ faˈvoʁ",
+            "translation": "请把盐递给我，好吗？",
+            "note": "巴西非正式语境中使用 'você'。"
+          },
+          {
+            "original": "O senhor poderia me dizer onde fica a estação?",
+            "phonetic": "u sẽˈjoʁ podˈɾiɐ mi dʒiˈzeɾ ˈõdʒi ˈfikɐ a istaˈsɐ̃w",
+            "translation": "请问您能告诉我车站在哪里吗？",
+            "note": "用 'o senhor' 表示正式称谓，动词使用条件式。"
+          },
+          {
+            "original": "Tu vais ao concerto amanhã?",
+            "phonetic": "tu ˈvajs aw kõˈseɾtu ɐˈmɐ̃ɲɐ",
+            "translation": "你明天去音乐会吗？",
+            "note": "在葡萄牙，'tu' 是非正式用法，使用第二人称单数动词变位。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Colocação pronominal",
+        "translation": "代词位置",
+        "examples": [
+          {
+            "original": "Diga-me o que você pensa.",
+            "phonetic": "ˈdʒigɐ mi u ki voˈse ˈpẽsɐ",
+            "translation": "告诉我你的想法。",
+            "note": "欧洲葡萄牙语正式语境中的后置用法。"
+          },
+          {
+            "original": "Me fala a verdade!",
+            "phonetic": "mi ˈfalɐ ɐ veɾˈdadʒi",
+            "translation": "跟我说实话！",
+            "note": "巴西非正式语境中的前置用法。"
+          },
+          {
+            "original": "Não me incomode com esses detalhes.",
+            "phonetic": "ˈnɐ̃w mi ɪ̃kõˈmɔdʒi kõ ˈesiz dʒiˈtaʎis",
+            "translation": "别拿这些细节烦我。",
+            "note": "否定句中，所有语体均需使用前置。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Léxico e expressões de registro",
+        "translation": "词汇与表达",
+        "examples": [
+          {
+            "original": "A gente se vê depois, então?",
+            "phonetic": "ɐ ˈʒẽtʃi si ve deˈpojs ˈẽtɐ̃w",
+            "translation": "回头见，是吧？",
+            "note": "使用 'a gente' 代替 'nós' 为口语表达。"
+          },
+          {
+            "original": "Vossa Excelência receberá o relatório em anexo.",
+            "phonetic": "ˈvɔsɐ ɛʃseˈlẽsiɐ ʁeseˈbɛɾa u ʁelaˈtɔɾju ẽj ɐˈneksu",
+            "translation": "阁下将收到随附的报告。",
+            "note": "在正式文书中使用的最高敬语表达。"
+          },
+          {
+            "original": "Ele não tá a fim de sair hoje.",
+            "phonetic": "ˈeli ˈnɐ̃w ˈta ɐ ˈfĩ dʒi saˈiʁ ˈɔʒi",
+            "translation": "他今天没兴趣出去。",
+            "note": "非正式表达 'tá a fim de'（有兴趣做某事）。"
+          },
+          {
+            "original": "Cumpre-me informar que a reunião foi adiada.",
+            "phonetic": "ˈkũpɾi mi ĩfuɾˈmaɾ ki ɐ ʁewniˈɐ̃w ˈfoj aˈdʒjadɐ",
+            "translation": "我必须通知您会议已延期。",
+            "note": "使用 'cumprir-me' 结构进行正式通知。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "zh": "语体与风格：正式、非正式与中性"
+    }
+  },
+  {
+    "id": "zh_C1_gram_03",
+    "type": "concept",
+    "category": "语法",
+    "title": "Inversão e Frontalização Avançadas / 高级倒装与前置",
+    "bridge": "在葡萄牙语中，与西班牙语类似，你可以通过倒装词序来强调或达到修辞效果。然而，欧洲葡萄牙语（在一定程度上也包括巴西葡萄牙语）更频繁地使用倒装，且某些结构在西班牙语中并无直接对应。例如，宾语前置并与动词和主语倒装的情况在葡萄牙语中更常见，且小品词“é que”分割句子的方式与西班牙语的“es que”不同。注意主谓一致以及代词的位置，这些在葡萄牙语中可能与西班牙语规范不同。",
+    "rule": "葡萄牙语中的倒装与前置用于强调某个成分、制造对比或维持信息焦点。主要结构包括：1) 宾语（直接宾语、间接宾语、状语）前置并与动词-主语倒装：“Essas questões resolveremos nós.”（这些问题我们来解决）。2) 用“é que”强调某个成分：“Foi ontem que ela chegou.”（她是昨天到的）。3) 使用“talvez”“provavelmente”等副词时的完全倒装：“Talvez tenha ele razão.”（也许他有道理）。4) 条件句中的倒装（无连词）：“Tivesse eu tempo, viajaria.”（如果我有时间，就会去旅行）。5) 用“quem”或“o que”强调：“Quem tudo quer, tudo perde.”（贪多必失）。注意：在葡萄牙语中，倒装结构可能需要显式主语代词（与西班牙语不同，后者常省略），且在否定结构或副词引导的句子中，代词的位置可能为前置（动词前）。巴西葡萄牙语中，倒装在口语中不如欧洲葡萄牙语常见，但在正式书面语和文学作品中仍有使用。",
+    "concept_examples": [
+      {
+        "text": "Essas questões resolveremos nós.",
+        "translation": "这些问题我们来解决。",
+        "phonetic": "/ˈɛsɐʃ kɨʃˈtõĩʃ ʁɨzolvˈeɾɛmus nus/"
+      },
+      {
+        "text": "Foi ontem que ela chegou.",
+        "translation": "她是昨天到的。",
+        "phonetic": "/fɔj ˈõtɐj kɨ ˈɛlɐ ʃɨˈɡow/"
+      },
+      {
+        "text": "Talvez tenha ele razão.",
+        "translation": "也许他有道理。",
+        "phonetic": "/tɐˈvɛjʃ ˈtɐɲɐ ˈelɨ ʁɐˈzɐ̃w/"
+      },
+      {
+        "text": "Tivesse eu tempo, viajaria.",
+        "translation": "如果我有时间，就会去旅行。",
+        "phonetic": "/tiˈvesɨ ew ˈtẽpu vjɐʒɐˈɾiɐ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Essas questões resolveremos.",
+      "correct": "Essas questões resolveremos nós.",
+      "correct_alt": "Nós resolveremos essas questões.",
+      "explanation": "在葡萄牙语中，当直接宾语前置时，通常需要在动词后加上显式主语代词，以避免歧义或保持倒装结构的自然性。在西班牙语中，“Esas cuestiones resolveremos”听起来古旧或生硬，但在葡萄牙语中，缺少主语代词的句子在语法上不完整或不自然。使用这种强调结构时，请务必在欧洲葡萄牙语中添加人称代词，尤其是在强调句式中。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Frontalização de complementos com inversão",
+        "translation": "带倒装的宾语前置",
+        "examples": [
+          {
+            "original": "Aos amigos darei um presente.",
+            "phonetic": "/ɐwz ɐˈmiɡɨʃ dɐˈɾɛj ũ pɾɨˈzẽtɨ/",
+            "translation": "我会送朋友们一份礼物。",
+            "note": "间接宾语前置，动词位于主语之前（若主语明显则可省略）。在葡萄牙语中，无需使用代词“lhes”，因为宾语已明确。"
+          },
+          {
+            "original": "De tudo falaram os professores.",
+            "phonetic": "/dɨ ˈtudu fɐˈlaɾɐ̃w uʃ pɾufɨˈsoɾɨʃ/",
+            "translation": "老师们谈论了所有事情。",
+            "note": "话题状语前置需要动词-主语倒装。在西班牙语中，“De todo hablaron los profesores”虽可行但更为突兀；在葡萄牙语中，这是书面语中的常见结构。"
+          },
+          {
+            "original": "Isso nunca vi eu.",
+            "phonetic": "/ˈisu ˈnũkɐ vi ew/",
+            "translation": "那件事我从没见过。",
+            "note": "在否定副词结构中，主语代词置于动词之后。在西班牙语中，你会说“Eso nunca lo vi yo”，但西班牙语中需要使用代词“lo”，而葡萄牙语中无需对应的小品词。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Construções clivadas com 'é que'",
+        "translation": "使用“é que”的分裂句",
+        "examples": [
+          {
+            "original": "Foi ele que comeu o bolo.",
+            "phonetic": "/fɔj ˈelɨ kɨ kuˈmew u ˈbolu/",
+            "translation": "是他吃了蛋糕。",
+            "note": "“é que”结构用于强调主语。在西班牙语中，我们使用“fue él quien”或“es él quien”。在葡萄牙语中，当动词为“ser”且强调成分为主语时，使用“que”而非“quem”。"
+          },
+          {
+            "original": "É agora que eu vou sair.",
+            "phonetic": "/ɛ ɐˈɡoɾɐ kɨ ew vow sɐˈiɾ/",
+            "translation": "现在正是我要出去的时候。",
+            "note": "为强调时间状语，葡萄牙语使用“é que”。在西班牙语中，我们会说“es ahora cuando”或“es ahora que”（后者是英语借用，有时使用但并非规范）。"
+          },
+          {
+            "original": "Foi por isso que ela não veio.",
+            "phonetic": "/fɔj puɾ ˈisu kɨ ˈɛlɐ nɐ̃w ˈvɐj.u/",
+            "translation": "就是因为这个原因，她没来。",
+            "note": "原因通过“é que”强调。在西班牙语中，最自然的表达是“Fue por eso que no vino”或“Por eso fue que no vino”；两者类似。注意葡萄牙语中无需逗号。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Inversão em orações condicionais e com talvez",
+        "translation": "条件句与“talvez”中的倒装",
+        "examples": [
+          {
+            "original": "Tivesse ele estudado, teria passado.",
+            "phonetic": "/tiˈvesɨ ˈelɨ ʃtuˈdadu tɨˈɾiɐ pɐˈsadu/",
+            "translation": "如果他学习了，就会通过。",
+            "note": "条件句中可省略“se”，将动词（过去完成时虚拟式）置于句首，主语随后。在西班牙语中，这种结构（Hubiera estudiado, habría aprobado）极为正式，通常更倾向于使用“Si hubiera estudiado...”。"
+          },
+          {
+            "original": "Talvez seja ele o escolhido.",
+            "phonetic": "/tɐˈvɛjʃ ˈsɐjʒɐ ˈelɨ u ʃkuˈʎidu/",
+            "translation": "也许他就是被选中的人。",
+            "note": "在正式语体中，“talvez”（也许）后可倒装动词与主语。在西班牙语中，“Quizá sea él el elegido”可行，但更常用“quizá él sea el elegido”。葡萄牙语中的倒装在书面语中更常见。"
+          },
+          {
+            "original": "Por acaso chegasse ele, avisa-me.",
+            "phonetic": "/puɾ ɐˈkazu ʃɨˈɡasɨ ˈelɨ ɐˈvizɐ mɨ/",
+            "translation": "万一他到了，请通知我。",
+            "note": "在条件句中与“por acaso”连用时，可使用虚拟式倒装。这种结构极为书面化，在巴西葡萄牙语中罕见，但在欧洲葡萄牙语中较常见。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "zh": "高级倒装与前置"
+    }
+  }
+]

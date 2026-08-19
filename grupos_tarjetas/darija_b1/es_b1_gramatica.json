@@ -1,0 +1,386 @@
+[
+  {
+    "id": "es_B1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الماضي التام / Pluscuamperfecto",
+    "bridge": "En español, el pluscuamperfecto (había + participio) expresa una acción pasada que ocurrió antes de otra acción también en pasado, como en 'Cuando llegué, ya había comido'. En darija, el pasado perfecto se forma con el verbo auxiliar 'كان' (kān) + el verbo en pasado simple, pero con un matiz distinto: marca una acción completada antes de un punto de referencia en el pasado, incluso si esa referencia no se menciona explícitamente. A diferencia del español, el pluscuamperfecto en darija no siempre requiere una segunda acción para justificar su uso, y su estructura es más flexible en contextos narrativos.",
+    "rule": "En darija, el pasado perfecto (Pluscuamperfecto) se construye con el verbo auxiliar 'كان' (kān, 'era/estaba') en pasado simple + el verbo principal en pasado simple. La estructura es: كان + [verbo en pasado simple]. \n\n1. **Formación**: \n   - كان (kān) + فعل ماضي (verbo en pasado simple). Ejemplo: كان كتب (kān ktəb, 'había escrito').\n   - Para verbos irregulares, se usa la misma estructura: كان (kān) + فعل ماضي irregular. Ejemplo: كان شاف (kān šāf, 'había visto').\n\n2. **Uso principal**: \n   - Expresa una acción completada antes de otra acción en el pasado (similar al español). Ejemplo: كان مسافر قبل ما يجي (kān msāfər qbl mā yjī, 'había viajado antes de que viniera').\n   - También se usa para acciones completadas en un contexto narrativo sin necesidad de una segunda acción explícita. Ejemplo: كان شفت الفيلم (kān šft l-film, 'ya había visto la película').\n\n3. **Negación**: \n   - Se niega con ما...ش (mā...š) alrededor del verbo principal. Ejemplo: ما كانش كتب (mā kānš ktəb, 'no había escrito').\n\n4. **Preguntas**: \n   - Se forma con هل (hl) al inicio o cambiando el orden. Ejemplo: هل كان كتب؟ (hl kān ktəb?, '¿había escrito?').\n\n5. **Excepciones**: \n   - Algunos verbos no usan 'كان' en contextos informales, especialmente en el habla coloquial, donde se prefiere el pasado simple con contexto. Ejemplo: قبل ما يجي، شفت الفيلم (qbl mā yjī, šft l-film, 'antes de que viniera, había visto la película').",
+    "concept_examples": [
+      {
+        "text": "كان شفت الفيلم قبل ما تيجي",
+        "translation": "Había visto la película antes de que llegaras.",
+        "phonetic": "kān šft l-film qbl mā tījī"
+      },
+      {
+        "text": "ما كانش عرف الجواب قبل ما نسأله",
+        "translation": "No había sabido la respuesta antes de que se lo preguntáramos.",
+        "phonetic": "mā kānš ʕrf l-jawāb qbl mā nsālūh"
+      },
+      {
+        "text": "كان كتب الرسالة قبل ما يروح",
+        "translation": "Había escrito la carta antes de irse.",
+        "phonetic": "kān ktəb l-risāla qbl mā yrūḥ"
+      },
+      {
+        "text": "هل كان شافك قبل ما تمشي؟",
+        "translation": "¿Habías visto antes de que te fueras?",
+        "phonetic": "hl kān šāfk qbl mā tmšī?"
+      }
+    ],
+    "common_error": {
+      "wrong": "شفت الفيلم قبل ما تيجي",
+      "correct": "كان شفت الفيلم قبل ما تيجي",
+      "correct_alt": "قبل ما تيجي، شفت الفيلم",
+      "explanation": "El error ocurre porque en darija, a diferencia del español, el pluscuamperfecto suele requerir el auxiliar 'كان' para marcar claramente la acción completada antes de otra en pasado. En contextos informales, algunos hablantes omiten 'كان', pero esto puede sonar incorrecto o poco claro, especialmente en narraciones formales o escritas. La estructura correcta con 'كان' es más precisa y evita ambigüedades."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "بناء الجملة الأساسية",
+        "translation": "Estructura básica",
+        "examples": [
+          {
+            "original": "كان كتب الرسالة",
+            "phonetic": "kān ktəb l-risāla",
+            "translation": "Había escrito la carta.",
+            "note": "Introduce la estructura básica con 'كان' + verbo en pasado simple. Enfatizar que el verbo principal siempre va en pasado simple."
+          },
+          {
+            "original": "ما كانش عرف الجواب",
+            "phonetic": "mā kānš ʕrf l-jawāb",
+            "translation": "No había sabido la respuesta.",
+            "note": "Practicar la negación con 'ما...ش' alrededor del verbo principal."
+          },
+          {
+            "original": "هل كان شافك؟",
+            "phonetic": "hl kān šāfk?",
+            "translation": "¿Lo habías visto?",
+            "note": "Introducir preguntas con 'هل' al inicio."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "أفعال قبل أخرى",
+        "translation": "Acciones antes de otras",
+        "examples": [
+          {
+            "original": "كان مسافر قبل ما يجي أبوه",
+            "phonetic": "kān msāfər qbl mā yjī būh",
+            "translation": "Había viajado antes de que viniera su padre.",
+            "note": "Usar 'قبل ما' (antes de que) para conectar dos acciones en pasado."
+          },
+          {
+            "original": "ما كانش أكل قبل ما نطلب الأكل",
+            "phonetic": "mā kānš kl qbl mā ntlb l-kl",
+            "translation": "No había comido antes de que pidiéramos la comida.",
+            "note": "Combinar negación y conexión de acciones."
+          },
+          {
+            "original": "كان شفت الفيلم قبل ما تيجي",
+            "phonetic": "kān šft l-film qbl mā tījī",
+            "translation": "Había visto la película antes de que llegaras.",
+            "note": "Enfatizar el orden de las acciones: la primera acción usa pluscuamperfecto."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "سياقات مختلفة",
+        "translation": "Contextos variados",
+        "examples": [
+          {
+            "original": "كان شفت الفيلم، بعدين راني",
+            "phonetic": "kān šft l-film, bʕdīn rānī",
+            "translation": "Había visto la película, luego me lo dijo.",
+            "note": "Usar el pluscuamperfecto en contextos narrativos sin necesidad de una segunda acción explícita."
+          },
+          {
+            "original": "قبل ما نروح، كان شفت كل الديكور",
+            "phonetic": "qbl mā nrūḥ, kān šft kl l-dīkūr",
+            "translation": "Antes de irnos, había visto toda la decoración.",
+            "note": "Combinar 'قبل ما' con pluscuamperfecto para acciones completadas antes de un evento."
+          },
+          {
+            "original": "ما كانش سمع الخبر قبل ما يخبروه",
+            "phonetic": "mā kānš smʕ l-ḫbr qbl mā yḫbrūh",
+            "translation": "No había oído la noticia antes de que se la contaran.",
+            "note": "Practicar negación en contextos complejos."
+          },
+          {
+            "original": "كان كتب الرسالة، بعدين راني",
+            "phonetic": "kān ktəb l-risāla, bʕdīn rānī",
+            "translation": "Había escrito la carta, luego me lo dijo.",
+            "note": "Enfatizar el uso del pluscuamperfecto para acciones completadas antes de un evento narrativo."
+          }
+        ]
+      }
+    ],
+    "emoji": "📜",
+    "phonetic": "",
+    "translations": {
+      "es": "Pasado perfecto / Pluscuamperfecto"
+    }
+  },
+  {
+    "id": "es_B1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الشرط 1 و 2 / Condicionales tipo 1 y 2",
+    "bridge": "En español, los condicionales tipo 1 y 2 se forman con estructuras fijas ('si + presente + futuro' o 'si + imperfecto de subjuntivo + condicional'). En darija, en cambio, no hay futuro ni subjuntivo como en español: se usan verbos en presente o pasado según el contexto, y la partícula 'إذا' (si) marca la condición. Un error común es aplicar las reglas españolas directamente, como usar 'كان' (pasado) en lugar de presente para condiciones posibles. Además, en darija, la condición puede ir antes o después de la consecuencia, mientras que en español suele ir primero.",
+    "rule": "En darija, los condicionales tipo 1 y 2 se construyen con la partícula 'إذا' (si) seguida de una cláusula condicional y otra principal. \n\n1. **Condicional tipo 1 (posible/real)**: Se usa el presente en ambas cláusulas. La estructura es: 'إذا + [verbo en presente] + [verbo en presente o futuro cercano]'. Ejemplo: 'إذا جيت, ناكل' (Si vienes, comemos). \n\n2. **Condicional tipo 2 (hipotético/irreal)**: Se usa el pasado en la cláusula condicional y el condicional en la principal. La estructura es: 'إذا + [verbo en pasado] + [verbo en condicional o pasado con sentido de futuro]'. Ejemplo: 'إذا جيت, كنت ناكل' (Si vinieras, comeríamos). \n\nExcepciones: \n- En tipo 1, el verbo principal puede estar en futuro cercano (ej. 'إذا جيت، غادي ناكل' - Si vienes, voy a comer). \n- En tipo 2, si la condición es imposible, se usa 'ما' antes del verbo en pasado: 'إذا ما جيت، ما كنت ناكل' (Si no vinieras, no comeríamos). \n- Los verbos auxiliares como 'كان' (ser/estar en pasado) se usan para formar el condicional: 'كنت ناكل' (comería).",
+    "concept_examples": [
+      {
+        "text": "إذا جيت غادي نكون عندك",
+        "translation": "Si vienes, estaré contigo.",
+        "phonetic": "ɪða ʒiːt ɣaːdiː nkuːn ʕɪndək"
+      },
+      {
+        "text": "إذا ما عندكش فلوس، ما غاديش نروح",
+        "translation": "Si no tienes dinero, no iré.",
+        "phonetic": "ɪða ma ʕɪndəkʃə fluːs, ma ɣaːdiːʃ nrɔħ"
+      },
+      {
+        "text": "إذا كنت غني، كنت تشتري دار كبيرة",
+        "translation": "Si fueras rico, comprarías una casa grande.",
+        "phonetic": "ɪða kunt ɣanni, kunt təʃtriː daːr kbɪːra"
+      },
+      {
+        "text": "إذا ما جيتش بكرا، غادي نكون زعلان",
+        "translation": "Si no vienes mañana, estaré enfadado.",
+        "phonetic": "ɪða ma ʒiːtʃ bkrɑ, ɣaːdiː nkuːn zʕɑlɑːn"
+      }
+    ],
+    "common_error": {
+      "wrong": "إذا جيت، كنت ناكل",
+      "correct": "إذا جيت، ناكل",
+      "correct_alt": "إذا جيت غادي ناكل",
+      "explanation": "El error ocurre porque se confunde el condicional tipo 1 (real/posible) con el tipo 2 (hipotético). En tipo 1, la consecuencia debe estar en presente o futuro cercano, no en pasado/condicional. La forma correcta es usar el presente ('ناكل') o el futuro cercano ('غادي ناكل'). La estructura 'كنت ناكل' solo se usa para tipo 2 (hipotético)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الشرط 1 (ممكن)",
+        "translation": "Condicional tipo 1 (real/posible)",
+        "examples": [
+          {
+            "original": "إذا جيت غادي نكون عندك",
+            "phonetic": "ɪða ʒiːt ɣaːdiː nkuːn ʕɪndək",
+            "translation": "Si vienes, estaré contigo.",
+            "note": "Usa presente o futuro cercano en la consecuencia. 'غادي' indica futuro cercano."
+          },
+          {
+            "original": "إذا ما عندكش فلوس، ما غاديش نروح",
+            "phonetic": "ɪða ma ʕɪndəkʃə fluːs, ma ɣaːdiːʃ nrɔħ",
+            "translation": "Si no tienes dinero, no iré.",
+            "note": "La negación en darija usa 'ما...ش' en presente."
+          },
+          {
+            "original": "إذا شفتها، غادي نكلمها",
+            "phonetic": "ɪða ʃəftəha, ɣaːdiː nkləmha",
+            "translation": "Si la ves, le hablaré.",
+            "note": "El orden de las cláusulas puede invertirse sin cambiar el significado."
+          },
+          {
+            "original": "إذا ما جيتش بكرا، غادي نكون زعلان",
+            "phonetic": "ɪða ma ʒiːtʃ bkrɑ, ɣaːdiː nkuːn zʕɑlɑːn",
+            "translation": "Si no vienes mañana, estaré enfadado.",
+            "note": "El futuro cercano ('غادي') es común en consecuencias condicionales."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الشرط 2 (افتراضي)",
+        "translation": "Condicional tipo 2 (hipotético/irreal)",
+        "examples": [
+          {
+            "original": "إذا كنت غني، كنت تشتري دار كبيرة",
+            "phonetic": "ɪða kunt ɣanni, kunt təʃtriː daːr kbɪːra",
+            "translation": "Si fueras rico, comprarías una casa grande.",
+            "note": "Usa pasado en la condición ('كنت') y condicional en la consecuencia ('كنت تشتري')."
+          },
+          {
+            "original": "إذا ما جيتش، كنت نكون زعلان",
+            "phonetic": "ɪða ma ʒiːtʃ, kunt nkuːn zʕɑlɑːn",
+            "translation": "Si no vinieras, estaría enfadado.",
+            "note": "La negación en tipo 2 usa 'ما' antes del verbo en pasado."
+          },
+          {
+            "original": "إذا ما عندكش وقت، ما كنتش نروح معاك",
+            "phonetic": "ɪða ma ʕɪndəkʃ wqt, ma kuntʃ nrɔħ mʕaːk",
+            "translation": "Si no tuvieras tiempo, no iría contigo.",
+            "note": "El verbo 'كان' en pasado ('كنت') forma el condicional."
+          },
+          {
+            "original": "إذا ما جيتش بكرا، كنت نكون عندك",
+            "phonetic": "ɪða ma ʒiːtʃ bkrɑ, kunt nkuːn ʕɪndək",
+            "translation": "Si no vinieras mañana, estaría contigo.",
+            "note": "La consecuencia puede usar 'كان' para expresar estado hipotético."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "الشرط 2 مع 'ما' (مستحيل)",
+        "translation": "Condicional tipo 2 con 'ما' (imposible)",
+        "examples": [
+          {
+            "original": "إذا ما جيتش، ما كنتش نكون زعلان",
+            "phonetic": "ɪða ma ʒiːtʃ, ma kuntʃ nkuːn zʕɑlɑːn",
+            "translation": "Si no vinieras, no estaría enfadado.",
+            "note": "La partícula 'ما' antes del verbo en pasado indica imposibilidad o irrealidad."
+          },
+          {
+            "original": "إذا ما عندكش فلوس، ما كنتش نقدر نشتري شي حاجة",
+            "phonetic": "ɪða ma ʕɪndəkʃə fluːs, ma kuntʃ nqdər nəʃtriː ʃiː haːʒa",
+            "translation": "Si no tuvieras dinero, no podrías comprar nada.",
+            "note": "Combina 'ما' con verbos modales como 'نقدر' (poder) para expresar imposibilidad."
+          },
+          {
+            "original": "إذا ما جيتش بكرا، ما كنتش غادي نكون عندك",
+            "phonetic": "ɪða ma ʒiːtʃ bkrɑ, ma kuntʃ ɣaːdiː nkuːn ʕɪndək",
+            "translation": "Si no vinieras mañana, no estaría contigo.",
+            "note": "El futuro cercano ('غادي') en la consecuencia refuerza la idea de irrealidad."
+          },
+          {
+            "original": "إذا ما شفتها، ما كنتش غادي نكلمها",
+            "phonetic": "ɪða ma ʃəftəha, ma kuntʃ ɣaːdiː nkləmha",
+            "translation": "Si no la vieras, no le hablaría.",
+            "note": "La estructura es flexible, pero la negación con 'ما' es clave para el tipo 2 imposible."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "es": "Condicionales tipo 1 y 2"
+    }
+  },
+  {
+    "id": "es_B1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الحالة المنفعلة / Voz pasiva",
+    "bridge": "En español, la voz pasiva se forma con el verbo 'ser' + participio pasado (ej. 'el libro fue escrito'). En darija, la voz pasiva no usa un verbo auxiliar como 'ser', sino que se construye añadiendo el prefijo 'م-' (m-) al verbo en presente o pasado, dependiendo del contexto. Un error común es intentar traducir literalmente la estructura española, lo que lleva a frases como 'كتاب كتب' (ktāb ktəb) en lugar de 'كتاب مكتوب' (ktāb mktūb). Además, en darija la voz pasiva es más común en pasado que en presente, a diferencia del español donde ambas formas son frecuentes.",
+    "rule": "En darija, la voz pasiva se forma de la siguiente manera:\n\n1. **Presente pasivo**: Se añade el prefijo 'م-' (m-) al verbo en presente. El verbo debe concordar en género y número con el sujeto. Ejemplo:\n   - 'كتاب **م**كتب' (ktāb **m**ktəb) → 'el libro es escrito'\n   - 'دفاتر **م**كتبين' (dfātər **m**ktbīn) → 'los cuadernos son escritos'\n   - 'كراسة **م**كتبة' (krāsa **m**ktba) → 'el cuaderno es escrito (femenino)'\n\n2. **Pasado pasivo**: Se añade el prefijo 'م-' (m-) al verbo en pasado. La forma del verbo cambia según el género y número del sujeto:\n   - 'كتاب **م**كتوب' (ktāb **m**ktūb) → 'el libro fue escrito'\n   - 'دفاتر **م**كتوبين' (dfātər **m**ktūbīn) → 'los cuadernos fueron escritos'\n   - 'كراسة **م**كتوبة' (krāsa **m**ktūba) → 'el cuaderno fue escrito (femenino)'\n\n3. **Excepciones y notas importantes**:\n   - Algunos verbos tienen formas pasivas irregulares, como 'معلوم' (mʕlūm) para 'saber' (past: 'عرفت' → 'معراف' mʕrāf).\n   - En presente, la voz pasiva es menos común que en pasado y suele usarse en contextos formales o literarios.\n   - En conversaciones cotidianas, se prefiere la voz activa con pronombres como 'هو' (hū) o 'هي' (hī) para evitar ambigüedad.\n   - No existe una forma de futuro pasivo en darija; se usa la voz activa con 'غادي' (ḡādi) o 'حاي' (ḥāy) para expresar futuro.",
+    "concept_examples": [
+      {
+        "text": "البيت **م**بني من قبل المهندس",
+        "translation": "La casa **es** construida por el ingeniero.",
+        "phonetic": "əl-bīt **m**bni mn qbləl-mhənds"
+      },
+      {
+        "text": "الكتاب **م**قرا من طرف الطالب",
+        "translation": "El libro **fue** leído por el estudiante.",
+        "phonetic": "əl-ktāb **m**qrā mn ṭṛf əṭ-ṭāleb"
+      },
+      {
+        "text": "الورقة **م**كتبة باليد",
+        "translation": "El papel **fue** escrito a mano.",
+        "phonetic": "əl-wrqa **m**ktba bəl-yəd"
+      },
+      {
+        "text": "الدرر **م**باعين في السوق",
+        "translation": "Las joyas **son** vendidas en el mercado.",
+        "phonetic": "əd-dhrr **m**bāʕīn fə-s-sūq"
+      }
+    ],
+    "common_error": {
+      "wrong": "البيت بني من قبل المهندس",
+      "correct": "البيت **م**بني من قبل المهندس",
+      "correct_alt": "البيت **م**بني من قبل المهندس",
+      "explanation": "El error ocurre porque en darija la voz pasiva requiere el prefijo 'م-' (m-) para indicar que la acción es recibida por el sujeto, no realizada por él. En español, 'la casa fue construida' usa 'fue' + participio, pero en darija no hay un verbo auxiliar equivalente; el prefijo 'م-' cumple esa función. Sin él, la frase suena como una voz activa ('el ingeniero construyó la casa'), lo que cambia completamente el significado."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الحالة المنفعلة في الماضي",
+        "translation": "Voz pasiva en pasado",
+        "examples": [
+          {
+            "original": "الكراسة **م**كتبة",
+            "phonetic": "əl-krāsa **m**ktba",
+            "translation": "El cuaderno fue escrito.",
+            "note": "Introduce la estructura básica del pasado pasivo con el prefijo 'م-' (m-) y el verbo en pasado. Destacar la concordancia en género (femenino aquí)."
+          },
+          {
+            "original": "الدفاتر **م**كتبوبين",
+            "phonetic": "əd-dfātər **m**ktbīn",
+            "translation": "Los cuadernos fueron escritos.",
+            "note": "Mostrar la concordancia en plural masculino. Comparar con la forma singular para reforzar el patrón."
+          },
+          {
+            "original": "البيت **م**بني",
+            "phonetic": "əl-bīt **m**bni",
+            "translation": "La casa fue construida.",
+            "note": "Ejemplo con verbo irregular en pasado ('بنى' → 'مبني'). Explicar que algunos verbos tienen formas pasivas fijas."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الحالة المنفعلة في الحاضر",
+        "translation": "Voz pasiva en presente",
+        "examples": [
+          {
+            "original": "الورقة **م**كتبة",
+            "phonetic": "əl-wrqa **m**ktba",
+            "translation": "El papel es escrito.",
+            "note": "Presentar la voz pasiva en presente, menos común pero necesaria en contextos formales. Destacar que el verbo en presente lleva el prefijo 'م-' (m-)."
+          },
+          {
+            "original": "الدرر **م**باعين",
+            "phonetic": "əd-dhrr **m**bāʕīn",
+            "translation": "Las joyas son vendidas.",
+            "note": "Ejemplo en plural para mostrar la concordancia. Recordar que en presente pasivo, el verbo suele ser transitivo."
+          },
+          {
+            "original": "الطالب **م**قرا الدرس",
+            "phonetic": "əṭ-ṭāleb **m**qrā əd-drs",
+            "translation": "El estudiante lee la lección (voz pasiva: 'la lección es leída').",
+            "note": "Mostrar que el sujeto en darija puede ser el objeto directo en español. Subrayar que la voz pasiva en presente es más formal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "استخدام الحالة المنفعلة مع الضمائر",
+        "translation": "Voz pasiva con pronombres",
+        "examples": [
+          {
+            "original": "هو **م**عرف الحكي",
+            "phonetic": "hū **m**ʕrəf əl-ḥkī",
+            "translation": "Él es conocido por hablar.",
+            "note": "Introducir el uso de pronombres como sujeto en voz pasiva. Explicar que 'معرف' (mʕrəf) es una forma pasiva irregular de 'عرف' (ʕrəf)."
+          },
+          {
+            "original": "هي **م**شوفت في السينما",
+            "phonetic": "hī **m**šūft fə-s-sīnīma",
+            "translation": "Ella fue vista en el cine.",
+            "note": "Mostrar la concordancia en femenino singular. Destacar que 'شوف' (šūf) en pasado pasivo se convierte en 'مشوفت' (mšūft)."
+          },
+          {
+            "original": "هم **م**باغين في السوق",
+            "phonetic": "həm **m**bāḡīn fə-s-sūq",
+            "translation": "Ellos son buscados en el mercado.",
+            "note": "Ejemplo en plural para mostrar la concordancia con pronombres. Explicar que 'باغي' (bāḡi) en presente pasivo se convierte en 'مباغين' (mbāḡīn)."
+          },
+          {
+            "original": "هو **م**عطان الفلوس",
+            "phonetic": "hū **m**ʕṭān əl-flūs",
+            "translation": "Él es dado el dinero (o 'el dinero le es dado').",
+            "note": "Mostrar una estructura con objeto indirecto. Explicar que en darija, la voz pasiva puede incluir objetos indirectos de manera natural."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏗️",
+    "phonetic": "",
+    "translations": {
+      "es": "Voz pasiva (presente y pasado)"
+    }
+  }
+]

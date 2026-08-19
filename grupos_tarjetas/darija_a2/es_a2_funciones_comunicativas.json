@@ -1,0 +1,374 @@
+[
+  {
+    "id": "es_A2_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": " نتكلم عن تجاربنا الماضية / Hablar de experiencias pasadas",
+    "bridge": "En español, para hablar del pasado usas el pretérito perfecto (he comido) o el pretérito indefinido (comí). En darija, el sistema es diferente: no hay distinción entre 'he comido' y 'comí'; se usa el mismo verbo conjugado en pasado con un prefijo (k-) o sufijo (-t). Además, en darija el pasado suele ir acompañado de partículas temporales como 'بارح' (ayer) o 'ف العام الماضي' (el año pasado), que no siempre son obligatorias en español. Un error común es intentar aplicar el pretérito perfecto español ('he comido') en darija, donde suena artificial. Por ejemplo, un hispanohablante podría decir 'كنت أكلت' (kenet akelt) para 'he comido', pero en darija se prefiere 'أكلت' (akelt) sin el 'كنت' (kenet) a menos que se enfatice el contexto.",
+    "rule": "Para hablar de experiencias pasadas en darija, se usa el verbo en pasado simple con las siguientes reglas:\n1. **Conjugación básica**: El pasado se forma añadiendo el prefijo 'k-' a la raíz del verbo en presente (para verbos regulares). Ejemplo: 'كْتِيب' (ktib, escribió) de 'يْكْتِب' (yktib, escribe).\n2. **Pronombres personales**: Los pronombres personales (أنا, أنت, هو, etc.) no siempre se usan explícitamente, pero cuando se usan, el verbo se conjuga según el sujeto:\n   - أنا (ana): Añadir '-t' al final del verbo. Ejemplo: 'كْتِيبْت' (ktibt, escribí).\n   - أنت (nta/nti): Usar el prefijo 'k-' sin '-t'. Ejemplo: 'كْتِيبْت' (ktibt, escribiste) para masculino, 'كْتِيبْتِي' (ktibti, escribiste) para femenino.\n   - هو (huwa): Solo el prefijo 'k-'. Ejemplo: 'كْتِيبْ' (ktib, escribió).\n3. **Verbos irregulares**: Algunos verbos tienen formas irregulares en pasado. Ejemplo: 'كان' (kan, era/fue) de 'يْكُون' (ykun, es).\n4. **Partículas temporales**: Se usan partículas como 'بارح' (ayer), 'ف العام الماضي' (el año pasado), o 'ف الصيف' (el verano pasado) para contextualizar, pero no son obligatorias.\n5. **Negación**: Se usa 'ما...ش' (ma...sh) alrededor del verbo. Ejemplo: 'ما كْتِيبْش' (ma ktibsh, no escribí).",
+    "concept_examples": [
+      {
+        "text": "أكلت فاكهة البارح",
+        "translation": "Comí fruta ayer.",
+        "phonetic": "akelt fākha bāreḥ"
+      },
+      {
+        "text": "كنت زرت مراكش ف العام الماضي",
+        "translation": "Visité Marrakech el año pasado.",
+        "phonetic": "kent zert murrākuš fəl-ʕām l-māḍi"
+      },
+      {
+        "text": "شفت فيلم جميل ف السينما",
+        "translation": "Vi una película bonita en el cine.",
+        "phonetic": "šeft film jemīl fəs-sīnima"
+      },
+      {
+        "text": "ما شفتش أي شي ف التلفزيون",
+        "translation": "No vi nada en la televisión.",
+        "phonetic": "ma šeftš ay ši fət-tēlēfizyōn"
+      }
+    ],
+    "common_error": {
+      "wrong": "كنت شفت فيلم جميل ف السينما",
+      "correct": "شفت فيلم جميل ف السينما",
+      "correct_alt": "كنت شفت فيلم جميل ف السينما (si se enfatiza el contexto, ej. 'ayer no vi nada, pero hoy sí vi una película bonita')",
+      "explanation": "El error ocurre porque el hispanohablante intenta aplicar la estructura del pretérito perfecto español ('he visto') en darija, usando 'كنت' (kenet, estaba) como auxiliar. En darija, el pasado simple no requiere este auxiliar a menos que se quiera enfatizar el contexto. La forma correcta es 'شفت' (šeft, vi) sin 'كنت'. Solo se usa 'كنت' cuando se quiere decir 'había visto' (pasado pluscuamperfecto), que en darija es 'كنت شفت' (kenet šeft)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "أفعال منتظمة ف الماضي",
+        "translation": "Verbos regulares en pasado",
+        "examples": [
+          {
+            "original": "كتبت رسالة",
+            "phonetic": "ktibt r-sāla",
+            "translation": "Escribí una carta.",
+            "note": "Verbo regular 'كتب' (ktb, escribir) con sufijo '-t' para 'yo'."
+          },
+          {
+            "original": "كْتِيبْتِ الدرس",
+            "phonetic": "ktibti d-dars",
+            "translation": "Escribiste la lección.",
+            "note": "Verbo regular 'كتب' (ktb) con sufijo '-ti' para 'tú' femenino."
+          },
+          {
+            "original": "كْتِيبْ رَجُل ف المَكْتَب",
+            "phonetic": "ktib rajul fəl-maktab",
+            "translation": "Un hombre escribió en la oficina.",
+            "note": "Verbo regular 'كتب' (ktb) con prefijo 'k-' para tercera persona masculina."
+          },
+          {
+            "original": "ما كْتِيبْش أي شي",
+            "phonetic": "ma ktibš ay ši",
+            "translation": "No escribió nada.",
+            "note": "Negación con 'ما...ش' alrededor del verbo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "أفعال شاذة ف الماضي",
+        "translation": "Verbos irregulares en pasado",
+        "examples": [
+          {
+            "original": "كان عندي 10 دنانير",
+            "phonetic": "kān ʕandi 10 dnāni",
+            "translation": "Tenía 10 dírhams.",
+            "note": "Verbo irregular 'كان' (kān, tener/ser) en pasado."
+          },
+          {
+            "original": "جيت من السوق",
+            "phonetic": "jīt mən s-sūq",
+            "translation": "Vine del mercado.",
+            "note": "Verbo irregular 'جى' (ji, venir) en pasado."
+          },
+          {
+            "original": "شفت شي حاجة جميلة",
+            "phonetic": "šeft ši ḥāja jemīla",
+            "translation": "Vi algo bonito.",
+            "note": "Verbo irregular 'شاف' (šāf, ver) en pasado."
+          },
+          {
+            "original": "ما جيتشش ف الوقت",
+            "phonetic": "ma jītšš fəl-wqt",
+            "translation": "No vine a tiempo.",
+            "note": "Negación del verbo irregular 'جى' (ji)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "تحديد الوقت ف الماضي",
+        "translation": "Contextualizar con partículas temporales",
+        "examples": [
+          {
+            "original": "بارح شفت شي فيلم ف السينما",
+            "phonetic": "bāreḥ šeft ši film fəs-sīnima",
+            "translation": "Ayer vi una película en el cine.",
+            "note": "Partícula temporal 'بارح' (ayer) para situar la acción."
+          },
+          {
+            "original": "ف العام الماضي رحت ف رحلة مع صحابي",
+            "phonetic": "fəl-ʕām l-māḍi rḥt f rḥla mʕa ṣḥābi",
+            "translation": "El año pasado fui de viaje con mis amigos.",
+            "note": "Partícula 'ف العام الماضي' (el año pasado) para indicar tiempo."
+          },
+          {
+            "original": "ف الصيف الماضي أكلت شي تاكل ف الماركان",
+            "phonetic": "fəs-ṣīf l-māḍi akelt ši tākl fəl-mārkān",
+            "translation": "El verano pasado comí algo en el restaurante.",
+            "note": "Combinación de partícula temporal y verbo en pasado."
+          },
+          {
+            "original": "ما شفتش أي شي ف التلفزيون البارح",
+            "phonetic": "ma šeftš ay ši fət-tēlēfizyōn bāreḥ",
+            "translation": "No vi nada en la televisión ayer.",
+            "note": "Negación con partícula temporal para enfatizar."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "es": "Hablar de experiencias pasadas"
+    }
+  },
+  {
+    "id": "es_A2_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "تخطيط المواعيد / Hacer planes y citas",
+    "bridge": "En español, para proponer planes usamos estructuras como '¿Quieres...?' o '¿Te apetece...?', que son directas y universales. En darija, sin embargo, la propuesta suele ser más indirecta y depende de fórmulas de cortesía como 'عندك وقت...؟' (¿Tienes tiempo...?) o 'يمكن...؟' (¿Se puede...?). Los hablantes de español pueden caer en el error de usar preguntas demasiado directas como '¿Vamos a...?', que en darija suena brusco. Además, en darija se usan partículas como 'بلى' (sí) o 'لا' (no) para responder, pero con un tono más suave que en español, donde el 'sí' o 'no' pueden sonar más definitivos.",
+    "rule": "Para proponer planes en darija (A2), se usan principalmente las siguientes estructuras:\n1. **Preguntas indirectas con 'عندك وقت...؟' (¿Tienes tiempo...?) o 'يمكن...؟' (¿Se puede...?)**:\n   - Ejemplo: 'عندك وقت نخرجو سوا؟' (¿Tienes tiempo de salir juntos?)\n   - La respuesta afirmativa suele incluir 'بلى' (sí) + repetición del verbo o una confirmación: 'بلى، عندي وقت' (Sí, tengo tiempo).\n   - La respuesta negativa incluye 'لا' (no) + explicación opcional: 'لا، عندي شغل' (No, tengo trabajo).\n\n2. **Uso de 'ما عندك مانع...؟' (¿Te importa...?) para propuestas más formales o educadas**:\n   - Ejemplo: 'ما عندك مانع نتعشى سوا؟' (¿Te importa cenar juntos?)\n   - La respuesta negativa suele incluir 'ما عندي مانع' (No me importa) o 'عندك مانع' (¿Te importa?) + explicación: 'عندك مانع، عندي موعد' (¿Te importa? Tengo una cita).\n\n3. **Fórmulas con 'بغيت' (quiero) para propuestas personales**:\n   - Ejemplo: 'بغيت نروحو عند البحر' (Quiero ir a la playa).\n   - Se usa con verbos como 'نروح' (ir), 'ناكل' (comer), 'نسمع' (escuchar), etc.\n\n4. **Respuestas típicas**:\n   - Afirmativa: 'بلى، عندي وقت' / 'ما عندي مانع' / 'بخير' (Vale).\n   - Negativa: 'لا، عندي شغل' / 'ما عندي وقت' / 'عندك مانع' (¿Te importa? como forma de rechazar educadamente).\n\nExcepciones:\n- En contextos informales, se puede omitir el sujeto: 'عندك وقت؟' (¿Tienes tiempo?).\n- Para propuestas urgentes, se usa 'خا' (quiero) + verbo: 'خا نروحو دلوقتي' (Quiero ir ahora).",
+    "concept_examples": [
+      {
+        "text": "عندك وقت نخرجو سوا غدا؟",
+        "translation": "¿Tienes tiempo de salir juntos mañana?",
+        "phonetic": "/ʕəndək waqt nəxrədu swa gəddam/"
+      },
+      {
+        "text": "ما عندك مانع نتعشى سوا بعد الغدا؟",
+        "translation": "¿Te importa cenar juntos después de comer?",
+        "phonetic": "/ma ʕəndək manʕə nətʕaʃʃa swa bʕdə lɣədda/"
+      },
+      {
+        "text": "بغيت نروحو عند البحر下午؟",
+        "translation": "Quiero ir a la playa por la tarde.",
+        "phonetic": "/bəɣiːt nəruːħu ʕənd lbaħr lʕaːṣər/"
+      },
+      {
+        "text": "عندك وقت تمشي معايا عند السوق؟",
+        "translation": "¿Tienes tiempo de caminar conmigo al mercado?",
+        "phonetic": "/ʕəndək waqt təmʃi mʕaːja ʕənd əsːuq/"
+      }
+    ],
+    "common_error": {
+      "wrong": "¿Vamos a salir mañana?",
+      "correct": "عندك وقت نخرجو سوا غدا؟",
+      "correct_alt": "بغيت نخرجو سوا غدا؟",
+      "explanation": "En darija, la pregunta directa '¿Vamos a...?' suena demasiado imperativa para los estándares de cortesía marroquíes. Los hablantes de español tienden a usar estructuras que en darija se perciben como órdenes o sugerencias poco educadas. La forma correcta usa preguntas indirectas con 'عندك وقت' (¿Tienes tiempo?) o 'بغيت' (quiero), que son más naturales y respetuosas en el contexto cultural."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "طرح السؤال بطريقة مهذبة",
+        "translation": "Hacer la pregunta de forma educada",
+        "examples": [
+          {
+            "original": "عندك وقت نخرجو سوا غدا؟",
+            "phonetic": "/ʕəndək waqt nəxrədu swa gəddam/",
+            "translation": "¿Tienes tiempo de salir juntos mañana?",
+            "note": "Estructura básica para proponer planes. Usa 'عندك وقت' (¿Tienes tiempo?) + verbo en presente."
+          },
+          {
+            "original": "ما عندك مانع نتعشى سوا بعد الغدا؟",
+            "phonetic": "/ma ʕəndək manʕə nətʕaʃʃa swa bʕdə lɣədda/",
+            "translation": "¿Te importa cenar juntos después de comer?",
+            "note": "Fórmula educada con 'ما عندك مانع' (¿Te importa?). Ideal para contextos formales."
+          },
+          {
+            "original": "عندك وقت تمشي معايا عند السوق؟",
+            "phonetic": "/ʕəndək waqt təmʃi mʕaːja ʕənd əsːuq/",
+            "translation": "¿Tienes tiempo de caminar conmigo al mercado?",
+            "note": "Combina 'عندك وقت' con un verbo de movimiento ('تمشي' = caminar)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الإجابة على الاقتراحات",
+        "translation": "Responder a las propuestas",
+        "examples": [
+          {
+            "original": "بلى، عندي وقت",
+            "phonetic": "/bəlli, ʕəndi waqt/",
+            "translation": "Sí, tengo tiempo.",
+            "note": "Respuesta afirmativa estándar. Usa 'بلى' (sí) + repetición del verbo o confirmación."
+          },
+          {
+            "original": "لا، عندي شغل",
+            "phonetic": "/la, ʕəndi ʃɣəl/",
+            "translation": "No, tengo trabajo.",
+            "note": "Respuesta negativa común. Usa 'لا' (no) + explicación breve."
+          },
+          {
+            "original": "ما عندي مانع",
+            "phonetic": "/ma ʕəndi manʕə/",
+            "translation": "No me importa (aceptar).",
+            "note": "Respuesta afirmativa educada. Equivalente a 'Vale' en español."
+          },
+          {
+            "original": "عندك مانع، عندي موعد",
+            "phonetic": "/ʕəndək manʕə, ʕəndi məʕuːd/",
+            "translation": "¿Te importa? Tengo una cita.",
+            "note": "Forma educada de rechazar. Usa 'عندك مانع' como pregunta retórica."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "اقتراحات شخصية أو عفوية",
+        "translation": "Propuestas personales o espontáneas",
+        "examples": [
+          {
+            "original": "بغيت نروحو عند البحر下午",
+            "phonetic": "/bəɣiːt nəruːħu ʕənd lbaħr lʕaːṣər/",
+            "translation": "Quiero ir a la playa por la tarde.",
+            "note": "Estructura directa con 'بغيت' (quiero). Usa para propuestas espontáneas o personales."
+          },
+          {
+            "original": "خا ناكلو عندك عند 8",
+            "phonetic": "/xa naːklu ʕəndək ʕənd 8/",
+            "translation": "Quiero comer en tu casa a las 8.",
+            "note": "Uso de 'خا' (quiero) en contexto informal. Incluye hora específica."
+          },
+          {
+            "original": "يمكن نسمعو موسيقى سوا؟",
+            "phonetic": "/jəmkən nəsmaʕu muːsiːqa swa/",
+            "translation": "¿Se puede escuchar música juntos?",
+            "note": "Fórmula con 'يمكن' (se puede) para propuestas informales."
+          },
+          {
+            "original": "عندك وقت نروحو عند صديقك؟",
+            "phonetic": "/ʕəndək waqt nəruːħu ʕənd sˤdiːqək/",
+            "translation": "¿Tienes tiempo de ir a casa de tu amigo?",
+            "note": "Combina 'عندك وقت' con un verbo de movimiento y un lugar específico."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "es": "Hacer planes y citas"
+    }
+  },
+  {
+    "id": "es_A2_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "كيفاش نقدم نصيحة / Cómo dar un consejo",
+    "bridge": "En español, para dar consejos usas estructuras como 'Deberías...' o 'Tienes que...', pero en darija (árabe marroquí) el consejo suele ser más directo y coloquial, usando frases como 'try to...' (试试看) o 'it's better to...' (من الأحسن). Los hispanohablantes suelen caer en el error de traducir literalmente 'deberías' como 'يجب عليك' (yigib 'lik), que suena forzado en contextos informales. En darija, se prefiere usar verbos como 'try' (جرب) o 'it's good if...' (من الجيد).",
+    "rule": "Para dar consejos en darija, se usan principalmente las siguientes estructuras:\n1. **Imperativo + pronombre**: Usa el imperativo del verbo seguido de un pronombre (me, te, le, etc.). Ejemplo: 'اشرب الماء' (ashrab l-ma', 'Bebe agua').\n2. **'Try to' (جرب / jrib)**: Equivalente a 'intenta' en español. Ejemplo: 'جرب تاكل شي حاجة حلوة' (jrib ta'kul shi haja hlwa, 'Intenta comer algo dulce').\n3. **'It's better to' (من الأحسن / mn l-ahsan)**: Similar a 'es mejor que...'. Ejemplo: 'من الأحسن تاكون مبسوط' (mn l-ahsan takun mabsut, 'Es mejor que estés contento').\n4. **'You should' (من اللازم / mn l-lazim)**: Equivalente a 'deberías'. Ejemplo: 'من اللازم تاكون حذر' (mn l-lazim takun hadar, 'Deberías tener cuidado').\n\nExcepciones:\n- En contextos negativos, usa 'ما' (ma) antes del verbo: 'ما تاكلش شي حاجة ثقيلة' (ma takulsh shi haja tqila, 'No comas algo pesado').\n- Para consejos generales, usa 'من الأحسن' seguido de verbo en subjuntivo (ejemplo: 'من الأحسن تاكون راضي' / mn l-ahsan takun radi, 'Es mejor que estés satisfecho').",
+    "concept_examples": [
+      {
+        "text": "جرب تاكون مبسوط !",
+        "translation": "¡Intenta estar contento!",
+        "phonetic": "jrib takun mabsut"
+      },
+      {
+        "text": "من الأحسن تاكون حذر فالمدينة",
+        "translation": "Es mejor que tengas cuidado en la ciudad.",
+        "phonetic": "mn l-ahsan takun hadar f-l-mdina"
+      },
+      {
+        "text": "اشرب الماء قبل ما تاكل !",
+        "translation": "¡Bebe agua antes de comer!",
+        "phonetic": "ashrab l-ma' qbl ma takul"
+      },
+      {
+        "text": "ما تاكلش شي حاجة ثقيلة قبل النوم",
+        "translation": "No comas algo pesado antes de dormir.",
+        "phonetic": "ma takulsh shi haja tqila qbl n-nwm"
+      }
+    ],
+    "common_error": {
+      "wrong": "يجب عليك تاكون حذر فالمدينة",
+      "correct": "من الأحسن تاكون حذر فالمدينة",
+      "correct_alt": "جرب تاكون حذر فالمدينة",
+      "explanation": "La frase 'يجب عليك' (yigib 'lik) es correcta en árabe estándar, pero en darija suena demasiado formal y poco natural en contextos cotidianos. Los hispanohablantes suelen usarla por influencia del español 'deberías', pero en darija se prefiere 'من الأحسن' (mn l-ahsan) o el imperativo directo como 'جرب' (jrib). Para sonar más natural, evita estructuras que suenen a traducción literal del español."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "نصيحة عامة",
+        "translation": "Consejo general",
+        "examples": [
+          {
+            "original": "جرب تاكون مبسوط !",
+            "phonetic": "jrib takun mabsut",
+            "translation": "¡Intenta estar contento!",
+            "note": "Usa 'جرب' (jrib) para consejos informales. Equivale a 'intenta' en español."
+          },
+          {
+            "original": "اشرب الماء !",
+            "phonetic": "ashrab l-ma'",
+            "translation": "¡Bebe agua!",
+            "note": "Imperativo directo para consejos simples. Similar a 'come fruta' en español."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "نصيحة مع 'من الأحسن'",
+        "translation": "Consejo con 'es mejor que'",
+        "examples": [
+          {
+            "original": "من الأحسن تاكون حذر فالمدينة",
+            "phonetic": "mn l-ahsan takun hadar f-l-mdina",
+            "translation": "Es mejor que tengas cuidado en la ciudad.",
+            "note": "Usa 'من الأحسن' (mn l-ahsan) seguido de verbo en subjuntivo (ta-). Equivale a 'es mejor que...'."
+          },
+          {
+            "original": "من الأحسن تاكون راضي",
+            "phonetic": "mn l-ahsan takun radi",
+            "translation": "Es mejor que estés satisfecho.",
+            "note": "Para consejos sobre estados emocionales, usa 'من الأحسن' + verbo en subjuntivo."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "نصيحة مع 'ما' (negación)",
+        "translation": "Consejo con negación",
+        "examples": [
+          {
+            "original": "ما تاكلش شي حاجة ثقيلة قبل النوم",
+            "phonetic": "ma takulsh shi haja tqila qbl n-nwm",
+            "translation": "No comas algo pesado antes de dormir.",
+            "note": "Usa 'ما' (ma) + verbo en subjuntivo para negar consejos. Equivale a 'no hagas...' en español."
+          },
+          {
+            "original": "ما تاكونش متوتر !",
+            "phonetic": "ma takunsh mtwwar",
+            "translation": "¡No estés estresado!",
+            "note": "Para consejos negativos sobre emociones, usa 'ما' + verbo en subjuntivo."
+          },
+          {
+            "original": "من اللازم ما تاكونش وحدك",
+            "phonetic": "mn l-lazim ma takunsh wahdk",
+            "translation": "Deberías no estar solo.",
+            "note": "Usa 'من اللازم' (mn l-lazim) para consejos más fuertes, seguido de negación con 'ما'."
+          }
+        ]
+      }
+    ],
+    "emoji": "💡",
+    "phonetic": "",
+    "translations": {
+      "es": "Dar consejos y recomendaciones"
+    }
+  }
+]

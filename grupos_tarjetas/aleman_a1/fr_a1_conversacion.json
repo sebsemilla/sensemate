@@ -1,0 +1,1316 @@
+[
+  {
+    "id": "fr_A1_conv_01",
+    "type": "conversation",
+    "category": "Conversación",
+    "title": " / Achat d'un t-shirt dans le magasin",
+    "conversation": {
+      "vocabulary": [
+        {
+          "verb": "kaufen",
+          "form": "kaufe/kauft",
+          "meaning": "comprar"
+        },
+        {
+          "verb": "wollen",
+          "form": "will/willst",
+          "meaning": "querer"
+        },
+        {
+          "verb": "brauchen",
+          "form": "brauche/braucht",
+          "meaning": "necesitar"
+        },
+        {
+          "verb": "haben",
+          "form": "habe/hat",
+          "meaning": "tener"
+        },
+        {
+          "verb": "sehen",
+          "form": "sehe/sieht",
+          "meaning": "ver"
+        },
+        {
+          "verb": "anprobieren",
+          "form": "probiere an/probiert an",
+          "meaning": "probarse (ropa)"
+        },
+        {
+          "verb": "passen",
+          "form": "passt",
+          "meaning": "quedar bien (ropa)"
+        },
+        {
+          "verb": "gefallen",
+          "form": "gefällt",
+          "meaning": "gustar"
+        },
+        {
+          "verb": "kosten",
+          "form": "kostet",
+          "meaning": "costar"
+        },
+        {
+          "verb": "nehmen",
+          "form": "nehme/nimmt",
+          "meaning": "tomar / llevarse"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "Verkäuferin",
+          "text": "Hallo. Kann ich Ihnen helfen?",
+          "translation": "Hola. ¿Puedo ayudarle?",
+          "note": "Ofrecimiento de ayuda en la tienda; forma formal 'Ihnen'."
+        },
+        {
+          "speaker": "Kunde",
+          "text": "Ja, ich möchte ein T-Shirt kaufen.",
+          "translation": "Sí, quisiera comprar una remera.",
+          "note": "'Möchte' es la forma cortés de 'querer', muy usada al pedir cosas."
+        },
+        {
+          "speaker": "Verkäuferin",
+          "text": "Welche Größe brauchen Sie?",
+          "translation": "¿Qué talle necesita?",
+          "note": "'Welche' (cuál/qué) concuerda en género con 'Größe' (femenino)."
+        },
+        {
+          "speaker": "Kunde",
+          "text": "Ich brauche Größe M. Darf ich es anprobieren?",
+          "translation": "Necesito el talle M. ¿Puedo probármela?",
+          "note": "'Darf ich...?' es la forma habitual para pedir permiso."
+        },
+        {
+          "speaker": "Verkäuferin",
+          "text": "Natürlich. Die Umkleidekabine ist dort.",
+          "translation": "Por supuesto. El probador está ahí.",
+          "note": "'Die Umkleidekabine' = el probador (palabra compuesta, típica del alemán)."
+        },
+        {
+          "speaker": "Kunde",
+          "text": "Es passt gut. Was kostet es?",
+          "translation": "Me queda bien. ¿Cuánto cuesta?",
+          "note": "'Es passt' (queda bien) se usa siempre en singular, sin importar la prenda."
+        },
+        {
+          "speaker": "Verkäuferin",
+          "text": "Es kostet zwanzig Euro.",
+          "translation": "Cuesta veinte euros.",
+          "note": "Los números en alemán van antes del sustantivo, como en español."
+        },
+        {
+          "speaker": "Kunde",
+          "text": "Gut, ich nehme es.",
+          "translation": "Bien, me la llevo.",
+          "note": "Frase típica para cerrar una compra."
+        }
+      ]
+    }
+  },
+  {
+    "id": "fr_A1_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "À l'aéroport",
+    "bridge": "En espagnol, on utilise 'tener que' pour exprimer une obligation, mais en allemand on utilise 'müssen' (devoir) et sa conjugaison est différente. De plus, en allemand, le verbe se place en deuxième position dans les phrases déclaratives, mais en question avec 'wo' (où), le verbe vient en première position. À l'aéroport, tu auras besoin de phrases comme 'Ich muss' (je dois) et 'Wo ist' (où est-ce ?). De plus, les noms en allemand ont un genre (der, die, das) qui influence les articles, ce qui n'existe pas en espagnol.",
+    "rule": "Pour exprimer un besoin ou une obligation, on utilise le verbe modal 'müssen'. Conjugaison au présent : ich muss, du musst, er/sie/es muss, wir müssen, ihr müsst, sie müssen. Il se place en deuxième position dans la phrase principale et le verbe principal va à l'infinitif en fin de phrase. Exemple : 'Ich muss zum Flughafen gehen.' (Je dois aller à l'aéroport). Pour demander un lieu, on utilise 'Wo ist...?' (Où est... ?) avec le verbe en première position. Les noms en allemand ont un article : der (masculin), die (féminin), das (neutre). Exemples : der Flughafen, die Bordkarte, das Gepäck. À l'aéroport, on utilise souvent l'impératif formel 'Bitte' (s'il vous plaît) pour être poli.",
+    "concept_examples": [
+      {
+        "text": "Ich muss zum Flughafen.",
+        "translation": "Je dois aller à l'aéroport.",
+        "phonetic": "ɪç mʊs tsʊm ˈfluːkhaːfən"
+      },
+      {
+        "text": "Wo ist der Flughafen?",
+        "translation": "Où est l'aéroport ?",
+        "phonetic": "voː ɪst deːɐ̯ ˈfluːkhaːfən"
+      },
+      {
+        "text": "Ich habe eine Bordkarte.",
+        "translation": "J'ai une carte d'embarquement.",
+        "phonetic": "ɪç ˈhaːbə ˈaɪnə ˈbɔʁtkaʁtə"
+      },
+      {
+        "text": "Das Gepäck ist schwer.",
+        "translation": "Les bagages sont lourds.",
+        "phonetic": "das ɡəˈpɛk ɪst ʃveːɐ̯"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo necesito ir al aeropuerto. (literal)",
+      "correct": "Ich muss zum Flughafen gehen.",
+      "correct_alt": "Ich muss zum Flughafen.",
+      "explanation": "En espagnol, on utilise souvent 'necesitar' (avoir besoin de) pour exprimer une obligation, mais en allemand, 'müssen' est le modal le plus courant. Traduire littéralement 'necesitar' par 'brauchen' (qui signifie aussi avoir besoin de) peut donner une phrase incorrecte, car 'brauchen' nécessite un objet et ne s'utilise pas comme modal dans ce contexte. À la place, utilise 'müssen' avec l'infinitif du verbe principal (aller = gehen)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Am Schalter / En el mostrador",
+        "translation": "Au comptoir (d'enregistrement)",
+        "examples": [
+          {
+            "original": "Ich muss einchecken.",
+            "phonetic": "ɪç mʊs ˈaɪnˌtʃɛkən",
+            "translation": "Je dois enregistrer mes bagages.",
+            "note": "Utilise 'müssen' pour exprimer un besoin. Le verbe 'einchecken' est séparable, il se sépare dans la phrase : 'Ich checke ein' au présent."
+          },
+          {
+            "original": "Wo ist der Schalter?",
+            "phonetic": "voː ɪst deːɐ̯ ˈʃaltɐ",
+            "translation": "Où est le comptoir ?",
+            "note": "Question de lieu avec 'wo' et le verbe en première position."
+          },
+          {
+            "original": "Ich habe eine Reservierung.",
+            "phonetic": "ɪç ˈhaːbə ˈaɪnə ʁezɛʁˈviːʁʊŋ",
+            "translation": "J'ai une réservation.",
+            "note": "Utilise 'haben' (avoir) comme en espagnol. Attention à l'article 'eine' (une) pour le féminin."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Sicherheitskontrolle / Control de seguridad",
+        "translation": "Contrôle de sécurité",
+        "examples": [
+          {
+            "original": "Mein Pass, bitte.",
+            "phonetic": "maɪn pas ˈbɪtə",
+            "translation": "Mon passeport, s'il vous plaît.",
+            "note": "'Pass' est masculin (der Pass), ici on utilise 'mein' (mon). L'ordre est flexible dans les phrases courtes."
+          },
+          {
+            "original": "Wo ist die Sicherheitskontrolle?",
+            "phonetic": "voː ɪst diː ˈzɪçɐhaɪtskɔnˌtʁɔlə",
+            "translation": "Où est le contrôle de sécurité ?",
+            "note": "Le mot 'Sicherheitskontrolle' est composé (sécurité+contrôle). L'article est 'die' (féminin)."
+          },
+          {
+            "original": "Ich muss mein Gepäck öffnen.",
+            "phonetic": "ɪç mʊs maɪn ɡəˈpɛk ˈœfnən",
+            "translation": "Je dois ouvrir mes bagages.",
+            "note": "N'oublie pas que 'müssen' + infinitif à la fin. 'öffnen' est un verbe régulier."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Am Gate / En la puerta de embarque",
+        "translation": "À la porte d'embarquement",
+        "examples": [
+          {
+            "original": "Wann ist das Boarding?",
+            "phonetic": "van ɪst das ˈbɔʁdɪŋ",
+            "translation": "Quand est l'embarquement ?",
+            "note": "Utilise 'wann' (quand) pour demander l'heure. 'Boarding' s'utilise comme emprunt à l'anglais."
+          },
+          {
+            "original": "Ich muss einsteigen.",
+            "phonetic": "ɪç mʊs ˈaɪnˌʃtaɪɡən",
+            "translation": "Je dois embarquer.",
+            "note": "'einsteigen' est séparable : 'Ich steige ein' au présent. Ici avec 'müssen', on utilise l'infinitif."
+          },
+          {
+            "original": "Wo ist das Gate?",
+            "phonetic": "voː ɪst das ɡeːt",
+            "translation": "Où est la porte ?",
+            "note": "'Gate' s'utilise en allemand (neutre, das Gate). Apprends les mots internationaux courants."
+          }
+        ]
+      }
+    ],
+    "emoji": "✈️",
+    "phonetic": "",
+    "translations": {
+      "fr": "À l'aéroport"
+    }
+  },
+  {
+    "id": "fr_A1_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Im Hotel / À l'hôtel",
+    "bridge": "En espagnol, on utilise généralement 'tener' ou 'estar' pour exprimer des besoins et des localisations (par exemple, 'tengo una reserva', 'estoy en la habitación'). En allemand, on utilise 'haben' pour la possession et 'sein' pour l'état, mais il existe aussi des structures propres comme 'Ich möchte' (je voudrais) pour demander quelque chose poliment. Une différence clé est que l'allemand distingue le vouvoiement (Sie) et le tutoiement (du) pour s'adresser à quelqu'un ; à l'hôtel, on utilisera toujours 'Sie' pour montrer du respect. De plus, l'ordre des mots dans les phrases avec des verbes modaux change : le verbe conjugué se place en deuxième position et l'infinitif à la fin (par exemple, 'Ich möchte ein Zimmer reservieren'). Faites attention aux articles : 'ein' (un) et 'das' (neutre) pour 'Zimmer', mais 'der' pour 'Rezeption'.",
+    "rule": "Pour réserver une chambre en allemand, utilisez le verbe modal 'möchten' (je voudrais) au présent : ich möchte, du möchtest, er/sie möchte, etc. La structure est : 'Ich möchte' + complément + verbe à l'infinitif à la fin (ex. 'Ich möchte ein Zimmer reservieren'). Pour demander la disponibilité, utilisez 'Haben Sie ...?' (Avez-vous ... ?) ou 'Gibt es ...?' (Y a-t-il ... ?). Pour indiquer votre nom lors de l'enregistrement : 'Ich heiße ...' (Je m'appelle ...) et pour montrer une réservation : 'Ich habe eine Reservierung' (J'ai une réservation). Les mots importants : das Zimmer (chambre), das Einzelzimmer (chambre individuelle), das Doppelzimmer (chambre double), die Nacht (nuit), der Schlüssel (clé). Rappelez-vous que les noms communs en allemand s'écrivent avec une majuscule et ont un genre : der (masculin), die (féminin), das (neutre). Pour poser des questions formelles, inversez le verbe et le sujet : 'Haben Sie' (Avez-vous). La préposition pour indiquer la durée est 'für' (pour) : 'für eine Nacht'.",
+    "concept_examples": [
+      {
+        "text": "Ich möchte ein Zimmer reservieren.",
+        "translation": "Je voudrais réserver une chambre.",
+        "phonetic": "ɪç ˈmœçtə aɪn ˈtsɪmɐ ʀezɛʁˈviːʁən"
+      },
+      {
+        "text": "Haben Sie ein Doppelzimmer frei?",
+        "translation": "Avez-vous une chambre double libre ?",
+        "phonetic": "ˈhaːbən ziː aɪn ˈdɔpəlˌtsɪmɐ fʁaɪ"
+      },
+      {
+        "text": "Ich habe eine Reservierung unter dem Namen Müller.",
+        "translation": "J'ai une réservation au nom de Müller.",
+        "phonetic": "ɪç ˈhaːbə ˈaɪnə ʀezɛʁˈviːʁʊŋ ˈʊntɐ deːm ˈnaːmən ˈmʏlɐ"
+      },
+      {
+        "text": "Wie viel kostet die Nacht?",
+        "translation": "Combien coûte la nuit ?",
+        "phonetic": "viː fiːl ˈkɔstət diː naxt"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo quiero reservar una habitación.",
+      "correct": "Ich möchte ein Zimmer reservieren.",
+      "correct_alt": "Ich will ein Zimmer reservieren.",
+      "explanation": "L'erreur consiste à traduire littéralement 'je veux' en utilisant le verbe 'querer' directement. En allemand, le pronom personnel 'ich' est souvent omis car le verbe indique déjà la personne, bien qu'il soit acceptable de l'inclure. Cependant, pour être poli à l'hôtel, utilisez 'möchten' (je voudrais) plutôt que 'wollen' (vouloir), qui sonne plus impératif. De plus, en allemand, l'ordre des mots place le verbe conjugué en deuxième position et l'infinitif à la fin, comme dans 'reservieren'. N'oubliez pas que 'ein' se décline : 'ein Zimmer' (accusatif masculin devient 'einen' pour les noms masculins, mais 'Zimmer' est neutre et ne change pas)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "An der Rezeption",
+        "translation": "À la réception",
+        "examples": [
+          {
+            "original": "Guten Tag, ich hätte gern ein Zimmer.",
+            "phonetic": "ˈɡuːtən taːk, ɪç ˈhɛtə ɡɛʁn aɪn ˈtsɪmɐ",
+            "translation": "Bonjour, je voudrais une chambre.",
+            "note": "'hätte gern' est une forme plus polie de demander, équivalente à 'je voudrais'."
+          },
+          {
+            "original": "Haben Sie ein Einzelzimmer?",
+            "phonetic": "ˈhaːbən ziː aɪn ˈaɪntsəlˌtsɪmɐ",
+            "translation": "Avez-vous une chambre individuelle ?",
+            "note": "Question formelle : inversion verbe-sujet."
+          },
+          {
+            "original": "Ich brauche ein Zimmer für zwei Nächte.",
+            "phonetic": "ɪç ˈbʁaʊxə aɪn ˈtsɪmɐ fyːɐ tsvaɪ nɛçtə",
+            "translation": "J'ai besoin d'une chambre pour deux nuits.",
+            "note": "Utilisez 'brauchen' (avoir besoin de) + 'für' + durée."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Die Reservierung",
+        "translation": "La réservation",
+        "examples": [
+          {
+            "original": "Ich habe eine Reservierung für heute Nacht.",
+            "phonetic": "ɪç ˈhaːbə ˈaɪnə ʀezɛʁˈviːʁʊŋ fyːɐ ˈhɔʏtə naxt",
+            "translation": "J'ai une réservation pour ce soir.",
+            "note": "On utilise 'für' + accusatif (ce soir)."
+          },
+          {
+            "original": "Auf welchen Namen läuft die Reservierung?",
+            "phonetic": "aʊf ˈvɛlçən ˈnaːmən lɔɪft diː ʀezɛʁˈviːʁʊŋ",
+            "translation": "À quel nom est la réservation ?",
+            "note": "Question formelle : 'Auf welchen Namen' (à quel nom)."
+          },
+          {
+            "original": "Können Sie das bitte wiederholen?",
+            "phonetic": "ˈkœnən ziː das ˈbɪtə viːdɐˈhoːlən",
+            "translation": "Pouvez-vous le répéter, s'il vous plaît ?",
+            "note": "Utile quand on ne comprend pas. 'Können' est un verbe modal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Im Zimmer",
+        "translation": "Dans la chambre",
+        "examples": [
+          {
+            "original": "Die Aussicht ist schön.",
+            "phonetic": "diː ˈaʊszɪçt ɪst ʃøːn",
+            "translation": "La vue est belle.",
+            "note": "Description simple avec 'sein'."
+          },
+          {
+            "original": "Wo ist der Fahrstuhl?",
+            "phonetic": "voː ɪst deːɐ ˈfaːɐ̯ʃtuːl",
+            "translation": "Où est l'ascenseur ?",
+            "note": "Question de localisation avec 'wo' et 'sein'."
+          },
+          {
+            "original": "Die Heizung funktioniert nicht.",
+            "phonetic": "diː ˈhaɪtsʊŋ fʊŋktsi̯oːˈniːɐ̯t nɪçt",
+            "translation": "Le chauffage ne fonctionne pas.",
+            "note": "Pour signaler un problème : nom + 'funktioniert nicht'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "fr": "À l'hôtel"
+    }
+  },
+  {
+    "id": "fr_A1_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Im Restaurant / Au restaurant",
+    "bridge": "En espagnol, pour demander quelque chose dans un restaurant, on utilise le verbe 'querer' (quiero, quería...) de manière flexible. En allemand, en revanche, la politesse s'exprime avec le subjonctif de 'möchten' (j'aimerais), qui est un verbe modal. De plus, en allemand, lorsqu'on commande quelque chose, on utilise l'accusatif et l'article change (une soupe → eine Suppe), alors qu'en espagnol, il ne varie pas. Faites attention à la position du verbe dans les questions et à l'utilisation de 'bitte' (s'il vous plaît), qui ne se traduit pas toujours directement.",
+    "rule": "Pour commander de la nourriture ou faire des commandes dans un restaurant en allemand, on utilise fréquemment la forme 'Ich möchte...' (j'aimerais) + nom à l'accusatif. 'Möchten' est la forme polie de 'wollen' (vouloir) et se conjugue : ich möchte, du möchtest, er/sie/es möchte, wir möchten, ihr möchtet, sie/Sie möchten. Le nom qui suit doit être à l'accusatif : pour les noms masculins, l'article 'der' devient 'den' (par exemple, der Salat → den Salat). On peut aussi utiliser 'Ich hätte gern...' (Je voudrais...), qui est encore plus formel. Pour demander ce que le client souhaite, le serveur dit : 'Was möchten Sie?' (Que désirez-vous ?). Lorsqu'on commande quelque chose, on ajoute 'bitte' (s'il vous plaît) à la fin ou après la commande : 'Eine Suppe, bitte.' Le verbe dans les phrases déclaratives est en deuxième position ; dans les questions oui/non, le verbe est en première position : 'Möchten Sie etwas trinken?' (Souhaitez-vous boire quelque chose ?). Il est important de ne pas oublier que 'Sie' (vous) s'écrit toujours avec une majuscule pour le distinguer de 'sie' (elle/ils).",
+    "concept_examples": [
+      {
+        "text": "Ich möchte einen Kaffee, bitte.",
+        "translation": "J'aimerais un café, s'il vous plaît.",
+        "phonetic": "ɪç ˈmœçtə ˈaɪnən ˈkafeː, ˈbɪtə"
+      },
+      {
+        "text": "Wir möchten zwei Salate.",
+        "translation": "Nous aimerions deux salades.",
+        "phonetic": "viːɐ̯ ˈmœçtn̩ t͡svaɪ̯ zaˈlaːtə"
+      },
+      {
+        "text": "Was möchten Sie?",
+        "translation": "Que désirez-vous ?",
+        "phonetic": "vas ˈmœçtn̩ ziː"
+      },
+      {
+        "text": "Ich hätte gern ein Glas Wasser.",
+        "translation": "J'aimerais un verre d'eau.",
+        "phonetic": "ɪç ˈhɛtə ɡɛʁn aɪ̯n ɡlaːs ˈvasɐ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich möchte ein Kaffee.",
+      "correct": "Ich möchte einen Kaffee.",
+      "correct_alt": "Ich möchte einen Kaffee, bitte.",
+      "explanation": "L'erreur courante consiste à ne pas utiliser l'accusatif après 'möchten'. 'Kaffee' est masculin (der Kaffee), donc l'article indéfini 'ein' devient 'einen'. En espagnol, 'un café' ne change pas, mais en allemand, l'accusatif affecte l'article masculin. Rappelez-vous : avec 'möchten', utilisez toujours l'accusatif, et pour les noms masculins, l'article est 'einen'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Bestellungen aufgeben",
+        "translation": "Passer des commandes",
+        "examples": [
+          {
+            "original": "Ich möchte eine Pizza.",
+            "phonetic": "ɪç ˈmœçtə ˈaɪnə ˈpɪtsa",
+            "translation": "J'aimerais une pizza.",
+            "note": "Utilisation de 'möchten' avec l'article indéfini féminin (eine)."
+          },
+          {
+            "original": "Einen Tee, bitte.",
+            "phonetic": "ˈaɪnən teː, ˈbɪtə",
+            "translation": "Un thé, s'il vous plaît.",
+            "note": "Le verbe est parfois omis lorsque le contexte est clair ; 'einen' reste à l'accusatif."
+          },
+          {
+            "original": "Wir nehmen zwei Wasser.",
+            "phonetic": "viːɐ̯ ˈneːmən t͡svaɪ̯ ˈvasɐ",
+            "translation": "Nous prenons deux eaux.",
+            "note": "Le verbe 'nehmen' (prendre) est courant pour commander."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Fragen im Restaurant",
+        "translation": "Poser des questions au restaurant",
+        "examples": [
+          {
+            "original": "Was möchten Sie trinken?",
+            "phonetic": "vas ˈmœçtn̩ ziː ˈtʁɪŋkn̩",
+            "translation": "Que souhaitez-vous boire ?",
+            "note": "Question avec 'was' + verbe modal en deuxième position."
+          },
+          {
+            "original": "Haben Sie vegetarische Gerichte?",
+            "phonetic": "ˈhaːbn̩ ziː veɡetaˈʁiːʃə ɡəˈʁɪçtə",
+            "translation": "Avez-vous des plats végétariens ?",
+            "note": "Utilisation de 'haben' (avoir) pour demander la disponibilité."
+          },
+          {
+            "original": "Kann ich die Speisekarte haben?",
+            "phonetic": "kan ɪç diː ˈʃpaɪzəˌkaʁtə ˈhaːbn̩",
+            "translation": "Puis-je avoir le menu ?",
+            "note": "Verbe modal 'können' pour demander quelque chose poliment."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Bezahlen und gehen",
+        "translation": "Payer et partir",
+        "examples": [
+          {
+            "original": "Die Rechnung, bitte.",
+            "phonetic": "diː ˈʁɛçnʊŋ, ˈbɪtə",
+            "translation": "L'addition, s'il vous plaît.",
+            "note": "Expression indispensable pour demander l'addition."
+          },
+          {
+            "original": "Ich möchte zahlen.",
+            "phonetic": "ɪç ˈmœçtə ˈt͡saːlən",
+            "translation": "J'aimerais payer.",
+            "note": "Utilisation de 'möchten' + infinitif 'zahlen'."
+          },
+          {
+            "original": "Zusammen oder getrennt?",
+            "phonetic": "t͡suˈzamən ˈoːdɐ ɡəˈtʁɛnt",
+            "translation": "Ensemble ou séparément ?",
+            "note": "Question courante du serveur en apportant l'addition."
+          },
+          {
+            "original": "Es hat gut geschmeckt.",
+            "phonetic": "ɛs hat ɡuːt ɡəˈʃmɛkt",
+            "translation": "C'était délicieux.",
+            "note": "Phrase pour complimenter la nourriture en partant."
+          }
+        ]
+      }
+    ],
+    "emoji": "🍽️",
+    "phonetic": "",
+    "translations": {
+      "fr": "Au restaurant"
+    }
+  },
+  {
+    "id": "fr_A1_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "In der Apotheke / Dans une pharmacie",
+    "bridge": "En allemand, pour demander quelque chose en pharmacie, on utilise la structure 'Ich hätte gern...' (J’aimerais avoir...), qui est plus polie qu’un simple 'Ich möchte...' (je veux). Contrairement à l’espagnol, où l’on dit 'Necesito' ou 'Quiero', en allemand, on préfère une forme de politesse avec le verbe 'hätte' (subjonctif de 'haben'). De plus, les médicaments se demandent par leur nom générique ou par leur principe actif, et il est courant d’utiliser des articles définis avec les noms de médicaments, ce qui peut sembler étrange pour un hispanophone.",
+    "rule": "En allemand, pour exprimer des souhaits ou des demandes dans un contexte formel (comme en pharmacie), on utilise 'Ich hätte gern' + nom à l’accusatif. 'Hätte' est le subjonctif II de 'haben'. On peut aussi utiliser 'Ich brauche' (j’ai besoin de) ou 'Können Sie mir ... geben?' (Pouvez-vous me donner... ?). Pour demander quelque chose de précis, on utilise 'Haben Sie ...?' (Avez-vous... ?). Les articles définis (der, die, das) sont souvent utilisés avec les noms de médicaments lorsqu’ils désignent un type spécifique, mais dans les demandes générales, on peut les omettre. N’oublie pas qu’avec 'Sie' (vous), dans les questions formelles, le verbe se place en début de phrase si c’est une question fermée, ou après le pronom interrogatif (Was, Wie, etc.).",
+    "concept_examples": [
+      {
+        "text": "Ich hätte gern etwas gegen Kopfschmerzen.",
+        "translation": "J’aimerais quelque chose contre le mal de tête.",
+        "phonetic": "ɪç ˈhɛtə ɡɛrn ˈɛtvas ɡeːɡn ˈkɔpʃmɛrtsən"
+      },
+      {
+        "text": "Haben Sie etwas gegen Husten?",
+        "translation": "Avez-vous quelque chose contre la toux ?",
+        "phonetic": "ˈhaːbən ziː ˈɛtvas ɡeːɡn ˈhuːstən"
+      },
+      {
+        "text": "Ich brauche ein Rezept.",
+        "translation": "J’ai besoin d’une ordonnance.",
+        "phonetic": "ɪç ˈbraʊxə aɪn rɛˈtseːpt"
+      },
+      {
+        "text": "Können Sie mir etwas empfehlen?",
+        "translation": "Pouvez-vous me recommander quelque chose ?",
+        "phonetic": "ˈkœnən ziː miːɐ̯ ˈɛtvas ɛmˈpfeːlən"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich möchte ein Aspirin.",
+      "correct": "Ich hätte gern ein Aspirin.",
+      "correct_alt": "Können Sie mir ein Aspirin geben?",
+      "explanation": "Beaucoup d’hispanophones utilisent directement 'Ich möchte' (je veux), mais en allemand, cela peut paraître un peu brutal dans des situations formelles. En pharmacie, il est plus poli d’utiliser 'Ich hätte gern' (j’aimerais) ou une question formelle avec 'Können Sie... ?'. Évite donc l’usage direct de 'möchte' pour faire une demande dans un contexte de service."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Grundbedürfnisse äußern",
+        "translation": "Exprimer des besoins basiques",
+        "examples": [
+          {
+            "original": "Ich brauche etwas gegen Schmerzen.",
+            "phonetic": "ɪç ˈbraʊxə ˈɛtvas ɡeːɡn ˈʃmɛrtsən",
+            "translation": "J’ai besoin de quelque chose contre la douleur.",
+            "note": "Utilise 'brauchen' (avoir besoin de) quand tu as un besoin clair."
+          },
+          {
+            "original": "Ich hätte gern ein Mittel gegen Erkältung.",
+            "phonetic": "ɪç ˈhɛtə ɡɛrn aɪn ˈmɪtəl ɡeːɡn ɛɐ̯ˈkɛltʊŋ",
+            "translation": "J’aimerais un remède contre le rhume.",
+            "note": "'Erkältung' désigne le rhume, et 'Mittel' signifie remède/médicament."
+          },
+          {
+            "original": "Haben Sie ein Schmerzmittel?",
+            "phonetic": "ˈhaːbən ziː aɪn ˈʃmɛrtsˌmɪtəl",
+            "translation": "Avez-vous un antidouleur ?",
+            "note": "'Schmerzmittel' est un terme général pour antidouleur."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nach Produkten fragen",
+        "translation": "Demander des produits",
+        "examples": [
+          {
+            "original": "Haben Sie etwas gegen Allergien?",
+            "phonetic": "ˈhaːbən ziː ˈɛtvas ɡeːɡn alɛɐ̯ˈɡiːən",
+            "translation": "Avez-vous quelque chose contre les allergies ?",
+            "note": "Question typique en pharmacie, utilise 'gegen' (contre/ pour) avec la condition."
+          },
+          {
+            "original": "Was empfehlen Sie bei Halsschmerzen?",
+            "phonetic": "vas ɛmˈfeːlən ziː baɪ ˈhalsʃmɛrtsən",
+            "translation": "Que recommandez-vous contre le mal de gorge ?",
+            "note": "Utilise 'bei' (en cas de) pour indiquer l’affection."
+          },
+          {
+            "original": "Ich suche ein Medikament gegen Fieber.",
+            "phonetic": "ɪç ˈzuːxə aɪn mediˈkaːmɛnt ɡeːɡn ˈfiːbɐ",
+            "translation": "Je cherche un médicament contre la fièvre.",
+            "note": "'Suchen' (chercher) est utile quand tu ne connais pas le nom exact."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Rezepte und Apothekenleistungen",
+        "translation": "Ordonnances et services de pharmacie",
+        "examples": [
+          {
+            "original": "Kann ich das Rezept hier einlösen?",
+            "phonetic": "kan ɪç das rɛˈtseːpt hiːɐ̯ ˈaɪnˌløːzən",
+            "translation": "Puis-je faire valoir l’ordonnance ici ?",
+            "note": "Le verbe 'einlösen' s’utilise spécifiquement pour faire valoir une ordonnance."
+          },
+          {
+            "original": "Ich hätte gern ein rezeptfreies Medikament.",
+            "phonetic": "ɪç ˈhɛtə ɡɛrn aɪn rɛˈtseːptˌfraɪəs mediˈkaːmɛnt",
+            "translation": "J’aimerais un médicament sans ordonnance.",
+            "note": "'Rezeptfrei' signifie sans ordonnance, c’est un mot composé utile."
+          },
+          {
+            "original": "Wie oft muss ich das einnehmen?",
+            "phonetic": "viː ɔft mʊs ɪç das ˈaɪnˌneːmən",
+            "translation": "À quelle fréquence dois-je le prendre ?",
+            "note": "Question essentielle sur le dosage ; le verbe 'einnehmen' signifie prendre (un médicament)."
+          },
+          {
+            "original": "Gibt es Nebenwirkungen?",
+            "phonetic": "ɡɪpt ɛs ˈneːbənvɪʁkʊŋən",
+            "translation": "Y a-t-il des effets secondaires ?",
+            "note": "'Nebenwirkungen' est un concept important pour la sécurité."
+          }
+        ]
+      }
+    ],
+    "emoji": "💊",
+    "phonetic": "",
+    "translations": {
+      "fr": "Dans une pharmacie"
+    }
+  },
+  {
+    "id": "fr_A1_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Im Supermarkt / Dans le supermarché",
+    "bridge": "En allemand, la politesse et la formalité se marquent avec le pronom 'Sie' (vous) au lieu de 'du' (tu), ce qui change la forme du verbe. De plus, les articles (der, die, das) ne correspondent pas toujours au genre en espagnol : 'die Milch' (le lait) est féminin dans les deux langues, mais 'das Brot' (le pain) est neutre en allemand et masculin en espagnol. Fais attention à la structure des questions : le verbe se place avant le sujet, comme dans 'Haben Sie...?' (Avez-vous...?). N'oublie pas que les noms s'écrivent avec une majuscule initiale.",
+    "rule": "En niveau A1, pour demander quelque chose dans un supermarché, on utilise la structure : 'Ich hätte gern...' (Je voudrais...) + accusatif (article + nom). L'accusatif modifie l'article : 'der' → 'den', 'die' → 'die', 'das' → 'das' (pas de changement pour le féminin et le neutre). Pour demander le prix : 'Was kostet...?' (Combien ça coûte ?) ou 'Wie viel kostet...?'. Le verbe 'kosten' se conjugue : kostet (il/elle) et kosten (ils/elles). Pour demander si un article est disponible : 'Haben Sie...?' (Avez-vous...?), avec le verbe à la deuxième personne du singulier formel. Les articles indéfinis : 'einen' (masculin accusatif), 'eine' (féminin), 'ein' (neutre). Exemple : 'Ich hätte gern einen Apfel' (Je voudrais une pomme).",
+    "concept_examples": [
+      {
+        "text": "Ich hätte gern ein Brot.",
+        "translation": "Je voudrais un pain.",
+        "phonetic": "[ɪç ˈhɛtə ɡɛrn aɪn broːt]"
+      },
+      {
+        "text": "Was kostet die Milch?",
+        "translation": "Combien coûte le lait ?",
+        "phonetic": "[vas ˈkɔstət diː mɪlç]"
+      },
+      {
+        "text": "Haben Sie Äpfel?",
+        "translation": "Avez-vous des pommes ?",
+        "phonetic": "[ˈhaːbən ziː ˈɛpfəl]"
+      },
+      {
+        "text": "Ich möchte ein Kilo Tomaten.",
+        "translation": "Je veux un kilo de tomates.",
+        "phonetic": "[ɪç ˈmœçtə aɪn ˈkiːlo toˈmaːtən]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich möchte eine Brot.",
+      "correct": "Ich möchte ein Brot.",
+      "correct_alt": "Ich hätte gern ein Brot.",
+      "explanation": "L'erreur vient du fait qu'en espagnol 'pan' est masculin et on utilise 'un', mais en allemand 'Brot' est neutre, donc l'article indéfini à l'accusatif est 'ein', et non 'eine'. Pour éviter cette erreur, apprends le genre en même temps que le nom : 'das Brot'. N'oublie pas que le neutre ne change pas à l'accusatif."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Lebensmittel nennen",
+        "translation": "Nommer des aliments",
+        "examples": [
+          {
+            "original": "Das ist der Käse.",
+            "phonetic": "[das ɪst deːɐ̯ ˈkɛːzə]",
+            "translation": "C'est le fromage.",
+            "note": "Les noms en allemand prennent toujours un article. 'Der Käse' est masculin, comme en espagnol 'el queso'."
+          },
+          {
+            "original": "Ich brauche die Butter.",
+            "phonetic": "[ɪç ˈbraʊxə diː ˈbʊtɐ]",
+            "translation": "J'ai besoin du beurre.",
+            "note": "'Die Butter' est féminin. En espagnol, 'la mantequilla' est aussi féminin, mais ce n'est pas toujours le cas."
+          },
+          {
+            "original": "Das Wasser ist kalt.",
+            "phonetic": "[das ˈvasɐ ɪst kalt]",
+            "translation": "L'eau est froide.",
+            "note": "'Das Wasser' est neutre, alors qu'en espagnol 'agua' est féminin. Fais attention au genre."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mengen angeben",
+        "translation": "Indiquer des quantités",
+        "examples": [
+          {
+            "original": "Ein Kilo Äpfel, bitte.",
+            "phonetic": "[aɪn ˈkiːlo ˈɛpfəl, ˈbɪtə]",
+            "translation": "Un kilo de pommes, s'il vous plaît.",
+            "note": "La quantité se place avant le nom. 'Ein Kilo' est neutre et ne change pas."
+          },
+          {
+            "original": "Zwei Flaschen Wasser, bitte.",
+            "phonetic": "[tsvaɪ ˈflaʃən ˈvasɐ, ˈbɪtə]",
+            "translation": "Deux bouteilles d'eau, s'il vous plaît.",
+            "note": "Le pluriel se forme avec '-n' dans 'Flaschen'. On n'utilise pas 'de' comme en espagnol, les mots sont simplement juxtaposés."
+          },
+          {
+            "original": "Ein halbes Brot, bitte.",
+            "phonetic": "[aɪn ˈhalbəs broːt, ˈbɪtə]",
+            "translation": "Une demi-baguette, s'il vous plaît.",
+            "note": "'Halbes' est l'adjectif qui s'accorde avec 'Brot' (neutre)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Bezahlen und Fragen",
+        "translation": "Pagar y preguntar",
+        "examples": [
+          {
+            "original": "Was kostet das zusammen?",
+            "phonetic": "[vas ˈkɔstət das tsuˈzamən]",
+            "translation": "¿Cuánto cuesta todo junto?",
+            "note": "Se usa 'das zusammen' para referirse al total. La pregunta con 'was' + verbo."
+          },
+          {
+            "original": "Ich zahle bar.",
+            "phonetic": "[ɪç ˈtsaːlə baːɐ̯]",
+            "translation": "Pago en efectivo.",
+            "note": "El verbo 'zahlen' se conjuga regularmente: ich zahle, du zahlst, er zahlt."
+          },
+          {
+            "original": "Kann ich mit Karte zahlen?",
+            "phonetic": "[kan ɪç mɪt ˈkartə ˈtsaːlən]",
+            "translation": "¿Puedo pagar con tarjeta?",
+            "note": "La estructura 'Kann ich...?' (¿Puedo...?) es útil para pedir permiso. 'Mit' (con) + dativo, pero 'Karte' es femenino y no cambia."
+          }
+        ]
+      }
+    ],
+    "emoji": "🛒",
+    "phonetic": "",
+    "translations": {
+      "fr": "Dans le supermarché"
+    }
+  },
+  {
+    "id": "fr_A1_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Mit dem Bus fahren / Voyager en bus",
+    "bridge": "En allemand, contrairement à l'espagnol, les verbes de mouvement comme 'fahren' (aller en véhicule) et 'gehen' (aller à pied) sont clairement distincts. De plus, les prépositions 'mit' (avec) et 'zu' (à) sont essentielles pour indiquer le moyen de transport et la destination. Une erreur fréquente consiste à traduire littéralement 'voy en bus' par 'ich gehe mit Bus', mais en allemand on dit 'ich fahre mit dem Bus'. On remarque également que les articles définis au datif (dem, der) s'emploient après 'mit'.",
+    "rule": "Pour parler des transports en commun en allemand au niveau A1, utilisez le verbe 'fahren' (conduire/aller en véhicule) au présent : ich fahre, du fährst, er/sie/es fährt, wir fahren, ihr fahrt, sie fahren. Le moyen de transport s'exprime avec 'mit' + article défini au datif : mit dem Bus (bus), mit der Bahn (train), mit der U-Bahn (métro), mit dem Taxi (taxi). La destination s'introduit avec 'zu' + datif (zum Bahnhof = à la gare, zur Haltestelle = à l'arrêt) ou 'nach' pour les villes/pays (nach Berlin). Pour demander les horaires, utilisez 'Wann fährt...?' (Quand part... ?) et pour indiquer descendre, 'aussteigen' (descendre) ou 'umsteigen' (correspondre). N'oubliez pas que les noms communs en allemand prennent une majuscule (der Bus, die Bahn).",
+    "concept_examples": [
+      {
+        "text": "Ich fahre mit dem Bus.",
+        "translation": "Je prends le bus.",
+        "phonetic": "ɪç ˈfaːʁə mɪt deːm bʊs"
+      },
+      {
+        "text": "Wann fährt der nächste Zug?",
+        "translation": "Quand part le prochain train ?",
+        "phonetic": "van fɛːɐ̯t deːɐ̯ ˈnɛːçstə tsuːk"
+      },
+      {
+        "text": "Ich muss am Bahnhof umsteigen.",
+        "translation": "Je dois changer à la gare.",
+        "phonetic": "ɪç mʊs am ˈbaːnhoːf ˈʊmˌʃtaɪ̯ɡən"
+      },
+      {
+        "text": "Fahren Sie mit der U-Bahn?",
+        "translation": "Prenez-vous le métro ?",
+        "phonetic": "ˈfaːʁən ziː mɪt deːɐ̯ ˈuːbaːn"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich gehe mit Bus.",
+      "correct": "Ich fahre mit dem Bus.",
+      "correct_alt": "Ich nehme den Bus.",
+      "explanation": "En espagnol, 'ir en bus' est souvent traduit par 'gehen' (marcher), mais en allemand, 'gehen' implique de marcher. Pour les véhicules, on utilise 'fahren'. De plus, 'mit' exige un article défini au datif ('mit dem Bus'), l'article ne peut pas être omis. Une alternative est 'nehmen' (prendre) + accusatif : 'Ich nehme den Bus'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nach dem Weg fragen",
+        "translation": "Demander son chemin",
+        "examples": [
+          {
+            "original": "Wo ist die Haltestelle?",
+            "phonetic": "voː ɪst diː ˈhaltəʃtɛlə",
+            "translation": "Où se trouve l'arrêt ?",
+            "note": "Utilisez 'Wo ist...?' pour demander un lieu."
+          },
+          {
+            "original": "Wie komme ich zum Bahnhof?",
+            "phonetic": "viː ˈkɔmə ɪç tsʊm ˈbaːnhoːf",
+            "translation": "Comment puis-je aller à la gare ?",
+            "note": "'Zum' est la contraction de 'zu dem' (à la)."
+          },
+          {
+            "original": "Entschuldigung, wo geht es zur U-Bahn?",
+            "phonetic": "ɛntˈʃʊldɪɡʊŋ, voː ɡeːt ɛs tsʊʁ ˈuːbaːn",
+            "translation": "Pardon, où est le métro ?",
+            "note": "'Zur' = 'zu der' (à la). Pour s'excuser en abordant quelqu'un."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Tickets kaufen",
+        "translation": "Acheter des billets",
+        "examples": [
+          {
+            "original": "Ein Ticket nach Berlin, bitte.",
+            "phonetic": "aɪ̯n ˈtɪkɛt naːx bɛʁˈliːn, ˈbɪtə",
+            "translation": "Un billet pour Berlin, s'il vous plaît.",
+            "note": "'Bitte' est la forme polie pour demander."
+          },
+          {
+            "original": "Was kostet eine Fahrkarte?",
+            "phonetic": "vas ˈkɔstət ˈaɪ̯nə ˈfaːɐ̯kaʁtə",
+            "translation": "Combien coûte un billet ?",
+            "note": "'Fahrkarte' désigne le billet de transport en commun."
+          },
+          {
+            "original": "Ich möchte eine Einzelfahrt, bitte.",
+            "phonetic": "ɪç ˈmœçtə ˈaɪ̯nə ˈaɪ̯nt͡sl̩faːɐ̯t, ˈbɪtə",
+            "translation": "Je voudrais un aller simple, s'il vous plaît.",
+            "note": "'Möchte' est la forme polie de 'vouloir'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Im Bus und in der Bahn",
+        "translation": "Dans le bus et dans le train",
+        "examples": [
+          {
+            "original": "Ich steige an der nächsten Haltestelle aus.",
+            "phonetic": "ɪç ˈʃtaɪ̯ɡə an deːɐ̯ ˈnɛːçstən ˈhaltəʃtɛlə aʊ̯s",
+            "translation": "Je descends au prochain arrêt.",
+            "note": "'Aussteigen' est séparable : 'steige...aus'. Dans une phrase principale, le préfixe se place à la fin."
+          },
+          {
+            "original": "Wo muss ich umsteigen?",
+            "phonetic": "voː mʊs ɪç ˈʊmˌʃtaɪ̯ɡən",
+            "translation": "Où dois-je changer ?",
+            "note": "'Umsteigen' signifie changer de transport."
+          },
+          {
+            "original": "Der Bus ist verspätet.",
+            "phonetic": "deːɐ̯ bʊs ɪst fɛɐ̯ˈʃpɛːtət",
+            "translation": "Le bus a du retard.",
+            "note": "'Verspätet' est l'adjectif pour 'en retard'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚌",
+    "phonetic": "",
+    "translations": {
+      "fr": "Transports en commun"
+    }
+  },
+  {
+    "id": "fr_A1_conv_07",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Sich vorstellen / Se présenter",
+    "bridge": "En espagnol, pour te présenter, tu utilises le verbe 'ser' ou 'llamarse' directement. En allemand, les verbes 'sein' (être) et 'heißen' (s'appeler) fonctionnent de manière similaire, mais il y a des différences importantes : le verbe 'heißen' n'a pas besoin d'article ni de 'me' devant, et les questions se forment en inversant le sujet et le verbe, sans avoir besoin de points d'interrogation. De plus, l'allemand distingue entre 'du' (informel) et 'Sie' (formel), ce qui en espagnol se simplifie avec 'tú' et 'usted'.",
+    "rule": "Pour te présenter en allemand, utilise :\n- 'Ich heiße...' (Je m'appelle...) suivi de ton prénom.\n- 'Ich bin...' (Je suis...) suivi de ton prénom ou de ta profession.\n- 'Ich komme aus...' (Je viens de...) pour indiquer ta provenance.\n- Pour demander le nom : 'Wie heißt du?' (informel) ou 'Wie heißen Sie?' (formel).\n- Pour demander d'où tu viens : 'Woher kommst du?' (informel) / 'Woher kommen Sie?' (formel).\n- Le verbe 'heißen' est irrégulier : ich heiße, du heißt, er/sie/es heißt. Ne pas le confondre avec 'sein' : ich bin, du bist, er/sie/es ist.\n- Dans les questions, le verbe vient en premier : 'Heißt du...?' 'Bist du...?' 'Kommst du...?'.\n- Utilisation de 'du' avec des amis, la famille, les jeunes ; 'Sie' avec des personnes inconnues ou dans des contextes formels.",
+    "concept_examples": [
+      {
+        "text": "Ich heiße Anna.",
+        "translation": "Je m'appelle Anna.",
+        "phonetic": "ɪç ˈhaɪsə ˈana"
+      },
+      {
+        "text": "Ich bin Juan.",
+        "translation": "Je suis Juan.",
+        "phonetic": "ɪç bɪn ˈhuːan"
+      },
+      {
+        "text": "Woher kommst du?",
+        "translation": "D'où viens-tu ?",
+        "phonetic": "ˈvoːhɐ kɔmst duː"
+      },
+      {
+        "text": "Ich komme aus Spanien.",
+        "translation": "Je viens d'Espagne.",
+        "phonetic": "ɪç ˈkɔmə aʊs ˈʃpaːniən"
+      }
+    ],
+    "common_error": {
+      "wrong": "Me llamo es Anna.",
+      "correct": "Ich heiße Anna.",
+      "correct_alt": "Ich bin Anna.",
+      "explanation": "Beaucoup de hispanophones traduisent littéralement 'Me llamo es Anna' en allemand, mais en allemand, on n'a pas besoin du verbe 'sein' avec 'heißen' pour exprimer le nom. 'Heißen' signifie déjà 's'appeler', donc 'Ich heiße Anna' est suffisant. On peut aussi utiliser 'Ich bin Anna', mais avec 'heißen', on n'ajoute pas 'es'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Wie heißt du?",
+        "translation": "Comment t'appelles-tu ?",
+        "examples": [
+          {
+            "original": "Wie heißt du?",
+            "phonetic": "viː haɪst duː",
+            "translation": "Comment t'appelles-tu ?",
+            "note": "Informel, utilisé avec des personnes de ton âge ou des enfants."
+          },
+          {
+            "original": "Ich heiße María.",
+            "phonetic": "ɪç ˈhaɪsə maˈʁiːa",
+            "translation": "Je m'appelle María.",
+            "note": "La terminaison '-e' dans 'heiße' est caractéristique de la première personne."
+          },
+          {
+            "original": "Und du?",
+            "phonetic": "ʊnt duː",
+            "translation": "Et toi ?",
+            "note": "Il est courant de répondre avec cette question pour continuer la conversation."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Woher kommst du?",
+        "translation": "D'où viens-tu ?",
+        "examples": [
+          {
+            "original": "Woher kommst du?",
+            "phonetic": "ˈvoːhɐ kɔmst duː",
+            "translation": "D'où viens-tu ?",
+            "note": "Utilisé pour demander la provenance ou la nationalité."
+          },
+          {
+            "original": "Ich komme aus Deutschland.",
+            "phonetic": "ɪç ˈkɔmə aʊs ˈdɔʏtʃlant",
+            "translation": "Je viens d'Allemagne.",
+            "note": "La préposition 'aus' s'utilise avec les pays et les villes."
+          },
+          {
+            "original": "Ich wohne in Spanien.",
+            "phonetic": "ɪç ˈvoːnə ɪn ˈʃpaːniən",
+            "translation": "Je vis en Espagne.",
+            "note": "Pour indiquer la résidence, on utilise 'wohnen' avec la préposition 'in'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Freut mich!",
+        "translation": "Enchanté !",
+        "examples": [
+          {
+            "original": "Freut mich, dich kennenzulernen.",
+            "phonetic": "fʁɔʏt mɪç dɪç ˈkɛnənˌtsuːˌlɛʁnən",
+            "translation": "Enchanté de faire ta connaissance.",
+            "note": "Expression courante pour faire la connaissance de quelqu'un."
+          },
+          {
+            "original": "Wo wohnst du?",
+            "phonetic": "voː vɔnst duː",
+            "translation": "Où habites-tu ?",
+            "note": "Une autre question fréquente lors des présentations."
+          },
+          {
+            "original": "Ich bin Student.",
+            "phonetic": "ɪç bɪn ʃtuˈdɛnt",
+            "translation": "Je suis étudiant.",
+            "note": "N'oublie pas qu'en allemand, on omet l'article pour les professions."
+          },
+          {
+            "original": "Ich komme aus Mexiko, aber lebe jetzt in Berlin.",
+            "phonetic": "ɪç ˈkɔmə aʊs ˈmɛksikoː ˈaːbɐ ˈleːbə jɛtst ɪn bɛʁˈliːn",
+            "translation": "Je viens du Mexique, mais j'habite maintenant à Berlin.",
+            "note": "Utilise 'aber' pour contraster des informations."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤝",
+    "phonetic": "",
+    "translations": {
+      "fr": "Faire la connaissance de nouvelles personnes"
+    }
+  },
+  {
+    "id": "fr_A1_conv_08",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Dans un café / Pedir en una cafetería",
+    "bridge": "En espagnol, pour commander quelque chose dans un café, on utilise le verbe 'querer' (yo quiero un café) et on ajoute souvent 'por favor'. En allemand, la forme la plus naturelle est d'utiliser le verbe 'möchten' (forme polie de 'vouloir'), qui se conjugue de manière particulière : ich möchte, du möchtest, etc. De plus, en allemand, le nom 'café' (Kaffee) est masculin et son article change à l'accusatif : 'einen Kaffee'. Les hispanophones oublient souvent cette déclinaison et disent 'Ich möchte ein Kaffee' au lieu de 'einen Kaffee'. Une autre différence clé : en allemand, pour commander, on utilise souvent la forme 'Ich hätte gern...' (j'aimerais), qui est encore plus polie et très courante au quotidien.",
+    "rule": "Pour commander dans un café en allemand au niveau A1, on utilise principalement les structures suivantes :\n\n1. **möchten + nom à l'accusatif** : C'est la forme la plus courante et polie. Conjugaison de 'möchten' : ich möchte, du möchtest, er/sie/es möchte, wir möchten, ihr möchtet, sie/Sie möchten. Le nom qui accompagne se met à l'accusatif, ce qui affecte les articles définis : der → den (masc.), die → die (fém.), das → das (neut.), et les indéfinis : ein → einen (masc.), eine → eine (fém.), ein → ein (neut.). Exemple : Ich möchte einen Kaffee. (Je veux un café).\n2. **Ich hätte gern + nom à l'accusatif** : C'est une forme conditionnelle de 'haben' (hätte) qui se traduit par 'j'aimerais' ou 'je voudrais'. Très utilisée, elle nécessite aussi l'accusatif : Ich hätte gern einen Tee. (J'aimerais un thé).\n3. **Questions et formules de politesse** : Pour demander le prix ou l'addition, on utilise des expressions fixes : 'Was kostet...?' (Combien ça coûte... ?), 'Zahlen, bitte.' (L'addition, s'il vous plaît). N'oublie pas que 'bitte' (s'il vous plaît) se place à la fin ou au début, mais jamais au milieu de la phrase comme en espagnol.\n4. **Articles et contractions** : Dans la conversation quotidienne, les Allemands contractent souvent 'ein' avec l'article : 'einen' devient ''nen' dans le langage familier (mais au niveau A1, il vaut mieux utiliser la forme complète). On utilise aussi 'noch' pour demander plus : 'Noch einen Kaffee, bitte.' (Un autre café, s'il vous plaît).\n5. **Exceptions courantes** : Certains noms comme 'Wasser' (eau) sont neutres, donc l'accusatif ne change pas : 'Ich möchte ein Wasser.' (Je veux de l'eau). Les pluriels n'ont pas d'article indéfini : 'Ich möchte zwei Brötchen.' (Je veux deux petits pains).",
+    "concept_examples": [
+      {
+        "text": "Ich möchte einen Kaffee, bitte.",
+        "translation": "Je veux un café, s'il vous plaît.",
+        "phonetic": "ɪç ˈmœçtə ˈaɪnən ˈkafeː | ˈbɪtə"
+      },
+      {
+        "text": "Ich hätte gern einen Tee.",
+        "translation": "J'aimerais un thé.",
+        "phonetic": "ɪç ˈhɛtə ɡɛrn ˈaɪnən teː"
+      },
+      {
+        "text": "Was kostet ein Stück Kuchen?",
+        "translation": "Combien coûte une part de gâteau ?",
+        "phonetic": "vas ˈkɔstət aɪn ʃtʏk ˈkuːxən"
+      },
+      {
+        "text": "Zahlen, bitte.",
+        "translation": "L'addition, s'il vous plaît.",
+        "phonetic": "ˈtsaːlən ˈbɪtə"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ich möchte ein Kaffee.",
+      "correct": "Ich möchte einen Kaffee.",
+      "correct_alt": "Ich hätte gern einen Kaffee.",
+      "explanation": "L'erreur la plus courante est d'oublier le changement d'article à l'accusatif. En espagnol, 'un café' ne change pas, mais en allemand, le masculin 'der Kaffee' devient 'den', et avec l'article indéfini 'ein', il se transforme en 'einen'. Les hispanophones ont tendance à utiliser la forme du nominatif parce qu'ils ne sont pas habitués à la déclinaison. Pour l'éviter, mémorise la phrase complète 'einen Kaffee' comme une unité, et entraîne-toi avec d'autres masculins : einen Tee, einen Saft, einen Kuchen."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Bestellungen aufgeben",
+        "translation": "Passer des commandes",
+        "examples": [
+          {
+            "original": "Ich möchte einen Kaffee.",
+            "phonetic": "ɪç ˈmœçtə ˈaɪnən ˈkafeː",
+            "translation": "Je veux un café.",
+            "note": "Utilise 'möchten' pour commander de manière polie. N'oublie pas l'accusatif 'einen' pour les masculins."
+          },
+          {
+            "original": "Ich möchte einen Tee, bitte.",
+            "phonetic": "ɪç ˈmœçtə ˈaɪnən teː | ˈbɪtə",
+            "translation": "Je veux un thé, s'il vous plaît.",
+            "note": "Ajoute 'bitte' à la fin pour être poli. Note que 'Tee' est aussi masculin, d'où 'einen'."
+          },
+          {
+            "original": "Ein Wasser, bitte.",
+            "phonetic": "aɪn ˈvasɐ | ˈbɪtə",
+            "translation": "De l'eau, s'il vous plaît.",
+            "note": "Avec 'Wasser' (neutre), l'article ne change pas : 'ein' au nominatif et à l'accusatif."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nach dem Preis fragen",
+        "translation": "Demander le prix",
+        "examples": [
+          {
+            "original": "Was kostet der Kaffee?",
+            "phonetic": "vas ˈkɔstət deːɐ̯ ˈkafeː",
+            "translation": "Combien coûte le café ?",
+            "note": "Utilise 'Was kostet...?' pour demander le prix. L'article 'der' est au nominatif car c'est le sujet."
+          },
+          {
+            "original": "Was kostet ein Stück Kuchen?",
+            "phonetic": "vas ˈkɔstət aɪn ʃtʏk ˈkuːxən",
+            "translation": "Combien coûte une part de gâteau ?",
+            "note": "Quand tu demandes un article indéfini, utilise 'ein' au nominatif."
+          },
+          {
+            "original": "Wie viel kostet das?",
+            "phonetic": "viː fiːl ˈkɔstət das",
+            "translation": "Combien ça coûte ?",
+            "note": "Tu peux aussi utiliser 'Wie viel' (combien) suivi de 'kostet'. Très utile."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Höflich bestellen und zahlen",
+        "translation": "Commander avec politesse et payer",
+        "examples": [
+          {
+            "original": "Ich hätte gern einen Kaffee.",
+            "phonetic": "ɪç ˈhɛtə ɡɛrn ˈaɪnən ˈkafeː",
+            "translation": "J'aimerais un café.",
+            "note": "Cette forme est encore plus polie et très courante. Utilise 'gern' après 'hätte'."
+          },
+          {
+            "original": "Noch einen Kaffee, bitte.",
+            "phonetic": "nɔx ˈaɪnən ˈkafeː | ˈbɪtə",
+            "translation": "Un autre café, s'il vous plaît.",
+            "note": "Pour demander plus, utilise 'noch' + accusatif. Ici 'einen' car c'est masculin."
+          },
+          {
+            "original": "Zahlen, bitte.",
+            "phonetic": "ˈtsaːlən ˈbɪtə",
+            "translation": "L'addition, s'il vous plaît.",
+            "note": "C'est la façon la plus courante de demander l'addition. Tu peux ajouter 'Ich möchte zahlen' (Je voudrais payer)."
+          }
+        ]
+      }
+    ],
+    "emoji": "☕",
+    "phonetic": "",
+    "translations": {
+      "fr": "Dans un café"
+    }
+  },
+  {
+    "id": "fr_A1_conv_09",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Telefonieren und Nachrichten / Téléphone et messages de base",
+    "bridge": "En allemand, le verbe 'telefonieren' s'utilise sans préposition : 'ich telefoniere' (j'appelle). En espagnol, on dit souvent 'llamar a alguien', mais en allemand on utilise 'anrufen' avec l'accusatif : 'ich rufe dich an'. Attention : 'anrufen' est un verbe à particule séparable, donc dans une phrase principale, la particule 'an-' se place à la fin. Pour les messages, les Allemands utilisent 'schreiben' (écrire) comme en espagnol, mais il faut se rappeler que les salutations et formules de politesse diffèrent : 'Hallo' et 'Tschüss' sont informels, tandis que 'Guten Tag' et 'Auf Wiedersehen' sont formels. De plus, pour donner un numéro de téléphone, les Allemands regroupent les chiffres par paires ou trios et disent 'null' au lieu de 'zéro'.",
+    "rule": "En allemand, pour parler au téléphone, on utilise des verbes spécifiques : 'telefonieren' (sans complément d'objet direct, par exemple 'ich telefoniere mit dir' – je te téléphone) et 'anrufen' (avec un complément à l'accusatif, par exemple 'ich rufe dich an' – je t'appelle). 'anrufen' est un verbe à particule séparable, donc dans une phrase principale, la particule 'an-' se sépare et se place à la fin : 'ich rufe dich an'. Pour envoyer des messages, on utilise 'schreiben' (écrire) et 'eine Nachricht schicken' (envoyer un message). Les questions utiles : 'Kann ich bitte mit ... sprechen?' (Puis-je parler à ... ?), 'Wer ist am Apparat?' (Qui est à l'appareil ?) – mais au niveau A1, 'Hallo, ich bin ...' suffit. Pour dicter des numéros, on énonce les chiffres un par un : 'eins, zwei, drei', et pour le 0 on dit 'null'. Les salutations : formel 'Guten Tag' et 'Auf Wiedersehen' ; informel 'Hallo' et 'Tschüss'.",
+    "concept_examples": [
+      {
+        "text": "Hallo, ich bin Anna. Kann ich bitte mit Herrn Schmidt sprechen?",
+        "translation": "Bonjour, je suis Ana. Puis-je parler au monsieur Schmidt ?",
+        "phonetic": "ˈhaloː, ɪç bɪn ˈana. kan ɪç ˈbɪtə mɪt ˈhɛrn ʃmɪt ˈʃprɛçən?"
+      },
+      {
+        "text": "Ich rufe dich später an.",
+        "translation": "Je t'appelle plus tard.",
+        "phonetic": "ɪç ˈruːfə dɪç ˈʃpɛtɐ an."
+      },
+      {
+        "text": "Kannst du mir eine Nachricht schicken?",
+        "translation": "Peux-tu m'envoyer un message ?",
+        "phonetic": "ˈkanst duː miːɐ̯ ˈaɪnə ˈnaːxˌrɪçt ˈʃɪkən?"
+      },
+      {
+        "text": "Meine Telefonnummer ist null eins fünf, zwei drei vier.",
+        "translation": "Mon numéro de téléphone est zéro un cinq, deux trois quatre.",
+        "phonetic": "ˈmaɪnə ˈteːləfoːnˌnʊmɐ ɪst nʊl aɪns fʏnf, tsvaɪ̯ draɪ̯ fiːɐ̯."
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo llamo a mi amigo. (Ich rufe zu meinem Freund.)",
+      "correct": "Ich rufe meinen Freund an.",
+      "correct_alt": "Ich telefoniere mit meinem Freund.",
+      "explanation": "L'erreur consiste à utiliser la préposition 'zu' après 'rufen' et à ne pas séparer le verbe. En espagnol, 'llamar a alguien' utilise 'a', mais en allemand 'anrufen' régit l'accusatif sans préposition : 'ich rufe meinen Freund an'. N'oublie pas que 'anrufen' est un verbe à particule séparable, donc dans une phrase principale, la particule se place à la fin. Si tu utilises 'telefonieren', il faut la préposition 'mit' (avec) pour indiquer la personne avec qui tu parles."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Begrüßung am Telefon",
+        "translation": "Salutation au téléphone",
+        "examples": [
+          {
+            "original": "Hallo, hier ist Lisa.",
+            "phonetic": "ˈhaloː, hiːɐ̯ ɪst ˈliːza.",
+            "translation": "Bonjour, ici Lisa.",
+            "note": "En allemand, pour répondre au téléphone, on utilise 'hier ist' au lieu de 'yo soy'. C'est un faux ami avec l'espagnol."
+          },
+          {
+            "original": "Guten Tag, mein Name ist Peter.",
+            "phonetic": "ˈɡuːtən taːk, maɪn ˈnaːmə ɪst ˈpeːtɐ.",
+            "translation": "Bonjour, je m'appelle Peter.",
+            "note": "Usage formel. Dans des contextes formels, on utilise 'mein Name ist' au lieu de 'ich bin'."
+          },
+          {
+            "original": "Wer spricht, bitte?",
+            "phonetic": "veːɐ̯ ʃprɪçt, ˈbɪtə?",
+            "translation": "Qui est à l'appareil, s'il vous plaît ?",
+            "note": "Formule polie pour demander qui appelle. On peut aussi dire 'Wer ist da?'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nachrichten schreiben",
+        "translation": "Écrire des messages",
+        "examples": [
+          {
+            "original": "Schreib mir später eine SMS.",
+            "phonetic": "ʃraɪ̯p miːɐ̯ ˈʃpɛtɐ ˈaɪnə ɛːɛmˈɛs.",
+            "translation": "Écris-moi un SMS plus tard.",
+            "note": "Verbe 'schreiben' avec datif (mir) et accusatif (eine SMS). N'oublie pas que le complément d'objet indirect se place en premier."
+          },
+          {
+            "original": "Ich schicke dir eine Nachricht.",
+            "phonetic": "ɪç ˈʃɪkə diːɐ̯ ˈaɪnə ˈnaːxˌrɪçt.",
+            "translation": "Je t'envoie un message.",
+            "note": "Le verbe 'schicken' s'utilise aussi avec datif et accusatif, comme 'envoyer' en espagnol."
+          },
+          {
+            "original": "Hast du meine Nachricht bekommen?",
+            "phonetic": "hast duː ˈmaɪnə ˈnaːxˌrɪçt bəˈkɔmən?",
+            "translation": "As-tu reçu mon message ?",
+            "note": "Le présent perfect avec 'haben' et le participe 'bekommen'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Rückruf und Nummern",
+        "translation": "Rappeler et donner des numéros",
+        "examples": [
+          {
+            "original": "Kannst du mich zurückrufen?",
+            "phonetic": "ˈkanst duː mɪç tsuˈrʏkˌruːfən?",
+            "translation": "Peux-tu me rappeler ?",
+            "note": "'zurückrufen' est un verbe à particule séparable et signifie 'rappeler'."
+          },
+          {
+            "original": "Meine Handynummer ist eins fünf null, sieben acht.",
+            "phonetic": "ˈmaɪnə ˈhandiˌnʊmɐ ɪst aɪns fʏnf nʊl, ˈziːbən axt.",
+            "translation": "Mon numéro de portable est un cinq zéro, sept huit.",
+            "note": "En allemand, on dit 'Handynummer' (de l'anglais 'handy') au lieu de 'móvil'. On énonce les chiffres un par un."
+          },
+          {
+            "original": "Bitte rufen Sie später noch einmal an.",
+            "phonetic": "ˈbɪtə ˈruːfən ziː ˈʃpɛtɐ nɔx ˈaɪnmaːl an.",
+            "translation": "Veuillez rappeler plus tard, s'il vous plaît.",
+            "note": "Usage formel avec 'Sie' et le verbe à particule séparable 'anrufen'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📞",
+    "phonetic": "",
+    "translations": {
+      "fr": "Téléphone et messages de base"
+    }
+  },
+  {
+    "id": "fr_A1_conv_10",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Notruf & Hilfe / Appel à l'aide",
+    "bridge": "En allemand, pour demander de l'aide, on utilise généralement l'impératif ou des expressions directes comme 'Hilfe!' ou 'Rufen Sie die Polizei!'. Le registre formel (Sie) est très important lorsque l'on s'adresse à des inconnus, et l'impératif formel se forme avec le verbe à l'infinitif suivi de 'Sie' (par exemple, 'Rufen Sie'). De plus, les noms en allemand prennent toujours une majuscule, et le verbe 'brauchen' (avoir besoin de) se construit avec l'accusatif, comme 'necesitar' en espagnol, mais attention aux expressions figées comme 'Ich brauche Hilfe' (on ne dit pas 'Ich brauche eine Hilfe'). Autre différence : en espagnol, on dit souvent 'Estoy perdido/a', en allemand on utilise le verbe 'sich verirren' (se perdre) ou l'adjectif 'verlaufen', mais pour le niveau A1, 'Ich habe mich verlaufen' suffit.",
+    "rule": "Pour demander de l'aide en allemand au niveau A1, utilisez des phrases figées avec des verbes modaux ou à l'impératif. L'impératif formel se forme avec le verbe à l'infinitif + 'Sie' (ex. 'Rufen Sie!'), tandis que l'impératif informel (du) se forme avec la racine du verbe (ex. 'Ruf!'). Expressions clés : 'Hilfe!' (Aidez !), 'Ich brauche Hilfe' (J'ai besoin d'aide), 'Rufen Sie die Polizei!' (Appelez la police), 'Ich habe mich verlaufen' (Je me suis perdu). Pour les numéros d'urgence : 110 (police), 112 (ambulance/pompiers). N'oubliez pas que 'brauchen' régit l'accusatif : 'Ich brauche einen Arzt' (J'ai besoin d'un médecin). Dans les situations formelles, utilisez toujours 'Sie' et la forme de politesse.",
+    "concept_examples": [
+      {
+        "text": "Hilfe!",
+        "translation": "Aidez !",
+        "phonetic": "[ˈhɪlfə]"
+      },
+      {
+        "text": "Ich brauche Hilfe.",
+        "translation": "J'ai besoin d'aide.",
+        "phonetic": "[ɪç ˈbʁaʊ̯xə ˈhɪlfə]"
+      },
+      {
+        "text": "Rufen Sie die Polizei!",
+        "translation": "Appelez la police !",
+        "phonetic": "[ˈʁuːfən ziː diː poliˈt͡saɪ̯]"
+      },
+      {
+        "text": "Ich habe mich verlaufen.",
+        "translation": "Je me suis perdu.",
+        "phonetic": "[ɪç ˈhaːbə mɪç fɛɐ̯ˈlaʊ̯fən]"
+      }
+    ],
+    "common_error": {
+      "wrong": "¡Ayuda! ¡Llama a la policía! (usando 'tú' con desconocidos)",
+      "correct": "Hilfe! Rufen Sie die Polizei!",
+      "correct_alt": "Hilfe! Ruf die Polizei! (solo si el contexto es informal, con amigos o familiares)",
+      "explanation": "En espagnol, le tutoiement est courant même avec des inconnus, mais en allemand, il est essentiel d'utiliser le vouvoiement (Sie) avec des personnes que l'on ne connaît pas pour montrer du respect. Utiliser 'Ruf' (tu) avec un policier ou un inconnu peut paraître impoli. C'est pourquoi, apprenez toujours la forme formelle et utilisez-la par défaut."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Notruf rufen",
+        "translation": "Appeler les secours",
+        "examples": [
+          {
+            "original": "Rufen Sie den Notarzt!",
+            "phonetic": "[ˈʁuːfən ziː deːn ˈnoːtˌaʁt͡st]",
+            "translation": "Appelez le médecin urgentiste !",
+            "note": "'Notarzt' désigne le médecin urgentiste, différent de 'Arzt' (médecin généraliste)."
+          },
+          {
+            "original": "Die Nummer ist 112.",
+            "phonetic": "[diː ˈnʊmɐ ɪst ˈhʊndɐtˌt͡svœlf]",
+            "translation": "Le numéro est le 112.",
+            "note": "Le 112 est le numéro d'urgence européen, commun à toute l'UE. Retenez la prononciation de 112 : 'hundertzwölf'."
+          },
+          {
+            "original": "Ich rufe die Polizei.",
+            "phonetic": "[ɪç ˈʁuːfə diː poliˈt͡saɪ̯]",
+            "translation": "J'appelle la police.",
+            "note": "Verbe 'rufen' + accusatif. Ici, 'die Polizei' est le complément d'objet direct."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Hilfe brauchen",
+        "translation": "Avoir besoin d'aide",
+        "examples": [
+          {
+            "original": "Ich brauche einen Arzt.",
+            "phonetic": "[ɪç ˈbʁaʊ̯xə ˈaɪ̯nən aːɐ̯t͡st]",
+            "translation": "J'ai besoin d'un médecin.",
+            "note": "'Brauchen' avec l'accusatif ; 'einen Arzt' est masculin accusatif. Attention : on ne dit pas 'eine Hilfe' (aide) mais simplement 'Hilfe' sans article."
+          },
+          {
+            "original": "Brauchen Sie Hilfe?",
+            "phonetic": "[ˈbʁaʊ̯xən ziː ˈhɪlfə]",
+            "translation": "Avez-vous besoin d'aide ?",
+            "note": "Question polie avec inversion sujet-verbe. Utile pour offrir de l'aide."
+          },
+          {
+            "original": "Ich brauche Wasser.",
+            "phonetic": "[ɪç ˈbʁaʊ̯xə ˈvasɐ]",
+            "translation": "J'ai besoin d'eau.",
+            "note": "Nom sans article ('Wasser') dans les cas généraux. De même, 'Hilfe' ne prend pas d'article."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Sich verlaufen und Notfall",
+        "translation": "Se perdre et situations d'urgence",
+        "examples": [
+          {
+            "original": "Ich habe mich verlaufen.",
+            "phonetic": "[ɪç ˈhaːbə mɪç fɛɐ̯ˈlaʊ̯fən]",
+            "translation": "Je me suis perdu(e) (à pied).",
+            "note": "On utilise 'sich verlaufen' pour se perdre à pied, et 'sich verfahren' pour se perdre en voiture. Ici, on utilise le passé composé."
+          },
+          {
+            "original": "Wo ist das Krankenhaus?",
+            "phonetic": "[voː ɪst das ˈkʁaŋkn̩ˌhaʊ̯s]",
+            "translation": "Où se trouve l'hôpital ?",
+            "note": "Question de base pour demander un lieu. 'Krankenhaus' signifie hôpital, composé de 'Kranke' (malade) + 'Haus' (maison)."
+          },
+          {
+            "original": "Ich fühle mich nicht gut.",
+            "phonetic": "[ɪç ˈfyːlə mɪç nɪçt ɡuːt]",
+            "translation": "Je ne me sens pas bien.",
+            "note": "Expression utile pour indiquer un malaise. Le verbe pronominal 'sich fühlen' s'utilise comme en espagnol."
+          },
+          {
+            "original": "Rufen Sie einen Krankenwagen!",
+            "phonetic": "[ˈʁuːfən ziː ˈaɪ̯nən ˈkʁaŋkn̩ˌvaːɡn̩]",
+            "translation": "Appelez une ambulance !",
+            "note": "'Krankenwagen' signifie ambulance, littéralement 'voiture de malades'. Synonyme : 'Rettungswagen'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚨",
+    "phonetic": "",
+    "translations": {
+      "fr": "Phrases d'urgence"
+    }
+  }
+]

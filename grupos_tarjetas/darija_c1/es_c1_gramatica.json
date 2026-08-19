@@ -1,0 +1,399 @@
+[
+  {
+    "id": "es_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الجمل المركبة و التراكيب المتقدمة / Estructuras complejas y subordinadas",
+    "bridge": "En español, las subordinadas suelen introducirse con conjunciones como 'que', 'porque' o 'aunque', y su estructura es relativamente fija. En darija, en cambio, la subordinación es más flexible y a menudo usa partículas como ' lli ' (que) o ' bzaf ' (mucho) con matices distintos. Además, el orden de los elementos en oraciones complejas en darija puede variar según el énfasis, algo que no ocurre en español. Los errores comunes surgen al intentar traducir literalmente estructuras españolas a darija, ignorando estas diferencias sintácticas.",
+    "rule": "En darija, las oraciones subordinadas pueden clasificarse en tres tipos principales según su función: 1) **Subordinadas sustantivas**: introducidas por ' lli ' (que) o ' bzaf ' (mucho) cuando funcionan como complemento directo. Ejemplo: 'Ana 3rif lli nt bghiti' (Sé que lo quieres). 2) **Subordinadas adjetivas**: usan ' lli ' para modificar un sustantivo, pero con concordancia en género y número. Ejemplo: 'Dyal ktab lli 3tini' (El libro que me diste). 3) **Subordinadas adverbiales**: introducidas por partículas como ' 3la 7sab ' (según), ' 7ta ' (hasta que), o ' 3la 7al ' (aunque). La posición de estas subordinadas puede ser flexible, pero suele colocarse después del verbo principal para mayor claridad. Excepciones: En oraciones negativas, la subordinada puede preceder al verbo principal para énfasis. Ejemplo: 'Makay3rf-š bzaf lli 3tini' (No sé mucho de lo que me diste).",
+    "concept_examples": [
+      {
+        "text": "كنتي عارفين 3liya lli 3tini 7ta 7al 3ndi flus",
+        "translation": "Sabía que me darías hasta que tuviera dinero.",
+        "phonetic": "kunti 3arfin 3liya lli 3tini 7ta 7al 3ndi flus"
+      },
+      {
+        "text": "الدار اللي 3tini 3la 7sab 7ta nt 3awd",
+        "translation": "La casa que me diste depende de cuándo vuelvas.",
+        "phonetic": "ddar lli 3tini 3la 7sab 7ta nt 3awd"
+      },
+      {
+        "text": "كنتي 3awd 3la 7al 3ndi mziyan 7ta nt 3awd",
+        "translation": "Volveré aunque no esté bien.",
+        "phonetic": "kunti 3awd 3la 7al 3ndi mziyan 7ta nt 3awd"
+      },
+      {
+        "text": "ماكانش 3rif 3liya 3ndi 7ta nt 3awd",
+        "translation": "No sabía que tenía hasta que volví.",
+        "phonetic": "makans-š 3rif 3liya 3ndi 7ta nt 3awd"
+      }
+    ],
+    "common_error": {
+      "wrong": "Sé que tú quieres esto.",
+      "correct": "أنا عارف 3liya 3ndi bghiti hada / Ana 3rif 3liya 3ndi bghiti hada.",
+      "correct_alt": "أنا عارف 3ndi bghiti hada lli nt. / Ana 3rif 3ndi bghiti hada lli nt.",
+      "explanation": "El error surge al traducir literalmente 'que' como ' lli ' sin considerar que en darija ' lli ' puede omitirse en contextos informales cuando el complemento directo es claro. Además, la estructura '3ndi bghiti' (lo quiero) es más natural que 'lli nt bghiti' (que tú lo quieres) en este caso, ya que el sujeto implícito ('yo') no requiere repetición. La partícula ' lli ' es redundante aquí y suena forzada."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "التراكيب الشرطية",
+        "translation": "Estructuras condicionales",
+        "examples": [
+          {
+            "original": "كنتي 3awd 3la 7al 3ndi mziyan",
+            "phonetic": "kunti 3awd 3la 7al 3ndi mziyan",
+            "translation": "Volveré aunque no esté bien.",
+            "note": "La partícula '3la 7al' introduce una condición concesiva, similar a 'aunque' en español, pero en darija puede usarse con verbos en presente o pasado según el contexto."
+          },
+          {
+            "original": "كنتي 3awd 3la 7ta nt 3ndi flus",
+            "phonetic": "kunti 3awd 3la 7ta nt 3ndi flus",
+            "translation": "Volveré si tengo dinero.",
+            "note": "La partícula '7ta' funciona como 'si' condicional, pero requiere que el verbo principal esté en futuro o presente para expresar una condición real."
+          },
+          {
+            "original": "كنتي 3awd 3la 7ta nt 3ndi mziyan",
+            "phonetic": "kunti 3awd 3la 7ta nt 3ndi mziyan",
+            "translation": "Volveré si estoy bien.",
+            "note": "Aquí '7ta' introduce una condición realista, a diferencia de '3la 7al' que expresa concesión."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "التراكيب الإضافية",
+        "translation": "Estructuras causales y finales",
+        "examples": [
+          {
+            "original": "كنتي 3rif 3liya 3ndi bzaf 7ta nt 3awd",
+            "phonetic": "kunti 3rif 3liya 3ndi bzaf 7ta nt 3awd",
+            "translation": "Sabía que tenía mucho que volver.",
+            "note": "La partícula 'bzaf' aquí funciona como 'que' en estructuras causales, pero su uso es más flexible que en español."
+          },
+          {
+            "original": "كنتي 3awd 3la 7al 3ndi 7ta nt 3awd m3a 7wayj",
+            "phonetic": "kunti 3awd 3la 7al 3ndi 7ta nt 3awd m3a 7wayj",
+            "translation": "Volveré aunque tenga que ir con prisas.",
+            "note": "La estructura '3la 7al + verbo' expresa concesión, similar a 'aunque' en español, pero en darija puede combinarse con '7ta' para mayor énfasis."
+          },
+          {
+            "original": "كنتي 3rif 3liya 3ndi 7ta nt 3awd 3la 7sab 7ta nt 3ndi flus",
+            "phonetic": "kunti 3rif 3liya 3ndi 7ta nt 3awd 3la 7sab 7ta nt 3ndi flus",
+            "translation": "Sabía que tenía que volver según tuviera dinero.",
+            "note": "La partícula '3la 7sab' introduce una causa condicional, similar a 'según' en español, pero en darija requiere que el verbo esté en subjuntivo o futuro."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "التراكيب المركبة المتقدمة",
+        "translation": "Estructuras subordinadas complejas",
+        "examples": [
+          {
+            "original": "كنتي 3rif 3liya 3ndi 7ta nt 3awd 3la 7al 3ndi mziyan 7ta nt 3awd m3a 7wayj",
+            "phonetic": "kunti 3rif 3liya 3ndi 7ta nt 3awd 3la 7al 3ndi mziyan 7ta nt 3awd m3a 7wayj",
+            "translation": "Sabía que tenía que volver aunque no estuviera bien y tuviera que ir con prisas.",
+            "note": "Esta estructura combina concesión ('3la 7al') y condición ('7ta'), algo común en darija para expresar matices complejos. En español, se usaría 'aunque' + 'y' + 'tuviera'."
+          },
+          {
+            "original": "الدار اللي 3tini 3la 7sab 7ta nt 3awd 3la 7al 3ndi mziyan",
+            "phonetic": "ddar lli 3tini 3la 7sab 7ta nt 3awd 3la 7al 3ndi mziyan",
+            "translation": "La casa que me diste depende de cuándo vuelva, aunque no esté bien.",
+            "note": "Aquí se combinan una subordinada adjetiva (' lli ') y una concesiva ('3la 7al'), algo que en español requeriría múltiples conjunciones."
+          },
+          {
+            "original": "كنتي 3awd 3la 7ta nt 3awd 3la 7sab 3ndi flus 7ta nt 3ndi mziyan",
+            "phonetic": "kunti 3awd 3la 7ta nt 3awd 3la 7sab 3ndi flus 7ta nt 3ndi mziyan",
+            "translation": "Volveré si vuelvo según tenga dinero, aunque esté bien.",
+            "note": "Esta estructura muestra cómo darija permite anidar condiciones y concesiones de manera fluida, algo que en español puede sonar redundante o forzado."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧩",
+    "phonetic": "",
+    "translations": {
+      "es": "Estructuras complejas y subordinadas"
+    }
+  },
+  {
+    "id": "es_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "الشكل و الأسلوب: رسمي، عادي و غير رسمي / Registro, estilo formal, informal y neutro",
+    "bridge": "En español, el registro se marca principalmente con léxico (ej. 'usted' vs. 'tú') y estructuras gramaticales (ej. subjuntivo en contextos formales), pero en darija el registro afecta también a la entonación, el uso de partículas modales y la elección de verbos. Un error común es usar el mismo registro en contextos donde el español distingue claramente entre formal e informal, como en correos electrónicos o conversaciones con superiores. Por ejemplo, en darija no existe un equivalente directo a 'usted', pero el tono y las partículas como ' lli' (que) pueden marcar formalidad.",
+    "rule": "En darija, el registro se determina por:\n1. **Partículas modales**: En contextos formales, se usan partículas como ' lli' (que), ' bzaf' (mucho), o ' mziyan' (bien) para suavizar peticiones o afirmaciones. En contextos informales, se omiten o se reemplazan por partículas como ' ya' (oh) o ' ya hna' (aquí).\n2. **Entonación**: La entonación ascendente al final de una frase indica pregunta en registro neutro/informal, mientras que en registro formal se usa entonación descendente para afirmaciones y ascendente para preguntas retóricas.\n3. **Verbos**: En registro formal, se prefieren verbos como 'ta3lam' (saber) sobre '3rif' (saber) en contextos educativos o profesionales. En registro informal, se usan contracciones como '3rif' o 'bghit' (quiero) en lugar de 'bghit' + pronombre.\n4. **Estructuras condicionales**: En registro formal, se usa el condicional con ' lli' (que) + verbo en pasado (ej. ' lli kan 3ndi mziyan' = 'que si tuviera bien'). En registro informal, se usa directamente el pasado (ej. 'kan 3ndi mziyan').\n\nExcepciones: En contextos neutros (ej. noticias), se usa un registro mixto con léxico formal pero entonación neutra.",
+    "concept_examples": [
+      {
+        "text": " lli kan 3ndi l-mu3tabar, bzaf mziyan.",
+        "translation": "Que si tuviera la oportunidad, sería muy bueno.",
+        "phonetic": "lliː kaːn ʕəndi l-muʕtˤaːbar, bzaf mziːjan."
+      },
+      {
+        "text": "ya hna, 3ndi shi su2al lli bghit n3tabar fih.",
+        "translation": "Oye, tengo una pregunta que quiero discutir.",
+        "phonetic": "jaː hnaː, ʕəndi ʃi suʔal lli bɣiːt nʕtˤaːbar fiːh."
+      },
+      {
+        "text": "mziyan, kan 3ndi l-mu3tabar.",
+        "translation": "Bien, tengo la oportunidad.",
+        "phonetic": "mziːjan, kaːn ʕəndi l-muʕtˤaːbar."
+      },
+      {
+        "text": "lli kan 3ndi l-mu3tabar, kan 3tiha l-7a9.",
+        "translation": "Que si tuviera la oportunidad, se la daría al derecho.",
+        "phonetic": "lliː kaːn ʕəndi l-muʕtˤaːbar, kaːn ʕtiːha l-ħaʔ."
+      }
+    ],
+    "common_error": {
+      "wrong": "lli kan 3ndi l-mu3tabar, kan 3tiha l-7a9. (Usado en contexto informal con un superior)",
+      "correct": "lli kan 3ndi l-mu3tabar, bzaf mziyan.",
+      "correct_alt": "lli kan 3ndi l-mu3tabar, kan 3tiha l-7a9 bzaf mziyan.",
+      "explanation": "El error ocurre porque el español usa 'usted' para marcar formalidad, pero en darija no existe un equivalente directo. El uso de 'bzaf mziyan' (muy bien) o la entonación descendente al final de la frase marca el registro formal. En contextos profesionales, se evita el uso directo de verbos como 'dar' (3ti) sin suavizar con partículas o léxico formal."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "الشكل الرسمي في الكتابة",
+        "translation": "Registro formal en escritura",
+        "examples": [
+          {
+            "original": " lli kan 3ndi l-mu3tabar, bzaf mziyan.",
+            "phonetic": "lliː kaːn ʕəndi l-muʕtˤaːbar, bzaf mziːjan.",
+            "translation": "Que si tuviera la oportunidad, sería muy bueno.",
+            "note": "Ejemplo de condicional formal con 'lli' y léxico formal ('mu3tabar')."
+          },
+          {
+            "original": "lli kan 3ndi l-mu3tabar, kan 3tiha l-7a9 bzaf mziyan.",
+            "phonetic": "lliː kaːn ʕəndi l-muʕtˤaːbar, kaːn ʕtiːha l-ħaʔ bzaf mziːjan.",
+            "translation": "Que si tuviera la oportunidad, se la daría al derecho, muy bien.",
+            "note": "Uso de 'bzaf mziyan' para suavizar la petición."
+          },
+          {
+            "original": "lli kan 3ndi l-mu3tabar, kan nqdr n3awd 3liha.",
+            "phonetic": "lliː kaːn ʕəndi l-muʕtˤaːbar, kaːn nqdr nʕawd ʕliːha.",
+            "translation": "Que si tuviera la oportunidad, podría volver a ello.",
+            "note": "Verbo 'poder' (nqdr) en registro formal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "الشكل العادي في المحادثة",
+        "translation": "Registro neutro en conversación",
+        "examples": [
+          {
+            "original": "ya hna, 3ndi shi su2al lli bghit n3tabar fih.",
+            "phonetic": "jaː hnaː, ʕəndi ʃi suʔal lli bɣiːt nʕtˤaːbar fiːh.",
+            "translation": "Oye, tengo una pregunta que quiero discutir.",
+            "note": "Uso de 'ya hna' para marcar informalidad y entonación ascendente."
+          },
+          {
+            "original": "bghit n3rif shi 7aja, mziyan.",
+            "phonetic": "bɣiːt nʕrif ʃi ħaʒa, mziːjan.",
+            "translation": "Quiero saber algo, bien.",
+            "note": "Contracción de 'bghit' (quiero) y uso de 'mziyan' como muletilla."
+          },
+          {
+            "original": "3ndi shi su2al, kan 3tiha l-7a9?",
+            "phonetic": "ʕəndi ʃi suʔal, kaːn ʕtiːha l-ħaʔ?",
+            "translation": "Tengo una pregunta, ¿se la daría al derecho?",
+            "note": "Entonación ascendente para pregunta en contexto neutro."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "الشكل غير الرسمي في اللهجة",
+        "translation": "Registro informal en dialecto",
+        "examples": [
+          {
+            "original": "ya, 3ndi su2al, kan 3tiha l-7a9?",
+            "phonetic": "jaː, ʕəndi suʔal, kaːn ʕtiːha l-ħaʔ?",
+            "translation": "Oye, tengo una pregunta, ¿se la darías al derecho?",
+            "note": "Uso de 'ya' y entonación muy informal."
+          },
+          {
+            "original": "bghit n3rif shi 7aja, ya hna.",
+            "phonetic": "bɣiːt nʕrif ʃi ħaʒa, jaː hnaː.",
+            "translation": "Quiero saber algo, oye.",
+            "note": "Contracción extrema de 'bghit' y uso de 'ya hna' como muletilla."
+          },
+          {
+            "original": "kan 3ndi l-mu3tabar, kan 3tiha l-7a9.",
+            "phonetic": "kaːn ʕəndi l-muʕtˤaːbar, kaːn ʕtiːha l-ħaʔ.",
+            "translation": "Si tuviera la oportunidad, se la daría al derecho.",
+            "note": "Falta de partículas modales y uso directo de verbos."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "الاختلافات في النطق حسب السياق",
+        "translation": "Diferencias en pronunciación según contexto",
+        "examples": [
+          {
+            "original": "lli kan 3ndi l-mu3tabar... (formal)",
+            "phonetic": "lliː kaːn ʕəndi l-muʕtˤaːbar...",
+            "translation": "Que si tuviera la oportunidad...",
+            "note": "Entonación descendente y pronunciación clara de todas las letras."
+          },
+          {
+            "original": "ya hna, 3ndi shi su2al... (informal)",
+            "phonetic": "jaː hnaː, ʕəndi ʃi suʔal...",
+            "translation": "Oye, tengo una pregunta...",
+            "note": "Entonación ascendente y omisión de letras como en 'su2al' (pregunta)."
+          },
+          {
+            "original": "bghit n3rif... (muy informal)",
+            "phonetic": "bɣiːt nʕrif...",
+            "translation": "Quiero saber...",
+            "note": "Contracción extrema y pronunciación relajada de 'bghit'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "es": "Registro, estilo formal, informal y neutro"
+    }
+  },
+  {
+    "id": "es_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "التقديم وقلب الجملة المتقدمة / Inversión y fronting avanzadas",
+    "bridge": "En español, la inversión de sujeto y verbo es un recurso estilístico limitado a contextos formales o literarios (ej. 'En la mesa había un libro'), pero en darija (árabe marroquí) es un mecanismo gramatical productivo que altera el orden básico VSO para enfatizar información nueva, contrastar ideas o marcar énfasis. A diferencia del español, donde la inversión suele ser opcional y con restricciones claras, en darija puede aplicarse a múltiples estructuras (verbos, adjetivos, frases nominales) y requiere ajustes en la entonación y partículas. Los errores típicos surgen cuando los hispanohablantes aplican las reglas del español de manera rígida, ignorando que en darija la inversión puede ser obligatoria en contextos de contraste o énfasis.",
+    "rule": "En darija, la inversión avanzada (o fronting) ocurre cuando el elemento focalizado (sujeto, objeto, adverbio, etc.) se coloca al inicio de la oración, seguido de un verbo conjugado o una partícula de énfasis. Las reglas clave son:\n\n1. **Inversión con verbos**: El orden VSO básico se invierte a **VS** cuando el sujeto es focalizado. El verbo debe concordar en persona y número con el sujeto invertido. Ejemplo:\n   - VSO: كتب محمد الدرس (ktəb Muḥammad d-dars) → 'Mohamed escribió la lección'.\n   - VS (invertido): محمد كتب الدرس (Muḥammad ktəb d-dars) → 'Fue Mohamed quien escribió la lección'.\n\n2. **Inversión con partículas de énfasis**: Se usan partículas como **ما (ma)** (para énfasis negativo) o **لا (lā)** (para contraste) al inicio de la oración invertida:\n   - ما محمد كتب الدرس (ma Muḥammad ktəb d-dars) → 'No fue Mohamed quien escribió la lección'.\n   - لا محمد كتب الدرس (lā Muḥammad ktəb d-dars) → 'No Mohamed, sino otro, escribió la lección'.\n\n3. **Inversión con frases nominales**: Cualquier frase nominal puede ser frontada para enfatizarla, pero requiere un verbo auxiliar o una partícula:\n   - الدرس كتبه محمد (d-dars ktəb-h Muḥammad) → 'La lección, la escribió Mohamed'.\n   - هذا الكتاب قرأته أنا (hāda l-kitāb qrā-t-h ana) → 'Este libro, lo leí yo'.\n\n4. **Excepciones y restricciones**:\n   - La inversión no es obligatoria en oraciones declarativas neutras.\n   - En preguntas, la inversión es común pero no siempre necesaria (ej. كتب محمد؟ / ktəb Muḥammad? → '¿Escribió Mohamed?').\n   - En oraciones subordinadas, la inversión es menos frecuente y suele requerir contexto claro.\n\n5. **Entonación**: La inversión en darija siempre implica un cambio de entonación (tono ascendente en el elemento focalizado), lo que marca el énfasis. En español, la entonación cambia pero no es tan determinante para la gramaticalidad.",
+    "concept_examples": [
+      {
+        "text": "ما أنا شفتهمش البارح",
+        "translation": "No fui yo quien los vi anoche.",
+        "phonetic": "ma ana šeft-hum-š l-bāreḥ"
+      },
+      {
+        "text": "لا هادا الكتاب قرأته أنا",
+        "translation": "No este libro, sino otro lo leí yo.",
+        "phonetic": "lā hāda l-kitāb qrā-t-h ana"
+      },
+      {
+        "text": "الدرس كتبته أنا قبل ما يجي",
+        "translation": "La lección, la escribí yo antes de que viniera.",
+        "phonetic": "d-dars ktəb-t-h ana qbl ma yji"
+      },
+      {
+        "text": "في البيت كانو كلهم نيام",
+        "translation": "En la casa, todos estaban durmiendo (énfasis en el lugar).",
+        "phonetic": "fī l-bēt kānu kl-hum nyām"
+      }
+    ],
+    "common_error": {
+      "wrong": "أنا ما شفتهمش البارح",
+      "correct": "ما أنا شفتهمش البارح",
+      "correct_alt": "",
+      "explanation": "El error ocurre porque el hispanohablante aplica el orden SVO del español ('Yo no los vi anoche') sin invertir el sujeto para enfatizar la negación. En darija, la partícula **ما (ma)** requiere que el sujeto invertido (**أنا**) vaya al inicio para marcar el contraste. La entonación también debe reflejar el énfasis en 'yo'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "قلب الجملة مع الأفعال",
+        "translation": "Inversión con verbos",
+        "examples": [
+          {
+            "original": "كتبت أنا الرسالة",
+            "phonetic": "ktəb-t ana l-risāla",
+            "translation": "Escribí yo la carta.",
+            "note": "Inversión básica con sujeto focalizado. El verbo concuerda con el sujeto invertido."
+          },
+          {
+            "original": "ما شفتش أنت البارح",
+            "phonetic": "ma šeft-š inta l-bāreḥ",
+            "translation": "No fuiste tú quien vi anoche.",
+            "note": "Inversión con partícula de énfasis negativa **ما (ma)**. El sujeto **أنت** va al inicio."
+          },
+          {
+            "original": "كانو كلهم نيام في البيت",
+            "phonetic": "kānu kl-hum nyām fī l-bēt",
+            "translation": "Todos estaban durmiendo en la casa.",
+            "note": "Inversión con verbo **كان (kān)** para enfatizar el sujeto plural."
+          },
+          {
+            "original": "ما كانش هو اللي سرق الفلوس",
+            "phonetic": "ma kān-š hu l-li srq l-flūs",
+            "translation": "No fue él quien robó el dinero.",
+            "note": "Inversión con verbo **كان (kān)** y partícula **ما (ma)** para negación enfática."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "التقديم مع الجمل الاسمية",
+        "translation": "Fronting con frases nominales",
+        "examples": [
+          {
+            "original": "الدرس كتبته أنا",
+            "phonetic": "d-dars ktəb-t-h ana",
+            "translation": "La lección, la escribí yo.",
+            "note": "Fronting del objeto directo **الدرس (d-dars)** con pronombre enclítico **-ه (-h)**."
+          },
+          {
+            "original": "هذا الكتاب قرأته أنا قبل ما يجي",
+            "phonetic": "hāda l-kitāb qrā-t-h ana qbl ma yji",
+            "translation": "Este libro, lo leí yo antes de que viniera.",
+            "note": "Fronting del objeto directo **هذا الكتاب (hāda l-kitāb)** con pronombre enclítico."
+          },
+          {
+            "original": "في البيت كانو كلهم نيام",
+            "phonetic": "fī l-bēt kānu kl-hum nyām",
+            "translation": "En la casa, todos estaban durmiendo.",
+            "note": "Fronting del complemento circunstancial **في البيت (fī l-bēt)** para enfatizar el lugar."
+          },
+          {
+            "original": "قبل ما يجي كتبت أنا الدرس",
+            "phonetic": "qbl ma yji ktəb-t ana d-dars",
+            "translation": "Antes de que viniera, escribí yo la lección.",
+            "note": "Fronting de la frase adverbial **قبل ما يجي (qbl ma yji)** para marcar el contexto temporal."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "القلب مع الجزيئات و النفي",
+        "translation": "Inversión con partículas y negación",
+        "examples": [
+          {
+            "original": "لا أنا شفتهمش البارح",
+            "phonetic": "lā ana šeft-hum-š l-bāreḥ",
+            "translation": "No yo, sino otro los vi anoche.",
+            "note": "Partícula **لا (lā)** para contraste. El sujeto **أنا** va al inicio."
+          },
+          {
+            "original": "ما كانش في البيت حد",
+            "phonetic": "ma kān-š fī l-bēt ḥad",
+            "translation": "No había nadie en la casa.",
+            "note": "Inversión con **ما (ma)** y verbo **كان (kān)** para negación enfática."
+          },
+          {
+            "original": "لا هادا الكتاب قرأته أنا",
+            "phonetic": "lā hāda l-kitāb qrā-t-h ana",
+            "translation": "No este libro, sino otro lo leí yo.",
+            "note": "Partícula **لا (lā)** para contraste entre dos opciones."
+          },
+          {
+            "original": "ما كانش هو اللي عرف الجواب",
+            "phonetic": "ma kān-š hu l-li ʕrf l-jawāb",
+            "translation": "No fue él quien supo la respuesta.",
+            "note": "Inversión con **ما (ma)**, verbo **كان (kān)** y cláusula relativa **اللي (l-li)**."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "es": "Inversión y fronting avanzadas"
+    }
+  }
+]

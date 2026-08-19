@@ -1,0 +1,350 @@
+[
+  {
+    "id": "zh_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Pretérito Perfeito Simples / 简单过去时",
+    "bridge": "在葡萄牙语中，简单过去时（pretérito perfeito）用于表达已完成的过去动作，类似于西班牙语的简单过去时。两者的变位方式非常相似，但在第一人称复数（西班牙语为 -mos，葡萄牙语同样为 -mos，但存在元音变化）和第二人称（西班牙语的 tú/vos 对应葡萄牙语的 tu/você）的词尾上存在关键差异。此外，不规则动词的形式并不总是与西班牙语一致。注意第一人称复数的鼻音化（书写时有时用重音符号标记，但并非总是如此），以及某些不规则动词中 'e' 变为 'i' 的情况，如 'fazer' → 'fiz'（我做了）。请勿将简单过去时与过去未完成时混淆：简单过去时表示已完成的一次性动作。",
+    "rule": "在葡萄牙语中，简单过去时用于表达过去已完成的一次性动作。规则动词的变位规则如下：以 -AR 结尾的动词：词根 + -ei, -aste, -ou, -amos, -astes, -aram（例如 falar: falei, falaste, falou, falamos, falastes, falaram）。以 -ER 结尾的动词：词根 + -i, -este, -eu, -emos, -estes, -eram（例如 comer: comi, comeste, comeu, comemos, comestes, comeram）。以 -IR 结尾的动词：词根 + -i, -iste, -iu, -imos, -istes, -iram（例如 partir: parti, partiste, partiu, partimos, partistes, partiram）。常见不规则动词变位：ser（fui, foste, foi, fomos, fostes, foram）、ir（fui, foste, foi, fomos, fostes, foram）、ter（tive, tiveste, teve, tivemos, tivestes, tiveram）、fazer（fiz, fizeste, fez, fizemos, fizestes, fizeram）、dizer（disse, disseste, disse, dissemos, dissestes, disseram）、estar（estive, estiveste, esteve, estivemos, estivestes, estiveram）、poder（pude, pudeste, pôde, pudemos, pudestes, puderam）、querer（quis, quiseste, quis, quisemos, quisestes, quiseram）、vir（vim, vieste, veio, viemos, viestes, vieram）。注意：第一人称复数（-amos, -emos, -imos）重音在倒数第二个音节上，且元音为鼻音（书写时有时用重音符号标记，但并非总是如此）。第二人称单数 'tu' 在葡萄牙较常用，而在巴西则多用 'você' 的第三人称形式。特殊情况：动词 'dar' → dei, deste, deu, demos, destes, deram；'ver' → vi, viste, viu, vimos, vistes, viram。典型用法：与时间标记词连用，如 'ontem'（昨天）、'na semana passada'（上周）。",
+    "concept_examples": [
+      {
+        "text": "Ontem falei com a Maria.",
+        "translation": "昨天我和玛丽亚说话了。",
+        "phonetic": "/õˈtɐ̃j̃ fɐˈlej kõ ɐ mɐˈɾi.ɐ/"
+      },
+      {
+        "text": "Ela comeu o bolo todo.",
+        "translation": "她把整个蛋糕都吃了。",
+        "phonetic": "/ˈɛ.lɐ koˈmew u ˈbo.lu ˈto.du/"
+      },
+      {
+        "text": "Nós fomos ao cinema.",
+        "translation": "我们去了电影院。",
+        "phonetic": "/nɔʃ ˈfõ.muʒ aw siˈne.mɐ/"
+      },
+      {
+        "text": "Ele fez um trabalho importante.",
+        "translation": "他做了一份重要的工作。",
+        "phonetic": "/ˈɛ.li ˈfɛz ũ tɾɐˈba.ʎu ĩ.puɾˈtɐ̃.tɨ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ontem eu falou com ele.",
+      "correct": "Ontem eu falei com ele.",
+      "correct_alt": "",
+      "explanation": "错误在于西班牙语使用者倾向于将第三人称形式 'falou' 用于所有主语，因为西班牙语的 'habló' 形式明确。但在葡萄牙语中，第一人称单数的简单过去时应以 -AR 动词的 '-ei' 结尾（falei），而非 '-ou'。请注意每个人称特定的动词词尾变化。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbos regulares -AR",
+        "translation": "以 -AR 结尾的规则动词",
+        "examples": [
+          {
+            "original": "Falei com ela.",
+            "phonetic": "/fɐˈlej kõ ˈɛ.lɐ/",
+            "translation": "我和她讲话了。",
+            "note": "第一人称单数以 -ei 结尾，而非 -é 或 -í。"
+          },
+          {
+            "original": "Falaste com o professor?",
+            "phonetic": "/fɐˈlaʃ.tɨ kõ u pɾu.fɨˈsoɾ/",
+            "translation": "你和老师讲话了吗？（葡萄牙语的 'tu'）",
+            "note": "第二人称单数以 -aste 结尾，与葡萄牙语的 'tu' 搭配使用。"
+          },
+          {
+            "original": "Ela estudou ontem.",
+            "phonetic": "/ˈɛ.lɐ iʃ.tuˈdo ɐ̃ˈtɐ̃j̃/",
+            "translation": "她昨天学习了。",
+            "note": "第三人称单数以 -ou 结尾，与西班牙语相同但不带重音符号。"
+          },
+          {
+            "original": "Nós falamos muito.",
+            "phonetic": "/nɔʃ fɐˈlɐ̃.muʃ ˈmũj̃.tu/",
+            "translation": "我们说得很多。",
+            "note": "第一人称复数与现在时相同：falamos。通过上下文区分时态。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbos regulares -ER e -IR",
+        "translation": "以 -ER 和 -IR 结尾的规则动词",
+        "examples": [
+          {
+            "original": "Comi uma maçã.",
+            "phonetic": "/koˈmi ˈũ.mɐ mɐˈsɐ̃/",
+            "translation": "我吃了一个苹果。",
+            "note": "第一人称单数的 -ER 和 -IR 动词以 -i 结尾。"
+          },
+          {
+            "original": "Você partiu cedo.",
+            "phonetic": "/voˈse pɐɾˈtiw ˈse.du/",
+            "translation": "您很早就离开了。",
+            "note": "第三人称单数的 -IR 动词以 -iu 结尾。"
+          },
+          {
+            "original": "Elas venderam a casa.",
+            "phonetic": "/ˈɛ.lɐʃ vɐ̃ˈdɛ.ɾɐ̃w ɐ ˈka.zɐ/",
+            "translation": "她们卖掉了房子。",
+            "note": "第三人称复数的 -ER 动词以 -eram 结尾。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbos irregulares mais comuns",
+        "translation": "最常见的不规则动词",
+        "examples": [
+          {
+            "original": "Eu fiz a lição.",
+            "phonetic": "/ew ˈfiz ɐ liˈsɐ̃w/",
+            "translation": "我做了作业。",
+            "note": "'fazer' 的第一人称变为 'fiz'，其中 a/e 变为 i。"
+          },
+          {
+            "original": "Ele foi a Portugal.",
+            "phonetic": "/ˈɛ.li ˈfoj ɐ puɾ.tuˈɡaw/",
+            "translation": "他去了葡萄牙。",
+            "note": "'ser' 和 'ir' 在简单过去时的变位相同：第三人称为 'foi'。"
+          },
+          {
+            "original": "Nós tivemos um problema.",
+            "phonetic": "/nɔʃ tʃiˈve.muʒ ũ pɾuˈble.mɐ/",
+            "translation": "我们遇到了一个问题。",
+            "note": "'ter' 是不规则动词：tive, tiveste, teve, tivemos 等。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🕰️",
+    "phonetic": "",
+    "translations": {
+      "zh": "简单过去时"
+    }
+  },
+  {
+    "id": "zh_A2_gram_02",
+    "type": "concept",
+    "category": "语法",
+    "title": "Presente contínuo (estar + gerúndio) / 现在进行时",
+    "bridge": "在西班牙语中，你会用'estar + gerundio'（例如：estoy hablando）来表示正在进行的动作。葡萄牙语中也非常相似：'estar + gerúndio'（例如：estou falando）。但有两个关键区别：1）葡萄牙语的gerúndio以-ando、-endo、-indo结尾（而非西班牙语的-ando/-iendo）。2）与西班牙语不同，葡萄牙语不使用'estar + gerúndio'表示计划好的将来动作；而是用现在时或'ir + infinitivo'。此外，葡萄牙语中主语代词通常会被省略，与西班牙语相同，但当使用'você'（你/您）时，动词变位为第三人称。",
+    "rule": "葡萄牙语的现在进行时由动词'estar'的现在时变位加上主要动词的gerúndio构成。规则gerúndio的构成方式如下：-ar动词→-ando（falar→falando）、-er动词→-endo（comer→comendo）、-ir动词→-indo（partir→partindo）。例如：'Eu estou falando'（我在说话）。第二人称非正式'你'使用'estás + gerúndio'（estás falando），但巴西常用的'você'（您）使用'está + gerúndio'（você está falando）。'nós'（我们）使用'estamos + gerúndio'，'eles/elas'（他们/她们）使用'estão + gerúndio'。注意：在欧洲葡萄牙语中，有时会用'estar a + infinitivo'（estou a falar）代替gerúndio，但A2阶段我们主要学习巴西常用的gerúndio形式。现在进行时用于：现在正在进行的动作（Estou estudando agora）、暂时性动作（Estou morando em Lisboa）、频繁重复的动作（Estou sempre perdendo minhas chaves）。不用于表示计划好的将来动作；应说'Vou viajar amanhã'（我明天要去旅行），而非'Esto viajando amanhã'（这样说是错误的）。",
+    "concept_examples": [
+      {
+        "text": "Eu estou lendo um livro.",
+        "translation": "我正在读一本书。",
+        "phonetic": "ew ɪʃˈtow ˈlẽdʊ ũ ˈlivʊ"
+      },
+      {
+        "text": "Ela está cozinhando o jantar.",
+        "translation": "她正在做晚餐。",
+        "phonetic": "ˈɛlɐ ɪʃˈta kozĩˈɲɐ̃dʊ u ʒɐ̃ˈtaʁ"
+      },
+      {
+        "text": "Nós estamos estudando para o exame.",
+        "translation": "我们正在为考试学习。",
+        "phonetic": "nɔjs ɪʃˈtɐ̃mʊz ɪʃtuˈdɐ̃dʊ ˈpaɾɐ u ɪˈzɐ̃mi"
+      },
+      {
+        "text": "Eles estão jogando futebol no parque.",
+        "translation": "他们正在公园里踢足球。",
+        "phonetic": "ˈelɪz ɪʃˈtɐ̃w ʒoˈɡɐ̃dʊ futʃiˈbɔw nu ˈpaʁki"
+      }
+    ],
+    "common_error": {
+      "wrong": "Eu estou trabalhando amanhã.",
+      "correct": "Eu vou trabalhar amanhã.",
+      "correct_alt": "Eu trabalho amanhã.",
+      "explanation": "在西班牙语中，有时会用'estoy trabajando mañana'表示计划好的将来动作（例如：'mañana estoy trabajando'）。但在葡萄牙语中，这并不正确；现在进行时仅表示当下正在进行的动作或暂时性情况。表示将来动作时，应使用'ir + infinitivo'（vou trabalhar）或现在时（trabalho）。避免在将来时间副词后使用'estar + gerúndio'结构。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formação do gerúndio (formación del gerundio)",
+        "translation": "动词-ndo形式的构成",
+        "examples": [
+          {
+            "original": "falando (falar)",
+            "phonetic": "faˈlɐ̃dʊ",
+            "translation": "hablando (hablar)",
+            "note": "以-ar结尾的动词使用-ando结尾构成-ndo形式。"
+          },
+          {
+            "original": "comendo (comer)",
+            "phonetic": "koˈmẽdʊ",
+            "translation": "comiendo (comer)",
+            "note": "以-er结尾的动词使用-endo结尾构成-ndo形式。"
+          },
+          {
+            "original": "partindo (partir)",
+            "phonetic": "paʁˈtʃĩdʊ",
+            "translation": "partiendo (partir)",
+            "note": "以-ir结尾的动词使用-indo结尾构成-ndo形式。注意与西班牙语的区别：西班牙语为-ando/-iendo，而葡萄牙语为-ando/-endo/-indo。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Conjugação de 'estar' no presente (conjugação de 'estar' em presente)",
+        "translation": "'estar'现在时变位",
+        "examples": [
+          {
+            "original": "Eu estou estudando.",
+            "phonetic": "ew ɪʃˈtow ɪʃtuˈdɐ̃dʊ",
+            "translation": "我在学习。",
+            "note": "与'eu'搭配使用'estou'。注意葡萄牙语中主语代词常被省略，但词尾-o表示人称。"
+          },
+          {
+            "original": "Você está trabalhando muito.",
+            "phonetic": "voˈse ɪʃˈta tɾabaˈʎɐ̃dʊ ˈmũj̃tʊ",
+            "translation": "您/你正在努力工作。",
+            "note": "与'informal'的'você'（巴西常用的非正式第二人称）搭配使用'está'（第三人称）。复数形式为'vocês estão'。"
+          },
+          {
+            "original": "Nós estamos aprendendo português.",
+            "phonetic": "nɔjs ɪʃˈtɐ̃mʊz apɾẽˈdẽdʊ poʁtuˈɡejʃ",
+            "translation": "我们正在学葡萄牙语。",
+            "note": "与'nós'搭配使用'estamos'。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Uso com pronomes oblíquos (uso con pronombres oblicuos)",
+        "translation": "与宾格代词的用法",
+        "examples": [
+          {
+            "original": "Estou te esperando.",
+            "phonetic": "ɪʃˈtow tʃi ɪʃpeˈɾɐ̃dʊ",
+            "translation": "我正在等你。",
+            "note": "在葡萄牙语中，宾格代词（te、me、o、a）可以放在动词'estar'之前（estou te esperando）或gerúndio之后（estou esperando-te，较正式）。与西班牙语不同，葡萄牙语不常用'lo/la'。"
+          },
+          {
+            "original": "Ela está me ajudando.",
+            "phonetic": "ˈɛlɐ ɪʃˈta mɪ aʒuˈdɐ̃dʊ",
+            "translation": "她正在帮助我。",
+            "note": "这里'me'放在gerúndio之前，但在西班牙语中会说'me está ayudando'或'está ayudándome'。在葡萄牙语中代词位置较灵活，但巴西最常见的用法是放在主要动词前。"
+          },
+          {
+            "original": "Estamos nos preparando para a festa.",
+            "phonetic": "ɪʃˈtɐ̃mʊz nʊʃ pɾepaˈɾɐ̃dʊ ˈpaɾɐ ɐ ˈfɛʃtɐ",
+            "translation": "我们正在为派对做准备。",
+            "note": "与反身动词搭配时，反身代词'nos'可放在动词'estar'之前或gerúndio之后（preparando-nos）。在西班牙语中为'nos estamos preparando'或'estamos preparándonos'。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "zh": "现在进行时"
+    }
+  },
+  {
+    "id": "zh_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Futuro com 'ir + infinitivo' / 用“ir + 动词原形”表示将来",
+    "bridge": "在西班牙语中，你会用“ir a + 动词原形”（voy a comer）。葡萄牙语也很相似：“ir + 动词原形”（vou comer），但要注意！在葡萄牙语中，如果主要动词需要介词“a”（如“começar a”），才会使用“a”，但在表示即将发生的动作时，不需要使用“a”。因此，“vou a comer”是一个非常常见的错误。另外一个不同点：在葡萄牙语中，你可以用陈述式现在时表示将来（Amanhã eu viajo），和西班牙语一样，但在葡萄牙语中这种用法更加频繁。葡萄牙语还有简单将来时（comerei），但它更正式，在日常对话中较少使用。",
+    "rule": "在葡萄牙语中，表示即将发生的动作或意图时，使用动词“ir”的现在时加上主要动词的原形，中间不加介词。例如：“Eu vou viajar”（我要去旅行）。动词“ir”的变位如下：eu vou, tu vais, você/ele/ela vai, nós vamos, vós ides, vocês/eles/elas vão。注意不要在“ir”和动词原形之间插入“a”。你也可以用陈述式现在时表示将来，尤其是与时间表达（amanhã, depois, na próxima semana）连用。简单将来时（cantarei, comerei）用于正式语境或表示可能性。对于已确定的计划，可以使用“estar + a + 动词原形”（在葡萄牙）或“estar + 现在分词”（在巴西），但A2阶段我们重点学习“ir + 动词原形”。",
+    "concept_examples": [
+      {
+        "text": "Eu vou comer pizza amanhã.",
+        "translation": "我明天要吃披萨。",
+        "phonetic": "ew vow koˈmeʁ ˈpitsɐ ɐ̃ˈmɐ̃ɲɐ"
+      },
+      {
+        "text": "Nós vamos viajar para o Brasil no verão.",
+        "translation": "我们夏天要去巴西旅行。",
+        "phonetic": "nɔjs ˈvɐ̃mus viɐˈʒaʁ ˈpaɾɐ u bɾɐˈziw nu veˈɾɐ̃w"
+      },
+      {
+        "text": "Ela vai estudar português na próxima semana.",
+        "translation": "她下周要学葡萄牙语。",
+        "phonetic": "ˈɛlɐ vaj ʃtuˈdaʁ poʁtuˈɡez na ˈpɾɔsimɐ seˈmɐ̃nɐ"
+      },
+      {
+        "text": "Vocês vão gostar do filme.",
+        "translation": "你们会喜欢这部电影。",
+        "phonetic": "voˈsejs vɐ̃w ɡosˈtaʁ du ˈfiwmi"
+      }
+    ],
+    "common_error": {
+      "wrong": "Eu vou a comer pizza amanhã.",
+      "correct": "Eu vou comer pizza amanhã.",
+      "correct_alt": "Eu vou vou comer pizza amanhã. (no es correcto, solo como ejemplo)",
+      "explanation": "西班牙语使用者倾向于直译“voy a comer”为“vou a comer”，但在葡萄牙语中，用“ir”表示将来时不需要介词“a”。“vou comer”是正确的表达。这种来自西班牙语的迁移是最常见的错误。要避免这个错误，请记住“ir + 动词原形”用法中不需要连词。如果要使用介词，可以用“começar a”（开始），但不能与“ir”一起使用。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formação do futuro com ir",
+        "translation": "用“ir”构成将来时",
+        "examples": [
+          {
+            "original": "Eu vou falar com você.",
+            "phonetic": "ew vow faˈlaʁ kõ voˈse",
+            "translation": "我要和你说话。",
+            "note": "注意“vou”和“falar”之间没有“a”。"
+          },
+          {
+            "original": "Tu vais fazer o quê?",
+            "phonetic": "tu vajs faˈzeʁ u ke",
+            "translation": "你要做什么？",
+            "note": "在巴西，“tu”是常见用法，但动词常常像“vai”（você）一样变位。这里展示的是标准形式。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso em perguntas e negações",
+        "translation": "用于疑问句和否定句",
+        "examples": [
+          {
+            "original": "Você vai viajar amanhã?",
+            "phonetic": "voˈse vaj viɐˈʒaʁ ɐ̃ˈmɐ̃ɲɐ",
+            "translation": "你明天要去旅行吗？",
+            "note": "疑问句的语调和结构与西班牙语相似。不需要额外的助动词。"
+          },
+          {
+            "original": "Eles não vão chegar atrasados.",
+            "phonetic": "ˈelɐj̃ nɐ̃w vɐ̃w ʃeˈɡaʁ atɾɐˈzadus",
+            "translation": "他们不会迟到。",
+            "note": "否定词“não”放在动词“vão”之前，和西班牙语中的“no”用法相同。"
+          },
+          {
+            "original": "Vamos comer juntos?",
+            "phonetic": "ˈvɐ̃mus koˈmeʁ ˈʒũtus",
+            "translation": "我们一起吃饭好吗？",
+            "note": "“vamos”用于包容性的建议，和西班牙语中的“vamos a”用法相似。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Futuro com presente do indicativo",
+        "translation": "用陈述式现在时表示将来",
+        "examples": [
+          {
+            "original": "Amanhã eu trabalho.",
+            "phonetic": "ɐ̃ˈmɐ̃ɲɐ ew tɾɐˈbaʎu",
+            "translation": "我明天上班。",
+            "note": "虽然是现在时，但时间语境表示将来。这在葡萄牙语中非常常见。"
+          },
+          {
+            "original": "Na próxima semana, ela chega.",
+            "phonetic": "na ˈpɾɔsimɐ seˈmɐ̃nɐ ˈɛlɐ ˈʃeɡɐ",
+            "translation": "下周她到。",
+            "note": "现在时用于确定的计划事件。在西班牙语中也可以，但在葡萄牙语中更常见。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🚀",
+    "phonetic": "",
+    "translations": {
+      "zh": "用“ir + 动词原形”表示将来"
+    }
+  }
+]

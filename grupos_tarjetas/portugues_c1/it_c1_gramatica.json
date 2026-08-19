@@ -1,0 +1,374 @@
+[
+  {
+    "id": "it_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Estruturas de subordinação complexas / Strutture di subordinazione complesse",
+    "bridge": "Sebbene lo spagnolo e il portoghese condividano molte strutture subordinate, il portoghese presenta differenze cruciali: l'uso del futuro del congiuntivo nelle proposizioni temporali e condizionali (molto vivo in portoghese, mentre in spagnolo è limitato), l'infinito personale (infinitivo flexionado) che non esiste in spagnolo, e la collocazione dei pronomi atoni, che nel portoghese europeo tende all'enclisi in contesti in cui lo spagnolo preferisce la proclisi. Inoltre, le congiunzioni subordinanti possono variare a seconda del modo verbale, e ci sono falsi amici nelle locuzioni connettive.",
+    "rule": "In portoghese, la subordinazione avverbiale segue regole precise: 1) Nelle proposizioni temporali con 'quando', 'logo que', 'assim que', se l'azione futura è anteriore o simultanea, si usa il futuro del congiuntivo (es.: 'Quando eu chegar, ligamos'); se è posteriore, il futuro composto del congiuntivo (es.: 'Quando eu tiver chegado, tudo estará pronto'). 2) Nelle condizionali, la protasi con 'se' richiede il futuro del congiuntivo per condizioni di adempimento probabile nel futuro (es.: 'Se você estudar, passará'), e l'imperfetto del congiuntivo per ipotesi improbabili (es.: 'Se ele viesse, ficaríamos'). 3) L'infinito personale (flesso) si usa nelle subordinate con soggetto esplicito e diverso da quello della principale (es.: 'Espero eles chegarem antes'), ed è obbligatorio in certe costruzioni come 'para + infinitivo flexionado'. 4) La congiunzione 'embora' (benché) richiede il congiuntivo (presente o imperfetto), ma il suo uso nel portoghese europeo è più frequente che 'aunque' + congiuntivo nello spagnolo. 5) Nelle proposizioni relative, il relativo 'cujo' concorda in genere e numero con l'elemento posseduto, e non ammette preposizione davanti se è possessivo.",
+    "concept_examples": [
+      {
+        "text": "Quando você chegar, avise-me imediatamente.",
+        "translation": "Quando arrivi, avvisami immediatamente.",
+        "phonetic": "ˈkwɐ̃du ˈvose ʃeˈɡaʁ, ɐˈvizɨ-mi imediɐˈtɐ̃ti"
+      },
+      {
+        "text": "Se eu tiver tempo, visitarei o museu.",
+        "translation": "Se ho tempo, visiterò il museo.",
+        "phonetic": "si ew tiˈvɛɾ ˈtẽpu, vizitɐˈɾej u muˈzew"
+      },
+      {
+        "text": "É necessário eles estudarem mais.",
+        "translation": "È necessario che studino di più.",
+        "phonetic": "ˈɛ nɨsɨˈsaɾju ˈelɨʃ ʃtudˈaɾẽj majʃ"
+      },
+      {
+        "text": "Embora estivesse cansado, continuou trabalhando.",
+        "translation": "Benché fosse stanco, continuò a lavorare.",
+        "phonetic": "ẽˈbɔɾɐ ʃtɨˈvɛsɨ kɐ̃ˈsadu, kõtiˈnow tɾɐbɐˈʎɐ̃du"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quando ele chegará, nós falaremos com ele.",
+      "correct": "Quando ele chegar, nós falaremos com ele.",
+      "correct_alt": "Quando ele tiver chegado, nós falaremos com ele.",
+      "explanation": "In spagnolo, 'cuando llegará' è scorretto; allo stesso modo, in portoghese, 'quando' + futuro dell'indicativo è un errore molto comune. Il portoghese richiede il futuro del congiuntivo (chegar) o il futuro composto del congiuntivo (tiver chegado) per azioni posteriori nelle proposizioni temporali. L'interferenza dello spagnolo (dove a volte si usa il presente del congiuntivo, ma mai il futuro dell'indicativo) porta a trasferire la struttura errata. Ricorda: in portoghese, il futuro del congiuntivo si forma sul tema del perfetto semplice: 'chegou' -> 'chegar'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Subordinadas temporais com futuro do subjuntivo",
+        "translation": "Subordinate temporali con futuro del congiuntivo",
+        "examples": [
+          {
+            "original": "Assim que eu puder, vou te visitar.",
+            "phonetic": "ɐˈsĩ ki ew puˈdɛɾ, vou tɨ vizitˈaɾ",
+            "translation": "Appena potrò, verrò a trovarti.",
+            "note": "Si usa 'puder' (futuro del congiuntivo) perché l'azione è futura e non è ancora compiuta."
+          },
+          {
+            "original": "Mal você sair, eu fecho a porta.",
+            "phonetic": "maw voˈse saˈiɾ, ew ˈfɛʃu ɐ ˈpɔɾtɐ",
+            "translation": "Appena uscirai, chiuderò la porta.",
+            "note": "'Mal' è una congiunzione temporale che richiede il futuro del congiuntivo, equivalente a 'apenas'."
+          },
+          {
+            "original": "Depois que nós comermos, iremos ao cinema.",
+            "phonetic": "dɨˈpojʃ ki nɔʃ koˈmɛɾmuz, iˈɾemuʒ aw siˈnemɐ",
+            "translation": "Dopo che avremo mangiato, andremo al cinema.",
+            "note": "Si noti l'infinito personale 'comermos' con soggetto esplicito e flessione di persona."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Condicionais com futuro e imperfeito do subjuntivo",
+        "translation": "Condizionali con futuro e imperfetto del congiuntivo",
+        "examples": [
+          {
+            "original": "Se você puder, traga um presente.",
+            "phonetic": "si voˈse puˈdɛɾ, ˈtɾagɐ ũ pɾɨˈzẽtɨ",
+            "translation": "Se puoi, porta un regalo.",
+            "note": "Futuro del congiuntivo per una condizione probabile nel futuro."
+          },
+          {
+            "original": "Caso ele falte, avisaremos a direção.",
+            "phonetic": "ˈkazu ˈelɨ ˈfaltɨ, ɐvizɐˈɾemuz ɐ diɾɛˈsɐ̃w",
+            "translation": "Se dovesse mancare, avviseremo la direzione.",
+            "note": "'Caso' + futuro del congiuntivo è una forma più colloquiale di condizionale."
+          },
+          {
+            "original": "Se eu fosse rico, viajaria pelo mundo.",
+            "phonetic": "si ew ˈfɔsɨ ˈʁiku, viɐʒɐˈɾiɐ ˈpɛlu ˈmũdu",
+            "translation": "Se fossi ricco, viaggerei per il mondo.",
+            "note": "Imperfetto del congiuntivo (fosse) per un'ipotesi irreale o improbabile."
+          },
+          {
+            "original": "Caso tivesse sabido, teria avisado.",
+            "phonetic": "ˈkazu tʃiˈvɛsɨ sɐˈbidu, tɨˈɾiɐ ɐvizˈadu",
+            "translation": "Se avessi saputo, avrei avvisato.",
+            "note": "Imperfetto composto del congiuntivo per un'ipotesi passata irreale."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Infinitivo pessoal e orações concessivas",
+        "translation": "Infinito personale e proposizioni concessive",
+        "examples": [
+          {
+            "original": "É importante você estudar todos os dias.",
+            "phonetic": "ˈɛ ĩpuɾˈtɐ̃tɨ voˈse ʃtudˈaɾ ˈtoduʒ uʒ ˈdiɐʃ",
+            "translation": "È importante che tu studi tutti i giorni.",
+            "note": "Infinito flesso 'estudar' (3ª persona singolare) con soggetto esplicito 'você'."
+          },
+          {
+            "original": "Para nós chegarmos no horário, precisamos sair já.",
+            "phonetic": "ˈpaɾɐ nɔʃ ʃeˈɡaɾmuʒ nu ɔˈɾaɾju, pɾɨsiˈzɐmuʒ sɐˈiɾ ʒa",
+            "translation": "Perché arriviamo in orario, dobbiamo uscire già.",
+            "note": "La preposizione 'para' richiede l'infinito flesso quando il soggetto è esplicito."
+          },
+          {
+            "original": "Embora chova, vamos à praia.",
+            "phonetic": "ẽˈbɔɾɐ ˈʃɔvɐ, ˈvɐmuz a ˈpɾajɐ",
+            "translation": "Benché piova, andiamo in spiaggia.",
+            "note": "'Embora' + presente del congiuntivo (chova) per una concessione possibile."
+          },
+          {
+            "original": "Por mais que tente, não conseguirá.",
+            "phonetic": "puɾ majʃ kɨ ˈtẽtɨ, nɐ̃w kõsɨˈɡɨɾa",
+            "translation": "Per quanto tu provi, non ci riuscirai.",
+            "note": "La locuzione 'por mais que' richiede il congiuntivo ed equivale allo spagnolo 'por mucho que'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧩",
+    "phonetic": "",
+    "translations": {
+      "it": "Sintassi avanzata e strutture complesse"
+    }
+  },
+  {
+    "id": "it_C1_gram_02",
+    "type": "concept",
+    "category": "Grammatica",
+    "title": "Registro e stile: formale, informale e neutro / Registro y estilo: formal, informal y neutro",
+    "bridge": "In italiano, l'uso del registro formale, informale e neutro è fondamentale per la comunicazione efficace. A differenza dello spagnolo, dove 'tú' e 'usted' sono più rigidi, l'italiano richiede una maggiore attenzione al contesto sociale e alla relazione tra i parlanti. Ad esempio, 'Lei' è il pronome formale per la seconda persona singolare, mentre 'tu' è informale. La scelta del registro influisce anche sulla sintassi, sul lessico e sulle formule di cortesia. Queste differenze sono cruciali per un livello avanzato (C1).",
+    "rule": "In italiano, il registro si manifesta in diverse dimensioni: 1) Pronomi di trattamento: 'Lei' (formale, terza persona singolare), 'tu' (informale, seconda persona singolare), e 'voi' (formale o informale a seconda del contesto, spesso usato al plurale). In situazioni molto formali, si può usare 'Ella' (raro) o formule come 'Signor/a [cognome]'. 2) Sintassi e lessico: il registro formale richiede un lessico più ricercato, l'uso del congiuntivo e strutture sintattiche complesse. Ad esempio, 'Le sarei grato se potesse...' invece di 'Grazie se puoi...'. Il registro informale include espressioni colloquiali, abbreviazioni e un lessico più diretto. 3) Formule di cortesia: nel registro formale si usano espressioni come 'Le porgo i miei saluti' o 'Mi permetta di...', mentre in quello informale si usano formule più semplici come 'Ciao' o 'Dai!'. 4) Contesto comunicativo: è essenziale adattare il registro al contesto (lavoro, amici, familiari) per evitare fraintendimenti o situazioni imbarazzanti.",
+    "concept_examples": [
+      {
+        "text": "Poderia informar-me sobre os horários dos comboios?",
+        "translation": "Potrebbe informarmi sugli orari dei treni?",
+        "phonetic": "poˈdɛɾjɐ ĩfuɾˈmaɾ mi ˈsɔbɾi uʃ oˈɾaɾjuʃ duʃ kõˈbojuʃ"
+      },
+      {
+        "text": "Me diz aí o que você fez ontem.",
+        "translation": "Dimmi cosa hai fatto ieri.",
+        "phonetic": "mi ˈdʒis aˈi u ki voˈse ˈfes ˈõtẽj"
+      },
+      {
+        "text": "O senhor poderia assinar o documento, por favor?",
+        "translation": "Potrebbe firmare il documento, per favore?",
+        "phonetic": "u sẽˈjoʁ podˈɾiɐ asiˈnaɾ u dokuˈmẽtu puɾ faˈvoʁ"
+      },
+      {
+        "text": "A gente vai no cinema hoje à noite, tá?",
+        "translation": "Andiamo al cinema stasera, va bene?",
+        "phonetic": "ɐ ˈʒẽtʃi ˈvaj nu siˈnẽmɐ ˈɔʒi a ˈnojtʃi ˈta"
+      }
+    ],
+    "common_error": {
+      "wrong": "Eu não sei se você pode me ajudar, mas eu gostaria de te pedir um favor.",
+      "correct": "Non so se puoi aiutarmi, ma vorrei chiederti un favore.",
+      "correct_alt": "Non so se Lei potrebbe aiutarmi, ma vorrei chiederLe un favore.",
+      "explanation": "In italiano, l'uso di 'Lei' richiede il pronome complemento 'Le' (formale) invece di 'ti' (informale). Usare 'ti' con 'Lei' è un errore comune tra gli studenti di italiano, poiché in spagnolo 'usted' può essere accompagnato da 'te'. Per evitare questo errore, è importante abbinare il pronome di trattamento al registro: 'tu' richiede 'ti', mentre 'Lei' richiede 'Le'. In contesti formali, è preferibile usare 'Lei' con il verbo alla terza persona."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Tratamento formal e informal",
+        "translation": "Trattamento formale e informale",
+        "examples": [
+          {
+            "original": "Você pode me passar o sal, por favor?",
+            "phonetic": "voˈse ˈpɔdʒi mi paˈsaɾ u ˈsaw puɾ faˈvoʁ",
+            "translation": "Puoi passarmi il sale, per favore?",
+            "note": "Uso di 'você' nel registro informale brasiliano."
+          },
+          {
+            "original": "O senhor poderia me dizer onde fica a estação?",
+            "phonetic": "u sẽˈjoʁ podˈɾiɐ mi dʒiˈzeɾ ˈõdʒi ˈfikɐ a istaˈsɐ̃w",
+            "translation": "Potrebbe dirmi dove si trova la stazione?",
+            "note": "Trattamento formale con 'o senhor' e verbo al condizionale."
+          },
+          {
+            "original": "Tu vais ao concerto amanhã?",
+            "phonetic": "tu ˈvajs aw kõˈseɾtu ɐˈmɐ̃ɲɐ",
+            "translation": "Vai al concerto domani?",
+            "note": "In Portogallo, 'tu' è informale e usato con la seconda persona singolare."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Colocação pronominal",
+        "translation": "Posizione dei pronomi",
+        "examples": [
+          {
+            "original": "Diga-me o que você pensa.",
+            "phonetic": "ˈdʒigɐ mi u ki voˈse ˈpẽsɐ",
+            "translation": "Mi dica cosa pensa.",
+            "note": "Posizione enclitica nel registro formale europeo."
+          },
+          {
+            "original": "Me fala a verdade!",
+            "phonetic": "mi ˈfalɐ ɐ veɾˈdadʒi",
+            "translation": "Dimmi la verità!",
+            "note": "Posizione proclitica nel registro informale brasiliano."
+          },
+          {
+            "original": "Não me incomode com esses detalhes.",
+            "phonetic": "ˈnɐ̃w mi ɪ̃kõˈmɔdʒi kõ ˈesiz dʒiˈtaʎis",
+            "translation": "Non mi infastidisca con questi dettagli.",
+            "note": "Con la negazione, la posizione proclitica è obbligatoria in tutti i registri."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Léxico e expressões de registro",
+        "translation": "Lessico ed espressioni di registro",
+        "examples": [
+          {
+            "original": "A gente se vê depois, então?",
+            "phonetic": "ɐ ˈʒẽtʃi si ve deˈpojs ˈẽtɐ̃w",
+            "translation": "Ci vediamo dopo, allora?",
+            "note": "Uso colloquiale di 'a gente' invece di 'nós'."
+          },
+          {
+            "original": "Vossa Excelência receberá o relatório em anexo.",
+            "phonetic": "ˈvɔsɐ ɛʃseˈlẽsiɐ ʁeseˈbɛɾa u ʁelaˈtɔɾju ẽj ɐˈneksu",
+            "translation": "La Sua Eccellenza riceverà il rapporto allegato.",
+            "note": "Trattamento formale in contesti di massimo rispetto, come nella corrispondenza istituzionale."
+          },
+          {
+            "original": "Ele não tá a fim de sair hoje.",
+            "phonetic": "ˈeli ˈnɐ̃w ˈta ɐ ˈfĩ dʒi saˈiʁ ˈɔʒi",
+            "translation": "Lui non ha voglia di uscire oggi.",
+            "note": "Espressione informale 'tá a fim de' (avere voglia di)."
+          },
+          {
+            "original": "Cumpre-me informar que a reunião foi adiada.",
+            "phonetic": "ˈkũpɾi mi ĩfuɾˈmaɾ ki ɐ ʁewniˈɐ̃w ˈfoj aˈdʒjadɐ",
+            "translation": "Mi spetta informare che la riunione è stata rinviata.",
+            "note": "Struttura formale con 'cumprir-me' per informare."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "it": "Registro e stile: formale, informale e neutro"
+    }
+  },
+  {
+    "id": "it_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Inversione e Frontalizzazione Avanzate / Inversión y frontalización avanzadas",
+    "bridge": "In portoghese, come in spagnolo, puoi invertire l'ordine delle parole per dare enfasi o ottenere un effetto stilistico. Tuttavia, il portoghese europeo (e in misura minore quello brasiliano) utilizza l'inversione più frequentemente e con costruzioni che non sempre hanno un equivalente diretto in spagnolo. Ad esempio, l'anticipazione dei complementi con inversione del verbo e del soggetto è più comune in portoghese, e la particella 'é que' può suddividere la frase in modo diverso rispetto a 'es que' in spagnolo. Attenzione alla concordanza e alla posizione dei pronomi clitici, che in portoghese possono differire dalla norma spagnola.",
+    "rule": "L'inversione e la frontalizzazione in portoghese si usano per porre enfasi su un elemento, creare contrasto o mantenere il focus informativo. Esistono diverse strutture: 1) Frontalizzazione di complementi (oggetto diretto, indiretto, circostanziali) con inversione verbo-soggetto: 'Essas questões resolveremos nós.' (Queste questioni le risolveremo noi). 2) Uso di 'é que' per enfatizzare un costituente: 'Foi ontem que ela chegou.' (È stato ieri che lei è arrivata). 3) Inversione totale in frasi con 'talvez', 'provavelmente' o altri avverbi: 'Talvez tenha ele razão.' (Forse abbia lui ragione). 4) Inversione in frasi condizionali (senza congiunzione): 'Tivesse eu tempo, viajaria.' (Se avessi io tempo, viaggerei). 5) Frontalizzazione con 'quem' o 'o que' per enfasi: 'Quem tudo quer, tudo perde.' (Chi tutto vuole, tutto perde). Attenzione: in portoghese, l'inversione può richiedere il pronome personale soggetto esplicito (a differenza dello spagnolo, che spesso lo omette), e la posizione dei pronomi clitici può essere proclitica (prima del verbo) in alcune costruzioni negative o con avverbi. Nel portoghese brasiliano, l'inversione è meno frequente nel parlato colloquiale rispetto a quello europeo, ma si usa nella scrittura formale e letteraria.",
+    "concept_examples": [
+      {
+        "text": "Essas questões resolveremos nós.",
+        "translation": "Queste questioni le risolveremo noi.",
+        "phonetic": "/ˈɛsɐʃ kɨʃˈtõĩʃ ʁɨzolvˈeɾɛmus nus/"
+      },
+      {
+        "text": "Foi ontem que ela chegou.",
+        "translation": "È stato ieri che lei è arrivata.",
+        "phonetic": "/fɔj ˈõtɐj kɨ ˈɛlɐ ʃɨˈɡow/"
+      },
+      {
+        "text": "Talvez tenha ele razão.",
+        "translation": "Forse abbia lui ragione.",
+        "phonetic": "/tɐˈvɛjʃ ˈtɐɲɐ ˈelɨ ʁɐˈzɐ̃w/"
+      },
+      {
+        "text": "Tivesse eu tempo, viajaria.",
+        "translation": "Se avessi io tempo, viaggerei.",
+        "phonetic": "/tiˈvesɨ ew ˈtẽpu vjɐʒɐˈɾiɐ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Essas questões resolveremos.",
+      "correct": "Essas questões resolveremos nós.",
+      "correct_alt": "Nós resolveremos essas questões.",
+      "explanation": "Quando si antepone il complemento oggetto in portoghese, spesso è necessario includere il pronome soggetto esplicito dopo il verbo per evitare ambiguità o per mantenere il modello di inversione. In spagnolo, 'Esas cuestiones resolveremos' suona arcaico o letterale, ma in portoghese, senza il soggetto, la frase risulta grammaticalmente incompleta o poco naturale. Assicurati di aggiungere il pronome personale soggetto quando usi questa struttura enfatica, soprattutto nel portoghese europeo."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Frontalizzazione di complementi con inversione",
+        "translation": "Frontalização de complementos com inversão",
+        "examples": [
+          {
+            "original": "Aos amigos darei um presente.",
+            "phonetic": "/ɐwz ɐˈmiɡɨʃ dɐˈɾɛj ũ pɾɨˈzẽtɨ/",
+            "translation": "Agli amici darò un regalo.",
+            "note": "Il complemento indiretto viene anteposto e il verbo precede il soggetto (che si omette se è ovvio). In portoghese, il pronome 'lhes' non è necessario perché il complemento è già esplicito."
+          },
+          {
+            "original": "De tudo falaram os professores.",
+            "phonetic": "/dɨ ˈtudu fɐˈlaɾɐ̃w uʃ pɾufɨˈsoɾɨʃ/",
+            "translation": "Di tutto parlarono i professori.",
+            "note": "La frontalizzazione di un circostanziale di tema richiede inversione verbo-soggetto. In spagnolo, 'De todo hablaron los profesores' è possibile ma più marcato; in portoghese è una costruzione comune nella prosa scritta."
+          },
+          {
+            "original": "Isso nunca vi eu.",
+            "phonetic": "/ˈisu ˈnũkɐ vi ew/",
+            "translation": "Questo mai l'ho visto io.",
+            "note": "Con avverbio negativo, il pronome soggetto si posiziona dopo il verbo. In spagnolo si direbbe 'Eso nunca lo vi yo', ma il pronome 'lo' è necessario in spagnolo, mentre in portoghese non si usa un clitico corrispondente."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Costruzioni scisse con 'é que'",
+        "translation": "Construções clivadas com 'é que'",
+        "examples": [
+          {
+            "original": "Foi ele que comeu o bolo.",
+            "phonetic": "/fɔj ˈelɨ kɨ kuˈmew u ˈbolu/",
+            "translation": "È stato lui a mangiare la torta.",
+            "note": "La struttura 'é que' enfatizza il soggetto. In spagnolo si usa 'fue él quien' o 'es él quien'. In portoghese si usa 'que' (non 'quem') quando il verbo principale è 'ser' e l'elemento enfatizzato è il soggetto."
+          },
+          {
+            "original": "É agora que eu vou sair.",
+            "phonetic": "/ɛ ɐˈɡoɾɐ kɨ ew vow sɐˈiɾ/",
+            "translation": "È ora che uscirò.",
+            "note": "Per enfatizzare un circostanziale temporale, si usa 'é que' in portoghese. In spagnolo si userebbe 'es ahora cuando' o 'es ahora que' (questa seconda opzione è un calco dall'inglese e a volte si usa, ma non è normativa)."
+          },
+          {
+            "original": "Foi por isso que ela não veio.",
+            "phonetic": "/fɔj puɾ ˈisu kɨ ˈɛlɐ nɐ̃w ˈvɐj.u/",
+            "translation": "È per questo che lei non è venuta.",
+            "note": "La causa viene enfatizzata con 'é que'. In spagnolo, la forma più naturale è 'Fue por eso que no vino' o 'Por eso fue que no vino'; entrambe sono simili. Nota che in portoghese non si usa la virgola."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Inversione in frasi condizionali e con 'talvez'",
+        "translation": "Inversão em orações condicionais e com 'talvez'",
+        "examples": [
+          {
+            "original": "Tivesse ele estudado, teria passado.",
+            "phonetic": "/tiˈvesɨ ˈelɨ ʃtuˈdadu tɨˈɾiɐ pɐˈsadu/",
+            "translation": "Se avesse studiato, avrebbe passato l'esame.",
+            "note": "Si può omettere 'se' nella frase condizionale e mettere il verbo al congiuntivo (trapassato) all'inizio, con il soggetto dopo. In spagnolo questo è possibile ma molto formale ('Hubiera estudiado, habría aprobado') e si preferisce 'Si hubiera estudiado...'."
+          },
+          {
+            "original": "Talvez seja ele o escolhido.",
+            "phonetic": "/tɐˈvɛjʃ ˈsɐjʒɐ ˈelɨ u ʃkuˈʎidu/",
+            "translation": "Forse sia lui il prescelto.",
+            "note": "Con 'talvez' (forse), il portoghese può invertire verbo e soggetto in registro formale. In spagnolo, 'Quizá sea él el elegido' è possibile ma si usa più spesso 'quizá él sea el elegido'. L'inversione in portoghese è più frequente nella scrittura curata."
+          },
+          {
+            "original": "Por acaso chegasse ele, avisa-me.",
+            "phonetic": "/puɾ ɐˈkazu ʃɨˈɡasɨ ˈelɨ ɐˈvizɐ mɨ/",
+            "translation": "Casomai arrivasse lui, avvisami.",
+            "note": "Con 'por acaso' al condizionale, si può usare l'inversione con il congiuntivo. Questa struttura è molto letteraria e non è comune nel portoghese brasiliano, ma sì in quello europeo."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "it": "Inversione e Frontalizzazione Avanzate"
+    }
+  }
+]
