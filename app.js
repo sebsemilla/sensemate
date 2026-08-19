@@ -694,6 +694,19 @@ function _initMisionHub() {
     const grid = document.getElementById('misionPathGrid');
     if (!grid) return;
 
+    // Limpiar sección A0 y tabs anteriores al cambiar de idioma
+    document.getElementById('msnake-a0-section')?.remove();
+    document.getElementById('inglesHubTabs')?.remove();
+
+    // Actualizar título superior con el idioma destino actual
+    const _LANG_DISPLAY = {
+        es:'Español', en:'Inglés', fr:'Francés', pt:'Português', de:'Alemán',
+        it:'Italiano', zh:'Chino', ja:'Japonés', ko:'Coreano', ru:'Ruso',
+        ar:'Árabe', gn:'Guaraní', qu:'Quechua', wo:'Wolof', ha:'Hausa', yo:'Yoruba',
+    };
+    const titleEl = document.querySelector('.mision-path-title em');
+    if (titleEl) titleEl.textContent = _LANG_DISPLAY[targetLang] || targetLang;
+
     if (targetLang === 'en') { _initInglesHub(); return; }
     if (targetLang === 'es' && _ESPANOL_A1_NUEVOS[sourceLang]) { _initEspanolNuevoHub(); return; }
     if (targetLang !== 'es' && _MISION_LANG_DIRS[targetLang]) { _initGenericLangHub(targetLang); return; }
@@ -2884,7 +2897,7 @@ function showMainMenu() {
                     <p class="mision-intro-text">Avanzá módulo a módulo con tu tutor IA. Completá cada paso para desbloquear el siguiente.</p>
                     <button class="mision-tutorial-btn" id="misionTutorialBtn">📖 Tutorial</button>
                 </div>
-                <h3 class="mision-path-title">Da tus primeros pasos en <em>${({"es":"Español","fr":"Français","it":"Italiano","pt":"Português","en":"English","de":"Deutsch"})[targetLang] || targetLang || 'Español'}</em></h3>
+                <h3 class="mision-path-title">Da tus primeros pasos en <em>${({"es":"Español","en":"Inglés","fr":"Francés","pt":"Português","de":"Alemán","it":"Italiano","zh":"Chino","ja":"Japonés","ko":"Coreano","ru":"Ruso","ar":"Árabe","gn":"Guaraní","qu":"Quechua","wo":"Wolof","ha":"Hausa","yo":"Yoruba"})[targetLang] || targetLang || 'Español'}</em></h3>
                 <div class="mision-path-grid" id="misionPathGrid"></div>
             </div>` : ''}
 
