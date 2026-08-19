@@ -23,13 +23,14 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: path.join(__dirname, '.env') });
 
-// Provider seleccionado vía --provider=groq|deepseek (default: deepseek)
-const _providerArg = process.argv.find(a => a.startsWith('--provider='))?.split('=')[1] || 'deepseek';
+// Provider seleccionado vía --provider=groq|deepseek|mistral (default: mistral)
+const _providerArg = process.argv.find(a => a.startsWith('--provider='))?.split('=')[1] || 'mistral';
 
 function _makeClient(provider) {
-    if (provider === 'groq') {
+    if (provider === 'groq')
         return { client: new OpenAI({ apiKey: process.env.GROQ_API_KEY, baseURL: 'https://api.groq.com/openai/v1' }), model: 'openai/gpt-oss-20b' };
-    }
+    if (provider === 'mistral')
+        return { client: new OpenAI({ apiKey: process.env.MISTRAL_API_KEY, baseURL: 'https://api.mistral.ai/v1' }), model: 'mistral-large-latest' };
     return { client: new OpenAI({ apiKey: process.env.DEEPSEEK_API_KEY, baseURL: 'https://api.deepseek.com' }), model: 'deepseek-chat' };
 }
 
@@ -702,6 +703,58 @@ Then 6 essential Darija vocabulary cards:
             },
         ],
     },
+    gn: {
+        scriptType: 'latin',
+        levelName:  'El guaraní — sonidos únicos',
+        groups: [
+            {
+                slug: 'nasal_vowels', name: 'Vocales nasales', icon: '🔤', color: '#6366f1',
+                description: 'ã · ẽ · ĩ · õ · ũ · ỹ — las 6 vocales nasales del guaraní',
+                letterCards: ['Ã_GN','Ẽ','Ĩ','Õ_GN','Ũ','Ỹ'],
+                scope: `Guaraní nasal vowels — 1 isLetter card per vowel:
+- Ã /ã/: nasal a — ãga (soul/spirit), ára (day/sky), mba'ã (something)
+- Ẽ /ẽ/: nasal e — arẽ (long time ago), ẽme (don't!)
+- Ĩ /ĩ/: nasal i — mĩ (small/a little), añaretã (hell, lit. "devil's land")
+- Õ /õ/: nasal o — õga (house variant), avõ (cotton)
+- Ũ /ũ/: nasal u — tũ (black, in compounds), mbũ (sink/drown)
+- Ỹ /ɨ̃/: nasal "y" (6th vowel, unique to Guaraní — no Spanish equivalent!)
+  ỹkere (type of snake), ỹpỹ (first/origin)
+Key concept: nasality spreads to nearby consonants — if a vowel is nasal, preceding/following sounds become nasal too.
+Then 2 vocabulary cards: ára(day/sky), ko'ẽ(dawn/tomorrow morning).`,
+            },
+            {
+                slug: 'glottal_y', name: "Oclusiva glotal y Y especial", icon: '🔡', color: '#f59e0b',
+                description: "puso'o (') · Y como /ɨ/ · CH · MB · ND",
+                letterCards: ["GLOTTAL","Y_GN","CH_GN","MB","ND"],
+                scope: `Guaraní unique sounds — 1 isLetter card per:
+- GLOTTAL (puso'o) /'/ : glottal stop written as apostrophe — pe'a (open it!), mbo'e (teach), ko'ã (these).
+  Critical: changes word meaning entirely. ta'ãnga (image/photo) vs taãnga (without the stop).
+- Y /ɨ/: NOT the Spanish Y. It's the 6th oral vowel — a central unrounded vowel like Russian "ы".
+  yvoty (flower), yvy (earth/land), yvaga (sky/heaven), pytũ (darkness).
+- CH /tʃ/: like English CH — che (I/me — the most common word!), chupe (to him/her), chajá (bird).
+- MB /mb/: prenasalized B — mba'e (thing/what), mbo'ehára (teacher), mbói (snake).
+- ND /nd/: prenasalized D — nde (you), ndaipóri (there is not), ndaje (they say).
+Then 2 vocabulary cards: che(I/me), nde(you).`,
+            },
+            {
+                slug: 'key_phrases', name: 'Primeras palabras', icon: '💬', color: '#10b981',
+                description: 'Saludos y palabras esenciales en guaraní',
+                letterCards: [],
+                scope: `Guaraní essential vocabulary — no isLetter cards, only vocabulary and dialogue cards:
+8 vocabulary cards:
+- mba'éichapa (how are you? — lit. "how is it?")
+- iporã (good/fine/beautiful)
+- aguyje (thank you)
+- ñandejára (God/lord — lit. "our owner")
+- ko'ẽmbota (good morning — lit. "when it dawns")
+- pytũmba (good evening/night)
+- ndaipóri mba'e (you're welcome — lit. "there is nothing")
+- rohayhu (I love you — lit. "I want you well")
+Then 1 dialogue of 6 turns: two people meeting for the first time, using these phrases naturally.`,
+            },
+        ],
+    },
+
 };
 
 // ─── I/O helpers ──────────────────────────────────────────────
@@ -835,13 +888,16 @@ async function generateGroup(target, source, groupCfg, groupIndex, totalGroups, 
                 model:       _defaultModel,
                 temperature: 0.7,
                 max_tokens:  tokenLimit,
+                response_format: { type: 'json_object' },
                 messages: [{ role: 'user', content: prompt }],
             });
 
             const raw = resp.choices[0].message.content.trim()
                 .replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/, '');
 
-            const parsed = JSON.parse(raw);
+            let parsed;
+            try { parsed = JSON.parse(raw); }
+            catch { parsed = JSON.parse(raw.replace(/[\u0000-\u001F\u007F]/g, c => c==='\n'?'\\n':c==='\t'?'\\t':'')); }
 
             if (!Array.isArray(parsed.cards) || parsed.cards.length === 0) {
                 throw new Error('No cards array in response');
