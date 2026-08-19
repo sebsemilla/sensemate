@@ -343,6 +343,32 @@ Respond ONLY with a valid JSON object. No markdown, no extra text:
 }`;
 }
 
+// ─── Sanitización de respuesta JSON ──────────────────────────
+function extractJSON(raw) {
+    // Intenta parse directo
+    try { return JSON.parse(raw); } catch (_) {}
+    // Elimina caracteres de control no escapados dentro de strings
+    const fixed = raw.replace(/[\u0000-\u001F\u007F]/g, c => {
+        if (c === '\n') return '\\n';
+        if (c === '\r') return '\\r';
+        if (c === '\t') return '\\t';
+        return '';
+    });
+    try { return JSON.parse(fixed); } catch (_) {}
+    // Extrae primer bloque {...} balanceado
+    const start = raw.indexOf('{');
+    if (start === -1) throw new SyntaxError('No JSON object found');
+    let depth = 0, inStr = false, esc = false;
+    for (let i = start; i < raw.length; i++) {
+        const ch = raw[i];
+        if (esc) { esc = false; continue; }
+        if (ch === '\\') { esc = true; continue; }
+        if (ch === '"') { inStr = !inStr; continue; }
+        if (!inStr) { if (ch === '{') depth++; else if (ch === '}' && --depth === 0) return JSON.parse(raw.slice(start, i + 1)); }
+    }
+    throw new SyntaxError('Unbalanced JSON');
+}
+
 // ─── Llamada al modelo ────────────────────────────────────────
 
 async function generateGroup(target, source, level, scenario, groupIndex, existingWords, retries = 3) {
@@ -353,11 +379,12 @@ async function generateGroup(target, source, level, scenario, groupIndex, existi
                 model:       activeModel,
                 temperature: 0.8,
                 max_tokens:  providerMaxTokens(),
+                response_format: { type: 'json_object' },
                 messages: [{ role: 'user', content: prompt }],
             });
             const raw = resp.choices[0].message.content.trim()
                 .replace(/^```json\s*/i, '').replace(/```\s*$/, '');
-            const parsed = JSON.parse(raw);
+            const parsed = extractJSON(raw);
             if (!parsed.vocabulary?.length || !parsed.dialogue?.length) {
                 throw new Error('Missing vocabulary or dialogue');
             }
@@ -405,11 +432,12 @@ async function translateGroup(group, fromSource, newSource, retries = 3) {
                 model:       activeModel,
                 temperature: 0.3,
                 max_tokens:  providerMaxTokens(),
+                response_format: { type: 'json_object' },
                 messages: [{ role: 'user', content: prompt }],
             });
             const raw = resp.choices[0].message.content.trim()
                 .replace(/^```json\s*/i, '').replace(/```\s*$/, '');
-            const parsed = JSON.parse(raw);
+            const parsed = extractJSON(raw);
             if (!parsed.vocabulary?.length || !parsed.dialogue?.length) {
                 throw new Error('Missing vocabulary or dialogue');
             }
