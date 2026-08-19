@@ -4058,6 +4058,13 @@ function loadSimpleMode() {
                     <button class="smp-extra-btn smp-syn-inline-btn hidden" id="smpSynonymsBtn">📚 ${t.ver_sinonimos_btn}</button>
                 </div>
                 <div class="smp-controls-right">
+                    <div class="smp-voice-select-group">
+                        <span class="smp-voice-label">Voz/Mic:</span>
+                        <select class="school-level-select" id="voiceMethodSelect">
+                            <option value="none">— Ninguna —</option>
+                            <option value="webspeech">Web (Chrome)</option>
+                        </select>
+                    </div>
                     <select class="school-level-select" id="speedSelect" title="${t.speed_label || 'Velocidad'}">
                         <option value="0.8">${t.speed_lento || 'Lento'}</option>
                         <option value="1.0" selected>${t.speed_normal || 'Normal'}</option>
@@ -4073,6 +4080,12 @@ function loadSimpleMode() {
                         </svg>
                     </button>
                 </div>
+            </div>
+
+            <!-- Aviso voz Chrome -->
+            <div class="smp-voice-notice hidden" id="smpVoiceNotice">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                Asegurate de elegir esta opción usando <strong>Chrome</strong>
             </div>
 
             <!-- Tira de sinónimos (debajo del controls bar) -->
@@ -4214,12 +4227,24 @@ function loadSimpleMode() {
     const charCount     = document.getElementById('smpCharCount');
     const clearBtn      = document.getElementById('smpClearBtn');
     const autoBtn       = document.getElementById('smpAutoBtn');
-    const micBtn        = document.getElementById('smpMicBtn');
+    const micBtn         = document.getElementById('smpMicBtn');
     const sourceAudioBtn = document.getElementById('smpSourceAudioBtn');
-    const pasteBtn      = document.getElementById('smpPasteBtn');
-    const placeholder   = document.getElementById('smpPlaceholder');
-    const loadingEl     = document.getElementById('smpLoading');
-    const cardsEl       = document.getElementById('smpCards');
+    const pasteBtn       = document.getElementById('smpPasteBtn');
+    const placeholder    = document.getElementById('smpPlaceholder');
+    const loadingEl      = document.getElementById('smpLoading');
+    const cardsEl        = document.getElementById('smpCards');
+    const voiceSelect    = document.getElementById('voiceMethodSelect');
+    const voiceNotice    = document.getElementById('smpVoiceNotice');
+
+    // Mic oculto hasta que se elija método de voz
+    micBtn.style.display = 'none';
+
+    voiceSelect.addEventListener('change', () => {
+        const val = voiceSelect.value;
+        const isWeb = val === 'webspeech';
+        micBtn.style.display = isWeb ? '' : 'none';
+        voiceNotice.classList.toggle('hidden', !isWeb);
+    });
 
     // ── Contexto opcional ─────────────────────────────────────
     const ctxToggle = document.getElementById('smpContextHintToggle');

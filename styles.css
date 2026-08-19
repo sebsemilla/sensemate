@@ -2449,6 +2449,37 @@ body.dark-mode .smp-paste-btn:hover { background: rgba(255,255,255,.1); color: #
 }
 body.dark-mode .smp-synonyms-strip { background: rgba(255,255,255,.04); border-color: rgba(255,255,255,.1); }
 
+/* ── Selector de voz/mic ── */
+.smp-voice-select-group {
+    display: flex;
+    align-items: center;
+    gap: .35rem;
+}
+.smp-voice-label {
+    font-size: .72rem;
+    font-weight: 600;
+    color: var(--text-muted, #64748b);
+    white-space: nowrap;
+}
+.smp-voice-notice {
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+    margin-top: .5rem;
+    padding: .55rem .85rem;
+    background: #fffbeb;
+    border: 1px solid #fcd34d;
+    border-radius: .55rem;
+    font-size: .78rem;
+    color: #92400e;
+}
+body.dark-mode .smp-voice-notice {
+    background: rgba(252, 211, 77, .08);
+    border-color: rgba(252, 211, 77, .35);
+    color: #fcd34d;
+}
+.smp-voice-notice svg { flex-shrink: 0; }
+
 /* ── Acciones extra (IA in Context) ── */
 .smp-extra-actions {
     margin-top: 1rem;
